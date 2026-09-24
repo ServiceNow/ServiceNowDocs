@@ -2,7 +2,7 @@
 title: Service Graph Connector for Netskope
 description: The Service Graph Connector for Netskope pulls in asset inventory data \(hardware and software\) from the Netskope database into the Configuration Management Database \(CMDB\) application in your ServiceNow AI Platform instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-netskope-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-netskope-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -33,9 +33,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Guided setup
 
-Use the guided setup feature to help you configure your integration in an organized sequence of tasks. For instructions, see [Configure the Service Graph Connector for Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-netskope-configure.md).
+Use the guided setup feature to help you configure your integration in an organized sequence of tasks. For instructions, see [Configure the Service Graph Connector for Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-netskope-configure.md).
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring SentinelOne integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring SentinelOne integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 

@@ -2,7 +2,7 @@
 title: Tables installed with the SAP publisher pack
 description: Tables are installed with the Software Asset Management Professional for SAP plugin. The tables store data pulled from the SAP systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/component-installed-sap-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/component-installed-sap-plugin.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -194,7 +194,7 @@ SAP Digital Access\[samp\_sap\_digital\_access\]
 |/NOW/USMM\_DATA|SAP USMM Rules \[samp\_sap\_usmm\_rule\]|
 |/NOW/DIGITAL\_ACC|SAP Digital Access \[samp\_sap\_digital\_access\]|
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

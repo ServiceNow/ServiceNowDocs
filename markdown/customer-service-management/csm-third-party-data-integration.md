@@ -2,7 +2,7 @@
 title: Third-party data integration for CSM
 description: The third-party data integration feature enables you to retrieve data from third-party applications and display the data in Agent Workspace for CSM without having to store it in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-third-party-data-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-third-party-data-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ Users with the system administrator role can configure the necessary components 
 -   Configuring ACLs for the remote table to provide user access to the third-party data.
 -   Configuring the lists and forms that display data from the remote table.
 
-For more information, see [Configure third-party data integration for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-third-party-integration.md).
+For more information, see [Configure third-party data integration for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-third-party-integration.md).
 
 ## Using third-party data integration
 

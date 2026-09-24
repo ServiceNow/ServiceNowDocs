@@ -2,7 +2,7 @@
 title: Manage product adoption roadmaps for Impact Delivery Instance
 description: Create a product Adoption Roadmap \(PAR\) with a single click by selecting the template that best supports your specific business outcome.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/create-and-publish-a-product-adoption-roadmap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/create-and-publish-a-product-adoption-roadmap.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -94,9 +94,9 @@ Enter the **Name** and **Description**.
 
 You can also edit the published roadmap by selecting **Edit roadmap** to manage the adoption phases and capabilities.
 
-This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
+This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/install-impact-innovation-lab.md) for more information.
 
 **Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
 

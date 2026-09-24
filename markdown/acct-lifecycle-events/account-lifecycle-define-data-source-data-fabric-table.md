@@ -2,10 +2,10 @@
 title: Define a Workflow Data Fabric table data source
 description: Enable data collection and analysis from external tables by integrating the Data Context Engine with Workflow Data Fabric to generate actionable insights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-define-data-source-data-fabric-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-define-data-source-data-fabric-table.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Define a table data source, Define the data source, Data context engine, Customer success, Configure, Customer Success Management]
 ---
@@ -34,7 +34,7 @@ Access external data through the Workflow Data Fabric tables and analyzed it usi
 
 4.  On the Data Source Form, fill in the remaining fields.
 
-    For a description of the field values, see [Define a table data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-data-source-table.md) page.
+    For a description of the field values, see [Define a table data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-data-source-table.md) page.
 
 5.  Select **Submit** to create the data source.
 
@@ -60,5 +60,5 @@ To get the total number of licenses used this quarter across accounts and produc
 
 ## What to do next
 
-After defining the data source, the next step is to configure the context engine mapper. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details.
+After defining the data source, the next step is to configure the context engine mapper. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details.
 

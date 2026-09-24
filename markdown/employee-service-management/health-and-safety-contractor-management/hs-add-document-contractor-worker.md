@@ -2,7 +2,7 @@
 title: Add a document to a contractor worker
 description: Add any documents collected from a contractor worker or related to this contractor worker.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/hs-add-document-contractor-worker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-contractor-management/hs-add-document-contractor-worker.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -26,15 +26,15 @@ Role required: sn\_hs\_crm.contractor\_coordinator or sn\_ohs\_im.document\_writ
 
 2.  Open a contractor worker record to add the document to.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d447635e73">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d447639e73">
 
 Option
 
-</th><th align="left" id="d447635e76">
+</th><th align="left" id="d447639e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d447635e82">
+</th></tr></thead><tbody><tr><td id="d447639e82">
 
 **From a contractor company record**
 
@@ -46,7 +46,7 @@ Steps
 4.  In the **Workers** tab, select the worker from the list to add the document to.
 
 
-</td></tr><tr><td id="d447635e127">
+</td></tr><tr><td id="d447639e127">
 
 **From Health and Safety user profile list**
 
@@ -62,7 +62,7 @@ Steps
 
 4.  On the form, fill in the fields.
 
-    For information on form field descriptions, see [Health and Safety document version form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-document-form.md).
+    For information on form field descriptions, see [Health and Safety document version form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-document-form.md).
 
 5.  Select **Save**.
 

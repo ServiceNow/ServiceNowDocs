@@ -2,7 +2,7 @@
 title: View risk assessment details
 description: Review the risk assessment results for a conflict of interest disclosure, including the overall risk score, risk level, individual risk factor responses, and the risk assessment report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/lsd-coi-view-risk-asmt-dets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-conflict-of-interest/lsd-coi-view-risk-asmt-dets.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -57,5 +57,5 @@ When an employee submits a COI disclosure, the risk assessment evaluates the req
     2.  Select the record associated with the legal request number for which you want to view the overall risk assessment.
 
 
-**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
+**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
 

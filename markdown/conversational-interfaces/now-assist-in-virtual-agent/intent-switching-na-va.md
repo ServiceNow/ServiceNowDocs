@@ -2,7 +2,7 @@
 title: Mid-topic switching during ServiceNow Otto for Virtual Agent conversations
 description: Mid-topic switching easily lets you switch between requests, using plain language whenever new queries are made in the same ServiceNow Otto for Virtual Agent conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

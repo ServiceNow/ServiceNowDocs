@@ -2,7 +2,7 @@
 title: Define item quantity choices
 description: In the Service Catalog, the default quantity choices are 1–10. You can configure the quantity selector with additional choices. This configuration is also applicable in Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ItemQuantity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_ItemQuantity.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -35,10 +35,10 @@ Role required: admin
     To restrict the roles allowed to change quantities, edit the **List of roles \(comma-separated\) that can use the quantity selector in the shopping cart** \(**glide.sc.allow.quantity**\) service catalog property. For example, you can limit this ability to the admin and catalog\_admin roles.
 
 
-**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 
 **Related topics**  
 
 
-[Service Catalog administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_ServiceCatalogAdministration.md)
+[Service Catalog administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_ServiceCatalogAdministration.md)
 

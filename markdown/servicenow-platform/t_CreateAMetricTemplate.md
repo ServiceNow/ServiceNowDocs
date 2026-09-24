@@ -2,7 +2,7 @@
 title: Create a metric template
 description: Create a metric template to define reusable rating scales for evaluating non-scripted metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateAMetricTemplate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreateAMetricTemplate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,19 +47,19 @@ Role required: assessment\_admin or admin
 8.  Click **Update**.
 
 
--   **[Metric templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MetricTemplates.md)**  
+-   **[Metric templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_MetricTemplates.md)**  
 Metric templates define reusable rating scales for evaluating non-scripted metrics.
--   **[Update a metric minimum and maximum value to match a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_UpdAMetrMinMaxValToMatchATmplate.md)**  
+-   **[Update a metric minimum and maximum value to match a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_UpdAMetrMinMaxValToMatchATmplate.md)**  
 For assessment results to be properly calculated, the Min and Max values of a metric that uses a template must be equal to the smallest and largest template definition Value, respectively.
 
-**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentProcess.md)
+**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentProcess.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md)
 
-[Create an assessment metric for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetric.md)
+[Create an assessment metric for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAMetric.md)
 
-[Create an assessment metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetricDefinition.md)
+[Create an assessment metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAMetricDefinition.md)
 

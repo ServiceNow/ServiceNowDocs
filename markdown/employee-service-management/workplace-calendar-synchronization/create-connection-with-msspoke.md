@@ -2,7 +2,7 @@
 title: Create a connection with Microsoft Exchange Online spoke
 description: Connect to the Microsoft Exchange Online spoke by creating a connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -25,7 +25,7 @@ Ensure the following:
     **Important:** After installing Microsoft Exchange Online spoke, check that the **Data Stream action** field of the Data source **Exchange Online Calendar** is not set to empty. Otherwise, repair the Microsoft Exchange Online spoke plugin.
 
 2.  After installing Microsoft Exchange Online spoke, depending on what type of customer you are, perform the following actions:
-    -   If you are a new customer, to install the applications, refer to [Install Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/install-workplace-calendar-synchronization.md).
+    -   If you are a new customer, to install the applications, refer to [Install Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/install-workplace-calendar-synchronization.md).
     -   If you are an existing customer, upgrade to the latest versions of the following applications:
         -   Workplace Reservation Management
         -   Workplace Calendar Synchronization
@@ -61,9 +61,9 @@ Synchronize reservations using a connection with the Microsoft Exchange Online s
 
 ## What to do next
 
-[Set up OAuth connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-connectivity-with-msexchange-for-calendar-sync.md)
+[Set up OAuth connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/setup-connectivity-with-msexchange-for-calendar-sync.md)
 
-**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
+**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
 
 **Related topics**  
 

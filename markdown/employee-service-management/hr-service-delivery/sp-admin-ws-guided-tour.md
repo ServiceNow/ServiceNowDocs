@@ -2,7 +2,7 @@
 title: Use Guided Tours in Admin Workspace for Service Providers
 description: Use Guided Tours in Admin Workspace for Service providers to get an overview of the workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/sp-admin-ws-guided-tour.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/sp-admin-ws-guided-tour.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

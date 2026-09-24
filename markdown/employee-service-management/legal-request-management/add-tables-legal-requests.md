@@ -2,7 +2,7 @@
 title: Add legal request tables for data indexing
 description: Add the legal request tables to be considered for data indexing for AI Search in the ServiceNow Otto for Legal Service Delivery \(LSD\) application. The legal request tables are indexed so that you can get relevant AI Search results for the legal records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/add-tables-legal-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/add-tables-legal-requests.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -42,5 +42,5 @@ Include the legal request tables to define them as indexed sources. These added 
 
 The legal request tables are indexed for AI Search.
 
-**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
+**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
 

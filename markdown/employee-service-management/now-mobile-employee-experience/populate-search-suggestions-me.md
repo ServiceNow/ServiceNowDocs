@@ -2,7 +2,7 @@
 title: Populate search suggestions in the mobile apps
 description: If you are upgrading from a previous release, run a script to populate search suggestions with data from a platform search table to provide search suggestions to your users. Alternatively, you can wait until users search for keywords instead of running this script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/populate-search-suggestions-me.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-mobile-employee-experience/populate-search-suggestions-me.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -45,5 +45,5 @@ Search suggestions improve over time as more people use the app. Search Suggesti
 
 Users see suggestions when they start typing in a search field in the Now Mobile app.
 
-**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

@@ -2,7 +2,7 @@
 title: Set up the Oracle EBS spoke
 description: Integrate the ServiceNow instance and your Oracle EBS instance using a basic authentication to authenticate the ServiceNow requests.Configure Oracle Database 12C and later versions to work with the Oracle E-Business Suite spoke by deploying REST APIs and setting up ServiceNow connections.Configure Oracle Database 19C and later versions to work with the Oracle E-Business Suite spoke by deploying REST APIs and setting up ServiceNow connections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-oebs-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-oebs-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

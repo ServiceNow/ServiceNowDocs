@@ -2,7 +2,7 @@
 title: deleteRecord
 description: Delete a record from the targeted table by supplying its sys\_id.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_DeleteRecord.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/r\_DeleteRecord.html
 release: australia
 product: Web Services
 classification: web-services
@@ -56,7 +56,7 @@ Sample SOAP response
 
 For language-specific deleteRecord samples, refer to the following topics:
 
-[Perl SOAP::Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_PerlWebServicesClientExamples.md)
+[Perl SOAP::Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_PerlWebServicesClientExamples.md)
 
 Java Apache Axis2
 
@@ -64,5 +64,5 @@ Microsoft .NET
 
 Python
 
-**Parent Topic:**[Data Modification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_DataModificationAPI.md)
+**Parent Topic:**[Data Modification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_DataModificationAPI.md)
 

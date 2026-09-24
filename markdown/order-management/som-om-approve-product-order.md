@@ -2,7 +2,7 @@
 title: Approve orders in Order Management
 description: Approve an order in Order Management to begin decomposition and fulfillment process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-om-approve-product-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-om-approve-product-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ The order is approved and the order state changes to In progress while it’s be
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

@@ -2,7 +2,7 @@
 title: Structure of a data collector
 description: This section describes the structure of a PaCE data collector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-data-collector-structure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-data-collector-structure.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -33,5 +33,5 @@ The following table lists the data collector function parameters and how they ca
 |Input|Inputs are used as parameters that help collect the correct data to be used in the policy.|
 |Output|The parameter is used to pass the output of the data collector. Outputs are used to specify output variables that can be used in the policy logic.|
 
-Refer to the [Data type descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-data-type-descriptions.md) topic to see a list of the supported data types for the inputs and outputs.
+Refer to the [Data type descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-data-type-descriptions.md) topic to see a list of the supported data types for the inputs and outputs.
 

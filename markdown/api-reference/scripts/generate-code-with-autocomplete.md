@@ -2,12 +2,12 @@
 title: Generate code with autocomplete
 description: The autocomplete feature of ServiceNow Otto for Code provides you with contextually relevant code suggestions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/generate-code-with-autocomplete.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/generate-code-with-autocomplete.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Use, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---

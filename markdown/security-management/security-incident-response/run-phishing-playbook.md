@@ -2,7 +2,7 @@
 title: Run the automated phishing response playbook flow
 description: Using the flow designer, you can define and automate tasks in the playbook to analyze and resolve phishing attacks against your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/run-phishing-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/run-phishing-playbook.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -76,7 +76,7 @@ The following steps describe how to make a copy of the phishing playbook templat
 
     Select the action designer icon \[Omitted image "cj-sir-flow-actiondesign-icon.png"\] Alt text: Action designer icon to see a detailed view of the action.
 
-    To view the [Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/action-phishing-playbook.md) page, expand a step in the flow and click the action designer icon.
+    To view the [Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/action-phishing-playbook.md) page, expand a step in the flow and click the action designer icon.
 
 10. In step 6, an automated response task is created.
 
@@ -88,7 +88,7 @@ The following steps describe how to make a copy of the phishing playbook templat
     -   Enrich Observables: This subflow is used perform enrichment of observables with configured implementations.
     Notice the icons for this task. The parallel operations icon \[Omitted image "cj-sir-flow-paralllelops-icon.png"\] Alt text: Parallel operations icon indicates that both the tasks will be performed in parallel and the subflow icon \[Omitted image "cj-sir-flow-subflow-icon.png"\] Alt text: Subflow icon indicates that the task being performed is a subflow as shown below:
 
-    Notice the number 5 in the observables field. This indicates that the threat lookup will be run on observables retrieved in step 5. This subflow in turn calls existing workflows and actions as shown in the [Subflow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/subflow-phishing-playbook.md).
+    Notice the number 5 in the observables field. This indicates that the threat lookup will be run on observables retrieved in step 5. This subflow in turn calls existing workflows and actions as shown in the [Subflow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/subflow-phishing-playbook.md).
 
 12. In step 8, after the subflows have been completed, the response task is marked as Closed.
 
@@ -143,10 +143,10 @@ You can select **Test** to simulate the actions in the flow before you publish i
 
 Select **Executions** to view the execution details of the flow.
 
--   **[View automated phishing response playbook flow action designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/action-phishing-playbook.md)**  
+-   **[View automated phishing response playbook flow action designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/action-phishing-playbook.md)**  
 You can drill down to the Action Designer to view detailed information about the actions being performed for a specific step in the automated phishing response playbook flow.
--   **[View the automated phishing response playbook subflow designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/subflow-phishing-playbook.md)**  
+-   **[View the automated phishing response playbook subflow designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/subflow-phishing-playbook.md)**  
 You can drill down to the Subflow Designer to view detailed information about the subflow being executed as part of the automated phishing response playbook flow.
 
-**Parent Topic:**[Playbook for Automated Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/flow-designer-and-phishing-response.md)
+**Parent Topic:**[Playbook for Automated Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/flow-designer-and-phishing-response.md)
 

@@ -2,7 +2,7 @@
 title: Create a Mentoring relationship
 description: As a manager, create a mentoring relationship between two of your employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/create-mentoring-relationship.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/mentoring/create-mentoring-relationship.html
 release: australia
 product: Mentoring
 classification: mentoring
@@ -28,7 +28,7 @@ Role required: sn\_ecn.mentoring\_admin
 
 3.  On the Mentoring relationship form, fill in the fields.
 
-    For a description of the field values, see [Mentoring relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/mentoring-relationship-form.md).
+    For a description of the field values, see [Mentoring relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mentoring/mentoring-relationship-form.md).
 
 4.  Select **Save**.
 

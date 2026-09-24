@@ -2,7 +2,7 @@
 title: Inputs and triggers for ServiceNow Otto for Threat Intelligence Security Center \(TISC\)
 description: You can configure some of the inputs or triggers for a generative AI skill. Inputs or triggers permit you to determine how and when a skill is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/input-triggers-now-assist-tisc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/input-triggers-now-assist-tisc.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

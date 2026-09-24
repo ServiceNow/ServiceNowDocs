@@ -2,7 +2,7 @@
 title: NowChat API - iOS
 description: The NowChat API is a top-level global API that enables users to instantiate a NowChat service instance.Creates an instance of NowChatService with the specified configuration.Creates an instance of NowChatService with the specified configuration, and once complete, calls the specified completion handler.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowChatiOSAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowChatiOSAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API impl
 
 The NowChat API is a top-level global API that enables users to instantiate a NowChat service instance.
 
-**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowChat - makeChatService\(instanceUrl: URL, delegate: NowChatServiceDelegate?\)
 
@@ -27,11 +27,11 @@ Creates an instance of NowChatService with the specified configuration.
 |Name|Type|Description|
 |----|----|-----------|
 |instanceUrl|URL|URL of the ServiceNow instance providing chat services.|
-|delegate|[NowChatServiceDelegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceDelegateiOSProtocol.md)|Optional. Delegate object that implements the NowChatServiceDelegate protocol.|
+|delegate|[NowChatServiceDelegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatServiceDelegateiOSProtocol.md)|Optional. Delegate object that implements the NowChatServiceDelegate protocol.|
 
 |Type|Description|
 |----|-----------|
-|AnyPublisher&lt;[NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md), NowServiceError&gt;|If successful, returns an initialized NowChatService object. If it fails, returns a NowServiceError object.|
+|AnyPublisher&lt;[NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md), NowServiceError&gt;|If successful, returns an initialized NowChatService object. If it fails, returns a NowServiceError object.|
 
 The following code example shows how to call this function.
 
@@ -75,7 +75,7 @@ Creates an instance of `NowChatService` with the specified configuration, and on
 |----|----|-----------|
 |instanceUrl|URL|URL of the ServiceNow instance providing chat services.|
 |delegate|NowChatServiceDelegate|Optional. Delegate object that implements the NowChatServiceDelegate protocol.|
-|completion|@escaping \(\(Result&lt;[Now​Chat​Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called containing either an initialized `NowChatService` instance or a `NowServiceError` indicating why the initialization failed.|
+|completion|@escaping \(\(Result&lt;[Now​Chat​Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called containing either an initialized `NowChatService` instance or a `NowServiceError` indicating why the initialization failed.|
 
 |Type|Description|
 |----|-----------|

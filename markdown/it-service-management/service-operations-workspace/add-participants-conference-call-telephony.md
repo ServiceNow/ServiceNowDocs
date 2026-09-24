@@ -2,7 +2,7 @@
 title: Administer an existing Twilio call in Service Operations Workspace
 description: Add or mute participants in a Twilio conference call.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/add-participants-conference-call-telephony.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/add-participants-conference-call-telephony.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -51,5 +51,5 @@ Role required: itil
 9.  Mute participants to avoid background noise by selecting the Mute icon \(\[Omitted image "mute-icon-conf-call.png"\] Alt text: Mute icon.\).
 
 
-**Parent Topic:**[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/telephony-sow.md)
+**Parent Topic:**[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/telephony-sow.md)
 

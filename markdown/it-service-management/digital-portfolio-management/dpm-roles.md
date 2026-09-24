@@ -2,7 +2,7 @@
 title: Roles for Digital Portfolio Management
 description: Several types of components are installed with Digital Portfolio Management \(DPM\) when you activate the application from the ServiceNow ServiceNow Store. DPM has two roles - admin and user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-roles.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -121,10 +121,10 @@ To assign the DPM manager role to a group, the admin does the following:
 |sn\_dpm\_kpi\_group\_m2m\_spm\_nodes|Stores records for key performance indicator \(KPI\) group nodes from Service Portfolio Management.|
 |sn\_team\_perf\_kpi\_group|Stores records for KPIs, a PA indicator, and data visualization properties.|
 
-**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
+**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 
 **Related topics**  
 
 
-[Activate Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-activate.md)
+[Activate Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-activate.md)
 

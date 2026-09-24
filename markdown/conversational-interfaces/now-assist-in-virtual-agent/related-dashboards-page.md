@@ -2,7 +2,7 @@
 title: Related dashboards page
 description: The Related Dashboards page in Assistant analytics dashboard provides a centralized location to view and manage dashboards created in the Platform Analytics experience and shared across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/related-dashboards-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/related-dashboards-page.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -49,7 +49,7 @@ The dashboard library supports pagination to help you navigate through large num
 
 Role required: virtual\_agent\_admin
 
-See [Add a dashboard to dashboard library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-a-dashboard-to-dashboard-library.md) and [Edit a dashboard in the dashboard library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/edit-a-dashboard-in-the-dashboard-library.md) for information on adding and editing a dashboard respectively.
+See [Add a dashboard to dashboard library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-a-dashboard-to-dashboard-library.md) and [Edit a dashboard in the dashboard library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/edit-a-dashboard-in-the-dashboard-library.md) for information on adding and editing a dashboard respectively.
 
 ## View a dashboard
 

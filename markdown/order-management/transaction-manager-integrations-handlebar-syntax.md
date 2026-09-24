@@ -2,7 +2,7 @@
 title: ServiceNow Quote Experience Integrations - Handlebars syntax
 description: You can use the Handlebars templating language when you build an integration transformation template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-integrations-handlebar-syntax.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/transaction-manager-integrations-handlebar-syntax.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

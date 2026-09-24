@@ -2,7 +2,7 @@
 title: Customizing AI Response Assist sources
 description: The Smart Assessment Response Assist skill refers to previous assessments and documents to generate suggestions. By default, the skill uses scope-based matching for previous assessments and the files attached to the assessment instance for documents. To use different sources for a specific template category, implement the Smart Assessment Response Assist scripted extension point.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/customizing-ai-response-assist-sources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/customizing-ai-response-assist-sources.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -170,7 +170,7 @@ After you create the script include, register it as an implementation of `sn_sma
 **Related topics**  
 
 
-[Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md)
+[Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md)
 
-[Configure ServiceNow Otto for Smart Assessment Engine \(SAE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-servicenow-otto-for-smart-assessment-engine.md)
+[Configure ServiceNow Otto for Smart Assessment Engine \(SAE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/configure-servicenow-otto-for-smart-assessment-engine.md)
 

@@ -2,7 +2,7 @@
 title: Associate an interaction record with a related procurement case in Source-to-Pay Workspace
 description: Associate an interaction record to a procurement case if your interaction is related to an existing procurement case. You can also associate a task to an interaction record to track your actions related to the interaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/associate-interaction-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/associate-interaction-record.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -82,5 +82,5 @@ Procurement task that you want to associate to an interaction record.**Note:** T
 
 The interaction record is updated with its associated procurement case.
 
-**Parent Topic:**[Interaction Management in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/interaction-management-in-procurement-operations-workspace.md)
+**Parent Topic:**[Interaction Management in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/interaction-management-in-procurement-operations-workspace.md)
 

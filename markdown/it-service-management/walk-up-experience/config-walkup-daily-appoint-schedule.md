@@ -2,7 +2,7 @@
 title: Configure daily schedules for Walk-up Experience appointment booking
 description: Define hours of operation and daily schedules for booking an appointment at your Walk-up Experience location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/config-walkup-daily-appoint-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/config-walkup-daily-appoint-schedule.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -66,5 +66,5 @@ Create a unique appointment booking schedule for each day of the week or for spe
     \[Omitted image "SelectAnAppointment.png"\] Alt text: Appointment selection choices
 
 
-**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
+**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
 

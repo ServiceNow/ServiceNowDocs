@@ -2,7 +2,7 @@
 title: View, edit and assign unassigned security incidents with the Security Incident Response Mobile app
 description: From your mobile device, view, edit, and assign unassigned Security Incident Response \(SIR\) incidents. View related lists and the audit trail of work notes for more details about incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mobile-sir-unassigned-incdts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mobile-sir-unassigned-incdts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -26,7 +26,7 @@ From the list of records, assign an open, unassigned security incident to yourse
 
 ## Procedure
 
-1.  If you aren't logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
+1.  If you aren't logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mobile-sir-get-started.md).
 
 2.  With the Security Incidents landing screen displayed, tap **Unassigned Incidents**.
 
@@ -34,9 +34,9 @@ From the list of records, assign an open, unassigned security incident to yourse
 
     The Unassigned Incidents screen is displayed with a list of unassigned security incident records.
 
-3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-search.md) to search for security incidents that match specific criteria.
+3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mobile-sir-search.md) to search for security incidents that match specific criteria.
 
-    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon.\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
+    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon.\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 
 4.  To assign or reassign an open security incident record directly from the list, with the list of open unassigned security incident records displayed, swipe left on a record to open the menu.
 

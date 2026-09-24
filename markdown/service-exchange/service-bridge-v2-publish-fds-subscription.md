@@ -2,7 +2,7 @@
 title: Publish a foundation data subscription
 description: Publish the foundation data sync \(FDS\) subscription to complete the foundation data sync after the consumer configures and accepts the subscription.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-publish-fds-subscription.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-publish-fds-subscription.html
 release: australia
 product: Service Exchange
 classification: service-exchange

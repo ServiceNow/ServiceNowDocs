@@ -2,7 +2,7 @@
 title: Request domain separation
 description: All domain support features are activated with a plugin called Domain Support - Domain Extensions Installer. Administrators can request activation of this plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ActivateDomainSeparation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ActivateDomainSeparation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -92,5 +92,5 @@ Activating the Domain Extension Installer plugin enables these features:
 **Related topics**  
 
 
-[Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-plugin.md)
+[Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/domain-sep-plugin.md)
 

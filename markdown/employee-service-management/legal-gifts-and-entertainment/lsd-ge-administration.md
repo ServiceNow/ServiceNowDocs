@@ -2,7 +2,7 @@
 title: Configure Gifts and Entertainment Compliance
 description: Configure the foundation data required for managing the gift and entertainment disclosure requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.html
 release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -22,12 +22,12 @@ As an administrator, you can review the installed components and modify them or 
 -   Gift policies for Gifts and Entertainment Compliance.
 -   [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) to inform different stakeholders at different stages of a gift and entertainment disclosure requests.
 
--   **[Install Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-install-ge.md)**  
+-   **[Install Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-gifts-and-entertainment/lsd-install-ge.md)**  
 You can install the Gifts and Entertainment Compliance application \(sn\_lg\_gifts\) if you have the admin role.
--   **[Configure gift policy for Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-configure-ge-policy.md)**  
+-   **[Configure gift policy for Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-gifts-and-entertainment/lsd-configure-ge-policy.md)**  
 Configure a gift policy in accordance with your organization's policy. This policy will outline the conditions under which approval is required.
--   **[Configure approval workflow for Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-approval-workflow.md)**  
+-   **[Configure approval workflow for Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-gifts-and-entertainment/lsd-ge-approval-workflow.md)**  
 Review the flows installed with the Gifts and Entertainment Compliance application and configure them to align to your company's policy.
 
-**Parent Topic:**[Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-landing-page.md)
+**Parent Topic:**[Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-gifts-and-entertainment/lsd-ge-landing-page.md)
 

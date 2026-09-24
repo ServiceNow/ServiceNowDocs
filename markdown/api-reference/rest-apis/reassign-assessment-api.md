@@ -2,7 +2,7 @@
 title: Reassign Assessment API
 description: The Reassign Assessment API provides an endpoint to reassign an assessment instance to a different user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/reassign-assessment-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/reassign-assessment-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -41,8 +41,8 @@ The Reassign Assessment API requires the following roles to access it:
 -   The requesting user must have write access to the assessment's persona assignment record to perform the reassignment.
 -   An assessment can't be reassigned to the user it's currently assigned to.
 
--   **[Reassign Assessment - PATCH /\{userId\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/reassignassessment-PATCH-userId.md)**  
+-   **[Reassign Assessment - PATCH /\{userId\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/reassignassessment-PATCH-userId.md)**  
 Reassigns an assessment instance to a different user. Use this endpoint when you need to transfer ownership of an in-progress assessment from the current assignee to another user.
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 

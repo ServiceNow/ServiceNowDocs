@@ -2,7 +2,7 @@
 title: Turn on ECMAScript 2021 \(ES12\) mode for a script
 description: Use the latest JavaScript features supported with ECMAScript 2021 \(ES12\) mode in server-side scripts in applications that use ES5 Standards mode or Compatibility mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/set-es12-mode-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/set-es12-mode-scripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -22,7 +22,7 @@ Role required: delegated developer role or admin
 
 ## About this task
 
-Turning on ECMAScript 2021 \(ES12\) mode for individual scripts is an option for scripts in global or scoped applications configured to use ES5 Standards mode or Compatibility mode. All scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\). Switching the JavaScript mode to ECMAScript 2021 \(ES12\) for an existing script might change the behavior of the script. For more information, see [Considerations for switching JavaScript modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/considerations-switching-javascript-mode.md).
+Turning on ECMAScript 2021 \(ES12\) mode for individual scripts is an option for scripts in global or scoped applications configured to use ES5 Standards mode or Compatibility mode. All scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\). Switching the JavaScript mode to ECMAScript 2021 \(ES12\) for an existing script might change the behavior of the script. For more information, see [Considerations for switching JavaScript modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/considerations-switching-javascript-mode.md).
 
 **Note:** Global applications can use ECMAScript 2021 \(ES12\) mode for individual scripts but not across the application.
 
@@ -43,5 +43,5 @@ Turning on ECMAScript 2021 \(ES12\) mode for individual scripts is an option for
 4.  Select **Submit** or **Update** to save your changes.
 
 
-**Parent Topic:**[JavaScript modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_JS_modes.md)
+**Parent Topic:**[JavaScript modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_JS_modes.md)
 

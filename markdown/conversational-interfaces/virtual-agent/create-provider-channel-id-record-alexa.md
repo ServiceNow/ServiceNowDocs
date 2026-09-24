@@ -2,7 +2,7 @@
 title: Create a provider channel identity record for Alexa
 description: Create a provider channel identity record to connect to your Alexa account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-provider-channel-id-record-alexa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-provider-channel-id-record-alexa.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -98,5 +98,5 @@ Identifier for your bot.In this field, provide your Alexa Skill ID that you copi
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Set up Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-alexa.md)
+**Parent Topic:**[Set up Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/setup-alexa.md)
 

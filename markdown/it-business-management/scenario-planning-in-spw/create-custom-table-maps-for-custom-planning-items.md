@@ -2,7 +2,7 @@
 title: Create a table map
 description: Create a table map to define the mapping between tables in Strategic Planning with the tables in Agile Development 2.0, SAFe, and PPM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-custom-table-maps-for-custom-planning-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/create-custom-table-maps-for-custom-planning-items.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -28,7 +28,7 @@ Role required: sn\_align\_core.apw\_admin
 
 3.  Create a new table map by selecting **New** in the **Table maps** tab.
 
-4.  In the [Table map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/table-map-form.md), fill in the fields.
+4.  In the [Table map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/table-map-form.md), fill in the fields.
 
 5.  Select **Submit**.
 
@@ -43,5 +43,5 @@ A new table map is created with your alignment and execution table configuration
 
 ## What to do next
 
-Create a business rule to support export of this new table map configuration to Agile Development 2.0, SAFe, or PPM. For more information, see [Create a business rule for custom table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-a-bussiness-rule.md).
+Create a business rule to support export of this new table map configuration to Agile Development 2.0, SAFe, or PPM. For more information, see [Create a business rule for custom table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-a-bussiness-rule.md).
 

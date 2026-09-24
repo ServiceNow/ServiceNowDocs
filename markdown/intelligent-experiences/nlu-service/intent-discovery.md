@@ -2,7 +2,7 @@
 title: Intent Discovery
 description: Use the Intent Discovery application to help identify opportunities for incident deflection. For example, you can use it to identify which Virtual Agent conversations to activate next.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/intent-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/intent-discovery.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -26,7 +26,7 @@ In this example scenario, you're using Intent Discovery to identify the top inte
 
 ## Installation
 
-Intent Discovery is available from the ServiceNow Store. For more information, see [Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/install-intent-discovery.md).
+Intent Discovery is available from the ServiceNow Store. For more information, see [Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/install-intent-discovery.md).
 
 After Intent Discovery is installed and activated, it appears under **All** &gt; **NLU Workbench** &gt; **NLU Advanced Features**.
 

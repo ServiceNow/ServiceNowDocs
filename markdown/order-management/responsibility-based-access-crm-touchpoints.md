@@ -2,7 +2,7 @@
 title: Responsibility-based access to Sales CRM entities
 description: Responsibility-based access grants Sales CRM users access to records based on the responsibility they hold for an opportunity, account, or sales territory. Instead of giving users broad access to every lead, opportunity, account, contact, quote, or CRM Touchpoints, the responsibility framework scopes access to records connected to the user's opportunity team or sales territory membership.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/responsibility-based-access-crm-touchpoints.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/responsibility-based-access-crm-touchpoints.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-14"
@@ -157,7 +157,7 @@ The sales restricted agent \[sn\_sales\_common.sales\_restricted\_agent\] role i
 -   CRM touchpoint responsibility read granular \[sn\_crm\_touchpoint.touchpoint\_responsibility\_read\_granular\]: Provides read access to CRM Touchpoints through the responsibility framework.
 -   CRM touchpoint responsibility write granular \[sn\_crm\_touchpoint.touchpoint\_responsibility\_write\_granular\]: Provides write access to CRM Touchpoints through the responsibility framework. This role includes the read granular role.
 
-To extend CRM Touchpoints access to a responsibility definition, such as Account Executive or Solution Sales Executive, an administrator updates or creates a responsibility access configuration for that responsibility. The administrator selects CRM Touchpoints \[sn\_crm\_touchpoint\_touchpoint\] as the accessible table, selects the access levels, and optionally adds an accessible table filter to limit access by type, state, or another condition. For more information, see [Create a responsibility access configuration in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-responsibility-access-configuration-sales-automation.md).
+To extend CRM Touchpoints access to a responsibility definition, such as Account Executive or Solution Sales Executive, an administrator updates or creates a responsibility access configuration for that responsibility. The administrator selects CRM Touchpoints \[sn\_crm\_touchpoint\_touchpoint\] as the accessible table, selects the access levels, and optionally adds an accessible table filter to limit access by type, state, or another condition. For more information, see [Create a responsibility access configuration in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-responsibility-access-configuration-sales-automation.md).
 
 For example, an administrator can configure the Solution Sales Executive responsibility so that users can edit only CRM Touchpoints of type Solution review while other CRM Touchpoints types remain read-only.
 
@@ -166,9 +166,9 @@ For example, an administrator can configure the Solution Sales Executive respons
 **Related topics**  
 
 
-[Components installed with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-common.md)
+[Components installed with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-sales-common.md)
 
-[Components installed with CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-crm-touchpoints.md)
+[Components installed with CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-crm-touchpoints.md)
 
-[Related parties, responsibilities, and access included with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/responsibilities-sales-automation.md)
+[Related parties, responsibilities, and access included with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/responsibilities-sales-automation.md)
 

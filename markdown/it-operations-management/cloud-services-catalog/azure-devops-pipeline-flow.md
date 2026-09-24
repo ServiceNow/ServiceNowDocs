@@ -2,7 +2,7 @@
 title: Order a Microsoft Azure DevOps catalog item
 description: Provision the Microsoft Azure DevOps catalog by using the Microsoft Azure DevOps catalog order form in the Cloud Services Catalog application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/azure-devops-pipeline-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-services-catalog/azure-devops-pipeline-flow.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -72,5 +72,5 @@ Follow this short video to learn how to order an Azure DevOps catalog item.
 
 Verify that a blueprint approval policy \(CSC Content Approval Policy ADO Integration\) is applied on the Microsoft Azure DevOps catalog. This policy mandates that an approval must be obtained from the Change management group before any provisioning can take place.
 
-**Parent Topic:**[Integrating Azure DevOps and the CI-CD pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
+**Parent Topic:**[Integrating Azure DevOps and the CI-CD pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
 

@@ -2,7 +2,7 @@
 title: Knowledge Base readiness for AI on the ServiceNow AI Platform
 description: The knowledge base is the engine that enables ServiceNow Otto to deliver intelligent, accurate, and context-aware responses across AI Search, Q&amp;A Genius Results, and other AI-powered experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-kb-readiness.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sn-ai-impl-kb-readiness.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

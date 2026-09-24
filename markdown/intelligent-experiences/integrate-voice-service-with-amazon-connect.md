@@ -2,7 +2,7 @@
 title: Integrate ServiceNow voice assistant with Amazon Connect
 description: Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Amazon Connect.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-voice-service-with-amazon-connect.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-voice-service-with-amazon-connect.html
 release: australia
 topic_type: task
 last_updated: "2026-06-09"
@@ -17,7 +17,7 @@ Enable users to get support from AI voice agents by integrating a ServiceNow voi
 
 ## Before you begin
 
--   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md) for more information.
+-   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-an-ai-voice-service.md) for more information.
 -   Access to your Amazon Connect instance with permissions to create Lambda functions, configure contact flows, and manage Identity and Access Management \(IAM\) roles.
 
 Role required: sn\_aia.admin
@@ -75,7 +75,7 @@ Connect your Amazon Connect contact center to a ServiceNow voice assistant using
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
 
-    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md).
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md).
 
 10. In your AWS account, create the Lambda function that connects Amazon Connect to the voice assistant.
 
@@ -83,7 +83,7 @@ Connect your Amazon Connect contact center to a ServiceNow voice assistant using
 
     2.  In the Lambda function code editor, replace the default handler code with the Lambda function code.
 
-        See [Amazon Connect Lambda function code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md).
+        See [Amazon Connect Lambda function code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md).
 
     3.  Set the following environment variables on the Lambda function.
 
@@ -148,7 +148,7 @@ The hostname from the ServiceNow call context URL.
 
     5.  Replace the Lambda execution role permissions policy with the Identity and Access Management \(IAM\) policy.
 
-        See [Amazon Connect Lambda Identity and Access Management \(IAM\) policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md).
+        See [Amazon Connect Lambda Identity and Access Management \(IAM\) policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md).
 
         In the Lambda console, navigate to **Configuration** &gt; **Permissions** &gt; **Execution Role** and replace the existing permissions policy. Replace `<region>`, `<account-id>`, and `<lambda-function-name>` with your values.
 
@@ -197,7 +197,7 @@ Client Secret from the ServiceNow voice service configuration.
 
     1.  In your Amazon Connect instance, create a new contact flow by importing the Voice AI inbound flow JSON.
 
-        See [Amazon Connect Voice AI inbound flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md).
+        See [Amazon Connect Voice AI inbound flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md).
 
         In the Amazon Connect console, navigate to **Routing** &gt; **Flows**, select **Create flow**, then use the import option. Replace all placeholder values with your own before importing.
 
@@ -230,5 +230,5 @@ Amazon Connect is connected to your ServiceNow voice assistant. Incoming calls r
 
 Test the integration by placing a call through your Amazon Connect phone number and verifying that the voice assistant responds correctly. Review the CloudWatch logs for the Lambda function to troubleshoot any connection issues.
 
-**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
+**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
 

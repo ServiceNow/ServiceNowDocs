@@ -2,7 +2,7 @@
 title: Insert an image in a knowledge article
 description: Insert an image in a knowledge article using the HTML editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/insert-image-html-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/insert-image-html-editor.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

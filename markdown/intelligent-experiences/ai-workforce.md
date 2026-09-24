@@ -2,7 +2,7 @@
 title: Autonomous Workforce
 description: AI specialists in your Autonomous Workforce are designed to handle high-volume, routine requests end to end, giving your team room to focus on the tasks only people can solve.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-workforce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-workforce.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-20"
@@ -24,19 +24,19 @@ Contact your account manager for information about accessing this product.
 
 <table id="table_yrs_myn_whc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Discover AI specialists and their potential for automating your business processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-workforce.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Discover AI specialists and their potential for automating your business processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-ai-workforce.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the basic details, profiles, and tasks of an AI specialist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-workforce.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the basic details, profiles, and tasks of an AI specialist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-ai-workforce.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Onboard, preview, and monitor the performance of AI specialists as they accomplish tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ai-workforce.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Onboard, preview, and monitor the performance of AI specialists as they accomplish tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-ai-workforce.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review roles associated with AI specialists.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-workforce-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review roles associated with AI specialists.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-workforce-reference.md)
 
 </td></tr></tbody>
 </table>Autonomous Workforce consists of your AI specialists that augment entire roles, not just individual business processes. As pre-trained, agentic AI, they arrive equipped with the capabilities and tasks enabled to handle jobs without needing to iterate on prompts.
@@ -58,7 +58,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 ## Helpful resources
 

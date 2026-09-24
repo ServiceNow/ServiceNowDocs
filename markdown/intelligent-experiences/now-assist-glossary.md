@@ -2,7 +2,7 @@
 title: AI glossary
 description: Learn about the terms and concepts used in ServiceNow Otto and AI agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-glossary.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: OpenFrame overview
 description: OpenFrame provides a communication frame that customer service agents use to place and receive customer calls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_OpenFrameOverview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_OpenFrameOverview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -79,7 +79,7 @@ In Agent Workspace, select the phone icon:
 
 -   In the banner frame.
 -   Next to the **Contact** or **Consumer** fields on the Case form.
- With the admin role, you can configure the phone icon. For more information, see [CTI integration with the Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CTIIntegrationWithTheCaseForm.md).
+ With the admin role, you can configure the phone icon. For more information, see [CTI integration with the Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CTIIntegrationWithTheCaseForm.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Select and drag the OpenFrame window header.
 In the CRM Workspace, you can:
 
 -   Integrate OpenFrame with the Interaction Management System \(IMS\) and interaction records. This enables agents to manage the phone interaction life cycle.
--   Use the native voice control capability from the Interaction Controls Component \(ICC\) plugin to integrate to the contact center voice channel. You must enable this in the CRM Workspace to manage the voice channel. For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md) and [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md).
+-   Use the native voice control capability from the Interaction Controls Component \(ICC\) plugin to integrate to the contact center voice channel. You must enable this in the CRM Workspace to manage the voice channel. For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/contact-center-integration-with-icc.md) and [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/interaction-controls-component-icc-call-interaction-features.md).
 
 ## Creating an OpenFrame configuration
 

@@ -2,7 +2,7 @@
 title: View commit history
 description: App developers can view the commit history of apps linked to a source control repository in App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-view-commit-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/source-control-view-commit-history.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -84,5 +84,5 @@ Sort dates from the oldest to most recent date. Sort user names alphabetically f
 6.  Close the History window.
 
 
-**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-use.md)
+**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-source-control-use.md)
 

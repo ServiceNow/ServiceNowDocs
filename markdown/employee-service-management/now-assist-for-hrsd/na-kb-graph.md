@@ -2,7 +2,7 @@
 title: Use Knowledge Graph in ServiceNow Otto for HRSD
 description: Create a personalized knowledge model as a Knowledge Graph schema.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/na-kb-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/na-kb-graph.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -53,7 +53,7 @@ Role required: none
 
 Knowledge Graph leverages the existing information that is available in the internal databases and auto-populates it to reduce efforts while making the entire experience seamless.
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

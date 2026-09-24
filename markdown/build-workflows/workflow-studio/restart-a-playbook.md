@@ -2,7 +2,7 @@
 title: Restart a playbook
 description: Restart a playbook from the beginning, an activity, or a stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/restart-a-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/restart-a-playbook.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -20,7 +20,7 @@ Restart a playbook from the beginning, an activity, or a stage.
 
 Role required: agent or pd\_restarter
 
-If your playbook admin has enabled restart in your playbook, you can find the restart action in the action menus of the playbook, stages, or activities. If you are an admin and would like to enable and configure restart for a playbook in Workflow Studio, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-define-restart.md).
+If your playbook admin has enabled restart in your playbook, you can find the restart action in the action menus of the playbook, stages, or activities. If you are an admin and would like to enable and configure restart for a playbook in Workflow Studio, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/enable-define-restart.md).
 
 If a stage or activity is not configured to be restartable, you will not see all of the buttons in this procedure.
 
@@ -74,5 +74,5 @@ If a stage or activity is not configured to be restartable, you will not see all
         \[Omitted image "restart-activity-pe.png"\] Alt text: Restart button in activity card context menu
 
 
-**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

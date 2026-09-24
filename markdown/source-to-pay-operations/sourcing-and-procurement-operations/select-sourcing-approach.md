@@ -2,7 +2,7 @@
 title: Select a sourcing approach in playbook
 description: Decide if you want to negotiate with suppliers right away, or skip this step and start qualifying the sourcing request instead. You can perform these actions from the Sourcing approach section of the sourcing intake playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/select-sourcing-approach.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/select-sourcing-approach.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -20,15 +20,15 @@ Decide if you want to negotiate with suppliers right away, or skip this step and
 
 Role required: Sourcing manager
 
-Ensure that you have complete clarity on the sourcing request by reviewing the intake details, purchase lines, and approvals, and requesting clarification on the request, if necessary. For details, see [Review details and request clarification on a sourcing request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/review-details-request-clari-sr.md).
+Ensure that you have complete clarity on the sourcing request by reviewing the intake details, purchase lines, and approvals, and requesting clarification on the request, if necessary. For details, see [Review details and request clarification on a sourcing request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/review-details-request-clari-sr.md).
 
 ## Procedure
 
-1.  Perform steps 1 through 11, as documented in [Review details and request clarification on a sourcing request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/review-details-request-clari-sr.md).
+1.  Perform steps 1 through 11, as documented in [Review details and request clarification on a sourcing request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/review-details-request-clari-sr.md).
 
 2.  In the Sourcing approach section, choose to negotiate with suppliers right away, or skip this step and start qualifying the sourcing request instead.
 
-    In case of the former, you can add the sourcing request to an exiting or new sourcing event as required, before working with the sourcing event, as documented in [Set up negotiations with suppliers and manage qualifications in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/nego-with-suppliers-through-qual.md).
+    In case of the former, you can add the sourcing request to an exiting or new sourcing event as required, before working with the sourcing event, as documented in [Set up negotiations with suppliers and manage qualifications in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/nego-with-suppliers-through-qual.md).
 
     In case of the latter, you have the option to work on negotiations after the qualification is complete.
 
@@ -64,13 +64,13 @@ To source the request by itself or with a new group of similar requests, add to 
 
 </td><td>
 
-Skip negotiating and start qualifying the sourcing request.For more information about the qualification process, see [Supplier qualification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/supplier-qualification.md).
+Skip negotiating and start qualifying the sourcing request.For more information about the qualification process, see [Supplier qualification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/supplier-qualification.md).
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
-Work on a negotiation setup playbook to manage qualification work, and review the sourcing requests, suppliers, and purchase lines, all within the premises of a sourcing event. For details, see [Set up negotiations with suppliers and manage qualifications in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/nego-with-suppliers-through-qual.md).
+Work on a negotiation setup playbook to manage qualification work, and review the sourcing requests, suppliers, and purchase lines, all within the premises of a sourcing event. For details, see [Set up negotiations with suppliers and manage qualifications in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/nego-with-suppliers-through-qual.md).
 
-**Parent Topic:**[Sourcing intake guided experience with playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-intake-guided-exp.md)
+**Parent Topic:**[Sourcing intake guided experience with playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-intake-guided-exp.md)
 

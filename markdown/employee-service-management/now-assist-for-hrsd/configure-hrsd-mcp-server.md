@@ -2,7 +2,7 @@
 title: Configure the HRSD MCP Server Console
 description: Activate the HRSD MCP Server to enable AI-driven case management and employee experience on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/configure-hrsd-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/configure-hrsd-mcp-server.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -47,7 +47,7 @@ Role required: sn\_mcp\_server.admin or admin
 
     4.  Select **Activate**.
 
-        Activating the HRSD MCP server automatically makes all the tools available to the connected MCP clients. For more information on the tools, see [MCP Server Tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/mcp-server-tools-reference.md).
+        Activating the HRSD MCP server automatically makes all the tools available to the connected MCP clients. For more information on the tools, see [MCP Server Tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/mcp-server-tools-reference.md).
 
         **Note:** Activating the HRSD MCP server creates an OAuth client entry with the HRSD MCP Server integration name, for example, **sn\_hr\_mcp\_server.hr\_default**.
 
@@ -55,15 +55,15 @@ Role required: sn\_mcp\_server.admin or admin
 
     **Note:** Change the application scope to **Global**.
 
-<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d800130e208">
+<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d800134e208">
 
 Authentication option
 
-</th><th align="left" id="d800130e211">
+</th><th align="left" id="d800134e211">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d800130e217">
+</th></tr></thead><tbody><tr><td id="d800134e217">
 
 **Use the HRSD MCP Server OAuth client entry**
 
@@ -78,7 +78,7 @@ The fields on the Authorization code grant page are automatically populated.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d800130e255">
+</td></tr><tr><td id="d800134e255">
 
 **Set up your own OAuth connection**
 

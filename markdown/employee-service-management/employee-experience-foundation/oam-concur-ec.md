@@ -2,7 +2,7 @@
 title: Manage approvals from a Microsoft Outlook email
 description: Approve or reject Concur expense reports from a Microsoft Outlook email message.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/oam-concur-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/oam-concur-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,15 +36,15 @@ Role required: approver\_user
 
     **Note:** You cannot accept or reject a report if the assigned approver has been modified or the report has been updated or closed.
 
-<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d104956e108">
+<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d104960e108">
 
 Decision
 
-</th><th align="left" id="d104956e111">
+</th><th align="left" id="d104960e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d104956e117">
+</th></tr></thead><tbody><tr><td id="d104960e117">
 
 **Approve the report**
 
@@ -52,7 +52,7 @@ Action
 
 Select **Approve**.
 
-</td></tr><tr><td id="d104956e129">
+</td></tr><tr><td id="d104960e129">
 
 **Reject the report**
 
@@ -64,9 +64,9 @@ Select **Approve**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
-**Parent Topic:**[Using ServiceNow for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-sn-ms-outlook.md)
+**Parent Topic:**[Using ServiceNow for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-sn-ms-outlook.md)
 
 **Related topics**  
 

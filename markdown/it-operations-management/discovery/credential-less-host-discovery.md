@@ -2,7 +2,7 @@
 title: Credential-less host Discovery
 description: Credential-less host discovery occurs when a scanned host is found to be alive, but not active, or when all configured credential-based classification probes have failed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/credential-less-host-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/credential-less-host-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -62,5 +62,5 @@ The Discovery - IP Based \[com.snc.discovery.ip\_based\] plugin adds an identifi
 
 \[Omitted image "Credential-lessHardwareRule.png"\] Alt text: Hardware rule identifier for Credential-less Discovery
 
-**Parent Topic:**[Credential-less discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md)
+**Parent Topic:**[Credential-less discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/nmap-credential-less-discovery.md)
 

@@ -2,7 +2,7 @@
 title: Update your X.509 certificate
 description: If you require an SSL connection for the integration, there are circumstances when the certificate provided by the third-party vendor is either not yet trusted in ServiceNow or has expired. This task is optional.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/update-cert-pawnd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/update-cert-pawnd.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

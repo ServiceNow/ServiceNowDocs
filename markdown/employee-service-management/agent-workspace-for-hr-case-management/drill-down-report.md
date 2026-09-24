@@ -2,7 +2,7 @@
 title: Enable a detailed data display within a report
 description: Enable users to visualize a subset of report data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/drill-down-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/drill-down-report.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -47,7 +47,7 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 10. Select **Save**.
 
 
-**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/uib-aws.md)
+**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/uib-aws.md)
 
 **Related topics**  
 

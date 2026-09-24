@@ -2,7 +2,7 @@
 title: Upload a file to cloud
 description: Upload local documents from your local to Microsoft cloud and manage the access to the cloud files.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/upload-cloud-file-eng-audit-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/upload-cloud-file-eng-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

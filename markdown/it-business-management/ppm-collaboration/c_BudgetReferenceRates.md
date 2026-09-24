@@ -2,7 +2,7 @@
 title: Currencies and budget reference rates
 description: The support for use of multiple currencies provides conversions for budget items in different currencies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/c\_BudgetReferenceRates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/c\_BudgetReferenceRates.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -59,7 +59,7 @@ Budget reference rates are exchange rates between currencies. Each reference rat
 
 **Note:** Currency support is for budgets only. You cannot create allocations in multiple currencies.
 
-**Parent Topic:**[PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md)
+**Parent Topic:**[PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md)
 
 **Related topics**  
 

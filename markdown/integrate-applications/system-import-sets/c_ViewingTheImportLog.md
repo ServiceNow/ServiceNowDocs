@@ -2,7 +2,7 @@
 title: Viewing the import log
 description: The import log is where you can find information about the internal processing that occurs during an import operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_ViewingTheImportLog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/c\_ViewingTheImportLog.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -22,5 +22,5 @@ To view the import log, navigate to **All** &gt; **System Import Sets** &gt; **A
 
 \[Omitted image "ImportLog.png"\] Alt text: The import log showing import log messages with the date, message level, message, and data source.
 
-**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

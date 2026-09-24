@@ -2,7 +2,7 @@
 title: Access Service Operations Workspace for ITSM
 description: Experience a unified and seamless experience when managing the life cycle of task records such as incidents and requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/access-sow-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/access-sow-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -27,7 +27,7 @@ Role required: itil
 2.  From the **Workspaces** menu, select **Service Operations Workspace**.
 
 
-**Parent Topic:**[Exploring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/explore-sow.md)
+**Parent Topic:**[Exploring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/explore-sow.md)
 
 **Related topics**  
 

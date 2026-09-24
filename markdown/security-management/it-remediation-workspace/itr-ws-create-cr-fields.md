@@ -2,7 +2,7 @@
 title: Create change request form fields
 description: The following table shows the fields and their description in the Create change request form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/itr-ws-create-cr-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/it-remediation-workspace/itr-ws-create-cr-fields.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -116,5 +116,5 @@ Pre-populated with preferred solution information if it is available. View the s
 </table>**Related topics**  
 
 
-[Create a change request in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-CRs.md)
+[Create a change request in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/vr-ws-CRs.md)
 

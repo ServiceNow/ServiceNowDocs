@@ -2,7 +2,7 @@
 title: Import wrap-up codes
 description: Import wrap-up codes from your contact center provider to ensure that each customer interaction is classified appropriately. For example, you can specify whether a call was for technical support, billing, or a product return.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-wrap-up.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/import-wrap-up.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

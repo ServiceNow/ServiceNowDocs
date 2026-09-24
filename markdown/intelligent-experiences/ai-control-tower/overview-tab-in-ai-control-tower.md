@@ -2,7 +2,7 @@
 title: Overview tab in AI Control Tower
 description: Explore the overview tab in AI Control Tower and the widgets available on the tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/overview-tab-in-ai-control-tower.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/overview-tab-in-ai-control-tower.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -36,7 +36,7 @@ The following widgets are available, showing various metrics. You can view the d
     -   Assess
     -   Build and test
     -   Deploy
-    For more information about the AI asset lifecycle stages, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
+    For more information about the AI asset lifecycle stages, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
 
 -   **AI systems by type**
 

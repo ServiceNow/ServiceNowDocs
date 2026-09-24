@@ -2,7 +2,7 @@
 title: Journey Accelerator versions and release compatibility
 description: Available features depend on the Journey Accelerator version, family release, and application-specific features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/ja-version-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-accelerator/ja-version-support.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator

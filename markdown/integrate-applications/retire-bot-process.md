@@ -2,7 +2,7 @@
 title: Retire a bot process in RPA Hub
 description: Retire a bot process to turn it off. It's one of the life-cycle stages of a bot process. After you retire a bot process, you can't use it anymore.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/retire-bot-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/retire-bot-process.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Retire a bot process to turn it off. It's one of the life-cycle stages of a bot 
 
 ## Before you begin
 
-Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -27,7 +27,7 @@ If you are retiring an attended bot process that is enabled with Embedded Task A
 -   All the associated attended configurations.
 -   Corresponding buttons \(UI actions\) that are associated to the attended configuration on the related forms.
 
-For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md).
+For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md).
 
 If you are retire an unattended bot process, the associated credential groups and process robot credential mappings are removed.
 
@@ -46,10 +46,10 @@ If you are retire an unattended bot process, the associated credential groups an
 6.  In the Confirmation dialog box, select **Retire**.
 
 
-**Parent Topic:**[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md)
+**Parent Topic:**[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md)
 
 **Related topics**  
 
 
-[Retire an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/retire-mfa-authenticator.md)
+[Retire an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/retire-mfa-authenticator.md)
 

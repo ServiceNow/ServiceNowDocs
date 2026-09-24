@@ -2,7 +2,7 @@
 title: Add or modify an HR survey
 description: You can modify the predefined HR satisfaction surveys to suit the needs of the organization, and create HR surveys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyAnHRSurvey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateOrModifyAnHRSurvey.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -39,5 +39,5 @@ The following steps describe how to work with survey questions in the Survey Def
 4.  Click **Submit**.
 
 
-**Parent Topic:**[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
+**Parent Topic:**[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
 

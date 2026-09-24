@@ -2,7 +2,7 @@
 title: Show that an agent is busy with a non-work order event on Field Service Manager Mobile
 description: Managers can show that agents are busy with personal events like a meeting, training or time off from the Field Service Manager Mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/event-manager-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/event-manager-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

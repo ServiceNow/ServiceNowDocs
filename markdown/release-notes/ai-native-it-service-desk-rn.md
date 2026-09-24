@@ -2,7 +2,7 @@
 title: Simplified IT Service Management release notes
 description: The ServiceNow IT Service Management application provides simplified and automated implementation for administrators and a unified user experience for employees and fulfillers \(service desk agents\).The ServiceNow IT Service Management application provides simplified and automated implementation for administrators and a unified user experience for employees and fulfillers \(service desk agents\).The ServiceNow IT Service Management application provides simplified and automated implementation for administrators and a unified user experience for employees and fulfillers \(service desk agents\).The ServiceNow IT Service Management application provides simplified and automated implementation for administrators and a unified user experience for employees and fulfillers \(service desk agents\).The ServiceNow IT Service Management application provides simplified and automated implementation for administrators and a unified user experience for employees and fulfillers \(service desk agents\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/ai-native-it-service-desk-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/ai-native-it-service-desk-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-04-01"
@@ -29,7 +29,7 @@ The ServiceNow® IT Service Management application provides simplified and autom
     Request the entitlement for IT Service Management from the ServiceNow Store and then install it. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-service-management-rn-landing.md)
 
 ## Version 3.2.3
 

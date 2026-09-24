@@ -2,7 +2,7 @@
 title: Request an approval and approve the event
 description: Approve the exercise in BCM UIB Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/submit-an-event-task-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/submit-an-event-task-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
     You can update the state of the event to **Closed Complete**.
 
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

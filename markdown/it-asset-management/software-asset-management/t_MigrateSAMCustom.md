@@ -2,12 +2,12 @@
 title: Overwrite customizations for Software Asset Management migration
 description: When migrating from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_MigrateSAMCustom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/t\_MigrateSAMCustom.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configure, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -70,7 +70,7 @@ Certain fields added by the migration also must be configured to take advantage 
 8.  If you have entitlements that require management of license keys, you can create multiple license keys associated to the same entitlement, as well as allocate these license keys to a user or device.
 
 
-**Parent Topic:**[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md)
+**Parent Topic:**[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/Config-sam-workspace.md)
 
 **Related topics**  
 

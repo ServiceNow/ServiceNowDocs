@@ -2,7 +2,7 @@
 title: Troubleshooting for registering target instance
 description: A reference topic that includes troubleshooting to try to resolve errors that occur while registering a target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/register-target-instance-troubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/register-target-instance-troubleshooting.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,12 +16,12 @@ A reference topic that includes troubleshooting to try to resolve errors that oc
 
 When registering a target instance, consider the following guidelines.
 
--   **[Credentials error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-1.md)**  
+-   **[Credentials error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/register-target-instance-1.md)**  
 Troubleshoot a credentials error that occurs while registering a target instance.
--   **[System property error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-2.md)**  
+-   **[System property error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/register-target-instance-2.md)**  
 Troubleshoot a system property error that occurs while registering a target instance.
--   **[IP authentication error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-3.md)**  
+-   **[IP authentication error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/register-target-instance-3.md)**  
 Troubleshoot a IP authentication error that occurs while registering a target instance
 
-**Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-clone-reference.md)
+**Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/instance-clone-reference.md)
 

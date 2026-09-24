@@ -2,7 +2,7 @@
 title: Monitor Microsoft Teams call quality
 description: Enable advanced monitoring of Microsoft Teams call quality with DEX for Microsoft 365. Track and analyze call performance for a specific user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/monitor-teams-call-quality.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/monitor-teams-call-quality.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -20,8 +20,8 @@ Enable advanced monitoring of Microsoft Teams call quality with DEX for Microsof
 
 Role required: admin
 
--   Configure advanced monitoring for Microsoft Teams. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
--   Set up DEX for Microsoft 365 application. For more information, see [Configuring DEX for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configuring-dex-for-microsoft-365.md).
+-   Configure advanced monitoring for Microsoft Teams. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
+-   Set up DEX for Microsoft 365 application. For more information, see [Configuring DEX for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/configuring-dex-for-microsoft-365.md).
 
 ## About this task
 

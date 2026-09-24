@@ -2,7 +2,7 @@
 title: Manage Scripting Governance Tool
 description: Enable or disable the Scripting Governance Tool on your instance by running the appropriate script. Only users with the security\_admin role can run these scripts and modify the associated properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/manage-sgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/manage-sgt.html
 release: australia
 product: Access Control
 classification: access-control

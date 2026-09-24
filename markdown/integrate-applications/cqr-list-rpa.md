@@ -2,7 +2,7 @@
 title: Code quality rules list in RPA Hub
 description: View a list of pre-defined rules that RPA admins can set for the RPA developers to follow as a code quality standard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/cqr-list-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/cqr-list-rpa.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -173,14 +173,14 @@ Variable naming convention
 Inspects if the variables naming convention is as per the defined Regular expression.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-rpa.md)
+</table>**Parent Topic:**[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/code-quality-check-rpa.md)
 
 **Related topics**  
 
 
-[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-rpa.md)
+[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/code-quality-check-rpa.md)
 
-[View the code quality rules list in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-cqr-rpa.md)
+[View the code quality rules list in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-cqr-rpa.md)
 
-[Code quality rule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-cqr-rpa.md)
+[Code quality rule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/edit-cqr-rpa.md)
 

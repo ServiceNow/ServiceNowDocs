@@ -2,7 +2,7 @@
 title: User authentication for ServiceNow mobile apps
 description: ServiceNow mobile apps support platform authentication using OAuth 2.0. Authentication mechanisms include multi provider SSO, MFA, LDAP, Local DB, and Digest.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-identity-access-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-identity-access-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -54,5 +54,5 @@ The user name and password in the user record in the instance database.
 -   Kerberos
 -   Certificate-based authentication \(AppAuth’s external browser may solve for some certificate based mechanisms\)
 
-**Parent Topic:**[Identity and access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-ID-access-mgmt.md)
+**Parent Topic:**[Identity and access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-ID-access-mgmt.md)
 

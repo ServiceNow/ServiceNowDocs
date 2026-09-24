@@ -2,7 +2,7 @@
 title: Request the Messaging Notification plugin
 description: To activate this feature, request the Messaging Notification plugin \(com.glide.notification.messaging\) through the HI Customer Service system. This plugin activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/request-messaging-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/request-messaging-notification.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -77,7 +77,7 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/messaging-integration.md)
 
 **Related topics**  
 

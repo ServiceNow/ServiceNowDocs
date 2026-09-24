@@ -2,7 +2,7 @@
 title: Generate a Case Report using generative AI
 description: Generate an AI-based, structured, threat intelligence case report from the data in a case and export it for stakeholder distribution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -24,7 +24,7 @@ Generative AI driven report generation is available only when the following prer
 
 -   Threat Intelligence Security Center-Advanced must be installed.
 -   TISC Report Authoring skill must be active.
--   AI report styling must be configured by the Threat Intelligence administrator \(sn\_sec\_tisc.admin\). For more information, see [Configure report styling for TISC Case reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-report-styling-tisc.md).
+-   AI report styling must be configured by the Threat Intelligence administrator \(sn\_sec\_tisc.admin\). For more information, see [Configure report styling for TISC Case reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/configure-report-styling-tisc.md).
 
 Role required: sn\_sec\_tisc.analyst
 
@@ -70,7 +70,7 @@ Generate an AI-based, structured, threat intelligence case report from the data 
 
     -   Select the \[Omitted image "icon-tisc-report-edit.png"\] Alt text: Edit report details icon**Edit report details** icon to edit the report name and description.
     -   Select the \[Omitted image "icon-tisc-report-expand.png"\] Alt text: Expand icon**Expand** icon to insert additional content — for example, Observables or Indicators — into the report.
-    -   Type `/` to use a slash command and insert dynamic content, such as a record count, a specific record or field, or a system user. For the available slash commands and supported tables, see [Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md).
+    -   Type `/` to use a slash command and insert dynamic content, such as a record count, a specific record or field, or a system user. For the available slash commands and supported tables, see [Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md).
     -   Select **Save Content** to save your changes and enable **Publish**.
     -   Select **Preview** to generate a PDF preview of the current content.
 11. When your edits are complete, select **Publish**.
@@ -78,7 +78,7 @@ Generate an AI-based, structured, threat intelligence case report from the data 
     After publishing, download the report as a PDF or share it with stakeholders by email.
 
 
-**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 

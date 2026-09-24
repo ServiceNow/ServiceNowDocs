@@ -2,7 +2,7 @@
 title: Manage connected content from topic pages
 description: Link your desired categories to the topics and track the additions and removals to have easier management of unconnected content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mnge-content-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/mnge-content-topics.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,8 +35,8 @@ A weekly scheduled job runs to recognize new content added or removed from the c
 
 For more information on the execution and modification of the scheduled job, see
 
--   [Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md) and [Check for updated content in categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.md) for manual checking and updation of each record.
--   [Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md) for autosync.
+-   [Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md) and [Check for updated content in categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.md) for manual checking and updation of each record.
+-   [Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md) for autosync.
 
 **Important:** The connected content management is available from the Zurich family release.
 
@@ -68,7 +68,7 @@ For more information on the execution and modification of the scheduled job, see
 
         \[Omitted image "category-delete-content.png"\] Alt text: catalog item removal
 
-5.  [Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md) to surface the unconnected content of categories.
+5.  [Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md) to surface the unconnected content of categories.
 
 6.  Select **Save** or **Reload form** the topic page.
 
@@ -97,12 +97,12 @@ Click **Check for updated content in categories** related link to see the conten
 
 **Creation source** helps you distinguish and manage the content added from **Category** or by **User**.
 
--   **[Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md)**  
+-   **[Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md)**  
 Change the scheduled job frequency, as required, to ensure that the notification of new content availability to add to the topic pages is regular and uninterrupted.
--   **[Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md)**  
+-   **[Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md)**  
 Content updates are automatically synced when you enable the autosync system property.
--   **[Check for updated content in categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.md)**  
+-   **[Check for updated content in categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.md)**  
 Track and manage the updated content in categories for better visibility, content maintenance, and performance.
 
-**Parent Topic:**[Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/track-new-content.md)
+**Parent Topic:**[Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/track-new-content.md)
 

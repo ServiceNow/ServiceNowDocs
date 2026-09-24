@@ -2,7 +2,7 @@
 title: Scope items in an assessment
 description: The scope of an assessment is the specific record that the assessment targets — such as a control, vendor, or entity. Scope items keep that record in view for responders and reviewers, and other SAE features use scope to behave intelligently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-scope-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-scope-items.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -107,5 +107,5 @@ The assessment scope is supported by two tables in the Smart Assessment Engine d
     Links an assessment instance to one or more scope items.
 
 
-For a full list of tables installed by Smart Assessment Engine, see [Tables installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/tables-installed-in-smart-assessment-engine.md).
+For a full list of tables installed by Smart Assessment Engine, see [Tables installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/tables-installed-in-smart-assessment-engine.md).
 

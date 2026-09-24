@@ -2,7 +2,7 @@
 title: Next Experience banner announcements
 description: Banner announcements enable you to communicate planned maintenance, unplanned outages, or important events like ESPP stock plans or benefits enrollment to those affected or to everyone. You can target specific experiences or all experiences.Configure banner announcements to communicate important information to your users while they are in an experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-banner-announcements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-banner-announcements.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ You can configure the following aspects of banner announcements:
     **Note:** If a user dismisses a banner announcement during a session and the announcement is still active, it will re-appear once the user logs out and back in to a new session.
 
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 
 ## Configure Next Experience banner announcements
 

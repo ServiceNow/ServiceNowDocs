@@ -2,7 +2,7 @@
 title: Service Catalog request screens
 description: To place a request from a service catalog, navigate to the catalog home page and select the item to order.When a customer orders something from the catalog, a request is generated to track the order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_RequestingAServiceCatalogItem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/c\_RequestingAServiceCatalogItem.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -32,7 +32,7 @@ You can configure the layout for either the one-step or two-step catalog checkou
 
 The order status screen is the final summary screen a user sees in the service catalog after placing an order successfully.
 
-**Parent Topic:**[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
+**Parent Topic:**[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
 
 ## Request generation for a Service Catalog item
 
@@ -57,5 +57,5 @@ If a service catalog request is canceled, all associated purchase orders and tra
 **Related topics**  
 
 
-[Service Catalog home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ViewNavSvrCat.md)
+[Service Catalog home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ViewNavSvrCat.md)
 

@@ -2,7 +2,7 @@
 title: Connect Microsoft Exchange On-Premises MID server with ServiceNow
 description: Configure connection between the MID server of Microsoft Exchange On-Premises and ServiceNow to synchronize reservations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/connect-on-premise-mid-server-with-servicenow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/connect-on-premise-mid-server-with-servicenow.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -76,5 +76,5 @@ A platform is set to communicate with the Microsoft Exchange On-Premises MID ser
 
 ## What to do next
 
-[Create a Connection and credential alias for Microsoft Exchange On-Premises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-a-connection-and-credential-alias-for-ms-exch-onprem.md)
+[Create a Connection and credential alias for Microsoft Exchange On-Premises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-a-connection-and-credential-alias-for-ms-exch-onprem.md)
 

@@ -2,7 +2,7 @@
 title: Submit a time card for a demand task
 description: The resources assigned to a demand task create and submit a time card or time sheet to record the time spent on a demand task. The reported hours are used to calculate the actual cost and effort for a demand task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/submit-time-for-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/submit-time-for-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -64,5 +64,5 @@ To create a time card
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md)
 

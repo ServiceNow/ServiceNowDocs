@@ -2,7 +2,7 @@
 title: Contracts Dashboard
 description: With Contracts Dashboard, you can make data-driven decisions by analyzing the trends and insights derived from the contract request data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-contracts-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-contracts-dashboard.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -235,5 +235,5 @@ Choice
 Displays own paper and third-party paper in the list. You can select the desired option to view the relevant data in the Contracts Dashboard.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-analytics-pa.md)
+</table>**Parent Topic:**[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-analytics-pa.md)
 

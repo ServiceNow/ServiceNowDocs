@@ -2,7 +2,7 @@
 title: Onboard Split to DevOps Change Velocity — Classic
 description: Create a Split tool record to connect and discover workspaces, environments, segments, and feature flags from the connected Split tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/create-split-tool-record-devops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/create-split-tool-record-devops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -62,7 +62,7 @@ Tool Password / Access Token
 
 </td><td>
 
-Split password or access token. For information on creating a Split token, see [Enable integration with ServiceNow DevOps in Split tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/enable-integration-servicenow-devops-split.md).
+Split password or access token. For information on creating a Split token, see [Enable integration with ServiceNow DevOps in Split tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/enable-integration-servicenow-devops-split.md).
 
 </td></tr></tbody>
 </table>        **MID Server** is optional. Select MID Server for an on-premises tool that is attached to a MID Server. Application is automatically set to DevOps and capability is set to REST.
@@ -101,5 +101,5 @@ The following example specifies how changes made in the Split tool are notified 
 -   Feature Flag requests \(**DevOps &gt; Feature Flag &gt; Feature Flag Requests**\) are created or updated based on the status.\[Omitted image "split-feature-flag-requests.png"\] Alt text: Feature flag requests for Split created in ServiceNow
 -   A change request is created for every Feature Flag request, and work notes on the change request is updated with basic change details on the feature flag.\[Omitted image "split-change-request.png"\] Alt text: Change request created for feature flag request
 
-**Parent Topic:**[Split.io integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/split-integration-devops-classic.md)
+**Parent Topic:**[Split.io integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/split-integration-devops-classic.md)
 

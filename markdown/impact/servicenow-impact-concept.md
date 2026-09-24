@@ -2,7 +2,7 @@
 title: Exploring Impact
 description: ServiceNow Impact is a premium customer success product that combines AI-powered software tools with hands-on expertise that helps organizations maximize the value of their ServiceNow investment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/servicenow-impact-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/servicenow-impact-concept.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
@@ -90,7 +90,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Build implementation plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/impact-par.md) using Product Adoption Roadmap
+[Build implementation plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-product-adoption-roadmap/impact-par.md) using Product Adoption Roadmap
 
 </td><td>
 
@@ -98,7 +98,7 @@ Customizable implementation project plans to build an adoption roadmap aligned t
 
 </td></tr><tr><td>
 
-[Manage capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/manage-capability-maps.md) using Capabilities Map
+[Manage capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-product-adoption-roadmap/manage-capability-maps.md) using Capabilities Map
 
 </td><td>
 
@@ -106,7 +106,7 @@ An inventory of what you have purchased and whether it's actively being used
 
 </td></tr><tr><td>
 
-[Business KPIs tracking with Outcomes Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/outcome-insights.md) using Value Dashboards
+[Business KPIs tracking with Outcomes Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/value-library/outcome-insights.md) using Value Dashboards
 
 </td><td>
 
@@ -114,16 +114,16 @@ Measure business outcomes and ROI across your ServiceNow product journey
 
 </td></tr><tr><td>
 
-[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/platform-health-idi.md)
+[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/platform-health-idi.md)
 
 </td><td>
 
-Monitor instance health and align with technical general guidelines: -   [Prevent and resolve technical debt with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/prevent-resolve-technical-debt-ai.md)– Checks your instance for technical debt
--   [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/real-time-prevention-monitoring.md): Verifies that code and update sets are safe to deploy to production
+Monitor instance health and align with technical general guidelines: -   [Prevent and resolve technical debt with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/prevent-resolve-technical-debt-ai.md)– Checks your instance for technical debt
+-   [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/real-time-prevention-monitoring.md): Verifies that code and update sets are safe to deploy to production
 
 </td></tr><tr><td>
 
-[Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-diagnostic-dashboards.md) using Analytics Dashboards
+[Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/scan-engine-diagnostic-dashboards.md) using Analytics Dashboards
 
 </td><td>
 
@@ -131,7 +131,7 @@ Dashboards allowing persona-based views of key metrics,  charts, and  trend 
 
 </td></tr><tr><td>
 
-[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-overview.md)
 
 </td><td>
 
@@ -139,7 +139,7 @@ An observability platform for your ServiceNow instances
 
 </td></tr><tr><td>
 
-[Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-recommendations-iip-ws.md) to receive AI-Powered Recommendations
+[Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/using-recommendations-iip-ws.md) to receive AI-Powered Recommendations
 
 </td><td>
 
@@ -147,7 +147,7 @@ Tailored suggestions for content, training, and Accelerators to speed up adoptio
 
 </td></tr><tr><td>
 
-[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md)
+[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/accelerator-catalog.md)
 
 </td><td>
 
@@ -164,16 +164,16 @@ With manual curation of content by a CSM Newsletter team, based on Impact Squad�
 
 Impact is delivered through the ServiceNow Store and runs directly within your ServiceNow instance.
 
-The Impact Store Application is included with an Impact subscription, as is the connector that links the app to the Impact Delivery Instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) to get started.
+The Impact Store Application is included with an Impact subscription, as is the connector that links the app to the Impact Delivery Instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/install-impact-innovation-lab.md) to get started.
 
 **Note:** The Impact Store Application is the exclusive hub for all innovative features starting with the Yokohama release \(March 2025\).
 
 **Related topics**  
 
 
-[Get started with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/getting_started_with_impact_concept.md)
+[Get started with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/getting_started_with_impact_concept.md)
 
-[Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md)
+[Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-squad.md)
 
-[Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md)
+[Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-packages1.md)
 

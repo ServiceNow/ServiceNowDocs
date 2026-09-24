@@ -2,11 +2,11 @@
 title: Combined RPA Hub release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for RPA Hub from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-rpahub-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-rpahub-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 19
+last_updated: "2026-09-24"
+reading_time_minutes: 24
 breadcrumb: [Products combined by family]
 ---
 
@@ -132,10 +132,87 @@ Yokohama
 
 </td><td>
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
+-   **[Enhanced ACLs for security measures](https://www.servicenow.com/docs/access?context=installed-with-rpa-hub&family=yokohama&ft:locale=en-US)**
+
+Enhanced access controls for RPA bot generation skill for Now Assist for RPA Hub in compliance with AI security directives.
+
+Access to RPA bot generation skill is now restricted to users with the RPA developer or RPA admin role. These roles contain the RPA Hub Admin user role \(sn\_nowassist\_admin.user\).
+
+
+ -   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
 
+
+ -   **[RPA bot generation](https://www.servicenow.com/docs/access?context=rpa-now-assist-studio&family=yokohama&ft:locale=en-US)**
+
+Use the Robotic Process Automation \(RPA\) bot generation skill in RPA Desktop Design Studio to create and edit automations and activities through short text instructions and preview options, accelerating automation development for both new and existing users. For more information about creating automations using Now Assist, see [Create an automation with Now Assist](https://www.servicenow.com/docs/access?context=create-automation-now-assist&family=yokohama&ft:locale=en-US). For more information about creating activities using Now Assist, see [Create an activity with Now Assist](https://www.servicenow.com/docs/access?context=create-activity-now-assist&family=yokohama&ft:locale=en-US).
+
+Enhance automation logic using the **Build automation** option, starting from components or from a blank canvas based on text instructions. For more information, see [Build an automation with Now Assist](https://www.servicenow.com/docs/access?context=build-automation-now-assist&family=yokohama&ft:locale=en-US).
+
+
+ -   **[High density robots](https://www.servicenow.com/docs/access?context=high-density-robots-rpa-hub&family=yokohama&ft:locale=en-US)**
+
+Enable multiple unattended robots to run simultaneously on the same Windows Server machine using the high-density robots feature. These unattended robots run automations in separate Remote Desktop Protocol \(RDP\) sessions. For more information, see [High density robots in Unattended Robot](https://www.servicenow.com/docs/access?context=high-density-robots-uat&family=yokohama&ft:locale=en-US) and [Set up Windows Server machine for high density robots](https://www.servicenow.com/docs/access?context=setup-windows-server-hdr&family=yokohama&ft:locale=en-US).
+
+-   **[Sample automations](https://www.servicenow.com/docs/access?context=sample-automations-rpa-studio&family=yokohama&ft:locale=en-US)**
+
+Use sample automations to jumpstart your automation journey with a library of pre-built automations.
+
+The following unattended and attended sample automations were added to the Sample Explorer and home page of RPA Desktop Design Studio:
+
+    -   User Creation in Badging App
+    -   Universal Timezone Converter
+    -   Decode Barcode and QR Code to Text
+    -   PDF Text to Images
+    -   PDF to Word
+    -   HTML to CSV
+    -   Word Operations
+    -   Excel Operations
+    -   Highlight Excel Rows
+    -   City Weather Reports
+    -   Tiff to PDF
+    -   Add Word Footer
+    -   Date Delta Across Apps
+    -   File Ops: Copy, Delete, Move
+    -   Extract Data from JSON to Excel
+    -   Automate Offer Letters
+    -   Summarize Sales Data
+    -   Invoice Data Extraction to Excel
+    -   Download File from URL
+    -   Health Check Bot
+-   **[Secure Shell \(SSH\) connector](https://www.servicenow.com/docs/access?context=ssh-connector&family=yokohama&ft:locale=en-US)**
+
+Establish an Secure Shell \(SSH\) connection to a remote server and execute commands in the RPA Desktop Design Studio. In the UNIX environment, SSH is the preferred way to access remote systems. Robots often interact with remote systems such as UNIX servers.
+
+The connector comprises three methods:
+
+    -   Connect: Establishes an SSH connection.
+    -   Run Command: Executes commands over an established connection.
+    -   Disconnect: Disconnects the session that was established using connect method.
+Ensure to install the SSH plugin from the Plugins Manager as a prerequisite.
+
+-   **[Bypassing the legal notice](https://www.servicenow.com/docs/access?context=rpahub-sys-properties&family=yokohama&ft:locale=en-US)**
+
+In RPA Hub, enable the **sn\_rpa\_fdn.bypass\_legal\_notice** system property to authorize the unattended robot to clear the legal notice message set by the system-level policy. This property ensures that a legal notice isn't displayed during the robot's login process.
+
+-   **[What's New tab in the Help Center for RPA Hub](https://www.servicenow.com/docs/access?context=whats-new&family=yokohama&ft:locale=en-US)**
+
+Learn about the following newly released RPA features in your instance in the What's New tab in the Help Center for RPA Hub:
+
+    -   Now Assist for RPA Hub
+    -   High density robot
+-   **[SAP connector](https://www.servicenow.com/docs/access?context=sap-connector&family=yokohama&ft:locale=en-US)**
+
+The SAP connector helps identify the screens and elements and automating workflows on the SAP GUI. For example, create and save a vendor entry. The SAP Connector is built by Bristlecone, Inc.
+
+-   **[New methods for Universal app connector](https://www.servicenow.com/docs/access?context=universal-app-connector&family=yokohama&ft:locale=en-US)**
+
+In the RPA Desktop Design Studio, the following three new methods for Universal app connector are added.
+
+    -   GetValue: Retrieves a value from an element.
+    -   SetValue: Assigns a specified value into an element.
+    -   Click: Performs a click action on an element.
 
 </td></tr><tr><td>
 
@@ -146,6 +223,42 @@ Zurich
 -   **[Try catch component enhancement](https://www.servicenow.com/docs/access?context=use-general-try-catch&family=zurich&ft:locale=en-US)**
 
 You can now precisely control the scope of Try-Catch blocks by selecting which actions \(components\) to include within exception handling and which to manage outside it. This enhancement provides better control over error handling logic and improves workflow reliability.
+
+
+ -   **[Role changed for creating, updating, and deleting the Robot License Distribution records](https://www.servicenow.com/docs/access?context=create-lua-record&family=zurich&ft:locale=en-US)**
+
+Role for Create, Update, and Delete ACLs in the Robot License Distribution table is changed from admin to sn\_rpa\_fdn.rpa\_admin.
+
+-   **[Long term stable models](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=zurich&ft:locale=en-US)**
+
+Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
+
+
+ -   **[Enhanced ACLs for security measures](https://www.servicenow.com/docs/access?context=installed-with-rpa-hub&family=zurich&ft:locale=en-US)**
+
+Enhanced access controls for RPA bot generation skill for Now Assist for RPA Hub in compliance with AI security directives.
+
+Access to RPA bot generation skill is now restricted to users with the RPA developer or RPA admin role. These roles contain the RPA Hub Admin user role \(sn\_nowassist\_admin.user\).
+
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
+
+-   **[Python connector](https://www.servicenow.com/docs/access?context=python-connector-rpa&family=zurich&ft:locale=en-US)**
+
+Execute custom Python scripts or files as part of an automation workflow in the RPA Desktop Design Studio.
+
+The connector comprises two methods:
+
+    -   Execute: Runs Python scripts set up in the configuration window.
+    -   InvokeScript: Runs Python script on local computers and gets the output.
+Ensure to install the Scripting plugin from the Plugins Manager as a prerequisite. Along with Python, VB.NET, C\#, and Javascript connectors are available with this plugin.
+
+-   **[Smart Card authentication](https://www.servicenow.com/docs/access?context=smart-card-il&family=zurich&ft:locale=en-US)**
+
+Use a physical smart card instead of a username and password for logging into a Windows machine.
+
+You can run unattended automations on the machines that use smart cards for authentication. While configuring a robot credential, you can store the smart card username and password to allow the unattended robot to log in to machines that use smart card.
 
 
 </td></tr><tr><td>
@@ -178,7 +291,20 @@ Yokohama
 
 </td><td>
 
--   **[High density robots](https://www.servicenow.com/docs/access?context=high-density-robots-rpa-hub&family=yokohama&ft:locale=en-US)**
+-   **[Build with Now Assist wizard](https://www.servicenow.com/docs/access?context=create-automation-now-assist&family=yokohama&ft:locale=en-US)**
+
+In the RPA Desktop Design Studio, create an automation with Now Assist by selecting the **Create automation** button and follow the next set of steps in the Build with Now Assist wizard.
+
+-   **[Create an activity with Now Assist](https://www.servicenow.com/docs/access?context=create-activity-now-assist&family=yokohama&ft:locale=en-US)**
+
+In the RPA Desktop Design Studio, create an activity using Now Assist by selecting and holding \(or right-clicking\) **Activities** in the Project Explorer. Then, select the **New activity using Now Assist** option.
+
+-   **[Build an automation with Now Assist](https://www.servicenow.com/docs/access?context=build-automation-now-assist&family=yokohama&ft:locale=en-US)**
+
+In the RPA Desktop Design Studio, extend the automation logic using the **Build automation with Now Assist** option. On the design canvas, select a component and hover over the AI icon \(\[Omitted image "image.ai-sparkle-rpa-icon"\]\). Select the AI icon \(\[Omitted image "image.ai-sparkle-rpa-icon"\]\) to open the Build automation with Now Assist window, you can describe the automation logic based on the selected components.
+
+
+ -   **[High density robots](https://www.servicenow.com/docs/access?context=high-density-robots-rpa-hub&family=yokohama&ft:locale=en-US)**
 
 In the Robot form of RPA Hub, the **High Density Robot** and **Screen Resolution** fields are added to support the high-density robot feature.
 
@@ -334,6 +460,8 @@ For cumulative release notes information on ServiceNow Otto for RPA Hub, see [No
 If you have previously downloaded the application from the ServiceNow Store and a new version is available, you can update it in your ServiceNow AI Platform instance at **All** &gt; **System Applications** &gt; **All Available Applications**.
 
 
+**Important:** RPA Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -345,6 +473,8 @@ Zurich
 Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** RPA Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -355,6 +485,8 @@ Australia
 
 Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** RPA Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -774,5 +906,5 @@ Australia
  See [Learn about RPA suite of applications](https://www.servicenow.com/docs/access?context=rpa-explore&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

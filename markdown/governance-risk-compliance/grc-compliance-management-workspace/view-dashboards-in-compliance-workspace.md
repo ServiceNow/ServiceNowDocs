@@ -2,7 +2,7 @@
 title: View dashboards in Compliance Workspace
 description: Access Policy and Compliance Management dashboards directly from the Compliance Workspace without navigating to Platform Analytics application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/view-dashboards-in-compliance-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/view-dashboards-in-compliance-workspace.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -28,10 +28,10 @@ To view the Compliance Workspace dashboards, you need one of the following roles
 
 For information on Compliance Workspace dashboards, see the following topics:
 
--   [Compliance Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-compliance-overview-dashboard.md)
--   [Policy Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-overview-pa-db-pc.md)
--   [Policy Exception Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-exception-dashboard.md)
--   [Policy Acknowledgement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-ack-db-pc.md)
+-   [Compliance Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/grc-compliance-overview-dashboard.md)
+-   [Policy Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/policy-overview-pa-db-pc.md)
+-   [Policy Exception Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/grc-policy-exception-dashboard.md)
+-   [Policy Acknowledgement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/policy-ack-db-pc.md)
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Health and Safety Case Management
 description: The ServiceNow Health and Safety Case Management application provides capabilities to support employees' health and safety inquiries and their return to work after an injury or illness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-case-management/hs-case-management-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-case-management/hs-case-management-landing-page.html
 release: australia
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -20,23 +20,23 @@ The ServiceNow® Health and Safety Case Management application provides capabili
 
 <table id="table_emw_cqr_ybc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how workers, line managers, and safety personnel use Health and Safety Case Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-exploring-case-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how workers, line managers, and safety personnel use Health and Safety Case Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-exploring-case-management.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Health and Safety Case Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Health and Safety Case Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 
 </td><td>
 
-[Ask Safety question\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Submit health and safety related questions to safety team.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-ask-health-safety-question.md)
+[Ask Safety question\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Submit health and safety related questions to safety team.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-ask-health-safety-question.md)
 
 </td></tr><tr><td>
 
-[Resolve cases\[Omitted image "bus-compliance.svg"\] Alt text:Manage Health and Safety cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md)
+[Resolve cases\[Omitted image "bus-compliance.svg"\] Alt text:Manage Health and Safety cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles, tables, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-case-management-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles, tables, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-case-management-reference.md)
 
 </td><td>
 

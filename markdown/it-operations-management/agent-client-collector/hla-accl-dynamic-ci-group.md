@@ -2,7 +2,7 @@
 title: CI association to a dynamic CI Group in Agent Client Collector Log Analytics
 description: When the Agent Client Collector Log Analytics \(ACC-L\) application discovers a CI that is not associated to an application service, it creates a dynamic CI Group. The application then associates the CI to the group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/hla-accl-dynamic-ci-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/hla-accl-dynamic-ci-group.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

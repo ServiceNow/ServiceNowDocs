@@ -2,7 +2,7 @@
 title: Update the change request workflow
 description: Update the change request workflow to reflect the addition of the Complete state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_UpdateWorkflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_UpdateWorkflow.html
 release: australia
 product: Change Management
 classification: change-management
@@ -61,9 +61,9 @@ The functionality is available only for the new customers.
 8.  Open the Workflow Actions menu and click **Publish**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Create a process flow record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewProcessFlowRecord.md)
+**Previous topic:**[Create a process flow record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateNewProcessFlowRecord.md)
 
-**Next topic:**[Change flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-flows.md)
+**Next topic:**[Change flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-flows.md)
 

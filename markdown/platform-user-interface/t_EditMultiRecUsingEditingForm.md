@@ -2,7 +2,7 @@
 title: Edit multiple records in a list using an editing form
 description: You can edit multiple records at the same time using an editing form. If you want to edit multiple fields or fields that don’t appear in the list view, use an editing form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_EditMultiRecUsingEditingForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_EditMultiRecUsingEditingForm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ Depending on your ACL settings, some of these options might not be available eve
 </table>2.  Enter appropriate values in any of the fields and select **Update** to save your changes in all selected records.
 
 
-**Parent Topic:**[Methods for list edits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_MethodsForListEdits.md)
+**Parent Topic:**[Methods for list edits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_MethodsForListEdits.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Deny-by-default ACL configuration
 description: The ServiceNow AI Platform enforces a deny-by-default ACL \(Access Control Lists\) configuration for AI agentic types on freshly reset instances, for any AI agents and agentic workflows that don't have an individual ACL configured to reduce unauthorized access risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-acl-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-acl-configuration.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-26"
@@ -32,8 +32,8 @@ There are three possible options for ACLs created in AI Agent Studio:
 
 Each AI agent and agentic workflow must have its own unique ACL.
 
--   To configure an ACL in the AI Agent Studio for an AI agent, see the [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md) guided setup.
--   To configure an ACL for an agentic workflow, see the [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md) guided setup.
+-   To configure an ACL in the AI Agent Studio for an AI agent, see the [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aia.md) guided setup.
+-   To configure an ACL for an agentic workflow, see the [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md) guided setup.
 
 **Note:** If there are conflicting security requirements between agentic workflows, AI agents, and AI agent tools, or if the invoking user meets the criteria for some ACLs but not others, your agentic AI fails to execute. When configuring these security settings, consider all aspects of the agentic system- including the agentic workflow, AI agents, and tools.
 
@@ -49,13 +49,13 @@ To inform users about security checks on the agentic system, the platform provid
 
     \[Omitted image "acl-warning-aia.png"\] Alt text: An AI agent guided setup page displaying a warning banner when no ACLs are configured.
 
-    **Note:** To configure access control lists for an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
+    **Note:** To configure access control lists for an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aia.md).
 
 -   Agentic workflow guided setup: The agentic workflow agent guided setup page displays a warning banner when that agentic workflow doesn't have the required ACLs configured.
 
     \[Omitted image "acl-warning-aw.png"\] Alt text: An agentic workflow guided setup page displaying a warning banner when no ACLs are configured.
 
-    **Note:** To configure access control lists for an agentic workflow, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+    **Note:** To configure access control lists for an agentic workflow, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 
 
 These warnings indicate that ACLs are missing and should be configured to verify secure and uninterrupted operation. Users who have already switched to deny-by-default and users who still use wildcard ACLs will both see these warnings. For wildcard ACL users, the warnings are informational.

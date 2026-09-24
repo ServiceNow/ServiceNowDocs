@@ -2,7 +2,7 @@
 title: Activate Time Card Management
 description: Administrators can activate the Time Card Management plugin \(com.snc.time\_card\). The plugin also activates the Performance Analytics - Content Pack - Project Portfolio Suite Dashboards plugin \(com.snc.pa.time\_card\). However, you need a Performance Analytics license to use the dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/t\_ActivateTimeCardManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/time-card-management/t\_ActivateTimeCardManagement.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** The Time Card Management plugin also gets activated as part of [PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md) plugin \(com.snc.financial\_planning\_pmo\).
+**Note:** The Time Card Management plugin also gets activated as part of [PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md) plugin \(com.snc.financial\_planning\_pmo\).
 
 ## Procedure
 
@@ -39,5 +39,5 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/time-card-management.md)
 

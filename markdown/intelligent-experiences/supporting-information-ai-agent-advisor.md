@@ -2,7 +2,7 @@
 title: Supporting information for AI Agent Advisor
 description: Get a quick overview of the important information that is related to the AI Agent Advisor application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/supporting-information-ai-agent-advisor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/supporting-information-ai-agent-advisor.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -25,11 +25,11 @@ The AI Agent Advisor application is supported in the AI Admin Center workspace.
 
 The AI Admin Center workspace provides features that enable you to set up of your AI solutions in a unified experience without switching between separate AI applications.
 
-For more information, see [AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md).
+For more information, see [AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
 
 ## Licensing requirements
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Application information
 
@@ -50,5 +50,5 @@ This store app has the following dependencies.
 |Generative AI Controller|sn\_generative\_ai|13.0.3|App|
 |Predictive Intelligence| |Platform version|Plugin|
 
-For more information, see [Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agent-advisor.md).
+For more information, see [Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-ai-agent-advisor.md).
 

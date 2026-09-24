@@ -2,7 +2,7 @@
 title: Use Risk assessment summarization skill to generate summary
 description: Use Risk assessment summarization skill to generate a risk assessment summary that is based on inherent risks, residual risks, target risks, and control effectiveness data. Your approvers get the key insights to understand the context quickly, and you can reduce the time involved in creating summaries manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-generate-risk-assessment-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/privacy-generate-risk-assessment-summary.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -18,7 +18,7 @@ Use Risk assessment summarization skill to generate a risk assessment summary th
 
 ## Before you begin
 
-Install the ServiceNow Otto for Privacy Management application to generate a risk assessment summary. For more information, see [Install ServiceNow Otto for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.md).
+Install the ServiceNow Otto for Privacy Management application to generate a risk assessment summary. For more information, see [Install ServiceNow Otto for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.md).
 
 Role required: The sn\_prm\_gen\_ai.user role must be assigned manually to your role to generate the risk assessment summary.
 

@@ -2,7 +2,7 @@
 title: Add or edit a digital integration in the EA Workspace
 description: Add a digital integration or edit an existing digital integration in the EA Workspace. The digital integration is a design object used by the Enterprise Architects. It describes a connection between two business applications or between a business application and an external service \(for example: AWS, Yahoo, a TimeZone Conversion service\) that provides an interface \(API\) to interact with.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-digital-integ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-digital-integ.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Role required: sn\_apm.apm\_analyst
     -   To update an existing digital integration, select the digital integration, select **Edit**.
 6.  On the **Digital Integration** form, fill in the fields.
 
-    For a description of the field values, see [Digital integration form \(easy form\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-digital-integ-form.md) or [Digital integration form in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-digital-integration-form.md).
+    For a description of the field values, see [Digital integration form \(easy form\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-digital-integ-form.md) or [Digital integration form in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-update-digital-integration-form.md).
 
 7.  Select **Add** or **Update**.
 
@@ -47,14 +47,14 @@ Role required: sn\_apm.apm\_analyst
 
 After submission of the form, within the CMDB platform, a CI relationship \(Interfaces::Interfaced By\) gets created between provider and subscriber business applications. If the digital interface has no relation to a business application \(using Open or Public API\), the digital integration is created between the subscriber business application and a standalone digital interface.
 
-**Parent Topic:**[Working with digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-digital-integrations.md)
+**Parent Topic:**[Working with digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-digital-integrations.md)
 
 **Related topics**  
 
 
-[Manage architectural artifacts of a digital integration in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-dig-intgn.md)
+[Manage architectural artifacts of a digital integration in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-assoicate-artifact-dig-intgn.md)
 
-[Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-integ-add-info-object.md)
+[Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-dig-integ-add-info-object.md)
 
-[View all digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-dig-integ.md)
+[View all digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-dig-integ.md)
 

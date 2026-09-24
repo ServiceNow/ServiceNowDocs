@@ -2,7 +2,7 @@
 title: Jumpstart Your Event Management
 description: The Jumpstart Your Event Management Accelerator provides a demonstration of the possibilities and capabilities of Event Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-event-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-event-mgmt.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

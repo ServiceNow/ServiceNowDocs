@@ -2,7 +2,7 @@
 title: Configure custom prompts for knowledge article templates
 description: ServiceNow Otto in Knowledge Management has extended the out-of-box \(OOB\) KB generation skill to create custom prompts for OOB and custom knowledge article templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -56,7 +56,7 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
     |Provider|Select the third-party AI provider that you want to use|
     |Provider API|Select the API details of the third-party AI provider|
 
-9.  To develop a prompt, see [Guidelines for creating prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/guidelines-for-creating-prompts.md).
+9.  To develop a prompt, see [Guidelines for creating prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/guidelines-for-creating-prompts.md).
 
 10. Save the prompt.
 
@@ -95,8 +95,8 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
     The KB generation skill is activated and ready to use the custom templates defined by the prompt.
 
 
--   **[Guidelines for creating prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/guidelines-for-creating-prompts.md)**  
+-   **[Guidelines for creating prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/guidelines-for-creating-prompts.md)**  
 Guidelines for writing prompts for out-of-box \(OOB\) and custom knowledge article templates to optimize the use of AI models for generating knowledge articles.
 
-**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 

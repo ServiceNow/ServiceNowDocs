@@ -2,7 +2,7 @@
 title: Configure a currency in Grants Management
 description: Grants Management currently only supports single-currency mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-single-currency-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-single-currency-setup.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -53,9 +53,9 @@ Role required: admin
 11. Open the record of each currency that you wish to deselect, and unselect the checkbox for **Active**.
 
 
-**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-foundation.md)
+**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-foundation.md)
 
-**Previous topic:**[Configure a retention policy for grant cases in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-setup-retention-policy.md)
+**Previous topic:**[Configure a retention policy for grant cases in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-setup-retention-policy.md)
 
-**Next topic:**[Configure export application functionality in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-export-pdf.md)
+**Next topic:**[Configure export application functionality in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-export-pdf.md)
 

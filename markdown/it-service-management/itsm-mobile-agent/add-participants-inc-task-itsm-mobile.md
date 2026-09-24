@@ -2,7 +2,7 @@
 title: Add participants to a conference call from an incident task
 description: Add participants to an active conference call with the caller from an incident task to discuss about the resolution of a task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/add-participants-inc-task-itsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/add-participants-inc-task-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

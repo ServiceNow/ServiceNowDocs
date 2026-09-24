@@ -2,7 +2,7 @@
 title: Expiration rules for source records
 description: Expiration rules are basically helpful to set the expiration time for the source records. The aggregate record inherits the highest expiration time from its corresponding sources records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-expiration-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-expiration-source.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -46,5 +46,5 @@ Expiration rules are basically helpful to set the expiration time for the source
     Suppose, if a data source that has the expiration rules associated with it is deleted, then the deletion may be restricted or not allowed until these rules are addressed. This ensures that there are no inconsistencies in the application of expiration policies.
 
 
-**Parent Topic:**[Defining Expiration Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-expiration-rules.md)
+**Parent Topic:**[Defining Expiration Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-expiration-rules.md)
 

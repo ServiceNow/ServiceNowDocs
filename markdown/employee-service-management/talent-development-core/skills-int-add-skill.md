@@ -2,7 +2,7 @@
 title: Adding a skill in Skills Foundation
 description: Add the skills required across your organization by Identifying the skills you currently have and might need. These skills can be associated with people and roles to deliver employee growth.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-int-add-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/skills-int-add-skill.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

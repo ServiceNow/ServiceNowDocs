@@ -2,7 +2,7 @@
 title: Create a theme for your mobile applications
 description: Use mobile themes to give your applications a unique appearance that works with your company identity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-configure-theme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-configure-theme.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
+**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/explore-ne-theming.md).
 
-**Note:** Certain elements, such as banner text color, are not configurable with legacy theming and require Next Experience theming. For details, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
+**Note:** Certain elements, such as banner text color, are not configurable with legacy theming and require Next Experience theming. For details, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/explore-ne-theming.md).
 
 ## Procedure
 
@@ -37,5 +37,5 @@ Role required: admin
 
 ## What to do next
 
-After you configure a mobile theme, you can apply the mobile theme to your mobile apps. For details, see [Assign a theme to your mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/assign-theme-to-mobile-app.md).
+After you configure a mobile theme, you can apply the mobile theme to your mobile apps. For details, see [Assign a theme to your mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/assign-theme-to-mobile-app.md).
 

@@ -2,7 +2,7 @@
 title: Generate an action plan to resolve a deviation in the Digital Factory Workspace
 description: Generate an action plan to document and track remediation steps for an Industrial Connected Workforce \(ICW\) deviation. Action plans help you organize tasks, assign responsibilities, and monitor progress toward resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/generate-action-plan-ai-enhanced-ra-icw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/generate-action-plan-ai-enhanced-ra-icw.html
 release: australia
 topic_type: task
 last_updated: "2026-04-25"
@@ -52,10 +52,10 @@ The AI Enhanced Recommended Actions for ICW enables you to generate a structured
 
 The action plan appears in Work notes of the deviation record that you can refer to as the remediation work progresses.
 
-**Parent Topic:**[Using AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/using-ai-enhanced-ra-icw.md)
+**Parent Topic:**[Using AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/using-ai-enhanced-ra-icw.md)
 
 **Related topics**  
 
 
-[Generate an action plan in ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/generate-action-plan-ai-enhanced-ra-icw-mobile.md)
+[Generate an action plan in ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/generate-action-plan-ai-enhanced-ra-icw-mobile.md)
 

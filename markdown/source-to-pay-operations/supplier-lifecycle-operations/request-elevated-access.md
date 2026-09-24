@@ -2,7 +2,7 @@
 title: Request elevated access
 description: Submit a request to gain access to the privileges of the primary contact role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/request-elevated-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/request-elevated-access.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -60,7 +60,7 @@ The Request elevated access catalog item is available only to the secondary cont
     After the primary contact approves the request, the secondary contact role is elevated to that of the primary contact.
 
 
-**Parent Topic:**[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
+**Parent Topic:**[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 
 **Related topics**  
 
@@ -87,5 +87,5 @@ The Request elevated access catalog item is available only to the secondary cont
 
 [Request something else using the supplier catalog]()
 
-[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 

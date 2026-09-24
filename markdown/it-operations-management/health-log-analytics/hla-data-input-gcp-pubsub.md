@@ -2,7 +2,7 @@
 title: Configure a GCP PubSub data input in Health Log Analytics manually
 description: Set up a data input for receiving log messages that were published to a Google Cloud Platform \(GCP\) Pub/Sub topic and streaming them to your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -38,15 +38,15 @@ Role required: evt\_mgmt\_admin
 
 3.  Choose the GCP PubSub data input type.
 
-    **Note:** The selected data input type complements the passive data input \(listener\). For more information, see [Supported data inputs for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-supported.md).
+    **Note:** The selected data input type complements the passive data input \(listener\). For more information, see [Supported data inputs for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-supported.md).
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [GCP PubSub data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.md).
+    For a description of the fields, see [GCP PubSub data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.md).
 
 5.  Select **Advanced** to set additional configuration fields.
 
-    For a description of the fields, see [GCP PubSub data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.md).
+    For a description of the fields, see [GCP PubSub data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.md).
 
 6.  Select **Save**.
 
@@ -74,5 +74,5 @@ The data input configuration process is complete. Health Log Analytics adds the 
 
 **Note:** If the HLA engine is down and data has stopped streaming, a notification appears at the top of the data input configuration page. When this happens, contact ServiceNow support.
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

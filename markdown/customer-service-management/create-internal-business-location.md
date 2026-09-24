@@ -2,7 +2,7 @@
 title: Create an internal organization
 description: Create an internal organization \(formerly internal business location\) to enable users and consumers to create accounts, contacts, consumers, and households.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-internal-business-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-internal-business-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ The manager of an internal organization can access all the cases for account, ho
 -   Update cases created in the location hierarchy.
 -   Create cases for customers in the location hierarchy.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ The manager of an internal organization can access all the cases for account, ho
 
 2.  Select **New** on the Internal Organizations list.
 
-3.  Fill in the fields on the [Internal Business Organization \(formerly Business Location\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-model-business-location-form.md) form.
+3.  Fill in the fields on the [Internal Business Organization \(formerly Business Location\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/data-model-business-location-form.md) form.
 
 4.  Select **Submit**.
 
@@ -54,5 +54,5 @@ The manager of an internal organization can access all the cases for account, ho
 **Related topics**  
 
 
-[Create an external organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-external-business-location.md)
+[Create an external organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-external-business-location.md)
 

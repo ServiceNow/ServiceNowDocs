@@ -2,7 +2,7 @@
 title: Create a transform in Service Exchange
 description: As a provider or a consumer, create a transform in Service Exchange to integrate tasks between connected instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-transform.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-create-transform.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -219,5 +219,5 @@ When Type field is set to **Virtual Inbound** or **Virtual Outbound**, this fiel
 
 ## Result
 
-A transform record is created on your ServiceNow® instance. Any Remote Task's inbound or outbound fields that match a transform will automatically use them. To learn more, see [Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
+A transform record is created on your ServiceNow® instance. Any Remote Task's inbound or outbound fields that match a transform will automatically use them. To learn more, see [Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
 

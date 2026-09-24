@@ -2,7 +2,7 @@
 title: Risk and compliance tab in AI Control Tower
 description: The Risk and compliance tab on the AI Control Tower displays the risk classification of AI assets and the compliance posture for selected authority documents and policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/risk-compliance-tab-aict.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/risk-compliance-tab-aict.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

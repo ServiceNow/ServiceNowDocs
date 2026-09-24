@@ -2,7 +2,7 @@
 title: Load more IoC data
 description: Depending on settings in two properties and a script include definition, you can load geolocation information for IP addresses and websites in the Observables form. With further customization, you can also add other information, such as country codes, city names.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/t\_LoadAdditionalIoCData.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/t\_LoadAdditionalIoCData.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Role required: sn\_ti.admin
     **Note:** To load more location-related information, edit the **ThreatAdditionalInfo** script include and provide the appropriate API key from the website that provides the additional information.
 
 
-**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_Observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_Observables.md)
 
 **Related topics**  
 

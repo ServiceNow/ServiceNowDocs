@@ -2,7 +2,7 @@
 title: Simplifying the authentication experience for your remote employees
 description: With the Issue Auto Resolution application, you can simplify the authentication experience for your remote employees. Instead of entering a user name and password to access the service portal, your remote employees can get to the portal through a link in a short messaging service \(SMS\) or email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/issue-auto-resolution-for-hr/iar-simplified-authentication-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/issue-auto-resolution-for-hr/iar-simplified-authentication-experience.html
 release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
@@ -48,13 +48,13 @@ You can do the following tasks to set the existing time-limited authentication p
 -   Enable multi-provider single sign-on \(SSO\).
 -   Enable the **Active** field in the time limited authentication properties config record.
 
-To learn how to configure the properties, see [Time Limited Authentication Properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/issue-auto-resolution-for-hr/iar-time-limited-authentication-properties-form.md).
+To learn how to configure the properties, see [Time Limited Authentication Properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/issue-auto-resolution-for-hr/iar-time-limited-authentication-properties-form.md).
 
 To learn more about time-limited authentication, see [Time limited authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/time-based-authentication-with-mfa.md).
 
 ## User criteria for generating the digest link
 
-You can use the sn\_iar\_hr.digest\_link\_user\_criteria system property to get and validate the user criteria for generating the digest link. This link appears in an SMS or email that is sent to the employee. The value should be the sys\_id of the active user criteria. For more information, see [User criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md).
+You can use the sn\_iar\_hr.digest\_link\_user\_criteria system property to get and validate the user criteria for generating the digest link. This link appears in an SMS or email that is sent to the employee. The value should be the sys\_id of the active user criteria. For more information, see [User criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md).
 
 Users with the admin and sn\_hr\_core.admin roles can assign the sn\_iar\_hr.digest\_link\_user role. This role is added to the available user criteria to validate if that user qualifies for digest link generation.
 

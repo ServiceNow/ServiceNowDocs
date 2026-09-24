@@ -2,7 +2,7 @@
 title: Read or send emails using Microsoft Graph
 description: Use Microsoft Graph endpoints to read or send emails from Microsoft Exchange Online.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/read-send-emails-ms-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/read-send-emails-ms-graph.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,12 +29,12 @@ To receive and email, go to the **Email Account** form, select, **Microsoft Grap
 
 To send and email, go to the **Email Account** form, select, **Microsoft Graph \(Send\)** in the **Type** field.
 
--   **[Activate Email - Support for Email Processing by Microsoft Graph API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ms-graph-plugin.md)**  
+-   **[Activate Email - Support for Email Processing by Microsoft Graph API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ms-graph-plugin.md)**  
 You can activate the Email - Support for Email Processing by Microsoft Graph API plugin \(com.glide.email.graph\) for Notifications if you have the admin role.
--   **[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-email-using-ms-graph.md)**  
+-   **[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/read-email-using-ms-graph.md)**  
 Use Microsoft Graph API to retrieve emails from Microsoft Exchange Online and save them to sys\_email table.
--   **[Sending email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/send-email-using-ms-graph.md)**  
+-   **[Sending email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/send-email-using-ms-graph.md)**  
 Use Microsoft Graph endpoints to deliver emails through Microsoft Exchange Online using the SMTP Sender.
 
-**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AlternateEmailConfigurations.md)
 

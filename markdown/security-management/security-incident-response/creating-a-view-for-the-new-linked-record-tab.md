@@ -2,7 +2,7 @@
 title: Step 4. Create a view for a new Linked Record Tab for a Security Case
 description: Customize the List layout for a Security Case table when it is displayed on the Link Records page with the Major Security Incident Management workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/creating-a-view-for-the-new-linked-record-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/creating-a-view-for-the-new-linked-record-tab.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -70,5 +70,5 @@ Role required: admin
         \[Omitted image "list-layout-step4.png"\] Alt text: List layout.
 
 
-**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-case-for-a-security-case.md)
+**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/use-case-for-a-security-case.md)
 

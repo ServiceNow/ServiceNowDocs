@@ -2,7 +2,7 @@
 title: Classify imported licenses in the Software Bill of Materials Workspace
 description: Classify the component licenses you upload with your SBOM files with the License Classification feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-classify-license.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sbom-core/vr-sbom-classify-license.html
 release: australia
 product: SBOM Core
 classification: sbom-core
@@ -32,15 +32,15 @@ Role required: sn\_sbom\_response.managelicense
 
 3.  To classify licenses, choose one.
 
-<table id="choicetable_inv_wvz_ycc"><thead><tr><th align="left" id="d505338e96">
+<table id="choicetable_inv_wvz_ycc"><thead><tr><th align="left" id="d505332e96">
 
 Option
 
-</th><th align="left" id="d505338e99">
+</th><th align="left" id="d505332e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d505338e105">
+</th></tr></thead><tbody><tr><td id="d505332e105">
 
 **Bulk edit records or edit more than one record on the list.**
 
@@ -51,7 +51,7 @@ Description
 3.  Update the classification.
 
 
-</td></tr><tr><td id="d505338e126">
+</td></tr><tr><td id="d505332e126">
 
 **Edit and update the classification on the record.**
 
@@ -63,6 +63,6 @@ Description
 
 
 </td></tr></tbody>
-</table>4.  After you classify licenses, you are ready to [Resolve classified licenses to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-assign-license.md).
+</table>4.  After you classify licenses, you are ready to [Resolve classified licenses to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sbom-core/vr-sbom-assign-license.md).
 
 

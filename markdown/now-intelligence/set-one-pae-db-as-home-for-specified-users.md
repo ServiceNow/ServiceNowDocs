@@ -2,7 +2,7 @@
 title: Set a specific Platform Analytics dashboard as home for specific users
 description: Configure ServiceNow so that specified users see the same dashboard when they log in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/set-one-pae-db-as-home-for-specified-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/set-one-pae-db-as-home-for-specified-users.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"

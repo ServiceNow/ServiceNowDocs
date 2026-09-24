@@ -2,7 +2,7 @@
 title: Workaround posted
 description: This example demonstrates a table notification that generates an automatic message on Live Feed whenever a workaround is added to an open problem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_Example1WorkaroundPosted.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/c\_Example1WorkaroundPosted.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -37,10 +37,10 @@ This example demonstrates a table notification that generates an automatic messa
     ```
 
 
-**Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)
+**Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)
 
 **Related topics**  
 
 
-[Live Feed table notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_SetUpLiveFeedTableNotifications.md)
+[Live Feed table notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_SetUpLiveFeedTableNotifications.md)
 

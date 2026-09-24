@@ -2,7 +2,7 @@
 title: View CMDB Health Dashboard
 description: The CMDB Health Dashboard serves as a central location to view detailed health reports for your CMDB at a glance. Also, it provides functions to remediate issues that CMDB Health detected, to improve CMDB health.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_MonitorCMDBHealth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/c\_MonitorCMDBHealth.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -16,7 +16,7 @@ breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configurat
 
 The CMDB Health Dashboard serves as a central location to view detailed health reports for your CMDB at a glance. Also, it provides functions to remediate issues that CMDB Health detected, to improve CMDB health.
 
-Once you configure CMDB Health and the CMDB Health Dashboard Jobs are enabled, the CMDB Health Dashboard shows meaningful data that is automatically collected and calculated on a recurring schedule. For more information, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).
+Once you configure CMDB Health and the CMDB Health Dashboard Jobs are enabled, the CMDB Health Dashboard shows meaningful data that is automatically collected and calculated on a recurring schedule. For more information, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).
 
 \[Omitted image "CMDBHealthDashboardYokohama.png"\] Alt text: Default view in CMDB Health Dashboard
 
@@ -45,7 +45,7 @@ Role requirement: Using the CMDB Health Dashboard requires the asset, sn\_cmdb\_
 
 By default, all metrics and KPIs are set with a specific percentage weight in score calculations. However, you can use legacy calculation methods which were used up until the Washington DC release by toggling the **Use legacy calculation methods** switch \(requires the sn\_cmdb\_admin role\) on the CMDB Health Dashboard. In those methods, calculating aggregation scores is based on weights settings for metrics within their KPI, and KPIs within the overall score. Use the legacy calculation methods when it is important to reflect on specific weights of metrics and KPIs in the assessment of CMDB health in your organization.
 
-For more information about customizing calculation weights for metrics, KPIs, and the overall score, see [Configure aggregation weights for CMDB Health scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/config-cmdb-health-metric-weights.md).
+For more information about customizing calculation weights for metrics, KPIs, and the overall score, see [Configure aggregation weights for CMDB Health scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/config-cmdb-health-metric-weights.md).
 
 ## KPI tiles
 
@@ -100,9 +100,9 @@ Settings affecting the service view:
 
 -   The service view uses the settings for the **Business Service**, **Manual Service**, and **Technology Management Service** classes.
 -   The service view doesn’t include all services from the Service \[cmdb\_ci\_service\] table. Only services from the cmdb\_ci\_service\_auto table and its descendants \(cmdb\_ci\_service\_discovered, cmdb\_ci\_service\_manual, cmdb\_ci\_query\_based\_service\), are included.
--   Property settings, such as **glide.cmdb.services\_query\_limit**, **glide.cmdb.services\_hierarchy\_limit**, and **glide.cmdb.service\_associated\_ci\_query\_limit**. For information about how you can use these properties to control the number of items that appear in the service view, see [Components installed with CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_TablesInstalledCMDBHealth.md).
+-   Property settings, such as **glide.cmdb.services\_query\_limit**, **glide.cmdb.services\_hierarchy\_limit**, and **glide.cmdb.service\_associated\_ci\_query\_limit**. For information about how you can use these properties to control the number of items that appear in the service view, see [Components installed with CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/r_TablesInstalledCMDBHealth.md).
 
-**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
+**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
 
 **Related topics**  
 

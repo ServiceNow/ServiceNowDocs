@@ -2,7 +2,7 @@
 title: Mobile Publishing use cases
 description: Here are several reasons to use Mobile Publishing to brand the mobile apps of your company.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-publishing-use-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-publishing-use-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ Use Mobile Publishing if your company needs a branded app for any reason or to s
 -   Want to customize the app store listings descriptions and images.
 -   Need to leverage features and flags that are available in the app configuration of EMM vendors.
 -   Need an additional mobile app that is managed by a MAM or an MDM when you already have a standard published ServiceNow mobile app that isn't managed by a MAM or an MDM.
--   Customize app behavior to make them more efficient for your end-users to use. For example, you can request a custom branded mobile app and configure an auto-populated URL so your end-users don't need to type the instance URL during login. This can be configured in the **Login management** section of the **Request a new app** form. For more information, see the [Request, test, and publish a branded mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-test-pub-branded-mob-app.md) section that contains instructions for requesting custom branded apps for both the iOS and the Android platforms.
+-   Customize app behavior to make them more efficient for your end-users to use. For example, you can request a custom branded mobile app and configure an auto-populated URL so your end-users don't need to type the instance URL during login. This can be configured in the **Login management** section of the **Request a new app** form. For more information, see the [Request, test, and publish a branded mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/request-test-pub-branded-mob-app.md) section that contains instructions for requesting custom branded apps for both the iOS and the Android platforms.
 
 For more information about deciding whether Mobile Publishing is right for the requirements of your company, see the white paper [Mobile Publishing: Decision Trees and Guidance](https://learning.servicenow.com/nowcreate?id=nc_asset&asset_id=2b11515a97edad108934b67e6253af83).
 
@@ -41,5 +41,5 @@ For more information about deciding whether Mobile Publishing is right for the r
 
 Mobile Publishing is a paid plugin. It is included in the Pro, Enterprise, and App Engine subscription levels \(SKU's\) of ServiceNow®. Alternatively, you can purchase the plugin on the ServiceNow Store and add it to your ServiceNow subscription. Navigate to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), log in with your credentials, and then search for `mobile publishing`.
 
-**Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-publishing.md)
+**Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-publishing.md)
 

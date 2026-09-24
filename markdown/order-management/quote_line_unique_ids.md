@@ -2,7 +2,7 @@
 title: Quote line unique IDs
 description: You can assign unique IDs to quote lines in Salesforce.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote\_line\_unique\_ids.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote\_line\_unique\_ids.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

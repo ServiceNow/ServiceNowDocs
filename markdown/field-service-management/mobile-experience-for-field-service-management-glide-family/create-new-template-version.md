@@ -2,7 +2,7 @@
 title: Create a Smart Assessment template version
 description: Smart Assessment questionnaire templates can be edited even after they are published and triggered for a work order task. When a new version of the template is published, the previous version moves to a retired state and future versions are generated from the latest version, without affecting in-progress and completed questionnaires.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/create-new-template-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/create-new-template-version.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

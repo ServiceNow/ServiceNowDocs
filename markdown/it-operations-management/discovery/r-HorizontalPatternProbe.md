@@ -2,7 +2,7 @@
 title: Horizontal Pattern probe
 description: Discovery uses the Horizontal Pattern probe to launch patterns for horizontal discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r-HorizontalPatternProbe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r-HorizontalPatternProbe.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ Discovery uses the Horizontal Pattern probe to launch patterns for horizontal di
 
 The Horizontal Pattern probe works with the Horizontal Discovery sensor to enable Discovery to use patterns for discovery. When you see messages in the ECC Queue from this probe, they appear with the ECC queue name **Pattern Launcher**, followed by the name of the pattern. The probe contains a sensor named **Horizontal Discovery Sensor**, which performs the actual updates of the CMDB based on identification rules.
 
-If you create your own device or process classifier and you want to use patterns for discovery, you must [specify this probe in the classifier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md). You don't need to modify this probe or the Horizontal Discovery sensor.
+If you create your own device or process classifier and you want to use patterns for discovery, you must [specify this probe in the classifier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md). You don't need to modify this probe or the Horizontal Discovery sensor.
 
 ## Splitting payload
 
@@ -57,5 +57,5 @@ You can adjust MID Server properties to reduce the number of ECC queue pages tha
 -   Setting **mid.discovery.should\_minify\_pattern\_payload** to true can reduce payload size without requiring heap size increase.
 -   For environments where a CI has many related items, but fewer total CIs, the primary bottleneck is likely **mid.discovery.max\_related\_count\_per\_page**. Start by increasing that property.
 
-**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 

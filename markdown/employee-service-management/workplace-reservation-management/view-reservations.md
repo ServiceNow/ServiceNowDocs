@@ -2,7 +2,7 @@
 title: View or update reservations
 description: View or update reservation requests submitted through the Reservation portal. You can view the current day's reservations and the ones made by you for the others.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/view-reservations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/view-reservations.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -46,7 +46,7 @@ You can view all the reservations made through the application an update accordi
 6.  If you want to update the reservation information, modify the information and then click **Update**.
 
 
-**Parent Topic:**[Manage employee reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/manage-reservation-requests.md)
+**Parent Topic:**[Manage employee reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/manage-reservation-requests.md)
 
 **Related topics**  
 

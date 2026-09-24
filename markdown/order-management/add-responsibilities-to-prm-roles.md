@@ -2,10 +2,10 @@
 title: Add responsibilities to PRM roles
 description: A responsibility describes a role or function that supports a user. Use responsibility definitions to create relationships between any two partner entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-responsibilities-to-prm-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-responsibilities-to-prm-roles.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [PRM roles and components, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -53,7 +53,7 @@ Description
 1.  Select **Register External Partner Staff** from the channel partner record.
 2.  Select the **Role Type** you want to associate with your user, whether external partner manager or external partner associate.
 3.  Select **Submit**.
- To learn more about the role type and the member registration fields, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/member-registration-form.md).
+ To learn more about the role type and the member registration fields, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/member-registration-form.md).
 
 </td></tr><tr><td id="d51734e173">
 
@@ -73,12 +73,12 @@ Description
 
 An external staff member or an enterprise partner relationship manager is registered.
 
-**Parent Topic:**[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-partner-relationship-management.md)
+**Parent Topic:**[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/roles-and-components-of-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

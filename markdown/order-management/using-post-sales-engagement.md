@@ -2,7 +2,7 @@
 title: Using post-sales engagement applications
 description: Learn how to use post-sales engagement applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/using-post-sales-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-post-sales-engagement.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,5 +18,5 @@ Learn how to use post-sales engagement applications.
 
 Modify, suspend, resume, or disconnect the sold products and their complete hierarchy.
 
-**Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-using.md)
+**Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-using.md)
 

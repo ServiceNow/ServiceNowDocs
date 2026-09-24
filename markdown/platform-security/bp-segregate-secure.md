@@ -2,7 +2,7 @@
 title: Segregating and securing data with domain separation
 description: You can segregate and secure data on the ServiceNow platform in multiple ways, depending on your customer's needs. 
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-segregate-secure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-segregate-secure.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,19 +22,19 @@ The following diagram shows four ways that you can segregate data. You can use s
 
 You can segregate data in these four ways:
 
-1.  Customizing the [reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-ds.md) with qualifiers and filters so that departments and groups within a company can focus on their own work. By segregating the data between these departments or groups, a department or group can't see another department or group's records.
-2.  Adding contextual security and Before Query business rules as additional layers of security to guard against data breaches. See [Context and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-context.md) and [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-before-query-business-rules.md) to learn more about domain separation and business rules.
+1.  Customizing the [reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-sp-reference-arch-ds.md) with qualifiers and filters so that departments and groups within a company can focus on their own work. By segregating the data between these departments or groups, a department or group can't see another department or group's records.
+2.  Adding contextual security and Before Query business rules as additional layers of security to guard against data breaches. See [Context and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-context.md) and [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-before-query-business-rules.md) to learn more about domain separation and business rules.
 3.  Adding another level of security in a company by using domain separation. The data from every database query is limited to the data that is visible in a domain before contextual security and business rules are executed.
 4.  Using separate instances to segregate the data at the database and application layer.
 
 Separate instances, domain separation, contextual security and business rules, and the reference architecture are ways to segregate data. These four ways relate to each other as indicated by the Comprehensiveness of need arrow in the diagram. How each layer interacts with the other layers depends on how you set up your domain separation configuration.
 
-Not all organizations require domain separation. You might find other alternatives, such as separate instances or a single instance without a domain. To learn more about these alternatives, see [Evaluating the need for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-evaluation-dom-sep.md).
+Not all organizations require domain separation. You might find other alternatives, such as separate instances or a single instance without a domain. To learn more about these alternatives, see [Evaluating the need for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-evaluation-dom-sep.md).
 
--   **[Cross tenant intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-dom-sep-how-it-works.md)**  
+-   **[Cross tenant intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-dom-sep-how-it-works.md)**  
 A multi-tenant architecture is where you have a single instance serving multiple tenants. Data, metadata, business logic, and processing context for tenants is automatically handled with access to additional tenant data.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

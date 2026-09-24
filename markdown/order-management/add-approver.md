@@ -2,7 +2,7 @@
 title: Add ad-hoc approvers to an approval request
 description: As a requester or an approver, add one or more ad-hoc approvers to an approval request in Advanced Approval Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-approver.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-approver.html
 release: australia
 topic_type: task
 last_updated: "2026-06-28"
@@ -67,5 +67,5 @@ The ad-hoc approver can approve or reject the approval request in one of the fol
 -   In the approval step card in the chain, by selecting the **More options** \[Omitted image "icon-three-dots.png"\] Alt text: menu and choosing the **Approve** or **Reject** option.
 -   In the My approvals feature in the ServiceNow AI Platform.
 
-**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-advanced-approval-management.md)
+**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-advanced-approval-management.md)
 

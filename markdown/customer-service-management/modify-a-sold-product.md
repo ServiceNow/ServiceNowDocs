@@ -2,7 +2,7 @@
 title: Modify a sold product and hierarchy
 description: Modify a sold product and its complete hierarchy on the CRM Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/modify-a-sold-product.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/modify-a-sold-product.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

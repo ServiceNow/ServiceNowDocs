@@ -2,7 +2,7 @@
 title: Configure automatic status calculation for targets
 description: Configure system-wide automatic status calculation settings to determine target and goal status automatically based on achievement percentages. Enable or disable automatic calculation and customize Green, Yellow, and Red threshold values to align with your organizational governance policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/configure-automatic-status-calculation-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/configure-automatic-status-calculation-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -49,5 +49,5 @@ Administraotrs can enable or disable the automatic status calculation feature. T
 4.  Select **Update** to save the changes.
 
 
-**Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
+**Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
 

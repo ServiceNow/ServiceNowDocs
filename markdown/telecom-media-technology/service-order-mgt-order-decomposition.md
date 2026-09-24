@@ -2,7 +2,7 @@
 title: Service order decomposition
 description: Learn how a service order is decomposed into its domain orders for fulfillment.OM content revamp - This topic has been removed from the SOM bundle. Common content that applies to both customer and service order has been moved to the order-,gt-order-decomposition.dita and order-decomposition-examples.dita topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-order-decomposition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-order-mgt-order-decomposition.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

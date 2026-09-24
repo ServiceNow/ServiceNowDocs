@@ -2,7 +2,7 @@
 title: Install Workplace Calendar Synchronization
 description: Install the Workplace Calendar Synchronization application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/install-workplace-calendar-synchronization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/install-workplace-calendar-synchronization.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -61,5 +61,5 @@ The following plugins are activated when you install Workplace Calendar Synchron
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configure Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-rsv-sync.md)
+**Parent Topic:**[Configure Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/configure-rsv-sync.md)
 

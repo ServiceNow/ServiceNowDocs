@@ -2,7 +2,7 @@
 title: Agent Client Collector \(ACC\) admin workspace agent actions
 description: When working in the Agent Client Collector \(ACC\) admin workspace, you can select actions to perform on the agent by selecting the Agent actions button.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/acc-admin-workspace-agent-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/acc-admin-workspace-agent-actions.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -28,5 +28,5 @@ When working in the Agent Client Collector \(ACC\) admin workspace, you can sele
 |Grab agent log|Retrieves the log for the agent.|
 |Reset failed upgrade attempts|Agents that failed to upgrade are reset to their original state.|
 
-**Parent Topic:**[ITOM Visibility reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/visibility-reference.md)
+**Parent Topic:**[ITOM Visibility reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/visibility-reference.md)
 

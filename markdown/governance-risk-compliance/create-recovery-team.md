@@ -2,7 +2,7 @@
 title: Create and manage a recovery team
 description: Create a recovery team in the Business Continuity Workspace, add users and groups, attach locations, and build parent-child relationships to organize your business continuity response structure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-recovery-team.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-recovery-team.html
 release: australia
 topic_type: task
 last_updated: "2026-08-17"
@@ -81,11 +81,11 @@ Starting with BCM release 12.x.x, recovery teams are managed globally rather tha
 **Related topics**  
 
 
-[Recovery teams, loss scenarios, and recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/recovery-teams.md)
+[Recovery teams, loss scenarios, and recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/recovery-teams.md)
 
-[Creating global recovery teams and collaboration threads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/recovery-team-collaboration.md)
+[Creating global recovery teams and collaboration threads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/recovery-team-collaboration.md)
 
-[Add associated plans and recovery teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.md)
+[Add associated plans and recovery teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.md)
 
-[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)
+[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)
 

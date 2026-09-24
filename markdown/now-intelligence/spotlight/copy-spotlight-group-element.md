@@ -2,7 +2,7 @@
 title: Copy a Spotlight group to breakdown elements
 description: You can copy a Spotlight group across multiple elements of a single breakdown.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/copy-spotlight-group-element.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/spotlight/copy-spotlight-group-element.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -64,7 +64,7 @@ Manually write a new name that will be given to all copies of the Spotlight grou
 
 </td><td>
 
-For each copy of the Spotlight group, the [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) name is added to the beginning of the Spotlight group name. You can keep the base name from the original Spotlight group or specify a new one.The **New Name** field does not show these prefixes.
+For each copy of the Spotlight group, the [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) name is added to the beginning of the Spotlight group name. You can keep the base name from the original Spotlight group or specify a new one.The **New Name** field does not show these prefixes.
 
 </td></tr><tr><td id="d35105e130">
 
@@ -85,7 +85,7 @@ For each copy of the Spotlight group, the breakdown element name is added to the
 
 5.  Click **OK**.
 
-    The Spotlight group is copied. If copying is successful, a list of the new Spotlight groups that you have created opens. If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
+    The Spotlight group is copied. If copying is successful, a list of the new Spotlight groups that you have created opens. If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight-copy-logs.md).
 
 6.  Open each of the Spotlight groups you have created and perform the following steps:
 
@@ -110,7 +110,7 @@ In this example, you copy the Incident Spotlight group for the breakdown element
 
 ## What to do next
 
-If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
+If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight-copy-logs.md).
 
-**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight.md)
 

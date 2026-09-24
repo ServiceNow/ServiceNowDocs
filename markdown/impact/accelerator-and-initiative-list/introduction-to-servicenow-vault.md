@@ -2,7 +2,7 @@
 title: Introduction to ServiceNow Vault
 description: This Accelerator provides an overview of the possibilities and capabilities of ServiceNow Vault.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/introduction-to-servicenow-vault.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/introduction-to-servicenow-vault.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

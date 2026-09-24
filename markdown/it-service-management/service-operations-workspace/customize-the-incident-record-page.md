@@ -2,7 +2,7 @@
 title: Customize the incident record page
 description: You can customize the Overview tab and the contextual side panel for an incident.Modify the Overview tab of an incident record page to display the summary and other information of the incident for an agent.Modify the Investigation tab of an incident record page.Customize the Remedial action playbook displayed on the contextual side panel of an incident record page.Modify the incident record information displayed on the contextual side panel of an incident record page.Configure the display of service level agreement \(SLA\) information in the incident record page.Enable quick updates for field values in a list in Service Operations Workspace.Customize on how the CI related metrics information is displayed on the Investigate tab of the Incident record.Configure the collection rules and map the rules to the metric definitions in the Investigate Framework module. This configuration enables you to define when the CI related metrics information is automatically retrieved on the Investigate tab of the Incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-the-incident-record-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/customize-the-incident-record-page.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -16,7 +16,7 @@ breadcrumb: [Customizing Service Operations Workspace for ITSM to align with you
 
 You can customize the **Overview** tab and the contextual side panel for an incident.
 
-**Parent Topic:**[Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-sow-landing-page.md)
+**Parent Topic:**[Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/customize-sow-landing-page.md)
 
 **Related topics**  
 
@@ -412,7 +412,7 @@ The following SLA timer configurations display the response and resolution SLA f
 -   Incident Response
 -   Incident Resolution
 
-You should configure SLA timer configuration mappings for these timer configurations. For information on how you can configure these mappings, see [Configure the SLA timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-timer-configurations.md).
+You should configure SLA timer configuration mappings for these timer configurations. For information on how you can configure these mappings, see [Configure the SLA timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/sla-timer-configurations.md).
 
 ### Procedure
 
@@ -439,7 +439,7 @@ You should configure SLA timer configuration mappings for these timer configurat
         },
     ```
 
-    For information about how the SLA information is displayed for an incident, see [View service level agreement information for an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/slm-sow.md).
+    For information about how the SLA information is displayed for an incident, see [View service level agreement information for an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/slm-sow.md).
 
 
 ## Enable inline editing for lists in Service Operations Workspace
@@ -525,7 +525,7 @@ Use this task to customize and configure the **Investigate** tab of the Incident
 
 ### What to do next
 
-On the **Investigate** tab of the Incident record in the Service Operations Workspace, click the get latest metrics icon \(\[Omitted image "get-latest-matrix.png"\] Alt text: get latest matrix refresh\) to refresh and view the customizations. For more information, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md).
+On the **Investigate** tab of the Incident record in the Service Operations Workspace, click the get latest metrics icon \(\[Omitted image "get-latest-matrix.png"\] Alt text: get latest matrix refresh\) to refresh and view the customizations. For more information, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/incident-sow.md).
 
 ## Configure Investigate tab collection rules
 
@@ -533,7 +533,7 @@ Configure the collection rules and map the rules to the metric definitions in th
 
 ### Before you begin
 
-Agent Client Collector for Investigation \(sn\_acc\_adapter\) and Investigation Framework \(sn\_invest\_fwk\) must be installed on the instance to view the Investigate Framework module. For more information, see [Install Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/install-acc-adapter.md).
+Agent Client Collector for Investigation \(sn\_acc\_adapter\) and Investigation Framework \(sn\_invest\_fwk\) must be installed on the instance to view the Investigate Framework module. For more information, see [Install Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/install-acc-adapter.md).
 
 The Agent Client Collector framework \(sn\_agent\) plugin must be installed on the instance, and Agent Client Collector must be installed to the affected CI. These installations are required to view the **Investigate** tab on the Incident record and the CI related metrics information displayed on the **Investigate** tab of the Incident record. For more information on the Agent Client Collector framework plugin and the installation, see [Exploring Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-agent-client-collector.md) and [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-installation.md).
 

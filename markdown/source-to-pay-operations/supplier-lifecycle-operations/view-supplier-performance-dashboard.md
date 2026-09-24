@@ -2,7 +2,7 @@
 title: View supplier performance dashboard
 description: You can view the overall supplier score, risk score, individual KPI scores, and performance domain-specific scores in the supplier performance dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-performance-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-performance-dashboard.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -33,33 +33,33 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 
     The **Performance** tab displays the overall score and risk profile of the supplier. You can also view the performance domain-wise KPI scores of the supplier.
 
-    **Note:** From the March 2026 Australia release, all scores are calculated up to three decimal places. To implement this change, [Run fix script to update the KPI weighted score field in the KPI score table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-update-kpi-weighted-score.md).
+    **Note:** From the March 2026 Australia release, all scores are calculated up to three decimal places. To implement this change, [Run fix script to update the KPI weighted score field in the KPI score table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-update-kpi-weighted-score.md).
 
     All the KPIs are grouped by the performance domain set in the KPI template that they were created from.
 
     \[Omitted image "kpi-dashboard.png"\] Alt text: Supplier performance dashboard
 
-    **Note:** If **FedEx Dataworks** is integrated, the **FedEx Dataworks - supplier performance benchmarking** section is accessible for suppliers that have a FedEx Dataworks Supplier ID. Relationship managers can retrieve FedEx Dataworks logistics performance metrics for those suppliers. For more information see, [View supplier metrics using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-performance-benchmarking.md).
+    **Note:** If **FedEx Dataworks** is integrated, the **FedEx Dataworks - supplier performance benchmarking** section is accessible for suppliers that have a FedEx Dataworks Supplier ID. Relationship managers can retrieve FedEx Dataworks logistics performance metrics for those suppliers. For more information see, [View supplier metrics using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-performance-benchmarking.md).
 
 
 ## Result
 
 The supplier performance dashboard is displayed with information on the latest scores of the supplier.
 
-**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
+**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 
 **Related topics**  
 
 
-[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
+[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 
-[Run segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-segmentation-rule.md)
+[Run segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-segmentation-rule.md)
 
-[Complete a KPI collection task from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/complete-kpi-task-spw.md)
+[Complete a KPI collection task from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/complete-kpi-task-spw.md)
 
-[Complete a KPI collection task from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/complete-kpi-task-scp.md)
+[Complete a KPI collection task from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/complete-kpi-task-scp.md)
 
-[View KPI data from the List page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-kpi-data-slo.md)
+[View KPI data from the List page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/view-kpi-data-slo.md)
 
-[Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md)
+[Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md)
 

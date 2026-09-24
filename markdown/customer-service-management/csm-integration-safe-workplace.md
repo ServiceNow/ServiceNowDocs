@@ -2,7 +2,7 @@
 title: Integrating with Safe Workplace applications
 description: Integrate Customer Service Management with ServiceNow Safe Workplace applications. This integration helps you safely reopen locations and support the health and safety of contacts and consumers after emergencies and pandemics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-integration-safe-workplace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-integration-safe-workplace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

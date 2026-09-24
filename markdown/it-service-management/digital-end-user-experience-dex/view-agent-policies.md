@@ -2,7 +2,7 @@
 title: View agent policies
 description: View the agent policies used during check runs on the associated Configuration Items \(CI\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-agent-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/view-agent-policies.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

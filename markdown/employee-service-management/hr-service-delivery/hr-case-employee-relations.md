@@ -2,7 +2,7 @@
 title: Employee Relations
 description: With Employee Relations \(ER\), handle a sensitive complaint with tighter security. Maintain complete confidentiality and protect the privacy of the user who has raised the complaint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-case-employee-relations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-case-employee-relations.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,23 +20,23 @@ With Employee Relations \(ER\), handle a sensitive complaint with tighter securi
 
 <table id="table_nyp_yyr_qbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/explore-er.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/explore-er.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-setting-up.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-setting-up.md)
 
 </td><td>
 
-[Reporting\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Use historical trends and data comparisons for Employee Relations to assess organizational performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/er-hr-par.md)
+[Reporting\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Use historical trends and data comparisons for Employee Relations to assess organizational performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/er-hr-par.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-manage.svg"\] Alt text:Use Employee relations to efficiently handle and resolve sensitive cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-using.md)
+[Use\[Omitted image "bus-manage.svg"\] Alt text:Use Employee relations to efficiently handle and resolve sensitive cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-using.md)
 
 </td><td>
 
-[Integration\[Omitted image "bus-learn.svg"\] Alt text:Integrate with different applications to expand the capabilities and effectiveness of Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/emp-relations-legal.md)
+[Integration\[Omitted image "bus-learn.svg"\] Alt text:Integrate with different applications to expand the capabilities and effectiveness of Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/emp-relations-legal.md)
 
 </td><td>
 

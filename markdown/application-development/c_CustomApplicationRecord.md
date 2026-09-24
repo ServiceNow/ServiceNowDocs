@@ -2,7 +2,7 @@
 title: Custom application record
 description: The custom application record defines and identifies an application and all its associated artifacts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_CustomApplicationRecord.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_CustomApplicationRecord.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

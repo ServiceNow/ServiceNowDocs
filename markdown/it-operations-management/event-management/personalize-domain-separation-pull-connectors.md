@@ -2,7 +2,7 @@
 title: Configure domain separation for pull connector events
 description: Configure pull connectors to personalize domain separation of events so you can use them to create events in domains other than the user's currently logged-in or MID Server domain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/personalize-domain-separation-pull-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/personalize-domain-separation-pull-connectors.html
 release: australia
 product: Event Management
 classification: event-management
@@ -126,7 +126,7 @@ The key in the payload that has the domain identifier. For example, if the paylo
     -   **connectorDomainInfoColumnName** - user\_name
     -   **connectorDomainIdColumnName** - sys\_domain
     -   **connectorDomainPathColumnName** - sys\_domain\_path
-    For more information, see [Connector domain metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connector-domain-metadata.md).
+    For more information, see [Connector domain metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/connector-domain-metadata.md).
 
     | | | |
     |---|---|---|
@@ -140,5 +140,5 @@ The key in the payload that has the domain identifier. For example, if the paylo
 
 The Event Management connector is set up for domain separation.
 
-**Parent Topic:**[Event Management Connectors domain personalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/domain-separation-connectors-personalization.md)
+**Parent Topic:**[Event Management Connectors domain personalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/domain-separation-connectors-personalization.md)
 

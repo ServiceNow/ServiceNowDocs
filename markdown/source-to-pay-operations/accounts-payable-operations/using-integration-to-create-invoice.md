@@ -2,7 +2,7 @@
 title: Accounts Payable Operations integration framework
 description: Invoice integration in Accounts Payable Operations enables bidirectional data exchange with ERP systems for ingestion, posting, synchronization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/using-integration-to-create-invoice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/using-integration-to-create-invoice.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,7 +25,7 @@ The integration framework enables the following use cases:
 -   Post invoices into ERP- The invoice and invoice line data with **Approved** status is synchronized with ServiceNow® outbound invoice and invoice line tables. The integration status is set to **New** and is referred as outbound integration.
 -   Ingest invoice payment details from ERP- The ERP number received from the third party application is updated in the invoice table with payment status as **Pending Payment**. The supplier selects the payment method, proceeds with the payment and sets the payment status as **Paid**.
 
-For example, invoice data from various sources is transferred to inbound invoice and invoice lines when the required fields are set on the invoice. For more information on the required fields, see [Inbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md) and [Inbound invoice line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-line-fields.md). The invoice status changes to **Approved** and the invoice data is transferred to outbound invoice tables. The outbound invoice displays the integration status as **New**. The ERP integrator fetches outbound invoices with status **New**, creates a record in the third-party application, and sets the integration status to **In progress**. After the third-party application processes the outbound data, the ERP number is automatically updated in the outbound invoice tables and the integration status is set to **Processed**. The ERP number is then updated in the invoice table with payment status **Pending Payment**. The supplier verifies the invoice payment details, proceeds with the payment, and the payment status is set to **Paid**. For more information on payment fields, see [Inbound invoice payment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.md).
+For example, invoice data from various sources is transferred to inbound invoice and invoice lines when the required fields are set on the invoice. For more information on the required fields, see [Inbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md) and [Inbound invoice line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/inbound-invoice-line-fields.md). The invoice status changes to **Approved** and the invoice data is transferred to outbound invoice tables. The outbound invoice displays the integration status as **New**. The ERP integrator fetches outbound invoices with status **New**, creates a record in the third-party application, and sets the integration status to **In progress**. After the third-party application processes the outbound data, the ERP number is automatically updated in the outbound invoice tables and the integration status is set to **Processed**. The ERP number is then updated in the invoice table with payment status **Pending Payment**. The supplier verifies the invoice payment details, proceeds with the payment, and the payment status is set to **Paid**. For more information on payment fields, see [Inbound invoice payment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.md).
 
 The advantages of integration framework are:
 
@@ -35,7 +35,7 @@ The advantages of integration framework are:
 **Related topics**  
 
 
-[Working with inbound invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-using-integration.md)
+[Working with inbound invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-using-integration.md)
 
-[Working with outbound invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-outbound-invoice.md)
+[Working with outbound invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/working-with-outbound-invoice.md)
 

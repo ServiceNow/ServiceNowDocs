@@ -2,7 +2,7 @@
 title: Customize the change risk assessment answer generator skill
 description: Configure the data that the answer generator skill reads to suggest answers for change risk assessment questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -87,6 +87,6 @@ The answer generator skill is active by default and requires no activation. You 
 
     4.  Select **Save**.
 
-    To get the change risk assessment answers and reasoning using AI, see [Generate change risk assessment answers by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md)
+    To get the change risk assessment answers and reasoning using AI, see [Generate change risk assessment answers by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md)
 
 

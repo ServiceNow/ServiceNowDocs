@@ -2,7 +2,7 @@
 title: Create new risk form
 description: Use the create new risk form to capture all the information that you need to associate a control with a third party or engagement using the Third-party Risk Management application. As a third-party risk admin, you can create a control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-risk-record-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-risk-record-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -130,18 +130,18 @@ Owner
 Owner for the risk.**Note:** The owner is always added as a respondent.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manually add a risk to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-risks-tp.md)
+</table>**Parent Topic:**[Manually add a risk to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-risks-tp.md)
 
 **Related topics**  
 
 
-[Integrating Third-party Risk Management with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/rm-assessment-integration.md)
+[Integrating Third-party Risk Management with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/rm-assessment-integration.md)
 
-[Create a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_CreateRiskState.md)
+[Create a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/t_CreateRiskState.md)
 
-[Define the risk appetite for a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/define-risk-appetite-on-risk-statement.md)
+[Define the risk appetite for a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/define-risk-appetite-on-risk-statement.md)
 
-[Create a risk manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_CreateRisk.md)
+[Create a risk manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/t_CreateRisk.md)
 
-[Define the risk appetite for a risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/define-risk-appetite-on-risk.md)
+[Define the risk appetite for a risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/define-risk-appetite-on-risk.md)
 

@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Otto for App Engine
 description: Learn about the configuration process for ServiceNow Otto for App Engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/configuring-now-assist-for-app-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-app-engine/configuring-now-assist-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -19,7 +19,7 @@ Learn about the configuration process for ServiceNow Otto for App Engine.
 
 ## ServiceNow Otto for App Engine configuration overview
 
-To start using ServiceNow Otto for App Engine, you must install ServiceNow Otto for App Engine on your instance. For more information, see [Installing ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md).
+To start using ServiceNow Otto for App Engine, you must install ServiceNow Otto for App Engine on your instance. For more information, see [Installing ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md).
 
-To use the custom app record summarization skill, you must activate and configure the skill in the AI Admin Hub. For more information, see [Activate the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.md) and [Configure the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/configure-custom-app-record-summarization-na-for-app-engine.md).
+To use the custom app record summarization skill, you must activate and configure the skill in the AI Admin Hub. For more information, see [Activate the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.md) and [Configure the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/configure-custom-app-record-summarization-na-for-app-engine.md).
 

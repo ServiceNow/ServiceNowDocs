@@ -2,7 +2,7 @@
 title: Question change history
 description: Review a log of every response, justification, and flag state change made to a question throughout the lifecycle of an assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-question-change-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-question-change-history.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -41,7 +41,7 @@ To avoid logging every intermediate keystroke, the system merges consecutive res
 -   If a different user changes the same field during that window, a separate entry is created. Changes made by different users are never merged, regardless of the time between them.
 -   If a user reverts a field to its pre-edit value within the window, the entries covering that back-and-forth are removed, since they represent no net change.
 
-Flag state changes are never merged, even when the same user makes multiple flag changes seconds apart. Every flag transition is logged as its own entry because each state — Unflagged, Flagged, and Resolved — is meaningful on its own. For more information about flag states, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
+Flag state changes are never merged, even when the same user makes multiple flag changes seconds apart. Every flag transition is logged as its own entry because each state — Unflagged, Flagged, and Resolved — is meaningful on its own. For more information about flag states, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
 
 AI assisted response changes follow the same merge rule as manual changes. Consecutive AI assisted changes to the same field by the same user are coalesced into a single entry within the merge window. For example, trying several AI-suggested responses before settling on one produces one entry. Manual and AI assisted changes never merge with each other. Switching between them starts a new entry, regardless of timing.
 

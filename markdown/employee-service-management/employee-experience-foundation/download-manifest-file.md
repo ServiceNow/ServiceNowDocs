@@ -2,7 +2,7 @@
 title: Download manifest file
 description: Download the Notify connector for Microsoft Teams manifest file from your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/download-manifest-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/download-manifest-file.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -104,5 +104,5 @@ Detailed description for the manifest file.
     Manifest file is downloaded on your system.
 
 
-**Parent Topic:**[Integrate Meeting Extensions pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-multi-tenant.md)
+**Parent Topic:**[Integrate Meeting Extensions pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-multi-tenant.md)
 

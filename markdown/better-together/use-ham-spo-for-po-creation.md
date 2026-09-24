@@ -2,7 +2,7 @@
 title: Enhancing the asset procurement experience using IT Asset Management \(ITAM\) and Sourcing and Procurement Operations \(SPO\)
 description: Integrating IT Asset Management \(ITAM\) with Sourcing and Procurement Operations \(SPO\) enhances the procurement process for service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/use-ham-spo-for-po-creation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/use-ham-spo-for-po-creation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -186,5 +186,5 @@ Start procuring assets by accessing the items from the Shopping Hub catalog by c
 3.  Receive the requested assets in a stockroom. For more information, see [Receiving assets in the IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/itam-spo-receiving-assets.md) application.
 4.  Acknowledge the receipt of the assets in the stockroom for asset creation. For more information, see [Asset creation in the IT Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/itam-spo-asset-creation.md).
 
-**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/solutions-gallery.md)
 

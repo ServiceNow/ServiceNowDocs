@@ -2,7 +2,7 @@
 title: Edit the start and completion tag names and colors
 description: You may prefer to edit the names and colors of the start and complete tags for the initiate malware scan and isolate host capabilities. The start and complete tags help you quickly identify which capabilities are invoked from ServiceNow AI Platform Security Incident Response \(SIR\) security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-edit-security-tag.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mcafee-epo-edit-security-tag.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -22,7 +22,7 @@ Role required: sn\_si.admin
 
 ## About this task
 
-As a user with the sn\_si.admin role, you may prefer to edit the colors and names of the security tags that are displayed on SIR security incidents. You may also assign tags to security tag groups to help you organize them in your ServiceNow AI Platform® instance. For example, you can change the colors of tags so the start tag of a capability is one color, and the completion tag is another color. These different colors can help you quickly identify when scans start and are successfully completed. For more information on how to set up security tag groups and tags, see [Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-class-group-and-tags.md).
+As a user with the sn\_si.admin role, you may prefer to edit the colors and names of the security tags that are displayed on SIR security incidents. You may also assign tags to security tag groups to help you organize them in your ServiceNow AI Platform® instance. For example, you can change the colors of tags so the start tag of a capability is one color, and the completion tag is another color. These different colors can help you quickly identify when scans start and are successfully completed. For more information on how to set up security tag groups and tags, see [Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-class-group-and-tags.md).
 
 ## Procedure
 
@@ -109,9 +109,9 @@ A description for the tag.
     |**Delete**|Delete this tag record from the McAfee ePO capability.|
 
 
-**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Test security incidents and approve requests for the isolate host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-test-incident-ih.md)
+**Previous topic:**[Test security incidents and approve requests for the isolate host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-test-incident-ih.md)
 
-**Next topic:**[McAfee ESM - Email Parser integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-esm-emailparser-integration.md)
+**Next topic:**[McAfee ESM - Email Parser integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-esm-emailparser-integration.md)
 

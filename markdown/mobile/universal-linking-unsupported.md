@@ -2,7 +2,7 @@
 title: Enable expansion of universal linking to mobile browser \(MESP\) pages
 description: Enable the expanded universal linking option to display the web banner on mobile browser pages when the user does not have the appropriate mobile app installed. By default this mobile universal linking option is not available in the base system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/universal-linking-unsupported.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/universal-linking-unsupported.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Enable the expanded universal linking option to display the web banner on mobile
 
 ## Before you begin
 
-The mobile universal linking feature must be enabled, see [Enable mobile universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-enable.md).
+The mobile universal linking feature must be enabled, see [Enable mobile universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/universal-linking-enable.md).
 
 Role required: admin
 
@@ -45,5 +45,5 @@ Role required: admin
 7.  Right-click in the header and select **Save**.
 
 
-**Parent Topic:**[Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-links-mobile.md)
+**Parent Topic:**[Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/universal-links-mobile.md)
 

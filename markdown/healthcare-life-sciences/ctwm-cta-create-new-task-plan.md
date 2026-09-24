@@ -2,7 +2,7 @@
 title: Create a Care team activities task plan
 description: Create a new task plan using the Care team activities playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-cta-create-new-task-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-cta-create-new-task-plan.html
 release: australia
 topic_type: task
 last_updated: "2026-08-31"
@@ -33,5 +33,5 @@ Role required: sn\_cto.loc\_support\_agent and sn\_hco\_orc.plan\_author
 
 ## What to do next
 
-[Input plan details into the Care team activities playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-cta-plan-details.md)
+[Input plan details into the Care team activities playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-cta-plan-details.md)
 

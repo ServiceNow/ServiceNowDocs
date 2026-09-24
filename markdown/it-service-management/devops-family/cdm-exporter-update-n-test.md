@@ -2,7 +2,7 @@
 title: Test an exporter and export a snapshot
 description: Set and validate input settings to test an exporter before you export the config data in a snapshot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-exporter-update-n-test.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-exporter-update-n-test.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -33,8 +33,8 @@ Be sure to install the exporter content pack for DevOps Config. Exporters in the
 -   Exporters in the content pack have the **Source** value of **ServiceNow**. You can duplicate, but cannot delete or modify content pack exporters.
 -   You can run only published exporters.
 -   For export, snapshots cannot exceed 10,000 config data items \(CDIs\) per deployable or 100,000 CDIs per application.
--   For information on creating a custom exporter, see [Create a custom exporter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-exporter-create-custom.md).
--   Records of exporter executions are deleted after a period of three years. For instructions on changing the default time period, see [Set the purge period for records of exporter executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-export-record-purge.md).
+-   For information on creating a custom exporter, see [Create a custom exporter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-exporter-create-custom.md).
+-   Records of exporter executions are deleted after a period of three years. For instructions on changing the default time period, see [Set the purge period for records of exporter executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-export-record-purge.md).
 
 ## Procedure
 

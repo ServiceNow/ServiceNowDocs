@@ -2,7 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for Microsoft Azure
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from Microsoft Azure. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-azure-classes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/cmdb-azure-classes.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -643,7 +643,7 @@ The following attributes in the Windows Server \[cmdb\_ci\_win\_server\] table a
 
 ## Related content
 
-[Data mapping for Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-data-mapping-azure.md)
+[Data mapping for Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-data-mapping-azure.md)
 
-[Service Graph Connector for Microsoft Azure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-props.md)
+[Service Graph Connector for Microsoft Azure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-props.md)
 

@@ -2,7 +2,7 @@
 title: CRM conversational query
 description: CRM conversational query is an AI agent embedded in ServiceNow Otto. You can ask questions and issue commands in plain language and the agent performs the action without you opening a form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/crm-conversational-query.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/crm-conversational-query.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
@@ -26,7 +26,7 @@ The agent supports the following operations on opportunity records and related e
 **Related topics**  
 
 
-[Manage opportunity records using an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md)
+[Manage opportunity records using an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-opportunity-records.md)
 
-[Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-ai-capabilities-sales-crm.md)
+[Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-ai-capabilities-sales-crm.md)
 

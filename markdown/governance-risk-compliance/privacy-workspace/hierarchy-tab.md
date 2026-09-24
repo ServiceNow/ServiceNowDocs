@@ -2,7 +2,7 @@
 title: Hierarchy tab
 description: The Hierarchy tab connects your processing activity to applications, vendors, companies, entities, business processes, and other activities. It builds a clear picture of how data moves through your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/hierarchy-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/hierarchy-tab.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -49,7 +49,7 @@ You can also collect hierarchy information from business users by adding this se
 
 The Lineage map button in the Hierarchy tab displays a graphical view of all the nodes and relationships connected to the current processing activity. You can use the lineage map to visualize data flows, navigate between connected nodes, and edit or delete relationships.
 
-The lineage map not only displays the nodes directly linked to the current processing activity but also the nodes connected to those nodes. You can trace the entire chain of data transfer across all levels from a single view. For tasks to manage the lineage map, see [Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/lineage.md).
+The lineage map not only displays the nodes directly linked to the current processing activity but also the nodes connected to those nodes. You can trace the entire chain of data transfer across all levels from a single view. For tasks to manage the lineage map, see [Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/lineage.md).
 
 ## Part of processing activity
 
@@ -71,15 +71,15 @@ Part of Processing Activity is always defined relative to the primary record. Yo
 
 By default, the lineage map displays nodes up to five levels downstream and one level upstream from the primary processing activity record. To display nodes beyond five downstream levels, update the `sn_privacy.nodemap.maxLevel` system property. The upstream display is always limited to one level and cannot be changed.
 
-For more information, see [Update the maximum node level for the lineage map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/updating-node-level-for-lineage-map.md).
+For more information, see [Update the maximum node level for the lineage map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/updating-node-level-for-lineage-map.md).
 
 ## Methods to create a lineage map
 
 A lineage is created from the hierarchy relationships that you establish between different objects in a processing activity.
 
-To create a hierarchy, see [Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md).
+To create a hierarchy, see [Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md).
 
-To view and manage a lineage map, see [Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/lineage.md).
+To view and manage a lineage map, see [Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/lineage.md).
 
 ## Information displayed on the Hierarchy tab
 
@@ -93,14 +93,14 @@ After a relationship is created, the Hierarchy tab displays the following column
 -   Related node location: The location of the related node.
 -   Data subjects involved: The data subject types whose personal data is being transferred from the primary node to the related node. Select **Cell actions** on this column to view the location and data elements for a specific data subject type.
 
-    **Note:** This field appears only when you add **Sends data to** or **Received data from** relationship types. A privacy admin can extend this behavior to other relationship types by modifying the sn\_privacy.relationship\_involving\_data\_subjects system property. For steps, see [Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md).
+    **Note:** This field appears only when you add **Sends data to** or **Received data from** relationship types. A privacy admin can extend this behavior to other relationship types by modifying the sn\_privacy.relationship\_involving\_data\_subjects system property. For steps, see [Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md).
 
 -   Description: A description of the relationship.
 
-**Parent Topic:**[Processing activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ropa-record.md)
+**Parent Topic:**[Processing activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/ropa-record.md)
 
 **Related topics**  
 
 
-[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md)
+[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/data-transfers.md)
 

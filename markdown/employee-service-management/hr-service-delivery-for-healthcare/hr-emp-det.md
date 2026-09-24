@@ -2,7 +2,7 @@
 title: Employment history form
 description: Access, update, and validate the Employment history details of a healthcare professional in the Employment history form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-healthcare/hr-emp-det.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery-for-healthcare/hr-emp-det.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -140,7 +140,7 @@ Gap reason
 Reason stated by the healthcare professional when **Employment gap** is selected in the **Employment type** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
+</table>**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
 
 **Related topics**  
 

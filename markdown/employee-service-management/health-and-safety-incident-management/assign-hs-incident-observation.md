@@ -2,7 +2,7 @@
 title: Assign a safety incident or observation
 description: Assign a safety incident or observation to yourself or to another safety agent to start working on it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/assign-hs-incident-observation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-incident-management/assign-hs-incident-observation.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -38,7 +38,7 @@ Role required: sn\_ohs\_im.manager or sn\_ohs\_im.agent
     -   For the safety observations list, select **Details** tab.
 6.  In the **Assignment group** field, select the safety group.
 
-    For more information on safety groups, see [Health and Safety groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/configure-groups-health-and-safety.md).
+    For more information on safety groups, see [Health and Safety groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/configure-groups-health-and-safety.md).
 
 7.  In the **Assigned to** field, select your name.
 
@@ -55,5 +55,5 @@ The incident or observation is assigned to you or the selected agent.
 
 The assigned agent can start working on it to resolve it.
 
-**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
+**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

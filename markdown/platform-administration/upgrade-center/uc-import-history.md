@@ -2,7 +2,7 @@
 title: View import history
 description: View your import history by accessing the My Application Import History module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-import-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-import-history.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center

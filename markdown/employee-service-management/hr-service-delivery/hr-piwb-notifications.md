@@ -2,7 +2,7 @@
 title: HR Predictive Intelligence Workbench notifications
 description: HR Predictive Intelligence Workbench includes several email notifications that alert users throughout the use-case model implementation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-piwb-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-piwb-notifications.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -55,5 +55,5 @@ Sends an email to a specified user group when a use case model training has fail
 </td></tr></tbody>
 </table>For more details about email notifications for Predictive Intelligence Workbench, see [Preview email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PreviewingNotifications.md).
 
-**Parent Topic:**[HR Predictive Intelligence Workbench administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-administration.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-piwb-administration.md)
 

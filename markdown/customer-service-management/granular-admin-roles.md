@@ -2,7 +2,7 @@
 title: Service Model Foundation Granular admin roles
 description: Granular admin roles enable organizations to assign specific administrative permissions based on functional responsibilities, replacing broad admin access with targeted role assignments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/granular-admin-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/granular-admin-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

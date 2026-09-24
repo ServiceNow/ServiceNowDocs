@@ -2,7 +2,7 @@
 title: Get an app or product as an on-premise customer
 description: Procure and download encrypted apps, products, and dependencies from the ServiceNow Store for use with your on-premise \(self-hosted\) instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/get-app-on-prem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/get-app-on-prem.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: none
 
 If your on-premise instance isn't connected to the internet or to the ServiceNow Store, you can download encrypted applications to use on your instance. Procure and download an application or product and its dependencies using a computer with internet access, then transfer the necessary files to your instance.
 
-If your on-premise instance has been connected to the ServiceNow Store, refer to [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-trials.md) instead.
+If your on-premise instance has been connected to the ServiceNow Store, refer to [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/getting-apps-trials.md) instead.
 
 **Important:** You must repeat this process for each instance you want to upload an app or product to.
 
@@ -32,8 +32,8 @@ If your on-premise instance has been connected to the ServiceNow Store, refer to
 
 1.  From a computer with internet access, log in to the ServiceNow Store and procure the appor product.
 
-    -   For more details about procuring appsand products from the commercial ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-trials.md).
-    -   For more details about procuring apps in a regulated environment, see [Using the ServiceNow Store in a regulated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-regulated-store.md).
+    -   For more details about procuring appsand products from the commercial ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/getting-apps-trials.md).
+    -   For more details about procuring apps in a regulated environment, see [Using the ServiceNow Store in a regulated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/using-regulated-store.md).
 2.  From the app listing details or product page on the ServiceNow Store, select **On-prem download**.
 
 3.  In the pop-up window, use the **Select on-prem instance** drop-down list to select an instance associated with your account.
@@ -96,5 +96,5 @@ If a certificate is automatically populated, proceed to the next step. If no cer
 
 ## What to do next
 
-Transfer the `.store` file to your on-premise instance to upload the app. For more information, see [Upload an app to an on-premise instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upload-app-on-prem-instance.md).
+Transfer the `.store` file to your on-premise instance to upload the app. For more information, see [Upload an app to an on-premise instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upload-app-on-prem-instance.md).
 

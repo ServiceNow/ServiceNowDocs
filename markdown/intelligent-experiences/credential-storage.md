@@ -2,7 +2,7 @@
 title: Credential and dynamic parameter management
 description: Logs in automatically when a goal references stored credentials configured for a website, without exposing sensitive values in chat or asking you to provide the input.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/credential-storage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/credential-storage.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-31"
@@ -43,16 +43,16 @@ If your goal references stored credentials, the agent logs in automatically with
 
 ## Considerations
 
--   To use stored credentials, an administrator must first define them as desktop action parameters. For more information, see [Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-parameter-record-ad.md).
+-   To use stored credentials, an administrator must first define them as desktop action parameters. For more information, see [Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-parameter-record-ad.md).
 -   To trigger automatic login, phrase your goal in such a way that it explicitly references the stored parameter names, as shown in the following examples.
     -   Go to https://www.example.com/ and authenticate using parameter 'user\_name' and parameter 'password'.
     -   Open https://www.example.org/ and log in with stored 'user\_name' and stored 'password', then select Transactions.
     -   Open https://www.example.net/ and log in using username from reference 'user\_name' and password from reference 'password'. Then navigate to 'Task List', remove any filters, choose Pending status, and select Save.
 
-**Parent Topic:**[Configuration for adaptive path desktop actions for web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-adaptive-path-da.md)
+**Parent Topic:**[Configuration for adaptive path desktop actions for web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ad-adaptive-path-da.md)
 
 **Related topics**  
 
 
-[Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-parameter-record-ad.md)
+[Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-parameter-record-ad.md)
 

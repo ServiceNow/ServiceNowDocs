@@ -2,7 +2,7 @@
 title: Post-upgrade steps for ServiceNow Otto for Contract Management Pro
 description: If you are upgrading to ServiceNow Otto for Contract Management Pro from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-upgrade-steps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-upgrade-steps.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -38,7 +38,7 @@ Role required: admin
 
 Your customized use cases are migrated to the AI Admin Hub console.
 
-**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
@@ -55,7 +55,7 @@ Your customized use cases are migrated to the AI Admin Hub console.
 
 [Configuring agentic workflows in ServiceNow Otto for Contract Management Pro]()
 
-[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
+[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
-[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
+[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
 

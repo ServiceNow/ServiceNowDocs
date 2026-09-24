@@ -2,7 +2,7 @@
 title: Create or modify map indicators
 description: Dependency Views maps and application service maps, use icons to display additional information for a CI by displaying its related records such as alerts, outages, incidents and problems. These icons are called map indicator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMapIndicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMapIndicators.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -36,7 +36,7 @@ The Affected CI’s map indicator appears for CIs in two related but not identic
 
 **Note:** Details about affected CIs are derived from the **task** and the **cmdb\_ci** tables and their extensions. Therefore, if you use custom tables to store CIs for incidents, problems and changes, it affects the details that are displayed for affected CIs.
 
-For more information on how map indicators are used to show tasks and outages in clusters and collapsed nodes, see [Cluster nodes in a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/c_CollapsedNodesInNGBSM.md).
+For more information on how map indicators are used to show tasks and outages in clusters and collapsed nodes, see [Cluster nodes in a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/c_CollapsedNodesInNGBSM.md).
 
 ## Procedure
 
@@ -84,7 +84,7 @@ Icon
 
 </td><td>
 
-File name and path of the icon image file, which can be a system image.-   To create a new icon, see [Create or modify map icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIcons.md)
+File name and path of the icon image file, which can be a system image.-   To create a new icon, see [Create or modify map icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIcons.md)
 -   To create or use a system image see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 
@@ -184,7 +184,7 @@ Suffix portion of the tooltip \(Tooltip Label : Tooltip info\).
 
 For an indicator to appear in a Dependency Views map, a CI must meet all filter conditions, and **Active Dependencies** must be selected.
 
-**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 

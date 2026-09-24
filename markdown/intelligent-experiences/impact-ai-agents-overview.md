@@ -2,7 +2,7 @@
 title: Impact AI agents
 description: The following AI agents are available for Impact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/impact-ai-agents-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/impact-ai-agents-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
@@ -14,8 +14,8 @@ breadcrumb: [Impact, AI agents library, AI assets, Enable AI experiences]
 
 The following AI agents are available for Impact.
 
--   **[Code fix AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/imp-code-fix-ai-agent.md)**  
+-   **[Code fix AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/imp-code-fix-ai-agent.md)**  
 This AI Agent automates the process of analyzing, suggesting, and implementing fixes for code violations or issues detected within code repositories or running scripts. It leverages LLM-driven suggestions while keeping the user in control of approval and refinement.
 
-**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
 

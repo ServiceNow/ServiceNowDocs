@@ -2,7 +2,7 @@
 title: Visitor registration
 description: As an employee, the Workplace Visitor Management application enables you to register visitors in advance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/register-visitors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/register-visitors.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -37,9 +37,9 @@ You can also use the Virtual agent chat support on the Workplace Service Portal 
 
 Once you submit the registration, the reception staff receives the registration in the application. When visitors are at the premises, the reception staff checks in the visitors, prints their badges, updates their breaks, and updates their other statuses during the day.
 
-For more information about how you can register a visitor, see [Make a visitor registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/register-a-guest.md).
+For more information about how you can register a visitor, see [Make a visitor registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/register-a-guest.md).
 
-**Parent Topic:**[Exploring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
+**Parent Topic:**[Exploring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create work orders for a selected asset on a mobile device
 description: Create a work order for an asset through the Field Service Contractor for mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-wot-asset-contrator-mob.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/create-wot-asset-contrator-mob.html
 release: australia
 product: Work Order Management
 classification: work-order-management

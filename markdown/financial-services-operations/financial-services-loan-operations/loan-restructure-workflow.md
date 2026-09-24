@@ -2,7 +2,7 @@
 title: Loan Restructure Proposal workflow
 description: Learn how bank agents, using the Loan Restructure Proposal workflow, contact a loan customer for restructuring an outstanding loan which otherwise could turn into a non-performing loan. The workflow applies to both business and personal loans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/loan-restructure-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/loan-restructure-workflow.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations

@@ -2,7 +2,7 @@
 title: Create and configure participants
 description: Add and configure participants that act as placeholder for users who will be assigned as signers of a contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-add-participants.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-add-participants.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +18,7 @@ Add and configure participants that act as placeholder for users who will be ass
 
 ## Before you begin
 
-A Microsoft Word document must have been uploaded and parsed to provide clauses for the contract template. For more information, see [Create a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-contract-template.md).
+A Microsoft Word document must have been uploaded and parsed to provide clauses for the contract template. For more information, see [Create a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-contract-template.md).
 
 Role required: sn\_cm\_core.contract\_config
 
@@ -36,9 +36,9 @@ Role required: sn\_cm\_core.contract\_config
 
 4.  On the form, fill in the fields:
 
-    For description on the field values, see [Participant form for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-participants-form.md).
+    For description on the field values, see [Participant form for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-participants-form.md).
 
-    For more information on content controls, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md).
+    For more information on content controls, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md).
 
     \[Omitted image "cmpro-participant-new.png"\] Alt text: Configure participants to the contract template
 
@@ -49,10 +49,10 @@ Role required: sn\_cm\_core.contract\_config
 
 The participant is added to the document template.
 
--   **[Participant form for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-participants-form.md)**  
+-   **[Participant form for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-participants-form.md)**  
 Use the Participant form to add participants in a contract template.
 
-**Parent Topic:**[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)
+**Parent Topic:**[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)
 
 **Related topics**  
 

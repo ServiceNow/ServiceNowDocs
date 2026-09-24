@@ -2,7 +2,7 @@
 title: Event Management operator environment
 description: As an Event Management operator, your primary work environment is the Service Operations Workspace dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-user-interfaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/operator-user-interfaces.html
 release: australia
 product: Event Management
 classification: event-management
@@ -28,7 +28,7 @@ Lesson 1
 
 </td><td>
 
-[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-events-alerts.md)
+[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-events-alerts.md)
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Lesson 2
 
 </td><td>
 
-[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-application-services.md)
+[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-application-services.md)
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Lesson 4
 
 </td><td>
 
-[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md)
+[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-process.md)
 
 </td></tr></tbody>
 </table>## The Service Operations Workspace dashboard
@@ -180,7 +180,7 @@ Open any alert from the **Alerts** list at the bottom by clicking the number.
 </table>
 ## Continue the tutorial
 
-Proceed to the next lesson: [What Event Management operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md).
+Proceed to the next lesson: [What Event Management operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-process.md).
 
-**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-guide-em.md)
+**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-guide-em.md)
 

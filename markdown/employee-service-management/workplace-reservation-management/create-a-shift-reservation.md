@@ -2,7 +2,7 @@
 title: Create a shift reservation
 description: Reserve a workplace item for a shift. Create a single reservation or a recurring reservation for the same shift.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-a-shift-reservation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/create-a-shift-reservation.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -24,15 +24,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_lfy_3zf_r4b"><thead><tr><th align="left" id="d489871e51">
+<table id="choicetable_lfy_3zf_r4b"><thead><tr><th align="left" id="d489875e51">
 
 Location
 
-</th><th align="left" id="d489871e54">
+</th><th align="left" id="d489875e54">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d489871e60">
+</th></tr></thead><tbody><tr><td id="d489875e60">
 
 **From application navigator**
 
@@ -40,7 +40,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d489871e81">
+</td></tr><tr><td id="d489875e81">
 
 **Employee Center**
 
@@ -76,7 +76,7 @@ Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Rese
 
     The workplace items which match the search criteria and which are available during this shift are displayed.
 
-    **Note:** You can switch between the **Card view** tab and **Schedule view** tab to review the availability of workplace items. If your company uploads floor maps, view the maps using Mappedin or Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-admin.md).
+    **Note:** You can switch between the **Card view** tab and **Schedule view** tab to review the availability of workplace items. If your company uploads floor maps, view the maps using Mappedin or Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-mappedin-admin.md).
 
 4.  Sort the workplace items in alphabetical order or by using a filter with the **Show filter** option.
 
@@ -135,9 +135,9 @@ If you requested reservation for an item that requires approval, then your reque
 
 ## What to do next
 
-Review your reservation details. To edit or cancel your reservations, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
+Review your reservation details. To edit or cancel your reservations, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

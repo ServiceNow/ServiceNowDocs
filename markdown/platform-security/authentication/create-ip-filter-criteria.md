@@ -2,7 +2,7 @@
 title: Create IP filter criteria
 description: IP filter criteria allows you to filter users based on the user's IP addresses. You can configure an authentication policy to allow or deny access to a specific address or range of addresses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-ip-filter-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-ip-filter-criteria.html
 release: australia
 product: Authentication
 classification: authentication

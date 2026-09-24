@@ -2,7 +2,7 @@
 title: Common error messages and causes
 description: Look here for information and troubleshooting steps when you receive an error message.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/common\_error\_messages\_and\_causes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/common\_error\_messages\_and\_causes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Procurement case types
 description: Procurement case types classify and route procurement work items to the appropriate team, and can block order or sourcing processing until the required review or action is complete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/procurement-case-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/procurement-case-types.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -67,10 +67,10 @@ The hold releases automatically. When the blocking case is closed, the next time
 
 **Note:** If you cancel a purchase order or purchase requisition that has open procurement cases, the system displays a warning and cancels all associated open cases when the cancellation is confirmed.
 
-**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
+**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 
 **Related topics**  
 
 
-[Base system procurement case type reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/base-system-procurement-case-types.md)
+[Base system procurement case type reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/base-system-procurement-case-types.md)
 

@@ -2,7 +2,7 @@
 title: Account Details form
 description: The Accounts Details form enables you to create or review account details for a customer or for a partner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/account-details-form-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/account-details-form-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -216,5 +216,5 @@ Sales Owner
 The internal contact responsible for managing the account relationship.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-reference.md)
 

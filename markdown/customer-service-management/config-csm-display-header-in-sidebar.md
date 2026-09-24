@@ -2,7 +2,7 @@
 title: Display form ribbon and header values in side panel
 description: Configure the form ribbon and the secondary values that appear in a form header to display in the Contextual side panel in CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-display-header-in-sidebar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-display-header-in-sidebar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-18"
@@ -47,15 +47,15 @@ These properties can operate independently. For example, you can display the for
 
 3.  In the **Value** field for the selected property, enter one of the following values.
 
-<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d57021e168">
+<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d57025e168">
 
 Value
 
-</th><th align="left" id="d57021e171">
+</th><th align="left" id="d57025e171">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d57021e177">
+</th></tr></thead><tbody><tr><td id="d57025e177">
 
 **header**
 
@@ -65,7 +65,7 @@ Displays the selected component in the following location: -   Ribbon: at the to
 -   Secondary values: at the top of the record, in the form header below the primary value.
 
 
-</td></tr><tr><td id="d57021e194">
+</td></tr><tr><td id="d57025e194">
 
 **sidebar**
 

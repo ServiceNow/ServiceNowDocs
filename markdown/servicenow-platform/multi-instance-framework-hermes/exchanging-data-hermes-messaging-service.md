@@ -2,7 +2,7 @@
 title: Exchanging data using Hermes
 description: Produce and consume Kafka messages in your ServiceNow instance using the Hermes Messaging Service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/exchanging-data-hermes-messaging-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/exchanging-data-hermes-messaging-service.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -47,7 +47,7 @@ With the Kafka standard protocol, you can exchange messages with any application
 
 \[Omitted image "hermes-producing-consuming.png"\] Alt text: Producing and consuming messages with Advanced High Availability \(AHA\).
 
-For details on exchanging data using a Kafka client, see [Producing and consuming messages from a Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/producing-consuming-hermes.md).
+For details on exchanging data using a Kafka client, see [Producing and consuming messages from a Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/producing-consuming-hermes.md).
 
-**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-services.md)
+**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/manage-services.md)
 

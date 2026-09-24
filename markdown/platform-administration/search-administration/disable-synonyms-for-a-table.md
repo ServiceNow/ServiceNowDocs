@@ -2,7 +2,7 @@
 title: Disable synonyms for a table
 description: By default, Zing uses all active synonym dictionaries when a user performs a text search. Search administrators can disable synonym dictionary usage on a per-table basis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/disable-synonyms-for-a-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/disable-synonyms-for-a-table.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -33,7 +33,7 @@ Role required: ts\_admin or admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Zing can expand search results with synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-synonyms-expand-results.md)
+**Parent Topic:**[Zing can expand search results with synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/search-synonyms-expand-results.md)
 
 **Related topics**  
 

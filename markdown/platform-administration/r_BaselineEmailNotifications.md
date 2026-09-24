@@ -2,7 +2,7 @@
 title: Baseline email notifications
 description: The baseline system provides several email notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_BaselineEmailNotifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_BaselineEmailNotifications.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -1101,5 +1101,5 @@ cmdb.unscheduled.change
 </td></tr></tbody>
 </table>**Note:**
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateANotification.md)
 

@@ -2,7 +2,7 @@
 title: Copy fields from parent request to contract request
 description: Configure the ContractManagementExt extension point to automatically copy required fields from the parent record to the contract request when it is initiated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-copy-fld-frm-parent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-copy-fld-frm-parent.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -33,7 +33,7 @@ Role required: admin
 
 5.  On the Script Include form, fill in the fields.
 
-    For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
+    For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
 6.  In the **Script** field, update the copyDataFromBUToCMR function to configure the fields that you want to copy from the parent record to the contract request.
 
@@ -61,7 +61,7 @@ Role required: admin
 
 When a contract request is initiated, the configured fields are automatically populated with the corresponding values from the associated parent record.
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 

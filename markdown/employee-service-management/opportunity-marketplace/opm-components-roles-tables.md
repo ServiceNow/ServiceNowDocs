@@ -2,7 +2,7 @@
 title: Components, tables, and roles used by Opportunity Marketplace \(OPM\)
 description: Learn about the components used with Opportunity Marketplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/opm-components-roles-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/opportunity-marketplace/opm-components-roles-tables.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -127,7 +127,7 @@ Opportunity Type \[sn\_opp\_market\_opportunity\_type\]
 
 </td><td>
 
-Tracks details about opportunities \(Gig, Project, Volunteer\), such as -   **Title**: The type of opportunity. The standard opportunities provided with OPM are Gig, Project, and Volunteer. You can create your own opportunity types, see [Create opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-create-other-opportunities.md).
+Tracks details about opportunities \(Gig, Project, Volunteer\), such as -   **Title**: The type of opportunity. The standard opportunities provided with OPM are Gig, Project, and Volunteer. You can create your own opportunity types, see [Create opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-create-other-opportunities.md).
 -   **Description**
 -   **Role display**
 -   **Icon**
@@ -450,5 +450,5 @@ Recruiter
 Recruitment coordinator
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference Opportunity Marketplace roles and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-references.md)
+</table>**Parent Topic:**[Reference Opportunity Marketplace roles and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-references.md)
 

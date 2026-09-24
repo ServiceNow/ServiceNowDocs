@@ -2,7 +2,7 @@
 title: Model Context Protocol Client
 description: The ServiceNow Model Context Protocol Client \(MCP Client\) allows you to access the Model Context Protocol tools hosted externally and published via an MCP Server in the ServiceNow AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-client-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mcp-client-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-09-02"
@@ -18,19 +18,19 @@ The ServiceNow Model Context Protocol Client \(MCP Client\) allows you to access
 
 <table id="table_gkl_gwc_lkc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how MCP Client allows you to access the MCP tools in AI Agent Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/explore-mcp-client.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how MCP Client allows you to access the MCP tools in AI Agent Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/explore-mcp-client.md)
 
 </td><td colspan="2">
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the MCP Client in AI Agent Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-mcp-client.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the MCP Client in AI Agent Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-mcp-client.md)
 
 </td></tr><tr><td colspan="2" align="left">
 
-[Add MCP Servers\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Add MCP Servers in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-mcp-client-aias-new.md)
+[Add MCP Servers\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Add MCP Servers in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-mcp-client-aias-new.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn more about the user roles, tables, and properties in MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-reference-new.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn more about the user roles, tables, and properties in MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-reference-new.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -52,5 +52,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

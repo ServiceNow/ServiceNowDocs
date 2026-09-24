@@ -2,7 +2,7 @@
 title: Configure Service Portal to send analytics data
 description: Enable loading of the AI Search Analytics dashboard by configuring Service Portal to send analytics data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/adv-ais-enable-sp-analytics-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/adv-ais-enable-sp-analytics-data.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -18,7 +18,7 @@ Enable loading of the AI Search Analytics dashboard by configuring Service Porta
 
 ## Before you begin
 
-The Platform Analytics Solution for Advanced AI Search Management Tools must be activated on your instance. For details on activating this solution, see [Activate the Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/install-adv-ais-mgmt-tools.md).
+The Platform Analytics Solution for Advanced AI Search Management Tools must be activated on your instance. For details on activating this solution, see [Activate the Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/install-adv-ais-mgmt-tools.md).
 
 Role required: admin
 

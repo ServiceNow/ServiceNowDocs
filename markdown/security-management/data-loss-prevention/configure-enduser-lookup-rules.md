@@ -2,7 +2,7 @@
 title: Create end user lookup rules
 description: You can create and configure end user lookup rules and assign the DLP incidents to the respective end users based on those rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-enduser-lookup-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/configure-enduser-lookup-rules.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -117,7 +117,7 @@ The end user identifier of the DLP incident. This field appears when **Incident 
 -   **FTP user name**
 -   **Sender**
 
-**Note:** The above listed end user identifiers are configurable using the system property `sn_dlir.assignment.fields`. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
+**Note:** The above listed end user identifiers are configurable using the system property `sn_dlir.assignment.fields`. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
 -   **Custom user from incident**
 
@@ -148,7 +148,7 @@ You can use the script editor to customize and format the field values during th
 5.  To reapply an end user lookup rule on all existing DLP incidents, click **Reapply**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

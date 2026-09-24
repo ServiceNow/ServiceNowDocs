@@ -2,7 +2,7 @@
 title: Task dependencies and relationships in CWM
 description: Increase visibility into how work is connected by linking work items directly in Collaborative Work Management \(CWM\), eliminating the need to track dependencies in spreadsheets or notes fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -59,17 +59,17 @@ When a work item has one or more relationships, a relationships indicator icon a
 -   Adding a story-type work item as a relationship to another story syncs with the prerequisite and dependent fields in the Story \[rm\_story\] table.
 -   Adding a non-story-type work item as a relationship to a story does not sync with the Story \[rm\_story\] table.
 
--   **[Add a dependency to a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-a-dependency-to-a-work-item-cwm.md)**  
+-   **[Add a dependency to a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-a-dependency-to-a-work-item-cwm.md)**  
 Link a work item to another in Collaborative Work Management \(CWM\) to show how they relate, whether one is a prerequisite for another or they are generally connected.
--   **[Remove a dependency from a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/remove-a-dependency-from-a-work-item-cwm.md)**  
+-   **[Remove a dependency from a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/remove-a-dependency-from-a-work-item-cwm.md)**  
 Unlink a relationship between work items in Collaborative Work Management \(CWM\) when it is no longer relevant or was added incorrectly.
 
-**Parent Topic:**[Agile work management in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-in-cwm.md)
+**Parent Topic:**[Agile work management in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/agile-in-cwm.md)
 
 **Related topics**  
 
 
-[Agile work management in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-in-cwm.md)
+[Agile work management in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/agile-in-cwm.md)
 
-[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
+[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
 

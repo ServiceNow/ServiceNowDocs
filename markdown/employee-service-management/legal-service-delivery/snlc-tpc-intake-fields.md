@@ -2,7 +2,7 @@
 title: Third-party Contract Review form
 description: The Third-party Contract Review form provides information for a legal request to the legal department to use when reviewing a third-party contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-tpc-intake-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-tpc-intake-fields.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Contract Management Pro for Legal Service Delivery, Inte
 
 The Third-party Contract Review form provides information for a legal request to the legal department to use when reviewing a third-party contract.
 
-For more information, see [Submit a legal request for a third-party contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/submit-legal-request-tpc-review.md).
+For more information, see [Submit a legal request for a third-party contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/submit-legal-request-tpc-review.md).
 
 <table id="table_wtn_xd3_ldb"><thead><tr><th>
 
@@ -151,7 +151,7 @@ Documents
 Contract and supporting documents to be reviewed by the legal department.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contract Management Pro for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-ref-sn-legal-contracts.md)
+</table>**Parent Topic:**[Contract Management Pro for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-ref-sn-legal-contracts.md)
 
 **Related topics**  
 

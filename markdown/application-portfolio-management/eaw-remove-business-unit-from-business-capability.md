@@ -2,7 +2,7 @@
 title: Remove a business unit from a business capability
 description: Remove business units associated with a business capability in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-remove-business-unit-from-business-capability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-remove-business-unit-from-business-capability.html
 release: australia
 topic_type: task
 last_updated: "2026-08-03"
@@ -40,10 +40,10 @@ Role required: sn\_apm.apm\_user
 8.  Select **Remove**.
 
 
-**Parent Topic:**[Manage business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-capabilities.md)
+**Parent Topic:**[Manage business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-business-capabilities.md)
 
 **Related topics**  
 
 
-[Add a business unit to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-unit-to-business-capability.md)
+[Add a business unit to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-business-unit-to-business-capability.md)
 

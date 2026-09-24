@@ -2,7 +2,7 @@
 title: Configure branding for your Virtual Agent bot in Slack
 description: You have the flexibility to customize the default branding for your Slack Virtual Agent. You can change the production bot's name and icon.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/slack-branding-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/slack-branding-overview.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -74,5 +74,5 @@ Ensure that you set the **com.glide.cs.enable\_slack\_branding** system property
 
 Open your Slack bot chat and start a new conversation. You will notice that the bot name has been updated on the Slack conversation body, header, and in the left pane and the bot icon is updated only in the conversation body.
 
-**Parent Topic:**[Configure Virtual Agent settings for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-slack-settings.md)
+**Parent Topic:**[Configure Virtual Agent settings for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-slack-settings.md)
 

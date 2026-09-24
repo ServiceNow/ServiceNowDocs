@@ -2,7 +2,7 @@
 title: Review granular findings
 description: Review granular findings in Data Discovery Store
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/dds-review-granular-findings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/dds-review-granular-findings.html
 release: australia
 product: Data Discovery
 classification: data-discovery

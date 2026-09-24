@@ -2,7 +2,7 @@
 title: Agent Client Collector certificate revocation reasons
 description: The following table lists and describes the possible reasons for revoking an Agent Client Collector certificate to stop communication between the agent and ITOM cloud services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/certificate-revocation-reasons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/certificate-revocation-reasons.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -105,5 +105,5 @@ AA Compromise
 Indicates suspected or actual compromise of the authentication authority \(AA\) validated in the certificate.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

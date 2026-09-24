@@ -2,7 +2,7 @@
 title: Components installed with the Qualys Integration for Security Operations
 description: The following roles, scheduled jobs, and tables are installed with the Qualys Integration for Security Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-qualys-installed-with.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/cc-qualys-installed-with.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

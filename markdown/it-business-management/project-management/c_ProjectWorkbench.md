@@ -2,7 +2,7 @@
 title: Using Project workbench - Legacy
 description: The project workbench provides a central location for creating and managing projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_ProjectWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/c\_ProjectWorkbench.html
 release: australia
 product: Project Management
 classification: project-management
@@ -46,14 +46,14 @@ The project workbench scales to fit the available browser height. If necessary, 
 
 \[Omitted image "ProjectWorkbench.png"\] Alt text: The project workbench
 
--   **[Access the project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_AccessTheProjectWorkbench.md)**  
+-   **[Access the project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_AccessTheProjectWorkbench.md)**  
 Access the project workbench from the Project form or from the application navigator.
--   **[Components of project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/components-project-workbench.md)**  
+-   **[Components of project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/components-project-workbench.md)**  
 The project workbench displays project information in two distinct areas. The top pane displays the project visualization, and the bottom pane displays phase details in a list view or visual task board. There is also a header above the workbench that includes several buttons and controls.
--   **[Project calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectWorkbenchProjectCalc.md)**  
+-   **[Project calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectWorkbenchProjectCalc.md)**  
 When creating a project, the project manager can select the type of calculation to use: manual or automatic \(default\).
--   **[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)**  
+-   **[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_UsingProjectWorkbench.md)**  
 The project workbench allows project managers to manage all aspects of a project.
 
-**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/using-project-management.md)
 

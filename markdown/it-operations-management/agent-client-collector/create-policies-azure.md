@@ -2,7 +2,7 @@
 title: Create Azure policies for metric collection
 description: Create your own policies to enable Azure to collect the metrics for the resources that have policies that don’t come with the base system. The Azure Metrics Collector check brings the metrics to the agent through the Azure Metrics Batch API.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-policies-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/create-policies-azure.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -174,7 +174,7 @@ Value that you enter \(**-c**\) to indicate that the check retrieves the name of
 
     2.  Copy a script from one of the Azure cloud policies that comes with the base system.
 
-        -   Cloud policies that come with the base system are described in [Create Azure policies for metric collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-policies-azure.md).
+        -   Cloud policies that come with the base system are described in [Create Azure policies for metric collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-policies-azure.md).
         -   The script is located in the **Config file creation script** field of the policy's **Proxy Settings** tab.
     3.  Paste the script into the **Config file creation script** field of your policy.
 
@@ -187,5 +187,5 @@ Value that you enter \(**-c**\) to indicate that the check retrieves the name of
 
 The configured policy retrieves the resources and their metrics from the specified Azure CI and sends them to the agent.
 
-**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

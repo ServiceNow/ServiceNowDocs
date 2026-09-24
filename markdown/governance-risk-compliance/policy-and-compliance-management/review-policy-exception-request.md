@@ -2,7 +2,7 @@
 title: Review the policy exception and extension request
 description: After reviewing a policy exception request, a compliance manager can accept or reject the request. However, if the compliance manager doesn't have enough information decide, they can request a risk assessment by the risk manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/review-policy-exception-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/review-policy-exception-request.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -44,7 +44,7 @@ Action
 
 1.  Select the **Impacted Controls** tab.
 
-**Note:** You can add a single control objective if your **Source type** is **Control objective**. However, if your **Source type** is **Controls**, then you can select multiple controls from different control objectives. For more information, see [Request a policy exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/request-policy-exception.md).
+**Note:** You can add a single control objective if your **Source type** is **Control objective**. However, if your **Source type** is **Controls**, then you can select multiple controls from different control objectives. For more information, see [Request a policy exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/request-policy-exception.md).
 
 2.  Select the **Add** or **Add All** buttonto add the manually created controls.
 3.  Choose the controls to associate to the policy exception.
@@ -166,5 +166,5 @@ Click **Request Business Owner Approval** .
 </table>5.  Click **Update**.
 
 
-**Parent Topic:**[Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md)
+**Parent Topic:**[Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md)
 

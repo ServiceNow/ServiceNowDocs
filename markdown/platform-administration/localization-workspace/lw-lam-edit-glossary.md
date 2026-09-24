@@ -2,7 +2,7 @@
 title: Edit a glossary in Language Asset Management
 description: Edit the contents of your glossary in Language Asset Management. Modify existing terms and translations or add more terms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-lam-edit-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-lam-edit-glossary.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -18,7 +18,7 @@ Edit the contents of your glossary in Language Asset Management. Modify existing
 
 ## Before you begin
 
--   First, create a glossary using the provided spreadsheet template and upload it to Language Asset Management. For information see [Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-upload-glossaries.md).
+-   First, create a glossary using the provided spreadsheet template and upload it to Language Asset Management. For information see [Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-lam-upload-glossaries.md).
 -   Role required: sn\_lw.user. From version 3.1.0, both the sn\_lw.user and the sn\_lw.terminology\_manager roles are required.
 
 ## About this task
@@ -127,7 +127,7 @@ Glossary Info
 
 This read-only field confirms the name of the current glossary. **Note:** The same source term can be listed in more than one glossary. A source term repeated in two different glossaries is considered to be two different records, with different translations possible.
 
- To create a separate glossary, see [Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-upload-glossaries.md).
+ To create a separate glossary, see [Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-lam-upload-glossaries.md).
 
 </td></tr></tbody>
 </table>
@@ -137,5 +137,5 @@ You can delete a source term and its translations by selecting Delete from More 
 
 You can also delete a translation from a source term using Delete from More Options\[Omitted image "Form\_MoreOptions.png"\] on the translation's Details tab.
 
-**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-asset-management.md)
+**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-language-asset-management.md)
 

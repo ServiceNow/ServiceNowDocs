@@ -2,7 +2,7 @@
 title: Domain separation and Contract Management Pro
 description: Domain separation is supported for Contract Management Pro. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-domain-separation.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

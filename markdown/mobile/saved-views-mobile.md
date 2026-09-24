@@ -2,7 +2,7 @@
 title: Mobile saved views
 description: Use saved views to gain quick access to frequently used screens and views.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/saved-views-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/saved-views-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

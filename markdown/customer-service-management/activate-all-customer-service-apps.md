@@ -2,7 +2,7 @@
 title: Install all Customer Service Management applications
 description: Install all eligible Customer Service Management \(CSM\) applications from a single ServiceNow Store product. Use this procedure to find and install the CSM apps your organization is entitled to in one step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-all-customer-service-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-all-customer-service-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-05-20"

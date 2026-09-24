@@ -2,7 +2,7 @@
 title: Methods and events of the ImageControl element
 description: The ImageControl element in RPA Desktop Design Studio enables you to display images in a form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/form-control-imagecontrol.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/form-control-imagecontrol.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -82,5 +82,5 @@ The methods and events of the ImageControl element are displayed in the Object E
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/form-control-methods-events.md)
 

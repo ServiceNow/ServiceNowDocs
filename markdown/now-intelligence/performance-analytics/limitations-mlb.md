@@ -2,7 +2,7 @@
 title: Limitations and requirements for Data snapshots
 description: Several features of indicators and breakdowns are not supported with Data snapshots and multiple breakdowns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/limitations-mlb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/limitations-mlb.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -92,7 +92,7 @@ Formula indicators
 
 </td><td>
 
-All [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) must support Data snapshots.
+All [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) must support Data snapshots.
 
 </td></tr><tr><td>
 
@@ -108,11 +108,11 @@ Manual or external indicators or breakdowns
 
 </td><td>
 
-Only [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), [formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), and [automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) are supported. All contributing indicators in a formula indicator must be supported for the formula indicator to be supported.
+Only [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md), [formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md), and [automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) are supported. All contributing indicators in a formula indicator must be supported for the formula indicator to be supported.
 
 </td></tr><tr><td>
 
-Indicators based on [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md)
+Indicators based on [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md)
 
 </td><td>
 
@@ -183,5 +183,5 @@ All collections are daily.
 |Scoresheets|Manual changes to scoresheets for indicators that are enabled for Data snapshots have no effect.|
 |String fields in indicator or source conditions|4000-character limit|
 
-**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)
+**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 

@@ -2,7 +2,7 @@
 title: Create a service instance from various data sources
 description: Search for mapped and unmapped services to unify. The flow is available using the Service Mapping workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/unified-map-create-service-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/unified-map-create-service-instance.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -19,7 +19,7 @@ Search for mapped and unmapped services to unify. The flow is available using th
 
 ## About this task
 
-[Multi-source service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/multi-source-service-mapping.md)
+[Multi-source service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/multi-source-service-mapping.md)
 
 ## Before you begin
 
@@ -182,12 +182,12 @@ Business service offerings represent specific workflows or solutions that are de
     The unified service is created as non-operational by default. All selected unmapped services convert into non-operational mapped services.
 
 
-**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/using-service-mapping.md)
 
 **Related topics**  
 
 
-[Edit a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)
+[Edit a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/unified-map-edit-unified-service.md)
 
-[Delete a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-delete-unified-service.md)
+[Delete a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/unified-map-delete-unified-service.md)
 

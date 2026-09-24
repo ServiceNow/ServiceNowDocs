@@ -2,7 +2,7 @@
 title: Add, modify, and cancel standing order workflows
 description: Learn how agents, using the standing order workflows, resolve service requests for adding, modifying, and canceling standing orders to deposit accounts. The workflows apply to both business and personal deposit service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/fso-deposit-add-standing-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-deposit-operations/fso-deposit-add-standing-order.html
 release: australia
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -47,5 +47,5 @@ The following workflow routes the case and tasks for adding a standing order to 
 
 The case is complete and the state and stage of the case are set to Closed Complete.
 
-**Parent Topic:**[Financial Services Deposit Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/deposit-operations-workflows.md)
+**Parent Topic:**[Financial Services Deposit Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-deposit-operations/deposit-operations-workflows.md)
 

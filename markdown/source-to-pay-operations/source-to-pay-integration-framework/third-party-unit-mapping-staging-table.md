@@ -2,7 +2,7 @@
 title: Third Party Unit Mapping staging table
 description: The Third Party Unit Mapping \[sn\_spend\_intg\_third\_party\_uom\_map\] staging table temporarily stores important data on third party mapping before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/third-party-unit-mapping-staging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/third-party-unit-mapping-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -21,7 +21,7 @@ The Third Party Unit Mapping \[sn\_spend\_intg\_third\_party\_uom\_map\] staging
 |Supplier Product|Reference|Reference to the Supplier Product.|
 |Third-party unit|Reference|Reference to the Third Party Unit.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

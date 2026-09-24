@@ -2,7 +2,7 @@
 title: Configure resolution notes generation for ServiceNow Otto for HRSD
 description: Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the ServiceNow Otto context menu to elaborate or shorten the notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -65,8 +65,8 @@ Role required: sn\_hr\_core.admin
 16. Select **Review and activate** to examine changes, then select **Activate**.
 
 
--   **[Extend table support for resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/table-support-resolution-notes.md)**  
+-   **[Extend table support for resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/table-support-resolution-notes.md)**  
 Extend table support for the resolution notes generation skill to include additional data sources.
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

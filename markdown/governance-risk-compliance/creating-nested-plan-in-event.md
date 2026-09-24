@@ -2,7 +2,7 @@
 title: Using nested plans
 description: Configure a system property to control activated plan levels in an event. The system automatically creates nested plans within an event, reducing the manual effort of adding plans and improving system performance. You can also add dependencies between multiple activated plans by updating the Dependencies field in the event tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/creating-nested-plan-in-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/creating-nested-plan-in-event.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -158,7 +158,7 @@ Follow these steps to create a nested plan:
 5.  After the assets are created, an event is triggered to create event tasks.
 6.  If the event task has a related plan and its level is below the property-defined level, an activated plan is created as a child plan.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 
-**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

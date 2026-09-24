@@ -2,7 +2,7 @@
 title: Trigger a CrowdStrike Falcon Insight profile manually from a security incident
 description: Trigger a profile manually after you review a security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manually-trigger-profile-from-security-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/manually-trigger-profile-from-security-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

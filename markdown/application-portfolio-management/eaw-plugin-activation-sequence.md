@@ -2,7 +2,7 @@
 title: Application plugin installation sequence for Enterprise Architecture Workspace
 description: Activate the required plugins and optional add-ons in the correct order to confirm all Enterprise Architecture Workspace features are available on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-plugin-activation-sequence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-plugin-activation-sequence.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-18"
@@ -83,5 +83,5 @@ If a feature is missing after activation, use the following table to identify th
 |Architectural Documents section missing|The Document Management platform plugin was not active whenEnterprise Architecture was activated|Activate com.snc.platform\_document\_management, then reactivate com.snc.apm.|
 |Now Assist buttons not visible in the workspace|The ServiceNow Otto for Enterprise Architecture \(EA\) plugin is not active|Activate sn\_apm\_gen\_ai.|
 
-**Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/install-ea-workspace.md)
+**Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/install-ea-workspace.md)
 

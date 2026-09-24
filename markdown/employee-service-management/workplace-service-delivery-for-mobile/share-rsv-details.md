@@ -2,7 +2,7 @@
 title: Share your reservation details with other users
 description: Share the details of your reservation with a colleague. An email notification is sent to the colleague with the details. The colleague can also make a reservation near to your workplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/share-rsv-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-for-mobile/share-rsv-details.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -49,9 +49,9 @@ Role required: sn\_wsd\_core.workplace\_user
 
 After the reservation is confirmed, the reservation details are shared with the selected users.
 
-**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
+**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
 
-**Previous topic:**[Check in or check out a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/check-in-out-rsv-on-mobile.md)
+**Previous topic:**[Check in or check out a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/check-in-out-rsv-on-mobile.md)
 
-**Next topic:**[Scan the QR code to reserve a space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/scan-qr-code.md)
+**Next topic:**[Scan the QR code to reserve a space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/scan-qr-code.md)
 

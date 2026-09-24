@@ -2,7 +2,7 @@
 title: Access Analyzer Debug logs
 description: Access Analyzer debug logs supply detailed information about the evaluation of access controls for a specific operation. These logs assist administrators and developers in troubleshooting access issues, optimizing security configurations, and ensuring that users have appropriate access to resources within the ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/access-analyzer-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/access-analyzer-logs.html
 release: australia
 product: Access Control
 classification: access-control

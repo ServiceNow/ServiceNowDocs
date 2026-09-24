@@ -2,7 +2,7 @@
 title: Create or extend a CAPI interface
 description: You can create a new CAPI interface or extend an existing one by adding new operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-interface.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-interface.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,7 +19,7 @@ You can create a new CAPI interface or extend an existing one by adding new oper
 ## Before you begin
 
 -   Role required: admin
--   Review [Default CAPI APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/default-apis.md) and make sure the provider and product that you want to create do not exist.
+-   Review [Default CAPI APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/default-apis.md) and make sure the provider and product that you want to create do not exist.
 -   Familiarize yourself with the cloud provider API so that you know how to create REST calls to the provider. If you are not familiar with the headers, authentication requirements, endpoint, and data that you can pass into the provider API, you cannot build your own CAPI components.
 
 ## About this task
@@ -65,7 +65,7 @@ Usually, you can use the default interfaces that are provided in the Cloud Provi
 
 ## What to do next
 
-[Create a CAPI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-api.md)
+[Create a CAPI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-api.md)
 
-**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
+**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

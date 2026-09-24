@@ -2,7 +2,7 @@
 title: Import sets properties
 description: Multiple properties control import set behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_ImportSetsProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/r\_ImportSetsProperties.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -48,7 +48,7 @@ Multiple properties control import set behavior.
     -   Type: true \| false
     -   Default value: true
     -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
-    -   More information: [Data source fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_DataSourceFileTypeFields.md)
+    -   More information: [Data source fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/r_DataSourceFileTypeFields.md)
 -   **glide.scheduled\_import.stop\_on\_error**
 
     Set to true to stop the import process when the parent scheduled import generates an error. This behavior can be useful when one import set depends on the results of another import set.
@@ -279,5 +279,5 @@ Multiple properties control import set behavior.
     -   Default value: false
     -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
-**Parent Topic:**[Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
+**Parent Topic:**[Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/import-sets-landing-page.md)
 

@@ -2,12 +2,12 @@
 title: CI deletion strategies for pattern discovery
 description: When you perform discovery with a pattern, you can choose what to do with configuration items \(CIs\) that are in the Configuration Management Database \(CMDB\) but Discovery can no longer find.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/deletion-strategy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/deletion-strategy.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -92,8 +92,8 @@ Marks the **Status** \[install\_status\] field of the configuration file CI reco
 </td></tr></tbody>
 </table>**Note:** Deletion strategies are not available for related entries, which are rules that are based on related CIs. For more information, see [Related entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_IdentificationRules.md#section_ftc_tg4_j1b).
 
--   **[Set a deletion strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-deletion-strategy.md)**  
+-   **[Set a deletion strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/set-deletion-strategy.md)**  
 Set a deletion strategy when you want to take action on a related configuration item \(CI\) that Discovery can no longer find through pattern discovery. You can delete the main CI only when it is an Application or Cloud Resource pattern type.
 
-**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

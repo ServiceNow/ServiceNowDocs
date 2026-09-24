@@ -2,7 +2,7 @@
 title: Configuring Agentic Contact Center for Banking
 description: Configure Agentic Contact Center for Banking by integrating your CCaaS provider, setting up AI-powered customer profile and contextual summarization, and enabling AI agents with knowledge graph tags and knowledge base articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configuring-agentic-contact-center-for-banking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configuring-agentic-contact-center-for-banking.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ Configure Agentic Contact Center for Banking by integrating your CCaaS provider,
 
 ## Configuration overview
 
--   [Install Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/install-agentic-contact-center-for-banking.md)
+-   [Install Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/install-agentic-contact-center-for-banking.md)
 
     Install the application.
 
@@ -31,25 +31,25 @@ Configure Agentic Contact Center for Banking by integrating your CCaaS provider,
 
     **Note:** The Wrap Up Completion skill is dependent on ServiceNow Otto for Customer Service Management \(CSM\).
 
--   [Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-ai-indexing-fso-contact-center.md)
+-   [Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-ai-indexing-fso-contact-center.md)
 
     Configure AI indexing for the sources that the AI skills and agents use to retrieve data and perform analysis.
 
--   [Configure the banking customer profile summarization AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-profile-summarization-fso.md)
+-   [Configure the banking customer profile summarization AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-customer-profile-summarization-fso.md)
 
     Review and configure the AI skill settings for customer profile summarization in the Customer 360 page.
 
--   [Configure the banking customer interaction context summary AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-contextual-summarization-fso.md)
+-   [Configure the banking customer interaction context summary AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-customer-contextual-summarization-fso.md)
 
     Review and configure the AI skill settings for the customer interaction context summary in the Interaction page.
 
     **Note:** This skill is dependent on the customer profile summarization AI skill.
 
--   [Activate AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-ai-agents.md)
+-   [Activate AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-fso-ai-agents.md)
 
     Enable agentic AI support in the Customer 360 and Interaction pages.
 
--   [Configure Knowledge Graph tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-ai-agents.md)
+-   [Configure Knowledge Graph tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-fso-ai-agents.md)
 
     Review and configure the knowledge graph tags for each customer type to define the data sources for your AI agents.
 
@@ -58,14 +58,14 @@ Configure Agentic Contact Center for Banking by integrating your CCaaS provider,
     If required, create knowledge base articles that define any business rules or knowledge you want the AI agents to use as source information.
 
 
--   **[Install Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/install-agentic-contact-center-for-banking.md)**  
+-   **[Install Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/install-agentic-contact-center-for-banking.md)**  
 If you have the admin role, you can install the Agentic Contact Center for Banking application \(app\_fso\_csr\).
--   **[Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-profile-summarization-fso.md)**  
+-   **[Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-customer-profile-summarization-fso.md)**  
 Configure the Customer Profile Summarization skill in ServiceNow Otto for FSO to enable AI-powered summaries of banking customer information in Agentic Contact Center for Banking.
--   **[Configure banking customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-contextual-summarization-fso.md)**  
+-   **[Configure banking customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-customer-contextual-summarization-fso.md)**  
 Configure the customer interaction context summary skill in ServiceNow Otto for FSO to enable AI-powered summaries when initiating a banking customer interaction in Agentic Contact Center for Banking.
--   **[Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-ai-indexing-fso-contact-center.md)**  
+-   **[Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-ai-indexing-fso-contact-center.md)**  
 Configure AI indexing to enable intelligent search capabilities across financial accounts, cases, and customer interactions in Agentic Contact Center for Banking.
 
-**Parent Topic:**[Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-banking-landing.md)
+**Parent Topic:**[Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/agentic-contact-center-for-banking-landing.md)
 

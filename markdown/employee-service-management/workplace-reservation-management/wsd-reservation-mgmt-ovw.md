@@ -2,7 +2,7 @@
 title: Explore Workplace Reservation Management
 description: Workplace Reservation Management provides one unified interface for employees to reserve desks, meeting rooms, parking spots, workplace equipments, services, and collaboration spaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/wsd-reservation-mgmt-ovw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/wsd-reservation-mgmt-ovw.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -94,7 +94,7 @@ Workplace Reservation Management allows workplace administrators and facility ma
 -   Enable multi-building reservation.
 -   Enable browse by neighborhood.
 
-For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 ## Smarter Integrations and Automation
 
@@ -106,7 +106,7 @@ Employees can create reservations using:
 
     When reservation conflicts arise \(such as two employees booking the same spac\), the system uses the proximity logic to automatically find the closest available alternative.
 
-    For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md).
+    For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md).
 
 
 ## Data-driven workplace optimization
@@ -127,11 +127,11 @@ As a Workplace Reservation Management manager, you can:
 -   Assign spaces to an area
 -   Assign spaces to a neighborhood
 
-For more information, see [Analytics and Reporting Solutions for Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/analytics-reporting-for-rsv-mgmt.md).
+For more information, see [Analytics and Reporting Solutions for Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/analytics-reporting-for-rsv-mgmt.md).
 
 ## Workplace Reservation Event planner
 
 The Workplace Reservation Event Planner enables you to track your organization's reservations from a single workspace in Workplace Central. The Event planner dashboard is available to both Reservation planner and Reservation viewer roles. As a reservation planner, manage the reservations on behalf of your employees. View reservation details, optimize reservations, and manage multiple workplace reservations using the schedule view.
 
-For more information, refer to [Event Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/event-planner.md).
+For more information, refer to [Event Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/event-planner.md).
 

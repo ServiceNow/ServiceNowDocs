@@ -2,7 +2,7 @@
 title: Update the product category or spend category in the ServiceNow Otto panel
 description: Use the ServiceNow Otto panel to update the product category or spend category for purchase requisitions, sourcing requests, or purchase orders directly from the Source-to-Pay Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/update-product-spend-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/update-product-spend-category.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -53,7 +53,7 @@ Role required: sn\_shop\_procurement\_specialist
 
 The product category or spend category for the selected purchase line is successfully updated.
 
-**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
+**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 **Related topics**  
 

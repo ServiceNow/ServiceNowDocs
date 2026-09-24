@@ -2,10 +2,10 @@
 title: Test a use case
 description: Test a use case with a sample document to verify how well it extracts and processes information. Upload a document from a record or your device, then review the test outputs before saving your results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-the-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-the-use-case.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Set up a use case, Information Extraction skill, Configure, Content Understanding, Enable AI experiences]
 ---
@@ -69,6 +69,6 @@ Upload from this device
 
 ## What to do next
 
-1.  [Add integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-integration.md)
-2.  [Review and activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-and-activate.md)
+1.  [Add integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-integration.md)
+2.  [Review and activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-and-activate.md)
 

@@ -2,7 +2,7 @@
 title: Submit an incident for a stack
 description: Submit an incident for a stack when it is not working as expected or you have questions. When the user responds or solves the issue, the incident is closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloudmgt-submit-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/cloudmgt-submit-incident.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

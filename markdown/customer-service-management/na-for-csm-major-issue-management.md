@@ -2,7 +2,7 @@
 title: Now Assist for CSM Major Issue Management
 description: As a Major Case Manager, you can review and approve or reject a proposed major case when a high-priority case is created with no parent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/na-for-csm-major-issue-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/na-for-csm-major-issue-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-02"
@@ -23,7 +23,7 @@ Once the workflow is activated, it triggers automatically when a case meets both
 -   Priority is **P1** or **P2**
 -   The case has **no parent case**
 
-**Note:** You can configure the similarity thresholds and other detection parameters. For more information see [Configure ServiceNow Otto for CSM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-na-for-csm-major-issue-management.md).
+**Note:** You can configure the similarity thresholds and other detection parameters. For more information see [Configure ServiceNow Otto for CSM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-na-for-csm-major-issue-management.md).
 
 ## How the workflow runs
 

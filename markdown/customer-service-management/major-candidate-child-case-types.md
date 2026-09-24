@@ -2,7 +2,7 @@
 title: Major, candidate, and child cases
 description: Major issue management uses major case candidates to identify potential issues that impact multiple customers. Managers approve candidate cases for promotion to major cases, which you use to manage issue resolution. The system creates child cases for impacted customers and links them to the corresponding major case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/major-candidate-child-case-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/major-candidate-child-case-types.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-22"
@@ -20,7 +20,7 @@ A major case contains information about a specific issue that affects multiple c
 
 The recipients list associated with the major case identifies customers impacted by the issue. Select a list in the **Affected Customers** field in the Major Case Information form section of the Major Case form. After adding the list, you can automatically create child cases for all customers on the list. These cases are added to the **Child Cases** related list on the Major Case form.
 
-With [synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-candidate-child-case-types.md) enabled, updates to the parent major case are automatically synchronized to the associated child cases. When the major case is closed, the system also closes associated child cases in the following states: New, Open, Awaiting Customer Info.
+With [synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/major-candidate-child-case-types.md) enabled, updates to the parent major case are automatically synchronized to the associated child cases. When the major case is closed, the system also closes associated child cases in the following states: New, Open, Awaiting Customer Info.
 
 When the `enable_case_type_for_major_case` property is set to `true`, the system uses the `sys_class_name` of the candidate case to determine the case type of the resulting major case and its child cases, rather than defaulting to the base Case table.
 

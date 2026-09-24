@@ -2,7 +2,7 @@
 title: Activate Advanced Appointment Booking
 description: You can activate the Advanced Appointment Booking plugin \(com.snc.advanced\_appointment\_booking\) for Field Service Management if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/activate-adv-appt-booking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/activate-adv-appt-booking.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -35,7 +35,7 @@ The following items are installed with Advanced Appointment Booking:
 -   Plugins
 -   Tables
 
-For more information, see [Advanced appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/adv-appt-booking-components.md).
+For more information, see [Advanced appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/adv-appt-booking-components.md).
 
 ## Procedure
 

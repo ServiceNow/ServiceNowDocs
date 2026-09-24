@@ -2,7 +2,7 @@
 title: Import application or application-customization from source control
 description: Import an app or app customization from a source control repository into App Engine Studio \(AES\) to continue developing it on this instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-import.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/source-control-import.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -22,7 +22,7 @@ Import an app or app customization from a source control repository into App Eng
 -   Verify that the non-production instance has network access to the Git repository.
 -   Verify that the repository contains a valid application.
 -   Ensure that users add the email address to their respective Users table \[sys\_user\] record that they use in their commits to the Git repository.
--   Learn more about application-customizations [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
+-   Learn more about application-customizations [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
 
 ## About this task
 
@@ -115,7 +115,7 @@ Select the credential for your Git repository. For more information, see [Gettin
 -   Review the upgrade logs for any sanitization applied to application files during the import.
 -   Select the imported application to edit it.
 
-**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-use.md)
+**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-source-control-use.md)
 
 **Related topics**  
 

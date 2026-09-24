@@ -2,7 +2,7 @@
 title: Use the Resize component
 description: Resize an image by specifying the dimensions as part of an automation Workflow by using the Resize component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-imageutil-resize.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-imageutil-resize.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Resize component. For more information about these properties, see [Properties of the Image Utilities components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-imageutil-prop.md).
+You can configure the properties for the Resize component. For more information about these properties, see [Properties of the Image Utilities components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-imageutil-prop.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the Resize component. For more information 
 
 2.  Drag the Resize component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Resize component to the corresponding ports of the other components as described in the following table.
 
@@ -120,5 +120,5 @@ No. Connecting the port is optional.
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Image Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/image-utilities.md)
+**Parent Topic:**[Image Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/image-utilities.md)
 

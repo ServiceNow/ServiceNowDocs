@@ -2,7 +2,7 @@
 title: Encrypt or decrypt MID Server configuration file values
 description: The value of any MID Server parameter in the config.xml file can be encrypted. The attributes for all encrypted values are managed from within the configuration file, including the security attribute of the login password.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-manual-encryption.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-server-manual-encryption.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -66,7 +66,7 @@ Role required: admin
     4.  Restart the MID Server.
 
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 

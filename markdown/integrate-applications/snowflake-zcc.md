@@ -2,7 +2,7 @@
 title: Snowflake
 description: The Snowflake connector provides read-only access to data and metadata from an external Snowflake account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/snowflake-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/snowflake-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
 
 The Snowflake connector provides read-only access to data and metadata from an external Snowflake account.
 
-A connection admin can set up a connection to Snowflake in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Snowflake. This allows users to access Snowflake data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+A connection admin can set up a connection to Snowflake in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Snowflake. This allows users to access Snowflake data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md).
 
 When you configure the connection with an access token, you can choose whether the connection authenticates using a shared, system-level OAuth entity profile or personal authentication. With personal authentication, each user signs in with their own credentials, and access to Snowflake data is authenticated and audited individually rather than attributed to a shared account.
 
@@ -61,5 +61,5 @@ The following table lists supported Snowflake data types and the default matchin
 **Related topics**  
 
 
-[Create a Snowflake connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-snowflake-connection-zcc.md)
+[Create a Snowflake connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-snowflake-connection-zcc.md)
 

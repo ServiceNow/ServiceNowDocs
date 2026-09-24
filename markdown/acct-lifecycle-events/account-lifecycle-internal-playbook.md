@@ -2,7 +2,7 @@
 title: Internal play
 description: Create an internal play to define planned or unplanned activities that you don't want to include the customer in during an engagement lifecycle. An internal play can contain one or more play tasks with predefined activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-internal-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-internal-playbook.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,5 +20,5 @@ The internal play consists of three stages:
 -   Define the Action Plan: Specify the steps and tasks for this internal play.
 -   Review &amp; Close: Review and close the playbook when all the internal play tasks have been completed.
 
-For instructions on how to create the internal play playbook, see [Create an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md).
+For instructions on how to create the internal play playbook, see [Create an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md).
 

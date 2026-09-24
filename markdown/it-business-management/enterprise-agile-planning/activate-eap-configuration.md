@@ -2,7 +2,7 @@
 title: Activate an EAP configuration
 description: Activate a new or existing configuration in Enterprise Agile Planning \(EAP\) so that your users can start planning work for their teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/activate-eap-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/activate-eap-configuration.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -39,5 +39,5 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 ## What to do next
 
-Add teams to your configuration. See [Define agile structure in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/define-agile-structure-in-eap.md).
+Add teams to your configuration. See [Define agile structure in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/define-agile-structure-in-eap.md).
 

@@ -2,7 +2,7 @@
 title: Knowledge article templates
 description: Article templates have pre-defined fields structured in a specific order. These templates help create a consistent structure for knowledge articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-article-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/knowledge-article-templates.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -143,7 +143,7 @@ Text
 </td></tr></tbody>
 </table>## Activating knowledge article templates
 
-The Knowledge Article Templates feature is activated with the Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. After the feature is activated, when creating an article, option to choose a template for the article appears. For details, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
+The Knowledge Article Templates feature is activated with the Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. After the feature is activated, when creating an article, option to choose a template for the article appears. For details, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
 
 ## Deactivating knowledge article templates
 
@@ -151,10 +151,10 @@ You cannot delete an article template because article templates have an associat
 
 **Note:** The Standard template is available by default and can’t be made inactive.
 
-**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
+**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-management.md)
 
 **Related topics**  
 
 
-[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
+[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
 

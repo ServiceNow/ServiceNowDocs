@@ -2,7 +2,7 @@
 title: Request furniture for a space
 description: Order furniture or equipment for your workplace or for any event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/request-furniture.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/request-furniture.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -66,7 +66,7 @@ Find a space on a floor map
 
 </td><td>
 
-Option to select a space directly on the floor map.If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
+Option to select a space directly on the floor map.If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ The furniture request is submitted.
 
 The state of the request changes to Awaiting approval for approval by the respective manager. After the request is approved, the state of the request changes to Work in progress. Depending on the progress of the background tasks that are assigned to fulfill the request, the state of the request further changes.
 
-**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

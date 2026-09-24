@@ -2,7 +2,7 @@
 title: Add the data broker to your workspace page
 description: Add the data resources to your page in the UI Builder to dynamically expose data from tables, records, or other elements on your page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-add-databroker-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-add-databroker-workspace.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -49,5 +49,5 @@ Role required: ui\_builder\_admin
 9.  Select **Save** on the UI Builder header.
 
 
-**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
+**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
 

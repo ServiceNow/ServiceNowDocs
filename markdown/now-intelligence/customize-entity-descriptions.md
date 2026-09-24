@@ -2,7 +2,7 @@
 title: Customize entity descriptions for the semantic layer
 description: Create custom entity descriptions in the Semantic Table Configuration table so that customizations can be transferred between instances via update sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/customize-entity-descriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/customize-entity-descriptions.html
 release: australia
 topic_type: task
 last_updated: "2026-04-17"
@@ -33,7 +33,7 @@ This procedure uses the Semantic Table Configuration table. Customizations made 
 
 2.  Open the record for your table, or create a record if one does not exist.
 
-    If creating a new record, set **Table Name** to your table name and **Enable Semantic Generation** to selected. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
+    If creating a new record, set **Table Name** to your table name and **Enable Semantic Generation** to selected. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-table-semantic-layer.md).
 
 3.  In the **Entity Semantic Description** field, enter your custom description.
 
@@ -93,5 +93,5 @@ Base inventory table for all AI-related digital assets within the AI Control Tow
 
 Test your custom description by asking questions about the table in Query Generation and verifying that the correct table is selected.
 
-**Parent Topic:**[Customizing semantic metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-semantic-metadata.md)
+**Parent Topic:**[Customizing semantic metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/customize-semantic-metadata.md)
 

@@ -2,7 +2,7 @@
 title: Using Employee feedback collection AI agent
 description: As a manager, use the Employee feedback collection AI agent to collect feedback and track feedback requests. This agent recommends collaborators from Employee Profile, Growth Experiences apps, journeys from Employee Journey Management, and also suggests frequent collaborators from Microsoft Graph.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/employee-feedback-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-feedback/employee-feedback-agent.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

@@ -2,7 +2,7 @@
 title: Edit a catalog item in Catalog Builder
 description: Make changes to an existing catalog item if you have permissions to edit the item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/edit-cat-item-cat-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/edit-cat-item-cat-builder.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -40,7 +40,7 @@ After you edit the item and submit it, the following scenarios are possible:
         -   The reviewed draft item and the associated records are deleted.
     -   If the **state** variable of the subflow output returns **Failed**, the state of the draft item is reverted to **Draft**, and the item is ready for editing.
 
-For information about configuring a review subflow, see [Setting up the Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/set-up-cat-builder.md).
+For information about configuring a review subflow, see [Setting up the Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/set-up-cat-builder.md).
 
 ## Procedure
 
@@ -60,30 +60,30 @@ For information about configuring a review subflow, see [Setting up the Catalog 
 
 4.  Make the required changes and select **Save**.
 
-    For information on editing a question and catalog item fields, see [Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-question-cat-builder.md) and [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md).
+    For information on editing a question and catalog item fields, see [Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/edit-question-cat-builder.md) and [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-item-cat-builder.md).
 
 5.  To make an item inactive, clear the **Item is active** check box in the **Basic info** section of the **Details** step.
 
 6.  To publish the modified item, navigate to the **Review and submit** step and select **Submit**.
 
 
--   **[Add advanced capabilities to a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/add-advanced-capabilities.md)**  
+-   **[Add advanced capabilities to a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/add-advanced-capabilities.md)**  
 Add advanced capabilities, such as catalog client scripts, data lookup rules, and advanced reference qualifiers to a catalog item.
--   **[Create UI policies in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-ui-policies-in-catalog-builder.md)**  
+-   **[Create UI policies in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-ui-policies-in-catalog-builder.md)**  
 Configure catalog UI policies with scripts and multiple catalog UI policy actions in Catalog Builder to facilitate the creation of complex catalog items.
--   **[UI policy form in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/ui-policy-form-in-catalog-builder.md)**  
+-   **[UI policy form in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/ui-policy-form-in-catalog-builder.md)**  
 Refer to the fields and their descriptions on the UI Policy form in Catalog Builder.
--   **[Create client script in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-client-scripts-in-catalog-builder.md)**  
+-   **[Create client script in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-client-scripts-in-catalog-builder.md)**  
 You can create client scripts to customize the catalog item, such as to control the behavior of the catalog items after they're published.
--   **[Catalog client script form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/client-script-form.md)**  
+-   **[Catalog client script form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/client-script-form.md)**  
 Use client-side scripts to define dynamic behavior or validations on this catalog item.
--   **[Discard a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/discard-a-catalog-item.md)**  
+-   **[Discard a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/discard-a-catalog-item.md)**  
 Discard a catalog item that’s in the Draft state in Catalog Builder.
 
-**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
+**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
 
 **Related topics**  
 
 
-[View the conversational catalog overview dashboard using Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)
+[View the conversational catalog overview dashboard using Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)
 

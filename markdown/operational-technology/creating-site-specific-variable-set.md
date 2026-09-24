@@ -2,7 +2,7 @@
 title: Create a Site-specific Variable set
 description: Create a Site-specific Variable for use in Auto Queries. You can use the Variable as a credential for your Site.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/creating-site-specific-variable-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/creating-site-specific-variable-set.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,11 +26,11 @@ Role required: admin
 
 1.  Navigate to the Variable page in the Console.
 
-2.  Create a Variable as described in [Create a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-variable-set.md).
+2.  Create a Variable as described in [Create a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/create-variable-set.md).
 
 3.  Select a Site to associate with the Variable.
 
-4.  Create an Auto Query as described in [Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-auto-query-console.md).
+4.  Create an Auto Query as described in [Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/add-auto-query-console.md).
 
 5.  In the Filter section of the query, select the Sites filter.
 
@@ -45,5 +45,5 @@ Role required: admin
 
 Your Site is associated with the Variable and then queried.
 
-**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sites-page.md)
+**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sites-page.md)
 

@@ -2,7 +2,7 @@
 title: ServiceNow Quote Experience use case: Display LIG line number on line detail
 description: How to display the line item group line number in the line detail.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-use-case-display-lig-line-number-on-line-detail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/transaction-manager-use-case-display-lig-line-number-on-line-detail.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ To display the line number in the line detail view, follow the steps below. This
     \[Omitted image "cpq-txn-mgr-use-case-display-line-number-2.png"\] Alt text: Line detail screen
 
 
-**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-cases.md)
+**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/transaction-manager-use-cases.md)
 

@@ -2,7 +2,7 @@
 title: MID Server capabilities
 description: MID Server capabilities define the specific functions of a MID Server within an IP address range.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/mid-server-capabilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/mid-server-capabilities.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -53,5 +53,5 @@ To view the script for evaluating this capability, navigate to **MID Server** &g
 -   **[Configure MID Server capabilities]()**  
 MID Server capabilities define the specific functions of a MID Server within an IP address range, allowing an application to select the most appropriate MID Server. Configure capabilities on MID Servers for applications like Orchestration, , and .
 
-**Parent Topic:**[MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationMID.md)
+**Parent Topic:**[MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationMID.md)
 

@@ -2,7 +2,7 @@
 title: Upload a manually signed contract document
 description: Upload the wet signed contract document you have received from the signatories. You need to upload a contract document for a wet signature workflow or if one of the signatories in the electronic workflow decides to do a wet signature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-upload-doc-wet-sign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-upload-doc-wet-sign.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -75,5 +75,5 @@ For Non-disclosure agreement legal requests, the state of the request updates to
 
 For Third-party contract review requests, the state of the request and the contract status updates to **Contract signed**. To close the contract request, select **Close complete**.
 
-**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 

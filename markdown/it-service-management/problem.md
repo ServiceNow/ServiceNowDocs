@@ -2,7 +2,7 @@
 title: Problem dashboard
 description: Dashboard providing a view into Problem Management related metrics for Open and Closed Problem records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

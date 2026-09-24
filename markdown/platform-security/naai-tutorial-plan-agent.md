@@ -2,7 +2,7 @@
 title: Plan your agent
 description: Define your use case, decide between an base system and custom agent, choose an activation model, and set your success criteria before you begin building.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-tutorial-plan-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-tutorial-plan-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -59,7 +59,7 @@ Define how you will measure whether the agent is working before you build it. Th
 
 ## Next step
 
-When your use case is defined, your agent type and activation model are chosen, and your success criteria are documented, proceed to [Build your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-build-agent.md).
+When your use case is defined, your agent type and activation model are chosen, and your success criteria are documented, proceed to [Build your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-build-agent.md).
 
-**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-overview.md)
+**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-overview.md)
 

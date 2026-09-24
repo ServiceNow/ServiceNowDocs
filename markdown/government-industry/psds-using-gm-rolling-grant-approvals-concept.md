@@ -2,7 +2,7 @@
 title: Use Rolling grant approvals
 description: Rolling grant approvals enhance the Grants Management funding workflow. You can propose awards and declines for any scored subset of applications at any time, without waiting for the entire proposal portfolio to complete review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gm-rolling-grant-approvals-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-gm-rolling-grant-approvals-concept.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-08"
@@ -67,7 +67,7 @@ The **Scored Proposals** list on the **Funding Allocation** tab includes a row o
 
 **Note:**
 
-Admins can add, remove, relabel, reorder chart widgets and filter pills, or create custom ones in the **Spending Overview** panel. The two built-in charts can be hidden or relabeled but not deleted from the system. For more information, see [Configure the Spending Overview Widget and Filter pills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-config-spending-overview-widget.md).
+Admins can add, remove, relabel, reorder chart widgets and filter pills, or create custom ones in the **Spending Overview** panel. The two built-in charts can be hidden or relabeled but not deleted from the system. For more information, see [Configure the Spending Overview Widget and Filter pills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gm-config-spending-overview-widget.md).
 
 ## Data model
 
@@ -82,17 +82,17 @@ The existing **Grants Management Case** record gains new fields starting with Gr
 **Related topics**  
 
 
-[Mark proposals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-rolling-grants-mark-proposals-task.md)
+[Mark proposals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-rolling-grants-mark-proposals-task.md)
 
-[Submit a Funding Allocation Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-rolling-grants-submit-fr-task.md)
+[Submit a Funding Allocation Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-rolling-grants-submit-fr-task.md)
 
-[Review and Approve a Funding Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-review-fr-task.md)
+[Review and Approve a Funding Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gm-review-fr-task.md)
 
-[Release result notices to applicants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-release-result-notices-task.md)
+[Release result notices to applicants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gm-release-result-notices-task.md)
 
-[Grant Proposal funding statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-proposal-funding-status-ref.md)
+[Grant Proposal funding statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gm-proposal-funding-status-ref.md)
 
-[Configure the Spending Overview Widget and Filter pills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-config-spending-overview-widget.md)
+[Configure the Spending Overview Widget and Filter pills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gm-config-spending-overview-widget.md)
 
-[Grants Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-gm.md)
+[Grants Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-data-model-gm.md)
 

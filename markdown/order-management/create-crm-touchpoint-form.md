@@ -2,7 +2,7 @@
 title: Create new CRM touchpoint form
 description: Field descriptions for the Create New CRM Touchpoint form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-crm-touchpoint-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-crm-touchpoint-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -176,10 +176,10 @@ Internal notes visible only to the touchpoint owner and team members with approp
 </td></tr></tbody>
 </table>**Note:** The Account and Contact fields become read-only after you save the CRM Touchpoints.
 
-**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)
+**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activity-management-reference.md)
 
 **Related topics**  
 
 
-[Create a CRM touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-touchpoint.md)
+[Create a CRM touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-crm-touchpoint.md)
 

@@ -2,7 +2,7 @@
 title: Field of use for AI Skill Kit
 description: AI Skill Kit is included in various ServiceNow Otto packages that cover a given customers’ ability to build ServiceNow Otto skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/nask-field-of-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/nask-field-of-use.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -24,5 +24,5 @@ The following table is provided to help clarify questions regarding how such cus
 |Non-duplicative|Refer to the [Now Assist Overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/sn-assist-overview.pdf) to see the pre-built skills that are currently available exist for purchase in ServiceNow Otto packages. Customers must build from the purchased skills instead of attempting to create duplicative versions of licensable ServiceNow skills without purchase.|
 |Leveraging custom tables|Custom skills can be built using AI Skill Kit to enable generative AI functionality on the custom tables that are provided in a customer’s licenses.|
 
-**Parent Topic:**[AI Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
+**Parent Topic:**[AI Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
 

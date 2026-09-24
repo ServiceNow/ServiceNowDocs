@@ -2,7 +2,7 @@
 title: Evaluate the performance of a portal page
 description: Evaluate how the widgets on a page perform against performance benchmarks that you specify.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/analyze-page-performance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/analyze-page-performance.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -101,5 +101,5 @@ Any widgets on the page that exceed the specified benchmarks are highlighted on 
 
 Consider updating any widgets that don’t meet your performance benchmarks to improve the page performance. For example, if a widget's server script takes too long to load, evaluate if the script can be improved to load faster.
 
-**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/using-portal-analytics.md)
+**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/using-portal-analytics.md)
 

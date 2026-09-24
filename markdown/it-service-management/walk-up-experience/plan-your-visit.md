@@ -2,7 +2,7 @@
 title: Plan your walk-up experience visit with Employee Center
 description: Schedule a single or multiple appointments to visit the walk-up lounge or the support lounge Walk-up Experience Employee Center. You can also get remote help.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/plan-your-visit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/plan-your-visit.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience

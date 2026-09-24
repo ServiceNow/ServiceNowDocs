@@ -2,7 +2,7 @@
 title: Recalculate emission factor
 description: When an emission factor value is updated, you can recalculate the emission factor to initiate the system to automatically recalculate the data for all linked calculated metric definitions \(CMD\), using the new value for dates within the emission factor's validity period. This ensures that metrics data remains consistent and accurate, reflecting the latest changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/recalculate-emission-factor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/recalculate-emission-factor.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Role required: sn\_esg.program\_manager, sn\_esg.admin
     -   CMDs are automatically re-executed every 24 hours, updating emission factor values for all linked definitions.
     -   For immediate updates, you can manually execute a CMD by opening it and execute it.
 
-**Parent Topic:**[Create an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-emission-factor.md)
+**Parent Topic:**[Create an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-emission-factor.md)
 

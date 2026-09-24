@@ -2,7 +2,7 @@
 title: Create an internal lifecycle in the Hardware Asset Workspace
 description: Create a custom \(internal\) lifecycle to explicitly specify lifecycle dates for a selected hardware or consumable model in the Hardware Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-internal-lifecycle-hardware-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-internal-lifecycle-hardware-models.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -68,7 +68,7 @@ The Create New Consumable Model Lifecycle form is displayed.
 </td></tr></tbody>
 </table>3.  On the form, fill in the fields.
 
-    For field descriptions, see [Model lifecycle form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/model-lifecycle-fields.md).
+    For field descriptions, see [Model lifecycle form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/model-lifecycle-fields.md).
 
 4.  Select **Save**.
 
@@ -77,7 +77,7 @@ The Create New Consumable Model Lifecycle form is displayed.
 
 The custom lifecycle record is created and listed in the Hardware Model Lifecycle or Consumable Model Lifecycle related list. The **Source** field is automatically set to **Internal**.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
@@ -150,9 +150,9 @@ The custom lifecycle record is created and listed in the Hardware Model Lifecycl
 
 [Update associated Decision tables for HAM flows]()
 
-[Model lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/model-lifecycle-fields.md)
+[Model lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/model-lifecycle-fields.md)
 
-[Hardware model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-model-fields.md)
+[Hardware model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/hardware-model-fields.md)
 
-[Consumable model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/consumable-model-fields.md)
+[Consumable model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/consumable-model-fields.md)
 

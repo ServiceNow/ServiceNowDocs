@@ -2,7 +2,7 @@
 title: Install SPM Enterprise-Wide Deployment
 description: You can install the SPM Enterprise-Wide Deployment application \(sn\_spm\_ewd\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/install-ewd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/install-ewd.html
 release: australia
 topic_type: task
 last_updated: "2026-05-09"
@@ -36,7 +36,7 @@ The following items are installed with Enterprise-Wide Deployment:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/components-installed-with-ewd.md).
+For more information, see [Components installed with Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/components-installed-with-ewd.md).
 
 ## Procedure
 

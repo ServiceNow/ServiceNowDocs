@@ -2,7 +2,7 @@
 title: Manage RMA requests
 description: Initiate a Return Merchandise Authorization \(RMA\) process by submitting an RMA request to initiate an RMA process with your vendor. You can repair or replace a faulty asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/manage-rma-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/manage-rma-req.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -20,12 +20,12 @@ After you submit an RMA request for a defective asset, you must go through vario
 
 To close an RMA request, you have to close each of its request lines separately. To close a line, you have to complete all the line's RMA tasks, and you must provide any necessary information about the line. You close a line by first closing its Assessment task. Then the defective asset is sent for either off-site or on-site repair. The line is closed after all these tasks are finished.
 
--   **[Submit an RMA request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/submit-rma-request.md)**  
+-   **[Submit an RMA request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/submit-rma-request.md)**  
 Submit a Return Merchandise Authorization \(RMA\) request to initiate an RMA process with your vendor. You can repair or replace a faulty asset.
--   **[Closing an RMA request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/closing-rma-request.md)**  
+-   **[Closing an RMA request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/closing-rma-request.md)**  
 After you submit an RMA request for a defective asset, you must go through various tasks to finalize repairing or replacing the asset.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a job to sign specific records or attachments on a trusted instance
 description: Sign a specific record, or group of records you define on a trusted instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/sign-files-nonprod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/sign-files-nonprod.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure Service Portal Approval Configuration record
 description: Configure the Service Portal Approval Configuration record to make the Approval assistance AI agent and Approval Info Record widget work better for your specific use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-approval-assistance-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/configure-approval-assistance-ai-agent.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -26,7 +26,7 @@ The Approval Configuration record controls two aspects of the approval experienc
 
 -   **Display experience**
 
-    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md) and [Approval Info Record widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/approval-info-record-widget.md).
+    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md) and [Approval Info Record widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/approval-info-record-widget.md).
 
 -   **AI behavior**
 
@@ -184,5 +184,5 @@ Configure fields and AI behavior for a table that goes through the approval work
 11. Select **Update**.
 
 
-**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configuring-service-portal.md)
+**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configuring-service-portal.md)
 

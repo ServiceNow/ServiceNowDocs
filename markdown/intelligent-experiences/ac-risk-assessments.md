@@ -2,7 +2,7 @@
 title: Risk assessments
 description: Complete a risk assessment that AI Control Tower generates automatically for a managed AI asset, evaluating its inherent, control, and residual risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-risk-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-risk-assessments.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-17"
@@ -15,7 +15,7 @@ breadcrumb: [Managing tasks and approvals, Address action items, AI Control Towe
 
 Complete a risk assessment that AI Control Tower generates automatically for a managed AI asset, evaluating its inherent, control, and residual risk.
 
-Unlike a case, an issue, or a policy exception, you don't create a risk assessment. AI Control Tower generates a risk assessment automatically and assigns it to the asset's steward or owner to complete. For more information about how risk is assessed across your AI portfolio, see [AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-risk-posture.md).
+Unlike a case, an issue, or a policy exception, you don't create a risk assessment. AI Control Tower generates a risk assessment automatically and assigns it to the asset's steward or owner to complete. For more information about how risk is assessed across your AI portfolio, see [AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-risk-posture.md).
 
 ## How risk assessments are generated
 

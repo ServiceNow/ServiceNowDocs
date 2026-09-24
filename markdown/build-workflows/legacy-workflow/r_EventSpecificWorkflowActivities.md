@@ -2,7 +2,7 @@
 title: Event-specific workflow activities
 description: The following workflow activities trigger events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/r\_EventSpecificWorkflowActivities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/r\_EventSpecificWorkflowActivities.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -85,7 +85,7 @@ On the notification thread, outside of workflow
 
 </td><td>
 
-Listens for workflow events, as described in the [Workflow Events in the Base System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md) table, and only within the current context. This activity is located in the **Conditions** category of the workflow tree.
+Listens for workflow events, as described in the [Workflow Events in the Base System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md) table, and only within the current context. This activity is located in the **Conditions** category of the workflow tree.
 
 </td><td>
 
@@ -108,5 +108,5 @@ Triggered in the current thread or from a script include
 The onUnhandledEvent of the **Wait for WF Event** activity
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)
+</table>**Parent Topic:**[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)
 

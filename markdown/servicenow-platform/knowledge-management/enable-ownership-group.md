@@ -2,7 +2,7 @@
 title: Ownership groups
 description: Configure ownership groups and associate them with knowledge articles to maintain article quality, manage approvals, and for timely resolution of feedback.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/enable-ownership-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/enable-ownership-group.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -23,7 +23,7 @@ When a knowledge article is assigned to an ownership group:
 -   Only ownership group members have contribute access to the article even if they don't have contribute access to the knowledge base of the article. They can edit, approve, publish, and retire the knowledge article with which they are associated.
 -   Users who aren't a member of the ownership group and not an author or editor can't contribute to the article even if they have **contribute** access to the knowledge base of the article.
 
-When [Create a knowledge article from an incident in ITSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md) or [editing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md) a knowledge article, you may need to configure the Knowledge form to add the **Ownership Group** field.
+When [Create a knowledge article from an incident in ITSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-knowledge-article.md) or [editing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-knowledge-article.md) a knowledge article, you may need to configure the Knowledge form to add the **Ownership Group** field.
 
 ## Activation information
 
@@ -42,7 +42,7 @@ With an ownership group associated with a knowledge article, ownership group mem
 **Related topics**  
 
 
-[Manage ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-edit-ownership-group.md)
+[Manage ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-edit-ownership-group.md)
 
-[Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 

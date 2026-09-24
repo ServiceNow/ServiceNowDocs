@@ -2,7 +2,7 @@
 title: Identify mitigation strategies for purchase order exceptions
 description: The Define PO exception mitigation strategy workflow assesses the material delivery gap caused by an exception. It then identifies alternative suppliers with open lines for the affected product model and proposes order adjustments to mitigate the shortfall.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/identify-mitigation-strategies-for-exceptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/identify-mitigation-strategies-for-exceptions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ Users must be assigned this role alongside the Operational Buyer role to use thi
 3.  Use any of the following steps:
 
     -   Select the **Otto** button on any of the purchase order exception cards.
-    -   [View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-purch-order-exception.md). Select the **Otto** button on the exception record.
+    -   [View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/view-purch-order-exception.md). Select the **Otto** button on the exception record.
     The ServiceNow Otto panel opens and the agentic workflow begins analyzing the exception and building a mitigation strategy by:
 
     -   Outlining the material delivery gap caused by the exception.
@@ -42,5 +42,5 @@ Users must be assigned this role alongside the Operational Buyer role to use thi
 
 The agentic workflow then creates the appropriate order revision \(a purchase requisition of type Order Revision\) reflecting the approved changes.
 
-**Parent Topic:**[Identify and execute mitigation strategies for PO exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/mitigation-strategies-for-po-exceptions.md)
+**Parent Topic:**[Identify and execute mitigation strategies for PO exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/mitigation-strategies-for-po-exceptions.md)
 

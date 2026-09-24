@@ -2,7 +2,7 @@
 title: Hermes Messaging Service roles
 description: Hermes Messaging Service is installed with these roles.Enables users to view topics and namespaces in HermesEnables users to access the Hermes Messaging Service Topic Inspector.Enables users to manage the integration with Apache Kafka, including topics and settings related to Kafka subscriptions.Enables users to manage Kafka namespace definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-roles.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -18,7 +18,7 @@ Hermes Messaging Service is installed with these roles.
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Hermes Messaging Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-reference.md)
+**Parent Topic:**[Hermes Messaging Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-reference.md)
 
 **Related topics**  
 

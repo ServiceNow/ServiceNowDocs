@@ -2,7 +2,7 @@
 title: Create a number group
 description: Group Notify phone numbers and share workflows across grouped numbers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_CreateANumberGroup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/t\_CreateANumberGroup.html
 release: australia
 product: Notify
 classification: notify
@@ -98,7 +98,7 @@ Workflow to run when there is an outgoing SMS message for this group.**Note:** T
 
 ## What to do next
 
-[Associate a number to a number group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_AssignANumberGroup.md)
+[Associate a number to a number group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_AssignANumberGroup.md)
 
 After creating a number group, associate numbers with that group to use the selected workflows.
 
@@ -106,5 +106,5 @@ After creating a number group, associate numbers with that group to use the sele
 
 You can create multiple number groups and configure with different Twilio numbers. You can then the associate the number groups with the various workflows based on your requirement.
 
-**Parent Topic:**[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NumberGroups.md)
+**Parent Topic:**[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NumberGroups.md)
 

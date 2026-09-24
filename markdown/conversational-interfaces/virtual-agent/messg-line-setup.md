@@ -2,7 +2,7 @@
 title: Set up Conversational Integration with LINE
 description: Set up the Conversational Integration with LINE application so that you can engage customers in conversations with bots.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-line-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/messg-line-setup.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

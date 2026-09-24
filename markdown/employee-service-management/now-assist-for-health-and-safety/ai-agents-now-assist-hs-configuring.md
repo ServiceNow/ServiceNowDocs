@@ -2,7 +2,7 @@
 title: Configure AI agents for Health and Safety
 description: Learn how to configure AI agents to execute agentic workflows with AI agents and mapped tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-configuring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-configuring.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -20,8 +20,8 @@ Learn how to configure AI agents to execute agentic workflows with AI agents and
 -   To learn about reducing the exposure of harmful content on your agentic workflow, see [Enable AI Guardian for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-aia-na-guardian.md).
 -   To choose the large language model \(LLM\) service provider for AI agents in AI Agent Studio, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
--   **[Install AI agents for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-install.md)**  
+-   **[Install AI agents for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-install.md)**  
 Install AI agents on your ServiceNow instance to enable the agentic AI experience.
 
-**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 

@@ -2,7 +2,7 @@
 title: ITSM Virtual Agent pre-built LLM topics
 description: ITSM Virtual Agent includes pre-built Large Language Model \(LLM\) topic conversations designed to help your users complete the common IT-related tasks such as checking and resetting a password.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/itsm-va-prebuilt-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/itsm-va-prebuilt-topics.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -20,7 +20,7 @@ LLMs are used to identify and trigger the action that a user wants to perform.
 
 ITSM Virtual Agent pre-built LLM topics are read only and have **\(Template\)** as the suffix in their name. To use them, duplicate the topic in the ITSM Virtual Agent conversation scope and rename it according to your company naming conventions.
 
-For ITSM Virtual Agent pre-built Natural Language Understanding \(NLU\) topics, see [Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md).
+For ITSM Virtual Agent pre-built Natural Language Understanding \(NLU\) topics, see [Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/using-itsm-va.md).
 
 **Note:** All demo topics will be available with the demo data.
 
@@ -60,7 +60,7 @@ Check your device's health using Digital End-User Experience \(DEX\)
 
 </td><td>
 
-Use the ServiceNow Otto in Virtual Agent for ITSM to monitor your device's performance and diagnose potential issues. See [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md) for more information.**Important:** You must install DEX to perform this action. See [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) for more information.
+Use the ServiceNow Otto in Virtual Agent for ITSM to monitor your device's performance and diagnose potential issues. See [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md) for more information.**Important:** You must install DEX to perform this action. See [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) for more information.
 
 </td></tr><tr><td>
 
@@ -174,7 +174,7 @@ For more information, see [Configure your Password Reset process](https://raw.gi
 
 ITSM Virtual Agent includes pre-built actionable notifications used to send interactive messages to a user based on pending tasks or alerts, such as RITM and request notifications, task approval notifications, and incident notifications.
 
-**Note:** You must activate notifications in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
+**Note:** You must activate notifications in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 <table id="table_x5c_n1w_bdc"><thead><tr><th>
 

@@ -2,7 +2,7 @@
 title: ISA-95 equipment model
 description: The ISA-95 equipment model is an industry standard that represents an industrial facility and the production equipment in it. Describe the equipment model entities in your facilities by defining an equipment model template with different levels and level types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/isa-95-equipment-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/isa-95-equipment-model.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -20,11 +20,11 @@ With this template, you can:
 
 -   Map your equipment model entities. With this map, you create a hierarchical structure.
 -   Create multiple equipment models for multiple industrial sites.
--   Assign users to each site so that you can manage their access to the equipment model information for specific sites. For example, you can designate that users in Atlanta can access only the Atlanta site information but not the data for a site in Michigan. To learn more, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
+-   Assign users to each site so that you can manage their access to the equipment model information for specific sites. For example, you can designate that users in Atlanta can access only the Atlanta site information but not the data for a site in Michigan. To learn more, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
 
 The equipment models start at the site level and contain a detailed hierarchical structure that describes each industrial site. You can apply an equipment model template to structure this data in a hierarchical sequence.
 
-Equipment model entity records are located in the Equipment Model Entity \[cmdb\_ci\_ot\_isa\_entity\] table. For more information about managing your equipment model entity, see [Managing equipment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/managing-equipment-models-after-data-import.md).
+Equipment model entity records are located in the Equipment Model Entity \[cmdb\_ci\_ot\_isa\_entity\] table. For more information about managing your equipment model entity, see [Managing equipment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/managing-equipment-models-after-data-import.md).
 
 The following graphic shows the standard ISA-95 default template delivered when you install the Industrial Process Manager.
 
@@ -56,5 +56,5 @@ The following graphic shows the standard ISA-95 default template delivered when 
 
 \[Omitted image "ot-equip-model-entity-types-atlanta.png"\] Alt text: Equipment model entity example for the site Atlanta
 
-**Parent Topic:**[Exploring Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)
+**Parent Topic:**[Exploring Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)
 

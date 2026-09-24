@@ -2,7 +2,7 @@
 title: Import error staging table
 description: Field descriptions for the Import error \[sn\_spend\_intg\_import\_error\] staging table, which temporarily stores import error data before it is transferred to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/import-error-staging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/import-error-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -22,7 +22,7 @@ Field descriptions for the Import error \[sn\_spend\_intg\_import\_error\] stagi
 |Error message|String|A message that describes the error encountered.|
 |Outbound status|Reference|Indicates the status of outgoing transactions.|
 
-**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/inbound-staging-tables-for-apo.md)
+**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/inbound-staging-tables-for-apo.md)
 
 **Related topics**  
 

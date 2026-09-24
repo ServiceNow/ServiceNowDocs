@@ -2,7 +2,7 @@
 title: Install the Engagement Messenger application
 description: Install the Engagement Messenger application from the ServiceNow Store if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/install-engagement-center-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/install-engagement-center-app.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -51,7 +51,7 @@ The following items are installed with Engagement Messenger:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/installed-with-engagement-messenger.md).
+For more information, see [Components installed with Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/installed-with-engagement-messenger.md).
 
 ## What to do next
 
@@ -59,5 +59,5 @@ For more information, see [Components installed with Engagement Messenger](https
 
     For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/activate-virtual-agent.md).
 
--   Get started with Engagement Messenger. For more information on how to get started, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
+-   Get started with Engagement Messenger. For more information on how to get started, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
 

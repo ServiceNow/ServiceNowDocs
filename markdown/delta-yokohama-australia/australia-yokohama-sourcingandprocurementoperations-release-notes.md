@@ -2,11 +2,11 @@
 title: Combined Sourcing and Procurement Operations release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Sourcing and Procurement Operations from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-sourcingandprocurementoperations-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-sourcingandprocurementoperations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 10
+last_updated: "2026-09-24"
+reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,91 @@ Yokohama
 
 </td><td>
 
--   **[Search for punchout products in Employee Center](https://www.servicenow.com/docs/access?context=ec-search-punchout-products&family=yokohama&ft:locale=en-US)**
+-   **[Multi-currency support](https://www.servicenow.com/docs/access?context=sh-multicurrency-overview&family=yokohama&ft:locale=en-US)**
+
+View and select your local currency while shopping for products in Shopping Hub to provide a seamless multi-currency experience.
+
+-   **[Purchase requisition line-level questions](https://www.servicenow.com/docs/access?context=prl-question-shoppinghub&family=yokohama&ft:locale=en-US)**
+
+Create configurable, line-level questions during checkout in Shopping Hub. These questions are defined in Catalog Builder and are specific to certain products or product categories.
+
+-   **[Category management tab](https://www.servicenow.com/docs/access?context=category-mgmt-tab&family=yokohama&ft:locale=en-US)**
+
+Access a unified, filter-based view of category performance across spend, savings, pipeline projects, contracts, purchase orders, and suppliers.
+
+-   **[Category analytics](https://www.servicenow.com/docs/access?context=spo-category-analytics&family=yokohama&ft:locale=en-US)**
+
+View savings opportunities across the sourcing pipeline using the Savings dashboard in the Category Analytics module of the Source-to-Pay Workspace.
+
+-   **[Pipeline management tab](https://www.servicenow.com/docs/access?context=pipeline-mgmt-tab&family=yokohama&ft:locale=en-US)**
+
+Gain insights into savings and pipeline projects to enhance visibility, tracking, and collaboration across teams.
+
+-   **[Report savings when awarding multiple suppliers](https://www.servicenow.com/docs/access?context=report-savings-multiple-suppliers&family=yokohama&ft:locale=en-US)**
+
+Enter the spend and savings data for the sourcing event associated with the pipeline project when awarding multiple suppliers.
+
+-   **[Create a pipeline project from an expiring contract](https://www.servicenow.com/docs/access?context=create-pipeline-expire-contract&family=yokohama&ft:locale=en-US)**
+
+Create a pipeline project directly from an expiring contract using a guided, decision-based workflow.
+
+
+ -   **[Edit purchase requisitions with cost allocation adjustments](https://www.servicenow.com/docs/access?context=edit-purchase-cost-allocation&family=yokohama&ft:locale=en-US)**
+
+Shoppers can modify purchase requisitions \(PRs\) and purchase orders \(POs\) while maintaining cost allocation across multiple cost centers.
+
+-   **[Spend and Savings Management](https://www.servicenow.com/docs/access?context=spo-spend-mgmt&family=yokohama&ft:locale=en-US)**
+
+Spend and Savings Management \(sn\_spend\_mgmt\) enables category managers to import and maintain their organization’s category taxonomy. Integrating this taxonomy into ServiceNow helps streamline procurement processes, monitor spend, and assess savings more efficiently at the category level.
+
+-   **[Return a product](https://www.servicenow.com/docs/access?context=return-a-product&family=yokohama&ft:locale=en-US)**
+
+Shoppers can now initiate replacements for goods directly from the Shopping Hub/EC. Previously, only returns for refunds were supported. This enhancement allows shoppers to replace faulty or unsatisfactory items, offering greater flexibility and improving the overall shopping experience.
+
+-   **[Using Now Assist for Contract Management in Procurement Service Management](https://www.servicenow.com/docs/access?context=use-now-assist-cmpro-spo&family=yokohama&ft:locale=en-US)**
+
+Extract metadata from a signed contract attached in a contract repository record and analyze a contract document with agentic AI to identify non-standard and missing clauses.
+
+-   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)**
+
+Activate the following new skills for ServiceNow Otto for SPO:
+
+    -   Negotiation summarization for fulfillers: Summarize negotiations to keep fulfillers informed on their current status, progress, and action items.
+    -   Negotiation event summarization for fulfillers: Summarize negotiation events to keep fulfillers informed on their current status, progress, and action items.
+    -   Purchase order summarization for requesters: Summarize purchase orders to keep requesters informed about their current status, progress, and action items.
+    -   Purchase requisition summarization for requesters: Summarize purchase requisitions to keep requesters informed about their current status, progress, and action items.
+    -   Sourcing request summarization for requesters: Summarize sourcing requests to keep requesters informed about their current status, progress, and action items.
+Generate summarization in multiple languages for procurement objects with the multi-language support in the Now Assist console.
+
+    -   For fulfillers, the following procurement objects support multi-language summarization:
+        -   Sourcing request
+        -   Purchase requisition
+        -   Procurement case
+        -   Purchase order
+        -   Negotiation
+        -   Negotiation event
+    -   For requesters, the following procurement objects support multi-language summarization:
+        -   Sourcing request
+        -   Purchase requisition
+        -   Purchase order
+With the Now Assist panel, fulfillers can use agentic AI to summarize the following procurement objects quickly:
+
+    -   Sourcing request
+    -   Purchase requisition
+    -   Procurement case
+    -   Purchase order
+    -   Negotiation
+    -   Negotiation event
+-   **[Now Assist for Common Finance and Supply Chain features](https://www.servicenow.com/docs/access?context=now-assist-fsc-common&family=yokohama&ft:locale=en-US)**
+
+Use Now Assist for Common Finance and Supply Chain features to summarize purchase orders and keep fulfillers informed of their status, progress, and required actions.
+
+-   **[Use agentic workflows](https://www.servicenow.com/docs/access?context=agentic-ai-now-assist-spo&family=yokohama&ft:locale=en-US)**
+
+Use agentic workflows for Sourcing and Procurement Operations to fulfill your procurement needs through intelligent product recommendations, guided checkout and off-catalog purchasing processes, and detailed product information. These workflows also help answer procurement-related questions and efficiently track associated records.
+
+
+ -   **[Search for punchout products in Employee Center](https://www.servicenow.com/docs/access?context=ec-search-punchout-products&family=yokohama&ft:locale=en-US)**
 
 In Employee Center, you can search for punchout products directly using the AI search bar. After you search for a product, matching items from the third-party supplier's catalog are displayed on the **Supplier Site Catalog** tab.
 
@@ -106,7 +190,24 @@ Zurich
 
 </td><td>
 
--   **[Purchase requisition line-level questions Shopping](https://www.servicenow.com/docs/access?context=prl-question-shoppinghub&family=zurich&ft:locale=en-US)**
+-   **[Multi-currency support in Shopping Hub](https://www.servicenow.com/docs/access?context=sh-multicurrency-overview&family=zurich&ft:locale=en-US)**
+
+Enable multi-currency display across approval-related views, including To-Dos, tasks, email notifications, and the Bundles page. Currency values are shown in both the approver’s local currency and the original supplier currency where applicable. The local currency is displayed as the primary value, with the original currency shown as a secondary reference. This display format provides consistent currency visibility for approvers during review.
+
+-   **[Decimal quantity support service-based purchases](https://www.servicenow.com/docs/access?context=decimal-support-services&family=zurich&ft:locale=en-US)**
+
+Enable requesters to enter and edit decimal quantities for service-based purchase requisitions and purchase orders without validation errors. Decimal quantities are supported only for services to maintain data integrity. Decimal quantities for goods are not supported and return a clear validation message. This validation logic is consistent across Shopping Hub and Employee Center.
+
+-   **[Automatically assign categories during SR](https://www.servicenow.com/docs/access?context=automatically-assign-categories&family=zurich&ft:locale=en-US)**
+
+Automatically classify service requests, purchase requisitions, and purchase orders into the correct spend categories using the Spend categorization agent. This classification process reduces manual classification effort and improves consistency across procurement workflows.
+
+-   **[Purchase behalf another user Shopping](https://www.servicenow.com/docs/access?context=purchase-on-behalf-sh&family=zurich&ft:locale=en-US)**
+
+Enable users to purchase on behalf of others without requiring delegate configuration in Shopping Hub. Users can manage individuals they are authorized to purchase for, directly within the buying experience. Purchases made on behalf of others are visible through filtering by business owner in the My Purchases view.
+
+
+ -   **[Purchase requisition line-level questions Shopping](https://www.servicenow.com/docs/access?context=prl-question-shoppinghub&family=zurich&ft:locale=en-US)**
 
 Create configurable, line-level questions during checkout in Shopping Hub. These questions are defined in Catalog Builder and are specific to certain products or product categories.
 
@@ -143,13 +244,39 @@ Submit sourcing requests with multiple products in a single sourcing intake form
 View and manage third-party Request for anything \(RFx\) tasks in the Employee Center and navigate to the third-party sourcing tool to review, publish, and award RFx.
 
 
+ -   **[Sourcing Procurement Operations integration Asset](https://www.servicenow.com/docs/access?context=spo-itam-better-together&family=zurich&ft:locale=en-US)**
+
+The Asset Management Integration for Sourcing and Procurement Operations plugin \(com.snc.sn\_spend\_asset\) provides an integration between IT Asset Management \(ITAM\) and Sourcing and Procurement Operations \(SPO\) applications, enhancing operational efficiency. This integration enables asset managers to access catalog items, including those items without assigned prices, directly within the ITAM workspace. By enabling procurement actions without switching platforms, it streamlines workflows and improves the user experience.
+
+-   **[Sourcing Pipeline Management](https://www.servicenow.com/docs/access?context=spo-sourcing-pipeline-mgmt&family=zurich&ft:locale=en-US)**
+
+Sourcing Pipeline Management introduces a centralized approach to managing sourcing projects, enabling you to create, track, and manage sourcing activities in one place. It includes workflow automation to reduce manual effort, improves visibility into sourcing activities, and supports tracking and forecasting of cost savings.
+
+-   **[Using Shopping Hub](https://www.servicenow.com/docs/access?context=use-shoppinghub-portal&family=zurich&ft:locale=en-US)**
+
+Enter decimal quantities when creating purchase requisitions for service items using quick or full checkout flows in Shopping Hub. Edit service acknowledgments with decimal values to enable more precise tracking of service consumption.
+
+-   **[Purchasing tasks and procurement cases](https://www.servicenow.com/docs/access?context=purchasing-tasks&family=zurich&ft:locale=en-US)**
+
+Review and respond to proposed case resolutions based on conditions defined in the decision tables before the case is permanently closed. When a fulfiller marks a case as resolved, the system now automatically transitions the case status to Awaiting Acceptance, pausing closure until the requester takes action. Requesters are notified via email with actionable buttons and can also accept or reject the resolution directly through the Employee Center. This notification helps to ensure that unresolved issues are addressed before a case is closed, improving resolution accuracy and customer satisfaction.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Savings opportunities](https://www.servicenow.com/docs/access?context=savings-opportunity-identification&family=australia&ft:locale=en-US)**
+-   **[Email parser agent](https://www.servicenow.com/docs/access?context=email-parser-agent-spo&family=australia&ft:locale=en-US)**
+
+Analyzes incoming emails to automatically identify the appropriate procurement intent and create corresponding procurement cases using the intent to action agentic workflow. Procurement teams can review the generated cases and take the necessary actions to efficiently manage procurement requests.
+
+-   **[Universal Request](https://www.servicenow.com/docs/access?context=universal-request&family=australia&ft:locale=en-US)**
+
+Submit procurement requests in Employee Center using natural language, even when a request requires collaboration across multiple departments or teams. A routing agent reviews each request, creates a procurement case, and assigns it to the appropriate fulfillers. Requests involving multiple teams are coordinated across departments, with status updates available on Employee Center throughout the process.
+
+
+ -   **[Savings opportunities](https://www.servicenow.com/docs/access?context=savings-opportunity-identification&family=australia&ft:locale=en-US)**
 
 Savings Opportunity Discovery agentic workflow identifies cost-saving opportunities from contracts, spend data, and supplier performance. Review and act on opportunities from the Potential Savings Opportunities page.
 
@@ -313,6 +440,8 @@ Yokohama
 Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Sourcing and Procurement Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -324,6 +453,8 @@ Zurich
 Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Sourcing and Procurement Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -334,6 +465,8 @@ Australia
 
 Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Sourcing and Procurement Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -561,5 +694,5 @@ Depending on your license, you will have access to certain application features,
  See [Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=psm-overview&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

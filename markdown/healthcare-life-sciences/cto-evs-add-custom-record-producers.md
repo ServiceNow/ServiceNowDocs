@@ -2,7 +2,7 @@
 title: Add custom record producers to the service catalog in Care Team Operations for Environmental Services
 description: Add custom record producers that you have configured into service catalogs in Care Team Operations for Environmental Services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-add-custom-record-producers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-add-custom-record-producers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Enable Audio Conferencing
 description: Enable the audio conferencing to allow the users to participate in the conference call by dialing the conference bridge number.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/enable-audio-conferencing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/enable-audio-conferencing.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,5 +33,5 @@ Role required: sn\_notify\_msteams.admin
 3.  Select **Save**.
 
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
 

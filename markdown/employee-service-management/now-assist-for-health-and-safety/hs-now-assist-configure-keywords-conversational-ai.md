@@ -2,7 +2,7 @@
 title: Configure keywords for conversational AI
 description: Configure keywords on the incident and observation record producers to enable conversational Health and Safety reporting in the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-configure-keywords-conversational-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-configure-keywords-conversational-ai.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -47,5 +47,5 @@ The keywords for the incident or observation record for conversation AI are the 
 
 The keywords are saved to the record producer. Employees can use these keywords in the panel to trigger conversational reporting for Health and Safety incidents or observations.
 
-**Parent Topic:**[Configure conversational AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-configure-conversational-ai.md)
+**Parent Topic:**[Configure conversational AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/hs-configure-conversational-ai.md)
 

@@ -2,7 +2,7 @@
 title: Microsoft Dynamics CRM Spoke
 description: Provide the baseline actions to interact with Microsoft Dynamic Entities through introspection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/microsoft-dynamics-crm-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/microsoft-dynamics-crm-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -69,7 +69,7 @@ This spoke ships with the following subflows.
 
 ## Available sample conversational subflows
 
-Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [ServiceNow Otto for Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conv-spokes-na.md).
+Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [ServiceNow Otto for Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/conv-spokes-na.md).
 
 |Conversational subflow|Usage|
 |----------------------|-----|
@@ -338,7 +338,7 @@ Update a record in Microsoft Dynamics CRM.
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -378,5 +378,5 @@ This spoke uses the Microsoft\_Dynamics\_CRM alias record to authorize actions.
 |----------------|-----------|--------------|
 |Microsoft\_Dynamics\_CRM|Connection to Microsoft Dynamics CRM|URL configured when you create your application in Azure. This URL ends with `dynamics.com`.|
 
-For information about setting up the spoke, see [Set up Microsoft Dynamics CRM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ms-dynamics-crm.md).
+For information about setting up the spoke, see [Set up Microsoft Dynamics CRM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-ms-dynamics-crm.md).
 

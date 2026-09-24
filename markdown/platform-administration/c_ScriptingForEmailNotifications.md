@@ -2,7 +2,7 @@
 title: Scripting for email notifications
 description: Use mail scripts to add business rule-like scripting to outbound email messages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_ScriptingForEmailNotifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_ScriptingForEmailNotifications.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-22"
@@ -17,14 +17,14 @@ Use mail scripts to add business rule-like scripting to outbound email messages.
 
 Mail scripts enable you to dynamically change the email output of your system based on different criteria. You can use them for simple tasks, such as displaying incident data, and for complex ones, such as running advanced database queries.
 
--   **[Include mail scripts in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-mail-scripts-email-notifications.md)**  
+-   **[Include mail scripts in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/use-mail-scripts-email-notifications.md)**  
 Include mail scripts to customize email notifications, which enable you to apply conditional logic and insert dynamic record data in your notifications.
--   **[Mail script variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_MailScriptAPI.md)**  
+-   **[Mail script variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_MailScriptAPI.md)**  
 Certain variables are available when processing mail\_script scripts.
--   **[Example scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ExScptEmlNtfn.md)**  
+-   **[Example scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_ExScptEmlNtfn.md)**  
 Examples of scripting for email notifications.
--   **[Useful attachment scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_UsefulAttachmentScripts.md)**  
+-   **[Useful attachment scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_UsefulAttachmentScripts.md)**  
 This is a searchable version of the Useful Attachment Scripts.
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateANotification.md)
 

@@ -2,7 +2,7 @@
 title: Configure chart views for accessibility
 description: Give users the option to change chart views from color segments to black and white patterns. This option can be used for accessibility purposes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/accessibility-chart-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/accessibility-chart-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

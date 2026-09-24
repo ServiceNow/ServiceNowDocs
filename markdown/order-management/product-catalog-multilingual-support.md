@@ -2,7 +2,7 @@
 title: Multilingual product catalog entities
 description: Starting with Product Catalog Management Core release v19.0.0, certain Product Catalog Management tables have product catalog fields that support multilingual text. In the Data Dictionary, these fields have changed from type string to type translated\_text. As an admin, you can display these fields in multiple languages in the product catalog interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/product-catalog-multilingual-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/product-catalog-multilingual-support.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-27"
@@ -103,5 +103,5 @@ Characteristic Options \[sn\_prd\_pm\_characteristic\_option\]
 Option
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Product Catalog Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-management-reference.md)
+</table>**Parent Topic:**[Product Catalog Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-management-reference.md)
 

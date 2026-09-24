@@ -2,7 +2,7 @@
 title: Activate Change Management - Change Velocity dashboard
 description: You can activate the Performance Analytics - Content Pack - Change Management \(com.snc.pa.change\) and Process Optimization \(com.sn\_process\_optimization\) plugins if you have the admin role. These plugins include demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-change-velocity-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-change-velocity-dashboard.html
 release: australia
 product: Change Management
 classification: change-management
@@ -35,7 +35,7 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

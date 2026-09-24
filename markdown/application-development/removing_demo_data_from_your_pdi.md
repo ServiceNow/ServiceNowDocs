@@ -2,7 +2,7 @@
 title: Removing demo data from your PDI
 description: If you do not need the demo data in your PDI included by default, remove it from your PDI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/removing\_demo\_data\_from\_your\_pdi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/removing\_demo\_data\_from\_your\_pdi.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Demo data removal takes 20-30 minutes. The Developer Site will send you an email
 
 \[Omitted image "remove-demo-data-pdi.png"\] Alt text: Remove demo data page
 
-**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/personal_developer_instance_guide.md)
 

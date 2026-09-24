@@ -2,7 +2,7 @@
 title: Password Reset extension script categories
 description: You can use a custom extension script to extend Password Reset functionality for credential store, verification, or identification types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/pw-reset-extension-script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/pw-reset-extension-script.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -20,7 +20,7 @@ You can use a custom extension script to extend Password Reset functionality for
 
 ## Password Reset extension script categories
 
-Extension scripts must specify a category that indicates which script include is being extended, for example, `category: 'password_reset.extension.enrollment_check'`. The ServiceNow platform installs several scripts in each category. A script in the **Enrollment check** category can perform the enrollment check for a verification. Detailed information on each extension script appears in [Password Reset extension scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/pw-reset-ext-script-includes.md).
+Extension scripts must specify a category that indicates which script include is being extended, for example, `category: 'password_reset.extension.enrollment_check'`. The ServiceNow platform installs several scripts in each category. A script in the **Enrollment check** category can perform the enrollment check for a verification. Detailed information on each extension script appears in [Password Reset extension scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/pw-reset-ext-script-includes.md).
 
 |Extension script category|Description|
 |-------------------------|-----------|
@@ -35,5 +35,5 @@ Extension scripts must specify a category that indicates which script include is
 **Related topics**  
 
 
-[Password Reset extension scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/pw-reset-ext-script-includes.md)
+[Password Reset extension scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/pw-reset-ext-script-includes.md)
 

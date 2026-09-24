@@ -2,7 +2,7 @@
 title: Preview components
 description: As you’re creating or managing your theme, you can preview the components available for inclusion on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-preview-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-preview-components.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -65,7 +65,7 @@ The components you can preview in Theme Builder were created in the Now Design S
 
 ## What to do next
 
-After previewing and selecting the desired components, edit their properties to fine-tune their appearance. For more information, see [Edit components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-components.md).
+After previewing and selecting the desired components, edit their properties to fine-tune their appearance. For more information, see [Edit components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-edit-components.md).
 
-**Parent Topic:**[Working with Component styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-component-styles.md)
+**Parent Topic:**[Working with Component styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-with-component-styles.md)
 

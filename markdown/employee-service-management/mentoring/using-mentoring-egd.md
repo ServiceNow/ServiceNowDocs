@@ -2,7 +2,7 @@
 title: Using Mentoring
 description: Employees can participate as mentors or mentees from the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/using-mentoring-egd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/mentoring/using-mentoring-egd.html
 release: australia
 product: Mentoring
 classification: mentoring

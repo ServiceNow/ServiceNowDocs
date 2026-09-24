@@ -2,7 +2,7 @@
 title: Filter records by priority with a flyout menu
 description: Configure a flyout menu that filters a task record list based on priority.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/comp-ex-filter-flyout-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/comp-ex-filter-flyout-menu.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -23,7 +23,7 @@ Role required: ui\_builder\_admin
 
 This procedure uses UI Builder components to create dynamic, interactive layouts. For more information on how to configure components, see:
 
--   [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md)
+-   [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-components.md)
 -   [UI Builder Quick Bits: Navigating Component Configuration](https://www.servicenow.com/community/next-experience-blog/ui-builder-quick-bits-navigating-component-configuration/ba-p/3181624)
 
 <table id="table_exc_zzf_dhc"><thead><tr><th>
@@ -58,11 +58,11 @@ Record list
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create a page from scratch.
 
-    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md).
 
 4.  Select **Add content** on the stage or in the content tree to open the toolbox, then add a **Record list** component to the page.
 
@@ -186,5 +186,5 @@ Value to use after triggering event
     \[Omitted image "comp-ex-ffm-result.png"\] Alt text: Preview of UI Builder page showing the record list filtered for a specific priority.
 
 
-**Parent Topic:**[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-components-by-example.md)
+**Parent Topic:**[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/learning-components-by-example.md)
 

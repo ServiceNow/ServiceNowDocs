@@ -2,7 +2,7 @@
 title: Threat Intelligence Security Center
 description: The Threat Intelligence Security Center \(TISC\) platform provides technology solution for aggregation, management and operationalization of threat intelligence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-landing-page.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -22,39 +22,39 @@ Click on a tile to get started.
 
 <table id="table_ekc_yly_bbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how Threat Intelligence Security Center can help you with its key features and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-overview.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how Threat Intelligence Security Center can help you with its key features and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-intelligence-security-center-overview.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up and configure Threat Intelligence Security Center to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/set-up-threat-intelligence-security-center.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up and configure Threat Intelligence Security Center to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/set-up-threat-intelligence-security-center.md)
 
 </td><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/integrating-threat-intelligence-security-center.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/integrating-threat-intelligence-security-center.md)
 
 </td></tr><tr><td>
 
-[Administer\[Omitted image "bus-optimize-manage.svg"\] Alt text:Manage and customize your Threat Intelligence Security Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-data-administration.md)
+[Administer\[Omitted image "bus-optimize-manage.svg"\] Alt text:Manage and customize your Threat Intelligence Security Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-data-administration.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-threat-intelligence-source.svg"\] Alt text:Manage your Threat Intelligence Security Center Library and objects.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+[Use\[Omitted image "bus-threat-intelligence-source.svg"\] Alt text:Manage your Threat Intelligence Security Center Library and objects.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 </td><td>
 
-[Report Templates\[Omitted image "bus-case.svg"\] Alt text:Manage and customize your Case Management Reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-report-templates.md)
+[Report Templates\[Omitted image "bus-case.svg"\] Alt text:Manage and customize your Case Management Reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-report-templates.md)
 
 </td></tr><tr><td>
 
-[MITRE ATT&amp;CK Repository\[Omitted image "bus-security.svg"\] Alt text:Manage MITRE ATT&amp;CK Repository Data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
+[MITRE ATT&amp;CK Repository\[Omitted image "bus-security.svg"\] Alt text:Manage MITRE ATT&amp;CK Repository Data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
 
 </td><td>
 
-[TISC Data archival and cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/data-archival-process.md)Archive\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Manage Data Archival and Destroy Rules.
+[TISC Data archival and cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/data-archival-process.md)Archive\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Manage Data Archival and Destroy Rules.
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Threat Intelligence Security Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-data-processing-functional-flow.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Threat Intelligence Security Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-data-processing-functional-flow.md)
 
 </td></tr></tbody>
 </table>## Request apps on Store

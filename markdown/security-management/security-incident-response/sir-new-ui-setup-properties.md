@@ -2,7 +2,7 @@
 title: Form configuration system properties
 description: These system properties define the form refresh intervals for the playbook tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-new-ui-setup-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sir-new-ui-setup-properties.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

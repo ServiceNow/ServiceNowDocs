@@ -2,7 +2,7 @@
 title: Configure the Apache Kafka Consumer connector
 description: Configure the Apache Kafka Consumer connector instance to create events from streaming messages collected by the Apache Kafka connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-kafka-consumer-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configure-kafka-consumer-connector.html
 release: australia
 product: Event Management
 classification: event-management
@@ -131,7 +131,7 @@ This field is automatically set to the last error message.
 
     4.  On the Kafka SSL Authentication screen, fill in the Kafka SSL credentials fields.
 
-        For the Kafka SSL credentials field descriptions, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
+        For the Kafka SSL credentials field descriptions, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
 
         **Note:** If you clear the **Disable hostname verification** field, then in the **Additional Kafka consumer properties** field, enter the value of the **ssl.endpoint.identification.algorithm** parameter the same as of the Kafka server parameter value. For example:
 
@@ -279,7 +279,7 @@ The Kafka topic from which the messages are fetched.
 
 ## What to do next
 
-After the connector is created, you must map the fields. For more information, see [Map Kafka message payload attributes to alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/map-kafka-message-payload-attributes-to-alert-fields.md).
+After the connector is created, you must map the fields. For more information, see [Map Kafka message payload attributes to alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/map-kafka-message-payload-attributes-to-alert-fields.md).
 
-**Parent Topic:**[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/apache-kafka-consumer-connector.md)
+**Parent Topic:**[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/apache-kafka-consumer-connector.md)
 

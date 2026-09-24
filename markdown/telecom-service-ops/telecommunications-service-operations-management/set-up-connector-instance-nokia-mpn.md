@@ -2,12 +2,12 @@
 title: Configure elastic connectors for MPN alarm collection
 description: Configure a connector instance to collect fault management alarm data from a Mobile Private Network \(MPN\) Elastic index and forward events to Event Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/set-up-connector-instance-nokia-mpn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-connector-instance-nokia-mpn.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 keywords: [Nokia MPN, connector instance, Elastic, fault management, alarm collection]
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
@@ -21,7 +21,7 @@ Configure a connector instance to collect fault management alarm data from a Mob
 
 1.  [Create Basic Auth Credentials](https://www.servicenow.com/docs/r/it-operations-management/event-management/create-credentials-basic-auth.html)
 2.  [Create HTTP\(S\) Connection](https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/create-https-connection.html)
-3.  [Activate the Telecommunications Alarm Management Open API endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.md)
+3.  [Activate the Telecommunications Alarm Management Open API endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.md)
 
 Role required: tsom\_assurance\_admin
 
@@ -87,5 +87,5 @@ The alarm collection instance also clears stale alarms: alarms that were cleared
 11. View your configured alarms by navigating to **em\_event.LIST** and searching for `API Alarm Notification`.
 
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
 

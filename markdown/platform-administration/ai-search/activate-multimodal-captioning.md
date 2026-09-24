@@ -2,7 +2,7 @@
 title: Activate multimodal captioning for attachments from an indexed source
 description: Generate descriptive captions for images, tables, charts, and other visual elements in attachments from records in an indexed source table. You can find these attachments by searching for terms from their generated captions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/activate-multimodal-captioning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/activate-multimodal-captioning.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -18,9 +18,9 @@ Generate descriptive captions for images, tables, charts, and other visual eleme
 
 ## Before you begin
 
-An administrator must have activated the Platform Multimodal Service plugin on your instance. For details on this procedure, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+An administrator must have activated the Platform Multimodal Service plugin on your instance. For details on this procedure, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
 
-**Note:** An AI Search administrator can select the VLM \(visual learning model\) provider and model used by the Platform Multimodal Service. For details on this process, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+**Note:** An AI Search administrator can select the VLM \(visual learning model\) provider and model used by the Platform Multimodal Service. For details on this process, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 
 Role required: ais\_admin
 
@@ -71,7 +71,7 @@ The new **index\_mms\_attachments** indexed source attribute appears in the Adva
 
 ## What to do next
 
-To make the new indexed source attribute take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
+To make the new indexed source attribute take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/index-single-source-ais.md).
 
-**Parent Topic:**[Indexed source attributes for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-attributes-ais.md)
+**Parent Topic:**[Indexed source attributes for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/indexed-source-attributes-ais.md)
 

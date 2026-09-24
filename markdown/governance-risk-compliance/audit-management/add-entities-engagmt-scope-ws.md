@@ -2,7 +2,7 @@
 title: Add entities to an engagement scope and validate the engagement
 description: Add entities related to the selected auditable units to the engagement. In addition, you can also add entities other than the ones created for auditable units to the engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/add-entities-engagmt-scope-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/add-entities-engagmt-scope-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

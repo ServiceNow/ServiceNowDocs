@@ -2,7 +2,7 @@
 title: Requester Approval Checklist
 description: The Requester Approval Checklist skill in the ServiceNow AI Platform generates a structured checklist by mapping real-time request data against your organization’s knowledge articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/service-portal-approval-checklist-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/service-portal-approval-checklist-skill.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills
@@ -16,7 +16,7 @@ breadcrumb: [Skills in the Platform workflow, Skills, AI assets, Enable AI exper
 
 The Requester Approval Checklist skill in the ServiceNow AI Platform® generates a structured checklist by mapping real-time request data against your organization’s knowledge articles.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 This skill is available within AI Agents for Requester v3.1 and provides instant, data-backed decision support across in-product, agentic, and workflow experiences.
 
@@ -56,5 +56,5 @@ The output is presented in a two-step format: Criteria \(what is required\) and 
     The Requester Approval Checklist respects the approval configuration to provide flexibility and control.
 
 
-For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md) and [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-approval-assistance-ai-agent.md).
+For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-approval-assistance-ai-agent.md) and [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-approval-assistance-ai-agent.md).
 

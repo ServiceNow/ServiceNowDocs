@@ -2,7 +2,7 @@
 title: Assign a knowledge base manager
 description: You can assign users as managers of a knowledge base.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_AssignAKnowledgeBaseManager.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/t\_AssignAKnowledgeBaseManager.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -39,7 +39,7 @@ Role required: knowledge\_admin, or admin
 
 You can remove a knowledge base manager by removing that user from the **Managers** field. If the user is not a manager of any other knowledge base, the knowledge\_manager role is removed from that user.
 
-**Parent Topic:**[Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_KnowledgeManager.md)
+**Parent Topic:**[Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/c_KnowledgeManager.md)
 
 **Related topics**  
 

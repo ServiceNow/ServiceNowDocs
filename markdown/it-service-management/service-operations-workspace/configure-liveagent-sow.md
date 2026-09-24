@@ -2,7 +2,7 @@
 title: Live Agent chat in Service Operations Workspace
 description: Service Operations Workspace enables agents to work on any incident created using Live Agent chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-liveagent-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configure-liveagent-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -32,7 +32,7 @@ Once the agent accepts the chat, the Inbox is hidden, allowing the agent to focu
 
 For more information about Live Agent chat integration, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/migrate-from-connect-support.md).
 
-**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
+**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 
 **Related topics**  
 

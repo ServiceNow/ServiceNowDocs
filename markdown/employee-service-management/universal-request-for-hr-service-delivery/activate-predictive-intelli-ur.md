@@ -2,7 +2,7 @@
 title: Activate Predictive Intelligence for Universal Request
 description: You can activate the Predictive Intelligence for Universal Request plugin \(com.snc.universal\_request.ml\) to use machine-learning solutions in the Universal Request application, if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/activate-predictive-intelli-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/activate-predictive-intelli-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -50,5 +50,5 @@ The application includes demo data and installs related applications and plugins
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Universal Request plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-plugins.md)
+**Parent Topic:**[Universal Request plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-plugins.md)
 

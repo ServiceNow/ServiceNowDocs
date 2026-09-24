@@ -2,7 +2,7 @@
 title: View the results for a survey
 description: You can view the responses for one survey definition. Survey results are stored on the Metric Result \[asmt\_metric\_result\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewResultsForASpecificSurvey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ViewResultsForASpecificSurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: survey\_admin or survey\_reader
 
 4.  Under **Related Links**, select **View Scorecard** review the compiled data of all responses represented in pie charts.
 
-    For detailed information, see [View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAScorecard.md).
+    For detailed information, see [View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAScorecard.md).
 
 5.  Open a metric result to view more detail.
 
@@ -41,7 +41,7 @@ Role required: survey\_admin or survey\_reader
     For a description of the field values, see .
 
 
-**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md)
+**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyResults.md)
 
 **Related topics**  
 

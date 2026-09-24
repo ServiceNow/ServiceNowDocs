@@ -2,7 +2,7 @@
 title: Configure widgets for breakdown dashboards
 description: Configure each widget that goes on a breakdown dashboard. The configuration determines whether and how the widget follows the elements selected on the dashboard. For some widgets and indicators, you can select whether to show multiple element values separately or as an aggregate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -50,10 +50,10 @@ Role required: pa\_power\_user, admin
 
     -   **Aggregate**, which shows a single, aggregate score of all selected elements.
     -   **Separate**, which shows each selected element separately.
-    Not all widget and indicator types support both views. Some types do not support selecting multiple elements at all. If it is not possible to select multiple elements for a widget/indicator combination, the field says **Not available**. For more information, see [Showing multiple elements separately or aggregated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
+    Not all widget and indicator types support both views. Some types do not support selecting multiple elements at all. If it is not possible to select multiple elements for a widget/indicator combination, the field says **Not available**. For more information, see [Showing multiple elements separately or aggregated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
 
 
-**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 

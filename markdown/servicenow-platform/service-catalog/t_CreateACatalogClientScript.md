@@ -2,7 +2,7 @@
 title: Create a Service Catalog client script
 description: You can create client scripts to customize the catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreateACatalogClientScript.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_CreateACatalogClientScript.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -123,7 +123,7 @@ Applies on Requested Items
 
 </td><td>
 
-Check box to apply the catalog client script on a Requested Item form, after the item is requested. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
+Check box to apply the catalog client script on a Requested Item form, after the item is requested. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Applies on Catalog Tasks
 
 </td><td>
 
-Check box to apply the catalog client script when a Catalog Task form for the item is being displayed. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
+Check box to apply the catalog client script when a Catalog Task form for the item is being displayed. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
 
 </td></tr><tr><td>
 
@@ -139,11 +139,11 @@ Applies on the Target Record
 
 </td><td>
 
-Check box to support the catalog client script on a record created for task-extended tables via record producers. See [Default variable editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
+Check box to support the catalog client script on a record created for task-extended tables via record producers. See [Default variable editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-variable-editor.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
+**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 

@@ -2,7 +2,7 @@
 title: Amazon S3 Tables
 description: The Amazon S3 Tables connector provides read-only access to data and metadata in Amazon S3 Tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/amazon-s3-tables-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/amazon-s3-tables-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
 
 The Amazon S3 Tables connector provides read-only access to data and metadata in Amazon S3 Tables.
 
-A connection admin can set up a connection to Amazon S3 Tables in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from S3 Tables. This allows users to access data in S3 Tables through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+A connection admin can set up a connection to Amazon S3 Tables in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from S3 Tables. This allows users to access data in S3 Tables through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md).
 
 **Important:** The Amazon S3 Tables primary connector is in preview. A primary connector in preview is developed and supported by ServiceNow, but is still being enhanced to include all planned functionality. While in preview, a connector may have limitations in platform support or available features.
 

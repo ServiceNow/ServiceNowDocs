@@ -2,7 +2,7 @@
 title: Migrate a classic Dynatrace connection to the Dynatrace SaaS connector
 description: Copy the sys\_id of your classic Dynatrace connection alias into a property in your Dynatrace SaaS connection to enable the cleanup of stale Process CIs from the classic connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-migration-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-migration-task.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -36,7 +36,7 @@ For additional information about migrating to the Service Graph Connector for Dy
 
     4.  Open the record, select and hold \(or right-click\) the header, and then select **Copy sys\_id**.
 
-        Save the sys\_id value for use in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-migration-task.md).
+        Save the sys\_id value for use in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-migration-task.md).
 
 2.  Add the sys\_id of the classic Dynatrace connection alias to the Dynatrace SaaS connection.
 
@@ -46,7 +46,7 @@ For additional information about migrating to the Service Graph Connector for Dy
 
     3.  From the Service Graph Connection Properties related list, select the **dynatrace\_classic\_connection\_alias\_sys\_id** connection property.
 
-    4.  Enter the sys\_id that you copied in step [1.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-migration-task.md) into the **Value** field.
+    4.  Enter the sys\_id that you copied in step [1.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-migration-task.md) into the **Value** field.
 
     5.  Save the record.
 

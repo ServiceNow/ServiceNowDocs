@@ -2,7 +2,7 @@
 title: Add stage configurations
 description: Stages group tasks or to-do lists for managers, mentors, or employees as part of a plan configuration. You must set the stage order and associate the stage with a plan configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-create-stage-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-create-stage-configuration.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -19,7 +19,7 @@ Stages group tasks or to-do lists for managers, mentors, or employees as part of
 ## Before you begin
 
 -   Role required: admin \[sn\_jny.admin\]
--   Create a stage: [Create and manage stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-create-manage-stages.md)
+-   Create a stage: [Create and manage stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-create-manage-stages.md)
 
 
 ## Procedure
@@ -41,5 +41,5 @@ Stages group tasks or to-do lists for managers, mentors, or employees as part of
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

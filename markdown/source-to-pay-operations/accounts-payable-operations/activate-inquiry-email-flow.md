@@ -2,7 +2,7 @@
 title: Activate the Create Inquiry Case on Invoice email flow
 description: Activate the Create Inquiry Case on Invoice email flow to automatically create invoice inquiry cases from inbound emails.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/activate-inquiry-email-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/activate-inquiry-email-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -46,5 +46,5 @@ Role required: admin
 9.  Select **Activate**.
 
 
-**Parent Topic:**[Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md)
+**Parent Topic:**[Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md)
 

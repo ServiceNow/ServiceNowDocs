@@ -2,7 +2,7 @@
 title: Setting up Workplace Space Mapping
 description: Configure and synchronize Indoor Mapping and Mappedin map data and objects with Workplace Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/set-up-workplace-service-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/set-up-workplace-service-mapping.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ For Workplace Service Delivery to work with Workplace Indoor Mapping and Mappedi
 
 ## Configure Indoor Mapping with Workplace Service Delivery
 
-Synchronize the Indoor Mapping map data and map objects to work with Workplace Service Delivery, see [Configure Workplace Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsd-integration-indoor-mapping.md).
+Synchronize the Indoor Mapping map data and map objects to work with Workplace Service Delivery, see [Configure Workplace Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsd-integration-indoor-mapping.md).
 
 ## Configure Mappedin with Workplace Service Delivery
 
@@ -55,7 +55,7 @@ Install and activate the Mappedin integration
 
 </td><td>
 
-Install and activate the Mappedin integration in order to use Workplace Space Mapping to manage imported data and customize the map. For more information, see [Install the Mappedin integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-activate.md)
+Install and activate the Mappedin integration in order to use Workplace Space Mapping to manage imported data and customize the map. For more information, see [Install the Mappedin integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-mappedin-activate.md)
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Enter credentials in Workplace Space Mapping
 
 </td><td>
 
-You must enter your Mappedin credentials in Workplace Space Mapping. For more [Maintain Workplace Service Delivery Mappedin credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-credentials.md)
+You must enter your Mappedin credentials in Workplace Space Mapping. For more [Maintain Workplace Service Delivery Mappedin credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-mappedin-credentials.md)
 
 </td></tr><tr><td>
 
@@ -74,12 +74,12 @@ Configure a connection in Workplace Space Mapping
 The base system provides a pre-configured connection to Mappedin.
 
 </td></tr></tbody>
-</table>-   **[Maintain Workplace Service Delivery Mappedin credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-credentials.md)**  
+</table>-   **[Maintain Workplace Service Delivery Mappedin credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-mappedin-credentials.md)**  
 To configure and work with Mappedin ensure that you have a valid login credential. Work with the Mappedin to obtain these credentials.
--   **[Customize the map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-configure-map-properties.md)**  
+-   **[Customize the map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-configure-map-properties.md)**  
 Customize how your map renders in the Workplace Service Portal by configuring Workplace Space Mapping properties.
 
-**Parent Topic:**[Configuring Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-config_space_mapping.md)
+**Parent Topic:**[Configuring Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-config_space_mapping.md)
 
 **Related topics**  
 

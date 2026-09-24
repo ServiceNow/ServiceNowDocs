@@ -2,12 +2,12 @@
 title: Software Asset Management Foundation plugin migration
 description: Migrate from the Software Asset Management plugin to the Software Asset Management Foundation plugin to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/c\_SAMMigrationSAMF.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management-foundation-plugin/c\_SAMMigrationSAMF.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Software Asset Management Foundation plugin Administration, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -65,8 +65,8 @@ The Software Asset Management Foundation \(com.snc.sams\) plugin performs these 
     |Business rules|Legacy business rules applied to discovery models are disabled.|
 
 
--   **[Overwrite customizations for Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_MigrateSAMCustomSAMF.md)**  
+-   **[Overwrite customizations for Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_MigrateSAMCustomSAMF.md)**  
 When migrating from the Software Asset Management plugin to the Software Asset Management Foundation plugin, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
 
-**Parent Topic:**[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
+**Parent Topic:**[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
 

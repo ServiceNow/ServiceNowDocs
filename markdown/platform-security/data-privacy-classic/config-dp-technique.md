@@ -2,7 +2,7 @@
 title: Create a data privacy technique configuration
 description: Create a data privacy technique configuration to customize how data privacy anonymizes your data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/config-dp-technique.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-privacy-classic/config-dp-technique.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -24,7 +24,7 @@ Role required: data\_privacy\_admin and admin
 
 1.  Elevate to the **data\_privacy\_admin** role.
 
-    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **System Security** &gt; **Data Privacy** &gt; **Privacy Technique Configuration**.
 

@@ -2,7 +2,7 @@
 title: Configurable Cards feature configuration
 description: The Configurable Cards feature enables you to add and customize the features in Engagement Messenger that aren’t available by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configurable-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configurable-card.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

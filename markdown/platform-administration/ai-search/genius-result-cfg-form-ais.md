@@ -2,7 +2,7 @@
 title: AI Search Genius Result Configuration form
 description: The AI Search Genius Result Configuration form enables you to create a Genius Result configuration for use in your AI Search search profiles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/genius-result-cfg-form-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/genius-result-cfg-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The AI Search Genius Result Configuration form enables you to create a Genius Result configuration for use in your AI Search search profiles.
 
-For details on creating or editing a Genius Result configuration, see [Create a Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-genius-results-config-ais.md).
+For details on creating or editing a Genius Result configuration, see [Create a Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-genius-results-config-ais.md).
 
 <table id="table_wqk_ttg_trb"><thead><tr><th>
 
@@ -43,7 +43,7 @@ Trigger condition
 Condition that triggers evaluation of the Genius Result configuration. Supported values:
 
 -   **Always**: The Genius Result configuration triggers for every search query.
--   **NLU**: The Genius Result configuration triggers when the search query's detected intent matches an [NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-models.md) intent. To use this trigger condition, you must link the NLU model and one or more of its intents to your Genius Result configuration. For instructions, see [Link an NLU model and intents to a Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/link-nlu-model-genius-result-ais.md).
+-   **NLU**: The Genius Result configuration triggers when the search query's detected intent matches an [NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-models.md) intent. To use this trigger condition, you must link the NLU model and one or more of its intents to your Genius Result configuration. For instructions, see [Link an NLU model and intents to a Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/link-nlu-model-genius-result-ais.md).
 
 **Note:**
 
@@ -135,9 +135,9 @@ Comma-separated list of fields to display on the Genius Result answer card. This
     -   table
 You can optionally use this field to specify any additional AI Search index fields that you want to display for search results shown on the Genius Result answer cards.
 
-To view the list of AI Search index fields, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
+To view the list of AI Search index fields, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/index-fields-list-ais.md).
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/reference-ais.md)
 

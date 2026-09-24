@@ -2,7 +2,7 @@
 title: Recommendations for your AI assets
 description: Recommendations for AI assets are automatically generated for you to review and act on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/recommendations-aisteward-newexperience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/recommendations-aisteward-newexperience.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-17"
@@ -28,7 +28,7 @@ Recommendations include, but aren't limited to, the following:
 -   A missing or incomplete asset description.
 -   An asset that has been dormant long enough to be a candidate for retirement.
 
-For the complete picture of how recommendations are generated, prioritized, and resolved across all categories, see [Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-recommendations-ai-insights.md).
+For the complete picture of how recommendations are generated, prioritized, and resolved across all categories, see [Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-recommendations-ai-insights.md).
 
 ## Viewing recommendations
 
@@ -40,7 +40,7 @@ You can view recommendations in the following locations:
 
 Select a recommendation to review the reasoning behind it and the asset it applies to.
 
-To resolve a recommendation, use the primary resolution action it offers; for the full procedure, see [Resolve an AI recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ac-resolve-ai-recommendation.md).
+To resolve a recommendation, use the primary resolution action it offers; for the full procedure, see [Resolve an AI recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ac-resolve-ai-recommendation.md).
 
-**Parent Topic:**[Reviewing AI asset status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/reviewing-ai-asset-status.md)
+**Parent Topic:**[Reviewing AI asset status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/reviewing-ai-asset-status.md)
 

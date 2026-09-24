@@ -2,7 +2,7 @@
 title: Configure the GOV.UK Design System Service Portal Knowledge Pages
 description: Display knowledge base content for UK constituents using the GDS Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-knowl-page-cont.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gds-knowl-page-cont.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"
@@ -16,7 +16,7 @@ Display knowledge base content for UK constituents using the GDS Service Portal.
 
 By default, the GOV.UK Developer Toolkit comes with four base system knowledge pages, which contain the following widgets.
 
-Most widgets can be configured by cloning and modifying, or you can use the instance options where available to configure widgets for a portal page. For more information on the instance options available for each widget, see [Portal Widget Library.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md)
+Most widgets can be configured by cloning and modifying, or you can use the instance options where available to configure widgets for a portal page. For more information on the instance options available for each widget, see [Portal Widget Library.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-widget-lib.md)
 
 ## Knowledge Home
 
@@ -77,7 +77,7 @@ The Knowledge homepage contains the following widgets:
 
 -   Knowledge Base Search Widget and Typeahead Search widget, which displays search information specifically confined to the knowledge base, with a predictive text feature that shows words as users type.
 
-    **Note:** The Typeahead Search widget is embedded in the Knowledge Base Search Widget, but each widget has its own instance options. For more information on the instance options available for each widget, see [Portal Widget Library.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md)
+    **Note:** The Typeahead Search widget is embedded in the Knowledge Base Search Widget, but each widget has its own instance options. For more information on the instance options available for each widget, see [Portal Widget Library.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-widget-lib.md)
 
 -   Knowledge Article Page widget, which displays Knowledge Base articles within the GDS Service Portal.
 -   Knowledge Related Articles widget, which displays profile photo, name, contact details, and other user profile information.

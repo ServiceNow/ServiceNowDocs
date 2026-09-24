@@ -2,7 +2,7 @@
 title: Use ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: ServiceNow Otto for Accounts Payable Operations \(APO\) helps accounts payable specialists and agents summarize invoice case details, completed actions, and pending tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

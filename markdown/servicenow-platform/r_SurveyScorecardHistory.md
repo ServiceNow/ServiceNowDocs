@@ -2,7 +2,7 @@
 title: Survey scorecard history
 description: The History view compares the current ratings for the categories and their questions with ratings from the previous three years or four quarters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_SurveyScorecardHistory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_SurveyScorecardHistory.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Quarterly surveys compare the average rating for each question and category in t
 
 \[Omitted image "SurveyScorecardHistory4qtr.png"\] Alt text: Survey scorecard history - 4 quarters
 
-**Parent Topic:**[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAScorecard.md)
+**Parent Topic:**[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAScorecard.md)
 
 **Related topics**  
 

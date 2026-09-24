@@ -2,7 +2,7 @@
 title: Add more menu items
 description: Add your own list of items for user-related activities, such as My Assets, My Reservations, My Plans, My Surveys, and My Purchases on the More menu.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-more-menu-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-more-menu-items.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,7 +26,7 @@ Set the scope to Employee Center before configuring the More menu item.
 
 ## About this task
 
-In the More menu, you can add menu items for user-related activities, such as My Assets, My Reservations, My Plans, My Surveys, and My Purchases. You can enable or disable the More menu on the global header. You can see the **More** menu only when you add more than one menu items. If you add only one menu item in the **More** menu, the **More** menu is not displayed and the name of the menu item is displayed directly on the global header. For more information, see [Enable or disable global header options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-global-header-components.md).
+In the More menu, you can add menu items for user-related activities, such as My Assets, My Reservations, My Plans, My Surveys, and My Purchases. You can enable or disable the More menu on the global header. You can see the **More** menu only when you add more than one menu items. If you add only one menu item in the **More** menu, the **More** menu is not displayed and the name of the menu item is displayed directly on the global header. For more information, see [Enable or disable global header options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-global-header-components.md).
 
 You can configure the More menu to display menu items by installing their respective plugins. For Example, My Action Plans is displayed under the More menu when you install the Journey Accelerator plugin.
 
@@ -48,7 +48,7 @@ You can configure the More menu to display menu items by installing their respec
 
 6.  On the form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
+    For more information about the form fields and descriptions, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/menu-item-form.md).
 
 7.  Click **Submit**.
 

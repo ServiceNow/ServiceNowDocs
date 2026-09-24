@@ -2,7 +2,7 @@
 title: Create an AI connection for Salesforce
 description: Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce \(version 1.1.0\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-salesforce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-ai-connection-for-salesforce.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

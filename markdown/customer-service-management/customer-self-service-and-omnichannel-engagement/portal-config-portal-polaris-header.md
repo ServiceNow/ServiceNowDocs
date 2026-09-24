@@ -2,7 +2,7 @@
 title: Configure the Portal Polaris Header widget for your portal
 description: Associate the Portal Polaris Header widget as your header for the selected theme on your portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-portal-polaris-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-portal-polaris-header.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,7 +2,7 @@
 title: Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)
 description: Configure and review the details for a skill in the Guided Setup. You can edit and reactivate a skill from the Guided Setup.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +35,7 @@ Role required: sn\_si.admin
 
 3.  Select **Edit** for the skill you want to configure, and follow the Guided Setup.
 
-    You can edit only the active options in the left panel and the editable options might vary for individual skills. For more configurable options, copy a skill and customize it. For more information, see [Customize a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/cust-now-assist-security-incident-skill.md).
+    You can edit only the active options in the left panel and the editable options might vary for individual skills. For more configurable options, copy a skill and customize it. For more information, see [Customize a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/cust-now-assist-security-incident-skill.md).
 
 4.  Select **Review and Activate** to review your inputs and activate the skill.
 
@@ -44,10 +44,10 @@ Role required: sn\_si.admin
     The modified skill is active and available for use.
 
 
--   **[Configure the Security incident quality assessment skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/config-quality-assessment-skill.md)**  
+-   **[Configure the Security incident quality assessment skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/config-quality-assessment-skill.md)**  
 Add natural language rule sets to the Security incident quality assessment skill. Security analysts use these rules to generate a quality assessment report for security incidents.
--   **[Configure the Security incident resolution plan skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/config-resolution-plan-skill.md)**  
+-   **[Configure the Security incident resolution plan skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/config-resolution-plan-skill.md)**  
 Add your existing runbooks to the resolution plan generation skill. The runbooks provide additional context to the resolution plan generation skill.
 
-**Parent Topic:**[Configuring ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)
 

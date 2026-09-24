@@ -2,7 +2,7 @@
 title: Setting up Teams Workforce Optimization for Customer Service
 description: Organize your teams into assignment groups and create reports for those groups so that you can gain visibility into the team's performance.Create key performance indicator \(KPI\) groups with the KPIs that matter most to your teams. When you associate your KPI groups with assignment groups, you can monitor your team's performance.Assign one or more managers to each KPI assignment group so that they can gain visibility into the group and monitor the team's performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setting-teams-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/setting-teams-configurable-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Organize your teams into assignment groups and create reports for those groups s
 
 As an administrator, you can configure KPIs as well as child KPIs. The child KPIs appear when you drill-down into top level KPIs. For example, Closed Cases KPI has P1 Cases, P2 Cases as child KPIs.
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-configurable-wfo-cs.md)
 
 ## Create KPI groups to monitor team performance
 
@@ -88,5 +88,5 @@ You can associate a user with a primary assignment group by selecting the group 
 
 ### What to do next
 
-[Analyze the performance trends for your teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/teams-configurable-wfo-cs.md).
+[Analyze the performance trends for your teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/teams-configurable-wfo-cs.md).
 

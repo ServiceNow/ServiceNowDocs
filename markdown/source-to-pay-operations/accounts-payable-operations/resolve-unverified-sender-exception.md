@@ -2,7 +2,7 @@
 title: Resolve unverified sender source exception
 description: Review an unverified sender source exception in APO and resolve it by adding the sender as a supplier contact or rejecting the invoice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/resolve-unverified-sender-exception.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/resolve-unverified-sender-exception.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -63,7 +63,7 @@ The system evaluates this condition when the sender is not an internal employee.
     -   Failed: Exception check - Supplier identified but sender's email source is unknown — the supplier is recognized but the sender's email domain does not match any known supplier domain or contact.
 4.  Select one of the following actions to resolve the exception:
 
-    To add the sender as a new supplier contact and reprocess the invoice, select **Add contact to supplier**. For the steps to complete this action, see [Add a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.md).
+    To add the sender as a new supplier contact and reprocess the invoice, select **Add contact to supplier**. For the steps to complete this action, see [Add a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.md).
 
     **Note:**
 
@@ -81,10 +81,10 @@ If you rejected the invoice, the system performs the following actions:
 
 If you added the sender as a supplier contact, the invoice is reprocessed.
 
-**Parent Topic:**[Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md)
+**Parent Topic:**[Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md)
 
 **Related topics**  
 
 
-[Add a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.md)
+[Add a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.md)
 

@@ -2,7 +2,7 @@
 title: System Upgrade form
 description: When an upgrade is complete, the System Upgrades form displays key statistics about the upgrade and a related list of skipped records \(the skipped list\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-system-upgrades-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-system-upgrades-form.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center

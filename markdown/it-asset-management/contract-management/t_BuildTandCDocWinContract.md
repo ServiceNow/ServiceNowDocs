@@ -2,7 +2,7 @@
 title: Build a terms and conditions document within a contract
 description: After adding one or more terms and conditions records to a contract, you can build a terms and conditions document within the contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_BuildTandCDocWinContract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/t\_BuildTandCDocWinContract.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -44,7 +44,7 @@ The terms and conditions records are added in the sequence specified in the **Or
 5.  Click **Update**.
 
 
-**Parent Topic:**[Terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_TermsAndConditions.md)
+**Parent Topic:**[Terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/c_TermsAndConditions.md)
 
 **Related topics**  
 

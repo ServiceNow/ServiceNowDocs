@@ -2,7 +2,7 @@
 title: Enable the mobile card generation skill
 description: Activate the mobile card generation skill to let Now Assist generate mobile components using existing web components as a reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/enable-mobile-card-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/enable-mobile-card-generation.html
 release: australia
 topic_type: task
 last_updated: "2026-04-30"
@@ -42,5 +42,5 @@ The **Use Now Assist** option is now available in the web to mobile conversion f
 
 ## What to do next
 
-Use the web to mobile conversion skill in Mobile App Builder to generate a native mobile component. For more information, see [Web to mobile component conversion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/web-mobile-component-conversion.md).
+Use the web to mobile conversion skill in Mobile App Builder to generate a native mobile component. For more information, see [Web to mobile component conversion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/web-mobile-component-conversion.md).
 

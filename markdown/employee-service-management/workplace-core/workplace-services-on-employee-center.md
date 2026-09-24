@@ -2,7 +2,7 @@
 title: Workplace services on the Employee Center portal
 description: Avail workplace-related services using the Employee Center portal. The Employee Center portal is a unified portal that brings all the employee-related services at one place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/workplace-services-on-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/workplace-services-on-employee-center.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -20,9 +20,9 @@ The Employee Center portal allows employees to raise a workplace request for a d
 
 To enable **Workplace services** menu option on the Employee Center portal, ensure that you have the following plugins and applications installed:
 
--   Employee Center plugin \(sn\_ex\_sp\). For more information, refer to: [Employee Center plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-plugins.md)
+-   Employee Center plugin \(sn\_ex\_sp\). For more information, refer to: [Employee Center plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-plugins.md)
 -   Employee Experience Taxonomy plugin \(sn\_ect\)
--   [Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/workplace-service-delivery-suite-landing-page.md) \(sn\_wsd\) suite with all the applications.
+-   [Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/workplace-service-delivery-suite-landing-page.md) \(sn\_wsd\) suite with all the applications.
 
 **Note:** Before you install the Workplace Service Delivery \(sn\_wsd\) plugin, ensure that you have the latest Employee Center plugin.
 
@@ -42,10 +42,10 @@ The **Workplace Services** option shows the list of following workplace services
 The base taxonomy - Employee, is installed when you install the Employee Experience Taxonomy plugin. Complete the following tasks to enable Workplace services on the Employee Center portal:
 
 -   Customize the taxonomy. First, copy the base taxonomy and then make the required changes.
--   Create the content, such as [Create a workplace service record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-create-record-producer.md) or [Knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-kb-article-wsd.md).
+-   Create the content, such as [Create a workplace service record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/wsd-create-record-producer.md) or [Knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-workplace-kb-article-wsd.md).
 -   Associate the content to the taxonomy.
 
-**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-service-delivery-overview.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-service-delivery-overview.md)
 
 **Related topics**  
 
@@ -54,9 +54,9 @@ The base taxonomy - Employee, is installed when you install the Employee Experie
 
 [Virtual Agent for Workplace Service Delivery]()
 
-[Setting up Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-emp-center.md)
+[Setting up Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-emp-center.md)
 
-[Unified taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md)
+[Unified taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-taxonomy.md)
 
-[Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md)
+[Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md)
 

@@ -2,7 +2,7 @@
 title: Components installed with Manager Hub
 description: Several types of components are installed with activation of the Manager Hub \[sn\_mh\] plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-managerhub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/installed-with-managerhub.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -155,7 +155,7 @@ Team Requests Configuration\[sn\_mh\_team\_requests\_config\]
 Stores configuration records of team requests.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
+</table>**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 

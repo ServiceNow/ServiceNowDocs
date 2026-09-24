@@ -2,7 +2,7 @@
 title: Comparing user records
 description: Compare user records to understand the access between two users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/comparing-user-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/comparing-user-records.html
 release: australia
 product: Access Control
 classification: access-control

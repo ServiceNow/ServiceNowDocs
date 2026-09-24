@@ -2,7 +2,7 @@
 title: Customizing Sales Forecast dashboard
 description: Customize the columns that are displayed on your Sales Forecast dashboard and set your preferred column order to match your workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/customizing-sales-forecast-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/customizing-sales-forecast-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -49,14 +49,14 @@ Role required: sn\_sales\_forecast.forecast\_viewer
     The dashboard displays your selected columns in the order that you set and saves it for your forecast model.
 
 
-**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-sales-forecasting.md)
 
 **Related topics**  
 
 
-[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-sales-forecasting.md)
 
-[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-forecasting.md)
+[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-sales-forecasting.md)
 
-[Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting-terminology.md)
+[Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-forecasting-terminology.md)
 

@@ -2,7 +2,7 @@
 title: AI in Certificate Inventory and Management
 description: AI Agents for Discovery provides an AI agent in Certificate Inventory and Management that helps PKI administrators automatically renew TLS certificates through a conversational prompt.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/exploring-ai-in-cert-inventory-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/exploring-ai-in-cert-inventory-mgmt.html
 release: australia
 product: Discovery
 classification: discovery
@@ -23,5 +23,5 @@ Certificate Inventory and Management includes an AI-powered certificate renewal 
 
 |AI feature|Description|Use case|Resources|
 |----------|-----------|--------|---------|
-|Certificate renewal AI agent|Uses AI to automatically renew a single TLS certificate through a conversational prompt. The agent guides the user through the renewal process and provides a link to the task record when complete.|A PKI administrator wants to renew a certificate without manually navigating the renewal workflow.|[Renew certificates using the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/automatically-renew-cert-now-assist.md)|
+|Certificate renewal AI agent|Uses AI to automatically renew a single TLS certificate through a conversational prompt. The agent guides the user through the renewal process and provides a link to the task record when complete.|A PKI administrator wants to renew a certificate without manually navigating the renewal workflow.|[Renew certificates using the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/automatically-renew-cert-now-assist.md)|
 

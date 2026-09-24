@@ -2,7 +2,7 @@
 title: Discovery monitoring and issue resolution
 description: Learn how to monitor the progress of your discoveries and how to configure the system to aggregate performance metrics that are important to you. Find descriptions of the error messages you see, and possible steps you can take to solve problems. The Now Support Knowledge Base on Hi contains several articles to help you troubleshoot discovery issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryTroubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c\_DiscoveryTroubleshooting.html
 release: australia
 product: Discovery
 classification: discovery
@@ -26,15 +26,15 @@ Learn how to monitor the progress of your discoveries and how to configure the s
  
 
 </td></tr></tbody>
-</table>-   **[Discovery Admin Workspace Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md)**
+</table>-   **[Discovery Admin Workspace Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md)**
 
-    Prioritize and address Discovery errors and anomalies from a centralized view in Discovery Admin Workspace. Use the Error Framework to identify root causes and take remediation actions directly from error records. For more information, see [Error Framework in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/error-framework-daw.md).
+    Prioritize and address Discovery errors and anomalies from a centralized view in Discovery Admin Workspace. Use the Error Framework to identify root causes and take remediation actions directly from error records. For more information, see [Error Framework in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/error-framework-daw.md).
 
--   **[Discovery start and classification issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-start-issue-resolve.md)**
+-   **[Discovery start and classification issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/disco-start-issue-resolve.md)**
 
     Resolve common causes when Discovery doesn't start or a device isn't classified, using Error Framework refined codes and manual checks for causes not yet covered by a code.
 
--   **[Discovery Home Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-home-page.md)**
+-   **[Discovery Home Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-home-page.md)**
 
     Open the Discovery Manager to create or edit schedules for IP-based and Cloud Discovery. View the CIs and cloud resources that your schedules discover and then track any errors that occurred.
 
@@ -50,11 +50,11 @@ Learn how to monitor the progress of your discoveries and how to configure the s
 
     Discovery issues may be caused by incorrectly configured or missing credentials. Find out how to identify and configure a missing credential or permission.
 
--   **[Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryErrorMessages.md)**
+-   **[Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryErrorMessages.md)**
 
     View the list of common error messages and possible solutions.
 
--   **[Discovery performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-performance-framework.md)**
+-   **[Discovery performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-performance-framework.md)**
 
     View performance metrics on probe/pattern and sensor processing times. You can use the roll-up data to monitor the performance of specific discoveries or to compare performance between versions after an upgrade.
 

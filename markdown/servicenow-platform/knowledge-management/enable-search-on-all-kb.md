@@ -2,7 +2,7 @@
 title: Configure knowledge bases for a portal
 description: Select which knowledge bases are displayed in a portal to view the associated knowledge articles. If no knowledge bases are configured, users can view articles from all knowledge bases in the portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/enable-search-on-all-kb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/enable-search-on-all-kb.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -33,10 +33,10 @@ Role required: admin
 5.  Click **Save**.
 
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 
 **Related topics**  
 
 
-[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md)
+[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-a-knowledgebase.md)
 

@@ -2,7 +2,7 @@
 title: Configure the contract request form header for your workspace
 description: As an administrator, configure the header of the contract request form for your workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-configure-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-configure-header.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -50,7 +50,7 @@ The form header contains a primary field and secondary fields. You can add your 
 7.  Select **Update**.
 
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 

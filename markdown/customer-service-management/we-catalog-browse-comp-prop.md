@@ -2,7 +2,7 @@
 title: Component properties for the Catalog browse
 description: Component property enables you to configure the behavior of the Catalog browse component on the third-party website.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-catalog-browse-comp-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/we-catalog-browse-comp-prop.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -92,11 +92,11 @@ Option to show or hide the **Recently requested by you** quick action.
 </table>**Related topics**  
 
 
-[Configure the Catalog browse component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-config-catalog-browse-comp.md)
+[Configure the Catalog browse component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-config-catalog-browse-comp.md)
 
-[Embed the Catalog browse component on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-embed-catalog-browse-on-third-party-web.md)
+[Embed the Catalog browse component on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-embed-catalog-browse-on-third-party-web.md)
 
-[Event handlers in the Catalog browse component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-event-handlers-catalog-browse.md)
+[Event handlers in the Catalog browse component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-event-handlers-catalog-browse.md)
 
-[Sample code for the Catalog browse component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-browse-samp-code.md)
+[Sample code for the Catalog browse component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-browse-samp-code.md)
 

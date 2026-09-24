@@ -2,7 +2,7 @@
 title: Move a Platform Analytics dashboard with an update set
 description: Dashboard tabs aren’t automatically transferred in update sets. You can add a dashboard's components to update sets from a dashboard record using the Unload Dashboard function. The Unload Dashboard function unloads the entire dashboard with related content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/move-pae-db-with-update-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/move-pae-db-with-update-set.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ This procedure adds saved data visualizations and filters to the update set. Oth
 
 **Important:** Make sure that the dashboard content is either in the same update set as the dashboard record or is already present in the target instance. Errors result if the moved dashboard points to content that doesn’t exist on the target instance.
 
-Additional steps may be necessary if you are moving a dashboard in a scoped application. For more information, see [Update set id 'global' is different than update set scope id](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.md).
+Additional steps may be necessary if you are moving a dashboard in a scoped application. For more information, see [Update set id 'global' is different than update set scope id](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.md).
 
 **Tip:** If you have difficulty with this procedure, contact Customer Service and Support.
 

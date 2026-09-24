@@ -2,7 +2,7 @@
 title: AI Search for HR Service Delivery
 description: The ServiceNow AI Search application provides a modern consumer-grade search engine for the ServiceNow Service Portal, Employee Center \(EC\), ServiceNow Mobile, and ServiceNow Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/mobile-employee-exp-hr-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/mobile-employee-exp-hr-config.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -64,7 +64,7 @@ For more information, see [AI Search](https://raw.githubusercontent.com/ServiceN
 
 -   **ServiceNow® Mobile**
 
-    Configure AI Search for the ServiceNow® Mobile. For more information, see [Advanced text search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md).
+    Configure AI Search for the ServiceNow® Mobile. For more information, see [Advanced text search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md).
 
 -   **Service Portal or Employee Center**
 
@@ -75,5 +75,5 @@ For more information, see [AI Search](https://raw.githubusercontent.com/ServiceN
     Virtual Agent uses AI Search to return search results in bot conversations when there are no relevant topics to display. For more information, see [Virtual Agent integration with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-ai-search.md).
 
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 

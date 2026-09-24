@@ -2,7 +2,7 @@
 title: Send Threat Lookup to TISC
 description: Using this feature the security analyst can push the threat lookup data from SIR to TISC. Using the TISC Context, you can check if the threat lookup results are present in TISC, if not security analyst can push the data whenever required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/send-threat-lookup-to-tisc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/send-threat-lookup-to-tisc.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +27,7 @@ Role required: sn\_si.analyst
     **Note:**
 
     -   You can also navigate to the **Investigation** tab, and navigate to the **Entry Points Lists** section displayed on the left side of the page and select **Associated Observables** to perform the push operation.
-    -   On the **Investigation** tab, click **View Associated Info** to view all the associated threat lookup, sighting search, and enrichment data for the selected observable. For more information, see [Explore Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/explore-investigation-in-sir-workspace.md).
+    -   On the **Investigation** tab, click **View Associated Info** to view all the associated threat lookup, sighting search, and enrichment data for the selected observable. For more information, see [Explore Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/explore-investigation-in-sir-workspace.md).
 2.  Select **Threat Intel** &gt; **Threat Lookup Results** to perform the push operation and manually push the data into TISC.
 
 3.  Select one or more Threat Lookup Results record.
@@ -66,7 +66,7 @@ Role required: sn\_si.analyst
     \[Omitted image "tisc-threat-lookup-view-results.png"\] Alt text: View threat lookup results
 
 
-**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
+**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/send-sir-to-tisc.md)
 
 **Related topics**  
 

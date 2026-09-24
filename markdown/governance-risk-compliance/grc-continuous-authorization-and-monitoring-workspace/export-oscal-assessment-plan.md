@@ -2,7 +2,7 @@
 title: Export an OSCAL Assessment Plan
 description: Export engagement data as OSCAL Assessment Plan files to share testing plans with auditors or import into external systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-oscal-assessment-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-oscal-assessment-plan.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -62,5 +62,5 @@ The export process generates files asynchronously. After generation completes, d
     You can validate these files using the OSCAL CLI validator and import them into other systems or share them with external auditors for assessment planning.
 
 
-**Parent Topic:**[Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
+**Parent Topic:**[Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
 

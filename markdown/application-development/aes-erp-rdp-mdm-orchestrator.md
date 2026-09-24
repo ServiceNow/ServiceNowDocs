@@ -2,7 +2,7 @@
 title: MDM Orchestrator Rapid Deployment Pack
 description: MDM Orchestrator, an App Engine ERP Rapid Deployment Pack, manages the full life cycle of master data records in your ERP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-mdm-orchestrator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-mdm-orchestrator.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-14"
@@ -66,5 +66,5 @@ MDM Orchestrator supports the following domains:
 -   Location
 -   Material
 
-**Parent Topic:**[Exploring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-explore.md)
+**Parent Topic:**[Exploring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-explore.md)
 

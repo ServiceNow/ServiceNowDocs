@@ -2,7 +2,7 @@
 title: Configuring HR Service Delivery with Ultimate Kronos Group
 description: Set up the HR Service Delivery with Ultimate Kronos Group application to start pulling information, such as accrual balances and shifts from the Ultimate Kronos Group application into a ServiceNow application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/set-up-ukg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/set-up-ukg.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -38,7 +38,7 @@ Activate the HR Service Delivery Integration with Ultimate Kronos Group \[sn\_hr
 
 2.  Complete the one time set up of loading accrual codes from the Ultimate Kronos Group application into ServiceNow.
 
-    For more information, see [Set up accrual codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/accrual-type-ukg.md).
+    For more information, see [Set up accrual codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/accrual-type-ukg.md).
 
 3.  The **Person number** field in Ultimate Kronos Group application should match the **Employee number** field in the ServiceNow User table.
 

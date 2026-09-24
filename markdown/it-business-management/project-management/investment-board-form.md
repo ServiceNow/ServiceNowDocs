@@ -2,7 +2,7 @@
 title: Investment board form
 description: Learn about the fields of investment board form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/investment-board-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/investment-board-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -87,5 +87,5 @@ This option is available only when **Type** is **Portfolio** or **Program**.
 </table>**Related topics**  
 
 
-[Create an investment board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/create-an-investment-report.md)
+[Create an investment board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/create-an-investment-report.md)
 

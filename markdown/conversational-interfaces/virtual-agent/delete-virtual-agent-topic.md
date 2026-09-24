@@ -2,7 +2,7 @@
 title: Delete a Virtual Agent topic
 description: Delete a Virtual Agent topic that is no longer needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/delete-virtual-agent-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/delete-virtual-agent-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +21,7 @@ Delete a Virtual Agent topic that is no longer needed.
 
 Role required: virtual\_agent\_admin or admin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 ## About this task
 
@@ -89,5 +89,5 @@ A toast message also appears for 4 seconds, confirming the topic has been delete
 
 If the topic was active and is no longer listed in the home page, the topic is immediately removed from Virtual Agent clients.
 
-**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

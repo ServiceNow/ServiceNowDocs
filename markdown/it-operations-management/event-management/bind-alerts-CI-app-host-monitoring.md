@@ -2,7 +2,7 @@
 title: Bind alerts to CIs using CI identification
 description: Bind alerts to specific applications on hosts using event rules to ensure accurate tracking and to improve issue resolution speed—leading to efficient remediation and better alignment of alerts with the right resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/bind-alerts-CI-app-host-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/bind-alerts-CI-app-host-monitoring.html
 release: australia
 product: Event Management
 classification: event-management
@@ -73,7 +73,7 @@ If a matching Microsoft IIS Web Server CI is found on the identified host, the a
 
     Add or remove fields using the add \(\[Omitted image "em-add-icon.png"\] Alt text: Add icon\) and the delete \(\[Omitted image "em-delete-icon.png"\] Alt text: Delete icon\) icons.
 
-    **Note:** While filling in the CI Class attributes, if you do not find the attribute you need, you can use the **Transform and Compose Alert Output** tab of the event rule to add the necessary key-value pair. For more information, see [Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMComposeOuput.md).
+    **Note:** While filling in the CI Class attributes, if you do not find the attribute you need, you can use the **Transform and Compose Alert Output** tab of the event rule to add the necessary key-value pair. For more information, see [Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMComposeOuput.md).
 
     The event rule transformation and composition is useful when relevant information exists in a different field but needs to be extracted or reassigned for proper alert processing. This is especially important when the required attribute is not directly available and must be manually defined.
 

@@ -2,7 +2,7 @@
 title: Copy an existing task or project
 description: Save time when building a project by copying tasks from other projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CopyExistingTaskorProject.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_CopyExistingTaskorProject.html
 release: australia
 product: Project Management
 classification: project-management
@@ -43,15 +43,15 @@ The **Copy partial project** option copies a selected task and its child tasks i
 
 The copied tasks are inserted as a child of whatever task or project that you are currently viewing. Actual duration and the actual start and end dates are reset to null values. The state is set to **New** and percent complete is set to **0**.
 
-By default only the short description, planned dates and duration fields are copied from source project to the target project. If additional columns must be copied, they should be declared in the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **List of attributes that will be copied from the originating project task**.
+By default only the short description, planned dates and duration fields are copied from source project to the target project. If additional columns must be copied, they should be declared in the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **List of attributes that will be copied from the originating project task**.
 
--   **[Change default values of copied fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ChangeDefaultValCopiedProjTasks.md)**  
+-   **[Change default values of copied fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ChangeDefaultValCopiedProjTasks.md)**  
 Change the default values of in the new partial project.
 
-**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
+**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateATaskFromAProject.md)
 
 **Related topics**  
 
 
-[Change default values of copied fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ChangeDefaultValCopiedProjTasks.md)
+[Change default values of copied fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ChangeDefaultValCopiedProjTasks.md)
 

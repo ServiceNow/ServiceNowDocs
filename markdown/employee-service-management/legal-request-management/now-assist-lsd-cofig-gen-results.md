@@ -2,7 +2,7 @@
 title: Configuring Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)
 description: By using Q&amp;A Genius Results in the ServiceNow Otto for Legal Service Delivery \(LSD\) application, you can quickly find the most optimal information in Employee Center, Legal Counsel Center, and global search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/now-assist-lsd-cofig-gen-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/now-assist-lsd-cofig-gen-results.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -27,9 +27,9 @@ The Q&amp;A Genius Results capability enables request fulfillers and legal users
 
 For Legal Counsel Center, the Q&amp;A Genius Results feature is activated by default when you install and activate AI Search and the Legal Service Delivery - Prime plugin \(sn\_lg\_ai\_prime\) application.
 
-For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see [Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enabling-now-assist-qa-grs.md) and [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/na-qa-activate.md).
+For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see [Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enabling-now-assist-qa-grs.md) and [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/na-qa-activate.md).
 
-For more information on the other supported search engines, see [Search in Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-search-overview.md).
+For more information on the other supported search engines, see [Search in Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-search-overview.md).
 
-**Parent Topic:**[Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-configuring.md)
+**Parent Topic:**[Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-configuring.md)
 

@@ -2,7 +2,7 @@
 title: Predictive Intelligence for Project Management
 description: The Predictive Intelligence for Project Management capability uses machine-learning algorithms to search and display similar projects while defining a new project using the project form. You can also search for existing projects and compare similar projects for project planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/predictive-intelligence-for-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/predictive-intelligence-for-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -72,7 +72,7 @@ View similar projects based on the **Project Name** and **Description** fields. 
 
 [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)
 
-[Train the similarity solution for Project Management to find similar projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/train-similarity-solution-pm.md)
+[Train the similarity solution for Project Management to find similar projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/train-similarity-solution-pm.md)
 
-[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 

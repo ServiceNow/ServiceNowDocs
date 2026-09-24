@@ -2,7 +2,7 @@
 title: Personal Lines Claims dashboard
 description: With the Personal Lines Claims dashboard, you can get an insight into how your team and business are performing for the claim service requests that were received for your personal lines policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/personal-lines-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/personal-lines-claims.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -118,5 +118,5 @@ Needs to be able to customize views.
 -   Product
 -   SLA percentage
 
-**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-content-pack.md)
 

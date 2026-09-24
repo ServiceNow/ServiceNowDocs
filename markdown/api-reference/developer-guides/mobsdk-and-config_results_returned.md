@@ -2,7 +2,7 @@
 title: Configure return results data
 description: Within the Mobile SDK, when interacting with data from a ServiceNow instance through a REST endpoint, you can configure what data is passed back in the return results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-config\_results\_returned.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-and-config\_results\_returned.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -16,7 +16,7 @@ breadcrumb: [Interact with table data in a ServiceNow instance, Mobile SDK Devel
 
 Within the Mobile SDK, when interacting with data from a ServiceNow instance through a REST endpoint, you can configure what data is passed back in the return results.
 
-You configure what data to pass back using the [FetchConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FetchConfigAndroidAPI.md) API. This interface enables you to configure:
+You configure what data to pass back using the [FetchConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FetchConfigAndroidAPI.md) API. This interface enables you to configure:
 
 -   The specific records to return from a table.
 -   The specific fields to return from the records.
@@ -26,7 +26,7 @@ You configure what data to pass back using the [FetchConfiguration](https://raw.
 
 ## Configuring the specific records to return
 
-The [Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) object within a FetchConfiguration call enables you to define the filter and sort requirements for the records that are fetched from a ServiceNow instance and passed back in the return results from a REST endpoint. This filter is passed in the **sysparm\_query** parameter of the REST API endpoint. For additional information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
+The [Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) object within a FetchConfiguration call enables you to define the filter and sort requirements for the records that are fetched from a ServiceNow instance and passed back in the return results from a REST endpoint. This filter is passed in the **sysparm\_query** parameter of the REST API endpoint. For additional information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/c_TableAPI.md).
 
 You can initialize the Filter object in two different ways depending on the desired filtering capabilities:
 
@@ -69,7 +69,7 @@ You can initialize the Filter object in two different ways depending on the desi
     }
     ```
 
-    To use this type of filtering, use the [Filter\(criteriaList: List&lt;Criteria&gt;, sortBy: List&lt;Sort&gt;? = null\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.md) function.
+    To use this type of filtering, use the [Filter\(criteriaList: List&lt;Criteria&gt;, sortBy: List&lt;Sort&gt;? = null\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.md) function.
 
 2.  Filter by keywords and conditions. This filter enables you to filter records based on specific keywords and conditions that can be AND'd or OR'd together.
 
@@ -84,12 +84,12 @@ You can initialize the Filter object in two different ways depending on the desi
     assertEquals(filter.query().second, "${conditionA.makeConditionQuery()}^${conditionB.makeConditionQuery()}^123TEXTQUERY321=$keywords^EQ^${sortA.makeSortQuery()}")
     ```
 
-    To use this type of filtering, use the [Filter - Filter\(conditions: List&lt;Condition&gt;, keywords: String? = null, sortBy: List&lt;Sort&gt;? = null\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.md) function.
+    To use this type of filtering, use the [Filter - Filter\(conditions: List&lt;Condition&gt;, keywords: String? = null, sortBy: List&lt;Sort&gt;? = null\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.md) function.
 
 
 ## Configuring the specific fields to return
 
-The [FieldReadConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FieldReadConfigAndroidAPI.md) object within the FetchConfiguration\(\) method call allows you to configure what fields to pass back in the return results. In addition, you can configure the format/content of the returned fields as:
+The [FieldReadConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FieldReadConfigAndroidAPI.md) object within the FetchConfiguration\(\) method call allows you to configure what fields to pass back in the return results. In addition, you can configure the format/content of the returned fields as:
 
 -   display values
 -   actual values

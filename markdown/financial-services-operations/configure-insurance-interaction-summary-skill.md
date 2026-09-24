@@ -2,7 +2,7 @@
 title: Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO
 description: Configure the Insurance interaction context summary skill in ServiceNow Otto for FSO to enable AI-powered real-time summaries of insurance customer interactions in the Interaction page of Agentic Contact Center for Insurance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-insurance-interaction-summary-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-insurance-interaction-summary-skill.html
 release: australia
 topic_type: task
 last_updated: "2026-05-21"
@@ -19,9 +19,9 @@ Configure the Insurance interaction context summary skill in ServiceNow Otto for
 Verify the ServiceNow Otto for Financial Services Operations \(FSO\) plugin \(`sn_fso_now_assist`\) and the Agentic Contact Center for Insurance plugin \(`com.sn_ins_csr`\) are installed.
 
 -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
--   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-now-assist-skills.md).
+-   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-fso-now-assist-skills.md).
 
-**Note:** This skill is dependent on the Insurance Customer Profile Summarization skill. Configure that skill before continuing. For more information, see [Configure insurance customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-customer-profile-summarization.md).
+**Note:** This skill is dependent on the Insurance Customer Profile Summarization skill. Configure that skill before continuing. For more information, see [Configure insurance customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-insurance-customer-profile-summarization.md).
 
 Role required: admin
 
@@ -62,7 +62,7 @@ The skill is activated. The **Relevant details for this call** card is displayed
 
 ## What to do next
 
-Configure AI indexing for the sources that this skill uses to retrieve insurance data and generate summaries. For more information, see [Configure AI indexing for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-ai-indexing-agentic-contact-center-insurance.md).
+Configure AI indexing for the sources that this skill uses to retrieve insurance data and generate summaries. For more information, see [Configure AI indexing for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-ai-indexing-agentic-contact-center-insurance.md).
 
 You can choose which service provider to use for this skill [in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
 

@@ -2,7 +2,7 @@
 title: User sessions record
 description: View overall session statistics for a user, and event timeline details for a user's specific sessions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/user-sessions-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/user-sessions-record.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -112,10 +112,10 @@ User Details
 Relevant details associated with the user, including Role, Department, and whether the user is active.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Viewing session analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/viewing-sessions.md)
+</table>**Parent Topic:**[Viewing session analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/viewing-sessions.md)
 
 **Related topics**  
 
 
-[Session Details record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/session-details-record.md)
+[Session Details record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/session-details-record.md)
 

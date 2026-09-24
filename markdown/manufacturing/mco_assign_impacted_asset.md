@@ -2,7 +2,7 @@
 title: Assign an impacted asset
 description: Assign an impacted asset to the recall campaign.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco\_assign\_impacted\_asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco\_assign\_impacted\_asset.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

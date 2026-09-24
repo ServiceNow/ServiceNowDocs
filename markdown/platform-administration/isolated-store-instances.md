@@ -2,7 +2,7 @@
 title: Environments with federal or regional ServiceNow Store instances
 description: Certain regulated environments contain an isolated instance of the ServiceNow Store to support data security requirements. Find out whether your environment has its own federal or regional instance of the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/isolated-store-instances.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/isolated-store-instances.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

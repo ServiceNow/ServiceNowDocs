@@ -2,7 +2,7 @@
 title: Add artifacts to a case
 description: After you have created a case, you can add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/add-records-to-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/add-records-to-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,18 +43,18 @@ Role required: sn\_ti.case\_user\_write
     The list appears in the selected tab and the selected artifacts are added to the list.
 
 
-**Parent Topic:**[Create cases in Security Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-cases-in-case-mgmt.md)
+**Parent Topic:**[Create cases in Security Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-cases-in-case-mgmt.md)
 
 **Related topics**  
 
 
 [Associate MITRE-ATT&amp;CK information with security case]()
 
-[Add IoCs and observables to an existing case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-records-to-cases-threat.md)
+[Add IoCs and observables to an existing case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-records-to-cases-threat.md)
 
-[Add security incidents to an existing case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-sec-inc-to-cases.md)
+[Add security incidents to an existing case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-sec-inc-to-cases.md)
 
-[Add CIs to existing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-cis-to-cases-sir.md)
+[Add CIs to existing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-cis-to-cases-sir.md)
 
-[Add affected users to existing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-users-to-cases-sir.md)
+[Add affected users to existing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-users-to-cases-sir.md)
 

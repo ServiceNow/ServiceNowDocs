@@ -2,7 +2,7 @@
 title: Components installed with Individual Life Claims
 description: Several types of components are installed with the activation of the Individual Life Claims application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/components-installed-individual-life-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/components-installed-individual-life-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -26,7 +26,7 @@ Several types of components are installed with the activation of the Individual 
 
 |Store application|Description|
 |-----------------|-----------|
-|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md).|
+|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-core-data-model.md).|
 |Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, enabling consistent responses to commonly encountered situations. For more information, see[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).|
 
 ## Roles installed
@@ -135,5 +135,5 @@ sn\_ins\_claim\_indl.dbn\_adjuster
 |Related Death Policy Claim \[sn\_ins\_claim\_indl\_rel\_death\_case\]|Stores information about the related death claims from each policy that is attached to the customer.|
 |Individual Death Claim Task \[sn\_ins\_claim\_indl\_death\_task\]|Stores information about all the individual death claims tasks for all the individual life claims. This table extends the Financial Task \[sn\_bom\_task\] table.|
 
-**Parent Topic:**[Individual Life Claims reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/individual-life-claims-reference.md)
+**Parent Topic:**[Individual Life Claims reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/individual-life-claims-reference.md)
 

@@ -2,7 +2,7 @@
 title: Data snapshots sources and collection
 description: Data snapshots include data sources for indicator score collection and the mapping between indicators and these sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/tables-unlimited-breakdowns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/tables-unlimited-breakdowns.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -42,8 +42,8 @@ Data snapshots collection jobs copy a subset of the source table. These jobs als
 
 All job logs are in the Data Snapshots Statistics \[pa\_dm\_task\_telemetry\] table. Open Data snapshots job logs at **Platform analytics administration** &gt; **Data collector** &gt; **Data snapshots job logs**. Whereas a Data snapshots source record shows only the job logs related to that data source, the Data Snapshots Statistics list shows all Data snapshots job logs.
 
--   **[Create a Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-source.md)**  
+-   **[Create a Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-ds-source.md)**  
 To provide a filtered dataset of records that you can evaluate with one or more indicators, create an indicator source. Data snapshots indicators require different sources than do classic indicators. Data snapshots logs are accessible on the source records.
 
-**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)
+**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 

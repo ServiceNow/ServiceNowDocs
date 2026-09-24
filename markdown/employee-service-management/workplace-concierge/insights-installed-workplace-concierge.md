@@ -2,7 +2,7 @@
 title: Insights installed with Workplace Concierge
 description: The following insights are installed with the Workplace Concierge and Proactive Prompts plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/insights-installed-workplace-concierge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/insights-installed-workplace-concierge.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -66,7 +66,7 @@ Displays a message if the employee presence isn’t set to five days in the offi
 |Presence Calendar Insight|Displays the insight in the calendar week view.|
 |Presence Dashboard Insight|Displays the insight on the Presence dashboard.|
 
-**Parent Topic:**[Workplace Concierge - Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/workplace-concierge-references.md)
+**Parent Topic:**[Workplace Concierge - Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/workplace-concierge-references.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Search the knowledge base
 description: Use the customer portal to search the knowledge base or view a list of popular knowledge base articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_SearchTheKnowledgeBase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_SearchTheKnowledgeBase.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ The customer service portal includes a link to the knowledge base that you can u
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d281738e109">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d281742e109">
 
 **Click a product to display more specific information**
 
@@ -43,7 +43,7 @@ The customer service portal includes a link to the knowledge base that you can u
 
 Displays a list of categories on the left and articles on the right. Click a category to drill down even further.
 
-</td></tr><tr><td id="d281738e118">
+</td></tr><tr><td id="d281742e118">
 
 **Click a link from one of the lists**
 
@@ -51,7 +51,7 @@ Displays a list of categories on the left and articles on the right. Click a cat
 
 Displays the article.
 
-</td></tr><tr><td id="d281738e127">
+</td></tr><tr><td id="d281742e127">
 
 **Type a topic in the __Search__ field and press the Enter key**
 
@@ -64,7 +64,7 @@ Displays a list of related articles. Click a link to display the desired article
 **Related topics**  
 
 
-[Search for information on customer service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchForInfoUsingThePortal.md)
+[Search for information on customer service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_SearchForInfoUsingThePortal.md)
 
-[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheCommunity.md)
+[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_SearchTheCommunity.md)
 

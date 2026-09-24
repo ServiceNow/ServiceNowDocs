@@ -2,7 +2,7 @@
 title: Exploring Test generation
 description: If you are new to Test generation application, read this overview to learn what the app can do.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/tg-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-generation/tg-explore.html
 release: australia
 product: Test Generation
 classification: test-generation
@@ -44,13 +44,13 @@ Test generation has the following users.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Automate test generation|[Generate a test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-implement.md)|System Administrator and Creator Pro|
-|Edit a generated test after the preview|[Edit a generated test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-edit-test.md)|System Administrator and Creator Pro|
+|Automate test generation|[Generate a test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-implement.md)|System Administrator and Creator Pro|
+|Edit a generated test after the preview|[Edit a generated test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-edit-test.md)|System Administrator and Creator Pro|
 
 ## What to explore next
 
 To learn more about using Test generation, see:
 
--   [Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-use.md)
--   [Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-reference.md)
+-   [Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-use.md)
+-   [Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-reference.md)
 

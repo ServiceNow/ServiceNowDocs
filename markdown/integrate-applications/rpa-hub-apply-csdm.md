@@ -2,7 +2,7 @@
 title: Applying the CSDM guidelines to RPA Hub
 description: Apply Common Service Data Model \(CSDM\) guidelines to RPA Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rpa-hub-apply-csdm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/rpa-hub-apply-csdm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

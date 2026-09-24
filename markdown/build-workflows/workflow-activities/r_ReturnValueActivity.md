@@ -2,7 +2,7 @@
 title: Return Value workflow activity
 description: The Return Value activity returns a value to a parent workflow, when run from a subflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_ReturnValueActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/r\_ReturnValueActivity.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -16,9 +16,9 @@ breadcrumb: [Utility workflow activities, Workflow activities reference, Workflo
 
 The **Return Value** activity returns a value to a parent workflow, when run from a subflow.
 
-This activity has no variables or conditions. For more information, see [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflows-as-subflows.md).
+This activity has no variables or conditions. For more information, see [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/workflows-as-subflows.md).
 
-Use this activity within a subflow to store data that the parent flow can access. The **Return Value** activity adds the data from the subflow's *value* variable to the parent workflow's [scratchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md).
+Use this activity within a subflow to store data that the parent flow can access. The **Return Value** activity adds the data from the subflow's *value* variable to the parent workflow's [scratchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md).
 
 ## Scratchpad entries
 
@@ -31,7 +31,7 @@ The activity uses the workflow scratchpad to read and write persistent values.
 **Related topics**  
 
 
-[Workflow scratchpad variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md)
+[Workflow scratchpad variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md)
 
-[Using variables in a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md)
+[Using variables in a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md)
 

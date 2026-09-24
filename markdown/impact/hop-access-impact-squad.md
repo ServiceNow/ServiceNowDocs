@@ -2,7 +2,7 @@
 title: Grant temporary instance access to your Impact Squad
 description: Familiarize yourself with your ServiceNow Impact Squad, a dedicated team of experts ready to assist in tackling your team's unique transformation challenges. View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/hop-access-impact-squad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/hop-access-impact-squad.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -98,11 +98,11 @@ Date access to the instance expires for the squad member.
 
 ## What to do next
 
-Refer to [Using Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-in-app.md) to get started with the Impact Store Application.
+Refer to [Using Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-in-app.md) to get started with the Impact Store Application.
 
-**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Configure other integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-other-integration-options.md)
+**Previous topic:**[Configure other integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-other-integration-options.md)
 
-**Next topic:**[Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md)
+**Next topic:**[Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/activate-now-assist-skills-in-now-assist-for-impact.md)
 

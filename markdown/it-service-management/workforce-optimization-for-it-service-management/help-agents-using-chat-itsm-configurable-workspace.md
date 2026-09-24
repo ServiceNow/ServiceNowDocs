@@ -2,7 +2,7 @@
 title: Assist agents by joining their chat conversation
 description: Assist agents in real-time by joining their chat conversation and collaborate on any record by connecting with the right people instantly to achieve faster resolution​.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/help-agents-using-chat-itsm-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/help-agents-using-chat-itsm-configurable-workspace.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -20,7 +20,7 @@ Assist agents in real-time by joining their chat conversation and collaborate on
 
 **Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-**Important:** The Manager Workspace navigation is only available after Workforce Optimization for ITSM is activated and you have been assigned the sn\_wfo\_cfg\_ws.manager role or sn\_wfo\_cfg\_itsm.manager in the Admin Console. If this navigation path is missing, ask your administrator to verify WFO ITSM activation and role assignment. For setup instructions, see [Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configuring-groups-wfo-itsm.md).
+**Important:** The Manager Workspace navigation is only available after Workforce Optimization for ITSM is activated and you have been assigned the sn\_wfo\_cfg\_ws.manager role or sn\_wfo\_cfg\_itsm.manager in the Admin Console. If this navigation path is missing, ask your administrator to verify WFO ITSM activation and role assignment. For setup instructions, see [Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configuring-groups-wfo-itsm.md).
 
 Role required: sn\_wfo\_cfg\_ws.manager or sn\_wfo\_cfg\_itsm.manager
 
@@ -46,5 +46,5 @@ View the work-in-progress chat interactions and​ see if any of the agents has 
     The chat conversation is established.
 
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

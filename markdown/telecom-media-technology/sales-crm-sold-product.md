@@ -2,7 +2,7 @@
 title: Creation of sold product and product inventory records
 description: Learn how the Order Management application creates and maintains the customer product and service inventory. By using this application, you can maintain an accurate inventory of your customer products and services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/sales-crm-sold-product.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/sales-crm-sold-product.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-09"

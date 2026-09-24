@@ -2,7 +2,7 @@
 title: REST API connector tables for Zero Copy Connector for ERP
 description: The REST API connector in Zero Copy Connector for ERP \(Enterprise Resource Planning\) uses these tables to store service definitions, endpoint definitions, and model metadata.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-rest-api-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-rest-api-tables.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,11 +17,11 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The REST API connector in Zero Copy Connector for ERP \(Enterprise Resource Planning\) uses these tables to store service definitions, endpoint definitions, and model metadata.
 
-For an overview of the REST API connector, see [REST API for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-rest-api-connector.md).
+For an overview of the REST API connector, see [REST API for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-rest-api-connector.md).
 
-For process details, see [Add a REST entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.md).
+For process details, see [Add a REST entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.md).
 
-For information about adding a service, see [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
+For information about adding a service, see [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
 
 Oracle E-Business Suite services described by WADL documents use their own set of tables.
 

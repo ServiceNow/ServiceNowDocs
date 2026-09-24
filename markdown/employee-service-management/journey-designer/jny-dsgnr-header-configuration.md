@@ -2,7 +2,7 @@
 title: Create and configure Journey designer headers
 description: Manage journey headers or customize journey headers for different journey types based on user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-header-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-dsgnr-header-configuration.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -57,15 +57,15 @@ There are default heading configurations for these personas:
 
     1.  Select **New**, or open an existing heading field.
 
-        For more information see, [Journey designer header configuration fields reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-header-config-fields-ref.md).
+        For more information see, [Journey designer header configuration fields reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-header-config-fields-ref.md).
 
     2.  Fill out the **Heading Field** form, and select **Submit** or **Update**.
 
 
-**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 
 **Related topics**  
 
 
-[Journey designer header configuration fields reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-header-config-fields-ref.md)
+[Journey designer header configuration fields reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-header-config-fields-ref.md)
 

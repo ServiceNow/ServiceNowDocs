@@ -2,7 +2,7 @@
 title: NowVoiceEndpoint structure - iOS
 description: Describes a voice agent endpoint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -45,5 +45,5 @@ guard let endpoint = voiceService.configurations.first else {
 }
 ```
 
-**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

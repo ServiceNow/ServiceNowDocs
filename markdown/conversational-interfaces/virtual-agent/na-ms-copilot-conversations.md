@@ -2,12 +2,12 @@
 title: ServiceNow Otto in Virtual Agent conversations with Microsoft Copilot
 description: Use ServiceNow Otto plugins in Microsoft Copilot to connect with the Copilot by providing your bot or plugin name during your generative AI conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/na-ms-copilot-conversations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/na-ms-copilot-conversations.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Integrating with Microsoft Copilot, Use ServiceNow Otto for Virtual Agent in Teams conversations, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -31,7 +31,7 @@ Sample prompts that you can use within Copilot:
 -   `What is my laptop replacement policy?`
 -   `Can you help me order a laptop?`
 
-**Note:** Sample prompts are located in the manifest file, and are displayed in both Microsoft Copilot and Microsoft Teams. You can't customize the prompts or the **View prompts** control displayed in Answers Chat if you're using the pre-published Now Virtual Agent app. To customize prompts, use the self-configured bot. For more information, see [Setting up the Self-configured bot for using Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-self-bot-copilot.md).
+**Note:** Sample prompts are located in the manifest file, and are displayed in both Microsoft Copilot and Microsoft Teams. You can't customize the prompts or the **View prompts** control displayed in Answers Chat if you're using the pre-published Now Virtual Agent app. To customize prompts, use the self-configured bot. For more information, see [Setting up the Self-configured bot for using Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/setup-self-bot-copilot.md).
 
 To initiate a chat with Microsoft Copilot, you can @-mention the bot name and based on the input utterance, Copilot verifies that your request in the chat reaches the respective plugin's instance and a response is received.
 
@@ -91,5 +91,5 @@ To add a bot to Copilot, login to your Microsoft Teams tenant and navigate to **
 
 \[Omitted image "copilot-declarative-agent.png"\] Alt text: Adding a bot to Copilot as a declarative Agent to use it for unique business needs.
 
-**Parent Topic:**[Integrating with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)
+**Parent Topic:**[Integrating with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)
 

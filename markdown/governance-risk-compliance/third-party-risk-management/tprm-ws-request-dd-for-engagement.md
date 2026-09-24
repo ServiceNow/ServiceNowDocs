@@ -2,7 +2,7 @@
 title: Request due diligence for a third-party engagement
 description: Request due diligence to assess the risk that is associated with doing business with an engagement. By conducting due diligence, you gain access to the most up-to-date, comprehensive, and accurate information before making a decision on entering into a business relationship.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -22,9 +22,9 @@ Role required: snc\_internal
 
 ## About this task
 
-Because your organization assesses the risk that is associated with doing business with third parties, it performs due diligence for any engagement with a third party. When you request due diligence, you specify the third party's name and the reason for your request. For example, start a new engagement with a third party that you have already engaged or perform due diligence in preparation to renew a contract. You then specify the details that help the Third-party Risk \(TPR\) managers and TPR assessors at your organization proceed with the due diligence processes. If a request is accepted, it initially goes through the IRQ process. After the IRQ process, as part of the Due diligence process, two third-party risk assessments begin. One assessment is for the third party and another assessment is for the engagement. For more information, see [Due diligence workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.md).
+Because your organization assesses the risk that is associated with doing business with third parties, it performs due diligence for any engagement with a third party. When you request due diligence, you specify the third party's name and the reason for your request. For example, start a new engagement with a third party that you have already engaged or perform due diligence in preparation to renew a contract. You then specify the details that help the Third-party Risk \(TPR\) managers and TPR assessors at your organization proceed with the due diligence processes. If a request is accepted, it initially goes through the IRQ process. After the IRQ process, as part of the Due diligence process, two third-party risk assessments begin. One assessment is for the third party and another assessment is for the engagement. For more information, see [Due diligence workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.md).
 
-**Note:** This feature is available only if the Third-party Risk Management application has been activated. After you install the Risk concentration map feature, you must install a Google license to enable the feature. To enable the risk concentration map feature, see [Enable the TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-map-configure.md).
+**Note:** This feature is available only if the Third-party Risk Management application has been activated. After you install the Risk concentration map feature, you must install a Google license to enable the feature. To enable the risk concentration map feature, see [Enable the TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-risk-map-configure.md).
 
 ## Procedure
 
@@ -40,11 +40,11 @@ Because your organization assesses the risk that is associated with doing busine
     -   **Offboard an engagement with due diligence**
     -   **Offboard an engagement with no due diligence**
 
-        For more information, see [Offboarding an engagement without conducting due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dd-request-offboard-no-dd.md).
+        For more information, see [Offboarding an engagement without conducting due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dd-request-offboard-no-dd.md).
 
-    For descriptions of each type of due diligence request, see [Requesting third-party risk due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-requesting-tpr-due-diligence.md).
+    For descriptions of each type of due diligence request, see [Requesting third-party risk due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-requesting-tpr-due-diligence.md).
 
-    **Note:** If your organization requires a software bill of materials \(SBOM\) from the third party as part of due diligence, select **SBOM required** on the request form. When selected and the engagement uses the Smart Assessment Engine, the system automatically associates an SBOM questionnaire with the engagement's external assessment. For more information, see [Request a software bill of materials from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.md).
+    **Note:** If your organization requires a software bill of materials \(SBOM\) from the third party as part of due diligence, select **SBOM required** on the request form. When selected and the engagement uses the Smart Assessment Engine, the system automatically associates an SBOM questionnaire with the engagement's external assessment. For more information, see [Request a software bill of materials from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.md).
 
 4.  Select **Add attachments** to include a document with the request.
 
@@ -62,18 +62,18 @@ Because your organization assesses the risk that is associated with doing busine
         1.  Select the **Third party is not listed** check box.
         2.  Enter the name of the new third party.
         3.  The form expands. In the next step, you enter the key information like the address and contact details for the third party and for the engagement.
-    If you selected an existing third party, identifying information such as address and contact details is automatically filled in. For descriptions of these fields, see [Request third-party risk due diligence request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dd-form.md).
+    If you selected an existing third party, identifying information such as address and contact details is automatically filled in. For descriptions of these fields, see [Request third-party risk due diligence request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dd-form.md).
 
 6.  Select **Submit**.
 
     -   The system opens to the **Activity** tab on the My request page. For each due diligence request, the system auto-assigns a unique ID number that starts with the text DDR. Use the ID to track your request. You can post a message to reviewers and add attachments from the page.
     -   The system sends you an email confirmation that your request was submitted. The message includes a link to the request details on the Third-party Risk Management application.
     -   The system sends an email notification to all users in the group that is specified in the **Assignment group**. The message states that the request was received and is in the **New** state. The message also includes a link to the details page for the request.
-    **Note:** For new due diligence requests, the **Assignment group** is set to Due diligence request assigners. The TPR manager or owner can specify which group is the **Assignment group** on the **Details** tab for a due diligence request. For more information, see [Due diligence request process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-details-tab.md) and [Add users to groups based on responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-groups-add-users-to.md).
+    **Note:** For new due diligence requests, the **Assignment group** is set to Due diligence request assigners. The TPR manager or owner can specify which group is the **Assignment group** on the **Details** tab for a due diligence request. For more information, see [Due diligence request process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-details-tab.md) and [Add users to groups based on responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-groups-add-users-to.md).
 
 
 **Related topics**  
 
 
-[Offboarding an engagement without conducting due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dd-request-offboard-no-dd.md)
+[Offboarding an engagement without conducting due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dd-request-offboard-no-dd.md)
 

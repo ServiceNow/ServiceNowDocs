@@ -2,7 +2,7 @@
 title: Limit the Dispatcher Workspace map display to tasks or agents
 description: Reduce the number of pins displayed on the map in Dispatcher Workspace by displaying either tasks or agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/dispatcher-map-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/dispatcher-map-filter.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

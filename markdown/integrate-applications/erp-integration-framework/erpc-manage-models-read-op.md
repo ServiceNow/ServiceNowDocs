@@ -2,7 +2,7 @@
 title: Add an operation to a model in Zero Copy Connector for ERP
 description: Add an operation to an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -54,7 +54,7 @@ This video was recorded in the Zurich release.
 
 7.  Select at least one user role or group that can read or run the model operation.
 
-    To prevent disruptions, all existing model operations have been assigned the admin role and the erp\_user role by default. You can edit these permissions on the existing operations at any time to suit your needs. To change the permissions, select the edit \(pencil\) icon \[Omitted image "pencil-outline-24.svg"\] Alt text: on the model operation card. For more information about model operation security, see [Operation-level security for models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-set-operation-level-security-on-a-model.md).
+    To prevent disruptions, all existing model operations have been assigned the admin role and the erp\_user role by default. You can edit these permissions on the existing operations at any time to suit your needs. To change the permissions, select the edit \(pencil\) icon \[Omitted image "pencil-outline-24.svg"\] Alt text: on the model operation card. For more information about model operation security, see [Operation-level security for models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-set-operation-level-security-on-a-model.md).
 
 8.  Select **Save and continue**.
 
@@ -69,7 +69,7 @@ The foundation of the operation is created.
 
 ## What to do next
 
-Next, you must add the read or update entity to the operation. For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+Next, you must add the read or update entity to the operation. For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 You can select the delete icon \(\[Omitted image "trash-outline-24.svg"\]\) on the operation's card to remove any operations you don't need, or to start over.
 

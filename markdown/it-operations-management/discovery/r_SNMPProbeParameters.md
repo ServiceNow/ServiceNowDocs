@@ -2,7 +2,7 @@
 title: SNMP probe parameters
 description: This list of parameters may be passed to the SNMP probes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_SNMPProbeParameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_SNMPProbeParameters.html
 release: australia
 product: Discovery
 classification: discovery
@@ -16,7 +16,7 @@ breadcrumb: [SNMP probes, List of Discovery probes, Discovery probes and sensors
 
 This list of parameters may be passed to the SNMP probes.
 
-For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetProbeParameters.md).
+For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_SetProbeParameters.md).
 
 <table id="table_mmh_pny_5p"><thead><tr><th>
 
@@ -238,5 +238,5 @@ The number of additional attempts Discovery makes to complete an individual GETB
 2
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SNMPProbe.md)
+</table>**Parent Topic:**[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_SNMPProbe.md)
 

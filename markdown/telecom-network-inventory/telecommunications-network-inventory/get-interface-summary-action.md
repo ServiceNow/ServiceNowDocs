@@ -2,7 +2,7 @@
 title: Get Interface Summary function
 description: The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and the physical connection of the equipment in the Telecommunications Network Inventory application when you use Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/get-interface-summary-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/get-interface-summary-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -180,7 +180,7 @@ If the input is passed as Equipment-1 as shown in the following example where Po
 
 If you select **If multiple records are found action** as **Return only the first record**, it returns Port-1, Port-2, and PC-1, respectively.
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

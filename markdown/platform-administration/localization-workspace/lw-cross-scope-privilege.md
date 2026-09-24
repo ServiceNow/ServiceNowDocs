@@ -2,7 +2,7 @@
 title: Cross-scope privileges for Localization Workspace
 description: After you create custom translation artifacts, set cross-scope privileges so that your artifacts can be accessed from Localization Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-cross-scope-privilege.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-cross-scope-privilege.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -34,7 +34,7 @@ For each artifact, set two entries in Cross scope privileges \[sys\_scope\_privi
 
 The source scope for these records should be Localization Workspace.
 
-Artifacts that are available by default don't need manual configuration of cross-scope privilege. For more information, see [Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-localizable-content.md).
+Artifacts that are available by default don't need manual configuration of cross-scope privilege. For more information, see [Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-localizable-content.md).
 
 ## Procedure
 
@@ -73,16 +73,16 @@ Artifacts that are available by default don't need manual configuration of cross
 
 ## What to do next
 
-You may also need to set Restricted Caller Access privileges to make restricted resources available to Localization Workspace. For more information see [Restricted Caller Access for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-restricted-caller-access.md).
+You may also need to set Restricted Caller Access privileges to make restricted resources available to Localization Workspace. For more information see [Restricted Caller Access for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-restricted-caller-access.md).
 
-**Parent Topic:**[Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/configuring-localization-workspace.md)
+**Parent Topic:**[Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/configuring-localization-workspace.md)
 
 **Related topics**  
 
 
-[Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-localizable-content.md)
+[Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-localizable-content.md)
 
-[Create and configure a custom artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/create-configure-custom-artifact.md)
+[Create and configure a custom artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/create-configure-custom-artifact.md)
 
-[Create a processor script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/create-processor-script.md)
+[Create a processor script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/create-processor-script.md)
 

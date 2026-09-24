@@ -2,7 +2,7 @@
 title: Configure the generation of incident patterns
 description: Configure the scheduled jobs that generate the incident patterns from the safety incident records to run at a particular interval or time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-configure-generation-incident-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/hs-configure-generation-incident-pattern.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -44,5 +44,5 @@ The scheduled jobs to generate the incident patterns run by default when you hav
     **Note:** To run the job and update metrics on demand, select **Execute Now**.
 
 
-**Parent Topic:**[Configure incident patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-configure-incident-patterns.md)
+**Parent Topic:**[Configure incident patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/hs-configure-incident-patterns.md)
 

@@ -2,7 +2,7 @@
 title: View the change history of application services in classic Service Mapping
 description: You can view the changes made to an application service as a whole and to the individual configuration items \(CIs\) comprising the service. Change history is useful for maintenance, planning, or troubleshooting procedures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_ViewCIChanges.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/t\_ViewCIChanges.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -28,7 +28,7 @@ Changes to configuration files are associated with CIs to which these files belo
 
 While you can see change records for a specific CI in the context of application services, you can also see detailed history of a specific CI separate from its service instance as described in [History Timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistoryTimeline.md).
 
-If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see [Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ProposedChanges.md).
+If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see [Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ProposedChanges.md).
 
 Changes to the service instance appear on the history timeline.
 
@@ -71,15 +71,15 @@ You can mark times on the history scale by creating baselines to quickly return 
 
 3.  On the history timeline, set the time range of changes that you want to view.
 
-<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d459178e301">
+<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d459499e301">
 
 Option
 
-</th><th align="left" id="d459178e304">
+</th><th align="left" id="d459499e304">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d459178e310">
+</th></tr></thead><tbody><tr><td id="d459499e310">
 
 **To set the time range of the history timeline**
 
@@ -87,7 +87,7 @@ Action
 
 Click the hour, day, week, or month icons.\[Omitted image "MapHistoryTimeRangeIcons.png"\] Alt text: Click Hours, Days, Weeks, or Months to set the time range of the history scale.
 
-</td></tr><tr><td id="d459178e325">
+</td></tr><tr><td id="d459499e325">
 
 **To increase or decrease the time range**
 
@@ -95,7 +95,7 @@ Click the hour, day, week, or month icons.\[Omitted image "MapHistoryTimeRangeIc
 
 Click the zoom in and zoom out icons.\[Omitted image "MapHistoryPlusMinusIcons.png"\] Alt text: Click Zoom in and Zoom out to change the time range.
 
-</td></tr><tr><td id="d459178e340">
+</td></tr><tr><td id="d459499e340">
 
 **To change the upper limit on your history range**
 
@@ -136,15 +136,15 @@ You cannot set the lower limit on your history range to a time before this servi
 
 5.  View the change history.
 
-<table id="choicetable_ky8_b2k_s5"><thead><tr><th align="left" id="d459178e477">
+<table id="choicetable_ky8_b2k_s5"><thead><tr><th align="left" id="d459499e477">
 
 Option
 
-</th><th align="left" id="d459178e480">
+</th><th align="left" id="d459499e480">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d459178e486">
+</th></tr></thead><tbody><tr><td id="d459499e486">
 
 **To see the CI responsible for a change record**
 
@@ -154,7 +154,7 @@ Select a change record on the **Changes** tab.The related CI is marked yellow in
 
  \[Omitted image "MapChangesTabSelectRecord.png"\] Alt text: View the CI responsible for a change record.
 
-</td></tr><tr><td id="d459178e508">
+</td></tr><tr><td id="d459499e508">
 
 **To see only change records related to a CI**
 
@@ -164,7 +164,7 @@ Select the required CI or the connection on the map.The **Changes** tab displays
 
  \[Omitted image "MapChangesTabSelectCI.png"\] Alt text: View only change records related to a CI.
 
-</td></tr><tr><td id="d459178e530">
+</td></tr><tr><td id="d459499e530">
 
 **To see the configuration file at the selected moment in the past**
 
@@ -175,7 +175,7 @@ Select the required CI or the connection on the map.The **Changes** tab displays
 
 The new tab opens displaying the content of the tracked configuration file at the selected time.
 
-</td></tr><tr><td id="d459178e556">
+</td></tr><tr><td id="d459499e556">
 
 **To see the network at the selected moment in the past**
 
@@ -197,9 +197,9 @@ The new tab opens displaying the network or storage path map for the time you se
 **Related topics**  
 
 
-[View an application service map in base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-map-base-system.md)
+[View an application service map in base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/app-service-map-base-system.md)
 
-[Compare two versions of an application service in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CompareBS.md)
+[Compare two versions of an application service in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_CompareBS.md)
 
 [Modify tracking changes in configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/track-configuration-files.md)
 

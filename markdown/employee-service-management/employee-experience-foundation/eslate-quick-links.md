@@ -2,7 +2,7 @@
 title: Quick links widget configuration
 description: EmployeeWorks Web App provides Quick Link widgets on the home page and Canvas to give employees direct access to key destinations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-quick-links.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-quick-links.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,12 +26,12 @@ You can configure quick links from the admin console or with the **sys\_id** of 
 |**Home page**|Background script — the configuration field is read-only in the standard UI|**System Definition** &gt; **Scripts - Background**|
 |**Canvas**|Widget instance record — edit directly in the UI|**AIUX** &gt; **Dashboards**|
 
-To configure either widget, see [Manage quick links widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-quick-links.md).
+To configure either widget, see [Manage quick links widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-quick-links.md).
 
 **Related topics**  
 
 
-[Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md)
+[Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md)
 
-[Manage quick links widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-quick-links.md)
+[Manage quick links widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-quick-links.md)
 

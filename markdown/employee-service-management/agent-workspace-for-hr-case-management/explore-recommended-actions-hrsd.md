@@ -2,7 +2,7 @@
 title: Exploring Recommended Actions for HRSD
 description: The Recommended Actions for HRSD provides real‑time, actionable guidance, and relevant resources that help HR agents speed up case resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/explore-recommended-actions-hrsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/explore-recommended-actions-hrsd.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -24,7 +24,7 @@ HR Agents can access Recommended Actions in HR Agent Workspace by selecting the 
 -   Relevant KB articles and similar cases in the context of the current case.
 -   Suggestion to add an approval to the case whenever needed.
 
-    For more details, see [Use recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/guided-decision-tree-aws.md).
+    For more details, see [Use recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/guided-decision-tree-aws.md).
 
 
 ## Recommended Actions for HRSD workflow

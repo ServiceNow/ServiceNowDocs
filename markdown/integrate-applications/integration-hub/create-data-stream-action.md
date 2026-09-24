@@ -2,7 +2,7 @@
 title: Create a Data Stream action
 description: Create a reusable action to process a stream of response data within a flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-data-stream-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/create-data-stream-action.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -74,7 +74,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
     1.  In the **How will you get data** field, select **REST Step**, **SOAP Step**, or **JDBC Step** to add the associated step to the Data Stream action.
 
-        For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md), [SOAP step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/soap-step-action-designer.md), and [JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jdbc-step.md) .
+        For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/rest-request-action-designer.md), [SOAP step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/soap-step-action-designer.md), and [JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/jdbc-step.md) .
 
         This section can run on either the MID Server or the instance. The environment is determined by the **Use MID server** field in the associated Connection \[sys\_connection\] record.
 
@@ -269,7 +269,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
 ## What to do next
 
-[Test a Data Stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-data-stream-action.md).
+[Test a Data Stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/test-data-stream-action.md).
 
-**Parent Topic:**[Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md)
+**Parent Topic:**[Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/data-stream-actions.md)
 

@@ -2,7 +2,7 @@
 title: Retarget a release
 description: Change the release readiness target to reschedule the release period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-work-release-readiness-target.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-work-release-readiness-target.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -77,5 +77,5 @@ The visibility of the **Out of band** check box depends on product-level release
 
 Update the planned dates on the associated change requests manually because they are not automatically updated when you retarget the release.
 
-**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-releases.md)
+**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-manage-releases.md)
 

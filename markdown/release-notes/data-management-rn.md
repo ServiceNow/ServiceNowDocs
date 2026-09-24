@@ -2,7 +2,7 @@
 title: Data Management release notes
 description: The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/data-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/data-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ See [Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     The ability to store archive data in object storage is available with the installation of Live Archive, which requires a separate subscription. For details, see .
 
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
 ## Australia General Availability
 

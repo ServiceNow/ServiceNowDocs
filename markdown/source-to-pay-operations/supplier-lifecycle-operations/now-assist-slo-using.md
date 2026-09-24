@@ -2,7 +2,7 @@
 title: Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 description: Generate supplier-related case summaries to get a quick overview of cases, completed actions, or pending tasks. Role required: sn\_slm.fulfiller or sn\_slm.admin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -19,18 +19,18 @@ Generate supplier-related case summaries to get a quick overview of cases, compl
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-For more information on how to use ServiceNow Otto for SLO to summarize a case, see [Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.md).
+For more information on how to use ServiceNow Otto for SLO to summarize a case, see [Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.md).
 
-For more information on how to use ServiceNow Otto for SLO in a Virtual Agent chat, see [Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.md).
+For more information on how to use ServiceNow Otto for SLO in a Virtual Agent chat, see [Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.md).
 
 **Related topics**  
 
 
-[Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.md)
+[Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.md)
 
-[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.md)
+[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.md)
 
-[Explore ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md)
+[Explore ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md)
 
-[Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
+[Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
 

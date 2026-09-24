@@ -2,7 +2,7 @@
 title: DEX Self-service device action form
 description: The DEX Self-service device actions form presents elaborate data on the form's fields and their corresponding descriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/dex-self-service-device-actions-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/dex-self-service-device-actions-form.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service

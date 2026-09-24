@@ -2,7 +2,7 @@
 title: EmployeeWorks home
 description: Access services, tasks, and announcements from an AI-first dashboard that supports your daily work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-slate-home-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-slate-home-page.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -73,5 +73,5 @@ Suggested prompts help employees get started with common actions and queries.
 -   With Otto, your admins can configure these prompts based on organizational requirements.
 -   With Now Assist, your admins can configure promoted assets as prompts.
 
-For a set of prompts that you can use across Employee Slate features, see [EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md).
+For a set of prompts that you can use across Employee Slate features, see [EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md).
 

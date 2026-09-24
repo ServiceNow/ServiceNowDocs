@@ -2,7 +2,7 @@
 title: Activate privacy content
 description: Activate an authority document or risk statement version to install the associated citations, control objectives, or risk statements into your privacy library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/update-privacy-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/update-privacy-content.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -77,7 +77,7 @@ Control objectives mapped to the selected citations. If no control objectives ar
 
     Records that are ready to be installed show **Ready**, and those that are already installed in your library show **Installed**.
 
-    **Note:** When you activate a new risk statement version, all risk statements appear as **Ready**, even those installed in the previous version. Reinstalling existing records from a new version can overwrite certain fields if they share the same name. To understand overwriting behavior, see [Overwrite behavior for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-content-accelerator.md).
+    **Note:** When you activate a new risk statement version, all risk statements appear as **Ready**, even those installed in the previous version. Reinstalling existing records from a new version can overwrite certain fields if they share the same name. To understand overwriting behavior, see [Overwrite behavior for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/privacy-content-accelerator.md).
 
 6.  Review the number of selected records, and select **Submit**.
 
@@ -97,5 +97,5 @@ Control objectives mapped to the selected citations. If no control objectives ar
 
 Update the activated authority documents to add more citations and control objectives.
 
-Update the version of the privacy risk statements to add new statements to your library. See [Update content in the privacy library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.md).
+Update the version of the privacy risk statements to add new statements to your library. See [Update content in the privacy library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.md).
 

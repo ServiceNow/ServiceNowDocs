@@ -2,7 +2,7 @@
 title: Domain separation and Investment Funding
 description: Domain separation is supported in Investment Funding. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/domain-separation-investment-funding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/investment-funding/domain-separation-investment-funding.html
 release: australia
 product: Investment Funding
 classification: investment-funding
@@ -41,7 +41,7 @@ Defining funding entity is an important configuration to create Investment Objec
 
 When a user in a parent domain accesses the financials of a project in a child domain, the system creates the investment object in the child domain. This ensures that users in the child domain can access the financials and the investment object.
 
-**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/investment-funding/investment-funding-overview.md)
 
 **Related topics**  
 

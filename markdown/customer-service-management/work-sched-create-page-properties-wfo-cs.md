@@ -2,7 +2,7 @@
 title: Define the workItem property in the Work scheduler page configuration
 description: Add the workItem property to the Work scheduler page configuration to receive the workItem object provided by the work queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/work-sched-create-page-properties-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/work-sched-create-page-properties-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,5 +49,5 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
 [Define event mappings for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/work-sched-event-mapping.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-workscheduler-card-wfo-cs.md)
 

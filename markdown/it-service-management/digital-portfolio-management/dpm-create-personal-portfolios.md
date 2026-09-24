@@ -2,7 +2,7 @@
 title: Create a personal portfolio in Digital Portfolio Management
 description: Create a personal portfolio using the Digital Portfolio Management \(DPM\) application. DPM enables you to create, edit, and share personalized, unstructured portfolios of the services and applications that you own or don't own but care about.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-create-personal-portfolios.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-create-personal-portfolios.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -31,7 +31,7 @@ DPM supports services, service offerings, business applications, and service ins
 
 As you navigate the DPM landscape, you may find services, offerings, business applications, and service instances that interest you. You can add those solutions to your personal portfolio immediately, without having to return to the personal portfolio menu. You can also share your personal portfolio with individuals and with groups.
 
-**Note:** The information on each personal portfolio solution card can be altered by configuration. To configure the solution cards, you must have the DPM admin role \[sn\_dpm.dpm\_admin\]. For more information, see [Configure personal portfolio solution cards in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-solution-cards.md).
+**Note:** The information on each personal portfolio solution card can be altered by configuration. To configure the solution cards, you must have the DPM admin role \[sn\_dpm.dpm\_admin\]. For more information, see [Configure personal portfolio solution cards in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-solution-cards.md).
 
 ## Procedure
 
@@ -87,7 +87,7 @@ Add collaborators
 
 </td></tr><tr><td colspan="2">
 
-**Note:** You can only edit each item within a personal portfolio if you have edit access based on the ACL for each item that makes up the portfolio. For groups to edit or view personal portfolios, the group must have the DPM manager \[dpm\_manager\] role. See [Roles for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-roles.md).
+**Note:** You can only edit each item within a personal portfolio if you have edit access based on the ACL for each item that makes up the portfolio. For groups to edit or view personal portfolios, the group must have the DPM manager \[dpm\_manager\] role. See [Roles for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-roles.md).
 
 </td></tr></tbody>
 </table>5.  Select **Next**.
@@ -114,12 +114,12 @@ Add collaborators
     When you edit a personal portfolio, only those solutions that aren't already in the personal portfolio are in the selection list to add. **Share** gives you the option to share your personal portfolio with individuals, with groups, or with a combination of both.
 
 
-**Parent Topic:**[Personal portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-personal-portfolio.md)
+**Parent Topic:**[Personal portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-personal-portfolio.md)
 
 **Related topics**  
 
 
-[Personal portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-personal-portfolio.md)
+[Personal portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-personal-portfolio.md)
 
-[Personal and enterprise portfolio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-portfolios-reference.md)
+[Personal and enterprise portfolio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-portfolios-reference.md)
 

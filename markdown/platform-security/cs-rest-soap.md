@@ -2,7 +2,7 @@
 title: Sign the REST and SOAP messages in the production instance
 description: Use update sets to sign and validate the REST and SOAP messages by enabling the code signing in protected and trusted instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-rest-soap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cs-rest-soap.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

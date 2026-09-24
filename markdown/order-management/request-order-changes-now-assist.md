@@ -2,12 +2,12 @@
 title: Request order changes using ServiceNow Otto Virtual Agent
 description: Request an expedited delivery, a quantity change, or a shipping location change for your order in natural language using the ServiceNow Otto Virtual Agent on the Business Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/request-order-changes-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/request-order-changes-now-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
@@ -23,7 +23,7 @@ The following applications must be installed and configured on your ServiceNow i
 -   ServiceNow Otto for Order Management \(sn\_now\_assist\_om\)
 -   Order Case Self Service \(sn\_ord\_case\_ss\)
 
-The scripted extension points that the chat assistant uses to validate order exception requests such as delivery availability, quantity, shipping location, and quote threshold must be configured. For more information, see [Configure scripted extension points for the manage order operations AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-atp-api-call.md).
+The scripted extension points that the chat assistant uses to validate order exception requests such as delivery availability, quantity, shipping location, and quote threshold must be configured. For more information, see [Configure scripted extension points for the manage order operations AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-atp-api-call.md).
 
 Role required: sn\_customerservice.customer
 
@@ -84,5 +84,5 @@ When you submit a request through the Virtual Agent, the AI agent performs the f
     If you reject the quote, the AI agent offers to connect you to a live agent and the order case remains in progress.
 
 
-**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-case-self-service.md)
+**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-case-self-service.md)
 

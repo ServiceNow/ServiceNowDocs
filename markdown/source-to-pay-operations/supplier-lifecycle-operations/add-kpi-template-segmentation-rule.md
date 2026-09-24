@@ -2,7 +2,7 @@
 title: Add KPI templates to a segmentation rule
 description: You can add new KPI templates to a segmentation rule if the existing templates used for suppliers don’t meet your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/add-kpi-template-segmentation-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/add-kpi-template-segmentation-rule.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -35,21 +35,21 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
     The newly added supplier is shown in the **KPI Template** related tab for the segmentation rule.
 
-    **Note:** The weight of the new KPI template doesn’t affect the original KPI template weight or the weight of the KPI that was previously created from this template. However, this change will affect any newly created KPIs that are part of this segmentation rule after you run it by selecting Execute. For more information, see [Run segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-segmentation-rule.md).
+    **Note:** The weight of the new KPI template doesn’t affect the original KPI template weight or the weight of the KPI that was previously created from this template. However, this change will affect any newly created KPIs that are part of this segmentation rule after you run it by selecting Execute. For more information, see [Run segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-segmentation-rule.md).
 
 
 ## Result
 
 KPIs are generated on the next segmentation rule run.
 
-**Parent Topic:**[Create segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-segmentation-rule-slo.md)
+**Parent Topic:**[Create segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-segmentation-rule-slo.md)
 
 **Related topics**  
 
 
-[KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/kpi-templates.md)
+[KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/kpi-templates.md)
 
-[Add suppliers to a segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-segmentation-rule.md)
+[Add suppliers to a segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-segmentation-rule.md)
 
-[Create segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-segmentation-rule-slo.md)
+[Create segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-segmentation-rule-slo.md)
 

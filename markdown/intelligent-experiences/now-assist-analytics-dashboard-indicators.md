@@ -2,7 +2,7 @@
 title: AI Analytics dashboard indicator details
 description: Indicator details help you understand the data and calculations behind an indicator that is presented in the form of a visualization on the dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-analytics-dashboard-indicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-analytics-dashboard-indicators.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

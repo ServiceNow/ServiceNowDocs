@@ -2,7 +2,7 @@
 title: Activate schedule flows
 description: Activate the schedule flow that interacts with Workday Learning to pull user profile information and tasks into a ServiceNow application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/activating-flows-workday-learning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/activating-flows-workday-learning.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -44,6 +44,6 @@ Role required: sn\_lrn\_workday.admin
     |Track Approval for Workday Learning|Retrieves details of learning todos from Workday Learning and saves it in the ServiceNow instance.|
     |Workday Learning User Mapping|Maps users between Workday Learning and ServiceNow instance|
 
-    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Use transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-transform-maps-wd-learning.md).
+    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Use transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/use-transform-maps-wd-learning.md).
 
 

@@ -2,14 +2,14 @@
 title: Configure site and site collection access for the Microsoft SharePoint Online external content connector
 description: Allow the Microsoft SharePoint Online connector to crawl your sites and site collections by granting site-specific SharePoint API FullControl permissions to the OAuth 2.0 app registered in Microsoft Entra for the connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-site-collection-access-spo-external-content-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-site-collection-access-spo-external-content-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-06-11"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft SharePoint Online external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -49,7 +49,7 @@ Role required: none
 
 This task is only required if you specify the Sites.Selected SharePoint API permission instead of the Sites.FullControl.All permission when configuring the registered Microsoft Entra OAuth 2.0 app for the Microsoft SharePoint Online connector.
 
-**Note:** For details on how these permissions are specified in the OAuth 2.0 app configuration process, see step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md) in [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md).
+**Note:** For details on how these permissions are specified in the OAuth 2.0 app configuration process, see step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md) in [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md).
 
 By default, source system administrators grant the Sites.FullControl.All SharePoint API permission to the registered Microsoft Entra OAuth 2.0 app for the Microsoft SharePoint Online connector. This permission allows the connector to read content, metadata, and security information for all types of content in all source system sites and site collections.
 
@@ -83,7 +83,7 @@ A source system administrator must grant FullControl permission for each site or
         $env:PSModulePath -split [System.IO.Path]::PathSeparator
         ```
 
-    6.  Copy the SelectedSiteAppPermissionManager module folder from the downloaded archive into one of your PowerShell module paths by running this PowerShell command, replacing `<PowerShell-module-path>` with one of the paths reported in step [1.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-site-collection-access-spo-external-content-connector.md).
+    6.  Copy the SelectedSiteAppPermissionManager module folder from the downloaded archive into one of your PowerShell module paths by running this PowerShell command, replacing `<PowerShell-module-path>` with one of the paths reported in step [1.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-site-collection-access-spo-external-content-connector.md).
 
         ```powershell
         Copy-Item -Path "SelectedSiteAppPermissionManager" -Destination "<PowerShell-module-path>" -Recurse
@@ -196,7 +196,7 @@ TargetApp.DisplayName
 
 </td><td>
 
-Display name for the OAuth 2.0 app that's registered in Microsoft Entra for the Microsoft SharePoint Online connector. For details on this app, see [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md).
+Display name for the OAuth 2.0 app that's registered in Microsoft Entra for the Microsoft SharePoint Online connector. For details on this app, see [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md).
 
  Type: String
 
@@ -206,7 +206,7 @@ TargetApp.Id
 
 </td><td>
 
-Application \(client\) ID for the OAuth 2.0 app that's registered in Microsoft Entra for the Microsoft SharePoint Online connector. For details on this app, see [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md).
+Application \(client\) ID for the OAuth 2.0 app that's registered in Microsoft Entra for the Microsoft SharePoint Online connector. For details on this app, see [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md).
 
  Type: String
 
@@ -329,5 +329,5 @@ Application \(client\) ID for the OAuth 2.0 app that's registered in Microsoft E
 
 If you remove FullControl permissions from sites or site collections that are still crawled by the Microsoft SharePoint Online external content connector, the connector will log permissions alerts when it tries to crawl content from those sites or site collections. To eliminate these alerts, ask your connector administrator to remove or exclude the affected sites and site collections from the set of sites crawled by the connector.
 
-**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/microsoft-sharepoint-online-external-content-connector.md)
+**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/microsoft-sharepoint-online-external-content-connector.md)
 

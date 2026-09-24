@@ -2,7 +2,7 @@
 title: Create a criteria for a matching rule in Work scheduler
 description: Add a criteria for a matching rule to enable assignment of work items to team members based on the rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/assignment-rules-work-scheduler-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/assignment-rules-work-scheduler-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ The following matching rules, which are available by default, are based on the s
 |Change Request Matching rule|Change Request|Change Request \[change\_request\]|Change requests|
 |Change Task Matching rule|Change Task|Change Task \[change\_task\]|Change task|
 
-For information on how matching criteria works, see [Matching criteria for work items in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-items-assignment-matching-criteria-wfo-cs.md).
+For information on how matching criteria works, see [Matching criteria for work items in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/work-items-assignment-matching-criteria-wfo-cs.md).
 
 The following four criteria are available by default:
 
@@ -51,13 +51,13 @@ The following four criteria are available by default:
 
 4.  Fill in the fields on the form.
 
-    For information on creating a new matching criteria, see [Create assignment workbench matching criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-assignment-wkbench-criteria.md).
+    For information on creating a new matching criteria, see [Create assignment workbench matching criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-assignment-wkbench-criteria.md).
 
 5.  Select **Submit**.
 
 
--   **[Matching criteria for work items in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-items-assignment-matching-criteria-wfo-cs.md)**  
+-   **[Matching criteria for work items in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/work-items-assignment-matching-criteria-wfo-cs.md)**  
 The assignment workbench uses configurable matching criteria, such as skills and availability, to evaluate the agents in a selected group and provide an overall ranking.
 
-**Parent Topic:**[Assigning work using Work Scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-scheduler-wfo-cs.md)
+**Parent Topic:**[Assigning work using Work Scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/work-scheduler-wfo-cs.md)
 

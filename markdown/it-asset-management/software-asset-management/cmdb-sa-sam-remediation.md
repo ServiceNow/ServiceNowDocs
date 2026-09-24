@@ -2,7 +2,7 @@
 title: Improving CMDB data quality for SAM
 description: The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Software Asset Management \(SAM\) suggests targeted actions to improve the overall quality of your Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cmdb-sa-sam-remediation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/cmdb-sa-sam-remediation.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management

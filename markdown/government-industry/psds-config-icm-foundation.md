@@ -2,7 +2,7 @@
 title: Configure Investigative Case Management
 description: Configure the foundational details for Investigative Case Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-icm-foundation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-icm-foundation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,9 +17,9 @@ Configure the foundational details for Investigative Case Management.
 **Related topics**  
 
 
-[Assign user personas, roles, groups, and responsibilities in Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-assign-user-roles-responsibilities.md)
+[Assign user personas, roles, groups, and responsibilities in Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-icm-assign-user-roles-responsibilities.md)
 
-[Investigative Case Management Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-icm-personas.md)
+[Investigative Case Management Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-data-model-icm-personas.md)
 
-[Configuring Investigative Case Management responsibility definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-create-responsibilities.md)
+[Configuring Investigative Case Management responsibility definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-icm-create-responsibilities.md)
 

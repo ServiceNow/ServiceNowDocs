@@ -2,7 +2,7 @@
 title: Scenario and Building - Views, states, settings, and key features
 description: Create or view a scenario using a stack plan and a floor map view. Scenario planning enables you to allocate spaces and define user assignments efficiently with different views, simple settings, and several key features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -44,7 +44,7 @@ The stack plan view includes the following features:
 
     The details panel of a scenario contains the following:
 
-    -   **View Options**: In this section, you can specify whether you want to edit or view a scenario. From Workplace Space Management version 1.13.0, the view-by types are sorted alphabetically by default. You can change the order or add view types from the View by Configuration \[sn\_wsd\_spcmgmt\_view\_by\_configuration\] table. For more information, see [Create a view-by configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/create-view-by-config.md). The following options are available by default:
+    -   **View Options**: In this section, you can specify whether you want to edit or view a scenario. From Workplace Space Management version 1.13.0, the view-by types are sorted alphabetically by default. You can change the order or add view types from the View by Configuration \[sn\_wsd\_spcmgmt\_view\_by\_configuration\] table. For more information, see [Create a view-by configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/create-view-by-config.md). The following options are available by default:
         -   **Edit scenario**: Option to edit the scenario. You can edit only if you’re a space planner.
         -   **View scenario**: Option to view the scenario in read-only mode. By default, the scenario is displayed based on the **Group by** selection that you specified. You can view scenarios based on the following:
             -   Assignment type
@@ -80,7 +80,7 @@ The stack plan view includes the following features:
 
     Change the view of the bar based on different types. The following view types are available:
 
-    **Note:** From Workplace Space Management version 1.13.0, the view types are sorted alphabetically by default. You can change the order or add view types from the View by Configuration \[sn\_wsd\_spcmgmt\_view\_by\_configuration\] table. For more information, see [Create a view-by configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/create-view-by-config.md).
+    **Note:** From Workplace Space Management version 1.13.0, the view types are sorted alphabetically by default. You can change the order or add view types from the View by Configuration \[sn\_wsd\_spcmgmt\_view\_by\_configuration\] table. For more information, see [Create a view-by configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/create-view-by-config.md).
 
     -   **Assignment type**: View the spaces on a floor based on their assignment type such as permanent or flexible.
     -   **Cost center**: View the spaces on a floor based on cost centers. The bars are labeled with the different cost centers of your organization.
@@ -134,11 +134,11 @@ The stack plan view includes the following features:
 
 ## Building view
 
-Not just during scenario planning, but, you can also view a building's spaces and their allocation, and various space details on a stack plan at any time. On the Space optimization dashboard, you can select the building that you want to view. The building is displayed on a stack plan. For more information, refer to [View or edit space allocations of a building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-or-edit-space-alloctions-of-a-building.md). The stack plan displays the floors of the building and the allocations like how it is displayed for a scenario. In a building view, you can perform the following actions exclusively:
+Not just during scenario planning, but, you can also view a building's spaces and their allocation, and various space details on a stack plan at any time. On the Space optimization dashboard, you can select the building that you want to view. The building is displayed on a stack plan. For more information, refer to [View or edit space allocations of a building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-or-edit-space-alloctions-of-a-building.md). The stack plan displays the floors of the building and the allocations like how it is displayed for a scenario. In a building view, you can perform the following actions exclusively:
 
 -   You can view the spaces of a building based on the workplace entities that they are associated with. The **View by** option in a building view displays an addition option **Workplace entity** using which you can view the spaces. Additionally, after selection, you can specify the entity type based on which the spaces must be displayed.
 -   When you select a workplace entity-based allocation on the stack plan, the details of the hierarchy of that selected space allocation and the number of spaces assigned to each parent-child hierarchy are displayed in detail.
--   You can edit user assignments of a neighborhood allocation in a building view. You can add, remove, or change the allocation of a user. For more information, refer to [Edit or view a building's spaces based on workplace entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-a-building-s-spaces-based-on-workplace-entities.md).
+-   You can edit user assignments of a neighborhood allocation in a building view. You can add, remove, or change the allocation of a user. For more information, refer to [Edit or view a building's spaces based on workplace entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-a-building-s-spaces-based-on-workplace-entities.md).
 
 ## Scenario - Floor map view
 
@@ -221,13 +221,13 @@ You can also view a building stack plan or a floor map at anytime and make chang
 
 Similar to the scenario, the stack plan view of a building also enables you to perform space allocations, view the spaces on the floor based on various options.
 
-The **Floor map** view of a building enables you to perform map based space administration. For more information, refer to [Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/map-based-space-administration.md).
+The **Floor map** view of a building enables you to perform map based space administration. For more information, refer to [Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/map-based-space-administration.md).
 
 \[Omitted image "building-floormapview.png"\] Alt text: Floor map of a building.
 
 On a floor map, you can do the following:
 
--   You can view the spaces of the floor directly. From Workplace Space Management version 1.13.0, the view types are sorted alphabetically by default. You can change the order or add view types from the View by Configuration \[sn\_wsd\_spcmgmt\_view\_by\_configuration\] table. For more information, see [Create a view-by configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/create-view-by-config.md). The following categories are available by default:
+-   You can view the spaces of the floor directly. From Workplace Space Management version 1.13.0, the view types are sorted alphabetically by default. You can change the order or add view types from the View by Configuration \[sn\_wsd\_spcmgmt\_view\_by\_configuration\] table. For more information, see [Create a view-by configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/create-view-by-config.md). The following categories are available by default:
 
     -   **Assignment type**
     -   **Cost center**
@@ -243,10 +243,10 @@ On a floor map, you can do the following:
 
     **Note:** In Workplace Space Management version 1.13.0, user profiles that have location assignments associated to schedule plans are excluded from the building view.
 
-    For more information, refer to [View or edit space allocations of a building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-or-edit-space-alloctions-of-a-building.md).
+    For more information, refer to [View or edit space allocations of a building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-or-edit-space-alloctions-of-a-building.md).
 
--   You can edit the spaces on a floor. For more information, refer to [Edit a building's spaces using a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/edit-space-details-for-buildings.md).
--   Assign or unassign an employee from a space. [Move employees on a floor or to a different floor using the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-employees-on-a-floor-or-to-a-different-floor-using-the-map.md).
+-   You can edit the spaces on a floor. For more information, refer to [Edit a building's spaces using a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/edit-space-details-for-buildings.md).
+-   Assign or unassign an employee from a space. [Move employees on a floor or to a different floor using the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/move-employees-on-a-floor-or-to-a-different-floor-using-the-map.md).
 -   You can also change the opacity of the colored spaces in the **Map Settings** pane. Changing the opacity is helpful if some elements on the map are hidden due to the color.
 -   You can view the base map \(as defined in the Map Studio\) from the **Map Settings** pane by selecting **Show base map**.
 
@@ -286,9 +286,9 @@ For example, if you want to see all the spaces of type workplace/desk then apply
 
 The Approver tab displays details of all the approvers who are configured to approve a scenario. The Approver tab displays details such as the approvers who are allowed to approve, the state of the approval, the comments related to the approval and the time of approval. After you send a scenario for approval, if the scenario is rejected by the approver, you can view the details of the rejection in the **Comments** of the Approver tab and implement the changes.
 
-The application provides a default approval definition **Scenario Plan Approval**, in which workplace managers are configured as approvers for scenarios. You can create a new approval definition or edit the default defintion. To create a new approval definition, refer to [Create an approval definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-approval-defintion.md).
+The application provides a default approval definition **Scenario Plan Approval**, in which workplace managers are configured as approvers for scenarios. You can create a new approval definition or edit the default defintion. To create a new approval definition, refer to [Create an approval definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-approval-defintion.md).
 
-**Note:** To add an approver to the approval definition, the approver must be configured in the performer criteria. To do so, refer to [Create a workplace performer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-performer-criteria.md).
+**Note:** To add an approver to the approval definition, the approver must be configured in the performer criteria. To do so, refer to [Create a workplace performer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-workplace-performer-criteria.md).
 
 ## Space Deployment plan and User Deployment plan
 
@@ -306,7 +306,7 @@ After the scenario is deployed, a workplace case is created for every change. Af
 -   Workplace Assignment Type Service: Workplace case created to change the assignment type of a space.
 -   Workplace Allocation Change Service: Workplace case created to change the space allocation.
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

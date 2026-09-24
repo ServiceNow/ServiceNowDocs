@@ -2,7 +2,7 @@
 title: Review a publication
 description: Users with the publications approver role that have been added as approvers to the publication workflow can review a publication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommReviewAPublication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_TargetCommReviewAPublication.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ The **Approvers** related list displays a list of approval tasks and includes mo
 
 5.  Click one of the following options.
 
-<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d274726e132">
+<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d274730e132">
 
 **Approve**
 
@@ -46,7 +46,7 @@ The **Approvers** related list displays a list of approval tasks and includes mo
 
 The review state changes to **Approved** on the Approvals list and the publication stage is set to **Ready To Publish**.For other approvers of this article, the review state changes to **No Longer Required**.
 
-</td></tr><tr><td id="d274726e153">
+</td></tr><tr><td id="d274730e153">
 
 **Reject**
 

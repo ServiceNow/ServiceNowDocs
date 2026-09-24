@@ -2,7 +2,7 @@
 title: Configuring additional columns for Prioritization in Strategic Planning
 description: Customize the default column configuration for the Prioritization page of your portfolio plan so that your planning managers can select the appropriate data points they need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/customizing-the-default-backlog-view-in-alignment-planner-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/customizing-the-default-backlog-view-in-alignment-planner-workspace.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -31,5 +31,5 @@ From the form view of the identified table, change the view to **APW Prioritizat
 
 **Note:** List v3 is no longer available for new deployments. If you are already using list v3, you may continue to do so, but in this case some of the functionalities might not be available.
 
-**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
+**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
 

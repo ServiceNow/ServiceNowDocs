@@ -2,7 +2,7 @@
 title: Create an action for an 'on Blueprint provision' policy
 description: The on Blueprint provision trigger fires after execution of on Catalog item request start policies. A policy that is triggered by the on Blueprint provision trigger can run a script, override a user-requested attribute value, or abort and send a message about the provision operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-action-on-bp-provision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-action-on-bp-provision.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

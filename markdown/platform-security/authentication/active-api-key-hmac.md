@@ -2,7 +2,7 @@
 title: Activate API Key and HMAC Authentication
 description: You can activate the plugin API Key and HMAC Authentication \(com.glide.tokenbased\_auth\) in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/active-api-key-hmac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/active-api-key-hmac.html
 release: australia
 product: Authentication
 classification: authentication

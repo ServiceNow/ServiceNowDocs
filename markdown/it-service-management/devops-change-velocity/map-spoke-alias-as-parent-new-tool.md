@@ -2,7 +2,7 @@
 title: Map spoke alias as parent alias for a DevOps tool
 description: Create Jira, GitHub or Jenkins tool with parent alias set to respective spoke alias instead of DevOps Basic authentication. Use a script include to reset parent alias to spoke alias for existing or onboarded tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/map-spoke-alias-as-parent-new-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/map-spoke-alias-as-parent-new-tool.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -56,5 +56,5 @@ If you have already created / onboarded tools with a connection and credential a
 
 Verify that the parent alias is set to sn\_jira\_spoke.Jira for Jira, sn\_github\_spoke.GitHub for GitHub, and sn\_jenkins\_v2\_spoke.Jenkins\_v2 for Jenkins in the **Connection &amp; Credentials Aliases** form.
 
-**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

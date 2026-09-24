@@ -2,7 +2,7 @@
 title: Number render types and compatible input attributes
 description: Use the tables to determine which input attributes are compatible with different number render types. The available number render types are integer, line, percentage, and slider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/number-compatible-input-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/number-compatible-input-attributes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Input form screen attributes for inputs, Configure inputs, Configur
 
 Use the tables to determine which input attributes are compatible with different number render types. The available number render types are integer, line, percentage, and slider.
 
-For more information about render types, see [Number render types and compatible input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/number-compatible-input-attributes.md).
+For more information about render types, see [Number render types and compatible input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/number-compatible-input-attributes.md).
 
 ## Render type: Integer
 

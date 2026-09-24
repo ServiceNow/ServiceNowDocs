@@ -2,7 +2,7 @@
 title: Activity stream
 description: Learn about how the Workspace Activity stream functions in Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-activity-stream.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-activity-stream.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Use a library element
 description: Add a library element to a KPI tree in any KPI Composer project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/use-library-element.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/use-library-element.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -43,5 +43,5 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
 You can add as many library elements as you want to a KPI tree. You can add the same library element as many times as you want.
 
-**Parent Topic:**[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)
+**Parent Topic:**[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)
 

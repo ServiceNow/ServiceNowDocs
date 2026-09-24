@@ -2,7 +2,7 @@
 title: Playbook for Child Security Incident Automation
 description: Duplicate security incidents are categorized as child security incidents and are rolled up to the parent security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/cj-sir-flow-library4.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/cj-sir-flow-library4.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -42,7 +42,7 @@ For more information, see the [ServiceNow store](https://store.servicenow.com/).
 
 ## Security analyst experience
 
-To understand how to resolve security threats in a step-by-step manner, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md).
+To understand how to resolve security threats in a step-by-step manner, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/use-the-playbook.md).
 
 ## Deeper understanding of the Child Security Incident Automation playbook with Flow Designer capabilities
 
@@ -73,5 +73,5 @@ The following steps walk you through the actions and tasks that are available in
 4.  In steps 6 and 7, observables associated with the child security incident are retrieved and unique observables are rolled up to the parent security incident
 5.  In steps 8 and 9, automated worknotes are posted to the parent and child security incidents indicating that the affected users, configuration items, and observables have been rolled up from the child to the parent security incident.
 
-**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-flow-based.md)
+**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-flow-based.md)
 

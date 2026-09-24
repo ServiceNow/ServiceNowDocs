@@ -2,10 +2,10 @@
 title: Combined HL7 v2.x Integration release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for HL7 v2.x Integration from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-hl7v2xintegration-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-hl7v2xintegration-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -357,5 +357,5 @@ Australia
 -   Demo parser configurations for ADT A01 \(Admit\), A02 \(Transfer\), A03 \(Discharge\), and A08 \(Update\) provide ready-to-edit starting points for the most common hospital ADT workflows.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

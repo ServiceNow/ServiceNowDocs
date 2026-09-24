@@ -2,7 +2,7 @@
 title: cabrillo.nowapp - Client
 description: The name space for Cabrillo Now App functions. This enables you to interact with screens inside of ServiceNow AI Platform native mobile apps.Opens a mobile launcher native screen.Opens a mobile native screen.Opens a mobile native screen with a record context.Executes a native mobile function.Refresh the UI stack in the event a table update is made in the web view that may affect a previous screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/cabrillo-nowapp-namespace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/cabrillo-nowapp-namespace.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 The name space for Cabrillo Now App functions. This enables you to interact with screens inside of ServiceNow AI Platform® native mobile apps.
 
-**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
+**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 ## cabrillo.nowapp - openLauncherScreen\(String launcherScreenId\)
 

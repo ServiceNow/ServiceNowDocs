@@ -2,12 +2,12 @@
 title: Managing AI asset security reference
 description: Reference topics provide additional details about the charts and metrics that you use to assess your AI asset security posture in AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-02"
 reading_time_minutes: 13
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, reference]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, reference]
 breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -53,7 +53,7 @@ Base system
 
 </td><td>
 
-Shows a holistic view of the relationships between your AI providers, managed AI agents, agentic workflows, and tools. You can use the map to review these relationships and get details about the AI assets in your enterprise. To configure Veza access intelligence, see [Configure Veza access intelligence in the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-veza-access-intelligence.md).
+Shows a holistic view of the relationships between your AI providers, managed AI agents, agentic workflows, and tools. You can use the map to review these relationships and get details about the AI assets in your enterprise. To configure Veza access intelligence, see [Configure Veza access intelligence in the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-veza-access-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -65,7 +65,7 @@ Base system
 
 </td><td>
 
-Indicates a measure of the health of your AI assets in terms of access issues, privileged AI agents, dormant AI systems, output deviation, PII detection, and other criteria. Users should actively manage and review their agent assets and not rely solely on this AI asset security score.You can customize the security categories that comprise the score. For more information, see [Configure the AI asset security score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-score.md).
+Indicates a measure of the health of your AI assets in terms of access issues, privileged AI agents, dormant AI systems, output deviation, PII detection, and other criteria. Users should actively manage and review their agent assets and not rely solely on this AI asset security score.You can customize the security categories that comprise the score. For more information, see [Configure the AI asset security score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-score.md).
 
 To omit an AI asset from the score, you mute it. Under AI asset security score details, hover over the end of the row of the asset you want to mute. After **More actions** appears, select **Mute**.
 
@@ -81,7 +81,7 @@ Base system
 
 </td><td>
 
-Indicates the number of AI agents that were deactivated \(contained\) for the last 30 days. Select the arrow to open the agent containment list. For more information, see [Review the agent containment list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.md).
+Indicates the number of AI agents that were deactivated \(contained\) for the last 30 days. Select the arrow to open the agent containment list. For more information, see [Review the agent containment list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Available with generative AI skill
 
 Measures AI agents with elevated permissions such as an agent with admin or security admin permissions that can perform critical actions. Some workflows require that AI agents have elevated permissions to complete.You can filter on a particular AI agent provider. For example, to show AWS agent metrics, filter the metrics by selecting **AWS Bedrock** in the provider drop-down list on the metric details page.
 
-For more details on configuring integrations to show external AI agent provider metrics, see [Configure overview security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-overview.md) and [Configuring integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-integrations.md).
+For more details on configuring integrations to show external AI agent provider metrics, see [Configure overview security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-overview.md) and [Configuring integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-integrations.md).
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ Review AI security posture metrics to identify potential configuration issues in
 
 Review model vulnerabilities metrics to understand model-level security exposure in real time. These metrics reflect the vulnerability response settings and rules defined in [Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/unified-security-exposure-management-landing-page.md).
 
-To activate these metrics, see [Activate design-time security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-design-time.md).
+To activate these metrics, see [Activate design-time security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-design-time.md).
 
 |Metric|Availability|Description|
 |------|------------|-----------|
@@ -188,7 +188,7 @@ Review model validation metrics to understand if any models have potential surfa
 
 ## Runtime metrics and calculations
 
-Runtime metrics show potential violations of LLM guardrails and anonymization of sensitive data in real time. You can filter the metrics by internal \(ServiceNow\) or external agents. External AI system metrics are derived from Traceloop guardrails. For more information, see [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md).
+Runtime metrics show potential violations of LLM guardrails and anonymization of sensitive data in real time. You can filter the metrics by internal \(ServiceNow\) or external agents. External AI system metrics are derived from Traceloop guardrails. For more information, see [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md).
 
 <table id="table_gov_sec_pi_ref"><thead><tr><th>
 
@@ -212,7 +212,7 @@ Base system
 
 </td><td>
 
-Shows sensitive data that was identified in user responses to LLM prompts. Sensitive data is content that potentially matches a known sensitive data pattern. Exposure of sensitive data is limited to the LLM in your instance. External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md). Not shown for internal ServiceNow AI systems in a domain-separated instance.
+Shows sensitive data that was identified in user responses to LLM prompts. Sensitive data is content that potentially matches a known sensitive data pattern. Exposure of sensitive data is limited to the LLM in your instance. External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md). Not shown for internal ServiceNow AI systems in a domain-separated instance.
 
 </td></tr><tr><td>
 
@@ -224,7 +224,7 @@ Base system
 
 </td><td>
 
-Shows LLM prompt data that met configured data patterns. This data was anonymized based on the configuration for the pattern in Configuration Data Patterns in Data Privacy. External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md). Not shown for internal ServiceNow AI systems in a domain-separated instance.
+Shows LLM prompt data that met configured data patterns. This data was anonymized based on the configuration for the pattern in Configuration Data Patterns in Data Privacy. External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md). Not shown for internal ServiceNow AI systems in a domain-separated instance.
 
 </td></tr><tr><td>
 
@@ -236,7 +236,7 @@ Available with AI Guardian
 
 </td><td>
 
-Shows offensive content data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md). External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md).
+Shows offensive content data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-guardian-analytics.md). External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md).
 
 </td></tr><tr><td>
 
@@ -248,7 +248,7 @@ Available withAI Guardian
 
 </td><td>
 
-Shows prompt injection data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md). External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md).
+Shows prompt injection data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-guardian-analytics.md). External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md).
 
 </td></tr></tbody>
 </table>## Post-runtime metrics and calculations
@@ -257,7 +257,7 @@ Post-runtime metrics show potential threats in AI system input and output. Top A
 
 Each cell in the Top AI asset security events heat map contains the number of AI asset security events belonging to that category \(row\) and the timeframe \(column\).
 
-To configure these metrics, see [Configure post-runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md).
+To configure these metrics, see [Configure post-runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-event-metrics.md).
 
 \[Omitted image "gov-sec-post-runtime-events.png"\] Alt text: Post-runtime tab showing Top AI asset security events.
 
@@ -286,8 +286,8 @@ To configure these metrics, see [Configure post-runtime security metrics](https:
 
 AI judge model classifications are probabilistic in nature and may be incomplete or incorrect. They don't constitute professional advice and shouldn't be relied on as the sole basis for assessing risk.
 
--   **[System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-reference-system-properties.md)**  
+-   **[System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-reference-system-properties.md)**  
 System properties that connect Veza access intelligence and limit the age of records evaluated for AI asset security metrics are available. Limiting records can prevent analyzing stale data and reduce unnecessary processing overhead.
 
-**Parent Topic:**[Managing AI asset security with AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-landing.md)
+**Parent Topic:**[Managing AI asset security with AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-landing.md)
 

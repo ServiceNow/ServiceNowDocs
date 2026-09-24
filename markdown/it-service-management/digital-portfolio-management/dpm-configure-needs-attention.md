@@ -2,7 +2,7 @@
 title: Configure Needs attention panels in Digital Portfolio Management
 description: Each solution page in Digital Portfolio Management \(DPM\) has a Needs attention panel with items that need attention in the context of the page. You can configure the Needs attention attributes to meet your organization's needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-configure-needs-attention.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-configure-needs-attention.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -24,7 +24,7 @@ Role required: sn\_dpm.dpm\_admin
 
 Configurable Needs attention panels and its attributes table were introduced in the Utah Store release, November 2023. The following are general guidelines but for more Admin configuration steps, see [KB1519343](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1519343).
 
-Default thresholds apply to the DPM Workspace homepage. Solutions use the default attributes and thresholds from the attributes table until users decide to personalize their DPM Workspace homepage experience. See [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
+Default thresholds apply to the DPM Workspace homepage. Solutions use the default attributes and thresholds from the attributes table until users decide to personalize their DPM Workspace homepage experience. See [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
 
 ## Procedure
 
@@ -91,10 +91,10 @@ Change the number from the default threshold to the threshold that you want to s
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 
 **Related topics**  
 
 
-[Work with Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-needs-attn-panels.md)
+[Work with Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-needs-attn-panels.md)
 

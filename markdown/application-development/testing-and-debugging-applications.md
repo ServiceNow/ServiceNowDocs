@@ -2,7 +2,7 @@
 title: Testing and debugging applications
 description: Verify the application meets your business requirements. Your testing should cover record operations \(such as create, read, update, and delete\), user interface elements \(such as views and UI policies\), runtime operations \(such as business rules\), and event script actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/testing-and-debugging-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/testing-and-debugging-applications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Verify the application meets your business requirements. Your testing should cov
 
 ## Testing and debugging on Core UI
 
--   **[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md)**
+-   **[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-landing-page.md)**
 
     Create and run automated tests to confirm that your instance works after making a change. Review failed test results to identify the changes that caused the failure and the changes that you should review.
 

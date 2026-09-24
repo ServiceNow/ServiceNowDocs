@@ -2,7 +2,7 @@
 title: Exploring Workflow Data Fabric Home
 description: Workflow Data Fabric Home is ServiceNow's unified data foundation that connects enterprise data where it lives, governs it through stable contracts, and makes it ready for workflows, analytics, and AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/exploring-workflow-data-fabric.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/exploring-workflow-data-fabric.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Workflow Data Fabric addresses a common enterprise challenge: Data is scattered 
     The interface in Workflow Data Fabric Home where Data Stewards create Data Interfaces and Data Products. The Data Workbench is also used to define mappings, set ACLs, and publish or promote assets.
 
 
-For more information, see [Workflow Data Fabric Home navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric-tutorial.md).
+For more information, see [Workflow Data Fabric Home navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/workflow-data-fabric-tutorial.md).
 
 ## Workflow Data Fabric Home users
 
@@ -52,7 +52,7 @@ For more information, see [Workflow Data Fabric Home navigation](https://raw.git
 |WDF Operator|Builds deterministic and agentic workflows that consume governed data through Data Interfaces. WDF Operators are consumers of contracts, not owners or modifiers.|
 |WDF Consumer|Explores the Data Catalog to discover data products, evaluates them for use, requests access, and uses governed data through workflows, analytics, AI agents, or APIs.|
 
-For more information, see [Workflow Data Fabric Home roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-workflow-data-fabric.md).
+For more information, see [Workflow Data Fabric Home roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/installed-with-workflow-data-fabric.md).
 
 ## Workflow Data Fabric Home benefits
 
@@ -70,10 +70,10 @@ For more information, see [Workflow Data Fabric Home roles](https://raw.githubus
 
 To learn more about configuring and using Workflow Data Fabric Home, see:
 
--   [Configuring Workflow Data Fabric Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-workflow-data-fabric.md)
--   [ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-now-assist-for-workflow-data-fabric.md)
+-   [Configuring Workflow Data Fabric Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configuring-workflow-data-fabric.md)
+-   [ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/exploring-now-assist-for-workflow-data-fabric.md)
 -   [Connect to external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
--   [Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)
--   [Data Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-products.md)
--   [Workflow Data Fabric Home Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric-reference.md)
+-   [Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-catalog.md)
+-   [Data Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-products.md)
+-   [Workflow Data Fabric Home Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/workflow-data-fabric-reference.md)
 

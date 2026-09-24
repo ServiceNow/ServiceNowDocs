@@ -2,7 +2,7 @@
 title: Publisher overview for Oracle in the Software Asset Workspace
 description: View license usage information related to Oracle in the publisher overview for Oracle in the Software Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/publisher-overview-oracle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/publisher-overview-oracle.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -99,7 +99,7 @@ License types of Oracle Database and WebLogic Server on AWS
 Number of software installations for each license type that you are using in AWS cloud environments, based on the cloud service model through which your Oracle Database and WebLogic Servers are deployed. License types include BYOL and License Included. Cloud service models include PaaS \(Platform as a Service\) and IaaS \(Infrastructure as a Service\).
 
 </td></tr></tbody>
-</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
+</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/oracle-publisher-pack.md)
 

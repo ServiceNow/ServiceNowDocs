@@ -2,7 +2,7 @@
 title: View Zero Copy Connector for ERP partner profile information
 description: In Zero Copy Connector for ERP \(Enterprise Resource Planning\), view partner profile information including number and type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -41,12 +41,12 @@ Partner profiles are fetched from SAP during initial load. If any new profiles a
 
     \[Omitted image "erp-system-partner-profile-tab.png"\] Alt text: Zero Copy Connector for ERP system record with partner profile tab displayed.
 
-    For column descriptions, see [Zero Copy Connector for ERP partner profile tab column descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-partner-profile-tab-fields.md).
+    For column descriptions, see [Zero Copy Connector for ERP partner profile tab column descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-partner-profile-tab-fields.md).
 
 6.  Select a **Partner number** to view information about a specific profile.
 
     \[Omitted image "erp-system-partner-profile-tab3.png"\] Alt text: Zero Copy Connector for ERP profile record for one individual profile.
 
-    For field descriptions, see [Zero Copy Connector for ERP partner profile field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-partner-profile-fields.md).
+    For field descriptions, see [Zero Copy Connector for ERP partner profile field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-partner-profile-fields.md).
 
 

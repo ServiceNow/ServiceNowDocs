@@ -2,7 +2,7 @@
 title: Create a data preserver \(legacy\)
 description: Data preservers copy specified data to a target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateADataPreserver.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateADataPreserver.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -72,5 +72,5 @@ The data preserver is created on the source instance and will be applied to futu
 
 ## What to do next
 
-After creating data preservers on the source instance, you can now request a clone. See [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md) for information on submitting a clone request. The configured preservers will be automatically applied based on your clone profile.
+After creating data preservers on the source instance, you can now request a clone. See [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_StartAClone.md) for information on submitting a clone request. The configured preservers will be automatically applied based on your clone profile.
 

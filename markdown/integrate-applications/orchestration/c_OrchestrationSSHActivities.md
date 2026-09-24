@@ -2,7 +2,7 @@
 title: SSH activities
 description: SSH activities allow workflows to perform operations on Linux and Unix computers.The Run Command activity runs a command \(including shell scripts\) on a Linux or UNIX computer.The Run SCP activity uses Secure Copy Protocol \(SCP\) to copy a file from one computer to another, including the directory in which the file resides.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/c\_OrchestrationSSHActivities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/c\_OrchestrationSSHActivities.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -18,13 +18,13 @@ SSH activities allow workflows to perform operations on Linux and Unix computers
 
 Your ServiceNow instance must have access to a MID Server configured to use SSH to run these Orchestration activities.
 
-**Parent Topic:**[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)
+**Parent Topic:**[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)
 
 ## Run Command activity
 
 The Run Command activity runs a command \(including shell scripts\) on a Linux or UNIX computer.
 
-**Important:** The Run Command activity is deprecated in this release. If you have a workflow created in a previous version that uses this activity, your workflow will continue to work normally after upgrading to Helsinki. However, to use this functionality in a new workflow, you must create a custom activity using the [SSH activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAnSSHActivity.md) in the ServiceNow® activity designer.
+**Important:** The Run Command activity is deprecated in this release. If you have a workflow created in a previous version that uses this activity, your workflow will continue to work normally after upgrading to Helsinki. However, to use this functionality in a new workflow, you must create a custom activity using the [SSH activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAnSSHActivity.md) in the ServiceNow® activity designer.
 
 ### Input variables
 

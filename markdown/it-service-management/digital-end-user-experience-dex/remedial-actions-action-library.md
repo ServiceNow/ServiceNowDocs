@@ -2,7 +2,7 @@
 title: Run remedial actions from the Action library
 description: Run remedial actions from the Action library in incident investigation with DEX to resolve detected device and application issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/remedial-actions-action-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/remedial-actions-action-library.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -37,5 +37,5 @@ Role required: sn\_dex.service\_desk\_user, sn\_dex.engineer
 
 ## What to do next
 
-Monitor the progress of an action or cancel an ongoing action from the playbook panel. For more information, see [Manage remedial actions in DEX incident investigation Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/manage-incident-remedial-actions-playbook.md).
+Monitor the progress of an action or cancel an ongoing action from the playbook panel. For more information, see [Manage remedial actions in DEX incident investigation Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/manage-incident-remedial-actions-playbook.md).
 

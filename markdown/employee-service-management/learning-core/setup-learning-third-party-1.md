@@ -2,7 +2,7 @@
 title: Integrating Learning Core with third-party learning management systems
 description: Connect your ServiceNow instance with third-party learning systems to pull learning content into a single repository.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/setup-learning-third-party-1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/setup-learning-third-party-1.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -22,7 +22,7 @@ Role required: learning\_admin
 
 Activating the Learning Core \(sn\_lc\) plugin automatically enables the following plugins:
 
--   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-framework.md)
+-   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-integrations-framework.md)
 
 The following plugins are not active by default, and you must install them to use them with Learning Core.
 
@@ -30,15 +30,15 @@ The following plugins are not active by default, and you must install them to us
 
 1.  Integrate your ServiceNow instance with the third-party learning source account that you plan to use.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d82344e92">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d82348e92">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d82344e95">
+</th><th align="left" id="d82348e95">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d82344e101">
+</th></tr></thead><tbody><tr><td id="d82348e101">
 
 **Pluralsight Skills account**
 
@@ -46,7 +46,7 @@ Do this
 
 Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d82344e116">
+</td></tr><tr><td id="d82348e116">
 
 **Cornerstone OnDemand application**
 
@@ -54,7 +54,7 @@ Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set
 
 Register an OAuth application in Cornerstone OnDemand application and authenticate requests from ServiceNow instance. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d82344e134">
+</td></tr><tr><td id="d82348e134">
 
 **Udemy application**
 
@@ -64,7 +64,7 @@ Integrate your Udemy application with your ServiceNow instance. For more informa
 
  **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
-</td></tr><tr><td id="d82344e155">
+</td></tr><tr><td id="d82348e155">
 
 **Sumtotal application**
 
@@ -72,7 +72,7 @@ Integrate your Udemy application with your ServiceNow instance. For more informa
 
 Integrate your Sumtotal application with your ServiceNow instance. For more information, see [Set up the Sumtotal spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-sumtotal.md).
 
-</td></tr><tr><td id="d82344e177">
+</td></tr><tr><td id="d82348e177">
 
 **Saba application**
 
@@ -80,7 +80,7 @@ Integrate your Sumtotal application with your ServiceNow instance. For more info
 
 Integrate your Saba application with your ServiceNow instance. For more information, see [Set up Saba spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/saba-spoke.md) .
 
-</td></tr><tr><td id="d82344e197">
+</td></tr><tr><td id="d82348e197">
 
 **Workday Learning**
 
@@ -88,7 +88,7 @@ Integrate your Saba application with your ServiceNow instance. For more informat
 
 Integrate your Workday Learning application with your ServiceNow instance. For more information, see [Set up Workday spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/saba-spoke.md) .
 
-</td></tr><tr><td id="d82344e217">
+</td></tr><tr><td id="d82348e217">
 
 **SuccessFactors Learning**
 
@@ -97,17 +97,17 @@ Integrate your Workday Learning application with your ServiceNow instance. For m
 Integrate your SuccessFactors Learning application with your ServiceNow instance. For more information, see [Set up SuccessFactors Learning spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/successfactors-learning-setup.md) .
 
 </td></tr></tbody>
-</table>    The records from the third-party content are pulled into your ServiceNow instance using an API call. To successfully run this API call, you must configure the **com.glide.transform.json.max-partial-length** and **com.snc.process\_flow.reporting.serialized.val\_size\_limit** properties. For more information on these system properties, see [Configure properties for Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/config-ln-prop.md) .
+</table>    The records from the third-party content are pulled into your ServiceNow instance using an API call. To successfully run this API call, you must configure the **com.glide.transform.json.max-partial-length** and **com.snc.process\_flow.reporting.serialized.val\_size\_limit** properties. For more information on these system properties, see [Configure properties for Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/config-ln-prop.md) .
 
 2.  Activate the required schedule flow to synchronize third-party learning content into your ServiceNow instance.
 
-    For more information, see [Activate Learning Core flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/flows-lp.md).
+    For more information, see [Activate Learning Core flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/flows-lp.md).
 
 3.  Configure the learning system with which you want to integrate your ServiceNow instance.
 
-    For more information, see [Configure a learning system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-source-ln.md).
+    For more information, see [Configure a learning system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-source-ln.md).
 
-    **Note:** Once you set up the Learning Core application, the source record for Cornerstone OnDemand, Pluralsight, and Udemy applications are automatically created in the Source module in Enterprise Service Management Integrations Framework. These source records contain a predefined set of properties and integration services. For more information, see [Sources for Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/source-lnpst.md).
+    **Note:** Once you set up the Learning Core application, the source record for Cornerstone OnDemand, Pluralsight, and Udemy applications are automatically created in the Source module in Enterprise Service Management Integrations Framework. These source records contain a predefined set of properties and integration services. For more information, see [Sources for Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/source-lnpst.md).
 
 4.  Refresh the entire third-party content or synchronize new and updated service content into your ServiceNow instance.
 
@@ -214,14 +214,14 @@ SuccessFactors Learning spoke
 </table>
 ## What to do next
 
-To integrate Learning Core with a new third-party learning system, follow the instructions in [Create a source for a learning system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/set-up-int-lc.md).
+To integrate Learning Core with a new third-party learning system, follow the instructions in [Create a source for a learning system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/set-up-int-lc.md).
 
--   **[Sources for Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/source-lnpst.md)**  
+-   **[Sources for Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/source-lnpst.md)**  
 Once you set up the Learning Core application, the source record for Cornerstone On Demand, Pluralsight, Udemy, Sumtotal, and Saba applications are automatically created in the Source module in Enterprise Service Management Integrations Framework. The source records in the Enterprise Service Management Integrations Framework application contain a predefined set of properties and integration services.
--   **[Activate Learning Core flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/flows-lp.md)**  
+-   **[Activate Learning Core flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/flows-lp.md)**  
 Activate the flows that run on a schedule basis to pull learning course items from the Cornerstone OnDemand, Udemy, Pluralsight, Sumtotal, and Saba applications into the ServiceNow application.
 
-**Parent Topic:**[Configuring Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/configuring-learning-core.md)
+**Parent Topic:**[Configuring Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/configuring-learning-core.md)
 
 **Related topics**  
 

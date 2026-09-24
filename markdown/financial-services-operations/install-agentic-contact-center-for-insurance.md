@@ -2,7 +2,7 @@
 title: Install Agentic Contact Center for Insurance
 description: If you have the admin role, you can install the Agentic Contact Center for Insurance application \(sn\_ins\_csr\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/install-agentic-contact-center-for-insurance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/install-agentic-contact-center-for-insurance.html
 release: australia
 topic_type: task
 last_updated: "2026-06-05"
@@ -46,5 +46,5 @@ The application is installed.
 
 ## What to do next
 
-Configure Agentic Contact Center for Insurance for your workspace. For more information, see [Configure Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-insurance-configure.md).
+Configure Agentic Contact Center for Insurance for your workspace. For more information, see [Configure Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/agentic-contact-center-for-insurance-configure.md).
 

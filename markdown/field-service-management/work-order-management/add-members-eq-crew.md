@@ -2,7 +2,7 @@
 title: Add members or equipment to your crew
 description: Add crew members or equipment to your crews on the ServiceNow Agent application.Add members or equipment to your crew to organize your crew and resources.Add members or equipment to task crew meet the resource needs of a work order task.View the resource requirements of a task and add the appropriate assignees to ensure agents are equipped and staffed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/add-members-eq-crew.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/add-members-eq-crew.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -22,7 +22,7 @@ Add members or equipment to your crew to organize your crew and resources.
 
 ### Before you begin
 
-To add equipment, administrators must activate the Field Service Resource Scheduling plugin \(com.snc.fsm\_resource\_scheduling\). For more information, see [Activate Resource Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/activate-equipment-scheduling.md).
+To add equipment, administrators must activate the Field Service Resource Scheduling plugin \(com.snc.fsm\_resource\_scheduling\). For more information, see [Activate Resource Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/asset-management-for-field-service/activate-equipment-scheduling.md).
 
 Role required: wm\_agent and crew\_moderator
 
@@ -51,7 +51,7 @@ Add members or equipment to task crew meet the resource needs of a work order ta
 
 ### Before you begin
 
-To add equipment, administrators must activate the Field Service Resource Scheduling plugin \(com.snc.fsm\_resource\_scheduling\). For more information, see [Activate Resource Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/activate-equipment-scheduling.md).
+To add equipment, administrators must activate the Field Service Resource Scheduling plugin \(com.snc.fsm\_resource\_scheduling\). For more information, see [Activate Resource Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/asset-management-for-field-service/activate-equipment-scheduling.md).
 
 Role required: wm\_agent and crew\_moderator
 
@@ -86,7 +86,7 @@ View the resource requirements of a task and add the appropriate assignees to en
 
 ### Before you begin
 
-To add equipment, administrators must activate the Field Service Resource Scheduling plugin \(com.snc.fsm\_resource\_scheduling\). For more information, see [Activate Resource Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/activate-equipment-scheduling.md).
+To add equipment, administrators must activate the Field Service Resource Scheduling plugin \(com.snc.fsm\_resource\_scheduling\). For more information, see [Activate Resource Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/asset-management-for-field-service/activate-equipment-scheduling.md).
 
 Role required: wm\_agent and crew\_moderator
 

@@ -2,7 +2,7 @@
 title: Track Platform Health trends
 description: Analytics Dashboards provide a graphical way to view detailed information relating to findings, both pending and resolved, with the Scan Engine. The dashboards are role-based, allowing for persona-based views of information. They display  key metrics,  charts, and  trend analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-diagnostic-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/scan-engine-diagnostic-dashboards.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

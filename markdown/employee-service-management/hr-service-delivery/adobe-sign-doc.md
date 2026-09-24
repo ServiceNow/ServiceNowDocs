@@ -2,7 +2,7 @@
 title: Document Template integration with AdobeSign
 description: The ServiceNow Document Template integration with AdobeSign application enables you to use the Adobe Sign application for signing documents that are generated from ServiceNow Document Templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/adobe-sign-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/adobe-sign-doc.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

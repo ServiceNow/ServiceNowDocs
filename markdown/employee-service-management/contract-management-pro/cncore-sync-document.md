@@ -2,7 +2,7 @@
 title: Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)
 description: When a contract request is modified, sync the contract document for self-served requests to create revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-sync-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-sync-document.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -22,7 +22,7 @@ When a contract request is modified, sync the contract document for self-served 
 
 You can sync a contract document only when the contract request is in the Work in progress state.
 
-**Note:** Tables aren’t updated when you use the **Sync document** option. You must regenerate the document to update the tables. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md).
+**Note:** Tables aren’t updated when you use the **Sync document** option. You must regenerate the document to update the tables. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md).
 
 ## Before you begin
 

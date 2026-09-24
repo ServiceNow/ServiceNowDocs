@@ -2,7 +2,7 @@
 title: Role API - ServiceNow Fluent
 description: The Role API defines roles \[sys\_user\_role\] that grant specific permissions to users of an application.Create a role \[sys\_user\_role\] to control access to applications and their features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/role-api-now-ts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-sdk/role-api-now-ts.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -20,12 +20,12 @@ The Role API defines roles \[sys\_user\_role\] that grant specific permissions t
 
 For general information about user roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md)
 
 ## Role object
 
@@ -152,7 +152,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether the role is an Application Administrator role. For general information about application administration roles, see [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md).Valid values:
+Flag that indicates whether the role is an Application Administrator role. For general information about application administration roles, see [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-administration.md).Valid values:
 
 -   true: The role is an Application Administrator.
 -   false: The role isn't an Application Administrator.

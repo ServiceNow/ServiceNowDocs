@@ -2,7 +2,7 @@
 title: View software counter details for the legacy Software Asset Management plugin
 description: Software counter details provide information about a specific software counter summary for the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_ViewSoftwareCounterDetail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/t\_ViewSoftwareCounterDetail.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -34,12 +34,12 @@ Role required: sam
     |-----|-----------|
     |Type|Type of the counter detail.|
     |Software install|Name of the related software install record, if applicable. This field is blank if the type is Entitled not in use or Not allocated.|
-    |Software usage|Name of the related [software usage record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_ViewAUsageCounterResult.md), if applicable.|
-    |Software counter|Name of the related [software counter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_CreateASoftwareCounter.md).|
-    |Software counter summary|Name of the related [software counter summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_ViewASoftwareCounterSummary.md).|
-    |Valuation|A valuation of 1 indicates that the license right is being used. A valuation of 0 indicates that the license right is part of a [software suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md), or that the license allows more than one installation per right. The 0 indicates that this installation does not count against the license.|
-    |Entitlement|Name of the related [software license entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_CreatSWLicenseEntitlemnt.md), if applicable. This field is blank if the type is Not entitled or Not allocated.|
-    |Software license|Name of the related [software license](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_AddANewSoftwareLicense.md), if applicable. This field is blank if the type is Not entitled.|
+    |Software usage|Name of the related [software usage record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/t_ViewAUsageCounterResult.md), if applicable.|
+    |Software counter|Name of the related [software counter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/t_CreateASoftwareCounter.md).|
+    |Software counter summary|Name of the related [software counter summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/t_ViewASoftwareCounterSummary.md).|
+    |Valuation|A valuation of 1 indicates that the license right is being used. A valuation of 0 indicates that the license right is part of a [software suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/c_Models.md), or that the license allows more than one installation per right. The 0 indicates that this installation does not count against the license.|
+    |Entitlement|Name of the related [software license entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/t_CreatSWLicenseEntitlemnt.md), if applicable. This field is blank if the type is Not entitled or Not allocated.|
+    |Software license|Name of the related [software license](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/t_AddANewSoftwareLicense.md), if applicable. This field is blank if the type is Not entitled.|
     |Usage Section|
     |Foreground|Total duration of foreground usage of the software, based on the related software install record.|
     |Background|Total duration of background usage of the software, based on the related software install record.|
@@ -47,5 +47,5 @@ Role required: sam
     |Duration|Total duration of foreground and background software usage, based the related software usage record.|
 
 
-**Parent Topic:**[Software license reconciliation counters for the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UseCountersSWLicenseReconcil.md)
+**Parent Topic:**[Software license reconciliation counters for the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_UseCountersSWLicenseReconcil.md)
 

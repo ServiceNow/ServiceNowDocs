@@ -2,7 +2,7 @@
 title: Setting up inter-organization support
 description: Provide your agents at a business organization \(formerly business location\) with the visibility into other business organizations that they support using the inter-organization support capability. This way, you can enable location support agents to resolve cases raised by other business organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-bus-loc-serviced-by-bus-loc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/setup-bus-loc-serviced-by-bus-loc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Configure Service Model Foundation, Data models, Set up your enviro
 
 Provide your agents at a business organization \(formerly business location\) with the visibility into other business organizations that they support using the inter-organization support capability. This way, you can enable location support agents to resolve cases raised by other business organization.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Overview of inter-organization support
 

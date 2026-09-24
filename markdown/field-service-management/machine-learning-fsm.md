@@ -2,7 +2,7 @@
 title: Work order insights powered by Predictive Intelligence
 description: Use machine learning algorithms in the Predictive Intelligence feature to recommend solutions for work orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/machine-learning-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/machine-learning-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,13 +25,13 @@ Predictive Intelligence solution definitions provide the following benefits to a
     -   Use solution definitions to recommend parts for completing the work order tasks based on the insights gathered from the work order tasks with similar short description.
 -   **Reduces error rates and costs**
 
-    Use clustering solution to cluster similar work orders into topics based on the text provided in the short description field. For more information, see [View work order trends topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/view-wo-trends.md).
+    Use clustering solution to cluster similar work orders into topics based on the text provided in the short description field. For more information, see [View work order trends topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/view-wo-trends.md).
 
 
 **Related topics**  
 
 
-[Configuring Predictive Intelligence for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-predeictive-intelligence.md)
+[Configuring Predictive Intelligence for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/configuring-predeictive-intelligence.md)
 
-[Predictive analytics: Work order insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/monitoring-analytics-fsm.md)
+[Predictive analytics: Work order insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/monitoring-analytics-fsm.md)
 

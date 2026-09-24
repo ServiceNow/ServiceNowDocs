@@ -2,7 +2,7 @@
 title: Create expense lines for a demand
 description: Create an expense line to capture the cost associated with a specific source, such as a user or a fixed asset, for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-or-edit-expense-lines-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/add-or-edit-expense-lines-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -44,7 +44,7 @@ You can also create or edit expense lines from the **Expense Lines** tab in the 
 
 6.  On the New expense line form, fill in the fields.
 
-    For a description of the field values, see [Expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/expense-line-form-dw.md).
+    For a description of the field values, see [Expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/expense-line-form-dw.md).
 
 7.  Select **Save**.
 

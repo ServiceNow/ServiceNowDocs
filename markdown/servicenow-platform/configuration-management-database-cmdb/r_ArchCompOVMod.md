@@ -2,7 +2,7 @@
 title: Architecture Compliance Overview module
 description: The Architecture Compliance Overview module displays various architecture compliance reports. The Overview module is a type of homepage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r\_ArchCompOVMod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/r\_ArchCompOVMod.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

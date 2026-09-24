@@ -2,7 +2,7 @@
 title: Custom interactive filter limitations
 description: Custom interactive filters are a fallback for use when standard interactive filters do not provide certain functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/custom-if-limitations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/core-ui-interactive-filters/custom-if-limitations.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
@@ -16,7 +16,7 @@ breadcrumb: [Custom interactive filters, Interactive Filters, Reporting, dashboa
 
 Custom interactive filters are a fallback for use when standard interactive filters do not provide certain functionality.
 
-**Note:** The exposed [DashboardMessageHandler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_DashboardMessageHandler.md) API for custom interactive filters is limited and does not provide parity with standard interactive filters. The API does not support these features.
+**Note:** The exposed [DashboardMessageHandler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_DashboardMessageHandler.md) API for custom interactive filters is limited and does not provide parity with standard interactive filters. The API does not support these features.
 
 ## Unsupported custom interactive filter features
 
@@ -52,8 +52,8 @@ Custom interactive filters are a fallback for use when standard interactive filt
 
 -   **Custom interactive filters cannot be used in a breakdown dashboard**
 
-    On breakdown dashboards, the breakdown itself is used to filter all Performance Analytics widget data. For more information, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+    On breakdown dashboards, the breakdown itself is used to filter all Performance Analytics widget data. For more information, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 
-**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)
+**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)
 

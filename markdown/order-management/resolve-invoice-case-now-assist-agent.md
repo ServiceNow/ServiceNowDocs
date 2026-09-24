@@ -2,12 +2,12 @@
 title: Resolve invoice disputes using agentic workflow
 description: Resolve invoice dispute cases using ServiceNow Otto directly from the CSM/FSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/resolve-invoice-case-now-assist-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/resolve-invoice-case-now-assist-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
@@ -17,7 +17,7 @@ Resolve invoice dispute cases using ServiceNow Otto directly from the CSM/FSM Co
 
 ## Before you begin
 
-The invoice dispute assist agentic workflow must be made available on the ServiceNow Otto panel. For more information, see [Make the invoice dispute assist workflow available in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-invoice-dispute-assist-agentic-workflow.md).
+The invoice dispute assist agentic workflow must be made available on the ServiceNow Otto panel. For more information, see [Make the invoice dispute assist workflow available in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enable-invoice-dispute-assist-agentic-workflow.md).
 
 ServiceNow Otto for CSM must be installed to enable generative AI capabilities in the CSM/FSM Configurable Workspace. For more information, see [Install ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm.md).
 
@@ -89,7 +89,7 @@ You can also use the summarize and chat recommendation features in the Active Ch
 
 When the dispute is resolved, the invoice case is closed with the resolution details documented in the case notes, and an email notification is sent to the customer with a summary and a hyperlink to the case.
 
-**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 

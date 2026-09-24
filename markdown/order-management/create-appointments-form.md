@@ -2,7 +2,7 @@
 title: Create new appointment form
 description: Field descriptions for editing or reviewing details on the Create New Appointment form in the CRM Touchpoints and Opportunity Management modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-appointments-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-appointments-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -104,12 +104,12 @@ Message
 Additional details or notes about the appointment. This field supports rich text formatting.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-reference.md)
+</table>**Parent Topic:**[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-reference.md)
 
 **Related topics**  
 
 
-[Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-an-appoinment.md)
+[Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-create-an-appoinment.md)
 
-[Schedule an appointment from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-appointment-crm-touchpoint.md)
+[Schedule an appointment from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/schedule-appointment-crm-touchpoint.md)
 

@@ -2,7 +2,7 @@
 title: View team members assigned to an account
 description: View the team members for a specific account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ViewAccountTeamMembers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_ViewAccountTeamMembers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

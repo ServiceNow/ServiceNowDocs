@@ -2,7 +2,7 @@
 title: Update the progress of a manual target
 description: Update the progress of a target when its status is changed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/update-progress-of-target-egm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/update-progress-of-target-egm.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -90,19 +90,19 @@ The Goal side panel opens with the **Details** tab.
 </td></tr></tbody>
 </table>2.  On the form, update the **Actuals to date** or **Actual** field and add a business justification in the **Remark** field.
 
-    For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md).
+    For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md).
 
 3.  Select either **Update** or **Save**.
 
 
 ## Result
 
-After the **Actuals to date** field is updated, the progress value for the target and its goal is auto-updated. For information on how the progress value is calculated, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.md). For information on how the progress value is calculated for a target that has target breakdowns, see [Target breakdowns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-breakdowns.md).
+After the **Actuals to date** field is updated, the progress value for the target and its goal is auto-updated. For information on how the progress value is calculated, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.md). For information on how the progress value is calculated for a target that has target breakdowns, see [Target breakdowns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-breakdowns.md).
 
 **Related topics**  
 
 
-[Update the actual value of a target breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-the-actual-value-of-a-target-breakdown.md)
+[Update the actual value of a target breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/update-the-actual-value-of-a-target-breakdown.md)
 
-[Update the progress of an automated target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-progress-of-target-agf-apw.md)
+[Update the progress of an automated target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/update-progress-of-target-agf-apw.md)
 

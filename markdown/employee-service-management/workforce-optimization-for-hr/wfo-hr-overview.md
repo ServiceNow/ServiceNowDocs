@@ -2,7 +2,7 @@
 title: Workforce Optimization for HR Overview
 description: Workforce Optimization for HR simplifies the daily routine of HR Agent Managers to develop high-performing teams by optimizing schedules and work assignments, respond to ad hoc changes in real time, manage time-off requests and providing the skills they need to succeed—all in one workspace.Manage and maintain the productivity of your workforce from a single application using Workforce Optimization for HR. With this application, you can efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/wfo-hr-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/wfo-hr-overview.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -54,19 +54,19 @@ Workforce Optimization for HR WFO enables you to do these tasks:
 
 <table id="table_nlp_srv_zqb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how managers use Workforce Optimization for HR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/explore-wfo-hr.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how managers use Workforce Optimization for HR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/explore-wfo-hr.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Schedule, coach and train your agents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Schedule, coach and train your agents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.md)
 
 </td></tr><tr><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text:Learn about the components and roles installed with Workforce Optimization for HR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/wfo-hr-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Learn about the components and roles installed with Workforce Optimization for HR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/wfo-hr-reference.md)
 
 </td><td>
 

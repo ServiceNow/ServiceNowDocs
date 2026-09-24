@@ -2,7 +2,7 @@
 title: Use the SerializeObject component
 description: Convert a JSON object to a string by using the SerializeObject component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-json-serializeobject.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-utilities-json-serializeobject.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties for the SerializeObject component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-utilities-json.md).
+To configure the properties for the SerializeObject component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-utilities-json.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ To configure the properties for the SerializeObject component, see [Properties o
 
 2.  Drag the SerializeObject component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the SerializeObject component to the corresponding ports of the other components as described in the following table.
 
@@ -46,5 +46,5 @@ To configure the properties for the SerializeObject component, see [Properties o
 
 In this example, a JSON object contains the name, date of joining, and the salary of an employee. The JSON object is created by using the SetProperties component. To convert the JSON object to string, we use the SerializeObject component. After you run the automation, point the mouse device over the **Return** Data Out port of the SerializeObject component. The component displays the data as a string.
 
-**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/json.md)
 

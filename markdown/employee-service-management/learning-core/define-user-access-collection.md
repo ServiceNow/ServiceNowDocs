@@ -2,7 +2,7 @@
 title: Define user access to course within a collection
 description: Define user access to the collection to define who has read access to the collections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/define-user-access-collection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/define-user-access-collection.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -20,7 +20,7 @@ Define user access to the collection to define who has read access to the collec
 
 Role required: admin
 
-Create a collection. For more information, see [Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-course-collection.md).
+Create a collection. For more information, see [Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-course-collection.md).
 
 ## Procedure
 
@@ -39,5 +39,5 @@ Create a collection. For more information, see [Create a content collection](htt
     **Note:** If a user is present in both Can Read and Cannot Read related lists, the Cannot Read takes precedence and the user is restricted from read access to that course catalog.
 
 
-**Parent Topic:**[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-course-collection.md)
+**Parent Topic:**[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-course-collection.md)
 

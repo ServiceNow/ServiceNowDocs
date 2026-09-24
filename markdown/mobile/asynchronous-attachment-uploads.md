@@ -2,7 +2,7 @@
 title: Asynchronous attachment uploads
 description: Set the AsyncAttachmentsUploadEnabled mobile property to true to turn on background file uploads in the ServiceNow mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/asynchronous-attachment-uploads.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/asynchronous-attachment-uploads.html
 release: australia
 topic_type: task
 last_updated: "2026-06-04"
@@ -126,5 +126,5 @@ Specifies the number of automatic retry attempts for an asynchronous attachment 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md)
 

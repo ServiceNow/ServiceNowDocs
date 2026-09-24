@@ -2,7 +2,7 @@
 title: Level information
 description: Each building \(drawing\) has a list of levels. Each level is a map and represents one floor, though that is not a rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_LevelInfo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_LevelInfo.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -53,5 +53,5 @@ Each building \(drawing\) has a list of levels. Each level is a map and represen
 -   The `main` property assigns the main level of the building and is used as the default map when a building is selected.
 -   The `id` is used to find the correct level geometry file.
 
-**Parent Topic:**[Community file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_CommunityFile.md)
+**Parent Topic:**[Community file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_CommunityFile.md)
 

@@ -2,7 +2,7 @@
 title: Creating and reviewing the records
 description: The Operational Resilience administrators and managers can access the Digital Resilience Choices records in an instance. Create or update records such as legal entities, branches, functions, and contracts in a specific order into the Digital resilience third-party registers application. Those specifics are outlined in this section.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/order-for-creating-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/order-for-creating-records.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ Similarly, Operational Resilience managers can locate and access the Digital Res
 
 \[Omitted image "dig-res-cho-rec-mgrs.png"\] Alt text: Managers view.
 
-**Parent Topic:**[Configuring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-dg-resi-party-regi.md)
+**Parent Topic:**[Configuring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-dg-resi-party-regi.md)
 

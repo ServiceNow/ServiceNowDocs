@@ -2,7 +2,7 @@
 title: Add an event to monitor
 description: Add a custom event to extend monitoring beyond the base events using the Event Log Monitoring Config table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/add-event-to-monitor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/add-event-to-monitor.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -32,7 +32,7 @@ Role required: sn\_dex.admin
 
 5.  Complete the New record form to add an event to monitor.
 
-    For details about the form fields, see [New DEX event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/new-dex-event-form.md).
+    For details about the form fields, see [New DEX event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/new-dex-event-form.md).
 
 6.  Select **Submit**.
 

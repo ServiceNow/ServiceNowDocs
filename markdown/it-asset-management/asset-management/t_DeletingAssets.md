@@ -2,7 +2,7 @@
 title: Delete assets
 description: You can delete an asset at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_DeletingAssets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/t\_DeletingAssets.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -37,5 +37,5 @@ Only delete an asset to clean up errors. For tracking purposes, the correct meth
 3.  In the **Actions** choice list below the list, select **Delete**.
 
 
-**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-asset-ci.md)
+**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/work-with-asset-ci.md)
 

@@ -2,7 +2,7 @@
 title: Send an email notification after reassignment
 description: After you reassign an agent to an HR case, you can send an email to notify the agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-email-reassignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-email-reassignment.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

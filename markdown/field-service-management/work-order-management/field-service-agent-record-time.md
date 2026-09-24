@@ -2,7 +2,7 @@
 title: Record time worked for a task or activity manually
 description: Agents can record time worked on a work order task as well as time spent on other activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/field-service-agent-record-time.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/field-service-agent-record-time.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,7 +2,7 @@
 title: Reassign an issue's workflow
 description: Change the workflow assigned to an issue when more than one active workflow exists for the issue's table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/reassign-an-issue-s-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/reassign-an-issue-s-workflow.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -47,5 +47,5 @@ Reassigning a workflow changes the layout, state model, and playbook applied to 
 
 The issue is reassigned to the new workflow. Its layout, state model, and playbook update accordingly. If the issue is a parent, all child issues are reassigned to the same workflow.
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

@@ -2,7 +2,7 @@
 title: Collaborate using Docs in EAP
 description: Store and manage all kinds of documentation for Agile teams and their planning items \(Epics, Capabilities, and Features\) from a centralized location of Enterprise Agile Planning workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/docs-for-eap-teams-and-planning-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/docs-for-eap-teams-and-planning-items.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning

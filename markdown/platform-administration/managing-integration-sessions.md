@@ -2,7 +2,7 @@
 title: Managing integration sessions
 description: Manage access to an instance by configuring how long integration sessions last before expiring.Secure your instance by enforcing a maximum time for sessions regardless of integration activity.Specify when to time out integration sessions after a period of inactivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/managing-integration-sessions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/managing-integration-sessions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Manage access to an instance by configuring how long integration sessions last b
 
 Similar to user sessions, you can secure your instance by configuring when to time out an integration session after a period of inactivity and a maximum active session time. By default, integration session time out after five minutes of inactivity.
 
-**Parent Topic:**[Integration with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntegrateWThirdPartyAppsDataSrces.md)
+**Parent Topic:**[Integration with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_IntegrateWThirdPartyAppsDataSrces.md)
 
 ## Configure a maximum active time for integration sessions
 
@@ -65,7 +65,7 @@ Integrations are logged out of the instance after the time specified and their c
 **Related topics**  
 
 
-[Configure a maximum active time for user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ManageUserSessions.md)
+[Configure a maximum active time for user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/c_ManageUserSessions.md)
 
 ## Modify integration session timeout after inactivity
 
@@ -100,5 +100,5 @@ By default, after one minute of inactivity, the platform ends an integration ses
 **Related topics**  
 
 
-[Modify user session timeout after inactivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ManageUserSessions.md)
+[Modify user session timeout after inactivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/c_ManageUserSessions.md)
 

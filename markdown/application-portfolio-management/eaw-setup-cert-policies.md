@@ -2,7 +2,7 @@
 title: Configure certification policies
 description: Configure certification policies to keep your business applications inventory up to date. Keeping your business application data current helps you to assess your business applications precisely as there are indicators that are dependent on these business applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-setup-cert-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-setup-cert-policies.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,12 +14,12 @@ breadcrumb: [Configure EA Workspace using the Setup page, Configuring Enterprise
 
 Configure certification policies to keep your business applications inventory up to date. Keeping your business application data current helps you to assess your business applications precisely as there are indicators that are dependent on these business applications.
 
--   **[Import certification schedules in to Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-convert-cert-schedules-to-cert-policies.md)**  
+-   **[Import certification schedules in to Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-convert-cert-schedules-to-cert-policies.md)**  
 Import the certification schedules into Data Manager to convert the existing certification schedules to certification policies.
--   **[Publish a draft Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-publish-a-draft-policy.md)**  
+-   **[Publish a draft Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-publish-a-draft-policy.md)**  
 Publish the draft policies to activate them.
--   **[Add or edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-cert-schedules.md)**  
+-   **[Add or edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-cert-schedules.md)**  
 Add or edit a certification policy in the Enterprise Architecture Workspace.
 
-**Parent Topic:**[Configure EA Workspace using the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-config-eaw-using-setup-page.md)
+**Parent Topic:**[Configure EA Workspace using the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-config-eaw-using-setup-page.md)
 

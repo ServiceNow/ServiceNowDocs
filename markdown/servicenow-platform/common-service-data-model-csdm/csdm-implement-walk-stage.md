@@ -2,7 +2,7 @@
 title: CSDM implementation stage — Walk
 description: In the Walk stage, you identify and populate the network infrastructure CIs and applications that your organization's technical teams support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-implement-walk-stage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/csdm-implement-walk-stage.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -40,7 +40,7 @@ In the Walk stage, you identify and populate the network infrastructure CIs and 
 
 -   **Use the request catalog**
 
-    The operations enable you to order technology service offerings through the request catalog. You can also automate ordering some offerings to enhance the request workflow and update or create related CIs. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
+    The operations enable you to order technology service offerings through the request catalog. You can also automate ordering some offerings to enhance the request workflow and update or create related CIs. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog.md).
 
     **Note:** The request catalog is not a CMDB table.
 
@@ -57,7 +57,7 @@ In the Walk stage, you identify and populate the network infrastructure CIs and 
 
 The walk stage includes base-system CMDB tables that identify the technology provider.
 
-**Note:** Some of the classes that you implement in this stage are logical CIs. Logical CIs aren’t created through Discovery, so their **Model ID** values might not refer to product model \(application model, service model, or software model\) records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
+**Note:** Some of the classes that you implement in this stage are logical CIs. Logical CIs aren’t created through Discovery, so their **Model ID** values might not refer to product model \(application model, service model, or software model\) records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
 
 \[Omitted image "implementation-stage-walk.png"\] Alt text: Tables that you work on during the Walk stage.
 
@@ -82,8 +82,8 @@ The walk stage includes base-system CMDB tables that identify the technology pro
 
 -   **Dynamic CI group \[cmdb\_ci\_query\_based\_service\] table**
 
-    A dynamic CI group is a collection of CIs based on the results of saved Query Builder queries, encoded queries, or manual entries. Query Builder is described in [Exploring CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md). For more information about dynamic CI groups and how you can use them, see [Manage Portfolio domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md).
+    A dynamic CI group is a collection of CIs based on the results of saved Query Builder queries, encoded queries, or manual entries. Query Builder is described in [Exploring CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md). For more information about dynamic CI groups and how you can use them, see [Manage Portfolio domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md).
 
 
-**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
+**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
 

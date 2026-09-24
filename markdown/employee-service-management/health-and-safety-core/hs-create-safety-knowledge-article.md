@@ -2,7 +2,7 @@
 title: Create a Health and Safety knowledge article
 description: Create a safety-related knowledge article in the Health and Safety Workspace to share information across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/hs-create-safety-knowledge-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/hs-create-safety-knowledge-article.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -66,5 +66,5 @@ The knowledge article appears in a **Knowledge** list under **Configuration**:
 -   When published, it appears in the **My Articles - Published** list and the **All Articles** list. Published articles are visible to all employees.
 -   When unpublished, it appears in the **My Articles - Unpublished** list and the **All Articles** list.
 
-**Parent Topic:**[Managing safety knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-managing-safety-knowledge-articles.md)
+**Parent Topic:**[Managing safety knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-managing-safety-knowledge-articles.md)
 

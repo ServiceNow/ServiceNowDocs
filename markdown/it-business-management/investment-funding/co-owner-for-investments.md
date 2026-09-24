@@ -2,7 +2,7 @@
 title: Co-owners for an investment
 description: Investment co-owners manage, request, and allocate funds on your behalf to the investments that you own. The co-owner has the same rights and permissions as the owner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/co-owner-for-investments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/investment-funding/co-owner-for-investments.html
 release: australia
 product: Investment Funding
 classification: investment-funding
@@ -31,8 +31,8 @@ Investment co-owners manage, request, and allocate funds on your behalf to the i
     -   Co-owned investments are marked with a co-owner icon \(\[Omitted image "co\_owner\_tag.png"\] Alt text: Co-owner icon.\).
     -   Viewable investments are marked with a view only icon \(\[Omitted image "view\_only\_invstmnt.png"\] Alt text: View only icon.\).
 
--   **[Manage co-owners for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/manage-co-owners-for-invstmnts.md)**  
+-   **[Manage co-owners for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/investment-funding/manage-co-owners-for-invstmnts.md)**  
 Add co-owners to your investments to request, approve, and manage the funds on your behalf. You can remove the existing co-owners when you no longer need them to manage your investments.
 
-**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/investment-funding/investment-funding-overview.md)
 

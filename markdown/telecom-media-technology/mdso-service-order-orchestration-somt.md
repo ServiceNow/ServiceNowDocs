@@ -2,7 +2,7 @@
 title: Multi-domain service order orchestration
 description: Sales CRM for Telecommunications decomposes a customer order into multiple parallel domain orders. Each order is routed to the appropriate fulfillment domain using catalog-defined subflows and TMF Open API standards. Dependency sequencing coordinates service design, resource provisioning, and field operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/mdso-service-order-orchestration-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/mdso-service-order-orchestration-somt.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-14"

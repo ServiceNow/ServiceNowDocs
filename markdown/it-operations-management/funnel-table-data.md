@@ -2,7 +2,7 @@
 title: Table data options for funnel visualizations
 description: When you select a table data source for the funnel visualization, the following data configuration options are available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/funnel-table-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/funnel-table-data.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -237,5 +237,5 @@ Chart interaction
 User actions supported within the chart, such as hover or select.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a funnel visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-funnel-visualization.md)
+</table>**Parent Topic:**[Create a funnel visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-funnel-visualization.md)
 

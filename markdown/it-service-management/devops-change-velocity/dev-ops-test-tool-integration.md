@@ -2,7 +2,7 @@
 title: DevOps test tool integration
 description: Test tool integration lets you view test results in DevOps for Jenkins, Azure DevOps, GitHub, GitHub Enterprise, and GitLab unit, functional, and performance tests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -51,7 +51,7 @@ JUnit \(default\)
 -   For GitLab and Jenkins, only the JUnit test type integration is supported.
 -   For ADO, GitHub, and GitHub Enterprise, the JUnit, NUnit, XUnit, and Unit test type integrations are supported.
 
- You can change the default test type by modifying the **\[sn\_devops.default\_test\_type\]** [DevOps property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
+ You can change the default test type by modifying the **\[sn\_devops.default\_test\_type\]** [DevOps property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr><tr><td>
 
@@ -285,8 +285,8 @@ Create a decision for each type of test in the performance test stage to set the
 You can view test summary results these ways.
 
 -   **DevOps** &gt; **Test Results** module \(Test Summaries and Performance Test Summaries\).
--   [DevOps change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) - Test Results related list.
--   [DevOps Pipeline UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.md) - Quality tile.
+-   [DevOps change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) - Test Results related list.
+-   [DevOps Pipeline UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.md) - Quality tile.
 
 \[Omitted image "dev-ops-perf-test-summary.png"\] Alt text: DevOps performance test summary
 
@@ -369,12 +369,12 @@ Notes:
 - The stageName attribute value must be same as the value in the **Orchestration stage** field of the Step [sn_devops_step] table.
 ```
 
--   **[Configure a test tool in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-test-tool-dev-ops.md)**  
+-   **[Configure a test tool in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/create-test-tool-dev-ops.md)**  
 Configure a test tool in DevOps to view unit, functional, and performance test results.
--   **[Add test results to change requests using test API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/test-api-tools.md)**  
+-   **[Add test results to change requests using test API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/test-api-tools.md)**  
 Add test results to DevOps change requests using the test capability of the DevOps - POST /devops/tool/\{capability\} API. The API is available for all test types for various tools connected to DevOps Change Velocity.
--   **[Add attachments to change requests using attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/attachment-api-chg.md)**  
+-   **[Add attachments to change requests using attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/attachment-api-chg.md)**  
 Add test report xmls as attachments to DevOps change requests using the attachment API.
 
-**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
+**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 

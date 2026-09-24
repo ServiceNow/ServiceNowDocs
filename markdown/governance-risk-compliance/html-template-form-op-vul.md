@@ -2,7 +2,7 @@
 title: HTML Template form
 description: On the HTML Template form, fill in the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/html-template-form-op-vul.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/html-template-form-op-vul.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

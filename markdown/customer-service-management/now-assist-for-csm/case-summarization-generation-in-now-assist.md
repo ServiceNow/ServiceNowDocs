@@ -2,7 +2,7 @@
 title: Configure Case Summarization
 description: Configure case summarization to generate and display case summaries for agents and control who can access them in production.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/case-summarization-generation-in-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/case-summarization-generation-in-now-assist.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -149,5 +149,5 @@ Activity is listed as 'Email.'
 **Related topics**  
 
 
-[Summarize a call by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/summarize-a-call-by-using-now-assist-for-customer-service-management-csm.md)
+[Summarize a call by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/summarize-a-call-by-using-now-assist-for-customer-service-management-csm.md)
 

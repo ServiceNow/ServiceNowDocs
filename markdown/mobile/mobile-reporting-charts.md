@@ -2,7 +2,7 @@
 title: Data visualizations for the mobile dashboard
 description: Use data visualizations to help identify trends and turning points through indicator scores and visual representation. These data visualizations display the current state of instance data and are used when reporting on metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-reporting-charts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-reporting-charts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ The mobile platform supports the following reporting data visualizations.
 
 Time series reports
 
- Time series reports show you data points over a period of time, for example, the number of cases resolved within the first response. For more information, see [Time series reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reporting-time-series.md).
+ Time series reports show you data points over a period of time, for example, the number of cases resolved within the first response. For more information, see [Time series reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-reporting-time-series.md).
 
 </td><td>
 
@@ -30,7 +30,7 @@ Time series reports
 
 Single score reports
 
- Single score reports display a single key value, for example, the number of critical incidents opened by the QA team. For more information, see [Single score reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reporting-single-score.md).
+ Single score reports display a single key value, for example, the number of critical incidents opened by the QA team. For more information, see [Single score reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-reporting-single-score.md).
 
 </td><td>
 
@@ -40,7 +40,7 @@ Single score reports
 
 Donut reports
 
- Donut reports show how one grouping relates to the total amount, for example, the number of tasks completed by a team compared with the status of other task definitions. For more information, see [Donut reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reporting-donut.md).
+ Donut reports show how one grouping relates to the total amount, for example, the number of tasks completed by a team compared with the status of other task definitions. For more information, see [Donut reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-reporting-donut.md).
 
 </td><td>
 
@@ -48,7 +48,7 @@ Donut reports
 
 </td></tr><tr><td>
 
-Pie chartsPie charts show segments that make up a whole. For example, the number of incidents listed by priority. For more information, see [Pie charts for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reporting-pie.md).
+Pie chartsPie charts show segments that make up a whole. For example, the number of incidents listed by priority. For more information, see [Pie charts for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-reporting-pie.md).
 
 </td><td>
 
@@ -58,7 +58,7 @@ Pie chartsPie charts show segments that make up a whole. For example, the number
 
 Bar reports
 
- Bar reports compare two or more values. Use a stacked bar report to show information in segments that are proportional to the values they represent. A bar report, for example, can display the number of incidents assigned to employees while a stacked bar report can segment the incidents into categories. For more information, see [Bar reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reporting-bar.md).
+ Bar reports compare two or more values. Use a stacked bar report to show information in segments that are proportional to the values they represent. A bar report, for example, can display the number of incidents assigned to employees while a stacked bar report can segment the incidents into categories. For more information, see [Bar reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-reporting-bar.md).
 
 </td><td>
 

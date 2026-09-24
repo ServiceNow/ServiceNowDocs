@@ -2,7 +2,7 @@
 title: Intelligence
 description: Use the Intelligence solutions for the Customer Service Management application to access machine learning frameworks, search and automation functions, and natural language processing to automate and enhance your agent and customer experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/intelligence-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/intelligence-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Intelligence solutions use artificial intelligence \(AI\) to support machine lea
 
 -   **Machine learning**
 
-    [Machine learning solutions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/machine-learning-csm.md) help with case creation, case assignment, and case resolution.
+    [Machine learning solutions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/machine-learning-csm.md) help with case creation, case assignment, and case resolution.
 
 -   **Natural Language Understanding**
 
@@ -35,7 +35,7 @@ Intelligence solutions use artificial intelligence \(AI\) to support machine lea
 
 The Task Intelligence for Customer Service application offers you several AI capabilities. You can use language detection, record categorization, Sentiment Analysis, and Document Intelligence to automate your routine tasks across a case's life cycle. These capabilities also enable your agents to focus on resolving complex cases.
 
-To learn more about Task Intelligence, see [Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md).
+To learn more about Task Intelligence, see [Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intelligence.md).
 
 ## Recommended Actions application for Customer Service Management
 
@@ -45,13 +45,13 @@ The following example shows the recommended actions on the case record. The pane
 
 \[Omitted image "recommended-actions-workspace.png"\] Alt text: Recommended Actions dashboard that shows machine learning.
 
-To learn more about Recommended Actions, see [Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md).
+To learn more about Recommended Actions, see [Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md).
 
 ## Predictive Intelligence for case management
 
 You can assist your agents when they are creating cases by limiting the amount of information that they have to enter. For example, an agent only has to enter a short description of the case. Based on the agent's input in the short description field, Predictive Intelligence predicts the category, priority, and assignment group, routing the case to the correct queue.
 
-To learn more about Predictive Intelligence, see [Predictive Intelligence for case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-intelligence-case-mgmt.md).
+To learn more about Predictive Intelligence, see [Predictive Intelligence for case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/agent-intelligence-case-mgmt.md).
 
 ## Guided Decisions for Customer Service Management
 
@@ -66,5 +66,5 @@ Guided Decisions can help customer service agents by offering step-by-step dynam
 -   Increase customer satisfaction with consistent agent processes and responses.
 -   Improve first contact resolution by guiding agents along the optimal path to resolve complex cases.
 
-To learn more about Guided Decisions, see [Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-guided-decisions.md).
+To learn more about Guided Decisions, see [Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-guided-decisions.md).
 

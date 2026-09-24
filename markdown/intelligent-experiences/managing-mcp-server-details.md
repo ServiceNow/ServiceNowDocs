@@ -2,7 +2,7 @@
 title: Managing MCP server records
 description: Learn about the MCP server record, including the MCP server overview and details available in AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/managing-mcp-server-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/managing-mcp-server-details.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"

@@ -2,7 +2,7 @@
 title: Metric Category form
 description: Description of the field values for the Metric Category form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metric-category-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/metric-category-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ Create stakeholders
 
 </td><td>
 
-Check box that enables \(selected\) or disables \(cleared\) automatic [stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CategoryUsersAndStakeholders.md) creation for this category. When the check box is selected, the system makes all associated category users stakeholders for each assessable record associated to this category. This saves the time required to manually create stakeholders. For more information, see Create Stakeholders Automatically. Existing stakeholders are not impacted if you clear the check box.
+Check box that enables \(selected\) or disables \(cleared\) automatic [stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_CategoryUsersAndStakeholders.md) creation for this category. When the check box is selected, the system makes all associated category users stakeholders for each assessable record associated to this category. This saves the time required to manually create stakeholders. For more information, see Create Stakeholders Automatically. Existing stakeholders are not impacted if you clear the check box.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Weight
 
 </td><td>
 
-\[Required\] Numerical value that represents the importance of this category relative to other categories. A greater value indicates greater importance. For more information, see [weight categories and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md). The default value is 10.
+\[Required\] Numerical value that represents the importance of this category relative to other categories. A greater value indicates greater importance. For more information, see [weight categories and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md). The default value is 10.
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Scoring type
 
 </td><td>
 
-Scoring method for an attestation category. This field appears only when the [metric type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md) is an attestation with a **Scoring type** of **Percent**. Use this field to configure different scoring types for specific attestation categories. Possible selections are: -   **Percent**: Attestation score as a weighted percentage of correct answers for scored questions.
+Scoring method for an attestation category. This field appears only when the [metric type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md) is an attestation with a **Scoring type** of **Percent**. Use this field to configure different scoring types for specific attestation categories. Possible selections are: -   **Percent**: Attestation score as a weighted percentage of correct answers for scored questions.
 -   **All or nothing**: All answers for attestation type questions must be correct or the score is zero for the entire category.
 
 </td></tr><tr><td>
@@ -137,7 +137,7 @@ Assessable records
 
 </td><td>
 
-All assessable records associated to this category. There must be at least one assessable record associated to the [category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md) to use any assessments with the category. This related list is hidden if the **Evaluation method** is **Attestation**. **Note:** Category users are automatically generated based on the user field is specified in the **Assessors** tab of the assessment after publishing the assessment.
+All assessable records associated to this category. There must be at least one assessable record associated to the [category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md) to use any assessments with the category. This related list is hidden if the **Evaluation method** is **Attestation**. **Note:** Category users are automatically generated based on the user field is specified in the **Assessors** tab of the assessment after publishing the assessment.
 
 </td></tr><tr><td>
 
@@ -149,13 +149,13 @@ All users associated to this category. There must be at least one category user 
 
  If any user field is specified in the **Assessors** tab of the assessment, the corresponding users are automatically generated after publishing the assignment.
 
- This related list is available only when the associated metric type has schedule type set to **Scheduled**. Category users are not a part of the [on-demand assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OnDemandAssessments.md) process.
+ This related list is available only when the associated metric type has schedule type set to **Scheduled**. Category users are not a part of the [on-demand assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_OnDemandAssessments.md) process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessment-reference.md)
+</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/assessment-reference.md)
 
 **Related topics**  
 
 
-[Create a category for assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateACategoryAR.md)
+[Create a category for assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateACategoryAR.md)
 

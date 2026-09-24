@@ -2,7 +2,7 @@
 title: Reset OAuth for a clone target
 description: Reset OAuth authentication for a clone target if you receive an authentication error on the clone request form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/reauthorize-clone-target.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/reauthorize-clone-target.html
 release: australia
 topic_type: task
 last_updated: "2026-06-10"
@@ -64,5 +64,5 @@ The target instance is reauthorized.
 
 ## What to do next
 
-To submit a clone request to the reauthorized target, see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md).
+To submit a clone request to the reauthorized target, see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_StartAClone.md).
 

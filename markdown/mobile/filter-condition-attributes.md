@@ -2,7 +2,7 @@
 title: Filter condition attributes
 description: Use these filter condition attributes to customize how your data is filtered for condition types that are set in your mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/filter-condition-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/filter-condition-attributes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

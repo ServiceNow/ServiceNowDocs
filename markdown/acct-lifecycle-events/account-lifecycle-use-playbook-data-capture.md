@@ -2,7 +2,7 @@
 title: Data capture and validation
 description: This phase is meant to gather the necessary information about the account such as support contacts, locations, sold products, entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-use-playbook-data-capture.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-use-playbook-data-capture.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,15 +41,15 @@ Select the **Data capture** activity to import relevant data into the system and
 -   Sold products
 -   Install base M2M sold products
 
- Custom conditions have been defined and field values in these tables like source table, target table, and data source are auto-populated in each of these tables. You can use these flows by directly importing data into these tables and publish them when they’re ready. For details on importing data into these tables, see [Import data into the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-import-data.md).
+ Custom conditions have been defined and field values in these tables like source table, target table, and data source are auto-populated in each of these tables. You can use these flows by directly importing data into these tables and publish them when they’re ready. For details on importing data into these tables, see [Import data into the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-import-data.md).
 
- These tables have been configured with specific conditions and field values have been auto-populated. You can modify these tables, add new tables, and activities depending on your requirements using the Process Automation Designer. See [Configure data validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-data-valid-assist.md) for details.
+ These tables have been configured with specific conditions and field values have been auto-populated. You can modify these tables, add new tables, and activities depending on your requirements using the Process Automation Designer. See [Configure data validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-data-valid-assist.md) for details.
 
 </td></tr></tbody>
 </table>Review the data in the Summary activity and select **Mark Complete** to move to the next stage.
 
--   **[Import data into the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-import-data.md)**  
+-   **[Import data into the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-import-data.md)**  
 As part of the Customer Success Management process, you can import, configure, and publish data.
 
-**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
+**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
 

@@ -2,7 +2,7 @@
 title: Decision utility
 description: Use the Decision utility in a Virtual Agent topic to add two or more branches that represent different paths in a conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-decision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-decision.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,7 +22,7 @@ Each branch below a Decision utility node has a condition property. You can defi
 
 **Note:** If you insert a **Boolean** user input control, you're prompted to add a **Decision** utility directly after the Boolean node on the canvas. Selecting **Yes** on the Boolean node's Decision utility prompt automatically generates two branches named **True** and **False**. The two branches conditions are automatically set through the condition builder.
 
-For more information, see [Branch a Virtual Agent conversation with a Decision utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-decision-utility-va-topic.md).
+For more information, see [Branch a Virtual Agent conversation with a Decision utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-decision-utility-va-topic.md).
 
 ## Example Decision utility node with branches
 
@@ -34,5 +34,5 @@ You can also use the Script option for branch conditions. In the following examp
 
 \[Omitted image "decision-example-script.png"\] Alt text: Decision utility with three branches and highlighted corresponding scripted property for the Blue branch.
 
-**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-utilities.md)
 

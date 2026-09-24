@@ -2,7 +2,7 @@
 title: SPWidgetAccessControl - Global
 description: The SPWidgetAccessControl script include provides methods that allow administrators to check whether a provided table is granted public access to a widget and is securely accessed by an intended audience.Instantiates the SPWidgetAccessControl object.Returns information about whether a specified table has public access to a widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SPWidgetAccessControlGlobalAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/SPWidgetAccessControlGlobalAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The SPWidgetAccessControl script include provides methods that allow administrat
 
 For details and instructions about using the SPWidgetAccessControl API in your server script, see [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-widget-security.md) \(Restrict which tables public widgets can access for guest users\).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## SPWidgetAccessControl – SPWidgetAccessControl\(\)
 

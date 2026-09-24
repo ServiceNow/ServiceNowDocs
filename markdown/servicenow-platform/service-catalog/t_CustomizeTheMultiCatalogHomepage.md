@@ -2,7 +2,7 @@
 title: Customize the multi-catalog homepage
 description: Customize the multi-catalog homepage to provide end users with access to multiple catalogs from one homepage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CustomizeTheMultiCatalogHomepage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_CustomizeTheMultiCatalogHomepage.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -54,5 +54,5 @@ This task is similar to customizing the homepage for an individual catalog. In t
     The catalogs appear on the homepage.
 
 
-**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
+**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
 

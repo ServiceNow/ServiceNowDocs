@@ -2,7 +2,7 @@
 title: Direct Kafka
 description: Integrate your ServiceNow instance with your local Kafka environment with Direct Kafka. Build efficient integrations between your enterprise systems, enabling high-volume and robust integrations to exchange data between applications, and reduce data loss with the queuing mechanism if one environment is temporarily offline.Configure a Direct Kafka Cluster for your local Kafka topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/direct-kafka.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/direct-kafka.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -30,7 +30,7 @@ The following image shows an example of a Direct Kafka Cluster. The Connection a
 
 Direct Kafka requires a Connection and Credential alias. For details on how to set one up, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
 
-Direct Kafka also requires a Kafka connection to connect to your local Kafka environment. For details, see [Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-kafka-connection.md). When configuring the Kafka connection, there are a couple things to keep in mind.
+Direct Kafka also requires a Kafka connection to connect to your local Kafka environment. For details, see [Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-kafka-connection.md). When configuring the Kafka connection, there are a couple things to keep in mind.
 
 -   The **Bootstrap servers** are required. Enter a comma-separated list in the format HOST:PORT,HOST:PORT. The list doesn't need to include all the Apache Kafka cluster servers.
 -   Direct Kafka doesn’t use a MID Server. When you create the Kafka connection, make sure the **Use MID Server** check box isn’t checked. If you want to use an existing connection that uses a MID Server, you can change the check box if the connection isn’t already being used.
@@ -46,7 +46,7 @@ Configure a Direct Kafka Cluster for your local Kafka topics.
 ### Before you begin
 
 -   Role required: admin
--   A Direct Kafka cluster requires a Connection and Credential alias and a Kafka connection. For step-by-step instructions, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md) and [Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-kafka-connection.md).
+-   A Direct Kafka cluster requires a Connection and Credential alias and a Kafka connection. For step-by-step instructions, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md) and [Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-kafka-connection.md).
 
     **Note:** Direct Kafka doesn’t use a MID Server. When you create the Kafka connection, make sure the **Use MID Server** check box isn’t checked.
 
@@ -72,5 +72,5 @@ The topics from your local Kafka will be imported to ServiceNow and visible on t
 
 ### What to do next
 
-[Create topic aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/manage-topic-alias.md) to connect to your Direct Kafka topics.
+[Create topic aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/manage-topic-alias.md) to connect to your Direct Kafka topics.
 

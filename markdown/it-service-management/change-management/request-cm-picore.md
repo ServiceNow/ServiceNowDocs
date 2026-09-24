@@ -2,7 +2,7 @@
 title: Change Management - Predictive Intelligence Core
 description: To activate Change Management predictive intelligent features, the Change Management - Predictive Intelligence Core plugin \(com.snc.change\_management.ml\) is required and is automatically installed along with other through Change Management Predictive Intelligence plugins that are requested using the Now Support Customer Service system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/request-cm-picore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/request-cm-picore.html
 release: australia
 product: Change Management
 classification: change-management
@@ -91,10 +91,10 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with Change Management - Predictive Intelligence Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-withpicore.md)**  
+-   **[Components installed with Change Management - Predictive Intelligence Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-withpicore.md)**  
 Several types of components are installed with activation of the Change Management - Predictive Intelligence Core plugin that includes tables. These tables can be utilized only after the other Change Management Predictive Intelligence plugins are activated.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

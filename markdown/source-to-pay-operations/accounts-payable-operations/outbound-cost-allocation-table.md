@@ -2,7 +2,7 @@
 title: Outbound cost allocation staging table
 description: Field descriptions for the Outbound Cost Allocation staging table \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\], used to configure ERP integrations for exporting cost allocation data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/outbound-cost-allocation-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/outbound-cost-allocation-table.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -32,7 +32,7 @@ The following table lists fields for the outbound cost allocation \[sn\_spend\_i
 |Invoice line|Reference|Line items on the invoice.|
 |Integration status|Choice|Status of the integration process.|
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

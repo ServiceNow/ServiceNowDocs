@@ -2,7 +2,7 @@
 title: Assign a bot process to a queue from Queues menu in RPA Hub
 description: Assign a bot process to a queue in RPA Hub so that it can interact with this queue. You can assign more than one bot process to a queue. Any robot that is associated with the assigned bot process can insert the work item, pick the work item, and update the work item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/assign-botprocess-queue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/assign-botprocess-queue.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ Assign a bot process to a queue in RPA Hub so that it can interact with this que
 
 ## Before you begin
 
-Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md).
 
-Create a queue. For more information, see [Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-queue.md).
+Create a queue. For more information, see [Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-queue.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -26,7 +26,7 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
 If the bot process is enabled for robot pool, then only one queue \(that is not associated with any other bot process\) can be mapped to the current bot process.
 
-To associate a queue to a bot process from the bot process related list, see [c to the bot process from the related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/associate-queue-botprocess.md).
+To associate a queue to a bot process from the bot process related list, see [c to the bot process from the related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/associate-queue-botprocess.md).
 
 ## Procedure
 
@@ -47,14 +47,14 @@ To associate a queue to a bot process from the bot process related list, see [c 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md)
+**Parent Topic:**[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/queues-implement-rpa.md)
 
 **Related topics**  
 
 
-[Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-form.md)
+[Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/queue-form.md)
 
-[Unassign a bot process from a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/unassign-botprocess-queue.md)
+[Unassign a bot process from a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/unassign-botprocess-queue.md)
 
-[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md)
+[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/queues-implement-rpa.md)
 

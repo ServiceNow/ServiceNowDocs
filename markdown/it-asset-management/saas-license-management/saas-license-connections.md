@@ -2,7 +2,7 @@
 title: SaaS License Connections
 description: Creating a custom integration helps you connect the Software Asset Management application with a SaaS application that doesn't have an existing integration in SaaS License Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/saas-license-connections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/saas-license-management/saas-license-connections.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management

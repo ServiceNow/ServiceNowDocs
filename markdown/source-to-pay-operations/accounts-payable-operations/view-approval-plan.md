@@ -2,7 +2,7 @@
 title: Monitor an approval plan
 description: Monitor approval plans to understand how the overall approval process is progressing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/view-approval-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/view-approval-plan.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -19,7 +19,7 @@ Monitor approval plans to understand how the overall approval process is progres
 
 ## Before you begin
 
-To monitor an approval plan, you must have already defined an approval rule. For more information on how to create approval rules, see [Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule.md). You can review and update the plans if required. Approval plans are not created manually.
+To monitor an approval plan, you must have already defined an approval rule. For more information on how to create approval rules, see [Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule.md). You can review and update the plans if required. Approval plans are not created manually.
 
 Role required: admin
 
@@ -35,12 +35,12 @@ The approval engine converts each approval rule into one or multiple approval pl
 
 3.  On the Approval Plan form, review the fields.
 
-    For a description of the field values, see [Approval Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/approval-plan-form.md).
+    For a description of the field values, see [Approval Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/approval-plan-form.md).
 
 
 ## What to do next
 
 Use the related lists of the Approval Plan form to view the approval plan details and approvers associated with this approval plan.
 
-**Parent Topic:**[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)
+**Parent Topic:**[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)
 

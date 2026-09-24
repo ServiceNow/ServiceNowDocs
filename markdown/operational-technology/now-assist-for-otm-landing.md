@@ -2,7 +2,7 @@
 title: Operational Technology \(OT\) Manager Foundation
 description: Use the Operational Technology \(OT\) Manager Foundation to help streamline processes in the Industrial Workspace related to your OT device data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/now-assist-for-otm-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/now-assist-for-otm-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
 For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-For more information about AI capabilities in Operational Technology Manager, see [OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/exploring-now-assist-for-otm.md).
+For more information about AI capabilities in Operational Technology Manager, see [OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/exploring-now-assist-for-otm.md).
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 

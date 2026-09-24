@@ -2,7 +2,7 @@
 title: Create a Subscription Management administrator
 description: Create a Subscription Management administrator by assigning the usage\_admin role to an administrator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/assign-usage-admin-v2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/assign-usage-admin-v2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

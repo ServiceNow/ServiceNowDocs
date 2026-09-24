@@ -2,7 +2,7 @@
 title: Deactivate a control objective
 description: Deactivate control objectives that are no longer relevant to their citation or parent control objective.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/t\_DeactivateAPolStatement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/t\_DeactivateAPolStatement.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -33,5 +33,5 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
     When you deactivate or retire a control objective, the system retires the controls generated from it.
 
 
-**Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
+**Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 

@@ -2,7 +2,7 @@
 title: View supplier payment information from the Supplier Collaboration Portal
 description: As a supplier contact, view the payment information of a supplier in the Supplier Collaboration Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/view-bank-info-supp-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/view-bank-info-supp-central.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -42,7 +42,7 @@ The Payment Information section displays the details about your banks. You can d
 -   Select the link to a bank name to view its details.
 -   To view a list of all of your payment information on the Payment Information page, select **View all**.
 
-**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
+**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 
 **Related topics**  
 
@@ -71,7 +71,7 @@ The Payment Information section displays the details about your banks. You can d
 
 [Create a Universal Request from the Supplier Collaboration Portal]()
 
-[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 
-[View all your requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-supp-case-sc.md)
+[View all your requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/view-supp-case-sc.md)
 

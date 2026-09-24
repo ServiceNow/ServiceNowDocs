@@ -2,7 +2,7 @@
 title: Create a similar tasks group in a crisis
 description: Identify and group similar or duplicate tasks related to a crisis event using the Similar tasks groups tab. Grouping similar tasks helps you to optimize event task management and minimize redundant work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-sim-tasks-grp-crisis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-sim-tasks-grp-crisis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,9 +22,9 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 You can create a similar tasks group and add tasks to it only in the **Draft** state of the event.
 
-For information on identifying and grouping duplicate event tasks, see [Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identifying-running-dup-tasks-once.md).
+For information on identifying and grouping duplicate event tasks, see [Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/identifying-running-dup-tasks-once.md).
 
-For information on the state changes for event tasks in similar tasks groups, see [State changes for event tasks in groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/transition-states-of-event-task.md).
+For information on the state changes for event tasks in similar tasks groups, see [State changes for event tasks in groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/transition-states-of-event-task.md).
 
 ## Procedure
 
@@ -68,5 +68,5 @@ For information on the state changes for event tasks in similar tasks groups, se
     The event task is deleted from the event.
 
 
-**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

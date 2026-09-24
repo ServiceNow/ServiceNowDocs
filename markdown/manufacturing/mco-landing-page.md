@@ -2,7 +2,7 @@
 title: Manufacturing Commercial Operations landing page \(CSM/FSM configurable workspace\)
 description: Use the Manufacturing Commercial Operations workspace to manage warranty claims, pre-authorizations, and campaigns. View personalized dashboards, filter records by status, and take action based on AI-suggested dispositions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -139,6 +139,6 @@ Displays all sales promotions accessible to the logged-in user. Use the filter t
 
 To learn more about configuring and using MCO, see:
 
--   [Set up Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-setup.md)
--   [Using MCO workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-agent-management.md)
+-   [Set up Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-setup.md)
+-   [Using MCO workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-agent-management.md)
 

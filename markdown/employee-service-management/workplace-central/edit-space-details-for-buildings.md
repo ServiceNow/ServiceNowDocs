@@ -2,7 +2,7 @@
 title: Edit a building's spaces using a map
 description: Space planners and administrators can update space attributes and allocation changes using interactive floor maps. Select and edit a single space or update bulk spaces via floor maps. Add, change, or remove space allocations as required. The updated space attributes and association changes are reflected in real-time on a floor map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/edit-space-details-for-buildings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/edit-space-details-for-buildings.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -162,7 +162,7 @@ Select **Remove allocation** from the drop-down list to remove the selected spac
 
     13. Select **New** to add a workplace location and update the required fields.
 
-        For more information, see [Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md).
+        For more information, see [Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md).
 
     14. After performing the changes, select **Save**.
 
@@ -171,7 +171,7 @@ Select **Remove allocation** from the drop-down list to remove the selected spac
     Any changes that you make to space records are applied in real-time and available on the floor Map of the selected space.
 
 
-**Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/map-based-space-administration.md)
+**Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/map-based-space-administration.md)
 
 **Related topics**  
 

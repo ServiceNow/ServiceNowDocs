@@ -2,7 +2,7 @@
 title: Set notifications for configured key alerts
 description: Follow these steps to configure Key Alerts on an instance where critical alerts have not yet been configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/configuring-io-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/configuring-io-alerts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Many of these alerts have monitoring built around, and most of them have recomme
 
     \[Omitted image "config-alert-banner.png"\] Alt text: Shows the Configure Alerts banner to begin alert configuration.
 
-    For example, long running job alerts can indicate potential performance issues or pre-emptive alerts for upcoming performance issues. For more information and how to configure long pending jobs, see [Configure long pending jobs alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-long-pending-jobs.md).
+    For example, long running job alerts can indicate potential performance issues or pre-emptive alerts for upcoming performance issues. For more information and how to configure long pending jobs, see [Configure long pending jobs alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-long-pending-jobs.md).
 
 3.  Select **Configure your alerts**.
 
@@ -69,11 +69,11 @@ After the request submission, all six alerts will be enabled automatically, no m
 
 **Note:** If one or more alerts out of the six available aren’t enabled automatically, then a threshold wasn’t available for that specific metric due to limited use in the instance.
 
-After the notifications and alerts are activated you can view them on the Instance Observer home page, which is the [User configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md) as **Self-Service Alerts** in the **Alerts** card.
+After the notifications and alerts are activated you can view them on the Instance Observer home page, which is the [User configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/user-configurable-dashboard.md) as **Self-Service Alerts** in the **Alerts** card.
 
 ## What to do next
 
-[Manage Instance Observer alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-io-alerts.md)
+[Manage Instance Observer alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/manage-io-alerts.md)
 
-**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts.md)
+**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-alerts.md)
 

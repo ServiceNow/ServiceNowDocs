@@ -2,7 +2,7 @@
 title: Export an impacted people list
 description: Export an impacted people list as a PDF, CSV, JSON, or Microsoft Excel file in Critical Event Management and either download or email the file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/export-impacted-people-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/export-impacted-people-list.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -49,7 +49,7 @@ Role required: sn\_critical.agent
 8.  Select **Export**.
 
 
-**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: User Criteria Settings
 description: User criteria settings details the settings in Proactive Engagement to group the users for certain conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/user-criteria-pe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/proactive-engagement/user-criteria-pe.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -61,5 +61,5 @@ Active
 Yes/No
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/configuring-proactive-engagement.md)
+</table>**Parent Topic:**[Configuring Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/configuring-proactive-engagement.md)
 

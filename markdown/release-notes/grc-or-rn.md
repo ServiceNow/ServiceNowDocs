@@ -2,7 +2,7 @@
 title: Operational Resilience release notes
 description: The ServiceNow Operational Resilience application helps organizations maintain business services during adverse events, such as pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Australia release.The ServiceNow Operational Resilience application helps organizations maintain business services during adverse events, such as pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Australia release.The ServiceNow Operational Resilience application helps organizations maintain business services during adverse events, such as pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Australia release.The ServiceNow Operational Resilience application helps organizations maintain business services during adverse events, such as pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/grc-or-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/grc-or-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ See [Operational Resilience](https://raw.githubusercontent.com/ServiceNow/Servic
     For existing installations, these jobs retain their current active or inactive state.
 
 
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/grc-rn-landing.md)
 
 ## June 2026
 

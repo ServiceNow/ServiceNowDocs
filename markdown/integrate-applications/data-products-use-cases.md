@@ -2,7 +2,7 @@
 title: Data products use cases
 description: Explore common scenarios for publishing data products and learn which pattern fits your data and your consumers' needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-products-use-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/data-products-use-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-30"

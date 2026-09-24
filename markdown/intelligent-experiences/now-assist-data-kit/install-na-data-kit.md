@@ -2,7 +2,7 @@
 title: Install AI Data Kit
 description: Install AI Data Kit to create datasets for a data collection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/install-na-data-kit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/install-na-data-kit.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -33,5 +33,5 @@ Role required: admin or sn\_data\_kit.admin
 
 ## What to do next
 
-After installation, assign the appropriate AI Data Kit roles to users who need access to the application. The platform `admin` role alone does not grant access to the AI Data Kit Home page. All users, including platform administrators, must also be assigned `sn_data_kit.analyst` or `sn_data_kit.admin` to navigate to AI Data Kit. For role descriptions, see [AI Data Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/na-data-kit-reference.md).
+After installation, assign the appropriate AI Data Kit roles to users who need access to the application. The platform `admin` role alone does not grant access to the AI Data Kit Home page. All users, including platform administrators, must also be assigned `sn_data_kit.analyst` or `sn_data_kit.admin` to navigate to AI Data Kit. For role descriptions, see [AI Data Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/na-data-kit-reference.md).
 

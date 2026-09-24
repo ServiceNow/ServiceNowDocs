@@ -2,7 +2,7 @@
 title: View insurance cases in Agentic Contact Center for Insurance
 description: Review insurance claims and service cases for a customer in the Customer 360 page so that you can understand the customer's open and recent service activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/view-insurance-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/view-insurance-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-05-13"
@@ -48,9 +48,9 @@ The case record opens in a new tab.
 **Related topics**  
 
 
-[Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/customer-360-insurance-agentic-contact-centre.md)
+[Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/customer-360-insurance-agentic-contact-centre.md)
 
-[View an insurance customer profile in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/view-insurance-customer-profile.md)
+[View an insurance customer profile in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/view-insurance-customer-profile.md)
 
-[View insurance policies and coverages in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/view-insurance-policies-coverages.md)
+[View insurance policies and coverages in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/view-insurance-policies-coverages.md)
 

@@ -2,7 +2,7 @@
 title: Using ServiceNow Otto for Integrated Risk Management \(IRM\) skills
 description: Use the generative AI skills that are supported by the ServiceNow Otto for Integrated Risk Management \(IRM\) application for quick actions with issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions

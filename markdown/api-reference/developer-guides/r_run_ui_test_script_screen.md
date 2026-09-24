@@ -2,7 +2,7 @@
 title: screen — DOM queries
 description: The screen API is the primary interface for finding elements on the page tested by a Run UI Test Script step. All query methods pierce shadow roots automatically, so they work with Now Experience components as well as classic Jelly and UI16 pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/r\_run\_ui\_test\_script\_screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/r\_run\_ui\_test\_script\_screen.html
 release: australia
 product: Developer Guides
 classification: developer-guides

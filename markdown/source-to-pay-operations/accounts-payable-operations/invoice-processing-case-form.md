@@ -2,7 +2,7 @@
 title: Invoice processing case form
 description: Field descriptions for the Invoice processing case form, including supplier information, payment terms, accounting codes, and billing addresses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -61,14 +61,14 @@ Field descriptions for the Invoice processing case form, including supplier info
 |Ship to zip/postal code|The zip code to which the items on the purchase order should be shipped.|
 |Ship to state/province|The state to which the items on the purchase order should be shipped.|
 
--   **[Invoice processing details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-form.md)**  
+-   **[Invoice processing details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-processing-form.md)**  
 Field descriptions for the Invoice attributes form stored in the \[sn\_apm\_invoice\_attribute\] table, including invoice processing details such as approval status, exception handling, and matching errors.
--   **[Invoice processing case form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-tabs.md)**  
+-   **[Invoice processing case form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-tabs.md)**  
 Tab descriptions for the Invoice processing case form, including invoice details, exceptions, approvals, and related processing information.
--   **[ERP Posting error form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/erp-posting-erorr-form.md)**  
+-   **[ERP Posting error form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/erp-posting-erorr-form.md)**  
 Field descriptions for the ERP Posting error form, organized by tab, for updating integration error tasks and resolving ERP posting failures.
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

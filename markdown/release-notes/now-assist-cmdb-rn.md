@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Configuration Management Database \(CMDB\) release notes
 description: The ServiceNow ServiceNow Otto for Configuration Management Database \(CMDB\) application helps to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and more. ServiceNow Otto for CMDB was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Configuration Management Database \(CMDB\) application helps to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and more. ServiceNow Otto for CMDB was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Configuration Management Database \(CMDB\) application helps to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and more. ServiceNow Otto for CMDB was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Configuration Management Database \(CMDB\) application helps to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and more. ServiceNow Otto for CMDB was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Configuration Management Database \(CMDB\) application helps to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and more. ServiceNow Otto for CMDB was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Configuration Management Database \(CMDB\) application helps to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and more. ServiceNow Otto for CMDB was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-cmdb-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-cmdb-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-07-30"
@@ -16,7 +16,7 @@ The ServiceNow® ServiceNow Otto for Configuration Management Database \(CMDB\) 
 
 ## About ServiceNow Otto for Configuration Management Database \(CMDB\)
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md) The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available.
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md) The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available.
 
 -   Get an AI-generated summary of the CMDB success advisor for HAM dashboard, with key findings on CMDB data accuracy, completeness, and health and the suggested remediation actions.
 -   Compare your current manual \(static\) IRE processes with AI-powered Dynamic IRE.
@@ -37,10 +37,10 @@ See [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw
 
 -   **Upgrade information**
 
-    To enable Now Assist to provide detailed descriptions of CIs and classes, you must activate the 'External Content Connectors' plugin, install the ‘ServiceNow Product Documentation’ connector, and then crawl the product documentation. For configuration instructions, see [Configure the CI form contextual help skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-skill-form-sense-config.md).
+    To enable Now Assist to provide detailed descriptions of CIs and classes, you must activate the 'External Content Connectors' plugin, install the ‘ServiceNow Product Documentation’ connector, and then crawl the product documentation. For configuration instructions, see .
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## August 2026
 
@@ -50,7 +50,7 @@ The ServiceNow® ServiceNow Otto for Configuration Management Database \(CMDB\) 
 
 -   **Now Assist &gt; ServiceNow Otto announcement**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
 -   **[Get advice on CMDB governance from ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-awf-cmdb-governance.md)**

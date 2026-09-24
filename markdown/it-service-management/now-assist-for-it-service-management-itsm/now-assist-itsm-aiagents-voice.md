@@ -2,7 +2,7 @@
 title: Agentic AI in the Voice application
 description: Use the Voice AI agents to create and manage tickets for any IT service-related issues such as troubleshooting WiFi connections with voice calls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-voice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-voice.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

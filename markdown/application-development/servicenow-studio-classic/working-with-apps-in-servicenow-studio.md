@@ -2,7 +2,7 @@
 title: Applications in ServiceNow Studio
 description: Create, update, manage, publish, and delete applications in ServiceNow Studio — all from a single environment, based on your permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -24,9 +24,9 @@ Applications range from a few files to thousands of files. In ServiceNow Studio,
 
 ## How do I create an application?
 
-Use either **Create** button on the ServiceNow Studio home page to start creating an app with metadata records. For more information, see [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md).
+Use either **Create** button on the ServiceNow Studio home page to start creating an app with metadata records. For more information, see [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md).
 
-Create an app in source code by selecting the Explorer tab and selecting **Create an app**. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
+Create an app in source code by selecting the Explorer tab and selecting **Create an app**. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
 
 \[Omitted image "sn-studio-create-button-as2.png"\] Alt text: Use either Create button on the home page to begin working on a new application.
 
@@ -40,9 +40,9 @@ Selecting an app opens its full contents in the Navigator panel, with all file t
 
 \[Omitted image "sn-studio-app-details.png"\] Alt text: Open the app in a new tab by selecting App details.
 
-For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
+For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
 
-For more information about working with your application from App details, see [App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/app-details-page.md).
+For more information about working with your application from App details, see [App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/app-details-page.md).
 
 ## Opening apps for continued work
 
@@ -54,20 +54,20 @@ To find apps and files you have worked on recently, select the **Recent** sectio
 
 \[Omitted image "sn-studio-recent-expanded.png"\] Alt text: Use the Recent section of the Navigator panel to access recently opened files and apps.
 
--   **[Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md)**  
+-   **[Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md)**  
 Create a custom application in ServiceNow Studio, then add data, automation, or other app files using integrated development tools and builders.
--   **[Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-create-app-file.md)**  
+-   **[Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-create-app-file.md)**  
 Create an app file in ServiceNow Studio to define how an aspect of an application functions — such as which users can access it or how it processes data.
--   **[App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/app-details-page.md)**  
+-   **[App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/app-details-page.md)**  
 The App details page in ServiceNow Studio shows metadata about your app and provides access to common development actions — including creating files, updating app settings, and publishing your app for deployment.
--   **[Bookmark apps and app files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/bookmark-apps-and-app-files.md)**  
+-   **[Bookmark apps and app files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/bookmark-apps-and-app-files.md)**  
 Bookmark apps and app files in ServiceNow Studio so you can access them quickly from the Bookmarks tab in the Navigator panel.
--   **[Preview an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/preview-app-file.md)**  
+-   **[Preview an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/preview-app-file.md)**  
 Preview app files in ServiceNow Studio before publishing to confirm that the file looks and functions as expected. Only files with a user interface support preview.
--   **[Find an app or app file using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/find-app-app-file-using-code-search.md)**  
+-   **[Find an app or app file using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/find-app-app-file-using-code-search.md)**  
 Use code search in ServiceNow Studio to search through all applications and tables on an instance to locate a specific app, app file, or code snippet.
--   **[Delete an app from ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/delete-an-app-from-servicenow-studio.md)**  
+-   **[Delete an app from ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/delete-an-app-from-servicenow-studio.md)**  
 Delete apps that are no longer needed from ServiceNow Studio to remove them permanently from the instance.
 
-**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/using-servicenow-studio.md)
+**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 

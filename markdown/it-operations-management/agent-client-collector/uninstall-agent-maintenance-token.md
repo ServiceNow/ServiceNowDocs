@@ -2,7 +2,7 @@
 title: Uninstall an agent using a maintenance token
 description: Uninstall an agent from a Windows device using a maintenance token. Administrators require maintenance tokens to ensure that unauthorized employees can't perform an uninstall.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/uninstall-agent-maintenance-token.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/uninstall-agent-maintenance-token.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,9 +18,9 @@ Uninstall an agent from a Windows device using a maintenance token. Administrato
 
 ## Before you begin
 
-Enable requiring a maintenance token for uninstalls, as described in [Require a maintenance token for Windows uninstalls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/require-maintenance-token-uninstall.md).
+Enable requiring a maintenance token for uninstalls, as described in [Require a maintenance token for Windows uninstalls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/require-maintenance-token-uninstall.md).
 
-Create a maintenance token to be used when uninstalling an agent, as described in [Create a maintenance token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-maintenance-token.md).
+Create a maintenance token to be used when uninstalling an agent, as described in [Create a maintenance token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-maintenance-token.md).
 
 Role required: sn\_agent.token\_admin
 
@@ -57,5 +57,5 @@ Role required: sn\_agent.token\_admin
     If you provide an invalid maintenance token, uninstall is blocked. For more information, check the uninstall logs at `<user folder>\AppData\Local\Temp\ACC_Logs`.
 
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

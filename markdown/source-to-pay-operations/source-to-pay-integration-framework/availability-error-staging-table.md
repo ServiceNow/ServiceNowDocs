@@ -2,7 +2,7 @@
 title: Availability Error staging table
 description: The Availability Error \[sn\_spend\_intg\_availability\_error\] staging table stores important data about availability error so that an ERP integrator can export this data to a third-party ERP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/availability-error-staging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/availability-error-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -24,7 +24,7 @@ The following table lists fields for the Availability Error \[sn\_spend\_intg\_a
 |-----|---------|-----------|
 |Supplier part number|String|Unique number that is used by the supplier to identify this product.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

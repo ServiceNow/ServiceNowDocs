@@ -2,7 +2,7 @@
 title: Test a flow
 description: Before activating a flow so other users can access it, test to make certain it works the way you expect.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-test.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-test.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -22,7 +22,7 @@ Role required: flow\_designer or admin
 
 ## About this task
 
-Testing a flow bypasses the flow trigger conditions to run it with the test data you provide. For example, testing a flow with a record **Created** trigger causes the system to act as if the selected record was created. For a list of data pills available by trigger type, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
+Testing a flow bypasses the flow trigger conditions to run it with the test data you provide. For example, testing a flow with a record **Created** trigger causes the system to act as if the selected record was created. For a list of data pills available by trigger type, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-triggers.md).
 
 **Note:** Because testing a flow creates or changes records on the instance, flow designers should always test flows on a non-production instance containing relevant demonstration data.
 
@@ -67,7 +67,7 @@ Testing a flow bypasses the flow trigger conditions to run it with the test data
 
 ## What to do next
 
-Review the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+Review the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-details.md).
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

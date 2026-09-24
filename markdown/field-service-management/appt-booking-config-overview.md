@@ -2,7 +2,7 @@
 title: Learn about task assignment
 description: The application configuration works with the Field Service Management configuration for task assignment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/appt-booking-config-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/appt-booking-config-overview.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -46,12 +46,12 @@ For work order tasks that have scheduled appointments, dispatchers receive warni
 -   Scheduled start
 -   Scheduled travel start
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 
 **Related topics**  
 
 
-[Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md)
+[Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ConfigureFieldService.md)
 
 [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseSchedules.md)
 

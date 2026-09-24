@@ -2,7 +2,7 @@
 title: Icon illustrations in Theme Builder
 description: Icons are used to visually represent actions and concepts through simple, themed graphics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-icon-illustrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-icon-illustrations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -61,8 +61,8 @@ The size and format limitations for each of the four file sizes are as follows:
 |Format|SVG|
 |File size limit|2 MB|
 
--   **[Override icon illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/override-icon-with-custom-image.md)**  
+-   **[Override icon illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/override-icon-with-custom-image.md)**  
 Modify or override the default icon illustrations with your own custom images to promote visual elements that reflect your company's branding. When you override an icon, Theme Builder updates the icon wherever it is used across the interface.
 
-**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-image-styles.md)
+**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-with-image-styles.md)
 

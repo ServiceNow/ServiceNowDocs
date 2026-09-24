@@ -2,7 +2,7 @@
 title: Getting started with flows
 description: Create a sample flow with a trigger and base system actions that requires an approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/getting-started-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/getting-started-flow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -74,5 +74,5 @@ To understand basic flows, create an expense approval flow. This flow:
 
 ## What to do next
 
-Transform the Ask for Approval action into a reusable action using Workflow Studio. Actions enable flow designers to add complex actions to multiple flows with minimal configuration. See [Getting started with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-action.md).
+Transform the Ask for Approval action into a reusable action using Workflow Studio. Actions enable flow designers to add complex actions to multiple flows with minimal configuration. See [Getting started with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-action.md).
 

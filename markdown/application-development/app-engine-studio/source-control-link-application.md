@@ -2,7 +2,7 @@
 title: Link an application or application-customization to source control
 description: Linking an application or application-customization to source control allows application developers to manage changes in App Engine Studio \(AES\) from a Git repository.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-link-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/source-control-link-application.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +18,7 @@ Linking an application or application-customization to source control allows app
 
 ## Before you begin
 
--   Learn more about [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
+-   Learn more about [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
 -   Create a dedicated Git repository for the application. For increased security, enable multi-factor authentication for the Git repository.
 -   Generate an access token that the source control integration can use instead of a password and multi-factor authentication passkey while creating a Credential record. Search for personal access token on [GitHub](https://help.github.com) or [GitLab](https://docs.gitlab.com).
 -   Restrict permissions on the access token to allow read and write access to the Git repository.
@@ -122,7 +122,7 @@ An optional description of the repository or application.
     All application developers on the instance can use the linked Git repository to manage changes.
 
 
-**Parent Topic:**[AES integration with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-integration.md)
+**Parent Topic:**[AES integration with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-source-control-integration.md)
 
 **Related topics**  
 

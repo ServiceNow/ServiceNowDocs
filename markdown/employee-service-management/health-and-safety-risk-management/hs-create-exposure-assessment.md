@@ -2,7 +2,7 @@
 title: Create an exposure assessment for an exposure type
 description: For an exposure type, create an exposure assessment for a site location. You can also generate exposure assessments for multiple locations in your organization at once for an exposure type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-create-exposure-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-create-exposure-assessment.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -45,7 +45,7 @@ An exposure assessment record for each selected location appears in the **Exposu
 
 ## What to do next
 
-In the **Exposure assessments** tab, perform assessments across different locations for this exposure type. For more information, see [Perform an exposure assessment for a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-perform-exposure-assessment.md).
+In the **Exposure assessments** tab, perform assessments across different locations for this exposure type. For more information, see [Perform an exposure assessment for a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-perform-exposure-assessment.md).
 
-**Parent Topic:**[Safety exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-exposures.md)
+**Parent Topic:**[Safety exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-safety-exposures.md)
 

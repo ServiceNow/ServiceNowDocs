@@ -2,7 +2,7 @@
 title: View the license report for the OT Asset Management application
 description: View details of the subscriptions consumed by your organization for the OT Asset Management application by using the ITAM License Report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/view-license-report-otam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/view-license-report-otam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -55,5 +55,5 @@ The EAM Populate Licensing Data job runs every Sunday and populates the ITAM Lic
     -   **Subscription Unit Ratio**: Predefined ratios that determine how many assets of a Resource category require a subscription. For example, the defined ratio of 25:1 for Industrial Consumable means that every 25 assets of that resource category require one Subscription Unit.
     -   **Total Subscription Units Consumed**: The number of subscriptions per Resource category that your organization consumed. The licensing module calculates this number by applying the Subscription Unit Ratio to the Resource Total Count for each Resource Category.
 
-**Parent Topic:**[OT Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/licensing-ot-asset-management.md)
+**Parent Topic:**[OT Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/licensing-ot-asset-management.md)
 

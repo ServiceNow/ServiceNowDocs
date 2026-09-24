@@ -2,7 +2,7 @@
 title: View inactive audits
 description: You can view all inactive audits in one place and optionally activate them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/view-inactive-audits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/view-inactive-audits.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

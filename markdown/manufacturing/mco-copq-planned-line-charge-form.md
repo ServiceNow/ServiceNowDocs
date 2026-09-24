@@ -2,7 +2,7 @@
 title: CoPQ planned line charge form
 description: The CoPQ planned line charge form contains fields for defining planned costs on a CoPQ financial request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-copq-planned-line-charge-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-copq-planned-line-charge-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -109,5 +109,5 @@ Actual cost
 Actual cost incurred for the CoPQ request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qim-form.md)
 

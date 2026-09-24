@@ -2,7 +2,7 @@
 title: Review and publish a Care team activities task plan
 description: Review then publish the task plan template created using the Care team activities playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-cta-plan-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-cta-plan-summary.html
 release: australia
 topic_type: task
 last_updated: "2026-08-31"

@@ -2,7 +2,7 @@
 title: Palo Alto Networks Firewall Launcher Workflow
 description: Security Operations Integration Palo Alto Networks Firewall Launcher workflow is the Palo Alto Networks Firewall implementation launched by the Security Operations Integration - Block Request capability workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secops-integration-paloalto-firewall-launcher-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/secops-integration-paloalto-firewall-launcher-workflow.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

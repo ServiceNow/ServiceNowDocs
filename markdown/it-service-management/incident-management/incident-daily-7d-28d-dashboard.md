@@ -2,7 +2,7 @@
 title: Legacy: Incident Daily 7d - 28d dashboard
 description: View the last 28 days of incidents as raw trends, as a 7-day running average, or as a 28-day running average. Filter the scores by assignment groups or by the category of incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-daily-7d-28d-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/incident-daily-7d-28d-dashboard.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -18,7 +18,7 @@ View the last 28 days of incidents as raw trends, as a 7-day running average, or
 
 **Important:**
 
-Starting in Xanadu release, the Incident Daily 7d - 28d dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the last 28 days of incidents as raw trends, as a 7-day running average, or as a 28-day running average and filter the scores by assignment groups or incident.
+Starting in Xanadu release, the Incident Daily 7d - 28d dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident.md) to view the last 28 days of incidents as raw trends, as a 7-day running average, or as a 28-day running average and filter the scores by assignment groups or incident.
 
 \[Omitted image "incident-7d-28d-daily.png"\] Alt text: Incident Daily tab of the Incident daily 7d-28d breakdown dashboard
 
@@ -57,5 +57,5 @@ Starting in Xanadu release, the Incident Daily 7d - 28d dashboard is deprecated.
 
 You can apply breakdown elements on this dashboard to all widgets simultaneously. Above the chart in the upper left, select either Groups or Incident.Category. You can then select one or more elements and they will apply to all widgets.\[Omitted image "incident-daily-select-bkdn-elemnt.png"\] Alt text: Selecting the breakdown source and breakdown elements on the dashboard
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-content-pack.md)
 

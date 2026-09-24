@@ -2,7 +2,7 @@
 title: Activate the standard ticket page for upgrade customers
 description: If you have upgraded your instance, redirect the ticket page to the standard\_ticket page in the Service Portal and view requests on the standard ticket page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/activate\_csm-std-ticket.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate\_csm-std-ticket.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

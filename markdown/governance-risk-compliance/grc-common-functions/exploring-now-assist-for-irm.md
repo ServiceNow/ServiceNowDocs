@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: With the ServiceNow Otto for Integrated Risk Management \(IRM\) application, you can use generative AI to support key IRM tasks such as summarizing issues, identifying risks, and reviewing controls. These capabilities are integrated into IRM records and help streamline how you work with issues, risks, controls, policy exceptions, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/exploring-now-assist-for-irm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/exploring-now-assist-for-irm.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -44,7 +44,7 @@ User role
 
 </th></tr></thead><tbody><tr><td>
 
-[Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md) agentic workflow
+[Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md) agentic workflow
 
 </td><td>
 
@@ -71,7 +71,7 @@ User role
 
 </th></tr></thead><tbody><tr><td>
 
-[Issue Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-summarization-skill.md)
+[Issue Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-summarization-skill.md)
 
 </td><td>
 
@@ -84,7 +84,7 @@ Analyze issue records using generative AI to generate concise summaries, improvi
 
 </td></tr><tr><td>
 
-[Generate recommendation for similar control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/generate-recommendation-for-a-new-control-objective.md)
+[Generate recommendation for similar control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/generate-recommendation-for-a-new-control-objective.md)
 
 </td><td>
 
@@ -113,7 +113,7 @@ Use Now LLM Service to generate risk assessment summaries from inherent, residua
 
 </td></tr><tr><td>
 
-[Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-alert-summarization.md)
+[Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-alert-summarization.md)
 
 </td><td>
 
@@ -127,7 +127,7 @@ Leverage Now LLM Service to convert regulatory content into concise, business-re
 
 </td></tr><tr><td>
 
-[AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md)
+[AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md)
 
 </td><td>
 
@@ -144,13 +144,13 @@ Use this skill to identify relevant control objectives linked to incoming regula
 
 To learn more about configuring and using ServiceNow Otto for IRM, see:
 
--   [Supporting information for Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
--   [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
--   [Activate skills in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md)
+-   [Supporting information for Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
+-   [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
+-   [Activate skills in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md)
 -   Activate agentic workflows in Now Assist for IRM
--   [Customize the issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.md)
--   [Using Now Assist for IRM skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
--   [Summarize an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/summarize-an-issue.md)
--   [Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
--   [Optimize GRC issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/generate-grc-issue-resolution.md)
+-   [Customize the issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.md)
+-   [Using Now Assist for IRM skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
+-   [Summarize an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/summarize-an-issue.md)
+-   [Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
+-   [Optimize GRC issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/generate-grc-issue-resolution.md)
 

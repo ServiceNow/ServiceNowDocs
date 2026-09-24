@@ -2,7 +2,7 @@
 title: Create a capability profile
 description: Create a profile and select the McAfee ePO capabilities that you want the profile to run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-create-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mcafee-epo-create-profile.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -111,7 +111,7 @@ The check box is selected by default to indicate that the profile is active. Whe
 
 ## What to do next
 
-The next step is to configure your profile. Before you configure the settings for the profile, you may prefer to review the concepts for configuring profiles and triggering conditions. See [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-setup-mcafee.md) and [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-alternate-ci.md) for more information.
+The next step is to configure your profile. Before you configure the settings for the profile, you may prefer to review the concepts for configuring profiles and triggering conditions. See [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-setup-mcafee.md) and [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-alternate-ci.md) for more information.
 
-**Parent Topic:**[McAfee ePO integration capability profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-creating-profiles.md)
+**Parent Topic:**[McAfee ePO integration capability profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-creating-profiles.md)
 

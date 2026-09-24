@@ -2,7 +2,7 @@
 title: Trello Spoke
 description: Manage Trello Enterprise subscriptions using your ServiceNow instance. Analyze data usage for Trello enterprise and reclaim idle subscriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/trello-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/trello-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -156,5 +156,5 @@ Stores the webhook registries. The webhook registry registers a Trello webhook i
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Generate Trello API key and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/trello-setup.md) and [Create a Trello connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/trello-setup.md).
+For information about setting up the spoke, see [Generate Trello API key and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/trello-setup.md) and [Create a Trello connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/trello-setup.md).
 

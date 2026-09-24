@@ -2,7 +2,7 @@
 title: Create Smart Assessment template for Workplace Case and Task
 description: Smart assessment templates define the structure, questions, and sections that workplace agents complete when working on cases and tasks. Case managers create templates to standardize data collection and ensure consistent quality checks across workplace cases and tasks. These assessments automatically attach to cases and tasks based on configurable trigger conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/create-smart-assessment-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/create-smart-assessment-template.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -74,5 +74,5 @@ Role required: sn\_wsd\_case.admin or sn\_wsd\_case.manager
     **Note:** Templates must be published before they can be attached to triggers and used in workplace cases.
 
 
-**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
+**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
 

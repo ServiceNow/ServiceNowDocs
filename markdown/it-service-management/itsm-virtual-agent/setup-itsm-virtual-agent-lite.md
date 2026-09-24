@@ -2,7 +2,7 @@
 title: Setting up ITSM Virtual Agent Lite
 description: Setup ITSM Virtual Agent Lite using to use the read-only, pre-built conversation topics for your most common ITSM self-service cases. For example, you can connect your users with a virtual agent to check ticket status, search the knowledge base, and report an issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent-lite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent-lite.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -60,8 +60,8 @@ Users with the admin or virtual\_agent\_admin role can activate the required plu
 6.  Test an active, published conversation topic, by selecting the topic you want to test in Virtual Agent Designer and selecting **Test**.
 
 
--   **[ITSM Virtual Agent Lite pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent-lite-topics.md)**  
+-   **[ITSM Virtual Agent Lite pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-virtual-agent-lite-topics.md)**  
 ITSM Virtual Agent Lite includes several pre-built, read-only topic conversations you can use to set up a virtual agent for your end users.
 
-**Parent Topic:**[ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent-lite.md)
+**Parent Topic:**[ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-virtual-agent-lite.md)
 

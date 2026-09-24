@@ -2,7 +2,7 @@
 title: Exploring Antivirus Scanning
 description: Use Antivirus Scanning to help protect your instance against virus infections that can be introduced by file attachments to your system records, such as incidents, problems, and stories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-antivirus-scanning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/exploring-antivirus-scanning.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

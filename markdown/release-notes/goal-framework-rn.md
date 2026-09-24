@@ -2,7 +2,7 @@
 title: Goal Framework release notes
 description: The ServiceNow Goal Framework application enables your business to create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish your organizational plans and drive business outcomes. Goal Framework was enhanced and updated in the Australia release.The ServiceNow Goal Framework application enables your business to create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish your organizational plans and drive business outcomes. Goal Framework was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/goal-framework-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/goal-framework-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ See [Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
+**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-business-management-rn-landing.md)
 
 ## Australia
 

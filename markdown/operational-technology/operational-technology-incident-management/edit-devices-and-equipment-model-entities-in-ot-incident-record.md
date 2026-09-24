@@ -2,7 +2,7 @@
 title: Edit the related devices and equipment model entities in an incident record
 description: Add or remove the related Operational Technology \(OT\) devices and equipment model entities directly from an OT incident record. You can track the relationship between the incident and its affected items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/edit-devices-and-equipment-model-entities-in-ot-incident-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/edit-devices-and-equipment-model-entities-in-ot-incident-record.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -70,5 +70,5 @@ Description
 6.  Add or remove an equipment model entity from an incident record by repeating steps 4 and 5 but in the Impacted Equipment Model Entities related list.
 
 
-**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

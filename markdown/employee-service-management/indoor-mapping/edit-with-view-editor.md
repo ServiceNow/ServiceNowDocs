@@ -2,7 +2,7 @@
 title: Edit with view editor
 description: Edit and customize indoor maps with the Map Studio view editor. Enabling the default view in Indoor Mapping is a mandatory step so that maps can render in Workplace Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/edit-with-view-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/edit-with-view-editor.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -61,7 +61,7 @@ Role required: map admin, map editor, map editor limited
 
 8.  The **View Editor Content** displays content based on your selection.
 
-    For more information, see [View editor content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/view-editor-content.md).
+    For more information, see [View editor content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/view-editor-content.md).
 
 9.  Click **Apply** to apply the view changes.
 
@@ -70,12 +70,12 @@ Role required: map admin, map editor, map editor limited
     You also have the option to reset the view by clicking the More options menu icon \( \[Omitted image "more-options-icon.png"\] Alt text: More options icon.\) available next to **Save this view option**.
 
 
--   **[View editor content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/view-editor-content.md)**  
+-   **[View editor content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/view-editor-content.md)**  
 Work with the View Editor content and customize the campus, buildings, layers, places, connectors, and direction modes properties.
 
-**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Copy direction graphs to multiple floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/copy-directions-multiple-floors.md)
+**Previous topic:**[Copy direction graphs to multiple floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/copy-directions-multiple-floors.md)
 
-**Next topic:**[View editor content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/view-editor-content.md)
+**Next topic:**[View editor content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/view-editor-content.md)
 

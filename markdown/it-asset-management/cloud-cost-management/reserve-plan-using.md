@@ -2,7 +2,7 @@
 title: Reduce resource cost with Commitments
 description: View the Reserved Instances \(RI\) report, implement recommendations, and configure processes to convert on-demand payment plans to reservation plans, and save the cost of your resources.Configure Commitments processes and specify the amount of potential savings that triggers notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/reserve-plan-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/reserve-plan-using.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -80,9 +80,9 @@ Accept
 
 Google Cloud recommendations are updated periodically and might not show the latest suggestions until the console is manually refreshed. In contrast, Cloud Cost Management fetches recommendations via API, ensuring it has the most current data. This difference can sometimes cause Google Cloud RI recommendations in Cloud Cost Management to diverge from what's shown in the Google Cloud console. A manual refresh is required to see the latest recommendations.
 
-[Configure Commitments operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reserve-plan-using.md) by selecting **Settings**.
+[Configure Commitments operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/reserve-plan-using.md) by selecting **Settings**.
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 
 ## Configure Commitments operations
 

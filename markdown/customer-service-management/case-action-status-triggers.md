@@ -2,7 +2,7 @@
 title: Actionable case flows
 description: Actionable case flows contain predefined user actions that automatically create and resolve blocking tasks for customer service cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-action-status-triggers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-action-status-triggers.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

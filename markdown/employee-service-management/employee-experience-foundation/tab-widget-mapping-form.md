@@ -2,7 +2,7 @@
 title: Tab widget mapping form
 description: You can use the tab widget mapping form to display widgets on a tab and control their visibility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/tab-widget-mapping-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/tab-widget-mapping-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -80,7 +80,7 @@ Users who can view the widgets.-   Employee only
 
     -   Available For: User group for whom the widget is visible. Define and select the user group based on your business needs.
     -   Not Available For: User group for whom the widget isn’t visible. Define and select the user group based on your business needs.
-Values that are defined in the Not Available For group take precedence over the values defined in the Available For group. If both aren't defined, the widget is visible to all users. For more information on widget visibility based on user criteria, see [User Criteria output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/user-criteria-output.md).
+Values that are defined in the Not Available For group take precedence over the values defined in the Available For group. If both aren't defined, the widget is visible to all users. For more information on widget visibility based on user criteria, see [User Criteria output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/user-criteria-output.md).
 
 **Note:** Use the user criteria cautiously because the profile page load time can take longer based on your criteria.
 
@@ -123,12 +123,12 @@ Widget parameters
 
 </td><td>
 
-Comma-separated list of widget parameters auto-populated with default values.For the **Employee Schedule** widget, to send Email or SMS, specify the widget parameters `enable_send_email` and `enable_send_sms` values to true. For more information, see [Configure the mail and SMS send to self](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.md).
+Comma-separated list of widget parameters auto-populated with default values.For the **Employee Schedule** widget, to send Email or SMS, specify the widget parameters `enable_send_email` and `enable_send_sms` values to true. For more information, see [Configure the mail and SMS send to self](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.md).
 
 For default calendar view, specify `default_calendar_view` value to day or week or month.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
@@ -191,5 +191,5 @@ For default calendar view, specify `default_calendar_view` value to day or week 
 
 [Website configuration form]()
 
-[Manage profile tabs and visibility in Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-employee-profile-tabs-visibility.md)
+[Manage profile tabs and visibility in Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/manage-employee-profile-tabs-visibility.md)
 

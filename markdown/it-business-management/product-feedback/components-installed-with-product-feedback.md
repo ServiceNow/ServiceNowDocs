@@ -2,7 +2,7 @@
 title: Components installed with Feedback application
 description: Learn about several types of components installed with Feedback application in Strategic Planning such as user roles, tables, and, system properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/components-installed-with-product-feedback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/product-feedback/components-installed-with-product-feedback.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -198,7 +198,7 @@ Specifies the maximum number of records displayed in the feedback or product ide
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>For more information on components installed with Strategic Planning, see [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md).
+</table>For more information on components installed with Strategic Planning, see [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md).
 
-**Parent Topic:**[Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-feedback-reference.md)
+**Parent Topic:**[Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/product-feedback-reference.md)
 

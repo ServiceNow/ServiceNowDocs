@@ -2,7 +2,7 @@
 title: Track the progress on a feedback task
 description: Monitor open and closed feedback tasks and track the duration of time a feedback task remains in each state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/track-feedback-task-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/track-feedback-task-metrics.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -37,5 +37,5 @@ Role required: Owner of the knowledge base, knowledge\_manager, knowledge\_admin
     -   You may need to configure the form to add **Knowledge Feedback Task Metrics** in the related list section. For more information, see [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
     -   The feedback task state is unaffected by changes in the article state. Therefore, when the article is retired, the feedback owner or group assigned to the feedback task has to close or resolve the feedback task.
 
-**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

@@ -2,7 +2,7 @@
 title: Create Logical Interface function
 description: The Create Logical Interface function enables you to create logical interfaces in the Telecommunications Network Inventory application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-logical-interface-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-logical-interface-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -171,7 +171,7 @@ The following table lists the information about the function output.
 |----|-----------|---------|
 |Result Id|Returns a glide record of the logical interface.|Record|
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

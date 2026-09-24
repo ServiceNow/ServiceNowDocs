@@ -2,7 +2,7 @@
 title: Create an Agent Client Collector policy
 description: Policies consist of the CIs monitored by the Agent Client Collector and the checks that run on those CIs. When creating a policy, you configure a filter which determines the CIs on which the checks are to run. For example, a policy to run checks on all Apache web servers. You can create new policies or edit the default policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-edit-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/create-edit-policies.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -77,7 +77,7 @@ You assign a credential alias in the policy's **Credentials** tab, as described 
 
 6.  Configure a proxy server on the **Proxy Settings** tab.
 
-    Configure a proxy server only when using the agent as a proxy to report data on remote machines. For details, see [Configure an agent on a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-agent-proxy-server.md).
+    Configure a proxy server only when using the agent as a proxy to report data on remote machines. For details, see [Configure an agent on a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-agent-proxy-server.md).
 
 7.  On the **Scheduling** tab, select one of the following:
 
@@ -109,5 +109,5 @@ You assign a credential alias in the policy's **Credentials** tab, as described 
 **Related topics**  
 
 
-[Create a policy hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-create-policy-hierarchy.md)
+[Create a policy hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-create-policy-hierarchy.md)
 

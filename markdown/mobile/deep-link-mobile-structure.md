@@ -2,7 +2,7 @@
 title: Mobile deep link structure
 description: Familiarize yourself with how to construct and use mobile deep links in any screen type within a mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/deep-link-mobile-structure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/deep-link-mobile-structure.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -133,7 +133,7 @@ getSSOPrefillLink generates a link that uses the identity provider \(IdP\) that 
 
 </td><td>
 
-getUniversalLink generates a link into either a list, form, or browser. A screen is generated based on the content of this URL. See [Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-links-mobile.md).
+getUniversalLink generates a link into either a list, form, or browser. A screen is generated based on the content of this URL. See [Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/universal-links-mobile.md).
 
 </td><td>
 
@@ -141,5 +141,5 @@ getUniversalLink generates a link into either a list, form, or browser. A screen
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md)
+**Parent Topic:**[Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/deep-link-mobile.md)
 

@@ -2,7 +2,7 @@
 title: Upgrade tools and resources
 description: Learn about ServiceNow products and tools that can improve your upgrade experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrade-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/upgrade-tools.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-07"
@@ -18,7 +18,7 @@ Learn about ServiceNow products and tools that can improve your upgrade experien
 
 Use these ServiceNow products to automate parts of your upgrade testing and manage your upgrades from one central place.
 
--   **[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework.md)**
+-   **Automated Test Framework**
 
     The Automated Test Framework \(ATF\) enables you to create and run automated tests to confirm that your instance works after making a change. For example, after an upgrade, during application development, or when deploying instance configurations with update sets. Review failed test results to identify the changes that caused the failure and the changes that you should review.
 
@@ -45,7 +45,7 @@ In addition to upgrade-related products, you can also use ServiceNow's upgrade t
 
 -   **Sample upgrade project plans**
 
-    The [Upgrade planning checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-planning-checklist.md) provides a quick look at the steps in an upgrade. If you'd like to track your upgrade progress in Excel, PDF, or Microsoft Project, you can download these sample project plans to get started.
+    The [Upgrade planning checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/upgrades-planning-checklist.md) provides a quick look at the steps in an upgrade. If you'd like to track your upgrade progress in Excel, PDF, or Microsoft Project, you can download these sample project plans to get started.
 
     -   [PDF](https://downloads.docs.servicenow.com/enus/paris/upgrade/servicenow-upgrade-planning-checklist.pdf)
     -   [Excel](https://downloads.docs.servicenow.com/enus/paris/upgrade/servicenow_upgrade_sample_project_plan_v1.0.xlsx)

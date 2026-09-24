@@ -2,7 +2,7 @@
 title: View Connectors
 description: View the list of connectors for an external system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connecthub-view-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connecthub-view-connectors.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

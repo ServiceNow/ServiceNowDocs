@@ -2,7 +2,7 @@
 title: Log Export Service roles
 description: Log Export Service is installed with these roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ This role is installed along with the LES application and allows a non-admin to 
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see[Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see[Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md).
 
     No.
 
@@ -66,7 +66,7 @@ Admin role is required for the setup of the LES store application.
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md).
 
     No.
 
@@ -75,7 +75,7 @@ Admin role is required for the setup of the LES store application.
     None.
 
 
-**Parent Topic:**[Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-references.md)
+**Parent Topic:**[Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-references.md)
 
 **Related topics**  
 

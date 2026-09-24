@@ -2,7 +2,7 @@
 title: Configure an issue relationship
 description: Enable or disable an issue relationship configuration record so that you can automatically link an issue with its related objects in the GRC application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/enable-or-disable-issue-relationship-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/enable-or-disable-issue-relationship-configuration.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -30,11 +30,11 @@ Role required: sn\_grc.admin.
 
     \[Omitted image "issue-relationship-configuration-form.png"\] Alt text: Issue relationship configuration form.
 
-    For more information about the fields in the issue relationship configuration form, see [Issue Relationship Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-relationship-configuration-fields.md).
+    For more information about the fields in the issue relationship configuration form, see [Issue Relationship Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-relationship-configuration-fields.md).
 
 
--   **[Issue Relationship Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-relationship-configuration-fields.md)**  
+-   **[Issue Relationship Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-relationship-configuration-fields.md)**  
 Use the Issue Relationship Configuration form in the GRC application to automatically link a destination record with an issue when it’s linked to the source record.
 
-**Parent Topic:**[Configuring an issue relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-relationship-configuration.md)
+**Parent Topic:**[Configuring an issue relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-relationship-configuration.md)
 

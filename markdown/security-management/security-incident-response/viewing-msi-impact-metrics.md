@@ -2,7 +2,7 @@
 title: View Major Security Incident trend charts
 description: View the major security incident impact progress metrics visualized as bar graphs and charts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/viewing-msi-impact-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/viewing-msi-impact-metrics.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -106,7 +106,7 @@ Displays collaboration activities in total for all the labelled collaboration ac
 -   **Trends by activity type**: View the trend chart for the number of Microsoft Teams and Microsoft SharePoint files and folders activities over the incident duration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
+</table>**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 

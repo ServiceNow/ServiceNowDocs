@@ -2,7 +2,7 @@
 title: Metrics View Configuration form fields
 description: Define how metrics are displayed within Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metrics-view-config-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/metrics-view-config-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ Chart Type
 Type of chart in which the metric is presented in Service Operations Workspace, either **Line** or **Stacked Bar**.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-alert-metrics-itom.md).
+</table>To return to the procedure, see [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-alert-metrics-itom.md).
 

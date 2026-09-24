@@ -2,7 +2,7 @@
 title: Use the ActionSet component
 description: The ActionSet component lets an automation interact with Windows applications \(such as web browsers\) and with Citrix applications. Using this single component in RPA Desktop Design Studio, you can click, drag, read and set text, interact with tables, and more, combining several user actions into a single task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionsui-actionset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-actionsui-actionset.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,9 +22,9 @@ Role required: none
 
 Using the ActionSet component, you can simulate a user interaction in an automation by specifying multiple user actions.
 
-You can configure the properties for the ActionSet component settings. For more information about these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-actions-ui-components.md).
+You can configure the properties for the ActionSet component settings. For more information about these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-actions-ui-components.md).
 
-Using the controls in the window, you capture an area of an application window, set one or more anchors, and define the user interactions that you want to simulate in that window. An anchor helps specify the target area for the interaction by defining a static area from which actions can be defined at a relative distance. For more information about anchors, see [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+Using the controls in the window, you capture an area of an application window, set one or more anchors, and define the user interactions that you want to simulate in that window. An anchor helps specify the target area for the interaction by defining a static area from which actions can be defined at a relative distance. For more information about anchors, see [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/anchor.md).
 
 \[Omitted image "action-set-settings-window-rpa.png"\] Alt text: ActionSet Settings Window.
 
@@ -82,16 +82,16 @@ Using the controls in the window, you capture an area of an application window, 
 
     |Action|Reference|
     |------|---------|
-    |Simulate a mouse click|[Use the ActionSet Click action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-click.md).|
-    |Enter text in a field|[Use the ActionSet SetText action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-set-text.md).|
-    |Capture text from a window or web page|[Use the ActionSet GetText action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-get-text.md).|
-    |Capture a table|[Use the ActionSet Get Table action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-get-table.md).|
-    |Select, copy, or delete text|[Use the ActionSet Text Selection action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-text-selection.md).|
-    |Read text in an image|[Use the ActionSet OCR Read Text action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-ocr-read-text.md).|
-    |Read a table in an image|[Use the ActionSet OCR Read Table action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-ocr-read-table.md).|
-    |Read text in an image and click it when found|[Use the ActionSet OCR Read Text action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-ocr-read-text.md).|
-    |Simulate a key press or a key function|[Use the ActionSet SendKeys action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-send-keys.md).|
-    |Simulate an alternative mouse action \(for example, right-click, drag, scroll, or paste\)|[Use the ActionSet Mouse action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-mouse-action.md).|
+    |Simulate a mouse click|[Use the ActionSet Click action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-click.md).|
+    |Enter text in a field|[Use the ActionSet SetText action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-set-text.md).|
+    |Capture text from a window or web page|[Use the ActionSet GetText action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-get-text.md).|
+    |Capture a table|[Use the ActionSet Get Table action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-get-table.md).|
+    |Select, copy, or delete text|[Use the ActionSet Text Selection action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-text-selection.md).|
+    |Read text in an image|[Use the ActionSet OCR Read Text action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-ocr-read-text.md).|
+    |Read a table in an image|[Use the ActionSet OCR Read Table action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-ocr-read-table.md).|
+    |Read text in an image and click it when found|[Use the ActionSet OCR Read Text action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-ocr-read-text.md).|
+    |Simulate a key press or a key function|[Use the ActionSet SendKeys action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-send-keys.md).|
+    |Simulate an alternative mouse action \(for example, right-click, drag, scroll, or paste\)|[Use the ActionSet Mouse action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-mouse-action.md).|
 
 8.  To add more actions, repeat step 6 and 7.
 
@@ -108,28 +108,28 @@ Using the controls in the window, you capture an area of an application window, 
     |Data In|Window Handle|Integer|The numeric handle of the window where the action will be performed. This must be the window from which the image in the ACTIONSET SETTINGS window was captured.|You must provide the handle of the window from which you have captured the image of the screen.|
 
 
--   **[Use the ActionSet Click action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-click.md)**  
+-   **[Use the ActionSet Click action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-click.md)**  
 Simulate a simple left-click on the target area as part of a series of actions in the ActionSet component.
--   **[Use the ActionSet SetText action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-set-text.md)**  
+-   **[Use the ActionSet SetText action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-set-text.md)**  
 Set text to fields on the Windows applications or the Internet Explorer browser by using the Set Text action in RPA Desktop Design Studio.
--   **[Use the ActionSet GetText action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-get-text.md)**  
+-   **[Use the ActionSet GetText action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-get-text.md)**  
 Capture text from the Windows applications, and web pages on the Internet Explorer browser by using the Get Text action in RPA Desktop Design Studio.
--   **[Use the ActionSet Text Selection action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-text-selection.md)**  
+-   **[Use the ActionSet Text Selection action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-text-selection.md)**  
 Select, copy, or delete text from the Desktop and Windows applications, and the Internet Explorer browser by using the Text Selection action in RPA Desktop Design Studio.
--   **[Use the ActionSet Get Table action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-get-table.md)**  
+-   **[Use the ActionSet Get Table action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-get-table.md)**  
 Capture a table from the Windows applications, and web pages on the Internet Explorer browser by using the Get Table component in RPA Desktop Design Studio.
--   **[Use the ActionSet GetImage action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-get-image.md)**  
+-   **[Use the ActionSet GetImage action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-get-image.md)**  
 Capture images from the desktop, Windows applications, and web pages on the Internet Explorer browser by using the GetImage component in RPA Desktop Design Studio.
--   **[Use the ActionSet OCR Read Text action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-ocr-read-text.md)**  
+-   **[Use the ActionSet OCR Read Text action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-ocr-read-text.md)**  
 Extract text from images in the desktop, Windows applications, and the Internet Explorer browser by using the OCR Read Text action in RPA Desktop Design Studio.
--   **[Use the ActionSet OCR Read Table action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-ocr-read-table.md)**  
+-   **[Use the ActionSet OCR Read Table action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-ocr-read-table.md)**  
 Extract a table from images in the desktop, Windows applications, and web pages on the Internet Explorer browser by using the OCR Read Table action in RPA Desktop Design Studio.
--   **[Use the ActionSet OCR ClickText action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-ocr-clicktext.md)**  
+-   **[Use the ActionSet OCR ClickText action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-ocr-clicktext.md)**  
 Perform a mouse device action on a text in an image in the Internet Explorer browser or Windows applications by specifying the text using the OCR ClickText action.
--   **[Use the ActionSet SendKeys action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-send-keys.md)**  
+-   **[Use the ActionSet SendKeys action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-send-keys.md)**  
 Set text or perform keyboard shortcuts on fields and elements on the desktop, Windows applications, and web pages on the Internet Explorer browser using the ActionSet Send Keys action in RPA Desktop Design Studio.
--   **[Use the ActionSet Mouse action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-mouse-action.md)**  
+-   **[Use the ActionSet Mouse action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionset-mouse-action.md)**  
 Do various mouse device actions on the desktop, Windows applications, and web pages on the Internet Explorer browser using the ActionSet Mouse action in RPA Desktop Design Studio.
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/actions-ui.md)
 

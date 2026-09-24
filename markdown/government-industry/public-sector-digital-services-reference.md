@@ -2,7 +2,7 @@
 title: Public Sector Digital Services reference
 description: Reference topics provide additional information about Public Sector Digital Services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/public-sector-digital-services-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/public-sector-digital-services-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -28,8 +28,8 @@ Public Sector Digital Services lists and forms
 
 </td><td>
 
--   [Public Sector Digital Services Core Case Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-case-forms.md)
--   [Public Sector Digital Services Core Profile Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-profile-forms.md)
+-   [Public Sector Digital Services Core Case Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-case-forms.md)
+-   [Public Sector Digital Services Core Profile Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-profile-forms.md)
 
 </td></tr><tr><td>
 
@@ -37,11 +37,11 @@ Components installed with Public Sector Digital Services applications
 
 </td><td>
 
--   [Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
--   [Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)
--   [Persona-based Roles in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)
--   [Plugins installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/plugins-installed-with-psds.md)
--   [Properties installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/properties-installed-with-psds.md)
+-   [Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/installed-with-public-sector-digital-services-core.md)
+-   [Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md)
+-   [Persona-based Roles in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md)
+-   [Plugins installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/plugins-installed-with-psds.md)
+-   [Properties installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/properties-installed-with-psds.md)
 
 </td></tr><tr><td>
 
@@ -49,9 +49,9 @@ Data Model and catalog topics
 
 </td><td>
 
--   [Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services-data-model.md)
--   [Public Sector Digital Services Core Role Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-core-role-relationships.md)
--   [Government Service Portal service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-service-catalog-list.md)
+-   [Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/public-sector-digital-services-data-model.md)
+-   [Public Sector Digital Services Core Role Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-core-role-relationships.md)
+-   [Government Service Portal service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-service-catalog-list.md)
 
 </td></tr></tbody>
 </table>

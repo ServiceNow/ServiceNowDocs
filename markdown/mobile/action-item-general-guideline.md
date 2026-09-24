@@ -2,7 +2,7 @@
 title: General guidelines for action items synchronization behavior
 description: When working with action items keep these general guidelines in mind for usability and a good user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/action-item-general-guideline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/action-item-general-guideline.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-01"
@@ -47,5 +47,5 @@ When working with action items keep these general guidelines in mind for usabili
     -   Custom fields can be configured to store the original offline action timestamp.
     -   Out-of-box system fields, such as `sys_created_on` and `sys_updated_on`, always reflect the integration timestamp, which is the moment the record was synced to the instance, not the original offline action time.
 
-**Parent Topic:**[Using action items and action item steps in ofﬂine mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-action-item-steps.md)
+**Parent Topic:**[Using action items and action item steps in ofﬂine mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-action-item-steps.md)
 

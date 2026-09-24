@@ -2,7 +2,7 @@
 title: Working with integration error tasks
 description: Resolve integration error tasks, repost invoices to your ERP system, and schedule jobs to process invoices after errors are resolved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-with-integration-error.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/work-with-integration-error.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -42,5 +42,5 @@ System-related integration error tasks are closed and invoices are auto-synchron
 
 ## What to do next
 
-[Working with outbound invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-outbound-invoice.md)xx
+[Working with outbound invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/working-with-outbound-invoice.md)xx
 

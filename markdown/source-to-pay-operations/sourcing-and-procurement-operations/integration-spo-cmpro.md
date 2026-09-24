@@ -2,7 +2,7 @@
 title: Source-to-Pay Operations integration with Contract Management Pro
 description: The Source-to-Pay Operations with Contract Management Pro plugin \(sn\_spend\_clm\) provides an integration between the Contract Management Pro and Sourcing and Procurement Operations applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/integration-spo-cmpro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/integration-spo-cmpro.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -40,14 +40,14 @@ The following roles are required to initiate, view, and manage contract executio
 
 You can assign your procurement and contracting professionals to these roles as required.
 
--   **[Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrate-spo-with-cmpro.md)**  
+-   **[Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrate-spo-with-cmpro.md)**  
 Contract Management Pro provides an integration with the Sourcing and Procurement Operations application. With this integration, procurement specialists can initiate contract requests \(CRs\) manually throughout the sourcing and purchasing process.
--   **[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-request.md)**  
+-   **[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-request.md)**  
 Initiate a contract request from the Source-to-Pay workspace.
--   **[Using Now Assist for Contract Management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-now-assist-cmpro-spo.md)**  
+-   **[Using Now Assist for Contract Management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-now-assist-cmpro-spo.md)**  
 With the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role, you can review non-standard or missing clauses in procurement contracts and extract key details to update the contract repository using Now Assist for Contract Management within the Source-to-Pay Workspace.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a customized list of records
 description: You can create a customized list in the Security Exposure Management Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-custom-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-create-custom-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,5 +58,5 @@ Role required:
 12. To delete a list, with the list displayed, select the gear icon on the upper right of the page.
 
 
-**Parent Topic:**[Use the List view in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ws-list-view.md)
+**Parent Topic:**[Use the List view in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-ws-list-view.md)
 

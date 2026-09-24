@@ -2,7 +2,7 @@
 title: Select a playbook activity view
 description: The activity view determines how the stages and activities are displayed in the playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/playbook-select-activity-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/playbook-select-activity-view.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

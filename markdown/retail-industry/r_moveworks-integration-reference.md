@@ -2,10 +2,10 @@
 title: Components for ServiceNow Otto integration for break-fix
 description: Technical reference for webhook events, authentication types, platform artifacts, and troubleshooting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/r\_moveworks-integration-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/r\_moveworks-integration-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
@@ -44,5 +44,5 @@ Customize your ServiceNow Otto AI Assistant with installable agents from the AI 
 |Authentication error in outbound logs|Confirm the credential type is not HMAC. Re-enter credential values in the `otto_webhook` alias and retest|
 |ServiceNow dispatches the event but ServiceNow Otto does not act on it|Verify all four side plugins from ServiceNow Otto are installed in the ServiceNow Otto environment \(see \)|
 
-**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

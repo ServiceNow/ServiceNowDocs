@@ -2,7 +2,7 @@
 title: Jenkins Spoke
 description: Manage builds, users, settings, and jobs on the Jenkins server. Retrieve Jenkins data to use in a flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jenkins-v1-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/jenkins-v1-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -321,7 +321,7 @@ Removes a job from a Jenkins server view.
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -397,11 +397,11 @@ Integration Hub uses aliases to manage connection and credential information, an
 
 This spoke uses the Jenkins Connection &amp; Credential Alias record to authorize actions. To use the spoke connection alias, create an associated Connection record and an associated Credential record.
 
-For information about setting up the spoke, see [Set up Jenkins spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-jenkins-v1.md).
+For information about setting up the spoke, see [Set up Jenkins spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-jenkins-v1.md).
 
 ## MID Server requirements
 
 These actions use the REST calls, which must run on a MID Server. Use the connection record associated with the Jenkins alias to configure where actions run as well as set MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

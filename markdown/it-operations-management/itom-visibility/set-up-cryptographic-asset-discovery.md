@@ -2,7 +2,7 @@
 title: Configuring the discovery of cryptographic assets
 description: Configuring the discovery of cryptographic assets involves setting up certificate and cloud discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/set-up-cryptographic-asset-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/set-up-cryptographic-asset-discovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -16,12 +16,12 @@ breadcrumb: [Configure, Cryptographic Asset Compliance, ITOM Visibility, IT Oper
 
 Configuring the discovery of cryptographic assets involves setting up certificate and cloud discovery.
 
-Cryptographic Asset Compliance inventories the assets that ServiceNow [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt.md) and ServiceNow [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md) discovers rather than running discovery of cryptographic assets itself.
+Cryptographic Asset Compliance inventories the assets that ServiceNow [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-inventory-mgmt.md) and ServiceNow [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r-discovery.md) discovers rather than running discovery of cryptographic assets itself.
 
 You must configure the discovery of cryptographic assets:
 
--   Certificate discovery in [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt.md) to catalog certificates \(on-premises and URL-based\). For more information, see [Visibility to TLS certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-discovery.md).
--   Cloud discovery in [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md) to catalog keys from AWS KMS and Azure Key Vault. For more information, see [Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-wizard.md).
+-   Certificate discovery in [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-inventory-mgmt.md) to catalog certificates \(on-premises and URL-based\). For more information, see [Visibility to TLS certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/run-cert-discovery.md).
+-   Cloud discovery in [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r-discovery.md) to catalog keys from AWS KMS and Azure Key Vault. For more information, see [Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cloud-discovery-wizard.md).
 
 After discovery is set up, a scheduled job syncs discovered assets into Cryptographic Asset Compliance periodically.
 

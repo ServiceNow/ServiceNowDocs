@@ -2,7 +2,7 @@
 title: Structural overview of Policy and Compliance Management
 description: The structural overview of Policy and Compliance Management enables you to understand how the different modules that make up the Policy and Compliance Management application of ServiceNow integrate and interact with one another.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/pc-structural-overview-policy-comp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/pc-structural-overview-policy-comp.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

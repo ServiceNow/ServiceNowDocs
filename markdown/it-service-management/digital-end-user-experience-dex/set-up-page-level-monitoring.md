@@ -2,7 +2,7 @@
 title: Set up page-level monitoring
 description: Set up monitoring of the application performance at a specific page level. When collected, you can view the performance metrics data in the Metrics analyzer and device or application view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/set-up-page-level-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/set-up-page-level-monitoring.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -112,7 +112,7 @@ Check box to initiate monitoring the page.This check box is selected by default.
 
 ## Result
 
-When the metrics for the page are collected, you can see them from the Metrics analyzer. See [View collected metrics with Metrics analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/view-dex-metrics.md) for more details.
+When the metrics for the page are collected, you can see them from the Metrics analyzer. See [View collected metrics with Metrics analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/view-dex-metrics.md) for more details.
 
-**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

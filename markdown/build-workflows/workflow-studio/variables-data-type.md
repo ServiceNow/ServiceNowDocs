@@ -2,7 +2,7 @@
 title: Variables.\[Table\] data type
 description: Store a reference to a specific table of Glide variables such as a decision input variable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/variables-data-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/variables-data-type.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -48,5 +48,5 @@ Add a log step to store the results of your variable selection. Test the action 
 
 Each decision input that you select displays a different set of variables.
 
-**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md)
 

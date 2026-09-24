@@ -2,7 +2,7 @@
 title: View attachments with Document Viewer
 description: View documents within the platform using Document Viewer rather than having to download them to your own file system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/view-attachment-doc-viewer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/view-attachment-doc-viewer.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -18,13 +18,13 @@ View documents within the platform using Document Viewer rather than having to d
 
 ## Before you begin
 
-Make sure that Document Viewer is enabled for the table containing the record. For more information, see [Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/enable-document-viewer.md).
+Make sure that Document Viewer is enabled for the table containing the record. For more information, see [Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/enable-document-viewer.md).
 
 Role required: none
 
 ## About this task
 
-Document Viewer supports inline viewing of certain [document types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/Documentviewer.md) within the platform.
+Document Viewer supports inline viewing of certain [document types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/Documentviewer.md) within the platform.
 
 ## Procedure
 
@@ -45,5 +45,5 @@ Document Viewer supports inline viewing of certain [document types](https://raw.
 **Related topics**  
 
 
-[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/enable-document-viewer.md)
+[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/enable-document-viewer.md)
 

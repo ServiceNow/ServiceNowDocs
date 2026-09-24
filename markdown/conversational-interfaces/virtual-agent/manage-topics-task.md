@@ -2,7 +2,7 @@
 title: Control topic discovery and visibility
 description: Admins and topic authors can enable Virtual Agent to discover topics for use in chats, include a topic in the list users see, or both. The topics can be setup topics and small talk topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/manage-topics-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/manage-topics-task.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +32,7 @@ Admins or topic authors can use these options to manage the active topics as fol
 
     By selecting **Discoverable**, admins or topic authors can enable Virtual Agent to discover the topic by using keyword or Natural Language Understanding \(NLU\) discovery.
 
-    **Note:** If these methods don't generate search results, or Virtual Agent can't determine the appropriate conversation to display, use [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md) as a fall-back method.
+    **Note:** If these methods don't generate search results, or Virtual Agent can't determine the appropriate conversation to display, use [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ai-search.md) as a fall-back method.
 
 -   Include the topic in the list of topics available for use.
 
@@ -53,7 +53,7 @@ The options you select automatically update the corresponding property in the To
 
 ## Procedure
 
-1.  [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+1.  [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
 2.  Set the topic to **Active** either in the topic properties header bar, or in the Show actions for this row icon \(\[Omitted image "kebab-menu.png"\] Alt text:\) next to your topic in the Asset library.
 
@@ -80,5 +80,5 @@ The options you select automatically update the corresponding property in the To
 
 Depending on the options enabled, Virtual Agent can discover the topic, the topic is included in the **All Topics** menu in the chat window, or both.
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

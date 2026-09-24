@@ -2,7 +2,7 @@
 title: Discuss an Insurance claims claim
 description: Discuss details of an Insurance claims case with additional users that have access to the claim record. Use this feature to collaborate with other Insurance claims users and create or view an ongoing sidebar discussion for a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/discuss-an-insurance-claims-flow-claim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/discuss-an-insurance-claims-flow-claim.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

@@ -2,7 +2,7 @@
 title: Configure the Moveworks chatbot
 description: Configure the Moveworks chatbot in the Moveworks Setup application. EmployeeWorks then renders the Moveworks AI Assistant, ingests identity from ServiceNow, and authenticates employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +29,7 @@ Role required: administrator.
 
 ## About this task
 
-The Moveworks chatbot configuration captures two related setups. The first is the chatbot record itself. The second is the internal connector that connects the chatbot to ServiceNow identity. For field definitions, see [Moveworks chatbot configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-moveworks-chatbot-fields.md).
+The Moveworks chatbot configuration captures two related setups. The first is the chatbot record itself. The second is the internal connector that connects the chatbot to ServiceNow identity. For field definitions, see [Moveworks chatbot configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-chatbot-fields.md).
 
 ## Procedure
 
@@ -41,7 +41,7 @@ The Moveworks chatbot configuration captures two related setups. The first is th
 
 3.  Set the chatbot fields for the surface.
 
-    For each field and the value to use, see the chatbot record table in [Moveworks chatbot configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-moveworks-chatbot-fields.md). The required value is **Surface** = **Unified Front Door**, which lets EmployeeWorks render the chatbot.
+    For each field and the value to use, see the chatbot record table in [Moveworks chatbot configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-chatbot-fields.md). The required value is **Surface** = **Unified Front Door**, which lets EmployeeWorks render the chatbot.
 
     \[Omitted image "es-moveworks-chat-bot-j.png"\] Alt text: Chatbots ChatVars Edit page showing core configurations for the Moveworks chatbot including Channel, Bot ID, Bot Name, and Channel Configurations
 

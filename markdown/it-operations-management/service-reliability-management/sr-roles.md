@@ -2,7 +2,7 @@
 title: SRM roles and responsibilities
 description: Roles grant users access to different parts of the SRM console. Roles determine the actions that users can or can't perform in Service Reliability Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-roles.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -107,5 +107,5 @@ Administrator \[admin\]
 -   Submit time off
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
+</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

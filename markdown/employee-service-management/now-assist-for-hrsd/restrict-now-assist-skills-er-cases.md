@@ -2,7 +2,7 @@
 title: Restrict ServiceNow Otto capabilities for employee relations cases
 description: Restrict the ServiceNow Otto capabilities for your employee relations cases and define the availability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/restrict-now-assist-skills-er-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/restrict-now-assist-skills-er-cases.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -29,5 +29,5 @@ Restrict the ServiceNow Otto capabilities for your employee relations cases and 
 3.  On the **Define Availability** tab, modify the condition and add **Task type is not Employee Relations Case**.
 
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

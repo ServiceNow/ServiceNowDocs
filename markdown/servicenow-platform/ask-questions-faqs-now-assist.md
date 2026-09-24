@@ -2,7 +2,7 @@
 title: Generate summary and ask questions using ServiceNow Otto in Document Management
 description: Generate summary and ask questions to gain quick insights from your documents by using ServiceNow Otto in Document Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/ask-questions-faqs-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/ask-questions-faqs-now-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-08-20"
@@ -16,7 +16,7 @@ Generate summary and ask questions to gain quick insights from your documents by
 
 ## Before you begin
 
-Configure the smart document skill. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
+Configure the smart document skill. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-skill-smart-documents.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 

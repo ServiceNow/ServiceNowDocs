@@ -2,7 +2,7 @@
 title: Industry \[sn\_fin\_industry\] table
 description: The Industry \[sn\_fin\_industry\] table stores industry classification information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/fin-industry-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/fin-industry-table.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,7 +23,7 @@ This table contains the following fields.
 |Name|String|Name of the industry.|
 |Parent|Reference|Parent industry to which this industry belongs.|
 
-**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
 
 **Related topics**  
 

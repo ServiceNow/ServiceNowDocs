@@ -2,7 +2,7 @@
 title: AI governance email notifications
 description: Email notifications are sent automatically when specific events occur across AI governance workflows, including AI Control Tower, AI Risk and Compliance, and inherited Risk Management processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc\_email\_notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/airc\_email\_notifications.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -137,5 +137,5 @@ The following notifications are sent when approvals are requested for individual
 |Approver notified – bulk risk approval|An Approval record is created requesting sign-off on a Bulk Risk Assessment.|Approver|
 |Approver notified – risk assessment approval|An Approval record is created requesting sign-off on an individual Risk Assessment.|Approver|
 
-**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
+**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 

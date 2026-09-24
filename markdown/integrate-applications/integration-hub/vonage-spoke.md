@@ -2,7 +2,7 @@
 title: Vonage Spoke
 description: Manage communications through calls, SMS, and WhatsApp by using the Vonage account from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/vonage-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/vonage-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -352,5 +352,5 @@ Two connection and credential aliases are available along with the Vonage spoke:
 |VonagePrimary|Required for the actions that manage SMS, number, and account.|
 |Vonage|Required for the actions that manage calls and WhatsApp.|
 
-For information about setting up the spoke, see [Set up the Vonage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-vonage-spoke.md).
+For information about setting up the spoke, see [Set up the Vonage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-vonage-spoke.md).
 

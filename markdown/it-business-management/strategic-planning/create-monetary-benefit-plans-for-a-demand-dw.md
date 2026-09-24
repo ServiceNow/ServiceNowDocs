@@ -2,7 +2,7 @@
 title: Create a monetary benefit plan for a demand
 description: Create and manage monetary benefit plans to track potential monetary benefits during demand execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-monetary-benefit-plans-for-a-demand-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/create-monetary-benefit-plans-for-a-demand-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -18,7 +18,7 @@ Create and manage monetary benefit plans to track potential monetary benefits du
 
 ## Before you begin
 
-Enable the monetary benefit plans for demands. For more information, see [Enable monetary benefit plans for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/enable-monetary-benefit-plans-for-demands.md).
+Enable the monetary benefit plans for demands. For more information, see [Enable monetary benefit plans for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/enable-monetary-benefit-plans-for-demands.md).
 
 Role required: it\_demand\_manager
 
@@ -73,7 +73,7 @@ Procedure
 </td></tr></tbody>
 </table>5.  On the Benefit Plan form, complete the fields.
 
-    For a description of the field names, see [Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/monetary-benefit-plan-form-dw.md).
+    For a description of the field names, see [Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/monetary-benefit-plan-form-dw.md).
 
 6.  Select **Save**.
 

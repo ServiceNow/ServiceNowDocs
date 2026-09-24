@@ -2,7 +2,7 @@
 title: State flows
 description: State flows enable an administrator to customize transitions from one state to another in tables derived from the Task \[task\] table and configure the system to perform work during transitions to specific states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_StateFlows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_StateFlows.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,12 +18,12 @@ An example of a state transition is when the **State** field in an incident chan
 
 State transitions in the Field Service Management application were reimplemented to use state flows. For information about customizing Field Service Management state flows, see [State flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_StateFlowCustomization.md).
 
--   **[Installed with state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_InstalledWithStateFlows.md)**  
+-   **[Installed with state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_InstalledWithStateFlows.md)**  
 Several types of components are installed with state flows.
--   **[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UseStateFlows.md)**  
+-   **[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_UseStateFlows.md)**  
 You can create custom state flows for any table that uses states.
--   **[Domain separation and State Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-state-flows.md)**  
+-   **[Domain separation and State Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/domain-separation-state-flows.md)**  
 Domain separation is unsupported in State Flows. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Exploring Service Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceAdministration.md)
+**Parent Topic:**[Exploring Service Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_ServiceAdministration.md)
 

@@ -2,7 +2,7 @@
 title: Defining Classifications
 description: Define a new classification on the Classification form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/r\_DefiningClassifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/r\_DefiningClassifications.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -33,5 +33,5 @@ The following classifications are available in the base system.
 |restricted|R|Restricted|2|
 |confidential|C|Confidential|3|
 
-**Parent Topic:**[Defining Document Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md)
+**Parent Topic:**[Defining Document Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md)
 

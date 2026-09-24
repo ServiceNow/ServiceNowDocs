@@ -2,7 +2,7 @@
 title: Add a finding and root cause analysis for a safety inspection
 description: Record a finding based on the survey results for a safety inspection and perform a root cause analysis \(RCA\) for it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-add-finding-rca-safety-inspection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-add-finding-rca-safety-inspection.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -24,8 +24,8 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager or sn\_hs\_rm.safety\_insp
 
 Inspection agents can also create actions for specific questions while completing a smart assessment or survey from the mobile app. When an agent creates an action for a question, the system also generates a related finding record based on the response. For more information, see the following:
 
--   [Create actions and findings for the smart assessment questionnaire from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
--   [Create actions and findings for survey responses from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md).
+-   [Create actions and findings for the smart assessment questionnaire from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
+-   [Create actions and findings for survey responses from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md).
 
 ## Procedure
 
@@ -72,7 +72,7 @@ Inspection agents can also create actions for specific questions while completin
 
 ## What to do next
 
-Add actions for each finding to ensure that any issues are prevented or corrected. For more information, see [Add an action for a safety inspection or audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-action-safety-inspection.md).
+Add actions for each finding to ensure that any issues are prevented or corrected. For more information, see [Add an action for a safety inspection or audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-add-action-safety-inspection.md).
 
-**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

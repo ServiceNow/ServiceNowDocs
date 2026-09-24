@@ -2,7 +2,7 @@
 title: Get help with Next Experience
 description: To get help with Next Experience, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-get-help-now.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-get-help-now.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

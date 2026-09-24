@@ -2,7 +2,7 @@
 title: TISC Data Processing Functional Flow
 description: Threat Intelligence Security Center \(TISC\) provides a solution that automates the data collection and processing which helps reduce the burden on Threat Intel Analysts by avoiding manual steps involved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-data-processing-functional-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-data-processing-functional-flow.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

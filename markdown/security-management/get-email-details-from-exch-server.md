@@ -2,7 +2,7 @@
 title: Create Compliance Search Action
 description: The Create Compliance Search action creates a compliance search for emails in the designated Exchange server\(s\) using the search queries defined and returns the name of compliance search created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/get-email-details-from-exch-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/get-email-details-from-exch-server.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -71,5 +71,5 @@ Possible exit conditions for this action are:
 |Search Creation Failed due to a Parsing Error|When search creation fails due to parsing issue.|
 |Error|When exception occurs in flow action.|
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md)
 

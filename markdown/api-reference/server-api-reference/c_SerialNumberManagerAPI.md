@@ -2,7 +2,7 @@
 title: SerialNumberManager - Global
 description: The SerialNumberManager script include provides methods to manage the serial numbers for discovery devices.Adds the specified serial number.Returns the serial number.Returns serial number information for CI Data, including the type, serial number, and validity.Checks if the number is a valid serial number.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_SerialNumberManagerAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_SerialNumberManagerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The SerialNumberManager script include provides methods to manage the serial num
 
 You can use this script include with a discovery script where you need to manage serial numbers.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## SerialNumberManager - add\(Number sType, Number value\)
 

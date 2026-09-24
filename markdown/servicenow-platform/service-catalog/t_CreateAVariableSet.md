@@ -2,7 +2,7 @@
 title: Create a variable set and add it to an item
 description: Create a set of variables and add them to multiple catalog items and order guides for reuse.Service Catalog enables you to add a variable set to one or more catalog items or order guides.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreateAVariableSet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_CreateAVariableSet.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -132,7 +132,7 @@ Description of the variable set.
 
     1.  In the Variables related list, click **New**.
 
-    2.  Follow the steps for [creating variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md).
+    2.  Follow the steps for [creating variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md).
 
         **Note:** For a multi-row variable set:
 
@@ -144,12 +144,12 @@ Description of the variable set.
 
     2.  On the Catalog Data Lookup Definitions form, fill the fields.
 
-        For information on creating a data lookup rule, see [Create a catalog lookup definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreatACatDataLookupDefRec.md).
+        For information on creating a data lookup rule, see [Create a catalog lookup definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreatACatDataLookupDefRec.md).
 
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md)
+**Parent Topic:**[Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md)
 
 ## Add a variable set to a catalog item or order guide
 

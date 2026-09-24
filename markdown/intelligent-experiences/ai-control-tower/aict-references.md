@@ -2,7 +2,7 @@
 title: AI Control Tower reference \(legacy\)
 description: Reference topics for AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/aict-references.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/aict-references.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

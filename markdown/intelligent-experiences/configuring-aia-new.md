@@ -2,7 +2,7 @@
 title: Configure AI Agent Studio
 description: Configure AI agents, agentic workflows, and tools so that AI agents can plan and execute tasks using your record data and knowledge base content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configuring-aia-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configuring-aia-new.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-06"

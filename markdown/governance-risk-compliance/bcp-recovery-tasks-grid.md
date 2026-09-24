@@ -2,7 +2,7 @@
 title: Create, update, and group recovery tasks
 description: Create tasks in a plan to recover your business from various disaster situations. Prioritize the tasks by determining the critical assets that have to be recovered and estimate the time by which the task must be completed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcp-recovery-tasks-grid.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcp-recovery-tasks-grid.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

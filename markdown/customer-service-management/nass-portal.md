@@ -2,7 +2,7 @@
 title: ServiceNow Otto conversational experience in self-service portals
 description: Learn about the ServiceNow Otto enhanced chat feature in the Self-service portals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/nass-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/nass-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ The search results include links to the sources of information and related actio
 **Related topics**  
 
 
-[ServiceNow Otto in Virtual Agent in self-service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nava-csp-csm-portals.md)
+[ServiceNow Otto in Virtual Agent in self-service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nava-csp-csm-portals.md)
 
-[Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/va-csp-csm-portal.md)
+[Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/va-csp-csm-portal.md)
 

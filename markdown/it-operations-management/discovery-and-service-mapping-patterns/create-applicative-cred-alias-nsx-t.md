@@ -2,7 +2,7 @@
 title: Create an applicative credential alias for NSX-T cluster discovery
 description: Create a credential alias and configure an applicative credential to enable the NSX Cluster pattern to authenticate with the NSX-T management cluster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-applicative-cred-alias-nsx-t.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/create-applicative-cred-alias-nsx-t.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -60,7 +60,7 @@ The NSX Cluster pattern requires a credential alias that contains exactly one ap
 
 ## What to do next
 
-Create a serverless discovery schedule for the NSX Cluster pattern. For more information, see [Create a serverless schedule for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-nsx-t.md).
+Create a serverless discovery schedule for the NSX Cluster pattern. For more information, see [Create a serverless schedule for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-nsx-t.md).
 
-**Parent Topic:**[VMware NSX-T cluster pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/nsx-t-cluster-pattern.md)
+**Parent Topic:**[VMware NSX-T cluster pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/nsx-t-cluster-pattern.md)
 

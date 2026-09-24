@@ -2,7 +2,7 @@
 title: Create a secret group with criteria
 description: Secret groups organize secrets and apply access policies at the group level. Associate a secret group with an identity group to control MID Server access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-3.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/client-access-example-3.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -114,5 +114,5 @@ Role required: admin, sn\_kmf.admin, sn\_secrets.admin
 29. Select **Update** to save the record.
 
 
-**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/client-access-secret-landing.md)
 

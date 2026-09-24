@@ -2,7 +2,7 @@
 title: Edit font size
 description: Adjust font sizes at the theme or component category level to refine default or custom fonts and keep your brand consistent across all experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/edit-font-size.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/edit-font-size.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -94,7 +94,7 @@ Under Global sizes, expand Base font size. Locate the individual size that you w
 
 Theme Builder automatically saves your theme record.
 
-If your theme is published, your font sizing edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your font sizing edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)
+**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-with-global-styles.md)
 

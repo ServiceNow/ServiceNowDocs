@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Virtual Agent system properties
 description: Use system properties to customize your assistant. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Legacy refers to the standard or enhanced chat experience. Premium refers to the premium chat experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

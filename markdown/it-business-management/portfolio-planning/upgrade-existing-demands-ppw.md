@@ -2,7 +2,7 @@
 title: Upgrade existing demands
 description: Execute scheduled jobs to upgrade your existing active and inactive demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/upgrade-existing-demands-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/upgrade-existing-demands-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +18,7 @@ Execute scheduled jobs to upgrade your existing active and inactive demands.
 
 ## Before you begin
 
-The PPM Standard Multicurrency feature must have been installed. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
+The PPM Standard Multicurrency feature must have been installed. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 Role required: admin
 

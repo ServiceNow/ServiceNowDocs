@@ -2,7 +2,7 @@
 title: Setting up the Customer Contracts and Entitlements application
 description: Configure the features and components of Customer Contracts and Entitlements to enable a seamless, end-to-end service experience including after sales services for your customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/set-up-post-sales-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/set-up-post-sales-support.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a characteristic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-entitlement-template-characteristic.md)
+[Create a characteristic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-entitlement-template-characteristic.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Configure users and groups
 description: A user is an individual who can access your instance and a group is a set of users who share a common purpose. The users associated with a group are listed as group members.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-users-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-csm-users-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

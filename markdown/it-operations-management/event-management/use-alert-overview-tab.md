@@ -2,7 +2,7 @@
 title: View details about an alert in Express List
 description: View information about the impact and cause of an alert on the alert's Overview tab in the Express List.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/use-alert-overview-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/use-alert-overview-tab.html
 release: australia
 product: Event Management
 classification: event-management

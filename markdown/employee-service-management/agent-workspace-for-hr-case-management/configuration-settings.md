@@ -2,7 +2,7 @@
 title: Page Configurations reference
 description: A description of the page configuration settings in Agent Workspace for HR Case Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/configuration-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/configuration-settings.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -88,7 +88,7 @@ Sidebar tabs visibility
 
 </td><td>
 
-List of tables associated with the sidebar tabs in [Contextual Side Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-context-sidebar.md). To hide a sidebar tab from the Contextual Side Panel, remove its corresponding table entry from JSON file.
+List of tables associated with the sidebar tabs in [Contextual Side Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-context-sidebar.md). To hide a sidebar tab from the Contextual Side Panel, remove its corresponding table entry from JSON file.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -281,7 +281,7 @@ My frequently used apps
 Option to navigate to the Schedule Content page to configure the My frequently used apps section in landing page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Workspace for HR Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
+</table>**Parent Topic:**[Agent Workspace for HR Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
 
 **Related topics**  
 

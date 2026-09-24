@@ -2,7 +2,7 @@
 title: Set up the BMC Remedy spoke
 description: Integrate the ServiceNow instance and BMC Remedy by using Remedy credentials to authenticate ServiceNow requests.Create Credential records for your BMC Remedy application. The BMC Remedy spoke connection and credential alias uses these credentials to authorize actions.Create Connection record for your BMC Remedy application. The BMC Remedy spoke connection and credential alias uses this connection to perform actions in BMC Remedy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-bmc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-bmc.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -148,7 +148,7 @@ Role required: admin.
 
         \[Omitted image "image.BMCRem\_Connection"\] Alt text: BMC Remedy spoke connection
 
-    -   To manage more than one BMC Remedy spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one BMC Remedy spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "image.BMCRem\_Connect\_Conf"\] Alt text: BMC Remedy spoke connection configuration

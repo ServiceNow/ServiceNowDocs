@@ -2,7 +2,7 @@
 title: Item dependency errors in Strategic Planning Workspace
 description: Learn about the scenarios when the planning item dependencies on the portfolio plan roadmap or free-form roadmap in Strategic Planning and Portfolio Planning can be in an error state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/error-state-for-planning-item-dependencies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/error-state-for-planning-item-dependencies.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -26,12 +26,12 @@ To resolve such errors, review the scope of the planning items and update the st
 
 \[Omitted image "dependency-conflict.png"\] Alt text: planning item dependency conflicts.
 
-**Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
+**Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
 
 **Related topics**  
 
 
-[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-item-dependencies-in-a-roadmap.md)
+[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-planning-item-dependencies-in-a-roadmap.md)
 
-[Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/manage-planning-item-dependencies-apw.md)
+[Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/manage-planning-item-dependencies-apw.md)
 

@@ -2,7 +2,7 @@
 title: Display name of the person reserving a space
 description: Display the name of a person who booked a space on the floor map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/displayname-person-booking-rsv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/displayname-person-booking-rsv.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -55,7 +55,7 @@ Role required: admin
     The name of the person who booked or reserved the space is shown.
 
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Convert IT hardware to OT devices in a bulk edit
 description: Choose multiple IT hardware devices and convert them to OT devices in a bulk edit so that you can edit your records more quickly and efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/bulk-edit-to-convert-it-records-into-ot-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/bulk-edit-to-convert-it-records-into-ot-records.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -105,7 +105,7 @@ Top-level parent entity, or industrial site, where the device is located or assi
 
 The selected IT hardware devices have been converted into OT devices.
 
-You can also use the Bulk Update Ruleset for Reassigning IT to OT feature to create a scheduled job that automatically converts IT hardware to OT devices. For more information, see [Automatically convert your IT records to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.md).
+You can also use the Bulk Update Ruleset for Reassigning IT to OT feature to create a scheduled job that automatically converts IT hardware to OT devices. For more information, see [Automatically convert your IT records to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.md).
 
-**Parent Topic:**[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)
+**Parent Topic:**[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)
 

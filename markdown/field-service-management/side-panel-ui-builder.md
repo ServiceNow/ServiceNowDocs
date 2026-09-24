@@ -2,7 +2,7 @@
 title: Customizing the contextual side panel in Dispatcher Workspace with UI Builder
 description: Change or add fields and icons to the contextual side panel to update your Dispatcher Workspace display. Dispatchers can immediately see more relevant information so they can resolve tasks faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/side-panel-ui-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/side-panel-ui-builder.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

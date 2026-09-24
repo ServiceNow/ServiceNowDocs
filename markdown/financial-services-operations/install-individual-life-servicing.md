@@ -2,7 +2,7 @@
 title: Install Individual Life Servicing
 description: You can install the Individual Life Servicing application \(sn\_ins\_indiv\_life\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/install-individual-life-servicing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/install-individual-life-servicing.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ The following items are installed with Individual Life Servicing:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Individual Life Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-individual-life-servicing.md).
+For more information, see [Components installed with Individual Life Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/components-installed-individual-life-servicing.md).
 
 ## Procedure
 

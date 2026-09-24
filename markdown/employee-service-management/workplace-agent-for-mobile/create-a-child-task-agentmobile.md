@@ -2,7 +2,7 @@
 title: Create a child task
 description: Add child tasks to a workplace case when needed. The application enables you to create a child task instantly from the case details page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/create-a-child-task-agentmobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-agent-for-mobile/create-a-child-task-agentmobile.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
@@ -75,9 +75,9 @@ Role required: sn\_wsd\_case.workplace\_agent
 
 ## Result
 
-The child task is created. After creation, the child task details are displayed in a separate page. For more information about actions that you can perform on a task, refer to [Edit or view a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/edit-or-view-a-child-task-agentmobile.md).
+The child task is created. After creation, the child task details are displayed in a separate page. For more information about actions that you can perform on a task, refer to [Edit or view a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/edit-or-view-a-child-task-agentmobile.md).
 
-**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
+**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
 
 **Related topics**  
 

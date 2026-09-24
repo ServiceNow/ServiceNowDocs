@@ -2,7 +2,7 @@
 title: Exploring Metric Intelligence
 description: Learn more about using Metric Intelligence to analyze metric data and identify anomalies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/exploring-metric-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/metric-intelligence/exploring-metric-intelligence.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -79,7 +79,7 @@ Monitor your system’s health, performance, and availability through automated 
 
 </td><td>
 
-[Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-landing-page.md)
+[Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-monitoring-landing-page.md)
 
 </td><td>
 
@@ -91,9 +91,9 @@ Reduce noise by promoting only the most meaningful anomalies.
 
 </td><td>
 
-[View anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/view-metrics-anomaly-alerts.md)
+[View anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/view-metrics-anomaly-alerts.md)
 
- [Create metric rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/create-metric-rules.md)
+ [Create metric rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/create-metric-rules.md)
 
 </td><td>
 
@@ -105,7 +105,7 @@ Detect anomalies with AI-based anomaly detection, either with unsupervised machi
 
 </td><td>
 
-[How Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-anomalies-detecting.md)
+[How Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-anomalies-detecting.md)
 
 </td><td>
 
@@ -117,7 +117,7 @@ Improve resolution time on open alerts and incidents with raw metric data visual
 
 </td><td>
 
-[Metric Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/agent-workspace-ops-intelligence.md)
+[Metric Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/agent-workspace-ops-intelligence.md)
 
 </td><td>
 
@@ -128,7 +128,7 @@ NOC Operator, Event Management administrator
 
 To learn more about configuring and using Metric Intelligence, see:
 
--   [Configuring Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/configuring-metric-intelligence.md)
--   [Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
--   [Metric Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/metric-intelligence-reference.md)
+-   [Configuring Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/configuring-metric-intelligence.md)
+-   [Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
+-   [Metric Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/metric-intelligence-reference.md)
 

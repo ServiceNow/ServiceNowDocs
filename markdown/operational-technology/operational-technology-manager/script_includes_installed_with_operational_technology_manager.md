@@ -2,12 +2,12 @@
 title: Script includes installed with Operational Technology Manager
 description: The Operational Technology Manager plugin installs the following script includes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/script\_includes\_installed\_with\_operational\_technology\_manager.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/script\_includes\_installed\_with\_operational\_technology\_manager.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Manager, Operational Technology]
 ---
@@ -35,5 +35,5 @@ The Operational Technology Manager plugin installs the following script includes
 |Extension Points|
 |SGOTDeviceImportExtensionPoint|SG OT Device Import Extension Point which includes two methods: 1. getDeviceCMDBClassNameWithSysId; 2. getComputerType.|
 
-**Parent Topic:**[Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
+**Parent Topic:**[Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
 

@@ -2,7 +2,7 @@
 title: Schedule Pages
 description: A schedule page is a record that contains a collection of scripts that allow for custom generation of a calendar or timeline display.To access schedule pages, navigate to System Scheduler Schedules Schedule Pages .A Timeline Schedule Page is a specific record that contains configuration information for displaying time based points and spans in a "timeline" like fashion.The following example demonstrates how to create a timeline schedule page with corresponding script include utilizing a majority of the API described above.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_SchedulePages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_SchedulePages.html
 release: australia
 product: Scripts
 classification: scripts
@@ -18,7 +18,7 @@ A schedule page is a record that contains a collection of scripts that allow for
 
 Creation of timeline schedule pages requires understanding of the page/event flow and the ability to write client and server side JavaScript.
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
 
 ## Schedule pages form
 

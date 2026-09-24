@@ -2,7 +2,7 @@
 title: Inherit from a common control
 description: After you have created a common control, you can identify other controls that can inherit protection and compliance from that common control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/create-common-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/continuous-risk-monitoring/create-common-control.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring

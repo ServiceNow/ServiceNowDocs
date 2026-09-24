@@ -2,7 +2,7 @@
 title: Financial Services Operations Integration with Verifi release notes
 description: The ServiceNowFinancial Services Operations Integration with Verifi application connects the Financial Services Operations \(FSO\) issuer dispute workflow to Verifi's Cardholder Dispute Resolution Network \(CDRN\) - a Visa owned pre-dispute settlement network. This integration enables issuers to automatically initiate structured negotiations with merchants before disputes escalate to costly chargebacks. Financial Services Operations Integration with Verifi is a new application in the Australia release.The ServiceNowFinancial Services Operations Integration with Verifi application connects the Financial Services Operations \(FSO\) issuer dispute workflow to Verifi's Cardholder Dispute Resolution Network \(CDRN\) - a Visa owned pre-dispute settlement network. This integration enables issuers to automatically initiate structured negotiations with merchants before disputes escalate to costly chargebacks. Financial Services Operations Integration with Verifi is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/financial-services-operations-integration-with-verifi-cdrn-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/financial-services-operations-integration-with-verifi-cdrn-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-04-03"
@@ -36,7 +36,7 @@ See [Financial Services Operations Integration with Verifi](https://raw.githubus
     The system property sn\_bom\_credit\_card.is\_verifi\_integration\_enabled must be set to true, so that it will be shipped as false out of the box.
 
 
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
 
 ## Australia
 

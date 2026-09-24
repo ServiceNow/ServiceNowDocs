@@ -2,7 +2,7 @@
 title: UI Builder quick start
 description: This quick start guides you through the process of creating your first page in UI Builder. Creating your first page is the first step in understanding how to build user interface pages for your workspace or custom portal experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/ui-builder-quick-start.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/ui-builder-quick-start.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -23,8 +23,8 @@ Role required: ui\_builder\_admin
 In this UI Builder quick start, you perform the following tasks to build your first page in UI Builder:
 
 -   Start UI Builder.
--   Create a page for your workspace or custom portal experience. For more information about creating pages, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
--   Build your page by adding components. For more information about components, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
+-   Create a page for your workspace or custom portal experience. For more information about creating pages, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md).
+-   Build your page by adding components. For more information about components, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md).
 -   Save your page.
 -   Preview your page to see how it looks in a browser.
 
@@ -34,7 +34,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
 2.  Select an experience that you want to work in from the UI Builder home page.
 
-    If you don’t see any experiences listed in which to work, contact your administrator to get access to an experience, or create an experience. For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    If you don’t see any experiences listed in which to work, contact your administrator to get access to an experience, or create an experience. For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md).
 
 3.  Create a page.
 
@@ -48,7 +48,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
         \[Omitted image "page-create-blank.png"\] Alt text: Create a blank page by selecting Create from scratch instead.
 
-        You can also create pages using page templates, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md) for more information.
+        You can also create pages using page templates, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/reuse-page-definitions.md) for more information.
 
     4.  Enter `Start Page` as the unique name for the page in the **Name** field.
 
@@ -56,7 +56,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
         A default path is added based on your page name. You can also create your own path. The path is required and must be unique. The path can include digits \(0-9\), letters \(A-Z, a-z\), and a few special characters \(`"-"`, `"."`, `"_"`, `"~"`\), with the words separated by a forward slash or hyphen. The **URL preview** shows the path of your page.
 
-        **Note:** The application scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/security-roles.md).
+        **Note:** The application scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/security-roles.md).
 
     6.  Select a URL page type in the **Type** drop-down list.
 
@@ -68,7 +68,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     8.  Add parameters to your page URL by selecting **+ Add**.
 
-        For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+        For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-pages.md).
 
     9.  Select **Looks good**.
 
@@ -112,7 +112,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     5.  In the **Component label** field, type `Container for heading`.
 
-    6.  In the [Component ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) field, type `container_for_heading`.
+    6.  In the [Component ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-builder-glossary.md) field, type `container_for_heading`.
 
     7.  Select **Apply**.
 
@@ -120,13 +120,13 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
         \[Omitted image "qs-content-tree-custom-label.png"\] Alt text: Content tree with customized column layout.
 
-        For more information on component IDs, see [Component ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
+        For more information on component IDs, see [Component ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md).
 
     You’ve successfully added your first column layout to your page.
 
 6.  Add a **Heading** component to your column layout.
 
-    You can add components to the page in different ways. For more information on the ways you can add components to your page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    You can add components to the page in different ways. For more information on the ways you can add components to your page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-components.md).
 
     1.  Select **+ Add content** in the content tree below the column layout created in step 5.
 
@@ -158,7 +158,7 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     4.  The Style changes the size of the heading text.
 
-        For example, if you select **Header-secondary**, the text is smaller. Different headings sizes are useful if you have two headings and want the second heading smaller that the primary heading. For more information on configuring components, see [Configure components in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
+        For example, if you select **Header-secondary**, the text is smaller. Different headings sizes are useful if you have two headings and want the second heading smaller that the primary heading. For more information on configuring components, see [Configure components in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md).
 
     5.  Leave the **Level** as **1**.
 
@@ -239,5 +239,5 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
 You successfully completed the UI Builder quick start!
 
-**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-custom-experience.md)
+**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-custom-experience.md)
 

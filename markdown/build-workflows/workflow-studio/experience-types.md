@@ -2,7 +2,7 @@
 title: UI Layouts
 description: A UI Layout describes what properties and components to use when an activity renders as a card in a Playbook Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/experience-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/experience-types.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -28,7 +28,7 @@ When creating an activity definition, you must select an UI Layout to associate 
 
 Depending on the UI Layout associated with the activity, different sections and fields appear under the activity definition's Activity Experience. These sections and fields let you set up the activity data that renders during the runtime Playbook Experience.
 
-**Note:** All UI Layouts, except for Record generator, display an Associated Record section. For information on how to set up or edit the Associated Record section in an activity definition, see [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
+**Note:** All UI Layouts, except for Record generator, display an Associated Record section. For information on how to set up or edit the Associated Record section in an activity definition, see [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-activity-definition.md).
 
 ## Create Record
 
@@ -282,14 +282,14 @@ If you choose the Record generator UI Layout, the following sections appear in t
 
 ## Guided Decision
 
-**Note:** The Guided Decision UI Layout is available with a subscription to App Engine or Customer Service Management \(CSM\). For more information on how to enable this activity for use in Playbooks, see [Activate Playbooks for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer-for-csm.md).
+**Note:** The Guided Decision UI Layout is available with a subscription to App Engine or Customer Service Management \(CSM\). For more information on how to enable this activity for use in Playbooks, see [Activate Playbooks for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activate-process-automation-designer-for-csm.md).
 
 If you choose the Guided Decision UI Layout, the following fields appear in the Activity Experience section for your activity definition:
 
 -   Decision Tree Execution
 -   Decision Tree
 
-**Parent Topic:**[Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md)
+**Parent Topic:**[Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activity-definitions.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Download a software bill of materials \(SBOM\)
 description: Download a software Bill of Materials \(SBOM\) to gain visibility to the components of the container image such as the operating system packages that are installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/generate-sbom-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/generate-sbom-pattern.html
 release: australia
 product: Discovery
 classification: discovery
@@ -19,7 +19,7 @@ Download a software Bill of Materials \(SBOM\) to gain visibility to the compone
 
 ## Before you begin
 
-The SBOM must have been configured. For more information, see [Configure the SBOM generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enable-sbom.md).
+The SBOM must have been configured. For more information, see [Configure the SBOM generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/enable-sbom.md).
 
 Role required: discovery\_admin
 
@@ -34,5 +34,5 @@ Role required: discovery\_admin
 3.  Download the SBOM by selecting **download** in the **Manage attachments** section.
 
 
-**Parent Topic:**[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-concept.md)
+**Parent Topic:**[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/container-image-concept.md)
 

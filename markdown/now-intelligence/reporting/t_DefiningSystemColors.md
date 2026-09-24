@@ -2,7 +2,7 @@
 title: Define system colors for analytics
 description: Create color definitions for use in visualizations and Performance Analytics widgets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_DefiningSystemColors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_DefiningSystemColors.html
 release: australia
 product: Reporting
 classification: reporting
@@ -82,5 +82,5 @@ Applies an alternate color from the UX Theme Properties \[sys\_ux\_theme\_proper
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Predefined colors in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/colors-reports.md)
+**Parent Topic:**[Predefined colors in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/colors-reports.md)
 

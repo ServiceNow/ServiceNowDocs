@@ -2,7 +2,7 @@
 title: Configure Coaching in Workforce Optimization for HR
 description: Manage agent skills and assess the quality of completed tasks. Use predictive intelligence to recommend skills for agents. Train your agents with internal and external learning content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/setup-coaching-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/setup-coaching-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -16,14 +16,14 @@ breadcrumb: [Configure, Workforce Optimization overview, HR Service Delivery, Em
 
 Manage agent skills and assess the quality of completed tasks. Use predictive intelligence to recommend skills for agents. Train your agents with internal and external learning content.
 
--   **[Configure an indicator to display in the Coaching Overview tab in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/add-property-indicator-wfo-hr.md)**  
+-   **[Configure an indicator to display in the Coaching Overview tab in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/add-property-indicator-wfo-hr.md)**  
 Add a system property to display the desired indicator in the Coaching Overview tab in the Coaching application.
--   **[Setting up skill prediction in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/setup-skill-prediction-wfo-hr.md)**  
+-   **[Setting up skill prediction in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-skill-prediction-wfo-hr.md)**  
 Collect skill data based on skills agents have used for case resolution. Use supervised learning to recommend these skills for agents to resolve similar open case. You can also find patterns in how skills are used for case resolution and use unsupervised learning to recommend skills for agents.
--   **[Configure a list menu to display in the Learning tab in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-list-menu-wfo-hr.md)**  
+-   **[Configure a list menu to display in the Learning tab in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/configure-list-menu-wfo-hr.md)**  
 Add list or list categories to modify the list menu for Coaching with Learning in the Coaching application in Workforce Optimization for HR.
 
-**Parent Topic:**[Configuring Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
+**Parent Topic:**[Configuring Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
 
 **Related topics**  
 

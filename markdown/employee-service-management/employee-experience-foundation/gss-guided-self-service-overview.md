@@ -2,7 +2,7 @@
 title: Guided Self-Service in Employee Center
 description: Empower employees with easier self-serve capabilities through guided experiences to improve productivity and efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -67,7 +67,7 @@ Understand the basics of playbooks and workflow studio. Ensure you have working 
 **Related topics**  
 
 
-[Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md)
+[Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md)
 
-[Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
+[Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
 

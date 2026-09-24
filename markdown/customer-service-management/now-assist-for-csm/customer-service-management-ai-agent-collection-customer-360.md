@@ -2,7 +2,7 @@
 title: Customer Service Management AI agent collection provide customer 360 insights
 description: Provide Customer 360 insights agentic workflow is a GenAI-powered assistant that helps agents answer natural language questions about customers, cases, products, catalogs, and past interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customer-service-management-ai-agent-collection-customer-360.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/customer-service-management-ai-agent-collection-customer-360.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -68,7 +68,7 @@ The agent executes the **testing** in AI Agent Studio for the agentic workflow.
 
 \[Omitted image "customer-360-ai-agent.png"\] Alt text: AI Agent Studio showing the testing output for Provide customer 360 insight agentic workflow
 
-In the panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
+In the panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
 
 ## Access Control lists \(ACLs\)
 

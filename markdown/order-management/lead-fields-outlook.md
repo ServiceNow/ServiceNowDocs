@@ -2,7 +2,7 @@
 title: Lead form in the ServiceNow CRM for Outlook add-in
 description: Field descriptions for creating or viewing a lead record from the ServiceNow CRM for Outlook add-in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/lead-fields-outlook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/lead-fields-outlook.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -116,10 +116,10 @@ Current stage of the lead in the sales process. The available options are:-   Ne
 -   Disqualified
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)
+</table>**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activity-management-reference.md)
 
 **Related topics**  
 
 
-[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)
+[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/associate-email-crm-outlook.md)
 

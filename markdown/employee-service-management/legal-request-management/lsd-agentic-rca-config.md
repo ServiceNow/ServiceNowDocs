@@ -2,7 +2,7 @@
 title: Add restricted caller access privileges for accessing the legal request table
 description: Create restricted caller access \(RCA\) privileges to ensure authorized access to the legal request table in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/lsd-agentic-rca-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/lsd-agentic-rca-config.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -483,5 +483,5 @@ Operation that was performed on the target resource. Select **Read**.
 </table>    3.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
+**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
 

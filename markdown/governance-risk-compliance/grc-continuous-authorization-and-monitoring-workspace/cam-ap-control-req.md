@@ -2,7 +2,7 @@
 title: Modify control requirement
 description: Approve the authorization package when it is in the Select step to create controls. After approval, the authorization package moves to the Implement step and the controls are generated. You can still modify the control requirement implementation status at the control level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ap-control-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ap-control-req.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -105,5 +105,5 @@ All the controls are generated in the **Implement** state, however you can still
     You can also revert an inherited control as a baseline control by selecting **Return to Baseline Control** in the Inherited Controls related list. In this case, the baseline control's **Control review** field is updated from **Inherited** to **Applicable**.
 
 
-**Parent Topic:**[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
+**Parent Topic:**[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
 

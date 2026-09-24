@@ -2,7 +2,7 @@
 title: Manage the access for your third-party contacts
 description: View your existing third-party contacts and adjust their information and access permissions as needed by using Third-party Risk Management. When you keep the contact details up to date, you can help to avoid your third-party contacts from getting unauthorized access or losing authorized access to the third-party portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -105,6 +105,6 @@ Send an email with a link for resetting a third-party contact's password by sele
 </td></tr></tbody>
 </table>4.  Select **Update**.
 
-    **Note:** For more information on setting up third-party contacts, see [Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md) and [Enable email with third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/set_sys_props_for_email.md).
+    **Note:** For more information on setting up third-party contacts, see [Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md) and [Enable email with third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/set_sys_props_for_email.md).
 
 

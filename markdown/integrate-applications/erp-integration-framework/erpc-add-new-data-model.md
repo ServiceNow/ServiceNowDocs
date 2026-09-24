@@ -2,7 +2,7 @@
 title: Create a model
 description: Add a model in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to create a dataset containing tables from the ERP system to read and send updates to the ERP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-add-new-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-add-new-data-model.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -39,7 +39,7 @@ A model functions as a staging area that contains all potential fields you can a
 
 4.  On the new model tab, fill in the fields.
 
-    For a description of the field values, see [Zero Copy Connector for ERP new model field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-new-model-descriptions.md).
+    For a description of the field values, see [Zero Copy Connector for ERP new model field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-new-model-descriptions.md).
 
 5.  Select **Save**.
 
@@ -54,6 +54,6 @@ A model functions as a staging area that contains all potential fields you can a
 
 After you add a new ERP model, specify additional criteria. For example, which tables it reads and joins, any parameters for inputs and outputs, and whether it uses a BAPI to update the ERP system. For more information, see the following topics:
 
--   [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md)
--   [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md)
+-   [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/exploring-erp-models.md)
+-   [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md)
 

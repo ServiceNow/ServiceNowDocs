@@ -2,12 +2,12 @@
 title: Client script summarization
 description: Client script summarization uses ServiceNow Otto to create easy-to-understand explanations of client scripts within the UI Builder editor. This feature helps creators to learn what a script does without needing to read the complex code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/client-script-summarization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/client-script-summarization.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -52,12 +52,12 @@ Client script summarization provides the following benefits:
     Creators with limited coding experience gain visibility into what scripts do, which helps them make informed decisions about whether to modify or replace a script.
 
 
-**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/exploring-ui-generation.md)
 
 **Related topics**  
 
 
-[Summarize a client script using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/client-script-summarization-generation.md)
+[Summarize a client script using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/client-script-summarization-generation.md)
 
-[Use case: Summarize a client script using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/use-case-client-script-summarization.md)
+[Use case: Summarize a client script using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/use-case-client-script-summarization.md)
 

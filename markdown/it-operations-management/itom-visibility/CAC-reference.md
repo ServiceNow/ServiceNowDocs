@@ -2,7 +2,7 @@
 title: Cryptographic Asset Compliance reference
 description: Reference information for Cryptographic Asset Compliance includes risk indicator definitions, policy descriptions, and field descriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/CAC-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/CAC-reference.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -35,7 +35,7 @@ Detailed descriptions of fields, data types, and specifications help you underst
 
 ## Reference topics
 
--   [Risk indicator definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/risk-indicator-definitions.md)
--   [Cryptographic Asset Compliance policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/policies.md)
--   [Cryptographic summary fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/cryptographic-summary-fields.md)
+-   [Risk indicator definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/risk-indicator-definitions.md)
+-   [Cryptographic Asset Compliance policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/policies.md)
+-   [Cryptographic summary fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/cryptographic-summary-fields.md)
 

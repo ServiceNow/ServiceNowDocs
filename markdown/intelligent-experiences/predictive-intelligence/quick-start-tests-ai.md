@@ -2,7 +2,7 @@
 title: Quick start tests for Predictive Intelligence
 description: Validate that Predictive Intelligence still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/quick-start-tests-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/quick-start-tests-ai.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -25,7 +25,7 @@ Predictive Intelligence quick start tests require activating the Predictive Inte
 |PI: Glide upgrade test for Classification solution|Validate that the classification model prediction on existing active models is producing the same class membership and confidence value results after a glide upgrade.|
 |PI: Glide upgrade test for Similarity solution|Validate that the similarity model prediction API calls on active models are successful after a glide upgrade.|
 
-**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
+**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 
 **Related topics**  
 

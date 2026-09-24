@@ -2,7 +2,7 @@
 title: Create a strict mode configuration in Microsoft Exchange Online
 description: Specify your delegated user email in the Microsoft portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/strict-mode-configuration-in-msex.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/strict-mode-configuration-in-msex.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -18,7 +18,7 @@ Specify your delegated user email in the Microsoft portal.
 
 ## Before you begin
 
-[Create connection with Microsoft Exchange Online Spoke in strict mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke-strict-mode.md)
+[Create connection with Microsoft Exchange Online Spoke in strict mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke-strict-mode.md)
 
 Role required: Microsoft admin
 
@@ -45,9 +45,9 @@ The user is configured as the delegated user.
 
 ## What to do next
 
-[Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)
+[Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)
 
-**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md)
+**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Move a resource to a different Rightsizing job
 description: You can add resources to a currently scheduled job, move resources from one job to another, or remove resources from a job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/rs-change-job-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/rs-change-job-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -103,5 +103,5 @@ Change request template \(Standard Change type\) to be used. If no template appe
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)
+**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/resize-res-ci.md)
 

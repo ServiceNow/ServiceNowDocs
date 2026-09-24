@@ -2,7 +2,7 @@
 title: Define a REST API response header
 description: Define one or more REST API response headers in a REST API.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/define-scripted-api-response-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/define-scripted-api-response-header.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -24,15 +24,15 @@ Role required: web\_service\_admin
 
 1.  Create a REST response header in one of the following ways.
 
-<table id="choicetable_rv3_mwc_j3c"><thead><tr><th align="left" id="d237106e60">
+<table id="choicetable_rv3_mwc_j3c"><thead><tr><th align="left" id="d236496e60">
 
 Option
 
-</th><th align="left" id="d237106e63">
+</th><th align="left" id="d236496e63">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d237106e69">
+</th></tr></thead><tbody><tr><td id="d236496e69">
 
 **Create a response header from a REST API**
 
@@ -43,7 +43,7 @@ Procedure
 3.  In the **Response Headers** related list, select **New**.
 
 
-</td></tr><tr><td id="d237106e108">
+</td></tr><tr><td id="d236496e108">
 
 **Create a response header and associate it with a REST API**
 
@@ -65,7 +65,7 @@ Navigate to **All** &gt; **Filter** and enter `sys_ws_response_header.form`.1.  
 
 ## Result
 
-The response headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a `type: string` schema definition. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/export-openapi-specification.md).
+The response headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a `type: string` schema definition. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/export-openapi-specification.md).
 
-**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

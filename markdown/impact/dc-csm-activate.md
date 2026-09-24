@@ -2,7 +2,7 @@
 title: Activate Data Collection for CSM
 description: Activate the Data Collection Pack for CSM after you enable and configure it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/dc-csm-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-csm-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -59,5 +59,5 @@ Role required: admin, pa\_admin, pa\_data\_collector
     4.  To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-csm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-csm.md)
 

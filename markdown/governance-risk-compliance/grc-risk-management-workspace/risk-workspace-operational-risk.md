@@ -2,7 +2,7 @@
 title: Risk Workspace for the operational risk manager
 description: Operational risk managers manage operational risks such as losses due to errors, breaches, or damages that are caused by people, internal processes, systems, or external events. Operational risks range from the small, such as the risk of loss due to minor human errors, to the large, such as the risk of bankruptcy due to serious fraud.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-workspace-operational-risk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/risk-workspace-operational-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -34,13 +34,13 @@ Operational risk managers are a part of the operational risk team that manages t
 
     -   Creating risk statements: A risk statement is used to record a risk in a way that everyone can reach a common agreement on its severity or relative priority.
     -   Creating control objectives: A control objective defines the aim or purpose of risk-mitigating controls. These controls need continuous monitoring.
-    -   Defining entity classes, entity types, and entities: For more information on entities, see [Understanding entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manage-entities.md).
+    -   Defining entity classes, entity types, and entities: For more information on entities, see [Understanding entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/manage-entities.md).
     -   Defining the upstream and downstream entities.
     The first step is to set up risk statements so that your team has a specific idea of the risk. For example, simply calling a risk as a cybersecurity risk is not specific. Cybersecurity risks could mean different things to different people. Therefore, a common statement to define cybersecurity is created as a risk statement. To create risk statements and their hierarchy, clearly define the risk impact, the assets at risk, and the source of risk. By defining the risk statements and creating their hierarchy, you can ensure that the risk scores are aggregated thus giving the complete risk status.
 
 -   **Conduct risk assessments on a periodic basis**
 
-    Perform the annual risk assessments according to your organization's policies. Also, ensure that the risk register is updated and accurate. Create risk assessment scopes and schedule assessments. To learn more about risk registers, see [Risk register in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-register-workspace.md).
+    Perform the annual risk assessments according to your organization's policies. Also, ensure that the risk register is updated and accurate. Create risk assessment scopes and schedule assessments. To learn more about risk registers, see [Risk register in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-register-workspace.md).
 
 -   **Record and monitor risk events**
 
@@ -75,9 +75,9 @@ Define the operational risk framework
 
 </td><td>
 
--   [Create a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-stmt-workspace.md)
--   [Create a risk framework in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-framework.md)
--   [Associate a risk statement with a control objective in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-control-objective-ws.md)
+-   [Create a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-stmt-workspace.md)
+-   [Create a risk framework in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-framework.md)
+-   [Associate a risk statement with a control objective in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-control-objective-ws.md)
 
 </td></tr><tr><td>
 
@@ -85,8 +85,8 @@ Communicate the operational risk posture
 
 </td><td>
 
--   [Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-heatmaps-in-ws.md)
--   [Risk heatmap for classic risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-classic-risk-assessment.md)
+-   [Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-heatmaps-in-ws.md)
+-   [Risk heatmap for classic risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-classic-risk-assessment.md)
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Monitor the critical incidents and issues
 
 </td><td>
 
-[View, create, and manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/issues-in-ws.md)
+[View, create, and manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/issues-in-ws.md)
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Define the key risk indicators
 
 </td><td>
 
-[Risk indicators, control indicators, and indicator templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manage-indicators-risk.md)
+[Risk indicators, control indicators, and indicator templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/manage-indicators-risk.md)
 
 </td></tr><tr><td>
 
@@ -110,11 +110,11 @@ Conduct the annual risk assessment process
 
 </td><td>
 
--   [Configure a risk assessment methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-ram.md)
--   [Create factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/factors.md)
--   [Create risk assessment scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-asses-scope-workspace.md)
--   [Schedule risk assessments in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/schedule-risk-assessment-workspace.md)
--   [Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md)
+-   [Configure a risk assessment methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/configure-ram.md)
+-   [Create factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/factors.md)
+-   [Create risk assessment scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-asses-scope-workspace.md)
+-   [Schedule risk assessments in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/schedule-risk-assessment-workspace.md)
+-   [Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md)
 
 </td></tr><tr><td>
 
@@ -122,10 +122,10 @@ Facilitate recording and learning from loss events
 
 </td><td>
 
--   [Manage risk events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manage-risk-events.md)
--   [Create a risk event in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-workspace.md)
--   [Analyze a risk event in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/analyze-risk-event-workspace.md)
--   [Create a risk event entry in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-entry-ws.md)
+-   [Manage risk events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/manage-risk-events.md)
+-   [Create a risk event in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-workspace.md)
+-   [Analyze a risk event in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/analyze-risk-event-workspace.md)
+-   [Create a risk event entry in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-entry-ws.md)
 
 </td></tr><tr><td>
 
@@ -133,17 +133,17 @@ Create aggregated risk reports
 
 </td><td>
 
-[Reports in the Risk Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
+[Reports in the Risk Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 
 </td></tr></tbody>
 </table>The following image shows the view for the operational risk manager.
 
 \[Omitted image "op-risk-manager-homepage.jpg"\] Alt text: Operational risk manager home page.
 
-**Parent Topic:**[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)
+**Parent Topic:**[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)
 
 **Related topics**  
 
 
-[Roles installed with the GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/roles-installed-with-risk-ws.md)
+[Roles installed with the GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/roles-installed-with-risk-ws.md)
 

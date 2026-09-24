@@ -2,7 +2,7 @@
 title: Verify the Smart Assessment templates setup
 description: Verify that the input and output Smart Assessment templates are set up and published in the Assessment Workspace before running an advanced scenario analysis. The Statistical model profile in the advanced scenario analysis uses these templates to present plain-language questions and display simulation results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-sae-templates-for-sca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-sae-templates-for-sca.html
 release: australia
 topic_type: task
 last_updated: "2026-05-28"
@@ -28,7 +28,7 @@ The advanced scenario analysis references the following Smart Assessment templat
 
 Statistical Model Profile defines the end-to-end configuration for a modelling flow. It specifies which input and output templates are used, which statistical model is applied, and which reference table it draws from.
 
-Both templates are managed through the Smart Assessment Engine \(SAE\) to support dynamic field configurations. For more information, see [Building a scenario analysis using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-playbook-experience.md).
+Both templates are managed through the Smart Assessment Engine \(SAE\) to support dynamic field configurations. For more information, see [Building a scenario analysis using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/scenario-analysis-playbook-experience.md).
 
 ## Procedure
 
@@ -60,10 +60,10 @@ Both templates are managed through the Smart Assessment Engine \(SAE\) to suppor
 
     **Note:** This restriction applies only to the statistical modeling templates. For the manual method, you can create any published template with no restrictions.
 
-    For information on the manual method, see [Run a scenario analysis using the manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/run-sca-manual-method.md).
+    For information on the manual method, see [Run a scenario analysis using the manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/run-sca-manual-method.md).
 
     \[Omitted image "sca-ip-asmt-temp.png"\] Alt text: Input template.\[Omitted image "sca-op-asmt-temp.png"\] Alt text: Output template.\[Omitted image "sca-smp-table-ip-op-asmt.png"\] Alt text: Parameter mappings.
 
-    After both the input and output Smart Assessment templates are published, the Statistical model profile can reference them. Analysts can run the advanced scenario analysis using the guided playbook experience. For more information, see [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sca-record.md).
+    After both the input and output Smart Assessment templates are published, the Statistical model profile can reference them. Analysts can run the advanced scenario analysis using the guided playbook experience. For more information, see [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-sca-record.md).
 
 

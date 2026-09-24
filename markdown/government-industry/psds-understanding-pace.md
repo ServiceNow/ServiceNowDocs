@@ -2,7 +2,7 @@
 title: Understanding Policy as Code Engine \(PaCE\) and the Social Benefits Playbook
 description: PaCE enables you to manage, administer, and audit eligibility rules \(policies\) from a centralized location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-understanding-pace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-understanding-pace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Legacy Application Manager release notes
 description: The ServiceNow Legacy Application Manager application enables administrators to install and manage applications. This application is deprecated as of Australia patch 1.The ServiceNow Legacy Application Manager application enables administrators to install and manage applications. This application is deprecated as of Australia patch 1.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/legacy-application-manager-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/legacy-application-manager-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The ServiceNow® Legacy Application Manager application enables administrators t
 
 ## Activation and other requirements
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
 ## Australia
 

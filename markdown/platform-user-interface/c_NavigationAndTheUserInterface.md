@@ -2,7 +2,7 @@
 title: Configure user experiences
 description: Interact with ServiceNow AI Platform applications and data in the way that works best for you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_NavigationAndTheUserInterface.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_NavigationAndTheUserInterface.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,11 +19,11 @@ Click any of the tiles below to learn more about the variety of customizations, 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure UIs and Portals \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Build user interfaces and create custom user experiences with this versatile suite of tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-uis-and-portals.md)
+[Configure UIs and Portals \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Build user interfaces and create custom user experiences with this versatile suite of tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-uis-and-portals.md)
 
 </td><td>
 
-[Provide user assistance \[Omitted image "bus-documentation.svg"\] Alt text: Give users assistance on the ServiceNow AI Platform with knowledge articles, step-by-step tutorials, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md)
+[Provide user assistance \[Omitted image "bus-documentation.svg"\] Alt text: Give users assistance on the ServiceNow AI Platform with knowledge articles, step-by-step tutorials, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/adoption-services.md)
 
 </td></tr></tbody>
 </table>## Configure UIs and portals
@@ -38,7 +38,7 @@ Inform, educate, and assist your users with a full set of guidance and knowledge
 
 Access workspaces, Core UI, applications, history, and favorites through the single pane Next Experience UI.
 
-For highlights, see the [Next Experience UI landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
+For highlights, see the [Next Experience UI landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-landing-page.md).
 
 ## Provide just the data that you need
 
@@ -66,11 +66,11 @@ Solve issues faster with a workspace that is built to facilitate resolutions. Ag
 
 ## Applications and features
 
--   [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md)
--   [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)
--   [Working in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-in-ui16-and-ui15.md)
--   [Content Management System \(CMS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
--   [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
--   [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md)
--   [Visual Task Boards \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
+-   [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-landing-page.md)
+-   [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/workspace-landing-page.md)
+-   [Working in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-in-ui16-and-ui15.md)
+-   [Content Management System \(CMS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+-   [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/c_ServicePortal.md)
+-   [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/adoption-services.md)
+-   [Visual Task Boards \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
 

@@ -2,7 +2,7 @@
 title: Generate group approvals for domain separated requests
 description: Configure Workflow Studio to generate approvals for all members of a group or to restrict approvals to only group members who are visible from the domain of the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/generate-group-approvals-domain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/generate-group-approvals-domain.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

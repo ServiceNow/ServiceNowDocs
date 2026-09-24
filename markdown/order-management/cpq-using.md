@@ -2,7 +2,7 @@
 title: Using CPQ
 description: Use ServiceNow CPQ to configure complex products, apply dynamic rules, and generate accurate quotes with speed and precision. You can understand how the CPQ experience works end-to-end—from guided configuration and real-time pricing to document generation and seamless integration with the rules engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-using.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,24 +14,24 @@ breadcrumb: [CPQ Configurator, Configure, price, quote apps, Use, Sales Customer
 
 Use ServiceNow CPQ to configure complex products, apply dynamic rules, and generate accurate quotes with speed and precision. You can understand how the CPQ experience works end-to-end—from guided configuration and real-time pricing to document generation and seamless integration with the rules engine.
 
--   **[Setting the number format of an editable field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/formatted_numbers_display.md)**  
+-   **[Setting the number format of an editable field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/formatted_numbers_display.md)**  
 Learn how to create a user-editable field that maintains a specified format.
--   **[Launch a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/launch-solution.md)**  
+-   **[Launch a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/launch-solution.md)**  
 Launch a configurable product to start a solution session. The product you launch becomes the solution root.
--   **[Add configurable products to a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-configurable-products-solution.md)**  
+-   **[Add configurable products to a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/add-configurable-products-solution.md)**  
 Trigger a configurable product action in a session to add a child configuration to the solution.
--   **[Navigate within a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/navigate-solution.md)**  
+-   **[Navigate within a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/navigate-solution.md)**  
 Use the solution navigation sidebar to move between configurations in a solution session.
--   **[Remove a configurable product from a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/remove-child-configuration.md)**  
+-   **[Remove a configurable product from a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/remove-child-configuration.md)**  
 Remove a child configuration from a solution by changing the condition of its configurable product action to false.
--   **[View the solution bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-solution-bom.md)**  
+-   **[View the solution bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-solution-bom.md)**  
 View the solution bill of materials to see all products added across every configuration in the session.
--   **[Document generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/generating_documents_with_logik_io_configuration_data.md)**  
+-   **[Document generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/generating_documents_with_logik_io_configuration_data.md)**  
 You can use third-party document generation software to output configuration data by pushing information from CPQ to Salesforce.
--   **[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)**  
+-   **[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-cases.md)**  
 View a list of example use cases for CPQ.
--   **[Modify a product subscription with ramped pricing and quantities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-modify-a-product-subscription-with-ramped-pricing-and-quantities.md)**  
+-   **[Modify a product subscription with ramped pricing and quantities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-modify-a-product-subscription-with-ramped-pricing-and-quantities.md)**  
 Add pricing or quantity ramps to quote line items to set incremental changes during the life of a contract.
 
-**Parent Topic:**[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
+**Parent Topic:**[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
 

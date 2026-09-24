@@ -2,7 +2,7 @@
 title: Create a custom action to generate an array of objects from a list of records
 description: Generate an array of objects from a list of User records. Learn how to use a Script step to iterate through a list of records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-custom-action-array-objects.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-custom-action-array-objects.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -348,5 +348,5 @@ You have a custom action that looks up the Users for a given department and conv
 
 Customize this action to use your own logic.
 
-**Parent Topic:**[Script support for complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/script-support-complex-data.md)
+**Parent Topic:**[Script support for complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/script-support-complex-data.md)
 

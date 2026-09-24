@@ -2,7 +2,7 @@
 title: Capture CDM information form
 description: The Capture initiator details form enables you to collect the escalated complaint details for an Customer Dispute Management \(CDM\) case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/capture-adr-information-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/capture-adr-information-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -30,5 +30,5 @@ The Capture initiator details form enables you to collect the escalated complain
 **Related topics**  
 
 
-[Create a Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-adr-case-record.md)
+[Create a Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/create-adr-case-record.md)
 

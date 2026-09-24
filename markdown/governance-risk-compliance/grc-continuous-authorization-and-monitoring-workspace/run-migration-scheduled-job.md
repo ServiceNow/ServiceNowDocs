@@ -2,7 +2,7 @@
 title: Run migration scheduled job
 description: Run the migration scheduled job to associate existing authorization packages and boundaries with the workflow after enabling the CAM workflow configuration property. The migration confirms that existing data is compatible with the workflow configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/run-migration-scheduled-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/run-migration-scheduled-job.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -33,5 +33,5 @@ Role required: sn\_irm\_cont\_auth.admin
 5.  Select **Execute Now** to confirm execution.
 
 
-**Parent Topic:**[CAM workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-workflow-configurator.md)
+**Parent Topic:**[CAM workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-workflow-configurator.md)
 

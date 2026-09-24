@@ -2,7 +2,7 @@
 title: Customize Scan Engine definition suites
 description: Follow these steps to create or modify Scan Engine definition suites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/create-scan-engine-definition-suites.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/create-scan-engine-definition-suites.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -81,5 +81,5 @@ Displays findings found during on-demand or instance scans as defined by the def
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md)
+**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/view-modify-scan-engine-properties.md)
 

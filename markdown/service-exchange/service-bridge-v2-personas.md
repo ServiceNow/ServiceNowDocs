@@ -2,7 +2,7 @@
 title: User roles for providers
 description: Learn about the roles, skills, and tasks for the different users in the Service Exchange for Providers application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-personas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-personas.html
 release: australia
 product: Service Exchange
 classification: service-exchange

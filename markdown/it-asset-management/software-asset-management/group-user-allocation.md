@@ -2,7 +2,7 @@
 title: Allocating licenses to a user group
 description: Use the group allocation feature to manage the user allocation to a software entitlement in bulk. This feature enables the SAM managers to streamline and manage the license allocation process efficiently and automatically updates the user allocation when a group composition is changed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/group-user-allocation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/group-user-allocation.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -30,16 +30,16 @@ When a user group is inactivated or updated, the changes are automatically updat
 -   When a member is removed from a user group, the license allocation to the user is automatically deleted. The **Allocated Quantity** field value is automatically updated to reflect it.
 -   When a group allocation is deleted from the software model, allocations for all members of that group are removed. The unallocated license quantity is automatically updated.
 
-For more information about creating a group allocation record, see [Create group allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-group-allocations.md).
+For more information about creating a group allocation record, see [Create group allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-group-allocations.md).
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 
 **Related topics**  
 
 
-[Create group allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-group-allocations.md)
+[Create group allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-group-allocations.md)
 
-[Group allocations fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/group-allocation-fields.md)
+[Group allocations fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/group-allocation-fields.md)
 
-[Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-model-fields.md)
+[Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-model-fields.md)
 

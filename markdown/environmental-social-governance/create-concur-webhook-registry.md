@@ -2,7 +2,7 @@
 title: Create a SAP Concur webhook registry
 description: Create a webhook registry to be notified whenever a trip is either created or modified in SAP Concur.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-concur-webhook-registry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-concur-webhook-registry.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,8 +41,8 @@ Role required: sys\_admin
 7.  Select **Submit**.
 
 
--   **[Create a webhook subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-webhook-subscription.md)**  
+-   **[Create a webhook subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-webhook-subscription.md)**  
 Webhooks are used to simplify communication between two applications. Create a webhook subscription to connect to Concur through webhook.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-concur.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg-with-concur.md)
 

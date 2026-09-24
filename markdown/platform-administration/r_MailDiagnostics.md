@@ -2,7 +2,7 @@
 title: Email diagnostics
 description: The Diagnostics and Connection page provides information on the current state of your email configuration. This page includes status on email properties, scheduled jobs, and email account connections that affect how your instance receives and sends email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_MailDiagnostics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_MailDiagnostics.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -174,10 +174,10 @@ Date and time when the reader job last ran.
 The result of the test connection to the accounts. The connection is tested every time you load the page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/troubleshooting-notification-emails.md)
+</table>**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/troubleshooting-notification-emails.md)
 
 **Related topics**  
 
 
-[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
+[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_ScheduledJobs.md)
 

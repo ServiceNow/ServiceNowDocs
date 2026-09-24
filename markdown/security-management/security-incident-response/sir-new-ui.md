@@ -2,7 +2,7 @@
 title: Manage security threats using the Security Analyst Workspace
 description: Security Incident Response includes a new user interface called the Security Analyst Workspace that features powerful tools for assisting in analysis, including the playbook, peek view, and tabs for working on multiple security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-new-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sir-new-ui.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -20,7 +20,7 @@ Purpose-built for security analysts, the powerful tools in the Security Analyst 
 
 ## Before using the Security Analyst Workspace
 
-Before you can begin using the Security Analyst Workspace, you must ensure that your instance has at least London Patch 3 installed, you have the correct roles defined, and have [downloaded the Security Incident Response UI application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-configure-new-ui.md).
+Before you can begin using the Security Analyst Workspace, you must ensure that your instance has at least London Patch 3 installed, you have the correct roles defined, and have [downloaded the Security Incident Response UI application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/install-and-configure-new-ui.md).
 
 **Note:** If your instance is running a version earlier than London Patch 3, you must request the Security Incident Response UI plugin through the HI Customer Service system.
 
@@ -38,7 +38,7 @@ Simply click the quick filter you want to use.
 
 **Note:** You can click an **Edit** button to identify which quick filters you want displayed on the list screen. A minimum of one filter must be selected, up to a maximum of six.
 
-You can define additional quick filters, as well as primary filters for the Security Analyst Workspace, using the classic environment. For more information, see [Set up primary and secondary filters for Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/set-up-filters-for-new-ui.md).
+You can define additional quick filters, as well as primary filters for the Security Analyst Workspace, using the classic environment. For more information, see [Set up primary and secondary filters for Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/set-up-filters-for-new-ui.md).
 
 ## Personalize the security incident list
 
@@ -105,5 +105,5 @@ Use the **Incident Timeline** tab during your investigation for tracking purpose
 
 ## Handle security incidents using the Playbook
 
-Resolve certain types of security threats in a step-by-step manner using the built-in Security Analyst Playbooks. For example, an analyst can use the playbook to resolve phishing attacks and threats caused by malicious code activities. For more information, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md).
+Resolve certain types of security threats in a step-by-step manner using the built-in Security Analyst Playbooks. For example, an analyst can use the playbook to resolve phishing attacks and threats caused by malicious code activities. For more information, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/use-the-playbook.md).
 

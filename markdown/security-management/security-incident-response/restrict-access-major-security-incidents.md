@@ -2,7 +2,7 @@
 title: Restrict access to certain major security incidents
 description: Manage access to sensitive major security incidents by restricting view and modify permissions to authorized users and groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/restrict-access-major-security-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/restrict-access-major-security-incidents.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -51,5 +51,5 @@ Use restrictions to control which users and groups can view or modify specific m
 9.  Select **Save**.
 
 
-**Parent Topic:**[Update Major Security Incident details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msim-details-tab.md)
+**Parent Topic:**[Update Major Security Incident details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-details-tab.md)
 

@@ -2,7 +2,7 @@
 title: Using Conversational Integration with Apple Messages for Business
 description: Enable a requester to converse with an agent using Apple Messages for Business chat conversations. An administrator can configure the Conversational Integration with Apple Messages for Business application for integrating the Apple Messages for Business messaging app with a ServiceNow application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-apple-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/messg-apple-using.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -35,5 +35,5 @@ As a live agent interacting with a requester over the Apple Messages for Busines
 -   Share photos or videos.
 -   Share any files as attachments.
 
-**Note:** If an administrator has configured the Apple Messages for Business service channel for transfer of chat conversations, then you can accept a work item from the Apple Messages for Business chat conversation in your Agent Workspace Inbox. For more information, see [Transfer Apple Messages for Business chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-apple-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
+**Note:** If an administrator has configured the Apple Messages for Business service channel for transfer of chat conversations, then you can accept a work item from the Apple Messages for Business chat conversation in your Agent Workspace Inbox. For more information, see [Transfer Apple Messages for Business chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-apple-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 

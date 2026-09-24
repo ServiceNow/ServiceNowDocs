@@ -2,7 +2,7 @@
 title: Resubmit work notes analysis
 description: If a work notes analysis fails for some reason, you can resubmit it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/resubmit-worknotes-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/resubmit-worknotes-analysis.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -33,5 +33,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
     \[Omitted image "worknotes-resubmit.png"\] Alt text: Resumbit work notes analysis
 
 
-**Parent Topic:**[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/worknotes-analysis.md)
+**Parent Topic:**[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/worknotes-analysis.md)
 

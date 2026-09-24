@@ -2,7 +2,7 @@
 title: Create a scenario and link it to an event
 description: Create a scenario in the Operational Resilience application so that you can associate it with an event and assess its impact on your business services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/define-scenarios.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/define-scenarios.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ A scenario helps you to determine the risks that are applicable to your business
 
 3.  On the form, fill in the fields.
 
-    For the description of the field values, see [Scenario record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-reference.md).
+    For the description of the field values, see [Scenario record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/scenario-reference.md).
 
 4.  Click **Submit**.
 

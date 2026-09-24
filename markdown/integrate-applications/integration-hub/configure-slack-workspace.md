@@ -2,7 +2,7 @@
 title: Configure Slack app
 description: Create a custom OAuth application on your Slack workspace to enable OAuth 2.0 authentication with the Slack spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-slack-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/configure-slack-workspace.html
 release: australia
 product: Integration Hub
 classification: integration-hub

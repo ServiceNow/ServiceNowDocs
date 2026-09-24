@@ -2,7 +2,7 @@
 title: Enter missing invoice information and submit an invoice
 description: Complete a partially populated invoice and submit it for processing when Document Intelligence encounters a transformation error.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/enter-missing-docintel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/enter-missing-docintel.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -52,7 +52,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
     The invoice is submitted for further processing and the status of the invoice changes to Received.
 
 
-**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 

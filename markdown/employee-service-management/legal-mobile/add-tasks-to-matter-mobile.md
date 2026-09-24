@@ -2,7 +2,7 @@
 title: Add a task in a legal matter through Mobile Agent
 description: Add a task in a legal matter or a phase of the matter that you or another user should perform to resolve the matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/add-tasks-to-matter-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/add-tasks-to-matter-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile

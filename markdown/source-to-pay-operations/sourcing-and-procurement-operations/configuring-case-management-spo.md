@@ -2,7 +2,7 @@
 title: Configuring case management in Sourcing and Procurement Operations
 description: Configure case types, routing rules, specialist workspace, notifications, and AI skills in the Procurement Case Management module of the SPO Configuration Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configuring-case-management-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-case-management-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -99,5 +99,5 @@ Configure AI skills to enhance procurement case management with automated summar
 
 ServiceNow Otto agent assistance, available through **Configure with AI**, also extends to some of the configuration items described earlier in this topic. An agent can create and edit records for Email Notifications, Create SLA Definitions, Case Forms, and Case List Views.
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-spo-apps.md)
+**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-spo-apps.md)
 

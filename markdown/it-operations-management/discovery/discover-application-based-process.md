@@ -2,7 +2,7 @@
 title: Discover applications based on fingerprints
 description: Discover applications based on suggestions based on ServiceNow Predictive Intelligence. Predictive Intelligence automatically classifies and categorizes the discovered running processes, as application fingerprints, and provides suggestions. ITOM Visibility uses Predictive Intelligence to perform initial analysis of discovered processes and suggest applications that you might want to discover. When using this method, ITOM Visibility automatically creates a Configuration Management Database \(CMDB\) configuration item \(CI\) class, a classifier, or a pattern for the new application CI class.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discover-application-based-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discover-application-based-process.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ Discover applications based on suggestions based on ServiceNow Predictive Intell
 
 ## Before you begin
 
-Perform horizontal discovery on all relevant IP ranges as described in [Convert IP networks into Discovery range sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_NetworkDiscovery.md). Provide all the relevant credentials for ITOM Visibility access to the applications and devices that you want to discover.
+Perform horizontal discovery on all relevant IP ranges as described in [Convert IP networks into Discovery range sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_NetworkDiscovery.md). Provide all the relevant credentials for ITOM Visibility access to the applications and devices that you want to discover.
 
 Role required: discovery\_admin
 
@@ -119,7 +119,7 @@ Accuracy
 
 </td><td>
 
-A validation algorithm checks the quality of the prediction. The algorithm analyzes the regular expression \(ReGex\) parameter of the processes in this suggestion and other suggestions \(application groups\). Pick suggestions with higher rule accuracy. If the accuracy is low, you may adjust the process ReGex definition manually, as described in [Adjust regular expression used for fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md).
+A validation algorithm checks the quality of the prediction. The algorithm analyzes the regular expression \(ReGex\) parameter of the processes in this suggestion and other suggestions \(application groups\). Pick suggestions with higher rule accuracy. If the accuracy is low, you may adjust the process ReGex definition manually, as described in [Adjust regular expression used for fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/calibrate-process-based-discovery.md).
 
  **Note:** Do not modify the accuracy value manually.
 
@@ -182,7 +182,7 @@ The name of the process that was excluded from discovery using the **Ignore** ac
 
 10. Click the process classifier next to the new application to see the classifier and the pattern that the fingerprint-based discovery creates for this application CI.
 
-11. If the discovery result is not satisfactory, [calibrate the fingerprint-based discovery feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md).
+11. If the discovery result is not satisfactory, [calibrate the fingerprint-based discovery feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/calibrate-process-based-discovery.md).
 
 
 **Related topics**  
@@ -190,5 +190,5 @@ The name of the process that was excluded from discovery using the **Ignore** ac
 
 [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)
 
-[Application Fingerprints dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-application-fingerprint-dashboard.md)
+[Application Fingerprints dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-application-fingerprint-dashboard.md)
 

@@ -2,7 +2,7 @@
 title: View sensitive information for DLP alerts
 description: View the detected sensitive information for DLP alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/view-match-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/view-match-content.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -43,5 +43,5 @@ Role required: sn\_dlir.analyst
     \[Omitted image "dlp-icap-match-content-details.png"\] Alt text: DLP incident sensitive information violated record.
 
 
-**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/icap-dlp-integration.md)
+**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/icap-dlp-integration.md)
 

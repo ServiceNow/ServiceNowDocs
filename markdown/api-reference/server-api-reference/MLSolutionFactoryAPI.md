@@ -2,7 +2,7 @@
 title: MLSolutionFactory - Global
 description: The MLSolutionFactory API is a factory class to get an MLSolution scriptable object.Gets an MLSolution object for a specified solution name.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/MLSolutionFactoryAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/MLSolutionFactoryAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,16 +20,16 @@ This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) 
 
 For usage guidelines, refer to [MLSolutionFactory scriptable objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ml-apis-mlsolutionfactory.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 **Related topics**  
 
 
-[MLSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MLSolutionAPI.md)
+[MLSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/MLSolutionAPI.md)
 
-[MLSolutionUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MLSolutionUtilAPI.md)
+[MLSolutionUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/MLSolutionUtilAPI.md)
 
-[REST API: Get predictions for multiple solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-intelligence-api.md)
+[REST API: Get predictions for multiple solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/agent-intelligence-api.md)
 
 ## MLSolutionFactory - getSolution\(String solutionName, Object options\)
 
@@ -42,7 +42,7 @@ Gets an MLSolution object for a specified solution name.
 
 |Type|Description|
 |----|-----------|
-|Object|[MLSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MLSolutionAPI.md) object of the specified solution.|
+|Object|[MLSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/MLSolutionAPI.md) object of the specified solution.|
 
 ```
 // basic usage

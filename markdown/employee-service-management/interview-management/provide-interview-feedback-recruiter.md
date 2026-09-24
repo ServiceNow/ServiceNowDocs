@@ -2,7 +2,7 @@
 title: Provide interview feedback
 description: As a recruiter or recruitment coordinator, provide feedback for interviews that you're part of.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/provide-interview-feedback-recruiter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/interview-management/provide-interview-feedback-recruiter.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -65,5 +65,5 @@ Role required: sn\_ta\_hiring\_core.recruiter or sn\_ta\_hiring\_core.recruitmen
     4.  Select **Submit**.
 
 
-**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/using-interview-mgmnt.md)
 

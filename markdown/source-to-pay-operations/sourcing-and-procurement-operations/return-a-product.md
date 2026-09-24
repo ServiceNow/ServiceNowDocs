@@ -2,7 +2,7 @@
 title: Return a product
 description: You can request a return for a product that has been fully or partially delivered to you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/return-a-product.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/return-a-product.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -116,8 +116,8 @@ Depending on the type of return request, this procedure creates a procurement ca
 
 The fulfiller can approve or reject the return or replacement request. For more information, see the following topics:
 
--   [Process a return request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/playbook-return-request.md)
--   [Process a replacement request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/playbook-replacement-request.md)
+-   [Process a return request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/playbook-return-request.md)
+-   [Process a replacement request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/playbook-replacement-request.md)
 
 ## What to do next
 
@@ -125,5 +125,5 @@ The fulfiller can approve or reject the return or replacement request. For more 
 -   Shoppers can review the request details from **ShoppingHub** &gt; **** &gt; **My purchases**, accessed from the profile image or from the footer.
 -   Buyers can track the progress of the procurement case and procurement case line requests from **Source-to-Pay Workspace**.
 
-**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

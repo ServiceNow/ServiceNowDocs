@@ -2,7 +2,7 @@
 title: Bookmark apps and files in ServiceNow Studio
 description: Bookmark apps and app files in ServiceNow Studio so you can access them quickly from the Bookmarks tab in the Navigator panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-bookmark-apps-files.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/qs-bookmark-apps-files.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic

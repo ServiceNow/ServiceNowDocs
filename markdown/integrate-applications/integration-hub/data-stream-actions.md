@@ -2,7 +2,7 @@
 title: Data Stream actions and pagination
 description: Send REST, SOAP, or JDBC requests from Workflow Studio to APIs that return a stream of response data larger than 10 MB, or that return paginated results. Parse stream data into a series of complex object outputs and use the data pills in other actions in a flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/data-stream-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/data-stream-actions.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -26,9 +26,9 @@ Data Stream actions offer these benefits.
 
 -   Parse and format a stream of response data larger than 10 MB.
 -   Automatically send multiple requests to APIs that paginate results, if applicable.
--   Can be used in [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md) and to [create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-data-stream-data-source.md).
+-   Can be used in [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integrationhub-imports.md) and to [create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/create-data-stream-data-source.md).
 -   Enable flow designers to process large requests without complex coding or configuration.
--   Enable flow designers to process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block, enabling flow designers to easily create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/use-data-stream-in-flow.md).
+-   Enable flow designers to process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block, enabling flow designers to easily create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/use-data-stream-in-flow.md).
 -   Enable flow designers to reuse Data Stream actions in multiple flows, using the same source of data in multiple ways.
 
 ## Running a Data Stream action
@@ -37,11 +37,11 @@ There are two ways to run a Data Stream action.
 
 -   **From a flow**
 
-    You can process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block, enabling flow designers to easily create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/use-data-stream-in-flow.md).
+    You can process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block, enabling flow designers to easily create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/use-data-stream-in-flow.md).
 
 -   **From a script**
 
-    You can start a Data Stream using the executeDataStreamAction\(\) method in the FlowAPI class. For more information, see [FlowAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md).
+    You can start a Data Stream using the executeDataStreamAction\(\) method in the FlowAPI class. For more information, see FlowAPI.
 
 
 ## Action outline
@@ -100,13 +100,13 @@ Use the Request category to configure how the action sends API requests. The Req
 
 -   **REST or SOAP step**
 
-    Send a REST or SOAP request to a third-party API. Select a data format to add an associated step to the Data Stream action. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md) and [SOAP step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/soap-step-action-designer.md).
+    Send a REST or SOAP request to a third-party API. Select a data format to add an associated step to the Data Stream action. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/rest-request-action-designer.md) and [SOAP step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/soap-step-action-designer.md).
 
     This is a mandatory Request component that runs on either the instance or a MID Server.
 
 -   **JDBC step**
 
-    Send a JDBC request to a third-party API. Use transform script to format data and add an associated step to the Data Stream action. For more information, see [JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jdbc-step.md) and [Test JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-jdbc-step.md). All data is retrieved and pagination is not needed.
+    Send a JDBC request to a third-party API. Use transform script to format data and add an associated step to the Data Stream action. For more information, see [JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/jdbc-step.md) and [Test JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/test-jdbc-step.md). All data is retrieved and pagination is not needed.
 
     This is a mandatory Request component that runs on a MID Server.
 
@@ -145,7 +145,7 @@ For more information about complex data, see [Complex data](https://raw.githubus
 
 You can automatically configure the splitter step, script parser step, and outputs for REST-based Data Stream actions. The Test REST step functionality in REST-based Data Stream actions executes a request to the configured REST endpoint, analyzes the response payload, and automatically sets up the parsing and output components.
 
-When a REST step is added to the Request section of a Data Stream action, you can use the REST step's **Test REST Step** button to [auto-generate the Parsing section and Outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/parsing-rest-data-stream.md). The Parsing section includes the splitter step and parser step. Auto-generating also puts complex object output in the Outputs section.
+When a REST step is added to the Request section of a Data Stream action, you can use the REST step's **Test REST Step** button to [auto-generate the Parsing section and Outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/parsing-rest-data-stream.md). The Parsing section includes the splitter step and parser step. Auto-generating also puts complex object output in the Outputs section.
 
 ## Transform script in JDBC step
 
@@ -211,20 +211,20 @@ View the configuration and runtime results for each item processed by a Data Str
 
 ## Execution details in JDBC step
 
-Construction of the output complex object schema isn't needed for the JDBC data stream action. You can test the query and see the query result. See [Test JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-jdbc-step.md) for more information. Configure the MID Server properties **mid.jdbc.datastream.max.record.size** and **mid.jdbc.datastream.fail.when.attachement.limit.exceeded** to retrieve data as per your requirement. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) for more information.
+Construction of the output complex object schema isn't needed for the JDBC data stream action. You can test the query and see the query result. See [Test JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/test-jdbc-step.md) for more information. Configure the MID Server properties **mid.jdbc.datastream.max.record.size** and **mid.jdbc.datastream.fail.when.attachement.limit.exceeded** to retrieve data as per your requirement. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) for more information.
 
--   **[Data Stream action design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-design.md)**  
+-   **[Data Stream action design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/data-stream-design.md)**  
 Follow these considerations when creating a Data Stream action and when adding a Data Stream action to a flow to prevent errors and performance issues.
--   **[MID Server support for Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/dsa-on-mid.md)**  
+-   **[MID Server support for Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/dsa-on-mid.md)**  
 Get data through a ServiceNow® MID Server when running a Data Stream action.
--   **[Create a Data Stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-data-stream-action.md)**  
+-   **[Create a Data Stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/create-data-stream-action.md)**  
 Create a reusable action to process a stream of response data within a flow.
--   **[Generate the Parsing phase for REST-based Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/parsing-rest-data-stream.md)**  
+-   **[Generate the Parsing phase for REST-based Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/parsing-rest-data-stream.md)**  
 Automatically configure the splitter step, script parser step, and outputs for REST-based Data Stream actions. The Test REST step functionality in REST-based Data Stream actions executes a request to the configured REST endpoint, analyzes the response payload, and automatically sets up the parsing and output components.
--   **[Test a Data Stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-data-stream-action.md)**  
+-   **[Test a Data Stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/test-data-stream-action.md)**  
 Test your Data Stream action to ensure that it works the way you expect before you add it to a flow.
--   **[Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/use-data-stream-in-flow.md)**  
+-   **[Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/use-data-stream-in-flow.md)**  
 Data Stream actions use the **For each** flow logic option to process stream data in a flow. For example, suppose that you want to use a Data Stream action that imports document data from a third-party site. When added to a flow, the action appears as a **For each** flow logic block, enabling flow designers to easily create a record in ServiceNow for each object in the data stream.
 
-**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/building-integrations-ih.md)
 

@@ -2,7 +2,7 @@
 title: Storing shapes or images to the database
 description: Upload the images to the database to configure them to show up in the diagrams page of the Enterprise Modeling and Visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-store-image-databse.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-store-image-databse.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,19 +30,19 @@ Every shape in Enterprise Modeling and Visualization is associated with an image
 
 3.  Fill in the details in the new image form.
 
-    For more details, see [Image form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-image-form.md).
+    For more details, see [Image form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-image-form.md).
 
 
-**Parent Topic:**[Working with custom shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-working-custom-shapes.md)
+**Parent Topic:**[Working with custom shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-custom-shapes.md)
 
 **Related topics**  
 
 
-[Create a diagram action for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-action-custom-shape.md)
+[Create a diagram action for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-action-custom-shape.md)
 
-[Add a custom shape library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-add-custom-shape-library.md)
+[Add a custom shape library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-add-custom-shape-library.md)
 
-[Add a shape library element for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-custom-shape-element.md)
+[Add a shape library element for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-custom-shape-element.md)
 
-[Custom shapes example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-custom-shape-example.md)
+[Custom shapes example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-custom-shape-example.md)
 

@@ -2,7 +2,7 @@
 title: Modify or update tag definitions for tag-based mapping
 description: You can change tag definitions that Service Mapping uses for tag-based mapping. Service Mapping uses updated tag definitions to create new tag-based services without applying tag-related changes to services you mapped earlier.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/modify-tag-category-family.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/modify-tag-category-family.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -18,15 +18,15 @@ You can change tag definitions that Service Mapping uses for tag-based mapping. 
 
 ## Before you begin
 
-If you need to create a new tag category or modify an existing tag category, follow the prerequisites in [Map application services using tags with classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/map-service-tag.md).
+If you need to create a new tag category or modify an existing tag category, follow the prerequisites in [Map application services using tags with classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/map-service-tag.md).
 
-Review recommendations in [Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prepare-map-service-tag.md).
+Review recommendations in [Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/prepare-map-service-tag.md).
 
 Role required: service\_mapping\_admin
 
 ## About this task
 
-**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
+**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
 
 You may decide to add or remove tag categories from a tag-based service family in the following cases:
 
@@ -69,9 +69,9 @@ Service Mapping generates new tag-based service candidates that you use to map s
 
 ## What to do next
 
-[Remap tag-based application services to reflect tag changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/remap-tag-based-services-tag-changes.md)
+[Remap tag-based application services to reflect tag changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/remap-tag-based-services-tag-changes.md)
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Microsoft Security Response Center Spoke
 description: Integrate the Microsoft Security Response Center API with your ServiceNow instance to investigate all reports of security vulnerabilities affecting the Microsoft products and services, and gather information to manage security risks and keep the system protected. Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/msrc-spoke-dec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/msrc-spoke-dec.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -55,7 +55,7 @@ The Microsoft Security Response Center spoke provides actions to automate tasks 
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -76,5 +76,5 @@ There might be AI agents installed on your instance that are not used in agentic
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Microsoft Security Response Center spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msrc-spk-dec.md).
+For information about setting up the spoke, see [Set up the Microsoft Security Response Center spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-msrc-spk-dec.md).
 

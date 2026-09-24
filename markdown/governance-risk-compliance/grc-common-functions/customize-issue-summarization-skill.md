@@ -2,7 +2,7 @@
 title: Customize the issue summarization skill in ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: If you have the admin role, you can customize the issue summarization skill so that users can use the generative AI skills in Risk Workspace and in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions

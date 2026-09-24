@@ -2,11 +2,11 @@
 title: Combined ServiceNow Otto for Workplace Service Delivery \(WSD\) release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for Workplace Service Delivery \(WSD\) from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforworkplaceservicedeliverywsd-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicenowottoforworkplaceservicedeliverywsd-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -114,6 +114,17 @@ Zurich
 Use the case summarization skill to summarize the case context and take appropriate action.
 
 
+ -   **[Optimize cleaning activities agentic workflow](https://www.servicenow.com/docs/access?context=optimize-cleaning-activities-agent&family=zurich&ft:locale=en-US)**
+
+Use the optimize cleaning activities agentic workflow to manage cleaning and maintenance schedules of a maintenance case based on the space utilization rate of the location where a maintenance case is created.
+
+-   **[Automate map updates agentic workflow](https://www.servicenow.com/docs/access?context=automate-map-updates-agent-ai&family=zurich&ft:locale=en-US)**
+
+Use the automate map updates agentic workflow to configure the map during bulk updates to Indoor Mapping.
+
+The map admin gent autonomously retrieves the sources for the CAD file and resumes the import task. If the correct source isn't found, the agent moves the task to the `Waiting user input` state.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -162,7 +173,12 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Now Assist &gt; ServiceNow Otto announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -175,7 +191,7 @@ Australia
 
 -   **[Now Assist &gt; ServiceNow Otto announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 </td></tr></tbody>
@@ -276,6 +292,8 @@ Yokohama
 Install ServiceNow Otto for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** ServiceNow Otto for WSD is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -287,6 +305,8 @@ Zurich
 Install ServiceNow Otto for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** ServiceNow Otto for WSD is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -297,6 +317,8 @@ Australia
 
 Install ServiceNow Otto for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for WSD is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -517,5 +539,5 @@ Australia Patch 5
  See [ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

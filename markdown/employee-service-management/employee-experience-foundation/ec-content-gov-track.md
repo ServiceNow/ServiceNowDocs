@@ -2,7 +2,7 @@
 title: Tracking content requests
 description: After a content request is submitted, Content Governance enables the content requester, content managers, and content admins to track the status of the request and associated content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-gov-track.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-content-gov-track.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ After a content request is submitted, Content Governance enables the content req
 
 After submitting a content request, the employee can track the status of the request by navigating to **My requests** and opening the content request. They can add a comment for the content manager, attach files, and review the details they submitted.\[Omitted image "content-gov-request-view.png"\] Alt text: The content requester can track the request status from the My Request tab
 
-The state field of a content request provides a quick status update to the requester and content team, as well as triggers system actions. For more information, see [Understanding content request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-track.md).
+The state field of a content request provides a quick status update to the requester and content team, as well as triggers system actions. For more information, see [Understanding content request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-gov-track.md).
 
 ## Tracking as a content manager or content admin
 
@@ -138,5 +138,5 @@ The content admin cancels the request.
 </td></tr></tbody>
 </table>**Note:** Content request items require content and publishing plan in order to change the state to **In Review**, **Ready to Publish**, and **Published**.
 
-For information on how to customize the approval process, see [Employee tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md).
+For information on how to customize the approval process, see [Employee tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md).
 

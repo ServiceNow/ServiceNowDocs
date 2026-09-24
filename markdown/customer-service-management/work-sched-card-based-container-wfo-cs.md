@@ -2,7 +2,7 @@
 title: Configure container components for Work scheduler
 description: Present information in an intuitive format using the Card Base Container component.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/work-sched-card-based-container-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/work-sched-card-based-container-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,5 +52,5 @@ For more information about the Card Base Container, see the [Components](https:/
 
 [Configure a Work scheduler card heading component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/work-sched-card-based-header.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-workscheduler-card-wfo-cs.md)
 

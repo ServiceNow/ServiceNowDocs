@@ -2,7 +2,7 @@
 title: Regenerate contract document after modifying request
 description: As a contract user or contract fulfiller, regenerate the contract document for self-served requests when the parent request has been modified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-regen-contract-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-regen-contract-doc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -20,7 +20,7 @@ As a contract user or contract fulfiller, regenerate the contract document for s
 
 When the parent request is modified, you can use the **Regenerate** option to generate a new contract document from the contract template with the latest metadata, signatories, and tables. You can regenerate a contract document only when the State is Draft or Work in progress.
 
-Any changes made to the signatory information in the contract request will be overwritten by the signatory information from the contract template. If the signatory information is incomplete or inconsistent after regeneration, you can manually update the signatories. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md).
+Any changes made to the signatory information in the contract request will be overwritten by the signatory information from the contract template. If the signatory information is incomplete or inconsistent after regeneration, you can manually update the signatories. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md).
 
 ## Before you begin
 

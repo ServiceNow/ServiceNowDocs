@@ -2,7 +2,7 @@
 title: HR AI voice agents
 description: Employees use HR Voice AI agents to perform HR-related tasks such as creating new cases, checking case status, and requesting time off, through real-time voice interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -22,7 +22,7 @@ HR AI voice agents use generative AI to deliver natural, dynamic conversations t
 
 HR AI Voice agents are managed through the AI Agent Studio, which provides tools for creating, deploying, and monitoring these agents. Each agent is associated with a voice service acting as a virtual HR help desk and can be configured with welcome messages, voice profiles, and fallback options like live agent routing or ticket creation. This setup enables efficient, AI-driven HR support for employees.
 
-To enable employee access and use of Voice AI agents, an admin must install the HR AI Voice Agents \[sn\_hr\_voice\_aia\] plugin and [Configure HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-voice-agents.md).
+To enable employee access and use of Voice AI agents, an admin must install the HR AI Voice Agents \[sn\_hr\_voice\_aia\] plugin and [Configure HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-voice-agents.md).
 
 ## HR AI voice agents
 
@@ -72,7 +72,7 @@ Navigation Assistant
 
 </td><td>
 
-Provides verbal, step-by-step guidance for HR self-service tasks based on ServiceNow® knowledge base articles. For more information, see [Navigation Assistant AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/navigation-assistant-ai-voice-agent.md)
+Provides verbal, step-by-step guidance for HR self-service tasks based on ServiceNow® knowledge base articles. For more information, see [Navigation Assistant AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/navigation-assistant-ai-voice-agent.md)
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Assists employees with tasks related to travel expenses, including submitting ex
 </table>**Related topics**  
 
 
-[Configure HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-voice-agents.md)
+[Configure HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-voice-agents.md)
 
 [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md)
 

@@ -2,7 +2,7 @@
 title: Artificial Intelligence Readiness Assessment
 description: The Artificial Intelligence \(AI\) Readiness Assessment Accelerator provides an assessment and guidance related to your readiness for adoption of ServiceNow Generative AI capabilities \(Now Assist\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

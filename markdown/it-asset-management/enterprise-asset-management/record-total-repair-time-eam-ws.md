@@ -2,7 +2,7 @@
 title: Record time worked on a repair task automatically in the Enterprise Asset Workspace
 description: Record the time that you took to complete a repair task without taking any break until you completed the task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/record-total-repair-time-eam-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/record-total-repair-time-eam-ws.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -68,7 +68,7 @@ You can record the time worked for Troubleshoot asset, Repair asset, and Evaluat
 
 The actual time you worked on the task completion is automatically calculated. An entry for the time worked is created in the Time Worked tab of the asset repair task.
 
-**Parent Topic:**[Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md)
+**Parent Topic:**[Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md)
 
 **Related topics**  
 

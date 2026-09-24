@@ -2,7 +2,7 @@
 title: Create a news article template
 description: Create a news article template to enable content authors to reuse the article layout to rapidly assemble news articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-create-news-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-create-news-template.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ Create a news article template to enable content authors to reuse the article la
 
 Role required: sn\_cd.content\_admin or sn\_cd.content\_template\_owner
 
-You can create a reusable article template from scratch or based on an existing news article: [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md)
+You can create a reusable article template from scratch or based on an existing news article: [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md)
 
 ## Procedure
 
@@ -43,5 +43,5 @@ You can create a reusable article template from scratch or based on an existing 
 
 ## What to do next
 
-Add the reusable article to a new or existing content template: [Create a Content template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-create-content-template.md)
+Add the reusable article to a new or existing content template: [Create a Content template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-create-content-template.md)
 

@@ -2,7 +2,7 @@
 title: Customize a guidance detail experience in the UI Builder
 description: Customize how your detail experience looks in the contextual side panel or in a subtab of the Recommended Actions card using UI Builder. The detail experience can include things such as user inputs and drill down actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-ra-detail-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customize-ra-detail-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

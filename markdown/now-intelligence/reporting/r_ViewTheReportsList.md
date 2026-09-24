@@ -2,7 +2,7 @@
 title: View the Reports list
 description: View a list of reports and create reports from the Reports list.You can show either all reports or only those reports marked as favorites. Reports can be marked favorite both automatically and manually.Report owners are not shown by default on the reports list, but you can add a column to show the user who created the report. Usually, the creator is the owner. The owner is also the person responsible for the process - the meaning of the data underlying the visualization.You can add parameters to the Reports list URL to filter the list before it loads.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/r\_ViewTheReportsList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/r\_ViewTheReportsList.html
 release: australia
 product: Reporting
 classification: reporting
@@ -18,7 +18,7 @@ View a list of reports and create reports from the Reports list.
 
 Standard platform Access Control Lists \(ACLs\) govern access to reports in the reports list. For information about the ACLs used to control access to reports, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
 
-**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience visualizations are found in the Platform Analytics library. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/explore-data-vis-library.md).
+**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience visualizations are found in the Platform Analytics library. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/explore-data-vis-library.md).
 
 You can sort and filter the search results using the standard report list controls, by selecting tabs, column headings, or the favorites icon \(\[Omitted image "ModuleStarSelect.png"\] Alt text: Module star select\).
 
@@ -46,7 +46,7 @@ If you have the report\_admin or admin roles, you also see these columns on the 
 |Scheduled|Indicates that the report is scheduled to run in the future. You can schedule regular emailing of reports.|
 |Published|If the report is published, this column shows a check mark \(\[Omitted image "True.png"\] Alt text: True\).|
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
 
 ## Viewing favorite reports
 
@@ -70,7 +70,7 @@ Report owners are not shown by default on the reports list, but you can add a co
 
 Role required: report\_admin
 
-**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/explore-data-vis-library.md).
+**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/explore-data-vis-library.md).
 
 ### Procedure
 
@@ -89,7 +89,7 @@ Role required: report\_admin
 
 You can add parameters to the Reports list URL to filter the list before it loads.
 
-**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/explore-data-vis-library.md).
+**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/explore-data-vis-library.md).
 
 ### Reports list URL structure
 

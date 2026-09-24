@@ -2,7 +2,7 @@
 title: Install Service Exchange for Public Sector Digital Services
 description: If you have the admin role, you can install the Service Bridge for PSDS \(sn\_sb\_psds\) application, which enables you to use Service Exchange for Providers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-config-install-prov.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-servicebridge-config-install-prov.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

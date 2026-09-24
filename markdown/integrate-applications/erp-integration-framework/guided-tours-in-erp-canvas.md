@@ -2,7 +2,7 @@
 title: Guided tours in Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP guided tours are interactive walkthroughs that show you how to use product features, such as configuring a connection or working with models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/guided-tours-in-erp-canvas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/guided-tours-in-erp-canvas.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

@@ -2,7 +2,7 @@
 title: Actions performed on duplicates
 description: Review the actions and their immediate results when performed on duplicate AI assets in the Review duplicates page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/action-performed-on-duplicate-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/action-performed-on-duplicate-assets.html
 release: australia
 topic_type: task
 last_updated: "2026-08-03"

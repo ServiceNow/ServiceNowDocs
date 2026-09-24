@@ -2,7 +2,7 @@
 title: Clone a lifecycle event
 description: Clone a lifecycle event and its associated activity sets and activities with the lifecycle event builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/clone-lifecycle-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/clone-lifecycle-event.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -33,5 +33,5 @@ Role required: sn\_hr\_le.admin
 
 ## What to do next
 
-After cloning a lifecycle event, you can filter lifecyle event activities. See, [Filter lifecycle event activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/filter-lifecycle-event-activities.md)
+After cloning a lifecycle event, you can filter lifecyle event activities. See, [Filter lifecycle event activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/filter-lifecycle-event-activities.md)
 

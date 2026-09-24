@@ -2,7 +2,7 @@
 title: Product Support for Technology release notes
 description: The ServiceNow Product Support for Technology helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Product Support for Technology was enhanced and updated in the Australia release.The ServiceNow Product Support for Technology helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Product Support for Technology was enhanced and updated in the Australia release.The ServiceNow Product Support for Technology helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Product Support for Technology was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/proactive-service-experience-workflows-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/proactive-service-experience-workflows-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ See [Product Support for Technology](https://raw.githubusercontent.com/ServiceNo
     Install Product Support for Technology and Proactive Service Experience Workflows by requesting them from the ServiceNow® Store.
 
 
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/technology-industry-rn-landing.md)
 
 ## July 2026
 

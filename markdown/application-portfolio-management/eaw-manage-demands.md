@@ -2,7 +2,7 @@
 title: Manage demands
 description: The structured process of capturing, evaluating, prioritizing, and tracking business demands—such as new applications, enhancements, or rationalization initiatives—across the application lifecycle. It ensures that IT investments align with strategic business goals and that resources are allocated efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-manage-demands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-manage-demands.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,10 +14,10 @@ breadcrumb: [Using business architecture, Working with Portfolio list view, Mana
 
 The structured process of capturing, evaluating, prioritizing, and tracking business demands—such as new applications, enhancements, or rationalization initiatives—across the application lifecycle. It ensures that IT investments align with strategic business goals and that resources are allocated efficiently.
 
--   **[View all demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-demands.md)**  
+-   **[View all demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-demands.md)**  
 You can create or edit a demand as a step to identify cost-saving opportunities on applications or capabilities, to meet the target.
--   **[Add or edit a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-demand-ba.md)**  
+-   **[Add or edit a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-demand-ba.md)**  
 You can create or edit a demand as a step to identify cost-saving opportunities on applications or capabilities, to meet a target.
 
-**Parent Topic:**[Using business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-business-architecture.md)
+**Parent Topic:**[Using business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-using-business-architecture.md)
 

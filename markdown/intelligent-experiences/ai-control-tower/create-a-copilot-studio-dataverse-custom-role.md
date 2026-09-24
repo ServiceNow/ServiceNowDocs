@@ -2,7 +2,7 @@
 title: Create a Copilot Studio Dataverse custom role
 description: Create a Copilot Studio Dataverse custom role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-a-copilot-studio-dataverse-custom-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-a-copilot-studio-dataverse-custom-role.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

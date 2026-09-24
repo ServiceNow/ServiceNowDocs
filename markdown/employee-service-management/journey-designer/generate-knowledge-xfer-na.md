@@ -2,7 +2,7 @@
 title: Generate offboarding knowledge transfer plans using ServiceNow Otto
 description: Managers working for organizations using the offboarding knowledge transfer plan generation agentic workflow can use to initiate a knowledge transfer request for departing employees. Once the manager confirms the request, an AI agent automatically discovers and categorizes the employee's documents into a structured knowledge transfer summary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/generate-knowledge-xfer-na.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/generate-knowledge-xfer-na.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -36,11 +36,11 @@ In the journey configuration for which you want to enable agentic offboarding, t
 
 The configuration tasks in the following topics must be completed:
 
--   [Add Employee Center to the ServiceNow Otto display experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/enable-na-va-ec.md)
--   [Configure the AI agent triggers for offboarding to use Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/config-offboarding-trigger-ec.md)
--   [Activate the Offboarding knowledge transfer trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/activate-trigger-offboarding-kt.md)
--   [Activate the Knowledge transfer record created trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/activate-trigger-kt-record-created.md)
--   [Activate the AI skill for offboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/activate-na-skills-offboarding.md)
+-   [Add Employee Center to the ServiceNow Otto display experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/enable-na-va-ec.md)
+-   [Configure the AI agent triggers for offboarding to use Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/config-offboarding-trigger-ec.md)
+-   [Activate the Offboarding knowledge transfer trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/activate-trigger-offboarding-kt.md)
+-   [Activate the Knowledge transfer record created trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/activate-trigger-kt-record-created.md)
+-   [Activate the AI skill for offboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/activate-na-skills-offboarding.md)
 
 Role required: manager
 
@@ -85,7 +85,7 @@ The knowledge transfer request is completed. The AI agent discovers and categori
 
 ## What to do next
 
-The departing employee must review and approve the knowledge transfer summary before it’s shared with the manager. For more information about this process, see [Review offboarding knowledge transfer summaries using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/review-knowledge-xfer-na.md).
+The departing employee must review and approve the knowledge transfer summary before it’s shared with the manager. For more information about this process, see [Review offboarding knowledge transfer summaries using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/review-knowledge-xfer-na.md).
 
-**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
+**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

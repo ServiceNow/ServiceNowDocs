@@ -2,7 +2,7 @@
 title: Enable WS-Security for outbound SOAP
 description: You can sign outbound SOAP messages using username and password or a key store and trusted server certificate saved on the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_WebServiceSecurity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_WebServiceSecurity.html
 release: australia
 product: Web Services
 classification: web-services
@@ -43,10 +43,10 @@ Role required: admin
     Credentials from the selected profile are sent as part of the SOAP message header.
 
 
-**Parent Topic:**[Outbound SOAP security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundSOAPSecurity.md)
+**Parent Topic:**[Outbound SOAP security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_OutboundSOAPSecurity.md)
 
 **Related topics**  
 
 
-[Create a new WS-Security profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CreateANewWS-SecurityProfile.md)
+[Create a new WS-Security profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_CreateANewWS-SecurityProfile.md)
 

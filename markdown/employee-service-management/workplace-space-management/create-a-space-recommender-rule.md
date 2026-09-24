@@ -2,7 +2,7 @@
 title: Create a Space Recommender rule
 description: Define a space recommender rule using which the qualifying spaces must be calculated when a user raises a space assistance request using Workplace Service Portal. You must have Workplace Central plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/create-a-space-recommender-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/create-a-space-recommender-rule.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -140,14 +140,14 @@ The Space recommender rule is created.
 
 ## What to do next
 
-[Add space recommender rules to a space recommender rule set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-rules-to-space-recommender-rule-set.md)
+[Add space recommender rules to a space recommender rule set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-rules-to-space-recommender-rule-set.md)
 
--   **[Configure a Space Recommender Rule set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/configure-space-recommender-rule-sets.md)**  
+-   **[Configure a Space Recommender Rule set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/configure-space-recommender-rule-sets.md)**  
 Create a space recommender rule set consisting multiple rules. The rule set calculates the qualifying spaces when a user submits a space assistance request using the Workplace Service Portal. You must have Workplace Central plugin.
--   **[Add space recommender rules to a space recommender rule set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-rules-to-space-recommender-rule-set.md)**  
+-   **[Add space recommender rules to a space recommender rule set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-rules-to-space-recommender-rule-set.md)**  
 Add rules to a space recommender rule set based on which qualifying spaces must be calculated when a space assistance request is raised using the Workplace Service Portal. A rule set is a collection of rules.
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

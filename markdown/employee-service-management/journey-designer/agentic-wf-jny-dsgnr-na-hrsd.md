@@ -2,7 +2,7 @@
 title: AI in Journey designer
 description: Use agentic workflows and ServiceNow Otto for HRSD to facilitate and manage employee journeys throughout the different stages of the employee's career. These workflows, powered by a single or team of AI agents, help your organization by automating procedures for managers while simultaneously curating custom experiences for employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/agentic-wf-jny-dsgnr-na-hrsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/agentic-wf-jny-dsgnr-na-hrsd.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Generate onboarding ramp-up plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
+[Generate onboarding ramp-up plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
 
 </td><td>
 
@@ -65,10 +65,10 @@ For more information about duplicating an agentic workflow and activating the re
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
--   **[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)**  
+-   **[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)**  
 The Generate onboarding ramp-up plan agentic workflow is an AI-powered solution that helps managers at your organization onboard new employees more efficiently. This workflow uses a team of AI agents to generate team specific and personalized plans for every new hire.
--   **[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)**  
+-   **[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)**  
 The agentic workflow uses AI agents to identify, categorize, and transfer knowledge from departing employees to their managers and team.
 
-**Parent Topic:**[Using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/using-jny-dsnr.md)
+**Parent Topic:**[Using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/using-jny-dsnr.md)
 

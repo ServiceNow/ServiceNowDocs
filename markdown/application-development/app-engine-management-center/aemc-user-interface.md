@@ -2,7 +2,7 @@
 title: App Engine Management Center user interface
 description: Learn about the App Engine Management Center user interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/aemc-user-interface.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/aemc-user-interface.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center

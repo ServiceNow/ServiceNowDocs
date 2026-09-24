@@ -2,7 +2,7 @@
 title: Components installed with Patient Support Services
 description: Several types of components are installed with installation of the Patient Support Services application, including tables, user roles, ServiceNow Store applications, and business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-components-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-components-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -96,7 +96,7 @@ sn\_patientservice.agent\_connector
 
 Views, creates, and updates enrollment cases for all associated objects.
 
- You can combine this role with other roles for a user with the agent connector profile. For more information, see [Determining additional user profiles in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-connector-contributor.md).
+ You can combine this role with other roles for a user with the agent connector profile. For more information, see [Determining additional user profiles in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-connector-contributor.md).
 
 </td><td>
 
@@ -135,7 +135,7 @@ sn\_patientservice.contributor
 
 Creates enrollment cases for patients.
 
- You can combine this role with other roles for a user with the contributor profile. For more information, see [Determining additional user profiles in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-connector-contributor.md).
+ You can combine this role with other roles for a user with the contributor profile. For more information, see [Determining additional user profiles in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-connector-contributor.md).
 
 </td><td>
 

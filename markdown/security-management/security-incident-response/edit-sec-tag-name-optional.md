@@ -2,7 +2,7 @@
 title: Edit the security tag name for the Check Point NGTP integration
 description: If the Display tag check box is selected when you create the Block List record, you can edit the tag names and colors of the security tags. Security tags help you track observables that are already blocked.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/edit-sec-tag-name-optional.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/edit-sec-tag-name-optional.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

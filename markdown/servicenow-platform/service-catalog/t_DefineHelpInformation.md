@@ -2,7 +2,7 @@
 title: Define help information for a service catalog variable
 description: Enter help information for a variable to help users determine what info they must provide for a service catalog variable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_DefineHelpInformation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_DefineHelpInformation.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -43,7 +43,7 @@ Role required: admin
     \[Omitted image "DefineHelpInfoG.png"\] Alt text: screenshot for help text
 
 
-**Parent Topic:**[Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md)
+**Parent Topic:**[Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md)
 
 **Related topics**  
 

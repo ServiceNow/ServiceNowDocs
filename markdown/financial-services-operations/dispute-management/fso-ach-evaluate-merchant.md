@@ -2,7 +2,7 @@
 title: Evaluate merchant analysis
 description: Evaluate a merchant's credibility to determine whether the transaction is legitimate or potentially fraudulent before deciding on a resolution. When the ACH disputes AI agent workflow is enabled, an AI agent can perform this analysis automatically based on merchant reviews and past dispute history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-evaluate-merchant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/fso-ach-evaluate-merchant.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -70,7 +70,7 @@ Ensure that your assignment logic, such as Advanced Work Assignment \(AWA\), is 
 
 ## Result
 
-The **Final action** field is updated as **Credible** or **Not credible**. The task navigates to the next task, [Evaluate Nacha operating guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.md).
+The **Final action** field is updated as **Credible** or **Not credible**. The task navigates to the next task, [Evaluate Nacha operating guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.md).
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/process-dispute-ach.md)
 

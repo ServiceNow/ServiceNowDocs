@@ -2,7 +2,7 @@
 title: Automating Insurance claims processes by using decision tables
 description: You can apply the decision table rules and subflow or flow that executes the decision table to automate claims processes in the Insurance claims application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/automating-other-claim-processes-using-decision-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/automating-other-claim-processes-using-decision-tables.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -27,14 +27,14 @@ You can create and add input parameters to the Insurance claims automation rules
 
 If you add new input parameters, you can also add or modify the corresponding subflows. This adjustment ensures that the subflow properly passes the new parameters to the decision table, which allows it to function correctly with the updated logic.
 
-You can modify the included decision table in the Insurance claims application so that you can define how claims are triaged in your workflow. For more information, see [Use claim automation decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/update-insurance-claims-automation-using-decision-tables.md).
+You can modify the included decision table in the Insurance claims application so that you can define how claims are triaged in your workflow. For more information, see [Use claim automation decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/update-insurance-claims-automation-using-decision-tables.md).
 
 **Related topics**  
 
 
 [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md)
 
-[Configure flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-flow-designer-flows-fso-apps.md)
+[Configure flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-flow-designer-flows-fso-apps.md)
 
-[Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/flow-designer-flows-fso-apps.md)
+[Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/flow-designer-flows-fso-apps.md)
 

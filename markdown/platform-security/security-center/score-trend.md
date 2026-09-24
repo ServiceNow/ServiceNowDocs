@@ -2,7 +2,7 @@
 title: Hardening compliance score trend
 description: View the trends of your hardening compliance score over time in a chart or table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/score-trend.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/score-trend.html
 release: australia
 product: Security Center
 classification: security-center
@@ -79,8 +79,8 @@ Use the **Chart options** button to specify what information to analyze and how 
 
 The All Records table displays the date on which the compliance scores were collected, the score percentages, and the number of non-compliant settings. You can use this table as another option to analyze the security posture of your instance over time.
 
--   **[Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/increase-hardening-comp-score.md)**  
+-   **[Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/increase-hardening-comp-score.md)**  
 Increase your hardening compliance score by ensuring that the hardening settings are compliant with the system's recommendations.
 
-**Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-hardening.md)
+**Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-hardening.md)
 

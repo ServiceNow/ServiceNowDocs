@@ -2,7 +2,7 @@
 title: g\_modal \(Next Experience\) - Client
 description: The g\_modal API enables you to display a modal window to enhance application functionality.Displays an alert message relating to a UI action.Displays a confirm message relating to a UI action.Displays a confirm message related to a UI action, with the confirm button displaying a destructive style.Displays a modal that uses passed HTML to generate the content within the modal.Displays a modal window that contains the specified fields and an OK and Cancel buttons by default.Displays a modal that uses a link to an external URL or UI page for its content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/g\_modalClientAPINX.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/g\_modalClientAPINX.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -26,7 +26,7 @@ Using this API you can:
 -   Load a component.
 -   Use HTML to populate the contents of a modal.
 
-**Parent Topic:**[Client Next Experience API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client-next.md)
+**Parent Topic:**[Client Next Experience API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client-next.md)
 
 ## g\_modal \(Next Experience\) - alert\(String title, String message, Function callback, style Object\)
 

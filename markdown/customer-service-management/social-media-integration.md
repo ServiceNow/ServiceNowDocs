@@ -2,7 +2,7 @@
 title: Social media communication channel
 description: Use the social media communication channel to associate social profiles and social media conversations with cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/social-media-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/social-media-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

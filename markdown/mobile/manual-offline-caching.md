@@ -2,7 +2,7 @@
 title: Manual offline caching
 description: Users can manually download or refresh the offline cache at any time. This option gives users control over when their device data is updated, before working without connectivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/manual-offline-caching.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/manual-offline-caching.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-08"
@@ -57,5 +57,5 @@ Once an offline cache already exists, the Update Cache option allows users to re
 \[Omitted image "mobile-offline-cache-button.png"\] Alt text: Option to update cache or to clear cache
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure offline cache downloads to user devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-cache.md)
+</table>**Parent Topic:**[Configure offline cache downloads to user devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-cache.md)
 

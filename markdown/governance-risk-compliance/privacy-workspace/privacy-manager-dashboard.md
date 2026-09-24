@@ -2,7 +2,7 @@
 title: Privacy Management home page
 description: The Privacy Management home page provides an overview of the complete privacy risk and compliance posture with details, such as the processing activity criticality score, privacy risk assessment status, privacy impact assessment status, control attestations, issues-specific status, and privacy cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-manager-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/privacy-manager-dashboard.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -151,5 +151,5 @@ Control assurance status across three areas.-   Attestations: Number of open and
 |Opened and closed cases in last 12 months|\[Omitted image "inline-data-vis-96px-line.png"\] Alt text: Data visualization line type - large|Trend of opened and closed cases over the last 12 months.|
 |Issues|\[Omitted image "inline-data-vis-96px-pie.png"\] Alt text: Data visualization pie type - large|Number of issues by priority, with counts for open, overdue, and due in 7 days.|
 
-**Parent Topic:**[Reporting for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/reporting-prm.md)
+**Parent Topic:**[Reporting for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/reporting-prm.md)
 

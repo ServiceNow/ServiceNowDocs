@@ -2,7 +2,7 @@
 title: Update personal records with the AI assistant
 description: Update personal records such as home address and emergency contact in one conversation with the AI assistant. You don't log in to a separate HR system or file a ticket.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-update-hr-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-update-hr-records.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,7 +28,7 @@ Role required: Employee
 
 ## About this task
 
-The AI assistant uses the reasoning engine to identify the records that must change. It collects the inputs in the conversation and confirms before it updates the system of record. For background, see [AI assistant reasoning engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
+The AI assistant uses the reasoning engine to identify the records that must change. It collects the inputs in the conversation and confirms before it updates the system of record. For background, see [AI assistant reasoning engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
 
 ## Procedure
 

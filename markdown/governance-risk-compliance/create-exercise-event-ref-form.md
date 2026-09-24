@@ -2,7 +2,7 @@
 title: Create Exercise Event form
 description: Use the Create Exercise Event form in BCM UIB Workspace to add details about an Exercise event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-exercise-event-ref-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-exercise-event-ref-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -314,7 +314,7 @@ Collaborations
 
 </td><td>
 
-Collaboration threads related to an event. Includes action items, email notifications and email attachments. For more information, see[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
+Collaboration threads related to an event. Includes action items, email notifications and email attachments. For more information, see[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -329,5 +329,5 @@ Event tasks associated with the event
 Information on the event tasks such as Number, Short description, State, Impacted assets, Assigned to, Dependencies, Actual start, Actual end, Related activated plan, Similar tasks group, Phase.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/start-exercise-event-in-uib-ws.md)
+</table>**Parent Topic:**[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/start-exercise-event-in-uib-ws.md)
 

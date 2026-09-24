@@ -2,7 +2,7 @@
 title: Use generative AI skills in ServiceNow Otto for Vault
 description: The ServiceNow Otto for Vault application includes the generative AI skills and features that enable you to streamline your administrative workload.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/using-now-assist-vault.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/using-now-assist-vault.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,12 +22,12 @@ After you activate skills, they appear in the ServiceNow Otto panel in ServiceNo
 
 By default, all skills exist in the global domain. When you use AI in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, AI only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
 
--   **[Generate a custom data pattern by using ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/generate-custom-data-pattern-now-assist-vault.md)**  
+-   **[Generate a custom data pattern by using ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/generate-custom-data-pattern-now-assist-vault.md)**  
 Use the generate custom data pattern skill to create a custom regular expression data pattern from your description and add it as an active data pattern to your instance.
--   **[Check role access for an encrypted column with ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/check-role-access-now-assist-vault.md)**  
+-   **[Check role access for an encrypted column with ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/check-role-access-now-assist-vault.md)**  
 Use the check role access for encrypted column skill to identify user roles that have access to encryption and decryption keys in your instance.
--   **[Schedule a Data Discovery job with ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-data-discovery-job-now-assist-vault.md)**  
+-   **[Schedule a Data Discovery job with ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/schedule-data-discovery-job-now-assist-vault.md)**  
 Use the schedule data discovery job skill to schedule one-time or recurring Data Discovery jobs with ServiceNow Otto for Vault. Data Discovery jobs can detect sensitive data such as PII or PHI provided as input to the Azure OpenAI model.
 
-**Parent Topic:**[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-vault-landing.md)
+**Parent Topic:**[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/servicenow-vault-landing.md)
 

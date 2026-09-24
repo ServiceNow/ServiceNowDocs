@@ -2,7 +2,7 @@
 title: Fix automation issues with Code quality check in RPA Desktop Design Studio
 description: Fix the automation issues in your automation activity or complete an automation project proactively by using the Code quality check feature in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-cqc-rpa-stduio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-cqc-rpa-stduio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Fix the automation issues in your automation activity or complete an automation 
 
 ## Before you begin
 
-Connect to the RPA Hub instance that has the Code quality check feature enabled. For more information on how to connect to an RPA Hub instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-studio-instance-rpa.md).
+Connect to the RPA Hub instance that has the Code quality check feature enabled. For more information on how to connect to an RPA Hub instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connect-studio-instance-rpa.md).
 
 Role required: RPA Developer
 
@@ -28,7 +28,7 @@ Role required: RPA Developer
 
     \[Omitted image "cqc-options.png"\] Alt text: Options for Code Quality Check in RPA Desktop Design Studio.
 
-    **Note:** If you aren't connected to an instance and you select the **Code quality check** option, the Connection Manager window is displayed. For more information on how to connect to an RPA Hub instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-studio-instance-rpa.md).
+    **Note:** If you aren't connected to an instance and you select the **Code quality check** option, the Connection Manager window is displayed. For more information on how to connect to an RPA Hub instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connect-studio-instance-rpa.md).
 
 2.  Do Code quality check for the following options.
 
@@ -43,7 +43,7 @@ Role required: RPA Developer
 
 3.  In the Code Quality Check Results window, view the issue results and their details as a list.
 
-    The results are classified as error, warning, and information based on the severity that is set by the RPA administrator or release manager. You can filter the results by the severity level by selecting the **All** button. The **Name** field indicates the type of issue that is based on the code quality rules configured in RPA Hub. For more information on the list of code quality rules, see [Code quality rules list in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cqr-list-rpa.md).
+    The results are classified as error, warning, and information based on the severity that is set by the RPA administrator or release manager. You can filter the results by the severity level by selecting the **All** button. The **Name** field indicates the type of issue that is based on the code quality rules configured in RPA Hub. For more information on the list of code quality rules, see [Code quality rules list in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/cqr-list-rpa.md).
 
     \[Omitted image "cqc-results.png"\] Alt text: Code Quality Check Results window
 
@@ -62,7 +62,7 @@ Role required: RPA Developer
 
 ## What to do next
 
-The automation project is ready to be published. Code quality check is also performed automatically when you publish a project. For more information on how to publish a project, see [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-automation-project.md).
+The automation project is ready to be published. Code quality check is also performed automatically when you publish a project. For more information on how to publish a project, see [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/publish-automation-project.md).
 
-**Parent Topic:**[Code quality check in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-studio.md)
+**Parent Topic:**[Code quality check in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/code-quality-check-studio.md)
 

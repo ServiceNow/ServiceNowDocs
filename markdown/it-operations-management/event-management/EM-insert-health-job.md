@@ -2,7 +2,7 @@
 title: Configure the Event Management - Insert Health Monitor scheduled job
 description: Determine what the Event Management - Insert Health Monitor scheduled job is to monitor. After the job runs, you can view the ServiceNow Event Management application services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/EM-insert-health-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/EM-insert-health-job.html
 release: australia
 product: Event Management
 classification: event-management
@@ -33,5 +33,5 @@ Role required: evt\_mgmt\_admin
 3.  Modify the scripts indicated in the **Run this script** field to determine what the scripts are to monitor.
 
 
-**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/self-monitoring.md)
+**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/self-monitoring.md)
 

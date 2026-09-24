@@ -2,7 +2,7 @@
 title: Configuring knowledge bases to enable guest users to read knowledge articles from the Source-to-Pay Workspace
 description: Configure knowledge bases so that guest users can read the created knowledge articles from the Source-to-Pay Workspace.To enable guest users to read a knowledge article, add them to the Can Read list of the corresponding knowledge base in the Source-to-Pay Workspace.You can publish a knowledge article from the from the Source-to-Pay Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/configuring-kb-publish.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/configuring-kb-publish.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -16,7 +16,7 @@ breadcrumb: [Configure, Workspace, Source-to-Pay Operations, Finance and Supply 
 
 Configure knowledge bases so that guest users can read the created knowledge articles from the Source-to-Pay Workspace.
 
-**Parent Topic:**[Configure Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/configuring-source-to-pay-ws.md)
+**Parent Topic:**[Configure Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/configuring-source-to-pay-ws.md)
 
 ## Publish knowledge articles to enable guest users to read them from the Source-to-Pay Workspace
 

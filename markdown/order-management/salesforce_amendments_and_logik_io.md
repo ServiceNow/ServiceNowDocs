@@ -2,7 +2,7 @@
 title: Salesforce amendments and CPQ
 description: A brief look at the CPQ amendments feature, which adds and updates fields in existing objects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/salesforce\_amendments\_and\_logik\_io.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/salesforce\_amendments\_and\_logik\_io.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

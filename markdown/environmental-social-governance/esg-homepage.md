@@ -2,7 +2,7 @@
 title: Operational Sustainability Workspace \(formerly ESG Workspace\)
 description: The Operational Sustainability Workspace is a simplified user interface designed for different users to perform their respective tasks. The home page of the Operational Sustainability Workspace displays various quick actions and reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/esg-homepage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/esg-homepage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -121,5 +121,5 @@ You can view material topics in one of the following formats:
 
 You can use the ability to search the Operational Sustainability Workspace by using the Search field. To search the Operational Sustainability Workspace, select **Operational Sustainability Workspace** from the list. The search results appear on the contextual side panel.
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-new-explore.md)
 

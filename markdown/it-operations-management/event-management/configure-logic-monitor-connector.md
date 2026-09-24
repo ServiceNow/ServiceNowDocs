@@ -2,7 +2,7 @@
 title: Configure event collection from Logicmonitor
 description: The Logicmonitor pull connector sends information from Event Management to Logicmonitor. It sends responses received from a Push connector in a bi-directional environment to Logicmonitor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-logic-monitor-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configure-logic-monitor-connector.html
 release: australia
 product: Event Management
 classification: event-management
@@ -56,5 +56,5 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) rules provided wit
     The LogicMonitor pull connector does not retrieve events or populate the Events \[em\_event\] table.
 
 
-**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

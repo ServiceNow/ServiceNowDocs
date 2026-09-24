@@ -2,7 +2,7 @@
 title: Using the activity stream in an email interaction
 description: View an email conversation between an agent and a customer in the activity stream of the email interaction. The activity stream enables agents to communicate with customers and make internal notes about the work done on an interaction. The activity stream updates when an email is sent or received, or when a work note is posted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-activity-stream-in-an-email-interaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-activity-stream-in-an-email-interaction.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ View emails, work notes, and field changes associated with the email interaction
 
 The activity in the interaction shows emails and work notes by default.
 
- **Note:** In the activity stream, each email response displays only the latest message in the conversation. To view entire email thread, enable the Email Show Full Conversation property using UI Builder. For more information, see [Customize showing a full conversation in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-show-full-conversation.md).
+ **Note:** In the activity stream, each email response displays only the latest message in the conversation. To view entire email thread, enable the Email Show Full Conversation property using UI Builder. For more information, see [Customize showing a full conversation in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customize-show-full-conversation.md).
 
 </td></tr><tr><td>
 

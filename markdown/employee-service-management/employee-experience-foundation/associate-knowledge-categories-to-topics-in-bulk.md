@@ -2,7 +2,7 @@
 title: Associate content categories to topics
 description: Associate content from multiple content categories to a topic in the taxonomy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/associate-knowledge-categories-to-topics-in-bulk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/associate-knowledge-categories-to-topics-in-bulk.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -49,12 +49,12 @@ User criteria required: Taxonomy Manager.
 
 ## What to do next
 
-For more information, see [Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/track-new-content.md).
+For more information, see [Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/track-new-content.md).
 
 **Related topics**  
 
 
-[Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/track-new-content.md)
+[Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/track-new-content.md)
 
 [Define a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefineAKnowledgeCategory.md)
 

@@ -2,7 +2,7 @@
 title: Test a parser configuration with a sample payload
 description: Run a parser configuration against a sample HL7 v2.x message to confirm that it extracts the segments and fields you expect before you use it in a workflow. The parsed values appear on the configuration's field maps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-parse-sample-payload.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-parse-sample-payload.html
 release: australia
 topic_type: task
 last_updated: "2026-06-16"

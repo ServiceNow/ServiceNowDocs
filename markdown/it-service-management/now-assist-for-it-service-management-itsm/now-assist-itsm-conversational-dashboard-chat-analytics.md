@@ -2,7 +2,7 @@
 title: ITSM Virtual Agent chat analytics
 description: Track closed chats, user engagement patterns, and abandonment rates to measure demand and identify opportunities to improve ITSM Virtual Agent effectiveness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-chat-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-chat-analytics.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

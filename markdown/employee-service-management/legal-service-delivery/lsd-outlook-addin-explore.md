@@ -2,7 +2,7 @@
 title: Explore Microsoft Outlook Add-In for Legal Service Delivery
 description: Learn more about Microsoft Outlook Add-In for Legal Service Delivery through a sample workflow and review the benefits it can provide.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-outlook-addin-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-explore.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -69,7 +69,7 @@ Submit, view, search and manage legal request and matter
 
 To learn more about configuring and using , see:
 
--   [Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
--   [Use Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-use.md)
--   [Microsoft Outlook Add-In for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-refrence.md)
+-   [Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
+-   [Use Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-use.md)
+-   [Microsoft Outlook Add-In for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-refrence.md)
 

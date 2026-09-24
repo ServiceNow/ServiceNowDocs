@@ -2,7 +2,7 @@
 title: Case states
 description: A customer service case can be in one of several states as the agent gathers information and works toward a resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_CustomerServiceCaseStates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r\_CustomerServiceCaseStates.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

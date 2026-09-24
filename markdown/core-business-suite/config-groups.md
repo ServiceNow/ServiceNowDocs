@@ -2,7 +2,7 @@
 title: Configure groups and roles
 description: Configure groups and roles for Core Business Suite business units through the Now Assist conversational experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/config-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/config-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-22"
@@ -18,8 +18,8 @@ Configure groups and roles for Core Business Suite business units through the No
 
 Ensure that the following are activated:
 
--   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)\)
--   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
+-   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/activate-ai-search.md)\)
+-   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/enable-now-assist-panel.md)\)
 
 Role required: admin
 
@@ -70,5 +70,5 @@ Role required: admin
     Now Assist completes the action and displays a success message.
 
 
-**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
+**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/now-assist-cbs.md)
 

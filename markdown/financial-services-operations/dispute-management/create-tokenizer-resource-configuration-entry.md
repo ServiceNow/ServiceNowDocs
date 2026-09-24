@@ -2,7 +2,7 @@
 title: Create a tokenizer resource configuration entry
 description: If you create a new HTTP method for a REST Message entry, you need to create an entry in the tokenizer resource configuration entry table. This maps the REST message function to the tokenization service endpoint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/create-tokenizer-resource-configuration-entry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/create-tokenizer-resource-configuration-entry.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -39,5 +39,5 @@ Role required: admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Manage Tokenizer Resource Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-tokenizer-resource-configurations.md)
+**Parent Topic:**[Manage Tokenizer Resource Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/manage-tokenizer-resource-configurations.md)
 

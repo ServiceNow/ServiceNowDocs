@@ -2,7 +2,7 @@
 title: View quotes from the Business Portal
 description: View quotes generated for your account directly from the Business Portal. The list includes quotes generated from requests for quotes \(RFQs\) submitted by you and quotes created offline by a sales agent via the CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/view-quotes-business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-quotes-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Role required: sn\_customerservice.customer
     |Quote date|Date on which the quote was created.|
     |Expiration date|Date on which the validity of the quote ends.|
     |Term \(months\)|Duration of the contract or subscription expressed in months.|
-    |State|Status of the quote. For more information, see [Request for quote \(RFQ\) states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rfq-states.md).|
+    |State|Status of the quote. For more information, see [Request for quote \(RFQ\) states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/rfq-states.md).|
     |Contract start date|Date when the contract becomes effective.|
     |Contract end date|Date when the contract ends.|
     |Total one-time price|Aggregate of all one-time charges across quote lines.|
@@ -45,12 +45,12 @@ Role required: sn\_customerservice.customer
 3.  Select a quote record number to view its details.
 
 
-**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rfq-business-portal.md)
+**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/rfq-business-portal.md)
 
 **Related topics**  
 
 
-[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-management-configure-business-portal.md)
 
-[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-self-service-business-portal.md)
 

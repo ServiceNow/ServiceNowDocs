@@ -2,7 +2,7 @@
 title: Assign ownership to a portal page
 description: Assign ownership of a portal page to give a user or group with the content manager \(sn\_cd.content\_manager\) role exclusive content publishing ability for the Content Publishing widgets in that page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-portal-page-restriction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ecpro-portal-page-restriction.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ Assign ownership of a portal page to give a user or group with the content manag
 
 Role required: sn\_cd.content\_admin
 
-Ensure **Yes** is checked under **Allow Ownership for Portal Pages** under Content Publishing or Content Experiences properties. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md) and [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
+Ensure **Yes** is checked under **Allow Ownership for Portal Pages** under Content Publishing or Content Experiences properties. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md) and [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
 ## Procedure
 

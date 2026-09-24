@@ -2,7 +2,7 @@
 title: End a conference call
 description: As a host or a user with the incident manager role, you can end the conference call.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/end-inc-task-call-itsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/end-inc-task-call-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

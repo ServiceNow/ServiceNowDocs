@@ -2,7 +2,7 @@
 title: Data migration in TISC
 description: Data migration is a process when you move all your data from a classic UI to TISC.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-data-migration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-data-migration.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

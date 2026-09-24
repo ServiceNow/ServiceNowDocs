@@ -2,7 +2,7 @@
 title: Publish an application to an Update Set
 description: Publishing an application creates an update set containing the current version of all application configuration records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/t\_PublishApplicationsToAnUpdateSet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/t\_PublishApplicationsToAnUpdateSet.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -100,16 +100,16 @@ See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/au
 8.  Run any fix scripts that are included in the application.
 
 
-**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md)
+**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_SharingApplications.md)
 
 **Related topics**  
 
 
-[Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md)
+[Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/t_RetrieveAnUpdateSet.md)
 
-[Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)
+[Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)
 
-[Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RunFixScripts.md)
+[Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/t_RunFixScripts.md)
 
-[Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
+[Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
 

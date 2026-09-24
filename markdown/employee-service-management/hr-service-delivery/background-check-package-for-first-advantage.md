@@ -2,7 +2,7 @@
 title: Add background check packages for the First Advantage
 description: Add one or more background check packages to your instance so they can be accessed when a request for a background check by First Advantage is made. For example, you can add a package for a background check only and a package for both a background check and drug screening.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/background-check-package-for-first-advantage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/background-check-package-for-first-advantage.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -48,14 +48,14 @@ Role required: sn\_hr\_integrations.admin
 
 .
 
-**Parent Topic:**[Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
+**Parent Topic:**[Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
 
-**Previous topic:**[Verify integration for the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/verify-base-inbound-integration-for-first-advantage.md)
+**Previous topic:**[Verify integration for the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/verify-base-inbound-integration-for-first-advantage.md)
 
-**Next topic:**[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
+**Next topic:**[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
 
 **Related topics**  
 
 
-[Provide source credentials for the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-sources-first-advantage.md)
+[Provide source credentials for the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-integrations-sources-first-advantage.md)
 

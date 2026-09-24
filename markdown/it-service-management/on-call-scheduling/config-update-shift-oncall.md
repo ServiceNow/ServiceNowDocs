@@ -2,7 +2,7 @@
 title: Configure or update an On-Call shift
 description: You can add extra coverage, specify extra times for when a shift is active, and schedule time off.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/config-update-shift-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/config-update-shift-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -44,7 +44,7 @@ You can update the calendar only for the time zone specified in your user profil
 
 5.  Select an **Action**, as appropriate.
 
-<table id="choicetable_cvj_ztc_55"><tbody><tr><td id="d224976e137">
+<table id="choicetable_cvj_ztc_55"><tbody><tr><td id="d224955e137">
 
 **Provide coverage**
 
@@ -56,7 +56,7 @@ Select details of the member who will provide on-call coverage for another roste
 -   Shift end: Select the date on which the coverage will end.
  **Note:** The coverage is created between the start and end date of the shift based on its schedule time.
 
-</td></tr><tr><td id="d224976e164">
+</td></tr><tr><td id="d224955e164">
 
 **Schedule extra time**
 
@@ -67,7 +67,7 @@ Specify extra coverage for the selected shift. The following options appear when
 -   Shift end: Select the date on which the extra time will end.
 
 
-</td></tr><tr><td id="d224976e185">
+</td></tr><tr><td id="d224955e185">
 
 **Schedule time off**
 
@@ -86,27 +86,27 @@ Specify the group member who will take scheduled time off during the selected ti
 7.  To save the view settings, click the Bookmark this filter icon \(\[Omitted image "view-favourite-icon.png"\] Alt text: Bookmark this filter icon\).
 
 
--   **[Configure a roster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/config-roster-oncall.md)**  
+-   **[Configure a roster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/config-roster-oncall.md)**  
 Edit a roster to specify its reminder and escalation settings and to identify a subset of group members to participate in the On-Call roster.
--   **[Update shift details from the On-Call calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/update-shift-from-calendar-oncall.md)**  
+-   **[Update shift details from the On-Call calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/update-shift-from-calendar-oncall.md)**  
 To save time, update shift details directly from an on-call calendar.
--   **[Send or resend reminders of an upcoming shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/send-shift-remind-email-oncall.md)**  
+-   **[Send or resend reminders of an upcoming shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/send-shift-remind-email-oncall.md)**  
 Remind roster members of an upcoming shift by sending an email notification. You specify the number of days before their shift starts for the email.
--   **[Configure the lead time for email reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/config-lead-time-reminders-oncall.md)**  
+-   **[Configure the lead time for email reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/config-lead-time-reminders-oncall.md)**  
 On-Call Scheduling includes a scheduled job that checks if any shift members should be notified about upcoming On-Call commitments. Modify the lead time for the reminder to be sent.
--   **[Manage requests for time off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/manage-time-off-requests-oncall.md)**  
+-   **[Manage requests for time off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/manage-time-off-requests-oncall.md)**  
 As a shift manager, you can review and approve time-off requests from shift members. You also specify the roster member who can cover for the time.
--   **[Resolve gaps, conflicts, and time-off requests in a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/resolv-gap-conflct-timeoff-oncall.md)**  
+-   **[Resolve gaps, conflicts, and time-off requests in a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/resolv-gap-conflct-timeoff-oncall.md)**  
 Review and resolve gaps and conflicts. Find a replacement on-call member for time-off requests to ensure proper support coverage.
--   **[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/managing-roster-members.md)**  
+-   **[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/managing-roster-members.md)**  
 You can manage roster members by adding and removing users to or from the roster as needed. You can also modify the order number for a member without affecting the past shift schedule.
 
-**Parent Topic:**[Managing schedules and shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/manage-schedules-and-shifts.md)
+**Parent Topic:**[Managing schedules and shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/manage-schedules-and-shifts.md)
 
 **Related topics**  
 
 
-[View On-Call schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/view-schedules-oncall.md)
+[View On-Call schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/view-schedules-oncall.md)
 
-[Manage shifts from the Calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/customize-calendar-view-oncall.md)
+[Manage shifts from the Calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/customize-calendar-view-oncall.md)
 

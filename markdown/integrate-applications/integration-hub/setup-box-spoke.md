@@ -2,7 +2,7 @@
 title: Set up the Box spoke
 description: Integrate your ServiceNow instance and the Box APIs to automate the Box spoke actions. For example, you can set up a flow that removes a file in your Box account. When you set up the Box spoke, this flow is automated.Create a custom OAuth application from your Box account to enable OAuth 2.0 authentication with the Box spoke.Add and configure a Box connection to authenticate ServiceNow requests in a Box spoke.Regenerate the Box OAuth token when it expires. The Box spoke OAuth token expires every thirty days.Set up an OAuth provider with the JWT Bearer grant type to integrate your ServiceNow instance with Box.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-box-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-box-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -184,7 +184,7 @@ Role required: admin
 
         \[Omitted image "box-conn-view-det.png"\] Alt text: View details of the Box connection.
 
-    -   To manage more than one Box spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Box spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "box-conf-connection.png"\] Alt text: Configure the Box connection.
@@ -237,7 +237,7 @@ OAuth Client ID
 
 </td><td>
 
-The application client ID. For more information, see [Create an OAuth application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-box-spoke.md).
+The application client ID. For more information, see [Create an OAuth application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-box-spoke.md).
 
 </td></tr><tr><td>
 
@@ -245,7 +245,7 @@ OAuth Client Secret
 
 </td><td>
 
-The application client secret. For more information, see [Create an OAuth application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-box-spoke.md).
+The application client secret. For more information, see [Create an OAuth application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-box-spoke.md).
 
 </td></tr><tr><td>
 

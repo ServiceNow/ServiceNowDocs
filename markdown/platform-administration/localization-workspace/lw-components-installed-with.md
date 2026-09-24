@@ -2,7 +2,7 @@
 title: Components installed with Localization Workspace
 description: Several types of components are installed with activation of the Localization Workspace plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-components-installed-with.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-components-installed-with.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -18,11 +18,11 @@ Several types of components are installed with activation of the Localization Wo
 
 ## Components from Localization Framework used in Localization Workspace
 
-Localization Workspace builds on functionality from Localization Framework, including tables and roles. Installing Localization Workspace also installs Localization Framework if it isn't already activated. For detailed information see [Components installed with Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/components-installed-with-lf.md).
+Localization Workspace builds on functionality from Localization Framework, including tables and roles. Installing Localization Workspace also installs Localization Framework if it isn't already activated. For detailed information see [Components installed with Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/components-installed-with-lf.md).
 
 ## Roles installed
 
-For detailed information about roles installed see [Localization Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace-roles.md).
+For detailed information about roles installed see [Localization Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/localization-workspace-roles.md).
 
 ## Scheduled jobs installed
 
@@ -176,10 +176,10 @@ Translation Target Group Info \(from version 2.0.2\)
 \[sn\_lw\_target\_group\_info\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace-reference.md)
+</table>**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/localization-workspace-reference.md)
 
 **Related topics**  
 
 
-[Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md)
+[Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/find-components.md)
 

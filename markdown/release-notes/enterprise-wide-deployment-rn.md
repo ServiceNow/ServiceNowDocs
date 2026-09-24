@@ -2,7 +2,7 @@
 title: SPM Enterprise-Wide Deployment release notes
 description: The ServiceNow SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. Enterprise-Wide Deployment is a new application in the Australia release.The ServiceNow SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. Enterprise-Wide Deployment is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/enterprise-wide-deployment-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/enterprise-wide-deployment-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-05-15"
@@ -31,7 +31,7 @@ See [SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNo
     Install Enterprise-Wide Deployment by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
+**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-business-management-rn-landing.md)
 
 ## Australia
 

@@ -2,7 +2,7 @@
 title: Components installed with Health and Safety Incident Management OSHA Content Pack
 description: Several types of components are installed with installation of the Health and Safety Incident Management OSHA Content Pack application, including tables and system properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/components-installed-with-osha-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/components-installed-with-osha-content-pack.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -39,5 +39,5 @@ HS OSHA PDF template
 Stores OSHA form PDF template records that are required for OSHA form generation. The PDF templates are installed and preconfigured when you install the application.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-reporting-reference.md)
+</table>**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-reporting-reference.md)
 

@@ -2,7 +2,7 @@
 title: Mapping Secureworks ticket fields to security incident response fields
 description: Map individual ticket or event fields to fields on a ServiceNow AI Platform SIR security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secureworks-ctp-create-profile-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/secureworks-ctp-create-profile-mapping.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

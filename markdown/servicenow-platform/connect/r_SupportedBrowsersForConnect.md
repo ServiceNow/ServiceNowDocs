@@ -2,7 +2,7 @@
 title: Supported browsers for Connect Chat
 description: The system supports Connect Chat on most modern browsers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/r\_SupportedBrowsersForConnect.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/r\_SupportedBrowsersForConnect.html
 release: australia
 product: Connect
 classification: connect

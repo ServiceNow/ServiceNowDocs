@@ -2,7 +2,7 @@
 title: Glide stack
 description: Glide is an extensible Web 2.0 development platform written in Java that facilitates rapid development of forms-based workflow applications \(work orders, trouble ticketing, and project management, for example\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_GlideStack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/r\_GlideStack.html
 release: australia
 product: Scripts
 classification: scripts
@@ -114,5 +114,5 @@ Persistence
 </td></tr></tbody>
 </table>\[Omitted image "GlideServlet.svg"\] Alt text: Diagram of the Glide stack
 
-**Parent Topic:**[Glide class overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_GlideClassOverview.md)
+**Parent Topic:**[Glide class overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_GlideClassOverview.md)
 

@@ -2,7 +2,7 @@
 title: ScopedSessionDomain - Client
 description: The ScopedSessionDomain script include that contains client-side methods that provide functionality related to the current session domain.Returns the sys\_id of the current domain for the logged-in user session.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/ScopedSessionDomainAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/ScopedSessionDomainAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -18,7 +18,7 @@ The ScopedSessionDomain script include that contains client-side methods that pr
 
 This API is only available if the Domain Support - Domain Extensions Installer plugin \(com.glide.domain.msp\_extensions\) plugin has been activated in the instance. In addition, the caller must have the admin role to access this API.
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 
 ## ScopedSessionDomain - getCurrentDomainID\(\)
 
@@ -30,7 +30,7 @@ The identifier that is returned depends on the domain type and the instantiation
 -   If the user uses the domain picker to switch to the global domain, the method returns the string "global".
 -   For all other domains, the method returns the sys\_id of that domain.
 
-To access this method from a client-side script, you must use [GlideAjax\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideAjaxAPI.md) to invoke it. To invoke this method from a server-side script, use something similar to the following to instantiate the object and access the method.
+To access this method from a client-side script, you must use [GlideAjax\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideAjaxAPI.md) to invoke it. To invoke this method from a server-side script, use something similar to the following to instantiate the object and access the method.
 
 ```
 var ssg = new global.ScopedSessionDomain(); 

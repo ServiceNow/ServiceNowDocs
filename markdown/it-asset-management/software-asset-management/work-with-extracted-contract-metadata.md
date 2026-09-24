@@ -2,7 +2,7 @@
 title: Review AI-extracted metadata and contract reminder date in the Software Asset Workspace
 description: Use the contract playbook to review and update the AI-extracted metadata and contract reminder date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/work-with-extracted-contract-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/work-with-extracted-contract-metadata.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -81,5 +81,5 @@ To receive notifications when AI agents complete metadata extraction, verify tha
 -   The extracted and reviewed metadata is added to the mapped fields in the software contract.
 -   The contract reminder date is saved, and the configured recipient receives a notification on the specified date to remind them of upcoming contract renewal or termination actions.
 
-**Parent Topic:**[Use manage contract repository agentic workflow in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manage-contract-repository-workflow.md)
+**Parent Topic:**[Use manage contract repository agentic workflow in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/manage-contract-repository-workflow.md)
 

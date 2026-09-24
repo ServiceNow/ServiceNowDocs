@@ -2,7 +2,7 @@
 title: Enable notification for contract metadata extraction
 description: Enable the notification for contract metadata extraction to receive email notifications when metadata extraction is completed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-notf-na-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-config-notf-na-metadata.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -45,9 +45,9 @@ The metadata extraction email notification is activated and triggers when the me
 
 ## What to do next
 
-[Configure the URL for metadata extraction notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.md)
+[Configure the URL for metadata extraction notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.md)
 
-**Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
+**Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
 **Related topics**  
 

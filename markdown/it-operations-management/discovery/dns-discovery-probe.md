@@ -2,7 +2,7 @@
 title: DNS probe
 description: DNS probes determine the DNS names for configuration items \(CI\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/dns-discovery-probe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/dns-discovery-probe.html
 release: australia
 product: Discovery
 classification: discovery
@@ -30,5 +30,5 @@ These performance improvements can be disabled by reverting to the legacy DNS pr
 |-----|-----------|
 |dns|Triggered by 'dns'. Uses 'DNS Name Resolver' Scanner and uses classification 'Process Classification \[discovery\_classy\_proc\]'|
 
-**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 

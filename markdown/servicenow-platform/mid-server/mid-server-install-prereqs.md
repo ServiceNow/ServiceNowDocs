@@ -2,7 +2,7 @@
 title: Install a MID Server on Windows
 description: Install MID Servers with the MID Server guided Windows installation package. The package includes an installer that automatically configures OpenJDK to run in the environment. The MID Server can use an existing JRE rather than the provided OpenJDK. Uninstall the MID Server to redeploy it.Install MID Servers with the MID Server guided Windows installation package. The package includes an installer that automatically configures OpenJDK to run in the environment.The MID Server guided native Windows installer also supports guided uninstallation of the MID Server.MID Server service credentials are required to manage the MID Server service on the host machine, including its ability to successfully auto-upgrade.Silently installing the MID Server uses predefined parameters and requires no user input after it is initiated. You can use silent installation on several machines at once to quickly set up a network and to ensure all MID Servers have the same installation settings.Install MID Servers with the ZIP file installation package and verify it is active.The MID Server runs as a stand-alone service. You can remove a stand-alone MID Server service to accommodate such tasks as redeploying the MID Server to another host machine or changing the unique name of a MID Server when deploying multiple MID Servers.You can choose to use an existing JRE for your MID Server rather than the OpenJDK provided with the MID Server installer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-install-prereqs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-server-install-prereqs.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -21,7 +21,7 @@ Install MID Servers with the MID Server guided Windows installation package. The
 ![Set up indicator for installation phase](../image/ProgressBarInstall.png)
 
 </td></tr></tbody>
-</table>-   Verify that the host computer satisfies the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
+</table>-   Verify that the host computer satisfies the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 -   The MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1.
 -   Verify that the Microsoft Application Experience Lookup Service \(**AeLookupSvc**\) is enabled on the MID Server host. If you disable this service, the MID Server auto-upgrade might fail and cause the MID Server to go down. On Windows Server 2022 and later, Microsoft removed the standalone **AeLookupSvc** service and built application compatibility into the operating system. The related Application Experience tasks now run under **Task Scheduler** rather than through a dedicated service. For information on managing issues with the Application Experience service, see [KB0597552](https://support.servicenow.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0597552).
 
@@ -108,7 +108,7 @@ ServiceNow MID Server username
 
 </td><td>
 
-Enter the name of the [MID Server user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) that you already created. The MID Server user must have the mid\_server role.
+Enter the name of the [MID Server user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SetupMIDServerRole.md) that you already created. The MID Server user must have the mid\_server role.
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Certificate Revocation
 
 </td><td>
 
-This check box is selected by default to enable certificate revocation policies to improve security. For more information on certificate revocation, see [MID Server certificate check policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-security-checks.md).
+This check box is selected by default to enable certificate revocation policies to improve security. For more information on certificate revocation, see [MID Server certificate check policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-security-checks.md).
 
  When testing a connection with certificate revocation enabled, the installer checks if OCSP port 80 is open and the entrust page is accessible.
 
@@ -138,7 +138,7 @@ Use proxy
 
 Select this check box if your MID Server communicates through a proxy to connect to the instance.**Note:** Your proxy server must use Basic Authentication for the MID server to connect to the instance.
 
-The MID Server can bypass proxy servers whose DNS/IP address is listed in the configuration parameter **mid.cloud.discovery.proxy.exclusion.list**. See [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
+The MID Server can bypass proxy servers whose DNS/IP address is listed in the configuration parameter **mid.cloud.discovery.proxy.exclusion.list**. See [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
 
 </td></tr><tr><td>
 
@@ -285,7 +285,7 @@ Modify this field if necessary. It is populated automatically by prefixing `Serv
 
     **Note:**
 
-    -   If the MID Server fails to start, the cause might be a duplicate name or multiple services that point to the same executable path. This can happen when you have MID servers previously not installed through the installer. See [MID Server fails to start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-startup-fails.md) for details.
+    -   If the MID Server fails to start, the cause might be a duplicate name or multiple services that point to the same executable path. This can happen when you have MID servers previously not installed through the installer. See [MID Server fails to start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-startup-fails.md) for details.
     -   MID Server installations require a minimum of 36 GB of RAM.
 11. Select **Mid Servers List Page**.
 
@@ -304,7 +304,7 @@ Modify this field if necessary. It is populated automatically by prefixing `Serv
 
 ### What to do next
 
-To upgrade the MID Server, see [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md) for procedures and requirements.
+To upgrade the MID Server, see [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md) for procedures and requirements.
 
 ## Uninstall a Windows MID Server with the guided installer
 
@@ -328,7 +328,7 @@ There are three ways to uninstall a MID Server after installing it with the guid
 
 3.  The MID Server can also be uninstalled with the silent uninstall script.
 
-    This is useful for uninstalling multiple MID Servers. For more information, see [Windows MID Server silent installation and uninstallation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md)
+    This is useful for uninstalling multiple MID Servers. For more information, see [Windows MID Server silent installation and uninstallation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-install-prereqs.md)
 
 
 ## Configure Windows MID Server service credentials
@@ -347,7 +347,7 @@ Windows service credentials control the level of privilege on the device. The us
 
 **Note:**
 
-Windows service credentials are not the same as the MID Server user credentials, which allow communication between the MID Server and the instance. You must configure both of these credentials separately. See [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) for instructions on MID Server user credentials.
+Windows service credentials are not the same as the MID Server user credentials, which allow communication between the MID Server and the instance. You must configure both of these credentials separately. See [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SetupMIDServerRole.md) for instructions on MID Server user credentials.
 
 ### Procedure
 
@@ -413,7 +413,7 @@ The following parameters are optional:
 -   **MANUAL\_SERVICE\_NAME**: the service name. If you choose this command, the following parameters become mandatory:
     -   **SERVICE\_NAME**: the service name.
     -   **SERVICE\_DISPLAY\_NAME**: the service display name.
--   **MUTUAL\_AUTH**: enables mutual authentication. If this switch is enabled, **MID\_USERNAME** and **MID\_PASSWORD** are not required. See [MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-unified-keystore.md) for more information.
+-   **MUTUAL\_AUTH**: enables mutual authentication. If this switch is enabled, **MID\_USERNAME** and **MID\_PASSWORD** are not required. See [MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-unified-keystore.md) for more information.
 
 **Note:** The parameters **START\_MID**, **USE\_PROXY**, **MUTUAL\_AUTH**, and **MANUAL\_SERVICE\_NAME** are switches. They use the format **-&lt;switch\_param\_name&gt;** and are not followed by a value.
 
@@ -568,7 +568,7 @@ This procedure is only for users who install the MID Server using the ZIP file.
 
 ### What to do next
 
-[Validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md) the MID Server to prepare it for use.
+[Validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ValidateAMIDServer.md) the MID Server to prepare it for use.
 
 ## Configure a MID Server on Windows to use an existing JRE
 
@@ -576,7 +576,7 @@ You can choose to use an existing JRE for your MID Server rather than the OpenJD
 
 ### Before you begin
 
-Ensure that your JRE version is supported. See [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) for details.
+Ensure that your JRE version is supported. See [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) for details.
 
 Role required: admin
 

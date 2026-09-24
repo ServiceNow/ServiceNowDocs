@@ -2,7 +2,7 @@
 title: Modify the News feed widget
 description: The News feed widget displays articles on company news and announcements. All news, Other news, and Related news are instances of the News feed widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/modify-news-feed-widget-display.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/modify-news-feed-widget-display.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ The News feed widget displays articles on company news and announcements. All ne
 
 Role required: sp\_admin or admin
 
-Learn more about the news widgets: [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-news-articles.md)
+Learn more about the news widgets: [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-news-articles.md)
 
 ## Procedure
 
@@ -194,5 +194,5 @@ Enables viewing of nested call insights for total load time in parent and child 
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Configure employee communications widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-comms-widgets.md)
+**Parent Topic:**[Configure employee communications widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-comms-widgets.md)
 

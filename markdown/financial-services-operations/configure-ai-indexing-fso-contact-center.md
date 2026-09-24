@@ -2,7 +2,7 @@
 title: Configure AI indexing for Agentic Contact Center for Banking
 description: Configure AI indexing to enable intelligent search capabilities across financial accounts, cases, and customer interactions in Agentic Contact Center for Banking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-ai-indexing-fso-contact-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-ai-indexing-fso-contact-center.html
 release: australia
 topic_type: task
 last_updated: "2026-03-18"
@@ -46,7 +46,7 @@ Role required: admin
 
 AI indexing is configured for Agentic Contact Center for Banking.
 
-**Parent Topic:**[Configuring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Configuring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 

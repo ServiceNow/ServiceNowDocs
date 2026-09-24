@@ -2,7 +2,7 @@
 title: Major incident candidates
 description: View a list of major incident candidates and add comments to the incidents proposed as major incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/major-incidents-candidate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/major-incidents-candidate.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -19,5 +19,5 @@ View a list of major incident candidates and add comments to the incidents propo
 **Related topics**  
 
 
-[Review and work on a major incident candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/major-incident-candidate.md)
+[Review and work on a major incident candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/major-incident-candidate.md)
 

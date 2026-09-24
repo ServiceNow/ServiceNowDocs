@@ -2,7 +2,7 @@
 title: Assigning multi-day tasks to agents
 description: With the Field Service multi-day task scheduling capability, you can schedule work-order tasks spanning multiple schedule entries or days.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/multi-day-task-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/multi-day-task-fsm.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -39,9 +39,9 @@ The scheduler excludes break hours from the agent's work schedule while scheduli
 **Related topics**  
 
 
-[Activate Field Service Multi-Day Task Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/install-multi-day-tasks.md)
+[Activate Field Service Multi-Day Task Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/install-multi-day-tasks.md)
 
-[Assign multi-day tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/assign-multi-day-task.md)
+[Assign multi-day tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/assign-multi-day-task.md)
 
-[Assign work order tasks to crews on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/assign-wot-to-crew.md)
+[Assign work order tasks to crews on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/assign-wot-to-crew.md)
 

@@ -2,14 +2,14 @@
 title: ServiceNow instance external content connector
 description: The ServiceNow instance external content connector retrieves KB article records \(and their attachments\) from your ServiceNow AI Platform source instance and makes their content and metadata searchable in AI Search applications in your ServiceNow AI Platform destination instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/servicenow-instance-external-content-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/servicenow-instance-external-content-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -34,19 +34,19 @@ To view search results from the source instance, a user on the destination insta
 
 If these conditions aren't satisfied, the destination instance user won't be able to see search results crawled from the source instance.
 
--   **[Configure your ServiceNow AI Platform instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md)**  
+-   **[Configure your ServiceNow AI Platform instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md)**  
 Create and configure a non-interactive service user account on your ServiceNow AI Platform® source instance to allow access by the ServiceNow instance external content connector.
--   **[Create a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-snow-instance.md)**  
+-   **[Create a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-snow-instance.md)**  
 Create an external content connector to retrieve searchable content and security principals from a ServiceNow AI Platform instance.
--   **[Configure crawl settings for a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-crawl-settings-snow-instance-external-content-connector.md)**  
+-   **[Configure crawl settings for a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-snow-instance-external-content-connector.md)**  
 Specify the content types that you want your ServiceNow instance external content connector to retrieve when running content crawls.
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 
 **Related topics**  
 
 
-[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
+[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
 
-[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
+[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
 

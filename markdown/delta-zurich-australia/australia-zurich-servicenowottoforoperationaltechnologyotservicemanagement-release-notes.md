@@ -2,11 +2,11 @@
 title: Combined ServiceNow Otto for Operational Technology \(OT\) Service Management release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for Operational Technology \(OT\) Service Management from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforoperationaltechnologyotservicemanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoforoperationaltechnologyotservicemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 5
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,12 @@ Zurich
 
 </td><td>
 
--   **[Summarize an OT incident](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&family=zurich&ft:locale=en-US)**
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[Summarize an OT incident](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&family=zurich&ft:locale=en-US)**
 
 Automatically summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
 
@@ -132,7 +137,12 @@ Zurich
 
 </td><td>
 
--   **[Summarize UI action](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&family=zurich&ft:locale=en-US)**
+-   **[Now Assist for OTSM to ServiceNow Otto for OT Service Management name change](https://www.servicenow.com/docs/access?context=now-assist-for-operational-technology-service-management&family=zurich&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Now Assist for OTSM. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+
+ -   **[Summarize UI action](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&family=zurich&ft:locale=en-US)**
 
 The **Summarize** UI action was added to OT incident records in the Industrial Workspace so you can automatically summarize the incident details.
 
@@ -242,6 +252,8 @@ Zurich
 Install ServiceNow Otto for OT Service Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** ServiceNow Otto for OT Service Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -252,6 +264,8 @@ Australia
 
 Install ServiceNow Otto for OT Service Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for OT Service Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -421,5 +435,5 @@ Australia
  See [ServiceNow Otto for OT Service Management](https://www.servicenow.com/docs/access?context=now-assist-for-operational-technology-service-management&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

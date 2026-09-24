@@ -2,7 +2,7 @@
 title: Create a group life service case
 description: A processor or contributor can begin the change member info request process by creating a group life case on behalf of your customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/create-group-life-service-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/create-group-life-service-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,9 +18,9 @@ A processor or contributor can begin the change member info request process by c
 
 Role required: sn\_ins\_group\_life.processor, sn\_ins\_group\_life.processor\_connector, or sn\_ins\_group\_life.contributor
 
-**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-core-roles.md).
+**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-core-roles.md).
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 

@@ -2,7 +2,7 @@
 title: Customizing UI actions for the Now Mobile Agent application
 description: Make it easier for your end users to get things done faster with the Industrial Connected Workforce \(ICW\) mobile application by creating custom UI actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/customizing-ui-actions-icw-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/customizing-ui-actions-icw-mobile.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -24,5 +24,5 @@ The following image shows the Now Mobile Agent application open in Studio. The N
 
 \[Omitted image "icw-mobile-studio.png"\] Alt text: Now Mobile Agent application opened in Studio
 
-**Parent Topic:**[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-now-mobile-agent-application-icw-mobile.md)
+**Parent Topic:**[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-now-mobile-agent-application-icw-mobile.md)
 

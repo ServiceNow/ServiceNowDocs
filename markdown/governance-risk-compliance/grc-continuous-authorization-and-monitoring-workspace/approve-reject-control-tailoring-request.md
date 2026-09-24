@@ -2,7 +2,7 @@
 title: Approve or reject a control tailoring request
 description: As an Authorizing Official \(AO\) or AO Delegate, review and approve or reject control tailoring requests to ensure governance and oversight of baseline control modifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/approve-reject-control-tailoring-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/approve-reject-control-tailoring-request.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -72,5 +72,5 @@ The approval process ensures that all baseline modifications are subject to appr
         The request state changes to Rejected. No changes are applied to the package.
 
 
-**Parent Topic:**[Request control tailoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/request-control-tailoring.md)
+**Parent Topic:**[Request control tailoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/request-control-tailoring.md)
 

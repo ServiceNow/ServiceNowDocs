@@ -2,7 +2,7 @@
 title: Test Agent Client Collector connectivity
 description: Test the Agent Client Collector \(ACC\) connectivity to identify any proxy issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/test-acc-connectivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/test-acc-connectivity.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -62,5 +62,5 @@ Role required: agent\_client\_collector\_admin
 
 Fix your proxy issues if the command output doesn't match the Attachments table entries.
 
-**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
+**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
 

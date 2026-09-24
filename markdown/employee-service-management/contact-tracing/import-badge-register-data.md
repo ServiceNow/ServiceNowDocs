@@ -2,7 +2,7 @@
 title: Import your badge reader data from an Excel spreadsheet
 description: Import your badge reader data from an Excel spreadsheet into the Badge Access Register table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/import-badge-register-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/import-badge-register-data.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -18,7 +18,7 @@ Import your badge reader data from an Excel spreadsheet into the Badge Access Re
 
 ## Before you begin
 
-Ensure that you have added all your [user badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/add-user-badge.md) and [badge reader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/add-badge-reader.md) data.
+Ensure that you have added all your [user badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/add-user-badge.md) and [badge reader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/add-badge-reader.md) data.
 
 Role required: sn\_imt\_tracing.badge\_manager
 
@@ -55,7 +55,7 @@ Role required: sn\_imt\_tracing.badge\_manager
 6.  Verify that the data records were imported into the Badge Access Register table by navigating to **Contact Tracing** &gt; **Badge Management** &gt; **Badge Access Register**.
 
 
-**Parent Topic:**[Collecting user badge data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/badge-management.md)
+**Parent Topic:**[Collecting user badge data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/badge-management.md)
 
 **Related topics**  
 

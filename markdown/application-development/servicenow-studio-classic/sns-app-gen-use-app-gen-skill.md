@@ -2,7 +2,7 @@
 title: Use the app generation skill to generate apps
 description: By default, ServiceNow Studio uses Build Agent to create apps with AI. To use the app generation skill instead, disable the Build Agent setting in your ServiceNow Studio preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-app-gen-use-app-gen-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-app-gen-use-app-gen-skill.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -19,7 +19,7 @@ By default, ServiceNow Studio uses Build Agent to create apps with AI. To use th
 
 ## Before you begin
 
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md).
 
 Role required: admin
 
@@ -34,5 +34,5 @@ Role required: admin
 4.  In the **Global behavior** section, toggle off the switch for using Build Agent.
 
 
-**Parent Topic:**[Configuring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)
+**Parent Topic:**[Configuring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)
 

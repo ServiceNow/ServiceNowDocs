@@ -2,7 +2,7 @@
 title: Mark for Funding
 description: Select scored proposals, mark them for funding to the Grant Program Director for approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-rolling-grants-mark-funding-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-rolling-grants-mark-funding-task.html
 release: australia
 topic_type: task
 last_updated: "2026-06-08"

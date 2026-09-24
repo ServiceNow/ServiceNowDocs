@@ -2,7 +2,7 @@
 title: Export project data
 description: Export the project data using the Export module, Project form, or Planning Console. Save the export file to a folder on your system in the Microsoft Project \(MPP\), XML, or CSV format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ExportAProjectWithTheProjectForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_ExportAProjectWithTheProjectForm.html
 release: australia
 product: Project Management
 classification: project-management
@@ -87,13 +87,13 @@ Steps
 -   Use the XML file to import the project data into other ServiceNow instances or Microsoft Project.
 -   Use the CSV file to view project data using other applications.
 
--   **[Export project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ExportProjectTasks.md)**  
+-   **[Export project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ExportProjectTasks.md)**  
 The task being exported must be associated with a project that uses either the Project Management Schedule or the Default MS Project schedule.
 
-**Parent Topic:**[Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md)
+**Parent Topic:**[Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md)
 
 **Related topics**  
 
 
-[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectImportAndExport.md)
 

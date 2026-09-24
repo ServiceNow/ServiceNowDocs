@@ -2,7 +2,7 @@
 title: Remove an equipment or shelf from a rack or cabinet
 description: Remove an equipment or shelf from a rack or cabinet using design and assign function in the Telecommunications Network Inventory application. By removing the equipment from rack, you can fulfill a customer order request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/remove-equipment-shelf-rack-cabinet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/remove-equipment-shelf-rack-cabinet.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -36,7 +36,7 @@ Role required: sn\_ni\_core.inventory\_agent
 
 6.  On the **Details** tab, fill in the fields.
 
-    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 7.  Select **Save**.
 
@@ -82,5 +82,5 @@ Equipment or shelf that you want to remove from the selected rack or cabinet.
 </table>10. Select **Submit**.
 
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

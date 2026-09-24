@@ -2,7 +2,7 @@
 title: Field Service Management
 description: The ServiceNow Field Service Management application enables you to manage work orders and related tasks, resources, skills, assets, and locations. Use this application to dispatch work order tasks and agents to the customer location for performing any kind of field work, such as install, repair, or maintain equipment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/fsm-application-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/fsm-application-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,27 +15,27 @@ The ServiceNow® Field Service Management application enables you to manage work
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about how managers, dispatchers, technicians, customers, and agents use Field Service Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/explore-fsm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about how managers, dispatchers, technicians, customers, and agents use Field Service Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/explore-fsm.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configure-fsm.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/configure-fsm.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Field Service Management capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/integrate-fsm-other-applications.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Field Service Management capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/integrate-fsm-other-applications.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Manage work tasks performed on location. Collaborate between operations, field resources, and customers through mobile channels.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/use-fsm.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Manage work tasks performed on location. Collaborate between operations, field resources, and customers through mobile channels.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/use-fsm.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like tables, roles, properties, and fields.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like tables, roles, properties, and fields.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 
 </td><td>
 
-[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Access preconfigured dashboards with actionable data visualizations to monitor and improve your service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/analytics-reporting-fsm.md)
+[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Access preconfigured dashboards with actionable data visualizations to monitor and improve your service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/analytics-reporting-fsm.md)
 
 </td></tr><tr><td>
 

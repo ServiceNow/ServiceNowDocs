@@ -2,12 +2,12 @@
 title: Inspect the client request
 description: Before creating a custom encryption rule, you must determine the format of the client request entering the Edge Encryption proxy server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/request-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/edge-encryption/request-type.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -75,7 +75,7 @@ Use an HTTP protocol analyzer to inspect the request. Useful tools include:
 
 ## Result
 
-Inspecting the request provides an understanding of the fields you need to filter for and iterate over in your encryption rule. To understand the fields in the request object, see [request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_requestAPI.md).
+Inspecting the request provides an understanding of the fields you need to filter for and iterate over in your encryption rule. To understand the fields in the request object, see [request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_requestAPI.md).
 
-**Parent Topic:**[Define a custom encryption rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EncryptionRules.md)
+**Parent Topic:**[Define a custom encryption rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_EncryptionRules.md)
 

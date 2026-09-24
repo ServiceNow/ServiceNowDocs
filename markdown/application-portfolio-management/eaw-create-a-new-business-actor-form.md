@@ -2,7 +2,7 @@
 title: Business actor form
 description: The Business Actor form contains fields that define individuals or teams who perform work in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-a-new-business-actor-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-a-new-business-actor-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-01"
@@ -23,12 +23,12 @@ The Business Actor form contains fields that define individuals or teams who per
 |Group|Organizational group that the business actor is part of.|
 |Location|Physical or logical location of the business actor.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Manage business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-actors.md)
+[Manage business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-business-actors.md)
 
-[Add or edit a business actor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-business-actor.md)
+[Add or edit a business actor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-or-edit-a-business-actor.md)
 

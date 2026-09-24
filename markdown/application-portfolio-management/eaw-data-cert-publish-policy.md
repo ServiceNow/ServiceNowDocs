@@ -2,7 +2,7 @@
 title: Publish a certification policy
 description: Publish a draft policy to activate it and enable certifications to be issued under that policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-data-cert-publish-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-data-cert-publish-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,24 +39,24 @@ Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
     **Note:** Ensure all the mandatory fields are filled in before publishing the policy.
 
 
-**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-data-cert.md)
+**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-data-cert.md)
 
 **Related topics**  
 
 
-[Deactivate a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-deactivate.md)
+[Deactivate a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-data-cert-deactivate.md)
 
-[View certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-view-policy.md)
+[View certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-data-cert-view-policy.md)
 
-[Edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-edit-policy.md)
+[Edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-data-cert-edit-policy.md)
 
-[Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-policy.md)
+[Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-policy.md)
 
-[Run certification for a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-run-certification.md)
+[Run certification for a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-data-cert-run-certification.md)
 
-[Activate a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-activate.md)
+[Activate a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-data-cert-activate.md)
 
-[Track progress of a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-track-progress.md)
+[Track progress of a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-data-cert-track-progress.md)
 
-[Delete a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-delete-data-cert.md)
+[Delete a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-delete-data-cert.md)
 

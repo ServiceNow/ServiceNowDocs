@@ -2,7 +2,7 @@
 title: Configure service definitions
 description: Configure service definitions for the services in Financial Services Operations applications. You can review and modify the predefined service definitions that the application installs or add new ones.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-service-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-service-definitions.html
 release: australia
 topic_type: task
 last_updated: "2026-05-12"

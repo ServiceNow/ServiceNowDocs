@@ -2,7 +2,7 @@
 title: Add other employment details
 description: Update the alumni profile with additional employment details to confirm an accurate career history and provide tailored job opportunities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/add-other-emp-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/add-other-emp-details.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -57,7 +57,7 @@ Role required: sn\_asc.alumni
 -   Use pencil icon \(\[Omitted image "pencil-fill-24.svg"\]\) to edit the existing employment details.
 -   Use the **Delete** button to delete an existing employment information.
 
-**Parent Topic:**[Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-use.md)
+**Parent Topic:**[Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/asc-use.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Time worked
 description: The Task \[task\] table provides a time-tracking field called Time worked.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/c\_TimeWorked.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/c\_TimeWorked.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -32,5 +32,5 @@ You can set the property **com.snc.time\_worked.update\_task\_timer** to enable 
 
 You can also enable the dictionary attribute **time\_worked\_alert** so that updates to the time worked field make the form dirty. By default the attribute is set to false.
 
-**Parent Topic:**[Task fields for measuring work time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TaskFieldsForMeasuringWorkTime.md)
+**Parent Topic:**[Task fields for measuring work time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_TaskFieldsForMeasuringWorkTime.md)
 

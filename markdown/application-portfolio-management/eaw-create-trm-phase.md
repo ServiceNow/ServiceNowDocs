@@ -2,7 +2,7 @@
 title: Add or edit a TRM phase
 description: Define your own TRM phase for the TRM products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-trm-phase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-trm-phase.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,17 +47,17 @@ The color and shape of a phase are used to represent the phase of the TRM produc
     -   To update details of an existing TRM phase, select the TRM phase.
 6.  On the form, fill in the fields.
 
-    For field information, see [TRM Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-phase-form.md).
+    For field information, see [TRM Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-phase-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-trm-phases.md)
+**Parent Topic:**[Configure TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-trm-phases.md)
 
 **Related topics**  
 
 
-[View all TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-trm-phases.md)
+[View all TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-trm-phases.md)
 
-[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
+[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-trm.md)
 

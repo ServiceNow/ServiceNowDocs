@@ -2,7 +2,7 @@
 title: Submit COI request using ServiceNow Otto conversational intake
 description: Submit Conflict of Interest \(COI\) requests through natural language conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/now-assist-lsd-convi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-conflict-of-interest/now-assist-lsd-convi.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -30,7 +30,7 @@ Legal Conflict of Interest \(COI\) enables you to manage the disclosure, approva
 
 This topic describes how to submit a COI request using the conversational interface. The conversational intake functionality is available only when you have installed and configured Legal Service Delivery - Prime plugin \(sn\_lg\_ai\_prime\) that is a paid application.
 
-For more information on how to submit a COI request using Employee Center intake form, see [Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md)
+For more information on how to submit a COI request using Employee Center intake form, see [Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md)
 
 ## Procedure
 
@@ -64,12 +64,12 @@ For more information on how to submit a COI request using Employee Center intake
 
     \[Omitted image "lsd-coi-converse-req-submitted.png"\] Alt text: Review the request summary before submitting the request
 
-    For more information, see [Approve or reject a conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/approve-reject-coi-request.md)
+    For more information, see [Approve or reject a conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/approve-reject-coi-request.md)
 
 
 ## Result
 
-When an employee submits a COI disclosure the risk assessment utility evaluates the submission against a set of predefined risk factor. Each risk factor contributes to an overall risk score, which determines the risk level \(Low, Medium, or High\) and the corresponding approval routing. The risk level determines whether the request needs approval or can be auto-approved. For more information in how to manage COI requests, see [Approve or reject a conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/approve-reject-coi-request.md).
+When an employee submits a COI disclosure the risk assessment utility evaluates the submission against a set of predefined risk factor. Each risk factor contributes to an overall risk score, which determines the risk level \(Low, Medium, or High\) and the corresponding approval routing. The risk level determines whether the request needs approval or can be auto-approved. For more information in how to manage COI requests, see [Approve or reject a conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/approve-reject-coi-request.md).
 
-**Parent Topic:**[Submit COI requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-requests.md)
+**Parent Topic:**[Submit COI requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/submit-coi-requests.md)
 

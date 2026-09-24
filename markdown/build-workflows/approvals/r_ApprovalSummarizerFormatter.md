@@ -2,7 +2,7 @@
 title: Approval summarizer formatter
 description: The approval summarizer formatter creates the summary at the bottom of an approval form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/r\_ApprovalSummarizerFormatter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/approvals/r\_ApprovalSummarizerFormatter.html
 release: australia
 product: Approvals
 classification: approvals

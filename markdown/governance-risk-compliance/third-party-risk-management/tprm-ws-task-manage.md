@@ -2,7 +2,7 @@
 title: Manage a task for a third party or engagement
 description: Verify that the Assigned to user at your organization or the third-party contact responds to a task and update the state of the task as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -30,6 +30,6 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
     \[Omitted image "tprm-ws-task-page.png"\] Alt text: Creating a task.
 
-    For descriptions of all the fields in the Create new third-party risk task form, see [Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md).
+    For descriptions of all the fields in the Create new third-party risk task form, see [Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md).
 
 

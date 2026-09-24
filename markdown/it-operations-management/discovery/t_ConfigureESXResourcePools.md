@@ -2,7 +2,7 @@
 title: Configure ESXi resource pools
 description: The ESXi server has a default resource pool called Resources that defines normal resources for a virtual machine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ConfigureESXResourcePools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_ConfigureESXResourcePools.html
 release: australia
 product: Discovery
 classification: discovery

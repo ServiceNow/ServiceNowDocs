@@ -2,7 +2,7 @@
 title: Supplier Lifecycle Operations integration framework
 description: The Supplier Lifecycle Operations \(SLO\) integration framework enables you to exchange supplier data with any third-party ERP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slo-int-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-int-framework.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -54,14 +54,14 @@ The following table lists the SLO outbound staging tables and the application th
 | |sn\_spend\_intg\_supplier\_contact\_outbound​|
 | |sn\_spend\_intg\_supplier\_payment\_outbound\_stage​|
 
-The same set of fields exist in both the SLO inbound and SLO outbound staging tables. For more information about the mandatory fields in the staging tables and their descriptions, see [Inbound staging tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/slo-inbound-staging-tables.md).
+The same set of fields exist in both the SLO inbound and SLO outbound staging tables. For more information about the mandatory fields in the staging tables and their descriptions, see [Inbound staging tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/slo-inbound-staging-tables.md).
 
--   **[Add supplier inbound data in an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.md)**  
+-   **[Add supplier inbound data in an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.md)**  
 You can import supplier inbound table data in an Excel file.
--   **[Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md)**  
+-   **[Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md)**  
 Load the supplier data from the excel template into the supplier inbound​ staging tables.
 
-**Parent Topic:**[Integrate Supplier Lifecycle Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/integrate-slo.md)
+**Parent Topic:**[Integrate Supplier Lifecycle Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/integrate-slo.md)
 
 **Related topics**  
 
@@ -74,7 +74,7 @@ Load the supplier data from the excel template into the supplier inbound​ stag
 
 [FedEx Dataworks Integration for Supplier Lifecycle Operations]()
 
-[Add supplier inbound data in an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.md)
+[Add supplier inbound data in an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.md)
 
-[Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md)
+[Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md)
 

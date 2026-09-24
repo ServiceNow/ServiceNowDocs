@@ -2,7 +2,7 @@
 title: Assign roles to Lead-to-Cash Process Management users
 description: Assign roles to your users so that they can access features, capabilities, and data in the Lead-to-Cash Process Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/assign-roles-lead-cash-process-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/assign-roles-lead-cash-process-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -119,7 +119,7 @@ Sales process manager
 
 [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-groups.md)
 
-[Components installed with Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-lead-cash-process-management.md)
+[Components installed with Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-lead-cash-process-management.md)
 
-[Components installed with Business Object Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-business-object-core.md)
+[Components installed with Business Object Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-business-object-core.md)
 

@@ -2,7 +2,7 @@
 title: Removing users from Groups
 description: Use the Simulate Remove from Group for simulating the user's access changes for a resource \(table\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/remove-user-from-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/remove-user-from-group.html
 release: australia
 product: Access Control
 classification: access-control
@@ -20,7 +20,7 @@ Use the **Simulate Remove from Group** for simulating the user's access changes 
 
 Role required: access\_analyzer\_admin
 
-Enable Take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/configure-access-simulator.md).
+Enable Take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/configure-access-simulator.md).
 
 ## Procedure
 
@@ -67,8 +67,8 @@ Enable Take actions. For more information, see [Configuring the Access Simulator
     **Note:**
 
     -   If Access Simulator isn’t enabled, you can't complete the simulation. To enable it, select **Enable actions** and accept the legal information.
-    -   To hide the simulation, select **Hide actions**. To unhide and enable actions, go to **Settings**. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/configure-access-simulator.md).
+    -   To hide the simulation, select **Hide actions**. To unhide and enable actions, go to **Settings**. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/configure-access-simulator.md).
     -   To exit the simulation without applying the simulated changes, select **Skip and Exit**.
-    If you clicked **Remove and complete**, the simulated group is successfully removed from the user. You can verify the access again by using the Access Analyzer. For more information about how to verify access of a user, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-analyzer.md).
+    If you clicked **Remove and complete**, the simulated group is successfully removed from the user. You can verify the access again by using the Access Analyzer. For more information about how to verify access of a user, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer.md).
 
 

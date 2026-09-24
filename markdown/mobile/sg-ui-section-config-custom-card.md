@@ -2,7 +2,7 @@
 title: Customize a card size for a record section
 description: Customize the size of cards in a record section if the default options do not suit your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-ui-section-config-custom-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-ui-section-config-custom-card.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

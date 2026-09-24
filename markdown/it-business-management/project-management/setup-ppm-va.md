@@ -2,7 +2,7 @@
 title: Enable Virtual Agent for PPM
 description: Enable Virtual Agent for PPM to start chatting with the Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/setup-ppm-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/setup-ppm-va.html
 release: australia
 product: Project Management
 classification: project-management
@@ -34,7 +34,7 @@ The base system provides predefined Virtual Agent topics \(chatbot conversations
 **Related topics**  
 
 
-[PPM Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-conversations.md)
+[PPM Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ppm-va-conversations.md)
 
-[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-topic-blocks.md)
+[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ppm-va-topic-blocks.md)
 

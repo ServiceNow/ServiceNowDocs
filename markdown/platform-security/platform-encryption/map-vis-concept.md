@@ -2,7 +2,7 @@
 title: Module access policy visualization
 description: Use module access policy visualization to view all relevant cryptographic module information on a single UI page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/map-vis-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/map-vis-concept.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -57,7 +57,7 @@ Use the **Global policies** section to review the module access policies that co
 
 <table id="table_hn2_gr4_qxb"><tbody><tr><td>
 
-Use the **Helpful resources** section to find links to product documentation, relevant knowledge articles, and a brief description on how module access policies are evaluated on the platform. For a deeper look into how module access policies are evaluated, see [Module access policy debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/map-debugger.md).
+Use the **Helpful resources** section to find links to product documentation, relevant knowledge articles, and a brief description on how module access policies are evaluated on the platform. For a deeper look into how module access policies are evaluated, see [Module access policy debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/map-debugger.md).
 
 </td><td>
 
@@ -95,7 +95,7 @@ Use the **Users with access** section to see a list of all users that have acces
 \[Omitted image "map-vis-users.png"\] Alt text: Users with access section
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md)
+</table>**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/understanding-kmf.md)
 
 **Related topics**  
 

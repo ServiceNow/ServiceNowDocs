@@ -2,7 +2,7 @@
 title: Create and manage plan documentation sections
 description: Use the documentation section to document the recovery capabilities of the plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/maintain-bcp-plan-documentation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/maintain-bcp-plan-documentation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

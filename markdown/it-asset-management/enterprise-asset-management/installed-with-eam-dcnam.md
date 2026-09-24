@@ -2,7 +2,7 @@
 title: Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
 description: Several types of components are installed with activation of the com.sn\_eam\_dcnam plugin, including user roles, plugins, and applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/installed-with-eam-dcnam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/installed-with-eam-dcnam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -86,5 +86,5 @@ sn\_eam.enterprise\_asset\_technician
 |Risk Heat Map \(com.sn\_risk\_heatmap\)|Provides a heatmap component that enables you to visualize the risk posture of your organization.|
 |Geo Map Component \(com.sn\_geo\_map\)|Provides capabilities to track asset locations using indoor maps.|
 
-**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-dcnam.md)
+**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/eam-dcnam.md)
 

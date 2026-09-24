@@ -2,7 +2,7 @@
 title: Exploring MID Server
 description: MID Server acts as the mediator between the network and the instance. MID Servers are used by other applications to connect to the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/explore-mid-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/explore-mid-server.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -28,11 +28,11 @@ After configuring your MID Server, you can add security by encrypting MID Server
 
 ## Upgrading the MID Server
 
-The MID Server checks with the instance periodically to see if an upgrade is necessary. If the MID Server detects that a new version is available for upgrade, it downloads the installer from `install.service-now.com` and runs the package automatically. You can also elect to upgrade the MID Server manually. See [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md) for details.
+The MID Server checks with the instance periodically to see if an upgrade is necessary. If the MID Server detects that a new version is available for upgrade, it downloads the installer from `install.service-now.com` and runs the package automatically. You can also elect to upgrade the MID Server manually. See [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md) for details.
 
 ## Resolving MID Server issues
 
-You can search the HI Knowledge Base for troubleshooting articles or monitor the MID Server status and track active issues from within the instance. Many articles on resolved MID Server issues have been collected on [Servicenow MID Server Landing page \[KB0960404\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0960404). For more information about common resolution procedures, see [Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md).
+You can search the HI Knowledge Base for troubleshooting articles or monitor the MID Server status and track active issues from within the instance. Many articles on resolved MID Server issues have been collected on [Servicenow MID Server Landing page \[KB0960404\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0960404). For more information about common resolution procedures, see [Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md).
 
 ## ServiceNow applications that use the MID Server
 
@@ -56,5 +56,5 @@ You can search the HI Knowledge Base for troubleshooting articles or monitor the
 
 ## Begin MID Server installation
 
-Continue to [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/configure-mid-server.md) to find procedures on preparing the network, installing MID Servers, and configuring them.
+Continue to [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/configure-mid-server.md) to find procedures on preparing the network, installing MID Servers, and configuring them.
 

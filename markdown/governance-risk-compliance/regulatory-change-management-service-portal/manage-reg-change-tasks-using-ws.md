@@ -2,7 +2,7 @@
 title: Manage regulatory change tasks
 description: Manage the regulatory change tasks that are associated with the regulatory event alert. When a business entity owner completes the impact assessment on the regulatory event alert, the user with the sn\_grc\_reg\_change.user role reviews the assessment summary and marks the alert as applicable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/manage-reg-change-tasks-using-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/manage-reg-change-tasks-using-ws.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -251,15 +251,15 @@ Attachments related to the task.
 
 8.  Select **Respond**.
 
-    The **Respond** action triggers the impact radius calculation in the background. For information on impact radius calculation, see [Impact radius for regulatory alerts of type regulatory event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/impact-calculation-approval.md). The regulatory change task is updated with the **Responded** state.
+    The **Respond** action triggers the impact radius calculation in the background. For information on impact radius calculation, see [Impact radius for regulatory alerts of type regulatory event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/impact-calculation-approval.md). The regulatory change task is updated with the **Responded** state.
 
 9.  Add an action task if necessary.
 
-    See [Create an action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md) for creating an action task.
+    See [Create an action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md) for creating an action task.
 
 10. Add issues if necessary.
 
-    See [Create or add an issue related to a regulatory task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-an-issue-reg-change-comp-ws.md) for more information.
+    See [Create or add an issue related to a regulatory task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/create-an-issue-reg-change-comp-ws.md) for more information.
 
 11. After creating necessary action tasks and issues, select **Request Approval**.
 
@@ -272,5 +272,5 @@ Verify that the regulatory change task is updated with the **Responded** state a
 
 ## What to do next
 
-[Create an action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md)
+[Create an action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md)
 

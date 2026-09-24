@@ -2,7 +2,7 @@
 title: Tips for writing integrations
 description: Avoid some of the pitfalls you can encounter when writing your own integrations by following these guidelines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/c\_BestPractisesIntegrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/c\_BestPractisesIntegrations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ As an integration is being developed or tested, be sure to provide feedback when
 
 A common issue with integrations is that they are not equipped to handle realistic loads. Because each integration is a scoped application, there are more limitations imposed by the platform to ensure system stability. These limitations may result in long running jobs or API calls being terminated. You can ensure that long running processes or processes that process lots of data are handled gracefully by reducing the time each call or process takes \(usually by providing a means of paginating API requests or chunking large sets of data\).
 
-**Parent Topic:**[ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IntegrationWritingGuidelines.md)
+**Parent Topic:**[ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_IntegrationWritingGuidelines.md)
 
 **Related topics**  
 

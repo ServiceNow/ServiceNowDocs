@@ -2,7 +2,7 @@
 title: Configure a new TAXII Feed
 description: You can maintain TAXII feeds for sharing STIX-formatted information. Each TAXII feed contains one or more TAXII collections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-configure-a-new-taxii-feed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-configure-a-new-taxii-feed.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -221,5 +221,5 @@ Start date from when the data needs to be fetched. Set this field with the time 
 8.  Enable the TAXII Collections to retrieve the STIX objects available in these TAXII collections.
 
 
-**Parent Topic:**[About STIX TAXII](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-feeds.md)
+**Parent Topic:**[About STIX TAXII](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-intelligence-security-center-feeds.md)
 

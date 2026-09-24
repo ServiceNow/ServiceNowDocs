@@ -2,10 +2,10 @@
 title: Socialsuite import log
 description: The Socialsuite import log table \(sn\_osm\_ma\_import\_log\) tracks material topic data imported from Socialsuite into your ServiceNow instance. When you sync material topics, the assessment data is first imported into this table before the system creates corresponding material topic records. The import log is read-only and automatically maintained by the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/socialsuite-import-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/socialsuite-import-log.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -23,5 +23,5 @@ The Socialsuite import log table \(sn\_osm\_ma\_import\_log\) tracks material to
 |Data record|Reference to the material topic record created from the imported data.|
 |Comments|Additional information or error messages about the import.|
 
-**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/reference-data-esg.md)
+**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/reference-data-esg.md)
 

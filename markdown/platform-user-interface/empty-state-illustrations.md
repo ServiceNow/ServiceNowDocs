@@ -2,7 +2,7 @@
 title: Empty state illustrations in Theme Builder
 description: Empty state illustrations in Theme Builder provide visually engaging placeholders for situations when content is missing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/empty-state-illustrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/empty-state-illustrations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -46,10 +46,10 @@ To override the default empty state illustrations with custom images, upload eac
 |Format|SVG|
 |File size limit|2 MB|
 
--   **[Configure the colors for empty state illustrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/customize-colors-empty-state.md)**  
+-   **[Configure the colors for empty state illustrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/customize-colors-empty-state.md)**  
 Configure and control the colors automatically applied to empty state illustrations to keep your visual experience engaging while maintaining brand recognition.
--   **[Override empty state illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/override-empty-state-illustrations.md)**  
+-   **[Override empty state illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/override-empty-state-illustrations.md)**  
 Modify or override the default empty state illustrations with your own custom images to promote visual elements that reflect your company's branding.
 
-**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-image-styles.md)
+**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-with-image-styles.md)
 

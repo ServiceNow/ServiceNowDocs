@@ -2,7 +2,7 @@
 title: Open Service and Runtime logs
 description: Logs record events that occur during the execution of an automation process. These logs are crucial for debugging and monitoring the performance of the robots.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/open-logs-rpa-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/open-logs-rpa-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Each log has a naming convention. If it’s a runtime-related log, the log name 
 2.  Select **View Logs** and select either **Service Logs** or **Runtime Logs**, to view the related logs.
 
 
-**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-build.md)
 

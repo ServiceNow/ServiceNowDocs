@@ -2,7 +2,7 @@
 title: Resolving data replication errors in Instance Data Replication
 description: Resolve errors and monitor the status of Instance Data Replication \(IDR\) replication sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/common-issues-idr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instance-data-replication-idr/common-issues-idr.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -18,7 +18,7 @@ Resolve errors and monitor the status of Instance Data Replication \(IDR\) repli
 
 ## Monitoring and diagnostic checklist
 
-When you notice that the system is not replicating data, you can use the diagnostics checks to investigate the problem. To monitor the overall health of all replication sets, see [IDR Monitoring dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication-dashboard.md).
+When you notice that the system is not replicating data, you can use the diagnostics checks to investigate the problem. To monitor the overall health of all replication sets, see [IDR Monitoring dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/instance-data-replication-dashboard.md).
 
 <table id="table_dsk_121_mkb"><thead><tr><th>
 
@@ -34,7 +34,7 @@ Monitor
 
 </td></tr><tr><td>
 
-[Check connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/test-IDR-connectivity.md)
+[Check connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/test-IDR-connectivity.md)
 
 </td><td>
 
@@ -42,7 +42,7 @@ Test your IDR instance connectivity to determine the connectivity of your instan
 
 </td></tr><tr><td>
 
-[Check IDR monitoring dashboard to see if replication jobs are active](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication-dashboard.md)
+[Check IDR monitoring dashboard to see if replication jobs are active](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/instance-data-replication-dashboard.md)
 
 </td><td>
 
@@ -82,7 +82,7 @@ Review the consumer access requests for your producer replication sets. A consum
 
 </td></tr><tr><td>
 
-[Check producer replication log errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/debug-instance-data-replication.md)
+[Check producer replication log errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/debug-instance-data-replication.md)
 
 </td><td>
 
@@ -102,7 +102,7 @@ If the status of your consumer replication set is In Draft, click **Activate**.
 
 </td></tr><tr><td>
 
-[Check if you need to synchronize replication sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/synchronization-errors.md)
+[Check if you need to synchronize replication sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/synchronization-errors.md)
 
 </td><td>
 
@@ -110,7 +110,7 @@ A synchronization issue occurs when a producer instance doesn't send data or a c
 
 </td></tr><tr><td>
 
-[Check your consumer replication set status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication-error.md)
+[Check your consumer replication set status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/instance-data-replication-error.md)
 
 </td><td>
 
@@ -122,7 +122,7 @@ Error and status messages
 
 </td></tr><tr><td>
 
-[Check replication or replication metadata log errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/debug-instance-data-replication.md)
+[Check replication or replication metadata log errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/debug-instance-data-replication.md)
 
 </td><td>
 
@@ -130,31 +130,31 @@ Identify IDR errors by viewing the metadata for messages between producer and co
 
 </td></tr><tr><td>
 
-[Check status messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication-error.md)
+[Check status messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/instance-data-replication-error.md)
 
 </td><td>
 
 Review these status messages with recovery information.
 
 </td></tr></tbody>
-</table>-   **[Run Instance Data Replication diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/test-IDR-connectivity.md)**  
+</table>-   **[Run Instance Data Replication diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/test-IDR-connectivity.md)**  
 Verify the status of services and the connection between your instance and the Instance Data Replication \(IDR\) message queue.
--   **[Review synchronization errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/synchronization-errors.md)**  
+-   **[Review synchronization errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/synchronization-errors.md)**  
 Review the status field to check if synchronization is working correctly on the Instance Data Replication \(IDR\) consumer instance.
--   **[Discover replication delays in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/diagnose-delayed-replication.md)**  
+-   **[Discover replication delays in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/diagnose-delayed-replication.md)**  
 Monitor possible data replication issues by using the Instance Data Replication \(IDR\) Monitoring Dashboard.
--   **[Fix seeding errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/fix-seeding-errors.md)**  
+-   **[Fix seeding errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/fix-seeding-errors.md)**  
 Retry Instance Data Replication \(IDR\) seeding on tables with seeding errors, which occur from network problems and failed inserts, so that you don't have to do a full seeding.
--   **[Identify Instance Data Replication errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/debug-instance-data-replication.md)**  
+-   **[Identify Instance Data Replication errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/debug-instance-data-replication.md)**  
 Identify Instance Data Replication \(IDR\) errors by viewing the metadata for messages between producer and consumer instances, payload error logs, and message logs.
--   **[Configure error notifications in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/configure-notification-idr.md)**  
+-   **[Configure error notifications in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/configure-notification-idr.md)**  
 Notify one or more users when errors occur in Instance Data Replication \(IDR\).
--   **[Consumer replication set status in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication-error.md)**  
+-   **[Consumer replication set status in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/instance-data-replication-error.md)**  
 Review the status of your consumer replication set and research error messages to identify or fix Instance Data Replication \(IDR\) replication issues.
--   **[Instance Data Replication XML stats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/IDR-XML-stats.md)**  
+-   **[Instance Data Replication XML stats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/IDR-XML-stats.md)**  
 Extract Instance Data Replication \(IDR\)-related data from your instance to monitor replication status.
 
-**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 

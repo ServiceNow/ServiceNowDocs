@@ -2,7 +2,7 @@
 title: Configure a single queue for Cloud-based and IP-based events
 description: Configure Cloud-based and IP-based events to share a single queue, which helps reduce the impact of Discovery on app nodes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_CombineCloudIPJobQueueEF.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_CombineCloudIPJobQueueEF.html
 release: australia
 product: Discovery
 classification: discovery
@@ -22,7 +22,7 @@ Confirm the following:
 
 -   You're using Discovery Admin Workspace v1.9.0 or later.
 -   You're using the Xanadu Patch 9, Yokohama Patch 4, or later version of the ServiceNow AI Platform®.
--   The **discovery.use.event.processing** system property is turned on. For more information, see [Configure Discovery to use Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureDiscoveryEventFramework.md).
+-   The **discovery.use.event.processing** system property is turned on. For more information, see [Configure Discovery to use Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_ConfigureDiscoveryEventFramework.md).
 
 Role required: discovery\_admin
 
@@ -47,5 +47,5 @@ When using a single queue, Cloud Discovery jobs frequently have higher priority 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Optimizing Discovery load for Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_FineTuneDiscoLoadEF.md)
+**Parent Topic:**[Optimizing Discovery load for Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_FineTuneDiscoLoadEF.md)
 

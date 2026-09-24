@@ -2,7 +2,7 @@
 title: Personalize Prioritization view
 description: Personalize the Prioritization tab view in the Planning page in the workspace so that you can view the information that is most relevant to you and your stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/personalize-prioritization-page-portfolio-planning-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/personalize-prioritization-page-portfolio-planning-workspace.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -19,7 +19,7 @@ Personalize the Prioritization tab view in the Planning page in the workspace so
 
 ## Before you begin
 
-[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md)
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md)
 
 Role required: sn\_align\_core.apw\_user
 
@@ -43,7 +43,7 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
         You can reorder the columns here to change their display order on the backlog.
 
-        If you want additional columns to be available in this page, your admin can configure them. See [Configuring additional columns for Prioritization page in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customizing-the-columns-for-prioritization-page-in-portfolio-planning.md).
+        If you want additional columns to be available in this page, your admin can configure them. See [Configuring additional columns for Prioritization page in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/customizing-the-columns-for-prioritization-page-in-portfolio-planning.md).
 
     3.  From the Rows section, choose how the rows are displayed, using the **Shade alternate rows** toggle.
 
@@ -118,6 +118,6 @@ Select the Column actions icon \(\[Omitted image "icon-column-actions.png"\] Alt
 
     Personalization settings that you've made so far on the Prioritization page would be cleared. Any personalization that you make after this point is set as the new preference for the portfolio.
 
-10. [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
+10. [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
 
 

@@ -2,7 +2,7 @@
 title: Configure the Catalog item component instance
 description: Configure the Catalog item component instance so that your users can embed it on their website to request an item or service from their website.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-catalog-item-component-on-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-catalog-item-component-on-instance.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -20,9 +20,9 @@ Configure the Catalog item component instance so that your users can embed it on
 
 You must have the following setup to configure the Catalog item component instance:
 
--   Enable Web Embeddables in your instance. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
--   [Set up a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-custom-url.md).
--   Authenticate the ServiceNow components using OpenID Connect \(OIDC\) or non OIDC authentication. For more information, see [Authenticate the ServiceNow components using OIDC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/authenticate-sn-webcomponents-oidc.md) and [Non OIDC authentication for ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/auth-sn-webcomponents-non-oidc.md).
+-   Enable Web Embeddables in your instance. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
+-   [Set up a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-custom-url.md).
+-   Authenticate the ServiceNow components using OpenID Connect \(OIDC\) or non OIDC authentication. For more information, see [Authenticate the ServiceNow components using OIDC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/authenticate-sn-webcomponents-oidc.md) and [Non OIDC authentication for ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/auth-sn-webcomponents-non-oidc.md).
 
 Role required: sn\_embeddable\_core.emb\_admin
 
@@ -32,11 +32,11 @@ Role required: sn\_embeddable\_core.emb\_admin
 
 2.  In the homepage, select Create module or use the existing module.
 
-    For more information on creating a module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.md).
+    For more information on creating a module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.md).
 
 3.  On the module page, in the Components tab, add a Catalog item component instance to an existing or a new group.
 
-    For more information on creating a group and then adding a component instance, see [Create a group and add a component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-create-group-and-add-comp-instance.md).
+    For more information on creating a group and then adding a component instance, see [Create a group and add a component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-create-group-and-add-comp-instance.md).
 
 4.  Toggle the **Show static preview** option to see a visual representation of a component when a live preview isn’t available.
 
@@ -45,10 +45,10 @@ Role required: sn\_embeddable\_core.emb\_admin
 5.  Configure the Catalog item component instance properties.
 
     -   The Preview tab displays real-time data according to choices set in the component properties.
-    -   For a description of the component properties related to the Catalog item component instance, see [Component properties for the Catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/component-properties-for-catalog-item.md).
+    -   For a description of the component properties related to the Catalog item component instance, see [Component properties for the Catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/component-properties-for-catalog-item.md).
 6.  Select the **CORS rules** tab to configure the CORS rules.
 
-    For more information about configuring CORS rules, see [Configure CORS \(Cross-Origin Resource Sharing\) rules before embedding ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-cors-for-web-components.md).
+    For more information about configuring CORS rules, see [Configure CORS \(Cross-Origin Resource Sharing\) rules before embedding ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-cors-for-web-components.md).
 
 7.  Select the **Components** tab.
 
@@ -95,7 +95,7 @@ Role required: sn\_embeddable\_core.emb\_admin
 
 10. In the Component Code tab, slide the **Enable event handler** toggle switch to handle events triggered by the user interactions on the webpage.
 
-    **Note:** Enabling the event handler also modifies the component code. For more information on event handlers in Web Embeddables, see [Event handler in the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-catalog-item-event-handler.md).
+    **Note:** Enabling the event handler also modifies the component code. For more information on event handlers in Web Embeddables, see [Event handler in the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-catalog-item-event-handler.md).
 
 11. In the Component code tab, review the generated code and select the **Copy component code**.
 
@@ -202,14 +202,14 @@ The global and component codes are ready to be shared with the third-party admin
 
 ## What to do next
 
-[Embed the Catalog item component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-catalog-item-component-on-third-party-website.md)
+[Embed the Catalog item component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-catalog-item-component-on-third-party-website.md)
 
 **Related topics**  
 
 
-[Component properties for the Catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/component-properties-for-catalog-item.md)
+[Component properties for the Catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/component-properties-for-catalog-item.md)
 
-[Event handler in the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-catalog-item-event-handler.md)
+[Event handler in the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-catalog-item-event-handler.md)
 
-[Sample code for the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-item-sample-code.md)
+[Sample code for the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-item-sample-code.md)
 

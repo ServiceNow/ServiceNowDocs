@@ -2,7 +2,7 @@
 title: Create rules
 description: The use of rules to normalize a field is intended for large lists of variant field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateRules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateRules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ The use of rules to normalize a field is intended for large lists of variant fie
 
 ## About this task
 
-Always test your rules before applying them to all the existing records in the database. Prior to creating the rule, make sure to generate the list of [Pending Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FieldNormalization.md) and create a [normal value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FieldNormalization.md) for the field. A normalized field can have a combination of aliases and rules.
+Always test your rules before applying them to all the existing records in the database. Prior to creating the rule, make sure to generate the list of [Pending Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_FieldNormalization.md) and create a [normal value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_FieldNormalization.md) for the field. A normalized field can have a combination of aliases and rules.
 
 ## Procedure
 

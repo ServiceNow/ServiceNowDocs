@@ -2,7 +2,7 @@
 title: Schedule plan form
 description: The following table describes the field values for the Schedule plan form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/scheduled-plan-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/scheduled-plan-form.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -103,5 +103,5 @@ Task values for the schedule plan. Available options for this field depend on th
 **Note:** You can create a schedule plan without specifying task values such as a short description. This is useful when you want to create a schedule that applies broadly and the generated tasks inherit their descriptions from the manufacturing standard.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Industrial Standards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-reference.md)
+</table>**Parent Topic:**[Industrial Standards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-standards-reference.md)
 

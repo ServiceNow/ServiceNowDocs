@@ -2,7 +2,7 @@
 title: Value formatting in reports
 description: In most reports, you can configure how numerical values look when you publish the report.In existing reports, you can configure formatted values on the Configure tab of the Report Designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/value-formatting-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/value-formatting-reports.html
 release: australia
 product: Reporting
 classification: reporting
@@ -53,7 +53,7 @@ Formatting applies for aggregate values.
 
 -   **Rounding**
 
-    For values greater than one minute, simplifies a number by rounding, while keeping it close to its value. See [Rounding options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/value-formatting-reports.md).
+    For values greater than one minute, simplifies a number by rounding, while keeping it close to its value. See [Rounding options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/value-formatting-reports.md).
 
 -   **Use the thousands group separator**
 
@@ -118,7 +118,7 @@ Summary of rounding options:
 |-2.5|-3|-2|-2|-3|-3|-2|-2|
 |-5.5|-6|-5|-5|-6|-6|-5|-6|
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Configure formatted values in reports
 

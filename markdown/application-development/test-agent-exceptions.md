@@ -2,12 +2,12 @@
 title: Test Agent guidelines
 description: Leverage the full potential of Test Agent by following these guidelines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-exceptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-agent-exceptions.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-22"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [References, Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 

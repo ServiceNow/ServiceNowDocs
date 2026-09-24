@@ -2,7 +2,7 @@
 title: Agile 2.0 Team Dashboard
 description: Team Dashboard provides a visualization of the team's progress on stories over a given period. It provides team predictability charts and helps you plan the team's capacity for the upcoming sprints. In addition, it provides details of all the team members.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-development-team-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/agile-development-team-dashboard.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -94,7 +94,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Sprint Variance
 -   Story Cycle Time
 
-For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
+For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
 
 <table id="table_xvt_hl4_2fb"><thead><tr><th>
 
@@ -289,5 +289,5 @@ Identify the time taken for each story, which the team has worked on, to move fr
  **Note:** The stories shown in this chart are the ones that the team has completed in the past 30 days.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
+</table>**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

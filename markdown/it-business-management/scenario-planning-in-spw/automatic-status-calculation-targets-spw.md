@@ -2,7 +2,7 @@
 title: Automatic status calculation for targets
 description: Automatically determine status for targets consequently rolling up to goals based on achievement percentages. Status is calculated when you enter actual values and achievement of actuals compared to the planned target against predefined thresholds \(Green, Yellow, Red\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/automatic-status-calculation-targets-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/automatic-status-calculation-targets-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -71,7 +71,7 @@ Administrators can customize threshold percentages to align with organizational 
 {"enabled": true, "thresholds": {"green": 90, "yellow": 75}}
 ```
 
-For instructions on system property configuration, see [Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-automatic-status-calculation-spw.md).
+For instructions on system property configuration, see [Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configure-automatic-status-calculation-spw.md).
 
 ## Status calculation scenarios
 
@@ -81,7 +81,7 @@ Status calculation applies to three target configurations:
 -   **Targets with breakdowns \(check-ins\):** Status is calculated for each check-in period \(weekly, monthly, quarterly\) based on that period's achievement
 -   **Targets without check-in frequency:** Status is calculated based on direct actuals without period-based accumulation
 
-In all scenarios, the same achievement formula and thresholds apply. The difference is in how actual values are entered and aggregated across time periods. For more details on how the status is calculated for different scenarios, see [Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.md).
+In all scenarios, the same achievement formula and thresholds apply. The difference is in how actual values are entered and aggregated across time periods. For more details on how the status is calculated for different scenarios, see [Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.md).
 
 ## Milestone targets
 
@@ -120,12 +120,12 @@ This three-layer cascade ensures portfolio leaders see a true picture of executi
 
 In addition to automatic Green/Yellow/Red status, target owners can apply custom status values to reflect business context that the achievement formula may not capture. Custom statuses are retained even when automatic calculation is re-enabled, allowing manual judgment to coexist with system-driven calculations.
 
-**Parent Topic:**[Goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/goal-management-in-alignment-planner-workspace.md)
+**Parent Topic:**[Goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/goal-management-in-alignment-planner-workspace.md)
 
 **Related topics**  
 
 
-[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.md)
+[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.md)
 
-[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-automatic-status-calculation-spw.md)
+[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configure-automatic-status-calculation-spw.md)
 

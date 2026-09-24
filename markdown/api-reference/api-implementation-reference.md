@@ -2,7 +2,7 @@
 title: API implementation and reference
 description: Get started using ServiceNow APIs with guides, resources, and reference documentation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/api-implementation-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/api-implementation-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,15 +15,15 @@ Get started using ServiceNow APIs with guides, resources, and reference document
 
 <table id="table_api_tiles" class="nav-card"><tbody><tr><td>
 
-[API implementation \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Set up Web Services to access ServiceNow APIs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-implementation.md)
+[API implementation \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Set up Web Services to access ServiceNow APIs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-implementation.md)
 
 </td><td>
 
-[API reference \[Omitted image "bus-learn.svg"\] Alt text: Find reference documentation for Client, Server, and REST APIs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-reference.md)
+[API reference \[Omitted image "bus-learn.svg"\] Alt text: Find reference documentation for Client, Server, and REST APIs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-reference.md)
 
 </td><td>
 
-[Developer guides \[Omitted image "bus-application-developer.svg"\] Alt text: Explore program resources for learning, building, and developing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/developer-guides.md)
+[Developer guides \[Omitted image "bus-application-developer.svg"\] Alt text: Explore program resources for learning, building, and developing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/developer-guides.md)
 
 </td></tr></tbody>
 </table>## API implementation

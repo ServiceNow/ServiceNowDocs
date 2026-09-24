@@ -2,7 +2,7 @@
 title: Data type descriptions
 description: The following is a list of the most common data types for creating a variable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-data-type-descriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-data-type-descriptions.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

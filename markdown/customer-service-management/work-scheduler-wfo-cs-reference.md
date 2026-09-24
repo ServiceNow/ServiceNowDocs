@@ -2,7 +2,7 @@
 title: Work Scheduler components in Workforce Optimization for Customer Service reference
 description: Workforce Optimization for ITSM has properties to configure the Work scheduler default behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/work-scheduler-wfo-cs-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/work-scheduler-wfo-cs-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ Defines which users are shown in Work scheduler when suggestions are enabled and
 -   **Default value**: 0
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+</table>**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-configurable-wfo-cs.md)
 

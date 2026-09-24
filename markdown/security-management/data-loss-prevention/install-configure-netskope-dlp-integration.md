@@ -2,7 +2,7 @@
 title: Install and configure the Netskope DLP integration for Data Loss Prevention
 description: Install and configure the Netskope DLP integration from   ServiceNow Store   ServiceNow AI Platform instance. You can start investigating DLP incidents using the  Netskope DLP incident data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/install-configure-netskope-dlp-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/install-configure-netskope-dlp-integration.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -52,5 +52,5 @@ Role required: sn\_dlir.admin
 
 After you successfully validate and submit the configuration, the Netskope DLP Integration is saved on the Security Integrations page as a tile.
 
-**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-netskope.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/dlp-incident-response-integration-netskope.md)
 

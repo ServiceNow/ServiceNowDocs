@@ -2,7 +2,7 @@
 title: Manage an investigation-type action task
 description: Manage an investigation-type action task for the Operational vulnerability. Create and assign investigation tasks when approvers request additional investigation. After reviewing completed work, request approval again.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-state-of-action-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/update-state-of-action-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ If the approver rejects the vulnerability, its state is updated to **Treatment**
 
 3.  On the Create New Action task form, fill in the fields.
 
-    For more information, see [Create Action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/action-task-form.md).
+    For more information, see [Create Action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/action-task-form.md).
 
 4.  Select the type of the action task as **Investigation**.
 
@@ -70,5 +70,5 @@ If the approver rejects the vulnerability, its state is updated to **Treatment**
 
 ## What to do next
 
-The task owner reviews the work on the action task and then requests an approval for the vulnerability record. For more information on the steps, see [Request an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/submit-vul-for-approval.md).
+The task owner reviews the work on the action task and then requests an approval for the vulnerability record. For more information on the steps, see [Request an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/submit-vul-for-approval.md).
 

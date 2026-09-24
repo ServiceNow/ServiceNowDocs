@@ -2,7 +2,7 @@
 title: Edit a use case
 description: Update an existing use case to modify its name, fields, tables, questions, integrations, and flows. Use cases marked as read-only must be copied before you can edit them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/edit-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/edit-use-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_d
 
 ## About this task
 
-Use cases marked as read-only can't be edited. To edit a read-only use case, first make a copy of it. For more information, see [Copy a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-copy-use-case.md).
+Use cases marked as read-only can't be edited. To edit a read-only use case, first make a copy of it. For more information, see [Copy a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-copy-use-case.md).
 
 ## Procedure
 
@@ -37,8 +37,8 @@ Use cases marked as read-only can't be edited. To edit a read-only use case, fir
 
 6.  Make changes as needed.
 
-    For more information on use case setup, see [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-use-case.md).
+    For more information on use case setup, see [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/set-up-use-case.md).
 
 
-**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-use-case.md)
+**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-use-case.md)
 

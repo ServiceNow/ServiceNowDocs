@@ -2,7 +2,7 @@
 title: Components installed with Guided Decisions Experience
 description: Several types of components are installed with the Guided Decisions Experience application, including tables, roles, and guidances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/components-installed-with-guided-decisions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/components-installed-with-guided-decisions.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create a personal event
 description: Enable agents and managers to efficiently schedule events, including time off and appointments, through Workforce. Additionally, managers have the capability to organize meetings and schedule time off and training.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/creating-an-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/creating-an-event.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -49,5 +49,5 @@ Agents can only create personal events for themselves, while managers can create
 **Related topics**  
 
 
-[View personal events on the Team calendar in Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/view-personal-events-on-the-team-calendar.md)
+[View personal events on the Team calendar in Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/view-personal-events-on-the-team-calendar.md)
 

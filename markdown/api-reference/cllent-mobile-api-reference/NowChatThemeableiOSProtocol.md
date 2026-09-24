@@ -2,7 +2,7 @@
 title: NowChatThemeable protocol - iOS
 description: The NowChatThemeable protocol provides properties that enable you to override the colors used within chat pages hosted on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowChatThemeableiOSProtocol.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowChatThemeableiOSProtocol.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -22,9 +22,9 @@ public protocol NowChatThemeable {
 }
 ```
 
-The [NowChatColoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatColoringiOSProtocol.md) protocol contains **NowUIColoring**. This property is used to reference default color variables that NowWebThemeable can use.
+The [NowChatColoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatColoringiOSProtocol.md) protocol contains **NowUIColoring**. This property is used to reference default color variables that NowWebThemeable can use.
 
-For additional information on how to theme the UI, see [Use NowUIColoring to theme NowWebTheme and NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/mobsdk-and-color-theming.md) in the Mobile SDK Developer Guide - iOS.
+For additional information on how to theme the UI, see [Use NowUIColoring to theme NowWebTheme and NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/mobsdk-and-color-theming.md) in the Mobile SDK Developer Guide - iOS.
 
 ## Define ChatColors using default colors
 
@@ -214,5 +214,5 @@ func makeChatScreen() -> UIViewController? {
 }
 ```
 
-**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

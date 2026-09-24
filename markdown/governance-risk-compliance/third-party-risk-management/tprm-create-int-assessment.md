@@ -2,7 +2,7 @@
 title: Create an internal assessment
 description: Create an internal assessment as part of a due diligence request or ongoing risk monitoring using Third-party Risk Management. An internal assessment can affect which questionnaires are later sent to the third party or engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-int-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-create-int-assessment.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -36,7 +36,7 @@ When creating an on-demand internal assessment, TPR managers or TPR assessors ca
     -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Internal Risk Assessments** &gt; **All Assessments**.
 2.  Create an internal assessment by selecting **New** and fill in the form.
 
-    For descriptions of all these fields, see [Create new internal assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-int-assess-form.md).
+    For descriptions of all these fields, see [Create new internal assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-int-assess-form.md).
 
 3.  Select **Submit**.
 
@@ -72,7 +72,7 @@ Description
 
 
 </td></tr></tbody>
-</table>    TPR administrators can create questionnaires and associate them with the assessment. For more information, see [Create a questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).
+</table>    TPR administrators can create questionnaires and associate them with the assessment. For more information, see [Create a questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).
 
 5.  Select **Submit**.
 
@@ -83,14 +83,14 @@ Description
 
 ## What to do next
 
-The owner assigned to the internal assessment works with the respondents to close the assessment. For information on how to respond to Internal assessments, see [Respond to an internal assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-irq-respond-to.md).
+The owner assigned to the internal assessment works with the respondents to close the assessment. For information on how to respond to Internal assessments, see [Respond to an internal assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-irq-respond-to.md).
 
 **Related topics**  
 
 
-[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
+[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
 
-[Respond to an internal assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-irq-respond-to.md)
+[Respond to an internal assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-irq-respond-to.md)
 
-[IRQ process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.md)
+[IRQ process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.md)
 

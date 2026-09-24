@@ -2,7 +2,7 @@
 title: Create New TPRM SAE questionnaire template form
 description: Use the Create New TPRM questionnaire template form to capture all the information that you need to create a TPRM SAE questionnaire template using the Smart Assessment template designer. As a third-party risk admin, you can create a questionnaire template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-sae-q-template-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-create-sae-q-template-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -63,7 +63,7 @@ TPRM purpose options include:
 
 **Note:** Only use the available template purposes. Creating custom purposes \(categories or classifications\) will cause SAE assessments to fail during m2m linkage processing. When creating or migrating SAE questionnaire templates, make sure the Purpose field is set to one of the supported categories only.
 
-To view a TPRM TPRM questionnaire template you must have the TPR assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\]. For more information on creating assessment template purposes, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+To view a TPRM TPRM questionnaire template you must have the TPR assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\]. For more information on creating assessment template purposes, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
 **Note:** You can create an assessment only from a published assessment template.
 
@@ -85,7 +85,7 @@ Option to pre-populate the questionnaire with responses from a completed questio
 -   Answers of the attachment, duration, and signature type aren’t copied.
 -   The setting can’t be changed after the questionnaire is sent to the third party.
 
- To specify the maximum age for source questionnaires, configure the **Maximum age for reusing responses** `sn_vdr_risk_asmt.max_age_for_questionnaire_reuse` system property. See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+ To specify the maximum age for source questionnaires, configure the **Maximum age for reusing responses** `sn_vdr_risk_asmt.max_age_for_questionnaire_reuse` system property. See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
  **Note:** This option is only available when you create a questionnaire template using the Vendor Management Workspace.
 
@@ -98,10 +98,10 @@ Instructions
 Information that a responder might find useful when responding to a questionnaire.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
+</table>**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
 
 **Related topics**  
 
 
-[Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md)
+[Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md)
 

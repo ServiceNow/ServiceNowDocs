@@ -2,7 +2,7 @@
 title: Generate an Agent Client Collector allowlist
 description: Specify the checks to be included in the list of checks that are enabled to run on the agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-generate-allow-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-generate-allow-list.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -100,5 +100,5 @@ Boolean. Allow for the given entry to be executed in shell mode and for check de
     -   Windows: `C:\ProgramData\ServiceNow\Agent Client Collector\check-allow-list.json`
     -   Linux: `/etc/servicenow/agent-client-collector/check-allow-list.json`
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/data-collection-enabling.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

@@ -2,7 +2,7 @@
 title: Configuring exclusion rules
 description: By configuring exclusion rules, you can filter or exclude detections from being converted into vulnerable items \(VITs\) during ingestion. This filtering helps streamline vulnerability management by reducing noise and prioritizing critical issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-exclusion-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-exclusion-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,13 +36,13 @@ The execution order defines the priority in which exclusion rules are processed.
     -   Moved to the top of the list: New execution order = \(Execution order of current top rule\) ÷ 2
     -   Moved to the bottom of the list: New execution order = \(Execution order of current bottom rule + 1000\)
 
--   **[Create or edit exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-or-edit-exclusion-rules.md)**  
+-   **[Create or edit exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-create-or-edit-exclusion-rules.md)**  
 Create a rule to filter or exclude detections from getting converted into vulnerable items \(VITs\) during ingestion.
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
+**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 
 
-[Controlling the ingestion volume with automatic exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-controlling-ingestion-volume-automatic-exclusion.md)
+[Controlling the ingestion volume with automatic exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-controlling-ingestion-volume-automatic-exclusion.md)
 

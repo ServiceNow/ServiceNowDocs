@@ -2,7 +2,7 @@
 title: Query Generation Health page
 description: The health page shows the state of the Now LLM and AI Search, along with the states of Query Generation system properties, enabled products, and dependency plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/querygen-health-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/querygen-health-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -57,7 +57,7 @@ The state of Query Generation skills and the LLMs they use. Also the state of AI
 
 </td><td>
 
-For Query Generation skills, if any are inactive, navigate to AI Admin Hub. Activate skills there as described in [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md). If you have error messages, contact your Generative AI Controller administrator or Now Support.For AI Search, consult your organization's AI Search administrators.
+For Query Generation skills, if any are inactive, navigate to AI Admin Hub. Activate skills there as described in [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/enable-query-generation.md). If you have error messages, contact your Generative AI Controller administrator or Now Support.For AI Search, consult your organization's AI Search administrators.
 
 </td></tr><tr><td>
 
@@ -108,5 +108,5 @@ The state of relevant system properties that can be modified by an administrator
 Navigate to the Properties \[sys\_properties\] table and change the value of the property in question. Update only the required properties that start with sn\_query\_gen. \*\*
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/semantic-layer-tuning-overview.md)
+</table>**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/semantic-layer-tuning-overview.md)
 

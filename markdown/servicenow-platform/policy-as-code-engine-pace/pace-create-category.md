@@ -2,7 +2,7 @@
 title: Create a category
 description: Create PaCE policy categories to assign to a policy when creating or updating a policy. Categories enable you to categorize and manage policies more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-create-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-create-category.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

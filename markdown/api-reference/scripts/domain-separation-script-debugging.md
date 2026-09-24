@@ -2,7 +2,7 @@
 title: Domain separation and Script Debugger
 description: Domain separation is supported in Script Debugger. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/domain-separation-script-debugging.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/domain-separation-script-debugging.html
 release: australia
 product: Scripts
 classification: scripts
@@ -32,7 +32,7 @@ For more information on support levels, see [Application support for domain sepa
 
 Script Debugger is not a full application but rather, a feature in the Platform suite, meaning it works alongside other features, including domain separation.
 
-**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
+**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debugger.md)
 
 **Related topics**  
 

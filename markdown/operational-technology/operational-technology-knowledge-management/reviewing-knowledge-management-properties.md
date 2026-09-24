@@ -2,7 +2,7 @@
 title: Reviewing the Knowledge Management property for an Operational Technology knowledge base
 description: As an administrator, you can configure the look and functionalities of Operational Technology \(OT\) knowledge bases with the Knowledge Management properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/reviewing-knowledge-management-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-knowledge-management/reviewing-knowledge-management-properties.html
 release: australia
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -39,5 +39,5 @@ Enter the role names exactly as they appear in **User Administration** &gt; **Ro
 </td></tr></tbody>
 </table>For more information about the other available Knowledge Management properties, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeProperties.md).
 
-**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
+**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
 

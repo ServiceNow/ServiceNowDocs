@@ -2,7 +2,7 @@
 title: Create duplication rules in Security Operations
 description: You can use Duplication Rules to identify new email, enrichment data, or field maps with active duplicate records and process them appropriately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/create-duplication-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/create-duplication-rules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -187,5 +187,5 @@ Select this check box to activate the action.
 </table>7.  Select **Submit**.
 
 
-**Parent Topic:**[Shared data transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/shared-data-transformation.md)
+**Parent Topic:**[Shared data transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/shared-data-transformation.md)
 

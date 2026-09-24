@@ -2,7 +2,7 @@
 title: Track the progress of a portfolio
 description: After confirming a scenario to complete planning of your portfolio, track the progress of the portfolio. You can also monitor the status of cost, resource, schedule, and scope for the selected fiscal period or planning window for the portfolio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/track-portfolio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-management/track-portfolio.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -61,7 +61,7 @@ Steps
 3.  Track the progress of your portfolio by reviewing the status of key parameters in the **Timeline View** tab.
 
     -   Details such as planned and actual costs, variance, planned and end dates, and priorities for the selected demands and projects.
-    -   Identify the projects that are dependent on each other by viewing external dependencies between projects in a portfolio. For more information, see [Review external dependencies between projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.md).
+    -   Identify the projects that are dependent on each other by viewing external dependencies between projects in a portfolio. For more information, see [Review external dependencies between projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.md).
     -   Track the current status of an individual project by viewing the latest project status report by selecting the **Status Report** option.
     -   Track the progress of project tasks in an individual project in your portfolio using the **Planning Console** option. This option is available in the context menu for a project.
 4.  Check status information such as the overall health, schedule, cost, resources, and scope of all selected projects in the portfolio in the **Project KPIs** tab.
@@ -82,5 +82,5 @@ Steps
 6.  Track the risks, issues, decisions, actions, and the project change requests across all selected projects in the portfolio by going to the **Risks**, **Issues**, **Decisions**, **Actions**, and **Changes** tabs.
 
 
-**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/portfolio-planning-overview.md)
 

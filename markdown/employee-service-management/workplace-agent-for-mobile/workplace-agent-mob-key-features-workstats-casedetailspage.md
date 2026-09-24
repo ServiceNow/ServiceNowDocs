@@ -2,7 +2,7 @@
 title: Workplace Agent for mobile - Key features, actions, and case details
 description: The Workplace Agent for mobile lets you manage your workplace cases, maintenance cases, move cases and, tasks associated with them on the go using your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
@@ -267,5 +267,5 @@ For more actions, select the action menu \[Omitted image "wsdagentmob-actions.pn
     The option enables you to view all the attachments of the task at a single place.
 
 
-**Parent Topic:**[Workplace Agent for mobile - references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/workplace-agent-mobile-references.md)
+**Parent Topic:**[Workplace Agent for mobile - references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/workplace-agent-mobile-references.md)
 

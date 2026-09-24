@@ -2,7 +2,7 @@
 title: Outbound web services
 description: Outbound web services send data from your custom app to external systems. With outbound web services, your app can notify, request, or update external platforms in real time or on a schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-outbound-web-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/dev-get-start-outbound-web-services.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-22"
@@ -48,5 +48,5 @@ For more information about logging, see [Outbound web services: Logging](https:/
 
 Depending on the type of data your app is exchanging, consider adding mutual authentication to establish trust between your instance and the external system. Mutual authentication is critical when both sides are protecting sensitive data. For more information, see [Outbound web service mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundWebServicesMutualAuth.md).
 
-**Parent Topic:**[Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-integrations.md)
+**Parent Topic:**[Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-get-start-integrations.md)
 

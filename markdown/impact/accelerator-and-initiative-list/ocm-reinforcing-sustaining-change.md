@@ -2,7 +2,7 @@
 title: OCM: Reinforcing and Sustaining Change
 description: This Accelerator provides guided coaching to measure adoption, close post-go-live gaps, sustain behaviors through recognition and feedback loops, and build a long-term sustainment plan for your ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ocm-reinforcing-sustaining-change.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/ocm-reinforcing-sustaining-change.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -30,7 +30,7 @@ This Accelerator provides guided coaching to measure adoption, close post-go-liv
 ## Prerequisites
 
 -   Completion of an initial ServiceNow go-live and the availability of an appointed Platform Owner or OCM Lead.
--   Completion of [OCM: Managing Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/ocm-managing-change.md) or equivalent foundational change management work \(e.g., an established enablement strategy, active champion network, and baseline adoption data\) — is recommended before this engagement.
+-   Completion of [OCM: Managing Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ocm-managing-change.md) or equivalent foundational change management work \(e.g., an established enablement strategy, active champion network, and baseline adoption data\) — is recommended before this engagement.
 
 ## What You Get
 

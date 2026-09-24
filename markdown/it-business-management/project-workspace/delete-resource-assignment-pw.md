@@ -2,7 +2,7 @@
 title: Delete a resource assignment from Project Workspace
 description: Delete a resource assignment from Project Workspace. Deleting an assignment also deletes all associated resource allocations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/delete-resource-assignment-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/delete-resource-assignment-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -33,5 +33,5 @@ Role required: it\_project\_manager
     The resource assignment is deleted from the resource assignment pane.
 
 
-**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/resource-assignments-pw.md)
 

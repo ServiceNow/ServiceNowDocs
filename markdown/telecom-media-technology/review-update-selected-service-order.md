@@ -2,7 +2,7 @@
 title: Reviewing service order details
 description: Review the account, contact, dates, line items, and related details on the selected service order to make sure that everything is correct and complete. You perform these tasks in the same Customer Orders form that you use to review customer orders.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 7, 2025.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/review-update-selected-service-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/review-update-selected-service-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,21 +33,21 @@ Role required: sn\_ind\_tmt\_orm.service\_order\_agent, sn\_ind\_tmt\_orm.servic
 
     |Task|Description|
     |----|-----------|
-    |Review the order line items and related details|See [Review the line items and related details for a service order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-review-service-order-line-related-detail.md).|
-    |Review the order characteristics|See [Review and update the characteristic values on a service order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-review-update-service-order-char-values.md).|
-    |Review the order fulfillment tasks|See [Review and update the service order fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-service-order-tasks.md).|
+    |Review the order line items and related details|See [Review the line items and related details for a service order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-review-service-order-line-related-detail.md).|
+    |Review the order characteristics|See [Review and update the characteristic values on a service order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-review-update-service-order-char-values.md).|
+    |Review the order fulfillment tasks|See [Review and update the service order fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-service-order-tasks.md).|
 
 5.  When you finish reviewing and updating the entire service order, perform one of the following actions.
 
-<table id="choicetable_sdj_w33_bqb"><thead><tr><th align="left" id="d33483e193">
+<table id="choicetable_sdj_w33_bqb"><thead><tr><th align="left" id="d33487e193">
 
 Action
 
-</th><th align="left" id="d33483e196">
+</th><th align="left" id="d33487e196">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33483e202">
+</th></tr></thead><tbody><tr><td id="d33487e202">
 
 **Save the updated service order**
 
@@ -55,13 +55,13 @@ Description
 
 Select **Save**.
 
-</td></tr><tr><td id="d33483e214">
+</td></tr><tr><td id="d33487e214">
 
 **Approve the service order**
 
 </td><td>
 
-Select **Approve**. To learn more, see [Reviewing service orders for fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-review-approve-service-orders.md).**Note:** Only service order managers with an assigned \[sn\_ind\_tmt\_orm.service\_order\_manager\] role can approve service orders.
+Select **Approve**. To learn more, see [Reviewing service orders for fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-review-approve-service-orders.md).**Note:** Only service order managers with an assigned \[sn\_ind\_tmt\_orm.service\_order\_manager\] role can approve service orders.
 
 </td></tr></tbody>
 </table>

@@ -2,7 +2,7 @@
 title: Connect your integration engine to ServiceNow
 description: Configure your integration engine to POST HL7 v2.x messages to the ServiceNow HL7 endpoint so that messages are received, logged, and acknowledged automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-connect-integration-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-connect-integration-engine.html
 release: australia
 topic_type: task
 last_updated: "2026-05-11"

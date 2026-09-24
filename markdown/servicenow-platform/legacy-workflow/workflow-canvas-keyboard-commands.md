@@ -2,7 +2,7 @@
 title: Workflow drawing canvas keyboard commands
 description: Use keyboard commands to navigate and operate the Workflow Editor canvas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/workflow-canvas-keyboard-commands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/workflow-canvas-keyboard-commands.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -43,7 +43,7 @@ Set general workflow properties
 </td><td>
 
 1.  Press **Tab** until \[Omitted image "WorkflowPropertiesIcon.png"\] Alt text: Information icon is highlighted.
-2.  Press **Enter** to open [Workflow Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowProperties.md).
+2.  Press **Enter** to open [Workflow Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/r_WorkflowProperties.md).
 
 </td></tr><tr><td>
 
@@ -159,5 +159,5 @@ Jump to Top
 After tabbing through the entire workflow, \[Omitted image "JumptoTop.png"\] Alt text: The Jump to top button appears at the bottom of the listing. Press **Enter** to jump to the top of the Workflow drawing canvas.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow editor keyboard navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflow-keyboard-access.md)
+</table>**Parent Topic:**[Workflow editor keyboard navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/workflow-keyboard-access.md)
 

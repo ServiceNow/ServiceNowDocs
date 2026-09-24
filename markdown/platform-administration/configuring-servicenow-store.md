@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Store
 description: Configure your ServiceNow Store user account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/configuring-servicenow-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configuring-servicenow-store.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,5 +19,5 @@ Configure your ServiceNow Store user account.
 
 The ServiceNow Store is a marketplace of applications, integrations, and products that work with the ServiceNow AI Platform. You can log in to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) using your Now Support account credentials by default.
 
-To configure application-specific notification settings, see [Configure ServiceNow Store application notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-store-notifications.md).
+To configure application-specific notification settings, see [Configure ServiceNow Store application notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-store-notifications.md).
 

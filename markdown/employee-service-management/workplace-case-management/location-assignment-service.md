@@ -2,7 +2,7 @@
 title: Workplace Location Assignment service
 description: The Workplace Location Assignment service automatically assigns a workplace location to an employee.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/location-assignment-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/location-assignment-service.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -45,7 +45,7 @@ The service contains the following activities:
     This activity is triggered if no recommended locations are found for the employee. The activity creates a task where a space planner must manually assign a location to the employee.
 
 
-**Parent Topic:**[Workplace Case Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workpalce-case-mgmt-references.md)
+**Parent Topic:**[Workplace Case Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workpalce-case-mgmt-references.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure live updates for lists
 description: Add a system property that enables you to configure live updates for lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/live-list-updates-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/live-list-updates-configurable-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -69,5 +69,5 @@ Use this procedure to enable the system property required to configure live upda
 
 ## What to do next
 
-Configure live updates for a page without affecting other lists in your workspace. For instructions, see [Configure live updates for a list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/live-list-updates-page-level.md).
+Configure live updates for a page without affecting other lists in your workspace. For instructions, see [Configure live updates for a list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/live-list-updates-page-level.md).
 

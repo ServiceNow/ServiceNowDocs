@@ -2,7 +2,7 @@
 title: Work items in RPA Hub
 description: A work item is a record in a work queue that stores the data a robot needs to perform a specific task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/work-items-rpa-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/work-items-rpa-hub.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,10 +26,10 @@ Each item in the queue is processed separately, allowing robots to handle large 
     -   Flexibility: Enables parallel processing of large data sets.
 
 
--   **[Manage your work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-work-queue-items.md)**  
+-   **[Manage your work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-work-queue-items.md)**  
 Manage your work items more efficiently in RPA Hub. You can view your work items, mark them as complete, and reassign a work item.
--   **[Using auto-retry functionality for your failed work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/auto-retry-wqi-rpa.md)**  
+-   **[Using auto-retry functionality for your failed work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/auto-retry-wqi-rpa.md)**  
 You can use auto-retry functionality in RPA Hub to retry the failed items automatically in your work queue. The retry functionality is based on the **Application** exception type only.
 
-**Parent Topic:**[Using RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-rpa-hub.md)
+**Parent Topic:**[Using RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-rpa-hub.md)
 

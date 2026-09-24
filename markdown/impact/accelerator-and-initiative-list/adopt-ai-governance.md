@@ -2,7 +2,7 @@
 title: Adopt AI Governance
 description: This Accelerator guides customers through the process of establishing and managing an Artificial Intelligence Management System \(AIMS\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/adopt-ai-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/adopt-ai-governance.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

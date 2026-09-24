@@ -2,7 +2,7 @@
 title: Request permission to travel
 description: Before booking travel in a travel management system, request permission for your trip. Your manager or a travel approver can approve or reject your request based on infectious diseases, such as COVID-19 case data and a site safety evaluation for your destination.Before booking travel in a travel management system, follow these steps to request permission for your trip.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-travel-safety/ets-request-travel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-travel-safety/ets-request-travel.html
 release: australia
 product: Employee Travel Safety
 classification: employee-travel-safety
@@ -28,7 +28,7 @@ Use the following process when requesting permission to travel:
 6.  Travel requesters can check the status of their requests on the **Requests** tab in the service portal or the ESC.
 7.  Managers or approval team members can view employee travel requests from the **Employee Travel Safety** form.
 
-**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-travel-safety/employee-travel-safety.md)
+**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-travel-safety/employee-travel-safety.md)
 
 ## Create a request to travel
 

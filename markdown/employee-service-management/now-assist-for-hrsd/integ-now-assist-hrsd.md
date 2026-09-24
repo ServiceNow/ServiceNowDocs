@@ -2,7 +2,7 @@
 title: ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework
 description: Enable employees to complete actions in third-party Human Capital Management \(HCM\) systems with ServiceNow Otto Virtual Agent topics in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/integ-now-assist-hrsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/integ-now-assist-hrsd.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -26,12 +26,12 @@ ServiceNow Otto for HRSD integration with Enterprise Service Management Integrat
 
 ## Set up
 
-Verify that the [configuration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/config-va-topics.md) are complete to use the ServiceNow Otto for HRSD Virtual Agent topics in Employee Center. For more details, see [ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.md).
+Verify that the [configuration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/config-va-topics.md) are complete to use the ServiceNow Otto for HRSD Virtual Agent topics in Employee Center. For more details, see [ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.md).
 
--   **[ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.md)**  
+-   **[ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.md)**  
 Use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

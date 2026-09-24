@@ -2,7 +2,7 @@
 title: View a purchase order confirmation
 description: As an Operational Buyer, view a purchase order confirmation associated with a purchase order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/view-purchase-order-confirmation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/view-purchase-order-confirmation.html
 release: australia
 topic_type: task
 last_updated: "2026-09-03"
@@ -41,5 +41,5 @@ Role required: sn\_poem\_core.operational\_buyer
     You can view the confirmation details and associated confirmation lines.
 
 
-**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-mgmt-ws.md)
+**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purch-order-mgmt-ws.md)
 

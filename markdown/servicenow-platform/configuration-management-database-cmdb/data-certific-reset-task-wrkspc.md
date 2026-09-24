@@ -2,7 +2,7 @@
 title: Reset a certification task
 description: Reset a certification task to restart the certification process for the task. Reset sets all certification results for the task to 'Review not completed', removes any added comments, and adds the task to the list of tasks that need review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -24,7 +24,7 @@ Resetting a data certification task doesn't affect any field values that were up
 
 The task that you want to reset must have at least one attribute that is already reviewed \(certified or failed\).
 
-Role required: data\_manager\_user or a user that has access to the task. For information about configuring user assignments for policy tasks, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+Role required: data\_manager\_user or a user that has access to the task. For information about configuring user assignments for policy tasks, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Set up third-party contacts
 description: Set up your third-party contacts so that you can send assessments, address issues, and communicate any additional required information with these contacts using Third-party Risk Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -41,7 +41,7 @@ Third-party contacts are external users at the third-party organization. They us
             **Note:** The questionnaires, document requests, and issues that are currently assigned to the contact are listed in the associated tab.
 
         -   If you don't have the admin role, ask a user who does to verify that the vendor\_contact role appears for the user on the Roles related list. If the user with the admin role can't see the Roles related list, they have to go to step 4. If the user with the admin role can't see the vendor\_contact role listed for the user, they have to go to step 5.
-        **Note:** For more information on managing third-party contacts, see [Manage the access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md).
+        **Note:** For more information on managing third-party contacts, see [Manage the access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md).
 
     -   To add a contact, select **New** and continue with the following steps.
     **Note:** It’s normal for a contact to have the snc\_external role because the vendor\_contact role includes it.

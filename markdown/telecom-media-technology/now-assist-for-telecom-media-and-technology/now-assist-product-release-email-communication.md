@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection Product release email communication agentic workflow
 description: Automatically draft, refine, and distribute product release announcement emails to designated recipients using the most recent release information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-product-release-email-communication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-product-release-email-communication.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

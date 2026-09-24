@@ -2,7 +2,7 @@
 title: Build a flow from a template in App Engine Studio
 description: Step through an example of how to build, test, and activate a flow using a flow template in App Engine Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/build-flow-from-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/build-flow-from-template.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -94,7 +94,7 @@ To help you get started with building a flow from a flow template, follow along 
 
 21. On the Execution Details page, see the values that populated for the trigger and each automated action in your flow.
 
-    For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+    For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-details.md).
 
 22. Navigate back to your flow.
 
@@ -103,5 +103,5 @@ To help you get started with building a flow from a flow template, follow along 
 
 ## What to do next
 
-Your flow is now active and will run whenever it's triggered. Next, you can manage your flow every time it runs by viewing your flow's execution history. To view this history, click **Executions** in the main header. The resulting page shows you the state of completion for each flow execution as well as how long it took for each flow execution to run, or its runtime. To troubleshoot a flow execution for errors, select an execution from this list to open the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+Your flow is now active and will run whenever it's triggered. Next, you can manage your flow every time it runs by viewing your flow's execution history. To view this history, click **Executions** in the main header. The resulting page shows you the state of completion for each flow execution as well as how long it took for each flow execution to run, or its runtime. To troubleshoot a flow execution for errors, select an execution from this list to open the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-details.md).
 

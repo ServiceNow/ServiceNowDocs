@@ -2,7 +2,7 @@
 title: Workflow roles
 description: Certain roles are required to use workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_WorkflowRoles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/r\_WorkflowRoles.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -54,7 +54,7 @@ Web service administrator
 
 </td><td>
 
-Accesses and uses REST and SOAP messages in the [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md). Creates and edits custom activities that use the REST web service and SOAP web service templates.
+Accesses and uses REST and SOAP messages in the [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md). Creates and edits custom activities that use the REST web service and SOAP web service templates.
 
 </td></tr><tr><td>
 
@@ -87,5 +87,5 @@ Workflow publisher
 Checks out with force checkout option, validates, publishes, and deletes graphical workflows.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
+</table>**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
 

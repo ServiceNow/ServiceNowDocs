@@ -2,7 +2,7 @@
 title: Associate consumer criteria to a remote record producer
 description: In the provider instance, associate the appropriate consumer criteria to the remote record producer created for a remote catalog item. The consumer criteria determines which consumers are entitled to the catalog item. Service Exchange automatically generates the entitlement records that are replicated to eligible consumer instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/associate-criteria-remote-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/associate-criteria-remote-catalog.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: sn\_sb.admin or admin
 
 ## What to do next
 
-[Activate the entitlements for the remote record producer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-entitlements-sb-consumer.md)
+[Activate the entitlements for the remote record producer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activate-entitlements-sb-consumer.md)
 

@@ -2,7 +2,7 @@
 title: Work with bookmarked apps in Creator Studio
 description: Bookmark an app to quickly find it in Creator Studio, as well as ServiceNow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/crs-work-with-bookmarked-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/crs-work-with-bookmarked-apps.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -36,7 +36,7 @@ To work on an app, your system administrator has to assign you the role of sn\_c
 
 2.  Find the app that you want to bookmark.
 
-    For details, check out [Find existing apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/view-apps-creator-studio-home-page.md).
+    For details, check out [Find existing apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/view-apps-creator-studio-home-page.md).
 
 3.  Select the bookmark icon \[Omitted image "crs-bookmark-icon.png"\] Alt text: for the app that you want to bookmark.
 
@@ -51,5 +51,5 @@ Find your bookmarked app by selecting the **Bookmarks** pill on the Creator Stud
 
 **Note:** If you've entered text in the search bar, your bookmarked app won't appear unless it matches the search criteria. To see all bookmarked apps, make sure you've cleared the search bar.
 
-**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/building-apps-with-creator-studio.md)
 

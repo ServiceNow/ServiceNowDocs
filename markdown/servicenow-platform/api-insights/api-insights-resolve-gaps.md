@@ -2,7 +2,7 @@
 title: Identifying and remediating missing API data in API Insights
 description: Identify and remediate missing API data in the API Insights workspace by linking missing elements and verifying complete API records.Improve the operational efficiency of the API ecosystem within your organization by creating a relationship or reference for APIs that lack key attributes such as business context, ownership groups, product models, or designs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-resolve-gaps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/api-insights/api-insights-resolve-gaps.html
 release: australia
 product: API Insights
 classification: api-insights

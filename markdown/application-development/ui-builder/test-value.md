@@ -2,7 +2,7 @@
 title: Test values in a page
 description: Add test values to your URL as a way to bring test data into a page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/test-value.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/test-value.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -26,5 +26,5 @@ To get test values to show data, add a data resource, then configure the data re
 
 \[Omitted image "test-values.png"\] Alt text: Edit test values for URL parameters popup displayed with required and optional parameter fields.
 
-**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md)
+**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-pages.md)
 

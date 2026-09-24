@@ -2,7 +2,7 @@
 title: Configure inbound decisions in ServiceNow instance
 description: Specify events in your Slack spoke application for which actions must be performed in ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/conf-inbound-slack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/conf-inbound-slack.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -69,7 +69,7 @@ Condition
 
 </td><td>
 
-Conditions to be met in your Slack application for which actions must be performed in ServiceNow instance. For updating relevant record in your ServiceNow instance, specify the **Action ID** value you had provided while [configuring outbound configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-outbound-slack.md) in the condition.
+Conditions to be met in your Slack application for which actions must be performed in ServiceNow instance. For updating relevant record in your ServiceNow instance, specify the **Action ID** value you had provided while [configuring outbound configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/conf-outbound-slack.md) in the condition.
 
 **Note:** **Action ID** of the outbound configuration must be used in the relevant inbound decision to complete the flow. For example, **Action ID** of the Approval Message outbound configuration is provided in the Approval Decision inbound decision. This ensures that upon the request approval or rejection, update is made to the relevant record in your ServiceNow instance.
 
@@ -80,6 +80,6 @@ Conditions to be met in your Slack application for which actions must be perform
 
     **Note:** These inbound decisions are saved in the Decision tables. Users are cautioned against directly updating or modifying data in these tables.
 
-    If you want to display modals in Slack, see [Configure Slack modals in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-slack-modals.md).
+    If you want to display modals in Slack, see [Configure Slack modals in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/conf-slack-modals.md).
 
 

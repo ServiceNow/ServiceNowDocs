@@ -2,7 +2,7 @@
 title: Export demand financials as an Excel or CSV file
 description: Export the costs or baseline comparison data for a demand to share with stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/export-financials-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/export-financials-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

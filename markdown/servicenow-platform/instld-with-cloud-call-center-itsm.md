@@ -2,7 +2,7 @@
 title: Components installed with ServiceNow Voice for ITSM
 description: Several contact flows and operation handlers are installed with activation of the ServiceNow Voice for ITSM application \(sn\_cti\_itsm\_cnt\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instld-with-cloud-call-center-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instld-with-cloud-call-center-itsm.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ Several contact flows and operation handlers are installed with activation of th
 |createITSMInteraction|Creates an interaction|
 |fetchITSMInteraction|Fetches the details of an interaction|
 
-**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-reference.md)
+**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/ccc-reference.md)
 

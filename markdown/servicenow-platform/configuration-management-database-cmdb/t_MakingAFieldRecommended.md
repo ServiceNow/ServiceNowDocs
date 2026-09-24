@@ -2,7 +2,7 @@
 title: Set a CI field to be recommended
 description: Define a list of CI fields as recommended, noting that it is desirable that they are populated by a data source such as Discovery. You can then configure the CMDB completeness KPI to include recommended fields in its aggregated health reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_MakingAFieldRecommended.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/t\_MakingAFieldRecommended.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

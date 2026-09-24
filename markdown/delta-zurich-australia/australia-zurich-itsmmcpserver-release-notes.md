@@ -2,10 +2,10 @@
 title: Combined ITSM MCP Server release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for ITSM MCP Server from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-itsmmcpserver-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-itsmmcpserver-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -469,5 +469,5 @@ Using ITSM MCP Server, manage incidents, change requests, and on-call schedule. 
  See [\[Placeholder link text to key itsm-mcp-server-overview\]](https://www.servicenow.com/docs/access?context=itsm-mcp-server-overview&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

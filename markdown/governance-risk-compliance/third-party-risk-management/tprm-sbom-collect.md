@@ -2,7 +2,7 @@
 title: Request a software bill of materials from an engagement
 description: Turn on SBOM collection on a due diligence request and send the external assessment to collect SBOM data from an engagement contact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -26,12 +26,12 @@ Turn on SBOM collection on a due diligence request and send the external assessm
 
     -   SBOM Response \(sn\_sbom\_resp\)
     -   Vulnerability Response \(sn\_vul\)
-    For more information see, [Activate SBOM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-activate.md).
+    For more information see, [Activate SBOM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/sbom-activate.md).
 
 -   Confirm that the engagement uses the Smart Assessment Engine. SBOM collection isn't supported for Classic assessments.
 -   Inform the engagement contact that they will receive an external assessment requesting an SBOM file in JSON or XML format. The third party generates this file using their own tooling. The ServiceNow platform does not create or edit SBOM files.
 
-**Important:** Depending on your entitlements, some SBOM capabilities require additional configuration. For more information, see [Activate SBOM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-activate.md).
+**Important:** Depending on your entitlements, some SBOM capabilities require additional configuration. For more information, see [Activate SBOM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/sbom-activate.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager or sn\_vdr\_risk\_asmt.vendor\_risk\_assessor
 
@@ -62,7 +62,7 @@ Steps
 1.  Initiate the due diligence request.
 2.  Select **SBOM required**.
 3.  Complete the request.
- For details, see [Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.md).
+ For details, see [Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.md).
 
 </td></tr><tr><td id="d251493e240">
 
@@ -89,18 +89,18 @@ Steps
 
 ## What to do next
 
-After the external assessment is submitted, review the submission outcome. For details, see [Review an SBOM submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-review.md).
+After the external assessment is submitted, review the submission outcome. For details, see [Review an SBOM submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/sbom-review.md).
 
 **Related topics**  
 
 
-[Exploring software bill of materials collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-exploring.md)
+[Exploring software bill of materials collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-sbom-exploring.md)
 
-[Collecting software bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom.md)
+[Collecting software bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-sbom.md)
 
-[Activate SBOM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-activate.md)
+[Activate SBOM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/sbom-activate.md)
 
-[Review an SBOM submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-review.md)
+[Review an SBOM submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/sbom-review.md)
 
-[SBOM records and relationships in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-relationship.md)
+[SBOM records and relationships in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-sbom-relationship.md)
 

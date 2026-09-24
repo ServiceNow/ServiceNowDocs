@@ -2,7 +2,7 @@
 title: Customer History component features
 description: Customer service agents can use several features in the Customer History component to view customer, consumer, or account history information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-history-component-features.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-history-component-features.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ When an agent selects a facet:
 
 ## Customer History access 
 
-Starting with the Yokohama release, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md) includes the Customer History component. This component ensures that agents can easily view customer details without navigating away from the case page.
+Starting with the Yokohama release, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page.md) includes the Customer History component. This component ensures that agents can easily view customer details without navigating away from the case page.
 
 Select the **Customer History** tab in the contextual side panel to access customer history.
 

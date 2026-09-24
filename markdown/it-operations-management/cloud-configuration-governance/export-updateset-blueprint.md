@@ -2,7 +2,7 @@
 title: Move a blueprint from one environment to another
 description: Use update sets to move a blueprint and its dependencies from one environment to another. Update sets let you group a blueprint and its dependencies into a named set and then move them as a unit to other systems for testing or deployment. For example, you can move a blueprint from a development environment to a production environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/export-updateset-blueprint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/export-updateset-blueprint.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

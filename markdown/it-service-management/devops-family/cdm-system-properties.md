@@ -2,7 +2,7 @@
 title: CDM system properties
 description: CDM system properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-system-properties.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

@@ -2,7 +2,7 @@
 title: Reviewing CI reliability with an MCP Client
 description: Use an AI-enabled MCP Client that is connected to your ServiceNow environment through the ITOM MCP Server Console to review configuration item \(CI\) reliability and topology. In addition, the MCP Client can assess incident impact on reliability and create service level objectives \(SLOs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-mcp-server-ci-reliability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-mcp-server-ci-reliability.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-09"

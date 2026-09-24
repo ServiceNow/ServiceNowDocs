@@ -2,7 +2,7 @@
 title: Configure intraday optimization
 description: Continuously run schedule optimization at selected intervals throughout the day to efficiently reassign tasks and maximize productivity. Additionally, enable dispatchers to run optimization on demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-intraday-optimization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/configure-intraday-optimization.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -18,7 +18,7 @@ Continuously run schedule optimization at selected intervals throughout the day 
 
 ## Before you begin
 
-Configure the scheduling attributes and activate intraday optimization. For more information see, [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) and [Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-intraday-optimization.md).
+Configure the scheduling attributes and activate intraday optimization. For more information see, [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) and [Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/activate-intraday-optimization.md).
 
 Role required: wm\_admin
 
@@ -30,7 +30,7 @@ Role required: wm\_admin
 
 You can configure the schedule optimization engine to automatically update assigned work order tasks throughout the day as scheduling conditions change. Common conditions that trigger intraday optimization to run are an agent running late, an agent calling in sick, an agent using PTO, a task being canceled, or a new high priority task being added.
 
-You can also enable dispatchers to manually trigger optimization to run from the Dispatcher Workspace when the intraday on demand optimization configuration is enabled and an on demand applicable policy has been added to the scheduling attribute. See [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) to add an on-demand applicable policy to the configuration.
+You can also enable dispatchers to manually trigger optimization to run from the Dispatcher Workspace when the intraday on demand optimization configuration is enabled and an on demand applicable policy has been added to the scheduling attribute. See [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) to add an on-demand applicable policy to the configuration.
 
 ## Procedure
 
@@ -86,5 +86,5 @@ Intraday Optimization is configured to run at defined intervals and on demand, a
 **Related topics**  
 
 
-[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
+[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 

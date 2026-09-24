@@ -2,7 +2,7 @@
 title: Configure the display limit of iterations in EAP Backlog
 description: Create a system property to modify the limit on the number of iterations displayed for an EAP Team in its Backlog in Enterprise Agile Planning \(EAP\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/configure-the-display-limit-of-iterations-in-eap-backlog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/configure-the-display-limit-of-iterations-in-eap-backlog.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning

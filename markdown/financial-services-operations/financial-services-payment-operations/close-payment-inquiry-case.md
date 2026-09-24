@@ -2,7 +2,7 @@
 title: Close a payment inquiry case
 description: Close the case after you've created a claim case for the inquiry case or the customer has accepted your proposed solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -18,7 +18,7 @@ Close the case after you've created a claim case for the inquiry case or the cus
 
 ## Before you begin
 
-If the inquiry case is set to be a valid claim, ensure that you've [created a claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/create-claim-case-inquiry-case.md) for it.
+If the inquiry case is set to be a valid claim, ensure that you've [created a claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/create-claim-case-inquiry-case.md) for it.
 
 If you've proposed any other solution for the case, ensure that the customer has accepted your proposed solution.
 
@@ -55,5 +55,5 @@ For more information, see [Accept or reject a case solution from the Consumer Se
 
 A pre-configured email about the case closure is sent to the customer.
 
-**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
+**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
 

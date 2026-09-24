@@ -2,7 +2,7 @@
 title: Request additional information for a finance case
 description: Request additional information from the requester to continue working on the finance inquiry case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/req-info-for-fin-inquiry-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/req-info-for-fin-inquiry-case.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -52,5 +52,5 @@ Role required: sn\_fin\_ops.specialist
 
 You can see the reason in the activity stream. The requester receives an email requesting additional information.
 
-**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

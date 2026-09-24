@@ -2,7 +2,7 @@
 title: Schedule Plan details form
 description: The details form helps you select the project and schedule for your schedule plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/schedule-plan-details-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/schedule-plan-details-form.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -114,7 +114,7 @@ End date of the workspace assignments.
 </td></tr></tbody>
 </table>**Note:** You can edit a schedule plan only if it is in the Draft state. If the schedule plan is not in the Draft state, you can only change the **Name**, **Assigned to**, and **Description** fields.
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

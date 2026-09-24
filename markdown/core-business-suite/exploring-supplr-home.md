@@ -2,7 +2,7 @@
 title: Exploring supplier support
 description: Explore the home page for the supplier requester persona along with the associated functionalities available with Core Business Suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/exploring-supplr-home.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/exploring-supplr-home.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -53,6 +53,6 @@ Manually assigned to users by the admin who has access to the Supplier Collabora
 To learn more about configuring and using Core Business Suite, see:
 
 -   
--   [Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-using-parent.md)
--   [Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+-   [Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-using-parent.md)
+-   [Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-reference-parent.md)
 

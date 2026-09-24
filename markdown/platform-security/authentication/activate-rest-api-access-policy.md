@@ -2,7 +2,7 @@
 title: Activate REST API access policy
 description: You can activate the REST API Access Policy plugin \(com.glide.rest.policy\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-rest-api-access-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/activate-rest-api-access-policy.html
 release: australia
 product: Authentication
 classification: authentication
@@ -25,7 +25,7 @@ The following items are installed with REST API Access Policy:
 -   Plugins: com.gilde.auth.profile, com.snc.adaptive\_authentication, com.snc.platform.security.oauth
 -   Tables: sys\_api\_access\_policy, sys\_auth\_profile\_mapping, auth\_policy\_mapping, inbound\_auth\_profile, std\_http\_auth.
 
-For more information, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication.md).
+For more information, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-authentication.md).
 
 ## Procedure
 

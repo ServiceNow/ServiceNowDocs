@@ -2,7 +2,7 @@
 title: Activate Release Management
 description: Activate the Release Management plugin \(com.snc.release\_management\_v2\) with the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/t\_ActivateReleaseManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/release-management/t\_ActivateReleaseManagement.html
 release: australia
 product: Release Management
 classification: release-management
@@ -35,8 +35,8 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/components-installed-with-release-management-v2.md)**  
+-   **[Components installed with Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/release-management/components-installed-with-release-management-v2.md)**  
 Several types of components are installed with activation of the Release Management v2 plugin, including tables and user roles.
 
-**Parent Topic:**[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_ITILReleaseManagement.md)
+**Parent Topic:**[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/release-management/c_ITILReleaseManagement.md)
 

@@ -2,7 +2,7 @@
 title: Custom Metric form
 description: Description of the field values for the Custom Metric form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/custom-metric-form-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/custom-metric-form-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -99,5 +99,5 @@ Value parameters
 Value pairs that are passed to the custom metric type renderers. For example, in star ratings, you can pass a value as 5 for 5 stars or 10 for 10 stars.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/survey-reference.md)
 

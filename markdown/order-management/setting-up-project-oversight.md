@@ -2,7 +2,7 @@
 title: Setting up project oversight conditions and decision rules
 description: As an admin, you create and maintain the conditions and decision rules that determine whether an order item qualifies as a project that can be tracked in Strategic Portfolio Management. You also specify the project template that Order Management uses to create that project for the order item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/setting-up-project-oversight.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/setting-up-project-oversight.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

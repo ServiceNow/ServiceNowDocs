@@ -2,7 +2,7 @@
 title: Find and replace text in knowledge articles
 description: Make global changes to the content of a knowledge article by finding and replacing specific text using the HTML editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/find-replace-html-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/find-replace-html-editor.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -22,7 +22,7 @@ Open the knowledge article in which you want to use the HTML editor.
 
 ## About this task
 
-You can also use the HTML editor when creating or editing a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface or in Agent Workspace. To create or edit a knowledge article in the ServiceNow AI Platform interface, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md) or [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md). To create or edit a knowledge article in Agent Workspace, see [Create a knowledge article in Agent Workspace]() or [Edit a knowledge article in Agent Workspace]().
+You can also use the HTML editor when creating or editing a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface or in Agent Workspace. To create or edit a knowledge article in the ServiceNow AI Platform interface, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-knowledge-article.md) or [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-knowledge-article.md). To create or edit a knowledge article in Agent Workspace, see [Create a knowledge article in Agent Workspace]() or [Edit a knowledge article in Agent Workspace]().
 
 ## Procedure
 
@@ -42,15 +42,15 @@ You can also use the HTML editor when creating or editing a knowledge article us
     -   To limit the search to text that matches one or more complete words only, select the **Whole words** check box.
 6.  Find or replace the search term.
 
-<table id="choicetable_sht_yjb_xlb"><thead><tr><th align="left" id="d630680e164">
+<table id="choicetable_sht_yjb_xlb"><thead><tr><th align="left" id="d631342e164">
 
 To
 
-</th><th align="left" id="d630680e167">
+</th><th align="left" id="d631342e167">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d630680e173">
+</th></tr></thead><tbody><tr><td id="d631342e173">
 
 **Find instances of the search text**
 
@@ -58,7 +58,7 @@ Do this
 
 Click **Find**.
 
-</td></tr><tr><td id="d630680e185">
+</td></tr><tr><td id="d631342e185">
 
 **Replace individual instances of the found text with the replacement text entered in the __Replace with__ field**
 
@@ -66,7 +66,7 @@ Click **Find**.
 
 Click **Replace**.Use the **Prev** and **Next** buttons to navigate to the previous and next instance of the search term, respectively.
 
-</td></tr><tr><td id="d630680e209">
+</td></tr><tr><td id="d631342e209">
 
 **Replace all instances of the search text automatically in the selected field**
 

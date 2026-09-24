@@ -2,7 +2,7 @@
 title: Assignment Rule form
 description: When creating or changing an Advanced Work Assignment assignment rule, the Assignment Rule form contains the following fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-assignment-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-assignment-rules.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

@@ -2,7 +2,7 @@
 title: Create a work plan with Customer Service Management \(CSM\)
 description: Create a work plan so that you can plan and delegate field service agents to fulfill the planned maintenance operations for an install base item on the Customer Service Management \(CSM\) \(CSM\) application and CSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-work-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-work-plans.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

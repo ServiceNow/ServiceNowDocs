@@ -2,7 +2,7 @@
 title: Select the current update set in Unified Navigation
 description: You can change the current update set at any time using the update set picker in Unified Navigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/select-update-set-system-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/system-update-sets/select-update-set-system-settings.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -43,7 +43,7 @@ When you change your application scope, the system automatically switches the cu
 
 The update set picker is part of the Next Experience picker. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).
 
-For more information about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
+For more information about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_ApplicationScope.md).
 
-**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/using-system-update-sets.md)
 

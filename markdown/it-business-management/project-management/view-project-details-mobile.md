@@ -2,7 +2,7 @@
 title: View project details on the mobile app
 description: You can view the status of a project and other project details such as financial data, status reports, risks, and decisions through the mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/view-project-details-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/view-project-details-mobile.html
 release: australia
 product: Project Management
 classification: project-management
@@ -35,5 +35,5 @@ Role required: portfolio\_manager or project\_manager or program\_manager
 **Related topics**  
 
 
-[Manage status of your projects using Project Status application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/mobile-project-status.md)
+[Manage status of your projects using Project Status application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/mobile-project-status.md)
 

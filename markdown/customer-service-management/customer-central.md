@@ -2,7 +2,7 @@
 title: Customer Central
 description: Customer Central provides customer service agents with all the information about the customer in one central place. It enables them to quickly zoom in on the customer issues and provide efficient and supportive service to their customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-central.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Customer Central provides customer service agents with all the information about
 
 Customer service agents or location agents can view customer central on the interaction, case, account, contact, or consumer records in CRM Workspace in the form of two views: Customer Information and Customer History.
 
-Starting with the Yokohama release, the [Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md) displays customer activity information on some record pages in CRM Workspace.
+Starting with the Yokohama release, the [Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md) displays customer activity information on some record pages in CRM Workspace.
 
 ## Customer Information view
 
@@ -26,7 +26,7 @@ The Customer Information view displays key information about the customer and a 
 
 ## Customer History view
 
-The Customer History view displays all the recent customer touch points with the service organization in the form of an activity feed. If the [Enable facets check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-history-component-features.md) is selected in UI Builder, facets appear on the left-hand side. Otherwise, a filter icon is displayed. The data in the activity feed is displayed based on the facet or filter you select. It contains a number of predefined categories and activities that are highly configurable, or you can create your own. You can also select a date range to display the data for.
+The Customer History view displays all the recent customer touch points with the service organization in the form of an activity feed. If the [Enable facets check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-history-component-features.md) is selected in UI Builder, facets appear on the left-hand side. Otherwise, a filter icon is displayed. The data in the activity feed is displayed based on the facet or filter you select. It contains a number of predefined categories and activities that are highly configurable, or you can create your own. You can also select a date range to display the data for.
 
 \[Omitted image "customer-activity.png"\] Alt text: Customer History tab listing different categories of customer engagement activities and the activity feed details for a selected facet.
 
@@ -55,10 +55,10 @@ The Customer History component includes the Customer tab. This tab displays cust
 
 The Customer History component is available on the following record pages in CRM Workspace:
 
--   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md): Appears in the contextual side panel.
--   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md): Appears in the left pane.
+-   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page.md): Appears in the contextual side panel.
+-   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md): Appears in the left pane.
 
-Users with the system administrator role can add this component to a record page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) and [configure the component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central-configuration.md).
+Users with the system administrator role can add this component to a record page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) and [configure the component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central-configuration.md).
 
 The Customer History component can be configured to display a **Call Transcript** tab. This tab displays the text of the live call transcript when a conversation record is present for the interaction.
 
@@ -71,8 +71,8 @@ The Call transcript tab is visible to users if configured in the provider applic
 
 For more information about the Customer history component, see the following topics:
 
--   [Customer History component features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-history-component-features.md)
--   [Configuring the Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central-configuration.md)
+-   [Customer History component features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-history-component-features.md)
+-   [Configuring the Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central-configuration.md)
 -   [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades)
 
 ## Customer Central plugin
@@ -88,7 +88,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 **Related topics**  
 
 
-[Configure Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-central.md)
+[Configure Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-customer-central.md)
 
-[Use Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-customer-central.md)
+[Use Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-customer-central.md)
 

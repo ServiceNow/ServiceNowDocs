@@ -2,7 +2,7 @@
 title: Components installed with ITSM Roles — Incident Management
 description: Several user roles are installed with activation of the ITSM Roles — Incident Management plugin \(com.snc.itsm.roles.incident\_management\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/inci-roles-instld-itsm-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/inci-roles-instld-itsm-roles.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -112,5 +112,5 @@ Configures all Incident Management features including incident management proper
 -   sn\_bm\_client\_benchmark\_data\_viewer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/req-itsm-roles-inci-mgmt.md)
+</table>**Parent Topic:**[Request ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/req-itsm-roles-inci-mgmt.md)
 

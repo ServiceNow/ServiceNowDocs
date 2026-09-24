@@ -2,7 +2,7 @@
 title: Create and train a clustering solution
 description: Group similar records into clusters so you can address them collectively or identify patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/create-clustering-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/create-clustering-solution.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -26,7 +26,7 @@ Role required: ml\_admin or admin
 
 In this example procedure, you're creating a solution to identify a major incident by grouping similar incidents that have occurred recently.
 
-For information on using encrypted training data, see [Data Encryption in Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-encryption.md).
+For information on using encrypted training data, see [Data Encryption in Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/predictive-intelligence-encryption.md).
 
 ## Procedure
 
@@ -70,7 +70,7 @@ If you have a legacy clustering solution, you can select a relevant word corpus 
 
  **Note:** With the Australia release, a word corpus is not required, because a pre-trained model is used instead. The **Word Corpus** field is not visible in the definition form for pre-trained models.
 
- For more information, see [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-word-corpus.md).
+ For more information, see [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-word-corpus.md).
 
 </td></tr><tr><td>
 

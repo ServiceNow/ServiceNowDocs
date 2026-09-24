@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Creator
 description: ServiceNow Otto for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/now-assist-for-creator-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-creator/now-assist-for-creator-landing.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -29,23 +29,23 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 <table id="table_jb4_kgc_r1c_ddd" class="nav-card"><tbody><tr><td>
 
-[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install ServiceNow Otto for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install ServiceNow Otto for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 
 </td><td>
 
-[App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
+[App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
 
 </td><td>
 
-[App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
+[App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
 
 </td></tr><tr><td>
 
-[ATF troubleshooting agent\[Omitted image "bus-field-service-technician.svg"\] Alt text:Simplify test failure diagnosis on specific metadata.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-troubleshooting-agent-landing-page.md)
+[ATF troubleshooting agent\[Omitted image "bus-field-service-technician.svg"\] Alt text:Simplify test failure diagnosis on specific metadata.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-troubleshooting-agent-landing-page.md)
 
 </td><td>
 
-[Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in ServiceNow Studio and the ServiceNow IDE.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)
+[Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in ServiceNow Studio and the ServiceNow IDE.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md)
 
 </td><td>
 
@@ -93,7 +93,7 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td><td>
 
-[Release lifecycle documentation AI agent\[Omitted image "bus-documentation.svg"\] Alt text:Generate readable documentation across the application lifecycle to improve traceability and governance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md)
+[Release lifecycle documentation AI agent\[Omitted image "bus-documentation.svg"\] Alt text:Generate readable documentation across the application lifecycle to improve traceability and governance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md)
 
 </td><td>
 
@@ -101,7 +101,7 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td></tr><tr><td>
 
-[Test generation \[Omitted image "bus-siem.svg"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/test-generation-intro.md)
+[Test generation \[Omitted image "bus-siem.svg"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/test-generation-intro.md)
 
 </td><td>
 
@@ -109,7 +109,7 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td><td>
 
-[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-landing.md)
+[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-landing.md)
 
 </td></tr><tr><td>
 

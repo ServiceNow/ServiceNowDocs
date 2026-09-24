@@ -2,7 +2,7 @@
 title: Display similar closed cases in Agent Workspace for HR Case Management
 description: Help an HR agent resolve the current case by displaying similar closed cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-similar-closed-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-similar-closed-case.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -33,7 +33,7 @@ The Similar Closed HR Cases \(ml\_sn\_sn\_hr\_core\_global\_similar\_closed\_hr\
 -   The Predictive Intelligence \(com.glide.platform\_ml\) plugin is installed.
 -   The **glide.platform\_ml.auto\_training.enabled** system property is either set to true or absent.
 
-**Parent Topic:**[Machine learning solutions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-ml-solutions.md)
+**Parent Topic:**[Machine learning solutions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-ml-solutions.md)
 
 **Related topics**  
 

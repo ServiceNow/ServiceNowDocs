@@ -2,7 +2,7 @@
 title: Configure the rescind process for a lifecycle event
 description: Cancel and revert work done in a lifecycle event case with the rescind process. Rescind activities can be defined to notify employees and departments when a case is rescinded, trigger automated flows, and revert work already completed, such as the provisioning of equipment or the setting up of a workplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -82,13 +82,13 @@ Activity type
 
 </td><td>
 
-Activity type of the rescind activity. Select one of the following activity types:-   [Approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
--   [Employee activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
--   [Fulfiller activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
--   [Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
--   [Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
--   [Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
--   [Activity container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+Activity type of the rescind activity. Select one of the following activity types:-   [Approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Employee activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Fulfiller activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Activity container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
 
 **Note:** For this activity type, there is no **Activity to rescind** field at the container level. When configuring the rescind member activities, you can select the corresponding activity to rescind at the member activity level.
 
@@ -120,5 +120,5 @@ Defines whether the activity should trigger for the lifecycle event case. You ca
 </table>    3.  Repeat the process as needed.
 
 
-**Parent Topic:**[Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md)
+**Parent Topic:**[Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md)
 

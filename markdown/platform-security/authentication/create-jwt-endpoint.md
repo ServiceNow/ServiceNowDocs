@@ -2,7 +2,7 @@
 title: Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)
 description: OAuth JWT bearer token enables the client web applications to authenticate with your instance seamlessly using the inbound JWT grant type instead of requiring the end user to manually log in or share the password.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-jwt-endpoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-jwt-endpoint.html
 release: australia
 product: Authentication
 classification: authentication
@@ -155,7 +155,7 @@ Enforce Token Restrictions
 
 </td><td>
 
-Select to only enable tokens to be used with APIs set to enable the authentication profile. You can set grant access using an API access policy. For more information, see [Create REST API access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-api-access-policy.md).Default: Unselected.
+Select to only enable tokens to be used with APIs set to enable the authentication profile. You can set grant access using an API access policy. For more information, see [Create REST API access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-api-access-policy.md).Default: Unselected.
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ Client Type
 Choose the client type, based on the type of your client. Options:-   **iframe Embedded**
 -   **Integration as a User**
 -   **Integration as a Service**
-To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/client-type.md).
+To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>    4.  Save the form.

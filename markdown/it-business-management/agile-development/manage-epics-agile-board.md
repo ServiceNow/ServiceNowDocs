@@ -2,7 +2,7 @@
 title: Manage your epic backlogs
 description: Create, update, and rearrange your epics by using a centralized view of epic backlogs on Agile Board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/manage-epics-agile-board.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/manage-epics-agile-board.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -27,7 +27,7 @@ Role required: it\_program\_manager, scrum\_user
 2.  From the **Program** tab, select **Backlog**.
 
     -   If an epic backlog exists, the page populates a list of epics that match the criteria of this backlog.
-    -   If you have no existing epic backlogs, see [Create an epic backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-epic-backlog.md).
+    -   If you have no existing epic backlogs, see [Create an epic backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/create-epic-backlog.md).
 3.  To switch between the available epic backlogs, select a backlog from the Backlog list.
 
 4.  To edit the selected backlog, click the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\).
@@ -105,5 +105,5 @@ Use the keyboard to rearrange a group of epics
 10. To view the backlog in a standard platform list, click the standard list view icon \(\[Omitted image "standard-list-icon.png"\] Alt text: Standard list view icon\).
 
 
-**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/scrum-programs-concept.md)
+**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/scrum-programs-concept.md)
 

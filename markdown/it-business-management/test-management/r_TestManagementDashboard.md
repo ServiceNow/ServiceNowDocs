@@ -2,7 +2,7 @@
 title: Test Management dashboard
 description: View test plan reports on the Test Management dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/r\_TestManagementDashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/r\_TestManagementDashboard.html
 release: australia
 product: Test Management
 classification: test-management

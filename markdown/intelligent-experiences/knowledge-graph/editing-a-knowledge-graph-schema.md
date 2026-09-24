@@ -2,7 +2,7 @@
 title: Edit a Knowledge Graph schema
 description: Edit a Knowledge Graph schema to customize or update the existing schema details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/editing-a-knowledge-graph-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/editing-a-knowledge-graph-schema.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

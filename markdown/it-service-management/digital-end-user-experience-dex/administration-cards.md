@@ -2,7 +2,7 @@
 title: Administration cards
 description: Use the administration cards to monitor and manage applications, policies, users, administrators, metric rules, and devices with Agent Client Collector installed. View compliance policies and manage DEX users and administrators from a single location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/administration-cards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/administration-cards.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -95,7 +95,7 @@ System compliance
 
 </td><td>
 
-Configure compliance system policies, manage applications, and set up metric rules for compliance-related thresholds.For more information, see [Manage your system compliance report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/manage-compliance-report.md).
+Configure compliance system policies, manage applications, and set up metric rules for compliance-related thresholds.For more information, see [Manage your system compliance report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/manage-compliance-report.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ File management
 
 </td><td>
 
-Configure and manage the executable files available on the end-user devices.For more information, see [Set up file management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/set-up-file-mgmt.md).
+Configure and manage the executable files available on the end-user devices.For more information, see [Set up file management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/set-up-file-mgmt.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Windows registry configuration
 
 Configure the Windows registry keys to identify and manage any mismatch in end-user devices.**Note:** Select the registry key path to edit the key by modifying the path or expected value. You can also delete the key.
 
-For more information, see [Set up Windows registry keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/set-up-win-registry-keys.md).
+For more information, see [Set up Windows registry keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/set-up-win-registry-keys.md).
 
 </td></tr><tr><td>
 
@@ -165,21 +165,21 @@ Desktop Assistant usage
 
 </td><td>
 
-Get an insight of Desktop Assistant usage across all your organization's employees. For more information, see [View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/view-da-usage-metrics.md).
+Get an insight of Desktop Assistant usage across all your organization's employees. For more information, see [View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/view-da-usage-metrics.md).
 
 </td></tr></tbody>
-</table>To return to the administration details page, see [DEX Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-workspace-administration-tab.md).
+</table>To return to the administration details page, see [DEX Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-workspace-administration-tab.md).
 
--   **[Application management card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/app-mngmt-card.md)**  
+-   **[Application management card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/app-mngmt-card.md)**  
 The Application management card shows the list of the used applications, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
--   **[New web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/admin-new-app-form.md)**  
+-   **[New web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/admin-new-app-form.md)**  
 Using a custom form, you can add an application to be monitored for compliance or performance metrics.
--   **[Edit web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/admin-edit-app-form.md)**  
+-   **[Edit web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/admin-edit-app-form.md)**  
 Using a custom form, you can edit an application to be monitored for compliance or performance metrics.
--   **[Metric rules page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/metric-rule-form.md)**  
+-   **[Metric rules page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/metric-rule-form.md)**  
 The metric rules page shows information about a specific rule, including its name, CI type, application name, alert severity, and alert status.
--   **[Agent policies list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/agent-policies-list.md)**  
+-   **[Agent policies list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/agent-policies-list.md)**  
 The agent policies list shows information about each agent policy including its name, status, cron expressions, and updated time.
 
-**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

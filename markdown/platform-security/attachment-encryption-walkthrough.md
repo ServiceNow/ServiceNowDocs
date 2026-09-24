@@ -2,7 +2,7 @@
 title: Attachment encryption walkthrough
 description: This walkthrough shows you how to encrypt an attachment in your instance using Field Encryption Enterprise with the Key Management Framework \(KMF\). It also shows you how to use your own key.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/attachment-encryption-walkthrough.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/attachment-encryption-walkthrough.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ This walkthrough shows you how to encrypt an attachment in your instance using F
 
 ## Before you begin
 
-**Note:** This procedure only applies to Field Encryption Enterprise functionality. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise.
+**Note:** This procedure only applies to Field Encryption Enterprise functionality. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise.
 
 Role required: sn\_kmf.cryptographic\_manager
 
@@ -36,7 +36,7 @@ We show you how to encrypt attachments to only be visible to users who are grant
 
 2.  Create a cryptographic module.
 
-    See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-PE-cryptographic-module.md) for more information.
+    See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/create-PE-cryptographic-module.md) for more information.
 
 3.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience**.
 
@@ -135,7 +135,7 @@ The **Single Module** option is used to apply the policies for one module. **Mul
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
-    Establish a Module Access Policy \(MAP\) to assign access to the cryptographic module. Refer to [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-module-access-policy.md) for additional information.
+    Establish a Module Access Policy \(MAP\) to assign access to the cryptographic module. Refer to [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/create-module-access-policy.md) for additional information.
 
 8.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience** &gt; **Configurations** &gt; **Access Policies**.
 
@@ -175,5 +175,5 @@ The **Single Module** option is used to apply the policies for one module. **Mul
 
 You have successfully used your customer-supplied key to control access to a specific attachment using Field Encryption Enterprise.
 
-**Parent Topic:**[Column Level Encryption Enterprise examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/kmf-walkthroughs-tutorials-2.md)
+**Parent Topic:**[Column Level Encryption Enterprise examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/kmf-walkthroughs-tutorials-2.md)
 

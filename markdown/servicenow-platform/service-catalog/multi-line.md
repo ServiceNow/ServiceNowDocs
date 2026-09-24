@@ -2,7 +2,7 @@
 title: Multi-line text
 description: The multi-line text variable creates a field that lets you enter multiple lines of text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/multi-line.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/multi-line.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -18,7 +18,7 @@ The multi-line text variable creates a field that lets you enter multiple lines 
 
 \[Omitted image "VariableAdditionalCommentsG.png"\] Alt text: A multi-line text variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -33,7 +33,7 @@ The multi-line text variable creates a field that lets you enter multiple lines 
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

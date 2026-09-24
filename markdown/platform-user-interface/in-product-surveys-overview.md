@@ -2,7 +2,7 @@
 title: In-Product Surveys
 description: Manage in-product surveys for your Next Experience instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/in-product-surveys-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/in-product-surveys-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-11"
@@ -47,5 +47,5 @@ Survey content shown is an example. Actual surveys reflect the ServiceNow produc
 
 The survey asks users to rate their experience on a 5-star scale and optionally provide additional feedback.
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 

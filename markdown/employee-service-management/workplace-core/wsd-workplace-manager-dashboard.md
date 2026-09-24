@@ -2,7 +2,7 @@
 title: Workplace manager dashboard
 description: Use the Workplace manager dashboard to monitor the space allocation and workplace maintenance activities at your office campus. For any given day, you can view the details for available spaces, space reservations, pending workplace requests, arrival times for different locations, employee arrivals, and maintenance tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/wsd-workplace-manager-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/wsd-workplace-manager-dashboard.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -70,5 +70,5 @@ sn\_wsd\_core.workplace\_manager
 |Unassigned cleaning tasks by day|Trend \[Omitted image "column-time-icon.png"\] Alt text: Trend over time icon|Trend of the number of active cleaning tasks per day that are not assigned to anyone and not in the Closed state. The cleaning tasks in this report have a due date between today and the next seven days and include all task types such as planned, unplanned, and ad hoc.|
 |Unassigned cleaning tasks|List|List of active workplace tasks that are not assigned to anyone and not in the Closed state.|
 
-**Parent Topic:**[Workplace dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-workplace-dashboards.md)
+**Parent Topic:**[Workplace dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-workplace-dashboards.md)
 

@@ -2,7 +2,7 @@
 title: Components installed with CMDB Health
 description: Several types of components are installed with CMDB Health \(included in the com.snc.cmdb plugin\), such as tables, properties, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r\_TablesInstalledCMDBHealth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/r\_TablesInstalledCMDBHealth.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -40,7 +40,7 @@ Maximum number of service CIs that can appear in the CMDB service dashboard. Thi
 -   Default: 10,000
 -   Range: 0-100,000
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
+-   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Maximum number of application services \(any class extending the Service \[cmdb\
 -   Default: 1,000
 -   Range: 1-10,000 \(If set lower than 1, defaults to 1\)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
+-   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Maximum number of CIs associated with application services \(any class extending
 -   Default: 1,000
 -   Range: 1-10,000 \(If set lower than 1, defaults to 1\)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
+-   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
 
 </td></tr></tbody>
 </table>## Scheduled jobs installed

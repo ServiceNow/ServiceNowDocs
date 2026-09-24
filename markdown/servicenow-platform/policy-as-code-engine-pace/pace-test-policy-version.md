@@ -2,7 +2,7 @@
 title: Test updates to a PaCE policy version
 description: Use the Test Playground to test updates to a PaCE policy script. You can evaluate changes to the policy script in real time, enabling you to determine if the changes that are applied render the policy compliant or non-compliant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-test-policy-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-test-policy-version.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

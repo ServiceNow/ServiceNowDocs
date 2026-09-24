@@ -2,7 +2,7 @@
 title: Add events to a team calendar
 description: Create a meeting, training, time-off request, or an adhoc work event from the team calendar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/add-event-calendar-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/add-event-calendar-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -32,15 +32,15 @@ Role required: sn\_hr\_wfo.admin
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d590292e99">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d590296e99">
 
 To
 
-</th><th align="left" id="d590292e102">
+</th><th align="left" id="d590296e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d590292e108">
+</th></tr></thead><tbody><tr><td id="d590296e108">
 
 **Create a meeting, training, or time-off request.**
 
@@ -65,7 +65,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d590292e212">
+</td></tr><tr><td id="d590296e212">
 
 **Create a work shift**
 
@@ -82,5 +82,5 @@ In the **Attendees** field, start typing the name of each of the attendees for t
 </table>6.  Click **Save**.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
 

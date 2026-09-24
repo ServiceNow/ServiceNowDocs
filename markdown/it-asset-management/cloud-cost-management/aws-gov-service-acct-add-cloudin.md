@@ -2,7 +2,7 @@
 title: Add an AWS GovCloud service account
 description: If your organization uses AWS GovCloud \(US\) regions, you create a service account for each region. The credentials that you create during the service account creation, are used for Cloud Discovery and Cloud Cost Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-gov-service-acct-add-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/aws-gov-service-acct-add-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -65,7 +65,7 @@ Discovery credentials
 
 </td><td>
 
-Name of the credentials that you created in the [Create an AWS IAM user policy for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-user-policy-create-cloudin.md) procedure.
+Name of the credentials that you created in the [Create an AWS IAM user policy for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-user-policy-create-cloudin.md) procedure.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ The service account gets created and displays the list of all discovered datacen
 **Related topics**  
 
 
-[Schedule and manage the jobs that download AWS billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-bill-dwnld-job-cloudin.md)
+[Schedule and manage the jobs that download AWS billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-bill-dwnld-job-cloudin.md)
 
-[Schedule and manage the Cloud Cost Management jobs that download AWS price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-pricesht-sched-dwnld-cloudin.md)
+[Schedule and manage the Cloud Cost Management jobs that download AWS price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-pricesht-sched-dwnld-cloudin.md)
 

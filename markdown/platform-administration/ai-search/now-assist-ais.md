@@ -2,14 +2,14 @@
 title: ServiceNow Otto for AI Search
 description: The ServiceNow Otto for AI Search application combines the power of search with a large language model \(LLM\) to provide actionable AI-generated or AI-selected answers in user searches. By constraining the context passed to the LLM, ServiceNow Otto for AI Search can increase the likelihood that LLM responses are grounded in indexed content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/now-assist-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/now-assist-ais.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
 last_updated: "2026-07-25"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -21,19 +21,19 @@ The ServiceNow Otto for AI Search application combines the power of search with 
 
 In Service Portal, Virtual Agent, Employee Center, and global searches, ServiceNow Otto for AI Search includes the following AI Genius Result configurations:
 
--   **[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)**
+-   **[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)**
 
     Summary Genius Results use your chosen LLM to generate actionable Genius Result answers synthesized from a variety of content sources. Answers can include content from knowledge articles, Service Catalog items, Knowledge Graph schema nodes, enhanced chat searches and conversations, and external content documents and attachments.
 
--   **[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)**
+-   **[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-qna-genius-results.md)**
 
     Knowledge base articles Genius Results use the LLM to generate actionable Genius Result answers from the most relevant knowledge article results.
 
--   **[External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-qna.md)**
+-   **[External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/external-content-qna.md)**
 
     External Content Q&amp;A Genius Results generate actionable Q&amp;A Genius Result answers from documents in your Microsoft SharePoint Online instance.
 
--   **[Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)**
+-   **[Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)**
 
     Actions Genius Results use the Now LLM Service to select, filter, and display the most relevant Catalog Item and Virtual Agent topic results as answers.
 
@@ -46,15 +46,15 @@ AI Genius Result answers enhance search results with actionable answer cards. Ea
 
 <table id="table_wzb_rmc_wyb" class="nav-card"><tbody><tr><td>
 
-[Install\[Omitted image "bus-power.svg"\] Alt text:Activate the ServiceNow Otto for AI Search plugin on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md)
+[Install\[Omitted image "bus-power.svg"\] Alt text:Activate the ServiceNow Otto for AI Search plugin on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/install-now-assist-ais.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure ServiceNow Otto for AI Search Genius Results for use in Service Portal, Virtual Agent, Employee Center, and global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure ServiceNow Otto for AI Search Genius Results for use in Service Portal, Virtual Agent, Employee Center, and global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configuring-now-assist-ais.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:View components installed with ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-now-assist-ais.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:View components installed with ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/reference-now-assist-ais.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -66,7 +66,7 @@ AI Genius Result answers enhance search results with actionable answer cards. Ea
 
 ## Language support
 
-ServiceNow Otto for AI Search natively supports searches, content, and answers in English. Additional languages are supported through Dynamic Translation. For details on translation functionality and supported languages, see [Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md).
+ServiceNow Otto for AI Search natively supports searches, content, and answers in English. Additional languages are supported through Dynamic Translation. For details on translation functionality and supported languages, see [Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/dynamic-translation-na-gr.md).
 
 ## Domain support
 

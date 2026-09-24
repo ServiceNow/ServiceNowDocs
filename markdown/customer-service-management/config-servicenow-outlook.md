@@ -2,7 +2,7 @@
 title: Configure the ServiceNow Add-in for Microsoft Outlook
 description: Configure user roles and download the office add-in manifest file in order to use the ServiceNow Add-in for Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-servicenow-outlook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-servicenow-outlook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,5 +34,5 @@ Role required: admin or both sn\_customerservice.proxy\_contact and sn\_customer
 **Related topics**  
 
 
-[Install the ServiceNow Add-in for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-servicenow-outlook.md)
+[Install the ServiceNow Add-in for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/install-servicenow-outlook.md)
 

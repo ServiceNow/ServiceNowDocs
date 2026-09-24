@@ -2,7 +2,7 @@
 title: Prevent Unauthenticated Access to Virtual Agent Embedded Web Client
 description: Learn how to configure the sn\_va\_web\_client\_app\_embed table to block unauthenticated users from accessing embedded web clients.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-publicly-exposed-virtual-agent-embedded-web-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-publicly-exposed-virtual-agent-embedded-web-client.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -76,7 +76,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -97,5 +97,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

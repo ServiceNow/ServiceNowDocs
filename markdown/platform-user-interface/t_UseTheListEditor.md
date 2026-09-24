@@ -2,7 +2,7 @@
 title: Use the list editor
 description: The list editor enables you to edit field values directly from a list without navigating to a form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_UseTheListEditor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_UseTheListEditor.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Before the list editor opens, access rights to edit the field are verified. If t
 
     The appropriate editor for the field type opens.
 
-    **Note:** You can enable single-click editing from the [list personalization interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md). You can also use keyboard navigation to access the list editor.
+    **Note:** You can enable single-click editing from the [list personalization interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_PersonalLists.md). You can also use keyboard navigation to access the list editor.
 
 2.  Enter the appropriate values.
 
@@ -65,7 +65,7 @@ Before the list editor opens, access rights to edit the field are verified. If t
     **Note:** Certain browsers use different key combinations to edit certain field values. For example, to edit a list using Chrome, press the Spacebar.
 
 
-**Parent Topic:**[Methods for list edits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_MethodsForListEdits.md)
+**Parent Topic:**[Methods for list edits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_MethodsForListEdits.md)
 
 **Related topics**  
 

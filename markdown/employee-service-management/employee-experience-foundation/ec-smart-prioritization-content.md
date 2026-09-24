@@ -2,7 +2,7 @@
 title: Smart prioritization
 description: Smart prioritization uses a numeric priority score to automatically rank AI content, such as Employee Hub and AIUX Portal content types, for each content schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-smart-prioritization-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-smart-prioritization-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

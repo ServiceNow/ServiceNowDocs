@@ -2,7 +2,7 @@
 title: Issue management in the Risk Workspace
 description: The issues landing page in the Risk Workspace provides logged-in managers and users with all the information they need to manage issues on a single page. The landing page features actionable insights, quick action buttons, filters, and access to open issue triages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/issues-in-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/issues-in-ws.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -162,5 +162,5 @@ Remediation tasks
 This section shows the number of remediation tasks for which the logged-in user is on the watch list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+</table>**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

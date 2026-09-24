@@ -2,7 +2,7 @@
 title: Create email account groups
 description: Define an email account group that contains a subset of your POP3/IMAP email accounts. The email reader job automatically processes each email account group as scheduled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-email-account-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-email-account-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -104,6 +104,6 @@ Read only. The length of time taken by an email reader job to process the accoun
 
 ## What to do next
 
--   Review [email account group processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-account-group.md).
+-   Review [email account group processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-email-account-group.md).
 -   Determine if you want to continue fine-tuning email account processing. You could add another email account group or another email reader job to process email account groups concurrently.
 

@@ -2,7 +2,7 @@
 title: Administering Developer Sandboxes
 description: If you have permission, you can allocate and retire the sandboxes you've created in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/administering-sandboxes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/developer-sandboxes/administering-sandboxes.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -19,15 +19,15 @@ If you have permission, you can allocate and retire the sandboxes you've created
 
 ## Configuration overview
 
-1.  [Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/allocating-sandboxes.md)
+1.  [Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/allocating-sandboxes.md)
 
     Allocate the sandboxes created to your development teams.
 
-2.  [Requesting sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dsb-requesting-sandboxes.md)
+2.  [Requesting sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-requesting-sandboxes.md)
 
     Request a sandbox for development.
 
-3.  [Retire a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/retire-sandboxes.md)
+3.  [Retire a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/retire-sandboxes.md)
 
     Retire sandboxes that are outdated or to make room for new sandboxes in your instance.
 

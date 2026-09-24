@@ -2,7 +2,7 @@
 title: Create client script in Catalog Builder
 description: You can create client scripts to customize the catalog item, such as to control the behavior of the catalog items after they're published.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/create-client-scripts-in-catalog-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/create-client-scripts-in-catalog-builder.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -42,13 +42,13 @@ Role required: admin and catalog\_builder\_developer
 
 10. Select **Add script**.
 
-    For more information about the fields in the Actions and Settings tabs, see [Catalog client script form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/client-script-form.md).
+    For more information about the fields in the Actions and Settings tabs, see [Catalog client script form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/client-script-form.md).
 
 
-**Parent Topic:**[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
+**Parent Topic:**[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
 
 **Related topics**  
 
 
-[Catalog builder developer \[catalog\_builder\_developer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ServiceCatalogManagementTermsandRoles.md)
+[Catalog builder developer \[catalog\_builder\_developer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_ServiceCatalogManagementTermsandRoles.md)
 

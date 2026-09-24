@@ -2,7 +2,7 @@
 title: Service Test Management
 description: Define tests, set measurable thresholds, and monitor real-time execution with accuracy using the ServiceNow Service Test Management application. Streamline your testing process to improve performance, ensure reliability, and deliver consistent results in every scenario.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/stm-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/stm-landing-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ The Service Test Management product enables you with the ability to precisely de
 
 ## Additional resources
 
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Service Test Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=service%20test%20management&spa=1)
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).

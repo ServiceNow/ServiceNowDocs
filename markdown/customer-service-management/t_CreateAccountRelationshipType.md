@@ -2,7 +2,7 @@
 title: Create an account relationship type
 description: Create an account relationship type by defining the types of source and target accounts and providing a name for the relationship between these accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateAccountRelationshipType.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_CreateAccountRelationshipType.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create relationships between entity classes using the GRC: Workbench
 description: Managers create relationships between entity classes using the GRC: Workbench to build out the dependency map and better understand how entities relate to one another.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-relationships-between-profile-classes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/create-relationships-between-profile-classes.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -20,7 +20,7 @@ Managers create relationships between entity classes using the GRC: Workbench to
 
 Role required: sn\_grc.manager
 
-[Create profile classes using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-profile-class-using-grc-workbench.md), before creating relationships between entity classes.
+[Create profile classes using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-profile-class-using-grc-workbench.md), before creating relationships between entity classes.
 
 Entity classes can roll up to each other, leading to the development of the dependency model.
 
@@ -58,11 +58,11 @@ Drag additional entity classes from the list on the left and drop them on the to
 
 After modeling out entities, define the risks in your organization:
 
--   [Generate a risk from a risk framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_GenerateRiskFromStatement.md)
--   [Generate a risk from a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_GenRiskFromRiskFrameProfile.md)
--   [Associate a risk framework or risk statement with an entity type to generate risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_GenerateRiskFromFramework.md)
+-   [Generate a risk from a risk framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/t_GenerateRiskFromStatement.md)
+-   [Generate a risk from a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/t_GenRiskFromRiskFrameProfile.md)
+-   [Associate a risk framework or risk statement with an entity type to generate risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/t_GenerateRiskFromFramework.md)
 
-After generating risks, [Relate risks to each other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/relate-risks-to-each-other.md).
+After generating risks, [Relate risks to each other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/relate-risks-to-each-other.md).
 
-**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-workbench.md)
+**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/grc-workbench.md)
 

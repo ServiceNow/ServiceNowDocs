@@ -2,7 +2,7 @@
 title: Tax integration field map fields
 description: Field descriptions for the Tax integration field mappings \[sn\_spend\_intg\_tax\_field\_map\] table, which defines the outbound and inbound mappings that transform invoice data between APO and a tax engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-integration-field-map-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/tax-integration-field-map-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -35,5 +35,5 @@ The Tax integration field mappings \[sn\_spend\_intg\_tax\_field\_map\] table dr
 |Order|Order in which the mapping is applied.|
 |Active|Status of the mapping. The transformation uses active mappings only and excludes inactive mappings and mappings for a different tax engine.|
 
-**Parent Topic:**[Tax lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-tax-lines-apo.md)
+**Parent Topic:**[Tax lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-tax-lines-apo.md)
 

@@ -2,7 +2,7 @@
 title: Install Meeting Extensions for Microsoft Teams
 description: Install and activate the Meeting Extensions for Microsoft Teams plugin to be able to initiate a Microsoft Teams meeting directly from an Incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/install-meeting-ext-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/install-meeting-ext-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +18,7 @@ Install and activate the Meeting Extensions for Microsoft Teams plugin to be abl
 
 ## Before you begin
 
-Ensure you have installed Notify connector for Microsoft Teams. For more information, see [Install Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.md).
+Ensure you have installed Notify connector for Microsoft Teams. For more information, see [Install Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.md).
 
 Role required: admin
 
@@ -37,8 +37,8 @@ Role required: admin
 
 Integrate Meeting Extensions for Microsoft Teams with ServiceNow.
 
--   To set up pre-published app \(Single Microsoft Teams tenant to single ServiceNow instance\), see [Integrate Meeting Extensions pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-multi-tenant.md).
--   To set up self-configured app \(Single Microsoft Teams tenant to multiple ServiceNow instance\), see [Integrate Meeting Extensions self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-single-tenant.md).
+-   To set up pre-published app \(Single Microsoft Teams tenant to single ServiceNow instance\), see [Integrate Meeting Extensions pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-multi-tenant.md).
+-   To set up self-configured app \(Single Microsoft Teams tenant to multiple ServiceNow instance\), see [Integrate Meeting Extensions self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-single-tenant.md).
 
-**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
+**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
 

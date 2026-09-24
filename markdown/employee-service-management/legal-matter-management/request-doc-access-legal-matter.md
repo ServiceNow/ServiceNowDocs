@@ -2,7 +2,7 @@
 title: Request document access for a legal matter
 description: Request access to documents attached to a legal matter that you do not currently have access to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/request-doc-access-legal-matter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/request-doc-access-legal-matter.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -41,5 +41,5 @@ Role required: sn\_lg\_ops.legal\_user or sn\_lg\_ops.legal\_fulfiller
 
 The system processes the user's permissions and grants access to the documents in the matter artifact.
 
-**Parent Topic:**[Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/document-access-legal-matter.md)
+**Parent Topic:**[Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/document-access-legal-matter.md)
 

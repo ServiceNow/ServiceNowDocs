@@ -2,7 +2,7 @@
 title: Data Component
 description: Data components are used to identify specific properties or values of a data source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/data-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/data-component.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -16,8 +16,8 @@ breadcrumb: [Other Objects, TISC Library Repository, Threat Intel Library, Use, 
 
 Data components are used to identify specific properties or values of a data source.
 
--   **[Define Data Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-data-component.md)**  
+-   **[Define Data Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/define-data-component.md)**  
 Define a data component to identify the properties or values of a data source
 
-**Parent Topic:**[Other Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-other-objects.md)
+**Parent Topic:**[Other Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-other-objects.md)
 

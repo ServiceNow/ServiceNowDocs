@@ -2,7 +2,7 @@
 title: Update the measurement details of a workplace location
 description: Specify the size of a location. If the location is an area, floor or building, then you can update or recalculate the total and usable size.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/update-measurement-details-of-workplace-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/update-measurement-details-of-workplace-location.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -75,7 +75,7 @@ Role required: sn\_wsd\_spcmgmt.manager
 
 The size of the workplace location is updated.
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

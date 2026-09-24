@@ -2,7 +2,7 @@
 title: History List
 description: The history list displays each change as its own row in the change list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_HistoryList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_HistoryList.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

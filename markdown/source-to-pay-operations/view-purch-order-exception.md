@@ -2,7 +2,7 @@
 title: View a purchase order exception
 description: As an Operational Buyer, view a purchase order exception in the Purchase Order Management landing page for further processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/view-purch-order-exception.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/view-purch-order-exception.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,15 +35,15 @@ Role required: sn\_poem\_core.operational\_buyer
     -   **All work** &gt; **Open purchase order exceptions**
 5.  Select an exception number link from the Number column.
 
-    The details of purchase order exceptions are displayed on the **Details** tab. For more information, see [Purchase order exception Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-details.md).\[Omitted image "pom-view-exception.png"\] Alt text: View a purchase order exception
+    The details of purchase order exceptions are displayed on the **Details** tab. For more information, see [Purchase order exception Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purch-order-exception-details.md).\[Omitted image "pom-view-exception.png"\] Alt text: View a purchase order exception
 
 
-**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-mgmt-ws.md)
+**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purch-order-mgmt-ws.md)
 
 **Related topics**  
 
 
-[Purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-form.md)
+[Purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purch-order-exception-form.md)
 
-[Purchase order exception form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-form-tabs.md)
+[Purchase order exception form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purch-order-exception-form-tabs.md)
 

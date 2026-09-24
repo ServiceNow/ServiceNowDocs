@@ -2,7 +2,7 @@
 title: Enable keyboard shortcuts
 description: You can enable or disable keyboard shortcuts from the system settings menu.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-keyboard-shortcuts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/enable-keyboard-shortcuts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ You can enable or disable keyboard shortcuts from the system settings menu.
 
 Role required: none
 
-For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md).
+For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_KeyboardShortcuts.md).
 
 ## Procedure
 
@@ -31,5 +31,5 @@ For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](htt
 4.  Close the Preferences window.
 
 
-**Parent Topic:**[Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md)
+**Parent Topic:**[Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_KeyboardShortcuts.md)
 

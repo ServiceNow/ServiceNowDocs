@@ -2,7 +2,7 @@
 title: Configure fields in contract template to display correct sys\_id value in contract documents
 description: As a contract configurator, update an advanced script to print the correct display value for sys\_id variables in the generated contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-addin-adv-script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-addin-adv-script.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -41,7 +41,7 @@ Because the script for mapping variables using the Microsoft Word add-in for Ser
 6.  Select **Update**.
 
 
-**Parent Topic:**[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)
+**Parent Topic:**[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)
 
 **Related topics**  
 

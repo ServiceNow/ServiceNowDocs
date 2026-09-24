@@ -2,7 +2,7 @@
 title: Jumpstart Your CSM Configurable Workspace
 description: The Jumpstart Your Customer Service Management \(CSM\) Configurable Workspace Accelerator provides a demonstration of the possibilities and capabilities of the CSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/csm-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/csm-configurable-workspace.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

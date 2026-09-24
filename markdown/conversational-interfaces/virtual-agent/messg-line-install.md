@@ -2,7 +2,7 @@
 title: Install Conversational Integration with LINE
 description: Install the Conversational Integration with LINE so that your business can interact with requesters on the LINE app. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-line-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/messg-line-install.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -31,7 +31,7 @@ The following applications or plugins are installed with Conversational Integrat
 
     Provides the custom chat integration framework of scriptable APIs to enable the Virtual Agent application on any conversational interface.
 
-    For more information on this plugin, see [Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
+    For more information on this plugin, see [Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
 
 -   **ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)**
 

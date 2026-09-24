@@ -2,7 +2,7 @@
 title: Specify the number of required security questions
 description: When designing a Security Questions verification for Password Reset, you can specify the number of questions to display when users enroll. You can also specify the number to display when a user is verifying identity while resetting the password.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_SecurityQuestionTypeVerif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/t\_SecurityQuestionTypeVerif.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -42,7 +42,7 @@ num\_enroll
 
 Number of questions that a user must provide answers to while enrolling for the Password Reset process.
 
- The value that you specify here overrides the setting of the **Number of security questions required during enrollment** property. See [Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_SetPwdResetProps.md).
+ The value that you specify here overrides the setting of the **Number of security questions required during enrollment** property. See [Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_SetPwdResetProps.md).
 
  **Data Type**: Positive integer that does not exceed the number of questions in the security questions list \(**Password Reset** &gt; **Security Questions**\).
 
@@ -54,7 +54,7 @@ num\_reset
 
 </td><td>
 
-Number of security questions that are displayed on the Verify page while a user is attempting to reset the password. The user must answer all questions correctly to verify identity. The questions are selected at random and are presented in random order.The value that you specify here overrides the setting of the **Number of security questions required during the password reset request** property. See [Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_SetPwdResetProps.md).
+Number of security questions that are displayed on the Verify page while a user is attempting to reset the password. The user must answer all questions correctly to verify identity. The questions are selected at random and are presented in random order.The value that you specify here overrides the setting of the **Number of security questions required during the password reset request** property. See [Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_SetPwdResetProps.md).
 
  **Data Type**: Positive integer that does not exceed the value of the num\_enroll parameter
 
@@ -64,10 +64,10 @@ Number of security questions that are displayed on the Verify page while a user 
 </table>3.  Click **Update**.
 
 
-**Parent Topic:**[Password Reset verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_PWRVerifications.md)
+**Parent Topic:**[Password Reset verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/c_PWRVerifications.md)
 
 **Related topics**  
 
 
-[Add a custom question to the Security Questions verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateQAVerificationQs.md)
+[Add a custom question to the Security Questions verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateQAVerificationQs.md)
 

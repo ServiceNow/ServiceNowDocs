@@ -2,7 +2,7 @@
 title: Integrating Coaching with other applications
 description: Bring in data from other ServiceNow applications to enhance the training of your agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-coaching-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/coaching/cf-coaching-integration.html
 release: australia
 product: Coaching
 classification: coaching
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Coaching, IT Service Management]
 
 Bring in data from other ServiceNow applications to enhance the training of your agents.
 
--   [Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
+-   [Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-landing-page.md)
 
     One example of a coaching opportunity with CIM would be to use improvement initiatives to set up external training tasks.
 
@@ -31,5 +31,5 @@ Bring in data from other ServiceNow applications to enhance the training of your
     You can assign knowledge articles as assigned training.
 
 
-**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-reference.md)
+**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-coaching-reference.md)
 

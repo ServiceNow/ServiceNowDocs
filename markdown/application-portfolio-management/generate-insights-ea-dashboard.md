@@ -2,7 +2,7 @@
 title: Generate insights for Enterprise Architecture Workspace dashboard widgets
 description: You can use the conversational interface provided by AI Data Explorer ServiceNow Otto skill to query and analyze data from Enterprise Architecture Workspace dashboards. Instead of manually reviewing dashboard visualizations, you can use the AI Data Explorer to ask natural language questions to retrieve insights and identify trends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/generate-insights-ea-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/generate-insights-ea-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ You can use the conversational interface provided by AI Data Explorer ServiceNow
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-AI Data Explorer, Query Generation ServiceNow Otto skills must be activated. Also, AI Search must be configured. For information, see [Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md).
+AI Data Explorer, Query Generation ServiceNow Otto skills must be activated. Also, AI Search must be configured. For information, see [Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md).
 
 Role required:
 
@@ -78,15 +78,15 @@ You can use the AI Data Explorer on widgets that are based on the following tabl
 
 3.  On the pop-up window, perform any of the following options.
 
-<table id="choicetable_nn3_qpl_f3c"><thead><tr><th align="left" id="d60234e283">
+<table id="choicetable_nn3_qpl_f3c"><thead><tr><th align="left" id="d60215e283">
 
 UI element
 
-</th><th align="left" id="d60234e286">
+</th><th align="left" id="d60215e286">
 
 Function
 
-</th></tr></thead><tbody><tr><td id="d60234e292">
+</th></tr></thead><tbody><tr><td id="d60215e292">
 
 **Text box**
 
@@ -94,7 +94,7 @@ Function
 
 Use this option to ask any question related to the data associated with the selected widget. This option helps you get specific information on the widget data.
 
-</td></tr><tr><td id="d60234e304">
+</td></tr><tr><td id="d60215e304">
 
 **Analyze trend**
 
@@ -102,7 +102,7 @@ Use this option to ask any question related to the data associated with the sele
 
 Use this option to analyze overall trends in the data. This option helps you to understand how the metrics have changed over time or identify growth or decline patterns.
 
-</td></tr><tr><td id="d60234e316">
+</td></tr><tr><td id="d60215e316">
 
 **Show different distribution**
 
@@ -110,7 +110,7 @@ Use this option to analyze overall trends in the data. This option helps you to 
 
 Use this option to view the same data broken down by different dimensions. This option helps you to compare data distributions across alternative categorizations and view the data from different analytical perspectives.
 
-</td></tr><tr><td id="d60234e328">
+</td></tr><tr><td id="d60215e328">
 
 **+ Add to exploration**
 
@@ -152,18 +152,18 @@ Use this option to enable ServiceNow Otto to generate its own insights into the 
         \[Omitted image "explore-ai-share.png"\] Alt text: AI Data Explorer window displaying the more actions drop-down menu.
 
 
-**Parent Topic:**[Working with Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-dashboards.md)
+**Parent Topic:**[Working with Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-dashboards.md)
 
 **Related topics**  
 
 
-[Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)
+[Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)
 
-[Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-workspace-dashboard.md)
+[Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-workspace-dashboard.md)
 
-[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
+[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/exploring-now-assist-for-ea.md)
 
-[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
+[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md)
 
-[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/sn-otto-access-roles.md)
+[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/sn-otto-access-roles.md)
 

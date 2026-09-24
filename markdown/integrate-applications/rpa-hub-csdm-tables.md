@@ -2,7 +2,7 @@
 title: RPA Hub and CSDM tables
 description: RPA Hub manages and uses CSDM tables. Several ServiceNow products benefit from and add value to RPA Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rpa-hub-csdm-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/rpa-hub-csdm-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -31,11 +31,11 @@ The bot process and the robot are associated with each other using CI relationsh
 
 1.  Business Application \[cmdb\_ci\_business\_app\] - For associating business applications to bot processes and later, defining the application credentials for the same.
 
-    For more information about assigning a business application to a bot process, see [Assign a business application to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/associate-business-apps.md).
+    For more information about assigning a business application to a bot process, see [Assign a business application to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/associate-business-apps.md).
 
 2.  Hardware \[cmdb\_ci\_hardware\] - For the machine name lookup feature on a robot record.
 
-    For more information about machine name field, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-unattended-robot.md).
+    For more information about machine name field, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-unattended-robot.md).
 
 
 ## Products that add value to RPA Hub

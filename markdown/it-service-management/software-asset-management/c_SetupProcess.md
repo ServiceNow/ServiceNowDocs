@@ -2,7 +2,7 @@
 title: Legacy Software Asset Management plugin setup process
 description: To get started with the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin, you need to identify and discover software owned, create software models, create license records, and configure software counters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_SetupProcess.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/c\_SetupProcess.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -38,7 +38,7 @@ To get started with the legacy Software Asset Management \(com.snc.software\_ass
     Configure software counters to view your organization's software compliance levels for all of your software.
 
 
-**Parent Topic:**[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
+**Parent Topic:**[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Password2 encryption with the Key Management Framework \(KMF\)
 description: Supported by the Key Management Framework, use the Password2 \(2-way encrypted\) field type to encrypt and decrypt custom fields with segregation of duties, key protection, and life-cycle management. It works in accordance with NIST 800-57 guidelines and provides FIPS 140-2-L3 protection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/password-2way-encrypted-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/password-2way-encrypted-fields.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -18,7 +18,7 @@ Supported by the Key Management Framework, use the Password2 \(2-way encrypted\)
 
 Password2 is a text field that stores passwords with two-way encryption. The two-way encryption stores passwords as a secure encrypted value that can be decrypted within the instance.
 
-**Tip:** Beginning in the Vancouver release, administrators can deprecate 3DES encryption on password2 fields in favor of the newer Advanced Encryption Standard \(AES\). For details, see [Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password2-3des-deprecation.md).
+**Tip:** Beginning in the Vancouver release, administrators can deprecate 3DES encryption on password2 fields in favor of the newer Advanced Encryption Standard \(AES\). For details, see [Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/password2-3des-deprecation.md).
 
 ## Activation
 
@@ -96,5 +96,5 @@ A migration job is provided for customers upgrading from previous releases. It t
 
 The KMF Password2 encryption keys in the submodule are protected \(envelope encrypted\) in the KMF key hierarchy.
 
-**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md)
 

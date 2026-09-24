@@ -2,7 +2,7 @@
 title: Setting up assignment groups
 description: Associate your assignment groups with an internal or external business organization \(formerly internal or external business location\). This association forms a one-to-many \(1:M\) relationship, which means, one or more groups can be associated with a service organization. This process makes it easier to route cases to the appropriate team member using the inter-organization support capability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setting-up-assignment-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/setting-up-assignment-groups.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,12 +14,12 @@ breadcrumb: [Configure Service Model Foundation, Data models, Set up your enviro
 
 Associate your assignment groups with an internal or external business organization \(formerly internal or external business location\). This association forms a one-to-many \(1:M\) relationship, which means, one or more groups can be associated with a service organization. This process makes it easier to route cases to the appropriate team member using the inter-organization support capability.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 |Task|Description|
 |----|-----------|
-|[Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-group-so.md)|Create a group to associate it with a service organization.|
-|[Configuring a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-a-group.md)|Configure a group that includes adding group members and assigning them required roles.|
-|[Associate a group to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-a-group-to-a-business-location-so.md)|Establish a one-to-many \(1:M\) relationship between a group and a business organization.|
-|[Add group members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-group-members-to-a-business-location-so.md)|Enroll group members to a business organization and have a dedicated group working on cases.|
+|[Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-a-group-so.md)|Create a group to associate it with a service organization.|
+|[Configuring a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-a-group.md)|Configure a group that includes adding group members and assigning them required roles.|
+|[Associate a group to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-a-group-to-a-business-location-so.md)|Establish a one-to-many \(1:M\) relationship between a group and a business organization.|
+|[Add group members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/add-group-members-to-a-business-location-so.md)|Enroll group members to a business organization and have a dedicated group working on cases.|
 

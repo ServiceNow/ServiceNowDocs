@@ -2,7 +2,7 @@
 title: Healthcare orchestration cases and tasks
 description: Healthcare orchestration cases and healthcare orchestration tasks are created to manage cross‑unit oversight and coordination.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-healthcare-orc-cases-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-healthcare-orc-cases-task.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

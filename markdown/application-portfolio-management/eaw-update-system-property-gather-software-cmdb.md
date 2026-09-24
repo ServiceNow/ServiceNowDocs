@@ -2,7 +2,7 @@
 title: Update the system property to gather software products from a CMDB table
 description: You can optionally customize the default values of the sn\_apm\_tpm.configurationItemsWithSoftwareInstalls system property, to capture the details of Technology Lifecycle Management \(TLM\) software products that aren’t stored in the default CMDB tables, Computer \(CMDB\_CI\_Computer\) and all similar instances of the table, Docker Container \(CMDB\_CI\_Docker\_Container\), and Serverless Hardwares \(CMDB\_CI\_Serverless\_Hardware\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,14 +45,14 @@ You can include other CMDB tables that contain software products, to fetch and v
     After the **Populate TPM Discovered Technologies and Lifecycles** job runs, the corresponding software records and their technology lifecycle details are populated in the list of TLM software products.
 
 
-**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
+**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-tpm.md)
 
 **Related topics**  
 
 
-[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm.md)
+[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-tpm.md)
 
-[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md)
+[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/update-tpm-data.md)
 
-[Restart the TLM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
+[Restart the TLM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 

@@ -2,7 +2,7 @@
 title: Add a dataset
 description: Import data from a ServiceNow table or a local file into AI Data Kit as a dataset. Datasets are the foundation of data collections, which you publish for use in custom skill evaluation in Now Assist Skill Kit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/add-dataset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/add-dataset.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -93,7 +93,7 @@ Role required: sn\_data\_kit.admin
 
 ## What to do next
 
-After your dataset is added, you can create a derived dataset or add a ground truth to your existing dataset. For more information, see [Create a derived dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/create-derived-dataset.md) or [Add a ground truth to each dataset record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/add-ground-truth.md).
+After your dataset is added, you can create a derived dataset or add a ground truth to your existing dataset. For more information, see [Create a derived dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/create-derived-dataset.md) or [Add a ground truth to each dataset record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/add-ground-truth.md).
 
 **Important:** Datasets cannot be edited or deleted after creation. Before generating a dataset, verify your table selection, filter conditions, and column choices.
 

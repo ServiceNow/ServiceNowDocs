@@ -2,7 +2,7 @@
 title: Reference - HR Service Delivery with Ultimate Kronos Group
 description: Reference topics provide additional information about the HR Service Delivery with Ultimate Kronos Group, including lists and forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/ref-hrsd-ukg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/ref-hrsd-ukg.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -16,8 +16,8 @@ breadcrumb: [HR Service Delivery with Ultimate Kronos Group, Integration of HR S
 
 Reference topics provide additional information about the HR Service Delivery with Ultimate Kronos Group, including lists and forms.
 
--   **[Components installed with HR Service Delivery Integration with Ultimate Kronos Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/installed-with-ukg-int.md)**  
+-   **[Components installed with HR Service Delivery Integration with Ultimate Kronos Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/installed-with-ukg-int.md)**  
 Several types of components are installed with activation of the HR Service Delivery Integration with Ultimate Kronos Group plugin, including tables and user roles.
 
-**Parent Topic:**[Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-third-party-systems.md)
+**Parent Topic:**[Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-third-party-systems.md)
 

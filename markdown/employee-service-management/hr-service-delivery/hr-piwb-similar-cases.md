@@ -2,7 +2,7 @@
 title: HR PIWB template: Recommend similar cases
 description: Use the classic setup template to configure and train your Similarity solution template with machine learning model to recommend similar closed HR cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-piwb-similar-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-piwb-similar-cases.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -58,7 +58,7 @@ Review the corresponding use case information from [Machine learning solutions f
 
 You can verify the integration status from **HR Administration** &gt; **HR AI Configurations** &gt; **Solution definition**. The use case is now mapped to the selected solution definition.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 
 **Related topics**  
 

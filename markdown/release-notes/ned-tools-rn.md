@@ -2,7 +2,7 @@
 title: Next Experience Developer \(NED\) Tools release notes
 description: The ServiceNow Next Experience Developer Tools application enables you to create the components to track and enhance page performance and improve overall developer productivity. Next Experience Developer Tools was enhanced and updated in the Australia release.The ServiceNow Next Experience Developer Tools application enables you to create the components to track and enhance page performance and improve overall developer productivity. Next Experience Developer Tools was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/ned-tools-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/ned-tools-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ See [Next Experience Developer Tools](https://developer.servicenow.com/dev.do#!/
     Next Experience Developer Tools requires Google Chrome.
 
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## Australia
 

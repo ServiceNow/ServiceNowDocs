@@ -2,7 +2,7 @@
 title: Configure activity types for the Customer History view
 description: Create an activity type to display in the activity feed on the Customer History view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-activity-types-ca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-activity-types-ca.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure Journey designer features
 description: Administrators configure Journey designer for the needs of their organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-dsgnr-configuration.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -51,72 +51,72 @@ Administrators new to Journey designer can use the resources available on the ad
 The configuration process depends on the features and integrations used in your organization. Here are the basic process steps for configuring Journey designer.
 
 -   **Step 1: Create and manage journey configurations**
-    -   [Create and configure Journey designer journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-journey-configuration.md)
+    -   [Create and configure Journey designer journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-journey-configuration.md)
 
         Journey designer configurations are used as templates for creating journeys. Administrators create configurations that are used to trigger journeys.
 
-    -   [Manage Journey designer user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-manage-users-roles.md)
+    -   [Manage Journey designer user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-manage-users-roles.md)
 
         Your roles control access for creating and modifying different features in Journey designer.
 
 -   **Step 2: Configure the Journey**
 
-    Create a Journey type to classify the Journey configuration and associate the journey with a Lifecycle Events, Journey Accelerator, or both. [Create and manage Journey types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-create-manage-journey-types.md)
+    Create a Journey type to classify the Journey configuration and associate the journey with a Lifecycle Events, Journey Accelerator, or both. [Create and manage Journey types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-create-manage-journey-types.md)
 
-    -   Lifecycle Events, see [Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md)
+    -   Lifecycle Events, see [Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md)
 
-        **Note:** A journey that contains a life-cycle event must have an associated HR Service with the **Journey** fulfillment type. Either update an existing HR Service case or create a one. See [Configure an HR service for a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-service-for-journey.md)
+        **Note:** A journey that contains a life-cycle event must have an associated HR Service with the **Journey** fulfillment type. Either update an existing HR Service case or create a one. See [Configure an HR service for a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-service-for-journey.md)
 
-    -   Journey Accelerator, see [Create a Journey Accelerator plan type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-create-manage-plans.md)
+    -   Journey Accelerator, see [Create a Journey Accelerator plan type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-create-manage-plans.md)
 -   **Step 3: Configure Journey permissions**
 
-    [Update users' permissions for journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-update-user-permissions.md)
+    [Update users' permissions for journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-update-user-permissions.md)
 
 -   **Step 4: Create and manage Journey designer reports and dashboards**
 
-    [Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-report-dashboards.md)
+    [Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-report-dashboards.md)
 
 
--   **[Create and configure Journey designer journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-journey-configuration.md)**  
+-   **[Create and configure Journey designer journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-journey-configuration.md)**  
 Create a journey and embed the necessary components from Lifecycle Events and Journey Accelerator.
--   **[Manage Journey designer user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-manage-users-roles.md)**  
+-   **[Manage Journey designer user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-manage-users-roles.md)**  
 Manage Journey designer users and the roles that they have.
--   **[Manage Journey designer bulk updates for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-bulk-update-admnstrtn.md)**  
+-   **[Manage Journey designer bulk updates for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-bulk-update-admnstrtn.md)**  
 Journey designer admins can configure which task types are available for bulk update and view information about tasks that were updated in bulk.
--   **[Creating and managing quick links for journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-quick-links-why-who.md)**  
+-   **[Creating and managing quick links for journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-quick-links-why-who.md)**  
 Quick links give employees quick access to varied resources directly from a journey. Administrators, journey owners, and mentors are able to add linked resources to journeys.
--   **[Update users' permissions for journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-update-user-permissions.md)**  
+-   **[Update users' permissions for journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-update-user-permissions.md)**  
 Users in a journey have permissions that enable different levels of access to a journey. Administrators modify user permissions for different types of journeys.
--   **[Create and configure Journey designer headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-header-configuration.md)**  
+-   **[Create and configure Journey designer headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-header-configuration.md)**  
 Manage journey headers or customize journey headers for different journey types based on user roles.
--   **[Create and manage Journey types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-create-manage-journey-types.md)**  
+-   **[Create and manage Journey types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-create-manage-journey-types.md)**  
 Create plan types to manage the top-level classification for stages and tasks for Journey types, as well as the header views for users.
--   **[Create and manage plan types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-create-manage-plans.md)**  
+-   **[Create and manage plan types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-create-manage-plans.md)**  
 Create plan types to manage the top-level classification for stages and tasks in a Journey designer plan.
--   **[Create and manage plan configurations in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-create-manage-plan-configuration.md)**  
+-   **[Create and manage plan configurations in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-create-manage-plan-configuration.md)**  
 Create and manage plan configurations that are based on a plan type. Plan configurations are customized for specific employee audiences.
--   **[Setup the Journey designer plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)**  
+-   **[Setup the Journey designer plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)**  
 ServiceNow administrators configure the Journey designer plan configuration feature and process.
--   **[Enable the Now Assist Journey generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/enable-jny-gen.md)**  
+-   **[Enable the Now Assist Journey generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/enable-jny-gen.md)**  
 Enable the Journey generation skill in ServiceNow Otto for HRSD using the AI Admin Hub console.
--   **[Enable team tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/enable-team-tasks.md)**  
+-   **[Enable team tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/enable-team-tasks.md)**  
 Enable team tasks to allow managers to add tasks to the Lifecycle Events activity sets that appear in the Skills widget on the Journey detail page. Enabling this feature gives managers and AI agents the flexibility to tailor journeys to individual employee needs.
--   **[Create and manage stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-create-manage-stages.md)**  
+-   **[Create and manage stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-create-manage-stages.md)**  
 Create and manage stages that are contained inside a plan. Stages contain tasks or to-do lists for managers, mentors, or employees to complete.
--   **[Add stage configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-create-stage-configuration.md)**  
+-   **[Add stage configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-create-stage-configuration.md)**  
 Stages group tasks or to-do lists for managers, mentors, or employees as part of a plan configuration. You must set the stage order and associate the stage with a plan configuration.
--   **[Create a satisfaction score action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-create-satisfaction-score-action.md)**  
+-   **[Create a satisfaction score action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-create-satisfaction-score-action.md)**  
 A satisfaction score action triggers a widget to appear to the employee, containing either a URL or request to schedule a meeting, when the specific condition is met.
--   **[Creating and managing audience-specific templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-creating-audience-specific-plans.md)**  
+-   **[Creating and managing audience-specific templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-creating-audience-specific-plans.md)**  
 Administrators can develop Journey Accelerator templates for customized plans with stages that include user tasks for different audiences.
--   **[Recommended learning in journey configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-ml-learning-recom.md)**  
+-   **[Recommended learning in journey configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-ml-learning-recom.md)**  
 Administrators add relevant learning recommendations to a journey configuration.
--   **[Configure Journeys for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/configure-journeys-now-mobile.md)**  
+-   **[Configure Journeys for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/configure-journeys-now-mobile.md)**  
 Configure Journey designer in Now Mobile to enable managers, mentors, and employees to interact with their journeys from their mobile devices.
--   **[Initiate a learning task from a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/ln-task-pst.md)**  
+-   **[Initiate a learning task from a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/ln-task-pst.md)**  
 When a lifecycle event is triggered, a learning task is created and assigned to the subject person of the case. The task is displayed in the To-dos page in Employee Center.
--   **[Employee Center \(EC\) homepage journey tabs widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-ec-hp-widget.md)**  
+-   **[Employee Center \(EC\) homepage journey tabs widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-ec-hp-widget.md)**  
 The Service Portal Designer contains a library of widgets to add to a service portal. The **EC homepage journey tabs widget** displays key details related to users' journeys.
 
-**Parent Topic:**[Installation and configuration overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-inst-config-overview.md)
+**Parent Topic:**[Installation and configuration overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-inst-config-overview.md)
 

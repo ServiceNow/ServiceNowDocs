@@ -2,7 +2,7 @@
 title: Create a goal
 description: Create goals and set targets to measure overall goal progress and evaluate them to align with the organizational strategic priorities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/create-goal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/create-goal.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -32,7 +32,7 @@ Goals are typically qualitative in nature. Goals should be ambitious and are exp
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-form.md).
+    For field information, see [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/goal-form.md).
 
 4.  Click **Submit**.
 

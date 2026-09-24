@@ -2,7 +2,7 @@
 title: SafeNet key versioning for Edge Encryption
 description: Use SafeNet key versioning to simplify changing keys. Instead of creating an alias for every new key, SafeNet key versioning keeps the same alias and increments the version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/safenet-key-versioning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/edge-encryption/safenet-key-versioning.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -28,7 +28,7 @@ If using SafeNet versioned keys, the Change Default Keys section of the Encrypti
 
 \[Omitted image "safenet-key-versioning-2.png"\] Alt text: Change default keys, Key version
 
-For procedures, see [Configure encryption keys on the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_RotateEncryptionKeys.md).
+For procedures, see [Configure encryption keys on the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/t_RotateEncryptionKeys.md).
 
 ## Versioned keys
 
@@ -45,5 +45,5 @@ In the above example, **AES128key** is listed three times:
 -   The third listing, with **2** in the **Key version** column, is the second version of the key returned from SafeNet.
 -   As other versions of the key are returned from SafeNet, new lines are added to record the **Key version** now in use.
 
-**Parent Topic:**[Key management for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EncryptionKeyManagement.md)
+**Parent Topic:**[Key management for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_EncryptionKeyManagement.md)
 

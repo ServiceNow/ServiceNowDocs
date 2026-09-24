@@ -2,7 +2,7 @@
 title: OT Discovery deployment scenarios
 description: Deployment scenarios for OT Discovery vary based on a network's architecture. Use these scenarios to help determine how to deploy the OT Discovery components in your OT environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/deployment-scenarios.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/deployment-scenarios.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-24"
@@ -18,7 +18,7 @@ Deployment scenarios for OT Discovery vary based on a network's architecture. Us
 
 ## General recommendations
 
-General recommendations and guidance are listed in each scenario in these sections. Not all networks are the same. The requirements in this section are a generalization for the scenario. Consider factors such as segmentation level, communication pathways, network traffic, redundancy, and environmental conditions. For resource recommendations for the OT Discovery components see, [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-system-resources.md).
+General recommendations and guidance are listed in each scenario in these sections. Not all networks are the same. The requirements in this section are a generalization for the scenario. Consider factors such as segmentation level, communication pathways, network traffic, redundancy, and environmental conditions. For resource recommendations for the OT Discovery components see, [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/ot-discovery-system-resources.md).
 
 ## Flat network architecture across multiple sites
 
@@ -68,5 +68,5 @@ A segmented site architecture with multiple networks is a network design that ha
 
 \[Omitted image "seg-site-multi.png"\] Alt text: Micro-segmented site with multiple networks
 
-**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deploy-ot-discovery-devices-landing.md)
+**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/deploy-ot-discovery-devices-landing.md)
 

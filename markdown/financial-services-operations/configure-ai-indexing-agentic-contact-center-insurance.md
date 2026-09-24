@@ -2,7 +2,7 @@
 title: Configure AI indexing for Agentic Contact Center for Insurance
 description: Configure AI indexing to enable intelligent search capabilities across insurance policies, cases, and customer interactions in Agentic Contact Center for Insurance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-ai-indexing-agentic-contact-center-insurance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-ai-indexing-agentic-contact-center-insurance.html
 release: australia
 topic_type: task
 last_updated: "2026-06-05"

@@ -2,7 +2,7 @@
 title: Configure budget attribute at instance level
 description: Configure the budget attribute by expense type or cost type as an instance-level to work on budget allocations for your demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/configure-budget-attribute-at-instance-level-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/configure-budget-attribute-at-instance-level-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -18,7 +18,7 @@ Configure the budget attribute by expense type or cost type as an instance-level
 
 ## Before you begin
 
--   Enable the budget allocation property to work on budgeting for demands. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/enable-financial-budget-allocation-for-demands.md).
+-   Enable the budget allocation property to work on budgeting for demands. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/enable-financial-budget-allocation-for-demands.md).
 -   Role required: admin
 
 **Important:** Existing customers can’t change the budget attribute to cost\_type.

@@ -2,7 +2,7 @@
 title: New hierarchy relationship forms in Privacy Management
 description: When creating a new hierarchy relationship in Privacy Management, you first define how a node is related to another. Then, you provide details for each related node.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/new-relationship-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/new-relationship-forms.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -85,7 +85,7 @@ For example, an HR platform in the EU receives personal data about employees fro
 For example, a customer database could be used by multiple marketing campaign activities to look up customer segments.
 
 
-**Note:** Use **Sends data to** and **Received data from** when personal data moves between two nodes to capture data transfers. For more information, see [Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md).
+**Note:** Use **Sends data to** and **Received data from** when personal data moves between two nodes to capture data transfers. For more information, see [Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/data-transfers.md).
 
 </td></tr><tr><td>
 
@@ -155,8 +155,8 @@ Details of the data subject types whose personal data is involved.For each data 
 3.  Volume: Specify the number of impacted data subjects.
 4.  Data elements: Specify which personal data elements are impacted. For example, `home address, salary, work assignments.`
 
-By default, this field appears only when the relationship type is **Sends data to** or **Received data from**. However, a privacy admin can extend this behavior to a custom relationship type. For steps, see [Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md).
+By default, this field appears only when the relationship type is **Sends data to** or **Received data from**. However, a privacy admin can extend this behavior to a custom relationship type. For steps, see [Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)
+</table>**Parent Topic:**[Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)
 

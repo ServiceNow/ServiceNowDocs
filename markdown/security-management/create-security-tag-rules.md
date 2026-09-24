@@ -2,10 +2,10 @@
 title: Create security tag rules
 description: Security tag rules provide filtering for security tag access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/create-security-tag-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/create-security-tag-rules.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Set up security tag groups and tags, Security Operations common functionality, Security Operations]
 ---
@@ -31,7 +31,7 @@ Security tag rules provide filtering for security tag access.
 
 4.  Security tags will be displayed in a list grouped by Security tag groups.
 
-5.  Choose or [create a security tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-class-group-and-tags.md).
+5.  Choose or [create a security tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-class-group-and-tags.md).
 
 6.  In the **Security Tag Rules** related tab, select **New**.
 
@@ -57,5 +57,5 @@ Security tag rules provide filtering for security tag access.
 10. Select **Submit**.
 
 
-**Parent Topic:**[Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-class-group-and-tags.md)
+**Parent Topic:**[Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-class-group-and-tags.md)
 

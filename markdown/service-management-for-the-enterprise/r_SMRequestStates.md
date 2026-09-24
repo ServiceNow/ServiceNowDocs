@@ -2,7 +2,7 @@
 title: Request states
 description: Service Management requests follow a specific life cycle and move through a series of states, which are displayed in the State field on the request record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_SMRequestStates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_SMRequestStates.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -103,5 +103,5 @@ Request was canceled.
 
 **Note:** If the **State flows are enabled** option in the configuration screen is not selected, the process flow formatter is removed. If you added states to the request and task tables, those states are visible on the request form.
 
-**Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/rm-sm-application.md)
+**Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/rm-sm-application.md)
 

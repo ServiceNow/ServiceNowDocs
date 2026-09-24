@@ -2,7 +2,7 @@
 title: HR Walk-up
 description: HR Walk-up enables employees to receive immediate in-person or remote support from HR agents at designated walk-up centers.Use HR walk-up to support HR requests raised by deskless workers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-walkup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-walkup.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -24,7 +24,7 @@ HR Walk-up enables employees to receive immediate in-person or remote support fr
 
     Every employee or a guest can check in and get support at an established walk-up service center.
 
--   **[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)**
+-   **[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)**
 
     Employee Center Pro Kiosk enables all deskless workers with simplified access to information and services for self-serve and improved productivity.
 

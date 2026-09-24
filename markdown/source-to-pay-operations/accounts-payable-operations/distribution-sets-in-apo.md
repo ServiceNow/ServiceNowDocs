@@ -2,7 +2,7 @@
 title: Distribution set in Accounts Payable Operations
 description: Distribution sets in Accounts Payable Operations automate cost allocation for invoice lines using predefined rules and templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/distribution-sets-in-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/distribution-sets-in-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -44,5 +44,5 @@ The key features of distribution lines are:
 -   Allocation type is restricted to amount percentage for each distribution line.
 -   When the distribution set is set as a template, the percentage column is read-only, and AP specialists can manually allocate costs later.
 
-**Parent Topic:**[Invoice cost allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-line-cost-allocation.md)
+**Parent Topic:**[Invoice cost allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-line-cost-allocation.md)
 

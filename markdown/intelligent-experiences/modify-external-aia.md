@@ -2,7 +2,7 @@
 title: Modify and external AI agent
 description: Modify an external AI agent in AI Agent Studio to refine its performance, align with business goals, or enable it to perform new tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/modify-external-aia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/modify-external-aia.html
 release: australia
 topic_type: task
 last_updated: "2026-09-03"
@@ -43,5 +43,5 @@ Your external AI agent is modified and ready to use.
 
 ## What to do next
 
-You can [test your external AI agent on a record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-asset-new.md) to see an example execution.
+You can [test your external AI agent on a record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-asset-new.md) to see an example execution.
 

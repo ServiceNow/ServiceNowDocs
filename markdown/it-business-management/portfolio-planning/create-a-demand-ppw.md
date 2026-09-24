@@ -2,7 +2,7 @@
 title: Create a demand
 description: Create demands to capture the strategic and operational requirements and centralize information for stakeholder assessment and prioritization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-a-demand-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-a-demand-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -77,7 +77,7 @@ The **Category** field selection determines the selections available in the **Ty
     -   Change
     -   Defect
     -   No Conversion
-For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-form-ppw.md).
+For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/demand-form-ppw.md).
 
 </td></tr><tr><td>
 
@@ -113,5 +113,5 @@ Description of the demand.
 
 ## What to do next
 
-Review and refine the demand details and progress the demand. See [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-the-demand-details-ppw.md).
+Review and refine the demand details and progress the demand. See [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/update-the-demand-details-ppw.md).
 

@@ -2,7 +2,7 @@
 title: Create a response action for Cloud Provisioning and Governance
 description: Create a subflow with the required input parameters that notifies Cloud Provisioning and Governance whether the flow completes successfully or not.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-subflow-action-cloud-provision-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-subflow-action-cloud-provision-governance.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -37,7 +37,7 @@ The response action communicates to the Cloud Provisioning and Governance applic
 
 1.  Navigate to **All** &gt; **Flow Designer** &gt; **Actions** tab, select **New Action**.
 
-    For more information, see Create an action.
+    For more information, see [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-action.md).
 
 2.  Fill in the Action Properties.
 

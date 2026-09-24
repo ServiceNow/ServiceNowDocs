@@ -2,7 +2,7 @@
 title: Case form related lists
 description: The Case form includes related lists that store case information and that agents can use to perform case-related tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_CSCaseFormRelatedLists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r\_CSCaseFormRelatedLists.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -137,7 +137,7 @@ Blocked by
 
 </td><td>
 
-A list of [blocking tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-action-status-blocking-tasks.md) that have been created for this case.
+A list of [blocking tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-action-status-blocking-tasks.md) that have been created for this case.
 
 </td></tr><tr><td>
 

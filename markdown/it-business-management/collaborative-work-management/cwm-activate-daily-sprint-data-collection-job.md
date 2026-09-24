@@ -2,7 +2,7 @@
 title: Activate the sprint data job for burnup and burndown widgets
 description: Activate the CWM Daily Sprint Data Collection scheduled job to populate data in the predefined burnup and burndown charts in the Team sprint progress dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-activate-daily-sprint-data-collection-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/cwm-activate-daily-sprint-data-collection-job.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management

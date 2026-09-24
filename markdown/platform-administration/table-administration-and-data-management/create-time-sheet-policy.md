@@ -2,7 +2,7 @@
 title: Create a time sheet policy
 description: As a time card administrator, you can create a time sheet policy to define the requirements for time card users to record their time worked. The time card approvers must review and process time sheets under the applicable time sheet policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/create-time-sheet-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/create-time-sheet-policy.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -87,7 +87,7 @@ Auto create time cards every week
 
 </td><td>
 
-Option to [generate time cards automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/auto-generate-time-cards.md) every week through a scheduled job for all users assigned to the time sheet policy. The time cards are generated based on the planned task assignments and hard-allocated resource plans of the users.
+Option to [generate time cards automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/auto-generate-time-cards.md) every week through a scheduled job for all users assigned to the time sheet policy. The time cards are generated based on the planned task assignments and hard-allocated resource plans of the users.
 
  By default, this option is selected.
 
@@ -248,8 +248,8 @@ Option to set the time sheet policy as the default. The default policy is a glob
 
 ## What to do next
 
--   [Set the time sheet policy as the default policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/set-default-time-sheet-policy.md), if required.
--   [Assign the time sheet policy to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/assign-time-sheet-policy-to-user.md).
+-   [Set the time sheet policy as the default policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/set-default-time-sheet-policy.md), if required.
+-   [Assign the time sheet policy to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/assign-time-sheet-policy-to-user.md).
 
-**Parent Topic:**[Time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-sheet-policies.md)
+**Parent Topic:**[Time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/time-sheet-policies.md)
 

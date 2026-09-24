@@ -2,7 +2,7 @@
 title: Contract review using external AI tool
 description: Review a contract document in a connected external AI tool that retrieves the applicable contract analysis playbook from Contract Management Pro and proposes redlines based on that guidance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-negotiate-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-negotiate-contract.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -21,8 +21,8 @@ Review a contract document in a connected external AI tool that retrieves the ap
 
 Before you review and redline a contract document using an external AI tool:
 
--   An administrator must set up the Contract Management Pro MCP Server. For more information, see [Set up the Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-mcp-server.md).
--   A configurator must create at least one active playbook for the contract type. For more information, see [Create a contract analysis playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-create-negotiation-playbook.md).
+-   An administrator must set up the Contract Management Pro MCP Server. For more information, see [Set up the Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-conf-mcp-server.md).
+-   A configurator must create at least one active playbook for the contract type. For more information, see [Create a contract analysis playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-create-negotiation-playbook.md).
 -   You must have a connected AI tool configured to access the MCP Server.
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
@@ -36,7 +36,7 @@ The Contract Management Pro MCP Server connects MCP-compatible external AI tools
 -   The exact steps depend on the AI tool you use. For example, in the Claude Desktop application, you can provide the contract document as a DOCX for context. To receive tracked redlines directly in the document, use the Claude for Microsoft Word add-in with the Word document.
 -   Depending on the contract request and the document, the AI tool might ask you to provide more information before it returns guidance. For example, if the company cannot be determined from the contract request or the document refers to more than one company, the tool asks you to specify the company.
 
-For the full set of messages that the playbook tool can return, see [Contract analysis playbook tool messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-negotiation-tool-messages.md).
+For the full set of messages that the playbook tool can return, see [Contract analysis playbook tool messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-negotiation-tool-messages.md).
 
 **Important:**
 
@@ -73,8 +73,8 @@ Contract Management Pro includes a sample playbook named Sample Non disclosure a
 
 8.  Upload the redlined document into the contract request.
 
-    -   As Contract fulfiller, upload the redlined document into the contract request by creating a revision and further review. For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
-    -   As Contract reviewer, share the redlined document with the contract fulfiller while completing the internal review task. For more information, see [Work on internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-int-review-doc.md).
+    -   As Contract fulfiller, upload the redlined document into the contract request by creating a revision and further review. For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
+    -   As Contract reviewer, share the redlined document with the contract fulfiller while completing the internal review task. For more information, see [Work on internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-int-review-doc.md).
 
-**Parent Topic:**[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-methods-land.md)
+**Parent Topic:**[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-review-methods-land.md)
 

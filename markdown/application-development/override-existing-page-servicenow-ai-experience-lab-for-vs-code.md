@@ -2,7 +2,7 @@
 title: Override an existing page
 description: Have existing ServiceNow AI Platform experiences use pages that you create instead of base system pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/override-existing-page-servicenow-ai-experience-lab-for-vs-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/override-existing-page-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
@@ -103,7 +103,7 @@ ServiceNow instance
 
 1.  In the ServiceNow Lux Lab for VS Code extension, open an experience that extends an existing experience.
 
-    For more information about extending existing experiences, see [Extend an existing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.md).
+    For more information about extending existing experiences, see [Extend an existing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.md).
 
 2.  Access the command palette by pressing Ctrl+Shift+P on Windows or Command+Shift+P on macOS, or by navigating to **View** &gt; **Command Palette**.
 
@@ -111,7 +111,7 @@ ServiceNow instance
 
 4.  From the list, select **AIUX: New Page**.
 
-    You can also create pages that extend existing pages. For more information, see [Extend an existing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/extend-existing-page-servicenow-ai-experience-lab-for-vs-code.md).
+    You can also create pages that extend existing pages. For more information, see [Extend an existing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/extend-existing-page-servicenow-ai-experience-lab-for-vs-code.md).
 
 5.  Enter the display name for the page you want to override and select the Enter key.
 
@@ -130,5 +130,5 @@ Your page is created. You can now add elements to the page and preview as needed
 
 ## What to do next
 
-To complete the override process, you must deploy your changes to your instance. For more information, see [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
+To complete the override process, you must deploy your changes to your instance. For more information, see [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
 

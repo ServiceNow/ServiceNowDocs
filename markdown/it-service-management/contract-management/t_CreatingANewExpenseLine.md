@@ -2,7 +2,7 @@
 title: Create a new expense line
 description: Typically, expense lines are automatically generated based on assets or users, but you can create a new expense line manually if needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_CreatingANewExpenseLine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/contract-management/t\_CreatingANewExpenseLine.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -57,7 +57,7 @@ Role required: asset, contract\_manager\(core UI and Hardware Asset Workspace on
 5.  Click **Submit** \(core UI\) or **Save** \(Hardware Asset Workspaceand Enterprise Asset Workspace\).
 
 
-**Parent Topic:**[Create a contract rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_ContractRateCardsAndExpenseLines.md)
+**Parent Topic:**[Create a contract rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/t_ContractRateCardsAndExpenseLines.md)
 
 **Related topics**  
 

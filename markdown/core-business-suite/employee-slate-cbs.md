@@ -2,7 +2,7 @@
 title: Employee Slate for Core Business Suite
 description: Employee Slate is the default employee support portal for Core Business Suite. It provides a consolidated view of Employee Center widgets with a conversational interface for raising issues, asking for information, and submitting business unit-specific service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/employee-slate-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/employee-slate-cbs.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-05"
@@ -38,7 +38,7 @@ The following business unit support is available on the Employee Slate portal: H
 
 For more information on configuring Employee Slate in CBS, see
 
--   [Employee Slate configuration for CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/employee-slate-config-cbs.md)
+-   [Employee Slate configuration for CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/employee-slate-config-cbs.md)
 -   [ServiceNow EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-landing-page.md)
 
 .

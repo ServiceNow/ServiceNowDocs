@@ -2,7 +2,7 @@
 title: Use the GetResolution component
 description: Get the resolution of the current screen by using the GetResolution component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-screen-getresolution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-utilities-screen-getresolution.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-The properties of the GetResolution component are common with the properties of the other Screen components. To configure these properties, see [Properties of the Screen components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-screen-prop.md).
+The properties of the GetResolution component are common with the properties of the other Screen components. To configure these properties, see [Properties of the Screen components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-screen-prop.md).
 
 ## Procedure
 
@@ -43,5 +43,5 @@ The properties of the GetResolution component are common with the properties of 
 
 The GetResolution component passes the current screen resolution through the Return Data Out port to the Show component. The Show component takes the resolution through its Message Data In port and is displayed in a message box.
 
-**Parent Topic:**[Screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/screen.md)
+**Parent Topic:**[Screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/screen.md)
 

@@ -2,7 +2,7 @@
 title: Create Kafka credentials
 description: Configure credentials for your Apache Kafka connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-kafka-ssl-credentials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/create-kafka-ssl-credentials.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -46,7 +46,7 @@ After you've created both the connection record and the credential record, you c
 
 ## What to do next
 
-[Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-kafka-connection.md).
+[Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-kafka-connection.md).
 
-**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)
+**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

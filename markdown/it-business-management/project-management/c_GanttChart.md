@@ -2,7 +2,7 @@
 title: Gantt chart
 description: A Gantt chart on the planning console is a visual representation of a project timeline that shows start and end dates of tasks, and the dependencies between tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_GanttChart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/c\_GanttChart.html
 release: australia
 product: Project Management
 classification: project-management
@@ -37,7 +37,7 @@ The colors of the task bars on the Gantt chart are based on the percent complete
 |Light blue bar|Task is pending or open.|
 |Dark blue bar \(full or partial\)|The percentage complete is between 1% and 100%. The dark blue section indicates the percentage complete. The task can be in the Work in Progress state or Completed state.|
 
-**Note:** The colors of the task bars on the Gantt chart can be configured from [program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_AccessTheProgramWorkbench.md) workbench.
+**Note:** The colors of the task bars on the Gantt chart can be configured from [program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/program-management/t_AccessTheProgramWorkbench.md) workbench.
 
 ## SDLC phases
 
@@ -50,10 +50,10 @@ Icons appear next to tasks to indicate what phase they belong to.
 
 **Note:** Tasks in the waterfall phase do not display an icon.
 
--   **[Gantt chart options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_EditTasks.md)**  
+-   **[Gantt chart options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_EditTasks.md)**  
 Use the Gantt chart to quickly change task attributes, such as start and end time, rather than opening every Task form and modifying field values one by one.
 
-**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
+**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 
 **Related topics**  
 

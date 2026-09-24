@@ -2,7 +2,7 @@
 title: Configure multicurrency for planning items
 description: Select investment currency as an additional currency, which can be different from your functional currency, to manage financial records of your planning items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/config-investment-currency-spw-fin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/config-investment-currency-spw-fin.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +18,7 @@ Select investment currency as an additional currency, which can be different fro
 
 ## Before you begin
 
--   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
+-   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
 -   Role required: admin
 
 ## Procedure
@@ -75,5 +75,5 @@ Edit investment currency modal is displayed with options to select investment cu
 
 ## What to do next
 
-Activate and run a the **Update multi-currency fields to investment currency for existing demands and projects** scheduled job to reflect the investment currenct configuration. For more information on how to activate and schedule this job, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
+Activate and run a the **Update multi-currency fields to investment currency for existing demands and projects** scheduled job to reflect the investment currenct configuration. For more information on how to activate and schedule this job, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
 

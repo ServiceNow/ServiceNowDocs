@@ -2,7 +2,7 @@
 title: Generate a project plan using project plan generation skill
 description: Use Project plan generation skill to generate a project plan from natural language input, uploaded files, or both.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-project-using-ai-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/generate-project-using-ai-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -30,7 +30,7 @@ Role required: it\_project\_manager
 
 AI scans your project and task details to generate content. Review and edit the output before creating the project. Supported file types are word, pdf, excel, and powerpoint, with a 5 MB file size limit. Only the first five attachments are processed.
 
-For project and task supported column configurations, see [Supported columns for project and task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/column-configuration-project-tasks.md).
+For project and task supported column configurations, see [Supported columns for project and task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/column-configuration-project-tasks.md).
 
 ## Procedure
 
@@ -65,5 +65,5 @@ For project and task supported column configurations, see [Supported columns for
 
 The project is created with the generated tasks, including task hierarchy and dates derived from your input.
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 

@@ -2,7 +2,7 @@
 title: Enforcing unique numbering
 description: Although duplicate numbers are rare, numbering does not enforce uniqueness, by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_EnforcingUniqueNumbering.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_EnforcingUniqueNumbering.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,14 +17,14 @@ Although duplicate numbers are rare, numbering does not enforce uniqueness, by d
 To enforce uniqueness, you can:
 
 -   Create a before business rule on insert only to check for duplicate values and replace duplicates with the next available number.
--   Enable a unique index on the table. For more information, see [Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateCustomIndex.md).
+-   Enable a unique index on the table. For more information, see [Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_CreateCustomIndex.md).
 
     **Note:** While unique indexes ensure data integrity they also prevent any insert involving a duplicate number. This may cause unexpected errors during data entry.
 
 
 ## Sample business rule
 
-This sample script can be used as part of a before business rule on insert only to check for duplicate numbers and replace them with the next available number. The following script references a script created in [Configure left padding of a system number in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RenumberingRecords.md).
+This sample script can be used as part of a before business rule on insert only to check for duplicate numbers and replace them with the next available number. The following script references a script created in [Configure left padding of a system number in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_RenumberingRecords.md).
 
 ```javascript
 var curNum = current.number + '';
@@ -47,7 +47,7 @@ if(curNum) {
 
 ```
 
-**Parent Topic:**[Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ManagingRecordNumbering.md)
+**Parent Topic:**[Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ManagingRecordNumbering.md)
 
 **Related topics**  
 

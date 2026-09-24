@@ -2,7 +2,7 @@
 title: Adding additional managers
 description: Appointing additional managers in your organization ensures the continuity of work in the absence of a primary manager.Appoint additional internal managers for an outsourced service provider to manage contractor companies and their employees in the absence of its primary internal contractor manager.Appoint additional external managers for an outsourced service provider to manage the agents and work of contractor companies in the absence of a primary external manager of the contractor company.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/adding-additional-managers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/adding-additional-managers.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -29,7 +29,7 @@ Roles and responsibilities of additional managers:
     -   Onboard agents for contractor companies
     -   Assign and manage work order tasks to the contractor agents using the Field Service Contractor portal.
 
-**Note:** An off-boarded agent automatically gets deleted from the additional manager role if assigned to. For more information, see [Offboard agents on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/offboard-agents-fsmcp.md).
+**Note:** An off-boarded agent automatically gets deleted from the additional manager role if assigned to. For more information, see [Offboard agents on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/offboard-agents-fsmcp.md).
 
 ## Add additional internal managers
 
@@ -76,7 +76,7 @@ Assign wm\_ext\_agent role to the employee of an external company whom you want 
 
 Internal manager of a company can onboard field service agents for contractor companies and also appoint them as additional external managers to manage the managerial activities of contractor companies.
 
-External manager of the contractor company can also assign additional manager role to a field service agent while on boarding them or later. For more information, see [Onboard agents on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/onboard-field-service-agent.md) and [Assign additional manager assignments to an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/assign-additional-manager-assignments.md).
+External manager of the contractor company can also assign additional manager role to a field service agent while on boarding them or later. For more information, see [Onboard agents on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/onboard-field-service-agent.md) and [Assign additional manager assignments to an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/assign-additional-manager-assignments.md).
 
 This procedure explains how an internal manager can onboard additional external manager using ServiceNow AI Platform.
 

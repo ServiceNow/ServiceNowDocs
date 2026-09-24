@@ -2,7 +2,7 @@
 title: Assign a resource using AI resource finder
 description: Use AI resource finder to identify and assign a resource to an unassigned resource assignment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/assign-resources-using-resource-finder-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/assign-resources-using-resource-finder-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -46,5 +46,5 @@ The AI resource finder uses generative AI to calculate AI rationale for availabl
     The resource is assigned to the task.
 
 
-**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/resource-assignments-pw.md)
 

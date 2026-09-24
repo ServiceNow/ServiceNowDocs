@@ -2,7 +2,7 @@
 title: Evaluating the need for domain separation
 description: You may find that domain separation doesn't always work for your customers' organizations. It's best that you base your decision to go with domain separation by looking at your customers' needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-evaluation-dom-sep.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-evaluation-dom-sep.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,7 +43,7 @@ These factors can point to reasons why your customers' organizations might not w
 
 \[Omitted image "bp-evaluating-need.png"\] Alt text: Evaluating reasons for and against choosing domain separation
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

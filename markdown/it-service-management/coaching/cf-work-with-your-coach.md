@@ -2,7 +2,7 @@
 title: Work with your coach
 description: Use your assessments to work with your coach, including assigned training and due dates. You can view your assessments and track your results using the Trainee Dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-work-with-your-coach.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/coaching/cf-work-with-your-coach.html
 release: australia
 product: Coaching
 classification: coaching
@@ -61,10 +61,10 @@ You can provide feedback for your coach when the assessment is in resolved, clos
 |Due date|2018-10-25 05:18:59|
 |Resolved by Virtual Coach|Selected|
 
-**Parent Topic:**[Managing your coaching assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-getting-coached.md)
+**Parent Topic:**[Managing your coaching assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-getting-coached.md)
 
 **Related topics**  
 
 
-[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-field-descriptions.md)
+[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-coaching-field-descriptions.md)
 

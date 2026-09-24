@@ -2,7 +2,7 @@
 title: Red Hat Virtualization \(RHV\) extension classes
 description: The CMDB CI Class Models app adds or updates classes for Red Hat Virtualization \(RHV\) OLVM or RHV.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-redhat-rhv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-redhat-rhv.html
 release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -38,7 +38,7 @@ Red Hat Virtualization \(RHV\) is a virtualization product that is based on the 
 
 This section lists the classes that the CMDB CI Class Models app adds or updates. See the class columns table for further details about the columns added for each class.
 
-CMDB CI Class Models: Release 1.8.0 adds the following classes for RHV. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+CMDB CI Class Models: Release 1.8.0 adds the following classes for RHV. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_ghd_qtj_tkb"><thead><tr><th>
 
@@ -231,5 +231,5 @@ The following class was deleted in the CMDB CI Class Models 1.6.0 release.
 
 [Oracle Linux Virtualization Manager and Red Hat Virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/red-hat-virtualization-discovery.md)
 
-[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

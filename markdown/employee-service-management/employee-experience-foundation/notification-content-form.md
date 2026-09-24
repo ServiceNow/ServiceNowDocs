@@ -2,7 +2,7 @@
 title: Notification content form
 description: Notification content form
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/notification-content-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/notification-content-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -70,7 +70,7 @@ Block content
 
 </td><td>
 
-Only displays when you check **Use block content**. Select the block content you want to appear as a notification or select **New** to create block content.**Note:** For more information, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
+Only displays when you check **Use block content**. Select the block content you want to appear as a notification or select **New** to create block content.**Note:** For more information, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Active
 Option to activate the push notification for use.**Note:** Your content must be active in order to publish it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

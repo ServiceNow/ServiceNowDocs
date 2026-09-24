@@ -2,7 +2,7 @@
 title: Set up tokenized HTTP connection &amp; credential aliases
 description: Configure a connection in Card Data Security using an API key for authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/create-a-new-tokenizer-route.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/create-a-new-tokenizer-route.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +23,7 @@ Role required: admin
 
 Define the authentication type when setting up a Service Account in the tokenizer service. API keys are long-lived, whereas JWT bearer tokens are time-limited. The tokenizer service generates an API key after you create a Service Account. For more information, see [Initial setup for Vault schema, Connections and Service Account for Card data security \(KB2830577\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577).
 
-In ServiceNow, install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/spokes.md).
+In ServiceNow, install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/spokes.md).
 
 ## About this task
 

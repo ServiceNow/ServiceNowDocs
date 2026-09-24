@@ -2,7 +2,7 @@
 title: Specifying where ERP system data is saved
 description: Use the data that Zero Copy Connector for ERP \(Enterprise Resource Planning\) retrieves from ERP systems in remote tables and extraction tables, or add it to flows as data pills in Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-call-response-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-call-response-data.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

@@ -2,7 +2,7 @@
 title: Edit monetary benefit plan
 description: Edit a planned monetary benefit plan to revise the benefits, dates, offset, and so on, to maintain the updated financial records as your work progresses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/fin-edit-monetary-benefit-plan-pws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/fin-edit-monetary-benefit-plan-pws.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -18,7 +18,7 @@ Edit a planned monetary benefit plan to revise the benefits, dates, offset, and 
 
 ## Before you begin
 
--   [Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
+-   [Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -59,5 +59,5 @@ Procedure
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
+**Parent Topic:**[Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
 

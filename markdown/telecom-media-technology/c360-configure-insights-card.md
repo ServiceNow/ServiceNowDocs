@@ -2,7 +2,7 @@
 title: Configure the insights card variables
 description: Configure the variables in the insights card.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-configure-insights-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-configure-insights-card.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,10 +31,10 @@ Role required: sn\_telecom\_c360.admin
     |Enable proactive trigger|This variable is enabled by default. If this variable is inactive, the insights are not automatically generated when you open the customer or consumer account. After you open the account, select **Generate telecom customer 360 insights** to generate the insights for the account.|
 
 
-**Parent Topic:**[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-variables.md)
+**Parent Topic:**[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-variables.md)
 
 **Related topics**  
 
 
-[Insights card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-insights-card.md)
+[Insights card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-insights-card.md)
 

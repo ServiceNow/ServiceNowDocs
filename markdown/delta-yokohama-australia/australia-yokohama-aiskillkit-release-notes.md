@@ -2,11 +2,11 @@
 title: Combined AI Skill Kit release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for AI Skill Kit from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-aiskillkit-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-aiskillkit-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -80,7 +80,28 @@ Yokohama
 
 </td><td>
 
--   **[Customize ServiceNow skills in Now Assist Skill Kit to tailor skills to meet your specific business requirements.](https://www.servicenow.com/docs/access?context=clone-and-edit-servicenow-skill&family=yokohama&ft:locale=en-US)**
+-   **[New skill deployment option](https://www.servicenow.com/docs/access?context=configure-skill-settings&family=yokohama&ft:locale=en-US)**
+
+Deploy skills using UI Builder.
+
+-   **[Choose a language for data generation](https://www.servicenow.com/docs/access?context=na-data-kit-generate-data&family=yokohama&ft:locale=en-US)**
+
+When you create synthetic data, you can select what language you want to receive the data in.
+
+-   **[AI-assisted ground truth](https://www.servicenow.com/docs/access?context=add-ground-truth&family=yokohama&ft:locale=en-US)**
+
+Use AI to assist creating ground truth for your data.
+
+-   **[Import data with a CSV file](https://www.servicenow.com/docs/access?context=add-dataset&family=yokohama&ft:locale=en-US)**
+
+Import data from a CSV file to create a dataset.
+
+-   **[Create a custom data generator](https://www.servicenow.com/docs/access?context=create-custom-data-generator&family=yokohama&ft:locale=en-US)**
+
+Create and use a custom data generator to create synthetic data.
+
+
+ -   **[Customize ServiceNow skills in Now Assist Skill Kit to tailor skills to meet your specific business requirements.](https://www.servicenow.com/docs/access?context=clone-and-edit-servicenow-skill&family=yokohama&ft:locale=en-US)**
 
 Eligible skills provided in ServiceNow Now Assist applications can be cloned in Now Assist Skill Kit so that you can edit the prompt or change the AI service provider. Editing the prompt enables you to arrange the formatting and content of the large language model \(LLM\) response. After the skill is edited, activate the edited skill in the AI Admin Hub console to enable it.
 
@@ -95,7 +116,33 @@ Zurich
 
 </td><td>
 
--   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[Labelling](https://www.servicenow.com/docs/access?context=nadk-labelling&family=zurich&ft:locale=en-US)Use labeling workflows to annotate UI templates**
+
+Use the labeling framework to create and manage ground truth data. Published data collections can now be turned into labeling projects. Each record becomes a task assigned to labelers who annotate using pre-configured UI templates
+
+-   **[s](https://www.servicenow.com/docs/access?context=configure-skill-prompt&family=zurich&ft:locale=en-US)Structured output support for AI responses**
+
+Enables consistent parsing in agentic workflows and reduces ambiguity in downstream automation.
+
+-   **[Use multi-table data generator](https://www.servicenow.com/docs/access?context=use-multi-table-data-generator&family=zurich&ft:locale=en-US)New multi-table synthetic data generation option**
+
+You can generate related records across multiple tables in a single operation. You no longer need to generate each table separately and manually link records. Define your table relationships, set the cardinality and AI Data Kit generates coherent, referentially linked records across all tables in one pass, with foreign key integrity maintained automatically. 
+
+-   **[Create a model](https://www.servicenow.com/docs/access?context=create-model&family=zurich&ft:locale=en-US)AI Control Tower integration with custom LLMs.**
+
+Improve oversight and compliance for AI deployments with formal approval flows for custom models.
+
+-   **[AI Skill Kit roles](https://www.servicenow.com/docs/access?context=na-skill-kit-roles&family=zurich&ft:locale=en-US)Update to the abilities of the admin role**
+
+The sn\_skill\_builder.admin role is now broken into smaller, task-specific roles, including a custom LLM-specific admin role.
+
+
+ -   **[Create a model](https://www.servicenow.com/docs/access?context=create-model&family=zurich&ft:locale=en-US)**
+
+When you bring your own model you can keep data in your own environment and fine-tune it to meet your specific needs.
+
+
+ -   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
@@ -147,7 +194,22 @@ Yokohama
 
 </td><td>
 
--   **[Now Assist Skill Kit add tools function moved to Tool editor tab.](https://www.servicenow.com/docs/access?context=add-a-tool&family=yokohama&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+ -   **[Now Assist Skill Kit add tools function moved to Tool editor tab.](https://www.servicenow.com/docs/access?context=add-a-tool&family=yokohama&ft:locale=en-US)**
 
 The ability to add and edit tools for Now Assist Skill Kit previously appeared on the **Prompt editor** tab. It now appears on the **Tool editor** tab.
 
@@ -299,6 +361,8 @@ Now Assist features are available with activation of any Now Assist plugin from 
     -   [Now Assist for WSD](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=yokohama&ft:locale=en-US)
     -   [ServiceNow Otto for Unified Security Exposure Management](https://www.servicenow.com/docs/access?context=now-assist-for-vulnerability-response-landing&family=yokohama&ft:locale=en-US)
 
+**Important:** AI Skill Kit is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -310,7 +374,7 @@ Zurich
 Now Assist features are available with activation of any Now Assist plugins from ServiceNow Store. The following plugins are available:
 
     -   
-
+**Important:** AI Skill Kit is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -565,5 +629,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

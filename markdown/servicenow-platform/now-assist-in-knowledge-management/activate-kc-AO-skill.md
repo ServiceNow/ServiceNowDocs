@@ -2,7 +2,7 @@
 title: Activate the Article Optimization skill
 description: Activate the Knowledge Center Article Optimization skill to enable article optimization features for generating knowledge articles in the Knowledge Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -33,10 +33,10 @@ Role required: admin
 
 The Article Optimization skill is activated.
 
-**Parent Topic:**[Configure Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
+**Parent Topic:**[Configure Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
 
 **Related topics**  
 
 
-[Configure custom AI-based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-custom-ai-based-AO-scans.md)
+[Configure custom AI-based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/configure-custom-ai-based-AO-scans.md)
 

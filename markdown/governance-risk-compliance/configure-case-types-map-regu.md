@@ -2,7 +2,7 @@
 title: Map regulations to the entities
 description: Map single or multiple regulations with the entity linked to an incident or security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-case-types-map-regu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-case-types-map-regu.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
 The Digital Resilience Incident Case module lists all DRI Cases associated with an incident or security incident. A new Regulation Mappings related list is now available in each Digital Resilience Incident Case record. It displays the relationships between entities related to the cases and their corresponding regulations.
 
-Each regulation mapped to an entity drives the action task workflow for that case. When a regulation is added or updated for a case, the 'Action task automation for regulation addition' and 'Action task automation on regulation updates' flows run. These flows read the action task configuration of the matching Regulatory Body Management Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile\] record. They automatically create the required action tasks \(Regulatory reporting assessment of IT incidents, DRI Initial/Intermediate/Final reports\). The assignment groups, due dates, repeat intervals, and termination conditions defined in those templates are displayed. For details on the action task templates, see [Set up action task templates in Regulatory agency profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-action-task-templates.md).
+Each regulation mapped to an entity drives the action task workflow for that case. When a regulation is added or updated for a case, the 'Action task automation for regulation addition' and 'Action task automation on regulation updates' flows run. These flows read the action task configuration of the matching Regulatory Body Management Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile\] record. They automatically create the required action tasks \(Regulatory reporting assessment of IT incidents, DRI Initial/Intermediate/Final reports\). The assignment groups, due dates, repeat intervals, and termination conditions defined in those templates are displayed. For details on the action task templates, see [Set up action task templates in Regulatory agency profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-action-task-templates.md).
 
 ## Procedure
 
@@ -150,5 +150,5 @@ Each regulation mapped to an entity drives the action task workflow for that cas
 **Related topics**  
 
 
-[Complete action tasks and report incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/work-on-action-tasks.md)
+[Complete action tasks and report incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/work-on-action-tasks.md)
 

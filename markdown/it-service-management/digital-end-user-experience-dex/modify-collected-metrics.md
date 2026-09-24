@@ -2,7 +2,7 @@
 title: Modify collected metrics under a child policy
 description: Turn off an existing DEX metric for certain configuration item \(CI\) criteria by creating a child policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/modify-collected-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/modify-collected-metrics.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

@@ -2,7 +2,7 @@
 title: APIs used by AI Service Graph Connector for OCI
 description: Explore the OCI APIs used by the AI Service Graph Connector for OCI
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-sgc-oci-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-sgc-oci-api.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

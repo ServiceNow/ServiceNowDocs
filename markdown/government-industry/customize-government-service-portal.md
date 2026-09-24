@@ -2,7 +2,7 @@
 title: Customize the Government Service Portal
 description: Modify the Government Service Portal to meet your needs, for example to set the portal branding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/customize-government-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/customize-government-service-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Modify the Government Service Portal to meet your needs, for example to set the 
 
 ## Before you begin
 
-You can customize the Government Service Portal by following this procedure or by using [guided setup for Public Sector Digital Services Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-psds-foundation-data.md).
+You can customize the Government Service Portal by following this procedure or by using [guided setup for Public Sector Digital Services Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configure-psds-foundation-data.md).
 
 Role required: admin
 

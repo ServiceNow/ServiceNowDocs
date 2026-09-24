@@ -2,7 +2,7 @@
 title: Configuring the enrollment request form
 description: You can configure an enrollment request form to enable patients or practitioners to enroll into Patient Support Services programs offered by a healthcare organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-enroll-form-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-enroll-form-config.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

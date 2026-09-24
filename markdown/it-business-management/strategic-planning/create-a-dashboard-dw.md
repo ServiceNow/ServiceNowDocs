@@ -2,7 +2,7 @@
 title: Create or manage a dashboard
 description: In the Platform Analytics experience, you can create, duplicate, share, and export dashboards with data visualizations, filters, and other elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-a-dashboard-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/create-a-dashboard-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

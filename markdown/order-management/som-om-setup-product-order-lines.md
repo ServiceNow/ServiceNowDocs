@@ -2,7 +2,7 @@
 title: Set up and review order lines
 description: Once products and services are added to an order in Order Management, you can set up order lines with order characteristics, pricing adjustments, and other items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-om-setup-product-order-lines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-om-setup-product-order-lines.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -80,5 +80,5 @@ Product and service order lines items contain the product or service that you ha
 **Related topics**  
 
 
-[Review and submit a product or service order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-om-review-and-submit-product-order.md)
+[Review and submit a product or service order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-om-review-and-submit-product-order.md)
 

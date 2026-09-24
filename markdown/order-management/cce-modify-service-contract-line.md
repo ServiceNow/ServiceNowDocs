@@ -2,7 +2,7 @@
 title: Modify a customer contract line
 description: Modify a customer contract line so that you can update its existing configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cce-modify-service-contract-line.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cce-modify-service-contract-line.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,14 +37,14 @@ Role required:
 
         **Note:** The Configurator UI is displayed only if you select a single customer contract line. If you selected multiple customer contract lines, the order or quote created is displayed.
 
-    -   If you select **Modify quantity**, you can reduce or increase the quantities of the products specified in the selected contract lines. For more info, see [Upsell or Downsell a customer contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cce-upsell-downsell-service-contract.md).
+    -   If you select **Modify quantity**, you can reduce or increase the quantities of the products specified in the selected contract lines. For more info, see [Upsell or Downsell a customer contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cce-upsell-downsell-service-contract.md).
 
         **Note:** You cannot modify quantity on a ramped contract line.
 
     -   If you select **Modify end date**, you can select an earlier end date or a later end date than the current end date to perform an early termination or extension of a contract line. For a ramped contract line, you can only select a date before the contract expiry date in the **End date** field to perform an early termination. The contract line splits into two contract lines. One contract line has the new end date that you selected and the second contract line has the original end date with State as **Canceled** and Quantity as **Zero**. The remaining segments are canceled and their quantities are zero.
 6.  Select **Update**.
 
-    An order or a quote is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-cont-ent-workflows-csm.md).
+    An order or a quote is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to modify the customer contract line is created. You can select the quote number from the confirmation message to view the modified quote line items. The quote is approved and the status changes to **Complete** to create an order.
     -   If the selected target entity is an order, an order to modify the customer contract line is created. You can select the order number from the confirmation message to view the modified order line items.

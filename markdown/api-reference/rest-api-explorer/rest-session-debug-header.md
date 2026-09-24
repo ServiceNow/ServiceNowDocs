@@ -2,7 +2,7 @@
 title: Return session debug logs in a REST response
 description: You can include session debug logs in a REST response body by passing the X-WantSessionDebugMessages header in the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/rest-session-debug-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/rest-session-debug-header.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -59,10 +59,10 @@ X-UserToken: <user token>
 }
 ```
 
-**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md)
+**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md)
 
 **Related topics**  
 
 
-[Debugging sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SessionDebug.md)
+[Debugging sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_SessionDebug.md)
 

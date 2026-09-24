@@ -2,7 +2,7 @@
 title: Link your ServiceNow user account to a messaging application for Virtual Agent conversations
 description: Link your ServiceNow account to a third-party messaging application to access non-public Virtual Agent topics that use ServiceNow records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/link-accounts-with-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/link-accounts-with-virtual-agent.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -53,10 +53,10 @@ However, after you unlink your messaging account from your ServiceNow account \(
     A confirmation message is displayed at the top of the screen.
 
 
-**Parent Topic:**[Account linking in pre-built messaging integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-adapter-autolinking.md)
+**Parent Topic:**[Account linking in pre-built messaging integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-adapter-autolinking.md)
 
 **Related topics**  
 
 
-[Redirect user authentication to a Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-user-linkage.md)
+[Redirect user authentication to a Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-user-linkage.md)
 

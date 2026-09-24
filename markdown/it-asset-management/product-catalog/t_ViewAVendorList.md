@@ -2,7 +2,7 @@
 title: View a vendor list
 description: You can view a list of vendors from the product catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_ViewAVendorList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/product-catalog/t\_ViewAVendorList.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -31,7 +31,7 @@ The list includes every company that has the **Vendor** option selected on its r
 2.  Click any vendor **Name** for more information.
 
 
-**Parent Topic:**[Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ManageVendorCatalogItems.md)
+**Parent Topic:**[Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_ManageVendorCatalogItems.md)
 
 **Related topics**  
 

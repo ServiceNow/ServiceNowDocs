@@ -2,7 +2,7 @@
 title: Enhancing customer impact visibility for PSEW processes
 description: Use the customer impact tab to reduce navigation time, and enhance tracking and management of PSEW processes. This visibility enables you to quickly assess business impact and take informed actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/enhance-customer-impact-visibility-psew-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/enhance-customer-impact-visibility-psew-process.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -56,7 +56,7 @@ The Affected customers section contains the following tabs.
     List of impacted consumers and their details.
 
 
-To learn more about the columns in each tab, see [Affected customers list columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/affected-customer-list-columns.md).
+To learn more about the columns in each tab, see [Affected customers list columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/affected-customer-list-columns.md).
 
 The Affected customers section uses interactive pills to quickly filter and view customer and consumer-level impact:
 
@@ -67,7 +67,7 @@ The Affected customers section uses interactive pills to quickly filter and view
 |No proactive records|Lists accounts without any proactive case created.|
 |No customer communication|Lists accounts that have not yet received any communication.|
 
-To learn more about how to create proactive cases and resolve incidents, see [About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-identify-act-incident.md).
+To learn more about how to create proactive cases and resolve incidents, see [About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/psew-identify-act-incident.md).
 
-**Parent Topic:**[Proactive Service Experience Workflows architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.md)
+**Parent Topic:**[Proactive Service Experience Workflows architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.md)
 

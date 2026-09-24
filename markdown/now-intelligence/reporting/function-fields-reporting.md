@@ -2,7 +2,7 @@
 title: Report on function fields
 description: While regular fields store a value in the database, a function field displays the results of a database query. The function field generates the value based on computations of other fields and constants. You can use these fields in reports and data visualizations as you would other fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/function-fields-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/function-fields-reporting.html
 release: australia
 product: Reporting
 classification: reporting
@@ -205,18 +205,18 @@ glidefunction:substring\(short\_description, '7', '2'\) If the value of the shor
 Return type: Text
 
 </td></tr></tbody>
-</table>-   **[Configuring function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/configure-function-fields.md)**  
+</table>-   **[Configuring function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/configure-function-fields.md)**  
 You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation. Function fields that you create in Report Designer are available in Platform Analytics experience, but you cannot create them in Platform Analytics experience
--   **[Create a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/create-function-field.md)**  
+-   **[Create a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/create-function-field.md)**  
 Create a function field to be able to group and stack a report by the results of the field's calculation.
--   **[Edit a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/edit-function-field.md)**  
+-   **[Edit a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/edit-function-field.md)**  
 The user who created a function field or a user with the admin or function\_field\_admin role can edit the definition of a saved function field. It isn’t possible to edit the label or the return type of a saved function field.
--   **[Deactivate a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/delete-function-field.md)**  
+-   **[Deactivate a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/delete-function-field.md)**  
 The user who created a function field or a user with the admin role can deactivate it. If a table already has 20 function fields, you must deactivate one or more existing fields before creating another.
--   **[Delete a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/delete-a-function-field-fg.md)**  
+-   **[Delete a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/delete-a-function-field-fg.md)**  
 A user with the admin role can delete a function field from its table. Deleting a function field is useful if you want to create a function field with the same name as one that exists on that table.
--   **[Disable function field creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/disable-function-field-creation.md)**  
+-   **[Disable function field creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/disable-function-field-creation.md)**  
 Configure a system property to remove the ability to create function fields in the Report Designer.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdvancedReporting.md)
 

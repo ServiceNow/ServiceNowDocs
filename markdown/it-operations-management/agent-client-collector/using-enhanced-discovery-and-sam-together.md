@@ -2,7 +2,7 @@
 title: Using push-based Discovery and SAM together
 description: Agent Client Collector for Visibility Content \(ACC-VC\) collects installed software data for use cases for Software Asset Management \(SAM\), when the SAM plugin is installed. Using push-based Discovery and SAM together can help optimize software data collection with SAM basic metering and SAM total usage metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/using-enhanced-discovery-and-sam-together.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/using-enhanced-discovery-and-sam-together.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -148,7 +148,7 @@ Restart-Service osqueryd
 
 ```
 
-For details on Windows and macOS see [Configure Osqueryd schedule for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/import-external-pack-file-for-sam-total-usage-metrics.md) and [Configure Osqueryd logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md).
+For details on Windows and macOS see [Configure Osqueryd schedule for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/import-external-pack-file-for-sam-total-usage-metrics.md) and [Configure Osqueryd logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md).
 
 ## Collecting SAM metrics without osqueryd
 
@@ -173,7 +173,7 @@ Edition information is supported for Adobe Acrobat and MS SQL server. With this 
 **Related topics**  
 
 
-[Configure Osqueryd schedule for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/import-external-pack-file-for-sam-total-usage-metrics.md)
+[Configure Osqueryd schedule for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/import-external-pack-file-for-sam-total-usage-metrics.md)
 
-[Configure Osqueryd logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md)
+[Configure Osqueryd logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md)
 

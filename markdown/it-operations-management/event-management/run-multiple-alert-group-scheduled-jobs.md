@@ -2,12 +2,12 @@
 title: Run multiple scheduled jobs for alert grouping
 description: Run multiple scheduled jobs in parallel to group alerts. This helps prevent overwhelming the system during surges \(alert storms\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/run-multiple-alert-group-scheduled-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/run-multiple-alert-group-scheduled-jobs.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

@@ -2,7 +2,7 @@
 title: Impact release notes
 description: ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/impact-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/impact-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -49,7 +49,7 @@ See [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austral
     The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md).
 
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 
 ## August 2026
 

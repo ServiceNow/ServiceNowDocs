@@ -2,7 +2,7 @@
 title: Grant permissions to required Microsoft Azure apps
 description: Authorize the required pre-published apps to enable your ServiceNow instance to make API calls to Microsoft Azure to enable ServiceNow for Teams application workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps-mt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps-mt.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,7 +28,7 @@ Role required: External admin \(external\_app\_install\_admin\). This role is in
 
 The ServiceNow for Teams pre-published apps are:
 
--   Notify Connector: Install Notify Connector for Microsoft Teams to enable the chat to call feature. For more information, see [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md).
+-   Notify Connector: Install Notify Connector for Microsoft Teams to enable the chat to call feature. For more information, see [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md).
 -   Request-based Chats
 -   SSO and Activity Notifications
 
@@ -42,14 +42,14 @@ The ServiceNow for Teams pre-published apps are:
 
     2.  Provide the admin consent by selecting **Accept**.
 
-        For information on API permissions used in ServiceNow for Microsoft Teams integration, refer [ServiceNow for Microsoft Teams integration API permissions for Request-based chat and SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/request-based-chat-api-permissions.md).
+        For information on API permissions used in ServiceNow for Microsoft Teams integration, refer [ServiceNow for Microsoft Teams integration API permissions for Request-based chat and SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/request-based-chat-api-permissions.md).
 
     Upon successful authorization, a green check mark appears next to the app name and the **Authorize** button changes to **Installed**.
 
 
 ## What to do next
 
-If the upn is different from email ID in your environment, go to [Enable connecting to meetings from Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-oauth-oidc-record.md). If the upn is same as the email ID, go to [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
+If the upn is different from email ID in your environment, go to [Enable connecting to meetings from Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-oauth-oidc-record.md). If the upn is same as the email ID, go to [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
 

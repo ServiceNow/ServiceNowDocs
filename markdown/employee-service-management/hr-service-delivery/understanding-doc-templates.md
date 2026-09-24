@@ -2,7 +2,7 @@
 title: Using Document Templates: HR Service Delivery
 description: Learn how to use Document Templates along with the HR Service Delivery application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/understanding-doc-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/understanding-doc-templates.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -26,11 +26,11 @@ As an administrator, activate the Document Templates plugin \[com.snc.document\_
 
 To use the Document Templates application for filling, signing, and approving a document online, perform the following steps:
 
-1.  Configure a document template by defining participants, defining tasks for participants, and inserting signatures. For configuring PDF document templates, see [Document Templates of type PDF \(Advanced forms\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-PDF-flow.md), and for configuring HTML document templates, see [Document Templates of type HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-flow-html.md).
+1.  Configure a document template by defining participants, defining tasks for participants, and inserting signatures. For configuring PDF document templates, see [Document Templates of type PDF \(Advanced forms\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/document-templates-PDF-flow.md), and for configuring HTML document templates, see [Document Templates of type HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/document-templates-flow-html.md).
 2.  Associate the document template to an HR case template.
-3.  Add the HR case template while you [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+3.  Add the HR case template while you [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 4.  Create a case under the configured HR service.
-5.  Generate document tasks manually or automatically, see [Document tasks generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/task-mapped-participants.md). Participants receive document tasks for filling, signing, and reviewing a document. When the document tasks of all the participants are complete, the final document is added as an attachment to the case.
+5.  Generate document tasks manually or automatically, see [Document tasks generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/task-mapped-participants.md). Participants receive document tasks for filling, signing, and reviewing a document. When the document tasks of all the participants are complete, the final document is added as an attachment to the case.
 
 \[Omitted video\] Description: End to end flow for document tasks
 
@@ -38,12 +38,12 @@ To use the Document Templates application for filling, signing, and approving a 
 
 To use the Document Templates application for generating a PDF document, perform the following steps:
 
-1.  Create a document template. For configuring PDF document templates, see [Document Templates of type PDF \(Advanced forms\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-PDF-flow.md), and for configuring HTML document templates, see [Document Templates of type HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-flow-html.md).
+1.  Create a document template. For configuring PDF document templates, see [Document Templates of type PDF \(Advanced forms\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/document-templates-PDF-flow.md), and for configuring HTML document templates, see [Document Templates of type HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/document-templates-flow-html.md).
 
     **Note:** Defining participants and inserting signatures is not required if you want to use Document Templates only for generating documents.
 
 2.  Associate the document template to an HR case template.
-3.  Add the HR case template while you [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+3.  Add the HR case template while you [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 4.  Create a case under the configured HR service.
 5.  Click **Preview document**.
 6.  If you want to modify the content in the document template, click **Edit**.
@@ -52,10 +52,10 @@ To use the Document Templates application for generating a PDF document, perform
 
 7.  To generate a PDF copy of the document template, click Re**generate**.
 
--   **[Document tasks generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/task-mapped-participants.md)**  
+-   **[Document tasks generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/task-mapped-participants.md)**  
 Document tasks can be generated either automatically or manually. The tasks get generated in the order defined for the participants.
 
-**Parent Topic:**[Using Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-doc-templates.md)
+**Parent Topic:**[Using Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-doc-templates.md)
 
 **Related topics**  
 

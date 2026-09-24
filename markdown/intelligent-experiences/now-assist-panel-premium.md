@@ -2,7 +2,7 @@
 title: Premium chat
 description: ServiceNow Otto panel premium chat is an AI chat experience built into your ServiceNow environment. It lets you ask questions, get answers from your organization's knowledge, and take action on records — all in one place. It supports file uploads, web search, and multi-step agentic tasks, so you can handle more complex requests without leaving the panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-panel-premium.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-panel-premium.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-24"
@@ -20,7 +20,7 @@ ServiceNow Otto panel premium chat is an AI chat experience built into your Serv
 -   ServiceNow Otto panel premium chat must be activated before you can use it. See [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-nap-assistant.md) for more information.
 -   If you want to use assistants, you must activate them. See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md) for information on activating assistants.
 -   To use the full capabilities of ServiceNow Otto panel premium chat, AI Search must be enabled for your portal. Without it, ServiceNow Otto panel premium chat functions in a limited capacity. Basic interactions such as predefined topic flows and simple questions and answers are available without AI Search. Knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-ais-sp.md).
--   ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+-   ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 -   Conversational aspects of the ServiceNow Otto panel, such as skill detection, are powered by Now LLM Service.
 
 To begin, select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to display the ServiceNow Otto panel.
@@ -318,7 +318,7 @@ When your request combines information from both internal and external sources, 
 
 ## Agentic conversations
 
-Admins must first enable AI agents before end users can experience agentic conversations. ServiceNow Otto panel discovers and executes agentic workflows. For more information on agentic workflows, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md) and [Multiple conversations in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/multiple-conversations-aia.md).
+Admins must first enable AI agents before end users can experience agentic conversations. ServiceNow Otto panel discovers and executes agentic workflows. For more information on agentic workflows, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sn-aia-use-cases-list.md) and [Multiple conversations in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/multiple-conversations-aia.md).
 
 When you ask a question to the ServiceNow Otto panel premium chat, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, ServiceNow Otto panel premium chat answers them consecutively. It can reason, plan, and execute across AI agents, ServiceNow Otto panel topics, conversational actions and subflows, catalogs, Knowledge Base articles, custom skills, and any ServiceNow Otto supported skills to help you. You receive on-screen messages showing where the agent is in the agentic processing flow prior to receiving the response. After the processing completes, a View AI Steps section header appears where you can expand and view the processing flow steps. You can stop the agentic processing flow at any time by selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\). After an action starts, it can't be stopped. Selecting the End flow icon only stops the subsequent processing steps.
 
@@ -459,5 +459,5 @@ If ServiceNow Otto can't find relevant results in your organization's internal c
 
 \[Omitted image "na-panel-premium-chat-fallback-so.png"\] Alt text: Search the web fallback option screen.
 
-**Parent Topic:**[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
+**Parent Topic:**[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md)
 

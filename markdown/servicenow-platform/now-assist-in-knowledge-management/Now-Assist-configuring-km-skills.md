@@ -2,7 +2,7 @@
 title: Configuring the KB generation skill
 description: Configure the KB generation skill that agents can use to draft a knowledge article with ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-km-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-km-skills.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -24,7 +24,7 @@ Before configuring the KB generation skill, the following applications and their
 
 -   For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
-    **Note:** To access knowledge articles created with TinyMCE, enable the KB generation skill. See [Configuring the KB generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-km-skills.md). To use articles created with custom instructions, activate the knowledge content recommendation skill. See [Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md).
+    **Note:** To access knowledge articles created with TinyMCE, enable the KB generation skill. See [Configuring the KB generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-km-skills.md). To use articles created with custom instructions, activate the knowledge content recommendation skill. See [Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md).
 
 
 Role required: admin
@@ -67,7 +67,7 @@ Role required: admin
 
 Your skill is configured.
 
-**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 
 **Related topics**  
 

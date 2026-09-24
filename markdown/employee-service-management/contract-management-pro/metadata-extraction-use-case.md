@@ -2,7 +2,7 @@
 title: Contract metadata extraction use cases
 description: In contract metadata extraction, use cases specify the information that you want AI to detect in a document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/metadata-extraction-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/metadata-extraction-use-case.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -336,5 +336,5 @@ Availability of clause that indicates if the contract renews by default unless s
 has\_auto\_renewal\_clause
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
+</table>**Parent Topic:**[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
 

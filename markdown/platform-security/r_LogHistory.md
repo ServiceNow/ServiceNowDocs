@@ -2,7 +2,7 @@
 title: Log history
 description: The system uses table rotation and table extension to archive older logs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_LogHistory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_LogHistory.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

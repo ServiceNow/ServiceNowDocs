@@ -2,7 +2,7 @@
 title: OT Discovery System Resources
 description: You can review the OT Discovery component resources before setting up your OT network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/ot-discovery-system-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/ot-discovery-system-resources.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-30"
@@ -37,7 +37,7 @@ Discovery Console for OT
 -   2 CPUs
 
 </td></tr></tbody>
-</table>For additional requirements for the Console, see [Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/reqs-ot-console-installation.md) and [Install the Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/install-discovery-console-ot.md).
+</table>For additional requirements for the Console, see [Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/reqs-ot-console-installation.md) and [Install the Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-discovery-console-ot.md).
 
 <table id="table_sensor_requirements"><thead><tr><th>
 
@@ -61,7 +61,7 @@ Discovery Sensor for OT
 \*8 GB of RAM is recommended for all queries.
 
 </td></tr></tbody>
-</table>For additional requirements for the Sensor, see [Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md).
+</table>For additional requirements for the Sensor, see [Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-discovery-sensor-ot.md).
 
 **Note:** The Collector can be installed and run on either a Windows OS or a Linux OS.
 
@@ -83,7 +83,7 @@ The OT Discovery Collector installation is compatible with Windows 10 or Windows
 
  The required Windows \(10 or 11\) environment for the OT Discovery Collector is x86\_64. ARM or Apple Silicon devices aren't supported.
 
- See [Install the OT Discovery Collector on a Windows system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/installing-collector-on-windows.md).
+ See [Install the OT Discovery Collector on a Windows system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/installing-collector-on-windows.md).
 
 </td></tr><tr><td>
 
@@ -91,8 +91,8 @@ Linux
 
 </td><td>
 
-See [Install OT Discovery Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/linux-install-ot-discovery-collector.md) for specific information.
+See [Install OT Discovery Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/linux-install-ot-discovery-collector.md) for specific information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deploy-ot-discovery-devices-landing.md)
+</table>**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/deploy-ot-discovery-devices-landing.md)
 

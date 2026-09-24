@@ -2,7 +2,7 @@
 title: Test details
 description: The chat test window displays adjoining tabs that provide details about your topic as you test it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/test-llm-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/test-llm-details.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -45,7 +45,7 @@ If your topic contains any instructions that are sent to the LLM, they’re show
 
 You can modify the content of any of the instructions to develop optimal instructions for the conversation. If a node has **Enforce user prompt** active, a blue check icon \[Omitted image "bluecheck.png"\] Alt text: and a `User prompt enforced` message appears. Deactivate **Enforce user prompt** to modify the node's instructions.
 
-If any of your user inputs have **Allow automatic slot filling** activated, the input's Detail Description becomes a static field. If **Allow automatic slot filling** is inactive, you can define detail description using a script or data pill picker. For more information, see the Allow automatic slot filling table entry in [Text user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-text-input.md) or any other LLM user input controls.
+If any of your user inputs have **Allow automatic slot filling** activated, the input's Detail Description becomes a static field. If **Allow automatic slot filling** is inactive, you can define detail description using a script or data pill picker. For more information, see the Allow automatic slot filling table entry in [Text user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-text-input.md) or any other LLM user input controls.
 
 Each instruction's status starts at `Original`. If you alter an instruction's content, its status changes to `Modified` and a revert icon \[Omitted image "revert-icon.png"\] Alt text: appears next to it. The total number of instructions modified is listed at the bottom of the tab next to a **Save to topic** button. To test the modified instructions, select **Apply and restart**. To undo changes to an instruction, select the revert icon next to the instruction. Alternatively, undo all changes by selecting **Revert** that activates when you modify any instructions.
 
@@ -86,7 +86,7 @@ When testing topic blocks and custom controls, you can edit the variables found 
 
 The **Context** tab appears when you’re testing topics, setup topics, or small talk topics, to specify a different context for the chat. Choose a context variable from the list. The variables contain contextual information that can be used to determine topic intent or control how chats are routed to live agents. For example, you could select **portal** from the list of variables and enter the portal name **IT Express**. The **Context** tab is unavailable when creating test cases.
 
-For more information about defining context variables, see [Configure context variables for storing chat-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-variables.md). For more information about live agent variables that are included with Virtual Agent, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
+For more information about defining context variables, see [Configure context variables for storing chat-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-context-variables.md). For more information about live agent variables that are included with Virtual Agent, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/live-agent-chat-context-vars.md).
 
 \[Omitted image "va-context-llm.png"\] Alt text: Context tab with the context portal value of service portal.
 
@@ -96,5 +96,5 @@ The **Logs** tab displays a running log of server events, user entries, and Virt
 
 \[Omitted image "va-llm-test-window-logs.png"\] Alt text: Logs tab displaying list of events in Virtual Agent conversation.
 
-**Parent Topic:**[Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-llm-topics.md)
+**Parent Topic:**[Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/test-llm-topics.md)
 

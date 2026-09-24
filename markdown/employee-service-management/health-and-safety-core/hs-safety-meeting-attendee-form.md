@@ -2,7 +2,7 @@
 title: Health and Safety meeting attendee form
 description: A safety team such as a safety meeting manager can use the Health and Safety meeting form to add an external attendee or a single internal attendee to a safety meeting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/hs-safety-meeting-attendee-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/hs-safety-meeting-attendee-form.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Core, Health and Safety, Employee Serv
 
 A safety team such as a safety meeting manager can use the Health and Safety meeting form to add an external attendee or a single internal attendee to a safety meeting.
 
-For more information, see [Add attendees to a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/add-attendees-safety-meeting.md).
+For more information, see [Add attendees to a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/add-attendees-safety-meeting.md).
 
 <table id="table_mdh_33b_1fc"><thead><tr><th>
 
@@ -93,7 +93,7 @@ Work notes
 Notes for the meeting attendee.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-core-reference.md)
+</table>**Parent Topic:**[Health and Safety Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-core-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: View configuration for Enterprise Architecture Workspace
 description: View all the configuration details of Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-modeling-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-view-modeling-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,14 +29,14 @@ Role required: sn\_apm\_mdtl\_com.mdtl\_com\_user
 4.  Select **Modeling Configurations**.
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
 **Related topics**  
 
 
-[View all shape libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-shape-libraries.md)
+[View all shape libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-shape-libraries.md)
 
-[View all entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-entity-config.md)
+[View all entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-entity-config.md)
 
-[View relationships configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-relationships.md)
+[View relationships configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-relationships.md)
 

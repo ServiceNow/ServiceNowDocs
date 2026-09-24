@@ -2,7 +2,7 @@
 title: Service Operations Workspace for Telecommunications Network Inventory
 description: ServiceNow Service Operations Workspace is a configurable workspace that provides a converged experience for Telecommunications Network Inventory \(TNI\) workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/service-operations-workspace-network-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/service-operations-workspace-network-inventory.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -45,7 +45,7 @@ The Service Operations Workspace for TNI a converged experience for agents to vi
 **Related topics**  
 
 
-[Telecom Network Inventory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.md)
+[Telecom Network Inventory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.md)
 
-[Exploring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-telecommunicatons-network-inventory.md)
+[Exploring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/exploring-telecommunicatons-network-inventory.md)
 

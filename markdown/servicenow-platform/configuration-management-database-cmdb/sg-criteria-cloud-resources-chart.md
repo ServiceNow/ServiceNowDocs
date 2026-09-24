@@ -2,7 +2,7 @@
 title: Class criteria in Cloud vs Non-cloud resources chart in CMDB Workspace
 description: The Cloud vs Non-cloud resources chart provides counts for several key classes. The chart uses different classes and relationship criteria for each class to determine which resources count as cloud and which count as non-cloud.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-criteria-cloud-resources-chart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/sg-criteria-cloud-resources-chart.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -16,7 +16,7 @@ breadcrumb: [Reference, CMDB Workspace, Configuration Management Database \(CMDB
 
 The Cloud vs Non-cloud resources chart provides counts for several key classes. The chart uses different classes and relationship criteria for each class to determine which resources count as cloud and which count as non-cloud.
 
-The Cloud vs Non-cloud resources chart shows in the CI overview tile in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
+The Cloud vs Non-cloud resources chart shows in the CI overview tile in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
 
 <table id="table_qx1_pfn_nwb"><thead><tr><th>
 
@@ -28,11 +28,11 @@ Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]:
 
 -   Cloud:
 
-Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter class \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\) -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
+Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter class \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\) -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
 
 -   Non-Cloud:
 
-Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter class \(one of the [configured non-cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)
+Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter class \(one of the [configured non-cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)
 
 -   Total: Equals the record count in the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table \(unless there are Virtual Machine Instance records without any relationships\)
 
@@ -46,7 +46,7 @@ Server \[cmdb\_ci\_server\] -&gt; \(Virtualized by::Virtualizes\) -&gt; Virtual 
 
 -   Non-Cloud:
 
-Server \[cmdb\_ci\_server\] -&gt; Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; Datacenter class \(one of the [configured non-cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)
+Server \[cmdb\_ci\_server\] -&gt; Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; Datacenter class \(one of the [configured non-cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)
 
 OR
 
@@ -64,11 +64,11 @@ Application \[cmdb\_ci\_appl\] -&gt; \(Runs on::Runs\) -&gt; Server \[cmdb\_ci\_
 
 OR
 
-Application \[cmdb\_ci\_appl\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter class \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)-&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
+Application \[cmdb\_ci\_appl\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter class \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)-&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
 
 -   Non-Cloud:
 
-Application \[cmdb\_ci\_appl\] -&gt; Server \[cmdb\_ci\_server\] -&gt; Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; Datacenter Datacenter class \(one of the [configured non-cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)
+Application \[cmdb\_ci\_appl\] -&gt; Server \[cmdb\_ci\_server\] -&gt; Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; Datacenter Datacenter class \(one of the [configured non-cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)
 
 OR
 
@@ -100,11 +100,11 @@ Database Instance \[cmdb\_ci\_db\_instance\]:
 
 -   Cloud:
 
-Database Instance \[cmdb\_ci\_db\_instance\] -&gt; \(Runs on::Runs\) -&gt; Server -&gt; \(Virtualized by::Virtualizes\) -&gt; Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; \(Hosted on::Hosts\) -&gt; Logical Datacenter \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)-&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
+Database Instance \[cmdb\_ci\_db\_instance\] -&gt; \(Runs on::Runs\) -&gt; Server -&gt; \(Virtualized by::Virtualizes\) -&gt; Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; \(Hosted on::Hosts\) -&gt; Logical Datacenter \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)-&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
 
 OR
 
-Database Instance \[cmdb\_ci\_db\_instance\] -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)-&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
+Database Instance \[cmdb\_ci\_db\_instance\] -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)-&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
 
 -   Non-Cloud:
 
@@ -122,11 +122,11 @@ Storage Volume \[cmdb\_ci\_storage\_volume\]:
 
 -   Cloud:
 
-cmdb\_ci\_storage\_volume -&gt; \(Hosted on::Hosts\) -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)-&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
+cmdb\_ci\_storage\_volume -&gt; \(Hosted on::Hosts\) -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)-&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
 
 -   Non-Cloud:
 
-cmdb\_ci\_storage\_volume -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] \(one of the [configured non-cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)
+cmdb\_ci\_storage\_volume -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] \(one of the [configured non-cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.md)\)
 
 OR
 
@@ -139,7 +139,7 @@ Cloud Object Storage \[cmdb\_ci\_cloud\_object\_storage\]:
 
 -   Cloud:
 
-Cloud Object Storage \[cmdb\_ci\_cloud\_object\_storage\] -&gt; \(Hosted on::Hosts\) -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\] \(requires [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)\)
+Cloud Object Storage \[cmdb\_ci\_cloud\_object\_storage\] -&gt; \(Hosted on::Hosts\) -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\] \(requires [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)\)
 
 -   Non-Cloud:
 
@@ -160,5 +160,5 @@ N/A \(This table can never have non-cloud records\)
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CMDB Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reference-cmdb-workspace.md)
+</table>**Parent Topic:**[CMDB Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/reference-cmdb-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Components installed with Hiring Core
 description: Several types of components are installed with activation of the Hiring Core plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-h-core.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/installed-with-h-core.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -364,5 +364,5 @@ Interview reschedule history\[sn\_ta\_hiring\_core\_reschedule\_history\]
 Historic data of the interview schedules.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
+</table>**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
 

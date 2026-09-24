@@ -2,7 +2,7 @@
 title: Purchase order exception form
 description: Use the purchase order exception form to view the information that an Operational Buyer can use to perform related tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/purch-order-exception-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/purch-order-exception-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -146,10 +146,10 @@ Unit price
 Price per unit of the item.
 
 </td></tr></tbody>
-</table>-   **[Purchase order exception form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-form-tabs.md)**  
+</table>-   **[Purchase order exception form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purch-order-exception-form-tabs.md)**  
 The Purchase order exception form includes tabs that store exception information, which an Operational Buyer can use to perform related tasks.
 
-**Parent Topic:**[Purchase Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-reference.md)
+**Parent Topic:**[Purchase Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purchase-order-mgmt-reference.md)
 
 **Related topics**  
 
@@ -160,7 +160,7 @@ The Purchase order exception form includes tabs that store exception information
 
 [Master data tables for Purchase Order Management]()
 
-[Raise a delivery plan change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/raise-delivery-plan-chg-req.md)
+[Raise a delivery plan change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/raise-delivery-plan-chg-req.md)
 
-[Submit a delivery plan change request from a purchase order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/submit-del-plan-chg-from-po-line.md)
+[Submit a delivery plan change request from a purchase order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/submit-del-plan-chg-from-po-line.md)
 

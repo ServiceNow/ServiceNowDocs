@@ -2,7 +2,7 @@
 title: Working with tasks in Supplier Collaboration Portal header
 description: View and manage exception tasks and invoice inquiry requests assigned to your supplier account using the Tasks menu in the Supplier Collaboration Portal header.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-supplier-collaboration-portal-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/work-supplier-collaboration-portal-header.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,7 +25,7 @@ Role required: Supplier
 
 1.  Navigate to the header on the Supplier Collaboration Portal home page &gt;**Tasks** &gt; **My Tasks**.
 
-    Lists the **Open** and **Completed** exception tasks and invoice case tasks assigned for the logged in supplier. For more information on creating an exception task, see [Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md).
+    Lists the **Open** and **Completed** exception tasks and invoice case tasks assigned for the logged in supplier. For more information on creating an exception task, see [Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md).
 
     **Note:** You can also view **My Tasks** by navigating to **My active items** widget&gt;**Tasks** tile.
 
@@ -213,8 +213,8 @@ Lists the activity postings between Accounts Payable Specialist and supplier.
 Supplier uses attachments in the form of PDF, JPEG, PNG formats.
 
 </td></tr></tbody>
-</table>    Supplier selects **Mark complete**. The status of the task changes to **Closed complete**. For more information on invoice case, see [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md).
+</table>    Supplier selects **Mark complete**. The status of the task changes to **Closed complete**. For more information on invoice case, see [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md).
 
 
-**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
+**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 

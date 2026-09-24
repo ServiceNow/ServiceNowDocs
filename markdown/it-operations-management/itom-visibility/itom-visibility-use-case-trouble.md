@@ -2,7 +2,7 @@
 title: ITOM Visibility considerations for CSDM framework
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/itom-visibility-use-case-trouble.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/itom-visibility-use-case-trouble.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -26,5 +26,5 @@ Here are alternative methods for defining application services:
 
 For more information about creating application services, see [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md).
 
-**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
+**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
 

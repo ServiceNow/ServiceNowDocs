@@ -2,7 +2,7 @@
 title: ServiceNow EmployeeWorks Web App overview
 description: ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is an AI-native employee engagement layer. It combines intelligent assistance, employee communication, organizational navigation, task management, and other employee services to boost productivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-slate-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-slate-overview.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,9 +39,9 @@ EmployeeWorks Web App provides comprehensive support for employee daily work rou
 |Applications|Access business applications and tools|Launch needed applications without switching contexts|
 |Communications|Stay informed about announcements, news, and org updates|Keep up with organizational changes and company news|
 
-Review the AI-first experience and capabilities from [Conversation-first experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-conversation-first.md).
+Review the AI-first experience and capabilities from [Conversation-first experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-conversation-first.md).
 
--   For more information on getting started, see [Get started with EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.md).
--   For roles and persona journey, see [Key user roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-role-based-productivity.md).
--   For sample prompts you can use across EmployeeWorks Web App, see [EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md).
+-   For more information on getting started, see [Get started with EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.md).
+-   For roles and persona journey, see [Key user roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-role-based-productivity.md).
+-   For sample prompts you can use across EmployeeWorks Web App, see [EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md).
 

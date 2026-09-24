@@ -2,7 +2,7 @@
 title: Credit memo
 description: Credit memo invoices in Accounts Payable Operations represent reductions or offsets in amounts payable to suppliers and can be created for both PO and Non-PO invoices, with the system identifying them based on specific indicators such as negative amounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-type-credit-memo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-type-credit-memo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -26,9 +26,9 @@ When an invoice is ingested into the Accounts Payable Operations application rec
 -   Credit memos issued for purchase order or invoice number must match with purchase order lines and invoice lines
 -   Invoice contains negative amount fields
 
-For more information on creating invoice, see [Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md).
+For more information on creating invoice, see [Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md).
 
-For more information on invoices ingested using document intelligence, see [Invoice data transformation logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.md).
+For more information on invoices ingested using document intelligence, see [Invoice data transformation logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.md).
 
-**Parent Topic:**[Create an invoice line manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line.md)
+**Parent Topic:**[Create an invoice line manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-line.md)
 

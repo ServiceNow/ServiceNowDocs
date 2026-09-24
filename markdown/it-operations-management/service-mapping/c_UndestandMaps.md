@@ -2,7 +2,7 @@
 title: Application service maps in classic Service Mapping
 description: Maps offer you a visualization of data on configuration items \(CIs\) comprising application services, and relations and connections between these CIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/c\_UndestandMaps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/c\_UndestandMaps.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -51,7 +51,7 @@ By default, the entire map is shown in the center of the visible map area of the
 
 You can also click anywhere in the map area and drag the required segment of the map into the visible area.
 
-You can view changes made to an service instance as a whole and to individual CIs belonging to a service by choosing a time range. For more information, see [View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md).
+You can view changes made to an service instance as a whole and to individual CIs belonging to a service by choosing a time range. For more information, see [View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_ViewCIChanges.md).
 
 ## Map elements and their appearance
 
@@ -99,24 +99,24 @@ You can show additional information for a CI or service instance itself by displ
 
 ## Map views
 
-Customize a map view to exclude irrelevant information and increase clarity, as described in [Modify view for an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/modify-map-view.md).
+Customize a map view to exclude irrelevant information and increase clarity, as described in [Modify view for an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/modify-map-view.md).
 
 To open this service instance in Event Management and view alerts on CIs that are part of the service instance, click **Monitor Service** at the top of the window.
 
 \[Omitted image "map-monitor-service-button.png"\] Alt text: Monitor Service button for opening the application service in Event Management.
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 
 **Related topics**  
 
 
 [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md)
 
-[View CI attributes in an application service map in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIDetails.md)
+[View CI attributes in an application service map in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_ViewCIDetails.md)
 
-[Modify display for CI attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ConfigurePropertyDisplay.md)
+[Modify display for CI attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_ConfigurePropertyDisplay.md)
 
-[Modify view for an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/modify-map-view.md)
+[Modify view for an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/modify-map-view.md)
 
-[View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewTopology.md)
+[View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewTopology.md)
 

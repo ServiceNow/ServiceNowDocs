@@ -2,7 +2,7 @@
 title: Approval with e-signature
 description: Approve or reject an approval record by re-entering your login credentials. See the history of an approval from its activity stream or its audit history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/approval-with-e-signature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/approval-with-e-signature.html
 release: australia
 product: Approvals
 classification: approvals
@@ -35,7 +35,7 @@ By default, Approval with e-signature supports these tables.
 -   Change Request \[change\_request\]
 -   Standard Change Proposal \[std\_change\_proposal\]
 
-When you add an approval table, any approval for the table needs an e-signature authorization. See [Select an approval table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/t_SelectAnApprovalTable.md) to add or remove a table from supporting Approval with e-signature.
+When you add an approval table, any approval for the table needs an e-signature authorization. See [Select an approval table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/t_SelectAnApprovalTable.md) to add or remove a table from supporting Approval with e-signature.
 
 ## Approver Authentication dialog
 
@@ -77,18 +77,18 @@ User credentials must be set up before enabling Approvals with e-signature. See 
 
 See [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_MultipleProviderSingleSignOn.md) to create an integration to a Security Assertion Markup Language \(SAML\) 2.0 identity provider.
 
--   **[Activate Approval with e-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/activate-approval-esignature.md)**  
+-   **[Activate Approval with e-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/activate-approval-esignature.md)**  
 The Approval with e-Signature plugin \(com.glide.e\_signature\_approvals\) allows users to approve requests by re-entering their login credentials.
--   **[De-activate e-signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_DeactivateESignatures.md)**  
+-   **[De-activate e-signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_DeactivateESignatures.md)**  
 Use this procedure to de-activate e-signatures.
--   **[Select an approval table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/t_SelectAnApprovalTable.md)**  
+-   **[Select an approval table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/t_SelectAnApprovalTable.md)**  
 By default, activating the Approval with E-signature plugin enables e-signature for all tables for which an approval exists.
--   **[Set up an approval from a local database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/t_SetUpAnApprovalFromALocalDb.md)**  
+-   **[Set up an approval from a local database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/t_SetUpAnApprovalFromALocalDb.md)**  
 Enable users to authorize e-signature approvals using local database credentials.
--   **[Use Multi-Provider SSO to set up an SSO approval for a SAML 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/sso-esignature-approval-SAML.md)**  
+-   **[Use Multi-Provider SSO to set up an SSO approval for a SAML 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/sso-esignature-approval-SAML.md)**  
 An SSO approval with e-signature requires configuration on the SAML IdP and the ServiceNow instance.
--   **[Installed with approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_InstalledWApprWithEsignature.md)**  
+-   **[Installed with approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_InstalledWApprWithEsignature.md)**  
 Installing approval with e-signature installs certain properties.
 
-**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_Approvals.md)
+**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_Approvals.md)
 

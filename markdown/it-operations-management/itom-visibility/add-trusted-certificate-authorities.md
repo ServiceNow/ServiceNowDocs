@@ -2,7 +2,7 @@
 title: Configure trusted certificate authorities
 description: Configure certificate authorities \(CAs\) that your organization trusts and activate the certificate authority trust policy so that certificates from other authorities are flagged as untrusted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/add-trusted-certificate-authorities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/add-trusted-certificate-authorities.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility

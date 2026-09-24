@@ -2,7 +2,7 @@
 title: Create an equipment instance
 description: Create equipment instances with unique identifiers to assign to crews or work order tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/asset-management-for-field-service/create-an-equipment-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/asset-management-for-field-service/create-an-equipment-instance.html
 release: australia
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
@@ -122,11 +122,11 @@ Equipment instance is created. If active and available, you can assign the insta
 **Related topics**  
 
 
-[Create an equipment category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/create-an-equipment-category.md)
+[Create an equipment category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/asset-management-for-field-service/create-an-equipment-category.md)
 
-[Scheduling and assigning equipment to tasks and crews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/assign-equipment-to-wot.md)
+[Scheduling and assigning equipment to tasks and crews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/assign-equipment-to-wot.md)
 
-[Assign equipment to a planned crew](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/add-equipment-to-a-planned-crew.md)
+[Assign equipment to a planned crew](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/add-equipment-to-a-planned-crew.md)
 
-[Equipment on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/update-equipment-statuses-with-the-now-mobile-agent-application.md)
+[Equipment on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/update-equipment-statuses-with-the-now-mobile-agent-application.md)
 

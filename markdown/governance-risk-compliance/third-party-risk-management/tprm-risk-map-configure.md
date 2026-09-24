@@ -2,7 +2,7 @@
 title: Enable the TPRM Risk concentration map
 description: After you install the Risk concentration map feature, you must install a Google license to enable the feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-risk-map-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-risk-map-configure.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

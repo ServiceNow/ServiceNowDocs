@@ -2,7 +2,7 @@
 title: Employee Center release notes
 description: The ServiceNow Employee Center application is a standard multi-department, dynamic employee portal for unified service delivery. Employee Center was enhanced and updated in the Australia release.The ServiceNow Employee Center application is a standard multi-department, dynamic employee portal for unified service delivery. Employee Center was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/employee-center-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/employee-center-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies. Clear heading hierarchies improve navigation for screen reader and keyboard users.
 
 
-**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/uex-rn-landing.md)
 
 ## Australia
 

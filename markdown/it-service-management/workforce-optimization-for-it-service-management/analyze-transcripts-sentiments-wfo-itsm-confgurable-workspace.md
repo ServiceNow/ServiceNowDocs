@@ -2,7 +2,7 @@
 title: Analyze transcripts and sentiments for the Amazon Connect phone channel
 description: Analyze your agent's call recordings, transcripts, and sentiment reports. With this information, you can assess the call quality and train your agents to handle calls better in the future.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/analyze-transcripts-sentiments-wfo-itsm-confgurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/analyze-transcripts-sentiments-wfo-itsm-confgurable-workspace.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -32,15 +32,15 @@ When an agent interacts with an external caller, the call gets recorded and tran
 
 2.  Select an interaction record for analysis.
 
-<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d69224e97">
+<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d69223e97">
 
 To analyze call transcripts and sentiments
 
-</th><th align="left" id="d69224e100">
+</th><th align="left" id="d69223e100">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d69224e106">
+</th></tr></thead><tbody><tr><td id="d69223e106">
 
 **From Channels**
 
@@ -52,7 +52,7 @@ Do this
 2.  From the **All Interaction** tab, select an interaction record.
 
 
-</td></tr><tr><td id="d69224e133">
+</td></tr><tr><td id="d69223e133">
 
 **From Teams**
 
@@ -64,7 +64,7 @@ Do this
 4.  Select an interaction record.
 
 
-</td></tr><tr><td id="d69224e160">
+</td></tr><tr><td id="d69223e160">
 
 **From Coaching**
 
@@ -82,5 +82,5 @@ Do this
     The Amazon Connect application generates the interactions and sentiment analysis of those interactions and displays them as a report in Workforce Optimization for ITSM.
 
 
-**Parent Topic:**[Using Voice with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/voice-configurable-wfo-itsm.md)
+**Parent Topic:**[Using Voice with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/voice-configurable-wfo-itsm.md)
 

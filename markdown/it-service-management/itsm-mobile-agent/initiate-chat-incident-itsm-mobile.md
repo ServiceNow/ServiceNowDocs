@@ -2,7 +2,7 @@
 title: Initiate a chat with the caller from an incident
 description: Initiate a chat with the caller from an incident to discuss about the resolution of an incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/initiate-chat-incident-itsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/initiate-chat-incident-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -46,5 +46,5 @@ Role required: itil, itil\_admin, or admin
     **Note:** The Slack and the Microsoft Teams contacts display only if the caller has a valid Slack and Microsoft Teams accounts.
 
 
-**Parent Topic:**[Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)
+**Parent Topic:**[Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)
 

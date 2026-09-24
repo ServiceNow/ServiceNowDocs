@@ -2,7 +2,7 @@
 title: Apply coverages to an insurance policy
 description: Define the coverages for an insurance policy by using the Insurance claims application. You can define what coverages types and coverage options apply to a customer's insurance policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/apply-coverage-to-an-insurance-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/apply-coverage-to-an-insurance-policy.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -18,9 +18,9 @@ Define the coverages for an insurance policy by using the Insurance claims appli
 
 ## Before you begin
 
-Create a coverage specification with the coverage types and coverage options. For more information, see [Coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/coverage-specification.md).
+Create a coverage specification with the coverage types and coverage options. For more information, see [Coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/coverage-specification.md).
 
-Create an insurance policy. For more information, see [Create an insurance policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/create-an-insurance-policy-for-a-consumer.md).
+Create an insurance policy. For more information, see [Create an insurance policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/create-an-insurance-policy-for-a-consumer.md).
 
 Role required: admin
 
@@ -54,7 +54,7 @@ Role required: admin
 
 ## What to do next
 
-Add a policy participant as the insured entity to the policy. For more information, see [Add a policy participant to an insurance policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/add-a-policy-participant-to-an-insurance-policy.md).
+Add a policy participant as the insured entity to the policy. For more information, see [Add a policy participant to an insurance policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/add-a-policy-participant-to-an-insurance-policy.md).
 
-**Parent Topic:**[Setting up an insurance policy for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/set-up-an-insurance-policy.md)
+**Parent Topic:**[Setting up an insurance policy for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/set-up-an-insurance-policy.md)
 

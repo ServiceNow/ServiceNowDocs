@@ -2,7 +2,7 @@
 title: Source a part and assign an agent
 description: The work order sourcing option is useful when you want to assign a work order task to agents who already have the required parts in their stockroom or to a specific agent who needs you to obtain the parts for them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_SourceAPartAndAssignAnAgent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_SourceAPartAndAssignAnAgent.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -18,7 +18,7 @@ The work order sourcing option is useful when you want to assign a work order ta
 
 ## Before you begin
 
-Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## About this task
 

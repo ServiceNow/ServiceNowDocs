@@ -2,7 +2,7 @@
 title: Approve or reject a stock preclearance approval
 description: As a member of the legal stock approvers group, approve or reject a stock preclearance approval request so that the requester can trade in the securities of the organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-stock-preclearance/approve-reject-preclearance-approval-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-stock-preclearance/approve-reject-preclearance-approval-request.html
 release: australia
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -47,5 +47,5 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 -   If you approve the request on a holiday, the approval validity starts from the next business day.
 -   If you reject the request, the requester cannot perform any securities transactions.
 
-**Parent Topic:**[Submitting Legal Stock Preclearance requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/submit-legal-stock-reqs.md)
+**Parent Topic:**[Submitting Legal Stock Preclearance requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-stock-preclearance/submit-legal-stock-reqs.md)
 

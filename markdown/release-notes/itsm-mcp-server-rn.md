@@ -2,7 +2,7 @@
 title: ITSM MCP Server release notes
 description: Using the ServiceNow ITSM MCP Server application connect an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.Manage incidents, change requests, request items, and on-call schedules with the ITSM MCP Server. Empower requesters to handle their own tickets and access shared tools for approvals and ITSM data queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/itsm-mcp-server-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/itsm-mcp-server-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-25"
@@ -42,7 +42,7 @@ See  for more information.
     For details, see .
 
 
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-service-management-rn-landing.md)
 
 ## Australia Patch 4 and Version 3.2
 

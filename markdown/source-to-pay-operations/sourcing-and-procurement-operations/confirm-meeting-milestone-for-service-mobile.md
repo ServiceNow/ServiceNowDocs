@@ -2,7 +2,7 @@
 title: Confirm meeting a milestone for your service from your mobile device
 description: Provide confirmation on whether the supplier has met a milestone for a service you had ordered, from your mobile application, so that payment can be processed to the supplier for that milestone. If a milestone has not been met by the due date, you can choose to push the due date to a later date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/confirm-meeting-milestone-for-service-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-meeting-milestone-for-service-mobile.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -74,5 +74,5 @@ Tap on the Actions icon, and select **Cancel milestone** to cancel the milestone
 5.  Tap the Next icon.
 
 
-**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

@@ -2,7 +2,7 @@
 title: Upload a public key for Secrets Management
 description: Upload a public key to encrypt your secrets in Secrets Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/sm-upload-key.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/sm-upload-key.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: admin
 7.  Select **Submit** to save the identity group record.
 
 
-**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/secrets-dashboard.md)
 

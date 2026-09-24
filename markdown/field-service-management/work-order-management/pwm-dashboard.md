@@ -2,7 +2,7 @@
 title: Planned Work Management Home page
 description: Planned Work Management Home page enables you to monitor your work plans, schedules, and work orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/pwm-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/pwm-dashboard.html
 release: australia
 product: Work Order Management
 classification: work-order-management

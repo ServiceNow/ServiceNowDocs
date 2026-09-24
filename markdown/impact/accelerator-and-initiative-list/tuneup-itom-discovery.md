@@ -2,7 +2,7 @@
 title: TuneUp Your ITOM Discovery
 description: Provides insight and guidance to improve the health of your Configuration Management Database \(CMDB\) through IT Operations Management \(ITOM\) Discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-itom-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/tuneup-itom-discovery.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

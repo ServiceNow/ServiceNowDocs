@@ -2,7 +2,7 @@
 title: Service Catalog topic blocks in Virtual Agent powered by NLU
 description: You can design a topic conversation in the Virtual Agent powered by Natural Language Understanding \(NLU\) by including reusable topic blocks to perform request submission tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-topic-blocks-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/request-topic-blocks-va.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -22,7 +22,7 @@ You can use this topic block to search for a catalog item based on the search cr
 
 |Parameter|Description|
 |---------|-----------|
-|query\_term|Keyword to search for a catalog item. For information on configuring keyword search for a catalog item, see [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/search-catalog-item.md).|
+|query\_term|Keyword to search for a catalog item. For information on configuring keyword search for a catalog item, see [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/search-catalog-item.md).|
 |catalogs|Comma-separated list of catalogs where a catalog item should be searched for.|
 |result\_limit|Number of search results that should be displayed. By default, this number is set to 5.|
 
@@ -115,7 +115,7 @@ A user can submit a request in the conversation mode \(by answering the question
 
 The following conditions must be met when a user requests a catalog item in the conversation mode in Virtual Agent powered by NLU.
 
--   A catalog item cannot have more than the number of questions specified in the **glide.sc.conversational.request.question.limit** property. By default, this number is set to 10. For more information about this property, see [Service Catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ServiceCatalogProperties.md).
+-   A catalog item cannot have more than the number of questions specified in the **glide.sc.conversational.request.question.limit** property. By default, this number is set to 10. For more information about this property, see [Service Catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_ServiceCatalogProperties.md).
 -   A catalog item can have non-scripted catalog UI policies. These UI policies should be defined such that variables are affected sequentially, that is, only a variable with the lower order affects a variable with the higher order.
 -   A catalog item cannot have catalog client scripts that are defined for Now Mobile or Service Portal.
 -   Only the following variables are supported:
@@ -254,13 +254,13 @@ A catalog item is rendered as a window if it is of the following types:
 
 \[Omitted image "va-window-catalog.png"\] Alt text: Virtual Agent rendered as a window
 
--   **[Submit a request topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-submission-va.md)**  
+-   **[Submit a request topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/request-submission-va.md)**  
 Users can submit a request in a Virtual Agent conversation.
 
-**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-reference.md)
 
 **Related topics**  
 
 
-[Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md)
+[Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-builder-preview-topic.md)
 

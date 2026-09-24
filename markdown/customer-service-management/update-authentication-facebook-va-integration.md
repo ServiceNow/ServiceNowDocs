@@ -2,7 +2,7 @@
 title: Integrate Customer Service Management Virtual Agent with Facebook Messenger \(Legacy\)
 description: Integrate the Customer Service Virtual Agent with Facebook Messenger to enable bot conversations in the messenger.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/update-authentication-facebook-va-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/update-authentication-facebook-va-integration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ For information on integrating the Virtual Agent with Facebook Messenger and for
 
 ## About this task
 
-With this integration, you can get help using Virtual Agent chatbot conversations. For more information on getting help, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-chatbot.md) .
+With this integration, you can get help using Virtual Agent chatbot conversations. For more information on getting help, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-virtual-agent-chatbot.md) .
 
 ## Procedure
 

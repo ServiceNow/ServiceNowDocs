@@ -2,7 +2,7 @@
 title: Reassign a work order task to an agent on a mobile device
 description: As a manager, you can reassign a work order task to an agent through the Field Service Contractor for mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/reassign-work-order-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/reassign-work-order-task.html
 release: australia
 product: Work Order Management
 classification: work-order-management

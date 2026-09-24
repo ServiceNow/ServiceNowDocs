@@ -2,7 +2,7 @@
 title: Customize your alert list view
 description: You can create one or more customized alert list views that show only the information pertinent to you. For example, you might want to focus only on the alerts for application services in a specific location, or only the alerts for application services of high criticality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-create-dashbaord-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/operator-create-dashbaord-view.html
 release: australia
 product: Event Management
 classification: event-management
@@ -39,5 +39,5 @@ Role required: evt\_mgmt\_operator
     **Note:** The list applies only to application services, and not to application service groups. The groups appear whether or not they match the filter, and whether or not they contain any services that match the filter.
 
 
-**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-advanced-tasks.md)
+**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-advanced-tasks.md)
 

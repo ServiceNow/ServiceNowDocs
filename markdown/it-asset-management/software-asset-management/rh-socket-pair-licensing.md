@@ -2,7 +2,7 @@
 title: Red Hat Enterprise Linux socket-pair based licensing
 description: The Software Asset Management publisher pack for IBM supports socket-pair based licensing rules for Red Hat Enterprise Linux Server and Red Hat Enterprise Linux for Virtual Datacenters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/rh-socket-pair-licensing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/rh-socket-pair-licensing.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -22,7 +22,7 @@ The Software Asset Management publisher pack for IBM supports socket-pair based 
 
     Red Hat Enterprise Linux Server enables Linux distributions in physical, virtual, and hybrid environments. Although you can use RHEL licenses in both low-density and high-density virtual environments, they’re more cost efficient in low-density virtual environments.
 
-    To determine whether a virtual environment is low-density or high-density, divide the number of required RHEL Server rights by the number of required RHEL for Virtual Datacenters rights. Compare this value against the threshold value in the **Red Hat Enterprise Linux for Virtual Datacenters license cost optimization threshold** field that you defined in your [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-properties.md). If your value is lower than the threshold value, then the virtual environment is considered low-density. If your value is equal to or higher than the threshold value, then the virtual environment is considered high density.
+    To determine whether a virtual environment is low-density or high-density, divide the number of required RHEL Server rights by the number of required RHEL for Virtual Datacenters rights. Compare this value against the threshold value in the **Red Hat Enterprise Linux for Virtual Datacenters license cost optimization threshold** field that you defined in your [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-properties.md). If your value is lower than the threshold value, then the virtual environment is considered low-density. If your value is equal to or higher than the threshold value, then the virtual environment is considered high density.
 
     **Note:** The default value for the **Red Hat Enterprise Linux for Virtual Datacenters license cost optimization threshold** field is 3.2. This value is based on the ratio of the current RHEL Server subscription list price to the current RHEL for Virtual Datacenters subscription list price. If your entitlements contain different pricings for these products, then you can calculate this value by dividing your RHEL for Virtual Datacenters subscription price by your RHEL Server subscription price.
 
@@ -119,7 +119,7 @@ For example, if you're running a RHEL server on four VMs within a cloud environm
 
     Red Hat Enterprise Linux for Virtual Datacenters uses hypervisors, such as Red Hat Virtualization and VMware, to enable Linux distributions in both low-density and high-density virtual environments. RHEL for Virtual Datacenters licenses are more cost efficient in high-density virtual environments.
 
-    To determine whether a virtual environment is low-density or high-density, divide the number of required RHEL Server rights by the number of required RHEL for Virtual Datacenters rights. Compare this value against the threshold value in the **Red Hat Enterprise Linux for Virtual Datacenters license cost optimization threshold** field that you defined in your [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-properties.md). If your value is lower than the threshold value, then the virtual environment is considered low-density. If your value is equal to or higher than the threshold value, then the virtual environment is considered high density.
+    To determine whether a virtual environment is low-density or high-density, divide the number of required RHEL Server rights by the number of required RHEL for Virtual Datacenters rights. Compare this value against the threshold value in the **Red Hat Enterprise Linux for Virtual Datacenters license cost optimization threshold** field that you defined in your [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-properties.md). If your value is lower than the threshold value, then the virtual environment is considered low-density. If your value is equal to or higher than the threshold value, then the virtual environment is considered high density.
 
     **Note:** The default value for the **Red Hat Enterprise Linux for Virtual Datacenters license cost optimization threshold** field is 3.2. This value is based on the ratio of the current RHEL Server subscription list price to the current RHEL for Virtual Datacenters subscription list price. If your entitlements contain different pricings for these products, you can calculate this value by dividing your RHEL for Virtual Datacenters subscription price by your RHEL Server subscription price.
 
@@ -141,5 +141,5 @@ If you have both RHEL Server and RHEL for Virtual Datacenters licenses, consume 
 5.  RHEL Server licenses on physical hosts, VMs, or clusters in high-density virtual environments. Use this license type only if you have run out of RHEL for Virtual Datacenters licenses in high-density virtual environments.
 6.  RHEL for Virtual Datacenters licenses on physical hosts, VMs, or clusters in low-density virtual environments. Use this license type only if you have run out of RHEL Server licenses in low-density virtual environments.
 
-**Parent Topic:**[Software Asset Management for Red Hat Enterprise Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/rhel-publisher-pack.md)
+**Parent Topic:**[Software Asset Management for Red Hat Enterprise Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/rhel-publisher-pack.md)
 

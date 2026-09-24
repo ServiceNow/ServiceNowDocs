@@ -2,7 +2,7 @@
 title: Review an invoice in Document Intelligence
 description: Review invoice details, enter missing field values, and submit the invoice when Document Intelligence encounters an extraction error.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/review-invoice-docintel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/review-invoice-docintel.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -60,7 +60,7 @@ If Document Intelligence encounters an extraction error, the invoice processing 
     The invoice is submitted for further processing and the status of the invoice changes to Received.
 
 
-**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 

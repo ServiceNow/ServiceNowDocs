@@ -2,7 +2,7 @@
 title: Assign ownership to a topic
 description: Assign ownership of a taxonomy topic to give a user or group with the content manager \(sn\_cd.content\_manager\) role exclusive content publishing ability for the Content Publishing widgets in that topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-assign-ownership-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ecpro-assign-ownership-topic.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,11 +20,11 @@ Assign ownership of a taxonomy topic to give a user or group with the content ma
 
 Role required: sn\_cd.content\_admin
 
-Ensure **Yes** is checked under **Allow Ownership for Topics** under Content Publishing or Content Experiences properties. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md) and [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
+Ensure **Yes** is checked under **Allow Ownership for Topics** under Content Publishing or Content Experiences properties. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md) and [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
 ## About this task
 
-The Unified Taxonomy is a collection of hierarchical topics that brings together different content types, such as requests, articles, quick links, learning content, and employee communications. For more information, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
+The Unified Taxonomy is a collection of hierarchical topics that brings together different content types, such as requests, articles, quick links, learning content, and employee communications. For more information, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
 ## Procedure
 

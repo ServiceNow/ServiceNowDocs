@@ -2,7 +2,7 @@
 title: Properties of the DPAPI components
 description: Learn about the properties of the DPAPI components in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/properties-of-dpapi-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/properties-of-dpapi-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ Learn about the properties of the DPAPI components in RPA Desktop Design Studio.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[DPAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/dpapi.md)
+**Parent Topic:**[DPAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/dpapi.md)
 

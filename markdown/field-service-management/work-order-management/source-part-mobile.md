@@ -2,7 +2,7 @@
 title: View transfer order lines for requested parts
 description: View all transfer order lines for the parts that are requested by you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/source-part-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/source-part-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -84,5 +84,5 @@ Do this
 </table>
 ## What to do next
 
-You can pickup parts from your peer agents for the part request. For more information, see [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/picking-up-parts.md) and [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/picking-up-parts.md).
+You can pickup parts from your peer agents for the part request. For more information, see [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/picking-up-parts.md) and [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/picking-up-parts.md).
 

@@ -2,7 +2,7 @@
 title: Tree picker
 description: The tree picker is a special reference lookup that you can add as an attribute to a form. Add the tree picker to the classic environment or to workspaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_TreePicker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_TreePicker.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,10 +20,10 @@ The tree picker is a special reference lookup for the following items.
 -   Reference elements for any hierarchical table. A hierarchical table is any table that has a parent field pointing back at itself.
 -   Values for a user reference that depends on the group.
 
--   **[Add the tree picker attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddTheTreePickerAttribute.md)**  
+-   **[Add the tree picker attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_AddTheTreePickerAttribute.md)**  
 A limit of 1000 has been placed on the number of nodes returned to the tree picker. This limit is configurable with the **glide.ui.group\_heirarchy.max\_nodes** property.
 
-**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_CommonUIElements.md)
+**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/p_CommonUIElements.md)
 
 **Related topics**  
 

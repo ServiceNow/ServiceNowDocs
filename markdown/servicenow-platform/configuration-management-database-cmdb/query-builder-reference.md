@@ -2,7 +2,7 @@
 title: CMDB Query Builder reference
 description: Reference topics provide example queries and descriptions of navigation and property settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/query-builder-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/query-builder-reference.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -18,19 +18,19 @@ Reference topics provide example queries and descriptions of navigation and prop
 
 ## Reference topics
 
--   **[Domain separation and CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/domain-separation-groups-query-builder.md)**
+-   **[Domain separation and CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/domain-separation-groups-query-builder.md)**
 
     Domain separation is supported in the CMDB Query Builder. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
--   **[Navigation in CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/navigation-cmdb-query-builder.md)**
+-   **[Navigation in CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/navigation-cmdb-query-builder.md)**
 
     Use the navigation tools to enlarge or shrink the query, to move the query, or to border a section of the query to run.
 
--   **[Property settings for CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md)**
+-   **[Property settings for CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md)**
 
     Use the CMDB Query Builder properties to configure query processing.
 
--   **[Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sample-queries.md)**
+-   **[Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sample-queries.md)**
 
     Use the example queries as models for building your custom CMDB queries and Service Mapping queries.
 

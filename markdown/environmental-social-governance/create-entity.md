@@ -2,7 +2,7 @@
 title: Create an entity
 description: Create an entity and measure its performance against the goals. Defining an entity ensures that the entity owners are also identified. After an entity is defined, Operational Sustainability Management goals are applied to the entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-entity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-entity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,7 +58,7 @@ The entity is created. The New Entity form is displayed with the **Details** tab
 
 ## What to do next
 
-[Update an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/update-an-entity.md)
+[Update an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/update-an-entity.md)
 
-**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/entities-in-esg.md)
+**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/entities-in-esg.md)
 

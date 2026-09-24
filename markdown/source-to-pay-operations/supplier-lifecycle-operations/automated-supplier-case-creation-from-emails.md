@@ -2,7 +2,7 @@
 title: Automate supplier case creation from emails
 description: Emails received from supplier contacts can be automatically converted to supplier cases using the Email Intent to Action Agentic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/automated-supplier-case-creation-from-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/automated-supplier-case-creation-from-emails.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -22,8 +22,8 @@ The Email Intent to Action Agentic workflow analyzes incoming supplier emails, i
 
 To use this functionality, verify that the following steps are completed:
 
--   Configure the \[sn\_supplier.slm\_email\] system property and edit the Value field to contain supplier email address. For more information, see [Configure properties for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-prop-supp-mgmt.md).
--   Deactivate the Create Supplier case for email inbound action. For more information, see [Deactivate Create supplier case from email inbound action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/deactivate-create-supplier-case-from-email-inbound-action.md).
+-   Configure the \[sn\_supplier.slm\_email\] system property and edit the Value field to contain supplier email address. For more information, see [Configure properties for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-prop-supp-mgmt.md).
+-   Deactivate the Create Supplier case for email inbound action. For more information, see [Deactivate Create supplier case from email inbound action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/deactivate-create-supplier-case-from-email-inbound-action.md).
 -   Activate the Trigger Intent to Action inbound action. For more information, see [Enable intent to action workflow from inbound actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-intent-to-action.md).
 
 ## Automatic creation of supplier cases workflow
@@ -40,5 +40,5 @@ To use this functionality, verify that the following steps are completed:
 **Related topics**  
 
 
-[Deactivate Create supplier case from email inbound action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/deactivate-create-supplier-case-from-email-inbound-action.md)
+[Deactivate Create supplier case from email inbound action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/deactivate-create-supplier-case-from-email-inbound-action.md)
 

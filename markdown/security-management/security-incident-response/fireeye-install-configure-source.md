@@ -2,7 +2,7 @@
 title: Install the application and configure a source for the integration
 description: Install and configure the application from ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/fireeye-install-configure-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/fireeye-install-configure-source.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,7 +2,7 @@
 title: Azure Turn Off Virtual Machine action
 description: Action that stops the specified Microsoft Azure Virtual Machine \(VM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/cal-azure-turn-off-virtual-machine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/cal-azure-turn-off-virtual-machine.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -24,7 +24,7 @@ Action that stops the specified Microsoft Azure Virtual Machine \(VM\).
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
+    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
 
 
 ## Cloud permission
@@ -105,5 +105,5 @@ You can use these outputs as inputs for other actions.
     Client error code returned for the failed call.
 
 
-**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
 

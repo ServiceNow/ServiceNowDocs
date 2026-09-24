@@ -2,7 +2,7 @@
 title: Install the Recommended Actions application
 description: You can install the Recommended Actions application \(sn\_cs\_nb\_action\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence. JW - No demo data per dev team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-recommended-actions-cs-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/install-recommended-actions-cs-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ The following items are installed with Recommended Actions:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-installed-components.md).
+For more information, see [Components installed with Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-installed-components.md).
 
 To create recommendations based on Artificial Intelligence and Machine Learning models developed using ServiceNow® Predictive Intelligence, install Recommended Actions - Advanced.
 

@@ -2,7 +2,7 @@
 title: Roles in Hiring Experiences
 description: An overview of the different roles and user criteria in Hiring Experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/roles-in-ta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/roles-in-ta.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -33,5 +33,5 @@ An overview of the different roles and user criteria in Hiring Experiences.
 |Talent Profile read-only user \[sn\_ta\_tp.talent\_profile\_read\]|This role is required to have read-only access to talent profiles.|
 |admin|This is the administrator role. This role has access to all the system features, functions, and data, regardless of the security constraints.|
 
-**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
+**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
 

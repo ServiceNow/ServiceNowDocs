@@ -2,7 +2,7 @@
 title: Physical Connection form
 description: The Physical Connection form enables you to describe the details for a physical connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/physical-connection-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -71,7 +71,7 @@ Site A
 
 </td><td>
 
-Originating network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [be43dd816efb936e2eb2535d35766c61b2d804a6.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+Originating network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [febcfe12194eeb91c09e3996e78edd4ed1efeb0b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr><tr><td>
 
@@ -79,13 +79,13 @@ Site Z
 
 </td><td>
 
-Destination network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [be43dd816efb936e2eb2535d35766c61b2d804a6.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+Destination network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [febcfe12194eeb91c09e3996e78edd4ed1efeb0b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/physical-connection-forms.md)
+</table>**Parent Topic:**[Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-forms.md)
 
 **Related topics**  
 
 
-[Define the physical connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-physical-connections.md)
+[Define the physical connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-physical-connections.md)
 

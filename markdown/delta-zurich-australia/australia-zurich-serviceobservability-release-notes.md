@@ -2,11 +2,11 @@
 title: Combined Service Observability release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Service Observability from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-serviceobservability-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-serviceobservability-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -70,7 +70,20 @@ Zurich
 
 </td><td>
 
--   **[New Service Observability integrations](https://www.servicenow.com/docs/access?context=exploring-service-observability&family=zurich&ft:locale=en-US)**
+-   **[Support for HLA data in Service Observability dashboards](https://www.servicenow.com/docs/access?context=display-hla-data-on-a-dashboard&family=zurich&ft:locale=en-US)**
+
+As of 1.10, add service-related log data to your dashboards.
+
+-   **[Use data mapping tags as variables in a chart's query](https://www.servicenow.com/docs/access?context=service-observability-template-variables&family=zurich&ft:locale=en-US)**
+
+As of 1.10, key/tags used in a data mapping can also be used as a template variable in a chart's query.
+
+-   **[Use any field on a service as a variable in your data mapping query](https://www.servicenow.com/docs/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
+
+As of 1.10, when creating a data mapping, if your key represents a service, for convenience a drop down shows fields from the corresponding CI for the service, including custom fields, that can be used as a variable.
+
+
+ -   **[New Service Observability integrations](https://www.servicenow.com/docs/access?context=exploring-service-observability&family=zurich&ft:locale=en-US)**
 
 Integrate with more APM vendors to bring third-party data into Service Observability dashboards. New integrations for this release include:
 
@@ -129,7 +142,16 @@ Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[Improved chart metadata](https://www.servicenow.com/docs/access?context=using-service-observability&family=zurich&ft:locale=en-US)**
+
+As of 1.10, charts have been improved to provide more detailed axis labels.
+
+-   **[Improved data mapping UI](https://www.servicenow.com/docs/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
+
+As of 1.10, you can now create and test your data mapping in the same UI.
+
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -223,6 +245,8 @@ Zurich
 
 Install Service Observability by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Service Observability is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -390,5 +414,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

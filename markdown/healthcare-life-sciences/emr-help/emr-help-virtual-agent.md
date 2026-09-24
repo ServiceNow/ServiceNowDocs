@@ -2,7 +2,7 @@
 title: Virtual Agent in EMR Help
 description: Virtual Agent, ServiceNow’s conversational bot platform, is available when creating requests from the EMR Help portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-help-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/emr-help-virtual-agent.html
 release: australia
 product: EMR Help
 classification: emr-help

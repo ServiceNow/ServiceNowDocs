@@ -2,12 +2,12 @@
 title: Create an Explicit Block policy
 description: Stop a user, group, department, or everyone in your organization from using a specific AI agent, model, or domain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-create-explicit-block-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-create-explicit-block-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-08-27"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Control Framework, block]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Control Framework, block]
 breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -17,7 +17,7 @@ Stop a user, group, department, or everyone in your organization from using a sp
 
 ## Before you begin
 
-To enforce a block on an external system, confirm the corresponding connector is already configured. External systems include cloud AI agents and devices running Agent Client Collector \(ACC\). See [Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-security-connections.md).
+To enforce a block on an external system, confirm the corresponding connector is already configured. External systems include cloud AI agents and devices running Agent Client Collector \(ACC\). See [Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-security-connections.md).
 
 Role required: sn\_ai\_governance.ai\_steward
 
@@ -41,15 +41,15 @@ An Explicit Block policy stops a user, group, department, or everyone in your or
 
 6.  In the Block section, define what they're blocked from using.
 
-<table><thead><tr><th align="left" id="d322166e166">
+<table><thead><tr><th align="left" id="d319075e166">
 
 Option
 
-</th><th align="left" id="d322166e169">
+</th><th align="left" id="d319075e169">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d322166e175">
+</th></tr></thead><tbody><tr><td id="d319075e175">
 
 **AI agent**
 
@@ -60,7 +60,7 @@ Description
 3.  Combine multiple conditions with **and** or **or**, or select **Add group** for another set of conditions.
 
 
-</td></tr><tr><td id="d322166e217">
+</td></tr><tr><td id="d319075e217">
 
 **Model**
 
@@ -70,7 +70,7 @@ Description
 2.  Enter one or more models in a comma-separated list.
 
 
-</td></tr><tr><td id="d322166e238">
+</td></tr><tr><td id="d319075e238">
 
 **Domain**
 
@@ -100,7 +100,7 @@ The policy takes effect at every enforcement point it applies to. If enforcement
 
 ## What to do next
 
-Confirm the policy is working as expected by reviewing the policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Confirm the policy is working as expected by reviewing the policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 
-You can't edit a policy once it's published. To change who or what it blocks, clone the policy, make your changes in the cloned policy, then deactivate the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-clone-policy.md).
+You can't edit a policy once it's published. To change who or what it blocks, clone the policy, make your changes in the cloned policy, then deactivate the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-clone-policy.md).
 

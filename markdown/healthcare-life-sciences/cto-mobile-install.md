@@ -2,7 +2,7 @@
 title: Activate Care Team Mobile
 description: Activate the Care Team Mobile plugin \[com.sn\_cto\_mobile\] if you have the admin role. This plugin includes demo data and activates related plugins if they aren’t already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-mobile-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-mobile-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

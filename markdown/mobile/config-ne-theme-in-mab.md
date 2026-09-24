@@ -2,7 +2,7 @@
 title: Assign a Next Experience theme in the Mobile App Builder
 description: Use the Mobile App Builder to assign your Next Experience themes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-ne-theme-in-mab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-ne-theme-in-mab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

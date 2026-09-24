@@ -2,7 +2,7 @@
 title: Assign or unassign impacted assets
 description: Create a impacted asset list and assign or unassign it to a phases or sub-phases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco\_assign\_unassign\_impacted\_assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco\_assign\_unassign\_impacted\_assets.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

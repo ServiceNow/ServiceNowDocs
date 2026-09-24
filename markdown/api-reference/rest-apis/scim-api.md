@@ -2,7 +2,7 @@
 title: System for Cross-domain Identity Management \(SCIM\) API
 description: The System for Cross-domain Identity Management \(SCIM\) API provides endpoints to create, read, update, and delete operations on users and groups using the SCIM protocol.Deletes the specified group record from the Group \[sys\_user\_group\] table of a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns one or more group records from the Group \[sys\_user\_group\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns the specified group record from the Group \[sys\_user\_group\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Enables you to add, update, and delete specified fields in a group record in the Group \[sys\_user\_group\] table of a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Creates a group record in the Group \[sys\_user\_group\] table of a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Updates the specified group record in the Group \[sys\_user\_group\] table of a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Deletes the specified user record from the User \[sys\_user\] table of a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns one or more user records from the User \[sys\_user\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns the specified user record from the User \[sys\_user\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Enables you to add, replace, and remove specified fields in a user record in the User \[sys\_user\] table of a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Creates a user record in the User \[sys\_user\] table of a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Updates the specified user record in the User \[sys\_user\] table of a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Retrieves information about all System for Cross-domain Identity Management \(SCIM\) resource types supported by the associated ServiceNow instance.Retrieves information about the specified System for Cross-domain Identity Management \(SCIM\) resource type.Retrieves information about all System for Cross-domain Identity Management \(SCIM\) resource schemas supported by a ServiceNow instance. These schemas define the attributes available for each resource type.Retrieves information about the specified System for Cross-domain Identity Management \(SCIM\) resource schemas supported by a ServiceNow instance. These schemas define the attributes available for each resource type.Returns the configuration metadata to use to obtain information about the service capabilities, configurations, schemas, and resource types for the System for Cross-domain Identity Management \(SCIM\) endpoints available within a ServiceNow instance.Returns one or more company records from the Company \[core\_company\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns the specified company record from the Company \[core\_company\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns one or more cost center records from the Cost Center \[cmn\_cost\_center\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns the specified cost center record from the Cost Center \[cmn\_cost\_center\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns one or more department records from the Department \[cmn\_department\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns the specified department record from the Department \[cmn\_department\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns one or more location records from the Location \[cmn\_location\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.Returns the specified location record from the Location \[cmn\_location\] table within a ServiceNow instance using the System for Cross-domain Identity Management \(SCIM\) protocol.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/scim-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/scim-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -31,7 +31,7 @@ The SCIM service has six resources:
 -   Department
 -   Location
 
-Most of the attributes in these SCIM resources map to corresponding fields in an existing ServiceNow table. The following tables define these mappings. Attributes that do not correspond to fields in existing ServiceNow tables map to two SCIM-specific tables. For additional information on these tables, see [SCIM-specific tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/scim-api.md).
+Most of the attributes in these SCIM resources map to corresponding fields in an existing ServiceNow table. The following tables define these mappings. Attributes that do not correspond to fields in existing ServiceNow tables map to two SCIM-specific tables. For additional information on these tables, see [SCIM-specific tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/scim-api.md).
 
 The SCIM User resource has both core \(schema: urn:ietf:params:scim:schemas:core:2.0:User\) and extension \(urn:ietf:params:scim:schemas:extension:servicenow:2.0:User\) schemas. Most of the User core and extension schema attributes map to the User \[sys\_user\] table.
 
@@ -359,7 +359,7 @@ The scim\_admin role is required to access the SCIM-specific tables and the priv
 
 The SCIM service has four ACLs for accessing the Sys Scim User \[sys\_scim\_user\] table and the Sys Scim Group \[sys\_scim\_group\] table that enable create, delete, read, and write. These ACLs are only mapped to the scim\_admin role.
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## SCIM - DELETE /scim/Groups/\{group\_id\}
 
@@ -371,7 +371,7 @@ Versioned URL: `/api/now/{api_version}/scim/Groups/{group_id}`
 
 Default URL: `/api/now/scim/Groups/{group_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -412,7 +412,7 @@ Table: Group \[sys\_user\_group\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -437,7 +437,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -526,7 +526,7 @@ Versioned URL: `/api/now/{api_version}/scim/Groups`
 
 Default URL: `/api/now/scim/Groups`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -666,7 +666,7 @@ Default: 1
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -691,7 +691,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -1173,7 +1173,7 @@ Versioned URL: `/api/now/{api_version}/scim/Groups/{group_id}`
 
 Default URL: `/api/now/scim/Groups/{group_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1241,7 +1241,7 @@ Default: Do not exclude any fields.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1266,7 +1266,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -1776,7 +1776,7 @@ Required. SCIM Schema URI of the Patch Operation: "urn:ietf:params:scim:api:mess
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1809,7 +1809,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -1998,7 +1998,7 @@ HTTP status code for the error response.Data type: String
 
 displayName
 
-</td><td id="d3879e862">
+</td><td id="d3262e862">
 
 Human-readable name of the group, such as HR Team.Data type: String
 
@@ -2006,7 +2006,7 @@ Human-readable name of the group, such as HR Team.Data type: String
 
 externalId
 
-</td><td id="d3879e874">
+</td><td id="d3262e874">
 
 Unique identifier assigned to the group by the entity provisioning it.Data type: String
 
@@ -2113,7 +2113,7 @@ SCIM Groups' resource type.Data type: String
 
 schemas
 
-</td><td id="d3879e1000">
+</td><td id="d3262e1000">
 
 List of URIs of the SCIM Group schemas used to process the request.
 
@@ -2218,7 +2218,7 @@ Versioned URL: `/api/now/{api_version}/scim/Groups`
 
 Default URL: `/api/now/scim/Groups`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2383,7 +2383,7 @@ Data type: Array of Strings
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2416,7 +2416,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -2478,7 +2478,7 @@ Description
 
 company
 
-</td><td id="d3879e808">
+</td><td id="d3262e808">
 
 Details about the group's company or organization.Data type: Object
 
@@ -2494,7 +2494,7 @@ Details about the group's company or organization.Data type: Object
 
 company.display
 
-</td><td id="d3879e821">
+</td><td id="d3262e821">
 
 Name of the company.Data type: String
 
@@ -2502,7 +2502,7 @@ Name of the company.Data type: String
 
 company.$ref
 
-</td><td id="d3879e832">
+</td><td id="d3262e832">
 
 Reference URI of the company.Format: `<host>/Companies/<company sys_id>`, such as: `http://instance-servicenow.com/api/now/scim/Companies/81fd65ecac1d55eb42a426568fc87a63`.
 
@@ -2512,7 +2512,7 @@ Data type: String
 
 company.value
 
-</td><td id="d3879e851">
+</td><td id="d3262e851">
 
 Sys\_id of the associated company.Data type: String
 
@@ -2528,7 +2528,7 @@ Human-readable name of the group, such as HR Team.Data type: String
 
 externalId
 
-</td><td id="d3879e874">
+</td><td id="d3262e874">
 
 Unique identifier assigned to the group by the entity provisioning it.Data type: String
 
@@ -2719,7 +2719,7 @@ Versioned URL: `/api/now/{api_version}/scim/Groups/{group_id}`
 
 Default URL: `/api/now/scim/Groups/{group_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2894,7 +2894,7 @@ Data type: Array of Strings
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2927,7 +2927,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -2997,7 +2997,7 @@ Description
 
 company
 
-</td><td id="d3879e808">
+</td><td id="d3262e808">
 
 Details about the group's company or organization.Data type: Object
 
@@ -3013,7 +3013,7 @@ Details about the group's company or organization.Data type: Object
 
 company.display
 
-</td><td id="d3879e821">
+</td><td id="d3262e821">
 
 Name of the company.Data type: String
 
@@ -3021,7 +3021,7 @@ Name of the company.Data type: String
 
 company.$ref
 
-</td><td id="d3879e832">
+</td><td id="d3262e832">
 
 Reference URI of the company.Format: `<host>/Companies/<company sys_id>`, such as: `http://instance-servicenow.com/api/now/scim/Companies/81fd65ecac1d55eb42a426568fc87a63`.
 
@@ -3031,7 +3031,7 @@ Data type: String
 
 company.value
 
-</td><td id="d3879e851">
+</td><td id="d3262e851">
 
 Sys\_id of the associated company.Data type: String
 
@@ -3039,7 +3039,7 @@ Sys\_id of the associated company.Data type: String
 
 displayName
 
-</td><td id="d3879e862">
+</td><td id="d3262e862">
 
 Human-readable name of the group, such as HR Team.Data type: String
 
@@ -3096,7 +3096,7 @@ HTTP status code for the error response.Data type: String
 
 externalId
 
-</td><td id="d3879e874">
+</td><td id="d3262e874">
 
 Unique identifier assigned to the group by the entity provisioning it.Data type: String
 
@@ -3285,7 +3285,7 @@ Versioned URL: `/api/now/{api_version}/scim/Users/{user_id}`
 
 Default URL: `/api/now/scim/Users/{user_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -3326,7 +3326,7 @@ Table: User \[sys\_user\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -3351,7 +3351,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -3440,7 +3440,7 @@ Versioned URL: `/api/now/{api_version}/scim/Users`
 
 Default URL: `/api/now/scim/Users`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -3635,7 +3635,7 @@ Default: 1
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -3660,7 +3660,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -4556,7 +4556,7 @@ Versioned URL: `/api/now/{api_version}/scim/Users/{user_id}`
 
 Default URL: `/api/now/scim/Users/{user_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -4626,7 +4626,7 @@ Default: Do not exclude any fields.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -4651,7 +4651,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -5385,7 +5385,7 @@ Versioned URL: `/api/now/{api_version}/scim/Users/{user_id}`
 
 Default URL: `/api/now/scim/Users/{user_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -5653,7 +5653,7 @@ Required. SCIM Schema URI of Patch Operation `urn:ietf:params:scim:api:messages:
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -5686,7 +5686,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -6506,7 +6506,7 @@ Versioned URL: `/api/now/{api_version}/scim/Users`
 
 Default URL: `/api/now/scim/Users`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -6971,7 +6971,7 @@ Required if manager is included in post. Sys\_id of the manager record. Data typ
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -7004,7 +7004,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -7027,7 +7027,7 @@ Description
 
 active
 
-</td><td id="d3879e1058">
+</td><td id="d3262e1058">
 
 Flag that indicates whether the associated user is active within the ServiceNow instance.Possible values:
 
@@ -7040,7 +7040,7 @@ Data type: Boolean
 
 addresses
 
-</td><td id="d3879e1082">
+</td><td id="d3262e1082">
 
 Details of the user's current mailing address.Data type: Object
 
@@ -7059,7 +7059,7 @@ Details of the user's current mailing address.Data type: Object
 
 addresses.country
 
-</td><td id="d3879e1095">
+</td><td id="d3262e1095">
 
 Country name.Data type: String
 
@@ -7067,7 +7067,7 @@ Country name.Data type: String
 
 addresses.locality
 
-</td><td id="d3879e1106">
+</td><td id="d3262e1106">
 
 City or locality name.Data type: String
 
@@ -7075,7 +7075,7 @@ City or locality name.Data type: String
 
 addresses.postalCode
 
-</td><td id="d3879e1117">
+</td><td id="d3262e1117">
 
 Zip or postal code.Data type: String
 
@@ -7083,7 +7083,7 @@ Zip or postal code.Data type: String
 
 addresses.region
 
-</td><td id="d3879e1129">
+</td><td id="d3262e1129">
 
 State or region.Data type: String
 
@@ -7091,7 +7091,7 @@ State or region.Data type: String
 
 addresses.streetAddress
 
-</td><td id="d3879e1140">
+</td><td id="d3262e1140">
 
 Full street address. This can include the house number, street name, PO Box, and multi-line extended street address information.Data type: String
 
@@ -7099,7 +7099,7 @@ Full street address. This can include the house number, street name, PO Box, and
 
 addresses.type
 
-</td><td id="d3879e1151">
+</td><td id="d3262e1151">
 
 Type of address. Currently only supports `home`.Data type: String
 
@@ -7107,7 +7107,7 @@ Type of address. Currently only supports `home`.Data type: String
 
 displayName
 
-</td><td id="d3879e1165">
+</td><td id="d3262e1165">
 
 User display name. This value is auto-generated by concatenating the **name** fields. Data type: String
 
@@ -7115,7 +7115,7 @@ User display name. This value is auto-generated by concatenating the **name** fi
 
 emails
 
-</td><td id="d3879e1179">
+</td><td id="d3262e1179">
 
 List of email accounts associated with the user.Data type: Array of Objects
 
@@ -7132,7 +7132,7 @@ List of email accounts associated with the user.Data type: Array of Objects
 
 emails.type
 
-</td><td id="d3879e1192">
+</td><td id="d3262e1192">
 
 User email type. Currently only supports type of "work".Data type: String
 
@@ -7140,7 +7140,7 @@ User email type. Currently only supports type of "work".Data type: String
 
 emails.value
 
-</td><td id="d3879e1204">
+</td><td id="d3262e1204">
 
 User's email address. This is a unique key for the associated user.Data type: String
 
@@ -7197,7 +7197,7 @@ HTTP status code for the error response.Data type: String
 
 externalId
 
-</td><td id="d3879e1215">
+</td><td id="d3262e1215">
 
 Unique identifier assigned to the user by the entity provisioning it.Data type: String
 
@@ -7313,7 +7313,7 @@ SCIM Users' resource type.Data type: String
 
 name
 
-</td><td id="d3879e1353">
+</td><td id="d3262e1353">
 
 User's name information.Data type: Object
 
@@ -7330,7 +7330,7 @@ User's name information.Data type: Object
 
 name.familyName
 
-</td><td id="d3879e1366">
+</td><td id="d3262e1366">
 
 User's family or last name.Data type: String
 
@@ -7338,7 +7338,7 @@ User's family or last name.Data type: String
 
 name.givenName
 
-</td><td id="d3879e1377">
+</td><td id="d3262e1377">
 
 User's given or first name.Data type: String
 
@@ -7346,7 +7346,7 @@ User's given or first name.Data type: String
 
 name.honorificPrefix
 
-</td><td id="d3879e1388">
+</td><td id="d3262e1388">
 
 User's honorific name or title, such as Dr., Bishop, or Baron.Data type: String
 
@@ -7354,7 +7354,7 @@ User's honorific name or title, such as Dr., Bishop, or Baron.Data type: String
 
 name.middle
 
-</td><td id="d3879e1399">
+</td><td id="d3262e1399">
 
 User's middle name.Data type: String
 
@@ -7362,7 +7362,7 @@ User's middle name.Data type: String
 
 phoneNumbers
 
-</td><td id="d3879e1411">
+</td><td id="d3262e1411">
 
 List of phone numbers associated with the user.Data type: Array of Objects
 
@@ -7379,7 +7379,7 @@ List of phone numbers associated with the user.Data type: Array of Objects
 
 phoneNumbers.type
 
-</td><td id="d3879e1424">
+</td><td id="d3262e1424">
 
 Type of phone number.Possible values:
 
@@ -7393,7 +7393,7 @@ Data type: String
 
 phoneNumbers.value
 
-</td><td id="d3879e1448">
+</td><td id="d3262e1448">
 
 User's phone number.Data type: String
 
@@ -7401,7 +7401,7 @@ User's phone number.Data type: String
 
 preferredLanguage
 
-</td><td id="d3879e1459">
+</td><td id="d3262e1459">
 
 User's preferred spoken and written language.Data type: String
 
@@ -7417,7 +7417,7 @@ List of URIs of the SCIM User schemas used to process the request.Data type: Arr
 
 timezone
 
-</td><td id="d3879e1481">
+</td><td id="d3262e1481">
 
 User's time zone.Data type: String
 
@@ -7425,7 +7425,7 @@ User's time zone.Data type: String
 
 title
 
-</td><td id="d3879e1493">
+</td><td id="d3262e1493">
 
 User's title, such as CEO or President.Data type: String
 
@@ -7441,7 +7441,7 @@ Unique user name for the associated user. Data type: String
 
 userType
 
-</td><td id="d3879e1517">
+</td><td id="d3262e1517">
 
 User type. This value is used to identify the organization to user relationship.This can be any value, but typical values might include:
 
@@ -7546,7 +7546,7 @@ Versioned URL: `/api/now/{api_version}/scim/Users/{user_id}`
 
 Default URL: `/api/now/scim/Users/{user_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -8021,7 +8021,7 @@ Required if manager is included in post. Sys\_id of the manager record. Data typ
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -8054,7 +8054,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -8077,7 +8077,7 @@ Description
 
 active
 
-</td><td id="d3879e1058">
+</td><td id="d3262e1058">
 
 Flag that indicates whether the associated user is active within the ServiceNow instance.Possible values:
 
@@ -8090,7 +8090,7 @@ Data type: Boolean
 
 addresses
 
-</td><td id="d3879e1082">
+</td><td id="d3262e1082">
 
 Details of the user's current mailing address.Data type: Object
 
@@ -8109,7 +8109,7 @@ Details of the user's current mailing address.Data type: Object
 
 addresses.country
 
-</td><td id="d3879e1095">
+</td><td id="d3262e1095">
 
 Country name.Data type: String
 
@@ -8117,7 +8117,7 @@ Country name.Data type: String
 
 addresses.locality
 
-</td><td id="d3879e1106">
+</td><td id="d3262e1106">
 
 City or locality name.Data type: String
 
@@ -8125,7 +8125,7 @@ City or locality name.Data type: String
 
 addresses.postalCode
 
-</td><td id="d3879e1117">
+</td><td id="d3262e1117">
 
 Zip or postal code.Data type: String
 
@@ -8133,7 +8133,7 @@ Zip or postal code.Data type: String
 
 addresses.region
 
-</td><td id="d3879e1129">
+</td><td id="d3262e1129">
 
 State or region.Data type: String
 
@@ -8141,7 +8141,7 @@ State or region.Data type: String
 
 addresses.streetAddress
 
-</td><td id="d3879e1140">
+</td><td id="d3262e1140">
 
 Full street address. This can include the house number, street name, PO Box, and multi-line extended street address information.Data type: String
 
@@ -8149,7 +8149,7 @@ Full street address. This can include the house number, street name, PO Box, and
 
 addresses.type
 
-</td><td id="d3879e1151">
+</td><td id="d3262e1151">
 
 Type of address. Currently only supports `home`.Data type: String
 
@@ -8157,7 +8157,7 @@ Type of address. Currently only supports `home`.Data type: String
 
 displayName
 
-</td><td id="d3879e1165">
+</td><td id="d3262e1165">
 
 User display name. This value is auto-generated by concatenating the **name** fields. Data type: String
 
@@ -8165,7 +8165,7 @@ User display name. This value is auto-generated by concatenating the **name** fi
 
 emails
 
-</td><td id="d3879e1179">
+</td><td id="d3262e1179">
 
 List of email accounts associated with the user.Data type: Array of Objects
 
@@ -8182,7 +8182,7 @@ List of email accounts associated with the user.Data type: Array of Objects
 
 emails.type
 
-</td><td id="d3879e1192">
+</td><td id="d3262e1192">
 
 User email type. Currently only supports type of "work".Data type: String
 
@@ -8190,7 +8190,7 @@ User email type. Currently only supports type of "work".Data type: String
 
 emails.value
 
-</td><td id="d3879e1204">
+</td><td id="d3262e1204">
 
 User's email address. This is a unique key for the associated user.Data type: String
 
@@ -8247,7 +8247,7 @@ HTTP status code for the error response.Data type: String
 
 externalId
 
-</td><td id="d3879e1215">
+</td><td id="d3262e1215">
 
 Unique identifier assigned to the user by the entity provisioning it.Data type: String
 
@@ -8363,7 +8363,7 @@ SCIM Users' resource type.Data type: String
 
 name
 
-</td><td id="d3879e1353">
+</td><td id="d3262e1353">
 
 User's name information.Data type: Object
 
@@ -8380,7 +8380,7 @@ User's name information.Data type: Object
 
 name.familyName
 
-</td><td id="d3879e1366">
+</td><td id="d3262e1366">
 
 User's family or last name.Data type: String
 
@@ -8388,7 +8388,7 @@ User's family or last name.Data type: String
 
 name.givenName
 
-</td><td id="d3879e1377">
+</td><td id="d3262e1377">
 
 User's given or first name.Data type: String
 
@@ -8396,7 +8396,7 @@ User's given or first name.Data type: String
 
 name.honorificPrefix
 
-</td><td id="d3879e1388">
+</td><td id="d3262e1388">
 
 User's honorific name or title, such as Dr., Bishop, or Baron.Data type: String
 
@@ -8404,7 +8404,7 @@ User's honorific name or title, such as Dr., Bishop, or Baron.Data type: String
 
 name.middle
 
-</td><td id="d3879e1399">
+</td><td id="d3262e1399">
 
 User's middle name.Data type: String
 
@@ -8412,7 +8412,7 @@ User's middle name.Data type: String
 
 phoneNumbers
 
-</td><td id="d3879e1411">
+</td><td id="d3262e1411">
 
 List of phone numbers associated with the user.Data type: Array of Objects
 
@@ -8429,7 +8429,7 @@ List of phone numbers associated with the user.Data type: Array of Objects
 
 phoneNumbers.type
 
-</td><td id="d3879e1424">
+</td><td id="d3262e1424">
 
 Type of phone number.Possible values:
 
@@ -8443,7 +8443,7 @@ Data type: String
 
 phoneNumbers.value
 
-</td><td id="d3879e1448">
+</td><td id="d3262e1448">
 
 User's phone number.Data type: String
 
@@ -8451,7 +8451,7 @@ User's phone number.Data type: String
 
 preferredLanguage
 
-</td><td id="d3879e1459">
+</td><td id="d3262e1459">
 
 User's preferred spoken and written language.Data type: String
 
@@ -8467,7 +8467,7 @@ List of URIs of the SCIM User schemas used to process the request.Data type: Arr
 
 timezone
 
-</td><td id="d3879e1481">
+</td><td id="d3262e1481">
 
 User's time zone.Data type: String
 
@@ -8475,7 +8475,7 @@ User's time zone.Data type: String
 
 title
 
-</td><td id="d3879e1493">
+</td><td id="d3262e1493">
 
 User's title, such as CEO or President.Data type: String
 
@@ -8491,7 +8491,7 @@ Unique user name for the associated user. Data type: String
 
 userType
 
-</td><td id="d3879e1517">
+</td><td id="d3262e1517">
 
 User type. This value is used to identify the organization to user relationship.This can be any value, but typical values might include:
 
@@ -8639,7 +8639,7 @@ Reference URI for the department.Data type: String
 
 employeeNumber
 
-</td><td id="d3879e1722">
+</td><td id="d3262e1722">
 
 Numeric or alphanumeric employee number.Data type: String
 
@@ -8647,7 +8647,7 @@ Numeric or alphanumeric employee number.Data type: String
 
 gender
 
-</td><td id="d3879e1733">
+</td><td id="d3262e1733">
 
 Gender of the user, such as male or female.Data type: String
 
@@ -8876,7 +8876,7 @@ Versioned URL: `/api/now/{api_version}/scim/ResourceTypes`
 
 Default URL: `/api/now/scim/ResourceTypes`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -8907,7 +8907,7 @@ Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only spe
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -8932,7 +8932,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -9250,7 +9250,7 @@ Versioned URL: `/api/now/{api_version}/scim/ResourceTypes/{ResourceName}`
 
 Default URL: `/api/now/scim/ResourceTypes/{ResourceName}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -9298,7 +9298,7 @@ Unique ID of the resource type to retrieve.Valid values:
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -9323,7 +9323,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -9515,7 +9515,7 @@ Versioned URL: `/api/now/{api_version}/scim/Schemas`
 
 Default URL: `/api/now/scim/Schemas`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -9546,7 +9546,7 @@ Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only spe
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -9571,7 +9571,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -9824,7 +9824,7 @@ Versioned URL: `/api/now/{api_version}/scim/Schemas/{SchemaName}`
 
 Default URL: `/api/now/scim/Schemas/{SchemaName}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -9874,7 +9874,7 @@ URI of the resource schema to return.Valid values:
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -9899,7 +9899,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -10011,7 +10011,7 @@ Versioned URL: `/api/now/{api_version}/scim/ServiceProviderConfig`
 
 Default URL: `/api/now/scim/ServiceProviderConfig`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -10042,7 +10042,7 @@ Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only spe
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -10067,7 +10067,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -10144,7 +10144,7 @@ Versioned URL: `/api/now/{api_version}/scim/Companies`
 
 Default URL: `/api/now/scim/Companies`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -10276,7 +10276,7 @@ Default: 1
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -10301,7 +10301,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -10532,7 +10532,7 @@ Versioned URL: `/api/now/{api_version}/scim/Companies/{company_id}`
 
 Default URL: `/api/now/scim/Groups/{company_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -10600,7 +10600,7 @@ Default: Do not exclude any fields.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -10625,7 +10625,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -10794,7 +10794,7 @@ Versioned URL: `/api/now/{api_version}/scim/CostCenters`
 
 Default URL: `/api/now/scim/CostCenters`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -10926,7 +10926,7 @@ Default: 1
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -10951,7 +10951,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -11184,7 +11184,7 @@ Versioned URL: `/api/now/{api_version}/scim/CostCenters/{cost_center_id}`
 
 Default URL: `/api/now/scim/CoostCenters/{cost_center_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -11252,7 +11252,7 @@ Default: Do not exclude any fields.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -11277,7 +11277,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -11446,7 +11446,7 @@ Versioned URL: `/api/now/{api_version}/scim/Departments`
 
 Default URL: `/api/now/scim/Departments`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -11578,7 +11578,7 @@ Default: 1
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -11603,7 +11603,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -11834,7 +11834,7 @@ Versioned URL: `/api/now/{api_version}/scim/Departments/{department_id}`
 
 Default URL: `/api/now/scim/Departments/{department_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -11902,7 +11902,7 @@ Default: Do not exclude any fields.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -11927,7 +11927,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -12096,7 +12096,7 @@ Versioned URL: `/api/now/{api_version}/scim/Locations`
 
 Default URL: `/api/now/scim/Locations`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -12228,7 +12228,7 @@ Default: 1
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -12253,7 +12253,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -12480,7 +12480,7 @@ Versioned URL: `/api/now/{api_version}/scim/Locations/{location_id}`
 
 Default URL: `/api/now/scim/Locations/{location_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -12548,7 +12548,7 @@ Default: Do not exclude any fields.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -12573,7 +12573,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

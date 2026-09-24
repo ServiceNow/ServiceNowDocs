@@ -2,7 +2,7 @@
 title: Multi-consumer support using unique mid servers
 description: You can now precisely manage log consumption with a new multi-consumer system, enabling dedicated consumers and MID servers for each specific log stream.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-multi-consumer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-multi-consumer.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ A major benefit of this multi-consumer architecture is the ability to run multip
 
 **Note:** For a mid server consumer, the maximum production level throughput is 31500 msg/sec. You can use 27,000 msg/sec as the reliable sustained throughput.
 
-**Parent Topic:**[MID server consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-mid-server-consumer.md)
+**Parent Topic:**[MID server consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-mid-server-consumer.md)
 

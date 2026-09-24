@@ -2,7 +2,7 @@
 title: Add or delete a tag category for Tag Categorization
 description: Add or delete a tag category for improved tagging of your organization's configuration items \(CIs\) and cloud assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/add-delete-tag-category-tag-categorization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/tag-governance/add-delete-tag-category-tag-categorization.html
 release: australia
 product: Tag Governance
 classification: tag-governance
@@ -18,7 +18,7 @@ Add or delete a tag category for improved tagging of your organization's configu
 
 ## Before you begin
 
-Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
+Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 Role required: tag\_governance\_admin
 

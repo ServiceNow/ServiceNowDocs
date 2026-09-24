@@ -2,12 +2,12 @@
 title: Monitoring overview
 description: Identify low-scoring AI systems quickly by reviewing quality and safety scores, AI-generated insights, and performance trends across your AI portfolio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-monitoring-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-monitoring-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-07"
 reading_time_minutes: 7
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Review scores, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -102,7 +102,7 @@ Selecting a quality or safety score card opens a side panel with a detailed brea
 
 **Note:** If one or more metrics have a noticeably lower evaluation count than the others, a bias indicator appears next to the scoring formula section. A metric with fewer evaluations still counts at its full configured weight, so metrics that evaluate more consistently can carry more real influence on the score than their configured weight alone suggests.
 
-Analyze which metrics are pulling a composite score up or down, and by how much. For details on how scores are calculated, see [How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md).
+Analyze which metrics are pulling a composite score up or down, and by how much. For details on how scores are calculated, see [How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md).
 
 ## AI systems ranked by score
 
@@ -117,7 +117,7 @@ Two line styles distinguish how each metric contributes to scoring:
 -   Solid lines represent metrics that contribute to your overall quality or safety score. These metrics are configured in a metric template.
 -   Dotted lines represent metrics that are being collected but don't contribute to your overall quality or safety score. These metrics aren't configured in any metric template.
 
-To add a dotted-line metric to your scoring formula or to adjust how much existing metrics contribute to your overall scores, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md).
+To add a dotted-line metric to your scoring formula or to adjust how much existing metrics contribute to your overall scores, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-metric-templates.md).
 
 Choose which metrics to display by selecting an option from the list:
 
@@ -151,5 +151,5 @@ Point to a data point on the chart to see the exact score for that date.
     After deploying a new ServiceNow ITSM agent, the product owner opens the monitoring overview and filters to the new system using the AI systems ranked by score widget. Over the first week, the trend chart shows Tool choice accuracy starting at 62% and improving to 78% as the team adjusts the agent's tool configuration. The owner uses the scoring breakdown side panel to confirm which metrics are improving and which still need attention.
 
 
-**Parent Topic:**[Reviewing quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)
+**Parent Topic:**[Reviewing quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)
 

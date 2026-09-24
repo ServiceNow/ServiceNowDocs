@@ -2,7 +2,7 @@
 title: Approve restricted caller access privileges manually
 description: Approve restricted caller access \(RCA\) privileges to allow cross-scope access to the Supplier Collaboration Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/approve-rca-for-supp-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/approve-rca-for-supp-central.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -43,12 +43,12 @@ RCA privileges define cross-scope access to an application, an event, or an appl
 6.  Select **Update**.
 
 
-**Parent Topic:**[Restricted caller access approvals for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/rca-approvals.md)
+**Parent Topic:**[Restricted caller access approvals for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/rca-approvals.md)
 
 **Related topics**  
 
 
 [Run the fix script for RCA approvals]()
 
-[Run the fix script for RCA approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-rca-fix-script.md)
+[Run the fix script for RCA approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-rca-fix-script.md)
 

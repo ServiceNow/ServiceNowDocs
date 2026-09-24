@@ -2,7 +2,7 @@
 title: Activate dynamic scheduling
 description: Activate the dynamic scheduling feature by activating the Field Service Management plugin \(com.snc.work\_management\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/activate-dynamic-scheduling-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/activate-dynamic-scheduling-plugin.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

@@ -2,7 +2,7 @@
 title: Delete an NLU model
 description: Delete a Natural Language Understanding \(NLU\) model permanently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/delete-nlu-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/delete-nlu-model.html
 release: australia
 product: NLU Service
 classification: nlu-service

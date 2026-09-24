@@ -2,7 +2,7 @@
 title: Create and manage cases for a constituent or household in Public Sector Digital Services
 description: Staff members with the location agent role can create and manage cases for constituents and households.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-households-manage-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-households-manage-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,7 +67,7 @@ Select a household in the **Household** field. -   If the household only has onl
 
 
 </td></tr></tbody>
-</table>5.  Fill in the remaining fields on the [Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/government-service-case-form.md) form.
+</table>5.  Fill in the remaining fields on the [Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/government-service-case-form.md) form.
 
 6.  If desired, add other members of the household to the watch list.
 

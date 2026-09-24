@@ -2,7 +2,7 @@
 title: Configure Provider Space Mapping for occupancy data
 description: The Provider Space Mapping data table stores the workplace locations and external Ids provided by the occupancy data provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/provider-space-mappings-occupancy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-connectors/provider-space-mappings-occupancy.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Workplace Connectors** &gt; **Administration** &gt; **Provider Space Mapping**.
 
-    The location data is mapped with the external Ids of the provider. For example, Metrikus occupancy data using the External Ids. The location hierarchy is shown for the spaces or locations that you selected in the [Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md) table.
+    The location data is mapped with the external Ids of the provider. For example, Metrikus occupancy data using the External Ids. The location hierarchy is shown for the spaces or locations that you selected in the [Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md) table.
 
     \[Omitted image "wsd-provider-space-mappings.png"\] Alt text: Provider space Mappings table showing mapped Workplace Service Delivery spaces with external IDs provided by Metrikus occupancy sensor.
 
@@ -64,7 +64,7 @@ Provider
 
 </td><td>
 
-Name of the Provider providing the occupancy data in Workplace Connectors. For example, Metrikus. For more information, see [Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/providers-occupancy.md).
+Name of the Provider providing the occupancy data in Workplace Connectors. For example, Metrikus. For more information, see [Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/providers-occupancy.md).
 
 </td></tr><tr><td>
 
@@ -78,9 +78,9 @@ Option to show the list of all connectors or sensor data that the provider suppo
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Previous topic:**[Provider Space Type Mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/provider-space-type-mapping.md)
+**Previous topic:**[Provider Space Type Mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/provider-space-type-mapping.md)
 
-**Next topic:**[Retrieving Action Configurations data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/actions-configurations-occupancy.md)
+**Next topic:**[Retrieving Action Configurations data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/actions-configurations-occupancy.md)
 

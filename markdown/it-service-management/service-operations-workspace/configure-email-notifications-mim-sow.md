@@ -2,7 +2,7 @@
 title: Configure email notifications in Major Incident Management
 description: Configure the automated email notification alerts that are sent to major incident managers in the various stages of the major incident process. These stages include a change of state, assignment, or user group for a major incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-email-notifications-mim-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configure-email-notifications-mim-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -18,7 +18,7 @@ Configure the automated email notification alerts that are sent to major inciden
 
 ## Before you begin
 
-The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/install-mim-sow.md).
+The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Consider the following items when you create or update a notification:
 

@@ -2,7 +2,7 @@
 title: Exploring Fix Intelligence for Security Exposure Management
 description: Fix Intelligence for Security Exposure Management enriches USEM with a de-duplicated catalog of remediation actions, each linked to the findings and assets it resolves and scored by the risk it removes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/exploring-fix-intel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/exploring-fix-intel.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-29"
@@ -68,18 +68,18 @@ In this release, Fix Intelligence for SEM identifies fixes for host vulnerabilit
 
 ## What next
 
--   [How Fix Intelligence for Security Exposure Management works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/fix-intel-data-flow.md)
+-   [How Fix Intelligence for Security Exposure Management works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-data-flow.md)
 
--   [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-fix-intel.md)
+-   [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-fix-intel.md)
 
 
--   **[How Fix Intelligence for Security Exposure Management works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/fix-intel-data-flow.md)**  
+-   **[How Fix Intelligence for Security Exposure Management works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-data-flow.md)**  
 Fix Intelligence for Security Exposure Management enriches your host findings with normalized fix information and stores each unique fix as a Fix record. The feature links every fix to the findings it resolves and rolls up a risk score per fix. Your team can remediate by fix instead of one finding at a time.
 
-**Parent Topic:**[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/fix-intel-for-usem-landing.md)
+**Parent Topic:**[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-for-usem-landing.md)
 
 **Related topics**  
 
 
-[Exploring Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-unified-security-exposure-management.md)
+[Exploring Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/exploring-unified-security-exposure-management.md)
 

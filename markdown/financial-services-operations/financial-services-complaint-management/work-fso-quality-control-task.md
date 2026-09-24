@@ -2,7 +2,7 @@
 title: Work on a quality control task for a complaint case
 description: Work on a quality control task to review the complaint details and complaint agent's response for the case. You can approve or reject the task based on your review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/work-fso-quality-control-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-complaint-management/work-fso-quality-control-task.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management

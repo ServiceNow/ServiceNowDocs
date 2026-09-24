@@ -2,7 +2,7 @@
 title: Configure Care Team Portal
 description: Set up the Care Team Portal, including embedding it in Epic Hyperspace via Hyperdrive with SMART on FHIR authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/care-team-portal-configuring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/care-team-portal-configuring.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-27"
@@ -16,7 +16,7 @@ Set up the Care Team Portal, including embedding it in Epic Hyperspace via Hyper
 
 ## Configuration overview
 
-1.  [Embedding Care Team Portal in Epic Hyperspace via Hyperdrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/configure-care-team-portal.md)
+1.  [Embedding Care Team Portal in Epic Hyperspace via Hyperdrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/configure-care-team-portal.md)
 
     Embed the Care Team Portal in Epic Hyperspace via Hyperdrive and authenticate users with SMART on FHIR.
 

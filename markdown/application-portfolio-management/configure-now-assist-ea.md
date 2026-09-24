@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Enterprise Architecture \(EA\)
 description: If you have the admin role, you can configure the ServiceNow Otto for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/configure-now-assist-ea.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/configure-now-assist-ea.html
 release: australia
 topic_type: task
 last_updated: "2026-07-20"
@@ -47,7 +47,7 @@ The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are a
 
 1.  Install the ServiceNow Otto for Enterprise Architecture \(EA\) plugin \(sn\_ea\_gen\_ai\).
 
-    -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/supporting-info-now-assist-ea.md).
+    -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/supporting-info-now-assist-ea.md).
     -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills** to access the skills tab of the AI Admin Hub.
 
@@ -59,15 +59,15 @@ The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are a
 
 5.  Activate and configure the skill for ServiceNow Otto for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d36747e347">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d36728e347">
 
 Skill
 
-</th><th align="left" id="d36747e350">
+</th><th align="left" id="d36728e350">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d36747e356">
+</th></tr></thead><tbody><tr><td id="d36728e356">
 
 **ADR Doc Summarization and Actions**
 
@@ -78,7 +78,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d36747e387">
+</td></tr><tr><td id="d36728e387">
 
 **Business application insights**
 
@@ -122,7 +122,7 @@ The You are making a copy of a skill dialog box appears.
     6.  On the **Review and activate** tab, review the summary of your choices and select **Activate**.
 
 
-</td></tr><tr><td id="d36747e598">
+</td></tr><tr><td id="d36728e598">
 
 **Diagram change analysis**
 
@@ -147,7 +147,7 @@ The new role is added to the access list.
 
 The diagram change analysis skill is activated.
 
-</td></tr><tr><td id="d36747e687">
+</td></tr><tr><td id="d36728e687">
 
 **Refine text**
 
@@ -157,7 +157,7 @@ The diagram change analysis skill is activated.
 2.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d36747e709">
+</td></tr><tr><td id="d36728e709">
 
 **Create diagram from image**
 
@@ -195,12 +195,12 @@ If the skill is inactive:
     The skill is configured and activated.
 
 
--   **[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/sn-otto-access-roles.md)**  
+-   **[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/sn-otto-access-roles.md)**  
 The following roles help you to configure and use each ServiceNow Otto for Enterprise Architecture \(EA\) skill.
--   **[Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)**  
+-   **[Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)**  
 You can configure the AI Data Explorer and Query Generation skills to provide AI-assisted data exploration features and generate insights in Enterprise Architecture Workspace.
--   **[Enable Knowledge Graph system properties for the Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/set-kg-system-properties-ea-qna.md)**  
+-   **[Enable Knowledge Graph system properties for the Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/set-kg-system-properties-ea-qna.md)**  
 Enable the Knowledge Graph system properties to allow the Enterprise Architecture query agent to generate accurate answers based on your Configuration Management Database \(CMDB\) data.
 
-**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-eaw.md)
+**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-eaw.md)
 

@@ -2,7 +2,7 @@
 title: Create an achievement definition
 description: Create definitions for achievements to define the end goal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-achievement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/create-achievement.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -28,15 +28,15 @@ Role required: sn\_lep.achievement\_manager
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Achievement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/achievements-definitions-form.md).
+    For a description of the field values, see [Achievement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/achievements-definitions-form.md).
 
 
--   **[Define user access for achievements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/user-access-achievements.md)**  
+-   **[Define user access for achievements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/user-access-achievements.md)**  
 Define user access to the collection to configure who has can and can’t read access to the achievements.
--   **[Add associated skills to an achievement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/associate-skills-achievements.md)**  
+-   **[Add associated skills to an achievement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/associate-skills-achievements.md)**  
 Add associated skills to define the scope of an achievement.
 
-**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-learning-achievements.md)
+**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-learning-achievements.md)
 
 **Related topics**  
 

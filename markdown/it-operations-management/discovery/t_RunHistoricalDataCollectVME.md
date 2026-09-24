@@ -2,7 +2,7 @@
 title: Run historical data collection for Virtual Machine Explorer
 description: After installing Discovery Admin Workspace, run historical data collection jobs to populate Virtual Machine Explorer dashboard reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_RunHistoricalDataCollectVME.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_RunHistoricalDataCollectVME.html
 release: australia
 product: Discovery
 classification: discovery
@@ -50,5 +50,5 @@ Role required: pa\_data\_collector or admin
 
 ## What to do next
 
-Manually refresh the indicators on the Virtual Machine Explorer dashboard. This populates the Virtual machines with server CI and Virtual machines with no deep dive discovery reports. For more information, see [Virtual Machine Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/vm-explorer.md).
+Manually refresh the indicators on the Virtual Machine Explorer dashboard. This populates the Virtual machines with server CI and Virtual machines with no deep dive discovery reports. For more information, see [Virtual Machine Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/vm-explorer.md).
 

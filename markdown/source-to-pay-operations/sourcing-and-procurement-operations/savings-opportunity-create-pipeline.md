@@ -2,7 +2,7 @@
 title: Review a savings opportunity and create a pipeline project
 description: Open a savings opportunity discovered by the Savings Opportunity Discovery agentic workflow and create a pipeline project that tracks the savings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-create-pipeline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-create-pipeline.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -106,5 +106,5 @@ The following fields on the draft pipeline project are prefilled from the opport
 |**Project type**|Determined by the opportunity type.|
 |**Previous records**|Source records linked by opportunity type: contracts for contract optimization, purchase orders for spend optimization, and suppliers for supplier optimization.|
 
-**Parent Topic:**[Action or dismiss a savings opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/action-or-dismiss-savings-opportunity.md)
+**Parent Topic:**[Action or dismiss a savings opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/action-or-dismiss-savings-opportunity.md)
 

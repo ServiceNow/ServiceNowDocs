@@ -2,7 +2,7 @@
 title: Open a changeset to update config data
 description: Update config data in an existing changeset or in a new changeset. You can save your changes for later updates or save and commit the changes. Committing the changes generates a snapshot for each deployable that is affected by the changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-changeset-cr-u.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-changeset-cr-u.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -25,7 +25,7 @@ Role required: cdm\_editor or cdm\_admin
 ## About this task
 
 -   When you commit the changes that you have made to an application \(commit the changeset\), the system generates a snapshot of each deployable that has been updated. A snapshot is an exact record of the config data for a deployable. Snapshots are read-only — you cannot modify a snapshot. You can, however, start a new changeset that is based on a particular snapshot.
--   Sometimes, another user has committed changes to a data set \(thus creating a new snapshot\) while you are working on a changeset of the same data. In this case, the data that you are working on is stale \(the data is in the state it was in before the other user committed changes\). This can result in data conflicts. Learn more about how you use changesets and how CDM manages version control at [Changesets and version control in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md).
+-   Sometimes, another user has committed changes to a data set \(thus creating a new snapshot\) while you are working on a changeset of the same data. In this case, the data that you are working on is stale \(the data is in the state it was in before the other user committed changes\). This can result in data conflicts. Learn more about how you use changesets and how CDM manages version control at [Changesets and version control in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-changesets-version-control.md).
 
 ## Procedure
 
@@ -39,9 +39,9 @@ Role required: cdm\_editor or cdm\_admin
 
 2.  In the config data tree, select the item to edit in either the script view or the list view.
 
-    By default, the Editor panel displays the script view of the key:value pairs \(the config data items — CDIs\) in the selected node. See [Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-editing-config-data-changesets.md) for details on operations in the **Config data** tab.
+    By default, the Editor panel displays the script view of the key:value pairs \(the config data items — CDIs\) in the selected node. See [Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-editing-config-data-changesets.md) for details on operations in the **Config data** tab.
 
-3.  Add components, collections or deployables, see the instructions in [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md), [Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-collection-define.md), and [Create and update a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-deployable-define.md).
+3.  Add components, collections or deployables, see the instructions in [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-define.md), [Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-collection-define.md), and [Create and update a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-deployable-define.md).
 
 4.  Select **Save** to save the changes in the changeset and ready the changes in the changeset to be committed.
 
@@ -73,17 +73,17 @@ Role required: cdm\_editor or cdm\_admin
 **Related topics**  
 
 
-[Changesets and version control in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md)
+[Changesets and version control in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-changesets-version-control.md)
 
-[Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md)
+[Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-define.md)
 
-[Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-collection-define.md)
+[Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-collection-define.md)
 
-[Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md)
+[Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-snapshot-publish.md)
 
-[Validate a snapshot manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-validate-manually.md)
+[Validate a snapshot manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-snapshot-validate-manually.md)
 
-[View the results of snapshot validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-validation-results-view.md)
+[View the results of snapshot validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-validation-results-view.md)
 
-[View snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshots-view-list.md)
+[View snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-snapshots-view-list.md)
 

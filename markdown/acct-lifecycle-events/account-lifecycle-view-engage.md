@@ -2,7 +2,7 @@
 title: Engagement home page
 description: This page provides detailed information of an engagement including internal and external stakeholders, upcoming touchpoints, initiatives, and blueprints.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-view-engage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-view-engage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,17 +18,17 @@ To view this page, follow these steps:
 
 1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
 2.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workpace** and select the **List** icon.
-3.  Navigate to **Customer Success** &gt; **All Engagements** and select **Number** column to open the engagement record. You can also navigate to this page from the [Success portfolio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-landing.md).
+3.  Navigate to **Customer Success** &gt; **All Engagements** and select **Number** column to open the engagement record. You can also navigate to this page from the [Success portfolio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-success-landing.md).
 
 The following options are available:
 
 -   Discuss: Select **Discuss** to start a sidebar discussion about this engagement. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this engagement. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the **Activity stream**.
 -   Refresh Health: Select this option to update the health score for this engagement.
--   Customer play: See [Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md).
--   Internal play: See [Create an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md).
--   Risk signal: See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-risk-signal.md).
--   Success case: See [Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md).
--   Touchpoint: See [Create a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-touchpoint.md).
+-   Customer play: See [Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md).
+-   Internal play: See [Create an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md).
+-   Risk signal: See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-risk-signal.md).
+-   Success case: See [Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md).
+-   Touchpoint: See [Create a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-touchpoint.md).
 
 The Engagement record page contains the following tabs:
 
@@ -50,7 +50,7 @@ This tab provides a high-level overview of the engagement. It includes the follo
 -   Customer team: The key customer contacts for this engagement are available in the contextual side panel. Select the **Customer contacts** icon in the contextual side panel to view contact details.
 -   Squad: Shows the squad members associated with the engagement.
 -   Account team: The team members handling the account. This information is also displayed in the Related Items section under Applicable Account Teams.
--   Engagement updates: An AI-generated brief that summarizes recent signals for this engagement, organized by category such as Risks, Declining metrics, and Opportunities. The brief loads automatically on page open and is cached for 15 days. Select the refresh icon to generate a new brief. For more information, see [Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md).
+-   Engagement updates: An AI-generated brief that summarizes recent signals for this engagement, organized by category such as Risks, Declining metrics, and Opportunities. The brief loads automatically on page open and is cached for 15 days. Select the refresh icon to generate a new brief. For more information, see [Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md).
 -   Upcoming touchpoints: Shows any upcoming touchpoints for this engagement. Select the link to drill down to the Touchpoint record page.
 -   Risk signals and issues: Shows any new, overdue, high priority, or unaddressed risks or issues.
 -   Work items: This section shows the activities and tasks associated with this engagement. You can sort the list by Priority or Due Date. You can view all the work items or view items belonging to a specific category by selecting one of the following filters from the **View** drop-down list:
@@ -69,11 +69,11 @@ In this tab, you can see the current health score and the health of the engageme
 
 \[Omitted image "account-lifecycle-engagement-health.png"\] Alt text: Engagement health score.
 
-In the Indicators section, you see the metrics used to calculate the health score for this engagement. See [Calculate the engagement health score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-health-defn.md). For each metric, you’ll the target score, weight, and gap percentage. Select the **Sort by** option to sort the metrics listed by score, weight, and gap.
+In the Indicators section, you see the metrics used to calculate the health score for this engagement. See [Calculate the engagement health score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-health-defn.md). For each metric, you’ll the target score, weight, and gap percentage. Select the **Sort by** option to sort the metrics listed by score, weight, and gap.
 
 ## Success blueprint
 
-In this tab, you can view the success objectives associated with this engagement. You can view the high-level details of each success objective including Due date, Start date, Key contact, Assigned to, and Products. If the success blueprint hasn’t been defined, select **Create success blueprint**. See [Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-blueprint.md) for instructions on creating a success blueprint. You can do the following:
+In this tab, you can view the success objectives associated with this engagement. You can view the high-level details of each success objective including Due date, Start date, Key contact, Assigned to, and Products. If the success blueprint hasn’t been defined, select **Create success blueprint**. See [Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-blueprint.md) for instructions on creating a success blueprint. You can do the following:
 
 -   Sort by: You can sort the list by Due date of the objectives.
 -   View by State: Select one of the states from the drop-down list. This can be:
@@ -83,20 +83,20 @@ In this tab, you can view the success objectives associated with this engagement
     -   Closed
     -   New
     -   Canceled
--   Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the [Success objective record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-success-object.md).
+-   Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the [Success objective record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-view-success-object.md).
 -   View initiative roadmap: Select this link to view the success initiative roadmap, which the engagement details including the current health, stage, and the next renewal date for the engagement.
 
 \[Omitted image "customer-success-blueprint.png"\] Alt text: success blueprint.
 
 ## Product adoption
 
-In this tab, you can view the product adoption score for all applicable sold products associated with this engagement. The adoption score is determined using the calculated metrics that have been configured for the sold products. See [Define a calculated metric data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.md) for more details.
+In this tab, you can view the product adoption score for all applicable sold products associated with this engagement. The adoption score is determined using the calculated metrics that have been configured for the sold products. See [Define a calculated metric data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.md) for more details.
 
 The following details are included:
 
 -   The chart displays product adoption scores across the past 12 weeks, broken down by week. By hovering over data points, you can view the quantity of products sold within each adoption category \(Low, Medium, High, and None\) for any given week.
 -   The pie chart shows a snapshot of current adoption score distribution as of today's date. Select Total products to drill down to view the Product Usage list. You can drill down to a specific product usage record.
--   Sold products: The list of sold products associated with this engagement is displayed. Select \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to drill down to the [Product usage record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-prod-cap-usage.md) page.
+-   Sold products: The list of sold products associated with this engagement is displayed. Select \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to drill down to the [Product usage record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-prod-cap-usage.md) page.
     -   View by: You can filter the list displayed by:
         -   All
         -   Activated
@@ -109,8 +109,8 @@ The following details are included:
         -   Business criticality
         -   Activation status
 -   Product adoption roadmaps: The list of product adoption roadmaps that have been created for this engagement. You can do the following:
-    -   Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the Product adoption roadmap page. See [View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md) for details.
-    -   Select **New product adoption roadmap** to create roadmap. See [Create a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap.md) for details.
+    -   Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the Product adoption roadmap page. See [View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md) for details.
+    -   Select **New product adoption roadmap** to create roadmap. See [Create a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-par-roadmap.md) for details.
 
 ## Renewal and expansion
 
@@ -155,7 +155,7 @@ Description
 
 </td><td>
 
-The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues. The following options are available:-   Suggested actions: A list of recommended success plays available for the engagement are displayed. See [View and execute recommended actions for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.md) for details.
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues. The following options are available:-   Suggested actions: A list of recommended success plays available for the engagement are displayed. See [View and execute recommended actions for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.md) for details.
 -   **Search**: The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. You can enter different search keywords and repeat the search and do the following:
     -   Select a source to see search results of that type.
     -   Filter and sort the list of search results.
@@ -226,10 +226,10 @@ The Record Information tab shows overview of the engagement record.
 The Customer timeline tab shows visual display of the Engagement records activities.
 
 </td></tr></tbody>
-</table>-   **[Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)**  
+</table>-   **[Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)**  
 The engagement brief summarizes recent signals across risk, adoption, and market activity for a specific engagement.
--   **[View and execute recommended actions for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.md)**  
+-   **[View and execute recommended actions for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.md)**  
 Open the **Recommendations** panel from an engagement record to review AI-generated success play suggestions and execute or dismiss a recommended play without leaving the engagement context.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

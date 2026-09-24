@@ -2,7 +2,7 @@
 title: Manage an Individual Life Claims case
 description: Review claims in a case to verify the documents, evaluate the claim coverages, determine the claim payment details, and approve the settlement for a claim.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/individual-life-claim-adjuster-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/individual-life-claim-adjuster-tasks.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

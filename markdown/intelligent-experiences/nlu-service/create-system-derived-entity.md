@@ -2,7 +2,7 @@
 title: Create a system-derived entity
 description: Create a custom entity that's derived from a default system entity such as date, time, duration, or location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-system-derived-entity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/create-system-derived-entity.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -18,9 +18,9 @@ Create a custom entity that's derived from a default system entity such as date,
 
 ## Before you begin
 
--   Make sure that the [NLU Workbench plugin, NLU Workbench - Core plugin, NLU Common Model plugin, and Predictive Intelligence plugin are all installed and activated on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md)
--   [Create or use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/creating-models.md) an existing NLU model for Virtual Agent or AI Search.
--   [Create or use an existing intent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-intent.md)
+-   Make sure that the [NLU Workbench plugin, NLU Workbench - Core plugin, NLU Common Model plugin, and Predictive Intelligence plugin are all installed and activated on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/activate-nlu-workbench.md)
+-   [Create or use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/creating-models.md) an existing NLU model for Virtual Agent or AI Search.
+-   [Create or use an existing intent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/create-nlu-intent.md)
 -   Role required: nlu\_editor, nlu\_admin, or admin. The nlu\_editor must be assigned to the model.
 
 ## About this task

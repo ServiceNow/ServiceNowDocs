@@ -2,7 +2,7 @@
 title: Side navigation bar
 description: The side navigation bar provides access to the applications and features integrated with AI Admin Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-side-navigation-bar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-side-navigation-bar.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -110,7 +110,7 @@ Monitor
 The monitor page shows usage, performance, and adoption metrics for your AI solutions.
 
 </td></tr></tbody>
-</table>For more information, see [Using other AI applications and features from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-other-applications.md).
+</table>For more information, see [Using other AI applications and features from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-using-other-applications.md).
 
-**Parent Topic:**[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md)
+**Parent Topic:**[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md)
 

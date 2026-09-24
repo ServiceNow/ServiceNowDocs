@@ -2,7 +2,7 @@
 title: Edit Platform Analytics dashboards
 description: You can edit dashboard and dashboard tab information in the inline editor. If the dashboard has been shared, any changes you make are applied globally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/edit-db-in-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/edit-db-in-ac.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ You can edit dashboard and dashboard tab information in the inline editor. If th
 
 You can edit the details of dashboards created in the inline editor and in the technical editor in the Platform Analytics experience. When you edit elements in dashboards created in the technical editor, you’re redirected to UI Builder.
 
-Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
+Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
 
 ## About this task
 
@@ -75,7 +75,7 @@ To edit the details of a dashboard created in the inline editor:
 \[Omitted image "edit-tech-db-details.png"\] Alt text: Edit in UI builder menu expanded to show Edit dashboard details option
 
 3.  Edit the details of the dashboard and then select **Exit editing mode**.
- For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-db-in-ac.md).
+ For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-db-in-ac.md).
 
 </td></tr><tr><td id="d171058e260">
 
@@ -184,22 +184,22 @@ Specify Hex or RGBA values, or choose from the color picker.
 
 </td><td>
 
-Choose whether and which analytics to show in the **Insights** section.When you select **Show insights panel**, an Insights button is added to the dashboard and the selected analytics options are shown. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/proactive-analytics/proactive-analytics.md).
+Choose whether and which analytics to show in the **Insights** section.When you select **Show insights panel**, an Insights button is added to the dashboard and the selected analytics options are shown. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/proactive-analytics/proactive-analytics.md).
 
 </td></tr></tbody>
 </table>
--   **[Add visual elements to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-elements-to-a-dashboard.md)**  
+-   **[Add visual elements to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-elements-to-a-dashboard.md)**  
 Populate your dashboard with a selection of widgets, including data visualizations and filters.
--   **[Edit in-line Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-elements-in-ac.md)**  
+-   **[Edit in-line Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-db-elements-in-ac.md)**  
 You can edit the contents of a dashboard or dashboard tab, including data visualizations and filters. Because dashboards are shared, any changes you make are applied globally.
--   **[Group dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/group-db-elements.md)**  
+-   **[Group dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/group-db-elements.md)**  
 Improve your layout control and dashboard customization capabilities, by organizing related elements into single visual and logical units. Configure backgrounds and borders according to group.
--   **[Edit a copy of a shared dashboard element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/editing-local-copy-saved-dv.md)**  
+-   **[Edit a copy of a shared dashboard element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/editing-local-copy-saved-dv.md)**  
 To configure a shared element that you added to a dashboard from a library, make a local copy that is not linked to a library. You only have to do this if you do not have permission to edit the version in the library.
--   **[Add images to Platform Analytics dashboard cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-images-db-cards-ac.md)**  
+-   **[Add images to Platform Analytics dashboard cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-images-db-cards-ac.md)**  
 Distinguish the cards in the dashboard overview with uploaded images.
 
-**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: View the initiatives list
 description: View a list of improvement initiatives created for or associated with a process project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/view-initiatives.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/view-initiatives.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -37,5 +37,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 3.  Select the context menu of an initiative to see further details, edit, or remove it.
 
 
-**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/initiatives-from-process-optimization.md)
+**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/initiatives-from-process-optimization.md)
 

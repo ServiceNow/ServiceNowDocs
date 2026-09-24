@@ -2,7 +2,7 @@
 title: Create a supplier document configuration
 description: Create document configurations to define upload schedules, viewer access, and notification settings for documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -83,7 +83,7 @@ When to run
 
 When you want the configuration to run. The choices are:-   **On demand**: The configuration runs when you select **Execute Now** on the Supplier Document Configuration form.
 
-You can use this option to run the configuration immediately without waiting for the other run conditions to be met. For more information, see [Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md).
+You can use this option to run the configuration immediately without waiting for the other run conditions to be met. For more information, see [Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md).
 
 -   **When supplier record inserted**: The configuration runs when a new supplier record is created.
 -   **When supplier record updated**: The configuration runs when an existing supplier record is updated.
@@ -125,7 +125,7 @@ Required from
 
 Specify who must upload the document. The choices are:-   **Anyone**: Requires any one of the supplier contacts to upload the required document. With this option, the supplier contact can upload a document from the Document widget on the My Company page of the Supplier Collaboration Portal.
 
-For more information, see [Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md).
+For more information, see [Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md).
 
 -   **Everyone**: Requires each supplier contact to upload the required document.
 
@@ -136,7 +136,7 @@ With this option, the supplier contact can upload the document from either of th
     -   ****Documents widget on the My Company page
     -   Upload Document task on the My To-dos page
 
-For more information, see [Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md).
+For more information, see [Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md).
 
 </td></tr></tbody>
 </table>6.  Select the **Manage access** tab and fill in the fields.\[Omitted image "supplier-document-config-manage-access.png"\] Alt text: Selected Manage access tab.
@@ -289,7 +289,7 @@ A brief description of the document type.
 12. Select **Submit**.
 
 
-**Parent Topic:**[Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md)
+**Parent Topic:**[Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md)
 
 **Related topics**  
 
@@ -300,7 +300,7 @@ A brief description of the document type.
 
 [Configure document expiration monitoring attributes]()
 
-[Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md)
+[Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md)
 
-[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)
+[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)
 

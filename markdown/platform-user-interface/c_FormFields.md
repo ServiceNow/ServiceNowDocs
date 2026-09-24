@@ -2,7 +2,7 @@
 title: Form fields
 description: A field represents an individual item of data on a record.Indicators are used on some fields to denote a special field type.The AI indicator visually identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_FormFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_FormFields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ A field represents an individual item of data on a record.
 
 Users can view and modify field data on a form. For more detailed information, see [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntroductionToFields.md).
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UsingForms.md)
 
 ## Field status indicators
 

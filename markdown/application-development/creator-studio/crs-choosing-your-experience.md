@@ -2,7 +2,7 @@
 title: Choosing your development experience
 description: If you want to develop apps in a more robust environment than Creator Studio, which was designed for no-code developers, you can select a different experience directly from within Creator Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/crs-choosing-your-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/crs-choosing-your-experience.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -34,7 +34,7 @@ Being able to easily switch between development experiences eliminates the fragm
 
 For example, you can build a basic request app in Creator Studio, and then switch to ServiceNow Studio to add more robust functionality.
 
-For details on switching experiences, see [Change your development experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/crs-change-dev-experience.md).
+For details on switching experiences, see [Change your development experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/crs-change-dev-experience.md).
 
 ## Open an app directly in ServiceNow Studio
 
@@ -50,7 +50,7 @@ All apps that are made and bookmarked in Creator Studio are bookmarked and avail
 
 ## Who can access the studios in the experience switcher
 
-The experience switcher can provide access to Creator Studio, ServiceNow Studio, ServiceNow IDE. However, whether you can see and select all of those depends on your role or access level. For more information, see [Administering access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/crs-experience-switcher-role-access.md).
+The experience switcher can provide access to Creator Studio, ServiceNow Studio, ServiceNow IDE. However, whether you can see and select all of those depends on your role or access level. For more information, see [Administering access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/crs-experience-switcher-role-access.md).
 
 **Note:** In addition to Creator Studio, you must have access to at least one other product \(ServiceNow Studio or ServiceNow IDE\) to see the experience switcher.
 

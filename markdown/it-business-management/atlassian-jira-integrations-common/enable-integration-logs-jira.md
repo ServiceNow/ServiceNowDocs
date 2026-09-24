@@ -2,7 +2,7 @@
 title: Enable detailed project logging in Jira Integration with Agile Development
 description: Understand how to enable integration project logging in Jira so that you can view details of the project logs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/enable-integration-logs-jira.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/atlassian-jira-integrations-common/enable-integration-logs-jira.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common

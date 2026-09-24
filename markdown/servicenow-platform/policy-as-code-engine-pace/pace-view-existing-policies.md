@@ -2,7 +2,7 @@
 title: View existing PaCE policies
 description: You can view a list of all PaCE policies created by you and other policy administrators. The PaCE management console is your gateway to viewing and updating policies, and managing policy versions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-view-existing-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-view-existing-policies.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -30,9 +30,9 @@ Role required: sn\_pace.execution\_reader
 
     On this page, you can do the following:
 
-    -   [Create a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-policy.md)
-    -   [Edit a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-update-policy.md)
-    -   [Delete a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-delete-policy.md)
+    -   [Create a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-create-policy.md)
+    -   [Edit a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-update-policy.md)
+    -   [Delete a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-delete-policy.md)
     The My Policies list displays the following columns.
 
 <table id="table_zyk_fzt_y4b"><thead><tr><th>
@@ -65,11 +65,11 @@ State
 
 </td><td>
 
-The current state of the policy:-   Active: The policy is **Active** and can be used. For details on how to activate a policy, see [Activate or deactivate a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-deactivate-policy.md)
+The current state of the policy:-   Active: The policy is **Active** and can be used. For details on how to activate a policy, see [Activate or deactivate a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-deactivate-policy.md)
 -   Inactive: The policy is **Inactive**, and must be activated before it can be used.
  **Note:** Each policy can only have one Current \(published\) policy version. Only policies that have a Current version can be activated.
 
- See [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.md) for details.
+ See [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.md) for details.
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Category
 
 </td><td>
 
-The category assigned to the policy. Only one category can be assigned to a policy. See [Managing categories in PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-categories.md) for details
+The category assigned to the policy. Only one category can be assigned to a policy. See [Managing categories in PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-categories.md) for details
 
 </td></tr><tr><td>
 

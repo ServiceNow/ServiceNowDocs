@@ -2,7 +2,7 @@
 title: Email templates installed with Facilities Move Management
 description: Email templates allow you to create reusable content for the subject line and message body of email notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_EmailTemplInstallWFacMoveMgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_EmailTemplInstallWFacMoveMgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,5 +20,5 @@ Facilities Move Management adds the following email templates.
 |---------------|-----------|
 |move.del|Notifies delegators to assign seats for an enterprise move.|
 
-**Parent Topic:**[Installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacMoveMgmt.md)
+**Parent Topic:**[Installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacMoveMgmt.md)
 

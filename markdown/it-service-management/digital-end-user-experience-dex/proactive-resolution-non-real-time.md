@@ -2,7 +2,7 @@
 title: Non-real-time proactive resolution
 description: Use reports, dashboards, and scheduled jobs to periodically detect and remediate device issues that require aggregated or configuration data, such as system compliance, battery health, and DEX Score trends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/proactive-resolution-non-real-time.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/proactive-resolution-non-real-time.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -37,7 +37,7 @@ DEX provides in-product reports and dashboards for manual detection, and support
 
 -   **Manual remediation**
 
-    After identifying affected devices through reports or dashboards, trigger bulk remediation directly from an insights report to remediate multiple devices in a single action. For cases that require additional logic, use custom flows. For the bulk remediation procedure, see [Trigger bulk remediation from Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/trigger-bulk-remediation-insights.md).
+    After identifying affected devices through reports or dashboards, trigger bulk remediation directly from an insights report to remediate multiple devices in a single action. For cases that require additional logic, use custom flows. For the bulk remediation procedure, see [Trigger bulk remediation from Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/trigger-bulk-remediation-insights.md).
 
 -   **Automated remediation**
 

@@ -2,7 +2,7 @@
 title: Customize the left pane view for financials
 description: Customize the left pane for financials to view custom field information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/customize-fin-left-pane.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/customize-fin-left-pane.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

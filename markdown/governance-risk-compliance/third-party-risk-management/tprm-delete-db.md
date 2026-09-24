@@ -2,7 +2,7 @@
 title: Delete a TPRM dashboard
 description: You can delete a dashboard that is no longer useful. The Analytics Overview invokes the Workflow Studio to remove the dashboard from your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-delete-db.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-delete-db.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

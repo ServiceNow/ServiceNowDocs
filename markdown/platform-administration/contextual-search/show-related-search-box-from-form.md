@@ -2,7 +2,7 @@
 title: Show the related search box in a form
 description: Enable agents to search for related content without having to modify the text in the Short description field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/show-related-search-box-from-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/contextual-search/show-related-search-box-from-form.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -37,5 +37,5 @@ Starting in the London release, the related search box is available in forms by 
 4.  Select and hold \(or right-click\) the header form and select **Save**.
 
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/working-with-contextual-search.md)
 

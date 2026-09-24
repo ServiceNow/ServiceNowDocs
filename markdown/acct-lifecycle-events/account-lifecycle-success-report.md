@@ -2,7 +2,7 @@
 title: Success report dashboard
 description: Get an overall view of all your engagement and team status overview, risk indicators, onboarding and adoption insights, and expansion and renewal metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-success-report.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ To view this page, follow these steps:
 
 **Note:**
 
--   The engagements listed on the success report dashboard are based on the hierarchy of the logged in user. Users with the **sn\_acct\_lc.success\_manager** role can see an aggregate view of all engagements handled by all customer success managers in the hierarchy. Users with the **sn\_acct\_lc\_customer\_success\_agent** role can see an aggregate view of all their assigned engagements. For more details, see [Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-report-overview.md).
+-   The engagements listed on the success report dashboard are based on the hierarchy of the logged in user. Users with the **sn\_acct\_lc.success\_manager** role can see an aggregate view of all engagements handled by all customer success managers in the hierarchy. Users with the **sn\_acct\_lc\_customer\_success\_agent** role can see an aggregate view of all their assigned engagements. For more details, see [Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-success-report-overview.md).
 -   Select filters from the following drop down lists and select **Apply** to narrow the list of engagements displayed:
     -   Contract values: Select one or more contract values from the drop down list. The local currency is automatically selected based on your system settings. The contract value ranges are defined in the following properties in the **TechOnbConstants** script include:
         -   TechOnbConstants.CONTRACT\_VALUES\_ID
@@ -73,7 +73,7 @@ This tab shows the current customer adoption status. It includes the following d
 -   Engagements with no success objectives: Engagements for which no success objectives have been defined.
 -   Engagements with &gt;80% objective completion: List of engagements for which more than 80% of the success objectives have been completed.
 -   Success objective progress: Success objectives grouped by state such as new, on-track, at risk, completed, and so on.
--   Engagements with low adoption score products: List of products with a low adoption score and the associated customer and business priority. See [Product adoption and capability usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-product-adopt.md) for details.
+-   Engagements with low adoption score products: List of products with a low adoption score and the associated customer and business priority. See [Product adoption and capability usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-product-adopt.md) for details.
 
 ## Renewal
 
@@ -99,5 +99,5 @@ This tab shows the renewal details for all contracts associated with the engagem
 -   Engagements with lost contracts: List of engagements with contracts that were rejected or not renewed.
 -   YTD total contract value by month: Monthly breakdown of total contract value, year-to-date.
 
-**Parent Topic:**[Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-report-overview.md)
+**Parent Topic:**[Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-success-report-overview.md)
 

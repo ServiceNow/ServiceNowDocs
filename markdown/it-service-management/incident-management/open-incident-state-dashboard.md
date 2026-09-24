@@ -2,7 +2,7 @@
 title: Legacy: Open Incident State Monitor dashboard
 description: View average age and number of reassignments and breakdown incidents in the New, In Progress, and On Hold states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/open-incident-state-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/open-incident-state-dashboard.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -18,7 +18,7 @@ View average age and number of reassignments and breakdown incidents in the New,
 
 **Important:**
 
-Starting in Xanadu release, the Open Incident State Monitor dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the average age and number of reassignments and breakdown incidents in the New, In Progress, and On Hold states.
+Starting in Xanadu release, the Open Incident State Monitor dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident.md) to view the average age and number of reassignments and breakdown incidents in the New, In Progress, and On Hold states.
 
 \[Omitted image "open-incident-state-monitor.png"\] Alt text: Open Incident State Monitor workbench widget
 
@@ -65,5 +65,5 @@ The following indicators are not shown directly on the dashboard but are used in
 -   Assignment Group
 -   State
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-content-pack.md)
 

@@ -2,7 +2,7 @@
 title: Email a community user
 description: Send a private message to a community user directly from the community.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/private-message-community-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/private-message-community-user.html
 release: australia
 product: Communities
 classification: communities
@@ -37,7 +37,7 @@ Uses for private messaging can include warning a user about use of a banned word
     **Note:** The email opens in your local email client.
 
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

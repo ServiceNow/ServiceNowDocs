@@ -2,7 +2,7 @@
 title: General guidelines UI generation
 description: Use these general guidelines for UI generation to get better experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/general-guidelines-ui-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/general-guidelines-ui-generation.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -102,5 +102,5 @@ Includes Grouped by details.
     Validate the experience by running it against test cases in controlled environments to ensure that it functions according to your requirements.
 
 
-**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/exploring-ui-generation.md)
 

@@ -2,7 +2,7 @@
 title: Troubleshooting issues of Azure DevOps integration with SAFe
 description: Resolve common issues that you might face while working with the integration of Azure DevOps and SAFe.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/troubleshooting-issues-of-azure-devops-integration-with-safe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/microsoft-azure-devops-integrations-comm/troubleshooting-issues-of-azure-devops-integration-with-safe.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -72,5 +72,5 @@ Features can be linked to the PI but not with the sprints, as it's not supported
 </table>**Related topics**  
 
 
-[Troubleshooting issues for Azure DevOps integration with Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/troubleshooting-issues-agile-azure-int.md)
+[Troubleshooting issues for Azure DevOps integration with Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/troubleshooting-issues-agile-azure-int.md)
 

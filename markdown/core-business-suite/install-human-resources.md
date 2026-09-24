@@ -2,7 +2,7 @@
 title: Install Human Resources
 description: Install Human Resources to configure its settings and requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/install-human-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/install-human-resources.html
 release: australia
 topic_type: task
 last_updated: "2026-04-02"
@@ -34,17 +34,17 @@ Role required: admin
 
 5.  Select **Apply default configurations**.
 
-    Applying default configurations sets the required default settings for the Human Resources. For information about default configurations, see [Human Resources default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/hr-default-configurations.md).
+    Applying default configurations sets the required default settings for the Human Resources. For information about default configurations, see [Human Resources default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/hr-default-configurations.md).
 
-    If the default configurations aren’t applied, run the script to apply them. For more information, see [Reapply the default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/reset-default-configurations.md).
+    If the default configurations aren’t applied, run the script to apply them. For more information, see [Reapply the default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/reset-default-configurations.md).
 
 
 ## Result
 
 The installed Human Resources business unit appears in the ready to configure section.
 
--   **[Human Resources default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/hr-default-configurations.md)**  
+-   **[Human Resources default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/hr-default-configurations.md)**  
 Details of the default configurations for Human Resources.
 
-**Parent Topic:**[Install Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/install-cbs-apps.md)
+**Parent Topic:**[Install Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/install-cbs-apps.md)
 

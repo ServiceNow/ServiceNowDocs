@@ -2,12 +2,12 @@
 title: Configure observability agents for ServiceNow Otto
 description: Configure observability agents for third-party application performance monitoring \(APM\) or network performance monitoring \(NPM\) vendors. These agents are invoked by the analyze alert impact agentic workflow. You must configure connections to those vendors before they can be invoked.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-integration-agents-for-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/configure-integration-agents-for-now-assist.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-27"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Google Gemini Cloud Assist agent, Google Gemini Cloud Assist skill]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Google Gemini Cloud Assist agent, Google Gemini Cloud Assist skill]
 breadcrumb: [Configure, ITOM AIOps, IT Operations Management]
 ---
 
@@ -417,7 +417,7 @@ Required Dynatrace Intelligence settings
 </td></tr></tbody>
 </table>## Google Cloud
 
-**Note:** Before configuring this connection, create a keystore file by following the steps in .
+**Note:** Before configuring this connection, create a keystore file by following the steps in [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-google-translator.md).
 
 <table id="table_iqq_xqz_1kc"><thead><tr><th>
 
@@ -1076,7 +1076,7 @@ For Splunk token generation:
     Your connection appears in the **Connections** tab.
 
 
-The agents are now ready to be used by the [analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/now-assist-itom-agentic-aia.md)
+The agents are now ready to be used by the [analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/now-assist-itom-agentic-aia.md)
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-sow-itom.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-sow-itom.md)
 

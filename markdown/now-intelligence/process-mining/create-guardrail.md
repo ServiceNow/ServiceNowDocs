@@ -2,7 +2,7 @@
 title: Create a table-level guardrail
 description: Define a mandatory filter condition for a table to prevent projects from being configured in ways that consume more mining capacity than necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/create-guardrail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/create-guardrail.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -49,5 +49,5 @@ You can define one mandatory filter condition per table \(for example, "only cas
 
 Every new project built on this table automatically includes this condition. The condition appears in a locked Guardrails section during project setup. Users can add their own filters on top, but can't edit or remove the guardrail.
 
-**Parent Topic:**[Meter-based guardrails and controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/meter-based-guardrails.md)
+**Parent Topic:**[Meter-based guardrails and controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/meter-based-guardrails.md)
 

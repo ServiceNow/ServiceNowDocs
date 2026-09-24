@@ -2,7 +2,7 @@
 title: Copy a flow or subflow in Oracle Financial Cloud
 description: You can create a copy of the a flow or subflow and make the necessary modifications. Use the following steps to activate a flow or subflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/copy-flow-subflow-oracle-fin-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/copy-flow-subflow-oracle-fin-cloud.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -45,7 +45,7 @@ Role required: sn\_fcms\_intg.integration\_user
     **Note:**
 
     -   Don't modify the trigger condition.
-    -   Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md)
+    -   Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md)
 7.  Select **Done**.
 
 8.  Select **Publish** to publish the subflow.

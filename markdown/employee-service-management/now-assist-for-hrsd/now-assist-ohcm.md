@@ -2,7 +2,7 @@
 title: ServiceNow Otto for HRSD Virtual Agent topics
 description: Use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -106,5 +106,5 @@ You can update personal details in Virtual Agent using one of the following topi
 -   Update Email Address
 -   Update Phone Number
 
-**Parent Topic:**[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/integ-now-assist-hrsd.md)
+**Parent Topic:**[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/integ-now-assist-hrsd.md)
 

@@ -2,7 +2,7 @@
 title: Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD
 description: The Help resolve tuition requests agentic workflow evaluates employee-submitted course information against company tuition policies found in knowledge articles to help employees understand whether their proposed course meets reimbursement requirements and directs them through the pre-approval flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -21,17 +21,17 @@ The Help resolve tuition requests agentic workflow evaluates employee-submitted 
 
 The Help resolve tuition requests agentic workflow streamlines the tuition pre-approval process by evaluating the course information an employee submits against company policies found in knowledge articles.
 
-**Note:** This agentic workflow is designed for employees to receive pre-approval before enrolling in a course. The [Help resolve tuition requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.md) agentic workflow helps employees request reimbursement for pre-approved and completed courses.
+**Note:** This agentic workflow is designed for employees to receive pre-approval before enrolling in a course. The [Help resolve tuition requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.md) agentic workflow helps employees request reimbursement for pre-approved and completed courses.
 
 To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 2.  Select **Agentic workflows** &gt; **Help resolve tuition requests**.
 
-    The Define key requirements workflow is displayed. For more information, see [Help resolve tuition requests AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
+    The Define key requirements workflow is displayed. For more information, see [Help resolve tuition requests AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
 
-3.  Select **Add a preferred trigger** to review the trigger factors for this agentic workflow. For more information, see [Triggers for the Help resolve tuition requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
-4.  The **Select a UI display** option enables the ServiceNow Otto panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
+3.  Select **Add a preferred trigger** to review the trigger factors for this agentic workflow. For more information, see [Triggers for the Help resolve tuition requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
+4.  The **Select a UI display** option enables the ServiceNow Otto panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
 
 ## Help resolve tuition requests AI agents
 

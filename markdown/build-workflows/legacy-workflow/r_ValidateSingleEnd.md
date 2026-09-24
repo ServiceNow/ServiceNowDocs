@@ -2,7 +2,7 @@
 title: ValidateSingleEnd
 description: The ValidateSingleEnd validator finds and identifies multiple End activities in a single workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/r\_ValidateSingleEnd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/r\_ValidateSingleEnd.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -45,5 +45,5 @@ The next example has multiple **End** activities in execution paths that are not
 
 **Note:** To add the second **End**, right-click to copy the original **End** activity and paste it onto the canvas. In most cases, a single **End** is the best and most reliable way to ensure that all activities expected to execute prior to workflow completion, do so successfully.
 
-**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/r_WorkflowValidator.md)
 

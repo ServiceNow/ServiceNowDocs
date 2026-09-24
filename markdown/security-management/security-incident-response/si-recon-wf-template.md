@@ -2,7 +2,7 @@
 title: Security Incident Reconnaissance workflow template
 description: Reconnaissance is usually a preliminary step toward a further attack seeking to exploit a device or system. The Security Incident - Reconnaissance - Template allows you to perform a series of tasks designed to handle reconnaissance on your network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/si-recon-wf-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/si-recon-wf-template.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -28,7 +28,7 @@ The workflow is triggered when the **Category** in a security incident is set to
 
 ## Procedure
 
-1.  Open the security incident for this potential attack, or [create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
+1.  Open the security incident for this potential attack, or [create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
 
 2.  In **Category**, select **Reconnaissance activity**.
 
@@ -136,7 +136,7 @@ When this task is complete, the flow ends.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-orch-workflow-templates.md)
+**Parent Topic:**[Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-orch-workflow-templates.md)
 
 **Related topics**  
 

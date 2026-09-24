@@ -2,7 +2,7 @@
 title: Dial visualization example
 description: Dial visualizations show where a single value lies across a range from minimum to maximum expected values. Visually, a "needle" points to the value, and the dial is colored in for values up to the needle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-dial.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-example-dial.html
 release: australia
 topic_type: task
 last_updated: "2026-03-23"
@@ -16,7 +16,7 @@ Dial visualizations show where a single value lies across a range from minimum t
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -24,7 +24,7 @@ Use the dial visualization when you want to compare a current value to a target 
 
 ## Procedure
 
-1.  Follow the first steps to [Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-dial-ac.md):
+1.  Follow the first steps to [Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-dial-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -125,5 +125,5 @@ Use the dial visualization when you want to compare a current value to a target 
 
 You have created a dial visualization based on a single metric, open incidents. You have also configured user options regarding filters and drilldowns, and configured the visualization's size and coloring rules.
 
-**Parent Topic:**[Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-dial-ac.md)
+**Parent Topic:**[Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-dial-ac.md)
 

@@ -2,7 +2,7 @@
 title: Rebuilding existing playbooks in Workflow Studio
 description: You can’t convert existing flows directly into playbooks in Workflow Studio. Each flow designer step that creates a response task to guide the analyst must be broken down into separate actions or subflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/rebuilding-existing-playbooks-on-pad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/rebuilding-existing-playbooks-on-pad.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +25,7 @@ For more information, refer to the following sections.
 -   [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/activity-definitions.md)
 -   [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md)
 
-**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 

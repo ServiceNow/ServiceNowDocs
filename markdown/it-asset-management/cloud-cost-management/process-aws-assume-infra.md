@@ -2,7 +2,7 @@
 title: Processing AWS billing jobs with Assume role authentication
 description: Use the Cloud Cost Management Infra Stack application to process and download the AWS billing files with Assume role authentication at a better speed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/process-aws-assume-infra.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/process-aws-assume-infra.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

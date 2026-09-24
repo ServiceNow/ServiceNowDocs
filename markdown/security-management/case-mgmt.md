@@ -2,7 +2,7 @@
 title: Security Case Management
 description: Security Case Management provides a means for security analysts who are engaged in threat hunting to gather information on suspicious activity in their environment. Case-related records, such as security incidents, observables, CIs, and affected users can be added to cases to accommodate broad and specific analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/case-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/case-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -50,6 +50,6 @@ You can also select a record and click the **Annotate** button for a case-relate
 
 Other tools the analyst can use for examining cases include:
 
--   [Run a sightings search on observables in a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/run-local-sighted-srch.md)
--   [Search for security artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/search-for-artifacts.md)
+-   [Run a sightings search on observables in a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/run-local-sighted-srch.md)
+-   [Search for security artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/search-for-artifacts.md)
 

@@ -2,7 +2,7 @@
 title: Connect to your Field Service data
 description: Connect the Now Mobile Agent application to your Field Service application instance to manage work on your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/install-fsm-mobile-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/install-fsm-mobile-app.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

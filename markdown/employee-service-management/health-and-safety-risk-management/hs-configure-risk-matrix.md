@@ -2,7 +2,7 @@
 title: Configure a safety risk matrix
 description: Configure a safety risk matrix to define levels of risk using likelihood vs severity and to define risk tolerances.​ You can review and modify the risk matrixes available with the application or add new ones for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-configure-risk-matrix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-configure-risk-matrix.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -26,7 +26,7 @@ This video shows an example of how to set up a 3x3 risk matrix and explains its 
 
 \[Omitted video\] Description: Risk matrix configuration video. Approximately one minutes thirty four seconds long.
 
-The pre-defined risk matrixes can be used by safety team members to create and conduct risk assessments in the Health and Safety Workspace. The selected matrix is used by the risk assessment to evaluate the level of risk. For more information, see [Conduct a safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-conduct-risk-assessment.md).
+The pre-defined risk matrixes can be used by safety team members to create and conduct risk assessments in the Health and Safety Workspace. The selected matrix is used by the risk assessment to evaluate the level of risk. For more information, see [Conduct a safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-conduct-risk-assessment.md).
 
 ## Procedure
 
@@ -48,7 +48,7 @@ The pre-defined risk matrixes can be used by safety team members to create and c
 
     3.  Configure your risk tolerance levels.​
 
-    For more information about field descriptions, see [Risk matrix form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-matrix-form.md).
+    For more information about field descriptions, see [Risk matrix form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-risk-matrix-form.md).
 
 6.  In the **Risk matrix preview** section, preview a visual representation of the configured risk matrix.
 
@@ -66,5 +66,5 @@ The pre-defined risk matrixes can be used by safety team members to create and c
 
 \[Omitted image "hs-risk-matrix-example.png"\] Alt text: An example 5\*5 risk matrix showing likelihood and severity values, risk tolerance levels, and the heatmap of the risk matrix.
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

@@ -2,7 +2,7 @@
 title: Example of adding a panel to an existing overview help page
 description: This example adds panels to the existing overview help page that display only for users with specific roles and when a specific plugin is activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/example-add-slide-to-existing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/example-add-slide-to-existing-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -71,5 +71,5 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
     The image you selected for your custom panel appears with the title and description you defined.
 
 
-**Parent Topic:**[Overview help pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/overview-help-pages.md)
+**Parent Topic:**[Overview help pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/overview-help-pages.md)
 

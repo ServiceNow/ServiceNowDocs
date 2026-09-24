@@ -2,7 +2,7 @@
 title: Client scripts installed with Facilities Move Management
 description: Client scripts define custom behaviors that run when events occur like when a form is loaded or submitted, or a cell changes value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_CScriptsInstallWFacMoveMgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_CScriptsInstallWFacMoveMgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -233,5 +233,5 @@ Move Request\[move\_request\]
 Warn the user that the selected **from location** is a \(cmn\_location\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacMoveMgmt.md)
+</table>**Parent Topic:**[Installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacMoveMgmt.md)
 

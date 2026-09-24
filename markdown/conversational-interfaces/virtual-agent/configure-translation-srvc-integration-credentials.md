@@ -2,7 +2,7 @@
 title: Configure Dynamic Translation service integration credentials
 description: Configure the credential and connection for your translation service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-translation-srvc-integration-credentials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-translation-srvc-integration-credentials.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +20,7 @@ Configure the credential and connection for your translation service.
 
 **Note:** The following content is only relevant to NLU conversations and live agent LLM conversations that use Dynamic Translation for Agent Chat.
 
-Complete the [prerequisites for using Dynamic Translation in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prereq-using-dt-va.md).
+Complete the [prerequisites for using Dynamic Translation in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/prereq-using-dt-va.md).
 
 Role required: admin
 
@@ -41,7 +41,7 @@ Role required: admin
 
 ## What to do next
 
-[Activate your translation service in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-dt-translation-service.md)
+[Activate your translation service in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/activate-dt-translation-service.md)
 
-**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

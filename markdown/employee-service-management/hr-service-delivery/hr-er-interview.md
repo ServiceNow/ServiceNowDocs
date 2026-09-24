@@ -2,7 +2,7 @@
 title: Schedule an interview in Employee Relations using the legacy UI
 description: Documenting interviews is crucial to ER cases. Use the Interview form to take notes and capture important details of the ER case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-interview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-er-interview.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -62,7 +62,7 @@ Interviewee
 
 </td><td>
 
-Name of the person who you are interviewing.Select the **Lookup using list** icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and search for the person you are interviewing. If no names appear, you can select **New** and create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
+Name of the person who you are interviewing.Select the **Lookup using list** icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and search for the person you are interviewing. If no names appear, you can select **New** and create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Scheduling method
 
 The method you are using to schedule the interview. If your company only uses the manual method of scheduling, **Manual entry** appears and cannot be edited.
 
- If your company uses the integration with Microsoft Outlook Calendar to schedule, **Calendar** appears. For more information, see [Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-interview-management.md).
+ If your company uses the integration with Microsoft Outlook Calendar to schedule, **Calendar** appears. For more information, see [Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-interview-management.md).
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Notes from the interview or you can enter the answers to the questions from the 
 </td></tr></tbody>
 </table>6.  Select the **Questions** button at the top, right corner to view, and select questions from an interview template.
 
-    Interview templates ensure consistency and efficiency when conducting interviews. For more information, see [Create an interview question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
+    Interview templates ensure consistency and efficiency when conducting interviews. For more information, see [Create an interview question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 7.  If an interview template appears, select it and you can select **Copy to clipboard** or **Insert to notes**.
 
@@ -171,6 +171,6 @@ Notes from the interview or you can enter the answers to the questions from the 
 
 8.  Select **Save** or **Submit**.
 
-    If you select **Save**, the Evidence related list appears. For more information, see [Evidence Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.md).
+    If you select **Save**, the Evidence related list appears. For more information, see [Evidence Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.md).
 
 

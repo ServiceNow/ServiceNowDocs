@@ -2,7 +2,7 @@
 title: Configuring the Strategic Portfolio Management integration
 description: Configure the Strategic Portfolio Management integration so that order delivery tasks in Order Management can be tracked as planned project tasks in SPM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-spm-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-spm-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Install the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. If you're 
 
 </td></tr><tr><td>
 
-[Create project templates and project template tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-project-templates-orders.md)
+[Create project templates and project template tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/creating-project-templates-orders.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Use the Project Portfolio Management application to create the project templates
 
 </td></tr><tr><td>
 
-[Configure field mapping between orders and projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-project-table-mapping.md)
+[Configure field mapping between orders and projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-project-table-mapping.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Configure the CSM table maps to associate fields in order lines, domain orders, 
 
 </td></tr><tr><td>
 
-[Set up project oversight conditions and decision rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setting-up-project-oversight.md)
+[Set up project oversight conditions and decision rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/setting-up-project-oversight.md)
 
 </td><td>
 
@@ -60,7 +60,7 @@ Configure the conditions and decision rules for determining the order lines, dom
 
 </td></tr><tr><td>
 
-[Control the automatic closure of project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/control-auto-closure-proj-tasks.md)
+[Control the automatic closure of project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/control-auto-closure-proj-tasks.md)
 
 </td><td>
 

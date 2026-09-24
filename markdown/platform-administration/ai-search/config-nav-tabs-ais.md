@@ -2,7 +2,7 @@
 title: Configure source facet buckets in an AI Search application configuration
 description: Define settings for source facet buckets in a search application configuration. Users of the application can select source facet buckets to refine their search query results by search source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/config-nav-tabs-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/config-nav-tabs-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -36,7 +36,7 @@ Use this procedure to configure display settings for source facet buckets in you
 
 4.  On the Source Facet Bucket form, fill in the fields.
 
-    For a description of the field values, see [Source Facet Bucket form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/navigation-tab-form-ais.md).
+    For a description of the field values, see [Source Facet Bucket form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/navigation-tab-form-ais.md).
 
 5.  Select **Update**.
 
@@ -45,5 +45,5 @@ Use this procedure to configure display settings for source facet buckets in you
 
 The source facet bucket appears with updated settings in the Source Facet Buckets related list.
 
-**Parent Topic:**[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
+**Parent Topic:**[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
 

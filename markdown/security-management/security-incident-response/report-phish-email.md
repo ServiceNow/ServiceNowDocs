@@ -2,7 +2,7 @@
 title: Report Phish Email
 description: Report phishing emails from the lists view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/report-phish-email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/report-phish-email.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -47,7 +47,7 @@ Role required: sn\_si.analyst
     The phishing email to log a security incident is created.
 
 
-**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Simplified Navigation
 description: Simplified navigation helps you design and configure an intuitive navigation experience and enrich information architecture and topic discovery experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/simple-portal-navigation-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/simple-portal-navigation-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +27,7 @@ Using the simplified navigation, you can design the primary navigation menu and 
 
 You can configure the simplified navigation in the following steps:
 
--   Streamline navigation setup from [Advanced Portal Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/adv-portal-navigation-overview.md) by creating a record.
+-   Streamline navigation setup from [Advanced Portal Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/adv-portal-navigation-overview.md) by creating a record.
 -   Select side navigation style and a set of predefined icons for consistency and usability.
 
 **Note:** Migrating your existing navigation structure to simplified left navigation is easy.
@@ -53,5 +53,5 @@ Use some of the following guidance and tips.
     **Note:** For top navigation option, sync supports up to three levels of sub-navigation.
 
 
-For configuration steps, see [Configure simplified left navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-simplified-nav-as-menu.md).
+For configuration steps, see [Configure simplified left navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-simplified-nav-as-menu.md).
 

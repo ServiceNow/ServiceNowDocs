@@ -2,7 +2,7 @@
 title: Using Firewall Audits and Reporting
 description: Firewall Audits and Reporting is a powerful application for requesting new firewall rules, streamlining the management of IP addresses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/firewall-audit-report-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/firewall-audit-report-use.html
 release: australia
 product: Discovery
 classification: discovery
@@ -16,10 +16,10 @@ breadcrumb: [Firewall Audits and Reporting, ITOM Visibility, IT Operations Manag
 
 Firewall Audits and Reporting is a powerful application for requesting new firewall rules, streamlining the management of IP addresses.
 
--   **[Firewall rule requests using agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md)**  
+-   **[Firewall rule requests using agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md)**  
 The Firewall Management Task Creation agentic workflow provides a path to request one or more firewall rules through natural language prompts in the ServiceNow Otto panel.
--   **[Firewall rule requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-requests.md)**  
+-   **[Firewall rule requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-requests.md)**  
 Use Service Catalog to request new firewall policies and rules.
 
-**Parent Topic:**[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-reporting.md)
+**Parent Topic:**[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-audit-reporting.md)
 

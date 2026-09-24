@@ -2,7 +2,7 @@
 title: Create an assignment rule
 description: Create an assignment rule to automatically assign an Operational Technology \(OT\) incident to a group or user according to one or more conditions in the assignment rule. You use assignment rules to run at the time that you open an OT incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/create-assignment-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/create-assignment-rule.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Assignment rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/assignment-rule-form-ot-inc.md).
+    For a description of the field values, see [Assignment rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/assignment-rule-form-ot-inc.md).
 
 4.  Select **Submit**.
 
@@ -37,5 +37,5 @@ Role required: admin
 
 For more information about assignment rules, see [Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DefineAssignmentRules.md).
 
-**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
+**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
 

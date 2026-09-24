@@ -2,7 +2,7 @@
 title: Targeted communications
 description: The Targeted Communications application provides the ability to create and send articles and emails to internal and external customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_TargetedCommunications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_TargetedCommunications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ The process of publishing articles is based on workflows and two default workflo
 
 Customer contacts and consumers can view publications by logging in to the Customer Service Portal or the Consumer Service Portal and clicking the **Publications** link in the portal header. Employees can view these publications by navigating to **Targeted Communications** &gt; **Publications** in the application navigator.
 
-**Note:** For more info see, [Components installed with additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/inst-wi-cust-serv-addtl-plugins.md)
+**Note:** For more info see, [Components installed with additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/inst-wi-cust-serv-addtl-plugins.md)
 
 ## Publication article stages
 
@@ -91,5 +91,5 @@ If customers have customized the legacy workflows, a fix script deactivates the 
 
 **Note:** The new flows are only activated if the legacy workflows have not been customized.
 
-For more information, see [Targeted communications publication workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/targeted-comm-publication-workflows.md).
+For more information, see [Targeted communications publication workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/targeted-comm-publication-workflows.md).
 

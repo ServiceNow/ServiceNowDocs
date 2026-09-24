@@ -2,7 +2,7 @@
 title: Working with callback requests using Virtual Agent
 description: As a customer, you can request a callback from a customer service agent through a Virtual Agent conversation. You can request an immediate voice callback or schedule a voice or video callback that you can reschedule or cancel.Request an immediate voice callback or schedule a voice or video callback from a Virtual Agent chat on the ServiceNow portal.Reschedule a callback from a Virtual Agent chat on the ServiceNow portal.Cancel a callback from a Virtual Agent chat on the ServiceNow portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/request-callback-from-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/request-callback-from-virtual-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,15 +44,15 @@ You can request an immediate callback only for a voice channel. Use the **Schedu
 
 6.  Select whether to receive an immediate voice callback from an agent or schedule a voice or video callback for later.
 
-<table id="choicetable_x1h_2hr_2wb"><thead><tr><th align="left" id="d91055e181">
+<table id="choicetable_x1h_2hr_2wb"><thead><tr><th align="left" id="d91059e181">
 
 Type of callback
 
-</th><th align="left" id="d91055e184">
+</th><th align="left" id="d91059e184">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d91055e190">
+</th></tr></thead><tbody><tr><td id="d91059e190">
 
 **Immediate voice callback**
 
@@ -60,7 +60,7 @@ Action
 
 Select **Right now**.
 
-</td></tr><tr><td id="d91055e202">
+</td></tr><tr><td id="d91059e202">
 
 **Scheduled voice or video callback**
 

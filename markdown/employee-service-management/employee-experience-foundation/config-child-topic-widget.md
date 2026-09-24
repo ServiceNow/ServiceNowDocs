@@ -2,7 +2,7 @@
 title: Modify the sub-topics widget display
 description: The sub-topics widget displays all the child topics associated with the parent topic in your taxonomy. Click the child topic to open the page for the child topic. You can configure the instance options to show or hide the topic icons for the child topics in the widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-child-topic-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-child-topic-widget.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,5 +43,5 @@ Role required: sp\_admin or admin
 5.  Click **Save**.
 
 
-**Parent Topic:**[Employee Center browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
+**Parent Topic:**[Employee Center browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
 

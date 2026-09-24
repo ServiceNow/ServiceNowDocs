@@ -2,7 +2,7 @@
 title: Enable service maps using service meshes
 description: Enable application service maps based on the traffic between the workloads in Kubernetes by using Istio or Linkerd or service meshes as part of Kubernetes Visibility Agent \(KVA\) installation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-service-maps-using-service-mesh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/create-service-maps-using-service-mesh.html
 release: australia
 product: Discovery
 classification: discovery
@@ -24,7 +24,7 @@ Role required: discovery\_admin.
 
 ## About this task
 
-If you use a service mesh, a pod running on every node \(Informer\) communicates with a Prometheus server to get the traffic information. For more information, see [Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
+If you use a service mesh, a pod running on every node \(Informer\) communicates with a Prometheus server to get the traffic information. For more information, see [Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-deploy-install.md)
 
 ## Procedure
 
@@ -83,7 +83,7 @@ kubectl apply -f k8s_informer.yaml
 </table>
 ## What to do next
 
-[Create application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-an-app-service-map-kva.md)
+[Create application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-an-app-service-map-kva.md)
 
-**Parent Topic:**[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enabling-application-service-maps.md)
+**Parent Topic:**[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/enabling-application-service-maps.md)
 

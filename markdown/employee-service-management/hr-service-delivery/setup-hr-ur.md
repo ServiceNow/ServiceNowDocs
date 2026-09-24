@@ -2,7 +2,7 @@
 title: Custom configurations in Universal Request
 description: Transferring and state mappings are preconfigured for all the base system HR states. Do these configurations only when you have a custom state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/setup-hr-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/setup-hr-ur.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-If you have created COEs \(Center of Excellence\), then create service configurations, state mappings, and transfer configurations as well. In case you have activated the Predictive Intelligence plugin, configure the service assignment groups by referring to [Train the classification solution to predict the assignment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/train-ur-classification-soln.md).
+If you have created COEs \(Center of Excellence\), then create service configurations, state mappings, and transfer configurations as well. In case you have activated the Predictive Intelligence plugin, configure the service assignment groups by referring to [Train the classification solution to predict the assignment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/train-ur-classification-soln.md).
 
 ## Procedure
 
@@ -55,5 +55,5 @@ If you have created COEs \(Center of Excellence\), then create service configura
     \[Omitted image "setup-hr-ur7.png"\] Alt text: Create record producers specific to HR.
 
 
-**Parent Topic:**[Universal Request for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/universal-request-hr.md)
+**Parent Topic:**[Universal Request for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/universal-request-hr.md)
 

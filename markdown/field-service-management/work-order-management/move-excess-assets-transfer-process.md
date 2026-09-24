@@ -2,7 +2,7 @@
 title: Move excess assets through the transfer process from a mobile device
 description: Move your excess consumable parts from your stockroom to the drop-off list by using the ServiceNow Agent application on your mobile device. You can generate transfer orders to move these items to the stockroom where it must be dropped off.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/move-excess-assets-transfer-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/move-excess-assets-transfer-process.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -90,7 +90,7 @@ A new transfer order line is created.
 
 -   If a transfer order for the drop-off location doesn’t exist, a new transfer order is created and the transfer order line is added to that transfer order.
 
-For more information on asset transfers, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-transfer-order-line-task.md).
+For more information on asset transfers, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/create-transfer-order-line-task.md).
 
 ## What to do next
 

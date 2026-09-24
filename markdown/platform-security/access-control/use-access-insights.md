@@ -2,7 +2,7 @@
 title: Using Access Insights
 description: Use Access Insights to understand users' peer-level access to a selected resource.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/use-access-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/use-access-insights.html
 release: australia
 product: Access Control
 classification: access-control
@@ -20,7 +20,7 @@ Use Access Insights to understand users' peer-level access to a selected resourc
 
 Role required: access\_analyzer\_admin
 
-**Note:** To view the details of though Access Insights feature, you must use the [Compare user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/comparing-access-controls.md) feature.
+**Note:** To view the details of though Access Insights feature, you must use the [Compare user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/comparing-access-controls.md) feature.
 
 The following procedure describes the steps for viewing the peer level role or group assignment statistics within the Access Insights feature.
 

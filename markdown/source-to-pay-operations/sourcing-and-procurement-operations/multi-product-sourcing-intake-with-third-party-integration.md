@@ -2,7 +2,7 @@
 title: Submit multi-product sourcing requests
 description: Requesters can submit sourcing requests with multiple products in a single sourcing intake form. When a sourcing request form contains multiple products, the third-party sourcing solution automatically creates individual sourcing events for each product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/multi-product-sourcing-intake-with-third-party-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/multi-product-sourcing-intake-with-third-party-integration.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -83,5 +83,5 @@ When a requester submits a sourcing intake form with multiple products, the thir
 
 Multiple sourcing requests are created and linked to the same purchase record. All related requests are visible and manageable in the Source-to-Pay Workspace, and each sourcing request has its own sourcing event and RFQ identifier.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with third-party sourcing solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-integration-third-party-sourcing.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with third-party sourcing solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/psm-integration-third-party-sourcing.md)
 

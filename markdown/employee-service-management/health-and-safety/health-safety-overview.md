@@ -2,7 +2,7 @@
 title: Health and Safety
 description: ServiceNow Health and Safety enables businesses to ensure safe and healthy working conditions for their employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/health-safety-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/health-safety-overview.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -26,31 +26,31 @@ To deliver on Environmental, Social, and Governance \(ESG\) goals, companies mus
 
 Health and Safety includes the following applications:
 
--   **[Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.md)**
+-   **[Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.md)**
 
     The ServiceNow® Health and Safety Incident Management application is a solution in Health and Safety that enables organizations to record, track, and report on health and safety related employee incidents and observations. Furthermore, it provides capabilities to investigate and reduce incidents.
 
--   **[Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/generating-osha-forms.md)**
+-   **[Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/generating-osha-forms.md)**
 
     With the ServiceNow® Health and Safety Incident Management OSHA Content Pack application, you can automatically fill and export OSHA forms for injuries and illnesses that happened in an establishment under your organization.
 
--   **[Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-case-management-landing-page.md)**
+-   **[Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-case-management-landing-page.md)**
 
     The ServiceNow® Health and Safety Case Management application provides capabilities to support employees' health and safety inquiries and their return to work after an injury or illness.
 
--   **[Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-contractor-mgmt-landing-page.md)**
+-   **[Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-contractor-mgmt-landing-page.md)**
 
     The ServiceNow® Health and Safety Contractor Management application provides capabilities to manage contractor companies and workers for their health and safety.
 
--   **[Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contractor-service-center/hs-contractor-service-center-landing-page.md)**
+-   **[Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contractor-service-center/hs-contractor-service-center-landing-page.md)**
 
     The ServiceNow®Contractor Service Center application provides contract workers with a dedicated portal to complete pre-qualification tasks, submit safety documentation, report Health and Safety incidents and observations, submit job safety analyses, and request permits to work.
 
--   **[Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-management-landing-page.md)**
+-   **[Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-risk-management-landing-page.md)**
 
     The ServiceNow® Health and Safety Risk Management application provides capabilities to enable workers, line managers, and safety personnel to work safely and reduce the likelihood of injuries that risks or hazards create.
 
--   **[Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-environmental-management-landing-page.md)**
+-   **[Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-environmental-management-landing-page.md)**
 
     The ServiceNow® Environmental Management application helps in the management of chemicals in an organization by maintaining the chemical inventory, ensuring regulatory conformance, and reducing the manual effort associated with chemical documentation and workflows.
 
@@ -65,11 +65,11 @@ Now Assist brings generative AI to the Health and Safety with capabilities such 
 
 You can use ServiceNow® Now Mobile app to work on the Health and Safety applications.
 
-For more information, see [Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-health-safety-mobile.md).
+For more information, see [Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-health-safety-mobile.md).
 
 ## Domain separation for Health and Safety applications
 
-The Health and Safety applications support domain separation at basic level. For more information, see [Domain separation and Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/health-safety-domain-separation.md) and [Domain separation and Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-domain-separation.md). For a deeper understanding of the support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+The Health and Safety applications support domain separation at basic level. For more information, see [Domain separation and Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/health-safety-domain-separation.md) and [Domain separation and Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-domain-separation.md). For a deeper understanding of the support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Request apps on the Store
 
@@ -77,5 +77,5 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Integration with Third-party services
 
-You can find the Health and Safety applications that offer third-party service integrations to extend their capabilities and enhance functionality. For more information, see [Integration of Health and Safety applications with third-party services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/integration-health-safety-with-third-party-services.md).
+You can find the Health and Safety applications that offer third-party service integrations to extend their capabilities and enhance functionality. For more information, see [Integration of Health and Safety applications with third-party services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/integration-health-safety-with-third-party-services.md).
 

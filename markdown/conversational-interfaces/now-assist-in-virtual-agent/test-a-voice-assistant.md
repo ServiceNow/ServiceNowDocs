@@ -2,7 +2,7 @@
 title: Test a voice assistant
 description: Test your voice assistant and the AI voice agents assigned to the assistant from the Assistant Designer. You can make browser-based voice calls and view turn-by-turn analysis of AI voice agents invoked, tools executed, and tool execution latency during the conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/test-a-voice-assistant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/test-a-voice-assistant.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

@@ -2,7 +2,7 @@
 title: Use the InvokeSubFlow component
 description: The InvokeSubFlow component returns the context ID of a subflow in Workflow Studio so you can use it in other components. For example, you can use the context ID to get the execution status or the output of a subflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-rpahub-flowdesigner-invokesubflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-rpahub-flowdesigner-invokesubflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,9 +18,9 @@ The InvokeSubFlow component returns the context ID of a subflow in Workflow Stud
 
 To understand more about flows in Workflow Studio, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md).
 
-Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-studio-instance-rpa.md).
+Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connect-studio-instance-rpa.md).
 
-Enable the client callable option on an RPA Hub flow or subflow. For more information, see [Enable the client callable option on a flow or subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/enable-client-flow-rpa.md).
+Enable the client callable option on an RPA Hub flow or subflow. For more information, see [Enable the client callable option on a flow or subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/enable-client-flow-rpa.md).
 
 Role required: fd\_read role. For more information on this role, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
 
@@ -48,12 +48,12 @@ Add the InvokeSubFlow component to get the context ID of a subflow so other Flow
 
 7.  Configure the properties of the InvokeSubFlow component.
 
-    For more information, see [Properties of the Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-flow-designer-components.md).
+    For more information, see [Properties of the Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-flow-designer-components.md).
 
     You can now connect the **Context ID** parameter with other Flow Designer components such as GetExecutionStatus or GetOutputs
 
 8.  To test the component, in the **Design** tab, select **Run**.
 
 
-**Parent Topic:**[Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/flow-designer-components.md)
+**Parent Topic:**[Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/flow-designer-components.md)
 

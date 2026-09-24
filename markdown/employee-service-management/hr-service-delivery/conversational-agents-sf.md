@@ -2,7 +2,7 @@
 title: Use HCM AI agents for HR Service Delivery Integration with SuccessFactors
 description: Place requests to the SuccessFactors system using the HR Service Delivery AI agent collection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/conversational-agents-sf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/conversational-agents-sf.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -18,7 +18,7 @@ Place requests to the SuccessFactors system using the HR Service Delivery AI age
 
 ## HCM AI agents Overview
 
-You can submit requests to the SuccessFactors system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure AI agents for HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-sf-agents.md). For more information on subflow-agent mapping, see [Subflow-agent mapping for HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/sf-agent-mapping.md).
+You can submit requests to the SuccessFactors system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure AI agents for HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-sf-agents.md). For more information on subflow-agent mapping, see [Subflow-agent mapping for HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/sf-agent-mapping.md).
 
 ## Worker profile retriever AI agent
 
@@ -44,7 +44,7 @@ The Employee details updater AI agent enables you to update personal information
 
 The View paychecks AI agent enables you to view paycheck summaries for the selected period.
 
-**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
+**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
 
 **Related topics**  
 

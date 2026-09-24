@@ -2,7 +2,7 @@
 title: Writing to the debug log
 description: To write to the debug log in your client-side JavaScript, or UI policies, make a call to the global function jslog\(\).Enabling the glide.ui.ui\_policy\_debug property lets you monitor the processing of UI actions.JavaScript that runs on the browser, such as client scripts, can include a call to jslog\(\) to send information to the JavaScript Log. Users with the admin role can access this log.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_WritingToTheDebugLog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_WritingToTheDebugLog.html
 release: australia
 product: Scripts
 classification: scripts
@@ -26,7 +26,7 @@ function logData (r ) {
 
 Additionally, when client scripts run, the name of the client script and timing information is displayed. This can be useful in determining which scripts are running and whether they are impacting performance.
 
-**Parent Topic:**[JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_JavaScriptDebugWindow.md)
+**Parent Topic:**[JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_JavaScriptDebugWindow.md)
 
 ## Debug UI policies
 

@@ -2,7 +2,7 @@
 title: Install Retail Strategic Portfolio Management Suite
 description: Install Retail Strategic Portfolio Management Suite from the ServiceNow to add retail workforce management capabilities to your instance. You need the admin role to complete this task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/install-spm-r-store-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/install-spm-r-store-app.html
 release: australia
 topic_type: task
 last_updated: "2026-05-19"

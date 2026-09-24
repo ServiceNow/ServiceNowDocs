@@ -2,7 +2,7 @@
 title: Create or Update Record step
 description: Create or update a record in a ServiceNow table using a single operation. Update a record that exists, or create a record using the values provided.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-update-record-step.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-update-record-step.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -122,5 +122,5 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 This action has two inputs. There is a string input for a description, and a reference input for a User record. The Create or Update Record step uses these inputs to create or update a problem record. The Problem statement and Opened by fields determine uniqueness. When the input values match, the step performs an update operation instead of a create operation.
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

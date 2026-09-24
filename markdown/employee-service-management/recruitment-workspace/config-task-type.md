@@ -2,7 +2,7 @@
 title: Configure hiring task types
 description: Configure different types of hiring tasks in the Recruitment workspace for efficient task management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/config-task-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/config-task-type.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -34,10 +34,10 @@ Role required: sn\_uni\_task.admin
 3.  Select **Update** to save your changes to the record table.
 
 
-**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/config-recruitment.md)
 
 **Related topics**  
 
 
-[Map task types in Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-task-mapping.md)
+[Map task types in Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/config-task-mapping.md)
 

@@ -2,7 +2,7 @@
 title: Generate a location hierarchy
 description: When no locations exist, generate a complete location hierarchy for an ISA equipment model entity tree to establish location references that match the ISA hierarchy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/create-location-hierarchy-isa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/create-location-hierarchy-isa.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -18,7 +18,7 @@ When no locations exist, generate a complete location hierarchy for an ISA equip
 
 ## Before you begin
 
-Ensure the sn\_isa\_model.isa\_entity.validate\_and\_generate\_locations system property is enabled. For more information, see [ISA Equipment Model system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/isa-equipment-model-system-properties.md).
+Ensure the sn\_isa\_model.isa\_entity.validate\_and\_generate\_locations system property is enabled. For more information, see [ISA Equipment Model system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/isa-equipment-model-system-properties.md).
 
 Role required: cmdb\_ot\_isa\_editor
 
@@ -60,5 +60,5 @@ A Location \[cmn\_location\] record is created for the equipment model entity an
 
 You can also navigate to the **Location Validation Map** tab in the equipment model entity record to see the populated fields and view the location hierarchy node map.
 
-**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

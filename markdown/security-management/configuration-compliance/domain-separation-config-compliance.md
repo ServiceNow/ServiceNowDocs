@@ -2,7 +2,7 @@
 title: Domain separation and Configuration Compliance
 description: Domain separation is supported in Configuration Compliance. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/domain-separation-config-compliance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/domain-separation-config-compliance.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -93,7 +93,7 @@ The Configuration Compliance application manages the life cycle of a test result
 
 ## Setup
 
-Setting up domain separation for Configuration Compliance does not require any additional steps. All Configuration Compliance tables acquire the Domain column after the instance is domain separated. You can direct test result integration import data to specific domains. For more information, see [Create domain-separated imports for an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/create-domain-separated-imports.md). For more information on additional precautions and settings, see [Additional settings for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/ds-additional-config.md).
+Setting up domain separation for Configuration Compliance does not require any additional steps. All Configuration Compliance tables acquire the Domain column after the instance is domain separated. You can direct test result integration import data to specific domains. For more information, see [Create domain-separated imports for an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/create-domain-separated-imports.md). For more information on additional precautions and settings, see [Additional settings for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/ds-additional-config.md).
 
 ## Domain-separated data
 

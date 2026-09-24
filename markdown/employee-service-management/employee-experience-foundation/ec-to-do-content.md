@@ -2,7 +2,7 @@
 title: To-do content
 description: You can assign tasks to your employees that prompts them to take action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-to-do-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-to-do-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,7 +23,7 @@ The types of to-do content you can create are:
 -   Play Video
 -   View Link
 
-For more information on creating to-do content, see [To-do content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/to-do-content-form.md).
+For more information on creating to-do content, see [To-do content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/to-do-content-form.md).
 
-You can also create to-do content that appears in a banner or styled content. For more information, see [Creating to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-to-dos.md).
+You can also create to-do content that appears in a banner or styled content. For more information, see [Creating to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-to-dos.md).
 

@@ -2,14 +2,14 @@
 title: Configure Google Drive for external content indexing
 description: Enable the Google Drive and Admin SDK APIs and create a Google Cloud service account to allow the Google Drive external content connector to crawl eligible shared drives and security principals in your Google Drive source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Google Drive external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -49,7 +49,7 @@ Your connector administrator can use settings copied from the Google Cloud conso
 
         The API appears in the Enabled APIs &amp; services listing for your project.
 
-    6.  Repeat steps [1.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md) through [1.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md), but this time locate, select, and enable the **Admin SDK API**.
+    6.  Repeat steps [1.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md) through [1.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md), but this time locate, select, and enable the **Admin SDK API**.
 
 2.  Create a new Google Cloud service account for your selected project.
 
@@ -93,7 +93,7 @@ Your connector administrator can use settings copied from the Google Cloud conso
 
     5.  In the API clients list, select **Add new**.
 
-    6.  In the **Client ID** field, enter the service account's OAuth 2 Client ID that you copied in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md).
+    6.  In the **Client ID** field, enter the service account's OAuth 2 Client ID that you copied in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md).
 
     7.  In the **OAuth scopes** field, enter `https://www.googleapis.com/auth/drive.readonly, https://www.googleapis.com/auth/admin.directory.user.readonly, https://www.googleapis.com/auth/admin.directory.group.readonly`.
 
@@ -111,11 +111,11 @@ Provide the following items to your connector administrator:
 
     **Note:** This should be an email address from your organization's domain, not a service account email address from the `iam.gserviceaccount.com` domain.
 
--   The JSON private key file for the Google Cloud service account that you downloaded in step [3.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md).
+-   The JSON private key file for the Google Cloud service account that you downloaded in step [3.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md).
 
 Your connector administrator needs these items to configure a Google Drive external content connector to retrieve searchable content and security principals from your Google Drive instance.
 
-For details on creating and configuring a Google Drive external content connector, see [Create a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-gdrive.md).
+For details on creating and configuring a Google Drive external content connector, see [Create a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-gdrive.md).
 
-**Parent Topic:**[Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/google-drive-external-content-connector.md)
+**Parent Topic:**[Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/google-drive-external-content-connector.md)
 

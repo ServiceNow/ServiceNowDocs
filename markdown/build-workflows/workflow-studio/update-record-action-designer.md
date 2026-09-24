@@ -2,7 +2,7 @@
 title: Update Record step
 description: Update an existing record in a table. You can dynamically add and configure fields for the record, or use a template to set field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/update-record-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/update-record-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -63,7 +63,7 @@ Field Values
 
 Set static or dynamic values of fields in the record. For example, to set the short description to a static value, select **Short description** and set the desired value.
 
- To add dynamic values, see [Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/template-value.md).
+ To add dynamic values, see [Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/template-value.md).
 
  **Important:** The system does not support updating multiple journal fields such as the additional comments or work notes of a task record.
 
@@ -74,8 +74,8 @@ Set static or dynamic values of fields in the record. For example, to set the sh
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

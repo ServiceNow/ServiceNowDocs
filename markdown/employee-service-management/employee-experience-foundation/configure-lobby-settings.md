@@ -2,7 +2,7 @@
 title: Configure Lobby Settings
 description: You can override the lobby settings in your instance to allow the participants to join the conference call without waiting in the lobby.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-lobby-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-lobby-settings.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -53,5 +53,5 @@ Role required: sn\_notify\_msteams.admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
 

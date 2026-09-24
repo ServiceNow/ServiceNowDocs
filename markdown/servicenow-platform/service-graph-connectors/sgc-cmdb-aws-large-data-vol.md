@@ -2,7 +2,7 @@
 title: Handling import failures for large AWS resources
 description: Manage the data source failure when importing resources from AWS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-large-data-vol.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-large-data-vol.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

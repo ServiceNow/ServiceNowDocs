@@ -2,7 +2,7 @@
 title: GlideAggregate - Scoped
 description: The GlideAggregate API enables creating database aggregation queries.Creates a GlideAggregate object on the specified table.Adds an aggregate to a database query.Adds an encoded query to the other queries that may have been set for this aggregate.Adds a query to the aggregate.Adds a not null query to the aggregate.Adds a null query to the aggregate.Adds a trend for a specified field. Use a trend to show patterns over a period of time.Returns the value of an aggregate from the current record.Gets the query necessary to return the current aggregate.Retrieves the encoded query.Retrieves the number of rows in the GlideAggregate object.Retrieves the table name associated with this GlideAggregate object.Returns the value of the specified field.Provides the name of a field to use in grouping the aggregates.Determines if there are any more records in the GlideAggregate object.Moves to the next record in the GlideAggregate.Orders the aggregates using the value of the specified field. The field is also added to the group-by list.Orders the aggregates based on the specified aggregate and field.Sorts the aggregates in descending order based on the specified field. The field will also be added to the group-by list.Issues the query and gets the results.Limits the number of rows from the table to include in the aggregate query.Activates or deactivates the running of business rules for aggregate queries.Sets the query category, which determines how the query is routed to a secondary database.Sets whether to group the return results.Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the dayofweek time interval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideAggregateScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_GlideAggregateScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +22,7 @@ When you use GlideAggregate methods on currency or price fields, you are working
 
 **Note:** When using an on-premise system, the database server time zone must be set to GMT/UTC for this class to work properly.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideAggregate - GlideAggregate\(String tableName\)
 
@@ -296,7 +296,7 @@ var count = new GlideAggregate('incident');
 
 Adds a trend for a specified field. Use a trend to show patterns over a period of time.
 
-**Note:** To control whether to group **dayofweek** results by year, use [Scoped GlideAggregate - setIntervalYearIncluded\(Boolean b\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+**Note:** To control whether to group **dayofweek** results by year, use [Scoped GlideAggregate - setIntervalYearIncluded\(Boolean b\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 <table id="table_tlk_cdk_ws" class="parameters"><thead><tr><th>
 
@@ -1144,7 +1144,7 @@ Category software 11
 
 Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the **dayofweek** time interval.
 
-Dependency: [Scoped GlideAggregate - addTrend\('&lt;fieldName&gt;', 'dayofweek'\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+Dependency: [Scoped GlideAggregate - addTrend\('&lt;fieldName&gt;', 'dayofweek'\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 <table class="parameters"><thead><tr><th>
 

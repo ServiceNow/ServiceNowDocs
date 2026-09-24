@@ -2,7 +2,7 @@
 title: Create a child case and a child task
 description: As a case manager, to fulfill a case, you can create a child case and also a child task using the workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -41,7 +41,7 @@ Role required: sn\_wsd\_case.manager
     -   Go to the **All active cases** section.
 4.  Select the case to which you want to add a child case/task.
 
-    The case details are displayed in a separate tab. For more information about the view, the actions that you can perform and additional features, refer to the **Case details page** section in the [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
+    The case details are displayed in a separate tab. For more information about the view, the actions that you can perform and additional features, refer to the **Case details page** section in the [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
 
 5.  To create a child case, do the following:
 
@@ -106,7 +106,7 @@ Role required: sn\_wsd\_case.manager
 7.  After adding the child case/child task, select **Save** to save the changes.
 
 
-**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-case-management.md)
+**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-case-management.md)
 
 **Related topics**  
 

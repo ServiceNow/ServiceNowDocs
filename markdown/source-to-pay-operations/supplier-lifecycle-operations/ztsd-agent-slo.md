@@ -2,7 +2,7 @@
 title: AI L1 SLO Service Desk Specialist
 description: The AI L1 SLO Service Desk Specialist is a fully autonomous help desk automation solution that resolves supplier inquiries without manual intervention from a fulfiller.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/ztsd-agent-slo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/ztsd-agent-slo.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -34,7 +34,7 @@ To access the AI L1 SLO Service Desk Specialist, you must have the following plu
 
 The following steps describe how the AI L1 SLO Service Desk Specialist processes a general inquiry case.
 
-1.  **Supplier contact raises a general inquiry case**: The supplier contact submits a general inquiry through the Supplier Collaboration Portal or by sending an email. For more information on submitting supplier inquiries, see [Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md).
+1.  **Supplier contact raises a general inquiry case**: The supplier contact submits a general inquiry through the Supplier Collaboration Portal or by sending an email. For more information on submitting supplier inquiries, see [Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md).
 2.  **Case assigned to the AI L1 SLO Service Desk Specialist**: An assignment rule automatically assigns the case to the AI L1 SLO Service Desk Specialist.
 3.  **Fetch case details**: The agent retrieves the case information to evaluate the context of the inquiry.
 4.  **Query knowledge sources**: The agent searches published knowledge base articles and the FSC Common KG Tags knowledge graph for relevant guidance, such as supplier onboarding guidelines. For more information on knowledge graphs, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph-landing.md).

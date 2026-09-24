@@ -2,7 +2,7 @@
 title: Advanced Approval Management AI
 description: The ServiceNow Advanced Approval Management AI application brings quote approval capabilities to Model Context Protocol \(MCP\)-compatible clients. Advanced approval users can manage quote approvals using natural language requests in an MCP client, without opening a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/explore-advanced-approval-mgmt-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-advanced-approval-mgmt-ai.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-07"
@@ -143,7 +143,7 @@ With Advanced Approval Management AI, your approval users can perform approval t
 
 To learn more about configuring and using Advanced Approval Management AI, see:
 
--   [Configuring Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-advanced-approval-mgmt-ai.md)
--   [Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-advanced-approval-mgmt-ai.md)
--   [Components installed with Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-with-advanced-approval-mgmt-AI.md)
+-   [Configuring Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-advanced-approval-mgmt-ai.md)
+-   [Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-advanced-approval-mgmt-ai.md)
+-   [Components installed with Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-with-advanced-approval-mgmt-AI.md)
 

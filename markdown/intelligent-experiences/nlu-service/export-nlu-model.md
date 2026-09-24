@@ -2,7 +2,7 @@
 title: Export an NLU model
 description: Export a Natural Language Understanding \(NLU\) model to create a CSV file of the intents and utterances. You can then use the CSV file to edit, share, and import.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/export-nlu-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/export-nlu-model.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -25,7 +25,7 @@ Export a Natural Language Understanding \(NLU\) model to create a CSV file of th
 
 Exporting an NLU model creates a CSV file. The file contains a table of the utterances from the model and the matched intents. The data comes from the **Utterances** tab for each intent in the model.
 
-**Note:** The file doesn't contain the sources of the utterances. Also the file doesn't transfer entities or vocabulary associated with the model. To export all model data, see [Add an NLU model to an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/add-model-update-set.md).
+**Note:** The file doesn't contain the sources of the utterances. Also the file doesn't transfer entities or vocabulary associated with the model. To export all model data, see [Add an NLU model to an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/add-model-update-set.md).
 
 ## Procedure
 
@@ -46,5 +46,5 @@ Exporting an NLU model creates a CSV file. The file contains a table of the utte
 
 ## What to do next
 
-You can use the CSV file to share the model or edit the utterances. You can also create a model by importing the CSV file. For more information, see [Create an NLU model from a CSV file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-model-csv.md).
+You can use the CSV file to share the model or edit the utterances. You can also create a model by importing the CSV file. For more information, see [Create an NLU model from a CSV file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/create-nlu-model-csv.md).
 

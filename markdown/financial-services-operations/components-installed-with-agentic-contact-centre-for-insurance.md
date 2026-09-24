@@ -2,7 +2,7 @@
 title: Components installed with Agentic Contact Center for Insurance
 description: Review the roles and other components installed when you activate Agentic Contact Center for Insurance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/components-installed-with-agentic-contact-centre-for-insurance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/components-installed-with-agentic-contact-centre-for-insurance.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-27"
@@ -58,5 +58,5 @@ This role grants access to CSR agents for handling insurance claims-related requ
 -   sn\_ins\_claim\_cml.fnol\_representative
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agentic Contact Center for Insurance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/reference-agentic-contact-centre-for-insurance.md)
+</table>**Parent Topic:**[Agentic Contact Center for Insurance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/reference-agentic-contact-centre-for-insurance.md)
 

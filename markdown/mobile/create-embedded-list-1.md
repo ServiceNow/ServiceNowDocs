@@ -2,7 +2,7 @@
 title: Configure an embedded list for a record screen
 description: Create an embedded list that you can include as in a record screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/create-embedded-list-1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/create-embedded-list-1.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  In the **Embedded screen** section, click **Choose** to select a screen to embed.\[Omitted image "embedded-screen-section.png"\] Alt text: Embedded screen section
 
-    **Note:** You can also click the **New** button create a new screen. For details on creating screens, see [Create a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-configure-applet-screens.md).
+    **Note:** You can also click the **New** button create a new screen. For details on creating screens, see [Create a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-configure-applet-screens.md).
 
 6.  Find the screen to embed in the **Choose an item** pop-up and click **Apply**.
 
@@ -51,5 +51,5 @@ Your form is configured with an embedded list. Your users can access this list o
 
 ## What to do next
 
-To learn more about relationship data items used for embedded lists, see [Configure a relationship data item for an embedded list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-data-item-relationship.md).
+To learn more about relationship data items used for embedded lists, see [Configure a relationship data item for an embedded list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-data-item-relationship.md).
 

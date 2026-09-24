@@ -2,7 +2,7 @@
 title: Mobile security
 description: Learn about the security features of the ServiceNow mobile platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-security-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-security-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

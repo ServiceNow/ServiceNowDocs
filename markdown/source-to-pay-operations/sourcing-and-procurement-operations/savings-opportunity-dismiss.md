@@ -2,7 +2,7 @@
 title: Dismiss a savings opportunity
 description: Reject a savings opportunity that you do not intend to pursue, recording who dismissed it, when, and why so it stays on record for auditing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-dismiss.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-dismiss.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -71,5 +71,5 @@ To reopen a dismissed opportunity, set **Status** back to **Open** in the Saving
 
 The **Learn more** Now Assist trigger remains available on dismissed records because the trigger's condition only suppresses it for `status = closed`.
 
-**Parent Topic:**[Action or dismiss a savings opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/action-or-dismiss-savings-opportunity.md)
+**Parent Topic:**[Action or dismiss a savings opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/action-or-dismiss-savings-opportunity.md)
 

@@ -2,7 +2,7 @@
 title: Approval rule grouping and sequencing
 description: As a Procurement Administrator, you can associate approval rules with approval groups and define the sequence to determine when these rules should be triggered. With this association, a set of approval rules within a rule group is triggered in sequence, instead of all of them being evaluated simultaneously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-sequencing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-sequencing.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -69,5 +69,5 @@ For example, in scenario 2:
 -   If the property is set to Yes, and rules A, B, and C are satisfied as a result of a revision, then all approvals are resent.
 -   If the property is set to Yes, and rules A, C, and a new rule D are satisfied as a result of a revision, then approvals A and C are resent, and a new approval D is sent.
 
-**Parent Topic:**[Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.md)
+**Parent Topic:**[Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.md)
 

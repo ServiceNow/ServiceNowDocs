@@ -2,7 +2,7 @@
 title: Manage unused resources
 description: Reduce cost by identifying the unused resources and scheduling jobs to power-off or terminate the unused resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/manage-unused-mac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/manage-unused-mac.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -16,7 +16,7 @@ breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 
 Reduce cost by identifying the unused resources and scheduling jobs to power-off or terminate the unused resources.
 
-You can [configure Unused resources operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/um-settings-config-cloudin.md) by selecting **Settings**.
+You can [configure Unused resources operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/um-settings-config-cloudin.md) by selecting **Settings**.
 
 \[Omitted image "unused-res-ws.png"\] Alt text: Unused resources recommendations in Cloud Cost Management Workspace.
 
@@ -237,16 +237,16 @@ Source of the recommendations.-   AWS / Azure / GCP: Provider-generated recommen
 -   ServiceNow: Custom-generated recommendations
 
 </td></tr></tbody>
-</table>-   **[Configure Unused resources operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/um-settings-config-cloudin.md)**  
+</table>-   **[Configure Unused resources operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/um-settings-config-cloudin.md)**  
 The Unused resources feature recommends termination or power-off for resources that are wasting money because they aren’t being used. Configure Unused resources processes and specify the potential savings that trigger notifications.
--   **[Schedule unused resources to be powered off or terminated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/um-schedule-job-cloudin.md)**  
+-   **[Schedule unused resources to be powered off or terminated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/um-schedule-job-cloudin.md)**  
 To terminate or power off an unused resource, add it to an Unused resources job, specify whether to terminate or power off, and specify when the job should run. You can also move resources from one scheduled job to a different job.
--   **[Move a resource to a different Unused resources job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/um-change-job-cloudin.md)**  
+-   **[Move a resource to a different Unused resources job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/um-change-job-cloudin.md)**  
 You can add resources to a currently scheduled job, move resources from one job to another, or remove resources from a job.
--   **[Exclude a resource from Unused resources analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/um-exclude-resource-cloudin.md)**  
+-   **[Exclude a resource from Unused resources analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/um-exclude-resource-cloudin.md)**  
 To ensure that a particular resource is not considered or recommended for Unused resources, add the resource to the Excluded Resources list. The system continues to collect cost and usage data but does not consider the resource for the processes of Unused resources.
--   **[View or edit scheduled and completed Unused resources jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/view-um-scheduled-jobs.md)**  
+-   **[View or edit scheduled and completed Unused resources jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/view-um-scheduled-jobs.md)**  
 View and manage the upcoming and completed Unused resources jobs.
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

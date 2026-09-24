@@ -2,7 +2,7 @@
 title: Set up Access Management Automation
 description: Set up the Access Management Automation application by configuring the Service Portal page to use the default catalog items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/setup-access-mngmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/setup-access-mngmt.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -102,5 +102,5 @@ Set up the Access Management Automation application by configuring the Service P
 -   If you are using the application to manage access in Okta, ensure that the user has the Okta admin role to retrieve data in the Okta groups module. Also, the user must have the Okta admin role to submit request using the catalog item.
 -   For information about customizing the widget and macro, see the KB article, [Access Management Automation - Widget &amp; Macro Customisations](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0993763).
 
-**Parent Topic:**[Access Management Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/access-management.md)
+**Parent Topic:**[Access Management Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/access-management.md)
 

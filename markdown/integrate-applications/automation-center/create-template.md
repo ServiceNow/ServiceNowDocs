@@ -2,7 +2,7 @@
 title: Create a template
 description: Create a template when you think a golive checklist is useful for multiple automation requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/create-template.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -55,5 +55,5 @@ After the automation request is moved to the following states, the option to cre
     The template is created. This template is available for others to add to their golive checklist. Now, this template is associated with the automation request.
 
 
-**Parent Topic:**[Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/working-golive.md)
+**Parent Topic:**[Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/working-golive.md)
 

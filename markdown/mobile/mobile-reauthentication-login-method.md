@@ -2,7 +2,7 @@
 title: Configure mobile re-authentication login method
 description: Define the re-authentication method to be either single sign-on \(SSO\) or local login, depending on your security requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-reauthentication-login-method.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-reauthentication-login-method.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,5 +64,5 @@ Value
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reautentication-concept.md)
+**Parent Topic:**[Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-reautentication-concept.md)
 

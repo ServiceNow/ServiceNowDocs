@@ -2,7 +2,7 @@
 title: Add properties to communicate with Virtual Agent
 description: To develop a component for Virtual Agent, add specific properties and actions to interact with the Virtual Agent client interface. The properties required depend on the type of component you are creating.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/add-va-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/add-va-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -81,12 +81,12 @@ Response data from the client to send to the server. Only use in components that
 </table>
 ## What to do next
 
-[Test a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-va-component.md).
+[Test a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-va-component.md).
 
-**Parent Topic:**[Develop a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/va-components.md)
+**Parent Topic:**[Develop a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/va-components.md)
 
 **Related topics**  
 
 
-[Create custom components using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/custom-components.md)
+[Create custom components using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/custom-components.md)
 

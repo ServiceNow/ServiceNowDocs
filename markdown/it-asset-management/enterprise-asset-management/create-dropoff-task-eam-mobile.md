@@ -2,7 +2,7 @@
 title: Create a Drop off task for enterprise assets using the Mobile Agent application
 description: Create a Drop off task using the Mobile Agent to return the enterprise assets in your personal stockroom to any other warehouse stockroom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-dropoff-task-eam-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-dropoff-task-eam-mobile.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

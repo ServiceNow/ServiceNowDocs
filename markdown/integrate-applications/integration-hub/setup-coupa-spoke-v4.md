@@ -2,7 +2,7 @@
 title: Set up the Coupa spoke
 description: Integrate the ServiceNow instance and Coupa by creating a custom OAuth application in Coupa to authenticate ServiceNow requests.Add and configure a Coupa connection to authenticate ServiceNow requests in Coupa spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-coupa-spoke-v4.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-coupa-spoke-v4.html
 release: australia
 product: Integration Hub
 classification: integration-hub

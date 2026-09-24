@@ -2,7 +2,7 @@
 title: Customize a Work Scheduler card using the Next Experience UI Builder
 description: Customize the Work Scheduler card components, such as adding an extra field, or changing the color or order of a field, to display them in the Work scheduler queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-workscheduler-card-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customize-workscheduler-card-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,17 +50,17 @@ You can duplicate an existing work item variant such as an Incident, Problem, Ch
 
 12. Click **Save**.
 
-13. Customize the variant you've created using any of the tasks or steps listed in [Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md).
+13. Customize the variant you've created using any of the tasks or steps listed in [Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-workscheduler-card-wfo-cs.md).
 
 
 ## Example
 
 |If you'd like to configure this in the Work Scheduler card|Refer to|
 |----------------------------------------------------------|--------|
-|Add fields|[Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-create-page-scripts-wfo-cs.md) and refer to the Create the **Transform workItem to cardProps** page script steps.|
-|Add an avatar|[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-avatar-component-wfo-cs.md)|
+|Add fields|[Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/work-sched-create-page-scripts-wfo-cs.md) and refer to the Create the **Transform workItem to cardProps** page script steps.|
+|Add an avatar|[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/work-sched-avatar-component-wfo-cs.md)|
 
-**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
 
 **Related topics**  
 

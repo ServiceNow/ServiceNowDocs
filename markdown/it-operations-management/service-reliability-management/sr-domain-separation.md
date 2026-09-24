@@ -2,7 +2,7 @@
 title: Domain separation and SRM
 description: Domain separation is supported for Service Reliability Management \(SRM\).This needs to be updated with correct version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-domain-separation.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -45,7 +45,7 @@ The specific conditions indicated by the Basic\* support level rating above rela
 
 For more information, see [Domain separation and On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-on-call-scheduling.md).
 
-**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
+**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 
 **Related topics**  
 

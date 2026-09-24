@@ -2,7 +2,7 @@
 title: Install Agent Client Collector on a Linux system
 description: Install Agent Client Collector using a package distribution tool. Before that, you can manually install the Agent Client Collector on a few machines to verify that your agents contain the correct policies and checks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/install-acc-linux.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/install-acc-linux.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,7 +18,7 @@ Install Agent Client Collector using a package distribution tool. Before that, y
 
 ## Before you begin
 
--   Ensure that the Agent Client Collector Listener is configured on your MID Servers, and the service is available from your target hosts, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configure-web-server.md).
+-   Ensure that the Agent Client Collector Listener is configured on your MID Servers, and the service is available from your target hosts, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-configure-web-server.md).
 -   Verify that your server's OS and version is supported. For a list of supported OS's and versions, see [ServiceNow Store Page](https://store.servicenow.com/store/app/bc09636e1be06a50a85b16db234bcbd1).
 -   Verify whether there are restrictions or requirements to be aware of during deployment, such as specifying an account other than the default servicenow account. For more information about embedding the agent into your own automated system, see [ITOM Agent Client Collector documentation material \[KB1122613\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613).
 -   Ensure that the MID Server and its MID Web Server and ACC Websocket Endpoint extensions are up and running.
@@ -185,7 +185,7 @@ SLES
     |`/var/run`|
     |`/var`|
 
-    After relocating an installation path, update the relevant `ACC_UPGRADE_CMD` string described in step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/install-acc-linux.md).
+    After relocating an installation path, update the relevant `ACC_UPGRADE_CMD` string described in step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/install-acc-linux.md).
 
     Review the paths in `/usr/lib/systemd/system/acc.service` to ensure that they appear as expected.
 
@@ -317,5 +317,5 @@ SLES
         `# systemctl start acc`
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

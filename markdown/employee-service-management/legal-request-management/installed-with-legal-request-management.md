@@ -2,7 +2,7 @@
 title: Components installed with Legal Request Management
 description: Several types of components are installed with activation of the Legal Request Management application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/installed-with-legal-request-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/installed-with-legal-request-management.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -290,7 +290,7 @@ sn\_lg\_ops.request\_fulfiller
 </td></tr></tbody>
 </table>## Scheduled jobs
 
-**Note:** The following scheduled jobs are applicable when the **Enable External Storage for attachment** option is added to an intake form. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md).
+**Note:** The following scheduled jobs are applicable when the **Enable External Storage for attachment** option is added to an intake form. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/associate-categories-practice-area.md).
 
 |Scheduled job|Description|
 |-------------|-----------|
@@ -299,7 +299,7 @@ sn\_lg\_ops.request\_fulfiller
 
 ## Tables
 
-**Note:** In addition to the following tables, tables specific to practice areas are installed with Legal Request Management. For more information, see [Practice area tables for legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-pa-tables.md).
+**Note:** In addition to the following tables, tables specific to practice areas are installed with Legal Request Management. For more information, see [Practice area tables for legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-request-pa-tables.md).
 
 <table id="table_fbz_45z_vdb"><thead><tr><th>
 
@@ -339,7 +339,7 @@ Document\(sn\_lg\_ops\_external\_document\)
 
 </td><td>
 
-Stores the details of the documents for legal requests stored in an external storage.This table is applicable when the **Enable External Storage for attachment** option is added to an intake form. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md).
+Stores the details of the documents for legal requests stored in an external storage.This table is applicable when the **Enable External Storage for attachment** option is added to an intake form. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/associate-categories-practice-area.md).
 
 </td></tr><tr><td>
 
@@ -395,7 +395,7 @@ Legal External Folder\(sn\_lg\_ops\_external\_folder\)​
 
 </td><td>
 
-Stores URLs and details of folders created in the external storage system to save documents for each legal request.This table is applicable when the **Enable External Storage for attachment** option is added to an intake form. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md).
+Stores URLs and details of folders created in the external storage system to save documents for each legal request.This table is applicable when the **Enable External Storage for attachment** option is added to an intake form. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/associate-categories-practice-area.md).
 
 </td></tr><tr><td>
 
@@ -459,7 +459,7 @@ Option\[sn\_lg\_ops\_option\]
 
 </td><td>
 
-Stores the predefined options to change the default behavior of legal requests and legal matters.​ You can set these options while configuring the intake form of a practice area. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md).Extends the Application File \[sys\_metadata\] table.
+Stores the predefined options to change the default behavior of legal requests and legal matters.​ You can set these options while configuring the intake form of a practice area. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/associate-categories-practice-area.md).Extends the Application File \[sys\_metadata\] table.
 
 </td></tr><tr><td>
 
@@ -486,5 +486,5 @@ Subcategory\[sn\_lg\_ops\_subcategory\]
 Stores the subcategories associated with an intake form of a practice area.Extends the Application File \[sys\_metadata\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-reference.md)
+</table>**Parent Topic:**[Legal Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-request-management-reference.md)
 

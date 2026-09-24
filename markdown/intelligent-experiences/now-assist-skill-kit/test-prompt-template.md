@@ -2,7 +2,7 @@
 title: Test a prompt
 description: After you create a prompt for your custom skill, test the prompt template before you finalize it. Testing the prompt verifies that you’re seeing the expected prompt results before it’s activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/test-prompt-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/test-prompt-template.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -38,7 +38,7 @@ Role required: sn\_skill\_builder.admin
 
     If the skill has LLM-judged evaluation metrics attached on the **Deployment and skill settings** tab, each metric execution consumes additional assists. Metric execution is billed as a custom call at one assist per 1,000 output tokens. Script-based metrics \(metrics with a script instead of a judge prompt\) don't consume assists.
 
-    For information about adding evaluation metrics, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
+    For information about adding evaluation metrics, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
     |Tab|Description|
     |---|-----------|
@@ -56,11 +56,11 @@ Role required: sn\_skill\_builder.admin
 
 ## What to do next
 
-After you test your prompt, you must finalize and publish it. To learn more about publishing a skill, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
+After you test your prompt, you must finalize and publish it. To learn more about publishing a skill, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
 
-If you have not configured the deployment settings for your skill, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
+If you have not configured the deployment settings for your skill, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
-**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

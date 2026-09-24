@@ -2,7 +2,7 @@
 title: Using pre-chat surveys with context variables for topic discovery
 description: Capture user input from pre-chat surveys to use as utterances or keywords for topic discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/using-context-intent-prechat-survey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/using-context-intent-prechat-survey.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -30,8 +30,8 @@ The Pre-chat short description as NLU intent record allows the CSP Anonymous Pre
 
 \[Omitted image "prechat-short-description-nlu-intent.png"\] Alt text: Context topic intent record view corresponding with the pre-chat survey, with context and condition fields highlighted.
 
--   **[Define topic context intent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-topic-intent.md)**  
+-   **[Define topic context intent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-context-topic-intent.md)**  
 Use pre-chat survey information to determine the appropriate Virtual Agent conversation topic automatically displayed to end users \(requesters\), rather than prompting them to choose from a list of conversation topics.
 
-**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-configuring-chat-features.md)
 

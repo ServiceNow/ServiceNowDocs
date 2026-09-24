@@ -2,7 +2,7 @@
 title: Display your assistant on Platform or ServiceNow Studio
 description: Use a chat experience for your ServiceNow Otto panel - Platform \(default\) assistant or ServiceNow Otto panel - Developer assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,7 +18,7 @@ Use a chat experience for your ServiceNow Otto panel - Platform \(default\) assi
 
 ## Before you begin
 
-See [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
+See [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -74,5 +74,5 @@ For ServiceNow Otto panel – Developer assistant, premium chat is not available
 
 ## What to do next
 
-See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
+See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
 

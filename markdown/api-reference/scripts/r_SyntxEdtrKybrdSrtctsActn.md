@@ -2,7 +2,7 @@
 title: Syntax editor keyboard shortcuts and actions
 description: The syntax editor offers keyboard shortcuts and actions to assist in writing code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_SyntxEdtrKybrdSrtctsActn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/r\_SyntxEdtrKybrdSrtctsActn.html
 release: australia
 product: Scripts
 classification: scripts
@@ -271,5 +271,5 @@ Displays the list of available syntax editor macros as text within the script fi
 \[Omitted image "ScriptingAssistanceMacroTyped.png"\] Alt text: A line of code containing the string help.\[Omitted image "ScriptingAssistanceMacroAdded.png"\] Alt text: The macro text for help added to the script.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
+</table>**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
 

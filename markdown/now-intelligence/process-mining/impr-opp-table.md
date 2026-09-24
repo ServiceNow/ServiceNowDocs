@@ -2,7 +2,7 @@
 title: Set improvement opportunities for process tables
 description: Set improvement opportunities for process tables using the Finding Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/impr-opp-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/impr-opp-table.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -39,8 +39,8 @@ The improvement opportunities that are set for a process table will be available
 
     **Important:** If you try to create a new improvement opportunity or edit an existing improvement opportunity from the Classic view, the Finding Builder is automatically opens.
 
-    For information on configuring improvement opportunities, see step 4 onwards on [Configure improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improvement-opportunities.md).
+    For information on configuring improvement opportunities, see step 4 onwards on [Configure improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/improvement-opportunities.md).
 
 
-**Parent Topic:**[Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/working-with-imp-opp.md)
+**Parent Topic:**[Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/working-with-imp-opp.md)
 

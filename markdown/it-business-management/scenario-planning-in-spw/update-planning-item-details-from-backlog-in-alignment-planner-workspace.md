@@ -2,7 +2,7 @@
 title: Update planning item details from Prioritization tab
 description: All references to "Backlog" are changed to "Prioritization" following the change of the feature name in the app.Update the details of your planning items or delete them so that your Strategic Planning Prioritization tab reflects the latest work pipeline.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -54,7 +54,7 @@ Edit using one of the following ways. These actions are applicable for both high
 -   Hierarchy: Double-click an item's field on the grid to make inline edits or select the short description to open the full details page.
  The full details page shows the item's related lists such as Goal Relationships, Milestones, Dependencies, and others.
 
- For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-item-form.md).
+ For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
 </td></tr><tr><td id="d213388e174">
 

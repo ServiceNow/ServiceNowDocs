@@ -2,7 +2,7 @@
 title: Text-based alert grouping
 description: In text-based alert grouping, alerts are organized and correlated based on specific text patterns or keywords within the alert content. This approach dynamically groups alerts that share similar textual characteristics, such as error messages or event descriptions, allowing for more flexible and adaptive management of alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/text-based-alert-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/text-based-alert-groups.html
 release: australia
 product: Event Management
 classification: event-management
@@ -31,7 +31,7 @@ There are specific settings or limits used to control the behavior of text-based
 
 The EM Alert Clustering Solution definition is located in the \[ml\_capability\_definition\_clustering\] table. To access it, navigate to **Predictive Intelligence** &gt; **Clustering** &gt; **Solution Definitions**.
 
-To verify if the solution definition is active, see [Verify text-based clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/NLP-alerts.md). To disable the EM Alert Clustering Solution definition, set the property **sa\_analytics.text\_based\_group\_enabled** to `false`. Then clear the **Active** check box in the EM Alert Clustering Solution definition.
+To verify if the solution definition is active, see [Verify text-based clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/NLP-alerts.md). To disable the EM Alert Clustering Solution definition, set the property **sa\_analytics.text\_based\_group\_enabled** to `false`. Then clear the **Active** check box in the EM Alert Clustering Solution definition.
 
 ## Example of text-based alert grouping
 

@@ -2,7 +2,7 @@
 title: Add or modify employee positions
 description: As part of the Human Resources setup process, you define positions to describe employee job functions within the organization. Positions are associated with employees in the HR profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_DefiningOrganizationPositions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_DefiningOrganizationPositions.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -39,5 +39,5 @@ Create position records for your organization. Other organization information, s
 5.  Click **Save** to stay on the **Positions** form or **Submit** or **Update** to return to the **Positions** list.
 
 
-**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

@@ -2,7 +2,7 @@
 title: Configure Virtual Agent settings for Slack
 description: Configure your Slack bots that are integrated with Virtual Agent to enable notifications, to link ServiceNow user profiles, and to set up system messages and contextual actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-va-slack-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-va-slack-settings.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -42,21 +42,21 @@ Role required: admin
 
     -   **System Messages**: Customize the default system messages displayed during Virtual Agent conversations.
 
-        For more information about changing or updating a system message, see [Change system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-change-system-messages.md).
+        For more information about changing or updating a system message, see [Change system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-change-system-messages.md).
 
     -   **Contextual Actions**: Customize the supported actions per user command inputs.
 
-        For more information about updating a contextual action, see [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/contextual-actions.md).
+        For more information about updating a contextual action, see [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/contextual-actions.md).
 
 
--   **[Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/slack-branding-overview.md)**  
+-   **[Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/slack-branding-overview.md)**  
 You have the flexibility to customize the default branding for your Slack Virtual Agent. You can change the production bot's name and icon.
--   **[Configure branding for your self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/slack-brand-self-configured.md)**  
+-   **[Configure branding for your self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/slack-brand-self-configured.md)**  
 Configure your self-configured Slack app's branding. You have the flexibility to customize the default ServiceNow branding for the Slack self-configured bot name and icon.
--   **[Link Virtual Agent requesters before integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prelink-va-users-integ-slack.md)**  
+-   **[Link Virtual Agent requesters before integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/prelink-va-users-integ-slack.md)**  
 Link your Virtual Agent requesters to a ServiceNow instance before they run the Conversational Integration with Slack. Batch linking lets your Virtual Agent users chat immediately and receive notifications without going through the initial authentication linking process.
--   **[Configure promoted topics for Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-slack-promoted-topics.md)**  
+-   **[Configure promoted topics for Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-slack-promoted-topics.md)**  
 Configure promoted topics to push out important, common topics for users' quick consumption during a conversation with the Slack bot. You can configure up to six different promoted topics to be displayed on the Slack channel greeting message.
 
-**Parent Topic:**[Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/mssg-slack.md)
+**Parent Topic:**[Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/mssg-slack.md)
 

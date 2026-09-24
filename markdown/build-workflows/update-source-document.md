@@ -2,7 +2,7 @@
 title: Update source document
 description: Update an existing intelligent approval by uploading a new source document. Regenerate the intelligent approval using the uploaded source document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/update-source-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/update-source-document.html
 release: australia
 topic_type: task
 last_updated: "2026-07-01"

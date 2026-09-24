@@ -2,7 +2,7 @@
 title: Create password reset process in Service Operations Workspace
 description: Create configure credentials, verification methods and settings, and enrollment settings to create a password reset process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-password-reset-process-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-password-reset-process-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -185,5 +185,5 @@ Option to send an email or SMS the new password to the user.
     For more information on password reset process, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAPasswordResetProcess.md).
 
 
-**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/setup-password-reset-sow.md)
+**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/setup-password-reset-sow.md)
 

@@ -2,7 +2,7 @@
 title: Train the Risk Intelligence solution
 description: Create Risk categorization or similarity solution definitions to use the predictive intelligence that helps in accessing change risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/train-risk-intelligence-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/train-risk-intelligence-solution.html
 release: australia
 product: Change Management
 classification: change-management
@@ -37,5 +37,5 @@ Role required: admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-mgmt-intelligent-solutions.md)
+**Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-mgmt-intelligent-solutions.md)
 

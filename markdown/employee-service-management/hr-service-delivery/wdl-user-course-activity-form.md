@@ -2,7 +2,7 @@
 title: Workday learning user course activity staging form
 description: Use this form to create Workday learning todos.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/wdl-user-course-activity-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/wdl-user-course-activity-form.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -33,7 +33,7 @@ Use this form to create Workday learning todos.
 |Last\_Functionally\_Updated|State of the todo.|
 |Learning content|Associated learning content.|
 
-**Parent Topic:**[Reference HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-workday-learning-intg.md)
+**Parent Topic:**[Reference HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-workday-learning-intg.md)
 
 **Related topics**  
 

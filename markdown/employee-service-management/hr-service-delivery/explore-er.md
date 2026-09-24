@@ -2,7 +2,7 @@
 title: Exploring Employee Relations
 description: Learn how to use Employee Relations starting from raising a complaint till the closure of ER case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/explore-er.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/explore-er.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,10 +20,10 @@ Following are some of the key features of Employee Relations:
 
 -   **For employees or users**
 
-    Instill trust and confidence in employees through self service reporting tools such Employee Center or [Anonymous Report Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-portal.md).
+    Instill trust and confidence in employees through self service reporting tools such Employee Center or [Anonymous Report Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/arc-portal.md).
 
     -   Ability for a user who is not in the ServiceNow® system to raise a request and receive a full view of the investigation.
-    -   Ability to raise a sensitive complaint anonymously with [Anonymous Report Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-portal.md).
+    -   Ability to raise a sensitive complaint anonymously with [Anonymous Report Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/arc-portal.md).
 -   **For an organization**
 
     Mitigate risk for your organization when handling employee relation cases.
@@ -55,7 +55,7 @@ Raise a complaint
 </td><td>
 
 Raise a complaint using one of the following methods:-   **Employee Center** &gt; **Human Resource Catalogs** &gt; **Employee Relations catalog**.
--   [Anonymous Report Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-portal.md) \(anonymously\).
+-   [Anonymous Report Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/arc-portal.md) \(anonymously\).
 
 An employee relations case is created and assigned to an ER agent.
 

@@ -2,7 +2,7 @@
 title: View the landing page for healthcare-related cases in Workspace
 description: As a healthcare agent, you can use the landing page of Workspace to quickly scan and access healthcare-related cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -34,9 +34,9 @@ From the landing page of Workspace, agents can:
 
 By default, the Workspace displays data in the following sections:
 
--   [Important items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md)
--   [Cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md)
--   [My active cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md)
+-   [Important items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md)
+-   [Cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md)
+-   [My active cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md)
 
 **Note:** Your administrator can customize the landing page for Workspace and change the data that appears on it.
 

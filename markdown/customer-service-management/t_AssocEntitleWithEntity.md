@@ -2,7 +2,7 @@
 title: Associate an entitlement with a Customer Service Management entity
 description: Associate an entitlement with a CSM entity such as an account, contract, asset, product, or install base item, to determine the type of support that a customer needs to receive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_AssocEntitleWithEntity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_AssocEntitleWithEntity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

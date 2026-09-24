@@ -2,7 +2,7 @@
 title: Activate Field Service Manager Mobile
 description: Activate the Field Service Manager Mobile app to let managers effectively manage their teams from their mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-manager-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-manager-mobile.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -20,7 +20,7 @@ Activate the Field Service Manager Mobile app to let managers effectively manage
 
 Role required: admin
 
-For more information on how Field Service Manager Mobile works, see [Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/manager-mobile-app.md).
+For more information on how Field Service Manager Mobile works, see [Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/manager-mobile-app.md).
 
 ## Procedure
 

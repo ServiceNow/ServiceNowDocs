@@ -2,7 +2,7 @@
 title: Configure tables to work with guests
 description: If you want guest users to be able to interact with data within a table on your ServiceNow instance, you must configure the table to be guest accessible.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/modsdk-and-config-guests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/modsdk-and-config-guests.html
 release: australia
 product: Developer Guides
 classification: developer-guides

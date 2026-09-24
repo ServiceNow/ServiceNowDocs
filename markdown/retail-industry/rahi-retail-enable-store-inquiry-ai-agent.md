@@ -2,7 +2,7 @@
 title: Enable store inquiry AI agent trigger
 description: The HQ agent can leverage the store inquiry AI agent either manually or by enabling or configuring the trigger.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-enable-store-inquiry-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-enable-store-inquiry-ai-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

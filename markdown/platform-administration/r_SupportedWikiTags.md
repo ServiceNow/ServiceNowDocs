@@ -2,7 +2,7 @@
 title: Supported wiki tags
 description: Basic tags are supported for Wikitext fields in the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_SupportedWikiTags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_SupportedWikiTags.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

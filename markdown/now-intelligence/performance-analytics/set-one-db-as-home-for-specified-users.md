@@ -2,7 +2,7 @@
 title: Set a specific dashboard as home for specific users
 description: Configure ServiceNow so that specified users see the same dashboard when they log in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/set-one-db-as-home-for-specified-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/set-one-db-as-home-for-specified-users.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

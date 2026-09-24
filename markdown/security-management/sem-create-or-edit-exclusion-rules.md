@@ -2,7 +2,7 @@
 title: Create or edit exclusion rules
 description: Create a rule to filter or exclude detections from getting converted into vulnerable items \(VITs\) during ingestion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-or-edit-exclusion-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-create-or-edit-exclusion-rules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ Role required: admin
 7.  To edit, select the rule name and update the required fields and select **Update**.
 
 
-**Parent Topic:**[Configuring exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exclusion-rules.md)
+**Parent Topic:**[Configuring exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exclusion-rules.md)
 

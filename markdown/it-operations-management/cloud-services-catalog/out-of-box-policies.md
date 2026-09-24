@@ -2,7 +2,7 @@
 title: Out Of Box Policies
 description: The Cloud Services Catalog Out of the Box Policies comprise Approval, Naming, Lease and Quota Provisioning Policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/out-of-box-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-services-catalog/out-of-box-policies.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -54,8 +54,8 @@ Quota Policy
 
 </td><td>
 
-Quota Policy is used to decide if a request which is run once quota is exceeded, should go to approval or to be aborted. See [Resource order controls for template-based catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
+Quota Policy is used to decide if a request which is run once quota is exceeded, should go to approval or to be aborted. See [Resource order controls for template-based catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
+</table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

@@ -2,12 +2,12 @@
 title: Delete a free-form roadmap view
 description: Delete a customized free-form roadmap view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/delete-free-form-roadmap-view-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/delete-free-form-roadmap-view-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Managing free-form roadmap views, Create a free-form roadmap, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -41,12 +41,12 @@ Role required: sn\_align\_core.ap\_read\_only
     \[Omitted image "delete-free-form-roadmap-view-spw.gif"\] Alt text: Delete portfolio plan view.
 
 
-**Parent Topic:**[Managing free-form roadmap views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-free-form-roadmap-views-spw.md)
+**Parent Topic:**[Managing free-form roadmap views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/managing-free-form-roadmap-views-spw.md)
 
 **Related topics**  
 
 
-[Create a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-free-form-roadmap-view-spw.md)
+[Create a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-free-form-roadmap-view-spw.md)
 
-[Edit a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/edit-free-form-roadmap-view-spw.md)
+[Edit a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/edit-free-form-roadmap-view-spw.md)
 

@@ -2,7 +2,7 @@
 title: Capacity and Reservations Management components
 description: Several types of components are installed with the Advanced Capacity and Reservations Management feature, including tables, and script includes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/advanced-capacity-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/advanced-capacity-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-25"
@@ -73,5 +73,5 @@ The Advanced Capacity and Reservations Management adds the scheduled job listed 
 |-------------|-----------|
 |FSM Resource Demand Channel Migration - On Demand|Run this scheduled job optionally to associate technicians with demand channels.|
 
-**Parent Topic:**[Field Service Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/capacity-management-components.md)
+**Parent Topic:**[Field Service Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/capacity-management-components.md)
 

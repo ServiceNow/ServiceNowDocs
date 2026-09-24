@@ -2,7 +2,7 @@
 title: Script protection policy
 description: Application developers can set a protection policy for script includes published as part of a custom application. The policy determines whether someone can view or edit the script include after the application is installed on their instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ScriptProtectionPolicy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_ScriptProtectionPolicy.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

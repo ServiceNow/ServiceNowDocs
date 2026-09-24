@@ -2,7 +2,7 @@
 title: Create a criteria for a matching rule in Work scheduler
 description: Add a criteria for a matching rule to enable assignment of work items to team members based on the rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/assignment-rules-work-scheduler-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/assignment-rules-work-scheduler-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -36,7 +36,7 @@ The following matching rules, which are available by default, are based on the s
 |Change Request Matching rule|Change Request|Change Request \[change\_request\]|Change requests|
 |Change Task Matching rule|Change Task|Change Task \[change\_task\]|Change task|
 
-For information on how matching criteria works, see [Matching criteria for work items in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-items-assignment-matching-criteria-wfo-itsm.md).
+For information on how matching criteria works, see [Matching criteria for work items in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/work-items-assignment-matching-criteria-wfo-itsm.md).
 
 The following four criteria are available by default:
 
@@ -60,8 +60,8 @@ The following four criteria are available by default:
 5.  Select **Submit**.
 
 
--   **[Matching criteria for work items in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-items-assignment-matching-criteria-wfo-itsm.md)**  
+-   **[Matching criteria for work items in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/work-items-assignment-matching-criteria-wfo-itsm.md)**  
 The assignment workbench uses configurable matching criteria, such as skills and availability, to evaluate the agents in a selected group and provide an overall ranking.
 
-**Parent Topic:**[Assigning work using Work Scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-scheduler-wfo-itsm.md)
+**Parent Topic:**[Assigning work using Work Scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/work-scheduler-wfo-itsm.md)
 

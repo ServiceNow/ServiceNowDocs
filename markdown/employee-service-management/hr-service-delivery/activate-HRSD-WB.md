@@ -2,7 +2,7 @@
 title: Activate HR Predictive Intelligence Workbench
 description: You can activate the Predictive Intelligence Workbench HRSD content plugin \[com.sn\_piwb\_hrsd\_content\] if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/activate-HRSD-WB.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/activate-HRSD-WB.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,10 +35,10 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with HR Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/installed-with-HRSD-WB.md)**  
+-   **[Components installed with HR Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/installed-with-HRSD-WB.md)**  
 Several types of components are installed with activation of the HR Predictive Intelligence Workbench HRSD content plugin \[com.sn\_piwb\_hrsd\_content\] plugin, including user roles.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-administration.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-piwb-administration.md)
 
 **Related topics**  
 

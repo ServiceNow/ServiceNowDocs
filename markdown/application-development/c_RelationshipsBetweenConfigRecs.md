@@ -2,7 +2,7 @@
 title: Relationships between configuration records
 description: The Application File Types table defines parent-child relationships between configuration records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_RelationshipsBetweenConfigRecs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_RelationshipsBetweenConfigRecs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure a Splunk Polling data input in Health Log Analytics manually
 description: Set up a data input that periodically pulls log data from Splunk by using a query.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-splunk-polling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-splunk-polling.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -40,11 +40,11 @@ Role required: evt\_mgmt\_admin
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [Splunk Polling data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-splunk-polling-ref.md).
+    For a description of the fields, see [Splunk Polling data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-splunk-polling-ref.md).
 
 5.  Select **Advanced** to set additional configuration fields.
 
-    On the **Transport tab** and **Advanced tab**, fill in the fields. For a description of the fields, see [Splunk Polling data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-splunk-polling-ref.md).
+    On the **Transport tab** and **Advanced tab**, fill in the fields. For a description of the fields, see [Splunk Polling data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-splunk-polling-ref.md).
 
 6.  Select **Save**.
 
@@ -63,5 +63,5 @@ Role required: evt\_mgmt\_admin
 8.  Select **Publish** to publish the data input to the MID Server.
 
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

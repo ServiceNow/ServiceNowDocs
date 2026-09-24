@@ -2,7 +2,7 @@
 title: Review Emergency Outreach acknowledgements
 description: Review the list of acknowledgements from an outreach notification to see each employee's status. Resend the outreach notification to employees who did not respond.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/eo-review-outreach-acks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-outreach/eo-review-outreach-acks.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -49,5 +49,5 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
     \[Omitted image "emergency-outreach-dashboard-left-column-all-apps.png"\] Alt text: Emergency Outreach dashboard
 
 
-**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-outreach/emergency-outreach.md)
 

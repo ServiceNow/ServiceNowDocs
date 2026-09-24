@@ -2,7 +2,7 @@
 title: Associate monetary and non-monetary benefit plans
 description: Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the epic for the hybrid benefit plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/associate-benefit-plans-safe-epic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/associate-benefit-plans-safe-epic.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -65,7 +65,7 @@ On the Benefit Plan form, fill in the **Associated benefit** field with the bene
 </td><td>
 
 1.  On the Benefit Plan form, click **Associate new benefit**.
-2.  On the form, fill in the fields. For details, see [Create a monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-monetary-benefit-plan-safe-epic.md) and [Create a non-monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-non-monetary-benefit-plan-safe-epic.md).
+2.  On the form, fill in the fields. For details, see [Create a monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-monetary-benefit-plan-safe-epic.md) and [Create a non-monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-non-monetary-benefit-plan-safe-epic.md).
 
 
 </td></tr></tbody>
@@ -80,5 +80,5 @@ The selected benefit plan is associated with another plan.
 
 Click the **View Associated benefit plan** related link to view the associated benefit plan.
 
-**Parent Topic:**[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
+**Parent Topic:**[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
 

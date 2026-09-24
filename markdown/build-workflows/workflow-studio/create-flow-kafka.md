@@ -2,7 +2,7 @@
 title: Create a flow with a Kafka Message trigger
 description: Build a flow that processes events from a Kafka stream. Start the flow when an event is available in the specified topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-kafka.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-flow-kafka.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -32,7 +32,7 @@ This trigger requires the ServiceNow Stream Connect Installer \[com.glide.hub.st
 
 3.  Define the flow properties.
 
-    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md).
 
 4.  In the Trigger section, click **Add a trigger** and select **Application** &gt; **Kafka Message**.
 
@@ -176,16 +176,16 @@ This field appears only when **Advanced** is selected.
 
 9.  To test the flow, click the **Test** button.
 
-    The **Test** button opens the Test flow dialog, where you can create a message to send to the flow. The system tests the flow with this newly created message, not with messages from the Kafka topic. The flow doesn't start receiving messages from the topic until the flow is activated. For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+    The **Test** button opens the Test flow dialog, where you can create a message to send to the flow. The system tests the flow with this newly created message, not with messages from the Kafka topic. The flow doesn't start receiving messages from the topic until the flow is activated. For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-test.md).
 
 10. To activate the flow, click the **Activate** button.
 
-    When you activate the flow, the system begins looking for messages in the topic. You must activate the flow to receive messages. For more information, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
+    When you activate the flow, the system begins looking for messages in the topic. You must activate the flow to receive messages. For more information, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-activate.md).
 
 
 ## Result
 
 When there's a message in the Kafka topic, the flow triggers and runs the actions.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

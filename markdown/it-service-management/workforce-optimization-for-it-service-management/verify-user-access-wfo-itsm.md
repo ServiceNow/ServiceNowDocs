@@ -2,7 +2,7 @@
 title: Verify access criteria for a group or a team member in Workforce Optimization for ITSM
 description: Check what create, read, update, and delete rights your groups or your team members have for events to make sure that they have the correct permissions that they need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/verify-user-access-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/verify-user-access-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -34,15 +34,15 @@ Role required: sn\_shift\_planning.admin
 
 5.  Do any of the following.
 
-<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d227510e119">
+<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d227489e119">
 
 To
 
-</th><th align="left" id="d227510e122">
+</th><th align="left" id="d227489e122">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d227510e128">
+</th></tr></thead><tbody><tr><td id="d227489e128">
 
 **Verify user access for all your groups**
 
@@ -50,7 +50,7 @@ Do this
 
 Select **All my groups**.
 
-</td></tr><tr><td id="d227510e140">
+</td></tr><tr><td id="d227489e140">
 
 **Specific groups and team members**
 
@@ -66,5 +66,5 @@ Select **All my groups**.
 </table>    The screen displays the create, read, write, and delete columns as **true** for each team member that has access to the specific type of access to the selected event.
 
 
-**Parent Topic:**[Understanding user criteria for event types in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/understanding-user-criteria-event-types-wfo-itsm.md)
+**Parent Topic:**[Understanding user criteria for event types in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/understanding-user-criteria-event-types-wfo-itsm.md)
 

@@ -2,7 +2,7 @@
 title: Create escalation from Technology Account 360 view
 description: Create an escalation after analyzing the customer account data in the Technology Account 360 view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/create-escalation-technology-account-360-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/create-escalation-technology-account-360-view.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -41,5 +41,5 @@ Role required: sn\_acct\_lc.customer\_success\_agent, sn\_ind\_tsm\_sdwan.app\_e
 7.  Select **Save**.
 
 
-**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
+**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
 

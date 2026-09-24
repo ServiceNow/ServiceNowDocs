@@ -2,7 +2,7 @@
 title: Create a work set standard
 description: Create and update a work set standard. You can also copy a published or retired work set standard to use as a template for a new one.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-work-set-standard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/create-work-set-standard.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -33,7 +33,7 @@ Role required: sn\_icw\_std.work\_set\_standard\_author
 
 4.  Update the field values and sub-activities as required.
 
-    For field descriptions, see [Work set standard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-form.md).
+    For field descriptions, see [Work set standard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/work-set-standard-form.md).
 
 5.  Select **Save**.
 
@@ -44,17 +44,17 @@ Role required: sn\_icw\_std.work\_set\_standard\_author
 
 After approval, the new version replaces the previous published version, which moves to the **Revised** state. A copied standard is as a new draft that can be edited and approved independently.
 
--   **[Create a copy of a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-copy-of-work-set-standard.md)**  
+-   **[Create a copy of a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-copy-of-work-set-standard.md)**  
 Create and update a work set standard. Create a copy of a published or retired work set standard to use as a template for a new one.
 
-**Parent Topic:**[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)
+**Parent Topic:**[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)
 
 **Related topics**  
 
 
-[Create a copy of a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-copy-of-work-set-standard.md)
+[Create a copy of a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-copy-of-work-set-standard.md)
 
-[Execute a work set task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/execute-work-set-task.md)
+[Execute a work set task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/execute-work-set-task.md)
 
-[Publish a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/publish-work-set-standard.md)
+[Publish a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/publish-work-set-standard.md)
 

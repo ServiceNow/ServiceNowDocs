@@ -2,7 +2,7 @@
 title: Create a project status report
 description: Create project status report from the related lists of the project form. The project status report created for the most recent status date updates the status of the project in portfolios.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateAProjectStatusReport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_CreateAProjectStatusReport.html
 release: australia
 product: Project Management
 classification: project-management
@@ -66,15 +66,15 @@ Steps
 </td></tr></tbody>
 </table>2.  On the status report form, fill in the details.
 
-    For more information, see [Status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/status-report-form-project-management.md).
+    For more information, see [Status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/status-report-form-project-management.md).
 
 3.  Select **Submit**.
 
 
--   **[View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-status-report.md)**  
+-   **[View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-status-report.md)**  
 Project status reports provide the most recent, at-a-glance progress of a project displayed in several categories.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -123,7 +123,7 @@ Project status reports provide the most recent, at-a-glance progress of a projec
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-status-report.md)
+[View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-status-report.md)
 
-[Status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/status-report-form-project-management.md)
+[Status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/status-report-form-project-management.md)
 

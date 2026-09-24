@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP and security
 description: In addition to role-based security and access control, Zero Copy Connector for ERP \(Enterprise Resource Planning\) protects personally identifiable data in other ways.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-and-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-and-security.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

@@ -2,7 +2,7 @@
 title: Use Organization Management
 description: The Organization Management application provides an easy way to perform such asset management tasks as updating users and adding vendors.You can create a new vendor, which is a company that sells assets or services that your organization purchases. You can also create a new manufacturer, which is a company that builds assets that your organization purchases.The Locations module is the Asset view of the Location table \[cmn\_location\].
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/org-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/org-mgmt.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -18,7 +18,7 @@ The Organization Management application provides an easy way to perform such ass
 
 It includes managing your vendors and manufacturers, as well as managing locations.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 

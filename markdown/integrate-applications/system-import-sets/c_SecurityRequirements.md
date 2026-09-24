@@ -2,7 +2,7 @@
 title: Web service import sets security requirements
 description: Web Service Import Sets use the same security mechanisms as SOAP Web Services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_SecurityRequirements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/c\_SecurityRequirements.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -98,5 +98,5 @@ The following image shows the resultant row created for the import set table Not
 
 \[Omitted image "WsIsetPerl.png"\] Alt text:
 
-**Parent Topic:**[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
+**Parent Topic:**[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
 

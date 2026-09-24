@@ -2,7 +2,7 @@
 title: Create master data requests
 description: Submit a request to create a master data record, such as a customer, business partner, material, cost center, location, or bill of materials record, in MDM Orchestrator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-create-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-create-request.html
 release: australia
 topic_type: task
 last_updated: "2026-08-14"
@@ -17,7 +17,7 @@ Submit a request to create a master data record, such as a customer, business pa
 
 ## Before you begin
 
-Role required: An MDM Orchestrator requestor role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator requestor role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## Procedure
 
@@ -80,5 +80,5 @@ If you saved the draft and want to edit the information, navigate to **All** &gt
 
 If you submitted the request, a deduplication agent runs automatically to find potential duplicates before the request advances. Request details are displayed, including a progress indicator, activity stream, attachments, the duplicate check result, and creation information. For more information, select **View full details**. Depending on the domain configuration, the request routes to an enricher, then to a governance user, and finally to an approver in Approval Hub. Track progress by navigating to **All** &gt; **MDM Orchestrator** &gt; **MDM Requestor Portal** and selecting the my requests icon \[Omitted image "aes-erp-rdp-my-requests.png"\].
 
-**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-use.md)
 

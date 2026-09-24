@@ -2,7 +2,7 @@
 title: UX List Category form
 description: Learn about the fields of the UX List Category form. Use this form to create additional categories for lists in the Lists menu of Portfolio Planning workspaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/ux-list-category-form-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/ux-list-category-form-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -75,10 +75,10 @@ Configuration that the category is referencing.
  By default, this field is set to **APW List Menu Configuration**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
+</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 
 **Related topics**  
 
 
-[Customize Lists in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customize-lists-in-portfolio-planning-workspace.md)
+[Customize Lists in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/customize-lists-in-portfolio-planning-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Create a questionnaire or document request template
 description: You can reuse questionnaire templates and document-request templates to speed up the creation of new questionnaires and document requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -83,7 +83,7 @@ Description
 
 1.  Select **New** and then fill in the form.
 
-For descriptions of all these fields, see [Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-q-template-form.md).
+For descriptions of all these fields, see [Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-q-template-form.md).
 
 2.  Select **Submit**
 
@@ -109,9 +109,9 @@ A copy of the questionnaire template has been created and is shown in the Assess
 **Related topics**  
 
 
-[Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md)
+[Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md)
 
-[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
+[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
 
-[Create an issue generation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-generate-issue-rule.md)
+[Create an issue generation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-generate-issue-rule.md)
 

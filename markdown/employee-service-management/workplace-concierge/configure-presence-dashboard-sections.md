@@ -2,7 +2,7 @@
 title: Configure calendar sections on the Presence dashboard
 description: As an admin, add or remove calendar sections from the Presence dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/configure-presence-dashboard-sections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/configure-presence-dashboard-sections.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -32,8 +32,8 @@ Role required: sn\_wsd\_concierge.admin
     -   WSD Presence Reservation Section
     **Note:**
 
-    -   The WSD Insights Section is available if you've installed [Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.md).
-    -   The WSD Presence Reservation Section is available if you've installed [Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md).
+    -   The WSD Insights Section is available if you've installed [Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.md).
+    -   The WSD Presence Reservation Section is available if you've installed [Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md).
 2.  Change the section order of appearance by editing the values in the Order column.
 
 3.  Add a section to the calendar.
@@ -44,12 +44,12 @@ Role required: sn\_wsd\_concierge.admin
 
     2.  On the Employee Presence Calendar Widget form, fill in the fields.
 
-        For a description of the field values, see [Employee Presence Calendar Widget form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/presence-calendar-widget-frm.md).
+        For a description of the field values, see [Employee Presence Calendar Widget form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/presence-calendar-widget-frm.md).
 
     3.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/configure-workplace-concierge.md)
+**Parent Topic:**[Configure Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/configure-workplace-concierge.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Report a risk event from the Risk Portal
 description: Report a risk event from the Risk Portal. The Risk Portal provides an easy method to quickly report risk events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-risk-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-risk-portal.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -37,5 +37,5 @@ Role required: sn\_grc.business\_user role
 
 The risk event is created and submitted for the risk team's review.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

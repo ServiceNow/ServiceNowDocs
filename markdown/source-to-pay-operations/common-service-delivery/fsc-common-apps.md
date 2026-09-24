@@ -2,7 +2,7 @@
 title: Common applications in FSC
 description: Finance and Supply Chain \(FSC\) enhances operational efficiency by utilizing shared applications across multiple products and workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/common-service-delivery/fsc-common-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/common-service-delivery/fsc-common-apps.html
 release: australia
 product: Common Service Delivery
 classification: common-service-delivery
@@ -33,7 +33,7 @@ Finance and Supply Chain includes the following common applications:
 -   Source-to-Pay Common Architecture \[snc.sn\_shop\]
 -   Source-to-Pay Integration Framework \[sn\_spend\_intg\]
 
-To learn more about each application, see [Learn about FSC common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/learn-common-apps.md).
+To learn more about each application, see [Learn about FSC common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/common-service-delivery/learn-common-apps.md).
 
 ## Request apps on the Store
 

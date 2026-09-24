@@ -2,7 +2,7 @@
 title: SharePoint Online Search Connector search results
 description: Learn about the SharePoint Online Search Connector searches and the results displayed for your search requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/using-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/using-search.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

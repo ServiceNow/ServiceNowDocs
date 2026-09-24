@@ -2,7 +2,7 @@
 title: Automatically generate a map source hierarchy
 description: A map source hierarchy is a data source that is used to create a map report. Except for the top-level wrapper, each map source level in the hierarchy defines the data for one map drill level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_AutoGenerateMapSourceHierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_AutoGenerateMapSourceHierarchy.html
 release: australia
 product: Reporting
 classification: reporting
@@ -52,7 +52,7 @@ Role required: report\_admin or admin
 
 The map source is ready to use in a map report.
 
-**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdministeringMapReports.md)
+**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdministeringMapReports.md)
 
 **Related topics**  
 

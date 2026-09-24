@@ -2,7 +2,7 @@
 title: Configure elastic event pull connectors for MPN
 description: Configure a mobile private network \(MPN\) pull connector instance to collect metrics, including latency KPIs, from specified KPI domains in Elastic data store. The connector publishes metrics for assurance monitoring and analytics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-mpn-connectors-for-events-and-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/configure-mpn-connectors-for-events-and-metrics.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -64,12 +64,12 @@ Roles required: tsom\_assurance\_admin and assigned roles for MID Server.
 7.  Select **Update**.
 
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
 
 **Related topics**  
 
 
-[MPN latency KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-latency-kpis.md)
+[MPN latency KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-latency-kpis.md)
 
 [View metric to CI and resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-metric-to-CI-binding.md)
 

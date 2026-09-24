@@ -2,7 +2,7 @@
 title: Configure a persona
 description: Create a persona to bind the API token that is used by the Service Graph Connector for Tanium Endpoints. If a persona for the integration already exists, edit it. Use a persona only if a service account isn't permitted by your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-configure-persona.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-configure-persona.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

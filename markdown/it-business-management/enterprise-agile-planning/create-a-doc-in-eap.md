@@ -2,7 +2,7 @@
 title: Create a Doc in EAP
 description: Store information related to your work, iterations, and teams, and collaborate in real-time using Docs in Enterprise Agile Planning workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -70,5 +70,5 @@ Actions
 
 ## What to do next
 
-[Manage pages and subpages within a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-pages-within-a-doc-in-eap.md).
+[Manage pages and subpages within a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-pages-within-a-doc-in-eap.md).
 

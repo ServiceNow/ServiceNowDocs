@@ -2,7 +2,7 @@
 title: Data visualization library recommendations
 description: Analytics managers can view information about potentially problematic data visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-viz-library-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-viz-library-recommendations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ The following types of recommendations are currently available:
 |n Unused data visualizations|Number of data visualizations that are not used in any dashboards|
 |n No active owner|Number of data visualizations without an active owner|
 
-**Parent Topic:**[Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-library-recommendations.md)
+**Parent Topic:**[Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-library-recommendations.md)
 

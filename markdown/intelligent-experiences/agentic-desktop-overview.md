@@ -2,7 +2,7 @@
 title: AI Desktop Actions Design workspace
 description: The Design workspace is an interactive environment within AI Desktop Actions that enables you to create desktop actions by recording and configuring user interactions with desktop applications. The workspace provides a visual canvas where you can design multi-screen automation workflows that capture business processes across different applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/agentic-desktop-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/agentic-desktop-overview.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-09"
@@ -252,15 +252,15 @@ Screen capture options
 </table>**Related topics**  
 
 
-[Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
+[Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
 
-[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md)
+[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/auto-create-desktop-action-ad.md)
 
-[Extend a desktop action by manually capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manual-create-desktop-action-ad.md)
+[Extend a desktop action by manually capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manual-create-desktop-action-ad.md)
 
-[Example: Automate badge request management using AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-badging-magmt-concept-ad.md)
+[Example: Automate badge request management using AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/example-badging-magmt-concept-ad.md)
 
-[Example: Automate shipping management tasks using AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-shipping-magmt-concept-ad.md)
+[Example: Automate shipping management tasks using AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/example-shipping-magmt-concept-ad.md)
 
-[Screen, anchor, and step properties in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/screen-anchor-and-action-properties-ad.md)
+[Screen, anchor, and step properties in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/screen-anchor-and-action-properties-ad.md)
 

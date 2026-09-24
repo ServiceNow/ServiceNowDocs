@@ -2,11 +2,11 @@
 title: Combined ServiceNow Otto for FSM release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for FSM from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforfsm-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoforfsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 6
+last_updated: "2026-09-24"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -84,6 +84,20 @@ Access Now Assist Virtual Agent from a primary action button in the ServiceNow A
 Use voice input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app. Tap the microphone icon to dictate messages instead of typing.
 
 
+ -   **[AI agent: Create Work Order](https://www.servicenow.com/docs/access?context=fsm-ai-agent-use-cases&family=zurich&ft:locale=en-US)**
+
+You can leverage AI to create work orders from a written description of the issue. The Create Work Order AI agent is available through the Now Assist panel on platform and through the ServiceNow Agent mobile app.
+
+
+ -   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+
+-   **[Custom template and custom prompt support](https://www.servicenow.com/docs/access?context=customize-a-skill&family=zurich&ft:locale=en-US)**
+
+As an admin, you can clone the KB generation skill and customize the input fields. You can also clone the Work order task summarization skill, then access the skill in the Now Assist skill kit, and update the prompts.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -138,6 +152,16 @@ The Now Assist Virtual Agent interface includes updated icons for web search, ph
  -   **[Create Work Order AI agent performance improvements](https://www.servicenow.com/docs/access?context=fsm-ai-agent-use-cases&family=zurich&ft:locale=en-US)**
 
 The Create Work Order AI agent was optimized to reduce latency and improve response times. Inter-agent communication was streamlined to minimize redundant processing during work order creation.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Removed prompt headers](https://www.servicenow.com/docs/access?context=cust-now-assist-fsm-wot-summarization-skill&family=zurich&ft:locale=en-US)**
+
+The prompt headers have been removed from the work order summarization skill to support third-party large language models. You can now customize prompts via a hyperlink to the Now Assist skill.
 
 
 </td></tr><tr><td>
@@ -246,6 +270,8 @@ Zurich
 Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
 
 
+**Important:** ServiceNow Otto for FSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -256,6 +282,8 @@ Australia
 
 Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for FSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -421,5 +449,5 @@ Australia
  See [\[Placeholder link text to key bundle-fsm.now-assist-fsm\]](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

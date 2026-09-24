@@ -2,7 +2,7 @@
 title: Set up Configurable Portal widgets
 description: Configurable Portal widgets provide you with the ability to configure the behavior, content, and layout of a portal by configuring instance options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-configurable-portal-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-configurable-portal-widget.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -46,7 +46,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Portal Polaris Header widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-header-widget.md)
+[Portal Polaris Header widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-header-widget.md)
 
 </td><td>
 
@@ -54,7 +54,7 @@ Display access key features and pages from any place in portal. It shows logo, s
 
 </td></tr><tr><td>
 
-[Portal Mega Menu widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-mega-menu-widget.md)
+[Portal Mega Menu widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-mega-menu-widget.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ The menu on the header of the portal home page to navigate to different pages. I
 
 </td></tr><tr><td>
 
-[Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/browse-taxo-widget.md)
+[Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/browse-taxo-widget.md)
 
 </td><td>
 
@@ -70,7 +70,7 @@ Display taxonomy topics along with the articles and catalog items related to the
 
 </td></tr><tr><td>
 
-[Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-widget.md)
+[Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-widget.md)
 
 </td><td>
 
@@ -78,7 +78,7 @@ Banner to display the announcements, new product or feature highlights, and impo
 
 </td></tr><tr><td>
 
-[Portal Banner Carousel widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-portal-carousel-widget.md)
+[Portal Banner Carousel widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-portal-carousel-widget.md)
 
 </td><td>
 
@@ -86,7 +86,7 @@ Displays multiple banners in a carousel to display information on multiple annou
 
 </td></tr><tr><td>
 
-[Portal Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-quick-links-widget.md)
+[Portal Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-quick-links-widget.md)
 
 </td><td>
 
@@ -94,7 +94,7 @@ Display different links for quick access including links to a knowledge article,
 
 </td></tr><tr><td>
 
-[Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-know-quick-links-widget.md)
+[Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-know-quick-links-widget.md)
 
 </td><td>
 
@@ -102,7 +102,7 @@ Display a list of articles for quick access. Articles can be selected based on f
 
 </td></tr><tr><td>
 
-[Portal Catalog Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-catalog-widget.md)
+[Portal Catalog Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-catalog-widget.md)
 
 </td><td>
 
@@ -110,7 +110,7 @@ Displays catalog items for important request items based on the criteria.
 
 </td></tr><tr><td>
 
-[Portal Case Cards widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget.md)
+[Portal Case Cards widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget.md)
 
 </td><td>
 
@@ -118,7 +118,7 @@ Displays case records according to the filter criteria. You can display case det
 
 </td></tr><tr><td>
 
-[Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-data-list-widget.md)
+[Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-data-list-widget.md)
 
 </td><td>
 
@@ -126,7 +126,7 @@ Displays a list of cases, appointments, work orders, or other records from any S
 
 </td></tr><tr><td>
 
-[Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-faq-widget.md)
+[Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-faq-widget.md)
 
 </td><td>
 
@@ -134,7 +134,7 @@ Displays a list of frequently asked articles from a selected knowledge table tha
 
 </td></tr><tr><td>
 
-[Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget.md)
+[Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget.md)
 
 </td><td>
 
@@ -142,7 +142,7 @@ Display important information at the bottom of each page. The information includ
 
 </td></tr><tr><td>
 
-[Portal Object widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-object-widget.md)
+[Portal Object widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-object-widget.md)
 
 </td><td>
 
@@ -150,7 +150,7 @@ Display key information of a record from the tables available on ServiceNow® ta
 
 </td></tr><tr><td>
 
-[Portal Taxonomy Topic widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-taxo-topic-widget.md)
+[Portal Taxonomy Topic widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-taxo-topic-widget.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: ServiceNow Remote Instance
 description: The ServiceNow Remote Instance connector provides read-only access to another ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/servicenow-remote-instance-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/servicenow-remote-instance-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ The ServiceNow Remote Instance connector provides read-only access to another Se
 
 The ServiceNow Remote Instance connector enables you to query tables residing in remote ServiceNow instances and access that data as if it were stored locally. This connector is designed to allow a central instance to retrieve records from one or more remote instances in real time.
 
-A connection admin can set up a connection to a remote ServiceNow instance in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from the remote instance. This allows users to access remote ServiceNow data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+A connection admin can set up a connection to a remote ServiceNow instance in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from the remote instance. This allows users to access remote ServiceNow data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md).
 
 ## How the connector works
 
@@ -53,5 +53,5 @@ When an executive dashboard displays consolidated metrics, the central instance 
 **Related topics**  
 
 
-[Create a ServiceNow Remote Instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-servicenow-remote-instance-connection.md)
+[Create a ServiceNow Remote Instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-servicenow-remote-instance-connection.md)
 

@@ -2,7 +2,7 @@
 title: Configure menu items
 description: Menu items are the links that appear within each menu section.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_ConfigureMenuItems.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_ConfigureMenuItems.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -57,12 +57,12 @@ Not all navigation menu sections require menu items. Use menu items to link user
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Configure menu sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_ConfigureMenuSections.md)
+**Parent Topic:**[Configure menu sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_ConfigureMenuSections.md)
 
 **Related topics**  
 
 
-[Menu types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_MenuTypes.md)
+[Menu types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/r_MenuTypes.md)
 
-[Menu style customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CustomizeTheMenuStyle.md)
+[Menu style customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_CustomizeTheMenuStyle.md)
 

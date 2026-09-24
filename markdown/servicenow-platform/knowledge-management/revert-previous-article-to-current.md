@@ -2,7 +2,7 @@
 title: Revert an outdated article to the current state
 description: Use an outdated version of an article to create a new version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/revert-previous-article-to-current.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/revert-previous-article-to-current.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -20,7 +20,7 @@ Use an outdated version of an article to create a new version.
 
 Roles required: knowledge\_admin or knowledge\_manager \(for the knowledge base containing the article\)
 
-**Note:** If you're using ownerships groups, members of the ownership group for an article \(who also have the knowledge role\) can revert articles to a previous version. For more information, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md).
+**Note:** If you're using ownerships groups, members of the ownership group for an article \(who also have the knowledge role\) can revert articles to a previous version. For more information, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/enable-ownership-group.md).
 
 ## About this task
 
@@ -39,5 +39,5 @@ This action is available for earlier published versions that have a state of **O
     The system displays the Knowledge form. The version number increments to the latest version number plus 0.01 and the state changes to **Draft**. For example, if the latest published version of an article is 3.0 and you select the outdated 1.0 version to become the current version, the version number increments to 3.01.
 
 
-**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-article-versioning_0.md)
+**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/use-article-versioning_0.md)
 

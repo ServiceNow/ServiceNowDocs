@@ -2,7 +2,7 @@
 title: Use the SetProcessFieldParameters component
 description: Sets the values of the associated Table fields mapped to the process field parameter, that you had configured in an attended configuration record of a bot process. This component updates the values of the configured field parameters associated to the Table field in the ServiceNow form record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-set-process-field-param-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-set-process-field-param-forms.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,11 +16,11 @@ Sets the values of the associated **Table** fields mapped to the process field p
 
 ## Before you begin
 
-If you are running an automation from RPA Desktop Design Studio, then assign the automation to the bot process by using the **Assign bot process** option from the **Design** tab of RPA Desktop Design Studio. In the **Bot Process** field, ensure to select an attended bot process that is enabled with Embedded Task Automation. In the **Attended Config** field, ensure to select an associated attended configuration. In the **Record Context** field, ensure to enter the Sys ID or URL of the ServiceNow form record. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-bot-process.md).
+If you are running an automation from RPA Desktop Design Studio, then assign the automation to the bot process by using the **Assign bot process** option from the **Design** tab of RPA Desktop Design Studio. In the **Bot Process** field, ensure to select an attended bot process that is enabled with Embedded Task Automation. In the **Attended Config** field, ensure to select an associated attended configuration. In the **Record Context** field, ensure to enter the Sys ID or URL of the ServiceNow form record. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/assign-bot-process.md).
 
-Create process field parameters as part of a bot process on the RPA Hub. See [Create a process field parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-process-field-param-rpa.md).
+Create process field parameters as part of a bot process on the RPA Hub. See [Create a process field parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-process-field-param-rpa.md).
 
-Ensure you are familiar with Embedded Task Automation concepts. For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md).
+Ensure you are familiar with Embedded Task Automation concepts. For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md).
 
 Role required:
 
@@ -29,9 +29,9 @@ Role required:
 
 ## About this task
 
-You can configure the properties for the SetProcessFieldParameters component. For more information about these properties, see [Properties of the Forms components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sn-forms-properties.md).
+You can configure the properties for the SetProcessFieldParameters component. For more information about these properties, see [Properties of the Forms components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/sn-forms-properties.md).
 
-Let's consider an employee badge creation use case. The following steps provide guidance of how to use the SetProcessFieldParameters component in this use case. For more information about the use case, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md).
+Let's consider an employee badge creation use case. The following steps provide guidance of how to use the SetProcessFieldParameters component in this use case. For more information about the use case, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md).
 
 ## Procedure
 
@@ -71,5 +71,5 @@ Let's consider an employee badge creation use case. The following steps provide 
 10. To test the component, right-click the title bar of the component and select **Run From Here**.
 
 
-**Parent Topic:**[Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/forms_sn_rpa_studio.md)
+**Parent Topic:**[Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/forms_sn_rpa_studio.md)
 

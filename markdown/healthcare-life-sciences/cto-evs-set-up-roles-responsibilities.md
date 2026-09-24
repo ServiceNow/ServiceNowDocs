@@ -2,7 +2,7 @@
 title: Setting up roles and responsibilities in Care Team Operations for Environmental Services
 description: To manage access effectively in Care Team Operations for Environmental Services, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-set-up-roles-responsibilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-set-up-roles-responsibilities.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Care Team Operations for Environmental Services, Healthc
 
 To manage access effectively in Care Team Operations for Environmental Services, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 
-To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
+To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
 
 The following roles and responsibilities are included with Care Team Operations for Environmental Services:
 
@@ -45,6 +45,6 @@ Can view/resolve all cases under their assignment group, tracks, and fulfill cas
 </td></tr></tbody>
 </table>## What to do next
 
-1.  [Set up roles for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-assign-roles.md)
-2.  [Assign responsibilities to Care Team Operations for Environmental Services users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-assign-responsibilities.md)
+1.  [Set up roles for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-evs-assign-roles.md)
+2.  [Assign responsibilities to Care Team Operations for Environmental Services users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-evs-assign-responsibilities.md)
 

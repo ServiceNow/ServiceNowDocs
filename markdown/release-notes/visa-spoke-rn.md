@@ -2,7 +2,7 @@
 title: Visa Spoke release notes
 description: The ServiceNow Visa Spoke application enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Australia release.The ServiceNow Visa Spoke application enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/visa-spoke-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/visa-spoke-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aus
     Install Visa Spoke by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
 
 ## Australia
 

@@ -2,7 +2,7 @@
 title: Managing custom apps using AEMC
 description: Review custom app metrics and manage apps through the development life cycle using the App Engine Management Center \(AEMC\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/manage-custom-apps-using-aemc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/manage-custom-apps-using-aemc.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -84,5 +84,5 @@ View the collaborators for the app by selecting the **Collaborators** tab. All c
 
 If you must take quick action in the application to fix an issue or defect, you can quickly see who has permissions to make changes in an app and what those permissions are.
 
-**Parent Topic:**[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/managing-app-development-using-aemc.md)
+**Parent Topic:**[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/managing-app-development-using-aemc.md)
 

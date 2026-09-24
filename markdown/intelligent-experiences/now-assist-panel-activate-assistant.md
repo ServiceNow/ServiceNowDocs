@@ -2,7 +2,7 @@
 title: Activate ServiceNow Otto panel assistants
 description: You must activate ServiceNow Otto panel assistants before using them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-panel-activate-assistant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-panel-activate-assistant.html
 release: australia
 topic_type: task
 last_updated: "2025-09-29"
@@ -29,5 +29,5 @@ Role required: admin
 3.  In the more actions icon, select **Active**.
 
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md)
 

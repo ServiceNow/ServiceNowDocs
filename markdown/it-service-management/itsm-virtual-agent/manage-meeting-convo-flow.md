@@ -2,7 +2,7 @@
 title: Microsoft Exchange Online meeting management pre-built topic for ITSM Virtual Agent
 description: ITSM Virtual Agent helps you manage meetings in Microsoft Exchange Online. Using the Manage Meetings EXO topic, you can schedule, reschedule, and cancel a meeting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/manage-meeting-convo-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/manage-meeting-convo-flow.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -27,7 +27,7 @@ Requirements:
 -   Some actions can use the [Microsoft Teams Communication spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/msteams-comm.md) \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
 -   Some actions can use the [Cisco Webex Teams spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cisco-teams-spoke.md) \(sn\_cisco\_teams\_spk\)
 -   Some actions can use the [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zoom-spoke.md)\(com.sn.zoom.spoke\) to add meeting links
--   This topic uses the [Employee Experience VA topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md)
+-   This topic uses the [Employee Experience VA topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md)
 
 **Note:** If this topic is duplicated in a different scope than ITSM Virtual Agent Conversations, script logic can be affected and cause errors. This topic must be duplicated in the ITSM Virtual Agent Conversations scope.
 
@@ -103,5 +103,5 @@ Basic flow for rescheduling a meeting:
 5.  Virtual Agent confirms that the meeting has been rescheduled.
 6.  User can reschedule additional meetings, if desired.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

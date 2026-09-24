@@ -2,7 +2,7 @@
 title: Create a Data Stream \(Integration Hub\) type data source
 description: Create a Data Stream \(IntegrationHub\) type data source record to define what complex data an import set should import from a Data Stream action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/create-data-stream-data-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/create-data-stream-data-source.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

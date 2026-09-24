@@ -2,7 +2,7 @@
 title: Review skipped records using related lists
 description: Use different related lists to resolve, track and review the skipped records in an upgrade.The following table gives the description of each field in all the related lists within the upgrade history module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-access-rl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-access-rl.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -34,7 +34,7 @@ Role required: admin
 
     -   **Skipped Changes to Review related list**
 
-        Resolve the skipped update records by tracking and reviewing them in the Skipped Changes to Review related list. To prevent your customizations from being overwritten during system upgrades, the upgrade process skips \(does not apply the update to\) objects that have been customized. See [Resolve a skipped update and set a resolution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-resolve-skipped-update.md) for more information.
+        Resolve the skipped update records by tracking and reviewing them in the Skipped Changes to Review related list. To prevent your customizations from being overwritten during system upgrades, the upgrade process skips \(does not apply the update to\) objects that have been customized. See [Resolve a skipped update and set a resolution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-resolve-skipped-update.md) for more information.
 
     -   **Skipped Changes Reviewed related list**
 
@@ -50,7 +50,7 @@ Role required: admin
 
     -   **Customization Unchanged related list**
 
-        Customizations Unchanged lists all records that were skipped \(due to a customization\), but there have been no changes from the last upgrade. See [Revert a customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-revert-customization.md) for more information.
+        Customizations Unchanged lists all records that were skipped \(due to a customization\), but there have been no changes from the last upgrade. See [Revert a customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-revert-customization.md) for more information.
 
     -   **Changes Applied related list**
 

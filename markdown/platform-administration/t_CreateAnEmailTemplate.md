@@ -2,7 +2,7 @@
 title: Create an email template
 description: You can create an email template with rich HTML formatting, rather than plain text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAnEmailTemplate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAnEmailTemplate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,7 +56,7 @@ Email layout
 
 </td><td>
 
-If the message body for the template is to be formatted using a predefined [email layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-layout.md), select the layout.
+If the message body for the template is to be formatted using a predefined [email layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-email-layout.md), select the layout.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Enter the content of the email template message. You can use the HTML editor too
 
 -   When a template is applied to a notification, the contents of this field are used when you select **HTML and plain text** or **HTML** in the **Content Type** field in the Email Notification form.
 -   You cannot use HTML code to control the appearance of the contents in the `${comments}` variable.
--   If you want to include a link to the record that triggered the notification, see [Enable links to records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EnableLinksToServiceNowRecords.md).
+-   If you want to include a link to the record that triggered the notification, see [Enable links to records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EnableLinksToServiceNowRecords.md).
 
 
 </td></tr><tr><td>
@@ -107,10 +107,10 @@ Create a different message to be delivered to an SMS device. Enter a brief messa
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md)
+**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailTemplates.md)
 
 **Related topics**  
 
 
-[Create an email layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-layout.md)
+[Create an email layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-email-layout.md)
 

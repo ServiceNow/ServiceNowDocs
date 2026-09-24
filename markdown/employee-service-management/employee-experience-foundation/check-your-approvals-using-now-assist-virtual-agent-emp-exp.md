@@ -2,7 +2,7 @@
 title: Check your approvals by using ServiceNow Otto for Virtual Agent
 description: Check the approvals that are assigned to you by using the ServiceNow Otto for Virtual Agent AI chat window. By checking your approvals before you begin your tasks, you avoid working on tasks that weren't approved and focus on what needs to be done.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/check-your-approvals-using-now-assist-virtual-agent-emp-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/check-your-approvals-using-now-assist-virtual-agent-emp-exp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -51,7 +51,7 @@ Role required: None
 10. End the chat by selecting **End chat**.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
+**Parent Topic:**[Using ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
 
 **Related topics**  
 

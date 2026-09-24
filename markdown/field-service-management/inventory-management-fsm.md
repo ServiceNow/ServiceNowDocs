@@ -2,7 +2,7 @@
 title: Inventory management in Field Service Management
 description: Inventory management is the process of keeping track of parts and supplies, including the transfer of parts, consumption, adjustments and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/inventory-management-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/inventory-management-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,5 +19,5 @@ Parts represent items which field service agents may need while completing a wor
 **Related topics**  
 
 
-[Manage inventory in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/sourcing-parts.md)
+[Manage inventory in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/sourcing-parts.md)
 

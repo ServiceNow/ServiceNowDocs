@@ -2,7 +2,7 @@
 title: Create or modify email digest intervals
 description: Admins can create or modify the email digest intervals \(length of time\) during which activity for a selected notification is accumulated in an email digest. Users select a digest interval when they enable an email digest in their notification preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-digest-intervals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-digest-intervals.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,12 +49,12 @@ Before adding an email digest interval, review the base system digest intervals 
 
 ## What to do next
 
-Determine the email notifications that can be delivered in a digest and [configure the email digest content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-email-digest.md) for those notifications.
+Determine the email notifications that can be delivered in a digest and [configure the email digest content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-email-digest.md) for those notifications.
 
-**Parent Topic:**[Email digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-digests.md)
+**Parent Topic:**[Email digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-digests.md)
 
 **Related topics**  
 
 
-[Email digest properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-digest-properties.md)
+[Email digest properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-digest-properties.md)
 

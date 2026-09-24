@@ -2,12 +2,12 @@
 title: Generate a data binding and formula
 description: Automatically generate a data binding and formula using natural language with correct syntax.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/generate-data-bindings-and-formulas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/generate-data-bindings-and-formulas.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -18,8 +18,8 @@ Automatically generate a data binding and formula using natural language with co
 
 ## Before you begin
 
-1.  Install UI Generation application \(28.1 – Zurich or later\). For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md).
-2.  Make sure that you have the ui\_builder\_admin role. For more information, see [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+1.  Install UI Generation application \(28.1 – Zurich or later\). For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md).
+2.  Make sure that you have the ui\_builder\_admin role. For more information, see [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 3.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Creator** and activate the Data Binding Generation skill.
 4.  Select a large language model \(LLM\) provider.
@@ -36,21 +36,21 @@ Learn to use Data Binding Generation in ServiceNow® UI Builder with ServiceNow 
 
 2.  Create an experience or open an existing one.
 
-    For more information, see [Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-experience.md).
+    For more information, see [Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-experience.md).
 
 3.  Create a page or open an existing one.
 
-    For more information, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md).
 
 4.  Create a page variant or open an existing one.
 
-    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
+    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-variant.md).
 
 5.  Open the Page Editor.
 
 6.  Add a data resource or open an existing one.
 
-    For more information, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-data-resources.md).
+    For more information, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-data-resources.md).
 
 7.  From the Data Binding popover, select **Get started**.
 
@@ -87,10 +87,10 @@ Data binding and formula are generated.
 |-------|-----|----------|
 |Data binding generation returns incorrect syntax|The prompt is ambiguous or uses terms not recognized as synonyms.|Refine the prompt using more specific language. Refer to the Formula Operators table for supported synonyms. Try selecting an example from the Data Binding popover.|
 
-**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-generation.md)
+**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-generation.md)
 
 **Related topics**  
 
 
-[Natural language synonyms for formula operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/natural-language-synonyms-for-formula-operators.md)
+[Natural language synonyms for formula operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/natural-language-synonyms-for-formula-operators.md)
 

@@ -2,7 +2,7 @@
 title: Cancel an obligation task
 description: Cancel an open obligation task in Obligation Management that is no longer required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-cancel-ob-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-cancel-ob-task.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -32,15 +32,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an obligation task from the workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d367015e70">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d367019e70">
 
 Method
 
-</th><th align="left" id="d367015e73">
+</th><th align="left" id="d367019e73">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d367015e79">
+</th></tr></thead><tbody><tr><td id="d367019e79">
 
 **Contract Workspace**
 
@@ -53,7 +53,7 @@ Steps
 5.  Select the obligation task.
 
 
-</td></tr><tr><td id="d367015e127">
+</td></tr><tr><td id="d367019e127">
 
 **Workspace used by your application**
 
@@ -78,5 +78,5 @@ Steps
 
 The state of the obligation task changes to Canceled.
 
-**Parent Topic:**[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-obligation-management.md)
+**Parent Topic:**[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-obligation-management.md)
 

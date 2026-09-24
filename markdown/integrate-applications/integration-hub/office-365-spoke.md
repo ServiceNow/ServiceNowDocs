@@ -2,7 +2,7 @@
 title: Microsoft 365 Excel Spoke
 description: Manage Microsoft Office 365 Excel workbooks stored in Microsoft OneDrive from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/office-365-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/office-365-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -81,5 +81,5 @@ Update Cells action: The action input, Value 1 corresponds to the first row in y
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Microsoft 365 Excel spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-office-365-excel.md).
+For information about setting up the spoke, see [Set up the Microsoft 365 Excel spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-office-365-excel.md).
 

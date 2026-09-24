@@ -2,7 +2,7 @@
 title: Prompt library
 description: The prompt library provides a centralized place to browse, save, and reuse prompt templates from within chats. Instead of typing frequently-used prompts from scratch, you can select from promoted templates or save your own custom prompts for quick access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/now-assist-prompt-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/now-assist-prompt-library.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -23,7 +23,7 @@ With the prompt library, you can do the following:
 -   Discover new prompts - Browse recommendations tailored to your workflow.
 -   Build your own library - Save frequently-used messages as custom prompts for quick reuse.
 
-An administrator must enable the prompt library before you can use it, see [Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/edit-assistant.md) for information on enabling it. When the prompt library is disabled, the greeting screen shows the All Topics menu instead.
+An administrator must enable the prompt library before you can use it, see [Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/edit-assistant.md) for information on enabling it. When the prompt library is disabled, the greeting screen shows the All Topics menu instead.
 
 Access the prompt library by selecting **View prompt library** from the greeting screen or from the + icon on the omnibar.
 

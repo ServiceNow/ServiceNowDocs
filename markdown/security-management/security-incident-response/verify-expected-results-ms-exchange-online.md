@@ -2,7 +2,7 @@
 title: Define email search criteria and request a search
 description: As a user with the sn\_si.analyst role, set up search criteria and submit an email search request based on incident details on a security incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-expected-results-ms-exchange-online.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/verify-expected-results-ms-exchange-online.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -278,9 +278,9 @@ Delete this Email Search record from your ServiceNow AI Platform instance. This 
     After an email search is successfully completed, evaluate the results. If you determine that emails require remediation, you're now ready to delete emails, or request delete approval.
 
 
-**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msx_configure.md)
+**Previous topic:**[Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msx_configure.md)
 
-**Next topic:**[Request delete approval for emails on Microsoft Exchange online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-delete-email.md)
+**Next topic:**[Request delete approval for emails on Microsoft Exchange online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-delete-email.md)
 

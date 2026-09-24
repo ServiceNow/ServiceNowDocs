@@ -2,7 +2,7 @@
 title: Generate a knowledge article from multiple procurement cases
 description: Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) to generate a single knowledge article from multiple closed procurement cases in the Source-to-Pay Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/generate-knowledge-article-multiple-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/generate-knowledge-article-multiple-cases.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -74,5 +74,5 @@ If article generation fails:
 
 If the issue persist, contact your administrator.
 
-**Parent Topic:**[Generate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-generate-knowledge-article.md)
+**Parent Topic:**[Generate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-generate-knowledge-article.md)
 

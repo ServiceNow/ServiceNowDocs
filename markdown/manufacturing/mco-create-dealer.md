@@ -2,7 +2,7 @@
 title: Create dealer
 description: Create a dealer role to provide access to MCO capabilities and enable dealers to manage their assigned manufacturing and commercial operations activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-dealer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-dealer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

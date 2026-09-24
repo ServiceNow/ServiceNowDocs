@@ -2,7 +2,7 @@
 title: Article versioning
 description: Use the Knowledge Management article versioning feature to create and maintain multiple versions of a knowledge article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/article-versioning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/article-versioning.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -32,7 +32,7 @@ With the article versioning feature, a knowledge user can:
 
 **Note:** Only an author \(who checks out an article for revision\), knowledge base owner, and user with knowledge\_admin role can edit an article in the draft state.
 
-To track the different revisions, the article versioning feature introduces version numbering. For more information, see [Knowledge article version numbers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md)
+To track the different revisions, the article versioning feature introduces version numbering. For more information, see [Knowledge article version numbers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md)
 
 With the article versioning feature, the knowledge article number also includes the version number. All references to knowledge articles use this number format. For example, KB0010003 v2.0. To access all the versions of knowledge article, navigate to **All** &gt; **Knowledge** &gt; **Articles** &gt; **All** and open article with multiple versions. In the Related list, you can access all the versions.
 
@@ -40,12 +40,12 @@ Define minor fields so users can make some edits without triggering a new versio
 
 ## Activation information
 
-The article versioning feature requires the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) to be activated and the **glide.knowman.versioning.enabled** property to be set to true \(default value\). For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md) and [Article versioning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+The article versioning feature requires the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) to be activated and the **glide.knowman.versioning.enabled** property to be set to true \(default value\). For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md) and [Article versioning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 **Related topics**  
 
 
-[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-article-versioning_0.md)
+[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/use-article-versioning_0.md)
 
 [Knowledge Management FAQ](https://community.servicenow.com/community?id=community_article&sys_id=637ffc92db519490d82ffb24399619f3)
 

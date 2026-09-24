@@ -2,7 +2,7 @@
 title: Create an email notification using the Notification agent
 description: Create an email notification using the Notification agent by describing your requirements in natural language, without navigating forms or writing scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-email-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-email-notification.html
 release: australia
 topic_type: task
 last_updated: "2026-03-20"

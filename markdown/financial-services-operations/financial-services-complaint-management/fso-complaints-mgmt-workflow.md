@@ -2,7 +2,7 @@
 title: Financial Services Complaint Management workflow example
 description: The Financial Services Complaint Management application installs an automated workflow for complaint servicing. This workflow enables intake of complaints and routing of cases and tasks to different departments, including the complaint, quality control, and business unit specific agents. The workflow applies to both business and personal complaint service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/fso-complaints-mgmt-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-complaint-management/fso-complaints-mgmt-workflow.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management

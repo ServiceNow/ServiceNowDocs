@@ -2,7 +2,7 @@
 title: List API - ServiceNow Fluent
 description: The List API defines list views \[sys\_ui\_list\] for tables.Configure lists \[sys\_ui\_list\] and their views.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/list-api-now-ts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-sdk/list-api-now-ts.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -20,12 +20,12 @@ The List API defines list views \[sys\_ui\_list\] for tables.
 
 For general information about lists, see [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_ListAdministration.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md)
 
 ## List object
 
@@ -65,7 +65,7 @@ Reference or String
 
 </td><td>
 
-Required. The variable identifier or name of the UI view \[sys\_ui\_view\] which applies, or the default view. To define a UI view, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).To use the default view \(`default_view`\), you must import it:
+Required. The variable identifier or name of the UI view \[sys\_ui\_view\] which applies, or the default view. To define a UI view, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/record-api-now-ts.md).To use the default view \(`default_view`\), you must import it:
 
 ```javascript
 import { default_view } from '@servicenow/sdk/core'

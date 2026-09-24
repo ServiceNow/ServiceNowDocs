@@ -2,7 +2,7 @@
 title: Activate the smart documents skill
 description: Activate the smart documents skill to get document insights through conversational interactions by using Now Assist in the Document Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/activate-smart-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/activate-smart-documents.html
 release: australia
 topic_type: task
 last_updated: "2026-06-23"
@@ -19,7 +19,7 @@ Activate the smart documents skill to get document insights through conversation
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
-**Note:** From Zurich Patch 11 and Australia Patch 4 onwards, Smart documents skill is enabled by default for all tables. For more information see, [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
+**Note:** From Zurich Patch 11 and Australia Patch 4 onwards, Smart documents skill is enabled by default for all tables. For more information see, [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-skill-smart-documents.md).
 
 ## Procedure
 
@@ -52,5 +52,5 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## What to do next
 
-To configure system properties for the Smart Documents skill, see [System property for Smart Documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/system-property-smart-documents.md).
+To configure system properties for the Smart Documents skill, see [System property for Smart Documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/system-property-smart-documents.md).
 

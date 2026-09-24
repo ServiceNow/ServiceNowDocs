@@ -2,7 +2,7 @@
 title: Integrating Virtual Agent with IBM Watson Assistant
 description: Set up the IBM Watson Assistant topic to run dialog skills \(conversations created in IBM Watson Assistant\) in the web-based chat client. This topic returns information exchanged during the Virtual Agent conversation to IBM Watson Assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-watson-assistant-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-watson-assistant-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +19,7 @@ Set up the IBM Watson Assistant topic to run dialog skills \(conversations creat
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 -   In IBM Watson Assistant:
     -   Create the dialog skill \(conversation\) in your IBM Watson Assistant workspace. The skill includes the dialog and any intents and entities that you define.
@@ -85,5 +85,5 @@ This topic runs an IBM Watson Assistant dialog in Virtual Agent. It doesn't requ
     Use the `sysparm_topic` parameter only to load the given topic in the Service Portal chat client or when using the IBM Watson Assistant chat integrations \(com.glide.cs.ibm.watson.assistant.topic and com.glide.cs.ibm.watson.assistant.topicV2 plugins\). This parameter doesn’t allow users to start a new conversation or transfer to a live agent. It also disables the context menu and doesn't support other third-party chat clients.
 
 
-**Parent Topic:**[Integrating IBM Watson Assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ibm-watson-assistant-config.md)
+**Parent Topic:**[Integrating IBM Watson Assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ibm-watson-assistant-config.md)
 

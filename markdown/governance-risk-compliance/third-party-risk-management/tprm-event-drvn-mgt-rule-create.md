@@ -2,7 +2,7 @@
 title: Event-driven management — automate assessment processes
 description: Use the Event-driven management feature to configure rules that auto-generate and send questionnaires and doc requests to engagements and third parties. For engagements and third parties that meet the criteria you define, you specify the schedule and the assessment templates. You can automate all assessment types except onboarding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-create.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -86,7 +86,7 @@ Category
 -   Reassess engagement: Reassess an existing engagement when the conditions change. For example, let's say that you hear adverse news or have changes in your third-party's supply lines. You might want to reassess the risk by conducting additional due diligence.
 -   Reassess engagement for contract renewal: Reassess the risk before your organization renews the contract with a current third party or engagement by conducting due diligence.
 -   Offboard engagement with due diligence: Determine if offboarding \(terminating the relationship\) with an engagement is the optimal course of action by conducting due diligence. For example, it might be too risky to switch third parties or engagements even if their current performance doesn’t meet expectations.
--   Offboard engagement with NO due diligence: Request that an engagement be permanently terminated when an engagement ends or you want to switch to a different third party for other reasons. In this case, you typically don't need to conduct additional due diligence. The process does, however, include the normal Inherent Risk Questionnaire \(IRQ\) process to confirm that the services provided by the engagement will no longer continue. For important details, see [Offboarding an engagement without conducting due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dd-request-offboard-no-dd.md).
+-   Offboard engagement with NO due diligence: Request that an engagement be permanently terminated when an engagement ends or you want to switch to a different third party for other reasons. In this case, you typically don't need to conduct additional due diligence. The process does, however, include the normal Inherent Risk Questionnaire \(IRQ\) process to confirm that the services provided by the engagement will no longer continue. For important details, see [Offboarding an engagement without conducting due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dd-request-offboard-no-dd.md).
 
 
 </td></tr><tr><td>
@@ -279,5 +279,5 @@ Timestamp of the most recent run that is in the **Successful** state.
 **Related topics**  
 
 
-[View the run history for event-driven management rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-history.md)
+[View the run history for event-driven management rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-history.md)
 

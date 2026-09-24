@@ -2,7 +2,7 @@
 title: Portal Playbook Widget
 description: Explore the Portal Playbook Widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/portal-playbook-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/portal-playbook-widget.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

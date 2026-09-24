@@ -2,7 +2,7 @@
 title: Review and certify data certification tasks
 description: You can review and complete data certification tasks to confirm that records meet the standards defined in a certification policy. Certification tasks are generated when a policy is run and are assigned based on the policy's assignment configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-approve-data-cert-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-approve-data-cert-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-30"
@@ -78,5 +78,5 @@ Certification results are applied only to fields that are still pending review. 
 
 Certification fields are indicated by a check mark in the column header. Other fields are displayed only to help identify the record.
 
-**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-data-cert.md)
+**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-data-cert.md)
 

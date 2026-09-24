@@ -2,7 +2,7 @@
 title: Configure translated values for decorative slider
 description: Add translated values to your decorative slider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/decorative-slider-translation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/decorative-slider-translation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Add translated values to your decorative slider.
 
 Role required: admin
 
-You first need to create a decorative slider before you can add translated values. For more information, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/decorative-slider.md).
+You first need to create a decorative slider before you can add translated values. For more information, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/decorative-slider.md).
 
 Access your decorative slider record from your input form screen and keep a record of all the Label values contained within the JSON script. These are the name values that you will be identifying for translation.
 
@@ -26,7 +26,7 @@ Access your decorative slider record from your input form screen and keep a reco
 
 1.  Navigate to the Input record in the navigation tree within Mobile App Builder, which contains the decorative slider input attribute for translating.
 
-    **Note:** For instructions on creating a decorative slider, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/decorative-slider.md).
+    **Note:** For instructions on creating a decorative slider, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/decorative-slider.md).
 
 2.  Select **New** from the Inputs attribute area.
 

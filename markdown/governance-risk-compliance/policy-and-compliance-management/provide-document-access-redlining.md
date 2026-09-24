@@ -2,7 +2,7 @@
 title: Provide document access to policy users
 description: Grant access to the users who have assigned roles to collaborate on the redlining-enabled policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/provide-document-access-redlining.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/provide-document-access-redlining.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

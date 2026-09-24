@@ -2,7 +2,7 @@
 title: Create a user view in Service Operations Workspace
 description: Create and customize a user view in the Service Operations Workspace to enable viewing information in the format you want.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-customized-user-view-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/create-customized-user-view-sow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Role required: evt\_mgmt\_admin
 
     The Service Dashboard page appears.
 
-    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/add-impact-cal-services.md).
+    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/add-impact-cal-services.md).
 
 3.  Customize the dashboard appearance by selecting output criteria from the **Group by**, **Group order**, or **Segment each group by** filters, or by selecting the relevant **Severity breakdown**.
 
@@ -59,5 +59,5 @@ Role required: evt\_mgmt\_admin
     \[Omitted image "select-view-dropdown-2.png"\] Alt text: List that displays all the views.
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/workspace-dashboard-use.md)
 

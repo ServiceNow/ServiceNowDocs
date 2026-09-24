@@ -2,7 +2,7 @@
 title: Rules based engine
 description: The rule-based engine maps invoice lines to purchase order lines using unit price, delivered unit price, exact description, exact amount, and amount round off.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/rules-based-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/rules-based-engine.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -21,7 +21,7 @@ The digitized invoice in accepted state moves to suspected duplicate state where
 
 \[Omitted image "rules-based-engine.png"\] Alt text: Rules based engine
 
-**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
+**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
 
 **Related topics**  
 

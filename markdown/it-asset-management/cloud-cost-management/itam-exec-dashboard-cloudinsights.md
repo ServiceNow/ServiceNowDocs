@@ -2,7 +2,7 @@
 title: Visibility into Cloud Cost Management KPIs using the Asset Management Executive Dashboard
 description: Use the Asset Management Executive Dashboard to gain visibility into critical KPIs for Hardware Asset Management, Software Asset Management, and Cloud Cost Management applications via a single dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/itam-exec-dashboard-cloudinsights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/itam-exec-dashboard-cloudinsights.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

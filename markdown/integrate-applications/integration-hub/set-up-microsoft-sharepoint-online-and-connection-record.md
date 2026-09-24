@@ -2,7 +2,7 @@
 title: Configure Microsoft SharePoint Online connection record
 description: Integrate your ServiceNow instance with the Microsoft SharePoint Online by setting up the Microsoft SharePoint Online and a connection record.Generate a digital certificate file in the .cer format to upload it to Microsoft Azure.Generate a digital certificate file in the .cer format to upload it to Microsoft Azure.Create a custom app using your Azure portal to authenticate requests.Enable the JWT Bearer Grant token authentication by attaching a valid Java Key Store \(JKS\) certificate.Create a JSON Web Token \(JWT\) signing key to assign to your Java Key Store certificate.Add a JSON Web Token \(JWT\) provider to your ServiceNow instance.Use the information generated during Microsoft SharePoint Online account configuration to register Microsoft SharePoint Online as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create Credential records to the Microsoft SharePoint Online custom OAuth application you created during Microsoft SharePoint Online account configuration. The Microsoft SharePoint Online spoke connection and credential aliases use these credentials to authorize actions.Create Connection records to your Microsoft SharePoint Online account. The Microsoft SharePoint Online spoke connection and credential alias uses these connections to perform actions on Microsoft SharePoint Online.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-microsoft-sharepoint-online-and-connection-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-microsoft-sharepoint-online-and-connection-record.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -19,7 +19,7 @@ Integrate your ServiceNow instance with the Microsoft SharePoint Online by setti
 ## Before you begin
 
 -   Request Integration Hub subscription
--   Activate [Microsoft SharePoint Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md)
+-   Activate [Microsoft SharePoint Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/sharepoint-online-spoke.md)
 -   Create an OAuth application on Microsoft Azure portal.
 -   Access to Microsoft Azure portal
 -   Role required: admin
@@ -111,7 +111,7 @@ Create a custom app using your Azure portal to authenticate requests.
 
     4.  In the search field, enter the name of the OAuth application you had created.
 
-        To learn how to configure an OAuth application, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
+        To learn how to configure an OAuth application, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
     5.  On the left panel, under Manage heading, select Certificates &amp; secrets.
 
@@ -207,7 +207,7 @@ Enable the JWT Bearer Grant token authentication by attaching a valid Java Key S
 
 5.  Click the attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachments icon\) and attach the JKS certificate you had generated.
 
-    For more information, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
+    For more information, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 6.  Click **Validate Stores/Certificates**.
 

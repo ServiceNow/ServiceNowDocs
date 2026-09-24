@@ -2,7 +2,7 @@
 title: Virtual Agent feature support in Microsoft Teams conversations
 description: The Microsoft Teams app supports Virtual Agent features, such as Assistant Designer controls for creating conversations, notifications, AI Search results, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-teams-other-features.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-teams-other-features.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -35,11 +35,11 @@ Microsoft Teams has a limit on the maximum message size before paginating the me
 
 ## AI Search results
 
-ServiceNow Otto in Virtual Agent can generate AI Search results that are displayed as Genius result cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(Knowledge Base and catalog items\). The user has the option to like or dislike the information presented in the card. For more information, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-results-ais.md).
+ServiceNow Otto in Virtual Agent can generate AI Search results that are displayed as Genius result cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(Knowledge Base and catalog items\). The user has the option to like or dislike the information presented in the card. For more information, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-results-ais.md).
 
 ## URL navigation for chat links
 
-In the Virtual Agent and Live Agent conversations on the Microsoft Teams app, the links to ServiceNow records open automatically in base system portals, including the links that are displayed in the output cards, Virtual Agent notifications, and AI Search results. If needed, as the administrator, you can change the portals where these links are opened in. For configuration details, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-url-navigation.md).
+In the Virtual Agent and Live Agent conversations on the Microsoft Teams app, the links to ServiceNow records open automatically in base system portals, including the links that are displayed in the output cards, Virtual Agent notifications, and AI Search results. If needed, as the administrator, you can change the portals where these links are opened in. For configuration details, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-url-navigation.md).
 
 ## Masking of sensitive user data
 
@@ -88,16 +88,16 @@ For more information about the Microsoft Teams supported HTML tags for bot messa
 
 ## Custom controls in Microsoft Teams
 
-Using the Custom Control utility will cause failure in Microsoft Teams conversations with the message `channel is not supported`. See [Custom control utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-control-util.md) for more information on the utility.
+Using the Custom Control utility will cause failure in Microsoft Teams conversations with the message `channel is not supported`. See [Custom control utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-custom-control-util.md) for more information on the utility.
 
--   **[Assistant Designer Asset library user input and bot response controls in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-bot-controls.md)**  
+-   **[Assistant Designer Asset library user input and bot response controls in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-designer-bot-controls.md)**  
 Use the Assistant Designer Asset library user input and bot response controls for creating conversation topics are supported in Microsoft Teams conversations, including the table bot response, the card control that can display images, and the image bot response controls.
--   **[Virtual Agent notifications supported in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-notif-msteams.md)**  
+-   **[Virtual Agent notifications supported in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-notif-msteams.md)**  
 Microsoft Teams app supports Virtual Agent notifications during conversations.
--   **[Unsupported Virtual Agent features in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/limited-features-msteams.md)**  
+-   **[Unsupported Virtual Agent features in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/limited-features-msteams.md)**  
 Refer to the unsupported features of Virtual Agent in Conversational Integration with Microsoft Teams.
--   **[Capture common errors and provide resolution steps for Microsoft Teams using the Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/troubleshoot-msteams-diagnostic-tool.md)**  
+-   **[Capture common errors and provide resolution steps for Microsoft Teams using the Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/troubleshoot-msteams-diagnostic-tool.md)**  
 The Conversational Interfaces Diagnostic Tool runs a health report to define and capture information for different categories of the Conversational Integration with Microsoft Teams app, such as plugin details, configuration settings, system properties, integration failures, and so on, and lets the user validate and review these settings to start a bot-conversation.
 
-**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md)
+**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

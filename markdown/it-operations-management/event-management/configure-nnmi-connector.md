@@ -2,7 +2,7 @@
 title: Configure event collection from NNMi
 description: Configure the HP Network Node Manager i \(NNMi\) connector instance to receive events while monitoring your network resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-nnmi-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configure-nnmi-connector.html
 release: australia
 product: Event Management
 classification: event-management
@@ -183,5 +183,5 @@ Type of protocol. Default protocol type: `http`.
 9.  Click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

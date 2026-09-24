@@ -2,7 +2,7 @@
 title: Draft close notes for a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Automatically generate closure notes and close eligible risk signals at the end of each day based on the status of their associated risk solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/draft-risk-close-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/draft-risk-close-notes.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -46,5 +46,5 @@ A scheduled job runs everyday and automatically drafts closure notes for all ris
     For more details on creating the activity context group, see [Configure activity groups for the Customer History view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-activity-groups-ca.md).
 
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

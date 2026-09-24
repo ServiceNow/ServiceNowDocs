@@ -2,7 +2,7 @@
 title: Activate application restricted caller access
 description: You can activate the Scoped Application Restricted Caller Access plugin \(com.glide.scope.access.restricted\_caller\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/activate-RCA.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/activate-RCA.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md)
+**Parent Topic:**[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/restricted-caller-access-privilege.md)
 
 **Related topics**  
 

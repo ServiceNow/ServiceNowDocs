@@ -2,7 +2,7 @@
 title: Safe Workplace Dashboard
 description: The ServiceNow Safe Workplace Dashboard provides leaders in HR, Workplace Services, and Health &amp; Safety with a complete view of operations. Leaders have visual insight into the status of work sites and users to determine whether a site is ready to resume a safe operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.html
 release: australia
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -96,14 +96,14 @@ All decisions in connection with the implementation of this application are at t
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 
--   **[Install the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/install-safe-workplace-dashboard.md)**  
+-   **[Install the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/install-safe-workplace-dashboard.md)**  
 Install the Safe Workplace Dashboard application. You can install this application If you have the admin role.
--   **[Create a campus to appear on the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.md)**  
+-   **[Create a campus to appear on the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.md)**  
 You can create a campus from existing locations to appear on the Safe Workplace Dashboard.
--   **[Alert types used with the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/safe-wkplc-dashboard-alert-types.md)**  
+-   **[Alert types used with the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/safe-wkplc-dashboard-alert-types.md)**  
 Alert types define the ServiceNow® Performance Analytics \(PA\) thresholds used to generate alerts on the Safe Workplace Dashboard. Alerts are generated from application data once per day.
--   **[Using the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/using-safe-wkplc-dashboard.md)**  
+-   **[Using the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/using-safe-wkplc-dashboard.md)**  
 By using a map, you can review your organization's status regarding personnel and facility readiness to reopen.
 
-**Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/safe-workplace.md)
+**Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/safe-workplace.md)
 

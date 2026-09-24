@@ -2,7 +2,7 @@
 title: Follow records using the classic form in Next Experience
 description: Get notified when a work note or comment is added to a record by following it in the classic environment in Next Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/follow-records-in-next-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/follow-records-in-next-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,5 +50,5 @@ The following example shows a sample notification.
 **Related topics**  
 
 
-[Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-notifications-preferences.md)
+[Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-notifications-preferences.md)
 

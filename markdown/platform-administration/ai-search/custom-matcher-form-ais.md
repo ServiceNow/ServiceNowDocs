@@ -2,7 +2,7 @@
 title: Custom Matcher form
 description: The Custom Matcher form enables you to create a global search custom matcher.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/custom-matcher-form-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/custom-matcher-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Custom Matcher form enables you to create a global search custom matcher.
 
-For details on creating a global search custom matcher, see [Create a custom search matcher for global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-matcher-ais.md).
+For details on creating a global search custom matcher, see [Create a custom search matcher for global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-search-matcher-ais.md).
 
 <table id="table_lxb_c1j_kvb"><thead><tr><th>
 
@@ -75,5 +75,5 @@ Active
 Option to activate the custom matcher. To deactivate the matcher, clear the **Active** option.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/reference-ais.md)
 

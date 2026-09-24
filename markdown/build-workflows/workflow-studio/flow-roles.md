@@ -2,7 +2,7 @@
 title: Flow roles
 description: Create flows and subflows that run with specific roles. Assigning roles enables you to create user-initiated flows that run with their own roles rather than the user's roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-roles.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -18,7 +18,7 @@ Create flows and subflows that run with specific roles. Assigning roles enables 
 
 ## Role selection
 
-A flow runs as either the system user or as the user who initiates the session. You can only assign roles to flows that run as the user who initiates the session. When the flow runs as the system user, it runs with the system role, and individual role selection isn't available. For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+A flow runs as either the system user or as the user who initiates the session. You can only assign roles to flows that run as the user who initiates the session. When the flow runs as the system user, it runs with the system role, and individual role selection isn't available. For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md).
 
 You can assign multiple roles to a flow. Selecting new roles replaces the flow's original roles. If roles aren't selected, the flow runs with the roles of the user who initiates the session.
 
@@ -54,5 +54,5 @@ Assigning a role to a flow doesn't guarantee that the flow can access a record o
 
 A flow always runs using the roles it has been configured to run with in Workflow Studio. Flow roles override any roles inherited by an AI agent from a dynamic user or a specific AI user. If you want a flow to only run with the roles inherited from a user, remove flow roles. For information about adding roles to an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md)
 

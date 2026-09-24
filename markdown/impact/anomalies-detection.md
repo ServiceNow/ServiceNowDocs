@@ -2,7 +2,7 @@
 title: Anomalies detection in performance metrics
 description: Instance Observer proactively detects the anomalies for cyclical or non-cyclical metrics under the performance chart for the Impact Total package on production instances. Anomalies represent metrics outliers based on historical patterns. Every anomaly may not represent an issue, but, notifies you and you decide the criticality and configure alerts, accordingly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/anomalies-detection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/anomalies-detection.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ The AI Anomaly tool functions as a robust solution to identify anomalies within 
 
 The Anomalies tab indicates the number of triggered anomalies within the chosen timeframe. An anomaly is a data point that is unusual or doesn't conform to the expected patterns based on historical trends. In addition to visualization, the AI Anomaly tool empowers you to establish alerts based on the identified anomalies.
 
-**Note:** For more information on configuring anomaly alerts, see [Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-anomaly-alerts.md).
+**Note:** For more information on configuring anomaly alerts, see [Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-anomaly-alerts.md).
 
 ## Job anomaly detection
 
@@ -71,12 +71,12 @@ Drill down from the hourly scheduled job count into an individual recurrence job
 
 ## Anomaly response
 
-All anomalies don’t represent an issue, but, the outliers detected based on historical patterns. Configure alerts accordingly after analyzing the criticality of the anomaly detected. See [Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-anomaly-alerts.md) for more information on alerts.
+All anomalies don’t represent an issue, but, the outliers detected based on historical patterns. Configure alerts accordingly after analyzing the criticality of the anomaly detected. See [Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-anomaly-alerts.md) for more information on alerts.
 
--   **[Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-anomaly-alerts.md)**  
+-   **[Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-anomaly-alerts.md)**  
 Configure anomaly alerts based on metrics outliers on historical patterns in Instance Observer.
--   **[Anomaly detection algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/anomaly-detection-algorithm.md)**  
+-   **[Anomaly detection algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/anomaly-detection-algorithm.md)**  
 Instance Observer is performing anomalies detection through the Z-score Statistical model, otherwise referred to as a univariate method.
 
-**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)
+**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-performance.md)
 

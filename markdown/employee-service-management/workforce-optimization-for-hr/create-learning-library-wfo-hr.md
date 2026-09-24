@@ -2,7 +2,7 @@
 title: Create a learning library in Workforce Optimization for HR
 description: Create a learning library to organize related content into categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/create-learning-library-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/create-learning-library-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -53,5 +53,5 @@ Role required: sn\_hr\_wfo.admin
     3.  In the **Group** field, select a group that you want to associate with the learning library.
     4.  Select **Save**.
 
-**Parent Topic:**[Learning in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/learning-wfo-hr.md)
+**Parent Topic:**[Learning in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/learning-wfo-hr.md)
 

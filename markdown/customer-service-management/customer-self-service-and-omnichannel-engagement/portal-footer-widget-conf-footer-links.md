@@ -2,7 +2,7 @@
 title: Add related links in the Portal Polaris Footer widget
 description: Configure the footer link to include a link to a site you want your users to be able to access from your portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget-conf-footer-links.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget-conf-footer-links.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -20,7 +20,7 @@ Configure the footer link to include a link to a site you want your users to be 
 
 The Portal Next Experience theme should have been activated.
 
-The Portal Polaris Footer widget must have been configured. For more information, see [Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.md)
+The Portal Polaris Footer widget must have been configured. For more information, see [Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.md)
 
 Role required: sp\_admin
 

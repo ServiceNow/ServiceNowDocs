@@ -2,7 +2,7 @@
 title: Set activity definitions
 description: Set activity definitions to determine what appears on the process graph, such as State, Assignment group, or Assigned to. This enables you to discover, monitor, and improve processes by visually identifying bottlenecks, deviations, and inefficiencies in workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/set-activity-def.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/set-activity-def.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -99,7 +99,7 @@ This field is available only if you choose **Field Values \(Default\)** in the *
 
 These recommendations come from the process configuration set for the table on which the project is based. They’re derived from the Process perspectives section of the Process details page in the Process Configuration Builder.
 
-For more information on Process perspectives, see [Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-details.md).
+For more information on Process perspectives, see [Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-details.md).
 
 The recommendation is provided even if you don’t specify anything in the process configuration for the table. If nothing is configured on the Process details page, the fields that have high frequency of change are recommended.
 
@@ -229,17 +229,17 @@ This field is available only if you choose **Field Values \(Default\)** in the *
 
 9.  Select improvement opportunities to set improvement opportunities.
 
-    For more information, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md)
+    For more information, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/improve-opportunities.md)
 
 
-**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/scope-analysis.md)
 
 **Related topics**  
 
 
-[Set breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/breakdown.md)
+[Set breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/breakdown.md)
 
-[Set use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/adv-settings.md)
+[Set use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/adv-settings.md)
 
-[Add a child entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/child-entity.md)
+[Add a child entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/child-entity.md)
 

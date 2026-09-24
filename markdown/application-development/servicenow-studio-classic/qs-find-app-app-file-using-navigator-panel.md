@@ -2,7 +2,7 @@
 title: Find an app or app file using the Navigator panel
 description: Use the Navigator panel in ServiceNow Studio to browse apps and app files by metadata type and open them directly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -24,7 +24,7 @@ Role required: admin or delegated\_developer
 
 The Navigator panel organizes apps and app files alphabetically by metadata type. For example, to find an audio app file, navigate to **File Categories** &gt; **Content** &gt; **Audio**.
 
-For more information about the file types available in the Navigator panel, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md).
+For more information about the file types available in the Navigator panel, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md).
 
 ## Procedure
 
@@ -82,7 +82,7 @@ Enter an app or app file name in the Filter list box to display only matching re
 
 </td><td>
 
-**Note:** Only used when finding app files. For more information, see [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
+**Note:** Only used when finding app files. For more information, see [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
 
 Expand the metadata section that contains the app file you want. For example, to find a flow file, expand **Automation** and select **Flow**.
 

@@ -2,7 +2,7 @@
 title: Certificate request form
 description: The Request New Certificate \(Automated\) and Renew Certificate \(Automated\) forms enable you to submit or update a Certificate Signing Request \(CSR\) to be submitted to a certificate authority.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/req-new-cert-form-table-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/req-new-cert-form-table-fields.html
 release: australia
 product: Discovery
 classification: discovery
@@ -211,5 +211,5 @@ How many days before expiry does the certificate need to be renewed?
 Number of days before certificate expiration to trigger renewal.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

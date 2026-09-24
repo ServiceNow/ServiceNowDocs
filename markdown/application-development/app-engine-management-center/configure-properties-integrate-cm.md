@@ -2,7 +2,7 @@
 title: Configure properties to integrate Change Management
 description: Configure predefined properties through the Pipelines and Deployments Guided Setup to tailor your Change Management and AEMC integration to your company's needs. Configuring these properties is optional.Configure the change model you would like to use during application deployments. If not configured, the Normal change model is used by default.Configure the default change template used to create change requests during application deployments.Customize how Configuration Items \(CIs\) are created during application deployment using AEMC.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/configure-properties-integrate-cm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/configure-properties-integrate-cm.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center

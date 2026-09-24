@@ -2,7 +2,7 @@
 title: Installation details
 description: When you install or update applications or products, the Application Manager displays installation details for you to review. Use installation details to verify version and dependency details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/installation-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/application-manager/installation-details.html
 release: australia
 product: Application Manager
 classification: application-manager
@@ -65,13 +65,13 @@ Enables you to choose to complete installation now or later. If you choose to in
 
 When installing or updating an application or product, you might have dependencies that need to be procured from the ServiceNow Store.
 
-For more information about procuring applications and products from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-trials.md).
+For more information about procuring applications and products from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/getting-apps-trials.md).
 
 ## Inactive plugins in dependencies
 
 Some plugins must be activated before they can be installed. Any plugins that must be activated before they can be installed are categorized as inactive plugins in the dependency list. Inactive plugins might not block installation of the plugin, application, or product that requires them, but could result in reduced functionality.
 
-For more information about how to activate plugins, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ServiceNowPlugins.md).
+For more information about how to activate plugins, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ServiceNowPlugins.md).
 
-**Parent Topic:**[Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-apps-app-manager.md)
+**Parent Topic:**[Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/installing-apps-app-manager.md)
 

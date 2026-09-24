@@ -2,7 +2,7 @@
 title: Create a task for a supplier case from the Source-to-Pay Workspace
 description: You can create a task for a supplier case and assign it to a supplier contact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-new-task-for-supp-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/create-new-task-for-supp-case.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -121,13 +121,13 @@ Create a task for an internal employee
 
 
 </td></tr></tbody>
-</table>    For more information about the form fields and descriptions on the Create a new task form, see [Fields in the Create new task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-task-form.md).
+</table>    For more information about the form fields and descriptions on the Create a new task form, see [Fields in the Create new task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-task-form.md).
 
 4.  Select **Submit**.
 
 5.  On the Task form, fill in the fields.\[Omitted image "create-supplier-case-task-from-source-to-pay-workspace.png"\] Alt text: Create New Supplier task form.
 
-    For more information about the form fields and descriptions, see [Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-task-form.md).
+    For more information about the form fields and descriptions, see [Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-task-form.md).
 
 6.  Select **Save**.
 
@@ -146,16 +146,16 @@ An email notification is triggered to the assigned stakeholder. They can complet
 
 ## What to do next
 
-The supplier contact to whom this task is assigned can view it on the **My To-dos** page. For more information, see [Viewing supplier contact tasks from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/my-to-dos.md).
+The supplier contact to whom this task is assigned can view it on the **My To-dos** page. For more information, see [Viewing supplier contact tasks from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/my-to-dos.md).
 
-**Parent Topic:**[Manage supplier tasks from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-tasks.md)
+**Parent Topic:**[Manage supplier tasks from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/managing-tasks.md)
 
 **Related topics**  
 
 
-[Configure due dates for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-task-due-date.md)
+[Configure due dates for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configure-task-due-date.md)
 
-[Submit a task from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/submit-supplier-task.md)
+[Submit a task from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/submit-supplier-task.md)
 
-[Complete a supplier task from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/complete-supplier-task.md)
+[Complete a supplier task from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/complete-supplier-task.md)
 

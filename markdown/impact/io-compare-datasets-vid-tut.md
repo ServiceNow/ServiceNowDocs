@@ -2,7 +2,7 @@
 title: Compare datasets in Instance Observer
 description: Instance Observer help you understand the impact of changes, troubleshoot issues, and understand performance patterns over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-compare-datasets-vid-tut.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-compare-datasets-vid-tut.html
 release: australia
 topic_type: task
 last_updated: "2026-06-24"
@@ -76,5 +76,5 @@ Use the Compare datasets tool to compare high-level metrics across time. You can
         For one period, it picks the dates for you between the two releases that you're comparing in the **Using:** section. When you select the \[Omitted image "inline-data-vis-calendar-days.png"\] Alt text: calendar icon., the dates are selected for you to compare the datasets.
 
 
-**Parent Topic:**[IO analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-analytics.md)
+**Parent Topic:**[IO analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-analytics.md)
 

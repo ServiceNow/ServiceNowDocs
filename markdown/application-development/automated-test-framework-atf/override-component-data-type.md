@@ -2,7 +2,7 @@
 title: Override component data type
 description: Use the sn-atf-data-type and sn-atf-data-type-params attributes to override the type of field displayed in a Set Component Value test step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/override-component-data-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/override-component-data-type.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -54,5 +54,5 @@ Settable components have a data type that determines what values a Custom UI tes
 <input id="someTextField" value="someSysId" sn-atf-data-type="reference" sn-atf-data-type-params='{"reference":"incident","reference_qual":"active=true"}'/>
 ```
 
-**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
+**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
 

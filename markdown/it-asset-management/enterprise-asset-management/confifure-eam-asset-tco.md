@@ -2,7 +2,7 @@
 title: Total Cost of Ownership \(TCO\) for enterprise assets
 description: You can configure your Total Cost of Ownership \(TCO\) to track the total cost of your assets and to enable capital planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -112,22 +112,22 @@ Configuring TCO involves the following procedures:
 
 -   Create task rate cards to capture costs per task type.
 
-    For detailed instructions, see [Create a task rate card in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-task-rate-card.md).
+    For detailed instructions, see [Create a task rate card in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-eam-task-rate-card.md).
 
 -   Create labor rate cards to capture costs by the time consumed on an hourly basis.
 
-    For detailed instructions, see [Create a labor rate card in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-labor-rate-card.md).
+    For detailed instructions, see [Create a labor rate card in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-eam-labor-rate-card.md).
 
 -   Create a TCO report to compare the actual or projected TCO of assets and a TCO report source.
 
-    For detailed instructions, see [Create a TCO report in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-tco-report.md).
+    For detailed instructions, see [Create a TCO report in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-eam-tco-report.md).
 
 -   Create a TCO report source to add sources to a TCO report.
 
-    For detailed instructions, see [Create a TCO report source in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-tco-report-source-eam.md).
+    For detailed instructions, see [Create a TCO report source in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-tco-report-source-eam.md).
 
 -   Create expense lines for closed tasks.
 
-    For detailed instructions, see [Create expense lines for closed tasks in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-expenselines-closed-tasks-eam.md).
+    For detailed instructions, see [Create expense lines for closed tasks in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-expenselines-closed-tasks-eam.md).
 
 

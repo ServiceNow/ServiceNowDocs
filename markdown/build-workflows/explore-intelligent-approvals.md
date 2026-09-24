@@ -2,7 +2,7 @@
 title: Explore intelligent approvals
 description: Learn how intelligent approvals automate approval decisions by directly connecting to approval policy documentation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/explore-intelligent-approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/explore-intelligent-approvals.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-01"
@@ -94,7 +94,7 @@ The Intelligent approvals homepage offers the following information and options.
 
 To learn more about configuring and using intelligent approvals, see:
 
--   [Configure intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/configure-intelligent-approvals.md)
--   [Build intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/build-intelligent-approvals.md)
--   [Intelligent approvals reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/reference-intelligent-approvals.md)
+-   [Configure intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/configure-intelligent-approvals.md)
+-   [Build intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/build-intelligent-approvals.md)
+-   [Intelligent approvals reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/reference-intelligent-approvals.md)
 

@@ -2,7 +2,7 @@
 title: Create a lifecycle event case using Agent Workspace for HR Case Management
 description: Create lifecycle event cases in Agent Workspace to manage employee transitions such as new hire onboarding, transfers, and offboarding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-ls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-ls.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -38,6 +38,6 @@ Role required: sn\_hr\_le.case\_writer
 
 7.  Select **Ready for Work**.
 
-    The **State** changes to **Ready**. In the Details section, the **Assignment group** and **Assigned to** fields populate based on your case assignment rules or HR case template. For more information, see [Assignment and matching rules in HR]() and [HR templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-template-configuration.md).
+    The **State** changes to **Ready**. In the Details section, the **Assignment group** and **Assigned to** fields populate based on your case assignment rules or HR case template. For more information, see [Assignment and matching rules in HR]() and [HR templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-template-configuration.md).
 
 

@@ -2,7 +2,7 @@
 title: Appointment booking components
 description: The roles, properties, and tables for the appointment booking feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/appointment-booking-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -256,17 +256,17 @@ Appointment Schedule Override​\[sn\_apptmnt\_booking\_schedule\_override\]
 Stores override schedule changes. ​
 
 </td></tr></tbody>
-</table>-   **[Advanced appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/adv-appt-booking-components.md)**  
+</table>-   **[Advanced appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/adv-appt-booking-components.md)**  
 The roles, properties, and tables for the advanced appointment booking feature.
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 
 **Related topics**  
 
 
-[Appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking.md)
+[Appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/appointment-booking.md)
 
-[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appointment-booking-administer.md)
+[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 
-[Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking/managing-appointments.md)
+[Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/appointment-booking/managing-appointments.md)
 

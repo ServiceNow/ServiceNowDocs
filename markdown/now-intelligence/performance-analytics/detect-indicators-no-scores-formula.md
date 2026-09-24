@@ -2,7 +2,7 @@
 title: Detect indicators with no scores in a formula
 description: As the formula creator, you can handle contributing indicators that have null scores. First set the formula indicator to calculate the formula even when it contains a null score.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/detect-indicators-no-scores-formula.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/detect-indicators-no-scores-formula.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -83,7 +83,7 @@ If **Allow formula component to be null** is selected for all of the formula ind
 
 Formula 2, Formula 3, Formula 4, and Formula 5 represent four different ways to handle the null score.
 
-**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 

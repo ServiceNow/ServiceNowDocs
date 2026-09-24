@@ -2,7 +2,7 @@
 title: Create a checklist template for Visual Task Board tasks
 description: A template saves time by creating checklist items automatically. You can add, edit, or remove checklist items without impacting the template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/create-checklist-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/create-checklist-template.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -18,7 +18,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 ## Before you begin
 
-[Activate Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ActivateVisualTaskBoards.md).
+[Activate Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_ActivateVisualTaskBoards.md).
 
 Role required: none
 
@@ -127,5 +127,5 @@ Your checklist template is created.
 
 Create a checklist from a checklist template by selecting the template from the more icon.
 
-**Parent Topic:**[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
+**Parent Topic:**[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
 

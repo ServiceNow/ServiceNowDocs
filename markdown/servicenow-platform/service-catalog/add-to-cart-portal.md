@@ -2,7 +2,7 @@
 title: Add a catalog item to the shopping cart
 description: Add a catalog item or order guide to the shopping cart to store at one place and checkout.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/add-to-cart-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/add-to-cart-portal.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -100,7 +100,7 @@ Role required: requester
     -   Use the instance options on the Order Status page to display the pre-defined columns.
     -   You can display either the RITM number or the name of the catalog item. By default, the name of the catalog item is displayed.
 
-**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
+**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-on-portal.md)
 
 **Related topics**  
 

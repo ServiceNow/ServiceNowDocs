@@ -2,7 +2,7 @@
 title: Service Desk Manager role in SOW for ITSM
 description: The IT Service Management for AI Agent Collection plugin\[sn\_itsm\_aia\] installs Service Desk Manager and AI Worker roles when activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/roles-required-l1-sd-ai-spec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/roles-required-l1-sd-ai-spec.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-25"

@@ -2,7 +2,7 @@
 title: Microsoft Dynamics 365 Spoke
 description: Use Microsoft Dynamics 365 spoke to manage users and activities in Dynamics 365.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ms365-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/ms365-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -66,7 +66,7 @@ Integration Hub uses aliases to manage connection and credential information, an
 
 For information about setting up the spoke, see [Set up Microsoft Dynamics 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrating-with-microsoft365.md) and [Set up Microsoft Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrating-with-microsoft365.md).
 
-This spoke requires the Integration Hub subscription. For details, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)
+This spoke requires the Integration Hub subscription. For details, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/request-ih-overview.md)
 
 ## Supported versions
 

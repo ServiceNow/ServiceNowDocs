@@ -2,7 +2,7 @@
 title: Create a deployment request for an on-demand release
 description: Create a deployment request for changes that will deployed with an on-demand release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/create-a-deployment-request-for-on-demand-release.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/create-a-deployment-request-for-on-demand-release.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -54,5 +54,5 @@ Role required: developer or release\_admin
     When you have selected **Ready to assess**, ReleaseOps automatically begins assessing your deployment request. You can see how the assessment is running and any issues that the assessment encountered in the **Activity** section of the deployment request form. Once your deployment request has passed the assessment checks, your deployment request will be moved into the pipeline that your organization has configured.
 
 
-**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
+**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 

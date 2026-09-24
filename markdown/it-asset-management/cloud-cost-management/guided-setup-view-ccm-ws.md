@@ -2,7 +2,7 @@
 title: Admin view
 description: Use the Admin view in the Cloud Cost Management Workspace that enables you to install, set up, and configure the application through a guided experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/guided-setup-view-ccm-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/guided-setup-view-ccm-ws.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

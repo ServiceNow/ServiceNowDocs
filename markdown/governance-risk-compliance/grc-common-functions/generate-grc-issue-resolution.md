@@ -2,7 +2,7 @@
 title: Optimize a GRC issue resolution
 description: Optimize a GRC issue resolution plan by using the Optimize GRC issue resolution agentic workflow in the Now Assist panel. This agentic workflow generates an action plan for the issue and suggests remediation tasks to resolve the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/generate-grc-issue-resolution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/generate-grc-issue-resolution.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions

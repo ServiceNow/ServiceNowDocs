@@ -2,7 +2,7 @@
 title: Check in at a walk-up location
 description: As a store representative, you can enable customers to check in on arrival at your service location. The user is added to the requester queue after filling in some details and a reason for the visit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-checkin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-walkup-checkin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,10 +36,10 @@ A device at the store location runs the Walk-up application. The application wel
 
 3.  Following check-in, you can view the queue status by selecting **Queue** from the Walk-up application screen.
 
-    The **Queue** widget enables you to view the list of requesters at the walk-up location. For more information, see [Monitor Walk-up Experience queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-walkup-monitor-queues.md).
+    The **Queue** widget enables you to view the list of requesters at the walk-up location. For more information, see [Monitor Walk-up Experience queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-walkup-monitor-queues.md).
 
     \[Omitted image "csm-walkup-overheaddisplay.jpg"\] Alt text: Queue status screen that shows the next three users in the queue.
 
-    The **Survey** widget allows you to request the requester for feedback about the experience at the location. For more information, see [CSM Walk-up Experience customer satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-survey.md).
+    The **Survey** widget allows you to request the requester for feedback about the experience at the location. For more information, see [CSM Walk-up Experience customer satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-survey.md).
 
 

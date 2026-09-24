@@ -2,7 +2,7 @@
 title: View household members
 description: View the list of members in your household from the Consumer Portal to see their details and manage household accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-houesehold-members.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-houesehold-members.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Install Customer Household Data Model \(com.snc.household\) app from [ServiceNow
 
 Role required: sn\_customerservice.consumer
 
-**Note:** You must be a householdHead to view household members. For details, see [Add consumers to a household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-consumer-to-household.md).
+**Note:** You must be a householdHead to view household members. For details, see [Add consumers to a household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/add-consumer-to-household.md).
 
 ## About this task
 
@@ -40,7 +40,7 @@ You can view the list of household members. Select any record to view details.
 **Related topics**  
 
 
-[Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-households.md)
+[Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-households.md)
 
-[Consumer Service Portal changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/industry-data-model-portal-changes.md)
+[Consumer Service Portal changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/industry-data-model-portal-changes.md)
 

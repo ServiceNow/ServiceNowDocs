@@ -2,7 +2,7 @@
 title: Configure favorite content type on Mobile
 description: Configure the favorites option on Mobile to help employees personalize the content and easily access the content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/web-configure-favorites-admin-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/web-configure-favorites-admin-mobile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -47,7 +47,7 @@ Role required: portal admin and sp\_admin
 
 3.  Create a function and function instance to suit your needs.
 
-    See [Create a function and function instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/add-quick-action.md) and configure the following field values.
+    See [Create a function and function instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/add-quick-action.md) and configure the following field values.
 
     |Field|Description|
     |-----|-----------|
@@ -63,7 +63,7 @@ The content type display is configured for Mobile.
 **Related topics**  
 
 
-[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
+[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
 
 [Mobile plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-plugins.md)
 

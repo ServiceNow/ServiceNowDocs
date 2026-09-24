@@ -2,12 +2,12 @@
 title: Add IP data
 description: Use the New IP data dialog in the IP inventory page to add IP addresses, ranges, networks, or range sets to your discovery configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/daw-add-ip-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/daw-add-ip-data.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Discovery IP address configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -29,7 +29,7 @@ Role required: discovery\_admin
 
 The New IP data dialog is shared across the **IP Address Lists**, **IP Ranges**, **IP Networks**, and **Discovery Range Sets** tabs. When you open the dialog from a tab, the check box for that tab is selected automatically. The system removes duplicate entries automatically.
 
-For collection types and format details, see [Discovery IP address configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md). To view and manage your entries, see [Discovery Admin Workspace IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-ip-inventory.md).
+For collection types and format details, see [Discovery IP address configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-ip-address-configuration.md). To view and manage your entries, see [Discovery Admin Workspace IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/daw-ip-inventory.md).
 
 ## Procedure
 
@@ -47,15 +47,15 @@ For collection types and format details, see [Discovery IP address configuration
 
 5.  Enter the required information for each IP data type you're adding.
 
-<table id="choicetable_pxd_mzd_ckc"><thead><tr><th align="left" id="d243721e157">
+<table id="choicetable_pxd_mzd_ckc"><thead><tr><th align="left" id="d243794e157">
 
 IP data type
 
-</th><th align="left" id="d243721e160">
+</th><th align="left" id="d243794e160">
 
 What to enter
 
-</th></tr></thead><tbody><tr><td id="d243721e166">
+</th></tr></thead><tbody><tr><td id="d243794e166">
 
 **IP address list**
 
@@ -63,7 +63,7 @@ What to enter
 
 Enter a name, then enter one or more IP addresses separated by commas.
 
-</td></tr><tr><td id="d243721e175">
+</td></tr><tr><td id="d243794e175">
 
 **IP ranges**
 
@@ -71,7 +71,7 @@ Enter a name, then enter one or more IP addresses separated by commas.
 
 Enter each range as startIP-endIP, separated by commas. For example: `10.0.0.1-10.0.0.254`
 
-</td></tr><tr><td id="d243721e188">
+</td></tr><tr><td id="d243794e188">
 
 **IP networks**
 
@@ -79,7 +79,7 @@ Enter each range as startIP-endIP, separated by commas. For example: `10.0.0.1-1
 
 Enter each network in CIDR notation, separated by commas. For example: `192.168.1.0/24`
 
-</td></tr><tr><td id="d243721e201">
+</td></tr><tr><td id="d243794e201">
 
 **Discovery range set**
 
@@ -106,5 +106,5 @@ Enter a name, then enter any mix of addresses, ranges, or networks, separated by
 **Related topics**  
 
 
-[Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-add-ip-range-set.md)
+[Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/daw-add-ip-range-set.md)
 

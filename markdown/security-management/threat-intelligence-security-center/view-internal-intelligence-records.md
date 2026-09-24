@@ -2,7 +2,7 @@
 title: View Internal Intelligence Records
 description: View the internal intelligence records collected from CMDB, Security Incident Response \(SIR\), Vulnerability Response \(VR\) these records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/view-internal-intelligence-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/view-internal-intelligence-records.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -38,7 +38,7 @@ Role required: sn\_sec\_tisc.analyst
 
     1.  **Security Incident Response**: Displays all the incidents that are linked with the observables.
 
-        **Note:** You can also link and unlink the records by searching the records within the source systems. For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
+        **Note:** You can also link and unlink the records by searching the records within the source systems. For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
 
         Select any record to navigate and view the details in the source system. For example, Associated Observables in Security Incident Response to fetch the associated observable records.
 
@@ -60,5 +60,5 @@ Role required: sn\_sec\_tisc.analyst
 
 The changes made in the TISC context or TISC internal intelligence tabs reflect bidirectionally in the TISC and SIR workspaces.
 
-**Parent Topic:**[Working with Internal Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/working-with-ti-internal-intelligence-records.md)
+**Parent Topic:**[Working with Internal Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/working-with-ti-internal-intelligence-records.md)
 

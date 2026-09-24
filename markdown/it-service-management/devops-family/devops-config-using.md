@@ -2,7 +2,7 @@
 title: Using DevOps Config
 description: The developer, or app engineer, role uses DevOps Config, once it's installed and set up by the DevOps engineer role, to validate and correct config data \(that they commit\) before it gets deployed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-using.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

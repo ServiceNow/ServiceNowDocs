@@ -2,7 +2,7 @@
 title: Update contract template mappings
 description: Update template mappings to pre-fill information that's placed in the contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-template-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-template-mapping.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -158,7 +158,7 @@ The script configuring the mapping between fields and record producer variables.
     \[Omitted image "cmpro-template-map-update.png"\] Alt text: Update template mappings
 
 
-**Parent Topic:**[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)
+**Parent Topic:**[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)
 
 **Related topics**  
 

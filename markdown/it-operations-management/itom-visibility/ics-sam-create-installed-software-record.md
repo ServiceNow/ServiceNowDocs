@@ -2,7 +2,7 @@
 title: Discover installed software data with ITOM Content Service
 description: Use ITOM Content Service and ITSM Software Asset Management to discover version-less installed software that isn't discovered automatically with Software Asset Management Core or Software Asset Management Professional or file-based Discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/ics-sam-create-installed-software-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/ics-sam-create-installed-software-record.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -24,9 +24,9 @@ Ensure that the following application and plugins are installed:
 -   Software Asset Management Core \(com.snc.sam.core\) or Software Asset Management Professional \(com.snc.samp\)
 -   File Based Discovery \(com.snc.discovery.file\_based\_discovery\)
 
-Ensure that ITOM Content Service is active. For more information, see [Share data on ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/share-data-itom-content-service.md).
+Ensure that ITOM Content Service is active. For more information, see [Share data on ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/share-data-itom-content-service.md).
 
-Ensure that the content service suggestions in the relevant category are activated. For more information, see [Enable discovery with ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/ics-activate-classifiers.md).
+Ensure that the content service suggestions in the relevant category are activated. For more information, see [Enable discovery with ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/ics-activate-classifiers.md).
 
 Role required: discovery\_admin
 
@@ -52,5 +52,5 @@ The new installed software record is created and added to the CI Software Instal
 **Related topics**  
 
 
-[ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/discovery-content-services.md)
+[ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/discovery-content-services.md)
 

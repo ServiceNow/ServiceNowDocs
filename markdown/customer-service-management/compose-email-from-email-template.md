@@ -2,7 +2,7 @@
 title: Compose an email from an email template
 description: As an agent, you can compose emails using email templates. These templates contain default values for fields that you can easily add to email messages in the Compose panel on case records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/compose-email-from-email-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/compose-email-from-email-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_agent
 
 ## About this task
 
-Default values in email templates can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body. For more information, see [Email templates feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-default-record-page.md).
+Default values in email templates can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body. For more information, see [Email templates feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-default-record-page.md).
 
 ## Procedure
 

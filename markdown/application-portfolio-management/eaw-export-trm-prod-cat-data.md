@@ -2,7 +2,7 @@
 title: Export Technology Reference Model product category data to Excel or CSV
 description: Export the Technology Reference Model \(TRM\) list view data to Microsoft Excel or CSV so that you can use the data to share with stakeholders and prepare for analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-export-trm-prod-cat-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-export-trm-prod-cat-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Role required: sn\_apm.apm\_user
 
 A file with the selected format is downloaded and saved in your local system.
 
-**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
+**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-trm.md)
 

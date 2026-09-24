@@ -2,7 +2,7 @@
 title: Configuring feedback for Virtual Agent
 description: You can promote the experience feedback or set up service feedback for the Virtual Agent.Promote the experience feedback topic to appear in the default Virtual Agent suggestions.Set up the service feedback to appear after a topic conversation in the Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configuring-fdbck-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configuring-fdbck-va.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

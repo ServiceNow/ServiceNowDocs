@@ -2,7 +2,7 @@
 title: Bind an event to a component
 description: Bind data elements within UI Builder so that you can add event actions to your components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/bind-event-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/bind-event-component.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -34,19 +34,19 @@ To add actions to components, pages, and data resources on your page, you can ad
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md).
 
 3.  Create or open a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md).
 
 4.  Add a component that has events to which it can bind to your page, such as a button.
 
-    For more information about adding components to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    For more information about adding components to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-components.md).
 
 5.  To add an event handler to your component, select the **Events** tab.
 
-    For more information on how to add event handlers to your component, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md).
+    For more information on how to add event handlers to your component, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-events.md).
 
     1.  To start the process of setting up an event handler for your component, click **Add event mapping**.
 
@@ -72,7 +72,7 @@ To add actions to components, pages, and data resources on your page, you can ad
 
 6.  If you want a modal to pop up for your event, add the modal to the page before you bind your event to the component.
 
-    A modal is a confirmation pop-up that appears when you click the component. For example, if you add a button component that deletes a record, you add a modal to ask the user to confirm that the user wants to delete the record. For more information, see [Add modal to component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/modals-uib.md).
+    A modal is a confirmation pop-up that appears when you click the component. For example, if you add a button component that deletes a record, you add a modal to ask the user to confirm that the user wants to delete the record. For more information, see [Add modal to component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/modals-uib.md).
 
     1.  Select the **+** icon in the content tree next to **Modals**.
 
@@ -123,5 +123,5 @@ To add actions to components, pages, and data resources on your page, you can ad
 10. To trigger the modal that you created, click the button on the page.
 
 
-**Parent Topic:**[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-events.md)
+**Parent Topic:**[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/bind-events.md)
 

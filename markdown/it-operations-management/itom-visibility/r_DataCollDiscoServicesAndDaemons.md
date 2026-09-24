@@ -2,7 +2,7 @@
 title: IP service and daemon discovery
 description: Discovery identifies and classifies information about services and daemons.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoServicesAndDaemons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r\_DataCollDiscoServicesAndDaemons.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -24,10 +24,10 @@ Discovery identifies and classifies information about services and daemons.
 |CI|`cmdb_ip_service_ci`|ci|Internal reference|
 |Service|`cmdb_ip_service_ci`|service|Internal reference|
 
-**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_NetworkDevices.md)
 
 **Related topics**  
 
 
-[Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_NetworkDiscovery.md)
+[Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_NetworkDiscovery.md)
 

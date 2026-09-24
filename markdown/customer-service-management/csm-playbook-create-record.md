@@ -2,7 +2,7 @@
 title: Create a record using a playbook
 description: Create a record using a playbook activity instead of a record form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-create-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-create-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ To create cases in this way, the following configuration is required:
 
 -   Enable the **Create Case** button from the Customer Service Case Types application for each of these records. This enables agents to create a specific type of case.
 
-    See [Configure customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-case-types.md) for more information about using the Customer Service guided setup and the Case Types category to configure case type UI actions.
+    See [Configure customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-csm-case-types.md) for more information about using the Customer Service guided setup and the Case Types category to configure case type UI actions.
 
 -   Configure the playbook to use the playbook record generator.
 

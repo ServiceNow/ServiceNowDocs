@@ -2,7 +2,7 @@
 title: Browser extension discovery and categorization
 description: Agent Client Collector for Visibility \(ACC-VC\) browser extension discovery inventories browser extensions installed on the endpoints in your environment. When an admin-defined signature matches, ACC-VC classifies each extension into a category, such as AI Tools, Productivity, or Security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-browser-extension-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-browser-extension-discovery.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -45,10 +45,10 @@ Browser extensions are categorized or re-categorized automatically, without crea
 -   An inactive signature is reactivated.
 -   New browser extensions are discovered that match an existing active signature.
 
--   **[Browser extension metadata fetching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-browser-extension-metadata-fetching.md)**  
+-   **[Browser extension metadata fetching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-browser-extension-metadata-fetching.md)**  
 Assess shadow IT and shadow AI risk in your organization by using browser extension metadata fetching in Agent Client Collector for Visibility \(ACC-VC\). This capability is an optional layer on top of browser extension discovery that collects each extension's metadata.
--   **[Categorize discovered browser extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-categorize-browser-extensions.md)**  
+-   **[Categorize discovered browser extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-categorize-browser-extensions.md)**  
 Group discovered browser extensions in your environment by business relevance.
 
-**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

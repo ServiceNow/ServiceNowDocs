@@ -2,7 +2,7 @@
 title: Review visitor policies
 description: Review the workplace policies before your visit, then accept or decline the policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/review-visitor-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/review-visitor-policies.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -26,7 +26,7 @@ Role required: none
 
 When you register a visit to a workplace, or if someone creates a visitor registration on your behalf, you might receive an email about reviewing the workplace policies. You can review and accept the policies based on your preference.
 
-You can also accept the policies on the Workplace Services Kiosk during the visitor check-in process. For more information about the kiosk check-in process, see [Check in using an invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/visitor-check-in.md).
+You can also accept the policies on the Workplace Services Kiosk during the visitor check-in process. For more information about the kiosk check-in process, see [Check in using an invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/visitor-check-in.md).
 
 **Note:** If you accept the policies before your visit, the policies aren't displayed during the kiosk check-in process.
 
@@ -36,15 +36,15 @@ You can also accept the policies on the Workplace Services Kiosk during the visi
 
 2.  Accept or decline the visitor policies based on your preference.
 
-<table id="choicetable_if1_vtw_tfc"><thead><tr><th align="left" id="d129029e93">
+<table id="choicetable_if1_vtw_tfc"><thead><tr><th align="left" id="d129033e93">
 
 Choice
 
-</th><th align="left" id="d129029e96">
+</th><th align="left" id="d129033e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d129029e102">
+</th></tr></thead><tbody><tr><td id="d129033e102">
 
 **Accept the policies**
 
@@ -58,7 +58,7 @@ The Visitor Policies page opens with details about all visitor policies.
 
 Based on the configuration set by the admin, you might have to add a signature to agree to the policies.
 
-</td></tr><tr><td id="d129029e130">
+</td></tr><tr><td id="d129033e130">
 
 **Decline the policies**
 
@@ -70,7 +70,7 @@ A page opens confirming that you have declined the policies. You can review the 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/registerring-a-visitor.md)
+**Parent Topic:**[Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/registerring-a-visitor.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Design and assign
 description: With the design and assign function, you can build a digital representation of your network inventories and your network service in the Telecommunications Network Inventory application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/telecommunications-circuit-design-resource-assignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-circuit-design-resource-assignment.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -32,14 +32,14 @@ Before you start the design and assign function, you define the models, model re
 
 As an inventory template or catalog manager, you can do the following tasks to instantiate your network inventory:
 
-1.  Create the inventory models. You create an inventory model to track the technical information from the manufacturer about a network asset. When you instantiate an inventory record, your inventory record contains this standard manufacturer information. To learn more, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
-2.  Create the model relationship. The model relationship captures the relationships between the inventory models. To learn more, see [Modeling network inventory relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md).
-3.  Create the inventory template. You create the network inventory template that contains the business guidance rules from a telecommunications provider. To learn more, see [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
+1.  Create the inventory models. You create an inventory model to track the technical information from the manufacturer about a network asset. When you instantiate an inventory record, your inventory record contains this standard manufacturer information. To learn more, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
+2.  Create the model relationship. The model relationship captures the relationships between the inventory models. To learn more, see [Modeling network inventory relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md).
+3.  Create the inventory template. You create the network inventory template that contains the business guidance rules from a telecommunications provider. To learn more, see [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
 
 You can then instantiate a new network inventory record by using the change management workflow to fulfill the network designs. As an inventory agent, you perform the following tasks:
 
-1.  Create the change request with the change model. To learn more, see [Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md).
-2.  Create the change tasks from the change request. The network asset instantiation takes place using an Application programming interface \(API\) or change task that you create from the change request. To learn more, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
+1.  Create the change request with the change model. To learn more, see [Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md).
+2.  Create the change tasks from the change request. The network asset instantiation takes place using an Application programming interface \(API\) or change task that you create from the change request. To learn more, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
 
 When you complete the task, the following processing takes place:
 
@@ -50,7 +50,7 @@ When you complete the task, the following processing takes place:
 
 You can create a set of network inventory records to fulfill an order request for Gigabyte Passive Optical Networks \(GPON\) broadband by using the design and assign function.
 
-**Parent Topic:**[Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+**Parent Topic:**[Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 
 **Related topics**  
 
@@ -59,9 +59,9 @@ You can create a set of network inventory records to fulfill an order request fo
 
 [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)
 
-[Network inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.md)
+[Network inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.md)
 
-[Network inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-templates-tni.md)
+[Network inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-templates-tni.md)
 
-[Modeling network inventory relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md)
+[Modeling network inventory relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md)
 

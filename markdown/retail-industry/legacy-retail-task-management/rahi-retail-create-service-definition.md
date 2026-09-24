@@ -2,7 +2,7 @@
 title: Create a service definition for multi-store cases in Retail Task Management Core
 description: Create a service definition that leverages the multi-store creation engine to create multi-store retail cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-retail-create-service-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/legacy-retail-task-management/rahi-retail-create-service-definition.html
 release: australia
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
@@ -34,7 +34,7 @@ Role required: admin
 
 4.  In **Multiple case creation config**, select the Multiple Case Creation created for this service definition.
 
-    **Note:** For information, see [Create an entity in the Multiple Case Configuration table for multi-store creation in Retail Task Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-create-entitt-multiple-case-creation.md).
+    **Note:** For information, see [Create an entity in the Multiple Case Configuration table for multi-store creation in Retail Task Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/legacy-retail-task-management/rahi-retail-create-entitt-multiple-case-creation.md).
 
 5.  Fill in other fields as needed.
 

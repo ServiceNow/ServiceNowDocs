@@ -2,7 +2,7 @@
 title: Roles used by Express List
 description: Detailed information on all roles that can access the Express List feature on the Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/roles-used-by-express-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/roles-used-by-express-list.html
 release: australia
 product: Event Management
 classification: event-management

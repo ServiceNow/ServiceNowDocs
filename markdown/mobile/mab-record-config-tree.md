@@ -2,7 +2,7 @@
 title: ServiceNow AI Platform configuration tree within a record screen
 description: The ServiceNow AI Platform configuration tree shows all your records in a hierarchical display. Instantly locate and select any record component in the tree to display the record's field types in the configuration panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-record-config-tree.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-record-config-tree.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

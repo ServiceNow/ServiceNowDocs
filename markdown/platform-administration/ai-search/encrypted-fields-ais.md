@@ -2,7 +2,7 @@
 title: Encrypted fields in AI Search
 description: AI Search excludes source record fields encrypted with Encryption Support or Edge Encryption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/encrypted-fields-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/encrypted-fields-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -24,5 +24,5 @@ When dealing with an encrypted source record field, AI Search has the following 
 
 For detailed descriptions of the encryption options available for source records, see [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md).
 
-**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/administer-ais.md)
 

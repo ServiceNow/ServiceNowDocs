@@ -2,7 +2,7 @@
 title: Enterprise Asset Workspace
 description: Use the Enterprise Asset Workspace to get a comprehensive view of all your assets and manage them efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/using-eam-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/using-eam-workspace.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -29,13 +29,13 @@ You can navigate to the Enterprise Asset Workspace in the following two ways:
 
 The Enterprise Asset Workspace contains the following views:
 
--   [Enterprise asset overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-overview.md)
--   [Asset analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-asset-dboard.md)
--   [Inventory overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/inventory-overview-eam.md)
--   [Enterprise asset estate overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md)
--   [Enterprise model management overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/model-management-overview-eam.md)
--   [Normalization overview for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/norm-overview-eam.md)
--   [Contract and lease management overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/lease-management-overview-eam.md)
+-   [Enterprise asset overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/enterprise-asset-overview.md)
+-   [Asset analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/eam-asset-dboard.md)
+-   [Inventory overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/inventory-overview-eam.md)
+-   [Enterprise asset estate overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md)
+-   [Enterprise model management overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/model-management-overview-eam.md)
+-   [Normalization overview for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/norm-overview-eam.md)
+-   [Contract and lease management overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/lease-management-overview-eam.md)
 
 ## Inline editing
 

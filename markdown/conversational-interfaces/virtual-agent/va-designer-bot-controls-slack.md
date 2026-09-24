@@ -2,7 +2,7 @@
 title: Assistant Designer user input and bot response controls in Slack
 description: The Assistant Designer user input controls and bot responses for creating conversation topics are supported in Slack conversations, including the table bot response and the card control that can display images.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-designer-bot-controls-slack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-designer-bot-controls-slack.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +20,7 @@ The Assistant Designer user input controls and bot responses for creating conver
 
 Starting with version 2.0.0, the card and video bot response controls are supported in Slack conversations. The video control displays a thumbnail image of the video that users select to open the video in their preferred web browser.
 
-For more information about user input controls and bot responses, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md) and [Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md), respectively.
+For more information about user input controls and bot responses, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md) and [Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-bot-responses.md), respectively.
 
 ## Upload multiple file types
 
@@ -30,5 +30,5 @@ To upload multiple image files or other attachments during your conversation wit
 
 **Note:** You can also share multiple files with a live agent from Slack.
 
-**Parent Topic:**[Virtual Agent features supported in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-slack-other-features.md)
+**Parent Topic:**[Virtual Agent features supported in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-slack-other-features.md)
 

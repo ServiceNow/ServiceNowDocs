@@ -2,7 +2,7 @@
 title: Using Text to RegEx
 description: Text to RegEx is an AI-powered capability that automatically generates regular expressions from natural language descriptions, helping you create data patterns without manual regex syntax.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/c\_text\_to\_regex\_overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/c\_text\_to\_regex\_overview.html
 release: australia
 product: Data Discovery
 classification: data-discovery

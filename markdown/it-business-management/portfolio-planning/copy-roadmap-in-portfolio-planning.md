@@ -2,7 +2,7 @@
 title: Duplicate a free-form roadmap
 description: Create a roadmap with the data of an existing roadmap. If the roadmap you want to create is similar to an existing roadmap, duplicating the existing roadmap saves your time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/copy-roadmap-in-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/copy-roadmap-in-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -22,7 +22,7 @@ Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Create a standalone roadmap to plan work across multiple units of your organization, such as projects of all departments. To learn more about free-form roadmaps, see [Roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/roadmaps-in-portfolio-planning.md).
+Create a standalone roadmap to plan work across multiple units of your organization, such as projects of all departments. To learn more about free-form roadmaps, see [Roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/roadmaps-in-portfolio-planning.md).
 
 ## Procedure
 
@@ -55,5 +55,5 @@ Create a standalone roadmap to plan work across multiple units of your organizat
 -   Update, personalize, and collaborate with your roadmap.
 -   Add milestones or create dependencies for the items planned on your roadmap.
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

@@ -2,7 +2,7 @@
 title: Configure dynamic related records
 description: System administrators can configure the dynamic related records feature to display related records in the contextual side panel in CRM Workspace. These records dynamically change based on the context of the current record or playbook activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/dynamic-related-records-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/dynamic-related-records-configure.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -66,7 +66,7 @@ Defines the relationship between a context record and its associated definition 
  When you open a context record, you can see the associated definition records in the Context Related Record Definitions related list.
 
 </td></tr></tbody>
-</table>For more information about these tables, including field descriptions, see [Dynamic related record tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/dynamic-related-record-tables.md).
+</table>For more information about these tables, including field descriptions, see [Dynamic related record tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/dynamic-related-record-tables.md).
 
 ## How the context and definition records work
 

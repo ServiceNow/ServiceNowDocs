@@ -2,7 +2,7 @@
 title: Managing Knowledge Graph tags
 description: Edit or delete Knowledge Graph tags for Now Assist Virtual Agent, AI agent or Now Assist Panel Enterprise Graph use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/managing-knowledge-graph-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/managing-knowledge-graph-tags.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

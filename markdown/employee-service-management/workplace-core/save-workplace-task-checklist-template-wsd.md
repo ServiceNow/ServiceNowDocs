@@ -2,7 +2,7 @@
 title: Save a workplace task checklist as a template
 description: You can save a Workplace Core workplace task checklist as a template for easy reuse. A template saves time by adding checklist items automatically in a record where you use it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/save-workplace-task-checklist-template-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/save-workplace-task-checklist-template-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -28,7 +28,7 @@ When you add a template checklist to a record, you can add, edit, or remove chec
 
 1.  Navigate to the record that contains a checklist you created.
 
-    To find out how to access the record, see [Create a workplace task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-task-checklist-wsd.md).
+    To find out how to access the record, see [Create a workplace task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-workplace-task-checklist-wsd.md).
 
 2.  In the **Checklist** section, select the down arrow \(\[Omitted image "checklist-icon.png"\] Alt text: checklist icon\) beside the **Checklist** formatter.
 
@@ -43,5 +43,5 @@ When you add a template checklist to a record, you can add, edit, or remove chec
 6.  Select **Save**.
 
 
-**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
 

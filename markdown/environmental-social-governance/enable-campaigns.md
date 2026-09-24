@@ -2,7 +2,7 @@
 title: Enable campaigns
 description: Enable campaigns to let data owners and approvers move groups of metrics through collection, review, and approval as a single unit, instead of one at a time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/enable-campaigns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/enable-campaigns.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
@@ -47,5 +47,5 @@ Enable campaigns to let data owners and approvers move groups of metrics through
     3.  Select **Update**.
 
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-grc-metrics.md)
 

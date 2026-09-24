@@ -2,7 +2,7 @@
 title: Search a list
 description: You can search a list to find information quickly. The list title bar includes options for searching the list. Administrators can enable text searches for any list.The platform supports several wildcard characters to expand and refine search results.The default search behavior in a list is to search for values that are greater than or equal to the value you enter. Administrators can add properties to change the search behavior to use either a contains search or a starts with search by default, instead of a greater than search.Change the default search behavior at the field level by adding an attribute to a field using the system dictionary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_SearchAList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_SearchAList.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,14 +49,14 @@ Each option in a choice list is defined with a column label and a value. For exa
 5.  Press the Enter key to execute the search.
 
 
-**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UseLists.md)
 
 **Related topics**  
 
 
 [Enable text searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TextSearchesInRecordLists.md)
 
-[Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md)
+[Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_PersonalLists.md)
 
 ## Available list search wildcards
 

@@ -2,7 +2,7 @@
 title: Progress Tracker component reference
 description: The Progress Tracker component displays workflow progress on purchase requisitions and purchase orders through a stepper visualization and expandable info card. The info card shows assigned users, pending work items, completion dates, and for deviation states, transition history and alert banners.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-info-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-info-card.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -77,7 +77,7 @@ Select a step in the stepper to expand an info card with the following fields:
 
 ## Click behavior
 
-Work item links navigate to the linked record within the same workspace tab; no new browser tab opens. Transition history entries are selectable and surface a contextual popover or navigate to the related approval or activity record. For step-by-step instructions on using the info card, see [Use the Progress Tracker info card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-progress-tracker-info-card.md).
+Work item links navigate to the linked record within the same workspace tab; no new browser tab opens. Transition history entries are selectable and surface a contextual popover or navigate to the related approval or activity record. For step-by-step instructions on using the info card, see [Use the Progress Tracker info card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-progress-tracker-info-card.md).
 
 ## PO-specific info card content
 
@@ -87,7 +87,7 @@ On PO records, the **Work Items** field is populated from receipt task, invoice 
 
 The **Submitted by** field is permanently read-only \(**strict\_read\_only**\) on both the Sourcing Activity \(SRC\) record and the Purchase Requisition \(PR\) record. This lock applies regardless of the record current Progress Tracker state, and it is not exposed as an administrator-configurable option. The state-configuration task does not control field-level locking.
 
-**Parent Topic:**[Progress Tracker for purchase requisitions and purchase orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-overview.md)
+**Parent Topic:**[Progress Tracker for purchase requisitions and purchase orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-overview.md)
 
 **Related topics**  
 

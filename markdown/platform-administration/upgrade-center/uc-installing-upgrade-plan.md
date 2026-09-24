@@ -2,7 +2,7 @@
 title: Installing your Upgrade Plan
 description: Install your upgrade plan in the consumer instance to implement it in your upgrades.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-installing-upgrade-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-installing-upgrade-plan.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -45,7 +45,7 @@ Role required: admin
     **Note:** If you made any changes to the upgrade plan on the builder instance after installing it on the consumer instance, then update the upgrade plan to the latest version.
 
 
-**Parent Topic:**[Preparing your upgrade plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-prepare-up.md)
+**Parent Topic:**[Preparing your upgrade plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-prepare-up.md)
 
 **Related topics**  
 

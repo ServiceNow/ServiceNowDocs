@@ -2,7 +2,7 @@
 title: Customize a playbook in UI Builder
 description: Use UI Builder pages and modular components for custom playbook layouts to customize the end user's Playbook Experience in a configurable workspace, Service Portal page, or mobile web page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-get-started-custom-layouts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/playbook-get-started-custom-layouts.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -18,7 +18,7 @@ Use UI Builder pages and modular components for custom playbook layouts to custo
 
 ## Before you begin
 
--   If you don't have a playbook to apply custom layouts to, build a playbook. To learn more, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md).
+-   If you don't have a playbook to apply custom layouts to, build a playbook. To learn more, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/building-a-process.md).
 -   Install the latest version of the Playbook Experience and Playbook Experience Component apps from the ServiceNow Store. See [Playbook Experience apps](https://store.servicenow.com/sn_appstore_store.do#!/store/product/e4cecaf0db2be81079279ee4db9619f2).
 
 Role required: ui\_builder\_admin, admin

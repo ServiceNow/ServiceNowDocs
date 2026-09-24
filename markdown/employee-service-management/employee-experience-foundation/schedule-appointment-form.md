@@ -2,7 +2,7 @@
 title: Schedule appointment form
 description: Use the Schedule appointment form to select a reason and provide contact information for your appointment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/schedule-appointment-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/schedule-appointment-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -85,7 +85,7 @@ Contact detail
 Phone number or email that receives the notifications related to the appointment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

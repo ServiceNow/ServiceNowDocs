@@ -2,7 +2,7 @@
 title: Create a discovery behavior for Unix-based load balancers
 description: If your network uses load balancers running on Linux hosts, create a discovery behavior to ensure that Service Mapping and Discovery discover them correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_CreateDiscoBehavior4LB.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/t\_CreateDiscoBehavior4LB.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -103,7 +103,7 @@ Behavior
 
 </td><td>
 
-Select the behavior you created in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateDiscoBehavior4LB.md).
+Select the behavior you created in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_CreateDiscoBehavior4LB.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Determines the run schedule of the discovery. Configure the frequency in the **R
 **Related topics**  
 
 
-[Pattern-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/pattern-based-discovery.md)
+[Pattern-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/pattern-based-discovery.md)
 
 [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md)
 

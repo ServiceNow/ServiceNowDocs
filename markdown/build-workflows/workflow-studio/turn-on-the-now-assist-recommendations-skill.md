@@ -2,7 +2,7 @@
 title: Turn on the flow recommendations skill
 description: Turn on the flow recommendations skill to get recommendations for the next step of your flow with generative AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-the-now-assist-recommendations-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/turn-on-the-now-assist-recommendations-skill.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -42,9 +42,9 @@ Turn on the flow recommendations skill to get recommendations for the next step 
 
 ## What to do next
 
-For Flow generation v 28.2 and later releases, grant a flow creation role to each user who will use the Flow recommendations skill. For a list of available flow creation roles, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
+For Flow generation v 28.2 and later releases, grant a flow creation role to each user who will use the Flow recommendations skill. For a list of available flow creation roles, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/user-access-flow-designer.md).
 
 For earlier versions of the Flow generation application, grant the now.assist.creator role and a flow creation role to each user who will use the Flow recommendations skill.
 
-**Parent Topic:**[Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-recommendations-landing.md)
+**Parent Topic:**[Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-recommendations-landing.md)
 

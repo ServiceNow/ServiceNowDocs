@@ -2,7 +2,7 @@
 title: Email client administrator \[email\_client\_admin\]
 description: Configures the email client to fit the needs of your organization and can read or write email client templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-client-roles-1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/email-client-roles-1.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

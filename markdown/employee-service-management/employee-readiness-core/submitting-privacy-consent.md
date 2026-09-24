@@ -2,7 +2,7 @@
 title: Submitting privacy consents
 description: When you receive an email or mobile notification for a privacy consent, read the privacy policy statement and submit a response indicating whether you agree to the use of your data.When you receive an email notification for privacy consent, read the privacy policy statement and submit a response indicating whether you agree to the use of your data.If you receive a mobile push notification request for a data privacy consent, read the privacy policy statement and indicate whether you agree to the use of your data in accordance with the policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/submitting-privacy-consent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-readiness-core/submitting-privacy-consent.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -16,7 +16,7 @@ breadcrumb: [Maintaining privacy consent in Employee Readiness Core, Employee Re
 
 When you receive an email or mobile notification for a privacy consent, read the privacy policy statement and submit a response indicating whether you agree to the use of your data.
 
-**Parent Topic:**[Maintaining privacy consent in Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-readiness-core-privacy-consent.md)
+**Parent Topic:**[Maintaining privacy consent in Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/employee-readiness-core-privacy-consent.md)
 
 ## Respond to an email notification request for privacy consent
 
@@ -56,7 +56,7 @@ If you receive a mobile push notification request for a data privacy consent, re
 
 ### Before you begin
 
-To receive mobile push notifications, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
+To receive mobile push notifications, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: sn\_imt\_core.privacy\_consent\_user
 

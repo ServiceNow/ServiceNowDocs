@@ -2,7 +2,7 @@
 title: Manage tasks and approvals
 description: Triage your queue from the EmployeeWorks Web App Tasks and requests. Review task summaries, act on approvals, apply conversational filters, and retrieve items through chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-work-with-inbox.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-work-with-inbox.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,7 +35,7 @@ You can view, track, and act on pending tasks, approvals, and open requests acro
     -   Select **Tasks and requests** in the side navigation.
 2.  Review items in the **Tasks** and **Requests** tabs.
 
-    The **Tasks** tab lists tasks and approvals assigned to you, sorted by AI prioritization. The **Requests** tab lists requests that you or others created for you. Each card shows an AI-generated summary of who is asking, what is needed, and why it matters. Select **Sort by created date**to order the list by creation date instead. For more information, see [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md).
+    The **Tasks** tab lists tasks and approvals assigned to you, sorted by AI prioritization. The **Requests** tab lists requests that you or others created for you. Each card shows an AI-generated summary of who is asking, what is needed, and why it matters. Select **Sort by created date**to order the list by creation date instead. For more information, see [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md).
 
 3.  Open a card to view the task detail and approval checklist.
 
@@ -45,7 +45,7 @@ You can view, track, and act on pending tasks, approvals, and open requests acro
 
 4.  Review the summaries and insights based on the skill configuration and the mode.
 
-    For more information on building a custom skill, see [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
+    For more information on building a custom skill, see [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
 
 5.  Apply a conversational filter.
 
@@ -69,5 +69,5 @@ You can view, track, and act on pending tasks, approvals, and open requests acro
 **Related topics**  
 
 
-[EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md)
+[EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md)
 

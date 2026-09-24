@@ -2,7 +2,7 @@
 title: Schedule import set jobs to pull data from the CRM system
 description: Schedule import set jobs to pull sales representatives and associated sales accounts and active opportunities data from the CRM system into the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/schedule-import-sales-contract-crm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/schedule-import-sales-contract-crm.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -18,7 +18,7 @@ Schedule import set jobs to pull sales representatives and associated sales acco
 
 ## Before you begin
 
-[Configure Microsoft Dynamics CRM for sales contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/integrate-legal-ms-dynamics-crm.md).
+[Configure Microsoft Dynamics CRM for sales contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/integrate-legal-ms-dynamics-crm.md).
 
 Role required: admin
 
@@ -46,7 +46,7 @@ Based on the number of records pulled for your system, you can modify the values
     -   **Sales Representatives Scheduled Data Import**
     -   **Sales Accounts Scheduled Data Import**
     -   **Sales Opportunities Scheduled Data Import**
-    For more information, see [Scheduled data imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/installed-with-legal-simple-contracts.md)
+    For more information, see [Scheduled data imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/installed-with-legal-simple-contracts.md)
 
 3.  Configure the data import job as needed.
 

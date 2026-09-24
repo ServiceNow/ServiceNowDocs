@@ -2,7 +2,7 @@
 title: Resource Order form fields
 description: The Resource Order form enables you to review and modify domain resource orders associated with a selected customer order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/field-resource-order-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/field-resource-order-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -215,5 +215,5 @@ Attachments
 File attachments for the resource order. Select **Select file** to add the file as an attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Domain order forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-product-domain-orders.md)
+</table>**Parent Topic:**[Domain order forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/field-descriptions-product-domain-orders.md)
 

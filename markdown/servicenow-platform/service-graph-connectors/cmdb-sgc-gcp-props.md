@@ -2,7 +2,7 @@
 title: Service Graph Connector for GCP properties
 description: Service Graph Connector for GCP properties control the behavior of the connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-sgc-gcp-props.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/cmdb-sgc-gcp-props.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -92,7 +92,7 @@ This property is used for soft deletion and life cycle handling using the Integr
 -   Type: true \| false
 -   Default value: true
 
-For more information about soft deletion for the Service Graph Connector for GCP, see [Soft deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md).
+For more information about soft deletion for the Service Graph Connector for GCP, see [Soft deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ This property is used for soft deletion. Time in days in which the sys\_object\_
 -   Type: integer
 -   Default value: empty
 
-For more information about soft deletion for the Service Graph Connector for GCP, see [Soft deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md).
+For more information about soft deletion for the Service Graph Connector for GCP, see [Soft deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -119,7 +119,7 @@ Shell Script Object Path
 
 </td><td>
 
-Enter the path to the `.sh` file uploaded to the cloud storage bucket.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
+Enter the path to the `.sh` file uploaded to the cloud storage bucket.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
 
 -   Type: string
 -   Default value: empty
@@ -130,7 +130,7 @@ PowerShell Script Object Path
 
 </td><td>
 
-Enter the path to the `.ps1` file uploaded to the cloud storage bucket.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
+Enter the path to the `.ps1` file uploaded to the cloud storage bucket.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
 
 -   Type: string
 -   Default value: empty
@@ -141,7 +141,7 @@ PowerShell Script Generation Number
 
 </td><td>
 
-Enter the generation number for the `.ps1` file uploaded to the cloud storage bucket.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
+Enter the generation number for the `.ps1` file uploaded to the cloud storage bucket.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
 
 -   Type: integer
 -   Default value: empty
@@ -152,7 +152,7 @@ Shell Script Generation Number
 
 </td><td>
 
-Enter the generation number for the `.sh` file uploaded to the cloud storage bucket.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
+Enter the generation number for the `.sh` file uploaded to the cloud storage bucket.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
 
 -   Type: integer
 -   Default value: empty
@@ -163,7 +163,7 @@ Scripts Bucket Name
 
 </td><td>
 
-Enter the name of the cloud storage bucket where the `.sh` and `.ps1` files are uploaded in Google Cloud Platform.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
+Enter the name of the cloud storage bucket where the `.sh` and `.ps1` files are uploaded in Google Cloud Platform.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
 
 -   Type: string
 -   Default value: empty
@@ -174,7 +174,7 @@ Outputs Bucket Name
 
 </td><td>
 
-Enter the name of the cloudsn\_itom\_pattern.use a single hardware type for cloud data centers storage bucket provided in the `.sh` and `.ps1` files where the output of the commands are to be stored.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
+Enter the name of the cloudsn\_itom\_pattern.use a single hardware type for cloud data centers storage bucket provided in the `.sh` and `.ps1` files where the output of the commands are to be stored.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
 
 -   Type: string
 -   Default value: empty
@@ -185,7 +185,7 @@ Outputs Storage Path
 
 </td><td>
 
-Enter the folder path provided in the `.sh` and `.ps1` files where the output is uploaded in the cloud storage bucket.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
+Enter the folder path provided in the `.sh` and `.ps1` files where the output is uploaded in the cloud storage bucket.This property is required only when deep discovery is enabled. For more information, see [Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md).
 
 -   Type: string
 -   Default value: empty
@@ -571,16 +571,16 @@ Set the maximum waiting period \(in milliseconds\) after an API failure due to t
 -   Default value: `160,000`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
+</table>**Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
 
 **Related topics**  
 
 
-[Data mapping for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-data-mapping-gcp.md)
+[Data mapping for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-data-mapping-gcp.md)
 
-[CMDB classes targeted in Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-classes.md)
+[CMDB classes targeted in Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-classes.md)
 
-[Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
+[Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
 
-[Record removal process in Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md)
+[Record removal process in Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md)
 

@@ -2,7 +2,7 @@
 title: Disable comments
 description: Disable comments on a blog, document, video, event, or question to avoid users from posting comments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/disable-comments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/disable-comments.html
 release: australia
 product: Communities
 classification: communities
@@ -46,10 +46,10 @@ There are two ways of disabling comments on the community content. You can disab
     A confirmation message appears stating that you have disabled comments. The comments on the existing content are displayed. You can’t edit an existing comment or post a new comment. All community and forum administrators and the content author receive an email notification when you disable or enable comments.
 
 
-**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/moderate-communities.md)
 
 **Related topics**  
 
 
-[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/post-respond-content.md)
+[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/post-respond-content.md)
 

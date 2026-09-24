@@ -2,7 +2,7 @@
 title: Exploring Document Processor
 description: You can use the ServiceNow Document Processor application to generate standard letters or documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/exploring-document-processor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/exploring-document-processor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,6 +22,6 @@ Admins can also integrate documents with 3rd party e-signature providers like Do
 
 ## Features
 
--   [Financial Services Operations Integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md)
--   [Configuring Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-fso-document-processor.md)
+-   [Financial Services Operations Integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/integration-with-document-intelligence.md)
+-   [Configuring Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-fso-document-processor.md)
 

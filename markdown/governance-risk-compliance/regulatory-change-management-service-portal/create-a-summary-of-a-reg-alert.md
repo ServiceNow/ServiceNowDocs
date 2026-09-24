@@ -2,7 +2,7 @@
 title: Generate a regulatory alert summary
 description: Generate a summary of a new regulatory alert for a quick analysis of the alert using the regulatory alert summarization skill. Summarized alerts help compliance officers, regulatory managers, and legal teams quickly understand the impact of new regulations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/create-a-summary-of-a-reg-alert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/create-a-summary-of-a-reg-alert.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -21,11 +21,11 @@ Generate a summary of a new regulatory alert for a quick analysis of the alert u
 
 Role required: sn\_grc\_reg\_change.user and sn\_grc\_comp\_genai.reg\_change\_ai\_user
 
-For more information on related roles and regulatory alerts, see [Types of alerts, user roles, and states of regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/user_roles_and_actions.md).
+For more information on related roles and regulatory alerts, see [Types of alerts, user roles, and states of regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/user_roles_and_actions.md).
 
 ## About this task
 
-Install the ServiceNow Otto for IRM application to generate regulatory alert summaries. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
+Install the ServiceNow Otto for IRM application to generate regulatory alert summaries. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -89,7 +89,7 @@ Select this link to collapse the summary.
 
 </td><td>
 
-Select the helpful icon \[Omitted image "782b0af82d02a8f89b5683cfe66de267c3a4c0b7.png"\] Alt text: for positive feedback. Select the not helpful icon \[Omitted image "bd21ca617dc78d98ad596e018f504a4959c444eb.png"\] Alt text: if the summary wasn't helpful.
+Select the helpful icon \[Omitted image "7460640cd7ecb24dc0c83ec9493197f65fc93719.png"\] Alt text: for positive feedback. Select the not helpful icon \[Omitted image "632478fc6dbb398af6773211af54c1d606b6607f.png"\] Alt text: if the summary wasn't helpful.
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
@@ -99,7 +99,7 @@ Select the helpful icon \[Omitted image "782b0af82d02a8f89b5683cfe66de267c3a4c0b
 
 </td><td>
 
-Select the copy icon \[Omitted image "4a77b72651daa7f80649c76601bbaafcf4b6f999.png"\] Alt text: to copy the summary to the clipboard.
+Select the copy icon \[Omitted image "b39b43a47f9751945329be2990af4b95d5e09f7b.png"\] Alt text: to copy the summary to the clipboard.
 
 </td></tr><tr><td id="d159132e291">
 

@@ -2,7 +2,7 @@
 title: Process an Insurance claims case
 description: Process claims cases in the Insurance claims application. As a claims processor, you can review and verify insurance claims, complete the fulfillment tasks after an adjuster's evaluation, and close a claim.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/process-an-insurance-claims-flow-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/process-an-insurance-claims-flow-case.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

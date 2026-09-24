@@ -2,7 +2,7 @@
 title: Add a price adjustment definition to a decision table​ in License and Permit Playbook
 description: As an admin, you can use a price adjustment definition in the License and Permit Playbook to add adjustments to field prices based on the conditions of fields that are not price fields​, such as the residency status of the constituent for the location they are requesting the permit or license in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-decision-table-price-adjustment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-decision-table-price-adjustment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ A base amount can be entered and saved for each license/permit option, and can b
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Decision Tables**, and open a decision table that has been associated with a License and Permit case type​.
 
-    For information on how to associate a decision table with the case type, see [Associate a decision table with a License &amp; Permit case type​​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-associate-decision-table-with-lpr.md).
+    For information on how to associate a decision table with the case type, see [Associate a decision table with a License &amp; Permit case type​​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-associate-decision-table-with-lpr.md).
 
     You should be brought to Workflow Studio.
 

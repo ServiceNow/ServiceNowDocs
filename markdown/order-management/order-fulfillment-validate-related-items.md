@@ -2,7 +2,7 @@
 title: Validate the related items of a customer order for its compatibility
 description: Validate the related order line items of your customer order, which includes the horizontal specification relationships, to make sure that the order-related information is correctly generated to fulfill your customer order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-fulfillment-validate-related-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-fulfillment-validate-related-items.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -72,14 +72,14 @@ The ServiceNow AI Platform displays a message that confirms whether the order in
 
 ## What to do next
 
-[Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-om-approve-product-order.md)
+[Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-om-approve-product-order.md)
 
 **Note:** Upon approving for the change and disconnect type of order requests with horizontal relationships, the ServiceNow system analyzes its impact on the product inventory relationships and displays a message if it invalidates the existing relationships due to the impact of the requested change by the customer.
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

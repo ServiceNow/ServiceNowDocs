@@ -2,7 +2,7 @@
 title: Configure additional themes
 description: Configure themes and set audience criteria to apply different branding to specific user groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/es-configure-multi-theme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/es-configure-multi-theme.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -75,5 +75,5 @@ Monitor theme performance and user feedback to optimize the audience targeting c
 **Related topics**  
 
 
-[User criteria form and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/es-audience-applicability-criteria.md)
+[User criteria form and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/es-audience-applicability-criteria.md)
 

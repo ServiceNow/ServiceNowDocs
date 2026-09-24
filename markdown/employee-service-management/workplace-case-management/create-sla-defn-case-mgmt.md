@@ -2,7 +2,7 @@
 title: Create an SLA Definition
 description: Configure SLAs to ensure that cases are resolved according to the expectations of customers. SLAs set up performance parameters, such as specifying minimum uptime or the amount of time that a task needs in order to reach a certain condition. 
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/create-sla-defn-case-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/create-sla-defn-case-mgmt.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -47,7 +47,7 @@ Create an SLA definition and use it in Workplace cases. An SLA definition record
 
 The SLA Definition is created.
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Add and configure data resources to a page
 description: Add data resources to dynamically expose data from tables, records, or other elements on your page in UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-data-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/add-data-resources.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -32,7 +32,7 @@ In the data resource section of UI Builder, you can add and configure local data
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
@@ -71,7 +71,7 @@ In the data resource section of UI Builder, you can add and configure local data
 
 ## What to do next
 
-Now that you have a data resource connected to your page, you can bind the data to a component or bind an event to the data resource. For more information, see [Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data.md) and [Bind an event to a data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-data-resource.md).
+Now that you have a data resource connected to your page, you can bind the data to a component or bind an event to the data resource. For more information, see [Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/connect-data.md) and [Bind an event to a data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/bind-event-data-resource.md).
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/data-resources.md)
 

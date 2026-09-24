@@ -2,7 +2,7 @@
 title: Create a work order for the planned work
 description: Planned work records enable the scheduler to create future, everyday \(on regular basis\), or on-demand work orders based on the associated work schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/creating-work-orders-from-planned-work.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/creating-work-orders-from-planned-work.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -19,5 +19,5 @@ Planned work records enable the scheduler to create future, everyday \(on regula
 **Related topics**  
 
 
-[Planned Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/planned-work-management.md)
+[Planned Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/planned-work-management.md)
 

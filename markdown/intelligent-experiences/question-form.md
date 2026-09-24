@@ -2,7 +2,7 @@
 title: Question form fields
 description: The Question form contains fields that define a question and how its answer is extracted from a document in a use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/question-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/question-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ Field Type
 
 </td><td>
 
-Type of field — for example, text or Boolean. For descriptions of available field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/field-types.md).
+Type of field — for example, text or Boolean. For descriptions of available field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/field-types.md).
 
 </td></tr><tr><td>
 
@@ -84,5 +84,5 @@ Create multiple single fields
 Option to keep the form displayed on the screen. Select this option when adding more than one question to the use case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Content Understanding forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-forms.md)
+</table>**Parent Topic:**[Content Understanding forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cu-forms.md)
 

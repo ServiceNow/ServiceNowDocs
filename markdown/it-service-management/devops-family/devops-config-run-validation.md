@@ -2,7 +2,7 @@
 title: Run validation in DevOps Config
 description: After you have installed and configured DevOps Config, validate the configuration and review the results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-run-validation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-run-validation.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

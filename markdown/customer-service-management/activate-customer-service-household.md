@@ -2,7 +2,7 @@
 title: Activate customer household data model
 description: Activate the Customer Household Data Model plugin to manage customer service for households.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-customer-service-household.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-customer-service-household.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ The Customer Household Data Model plugin \(com.snc.household\) enables you to cr
 **Related topics**  
 
 
-[Activate the Business Location plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-business-location.md)
+[Activate the Business Location plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-business-location.md)
 

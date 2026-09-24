@@ -2,7 +2,7 @@
 title: Generate a chat reply recommendation by using ServiceNow Otto for IT Service Management \(ITSM\)
 description: Generate a reply based on the context of the chat conversation using the Now Assist icon. Chat reply recommendations provide agents with quick replies to common questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-chat-recommendation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-chat-recommendation.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -19,7 +19,7 @@ Generate a reply based on the context of the chat conversation using the Now Ass
 
 ## Before you begin
 
-Your admin must have enabled Virtual Agent and configured the chat assistant on the portal. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md) and [Summarize a chat conversation by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.md).
+Your admin must have enabled Virtual Agent and configured the chat assistant on the portal. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md) and [Summarize a chat conversation by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.md).
 
 Role required: itil
 
@@ -50,15 +50,15 @@ The Chat reply recommendation skill is turned on by default. The skill will be a
 
     \[Omitted image "now-assist-itsm-write-reply.png"\] Alt text: Chat message window with Now Assist option.
 
-<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d291906e200">
+<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d291885e200">
 
 Chat message window
 
-</th><th align="left" id="d291906e203">
+</th><th align="left" id="d291885e203">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d291906e211">
+</th></tr></thead><tbody><tr><td id="d291885e211">
 
 **Typed response**
 
@@ -70,7 +70,7 @@ Provides the option to refine your response.
 -   Shorten
 
 
-</td></tr><tr><td id="d291906e231">
+</td></tr><tr><td id="d291885e231">
 
 **Left blank**
 

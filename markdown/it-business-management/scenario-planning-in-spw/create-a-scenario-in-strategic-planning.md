@@ -2,7 +2,7 @@
 title: Create a scenario
 description: Create a scenario from a live plan or another scenario in a simulated environment to compare the scenario with the live plan and other scenarios.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-a-scenario-in-strategic-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/create-a-scenario-in-strategic-planning.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -92,6 +92,6 @@ Creating a scenario enables you to visualize and anticipate potential outcomes. 
 ## What to do next
 
 -   Create more scenarios, if necessary.
--   [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md). You can directly compare scenarios from simulation mode by selecting **Compare scenarios** from the Scenario actions list.
--   [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md)
+-   [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md). You can directly compare scenarios from simulation mode by selecting **Compare scenarios** from the Scenario actions list.
+-   [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md)
 

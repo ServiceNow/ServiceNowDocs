@@ -2,7 +2,7 @@
 title: Configure integration services for Oracle EBS
 description: For configuring integration services, provide the connection end point and the Oracle EBS ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-oracle-ebs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-oracle-ebs.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -142,7 +142,7 @@ Option to choose the order in which the entity should be displayed.
     The integration service is configured for the selected entity.
 
 
-**Parent Topic:**[Configure the Source-to-Pay integration with Oracle EBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-oracle-ebs-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with Oracle EBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-oracle-ebs-integration.md)
 
 **Related topics**  
 

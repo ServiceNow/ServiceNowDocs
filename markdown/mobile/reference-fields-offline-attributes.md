@@ -2,7 +2,7 @@
 title: Reference field attributes for input form screens in offline mode
 description: Configure the fields that you want to use and the data you want to display in offline mode by using various input attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/reference-fields-offline-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/reference-fields-offline-attributes.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-08"
@@ -14,7 +14,7 @@ breadcrumb: [Input forms in offline, Offline mode setup options, Offline mode, B
 
 Configure the fields that you want to use and the data you want to display in offline mode by using various input attributes.
 
-**Note:** You must create an input form screen before you create variables and attributes. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+**Note:** You must create an input form screen before you create variables and attributes. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-config.md).
 
 ## Reference inputs
 
@@ -137,5 +137,5 @@ This example shows how the system dynamically retrieves users who share the logg
     ```
 
 
-**Parent Topic:**[Input forms in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-input-form.md)
+**Parent Topic:**[Input forms in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-input-form.md)
 

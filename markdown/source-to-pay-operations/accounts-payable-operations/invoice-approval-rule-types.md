@@ -2,7 +2,7 @@
 title: Approval rule types
 description: Reference information for invoice approval rule types, including approval conditions, routing methods, and decision methods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule-types.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -26,5 +26,5 @@ The approval rule types determine the conditions under which approval plans are 
 |Managerial Hierarchy|Approvals are triggered based on the purchasing user's manager's hierarchy. The approval routing method can be parallel or sequential, and the approval decision method can be all approvers or any approver.|
 |Specified Users or Groups|Approvals are triggered based on the specified users or groups. The approval routing method is restricted to just sending approvals in parallel.|
 
-**Parent Topic:**[Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule.md)
+**Parent Topic:**[Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule.md)
 

@@ -2,7 +2,7 @@
 title: Explore CRM Workspace
 description: CRM Workspace is a workspace that can easily be configured and extended using UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/exploring-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/exploring-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ UI Builder is as powerful as you need it. You can build simple web experiences, 
 
 ## Setting up CSM Configurable Workspace
 
-For more information about configuring different features in CSM Configurable Workspace, such as ribbon configurations, form headers, and UI actions, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md).
+For more information about configuring different features in CSM Configurable Workspace, such as ribbon configurations, form headers, and UI actions, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md).
 
 **Related topics**  
 

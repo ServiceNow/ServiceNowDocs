@@ -2,7 +2,7 @@
 title: HR PIWB template: Predict knowledge for HR case resolution
 description: Use the classic setup template to configure and train your Similarity solution template with machine learning model to recommend knowledge articles to assist an HR agent for faster case resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-piwb-similar-hrcases-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-piwb-similar-hrcases-agent.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -52,7 +52,7 @@ When the configuration is complete, agents can discover similar information acro
 
 You can verify the integration status from **HR Administration** &gt; **HR AI Configurations** &gt; **Solution definition**. The use case is now mapped to the selected solution definition.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 
 **Related topics**  
 

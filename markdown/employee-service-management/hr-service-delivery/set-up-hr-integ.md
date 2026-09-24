@@ -2,7 +2,7 @@
 title: Configure Enterprise Service Management Integrations Framework
 description: Understand how to set up Enterprise Service Management Integrations Framework to use for integration with third-party systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/set-up-hr-integ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/set-up-hr-integ.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,13 +20,13 @@ Understand how to set up Enterprise Service Management Integrations Framework to
 
 Role required: sn\_hr\_integr\_fw.admin
 
-To set up Enterprise Service Management Integrations Framework, you must first activate the Enterprise Service Management Integrations Framework application from ServiceNow Store. Next, you must [Configure Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-hr-integ.md).
+To set up Enterprise Service Management Integrations Framework, you must first activate the Enterprise Service Management Integrations Framework application from ServiceNow Store. Next, you must [Configure Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-hr-integ.md).
 
 ## Procedure
 
 1.  Create a source record by specifying the third-party application with which you want to integrate your ServiceNow application.
 
-    For more information, refer to [Create a source in Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-source-hrint.md).
+    For more information, refer to [Create a source in Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-source-hrint.md).
 
 2.  Create an import set table.
 
@@ -38,11 +38,11 @@ To set up Enterprise Service Management Integrations Framework, you must first a
 
 4.  Create an integration service to connect with the third-party system.
 
-    For more information, refer to [Create an integration service in Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-hr-service-hrint.md).
+    For more information, refer to [Create an integration service in Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-hr-service-hrint.md).
 
 5.  Create transformation maps.
 
-    For more information, see [Create transform maps in Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/transform-maps-HR.md).
+    For more information, see [Create transform maps in Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/transform-maps-HR.md).
 
     **Note:**
 

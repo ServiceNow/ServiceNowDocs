@@ -2,7 +2,7 @@
 title: Assign Security Incidents
 description: Assign security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/assign-security-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/assign-security-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -43,7 +43,7 @@ Role required: sn\_si.basic
     \[Omitted image "assign-security-incident.png"\] Alt text: Security incident- Assign
 
 
-**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 

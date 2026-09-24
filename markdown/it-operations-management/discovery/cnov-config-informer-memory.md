@@ -2,7 +2,7 @@
 title: Configure informer pod memory limit and memory request
 description: Set the memory limit and memory request of the Kubernetes Visibility Agent Informer pod.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-config-informer-memory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/cnov-config-informer-memory.html
 release: australia
 product: Discovery
 classification: discovery
@@ -69,5 +69,5 @@ Informer pod memory consumption depends mainly on the number of resources contai
         Setting `memoryRequest` equal to `memoryLimit` reserves exactly the memory your ACC agent needs. It prevents the ACC agent from being shut down if the system runs low on memory. This guarantees stable, uninterrupted agent operation. If you leave memoryRequest at the default 200Mi while setting a higher memoryLimit \(such as 625Mi\), the pod is burstable. It schedules against 200Mi but can grow to 625Mi.
 
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-deploy-install.md)
 

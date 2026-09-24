@@ -2,7 +2,7 @@
 title: Delete filters
 description: You can delete any saved filter, including global, group, or personal filters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_DeletingFilters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_DeletingFilters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Role required: admin
 5.  Click **Delete** and confirm the deletion.
 
 
-**Parent Topic:**[Filter admin functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/filter-admin-functions.md)
+**Parent Topic:**[Filter admin functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/filter-admin-functions.md)
 
 **Related topics**  
 
@@ -44,7 +44,7 @@ Role required: admin
 
 [Create a dynamic filter option]()
 
-[Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md)
+[Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_PersonalLists.md)
 
 [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheListLayout.md)
 

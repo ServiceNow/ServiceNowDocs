@@ -2,7 +2,7 @@
 title: Manually map a location to a campus \(Workplace Core\)
 description: Use Workplace Core as an alternative to the Safe Workplace Dashboard to manually map a location to a campus so that it appears on your Safe Workplace Dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-dashboard/configure-safe-workplace-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace-dashboard/configure-safe-workplace-dashboard.html
 release: australia
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -45,5 +45,5 @@ Role required: sn\_wsd\_core.workplace\_manager
 4.  Continue updating campus records until they all have a parent location and the corresponding latitude and longitude values.
 
 
-**Parent Topic:**[Create a campus to appear on the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.md)
+**Parent Topic:**[Create a campus to appear on the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.md)
 

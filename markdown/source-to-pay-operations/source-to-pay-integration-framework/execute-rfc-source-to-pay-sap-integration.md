@@ -2,7 +2,7 @@
 title: Execute RFC in the Source-to-Pay with SAP integration
 description: Execute RFC from the available list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/execute-rfc-source-to-pay-sap-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/execute-rfc-source-to-pay-sap-integration.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

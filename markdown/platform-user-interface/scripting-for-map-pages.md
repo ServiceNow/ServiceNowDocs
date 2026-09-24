@@ -2,7 +2,7 @@
 title: Scripting for map pages
 description: The Script field on the Map Page form allows the use of attributes or custom code to define map characteristics, such as marker appearance, display information, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/scripting-for-map-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/scripting-for-map-pages.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -219,7 +219,7 @@ while (count.next()) {
 }
 ```
 
-**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
+**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_MapPages.md)
 
 **Related topics**  
 

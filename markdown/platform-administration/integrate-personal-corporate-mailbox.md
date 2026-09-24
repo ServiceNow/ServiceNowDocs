@@ -2,7 +2,7 @@
 title: Set up personal corporate mailbox
 description: Set up your personal corporate mailboxes with ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/integrate-personal-corporate-mailbox.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/integrate-personal-corporate-mailbox.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,7 +50,7 @@ Role required: user\_email\_account
 
     4.  Select a template from the list of configured user email account templates.
 
-        To configure a new template aside from the preconfigured templates, see [Configure templates for personal corporate mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-personal-corporate-mailbox.md).
+        To configure a new template aside from the preconfigured templates, see [Configure templates for personal corporate mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-personal-corporate-mailbox.md).
 
     5.  Review the information.
 
@@ -63,5 +63,5 @@ Role required: user\_email\_account
         **Note:** At least one mailbox must be connected to view the connected mailboxes.
 
 
-**Parent Topic:**[Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/personal-corporate-mailbox.md)
+**Parent Topic:**[Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/personal-corporate-mailbox.md)
 

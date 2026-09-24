@@ -2,7 +2,7 @@
 title: Create stockroom for Field Service Management assets
 description: Create a stockroom in the Field Service Management application and assign assets to it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/asset-management-for-field-service/create-stockroom-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/asset-management-for-field-service/create-stockroom-fsm.html
 release: australia
 product: Asset Management for Field Service
 classification: asset-management-for-field-service

@@ -2,7 +2,7 @@
 title: Add and configure the Portal Banner widget
 description: Add a Portal Banner widget to your portal to display announcements, feature highlights, and important information on the portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -18,9 +18,9 @@ Add a Portal Banner widget to your portal to display announcements, feature high
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must be activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md)
+The UI Components for Customer Portals plugin must be activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md)
 
-If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
+If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
 Role required: sp\_admin
 
@@ -94,11 +94,11 @@ Role required: sp\_admin
         }
         ```
 
-        For more information about each parameter, see [Script parameters for the search option in the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/json-param-search-option-banner-widget.md).
+        For more information about each parameter, see [Script parameters for the search option in the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/json-param-search-option-banner-widget.md).
 
     6.  On the Instance form, fill in the fields.
 
-        For a description of the field values, see [Portal Banner widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/banner-widget-inst-options.md).
+        For a description of the field values, see [Portal Banner widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/banner-widget-inst-options.md).
 
     7.  Select **Save**.
 

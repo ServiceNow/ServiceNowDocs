@@ -2,7 +2,7 @@
 title: Create a KPI Configuration
 description: Create a key performance indicator \(KPI\) that aggregates values from the Space table for use in the Space Planning module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/create-kpi-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/create-kpi-configuration.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -28,7 +28,7 @@ Role required: sn\_wsd\_spcmgmt.admin
 
 3.  On the KPI Configuration form, fill in the fields.
 
-    For a description of the field values, see [KPI Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/kpi-configuration-form.md).
+    For a description of the field values, see [KPI Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/kpi-configuration-form.md).
 
 4.  Select **Submit**.
 
@@ -39,9 +39,9 @@ Role required: sn\_wsd\_spcmgmt.admin
 
 A KPI Configuration record is created on the KPI Configuration \[sn\_wsd\_spcmgmt\_kpi\_configuration\] table. Active KPIs are evaluated against the Space \[sn\_wsd\_core\_space\] table and the calculated values appear in the Space Planning workspace.
 
-For more information about the Space Planning workspace, see [Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/space-planning.md).
+For more information about the Space Planning workspace, see [Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/space-planning.md).
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

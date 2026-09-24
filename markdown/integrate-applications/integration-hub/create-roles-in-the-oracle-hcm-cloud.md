@@ -2,7 +2,7 @@
 title: Create roles in the Oracle HCM Cloud
 description: Create roles to execute all actions in the Oracle HCM spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-roles-in-the-oracle-hcm-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/create-roles-in-the-oracle-hcm-cloud.html
 release: australia
 product: Integration Hub
 classification: integration-hub

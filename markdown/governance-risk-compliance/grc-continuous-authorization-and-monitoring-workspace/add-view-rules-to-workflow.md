@@ -2,7 +2,7 @@
 title: Add view rules to workflow
 description: Configure custom view rules to display specific fields, sections, or layouts for authorization packages using a particular workflow configuration. View rules enable workflow-specific user interfaces without modifying the base package form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-view-rules-to-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-view-rules-to-workflow.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -143,5 +143,5 @@ To configure which form tabs display.
 5.  Select **Submit** to add the new view rule.
 
 
-**Parent Topic:**[Workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/work-configuration.md)
+**Parent Topic:**[Workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/work-configuration.md)
 

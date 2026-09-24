@@ -2,7 +2,7 @@
 title: Add a reservable purpose to a workplace item
 description: Define the purpose of a workplace item by adding a reservable purpose. The purpose is displayed in the details of the workplace item so that employees can select the appropriate item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-reservable-purpose-to-workplace-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-reservable-purpose-to-workplace-item.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -26,15 +26,15 @@ Role required: sn\_wsd\_rsv.manager
 
 2.  Based on the type of workplace item that you want to add a reservable purpose to, do one of the following.
 
-<table id="choicetable_j22_wth_5nb"><thead><tr><th align="left" id="d357898e69">
+<table id="choicetable_j22_wth_5nb"><thead><tr><th align="left" id="d358382e69">
 
 Workplace item
 
-</th><th align="left" id="d357898e72">
+</th><th align="left" id="d358382e72">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d357898e78">
+</th></tr></thead><tbody><tr><td id="d358382e78">
 
 **Workplace space**
 
@@ -44,7 +44,7 @@ Navigation
 2.  Select the space that you are adding the purpose to.
 
 
-</td></tr><tr><td id="d357898e99">
+</td></tr><tr><td id="d358382e99">
 
 **Workplace room**
 
@@ -72,5 +72,5 @@ Navigation
 
 The reservable purpose is added to the workplace item.
 
-**Parent Topic:**[Configure a reservable purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-reservable-purpose.md)
+**Parent Topic:**[Configure a reservable purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/configure-reservable-purpose.md)
 

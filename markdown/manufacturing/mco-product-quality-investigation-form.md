@@ -2,7 +2,7 @@
 title: Product quality investigation form
 description: The PQI form enables you to add the investigation details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-quality-investigation-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-product-quality-investigation-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -166,10 +166,10 @@ Report summary
 Enter the summary of the PQI report.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qim-form.md)
 
 **Related topics**  
 
 
-[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-product-quality-investigation.md)
+[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-product-quality-investigation.md)
 

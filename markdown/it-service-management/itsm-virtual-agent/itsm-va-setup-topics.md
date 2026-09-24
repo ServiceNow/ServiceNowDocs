@@ -2,7 +2,7 @@
 title: Pre-built setup topics for Virtual Agent
 description: Use pre-built setup topics to create a standard welcome greeting and a conversation closing. In addition, setup topics can provide user feedback and surveys, as well as error handling.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-setup-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/itsm-va-setup-topics.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -36,5 +36,5 @@ The dynamic greeting is followed by the standard greeting, which asks the user t
 
 For more information about configuring the greeting setup topic, see [Change the Virtual Agent greeting messages in the Greeting setup topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-welcome-topic-selection-msgs.md).
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

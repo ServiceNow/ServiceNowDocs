@@ -2,7 +2,7 @@
 title: UI Test Script examples
 description: Reference example scripts to use in a Run UI Test Script step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/r\_run\_ui\_test\_script\_examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/r\_run\_ui\_test\_script\_examples.html
 release: australia
 product: Developer Guides
 classification: developer-guides

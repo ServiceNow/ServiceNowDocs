@@ -2,7 +2,7 @@
 title: Employee Center for Zoom
 description: Integrate Employee Center with a Zoom account for your organization employees so they can use Employee Center capabilities from within the Zoom client application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/zoom-ec-create-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/zoom-ec-create-app.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,9 +28,9 @@ The Zoom admin role is the Zoom account admin role, and it is not a role in Serv
 
 ## About this task
 
-Integrating Zoom with  Employee Center enables access  to Employee Center functionality from within the Zoom client either on Windows OS or iOS.​ For more information, see [Use Employee Center from Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-create-email-notification.md).
+Integrating Zoom with  Employee Center enables access  to Employee Center functionality from within the Zoom client either on Windows OS or iOS.​ For more information, see [Use Employee Center from Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/zoom-create-email-notification.md).
 
-For information about ServiceNow integrations with the Zoom application, see [ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn_zoomIntegration.md).
+For information about ServiceNow integrations with the Zoom application, see [ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn_zoomIntegration.md).
 
 ## Procedure
 
@@ -77,19 +77,19 @@ For information about ServiceNow integrations with the Zoom application, see [Se
         ServiceNow Employee Center homepage is displayed.
 
 
--   **[Set up a custom portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-set-up-custom-portal.md)**  
+-   **[Set up a custom portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/zoom-set-up-custom-portal.md)**  
 Configure the ServiceNow® Employee Center portal appearance of your organization’s custom portal in Zoom.
--   **[View connected Zoom accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-view-connected-accounts.md)**  
+-   **[View connected Zoom accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/zoom-view-connected-accounts.md)**  
 View the list of Zoom accounts connected to your ServiceNow® instance.
--   **[Connect your Zoom account to a different ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-override-sn-instance.md)**  
+-   **[Connect your Zoom account to a different ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/zoom-override-sn-instance.md)**  
 Connect your Zoom account to another ServiceNow® instance by overriding your existing ServiceNow instance.
--   **[Change existing Zoom account connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-account-change.md)**  
+-   **[Change existing Zoom account connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/zoom-account-change.md)**  
 Change your existing Zoom account connection in your ServiceNow® instance.
 
-**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/integrate-ec.md)
+**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/integrate-ec.md)
 
 **Related topics**  
 
 
-[Use Employee Center from Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-create-email-notification.md)
+[Use Employee Center from Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/zoom-create-email-notification.md)
 

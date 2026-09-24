@@ -2,7 +2,7 @@
 title: Customize email notifications for mobile activity stream mentions
 description: Enable users to alert their contacts by email that they are mentioned in a thread. The user enters the @ character followed by the contact's name in a record's activity stream, for their contact to be alerted. This feature is enabled by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mentions-mobile-in-email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mentions-mobile-in-email.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Configure your instance to send an email notification when a user mentions a con
 7.  Verify that **Allow Notifications** is enabled.
 
 
-**Parent Topic:**[Configure notifications for mobile activity stream mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/notification-activity-stream.md)
+**Parent Topic:**[Configure notifications for mobile activity stream mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/notification-activity-stream.md)
 

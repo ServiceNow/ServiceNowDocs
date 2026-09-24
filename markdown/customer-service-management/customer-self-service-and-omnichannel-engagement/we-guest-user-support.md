@@ -2,7 +2,7 @@
 title: Guest user access for Web Embeddables
 description: Enable unauthenticated users to access Web Embeddables components on your third-party website without logging in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-guest-user-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-guest-user-support.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -29,16 +29,16 @@ The components display content only if the content such as article or catalog it
 -   Enable the component ACLs
 -   Set the system property
 -   Implement the global code on your third-party website
--   Embed the component on your third-party website page. For more information, see [Embed ServiceNow components instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-web-components-third-party-website.md).
+-   Embed the component on your third-party website page. For more information, see [Embed ServiceNow components instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-web-components-third-party-website.md).
 -   Make content displayed in components public
 
 ## Guest users support activation
 
-Activate the Web components for Guest Embeddables \(sn\_guest\_component\) plugin to enable guest user support on your website. For more information on how to activate the plugin, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
+Activate the Web components for Guest Embeddables \(sn\_guest\_component\) plugin to enable guest user support on your website. For more information on how to activate the plugin, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
 
 ## Enable the component ACLs
 
-For guest user to view or interact with the components on your third-party website, you must enable the guest ACLs of the components . For more information, see [Configure ACL for guest access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-config-acl-guest-user.md).
+For guest user to view or interact with the components on your third-party website, you must enable the guest ACLs of the components . For more information, see [Configure ACL for guest access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-config-acl-guest-user.md).
 
 ## Guest users system properties
 

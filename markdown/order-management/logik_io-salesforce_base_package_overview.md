@@ -2,7 +2,7 @@
 title: CPQ and Salesforce base package overview
 description: The CPQ and Salesforce base package lets the user use Salesforce Product2 records as configurable products in CPQ, launch the CPQ Admin from Salesforce, and integrate the two applications in other useful ways.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io-salesforce\_base\_package\_overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/logik\_io-salesforce\_base\_package\_overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,10 +16,10 @@ The CPQ and Salesforce base package lets the user use Salesforce Product2 record
 
 The base package provides the minimum components and configuration for CPQ interacting with Salesforce. This package allows the user to:
 
--   Enable Salesforce Product2 records to be a CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configurable-products-explore.md).
+-   Enable Salesforce Product2 records to be a CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configurable-products-explore.md).
 -   Launch the CPQ Admin from Salesforce, from enabled Product2 records
--   Embed the CPQ configuration UI in other Salesforce pages or applications outside CPQ using Visualforce. See [Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
--   Access CPQ admin APIs using Salesforce tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md).
+-   Embed the CPQ configuration UI in other Salesforce pages or applications outside CPQ using Visualforce. See [Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
+-   Access CPQ admin APIs using Salesforce tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/admin-apis-authentication-via-salesforce-connected-app.md).
 
 ## Product2 integration
 

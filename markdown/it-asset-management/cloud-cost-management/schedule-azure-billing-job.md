@@ -2,7 +2,7 @@
 title: Schedule and manage the jobs that download Azure billing data
 description: Billing Download jobs download, organize, and store billing data for your payer account on the schedule that you specify. The system analyzes the data to generate reports and to make recommendations for changes in your cloud operations that can lead to cost savings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/schedule-azure-billing-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/schedule-azure-billing-job.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -27,7 +27,7 @@ Role required: Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integration
 -   To ensure accurate reporting and recommendations for some providers, make sure that Discovery runs before the scheduled execution.
 -   You can create only one Billing Download job for each service account.
 -   Only costs of unblended type are supported.
--   Each successful execution of a Billing Download job updates tagged costs. Recent updates that you make to tag category definitions \(for example, adding a tag name to a category\) might not be reflected in cost reports. You should map tag values to tag categories after the first run because populating tag values needs at least one successful run. For more information on applying the latest tag category definitions to cost data without running a Billing Download job, see [Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md).
+-   Each successful execution of a Billing Download job updates tagged costs. Recent updates that you make to tag category definitions \(for example, adding a tag name to a category\) might not be reflected in cost reports. You should map tag values to tag categories after the first run because populating tag values needs at least one successful run. For more information on applying the latest tag category definitions to cost data without running a Billing Download job, see [Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md).
 -   When a Billing Download job successfully completes, it triggers the Budget Forecast, Business hours, Commitments, Rightsizing, and Unused resources jobs to analyze spend and usage data. This action also updates the actionable recommendations in reports.
 -   When the scheduled time arrives, job execution happens in multiple stages \(for example, connect to the provider, download the data, perform the post-import sort, and so on\). The system logs status and results on the Price Sheet Executions page for each stage.
 -   Cost categories are updated with new cost tag values each time billing data is downloaded. For example, the Cost Center category might include the tags development, testing, and QA. The User category might include the names of your users.
@@ -48,7 +48,7 @@ Role required: Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integration
     -   To set up Kubernetes discovery, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/kubernetes-discovery.md).
 -   If you have installed the Cloud Cost Management Infra Stack application along with Cloud Cost Management version 8.1, bill processing only happens on the Kubernetes cluster outside the Glide but within the ServiceNow datacenter. This framework supports parallel processing of data in chunks, making the billing file download faster.
 
-    After you submit a request for Azure billing data, the blobs are generated based on the chunk size. You can use the system property **sn\_cld\_intg\_azure.billing\_chunk\_duration** to set the chunk size. For details, see [Configure the chunk size of Microsoft Azure billing blob](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/config-aws-blob-ccminfra.md). Consider an example where you want to download 30 days of billing data and you have set the chunk size to 3, then the billing data is available in 10 blobs. After all the blobs are generated, the state of the job changes from Ready to Requested. These blobs are stored in some blob storage on the Azure portal. The Kubernetes framework then downloads and processes the generated blobs from Azure.
+    After you submit a request for Azure billing data, the blobs are generated based on the chunk size. You can use the system property **sn\_cld\_intg\_azure.billing\_chunk\_duration** to set the chunk size. For details, see [Configure the chunk size of Microsoft Azure billing blob](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/config-aws-blob-ccminfra.md). Consider an example where you want to download 30 days of billing data and you have set the chunk size to 3, then the billing data is available in 10 blobs. After all the blobs are generated, the state of the job changes from Ready to Requested. These blobs are stored in some blob storage on the Azure portal. The Kubernetes framework then downloads and processes the generated blobs from Azure.
 
     **Note:**
 
@@ -201,7 +201,7 @@ Actual Cost Export Name
 
 </td><td>
 
-Name of the actual cost export configured on the Azure portal.For more information, see [Create exports on the Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-azure-exports.md).
+Name of the actual cost export configured on the Azure portal.For more information, see [Create exports on the Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/create-azure-exports.md).
 
 </td></tr><tr><td>
 
@@ -209,7 +209,7 @@ Amortized Cost Export Name
 
 </td><td>
 
-Name of the amortized cost export configured on the Azure portal.For more information, see [Create exports on the Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-azure-exports.md).
+Name of the amortized cost export configured on the Azure portal.For more information, see [Create exports on the Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/create-azure-exports.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -279,7 +279,7 @@ The complete billing download occurs on the fourth day or on the billing finaliz
 
     1.  **Ready**: Job is in the queue. For example, when a job is created to download billing data for a few months, the jobs for all months except the latest month are in Ready state.
 
-        **Note:** If you have installed the Cloud Cost Management Infra Stack application, the Azure blob URLs are generated in the Ready state. For details, see [Configure the chunk size of Microsoft Azure billing blob](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/config-aws-blob-ccminfra.md). Only when all the blobs are generated, the state changes to Requested.
+        **Note:** If you have installed the Cloud Cost Management Infra Stack application, the Azure blob URLs are generated in the Ready state. For details, see [Configure the chunk size of Microsoft Azure billing blob](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/config-aws-blob-ccminfra.md). Only when all the blobs are generated, the state changes to Requested.
 
     2.  **Requested**: Job is fetched immediately. For example, the job that's created to download billing data for a month is in the Requested state. Also, when a job is created to download billing data for more than a month, the latest month job is also in the Requested state.
     3.  **Reserved**: Job is picked by the Kubernetes cluster for processing. The Kubernetes cluster also sends the Job Id to the Glide side to show which Kubernetes job is processing the billing job.
@@ -312,5 +312,5 @@ The following events happen when the job executes:
 -   While downloading the data, Cloud Cost Management updates the billing node data table \[sn\_cld\_intg\_&lt;provider&gt;\_cost\_usage\] with the CIs in the CMDB that corresponds to each resource ID. If a CI doesn’t exist, the system generates a placeholder CI. On subsequent discovery, the system reconciles the placeholder CI.
 -   Cloud Cost Management generates a log entry for each stage of the execution on the Billing Download Executions page.
 
-**Note:** The supported CIs are placed after the Cumulus Unsupported CI Placement scheduled job runs daily. For more information, see [Supported CI class types for Microsoft Azure services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-supported-ci-class-types.md).
+**Note:** The supported CIs are placed after the Cumulus Unsupported CI Placement scheduled job runs daily. For more information, see [Supported CI class types for Microsoft Azure services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/azure-supported-ci-class-types.md).
 

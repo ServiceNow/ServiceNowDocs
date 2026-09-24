@@ -2,7 +2,7 @@
 title: Run Discovery on the Ansible config provider
 description: Add the Ansible config provider and run Discovery to discover what's in the inventory, the host group, and the available job templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/running-discovery-on-ansible-config-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-services-catalog/running-discovery-on-ansible-config-provider.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -49,5 +49,5 @@ Role required: none
 
 You’re all set to take the next steps to order an Ansible item.
 
-**Parent Topic:**[Integrating Ansible with Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md)
+**Parent Topic:**[Integrating Ansible with Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md)
 

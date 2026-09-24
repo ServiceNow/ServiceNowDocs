@@ -2,7 +2,7 @@
 title: Guided setup for Kafka consumers
 description: Implement the following steps for a complete guided setup for Kafka consumers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-guided-setup-kafka.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-guided-setup-kafka.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ Role required: admin
 
     You are going to use these certificates when connecting your external system.
 
-    Setup secure connection to Hermes Messaging Service. See [Set up a secure connection to the Hermes Messaging Service for LES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-hermes-cert.md) for more information. You will need these certificates for authentication and authorization in the client which will pull the logs from Hermes.
+    Setup secure connection to Hermes Messaging Service. See [Set up a secure connection to the Hermes Messaging Service for LES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-hermes-cert.md) for more information. You will need these certificates for authentication and authorization in the client which will pull the logs from Hermes.
 
     **Note:** admin or Hermes\_admin roles are required for this step.
 
@@ -105,5 +105,5 @@ Role required: admin
         -   If your consumers require it, specify the Kafka JSON Converters properties to disable schemas: “key.converter.schemas.enable=false”, “value.converter.schemas.enable=false”
     -   Verify Kafka consumer pulling logs from Hermes: Verify in your chosen Kakfa consumer that you can pull log events from the Hermes Messaging Service.
 
-**Parent Topic:**[Kafka consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-kafka-consumer.md)
+**Parent Topic:**[Kafka consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-kafka-consumer.md)
 

@@ -2,7 +2,7 @@
 title: Payment terms
 description: Field descriptions for the \[sn\_shop\_payment\_term\] table, which stores payment terms that apply to invoice transactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/payment-terms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/payment-terms.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -108,5 +108,5 @@ String
 Applicable only to type “Net”.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
+</table>**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

@@ -2,7 +2,7 @@
 title: Agentic Playbooks user roles
 description: The following roles are required for runtime users to access Agentic Playbooks, and come with the Now Assist for Platform AI agents skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/agentic-playbooks-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/agentic-playbooks-roles.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

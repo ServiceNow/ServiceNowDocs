@@ -2,7 +2,7 @@
 title: Request change form
 description: The request change form enables you to request for a change in the demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/request-change-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/request-change-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

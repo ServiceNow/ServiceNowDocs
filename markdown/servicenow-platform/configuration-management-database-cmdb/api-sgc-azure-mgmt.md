@@ -2,7 +2,7 @@
 title: API Service Graph Connector for Azure API Management
 description: Use the ServiceNow API Service Graph Connector for Azure API Management to import API details from an Azure API Management application into the Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -24,7 +24,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Import data into a normalized data model for consistency across other technologies.
 
-The API Insights workspace provides a centralized interface where you can analyze and interact with API data, without needing direct access to Azure API Management, enhancing visibility, governance, and collaboration across the API estate. To learn more, see [API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights.md).
+The API Insights workspace provides a centralized interface where you can analyze and interact with API data, without needing direct access to Azure API Management, enhancing visibility, governance, and collaboration across the API estate. To learn more, see [API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights.md).
 
 ## Supported ServiceNow versions
 
@@ -42,7 +42,7 @@ You can use the API Service Graph Connector for Azure API Management to:
 
 ## Configuring a connection for the connector
 
-You can configure a connection for the connector by using the SGC Central view in the CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure API Service Graph Connector for Azure API Management using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-azure-api-mgmt.md).
+You can configure a connection for the connector by using the SGC Central view in the CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure API Service Graph Connector for Azure API Management using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-azure-api-mgmt.md).
 
 **Important:** Unless there are configuration issues, use SGC Central to configure the connection. The guided setup method for configuration is being deprecated.
 
@@ -76,13 +76,13 @@ SGA Azure API Management \[sn\_azure\_api\_gw\_sga\_azure\_api\_management\]
 
 </td><td>
 
-[Azure API Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)[Azure Subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[Azure API Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)[Azure Subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
-[Resource Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[Resource Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
-[DNS Alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[DNS Alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ SGA Azure Managed API \[sn\_azure\_api\_gw\_sga\_azure\_managed\_api\]
 
 </td><td>
 
-[Managed API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[Managed API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ SGA Azure API Frontend Backend \[sn\_azure\_api\_gw\_sga\_azure\_api\_frontend\_
 
 </td><td>
 
-[API Frontend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)[API Backend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[API Frontend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)[API Backend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ SGA Azure API GraphQL Frontend Backend \[sn\_azure\_api\_gw\_sga\_azure\_api\_gr
 
 </td><td>
 
-[API Frontend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)[API Backend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[API Frontend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)[API Backend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ SGA Azure API Consumer \[sn\_azure\_api\_gw\_sga\_azure\_api\_consumer\]
 
 </td><td>
 
-[API Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[API Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ SGA Azure API Product \[sn\_azure\_api\_gw\_sga\_azure\_api\_product\]
 
 </td><td>
 
-[API Product Bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[API Product Bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ SGA Azure API Consumer Subscription \[sn\_azure\_api\_gw\_sga\_azure\_api\_subsc
 
 </td><td>
 
-[API Consumer Subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[API Consumer Subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ API Tag \[sn\_azure\_api\_gw\_api\_tag\]
 
 </td><td>
 
-[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
 </td></tr><tr><td>
 
@@ -178,12 +178,12 @@ SGA Azure API Consumer Access \[sn\_azure\_api\_gw\_sga\_azure\_managed\_api\]
 
 </td><td>
 
-[API Consumer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
+[API Consumer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md)
 
 </td></tr></tbody>
-</table>For more information on where data is saved when pulling data from an Azure API Management application, see [Target tables for storing API Service Graph Connector for Azure API Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md).
+</table>For more information on where data is saved when pulling data from an Azure API Management application, see [Target tables for storing API Service Graph Connector for Azure API Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.md).
 
-You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
+You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 
 ## Record removal process
 

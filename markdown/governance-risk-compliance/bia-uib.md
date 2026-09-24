@@ -2,7 +2,7 @@
 title: Business impact analysis
 description: Business impact analysis is a structured process where you assess the impact categories and dependencies. You can then predict the consequences of a disruption on a business process or business function.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bia-uib.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bia-uib.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ A business impact analysis is an integral component of the business continuity p
 
 Business managers have to make challenging decisions that can contribute to overall business growth. Sometimes, an unforeseen event or a disruption can cause disruptive effects. Performing a business impact analysis helps your business to mitigate these concerns. By evaluating the potential impact of an event or a decision, your business can predict future consequences and recover from setbacks successfully.
 
-For information on the use cases for business impact analysis, see [Use cases for business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-use-cases.md).
+For information on the use cases for business impact analysis, see [Use cases for business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-use-cases.md).
 
 ## Steps involved in creating a business impact analysis
 
@@ -43,7 +43,7 @@ A typical business impact analysis workflow is shown in the examples:
 
 ## Setup tasks for the business impact analysis administrator
 
-If you are the business impact analysis administrator, you can view [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-admin-tasks.md) for information on the setup tasks.
+If you are the business impact analysis administrator, you can view [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-admin-tasks.md) for information on the setup tasks.
 
 ## Creating a business impact analysis in Business Continuity Workspace
 
@@ -53,12 +53,12 @@ If you are the business impact analysis owner, you can create a business impact 
 
     \[Omitted image "bia-home-page.png"\] Alt text: Create BIA from the Home page.
 
-    For the description of the cards and action buttons in the **Business impact analysis** tab of the Home page, see [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/home-page-uib-ws.md).
+    For the description of the cards and action buttons in the **Business impact analysis** tab of the Home page, see [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/home-page-uib-ws.md).
 
 -   You can also navigate to the List view and select **New** in the Business Impact Analysis records as shown in the example.
 
     \[Omitted image "list-view-bcm.png"\] Alt text: Create BIA from the record page in the List view.
 
 
-To create a business impact analysis in Business Continuity Workspace, see [Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bia-in-uib-ws.md). For information on managing the tasks that are related to a business impact analysis, see [Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md).
+To create a business impact analysis in Business Continuity Workspace, see [Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-bia-in-uib-ws.md). For information on managing the tasks that are related to a business impact analysis, see [Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md).
 

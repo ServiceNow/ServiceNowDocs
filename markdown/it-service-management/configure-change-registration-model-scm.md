@@ -2,7 +2,7 @@
 title: Configure the Change Registration change model
 description: Configure the Change Registration change model to define who can register external changes and configure stakeholder notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-change-registration-model-scm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configure-change-registration-model-scm.html
 release: australia
 topic_type: task
 last_updated: "2026-05-18"
@@ -27,7 +27,7 @@ Change Registration captures changes controlled by external teams or vendors, su
 
 1.  Open the **Change Registration** change model in the Configuration Console.
 
-    For navigation steps, see [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-change-models-scm.md).
+    For navigation steps, see [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configure-change-models-scm.md).
 
 2.  In the **Availability** section, set the **Available for new change requests** toggle.
 
@@ -54,7 +54,7 @@ The Change Registration change model configuration is saved. Only the designated
 
 ## What to do next
 
-To configure additional change models, return to [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-change-models-scm.md).
+To configure additional change models, return to [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configure-change-models-scm.md).
 
-**Parent Topic:**[Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-change-models-scm.md)
+**Parent Topic:**[Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configure-change-models-scm.md)
 

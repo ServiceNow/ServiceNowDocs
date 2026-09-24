@@ -2,7 +2,7 @@
 title: MID Server resource threshold alerts
 description: The instance displays warnings when a MID Server breaches its resource thresholds for CPU and JVM memory usage, enabling users to create email notifications or custom scripts when a breach occurs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-resource-threshold-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-resource-threshold-alerts.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -36,7 +36,7 @@ This processing occurs whether or not alerting is enabled:
     -   **Update max memory on MID Server Status**: Calls the MIDResourceThresholdBreach.checkMemoryUsage script include.
     Each function takes an average of the metric sets inserted into the tables, based on the configured thresholds and sampling intervals. The instance first looks at each MID Server for configuration parameters that set custom threshold values or sampling intervals for that MID Server. If no configuration parameters for these attributes are found, the instance looks in the System Properties \[sys\_properties\] table for custom values to use. If no properties are found, the instance uses the default threshold and interval values from the code.
 
-    **Note:** Both the threshold percentages and the sampling intervals are configurable. See [Configuring thresholds and sampling intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-resource-threshold-alerts.md) for details.
+    **Note:** Both the threshold percentages and the sampling intervals are configurable. See [Configuring thresholds and sampling intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-resource-threshold-alerts.md) for details.
 
 
 ## Alerting process
@@ -57,8 +57,8 @@ When the administrator first examines an issue in the MID Server Issue \[ecc\_ag
 Administrators have the opportunity to resolve any resource issues with a MID Server when they receive notification of the event. Follow these recommendations for reducing the strain on MID Server resources:
 
 -   **JVM memory**:
-    -   Allocate more max memory to the MID Server. For more information, see [Set the MID Server JVM memory size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_MIDServerOptionalConfiguration.md).
-    -   Add additional MID Servers to share the workload. For more information, see [MID Server clusters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
+    -   Allocate more max memory to the MID Server. For more information, see [Set the MID Server JVM memory size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_MIDServerOptionalConfiguration.md).
+    -   Add additional MID Servers to share the workload. For more information, see [MID Server clusters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
     -   Reduce the amount of concurrent processing for the MID Server. This includes segmenting IP Address ranges into smaller segments for a Discovery schedule or loading smaller segments of data within an import job.
 -   **CPU**: Reduce the activity on the host or migrate the MID Server to a new host with more available resources.
 
@@ -127,7 +127,7 @@ Stores the memory usage data inserted by each MID Server every 10 minutes. The t
 You can use the default threshold percentages and sampling intervals or configure custom values using either of these methods:
 
 -   [Add system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the instance and change the default values for all MID Servers.
--   Add [configuration parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md) to change the default resource values for individual MID Servers.
+-   Add [configuration parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md) to change the default resource values for individual MID Servers.
 
 The system properties and the configuration parameters use the same names.
 
@@ -174,10 +174,10 @@ Usage percentage of the total memory resources that initiates a threshold breach
 </td></tr></tbody>
 </table>## MID Server resource reporting
 
-The [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDashboard.md) contains two reports that give you views into the consumption of CPU and JVM memory resources. These reports show usage over the previous 30 days.
+The [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerDashboard.md) contains two reports that give you views into the consumption of CPU and JVM memory resources. These reports show usage over the previous 30 days.
 
 -   **Avg Percentage of CPU Used**: Trending the daily average on CPU usage helps illustrate the amount of CPU processing that the MID Server host consumes. MID Servers deployed on the same host will report the same CPU usage.
 -   **Avg Percentage of Max Memory Used**: The maximum used percentage \(**max\_used\_pct**\) is a useful metric for determining if the MID Server has enough memory resources. This metric is a percentage of the max used memory over the total available memory. Trending this over time provides a visualization of how much memory is needed by the MID Server.
 
-**Parent Topic:**[Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md)
+**Parent Topic:**[Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md)
 

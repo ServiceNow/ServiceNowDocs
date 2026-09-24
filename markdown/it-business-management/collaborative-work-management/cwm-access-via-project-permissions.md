@@ -2,7 +2,7 @@
 title: Project task access in CWM
 description: Learn how project users and CWM users can access project tasks and CWM tasks within the Collaborative Work Management workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-access-via-project-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/cwm-access-via-project-permissions.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -21,7 +21,7 @@ Learn how project users and CWM users can access project tasks and CWM tasks wit
 
 Access to a CWM task is granted through either of the following paths:
 
--   Being a member in the Space that contains the Board where the task lives. This requires the sn\_cwm.cwm\_user role and is the typical CWM access path. For more information about roles for team members, see [Team member role access permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-role-permissions.md).
+-   Being a member in the Space that contains the Board where the task lives. This requires the sn\_cwm.cwm\_user role and is the typical CWM access path. For more information about roles for team members, see [Team member role access permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-team-member-role-permissions.md).
 -   Read or write access to the project task referenced by the **Project task** field on the CWM task, along with the sn\_cwm.cwm\_user role.
 
 Either path allows access and the project user can perform the corresponding action on the CWM task.
@@ -117,12 +117,12 @@ None
 No access
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/reference-cwm.md)
+</table>**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/reference-cwm.md)
 
 **Related topics**  
 
 
-[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
+[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
 
-[Team member role access permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-role-permissions.md)
+[Team member role access permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-team-member-role-permissions.md)
 

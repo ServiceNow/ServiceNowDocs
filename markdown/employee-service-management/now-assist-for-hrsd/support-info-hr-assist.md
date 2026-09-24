@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for HRSD
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/support-info-hr-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/support-info-hr-assist.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

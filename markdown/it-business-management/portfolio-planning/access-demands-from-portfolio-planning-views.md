@@ -2,7 +2,7 @@
 title: Access execution records from Portfolio Plans
 description: After creating a planning item demand in a Portfolio Plan, access the corresponding execution demand record directly from the Prioritization, Kanban, or Roadmap view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/access-demands-from-portfolio-planning-views.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/access-demands-from-portfolio-planning-views.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -23,7 +23,7 @@ Role required: apw\_user, ap\_read\_only
 
 ## About this task
 
-An execution record is created in the Demands module for each planning item demand, using alignment integration. For more information, see [Configuring Portfolio Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.md).
+An execution record is created in the Demands module for each planning item demand, using alignment integration. For more information, see [Configuring Portfolio Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.md).
 
 ## Procedure
 

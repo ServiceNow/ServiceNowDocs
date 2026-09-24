@@ -2,7 +2,7 @@
 title: Language Switch widget
 description: Add the Language Switch widget to a landing or homepage to allow your users to change the language of the page. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/language-switch-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/language-switch-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -22,7 +22,7 @@ Add the Language Switch widget to a landing or homepage to allow your users to c
 
 The Language Switch widget does not include any instance options.
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

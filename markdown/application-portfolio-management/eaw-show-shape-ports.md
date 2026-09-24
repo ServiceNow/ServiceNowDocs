@@ -2,7 +2,7 @@
 title: Show shape controls without hovering
 description: Enable an accessibility preference to keep all contextual buttons and controls on diagram shapes visible at all times, without requiring you to hover.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-show-shape-ports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-show-shape-ports.html
 release: australia
 topic_type: task
 last_updated: "2026-05-17"
@@ -37,5 +37,5 @@ This preference applies to all shape types in the diagram canvas, including Gene
     \[Omitted image "eaw-accessibility-show-buttons-pref.png"\] Alt text: Accessibility section of the Preferences dialog with the Show all buttons without the need to hover toggle enabled.
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 

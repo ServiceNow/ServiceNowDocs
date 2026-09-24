@@ -2,7 +2,7 @@
 title: Explore ServiceNow Otto for Retail Service Management
 description: ServiceNow Otto for Retail Service Management is an intelligent assistant that helps headquarters support agents efficiently manage and resolve store inquiries and service requests using generative AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-now-assist-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-now-assist-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,5 +28,5 @@ The Store inquiry AI agent is equipped with the following capabilities:
 -   Analyze all the available sources: Analyze past cases, knowledge base articles, and documents to generate accurate answers to store agent queries. This ensures that HQ agents receive relevant and precise information.
 -   Update case information: Modify or update the details of an existing case as needed, allowing for the maintenance of accurate and up-to-date case information.
 
-**Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-explore.md)
+**Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-explore.md)
 

@@ -2,7 +2,7 @@
 title: Configure Hiring
 description: Set up the Hiring tab in the Manager Hub to empower the hiring managers to make quality hires. Create a seamless process and easy communication with the recruiter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-hiring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/config-hiring.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,11 +17,11 @@ breadcrumb: [Configure, Hiring tab, Hiring Experiences, HR Service Delivery, Emp
 
 Set up the Hiring tab in the Manager Hub to empower the hiring managers to make quality hires. Create a seamless process and easy communication with the recruiter.
 
-Set up the Recommended for you section to add and view hiring content easily. For more information on setting up Recommended for you, see [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/rfy-ec.md).
+Set up the Recommended for you section to add and view hiring content easily. For more information on setting up Recommended for you, see [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/rfy-ec.md).
 
 Enable ServiceNow Otto Q&amp;A Genius Results to generate answers from articles most relevant to the search query. For more information, see [Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enabling-now-assist-qa-grs.md).
 
 Customize the job requisition form fields according to your organizational requirements. For more information, see [Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefineACatalogItem.md).
 
-**Parent Topic:**[Configuring Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configuring-hiring-tab.md)
+**Parent Topic:**[Configuring Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configuring-hiring-tab.md)
 

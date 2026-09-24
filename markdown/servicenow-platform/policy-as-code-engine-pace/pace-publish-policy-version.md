@@ -2,7 +2,7 @@
 title: Publish a PaCE policy version
 description: You can publish a policy version at any time. When the policy is published, a compliant, non-compliant, or compliant-exception decision is made for objects \(tables or document IDs\) mapped to the policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-publish-policy-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-publish-policy-version.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

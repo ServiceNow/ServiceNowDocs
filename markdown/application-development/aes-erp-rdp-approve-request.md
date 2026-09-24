@@ -2,7 +2,7 @@
 title: Approve or reject requests in Approval Hub
 description: As an approver, review master data and journal entry requests in Approval Hub and approve or reject them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-approve-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-approve-request.html
 release: australia
 topic_type: task
 last_updated: "2026-08-14"
@@ -17,17 +17,17 @@ As an approver, review master data and journal entry requests in Approval Hub an
 
 ## Before you begin
 
-Role required: An MDM Orchestrator approval role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator approval role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## About this task
 
-Approval Hub is the unified interface where approvers review and decide on pending requests across all rapid deployment packs. For more information, see [Approval Hub Rapid Deployment Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-approval-hub.md).
+Approval Hub is the unified interface where approvers review and decide on pending requests across all rapid deployment packs. For more information, see [Approval Hub Rapid Deployment Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-approval-hub.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **My Approvals Hub** &gt; **My Approvals**.
 
-    The **MDM Dashboard** is displayed by default. Select **ERP Dashboard** or **JE Dashboard** \(Journal Entry Dashboard\) at any time. For details about the information on the dashboards, see [App Engine ERP Approval Hub dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-approval-hub-dashboards.md).
+    The **MDM Dashboard** is displayed by default. Select **ERP Dashboard** or **JE Dashboard** \(Journal Entry Dashboard\) at any time. For details about the information on the dashboards, see [App Engine ERP Approval Hub dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-approval-hub-dashboards.md).
 
 2.  Adjust the time frame \(default is **Last Month**\), by selecting the picker and choosing an option, such as last 7 days or all time.
 
@@ -82,5 +82,5 @@ Approval Hub is the unified interface where approvers review and decide on pendi
 
 After final approval, MDM Orchestrator hands the record off to your ERP integration layer, for example Integration Hub spokes or Zero Copy Connector for ERP, for creation in the target ERP system.
 
-**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-use.md)
 

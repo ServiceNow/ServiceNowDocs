@@ -2,7 +2,7 @@
 title: Task SLA
 description: Create one or more Service Level Agreement \(SLA\) definitions and use them to create an SLA record. This SLA record enables you to use an SLA system for your organization's task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-task-sla.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-task-sla.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

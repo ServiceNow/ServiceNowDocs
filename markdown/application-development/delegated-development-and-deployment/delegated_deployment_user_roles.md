@@ -2,7 +2,7 @@
 title: Instance-specific deployment user roles
 description: Assign roles that enable non-admin users install or upgrade all applications in specific instances. You delegate these tasks by manually assigning specific user roles per instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/delegated\_deployment\_user\_roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/delegated-development-and-deployment/delegated\_deployment\_user\_roles.html
 release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment

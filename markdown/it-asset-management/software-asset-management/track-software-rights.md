@@ -2,7 +2,7 @@
 title: Create entitlements in Software Asset Management Core UI
 description: Create entitlements in the Software Asset Management Core UI application to record your license details and allocate purchased software rights to users or devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/track-software-rights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/track-software-rights.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -22,7 +22,7 @@ Role required: sam\_user
 
 ## About this task
 
-These instructions are for manually creating software entitlements or maintenance entitlements one at a time. If you already have software entitlements recorded in a spreadsheet, you can [import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-entitlement-import-errors.md) them.
+These instructions are for manually creating software entitlements or maintenance entitlements one at a time. If you already have software entitlements recorded in a spreadsheet, you can [import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/view-entitlement-import-errors.md) them.
 
 To automate the process of creating a software entitlement, specify a publisher part number in the software entitlement form. Based on the publisher part number, the software model, metric group, agreement type, and software lifecycle data \(if it exists\) automatically appears in the form.
 
@@ -30,11 +30,11 @@ To better manage your existing entitlements, you can edit certain fields in enti
 
 **Note:** Microsoft reserve entitlements and source entitlements are not editable.
 
-If you installed SaaS License Management, a software model is generated automatically after you create an integration profile. Create an entitlement for the software model to track software used against software owned. For more information about tracking SaaS licenses and usage, see [Viewing your SaaS and SSO subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/usage-summary-saas.md).
+If you installed SaaS License Management, a software model is generated automatically after you create an integration profile. Create an entitlement for the software model to track software used against software owned. For more information about tracking SaaS licenses and usage, see [Viewing your SaaS and SSO subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/usage-summary-saas.md).
 
-If you installed the SAP publisher pack, see [Record software rights for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlement-sap.md).
+If you installed the SAP publisher pack, see [Record software rights for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlement-sap.md).
 
-If you installed the Citrix publisher pack, see [Record software rights for Citrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlement-citrix.md)
+If you installed the Citrix publisher pack, see [Record software rights for Citrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlement-citrix.md)
 
 ## Procedure
 
@@ -44,7 +44,7 @@ If you installed the Citrix publisher pack, see [Record software rights for Citr
 
 3.  On the form, fill in the fields to record your license information.
 
-    For detailed descriptions of the fields, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+    For detailed descriptions of the fields, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
 4.  Right-click the form header and select **Save**.
 
@@ -54,15 +54,15 @@ If you installed the Citrix publisher pack, see [Record software rights for Citr
 
     The **Device Allocations** section is not visible for the IBM Resource Value Unit \(RVU\) license metric. The Resource Value Unit \(RVU\) license metric is licensed at the product level and so rights are not used by individual devices. When you upgrade from a prior release, that had device allocations, to the Australia release, the existing device relocations are removed.
 
-6.  To track your software downgrade rights, select the [Downgrade Rights related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md) and specify the version.
+6.  To track your software downgrade rights, select the [Downgrade Rights related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md) and specify the version.
 
     Creating a new record allows you to set an entitlement to previous versions of software. For example, the purchase of Microsoft Office Professional Plus 2016 rights entitles you to Microsoft Office Professional Plus 2013 too\).
 
-    For more information, see [Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/downgrade-rights.md).
+    For more information, see [Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/downgrade-rights.md).
 
 7.  To track the cost of your software over its lifecycle, configure [expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ExpenseLine.md).
 
-8.  To manage license keys, select the [License Keys related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md) and specify which licenses keys are allocated to entitlements.
+8.  To manage license keys, select the [License Keys related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md) and specify which licenses keys are allocated to entitlements.
 
 9.  To view the history of all maintenance entitlements that you have purchased, select the Entitlement History related list.
 
@@ -75,19 +75,19 @@ If you installed the Citrix publisher pack, see [Record software rights for Citr
     The entitlement is created and added to the entitlement list view.
 
 
--   **[Create maintenance entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Record-software-rights-non-microsoft.md)**  
+-   **[Create maintenance entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/Record-software-rights-non-microsoft.md)**  
 Define license details, for all publishers other than Microsoft, to manage all your software license maintenance needs such as start and end dates of your contracts and software upgrades.
--   **[Create entitlements for Microsoft Software Assurance in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlement-microsoft-sa.md)**  
+-   **[Create entitlements for Microsoft Software Assurance in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlement-microsoft-sa.md)**  
 Define license details for Microsoft Software Assurance \(SA\) to manage your contracts start and end dates, software upgrades, and related software entitlements.
 
-**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)
 
 **Related topics**  
 
 
-[Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md)
+[Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md)
 
-[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 
-[Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md)
+[Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md)
 

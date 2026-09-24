@@ -2,7 +2,7 @@
 title: Configure customer information contexts for the Customer Information view
 description: Associate each list, record, report, and report group configuration you created with a consumer or contact context, depending on who you want to display the information for.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-ci-contexts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-ci-contexts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

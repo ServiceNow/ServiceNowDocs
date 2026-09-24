@@ -2,7 +2,7 @@
 title: Add a record to a list in CWM
 description: Use CWM Lists to add a record to the source table of a predefined or custom list, without leaving the CWM workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/add-a-record-to-a-list-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/add-a-record-to-a-list-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -44,5 +44,5 @@ Role required: sn\_cwm.cwm\_user
 
 The record is created and appears in the respective list in CWM.
 
-**Parent Topic:**[Manage lists in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-lists.md)
+**Parent Topic:**[Manage lists in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-lists.md)
 

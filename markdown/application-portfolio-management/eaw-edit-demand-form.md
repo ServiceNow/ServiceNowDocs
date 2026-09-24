@@ -2,7 +2,7 @@
 title: Demand form
 description: Use a demand as a step to identify cost-saving opportunities on the business applications and meet your targets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-edit-demand-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-edit-demand-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -166,10 +166,10 @@ Impacted Business Applications
 One or more business applications to associate the demand with. You can select any business application in your enterprise, irrespective of it being related or not related to the capability that you’ve selected in the **Business Capabilities** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Edit a demand associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-a-demand-associated-with-a-business-application.md)
+[Edit a demand associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-edit-a-demand-associated-with-a-business-application.md)
 

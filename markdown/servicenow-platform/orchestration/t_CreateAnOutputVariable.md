@@ -2,7 +2,7 @@
 title: Create an output variable
 description: The Outputs form in the designer contains a variable builder for creating data structures of objects and arrays.Output variables contain messages returned from a destination that are available to other activities in a workflow or internally to the activity.Mapping is configured with parsing rules that allow you to build expressions in the appropriate data format for the selected payload.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t\_CreateAnOutputVariable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/t\_CreateAnOutputVariable.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -22,7 +22,7 @@ Roles required: activity\_admin, activity\_creator
 
 ## About this task
 
-Elements in this structure are mapped with [Create a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md) to specific data contained in payloads returned from an endpoint or host. These variables and their values are then made available locally or for reuse in other activities.
+Elements in this structure are mapped with [Create a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md) to specific data contained in payloads returned from an endpoint or host. These variables and their values are then made available locally or for reuse in other activities.
 
 ## Procedure
 
@@ -55,7 +55,7 @@ Elements in this structure are mapped with [Create a parsing rule](https://raw.g
 7.  To delete a variable, click the delete icon \(\[Omitted image "DeleteVar.png"\] Alt text: delete icon\) in the row.
 
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/create-custom-activities.md)
 
 ## Activity designer template outputs
 
@@ -83,7 +83,7 @@ When you are finished creating the output data structure, map each variable to t
 
 1.  To map a variable, drag it from the **Outputs** variable builder and drop it into an empty **Variable name** field in the Parsing rules section.
 
-    See [create a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md) for instructions on configuring parsing for output variables.
+    See [create a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md) for instructions on configuring parsing for output variables.
 
     \[Omitted image "OutputsMappingVariable.png"\] Alt text: Mapping an output field
 

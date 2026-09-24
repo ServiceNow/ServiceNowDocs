@@ -2,7 +2,7 @@
 title: Displaying multiple product lists in layouts
 description: You can configure multiple product lists for a single layout by creating and importing a layout CSV file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/displaying\_multiple\_productlists\_in\_layouts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/displaying\_multiple\_productlists\_in\_layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Use the BOM Types to Include in Save Request admin setting to add additional BOM
 
 Use the Push BOM Data to CPQ Salesforce Object admin setting to configure BOM items to be passed back and written into Salesforce as configuration line items.
 
-To learn how to add additional BOM types to a Save request and to configure BOM items to be written to Salesforce as configuration line items, see [CPQ admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-settings.md).
+To learn how to add additional BOM types to a Save request and to configure BOM items to be written to Salesforce as configuration line items, see [CPQ admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-admin-settings.md).
 
 To add multiple product lists to a layout, use tiers to separate the additional BOMs. Product lists can be added by editing the layout CSV file and importing it. For information about displaying multiple BOMs in a layout, view the following video:
 
@@ -61,5 +61,5 @@ See this [sample layout CSV](https://docs.google.com/spreadsheets/d/1vTouzEdkHaB
 **Related topics**  
 
 
-[Customizing the currency display in the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_how_do_i_customize_currency_display_in_shopping_cart.md)
+[Customizing the currency display in the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_how_do_i_customize_currency_display_in_shopping_cart.md)
 

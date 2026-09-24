@@ -2,7 +2,7 @@
 title: Test an assignment rule
 description: You can test a new assignment rule to verify that it works as intended.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_TestingAssignmentRules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_TestingAssignmentRules.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -47,5 +47,5 @@ After verifying that the necessary skills are assigned to the correct users, tes
 **Related topics**  
 
 
-[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
+[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

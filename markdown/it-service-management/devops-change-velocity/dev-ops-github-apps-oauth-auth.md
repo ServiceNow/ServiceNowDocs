@@ -2,7 +2,7 @@
 title: OAuth 2.0 credentials for GitHub Apps - Authorization Code
 description: Perform the following steps to integrate your GitHub Apps using Authorization code.Create a custom GitHub App from your GitHub account to enable OAuth 2.0 authentication with your ServiceNow instance.Use the information generated during GitHub App account configuration to register GitHub as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create a credential record to the GitHub App provider previously created to authorize actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-github-apps-oauth-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/dev-ops-github-apps-oauth-auth.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity

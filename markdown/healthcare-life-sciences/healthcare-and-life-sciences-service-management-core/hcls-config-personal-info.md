@@ -2,7 +2,7 @@
 title: Set up the process for submitting personal information on the Patient Portal
 description: You can manage the process of submitting the personal information from your patients on the Patient Portal by using a record producer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-personal-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-personal-info.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -20,5 +20,5 @@ As a user with the admin role, you can create a record producer to define the fi
 
 By default, the **Enter personal Info** record producer is available for submitting key personal information. You can use the default record producer to add more fields or create your own record producer. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
 
-**Note:** When the Vaccine Administration Management application is installed, a different record producer is available for submitting personal information for vaccines. For more information, see [Setting up the process for submitting personal information for vaccines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-config.-personal-info.md).
+**Note:** When the Vaccine Administration Management application is installed, a different record producer is available for submitting personal information for vaccines. For more information, see [Setting up the process for submitting personal information for vaccines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/vaccine-administration-management/hcls-vam-config.-personal-info.md).
 

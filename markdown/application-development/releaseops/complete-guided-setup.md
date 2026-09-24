@@ -2,7 +2,7 @@
 title: Complete ReleaseOps guided setup
 description: Guided setup helps to make the initial configuration of ReleaseOps easier. Follow the steps in guided setup to begin using ReleaseOps quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/complete-guided-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/complete-guided-setup.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -19,9 +19,9 @@ Guided setup helps to make the initial configuration of ReleaseOps easier. Follo
 
 ## About this task
 
-For more complex setup scenarios, use the procedure outlined in [ReleaseOps manual setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/configure-new-releaseops-ecosystem.md).
+For more complex setup scenarios, use the procedure outlined in [ReleaseOps manual setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/configure-new-releaseops-ecosystem.md).
 
-When completing guided setup, you define several kinds of instances for your ReleaseOps pipeline. To learn more about each instance, see [Instances in ReleaseOps configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/instances-in-releaseops-configuration.md).
+When completing guided setup, you define several kinds of instances for your ReleaseOps pipeline. To learn more about each instance, see [Instances in ReleaseOps configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/instances-in-releaseops-configuration.md).
 
 ## Before you begin
 
@@ -41,7 +41,7 @@ Role required: admin or sn\_releaseops.releaseops\_pipeline\_admin
 
     2.  For each instance that you want to participate in your ReleaseOps pipeline, select the check box next to the instance name.
 
-        **Important:** You must select your controller instance and at least once instance with an **Instance type** of "Test" when selecting instances for your pipeline. For more information about instances, see [Instances in ReleaseOps configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/instances-in-releaseops-configuration.md).
+        **Important:** You must select your controller instance and at least once instance with an **Instance type** of "Test" when selecting instances for your pipeline. For more information about instances, see [Instances in ReleaseOps configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/instances-in-releaseops-configuration.md).
 
         \[Omitted image "releaseops-select-instances-for-setup.png"\] Alt text: Select each instance that you want to participate in your ReleaseOps pipeline by selecting the check box next to the instance name.
 
@@ -130,5 +130,5 @@ Role required: admin or sn\_releaseops.releaseops\_pipeline\_admin
 
 ## Result
 
-You have completed guided setup for ReleaseOps. You can start using ReleaseOps to manage your deployments. For more information, see [Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md).
+You have completed guided setup for ReleaseOps. You can start using ReleaseOps to manage your deployments. For more information, see [Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/using-releaseops-to-manage-deployments.md).
 

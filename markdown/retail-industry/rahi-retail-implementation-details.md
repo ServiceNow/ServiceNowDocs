@@ -2,7 +2,7 @@
 title: Implementation details
 description: The following table captures each screen in the tracking flow and the interaction pattern it uses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-implementation-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-implementation-details.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-29"
@@ -27,5 +27,5 @@ The following table captures each screen in the tracking flow and the interactio
 |Store tasks|Shows list of store tasks with the state.|
 |Store task - details|Shows list of store task details.|
 
-**Parent Topic:**[Retail store plans tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-explore-store-plans-tracking.md)
+**Parent Topic:**[Retail store plans tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-explore-store-plans-tracking.md)
 

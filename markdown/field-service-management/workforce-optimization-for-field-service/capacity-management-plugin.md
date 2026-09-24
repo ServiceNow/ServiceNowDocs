@@ -2,7 +2,7 @@
 title: Activate Field Service Capacity and Reservations Management
 description: You can activate the Field Service Capacity and Reservations Management plugin \(com.snc.fsm\_capacity\_management \) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/capacity-management-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/capacity-management-plugin.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -22,7 +22,7 @@ You can activate the Field Service Capacity and Reservations Management plugin \
     -   **Required ServiceNow plugins**
         -   **Field Service Management \(com.snc.work\_management\)**
 
-            For more information about activating Field Service Management, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
+            For more information about activating Field Service Management, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ActivateFieldServiceManagement.md).
 
 
 Role required: admin.
@@ -34,7 +34,7 @@ The following items are installed with Field Service Capacity and Reservations M
 -   Tables
 -   Business Rules
 
-For more information, see [Field Service Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/capacity-management-components.md).
+For more information, see [Field Service Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/capacity-management-components.md).
 
 ## Procedure
 

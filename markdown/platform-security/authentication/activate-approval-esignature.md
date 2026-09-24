@@ -2,12 +2,12 @@
 title: Activate Approval with e-Signature plugin
 description: The Approval with e-Signature plugin \(com.glide.e\_signature\_approvals\) allows users to approve requests by re-entering their login credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-approval-esignature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/activate-approval-esignature.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [E-signature for Multi-Provider SSO, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

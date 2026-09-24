@@ -2,7 +2,7 @@
 title: Remote Process Sync Dashboard
 description: View detailed statistics for your Remote Process Sync integrations. The Remote Process Sync Dashboard helps you monitor the health and performance of RPS by collecting and visualizing metrics such as records processed, queue sizes, processing times, and error states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-dashboard.html
 release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
@@ -28,7 +28,7 @@ The dashboard consists of three tabs: **Overview**, **Inbound Queue**, and **Out
 ## Before you begin
 
 -   You must install the plugin com.glide.hub.process.sync.dashboard to be able to view the Remote Process Sync Dashboard.
--   The [glide.hub.process.sync.record.successful.status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-system-properties.md) property must be set to true for data to show on this dashboard.
+-   The [glide.hub.process.sync.record.successful.status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-system-properties.md) property must be set to true for data to show on this dashboard.
 
 To access the Remote Process Sync Dashboard, navigate to **All** &gt; **Integration Hub** &gt; **Dashboards** &gt; **Remote Process Sync Dashboard**. You must have the integration\_admin or admin role to view the dashboard.
 

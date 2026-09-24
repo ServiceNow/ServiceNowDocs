@@ -2,7 +2,7 @@
 title: Create a release for a product or service
 description: Create a product or service release when all planned product enhancements and product features are ready.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-create-release.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-create-release.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -18,18 +18,18 @@ Create a product or service release when all planned product enhancements andpro
 
 ## Before you begin
 
--   [Define release scope using product enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-digital-product.md)
--   [Complete the release planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-plan-feature-version.md) by moving enhancements into different releases
+-   [Define release scope using product enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-manage-digital-product.md)
+-   [Complete the release planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-plan-feature-version.md) by moving enhancements into different releases
 
 Role required: sn\_dpr\_model.product\_manager
 
 ## About this task
 
-If product-level release settings are configured, only the templates and calendars specified for the product are available during release creation. To configure release settings for a product, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
+If product-level release settings are configured, only the templates and calendars specified for the product are available during release creation. To configure release settings for a product, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
 
-Releases can follow a timeline-oriented and stage-oriented release process. For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-product-release.md).
+Releases can follow a timeline-oriented and stage-oriented release process. For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-product-release.md).
 
-For creating a release for multiple products using the wizard, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-guided.md).
+For creating a release for multiple products using the wizard, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-create-release-guided.md).
 
 **Note:** Release readiness target and Release target are used interchangeably. Both terms refer to the same concept - release readiness target date.
 
@@ -39,15 +39,15 @@ For creating a release for multiple products using the wizard, see [Create a rel
 
 2.  Create a release for a product version from the Release planning page or the Releases list view.
 
-<table id="choicetable_mxj_fsr_lyb"><thead><tr><th align="left" id="d106128e166">
+<table id="choicetable_mxj_fsr_lyb"><thead><tr><th align="left" id="d106127e166">
 
 Option
 
-</th><th align="left" id="d106128e169">
+</th><th align="left" id="d106127e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d106128e175">
+</th></tr></thead><tbody><tr><td id="d106127e175">
 
 **From the Release planning page of a product**
 
@@ -59,7 +59,7 @@ Steps
 4.  Select the sub menu icon \(\[Omitted image "dpr-icon-menu.png"\] Alt text: Sub menu icon.\) on a version lane and select the **Create release** menu option.
 
 
-</td></tr><tr><td id="d106128e226">
+</td></tr><tr><td id="d106127e226">
 
 **From the Releases list view**
 
@@ -72,7 +72,7 @@ Steps
 </td></tr></tbody>
 </table>3.  In the dialog box, fill in the fields.
 
-    For more information on release field descriptions, see [Release form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/create-release-form.md).
+    For more information on release field descriptions, see [Release form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/create-release-form.md).
 
 4.  Select **Confirm**.
 
@@ -90,23 +90,23 @@ Steps
 
         -   The start date of the release or its phase falls in the past.
         -   The duration exceeds the max duration defined in the system property.
-        In that case, you have to select another schedule or adjust the holidays. For more information, see [Holiday schedules in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-holiday-schedule.md).
+        In that case, you have to select another schedule or adjust the holidays. For more information, see [Holiday schedules in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-release-holiday-schedule.md).
 
     -   Any key dates from the template are added to the release. The date of each key date is calculated using the number of days from the start or end of the phase specified in the release template.
 
         **Note:** If the release has a holiday schedule and a key date from the template falls on a holiday, the last workday before or after the holiday is considered as the revised key date.
 
 -   If an out-of-band release is created on a date that already has a release target, it uses that release target. However, if there’s no release target for that date, one is created, when the system property **sn\_dpr.out\_of\_band\_release\_allowed** is set to true. The release admin for this new release target is the same as the one for the selected release calendar.
--   Any artifacts associated with the product or release are added to the release. For more information, see [View and manage data from external tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-product-ext-tool.md).
+-   Any artifacts associated with the product or release are added to the release. For more information, see [View and manage data from external tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-manage-product-ext-tool.md).
 
-    You can add or remove artifacts from a release as needed. For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-artifact.md).
+    You can add or remove artifacts from a release as needed. For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
--   If the product has restricted access enabled, the restricted access setting and the product team are copied to the release as the initial release team. Only members of this team can view the release in the workspace. For more information, see [Restricted access for releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-product-release.md),
+-   If the product has restricted access enabled, the restricted access setting and the product team are copied to the release as the initial release team. Only members of this team can view the release in the workspace. For more information, see [Restricted access for releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-product-release.md),
 
-**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
+**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
 
 **Related topics**  
 
 
-[Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-config-product-release-setting.md)
+[Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-config-product-release-setting.md)
 

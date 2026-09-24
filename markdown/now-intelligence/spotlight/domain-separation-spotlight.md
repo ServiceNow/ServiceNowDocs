@@ -2,7 +2,7 @@
 title: Domain separation with Spotlight
 description: If you have domain separation enabled, Spotlight applies it during Spotlight jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/domain-separation-spotlight.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/spotlight/domain-separation-spotlight.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -35,20 +35,20 @@ Messages inform you of the domain situation when you create Spotlight criteria.
 
 ## Evaluating scores with domain separation
 
-If the Spotlight group evaluates platform data, the main indicator and all criteria are queried according to the domain and domain visibility of the **Run As** user. If the Spotlight group evaluates records from a snapshot, the main indicator and indicator-based criteria use the Performance Analytics [snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) that is collected specifically for the **Run As** user domain. The domain visibility of the **Run As** user does not apply to indicators in this case. \(Query-based criteria always evaluate platform data, even when the Spotlight group is configured to evaluate snapshots. Therefore, query-based criteria always follow both the domain and the domain visibility of the **Run As** user.\)
+If the Spotlight group evaluates platform data, the main indicator and all criteria are queried according to the domain and domain visibility of the **Run As** user. If the Spotlight group evaluates records from a snapshot, the main indicator and indicator-based criteria use the Performance Analytics [snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) that is collected specifically for the **Run As** user domain. The domain visibility of the **Run As** user does not apply to indicators in this case. \(Query-based criteria always evaluate platform data, even when the Spotlight group is configured to evaluate snapshots. Therefore, query-based criteria always follow both the domain and the domain visibility of the **Run As** user.\)
 
-**Note:** The snapshot of each indicator can differ depending on the domain configuration of the Performance Analytics [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) that creates the snapshot.
+**Note:** The snapshot of each indicator can differ depending on the domain configuration of the Performance Analytics [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) that creates the snapshot.
 
-**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight.md)
 
 **Related topics**  
 
 
-[Create a Spotlight group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/create-spotlight-group.md)
+[Create a Spotlight group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/create-spotlight-group.md)
 
-[Evaluating a snapshot or platform data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/create-spotlight-group.md)
+[Evaluating a snapshot or platform data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/create-spotlight-group.md)
 
-[Copy a Spotlight group to domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/copy-spotlight-group-domain.md)
+[Copy a Spotlight group to domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/copy-spotlight-group-domain.md)
 
-[Domain separation and Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWithDomainSeparation.md)
+[Domain separation and Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_PAWithDomainSeparation.md)
 

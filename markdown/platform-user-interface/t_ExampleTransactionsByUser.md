@@ -2,7 +2,7 @@
 title: Add transactions by user related list
 description: This example adds a relationship, Last 20 transactions, to the user form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ExampleTransactionsByUser.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ExampleTransactionsByUser.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -92,7 +92,7 @@ Notes and limitations:
 -   The parent variable refers to the **Applies to table**. In this case, it applies to the User \[sys\_user\] table.
 -   Querying against a record sys\_id is a common query method for relationships.
 
-**Parent Topic:**[Create defined related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateDefinedRelatedLists.md)
+**Parent Topic:**[Create defined related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_CreateDefinedRelatedLists.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Activity Configuration form
 description: Use the Activity Configuration form to do a basic configuration or an advanced configuration for an activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-activity-configuration-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-activity-configuration-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -141,7 +141,7 @@ List view script
 Script to read existing configurations and display tasks only for the primary activity. These tasks are shown in the List view of the My Active Items widget. This field appears only when you select the **Advanced** option.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

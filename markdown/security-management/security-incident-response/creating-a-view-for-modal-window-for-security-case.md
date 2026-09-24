@@ -2,7 +2,7 @@
 title: Step 2. Create a view for modal window for a Security Case
 description: Create a view for modal window for a Security Case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/creating-a-view-for-modal-window-for-security-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/creating-a-view-for-modal-window-for-security-case.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -47,5 +47,5 @@ Role required: admin
 6.  Navigate to **Menu** &gt; **Views** to verify if the view has rendered properly.
 
 
-**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-case-for-a-security-case.md)
+**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/use-case-for-a-security-case.md)
 

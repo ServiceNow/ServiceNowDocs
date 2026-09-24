@@ -2,7 +2,7 @@
 title: Populate the location based on the cloud account
 description: This example walks you through an existing set of blueprint rules that Cloud Provisioning and Governance provides by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/analyze-default-blueprint-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/analyze-default-blueprint-rules.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -20,9 +20,9 @@ This example walks you through an existing set of blueprint rules that Cloud Pro
 
 Before you can follow this example, you should be familiar with creating blueprints and blueprint rules. See these resources:
 
--   [Cloud Provisioning Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/blueprints.md)
--   [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
--   [Configure a blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md)
+-   [Cloud Provisioning Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/blueprints.md)
+-   [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
+-   [Configure a blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md)
 
 Role required: sn\_cmp.cloud\_service\_designer
 
@@ -107,5 +107,5 @@ This blueprint, which includes a virtual server that can be provisioned in an AW
         It is possible that multiple datacenters could be associated with **My Cloud Account**. In that case, the Location field reloads all the associated datacenters and in the Location field. Since the Location field is of type Select, the field allows the user to select which location to choose.
 
 
-**Parent Topic:**[Cloud catalog form configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/example-blueprint-rules.md)
+**Parent Topic:**[Cloud catalog form configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/example-blueprint-rules.md)
 

@@ -2,7 +2,7 @@
 title: Add an Exclusion Provider Pattern
 description: As part of the configuration of Exclusion Framework in Dynamic Translation, enter the tags used by your translation provider to mark text that should not be machine translated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/dyn-translation-exclusion-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation/dyn-translation-exclusion-provider.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -51,5 +51,5 @@ By default Exclusion Framework provides an Exclusion Provider Pattern record for
 4.  Select **Submit** to save the record.
 
 
-**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
+**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
 

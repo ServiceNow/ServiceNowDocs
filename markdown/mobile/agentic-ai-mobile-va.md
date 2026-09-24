@@ -2,7 +2,7 @@
 title: Otto AI agents for mobile
 description: Learn how Otto AI agents can be integrated into Virtual Agent on your mobile app to help your organization improve live agent productivity by using AI agents to perform tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/agentic-ai-mobile-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/agentic-ai-mobile-va.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

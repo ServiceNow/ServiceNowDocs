@@ -2,7 +2,7 @@
 title: Add a service to an SRM incident
 description: Add a service to an incident to increase the amount of data for the incident.REIVSE FOR SRM
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-add-incident-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-add-incident-service.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -57,10 +57,10 @@ Double-click the **Service** field for the incident and replace the team member 
 Select a new **Service** value from the list menu.Select **Save**.
 
 </td></tr></tbody>
-</table>    For value choices see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
+</table>    For value choices see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
     The new service is displayed in the incident list view and incident form.
 
 
-**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

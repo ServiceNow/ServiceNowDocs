@@ -2,7 +2,7 @@
 title: Activate data privacy \(Classic\)
 description: You can activate the data privacy plugin \(com.glide.data\_privacy\) for Platform Security if you have the admin role. If the application doesn't include demo data or it doesn't install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/install-data-privacy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-privacy-classic/install-data-privacy.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -34,7 +34,7 @@ The following items are installed with data privacy:
 -   Roles
 -   Tables
 
-For more information, see [Installed with data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/installed-with-data-privacy.md).
+For more information, see [Installed with data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/installed-with-data-privacy.md).
 
 ## Procedure
 

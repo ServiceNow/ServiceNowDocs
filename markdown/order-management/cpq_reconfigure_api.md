@@ -2,7 +2,7 @@
 title: The CPQ Reconfigure API
 description: The CPQ Reconfigure API headlessly invokes CPQ services to reconfigure a quote bundle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq\_reconfigure\_api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq\_reconfigure\_api.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

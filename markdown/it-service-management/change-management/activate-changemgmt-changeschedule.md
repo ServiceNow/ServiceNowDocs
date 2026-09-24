@@ -2,7 +2,7 @@
 title: Activate Change Management - Change Schedule
 description: You can activate the Change Management - Change Schedule plugin \(com.snc.change\_management.soc\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-changemgmt-changeschedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-changemgmt-changeschedule.html
 release: australia
 product: Change Management
 classification: change-management
@@ -56,10 +56,10 @@ This plugin contains six change schedules to help users. Enabling this plugin au
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Installed with Change Management - Change Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-cm-changeschedule.md)**  
+-   **[Installed with Change Management - Change Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-cm-changeschedule.md)**  
 Several types of components are installed with the Change Management - Change Schedule.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Provide source credentials for the Accurate service
 description: Provide the source and REST credentials for the Accurate service so that it can be accessed for integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-integrations-sources-accurate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-integrations-sources-accurate.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -71,9 +71,9 @@ Enables the debug log to display responses from the third-party system. Turn on 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
+**Parent Topic:**[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
 
-**Previous topic:**[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
+**Previous topic:**[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
 
-**Next topic:**[Verify integration for the Accurate service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/verify-base-integration-for-accurate.md)
+**Next topic:**[Verify integration for the Accurate service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/verify-base-integration-for-accurate.md)
 

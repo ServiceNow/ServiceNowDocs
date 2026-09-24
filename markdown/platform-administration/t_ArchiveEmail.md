@@ -2,7 +2,7 @@
 title: Archive email manually
 description: You can archive email messages manually on demand instead of waiting for the instance to archive them based on a scheduled job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ArchiveEmail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ArchiveEmail.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,8 +38,8 @@ You can manually archive email messages that meet these archive rules or any add
 
 4.  Select **Run Archive Now**.
 
-    **Note:** You can also [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md).
+    **Note:** You can also [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateAnArchiveRule.md).
 
 
-**Parent Topic:**[Email retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-retention.md)
+**Parent Topic:**[Email retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-retention.md)
 

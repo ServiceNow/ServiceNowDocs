@@ -2,7 +2,7 @@
 title: Configure single sign-on for ServiceNow Add-in for Microsoft 365
 description: Configure single sign-on \(SSO\) for your add-in so users don't have to sign-in to Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-sso-sn-addin-ms365.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-sso-sn-addin-ms365.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,5 +33,5 @@ Role required: sn\_outlook\_addin.outlook\_addin\_setup, sn\_hr\_sp.admin, sn\_h
     \[Omitted image "sn-addin-ms365-sso.png"\] Alt text: Office Manifest form with the Login Page not Required field selected and an SSO domain URL added to the Allowed Domains field.
 
 
-**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configuring-sn-addin-for-ms365.md)
+**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configuring-sn-addin-for-ms365.md)
 

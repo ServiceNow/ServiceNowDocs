@@ -2,7 +2,7 @@
 title: Enable full view search for Recommended Actions in a configurable workspace
 description: The full view search feature displays the AI search results in a new subtab with an expanded view. Use the following information to enable this feature in any configurable workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-enable-full-view-search-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-enable-full-view-search-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

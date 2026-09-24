@@ -2,7 +2,7 @@
 title: Base system device actions
 description: DEX Self-service includes these device actions in the base system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/base-sys-device-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/base-sys-device-actions.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service

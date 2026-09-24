@@ -2,7 +2,7 @@
 title: Sold Product Covered form
 description: The Customer Contracts and Entitlements application uses the Sold Product Covered form to add sold products or install base items that are covered to the Customer Contracts and Entitlements entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/sold-product-covered-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/sold-product-covered-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Customer Contracts and Entitlements reference, Configure, price, qu
 
 The Customer Contracts and Entitlements application uses the Sold Product Covered form to add sold products or install base items that are covered to the Customer Contracts and Entitlements entities.
 
-For information about adding sold products or install base items that are covered, see [Add a sold product or install base item to a customer contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-products-service-contract.md).
+For information about adding sold products or install base items that are covered, see [Add a sold product or install base item to a customer contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/add-products-service-contract.md).
 
 <table id="table_tk2_ntk_bzb"><thead><tr><th>
 
@@ -91,5 +91,5 @@ The date until which the product is active on the entity.
 </td></tr></tbody>
 </table>**Note:** The activation time period for the sold product or install base item covered must comply with the related entity's activation period.
 
-**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pss-reference.md)
+**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pss-reference.md)
 

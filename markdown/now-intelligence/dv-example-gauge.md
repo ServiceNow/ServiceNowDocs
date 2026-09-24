@@ -2,7 +2,7 @@
 title: Gauge visualization example
 description: Like dials, gauges show where a single value lies across a range from minimum to maximum expected values. In addition to dial functionality, you can set colored data ranges to help users understand what the value represents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-gauge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-example-gauge.html
 release: australia
 topic_type: task
 last_updated: "2026-03-24"
@@ -24,7 +24,7 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
 ## Procedure
 
-1.  Follow the first steps to [Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-gauge-ac.md):
+1.  Follow the first steps to [Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-gauge-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -139,5 +139,5 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
 You have created a gauge visualization based on a single metric, open incidents. You have also configured user options regarding filters and drill downs, and configured the visualization's size, labeling, and ranges.
 
-**Parent Topic:**[Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-gauge-ac.md)
+**Parent Topic:**[Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-gauge-ac.md)
 

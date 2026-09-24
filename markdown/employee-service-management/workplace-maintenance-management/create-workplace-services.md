@@ -2,7 +2,7 @@
 title: Create workplace services
 description: Create Workplace services like catering, office supply, parking, or any other service. Associate this service to a default general request template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/create-workplace-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-maintenance-management/create-workplace-services.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -33,9 +33,9 @@ Role required: admin
 3.  Select **Update**.
 
 
-**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
+**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
-**Previous topic:**[Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md)
+**Previous topic:**[Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md)
 
-**Next topic:**[Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-service-config.md)
+**Next topic:**[Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-service-config.md)
 

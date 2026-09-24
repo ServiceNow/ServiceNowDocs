@@ -2,7 +2,7 @@
 title: Requirements for installing Zero Copy Connector for ERP
 description: Before you install Zero Copy Connector for ERP \(Enterprise Resource Planning\), you must complete several configurations on both the ERP system and the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-prereqs-for-installation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-prereqs-for-installation.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -25,7 +25,7 @@ Check your entitlements to determine whether you have access to Zero Copy Connec
 
 The following plugins are required to install Zero Copy Connector for ERP:
 
--   Integration Hub plugin \(for more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)\)
+-   Integration Hub plugin \(for more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/request-ih-overview.md)\)
 -   Financial Services Remote Tables plugin \(for more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-remote-tables-plugin.md)\)
 
 ## MID Server requirements
@@ -104,7 +104,7 @@ Contact the administrator of your SAP ECC RFC account to obtain the following SA
 
 The MID Server restarts multiple times during this process.
 
-For details about these files, see [SAP ECC RFC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-ecc-rfc-spoke.md).
+For details about these files, see [SAP ECC RFC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/sap-ecc-rfc-spoke.md).
 
 ## SAP configuration
 

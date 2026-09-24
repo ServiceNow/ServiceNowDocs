@@ -2,7 +2,7 @@
 title: Add attendees to a safety meeting
 description: Add users to a safety meeting who need to attend this meeting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/add-attendees-safety-meeting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/add-attendees-safety-meeting.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -34,15 +34,15 @@ Using the **Attendees** tab of a safety meeting, you can keep track of all atten
 
 4.  In the **Attendees** tab, select **Add** or **New** to add attendees for this meeting.
 
-<table id="choicetable_owg_bw1_1fc"><thead><tr><th align="left" id="d636195e112">
+<table id="choicetable_owg_bw1_1fc"><thead><tr><th align="left" id="d636199e112">
 
 Option
 
-</th><th align="left" id="d636195e115">
+</th><th align="left" id="d636199e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d636195e121">
+</th></tr></thead><tbody><tr><td id="d636199e121">
 
 **To add multiple attendees**
 
@@ -51,9 +51,9 @@ Steps
 Add users with the Health and Safety profile in your organization who are attending this meeting.1.  Select **Add**.
 2.  Select **Filter** and use the condition builder to define conditions to choose users to be added as attendees.
 3.  Select users in the list and then select **Add**.
-For information on Health and Safety profile, see [Health and Safety user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/health-and-safety-user-profile.md).
+For information on Health and Safety profile, see [Health and Safety user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/health-and-safety-user-profile.md).
 
-</td></tr><tr><td id="d636195e167">
+</td></tr><tr><td id="d636199e167">
 
 **To add an external attendee or a single internal attendee**
 
@@ -62,7 +62,7 @@ For information on Health and Safety profile, see [Health and Safety user profil
 1.  Select **New**.
 2.  On the form, fill in the fields.
 
-For field descriptions, see [Health and Safety meeting attendee form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-safety-meeting-attendee-form.md).
+For field descriptions, see [Health and Safety meeting attendee form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-safety-meeting-attendee-form.md).
 
 3.  Select **Save**.
 
@@ -75,7 +75,7 @@ For field descriptions, see [Health and Safety meeting attendee form](https://ra
 -   For an attendee internal to your organization, the **Attendee profile** column of this list shows the user's Health and Safety profile.
 -   For an external attendee, the **Attendee profile** column of this list is empty.
 
-**Parent Topic:**[Managing safety meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/managing-hs-safety-meetings.md)
+**Parent Topic:**[Managing safety meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/managing-hs-safety-meetings.md)
 
 **Related topics**  
 

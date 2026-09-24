@@ -2,7 +2,7 @@
 title: Add custom conditions to enable ReleaseOps deployments
 description: If you want to add additional conditions to enable ReleaseOps deployments, modify the Deployment Migration to ReleaseOps decision table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/add-custom-conditions-to-enable-releaseops-deployment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/add-custom-conditions-to-enable-releaseops-deployment.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center

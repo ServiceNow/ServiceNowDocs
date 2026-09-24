@@ -2,7 +2,7 @@
 title: Handling mobile alerts
 description: Mobile alerts are an overlay pop-up window that displays over a record screen. The mobile alert displays an important message and a button to redirect you to an alternative screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-alerts-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-alerts-using.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Mobile alerts are a way that administrators can highlight an important message a
 
 \[Omitted image "alert-form-screen.png"\] Alt text: record screen with a mobile alert overlay.
 
-For information about configuring mobile alerts for a record screen, see [Configure a mobile alert for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/form-screen-alerts.md). You must be a member of the admin role to perform this configuration.
+For information about configuring mobile alerts for a record screen, see [Configure a mobile alert for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/form-screen-alerts.md). You must be a member of the admin role to perform this configuration.
 
 ## Procedure
 

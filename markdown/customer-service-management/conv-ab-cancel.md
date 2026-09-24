@@ -2,7 +2,7 @@
 title: Cancel an appointment with Conversational Appointment Booking
 description: As a customer or consumer, cancel an appointment from the Virtual Agent chat window on the service portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/conv-ab-cancel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/conv-ab-cancel.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ The appointment is canceled.
 **Related topics**  
 
 
-[Schedule an appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/conv-ab-schedule.md)
+[Schedule an appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/conv-ab-schedule.md)
 
-[Reschedule an appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/conv-ab-reschedule.md)
+[Reschedule an appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/conv-ab-reschedule.md)
 

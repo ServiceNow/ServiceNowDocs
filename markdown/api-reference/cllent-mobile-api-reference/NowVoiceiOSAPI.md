@@ -2,7 +2,7 @@
 title: NowVoice API - iOS
 description: NowVoice is a top-level global API for embedding voice agent sessions in iOS applications.Creates an instance of NowVoiceService for the specified ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,17 +16,17 @@ breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API impl
 
 NowVoice is a top-level global API for embedding voice agent sessions in iOS applications.
 
-Use NowVoice to create a [NowVoiceService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md) for a given ServiceNow instance, then use that service to start and manage voice agent sessions.
+Use NowVoice to create a [NowVoiceService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md) for a given ServiceNow instance, then use that service to start and manage voice agent sessions.
 
-For more information about configuring NowVoice, including prerequisites and call order, see [Embed an AI voice agent with NowVoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/mobsdk-ios-nowvoice.md).
+For more information about configuring NowVoice, including prerequisites and call order, see [Embed an AI voice agent with NowVoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/mobsdk-ios-nowvoice.md).
 
-**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowVoice - makeVoiceService\(instanceUrl: URL\) async throws
 
 Creates an instance of NowVoiceService for the specified ServiceNow instance.
 
-**Note:** Call this function from an async context, after calling [NowSDK.configure\(with:\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowSDKAPIiOS.md). This function fetches instance settings over the network; call it when launching a voice session, not at app startup.
+**Note:** Call this function from an async context, after calling [NowSDK.configure\(with:\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowSDKAPIiOS.md). This function fetches instance settings over the network; call it when launching a voice session, not at app startup.
 
 This function validates that voice is enabled on the ServiceNow instance and retrieves available endpoint configurations. It throws a `NowServiceError` if setup fails.
 
@@ -45,7 +45,7 @@ This function validates that voice is enabled on the ServiceNow instance and ret
 
 |Type|Description|
 |----|-----------|
-|[NowVoiceService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md)|An initialized NowVoiceService ready to start voice sessions.|
+|[NowVoiceService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md)|An initialized NowVoiceService ready to start voice sessions.|
 
 The following code example shows how to create an instance of NowVoiceService.
 

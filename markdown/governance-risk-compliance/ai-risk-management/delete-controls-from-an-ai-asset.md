@@ -2,7 +2,7 @@
 title: Delete controls from an AI asset
 description: Delete controls from an AI asset to remove them permanently from the control table. This task confirms outdated or unnecessary controls are deleted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/delete-controls-from-an-ai-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/delete-controls-from-an-ai-asset.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -40,5 +40,5 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin
     The control records are deleted completely.
 
 
-**Parent Topic:**[Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md)
+**Parent Topic:**[Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md)
 

@@ -2,7 +2,7 @@
 title: Demand Insights for Cases dashboard
 description: The Demand Insights for Cases dashboard enables you as a customer service case manager to identify which cases have no or insufficient knowledge coverage. You can then create feedback tasks for knowledge gaps to deflect such cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/demand-insights-cases-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/demand-insights-cases-dashboard.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -16,7 +16,7 @@ breadcrumb: [Analytics and Reporting Solutions for Knowledge Management, Knowled
 
 The Demand Insights for Cases dashboard enables you as a customer service case manager to identify which cases have no or insufficient knowledge coverage. You can then create feedback tasks for knowledge gaps to deflect such cases.
 
-The Predictive Intelligence for Knowledge Management plugin \(com.snc.knowledge\_ml\) includes the Demand Insights for Cases dashboard. For more information, see [Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md) and [Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/additional-plugins-km.md). The navigation path for viewing this dashboard is **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. Using the search field, look for the dashboard.
+The Predictive Intelligence for Knowledge Management plugin \(com.snc.knowledge\_ml\) includes the Demand Insights for Cases dashboard. For more information, see [Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md) and [Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/additional-plugins-km.md). The navigation path for viewing this dashboard is **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. Using the search field, look for the dashboard.
 
 ## End user and roles
 
@@ -51,12 +51,12 @@ Pareto Chart
 Displays data from the Knowledge Curation Task \[kb\_curation\_task\_cluster\] table with the following conditions: Curation configuration = sn\_customerservice\_case AND Solution.Active = true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/analytics-and-reporting-solutions-for-knowlege-management.md)
+</table>**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/analytics-and-reporting-solutions-for-knowlege-management.md)
 
 **Related topics**  
 
 
-[Pareto chart for Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/pareto-report-demand-insights.md)
+[Pareto chart for Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/pareto-report-demand-insights.md)
 
-[Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-demand-insights.md)
+[Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-demand-insights.md)
 

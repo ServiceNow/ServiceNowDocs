@@ -2,7 +2,7 @@
 title: Select demand currency preference
 description: Set your currency preference to use for managing and tracking the financials of your demands from the functional currency, regional currency, or local currency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/select-demand-currency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/select-demand-currency.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -66,7 +66,7 @@ Select **Flexi option** to manage your demands and projects, created from the de
 
 ## What to do next
 
-Enable the multicurrency view in the Demand and other demand-related forms. For more information, see [Enable demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/enable-multicurrency-demand.md).
+Enable the multicurrency view in the Demand and other demand-related forms. For more information, see [Enable demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/enable-multicurrency-demand.md).
 
-**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-demand.md)
+**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/multicurrency-demand.md)
 

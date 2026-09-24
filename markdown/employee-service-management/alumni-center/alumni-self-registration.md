@@ -2,7 +2,7 @@
 title: Register on the Alumni Center website
 description: As an external user, sign up using a personal email address and other details to self-register as alumni.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/alumni-self-registration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/alumni-self-registration.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -161,7 +161,7 @@ A mail is sent to your personal email, which contains a verification link. After
 -   If approved, the user ID and password are communicated to you via the personal email address provided.
 -   If rejected, you receive an email to fill in the required details by selecting to register again, and the verification process is repeated.
 
-**Parent Topic:**[Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-use.md)
+**Parent Topic:**[Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/asc-use.md)
 
 **Related topics**  
 

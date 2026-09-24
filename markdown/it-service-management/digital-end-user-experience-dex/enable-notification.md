@@ -2,7 +2,7 @@
 title: Enable or disable notifications
 description: Enable notifications to stay informed and engaged receiving timely updates and notifications about important events and activities within the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/enable-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/enable-notification.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -35,5 +35,5 @@ Role required: sn\_dex\_desktop.admin
 
 A bell icon \[Omitted image "icon-notification-bell.png"\] Alt text: appears on the Desktop Assistant header if you enable notifications. If you disable notifications, the bell icon disappears from the header.
 
-When enabled, push notifications are sent to employees using Desktop Assistant. For more information, see [Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/da-push-notifications.md) and [View Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/view-notifications.md).
+When enabled, push notifications are sent to employees using Desktop Assistant. For more information, see [Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/da-push-notifications.md) and [View Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/view-notifications.md).
 

@@ -2,7 +2,7 @@
 title: GlideCurrencyValue - Scoped
 description: The GlideCurrencyValue API provides methods that return the currency code and original currency from an associated GlideCurrencyParser.parse\(\) call.Returns the currency amount originally passed into the associated GlideCurrencyParser.parse\(\) call.Returns the currency code used to parse the currency in the associated GlideCurrencyParser.parse\(\) call.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideCurrencyValueScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideCurrencyValueScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,7 +20,7 @@ This API is provided within the `sn_currency` namespace.
 
 **Note:** There is no constructor for this class.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencyValue - getAmount\(\)
 

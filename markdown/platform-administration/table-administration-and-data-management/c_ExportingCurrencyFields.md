@@ -2,7 +2,7 @@
 title: Exporting currency fields to Excel
 description: Exporting currency fields to Excel applies Account formatting and can be configured to convert all values to US dollars or to export values in the user's session currency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_ExportingCurrencyFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/c\_ExportingCurrencyFields.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -37,9 +37,9 @@ The behavior of the currency field in Excel depends on the **Symbol** of the cur
 **Related topics**  
 
 
-[Currency administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency.md)
+[Currency administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/currency.md)
 
-[Single-currency mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/single-currency-mode.md)
+[Single-currency mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/single-currency-mode.md)
 
-[Control default currency field configuration and use in an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency-properties.md)
+[Control default currency field configuration and use in an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/currency-properties.md)
 

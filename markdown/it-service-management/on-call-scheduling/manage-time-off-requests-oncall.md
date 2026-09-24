@@ -2,7 +2,7 @@
 title: Manage requests for time off
 description: As a shift manager, you can review and approve time-off requests from shift members. You also specify the roster member who can cover for the time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/manage-time-off-requests-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/manage-time-off-requests-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -40,10 +40,10 @@ Role required: rota\_manager
         \[Omitted image "OC\_timeOff.png"\] Alt text: Calendar with approved time off
 
 
-**Parent Topic:**[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/config-update-shift-oncall.md)
+**Parent Topic:**[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/config-update-shift-oncall.md)
 
 **Related topics**  
 
 
-[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
+[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
 

@@ -2,7 +2,7 @@
 title: Indicator thresholds
 description: Thresholds define a normal range of scores for an indicator and alert you when certain events occurs, like when a score reaches an all-time high.Create a threshold to define the range of scores considered normal.Configure which users should receive an email when a threshold is reached.The Check PA Thresholds job triggers the PA threshold reached comment script action, which adds a comment for the indicator that has reached the threshold.Besides the notifications for each indicator, you can also send notifications with an overview of all indicators for which the threshold is reached.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-threshold.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/pa-threshold.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -22,15 +22,15 @@ A threshold can be personal or global. A personal threshold is visible only to t
 
 |Platform Analytics experience feature|Equivalent Core UI feature|Global or Personal targets|
 |-------------------------------------|--------------------------|--------------------------|
-|[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md)|[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)|Global and personal|
-|[Time series Platform Analytics data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-time-series-ac.md)|[Time series Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/time-series-widgets.md)|Global|
-|[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md) containing time series data visualizations that show thresholds|[Responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dashboards-landing-page.md) containing Time series Performance Analytics widgets that show thresholds|Global|
-|[Proactive analytics insights cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/proactive-analytics/proactive-analytics.md) on Platform Analytics dashboards, which show thresholds being breached|No equivalent|Global|
+|[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details.md)|[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)|Global and personal|
+|[Time series Platform Analytics data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-time-series-ac.md)|[Time series Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/time-series-widgets.md)|Global|
+|[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md) containing time series data visualizations that show thresholds|[Responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/dashboards-landing-page.md) containing Time series Performance Analytics widgets that show thresholds|Global|
+|[Proactive analytics insights cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/proactive-analytics/proactive-analytics.md) on Platform Analytics dashboards, which show thresholds being breached|No equivalent|Global|
 |UI Builder pages containing time series data visualizations that show thresholds|No equivalent|Global|
 
-Global thresholds can also appear on Performance Analytics [time series widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/time-series-widgets.md) and [data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-time-series-ac.md). Platform Analytics dashboards can alert viewers to events related to thresholds through [proactive analytics insights cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/proactive-analytics/proactive-analytics.md).
+Global thresholds can also appear on Performance Analytics [time series widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/time-series-widgets.md) and [data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-time-series-ac.md). Platform Analytics dashboards can alert viewers to events related to thresholds through [proactive analytics insights cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/proactive-analytics/proactive-analytics.md).
 
-**Parent Topic:**[Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md)
+**Parent Topic:**[Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-targets-thresholds.md)
 
 ## Create or edit a threshold
 
@@ -52,7 +52,7 @@ Thresholds can be set for any indicator. You can specify a breakdown and element
 
 2.  To limit the threshold to a subset of the scores, select a breakdown and a breakdown element.
 
-    You can also select a 2nd-level breakdown and element. You can select more breakdowns if the indicator has [Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md) enabled.
+    You can also select a 2nd-level breakdown and element. You can select more breakdowns if the indicator has [Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-level-breakdowns.md) enabled.
 
 3.  If the threshold should apply only to a specific aggregation of the data, select a time series aggregation.
 
@@ -86,7 +86,7 @@ After you create a threshold, set up threshold notifications.
 **Related topics**  
 
 
-[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md)
+[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details.md)
 
 ## Configure which users receive a threshold notification
 
@@ -115,7 +115,7 @@ This procedure applies to global thresholds. Notifications for personal threshol
 
 ### What to do next
 
-Besides the notifications for each indicator, you can also send notifications with an overview of all indicators for which the threshold is reached. For more information, see [Configure threshold overview notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-threshold.md).
+Besides the notifications for each indicator, you can also send notifications with an overview of all indicators for which the threshold is reached. For more information, see [Configure threshold overview notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-threshold.md).
 
 ## Configure the threshold comment
 

@@ -2,7 +2,7 @@
 title: AI Data Kit roles \(sn\_data\_kit.admin\)
 description: Users with this role can create, update, and publish datasets and data collections in AI Data Kit. This role includes all permissions granted by sn\_data\_kit.analyst.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/data-kit-admin-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/data-kit-admin-role.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit

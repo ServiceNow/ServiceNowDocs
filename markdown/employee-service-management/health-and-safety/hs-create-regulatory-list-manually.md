@@ -2,7 +2,7 @@
 title: Create a regulatory list manually
 description: If you don't have an integration with 3E, you can create a regulatory list manually to review regulatory requirements, in-force dates, and conformance status of the chemical substance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-create-regulatory-list-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-create-regulatory-list-manually.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -28,15 +28,15 @@ Role required: sn\_hs\_chm.manager
 
 3.  Add regulations to the regulatory list.
 
-<table id="choicetable_hp4_t5r_ljc"><thead><tr><th align="left" id="d388468e87">
+<table id="choicetable_hp4_t5r_ljc"><thead><tr><th align="left" id="d388472e87">
 
 Option
 
-</th><th align="left" id="d388468e90">
+</th><th align="left" id="d388472e90">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d388468e96">
+</th></tr></thead><tbody><tr><td id="d388472e96">
 
 **From Regulatory list**
 
@@ -44,7 +44,7 @@ Steps
 
 Select **Regulatory** list and then **All**.
 
-</td></tr><tr><td id="d388468e111">
+</td></tr><tr><td id="d388472e111">
 
 **From Chemical substance list**
 
@@ -57,7 +57,7 @@ Select **Regulatory** list and then **All**.
 </td></tr></tbody>
 </table>4.  Select **New** and complete the **Regulatory list regulation** form.
 
-    For more information to complete the form, see [Regulatory list regulation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-regulatory-list-regulation-form.md).
+    For more information to complete the form, see [Regulatory list regulation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-regulatory-list-regulation-form.md).
 
 5.  Select **Save**.
 
@@ -66,5 +66,5 @@ Select **Regulatory** list and then **All**.
 
 The regulatory list appears in the Regulations by regulatory list section of the **Regulatory** tab of the chemical substance.
 
-**Parent Topic:**[3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-3e-regulatory-intelligence.md)
+**Parent Topic:**[3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-3e-regulatory-intelligence.md)
 

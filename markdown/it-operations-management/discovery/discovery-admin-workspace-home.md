@@ -2,12 +2,12 @@
 title: Discovery Admin Workspace Home
 description: The Discovery Admin Workspace Home page features tools to help you identify and address the most critical discovery errors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-admin-workspace-home.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discovery-admin-workspace-home.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -27,7 +27,7 @@ To access the Discovery Admin Workspace, navigate to **Workspaces** &gt; **Disco
 
 The onboarding experience on the Home page changes based on your configuration progress. Before you create an IP or cloud-based Discovery schedule, the Home page displays an Onboarding for Discovery section. Select **Get started** to access the ITOM Configuration Console.
 
-**Note:** Note: The ITOM Configuration Console is available in Zurich Patch 8 or later versions of the ServiceNow AI Platform. For more information, see [ITOM Configuration Console for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/itom-conf-console.md).
+**Note:** Note: The ITOM Configuration Console is available in Zurich Patch 8 or later versions of the ServiceNow AI Platform. For more information, see [ITOM Configuration Console for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/itom-conf-console.md).
 
 After you create a schedule, the Onboarding for Discovery section is replaced by an Onboard Discovery progress indicator. This indicator displays the number of completed configuration tasks. Select **Continue** to resume configuration in the ITOM Configuration Console.
 
@@ -39,32 +39,32 @@ View the status of discovery using data counts and identify any irregularities t
 
 Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
 
-**Note:** You can configure the time scale reflected in the displayed counts on the [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md) page.
+**Note:** You can configure the time scale reflected in the displayed counts on the [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-setup.md) page.
 
 The following data counts display in the Quick overview section:
 
 -   **Active schedules**
 
-    Displays the number of active IP-based and Cloud Discovery schedules run to date. Selecting this number opens the [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-schedules.md) page, where you can view all the Discovery schedules that are configured and enabled to run.
+    Displays the number of active IP-based and Cloud Discovery schedules run to date. Selecting this number opens the [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-schedules.md) page, where you can view all the Discovery schedules that are configured and enabled to run.
 
 -   **Schedules with anomalies**
 
-    Displays the number of Discovery schedules with anomalies detected over a certain time period. This count only displays when anomaly detection is enabled. If anomaly detection is inactive, select **Turn on** to access the [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md) page.
+    Displays the number of Discovery schedules with anomalies detected over a certain time period. This count only displays when anomaly detection is enabled. If anomaly detection is inactive, select **Turn on** to access the [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-setup.md) page.
 
-    Selecting this number redirects you to the Anomaly detection tab on the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page, where you can view details about the type and severity of anomalies.
+    Selecting this number redirects you to the Anomaly detection tab on the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page, where you can view details about the type and severity of anomalies.
 
 -   **Discovery Operations Monitor**
 
-    Monitor discovery performance across your IT environment. Select **View dashboard** to open the dashboard and view performance metrics for transactions, sensor jobs, MID Server queue load, and probe processing times. For more information, see [Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-operations-monitor.md).
+    Monitor discovery performance across your IT environment. Select **View dashboard** to open the dashboard and view performance metrics for transactions, sensor jobs, MID Server queue load, and probe processing times. For more information, see [Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/disco-operations-monitor.md).
 
 
 ## Top discovery errors
 
-View the most critical Discovery errors currently active on your instance, including a summary count of active errors by severity. Each error card displays the error title, severity, refined code, occurrence count, and error category. Selecting an error card or the **Occurrences** link opens the [Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-error-details.md) page, where you can view the root cause, remediation steps, and individual error instances. Select **View all** to access the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page.
+View the most critical Discovery errors currently active on your instance, including a summary count of active errors by severity. Each error card displays the error title, severity, refined code, occurrence count, and error category. Selecting an error card or the **Occurrences** link opens the [Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/daw-error-details.md) page, where you can view the root cause, remediation steps, and individual error instances. Select **View all** to access the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page.
 
 ## Discovery tuning advice
 
-Fine-tune Discovery and MID Server settings with automated suggestions derived from scans of your instance. These findings identify potential issues, arranged in order of their criticality. Selecting a finding redirects you to the **Tuning check** page for more details. To view all tuning checks and latest reports, select **View all** to access the [Tuning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-tuning.md) page.
+Fine-tune Discovery and MID Server settings with automated suggestions derived from scans of your instance. These findings identify potential issues, arranged in order of their criticality. Selecting a finding redirects you to the **Tuning check** page for more details. To view all tuning checks and latest reports, select **View all** to access the [Tuning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-tuning.md) page.
 
 ## Quick Discovery
 
@@ -82,7 +82,7 @@ Enhance the functionality of the Discovery Admin Workspace by integrating additi
 
 **Note:** Updating applications requires you to have the admin role.
 
-While you can access details about the apps installed on your instance, information regarding pricing and packages isn't provided, as it varies based on each contract. For a general overview of licensing and subscription details, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-su-licensing-landing-page.md).
+While you can access details about the apps installed on your instance, information regarding pricing and packages isn't provided, as it varies based on each contract. For a general overview of licensing and subscription details, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-su-licensing-landing-page.md).
 
 ## Learnings
 

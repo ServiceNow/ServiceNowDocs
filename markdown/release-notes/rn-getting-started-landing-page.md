@@ -2,7 +2,7 @@
 title: Using the release notes
 description: Learn how to navigate the redesigned release notes and find the information you're looking for.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-getting-started-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-getting-started-landing-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -34,15 +34,15 @@ Content
 
 </th></tr></thead><tbody><tr><td>
 
-[Learn about the Australia release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-learn-landing-page.md)
+[Learn about the Australia release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-learn-landing-page.md)
 
 </td><td>
 
 Review the release highlights to learn about new features and enhancements, and use curated release notes that correspond to your upgrade path.
 
--   [Release notes for upgrading from Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-n-1-landing-page.md)
--   [Release notes for upgrading from Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-n-2-landing-page.md)
--   [Release notes for upgrading from Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-n-3-landing-page.md)
+-   [Release notes for upgrading from Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-1-landing-page.md)
+-   [Release notes for upgrading from Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-2-landing-page.md)
+-   [Release notes for upgrading from Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-3-landing-page.md)
 
  Each curated release notes package includes tools to help inform the next steps in your upgrade, including:
 
@@ -56,7 +56,7 @@ Review the release highlights to learn about new features and enhancements, and 
 
 </td></tr><tr><td>
 
-[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md)
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-prepare-landing-page.md)
 
 </td><td>
 
@@ -70,7 +70,7 @@ Start preparing for your upgrade with our upgrade planning checklist and series 
 
 </td></tr><tr><td>
 
-[ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
+[ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/upgrade.md)
 
 </td><td>
 

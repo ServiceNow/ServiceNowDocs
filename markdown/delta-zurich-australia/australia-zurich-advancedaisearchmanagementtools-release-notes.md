@@ -2,10 +2,10 @@
 title: Combined Advanced AI Search Management Tools release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Advanced AI Search Management Tools from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedaisearchmanagementtools-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-advancedaisearchmanagementtools-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -69,6 +69,11 @@ Zurich
 
 -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
 
+The **Search application** interactive filter now allows analysts to review performance metrics and trends for search applications used in Recommended Actions.
+
+
+ -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
+
 The **Search application** interactive filter now allows analysts to review performance metrics and trends for the Mobile Platform search application.
 
 
@@ -100,6 +105,11 @@ Zurich
 </td><td>
 
 -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
+
+The performance metrics, trends, and charts for this dashboard have been refreshed to offer a cleaner visual experience.
+
+
+ -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
 
 The **Date range** interactive filter now enables you to access data from the last 180 days, rather than the last 90 days.
 
@@ -371,5 +381,5 @@ Australia
  See [Advanced AI Search Management Tools](https://www.servicenow.com/docs/access?context=adv-ais-mgmt-tools-content-pack&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

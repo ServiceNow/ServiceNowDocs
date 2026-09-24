@@ -2,7 +2,7 @@
 title: Microsoft Graph Security API integration configuration settings
 description: Use this option to modify the Microsoft Graph Security API ingestion integration default system properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-intg-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ms-graph-intg-settings.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

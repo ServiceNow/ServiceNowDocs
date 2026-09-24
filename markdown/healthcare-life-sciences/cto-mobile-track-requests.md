@@ -2,7 +2,7 @@
 title: Track a submitted request in Care Team Mobile
 description: Use Track requests in Care Team Mobile to track all requests submitted by you or your team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-mobile-track-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-mobile-track-requests.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

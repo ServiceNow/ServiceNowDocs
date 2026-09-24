@@ -2,7 +2,7 @@
 title: Create a new scripted SOAP web service
 description: Follow these examples to create a new scripted SOAP web service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/createSOAPwebservice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/createSOAPwebservice.html
 release: australia
 product: Web Services
 classification: web-services
@@ -46,7 +46,7 @@ The following example demonstrates how to retrieve a system property and return 
 
 ## Example 2: Ordering a Blackberry
 
-[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md) operate on tables and their data. The following example shows how to initiate a business solution, such as ordering a Blackberry, by invoking a scripted web service. The following input and output parameters support the Blackberry example:
+[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_DirectWebServices.md) operate on tables and their data. The following example shows how to initiate a business solution, such as ordering a Blackberry, by invoking a scripted web service. The following input and output parameters support the Blackberry example:
 
 \[Omitted image "soap-blackberry-input-parameters.png"\] Alt text: OrderBlackBerry Input Parameters
 
@@ -74,5 +74,5 @@ var rc = cart.placeOrder();
 response.request_number= rc.getValue('number');
 ```
 
-**Parent Topic:**[Scripted SOAP web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ScriptedWebServices.md)
+**Parent Topic:**[Scripted SOAP web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ScriptedWebServices.md)
 

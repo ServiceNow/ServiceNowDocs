@@ -2,7 +2,7 @@
 title: Activate a scheduled job to migrate budget to Next Experience
 description: Activate the Migrate budget for active demands and projects scheduled job to migrate budget of active planning items from Classic UI to Next Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/fin-migrate-budget-scheduled-job-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/fin-migrate-budget-scheduled-job-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

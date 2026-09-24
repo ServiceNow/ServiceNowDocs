@@ -2,7 +2,7 @@
 title: Disable migration of single dashboards
 description: Hide the banner on individual dashboards that enables owners to migrate dashboards that they own.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-disable-single-migr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-disable-single-migr.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

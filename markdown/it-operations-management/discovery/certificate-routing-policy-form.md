@@ -2,7 +2,7 @@
 title: Certificate Routing Policy form for CyberArk
 description: The Certificate Routing Policy form enables you to configure routing policies for CyberArk Certificate Manager SaaS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/certificate-routing-policy-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/certificate-routing-policy-form.html
 release: australia
 product: Discovery
 classification: discovery
@@ -37,5 +37,5 @@ The Certificate Routing Policy form enables you to configure routing policies fo
 |Mid Server|Specific MID Server that handles all requests matching this routing policy.|
 |Subject Common Name|Domain name secured by the certificate.|
 
-**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

@@ -2,7 +2,7 @@
 title: Check for invoice exceptions on a single invoice
 description: Manually check for exceptions on a single invoice in the Source-to-Pay Workspace to identify and resolve issues before processing the invoice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/identify-exceptions-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/identify-exceptions-manually.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -52,7 +52,7 @@ The **Check exceptions** option is available for all invoices that are in **Exce
     -   If no exceptions are found on the invoice, the status of the invoice changes to No exceptions found.
     -   If exceptions are found on the invoice, the status of the invoice remains as Exceptions found.
 
-**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 

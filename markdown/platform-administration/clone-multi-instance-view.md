@@ -2,7 +2,7 @@
 title: Multi-Instance View overview
 description: Multi-Instance View enables you to monitor and manage clone operations across multiple linked instances from a single primary instance. Use it to view clone status, track refresh history, and view cleanup script status without logging into each instance separately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-multi-instance-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/clone-multi-instance-view.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-08"
@@ -31,5 +31,5 @@ Consider enabling Multi-Instance View if you need:
 
 \[Omitted image "instance-clone-dashboard.png"\] Alt text: The Clone Admin Console dashboard with Multi-View Instance feature enabled.
 
-**Note:** Once [the Multi-Instance View feature is set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/setup-multi-instance-view.md), you can view clone records from other instances from the **Origin Instance** option on the Clone Activity page and the **Instance Overview** page.
+**Note:** Once [the Multi-Instance View feature is set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/setup-multi-instance-view.md), you can view clone records from other instances from the **Origin Instance** option on the Clone Activity page and the **Instance Overview** page.
 

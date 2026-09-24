@@ -2,7 +2,7 @@
 title: Configure an event push connector
 description: Integrate with an event push connector to connect to an external event source and push event information to your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/push-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/push-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -88,5 +88,5 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-To confirm the successful configuration of the pull connector and the flow of events into the system, go to the **Related events** tab. If the setup is successful, proceed to **Add automation** to establish an alert automation. For details on **Related events** tab, see [Review integration and configuration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/review-integration-config-health.md) and for information on alert automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sow-itom-alert-automation.md).
+To confirm the successful configuration of the pull connector and the flow of events into the system, go to the **Related events** tab. If the setup is successful, proceed to **Add automation** to establish an alert automation. For details on **Related events** tab, see [Review integration and configuration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/review-integration-config-health.md) and for information on alert automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/sow-itom-alert-automation.md).
 

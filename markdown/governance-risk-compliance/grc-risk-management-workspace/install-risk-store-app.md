@@ -2,7 +2,7 @@
 title: Install Risk Management
 description: You can install the Risk Management application \(com.sn\_risk\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/install-risk-store-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/install-risk-store-app.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -44,7 +44,7 @@ The following items are installed with Risk Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md).
+For more information, see [Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md).
 
 ## Procedure
 
@@ -67,5 +67,5 @@ For more information, see [Components installed with Risk Management](https://ra
 5.  Select **Install**.
 
 
-**Parent Topic:**[Risk Management implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-impl-overview.md)
+**Parent Topic:**[Risk Management implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-impl-overview.md)
 

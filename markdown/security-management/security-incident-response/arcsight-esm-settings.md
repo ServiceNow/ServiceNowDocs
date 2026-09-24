@@ -2,7 +2,7 @@
 title: ArcSight ESM Integration Settings for event ingestion integration
 description: Use this option to modify the ArcSight ESM default ingestion settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/arcsight-esm-settings.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

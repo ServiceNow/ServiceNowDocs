@@ -2,14 +2,14 @@
 title: Configure ServiceNow Otto for Field Service Management \(FSM\)
 description: If you have the admin role, you can configure ServiceNow Otto for Field Service Management \(FSM\) application so that users can generate work order summaries and knowledge articles, or summarize Sidebar discussions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configure-now-assist-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/configure-now-assist-fsm.html
 release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
 last_updated: "2026-05-13"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Set up work orders and tasks, Configure, Field Service Management]
 ---
 
@@ -53,7 +53,7 @@ The ServiceNow large language model \(Now LLM Service\) is currently the only pr
 
 6.  Select the inputs or triggers for the selected skill.
 
-    For more information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/now-assist-fsm-skill-inputs.md).
+    For more information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/now-assist-fsm-skill-inputs.md).
 
 7.  After configuring the required fields under the **General details** and **Choose input** tabs, select **Save and continue**.
 
@@ -75,7 +75,7 @@ The ServiceNow large language model \(Now LLM Service\) is currently the only pr
 
 13. Configure the Generate closure notes UI actions.
 
-    To complete activation for the work order task summarization skill, you must enable the Generate closure notes UI actions for the Close complete and Close incomplete states. For more information, see [Configure the Generate closure notes UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-close-ui-actions.md).
+    To complete activation for the work order task summarization skill, you must enable the Generate closure notes UI actions for the Close complete and Close incomplete states. For more information, see [Configure the Generate closure notes UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configure-close-ui-actions.md).
 
 
 **Related topics**  

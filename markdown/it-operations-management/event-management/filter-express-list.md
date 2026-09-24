@@ -2,7 +2,7 @@
 title: Filtering the alert display in the Express List pane
 description: Filters help you create different views of categorized alerts, creating a targeted list of alerts to prioritize and focus on, saving time and minimizing distractions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/filter-express-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/filter-express-list.html
 release: australia
 product: Event Management
 classification: event-management
@@ -26,9 +26,9 @@ Alternatively, you can turn on the **Use advanced filters** option to set comple
 
 In the Filters pane, you can perform the following actions:
 
--   Filter by string, number, or date attributes. For more information, see [Filter the Express List display using attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/filter-attributes.md).
--   Add filters to or remove filters from the default filter list to focus on the applied filters. The most common filters are State, Priority, CI, and Impacted services. For more information, see [Filter the Express List display by adding or removing fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/filter-express-list-fields.md)
--   Add or remove alert tags. Tags enable you to identify and group alerts easily without the need for discovery or accessing the CMDB. For more information, see [Categorize alerts displayed in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/add-remove-tags-filter.md)
--   Display or hide alerts that match a selected alert. For more information, see [Filter out or show matching alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/filter-right-click-option.md).
--   Save, delete, assign as the default, or share the filter layout. For more information, see [Save a custom filter in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/filter-saving-deleting-default.md).
+-   Filter by string, number, or date attributes. For more information, see [Filter the Express List display using attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/filter-attributes.md).
+-   Add filters to or remove filters from the default filter list to focus on the applied filters. The most common filters are State, Priority, CI, and Impacted services. For more information, see [Filter the Express List display by adding or removing fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/filter-express-list-fields.md)
+-   Add or remove alert tags. Tags enable you to identify and group alerts easily without the need for discovery or accessing the CMDB. For more information, see [Categorize alerts displayed in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/add-remove-tags-filter.md)
+-   Display or hide alerts that match a selected alert. For more information, see [Filter out or show matching alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/filter-right-click-option.md).
+-   Save, delete, assign as the default, or share the filter layout. For more information, see [Save a custom filter in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/filter-saving-deleting-default.md).
 

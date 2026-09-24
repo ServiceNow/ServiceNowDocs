@@ -2,7 +2,7 @@
 title: Configure schedules for Simplified Change Management
 description: Create and manage blackout and maintenance schedules for Change Management to control when changes are permitted or blocked across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-schedules-for-simplified-change-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configure-schedules-for-simplified-change-management.html
 release: australia
 topic_type: task
 last_updated: "2026-05-11"
@@ -92,10 +92,10 @@ Use the Blackout and Maintenance windows to schedule a change. Blackout schedule
 
 The new schedule is created and appears in the **Schedules** list under the **Blackouts** or **Maintenance** tab, depending on the type you selected. The schedule is active immediately and is used by Change Management for conflict detection and change enforcement.
 
-**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
+**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configuring-change-management-experience-in-it-service-management.md)
 
 **Related topics**  
 
 
-[Create blackout and maintenance schedules in Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateBlkoutMaintSched.md)
+[Create blackout and maintenance schedules in Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateBlkoutMaintSched.md)
 

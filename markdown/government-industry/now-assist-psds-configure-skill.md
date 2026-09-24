@@ -2,7 +2,7 @@
 title: Configure a skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Configure the triggers, settings, and display locations for ServiceNow Otto skills to enable GenAI capabilities across the Public Sector Digital Services agent platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-configure-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-configure-skill.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,10 +20,10 @@ Each skill is configured separately, and tailored to support agents across vario
 
 |Skill|Description|
 |-----|-----------|
-|Document screening|Review and validate uploaded documents autonomously, checking IDs, tax forms, and other supporting documents. This skill flags potential issues and surfaces key details, applying consistent validation logic across every submission. For more info, see [Configure Document screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-ai-skill-doc-screening.md).|
-|Investigative case summarization|Synthesize narratives, entities, evidence, and activity into a structured summary, enabling agents to grasp case contexts and respond to inquiries. Generate detailed resolution information for investigative outcomes, allowing agents to propose solutions and integrate generated information into the case record. For more info, see [Configure Investigative case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-config-inv-case-summ.md).|
-|Government case summarization|Summarize the case details and display this information on the case record, helping agents to grasp the context of a case. For more information, see [Configure Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-customize-case-summ.md).|
-|Chat summarization|Auto-generate summaries of agent-facing chats. Summaries capture the essence of conversations between agents and constituents or virtual agents, highlighting key points. Critical information from interactions is readily accessible for future reference and actions. For more information, see [Configure Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-customize-chat-summ.md).|
+|Document screening|Review and validate uploaded documents autonomously, checking IDs, tax forms, and other supporting documents. This skill flags potential issues and surfaces key details, applying consistent validation logic across every submission. For more info, see [Configure Document screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-ai-skill-doc-screening.md).|
+|Investigative case summarization|Synthesize narratives, entities, evidence, and activity into a structured summary, enabling agents to grasp case contexts and respond to inquiries. Generate detailed resolution information for investigative outcomes, allowing agents to propose solutions and integrate generated information into the case record. For more info, see [Configure Investigative case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-config-inv-case-summ.md).|
+|Government case summarization|Summarize the case details and display this information on the case record, helping agents to grasp the context of a case. For more information, see [Configure Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-customize-case-summ.md).|
+|Chat summarization|Auto-generate summaries of agent-facing chats. Summaries capture the essence of conversations between agents and constituents or virtual agents, highlighting key points. Critical information from interactions is readily accessible for future reference and actions. For more information, see [Configure Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-customize-chat-summ.md).|
 
 The AI Admin Hub console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
@@ -112,7 +112,7 @@ You can go back to the AI Skills page to configure another skill.
 
 [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md)
+[Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-configuring.md)
 
-[Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-using.md)
+[Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-using.md)
 

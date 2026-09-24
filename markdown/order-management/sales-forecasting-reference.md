@@ -2,7 +2,7 @@
 title: Sales Forecasting reference
 description: Several types of components are installed with activation of the Sales Forecasting application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/sales-forecasting-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/sales-forecasting-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-09"
@@ -149,5 +149,5 @@ sn\_sales\_forecast.submission\_writer
 Edit the forecast-submitted records that they own.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
+</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/reference-lead-opportunity-mgt.md)
 

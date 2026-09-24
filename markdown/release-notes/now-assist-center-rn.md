@@ -2,7 +2,7 @@
 title: AI Admin Center release notes
 description: The ServiceNow AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, helping administrators to set up and manage AI solutions from a unified experience. AI Admin Center is a new application in the Australia release.The ServiceNow AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, helping administrators to set up and manage AI solutions from a unified experience. AI Admin Center is a new application in the Australia release.The ServiceNow AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, helping administrators to set up and manage AI solutions from a unified experience. AI Admin Center is a new application in the Australia release.The ServiceNow AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, helping administrators to set up and manage AI solutions from a unified experience. AI Admin Center is a new application in the Australia release.The ServiceNow AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, helping administrators to set up and manage AI solutions from a unified experience. AI Admin Center is a new application in the Australia release.The ServiceNow AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, helping administrators to set up and manage AI solutions from a unified experience. AI Admin Center is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-center-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-center-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-07"
@@ -17,24 +17,24 @@ The ServiceNow® AI Admin Center application is a single control hub that brings
 
 ## About AI Admin Center
 
-[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-6.md)
+Australia Patch 6
 
 -   Use the automation opportunities enhancements to refine your view and identify opportunities.
 -   Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   Diagnose common AI administration issues with the help of the self-healing AI agent.
 -   Analyze the custom tables and fields in your instance to find automation opportunities.
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Assess your instance readiness for AI adoption with Now Assist Readiness Evaluation features, and make preparations using the identified action items.
 -   Activate base system and custom Now Assist skills from the AI Admin Center workspace.
 -   Discover and take action on automation opportunities for Customer Service Management \(CSM\) using interaction data from chat, voice, and email channels.
 -   View the AI Data Kit, Knowledge Graph, and Catalog assets in your instance with the asset inventory.
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
 
 -   Set up and manage your AI solutions in one place without switching between Now Assist applications.
 -   Use a conversational interface to perform Now Assist admin tasks and find help.
@@ -64,7 +64,7 @@ See [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubuserconte
     AI Admin Center supports machine translation for Australia. Localization is applicable to AI Admin Center in all languages supported by the ServiceNow AI Platform.
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## September 2026
 
@@ -76,7 +76,7 @@ The ServiceNow® AI Admin Center application is a single control hub that brings
 
     Use the automation opportunities enhancements to refine your view and identify opportunities. The automation opportunities list shows quick-select filters. The Resolution steps page for an automation opportunity is enhanced to show matched opportunities for default AI agents, agent status, and tooltips with links.
 
--   **Delete custom data set analysis**
+-   **[Delete custom data set analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-delete-data-source.md)**
 
     Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
 
@@ -140,11 +140,11 @@ The ServiceNow® AI Admin Center application is a single control hub that brings
 
     Use the conversational experience in the Now Assist panel to activate and set up base system skills.
 
--   **[CSM automation opportunities from chat, voice, and email data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-ai-agent-advisor.md)**
+-   **CSM automation opportunities from chat, voice, and email data**
 
     Discover automation opportunities for CSM AI deployment by using AI Agent Advisor to analyze interaction data from chat, voice, and email channels. Match or generate channel-specific AI agents to implement the automation opportunities.
 
--   **Asset inventory enhancements**
+-   **[Asset inventory enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md)**
 
     View and create AI Data Kit, AI Skill Kit, Knowledge Graph, and Catalog assets in your instance using the asset inventory.
 
@@ -188,11 +188,11 @@ The ServiceNow® AI Admin Center application is a single control hub that brings
 
     Use the conversational interface to have your AI guide perform Now Assist admin and setup tasks and find help.
 
--   **Actionable use cases**
+-   **[Actionable use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-actionable-use-cases.md)**
 
     Use actionable cards on the home page to view and activate guided quick-start use cases that start your AI implementation.
 
--   **[Automation discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)**
+-   **Automation discovery with AI Agent Advisor**
 
     Use AI Agent Advisor to analyze actual instance data, identify automation opportunities, and view proposed AI automations.
 
@@ -200,7 +200,7 @@ The ServiceNow® AI Admin Center application is a single control hub that brings
 
     Find existing AI agents that support your identified automation opportunities, and automate the creation and deployment of new agents.
 
--   **Integrations with other Now Assist applications**
+-   **[Integrations with other Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-other-applications.md)**
 
     Access other Now Assist applications from a centralized tabbed workspace experience to configure your AI implementation.
 

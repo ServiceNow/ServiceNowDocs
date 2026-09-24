@@ -2,7 +2,7 @@
 title: Custom skill details
 description: Use the Custom skill details dashboard page to view usage and performance indicators of custom skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/custom-skill-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/custom-skill-details.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,11 +15,11 @@ breadcrumb: [Skills performance, Using AI Analytics, Analyzing AI performance, E
 
 Use the Custom skill details dashboard page to view usage and performance indicators of custom skills.
 
-The Custom skill details dashboard page contains indicators pertaining to a custom skill. The indicators provide insight into skill usage and performance. Select a skill from the Skills drop-down list to view the indicators. The drop-down lists both active and inactive skills. Each skill has a subtitle that identifies the skill family that it belongs to, for example, ITSM, HR, and so on. Use the date range filter to view skill usage and performance over a certain period. The date range filter selection applies to all visualizations on the page. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The Custom skill details dashboard page contains indicators pertaining to a custom skill. The indicators provide insight into skill usage and performance. Select a skill from the Skills drop-down list to view the indicators. The drop-down lists both active and inactive skills. Each skill has a subtitle that identifies the skill family that it belongs to, for example, ITSM, HR, and so on. Use the date range filter to view skill usage and performance over a certain period. The date range filter selection applies to all visualizations on the page. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 \[Omitted image "naa-custom-skill-details.png"\] Alt text: Custom skill details dashboard page.
 
-The indicators on the Custom skill details dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the Custom skill details dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Skill engagement trend visualizations for a selected period can reveal patterns in skill usage across workflows, products, and features.
 -   The daily unique users visualization shows a breakdown of daily unique users by the selected skill to help you see user activity and engagement with the skill.
@@ -103,5 +103,5 @@ The following indicators are common across all custom skills.
     \[Omitted image "naa-skills-feedback.png"\] Alt text: Skills feedback indicator.
 
 
-**Parent Topic:**[Skills performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/skill-usage.md)
+**Parent Topic:**[Skills performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/skill-usage.md)
 

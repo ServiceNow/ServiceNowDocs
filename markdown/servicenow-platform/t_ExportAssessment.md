@@ -2,7 +2,7 @@
 title: Export an assessment
 description: You can share assessments between ServiceNow instances by exporting an assessment and then importing the assessment on another instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ExportAssessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ExportAssessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,12 +43,12 @@ The XML file contains a metric type `[asmt_metric_type]` and the following recor
 3.  Save the XML file.
 
 
-**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
 **Related topics**  
 
 
-[Import an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ImportAssessment.md)
+[Import an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ImportAssessment.md)
 
-[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 

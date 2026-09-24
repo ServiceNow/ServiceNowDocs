@@ -2,7 +2,7 @@
 title: Create custom notifications in Next Experience
 description: Provide better context and information about users' work by creating custom content for in-product notifications in Next Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-custom-notifications-next-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/create-custom-notifications-next-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -158,7 +158,7 @@ Recipient\(s\) listed in event parm1
 
 </td><td>
 
-Option to select whether Parm 1 contains a list of comma-separated sys\_ids. For more information, see Classic Events.
+Option to select whether Parm 1 contains a list of comma-separated sys\_ids. For more information, see [Classic Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/events.md).
 
 </td></tr><tr><td>
 
@@ -232,5 +232,5 @@ The UI Notification Inbox \[ui\_notification\_inbox\] table lists all sent notif
 
 If users receive duplicate notifications, verify that the notification trigger has only one content provider. If the notification has both a Next Experience and Workspace content provider, remove the Workspace content provider from the notification trigger to send only the Next Experience notification with custom content.
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 

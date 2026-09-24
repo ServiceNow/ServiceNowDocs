@@ -2,7 +2,7 @@
 title: Report Operational vulnerability from Importance assessment
 description: Report an operational vulnerability from the Importance and impact assessment in the Operational Resilience Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-op-vul-from-other-records-in-or-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-op-vul-from-other-records-in-or-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-06-01"
@@ -58,7 +58,7 @@ When a vulnerability is reported, it is opened in the **New** state, marking the
 
     The source of the vulnerability is the Importance and impact tolerance assessment. Therefore, the **Source** field on the form shows the source as Importance and impact assessment. The **Source table** field on the form shows the table as Importance and impact tolerance assessment.
 
-    To view more information on the fields, see the [Create Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-op-vul-form.md).
+    To view more information on the fields, see the [Create Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-op-vul-form.md).
 
 8.  Select **Save**.
 

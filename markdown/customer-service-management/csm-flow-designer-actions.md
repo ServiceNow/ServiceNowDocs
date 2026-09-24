@@ -2,7 +2,7 @@
 title: Customer Service Management Workflow Studio actions
 description: Use Workflow Studio actions as building blocks to create Customer Service Management business processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-flow-designer-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-flow-designer-actions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

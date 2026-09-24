@@ -2,7 +2,7 @@
 title: Use the Get Text component
 description: The Get Text component captures text from an area that you specify in the target application. You can use it to receive data that exists in text format. To capture text from an image, see Use the OCR Text component.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionsui-get-text.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-actionsui-get-text.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-The properties of the Get Text component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-actions-ui-components.md).
+The properties of the Get Text component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-actions-ui-components.md).
 
 ## Procedure
 
@@ -46,7 +46,7 @@ The properties of the Get Text component are common with other Actions UI compon
 
 7.  Add an anchor to the captured image by doing the following actions:
 
-    An anchor is a unique subset of the captured image that helps the Get Text component identify where the component will perform an action. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Get Text component treats the whole captured image as an anchor. To know more about an anchor, see the steps to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    An anchor is a unique subset of the captured image that helps the Get Text component identify where the component will perform an action. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Get Text component treats the whole captured image as an anchor. To know more about an anchor, see the steps to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/anchor.md).
 
     1.  In the Get Text component, right-click the image, and click **Add Anchor**.
 
@@ -80,7 +80,7 @@ The properties of the Get Text component are common with other Actions UI compon
 
     6.  To close the ALTERNATE IMAGES window, click **OK**.
 
-9.  To configure the ways that the output fields show the output, see [Configure output port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-output-port-properties.md).
+9.  To configure the ways that the output fields show the output, see [Configure output port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-output-port-properties.md).
 
 10. Connect the Data Out and control ports of the Get Text component to the corresponding ports of other suitable components within the automation.
 
@@ -97,7 +97,7 @@ The properties of the Get Text component are common with other Actions UI compon
 
 \[Omitted image "Actionc\_GetText.PNG"\] Alt text: Extract a line of text from a window and display with the Show component.
 
-The Get Text component extracts the text "The world works with ServiceNow" and passes the text through its Data Out port to the Show component \(To use the Show component, see [Use the Show component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-general-messagebox-show.md)\). The Show component displays the same text in a pop-up window.
+The Get Text component extracts the text "The world works with ServiceNow" and passes the text through its Data Out port to the Show component \(To use the Show component, see [Use the Show component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-general-messagebox-show.md)\). The Show component displays the same text in a pop-up window.
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/actions-ui.md)
 

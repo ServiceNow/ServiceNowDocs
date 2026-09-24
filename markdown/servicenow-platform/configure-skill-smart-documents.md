@@ -2,7 +2,7 @@
 title: Configure the smart documents skill
 description: The smart documents skill is activated by default on all the tables. Configure it to customize access control, specify which tables use it, or adjust display preferences to get document insights through conversational interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-skill-smart-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configure-skill-smart-documents.html
 release: australia
 topic_type: task
 last_updated: "2026-08-20"
@@ -20,7 +20,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 **Note:** From Zurich Patch 11 and Australia Patch 4 onwards, Smart documents skill is enabled by default for all tables. Disable it if not required on any table.
 
-For earlier versions, see [Activate the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-smart-documents.md).
+For earlier versions, see [Activate the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/activate-smart-documents.md).
 
 ## Procedure
 

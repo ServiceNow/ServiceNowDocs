@@ -2,7 +2,7 @@
 title: NowVoiceService class - Android
 description: Manages voice agent sessions for a single ServiceNow instance.Ends the current voice call.Checks whether there is a currently active voice call.Launches the full-screen voice agent Activity. This is a suspend function that returns after the session ends.Toggles the microphone mute state of the current call.Updates the visual theme of the currently active voice UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 Manages voice agent sessions for a single ServiceNow instance.
 
-**Note:** Initialize a NowVoiceService by calling [NowVoiceSDK - makeVoiceService\(instanceURL: URL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md).
+**Note:** Initialize a NowVoiceService by calling [NowVoiceSDK - makeVoiceService\(instanceURL: URL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md).
 
 <table id="table_vx2_klw_nva1" class="parameters"><thead><tr><th>
 
@@ -36,7 +36,7 @@ configuration
 
 </td><td>
 
-[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)
+[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)
 
 </td><td>
 
@@ -63,14 +63,14 @@ nowVoiceEndpoints
 
 </td><td>
 
-List&lt;[NowVoiceEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointAndroidClass.md)&gt;
+List&lt;[NowVoiceEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceEndpointAndroidClass.md)&gt;
 
 </td><td>
 
 Read-only. The list of available voice endpoint configurations retrieved from the instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowVoiceService - endCall\(\)
 
@@ -174,7 +174,7 @@ endpoint
 
 </td><td>
 
-[NowVoiceEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointAndroidClass.md)
+[NowVoiceEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceEndpointAndroidClass.md)
 
 </td><td>
 
@@ -186,7 +186,7 @@ uiConfiguration
 
 </td><td>
 
-[NowVoiceUiConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceUiConfigAndroidClass.md)
+[NowVoiceUiConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NVoiceUiConfigAndroidClass.md)
 
 </td><td>
 
@@ -198,7 +198,7 @@ callbacks
 
 </td><td>
 
-[NowVoiceCallbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksAndroidInt.md)?
+[NowVoiceCallbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksAndroidInt.md)?
 
 </td><td>
 
@@ -210,7 +210,7 @@ theme
 
 </td><td>
 
-[NowVoiceTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md)
+[NowVoiceTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md)
 
 </td><td>
 
@@ -304,11 +304,11 @@ val muted = voiceService?.isMuted ?: false
 
 Updates the visual theme of the currently active voice UI.
 
-This function has no effect if no voice session is currently active. To apply a visual theme at voice session launch, provide a theme when calling [start\(context:endpoint:uiConfiguration:callbacks:theme:\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md).
+This function has no effect if no voice session is currently active. To apply a visual theme at voice session launch, provide a theme when calling [start\(context:endpoint:uiConfiguration:callbacks:theme:\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
-|theme|[NowVoiceTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md)|The theme to apply to the active voice UI.|
+|theme|[NowVoiceTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md)|The theme to apply to the active voice UI.|
 
 |Type|Description|
 |----|-----------|

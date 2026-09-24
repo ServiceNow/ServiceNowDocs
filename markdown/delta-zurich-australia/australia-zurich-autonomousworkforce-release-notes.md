@@ -2,11 +2,11 @@
 title: Combined Autonomous Workforce release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Autonomous Workforce from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-autonomousworkforce-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-autonomousworkforce-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -76,6 +76,23 @@ Enable hand-offs between the AI specialist and human agents if work is better ha
 Add context to the work assigned to an AI specialist, allowing it to read attachments such as screenshots, PDFs, and error logs to generate responses.
 
 
+ -   **[Configurable profile for a unified AI persona](https://www.servicenow.com/docs/access?context=modify-aiw-profile&family=zurich&ft:locale=en-US)**
+
+Customize your AI specialist's name and icon to fit your brand, and decide on its role and assignment group to determine what data and work it can access.
+
+-   **[Multiple task configurations for fine-tuning AI specialist processes](https://www.servicenow.com/docs/access?context=modify-aiw-tasks&family=zurich&ft:locale=en-US)**
+
+Configure pre-built tasks, adding your own routing behavior, response templates, search profiles, and knowledge sources, with no prompt engineering required.
+
+-   **[AI specialist activity and performance monitoring](https://www.servicenow.com/docs/access?context=ai-workforce-ais-use&family=zurich&ft:locale=en-US)**
+
+Track every record your AI specialist touches and measure its performance to see the value it brings to your team across multiple metrics.
+
+-   **[User-based work assignment](https://www.servicenow.com/docs/access?context=create-assign-rules-aiw&family=zurich&ft:locale=en-US)**
+
+Create assignment rules to automatically route work to your AI specialist for triage and resolution. It only acts on requests it's confident it can resolve, proposing a solution directly. Anything less certain gets handed off to a human agent.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -89,6 +106,23 @@ Enable hand-offs between the AI specialist and human agents if work is better ha
 -   **Document intelligence added to AI specialist**
 
 Add context to the work assigned to an AI specialist, allowing it to read attachments such as screenshots, PDFs, and error logs to generate responses.
+
+
+ -   **[Configurable profile for a unified AI persona](https://www.servicenow.com/docs/access?context=modify-aiw-profile&family=australia&ft:locale=en-US)**
+
+Customize your AI specialist's name and icon to fit your brand, and decide on its role and assignment group to determine what data and work it can access.
+
+-   **[Multiple task configurations for fine-tuning AI specialist processes](https://www.servicenow.com/docs/access?context=modify-aiw-tasks&family=australia&ft:locale=en-US)**
+
+Configure pre-built tasks, adding your own routing behavior, response templates, search profiles, and knowledge sources, with no prompt engineering required.
+
+-   **[AI specialist activity and performance monitoring](https://www.servicenow.com/docs/access?context=ai-workforce-ais-use&family=australia&ft:locale=en-US)**
+
+Track every record your AI specialist touches and measure its performance to see the value it brings to your team across multiple metrics.
+
+-   **[User-based work assignment](https://www.servicenow.com/docs/access?context=create-assign-rules-aiw&family=australia&ft:locale=en-US)**
+
+Create assignment rules to automatically route work to your AI specialist for triage and resolution. It only acts on requests it's confident it can resolve, proposing a solution directly. Anything less certain gets handed off to a human agent.
 
 
 </td></tr></tbody>
@@ -399,5 +433,5 @@ Australia
  See [Autonomous Workforce](https://www.servicenow.com/docs/access?context=ai-workforce&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Convert RIDAC records for a project
 description: Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/convert-ridac-for-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/convert-ridac-for-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -56,7 +56,7 @@ You can also view the consolidated list of all converted RIDAC records using the
 **Related topics**  
 
 
-[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md)
+[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ridac-entries-for-project.md)
 
-[Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md)
+[Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/reassociate-ridac-project.md)
 

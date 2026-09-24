@@ -2,7 +2,7 @@
 title: Verify banking information
 description: When a banking details change request is assigned to a supplier manager and they start working on it, they can verify the details using Relish.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/verify-banking-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/verify-banking-information.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -19,7 +19,7 @@ When a banking details change request is assigned to a supplier manager and they
 
 ## Before you begin
 
-Ensure that the SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\) is installed. For more information on the required and dependent plugins for Relish, see [Relish Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.md).
+Ensure that the SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\) is installed. For more information on the required and dependent plugins for Relish, see [Relish Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.md).
 
 Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
@@ -27,7 +27,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 By default, bank validation checks only the bank routing number and address details. Relish also verifies the bank account number and account ownership information when bank account ownership validation is enabled.
 
-To enable bank account ownership validation, see [Enable bank account ownership validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-bank-ownership-validation.md).
+To enable bank account ownership validation, see [Enable bank account ownership validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/enable-bank-ownership-validation.md).
 
 ## Procedure
 
@@ -45,7 +45,7 @@ To enable bank account ownership validation, see [Enable bank account ownership 
 
     \[Omitted image "relish-bank-info.png"\] Alt text: Verifying bank information using Relish
 
-    For more about the parameters sent to and received from Relish, see [Banking verification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/banking-information-request-response.md).
+    For more about the parameters sent to and received from Relish, see [Banking verification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/banking-information-request-response.md).
 
 5.  Approve or reject changes.
 
@@ -54,19 +54,19 @@ To enable bank account ownership validation, see [Enable bank account ownership 
 7.  Close the case.
 
 
--   **[Enable bank account ownership validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-bank-ownership-validation.md)**  
+-   **[Enable bank account ownership validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/enable-bank-ownership-validation.md)**  
 Configure the bank validation flow to include bank account ownership validation in addition to standard bank details validation.
--   **[Banking verification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/banking-information-request-response.md)**  
+-   **[Banking verification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/banking-information-request-response.md)**  
 Request and response parameters for verifying banking information through the Relish Data Assure API.
 
-**Parent Topic:**[Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md)
+**Parent Topic:**[Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md)
 
 **Related topics**  
 
 
-[Verify supplier location change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/verify-supplier-location.md)
+[Verify supplier location change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/verify-supplier-location.md)
 
-[Conduct sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.md)
+[Conduct sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.md)
 
-[Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md)
+[Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md)
 

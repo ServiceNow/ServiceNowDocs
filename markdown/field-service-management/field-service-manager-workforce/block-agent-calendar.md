@@ -2,7 +2,7 @@
 title: Block the calendar of a field agent based on an Emergency Exposure Management diagnostic report
 description: Block the calendar of affected and potentially affected agents based on an Emergency Exposure Management diagnostic report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/block-agent-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/block-agent-calendar.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -122,5 +122,5 @@ Enter notes for the event, if any.
     3.  Repeat steps 3 through 5 to block the calendar of a potentially affected agent for future dates.
 
 
-**Parent Topic:**[Use Emergency Exposure Management for Field Service agent monitoring and assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/use-exposure-management-fsm.md)
+**Parent Topic:**[Use Emergency Exposure Management for Field Service agent monitoring and assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/use-exposure-management-fsm.md)
 

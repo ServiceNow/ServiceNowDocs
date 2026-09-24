@@ -2,7 +2,7 @@
 title: Define ERP source configuration for SAP
 description: ERP source configuration determines the ERP source to which your ERP system connects. Map the integration payload with the SAP tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-sap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-sap.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -72,7 +72,7 @@ By default, the SAP base system provides 14 integration services. For other SAP 
 -   To modify each integration service, you can open the integration service and select **here** to. You can define element level mapping between SAP table fields and payload elements.
 -   Map the users and corresponding ERP User IDs by accessing the ERP User Mappings related list.
 
-**Parent Topic:**[Configure the Source-to-Pay integration with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-integration.md)
 
 **Related topics**  
 

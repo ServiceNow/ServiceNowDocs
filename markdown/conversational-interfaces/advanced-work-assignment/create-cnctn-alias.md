@@ -2,7 +2,7 @@
 title: Create a connection Alias for third-party provider
 description: Create a connection Alias for your third-party provider to enable external routing on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/create-cnctn-alias.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/create-cnctn-alias.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

@@ -2,7 +2,7 @@
 title: External assessment lifecycle states
 description: The process of collecting assessment data from a third party moves through several states. For example, during the Submitted to third party state, the third party responds to tasks, issues, and works to complete the questionnaires.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -56,7 +56,7 @@ The process of collecting assessment data from a third party moves through sever
 
 In the Classic engine, questionnaire requests \(previously called assessment instances\) and questionnaires themselves have separate state systems. The SAE uses a simplified set of questionnaire states.
 
-**Note:** If you upgraded from Yokohama or earlier and enabled the Smart Assessment Engine \(SAE\) in Zurich, questionnaire states are simplified to the three states shown above. For information about assessment status changes, see [Third-party Risk Management upgrade information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-tprm-upgrade-info.md).
+**Note:** If you upgraded from Yokohama or earlier and enabled the Smart Assessment Engine \(SAE\) in Zurich, questionnaire states are simplified to the three states shown above. For information about assessment status changes, see [Third-party Risk Management upgrade information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-tprm-rn.md).
 
 Questionnaire requests track the overall status of a questionnaire request sent to a third party.
 
@@ -84,5 +84,5 @@ Questionnaires themselves move through additional states that track the workflow
 |**Completed**|Questionnaire is finished and submitted.|
 |**Canceled**|Questionnaire is canceled before completion.|
 
-**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
+**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
 

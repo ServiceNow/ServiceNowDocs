@@ -2,7 +2,7 @@
 title: Guided setup for Universal Request
 description: Before you start using the ServiceNow Universal Request application in your organization, you must set up Universal Request. Work with your stakeholders to define requirements for setting up the application effectively to meet the needs of your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-guided-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-guided-setup.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -44,5 +44,5 @@ Navigate to **Universal Request** &gt; **Administration**, open the following gu
 -   **Guided setup for UR**
 -   **Guided setup for Services**
 
-**Parent Topic:**[Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md)
+**Parent Topic:**[Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md)
 

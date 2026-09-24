@@ -2,7 +2,7 @@
 title: Now Mobile app
 description: Enable your users to submit incidents and requests, manage tasks, and access company resources from anywhere using the Now Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -49,7 +49,7 @@ Download the Now Mobile app for Apple iOS or Google Android from the Apple App S
 
 -   **Access the demo**
 
-Take a look at the Now Mobile app demo. The demo is a curated experience designed to show how your employees can accomplish their work from anywhere. For more information on the app, see [Now Mobile app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/sg-mobile-demo.md).
+Take a look at the Now Mobile app demo. The demo is a curated experience designed to show how your employees can accomplish their work from anywhere. For more information on the app, see [Now Mobile app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/sg-mobile-demo.md).
 
 
 </td></tr></tbody>
@@ -61,10 +61,10 @@ Take a look at the Now Mobile app demo. The demo is a curated experience designe
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 
--   **[Now Mobile app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/sg-mobile-demo.md)**  
+-   **[Now Mobile app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/sg-mobile-demo.md)**  
 Access the demo in your Now Mobile app to learn how the app can help you work from anywhere using your mobile device.
--   **[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)**  
+-   **[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)**  
 Configure options for the Now Mobile app. For example, you can link the app with a service catalog and knowledge base, personalize the greeting for the home page, and specify which records appear under **My Requests** in the **For Me** tab.
 
-**Parent Topic:**[Unified Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
+**Parent Topic:**[Unified Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
 

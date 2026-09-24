@@ -2,7 +2,7 @@
 title: Epic planning item form
 description: Learn about the fields of the epic form. Use this form to create or edit the details of a planning item of the type Epic in Strategic Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/epic-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/epic-form.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -354,7 +354,7 @@ Analyze how much risk that this epic can help you avoid by answering questions s
 **Related topics**  
 
 
-[Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
+[Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
 
-[Add planning items to Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md)
+[Add planning items to Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md)
 

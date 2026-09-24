@@ -2,7 +2,7 @@
 title: Integrate ServiceNow voice assistant with 3CLogic
 description: Enable users to get support from AI voice agents by integrating a ServiceNow AI voice assistant with the 3CLogic voice service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-voice-service-with-3clogic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-voice-service-with-3clogic.html
 release: australia
 topic_type: task
 last_updated: "2026-05-22"
@@ -17,7 +17,7 @@ Enable users to get support from AI voice agents by integrating a ServiceNow AI 
 
 ## Before you begin
 
--   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md) for more information.
+-   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-an-ai-voice-service.md) for more information.
 
 Role required: sn\_aia.admin
 
@@ -63,7 +63,7 @@ Connect your 3CLogic voice service to a ServiceNow voice assistant using the Web
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
 
-    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md).
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md).
 
 9.  In your 3CLogic account, paste the **URL**, **Client secret**, and **Client id** into the corresponding fields.
 
@@ -82,5 +82,5 @@ The 3CLogic voice service is connected to your ServiceNow voice assistant. Incom
 
 For live agent transfer configuration and advanced 3CLogic settings, contact [3CLogic customer support](https://www.3clogic.com/customer-support/).
 
-**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
+**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
 

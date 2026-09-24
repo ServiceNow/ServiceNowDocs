@@ -2,7 +2,7 @@
 title: MID Server Configuration Parameter settings and priority
 description: The MID Server's settings reside in multiple tables and the MID Server prioritizes them in a set order. MIDConfigParameter must be defined with the correct type-style builders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-config-param-priority.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-config-param-priority.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -30,7 +30,7 @@ Avoid creating duplicate records in the MID Property table because they can inva
 
 Similarly, avoid creating global configuration parameters because they are unsupported. Global configuration parameters are configuration parameters with no assigned MID Server. If a setting should be applied to all MID Servers, then use a global MID Property.
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 

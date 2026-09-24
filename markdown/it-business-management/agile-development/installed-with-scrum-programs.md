@@ -2,7 +2,7 @@
 title: Components installed with Scrum Programs
 description: Understand the roles, tables, business rules, and UI macros that are installed when you activate the Scrum Programs plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/installed-with-scrum-programs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/installed-with-scrum-programs.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -87,5 +87,5 @@ Contains customizable TEAM\_LIMIT and STORY\_LIMIT properties.
 
 **Note:** Increasing the values might result in longer loading times and degraded performance of the scrum program planning board.
 
-**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/scrum-programs-concept.md)
+**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/scrum-programs-concept.md)
 

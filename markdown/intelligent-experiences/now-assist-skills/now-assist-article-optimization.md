@@ -2,7 +2,7 @@
 title: Article optimization
 description: Article optimization skill in ServiceNow AI Platform provides recommendations for improving the quality and health of knowledge articles, providing actionable feedback to authors and managers. The recommendations for knowledge articles is set to available after you activate the Article Optimization skills in AI Admin Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-article-optimization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/now-assist-article-optimization.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills

@@ -2,7 +2,7 @@
 title: Domain separation and Card Data Security
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Card Data Security. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/domain-separation-and-card-data-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/domain-separation-and-card-data-security.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -31,9 +31,9 @@ For more information on support levels, see [Application support for domain sepa
 
 ## How domain separation works in Card Data Security
 
-All [Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-overview.md) applications are built on top of and use many CSM tables. The key reference tables are the customer tables such as Consumer, Account, and Contact, and these tables are domain-separated.
+All [Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-overview.md) applications are built on top of and use many CSM tables. The key reference tables are the customer tables such as Consumer, Account, and Contact, and these tables are domain-separated.
 
-**Parent Topic:**[Card Data Security Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/card-data-security-reference.md)
+**Parent Topic:**[Card Data Security Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/card-data-security-reference.md)
 
 **Related topics**  
 

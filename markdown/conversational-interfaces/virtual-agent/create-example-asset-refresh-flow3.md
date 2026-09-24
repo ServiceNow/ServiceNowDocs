@@ -2,7 +2,7 @@
 title: Create the More Information workflow in the Asset Refresh topic
 description: In our example, we must provide the workflow for the "more information" Decision branch. If the user wants to learn more before upgrading, we can point them to a specific KB article explaining how your organization's policy works.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow3.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow3.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -19,8 +19,8 @@ In our example, we must provide the workflow for the "more information" Decision
 
 ## Before you begin
 
--   [Create the Asset Refresh topic in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
--   [Create the Open Incident workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.md)
+-   [Create the Asset Refresh topic in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
+-   [Create the Open Incident workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.md)
 
 Role required: virtual\_agent\_admin or admin
 
@@ -94,16 +94,16 @@ Role required: virtual\_agent\_admin or admin
 
 Your topic is ready to test. Test the topic, making sure you go through each possible workflow in the conversation and make any needed adjustments.
 
-For more information about testing topics, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md). If you're using NLU discovery, [add utterances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.md) to the intent and [train and test your NLU model.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md)
+For more information about testing topics, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-designer-testing.md). If you're using NLU discovery, [add utterances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.md) to the intent and [train and test your NLU model.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md)
 
-When you're finished, [publish the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
+When you're finished, [publish the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 ## What to do next
 
-[Create the notification for the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-notification.md)
+[Create the notification for the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-example-asset-refresh-notification.md)
 
 **Related topics**  
 
 
-[Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md)
+[Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ai-search.md)
 

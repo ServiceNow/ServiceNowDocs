@@ -2,7 +2,7 @@
 title: Create Approval Rules
 description: Configure approval rules that require one or more approvers to authorize an advanced response option before it is applied to a DLP incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-approval-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/configure-approval-rules.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -227,7 +227,7 @@ Option to select the approvers. 1.  Users and Groups:
 </table>9.  Select **Submit**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

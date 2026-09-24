@@ -2,7 +2,7 @@
 title: View rule form
 description: Learn about the fields of the view rule form. Use this form to define workspace view rules for the form views of new planning item types in Strategic Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/new-view-rule-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/new-view-rule-form.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -60,10 +60,10 @@ Select one of the following:-   APW Default
 -   Default
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 
 **Related topics**  
 
 
-[Create workspace view rules for planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md)
+[Create workspace view rules for planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md)
 

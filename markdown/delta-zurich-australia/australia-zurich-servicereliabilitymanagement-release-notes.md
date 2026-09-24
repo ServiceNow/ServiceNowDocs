@@ -2,11 +2,11 @@
 title: Combined Service Reliability Management release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Service Reliability Management from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicereliabilitymanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicereliabilitymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,13 +67,31 @@ Zurich
 
 </td><td>
 
--   **[Remove a service](https://www.servicenow.com/docs/access?context=sr-remove-service&family=zurich&ft:locale=en-US)**
+-   **[Auto-generate SLOs for SRM services](https://www.servicenow.com/docs/access?context=now-assist-itom-manage-generated-slos&family=zurich&ft:locale=en-US)**
+
+Use the SLO creator agent to generate SLOs for your SRM services. This capability is available with the ServiceNow Otto for ITOM plugin. The agent analyzes incidents, alerts, and outage events to automatically create SLOs, helping teams adopt SLOs faster and track service reliability.
+
+
+ -   **[Remove a service](https://www.servicenow.com/docs/access?context=sr-remove-service&family=zurich&ft:locale=en-US)**
 
 Starting in version 6.5.0, remove a service from SRM when you no longer need to track or monitor its reliability. Removing a service clears it from SRM views, including the Service page and Service reliability dashboard. The service remains in the Configuration Management Database \(CMDB\), and you can add it back to SRM at any time.
 
 -   **[Create outage-based SLIs](https://www.servicenow.com/docs/access?context=sr-create-slo-sli&family=zurich&ft:locale=en-US)**
 
 Starting in version 6.5.0, add outage-based SLIs to track real downtime and customer impact. Use them with existing alert-based SLIs for a broader view of reliability. The flow for creating service level objectives \(SLOs\), SLIs, and error budget policies is also improved to simplify setup.
+
+
+ -   **[Keep teams informed with notification destinations](https://www.servicenow.com/docs/access?context=create-notification-destination&family=zurich&ft:locale=en-US)**
+
+Send notifications about error budget policy violations to notification destinations. The first supported destination is Microsoft Teams, which lets you post details in specific channels and link back to SRM for further investigation.
+
+-   **[Monitor service reliability in a dashboard](https://www.servicenow.com/docs/access?context=sr-service-dashboard-visualizations&family=zurich&ft:locale=en-US)**
+
+Use the Service reliability dashboard to monitor and manage service performance. The dashboard offers multiple visualizations to help you track error budgets, monitor SLOs, and identify issues across your services. Starting in version 6.4.1, monitor reliability using interactive charts and a new service level objective \(SLO\) table in the Service reliability dashboard.
+
+-   **[Customize team approval settings](https://www.servicenow.com/docs/access?context=sr-add-approval-teams&family=zurich&ft:locale=en-US)**
+
+Customize team governance with more flexibility and less manual effort. You can assign different approval teams for new and existing team requests. The customization options are also fully available in the Service Operations Workspace Admin Center and no longer require manual setup in the Catalog Builder.
 
 
 </td></tr><tr><td>
@@ -103,7 +121,12 @@ Zurich
 
 </td><td>
 
--   **[Microsoft Teams notification update](https://www.servicenow.com/docs/access?context=srm-notifications-messages&family=zurich&ft:locale=en-US)**
+-   **[Work notes for SLOs](https://www.servicenow.com/docs/access?context=sr-view-slo&family=zurich&ft:locale=en-US)**
+
+In version 6.6.1, SLOs include work notes on the Details tab. Posted work notes are visible in the Activity panel, providing a unified view of both manual and automated SLO changes.
+
+
+ -   **[Microsoft Teams notification update](https://www.servicenow.com/docs/access?context=srm-notifications-messages&family=zurich&ft:locale=en-US)**
 
 In version 6.5.0, the error budget policy violation notification in Microsoft Teams now includes a button instead of a text link. The new button makes it easier to open the relevant SLO directly in SRM.
 
@@ -122,6 +145,11 @@ In version 6.5.0, the icons for Integrations Launchpad and Alert Automation have
 -   **[Updated Service reliability dashboard](https://www.servicenow.com/docs/access?context=sr-service-dashboard-visualizations&family=zurich&ft:locale=en-US)**
 
 In version 6.5.0, the High burn rate chart now links to a chart view instead of a list view. The new link helps you better visualize and explore SLO performance.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -213,6 +241,8 @@ Zurich
 
 Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** SRM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -378,5 +408,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

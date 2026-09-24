@@ -2,7 +2,7 @@
 title: Train the similarity solution definition to find similar existing major cases
 description: To enable finding related major cases in a cluster, you must first update and train the similarity solution definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/solution-definition-trending-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/solution-definition-trending-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

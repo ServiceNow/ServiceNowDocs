@@ -2,7 +2,7 @@
 title: Data products navigation
 description: Navigate to four areas to build, publish, and manage data products from data ingestion through consumer access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-products-navigation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/data-products-navigation.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-23"

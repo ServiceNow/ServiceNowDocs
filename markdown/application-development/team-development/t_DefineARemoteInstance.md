@@ -2,7 +2,7 @@
 title: Define a remote instance
 description: For each instance, define other instances in the hierarchy as remote instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_DefineARemoteInstance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/t\_DefineARemoteInstance.html
 release: australia
 product: Team Development
 classification: team-development
@@ -38,7 +38,7 @@ For example, to set up remote instances for Sub-Dev 1:
 
 5.  Click **Submit**.
 
-6.  Repeat [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_DefineARemoteInstance.md) through [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_DefineARemoteInstance.md) for each instance in the hierarchy that this instance needs to push and pull with \(for example, Sub-Dev 2 and Sub-Dev 3\).
+6.  Repeat [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_DefineARemoteInstance.md) through [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_DefineARemoteInstance.md) for each instance in the hierarchy that this instance needs to push and pull with \(for example, Sub-Dev 2 and Sub-Dev 3\).
 
     |Field|Description|
     |-----|-----------|

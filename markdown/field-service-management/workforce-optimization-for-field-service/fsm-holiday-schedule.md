@@ -2,7 +2,7 @@
 title: Field service holiday schedules
 description: Location-based holiday calendars map holidays to specific regions so managers and dispatchers can plan shifts accurately and reduce manual scheduling adjustments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/fsm-holiday-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/fsm-holiday-schedule.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -38,7 +38,7 @@ Customer Service Management \(CSM\) holiday calendar support functions the same 
 **Related topics**  
 
 
-[Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-dispatcher-workspace.md)
+[Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/configuring-dispatcher-workspace.md)
 
-[Setting up your workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/setting-up-workforce.md)
+[Setting up your workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/setting-up-workforce.md)
 

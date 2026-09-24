@@ -2,7 +2,7 @@
 title: Edit a contract clause variation
 description: Edit a clause variation to modify the content that will be used in a contract template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-edit-cv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-edit-cv.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -30,7 +30,7 @@ Role required: sn\_cm\_core.contract\_config
 
 4.  On the form Clause Variation form, edit the fields that you want to modify.
 
-    For a description of the field values, see [Clause Variation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cv-form.md).
+    For a description of the field values, see [Clause Variation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-cv-form.md).
 
 5.  Right-click in the form header and select **Save**.
 
@@ -41,9 +41,9 @@ Role required: sn\_cm\_core.contract\_config
 
 ## Result
 
-If the updated clause variation is associated with a published contract template and new fields are available after parsing, the Unmapped meta data related list appears with the unmapped fields listing. For instructions on how to complete the template mapping, see [Update contract template mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-template-mapping.md).
+If the updated clause variation is associated with a published contract template and new fields are available after parsing, the Unmapped meta data related list appears with the unmapped fields listing. For instructions on how to complete the template mapping, see [Update contract template mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-template-mapping.md).
 
-**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
+**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
 
 **Related topics**  
 

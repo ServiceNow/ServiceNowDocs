@@ -2,7 +2,7 @@
 title: Understanding Threat Intelligence
 description: The Threat Intelligence application allows you to access and provide a point of reference for your company's Structured Threat Information Expression \(STIX\) data. Included in Threat Intelligence is the Security Case Management application, which provides a means for analyzing threats to your organization posed by targeted campaigns or state actors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/understanding-threat-intel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/understanding-threat-intel.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

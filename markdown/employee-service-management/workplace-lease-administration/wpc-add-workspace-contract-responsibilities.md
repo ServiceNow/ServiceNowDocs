@@ -2,7 +2,7 @@
 title: Add workspace contract responsibilities in Workplace Central
 description: Add workplace responsibilities to indicate who \(landlord or tenant\) is responsible for different activities such as lawn maintenance, painting, repairing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-add-workspace-contract-responsibilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/wpc-add-workspace-contract-responsibilities.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -30,7 +30,7 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 4.  In the **Workplace Contract Responsibilities** related list, select **New**.
 
-5.  For field details in the Workplace Contract Responsibility form, see [Add workplace contract responsibilities in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/add-workplace-contract-responsibilities.md).
+5.  For field details in the Workplace Contract Responsibility form, see [Add workplace contract responsibilities in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/add-workplace-contract-responsibilities.md).
 
 6.  Select **Submit**.
 
@@ -39,5 +39,5 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 The workplace contract responsibilities are added.
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

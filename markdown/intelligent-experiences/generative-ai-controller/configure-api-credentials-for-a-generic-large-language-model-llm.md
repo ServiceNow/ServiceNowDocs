@@ -2,7 +2,7 @@
 title: Configure API credentials for a generic large language model \(LLM\) connector
 description: Use a generic LLM connector to connect an external AI provider to Generative AI Controller to use generative AI capabilities in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-a-generic-large-language-model-llm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-a-generic-large-language-model-llm.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -79,9 +79,9 @@ You have the connection and credential alias to use for connecting a generic LLM
 
 ## What to do next
 
-For more information on configuring a generic LLM, see [configure a generic LLM connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
+For more information on configuring a generic LLM, see [configure a generic LLM connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
 
-To build custom skills with this LLM, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+To build custom skills with this LLM, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
-Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md).
 

@@ -2,12 +2,12 @@
 title: Start an on-demand Accelerator
 description: Complete the Accelerator fulfillment process without squad assistance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/start-ondemand-accelerator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/start-ondemand-accelerator.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Self-serve Accelerator fulfillment process, Request Accelerators and Initiatives, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -61,7 +61,7 @@ The self-serve flow for on-demand Accelerators is structured across different ty
 **Related topics**  
 
 
-[Staffing and Roles Review-On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review-on-demand.md)
+[Staffing and Roles Review-On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/staffing-and-roles-review-on-demand.md)
 
-[ServiceNow Governance – On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/servicenow-governance-on-demand.md)
+[ServiceNow Governance – On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/servicenow-governance-on-demand.md)
 

@@ -2,7 +2,7 @@
 title: Convert existing unattended robots to high density robots in RPA Hub
 description: Run multiple unattended automations simultaneously on a single machine by batch converting one or more existing robots to high density robots using the Actions on selected rows option.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/convert-robot-hdr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/convert-robot-hdr.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Run multiple unattended automations simultaneously on a single machine by batch 
 
 You must do this task in the classic environment.
 
-Familiarise yourself with the high density robot concept in RPA Hub. For more information, see [High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/high-density-robots-rpa-hub.md).
+Familiarise yourself with the high density robot concept in RPA Hub. For more information, see [High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/high-density-robots-rpa-hub.md).
 
 Only the unattended robots that are in **New** or **Disconnected** states and are not associated with any robot pool can be converted to high density robots.
 

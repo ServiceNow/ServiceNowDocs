@@ -2,7 +2,7 @@
 title: Activate AI Search
 description: Activate AI Search to enable conversational search capabilities in ServiceNow Otto for Core Business Suite \(CBS\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/activate-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/activate-ai-search.html
 release: australia
 topic_type: task
 last_updated: "2026-04-05"
@@ -35,5 +35,5 @@ Role required: admin
     For more information about the AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md).
 
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

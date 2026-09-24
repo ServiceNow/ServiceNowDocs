@@ -2,7 +2,7 @@
 title: Configure ReleaseOps in AEMC
 description: Complete ReleaseOps guided setup in AEMC to start using ReleaseOps for your deployments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/configure-releaseops-in-aemc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/configure-releaseops-in-aemc.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -30,10 +30,10 @@ Role required: admin
 
     \[Omitted image "aemc-set-up-releaseops-as2.png"\] Alt text: Select Get Started to set up ReleaseOps and Multi-Instance Management.
 
-4.  [Complete ReleaseOps guided set up in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/complete-releaseops-guided-setup-in-aemc.md).
+4.  [Complete ReleaseOps guided set up in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/complete-releaseops-guided-setup-in-aemc.md).
 
-5.  [Enable ReleaseOps system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/enable-releaseops-system-property.md).
+5.  [Enable ReleaseOps system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/enable-releaseops-system-property.md).
 
-6.  [Run trust profile setup in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/run-trust-profile-setup-aemc.md).
+6.  [Run trust profile setup in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/run-trust-profile-setup-aemc.md).
 
 

@@ -2,7 +2,7 @@
 title: Space Management properties
 description: Space Management Properties are available to configure floor plan, parsing, and space management defaults settings. You can control default settings like the color for selected space, compass on a floor plan, and logos and titles to appear.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/SpaceMgmntProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/SpaceMgmntProperties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -234,5 +234,5 @@ The system base area unit for facilities space tables. Set to true to use meters
 -   Default value: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)
+</table>**Parent Topic:**[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)
 

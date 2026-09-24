@@ -2,7 +2,7 @@
 title: NowVoiceThemeDark class - Android
 description: A prebuilt dark theme implementation of NowVoiceTheme.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceThemeDarkAndroidClass.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowVoiceThemeDarkAndroidClass.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 A prebuilt dark theme implementation of NowVoiceTheme.
 
-Apply the dark theme to the voice agent UI by passing it to [NowVoiceService - start\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md) or [NowVoiceService - updateTheme\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md).
+Apply the dark theme to the voice agent UI by passing it to [NowVoiceService - start\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md) or [NowVoiceService - updateTheme\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md).
 
 |Name|Default|Description|
 |----|-------|-----------|
@@ -56,10 +56,10 @@ voiceService.start(context, endpoint, theme = NowVoiceThemeDark())
 voiceService.updateTheme(NowVoiceThemeDark())
 ```
 
-**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 **Related topics**  
 
 
-[NowVoiceTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md)
+[NowVoiceTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md)
 

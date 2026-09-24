@@ -2,7 +2,7 @@
 title: Mobile Card Builder
 description: Use Mobile Card Builder to create or modify card templates using a graphical interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-card-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-card-builder.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

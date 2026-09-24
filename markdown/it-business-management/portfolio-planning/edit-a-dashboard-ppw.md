@@ -2,7 +2,7 @@
 title: Edit a dashboard
 description: Customize or edit a dashboard by adding sections, filters, images, lists, process mining maps, and rich text. If the dashboard has been shared, any changes you make are applied globally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/edit-a-dashboard-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/edit-a-dashboard-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

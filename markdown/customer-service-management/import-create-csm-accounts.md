@@ -2,7 +2,7 @@
 title: Create customer accounts
 description: An account is a supported external customer. Use the Customer Service Management application to create account records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-create-csm-accounts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/import-create-csm-accounts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ A partner is a supported external customer that sells to and supports other cust
 
     -   To create a customer account, select **Accounts**.
     -   To create a partner account, select **Partners**.
-2.  Select **New** and fill in the fields on the [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-account-form.md).
+2.  Select **New** and fill in the fields on the [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-account-form.md).
 
     When a new customer account record is created, the system uses the **com.snc.cs\_base.last.generated.code.tree.path** system property to determine a unique account code value for the account. The property is updated with the latest value to confirm the next account record receives a unique account code.
 

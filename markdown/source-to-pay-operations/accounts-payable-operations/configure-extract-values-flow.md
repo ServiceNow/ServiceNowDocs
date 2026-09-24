@@ -2,7 +2,7 @@
 title: Configure the newly created DocIntel Extract Values Flow
 description: Configure the copied Document Intelligence Extract Values flow for Invoice Processing to add missing field information, using the default flow as a reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-extract-values-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/configure-extract-values-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -46,10 +46,10 @@ In the **DocIntel Extract Values Flow - copied use case - Invoice Processing v7*
 
 ## What to do next
 
-[Configure the Invoice processing case for Invoice email flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-di-flow.md)
+[Configure the Invoice processing case for Invoice email flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-di-flow.md)
 
 **Related topics**  
 
 
-[Extract data with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/extract-data-with-di.md)
+[Extract data with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/extract-data-with-di.md)
 

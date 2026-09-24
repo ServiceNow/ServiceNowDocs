@@ -2,7 +2,7 @@
 title: Add or modify HR report frequencies
 description: HR operations report frequencies determines how often reports are generated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModHRSysReportFrequencies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateOrModHRSysReportFrequencies.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -54,5 +54,5 @@ By default, the report frequencies available are:
 5.  Click **Submit** and return to the **HR Operations Report Frequency** list.
 
 
-**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

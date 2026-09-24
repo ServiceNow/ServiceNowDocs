@@ -2,7 +2,7 @@
 title: Define filter and aggregation criteria
 description: Define filter and aggregation conditions to control which Microsoft Defender incidents generate new security incidents and whether incoming incidents should be merged into existing ones. These conditions ensure accurate incident grouping and prevent unnecessary duplication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-def-filtering-and-aggregation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ms-def-filtering-and-aggregation.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -73,5 +73,5 @@ Role required: sn\_si.admin, sn\_si.ingestion\_profile\_admin
 
 ## What to do next
 
-Set a schedule to retrieve the incident data and ingested incidents that match the criteria in the profile. For more information, see [Schedule incident retrieval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-defender-schedule-inc.md).
+Set a schedule to retrieve the incident data and ingested incidents that match the criteria in the profile. For more information, see [Schedule incident retrieval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-defender-schedule-inc.md).
 

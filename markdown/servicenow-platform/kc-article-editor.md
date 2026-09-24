@@ -2,7 +2,7 @@
 title: Knowledge Center article editor
 description: The Knowledge Center article editor has editing tools that help in formatting knowledge article content such as text, images, and media.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-article-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/kc-article-editor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

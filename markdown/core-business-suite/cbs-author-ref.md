@@ -2,7 +2,7 @@
 title: CBS Knowledge Authors form
 description: Field descriptions for the CBS Knowledge Authors form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-author-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-author-ref.html
 release: australia
 topic_type: reference
 last_updated: "2025-01-15"
@@ -31,5 +31,5 @@ Field descriptions for the CBS Knowledge Authors form.
 |**Match All**|Selected when users must match all specified criteria.|
 |**Script**|Custom script to determine user eligibility. This field appears only when the **Advanced** check box is selected.|
 
-**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-reference-parent.md)
 

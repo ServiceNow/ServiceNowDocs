@@ -2,7 +2,7 @@
 title: Test check dialog box fields
 description: The dialog box fields when testing a check definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/test-check-dialog-box.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/test-check-dialog-box.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -60,5 +60,5 @@ Proxy Agent
 Select a proxy agent to be associated with the check.This field appears only when working with a check instance and when one of the options has been selected on the **Proxy Settings** tab in the instance's policy.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/check-definition-form.md)
+</table>**Parent Topic:**[Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/check-definition-form.md)
 

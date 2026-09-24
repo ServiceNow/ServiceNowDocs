@@ -2,7 +2,7 @@
 title: Manufacturing Commercial Operations core implementation
 description: Configure the baseline settings that establish Manufacturing Commercial Operations in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-core-implementation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-core-implementation.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"

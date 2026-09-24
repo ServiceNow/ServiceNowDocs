@@ -2,7 +2,7 @@
 title: Review a case filing response and appeal the decision
 description: An appeal can be created by the issuer or acquirer if either party isn’t satisfied with the arbitration ruling from Visa. Review the case filing response and receive the decision letter from Visa.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-case-filing-response-and-appeal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/review-case-filing-response-and-appeal.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -54,7 +54,7 @@ After reviewing the case filing response, Visa issues a decision letter that sup
     -   To appeal the outcome, select **Unresolved**.
 9.  In the **Create appeal** drop-down list, select **Yes**.
 
-    **Note:** Certain conditions must be met to create an appeal. For more information, see [Collaboration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-workflow.md).
+    **Note:** Certain conditions must be met to create an appeal. For more information, see [Collaboration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/collaboration-workflow.md).
 
 10. In the **Appeal amount** field, enter the amount for the appeal.
 
@@ -71,5 +71,5 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 
 After the request executes successfully, the transaction state changes to **Awaiting External Info**. The form is set to read-only mode while waiting on a response. Visa confirms the appeal with an acknowledgment letter. Retrieve the letter by selecting **Get acknowledgement letter** in the **Review case filing appeal** activity.
 
-**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

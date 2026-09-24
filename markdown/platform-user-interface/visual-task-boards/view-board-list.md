@@ -2,12 +2,12 @@
 title: View a Visual Task Board in a list
 description: You can view a Visual Task Board in the list view using the board information option.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/view-board-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/view-board-list.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Viewing and sharing Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
 ---
@@ -33,5 +33,5 @@ Role required: none
     **Note:** The freeform board list view only shows cards made by the board and no other tasks that might be added manually.
 
 
-**Parent Topic:**[Viewing and sharing Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/viewing-sharing-vis-task-brds.md)
+**Parent Topic:**[Viewing and sharing Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/viewing-sharing-vis-task-brds.md)
 

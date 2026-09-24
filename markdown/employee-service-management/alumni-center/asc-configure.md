@@ -2,7 +2,7 @@
 title: Setting up your Alumni Center
 description: Set up your Alumni Center so you can communicate with your former employees or non-employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/asc-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/asc-configure.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -110,11 +110,11 @@ Content Delivery manager \[sn\_cd.content\_manager\]
     -   View video
 -   **Adding content**
 
-    The Alumni Center uses the same widgets as the HR Service Delivery Employee Center. For more information, see [Employee Center widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md).
+    The Alumni Center uses the same widgets as the HR Service Delivery Employee Center. For more information, see [Employee Center widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md).
 
-    Use Content Publishing to add and display content to your Alumni Center. For more information, see [Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md).
+    Use Content Publishing to add and display content to your Alumni Center. For more information, see [Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-publish-content.md).
 
-    To add content as part of a campaign, use **Content Automation**. For more information, see [Working on Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
+    To add content as part of a campaign, use **Content Automation**. For more information, see [Working on Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 
 -   **Load data**
 

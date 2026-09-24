@@ -2,7 +2,7 @@
 title: View service instance data in Digital Portfolio Management
 description: See service instance data in the context of your solutions in the Digital Portfolio Management \(DPM\) Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-integrations-app-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-integrations-app-services.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -20,7 +20,7 @@ The following image shows the service instance data views when you integrate the
 
 \[Omitted image "dpm-integrations-app-services.png"\] Alt text: Service instance integrations.
 
-The following table explains the data views in the image. For more information, see [View service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-app-service-details.md).
+The following table explains the data views in the image. For more information, see [View service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-app-service-details.md).
 
 <table id="table_djt_v2z_hcc"><thead><tr><th>
 
@@ -48,7 +48,7 @@ ITSM Performance Analytics \(PA\)
 
 </td><td>
 
-Key performance indicator \(KPI\) data from PA that comes with the base system. The following list a few but for more information, see [KPI groups installed with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-kpi-groups-oob.md).
+Key performance indicator \(KPI\) data from PA that comes with the base system. The following list a few but for more information, see [KPI groups installed with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-kpi-groups-oob.md).
 
 -   Availability
 -   New incidents
@@ -71,12 +71,12 @@ Technology Lifecycle Management \(TLM\)
 Software and hardware risk data
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integrate Digital Portfolio Management with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-integrations.md)
+</table>**Parent Topic:**[Integrate Digital Portfolio Management with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-integrations.md)
 
 **Related topics**  
 
 
-[Digital Portfolio Management life-cycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-lifecylce-management.md)
+[Digital Portfolio Management life-cycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-lifecylce-management.md)
 
-[View service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-app-service-details.md)
+[View service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-app-service-details.md)
 

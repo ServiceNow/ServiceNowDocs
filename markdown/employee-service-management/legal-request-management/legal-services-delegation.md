@@ -2,7 +2,7 @@
 title: Delegation of legal duties and approvals
 description: Legal fulfillers can delegate their legal duties to other users while they are unavailable. The delegate gets the same level of access as the legal fulfillers to work on their legal requests, legal matters, legal matter tasks, and approvals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/legal-services-delegation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/legal-services-delegation.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -45,17 +45,17 @@ Legal Service Delivery supports the following delegations:
     A task is delegated when it matches the delegation rules specified for a delegation. For example, you can delegate only the Privacy Assessment requests. A delegation rule can be set on the Legal Request \[sn\_lg\_ops\_request\] table with the condition as **\[Category\] \[is\] \[Privacy\]**.
 
 
--   **[Delegate legal duties to another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/delegate-legal-duties-approval.md)**  
+-   **[Delegate legal duties to another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/delegate-legal-duties-approval.md)**  
 Delegate legal duties relating to your assigned legal requests, legal matters, legal matter tasks, and approvals to another user when you might not have time or are unavailable.
--   **[Delegate specific legal duties to another user using granular delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/delegate-legal-duties-approval-granular.md)**  
+-   **[Delegate specific legal duties to another user using granular delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/delegate-legal-duties-approval-granular.md)**  
 Delegate specific legal duties relating to your assigned legal requests, legal matters, legal matter tasks, and approvals to another user when you might not have time or are unavailable. These specific duties are derived from the pre-defined delegation rules.
--   **[View and work on delegated legal duties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/view-delegated-legal-duties-approval.md)**  
+-   **[View and work on delegated legal duties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/view-delegated-legal-duties-approval.md)**  
 Delegate legal duties relating to your assigned legal requests, legal matters, legal matter tasks, and approvals to another user when you might not have time or are unavailable.
 
-**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-ops-administration.md)
 
 **Related topics**  
 
 
-[Setting up Granular Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/granular-delegation-setup.md)
+[Setting up Granular Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/granular-delegation/granular-delegation-setup.md)
 

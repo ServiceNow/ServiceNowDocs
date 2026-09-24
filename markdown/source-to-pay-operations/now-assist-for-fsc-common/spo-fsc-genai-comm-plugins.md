@@ -2,7 +2,7 @@
 title: Plugins for AI capabilities in Finance and Supply Chain
 description: View the consolidated list of plugins required to use the common AI capabilities across Finance and Supply Chain products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/spo-fsc-genai-comm-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/now-assist-for-fsc-common/spo-fsc-genai-comm-plugins.html
 release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
@@ -71,7 +71,7 @@ ServiceNow Otto for Finance and Procurement \(sn\_fsc\_genai\)
 -   Universal Request for Source-to-Pay Operations \(sn\_fsc\_ur\_common\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md)
+</table>**Parent Topic:**[Configuring ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md)
 
 **Related topics**  
 

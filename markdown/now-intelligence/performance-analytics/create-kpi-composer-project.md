@@ -2,7 +2,7 @@
 title: Create a KPI Composer project
 description: As the first step in using KPI Composer, create a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-kpi-composer-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/create-kpi-composer-project.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -37,9 +37,9 @@ As you work on the project, keep track collaboratively in the Project Journal.
 
 \[Omitted image "kpi-composer-project-journal.png"\] Alt text: Project Journal sidebar open
 
-**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
+**Previous topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Next topic:**[Define properties for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/define-properties-project.md)
+**Next topic:**[Define properties for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/define-properties-project.md)
 

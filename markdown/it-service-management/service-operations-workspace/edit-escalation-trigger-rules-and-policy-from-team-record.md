@@ -2,7 +2,7 @@
 title: Create escalation trigger rules and policy from team record
 description: Navigate to team record to create new policy and trigger rules
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/edit-escalation-trigger-rules-and-policy-from-team-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/edit-escalation-trigger-rules-and-policy-from-team-record.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -31,5 +31,5 @@ Role required: rota\_manager, rota\_admin
 3.  On the **Schedules** page, right-click the shift span and click \[Omitted image "edit-icon.png"\] Alt text: Edit icon icon.
 
 
-**Parent Topic:**[Escalation triggers and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.md)
+**Parent Topic:**[Escalation triggers and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.md)
 

@@ -2,7 +2,7 @@
 title: Advanced Approval Management AI release notes
 description: The ServiceNow Advanced Approval Management AI application enables advanced approval users to manage quote approvals using natural language requests in Model Context Protocol \(MCP\)-compatible clients, without opening a ServiceNow instance. Advanced Approval Management AI is a new application in the Australia release.The ServiceNow Advanced Approval Management AI application enables advanced approval users to manage quote approvals using natural language requests in Model Context Protocol \(MCP\)-compatible clients, without opening a ServiceNow instance. Advanced Approval Management AI is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/advanced-approval-management-ai-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/advanced-approval-management-ai-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-06-29"
@@ -30,7 +30,7 @@ See [Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceN
     Install Advanced Approval Management AI by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
 
 ## Australia
 

@@ -2,7 +2,7 @@
 title: Opres with CSDM header Main node configuration
 description: The Opres with CSDM header Main node configuration, used by new customers, fetches CMDB objects such as business services, business processes, service offerings, and application services into Operational Resilience. Existing customers typically use the Service \(CMDB\) Main node configuration. Administrators or UI Builder administrators can display or hide the Services overview or Business services overview tab from the Workspace view based on organizational needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/opres-with-csdm-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/opres-with-csdm-header.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ The relationship of the CMDB objects is shown in the illustration. The data show
 
 \[Omitted image "csdm-objects-rel.png"\] Alt text: CSDM objects.
 
-For information on updating the node relationship configurations, see [Configure the Node relationship configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-node-rel-config.md)
+For information on updating the node relationship configurations, see [Configure the Node relationship configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/update-node-rel-config.md)
 
 .
 

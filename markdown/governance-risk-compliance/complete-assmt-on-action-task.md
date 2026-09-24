@@ -2,7 +2,7 @@
 title: Perform an assessment on the action task
 description: Perform an assessment on the action task by reviewing its assessment details. As the action task owner, you can view the details of the action task and assessment history in the action task record and then complete the assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/complete-assmt-on-action-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/complete-assmt-on-action-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,5 +51,5 @@ The details of the action task and assessment history are displayed in the recor
 
 ## What to do next
 
-Request an approval on the action task and complete its workflow. For more information, see [Request an approval for the action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-approval-for-action-task.md).
+Request an approval on the action task and complete its workflow. For more information, see [Request an approval for the action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/request-approval-for-action-task.md).
 

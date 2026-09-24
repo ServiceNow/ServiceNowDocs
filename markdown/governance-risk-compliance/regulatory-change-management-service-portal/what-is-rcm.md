@@ -2,7 +2,7 @@
 title: Exploring Regulatory Change Management
 description: The Regulatory Change Management application provides a framework that your organization can use to integrate with third-party regulatory intelligence providers to keep up with the regulatory changes and external regulations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -78,14 +78,14 @@ The following infographic depicts a typical day for a regulatory change manageme
 
 \[Omitted image "day-in-the-life-of-a-regulatory-change-manager.png"\] Alt text: A user with the regulatory change manage role passes through various phases on a daily-basis.
 
--   **[Regulatory Change Management application in the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-workspace-overview.md)**  
+-   **[Regulatory Change Management application in the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/rcm-workspace-overview.md)**  
 Starting with GRC: Regulatory Change Management, version 13.0.1, the Regulatory Change Management application is available in Compliance Workspace. Compliance Workspace provides your users with a single-pane view so that they can check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes for the organization.
--   **[Differences between regulatory event alert and source document alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-event-alert-vs-source-document-alert.md)**  
+-   **[Differences between regulatory event alert and source document alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-event-alert-vs-source-document-alert.md)**  
 A regulatory event alert informs you of a regulatory change, while a source document alert signals the release or update of the related official document.
--   **[Regulatory process flow and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-workflow-swimlane.md)**  
+-   **[Regulatory process flow and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-workflow-swimlane.md)**  
 The Regulatory Change Management process flow includes the tasks that different users can perform to help your organization manage and comply with regulatory changes.
--   **[Next Experience Discuss and Chat Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/next-experience-discuss-chat-collaboration.md)**  
+-   **[Next Experience Discuss and Chat Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/next-experience-discuss-chat-collaboration.md)**  
 On a regulatory change management case, select **Discuss** from other options. Collaborate with virtual agents by using **Next Experience Chat Collaboration** and Discuss.
 
-**Parent Topic:**[Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-mgmt-landing-page.md)
+**Parent Topic:**[Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-mgmt-landing-page.md)
 

@@ -2,7 +2,7 @@
 title: Risk indicator definitions
 description: Risk indicators are used to identify security vulnerabilities and compliance issues in cryptographic assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/risk-indicator-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/risk-indicator-definitions.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility

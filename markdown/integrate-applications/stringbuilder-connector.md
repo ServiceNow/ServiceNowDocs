@@ -2,7 +2,7 @@
 title: StringBuilder
 description: The StringBuilder connector enables you to create, append, update, replace, or remove strings as part of your automation Workflow in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/stringbuilder-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/stringbuilder-connector.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,12 +16,12 @@ The StringBuilder connector enables you to create, append, update, replace, or r
 
 You must first use and then expose the methods in the StringBuilder connector to use its methods.
 
--   To use the connector, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector.md).
--   To expose the methods, see [Use connector method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector-method.md).
--   To use the methods, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-components.md).
+-   To use the connector, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-connector.md).
+-   To expose the methods, see [Use connector method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-connector-method.md).
+-   To use the methods, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-components.md).
 
--   **[StringBuilder connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connector-stringbuilder-methods.md)**  
+-   **[StringBuilder connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connector-stringbuilder-methods.md)**  
 The StringBuilder connector methods enable you to create, append, update, replace, or remove strings in your automation workflow in RPA Desktop Design Studio.
 
-**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connectors.md)
 

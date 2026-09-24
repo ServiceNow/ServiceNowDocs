@@ -2,7 +2,7 @@
 title: Migrate financial baselines of projects to Next Experience
 description: Migrate the financial baselines of your project to Next Experience to manage the financial using Project Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/migrate-fin-baselines-projects.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/migrate-fin-baselines-projects.html
 release: australia
 product: Project Management
 classification: project-management
@@ -24,12 +24,12 @@ Baselines view in the Next Experience provides better insights to view and analy
 
 Unlike the financial baselines created using Next Experience, the financial baselines created in the Classic UI don’t capture the actual expenses along with planned costs as a default behavior. To have relevant information for baselines comparison, the actual costs are captured as part of the baseline migration using the processed expense lines as of the baseline creation date of the financial baseline.
 
-For detailed information and use cases on using financials in Next Experience, see [Managing financials for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/using-financials-pp.md).
+For detailed information and use cases on using financials in Next Experience, see [Managing financials for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/using-financials-pp.md).
 
 **Note:** Starting March 2026 release, for customers using multicurrency, migration of financial baselines updates the baseline data in project currency to investment currency.
 
 1.  Existing projects that have only project baselines but no investment baselines. With the migration, project baseline will be migrated to investment baseline and you can view the migrated baseline from the `sn_invst_pln_invst_investment_baseline` table list view.
-2.  Existing projects that have both project and investment baselines, you need to run the scheduled job to populate the fields for investment currency in the baselines with the values from project currency. For more information, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
+2.  Existing projects that have both project and investment baselines, you need to run the scheduled job to populate the fields for investment currency in the baselines with the values from project currency. For more information, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
 
 ## Before you begin
 
@@ -82,7 +82,7 @@ Description
 2.  Filter the Name field to locate the **Migrate financial baselines to Next Experience** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
@@ -93,13 +93,13 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 
 ## Result
 
-Financial baselines for the selected projects will be migrated to Next Experience and you can view them in the [Baseline view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md).
+Financial baselines for the selected projects will be migrated to Next Experience and you can view them in the [Baseline view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-financials-prj-wrkspc.md).
 
 ## What to do next
 
-[View and compare the migrated baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-compare-baselines-pws.md) with any existing baselines or current baseline \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
+[View and compare the migrated baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-compare-baselines-pws.md) with any existing baselines or current baseline \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -148,5 +148,5 @@ Financial baselines for the selected projects will be migrated to Next Experienc
 
 [Migrate budget of active projects to Next Experience]()
 
-[Migrate budget of active projects to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/fin-migrate-budget-project-ppm.md)
+[Migrate budget of active projects to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/fin-migrate-budget-project-ppm.md)
 

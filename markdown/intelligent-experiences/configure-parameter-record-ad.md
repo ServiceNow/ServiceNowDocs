@@ -2,7 +2,7 @@
 title: Enable AI agents to securely access parameters in AI Desktop Actions
 description: Enable AI agents to securely access stored values, such as credentials and other input data, through Desktop Action Parameter records. Parameters protect sensitive values and provide dynamic inputs to desktop actions during agent execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-parameter-record-ad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-parameter-record-ad.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-25"
@@ -108,7 +108,7 @@ Verify that you use the exact names of the Parameter records. Parameter record n
 **Related topics**  
 
 
-[Create a Desktop action parameter record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuration-ssh-username-password-ad.md)
+[Create a Desktop action parameter record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuration-ssh-username-password-ad.md)
 
-[Create a parameter value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-parameter-value-record.md)
+[Create a parameter value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-parameter-value-record.md)
 

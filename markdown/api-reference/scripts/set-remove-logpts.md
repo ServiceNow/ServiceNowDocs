@@ -2,7 +2,7 @@
 title: Set or remove logpoints
 description: Set breakpoints or conditional logpoints to log messages to the console at specific lines, and remove logpoints when you are done debugging them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/set-remove-logpts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/set-remove-logpts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -56,5 +56,5 @@ Logpoints belong to the developer who sets them. Developers must set and remove 
 6.  When debugging is complete, remove logpoints from the script.
 
 
-**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
+**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debugger.md)
 

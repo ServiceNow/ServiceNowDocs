@@ -2,7 +2,7 @@
 title: Configure Forecast Categories
 description: Configure the forecast categories in CSM configurable workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-forecast-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-forecast-categories.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ If required, users can either delete or make a forecast category inactive. When 
 **Related topics**  
 
 
-[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-sales-forecasting.md)
 
-[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-forecasting.md)
 

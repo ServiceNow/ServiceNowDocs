@@ -2,7 +2,7 @@
 title: Employee communications
 description: EmployeeWorks Web App Extended helps you create, publish, and manage employee communications in a variety of content types and delivery channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-employee-comms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-employee-comms.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -47,7 +47,7 @@ The content library enables filtering, sorting, and viewing announcements in gri
 
 ## Multilingual announcements
 
-Content managers can translate announcement content manually or request translation through the Localization Framework. For more information, see [Translate announcement content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-translate-announcement.md).
+Content managers can translate announcement content manually or request translation through the Localization Framework. For more information, see [Translate announcement content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-translate-announcement.md).
 
 When you promote an announcement to a chat channel, the message uses the language of the recipient. If a translation isn't available in that language, the message uses the source language instead.
 
@@ -72,5 +72,5 @@ You can delete, duplicate, set to published, or inactivate content directly from
 **Related topics**  
 
 
-[Translate announcement content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-translate-announcement.md)
+[Translate announcement content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-translate-announcement.md)
 

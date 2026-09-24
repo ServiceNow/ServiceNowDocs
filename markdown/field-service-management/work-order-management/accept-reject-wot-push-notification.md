@@ -2,7 +2,7 @@
 title: Accept or reject requests from push notifications
 description: As a Field Service agent, you can accept or reject work order tasks using push notification actions without having to open the ServiceNow Agent mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/accept-reject-wot-push-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/accept-reject-wot-push-notification.html
 release: australia
 product: Work Order Management
 classification: work-order-management

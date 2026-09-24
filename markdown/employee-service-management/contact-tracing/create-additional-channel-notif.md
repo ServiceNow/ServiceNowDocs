@@ -2,7 +2,7 @@
 title: Create a custom Emergency Outreach notification channel
 description: Create a custom Emergency Outreach notification channel to send privacy consent requests using your company's preferred communication method, such as the Slack or Microsoft Teams collaboration platforms. Create the notification channel using a script or a subflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/create-additional-channel-notif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/create-additional-channel-notif.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -119,5 +119,5 @@ When a notification is sent using a custom notification channel, a Delivery Logs
 2.  Open any failed channel record to review the error messages and fix errors that caused the notification to fail.
 3.  Continue testing the notification channel until the channel no longer fails.
 
-**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-privacy-consent-settings.md)
+**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/set-up-privacy-consent-settings.md)
 

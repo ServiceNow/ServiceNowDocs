@@ -2,12 +2,12 @@
 title: Use case: Summarize a client script using ServiceNow Otto
 description: Understand and edit client scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/use-case-client-script-summarization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/use-case-client-script-summarization.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Use case, Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -30,7 +30,7 @@ With Client script summarization, the developer can select any client script in 
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 ## Configuration steps
 
@@ -56,12 +56,12 @@ Perform the following steps to use the Client script summarization skill:
 
 The developer quickly comprehends the purpose and functionality of the client scripts, whereas manually reading and interpreting the code would take several hours. This knowledge enables the developer to confidently plan and implement updates without the risk of introducing unintended regressions.
 
-**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-use-cases.md)
+**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-use-cases.md)
 
 **Related topics**  
 
 
-[Client script summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/client-script-summarization.md)
+[Client script summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/client-script-summarization.md)
 
-[Summarize a client script using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/client-script-summarization-generation.md)
+[Summarize a client script using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/client-script-summarization-generation.md)
 

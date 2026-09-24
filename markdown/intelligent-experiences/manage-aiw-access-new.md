@@ -2,7 +2,7 @@
 title: Manage access to an AI specialist in AI Agent Studio
 description: Control workspace access, user roles, and publishing settings for your AI specialist and its copies configured for specific teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/manage-aiw-access-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/manage-aiw-access-new.html
 release: australia
 topic_type: task
 last_updated: "2026-01-31"
@@ -57,7 +57,7 @@ Access management includes workspace permissions, role-based security, publishin
 
     Copy creation allows teams to customize AI specialist behavior for specific assignment groups or use cases. Different copies can have varying configurations while maintaining the same core functionality.
 
-    For example, you can configure an AI specialist copy for one assignment group to perform specific tasks that differ from those assigned to another group. For more information, see [Create a copy of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/copy-aiw-new.md).
+    For example, you can configure an AI specialist copy for one assignment group to perform specific tasks that differ from those assigned to another group. For more information, see [Create a copy of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/copy-aiw-new.md).
 
 9.  Select **Save** to apply your access configuration changes.
 

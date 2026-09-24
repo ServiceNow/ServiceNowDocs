@@ -2,7 +2,7 @@
 title: Create a catalog request for onboarding multiple assets
 description: Create a catalog request for onboarding multiple assets on a single model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-asset-onboard-catalog-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-asset-onboard-catalog-req.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

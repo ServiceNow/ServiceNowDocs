@@ -2,7 +2,7 @@
 title: Legal Entity \[sn\_fin\_legal\_entity\] table
 description: The Legal Entity \[sn\_fin\_legal\_entity\] table stores information about legal entities used in financial and organizational structures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/fin-legal-entity-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/fin-legal-entity-table.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -46,7 +46,7 @@ This table extends the Organization \[sn\_fin\_organization\] table and contains
 |ERP source|Reference|ERP source system associated with the entity. Inherited from the Organization \[sn\_fin\_organization\] table.|
 |Image|Image|Image of the entity's logo. Inherited from the Organization \[sn\_fin\_organization\] table.|
 
-**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
 
 **Related topics**  
 

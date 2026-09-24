@@ -2,7 +2,7 @@
 title: Discover java installation data using Agent Client Collector for Visibility Content process-based discovery
 description: Discovering java installation data using Agent Client Collector for Visibility Content process-based discovery enables you to discover java installation information in your system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-process-based-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-process-based-discovery.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

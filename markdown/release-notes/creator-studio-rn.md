@@ -2,7 +2,7 @@
 title: Creator Studio release notes
 description: The ServiceNow Creator Studio application guides business process experts through creating request-based applications, removing the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Australia release.The ServiceNow Creator Studio application guides business process experts through creating request-based applications, removing the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Australia release.The ServiceNow Creator Studio application guides business process experts through creating request-based applications, removing the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/creator-studio-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/creator-studio-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-05-19"
@@ -19,7 +19,7 @@ The ServiceNow® Creator Studio application guides business process experts thro
 -   Distinguish AI-generated apps and features at a glance using updated icons.
 -   Use improved screen reader support and keyboard navigation when interacting with forms and templates using assistive technologies.
 
-See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -45,7 +45,7 @@ See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     -   Keyboard focus now remains within the expanded template preview modal for the duration of the modal interaction.
     -   The rich text frame **Long Description** now has the correct label, enabling screen readers to identify and announce it correctly.
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## August 2026
 
@@ -53,7 +53,7 @@ The ServiceNow® Creator Studio application guides business process experts thro
 
 ### What's changed
 
--   **[ServiceNow Otto rebrand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-text-to-form.md)**
+-   **ServiceNow Otto rebrand**
 
     ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Creator Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
@@ -64,7 +64,7 @@ The ServiceNow® Creator Studio application guides business process experts thro
 
 ### What's changed
 
--   **[Updated identifiers for AI-generated components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-text-to-form.md)**
+-   **Updated identifiers for AI-generated components**
 
     AI gradient tokens are applied to specific components on the forms page to indicate when content has been generated or influenced by Now Assist. More easily identify AI-generated content consistently through the consistent and recognizable AI identity within Creator Studio.
 

@@ -2,7 +2,7 @@
 title: Domain separation in third-party application and data source integration
 description: This is an overview of domain separation and integration of third-party applications and data sources. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/domain-separation-app-data-source-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/domain-separation-app-data-source-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ The Basic-Standard level of domain separation is achieved through data visibilit
 
 Team should define a few examples with data-driven properties. There should be three different buckets with short description for each one
 
-**Parent Topic:**[Integration with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntegrateWThirdPartyAppsDataSrces.md)
+**Parent Topic:**[Integration with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_IntegrateWThirdPartyAppsDataSrces.md)
 
 **Related topics**  
 

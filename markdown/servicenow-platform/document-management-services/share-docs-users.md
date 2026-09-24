@@ -2,7 +2,7 @@
 title: Share documents with users
 description: Assign Reader, Writer or Owner permissions to users to enable them to read, download, update, or delete documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/share-docs-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/share-docs-users.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -41,5 +41,5 @@ User permission is assigned to all users, even if they don’t have a role assig
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Document security and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-access-settings.md)
+**Parent Topic:**[Document security and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/document-access-settings.md)
 

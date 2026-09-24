@@ -2,7 +2,7 @@
 title: Inventory view
 description: Use the Inventory view in the Asset Workspace to view and manage inventory-related functions such as stockrooms and transfer orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/inventory-view-am.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/inventory-view-am.html
 release: australia
 product: Asset Management
 classification: asset-management

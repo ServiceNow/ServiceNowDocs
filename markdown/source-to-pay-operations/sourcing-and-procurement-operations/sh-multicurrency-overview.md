@@ -2,7 +2,7 @@
 title: Multi-currency support in Shopping Hub
 description: Shoppers can view and select their local currency during shopping in Shopping Hub, providing a seamless multi-currency experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/sh-multicurrency-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/sh-multicurrency-overview.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -32,7 +32,7 @@ Plugin required: Shopping Hub \(sn\_spend\_uib\)
 
 Ensure that you complete the following configurations for the multi-currency functionality to work correctly in Shopping Hub.
 
--   Set the `sn_spend_uib.local_currency.enable.menuoption` system property to enable shoppers to view product prices in local currency in Shopping Hub. For more information, see [Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md).
+-   Set the `sn_spend_uib.local_currency.enable.menuoption` system property to enable shoppers to view product prices in local currency in Shopping Hub. For more information, see [Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md).
 
     **Note:** Property is set to True by default. If you do not want prices to be displayed in the local currency, set this property to False.
 
@@ -69,5 +69,5 @@ The following points describe how the multi-currency feature works:
 -   As an approver, you can view the product price in your local currency alongside the original supplier currency. This information appears in email notifications and To-dos in Employee Center and Shopping Hub.
 -   The product price is also displayed in both your local currency and the original supplier currency on the product bundle page.
 
-**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
+**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
 

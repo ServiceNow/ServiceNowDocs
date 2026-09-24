@@ -2,7 +2,7 @@
 title: Configure AWA queues for the proxy contact role
 description: Modify the Advanced Work Assignment queues and add routing conditions that support the proxy contact role and the Internal contact field on the Case form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-awa-queue-for-proxy-contact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-awa-queue-for-proxy-contact.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

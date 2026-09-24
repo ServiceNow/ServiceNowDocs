@@ -2,7 +2,7 @@
 title: Publish bundled models to product catalog
 description: You can publish bundled models to the product catalog to make the bundled models available in the service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/publish-product-catalog-bundledmodles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/product-catalog/publish-product-catalog-bundledmodles.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -40,7 +40,7 @@ You can publish a bundled model only under the following conditions:
 5.  Select **OK**.
 
 
-**Parent Topic:**[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_CreatingBundledModels.md)
+**Parent Topic:**[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_CreatingBundledModels.md)
 
 **Related topics**  
 

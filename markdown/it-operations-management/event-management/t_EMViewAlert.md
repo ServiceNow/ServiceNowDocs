@@ -2,7 +2,7 @@
 title: View alert information
 description: View a list of all alerts for application services s, and then manage individual alerts as necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMViewAlert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMViewAlert.html
 release: australia
 product: Event Management
 classification: event-management
@@ -250,7 +250,7 @@ The **Acknowledged** check box value after the most alert recent update.-   **Tr
 
 </td><td>
 
-The secondary alerts that are correlated with this alert, where this alert is the primary alert. For more information, see [Rule-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMEventCorrelationRules.md).
+The secondary alerts that are correlated with this alert, where this alert is the primary alert. For more information, see [Rule-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/c_EMEventCorrelationRules.md).
 
 </td></tr><tr><td>
 
@@ -258,7 +258,7 @@ The secondary alerts that are correlated with this alert, where this alert is th
 
 </td><td>
 
-The primary alert that is correlated with this alert, where this alert is a secondary alert. For more information, see [Rule-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMEventCorrelationRules.md).
+The primary alert that is correlated with this alert, where this alert is a secondary alert. For more information, see [Rule-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/c_EMEventCorrelationRules.md).
 
 </td></tr></tbody>
 </table>    Additional tabs.
@@ -266,7 +266,7 @@ The primary alert that is correlated with this alert, where this alert is a seco
     |Field|Description|
     |-----|-----------|
     |Impacted Services tab|
-    |Impacted Services|The impacted services that are related to this alert are listed. For more information, see [View the impact tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewImpactTree.md).|
+    |Impacted Services|The impacted services that are related to this alert are listed. For more information, see [View the impact tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewImpactTree.md).|
     |Flapping tab|
     |Flap count|The number of times the alert has flapped—that is, has fluctuated between a closed and a non-closed state—within the flap interval since the start time in the **Flap start window**.|
     |Flap start window|The initial start time to measure the flapping occurrences.|
@@ -294,27 +294,27 @@ You can respond to the alert in the following ways:
 |Acknowledge the alert.|Select **Acknowledge**. If the alert is reopened, this button reappears so you can reacknowledge the alert.|
 |Create an incident.|Select **Create incident**.|
 |If Security Incident Response is activated, create a security incident response.|Select **Create Security Incident**.|
-|Designate that the alert is in maintenance.|Select the **Maintenance** check box. For more information, see [View all alerts by the maintenance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlertmaintenance.md).|
-|Close the alert.|Select **Close**. For more information, see [Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCloseAlert.md).|
+|Designate that the alert is in maintenance.|Select the **Maintenance** check box. For more information, see [View all alerts by the maintenance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewAlertmaintenance.md).|
+|Close the alert.|Select **Close**. For more information, see [Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMCloseAlert.md).|
 
--   **[Priority group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-priority-group.md)**  
+-   **[Priority group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-priority-group.md)**  
 For better triage and focus, alerts that have a higher priority are brought to the top of the alert list. This placement brings to your attention those alerts that require you to handle them at a higher priority than other alerts.
--   **[Alert execution information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-execution.md)**  
+-   **[Alert execution information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-execution.md)**  
 Alert execution information provides a reference to the actions that have been performed concerning the alert. Among the information presented is which alert management rules ran on the alert, incidents that were opened, and which remediation workflows ran.
--   **[View alerts in the flapping state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlertFlapping.md)**  
+-   **[View alerts in the flapping state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewAlertFlapping.md)**  
 You can view alerts that are specifically in the flapping state.
--   **[View all alerts by the maintenance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlertmaintenance.md)**  
+-   **[View all alerts by the maintenance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewAlertmaintenance.md)**  
 The **Maintenance** status indicates that the CI is under maintenance. For example, there is a software upgrade, and the issues can result from that activity, therefore all maintenance alerts are discarded.
--   **[Collaborate from within an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/em-collaborate-from-alert.md)**  
+-   **[Collaborate from within an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/em-collaborate-from-alert.md)**  
 You can collaborate with colleagues and write work notes while working in an alert.
--   **[Place an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMPutAnAlertIntoMaintenance.md)**  
+-   **[Place an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMPutAnAlertIntoMaintenance.md)**  
 You can manually place any alert into maintenance to hide it from the Alerts list and Agent Workspace.
--   **[Alert insight information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-insight-information.md)**  
+-   **[Alert insight information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-insight-information.md)**  
 Alert insight aids faster alert triage, enabling a quicker way to find a solution and expose the probable root cause of the selected alert.
--   **[Apply a quick response in an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/apply-quick-response-in-alert.md)**  
+-   **[Apply a quick response in an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/apply-quick-response-in-alert.md)**  
 In an alert, use the `Quick Response` feature to apply remediation to the alert or to launch a web application.
 
-**Parent Topic:**[Using Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/user-guide.md)
+**Parent Topic:**[Using Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/user-guide.md)
 
 **Related topics**  
 

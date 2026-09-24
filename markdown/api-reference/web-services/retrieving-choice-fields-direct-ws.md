@@ -2,7 +2,7 @@
 title: Retrieve choice fields using direct web services
 description: To retrieve or set choice fields, use the choice Value, not the Label.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/retrieving-choice-fields-direct-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/retrieving-choice-fields-direct-ws.html
 release: australia
 product: Web Services
 classification: web-services
@@ -28,7 +28,7 @@ To see a list of choice values:
 2.  Right-click the choice value field and select **Configure Dictionary**. For example, configure the dictionary for the **State** field.
 3.  From the Choices related list, note the value for the label you want to query. For example, note that the **Closed** choice has a value of **7**.
 
-**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md)
+**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_DirectWebServices.md)
 
 **Related topics**  
 

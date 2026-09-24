@@ -2,7 +2,7 @@
 title: Remove assets from a pallet
 description: Remove the assets contained in a pallet when you don't need to track and manage them using pallets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/remove-assets-from-pallet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/remove-assets-from-pallet.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -43,7 +43,7 @@ You can remove assets only from a pallet whose **State** field value is In stock
 
 The assets that you removed from the pallet are no longer shown under the Assets tab.
 
-**Parent Topic:**[Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md)
+**Parent Topic:**[Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md)
 
 **Related topics**  
 

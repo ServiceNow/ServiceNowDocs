@@ -2,7 +2,7 @@
 title: Enable Now Assist Agent skills for Virtual Agent on Mobile
 description: Enable Now Assist Agent skills in Virtual Agent on Mobile to leverage the power of generative AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-na-agent-skills-mobile-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-na-agent-skills-mobile-va.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ Role required: admin
     \[Omitted image "na-enable-va-skills.png"\] Alt text: Mobile dropdown page with the Chat widget experience selected
 
 
-**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configuring-now-assist-mobile.md)
 

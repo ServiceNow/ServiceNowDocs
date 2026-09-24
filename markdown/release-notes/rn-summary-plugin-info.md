@@ -2,10 +2,10 @@
 title: Plugin information for all Australia features and products
 description: Cumulative release notes summary on plugin information for Australia features and products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-plugin-info.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-23"
 reading_time_minutes: 23
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -48,8 +48,6 @@ AI Control Tower
 
 </td><td>
 
-Shadow AI Detection \(sn\_shadow\_ai\): Detect unsanctioned AI use.
-
 AI Policy Framework \(sn\_ai\_policy\_framework\): Mitigate AI exposure through policies.
 
 -   com.sn\_ai\_disc - Enables the AI connections page in the AI Control Tower configuration.
@@ -61,7 +59,7 @@ AI Search
 
 </td><td>
 
-Platform Multimodal Service \(com.glide.platform\_mm\_service\): Integrates with the multimodal service backend to provide automatic generation of searchable descriptive captions for images, tables, charts, and other visual elements in attachment files indexed for search. This plugin is available beginning with the [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md) release.
+Platform Multimodal Service \(com.glide.platform\_mm\_service\): Integrates with the multimodal service backend to provide automatic generation of searchable descriptive captions for images, tables, charts, and other visual elements in attachment files indexed for search. This plugin is available beginning with the [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md) release.
 
 </td></tr><tr><td>
 
@@ -226,7 +224,7 @@ Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
--   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+-   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 Manage Invoice Operations \(com.sn\_inv\_ops\_aias\): Delivers AI-powered assistants that handle invoice dispute intake directly from the portal, resolves eligible cases autonomously, and seamlessly escalates to a human agent when needed. In the workspace, it continues to assist human agents by providing relevant insights and actions to accelerate invoice case resolution.
 
@@ -294,7 +292,7 @@ Enterprise Service Management Foundation
 -   Implementation Agent Content \(sn\_ia\_content\): Provides content assets for the Implementation Agent guided setup experience.
 -   Implementation Agent Common \(sn\_ia\_common\): Provides common components shared across the Implementation Agent framework.
 -   Simplified IT Service Management \(sn\_ai\_itsm\_cont\): Provides a tailored service desk with a central workspace, AI agent chat, an Employee Slate, and Now Assist to streamline ITSM and enhance productivity.
--   Core Business Suite Foundation: Provides streamlined employee and supplier case and knowledge management to improve service request management across departments. For detailed plugin information for Core Business Suite, see [Core Business Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cbs-rn.md).
+-   Core Business Suite Foundation: Provides streamlined employee and supplier case and knowledge management to improve service request management across departments. For detailed plugin information for Core Business Suite, see [Core Business Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cbs-rn.md).
     -   The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
         -   Foundation: AI basics to deliver insights
@@ -800,7 +798,7 @@ ServiceNow AI Platform core feature
 
 </td><td>
 
--   Form designer \(com.glide.ui.ng.fd\): Planned for deprecation in the C release. [Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-form-builder.md) is the recommended replacement for all form configurations. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   Form designer \(com.glide.ui.ng.fd\): Planned for deprecation in the C release. Form Builder is the recommended replacement for all form configurations. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 -   ServiceNow Subscription Management \(com.snc.usage\_admin.snc\): Planned for deprecation in August 2026. Update to the most recent version of the Subscription Management application through the Application Manager. For more information about the Subscription Management application, see [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md).
 
 </td></tr><tr><td>
@@ -886,15 +884,6 @@ Telecommunications Service Operations Management \(TSOM\)
 
 Service Graph Connector for Meraki \(sn\_tsom\_meraki\_connector\):The application has been renamed to Service Graph Connector for Meraki Telco SD-WAN.
 
-</td></tr><tr><td>
-
-Zero Copy Connectors
-
-</td><td>
-
--   Workflow Data Fabric Hub \(sn\_data\_fabric\): Renamed to Zero Copy Connector Hub \(sn\_data\_fabric\).
--   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md): Zero Copy Connectors \(sn\_data\_fabric\_zcc\): Now available as two separate installation options — Zero Copy Connectors Primary \(sn\_zcc\_primary\) for primary connectors only, or Zero Copy Connectors \(sn\_data\_fabric\_zcc\) for both primary and community connectors.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/release-notes-summaries.md)
 

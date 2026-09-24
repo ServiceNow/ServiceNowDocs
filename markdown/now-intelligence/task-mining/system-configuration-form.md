@@ -2,7 +2,7 @@
 title: System configuration form in Task Mining
 description: Modify configuration records to set up Task Mining. Configuration records can be modified but cannot be added.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/system-configuration-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/system-configuration-form.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Task Mining, Platform Analytics]
 
 Modify configuration records to set up Task Mining. Configuration records can be modified but cannot be added.
 
-For information about configuring Task Mining, see [Configuring Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/configuring-task-mining.md).
+For information about configuring Task Mining, see [Configuring Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/configuring-task-mining.md).
 
 |Field|Description|
 |-----|-----------|
@@ -25,5 +25,5 @@ For information about configuring Task Mining, see [Configuring Task Mining](htt
 |Description|Description for the configuration rule.|
 |Value|Configuration record value.|
 
-**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)
+**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/reference-task-mining.md)
 

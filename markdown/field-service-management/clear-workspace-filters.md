@@ -2,7 +2,7 @@
 title: Clear Dispatcher Workspace resource filters
 description: If a dispatcher experiences loading issues in Dispatcher Workspace, you can clear the Dispatcher Workspace resource filters and that can help resolve issues with loading.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/clear-workspace-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/clear-workspace-filters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

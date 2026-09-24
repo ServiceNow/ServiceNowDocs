@@ -2,12 +2,12 @@
 title: Error Framework in Discovery Admin Workspace
 description: Discovery Admin Workspace uses the Error Framework to surface actionable Discovery errors. You can review errors, understand their causes, and take steps to resolve them directly from the Diagnostics page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/error-framework-daw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/error-framework-daw.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Diagnostics, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -44,7 +44,7 @@ Error Framework is enabled by default. Administrators can disable it by setting 
 
     -   **Base rules**: ServiceNow-provided rules that map known Discovery log patterns to standardized error codes in the SN-DISC format.
     -   **Refinement rules**: Rules that further classify errors based on additional context gathered after the discovery run completes. Refinement can change an error's code or downgrade its severity. Default refinement rules are provided for known Discovery scenarios.
-    The framework processes errors through base classification first, then applies refinement. As part of this process, each error record is enriched with data from related Discovery sources, including CMDB records, credential affinities, IP address details, and Discovery schedule configuration. This context is available on the error record and reduces the need to navigate between multiple tables during investigation. The refined error code is what appears on the Errors tab of the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page. Errors downgraded to informational severity are filtered from the default view, so you can focus on errors that need attention.
+    The framework processes errors through base classification first, then applies refinement. As part of this process, each error record is enriched with data from related Discovery sources, including CMDB records, credential affinities, IP address details, and Discovery schedule configuration. This context is available on the error record and reduces the need to navigate between multiple tables during investigation. The refined error code is what appears on the Errors tab of the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page. Errors downgraded to informational severity are filtered from the default view, so you can focus on errors that need attention.
 
 -   **Error severity levels**
 
@@ -77,11 +77,11 @@ Error Framework is enabled by default. Administrators can disable it by setting 
     -   Displaying a message with remediation steps to resolve the error.
     **Note:** Available actions vary by error type.
 
-    For more information, see [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-error-details.md).
+    For more information, see [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/daw-error-details.md).
 
 -   **AI insights**
 
-    The [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page includes an AI Insights panel powered by ServiceNow Otto for Error Framework. The panel analyzes your current Discovery errors and generates a prioritized summary to help you focus on the most important issues first. Insights are scoped to your active domain and update automatically when you change filters on the Errors tab.
+    The [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page includes an AI Insights panel powered by ServiceNow Otto for Error Framework. The panel analyzes your current Discovery errors and generates a prioritized summary to help you focus on the most important issues first. Insights are scoped to your active domain and update automatically when you change filters on the Errors tab.
 
     The panel surfaces the following:
 

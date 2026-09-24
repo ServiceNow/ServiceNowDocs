@@ -2,7 +2,7 @@
 title: Associate Amazon Connect queues with CSM
 description: Set up phone queues for Amazon Connect to gain visibility into the queues using Workforce Optimization for Customer Service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-amazonconnect-configurable-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/setup-amazonconnect-configurable-csm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -78,5 +78,5 @@ A routing profile links queues to agents. Every agent must have a routing profil
     5.  In the **Order** field, select the order number for the assignment group. This is the order of assignment group priority in which the incoming calls are handled.
     6.  Click **Submit**.
 
-**Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-servicenow-voice-cs.md)
+**Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-servicenow-voice-cs.md)
 

@@ -2,7 +2,7 @@
 title: Enable or disable an application menu or module
 description: You can enable \(show\) or disable \(hide\) an application menu or module in the application navigator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_EnDisableAppMenuOrMod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_EnDisableAppMenuOrMod.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -74,5 +74,5 @@ Use the **Roles** field.
     When you change application menus or modules, the application navigator automatically refreshes to display the changes.
 
 
-**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_CommonUIElements.md)
+**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/p_CommonUIElements.md)
 

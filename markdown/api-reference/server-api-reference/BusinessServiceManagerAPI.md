@@ -2,7 +2,7 @@
 title: BusinessServiceManager - Global
 description: The BusinessServiceManager API provides methods that unify service management by converting manually-created services to application services, populating application services, and adding/removing configuration items and connections.Instantiates a BusinessServiceManager object.Adds a CI to a manually-created application service.Adds an entry point to the application service and starts discovery on the entry point.Adds a new entry point without starting discovery.Adds a manually created connection to an application service.Checks the roles of a specified user and the permissions data configured for a specified service/service group and returns a Boolean value that indicates whether the user can view the service/service group.Converts a manual service to an application service.Populates an application service with relations and CIs from the designated entry point.Removes a manually created CI from an application service.Removes an existing entry point from the application service.Removes a manually created connection and the connected CI from an application service.Updates an existing entry point in the application service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/BusinessServiceManagerAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/BusinessServiceManagerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The BusinessServiceManager API provides methods that unify service management by
 
 Use BusinessServiceManager methods in global server scripts. You must have the Application Service administrator \[app\_service\_admin\] role to call this API.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## BusinessServiceManager - BusinessServiceManager\(\)
 

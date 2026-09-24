@@ -2,7 +2,7 @@
 title: Manage data
 description: With the data model \(tables and fields\) created and security set up, add data into the application’s table\(s\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/manage-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/manage-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ Use [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 Self-Paced Training: [REST Integrations](https://developer.servicenow.com/dev.do#!/learn/courses/rome/app_store_learnv2_rest_rome_rest_integrations)
 
-**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/define-and-build-data-model.md)
+**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/define-and-build-data-model.md)
 

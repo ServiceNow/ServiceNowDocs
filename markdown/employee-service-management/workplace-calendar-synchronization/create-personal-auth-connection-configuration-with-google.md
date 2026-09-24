@@ -2,7 +2,7 @@
 title: Configure a personal authentication mode Connection and Credential alias for Google
 description: Establish a personal authentication mode connection and credential alias for Google Calendar. Confirm that the values for the connection and credentials alias are set as specified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/create-personal-auth-connection-configuration-with-google.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/create-personal-auth-connection-configuration-with-google.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

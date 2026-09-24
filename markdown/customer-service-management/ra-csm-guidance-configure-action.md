@@ -2,7 +2,7 @@
 title: Configure guidance actions in Recommended Actions
 description: Configure the actions that an agent can perform for a Recommended Actions guidance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidance-configure-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-guidance-configure-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

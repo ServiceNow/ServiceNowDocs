@@ -2,7 +2,7 @@
 title: Domain separation and Operational Sustainability Management
 description: Domain separation is supported for Operational Sustainability Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/esg-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/esg-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -84,7 +84,7 @@ The following is the list of domain separated tables:
 -   Risk Statement to Goal
 -   Material Topic
 
-For more information on these tables, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
+For more information on these tables, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/components-installed-with-esg.md).
 
 ## Use case
 
@@ -94,7 +94,7 @@ Operational sustainability data can be separated from the data of other departme
 
 In this use case, client scripts, business rules, workflows, processes, and so on can be domain-separated. While the behavior offered with domain separation provides multi-tenancy support, multi-tenancy is still contained within a single instance. This means that some global properties, some global data, and some global processes are shared across all domains. For example, the system’s “Remember me” option on the login page is global and cannot be specified per domain. If you need complete and total separation of all system properties and do not require global reporting or global processes, separate instances are the best option.
 
-**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/reference-data-esg.md)
+**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/reference-data-esg.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: AWS discovery solutions comparison
 description: ITOM Visibility applications discover a variety of AWS resources and populate the relevant configuration item \(CI\) classes in the Configuration Management Database \(CMDB\) with their attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/aws-discovery-methods-platcap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/aws-discovery-methods-platcap.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -52,11 +52,11 @@ Service Graph Connector for AWS
 
 </td><td>
 
-[Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-aws-sg.md)
+[Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-aws-sg.md)
 
 </td><td>
 
-[Configure Service Graph Connector for AWS using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md)
+[Configure Service Graph Connector for AWS using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.md)
 
 </td></tr></tbody>
 </table>**Note:**
@@ -220,5 +220,5 @@ The CI class, in most cases, is applicable to both solutions. If it's not applic
 |AWS::MWAA::Environment|Yes|No|cmdb\_aws\_managed\_workflows\_for\_apache\_airflow\_environment|
 |AWS::NetworkFirewall::Firewall|Yes|No|cmdb\_aws\_network\_firewall\_firewall|
 
-**Parent Topic:**[Service Graph Connector for AWS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-reference.md)
+**Parent Topic:**[Service Graph Connector for AWS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-reference.md)
 

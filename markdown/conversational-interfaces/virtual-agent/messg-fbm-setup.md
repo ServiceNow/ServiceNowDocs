@@ -2,7 +2,7 @@
 title: Set up Conversational Integration with Facebook Messenger
 description: Integrate Facebook Messenger with your ServiceNow instance using the Conversational Integration with Facebook Messenger application. Use the application to engage customers in conversations with bots.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/messg-fbm-setup.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -116,5 +116,5 @@ Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a
     A success message displays confirming the integration with the Facebook Messenger app.
 
 
-**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
+**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
 

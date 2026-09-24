@@ -2,7 +2,7 @@
 title: Add a font face
 description: Add a new style such as bold or italic to your custom font family in Theme Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-font-face.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/add-font-face.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -70,7 +70,7 @@ Font faces are applied individually to components, as needed. Theme Builder does
 
 ## Result
 
-Now that you have added a font face, [you can apply it to individual components for more precise styling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-components.md). For information on deleting a font family or font face, see [Delete a custom font from your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/delete-custom-font.md).
+Now that you have added a font face, [you can apply it to individual components for more precise styling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-edit-components.md). For information on deleting a font family or font face, see [Delete a custom font from your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/delete-custom-font.md).
 
-**Parent Topic:**[Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-custom-font.md)
+**Parent Topic:**[Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/upload-custom-font.md)
 

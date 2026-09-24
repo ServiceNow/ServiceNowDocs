@@ -2,10 +2,10 @@
 title: Agents and skills inventory
 description: The ServiceNow Otto for AI Control Tower plugin \(com.sn\_aict\_genai\) includes agents and skills that enhance the AI asset management and governance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-agents-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-agents-skills.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [generative AI, agentic AI, agents, skills]
 breadcrumb: [Reference, AI Control Tower, Enable AI experiences]

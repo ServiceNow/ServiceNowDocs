@@ -2,7 +2,7 @@
 title: Project Risk Overview dashboard
 description: The project risk dashboard is useful for project managers and the enterprise risk managers. Using this dashboard, the project managers and enterprise risk managers can view the risk performance and the overall risk posture. This dashboard helps risk managers to reduce the overall risks in an organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/project-risk-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/project-risk-dashboard.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -85,5 +85,5 @@ This dashboard displays the following visualizations:
 |Inherent risk by likelihood and impact|Heatmap \[Omitted image "icon-heatmap-report.png"\] Alt text: Heatmap icon.|Aggregation of all the inherent project risks and their impact.|
 |Residual risk by likelihood and impact|Heatmap \[Omitted image "icon-heatmap-report.png"\] Alt text: Heatmap icon.|Aggregation of all the residual project risks and their impact.|
 
-**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

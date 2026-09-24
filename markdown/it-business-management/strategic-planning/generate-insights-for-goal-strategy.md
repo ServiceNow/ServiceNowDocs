@@ -2,7 +2,7 @@
 title: Generate insights for a goal
 description: Review AI-generated insights to identify at-risk goals, assess forecasted statuses, and act on recommendations before goals fall off track.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/generate-insights-for-goal-strategy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/generate-insights-for-goal-strategy.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -56,13 +56,13 @@ The skill analyzes the real-time data — including check-in patterns, comments,
 **Related topics**  
 
 
-[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
+[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-goal-strategy.md)
 
-[Add a target for goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/set-target-for-goal-strategy.md)
+[Add a target for goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/set-target-for-goal-strategy.md)
 
-[Duplicate a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/duplicate-goal-target-strategy.md)
+[Duplicate a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/duplicate-goal-target-strategy.md)
 
-[Align work with a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/associate-work-with-goals-strategy.md)
+[Align work with a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/associate-work-with-goals-strategy.md)
 
-[Send a reminder for target actuals check in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/send-reminder-target-checkin-strategy.md)
+[Send a reminder for target actuals check in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/send-reminder-target-checkin-strategy.md)
 

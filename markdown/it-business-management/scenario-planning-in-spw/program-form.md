@@ -2,7 +2,7 @@
 title: Strategic program form
 description: Learn about the fields of the Strategic program form. Use this form to create or edit the details of a Strategic Program in Strategic Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/program-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/program-form.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -125,12 +125,12 @@ Notes to capture the updates and discussions on the strategic program as the wor
 |Actual opEx|Actual value of operational expenditure for this strategic program.|
 |Planned ROI|Planned return of investment for this strategic program.|
 
-**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 
 **Related topics**  
 
 
-[Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
+[Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
 
-[Add planning items to Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md)
+[Add planning items to Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md)
 

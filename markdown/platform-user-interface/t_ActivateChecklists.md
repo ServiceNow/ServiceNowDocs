@@ -2,7 +2,7 @@
 title: Activate checklists
 description: Checklists are active by default on new instances. For instances upgrading from a previous version, the Checklist plugin must be activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ActivateChecklists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ActivateChecklists.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Checklists.md)
+**Parent Topic:**[Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Checklists.md)
 
 **Related topics**  
 

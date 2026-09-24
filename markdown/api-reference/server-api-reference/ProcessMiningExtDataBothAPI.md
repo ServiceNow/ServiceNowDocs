@@ -2,7 +2,7 @@
 title: ProcessMiningForExternalData - Scoped, Global
 description: The ProcessMiningForExternalData API contains a method that marks an external audit record for processing.Marks the specified record in the External dataset \[sn\_po\_extdata\_dataset\] table for processing. Use this method to automate the processing of external audit data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ProcessMiningExtDataBothAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/ProcessMiningExtDataBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +22,7 @@ To access this API, the Process Mining for external data \(sn\_po\_extdata\) plu
 
 For additional information on external audit records and Process Mining, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## ProcessMiningForExternalData - scheduleCaseGeneration\(String externalDataSysId\)
 

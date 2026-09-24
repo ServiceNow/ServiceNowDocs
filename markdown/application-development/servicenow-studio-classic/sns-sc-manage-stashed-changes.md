@@ -2,7 +2,7 @@
 title: Manage stashed changes
 description: Apply or delete stashed changes in ServiceNow Studio to restore saved work or remove stashes that are no longer needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-manage-stashed-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-sc-manage-stashed-changes.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -18,7 +18,7 @@ Apply or delete stashed changes in ServiceNow Studio to restore saved work or re
 
 ## Before you begin
 
-[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 At least one stashed change must exist.
 
@@ -43,12 +43,12 @@ Role required: admin
 
 6.  After applying stashed changes, continue normal pull and push operations to add the changes to the Git repository.
 
-    For more information, see [Pull changes from a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-pull-changes-from-repository.md).
+    For more information, see [Pull changes from a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-sc-pull-changes-from-repository.md).
 
 
 ## Result
 
 The selected action is applied to the stash. If changes were applied, continue with pull and push operations to update the Git repository.
 
-**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
+**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
 

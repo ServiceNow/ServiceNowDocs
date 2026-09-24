@@ -2,7 +2,7 @@
 title: Knowledge Management in Service Operations Workspace
 description: Knowledge articles provide agents with information such as self-help, troubleshooting, and task resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/knowledge-articles-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/knowledge-articles-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -24,10 +24,10 @@ Agents can also use knowledge blocks to reuse content within knowledge articles.
 
 **Note:** The list of knowledge blocks is available only when the Knowledge Blocks plugin \(com.snc.knowledge\_blocks\) is activated.
 
--   **[Work on a knowledge article in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/work-knowledge-article.md)**  
+-   **[Work on a knowledge article in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-knowledge-article.md)**  
 Share information across your organization using a knowledge article.
 
-**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
+**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 
 **Related topics**  
 

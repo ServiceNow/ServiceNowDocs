@@ -2,14 +2,14 @@
 title: Adobe Experience Manager as a Cloud Service external content connector
 description: The Adobe Experience Manager as a Cloud Service external content connector retrieves assets from nodes in your Adobe Experience Manager as a Cloud Service source system and makes their content and metadata searchable in AI Search applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/adobe-expmgr-cs-external-content-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/adobe-expmgr-cs-external-content-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -25,17 +25,17 @@ The indexed content and metadata are stored as records in a connector-specific i
 
 The Adobe Experience Manager as a Cloud Service external content connector only crawls assets. It doesn't crawl web page content or social content such as reviews, blog posts, or comments. All asset content retrieved by the connector is treated as public, meaning that it's searchable by all users with access to your configured AI Search experience.
 
--   **[Configure Adobe Experience Manager as a Cloud Service for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-adobe-expmgr-cs-external-content-indexing.md)**  
+-   **[Configure Adobe Experience Manager as a Cloud Service for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-adobe-expmgr-cs-external-content-indexing.md)**  
 Create Service Credentials in Adobe Cloud Manager to allow the Adobe Experience Manager as a Cloud Service external content connector to access nodes and assets in your source system.
--   **[Create an Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-adobe-expmgr-cs.md)**  
+-   **[Create an Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-adobe-expmgr-cs.md)**  
 Create an external content connector to retrieve searchable content from your Adobe Experience Manager as a Cloud Service source system.
--   **[Configure crawl settings for an Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-crawl-settings-adobe-expmgr-cs-external-content-connector.md)**  
+-   **[Configure crawl settings for an Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-adobe-expmgr-cs-external-content-connector.md)**  
 Specify the nodes you want your Adobe Experience Manager as a Cloud Service external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 
 **Related topics**  
 
 
-[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
+[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
 

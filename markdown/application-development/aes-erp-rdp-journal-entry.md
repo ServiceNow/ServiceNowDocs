@@ -2,7 +2,7 @@
 title: Manual Journal Entry Posting Rapid Deployment Pack
 description: The Manual Journal Entry Posting App Engine ERP Rapid Deployment Pack, helps you create, validate, and submit journal entries for month-end account closing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-journal-entry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-journal-entry.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-14"
@@ -43,5 +43,5 @@ The Manual Journal Entry Posting Rapid Deployment Pack operates as the user-faci
 -   The portal validates the entry data and routes it through the configured approval or review workflow.
 -   On approval, the journal entry is submitted to the connected ERP system for processing.
 
-**Parent Topic:**[Exploring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-explore.md)
+**Parent Topic:**[Exploring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-explore.md)
 

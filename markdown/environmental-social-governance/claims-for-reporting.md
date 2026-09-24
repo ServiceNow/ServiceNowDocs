@@ -2,7 +2,7 @@
 title: Claims for reporting
 description: Claims for reporting are narrative statements or data points that organizations want to document and track for potential future use in disclosures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/claims-for-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/claims-for-reporting.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,8 +30,8 @@ Claims for reporting in Operational Sustainability Management offers numerous be
 -   Provides flexibility to create both qualitative and quantitative claims, not limited by reporting cadence, and supports review and approval workflows.
 -   Allows tracking of which claims are used in which disclosures and supports associating related claims for comprehensive reporting
 
--   **[Create or edit a claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-or-edit-a-claim.md)**  
+-   **[Create or edit a claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-or-edit-a-claim.md)**  
 Create or edit a claim that accurately documents a specific achievement, commitment, event, or activity performed by your organization, suitable for use in future disclosures or reports.
 
-**Parent Topic:**[Using Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-esg.md)
+**Parent Topic:**[Using Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-esg.md)
 

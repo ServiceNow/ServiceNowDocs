@@ -2,7 +2,7 @@
 title: Exploring Agentic Playbooks
 description: Integrate AI agents into your workflows, and enable automation, adaptability, and transparency across your business processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/agentic-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/agentic-playbooks.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -114,7 +114,7 @@ For more information about Now Assist AI agents and their capabilities, refer to
 
 ## User personas
 
-If you're a playbook author and want to configure activities to be performed by AI agents, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md).
+If you're a playbook author and want to configure activities to be performed by AI agents, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configure-agentic-playbooks.md).
 
-If you're an agent running a playbook, see [Using Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/running-agentic-activities.md).
+If you're an agent running a playbook, see [Using Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/running-agentic-activities.md).
 

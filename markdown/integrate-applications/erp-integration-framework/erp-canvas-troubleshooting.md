@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP troubleshooting
 description: Zero Copy Connector for ERP provides several ways to troubleshoot issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-troubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-troubleshooting.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -21,5 +21,5 @@ You can test model inputs and outputs, debug models, monitor transactions, and e
 **Related topics**  
 
 
-[Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md)
+[Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md)
 

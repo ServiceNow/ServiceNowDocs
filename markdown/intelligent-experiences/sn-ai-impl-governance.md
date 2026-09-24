@@ -2,7 +2,7 @@
 title: AI governance on the ServiceNow AI Platform
 description: As organizations increasingly adopt AI to drive efficiency, innovation, and customer experience, AI governance becomes essential to ensure responsible use, regulatory compliance, and alignment with enterprise goals. ServiceNow provides a comprehensive governance framework through key roles and applications that work together to manage AI across its life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sn-ai-impl-governance.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -71,7 +71,7 @@ The following groups set and execute AI policy in an organization:
     Implementation and operations teams are responsible for securely deploying and managing AI features in alignment with governance policies. The AI admin configures and manages AI capabilities, ensuring that AI features are properly mapped to workflows and governed according to enterprise standards. Platform owners and ServiceNow admins oversee the deployment process, making sure that all configurations comply with established policies and technical requirements. Meanwhile, AI developers build, extend, and integrate AI features into business workflows, working closely with admins and platform teams to deliver scalable, compliant, and effective AI solutions. Together, these roles translate governance policies into secure, functional AI implementations.
 
 
-For more information about AI governance user roles, see [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assign-data-steward-role.md).
+For more information about AI governance user roles, see [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/assign-data-steward-role.md).
 
 For more resources about AI governance, see the following Best Practices topics:
 
@@ -87,12 +87,12 @@ ServiceNow Otto governance is specified in the following tools:
 
     The AI Control Tower functions as the central hub for AI strategy, governance, and analytics within the platform. It offers enterprise-wide visibility into AI assets, usage patterns, and compliance status, enabling organizations to maintain oversight and accountability. Through automated discovery and inventory of approved AI assets, it streamlines asset management while embedding governance checks and compliance alerts to ensure that all AI deployments remain secure and aligned with organizational policies.
 
-    For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md).
+    For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-landing.md).
 
 -   **AI Admin Hub**
 
     The AI Admin Hub is key to managing AI governance by configuring policies, enforcing data handling rules, and ensuring compliance with security and privacy standards. Admins oversee provider policies at the skill level, track usage analytics like success rates and adoption, and collaborate with AI stewards and business SMEs to align AI with organizational goals. They also connect governance committees with technical teams to support smooth policy execution.
 
-    For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+    For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-now-assist.md).
 
 

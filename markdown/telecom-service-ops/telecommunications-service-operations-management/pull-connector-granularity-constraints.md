@@ -2,12 +2,12 @@
 title: Pull connector granularity constraints
 description: Each connector type enforces minimum and maximum values for the granularity and metrics collection schedule fields on the connector instance form. The connector instance form rejects values outside the supported range.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/pull-connector-granularity-constraints.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/pull-connector-granularity-constraints.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
@@ -30,5 +30,5 @@ Each connector type enforces minimum and maximum values for the granularity and 
 |Granularity|Time resolution of each sample returned per API call. Controls how finely the source system data is sliced within a polling cycle.|
 |Metrics collection schedule|Frequency at which the connector polls the source system API. Also referred to as the poller iteration window.|
 
-**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
+**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 

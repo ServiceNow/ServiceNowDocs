@@ -2,7 +2,7 @@
 title: Configure resources to load
 description: Administrators can configure the number of resources to load on the calendar in Dispatcher Workspace so the page loads faster with fewer resources. Or the dispatcher can see more information at a glance if more resources are loaded.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-resource-load.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configure-resource-load.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Sales promotion claim management
 description: A sales promotion claim case tracks a promotional claim from creation through approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-sls-pro-clm-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-sls-pro-clm-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ A sales promotion claim case tracks a promotional claim from creation through ap
 
 |Tasks|Description|
 |-----|-----------|
-|[Create a sales promotion claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-sls-pro-claim-case.md)|Create a sales promotion claim case.|
-|[View sales promotion claim cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/all-cases.md)|View all the sales promotion claim cases.|
-|[Approve all claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-approve-sp-claim.md)|Approve a sales promotion claim case.|
+|[Create a sales promotion claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-sls-pro-claim-case.md)|Create a sales promotion claim case.|
+|[View sales promotion claim cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/all-cases.md)|View all the sales promotion claim cases.|
+|[Approve all claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-approve-sp-claim.md)|Approve a sales promotion claim case.|
 

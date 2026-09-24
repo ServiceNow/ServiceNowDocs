@@ -2,7 +2,7 @@
 title: End Flow flow logic
 description: Stop running the current flow. Use End Flow within a branch of the flow to specify an exit condition. For example, end the flow when it reaches a specific If flow logic block.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-end-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-logic-end-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -49,7 +49,7 @@ This example subflow supports adding arbitrary approvals from a Playbooks activi
 
 When the subflow reaches this branch, it stops the subflow and sets the state to Completed. The actions in other branches are not run.
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

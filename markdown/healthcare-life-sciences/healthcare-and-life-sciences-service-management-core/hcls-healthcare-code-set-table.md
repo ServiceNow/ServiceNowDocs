@@ -2,7 +2,7 @@
 title: Healthcare code set table
 description: The Healthcare code set \[sn\_hcls\_code\_set\] table stores the details of code sets available in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-code-set-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-code-set-table.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -143,5 +143,5 @@ Common language including set of identifiers, names, and codes for identifying h
  For more information about the available code sets, see [value sets all types](https://www.hl7.org/fhir/R4/valueset-all-types.html) defined in the FHIR specifications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

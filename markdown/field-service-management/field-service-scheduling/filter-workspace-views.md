@@ -2,7 +2,7 @@
 title: Filter Dispatcher Workspace views
 description: Filter the map view, hybrid view, and schedule view of Dispatcher Workspace to display only the items that interest you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/filter-workspace-views.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/filter-workspace-views.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

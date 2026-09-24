@@ -2,7 +2,7 @@
 title: Support for developers
 description: Here's where ServiceNow developers get support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/r\_support-servicenow-developers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/r\_support-servicenow-developers.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

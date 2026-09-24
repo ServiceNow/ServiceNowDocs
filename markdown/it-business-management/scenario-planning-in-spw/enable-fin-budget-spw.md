@@ -2,7 +2,7 @@
 title: Enable financial budget allocation for planning items in Strategic Planning
 description: Enable allocation property after migrating to Next Experience to work on budget allocation for your planning items using Strategic Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -32,5 +32,5 @@ Enable allocation property after migrating to Next Experience to work on budget 
 
 ## What to do next
 
-Configure budget attributes to work on managing budget of your planning items. For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md).
+Configure budget attributes to work on managing budget of your planning items. For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md).
 

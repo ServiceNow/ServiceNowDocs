@@ -2,7 +2,7 @@
 title: Survey roles
 description: The Survey application uses the following roles.Create and administer surveys. Survey administrators know what types of surveys are necessary, when to send a survey, and to whom. Survey administrators can use all modules in the Survey application menu.View surveys and related information, such as survey responses, survey groups, scorecards, and reports.Create a survey and assign it to the user who can take the survey and submit it. A survey creator can also create assessments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_SurveyManagementRoles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_SurveyManagementRoles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ To learn more about managing subscriptions, see [Managing per-user subscriptions
 
 No role is required to take assigned survey questionnaires.
 
-**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/survey-reference.md)
 
 ## Survey administrator \[survey\_admin\]
 

@@ -2,7 +2,7 @@
 title: Handling memory utilization errors for Service Graph Connector for AWS
 description: You can use the SgAwsApplicationProperties script include to avoid memory utilization errors when importing a large number of configuration items \(CIs\) from an AWS instance via the Service Graph Connector for AWS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-memory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-memory.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

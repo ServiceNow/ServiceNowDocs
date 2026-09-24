@@ -2,7 +2,7 @@
 title: Asynchronous password reset subflow
 description: When a user requests a password reset, based on the application for which the password reset is requested, the process works either synchronously or asynchronously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/async-password-reset-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/async-password-reset-subflow.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -39,5 +39,5 @@ When this subflow is used, the input parameters are considered in this subflow t
 
 \[Omitted image "update-password-reset-subflow.png"\] Alt text: Update Password Reset Request Status subflow.
 
-**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
+**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/customizing-password-reset.md)
 

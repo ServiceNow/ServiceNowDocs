@@ -2,7 +2,7 @@
 title: Microsoft Just Enough Administration \(JEA\) for Discovery
 description: Using Microsoft JEA with Discovery improves security by forcing the MID Server to run remote Windows commands through a constrained endpoint, which validates commands on the target before execution. To configure the ServiceNow instance for Discovery with Microsoft Just Enough Administration \(JEA\), define the Windows credential with the domain name and set the MID Server configuration parameters appropriately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/microsoft-jea-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/microsoft-jea-discovery.html
 release: australia
 product: Discovery
 classification: discovery

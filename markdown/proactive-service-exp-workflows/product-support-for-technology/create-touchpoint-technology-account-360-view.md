@@ -2,7 +2,7 @@
 title: Create a touchpoint from Technology Account 360 view
 description: Create a touchpoint to capture and support conversations by analyzing the customer account data in the Technology Account 360 view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/create-touchpoint-technology-account-360-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/create-touchpoint-technology-account-360-view.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -71,5 +71,5 @@ You can attach a file either from your computer or from the touchpoint record.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
+**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
 

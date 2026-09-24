@@ -2,7 +2,7 @@
 title: Generate webhook registry username and password
 description: Generate a user name and password in your ServiceNow instance to authenticate webhook requests and retrieve the required metric data from the Workday application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/generate-webhook-registry-username-pwd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/generate-webhook-registry-username-pwd.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

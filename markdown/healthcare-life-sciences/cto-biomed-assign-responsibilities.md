@@ -2,7 +2,7 @@
 title: Assign responsibilities to Care Team Operations for Biomed users
 description: Assign responsibilities to users in Care Team Operations for Biomed to dictate which specific records users are authorized to view or modify.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-assign-responsibilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-biomed-assign-responsibilities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ You can edit the responsibilities of Care Team Operations for Biomed users when 
 
     If a newly added user isn’t populated in the Available list, search for them manually using the lookup icon.
 
-    On occasion, newly added members don’t appear within the Selected panel due to property configurations. If this occurs, see [Configure global system properties to edit members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configure-properties-edit-members.md).
+    On occasion, newly added members don’t appear within the Selected panel due to property configurations. If this occurs, see [Configure global system properties to edit members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configure-properties-edit-members.md).
 
 7.  Select **Save**.
 

@@ -2,7 +2,7 @@
 title: Playbooks in Next Experience for Demand Management
 description: Playbooks in Next Experience for Demand Management provide a guided, structured approach to managing a demand from initiation to completion. Playbooks focus specifically on helping demand teams follow the standard demand life cycle, verifying every demand progresses consistently and no critical steps are missed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/playbooks-in-demand-workspace-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/playbooks-in-demand-workspace-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -99,5 +99,5 @@ Next Experience for Demand Management includes two predefined playbooks availabl
 
 [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-experience-admins.md)
 
-[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
 

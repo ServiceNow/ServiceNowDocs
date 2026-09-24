@@ -2,7 +2,7 @@
 title: Integration of Employee Center and GRC
 description: The integration of GRC tasks with the Employee Center makes it easier for employees to complete the GRC tasks easily and effectively. This integration allows them to report risk events or request policy exceptions and makes GRC more useful in the organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/employee-center.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -20,7 +20,7 @@ The Employee Center portal is a unified portal that helps connect systems across
 
 If you integrate GRC with the Employee Center, you can provide all employees an interface to perform the following tasks:
 
--   Quickly [report risk events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-from-employee-center.md).
+-   Quickly [report risk events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-from-employee-center.md).
 -   Report an issue.
 -   Request a policy exception.
 -   Use **My tasks** to get a consolidated view of all your tasks and perform them immediately.

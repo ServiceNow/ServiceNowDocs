@@ -2,7 +2,7 @@
 title: Bulk Translation for knowledge articles
 description: Perform bulk translations of knowledge articles in multiple languages using the Localization Framework application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/bulk-translation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/bulk-translation.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -41,10 +41,10 @@ Translation validation enables you to review and manage the translation request 
 -   The source article shouldn’t be a translated article.
 -   The total number of selected articles is less than 200.
 
--   **[Use Bulk Translation for manual translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-bts-manual-translation.md)**  
+-   **[Use Bulk Translation for manual translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/use-bts-manual-translation.md)**  
 Translate knowledge articles into different languages through bulk translations.
--   **[Use Bulk Translation for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/bts-for-dynamic-translations.md)**  
+-   **[Use Bulk Translation for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/bts-for-dynamic-translations.md)**  
 Translate knowledge articles into different languages using machine translations.
 
-**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-translation-management.md)
+**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/use-translation-management.md)
 

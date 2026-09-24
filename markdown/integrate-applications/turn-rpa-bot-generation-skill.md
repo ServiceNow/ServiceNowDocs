@@ -2,7 +2,7 @@
 title: Turn on the RPA bot generation skill
 description: Turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations, activities, and automation logic additions from text instructions and preview options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/turn-rpa-bot-generation-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/turn-rpa-bot-generation-skill.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -17,7 +17,7 @@ Turn on the Robotic Process Automation \(RPA\) bot generation skill to use gener
 
 ## Before you begin
 
--   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md).
+-   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-now-assist-rpa-hub.md).
 -   Perform these steps in your ServiceNow instance.
 -   Ensure that the AI Search application is enabled on your instance by navigating to **All** &gt; **AI Search** &gt; **AI Search Status**. If AI search is not enabled, select **Request AI Search**.
 -   Role required: sn\_nowassist\_admin.nsa\_admin or sn\_skill\_builder.admin
@@ -54,5 +54,5 @@ After activating the RPA bot generation skill, RPA Desktop Design Studio users m
 **Related topics**  
 
 
-[Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md)
+[Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-bot-generation.md)
 

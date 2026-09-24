@@ -2,7 +2,7 @@
 title: My tasks page view
 description: My tasks page displays a single-pane view of your pending tasks, and the tasks assigned to your user group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/my-esg-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/my-esg-tasks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ A typical My tasks page for a logged-in user is shown in the following example.
 
 If you have the Operational Sustainability Management administrator role, you can customize the Operational Sustainability Workspace by updating the Tasks page configurations module.
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-new-explore.md)
 

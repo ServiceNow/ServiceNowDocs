@@ -2,7 +2,7 @@
 title: Knowledge workflows
 description: The publishing and retirement processes for a knowledge article are controlled by workflows defined for the knowledge base that the article belongs to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/r\_KnowledgeWorkflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/r\_KnowledgeWorkflows.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -97,7 +97,7 @@ A subflow that moves the knowledge article to the retired state. You can use thi
 </td></tr></tbody>
 </table>**Note:**
 
--   Only administrators and knowledge administrators can view the retired knowledge articles. To reuse a retired article, administrators and knowledge administrators can republish the article. For more information, see [Republish a retired article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/republish-retired-article.md).
+-   Only administrators and knowledge administrators can view the retired knowledge articles. To reuse a retired article, administrators and knowledge administrators can republish the article. For more information, see [Republish a retired article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/republish-retired-article.md).
 -   An article and its translations have a parent-child relationship. Retiring a parent article does not automatically retire all its translated child articles.
 
 ## Email notifications for approval workflows
@@ -107,14 +107,14 @@ You can send email notifications for approval workflows.
 -   Notify approvers about knowledge articles submitted for their approvals.
 -   Notify authors about the approval status of their knowledge articles.
 
-To send email notifications for approval workflows, enable the **Send notification to approvers and authors in article approval workflow** property \(**glide.knowman.enable\_approval\_notification**\). Beginning with New York, the property is enabled by default. Existing customers on release versions prior to New York can enable this property to send email notifications. Disable any custom notifications for article approvals before enabling this property. If the **glide.knowman.enable\_approval\_notification** property is not available, an administrator can create the property and set its value to `true`. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+To send email notifications for approval workflows, enable the **Send notification to approvers and authors in article approval workflow** property \(**glide.knowman.enable\_approval\_notification**\). Beginning with New York, the property is enabled by default. Existing customers on release versions prior to New York can enable this property to send email notifications. Disable any custom notifications for article approvals before enabling this property. If the **glide.knowman.enable\_approval\_notification** property is not available, an administrator can create the property and set its value to `true`. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 **Related topics**  
 
 
-[Knowledge article states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-states.md)
+[Knowledge article states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-article-states.md)
 
-[Approve an article that is being reviewed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/approve-article-in-review.md)
+[Approve an article that is being reviewed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/approve-article-in-review.md)
 
-[Retire a versioned article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/retire-versioned-article.md)
+[Retire a versioned article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/retire-versioned-article.md)
 

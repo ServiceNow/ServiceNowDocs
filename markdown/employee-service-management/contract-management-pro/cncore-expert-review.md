@@ -2,7 +2,7 @@
 title: Manual internal review
 description: Assign contract documents to internal subject matter experts for detailed manual review. Experts can add review tasks, provide feedback, request additional information, and validate contract terms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-expert-review.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-expert-review.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -38,14 +38,14 @@ A workflow for getting content reviewed by subject matter experts might progress
 
 The contract request remains in the Awaiting review State until a review task is active.
 
--   **[Request an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-review-task.md)**  
+-   **[Request an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-add-review-task.md)**  
 Initiate a review of the contract document by internal subject matter experts.
--   **[Work on internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-int-review-doc.md)**  
+-   **[Work on internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-int-review-doc.md)**  
 As a contract reviewer, review and provide feedback on contract documents
--   **[Share requested information for internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-send-info-reviewtask.md)**  
+-   **[Share requested information for internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-send-info-reviewtask.md)**  
 As a contract fulfiller, share information requested by the reviewer to proceed with the contract document review.
--   **[Cancel an internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-close-review-task.md)**  
+-   **[Cancel an internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-close-review-task.md)**  
 As a contract fulfiller, cancel a review task irrespective of its state.
 
-**Parent Topic:**[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-methods-land.md)
+**Parent Topic:**[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-review-methods-land.md)
 

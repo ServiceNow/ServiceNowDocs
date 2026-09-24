@@ -2,7 +2,7 @@
 title: Legal Simple Compliance
 description: The ServiceNow Legal Simple Compliance suite provides prebuilt legal workflows to submit and manage legal compliance requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-compliance/legal-simple-compliance-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-compliance/legal-simple-compliance-applications.html
 release: australia
 product: Legal Simple Compliance
 classification: legal-simple-compliance
@@ -18,14 +18,14 @@ The ServiceNow® Legal Simple Compliance suite provides prebuilt legal workflows
 
 The Legal Simple Compliance includes the following applications:
 
--   [Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-landing-page.md): Manage disclosures related to gifts and entertainment when employees give or receive them from internal or external parties to ensure they are in accordance with company policies.
--   [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md): Manage the disclosure, approval, and registry of conflicts of interest that might arise from employees having competing interests or loyalties.
--   [Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md): Manage stock preclearance requests in accordance with your company’s stock preclearance policy.
+-   [Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-gifts-and-entertainment/lsd-ge-landing-page.md): Manage disclosures related to gifts and entertainment when employees give or receive them from internal or external parties to ensure they are in accordance with company policies.
+-   [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md): Manage the disclosure, approval, and registry of conflicts of interest that might arise from employees having competing interests or loyalties.
+-   [Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md): Manage stock preclearance requests in accordance with your company’s stock preclearance policy.
 
--   **[Install Legal Simple Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-compliance/install-legal-simple-compliance.md)**  
+-   **[Install Legal Simple Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-compliance/install-legal-simple-compliance.md)**  
 Install the Legal Simple Compliance application to offer prebuilt workflows for various legal compliance needs. It enables you to manage legal compliance requests.
 
-**Parent Topic:**[Legal Service Delivery Practice Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-practice-app-landing.md)
+**Parent Topic:**[Legal Service Delivery Practice Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-practice-app-landing.md)
 
 **Related topics**  
 

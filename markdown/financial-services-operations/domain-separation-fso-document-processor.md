@@ -2,7 +2,7 @@
 title: Domain separation and Financial Services Document Processor
 description: If any conrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.Domain separation is supported for Financial Services Document Processor. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/domain-separation-fso-document-processor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/domain-separation-fso-document-processor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ For more information on support levels, see [Application support for domain sepa
 
 ## How domain separation works in Financial Services Document Processor
 
-All [Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-overview.md) applications are built on top of Customer Service Management \(CSM\) and use many CSM tables. The key reference tables are the customer tables such as Consumer, Account, and Contact, and these tables are domain-separated.
+All [Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-overview.md) applications are built on top of Customer Service Management \(CSM\) and use many CSM tables. The key reference tables are the customer tables such as Consumer, Account, and Contact, and these tables are domain-separated.
 
 ## Tables
 
@@ -50,7 +50,7 @@ All new tables added in Document Processor are domain-separated:
 -   Ability to request deferment or exception of a document.
 -   When integrated with Document Intelligence, ability to extract and store document data attributes.
 
-**Parent Topic:**[Financial Services Operations Document Processor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-document-processor-reference.md)
+**Parent Topic:**[Financial Services Operations Document Processor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-document-processor-reference.md)
 
 **Related topics**  
 

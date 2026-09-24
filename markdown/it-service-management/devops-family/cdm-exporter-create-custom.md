@@ -2,7 +2,7 @@
 title: Create a custom exporter
 description: Copy an existing exporter script as a starting point for a custom exporter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-exporter-create-custom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-exporter-create-custom.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

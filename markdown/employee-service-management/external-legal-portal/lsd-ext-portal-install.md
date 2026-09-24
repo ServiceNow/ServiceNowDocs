@@ -2,7 +2,7 @@
 title: Install External Legal Service Center
 description: You can activate the External Legal Service Center plugin \(sn\_lg\_ext\_portal\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/external-legal-portal/lsd-ext-portal-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/external-legal-portal/lsd-ext-portal-install.html
 release: australia
 product: External Legal Portal
 classification: external-legal-portal
@@ -32,7 +32,7 @@ Role required: admin
 
 Required plugins and roles are installed with External Legal Service Center.
 
-For more information, see [External Legal Service Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/external-legal-portal/lsd-ext-portal-reference-landing.md).
+For more information, see [External Legal Service Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/external-legal-portal/lsd-ext-portal-reference-landing.md).
 
 ## Procedure
 

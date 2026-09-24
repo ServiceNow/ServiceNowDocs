@@ -2,7 +2,7 @@
 title: Run health scans for DevOps Change Velocity
 description: Run health check scans on your DevOps Change Velocity instance and get recommendations on fixing any errors that might exist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/run-health-scan-check.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/run-health-scan-check.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -42,7 +42,7 @@ You can also choose to navigate to the Checks list, and run a specific health ch
 
 4.  Select **Execute suite scan**.
 
-    For information on the scans available for the DevOps suite, see [DevOps Change Velocity suite health scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-suite-health-scan-checks.md).
+    For information on the scans available for the DevOps suite, see [DevOps Change Velocity suite health scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-change-velocity-suite-health-scan-checks.md).
 
 
 ## Result
@@ -54,5 +54,5 @@ A scan result reports the status and type of the scan. You can also see all the 
 **Related topics**  
 
 
-[DevOps Change Velocity suite health scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-suite-health-scan-checks.md)
+[DevOps Change Velocity suite health scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-change-velocity-suite-health-scan-checks.md)
 

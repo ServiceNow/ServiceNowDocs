@@ -2,7 +2,7 @@
 title: NLU Expert Feedback Loop
 description: Provide feedback on Virtual Agent chat log utterances to help the system continuously learn and to better predict user input.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -24,7 +24,7 @@ The Expert Feedback Loop takes data from your instance and provides it to you fo
 
 Expert Feedback Loop is part of the NLU Workbench - Advanced Features app available on the ServiceNow® Store.
 
-To use Expert Feedback Loop, ensure that the NLU Workbench - Advanced Features \(sn\_nlu\_workbench\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
+To use Expert Feedback Loop, ensure that the NLU Workbench - Advanced Features \(sn\_nlu\_workbench\) plugin is active on your instance. For more information, see [Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
 Because Expert Feedback Loop relies on the data from VA chat logs, make sure that the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin is also active. See [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/activate-virtual-agent.md).
 
@@ -119,7 +119,7 @@ To get more data from the VA chat logs to use in the Expert Feedback Loop, take 
 -   **glide.mlpredictor.option.nlu.activeLearning.label\_table.max\_data\_size - 10000**
 -   **glide.mlpredictor.option.nlu.activeLearning.label\_candidate\_table.max\_response\_size-300**
 
-To see how these properties work within the context of other NLU properties, see [NLU Workbench properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-instance-properties.md).
+To see how these properties work within the context of other NLU properties, see [NLU Workbench properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-instance-properties.md).
 
 ## Reviewing uncategorized utterances
 

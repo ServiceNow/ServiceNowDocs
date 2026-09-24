@@ -2,7 +2,7 @@
 title: Connect an existing document from Google Drive to policy
 description: Connect a document that exists in your Google Drive folder to a policy that you created. Use this existing document and enable redlining in the policy text instead of creating a document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/connect-google-drive-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/connect-google-drive-doc.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

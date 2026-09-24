@@ -2,7 +2,7 @@
 title: Get started with AI search in upgraded instances
 description: Enable intelligent query features that help agents to quickly find the required answers in ITSM Mobile Agent in upgraded instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/get-started-ais-upgrade-itsm-mobile-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/get-started-ais-upgrade-itsm-mobile-agent.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

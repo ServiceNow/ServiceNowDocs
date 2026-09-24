@@ -2,7 +2,7 @@
 title: Properties of the System Process components
 description: Learn about the properties of the System Process components in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/util-sysprocess-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/util-sysprocess-prop.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,5 +20,5 @@ Learn about the properties of the System Process components in RPA Desktop Desig
 |Delay After Execution|The number of seconds to pause after running.|
 |Delay Before Execution|The number of seconds to pause before running.|
 
-**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-process-utilities.md)
+**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-process-utilities.md)
 

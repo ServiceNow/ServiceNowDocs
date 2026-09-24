@@ -2,7 +2,7 @@
 title: Combine assessments for control attestations
 description: Provide response to similar assessments by grouping the assessments for a user in the Tasks page of the Compliance Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/smart-assess-combine-attest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/smart-assess-combine-attest.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

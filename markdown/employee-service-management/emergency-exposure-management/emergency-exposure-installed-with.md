@@ -2,7 +2,7 @@
 title: Components installed with Emergency Exposure Management
 description: Several types of components are installed with Emergency Exposure Management, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/emergency-exposure-installed-with.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-exposure-management/emergency-exposure-installed-with.html
 release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -151,5 +151,5 @@ Tracing system properties\[sn\_imt\_diagnosis\_m2m\_tracing\_system\_properties\
 System properties for additional configuration of tracing systems.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/install-emergency-exposure-mgt.md)
+</table>**Parent Topic:**[Install Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/install-emergency-exposure-mgt.md)
 

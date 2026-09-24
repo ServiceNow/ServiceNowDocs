@@ -2,7 +2,7 @@
 title: Grants Management Personas
 description: Understand the key personas involved in Grants Management and their responsibilities in supporting grants.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-personas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-personas.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ The combination of user roles and responsibilities determines what a user can do
 
 ## Grants Management user personas
 
-A persona role is pre-configured role in the application that is made up of multiple granular roles, and are designed to correspond to common job titles for members of an agency. Each persona role represents a different way a user interacts with an agency.. The following table contains the persona roles included with the Grants Management, and a description of each persona as it may pertain to an agency. For more information on the roles installed with Grants Management, including the roles contained in each persona, see [Grants Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md).
+A persona role is pre-configured role in the application that is made up of multiple granular roles, and are designed to correspond to common job titles for members of an agency. Each persona role represents a different way a user interacts with an agency.. The following table contains the persona roles included with the Grants Management, and a description of each persona as it may pertain to an agency. For more information on the roles installed with Grants Management, including the roles contained in each persona, see [Grants Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md).
 
 <table id="table_idr_2r2_1hc"><thead><tr><th>
 
@@ -146,5 +146,5 @@ A grant program viewer can view grant programs that they are assigned to.
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)
+</table>**Parent Topic:**[Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)
 

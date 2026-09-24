@@ -2,7 +2,7 @@
 title: Manage supplier details
 description: As a supplier manager, view all the information about a supplier, view supplier locations, manage cases, and view procurement information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supp-ws-details-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-ws-details-page.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -90,7 +90,7 @@ Supplier news
 
 Displays news and significant events related to the suppliers that you manage, so that you can take action to reduce the impact to the business. For example, news related to mergers and acquisitions, cybersecurity events, fines and sanctions, bankruptcy, negative news, and so on.By default, Supplier Lifecycle Operations retrieves supplier news and activities using the Bing News Search API.
 
- The News Integration for Supplier Lifecycle Operations plugin \(com.snc.sn\_supplier\_news\) provides you with the flexibility to dynamically fetch news and activities related to a supplier by using any API of your choice. For more information, see [Configuring a custom API to dynamically fetch supplier news](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supplier-news-api.md).
+ The News Integration for Supplier Lifecycle Operations plugin \(com.snc.sn\_supplier\_news\) provides you with the flexibility to dynamically fetch news and activities related to a supplier by using any API of your choice. For more information, see [Configuring a custom API to dynamically fetch supplier news](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-supplier-news-api.md).
 
 </td></tr><tr><td>
 
@@ -113,11 +113,11 @@ Supplier locations
 
 Displays the geographical location of the suppliers on a map.
 
- **Note:** The Map UI component for threat and alert data feeds \(com.sn\_fam\_map\) plugin enables you to view and manage this section. Verify that you have configured the FAM map properties. For more information, see [Configure properties for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-prop-supp-mgmt.md).
+ **Note:** The Map UI component for threat and alert data feeds \(com.sn\_fam\_map\) plugin enables you to view and manage this section. Verify that you have configured the FAM map properties. For more information, see [Configure properties for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-prop-supp-mgmt.md).
 
  You can do the following:
 
--   Select the add supplier location icon \(\[Omitted image "add-key-contacts.png"\] Alt text: Add supplier location icon.\) to add a supplier location. For more information, see [Add a supplier location from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-location.md).
+-   Select the add supplier location icon \(\[Omitted image "add-key-contacts.png"\] Alt text: Add supplier location icon.\) to add a supplier location. For more information, see [Add a supplier location from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-location.md).
 -   Select the toggle list view icon \(\[Omitted image "location-list-icon.png"\] Alt text: Toggle list view icon.\) to open the list view, which displays a list of all the supplier locations. Select the toggle map view icon \(\[Omitted image "location-map-icon.png"\] Alt text: Toggle map view icon.\) to return to the map view.
 -   Select the toggle full screen view icon \(\[Omitted image "toggle-full-icon.png"\] Alt text: Toggle fullscreen view icon.\) to view the map in full screen. Select the toggle full screen view icon \(\[Omitted image "toggle-exit-full-icon.png"\] Alt text: Toggle fullscreen view icon.\) to exit the full screen mode.
 
@@ -127,7 +127,7 @@ Stakeholders
 
 </td><td>
 
-Displays internal stakeholders and supplier contacts associated with a supplier. Internal stakeholders are internal users with a unique relationship type such as Procurement manager or Category manager. To view a list of all the internal stakeholders, select the **View stakeholders** option. For more information on adding and managing internal stakeholders, see [Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md).Supplier contacts are associated external users. Primary supplier contact is indicated with a Primary tag. To view a list of all the external stakeholders, select the **View supplier contacts** link. For more information on adding and managing supplier contacts, see [Manage supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md).
+Displays internal stakeholders and supplier contacts associated with a supplier. Internal stakeholders are internal users with a unique relationship type such as Procurement manager or Category manager. To view a list of all the internal stakeholders, select the **View stakeholders** option. For more information on adding and managing internal stakeholders, see [Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md).Supplier contacts are associated external users. Primary supplier contact is indicated with a Primary tag. To view a list of all the external stakeholders, select the **View supplier contacts** link. For more information on adding and managing supplier contacts, see [Manage supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md).
 
 **Note:** The **View stakeholders** and **View supplier contacts** links are displayed only if the supplier has more than five internal stakeholders or supplier contacts respectively.
 
@@ -162,7 +162,7 @@ Select **Connect to external data**: Enables you to synchronize the supplier dat
 
 **Note:** The **Sync with external data** option replaces the **Connect to external data** option after you import supplier details for the first time using the **Connect to external data** option.
 
- For more information, see [Synchronize supplier data using external third-party application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sync-supp-data-craft.md).
+ For more information, see [Synchronize supplier data using external third-party application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/sync-supp-data-craft.md).
 
 </td></tr><tr><td>
 
@@ -174,7 +174,7 @@ Select **Fetch KPI from FedEx**: Enables you to fetch KPI data from FedEx when *
 
 **Note:** The KPI data is fetched using the demo data templates.
 
- For more information, see [Fetch KPI data using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/fedex-fetch-kpi-data.md).
+ For more information, see [Fetch KPI data using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-fetch-kpi-data.md).
 
 </td></tr><tr><td>
 
@@ -183,7 +183,7 @@ Options to create supplier cases and supplier tasks
 </td><td>
 
 Select the **Create** drop-down list to view these options:-   **Create supplier case**: Enables you to create a supplier case.
--   **Create supplier task**: Enables you to create a task for a supplier case. For more information, see [Create a task for a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-task-for-supp-case.md)
+-   **Create supplier task**: Enables you to create a task for a supplier case. For more information, see [Create a task for a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-new-task-for-supp-case.md)
 
 </td></tr><tr><td>
 
@@ -751,7 +751,7 @@ The **Performance** tab is displayed only if you have installed the KPI Framewor
 
 \[Omitted image "kpi-dashboard.png"\] Alt text: Performance dashboard details page
 
-To know more about the information displayed on the **Performance** tab, see [View supplier performance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-performance-dashboard.md).
+To know more about the information displayed on the **Performance** tab, see [View supplier performance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-performance-dashboard.md).
 
 ## KPI Management
 
@@ -761,13 +761,13 @@ The **KPI Management** tab is displayed only if you have installed the KPI Frame
 
 \[Omitted image "kpi-mgmt-tab.png"\] Alt text: KPI Management tab details page
 
-To know more about the information displayed on the **KPI Management** tab, see [Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md).
+To know more about the information displayed on the **KPI Management** tab, see [Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md).
 
 ## Subsidiaries tab
 
 The **Subsidiaries** tab displays all the subsidiaries of the supplier.
 
-The **Subsidiaries** tab contains the **Add** option, which enables you to quickly add a subsidiary of the supplier. For more information, see [Add a subsidiary for a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-subsidiary.md).
+The **Subsidiaries** tab contains the **Add** option, which enables you to quickly add a subsidiary of the supplier. For more information, see [Add a subsidiary for a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-subsidiary.md).
 
 ## Stakeholders
 
@@ -781,24 +781,24 @@ The **Stakeholders** tab helps you manage internal stakeholders and supplier con
 
 \[Omitted image "stakeholders-overview.png"\] Alt text: Stakeholders details tab.
 
-For more information on the stakeholders tab, see [Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md) and [Manage supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md).
+For more information on the stakeholders tab, see [Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md) and [Manage supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md).
 
 ## Documents tab
 
 The **Documents** tab displays information about the required documents that the suppliers upload by either using this tab or from the Supplier Collaboration Portal.
 
-The **Documents** tab contains the **Link Documents** option, which enables you to quickly add an already uploaded document without creating a new one. Access to the **Link Documents** option is controlled by the user criteria you set on the **Manage access** tab when creating the supplier document configuration. For more information, see [Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md).
+The **Documents** tab contains the **Link Documents** option, which enables you to quickly add an already uploaded document without creating a new one. Access to the **Link Documents** option is controlled by the user criteria you set on the **Manage access** tab when creating the supplier document configuration. For more information, see [Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md).
 
--   **[Add a supplier location from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-location.md)**  
+-   **[Add a supplier location from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-location.md)**  
 Add a supplier location to visualize the geographical location that suppliers run their operations from.
--   **[Edit supplier details from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/edit-supplier-details.md)**  
+-   **[Edit supplier details from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/edit-supplier-details.md)**  
 Add or modify the details of an existing supplier.
--   **[Manage documents from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-ws.md)**  
+-   **[Manage documents from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-ws.md)**  
 Manage documents by uploading, updating and downloading the required documents from the Source-to-Pay Workspace.
--   **[Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md)**  
+-   **[Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md)**  
 Source-to-Pay Workspace includes a playbook that you use for updating the supplier primary data.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 

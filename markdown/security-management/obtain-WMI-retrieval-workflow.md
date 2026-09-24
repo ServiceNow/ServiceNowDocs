@@ -2,7 +2,7 @@
 title: Security Operations System Command Integration- Get Running Processes flow
 description: The Security Operations System Command Integration - Get Running Processes flow retrieves the running processes of a configuration item when added or updated to a Windows or Unix-based security incident in the Analysis state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/obtain-WMI-retrieval-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/obtain-WMI-retrieval-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,16 +26,16 @@ Existing security incidents are automatically updated when you are in the **Anal
 
 The flow process actions include:
 
--   [Get Configuration Item FQDN Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-config-FQDN-activity.md)
--   [Determine Shell Script by OS activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/determine-shell-script-by-os-activity.md)
--   [Legacy: Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)
--   [Get Running Processes via PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-running-processes-via-pwrshell-activity.md)
--   [Execute Shell Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execute-shell-script-activity.md)
--   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md)
--   [Extract Shell Script from MID Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/extract-shell-script-mid-script-activity.md)
--   [Combine Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/combine-results-activity.md) and return values in an array
--   [Create Enrichment Data records Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-enrich-data-records.md)
--   [Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-complete.md)
+-   [Get Configuration Item FQDN Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/get-config-FQDN-activity.md)
+-   [Determine Shell Script by OS activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/determine-shell-script-by-os-activity.md)
+-   [Legacy: Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/execution-tracking-begin.md)
+-   [Get Running Processes via PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/get-running-processes-via-pwrshell-activity.md)
+-   [Execute Shell Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/execute-shell-script-activity.md)
+-   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/capability-execution-tracking-failure.md)
+-   [Extract Shell Script from MID Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/extract-shell-script-mid-script-activity.md)
+-   [Combine Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/combine-results-activity.md) and return values in an array
+-   [Create Enrichment Data records Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-enrich-data-records.md)
+-   [Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/capability-execution-tracking-complete.md)
 
 \[Omitted image "get-running-processes-flows.png"\] Alt text: Security Operations System Command Integration- Get Running Processes flow
 
@@ -49,19 +49,19 @@ The flow process actions include:
 
 4.  Click **Update**.
 
-    Security Incident Response Orchestration provides running process information in the **Related Link** &gt; **Security Incident Enrichments**tab. For more information, see [Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrichment-data-mapping.md).
+    Security Incident Response Orchestration provides running process information in the **Related Link** &gt; **Security Incident Enrichments**tab. For more information, see [Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/enrichment-data-mapping.md).
 
-    Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
+    Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md).
 
 
--   **[Combine results activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/combine-results-activity.md)**  
+-   **[Combine results activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/combine-results-activity.md)**  
 The Combine results workflow activity merges the results from third-party integrations to use in the workflow.
--   **[Execute Shell Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execute-shell-script-activity.md)**  
+-   **[Execute Shell Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/execute-shell-script-activity.md)**  
 The Execute Shell Script workflow activity runs a MID server shell script within the workflow.
--   **[Extract Shell Script from MID Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/extract-shell-script-mid-script-activity.md)**  
+-   **[Extract Shell Script from MID Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/extract-shell-script-mid-script-activity.md)**  
 The Extract Shell Script from MID script workflow activity pulls a MID server shell script to use with in the workflow.
--   **[Get Running Processes via PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-running-processes-via-pwrshell-activity.md)**  
+-   **[Get Running Processes via PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/get-running-processes-via-pwrshell-activity.md)**  
 The Get Sensor ID workflow activity gathers running processes using PowerShell to use in the workflow.
 
-**Parent Topic:**[Security Operations Integration- Get Running Processes capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-running-processes-capability.md)
+**Parent Topic:**[Security Operations Integration- Get Running Processes capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/get-running-processes-capability.md)
 

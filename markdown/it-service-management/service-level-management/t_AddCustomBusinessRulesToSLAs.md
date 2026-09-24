@@ -2,7 +2,7 @@
 title: Add custom business rules to Service Level Agreement \(SLA\)
 description: You can add custom business rules to your SLAs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_AddCustomBusinessRulesToSLAs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/t\_AddCustomBusinessRulesToSLAs.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Select one of the following methods to add custom business rules.
 
-<table id="choicetable_rhy_4yf_4v"><tbody><tr><td id="d245875e63">
+<table id="choicetable_rhy_4yf_4v"><tbody><tr><td id="d245854e63">
 
 **Use setWorkflow\(false\)**
 
@@ -45,7 +45,7 @@ Prior to updating your task, add a call to `setWorkflow(false)` on the GlideReco
           ();
 ```
 
-</td></tr><tr><td id="d245875e83">
+</td></tr><tr><td id="d245854e83">
 
 **Create a sys\_trigger \(Schedule job\) to update the task**
 
@@ -71,5 +71,5 @@ In your custom business rule, use the **Script** field to generate a scheduled j
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/using-service-level-management.md)
+**Parent Topic:**[Using Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/using-service-level-management.md)
 

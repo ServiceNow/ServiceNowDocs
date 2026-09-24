@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for IT Operations Management \(ITOM\)
 description: Enable Event Management users to view alert analyses that ServiceNow Otto for ITOM creates using generative AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/now-assist-itom-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/now-assist-itom-configure.html
 release: australia
 product: Event Management
 classification: event-management
@@ -19,8 +19,8 @@ Enable Event Management users to view alert analyses that ServiceNow Otto for IT
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
--   **[Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md)**  
+-   **[Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md)**  
 Configure an alert management rule to operate the manage alerts autonomously agentic workflow manually or automatically.
 
-**Parent Topic:**[Express List in the Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/express-list.md)
+**Parent Topic:**[Express List in the Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/express-list.md)
 

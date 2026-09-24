@@ -2,7 +2,7 @@
 title: Test generation
 description: Simplify your automated test authoring by leveraging the power of ServiceNow's Test generation skill available with ServiceNow Otto for Creator. You will be redirected to Test Agent experience where you can simply describe your test requirements in the prompt, and the test is generated. You can then review the generated test before accepting it or make any edits with an updated prompt.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/test-generation-intro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-generation/test-generation-intro.html
 release: australia
 product: Test Generation
 classification: test-generation
@@ -18,11 +18,11 @@ Simplify your automated test authoring by leveraging the power of ServiceNow's T
 
 Starting with the Australia release, Test generation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-You will be redirected to Test Agent for future test generation experience. See [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-landing-page.md) for more information.
+You will be redirected to Test Agent for future test generation experience. See [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-landing-page.md) for more information.
 
 **Note:** [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-intro.md) is not affected by this deprecation. Only the Test Generation application is planned for future deprecation.
 
-**Note:** Test generation leverages the foundation provided by the Automated Test Framework \(ATF\). Refer [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md) documentation for further details.
+**Note:** Test generation leverages the foundation provided by the Automated Test Framework \(ATF\). Refer [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-landing-page.md) documentation for further details.
 
 The Test generation skill is available only for Next Experience UI users.
 
@@ -30,15 +30,15 @@ The Test generation skill is available only for Next Experience UI users.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "t2t-icon-explore.png"\] Alt text:Learn about Upgrade Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-explore.md)
+[Explore\[Omitted image "t2t-icon-explore.png"\] Alt text:Learn about Upgrade Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-explore.md)
 
 </td><td>
 
-[Use\[Omitted image "t2t-review-icon.png"\] Alt text: Use the tools, relevant information, and guided setup for your upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-use.md)
+[Use\[Omitted image "t2t-review-icon.png"\] Alt text: Use the tools, relevant information, and guided setup for your upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-use.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "t2t-reference-icon.png"\] Alt text: Learn miscellaneous information about Upgrade Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-reference.md)
+[Reference\[Omitted image "t2t-reference-icon.png"\] Alt text: Learn miscellaneous information about Upgrade Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-reference.md)
 
 </td><td>
 

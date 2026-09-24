@@ -2,7 +2,7 @@
 title: UI policy form in Catalog Builder
 description: Refer to the fields and their descriptions on the UI Policy form in Catalog Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/ui-policy-form-in-catalog-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/ui-policy-form-in-catalog-builder.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -234,10 +234,10 @@ Applies while viewing the requested item record after the request is submitted
 Select the check box so that the UI policy applies while viewing the requested item record after the request is submitted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
+</table>**Parent Topic:**[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
 
 **Related topics**  
 
 
-[Create UI policies in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-ui-policies-in-catalog-builder.md)
+[Create UI policies in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-ui-policies-in-catalog-builder.md)
 

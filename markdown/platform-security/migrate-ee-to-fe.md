@@ -2,7 +2,7 @@
 title: Migrate from Edge Encryption to Field Encryption
 description: Migrate from Edge Encryption to Field Encryption to take advantage of the latest security features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/migrate-ee-to-fe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/migrate-ee-to-fe.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,8 +28,8 @@ This topic covers, which comprise the following steps:
 -   Field Encryption doesn’t currently support tokenizing data in the same way that Edge Encryption does. Data that is tokenized through Edge Encryption must be included in an encrypted field configuration for Field Encryption.
 -   Field Encryption doesn’t currently support encrypting Service Catalog item variables.
 
--   **[Configure Field Encryption for your Edge Encrypted fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/migrate-ee-to-fe-1.md)**  
+-   **[Configure Field Encryption for your Edge Encrypted fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/migrate-ee-to-fe-1.md)**  
 Before migrating your existing edge encrypted fields to Field Encryption, you must configure field encryption for these fields.
 
-**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-column-level-encryption.md)
 

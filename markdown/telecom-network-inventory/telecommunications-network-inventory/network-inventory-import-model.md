@@ -2,12 +2,12 @@
 title: Import models and templates
 description: Use the import feature to bring equipment models and templates into the system in bulk. You can import using Excel or JSON, and migrate components across instances while preserving system IDs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/network-inventory-import-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/network-inventory-import-model.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -37,11 +37,11 @@ You can import the following types of models and templates in different ways.
     -   Card Model
     -   Facility model
     -   Interface Model
-    To learn more, see [Import models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-inventory.md)
+    To learn more, see [Import models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-inventory.md)
 
 -   **Import templates via Excel**
 
-    Imports inventory templates in bulk using a structured Excel file. To learn more, see [Import template Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-template-excel.md)
+    Imports inventory templates in bulk using a structured Excel file. To learn more, see [Import template Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-template-excel.md)
 
 -   **Import models and templates via JSON**
 
@@ -55,9 +55,9 @@ If you're looking to export models and templates from one ServiceNow instance an
 **Related topics**  
 
 
-[Import a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models.md)
+[Import a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models.md)
 
-[Import templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-templates.md)
+[Import templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-templates.md)
 
-[Import models and templates in JSON format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-templates-json.md)
+[Import models and templates in JSON format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-templates-json.md)
 

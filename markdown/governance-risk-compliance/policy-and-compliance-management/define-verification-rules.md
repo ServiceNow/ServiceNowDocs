@@ -2,7 +2,7 @@
 title: Define policy exception verification rules
 description: The verification rule is used to verify the accuracy and completeness of a policy exception request prior to sending it out for approvals. You can define multiple levels of approvers for an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/define-verification-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/define-verification-rules.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -27,7 +27,7 @@ Role required:
 
 Defining verification rules is an optional step. If you do not define verification rules or define them and do not activate them, approvals from the requester's team will not be required.
 
-You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define policy exception and extension rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
+You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define policy exception and extension rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
 
 ## Procedure
 
@@ -54,5 +54,5 @@ You can also use the GRC Approval Configurator to configure policy exception rul
     When the policy exception record transitions to the Pending Verification state, the designated approvers are notified that their approval is required. If any fields in the policy exception request were not filled in by the requester \(for example, the Policy or Control Objective\), those fields become mandatory for the approvers. When the approvers have reviewed, completed, and approved the request, it transitions to the Analyze state and is assigned to the compliance manager for further analysis and approval.
 
 
-**Parent Topic:**[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
+**Parent Topic:**[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
 

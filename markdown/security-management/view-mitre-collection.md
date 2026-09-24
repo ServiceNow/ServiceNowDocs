@@ -2,7 +2,7 @@
 title: Manage matrices
 description: Manage the matrices that have been imported from the MITRE TAXII collections. Matrices are a collection of tactics and techniques. You can view the matrices to review if your collections are available in the MITRE-ATT&amp;CK repository.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/view-mitre-collection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/view-mitre-collection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Manage the matrices that have been imported from the MITRE TAXII collections. Ma
 
 ## Before you begin
 
-**Note:** Review and verify that only the matrix you intend to use in your organization is set to active and disable the other matrices. For example, if you intend to use the Enterprise ATT&amp;CK matrix, then the Enterprise ATT&amp;CK matrix is activated at the [TAXII collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/setup-mitre-profile.md) level and in the Matrices level. Disable the other Mobile ATT&amp;CK and ICS ATT&amp;CK matrices at the TAXII collection and at the Matrices level.
+**Note:** Review and verify that only the matrix you intend to use in your organization is set to active and disable the other matrices. For example, if you intend to use the Enterprise ATT&amp;CK matrix, then the Enterprise ATT&amp;CK matrix is activated at the [TAXII collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/setup-mitre-profile.md) level and in the Matrices level. Disable the other Mobile ATT&amp;CK and ICS ATT&amp;CK matrices at the TAXII collection and at the Matrices level.
 
 Role required:
 
@@ -45,9 +45,9 @@ Role required:
 
 ## What to do next
 
-You can [extend the information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-and-extend-information.md) in some of these related list objects based on the technique that you selected. For example, you can add new information for Group, Mitigation, External References, Malware, and Tools.
+You can [extend the information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-and-extend-information.md) in some of these related list objects based on the technique that you selected. For example, you can add new information for Group, Mitigation, External References, Malware, and Tools.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

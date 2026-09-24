@@ -2,7 +2,7 @@
 title: Edit a custom parameter
 description: Modify an existing custom parameter by editing it and resolving naming conflicts if needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/edit-a-custom-parameter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/edit-a-custom-parameter.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

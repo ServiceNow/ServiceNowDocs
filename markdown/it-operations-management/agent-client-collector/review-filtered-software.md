@@ -2,12 +2,12 @@
 title: Review filtered software
 description: Review the entries in the Software Install Filter Staging table \(samp\_sw\_install\_filter\_staging\) to confirm your rules are filtering only the software you expect.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/review-filtered-software.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/review-filtered-software.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [filter staging, audit log, review, exclusion, SAM]
 breadcrumb: [Software filter, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -43,5 +43,5 @@ When the same software is reported on a later scan, its staging table entry is a
     If you find unexpected exclusions, check your active rules and adjust them as needed.
 
 
-**Parent Topic:**[Software filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/software-filter.md)
+**Parent Topic:**[Software filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/software-filter.md)
 

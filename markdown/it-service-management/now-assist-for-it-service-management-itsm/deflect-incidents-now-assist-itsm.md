@@ -2,7 +2,7 @@
 title: Use self-service to deflect incidents in a ServiceNow portal using ServiceNow Otto
 description: Designed to reduce the number of incidents to be resolved by deflecting issues with self-service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/deflect-incidents-now-assist-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/deflect-incidents-now-assist-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -33,15 +33,15 @@ Role required: none
 
 4.  Resolve the issue or track it with an incident.
 
-<table id="choicetable_awv_vsq_4dc"><thead><tr><th align="left" id="d282879e111">
+<table id="choicetable_awv_vsq_4dc"><thead><tr><th align="left" id="d282858e111">
 
 To
 
-</th><th align="left" id="d282879e114">
+</th><th align="left" id="d282858e114">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d282879e120">
+</th></tr></thead><tbody><tr><td id="d282858e120">
 
 **Track the issue with an incident**
 
@@ -59,7 +59,7 @@ You can also select the Add attachments icon and add files related to the issue.
 
 The incident is created and automatically assigned to you. If you aren’t ready to create the incident, select **Save as Draft** to submit it later.
 
-</td></tr><tr><td id="d282879e162">
+</td></tr><tr><td id="d282858e162">
 
 **Resolve the issue**
 

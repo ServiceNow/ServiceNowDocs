@@ -2,12 +2,12 @@
 title: AI sales activity association
 description: AI sales activity association automatically connects incoming and outgoing emails to the correct CRM records using semantic search and agentic AI. Learn how the application works, its benefits, and common use cases for automating email association in your Sales CRM instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/explore-ai-sales-activity-association.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-ai-sales-activity-association.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-24"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Activity Management, Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
@@ -34,7 +34,7 @@ The following workflow illustration shows how the system processes and associate
     -   Keywords and context from the message
     -   Mentioned product details or business context
 8.  If the system identifies a matching entity with sufficient confidence, it auto-associates the email to that CRM entity and the sales representative is notified. Otherwise, the email is ignored.
-9.  If an email was ignored but the sales representative expected it to have been associated with a record, they can use the ServiceNow CRM for Outlook add-in to manually associate the email. For more information, see [CRM Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-crm-outlook-add-in.md).
+9.  If an email was ignored but the sales representative expected it to have been associated with a record, they can use the ServiceNow CRM for Outlook add-in to manually associate the email. For more information, see [CRM Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-crm-outlook-add-in.md).
 
 ## AI sales activity association benefits
 
@@ -74,6 +74,6 @@ The following workflow illustration shows how the system processes and associate
 
 To learn more about configuring AI sales activity association, see:
 
--   [Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
--   [Install AI sales activity association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-ai-sales-activity-association.md)
+-   [Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-activity-management.md)
+-   [Install AI sales activity association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-ai-sales-activity-association.md)
 

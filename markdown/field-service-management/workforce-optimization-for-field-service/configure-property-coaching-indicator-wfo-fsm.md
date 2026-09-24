@@ -2,7 +2,7 @@
 title: Configure an indicator to display in the Coaching Overview tab in Workforce Optimization for Field Service
 description: Display any Performance Analytics indicator that has the Assigned to and Assignment group breakdowns to display in the Coaching Overview tab in the Coaching application. The indicators can display the average quality of work in the past 30 days or more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/configure-property-coaching-indicator-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/configure-property-coaching-indicator-wfo-fsm.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

@@ -2,7 +2,7 @@
 title: Assessments in Service Portal and the Now Mobile app
 description: If you've installed Service Portal, you can use the My Assessments and Surveys widget in Service Portal. Users can view and take assessments in Service Portal. Service Portal also supports assessments for users on mobile devices that have the Now Mobile app installed. The My Assessments and Surveys widget is available by default on the Service Portal home page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/assessment-service-portal-and-now-mobile-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/assessment-service-portal-and-now-mobile-app.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -78,7 +78,7 @@ When users open an assessment either in Service Portal or the Now Mobile app, th
     **Note:** For mobile users, the pagination is always by question for assessments.
 
 
-**Parent Topic:**[Take an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_TakeAnAssessment.md)
+**Parent Topic:**[Take an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_TakeAnAssessment.md)
 
 **Related topics**  
 

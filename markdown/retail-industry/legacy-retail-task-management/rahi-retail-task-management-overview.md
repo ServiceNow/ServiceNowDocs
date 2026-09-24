@@ -2,7 +2,7 @@
 title: Retail Task Management
 description: Use the ServiceNow Retail Task Management application to optimize the planning, organizing, and assigning of tasks to staff in your retail environment. The broader ServiceNow platform offers many tools to streamline and optimize task management. The Retail Task Management application enables specific retail use cases with a case generator that can create cases for multiple retail locations at once.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-retail-task-management-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/legacy-retail-task-management/rahi-retail-task-management-overview.html
 release: australia
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
@@ -20,11 +20,11 @@ Use the ServiceNow® Retail Task Management application to optimize the planning
 
 <table id="table_ndv_brb_qcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Retail Task Management and how it's used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-task-management-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Retail Task Management and how it's used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/legacy-retail-task-management/rahi-retail-task-management-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install Retail Task Management and configure your environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-task-management-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install Retail Task Management and configure your environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/legacy-retail-task-management/rahi-retail-task-management-configuring.md)
 
 </td><td>
 
@@ -32,11 +32,11 @@ Use the ServiceNow® Retail Task Management application to optimize the planning
 
 </td></tr><tr><td>
 
-[Multi-store case\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create a multi-store case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-create-multi-store.md)
+[Multi-store case\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create a multi-store case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/legacy-retail-task-management/rahi-retail-create-multi-store.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Retail Task Management components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-task-management-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Retail Task Management components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/legacy-retail-task-management/rahi-retail-task-management-reference.md)
 
 </td><td>
 

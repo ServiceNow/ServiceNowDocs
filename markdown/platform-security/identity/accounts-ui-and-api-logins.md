@@ -2,7 +2,7 @@
 title: Accounts performing both UI and API login
 description: Display the findings about the accounts that are performing UI and API login under the Security findings in the Machine Identity Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/accounts-ui-and-api-logins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/accounts-ui-and-api-logins.html
 release: australia
 product: Identity
 classification: identity

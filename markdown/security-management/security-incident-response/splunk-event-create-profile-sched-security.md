@@ -2,7 +2,7 @@
 title: Create a profile
 description: You can set up a profile so that notable events are automatically ingested.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-create-profile-sched-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-create-profile-sched-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

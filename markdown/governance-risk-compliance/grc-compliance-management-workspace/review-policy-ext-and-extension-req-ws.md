@@ -2,7 +2,7 @@
 title: Review the policy exception and extension request using the Compliance Workspace
 description: After reviewing a policy exception request using the Compliance Workspace, a compliance manager can accept or reject the request. However, if the compliance manager doesn't have enough information to decide, they can request a risk assessment by the risk manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/review-policy-ext-and-extension-req-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/review-policy-ext-and-extension-req-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

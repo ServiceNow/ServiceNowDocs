@@ -2,7 +2,7 @@
 title: Example escalation reports
 description: Because escalation reports depend on the escalation type, report content can vary greatly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/example-escalation-reports-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/example-escalation-reports-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -31,5 +31,5 @@ Because escalation reports depend on the escalation type, report content can var
     \[Omitted image "NotifReportRotateThroughRosters.png"\] Alt text: Rotate through rosters escalation report
 
 
-**Parent Topic:**[Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)
+**Parent Topic:**[Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)
 

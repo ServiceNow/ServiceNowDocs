@@ -2,11 +2,11 @@
 title: Combined ServiceNow Otto for Operational Sustainability Management Management release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for Operational Sustainability Management Management from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforoperationalsustainabilitymanagementmanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoforoperationalsustainabilitymanagementmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,12 @@ Zurich
 
 </td><td>
 
--   **[Extract data from utility invoices](https://www.servicenow.com/docs/access?context=extract-data-from-utility-invoices&family=zurich&ft:locale=en-US)**
+-   **[Use agentic workflows in ESG](https://www.servicenow.com/docs/access?context=use-agentic-ai-in-now-assist-for-esg-management&family=zurich&ft:locale=en-US)**
+
+The carbon calculations agentic workflow acts as a copilot for sustainability teams, streamlining carbon accounting workflows. It intelligently selects metric definitions and emission factors from the library, generates calculated metric definitions, and enables user review and adjustments before final use.
+
+
+ -   **[Extract data from utility invoices](https://www.servicenow.com/docs/access?context=extract-data-from-utility-invoices&family=zurich&ft:locale=en-US)**
 
 ServiceNow Otto for Operational Sustainability with document intelligence for utility bills, designed to streamline your ESG metric data collection and reporting. Here are the key highlights:
 
@@ -107,6 +112,17 @@ Zurich
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+ -   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+
+The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
+
+    -   New customers: When you install an AI product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
+-   **[Role configuration required for agentic workflows and AI agents](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
+
+Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
 
 </td></tr><tr><td>
@@ -198,6 +214,8 @@ Zurich
 
 Install ServiceNow Otto for Operational Sustainability by requesting it from the ServiceNow Store. 
 
+
+**Important:** ServiceNow Otto for Operational Sustainability is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -372,5 +390,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

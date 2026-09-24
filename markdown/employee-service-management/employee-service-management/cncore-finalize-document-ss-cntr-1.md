@@ -32,15 +32,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 6.  Access and edit the contract document.
 
-<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d271330e91">
+<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d271334e91">
 
 Choice
 
-</th><th align="left" id="d271330e94">
+</th><th align="left" id="d271334e94">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d271330e100">
+</th></tr></thead><tbody><tr><td id="d271334e100">
 
 **Download contract document from the internal storage**
 
@@ -53,7 +53,7 @@ Steps
 5.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d271330e139">
+</td></tr><tr><td id="d271334e139">
 
 **Download contract document from the external storage**
 
@@ -67,7 +67,7 @@ The document opens from the external storage.
 3.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d271330e162">
+</td></tr><tr><td id="d271334e162">
 
 **Edit the contract document directly from the external storage**
 
@@ -96,7 +96,7 @@ The document is automatically saved in the external storage.
         -   **External Storage**- In the Document field, select the document. This option is displayed only if external storage is configured
 8.  Get approval of the updated document from stakeholders.
 
-    For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md).
+    For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md).
 
 9.  Return the contract document to the requester.
 
@@ -109,5 +109,5 @@ The document is automatically saved in the external storage.
 
 The document is sent back to the user and the Contract status updates to Document ready to indicate that the contract document has addressed the change request.
 
-**Parent Topic:**[Reviewing and finalizing a self-serve contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-finalize-contract.md)
+**Parent Topic:**[Reviewing and finalizing a self-serve contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-review-finalize-contract.md)
 

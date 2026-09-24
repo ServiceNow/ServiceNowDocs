@@ -2,7 +2,7 @@
 title: Restrict access to an application
 description: Restrict management of an application and access to that application to prevent unauthorized users from assigning administrative rights to the application or accessing sensitive information in the application records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/enable-application-administration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/enable-application-administration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -86,7 +86,7 @@ Manage Developers
 
 Modal that enables the application-specific admin to manage these tasks: -   Designate developers for the application.
 -   Make themselves a delegated developer. After the application-specific admin becomes a delegated developer, the application-specific admin can perform a subset of administration tasks without having the system-level admin role.
- Learn more: [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md)
+ Learn more: [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md)
 
 </td></tr><tr><td>
 

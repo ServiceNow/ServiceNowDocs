@@ -2,7 +2,7 @@
 title: Notification agent and agentic workflows in Notifications
 description: Use the Notification agent and agentic workflows to automate inbound emails processing and to create and modify email notifications, templates, and layouts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/now-assist-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/now-assist-notifications.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-21"
@@ -18,11 +18,11 @@ Use the Notification agent and agentic workflows to automate inbound emails proc
 
 <table id="table_dlz_kd4_ghc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore AI agents and agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-now-assist-notifications.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore AI agents and agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/exploring-now-assist-notifications.md)
 
 </td><td>
 
-[Use agentic workflow\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-agentic-ai-notifications.md)
+[Use agentic workflow\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/use-agentic-ai-notifications.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

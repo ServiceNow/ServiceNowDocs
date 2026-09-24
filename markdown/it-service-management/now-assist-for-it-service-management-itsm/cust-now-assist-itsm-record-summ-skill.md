@@ -2,7 +2,7 @@
 title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident Summarization skill
 description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the AI Skill Kit to customize your prompts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -51,7 +51,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the AI Ski
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -173,15 +173,15 @@ When you use [translate with Dynamic Translation](https://raw.githubusercontent.
 
     **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the AI Skill Kit .
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d462928e568">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d462861e568">
 
 To
 
-</th><th align="left" id="d462928e571">
+</th><th align="left" id="d462861e571">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d462928e577">
+</th></tr></thead><tbody><tr><td id="d462861e577">
 
 **Evaluate a prompt for each input template**
 
@@ -195,7 +195,7 @@ Do this
 2.  Select **Run Test**.\[Omitted image "now-assist-itsm-evaluate-prompt.png"\] Alt text: Run test for the selected incident record
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d462928e616">
+</td></tr><tr><td id="d462861e616">
 
 **Edit the prompt in the AI Skill Kit and test the prompt**
 

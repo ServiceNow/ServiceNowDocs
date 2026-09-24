@@ -2,7 +2,7 @@
 title: Assign roles for API Insights users
 description: Assign roles to control access to features, capabilities, and data in the API Insights application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-assign-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/api-insights/api-insights-assign-roles.html
 release: australia
 product: API Insights
 classification: api-insights
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-Users with the sn\_api\_insights\_ws.api\_mgmt\_architect\_admin, sn\_api\_insights\_ws.api\_mgmt\_architect, or sn\_cmdb\_admin roles can use the API Insights application. See [Exploring API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-explore.md).
+Users with the sn\_api\_insights\_ws.api\_mgmt\_architect\_admin, sn\_api\_insights\_ws.api\_mgmt\_architect, or sn\_cmdb\_admin roles can use the API Insights application. See [Exploring API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-explore.md).
 
 ## Procedure
 

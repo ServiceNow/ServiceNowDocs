@@ -2,11 +2,11 @@
 title: Combined Collaborative Work Management release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Collaborative Work Management from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-collaborativeworkmanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-collaborativeworkmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 10
+last_updated: "2026-09-24"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -88,13 +88,100 @@ Keep record information in your documentation current and reduce manual effort w
 You can add references from any ServiceNow table that you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
 
 
+ -   **[Agile sprint planning in CWM](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
+
+Plan, track, and manage work for your teams by using Agile sprint planning in the CWM workspace. You can use CWM to manage tasks in multiple methodologies including ad hoc, waterfall, and Agile practices.
+
+    -   View such details as the backlog, current sprint, and future sprints at a glance from the Sprint planning view of the CWM Board.
+    -   Add Agile item types, such as stories, with other CWM tasks to the backlog.
+    -   Create sprints with a custom duration and sprint capacity.
+-   **[Connect work](https://www.servicenow.com/docs/access?context=unified-boards-for-connected-work-in-cwm&family=zurich&ft:locale=en-US)**
+
+Streamline team collaboration and planning by enabling your teams to view and plan all their work in one place by connecting work across multiple ServiceNow applications. By defining the type of work you want to connect to CWM, you can bring in records from other applications into CWM Boards.
+
+After the records are added to a CWM Board, your teams can update their status and other details from within CWM. They can also perform sprint planning for all the work on the Board. This unified experience improves efficiency because your teams don't have to switch between multiple workspaces.
+
+-   **[Navigation panel enhancements](https://www.servicenow.com/docs/access?context=cwm-spaces&family=zurich&ft:locale=en-US)**
+
+Move Spaces, Boards, and Docs around in the navigation panel of the workspace by using the drag and drop functionality.
+
+-   **[Enhancements to Kanban view](https://www.servicenow.com/docs/access?context=cwm-board-views&family=zurich&ft:locale=en-US)**
+    -   Quick filters: Filter the tasks based on the work type that you would like to see in the Kanban view of a CWM Board. You can select single or multiple work item types based on the swim lanes selected. Any filters that you apply to the Kanban view are specific to this view and aren't applied to List or Gantt views.
+    -   Horizontal lanes: Group the cards on the Kanban view by using a vertical and horizontal lane for improved visibility into the type and progress of work. You can save horizontal lane preference into Board views and templates.
+-   **[Copying and pasting content within Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=zurich&ft:locale=en-US)**
+
+Copy and paste the content such as text, images, lists, and tables from one Doc page to another. The following content is supported for the copy and paste action:
+
+    -   Text blocks with existing formatting
+    -   Bulleted and numbered lists
+    -   Tables
+    -   Images
+    -   Single and multiple paragraph blocks into a table cell
+    -   Lists into a table cell
+    -   Images into a table cell
+-   **[New keyboard shortcuts](https://www.servicenow.com/docs/access?context=cwm-spaces&family=zurich&ft:locale=en-US)**
+    -   Create Space:
+        -   macOS: Option + S
+        -   Windows OS: Alt + S
+    -   Create Board:
+        -   macOS: Option + B
+        -   Windows OS: Alt + B
+    -   Create Doc:
+        -   macOS: Option + D
+        -   Windows OS: Alt + D
+-   **[Keyboard shortcut enhancements within CWM Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=zurich&ft:locale=en-US)**
+    -   Insert a URL in the Doc:
+        -   macOS: Cmd + K
+        -   Windows OS: Ctrl + K
+    -   Insert a new row in a table after the last row: Enter
+    -   Move to adjacent cells within a table: Arrow keys
+    -   Create a new list item within an existing list in a table or paragraph: Enter
+    -   Create a new line in the same bullet point: Shift + Enter
+    -   Indent a list item: Tab
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Formula columns in CWM](https://www.servicenow.com/docs/access?context=add-formula-column-cwm-boards&family=australia&ft:locale=en-US)**
+-   **[Project Workspace integration with CWM](https://www.servicenow.com/docs/access?context=connect-project-workspace-cwm&family=australia&ft:locale=en-US)**
+
+Deliver your part of a project without leaving CWM or duplicating work progress in Project Workspace. Track project tasks assigned to you in **My Work**, break them down into CWM tasks and stories directly from a Board, and see the project and project task that you're contributing to.
+
+Save time on status updates because your work rolls up to the project automatically. Any child tasks that you create are automatically linked to the parent project task and its project, you can reassign or remove that connection as work evolves, and project managers see the same updates in Project Workspace.
+
+
+ -   **[Import tasks into CWM Boards using Now Assist](https://www.servicenow.com/docs/access?context=importing-tasks-cwm-boards&family=australia&ft:locale=en-US)**
+
+Reduce manual effort when onboarding existing work to CWM by importing tasks or stories from spreadsheets, documents, or images. Upload a file and Now Assist analyzes the data and proposes how each source column maps to a column on your board.
+
+Review and adjust the AI-proposed mapping, add source columns as new custom columns if needed, and preview the full task list before confirming. The import runs in the background and a workspace notification reports the outcome when it completes.
+
+-   **[Inline comments and email notifications in Docs](https://www.servicenow.com/docs/access?context=add-comments-to-docs-in-cwm&family=australia&ft:locale=en-US)**
+
+Streamline collaboration by enabling inline comments in Docs. Select text to add a comment, mention colleagues using @, and include hyperlinks by pasting URLs. You can comment on plain text, hyperlinks, dynamic data, and text inside table cells, and track discussions through threads, all without leaving the page or switching applications.
+
+Email notifications with comment details, document name, workspace name, and document path are sent when a reply is added to your comment or when you're @-mentioned. Each notification includes a button that opens the document and navigates directly to the comment. Edit or delete your comments and choose to show or hide comment highlights. Users with read-only access can add comments and participate in comment threads.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **[Team member roles for project work](https://www.servicenow.com/docs/access?context=cwm-team-member-roles&family=australia&ft:locale=en-US)**
+
+View and update project and demand tasks directly in CWM using team member roles, installed alongside Collaborative Work Management.
+
+The team member read role lets users view project and demand tasks and leave comments. The team member read-write role also lets users edit those tasks. Team members can view and manage the work assigned to them and their team through **My Work** and **Connected Work** in CWM.
+
+
+ -   **[Formula columns in CWM](https://www.servicenow.com/docs/access?context=add-formula-column-cwm-boards&family=australia&ft:locale=en-US)**
 
 Gain deeper insights into your work by adding formula columns to your List view in CWM Boards. Create calculations that automatically compute values across your tasks, such as summing hours, calculating date differences, or deriving metrics from existing fields.
 
@@ -160,13 +247,58 @@ Additionally, the Item type filter is refined to show all CWM tasks \(including 
         -   Copy content from n number of cells and paste it to another set of n number of cells.
         -   Copy content from multiple cells and paste it as a new table in an empty block on the page.
 
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Enhancements to CWM Board templates](https://www.servicenow.com/docs/access?context=templates-in-cwm-for-spaces-boards-and-docs&family=zurich&ft:locale=en-US)**
+    -   While saving a Board as a template, choose between saving the current view or all shared views. You can see the number of Board views and custom task types that are included in this template.
+
+These details are displayed in the Template Center, where you can select a template that best meets your team's needs.
+
+    -   Apply template: While applying a Board template, you can see the number of Board views and custom task types that you get if you apply this template. The Board views drop-down list lets you switch between views and provides information on the type of views that are enabled in this template.
+
+Only those custom columns that are part of these views are brought over when you apply this template.
+
+-   **[Collaborate with Spaces](https://www.servicenow.com/docs/access?context=cwm-spaces&family=zurich&ft:locale=en-US)**
+
+When a user is added to the **Assigned to** field of a CWM task but doesn't have access to the Space yet, the email notification requesting access is sent only to the Space owners. This way, there's less email clutter for all the Space users because notifications are sent to only those users who need to know this information.
+
+-   **[New columns for CWM tasks](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
+
+Every task within a CWM Board has new columns called Sprint and Story points. You can use these columns if you choose to plan any task into Sprints. These columns are available on every type of work item, including the items that are brought into the Board through Connected work.
+
+-   **[Changes within CWM Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=zurich&ft:locale=en-US)**
+    -   Open the keyboard shortcut panel:
+        -   macOS: Cmd + Option + K
+        -   Windows OS: Ctrl + Alt + K
+    -   Images can be resized after inserting them within a table cell.
+    -   The page name can be updated by editing the name and clicking anywhere on the Doc.
+    -   Moving content blocks to within a numbered list or deleting a list item from a list automatically adjusts the list numbering.
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Formatting toolbar changes in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=australia&ft:locale=en-US)**
+-   **[ServiceNow Otto skills for CWM](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-explore&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **[Task dependencies and relationships](https://www.servicenow.com/docs/access?context=managing-task-dependencies-relationships-cwm&family=australia&ft:locale=en-US)**
+
+You can now search by task number, in addition to name, when adding a relationship to a work item.
+
+
+ -   **[Inline comments changes in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=australia&ft:locale=en-US)**
+    -   The Add comments icon appears in the inline toolbar.
+    -   Commented text displays a yellow highlight and underline. Selecting commented text darkens the highlight and opens a comment popover showing the full thread, including reply count, user avatars, names, and relative timestamps.
+    -   The comment popover provides options to edit or delete comments. Edited comments display an **Edited** indicator.
+    -   Users can turn highlights on or off using the **Show comment highlights** or **Hide comment highlights** options in the More actions menu of the document.
+
+ -   **[Formatting toolbar changes in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=australia&ft:locale=en-US)**
 
 Quickly confirm which text formatting is active for your text selection. A green checkmark now appears next to the currently applied format in the formatting toolbar, giving you a clear visual indicator of the active formatting.
 
@@ -262,6 +394,8 @@ Zurich
 Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -272,6 +406,8 @@ Australia
 
 Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -443,5 +579,5 @@ Australia
  See [Collaborative Work Management](https://www.servicenow.com/docs/access?context=cwm-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

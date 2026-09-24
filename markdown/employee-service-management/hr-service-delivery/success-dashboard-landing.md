@@ -2,7 +2,7 @@
 title: HR Success Dashboard indicators
 description: HR Success Dashboard indicators provides service and performance insights to the HR leadership team and process owners. You can measure the performance of the HR implementation using the different KPIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/success-dashboard-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/success-dashboard-landing.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,19 +32,19 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about HR Success Dashboard indicators concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/explore-success-dashboard.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about HR Success Dashboard indicators concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/explore-success-dashboard.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure environment, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-success-dashboard.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure environment, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-success-dashboard.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn how you can use HR Success Dashboard indicators.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-success-dashboard.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn how you can use HR Success Dashboard indicators.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-success-dashboard.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about ITSM Success Dashboard the HR Success Dashboard indicators components such as roles and dependent applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/success-dashboard-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about ITSM Success Dashboard the HR Success Dashboard indicators components such as roles and dependent applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/success-dashboard-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

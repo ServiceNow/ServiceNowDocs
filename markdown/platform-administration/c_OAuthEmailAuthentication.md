@@ -2,7 +2,7 @@
 title: OAuth email authentication
 description: OAuth enables your instance to receive and send email through a third-party email account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_OAuthEmailAuthentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_OAuthEmailAuthentication.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,10 +28,10 @@ Activating the Email - OAuth support for IMAP and SMTP plugin allows you to use 
 
 See [Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuth2ProfileTutorialGoogle.md) for an example of using an OAuth 2.0 profile to authenticate an outbound REST message with Google to retrieve contact information. Also see [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_OAuthApplications.md) for more information on OAuth 2.0 support in the instance.
 
--   **[Activate OAuth email authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActOAuthEmailAuthPlugin.md)**  
+-   **[Activate OAuth email authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ActOAuthEmailAuthPlugin.md)**  
 You can activate the Email:OAUTH support for IMAP, Microsoft Graph \(Receiving\), and SMTP plugin \(com.glide.email.oauth\) for Notifications if you have the admin role.
--   **[Enable OAuth 2.0 for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SetUpOAuth2ForEmail.md)**  
+-   **[Enable OAuth 2.0 for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_SetUpOAuth2ForEmail.md)**  
 Setting up OAuth 2.0 for email requires you to obtain access and refresh tokens from your email provider.
 
-**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AlternateEmailConfigurations.md)
 

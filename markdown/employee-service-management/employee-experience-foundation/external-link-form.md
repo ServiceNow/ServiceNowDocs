@@ -2,7 +2,7 @@
 title: External Link form
 description: Use the External Link form to create an external link.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/external-link-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/external-link-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,9 +20,9 @@ Use the External Link form to create an external link.
 |-----|-----------|
 |Title|Title for the external link.|
 |Short description|Short description for the external link.|
-|URL|URL of the external link; for more information, see[Create an external link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-external-links.md)|
+|URL|URL of the external link; for more information, see[Create an external link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-external-links.md)|
 
-**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

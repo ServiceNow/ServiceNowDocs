@@ -2,7 +2,7 @@
 title: Create linear assets
 description: Create linear assets to diversify your Enterprise Asset Management portfolio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-linear-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-linear-asset.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -136,5 +136,5 @@ A list of two or more geographical \(geo\) points. Each geo point has a latitude
     The linear asset is created and appears in the Linear assets list. You can perform additional configuration on the linear asset by entering details in the other related lists such as **Linear segments**, **Discreet assets**, **Related linear assets**, **Contracts**, and **Expense lines**.
 
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

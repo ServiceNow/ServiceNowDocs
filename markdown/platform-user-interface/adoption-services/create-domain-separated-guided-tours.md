@@ -2,7 +2,7 @@
 title: Domain separation and Guided Tours
 description: You can assign a domain to a guided tour during its creation or edit the domain of the tour at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/create-domain-separated-guided-tours.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/create-domain-separated-guided-tours.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -22,7 +22,7 @@ Role required: guided\_tour\_admin
 
 To use domain separation in Guided Tours, you must [request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 
-**Note:** The Guided Tour Designer requires Core UI. For more information, see [Activate Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ActivateUI16.md).
+**Note:** The Guided Tour Designer requires Core UI. For more information, see [Activate Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ActivateUI16.md).
 
 ## About this task
 
@@ -46,7 +46,7 @@ With the ServiceNow AI Platform®, service providers \(SPs\) can provide their c
 
 7.  Create a guided tour.
 
-    For more information, see [Create Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/add-guided-tour.md).
+    For more information, see [Create Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/add-guided-tour.md).
 
 8.  Change the **Domain** of a guided tour:
 9.  Navigate to **All** &gt; **Guided Tour Designer** &gt; **Guide Tours**.
@@ -72,5 +72,5 @@ With the ServiceNow AI Platform®, service providers \(SPs\) can provide their c
 
 Within the specified domain, the saved version of the tour replaces the original for users in that domain.
 
-**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configure-guided-tours.md)
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/configure-guided-tours.md)
 

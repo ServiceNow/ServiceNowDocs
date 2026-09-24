@@ -2,7 +2,7 @@
 title: Add an approver
 description: Add a single or multiple approvers to the document approval and review rule for document approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/add-an-approver.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/add-an-approver.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -47,5 +47,5 @@ The procedure described in this task applies to newly created records. For exist
 8.  Repeat steps 3–7 to add multiple approvers.
 
 
-**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md)
+**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/document-review-approval.md)
 

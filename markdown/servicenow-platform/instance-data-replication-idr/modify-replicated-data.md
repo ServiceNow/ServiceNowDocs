@@ -2,7 +2,7 @@
 title: Transform replication data
 description: Transform producer instance data for tables or table columns that are named differently on consumer instances in Instance Data Replication \(IDR\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/modify-replicated-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instance-data-replication-idr/modify-replicated-data.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -46,7 +46,7 @@ Transformations have the following limitations:
 
 1.  Choose a producer or consumer instance and navigate to the replication set.
 
-<table id="choicetable_lbg_kqq_snb"><tbody><tr><td id="d573678e107">
+<table id="choicetable_lbg_kqq_snb"><tbody><tr><td id="d574340e107">
 
 **Consumer Instance**
 
@@ -54,7 +54,7 @@ Transformations have the following limitations:
 
 Navigate to **Instance Data Replication** &gt; **Consumer Replication Sets** and click a consumer replication set.
 
-</td></tr><tr><td id="d573678e125">
+</td></tr><tr><td id="d574340e125">
 
 **Producer instance**
 
@@ -65,7 +65,7 @@ Navigate to **Instance Data Replication** &gt; **Producer Replication Sets** and
 </td></tr></tbody>
 </table>2.  Choose an inbound or outbound entry.
 
-<table id="choicetable_oh1_45q_snb"><tbody><tr><td id="d573678e152">
+<table id="choicetable_oh1_45q_snb"><tbody><tr><td id="d574340e152">
 
 **Consumer Instance**
 
@@ -73,7 +73,7 @@ Navigate to **Instance Data Replication** &gt; **Producer Replication Sets** and
 
 On the **Inbound Entries** tab, click an inbound entry.
 
-</td></tr><tr><td id="d573678e164">
+</td></tr><tr><td id="d574340e164">
 
 **Producer instance**
 
@@ -116,13 +116,13 @@ On the **Outbound Entries** tab, click an outbound entry.
 
 9.  Click the adapter that you want to use and then configure it.
 
-    For more information about configuring adapters, see [Adapter descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/adapter-descriptions.md).
+    For more information about configuring adapters, see [Adapter descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/adapter-descriptions.md).
 
     **Note:** Adapters do not modify the data on the producer instance.
 
 
--   **[Warning and error messages in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/schema-warnings-error.md)**  
+-   **[Warning and error messages in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/schema-warnings-error.md)**  
 Understand error and warning messages related to schema definitions. You can then troubleshoot or fix Instance Data Replication \(IDR\) replication issues.
 
-**Parent Topic:**[Replicating data with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/replicating-data.md)
+**Parent Topic:**[Replicating data with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/replicating-data.md)
 

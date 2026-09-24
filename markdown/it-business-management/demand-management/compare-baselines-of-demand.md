@@ -2,7 +2,7 @@
 title: Compare financial baselines of a demand
 description: You can compare baselines to review the variances in the financial data of a demand and see what changed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/compare-baselines-of-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/compare-baselines-of-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -22,9 +22,9 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-baseline.md) multiple baselines at various stages of a demand's life cycle. For example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the demand at a particular moment. Use baselines to identify and review changes made to the demand. Having multiple baselines and comparing them helps you track the performance of your demand.
+You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/create-demand-baseline.md) multiple baselines at various stages of a demand's life cycle. For example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the demand at a particular moment. Use baselines to identify and review changes made to the demand. Having multiple baselines and comparing them helps you track the performance of your demand.
 
-With the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, you can view and compare demand financial details in baselines using the demand currency. For fields available only in the Demand Currency view, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-demand.md).
+With the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, you can view and compare demand financial details in baselines using the demand currency. For fields available only in the Demand Currency view, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/multicurrency-demand.md).
 
 ## Procedure
 
@@ -97,5 +97,5 @@ Steps
     -   To view a cost plan or benefit plan comparative data in yearly, quarterly, or monthly format, select the **Year** or **Quarter** or **Month** views respectively.
     -   To view details of a fiscal year, select the **Expand** icon \[Omitted image "new-expand-icon.png"\] Alt text: or **Collapse** icon \[Omitted image "new-collapse-icon.png"\] Alt text:.
 
-**Parent Topic:**[Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-baseline.md)
+**Parent Topic:**[Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/create-demand-baseline.md)
 

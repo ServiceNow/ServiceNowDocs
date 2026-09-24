@@ -2,7 +2,7 @@
 title: Install Operational Resilience application
 description: Install the GRC: Operational Resilience application from the ServiceNow Store and run it in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/download-opres.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/download-opres.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Role required: admin
 
     The application dependencies are installed by default.
 
-    **Note:** If you purchased the IRM Professional SKU \(alone or with BCM Professional\), you must install the IRM plugins manually. If you purchased only the BCM Professional SKU, you cannot install the IRM plugins. For more information, see [Roles installed with Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/roles-installed-with-op-res.md).
+    **Note:** If you purchased the IRM Professional SKU \(alone or with BCM Professional\), you must install the IRM plugins manually. If you purchased only the BCM Professional SKU, you cannot install the IRM plugins. For more information, see [Roles installed with Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/roles-installed-with-op-res.md).
 
 4.  To install Digital resilience incident reporting, search for 'Digital resilience incident reporting' \(com.sn\_app\_digital\_resilience\_incident\_reporting\), select **Install** and confirm the install on your instance.
 
@@ -58,5 +58,5 @@ Role required: admin
 **Related topics**  
 
 
-[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_ActivateGRCPandC.md)
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_ActivateGRCPandC.md)
 

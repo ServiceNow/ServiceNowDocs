@@ -2,7 +2,7 @@
 title: Establish an SAP connection using basic authentication
 description: After you have deployed the Advanced Business Application Programming \(ABAP\) program in your SAP system, create a connection profile to establish a connection between your SAP system and your ServiceNow instance using basic authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/add-sap-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/add-sap-connection.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -62,7 +62,7 @@ Connection type
 
 Values include:-   Basic Auth
 -   OAuth 2.0
-**Important:** The Basic Auth authentication method is planned for deprecation by SAP. You should use the OAuth 2.0 authentication for a secure and compliant integration. For more information, see [Establish an SAP connection using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-sap-connection-oauth.md).
+**Important:** The Basic Auth authentication method is planned for deprecation by SAP. You should use the OAuth 2.0 authentication for a secure and compliant integration. For more information, see [Establish an SAP connection using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-sap-connection-oauth.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ WSDL
 
 </td><td>
 
-Web Service Description Language \(WSDL\) URL from the SOA manager that includes an IP address that is used to connect to the SAP system.This is same value that you generated in the [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-wsdl-sap-service.md) procedure.
+Web Service Description Language \(WSDL\) URL from the SOA manager that includes an IP address that is used to connect to the SAP system.This is same value that you generated in the [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-wsdl-sap-service.md) procedure.
 
 **Note:** Don’t change the SAP WSDL name. The WSDL service definition name must be /NOW/SAMP and the service binding name must be NOW\_SAMP. The only WSDL name that can be changed is the WSDL generation name.
 
@@ -267,7 +267,7 @@ Controls the data pull from SAP for user transaction activity data.
 
 You can start creating software models and entitlements.
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

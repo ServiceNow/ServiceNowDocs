@@ -2,7 +2,7 @@
 title: Upload job applications using import sets
 description: Upload job application data from your ATS to your ServiceNow instance at regular intervals using import sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/upload-applcatin-with-import-sets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/upload-applcatin-with-import-sets.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +27,7 @@ Role required: admin
 
 2.  On the form, fill in the fields.
 
-    For a description of the field values, see [Load data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/import-set-table.md).
+    For a description of the field values, see [Load data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/import-set-table.md).
 
     **Note:** In the **Import set table** field, select **Existing table** and add Job Application Staging \[sn\_ta\_connector\_job\_application\_staging\] table.
 
@@ -48,5 +48,5 @@ Role required: admin
 
 The job application list is updated with the imported data.
 
-**Parent Topic:**[Integrate with your ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-ats.md)
+**Parent Topic:**[Integrate with your ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-ats.md)
 

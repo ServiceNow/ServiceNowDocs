@@ -2,7 +2,7 @@
 title: Purchase Entity Stage inbound staging table
 description: The Purchase Entity Stage inbound \[sn\_fcms\_intg\_imp\_purchase\_entity\] staging table temporarily stores important data about purchase entities before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/spo-purch-entity-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-purch-entity-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -25,7 +25,7 @@ The following table lists the mandatory fields for the Purchase Entity Stage inb
 |Legal entity|String|Detailed information about individual suppliers, including banking details, payment methods, and credit terms.|
 |Name|String|Name of the purchase entity.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

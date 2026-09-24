@@ -2,7 +2,7 @@
 title: Generate audio summaries and query documents using voice
 description: Generate audio summaries and interact using voice-based questions to understand and extract key information from documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/generate-audio-summary-voice-questions-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/generate-audio-summary-voice-questions-now-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Generate audio summaries and interact using voice-based questions to understand 
 
 ## Before you begin
 
-Configure the Voice Assist for docs skill. For more information, see [Configure Voice Assist for Docs skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-voice-assist.md).
+Configure the Voice Assist for docs skill. For more information, see [Configure Voice Assist for Docs skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-skill-voice-assist.md).
 
 **Warning:** Voice Q&amp;A uses Google's Gemini API. Your use of this feature is subject to the Google Gemini API Terms of Service or other applicable agreement you may have with Google governing your use of this API. You must grant microphone access to use voice Q&amp;A.
 

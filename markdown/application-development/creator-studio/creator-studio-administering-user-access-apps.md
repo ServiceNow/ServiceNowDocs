@@ -2,7 +2,7 @@
 title: Administering user access for deployed Creator Studio apps
 description: After users build apps in Creator Studio and you deploy them to production, as an admin, you are responsible for granting access to those apps to users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-administering-user-access-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-administering-user-access-apps.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -28,7 +28,7 @@ Assign users the agent role for the app's scope, for example, `x_snc_jd_it_fulf_
 
 By default, all users on the production instance get access to forms built in Creator Studio, but Creator Studio developers can choose from existing access criteria if they want to restrict access. The **Available For** and **Not Available For** form settings are lists of User Criteria Records. For more information, see [Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogAccessControls.md).
 
-Developers can work with admins to define new access criteria for their app's forms to define the proper access from within Creator Studio. For more information, see [Edit the settings for a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-edit-form-settings.md).
+Developers can work with admins to define new access criteria for their app's forms to define the proper access from within Creator Studio. For more information, see [Edit the settings for a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-edit-form-settings.md).
 
 ## Personas for apps built in Creator Studio
 
@@ -41,5 +41,5 @@ Developers can work with admins to define new access criteria for their app's fo
     Someone who works on requests. Fulfillers may also approve or deny requests, depending on any approval automation for the app.
 
 
-**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/administering-creator-studio.md)
+**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/administering-creator-studio.md)
 

@@ -2,7 +2,7 @@
 title: Recruitment workspace release notes
 description: The ServiceNow Recruitment workspace application provides a flexible workspace for you as a recruiter to manage, prioritize, and perform your work. Recruitment workspace was enhanced and updated in the Australia release.The ServiceNow Recruitment workspace application provides a flexible workspace for you as a recruiter to manage, prioritize, and perform your work. Recruitment workspace was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/recruiter-workspace-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/recruiter-workspace-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-05-15"
@@ -16,7 +16,7 @@ The ServiceNow® Recruitment workspace application provides a flexible workspace
 
 ## About Recruitment workspace
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Assign a substitute on behalf of an interviewer when needed.
 -   Monitor interview health from the list view in Recruitment workspace.
@@ -36,7 +36,7 @@ See [Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/Service
     The Hiring Core application provides essential data models and shared components for Hiring Experiences. The application must be activated.
 
 
-**Parent Topic:**[Hiring Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/talent-acquisition-rn-landing.md)
+**Parent Topic:**[Hiring Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/talent-acquisition-rn-landing.md)
 
 ## Australia
 

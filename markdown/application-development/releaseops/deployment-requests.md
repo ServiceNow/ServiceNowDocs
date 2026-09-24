@@ -2,7 +2,7 @@
 title: Deployment requests in ReleaseOps
 description: Deployment requests contain one or more update sets, and are contained in a release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/deployment-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/deployment-requests.html
 release: australia
 product: ReleaseOps
 classification: releaseops

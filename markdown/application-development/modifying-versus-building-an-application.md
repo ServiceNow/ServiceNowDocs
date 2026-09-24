@@ -2,7 +2,7 @@
 title: Modifying versus building an application
 description: At a certain point in the lifetime of your applications, it might make sense to create an application to replace the old one. Cost savings, maintenance effort, and features available in new apps can help you determine if it's better to build a new application or modify an existing one.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/modifying-versus-building-an-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/modifying-versus-building-an-application.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,6 +26,6 @@ Consider building a new application for the following reasons:
 
 For more information, see the following topics:
 
--   [Use App Engine instead of customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/use-app-engine-instead-of-customizations.md)
--   [Customization vs configuration with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-custom-vs-config.md)
+-   [Use App Engine instead of customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/use-app-engine-instead-of-customizations.md)
+-   [Customization vs configuration with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-custom-vs-config.md)
 

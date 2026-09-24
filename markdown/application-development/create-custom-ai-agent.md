@@ -2,12 +2,12 @@
 title: Create agentic workflows, agents, and skills
 description: Build custom agentic workflows, AI agents, and skills for your applications using automated generation tools with Build Agent. You can streamline development by creating the necessary instructions, tools, and access controls based on your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/create-custom-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/create-custom-ai-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-08-19"
 reading_time_minutes: 3
-keywords: [agentic workflow, AI agent, custom skill, Build Agent, ServiceNow Studio, create AI agent, create agentic workflow, AI Skill Kit, AI Agent Studio, access control list, ACL, automated generation, app development, prompt, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [agentic workflow, AI agent, custom skill, Build Agent, ServiceNow Studio, create AI agent, create agentic workflow, AI Skill Kit, AI Agent Studio, access control list, ACL, automated generation, app development, prompt, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: administrator
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-For details on creating agentic workflows, agents, and skills, see [Agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-about-creating-in-app-agents.md).
+For details on creating agentic workflows, agents, and skills, see [Agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-about-creating-in-app-agents.md).
 
 ## Procedure
 
@@ -71,7 +71,7 @@ After Build Agent generates agents and skills, complete the following steps to m
 3.  Activate triggers in AI Agent Studio. Triggers are not activated automatically and must be enabled separately after generation.
 4.  Deploy the custom app with its agents and skills as a standard update set.
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-build-agent.md)
 
 **Related topics**  
 

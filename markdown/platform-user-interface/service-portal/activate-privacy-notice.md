@@ -2,7 +2,7 @@
 title: Activate the privacy notice for unauthenticated users
 description: If you enabled unauthenticated user tracking in your portal, you may be required by law to notify unauthenticated users that you are tracking their usage for analysis. You can display a legal notice by activating the Privacy Notice announcement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/activate-privacy-notice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/activate-privacy-notice.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -53,10 +53,10 @@ The Privacy Notice announcement is displayed to unauthenticated portal users.
 
 
 
-**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-analytics.md)
+**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 
 
-[Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-announcement.md)
+[Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/create-announcement.md)
 

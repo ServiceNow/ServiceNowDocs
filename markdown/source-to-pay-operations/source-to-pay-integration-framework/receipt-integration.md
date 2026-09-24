@@ -2,7 +2,7 @@
 title: Receipt integration
 description: Receipts are created in Source-to-Pay \(S2P\) and synchronized to the ERP system asynchronously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/receipt-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/receipt-integration.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

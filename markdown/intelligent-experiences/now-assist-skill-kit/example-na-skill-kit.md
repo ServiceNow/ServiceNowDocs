@@ -2,7 +2,7 @@
 title: Example use case for AI Skill Kit
 description: As an AI developer, you can create custom skills with AI Skill Kit. For this example, create a custom skill for child incident summarization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/example-na-skill-kit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/example-na-skill-kit.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -87,5 +87,5 @@ If everything looks good, select **Finalize prompt**. After you finalize the pro
 
 ## Activate the skill
 
-After you test, finalize, and publish your skill, an admin must activate it in AI Admin Hub. To learn more about activating skills, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
+After you test, finalize, and publish your skill, an admin must activate it in AI Admin Hub. To learn more about activating skills, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
 

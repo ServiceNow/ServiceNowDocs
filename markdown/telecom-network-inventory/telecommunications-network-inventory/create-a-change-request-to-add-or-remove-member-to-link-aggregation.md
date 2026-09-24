@@ -2,7 +2,7 @@
 title: Add or remove a member to Link Aggregation
 description: Created topic as per STRY55939345 - DOC1079350Create a change request to add or remove a member to the design assign link aggregation change request by using the Telecommunications Network Inventory application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-a-change-request-to-add-or-remove-member-to-link-aggregation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-a-change-request-to-add-or-remove-member-to-link-aggregation.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -34,7 +34,7 @@ Role required: sn\_ni\_core.inventory\_agent
 
 6.  On the Add/Remove member to Link Aggregation form, fill in the fields.
 
-    To learn more about the fields, see [Add or Remove member to Link Aggregation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/add-remove-member-link-aggregation-form.md).
+    To learn more about the fields, see [Add or Remove member to Link Aggregation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/add-remove-member-link-aggregation-form.md).
 
 7.  Select **Submit**.
 
@@ -50,8 +50,8 @@ Role required: sn\_ni\_core.inventory\_agent
     -   Adding an interface that belongs to an existing ENET connection, the system automatically links it to the existing ENET connection instead of creating an ENET.
 11. Create a change task for operationalization.
 
-    To learn more, see [Operationalize a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/operationalize-a-configuration-item.md).
+    To learn more, see [Operationalize a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/operationalize-a-configuration-item.md).
 
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

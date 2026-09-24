@@ -2,7 +2,7 @@
 title: Configure mobile app token lifespan
 description: Configure the length of time it takes for the app to time out.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/configure-mobile-app-timeout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/configure-mobile-app-timeout.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ For example, if you want the mobile app's token to expire after 30 minutes, use 
 
 Sign out and sign back in to the mobile app. Otherwise the app uses the previously granted sessions and tokens.
 
-**Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-authentication.md)
+**Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-authentication.md)
 

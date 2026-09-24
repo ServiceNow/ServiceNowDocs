@@ -2,7 +2,7 @@
 title: System address filters
 description: Prevent your system from communicating with untrusted domains and email addresses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-address-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-address-filters.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,21 +47,21 @@ Before you set up system address filters, consider doing the following:
 
 To set up system address filters for your instance, complete the following tasks:
 
-1.  [Set email address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/set-email-address-filters.md)
+1.  [Set email address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/set-email-address-filters.md)
 
     Specify which domains and email addresses are allowed or disallowed.
 
-2.  [Create a system address filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-system-address-filter.md)
+2.  [Create a system address filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-system-address-filter.md)
 
     Define how email address filters apply to inbound and outbound email.
 
 
 ## Next steps
 
-After you set up system address filters, configure email filters for an added layer of security. Email filters enable you to ignore an inbound email or move it to a particular mailbox. For more information on configuring email filters, see [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailFilters.md).
+After you set up system address filters, configure email filters for an added layer of security. Email filters enable you to ignore an inbound email or move it to a particular mailbox. For more information on configuring email filters, see [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailFilters.md).
 
--   **[Set email address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/set-email-address-filters.md)**  
+-   **[Set email address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/set-email-address-filters.md)**  
 Specify which domains and email addresses are allowed or disallowed.
 
-**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AlternateEmailConfigurations.md)
 

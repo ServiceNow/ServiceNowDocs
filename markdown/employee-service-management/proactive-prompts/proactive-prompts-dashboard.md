@@ -2,7 +2,7 @@
 title: Proactive Prompts dashboard
 description: Use the Proactive Prompts dashboard to view the usage analytics and key metrics of the prompts that are generated to provide actionable insights in the flow of work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/proactive-prompts/proactive-prompts-dashboard.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts

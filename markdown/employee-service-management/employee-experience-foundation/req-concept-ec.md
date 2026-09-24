@@ -2,7 +2,7 @@
 title: Enhanced Requests Experience forms
 description: The forms provide information to set up the Enhanced Requests Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/req-concept-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/req-concept-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -16,16 +16,16 @@ breadcrumb: [Employee Center reference, Employee Center, Unified Employee Experi
 
 The forms provide information to set up the Enhanced Requests Experience.
 
--   **[Request source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/request-source-form.md)**  
+-   **[Request source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/request-source-form.md)**  
 The field descriptions provide a reference point when you're creating a request source.
--   **[Request filter definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/filter-def-request-form.md)**  
+-   **[Request filter definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/filter-def-request-form.md)**  
 The field descriptions provide a reference point when you're creating a Requests filter definition.
--   **[Request filter configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/filter-config-form-req.md)**  
+-   **[Request filter configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/filter-config-form-req.md)**  
 The field descriptions provide a reference point when you're creating a Requests filter configuration.
--   **[Request filter condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/filter-cond-form-req.md)**  
+-   **[Request filter condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/filter-cond-form-req.md)**  
 The field descriptions provide a reference point when you're creating a Requests filter definition.
 
-**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

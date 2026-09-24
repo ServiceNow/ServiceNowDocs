@@ -2,7 +2,7 @@
 title: Configuring Field Service Management Customer Experience
 description: Configure the Field Service Management Customer Experience application to enable sending notifications to your customers through email and SMS.Activate the Field Service Management Customer Experience plugin \(com.snc.fsm\_customer\_experience\) to use the Customer Experience feature with Field Service Management.Set up notification messages and emails to update customers about the status of their work order tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Configuring-cust-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/Configuring-cust-exp.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -20,11 +20,11 @@ Configure the Field Service Management Customer Experience application to enable
 
 The steps for setting up Field Service Management Customer Experience are:
 
-1.  [Activate Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Configuring-cust-exp.md)
+1.  [Activate Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/Configuring-cust-exp.md)
 
     Activate the Field Service Management Customer Experience plugin \(com.snc.fsm\_customer\_experience\) to use the Customer Experience feature with Field Service Management.
 
-2.  [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Configuring-cust-exp.md)
+2.  [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/Configuring-cust-exp.md)
 
     Set up notification messages and emails to update customers about the status of their work order tasks.
 
@@ -79,7 +79,7 @@ The following items are installed with Field Service Management Customer Experie
 -   Properties
 -   Business rules
 
-For more information, see [Customer Experience components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/customer-experience-components.md).
+For more information, see [Customer Experience components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/customer-experience-components.md).
 
 ### Procedure
 

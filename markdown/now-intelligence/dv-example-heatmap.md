@@ -2,7 +2,7 @@
 title: Heatmap visualization example
 description: The heatmap data visualization shows the relationship between two table fields or indicator breakdowns as a spectrum of shading between two colors. The changes in color as you move along the axes reveal patterns in the value of one or both fields or breakdowns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-heatmap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-example-heatmap.html
 release: australia
 topic_type: task
 last_updated: "2026-03-24"
@@ -16,7 +16,7 @@ The heatmap data visualization shows the relationship between two table fields o
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -24,7 +24,7 @@ By observing how cell colors change across each axis, you can observe if there a
 
 ## Procedure
 
-1.  Follow the first steps to [Create a heatmap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-heatmap-ac.md):
+1.  Follow the first steps to [Create a heatmap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-heatmap-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -113,5 +113,5 @@ By observing how cell colors change across each axis, you can observe if there a
 
 You have created a heatmap visualization sorted on two values and configured its values, labels, and data updates. You have also configured the visualization's colors.
 
-**Parent Topic:**[Create a heatmap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-heatmap-ac.md)
+**Parent Topic:**[Create a heatmap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-heatmap-ac.md)
 

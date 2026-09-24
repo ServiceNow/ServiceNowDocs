@@ -2,7 +2,7 @@
 title: Roles installed with Field Service Management
 description: Roles are added with Field Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/r\_UserRoleInstallWFieldSrvMgmnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/r\_UserRoleInstallWFieldSrvMgmnt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -377,5 +377,5 @@ wm\_location\_security
 View data based on the provider service organization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_InstalledWithFSM.md)
+</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_InstalledWithFSM.md)
 

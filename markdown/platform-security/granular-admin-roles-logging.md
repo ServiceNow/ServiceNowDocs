@@ -2,7 +2,7 @@
 title: Granular admin roles for Logging tables
 description: Granular admin roles replace broad admin access with targeted, feature-specific permissions. Use these roles to grant the administrative capabilities needed for specific tasks without assigning the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/granular-admin-roles-logging.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/granular-admin-roles-logging.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ Granular admin roles replace broad admin access with targeted, feature-specific 
 |txn\_part\_metrics\_viewer|Transaction Part Metrics Logs|com.glide.transaction\_part\_metrics\_log|Provides read and report\_view access to the syslog\_transaction\_part\_metrics table.|
 |txn\_part\_metrics\_admin|Transaction Part Metrics Logs|com.glide.transaction\_part\_metrics\_log|Provides create, write, and delete access to the syslog\_transaction\_part\_metrics table. The previous admin role ACL bindings on this table are deleted and replaced with these new granular roles. New ACLs for all five operations \(read, create, write, delete, report\_view\) are introduced, each gated by the appropriate new role.|
 
-**Parent Topic:**[Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/logs.md)
+**Parent Topic:**[Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/logs.md)
 

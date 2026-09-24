@@ -2,7 +2,7 @@
 title: Document Viewer plugins
 description: With Document Viewer, you can view documents directly in the ServiceNow Platform rather than having to download them. Two new plugins enhance the experience and provide more options for document viewing. You can collaborate with other people, copy, delete, restore, and view version history directly in a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/doc-viewer-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/doc-viewer-plugins.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -130,5 +130,5 @@ After installation, you can use the base system subflows or customize them.​ C
 **Related topics**  
 
 
-[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/Documentviewer.md)
+[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/Documentviewer.md)
 

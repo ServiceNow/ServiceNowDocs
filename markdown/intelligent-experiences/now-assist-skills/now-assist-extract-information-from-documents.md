@@ -2,7 +2,7 @@
 title: Extract information from documents
 description: The extract information from documents skill allows you to use ServiceNow Otto predictions to extract information from document and image files.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills
@@ -23,5 +23,5 @@ Agents can use the Document Intelligence workspace to review and confirm the ext
 
 \[Omitted image "na-review-extracted-information.png"\] Alt text: Document Intelligence workspace showing the extracted information on the document image.
 
-For more information, see [Review extracted information in the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/review-extracted-information.md).
+For more information, see [Review extracted information in the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/review-extracted-information.md).
 

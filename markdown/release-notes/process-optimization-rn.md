@@ -2,7 +2,7 @@
 title: Process Mining release notes
 description: The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/process-optimization-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/process-optimization-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     Process Mining is available by default. For details, see [Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activating-process-mining.md).
 
 
-**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
+**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/analytics-intel-report-rn-landing.md)
 
 ## Australia
 

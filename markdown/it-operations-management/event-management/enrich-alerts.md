@@ -2,7 +2,7 @@
 title: Alert enrichment automations
 description: Configure alert enrichment rules to automatically add context and metadata to incoming alerts for better analysis and response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/enrich-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/enrich-alerts.html
 release: australia
 product: Event Management
 classification: event-management
@@ -43,7 +43,7 @@ Alert enrichment rules automatically enhance incoming alerts with additional con
 
     The Enrich alerts page opens.
 
-5.  Follow the steps in [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
+5.  Follow the steps in [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 6.  To complete the setup, select **Mark as configured**.
 

@@ -2,7 +2,7 @@
 title: Setting up jeopardy management
 description: Learn about how to set up and configure Jeopardy Management for Order Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/jeopardy-management-setup-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/jeopardy-management-setup-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ To use Jeopardy Management, fulfillment managers must either reconfigure existin
 
 ## Create SLA Definitions
 
-SLA definitions and SLA Processing flows are linked to tasks in a fulfillment plan and track and report on the time jeopardy-enabled tasks take to complete. See [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-sla-definitions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-sla-definitions.md) for more information.
+SLA definitions and SLA Processing flows are linked to tasks in a fulfillment plan and track and report on the time jeopardy-enabled tasks take to complete. See [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-sla-definitions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-sla-definitions.md) for more information.
 
 -   SLA Definitions: Set start condition, pause condition, cancel condition, and reset conditions according to use case.
 -   SLA Durations: Durations are specified so that tracking can be achieved when task SLA is created.
@@ -49,7 +49,7 @@ Decision tables are used to link and configure Jeopardy Management to product an
 **Related topics**  
 
 
-[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/jeopardy-management.md)
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/jeopardy-management.md)
 
-[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/monitoring-jeopardy-management.md)
 

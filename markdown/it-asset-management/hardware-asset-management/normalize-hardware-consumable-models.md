@@ -2,7 +2,7 @@
 title: Normalize hardware and consumable models
 description: After you have created your hardware and consumable models, normalize the information of the model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -50,7 +50,7 @@ Action
     -   **Product Catalog** &gt; **Product Models** &gt; **Hardware Models**.
     -   **Product Catalog** &gt; **Product Models** &gt; **Consumable Models**.
 2.  Select **New**.
-3.  On the Hardware Model or Consumable Model form [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
+3.  On the Hardware Model or Consumable Model form [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
 4.  Select **Save**.
 
 
@@ -65,7 +65,7 @@ Action
     -   For hardware models, select the **Hardware models** tab.
     -   For consumable models, select the **Consumable models** tab.
 3.  Select **New**.
-4.  On the Hardware model or Consumable model form, [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
+4.  On the Hardware model or Consumable model form, [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
 5.  Select **Save**.
 
 
@@ -126,5 +126,5 @@ Select **Save**.
 
 The **Normalization Status** field displays **Manually Normalized**.
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

@@ -2,7 +2,7 @@
 title: Post activation indexing and customization
 description: After activating the report for a GRC issue AI agent, the system performs indexing to ensure optimal functionality. Users can also choose to customize the issue definition, enabling the AI agent to provide more tailored suggestions and align with organizational standards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/post-activation-indexing-and-customization\_0.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/post-activation-indexing-and-customization\_0.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -37,7 +37,7 @@ The sn\_grc\_context\_definition table holds definitions for all GRC terms, incl
 **Related topics**  
 
 
-[Activate the Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/activate-the-issue-submission-ai-agent.md)
+[Activate the Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-the-issue-submission-ai-agent.md)
 
-[Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/report-a-grc-issue.md)
+[Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/report-a-grc-issue.md)
 

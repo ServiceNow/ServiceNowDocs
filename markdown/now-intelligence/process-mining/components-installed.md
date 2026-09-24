@@ -2,7 +2,7 @@
 title: Components installed with Process Mining
 description: Several types of components are installed with activation of the com.sn\_po plugin, including tables, user roles, and scheduled jobs.Process Mining adds these roles.Access all projects and manage all project settings and configurations and schedule background and jobs.Perform the following actions when assigned to this role.Perform the following actions when assigned to this role.System properties control system behavior. The properties in this section are specific to the Process Mining application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/components-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/components-installed.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -291,7 +291,7 @@ Job Process Mining Project\[promin\_job\_m2m\_project\]
 Stores information about the project attached to a job.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-mining-reference.md)
 
 ## Process Mining roles
 

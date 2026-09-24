@@ -2,7 +2,7 @@
 title: Create actions or findings for the smart assessment questionnaire
 description: You can create actions or findings for every question in the smart assessment questionnaire. For example, to report a hazard observed while completing the smart assessment questionnaire.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -20,7 +20,7 @@ You can create actions or findings for every question in the smart assessment qu
 
 Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit\_writer
 
-**Note:** To perform this task, the role must match or contain the role specified in the **Assessment reader role** field. This field is set during the smart assessment template configuration. For more information, see [Configure the smart assessment template for safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-configure-smart-assessment-template.md).
+**Note:** To perform this task, the role must match or contain the role specified in the **Assessment reader role** field. This field is set during the smart assessment template configuration. For more information, see [Configure the smart assessment template for safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-configure-smart-assessment-template.md).
 
 ## About this task
 
@@ -51,5 +51,5 @@ The actions or finding that are created for the inspections and audits through t
 
 The action record appears in the **Assessment actions list** page and is synced with the workspace.
 
-**Parent Topic:**[Manage the smart assessment for safety inspections and audits from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-manage-smart-assessments-mobile.md)
+**Parent Topic:**[Manage the smart assessment for safety inspections and audits from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-manage-smart-assessments-mobile.md)
 

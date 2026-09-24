@@ -2,7 +2,7 @@
 title: Add Code field values to catalog entities
 description: Add the Code field values for the main product catalog entities. The system uses this field as a way to identify catalog entities uniquely and to determine whether the Code field values for an export catalog entity are to be inserted or updated in the target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/run-fix-script-sched-job-export.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/run-fix-script-sched-job-export.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,7 +61,7 @@ Your product catalog admin can export product catalog entities from the source i
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

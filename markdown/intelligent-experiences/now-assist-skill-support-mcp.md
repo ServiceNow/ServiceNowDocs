@@ -2,7 +2,7 @@
 title: Generative AI skill support in MCP Server Console
 description: MCP Server Console supports creating tools for Model Context Protocol \(MCP\) servers from a subset of AI skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-support-mcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-support-mcp.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-29"
@@ -60,14 +60,14 @@ In addition, you can create tools from the following AI skills or from custom sk
 -   Text2Test Skill
 -   Vulnerable item deduplication
 
-**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
+**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-server-console-reference.md)
 
 **Related topics**  
 
 
-[Create a tool from an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-naskill.md)
+[Create a tool from an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-tool-from-naskill.md)
 
-[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
+[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills.md)
 
-[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

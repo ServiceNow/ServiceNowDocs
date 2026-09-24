@@ -2,7 +2,7 @@
 title: CRM Workspace list views
 description: The CRM Workspace list views provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-list-views.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-workspace-list-views.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

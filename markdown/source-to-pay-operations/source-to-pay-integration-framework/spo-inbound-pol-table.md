@@ -2,7 +2,7 @@
 title: Purchase Order Line inbound staging table
 description: The Purchase Order Line inbound \[sn\_fcms\_intg\_imp\_order\_line\] staging table temporarily stores important data about purchase order lines before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-pol-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-pol-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -24,7 +24,7 @@ The following table lists the mandatory fields for the Purchase Order Line inbou
 |ERP PO number|String|Purchase order number from the ERP system.|
 |ERP PO line number|String|Purchase order line number from the ERP system.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

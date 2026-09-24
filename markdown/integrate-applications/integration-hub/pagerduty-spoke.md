@@ -2,7 +2,7 @@
 title: PagerDuty Spoke
 description: The PagerDuty spoke provides actions to view and analyze meaningful usage data for PagerDuty software subscriptions. Analyze on-call users to determine which licenses are stale so that you can reclaim these licenses and realize your potential savings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/pagerduty-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/pagerduty-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -155,7 +155,7 @@ The PagerDuty spoke provides actions to automate PagerDuty tasks when events occ
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 

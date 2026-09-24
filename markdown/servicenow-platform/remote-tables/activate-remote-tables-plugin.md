@@ -2,7 +2,7 @@
 title: Activate the remote tables plugin
 description: If you have the admin role, you can activate the Remote Tables plugin \(com.glide.script.vtable\). This plugin includes demo data and activates related plugins if they aren’t already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/remote-tables/activate-remote-tables-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/remote-tables/activate-remote-tables-plugin.html
 release: australia
 product: Remote Tables
 classification: remote-tables
@@ -64,7 +64,7 @@ Supports use of Transform APIs that are associated with the remote tables.
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md)
+**Parent Topic:**[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/remote-tables/remote-tables.md)
 
 **Related topics**  
 

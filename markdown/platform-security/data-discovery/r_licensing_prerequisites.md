@@ -2,7 +2,7 @@
 title: Licensing prerequisites for Text to RegEx
 description: Text to RegEx requires specific licenses to be active in your instance and relies on the Now Assist for Vault plugin. This reference describes all licensing requirements you must meet to use Text to RegEx.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/r\_licensing\_prerequisites.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/r\_licensing\_prerequisites.html
 release: australia
 product: Data Discovery
 classification: data-discovery

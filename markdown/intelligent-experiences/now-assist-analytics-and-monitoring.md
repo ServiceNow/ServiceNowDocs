@@ -2,7 +2,7 @@
 title: Analyzing generative AI usage
 description: Use the analytics and monitoring tools in the AI Admin Hub overview page to review the summaries, skill usage information, and issues that need your attention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-analytics-and-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-analytics-and-monitoring.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-31"
@@ -59,7 +59,7 @@ The following diagram shows the skills usage graphs and controls, which include 
 
 Data is collected once a day and uses Performance Analytics and Reporting \(PAR\) for data collection and visualization.
 
-For more detailed information about performance, see [Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md) and
+For more detailed information about performance, see [Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics.md) and
 
 \[Omitted image "now-assist-skills-performance.png"\] Alt text: Section that displays the number of actions, average unique users per day, and the number of actions over time. Use the controls to specify skills or change the date range.
 
@@ -77,5 +77,5 @@ The Needs Attention section displays a count of items that need your attention. 
 
 \[Omitted image "needs-attention-card.png"\] Alt text: Needs Attention card that displays the number of plugins that aren't installed and the number of inactive skills.
 
-**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-admin_0.md)
 

@@ -2,7 +2,7 @@
 title: Generate labor costs
 description: Generate labor costs for projects and sub-projects based on the attribute-based resource assignments and the financial attributes configured in the planning attributes page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/gen-labor-costs-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/gen-labor-costs-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -36,6 +36,6 @@ When the distribution of effort for a resource assignment is adjusted without ch
 
 5.  Select **Generate** on the Generate labor costs confirmation window.
 
-    **Note:** Alternatively, you can activate a scheduled job to generate labor costs at the required cadence. For more information, see [Activate scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
+    **Note:** Alternatively, you can activate a scheduled job to generate labor costs at the required cadence. For more information, see [Activate scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
 
 

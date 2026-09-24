@@ -2,7 +2,7 @@
 title: Properties of the Attachment components
 description: Learn about the various properties of the Attachment components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/properties-attachment-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/properties-attachment-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ Learn about the various properties of the Attachment components.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/attachments.md)
+**Parent Topic:**[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/attachments.md)
 

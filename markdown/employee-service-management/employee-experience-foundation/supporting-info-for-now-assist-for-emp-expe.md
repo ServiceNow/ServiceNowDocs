@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Employee Experience
 description: Get a quick overview of the key information related to the ServiceNow Otto for Employee Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/supporting-info-for-now-assist-for-emp-expe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/supporting-info-for-now-assist-for-emp-expe.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,9 +36,9 @@ This store app has the following dependencies:
 -   ServiceNow Otto® for platform \(sn\_genai\_platform\)
 -   Employee Center \(sn\_ex\_sp\)
 
-For more information, see [Configure ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-nowassist-emp-exp.md).
+For more information, see [Configure ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-nowassist-emp-exp.md).
 
-**Parent Topic:**[Explore ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.md)
+**Parent Topic:**[Explore ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.md)
 
 **Related topics**  
 

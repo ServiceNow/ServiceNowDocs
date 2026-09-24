@@ -2,7 +2,7 @@
 title: Update Performance Analytics scripts
 description: Platform Analytics Solutions include Performance Analytics scripts to perform calculations on records. These scripts use the time stamp fields from the indicator sources. If you change the time field stamps in an indicator source, also modify the related scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/update-pa-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/update-pa-scripts.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -61,9 +61,9 @@ Role required: pa\_admin, admin
 6.  Click **Update** to save your changes.
 
 
-**Parent Topic:**[Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/configure-nowintel-solutions.md)
+**Parent Topic:**[Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/configure-nowintel-solutions.md)
 
-**Previous topic:**[Review the indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/review-indicator-sources.md)
+**Previous topic:**[Review the indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/review-indicator-sources.md)
 
-**Next topic:**[Review the breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/review-breakdown-sources.md)
+**Next topic:**[Review the breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/review-breakdown-sources.md)
 

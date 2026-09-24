@@ -2,7 +2,7 @@
 title: IT Service Management AI agent collection create standard change template proposal
 description: Use the create standard change template proposal agentic workflow to help users quickly create a change template proposal record based on similar change requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-create-standard-change-template-proposal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-create-standard-change-template-proposal.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

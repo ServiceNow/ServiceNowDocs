@@ -2,7 +2,7 @@
 title: Customize a ServiceNow Otto for Field Service Management \(FSM\) work order task summarization skill
 description: As an admin you can clone the Work order task summarization skill, then access the skill in the ServiceNow Otto for FSM skill kit, and update the prompts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/cust-now-assist-fsm-wot-summarization-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/cust-now-assist-fsm-wot-summarization-skill.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -48,7 +48,7 @@ From the AI Admin Hub console, you can select the input tables, related lists, a
 
 4.  In the **General details** tab, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/now-assist-fsm-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/now-assist-fsm-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 

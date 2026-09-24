@@ -2,7 +2,7 @@
 title: Create AI model assets
 description: Create AI assets to track and manage the life cycles of your AI models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-ai-model-assets-newexperience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-ai-model-assets-newexperience.html
 release: australia
 topic_type: task
 last_updated: "2026-04-10"

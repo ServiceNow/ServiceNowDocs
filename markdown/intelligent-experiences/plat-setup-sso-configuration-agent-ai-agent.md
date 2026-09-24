@@ -2,7 +2,7 @@
 title: SSO configuration AI agent
 description: This ServiceNow Otto for Setup AI agent guides administrators through secure Single Sign-On \(SSO\) setup for ServiceNow using SAML or OpenID Connect \(OIDC\). The agent collects and validates identity provider details, creates authentication configurations, and guides users through review, testing, and activation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/plat-setup-sso-configuration-agent-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-setup-sso-configuration-agent-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -58,7 +58,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -148,5 +148,5 @@ Default VA Workflow
 </td></tr></tbody>
 </table>Learn more about ServiceNow Otto for Setup at [ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md).
 
-**Parent Topic:**[Setup Hub AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-setup-ai-agents-overview.md)
+**Parent Topic:**[Setup Hub AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-setup-ai-agents-overview.md)
 

@@ -2,7 +2,7 @@
 title: Use service catalog variables in a report
 description: In reports on service catalog data, stack and group by variables, use variables as columns in list reports, and as columns and rows in multilevel pivot tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/use-service-catalog-variables-in-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/use-service-catalog-variables-in-report.html
 release: australia
 product: Reporting
 classification: reporting
@@ -85,5 +85,5 @@ Click **Select columns** or **Select rows**, then select **Variables+** at the b
 6.  **Save** the report.
 
 
-**Parent Topic:**[Report on service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/rep-service-catalog-variables.md)
+**Parent Topic:**[Report on service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/rep-service-catalog-variables.md)
 

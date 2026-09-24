@@ -2,7 +2,7 @@
 title: Create indicators in Microsoft Defender for Endpoint
 description: Create indicators from associated observables of the security incident using the Microsoft Defender for Endpoint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-indicators-ms-defender-endpoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-indicators-ms-defender-endpoint.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

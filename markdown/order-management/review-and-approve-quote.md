@@ -2,7 +2,7 @@
 title: Review and approve a submitted quote
 description: As an approver, review the details of a submitted quote and approve the request when it meets your organization's requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/review-and-approve-quote.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/review-and-approve-quote.html
 release: australia
 topic_type: task
 last_updated: "2026-06-16"
@@ -104,5 +104,5 @@ After approving a quote:
 
 **Tip:** If you cannot complete the approval within your assigned timeframe, contact your administrator about delegation or escalation options.
 
-**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-advanced-approval-management.md)
+**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-advanced-approval-management.md)
 

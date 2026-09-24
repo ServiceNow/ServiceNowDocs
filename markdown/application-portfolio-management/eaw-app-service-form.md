@@ -2,7 +2,7 @@
 title: Application service form
 description: An application service is a configuration item \(CI\) that represents the operational view of a deployed application or your technology landscape. It logically models all technical components such as servers, databases, middleware, and configurations, that work together to deliver a specific business capability. Application services are linked to business applications in the CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-app-service-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-app-service-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -72,10 +72,10 @@ An application service is a configuration item \(CI\) that represents the operat
 |Monitor|Option to select monitor.|
 |Can Print|Option to print the details.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add or edit an application service in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-appl-service.md)
+[Add or edit an application service in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-appl-service.md)
 

@@ -2,7 +2,7 @@
 title: Improve resource usage with Business hours
 description: Improve resource usage and reduce your cloud spend by running resources during the specified business hours.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/improve-res-use-business.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/improve-res-use-business.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -19,8 +19,8 @@ Improve resource usage and reduce your cloud spend by running resources during t
 Use the Business hours recommendation page to:
 
 -   Manage Business hours processes.
--   [Configure Business hours operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/bh-settings-config-cloudin.md) by selecting **Settings**.
--   [Define or update Business hours processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/bh-policy-create-cloudin.md)
+-   [Configure Business hours operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/bh-settings-config-cloudin.md) by selecting **Settings**.
+-   [Define or update Business hours processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/bh-policy-create-cloudin.md)
 
 \[Omitted image "buis-hrs-rec-ws.png"\] Alt text: Business hours recommendations in Cloud Cost Management Workspace.
 
@@ -236,12 +236,12 @@ Details
 This column appears only for the Failed tab.Details of the failure type and the action that you must take to resolve the failure.
 
 </td></tr></tbody>
-</table>-   **[Configure Business hours operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/bh-settings-config-cloudin.md)**  
+</table>-   **[Configure Business hours operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/bh-settings-config-cloudin.md)**  
 Enable or disable the Business hours feature and set a non-business-hour spend threshold to trigger notifications to users or groups. This action helps control unnecessary resource usage and reduce costs.
--   **[Create Business hours schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-bh-schedule.md)**  
+-   **[Create Business hours schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/create-bh-schedule.md)**  
 Create and apply a Business hours schedule to the cloud resources for enforcing the on/off schedule.
--   **[Define or update a Business hours policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/bh-policy-create-cloudin.md)**  
+-   **[Define or update a Business hours policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/bh-policy-create-cloudin.md)**  
 A Business hours job applies policies to identify resources that are running when they should be powered off, reports them, and can start and stop them on a schedule that you specify. Running only during specified business hours can significantly reduce your cloud spend.
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

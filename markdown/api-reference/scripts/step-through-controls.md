@@ -2,7 +2,7 @@
 title: Script Debugger step-through and console controls
 description: After the Script Debugger pauses a script, use the step-through controls to move between script lines and move between scripts in the call stack. Use the Console controls to expand console, collapse console, clear console, and rerun expressions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/step-through-controls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/step-through-controls.html
 release: australia
 product: Scripts
 classification: scripts
@@ -32,10 +32,10 @@ After the Script Debugger pauses a script, use the step-through controls to move
 |Clear expressions|\[Omitted image "console\_clear.png"\] Alt text: Clear expressions in Console|Clears all the expressions in the Console.|
 |Re-execute expression|\[Omitted image "console\_re-execute.png"\] Alt text: Re-execute an expression in Console|Re-executes the expression which is already executed.|
 
-**Parent Topic:**[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/parts-script-debugger-interface.md)
+**Parent Topic:**[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/parts-script-debugger-interface.md)
 
 **Related topics**  
 
 
-[Set or remove breakpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/set-remove-breakpoints.md)
+[Set or remove breakpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/set-remove-breakpoints.md)
 

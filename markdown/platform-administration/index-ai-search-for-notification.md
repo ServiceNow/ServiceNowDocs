@@ -2,7 +2,7 @@
 title: Index AI Search for notifications
 description: Make content from multiple internal indexed sources searchable by performing a full table index. This procedure indexes existing records from the source tables and any child tables configured for indexing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/index-ai-search-for-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/index-ai-search-for-notification.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Make content from multiple internal indexed sources searchable by performing a f
 
 ## Before you begin
 
-Your indexed sources must be active and internal \(referring to ServiceNow AI Platform tables\). To index content from indexed sources for external documents, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-ais.md).
+Your indexed sources must be active and internal \(referring to ServiceNow AI Platform tables\). To index content from indexed sources for external documents, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/external-content-ais.md).
 
 Role required: ais\_admin
 
@@ -43,5 +43,5 @@ If an indexed source contains unindexed records, the Indexed Sources list displa
     When the task completes, the **Ingestion State** field shows **indexed**.
 
 
-**Parent Topic:**[Activate AI Search for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-ai-search-for-notifications-plugin.md)
+**Parent Topic:**[Activate AI Search for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/activate-ai-search-for-notifications-plugin.md)
 

@@ -2,7 +2,7 @@
 title: Execute a skipped record rule
 description: Run skipped record rules based on your set conditions to resolve skipped records in an upgrade. The rules either execute automatically during an upgrade or can run on demand after an upgrade.Execute the skipped record rules on demand on the skipped records whenever it's required.Execute the skipped record rules automatically during the upgrade on the skipped records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-execute-skipped-record-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-execute-skipped-record-rule.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -16,7 +16,7 @@ breadcrumb: [Upgrade Skipped Record Rules Editor tool in Upgrade Console, Upgrad
 
 Run skipped record rules based on your set conditions to resolve skipped records in an upgrade. The rules either execute automatically during an upgrade or can run on demand after an upgrade.
 
-**Parent Topic:**[Upgrade Skipped Record Rules Editor tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-skipped-rules-tool.md)
+**Parent Topic:**[Upgrade Skipped Record Rules Editor tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-skipped-rules-tool.md)
 
 **Related topics**  
 

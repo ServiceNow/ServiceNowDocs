@@ -2,7 +2,7 @@
 title: Using Log Export Service \(LES\)
 description: Use LES to review the log report dashboard.Analyze the size of each data log by reviewing the log report dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-use.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Log Export Service \(LES\), Platform Security]
 
 Use LES to review the log report dashboard.
 
-**Parent Topic:**[Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-intro.md)
+**Parent Topic:**[Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-intro.md)
 
 ## Review log report
 

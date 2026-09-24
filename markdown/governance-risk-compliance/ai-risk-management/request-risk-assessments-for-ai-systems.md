@@ -2,7 +2,7 @@
 title: Initiate risk assessment on AI asset's risks
 description: Request risk assessments for risks identified during the AI system's impact assessment. These risks are generated based on the responses provided during the impact assessment of the AI system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -105,7 +105,7 @@ Number of days within which the assessment should be completed after it’s init
 
 ## What to do next
 
-[Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md)
+[Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md)
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

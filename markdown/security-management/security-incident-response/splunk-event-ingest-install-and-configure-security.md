@@ -2,7 +2,7 @@
 title: Install and configure Splunk Enterprise Security Notable Event Ingestion integration
 description: Install and configure Splunk Enterprise Security Notable Event Ingestion integration for Security Operations application from the ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-install-and-configure-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest-install-and-configure-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -28,7 +28,7 @@ Assign a Security Analyst \(ess\_analyst\) user role in Splunk ES to perform all
 
 ## Procedure
 
-1.  If you have not installed the Splunk Enterprise Security Event Ingestion application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the Splunk Enterprise Security Event Ingestion application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After you have successfully installed the application, navigate to **All** &gt; **Security Operations** &gt; **Integrations** &gt; **Integration Configurations**.
 
@@ -134,5 +134,5 @@ If you want to change the MID Server, then you have to reconfigure it from the A
 
 ## What to do next
 
-[Create and name an event profile for the Splunk Enterprise Security event ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)
+[Create and name an event profile for the Splunk Enterprise Security event ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)
 

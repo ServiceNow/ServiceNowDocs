@@ -2,7 +2,7 @@
 title: Create a Cloud file configuration record
 description: Create a cloud file configuration record to manage the access permissions on the cloud document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/manage-access-permissions-to-the-cloud-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/manage-access-permissions-to-the-cloud-file.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -28,7 +28,7 @@ Role required: sn\_grc\_workspace.admin \(CRUD\), sn\_grc\_workspace.user \(Read
 
 3.  On the Cloud file configuration form, fill in the fields.
 
-    For more information on the fields in the form, see [Cloud file configuration record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/document-access-configuration-record-form.md). Once the parent cloud file configuration is active, you can configure the File access permissions for the Cloud file configuration record as shown in the example.
+    For more information on the fields in the form, see [Cloud file configuration record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/document-access-configuration-record-form.md). Once the parent cloud file configuration is active, you can configure the File access permissions for the Cloud file configuration record as shown in the example.
 
     \[Omitted image "cloud-file-configuration-record.png"\] Alt text: Cloud file configuration record.
 

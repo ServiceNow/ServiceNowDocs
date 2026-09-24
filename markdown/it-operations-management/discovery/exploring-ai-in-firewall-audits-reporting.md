@@ -2,7 +2,7 @@
 title: AI in Firewall Audits and Reporting
 description: AI provides an agentic workflow in Firewall Audits and Reporting that helps firewall administrators request new firewall rules using natural language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/exploring-ai-in-firewall-audits-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/exploring-ai-in-firewall-audits-reporting.html
 release: australia
 product: Discovery
 classification: discovery
@@ -51,8 +51,8 @@ A firewall administrator wants to request a new firewall rule by describing it i
 
 </td><td>
 
--   [Firewall rule requests using agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md)
--   [Request firewall rules using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md)
+-   [Firewall rule requests using agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md)
+-   [Request firewall rules using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md)
 
 </td></tr></tbody>
 </table>

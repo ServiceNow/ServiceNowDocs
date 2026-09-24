@@ -2,7 +2,7 @@
 title: ServiceNow Otto in Virtual Agent in self-service portal
 description: Integrate the ServiceNow Otto in Virtual Agent in Virtual Agent with Customer and Consumer Service Portals to enable generative AI skills in your conversational experiences. It helps create a natural-language conversational experience that can improve the success of your self-service workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/nava-csp-csm-portals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/nava-csp-csm-portals.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,9 +36,9 @@ Use the following steps to get started with ServiceNow Otto in Virtual Agent in 
 **Related topics**  
 
 
-[ServiceNow Otto conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nass-portal.md)
+[ServiceNow Otto conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nass-portal.md)
 
-[Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/va-csp-csm-portal.md)
+[Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/va-csp-csm-portal.md)
 
 [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 

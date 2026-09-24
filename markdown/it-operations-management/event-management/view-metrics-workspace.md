@@ -2,7 +2,7 @@
 title: View metrics for an alert
 description: Viewing metrics enables you to understand historical data related to an alert's CI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-metrics-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/view-metrics-workspace.html
 release: australia
 product: Event Management
 classification: event-management
@@ -19,7 +19,7 @@ Viewing metrics enables you to understand historical data related to an alert's 
 ## Before you begin
 
 -   Ensure that you install the Operational Intelligence \(com.snc.sa.metric\) plugin.
--   Configure the metrics to be displayed for the alert, as described in [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-alert-metrics-itom.md).
+-   Configure the metrics to be displayed for the alert, as described in [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-alert-metrics-itom.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -55,5 +55,5 @@ Role required: evt\_mgmt\_admin
 **Related topics**  
 
 
-[View metric values in the Insights Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/view-metrics-explorer.md)
+[View metric values in the Insights Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/view-metrics-explorer.md)
 

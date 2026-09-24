@@ -2,7 +2,7 @@
 title: Update other assigned audit tasks in Audit Workspace
 description: Update the audit tasks such as walkthroughs and interviews that are assigned to you when you get a notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/update-assigned-audit-tasks-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/update-assigned-audit-tasks-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

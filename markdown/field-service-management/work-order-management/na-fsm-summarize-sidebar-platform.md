@@ -2,7 +2,7 @@
 title: Summarize a Sidebar discussion
 description: Generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the ServiceNow Otto for Field Service Management \(FSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/na-fsm-summarize-sidebar-platform.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/na-fsm-summarize-sidebar-platform.html
 release: australia
 product: Work Order Management
 classification: work-order-management

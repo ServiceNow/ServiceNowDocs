@@ -2,7 +2,7 @@
 title: Creating iterations for teams in EAP
 description: Create Planning Intervals \(PIs\) and Sprints directly from the Backlog by entering start and end dates, without setting up planning calendar entries first.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -26,11 +26,11 @@ Iteration planning in EAP lets scrum masters and team members plan their own cad
 
 ## Creating iterations from the Backlog
 
-From EAP version 4.17.0, create a Planning Interval or Sprint directly from the team's Backlog by entering the start and end dates on the modal. The underlying planning calendar entries are created for you, so nobody has to define calendar entries before teams can plan. For the steps, see [Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
+From EAP version 4.17.0, create a Planning Interval or Sprint directly from the team's Backlog by entering the start and end dates on the modal. The underlying planning calendar entries are created for you, so nobody has to define calendar entries before teams can plan. For the steps, see [Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
 
 If you upgraded from an earlier version, the planning calendar entries that your admin defined remain valid. Existing iterations keep their dates, and teams can continue to create iterations within the timelines that those entries define. When an entry already matches the team, the dates on the modal are read-only and the system uses the dates from that entry.
 
-Define calendar entries in advance only if you have a specific requirement to manage iteration timelines from a central place. For more information, see [Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md).
+Define calendar entries in advance only if you have a specific requirement to manage iteration timelines from a central place. For more information, see [Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md).
 
 ## User roles to create and update iterations
 
@@ -44,7 +44,7 @@ The role that a user has and whether a timeline already exists for the team toge
 
 Because many teams can share one planning calendar, an EAP scrum master creates the first iteration for one of the ARTs in a configuration. After that timeline exists, an EAP user can create the following Planning Intervals and Sprints for the other ARTs and teams that share the same calendar. If no timeline exists yet, the iteration isn't created and a message asks the user to contact their scrum master.
 
-These roles are contained within one another. The EAP admin role contains the EAP scrum master role, which contains the EAP user role, which contains the EAP read-only role. A user with a containing role also gets the access of the roles within it. For details on the roles installed with Enterprise Agile Planning, see [Components installed with Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/components-installed-with-enterprise-agile-planning.md).
+These roles are contained within one another. The EAP admin role contains the EAP scrum master role, which contains the EAP user role, which contains the EAP read-only role. A user with a containing role also gets the access of the roles within it. For details on the roles installed with Enterprise Agile Planning, see [Components installed with Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/components-installed-with-enterprise-agile-planning.md).
 
 ## Calendar sharing across teams
 
@@ -54,9 +54,9 @@ All Agile Teams in one ART share that ART's timeline. When you create a Planning
 
 By default, the ARTs in one EAP configuration also share their planning calendars. When the first ART creates a Planning Interval, its dates are recorded on the shared calendar. The other ARTs each still create their own Planning Interval from their own Backlog, but the date fields are read-only and use the dates that are already set. A message on the modal states that the calendar is shared with a team that has already created iterations. In this way, every ART in the configuration follows one cadence.
 
-To keep the ARTs in a configuration independent of each other, your admin selects **Allow unique cadence for each team** on the EAP configuration. Each team that's added to the configuration after this option is selected gets its own planning calendar, together with a matching calendar for each of its child levels. Teams that already exist continue to use the default calendar of the configuration. Creating a Planning Interval for one of those ARTs doesn't affect the others. Selecting this option doesn't change the calendars or the iterations that already exist. An EAP admin can clear the option later. For more information, see [Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-eap-configuration.md).
+To keep the ARTs in a configuration independent of each other, your admin selects **Allow unique cadence for each team** on the EAP configuration. Each team that's added to the configuration after this option is selected gets its own planning calendar, together with a matching calendar for each of its child levels. Teams that already exist continue to use the default calendar of the configuration. Creating a Planning Interval for one of those ARTs doesn't affect the others. Selecting this option doesn't change the calendars or the iterations that already exist. An EAP admin can clear the option later. For more information, see [Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-eap-configuration.md).
 
-When you edit the start date or end date of an iteration, the change updates the underlying calendar entry. The change cascades to the iterations on all other teams that share that entry, which keeps iteration dates consistent across teams that plan together. For details on editing dates, see [Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md).
+When you edit the start date or end date of an iteration, the change updates the underlying calendar entry. The change cascades to the iterations on all other teams that share that entry, which keeps iteration dates consistent across teams that plan together. For details on editing dates, see [Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md).
 
 ## Iterations on single-level configurations
 
@@ -64,7 +64,7 @@ A configuration can define a planning calendar at the Agile Team level only, wit
 
 On these Sprints, the **Enterprise agile calendar entry** field is empty and isn't required. An EAP user can change the start date and the end date of such a Sprint after it's created, without needing the EAP scrum master role. The date rules in this topic still apply, so a new Sprint can't overlap one that already exists on the same team.
 
-Sprints that carry their own dates also sync to the applications that EAP integrates with. For more information, see [Integration between EAP and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/sync-eap-and-agile-2.md) and [Connecting EAP with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/integrate-eap-with-collaborative-work-management.md).
+Sprints that carry their own dates also sync to the applications that EAP integrates with. For more information, see [Integration between EAP and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/sync-eap-and-agile-2.md) and [Connecting EAP with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/integrate-eap-with-collaborative-work-management.md).
 
 ## Example: Full Configuration
 
@@ -94,18 +94,18 @@ When you create or edit an iteration such as a Planning Interval or Sprint, the 
 -   Cancelled iterations don't reserve their dates. You can create an iteration with the same dates as a cancelled one.
 -   Complete iterations do reserve their dates, so you can't create an iteration that overlaps one. Complete iterations are also left unchanged when iteration dates cascade, which keeps historical dates and metrics intact.
 
-**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md)
 
 **Related topics**  
 
 
-[Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md)
+[Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md)
 
-[Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md)
+[Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md)
 
-[Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md)
+[Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md)
 
-[Agile configurations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.md)
+[Agile configurations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.md)
 
-[Components installed with Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/components-installed-with-enterprise-agile-planning.md)
+[Components installed with Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/components-installed-with-enterprise-agile-planning.md)
 

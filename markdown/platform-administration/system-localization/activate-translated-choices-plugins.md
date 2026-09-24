@@ -2,7 +2,7 @@
 title: Ensure that translated choices appear for applications added by plugins
 description: Ensure that translated choices appear for applications by activating translated choice records after corresponding English choice records have been added by plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/activate-translated-choices-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/activate-translated-choices-plugins.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -18,7 +18,7 @@ Ensure that translated choices appear for applications by activating translated 
 
 ## Before you begin
 
-You must have activated a language and then activated a plugin that includes the corresponding English choice records. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md) and [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+You must have activated a language and then activated a plugin that includes the corresponding English choice records. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_ActivateALanguage.md) and [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ActivateAPlugin.md).
 
 Role required: admin
 

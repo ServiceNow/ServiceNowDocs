@@ -2,7 +2,7 @@
 title: Security Incident Overview section
 description: The Overview section on the workspace presents the key information associated with the security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/security-incident-overview.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,7 +32,7 @@ The Overview section displays the following:
 
 \[Omitted image "overview-security-incident-form.png"\] Alt text: Security incident record overview section
 
-**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 

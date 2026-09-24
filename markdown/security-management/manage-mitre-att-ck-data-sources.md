@@ -2,7 +2,7 @@
 title: Define the data source and detection tool mapping
 description: Define the data source and detection tool mapping for MITRE-ATT&amp;CK tactics and techniques. This mapping provides the insight into the relevance and availability of the data sources and the detection tools for monitoring the data sources in your environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/manage-mitre-att-ck-data-sources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/manage-mitre-att-ck-data-sources.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ You can identify the data sources and the detection tools that your organization
 
 For example, if your organization focuses on 5 techniques, you may need 10 data sources and 10 detection tools to monitor those sources. Let's say that you identify that your organization does not have two data sources and five detection tools. This exercise gives you visibility into the data sources, their relevance to your organization, and to identify gaps in the coverage. You can also focus on enhancing your environment with the right data sources and detection tools.
 
-All the active tactics, techniques, ID, and data sources are automatically populated based on your [TAXII profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/setup-mitre-profile.md)
+All the active tactics, techniques, ID, and data sources are automatically populated based on your [TAXII profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/setup-mitre-profile.md)
 
 ## Procedure
 
@@ -119,7 +119,7 @@ The data source mapping for a record is revoked if the technique and data source
     3.  Use the lookup list to select a detection tool. You can multi-select detection tools.
     4.  Select **Update**.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

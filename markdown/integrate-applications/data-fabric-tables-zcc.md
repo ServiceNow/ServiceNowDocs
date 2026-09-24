@@ -2,7 +2,7 @@
 title: Data fabric tables
 description: Fuel your AI agents and enrich workflows on the ServiceNow AI Platform with external data using data fabric tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-fabric-tables-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/data-fabric-tables-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

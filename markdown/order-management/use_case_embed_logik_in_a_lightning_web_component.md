@@ -2,7 +2,7 @@
 title: Use case: Embed CPQ UI in a Lightning Web Component
 description: Learn how to embed CPQ in a LWC in a Salesforce org.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_embed\_logik\_in\_a\_lightning\_web\_component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/use\_case\_embed\_logik\_in\_a\_lightning\_web\_component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -46,5 +46,5 @@ You can embed CPQ in a Lightning Web Component \(LWC\) in a Salesforce org. This
     If you are passing the configuration URL as a parameter, include a Runtime Token in the URL \(for example,`?rt=xxxxxxxxxxxx`\)
 
 
-**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-cases.md)
 

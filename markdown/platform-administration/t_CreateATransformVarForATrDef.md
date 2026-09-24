@@ -2,7 +2,7 @@
 title: Create a transform variable for a transform definition
 description: Transform variables enable an administrator to apply the same definition to different fields in different ways.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateATransformVarForATrDef.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateATransformVarForATrDef.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

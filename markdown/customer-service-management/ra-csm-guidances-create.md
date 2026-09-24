@@ -2,7 +2,7 @@
 title: Create a guidance in Recommended Actions
 description: Create a guidance that you can select when creating a recommendation in Recommended Actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidances-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-guidances-create.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

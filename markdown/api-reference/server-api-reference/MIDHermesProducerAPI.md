@@ -2,7 +2,7 @@
 title: MIDHermesProducer - Global
 description: The MIDHermesProducer API provides a method to send data from the MID Server to a Hermes topic.Creates a MIDHermesProducer for sending messages to Hermes topics.Sends a message from the MID Server to the specified Hermes topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/MIDHermesProducerAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/MIDHermesProducerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +22,7 @@ This API requires the ServiceNow MID Hermes API \(com.glide.mid.hermes\_api\) pl
 
 Use this API in scripts that run on the MID Server, such as MID Server background scripts or in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md) action script steps with the **Required Runtime** set to **MID**.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## MIDHermesProducer - MIDHermesProducer\(\)
 

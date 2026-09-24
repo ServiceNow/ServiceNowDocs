@@ -2,7 +2,7 @@
 title: Managing inflight order for site projects
 description: Manage how your organization receives changes for customer orders, service orders or individual line items that are still being orchestrated and fulfilled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/inflight-offering-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/inflight-offering-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

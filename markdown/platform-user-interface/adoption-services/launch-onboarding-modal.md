@@ -2,7 +2,7 @@
 title: Launch an Onboarding Modal
 description: Launch an Onboarding Modal you have created in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/launch-onboarding-modal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/launch-onboarding-modal.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -43,5 +43,5 @@ Role required: admin
 10. Select **Save**.
 
 
-**Parent Topic:**[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configure-onboarding-modals.md)
+**Parent Topic:**[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/configure-onboarding-modals.md)
 

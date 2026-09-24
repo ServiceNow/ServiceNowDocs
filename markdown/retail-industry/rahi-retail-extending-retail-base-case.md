@@ -2,7 +2,7 @@
 title: Extending the Retail base case
 description: Extend the Retail Case \(sn\_retail\_case\) base case to create custom case types that take advantage of prebuilt roles, business rules, workflows, and the Retail data model rather than creating them manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-extending-retail-base-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-extending-retail-base-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-28"
@@ -37,5 +37,5 @@ Use the following questions to determine whether your organization needs a new c
 **Related topics**  
 
 
-[Service definitions in Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-service-definitions.md)
+[Service definitions in Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-service-definitions.md)
 

@@ -2,7 +2,7 @@
 title: Create a story in Agile Development 2.0
 description: Create high-level definitions of your requirements in the form of stories in Agile Development 2.0. Manage and track your stories by associating them to a product, project, or release and by assigning them to an assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-a-story.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/create-a-story.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -245,7 +245,7 @@ Defect that is associated with the story. This field is a reference field from t
 
  Only users with the feature\_user role can open a defect. The admin must grant the feature\_user role to all users who are expected to open defects in the Agile Development application. This field is the only location in the Agile Development application where records from the Defect \[rm\_defect\] table appear.
 
- For more information on defects, see [Reporting defects in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/defect-reports.md).
+ For more information on defects, see [Reporting defects in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/defect-reports.md).
 
 </td></tr><tr><td>
 
@@ -257,7 +257,7 @@ Enhancement associated with the story. This field is a reference field from the 
 
  Only users with the feature\_user role can open an enhancement. The admin must grant the feature\_user role to all users who are expected to open enhancement requests in the Agile Development application. This field is the only location in the Agile Development application where records from the Enhancement \[rm\_enhancement\] table appear.
 
- For more information on enhancements, see [Enhancement requests in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/enhancement-requests.md).
+ For more information on enhancements, see [Enhancement requests in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/enhancement-requests.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -270,8 +270,8 @@ Enhancement associated with the story. This field is a reference field from the 
 
 ## What to do next
 
--   Use the related links and lists of the story to create scrum tasks for this story. You can also convert this story into an epic or split it into two stories. For more information, see [Related links and lists for a Story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-2-0-story-related-lists-related-links.md).
--   [Add dependencies for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/Add-dependencies-to-stories.md)
+-   Use the related links and lists of the story to create scrum tasks for this story. You can also convert this story into an epic or split it into two stories. For more information, see [Related links and lists for a Story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/agile-2-0-story-related-lists-related-links.md).
+-   [Add dependencies for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/Add-dependencies-to-stories.md)
 -   You can create a story with the same details as this story by using the **Insert** or **Insert and Stay** options from the story additional actions \(\[Omitted image "additional-options.png"\] Alt text: Additional actions icon.\).
 
     When you use **Insert and Stay**, the form of the newly created story stays open. You can modify the details of the story or create more stories with these details. On the Agile board, the new story is positioned right below the original story. The global rank of the new story is set accordingly.
@@ -279,5 +279,5 @@ Enhancement associated with the story. This field is a reference field from the 
     **Note:** Set the **glide.ui.task.insert** and **glide.ui.advance** properties to **true** to access these actions. These actions are not allowed on stories added from the triage board.
 
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/using-agile-development-2-0.md)
 

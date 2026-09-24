@@ -2,7 +2,7 @@
 title: MISP integration for Security Operations
 description: With MISP integration for Security Operations, you can investigate security incidents with sighting searches, observable enrichment, and create or update events in MISP. Using MISP, you can investigate targeted attacks faster, improve the detection ratio, and reduce the number of false positives in your environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/misp-integration-for-security-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/misp-integration-for-security-operations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,20 +26,20 @@ MISP, which stands for Malware Information Sharing Platform, lets you exchange a
 
 This integration includes the things that you can do with the MISP key features:
 
--   [Connect to private and public MISP instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-and-configure-misp.md).
--   [Support manual and automatic sighting search of observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-searches-in-misp.md).
--   [Run sighting search from case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-searches-in-misp.md).
--   [Report or update sightings to an attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-searches-in-misp.md):
+-   [Connect to private and public MISP instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-and-configure-misp.md).
+-   [Support manual and automatic sighting search of observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-searches-in-misp.md).
+-   [Run sighting search from case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-searches-in-misp.md).
+-   [Report or update sightings to an attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-searches-in-misp.md):
     -   Report an observable as a sighting \(global\)
     -   Report an observable as a false positive \(global\)
     -   Report an observable as expired
--   [Support manual and automatic observable enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/observable-enrichment-in-misp.md). Results include the MISP attribute and event information that is associated with the observables.
--   Attribute enrichment in MISP which includes adding or updating [tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/observable-enrichment-in-misp.md), [galaxies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/observable-enrichment-in-misp.md), or [comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/observable-enrichment-in-misp.md).
--   [Event creation in MISP from SIR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/events-in-misp.md): Supports manual and the automatic creation of events in MISP from SIR.
--   Update a MISP event from SIR which includes adding or updating [tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/events-in-misp.md), [galaxies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/events-in-misp.md), or [attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/events-in-misp.md).
--   [Add security incident associated observables as attributes to a MISP event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/events-in-misp.md).
--   [Auto-extract MITRE-ATT&amp;CK™ information from MISP attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/rollup-mitre-information-using-misp-enrichment-results.md) and associate the information to SIR security incidents.
--   [Automatically add SIR MITRE-ATT&amp;CK™ information as galaxies to a MISP event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/review-the-misp-integration-settings.md).
+-   [Support manual and automatic observable enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/observable-enrichment-in-misp.md). Results include the MISP attribute and event information that is associated with the observables.
+-   Attribute enrichment in MISP which includes adding or updating [tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/observable-enrichment-in-misp.md), [galaxies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/observable-enrichment-in-misp.md), or [comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/observable-enrichment-in-misp.md).
+-   [Event creation in MISP from SIR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/events-in-misp.md): Supports manual and the automatic creation of events in MISP from SIR.
+-   Update a MISP event from SIR which includes adding or updating [tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/events-in-misp.md), [galaxies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/events-in-misp.md), or [attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/events-in-misp.md).
+-   [Add security incident associated observables as attributes to a MISP event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/events-in-misp.md).
+-   [Auto-extract MITRE-ATT&amp;CK™ information from MISP attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/rollup-mitre-information-using-misp-enrichment-results.md) and associate the information to SIR security incidents.
+-   [Automatically add SIR MITRE-ATT&amp;CK™ information as galaxies to a MISP event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/review-the-misp-integration-settings.md).
 
 ## Key concepts
 
@@ -82,10 +82,10 @@ By using the MISP integration for Security Operations, your organization can do 
 |MISP documentation website|[MISP Documentation website](https://www.misp-project.org/documentation/)|
 |ServiceNow product documentation website|[ServiceNow Product Documentation website](https://www.servicenow.com/docs)|
 
--   **[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)**  
+-   **[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-administration.md)**  
 You can set up MISP integration in the ServiceNow AI Platform to perform a sighting search, observable enrichment, and to create and update events in MISP.
--   **[Using MISP to investigate and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-misp-to-detect-and-analyze-threats.md)**  
+-   **[Using MISP to investigate and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-misp-to-detect-and-analyze-threats.md)**  
 You can use the MISP data across the ServiceNow AI Platform Threat Intelligence module and the ServiceNow AI Platform SIR module to investigate and analyze threats to your organization.
 
-**Parent Topic:**[Threat Intelligence integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-integrations.md)
+**Parent Topic:**[Threat Intelligence integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-integrations.md)
 

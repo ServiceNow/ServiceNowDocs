@@ -2,7 +2,7 @@
 title: Dark mode in Theme Builder
 description: Learn how to switch to dark mode in Theme Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/dark-mode-theme-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/dark-mode-theme-builder.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,5 +20,5 @@ Theme Builder includes a dark mode option, offering an eye-friendly alternative 
 
 \[Omitted image "tb-display-mode.png"\] Alt text: Theme Builder display mode options modal with Dark mode selected.
 
-**Parent Topic:**[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
+**Parent Topic:**[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-theming.md)
 

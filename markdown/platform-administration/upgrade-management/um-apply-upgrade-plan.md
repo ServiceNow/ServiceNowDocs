@@ -2,7 +2,7 @@
 title: Apply Upgrade Plan on your upgrade
 description: Apply the selected upgrade plan to your instance upgrade.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-apply-upgrade-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-apply-upgrade-plan.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -26,7 +26,7 @@ Role required: admin
 
     If the upgrade plan has been implemented on the ongoing upgrade, the Review upgrade plan link shows up on the Target version card.
 
-    See Upgrade Plan background operations section in [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
+    See Upgrade Plan background operations section in [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
 
 2.  Check on the date and time of the implemented upgrade plan in the Upgrade duration card once the upgrade completes.
 
@@ -44,10 +44,10 @@ Role required: admin
     \[Omitted image "uc-upgrade-plan-history.png"\] Alt text: Upgrade Plan History screen.
 
 
--   **[Review skipped records with upgrade plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-review-skipped-records-upgrade-plan.md)**  
+-   **[Review skipped records with upgrade plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-review-skipped-records-upgrade-plan.md)**  
 Review the skipped records after the completion of the upgrade.
 
-**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
+**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
 
 **Related topics**  
 

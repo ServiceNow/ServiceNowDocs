@@ -2,7 +2,7 @@
 title: Enable using your own POP3 server
 description: You can use your own POP3 server to store and receive email for the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfAltEmailConfPOP3Server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfAltEmailConfPOP3Server.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ You can use your own POP3 server to store and receive email for the instance.
 
 -   Role required: admin
 -   Email server required: POP3
--   [Basic email properties:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfiguringStandardEmail.md) enabled
+-   [Basic email properties:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ConfiguringStandardEmail.md) enabled
 
 ## Procedure
 
@@ -138,7 +138,7 @@ System Address Filter
 
 System address filter to apply to the email account. If left empty, the system uses the default system address filter for inbound or outbound email.
 
- For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-address-filters.md).
+ For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-address-filters.md).
 
 </td></tr><tr><td>
 
@@ -178,5 +178,5 @@ Option to create node logs for the raw data that is exchanged with the email ser
 
 \[Omitted image "alt-email-configuration-pop3-server.png"\] Alt text: Diagram showing ServiceNow email flow using POP3 server, where outbound messages from the instance and user are routed through mail servers and DNS, and inbound messages are received through an incoming mail server after spam filtering
 
-**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AlternateEmailConfigurations.md)
 

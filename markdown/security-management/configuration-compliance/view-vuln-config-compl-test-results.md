@@ -2,7 +2,7 @@
 title: View Configuration Compliance test results
 description: View Configuration Compliance test results for auditing and remediation. The test results are automatically created during third-party vulnerability integration imports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/view-vuln-config-compl-test-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/view-vuln-config-compl-test-results.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Configuration Compliance, Unified Security Exposure Mana
 
 View Configuration Compliance test results for auditing and remediation. The test results are automatically created during third-party vulnerability integration imports.
 
-**Important:** You can view the test results created during the third-party vulnerability integration imports in the Vulnerability Manager Workspace. For more information, see [List page in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-list-page.md).
+**Important:** You can view the test results created during the third-party vulnerability integration imports in the Vulnerability Manager Workspace. For more information, see [List page in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-list-page.md).
 
 ## Before you begin
 
@@ -167,7 +167,7 @@ State
 
 </td><td>
 
-Calculated from the remediation tasks that the test result belongs to. If the test result belongs to multiple groups, an [order of precedence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-correlation.md) is applied to determine state.
+Calculated from the remediation tasks that the test result belongs to. If the test result belongs to multiple groups, an [order of precedence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/vuln-config-compl-correlation.md) is applied to determine state.
 
 </td></tr><tr><td>
 
@@ -175,7 +175,7 @@ Resolution
 
 </td><td>
 
-Calculated from the remediation tasks that the test result belongs to. If the test result belongs to multiple groups, an [order of precedence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-correlation.md) is applied to determine resolution.
+Calculated from the remediation tasks that the test result belongs to. If the test result belongs to multiple groups, an [order of precedence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/vuln-config-compl-correlation.md) is applied to determine resolution.
 
 </td></tr><tr><td>
 

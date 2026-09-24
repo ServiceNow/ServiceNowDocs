@@ -2,7 +2,7 @@
 title: Accessibility features in mobile
 description: To make the user interface of the ServiceNow Mobile Platform accessible to users with disabilities, ServiceNow includes features that support several specifications in the Web Content Accessibility Guidelines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/accessibility-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/accessibility-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

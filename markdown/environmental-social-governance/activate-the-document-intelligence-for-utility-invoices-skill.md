@@ -2,7 +2,7 @@
 title: Activate the document intelligence for utility invoices skill
 description: Activate and then configure document intelligence for utility invoices skill from Now Assist to automate the extraction of metrics data from utility invoices. Once activated, map the extracted data to the correct metric definitions and entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/activate-the-document-intelligence-for-utility-invoices-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/activate-the-document-intelligence-for-utility-invoices-skill.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,8 +39,8 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 The document intelligence for utility invoices skill is active and is available to be used in the Operational Sustainability Workspace.
 
--   **[Setup metric definition and entity-mapping records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/setup-metric-definition-and-entity-mapping-records.md)**  
+-   **[Setup metric definition and entity-mapping records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/setup-metric-definition-and-entity-mapping-records.md)**  
 Configure your environment so that values extracted using the Document Intelligence for Utility Invoices skill map to the correct metrics and entities. This eliminates manual data entry and improves accuracy.
 
-**Parent Topic:**[Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-now-assist-for-esg.md)
+**Parent Topic:**[Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configure-now-assist-for-esg.md)
 

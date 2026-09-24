@@ -2,7 +2,7 @@
 title: Identify task improvement actions
 description: Initiate an automation request from a Task Mining task timeline analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/identify-improvement-opportunities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/identify-improvement-opportunities.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -20,9 +20,9 @@ Initiate an automation request from a Task Mining task timeline analysis.
 
 Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
-Automation Center must be installed to initiate an automation request. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md).
+Automation Center must be installed to initiate an automation request. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/integration-with-automation-center.md).
 
-The project requires a task timeline analysis to take task improvement actions. A task timeline analysis contains tasks with sequential task time steps of user interactions. Use these task steps as the basis of your improvement opportunities. For more information, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md).
+The project requires a task timeline analysis to take task improvement actions. A task timeline analysis contains tasks with sequential task time steps of user interactions. Use these task steps as the basis of your improvement opportunities. For more information, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/task-mining-dashboard.md).
 
 Submitting an automation request from Task Mining is the entry point to building a complete desktop automation. Automatically convert desktop processes into executable AI agents: capture the task \(desktop processes\) in Task Mining, create desktop actions \(automation blocks\) and AI agent in Automation Center, and test and deploy the AI agent in AI Agent Studio.
 
@@ -114,9 +114,9 @@ Create an automation request agent to efficiently manage the tasks of the Task M
 **Related topics**  
 
 
-[Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md)
+[Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/integration-with-automation-center.md)
 
-[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
+[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/task-mining-dashboard.md)
 
 [Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/creating-desktop-actions-tm-ac.md)
 

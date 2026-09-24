@@ -2,7 +2,7 @@
 title: Before you start with EmployeeWorks Web App
 description: Verify the prerequisites, plugins, roles, licenses, and assets that EmployeeWorks Web App requires.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-prereqs-useful-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-prereqs-useful-info.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

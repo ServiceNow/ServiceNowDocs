@@ -2,7 +2,7 @@
 title: Configure an encoded query data item for chart screens
 description: Configure an encoded query data item to query data for chart screens. An encoded query data item is a parametrized data item that is the basis for a chart screen to be passed to a list screen. When tapped it enables users to drill-down to a list of items that the chart is created from.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-relative-url-data-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-relative-url-data-item.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -68,7 +68,7 @@ Table
 
 </td><td>
 
-The name of the table you want the data item to pull information from.**Note:** Custom tables are not available by default. You can change this behavior by modifying the **subscription.custom\_table.enforce\_entitlement** system property. For details on making this change, see [Allow or restrict access to custom tables in mobile data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-allow-custom-tables.md).
+The name of the table you want the data item to pull information from.**Note:** Custom tables are not available by default. You can change this behavior by modifying the **subscription.custom\_table.enforce\_entitlement** system property. For details on making this change, see [Allow or restrict access to custom tables in mobile data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-allow-custom-tables.md).
 
 </td></tr><tr><td>
 
@@ -104,5 +104,5 @@ This field only appears after you select **Append Encoded Query** in the **Condi
 
 ## What to do next
 
-For more information on how parameters pass values between screens, see [Parametrized list screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/list-applet-parameters.md).
+For more information on how parameters pass values between screens, see [Parametrized list screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/list-applet-parameters.md).
 

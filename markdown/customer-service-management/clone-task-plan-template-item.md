@@ -2,7 +2,7 @@
 title: Clone a template item
 description: Clone an existing template item to add to a task plan template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/clone-task-plan-template-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/clone-task-plan-template-item.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

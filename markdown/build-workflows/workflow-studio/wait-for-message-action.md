@@ -2,7 +2,7 @@
 title: Wait For Message action
 description: Pause a flow until it receives a specific message from the flow API. Specify the string message that resumes running the flow, and optionally provide a time out value to resume the flow if no message is received after a specific amount of time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/wait-for-message-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/wait-for-message-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -95,5 +95,5 @@ Since the API message value matched the conditions of the Wait for Message actio
 
 Here is the activity log of the change request. The payload value `Resubmitted for approval` was added to the **Additional comments** field.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

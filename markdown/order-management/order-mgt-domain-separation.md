@@ -2,7 +2,7 @@
 title: Domain separation and Order Management
 description: Domain separation is supported for Order Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.OM revamp project - This topic was unhidden on Oct 30, 2025. Toby reviewed and approved it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -55,14 +55,14 @@ If customer or service orders have an account name, an administrator can identif
 
 If fulfillment agents or managers are assigned to a domain, an administrator can assign them to work on customer orders, service orders, and order tasks for a specific domain \(account\).
 
-**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-reference.md)
 
 **Related topics**  
 
 
-[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md)
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-service-orders.md)
+[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/managing-service-orders.md)
 

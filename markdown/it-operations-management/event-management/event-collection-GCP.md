@@ -2,7 +2,7 @@
 title: Event collection from Google Cloud Platform \(GCP\)
 description: The MID WebService Event Collector enables you to collect JSON formatted event messages sent from Google Cloud Platform \(GCP\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/event-collection-GCP.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/event-collection-GCP.html
 release: australia
 product: Event Management
 classification: event-management
@@ -23,8 +23,8 @@ Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is inst
 Ensure that you:
 
 -   Deploy and start the MID Server. See [MID Server configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerConfiguration.md) .
--   Configure and start the MID Web Server. See [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
--   Configure and start the MID WebService Event Collector. See [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-em-context-extension.md).
+-   Configure and start the MID Web Server. See [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension.md).
+-   Configure and start the MID WebService Event Collector. See [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-em-context-extension.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -88,5 +88,5 @@ The following procedure describes the collection of JSON formatted event message
 
 GCP does not send values such as the severity level into the payload. The default severity is Minor, which can be changed in the **Push Connector Configuration** section of **Push Connectors** &gt; **Google Monitor MID Push Connector**. The valid values of severity are **1- Critical**, **2- Major**, **3- Minor**, **4- Warning**, and **5- Info**.
 
-**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-listener-transform-script.md)
 

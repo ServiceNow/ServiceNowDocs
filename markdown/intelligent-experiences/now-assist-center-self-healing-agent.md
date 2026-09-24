@@ -2,7 +2,7 @@
 title: Self-healing AI agent
 description: Use the self-healing AI agent in the AI Admin Center conversational experience to diagnose common AI administration issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-self-healing-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-self-healing-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -21,7 +21,7 @@ The self-healing AI agent is a diagnostic assistant in the AI Admin Center conve
 
 The self-healing AI agent is turned on by default.
 
-The self-healing AI agent may work with other AI agents to accomplish tasks. For more information on AI agents, see [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md).
+The self-healing AI agent may work with other AI agents to accomplish tasks. For more information on AI agents, see [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-ai-agents.md).
 
 ## AI agent details
 
@@ -56,7 +56,7 @@ Assesses whether the admin's AI problem description contains enough information 
  Outputs a visible triage summary confirming the final problem description and readiness status so that behavior can be verified in both standalone and workflow testing.
 
 </td></tr></tbody>
-</table>For more information on viewing your AI agents, see [View and manage your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-assets.md).
+</table>For more information on viewing your AI agents, see [View and manage your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-ai-assets.md).
 
 ## AI agent access
 

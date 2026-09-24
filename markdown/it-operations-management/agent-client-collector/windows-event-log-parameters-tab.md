@@ -2,7 +2,7 @@
 title: Windows event log filter parameters
 description: The configurable values on the Check Parameters tab of the os.windows.check-event-log check.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/windows-event-log-parameters-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/windows-event-log-parameters-tab.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -132,5 +132,5 @@ Integer
 Any value equal to or above the specified parameter generates a Critical event.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 

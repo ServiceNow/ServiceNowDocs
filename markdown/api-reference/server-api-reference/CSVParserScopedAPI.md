@@ -2,7 +2,7 @@
 title: CSVParser - Scoped
 description: The CSVParser API provides methods for parsing comma-separated value \(CSV\) formatted records into an object or an array.Parses passed in CSV formatted content into an array.Parses passed in CSV formatted content into an object.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CSVParserScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/CSVParserScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The CSVParser API provides methods for parsing comma-separated value \(CSV\) for
 
 This API runs in the `sn_impex` namespace.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## CSVParser - parseLineToArray\(String cvsLine, String delimiter, String quoteCharacter\)
 

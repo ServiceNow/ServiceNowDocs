@@ -2,7 +2,7 @@
 title: Self-Service pre-built topics for ITSM Virtual Agent
 description: Self-Service topic conversations are designed to give users to access IT-related information, such as open or check IT ticket status, verify assigned equipment, and Knowledge Base search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-self-service-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/itsm-va-self-service-topics.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -22,7 +22,7 @@ Users can book a conference room in Microsoft Exchange Online using Virtual Agen
 
 Requirement: [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ms-exch-online-spoke.md) \(sn\_ex\_online\_spke\)
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 Basic flow:
 
@@ -50,7 +50,7 @@ Users can book a conference room in on-premises Microsoft Exchange Server using 
 
 Requirement: [Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/msexchangeserver-spoke.md) \(sn\_exchange\_spoke\)
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 Basic flow:
 
@@ -92,7 +92,7 @@ Users can raise the urgency of an IT ticket for a faster resolution. Escalating 
 
 ## Get Password Reset Link \(deprecated\)
 
-This topic is deprecated. Use [Reset Password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-password-management.md) instead.
+This topic is deprecated. Use [Reset Password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-password-management.md) instead.
 
 Users can access a password reset link when system lockout occurs or when passwords are forgotten. When a user enters keywords related to password reset, Virtual Agent provides a link to the password reset process. If a user is not authenticated in the system, Virtual Agent requests the user's email address. If a user is not enrolled in Password Reset, Virtual Agent provides a link to **Password Enrollment**.
 
@@ -109,7 +109,7 @@ Requirements:
 -   User email address must be configured in the User \[sys\_user\] table
 -   User email address must match the address in Microsoft Exchange Online and Zoom
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 Basic flow:
 
@@ -129,7 +129,7 @@ Basic flow:
 
 Users can view a list of all assigned equipment, such as laptops, mobile phones, and monitors. Clicking an item link provides additional details about the asset. Users can also create an asset-related incident directly within the conversation. Opening an incident from this conversation initiates the Open IT Ticket conversation topic by using the Create Incident topic block.
 
-This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Contextual Search
 -   Create Incident
@@ -144,7 +144,7 @@ This topic is deprecated. Use Open IT Ticket 2.0 instead.
 
 Users can open an incident or access relevant knowledge base articles to resolve an issue. After typing keywords, such as `open ticket` or `incident`, Virtual Agent prompts the user to enter a short description of the issue. Virtual Agent returns links to relevant knowledge base articles and asks if an article resolved the issue. If it did not, Virtual Agent asks for the urgency of the issue and creates an incident, providing a link to the actual incident.
 
-This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Contextual Search
 -   Create Incident
@@ -157,9 +157,9 @@ When creating an incident, if you also want to create an associated Universal Re
 
 This topic is recommended to create an IT incident. Users can leverage machine-learning algorithms with application logic for predicting similar open tickets. Prevent users from opening duplicate incidents by finding similar incidents and asking if the user wants to add comments to the similar incident.
 
-Requirement: [Predictive Intelligence for Incident plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-predictive-intelligence-for-im.md) \(com.snc.incident.ml\)
+Requirement: [Predictive Intelligence for Incident plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-predictive-intelligence-for-im.md) \(com.snc.incident.ml\)
 
-This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Add Comments-Similar Incident
 -   Contextual Search
@@ -183,7 +183,7 @@ Users can set an automatic out-of-office reply for Microsoft Exchange Server usi
 
 Requirement: [Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/msexchangeserver-spoke.md) \(sn\_exchange\_spoke\)
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 \[Omitted image "SetOOOExchangeServer3.png"\] Alt text: Set OOO reply Exchange Server topic.
 
@@ -217,9 +217,9 @@ When the user selects the required item, the following scenarios are possible:
 
 Users can check into a ServiceNow® Walk-up Experience location and secure a place in the queue, or they can schedule an appointment at a walk-up location for themselves. Users can also schedule an appointment on behalf of someone else.
 
-Requirement: [Walk-up Experience plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/activate-walkup-experience.md) \(com.snc.walkup\)
+Requirement: [Walk-up Experience plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/activate-walkup-experience.md) \(com.snc.walkup\)
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 \[Omitted image "WalkupCheckin.png"\] Alt text: Walk-up Check-in topic.
 
@@ -234,9 +234,9 @@ Requirements:
 -   [Microsoft Azure Active Directory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-azure-ad-spoke.md) \(com.sn.azure\_ad.spoke\)
 -   Integration with the Microsoft service via ServiceNow® Integration Hub and Workflow Studio
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 \[Omitted image "CloudPC1.png"\] Alt text: Windows 365 Cloud PC topic.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

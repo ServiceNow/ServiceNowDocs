@@ -2,7 +2,7 @@
 title: Components installed with voice
 description: Information about the roles, tables, and scheduled jobs that are installed with Voice Agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/components-installed-with-voice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/components-installed-with-voice.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

@@ -2,7 +2,7 @@
 title: Confirm the assigned assets on the Employee Center portal
 description: As an employee, acknowledge or deny the ownership of the serialized hardware assets assigned to you on the Employee Center portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/confirm-assets-on-emp-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/confirm-assets-on-emp-center.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -67,7 +67,7 @@ To view the **My Assets** option on the global header navigation bar of the Empl
     -   If you selected **Yes**, the **Status** field changes from **Open** to **Yes**.
     -   If you selected **No**, the **Status** field changes from **Open** to **No**. Also, a remediation task is created for that attestation. The administrator can work on that task and initiate an investigation to find the asset status.
 
-**Parent Topic:**[Confirming the assigned serialized hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/confirming-assets-emp-portal-mobile.md)
+**Parent Topic:**[Confirming the assigned serialized hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/confirming-assets-emp-portal-mobile.md)
 
 **Related topics**  
 

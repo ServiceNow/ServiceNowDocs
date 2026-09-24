@@ -2,7 +2,7 @@
 title: Set additional filter parameters for Qualys imports
 description: Customize the filtering parameters for your scheduled queries with the Qualys Vulnerability Integration to help you further refine the vulnerability data you import with the supported Qualys integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-qualys-add-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/cc-qualys-add-filters.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

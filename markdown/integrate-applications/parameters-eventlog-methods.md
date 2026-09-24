@@ -2,7 +2,7 @@
 title: Parameters of the EventLog connector methods
 description: Learn about the parameters of the EventLog connector methods in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/parameters-eventlog-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/parameters-eventlog-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -69,7 +69,7 @@ Yes
 </td></tr></tbody>
 </table>## Enter inputs for parameters
 
-To enter inputs for the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To enter inputs for the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
-**Parent Topic:**[Eventlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/eventlog.md)
+**Parent Topic:**[Eventlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/eventlog.md)
 

@@ -2,7 +2,7 @@
 title: Microsoft dashboards in Software Asset Management classic
 description: View installations, cost, and compliance for Microsoft software such as SQL Server in the Software Asset Management classic application. View subscription use, cost, and compliance for Microsoft 365.SARAH: One is an analytics dashboard. Do you think we should combine?
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/dashboard-microsoft.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/dashboard-microsoft.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -48,7 +48,7 @@ Product Results
 
 </td><td>
 
-Number of products that have at least one software model out of compliance.Select the report to view the results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
+Number of products that have at least one software model out of compliance.Select the report to view the results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -209,7 +209,7 @@ Number of total active rights per SQL Server.
 </td></tr></tbody>
 </table>## Office 365 &amp; Adobe Cloud dashboard
 
-Only Microsoft 365 software products that are recognized as subscription software are shown. [Microsoft Office 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/set-up-microsoft-office-365.md) must be set up to view compliance information.
+Only Microsoft 365 software products that are recognized as subscription software are shown. [Microsoft Office 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/set-up-microsoft-office-365.md) must be set up to view compliance information.
 
 \[Omitted image "publisher-dashboard-o365.png"\] Alt text: Office 365 &amp; Adobe Cloud dashboard.
 
@@ -283,7 +283,7 @@ Software Model Results
 
 </td><td>
 
-Number of software models out of compliance.Select the report view the results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
+Number of software models out of compliance.Select the report view the results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -346,5 +346,5 @@ License Metric Results
 Breakdown of subscription total cost by product/version/edition \(software model\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
 

@@ -2,7 +2,7 @@
 title: Email to case
 description: Set up email addresses that customers can use to submit cases to your team. To help assign cases to specific teams, you can designate email addresses to specific products. While agents work on the cases, they can also email customers with updates and proposed solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/email-to-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/email-to-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ The system administrator can also create a channel configuration to associate an
 **Related topics**  
 
 
-[Configure an email address for a product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ConfigureEmailCommunication.md)
+[Configure an email address for a product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ConfigureEmailCommunication.md)
 
 [Email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailAccounts.md)
 

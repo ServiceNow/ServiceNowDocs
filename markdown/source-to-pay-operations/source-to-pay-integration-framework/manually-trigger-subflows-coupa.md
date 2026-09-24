@@ -2,7 +2,7 @@
 title: Trigger a flow or subflow in Coupa
 description: Manually trigger a flow or subflow in Coupa.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/manually-trigger-subflows-coupa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/manually-trigger-subflows-coupa.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -35,9 +35,9 @@ Role required: sn\_fcms\_intg.integration\_user
 
 ## What to do next
 
-To view the status of the executed flow and a list of errors \(if any\), see [View the execution status of a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/view-executed-flow-status.md)
+To view the status of the executed flow and a list of errors \(if any\), see [View the execution status of a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/view-executed-flow-status.md)
 
-**Parent Topic:**[Use Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/using-source-to-pay-coupa-integration.md)
+**Parent Topic:**[Use Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/using-source-to-pay-coupa-integration.md)
 
 **Related topics**  
 

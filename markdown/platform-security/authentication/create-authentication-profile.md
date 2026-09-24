@@ -2,7 +2,7 @@
 title: Create an authentication profile
 description: Create an authentication profile and add one or more authentication policies to the profile. You can also configure the ID Token and OAuth Token authentication profiles that are available by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-authentication-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-authentication-profile.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,7 +2,7 @@
 title: Legacy: Incident Premium dashboard
 description: This dashboard uses Workbench widgets and other advanced Platform Analytics features to give you all the information about the Incident process in one place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-premium-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/incident-premium-dashboard.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -18,7 +18,7 @@ This dashboard uses Workbench widgets and other advanced Platform Analytics feat
 
 **Important:**
 
-Starting in Xanadu release, the Incident Premium dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) for Workbench widgets and other advanced Platform Analytics features to know about the Incident process in one place.
+Starting in Xanadu release, the Incident Premium dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident.md) for Workbench widgets and other advanced Platform Analytics features to know about the Incident process in one place.
 
 \[Omitted image "incident-premium-tab-p.gif"\] Alt text: Incident Premium dashboard tabs
 
@@ -195,5 +195,5 @@ The dashboard includes the following filters:
 |Incident Category|Choice list|Filter the report visualizations based on the **Category** of the incident record.|
 |Incident Opened|Date|Filter the report visualizations based on the date when the incident is created.|
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-content-pack.md)
 

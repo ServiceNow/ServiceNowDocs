@@ -2,7 +2,7 @@
 title: Agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\)
 description: Agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\) enable ServiceNow Otto for SAM managers to manage software requests, create reclamation rules, and evaluate software removal candidates reducing manual effort and improving operational efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/explore-agentic-workflows-now-assist-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/explore-agentic-workflows-now-assist-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -30,7 +30,7 @@ Available AI agents
 
 </th></tr></thead><tbody><tr><td>
 
-[Help manage software request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-assist-sam-fulfill-sw-asset-requests-workflow.md)
+[Help manage software request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/now-assist-sam-fulfill-sw-asset-requests-workflow.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Fulfill a software asset request by either allocating the available entitlements
 
 </td></tr><tr><td>
 
-[Create software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-assist-sam-create-software-reclamation-rule-workflow.md)
+[Create software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/now-assist-sam-create-software-reclamation-rule-workflow.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Software reclamation rule creation AI agent
 
 </td></tr><tr><td>
 
-[Evaluate software removal candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-assist-sam-evaluate-removal-candidate-workflow.md)
+[Evaluate software removal candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/now-assist-sam-evaluate-removal-candidate-workflow.md)
 
 </td><td>
 
@@ -77,5 +77,5 @@ Activate the trigger to invoke the agentic workflow automatically. If you prefer
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
-**Parent Topic:**[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/exploring-now-assist-sam.md)
+**Parent Topic:**[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/exploring-now-assist-sam.md)
 

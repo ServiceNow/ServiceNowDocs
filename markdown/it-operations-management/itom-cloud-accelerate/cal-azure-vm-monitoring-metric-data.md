@@ -2,7 +2,7 @@
 title: CAL - Azure VM Monitoring Metric Data action
 description: Action that returns monitoring information for the specified Microsoft Azure Virtual Machine \(VM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/cal-azure-vm-monitoring-metric-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/cal-azure-vm-monitoring-metric-data.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -24,7 +24,7 @@ Action that returns monitoring information for the specified Microsoft Azure Vir
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
+    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
 
 
 ## Cloud permission
@@ -65,5 +65,5 @@ You can use these outputs as inputs for other actions.
     The result variable contains the monitoring information for the specified Microsoft Azure VM.
 
 
-**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
 

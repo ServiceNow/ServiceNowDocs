@@ -2,7 +2,7 @@
 title: Generate a post-incident analysis
 description: Automatically generate a post-incident analysis for a security incident that includes a root cause analysis, impact assessment, and learning and recommendations information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/generate-pia-report-now-assist-security-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/generate-pia-report-now-assist-security-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -70,5 +70,5 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
     The post-incident analysis is saved in the Post incident analysis field on the Details tab and on the Overview tab on security incidents in Security Incident Response Workspace.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-for-security.md)
+**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-now-assist-for-security.md)
 

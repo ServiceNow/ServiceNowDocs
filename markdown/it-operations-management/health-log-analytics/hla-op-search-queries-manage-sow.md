@@ -2,7 +2,7 @@
 title: Define, save, and share a log data search
 description: Define, save, and share searches of log data to help determine the causes of Log Analytics alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -76,7 +76,7 @@ Time range to apply to the X-axis when displaying the returned data. The setting
 
 3.  Save the search.
 
-    The saved search includes any selected filters. For information about filters, see [Filter search results on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-log-viewer-filter-sow.md).
+    The saved search includes any selected filters. For information about filters, see [Filter search results on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-log-viewer-filter-sow.md).
 
     **Note:** Saved searches do not include time range settings.
 
@@ -84,7 +84,7 @@ Time range to apply to the X-axis when displaying the returned data. The setting
 
     2.  In the **Search name** field, specify a unique and descriptive name for the search and then click **Save**.
 
-    **Note:** If you are using Health Log Analytics application, Version 20.0.11 - July 2021, and the Health Log Analytics Viewer application, Version 20.0.4 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), you can define an alert rule without saving the search. For more information, see [Define a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.md).
+    **Note:** If you are using Health Log Analytics application, Version 20.0.11 - July 2021, and the Health Log Analytics Viewer application, Version 20.0.4 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), you can define an alert rule without saving the search. For more information, see [Define a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.md).
 
 4.  Share the saved search with an assignment group.
 
@@ -98,7 +98,7 @@ Time range to apply to the X-axis when displaying the returned data. The setting
 **Related topics**  
 
 
-[Use or modify a saved log data search in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-saved-sow.md)
+[Use or modify a saved log data search in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-search-queries-saved-sow.md)
 
-[Define a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.md)
+[Define a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.md)
 

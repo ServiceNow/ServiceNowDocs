@@ -2,7 +2,7 @@
 title: View business impact analysis details
 description: Use the Details tab to view the general information of the business impact analysis. You can also adjust the recovery time objective and recovery point objective results of the primary element as per your requirement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-bia-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-bia-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,12 +43,12 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
         -   **Recovery point objective** \(RPO\): Point in time at which the primary element must be restored following a disaster. It also indicates the maximum amount of data loss that a business can sustain during a disruptive event.
         -   **Adjusted RPO**: Edit this field to enter your RPO for the primary element.
 
-            **Note:** **Recovery point objective** and **Adjusted RPO** fields appear only if the primary element requires data backup and is flagged as **Yes** in the [Element Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-element-definitions.md).
+            **Note:** **Recovery point objective** and **Adjusted RPO** fields appear only if the primary element requires data backup and is flagged as **Yes** in the [Element Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-element-definitions.md).
 
         -   **Reason for adjusted RPO**: This field appears when you enter a value in the **Adjusted RPO** field. Enter the reason for adjusting the RPO value.
         -   **Confidentiality**, **Integrity**, and **Availability**: If the primary element includes critical data, then add Confidentiality, Integrity, and Availability \(CIA\) details. CIA details are basic security goals that the BIA must be compliant with. Non-compliance to these standards may lead not only to huge business and productivity loss but also credibility loss.
 
-            **Note:** The **Confidentiality**, **Integrity**, and **Availability** fields appear only if you have already set the **Include CIA** field as **Yes** in the [Configure a business impact analysis template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bia-template.md) that you have used.
+            **Note:** The **Confidentiality**, **Integrity**, and **Availability** fields appear only if you have already set the **Include CIA** field as **Yes** in the [Configure a business impact analysis template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-bia-template.md) that you have used.
 
             If you have not adjusted the RTO and RPO values, you can still view the system-calculated RTO and RPO values in their respective fields.
 

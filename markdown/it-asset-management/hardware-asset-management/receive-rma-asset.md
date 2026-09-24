@@ -2,7 +2,7 @@
 title: Receive asset
 description: After the shipment of the asset to the DaaS provider is complete, confirm the receipt of the asset by using the Receive task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/receive-rma-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/receive-rma-asset.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -77,7 +77,7 @@ Asset
 
 </td><td>
 
-The asset that is selected while creating the associated RMA response order line.For more information, see [Create an RMA response order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-rma-response-order-line.md).
+The asset that is selected while creating the associated RMA response order line.For more information, see [Create an RMA response order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-rma-response-order-line.md).
 
 </td></tr><tr><td>
 
@@ -168,5 +168,5 @@ Unique number for the Receive task.
 
 ## What to do next
 
-[Evaluate the RMA asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/evaluate-rma-asset.md)
+[Evaluate the RMA asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/evaluate-rma-asset.md)
 

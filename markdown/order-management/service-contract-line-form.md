@@ -2,7 +2,7 @@
 title: Customer contract line form
 description: You can create customer contract lines in the Customer Contracts and Entitlements application by using the Customer Contract Line form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/service-contract-line-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/service-contract-line-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -291,5 +291,5 @@ Represents the total price of the contract line by calculating the roll-up amoun
 </td></tr></tbody>
 </table>**Note:** When a customer contract line item is created manually, the **Pricing method**, **Unit net price**, and **Periodicity** fields are invalid. They’re only applicable when the contract line is created by the Sales Customer Relationship Management workflow or by integration. In that case, these fields are auto-populated with the details from the related sold product. The start and end dates of a child customer contract line must be in between the start and end date of the associated parent customer contract line.
 
-**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pss-reference.md)
+**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pss-reference.md)
 

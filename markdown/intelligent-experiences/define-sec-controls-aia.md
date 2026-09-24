@@ -2,7 +2,7 @@
 title: Define security controls for an AI agent
 description: In the guided setup for an AI agent, define security controls for who can access the AI agent and what data the AI agent has access to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-sec-controls-aia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-sec-controls-aia.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 The **Define security controls** step is divided into two parts: **Define user access** and **Define data access**. The former creates an ACL that determines who can discover or invoke the AI agent. The latter defines the data that the AI agent has access to once it’s invoked.
 
-See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for AI agent.
+See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for AI agent.
 
 ## Procedure
 
@@ -66,5 +66,5 @@ You have created an ACL that determines who can discover and access your AI agen
 
 ## What to do next
 
-Select **Save and continue** to move to the next step, [Adding a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md). Adding a trigger is optional. You can also skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia.md).
+Select **Save and continue** to move to the next step, [Adding a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md). Adding a trigger is optional. You can also skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aia.md).
 

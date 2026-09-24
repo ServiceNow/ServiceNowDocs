@@ -2,10 +2,10 @@
 title: Edit a calculated metric definition formula
 description: Edit a formula in a calculated metric definition to update the calculation logic or apply changes to historical data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/edit-a-calculated-metric-definition-formula.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/edit-a-calculated-metric-definition-formula.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Formula building in a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -53,5 +53,5 @@ Roles required: sn\_esg.metric\_manager, or sn\_esg.program\_manager
 
 The formula is saved as a new version. The new version is listed in the **Versions** related list on the calculated metric definition.
 
-**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
+**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
 

@@ -2,7 +2,7 @@
 title: Finance Operations Workspace Case Details page
 description: The Finance Operations Workspace Case Details page is displayed when you select the link of a finance case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/case-details-fin-ops-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/case-details-fin-ops-ws.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -34,7 +34,7 @@ Multi-tab interface
 
 </td><td>
 
-For each finance case, the details are displayed in tabs. For more information, see [Finance Case form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-case-form-tabs.md)
+For each finance case, the details are displayed in tabs. For more information, see [Finance Case form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/fin-case-form-tabs.md)
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Compose
 
 -   Work notes \(Private\): Enter information that must be private to the logged-in user.
 -   Comments: Enter details that are visible to everyone.
--   Email: Send emails related to the finance case. For more information on sending emails, see [Send emails from Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/send-emails-fin-ops-ws.md)
+-   Email: Send emails related to the finance case. For more information on sending emails, see [Send emails from Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/send-emails-fin-ops-ws.md)
 
 </td></tr><tr><td>
 
@@ -63,12 +63,12 @@ Contextual side panel
 Includes options to access Agent assist and add attachments related to the finance case.
 
 </td></tr></tbody>
-</table>-   **[Send emails from Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/send-emails-fin-ops-ws.md)**  
+</table>-   **[Send emails from Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/send-emails-fin-ops-ws.md)**  
 Send emails related to a specific finance case.
--   **[Agent assist in Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/agent-assist-in-fin-ops-ws.md)**  
+-   **[Agent assist in Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/agent-assist-in-fin-ops-ws.md)**  
 Agent assist displays relevant search results based on the search text. The text is defaulted with the short description of the finance case you’re working on.
 
-**Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
+**Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
 
 **Related topics**  
 

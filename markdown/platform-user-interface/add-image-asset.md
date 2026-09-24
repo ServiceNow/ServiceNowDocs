@@ -2,7 +2,7 @@
 title: Add Next Experience font and image assets
 description: Add assets to your Next Experience themes and styles to store extra information associated with a theme, including fonts and images.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-image-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/add-image-asset.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ Upload images associated with your theme including banner images and logos. Add 
 
 The font or image is available to use in your theme.
 
-**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
+**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/config-next-experience-themes-prefs.md)
 

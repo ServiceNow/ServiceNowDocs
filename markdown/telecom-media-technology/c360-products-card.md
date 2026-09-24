@@ -2,7 +2,7 @@
 title: Products card
 description: The products card displays a list of all products associated with the account, consumer, or contact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-products-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-products-card.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ You can do the following:
 -   Filter the list of sold products displayed by Location but this can be configured.
 -   Specify a search criteria to view the list of sold products that meet the criteria. You can search either by name or product characteristic values.
 
-    **Note:** Search by product characteristic values is available only if the **Enable search on product characteristics** flag is enabled. For more information, see [Configure the products card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-products-card.md).
+    **Note:** Search by product characteristic values is available only if the **Enable search on product characteristics** flag is enabled. For more information, see [Configure the products card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-products-card.md).
 
 -   Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the sold product record page.
 -   Select the **Run diagnostics** icon to run diagnostics against a sold product.
@@ -61,9 +61,9 @@ You can run diagnostics from:
 
 After selecting a test and initiating it, a confirmation is shown that the test has been initiated. Once a test is run, the result is created as a record. Refresh the page to view the test results counter updated. Select the test results to view the top 3 three test results sorted by creation date. Select the link to drill down to the record page.
 
-You can configure variables such as tables, display fields, and query conditions. See [Configure the products card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-products-card.md) for details.
+You can configure variables such as tables, display fields, and query conditions. See [Configure the products card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-products-card.md) for details.
 
-**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md)
+**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-home-page.md)
 
 **Related topics**  
 

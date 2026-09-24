@@ -2,7 +2,7 @@
 title: Search Source form
 description: The Search Source form enables you to create a search source that you can make available in AI Search user search experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/search-source-form-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/search-source-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Search Source form enables you to create a search source that you can make available in AI Search user search experiences.
 
-For details on creating or editing search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-source-ais.md).
+For details on creating or editing search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-search-source-ais.md).
 
 <table id="table_f2c_t4r_grb"><thead><tr><th>
 
@@ -40,7 +40,7 @@ Indexed source
 
 </td><td>
 
-Reference to an indexed source. For more details on indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md).
+Reference to an indexed source. For more details on indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/indexed-sources-ais.md).
 
 </td></tr><tr><td>
 
@@ -51,5 +51,5 @@ Conditions
 Set of filter conditions that documents from the indexed source must meet to be included in the search source. For more details on filter conditions, see [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/reference-ais.md)
 

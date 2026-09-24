@@ -2,7 +2,7 @@
 title: Remove HR Administrator role from IT System Administrators
 description: Remove the HR Administrator role from IT System Administrator to prevent access to sensitive HR information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_HRRemoveAdminRole.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_HRRemoveAdminRole.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,11 +45,11 @@ Make sure that you have at least two users with the HR Administrator role. If yo
 
 After removing the HR administrator role from IT System Administrator role, log out and log back for the changes to take effect.
 
-**Note:** Ensure that you have completed the setup before you [Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md).
+**Note:** Ensure that you have completed the setup before you [Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md).
 
 All the default HR scheduled jobs will run as usual even after the HR Administrator role is removed from the IT System Administrator role.
 
 **Note:** System user inherits the IT System Administrator role \(admin\). When you remove HR administrator role from the IT System Administrator role, System user will no longer have the HR administrator role. Validate all your customizations that are running in the context of System user.
 
-**Parent Topic:**[Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md)
+**Parent Topic:**[Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManageRoles.md)
 

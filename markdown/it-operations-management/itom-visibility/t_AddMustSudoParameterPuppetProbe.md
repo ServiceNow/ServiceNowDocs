@@ -2,7 +2,7 @@
 title: Add the must\_sudo parameter to the Puppet probe
 description: To use the Puppet probe with sudo, you must add the must\_sudo parameter to each probe that requires it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/t\_AddMustSudoParameterPuppetProbe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/t\_AddMustSudoParameterPuppetProbe.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -45,5 +45,5 @@ You add the must\_sudo parameter for each Puppet probe.
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Puppet automation software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_PuppetAutomationSoftwareDiscovery.md)
+**Parent Topic:**[Puppet automation software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_PuppetAutomationSoftwareDiscovery.md)
 

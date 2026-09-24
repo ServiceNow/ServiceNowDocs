@@ -2,7 +2,7 @@
 title: Skill inputs for ServiceNow Otto for Strategic Portfolio Management
 description: Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portfolio Management application. Configuring the inputs for a skill helps you to determine how and when a skill is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.html
 release: australia
 product: Project Workspace
 classification: project-workspace

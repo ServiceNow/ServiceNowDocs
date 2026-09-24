@@ -2,7 +2,7 @@
 title: Create an operational schedule for enterprise assets
 description: Define the scheduled operational time, which is the duration during which the asset will be in use, by creating an operational schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-operational-schedule-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-operational-schedule-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -104,5 +104,5 @@ Description of the operational schedule.
 
 ## What to do next
 
-[Map enterprise assets to an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-schedule-eam.md).
+[Map enterprise assets to an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-asset-schedule-eam.md).
 

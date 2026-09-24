@@ -2,7 +2,7 @@
 title: Manage pages and subpages in CWM Docs
 description: Flexibly organize information for your teams and work items by creating, duplicating, and deleting pages and subpages within a Doc in Collaborative Work Management \(CWM\) workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/manage-pages-and-subpages-in-cwm-docs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/manage-pages-and-subpages-in-cwm-docs.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,7 +18,7 @@ Flexibly organize information for your teams and work items by creating, duplica
 
 ## Before you begin
 
-[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
+[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
 
 Role required: sn\_cwm.cwm\_user
 
@@ -53,5 +53,5 @@ Role required: sn\_cwm.cwm\_user
     Only a user with Editor or Owner access to the Space can delete Doc pages. If there's only one page left in the Doc, it can't be deleted by any user.
 
 
-**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-docs.md)
 

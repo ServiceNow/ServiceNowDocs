@@ -2,7 +2,7 @@
 title: Add a Microsoft Azure service account
 description: Add an Azure service account to store the credential and access information. You can use this service account for commercial purpose and it should be different from your Azure government service account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/add-azure-serv-acc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/add-azure-serv-acc.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -129,9 +129,9 @@ The service account that you created gets listed on the **Service accounts** pag
 **Related topics**  
 
 
-[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
+[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
 
-[Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.md)
+[Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.md)
 
 [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/azure-cloud-discovery.md)
 

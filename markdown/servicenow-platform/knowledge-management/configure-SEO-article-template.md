@@ -2,7 +2,7 @@
 title: Generate SEO information for articles using article templates
 description: Improve the searchability of knowledge articles by using the content in an article template field to generate SEO tags for articles created using that template. Search Engine Optimization \(SEO\) optimise searches in public search engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-SEO-article-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/configure-SEO-article-template.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -41,5 +41,5 @@ You can define the number of characters to be used as tags in the **glide.knowma
     **Note:** You can change which article template field is used for generating SEO. Changes are applied only to knowledge articles created or updated after the change was made. To apply the update to all existing published articles created using this template, run the Populate Meta Description on KB Articles fix script.
 
 
-**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
+**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
 

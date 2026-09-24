@@ -2,7 +2,7 @@
 title: Savings opportunity identification
 description: The Savings Opportunity Discovery agentic workflow automatically scans contracts, spend, and supplier data to surface ranked savings opportunities, helping category managers focus on review and action rather than manual discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -53,7 +53,7 @@ When the Savings Opportunity Finder Agents Scheduled Job runs, the Savings Oppor
 
 Each opportunity record contains an estimated opportunity value, a savings lever, a confidence score, supporting data, and links to the suppliers, spend categories, and contracts the analysis drew from. Category managers review the opportunities, accept or dismiss them, and convert accepted opportunities into pipeline projects for tracking.
 
-For more information about the fields on a savings opportunity record, see [Savings opportunity fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-fields.md).
+For more information about the fields on a savings opportunity record, see [Savings opportunity fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-fields.md).
 
 ## Opportunity lifecycle
 
@@ -77,7 +77,7 @@ When an opportunity is presented, the category manager can:
 
 Acted and dismissed decisions are captured as feedback to improve future opportunity generation.
 
-For more information about actioning or dismissing a savings opportunity, see [Action or dismiss a savings opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/action-or-dismiss-savings-opportunity.md).
+For more information about actioning or dismissing a savings opportunity, see [Action or dismiss a savings opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/action-or-dismiss-savings-opportunity.md).
 
 ## Roles and access
 
@@ -86,12 +86,12 @@ Access to savings opportunity records is governed by the following roles:
 -   sn\_spend\_mgmt.sourcing\_category\_manager: Read access to the Savings Opportunities \(`sn_spend_gen_ai_savings_opportunities`\) table and records.
 -   sn\_spend\_mgmt.category\_manager\_admin: Write access to opportunity records, and read and write access to the `sn_spend_gen_ai.savings_opportunity.cost_of_capital` system property.
 
--   **[Supplier optimization savings opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/supplier-optimization-savings-opportunities.md)**  
+-   **[Supplier optimization savings opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/supplier-optimization-savings-opportunities.md)**  
 The Supplier Optimization Opportunity Finder Agent identifies spend placed with non-preferred suppliers and fragmented across multiple suppliers for similar products. Addressing these opportunities helps redirect spend to preferred sources and consolidate supplier relationships.
--   **[Spend optimization savings opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spend-optimization-savings-opportunities.md)**  
+-   **[Spend optimization savings opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spend-optimization-savings-opportunities.md)**  
 Spend Optimization Opportunity Finder Agent identifies opportunities where purchase activity is outside negotiated contracts or fragmented across multiple contracts. Addressing these opportunities helps redirect spend to contracted pricing and increase purchasing volume for negotiation.
--   **[Contract optimization savings opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/contract-optimization-savings-opportunities.md)**  
+-   **[Contract optimization savings opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/contract-optimization-savings-opportunities.md)**  
 The Contract Optimization Opportunity Finder Agent identifies opportunities to reduce costs by renegotiating price escalations, renewal caps, and payment terms on supplier contracts.
 
-**Parent Topic:**[Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-spend-mgmt.md)
+**Parent Topic:**[Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-spend-mgmt.md)
 

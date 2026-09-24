@@ -2,7 +2,7 @@
 title: Data Center and Network Asset Management release notes
 description: The ServiceNow Data Center and Network Asset Management application provides end-to-end lifecycle management of data center assets. Data Center and Network Asset Management is a new application in the Australia release.The ServiceNow Data Center and Network Asset Management application provides end-to-end lifecycle management of data center assets. Data Center and Network Asset Management is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/data-center-and-network-asset-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/data-center-and-network-asset-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-06-24"
@@ -31,7 +31,7 @@ See [Data Center and Network Asset Management](https://raw.githubusercontent.com
     Install Data Center and Network Asset Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/technology-industry-rn-landing.md)
 
 ## Australia
 
@@ -39,11 +39,11 @@ The ServiceNow® Data Center and Network Asset Management application provides e
 
 ### What's new
 
--   **[Telecommunications Network Inventory Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/telecommunications-network-inventory-rn.md)**
+-   **[Telecommunications Network Inventory Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/telecommunications-network-inventory-rn.md)**
 
     Data Center and Network Asset Management includes Telecommunications Network Inventory \(TNI\) capabilities for TNI-specific features and enhancements in this release, see the Telecommunications Network Inventory release notes.
 
--   **[Enterprise Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/enterprise-asset-management-rn.md)**
+-   **[Enterprise Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/enterprise-asset-management-rn.md)**
 
     Data Center and Enterprise Asset Management capabilities for EAM-specific features and enhancements in this release, see the Enterprise Asset Management release notes.
 

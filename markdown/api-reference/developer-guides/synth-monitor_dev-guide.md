@@ -2,7 +2,7 @@
 title: Synthetic Monitoring Developer Guide
 description: Use Synthetic Monitoring APIs create multiple synthetic monitors in a single operation.Create multiple synthetic monitors simultaneously by importing raw JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use curl commands in Terminal to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use Postman to create multiple synthetic monitors simultaneously by importing JSON files through the SyntheticsAsyncBulkCreate API.The JSON file should contain an array of monitor objects, either directly or wrapped in a checks or monitors property.CSV files must include a header row followed by data rows.This is an example of using a CSV file wrapped in a JSON object to create bulk monitors using terminal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/synth-monitor\_dev-guide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/synth-monitor\_dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -16,7 +16,7 @@ breadcrumb: [Developer guides, API implementation and reference]
 
 Use Synthetic Monitoring APIs create multiple synthetic monitors in a single operation.
 
-This developer guide provides information on how to use the [SyntheticsAsyncBulkCreate API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/synth-async-api.md) to bulk create monitors from Postman or Terminal.
+This developer guide provides information on how to use the [SyntheticsAsyncBulkCreate API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/synth-async-api.md) to bulk create monitors from Postman or Terminal.
 
 For more information about monitors, see [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-landing-page.md).
 
@@ -332,7 +332,7 @@ Role required: sn\_sow\_synthetics.synthetics\_admin or sn\_sow\_synthetics.synt
 
 The SyntheticsAsyncBulkCreate API uses a two-step process when accessed through Postman. First, create a POST request to upload your monitor data file and generate a job ID. Then, use the status check URL to verify monitor creation. Postman provides a user-friendly interface for testing the API and viewing formatted responses.
 
-Only use Postman to import JSON files for this API. To import CSV files, [use Terminal instead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/synth-monitor_dev-guide.md).
+Only use Postman to import JSON files for this API. To import CSV files, [use Terminal instead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/synth-monitor_dev-guide.md).
 
 #### Procedure
 

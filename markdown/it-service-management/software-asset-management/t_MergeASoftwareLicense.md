@@ -2,7 +2,7 @@
 title: Merge software licenses using the legacy Software Asset Management plugin
 description: If you have multiple software licenses that are linked to the same model, you can merge the individual licenses into a consolidated license using the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_MergeASoftwareLicense.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/t\_MergeASoftwareLicense.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -67,10 +67,10 @@ To merge a license:
     -   The cost of each individual license is summed up into the new license using the system base currency.
     -   A history of the consolidated licenses and where they went is maintained.
 
-**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareLicenses.md)
+**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_SoftwareLicenses.md)
 
 **Related topics**  
 
 
-[License management with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_ManageSoftwareLicenses.md)
+[License management with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_ManageSoftwareLicenses.md)
 

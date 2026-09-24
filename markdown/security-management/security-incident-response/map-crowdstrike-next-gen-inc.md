@@ -2,12 +2,12 @@
 title: Map detection fields
 description: Map the individual CrowdStrike Next-Gen detection fields to the fields on the SIR security incident so that you can create detections with the mapped data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/map-crowdstrike-next-gen-inc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/map-crowdstrike-next-gen-inc.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 7
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

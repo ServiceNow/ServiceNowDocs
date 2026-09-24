@@ -2,7 +2,7 @@
 title: Configure REST API Auth scope
 description: Link the OAuth entity with an auth scope to manage the token to access the REST APIs that are linked with the auth scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-rest-api-auth-scope.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/configure-rest-api-auth-scope.html
 release: australia
 product: Authentication
 classification: authentication

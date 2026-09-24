@@ -2,7 +2,7 @@
 title: Add a success initiative
 description: Create a success initiative with a planned set of internal or external tasks to support a primary success outcome.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-initiative.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-success-initiative.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,7 +54,7 @@ Primary success outcome
 
 The primary success outcome associated with this initiative.
 
- To create applicable success outcome, see [Create an applicable success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-applicable-outcome.md).
+ To create applicable success outcome, see [Create an applicable success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-applicable-outcome.md).
 
 </td></tr><tr><td>
 
@@ -200,11 +200,11 @@ You can perform the following actions:
 -   Discuss: Select **Discuss** to start a sidebar discussion about this initiative. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this initiative. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the **Activity stream**.
 -   Assign to me: Select this option to reassign this initiative to yourself.
 -   Close initiative: Once the initiative has been completed and the Closure code is set to **Achieved**, you can close this initiative.
--   Create success play: Select this option to create a success play. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md) for the details.
+-   Create success play: Select this option to create a success play. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-play.md) for the details.
 -   Email: Open the **Activity stream** and select **Email** from the More drop down list. Enter the required details and select **Send email**.
 
     **Note:** You can send emails only to the team members associated with the account.
 
 
-**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
+**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

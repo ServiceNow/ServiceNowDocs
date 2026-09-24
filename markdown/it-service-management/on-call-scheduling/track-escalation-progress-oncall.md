@@ -2,7 +2,7 @@
 title: Track the progress of an escalation
 description: Use the On-Call Escalation Tracking page for full visibility into the time line of an active or closed escalation as it progresses through its on-call escalation path.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/track-escalation-progress-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/track-escalation-progress-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -24,7 +24,7 @@ Role required: Any role that enables the user to read incidents.
 
 **Note:**
 
--   Escalation logging must be enabled to view the On-Call Escalation Tracking page. See the **com.snc.on\_call\_rotation.log\_escalations** property in [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
+-   Escalation logging must be enabled to view the On-Call Escalation Tracking page. See the **com.snc.on\_call\_rotation.log\_escalations** property in [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/on-call-properties.md).
 -   An on-call escalation is canceled when the assignment group of the associated task record, for example, an incident, changes to a different group without a matching trigger rule. It ensures that an existing irrelevant escalation workflow is no longer associated with that task record.\[Omitted image "canceled-escalation-oncall.png"\] Alt text: An on-call escalation has been cancelled.
 
 ## Procedure
@@ -62,7 +62,7 @@ Role required: Any role that enables the user to read incidents.
     Click \[Omitted image "icon-information.png"\] Alt text: Info icon to view delegator and delegated user's information.
 
 
-**Parent Topic:**[Escalations in On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/escalations-oncall.md)
+**Parent Topic:**[Escalations in On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/escalations-oncall.md)
 
 **Related topics**  
 

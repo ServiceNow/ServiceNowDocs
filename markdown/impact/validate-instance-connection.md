@@ -2,7 +2,7 @@
 title: Validate your instance connection
 description: Validate the connection between registered instances to confirm that authentication and My SN Instances configuration are correct before enabling integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/validate-instance-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/validate-instance-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-05-05"
@@ -16,7 +16,7 @@ Validate the connection between registered instances to confirm that authenticat
 
 ## Before you begin
 
-My SN Instances registration and authentication must be complete before validating. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md) and either [Configure the Basic authentication method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-basic-auth-method.md) or [Configure the OAuth authentication method development instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-oauth-auth-method.md).
+My SN Instances registration and authentication must be complete before validating. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md) and either [Configure the Basic authentication method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-basic-auth-method.md) or [Configure the OAuth authentication method development instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-oauth-auth-method.md).
 
 Role required: `sn_se.scan_engine_admin`
 
@@ -46,7 +46,7 @@ If validation fails, resolve the root cause before retrying. Retrying without fi
     4.  Search for Scan Engine in the Script Table Target script: Script Include: ScanEngineApiUtil\[Omitted image "scan-engine-kmf-reject-map-fix.png"\] Alt text: Scan Engine in the Script Table Target script Script Include: ScanEngineApiUtil
     5.  Open the record and set the Result to **Track**.
 
-If the account has been locked out, see [Recover from account lockout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/recover-from-account-lockout.md).
+If the account has been locked out, see [Recover from account lockout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/recover-from-account-lockout.md).
 
-**Parent Topic:**[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md)
+**Parent Topic:**[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md)
 

@@ -2,7 +2,7 @@
 title: Fix application service errors in bulk
 description: Service Mapping classifies errors by their root cause, for example, missing credentials or task timeout. For a fast and efficient process, fix errors belonging to the same category in bulk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/fix-bus-serv-errors-by-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/fix-bus-serv-errors-by-category.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -41,7 +41,7 @@ There may be discovery errors not assigned to any category:
 
     The number in the **Fix** box indicates the number of affected service maps. Click **Update** \(\[Omitted image "update-button.png"\] Alt text: The Update button\) to update the display.
 
-    **Note:** To [fix the errors for a particular service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md) instead, click **Manage Errors by Service**.
+    **Note:** To [fix the errors for a particular service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md) instead, click **Manage Errors by Service**.
 
 2.  If there are uncategorized errors, you can categorize them by service instance:
 
@@ -119,7 +119,7 @@ There may be discovery errors not assigned to any category:
 8.  If you performed an action on a selection and the error was resolved, you can click **Resolve All** to apply the same action to all items in the list.
 
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 
 **Related topics**  
 

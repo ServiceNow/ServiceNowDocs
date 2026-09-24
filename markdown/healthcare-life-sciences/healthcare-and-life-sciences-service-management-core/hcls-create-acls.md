@@ -2,7 +2,7 @@
 title: Create ACL rules for accessing healthcare cases
 description: You can create access control list \(ACL\) rules to enable users and applications to access healthcare cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-acls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-acls.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

@@ -2,7 +2,7 @@
 title: Activate FSM Scheduling AI Agent
 description: You can activate the FSM Scheduling AI Agent plugin \(com.snc.fsm\_scheduling\_ai\_agent\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/schedule-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/schedule-ai-agent.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

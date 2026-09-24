@@ -2,7 +2,7 @@
 title: NowVoiceService class - iOS
 description: The NowVoiceService class manages voice agent sessions for a single ServiceNow instance.Ends the current voice call.Checks whether there is a currently active voice call.Creates a UIViewController containing the voice agent UI, ready to be presented in a modal.Toggles the microphone mute state of the current call.Updates the visual theme of the currently active voice UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API impl
 
 The NowVoiceService class manages voice agent sessions for a single ServiceNow instance.
 
-**Note:** Initialize a NowVoiceService by calling [NowVoice - makeVoiceService\(instanceUrl: URL\) async throws](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md).
+**Note:** Initialize a NowVoiceService by calling [NowVoice - makeVoiceService\(instanceUrl: URL\) async throws](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md).
 
 <table id="table_vx2_klw_nv1" class="parameters"><thead><tr><th>
 
@@ -36,7 +36,7 @@ configuration
 
 </td><td>
 
-[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)
+[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ configurations
 
 </td><td>
 
-Array of [NowVoiceEndpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.md)
+Array of [NowVoiceEndpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.md)
 
 </td><td>
 
@@ -84,10 +84,10 @@ Flag that indicates whether voice is enabled on the instance. Valid values:
 -   true: Voice is enabled.
 -   false: Voice is turned off.
 
- Always `true` after a NowVoiceService is successfully initialized with [makeVoiceService\(instanceUrl:\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md).
+ Always `true` after a NowVoiceService is successfully initialized with [makeVoiceService\(instanceUrl:\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowVoiceService - endCall\(\)
 
@@ -193,11 +193,11 @@ endpoint
 
 </td><td>
 
-[NowVoiceEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.md)
+[NowVoiceEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.md)
 
 </td><td>
 
-The voice agent channel to connect to. Obtain from [`NowVoiceService.configurations`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md). Endpoints are retrieved from your ServiceNow instance's Mobile SDK settings.
+The voice agent channel to connect to. Obtain from [`NowVoiceService.configurations`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md). Endpoints are retrieved from your ServiceNow instance's Mobile SDK settings.
 
 </td></tr><tr><td>
 
@@ -205,7 +205,7 @@ uiConfiguration
 
 </td><td>
 
-[NowVoiceUIConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceUIConfigiOSStruct.md)
+[NowVoiceUIConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceUIConfigiOSStruct.md)
 
 </td><td>
 
@@ -217,7 +217,7 @@ callbacks
 
 </td><td>
 
-[NowVoiceCallbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)
+[NowVoiceCallbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)
 
 </td><td>
 
@@ -229,11 +229,11 @@ theme
 
 </td><td>
 
-[NowVoiceThemeable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md)
+[NowVoiceThemeable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md)
 
 </td><td>
 
-Optional. The visual theme applied to the voice UI.Default: [`NowVoiceDefaultTheme`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceDefThemeiOSStruct.md)
+Optional. The visual theme applied to the voice UI.Default: [`NowVoiceDefaultTheme`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NVoiceDefThemeiOSStruct.md)
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -344,7 +344,7 @@ let muted = voiceService?.isMuted ?? false
 
 Updates the visual theme of the currently active voice UI.
 
-This function has no effect if no voice session is currently active. To apply a visual theme at voice session launch, provide a theme when calling [startVoice\(endpoint:uiConfiguration:callbacks:theme:\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md).
+This function has no effect if no voice session is currently active. To apply a visual theme at voice session launch, provide a theme when calling [startVoice\(endpoint:uiConfiguration:callbacks:theme:\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|

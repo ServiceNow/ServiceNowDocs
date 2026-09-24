@@ -2,7 +2,7 @@
 title: Unified content management
 description: The Unified content management application is a centralized library of regulatory frameworks, standards, and citations to help meet compliance requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/unified-content-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/unified-content-management.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

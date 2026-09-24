@@ -2,7 +2,7 @@
 title: App development, agentic development, and low-code
 description: ServiceNow AI Platform no-code, low-code, and platform developer tools enable you to build and modify apps, automate workflows, and deliver digital experiences. Use this landing page to find products and features for app development on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/hyperautomation-low-code/hyperautomation-low-code-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/hyperautomation-low-code/hyperautomation-low-code-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-16"

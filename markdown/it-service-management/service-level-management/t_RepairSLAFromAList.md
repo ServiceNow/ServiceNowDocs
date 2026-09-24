@@ -2,7 +2,7 @@
 title: Repair SLAs from a list
 description: You can repair multiple SLA records from a list of task or SLA records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_RepairSLAFromAList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/t\_RepairSLAFromAList.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -39,10 +39,10 @@ You can also repair SLA records from the relevant Task form, or from the SLA for
     **Note:** Closing the progress dialog box does not stop the repair process. You can go to **Active repairs** or **My repairs** and click **Show progress** to view the progress dialog again.
 
 
-**Parent Topic:**[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
+**Parent Topic:**[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/c_RepairSLAs.md)
 
 **Related topics**  
 
 
-[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
+[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/c_RepairSLAs.md)
 

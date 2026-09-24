@@ -2,7 +2,7 @@
 title: Modernize your change management process blueprint
 description: Select this adoption blueprint to get a walk through on how you can adopt the required capabilities to allow your change process to dynamically scale without compromising stability and governance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-ab3.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/admin-center/ac-ab3.html
 release: australia
 product: Admin Center
 classification: admin-center
@@ -142,5 +142,5 @@ Leverage ML for data-driven evaluation of historical change data to predict chan
 [Request Change Management - Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-cm-risk-assessment.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/admin-center/ac-select-business-objective.md)
 

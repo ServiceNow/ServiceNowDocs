@@ -2,7 +2,7 @@
 title: Scripts - Background module
 description: Administrators can use the Scripts - Background module to run arbitrary JavaScript code from the server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_ScriptsBackground.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_ScriptsBackground.html
 release: australia
 product: Scripts
 classification: scripts
@@ -33,7 +33,7 @@ When a script is run, the instance displays results, information, and error mess
 
 To stop a transaction, see [View and kill active transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewAndKillAnActiveTransaction.md).
 
-For examples of scripts you could run, see [Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/usefulScripts.md).
+For examples of scripts you could run, see [Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md).
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
 

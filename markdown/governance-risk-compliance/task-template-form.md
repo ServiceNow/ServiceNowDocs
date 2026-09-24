@@ -2,7 +2,7 @@
 title: Task template form
 description: Use the Task template form to define a reusable recovery task or event task. It can be inserted into plans, loss scenarios, recovery strategies, exercise events, crisis events, or activated plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/task-template-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/task-template-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-16"
@@ -74,7 +74,7 @@ Phase
 
 </td><td>
 
-Recovery phase that the task belongs to. The Phase set here takes precedence over a Phase filter on the parent list. See [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-a-recovery-task.md).
+Recovery phase that the task belongs to. The Phase set here takes precedence over a Phase filter on the parent list. See [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-a-recovery-task.md).
 
 </td></tr><tr><td>
 
@@ -173,5 +173,5 @@ Read-only. The parent task template group when the template was created inside o
 |Loss scenarios|Loss scenarios that include this template through their task template groups.|
 |Recovery strategies|Recovery strategies that include this template.|
 
-**Parent Topic:**[Configure Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-task-temp-temp-groups.md)
+**Parent Topic:**[Configure Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-task-temp-temp-groups.md)
 

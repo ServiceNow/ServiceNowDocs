@@ -2,7 +2,7 @@
 title: SAP ECC RFC Spoke
 description: The SAP ECC RFC spoke is built by Bristlecone, Inc. Manage items, journals, procurements, and others, in SAP ECC RFC account from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sap-ecc-rfc-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/sap-ecc-rfc-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -601,16 +601,16 @@ The SAP ECC RFC spoke provides user roles to control access to data.
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Set up the SAP ECC RFC spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sap-ecc-rfc.md).
+For information about setting up the spoke, see [Set up the SAP ECC RFC spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-sap-ecc-rfc.md).
 
 ## MID Server requirements
 
-These actions use Remote Function Call \(RFC\) protocol \(SAP Proprietary protocol – SAP Standard Interface\), which can run on an instance or MID Server. Use the connection record associated with the SAP ECC RFC spoke alias to configure where actions run as well as set MID Server selection attributes. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md)
+These actions use Remote Function Call \(RFC\) protocol \(SAP Proprietary protocol – SAP Standard Interface\), which can run on an instance or MID Server. Use the connection record associated with the SAP ECC RFC spoke alias to configure where actions run as well as set MID Server selection attributes. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integration-steps.md)
 
 **Note:**
 
--   If the MID Server is installed on a Linux machine, perform the configurations as outlined in [Configure MID Server for the SAP ECC RFC spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sap-ecc-rfc.md).
+-   If the MID Server is installed on a Linux machine, perform the configurations as outlined in [Configure MID Server for the SAP ECC RFC spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-sap-ecc-rfc.md).
 -   If the MID Server is installed on a Windows machine, no configurations are needed.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

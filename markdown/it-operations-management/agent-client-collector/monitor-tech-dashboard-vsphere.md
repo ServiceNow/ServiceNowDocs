@@ -2,7 +2,7 @@
 title: Monitoring Technology Dashboard for VMware vSphere
 description: With the VMware vSphere Monitoring Technology Dashboard, you can monitor the health and performance of your VMware vSphere infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/monitor-tech-dashboard-vsphere.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/monitor-tech-dashboard-vsphere.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -26,8 +26,8 @@ To view the dashboard, navigate to **All** &gt; **AIOps Dashboards** &gt; **Moni
 
 Before using the Monitoring Technology Dashboard for VMware vSphere:
 
--   Create a VMware vSphere credential and use it to create a Discovery schedule. For details on creating VMware vSphere credentials, see [Discovery for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/vmware-cloud-discovery.md).
--   Create a Discovery schedule, using the credential created in the previous step. For details on creating a Discovery schedule, see [Discovery for VMware virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoverVMwareInfrastructure.md).
+-   Create a VMware vSphere credential and use it to create a Discovery schedule. For details on creating VMware vSphere credentials, see [Discovery for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/vmware-cloud-discovery.md).
+-   Create a Discovery schedule, using the credential created in the previous step. For details on creating a Discovery schedule, see [Discovery for VMware virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoverVMwareInfrastructure.md).
 -   Ensure that you’re working in the Agent Client Collector Monitoring scope in your ServiceNow instance.
 -   Ensure that the agent\_client\_collector\_admin and dashboard\_admin roles are enabled.
 -   Enable Metric Intelligence on the MID Server.
@@ -59,7 +59,7 @@ You can filter the dashboard data according to the following filters:
 |Time range filter|The time range for which you want metric data to display on the dashboard.|
 |Metrics by selected CI filter|The CIs for which you want metric data to display on the dashboard.|
 
-You can customize the appearance of the individual widgets on the VMware vSphere Monitoring Technology Dashboard. For example, you could change the timeframe for which the alerts appear. You can also include customized widgets when you are creating a custom dashboard. For more information, see [Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/customize-dashboard-widgets.md).
+You can customize the appearance of the individual widgets on the VMware vSphere Monitoring Technology Dashboard. For example, you could change the timeframe for which the alerts appear. You can also include customized widgets when you are creating a custom dashboard. For more information, see [Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/customize-dashboard-widgets.md).
 
-**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
+**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
 

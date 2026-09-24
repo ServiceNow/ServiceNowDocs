@@ -2,12 +2,12 @@
 title: Configure a metric aggregation job
 description: Configure a scheduled job to aggregate raw metrics into a calculated metric on a parent or anchor configuration item \(CI\). Aggregated metrics let you view performance data at a higher level of the network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-metric-aggregation-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/configure-metric-aggregation-job.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 keywords: [configure metric aggregation job, scheduled job, metric aggregation, TSOM]
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
@@ -145,21 +145,21 @@ Each scheduled job handles one aggregation. The job script defines the source da
 
 7.  Select **Submit**.
 
-    **Note:** For a description of each configuration value, see [Metric aggregation configuration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/metric-aggregation-configuration-reference.md).
+    **Note:** For a description of each configuration value, see [Metric aggregation configuration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/metric-aggregation-configuration-reference.md).
 
 
 ## Result
 
 The scheduled job runs on the defined schedule. Each run produces the calculated metric and raises an event to bind the metric to a CI. After the metric-to-CI binding completes, the calculated metric is stored in the metric base and is available to view in the Insight Explorer.
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
 
 **Related topics**  
 
 
-[Metric aggregation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/metric-aggregation-modes.md)
+[Metric aggregation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/metric-aggregation-modes.md)
 
-[Create a custom metric aggregation implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/create-custom-metric-aggregation-implementation.md)
+[Create a custom metric aggregation implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/create-custom-metric-aggregation-implementation.md)
 
-[Metric-to-CI binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/metric-to-ci-binding-tsom-sgc.md)
+[Metric-to-CI binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/metric-to-ci-binding-tsom-sgc.md)
 

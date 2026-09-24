@@ -2,7 +2,7 @@
 title: Home page in the IT Remediation Workspace
 description: The Home page in the IT Remediation Workspace provides a consolidated list of host, application, container and test result remediation tasks that are assigned to you and your assignment groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/itr-ws-home-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/it-remediation-workspace/itr-ws-home-page.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -35,7 +35,7 @@ The Home page consists of the following cards and list of remediation tasks assi
 
 -   **Impacted CIs card**
 
-    The number of configuration items that have VIs that are assigned to you or your groups. For more information, see [View configuration items with vulnerabilities in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-remed-task-v16.md).
+    The number of configuration items that have VIs that are assigned to you or your groups. For more information, see [View configuration items with vulnerabilities in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/vr-ws-remed-task-v16.md).
 
 -   **Preferred patches on VIs card**
 
@@ -51,6 +51,6 @@ The Home page consists of the following cards and list of remediation tasks assi
 
     Click the More Actions ellipses and click **Start Investigation** to resolve a remediation task.
 
-    For more information about what you can do on the home page, see [Use remediation task records in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-remed-task.md).
+    For more information about what you can do on the home page, see [Use remediation task records in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/vr-ws-remed-task.md).
 
 

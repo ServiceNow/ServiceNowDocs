@@ -2,7 +2,7 @@
 title: Add metadata to a clause using add-in
 description: As a contract configurator, add metadata to pre-fill information that will be placed in the contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-add-meta-cls-addin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-add-meta-cls-addin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +18,7 @@ As a contract configurator, add metadata to pre-fill information that will be pl
 
 ## Before you begin
 
-Ensure you have configured the Word add-in. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
+Ensure you have configured the Word add-in. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
 
 Role required: sn\_cm\_core.contract\_config and canvas\_user
 
@@ -59,5 +59,5 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
     The file will be uploaded. If the clause variation is mapped to multiple templates and the variation has metadata, the unmapped metadata is displayed and you must map them for each of the templates.
 
 
-**Parent Topic:**[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)
+**Parent Topic:**[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)
 

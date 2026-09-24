@@ -2,7 +2,7 @@
 title: Create the Tests step in the control test
 description: Apply the objective effectiveness of the test step and the operating effectiveness, desired effectiveness of the control test to determine the control effectiveness of the control test. A test step is applied to check the control test at a granular level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-the-tests-step-in-the-control-test.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/create-the-tests-step-in-the-control-test.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -40,7 +40,7 @@ Role required: sn\_audit.admin and sn\_audit.manager
 
 7.  Select the **Test steps** tab to view the list of test steps and create a new test step.
 
-    **Note:** You can also view the list of control test steps that are generated from the test plan within the engagement. For more information, see [Automatically generate control tests from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/automatically-generate-control-test.md).
+    **Note:** You can also view the list of control test steps that are generated from the test plan within the engagement. For more information, see [Automatically generate control tests from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/automatically-generate-control-test.md).
 
 8.  Select **New** to create a new test step plan for the control test.
 

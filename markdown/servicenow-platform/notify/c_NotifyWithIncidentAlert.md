@@ -2,7 +2,7 @@
 title: Using Notify with Incident Communications Management
 description: Use Notify with incident communication plan to send SMS messages or start conference calls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/c\_NotifyWithIncidentAlert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/c\_NotifyWithIncidentAlert.html
 release: australia
 product: Notify
 classification: notify
@@ -25,21 +25,21 @@ Certain configuration steps are required to use Notify with an incident communic
 
 **Note:** The Conference Call Group number group is configured with conference call workflows by default.
 
--   **[Initiate a conference call from incident communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_IALaunchAConferenceCall.md)**  
+-   **[Initiate a conference call from incident communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_IALaunchAConferenceCall.md)**  
 Use Notify to initiate a conference call from an incident communication plan by inviting one or more users.
--   **[Join and end a conference call from incident communications management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/join-end-conference-call-from-icp.md)**  
+-   **[Join and end a conference call from incident communications management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/join-end-conference-call-from-icp.md)**  
 After a conference call is initiated, join the call to participate in the discussion or end the call when the conference is no longer required.
--   **[Send communication updates for an incident communications plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_IASendSMSNotifications.md)**  
+-   **[Send communication updates for an incident communications plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_IASendSMSNotifications.md)**  
 Update users on the latest communication on an incident through selected communication channels.
 
-**Parent Topic:**[Using Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/using-notify.md)
+**Parent Topic:**[Using Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/using-notify.md)
 
 **Related topics**  
 
 
 [Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentAlertManagement.md)
 
-[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NumberGroups.md)
+[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NumberGroups.md)
 
-[Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyConferenceCalls.md)
+[Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifyConferenceCalls.md)
 

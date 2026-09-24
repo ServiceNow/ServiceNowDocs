@@ -2,7 +2,7 @@
 title: Cloning and upgrading considerations for Developer Sandboxes
 description: You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes. Always back up your work in a sandbox before any clone or upgrade, either by exporting the update sets or committing to source control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -33,11 +33,11 @@ Developer Sandboxes automatically backs up any update sets from the sandboxes an
 
 **Note:** When using sandboxes, make sure to save or backup work consistently. Automatic backups are available only for instances on Australia Patch 3 and higher.
 
-Backups are found in the retrieved update sets table, identified by the name of the sandbox they were backed up from. For example, "DSB \[sandboxname\] \(backup date\): \[Original update set name\]". For more information, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md) and [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md).
+Backups are found in the retrieved update sets table, identified by the name of the sandbox they were backed up from. For example, "DSB \[sandboxname\] \(backup date\): \[Original update set name\]". For more information, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md) and [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/t_CommitAnUpdateSet.md).
 
 Review the update sets, then preview and commit them in each sandbox as needed.
 
-**Note:** If you're using source control, you should restore your work to the sandbox from there. For more information, see [Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sandboxes-source-control.md).
+**Note:** If you're using source control, you should restore your work to the sandbox from there. For more information, see [Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sandboxes-source-control.md).
 
 ## Cloning instances with Developer Sandboxes
 

@@ -2,7 +2,7 @@
 title: CSDM Data Foundations dashboard
 description: The CSDM Data Foundations dashboard displays key CSDM indicators on a single page to help you get the full benefit from your ServiceNow AI Platform products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -38,22 +38,22 @@ In this example, a report on the **Run** tab indicates that several business ser
 
 ## Tabs on the dashboard
 
--   Tables in the Foundation domain contain base data that is referenced from or to objects in the other CSDM domains. Before you can use ServiceNow products, you must populate foundational data. See ['Foundation' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-foundation-tab.md).
--   In the Crawl stage, you work on base-system CMDB tables that are associated with IT Service Management \(ITSM\). See ['Crawl' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-crawl-tab.md).
--   In the Walk stage, you identify and populate the network infrastructure CIs and applications that your organization's technical teams support. See ['Walk' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-walk-tab.md).
--   In the Run stage, you set up the relationship between a technology and the business that sells and consumes the technology. See ['Run' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-run-tab.md).
--   When you reach the Fly stage, you have accomplished all or most of the process of implementing the CSDM framework. The fly stage completes the process. See ['Fly' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-fly-tab.md).
+-   Tables in the Foundation domain contain base data that is referenced from or to objects in the other CSDM domains. Before you can use ServiceNow products, you must populate foundational data. See ['Foundation' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-foundation-tab.md).
+-   In the Crawl stage, you work on base-system CMDB tables that are associated with IT Service Management \(ITSM\). See ['Crawl' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-crawl-tab.md).
+-   In the Walk stage, you identify and populate the network infrastructure CIs and applications that your organization's technical teams support. See ['Walk' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-walk-tab.md).
+-   In the Run stage, you set up the relationship between a technology and the business that sells and consumes the technology. See ['Run' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-run-tab.md).
+-   When you reach the Fly stage, you have accomplished all or most of the process of implementing the CSDM framework. The fly stage completes the process. See ['Fly' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-fly-tab.md).
 
 ## Managing performance of data collection
 
-For information on managing data collection for a metric that isn't needed or that affects performance of the dashboard, see [Manage performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+For information on managing data collection for a metric that isn't needed or that affects performance of the dashboard, see [Manage performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
-**Parent Topic:**[Access CSDM features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-using.md)
+**Parent Topic:**[Access CSDM features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-using.md)
 
 **Related topics**  
 
 
-[Configure the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-foundations-dashboard.md)
+[Configure the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-foundations-dashboard.md)
 
-[Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md)
+[Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md)
 

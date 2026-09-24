@@ -2,7 +2,7 @@
 title: External Key Management Service and instance automation
 description: Understand requirements and limitations for instance automation operations when External Key Management Service is enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ekms-instance-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-instance-automation.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-23"
@@ -255,5 +255,5 @@ This property enables instance automation in the following scenarios:
 
 Even with this property enabled, if the preflight check detects incompatible configurations, you must follow the manual resolution steps in [KB2540187](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2540187).
 
-**Parent Topic:**[Using External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-using-external-key-management.md)
+**Parent Topic:**[Using External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-using-external-key-management.md)
 

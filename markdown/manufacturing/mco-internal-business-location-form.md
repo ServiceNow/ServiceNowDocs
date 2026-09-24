@@ -2,7 +2,7 @@
 title: Internal business location form
 description: Internal Business Location \(IBL\) form to store information about an internal business location. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-internal-business-location-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-internal-business-location-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -174,5 +174,5 @@ Description
 Description of the business location.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-form.md)
 

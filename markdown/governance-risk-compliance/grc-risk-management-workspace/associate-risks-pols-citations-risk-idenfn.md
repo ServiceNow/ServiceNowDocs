@@ -2,7 +2,7 @@
 title: Associate risks, citations, policies, and controls with a risk identification record
 description: After the inherent assessment is completed, you can associate risks, citations, policies, and controls with the risk identification record. You can identify what methods to use to mitigate the risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/associate-risks-pols-citations-risk-idenfn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/associate-risks-pols-citations-risk-idenfn.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -61,15 +61,15 @@ Risks, citations, and policies can be associated manually or by using the recomm
 11. Click **Monitor** to move the record to Monitor state.
 
 
--   **[Recommendation engine for risk and compliance mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/recommendation-engine.md)**  
+-   **[Recommendation engine for risk and compliance mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/recommendation-engine.md)**  
 A recommendation engine is a system that suggests products, services, and information to users based on data analysis. A recommendation engine boosts revenues and other essential metrics.
--   **[Information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/information-objects.md)**  
+-   **[Information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/information-objects.md)**  
 Information objects are a part of the information portfolio management capability in the Application Portfolio Management application.
 
-**Parent Topic:**[Application risk assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md)
+**Parent Topic:**[Application risk assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md)
 
 **Related topics**  
 
 
-[Recommendation engine for risk and compliance mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/recommendation-engine.md)
+[Recommendation engine for risk and compliance mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/recommendation-engine.md)
 

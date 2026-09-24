@@ -2,7 +2,7 @@
 title: Create pages and subpages in demand Docs
 description: Store information related to your tasks, reference users and task records using pages and subpages in Docs. You can also collaborate on editing documents in real time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-and-manage-pages-for-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/create-and-manage-pages-for-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

@@ -2,7 +2,7 @@
 title: Finance Operations Workspace inbox
 description: Use the inbox to manage your incoming work items, such as chats and cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/fin-ops-ws-inbox.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/fin-ops-ws-inbox.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -22,7 +22,7 @@ The inbox displays the queues that are assigned to you, the number of active cha
 
 When you accept a chat, an interaction record is automatically created. The record captures the work done in that session.
 
-**Parent Topic:**[Interaction management in Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/interaction-mgmt-fin-ops.md)
+**Parent Topic:**[Interaction management in Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/interaction-mgmt-fin-ops.md)
 
 **Related topics**  
 

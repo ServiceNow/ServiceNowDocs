@@ -2,7 +2,7 @@
 title: Configure key lifecycle states
 description: After you have created a cryptographic specification, you can configure the lifecycle actions for the keys in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/configure-key-lifecycle-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/configure-key-lifecycle-states.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -120,5 +120,5 @@ Field the duration is relative to. Displays if a relative duration or operation 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md)
+**Parent Topic:**[Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/create-cryptographic-module.md)
 

@@ -2,7 +2,7 @@
 title: View and download a signed contract document
 description: View and download a signed contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-preview-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-preview-contract.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -30,12 +30,12 @@ Access to a contract document is based on the following user roles and condition
 
 When multiple contract documents are attached, a separate contract repository record is created for each contract type.
 
--   **[View and download a signed contract document as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-preview-contract-fulfiller.md)**  
+-   **[View and download a signed contract document as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-preview-contract-fulfiller.md)**  
 View and download a signed contract document as a legal fulfiller.
--   **[View and download a signed contract document as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-preview-contract-user.md)**  
+-   **[View and download a signed contract document as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-preview-contract-user.md)**  
 View and download a signed contract document as a legal user.
 
-**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
 

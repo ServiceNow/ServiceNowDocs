@@ -2,7 +2,7 @@
 title: Using Now Assist for workplace queries
 description: Use the Now Assist panel to interact with intelligent QnA agents that respond to workplace-related queries using structured data from a Knowledge Graph.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/using-now-assist-for-workplace-queries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/using-now-assist-for-workplace-queries.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -33,5 +33,5 @@ When you submit a query in the Now Assist panel, the system automatically determ
 3.  Enter your reservation-related query.
 
 
-**Parent Topic:**[Workplace advisor QnA agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-advisor-qna.md)
+**Parent Topic:**[Workplace advisor QnA agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/workplace-advisor-qna.md)
 

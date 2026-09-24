@@ -2,7 +2,7 @@
 title: Manual segment data model and sync behavior
 description: Manual segments use a two-table data model with automatic synchronization between the configuration table and the runtime table used for search operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/manual-segment-data-model-sync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/manual-segment-data-model-sync.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-16"
@@ -106,14 +106,14 @@ Manual segments support domain separation. When creating a segment config record
 
 If domain separation is not enabled on your instance, this field is inactive and can be ignored.
 
-**Parent Topic:**[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
+**Parent Topic:**[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/querygen-segments.md)
 
 **Related topics**  
 
 
-[Create a manual segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-create-segment-manually.md)
+[Create a manual segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/querygen-create-segment-manually.md)
 
-[Guidelines for segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/general-guidelines-segments.md)
+[Guidelines for segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/general-guidelines-segments.md)
 
-[Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-properties.md)
+[Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/querygen-properties.md)
 

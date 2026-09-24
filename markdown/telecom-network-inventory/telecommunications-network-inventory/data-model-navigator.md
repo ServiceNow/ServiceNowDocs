@@ -2,12 +2,12 @@
 title: TNI Data Model Navigator
 description: A Data Model Navigator is a CMDB framework feature that presents a curated, domain-specific view of the CMDB. With TNI \(Telecommunications Network Inventory\) context, it organizes thousands of CMDB CI classes into a focused, hierarchical structure relevant to telecom operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/data-model-navigator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/data-model-navigator.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -100,10 +100,10 @@ Relationship Metadata: Describes how CI classes connect across TNI layers and wh
 
 Understanding Relationship Mapping: An agent understands how to traverse the data model \(Service → Logical → Physical → Equipment\) to answer complex questions.
 
-**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Access the TNI data model navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/access-tni-data-model-navigator.md)
+[Access the TNI data model navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/access-tni-data-model-navigator.md)
 

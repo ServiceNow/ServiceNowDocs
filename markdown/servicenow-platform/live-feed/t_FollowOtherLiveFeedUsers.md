@@ -2,7 +2,7 @@
 title: Follow other Live Feed users
 description: As you use Live Feed, you can follow the message threads of other users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_FollowOtherLiveFeedUsers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/t\_FollowOtherLiveFeedUsers.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -37,5 +37,5 @@ Role required: none
 6.  To view people who are following you, navigate to **People** &gt; **Followers**.
 
 
-**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

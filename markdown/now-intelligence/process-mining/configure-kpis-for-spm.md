@@ -2,7 +2,7 @@
 title: Configure KPIs for SPM work items in the Process Mining dashboard
 description: Add the desired Key Performance Indicators \(KPIs\) to monitor the performance of the SPM work items in the Process Mining Summary and insights page. Remove the indicators that you no longer want to use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/configure-kpis-for-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/configure-kpis-for-spm.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -26,10 +26,10 @@ Role required: Administrator
 
 1.  Ensure that you have the **Project Portfolio Management Standard** plugin installed.
 
-2.  [Add the desired indicator data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_IndicatorSources.md) to the Summary and insights page.
+2.  [Add the desired indicator data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_IndicatorSources.md) to the Summary and insights page.
 
     For demands, the KPIs are **Active Demands** and **Average Days Demand Open**. \[Omitted image "pm-demand-kpis.png"\] Alt text: Process Mining dashboard
 
 
-**Parent Topic:**[Content pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-with-spm.md)
+**Parent Topic:**[Content pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integration-with-spm.md)
 

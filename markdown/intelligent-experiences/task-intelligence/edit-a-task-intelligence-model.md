@@ -2,7 +2,7 @@
 title: Edit a Task Intelligence model
 description: Retrain your machine learning models or edit what they predict to better align with your business goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/edit-a-task-intelligence-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/task-intelligence/edit-a-task-intelligence-model.html
 release: australia
 product: Task Intelligence
 classification: task-intelligence

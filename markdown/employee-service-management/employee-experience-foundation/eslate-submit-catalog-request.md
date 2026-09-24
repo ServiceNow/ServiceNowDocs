@@ -2,7 +2,7 @@
 title: Create a catalog request from chat
 description: Order goods and services by submitting a catalog request from chat. Enter your request in plain language and review the matched catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-submit-catalog-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-submit-catalog-request.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

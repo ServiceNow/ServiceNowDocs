@@ -2,7 +2,7 @@
 title: Relish Integration for Supplier Lifecycle Operations
 description: The SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\) provides an integration between Relish and the Supplier Case Management plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -26,7 +26,7 @@ Relish is a third-party supplier intelligence platform that validates supplier d
 -   Tax information validation for tax change requests
 -   Sanction screening for compliance verification
 
-For more information, see [Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md).
+For more information, see [Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md).
 
 To install the SLO Connector for Relish Data Assure, the following plugins must be installed:
 
@@ -37,12 +37,12 @@ To install the SLO Connector for Relish Data Assure, the following plugins must 
     -   Source-to-Pay integration framework \(sn\_spend\_intg\)
     -   Supplier Operations \(com.snc.sn\_so\)
 
-After SLO Connector for Relish Data Assure is installed, Relish shares the client ID and password. A basic authentication profile must be created using the client ID and password. For more information, see [Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md).
+After SLO Connector for Relish Data Assure is installed, Relish shares the client ID and password. A basic authentication profile must be created using the client ID and password. For more information, see [Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md).
 
--   **[Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md)**  
+-   **[Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md)**  
 Set up a basic authentication profile using Relish credentials to enable web service integration.
 
-**Parent Topic:**[Integrate Supplier Lifecycle Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/integrate-slo.md)
+**Parent Topic:**[Integrate Supplier Lifecycle Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/integrate-slo.md)
 
 **Related topics**  
 
@@ -55,5 +55,5 @@ Set up a basic authentication profile using Relish credentials to enable web ser
 
 [FedEx Dataworks Integration for Supplier Lifecycle Operations]()
 
-[Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md)
+[Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md)
 

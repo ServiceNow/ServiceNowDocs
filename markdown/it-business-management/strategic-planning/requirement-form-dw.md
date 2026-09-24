@@ -2,7 +2,7 @@
 title: Requirement form
 description: The requirement form enables you to create or modify requirements for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/requirement-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/requirement-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

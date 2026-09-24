@@ -2,7 +2,7 @@
 title: Enable support for right-to-left languages
 description: When the session language is a right-to-left language, the direction of the portal user interface is mirrored to display from right to left.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-direction-right-to-left-languages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-direction-right-to-left-languages.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -48,5 +48,5 @@ When the session language is a right-to-left language, the direction of the port
 
 **Note:** When you support Right-to-Left languages, change the **Card Content Alignment** field value to Right. Alternatively, use the center alignment to avoid issues.
 
-For more information, see [Modify the Quick links widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-quick-links-widget.md).
+For more information, see [Modify the Quick links widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-quick-links-widget.md).
 

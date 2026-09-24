@@ -2,7 +2,7 @@
 title: Components installed with Lead Management
 description: Several types of components are installed with activation of the Lead Management plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-lead-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/components-installed-lead-management.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-09"
@@ -174,5 +174,5 @@ Lead
 Prospective customers who have expressed their interest through various channels, such as website forms, social media, or events.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-reference.md)
+</table>**Parent Topic:**[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-reference.md)
 

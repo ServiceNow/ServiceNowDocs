@@ -2,7 +2,7 @@
 title: Configure Restricted Caller Access \(RCA\) for Document Templates
 description: Allow secure, controlled access for generating results letters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-fdtn-doc-template-rca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-fdtn-doc-template-rca.html
 release: australia
 topic_type: task
 last_updated: "2026-03-17"
@@ -67,9 +67,9 @@ RCA access for Document Templates has now been configured.
 
 You can now set up the grant program.
 
-**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-foundation.md)
+**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-foundation.md)
 
-**Previous topic:**[Configure scripted extension points in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.md)
+**Previous topic:**[Configure scripted extension points in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.md)
 
-**Next topic:**[Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)
+**Next topic:**[Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)
 

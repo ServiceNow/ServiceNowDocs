@@ -2,7 +2,7 @@
 title: Run fix script to update the KPI weighted score field in the KPI score table
 description: Run this fix script to update the KPI weighted score field values \(from integer to decimal type\) in the KPI score table \(sn\_kpi\_score\) after the March 2026 Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-update-kpi-weighted-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-update-kpi-weighted-score.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -40,7 +40,7 @@ With the updated decimal type **KPI weighted score** field, all performance scor
 4.  Select **Run Fix Script**.
 
 
-**Parent Topic:**[Post-upgrade tasks for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-upgrade-tasks-slo.md)
+**Parent Topic:**[Post-upgrade tasks for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/post-upgrade-tasks-slo.md)
 
 **Related topics**  
 

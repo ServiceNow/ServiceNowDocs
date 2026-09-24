@@ -2,7 +2,7 @@
 title: Customer success management tables
 description: This section includes the Customer Success Management tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-success-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ This section includes the Customer Success Management tables.
 |Applicable customer team|Associate a customer team with an engagement.|
 |Meeting applicable records|Associates records with a touchpoint meeting. Each entry links a meeting to a related record, such as a success play created from a meeting recommendation. The association type indicates the relationship: Trigger, Action Item, or Referenced. The AI Recommended field indicates whether the associated record was suggested by ServiceNow Otto.|
 
-**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
+**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-reference.md)
 

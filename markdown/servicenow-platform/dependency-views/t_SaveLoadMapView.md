@@ -2,7 +2,7 @@
 title: Save or load a Dependency Views map
 description: In the View Map module, use the menu icon to save and load Dependency Views maps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_SaveLoadMapView.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_SaveLoadMapView.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -29,7 +29,7 @@ Role required: None
 3.  Select **Save View**, **Load View**, or **Last View**.
 
 
-**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 

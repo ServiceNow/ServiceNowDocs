@@ -2,14 +2,14 @@
 title: Configure OAuth settings for External Content Q&amp;A Genius Results
 description: Configure the settings that External Content Q&amp;A Genius Results need to interact with your Microsoft SharePoint Online instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Q&amp;A Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Configure the settings that External Content Q&amp;A Genius Results need to inte
 
 ## Before you begin
 
-The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
+The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/install-now-assist-ais.md).
 
 You must have already completed the following tasks:
 
@@ -114,7 +114,7 @@ OAuth provider
 
 </td><td>
 
-Select or enter the name of the Application Registry record that you created in step [1.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
+Select or enter the name of the Application Registry record that you created in step [1.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
 
 </td></tr><tr><td>
 
@@ -164,14 +164,14 @@ Enter `offline_access https://<root-site>.sharepoint.com/.default`, replacing `<
 
     4.  If the **Integration Type** field isn't visible on the OAuth 2.0 Credentials form, configure the form layout to make the field visible.
 
-        For details on configuring a form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+        For details on configuring a form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md).
 
     5.  On the OAuth 2.0 Credentials form, fill in the fields:
 
         |Field|Value|
         |-----|-----|
         |Name|Enter a name of your choice for the OAuth 2.0 credential record.|
-        |OAuth Entity Profile|Select the new OAuth entity profile record associated with the Application Registry record that you created in step [1.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).|
+        |OAuth Entity Profile|Select the new OAuth entity profile record associated with the Application Registry record that you created in step [1.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).|
         |Integration Type|Select **Personal**.|
 
     6.  Select **Submit**.
@@ -184,16 +184,16 @@ Enter `offline_access https://<root-site>.sharepoint.com/.default`, replacing `<
 
     2.  Open the **MicrosoftSharePointOnlineforAISearch** alias record in form view by selecting it.
 
-    3.  In the Connections related list, select the connection record that you created in step [3.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
+    3.  In the Connections related list, select the connection record that you created in step [3.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
 
-    4.  On the HTTP\(s\) Connection form, select the **Credential** field's Lookup using list icon \[Omitted image "icon-lookup-using-list.png"\] Alt text:, then select the credential that you defined in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
+    4.  On the HTTP\(s\) Connection form, select the **Credential** field's Lookup using list icon \[Omitted image "icon-lookup-using-list.png"\] Alt text:, then select the credential that you defined in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
 
     5.  Select **Update**.
 
 
 ## What to do next
 
-You can optionally configure a Microsoft Keyword Query Language \(KQL\) query to restrict the set of Microsoft SharePoint Online sites that External Content Q&amp;A Genius Results search for relevant documents. For details on defining this KQL query, see [Restrict the Microsoft SharePoint Online sites that External Content Q&amp;A Genius Results can search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/filter-spo-sites-ext-cont-qa-gr.md).
+You can optionally configure a Microsoft Keyword Query Language \(KQL\) query to restrict the set of Microsoft SharePoint Online sites that External Content Q&amp;A Genius Results search for relevant documents. For details on defining this KQL query, see [Restrict the Microsoft SharePoint Online sites that External Content Q&amp;A Genius Results can search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/filter-spo-sites-ext-cont-qa-gr.md).
 
-**Parent Topic:**[External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-qna.md)
+**Parent Topic:**[External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/external-content-qna.md)
 

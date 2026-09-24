@@ -2,7 +2,7 @@
 title: Bulk edit
 description: Edit records in bulk for Core Business Suite business units through the Now Assist conversational experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/manage-bulk-edit-using-na.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/manage-bulk-edit-using-na.html
 release: australia
 topic_type: task
 last_updated: "2026-03-26"
@@ -18,8 +18,8 @@ Edit records in bulk for Core Business Suite business units through the Now Assi
 
 Ensure that the following are activated:
 
--   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)\)
--   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
+-   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/activate-ai-search.md)\)
+-   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/enable-now-assist-panel.md)\)
 
 Role required: admin, sn\_cbs.admin
 
@@ -79,5 +79,5 @@ Role required: admin, sn\_cbs.admin
 16. Refresh the Core Business Suite Configuration Console to verify that the records are updated successfully.
 
 
-**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
+**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/now-assist-cbs.md)
 

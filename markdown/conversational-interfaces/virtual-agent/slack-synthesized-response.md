@@ -2,12 +2,12 @@
 title: Synthesized response in Slack conversations
 description: Synthesized responses in Slack conversations are results that are summarized as a single response, allowing users to see information in a conversational way.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/slack-synthesized-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/slack-synthesized-response.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Use ServiceNow Otto conversations with Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -32,9 +32,9 @@ When you select the **View other options** button, you get the list of available
 
 ## Streaming synthesized response
 
-Streaming synthesized responses in Slack conversations provides a faster interaction and more engaged user experience with real-time updates while the messages are processed. To learn more about response streaming, see [Chat streaming responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/streaming-responses-requestor.md) and [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
+Streaming synthesized responses in Slack conversations provides a faster interaction and more engaged user experience with real-time updates while the messages are processed. To learn more about response streaming, see [Chat streaming responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/streaming-responses-requestor.md) and [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 
-To enable response streaming in Slack conversations, see [Enable ServiceNow Otto for Virtual Agent in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-na-llm-slack.md). With response streaming enabled in Slack conversations, you can experience the following enhancements:
+To enable response streaming in Slack conversations, see [Enable ServiceNow Otto for Virtual Agent in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-na-llm-slack.md). With response streaming enabled in Slack conversations, you can experience the following enhancements:
 
 -   Reduced latency in conversations
 -   Increased engagement
@@ -65,5 +65,5 @@ Example of using the sn\_aia REST API endpoints to trigger agents through REST A
 }
 ```
 
-**Parent Topic:**[Using ServiceNow Otto for Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/na-va-llm-slack.md)
+**Parent Topic:**[Using ServiceNow Otto for Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/na-va-llm-slack.md)
 

@@ -2,7 +2,7 @@
 title: Configuring CPQ for SalesForce RLM
 description: Install and configure the Salesforce Revenue Lifecycle Management package for CPQ \(v0.3 or later\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/setup\_logik\_io\_configuration\_for\_salesforce\_rlm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/setup\_logik\_io\_configuration\_for\_salesforce\_rlm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

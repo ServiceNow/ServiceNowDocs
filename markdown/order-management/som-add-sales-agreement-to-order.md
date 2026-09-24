@@ -2,7 +2,7 @@
 title: Add a sales agreement to an order in Order Management
 description: Add a sales agreement to an order to set pricing, filter catalog options, and streamline product configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-add-sales-agreement-to-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-add-sales-agreement-to-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ A sales agreement is a contract to purchase a defined set of products and servic
 -   Agents can configure product bundles for orders.
 -   Agents can move quickly through the order process.
 
-See [Using Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-agreement-mgmt-using.md) and [Create a sales agreement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-sales-agreement.md) to learn more about creating a sales agreement.
+See [Using Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-agreement-mgmt-using.md) and [Create a sales agreement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-new-sales-agreement.md) to learn more about creating a sales agreement.
 
 ## Procedure
 
@@ -51,12 +51,12 @@ See [Using Sales Agreement Management](https://raw.githubusercontent.com/Service
 
 ## What to do next
 
-[Add products or services to an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-add-products-services-to-orders.md)
+[Add products or services to an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-add-products-services-to-orders.md)
 
 **Related topics**  
 
 
-[Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-agreement-mgmt.md)
+[Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-agreement-mgmt.md)
 
-[Configure Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-agreement-mgmt.md)
+[Configure Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-sales-agreement-mgmt.md)
 

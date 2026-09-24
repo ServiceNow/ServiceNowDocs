@@ -2,7 +2,7 @@
 title: Process an incident at risk
 description: Work on an incident at risk from your mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/process-incident-at-risk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/process-incident-at-risk.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -30,7 +30,7 @@ Resolve, reassign the incident, or add comments to an incident assigned to you.
 
     The **Incidents at risk** screen opens with a list of incidents.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Incidents at risk** screen with the list of incidents, swipe left on an incident to open the menu.
 

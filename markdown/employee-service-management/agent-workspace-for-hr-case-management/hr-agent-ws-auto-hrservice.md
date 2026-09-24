@@ -2,7 +2,7 @@
 title: Auto determination of HR service in Agent Workspace for HR Case Management
 description: Auto determine the correct HR service for a case in Agent Workspace for HR Case Management. Enable an HR agent to transfer the case to the appropriate HR service rather than having to spend significant time manually triaging cases to appropriate HR services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-auto-hrservice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-auto-hrservice.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -35,9 +35,9 @@ The HR Case Classification solution definition is configured and the predictive 
 -   There are 10000 records of HR case study matching the filters defined in the solution definition.
 -   The **glide.platform\_ml.auto\_training.enabled** system property is set to true.
 
-**Note:** Auto training does not happen if any one of the preceding conditions is not met. In such a case, [Manually train the HR predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md). Navigate to the **HR AI configuration** module, open the HR Case Classification record, and map the manually configured solution definition.
+**Note:** Auto training does not happen if any one of the preceding conditions is not met. In such a case, [Manually train the HR predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md). Navigate to the **HR AI configuration** module, open the HR Case Classification record, and map the manually configured solution definition.
 
-**Parent Topic:**[Machine learning solutions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-ml-solutions.md)
+**Parent Topic:**[Machine learning solutions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-ml-solutions.md)
 
 **Related topics**  
 

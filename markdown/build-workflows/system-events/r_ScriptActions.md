@@ -2,7 +2,7 @@
 title: Script actions
 description: You can use script actions to create server-side scripts that perform a variety of tasks, such as modifying a configuration item \(CI\), or managing failed login attempts. Script actions are triggered by events only.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/r\_ScriptActions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/system-events/r\_ScriptActions.html
 release: australia
 product: System Events
 classification: system-events
@@ -86,5 +86,5 @@ Script that runs when the condition you define evaluates to true. Two additional
 -   current: a GlideRecord- the event scheduled on behalf of \(incident for example\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/system-events-reference.md)
+</table>**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/system-events/system-events-reference.md)
 

@@ -2,7 +2,7 @@
 title: Enable intent to action workflow from inbound actions
 description: Enable and configure intent to action workflow to invoke the agentic workflow from inbound actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/enable-intent-to-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/enable-intent-to-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: sn\_notif\_agents.notification\_ai\_admin
 
 ## What to do next
 
-[Create email intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-intent.md)
+[Create email intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-email-intent.md)
 

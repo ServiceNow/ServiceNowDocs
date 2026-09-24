@@ -2,7 +2,7 @@
 title: Service recommendations for interactions
 description: Recommend the most relevant services to an agent based on the context of an interaction record, such as the short description or description.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-service-definition-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-service-definition-recommendations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -58,7 +58,7 @@ Sets the maximum number of AI predicted services to display in the case type sel
 </table>**Related topics**  
 
 
-[Configure service recommendations for interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-service-recommendations-int.md)
+[Configure service recommendations for interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/configure-service-recommendations-int.md)
 
-[Create a case based on service definition recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-service-definition-rec.md)
+[Create a case based on service definition recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/use-service-definition-rec.md)
 

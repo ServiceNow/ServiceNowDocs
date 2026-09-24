@@ -2,7 +2,7 @@
 title: Set up the Google Docs
 description: Integrate the ServiceNow instance and Google Docs by creating a custom OAuth application in G Suite credentials to authenticate ServiceNow requests.Create a custom OAuth application from your G Suite account to enable OAuth 2.0 authentication with the Google Docs spoke.Add and configure a Google Docs connection to authenticate ServiceNow requests in Google Docs spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gdocs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-gdocs.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -84,7 +84,7 @@ Add and configure a Google Docs connection to authenticate ServiceNow requests i
 
 ### Before you begin
 
--   [Configure Google Docs application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gdocs.md)
+-   [Configure Google Docs application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-gdocs.md)
 -   Role required: admin
 
 ### Procedure

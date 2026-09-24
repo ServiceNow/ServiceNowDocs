@@ -2,7 +2,7 @@
 title: Manage document permissions
 description: Use the Manage permissions action on a document in the Documents panel to control who can read or write to the document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/manage-document-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/manage-document-permissions.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -23,7 +23,7 @@ The **Manage permissions** action on a document lets you grant read or write acc
 
 A user can be granted access through more than one permission, for example, through both a role-based permission and a user-based permission. In this case, the user receives the higher level of access.
 
-**Note:** Document permissions configured from **Manage permissions** are separate from the file access permission records described in [File access permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/file-access-permissions.md), which apply to cloud files linked through the Microsoft integration rather than to documents in the Documents panel.
+**Note:** Document permissions configured from **Manage permissions** are separate from the file access permission records described in [File access permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/file-access-permissions.md), which apply to cloud files linked through the Microsoft integration rather than to documents in the Documents panel.
 
-For the steps to configure document permissions, see [Set document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/set-document-permissions.md).
+For the steps to configure document permissions, see [Set document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/set-document-permissions.md).
 

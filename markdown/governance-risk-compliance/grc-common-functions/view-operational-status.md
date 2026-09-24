@@ -2,7 +2,7 @@
 title: View your operational status
 description: View the Operational Status modules for a list of the CIS Controls and technology Controls. Each control also includes the technology used to validate compliance, type of indicator template available, and the control's source table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/view-operational-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/view-operational-status.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -123,5 +123,5 @@ The source table for the data being monitored by the control.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
+**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
 

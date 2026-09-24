@@ -2,7 +2,7 @@
 title: Customer Service Agent dashboard
 description: The Customer Service Agent dashboard provides quick access to your cases based on criteria that help you prioritize your work. The dashboard also displays summary data on metrics for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-agent-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-agent-dashboard.html
 release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
@@ -114,7 +114,7 @@ CSAT
 
 </td><td>
 
-Average customer satisfaction based on survey results. The percent change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).
+Average customer satisfaction based on survey results. The percent change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).
 
 </td></tr><tr><td>
 

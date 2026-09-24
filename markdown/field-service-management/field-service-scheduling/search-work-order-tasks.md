@@ -2,7 +2,7 @@
 title: Search work order tasks
 description: Minimize scrolling and filter tasks that show in the task panel. Quickly search by keyword, or see all the tasks assigned to a group or territory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/search-work-order-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/search-work-order-tasks.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -104,7 +104,7 @@ The tasks that meet the search requirements are displayed in the task panel.
 **Related topics**  
 
 
-[Search for appropriate Field Service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/search-agents-tasks.md)
+[Search for appropriate Field Service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/search-agents-tasks.md)
 
-[Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+[Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
 

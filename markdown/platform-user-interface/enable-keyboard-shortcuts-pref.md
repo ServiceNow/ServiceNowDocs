@@ -2,7 +2,7 @@
 title: Enable keyboard shortcuts preference
 description: Learn more about the Enable keyboard shortcuts accessibility preference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-keyboard-shortcuts-pref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/enable-keyboard-shortcuts-pref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

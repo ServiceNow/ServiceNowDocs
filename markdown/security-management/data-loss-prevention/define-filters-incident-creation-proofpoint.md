@@ -2,7 +2,7 @@
 title: Define filters to apply for the Incident creation
 description: Define and set filter conditions to filter the incoming  Proofpoint DLP  incidents. Control which DLP incidents should be created on ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/define-filters-incident-creation-proofpoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/define-filters-incident-creation-proofpoint.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -41,5 +41,5 @@ This type of filtering helps you to isolate DLP incidents and to limit the numbe
 4.  Click **Finish**.
 
 
-**Parent Topic:**[Create a Profile for Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-proofpoint-dlp-integration.md)
+**Parent Topic:**[Create a Profile for Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/create-profile-proofpoint-dlp-integration.md)
 

@@ -2,7 +2,7 @@
 title: Keyboard shortcuts
 description: The keyboard shortcuts provided with Indoor Mapping allow Map Studio administrators to quickly perform common administrative tasks by using keys in the Map Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/keyboard-shortcuts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/keyboard-shortcuts.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -47,9 +47,9 @@ Role required: map admin, map editor, map editor limited
     -   Cancel the create a place process: **esc** \(Mac\) or **Esc** \(Windows\)
     -   Delete a selected place: **fn + delete** \(Mac\) or **Backspace** \(Windows\).
 
-**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Create Snapshots to migrate Indoor Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/snapshot-ind-mapping.md)
+**Previous topic:**[Create Snapshots to migrate Indoor Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/snapshot-ind-mapping.md)
 
-**Next topic:**[Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md)
+**Next topic:**[Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md)
 

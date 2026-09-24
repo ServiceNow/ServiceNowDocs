@@ -2,7 +2,7 @@
 title: Create a project task in the project workbench
 description: Create a project task for a waterfall phase.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateProjTaskProjWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_CreateProjTaskProjWorkbench.html
 release: australia
 product: Project Management
 classification: project-management
@@ -40,7 +40,7 @@ While creating a project task in the project workbench, the time constraint type
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
+**Parent Topic:**[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_UsingProjectWorkbench.md)
 
 **Related topics**  
 
@@ -53,5 +53,5 @@ While creating a project task in the project workbench, the time constraint type
 
 [Create a test case in the project workbench]()
 
-[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
+[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_UsingProjectWorkbench.md)
 

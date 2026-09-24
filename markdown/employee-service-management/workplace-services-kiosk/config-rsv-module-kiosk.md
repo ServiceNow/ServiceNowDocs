@@ -2,7 +2,7 @@
 title: Configure Reservable Module for kiosk reservation
 description: Configure the Reservable Module for Workplace Services Kiosk to enable employees and guests to make reservations. Employees and guests can find available spaces on the kiosk map and make reservations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.html
 release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -32,7 +32,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Reservable Module**.
 
-    For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md). On the Reservable Module Configuration page, select the Kiosk module and configure it. This configuration enables employees and guests to select a kiosk on their physical device and make reservations.
+    For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md). On the Reservable Module Configuration page, select the Kiosk module and configure it. This configuration enables employees and guests to select a kiosk on their physical device and make reservations.
 
 2.  Complete the following information for creating a kiosk reservation Reservable Module:
 
@@ -93,7 +93,7 @@ To add a condition, select **Add Filter Condition**. To add an **OR**condition, 
 
 -   To add a condition, select **Add Filter Condition**.
 -   To add an OR condition, select **Add "OR" Clause**.
-**Note:** When applying filter criteria on a location, verify that the **Active** and**Is reservable** check boxes are active and selected for rooms and spaces that are added to a location. Not performing this step adds and displays the inactive or non-reservable spaces and rooms while making a reservation. [Add a room using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-a-room.md) and [Add a room form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-room-form.md).
+**Note:** When applying filter criteria on a location, verify that the **Active** and**Is reservable** check boxes are active and selected for rooms and spaces that are added to a location. Not performing this step adds and displays the inactive or non-reservable spaces and rooms while making a reservation. [Add a room using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-a-room.md) and [Add a room form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-room-form.md).
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Reservable quantity for workplace spaces. The **Reservable Quantity** field dete
 
     \[Omitted image "kiosk-rsv-config-module-settings-.png"\] Alt text: Reservable Configuration Tab form. Select the Kiosk Module to allow employees to make reservation.
 
-    **Note:** Kiosk Module configuration enables employees to select a kiosk on their device and make workplace reservations. For more information, see [Make workplace reservations on the kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/rsv-space-kiosk-map.md).
+    **Note:** Kiosk Module configuration enables employees to select a kiosk on their device and make workplace reservations. For more information, see [Make workplace reservations on the kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/rsv-space-kiosk-map.md).
 
     Fill in the field information.
 
@@ -160,9 +160,9 @@ All day options can be set to: -   Disabled: The All day option is disabled and 
 -   Default: The All day option is available and the current office time is selected by default. For example, if you’re making reservation at 11.30 am, based on your building time zone, the start time of the reservation is selected as 11.30 am. Employees change the timings, if necessary.
 -   Enabled: The All day option is available and employees can reserve a space for a day.
 
-This configuration is dependent on the \(sn\_wsd\_rsv.day\_start\) and \(sn\_wsd\_rsv.day\_end\) reservation property. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
+This configuration is dependent on the \(sn\_wsd\_rsv.day\_start\) and \(sn\_wsd\_rsv.day\_end\) reservation property. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
 
--   Required: The All day option is displayed as selected and can’t be changed. The All day field is set as required. Based on the building time zone, regular office hours as set by your administrator is shown. For example, 9 am to 5 pm. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
+-   Required: The All day option is displayed as selected and can’t be changed. The All day field is set as required. Based on the building time zone, regular office hours as set by your administrator is shown. For example, 9 am to 5 pm. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
 
 
 </td></tr><tr><td>
@@ -216,14 +216,14 @@ Option to specify the status of the reservation shown on the employee's calendar
 
 7.  Select the Kiosk Indoor Mapping icon \(\[Omitted image "kiosk-indoor-mapping-icon.png"\] Alt text: Kiosk Indoor Mapping icon.\) and configure the default map configuration for the Kiosk Reservable Module that you created \(see Step 4\).
 
-    Kiosk default map configuration enables employees to select the Kiosk Reservable Module and assign spaces configured in the reservable module to it. Employees and guests can search for spaces and make reservations on the **Kiosk Map**. For more information, see [Configure map features for kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/config-map-features.md).
+    Kiosk default map configuration enables employees to select the Kiosk Reservable Module and assign spaces configured in the reservable module to it. Employees and guests can search for spaces and make reservations on the **Kiosk Map**. For more information, see [Configure map features for kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/config-map-features.md).
 
 8.  After configuring the kiosk map, kiosk operators can bind or assign the kiosk to a device for employees and guests to make workplace reservations.
 
-    For more information, see [Setup a kiosk on a physical device for reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/kiosk-setup-rsv-space.md).
+    For more information, see [Setup a kiosk on a physical device for reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/kiosk-setup-rsv-space.md).
 
-    For more information, see [Make workplace reservations on the kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/rsv-space-kiosk-map.md).
+    For more information, see [Make workplace reservations on the kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/rsv-space-kiosk-map.md).
 
 
-**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

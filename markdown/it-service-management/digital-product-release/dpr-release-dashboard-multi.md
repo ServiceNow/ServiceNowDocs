@@ -2,7 +2,7 @@
 title: Release dashboard for a multi-product release
 description: The Release Overview dashboard for a multi-product release provides an overview of all the information about every product release, which the product team can use to assess the release readiness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-release-dashboard-multi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-release-dashboard-multi.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -97,7 +97,7 @@ Number of enhancements across all releases.
 </td></tr></tbody>
 </table>**Note:** Counts and charts reflect only tasks, policies, approvals, and other items mapped to active phases. Items associated with a cancelled or superseded phase \(for example, after a phase restart\) aren't included.
 
-**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-dashboard-release.md)
+**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-dashboard-release.md)
 
 **Related topics**  
 

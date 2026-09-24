@@ -2,12 +2,12 @@
 title: AI portfolio overview
 description: Act on the AI governance work that matters most, review the state of your AI portfolio, and track the value your AI assets deliver on the Home page in AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-ai-portfolio-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-ai-portfolio-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"
-reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+reading_time_minutes: 4
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
 ---
 
@@ -22,7 +22,7 @@ Act on the AI governance work that matters most, review the state of your AI por
 -   Check the governance posture of your managed AI assets across quality, safety, security, compliance, and residual risk avoidance.
 -   Track the total value your managed AI assets deliver and the trend over time.
 
-The **Home** page provides a portfolio-level view of all AI assets across your organization. For a detailed view scoped to a single AI asset, see [Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-managing-ai-assets.md).
+The **Home** page provides a portfolio-level view of all AI assets across your organization. For a detailed view scoped to a single AI asset, see [Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-managing-ai-assets.md).
 
 **Note:** If you have the AI Asset Owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, the **Home** page displays details only for the AI assets that you're assigned to manage.
 
@@ -40,18 +40,14 @@ Access an overview of your AI portfolio on the **Home** page in AI Control Tower
 
 -   Act on the recommendations AI Control Tower has surfaced for you from the **Your top recommendations** widget.
     -   Review each recommendation and resolve it using the primary action on the card.
-    -   Select **See all Recommendations in Activity Center** to open the full list of recommendations for your portfolio. For more information, see [Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-recommendations-ai-insights.md).
+    -   Select **See all Recommendations in Activity Center** to open the full list of recommendations for your portfolio. For more information, see [Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-recommendations-ai-insights.md).
 -   Check how much work is waiting for you across AI Control Tower from the **Pending work items** widget.
     -   Review the total count of work items assigned to you or created by you, spanning recommendations, lifecycle tasks, and the other work types tracked in Activity Center.
-    -   Select the widget to open **Activity Center** and work through the underlying items. For more information, see [Addressing your AI action items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-addressing-ai-action-items.md).
+    -   Select the widget to open **Activity Center** and work through the underlying items. For more information, see [Addressing your AI action items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-addressing-ai-action-items.md).
 -   Review the size and composition of your AI inventory.
     -   If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, you can view the total number of AI assets in the **Inventory** widget. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, you can view the total number of assets you own in the **Your inventory** widget.
     -   Break down your inventory by **By type**, **By status**, **By department**, or **By management status**, and identify where your assets are concentrated.
     -   Select the widget to open the **Inventory** page, where you can search, filter, and take action on individual assets.
--   Track unsanctioned AI use across your organization from the **Shadow AI traffic** widget.
-    -   Review the number of AI services detected in the last 30 days and the percentage change from the previous period.
-    -   Select the arrow icon on the widget to open the **Shadow AI** overview page, where you can review detected AI traffic in more detail. For more information, see [Shadow AI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sh-ai-overview.md).
-    -   This widget appears only when Shadow AI is activated and configured. See [Configuring Shadow AI in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sh-ai-configuring.md).
 -   Assess the governance health of your managed AI assets from the **Governance posture summary** widget.
     -   Review the distribution of managed AI assets across five dimensions: **Quality**, **Safety**, **Security**, **Compliance**, and **Residual risk**.
     -   Identify the dimensions where your portfolio has the most assets in the **Low** or **NA** category, and use those findings to prioritize governance work.

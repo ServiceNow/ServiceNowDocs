@@ -2,7 +2,7 @@
 title: Modify NLU utterances and entities for a Virtual Agent topic
 description: View, test, and modify NLU utterances for a Virtual Agent topic on the NLU Intent tab in Assistant Designer Asset library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -49,7 +49,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## What to do next
 
-After making changes, you can [train, test, and publish the model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md) from this tab.
+After making changes, you can [train, test, and publish the model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md) from this tab.
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

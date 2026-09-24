@@ -2,11 +2,11 @@
 title: Combined Activity Management release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Activity Management from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -80,6 +80,43 @@ Australia
 Enable record-level access to touchpoints through the responsibility framework. The new CRM Touchpoints responsibility read granular and CRM Touchpoints responsibility write granular roles enables admins to configure and limit sales territory members and opportunity team members to the touchpoints on the leads, opportunities, and accounts they are responsible for, rather than the blanket access provided by the touchpoint reader and writer roles.
 
 
+ -   **[AI sales activity association](https://www.servicenow.com/docs/access?context=explore-ai-sales-activity-association&family=australia&ft:locale=en-US)**
+
+Automatically associate inbound sales emails with the correct lead, opportunity, account, or contact using AI-based intent detection and semantic matching. When the agent identifies a confident match, it auto-associates the email to the CRM record so sales representatives see emails already linked in the record's Activity stream.
+
+
+ -   **[Automatic record matching for emails in a thread](https://www.servicenow.com/docs/access?context=associate-email-crm-outlook&family=australia&ft:locale=en-US)**
+
+Skip the record lookup when associating emails from the email thread. After you associate an email from a thread with a CRM entity, the add-in links any other email you select from the thread to the same CRM record. You stay in control of which emails are captured in the CRM by selecting an email and launching the ServiceNow CRM for Outlook Add-in.
+
+
+ -   **[Centralize customer communications for the entire team](https://www.servicenow.com/docs/access?context=view-associated-emails-crm&family=australia&ft:locale=en-US)**
+
+Make email‑based customer interactions visible to account, lead, or opportunity teams by associating emails with the ServiceNow CRM records instead of them being isolated in your personal inbox.
+
+
+ -   **[Touchpoints on CRM entities](https://www.servicenow.com/docs/access?context=create-crm-touchpoint&family=australia&ft:locale=en-US)**
+
+Capture and track engagement activities for prospects and customers across communication channels such as email, phone, virtual meeting, in-person meetings, and social interactions by creating touchpoint records. Associate touchpoints with leads, opportunities, accounts, and contacts to maintain a complete engagement history.
+
+-   **[Custom touchpoint types](https://www.servicenow.com/docs/access?context=create-custom-touchpoint-types&family=australia&ft:locale=en-US)**
+
+Define custom touchpoint types in addition to the default types of discovery, demo, and customer business review \(CBR\), and so on to match your organization's specific engagement processes.
+
+-   **[Activity capture and tracking](https://www.servicenow.com/docs/access?context=using-activity-management&family=australia&ft:locale=en-US)**
+
+Capture emails, calls, meetings, and tasks within touchpoints such as discovery, demo, business value assessment, or CBRs in a single system of record. Track metrics such as primary channel and time spent for every interaction, providing leadership with visibility into the activity volume per sales representative.
+
+
+ -   **[Associate emails with CRM entities](https://www.servicenow.com/docs/access?context=associate-email-crm-outlook&family=australia&ft:locale=en-US)**
+
+Associate customer emails to the correct ServiceNow CRM record without leaving Microsoft Outlook. Manually search and associate emails with leads, opportunities, accounts, or contacts, so that engagement context is captured immediately and remains available for future correspondence and follow‑up.
+
+-   **[Create leads and contacts from email](https://www.servicenow.com/docs/access?context=create-crm-entity-outlook&family=australia&ft:locale=en-US)**
+
+Create a lead or contact directly from an email when no matching CRM record exists, and automatically attach the originating email to the newly created record to preserve engagement history.
+
+
 </td></tr></tbody>
 </table>## Changes
 
@@ -122,6 +159,11 @@ Return to the ServiceNow CRM for Outlook add-in home page after re-authenticatin
 -   **[Pre-applied filters on entity tabs](https://www.servicenow.com/docs/access?context=associate-email-crm-outlook&family=australia&ft:locale=en-US)**
 
 Find relevant CRM records faster when associating an email. Each entity tab in the ServiceNow CRM for Outlook add-in pre-applies filters based on the email's sender or recipient name and domain, so you see only the records most likely to match instead of every record in the table.
+
+
+ -   **[Account and Contact field auto-population](https://www.servicenow.com/docs/access?context=create-crm-touchpoint&family=australia&ft:locale=en-US)**
+
+Reduce manual data entry when creating touchpoints by automatically populating the Account and Contact fields when you select an Associated Entity and Associated Record of type Contact, Account, Lead, or Opportunity. Associated Entity and Associated Record fields become read-only after the touchpoint record is created.
 
 
 </td></tr></tbody>
@@ -213,6 +255,8 @@ Australia
 
 Install CRM Outlook Add-in and CRM Touchpoints by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Activity Management applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -368,5 +412,5 @@ Australia
  See [Activity Management](https://www.servicenow.com/docs/access?context=explore-activity-management&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

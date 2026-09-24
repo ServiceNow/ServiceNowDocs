@@ -2,7 +2,7 @@
 title: Task plan templates driven order fulfillment
 description: Use the task plan template to define tasks and their dependencies that are needed to orchestrate the fulfillment journey for a product to standardize fulfillment processes across products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-flow-action-catalog-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/somt-flow-action-catalog-task.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -54,7 +54,7 @@ Create the template and set the conditions as to when the template applies.-   T
 
 </td></tr><tr><td>
 
-[Configure task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/configure-task-plan-template.md)
+[Configure task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/configure-task-plan-template.md)
 
 </td><td>
 

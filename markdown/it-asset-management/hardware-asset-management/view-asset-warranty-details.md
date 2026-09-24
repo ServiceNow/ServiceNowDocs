@@ -2,7 +2,7 @@
 title: Track the warranty details of your Lenovo assets
 description: View and track the warranty details of your Lenovo hardware assets from a central location in the Asset operations view of the Hardware Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-asset-warranty-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/view-asset-warranty-details.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -31,7 +31,7 @@ Role required: asset
 3.  Select a warranty record to view more details.
 
 
-**Parent Topic:**[Receive asset warranty details from Lenovo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/receive-warranty-details-lenovo.md)
+**Parent Topic:**[Receive asset warranty details from Lenovo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/receive-warranty-details-lenovo.md)
 
 **Related topics**  
 

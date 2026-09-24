@@ -2,7 +2,7 @@
 title: Unassign a bot process from a queue in RPA Hub
 description: Unassign a bot process from a queue in RPA Hub to stop an interaction with this queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/unassign-botprocess-queue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/unassign-botprocess-queue.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,11 +16,11 @@ Unassign a bot process from a queue in RPA Hub to stop an interaction with this 
 
 ## Before you begin
 
-Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md).
 
-Create a queue. For more information, see [Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-queue.md).
+Create a queue. For more information, see [Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-queue.md).
 
-Assign a bot process to a queue. For more information, see [Assign a bot process to a queue from Queues menu in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-botprocess-queue.md).
+Assign a bot process to a queue. For more information, see [Assign a bot process to a queue from Queues menu in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/assign-botprocess-queue.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -41,12 +41,12 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md)
+**Parent Topic:**[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/queues-implement-rpa.md)
 
 **Related topics**  
 
 
-[Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-form.md)
+[Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/queue-form.md)
 
-[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md)
+[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/queues-implement-rpa.md)
 

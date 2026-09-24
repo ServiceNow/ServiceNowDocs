@@ -2,7 +2,7 @@
 title: ServiceNow Quote Experience Integrate Salesforce approvals
 description: Integrate Salesforce approvals into ServiceNow Quote ExperienceServiceNow Quote Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-integrate-salesforce-approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/transaction-manager-integrate-salesforce-approvals.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Event assets
 description: When an event is initiated, event assets are managed by using different recovery management methods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/event-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/event-assets.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -77,5 +77,5 @@ These improvements provide several benefits:
 
 By providing more detailed and accurate tracking of recovery efforts, these updates enable organizations to better manage their recovery processes and improve their overall resilience.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

@@ -2,11 +2,11 @@
 title: Combined Customer Engagement Sequences release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Customer Engagement Sequences from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-customerengagementsequences-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-customerengagementsequences-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -86,7 +86,28 @@ Zurich
 
 </td><td>
 
--   **[No-code interface for admins to configure sequences](https://www.servicenow.com/docs/access?context=configuring-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
+-   **[Multi-trigger sequences with decision branches for stages](https://www.servicenow.com/docs/access?context=define-trigger-conditions&family=zurich&ft:locale=en-US)**
+
+Configure the sequences playbook to start based on multiple conditions across entities, eliminating the need for separate sequences for similar workflows. Add a decision node between stages to determine which stage to run next, based on the outcome of the previous stage.
+
+-   **[Schedule call activity for telesales workflows](https://www.servicenow.com/docs/access?context=add-schedule-call-activity&family=zurich&ft:locale=en-US)**
+
+Design sequences with the new Scheduled call activity to automate structured call attempts, including delays and outcome-based branching, directly from the playbook interface. This helps agents follow a repeatable, optimized process for engaging prospects or customers in telesales workflows.
+
+-   **[Runtime permissions and fine-grained access control](https://www.servicenow.com/docs/access?context=configure-runtime-permission-sequence-playbooks&family=zurich&ft:locale=en-US)**
+
+Enforce runtime permissions to control access to sequence records such as sequence tasks and steps.
+
+-   **[Granular role framework](https://www.servicenow.com/docs/access?context=components-installed-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
+
+Assign role-based access for sequence admins, writers, executors, and readers. Sequence admins have full control, writers manage their own sequences, executors \(formerly viewers\) have read-only access to sequences and sequence task records, and readers view sequence records. For more information, see [Compatibility information](https://www.servicenow.com/docs/access?context=compatibility-matrix-upgrade-info&family=zurich&ft:locale=en-US).
+
+-   **[Review sequences](https://www.servicenow.com/docs/access?context=view-sequence-design-time&family=zurich&ft:locale=en-US)View sequences**
+
+Enable the sales operations teams to optimize and share the high-performing sequences across territories to promote best practices across the organization.
+
+
+ -   **[No-code interface for admins to configure sequences](https://www.servicenow.com/docs/access?context=configuring-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
 
 Configuring multi-step sequences that define specific activities using a no-code playbook experience reduces dependency on developers.
 
@@ -253,6 +274,8 @@ Zurich
 Install Customer Engagement Sequences by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Customer Engagement Sequences is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -263,6 +286,8 @@ Australia
 
 Install Customer Engagement Sequences by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Customer Engagement Sequences is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -462,5 +487,5 @@ Australia
  See [Customer Engagement Sequences](https://www.servicenow.com/docs/access?context=explore-customer-engagement-sequences&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

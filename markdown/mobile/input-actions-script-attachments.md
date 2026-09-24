@@ -2,7 +2,7 @@
 title: Script code for storing user-selected attachments in the database
 description: Use the following script to determine where attachments selected by the user in the attachment input action are stored within the database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/input-actions-script-attachments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/input-actions-script-attachments.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

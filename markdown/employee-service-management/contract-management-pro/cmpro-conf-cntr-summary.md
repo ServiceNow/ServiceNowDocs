@@ -2,7 +2,7 @@
 title: Configuring contract summarization for Contract Management Pro
 description: Configure the smart documents skill in Document Management to generate a contract summary in Contract Management Pro.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -38,7 +38,7 @@ To enable this feature in Contract Management Pro, do the following:
     -   Legal contract owner \[sn\_lg\_cnt.contract\_owner\]
 4.  Enable the ServiceNow Otto panel for your instance. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 

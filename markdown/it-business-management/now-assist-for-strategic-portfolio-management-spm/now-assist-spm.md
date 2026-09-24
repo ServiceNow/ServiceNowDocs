@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Strategic Portfolio Management
 description: Use the ServiceNow Otto for Strategic Portfolio Management application to summarize feedback in Strategic Planning or text in Docs, create a demand with a conversational experience, generate insights for projects, and generate stories from epics. Product, project, and demand managers can use the Now Assist skills and AI agents to streamline their projects and workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -64,15 +64,15 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 **Related topics**  
 
 
-[AI skills in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/ai-skills-project-workspace.md)
+[AI skills in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/ai-skills-project-workspace.md)
 
-[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md)
+[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-na-spm.md)
 
-[Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-na-admin-spm.md)
+[Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-na-admin-spm.md)
 
-[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-na-spm-ai-agents.md)
 
-[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 
-[Managing Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/managing-product-feedback-in-strategic-planning.md)
+[Managing Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/managing-product-feedback-in-strategic-planning.md)
 

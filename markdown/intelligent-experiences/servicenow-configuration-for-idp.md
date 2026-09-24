@@ -2,7 +2,7 @@
 title: ServiceNow\(Glide\) configuration for IDP
 description: This process involves setting up the necessary tables and mappings within your ServiceNow instance. This includes configuring ServiceNow, creating the MCP server, and connecting the MCP client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-configuration-for-idp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-configuration-for-idp.html
 release: australia
 topic_type: task
 last_updated: "2026-06-19"
@@ -88,5 +88,5 @@ Your MCP server is now configured to authenticate users through the third-party 
 1.  Configure and set up the third-party IDP. This process involves setting up the application and authorization server within the third-party IDP setup. This document uses Okta as the use case, however, Microsoft Entra is also recommended.
 2.  Integrate and test from your MCP Client.
 
-**Parent Topic:**[Integrating MCP server with third-party identity providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-mcp-server-with-third-party-identity-providers.md)
+**Parent Topic:**[Integrating MCP server with third-party identity providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrating-mcp-server-with-third-party-identity-providers.md)
 

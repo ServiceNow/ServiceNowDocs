@@ -2,7 +2,7 @@
 title: Generate a representative sample of a cluster
 description: View the top 25 most representative records of a cluster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/generate-rep-sample-clustering.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/generate-rep-sample-clustering.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence

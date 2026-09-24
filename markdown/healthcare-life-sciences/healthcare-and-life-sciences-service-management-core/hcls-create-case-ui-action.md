@@ -2,7 +2,7 @@
 title: Configure interactions for healthcare case types
 description: You can add a create case UI action to enable agents to create a healthcare-related case from an interaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-case-ui-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-case-ui-action.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

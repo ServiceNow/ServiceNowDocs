@@ -2,7 +2,7 @@
 title: Infoblox Spoke
 description: Automate network management tasks in Infoblox from your ServiceNow instance. For example, register or delete IP addresses on an Infoblox server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/infoblox-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/infoblox-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -144,11 +144,11 @@ Connection to Infoblox server
 -   Connection URL: URL of the host machine where the Infoblox server is installed.
 
 </td></tr></tbody>
-</table>To use the spoke connection alias, create an associated Connection record and an associated Credential record. For information about setting up the spoke, see [Set up the Infoblox spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-infoblox.md).
+</table>To use the spoke connection alias, create an associated Connection record and an associated Credential record. For information about setting up the spoke, see [Set up the Infoblox spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-infoblox.md).
 
 ## MID Server requirements
 
 These actions use REST calls, which must run on a MID Server. Use the connection record associated with the Infoblox alias to configure where actions run as well as set MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

@@ -2,7 +2,7 @@
 title: Add or modify Visual Task Board lanes
 description: Any board member can change the names and add new lanes to accommodate the task workflow you want to track. When you create a freeform or flexible task board, it includes the default lanes To Do, Doing, and Done.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_AddOrModifyALane.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_AddOrModifyALane.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -111,7 +111,7 @@ The Child table lanes and records are excluded.
 </table>    **Note:** When moving the card from lane to another, if you get an error message while having write access to the record then create a system property **glide.vtb.enable\_list\_edit\_acl** and set it to **false**.
 
 
-**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
+**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
 
 **Related topics**  
 

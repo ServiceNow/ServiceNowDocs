@@ -2,7 +2,7 @@
 title: Reopen a closed invoice case
 description: Reopen a closed or cancelled invoice inquiry case to continue working on it instead of creating a new one. Reopening preserves the full case history, so you can correct details, send a follow-up email, or resume the conversation on the existing case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/reopen-a-closed-invoice-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/reopen-a-closed-invoice-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -37,7 +37,7 @@ Role required: APO CM agent
 
 The case state reverts to **Work in Progress**. All previous case activities, field changes, and communication history remain visible and accessible, so you can continue working on the existing case.
 
-**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 

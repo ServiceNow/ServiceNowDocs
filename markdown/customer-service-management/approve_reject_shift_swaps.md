@@ -2,7 +2,7 @@
 title: Approve or reject a shift swap from CSM Agent Workspace
 description: You can approve a shift swap requested by your peer if you are available to work for that time period. You can reject it if you are unable to work then.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/approve\_reject\_shift\_swaps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/approve\_reject\_shift\_swaps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ You can approve a shift swap requested by your peer if you are available to work
 
 ## Before you begin
 
-**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md).
+**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-wfo-cs.md).
 
 Role required: sn\_shift\_planning.agent
 
@@ -34,6 +34,6 @@ Role required: sn\_shift\_planning.agent
 
     -   To approve the request, click **Approve**.
     -   To reject the request, click **Reject**.
-    If you approve a shift swap, the application moves the request to your manager's approval queue. For more information, refer to [Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md).
+    If you approve a shift swap, the application moves the request to your manager's approval queue. For more information, refer to [Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/scheduling-configurable-wfo-cs.md).
 
 

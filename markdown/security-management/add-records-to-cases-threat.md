@@ -2,7 +2,7 @@
 title: Add IoCs and observables to an existing case
 description: You can add IoCs and observables to existing cases. After the security incidents have been added to cases, you can use Security Case Management to analyze the data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/add-records-to-cases-threat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/add-records-to-cases-threat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,7 +43,7 @@ Role required: sn\_ti.case\_user\_write
     A message indicates that the selected records have been added to the cases, along with a link to the cases in Security Case Management.
 
 
-**Parent Topic:**[IoCs and observables in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cases-in-threat.md)
+**Parent Topic:**[IoCs and observables in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/cases-in-threat.md)
 
 **Related topics**  
 

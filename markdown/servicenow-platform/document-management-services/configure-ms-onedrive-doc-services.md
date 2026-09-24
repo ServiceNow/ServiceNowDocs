@@ -2,7 +2,7 @@
 title: Setup Microsoft OneDrive for Document Services
 description: Integrate the ServiceNow instance and Microsoft OneDrive for Document Services by creating a custom OAuth application in Document Services to authenticate ServiceNow requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/configure-ms-onedrive-doc-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/configure-ms-onedrive-doc-services.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -96,7 +96,7 @@ Complete these steps from your [Azure](https://docs.microsoft.com/en-us/azure/) 
 
 ## What to do next
 
-[Register Microsoft OneDrive as an OAuth provider for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/register-ms-onedrive-oauth-provider.md)
+[Register Microsoft OneDrive as an OAuth provider for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/register-ms-onedrive-oauth-provider.md)
 
-**Parent Topic:**[Microsoft OneDrive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/one-drive-integration.md)
+**Parent Topic:**[Microsoft OneDrive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/one-drive-integration.md)
 

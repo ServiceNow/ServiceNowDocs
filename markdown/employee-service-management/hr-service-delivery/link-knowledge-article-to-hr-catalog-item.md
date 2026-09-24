@@ -2,7 +2,7 @@
 title: Link knowledge articles or managed documents to an HR catalog item
 description: Link knowledge articles or managed documents to an HR catalog item so that employees can refer to the articles or documents when requesting the service through the HR service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/link-knowledge-article-to-hr-catalog-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/link-knowledge-article-to-hr-catalog-item.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -53,9 +53,9 @@ For the link to display on the HR catalog item, make sure the item has a variabl
     The knowledge article will display under the **Related Knowledge Documents** section when employees open the HR catalog item in the HR catalog.
 
 
-**Parent Topic:**[HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md)
+**Parent Topic:**[HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md)
 
-**Previous topic:**[Edit the HR case template for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.md)
+**Previous topic:**[Edit the HR case template for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.md)
 
-**Next topic:**[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)
+**Next topic:**[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)
 

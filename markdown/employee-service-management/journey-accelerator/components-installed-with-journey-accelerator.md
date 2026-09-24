@@ -2,7 +2,7 @@
 title: Components installed with Journey Accelerator
 description: Several types of components install with the activation of the Journey Accelerator application, including user roles and tables. There are also dependencies on other features or apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/components-installed-with-journey-accelerator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-accelerator/components-installed-with-journey-accelerator.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -97,5 +97,5 @@ none
 
 For more information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md).
 
-**Parent Topic:**[Journey Accelerator reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-reference.md)
+**Parent Topic:**[Journey Accelerator reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/ja-reference.md)
 

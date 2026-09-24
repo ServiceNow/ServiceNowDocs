@@ -2,7 +2,7 @@
 title: Model Risk Workspace
 description: The Model Risk Workspace enables the model risk governance team and model validators to view the action items that require their immediate attention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/model-risk-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/model-risk-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

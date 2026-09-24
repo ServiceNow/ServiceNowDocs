@@ -2,7 +2,7 @@
 title: Natural Language Understanding of Virtual Agent responses
 description: Use the NLU Prediction tab to see how well NLU predicts intents, and to improve the intents so NLU makes better predictions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/nlu-tab-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/nlu-tab-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -50,8 +50,8 @@ Clicking anywhere on the NLU Prediction indicator opens the Model Performance pa
 
 See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-nlu-workbench.md) for information on how to use NLU Workbench to improve NLU predictions.
 
--   **[Modify models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/modify-model-pae.md)**  
+-   **[Modify models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/modify-model-pae.md)**  
 Test and modify the Virtual Agent models so they more accurately predict user intents.
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

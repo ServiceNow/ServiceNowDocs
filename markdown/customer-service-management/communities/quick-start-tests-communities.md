@@ -2,7 +2,7 @@
 title: Quick start tests for Communities
 description: Validate that Communities still work after you make any configuration change, such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/quick-start-tests-communities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/quick-start-tests-communities.html
 release: australia
 product: Communities
 classification: communities
@@ -37,7 +37,7 @@ Communities quick start tests require activating the Customer Communities plugin
 |Post a video with 'Disable comment' option|Verify a video is posted with `Disable comments` option as selected.|Orlando|
 |Pin a video as Featured|Verify that a video is marked as featured by community administrator in the forum and community home page.|Orlando|
 
-**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communitie-references.md)
+**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/communitie-references.md)
 
 **Related topics**  
 

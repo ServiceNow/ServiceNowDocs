@@ -2,7 +2,7 @@
 title: Export data
 description: The Discovery Console for OT exports data as a JSON export file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/export-data-json.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/export-data-json.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,6 +52,6 @@ Role required: admin
     The default frequency is 1 day. The time-of-day defaults to 00:00 AM UTC.
 
 
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/settings-page-console.md)
 
 [^1]: There are two version of Connections API. They provide the same information in two different formats.

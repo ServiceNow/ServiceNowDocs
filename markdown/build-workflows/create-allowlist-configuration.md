@@ -2,7 +2,7 @@
 title: Create an allowlist configuration
 description: Manage access to specific tables by specifying the additional user roles necessary to create an intelligent approval on a specific table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/create-allowlist-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/create-allowlist-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-07-01"

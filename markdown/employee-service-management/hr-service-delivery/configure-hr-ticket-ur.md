@@ -2,7 +2,7 @@
 title: Configure custom HR services
 description: Configure your custom HR services in the Standard Ticket page to provide consistent employee experience in the Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-hr-ticket-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-hr-ticket-ur.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -249,5 +249,5 @@ Comma-separated list of tab widget parameters. This field appears only when **Cu
 </table>6.  On the Ticket Configuration form, click **Update**.
 
 
-**Parent Topic:**[Standard Ticket Page view for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ur-hr-standard-ticket-page.md)
+**Parent Topic:**[Standard Ticket Page view for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/ur-hr-standard-ticket-page.md)
 

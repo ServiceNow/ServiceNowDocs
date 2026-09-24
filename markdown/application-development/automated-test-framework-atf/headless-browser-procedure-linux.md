@@ -2,7 +2,7 @@
 title: Headless Browser setup for Linux
 description: The ServiceNow Headless Browser for Automated Test Framework provides automation so you can skip having to manually open a browser during testing. The Headless Browser setup is available in both Linux and Microsoft Windows. This topic covers the setup for Linux.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/headless-browser-procedure-linux.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/headless-browser-procedure-linux.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -47,20 +47,20 @@ Role required: admin on your ServiceNow instance and local administrator on the 
 
 Follow these six steps \(plus verification\) to set up the Headless Browser for Linux.
 
-1.  [Generate certificates for Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-certificates.md)  
+1.  [Generate certificates for Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/headless-browser-certificates.md)  
 Generate TLS/SSL certificates to secure the Docker REST API and authenticate HTTP requests.
-2.  [Configure Docker for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-configure-docker.md)  
+2.  [Configure Docker for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/headless-browser-configure-docker.md)  
 Complete Step 2 in the Linux setup for the ServiceNow® Headless Browser for ATF: Configure Docker Server to authenticate all requests.
-3.  [Create the Docker image and containers for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-create-docker-image-containers.md)  
+3.  [Create the Docker image and containers for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/headless-browser-create-docker-image-containers.md)  
 Pull the Docker image from the Public Registry.
-4.  [Add secrets to Docker for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-add-secrets-docker.md)  
+4.  [Add secrets to Docker for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/headless-browser-add-secrets-docker.md)  
 Create a Docker secret, which stores the password of the ServiceNow user who will log into the instance to execute the tests. Docker Secrets is a feature of ServiceNow® for securely storing the passwords that will be used in containers.
-5.  [Set up instance for Headless Browser in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-instance-setup.md)  
+5.  [Set up instance for Headless Browser in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/headless-browser-instance-setup.md)  
 Step 5 in the Linux setup for the ServiceNow® Headless Browser for ATF: Set up your instance so it can support the Headless Browser.
-6.  [Configure ATF for Headless Browser in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-configure-atf.md)  
+6.  [Configure ATF for Headless Browser in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/headless-browser-configure-atf.md)  
 Step 6 in the Linux setup for the ServiceNow® Headless Browser for ATF: Configure ATF with properties.
-7.  [Verify Headless Browser procedures in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-verify-tests.md)  
+7.  [Verify Headless Browser procedures in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/headless-browser-verify-tests.md)  
 Step 7, the final step in the Linux setup for the ServiceNow® Headless Browser for ATF: Verify that your Headless Browser setup procedures are successful.
 
-**Parent Topic:**[Headless Browser for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-headless-browser.md)
+**Parent Topic:**[Headless Browser for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-headless-browser.md)
 

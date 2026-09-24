@@ -2,7 +2,7 @@
 title: Modify the Task Mining data retention period
 description: Modify the default retention configuration rules to delete data automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/define-data-retention.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/define-data-retention.html
 release: australia
 product: Task Mining
 classification: task-mining

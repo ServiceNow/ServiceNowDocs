@@ -2,12 +2,12 @@
 title: Create time cards and log time through Time Sheet Portal
 description: After you create time cards in Time Sheet Portal, log time in the time cards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/create-timecards-through-worker-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/create-timecards-through-worker-portal.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Time Sheet Portal, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -161,7 +161,7 @@ If you encounter issues with time card creation or time logging, try the followi
 
 For issues you cannot resolve, contact your system administrator or the user with the timecard\_admin role in your organization.
 
-**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/worker-portal.md)
+**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/worker-portal.md)
 
 **Related topics**  
 

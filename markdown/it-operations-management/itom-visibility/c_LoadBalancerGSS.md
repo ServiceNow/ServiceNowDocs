@@ -2,7 +2,7 @@
 title: Cisco GSS load balancer discovery
 description: Discovery of Cisco GSS load balancers is performed by both SNMP and SSH.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_LoadBalancerGSS.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/c\_LoadBalancerGSS.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -39,9 +39,9 @@ The following probes are triggered after classification:
 
 ## Tables
 
-Discovery creates a record for each GSS device in the Cisco GSS \[cmdb\_ci\_lb\_cisco\_gss\] table. Domains are populated in the DNS Names \[cmdb\_ci\_dns\_name\] table. Host names and IP addresses are stored in the IP Address to DNS Name \[cmdb\_ip\_address\_dns\_name\] table. [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md) uses this information. You can see the DNS name information on the **DNS Names for CIs** related list of the Load Balancer form.
+Discovery creates a record for each GSS device in the Cisco GSS \[cmdb\_ci\_lb\_cisco\_gss\] table. Domains are populated in the DNS Names \[cmdb\_ci\_dns\_name\] table. Host names and IP addresses are stored in the IP Address to DNS Name \[cmdb\_ip\_address\_dns\_name\] table. [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_ServiceMappingOverview.md) uses this information. You can see the DNS name information on the **DNS Names for CIs** related list of the Load Balancer form.
 
-**Note:** The Cisco GSS pattern is available by default to use with the [Pattern Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
+**Note:** The Cisco GSS pattern is available by default to use with the [Pattern Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
 
-**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

@@ -2,7 +2,7 @@
 title: Use the XmlTemplate component
 description: Create templates from existing XML or PDF documents by adding custom data or fields to the documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-xml-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-xml-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-The XmlTemplate component also provides methods to work with the templates. To expose the methods, see [View the XmlTemplate methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-xmltemplate-methods.md).
+The XmlTemplate component also provides methods to work with the templates. To expose the methods, see [View the XmlTemplate methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-xmltemplate-methods.md).
 
 ## Procedure
 
@@ -63,5 +63,5 @@ The XmlTemplate component also provides methods to work with the templates. To e
 14. Close the XML TEMPLATE DESIGNER window.
 
 
-**Parent Topic:**[Data Modellers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-modellers.md)
+**Parent Topic:**[Data Modellers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-modellers.md)
 

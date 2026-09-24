@@ -2,7 +2,7 @@
 title: Employee profile
 description: A unified employee profile provides the employee information and offers extensibility for BUs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-profile-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,11 +39,11 @@ You can have a comprehensive view of the employee information to drive business 
 
 ## Configure employee profile
 
-As an admin, you can create an active employee definition and configure the profile components. Manage updates to the employee profile from a central location. See [Configure the Employee Profile overview widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-employee-profile-widget.md).
+As an admin, you can create an active employee definition and configure the profile components. Manage updates to the employee profile from a central location. See [Configure the Employee Profile overview widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-employee-profile-widget.md).
 
 **Note:** Actions that require the **admin** role, can also be performed with the **sn\_employee.admin** role.
 
 ## Use employee profile
 
-As an employee, you can view, edit, and update the privacy preferences profile. See [View employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/update-employee-profile.md)
+As an employee, you can view, edit, and update the privacy preferences profile. See [View employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/update-employee-profile.md)
 

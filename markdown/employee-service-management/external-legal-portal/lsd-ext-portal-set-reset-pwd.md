@@ -2,7 +2,7 @@
 title: Configure the password reset process for External Legal Service Center
 description: The Password Reset application enables an end user to reset or change a password using a self-service process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/external-legal-portal/lsd-ext-portal-set-reset-pwd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/external-legal-portal/lsd-ext-portal-set-reset-pwd.html
 release: australia
 product: External Legal Portal
 classification: external-legal-portal

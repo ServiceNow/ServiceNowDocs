@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP system details field descriptions
 description: The system details tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains connection information for an ERP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,7 +17,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The system details tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains connection information for an ERP system.
 
-For process details, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-erp-system.md).
+For process details, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/create-an-erp-system.md).
 
 <table id="table_obh_qgd_5xb"><thead><tr><th>
 
@@ -59,7 +59,7 @@ ERP software
 
 The supported ERP software on the system. Select one or more options from the list, for example, ECC 7.5 and SAP S/4HANA 2021. For SAP, the list contains major SAP versions and doesn't include patch versions.
 
- The list also contains Oracle E-Business Suite \(EBS\), version 12.2 or later. Oracle E-Business Suite systems support REST only. For more information, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md).
+ The list also contains Oracle E-Business Suite \(EBS\), version 12.2 or later. Oracle E-Business Suite systems support REST only. For more information, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md).
 
 </td></tr><tr><td>
 

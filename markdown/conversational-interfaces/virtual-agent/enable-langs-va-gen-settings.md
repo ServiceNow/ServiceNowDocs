@@ -2,7 +2,7 @@
 title: Enable NLU languages in Virtual Agent settings
 description: If you plan to use language-specific NLU models, you must enable the installed languages in the Supported NLU Languages list. A language is enabled if the Enabled column displays true. English language is enabled by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -43,5 +43,5 @@ Role required: virtual\_agent\_admin or admin
 7.  Click **Save**.
 
 
-**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md)
+**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

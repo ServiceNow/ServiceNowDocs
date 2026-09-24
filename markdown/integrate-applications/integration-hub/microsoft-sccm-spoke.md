@@ -2,7 +2,7 @@
 title: Microsoft SCCM Spoke
 description: Automate management of user collections, device collections, and application deployments on a Microsoft System Center Configuration Management \(SCCM\) server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/microsoft-sccm-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/microsoft-sccm-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -57,11 +57,11 @@ This spoke uses the SCCM alias record to authorize actions on a Microsoft System
 |----------------|-----------|--------------|
 |SCCM|Connection to the SCCM server.|The URL of the host machine where the SCCM server is installed.|
 
-For information about setting up the spoke, see [Set up the Microsoft SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-sccm.md).
+For information about setting up the spoke, see [Set up the Microsoft SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-sccm.md).
 
 ## MID server requirements
 
-To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md). For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integration-steps.md). For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

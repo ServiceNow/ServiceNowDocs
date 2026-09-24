@@ -2,7 +2,7 @@
 title: Exploring Natural Language Query
 description: NLQ is a ServiceNow AI Platform feature that is active by default. Use NLQ to query the data in your instance by entering plain language requests into the user interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/explore-natural-language-query.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/natural-language-query/explore-natural-language-query.html
 release: australia
 product: Natural Language Query
 classification: natural-language-query
@@ -31,7 +31,7 @@ NLQ is a ServiceNow AI Platform feature that is active by default and supports t
 -   Single number
 -   Multi-table
 
-For more information, see [Using Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/using-nlq.md).
+For more information, see [Using Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/natural-language-query/using-nlq.md).
 
 NLQ doesn't support domain separation. It also doesn't support on-premise instances.
 

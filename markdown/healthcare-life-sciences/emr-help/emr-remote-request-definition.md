@@ -2,7 +2,7 @@
 title: Remote request definition table
 description: The Remote Request Definition \[sn\_ind\_rmt\_help\_request\_defn\] table stores the record producer and task type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-remote-request-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/emr-remote-request-definition.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -81,5 +81,5 @@ Provides the ability to choose fields that you want to make available to the lis
 4.  Task update
 
 </td></tr></tbody>
-</table>**Parent Topic:**[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)
+</table>**Parent Topic:**[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)
 

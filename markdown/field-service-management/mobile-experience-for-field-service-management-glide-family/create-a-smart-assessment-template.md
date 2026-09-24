@@ -2,7 +2,7 @@
 title: Author and publish a Smart Assessment template
 description: Author and publish Smart Assessment template, and associate it with Work Order Task tables to create Smart Assessment questionnaires for work order tasks using this template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/create-a-smart-assessment-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/create-a-smart-assessment-template.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

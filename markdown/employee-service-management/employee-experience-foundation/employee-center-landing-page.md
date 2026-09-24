@@ -2,7 +2,7 @@
 title: Employee Center
 description: ServiceNow Employee Center portal is a standard multi-department, dynamic portal for service delivery, and employee engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-center-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-center-landing-page.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,19 +27,19 @@ This video shows a visual overview of the Employee Center and its capabilities.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Employee Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/explore-emp-center.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Employee Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/explore-emp-center.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set-up the portal and Employee Center features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-emp-center.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set-up the portal and Employee Center features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-emp-center.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-task-list.svg"\] Alt text: View your profile, applications, to-dos, and articles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+[Use \[Omitted image "bus-task-list.svg"\] Alt text: View your profile, applications, to-dos, and articles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

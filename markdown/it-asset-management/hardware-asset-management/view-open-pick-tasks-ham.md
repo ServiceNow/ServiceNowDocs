@@ -2,7 +2,7 @@
 title: View the open hardware asset pick tasks for your stockroom
 description: View the open hardware asset pick tasks for your stockroom to get the details of the tasks that need action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-open-pick-tasks-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/view-open-pick-tasks-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -39,9 +39,9 @@ The list of open asset pick tasks for the stockroom is displayed.
 
 ## What to do next
 
-Manage all the hardware asset pick tasks assigned to you by using the Mobile Agent application. For details, see [Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md).
+Manage all the hardware asset pick tasks assigned to you by using the Mobile Agent application. For details, see [Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md).
 
-**Parent Topic:**[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-picking-stockroom-ham-ws.md)
+**Parent Topic:**[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-asset-picking-stockroom-ham-ws.md)
 
 **Related topics**  
 

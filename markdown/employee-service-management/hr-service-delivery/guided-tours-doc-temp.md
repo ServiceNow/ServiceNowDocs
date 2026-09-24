@@ -2,7 +2,7 @@
 title: Using Guided Tours in Document Templates
 description: Use Guided Tours in Document Templates to get instructions on how to create a document template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/guided-tours-doc-temp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/guided-tours-doc-temp.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -49,7 +49,7 @@ When you visit a page that has a guided tour for the first time, a welcome scree
 8.  Select **Done** after the tour is ended​.
 
 
-**Parent Topic:**[Using Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-doc-templates.md)
+**Parent Topic:**[Using Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-doc-templates.md)
 
 **Related topics**  
 

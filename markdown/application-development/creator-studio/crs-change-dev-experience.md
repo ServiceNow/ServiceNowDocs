@@ -2,7 +2,7 @@
 title: Change your development experience
 description: Choose a different development experience if you want a more robust environment using the experience switcher in Creator Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/crs-change-dev-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/crs-change-dev-experience.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -52,5 +52,5 @@ Alternatively, you can open a specific app in ServiceNow Studio in the following
 
 \[Omitted image "crs-open-in-sns-link.png"\] Alt text: Select more options to get the Open in SNS link
 
-**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/building-apps-with-creator-studio.md)
 

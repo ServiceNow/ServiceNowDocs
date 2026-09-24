@@ -2,7 +2,7 @@
 title: Rules
 description: Gamification rules allow you to configure points that users receive for activities on the community.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-components-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/gamification-components-rules.html
 release: australia
 product: Communities
 classification: communities
@@ -38,10 +38,10 @@ When a user performs an activity that has a gamification rule, the user profile 
 
 If users revert previous activities, the points associated with these activities are removed. As an example, if a rule has been defined and a user creates a blog, they are awarded points. The points are deducted when the blog is deleted. If a rule has not been defined and a user creates a blog, no points are awarded. If the user removes it once a rule has been defined, points are deducted even though none were awarded in the first place.
 
-**Parent Topic:**[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-components.md)
+**Parent Topic:**[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-components.md)
 
 **Related topics**  
 
 
-[Create a gamification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-rule.md)
+[Create a gamification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-create-rule.md)
 

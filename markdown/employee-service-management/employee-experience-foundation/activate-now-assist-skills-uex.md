@@ -2,7 +2,7 @@
 title: Activate ServiceNow Otto for Employee Experience skills
 description: Activate ServiceNow Otto for Employee Experience skills to enable AI-powered summarization and assistance capabilities for employee requests, cases, and approval workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -75,11 +75,11 @@ Activate the ServiceNow Otto for Employee Experience plugin to enable generative
 
 ## Result
 
-On successful configuration, approval users can see summarization for approvals. For more information, see [View summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/view-summarization-approvals.md).
+On successful configuration, approval users can see summarization for approvals. For more information, see [View summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/view-summarization-approvals.md).
 
 **Note:** After installing ServiceNow Otto for Employee Experience \[sn\_ex\_gen\_ai\] plugin and activating the skills in the AI Admin Center, the Summary appears in Approvals on Employee Center and service portals. To enable the summary on the custom portals, follow the instructions available in [KB2739995](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2739995) and update the `sn_nowassist_skill_config` table.
 
-**Parent Topic:**[Explore ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.md)
+**Parent Topic:**[Explore ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.md)
 
 **Related topics**  
 

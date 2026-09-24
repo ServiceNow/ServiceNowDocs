@@ -2,7 +2,7 @@
 title: Connect Chat administration
 description: Administrators can configure various performance settings and features of Connect Chat.The email notification interval determines how long the system waits before sending a Connect Chat email notification to an inactive user.Record conversations are enabled for all tables that extend Task \[task\] by default. You can configure record conversations for additional tables that extend Task.Users can follow records in Connect for any table that extends Task \[task\] by default. You can disable this functionality for all tables.Users can follow records in Connect for any table that extends Task \[task\] by default. You can disable this functionality for a specific table.You can disable Connect Chat to prevent users from being able to chat within the platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/c\_CollaborationAdministration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/c\_CollaborationAdministration.html
 release: australia
 product: Connect
 classification: connect
@@ -16,7 +16,7 @@ breadcrumb: [Connect Chat, Connect, ServiceNow AI Platform Additional Capabiliti
 
 Administrators can configure various performance settings and features of Connect Chat.
 
-**Note:** There are also settings that apply to both Connect Chat and Connect Support. For more information, see [Connect administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectAdministration.md).
+**Note:** There are also settings that apply to both Connect Chat and Connect Support. For more information, see [Connect administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/connect/c_ConnectAdministration.md).
 
 ## Configure the email notification interval
 
@@ -64,15 +64,15 @@ To create record conversations, users must have access to the **Follow** button 
 
 2.  Perform the appropriate action for the list version.
 
-<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d554015e267">
+<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d554668e267">
 
 Version
 
-</th><th align="left" id="d554015e270">
+</th><th align="left" id="d554668e270">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d554015e276">
+</th></tr></thead><tbody><tr><td id="d554668e276">
 
 **List v3**
 
@@ -82,7 +82,7 @@ Action
 2.  In the Configure window, click **Dictionary**.
 
 
-</td></tr><tr><td id="d554015e300">
+</td></tr><tr><td id="d554668e300">
 
 **List v2**
 

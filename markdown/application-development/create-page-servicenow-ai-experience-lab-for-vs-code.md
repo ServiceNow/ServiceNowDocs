@@ -2,7 +2,7 @@
 title: Create a page
 description: Create a page using the ServiceNow Lux Lab for VS Code extension to create tailored experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/create-page-servicenow-ai-experience-lab-for-vs-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/create-page-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
@@ -17,7 +17,7 @@ Create a page using the ServiceNow Lux Lab for VS Code extension to create tailo
 
 ## About this task
 
-This procedure describes how to create pages for new experiences. To create a page that extends an existing experience, see [Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page-existing-servicenow-ai-experience-lab-for-vs-code.md).
+This procedure describes how to create pages for new experiences. To create a page that extends an existing experience, see [Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-page-existing-servicenow-ai-experience-lab-for-vs-code.md).
 
 The following procedure describes how to complete this task manually. You can also complete the task using agentic development tools, such as Claude Code.
 
@@ -105,7 +105,7 @@ ServiceNow instance
 
 1.  In the ServiceNow Lux Lab for VS Code extension, create an experience or open an existing experience.
 
-    For information about creating an experience, see [Create a new experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-a-new-experience-servicenow-ai-experience-lab-for-vs-code.md).
+    For information about creating an experience, see [Create a new experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-a-new-experience-servicenow-ai-experience-lab-for-vs-code.md).
 
 2.  In your experience, create a page.
 
@@ -136,7 +136,7 @@ Your new page is created. You can now add elements to the page and preview as ne
 
 ## What to do next
 
--   [Preview a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.md)
--   [Add a page to the navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.md)
--   [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md)
+-   [Preview a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.md)
+-   [Add a page to the navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.md)
+-   [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md)
 

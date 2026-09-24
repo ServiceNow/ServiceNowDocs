@@ -2,7 +2,7 @@
 title: Configuration
 description: Use the Configuration menu to access all clone-related settings, including exclusions, preservers, cleanup scripts, clone profiles, and clone instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-configurations-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/clone-configurations-tab.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,15 +33,15 @@ The Exclusions page lists the tables that aren't copied during an instance clone
 
 To view child tables of a table, you can go to the following link and input their table: **\[instance\].service-now.com/now/nav/ui/classic/params/target/generic\_hierarchy\_erd.do**.
 
-By default, the system excludes tables for logging, auditing, notifications, workflow contexts, and license usage. To configure additional exclusions, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExcludeATableFromCloning.md).
+By default, the system excludes tables for logging, auditing, notifications, workflow contexts, and license usage. To configure additional exclusions, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ExcludeATableFromCloning.md).
 
-For information on guidelines when adding exclusions see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-exclusions-guidelines.md).
+For information on guidelines when adding exclusions see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/clone-exclusions-guidelines.md).
 
 ## Preservers
 
 The Preservers page displays a list of available data preservers, which are defined on the source instance. Preservers protect data on the target instance from being overwritten.
 
-Preservers work differently compared to exclusions. When preserving a table, the clone automation doesn't automatically preserve the child tables. Therefore, the child tables must be individually added to the preserver list. To create a preserver see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md).
+Preservers work differently compared to exclusions. When preserving a table, the clone automation doesn't automatically preserve the child tables. Therefore, the child tables must be individually added to the preserver list. To create a preserver see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-new-clone-preserver.md).
 
 **Note:** Starting with RaptorDB, when you preserve a table, the clone automatically preserves the hierarchy and descendant tables. If you previously added child tables to preservers, they process normally. This automatic preservation applies only to RaptorDB instances.
 
@@ -68,7 +68,7 @@ To create a cleanup script see .
 
 ## Clone Profiles
 
-Clone Profiles display all available profiles. Clone profiles are reusable templates for clone settings and can be saved and reused to achieve consistent outcomes with each of your clones. To learn more about Clone Profiles, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-clone-profile.md).
+Clone Profiles display all available profiles. Clone profiles are reusable templates for clone settings and can be saved and reused to achieve consistent outcomes with each of your clones. To learn more about Clone Profiles, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-clone-profile.md).
 
 The profile System Profile is available by default and can't be modified. Custom profiles use the default Exclusions, Preservers, and Scripts from the System Profile. When creating a custom profile, all existing custom exclusions and preservers are automatically added.
 

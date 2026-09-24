@@ -2,7 +2,7 @@
 title: Configure a business domain role
 description: Configure the business domain roles so that users of a particular domain can select the domain for which they want to import the data. Only those users who are added during the configuration can view the domain on the Microsoft Word document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-business-domain-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/configure-business-domain-roles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: sn\_business\_domain.admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-o365-reporting-configs.md)
+**Parent Topic:**[Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configure-o365-reporting-configs.md)
 

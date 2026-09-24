@@ -2,7 +2,7 @@
 title: Add a network interface template to an interface card template
 description: If the interface card supports network interfaces directly to it, create an interface template relationship between the two interfaces in the Network Inventory Workspace Lists view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/adding-interfaces-interface-card-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/adding-interfaces-interface-card-template.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -32,16 +32,16 @@ When you submit the inventory template, the relationship appears in the **Relate
 
 ## What's next
 
-Next, add an interface card to subslots. To learn more, see [Add an interface card template to the subslot templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/adding-interface-card-sub-slots.md).
+Next, add an interface card to subslots. To learn more, see [Add an interface card template to the subslot templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/adding-interface-card-sub-slots.md).
 
-**Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
+**Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
 
-**Previous topic:**[Add subslot templates to the interface card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/adding-subslots-network-interface-template.md)
+**Previous topic:**[Add subslot templates to the interface card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/adding-subslots-network-interface-template.md)
 
-**Next topic:**[Add an interface card template to the subslot templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/adding-interface-card-sub-slots.md)
+**Next topic:**[Add an interface card template to the subslot templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/adding-interface-card-sub-slots.md)
 
 **Related topics**  
 
 
-[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
+[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 

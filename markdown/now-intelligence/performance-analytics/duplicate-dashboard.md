@@ -2,7 +2,7 @@
 title: Duplicate an Analytics and Reporting Solution dashboard
 description: Copy an Platform Analytics Solution dashboard, including the tabs, portal pages, and canvas records. Widgets on the dashboard are not duplicated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/duplicate-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/duplicate-dashboard.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -26,7 +26,7 @@ By duplicating a dashboard, you can modify or upgrade one copy without affecting
 
 **Note:** Duplicating a dashboard does not duplicate the widgets displayed on the dashboard. You can rearrange or remove widgets from one copy of the dashboard without affecting the other. However, modifying a widget record affects both the original dashboard and the duplicate.
 
-To copy a dashboard that is not part of an Platform Analytics Solution, see [Manage responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/manage-responsive-dashboards.md).
+To copy a dashboard that is not part of an Platform Analytics Solution, see [Manage responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/manage-responsive-dashboards.md).
 
 ## Procedure
 
@@ -45,5 +45,5 @@ To copy a dashboard that is not part of an Platform Analytics Solution, see [Man
 
 A copy of the dashboard with the name Copy of \(original dashboard name\) is created. You can view it in the Dashboards Overview.
 
-**Parent Topic:**[Install a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/install-content.md)
+**Parent Topic:**[Install a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/install-content.md)
 

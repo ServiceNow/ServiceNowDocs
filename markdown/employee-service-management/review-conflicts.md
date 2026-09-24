@@ -2,7 +2,7 @@
 title: Review move conflicts
 description: You can review the reason behind a move request conflict and decide how to resolve the conflict.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/review-conflicts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/review-conflicts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ The different types of conflicts are as follows:
 
 You can also customize the list of validations that you want to run on a move request. You can add validations or change existing validations in the **WSDMoveRequestValidations** script include.
 
-**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-mov-mgmt-setup.md)
+**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-mov-mgmt-setup.md)
 
 **Related topics**  
 

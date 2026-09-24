@@ -2,7 +2,7 @@
 title: Supplier Contact inbound staging table
 description: The Supplier contact inbound \[sn\_fcms\_intg\_supplier\_contact\_inbound\] staging table temporarily stores important data about a supplier contact before this data is sent to the Supplier Contact \[vm\_vdr\_contact\] primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-slo-supp-contact-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-slo-supp-contact-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

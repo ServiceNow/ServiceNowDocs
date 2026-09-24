@@ -2,7 +2,7 @@
 title: Publish or unpublish a shared component version
 description: Publish a version of a shared component in a library so that it can be used in an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-component-publish.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-component-publish.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -42,15 +42,15 @@ When a version is unpublished, it means that the component and its version can n
 
 6.  Publish or unpublish a version of the component.
 
-<table id="choicetable_ow3_zws_2xb"><thead><tr><th align="left" id="d430195e128">
+<table id="choicetable_ow3_zws_2xb"><thead><tr><th align="left" id="d430136e128">
 
 Option
 
-</th><th align="left" id="d430195e131">
+</th><th align="left" id="d430136e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d430195e137">
+</th></tr></thead><tbody><tr><td id="d430136e137">
 
 **Publish a version of a shared component**
 
@@ -58,7 +58,7 @@ Description
 
 Select an unpublished version from the list and select **Publish**.If there’s any existing published version of the component, then it’s unpublished before publishing the selected version. The **Published** value updates to **true**.
 
-</td></tr><tr><td id="d430195e157">
+</td></tr><tr><td id="d430136e157">
 
 **Unpublish a version of a shared component**
 

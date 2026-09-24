@@ -2,7 +2,7 @@
 title: View task information on the classic mobile UI map
 description: The agent map on the classic mobile interface displays the agent's location, tasks assigned to the agent for the current day, accepted tasks, and unassigned tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-tasks-on-mobile-ui-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/view-tasks-on-mobile-ui-map.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,7 +2,7 @@
 title: Components installed with ServiceNow Add-in for Microsoft 365
 description: Several types of components are installed with activation of the plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/installed-with-sn-addin-ms365.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/installed-with-sn-addin-ms365.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -120,5 +120,5 @@ Office Control
 Contains information about the office controls, like buttons or menus, created for different add-ins.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-addin-for-ms365-reference.md)
+</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-addin-for-ms365-reference.md)
 

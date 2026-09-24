@@ -2,7 +2,7 @@
 title: Create a procurement case from a Universal Request
 description: When a Universal Request arrives in the Source-to-Pay Workspace, create a linked procurement case to track and manage the request through fulfillment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case-from-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case-from-ur.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -21,7 +21,7 @@ When a Universal Request arrives in the Source-to-Pay Workspace, create a linked
 
 Role required: sn\_uni\_req.routing\_agent and sn\_uni\_req.sensitiveinfo\_agent
 
-The Universal Request for Source-to-Pay Operations plugin \(sn\_fsc\_ur\_common\) must be active. To activate the plugin, see [Install Universal Request for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-universal-request-spo.md).
+The Universal Request for Source-to-Pay Operations plugin \(sn\_fsc\_ur\_common\) must be active. To activate the plugin, see [Install Universal Request for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/install-universal-request-spo.md).
 
 ## Procedure
 
@@ -54,5 +54,5 @@ The Universal Request for Source-to-Pay Operations plugin \(sn\_fsc\_ur\_common\
 
 A procurement case is created and linked to the Universal Request. When the procurement case moves to **In Progress** or **Closed Complete**, the Universal Request status syncs automatically based on state mapping, and the employee can track progress in Employee Center.
 
-**Parent Topic:**[Create a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-universal-request-spo.md)
+**Parent Topic:**[Create a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-universal-request-spo.md)
 

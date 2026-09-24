@@ -2,7 +2,7 @@
 title: Script helper functions
 description: A Run UI Test Script step provides 4 global helper functions for polling, scoping queries, and reading data from other parts of the test: waitFor, within, steps, and params.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/r\_run\_ui\_test\_script\_helpers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/r\_run\_ui\_test\_script\_helpers.html
 release: australia
 product: Developer Guides
 classification: developer-guides

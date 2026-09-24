@@ -2,7 +2,7 @@
 title: Schedule resources to be rightsized
 description: To rightsize a resource, add it to a Rightsizing job and specify when the job should run. You can also move resources out of one scheduled job into a different job or remove a resource from a job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/rs-schedule-job-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/rs-schedule-job-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -118,7 +118,7 @@ The Rightsizing job is created and will run at the scheduled time.
 -   If a member of the change group approves the request, the state is set to **Approved**. The resource is added to the list of resources that the job will resize.
 -   If a member of the change group rejects the request, the resource state is set to **Declined**. The resource remains listed on reports and no action is taken.
 
-**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)
+**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/resize-res-ci.md)
 
 **Related topics**  
 
@@ -127,5 +127,5 @@ The Rightsizing job is created and will run at the scheduled time.
 
 [Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_StandardChangeCatalogPlugin.md)
 
-[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
+[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

@@ -2,7 +2,7 @@
 title: Quick start tests for Walk-up Experience
 description: Validate that Walk-up Experience still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/quick-start-tests-walkup-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/quick-start-tests-walkup-experience.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience

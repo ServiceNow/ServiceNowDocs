@@ -2,7 +2,7 @@
 title: Create a flexible service
 description: Create a flexible service and provide it as an extra service to employees. Employees can use the flexible service and other basic standard services when they make a reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-flexible-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-flexible-service.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -22,7 +22,7 @@ Create a flexible service and provide it as an extra service to employees. Emplo
 
 -   After the upgrade, the existing flexible services are removed from the Workplace Reservation Management application and are listed as workplace services in the Workplace Case Management application.
 
-    For more information on how to create an extra service after the upgrade, refer to [Create a workplace service to provide an extra service for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-workplace-service-to-provide-extra-service.md).
+    For more information on how to create an extra service after the upgrade, refer to [Create a workplace service to provide an extra service for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-workplace-service-to-provide-extra-service.md).
 
 -   Each category of a flexible service is created as a workplace service. The flexible services that belonged to that category are created as Workplace Service Items of that workplace service.
 -   The locations to which the flexible services were available are listed in the Workplace Service Item Locations Related list of that workplace service.
@@ -145,12 +145,12 @@ The flexible service is added to the application.
 
 ## What to do next
 
-Add the flexible service to a workplace space or room, so that the service is available to employees when they make a reservation. For more information, see [Add a flexible service to workplace item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-flex-service-to-workplace-item.md).
+Add the flexible service to a workplace space or room, so that the service is available to employees when they make a reservation. For more information, see [Add a flexible service to workplace item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-flex-service-to-workplace-item.md).
 
--   **[Add a flexible service to workplace item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-flex-service-to-workplace-item.md)**  
+-   **[Add a flexible service to workplace item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-flex-service-to-workplace-item.md)**  
 Enable employees to request for extra services. Add an extra service to a workplace space or room, and make the service available to employees when they make a reservation.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

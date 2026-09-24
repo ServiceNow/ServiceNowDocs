@@ -2,7 +2,7 @@
 title: Set flow user preferences
 description: Set your preferences when building and editing flows such as the default editor view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/set-flow-user-preferences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/set-flow-user-preferences.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -38,6 +38,6 @@ Role required: admin or flow\_designer
 
     \[Omitted image "example-user-preferfences-options.png"\] Alt text: Sample user preferences selected
 
-    For more information about available user preferences, see [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-preferences.md).
+    For more information about available user preferences, see [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-preferences.md).
 
 

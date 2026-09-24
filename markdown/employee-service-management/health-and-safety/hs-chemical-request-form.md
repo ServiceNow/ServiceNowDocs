@@ -2,7 +2,7 @@
 title: Chemical request form
 description: Field and description for a chemical request form. The chemical request form is used by an employee to request for an existing or a new chemical.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-chemical-request-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-chemical-request-form.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -219,5 +219,5 @@ Attachment
 Any additional documents to be attached for the chemical request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
+</table>**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
 

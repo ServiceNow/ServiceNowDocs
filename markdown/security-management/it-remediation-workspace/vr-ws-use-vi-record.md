@@ -2,7 +2,7 @@
 title: Use records in the IT Remediation Workspace
 description: Use records to help you view your remediation progress and the impact of vulnerable items on your assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/vr-ws-use-vi-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/it-remediation-workspace/vr-ws-use-vi-record.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace

@@ -2,7 +2,7 @@
 title: IT Service Management AI agent collection explain SLA agentic workflow
 description: Use the explain SLA agentic workflow to analyze a Service Level Agreement \(SLA\) and gain insight into the SLA assignment, task ownership, and pause and resume events in the SLA duration for a task, such as an incident, problem, case, or change request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-explain-sla-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-explain-sla-workflow.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -75,5 +75,5 @@ You can add a query using the change request number to use the AI agent. You can
 
 For the query instruction, follow the steps specified in the **List of steps** field of the Define key requirements screen of the agentic workflow record.
 
-In the AI Agent Studio, the human agent gets notified as soon as a text message is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as a text message is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 

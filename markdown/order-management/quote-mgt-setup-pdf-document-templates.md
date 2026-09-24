@@ -2,7 +2,7 @@
 title: Set up PDF document templates
 description: Sales operation specialists can set up templates for PDF documents in Quote Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-mgt-setup-pdf-document-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-mgt-setup-pdf-document-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ Role required: sales\_operation\_specialist
     |[Using Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/using-doc-templates.md)|How to use document templates.|
 
 
-**Parent Topic:**[Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-configure-pdf-documents.md)
+**Parent Topic:**[Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-configure-pdf-documents.md)
 

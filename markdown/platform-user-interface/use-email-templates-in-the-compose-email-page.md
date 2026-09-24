@@ -2,7 +2,7 @@
 title: Use email templates in the full email composer
 description: Quickly compose emails for common issues by selecting an email template in the Compose Email page instead of manually drafting an email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-email-templates-in-the-compose-email-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/use-email-templates-in-the-compose-email-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

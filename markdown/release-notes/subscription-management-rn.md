@@ -2,7 +2,7 @@
 title: Subscription Management release notes
 description: The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Australia release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/subscription-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/subscription-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-21"
@@ -34,7 +34,7 @@ See [Subscription Management](https://raw.githubusercontent.com/ServiceNow/Servi
     Subscription Management version 6.1 is active by default on instances of the Australia release. For more information about updating Subscription Management, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/update-application-app-mgr.md).
 
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
 ## Australia
 

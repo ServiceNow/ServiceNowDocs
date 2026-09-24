@@ -2,7 +2,7 @@
 title: Search Suggestions tables
 description: Search Suggestions uses tables to generate and track relevant search suggestions. You can review data from these tables to gain insight into search suggestions offered in your system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-suggestions/understanding-search-suggestion-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-suggestions/understanding-search-suggestion-tables.html
 release: australia
 product: Search Suggestions
 classification: search-suggestions

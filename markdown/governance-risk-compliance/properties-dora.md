@@ -2,7 +2,7 @@
 title: Properties installed with Digital Operational Resilience Management
 description: When you install the Digital Operational Resilience Management application, several system properties are added to your instance. You can access the properties by navigating to All &gt; Digital Operational Resilience Management &gt; Properties .
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/properties-dora.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/properties-dora.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-04"
@@ -130,5 +130,5 @@ Configuration for preparing the DORA plain-CSV reporting package. Framework code
 |GLEIF API unavailable|Row saved \(always\)|Row saved \(always\)|
 |Name or country mismatch \(UI\)|Warning shown, save OK|Row blocked \(error\)|
 
-**Parent Topic:**[Digital resilience third-party registers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/digi-resi-ref.md)
+**Parent Topic:**[Digital resilience third-party registers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/digi-resi-ref.md)
 

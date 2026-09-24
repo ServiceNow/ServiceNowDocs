@@ -2,7 +2,7 @@
 title: Map a use case for contract metadata extraction
 description: Map a use case to specific tables, and define conditions to apply the use case for metadata extraction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-me.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-me.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -37,13 +37,13 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
 5.  In the Use case page, select **Save and continue**.
 
-    For more information on creating a use case, see [Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md).
+    For more information on creating a use case, see [Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md).
 
 6.  In the Use case mappings page, select **New**.
 
 7.  On the Create new use case mapping form, fill in the fields.
 
-    For a description of the field values, see [Contract metadata extraction use case mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-me.md).
+    For a description of the field values, see [Contract metadata extraction use case mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-me.md).
 
 8.  Select **Save**.
 
@@ -52,10 +52,10 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
 The use case is mapped to specific tables and conditions, and it is applied for metadata extraction when the conditions are met.
 
--   **[Contract metadata extraction use case mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-me.md)**  
+-   **[Contract metadata extraction use case mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-me.md)**  
 Use the Create use case mapping form in the contract metadata extraction skill to map the use case to specific tables and conditions.
 
-**Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
+**Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
 **Related topics**  
 
@@ -70,5 +70,5 @@ Use the Create use case mapping form in the contract metadata extraction skill t
 
 [Configure an extension point to add contract metadata]()
 
-[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
+[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
 

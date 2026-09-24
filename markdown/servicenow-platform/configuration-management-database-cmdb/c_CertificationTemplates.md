@@ -2,7 +2,7 @@
 title: Certification templates
 description: Certification templates can define attributes, relationships, and reference field values that indicate what a record is expected to contain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_CertificationTemplates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/c\_CertificationTemplates.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

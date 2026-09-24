@@ -2,7 +2,7 @@
 title: Create a comprehensive lifecycle report using a guided experience
 description: Use a guided experience to improve your lifecycle data completeness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-lifecyclereporting-guidedexperience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-lifecyclereporting-guidedexperience.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -65,7 +65,7 @@ Each stage has one or more than one activity that you need to perform. Activitie
 
 10. On the form, fill in the fields.
 
-    For a description of each field, see [SAM Success Goal Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-success-goal-details.md).
+    For a description of each field, see [SAM Success Goal Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-success-goal-details.md).
 
 11. Select **Save** to move to the next page.
 
@@ -81,7 +81,7 @@ Each stage has one or more than one activity that you need to perform. Activitie
 
 14. On the form, fill in the fields.
 
-    For a description of each field, see [SAM Success Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-success-activity.md).
+    For a description of each field, see [SAM Success Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-success-activity.md).
 
     If your role or any other role that has permission to submit content requests, can create and submit a content request.
 
@@ -124,7 +124,7 @@ Each stage has one or more than one activity that you need to perform. Activitie
 
 23. On the form, fill in the fields.
 
-    For a description of each field, see [SAM Success Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-success-activity.md)
+    For a description of each field, see [SAM Success Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-success-activity.md)
 
 24. Select **Submit** and then select **Mark Complete** to move to the Input lifecycle averages page.
 
@@ -136,7 +136,7 @@ Each stage has one or more than one activity that you need to perform. Activitie
 
 26. On the form, fill in the fields.
 
-    For details, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md).
+    For details, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md).
 
 27. Select **Submit** and then select **Mark Complete**.
 
@@ -169,5 +169,5 @@ Each stage has one or more than one activity that you need to perform. Activitie
     This completes the playbook and you can exit the playbook.
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)
 

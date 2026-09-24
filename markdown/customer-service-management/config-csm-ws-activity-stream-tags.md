@@ -2,7 +2,7 @@
 title: Filter activities in the activity stream
 description: Use tags to filter the items that appear in the activity stream.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-activity-stream-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-ws-activity-stream-tags.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

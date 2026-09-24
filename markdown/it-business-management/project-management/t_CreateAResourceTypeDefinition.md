@@ -2,7 +2,7 @@
 title: Create a cost type definition
 description: Create a cost type definition to associate a cost type, operating, or capital, to an account in the General Ledger from the Financial Management application. Create a cost type definition if you are using Project Portfolio Management with Financials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateAResourceTypeDefinition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_CreateAResourceTypeDefinition.html
 release: australia
 product: Project Management
 classification: project-management
@@ -33,7 +33,7 @@ Role required: it\_pps\_admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 

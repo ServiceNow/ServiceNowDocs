@@ -2,7 +2,7 @@
 title: Run the UI Test Script
 description: Learn how to use the Run UI Test Script step to navigate to records, fill fields, click buttons, impersonate users, upload attachments, and assert UI state on classic and Now Experience pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/r\_run\_ui\_test\_script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/r\_run\_ui\_test\_script.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -17,7 +17,7 @@ breadcrumb: [Run UI Test Script Developer Guide, Developer guides, API implement
 
 Learn how to use the Run UI Test Script step to navigate to records, fill fields, click buttons, impersonate users, upload attachments, and assert UI state on classic and Now Experience pages.
 
-The test script has access to shadow-DOM-aware query APIs, realistic user-interaction simulation, and utility APIs for navigation, page evaluation, impersonation, and file uploads. For an overview of the step and the scripting APIs, see [Run UI Test Script Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/c_run_ui_test_script.md). For more examples about how to use the test script, see [UI Test Script examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_examples.md).
+The test script has access to shadow-DOM-aware query APIs, realistic user-interaction simulation, and utility APIs for navigation, page evaluation, impersonation, and file uploads. For an overview of the step and the scripting APIs, see [Run UI Test Script Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/c_run_ui_test_script.md). For more examples about how to use the test script, see [UI Test Script examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_examples.md).
 
 ## Input fields
 
@@ -120,5 +120,5 @@ To add a script to a text:
 
 The step runs inside the browser context of the Client Test Runner. The tested page loads in an iframe, and your script interacts with it through the scripting APIs.
 
-For script test examples, see [UI Test Script examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_examples.md).
+For script test examples, see [UI Test Script examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_examples.md).
 

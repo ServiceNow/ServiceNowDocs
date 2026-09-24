@@ -2,7 +2,7 @@
 title: Delegated request experience
 description: You can request a catalog item on behalf of another user or multiple users using the Requested For variable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/delegated-request-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/delegated-request-exp.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -18,7 +18,7 @@ You can request a catalog item on behalf of another user or multiple users using
 
 Delegated request experience comprises of the following entities:
 
--   Requested For variable for a catalog item. For information about this variable, see [Requested For](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/requested-for.md).
+-   Requested For variable for a catalog item. For information about this variable, see [Requested For](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/requested-for.md).
 -   Requested For field on a requested item \(RITM\)
 
     **Note:** The form views, list views, and email notifications are not updated to reflect the Requested For field on a RITM.
@@ -107,7 +107,7 @@ When you clone a request:
     -   RITM Requested For user
     -   Requested For variable value
 
-For information about cloning requests, see [Create up to ten copies of Service Catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_EnablingBulkRequests.md).
+For information about cloning requests, see [Create up to ten copies of Service Catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_EnablingBulkRequests.md).
 
 **Important:**
 
@@ -185,13 +185,13 @@ You can use parameters in ServiceNow AI Platform and Service Portal to specify t
 
 **Note:** The Requested For value is set after the catalog form is loaded.
 
--   **[Configure the default behavior to request items for other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/config-default-behavior-request-other-user.md)**  
+-   **[Configure the default behavior to request items for other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/config-default-behavior-request-other-user.md)**  
 Define the default behavior when no roles are specified in the **glide.sc.req\_for.roles** property.
 
-**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configuring-service-catalog.md)
+**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/configuring-service-catalog.md)
 
 **Related topics**  
 
 
-[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 

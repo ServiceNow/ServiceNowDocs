@@ -2,7 +2,7 @@
 title: Migrate from legacy chat to Connect Support
 description: Connect Support is an extension of Connect. Users designated as support agents have access to the support tab of the connect sidebar. Do not use Connect Support concurrently with legacy chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_ConnectSupportMigration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/t\_ConnectSupportMigration.html
 release: australia
 product: Connect
 classification: connect
@@ -32,7 +32,7 @@ If you do not close out existing help desk chats, your metrics and chat queue wi
 
     When you activate the Connect Support plugin, the **glide.connect.support.enabled** property redirects the legacy chat URL to Connect Support.
 
-    For more information, see [Activate Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_ActivateConnectSupport.md).
+    For more information, see [Activate Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/connect/t_ActivateConnectSupport.md).
 
 2.  Hide the Social IT application.
 

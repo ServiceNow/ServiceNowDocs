@@ -2,7 +2,7 @@
 title: AI Gateway
 description: Use the AI Gateway settings page to control global transaction processing for all connected MCP servers and manage individual MCP server connections independently of the global gateway state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-gateway.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-gateway.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-26"
@@ -117,5 +117,5 @@ The server list displays all MCP servers that are associated with the active pol
 |Policy status|Indicates whether the Data Sensitivity Check policy is enforced for this server. When active, the server enforces the policy. When inactive, the server does not.|
 |Action|Select Activate or Deactivate to change the policy enforcement status for this server.|
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring.md)
 

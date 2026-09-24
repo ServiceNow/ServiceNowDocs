@@ -2,7 +2,7 @@
 title: Customize details displayed on node map tiles using a decision table
 description: Customize the details displayed on the node map tiles in the Lead-to-Cash Process Management using Decision Tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/customize-node-map-tiles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/customize-node-map-tiles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,12 +45,12 @@ You can add more columns to display additional lines. However, this would requir
 7.  Select **Save**.
 
 
-**Parent Topic:**[Customizing the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customizing-sales-process-dashboard.md)
+**Parent Topic:**[Customizing the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customizing-sales-process-dashboard.md)
 
 **Related topics**  
 
 
-[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-lead-cash-process-management.md)
 
-[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-process-management.md)
 

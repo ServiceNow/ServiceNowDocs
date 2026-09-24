@@ -2,7 +2,7 @@
 title: Invoice ingestion using the AP Invoice API
 description: The AP Invoice API enables bulk import of AP invoices from external systems to Accounts Payable Operations using cXML, JSON, or XML.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-ingestion-using-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-ingestion-using-api.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -39,7 +39,7 @@ For more information about the AP Invoice API, see:
 -   [AP Invoice API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ap-invoice-api.md)
 -   [AP Invoice API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/apInvoice-dev-guide.md)
 
-**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
+**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
 
 **Related topics**  
 

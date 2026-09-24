@@ -2,7 +2,7 @@
 title: Modify forecast parameters to visualize forecast data
 description: Configure and tweak forecast parameters to see how the forecast behaves when you vary the period length, periods to forecast, or algorithm. You can view the modified forecast on the time-series visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/modify-demand-forecase-parameters-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/modify-demand-forecase-parameters-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -57,7 +57,7 @@ The default start date is set to 3 days ago starting from the day before the cur
 
 8.  To preview a forecast before publishing it, click **Preview**.
 
-    The forecast is calculated using the algorithm and parameters configured in the forecast parameter. When you [create a manual adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-manual-adjustment-forecase-wfo-hr.md) to predict future resources, Demand Forecast overlays the adjustment in the time-series chart.
+    The forecast is calculated using the algorithm and parameters configured in the forecast parameter. When you [create a manual adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/create-manual-adjustment-forecase-wfo-hr.md) to predict future resources, Demand Forecast overlays the adjustment in the time-series chart.
 
     |When you|Then the forecast|
     |--------|-----------------|
@@ -77,5 +77,5 @@ The default start date is set to 3 days ago starting from the day before the cur
     -   The **Forecast resources for future** job runs daily and uses the published forecast parameters to calculate the agent forecast. The calculation uses the resource conversion formula to calculate the forecast data from the current point forward. You can view the updated resources in the team calendar.
     -   Any other forecast parameters that were created would be unpublished and inactive.
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/setup-demand-forecast-wfo-hr.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-demand-forecast-wfo-hr.md)
 

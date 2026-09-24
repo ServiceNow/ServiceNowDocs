@@ -2,7 +2,7 @@
 title: Assign source control permissions
 description: Ability to assign full access to source control for a particular scope to a delegated developer. The Source Control menu is only visible if you have the correct permissions for the application that you are working in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/delegated-dev-source-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/delegated-development-and-deployment/delegated-dev-source-control.html
 release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -36,6 +36,6 @@ Role required: admin
 
 6.  The delegated developer can now access the Source Control menu options.
 
-    For more information on source control options, see [Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md).
+    For more information on source control options, see [Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md).
 
 

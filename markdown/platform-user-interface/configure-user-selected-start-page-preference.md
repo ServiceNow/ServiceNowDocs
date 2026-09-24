@@ -2,7 +2,7 @@
 title: Configure a user-selected start page
 description: Configure a user-selected start page to override the administrator‑configured default landing page to appear when you log in to ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-user-selected-start-page-preference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-user-selected-start-page-preference.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Configure a user-selected start page to override the administrator‑configured 
 
 ## Before you begin
 
-Confirm you have enabled the Next Experience before beginning this task. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
+Confirm you have enabled the Next Experience before beginning this task. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-adoption-paths.md).
 
 Role required: none
 
@@ -54,5 +54,5 @@ Role required: none
 
 Sign out and sign back in to for your start page preference to take effect.
 
-**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-pages.md)
+**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-landing-pages.md)
 

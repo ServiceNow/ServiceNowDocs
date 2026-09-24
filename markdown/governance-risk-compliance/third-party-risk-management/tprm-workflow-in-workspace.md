@@ -2,7 +2,7 @@
 title: Due diligence workflow
 description: The Third-party risk management \(TPRM\) processes provide a consistent framework for your third-party risk management program. You can customize the workflow processes to meet your organization's needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -18,7 +18,7 @@ The Third-party risk management \(TPRM\) processes provide a consistent framewor
 
 ## Processes in the due diligence workflow
 
-Each task in a process must be completed before the next task can be started. The roles of the users that perform the various tasks are described in [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles.md). The following diagram describes the due diligence workflow.
+Each task in a process must be completed before the next task can be started. The roles of the users that perform the various tasks are described in [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md). The following diagram describes the due diligence workflow.
 
 \[Omitted image "mmasset0020705-due-diligence-workflow-horizontal.png"\] Alt text: Infographic that shows where the processes in the due diligence workflow are performed. For the text description, refer to the workflow steps that follow.
 
@@ -45,7 +45,7 @@ Each task in a process must be completed before the next task can be started. Th
             -   The TPR manager can start a discussion with the requester and other users by selecting **Discuss**. The message is recorded in the Activity section of the **Details** tab.
         2.  The TPR manager either rejects or approves the request. If the TPR manager accepts the request, the IRQ process starts.
 
-    **Note:** TPR assessors can create recurring third-party assessments to reassess a risk on a regular schedule. For more information, see [Configure a risk assessment to recur on a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/define-repeating-vend-assess.md) and [Event-driven management — automate assessment processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-create.md).
+    **Note:** TPR assessors can create recurring third-party assessments to reassess a risk on a regular schedule. For more information, see [Configure a risk assessment to recur on a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/define-repeating-vend-assess.md) and [Event-driven management — automate assessment processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-create.md).
 
 -   **IRQ process: Scope the risk**
 
@@ -56,7 +56,7 @@ Each task in a process must be completed before the next task can be started. Th
 
             **Tip:** The TPR manager can use the answer to a question in an IRQ to determine the questionnaires that are sent to the third party that is being assessed. This feature is available only if the Third-party Risk Management application has been activated.
 
-            For more information, see [Set up internal questionnaire responses to automatically attach external questionnaires to assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-setup-eq-irq.md).
+            For more information, see [Set up internal questionnaire responses to automatically attach external questionnaires to assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-setup-eq-irq.md).
 
         2.  The TPR manager either rejects the due diligence request or approves it. When the request is approved, the system sends the IRQ to the IRQ assessor, which is an internal stakeholder at an organization.
         3.  The IRQ assessor is notified of the IRQ both by email and by a new task in their queue.
@@ -75,7 +75,7 @@ Each task in a process must be completed before the next task can be started. Th
         1.  In the Vendor Management Workspace, the users review the IRQ responses.
         2.  The TPR manager might ask the IRQ assessor for clarification and then either rejects or approves the IRQ responses.
         3.  If an internal stakeholder user approves the IRQ responses, they move to the next process by closing the engagement request.
-    **Note:** After the IRQ process enters the IRQ in progress state, you can request risk intelligence reports associated with your due diligence request. For more information, see [Using risk intelligence reports and scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-using.md) and [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md).
+    **Note:** After the IRQ process enters the IRQ in progress state, you can request risk intelligence reports associated with your due diligence request. For more information, see [Using risk intelligence reports and scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintel-using.md) and [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md).
 
 -   **TP element collection process: Collect third-party element information \(Optional\)**
     1.  The TPR manager or due diligence request owner starts the third-party element collection.
@@ -101,7 +101,7 @@ Each task in a process must be completed before the next task can be started. Th
 
     1.  Either one of the following processes results in the selection of external due diligence questionnaires:
         -   In the Vendor Management Workspace, the TPR manager selects the questionnaires that the TP and engagement contacts respond to.
-        -   The system auto-selects the questionnaires according to the configurations set to make the selections. For more information on how to configure external questionnaires to be selected based on internal questionnaire responses, see [Set up internal questionnaire responses to automatically attach external questionnaires to assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-setup-eq-irq.md).
+        -   The system auto-selects the questionnaires according to the configurations set to make the selections. For more information on how to configure external questionnaires to be selected based on internal questionnaire responses, see [Set up internal questionnaire responses to automatically attach external questionnaires to assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-setup-eq-irq.md).
         -   The system auto-selects the questionnaires according to the business rules that were defined to make the selections.
     2.  Regardless of the selection method that you used in step 1, two external due diligence questionnaires are selected:
 
@@ -109,21 +109,21 @@ Each task in a process must be completed before the next task can be started. Th
         -   The other set collects information on the business unit within the third-party organization that is the subject of the engagement. The engagement contact \(as specified in the due diligence request\) responds to that questionnaire.
         **Note:** If you completed the optional TP element collection process, a questionnaire must be selected and assigned as part of an assessment for each third-party element you created. The third-party element questionnaires are completed by the engagement contact.
 
-    3.  In the Vendor Management Workspace, the TPR manager reviews the auto-selected questionnaires that the TP and engagement contacts respond to. The TPR manager validates or modifies the selections and then approves the set of questionnaires. For more information on creating external assessments, see [Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md).
+    3.  In the Vendor Management Workspace, the TPR manager reviews the auto-selected questionnaires that the TP and engagement contacts respond to. The TPR manager validates or modifies the selections and then approves the set of questionnaires. For more information on creating external assessments, see [Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md).
     4.  The system sends out an email notification to persons at the third party. The messages notify the TP contact and engagement contact to respond to the external questionnaires.
 
-        **Note:** Do not make any changes to a questionnaire template after it's already in use, you can duplicate the template instead by making a copy. If you make any changes to a questionnaire after it's been sent out as part of an external assessment, those updates won't show up in the questionnaire displayed in the third-party portal. For more information, see [Create a questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.md) and [Create a questionnaire or document request template using the Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-question-template.md).
+        **Note:** Do not make any changes to a questionnaire template after it's already in use, you can duplicate the template instead by making a copy. If you make any changes to a questionnaire after it's been sent out as part of an external assessment, those updates won't show up in the questionnaire displayed in the third-party portal. For more information, see [Create a questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.md) and [Create a questionnaire or document request template using the Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-question-template.md).
 
     5.  In the Third-party portal, the TP and engagement contacts either respond to the questionnaires directly or assign the tasks to other contacts at the third-party organization.
 
         **Note:** The Third-party portal is fully isolated from your organization's instance.
 
-        In an iterative process, before the TPR manager closes an assessment, the TPR manager can generate non-compliance issues and tasks. The TPR manager communicates with the TP contacts and engagement contacts by using comments to close the issues and tasks. The TPR manager can also assign different contacts as needed. For more information, see [Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-manage.md).
+        In an iterative process, before the TPR manager closes an assessment, the TPR manager can generate non-compliance issues and tasks. The TPR manager communicates with the TP contacts and engagement contacts by using comments to close the issues and tasks. The TPR manager can also assign different contacts as needed. For more information, see [Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-manage.md).
 
     6.  The TP contact and engagement contact return the completed questionnaires.
     7.  The system changes the state of the request to **Ready for TPRM approval** and sends alerts to TPR managers.
     8.  In the Vendor Management Workspace, the TPR manager validates that the questionnaires are received, complete, and signed if necessary, and then closes the assessment phase to start the approval process.
-    **Note:** If the third-party risk manager or owner selects the **Skip contract risk process** option during the due diligence process, the assigned contract negotiator isn't notified and the Contract risk process state is skipped. An approver and owner can update the **Skip contract risk process** selection until the approval process completes. For more information about this process, see [Due diligence request process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-details-tab.md).
+    **Note:** If the third-party risk manager or owner selects the **Skip contract risk process** option during the due diligence process, the assigned contract negotiator isn't notified and the Contract risk process state is skipped. An approver and owner can update the **Skip contract risk process** selection until the approval process completes. For more information about this process, see [Due diligence request process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-details-tab.md).
 
 -   **Approval process: Internal stakeholder analyzes each aspect of risk**
 

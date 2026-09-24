@@ -2,7 +2,7 @@
 title: Configure AI Search for mobile devices
 description: Configure the Now Mobile search bar to use the AI Search search engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/advanced-text-search-config-now.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-mobile-employee-experience/advanced-text-search-config-now.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -18,7 +18,7 @@ Configure the Now Mobile search bar to use the AI Search search engine.
 
 ## Before you begin
 
-To enable the AI Search capability to search for people and customers, ensure that you have the Employee Center Pro plugin \[com.snc.employee\_center\_pro\] installed. For more information, see [Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-ec-pro.md). You must purchase a subscription before activating the plugin. For more details, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ServiceNowPlugins.md).
+To enable the AI Search capability to search for people and customers, ensure that you have the Employee Center Pro plugin \[com.snc.employee\_center\_pro\] installed. For more information, see [Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-ec-pro.md). You must purchase a subscription before activating the plugin. For more details, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ServiceNowPlugins.md).
 
 Make sure you are working in a scoped application where you can add new item configurations.
 
@@ -101,5 +101,5 @@ The Global Search Configuration page should contain the items shown in the follo
 
 \[Omitted image "ais-search-final-config-screen.jpg"\] Alt text: Global search item configuration page with all listed items after successful configuration.
 
-**Parent Topic:**[AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md)
+**Parent Topic:**[AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md)
 

@@ -2,7 +2,7 @@
 title: Manage the self-configured bot integration with Slack
 description: Manage your Conversational Integration with Slack application, its branding, and customize the self-configured bot-specific messages in your ServiceNow instance after integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/manage-slack-self-bot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/manage-slack-self-bot.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -29,7 +29,7 @@ Role required: virtual\_agent\_admin or admin
 
 3.  Select **Manage** on the Slack tile.
 
-    If you want to integrate your ServiceNow instance with another Slack bot, select the plus icon in the Self-configured bot area, or use the **Add integration** drop-down menu and select **Integrate with Self-configured bot**. For more information, see [Integrate your ServiceNow instance with a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integ-slack-self-config-bot.md).
+    If you want to integrate your ServiceNow instance with another Slack bot, select the plus icon in the Self-configured bot area, or use the **Add integration** drop-down menu and select **Integrate with Self-configured bot**. For more information, see [Integrate your ServiceNow instance with a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integ-slack-self-config-bot.md).
 
     \[Omitted image "add-slack-integ-manage.png"\] Alt text: Manage Slack channel view in Conversational Interfaces general settings. The Add integration for self-configured bot button and Integrate with Self-configured bot option in the Add integration dropdown are highlighted.
 
@@ -41,12 +41,12 @@ Role required: virtual\_agent\_admin or admin
 
 5.  Select the **Configuration** tab to brand your self-configured bot.
 
-    For more information about branding your self-configured bot, see [Configure branding for your self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/slack-brand-self-configured.md).
+    For more information about branding your self-configured bot, see [Configure branding for your self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/slack-brand-self-configured.md).
 
 6.  Select the **Bot Messages** tab to create and edit a bot message.
 
-    For more information, see [Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-bot-messages.md).
+    For more information, see [Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-bot-messages.md).
 
 
-**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
+**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
 

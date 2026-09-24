@@ -2,12 +2,12 @@
 title: Set up SMS End User Messaging Service and AWS resources
 description: Set up conversational SMS with Amazon Web Services \(AWS\) end user messaging to enable customers to seamlessly talk to virtual or live agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/set-up-sms-integration-on-amazon-web-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/set-up-sms-integration-on-amazon-web-services.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configure, Conversational SMS Integration with AWS End User Messaging, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -53,5 +53,5 @@ This further enables IAM users to call the AWS End User Messaging APIs to send o
     The CloudFormation template creates an IAM user with permissions required to call the End User Messaging APIs, that enable outbound SMS and uploading media files to an S3 bucket. You must create an access key for the IAM user. The access key ID and secret access key are required during the setup on the ServiceNow platform. To learn how to create an access key for an IAM user, see [documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)
 
 
-**Parent Topic:**[Configuring Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-ci-sms-with-aws.md)
+**Parent Topic:**[Configuring Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-ci-sms-with-aws.md)
 

@@ -2,7 +2,7 @@
 title: Configure multilingual service for ServiceNow Otto applications
 description: Turn on multilingual service for user-entered text with native translation or Dynamic Translation in ServiceNow Otto applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -62,5 +62,5 @@ After you have enabled either Dynamic Translation or native translation, transla
 
 Multilingual service is enabled for ServiceNow Otto applications.
 
-**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

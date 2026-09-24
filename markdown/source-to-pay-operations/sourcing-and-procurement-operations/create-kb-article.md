@@ -2,7 +2,7 @@
 title: Create a knowledge base article about procurement
 description: Create a knowledge base article about procurement so that you can share procurement information and policies with your employees and procurement team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-kb-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-kb-article.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -61,5 +61,5 @@ Role required: sn\_spend\_psd.agent, sn\_spend\_psd.psd\_admin
 -   Manage the article workflows, such as reviewing, publishing, updating, or retiring the article.
 -   Monitor the performance metrics of your article by navigating to **Procurement Case Management** &gt; **PSM Dashboards**.
 
-**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

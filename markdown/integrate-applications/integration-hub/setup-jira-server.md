@@ -2,7 +2,7 @@
 title: Set up the Jira spoke for Jira Server
 description: Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.Integrate the ServiceNow instance and Jira Server using API Token to authenticate ServiceNow requests.Generate a personal access token from the Jira Server instance.Create an API key credential record to authenticate the requests from ServiceNow.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-jira-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-jira-server.html
 release: australia
 product: Integration Hub
 classification: integration-hub

@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: With the ServiceNow Otto for Integrated Risk Management \(IRM\) application, you can use generative AI capabilities to support key control objective tasks such as identifying overlapping control objectives, analyzing impact of regulatory changes, and optimizing control objectives within Policy and Compliance Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/sn-otto-irm-pc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/sn-otto-irm-pc.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

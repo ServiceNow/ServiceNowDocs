@@ -2,7 +2,7 @@
 title: Summarize a chat conversation by using ServiceNow Otto for IT Service Management \(ITSM\)
 description: Summarize the Virtual Agent chat conversation between a live agent and a requester in Service Operations Workspace for ITSM. You can generate the summary by using the chat summarization skill in ServiceNow Otto for IT Service Management \(ITSM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

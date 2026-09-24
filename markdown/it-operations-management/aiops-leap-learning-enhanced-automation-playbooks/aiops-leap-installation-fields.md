@@ -2,7 +2,7 @@
 title: LEAP Installer fields
 description: Field values that you configure when installing LEAP using the LEAP Installer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-installation-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-installation-fields.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

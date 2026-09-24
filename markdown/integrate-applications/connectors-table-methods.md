@@ -2,7 +2,7 @@
 title: Table connector methods
 description: The Table connector provides multiple methods that perform various actions on tabular data as part of an automation Workflow in the RPA Desktop Design Studio. For example, tasks such as getting a table, getting a row data, and removing empty rows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connectors-table-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connectors-table-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -928,5 +928,5 @@ To input the values, do the following actions:
 |SearchColumnIndex|Integer value that indicates the order of the column from the left. The default index value is -1 for the first column. Providing a custom index value is optional. If the field receives no custom index value, the method automatically sets the order of the columns.|Data In|Integer|
 |StartRowIndex|Integer value that indicates the order of the column from the left. The default index value is -1 for the first row. Providing a custom index value is optional. If the field receives no custom index value, the method automatically sets the order of the columns.|Data In|Integer|
 
-**Parent Topic:**[Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/table-connector.md)
+**Parent Topic:**[Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/table-connector.md)
 

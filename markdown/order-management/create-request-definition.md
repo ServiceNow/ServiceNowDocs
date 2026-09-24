@@ -2,7 +2,7 @@
 title: Create a request definition
 description: Create a request definition and configure it into an order task to help your agents provide additional order attributes for the order fulfillment from the CSM/FSM configurable workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-request-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-request-definition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -148,7 +148,7 @@ Option that designates if the **Read-only** field appears as true in the Request
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

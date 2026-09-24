@@ -2,7 +2,7 @@
 title: Associate customers or business organizations to a service organization
 description: Associate your customers or business organizations \(formerly business locations\) with a service organization \(SO\) using the Customer Service Management \(CSM\) application. By linking customers or business organizations \(formerly business locations\) to the service organization, staff can create or resolve cases for customers and locations raised by other business organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-customers-or-bus-loc-to-so.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-customers-or-bus-loc-to-so.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,9 +22,9 @@ Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_loc
 
 You can associate customers \(accounts, consumers, and households\) and business organizations \(both internal and external\) by using the organization criteria \[service\_organization\_criteria\] table. This association helps your organization to gain access to all customers and business organizations associated with an service organization.
 
-For more information about defining organization criteria, see [Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-service-organization-criteria.md).
+For more information about defining organization criteria, see [Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-service-organization-criteria.md).
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 

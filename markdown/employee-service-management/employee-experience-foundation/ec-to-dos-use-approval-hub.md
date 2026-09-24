@@ -2,7 +2,7 @@
 title: Use approval experience
 description: Use the My tasks section to track and fulfill the requests from the portal and Now Mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -32,9 +32,9 @@ You can perform the following actions from the portal and Now Mobile.
 -   Perform quick actions such as approve, send back, or view details.
 -   When you enable e-signatures for approvals, the approver must enter the correct credentials to change the approval state. Only when the credentials pass, the approval status changes.
 
-For more information, see [Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-ootb.md) and [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
+For more information, see [Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-ootb.md) and [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

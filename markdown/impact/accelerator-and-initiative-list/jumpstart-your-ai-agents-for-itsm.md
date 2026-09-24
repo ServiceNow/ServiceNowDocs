@@ -2,7 +2,7 @@
 title: Jumpstart Your AI Agents for ITSM
 description: This Accelerator provides a demonstration of the possibilities and capabilities of AI Agents for ITSM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-ai-agents-for-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-ai-agents-for-itsm.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

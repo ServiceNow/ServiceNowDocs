@@ -2,7 +2,7 @@
 title: Plan unscheduled items into roadmap
 description: Add items without start or end dates yet to your portfolio plan or free-form roadmap.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/plan-unscheduled-items-into-roadmap-in-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/plan-unscheduled-items-into-roadmap-in-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -63,5 +63,5 @@ From the Free-form Roadmaps tab, select a roadmap.
     \[Omitted image "unscheduled-items.gif"\] Alt text: Schedule unscheduled items.
 
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

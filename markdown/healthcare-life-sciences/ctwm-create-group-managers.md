@@ -2,7 +2,7 @@
 title: Create a group for Care Team Agent Managers
 description: Create a group for care team agents with the sn\_cto.care\_team\_agent\_manager and wm.dispatch roles assigned so that users added to this group will inherit the collection of roles needed for care team managers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-create-group-managers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-create-group-managers.html
 release: australia
 topic_type: task
 last_updated: "2026-04-02"

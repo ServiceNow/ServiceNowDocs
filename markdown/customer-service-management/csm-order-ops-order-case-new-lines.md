@@ -2,7 +2,7 @@
 title: Create an order case line item for an order case
 description: Create a new order case line item for an existing order case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-order-ops-order-case-new-lines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-order-ops-order-case-new-lines.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

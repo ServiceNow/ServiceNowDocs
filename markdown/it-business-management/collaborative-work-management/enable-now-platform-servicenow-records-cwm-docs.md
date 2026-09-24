@@ -2,7 +2,7 @@
 title: Enable ServiceNow AI Platform records in CWM Docs
 description: Facilitate connecting work across ServiceNow AI Platform by enabling CWM users to add a reference to records of any ServiceNow table in CWM Docs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/enable-now-platform-servicenow-records-cwm-docs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/enable-now-platform-servicenow-records-cwm-docs.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management

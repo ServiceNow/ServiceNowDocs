@@ -2,7 +2,7 @@
 title: Modify a third-party review request
 description: As a requester, modify a legal request to update the request details or replace the attached contract document with an updated version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-update-contract-tpc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-update-contract-tpc.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -26,15 +26,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open the third-party contract review request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d787267e83">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d787271e83">
 
 Method
 
-</th><th align="left" id="d787267e86">
+</th><th align="left" id="d787271e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d787267e92">
+</th></tr></thead><tbody><tr><td id="d787271e92">
 
 **Using Legal Service Portal**
 
@@ -47,7 +47,7 @@ Action
 5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
 
-</td></tr><tr><td id="d787267e141">
+</td></tr><tr><td id="d787271e141">
 
 **Employee Center**
 
@@ -65,8 +65,8 @@ Action
 
     |Action|Steps|
     |------|-----|
-    |**Modify the request details**|Modify the fields of the third-party review request. For more information, see [Third-party Contract Review form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-intake-fields.md).|
-    |**Add and classify documents**|For more information, see [Resubmit third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-multiple-doc-tpc.md)|
+    |**Modify the request details**|Modify the fields of the third-party review request. For more information, see [Third-party Contract Review form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-tpc-intake-fields.md).|
+    |**Add and classify documents**|For more information, see [Resubmit third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-multiple-doc-tpc.md)|
     |**Delete documents**|In the Documents section, select the Delete icon \(\[Omitted image "lsd-tpc-delete.png"\] Alt text: Delete icon\) next to the document you want to delete.|
 
 3.  Select **Save** to update the record.

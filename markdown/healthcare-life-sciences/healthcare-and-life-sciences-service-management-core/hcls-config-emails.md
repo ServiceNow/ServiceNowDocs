@@ -2,7 +2,7 @@
 title: Configuring the Healthcare and Life Sciences Service Management Core email notifications
 description: Configure the Healthcare and Life Sciences Service Management Core email notifications sent to patients about account registration with the Patient Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-emails.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

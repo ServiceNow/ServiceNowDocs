@@ -2,7 +2,7 @@
 title: Configure Proactive Customer Service Operations
 description: Configure various aspects of Proactive Customer Service Operations based on the specific requirements of your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-pcso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-pcso.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -101,13 +101,13 @@ Automate workflows for proactive case creation to improve your operational effic
 **Related topics**  
 
 
-[Using Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-pcso.md)
+[Using Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-pcso.md)
 
-[View install base information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-info.md)
+[View install base information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-install-base-info.md)
 
-[Create a case for install base from the Customer Service homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-install-base.md)
+[Create a case for install base from the Customer Service homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-install-base.md)
 
-[View the install base in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-base-aw-csm.md)
+[View the install base in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/install-base-aw-csm.md)
 
-[View sold product information in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-sold-product-info-workspace.md)
+[View sold product information in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-sold-product-info-workspace.md)
 

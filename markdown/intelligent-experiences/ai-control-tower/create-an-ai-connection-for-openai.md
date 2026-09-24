@@ -2,7 +2,7 @@
 title: Create an AI connection for OpenAI
 description: Create an AI connection for OpenAI in AI Control Tower using the  AI Service Graph Connector for OpenAI \(version 1.0.0\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-openai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-openai.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

@@ -2,7 +2,7 @@
 title: Post upgrade tasks for APO
 description: Review and complete required post-upgrade tasks after upgrading Accounts Payable Operations.Complete post-upgrade tasks after upgrading Accounts Payable Operations, including upgrading copied use cases to the latest Document Intelligence model.The invoice and invoice line tables are restructured in the Xanadu release.When updating from Washington DC to Australia release, manually run the glide fix to update the invoice and invoice line tables to their respective base tables.Run the fix script after upgrading to the Australia to recalculate amounts and quantities for in-process invoices with Insufficient Goods Receipt and amount line and header variance conditions.Run a scheduled job to copy cost allocations from invoice line to purchase order line when upgrading Accounts Payable Operations from lower to higher version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/post-upgrade-tasks-for-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/post-upgrade-tasks-for-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

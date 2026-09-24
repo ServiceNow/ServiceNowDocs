@@ -2,7 +2,7 @@
 title: Add or modify an HR assignment rule
 description: Assignment rules are used to assign the HR group when it is not assigned from the catalog item template. You can create HR assignment rules as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreatingAnAssignmentRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreatingAnAssignmentRule.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -139,5 +139,5 @@ After creating the assignment rule, you can test it to verify that it works.
 **Related topics**  
 
 
-[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
+[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

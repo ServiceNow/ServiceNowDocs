@@ -2,7 +2,7 @@
 title: LLM Text bot response control
 description: Use this control to write a prompt description that will dynamically create an output message to the user in conversations that use large language model \(LLM\) topic discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-ai-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-ai-response.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -65,5 +65,5 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 \[Omitted image "va-ai-response-llm-properties.png"\] Alt text: Basic properties include the node name and how you want the LLM to respond. Advanced options include Hide this node.
 
-**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
+**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

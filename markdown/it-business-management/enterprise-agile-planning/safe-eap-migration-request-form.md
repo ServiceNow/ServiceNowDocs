@@ -2,7 +2,7 @@
 title: SAFe-EAP migration request form
 description: Learn about the fields of SAFe-EAP migration form. Use this form to submit a request to migrate Scaled Agile Framework data to Enterprise Agile Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/safe-eap-migration-request-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/safe-eap-migration-request-form.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -98,12 +98,12 @@ Status of the migration request.
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
+</table>**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/eap-reference.md)
 
 **Related topics**  
 
 
-[Start migration of SAFe data to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/migrate-safe-data-to-eap.md)
+[Start migration of SAFe data to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/migrate-safe-data-to-eap.md)
 
-[Migrating from SAFe to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/migrating-from-safe-to-eap.md)
+[Migrating from SAFe to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/migrating-from-safe-to-eap.md)
 

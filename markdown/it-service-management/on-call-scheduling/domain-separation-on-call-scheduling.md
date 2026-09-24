@@ -2,7 +2,7 @@
 title: Domain separation and On-Call Scheduling
 description: Domain separation is supported in On-Call Scheduling. The On-Call Scheduling application helps you to ensure that dedicated support team members are available to resolve issues as they arise. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/domain-separation-on-call-scheduling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/domain-separation-on-call-scheduling.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -82,7 +82,7 @@ For the following On-Call Scheduling features, domain separation ensures that en
 -   Schedule reports
 -   Escalations
 
-**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
+**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
 
 **Related topics**  
 

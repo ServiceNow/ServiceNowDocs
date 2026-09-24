@@ -2,7 +2,7 @@
 title: Compare versions of CI configuration files
 description: You can compare two versions of tracked CI configuration files to see the actual changes made to them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/compare-configuration-files.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/compare-configuration-files.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ You can compare two versions of tracked CI configuration files to see the actual
 
 ## Before you begin
 
-If Discovery and Service Mapping don’t track a configuration file you want to track, perform advanced configuration as described in [Modify tracking changes in configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/track-configuration-files.md).
+If Discovery and Service Mapping don’t track a configuration file you want to track, perform advanced configuration as described in [Modify tracking changes in configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/track-configuration-files.md).
 
 Role required: one of the following roles.
 
@@ -93,5 +93,5 @@ The Tracked Configuration File Comparison tab opens, displaying the configuratio
 **Related topics**  
 
 
-[Tracked Configuration file form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/tracked-configuration-file-form.md)
+[Tracked Configuration file form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/tracked-configuration-file-form.md)
 

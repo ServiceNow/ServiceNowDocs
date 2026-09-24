@@ -2,7 +2,7 @@
 title: Policy exceptions
 description: Request an approved, time-bound deviation from a policy or control objective that applies to an AI asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-policy-exceptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-policy-exceptions.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-16"

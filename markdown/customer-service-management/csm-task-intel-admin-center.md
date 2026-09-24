@@ -2,7 +2,7 @@
 title: Task Intelligence Admin Console
 description: Use the Task Intelligence Admin Console to create, train, and deploy machine learning models that predict different types of information for case and interaction records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-admin-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-task-intel-admin-center.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -72,13 +72,13 @@ Review your selections and start using the model.
 </td></tr></tbody>
 </table>You can also use the Task Intelligence Admin Console to access related applications. For more information about using the console, see the following topics:
 
--   [Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-cat-solution.md)
--   [Create a model to predict case sentiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-sentiment-solution.md)
--   [Create a model to detect case language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-language-solution.md)
--   [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-di-use-case.md)
+-   [Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-cat-solution.md)
+-   [Create a model to predict case sentiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-sentiment-solution.md)
+-   [Create a model to detect case language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-language-solution.md)
+-   [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-di-use-case.md)
 
--   **[Machine learning model setup and behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-model-setup-behavior.md)**  
+-   **[Machine learning model setup and behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-model-setup-behavior.md)**  
 Set up models to predict field values and sentiment for customer service cases.
 
-**Parent Topic:**[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md)
+**Parent Topic:**[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intelligence.md)
 

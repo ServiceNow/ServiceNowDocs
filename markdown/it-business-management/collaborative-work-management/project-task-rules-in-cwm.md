@@ -2,7 +2,7 @@
 title: Project task hierarchy and permissions in CWM
 description: Learn how assignee, hierarchy, and item-type conditions determine which project tasks accept CWM children and who can add or move them on a Board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/project-task-rules-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/project-task-rules-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -59,14 +59,14 @@ Restrictions are surfaced in one of three ways, depending on the rule and the ac
     If a project task already has child project tasks, then you can't associate additional CWM tasks or stories.
 
 
-**Parent Topic:**[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
+**Parent Topic:**[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
 
 **Related topics**  
 
 
-[Create a CWM task or story under a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-cwm-work-under-project-task.md)
+[Create a CWM task or story under a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-cwm-work-under-project-task.md)
 
-[Change or remove the project task connection for a CWM item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/change-project-task-connection-in-cwm.md)
+[Change or remove the project task connection for a CWM item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/change-project-task-connection-in-cwm.md)
 
-[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
+[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
 

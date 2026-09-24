@@ -2,7 +2,7 @@
 title: Use the GetExcelSheetNames component
 description: Get the names of the sheets in an Excel file as part of an automation Workflow by using the GetExcelSheetNames component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-datareader-getexcelsheetnames.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-datareader-getexcelsheetnames.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: none
 
 The GetExcelSheetNames component can work with other components or methods in an automation Workflow.
 
-You can configure the properties for the GetExcelSheetNames component. For more information about these properties, see [Properties of the Data Reader components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-datareader-prop.md).
+You can configure the properties for the GetExcelSheetNames component. For more information about these properties, see [Properties of the Data Reader components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-datareader-prop.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ You can configure the properties for the GetExcelSheetNames component. For more 
 
 2.  Drag the GetExcelSheetNames component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the GetExcelSheetNames component to the corresponding ports of the other components as described in the following table.
 
@@ -46,5 +46,5 @@ You can configure the properties for the GetExcelSheetNames component. For more 
 6.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Data Reader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/datareader-utility.md)
+**Parent Topic:**[Data Reader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/datareader-utility.md)
 

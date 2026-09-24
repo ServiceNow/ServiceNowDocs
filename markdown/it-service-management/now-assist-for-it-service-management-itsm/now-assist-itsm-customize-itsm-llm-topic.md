@@ -2,7 +2,7 @@
 title: Customize a ServiceNow Otto for Virtual Agent topic
 description: Copy and customize a core ITSM Virtual Agent topic and use that topic to track the status of common IT-related tasks using ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-customize-itsm-llm-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-customize-itsm-llm-topic.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

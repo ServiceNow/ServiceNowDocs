@@ -2,7 +2,7 @@
 title: Risk form
 description: The risk form enables you to define a risk for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-risk-form-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-risk-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

@@ -2,7 +2,7 @@
 title: Company Event Troubleshooting
 description: Company event troubleshooting steps help resolve reservation changes and cancellations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-wsd-integration-troubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-wsd-integration-troubleshooting.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,7 +30,7 @@ Provides helpful troubleshooting steps to manage new and existing reservations f
 
 1.  Navigate to **Workplace Service Management** &gt; **Portal** &gt; **New Reservation.**
 
-2.  **Note:** see [Workplace Service Delivery Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.md) for more information on creating new company events, reservations details, and reservation actions.
+2.  **Note:** see [Workplace Service Delivery Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.md) for more information on creating new company events, reservations details, and reservation actions.
 
     \[Omitted image "wsd-integration-ts-new-reservation.png"\] Alt text: Create a new reservation from the workplace service management portal
 
@@ -53,5 +53,5 @@ Provides helpful troubleshooting steps to manage new and existing reservations f
     Reservation details for company event is updated based on the **Action** you selected.
 
 
-**Parent Topic:**[Workplace Service Delivery Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.md)
+**Parent Topic:**[Workplace Service Delivery Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.md)
 

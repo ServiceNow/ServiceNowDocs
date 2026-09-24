@@ -2,7 +2,7 @@
 title: Customize the Log Viewer table in Health Log Analytics
 description: Add or remove columns in the Log viewer table to show only the data you want to view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-log-viewer-table-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-op-log-viewer-table-sow.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -49,7 +49,7 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
 
         The corresponding column is removed from the table. The removed field is added to the Available fields list.
 
-        If you have filtered the data for specific values in a field, that data still displays even when the field is no longer selected. For more information about filtering data, see [Filter search results on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-log-viewer-filter-sow.md).
+        If you have filtered the data for specific values in a field, that data still displays even when the field is no longer selected. For more information about filtering data, see [Filter search results on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-log-viewer-filter-sow.md).
 
         **Note:** The Time column can't be removed from the table.
 

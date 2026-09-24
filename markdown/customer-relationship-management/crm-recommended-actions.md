@@ -2,7 +2,7 @@
 title: Recommended Actions
 description: Recommended Actions is a context-aware recommendation framework that displays relevant, actionable guidance to users directly within workspaces based on the context of the record they are working on. It acts as a one‑stop experience that combines contextual actions, guided decisions, rule-based and AI-driven recommendations, and AI Search to help users resolve issues faster and more consistently across workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-recommended-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-recommended-actions.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-16"

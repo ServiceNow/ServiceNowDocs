@@ -2,7 +2,7 @@
 title: Resize modals
 description: Configure a property in UI Builder to resize all modals on a record page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-workspace-users-to-resize-modals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/enable-workspace-users-to-resize-modals.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Select or create a record page.
 
-    For instructions on creating a workspace page in UI Builder, see [Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-configurable-workspace-page-uib.md).
+    For instructions on creating a workspace page in UI Builder, see [Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-configurable-workspace-page-uib.md).
 
 3.  From the Content tree, select **Modals** &gt; **Modal Container**.
 
@@ -40,6 +40,6 @@ Role required: admin
 
 8.  Select **Save**.
 
-    If resizing isn’t required for all modals on the record page, use declarative actions to resize individual modals. For instructions, see [Resize a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-resizing-for-select-modals-in-configurable-workspace.md).
+    If resizing isn’t required for all modals on the record page, use declarative actions to resize individual modals. For instructions, see [Resize a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-up-resizing-for-select-modals-in-configurable-workspace.md).
 
 

@@ -2,7 +2,7 @@
 title: Associate a knowledge article with a taxonomy category
 description: Associate a knowledge article with a taxonomy topics to create a uniform classification structure across different kinds of content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/associate-knowledge-article-with-taxonomy-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/associate-knowledge-article-with-taxonomy-topic.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -47,5 +47,5 @@ The taxonomy feature enables you to link an article to one or more topics from m
 
 The selected article is associated with a taxonomy category for better content browsing.
 
-**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

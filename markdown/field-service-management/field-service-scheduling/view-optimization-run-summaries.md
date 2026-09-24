@@ -2,7 +2,7 @@
 title: View Schedule Optimization run summaries
 description: View run summaries to monitor the status and results of Schedule Optimization runs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/view-optimization-run-summaries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/view-optimization-run-summaries.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -65,7 +65,7 @@ The run summary details help you identify successful runs and address any issues
 **Related topics**  
 
 
-[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
+[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 

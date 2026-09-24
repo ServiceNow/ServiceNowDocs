@@ -2,14 +2,14 @@
 title: Configure Adobe Acrobat Sign for external content indexing
 description: Create and authorize an OAuth 2.0 application in Adobe Acrobat Sign to allow the Adobe Acrobat Sign external content connector to access your Adobe Acrobat Sign source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-adobe-acrobat-sign-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-adobe-acrobat-sign-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Adobe Acrobat Sign external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -114,12 +114,12 @@ For each of the following scopes, select the **Enabled?** option and set the **M
 Provide the following items to your connector administrator:
 
 -   The base URL for your Adobe Acrobat Sign instance. This URL is typically `https://<host>.<data-center>.adobesign.com/`, where `<host>` is `secure` or your organization name and `<data-center>` is the shard ID for your Adobe Acrobat Sign data center. For a list of Adobe Acrobat Sign data centers, see [https://helpx.adobe.com/sign/using/adobesign-data-centers.html](https://helpx.adobe.com/sign/using/adobesign-data-centers.html).
--   The API application ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-adobe-acrobat-sign-external-content-indexing.md).
--   The API application secret that you copied in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-adobe-acrobat-sign-external-content-indexing.md).
+-   The API application ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-adobe-acrobat-sign-external-content-indexing.md).
+-   The API application secret that you copied in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-adobe-acrobat-sign-external-content-indexing.md).
 
 Your connector administrator needs these items to configure an Adobe Acrobat Sign external content connector to retrieve documents and security principals from your Adobe Acrobat Sign source system.
 
-For details on creating and configuring a Adobe Acrobat Sign external content connector, see [Create an Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-adobe-acrobat-sign.md).
+For details on creating and configuring a Adobe Acrobat Sign external content connector, see [Create an Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-adobe-acrobat-sign.md).
 
-**Parent Topic:**[Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/adobe-acrobat-sign-external-content-connector.md)
+**Parent Topic:**[Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/adobe-acrobat-sign-external-content-connector.md)
 

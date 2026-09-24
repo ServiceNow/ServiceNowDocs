@@ -2,7 +2,7 @@
 title: Create a quick recovery task
 description: Create a quick recovery task from Recovery tasks or as part of the planned recovery strategy for a business continuity plan. Using the quick insert feature, you can create tasks without navigating to a separate form. Tasks can be ordered, inserted in sequence \(before, after, or in parallel with existing tasks\), and dependencies are updated automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-quick-recovery-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-quick-recovery-task.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"
@@ -22,7 +22,7 @@ Role required: sn\_bcm.program\_manager, or sn\_bcm.planner
 
 The Recovery tasks tab allows you to create and manage recovery tasks directly from the plan record. When a plan has no tasks, selecting Quick insert enables you to create a recovery task from a pop-up modal. The modal displays only required fields and enforces mandatory field validation before submission. You can move and resize the modal as needed.
 
-Before this enhancement, creating a recovery task opened the full recovery-task form on a separate page. After saving, the user remained on the new task record and had to navigate back to the plan to add the next task. The quick insert flow keeps you on the plan page so that the plan context, existing tasks, and dependencies remain visible while you add tasks. For the full long-form workflow, see [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-a-recovery-task.md).
+Before this enhancement, creating a recovery task opened the full recovery-task form on a separate page. After saving, the user remained on the new task record and had to navigate back to the plan to add the next task. The quick insert flow keeps you on the plan page so that the plan context, existing tasks, and dependencies remain visible while you add tasks. For the full long-form workflow, see [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-a-recovery-task.md).
 
 Once tasks exist, the quick insert form provides additional options to control where and how new tasks are inserted. You can insert tasks in the following positions:
 
@@ -97,7 +97,7 @@ Task template groups can also be applied in bulk using the **Add groups** contro
 
 10. Fill in the short description and any other fields, then select **Save**.
 
-    For more information on the fields in the form, see [Create a quick recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-quick-recovery-task-form.md).
+    For more information on the fields in the form, see [Create a quick recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-quick-recovery-task-form.md).
 
     The system recalculates task order based on dependencies and updates all planned order values in the list. The new task appears in its correct position on the Recovery tasks tab.
 
@@ -126,8 +126,8 @@ Group names are unique. Reusing an existing group name surfaces an inline error 
 
 \[Omitted image "qi-save-tasks.png"\] Alt text: Recovery tasks tab toolbar showing the Save as group dropdown expanded with Save tasks and Add to group options.
 
--   **[Create a quick recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-quick-recovery-task-form.md)**  
+-   **[Create a quick recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-quick-recovery-task-form.md)**  
 Use the Create a quick recovery task form in the BCM Configurable Workspace to insert details on the recovery task quickly.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

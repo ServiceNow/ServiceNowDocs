@@ -2,7 +2,7 @@
 title: Add or delete edges to a Knowledge Graph schema
 description: Add, edit, or delete edges that connect the nodes to customize a Knowledge Graph schema.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/add-or-delete-edges.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/add-or-delete-edges.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

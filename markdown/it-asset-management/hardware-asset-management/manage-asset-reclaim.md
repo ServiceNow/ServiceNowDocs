@@ -2,7 +2,7 @@
 title: Reclaim hardware assets
 description: Reclaim hardware assets efficiently and store them in the inventory, reassign, send it for repair, or dispose of as required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/manage-asset-reclaim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/manage-asset-reclaim.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -16,12 +16,12 @@ breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Manageme
 
 Reclaim hardware assets efficiently and store them in the inventory, reassign, send it for repair, or dispose of as required.
 
--   **[Submit an asset reclamation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/submit-asset-reclamation-request.md)**  
+-   **[Submit an asset reclamation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/submit-asset-reclamation-request.md)**  
 Use Reclaim Asset catalog item to efficiently reclaim hardware assets when an employee leaves an organization or moves to a different role.
--   **[Close an asset reclamation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/close-asset-reclamation-request.md)**  
+-   **[Close an asset reclamation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/close-asset-reclamation-request.md)**  
 Efficiently reclaim hardware assets when an employee leaves an organization or moves to a different role.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

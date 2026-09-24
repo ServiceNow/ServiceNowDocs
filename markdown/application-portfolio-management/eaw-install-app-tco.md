@@ -2,7 +2,7 @@
 title: Install the Application Total Cost of Ownership \(TCO\) plugin
 description: Install the Application TCO store application that you purchased from the ServiceNow Store to make it available on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-install-app-tco.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-install-app-tco.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-app-tco.md)
+**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-app-tco.md)
 

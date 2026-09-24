@@ -2,7 +2,7 @@
 title: Edit a Git repository configuration in ServiceNow Studio
 description: Edit a Git repository configuration in ServiceNow Studio to update the network protocol, credentials, or other connection details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-edit-git-repo-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-sc-edit-git-repo-configuration.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -98,5 +98,5 @@ The saved credentials to use for the source control connection. All application 
     The repository configuration is updated and the new settings apply to all future source control operations for this application.
 
 
-**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
 

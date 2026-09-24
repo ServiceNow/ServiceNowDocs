@@ -2,7 +2,7 @@
 title: Configure grants program record tabs in Grants Proposal Playbook
 description: You can add or modify the tabs displayed on the Grant Program Record Page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-gpp-tabs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-gpp-tabs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-18"

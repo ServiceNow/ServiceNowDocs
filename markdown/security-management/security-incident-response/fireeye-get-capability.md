@@ -2,7 +2,7 @@
 title: FireEye Get File Capability
 description: File acquisition requests instruct an Endpoint Security Agent to obtain a file from its host endpoint. File acquisitions are used for static or dynamic analysis of potential or verified compromises, as well as for evidence retention during insider threat investigations. Get File capability should be created as a separate profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/fireeye-get-capability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/fireeye-get-capability.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

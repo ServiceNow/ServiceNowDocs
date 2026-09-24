@@ -2,7 +2,7 @@
 title: Add a mobile experience
 description: Add a mobile experience, or interface, to enable users to access your application from a ServiceNow native mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/add-mobile.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +18,7 @@ Add a mobile experience, or interface, to enable users to access your applicatio
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -166,8 +166,8 @@ Scan or copy the QR code for your mobile experience using the **Select app** and
 
 For more information on modifying mobile experiences, see [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md).
 
--   **[Sample mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/mobile-experiences-examples.md)**  
+-   **[Sample mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/mobile-experiences-examples.md)**  
 A mobile experience enables users to access your application from a ServiceNow native mobile app.
 
-**Parent Topic:**[Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
+**Parent Topic:**[Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-experience.md)
 

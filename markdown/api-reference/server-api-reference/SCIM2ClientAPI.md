@@ -2,7 +2,7 @@
 title: SCIM2Client - Scoped
 description: The SCIM2Client API provides methods that call the System for Cross-domain Identity Management \(SCIM\) Provider \(server role\) to create, update, or delete data in a service provider \(SP\).Deletes a specified resource from an external service provider system.Returns all resources from a specified external provider system that match the passed criteria.Returns a resource from the external provider system with the specified unique resource ID.Creates or updates a resource in an external service provider system for a specified sys\_id.Creates a new resource in an external service provider system for a specified sys\_id.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SCIM2ClientAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/SCIM2ClientAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -28,7 +28,7 @@ You can locate the results of each SCIM method call in the SCIM Client Logs \[sy
 
 For additional information on SCIM, see [System for Cross-domain Identity Management \(SCIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/scim.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## SCIM2Client - executeDelete \(String provider, String resourceName, String providerResourceId\)
 
@@ -97,7 +97,7 @@ message
 
 </td><td>
 
-If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/scim-api.md) API.Data type: String
+If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/scim-api.md) API.Data type: String
 
 </td></tr><tr><td>
 
@@ -217,7 +217,7 @@ message
 
 </td><td>
 
-If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/scim-api.md) API.Data type: String
+If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/scim-api.md) API.Data type: String
 
 </td></tr><tr><td>
 
@@ -421,7 +421,7 @@ message
 
 </td><td>
 
-If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/scim-api.md) API.Data type: String
+If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/scim-api.md) API.Data type: String
 
 </td></tr><tr><td>
 
@@ -585,7 +585,7 @@ message
 
 </td><td>
 
-If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/scim-api.md) API.Data type: String
+If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/scim-api.md) API.Data type: String
 
 </td></tr><tr><td>
 
@@ -745,7 +745,7 @@ message
 
 </td><td>
 
-If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/scim-api.md) API.Data type: String
+If the **status** is SUCCESS, the endpoint returns the response body as defined by the REST [SCIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/scim-api.md) API.Data type: String
 
 </td></tr><tr><td>
 

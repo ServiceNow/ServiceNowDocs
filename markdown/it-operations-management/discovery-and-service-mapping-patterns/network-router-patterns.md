@@ -2,7 +2,7 @@
 title: Network router discovery using patterns
 description: The Discovery and Service Mapping Patterns application uses the Network Router pattern to find network routers in your environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/network-router-patterns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/network-router-patterns.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -20,9 +20,9 @@ The Discovery and Service Mapping Patterns application uses the Network Router p
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-To learn about network routers and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+To learn about network routers and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
-For information on probe-based network switch and router discovery, see [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md).
+For information on probe-based network switch and router discovery, see [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md).
 
 ## Cisco Nexus Virtual Routing and Forwarding \(VRF\) data model
 
@@ -97,7 +97,7 @@ Skips populating the Next Hop Routing Rule table for BGP-enabled routers during 
 
 -   **Type:** Boolean
 -   **Default value:** false
-For more information, see [Turn off next-hop route data collection for BGP routers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/turn-off-bgp-next-hop-collection.md).
+For more information, see [Turn off next-hop route data collection for BGP routers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/turn-off-bgp-next-hop-collection.md).
 
 </td></tr></tbody>
 </table>-   **For Cisco Nexus VRF discovery**
@@ -204,8 +204,8 @@ Discovery creates these relationships and references to support the network rout
 
 \* Populated for Cisco Nexus VRF discovery only.
 
--   **[Turn off next-hop route data collection for BGP routers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/turn-off-bgp-next-hop-collection.md)**  
+-   **[Turn off next-hop route data collection for BGP routers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/turn-off-bgp-next-hop-collection.md)**  
 You can turn off Next Hop Routing Rule \[dscy\_route\_next\_hop\] table collection for BGP-enabled routers to reduce MID Server memory load during router discovery.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

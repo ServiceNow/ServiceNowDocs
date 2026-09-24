@@ -2,7 +2,7 @@
 title: Components installed with additional plugins for Customer Service Management
 description: Several types of components are installed with the additional plugins for the Customer Service Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/inst-wi-cust-serv-addtl-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/inst-wi-cust-serv-addtl-plugins.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Several types of components are installed with the additional plugins for the Cu
 
 </th></tr></thead><tbody><tr><td>
 
-[Components installed with CTI Softphone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithCCTISoftphone.md)
+[Components installed with CTI Softphone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_InstalledWithCCTISoftphone.md)
 
 </td><td>
 
@@ -34,7 +34,7 @@ Several types of components are installed with the additional plugins for the Cu
 
 </td></tr><tr><td>
 
-[Components installed with Customer Service CTI Demo Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithCustServCTIDemoData.md)
+[Components installed with Customer Service CTI Demo Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_InstalledWithCustServCTIDemoData.md)
 
 </td><td>
 
@@ -42,7 +42,7 @@ Business rules
 
 </td></tr><tr><td>
 
-[Components installed with OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithOpenFrame.md)
+[Components installed with OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_InstalledWithOpenFrame.md)
 
 </td><td>
 
@@ -54,7 +54,7 @@ Business rules
 
 </td></tr><tr><td>
 
-[Components installed with Special Handling Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithSpecHandNotes.md)
+[Components installed with Special Handling Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_InstalledWithSpecHandNotes.md)
 
 </td><td>
 
@@ -67,7 +67,7 @@ Business rules
 
 </td></tr><tr><td>
 
-[Components installed with Targeted Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_TargetCommInstalledComponents.md)
+[Components installed with Targeted Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_TargetCommInstalledComponents.md)
 
 </td><td>
 
@@ -77,7 +77,7 @@ Business rules
 
 </td></tr><tr><td>
 
-[Components installed with Knowledge Product Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_KnowProdEntitlementCompInstalled.md)
+[Components installed with Knowledge Product Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_KnowProdEntitlementCompInstalled.md)
 
 </td><td>
 
@@ -86,7 +86,7 @@ Business rules
 
 </td></tr><tr><td>
 
-[Components installed with Self Service Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithSSPasswordReset.md)
+[Components installed with Self Service Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_InstalledWithSSPasswordReset.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Translate text in Skills Management
 description: Translate skills and descriptions when you add new skills in Skills Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/translating-skills-skills-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/skills-management/translating-skills-skills-management.html
 release: australia
 product: Skills Management
 classification: skills-management
@@ -34,7 +34,7 @@ Translate skill names and the description using the following fields that suppor
 
 ## Procedure
 
-1.  [Add a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/t_CreateASkill.md).
+1.  [Add a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/skills-management/t_CreateASkill.md).
 
 2.  For the newly added skills, load the translation to the Translated text \[sys\_translated.text\] table.
 

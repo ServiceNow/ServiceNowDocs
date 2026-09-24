@@ -2,7 +2,7 @@
 title: Activating Machine Identity Console
 description: Activate the Machine Identity Management com.glide.identity.machine\_identity\_management to manage your service accounts which are used for integrations with ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/activate-machine-identity-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/activate-machine-identity-console.html
 release: australia
 product: Identity
 classification: identity

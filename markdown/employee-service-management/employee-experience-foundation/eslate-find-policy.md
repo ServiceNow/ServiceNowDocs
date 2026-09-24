@@ -2,7 +2,7 @@
 title: Find policy information using chat
 description: Use the chat to get direct answers to policy and procedural questions, with citations and links to the source knowledge articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-find-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-find-policy.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

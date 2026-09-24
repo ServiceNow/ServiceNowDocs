@@ -2,7 +2,7 @@
 title: Application Manager Updates tab
 description: You can check whether updates are available for installed applications and plugins at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/updates-app-mgr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/application-manager/updates-app-mgr.html
 release: australia
 product: Application Manager
 classification: application-manager

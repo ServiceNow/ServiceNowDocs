@@ -2,7 +2,7 @@
 title: Create a context variable for a PA Indicator target source
 description: Create a context variable manually for the target source type PA Indicator if the breakdown is of Choice list type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/create-context-variable-for-a-target-source-type-pa-indicator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/create-context-variable-for-a-target-source-type-pa-indicator.html
 release: australia
 product: Goal Framework
 classification: goal-framework

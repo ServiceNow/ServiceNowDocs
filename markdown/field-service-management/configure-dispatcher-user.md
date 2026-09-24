@@ -2,7 +2,7 @@
 title: Configure user groups for dispatchers in Dispatcher Workspace
 description: Enable dispatchers to be a member of different user groups so they can efficiently manage agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-dispatcher-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configure-dispatcher-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

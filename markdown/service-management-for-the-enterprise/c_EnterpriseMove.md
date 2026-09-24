@@ -2,7 +2,7 @@
 title: Enterprise move
 description: Facility teams use Enterprise Move to plan and execute move scenarios in support of large or complex employee move requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_EnterpriseMove.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_EnterpriseMove.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,8 +25,8 @@ The Facilities enterprise move process is as follows:
 
 **Note:** The Service management workflow can be edited to meet customer-specific processes.
 
--   **[Move planning tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_MovePlanningTool.md)**  
+-   **[Move planning tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_MovePlanningTool.md)**  
 The Move Planning tool displays occupancy totals by campus and floor. Facilities and move administrators can add or remove users to and from scenarios while planning a move. Groups of people are selected and moved by department \(department on sys\_user record\) or by direct manager \(manager on sys\_user record\).
 
-**Parent Topic:**[Facilities move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacMoveMgmt.md)
+**Parent Topic:**[Facilities move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacMoveMgmt.md)
 

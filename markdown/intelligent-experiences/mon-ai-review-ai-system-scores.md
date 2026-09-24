@@ -2,12 +2,12 @@
 title: Review scores for an AI system
 description: Determine whether a specific AI system is meeting quality and safety targets by reviewing its scores, identifying which metrics are affecting performance, and checking for regressions over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-review-ai-system-scores.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-review-ai-system-scores.html
 release: australia
 topic_type: task
 last_updated: "2026-06-30"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -46,7 +46,7 @@ When a specific AI system needs attention, determine which metrics are affecting
 
 5.  Confirm which metrics are scoring this AI system by reviewing the **Metrics evaluated** card.
 
-    This card lists every metric currently scoring this AI system, whether the metric comes from your organization's global metric configuration or was added specifically for this system. To change which metrics are evaluated, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
+    This card lists every metric currently scoring this AI system, whether the metric comes from your organization's global metric configuration or was added specifically for this system. To change which metrics are evaluated, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
 
 6.  View the full scoring formula by selecting the side panel icon on a score card.
 
@@ -74,7 +74,7 @@ When a specific AI system needs attention, determine which metrics are affecting
 
     For example, a gradual decline in Task completion from 90% to 72% over three weeks indicates a quality regression for this AI system that warrants session-level investigation.
 
-    To add a dotted-line metric to your scoring formula, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md).
+    To add a dotted-line metric to your scoring formula, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-metric-templates.md).
 
 9.  Identify sessions that need investigation by reviewing the **Recent evaluated sessions** table.
 
@@ -82,8 +82,8 @@ When a specific AI system needs attention, determine which metrics are affecting
 
     2.  Select a session name to open the session detail page and begin investigating its traces and spans.
 
-    For example, a session with a red safety score \(below 50%\) warrants immediate investigation. For details on investigating sessions, see [Investigate a low-scoring session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-investigate-session-task.md).
+    For example, a session with a red safety score \(below 50%\) warrants immediate investigation. For details on investigating sessions, see [Investigate a low-scoring session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-investigate-session-task.md).
 
 
-**Parent Topic:**[Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-asset-monitor.md)
+**Parent Topic:**[Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-asset-monitor.md)
 

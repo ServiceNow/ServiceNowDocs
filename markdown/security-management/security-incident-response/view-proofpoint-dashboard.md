@@ -2,7 +2,7 @@
 title: View the Proofpoint Analytics Dashboard
 description: The Proofpoint Analytics Dashboard provides details about VAP users and top clickers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-proofpoint-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/view-proofpoint-dashboard.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

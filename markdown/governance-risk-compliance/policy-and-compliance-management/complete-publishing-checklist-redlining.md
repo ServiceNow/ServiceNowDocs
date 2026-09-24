@@ -2,7 +2,7 @@
 title: Complete publishing checklist and request policy approval
 description: Use the playbook available with Compliance Workspace to complete the publishing checklist before you request approval. If approvals are complete, then the policy is automatically published.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

@@ -2,7 +2,7 @@
 title: Parameters of the Windows connector methods
 description: Learn about the parameters of the Windows connector methods in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/method-parameter-windows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/method-parameter-windows.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Learn about the parameters of the Windows connector methods in RPA Desktop Desig
 
 ## Enter inputs for parameters
 
-To enter inputs, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To enter inputs, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
-**Parent Topic:**[Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/windows-connector.md)
+**Parent Topic:**[Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/windows-connector.md)
 

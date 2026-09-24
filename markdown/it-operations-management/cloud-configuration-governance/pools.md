@@ -2,7 +2,7 @@
 title: Pools and Filters for Cloud Provisioning
 description: A resource pool is a query or script that filters a table. You configure a resource pool to limit the values that are available to users when they request a catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/pools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/pools.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

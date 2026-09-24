@@ -2,7 +2,7 @@
 title: Configure Sidebar Summarization
 description: Configure sidebar summarization to generate summaries of sidebar discussions for quick agent understanding, allowing for faster collaboration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-sidebar-summarization-in-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/configure-sidebar-summarization-in-now-assist.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

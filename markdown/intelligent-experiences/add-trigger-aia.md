@@ -2,7 +2,7 @@
 title: Add a trigger to an AI agent
 description: In the guided setup for an AI agent, add triggers to run the AI agent automatically when certain conditions are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-trigger-aia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-trigger-aia.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
@@ -24,7 +24,7 @@ Adding a trigger is optional. If you want your AI agent to be used only in chats
 
 **Note:** Triggers contain instance-specific information. If you're moving AI agents or agentic workflows between instances using Update Sets, you must set the triggers to inactive before adding them to the update sets and then activate them on the new instance.
 
-If you don't want to add a trigger, skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia.md).
+If you don't want to add a trigger, skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aia.md).
 
 ## Procedure
 
@@ -70,7 +70,7 @@ Active trigger toggle
 
 </td><td>
 
-Only enable the trigger once you’re confident in the execution of your AI agent. Try testing the [AI agent execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md) and [user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-access.md). To review overall trends over many executions, try an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md).
+Only enable the trigger once you’re confident in the execution of your AI agent. Try testing the [AI agent execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-agent.md) and [user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aia-access.md). To review overall trends over many executions, try an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/execute-aia-eval.md).
 
 </td></tr></tbody>
 </table>    \[Omitted image "edit-trigger-2.png"\] Alt text: Define when the trigger occurs section
@@ -121,5 +121,5 @@ You have added triggers to your AI agent to run it automatically under the speci
 
 ## What to do next
 
-Select **Save and continue** to move to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia.md).
+Select **Save and continue** to move to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aia.md).
 

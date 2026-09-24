@@ -2,7 +2,7 @@
 title: Get started with EmployeeWorks Web App
 description: Set up EmployeeWorks Web App by verifying prerequisites, installing plugins, configuring branding, connecting the conversational assistant, and publishing your first announcement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,41 +33,41 @@ EmployeeWorks supports two deployment paths — one with Moveworks and one with 
     -   For Now Assist deployment path, install EmployeeWorks Web App for Now Assist and EmployeeWorks Web App Extended.
     **Note:** EmployeeWorks Web App Extended is an add-on application and requires either EmployeeWorks Web App for Moveworks or EmployeeWorks Web App for Now Assist to be separately downloaded.
 
-2.  [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
+2.  [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
 
-    Set the portal name, URL suffix, logos, favicon, and palette colors. Configure from the **Appearance** module of the **Product Configuration console** or the **admin console**. Optionally, [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md).
+    Set the portal name, URL suffix, logos, favicon, and palette colors. Configure from the **Appearance** module of the **Product Configuration console** or the **admin console**. Optionally, [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md).
 
-3.  [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md).
+3.  [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md).
 
-4.  [Configure the home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-home-page.md) to set the default home page layout and [Configure the default canvas dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-canvas.md) to set the personalized canvas.
+4.  [Configure the home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-home-page.md) to set the default home page layout and [Configure the default canvas dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-canvas.md) to set the personalized canvas.
 
 5.  Configure the org chart and employee profile.
 
-    -   Set the eligible users and the card fields in [Configure the organization chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-org-chart.md).
-    -   Set the field groups and the editable fields in [Configure the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-employee-profile.md).
-6.  [Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md).
+    -   Set the eligible users and the card fields in [Configure the organization chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-org-chart.md).
+    -   Set the field groups and the editable fields in [Configure the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-employee-profile.md).
+6.  [Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md).
 
-7.  [Search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-search-sources.md).
+7.  [Search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-add-search-sources.md).
 
-8.  [Configure notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md) and set the content, the trigger conditions, and the recipients.
+8.  [Configure notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md) and set the content, the trigger conditions, and the recipients.
 
-9.  [Configure the Upcoming Holiday widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.md).
+9.  [Configure the Upcoming Holiday widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.md).
 
-10. Connect the assistant and configure chat branding in [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
+10. Connect the assistant and configure chat branding in [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
 
-11. [Configure browse experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md)
+11. [Configure browse experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md)
 
-12. [Configure knowledge widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-knowledge-widget.md)
+12. [Configure knowledge widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-knowledge-widget.md)
 
-13. [Configure the AI widget builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) and build custom widgets as explained in [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-widget.md).
+13. [Configure the AI widget builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) and build custom widgets as explained in [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-create-widget.md).
 
 14. [Create announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for employees to stay engaged with relevant communications.
 
-15. [Configure the AI widget builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) to set the scope, the role access, and the chat panel and [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-widget.md) to build custom widgets.
+15. [Configure the AI widget builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) to set the scope, the role access, and the chat panel and [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-create-widget.md) to build custom widgets.
 
 16. Roll out to employees and configure analytics.
 
-    Share the portal URL with employees. Track engagement, content performance, and AI assistant quality from [Analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-analytics-reporting.md) and check funnels and events from [Configure analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/es-analytics-events-funnels.md).
+    Share the portal URL with employees. Track engagement, content performance, and AI assistant quality from [Analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-analytics-reporting.md) and check funnels and events from [Configure analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/es-analytics-events-funnels.md).
 
 
 ## Result
@@ -82,5 +82,5 @@ https://<instance-name>.service-now.com/aiux/employeeslate/home
 
 ## What to do next
 
-You can go to [EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-home-page.md).
+You can go to [EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-home-page.md).
 

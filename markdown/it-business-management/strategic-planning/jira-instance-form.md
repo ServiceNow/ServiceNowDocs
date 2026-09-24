@@ -2,7 +2,7 @@
 title: Jira Instance form
 description: Learn about the fields of the Jira Instance form, used to connect Strategic Planning to Jira.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/jira-instance-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/jira-instance-form.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -19,16 +19,16 @@ Learn about the fields of the Jira Instance form, used to connect Strategic Plan
 |Field|Description|
 |-----|-----------|
 |Name|Name of your choice for the Jira instance record.|
-|Connection Alias|Select the connection alias that you created. For more information, see [Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-connection-and-credentials.md).|
+|Connection Alias|Select the connection alias that you created. For more information, see [Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-connection-and-credentials.md).|
 |URL|URL of your Jira instance, Cloud or Server.|
 |State|Connection status of the Jira Instance.|
 |Version|Version of your Jira instance.|
 |Integration Type|Select **Strategic Planning Workspace**.|
 
-**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
+**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
 
 **Related topics**  
 
 
-[Create Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-jira-instance.md)
+[Create Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-jira-instance.md)
 

@@ -2,7 +2,7 @@
 title: Create an incident from an alert with ServiceNow Otto in Express List
 description: Create an incident with a human-readable, AI-generated description from the Express List pane by using AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-incident-now-assist-el.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/create-incident-now-assist-el.html
 release: australia
 product: Event Management
 classification: event-management

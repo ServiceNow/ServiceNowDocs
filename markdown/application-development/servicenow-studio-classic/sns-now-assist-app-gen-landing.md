@@ -2,7 +2,7 @@
 title: App generation
 description: Use the app generation skill available with ServiceNow Otto for Creator to create applications through conversation with generative AI. Describe the app you want to build, and generative AI scaffolds the application so that you can review and modify it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -17,25 +17,25 @@ breadcrumb: [AI tools and files, Use, ServiceNow Studio, Developing your applica
 
 Use the app generation skill available with ServiceNow Otto for Creator to create applications through conversation with generative AI. Describe the app you want to build, and generative AI scaffolds the application so that you can review and modify it.
 
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md).
 
 ## Get started
 
 <table id="now-assist-app-gen-landing-tb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how to create apps through conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how to create apps through conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)
 
 </td></tr><tr><td>
 
-[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Build apps through conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Build apps through conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, roles, and more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, roles, and more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -63,14 +63,14 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which app generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.md)**  
+-   **[Exploring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.md)**  
 App generation enables you to create applications in ServiceNow Studio by describing your business process in a conversation with ServiceNow Otto®.
--   **[Configuring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)**  
+-   **[Configuring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-config-landing.md)**  
 To build applications with app generation, install ServiceNow Otto for Creator and enable the app generation skill in the AI Admin Hub.
--   **[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)**  
+-   **[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)**  
 Use the app generation skill to build an application in ServiceNow Studio by describing your business process in a conversation with ServiceNow Otto®.
--   **[App generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)**  
+-   **[App generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)**  
 Use these reference topics to look up configuration properties, roles, and related details for app generation.
 
-**Parent Topic:**[AI tools and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)
+**Parent Topic:**[AI tools and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)
 

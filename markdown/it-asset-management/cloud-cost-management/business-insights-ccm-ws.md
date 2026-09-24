@@ -2,7 +2,7 @@
 title: Business Insights view
 description: The Business Insights view in the Cloud Cost Management Workspace provides a unified outlook of your cloud and non-cloud costs. This view helps finance, FinOps, and business teams understand the total cost of ownership \(TCO\) and unit economics for applications, departments, and business units.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/business-insights-ccm-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/business-insights-ccm-ws.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -23,7 +23,7 @@ Access the Business Insights view by navigating to **Workspaces** &gt; **Cloud C
 The Business Insights view includes the following dashboards:
 
 -   **Total cost of ownership \(TCO\)**: This dashboard displays cloud and non-cloud costs aggregated by business entity for a time range that you select.
--   **Unit economics**: This dashboard displays the cost, revenue, and margin for a business application per unit of measurement that you define, such as API calls or number of customers. Unit economics data requires you to upload business data, including revenue and unit counts. For more information, see [Upload business data for unit economics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/upload-business-data.md).
+-   **Unit economics**: This dashboard displays the cost, revenue, and margin for a business application per unit of measurement that you define, such as API calls or number of customers. Unit economics data requires you to upload business data, including revenue and unit counts. For more information, see [Upload business data for unit economics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/upload-business-data.md).
 
 ## Total cost of ownership \(TCO\) dashboard
 

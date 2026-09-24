@@ -2,7 +2,7 @@
 title: Transform a field
 description: Transform the contents of field using a set of rules and conditions.Creating a transformation record is the first step in transforming a field.Each related transform record performs a specific transformation type such as adding characters to the beginning of the value or replacing one string for another. You may need to create multiple related transform records to generate a preferred output field value.Verify the transform changes the field value as desired before applying them to existing records in the database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_TransformAField.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_TransformAField.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -101,7 +101,7 @@ Raw field
 
 </td><td>
 
-Select the field to use to display the original input \(non-normalized\) values on a form in which a field value has been normalized. For the selection to appear in the drop-down list, add a custom field to the form for the table selected. For instructions on adding a field for raw data, see [Create a raw field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARawField.md).
+Select the field to use to display the original input \(non-normalized\) values on a form in which a field value has been normalized. For the selection to appear in the drop-down list, add a custom field to the form for the table selected. For instructions on adding a field for raw data, see [Create a raw field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateARawField.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.

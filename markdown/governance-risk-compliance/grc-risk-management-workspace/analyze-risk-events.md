@@ -2,7 +2,7 @@
 title: Analyze a risk event
 description: Analyze user-submitted risk events to determine if the risk event is valid and needs further processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/analyze-risk-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/analyze-risk-events.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -472,5 +472,5 @@ Option to provide work notes for reference. Work notes are not visible to the ri
 3.  To send the risk event for approval, click **Request Approval**.
 
 
-**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

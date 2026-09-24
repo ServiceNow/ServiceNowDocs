@@ -2,7 +2,7 @@
 title: Token
 description: The Token utilities in the RPA Desktop Design Studio retrieve the OKTA token to get access to an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/token-utilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/token-utilities.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,10 +14,10 @@ breadcrumb: [Utilities, Automation components, RPA Desktop Design Studio, Roboti
 
 The Token utilities in the RPA Desktop Design Studio retrieve the OKTA token to get access to an application.
 
--   **[Use the GetTOTP component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-utilities-token-getoktatoken.md)**  
+-   **[Use the GetTOTP component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-utilities-token-getoktatoken.md)**  
 Generate the Time-based One-time Password \(TOTP\) to access multi-factor authentication \(MFA\)-enabled applications in an automation by using the GetTOTP component in the RPA Desktop Design Studio application.
--   **[Properties of the Token components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-token-components.md)**  
+-   **[Properties of the Token components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-token-components.md)**  
 Learn about the properties of the Token components in RPA Desktop Design Studio.
 
-**Parent Topic:**[Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/utilities.md)
+**Parent Topic:**[Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/utilities.md)
 

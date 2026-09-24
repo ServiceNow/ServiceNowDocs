@@ -2,7 +2,7 @@
 title: Select or create user criteria
 description: Opportunity Marketplace user criteria are maintained in the Service Catalog under Catalog Definitions. There are several user criteria records to select from, or you can create your own user criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-user-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-user-criteria.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -20,5 +20,5 @@ User criteria records are contained in the **Opportunity** \[sn\_opp\_market\_op
 
 **Note:** When you create user criteria records from an application, the **Application** field shows the associated app.
 
-**Parent Topic:**[Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md)
+**Parent Topic:**[Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md)
 

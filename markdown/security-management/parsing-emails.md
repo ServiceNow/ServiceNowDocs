@@ -2,7 +2,7 @@
 title: Create email parsers in Security Operations
 description: Email Parsing creates Security Operations records from your email for security, vulnerability, and observables to expedite threat response and remediation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/parsing-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/parsing-emails.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ Email Parsing creates Security Operations records from your email for security, 
 ## Before you begin
 
 -   Set up external detection tools to send emails to a central email address.
--   Set the email address in Security Operations properties. For more information, see [Create Security Operations email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-email-properties.md).
+-   Set the email address in Security Operations properties. For more information, see [Create Security Operations email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-email-properties.md).
 -   Assign a user account to this email address and give that user security access controls to create and update the email event records.
 -   Have a copy of the relevant email from your external detection tool in front of you.
 -   Decide what type of record you want to create, a security incident, vulnerability record, task and so on. This choice determines the table you select.
@@ -40,11 +40,11 @@ Role required: sn\_sec\_cmn.admin
     |Email is from|If filled in, only emails from this address are transformed by this email parser.|
     |Email is to|If filled in, only emails from this address are transformed by this email parser.|
     |Email subject contains|If filled in, only emails where the subject contains this phrase are transformed by this email parser.|
-    |Duplication rule|Governs how to handle duplicate emails for any email this transform handles. For more information, see [Shared data transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/shared-data-transformation.md).|
+    |Duplication rule|Governs how to handle duplicate emails for any email this transform handles. For more information, see [Shared data transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/shared-data-transformation.md).|
     |Order|In what order to consider the transforms. The first matching email transform is used. Typically, you want to set up the most specific email parsers in the lower numbers, with some fallback. Give catchall email parsers higher **Order** numbers so they run if nothing else matches. Default is 100. When everything matches, the most specific email parser \(matches **from**, **to**, and **subject**\) is used.|
     |Destination table|The table where you want to create records.|
     |Active|Whether this transform is active, in use, or not active. If unchecked, no emails are transformed with this code.|
-    |Record Separator|When emails handled by this email parser create multiple records, this field contains the separator between the information for those records. See [Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-parsing.md) for more information.|
+    |Record Separator|When emails handled by this email parser create multiple records, this field contains the separator between the information for those records. See [Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/email-parsing.md) for more information.|
     |Description|Description of this email parser, which tool it works with, the purpose, and so on.|
 
 4.  When you have completed your entries, select and hold \(or right-click\) in the form header and select **Save**.
@@ -133,7 +133,7 @@ Select the location in the email to search. Choices include:-   **At the start o
 -   **Anywhere in the email body**
 -   **In the email subject line**
 -   **Always the static value**
- When you have defined a **Record Separator**, more options \(**Anywhere within the record section** and **At the start of a line within the record section**\) enable you to search only within the current section instead of in the entire email body \(See [Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-parsing.md) for more information\).
+ When you have defined a **Record Separator**, more options \(**Anywhere within the record section** and **At the start of a line within the record section**\) enable you to search only within the current section instead of in the entire email body \(See [Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/email-parsing.md) for more information\).
 
  Information that is in a header or footer, applying to all records, is searched for in the entire email body. The information that differs between records is searched for only within the section.
 
@@ -217,14 +217,14 @@ The default is checked. When checked, the field transform is activated. Clear th
         The new record is used to parse the information in the email into a new record.
 
 
-**Parent Topic:**[Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-parsing.md)
+**Parent Topic:**[Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/email-parsing.md)
 
 **Related topics**  
 
 
-[Create duplication rules in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-duplication-rules.md)
+[Create duplication rules in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-duplication-rules.md)
 
-[Create Security Operations field value transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-field-value-transforms.md)
+[Create Security Operations field value transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-field-value-transforms.md)
 
-[Define Vulnerability Response email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/t_DefineEmailNotifications.md)
+[Define Vulnerability Response email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/t_DefineEmailNotifications.md)
 

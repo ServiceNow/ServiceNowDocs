@@ -2,7 +2,7 @@
 title: Design themes
 description: Design themes are the convergence of structure and styling, making them a critical tool for creating a powerful user interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_DesignThemes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/c\_DesignThemes.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -20,15 +20,15 @@ For a successful project, review the corporate style guide and communicate with 
 
 A theme is a collection of one or more style sheets \(CSS files\) that define a consistent look for a set of pages. In most environments, many pages share a few themes. Use multiple themes within a site to create stylistic differentiators between site areas. You can also use a single theme to create one unified look and feel for the site.
 
--   **[Customize a design theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateADesignTheme.md)**  
+-   **[Customize a design theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateADesignTheme.md)**  
 A theme is a collection of one or more style sheets \(CSS files\) that define a consistent look for a set of pages.
 
-**Parent Topic:**[Style in Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_StyleInContentManagement.md)
+**Parent Topic:**[Style in Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_StyleInContentManagement.md)
 
 **Related topics**  
 
 
-[Define a frame in a style sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_DefineTheFrameInAStyleSheet.md)
+[Define a frame in a style sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_DefineTheFrameInAStyleSheet.md)
 
-[Create a frame UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateANewFrameUIMacro.md)
+[Create a frame UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateANewFrameUIMacro.md)
 

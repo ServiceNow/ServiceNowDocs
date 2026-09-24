@@ -2,7 +2,7 @@
 title: Setup employee communications
 description: Inform and engage your employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-employee-comms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/setup-employee-comms.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,18 +18,18 @@ Inform and engage your employees.
 
 Employee Center Pro provides a robust suite of features to create, publish, and manage employee communications in a variety of content types and delivery channels. Follow these steps to setup employee communications features:
 
-1.  Make Content Publishing features available to content managers and employees: [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
-2.  Set up content translation \(optional\): [Configure Localization Framework for Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-int-localization-framework.md)
+1.  Make Content Publishing features available to content managers and employees: [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
+2.  Set up content translation \(optional\): [Configure Localization Framework for Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-int-localization-framework.md)
 3.  Customize the out-of-the-box widgets \(optional\):
 
-    -   [Modify the Content Experiences widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-edit-cew.md)
-    -   [Modify the Featured News widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/modify-featured-news-widget.md)
-    -   [Modify the News feed widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/modify-news-feed-widget-display.md)
-    To view all the widgets installed with Content Publishing, see the widgets section of [Components installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/installed-with-content-delivery.md).
+    -   [Modify the Content Experiences widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-edit-cew.md)
+    -   [Modify the Featured News widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/modify-featured-news-widget.md)
+    -   [Modify the News feed widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/modify-news-feed-widget-display.md)
+    To view all the widgets installed with Content Publishing, see the widgets section of [Components installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/installed-with-content-delivery.md).
 
     For information on translating custom widgets, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TranslateAClientScriptMessage.md)
 
-    To publish content to a custom widget, you must define the content type and associate it with your custom widget: [Add or modify content type for Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-content-types.md)
+    To publish content to a custom widget, you must define the content type and associate it with your custom widget: [Add or modify content type for Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-content-types.md)
 
 4.  Review the Employee communications features table below and configure the features relevant to your use case.
 
@@ -47,7 +47,7 @@ Used with
 
 </th></tr></thead><tbody><tr><td>
 
-[Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md)
+[Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md)
 
 </td><td>
 
@@ -59,7 +59,7 @@ All employee communications
 
 </td></tr><tr><td>
 
-[Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-templates.md)
+[Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-templates.md)
 
 </td><td>
 
@@ -71,7 +71,7 @@ News articles
 
 </td></tr><tr><td>
 
-[Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
+[Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
 
 </td><td>
 
@@ -83,7 +83,7 @@ News articles
 
 </td></tr><tr><td>
 
-[Video hosting integrations framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/content-providers.md)
+[Video hosting integrations framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/content-providers.md)
 
 </td><td>
 
@@ -95,7 +95,7 @@ Microsites/Rich content
 
 </td></tr><tr><td>
 
-[Reusable components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-re-usable-components.md)
+[Reusable components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-re-usable-components.md)
 
 </td><td>
 
@@ -111,13 +111,13 @@ Microsites/Rich content, News articles and Portal content
 </table>**Related topics**  
 
 
-[Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
+[Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
 
-[Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content.md)
+[Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content.md)
 
-[News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-news-articles.md)
+[News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-news-articles.md)
 
-[Managing content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-governance.md)
+[Managing content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-governance.md)
 
-[Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
+[Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 

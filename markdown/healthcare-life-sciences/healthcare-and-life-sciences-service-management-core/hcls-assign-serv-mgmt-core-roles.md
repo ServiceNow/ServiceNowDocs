@@ -2,7 +2,7 @@
 title: Assign roles for Healthcare and Life Sciences Service Management Core users
 description: Assign roles to control access to features, capabilities, and data in the Healthcare and Life Sciences Service Management Core application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-assign-serv-mgmt-core-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-assign-serv-mgmt-core-roles.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

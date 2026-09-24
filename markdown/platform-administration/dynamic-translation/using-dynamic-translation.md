@@ -2,7 +2,7 @@
 title: Translating with Dynamic Translation
 description: Translate user-generated content live on your instance to streamline communication for your agents and end users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/using-dynamic-translation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation/using-dynamic-translation.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -21,7 +21,7 @@ After you activate the Dynamic Translation plugin \(com.glide.dynamic\_translati
 -   Detect the language of the input text
 -   Translate user-entered text from a source language to a target language
 
-For information on activating this plugin, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/activate-dynamic-translation.md).
+For information on activating this plugin, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/activate-dynamic-translation.md).
 
 ## Default translation service providers for Dynamic Translation
 

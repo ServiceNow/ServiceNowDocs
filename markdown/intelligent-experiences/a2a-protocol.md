@@ -2,7 +2,7 @@
 title: Agent2Agent Protocol
 description: Agent2Agent \(A2A\) is an open standard that enables cross-platform AI agent communication by associating each agent with an Agent Card containing provider information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/a2a-protocol.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/a2a-protocol.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-28"
@@ -20,7 +20,7 @@ The standard relies on every AI agent having an Agent Card associated with it. T
 
 An AI agent's Agent Card uses standardized JSON to help different providers understand its capabilities. The Agent Card is accessed by a specific type of endpoint from a provider's server. Execution plans are communicated through an execution endpoint so that both the provider's server and the ServiceNow AI Platform can track what the external AI agent is doing.
 
-See [Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a2a-agent-new.md) for instructions for using this protocol to create an AI agent.
+See [Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a2a-agent-new.md) for instructions for using this protocol to create an AI agent.
 
 ## Configuring A2A authentication
 

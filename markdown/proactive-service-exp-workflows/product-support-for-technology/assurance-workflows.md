@@ -2,7 +2,7 @@
 title: Product Support for Technology
 description: ServiceNow Product Support for Technology provides telecom and technology service providers to deliver end-to-end support while understanding customer impact, and offering transparent communication to all parties involved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -19,15 +19,15 @@ ServiceNow® Product Support for Technology provides telecom and technology serv
 
 <table id="table_zzm_tc2_kbc" class="nav-card"><tbody><tr><td>
 
-[Proactive Service Experience Workflow\[Omitted image "ind-bus.svg"\] Alt text:Deliver end-to-end workflows to resolve network related incidents, and proactively notify impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
+[Proactive Service Experience Workflow\[Omitted image "ind-bus.svg"\] Alt text:Deliver end-to-end workflows to resolve network related incidents, and proactively notify impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
 
 </td><td>
 
-[Technology Product Support Case\[Omitted image "rtw-work-from-home.svg"\] Alt text:Resolve the customer issues faster using guided, step‑by‑step playbooks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tpsc-landing-page.md)
+[Technology Product Support Case\[Omitted image "rtw-work-from-home.svg"\] Alt text:Resolve the customer issues faster using guided, step‑by‑step playbooks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tpsc-landing-page.md)
 
 </td><td>
 
-[API Notification Management\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Notify third‑party systems of proactive or reactive cases in real time.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/api-notif-landing-page.md)
+[API Notification Management\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Notify third‑party systems of proactive or reactive cases in real time.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/api-notif-landing-page.md)
 
 </td></tr></tbody>
 </table>## Additional resources

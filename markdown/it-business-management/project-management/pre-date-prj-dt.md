@@ -2,7 +2,7 @@
 title: Pre-date a project task
 description: Move the planned start date of a task prior to the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/pre-date-prj-dt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/pre-date-prj-dt.html
 release: australia
 product: Project Management
 classification: project-management
@@ -70,10 +70,10 @@ Steps
 </table>4.  In the Move date dialog box, select **OK**.
 
 
-**Parent Topic:**[Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-planned-start-date-of-project.md)
+**Parent Topic:**[Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/change-planned-start-date-of-project.md)
 
 **Related topics**  
 
 
-[Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-planned-start-date-of-project.md)
+[Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/change-planned-start-date-of-project.md)
 

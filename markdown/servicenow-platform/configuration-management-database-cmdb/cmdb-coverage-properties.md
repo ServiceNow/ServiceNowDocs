@@ -2,7 +2,7 @@
 title: CMDB Coverage properties
 description: CMDB Coverage properties control the behavior of the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-properties.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -64,5 +64,5 @@ To populate data in the Discovery schedule gaps to allocated IP \[sn\_cmdb\_ip\_
 -   Type: true \| false
 -   Default value: `false`
 
-**Parent Topic:**[CMDB Coverage reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-reference.md)
+**Parent Topic:**[CMDB Coverage reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-reference.md)
 

@@ -2,7 +2,7 @@
 title: Executive journey view dashboard
 description: Executive-focused dashboard with reports containing information such as the number of employees completing their journeys, SLA breaches, average days to complete journeys, and other metrics executives would be interested in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/executive-jny-view-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/executive-jny-view-dashboard.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -255,5 +255,5 @@ Choice
 Displays tasks based on the start date of the employee.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-report-dashboards.md)
+</table>**Parent Topic:**[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-report-dashboards.md)
 

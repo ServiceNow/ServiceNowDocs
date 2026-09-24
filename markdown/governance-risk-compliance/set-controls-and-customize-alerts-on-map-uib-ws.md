@@ -2,7 +2,7 @@
 title: Set controls to customize the alerts
 description: Set controls in the Crisis map interface in BCM UIB Workspace. You can then customize the alerts for assets, locations, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-controls-and-customize-alerts-on-map-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-controls-and-customize-alerts-on-map-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: sn\_bcm.admin or sn\_bcm.program\_manager
 6.  Clear the map of all the search results with the **Reset** icon.
 
 
-**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-collective-tasks.md)
+**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/crisis-map-collective-tasks.md)
 

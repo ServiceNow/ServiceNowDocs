@@ -2,7 +2,7 @@
 title: Household form
 description: Service Model Foundation uses the household form to store details about a consumer household, including its members, their relationships, and any cases, entitlements, or contracts associated with them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/data-model-household-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/data-model-household-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -156,5 +156,5 @@ Cases that have been created for this household and the members of this househol
 </table>**Related topics**  
 
 
-[Create or update a household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-consumer-household.md)
+[Create or update a household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-consumer-household.md)
 

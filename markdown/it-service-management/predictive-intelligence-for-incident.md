@@ -2,7 +2,7 @@
 title: Predictive Intelligence for Incident Management
 description: Use your instance records to build specific solutions for Incident Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/predictive-intelligence-for-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/predictive-intelligence-for-incident.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -224,5 +224,5 @@ If your instance is running on the Kingston release and you are upgrading to the
 
 You can manage prediction drift by retraining, modifying, or creating new solutions to reflect changes in your business conditions. Test and modify your business rule over time to ensure it works as desired across multiple consumption points and user Personas.
 
-**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/machine-learning-itsm.md)
+**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/machine-learning-itsm.md)
 

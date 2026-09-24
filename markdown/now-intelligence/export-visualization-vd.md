@@ -2,7 +2,7 @@
 title: Export a data visualization from the Visualization Designer
 description: Export individual data visualizations to various formats and sizes. Download the exports or share them over email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/export-visualization-vd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/export-visualization-vd.html
 release: australia
 topic_type: task
 last_updated: "2026-03-25"
@@ -35,7 +35,7 @@ Data visualizations exported to PowerPoint include the title and the description
 
 **Note:**
 
-If you have any ServiceNow Otto applications installed, you can probably export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md).
+If you have any ServiceNow Otto applications installed, you can probably export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-db-dv-now-assist-panel.md).
 
 ## Procedure
 
@@ -63,7 +63,7 @@ File type
 
 </td><td>
 
-Export data visualizations in one of their supported formats. \(See [Supported export formats for different data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-visualization-vd.md).\) Select **Embedded PNG** or **Embedded LIST** to embed the exported file in the email body instead of sending it as an attached file or ZIP. You can edit the email around the image.
+Export data visualizations in one of their supported formats. \(See [Supported export formats for different data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).\) Select **Embedded PNG** or **Embedded LIST** to embed the exported file in the email body instead of sending it as an attached file or ZIP. You can edit the email around the image.
 
 </td></tr><tr><td>
 
@@ -90,5 +90,5 @@ Choose Portrait or Landscape. Not available when exporting to Microsoft PowerPoi
         **Note:** To send email to persons who are not on your instance, make sure outbound email is configured. See [Outbound Email Configuration](https://developer.servicenow.com/dev.do#!/learn/courses/xanadu/app_store_learnv2_automatingapps_xanadu_automating_application_logic/app_store_learnv2_automatingapps_xanadu_notifications/app_store_learnv2_automatingapps_xanadu_outbound_email_configuration) in the Developer Site.
 
 
-**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dv-tasks.md)
 

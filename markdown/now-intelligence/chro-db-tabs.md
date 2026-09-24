@@ -2,7 +2,7 @@
 title: Chief Human Resources Officer Dashboard tabs
 description: Organizing insights into these five pillars promotes CHRO focus on both operational stability and long-term innovation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/chro-db-tabs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/chro-db-tabs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

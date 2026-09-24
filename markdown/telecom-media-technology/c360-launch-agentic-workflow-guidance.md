@@ -2,7 +2,7 @@
 title: Launch agentic workflow guidance
 description: Launch agentic workflow guidance is a configuration record that determines which agentic workflow runs when a user selects it from the Recommended Actions panel. It also defines what context data is passed to the workflow during execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-launch-agentic-workflow-guidance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-launch-agentic-workflow-guidance.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-28"
@@ -29,10 +29,10 @@ You can map guidance input in two ways, depending on how the workflow is trigger
 
 For more information about mapping guidance inputs, see [Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md).
 
-**Parent Topic:**[Recommendations panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-recommendations.md)
+**Parent Topic:**[Recommendations panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-recommendations.md)
 
 **Related topics**  
 
 
-[Recommendations panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-recommendations.md)
+[Recommendations panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-recommendations.md)
 

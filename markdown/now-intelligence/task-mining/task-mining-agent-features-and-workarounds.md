@@ -2,7 +2,7 @@
 title: Task Mining agent
 description: The Task Mining agent is a service installed on a user's workstation that captures workstation logs for active windows only. Task Mining agent user-initiated recording supports mouse actions, hotkeys, and authentication integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/task-mining-agent-features-and-workarounds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/task-mining-agent-features-and-workarounds.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -34,14 +34,14 @@ This table describes these limitations and provides practical workarounds.
 |Duplicate actions aren't automatically removed|Review recordings and filter duplicate actions manually|
 |Trackpad gesture-based scrolling is not detected|Use a traditional scroll wheel or keyboard navigation instead|
 
-**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)
+**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/reference-task-mining.md)
 
 **Related topics**  
 
 
-[Install the Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/install-agent.md)
+[Install the Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/install-agent.md)
 
-[Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md)
+[Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/mine-data.md)
 
-[Identify task improvement actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/identify-improvement-opportunities.md)
+[Identify task improvement actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/identify-improvement-opportunities.md)
 

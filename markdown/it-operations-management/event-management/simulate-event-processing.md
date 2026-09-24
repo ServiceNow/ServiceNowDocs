@@ -2,7 +2,7 @@
 title: Simulate event processing
 description: You can simulate event processing logic on events and display the resulting alert. This helps you understand which rules are executed and how event fields change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/simulate-event-processing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/simulate-event-processing.html
 release: australia
 product: Event Management
 classification: event-management
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
 
 ## Procedure
 
@@ -37,5 +37,5 @@ Role required: evt\_mgmt\_admin
 5.  View which event rules and event field mapping rules were applied and the event field values by selecting the **Activities** tab.
 
 
-**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-event-rules.md)
+**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-event-rules.md)
 

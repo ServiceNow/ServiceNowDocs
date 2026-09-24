@@ -2,7 +2,7 @@
 title: Copy Attachment action
 description: Copies an attachment from the Attachments \[sys\_attachment\] table to a target record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/copy-attachment-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/copy-attachment-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -28,13 +28,13 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Data type: **Record**
 
-    Attachment record containing the attachment you want to copy. You can either manually select a record from the Attachment \[sys\_attachment\] table or look up the attachment record. You can use the [Look Up Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-attachment-flow-designer.md) to provide one or more Sys ID values of attachments with a given file name in a specific source record. If you use the Look Up Attachment action, you must also use a [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) to convert the Sys ID value returned by the Look Up Attachment action into a usable record data pill. See the example section for an illustration of converting the Sys ID output of the Look Up Attachment action into a record data pill.
+    Attachment record containing the attachment you want to copy. You can either manually select a record from the Attachment \[sys\_attachment\] table or look up the attachment record. You can use the [Look Up Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-attachment-flow-designer.md) to provide one or more Sys ID values of attachments with a given file name in a specific source record. If you use the Look Up Attachment action, you must also use a [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-record-flow-designer.md) to convert the Sys ID value returned by the Look Up Attachment action into a usable record data pill. See the example section for an illustration of converting the Sys ID output of the Look Up Attachment action into a record data pill.
 
 -   **Target Record**
 
     Data type: **Record**
 
-    Record where you want to add a copy of the attachment. You can use the [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) to find an appropriate target record.
+    Record where you want to add a copy of the attachment. You can use the [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-record-flow-designer.md) to find an appropriate target record.
 
 -   **Table**
 
@@ -65,5 +65,5 @@ The execution details for flow step 3 show that the Look Up Record action has fo
 
 The execution details for flow step 4 show that both input values use the output data pills of Look Up Record actions. The Source Attachment Record input uses the data pill from flow step 3, and its runtime value is a specific Attachment record. The Target Record input uses the data pill from flow step 2, and its runtime value is a specific problem record.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

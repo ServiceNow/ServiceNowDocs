@@ -2,7 +2,7 @@
 title: Disable user presence
 description: You can disable user presence globally by enabling a system property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_DisableUserPresence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_DisableUserPresence.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Enabling the property turns off all user presence features.
 3.  Set the **Value** to **true**.
 
 
-**Parent Topic:**[User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPresence.md)
+**Parent Topic:**[User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UserPresence.md)
 

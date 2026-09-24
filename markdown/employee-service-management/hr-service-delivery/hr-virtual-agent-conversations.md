@@ -2,7 +2,7 @@
 title: Virtual Agent for HR Service Delivery
 description: HR Service Delivery and Virtual Agent provide an automated chat with an employee requesting HR services. You can program Virtual Agent to understand the intent of an employee to handle repeatable requests.Activate Virtual Agent for HR Service Delivery to provide user assistance through a conversational messaging interface. You can also activate Virtual Agent for HR Service Delivery with ServiceNow Natural Language Understanding \(NLU\).Configuring Virtual Agent or Virtual Agent with NLU for HR Service Delivery requires multiple steps.Define a custom HR Service Delivery greeting experience for a specific context in which your users run Virtual Agent. Configure your greeting experience to initiate the virtual agent automatically or immediately transfer to a live agent.HR Service Delivery Virtual Agent provides pre-built patterns that enable you to track whether Virtual Agent conversations helped the end user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -132,7 +132,7 @@ In the Topic Recommendations page, under Get new recommendations, select **HR Ca
 -   To add a recommended topic to the Virtual Agent, you must be present in the HR Service Delivery Virtual Agent scope.
 -   To get Topic Recommendations, make sure there are a minimum of 10,000 records and a maximum of 300,000 records in the HR Cases table.
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 
 ## Activate Virtual Agent for HR Service Delivery
 
@@ -161,7 +161,7 @@ If you want to activate Virtual Agent also with NLU, then activate the following
 
 **Note:** The HR Service Delivery NLU Models in the Dutch, Chinese and Brazilian Portuguese languages do not support entity extraction \(intent matching and entity recognition\).
 
-When an employee opens an HR case using Virtual Agent for HR Service Delivery, the **Source** field on the HR case is **Virtual Agent**. For more information, see [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md).
+When an employee opens an HR case using Virtual Agent for HR Service Delivery, the **Source** field on the HR case is **Virtual Agent**. For more information, see [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md).
 
 ### Procedure
 
@@ -200,7 +200,7 @@ Before existing Virtual Agent topics can use NLU, you must republish them.
 
 **Note:** By default, the base system provides topics as inactive and unpublished.
 
-If your company uses a custom service portal and ticket page, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md).
+If your company uses a custom service portal and ticket page, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md).
 
 To view, duplicate, preview, or publish HR topics in the Virtual Agent Designer:
 

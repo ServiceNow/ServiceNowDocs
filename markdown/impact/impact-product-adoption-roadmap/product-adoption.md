@@ -2,7 +2,7 @@
 title: Product adoption
 description: View your capabilities, product adoption roadmaps, and subscriptions for your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/product-adoption.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-product-adoption-roadmap/product-adoption.html
 release: australia
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
@@ -18,13 +18,13 @@ View your capabilities, product adoption roadmaps, and subscriptions for your Se
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Entitlements and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/capabilities-map.md)
+[Entitlements and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-product-adoption-roadmap/capabilities-map.md)
 
  \[Omitted image "bus-extend-visability.svg"\] Alt text: View the full landscape of your licensed ServiceNow products and the status of their utilization.
 
 </td><td align="center">
 
-[Build implementation plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/impact-par.md)
+[Build implementation plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-product-adoption-roadmap/impact-par.md)
 
  \[Omitted image "bus-workflow.svg"\] Alt text:
 
@@ -32,7 +32,7 @@ View your capabilities, product adoption roadmaps, and subscriptions for your Se
 
 </td><td>
 
-[Subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/subscriptions.md)
+[Subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/subscriptions.md)
 
  \[Omitted image "bus-business-management.svg"\] Alt text:
 

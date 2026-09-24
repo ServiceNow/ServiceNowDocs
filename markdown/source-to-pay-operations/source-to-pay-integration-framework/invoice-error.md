@@ -2,7 +2,7 @@
 title: Invoice error staging table
 description: Field descriptions and data types for the Invoice error \[sn\_spend\_intg\_import\_error\] staging table used to capture invoice integration error data before transfer to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/invoice-error.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/invoice-error.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

@@ -2,7 +2,7 @@
 title: Install the ServiceNow Otto for IT Operations Management \(ITOM\) application
 description: Install the ServiceNow Otto for IT Operations Management \(ITOM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/install-now-assist-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/install-now-assist-itom.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ Install the ServiceNow Otto for IT Operations Management \(ITOM\) application.
 
 ## Before you begin
 
-Install the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store. See [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-sow-itom-apps.md) for more information.
+Install the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store. See [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-sow-itom-apps.md) for more information.
 
 Role required: admin
 
@@ -45,5 +45,5 @@ Install ServiceNow Otto for IT Operations Management \(ITOM\) plugin to enable g
 **Related topics**  
 
 
-[View an alert analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-summary-now-assist-express-list.md)
+[View an alert analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-summary-now-assist-express-list.md)
 

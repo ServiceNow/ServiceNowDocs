@@ -2,7 +2,7 @@
 title: Turn on theme creation workflow for use in the ServiceNow Otto panel
 description: Turn on the theme creation workflow to generate themes using the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/turn-on-theme-creation-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/turn-on-theme-creation-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Turn on the theme creation workflow to generate themes using the ServiceNow Otto
 
 ## Before you begin
 
-The ServiceNow Otto for Creator application must be installed. See .
+The ServiceNow Otto for Creator application must be installed. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
 
 The ServiceNow Otto® panel must be turned on. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
@@ -49,7 +49,7 @@ The theme creation workflow enables AI-powered theme generation in the ServiceNo
 
 ## What to do next
 
-[Create a theme using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-theme-now-assist.md).
+[Create a theme using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-theme-now-assist.md).
 
-**Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)
+**Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/theme-creation-with-ai.md)
 

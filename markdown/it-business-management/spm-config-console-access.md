@@ -2,7 +2,7 @@
 title: Access ServiceNow Otto for Setup \(SPM\)
 description: Use Open ServiceNow Otto for Setup from the Admin Home page to start setting up Strategic Portfolio Management \(SPM\) applications for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/spm-config-console-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/spm-config-console-access.html
 release: australia
 topic_type: task
 last_updated: "2026-05-25"
@@ -36,6 +36,6 @@ Role required: admin
 
 5.  Complete the tasks for each module in the setup.
 
-    For a complete listing of modules and the per-application setup task each item links to, see [Modules in ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-modules.md).
+    For a complete listing of modules and the per-application setup task each item links to, see [Modules in ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/spm-config-console-modules.md).
 
 

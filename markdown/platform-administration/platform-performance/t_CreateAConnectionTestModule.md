@@ -2,7 +2,7 @@
 title: Add a module to test connection speed
 description: A connection test can indicate the connection speed between your computer and your instance. A connection speed test \(/connection\_test.do\) is available as a UI page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/t\_CreateAConnectionTestModule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/platform-performance/t\_CreateAConnectionTestModule.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -61,5 +61,5 @@ Select and hold \(or right-click\) an application menu, such as **System Diagnos
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Resolving platform performance issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/resolving-plat-performance-issues.md)
+**Parent Topic:**[Resolving platform performance issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/resolving-plat-performance-issues.md)
 

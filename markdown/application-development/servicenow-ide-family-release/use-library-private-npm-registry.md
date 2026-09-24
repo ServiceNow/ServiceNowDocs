@@ -2,7 +2,7 @@
 title: Install an npm package from a private registry with the ServiceNow IDE
 description: Install Node Package Manager \(npm\) packages from a private registry as dependencies in your application to use them as third-party libraries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/use-library-private-npm-registry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-ide-family-release/use-library-private-npm-registry.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -174,7 +174,7 @@ In the following example, a user configured access to a private registry using b
 
 ## What to do next
 
-Use the packages that you installed as third-party libraries in your application. For more information, see [Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md).
+Use the packages that you installed as third-party libraries in your application. For more information, see [Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md).
 
-**Parent Topic:**[Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md)
+**Parent Topic:**[Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md)
 

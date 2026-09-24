@@ -2,7 +2,7 @@
 title: Talent Feedback
 description: Talent Feedback is a new plugin available in Yokohama release. Skill Feedback is one of the features of Talent Feedback. Skill Feedback allows managers to request feedback on employee skills from the employee’s collaborators,
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/talent-feedback-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-feedback/talent-feedback-landing.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback
@@ -20,19 +20,19 @@ Talent Feedback is a new plugin available in Yokohama release. Skill Feedback is
 
 <table id="table_xmr_b2b_y2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/exploring-talent-feedback.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/exploring-talent-feedback.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the Talent feedback plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/configuring-talent-feedback.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the Talent feedback plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/configuring-talent-feedback.md)
 
 </td></tr><tr><td>
 
-[Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/using-talent-feedback.md)
+[Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/using-talent-feedback.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Other information about Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/talent-feedback-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Other information about Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/talent-feedback-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

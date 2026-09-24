@@ -2,7 +2,7 @@
 title: Enhanced Requests Experience on Now Mobile
 description: You can get the Enhanced Requests Experience on the Now Mobile app, bringing the full request management capabilities from the Employee Center portal to mobile. Employees can view, search, filter, and manage their requests on the go.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/enhanced-req-exp-ec-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/enhanced-req-exp-ec-mobile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +18,7 @@ You can get the Enhanced Requests Experience on the Now Mobile app, bringing the
 
 You can directly view your Enhanced requests experience from the Now Mobile homepage. Under **My items**, select **Requests**.
 
-**Important:** To get the Enhanced Requests Experience on the Now Mobile app, you must opt-in for the setup. For more information, refer to [Opt in to the enhanced Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/opt-in-emre.md).
+**Important:** To get the Enhanced Requests Experience on the Now Mobile app, you must opt-in for the setup. For more information, refer to [Opt in to the enhanced Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/opt-in-emre.md).
 
 ## Requests
 
@@ -64,10 +64,10 @@ The Enhanced requests experience page gives you a consolidated view of all your 
     -   Priority or urgency
     -   Department and Requested for fields
 
-**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
+**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
 
 **Related topics**  
 
 
-[Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/my-requests-update-intro.md)
+[Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/my-requests-update-intro.md)
 

@@ -2,7 +2,7 @@
 title: Domain separation and Data Classification
 description: Domain separation is supported for Data Classification . Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-classification/domain-separation-data-classification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-classification/domain-separation-data-classification.html
 release: australia
 product: Data Classification
 classification: data-classification
@@ -24,11 +24,11 @@ Domain separation is supported for Data Classification. Domain separation enable
 
 Sample use case: Tenant-customers of a shared environment must be able to modify the impact, urgency, or priority matrix to set priority within their domain.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/domain-separated-apps.md).
 
 ## How domain separation works in Data Classification
 
-For domain separation, the application uses process separation for the Data Classification \[sys\_data\_classification\] table. For the Dictionary-Data Class \[m2m\_dictionary\_dataclass\] table, it uses data separation. For learn more about data and process separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md).
+For domain separation, the application uses process separation for the Data Classification \[sys\_data\_classification\] table. For the Dictionary-Data Class \[m2m\_dictionary\_dataclass\] table, it uses data separation. For learn more about data and process separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-what-is-domain-separation.md).
 
 **Related topics**  
 

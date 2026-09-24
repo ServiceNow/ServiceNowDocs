@@ -2,7 +2,7 @@
 title: Install a MID Server on Linux
 description: Install MID Servers with the MID Server installer and verify it is active. The package includes an installer that automatically configures JRE to run in the environment. The MID Server can use an existing JRE rather than the provided JRE. Uninstall the MID Server to redeploy it.Silently installing the MID Server uses predefined parameters and requires no user input after it is initiated. You can use silent installation on several machines at once to quickly set up a network and to ensure all MID Servers have the same installation settings.Run MID Servers as non-root user on a Linux machine to improve security. Multiple MID Server can be installed as services so they can start by themselves after system reboots.You can choose to use an existing JRE for your MID Server rather than the OpenJDK provided with the MID Server installer. The MID Server runs as a stand-alone service. You can remove a stand-alone MID Server service to accommodate such tasks as redeploying the MID Server to another host machine or changing the unique name of a MID Server when deploying multiple MID Servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_InstallAMIDServerOnLinux.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/t\_InstallAMIDServerOnLinux.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -18,7 +18,7 @@ Install MID Servers with the MID Server installer and verify it is active. The p
 
 ## Before you begin
 
-Verify that the host computer satisfies the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
+Verify that the host computer satisfies the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 
 Role required: admin, mid\_server
 
@@ -126,7 +126,7 @@ Testing showed that the MID Server works as expected with Oracle Java 11 version
 
     -   **MID-Server Username**
 
-        Enter the user name of [the MID Server user that you already created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md). The MID Server user must have the mid\_server role.
+        Enter the user name of [the MID Server user that you already created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SetupMIDServerRole.md). The MID Server user must have the mid\_server role.
 
     -   **MID-Server Password**
 
@@ -158,7 +158,7 @@ Testing showed that the MID Server works as expected with Oracle Java 11 version
 
         If the web proxy requires a password, set this parameter to define that password.
 
-    The MID Server can bypass proxy servers whose DNS/IP address is listed in the configuration parameter **mid.cloud.discovery.proxy.exclusion.list**. See [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
+    The MID Server can bypass proxy servers whose DNS/IP address is listed in the configuration parameter **mid.cloud.discovery.proxy.exclusion.list**. See [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
 
     To run a MID Server as a daemon service, the following properties are also required.
 
@@ -272,7 +272,7 @@ Run MID Servers as non-root user on a Linux machine to improve security. Multipl
 
 Role required: root
 
-This process is only applicable if you installed the MID Server manually using the ZIP file. If you installed the MID Server with the procedure in [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md), then the MID Server is already running as a non-root user.
+This process is only applicable if you installed the MID Server manually using the ZIP file. If you installed the MID Server with the procedure in [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md), then the MID Server is already running as a non-root user.
 
 Supported versions for this procedure are Linux Red Hat 6 or newer, Ubuntu 1404 or newer, and CentOS 6 or newer.
 
@@ -311,7 +311,7 @@ Supported versions for this procedure are Linux Red Hat 6 or newer, Ubuntu 1404 
 
 ### What to do next
 
-For more information about managing the allow list and file permission enforcement, see [File permission enforcement for Windows MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-non-admin-permission.md). Running a Linux MID Server with a non-root account may result in issues with PolicyKit in some systems. See [PolicyKit issues with Linux MID Servers using non-root accounts](https://support.servicenow.com/kb_view.do?sysparm_article=KB0815542) for more information.
+For more information about managing the allow list and file permission enforcement, see [File permission enforcement for Windows MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-non-admin-permission.md). Running a Linux MID Server with a non-root account may result in issues with PolicyKit in some systems. See [PolicyKit issues with Linux MID Servers using non-root accounts](https://support.servicenow.com/kb_view.do?sysparm_article=KB0815542) for more information.
 
 ## Configure a Linux MID Server to use an existing JRE
 
@@ -319,7 +319,7 @@ You can choose to use an existing JRE for your MID Server rather than the OpenJD
 
 ### Before you begin
 
-Ensure that your JRE version is supported. See [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) for details.
+Ensure that your JRE version is supported. See [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) for details.
 
 Role required: admin
 
@@ -363,5 +363,5 @@ The MID Server service is uninstalled.
 
 ### What to do next
 
-[Validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md) the MID Server to prepare it for use.
+[Validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ValidateAMIDServer.md) the MID Server to prepare it for use.
 

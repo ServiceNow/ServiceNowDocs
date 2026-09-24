@@ -2,11 +2,11 @@
 title: Combined ITSM Employee Slate for Moveworks release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for ITSM Employee Slate for Moveworks from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-itsmemployeeslateformoveworks-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-itsmemployeeslateformoveworks-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 3
+last_updated: "2026-09-24"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,16 @@ Australia
 
 </td><td>
 
--   **[Viewing outages and maintenance](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
+-   **[Tech Lounge services](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
+
+Join a walk-in queue or book an appointment using the Tech Lounge page.
+
+-   **[Conversational assisted booking](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
+
+Complete a tech lounge appointment booking or reach the walk-up experience by making a request to Otto in natural language.
+
+
+ -   **[Viewing outages and maintenance](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
 
 View active outages and upcoming scheduled maintenance directly on the ITSM Employee Slate for Moveworks home page. Active outages appear first with a red accent, followed by scheduled maintenance with an amber accent. When no issues are active, the card displays an "All systems operational" state.
 
@@ -206,6 +215,8 @@ Australia
 
 Enable ITSM Employee Slate for Moveworks by setting up Moveworks for Employee Slate and enabling the ITSM Employee Slate for Moveworks plugin. For more information, see [\[Placeholder link text to key configure-employeeworks-itsm\]](https://www.servicenow.com/docs/access?context=configure-employeeworks-itsm&family=australia&ft:locale=en-US).
 
+
+**Important:** ITSM Employee Slate for Moveworks is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -360,5 +371,5 @@ Australia
  See [ITSM Employee Slate for Moveworks](https://www.servicenow.com/docs/access?context=employee-works-itsm&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

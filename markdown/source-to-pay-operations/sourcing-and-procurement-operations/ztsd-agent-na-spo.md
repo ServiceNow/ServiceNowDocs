@@ -2,7 +2,7 @@
 title: AI L1 SPO Service Desk Specialist
 description: The AI L1 SPO Service Desk Specialist processes general inquiry procurement cases by searching knowledge resources and delivering resolutions with high confidence, reducing manual case handling.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/ztsd-agent-na-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/ztsd-agent-na-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -47,16 +47,16 @@ The outcome of the resolution process depends on the requester's response and Ad
 
 -   Accepted by requester: The case closes and is marked as **Closed Completed**.
 -   Confidence score below 3 with Advanced Work Assignment active: The case state changes to **Draft** and routes to the Advanced Work Assignment queue for fulfiller review.
--   Rejected with Advanced Work Assignment active: The case state changes to **Draft** and moves to the Advanced Work Assignment queue. For more information on Advanced Work Assignment, see [Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo.md).
+-   Rejected with Advanced Work Assignment active: The case state changes to **Draft** and moves to the Advanced Work Assignment queue. For more information on Advanced Work Assignment, see [Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo.md).
 -   Rejected with Advanced Work Assignment inactive: The case state changes to **Draft**, and is unassigned from the agent.
 -   No response within 72 hours: A scheduled job closes the case as **Closed Completed**.
 
--   **[View AI L1 SPO Service Desk Specialist progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-ztsd-na-spo.md)**  
+-   **[View AI L1 SPO Service Desk Specialist progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-ztsd-na-spo.md)**  
 Track the steps the AI L1 SPO Service Desk Specialist performs when processing a procurement case.
--   **[Edit Knowledge Graph tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/edit-kg-tags-spo.md)**  
+-   **[Edit Knowledge Graph tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/edit-kg-tags-spo.md)**  
 Customize the instructions that the AI L1 SPO Service Desk Specialist uses to retrieve information by editing FSC Common Knowledge Graph tags.
 
-**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Filter indicator scores by breakdown elements in KPI Details
 description: Apply breakdowns and elements to filter classic and Data snapshots-enabled indicators. The filter controls are in the KPI Details sidebar.When you filter an indicator by multiple breakdown elements, you can either view a single aggregate score of all elements or a separate score for each element. However, not all indicators support an aggregate score of multiple elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/apply-brkdowns-element-kpi-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/apply-brkdowns-element-kpi-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,11 +22,11 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 You can select as many breakdowns as the indicator supports.
 
-For classic indicators, you can select up to two levels of breakdown, and you can select multiple elements on the first breakdown. [Breakdown matrix collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-breakdown-mapping.md) must be enabled on the indicator to have more than one breakdown. For classic formula indicators, breakdown matrix collection must be enabled on the contributing automated indicators.
+For classic indicators, you can select up to two levels of breakdown, and you can select multiple elements on the first breakdown. [Breakdown matrix collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md) must be enabled on the indicator to have more than one breakdown. For classic formula indicators, breakdown matrix collection must be enabled on the contributing automated indicators.
 
 For indicators with Data snapshots enabled, you can select any number of breakdowns and elements.
 
-Filtering native Data snapshots indicators is different enough that it is described in a separate topic. For more information, see [Filter native Data snapshots indicator scores in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-data-snapshots-indicator-scores.md).
+Filtering native Data snapshots indicators is different enough that it is described in a separate topic. For more information, see [Filter native Data snapshots indicator scores in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/filter-data-snapshots-indicator-scores.md).
 
 **Important:** Filter conditions do not persist between KPI Details page refreshes.
 
@@ -72,7 +72,7 @@ Filtering native Data snapshots indicators is different enough that it is descri
 
 7.  If you have selected multiple elements, select how to display the elements.
 
-    By default, the aggregate score is displayed. Select **Display as separate time series** to show each element separately. You can make a selection only in cases where both aggregate and separate score displays are possible. For more information, see [Aggregate score of multiple elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/apply-brkdowns-element-kpi-details.md).
+    By default, the aggregate score is displayed. Select **Display as separate time series** to show each element separately. You can make a selection only in cases where both aggregate and separate score displays are possible. For more information, see [Aggregate score of multiple elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/apply-brkdowns-element-kpi-details.md).
 
 8.  Click **Apply**
 
@@ -95,7 +95,7 @@ The following indicators support an aggregate score of multiple elements:
 
 -   Manual indicators
 -   External indicators that do not use `SQL AVG()` or `SQL COUNT(DISTINCT...)` in their SQL statement
--   Formula indicators that have aggregate element views enabled on their indicator records. For more information, see the entry on the **Allow aggregation of multiple breakdown element scores** field on the Other tab in [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
+-   Formula indicators that have aggregate element views enabled on their indicator records. For more information, see the entry on the **Allow aggregation of multiple breakdown element scores** field on the Other tab in [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
 
 **Note:** When you navigate to KPI Details from a Performance Analytics widget on a Workspace Experience, and this widget uses an element filter that returns more than one element, only the first element is applied.
 
@@ -121,5 +121,5 @@ The following formula indicator does not have aggregate views of multiple elemen
 **Related topics**  
 
 
-[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
+[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
 

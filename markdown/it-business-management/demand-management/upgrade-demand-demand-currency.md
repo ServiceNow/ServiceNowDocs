@@ -2,7 +2,7 @@
 title: Upgrade existing demands
 description: Execute scheduled jobs to upgrade your existing active and inactive demands, respectively, after activating the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/upgrade-demand-demand-currency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/upgrade-demand-demand-currency.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -64,5 +64,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-demand.md)
+**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/multicurrency-demand.md)
 

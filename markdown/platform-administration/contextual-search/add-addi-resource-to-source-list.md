@@ -2,7 +2,7 @@
 title: Add additional resources to the source selector of a form
 description: Add additional resources when you want the user to search beyond Knowledge and Service Catalog search resources. For example, add additional resources for Open Incidents, Resolved Incidents, or Similar Open Incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/add-addi-resource-to-source-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/contextual-search/add-addi-resource-to-source-list.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -24,7 +24,7 @@ Role required: admin
 
 Additional resources are pre-defined. An additional resource is either a searchable source table with query conditions or a reference to a Predictive Intelligence Similarity solution definition.
 
-**Note:** You can only view the Predictive Intelligence resources if you are licensed for Predictive Intelligence and have activated [Predictive Intelligence for Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/machine-learning-solutions-for-search/predictive-intelligence-for-cxs.md).
+**Note:** You can only view the Predictive Intelligence resources if you are licensed for Predictive Intelligence and have activated [Predictive Intelligence for Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/machine-learning-solutions-for-search/predictive-intelligence-for-cxs.md).
 
 ## Procedure
 
@@ -53,7 +53,7 @@ Additional resources are pre-defined. An additional resource is either a searcha
     \[Omitted image "predictive-intelli-similarity1.png"\] Alt text: Additional resources displayed in Additional Resource Configurations related list.
 
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/working-with-contextual-search.md)
 
 **Related topics**  
 

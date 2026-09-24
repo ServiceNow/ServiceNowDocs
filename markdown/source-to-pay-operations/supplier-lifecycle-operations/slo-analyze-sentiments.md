@@ -2,7 +2,7 @@
 title: Analyze sentiments in supplier cases
 description: Use the Sentiment Analysis skill in ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slo-analyze-sentiments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-analyze-sentiments.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -49,9 +49,9 @@ Role required: sn\_supplier\_gen\_ai.now\_assist\_fulfiller and sn\_slm.fulfille
 **Related topics**  
 
 
-[Generate an email response for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/generate-email-response-for-supplier-case.md)
+[Generate an email response for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/generate-email-response-for-supplier-case.md)
 
-[Summarize supplier performance in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/summarize-supp-perf.md)
+[Summarize supplier performance in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/summarize-supp-perf.md)
 
-[Automate supplier case creation from emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/automated-supplier-case-creation-from-emails.md)
+[Automate supplier case creation from emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/automated-supplier-case-creation-from-emails.md)
 

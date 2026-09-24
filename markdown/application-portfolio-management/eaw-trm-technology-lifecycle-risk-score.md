@@ -2,7 +2,7 @@
 title: Technology lifecycle risk score in Enterprise Architecture Workspace
 description: The Technology Lifecycle Management \(TLM\) lifecycle risk score is a numeric value that quantifies how close a technology is to its end-of-support or end-of-life milestone. Risk scores roll up from individual technologies through application services to business applications, and serve as an indicator in scoring profiles to surface lifecycle exposure across the portfolio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-technology-lifecycle-risk-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-trm-technology-lifecycle-risk-score.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-20"
@@ -54,7 +54,7 @@ The **Populate TLM Discovered Technologies and Lifecycles** scheduled job traver
 -   A server or host CI \(cmdb\_ci\)
 -   A technology lifecycle record \(sn\_apm\_tpm\_technology\_lifecycle\)
 
-Without this job, no lifecycle dates are available for risk calculation. For instructions on running the job, see [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
+Without this job, no lifecycle dates are available for risk calculation. For instructions on running the job, see [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
 
 ## Risk score calculation
 
@@ -92,7 +92,7 @@ The maximum possible score from the formula is 80 \(base score 20 × multiplier 
 
 Scores are stored per fiscal period in the TLM Technology Risk \[sn\_apm\_tpm\_technology\_risk\] table.
 
-**Note:** **Populate Technology Lifecycle Risks** scheduled job runs monthly by default. You can also run it on demand. For instructions, see [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
+**Note:** **Populate Technology Lifecycle Risks** scheduled job runs monthly by default. You can also run it on demand. For instructions, see [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
 
 ## Technology lifecycle risk score example
 
@@ -161,18 +161,18 @@ Application 360 Dashboard
 The lifecycle risk score for the selected application appears alongside other indicator scores. **Note:** The Application 360 dashboard requires the Load Application Indicators and compute Application Scores scheduled job to have run for the current fiscal period. If the job has not run, lifecycle risk scores don't appear.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)
+</table>**Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-rationalize-business-applications.md)
 
 **Related topics**  
 
 
-[Tech debt indicator score for application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/trm-tech-debt-indicator-for-app-rat.md)
+[Tech debt indicator score for application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/trm-tech-debt-indicator-for-app-rat.md)
 
-[Application indicator score calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-application-indicator-score-calculation.md)
+[Application indicator score calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-application-indicator-score-calculation.md)
 
-[Regenerate application indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-regenerate-indicator-score.md)
+[Regenerate application indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-regenerate-indicator-score.md)
 
-[Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md)
+[Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md)
 
-[Manage scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-scoring-profiles.md)
+[Manage scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-configure-scoring-profiles.md)
 

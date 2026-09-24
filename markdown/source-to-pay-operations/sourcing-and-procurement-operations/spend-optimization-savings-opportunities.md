@@ -2,7 +2,7 @@
 title: Spend optimization savings opportunities
 description: Spend Optimization Opportunity Finder Agent identifies opportunities where purchase activity is outside negotiated contracts or fragmented across multiple contracts. Addressing these opportunities helps redirect spend to contracted pricing and increase purchasing volume for negotiation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spend-optimization-savings-opportunities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spend-optimization-savings-opportunities.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -52,5 +52,5 @@ When you act on an unconsolidated spend opportunity, the linked purchase orders 
 
 If a grouping does not include enough recent activity, if the products cannot be matched as similar, or if there is no lower-priced contract available for comparison, the agent does not create an opportunity for that grouping. No administrator-configurable spend or volume thresholds apply.
 
-**Parent Topic:**[Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md)
+**Parent Topic:**[Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md)
 

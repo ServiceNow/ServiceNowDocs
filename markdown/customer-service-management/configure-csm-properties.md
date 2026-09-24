@@ -2,7 +2,7 @@
 title: Customer Service properties
 description: Use system properties to customize the Customer Service Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-csm-properties.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +23,7 @@ You can also access Customer Service Management properties using the system prop
 **Related topics**  
 
 
-[Properties installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_PropInstallWcustServ.md)
+[Properties installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_PropInstallWcustServ.md)
 
-[Components installed with additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/inst-wi-cust-serv-addtl-plugins.md)
+[Components installed with additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/inst-wi-cust-serv-addtl-plugins.md)
 

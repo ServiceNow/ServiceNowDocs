@@ -2,7 +2,7 @@
 title: AI in Express List
 description: ServiceNow Otto for ITOM provides generative AI skills and agentic workflows in Express List that help operators triage alerts, investigate incidents, and respond faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/exploring-ai-in-express-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/exploring-ai-in-express-list.html
 release: australia
 product: Event Management
 classification: event-management
@@ -17,7 +17,7 @@ breadcrumb: [Express List, Event Management, ITOM AIOps, IT Operations Managemen
 
 ServiceNow Otto for ITOM provides generative AI skills and agentic workflows in Express List that help operators triage alerts, investigate incidents, and respond faster.
 
-Express List includes several generative AI skills and agentic workflows. All features require ServiceNow Otto for IT Operations Management \(ITOM\) to be installed. For a summary of all AI features across ITOM AIOps, see [Install ITOM using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-nowassist-setup-itom-aiops.md).
+Express List includes several generative AI skills and agentic workflows. All features require ServiceNow Otto for IT Operations Management \(ITOM\) to be installed. For a summary of all AI features across ITOM AIOps, see [Install ITOM using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/exploring-nowassist-setup-itom-aiops.md).
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -51,7 +51,7 @@ An operator opens an alert in Express List and wants a quick summary of what the
 
 </td><td>
 
-[View an alert analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-summary-now-assist-express-list.md)
+[View an alert analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-summary-now-assist-express-list.md)
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ An operator selects an alert group in Express List and wants to understand the g
 
 </td><td>
 
-[View an alert group analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-group-analysis-el.md)
+[View an alert group analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-group-analysis-el.md)
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ An operator wants to replace a system-generated alert group description with a m
 
 </td><td>
 
-[Generate an alert group description in Express List using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-group-descr-generate-el.md)
+[Generate an alert group description in Express List using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-group-descr-generate-el.md)
 
 </td></tr><tr><td>
 
@@ -99,8 +99,8 @@ An operator is investigating an alert and wants to know whether similar issues h
 
 </td><td>
 
--   [Accelerate alert resolution with past incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/nai-past-incidents.md)
--   [Generate a ServiceNow Otto summary of past related incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/nai-analyze-past-incidents.md)
+-   [Accelerate alert resolution with past incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/nai-past-incidents.md)
+-   [Generate a ServiceNow Otto summary of past related incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/nai-analyze-past-incidents.md)
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ An operator determines that an alert requires an incident and wants the incident
 
 </td><td>
 
-[Create an incident from an alert with ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-incident-now-assist-el.md)
+[Create an incident from an alert with ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-incident-now-assist-el.md)
 
 </td></tr><tr><td>
 
@@ -132,8 +132,8 @@ An operator selects an alert from an observability-connected source and wants to
 
 </td><td>
 
--   [Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/now-assist-itom-agentic-aia.md)
--   [Analyze alert impact in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/now-assist-itom-use-aia.md)
+-   [Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/now-assist-itom-agentic-aia.md)
+-   [Analyze alert impact in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/now-assist-itom-use-aia.md)
 
 </td></tr><tr><td>
 
@@ -149,8 +149,8 @@ An operator or change manager wants to assess the risk of a change request befor
 
 </td><td>
 
--   [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)
--   [Assess a change request with the Analyze potential impact workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/use-now-assist-analyze-impact-agentic-workflow.md)
+-   [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)
+-   [Assess a change request with the Analyze potential impact workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/use-now-assist-analyze-impact-agentic-workflow.md)
 
 </td></tr><tr><td>
 
@@ -166,9 +166,9 @@ An operations team wants alerts to be triaged, analyzed, and summarized automati
 
 </td><td>
 
--   [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/itom-autonomous-operator-workflow.md)
--   [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md)
--   [Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/use-ai-insights-express-list.md)
+-   [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/itom-autonomous-operator-workflow.md)
+-   [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md)
+-   [Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/use-ai-insights-express-list.md)
 
 </td></tr></tbody>
 </table>

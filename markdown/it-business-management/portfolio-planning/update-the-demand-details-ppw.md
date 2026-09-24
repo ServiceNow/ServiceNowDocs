@@ -2,7 +2,7 @@
 title: Update demand details
 description: Update the details of a demand record in Next Experience for Demand Management to reflect any changes in scope, priority, or capacity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/update-the-demand-details-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/update-the-demand-details-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -32,7 +32,7 @@ Role required: it\_demand\_user, it\_demand\_manager
 
 5.  Make the required changes.
 
-    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-form-ppw.md).
+    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/demand-form-ppw.md).
 
 6.  Select **Save**.
 

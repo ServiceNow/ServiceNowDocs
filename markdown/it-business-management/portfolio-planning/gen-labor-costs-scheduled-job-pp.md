@@ -2,7 +2,7 @@
 title: Scheduled job to generate labor costs
 description: Activate a scheduler job to automatically create labor costs for attribute-based resource assignments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/gen-labor-costs-scheduled-job-pp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/gen-labor-costs-scheduled-job-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-    For a description of the field names, see [Scheduled Script Execution form to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/gen-labor-costs-scheduled-script-form-pp.md).
+    For a description of the field names, see [Scheduled Script Execution form to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/gen-labor-costs-scheduled-script-form-pp.md).
 
 4.  Select **Update** to save your changes or **Execute Now** to run the scheduled job.
 

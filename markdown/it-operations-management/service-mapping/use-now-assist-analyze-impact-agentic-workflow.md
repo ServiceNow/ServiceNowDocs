@@ -2,7 +2,7 @@
 title: Assess a change request with the Analyze potential impact workflow
 description: Use the Analyze potential impact agentic workflow to assess the effects of a change request. This workflow highlights the potential impacted servers and suggested services to help you identify risks, benefits, and make any necessary adjustments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/use-now-assist-analyze-impact-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/use-now-assist-analyze-impact-agentic-workflow.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -35,7 +35,7 @@ Agentic workflows and their AI agents use [role masking](https://raw.githubuserc
 
 ## About this task
 
-The agent verifies the prerequisites at the beginning of the agentic workflow. If any prerequisites aren’t met, the workflow stops, and you’re informed so that you can acquire the prerequisites. For more information about the agentic workflow, see [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md).
+The agent verifies the prerequisites at the beginning of the agentic workflow. If any prerequisites aren’t met, the workflow stops, and you’re informed so that you can acquire the prerequisites. For more information about the agentic workflow, see [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md).
 
 ## Procedure
 
@@ -84,5 +84,5 @@ In the ServiceNow Otto panel, the Analyze potential impact agentic workflow gene
 
 The impact analysis is updated in the work notes in the change request details.
 
-**Parent Topic:**[Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)
+**Parent Topic:**[Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)
 

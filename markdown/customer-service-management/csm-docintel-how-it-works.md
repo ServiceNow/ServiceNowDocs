@@ -2,7 +2,7 @@
 title: How Document Intelligence for Customer Service works
 description: Document Intelligence for Customer Service performs a series of steps to extract relevant information from email and case attachments and add that information to fields on the case record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-docintel-how-it-works.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-docintel-how-it-works.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -168,5 +168,5 @@ The agent can open a case and review the predicted fields or review the predicti
 -   Update incorrect or missing values.
 -   Submit the changes.
 
-**Parent Topic:**[Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-document-intelligence.md)
+**Parent Topic:**[Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-document-intelligence.md)
 

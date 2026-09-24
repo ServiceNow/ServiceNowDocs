@@ -2,7 +2,7 @@
 title: Advanced AI Search Management Tools release notes
 description: The ServiceNow Advanced AI Search Management Tools application helps AI Search administrators analyze search query traffic trends, review indexed record and configuration settings, and preview search query results. See the following sections for release notes by version.The September 2026 version 9.0 release removes unsupported legacy visualizations from the AI Search Search Profile dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/advanced-ai-search-management-tools-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/advanced-ai-search-management-tools-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-09-03"
@@ -33,7 +33,7 @@ See [Platform Analytics Solution for Advanced AI Search Management Tools](https:
     You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
 
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
 ## Version 9.0
 

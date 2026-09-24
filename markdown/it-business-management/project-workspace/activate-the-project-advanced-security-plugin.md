@@ -2,7 +2,7 @@
 title: Activate the Project Advanced Security plugin
 description: Activate the Project Advanced Security plugin to enable project security settings on a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/activate-the-project-advanced-security-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/activate-the-project-advanced-security-plugin.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -27,12 +27,12 @@ Role required: admin
 2.  Search for **Project Advanced Security** and install it.
 
 
-**Parent Topic:**[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)
+**Parent Topic:**[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)
 
 **Related topics**  
 
 
-[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)
+[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)
 
-[Enable security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/enable-security-for-a-project-in-project-workspace.md)
+[Enable security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/enable-security-for-a-project-in-project-workspace.md)
 

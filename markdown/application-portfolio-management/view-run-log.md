@@ -2,7 +2,7 @@
 title: View publishing status and run log
 description: View publishing run logs to monitor publishing activity and review the publishing history for a TRM catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/view-run-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/view-run-log.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,14 +45,14 @@ Publishing run logs provide a record of all publishing and republishing jobs for
 7.  Select **Publish**.
 
 
-**Parent Topic:**[Working with the publishing center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/working-with-publishing-center.md)
+**Parent Topic:**[Working with the publishing center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/working-with-publishing-center.md)
 
 **Related topics**  
 
 
-[Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/publish-trm-cat-to-kb.md)
+[Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/publish-trm-cat-to-kb.md)
 
-[Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/access-the-published-kb.md)
+[Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/access-the-published-kb.md)
 
-[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/understand-publishing-output.md)
 

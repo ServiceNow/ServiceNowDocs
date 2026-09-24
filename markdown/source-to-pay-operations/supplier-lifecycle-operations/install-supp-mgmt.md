@@ -2,7 +2,7 @@
 title: Install Supplier Case Management
 description: Install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) and its dependencies from ServiceNow Store to enable supplier case logging and tracking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -38,7 +38,7 @@ The following items are installed with Supplier Case Management:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.md).
+For more information, see [Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.md).
 
 ## Procedure
 
@@ -63,22 +63,22 @@ For more information, see [Components installed with Supplier Case Management](h
 6.  Select **Install**.
 
 
--   **[Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.md)**  
+-   **[Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.md)**  
 Several types of components are installed with activation of Supplier Case Management, including tables and user roles.
--   **[Explicit Roles in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-explicit-roles-plugin.md)**  
+-   **[Explicit Roles in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-explicit-roles-plugin.md)**  
 You can grant access to your instance to both internal and external users. However, it is important to differentiate their access levels for added security. To achieve this, every user must have at least one role, allowing the instance to distinguish between internal and external users.
--   **[Application plugin installation sequence in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.md)**  
+-   **[Application plugin installation sequence in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.md)**  
 The following table provides the list of plugins for Supplier Case Management, a high-level description of each plugin, and the dependencies that are required before installing each plugin.
--   **[Application plugins for AI capabilities in SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-ai-plugins.md)**  
+-   **[Application plugins for AI capabilities in SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-ai-plugins.md)**  
 View the consolidated list of plugins required to use AI capabilities for supplier case management in Supplier Lifecycle Operations.
--   **[Prerequisites for upgrading Supplier Case Management to Washington DC or later releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/smw-upgrade.md)**  
+-   **[Prerequisites for upgrading Supplier Case Management to Washington DC or later releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/smw-upgrade.md)**  
 Starting with the Washington DC release, Supplier Manager Workspace is being prepared for future deprecation. It will be hidden from the navigation and no longer be activated on new instances but will continue to be supported. Source-to-Pay Workspace provides the latest experience for this functionality.
--   **[Configure properties for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-prop-supp-mgmt.md)**  
+-   **[Configure properties for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-prop-supp-mgmt.md)**  
 Use these properties to configure settings for the Supplier Case Management application from the Properties page.
--   **[Post-upgrade tasks for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-upgrade-tasks-slo.md)**  
+-   **[Post-upgrade tasks for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/post-upgrade-tasks-slo.md)**  
 After you upgrade to Washington DC, you must review all the post-upgrade tasks and complete them as needed.
 
-**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
+**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
 
 **Related topics**  
 

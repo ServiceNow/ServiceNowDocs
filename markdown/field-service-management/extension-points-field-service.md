@@ -2,7 +2,7 @@
 title: Extension points in Field Service Management
 description: Use extension points to customize various configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/extension-points-field-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/extension-points-field-service.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

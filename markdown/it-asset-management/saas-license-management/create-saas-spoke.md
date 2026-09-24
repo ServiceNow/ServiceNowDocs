@@ -2,7 +2,7 @@
 title: Create a custom spoke
 description: To set up a custom integration in SaaS License Management, create a spoke to connect with a SaaS application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-saas-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/saas-license-management/create-saas-spoke.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -61,5 +61,5 @@ As you continue building your custom integration, use the spoke to save the foll
 
 If you’re publishing your custom spoke application on the ServiceNow Store, also use the spoke to save your subflows.
 
-Create a custom integration profile to track software subscriptions and optimize stale licenses for any SaaS application. For more information, see [Create a custom integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-integration-custom.md).
+Create a custom integration profile to track software subscriptions and optimize stale licenses for any SaaS application. For more information, see [Create a custom integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-integration-custom.md).
 

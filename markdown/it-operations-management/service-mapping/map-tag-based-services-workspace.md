@@ -2,7 +2,7 @@
 title: Map your application services using tags in the Service Mapping Workspace
 description: Categorize and organize organization's configuration items and map them into application services using the Tag-based dashboard in the Service Mapping workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/map-tag-based-services-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/map-tag-based-services-workspace.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -18,11 +18,11 @@ Categorize and organize organization's configuration items and map them into app
 
 ## Before you begin
 
--   Verify that you have installed Service Mapping Plus version 1.16.3, which is required to access tag-based mapping in the Service Mapping workspace. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
+-   Verify that you have installed Service Mapping Plus version 1.16.3, which is required to access tag-based mapping in the Service Mapping workspace. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/install-service-mapping-plus.md).
 -   Review and analyze your organization’s tag usage, making a list of all tags and their purposes. Use the Key Value \[cmdb\_key\_value\] table to see the tags in the Configuration Management Database \(CMDB\).
--   Use Tag Governance to optimize tag application in your organization. See [Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/exploring-tag-governance.md) for more information.
+-   Use Tag Governance to optimize tag application in your organization. See [Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/exploring-tag-governance.md) for more information.
 -   Assign tags to configuration items \(CIs\) that you want to include in application services.
--   Run Discovery to horizontally discover CIs. Discovery populates the CMDB with the CI data, including tags. For more information about discovery tag-based discovery for the Service Mapping workspace, see [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
+-   Run Discovery to horizontally discover CIs. Discovery populates the CMDB with the CI data, including tags. For more information about discovery tag-based discovery for the Service Mapping workspace, see [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
 
 Role required: service\_mapping\_admin
 
@@ -82,5 +82,5 @@ Action
 
 A tag-based application service and tag-based service family have been created.
 
-**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/using-service-mapping.md)
 

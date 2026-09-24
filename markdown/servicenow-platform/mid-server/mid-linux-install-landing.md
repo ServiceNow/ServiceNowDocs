@@ -2,7 +2,7 @@
 title: Installing MID Server on Linux
 description: Using the ITOM Infra Services Workspace, MID Servers can be deployed to Linux with a variety of authentication and installation methods. For authentication, choose between private key JWT, basic authentication, or mutual authentication.Using the ITOM Infra Services Workspace, MID Servers can be deployed and configured manually with a ZIP file.Using the ITOM Infra Services Workspace, MID Servers can be deployed with the Linux installer. Basic authentication is less secure than other authentication types.Using the ITOM Infra Services Workspace, MID Servers can be deployed and configured manually with a ZIP file. Basic authentication is less secure than other authentication types.Using the ITOM Infra Services Workspace, MID Servers can be deployed for mutual authentication. Mutually authentication must be authorized and prepared on the instance by ServiceNow support.Using the ITOM Infra Services Workspace, MID Servers can be deployed using ZIP for mutual authentication. Mutually authentication must be authorized and prepared on the instance by ServiceNow support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-linux-install-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-linux-install-landing.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -41,7 +41,7 @@ Java 21.0.7 is bundled with the MID Server installer package and is installed on
 
 Testing showed that the MID Server works as expected with Oracle Java 11 version 17.0.10. If you need to upgrade the JRE to a different version, then coordinate with the appropriate account representative for support.
 
-**Parent Topic:**[Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-installation-landing.md)
+**Parent Topic:**[Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-installation-landing.md)
 
 ## Install MID Server on Linux with private key JWT using ZIP
 
@@ -64,7 +64,7 @@ Role required: admin
     -   **Authentication type:** ServiceNow certificate
     -   **I'm installing the MID Server on:** Linux
     -   **I want to install using a:** Manual configuration via zip file
-    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
+    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
 
 5.  To proceed, select **Next: Configuration**.
 
@@ -214,7 +214,7 @@ Set to true
 
 ### What to do next
 
-To optimize your MID Server, consider configuring it to be part of a cluster or set IP ranges. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md).
+To optimize your MID Server, consider configuring it to be part of a cluster or set IP ranges. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md).
 
 ## Install MID Server on Linux with basic authentication
 
@@ -237,19 +237,19 @@ Role required: admin
     -   **Authentication type:** Basic authentication
     -   **I'm installing the MID Server on:** Linux
     -   **I want to install using a:** Linux \(RPM, DBM, or Docker\)
-    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
+    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
 
 5.  To proceed, select **Next: Download and Install**.
 
 6.  Create a ServiceNow user for this MID Server and grant it **mid\_server** role.
 
-    For more information on creating users, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
+    For more information on creating users, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
 
     **Note:** This user should be unique for each MID Server using basic authentication.
 
 7.  Download either the MID Server installer RPM file for RedHat/CentOS or the DEB file for Debian \(Ubuntu\) systems.
 
-    For more information, see [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md).
+    For more information, see [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md).
 
 8.  Place the installer file on the MID Server host.
 
@@ -268,7 +268,7 @@ Role required: admin
 
 ### What to do next
 
-Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
+Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
 
 ## Install MID Server on Linux with basic authentication using ZIP
 
@@ -291,7 +291,7 @@ Role required: admin
     -   **Authentication type:** Basic authentication
     -   **I'm installing the MID Server on:** Linux
     -   **I want to install using a:** Manual configuration via zip file
-    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
+    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
 
 5.  To proceed, select **Next: Download and Install**.
 
@@ -449,7 +449,7 @@ Optional, set to your proxy password
 
 ### What to do next
 
-Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
+Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
 
 ## Install MID Server on Linux with mutual authentication
 
@@ -463,7 +463,7 @@ Role required: admin
 
 1.  To enable Mutual Authentication, the instance must be authorized and prepared by ServiceNow support.
 
-    For more information, see [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-mid-mutual-auth.md).
+    For more information, see [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/install-mid-mutual-auth.md).
 
 2.  On the instance, navigate to **ITOM Infra Services Workspace**.
 
@@ -476,19 +476,19 @@ Role required: admin
     -   **Authentication type:** Custom certificate \(mutual TLS\)
     -   **I'm installing the MID Server on:** Linux
     -   **I want to install using a:** Linux \(RPM, DBM, or Docker\)
-    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
+    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
 
 6.  To proceed, select **Next: Download and Install**.
 
 7.  Create a ServiceNow user for this MID Server and grant it **mid\_server** role.
 
-    For more information on creating users, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
+    For more information on creating users, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
 
     **Note:** This user should be unique for each MID Server using basic authentication.
 
 8.  Download either the MID Server installer RPM file for RedHat/CentOS or the DEB file for Debian \(Ubuntu\) systems.
 
-    For more information, see [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md).
+    For more information, see [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md).
 
 9.  Place the installer file on the MID Server host.
 
@@ -507,7 +507,7 @@ Role required: admin
 
 ### What to do next
 
-Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
+Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
 
 ## Install MID Server on Linux with mutual authentication using ZIP
 
@@ -521,7 +521,7 @@ Role required: admin
 
 1.  To enable Mutual Authentication, the instance must be authorized and prepared by ServiceNow support.
 
-    For more information, see [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-mid-mutual-auth.md).
+    For more information, see [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/install-mid-mutual-auth.md).
 
 2.  On the instance, navigate to **ITOM Infra Services Workspace**.
 
@@ -534,13 +534,13 @@ Role required: admin
     -   **Authentication type:** Custom certificate \(mutual TLS\)
     -   **I'm installing the MID Server on:** Linux
     -   **I want to install using a:** Linux \(RPM, DBM, or Docker\)
-    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
+    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
 
 6.  To proceed, select **Next: Download and Install**.
 
 7.  Create a ServiceNow user for this MID Server and grant it **mid\_server** role.
 
-    For more information on creating users, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
+    For more information on creating users, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
 
     **Note:** This user should be unique for each MID Server using basic authentication.
 
@@ -698,5 +698,5 @@ Optional, set to your proxy password
 
 ### What to do next
 
-Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
+Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
 

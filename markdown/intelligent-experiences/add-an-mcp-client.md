@@ -2,7 +2,7 @@
 title: Add an MCP client
 description: Add an MCP client that connects to MCP servers through AI Gateway.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-an-mcp-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-an-mcp-client.html
 release: australia
 topic_type: task
 last_updated: "2026-08-26"

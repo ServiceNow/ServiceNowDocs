@@ -2,7 +2,7 @@
 title: Triggers
 description: Triggers specify when to start running your playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/process-automation-designer-triggers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/process-automation-designer-triggers.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -18,11 +18,11 @@ Triggers specify when to start running your playbook.
 
 In Playbooks, triggers indicate when your playbook should start running. Each trigger has a type and conditions that, when met, start running your activated playbook.
 
-You choose one or more triggers when you create a playbook in Workflow Studio. To add a trigger, start by choosing the trigger type. Then, set conditions and other options to refine your trigger so that it fires in a way that makes sense for your business process. Repeat if you want your playbook to run based on multiple triggers. For more information, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
+You choose one or more triggers when you create a playbook in Workflow Studio. To add a trigger, start by choosing the trigger type. Then, set conditions and other options to refine your trigger so that it fires in a way that makes sense for your business process. Repeat if you want your playbook to run based on multiple triggers. For more information, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-process-definition.md).
 
 **Note:** You can also configure and activate a playbook without any trigger, if you're planning to only trigger the playbook via API.
 
-If you don't see a trigger that fits your use case, you can also create your own trigger definition instead. For more information, see [Create a trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-trigger-definition.md).
+If you don't see a trigger that fits your use case, you can also create your own trigger definition instead. For more information, see [Create a trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-trigger-definition.md).
 
 \[Omitted image "process-automation-designer-trigger-flow.png"\] Alt text: When the conditions specified in your trigger are met anywhere in the ServiceNow AI Platform, your automated playbook starts running.
 
@@ -103,12 +103,12 @@ Refer to these design considerations when working with triggers:
     Record triggers ignore records that were added or updated by applying an update set or importing an XML file. These operations apply to the entire application or table instead of an individual record.
 
 
--   **[Create a trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-trigger-definition.md)**  
+-   **[Create a trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-trigger-definition.md)**  
 Define the type of trigger that determines when to start running your playbook.
--   **[Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-trigger.md)**  
+-   **[Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-configure-trigger.md)**  
 Begin building your playbook by adding and configuring the trigger.
--   **[Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)**  
+-   **[Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)**  
 Create a scheduled trigger that starts your playbook at the required time and interval. You can schedule a trigger in any time zone, with or without an end date for the schedule.
 
-**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-building-blocks.md)
+**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-building-blocks.md)
 

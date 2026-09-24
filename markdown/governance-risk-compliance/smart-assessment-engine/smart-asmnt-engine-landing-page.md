@@ -2,7 +2,7 @@
 title: Smart Assessment Engine
 description: The ServiceNow Smart Assessment Engine \(SAE\) application helps you to reduce the manual burden and costs of your assessment processes through automation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -22,27 +22,27 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_bj1_24q_sxb" class="nav-card"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn about Smart Assessment Engine
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn about Smart Assessment Engine
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Smart Assessment Engine application
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Smart Assessment Engine application
 
 </td><td>
 
-[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up Smart Assessment Engine templates
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up Smart Assessment Engine templates
 
 </td></tr><tr><td>
 
-[Manage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-respond-to-asmnt.md)\[Omitted image "bus-manage.svg"\] Alt text:Manage Smart Assessment Engine tasks
+[Manage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-respond-to-asmnt.md)\[Omitted image "bus-manage.svg"\] Alt text:Manage Smart Assessment Engine tasks
 
 </td><td>
 
-[ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/servicenow-otto-for-smart-assessment-engine.md)\[Omitted image "bus-ai-sparkle.svg"\] Alt text: ServiceNow Otto for Smart Assessment Engine
+[ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/servicenow-otto-for-smart-assessment-engine.md)\[Omitted image "bus-ai-sparkle.svg"\] Alt text: ServiceNow Otto for Smart Assessment Engine
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-ref.md) \[Omitted image "bus-profile.svg"\] Alt text:Components installed with Smart Assessment Engine
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-ref.md) \[Omitted image "bus-profile.svg"\] Alt text:Components installed with Smart Assessment Engine
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

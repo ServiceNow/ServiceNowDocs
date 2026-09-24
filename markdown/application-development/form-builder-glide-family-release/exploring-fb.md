@@ -2,7 +2,7 @@
 title: Exploring Table Builder
 description: Learn about Table Builder features that enable you to design tables, forms, and flows visually using a single user interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/exploring-fb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/form-builder-glide-family-release/exploring-fb.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -51,16 +51,16 @@ Table Builder includes these key features:
 -   Preview your forms throughout the editing process so that you can be sure that any changes function well in your environment.
 -   Integrate with App Engine Studio to promote a unified experience for designing your forms and managing data.
 
--   **[Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md)**  
+-   **[Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/accessing-form-builder.md)**  
 You can access Table Builder in several ways.
--   **[Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/access-form-builder.md)**  
+-   **[Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/access-form-builder.md)**  
 Form Builder is an application that is accessed most often through Table Builder on the **Forms** tab. You can also access Form Builder through the ServiceNow AI Platform® and the **Related Links** section of any table.
--   **[Table Builder workflow and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-workflow.md)**  
+-   **[Table Builder workflow and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-builder-workflow.md)**  
 You can start using Table Builder to manage your data tables, forms, or flows by reviewing this high-level workflow.
--   **[Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md)**  
+-   **[Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-builder-domain-separation.md)**  
 Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md)**  
+-   **[Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/fb-application-scope.md)**  
 Selecting an application from the application scope list in Table Builder enables you to customize form views for the users of the selected application in the ServiceNow AI Platform.
 
-**Parent Topic:**[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)
+**Parent Topic:**[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-landing-page.md)
 

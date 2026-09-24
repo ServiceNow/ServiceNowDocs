@@ -2,7 +2,7 @@
 title: Review and submit a product or service order in Order Management
 description: Review all the order line items as the next step in the process to create a product order. Edit the order details as needed before submitting it for fulfillment approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-om-review-and-submit-product-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-om-review-and-submit-product-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -156,14 +156,14 @@ Aggregate cost of all charges, both, one-time and recurring, associated with the
 
 ## What to do next
 
-For complex orders, capture technical details. For more information, see [Capture order enrichment details for complex fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/capture-order-enrichment-details.md).
+For complex orders, capture technical details. For more information, see [Capture order enrichment details for complex fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/capture-order-enrichment-details.md).
 
-If order enrichment tasks don't apply, move to order approval. For more information, see [Approving or rejecting orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-rejecting-orders-som.md).
+If order enrichment tasks don't apply, move to order approval. For more information, see [Approving or rejecting orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/approving-rejecting-orders-som.md).
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

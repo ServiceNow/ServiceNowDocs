@@ -2,7 +2,7 @@
 title: Activate Predictive Intelligence for Field Service Management
 description: You can activate the Predictive Intelligence for Field Service plugin \(com.snc.fsm\_ml\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/Activate-predictive-intl-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/Activate-predictive-intl-fsm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

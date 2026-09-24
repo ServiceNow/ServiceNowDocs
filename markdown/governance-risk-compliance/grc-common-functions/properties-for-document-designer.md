@@ -2,7 +2,7 @@
 title: Reference information for Document designer
 description: There are several properties that get installed with the Document designer plugin. These properties help to control the various aspects of how the plugin works.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/properties-for-document-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/properties-for-document-designer.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -73,5 +73,5 @@ com.snc.word\_doc\_api.max\_repetitions
 Number of times a repeater block is duplicated and inserted consecutively into the Word document. The default value is 500.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/install-document-designer.md)
+</table>**Parent Topic:**[Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/install-document-designer.md)
 

@@ -2,7 +2,7 @@
 title: Upload job requisitions using import sets
 description: Bring all your historic job requisition data from your ATS to your ServiceNow instance with the import sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/upload-reqs-with-import-sets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/upload-reqs-with-import-sets.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +27,7 @@ Role required: admin
 
 2.  On the form, fill in the fields.
 
-    For more information on the field descriptions, see [Load data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/import-set-table.md).
+    For more information on the field descriptions, see [Load data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/import-set-table.md).
 
     **Note:** In the **Import set table** field, select **Existing table** and add the Job Requisition Staging \[sn\_ta\_connector\_job\_requisition\_staging\] table.
 
@@ -48,5 +48,5 @@ Role required: admin
 
 The job requisition table is updated with the imported data.
 
-**Parent Topic:**[Integrate with your ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-ats.md)
+**Parent Topic:**[Integrate with your ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-ats.md)
 

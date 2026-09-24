@@ -2,7 +2,7 @@
 title: BigQuery metadata collector
 description: The BigQuery metadata collector provides read-only access to metadata from an external BigQuery account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/bigquery-metadata-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/bigquery-metadata-collector.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -67,10 +67,10 @@ The collector identifies the associated column in an upstream view or table:
 -   That aggregate the rows via GROUP BY
 
 </td></tr></tbody>
-</table>-   **[Prepare to run the BigQuery collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-bigquery-collector.md)**  
+</table>-   **[Prepare to run the BigQuery collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-bigquery-collector.md)**  
 Create a service account and configure authentication before running the collector.
--   **[Create a BigQuery metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-bigquery-metadata-collector.md)**  
+-   **[Create a BigQuery metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-bigquery-metadata-collector.md)**  
 Create a collector to import metadata from BigQuery.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-metadata-collectors-dc.md)
 

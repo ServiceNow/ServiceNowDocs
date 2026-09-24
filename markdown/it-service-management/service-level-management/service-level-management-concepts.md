@@ -2,7 +2,7 @@
 title: Service Level Management concepts
 description: The ServiceNow Service Level Management \(SLM\) application facilitates you to oversee and control the services within the organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/service-level-management-concepts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/service-level-management-concepts.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -66,5 +66,5 @@ Application Templates support Service Level Management tables to be included whe
 -   SLA Timer Configuration\[sla\_timer\_config\]
 -   SLA timer configuration mapping\[sla\_timer\_config\_mapping\]
 
-**Parent Topic:**[Exploring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/exploring-slm.md)
+**Parent Topic:**[Exploring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/exploring-slm.md)
 

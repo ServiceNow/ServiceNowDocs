@@ -2,7 +2,7 @@
 title: Components installed with EMR Help
 description: Several types of components are installed with activation of the EMR Help application including tables, user roles, and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/components-installed-emr-help.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/components-installed-emr-help.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -188,5 +188,5 @@ Industry Core \(com.sn\_ind\)
 Includes common objects, code artifacts, and request definitions for industry vertical applications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-reference.md)
+</table>**Parent Topic:**[EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/emr-reference.md)
 

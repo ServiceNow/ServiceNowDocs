@@ -2,7 +2,7 @@
 title: Model Context Protocol connectors
 description: Model Context Protocol \(MCP\) connectors in Connect Hub enable AI agents to access tools and data from external systems using a standardized communication protocol.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/model-context-protocol-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/model-context-protocol-connector.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-05"
@@ -20,7 +20,7 @@ In Connect Hub, an MCP connector represents a configured connection between Serv
 
 ## MCP Registry
 
-ServiceNow MCP Registry is a private registry where large language models \(LLMs\), AI agents, and teams discover and connect to approved MCP servers, finding the best tool for every business problem, governed at every step. The Registry enables AI models and humans query available MCP servers and select the ones best suited to solve a business problem. Every server exposed to an LLM can obtain approval from AICT, helping to ensure autonomous decisions never bypass enterprise governance. It works with AI Agent Studio, Claude, and so on. For more information, see [ServiceNow MCP Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-registry.md).
+ServiceNow MCP Registry is a private registry where large language models \(LLMs\), AI agents, and teams discover and connect to approved MCP servers, finding the best tool for every business problem, governed at every step. The Registry enables AI models and humans query available MCP servers and select the ones best suited to solve a business problem. Every server exposed to an LLM can obtain approval from AICT, helping to ensure autonomous decisions never bypass enterprise governance. It works with AI Agent Studio, Claude, and so on. For more information, see [ServiceNow MCP Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mcp-registry.md).
 
 ## MCP connector registration methods for OAuth 2.1
 

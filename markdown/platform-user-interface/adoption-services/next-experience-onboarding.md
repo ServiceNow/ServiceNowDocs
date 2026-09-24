@@ -2,7 +2,7 @@
 title: Onboarding modals
 description: Onboarding modals provide a wizard-like experience to introduce users to new experiences and applications in their ServiceNow Next Experience instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/next-experience-onboarding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/next-experience-onboarding.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -22,14 +22,14 @@ When you switch between dark, light or coral user interface themes, the images i
 
 \[Omitted image "onboarding-experience.png"\] Alt text: An onboarding modal introduction slide in an ITIL dashboard.
 
--   **[Exploring new experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/exploring-onboarding-modals.md)**  
+-   **[Exploring new experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/exploring-onboarding-modals.md)**  
 Onboarding modals introduce you to new ServiceNow® experiences through wizard-like interfaces in Next Experience. Learn about capabilities, benefits, and implementation approaches for effective user onboarding.
--   **[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configure-onboarding-modals.md)**  
+-   **[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/configure-onboarding-modals.md)**  
 Plan and configure the Onboarding modals to experience new applications.
--   **[Edit the default onboarding modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configure-next-experience-onboarding.md)**  
+-   **[Edit the default onboarding modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/configure-next-experience-onboarding.md)**  
 Edit the default onboarding modal to personalize content for your users.
--   **[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/onboarding-modals-reference.md)**  
+-   **[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/onboarding-modals-reference.md)**  
 Reference information for user roles and best practices when implementing onboarding modals.
 
-**Parent Topic:**[Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md)
+**Parent Topic:**[Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/adoption-services.md)
 

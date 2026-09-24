@@ -2,7 +2,7 @@
 title: MFA enforcement exception
 description: FAQ related to MFA enforcement exception and why it’s important.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/faq-mfa-exception.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/faq-mfa-exception.html
 release: australia
 product: Authentication
 classification: authentication

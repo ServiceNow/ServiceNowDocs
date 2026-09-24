@@ -2,7 +2,7 @@
 title: Service Catalog dashboard
 description: Dashboard providing a view into metrics for catalog items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-catalog.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

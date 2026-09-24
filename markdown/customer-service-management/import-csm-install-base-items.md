@@ -2,7 +2,7 @@
 title: Import install base items with guided setup
 description: Install base items represent the instances of the product that have been configured for a customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-csm-install-base-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/import-csm-install-base-items.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

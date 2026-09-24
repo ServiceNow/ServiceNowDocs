@@ -2,7 +2,7 @@
 title: Collaborate using Microsoft Teams from an interaction record in Service Operations Workspace
 description: You can initiate a chat or make conference calls using Microsoft Teams to communicate with stakeholders to resolve the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/collaborate-interaction-ms-teams-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/collaborate-interaction-ms-teams-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -54,15 +54,15 @@ Role required: itil or admin
 
 10. To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d294313e240">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d294292e240">
 
 Option
 
-</th><th align="left" id="d294313e243">
+</th><th align="left" id="d294292e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d294313e249">
+</th></tr></thead><tbody><tr><td id="d294292e249">
 
 **Import a chat from any conversation**
 
@@ -73,7 +73,7 @@ Description
 3.  Select the chat and click **Import**.
 
 
-</td></tr><tr><td id="d294313e279">
+</td></tr><tr><td id="d294292e279">
 
 **Import a chat from a conversation in which you are a member**
 
@@ -86,7 +86,7 @@ Description
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/interaction-sow.md)
+**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/interaction-sow.md)
 
 **Related topics**  
 

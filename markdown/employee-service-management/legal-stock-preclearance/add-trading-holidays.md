@@ -2,7 +2,7 @@
 title: Add trading holidays
 description: Add trading holidays during which the trading is closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-stock-preclearance/add-trading-holidays.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-stock-preclearance/add-trading-holidays.html
 release: australia
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -22,7 +22,7 @@ Role required: sn\_lg\_stock\_cp.stock\_config
 
 ## About this task
 
-A trading holiday might impact the stock preclearance approval validity period based on the **Exclude trading holidays** field's setting in the trading window. For more information, see [Set up a trading window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/set-up-trading-window.md).
+A trading holiday might impact the stock preclearance approval validity period based on the **Exclude trading holidays** field's setting in the trading window. For more information, see [Set up a trading window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-stock-preclearance/set-up-trading-window.md).
 
 ## Procedure
 
@@ -46,5 +46,5 @@ A trading holiday might impact the stock preclearance approval validity period b
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
+**Parent Topic:**[Configure Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
 

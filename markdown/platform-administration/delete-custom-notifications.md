@@ -2,7 +2,7 @@
 title: Delete a custom notification
 description: Delete custom notifications that you don't need any more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/delete-custom-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/delete-custom-notifications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ Role required: none
 3.  In the notification entry, select the more actions icon \[Omitted image "delete\_cn.png"\] Alt text: and select **Delete**.
 
 
-**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-notification-prefrences.md)
+**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/advanced-notification-prefrences.md)
 

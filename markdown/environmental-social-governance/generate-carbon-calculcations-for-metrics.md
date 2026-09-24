@@ -2,7 +2,7 @@
 title: Generate Scope 3 carbon calculations
 description: Use the AI-driven workflow to create calculated metric definitions \(CMD\) for Scope 3 carbon emissions. The workflow employs conversational agents and integrated tools to guide methodology selection, map metrics, and simplify sustainability reporting with accuracy and efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/generate-carbon-calculcations-for-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/generate-carbon-calculcations-for-metrics.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ Use the AI-driven workflow to create calculated metric definitions \(CMD\) for S
 Make sure that the following prerequisites are met to use this feature:
 
 -   Operational Sustainability Workspace and ServiceNow Otto for Operational Sustainability plugin \(sn\_esg\_gen\_ai\) must be installed.
--   Carbon calculations agentic workflow must be activated. For more information, refer to [Activate carbon calculations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-carbon-calculations-agentic-workflow.md).
+-   Carbon calculations agentic workflow must be activated. For more information, refer to [Activate carbon calculations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-carbon-calculations-agentic-workflow.md).
 
 Role required: sn\_esg\_gen\_ai.cmd\_agent\_user
 
@@ -56,7 +56,7 @@ Role required: sn\_esg\_gen\_ai.cmd\_agent\_user
 ## What to do next
 
 -   After the Calculated Metric Definition \(CMD\) is created, update its frequency before changing the formula. The frequency should be set based on the frequencies of the underlying metric definitions used in the CMD.
--   Activate the CMD, for more information refer to, [Create a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-composite-metric-definition.md).
+-   Activate the CMD, for more information refer to, [Create a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-composite-metric-definition.md).
 
-**Parent Topic:**[Use agentic AI in ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.md)
+**Parent Topic:**[Use agentic AI in ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.md)
 

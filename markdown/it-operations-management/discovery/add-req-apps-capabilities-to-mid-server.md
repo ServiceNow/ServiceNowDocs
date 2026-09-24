@@ -2,7 +2,7 @@
 title: Add the required applications and capabilities to your MID Server
 description: Enable your MID Server to auto-renew your certificates by adding the Certificate Inventory and Management and GenerateCSR applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ Enable your MID Server to auto-renew your certificates by adding the Certificate
 
 ## Before you begin
 
-Check that you have completed the task [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md).
+Check that you have completed the task [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md).
 
 Role required: pki\_admin or admin
 
@@ -65,5 +65,5 @@ Your MID Server supports the Certificate Inventory and Management and GenerateCS
 
 ## What to do next
 
-[Configure automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md), to complete the configuration for automatic certificate renewal.
+[Configure automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md), to complete the configuration for automatic certificate renewal.
 

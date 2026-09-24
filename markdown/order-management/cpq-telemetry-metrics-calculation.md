@@ -2,7 +2,7 @@
 title: CPQ usage calculation
 description: CPQ usage metrics track how users interact with CPQ Configurator and Sales Customer Relationship Management \(Sales CRM\) features. These metrics support accurate usage measurement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-telemetry-metrics-calculation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-telemetry-metrics-calculation.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-02"

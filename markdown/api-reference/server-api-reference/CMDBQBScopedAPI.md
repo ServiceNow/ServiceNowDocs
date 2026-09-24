@@ -2,7 +2,7 @@
 title: CMDBQBScopedScriptableAPI - Scoped
 description: Provides methods to execute Configuration Management Database \(CMDB\) Query Builder operations in server-side scripts.Creates a report that shows the results of a Configuration Management Database \(CMDB\) Query Builder query and returns the URL of the report.Deletes a Configuration Management Database \(CMDB\) Query Builder query.Returns the execution details for a Configuration Management Database \(CMDB\) Query Builder query.Saves a Configuration Management Database \(CMDB\) Query Builder query and returns the sys\_id of the saved query.Updates the JSON for a Configuration Management Database \(CMDB\) Query Builder query.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CMDBQBScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/CMDBQBScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -16,13 +16,13 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Provides methods to execute Configuration Management Database \(CMDB\) Query Builder operations in server-side scripts.
 
-This API is the scoped equivalent of [CMDBQueryBuilderAPI - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBQueryBuilderAPI.md).
+This API is the scoped equivalent of [CMDBQueryBuilderAPI - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CMDBQueryBuilderAPI.md).
 
 This API requires the Configuration Management for Scoped Apps plugin \(com.snc.cmdb.scoped\) and is provided within the `sn_cmdb` namespace.
 
 For more information about CMDB Query Builder, see [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-query-builder-landing-page.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## CMDBQBScopedScriptableAPI - createReport\(String savedQueryId, String savedQueryName\)
 

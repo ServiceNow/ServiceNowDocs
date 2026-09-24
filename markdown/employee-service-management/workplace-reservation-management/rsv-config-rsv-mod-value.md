@@ -2,7 +2,7 @@
 title: Configure reservation multi-day settings in Reservable Module
 description: Set the Max days in future value for configuring reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/rsv-config-rsv-mod-value.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/rsv-config-rsv-mod-value.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -16,9 +16,9 @@ breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Deli
 
 Set the Max days in future value for configuring reservation.
 
-The option to create a multi-day reservation is configured by your administrator using the **Max days for multi-day** Reservable Module Configuration property. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md). Multi-building selection is supported for multi-day reservation. For more information about multi-day reservation, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
+The option to create a multi-day reservation is configured by your administrator using the **Max days for multi-day** Reservable Module Configuration property. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md). Multi-building selection is supported for multi-day reservation. For more information about multi-day reservation, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
 
-For multi-day reservation covering multiple days, the start date and end date span across multiple days \(for example, Start date: October 12, 2023. End date: October 17, 2023\). For more information, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
+For multi-day reservation covering multiple days, the start date and end date span across multiple days \(for example, Start date: October 12, 2023. End date: October 17, 2023\). For more information, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
 
 -   If your administrator has set a limit on the maximum days that you can reserve in future, you can’t select days in the future beyond the set the date by the admin. A warning is displayed about the limitation.
 -   For example, if your administrator has limited the days of future to 45 days, you can’t select a date beyond 45 days while making a recurring reservation. The number of days available for **End on this date** option differs based on the **Daily**, **Weekly**, or **Monthly** selections. The end date and time specified for recurring reservation are used to indicate the end date and time of the reservation.
@@ -27,7 +27,7 @@ For multi-day reservation covering multiple days, the start date and end date sp
     **Note:** You can't select a date beyond a duration that is configured in the Max days in the future reservable module. For example, if Max days in future value are 45, you can’t select a date beyond this duration while making a recurring reservation. The number of days available for **End on this date** option differs based on the **Daily**, **Weekly**, or **Monthly** selections. If the **Max days in future** value isn’t configured on the Reservable module, the date selection isn’t restricted and employees can select a date based on the **Max number of occurrences** configuration.
 
 
-Space and reservation planners \(sn\_wsd\_rsv.reservation\_planner\) with the dedicated role \(sn\_wsd\_rsv.bypass\_module\_validation\) can ignore or bypass certain settings in the Reservable module configuration. For more information, see [Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md).
+Space and reservation planners \(sn\_wsd\_rsv.reservation\_planner\) with the dedicated role \(sn\_wsd\_rsv.bypass\_module\_validation\) can ignore or bypass certain settings in the Reservable module configuration. For more information, see [Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md).
 
 For example, reservation planners or space planners with the dedicated role \(sn\_wsd\_rsv.bypass\_module\_validation\) can ignore or bypass the following settings in the Reservable module:
 
@@ -37,7 +37,7 @@ For example, reservation planners or space planners with the dedicated role \(sn
 -   Available in
 -   All day
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

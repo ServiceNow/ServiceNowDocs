@@ -2,7 +2,7 @@
 title: Create a checklist template
 description: Agents workspace enables the manufacturer to create a checklist for verification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-checklist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-checklist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,5 +52,5 @@ To duplicate a checklist, do the following:
 **Related topics**  
 
 
-[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-checklist-template.md)
+[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-checklist-template.md)
 

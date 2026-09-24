@@ -2,7 +2,7 @@
 title: Purchase requisition and purchase order progress tracking
 description: Procurement specialists and buyers use the Progress Tracker to monitor the approval and fulfillment lifecycle for purchase requisitions and purchase orders. View completed and pending workflow steps, access assigned work items, and review transition history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/monitor-pr-po-progress.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/monitor-pr-po-progress.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -18,14 +18,14 @@ Procurement specialists and buyers use the Progress Tracker to monitor the appro
 
 The Progress Tracker displays the approval and fulfillment lifecycle for purchase requisitions \(PRs\) and purchase orders \(POs\). The stepper shows which steps have completed, which is current, and which are pending. The info card provides contextual details: assigned users, pending work items, completion dates, and — for deviation states — the reason the record diverged and the required next action.
 
--   **[View the purchase requisition Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-pr-progress-tracker.md)**  
+-   **[View the purchase requisition Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-pr-progress-tracker.md)**  
 View the Progress Tracker stepper on a purchase requisition \(PR\) record to understand where the PR sits in its approval and sourcing workflow.
--   **[View the purchase order Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-po-progress-tracker.md)**  
+-   **[View the purchase order Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-po-progress-tracker.md)**  
 View the Progress Tracker stepper on a purchase order record to understand where the PO is in its fulfillment workflow \(receipt and invoicing\).
--   **[Use the Progress Tracker info card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-progress-tracker-info-card.md)**  
+-   **[Use the Progress Tracker info card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-progress-tracker-info-card.md)**  
 View detailed information about a step in the Progress Tracker by selecting the step to expand the info card.
 
-**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
 **Related topics**  
 
@@ -46,9 +46,9 @@ View detailed information about a step in the Progress Tracker by selecting the 
 
 [Configure the Progress Tracker]()
 
-[View the purchase requisition Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-pr-progress-tracker.md)
+[View the purchase requisition Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-pr-progress-tracker.md)
 
-[View the purchase order Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-po-progress-tracker.md)
+[View the purchase order Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-po-progress-tracker.md)
 
-[Use the Progress Tracker info card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-progress-tracker-info-card.md)
+[Use the Progress Tracker info card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-progress-tracker-info-card.md)
 

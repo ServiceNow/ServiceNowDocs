@@ -2,7 +2,7 @@
 title: Plugin requirements for voice and callback integrations with contact centers
 description: For the Interaction Controls Component \(ICC\) call features to work, you must have a combination of plugins that can be downloaded from the ServiceNow Store and CCaaS providers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -53,5 +53,5 @@ The following plugins are required to deploy the call control integration with t
     **Note:** Address the Contact Center Integration Core plugin dependencies prior to downloading the plugin.
 
 
-In addition to the preceding requirements, [Install Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-csm-omni-callback-app.md) for callback integration with contact centers.
+In addition to the preceding requirements, [Install Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/install-csm-omni-callback-app.md) for callback integration with contact centers.
 

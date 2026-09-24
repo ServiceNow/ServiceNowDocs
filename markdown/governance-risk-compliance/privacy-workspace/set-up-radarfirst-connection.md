@@ -2,7 +2,7 @@
 title: Set up the RadarFirst connection
 description: Create the connection and credential that allows Privacy Case Management to communicate with RadarFirst.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/set-up-radarfirst-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/set-up-radarfirst-connection.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace

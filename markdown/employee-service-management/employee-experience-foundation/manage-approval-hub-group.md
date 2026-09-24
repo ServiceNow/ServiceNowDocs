@@ -2,7 +2,7 @@
 title: Update approvals action group
 description: Approvals action group provides quick access to approve or reject the requests directly from the approvals page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/manage-approval-hub-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/manage-approval-hub-group.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -38,7 +38,7 @@ You can use the default set of actions or customize the actions to suit your bus
 
 5.  On the **Action group M2Ms** related list, click New or update an existing record.
 
-    1.  Select the **Action** item from the available options such as **Approve** or **Reject** or [Configure actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-approval-hub-actions.md).
+    1.  Select the **Action** item from the available options such as **Approve** or **Reject** or [Configure actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-approval-hub-actions.md).
 
     2.  Edit the **Order** of the action item.
 

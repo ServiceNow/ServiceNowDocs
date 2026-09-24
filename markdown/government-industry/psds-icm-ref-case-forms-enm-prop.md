@@ -2,7 +2,7 @@
 title: ICM Entity Management Property form
 description: The Property form allows you to create a new property record within an investigative case, and capture as many identifiable details about the property as possible. Not all fields are mandatory, but a minimum amount of information is required for the record to be searchable within ICM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-case-forms-enm-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-icm-ref-case-forms-enm-prop.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

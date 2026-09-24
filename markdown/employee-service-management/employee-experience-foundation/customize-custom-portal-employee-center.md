@@ -2,7 +2,7 @@
 title: Embed a custom portal
 description: Embed your custom portal to replace the Employee Center tab in Microsoft Teams by configuring the system property. The custom portal shows up in the Employee Center tab in Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/customize-custom-portal-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/customize-custom-portal-employee-center.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -106,10 +106,10 @@ For example: `Frame-ancestors 'self' https://teams.microsoft.com *.office.com *.
 </table>    5.  Select **Submit**.
 
 
--   **[Hide the chat button on the custom portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/disable-chat-button-teams-custom-portal.md)**  
+-   **[Hide the chat button on the custom portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/disable-chat-button-teams-custom-portal.md)**  
 Hide the chat option for your custom portal that appears in the Employee Center tab within Microsoft Teams.
--   **[Hide the logout button on the custom portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/disable-logout-button-teams-custom-portal.md)**  
+-   **[Hide the logout button on the custom portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/disable-logout-button-teams-custom-portal.md)**  
 You can hide the logout option for your custom portal that appears in the Employee Center tab within Microsoft Teams.
 
-**Parent Topic:**[Configuring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-dashboard-admin.md)
+**Parent Topic:**[Configuring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-dashboard-admin.md)
 

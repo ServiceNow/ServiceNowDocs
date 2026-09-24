@@ -2,7 +2,7 @@
 title: Automation basics for apps
 description: Automation is central to ServiceNow application development and is a core strength of the ServiceNow AI Platform. Automation enables developers to build applications that reduce manual work, enforce consistency, and respond intelligently to business events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automation-basics-for-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automation-basics-for-apps.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -123,5 +123,5 @@ Predictive Intelligence and AIOps
 Machine learning algorithms analyze patterns in the connected data to predict issues before they occur, automatically route work to the right teams, and proactively resolve incidents.For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence-landing.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
+</table>**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-your-first-app.md)
 

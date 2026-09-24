@@ -2,7 +2,7 @@
 title: Report ranges
 description: Use a report range to define intervals that break up continuous timespan data in table fields. It is necessary to break this data into discreet chunks for presentation.Report ranges work with elements that hold only dates, lists, or integers.To view all currently configured report ranges, navigate to All Platform Analytics Administration Color Settings Report ranges .Create a report range to define data intervals that are used in bar and pie charts.To use report ranges in your Core UI bar and pie visualizations, you must enable the report range module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_ReportRanges.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/c\_ReportRanges.html
 release: australia
 product: Reporting
 classification: reporting
@@ -27,7 +27,7 @@ Example use case: There is a significant cost involved to a business each time a
 
 \[Omitted image "IncidentsCreatedDateWRanges06032013.png"\] Alt text: Vertical bar report with configured report ranges highlighted
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## How report ranges work
 

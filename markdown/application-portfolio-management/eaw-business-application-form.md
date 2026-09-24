@@ -2,7 +2,7 @@
 title: Business application form
 description: Enterprise Architecture helps system admins add any business application to assess and track its costs, usage, business value, functional fitment, and risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-business-application-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-business-application-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -266,7 +266,7 @@ Description
 
 </td><td>
 
-Unique description of the application.You can also elaborate or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
+Unique description of the application.You can also elaborate or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
 
 </td></tr><tr><td>
 
@@ -327,7 +327,7 @@ Reasoning
 
 </td><td>
 
-Reason for the planned disposition decision.You can also generate, elaborate, or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
+Reason for the planned disposition decision.You can also generate, elaborate, or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
 
 </td></tr></tbody>
 </table><table id="table_t2q_xvt_ncc"><thead><tr><th>
@@ -452,12 +452,12 @@ Status of the application that it meets requirements or complies with the polici
 |-----|-----------|
 |Work notes|Work notes entered by you.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add or edit a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-business-app.md)
+[Add or edit a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-business-app.md)
 
-[Create a business application and associate with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-ba-and-assoc-with-trm-product.md)
+[Create a business application and associate with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-ba-and-assoc-with-trm-product.md)
 

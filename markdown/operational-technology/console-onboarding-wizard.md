@@ -2,7 +2,7 @@
 title: Use the Discovery Console for OT interactive configuration wizard
 description: The Discovery Console for OT provides an interactive configuration wizard that steps you through setting up your Console, Sensor, Collector, assets, queries, and sites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/console-onboarding-wizard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/console-onboarding-wizard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-24"
@@ -53,5 +53,5 @@ After you have installed and setup the Discovery Console for OT, the Discovery S
 8.  You can open the configuration wizard on any Console page by selecting the **Tool** wand.
 
 
-**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-console-landing.md)
+**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/ot-discovery-console-landing.md)
 

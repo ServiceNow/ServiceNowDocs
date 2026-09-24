@@ -2,7 +2,7 @@
 title: Configure Integration Provider Mapping \(Decision table\)
 description: Add input choices and define conditions and results in a decision table for the Integration Gateway subflow to review and generate output results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-integration-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-integration-mapping.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -18,7 +18,7 @@ Add input choices and define conditions and results in a decision table for the 
 
 ## Before you begin
 
-View [ServiceNow Otto for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/esm-framework-mapping.md).
+View [ServiceNow Otto for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/esm-framework-mapping.md).
 
 Role required: decision\_table\_admin, sn\_hr\_integr\_fw.admin
 

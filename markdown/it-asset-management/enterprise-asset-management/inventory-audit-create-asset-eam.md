@@ -2,7 +2,7 @@
 title: Create an enterprise asset from the inventory audit screen
 description: Create an enterprise asset record for the scanned asset that doesn't exist in your ServiceNow instance and that is detected when auditing inventory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/inventory-audit-create-asset-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/inventory-audit-create-asset-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -75,7 +75,7 @@ When scanning an asset in the inventory, if a new asset is detected that doesnâ€
 
     **Note:** Depending on the IRE rule configured for the selected **Model** field value, either **Asset Tag**, **Serial Number**, or **MAC address** field value is required to save the audit record.
 
-    For more details on these field descriptions, see [Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-fields-eam.md).
+    For more details on these field descriptions, see [Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/asset-fields-eam.md).
 
 13. Tap **Submit**.
 

@@ -2,7 +2,7 @@
 title: Understand query patterns
 description: Discover and identify performance issues with efficient query patterns to filter records, build dynamic queries, and optimize application performance across tables and modules within the ServiceNow instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-query-patterns-vid-tut.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-query-patterns-vid-tut.html
 release: australia
 topic_type: task
 last_updated: "2026-02-12"
@@ -65,5 +65,5 @@ This query pattern model is a tool that is geared for discovering and identifyin
 8.  Select the **Hash Code** link that takes you to the instance where you can view the slow queries model.
 
 
-**Parent Topic:**[IO analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-analytics.md)
+**Parent Topic:**[IO analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-analytics.md)
 

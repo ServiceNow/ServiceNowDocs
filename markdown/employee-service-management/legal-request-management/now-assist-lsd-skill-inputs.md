@@ -2,7 +2,7 @@
 title: Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)
 description: Get a quick overview of the skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/now-assist-lsd-skill-inputs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/now-assist-lsd-skill-inputs.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -19,7 +19,7 @@ Get a quick overview of the skill inputs for ServiceNow Otto for Legal Service D
 
 Depending on the selected skill, you can configure inputs. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a summary.
 
-Configure the variables of practice areas to be considered as inputs for legal request or matter summarization. To add variables, see [Configure variables for AI summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/configure-variables-for-now-assist-summarization.md).
+Configure the variables of practice areas to be considered as inputs for legal request or matter summarization. To add variables, see [Configure variables for AI summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/configure-variables-for-now-assist-summarization.md).
 
 ## Legal Request summarization
 
@@ -142,5 +142,5 @@ Approvers
 -   Approving
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-customize-skill.md)
+</table>**Parent Topic:**[Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-customize-skill.md)
 

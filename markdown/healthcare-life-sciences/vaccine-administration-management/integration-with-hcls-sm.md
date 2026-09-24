@@ -2,7 +2,7 @@
 title: Integration with Healthcare and Life Sciences Service Management Core
 description: Vaccine Administration Management is integrated with the ServiceNow Healthcare and Life Sciences Service Management Core application, enabling capabilities such as synchronization of some records across applications and services, and vaccination history that patient users can view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/integration-with-hcls-sm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/vaccine-administration-management/integration-with-hcls-sm.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -26,9 +26,9 @@ Integration with Healthcare and Life Sciences Service Management Core also adds 
 **Related topics**  
 
 
-[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-core-app.md)
+[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-core-app.md)
 
-[Patient table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-patient-table.md)
+[Patient table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-patient-table.md)
 
-[Immunization table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-immunization-table.md)
+[Immunization table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-immunization-table.md)
 

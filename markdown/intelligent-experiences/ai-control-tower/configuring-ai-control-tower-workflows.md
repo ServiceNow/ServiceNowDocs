@@ -2,7 +2,7 @@
 title: Configuring AI Control Tower \(legacy\)
 description: Configure the AI Control Tower workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/configuring-ai-control-tower-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/configuring-ai-control-tower-workflows.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -18,9 +18,9 @@ Configure the AI Control Tower workflow.
 
 ## Configuration overview
 
-1.  [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.md)
-2.  [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
-3.  [Configure Multi-instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md)
+1.  [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.md)
+2.  [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
+3.  [Configure Multi-Instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md)
 
 **Note:**
 

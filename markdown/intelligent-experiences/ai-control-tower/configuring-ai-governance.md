@@ -2,7 +2,7 @@
 title: Configure AI Control Tower
 description: Configuring the AI Control Tower for Now Assist from the Configurations page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/configuring-ai-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/configuring-ai-governance.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

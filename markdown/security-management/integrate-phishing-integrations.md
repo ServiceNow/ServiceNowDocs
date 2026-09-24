@@ -2,7 +2,7 @@
 title: Security Simulation and Training Integration for Security Operations
 description: Strengthen your organization's defense against prominent cybersecurity threats by incorporating phishing integrations with the Cybersecurity Executive Dashboard. The Phishing Integrations enhance the Cybersecurity Executive Dashboard by seamlessly incorporating data from third-party phishing simulation tools such as KnowBe4 and Microsoft Defender for Office 365.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/integrate-phishing-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/integrate-phishing-integrations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

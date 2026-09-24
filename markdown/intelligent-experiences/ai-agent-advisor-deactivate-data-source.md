@@ -2,7 +2,7 @@
 title: Deactivate an analysis data source
 description: Deactivate a data source analysis that you no longer want to run for automation opportunity discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-advisor-deactivate-data-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-agent-advisor-deactivate-data-source.html
 release: australia
 topic_type: task
 last_updated: "2026-07-30"
@@ -48,7 +48,7 @@ Role required: sn\_na\_center.nac\_admin
 
 AI Agent Advisor ceases to run the scheduled analysis of the data source.
 
-**Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
+**Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
 
 **Related topics**  
 

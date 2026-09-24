@@ -2,7 +2,7 @@
 title: Modify the experience flow feedback widget
 description: Customize the appearance of the experience flow feedback widget with the instance options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/modify-fdbck-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/modify-fdbck-widgets.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -78,5 +78,5 @@ Presentation
 
 The In page feedback widget is customized according to your preference.
 
-**Parent Topic:**[Integrated service and experience feedback management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ex-fdbck-manage.md)
+**Parent Topic:**[Integrated service and experience feedback management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ex-fdbck-manage.md)
 

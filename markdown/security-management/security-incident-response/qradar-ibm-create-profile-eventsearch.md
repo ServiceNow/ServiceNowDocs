@@ -2,7 +2,7 @@
 title: Select IBM QRadar rules
 description: Based on the IBM QRadar Source, select one or more IBM QRadar rules for the profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm-create-profile-eventsearch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/qradar-ibm-create-profile-eventsearch.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

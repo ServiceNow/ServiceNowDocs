@@ -2,7 +2,7 @@
 title: Field Service Crew Operations components
 description: The roles, tables, script includes, and business rules for the Field Service Crew Operations application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/crew-scheduling-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/crew-scheduling-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -578,5 +578,5 @@ Crew Requirement\[wm\_crew\_requirement\]
 Validates the minimum and recommended crew size for a work order task​.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 

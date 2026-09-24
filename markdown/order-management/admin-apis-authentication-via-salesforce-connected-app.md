@@ -2,7 +2,7 @@
 title: Admin APIs: Authentication using a Salesforce-connected app
 description: We recommend that you use admin API keys to authenticate admin API calls. An older method is documented here.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/admin-apis-authentication-via-salesforce-connected-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/admin-apis-authentication-via-salesforce-connected-app.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ CPQ administration APIs are useful to facilitate new product introduction, data 
 
 **Note:**
 
--   The release of admin API Keys has made this setup unnecessary and is now the recommended method of authentication of admin API calls. See [Intro to admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-api-keys.md).
+-   The release of admin API Keys has made this setup unnecessary and is now the recommended method of authentication of admin API calls. See [Intro to admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-admin-api-keys.md).
 -   The JWT method that was recommended before February 2025 has been deprecated by Salesforce. Instead, follow the updated steps in this article.
 
 The JWT can be used as a bearer token to authenticate CPQ administration APIs to manipulate managed tables, write rules, deploy blueprints, and more.

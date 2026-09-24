@@ -2,12 +2,12 @@
 title: Request order changes via calls
 description: Use the AI voice agents to expedite delivery, change quantity, or change the shipping location for an order by using voice calls. The voice agent captures your request and creates an order case for an order case agent to resolve.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/now-assist-order-mgmt-voice-aiagent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/now-assist-order-mgmt-voice-aiagent.html
 release: australia
 topic_type: task
 last_updated: "2026-05-21"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
@@ -57,5 +57,5 @@ Using the order exception AI voice agent, you can do the following:
 
 The AI voice agent creates an order case for your request, with a system-generated number starting with the prefix ORDCS, and provides you with the case number over the call. Make a note of the case number, because no email confirmation is sent for order cases that are created through the voice channel.
 
-**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-case-self-service.md)
+**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-case-self-service.md)
 

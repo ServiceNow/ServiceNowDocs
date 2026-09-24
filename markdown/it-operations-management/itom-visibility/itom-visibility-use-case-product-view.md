@@ -2,7 +2,7 @@
 title: ITOM Visibility and CSDM reference
 description: ITOM Visibility consists of two ServiceNow products: Discovery and Service Mapping. These products are responsible for creating Configuration Items \(CIs\) in the CMDB and relating them. The goal of this product view is to help you to understand how ITOM Visibility works with the core CSDM framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -39,16 +39,16 @@ For details on implementing CMDB data to conform with the CSDM framework, see [I
 
 [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-implementation-stages.md).
 
-[Discovery basics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_GetStartedWithDiscovery.md).
+[Discovery basics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_GetStartedWithDiscovery.md).
 
-[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md).
+[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_ServiceMappingOverview.md).
 
--   **[ITOM Visibility and CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-use-case.md)**  
+-   **[ITOM Visibility and CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/itom-visibility-use-case.md)**  
 ITOM Visibility manages and uses CMDB tables. Several ServiceNow products benefit from and add value to ITOM Visibility.
--   **[ITOM Visibility use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-use-case-example.md)**  
+-   **[ITOM Visibility use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/itom-visibility-use-case-example.md)**  
 The ITOM Visibility use cases are described in this section.
--   **[ITOM Visibility considerations for CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-use-case-trouble.md)**  
+-   **[ITOM Visibility considerations for CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/itom-visibility-use-case-trouble.md)**  
 Consider these points while implementing the CSDM framework.
 
-**Parent Topic:**[ITOM Visibility reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/visibility-reference.md)
+**Parent Topic:**[ITOM Visibility reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/visibility-reference.md)
 

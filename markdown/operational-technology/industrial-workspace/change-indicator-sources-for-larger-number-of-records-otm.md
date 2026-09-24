@@ -2,7 +2,7 @@
 title: Review the indicator sources for a large number of records
 description: Review the indicator sources if you need a large number of records. You can override the records collection so that the Operational Technology \(OT\) Visibility dashboard shows more records than the default value of 1 million.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/change-indicator-sources-for-larger-number-of-records-otm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/change-indicator-sources-for-larger-number-of-records-otm.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -60,5 +60,5 @@ The job logs may include errors that aren't about the indicator sources. You mus
 6.  Select **Update**.
 
 
-**Parent Topic:**[Setting up the Operational Technology Visibility dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-devices-dashboard.md)
+**Parent Topic:**[Setting up the Operational Technology Visibility dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/setting-up-the-ot-devices-dashboard.md)
 

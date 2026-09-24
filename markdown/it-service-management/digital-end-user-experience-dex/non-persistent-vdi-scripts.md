@@ -2,7 +2,7 @@
 title: Non-persistent VDI parameters, scripts, and settings
 description: Find the Agent Client Collector mid-less installation command syntax, logon and logoff script file names and locations, and an installation command example when setting up a non-persistent VDI golden image.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/non-persistent-vdi-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/non-persistent-vdi-scripts.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -59,5 +59,5 @@ The following table lists the `acc.yml` settings that apply to a non-persistent 
 |`disable-asset`|`true`|Prevents the agent from re-using a single asset record across duplicate VDIs. Each duplicate VDI generates its own asset record on first start.|
 |`agent-key-id`|Removed|Removed from the file before sealing the golden image so duplicate VDIs request a fresh key on first registration.|
 
-**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

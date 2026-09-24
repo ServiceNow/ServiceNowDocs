@@ -2,7 +2,7 @@
 title: Cancel a contract request
 description: Cancel a contract request if it is no longer necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-cancel-request-tpc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-cancel-request-tpc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -45,5 +45,5 @@ You can cancel a contract request when the contract request state is in Draft, N
 -   The contract request State updates to Canceled and the contract status updates to Contract Canceled.
 -   The document signature sent to signatories is canceled to block further signing. The signatories get an email notification that the contract request has been canceled.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

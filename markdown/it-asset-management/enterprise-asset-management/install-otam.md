@@ -2,7 +2,7 @@
 title: Install OT Asset Management
 description: You can install the OT Asset Management application \(com.sn\_otam\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-otam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/install-otam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -30,7 +30,7 @@ The following items are installed with OT Asset Management:
 -   Store applications
 -   Roles
 
-For more information, see [Installed with OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/installed-with-otam.md).
+For more information, see [Installed with OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/installed-with-otam.md).
 
 ## Procedure
 
@@ -55,7 +55,7 @@ For more information, see [Installed with OT Asset Management](https://raw.githu
 6.  Select **Install**.
 
 
-**Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-asset-management.md)
+**Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/ot-asset-management.md)
 
 **Related topics**  
 

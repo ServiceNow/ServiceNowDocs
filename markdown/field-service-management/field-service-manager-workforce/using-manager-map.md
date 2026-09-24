@@ -2,7 +2,7 @@
 title: Using the map
 description: The map displays agent information and the tasks assigned to them. Field service users can search and view information about agents in their assigned groups and the status of tasks in their area.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/using-manager-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/using-manager-map.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

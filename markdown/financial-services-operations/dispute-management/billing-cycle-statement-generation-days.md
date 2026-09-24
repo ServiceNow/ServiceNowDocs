@@ -2,7 +2,7 @@
 title: Billing cycle and statement generation days
 description: The billing cycle and statement generation day values are required for service level agreements \(SLAs\) to trigger on credit card dispute records. These values are stored in the Personal credit card account \[sn\_bom\_credit\_card\] table and are accessible from the Account Parameters related list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/billing-cycle-statement-generation-days.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/billing-cycle-statement-generation-days.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -24,5 +24,5 @@ These values can also be found in the consumer's personal credit card account re
 
 \[Omitted image "billing-cycle-statement-gen-day.png"\] Alt text: Personal Credit Card Account form with the Account Parameters tab selected, showing billing cycle, statement generation day, bill due date, and statement generation date fields.
 
-**Parent Topic:**[Dispute Content Pack for US Regulations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-reference.md)
+**Parent Topic:**[Dispute Content Pack for US Regulations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-reference.md)
 

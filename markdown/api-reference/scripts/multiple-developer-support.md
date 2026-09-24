@@ -2,7 +2,7 @@
 title: Script Debugger multiple developer support
 description: The Script Debugger allows multiple developers to debug their own transactions without affecting each other.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/multiple-developer-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/multiple-developer-support.html
 release: australia
 product: Scripts
 classification: scripts
@@ -46,10 +46,10 @@ Administrators can view the currently running debugger sessions by navigating to
 
 Administrators can stop all currently running debugging sessions by navigating to the page `debugger_reset.do`. Only users with the admin role can access this page.
 
-**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
+**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debugger.md)
 
 **Related topics**  
 
 
-[Script Debugger impersonation support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/impersonation-support.md)
+[Script Debugger impersonation support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/impersonation-support.md)
 

@@ -2,7 +2,7 @@
 title: Configure update set scanning properties
 description: The Scan Engine provides several options to further configure update set scanning and enhance the governance over update set management. Update set scanning occurs during scheduled instance scans and when developers attempt to mark update sets complete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/update-set-scanning-properties2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/update-set-scanning-properties2.html
 release: australia
 topic_type: task
 last_updated: "2026-07-10"
@@ -96,14 +96,14 @@ Allow Suite Scan for update sets
 </table>7.  Select **Save**.
 
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 
 **Related topics**  
 
 
-[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md)
+[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/create-scan-engine-definition-suites.md)
 
-[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-application-scanning-properties.md)
+[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-application-scanning-properties.md)
 
-[Initiate update set scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-update-set-scans.md)
+[Initiate update set scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/initiate-update-set-scans.md)
 

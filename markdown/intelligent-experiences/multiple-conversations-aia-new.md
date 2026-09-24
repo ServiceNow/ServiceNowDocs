@@ -2,10 +2,10 @@
 title: Multiple conversations in Now Assist AI agents
 description: Multiple active conversations enable live agents to maintain separate conversations for different records. You can preserve the context of multiple conversations and enable multiple AI agents to interact at the same time through the Now Assist panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/multiple-conversations-aia-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/multiple-conversations-aia-new.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
 ---

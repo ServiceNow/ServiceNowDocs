@@ -2,7 +2,7 @@
 title: Integration with Event Management
 description: Create cases proactively from alerts either manually or through automation. Track the accounts and health status of the corresponding install base items affected by the alert to better correlate customer issues and provide faster responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/pcso-event-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/pcso-event-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

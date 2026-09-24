@@ -2,7 +2,7 @@
 title: Configure Financial Services Operations AI skills
 description: Configure AI skills for Financial Services Operations to enable capabilities such as case summarization, disputes intake, and customer profile summarization. Use this overview to identify and complete the configuration tasks for your deployment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-fso-now-assist-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-fso-now-assist-skills.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-29"
@@ -18,27 +18,27 @@ Configure AI skills for Financial Services Operations to enable capabilities suc
 
 ## AI skills configuration overview
 
--   [Configure case summarization in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-now-assist-for-fso.md)
+-   [Configure case summarization in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-now-assist-for-fso.md)
 
     Configure case summarization skills for your agents in Financial Services Workspace and Core UI.
 
--   [Configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-disputes-intake-via-virtual-agent.md)
+-   [Configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/configuring-disputes-intake-via-virtual-agent.md)
 
     Set up Disputes intake via Virtual Agent to provide a conversational chatbot experience for your customers to submit card disputes.
 
--   [Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-profile-summarization-fso.md)
+-   [Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-customer-profile-summarization-fso.md)
 
     Configure and activate the Customer Profile Summarization skill for the Customer 360 page in Agentic Contact Center for Banking.
 
--   [Configure banking customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-contextual-summarization-fso.md)
+-   [Configure banking customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-customer-contextual-summarization-fso.md)
 
     Configure and activate the Customer Interaction Context Summary skill for the Interaction page in Agentic Contact Center for Banking.
 
--   [Configure insurance customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-customer-profile-summarization.md)
+-   [Configure insurance customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-insurance-customer-profile-summarization.md)
 
     Configure and activate the Insurance Customer Profile Summarization skill for the Customer 360 page in Agentic Contact Center for Insurance.
 
--   [Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md)
+-   [Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-insurance-interaction-summary-skill.md)
 
     Configure and activate the Insurance interaction context summary skill for the Interaction page in Agentic Contact Center for Insurance.
 
@@ -46,5 +46,5 @@ Configure AI skills for Financial Services Operations to enable capabilities suc
 **Related topics**  
 
 
-[AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-capabilities-in-fso.md)
+[AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/ai-capabilities-in-fso.md)
 

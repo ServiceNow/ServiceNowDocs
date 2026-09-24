@@ -2,7 +2,7 @@
 title: Execute audits immediately
 description: Audits typically run as scheduled. You can, however, run all audits on command.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/execute-audits-immediately.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/execute-audits-immediately.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

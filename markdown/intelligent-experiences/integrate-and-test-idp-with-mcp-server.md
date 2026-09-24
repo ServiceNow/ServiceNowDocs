@@ -2,7 +2,7 @@
 title: Integrate and test IDP with MCP server
 description: This phase within integration of MCP server with IDP involves connecting the MCP client \(such as Claude Desktop\) to the configured systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-and-test-idp-with-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-and-test-idp-with-mcp-server.html
 release: australia
 topic_type: task
 last_updated: "2026-06-19"
@@ -42,5 +42,5 @@ Role required: admin
 
 Your MCP server is now configured to authenticate users through the third-party IDP. Users who connect an MCP client to this server are redirected to the IDP to authenticate.
 
-**Parent Topic:**[Integrating MCP server with third-party identity providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-mcp-server-with-third-party-identity-providers.md)
+**Parent Topic:**[Integrating MCP server with third-party identity providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrating-mcp-server-with-third-party-identity-providers.md)
 

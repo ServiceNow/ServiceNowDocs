@@ -2,7 +2,7 @@
 title: Configure the Contractor Service Center portal theme
 description: A theme is a collection of one or more style sheets \(CSS files\) that define a consistent look for a set of pages. Configure the default portal theme to apply your own theme to suit your branding and improve the visual design of the portal pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contractor-service-center/hs-customize-contractor-service-center-portal-theme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contractor-service-center/hs-customize-contractor-service-center-portal-theme.html
 release: australia
 product: Contractor Service Center
 classification: contractor-service-center
@@ -55,5 +55,5 @@ Contractor Service Center application ships a default **CSC theme** that has the
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contractor-service-center/hs-configure-contractor-service-center.md)
+**Parent Topic:**[Configuring Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contractor-service-center/hs-configure-contractor-service-center.md)
 

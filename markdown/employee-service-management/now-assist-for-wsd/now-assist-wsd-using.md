@@ -2,7 +2,7 @@
 title: Using ServiceNow Otto for WSD
 description: Using ServiceNow Otto for Workplace Service Delivery \(WSD\) for creating a reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/now-assist-wsd-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-using.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd

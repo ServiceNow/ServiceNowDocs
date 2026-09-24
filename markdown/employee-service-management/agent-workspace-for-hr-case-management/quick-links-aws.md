@@ -2,7 +2,7 @@
 title: Configure quick links in Agent Workspace for HR Case Management
 description: Configure quick links to quickly access internal and external resources related to specific departments within your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/quick-links-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/quick-links-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -18,7 +18,7 @@ Configure quick links to quickly access internal and external resources related 
 
 ## Before you begin
 
-Employee Center Pro must be installed. For more information, see [Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-ec-pro.md).
+Employee Center Pro must be installed. For more information, see [Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-ec-pro.md).
 
 Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
@@ -185,7 +185,7 @@ Final date the content is valid.
     7.  Select **Save**.
 
 
-**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/uib-aws.md)
+**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/uib-aws.md)
 
 **Related topics**  
 

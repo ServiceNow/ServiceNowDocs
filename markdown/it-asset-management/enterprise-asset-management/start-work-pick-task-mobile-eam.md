@@ -2,7 +2,7 @@
 title: Start working on an enterprise asset pick task using the Mobile Agent application
 description: Indicate in the Mobile Agent application when you start work on an asset pick task assigned to you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/start-work-pick-task-mobile-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/start-work-pick-task-mobile-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -50,5 +50,5 @@ On the **Details** tab, the **Start work** link changes to **Start timer**, **Lo
 
 ## What to do next
 
-Complete the asset pick task assigned to you. For details, see [Locate and pick the enterprise assets in your stockroom using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/locate-and-pick-enterprise-asset-mobile-app.md).
+Complete the asset pick task assigned to you. For details, see [Locate and pick the enterprise assets in your stockroom using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/locate-and-pick-enterprise-asset-mobile-app.md).
 

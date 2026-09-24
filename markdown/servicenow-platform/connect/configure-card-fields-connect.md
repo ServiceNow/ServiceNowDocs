@@ -2,7 +2,7 @@
 title: Configure the fields on a record card in Connect
 description: When a record is either linked to or created from a Connect Chat conversation, the details of the record display as a card in the chat window.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/configure-card-fields-connect.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/configure-card-fields-connect.html
 release: australia
 product: Connect
 classification: connect

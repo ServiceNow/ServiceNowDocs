@@ -2,7 +2,7 @@
 title: GRC Compliance Workspace
 description: Compliance Workspace is a unified interface where you can manage all your tasks related to policies, control objectives, controls, and policy exceptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/grc-unified-compliance-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/grc-unified-compliance-workspace.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -59,7 +59,7 @@ The highlights of the Compliance Workspace are:
     List view of all compliance-related records, providing the summary of the record in a single view that helps in your analyses and take an informed decision.
 
 
-**Note:** The **Control tests** widget, **Regulatory changes** widget, and **Domain compliance status** section appear with the installation of audit, regulatory change management, and privacy management plugins, respectively. For more information, see [Other GRC plugins for an overall view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.md).
+**Note:** The **Control tests** widget, **Regulatory changes** widget, and **Domain compliance status** section appear with the installation of audit, regulatory change management, and privacy management plugins, respectively. For more information, see [Other GRC plugins for an overall view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.md).
 
 ## Roles in the Compliance Workspace
 
@@ -73,9 +73,9 @@ To access or view the Compliance Workspace, you need one of the following roles:
 
 For more information on the roles, the responsibilities, and the tasks that the users can accomplish in the Compliance Workspace, see
 
--   [Compliance Home page for the compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.md).
--   [Compliance Home page for the compliance analyst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/compliance-analyst-compliance-ws.md).
--   [Compliance Home page for the IT compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/it-compliance-manager-compliance-ws.md).
+-   [Compliance Home page for the compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.md).
+-   [Compliance Home page for the compliance analyst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/compliance-analyst-compliance-ws.md).
+-   [Compliance Home page for the IT compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/it-compliance-manager-compliance-ws.md).
 
 ## Email notification redirection
 

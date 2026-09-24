@@ -2,7 +2,7 @@
 title: Bind an event to a data resource
 description: Assign event handlers within UI Builder to individual data resources on your page. When a data resource successfully fetches new data, it executes an event handler to take a user to the next step in a flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/bind-event-data-resource.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/bind-event-data-resource.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -30,19 +30,19 @@ Bind an event to a data resource, to perform data-related actions on your page. 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md).
 
 3.  Create or open a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md).
 
 4.  If you do not have any components on your page, add one to your page.
 
-    For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-components.md).
 
 5.  Add a data resource to your page.
 
-    For more information, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-data-resources.md).
+    For more information, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-data-resources.md).
 
 6.  Select a data resource instance.
 
@@ -79,8 +79,8 @@ Bind an event to a data resource, to perform data-related actions on your page. 
 16. To preview your page and test the data resource event that you set up, select \[Omitted image "preview-button.png"\] Alt text: Preview button in the UI Builder header.
 
 
--   **[Link an event to another page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/link-component-destination.md)**  
+-   **[Link an event to another page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/link-component-destination.md)**  
 Add a link to the destination event handler within UI Builder so that an event action can open another page. You can also configure the event handler to follow the App Route to the desired page.
 
-**Parent Topic:**[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-events.md)
+**Parent Topic:**[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/bind-events.md)
 

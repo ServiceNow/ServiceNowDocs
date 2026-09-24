@@ -2,7 +2,7 @@
 title: Compare knowledge article versions in Agent Workspace
 description: Select and compare two versions of a knowledge article in Agent Workspace to view the differences between them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/compare-article-versions-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/compare-article-versions-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -22,7 +22,7 @@ You must have contribute access to the knowledge base that stores the knowledge 
 
 Role required: agent\_workspace\_user
 
-**Note:** For comparison of the knowledge article versions in the Next Experience UI, see [Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/compare-two-article-versions.md).
+**Note:** For comparison of the knowledge article versions in the Next Experience UI, see [Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/compare-two-article-versions.md).
 
 ## Procedure
 
@@ -46,5 +46,5 @@ The **Compare versions** tab opens within Agent Workspace and lists the fields f
 **Related topics**  
 
 
-[Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md)
+[Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/article-versioning.md)
 

@@ -2,7 +2,7 @@
 title: Configure a restricted caller access privilege
 description: Configure a restricted caller access privilege for the document templates application with a global scope to allow the legal matter application to perform read operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/config-rca-privilege.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-hold-notification/config-rca-privilege.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -47,5 +47,5 @@ Role required: admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
+**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
 

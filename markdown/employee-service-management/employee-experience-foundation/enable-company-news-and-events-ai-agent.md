@@ -2,7 +2,7 @@
 title: Activate Company News and Events AI Agent
 description: Activate the Company News and Events AI Agent to enable users to check news and events in ServiceNow Otto for Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/enable-company-news-and-events-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/enable-company-news-and-events-ai-agent.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

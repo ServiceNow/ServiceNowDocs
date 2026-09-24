@@ -2,7 +2,7 @@
 title: Configure SLA definitions for customer service cases
 description: A service level agreement \(SLA\) specifies the time within which service must be provided. Configure SLA definitions that include the necessary information to create and progress SLAs for customer service cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_DefineSLAForCustServiceCase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_DefineSLAForCustServiceCase.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

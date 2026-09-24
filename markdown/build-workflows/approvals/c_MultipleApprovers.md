@@ -2,7 +2,7 @@
 title: Multiple approvers
 description: With multiple approvers, all approvers must authorize the request before the status will change to "Approved".
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/c\_MultipleApprovers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/approvals/c\_MultipleApprovers.html
 release: australia
 product: Approvals
 classification: approvals
@@ -21,5 +21,5 @@ Should any approver reject the request, the status will immediately be set to "R
 **Related topics**  
 
 
-[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_Approvals.md)
+[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/approvals/r_Approvals.md)
 

@@ -2,7 +2,7 @@
 title: Analyze sentiments in ServiceNow Otto for IT Service Management \(ITSM\)
 description: Make informed decisions on incidents based on requester's sentiment and the reasoning behind it in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/sentiment-analysis-now-assist-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/sentiment-analysis-now-assist-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -25,15 +25,15 @@ Role required: itil
 
 1.  Navigate to the incident list or incident form in the Core UI or in Service Operations Workspace for ITSM.
 
-<table id="choicetable_svt_mlg_w2c"><thead><tr><th align="left" id="d394451e88">
+<table id="choicetable_svt_mlg_w2c"><thead><tr><th align="left" id="d394430e88">
 
 To
 
-</th><th align="left" id="d394451e91">
+</th><th align="left" id="d394430e91">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d394451e97">
+</th></tr></thead><tbody><tr><td id="d394430e97">
 
 **Navigate in Core UI**
 
@@ -55,7 +55,7 @@ The incident form view appears.
 
 **Note:** If the **Sentiment** field does not appear, you must configure the form layout. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) and add the **Sentiment** field.
 
-</td></tr><tr><td id="d394451e170">
+</td></tr><tr><td id="d394430e170">
 
 **Navigate in Service Operations Workspace for ITSM**
 

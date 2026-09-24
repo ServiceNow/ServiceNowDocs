@@ -2,7 +2,7 @@
 title: Add associated skills
 description: Add associated skills to external learning content in Learning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/add-associated-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/add-associated-skills.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -44,5 +44,5 @@ Role required: admin
 7.  Add users who should have access to external learning content skills.
 
 
-**Parent Topic:**[View external Learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/view-external-learning-content.md)
+**Parent Topic:**[View external Learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/view-external-learning-content.md)
 

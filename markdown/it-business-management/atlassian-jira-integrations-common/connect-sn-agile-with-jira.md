@@ -2,7 +2,7 @@
 title: Connecting Agile Development 2.0 to Jira
 description: Establish a connection between Agile Development 2.0 and Jira using a Jira connection alias and a Jira instance.Create a Basic Auth credential and an HTTP\(s\) connection with a Jira connection alias to establish a connection with Jira.Create a Jira instance record using the connection alias that you created to enable the setup of Jira integration with Agile Development 2.0.Connect Jira to Agile Development 2.0 to enable the integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/connect-sn-agile-with-jira.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/atlassian-jira-integrations-common/connect-sn-agile-with-jira.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -21,7 +21,7 @@ When you connect Agile Development 2.0 to Jira, a webhook is registered in Jira 
 -   Creating or updating projects.
 -   Creating, updating, or deleting information of epic, story, sprint, and any custom table maps and their fields.
 
-**Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)
+**Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)
 
 ## Create a Jira connection alias for integration with Agile Development 2.0
 
@@ -97,7 +97,7 @@ Role required: sn\_jira\_int.user
 
 ### What to do next
 
-[Discover and import Jira projects and boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/discover-projects.md)
+[Discover and import Jira projects and boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/atlassian-jira-integrations-common/discover-projects.md)
 
 .
 

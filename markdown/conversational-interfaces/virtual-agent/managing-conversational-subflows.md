@@ -2,7 +2,7 @@
 title: Managing conversational subflows in Assistant Designer
 description: View and manage conversational subflows through Assistant Designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/managing-conversational-subflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/managing-conversational-subflows.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +17,7 @@ breadcrumb: [Getting started with the Asset library in Assistant Designer, Build
 
 View and manage conversational subflows through Assistant Designer.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 When you have the admin or virtual\_agent\_admin role, you can work with conversational subflows in Assistant Designer.
 
@@ -46,12 +46,12 @@ Use the row actions icon \[Omitted image "kebab-menu.png"\] Alt text: to work wi
 |Active|Option to toggle the subflow's active status. If active, the subflow is available within the conversation.|
 |Delete|Option to delete the subflow is not applicable within Assistant Designer because subflows can only be deleted within Workflow Studio.|
 
-**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 
 **Related topics**  
 
 
-[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
+[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
 
 [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md)
 

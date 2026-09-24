@@ -2,7 +2,7 @@
 title: Enable configuration of components with inherited controllers in component builder
 description: Learn how components can inherit page resources.Configure components to automatically inherit controllers and data resources when placed on pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/inherited-controllers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/inherited-controllers.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -34,7 +34,7 @@ When you place a component configured for inheritance on a page, the inheritance
 |One|Connects to that resource|
 |Multiple|Connects to the first instance of that resource|
 
-**Parent Topic:**[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/component-builder-uib.md)
+**Parent Topic:**[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/component-builder-uib.md)
 
 ## Enable configuration of components with inherited controllers
 

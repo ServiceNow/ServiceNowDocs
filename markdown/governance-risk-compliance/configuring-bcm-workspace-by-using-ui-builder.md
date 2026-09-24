@@ -2,7 +2,7 @@
 title: Setup for the UI Builder
 description: You can set up and extend the BCM Workspace pages and components by using the UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configuring-bcm-workspace-by-using-ui-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configuring-bcm-workspace-by-using-ui-builder.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

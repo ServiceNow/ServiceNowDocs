@@ -2,7 +2,7 @@
 title: Configure an entity table to use special handling notes
 description: Configure an entity table to use special handling notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ConfigEntityToUseSHNotes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_ConfigEntityToUseSHNotes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

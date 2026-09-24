@@ -2,7 +2,7 @@
 title: Configure API key - Token-based authentication
 description: Configure an API key to support authentication for REST API endpoints.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-api-key.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/configure-api-key.html
 release: australia
 product: Authentication
 classification: authentication
@@ -151,7 +151,7 @@ Expiry
 
 </td><td>
 
-Time after which the credential is no longer valid. Empty value means no expiration.**Note:** For more information, about expiry of token, see [Cleaning up token Expiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/token-expiry-api-and-hmac.md) .
+Time after which the credential is no longer valid. Empty value means no expiration.**Note:** For more information, about expiry of token, see [Cleaning up token Expiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/token-expiry-api-and-hmac.md) .
 
 </td></tr></tbody>
 </table>    4.  Submit the form.

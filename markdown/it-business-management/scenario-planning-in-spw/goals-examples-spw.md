@@ -2,12 +2,12 @@
 title: Goals examples and recommendations
 description: Business goals are an important part of establishing up priorities and setting a company for success. Understanding how to set achievable goals can greatly increase the ability to stay on track both in the short term and the long term for a company.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/goals-examples-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/goals-examples-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -45,7 +45,7 @@ The following are the recommendations on how to setup goals and targets for an o
 
     **Target 1:** Expand market share by 10% in target regions
 
-    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
+    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
 
     -   Start date: 1/1/24
     -   End date: 31/12/24
@@ -57,7 +57,7 @@ The following are the recommendations on how to setup goals and targets for an o
     -   Target value distribution: Spread linearly across the time period \(cumulative\)
     **Target 2:** Launch four new products or services by the end of Q4
 
-    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
+    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
 
     -   Start date: 1/1/24
     -   End date: 31/12/24
@@ -69,7 +69,7 @@ The following are the recommendations on how to setup goals and targets for an o
     -   Target value distribution: Split equally across the time period \(non-cumulative\)
     **Target 3:** Acquire 1,000 new enterprise customers
 
-    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
+    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
 
     -   Start date: 1/1/24
     -   End date: 31/12/24
@@ -84,7 +84,7 @@ The following are the recommendations on how to setup goals and targets for an o
 
     **Target 1:** Increase Net Promoter Score \(NPS\) from 70 to 85
 
-    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
+    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
 
     -   Start date: 1/1/24
     -   End date: 31/12/24
@@ -96,7 +96,7 @@ The following are the recommendations on how to setup goals and targets for an o
     -   Target value distribution: Spread linearly across the time period \(cumulative\)
     **Target 2:** Decrease customer churn rate from 12% to 8%
 
-    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
+    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
 
     -   Start date: 1/1/24
     -   End date: 31/12/24
@@ -108,7 +108,7 @@ The following are the recommendations on how to setup goals and targets for an o
     -   Target value distribution: Spread linearly across the time period \(cumulative\)
     **Target 3:** Conduct quarterly customer feedback surveys with a 60% response rate
 
-    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
+    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
 
     -   Start date: 1/1/24
     -   End date: 31/12/24
@@ -123,7 +123,7 @@ The following are the recommendations on how to setup goals and targets for an o
 
     **Target 1:** Establish partnership with five new consulting firms
 
-    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
+    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
 
     -   Start date: 1/1/24
     -   End date: 31/12/24
@@ -135,7 +135,7 @@ The following are the recommendations on how to setup goals and targets for an o
     -   Target value distribution: Spread linearly across the time period \(cumulative\)
     **Target 2:** Generate $100K revenue through partners
 
-    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
+    The following is the recommended setup for defining the target using the [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md) in the workspace:
 
     -   Start date: 1/1/24
     -   End date: 31/12/24

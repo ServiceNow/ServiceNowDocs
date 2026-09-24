@@ -2,7 +2,7 @@
 title: Prefilling variable values on the catalog item form in the portal and Next Experience UIs
 description: When catalog item requesters want to order items on portals or Next Experience UI, you can set the catalog items to use the key-value pairs, which prefill the variable values. The requesters can finish forms faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/prefill-variable-values-catalog-item-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/prefill-variable-values-catalog-item-form.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -83,5 +83,5 @@ In this example, as shown in the image, there are two variables, Department and 
 
 Once you configure this, when requesters request items, they would see the forms prefilled.
 
-**Parent Topic:**[Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariables.md)
+**Parent Topic:**[Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ServiceCatalogVariables.md)
 

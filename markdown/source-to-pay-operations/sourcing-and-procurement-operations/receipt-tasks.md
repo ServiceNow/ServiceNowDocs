@@ -2,7 +2,7 @@
 title: Receipt tasks
 description: Receipt tasks are created when goods receipt is required for the purchase line.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/receipt-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/receipt-tasks.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -165,7 +165,7 @@ Receipts
 
 List of all the receipts for this task.This list is populated when the shipment of the product is partially or fully complete.
 
- For more details, see [Receipts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/receipts.md)
+ For more details, see [Receipts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/receipts.md)
 
 </td></tr><tr><td>
 
@@ -173,8 +173,8 @@ Shipment details
 
 </td><td>
 
-List of all the shipment tracking numbers for this receipt task.For more details, see [Shipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shipment-details.md).
+List of all the shipment tracking numbers for this receipt task.For more details, see [Shipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shipment-details.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
+</table>**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

@@ -2,7 +2,7 @@
 title: Select an application from the application picker
 description: Use the application picker to select the application scope to which any new records and updates apply.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SelectAnAppFromTheAppPicker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_SelectAnAppFromTheAppPicker.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ For more information about application scoping, see [Application scope](https://
 
 For more information about selecting update sets, see [Select the current update set in Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/select-update-set-system-settings.md).
 
-**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/using-legacy-application-manager.md)
 

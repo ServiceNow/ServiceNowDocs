@@ -2,7 +2,7 @@
 title: Change success score
 description: Use team historical data for insights into team performance. The score value helps you to determine how likely the team is to complete your change request without issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-success-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-success-score.html
 release: australia
 product: Change Management
 classification: change-management
@@ -32,7 +32,7 @@ Navigate to **Change** &gt; **Change Analytics** to access the **Change Success 
 
 \[Omitted image "change-success-score-db.png"\] Alt text: change success dashboard
 
-For more information on the indicators, see [Success score indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-success-score-indicator.md).
+For more information on the indicators, see [Success score indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-success-score-indicator.md).
 
 ## Change Type Success dashboard
 
@@ -42,12 +42,12 @@ This dashboard displays trends in the resolution efficiency for change types. To
 
 This dashboard displays trends in the resolution efficiency for the change model over time based on the same parameters used to calculate the overall score. To view the trends of all the change model, clear the selected model.
 
--   **[Success score indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-success-score-indicator.md)**  
+-   **[Success score indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-success-score-indicator.md)**  
 Change Success score contains Performance Analytics indicators for data collection. Indicators define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
--   **[Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-score-calculation.md)**  
+-   **[Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-score-calculation.md)**  
 To calculate the success score, formula indicators are provided. These indicators apply the multiplication operation to the data collected by the automated indicators to arrive at the final score.
--   **[Configure success score rating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-success-score-rating.md)**  
+-   **[Configure success score rating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-success-score-rating.md)**  
 Based on the change success score rating, a color and text is associated that is displayed as part of the Change Success Score card. By default, four success score ratings are available with a specific score range.
 
-**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-change-management.md)
 

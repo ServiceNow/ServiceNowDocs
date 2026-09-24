@@ -2,14 +2,14 @@
 title: Configure crawl settings for a Miro external content connector
 description: Specify the Spaces and boards you want your Miro external content connector to crawl. Define inclusion or exclusion filters to restrict the content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-crawl-settings-miro-external-content-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-crawl-settings-miro-external-content-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-05-15"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Miro external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Specify the Spaces and boards you want your Miro external content connector to c
 
 ## Before you begin
 
-A connector administrator must have already created the Miro external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-miro.md).
+A connector administrator must have already created the Miro external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-miro.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -84,8 +84,8 @@ If one of your connectors reaches the content indexing limit, you can update its
 
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
-    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 8.  Select **Save and validate**.
 
 
@@ -95,7 +95,7 @@ The Miro external content connector is updated with your modified crawl settings
 
 ## What to do next
 
-To retrieve searchable text content and metadata from your Miro source system using your modified crawl settings, create and run a one-time content crawl for your Miro external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
+To retrieve searchable text content and metadata from your Miro source system using your modified crawl settings, create and run a one-time content crawl for your Miro external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/miro-external-content-connector.md)
+**Parent Topic:**[Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/miro-external-content-connector.md)
 

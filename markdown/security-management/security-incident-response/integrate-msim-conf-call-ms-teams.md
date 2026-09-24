@@ -2,7 +2,7 @@
 title: Integrate MSIM Conference Calls with Microsoft Teams
 description: The Conference Call Microsoft Teams integration enables you to manage and initiate a Microsoft Teams conference call directly from a major security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/integrate-msim-conf-call-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/integrate-msim-conf-call-ms-teams.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -37,10 +37,10 @@ For more information, see [Request IntegrationHub](https://raw.githubusercontent
 -   To configure the MSIM Conference Call Microsoft Teams integration using the pre-configured app, see [Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-notify-ms-teams-multi-tenant.md).
 -   To configure the MSIM Conference Call Microsoft Teams integration using the self-configured app, see [Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-notify-ms-teams-single-tenant.md).
 
--   **[Use the MSIM Conference Call Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-conf-call-ms-teams-integration.md)**  
+-   **[Use the MSIM Conference Call Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-conf-call-ms-teams-integration.md)**  
 The following steps give you a walkthrough of how you can manage and initiate a Microsoft Teams conference call directly from a major security incident.
 
-**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
+**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-msim-conference-calls.md)
 
 **Related topics**  
 

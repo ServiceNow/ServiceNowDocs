@@ -2,7 +2,7 @@
 title: Product inventory and closed-loop order fulfillment
 description: Sales CRM for Telecommunications instantiates product inventory from the PSR catalog definition used to configure the quote. It manages the product lifecycle through the order, closing the loop between order submission and service activation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/product-inventory-closed-loop-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/product-inventory-closed-loop-somt.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-14"

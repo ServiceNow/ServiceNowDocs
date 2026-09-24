@@ -2,7 +2,7 @@
 title: Create a role
 description: Create a role to control access to features and capabilities in applications and modules. The new role doesn’t have access to any application or module until you add other roles to it, or add it to the appropriate applications and modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_CreateARole.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/t\_CreateARole.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -24,9 +24,9 @@ Role required: admin
 
 After access has been granted to a role, all groups or users assigned to the role are granted the access. Roles can contain other roles, and any access granted to a role is granted to any role that contains it.
 
-For a complete list of the roles included with the base instance, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
+For a complete list of the roles included with the base instance, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/r_BaseSystemRoles.md)
 
-**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-subscription-auto-assignment.md).
+**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-subscription-auto-assignment.md).
 
 Move this action to the background so you aren’t waiting when adding a number of group members by adding the system property **glide.ui.schedule\_slushbucket\_save\_for\_group\_roles**. Set the system property to **true**. The system user is used to create records or update existing ones since the action is running in the background.
 
@@ -60,7 +60,7 @@ Requires Subscription
 
 Indicates whether users with this role require a subscription to stay in compliance. -   **Yes**
 
-Measured-role that requires a subscription. You can allocate subscriptions to users with this role by adding one or more groups to a product subscription. To learn more, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md).
+Measured-role that requires a subscription. You can allocate subscriptions to users with this role by adding one or more groups to a product subscription. To learn more, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-user-subscriptions-v2.md).
 
 -   **No**
 
@@ -96,16 +96,16 @@ Select the roles to delegate to the group member.
 
 </td></tr></tbody>
 </table>
--   **[Grant a role access to applications and modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_GrantARoleAccessToAppsAndModules.md)**  
+-   **[Grant a role access to applications and modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/t_GrantARoleAccessToAppsAndModules.md)**  
 Roles control access to features and capabilities in applications and modules. You add a role to an application or module to enable the role to grant access to the application or module for all users with the role.
--   **[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)**  
+-   **[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/t_AssignRoleToGroup.md)**  
 You can assign a role to a group to grant access to applications and modules to group members.
--   **[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)**  
+-   **[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/t_AssignARoleToAUser.md)**  
 A user inherits roles from all groups to which they belong. You can also assign roles directly to a user. Whenever a user is assigned a new role, it only takes effect after logging in with a new session.
--   **[Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md)**  
+-   **[Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/t_AddARoleToAnExistingRole.md)**  
 When you add a new role to an existing role for a user, the user inherits the access that is granted by the new role.
--   **[Create a group role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroupRole.md)**  
+-   **[Create a group role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/t_CreateAGroupRole.md)**  
 Create a group role to control access to features and capabilities in applications for all members in a group.
 
-**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
+**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/ua-creating-roles.md)
 

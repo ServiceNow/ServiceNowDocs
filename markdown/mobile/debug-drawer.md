@@ -2,7 +2,7 @@
 title: Display mobile screen performance data
 description: Display performance-related data, like SQL counts, business rules, and REST API responses in a debug drawer at the bottom of the screen. This data enables administrators to measure the performance of each mobile screen and to identify any performance issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/debug-drawer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/debug-drawer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

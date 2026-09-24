@@ -2,7 +2,7 @@
 title: Use the Agent Client Collector \(ACC\) admin workspace
 description: Use the Agent Client Collector \(ACC\) admin workspace to monitor the status of your agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/use-acc-admin-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/use-acc-admin-workspace.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -22,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-For details on the information accessible on the ACC admin workspace, see [Agent Client Collector \(ACC\) admin workspace information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/acc-admin-workspace-information.md).
+For details on the information accessible on the ACC admin workspace, see [Agent Client Collector \(ACC\) admin workspace information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/acc-admin-workspace-information.md).
 
 ## Procedure
 
@@ -46,17 +46,17 @@ For details on the information accessible on the ACC admin workspace, see [Agent
 
 5.  Select the **Agent actions** button and select from actions to perform on the agent.
 
-    For details on the available actions, see [Agent Client Collector \(ACC\) admin workspace agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/acc-admin-workspace-agent-actions.md).
+    For details on the available actions, see [Agent Client Collector \(ACC\) admin workspace agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/acc-admin-workspace-agent-actions.md).
 
     **Note:** The **Agent actions** button displays only when you have installed Agent Client Collector Framework version 6.0.0 or higher.
 
 
--   **[Generate an Agent Client Collector installation plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/acc-onboarding-generate-plan.md)**  
+-   **[Generate an Agent Client Collector installation plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/acc-onboarding-generate-plan.md)**  
 Configure and deploy new agents in your environment, using the Agent Onboarding guide. The Agent Onboarding guide generates a customized installation plan for deploying the Agent Client Collector on your endpoints or servers.
--   **[Run diagnostics on an Agent Client Collector agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/run-acc-agent-diagnostics.md)**  
+-   **[Run diagnostics on an Agent Client Collector agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/run-acc-agent-diagnostics.md)**  
 Run automated self-tests on an Agent Client Collector \(ACC\) agent from the ITOM Infra Services Workspace to identify and address agent issues. View agent errors and invoke the relevant remediation steps.
 
-**Parent Topic:**[Use ITOM Infra Services Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-infra-srv-wrksp-use.md)
+**Parent Topic:**[Use ITOM Infra Services Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/itom-infra-srv-wrksp-use.md)
 
 **Related topics**  
 

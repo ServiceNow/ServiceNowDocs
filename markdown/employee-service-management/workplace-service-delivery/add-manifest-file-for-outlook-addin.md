@@ -2,7 +2,7 @@
 title: Create a manifest file for Microsoft Outlook Add-in
 description: Create a manifest file and customize it as per your organization standards to configure the add-in in Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery/add-manifest-file-for-outlook-addin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery/add-manifest-file-for-outlook-addin.html
 release: australia
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -122,10 +122,10 @@ The manifest file for the add-in is created.
 
 Perform any of the following actions as per requirement:
 
--   [Upload the manifest file for a single user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/upload-manifest-for-single-user.md)
--   [Upload the manifest file in Microsoft Office 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/upload-the-manifest-file-office365.md)
+-   [Upload the manifest file for a single user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/upload-manifest-for-single-user.md)
+-   [Upload the manifest file in Microsoft Office 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/upload-the-manifest-file-office365.md)
 
-**Parent Topic:**[Configure Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/configure-workplace-rsv-for-outlook-addin.md)
+**Parent Topic:**[Configure Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/configure-workplace-rsv-for-outlook-addin.md)
 
 **Related topics**  
 

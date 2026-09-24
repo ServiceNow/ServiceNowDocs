@@ -2,12 +2,12 @@
 title: Export hierarchy of models and templates as JSON
 description: Export network equipment models, inventory templates, and their related records from an instance. Use this feature to promote validated configurations from a lower environment to production.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-templates-as-json.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-templates-as-json.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Import models and templates, Use, Telecommunications Network Inventory]
 ---
@@ -45,10 +45,10 @@ The Export Hierarchy feature downloads a selected inventory model or template wi
 
 The JSON file containing the selected model or template and all its related records is downloaded to your local system. You can import the JSON file into a target instance.
 
-**Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
+**Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 
 **Related topics**  
 
 
-[Export hierarchy of models and templates as JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-templates-as-json.md)
+[Export hierarchy of models and templates as JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-templates-as-json.md)
 

@@ -2,7 +2,7 @@
 title: AI Agents for CSM - Complaint Case
 description: The AI Agents for CSM - Complaint Case can work alongside human complaint agents to intake complaints, triage complaints, summarize cases, and answer research queries. The agents review previously attempted troubleshooting steps and propose resolution plans based on similar complaint cases or knowledge articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/accelerate-complaint-case-handling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/accelerate-complaint-case-handling.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -22,9 +22,9 @@ The AI Agents for CSM - Complaint Case application includes AI agents and an AI 
 
 The AI Agents for CSM - Complaint Case workflow uses a team of AI agents and skills to triage customer complaints, summarize cases, and help research customer cases. The complaint case intake agent is not part of the agentic workflow, since it is used with Virtual Agent.
 
-To install the AI agents and skills for the AI Agents for CSM - Complaint Case application, see [Install the ServiceNow Otto for CSM Complaint Case application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-collection.md).
+To install the AI agents and skills for the AI Agents for CSM - Complaint Case application, see [Install the ServiceNow Otto for CSM Complaint Case application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-collection.md).
 
-For more information on configuring the AI Agents for CSM - Complaint Case agentic workflow, see [Configure AI Agents for CSM - Complaint Case workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.md).
+For more information on configuring the AI Agents for CSM - Complaint Case agentic workflow, see [Configure AI Agents for CSM - Complaint Case workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.md).
 
 <table id="table_bst_k4t_mhc"><thead><tr><th>
 

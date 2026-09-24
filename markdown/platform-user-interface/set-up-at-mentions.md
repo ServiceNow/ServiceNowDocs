@@ -2,7 +2,7 @@
 title: Configure mention suggestions
 description: Configure @mentions that display suggestions based on recipients with access to view the record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-at-mentions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-up-at-mentions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create a map
 description: Create a map that can be used in a map hierarchy.You can change the map that appears by default in the Set map field when you create a map report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_CreateAMap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_CreateAMap.html
 release: australia
 product: Reporting
 classification: reporting
@@ -58,7 +58,7 @@ Role required: report\_admin or admin.
 6.  Click **Update** to save the map.
 
 
-**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdministeringMapReports.md)
+**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdministeringMapReports.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Use ServiceNow Otto for FSM to manage shifts
 description: Use ServiceNow Otto for FSM to create shifts for Field Service Management technicians.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/now-assist-shift-manage.dita.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/now-assist-shift-manage.dita.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -18,7 +18,7 @@ Use ServiceNow Otto for FSM to create shifts for Field Service Management techni
 
 ## Before you begin
 
-The FSM Scheduling AI Agent and the ServiceNow Otto for FSM plugin must be installed. For more information on the FSM Scheduling AI Agent plugin, see [Activate FSM Scheduling AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-ai-agent.md). For more information on the Now Assist for FSM plugin, see [Configure ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-now-assist-fsm.md).
+The FSM Scheduling AI Agent and the ServiceNow Otto for FSM plugin must be installed. For more information on the FSM Scheduling AI Agent plugin, see [Activate FSM Scheduling AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-ai-agent.md). For more information on the Now Assist for FSM plugin, see [Configure ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configure-now-assist-fsm.md).
 
 Role required: wm\_manager
 
@@ -43,9 +43,9 @@ The shift is created and the technician\(s\) receive a push notification telling
 **Related topics**  
 
 
-[Activate FSM Scheduling AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-ai-agent.md)
+[Activate FSM Scheduling AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-ai-agent.md)
 
-[Accept or reject requests from push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/accept-reject-wot-push-notification.md)
+[Accept or reject requests from push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/accept-reject-wot-push-notification.md)
 
-[View and reply to task comments from push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/reply-to-push-notification.md)
+[View and reply to task comments from push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/reply-to-push-notification.md)
 

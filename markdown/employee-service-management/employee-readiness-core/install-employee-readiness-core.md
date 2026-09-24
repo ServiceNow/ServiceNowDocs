@@ -2,7 +2,7 @@
 title: Install Employee Readiness Core
 description: You can install Employee Readiness Core if you have the admin role.Several types of components are installed with Employee Readiness Core, including user roles, tables, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/install-employee-readiness-core.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-readiness-core/install-employee-readiness-core.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -90,7 +90,7 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 6.  When the installation is complete, click **Close**.
 
 
-**Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-readiness-core.md)
+**Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/employee-readiness-core.md)
 
 ## Components installed with Employee Readiness Core
 

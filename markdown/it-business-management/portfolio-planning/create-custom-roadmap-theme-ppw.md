@@ -2,7 +2,7 @@
 title: Create a custom theme for roadmap
 description: Customize roadmap bar colors to align with your organization’s branding guidelines and maintain visual consistency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-custom-roadmap-theme-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-custom-roadmap-theme-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -137,5 +137,5 @@ Finally, review your selections.
 
 ## What to do next
 
-Publish your custom theme so that you can apply it to your roadmap. For details, see [Publish a custom roadmap theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/publish-custom-roadmap-theme-ppw.md).
+Publish your custom theme so that you can apply it to your roadmap. For details, see [Publish a custom roadmap theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/publish-custom-roadmap-theme-ppw.md).
 

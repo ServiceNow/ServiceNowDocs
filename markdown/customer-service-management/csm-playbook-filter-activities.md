@@ -2,7 +2,7 @@
 title: Filter playbook activities
 description: Filter the activities in the playbook stages by the selected user or activity state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-filter-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-filter-activities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,15 +45,15 @@ If the current activity is included in the filtered results, it remains highligh
 **Related topics**  
 
 
-[Using the activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using-activity-stream.md)
+[Using the activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-using-activity-stream.md)
 
-[Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)
+[Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-rel-records.md)
 
-[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
+[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
 
-[Add an optional activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-customized-playbook-experience-for-customer-service-management.md)
+[Add an optional activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-customized-playbook-experience-for-customer-service-management.md)
 
-[Summarize a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-summarization-in-process-page.md)
+[Summarize a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-summarization-in-process-page.md)
 
-[Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-create-record.md)
+[Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-create-record.md)
 

@@ -2,7 +2,7 @@
 title: Configure the fields to appear on task cards or in the Contextual Side Panel
 description: Add fields to task cards or the Contextual Side Panel \(CSP\) so more information is available to dispatchers so they can make decisions faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/configuring-popover-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configuring-popover-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

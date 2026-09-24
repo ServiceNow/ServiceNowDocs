@@ -2,7 +2,7 @@
 title: ATF troubleshooting agent references
 description: The reference topics provide additional information about ATF troubleshooting agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-troubleshooting-agent-references.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-troubleshooting-agent-references.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf

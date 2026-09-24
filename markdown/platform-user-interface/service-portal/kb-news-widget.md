@@ -2,7 +2,7 @@
 title: KB News widget
 description: The KB News widget displays information from the Knowledge Base. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/kb-news-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/kb-news-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -67,7 +67,7 @@ KB category
 The knowledge base category determined by the kb\_category table. Only published articles display. For a news widget, select something like **Announcements** to show upcoming events.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/km-widgets.md)
+</table>**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/km-widgets.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Virtual Agent for software requests
 description: You can implement ServiceNow Virtual Agent to enable your employees to request software through a predefined conversational interface that is powered by artificial intelligence. Virtual Agent helps address software requests automatically so that your IT fulfillment professionals can focus on more complex requests and incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/virtual-agent-software-request-auto-allocation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/virtual-agent-software-request-auto-allocation.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -24,7 +24,7 @@ Before you can begin using Virtual Agent for your software requests, complete th
 
 -   Activate the Software Asset Management Professional \(com.snc.samp\) plugin on your ServiceNow instance.
 
-    See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) for more information on how to activate this plugin.
+    See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) for more information on how to activate this plugin.
 
 -   Activate the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin on your ServiceNow instance.
 
@@ -51,5 +51,5 @@ If the corresponding software entitlements do not contain enough active rights a
 
 **Important:** Software can be requested and allocated using this same flow in the ServiceNow® Service Catalog and Employee Center. See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog.md) for more information on the Service Catalog. See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md) for more information on the Employee Center.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

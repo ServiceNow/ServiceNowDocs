@@ -2,7 +2,7 @@
 title: Domain separation and Workflow Studio
 description: Domain separation is supported in Workflow Studio. Workflow Studio supports domain separation of business logic, which lets each tenant domain have its own flows, actions, and subflows. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-designer-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-designer-domain-separation.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

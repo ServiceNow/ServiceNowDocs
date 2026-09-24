@@ -2,7 +2,7 @@
 title: Glossary import error scenarios
 description: Error and warning messages that can occur when uploading glossary term files, and their impact on the import process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/glossary-import-error-scenarios.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/glossary-import-error-scenarios.html
 release: australia
 topic_type: reference
 last_updated: "2026-01-23"
@@ -62,5 +62,5 @@ After the import completes, the system displays one of the following status valu
 -   `PARTIAL` — Some rows imported; others failed
 -   `FAILED` — No rows imported
 
-**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-glossary-terms.md)
+**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-glossary-terms.md)
 

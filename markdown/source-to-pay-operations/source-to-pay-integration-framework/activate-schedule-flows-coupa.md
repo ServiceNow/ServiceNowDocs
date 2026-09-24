@@ -2,7 +2,7 @@
 title: Activate the schedule flows
 description: Activate the schedule flow that interacts with Coupa to pull information into your ServiceNow instance. You can pull information on primary data, supplier management, sourcing, invoice, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/activate-schedule-flows-coupa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/activate-schedule-flows-coupa.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -59,10 +59,10 @@ Role required: sn\_coupa\_spoke.Coupa Admin
 
     If you want to change the configurations that are shipped along with Source-to-Pay Integration with Coupa, you can edit the subflows.
 
-    Once data is pulled into staging tables, the transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md).
+    Once data is pulled into staging tables, the transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md).
 
 
-**Parent Topic:**[Configure Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-coupa-integration.md)
+**Parent Topic:**[Configure Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-coupa-integration.md)
 
 **Related topics**  
 

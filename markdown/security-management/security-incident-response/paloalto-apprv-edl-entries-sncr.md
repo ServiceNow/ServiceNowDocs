@@ -2,7 +2,7 @@
 title: Approve EDL entries for Palo Alto Networks Next-Generation Firewall
 description: An approval process for External Dynamic List \(EDL\) entries is part of the preconfigured workflow. You approve EDL entries before the entries are activated on EDLs. One you approve the EDL entry, the firewall retrieves the entry, and your observable is blocked from that point forward.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto-apprv-edl-entries-sncr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/paloalto-apprv-edl-entries-sncr.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -72,9 +72,9 @@ On the entry record, the Status field changes to **Rejected**, and the **Active*
     The security tag is also displayed on the observable record.
 
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Submit EDL entries from the blocklist for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-submit-entry-fm-blklist.md)
+**Previous topic:**[Submit EDL entries from the blocklist for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto-submit-entry-fm-blklist.md)
 
-**Next topic:**[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-edl-execptions.md)
+**Next topic:**[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto-edl-execptions.md)
 

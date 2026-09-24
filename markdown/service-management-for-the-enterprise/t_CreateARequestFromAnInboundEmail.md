@@ -2,7 +2,7 @@
 title: Create a request from an inbound email
 description: Requests can be automatically created from the information in inbound emails as long the functionality has been enabled on the configuration screen of SM application. The emails are also to be sent to a mailbox defined by criteria in the appropriate inbound email action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateARequestFromAnInboundEmail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_CreateARequestFromAnInboundEmail.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ Requests can be automatically created from the information in inbound emails as 
 3.  You can use the email action as it is or modify it to meet the needs of your organization.
 
 
-**Parent Topic:**[Request creation using inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_ReqCreateUseInboundEmailAct.md)
+**Parent Topic:**[Request creation using inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_ReqCreateUseInboundEmailAct.md)
 

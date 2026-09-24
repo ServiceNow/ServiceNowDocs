@@ -2,7 +2,7 @@
 title: Add a standard service to workplace
 description: Add a standard service to a workplace space or room based on where it is made available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-std-service-to-workplaceitem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-std-service-to-workplaceitem.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -18,7 +18,7 @@ Add a standard service to a workplace space or room based on where it is made av
 
 ## Before you begin
 
-[Create a standard service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-standard-services.md)
+[Create a standard service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-standard-services.md)
 
 Role required: sn\_wsd\_rsv.admin
 
@@ -49,5 +49,5 @@ Role required: sn\_wsd\_rsv.admin
 
 The Standard service is added to the selected workplace space or room.
 
-**Parent Topic:**[Create a standard service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-standard-services.md)
+**Parent Topic:**[Create a standard service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-standard-services.md)
 

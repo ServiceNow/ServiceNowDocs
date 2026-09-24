@@ -2,7 +2,7 @@
 title: Mobile migration from Madrid to New York and later releases
 description: Migrate your mobile applications in New York or later releases to take advantage of the improved features and continue editing within Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-migration-ny.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-migration-ny.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ During the upgrade from Madrid to New York or later releases, the instance updat
 
 \[Omitted image "upgrade-table-changes.png"\] Alt text: New elements introduced in the upgrade to New York
 
-This upgrade includes new features such as application launchers and a configurable navigation bar. Any unmodified base system mobile applications installed on your instance are automatically updated to work with the new design, and can be used with Studio right away. For more detail on the mobile hierarchy used in New York and later, see [Mobile hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-hierarchy.md).
+This upgrade includes new features such as application launchers and a configurable navigation bar. Any unmodified base system mobile applications installed on your instance are automatically updated to work with the new design, and can be used with Studio right away. For more detail on the mobile hierarchy used in New York and later, see [Mobile hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-hierarchy.md).
 
 Modified base system applications, and applications that you have created in Madrid will continue to work after the upgrade. These applications will not be configurable in Studio until after you have run the mobile migration script.
 
@@ -78,7 +78,7 @@ After the script completes, you may be prompted to resolve collisions detected b
 
 \[Omitted image "migration-collision-prompt.png"\] Alt text: Mobile migration collision prompt
 
-Click the **View Collisions** to resolve these collisions. For detail on this process, see [Resolve common issues in mobile migration script results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/ny-migration.md).
+Click the **View Collisions** to resolve these collisions. For detail on this process, see [Resolve common issues in mobile migration script results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/ny-migration.md).
 
 ## Changes made by the mobile migration script
 
@@ -98,7 +98,7 @@ Click **Migrate** to start the migration script for the current scope. The migra
 
     \[Omitted image "ny-application-conversion.png"\] Alt text: Madrid applications converted to New York icon sections and icons.
 
-    For more detail on the navigation bar, applet launchers and their UI sections, see [Navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-tab-bar.md), and [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md).
+    For more detail on the navigation bar, applet launchers and their UI sections, see [Navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-tab-bar.md), and [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-applet-launcher.md).
 
 -   **Form migration**
 
@@ -159,10 +159,10 @@ Click **Migrate** to start the migration script for the current scope. The migra
 
 For more information on the migration process, see the Mobile Migration Guide for New York on the ServiceNow community site. [https://community.servicenow.com/community?id=community\_article&amp;sys\_id=f5121a33dba7f788fff8a345ca961957](https://community.servicenow.com/community?id=community_article&sys_id=f5121a33dba7f788fff8a345ca961957)
 
--   **[Run the mobile migration script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-migration-script.md)**  
+-   **[Run the mobile migration script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-migration-script.md)**  
 Run the mobile migration script to convert Madrid mobile applications you have created or modified to use the new mobile hierarchy.
--   **[Resolve common issues in mobile migration script results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/ny-migration.md)**  
+-   **[Resolve common issues in mobile migration script results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/ny-migration.md)**  
 Find solutions to common issues after running the mobile migration script.
 
-**Parent Topic:**[Mobile plugins and upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/plugins-upgrades.md)
+**Parent Topic:**[Mobile plugins and upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/plugins-upgrades.md)
 

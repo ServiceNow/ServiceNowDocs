@@ -2,7 +2,7 @@
 title: Work on amendment request
 description: Review and work on an amendment request for an existing contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-amend-work.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-amend-work.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -41,15 +41,15 @@ A sample workflow while working on an amendment request would be:
 
 2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d90884e112">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d90888e112">
 
 Option
 
-</th><th align="left" id="d90884e115">
+</th><th align="left" id="d90888e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d90884e121">
+</th></tr></thead><tbody><tr><td id="d90888e121">
 
 **As an assignee**
 
@@ -61,7 +61,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d90884e150">
+</td></tr><tr><td id="d90888e150">
 
 **As a collaborator**
 
@@ -94,7 +94,7 @@ The state and the Contract status of the contract request is Work in progress.
 
     To automatically copy values from the parent contract request to the amendment request, you must configure the fields in the ContractManagementExt extension point. The values are copied from the parent contract selected during submitting the amendment request.
 
-    For more information, see [Copy fields from parent request to contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-copy-fld-frm-parent.md).
+    For more information, see [Copy fields from parent request to contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-copy-fld-frm-parent.md).
 
 6.  In the Request details section, review the Description field for the amendments requested. \[Omitted image "cmpro-amend-view-description.png"\] Alt text: Review the description field for the amendments requested
 
@@ -153,14 +153,14 @@ The state and the Contract status of the contract request is Work in progress.
 
     |Options|Steps|
     |-------|-----|
-    |**Ad hoc approval**|[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-initiate-approval-cr.md)|
-    |**Internal review**|[Request an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-add-review-task.md).|
+    |**Ad hoc approval**|[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-initiate-approval-cr.md)|
+    |**Internal review**|[Request an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-add-review-task.md).|
     |**Email communication**|Set up an email to stakeholders to request to have the completed contract document reviewed and the changes confirmed using **Compose Email** option.|
     |**Signature workflow**| |
 
 13. Send the contract amendment document for signature.
 
-    For more information, see [Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
+    For more information, see [Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 
 
 ## Result
@@ -178,5 +178,5 @@ The state and the Contract status of the contract request is Work in progress.
 
     -   Attachment pane: View the certificate of completion for the contract and amendment requests if electronic signature was selected.
 
-**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-amend-landing.md)
+**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-amend-landing.md)
 

@@ -2,7 +2,7 @@
 title: Index suggestions for slow queries
 description: The Index Suggestion Engine \(ISE\) can generate an index suggestion for a selected slow query. When you request an index suggestion for a slow query, the ISE analyzes the query and recommends an index that can improve the query execution time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/index-suggestions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/platform-performance/index-suggestions.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -234,5 +234,5 @@ Superseded
 A recent index suggestion replaced the index for the same table and slow query.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resolving slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/resolving-slow-queries.md)
+</table>**Parent Topic:**[Resolving slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/resolving-slow-queries.md)
 

@@ -2,7 +2,7 @@
 title: View the Dependency map for CMDB alerts
 description: The Dependency map illustrates how and why alerts are grouped, simplifying troubleshooting and issue management. It reveals connections between CIs within a CMDB alert group, enhancing visibility into their relationships. Additionally, if a CI is not part of the group but connects to other alert CIs, it remains visible on the map, aiding alert resolution and proactive management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/dependency-view-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/dependency-view-map.html
 release: australia
 product: Event Management
 classification: event-management
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_user, evt\_mgmt\_operator
 
 ## About this task
 
-To create CMDB-based alert grouping, you can also create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
+To create CMDB-based alert grouping, you can also create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/group-alert-sow-itom.md).
 
 ## Procedure
 

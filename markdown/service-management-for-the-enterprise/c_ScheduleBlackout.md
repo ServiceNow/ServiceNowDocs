@@ -2,7 +2,7 @@
 title: Schedule blackout periods
 description: A blackout period prevents work from being performed in a defined area for a scheduled time period. Blackout periods can be defined for spaces, levels, buildings, campuses, and zones.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_ScheduleBlackout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_ScheduleBlackout.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,8 +22,8 @@ Blackout business rules check the **Schedules** field of the **Location** field 
 |Display Space Schedule Conflicts \(facilities\_request\_task business rule\)|If the current.expected\_start and current.estimated\_end are populated and the location is a facilities space, informs the user of any possible schedule conflicts.|
 |Prevent Space Schedule Conflicts \(facilities\_request\_task business rule\)|If there are any possible schedule conflicts between `now` and `now + estimated_work_duration`, prevent the user from starting work. To override, a facilities\_admin can use a field override\_schedule\_conflict|
 
--   **[Create a facilities schedule blackout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateFacScheduleBlackout.md)**  
+-   **[Create a facilities schedule blackout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_CreateFacScheduleBlackout.md)**  
 Blackout periods can be defined for spaces, levels, buildings, campuses, and zones. The Facilities\_admin can override blackout period requests.
 
-**Parent Topic:**[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesRequests.md)
+**Parent Topic:**[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesRequests.md)
 

@@ -2,7 +2,7 @@
 title: Request Coaching
 description: The Coaching \(com.sn\_coaching\) plugin requires a separate subscription and must be activated by ServiceNow personnel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-request-coaching.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/coaching/cf-request-coaching.html
 release: australia
 product: Coaching
 classification: coaching
@@ -68,5 +68,5 @@ Activates the Coaching with Learning application and enables you to integrate th
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-configuring-coaching.md)
+**Parent Topic:**[Configuring Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-configuring-coaching.md)
 

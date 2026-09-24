@@ -2,7 +2,7 @@
 title: Use agentic support for a chat assistant
 description: Let the assistant use AI agents and agentic orchestration. AI agent skills are prompt-based and can perform complex tasks. Admins can choose between agentic or standard search Q&amp;A modes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,7 +18,7 @@ Let the assistant use AI agents and agentic orchestration. AI agent skills are p
 
 ## Before you begin
 
-See [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
+See [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
 
 Agentic orchestration is a design approach that helps AI systems coordinate and manage multiple components such as AI agents, knowledge bases, and Q&amp;A modules to accomplish complex multi-step tasks. These components work together, make real-time decisions, and adapt workflows based on context, ensuring responses use the most relevant skills and content.
 
@@ -45,5 +45,5 @@ Select the operational mode of an assistant. For more information about agentic 
 
 ## What to do next
 
-See [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
+See [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
 

@@ -2,7 +2,7 @@
 title: Use import mapping to locate and transform source employee documents
 description: Import mapping locates your source employee documents from your source document repository and transforms them to import them to Employee Document Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/import-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/import-mapping.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -65,5 +65,5 @@ You can also use scripts to map source elements to the required map elements for
 
 **Note:** The base system provides import map examples you can use as models.
 
-**Parent Topic:**[Employee document management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-bulk-uploads.md)
+**Parent Topic:**[Employee document management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-uploads.md)
 

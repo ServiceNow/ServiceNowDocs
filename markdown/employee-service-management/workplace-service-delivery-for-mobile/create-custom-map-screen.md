@@ -2,7 +2,7 @@
 title: Configure a custom map screen
 description: Configure a map screen to see location-based information on a map from a mobile app. The map highlights points of interest and users can switch between a map view and list view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/create-custom-map-screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-for-mobile/create-custom-map-screen.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -32,7 +32,7 @@ Role required: sn\_wsd\_core.admin
     |-----|-----------|
     |**Icon**|Place type icon. Search using the search icon \(\[Omitted image "search-icon.png"\] Alt text: search icon\).|
     |**Empty State**|Add an image, text, and buttons to direct users to perform an action, view a particular screen, or review specific information. Configure an empty state to inform users that a page currently does not contain data.|
-    |**Default provider**|Select a custom map provider \(Indoor Mapping or Mappedin. For more information, see [Configure a custom Map provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-custom-map-provider.md) and to enable indoor position \(blue dot\) experience automatically on a map to show the blue dot from the start to the end destination for wayfinding.|
+    |**Default provider**|Select a custom map provider \(Indoor Mapping or Mappedin. For more information, see [Configure a custom Map provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/configure-custom-map-provider.md) and to enable indoor position \(blue dot\) experience automatically on a map to show the blue dot from the start to the end destination for wayfinding.|
 
 4.  Click **Submit**.
 
@@ -41,5 +41,5 @@ Role required: sn\_wsd\_core.admin
 
 Map screens displays a map with locations that are associated to the records in a data item.
 
-**Parent Topic:**[Mobile Wayfinding Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/mobile-wayfinding.md)
+**Parent Topic:**[Mobile Wayfinding Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/mobile-wayfinding.md)
 

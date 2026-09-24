@@ -2,7 +2,7 @@
 title: Spokes
 description: Use the Spokes indicators to view details such as spoke usage, spoke actions, and subflows for the selected spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/topic-spokes-subtab-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/topic-spokes-subtab-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -29,5 +29,5 @@ The Spokes tab contains the following indicators.
 -   **Subflows**—Subflows indicator shows which subflows were executed for the selected spoke.
 -   **Topics**—Topics indicator shows which topics executed the selected spoke. The horizontal axis shows the topics that triggered the spoke. The vertical axis shows the number of times the spoke was triggered in a topic.
 
-**Parent Topic:**[Topics tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topics-tab-pae.md)
+**Parent Topic:**[Topics tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/topics-tab-pae.md)
 

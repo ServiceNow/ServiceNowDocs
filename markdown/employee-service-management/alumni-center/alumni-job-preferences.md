@@ -2,7 +2,7 @@
 title: Alumni job preferences
 description: Set your preferences for tailored job opportunities. Jobs that best match your profile are recommended based on these preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/alumni-job-preferences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/alumni-job-preferences.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -39,11 +39,11 @@ Role required: sn\_asc.alumni
     **Note:**
 
     -   If you don't select any option for a question, that question won’t be considered for score calculation.
-    -   Alumni preferences are configured by your organizations administrator. You can see different preferences depending on how your organization configures the preferences. For more information, see [Configure alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/config-alumni-job-pref.md).
+    -   Alumni preferences are configured by your organizations administrator. You can see different preferences depending on how your organization configures the preferences. For more information, see [Configure alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/config-alumni-job-pref.md).
 4.  Select **Save**.
 
 
-**Parent Topic:**[Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-use.md)
+**Parent Topic:**[Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/asc-use.md)
 
 **Related topics**  
 

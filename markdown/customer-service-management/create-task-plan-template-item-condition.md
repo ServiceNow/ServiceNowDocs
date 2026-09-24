@@ -2,7 +2,7 @@
 title: Create a template item condition
 description: Create conditions for a template item after the template item has been created. These conditions determine when a template item is created when the task plan template is applied.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-task-plan-template-item-condition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-task-plan-template-item-condition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ You can also delete a condition by selecting the condition in the Template Item 
 
     The template item condition record opens in a new tab. The **Template item** field displays the number of the parent template item.
 
-    For more information about these fields, see [Template item condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-template-item-condition-form.md).
+    For more information about these fields, see [Template item condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/task-plan-template-item-condition-form.md).
 
 7.  Select a table from the **Condition table** field.
 

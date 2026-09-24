@@ -2,7 +2,7 @@
 title: Global search displays your most recent search queries and results in Next Experience UI
 description: When you select the empty Unified Navigation search field, the system displays lists showing your most recent search queries and your most recently viewed search results. Select a Recently Searched query to repeat it, or select a Recently Viewed search result record to navigate to it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/global-search-recent-queries-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/global-search-recent-queries-results.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -24,7 +24,7 @@ The **Recently Searched** list shows the most recent search queries from your pe
 
 The **Recently Viewed** list shows the most recently viewed search results from your personal search history. This list only appears when your search history includes previously viewed search results.
 
-**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
+**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_GlobalTextSearch.md)
 
 **Related topics**  
 

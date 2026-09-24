@@ -2,7 +2,7 @@
 title: Module access policy debugger
 description: Use the module access policy debugger to review logging information and understand why your users are or aren’t granted access to an encryption context.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/map-debugger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/map-debugger.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -80,7 +80,7 @@ Each line starts with an icon that indicates its message type.
     \[Omitted image "map-vis-example-4.png"\] Alt text: Debugging output for denied access due to insufficient privileges
 
 
-**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md)
+**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/understanding-kmf.md)
 
 **Related topics**  
 

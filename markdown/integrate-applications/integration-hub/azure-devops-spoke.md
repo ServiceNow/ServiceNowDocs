@@ -2,7 +2,7 @@
 title: Microsoft Azure DevOps Boards Spoke
 description: Automate the process of managing work items in Azure DevOps Boards from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/azure-devops-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/azure-devops-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -125,7 +125,7 @@ ServiceNow supports specific events on the Azure DevOps instance that create tri
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -155,6 +155,6 @@ If you want to use different connections in your flow, subflows, and actions, cr
 
 You can also use multiple Azure DevOps accounts. In this case, you should provide the respective **Password** while configuring the credential record and specify the relevant **Connection URL** while configuring the connection record.
 
--   If you want to set up the Microsoft Azure DevOps Boards spoke using OAuth, see [Set up the Microsoft Azure DevOps Boards spoke using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-azdevops-boards-oauth.md).
--   If you want to set up the Microsoft Azure DevOps Boards spoke using personal access token, see [Set up the Microsoft Azure DevOps Boards spoke using personal access token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-azdevops-boards.md).
+-   If you want to set up the Microsoft Azure DevOps Boards spoke using OAuth, see [Set up the Microsoft Azure DevOps Boards spoke using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-azdevops-boards-oauth.md).
+-   If you want to set up the Microsoft Azure DevOps Boards spoke using personal access token, see [Set up the Microsoft Azure DevOps Boards spoke using personal access token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-azdevops-boards.md).
 

@@ -2,7 +2,7 @@
 title: Configure client software distribution providers
 description: Identify the provider and specify the workflows and extension points for a customized software distribution process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_ConfigCSDProviders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/t\_ConfigCSDProviders.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -114,5 +114,5 @@ Option to use Integration Hub flows for client software distribution. When this 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_CSDExtensionFramework.md)
+**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_CSDExtensionFramework.md)
 

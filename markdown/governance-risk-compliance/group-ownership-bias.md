@@ -2,7 +2,7 @@
 title: Group ownership in BIA, plan, and event records
 description: Assign a user group as the owner of business impact analysis \(BIA\), plans, and event records, instead of or alongside an individual owner. Every member of the owner group gets the same access to these records as an individual owner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/group-ownership-bias.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/group-ownership-bias.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-14"
@@ -96,7 +96,7 @@ The **Owner group** field filters candidate groups based on role eligibility. On
     If the selected owner group has no eligible members, the owner lookup returns no users.
 
 
-For the role API names, see [Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/owner-group-eligibility-roles.md).
+For the role API names, see [Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/owner-group-eligibility-roles.md).
 
 ## Manage ownership scenarios
 
@@ -244,13 +244,13 @@ The group ownership feature is fully backward compatible with existing Business 
 **Related topics**  
 
 
-[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bia-in-uib-ws.md)
+[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-bia-in-uib-ws.md)
 
-[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)
+[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)
 
-[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/start-exercise-event-in-uib-ws.md)
+[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/start-exercise-event-in-uib-ws.md)
 
-[Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/owner-group-eligibility-roles.md)
+[Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/owner-group-eligibility-roles.md)
 
-[BIA owner field reference and validation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-smart-assessment-owner-sync.md)
+[BIA owner field reference and validation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-smart-assessment-owner-sync.md)
 

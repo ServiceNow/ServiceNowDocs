@@ -2,7 +2,7 @@
 title: HL7 FHIR Spoke
 description: Integrate ServiceNow with any HL7 FHIR R4-conformant server. The HL7 FHIR Spoke gives Workflow Studio authors a typed, paginated, error-handled way to read FHIR R4 provider-directory resources — Organization, Location, Practitioner, and PractitionerRole — from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/fhir-spoke-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/fhir-spoke-landing.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -63,7 +63,7 @@ The HL7 FHIR Spoke provides actions to read FHIR R4 provider-directory resources
 |PractitionerRole Management|Look up PractitionerRole by ID|Retrieves a single FHIR PractitionerRole resource by its logical ID.|
 |Look up PractitionerRoles Stream|Searches and streams PractitionerRole resources with automatic pagination.|
 
-All actions are read-only \(HTTP GET\). Write operations, real-time event triggers such as CDS Hooks or FHIR subscriptions, and FHIR resources beyond the four provider-directory resources are out of scope. For the inputs and outputs of each action, see [HL7 FHIR Spoke actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fhir-spoke-actions.md).
+All actions are read-only \(HTTP GET\). Write operations, real-time event triggers such as CDS Hooks or FHIR subscriptions, and FHIR resources beyond the four provider-directory resources are out of scope. For the inputs and outputs of each action, see [HL7 FHIR Spoke actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/fhir-spoke-actions.md).
 
 **Note:** Spoke actions return raw FHIR field values; the consuming flow owns all persistence and field mapping.
 
@@ -73,5 +73,5 @@ Integration Hub uses aliases to manage connection and credential information. Us
 
 All eight actions route through a single Connection &amp; Credential Alias named `HL7 FHIR`, so the FHIR server URL and OAuth credentials are bound once at install time and reused by every action.
 
-For information about setting up the spoke, see [Activate the HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fhir-spoke-activate.md).
+For information about setting up the spoke, see [Activate the HL7 FHIR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/fhir-spoke-activate.md).
 

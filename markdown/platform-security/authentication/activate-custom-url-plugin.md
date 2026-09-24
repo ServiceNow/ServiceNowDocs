@@ -2,7 +2,7 @@
 title: Activate custom URLs
 description: Enable custom URLs to be set up on your ServiceNow instance. You can activate the Custom URL plugin \(com.snc.customurl\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-custom-url-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/activate-custom-url-plugin.html
 release: australia
 product: Authentication
 classification: authentication
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  In the Plugin Files related list, find the following property, and change the setting value:
 
-<table id="choicetable_dhn_fnq_hz"><tbody><tr><td id="d56701e112">
+<table id="choicetable_dhn_fnq_hz"><tbody><tr><td id="d56695e112">
 
 **glide.customurl.enabled**
 

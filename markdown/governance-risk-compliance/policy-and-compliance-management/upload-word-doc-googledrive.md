@@ -2,7 +2,7 @@
 title: Upload a Microsoft Word document to Google Drive
 description: Upload a Microsoft Word document that exists in your local machine to Google Drive and link the document with the policy. As a user, you can access the document from any device and enable multiple users to collaborate on the policy document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/upload-word-doc-googledrive.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/upload-word-doc-googledrive.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -20,7 +20,7 @@ Upload a Microsoft Word document that exists in your local machine to Google Dri
 
 Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_user
 
-**Note:** Verify that you have set up the pre-requisite steps appropriately to upload the Microsoft Word document to cloud. For more information, see [Pre-requisites to enable policy redlining feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/pre-req-policy-redlining.md).
+**Note:** Verify that you have set up the pre-requisite steps appropriately to upload the Microsoft Word document to cloud. For more information, see [Pre-requisites to enable policy redlining feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/pre-req-policy-redlining.md).
 
 ## Procedure
 

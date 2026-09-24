@@ -2,7 +2,7 @@
 title: UI Test Script in Automated Test Framework \(ATF\)
 description: UI Test Script enables you to create test code for custom user interfaces exposing elements of Testing Library within the Automated Test Framework \(ATF\). Generate test scripts through conversational interaction with Build Agent and run them alongside other ATF tests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-ui-test-script-atf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-agent-ui-test-script-atf.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-27"

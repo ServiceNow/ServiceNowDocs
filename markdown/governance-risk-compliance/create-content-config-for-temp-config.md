@@ -2,7 +2,7 @@
 title: Set up the content configurations
 description: Set up the content configurations in the Template Configurations module to define the data you want to view or fetch when creating a report template. You can configure it to display a list of records or aggregated data, such as a list of remediation tasks or top priority issues. You can fetch up to 200 records from any table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-content-config-for-temp-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-content-config-for-temp-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,5 +67,5 @@ Role required: sn\_grc\_doc\_design.admin and sn\_bcm.admin
 
 ## What to do next
 
-Create a scripted variable for the report. For more information, see [Define the scripted variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-scripted-vari-for-temp-config.md).
+Create a scripted variable for the report. For more information, see [Define the scripted variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-scripted-vari-for-temp-config.md).
 

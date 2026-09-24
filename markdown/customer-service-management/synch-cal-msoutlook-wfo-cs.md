@@ -2,7 +2,7 @@
 title: Synchronize team calendar with Microsoft Outlook
 description: Managers and agents can synchronize their calendars and events with Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/synch-cal-msoutlook-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/synch-cal-msoutlook-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ As a user with admin role, you can enable this feature by installing Microsoft E
 
 After installing Microsoft Exchange Online Spoke, set the **sn\_wfo\_outlook.enable\_outlook\_sync** system property to `true` in the System Properties \[sys\_properties\] table. Add the email IDs that you want to synchronize in the User \[sys\_user\] table.
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-configurable-wfo-cs.md)
 

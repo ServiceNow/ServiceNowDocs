@@ -2,7 +2,7 @@
 title: Approval Group \[sn\_shop\_approval\_group\] table
 description: The Approval Group \[sn\_shop\_approval\_group\] table stores information related to: Approval groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-approval-group-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-approval-group-table.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,7 +23,7 @@ This table contains the following fields.
 |Name|String|Approval group associated with the approval rule.|
 |Approving object|Table name|Type of item that needs approval.|
 
-**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
 
 **Related topics**  
 

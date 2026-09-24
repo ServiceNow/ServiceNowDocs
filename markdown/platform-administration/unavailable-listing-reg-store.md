@@ -2,7 +2,7 @@
 title: Listing types not available in regulated environments
 description: To preserve data privacy standards, certain types of app listings can't be offered in federal or regional instances of the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/unavailable-listing-reg-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/unavailable-listing-reg-store.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

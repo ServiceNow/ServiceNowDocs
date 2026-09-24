@@ -2,7 +2,7 @@
 title: Clone and customize a parser configuration
 description: Clone a demo parser configuration to create a customizable copy that you can modify for hospital-specific field variations and relabeling.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-parser-config-clone.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-parser-config-clone.html
 release: australia
 topic_type: task
 last_updated: "2026-05-11"
@@ -57,7 +57,7 @@ Your custom parser configuration is active. When ServiceNow receives a matching 
 **Related topics**  
 
 
-[Parser config fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-parser-config-fields.md)
+[Parser config fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-parser-config-fields.md)
 
-[Test a parser configuration with a sample payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-parse-sample-payload.md)
+[Test a parser configuration with a sample payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-parse-sample-payload.md)
 

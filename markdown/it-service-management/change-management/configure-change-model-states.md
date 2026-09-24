@@ -2,7 +2,7 @@
 title: Configure change model states
 description: Configure states for change models and define transition between multiple states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-change-model-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/configure-change-model-states.html
 release: australia
 product: Change Management
 classification: change-management
@@ -18,7 +18,7 @@ Configure states for change models and define transition between multiple states
 
 ## Before you begin
 
-The change model for which you want to define the states should already exist. For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md).
+The change model for which you want to define the states should already exist. For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-a-change-model.md).
 
 Role required: change\_manager
 
@@ -104,7 +104,7 @@ Condition for your transition.The available options are:
 -   **Mandatory Fields**:Requires specified fields to be populated before the model state transitions.
 -   **Transition Condition**: Enables you to define a more granular condition.
 
-For more information, see [Create predefined conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md).
+For more information, see [Create predefined conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-predefined-transition-condition-type.md).
 
 </td></tr><tr><td>
 
@@ -136,9 +136,9 @@ Option to make the condition active.
 
 ## What to do next
 
-Attach a process with defined conditions that enable transition between change model states. See [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/attach-process-change-model.md).
+Attach a process with defined conditions that enable transition between change model states. See [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/attach-process-change-model.md).
 
-Create change templates based on the change model. For more information, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md).
+Create change templates based on the change model. For more information, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-change-template.md).
 
-**Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md)
+**Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-a-change-model.md)
 

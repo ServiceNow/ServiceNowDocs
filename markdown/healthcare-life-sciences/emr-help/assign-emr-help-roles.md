@@ -2,7 +2,7 @@
 title: Assign roles for EMR Help users
 description: Assign roles to control access to features, capabilities, and data in the EMR Help application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/assign-emr-help-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/assign-emr-help-roles.html
 release: australia
 product: EMR Help
 classification: emr-help

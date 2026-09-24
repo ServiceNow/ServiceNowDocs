@@ -2,7 +2,7 @@
 title: ITOM/OT SU Licensing Bundle subscription
 description: You can purchase subscriptions for several ITOM products together as part of a bundle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-licensing-bundle-subscription.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-licensing-bundle-subscription.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

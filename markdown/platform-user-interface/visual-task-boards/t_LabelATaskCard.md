@@ -2,7 +2,7 @@
 title: Label a Visual Task Board card
 description: Labels help categorize tasks and visually distinguish them on the task board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_LabelATaskCard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_LabelATaskCard.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -20,7 +20,7 @@ Labels help categorize tasks and visually distinguish them on the task board.
 
 Role required: none
 
-[Enable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) labels for the board.
+[Enable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) labels for the board.
 
 ## About this task
 
@@ -60,7 +60,7 @@ You can add one or more labels to a task card.
 </table>
 ## What to do next
 
-You can use configuration options to [rename or disable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) labels or to [hide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ConfigureTheTaskBoard.md) labels altogether.
+You can use configuration options to [rename or disable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) labels or to [hide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_ConfigureTheTaskBoard.md) labels altogether.
 
-**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

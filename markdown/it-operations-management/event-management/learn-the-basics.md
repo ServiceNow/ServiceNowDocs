@@ -2,7 +2,7 @@
 title: Learn the basics
 description: ServiceNow Event Management and AIOps help IT operations teams manage high alert volumes by reducing noise and turning raw events into prioritized, actionable alerts. This section covers core concepts, implementation stages, CMDB considerations, prerequisites for setup, and resources to help you get started quickly and confidently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/learn-the-basics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/learn-the-basics.html
 release: australia
 product: Event Management
 classification: event-management

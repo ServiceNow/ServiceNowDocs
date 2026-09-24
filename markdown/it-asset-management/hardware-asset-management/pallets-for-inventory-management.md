@@ -2,7 +2,7 @@
 title: Manage your inventory through pallet assets
 description: Manage your inventory effectively using pallet assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/pallets-for-inventory-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/pallets-for-inventory-management.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -16,18 +16,18 @@ breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Manageme
 
 Manage your inventory effectively using pallet assets.
 
--   **[Create pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-pallet-assets.md)**  
+-   **[Create pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-pallet-assets.md)**  
 Create a pallet asset from the Asset estate view in the Hardware Asset Workspace to track and manage assets in the inventory.
--   **[Add assets to a pallet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/add-assets-to-pallet.md)**  
+-   **[Add assets to a pallet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/add-assets-to-pallet.md)**  
 Add base, hardware, bundle, consumable, and other pallet assets to an in-stock pallet to track and manage the assets in a stockroom as a group.
--   **[Remove assets from a pallet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/remove-assets-from-pallet.md)**  
+-   **[Remove assets from a pallet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/remove-assets-from-pallet.md)**  
 Remove the assets contained in a pallet when you don't need to track and manage them using pallets.
--   **[Delete pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/delete-pallet-assets.md)**  
+-   **[Delete pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/delete-pallet-assets.md)**  
 Delete a pallet asset when no assets are associated with it.
--   **[Using pallet assets for managing inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-pallet-assets-for-inventory-mgmt.md)**  
+-   **[Using pallet assets for managing inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-pallet-assets-for-inventory-mgmt.md)**  
 You can add a pallet with the assets contained in it to transfer orders and disposal orders to manage your inventory effectively.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

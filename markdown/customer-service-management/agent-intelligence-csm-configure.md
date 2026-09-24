@@ -2,7 +2,7 @@
 title: Configure Predictive Intelligence for case management
 description: Activate the Predictive Intelligence plugin and enable the related system property and client script to use Predictive Intelligence with Customer Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-intelligence-csm-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/agent-intelligence-csm-configure.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Import emission activities and map their locations
 description: Use the Unified content management application to import the standard emission activities and add their locations. These emission factors identify which activities within your organization are producing specific amounts of pollution. The reason you must add locations to a factor is that an organization may have different locations and each location may have a different factor value for different periods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/import-emission-activities-and-map-locations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/import-emission-activities-and-map-locations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ Role required: sn\_esg.program\_manager, sn\_esg.admin
 
 The emission activities are mapped to the emission factor sources and the factors are ready to be used in calculate metric definitions.
 
-**Parent Topic:**[Set up the emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-the-emission-factor-library.md)
+**Parent Topic:**[Set up the emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-up-the-emission-factor-library.md)
 

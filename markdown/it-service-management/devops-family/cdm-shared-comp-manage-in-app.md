@@ -2,7 +2,7 @@
 title: Manage shared components in a CDM application
 description: Add a shared component to an application, view shared components that are available to add, or remove a shared component from an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-shared-comp-manage-in-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-shared-comp-manage-in-app.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -83,5 +83,5 @@ All of these changes are withing the application changeset.
 **Related topics**  
 
 
-[Sharing components among applications — Component libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-libraries.md)
+[Sharing components among applications — Component libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-libraries.md)
 

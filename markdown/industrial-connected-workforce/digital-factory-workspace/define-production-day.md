@@ -2,7 +2,7 @@
 title: Define a production day
 description: Define a production day for your organization within Industrial Connected Workforce.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/define-production-day.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/define-production-day.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -40,5 +40,5 @@ The production day has been created successfully and is displayed in the **sn\_i
 
 The production day calendar record automatically includes a reference to the source schedule in the **source\_schedule** field. This reference is set when the calendar is generated and is system-managed. Non-admin users cannot modify this field.
 
-**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
+**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
 

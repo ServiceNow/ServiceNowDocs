@@ -2,7 +2,7 @@
 title: Configure Unused resources operations
 description: The Unused resources feature recommends termination or power-off for resources that are wasting money because they aren’t being used. Configure Unused resources processes and specify the potential savings that trigger notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/um-settings-config-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/um-settings-config-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -144,7 +144,7 @@ This field appears only when the **Advanced** check box is selected.
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md)
+**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/manage-unused-mac.md)
 
 **Related topics**  
 

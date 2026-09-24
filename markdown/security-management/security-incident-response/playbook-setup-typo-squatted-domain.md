@@ -2,7 +2,7 @@
 title: Set up the Typo Squatted Domain playbook
 description: Use the following steps to set up the Typo Squatted Domain playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-typo-squatted-domain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-setup-typo-squatted-domain.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,5 +46,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
     -   **Category** is **Phishing**.
     -   **Short description** contains **Typo Squatted Domain**.
 
-**Parent Topic:**[Playbook for Typo Squatted Domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-typo-squatted-domain.md)
+**Parent Topic:**[Playbook for Typo Squatted Domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-typo-squatted-domain.md)
 

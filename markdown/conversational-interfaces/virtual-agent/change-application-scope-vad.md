@@ -2,7 +2,7 @@
 title: Change the application scope for Virtual Agent Designer topics
 description: Set the application scope before you create or update a topic. For example, if you're creating ITSM topics, verify that you're in the ITSM Virtual Agent Conversations scope \(and not the scope for the ITSM NLU \(Natural Language Understanding\) Model for Virtual Agent Conversations\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/change-application-scope-vad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/change-application-scope-vad.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -37,7 +37,7 @@ If you have multiple topics open at once, every topic shows its individual scope
 
     For example, select **Workflow Studio**.
 
-    **Note:** If you're using domain separation, you can change the domain that you're working in. Select **Domain scope: global** to change the domain. Any topics created within a domain are restricted to users of that domain. For more information, see [Domain separation and Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md).
+    **Note:** If you're using domain separation, you can change the domain that you're working in. Select **Domain scope: global** to change the domain. Any topics created within a domain are restricted to users of that domain. For more information, see [Domain separation and Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md).
 
 
 ## Result
@@ -48,7 +48,7 @@ If the new scope matches a topic that was locked before, the warning banner disa
 
 ## What to do next
 
-Return to creating or updating your topic. If you have multiple topics open, you can sort them by activating the **Group tabs by app scope** toggle switch in **Preferences**. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topics-page.md).
+Return to creating or updating your topic. If you have multiple topics open, you can sort them by activating the **Group tabs by app scope** toggle switch in **Preferences**. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topics-page.md).
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

@@ -2,7 +2,7 @@
 title: Add a footer function to screen
 description: Add footer functions to the details screen in your record screens using Mobile App Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/add-foot-func-to-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/add-foot-func-to-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -102,7 +102,7 @@ Icon
 
 Option icon used for your field function.To use an existing icon, click the **Choose** button, select an icon, and click **Apply**.
 
-To create an icon, click the **New** button. You’re redirected to the **New icon** panel. For details on creating icons see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
+To create an icon, click the **New** button. You’re redirected to the **New icon** panel. For details on creating icons see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-icon.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Button emphasis color
 
 </td><td>
 
-Color emphasis used for the footer function. The appearance of the color depends on your mobile theme. For details on mobile themes, see [Mobile theme color guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-theme-colors.md).
+Color emphasis used for the footer function. The appearance of the color depends on your mobile theme. For details on mobile themes, see [Mobile theme color guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-theme-colors.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Function
 
 Function to use on the field selected in the **Field Name** field.To use an existing function, click the **Choose** button, select a function, and click **Apply**.
 
-To create function, click the **New** button. You’re redirected to the **New function** panel. For details on creating functions see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
+To create function, click the **New** button. You’re redirected to the **New function** panel. For details on creating functions see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-mobile-button-types.md).
 
 </td></tr></tbody>
 </table>7.  Click **Save** in the upper right corner to save your function instance.

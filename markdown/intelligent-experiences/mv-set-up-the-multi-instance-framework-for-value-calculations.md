@@ -2,10 +2,10 @@
 title: Set up the Multi-Instance Framework for value calculations
 description: Connect a subproduction instance to a production instance through the Multi-Instance Framework \(MIF\) so that the AI Control Tower can run value calculations across instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-set-up-the-multi-instance-framework-for-value-calculations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-set-up-the-multi-instance-framework-for-value-calculations.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---

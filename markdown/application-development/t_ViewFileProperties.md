@@ -2,7 +2,7 @@
 title: View file properties
 description: Administrators can view the application file properties of a single record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/t\_ViewFileProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/t\_ViewFileProperties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

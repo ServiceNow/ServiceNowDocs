@@ -2,7 +2,7 @@
 title: View alerts generated from metric rules
 description: Easily track performance insights with alerts from metric rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-metric-rules-alert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/view-metric-rules-alert.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -29,6 +29,6 @@ Role required: sn\_dex.user or sn\_dex.admin
 
     **Note:** When multiple alerts are triggered for events that are part of the same rule, these alerts are automatically grouped.
 
-    For more information on alert grouping, see [DEX alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/alert-grouping.md).
+    For more information on alert grouping, see [DEX alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/alert-grouping.md).
 
 

@@ -2,7 +2,7 @@
 title: Set up ADFS for SAML
 description: Set up ADFS for SAML. This procedure uses ADFS 2.0 and shows samportal.example.com as the ADFS website. Replace this with your ADFS website address.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_DefineADFSServiceURL.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_DefineADFSServiceURL.html
 release: australia
 product: Authentication
 classification: authentication

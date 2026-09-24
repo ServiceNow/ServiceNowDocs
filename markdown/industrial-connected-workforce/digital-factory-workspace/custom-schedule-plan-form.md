@@ -2,7 +2,7 @@
 title: Custom schedule plan form
 description: Use this reference to understand the fields available when configuring a custom schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/custom-schedule-plan-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/custom-schedule-plan-form.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -134,5 +134,5 @@ Shifts that you selected.
  For shift-based schedules you're not required to manually enter start and end times.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Industrial Standards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-reference.md)
+</table>**Parent Topic:**[Industrial Standards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-standards-reference.md)
 

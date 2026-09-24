@@ -2,7 +2,7 @@
 title: Working with Investigation Canvas
 description: The Investigation Canvas is a key significant feature, which provides more valuable information for the Threat Intelligence \(TI\) analysts. It provides a structured framework by mapping one to one or one to many relationships and visualizing information related to observables, indicators of compromise \(IOCs\), or entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-investigation-canvases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-investigation-canvases.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -31,24 +31,24 @@ By using the investigation canvas, threat analysts can effectively:
     1.  This entry point opens an existing investigation case and allows to edit, modify, and rename the canvas.
     2.  A new canvas with existing artifacts as nodes.
 
--   **[Working with Actions on the Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-canvas-actions.md)**  
+-   **[Working with Actions on the Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-canvas-actions.md)**  
 This section describes the various actions that you can perform on the investigation canvas.
--   **[Linking an existing case from Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-link-existing-case-canvas.md)**  
+-   **[Linking an existing case from Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-link-existing-case-canvas.md)**  
 Use this section to link an existing case from the investigation canvas.
--   **[Creating a Case and Linking from Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-link-case.md)**  
+-   **[Creating a Case and Linking from Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-link-case.md)**  
 Use this section to create and link a case\(s\) from an investigation canvas.
--   **[Linking Canvas from a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-link-canvas-from-case.md)**  
+-   **[Linking Canvas from a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-link-canvas-from-case.md)**  
 Use this section to link a canvas from a case.
--   **[Creating an investigation canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-canvas.md)**  
+-   **[Creating an investigation canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-create-canvas.md)**  
 Create canvas to add observables from threat intelligence library.
--   **[Adding a new node to the canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-node-canvas.md)**  
+-   **[Adding a new node to the canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-add-node-canvas.md)**  
 Use this section to create and add new entities, including observables or objects, directly from the investigation canvas.
--   **[Using Timeline in Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-timeline-events.md)**  
+-   **[Using Timeline in Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-timeline-events.md)**  
 The Timeline feature of the Investigation Canvas within the Threat Intelligence Security Center \(TISC\) empowers analysts to visualize, create, and edit timeline events associated to entities during investigations. This capability significantly enhances the effectiveness of temporal analysis.
--   **[Investigation canvas and MITRE ATT&amp;CK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/investigation-and-mitre.md)**  
+-   **[Investigation canvas and MITRE ATT&amp;CK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/investigation-and-mitre.md)**  
 In the Investigation Canvas, you can view the MITRE ATT&amp;CK techniques and sub-techniques associated with all nodes currently present on the canvas.
 
-**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 

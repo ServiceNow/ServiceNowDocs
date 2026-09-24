@@ -2,7 +2,7 @@
 title: Enhance accessibility with focus management
 description: Set focus on specific elements, ensuring users can interact with them effectively using screen readers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/focus-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/focus-management.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -30,11 +30,11 @@ Focus management can help users navigate experiences built with UI Builder by di
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md).
 
 4.  Select a component from the content tree that you want to trigger the focus.
 
@@ -65,5 +65,5 @@ Focus management can help users navigate experiences built with UI Builder by di
 13. Select **Save**.
 
 
-**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md)
 

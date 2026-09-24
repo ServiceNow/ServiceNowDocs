@@ -2,7 +2,7 @@
 title: View project tasks assigned to you in CWM My Work
 description: Track project tasks alongside your other CWM work from a single view in My Work. Project tasks show up when you're assigned to them directly or through a group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/view-project-tasks-in-cwm-my-work.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/view-project-tasks-in-cwm-my-work.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -30,7 +30,7 @@ My Work shows a project task from Project Workspace when any of the following ar
 -   You belong to a group that is listed as a resource assignment group on the project task.
 -   You belong to a group that is listed in the **Assignment group** field on the project task.
 
-Each team member sees only their own share of a group assignment. For general information about My Work, see [My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/my-work-in-cwm.md).
+Each team member sees only their own share of a group assignment. For general information about My Work, see [My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/my-work-in-cwm.md).
 
 ## Procedure
 
@@ -49,12 +49,12 @@ Each team member sees only their own share of a group assignment. For general in
 5.  To open a project task in Project Workspace, select the value in the **Source** column.
 
 
-**Parent Topic:**[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
+**Parent Topic:**[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
 
 **Related topics**  
 
 
-[My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/my-work-in-cwm.md)
+[My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/my-work-in-cwm.md)
 
-[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
+[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
 

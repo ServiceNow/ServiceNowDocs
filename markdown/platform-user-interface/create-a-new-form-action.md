@@ -2,10 +2,10 @@
 title: Create a form action button
 description: Create a form action button for a Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-a-new-form-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/create-a-new-form-action.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -44,7 +44,7 @@ Role required: admin
         -   **Server Script** applies the action to the server or database as JavaScript.
         -   **UXF Client Action** applies the action as a UI Builder page event.
         -   **Client Script** applies the action to the web browser as JavaScript.
-        -   **UI interaction** applies the action as reusable logic and UI elements. For configuration instructions, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md).
+        -   **UI interaction** applies the action as reusable logic and UI elements. For configuration instructions, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-da-ui-interactions.md).
     -   **Application**
 
         The scope that the action exists within.
@@ -88,11 +88,11 @@ The form action button is created and scoped to the table and view you specified
 
 Configure a button to apply an action in the following ways:
 
--   **[Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md)**
+-   **[Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-da-ui-interactions.md)**
 
     Trigger a UI interaction from a declarative action to extend a page without taking ownership.
 
--   **[Configure a form action to open a custom modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-an-action-button-to-open-a-custom-modal.md)**
+-   **[Configure a form action to open a custom modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configuring-an-action-button-to-open-a-custom-modal.md)**
 
     Configure a declarative action to open a custom modal that provides information or interactive elements without navigating away from the current page.
 

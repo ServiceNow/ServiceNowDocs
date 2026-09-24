@@ -2,7 +2,7 @@
 title: Extract fields using the Document Intelligence workspace
 description: Use the Document Intelligence workspace for field extraction, searching for recommendations, flagging fields, and identifying missing fields to complete document tasks.Extract text and number fields from your document in the document fields panel.Extract check box fields from your document in the document fields panel.Extract table fields from your document in the table panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/doc-intel-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/document-intelligence/doc-intel-workspace.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -16,7 +16,7 @@ breadcrumb: [Complete a document task, Use, Document Intelligence \(Legacy\), En
 
 Use the Document Intelligence workspace for field extraction, searching for recommendations, flagging fields, and identifying missing fields to complete document tasks.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Overview of the Document Intelligence workspace
 
@@ -29,8 +29,8 @@ With the Document Intelligence workspace, you can:
 
 To get started with the Document Intelligence workspace:
 
--   [Create a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/upload-documents-for-extraction.md) for a document data extraction use case, upload a document, and process the task.
--   After DocIntel has processed the task, you can begin using the workspace. See [Complete a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/extract-data-from-documents.md).
+-   [Create a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/upload-documents-for-extraction.md) for a document data extraction use case, upload a document, and process the task.
+-   After DocIntel has processed the task, you can begin using the workspace. See [Complete a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/extract-data-from-documents.md).
 
 ## Layout of the Document Intelligence workspace
 
@@ -62,11 +62,11 @@ As you move through the recommendations in the fields in the document fields pan
 
 \[Omitted image "docintel-bounding-box.png"\] Alt text: Document panel showing a highlighted recommendation.
 
-You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 ## Document controls
 
-When you’re reviewing a document for extraction, you can use various controls to maximize the viewing area, zoom, or focus on the areas that you need. You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+When you’re reviewing a document for extraction, you can use various controls to maximize the viewing area, zoom, or focus on the areas that you need. You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 The following illustration shows document controls. \[Omitted image "docintel-doc-image-controls.png"\] Alt text: Controls in the Document Intelligence workspace.
 
@@ -104,7 +104,7 @@ Use the following steps to extract single fields from a document.
 
 If the fields are already auto-filled with values, you can review them to ensure they are correct or adjust the fields as needed.
 
-**Tip:** You can also use the draw tool to easily extract fields directly on the document image. For more information, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+**Tip:** You can also use the draw tool to easily extract fields directly on the document image. For more information, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 ### Procedure
 
@@ -114,7 +114,7 @@ If the fields are already auto-filled with values, you can review them to ensure
 
 3.  Begin typing in the field and select a recommendation from the drop-down list.
 
-    The recommendation with the highest [confidence score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/docintel-confidence-scores.md) displays at the top of the list.
+    The recommendation with the highest [confidence score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/docintel-confidence-scores.md) displays at the top of the list.
 
     **Tip:** As you move through the recommendations in the drop-down list, they’re highlighted in the document to help you select the correct option.
 
@@ -127,7 +127,7 @@ If the fields are already auto-filled with values, you can review them to ensure
 
 5.  If needed, confirm or correct any field value conversions.
 
-    Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
+    Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/data-normalization.md).
 
     When the extracted value is ambiguous in a document, DocIntel interprets it as defined in the field configuration. A note prompts you to confirm or edit the converted value.
 
@@ -200,13 +200,13 @@ Use the following steps to extract table fields from a document.
 
 If the fields are already auto-filled with values, you can review them to ensure they’re correct or adjust the fields as needed.
 
-**Tip:** You can also use the draw tool to easily extract tables directly on the document image. For more information, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+**Tip:** You can also use the draw tool to easily extract tables directly on the document image. For more information, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 ### Procedure
 
 1.  In the document fields panel, expand **Tables**.
 
-    The Tables section only displays fields assigned to a table [field group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/manage-keys.md).
+    The Tables section only displays fields assigned to a table [field group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/manage-keys.md).
 
 2.  Select a table.
 
@@ -222,7 +222,7 @@ If the fields are already auto-filled with values, you can review them to ensure
     -   If you can’t find an appropriate match in the document, select **Missing in the document** in the field options menu.To undo, select the **Edit** icon \(\[Omitted image "icon-docintel-edit.png"\] Alt text: Edit icon.\) in the field.
 4.  If needed, confirm or correct any field value conversions.
 
-    Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
+    Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/data-normalization.md).
 
     When the extracted value is ambiguous in a document, DocIntel interprets it as defined in the field configuration. A note prompts you to confirm or edit the converted value.
 

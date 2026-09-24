@@ -2,7 +2,7 @@
 title: Configure using a user icon in a mobile app
 description: After you configure a user type icon, you must use Mobile App Builder to configure a header function in a mobile app to use the icon.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-user-icon-in-mobile-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-user-icon-in-mobile-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -90,7 +90,7 @@ Function
 
 Function that runs when a user taps on the user icon in the header of the launcher screen.
 
- **Note:** Use a navigation function to navigate to a user profile record screen when you use a user type icon. For more information, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-nav-functions.md).
+ **Note:** Use a navigation function to navigate to a user profile record screen when you use a user type icon. For more information, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-nav-functions.md).
 
 </td></tr></tbody>
 </table>6.  Select **Save**.

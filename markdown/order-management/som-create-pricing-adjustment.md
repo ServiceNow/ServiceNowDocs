@@ -2,7 +2,7 @@
 title: Create a product attribute-based pricing adjustment
 description: Create a pricing adjustment for a product offering based on its product characteristics, such as the product size or color. A pricing adjustment can be a markup or markdown percentage, amount, or a pricing override.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-pricing-adjustment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-create-pricing-adjustment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

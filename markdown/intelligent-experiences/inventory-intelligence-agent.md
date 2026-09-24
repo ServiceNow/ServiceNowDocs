@@ -2,7 +2,7 @@
 title: AI Inventory Intelligence Agent
 description: AI Inventory Intelligence Agent automatically analyzes the AI asset inventory, identifies assets with incomplete metadata, and generates enrichment recommendations to improve data quality and governance readiness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/inventory-intelligence-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/inventory-intelligence-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-26"

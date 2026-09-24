@@ -2,7 +2,7 @@
 title: Multilingual service for Now Assist
 description: Now Assist applications use the multilingual capabilities of large language models \(LLMs\) to translate user-generated content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/translation-for-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/translation-for-now-assist.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-31"
@@ -112,7 +112,7 @@ Some providers, such as Azure OpenAI, offer additional language support beyond t
 Dynamic Translation for Now Assist uses the Microsoft Azure OEM translation service through ServiceNow. Most languages available as a language pack on the ServiceNow platform are supported by Microsoft Azure OEM. Self-localized languages \(languages other than the default language packs\) aren't supported.
 
 -   For the list of available language packs, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
--   For more information about Microsoft Azure OEM, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
+-   For more information about Microsoft Azure OEM, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
 
 ## Choosing a translation service
 
@@ -124,7 +124,7 @@ For more information on tracking Now Assist usage, see [Monitoring Now Assist us
 
 ## Enabling translation for Now Assist
 
-For more information on turning on multilingual services for Now Assist applications, see [Enable translation for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
+For more information on turning on multilingual services for Now Assist applications, see [Enable translation for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
 
-**Parent Topic:**[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
+**Parent Topic:**[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
 

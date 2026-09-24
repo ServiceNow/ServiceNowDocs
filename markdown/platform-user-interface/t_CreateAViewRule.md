@@ -2,7 +2,7 @@
 title: Create a view rule
 description: When a user switches views, the selected view is saved as a user preference so the user sees the same view by default when the form opens. With a view rule, you can override this functionality to force a specified view to be used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateAViewRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateAViewRule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ View rules do not always apply if there are existing user preference entries on 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md)
+**Parent Topic:**[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/view-management-overview.md)
 

@@ -2,7 +2,7 @@
 title: Generating tasks in KPI Composer
 description: For each KPI Composer artifact in your project, you can generate a task to create an equivalent Performance Analytics element. All tasks are created with one action. The tasks are assigned automatically to the responsible group for implementing analytics.Assign the tasks in a KPI Composer project to a group. By default, tasks are assigned to the Analytics Implementers assignment group. You can add users and groups to this group, or you can select a different assignment group.Generate tasks for all sufficiently defined KPI Composer artifacts with a single action.KPI Composer tasks are defined in Task Definition \[sn\_kpi\_composer\_task\_definition\] records. When you generate tasks, you create these records or update their statuses.KPI Composer tasks utilize flows created with the ServiceNow AI Platform Flow Designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/generating-tasks-kpi-composer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/generating-tasks-kpi-composer.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -31,7 +31,7 @@ Tasks can be generated to create the following Performance Analytics and Reporti
 
 \[Omitted image "kpi-comp-required-bkdown-info.png"\] Alt text: Definition of the Priority breakdown showing Name and Facts Table values.
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/designing-pa-solution.md)
 
 ## Assign KPI Composer tasks
 

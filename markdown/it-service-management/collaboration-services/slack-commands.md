@@ -2,7 +2,7 @@
 title: Slack slash commands
 description: Slash commands provides a quick way to invoke your app to perform specific actions from Slack.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/slack-commands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/collaboration-services/slack-commands.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

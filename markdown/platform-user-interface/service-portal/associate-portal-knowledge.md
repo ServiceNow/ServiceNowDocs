@@ -2,7 +2,7 @@
 title: Associate a portal with a knowledge base
 description: You can associate a portal with any knowledge base. Multiple knowledge bases can be associated with a portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/associate-portal-knowledge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/associate-portal-knowledge.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -35,7 +35,7 @@ Role required: admin or sp\_admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md)
+**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/create-a-portal.md)
 
 **Related topics**  
 

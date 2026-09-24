@@ -2,7 +2,7 @@
 title: Related log entities alert grouping
 description: The Related log entities \(formerly known as Health Log Analytics alert grouping automatically gathers HLA alerts that originate from the same log query job into a single, organized group. Instead of a scattered collection of individual log-based alerts, your team gets one consolidated view of everything tied to the same underlying log event — speeding up issue response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/log-analytics-alert-grouping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/log-analytics-alert-grouping.html
 release: australia
 product: Event Management
 classification: event-management
@@ -36,5 +36,5 @@ Related log entities alert grouping recognizes that all these alerts share the s
 
 Use case 1 is good if you want to highlight the cross-component nature of the grouping — showing that alerts about different infrastructure pieces get linked together. Use case 2 is better if you want to highlight the multi-host scenario. This maps more directly to how HLA alert hierarchies actually work \(top-level + secondary alerts per host\).
 
-For details on creating a group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
+For details on creating a group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/group-alert-sow-itom.md).
 

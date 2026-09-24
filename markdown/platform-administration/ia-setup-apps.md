@@ -2,7 +2,7 @@
 title: Set up an application with ServiceNow Otto for Setup
 description: Implement the following steps to set up a specific application or plugin with ServiceNow Otto for Setup on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-setup-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-setup-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,7 +54,7 @@ Role required: admin
 
 4.  Select **Upload batch** from Option 2.
 
-    This step is applicable only if you are setting up ITSM from another ServiceNow instance. See [Manage update set for ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-update-set.md) for more information.
+    This step is applicable only if you are setting up ITSM from another ServiceNow instance. See [Manage update set for ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-update-set.md) for more information.
 
 5.  Select the install icon next to the app bundle mentioned under the Not installed tab to start the installation process of the specific app bundle.
 
@@ -76,7 +76,7 @@ Role required: admin
 
 7.  Select **Upload batch** to upload a batch file and set up the update set for ServiceNow Otto for Setup.
 
-    **Note:** This step is applicable only if you need to setup the update set for either ITSM or CBS. See [Manage update set for ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-update-set.md) for more information.
+    **Note:** This step is applicable only if you need to setup the update set for either ITSM or CBS. See [Manage update set for ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-update-set.md) for more information.
 
 8.  Expand What's included to view the applications included in the app bundle.
 
@@ -86,8 +86,8 @@ Role required: admin
 
 9.  Select **Configure** to move to the Configuration Console page.
 
-    See [Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md) for more information.
+    See [Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-landing.md) for more information.
 
 
-**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)
+**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-administer.md)
 

@@ -2,7 +2,7 @@
 title: Create a ServiceNow Quote Experience integration
 description: Create an integration in ServiceNow Quote Experience to define the connection, settings, and field mapping that exchanges data between a quote and an external system in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-create-integration.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -16,7 +16,7 @@ Create an integration in ServiceNow Quote Experience to define the connection, s
 
 ## Before you begin
 
-A connection to the target environment must exist before you create an integration. For more information, see [Create a connection for ServiceNow Quote Experience calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-a-connection.md).
+A connection to the target environment must exist before you create an integration. For more information, see [Create a connection for ServiceNow Quote Experience calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-a-connection.md).
 
 Role required: admin
 
@@ -66,7 +66,7 @@ Integrations define how ServiceNow Quote Experience exchanges data with external
     -   **Combined** — Mix static values and field references in the same header configuration.
 11. In the connection selector, choose the connection to the target environment from the list of previously created connections.
 
-    Connections are created in the Utilities area. If the required connection does not appear, create it first. For more information, see [Create a connection for ServiceNow Quote Experience calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-a-connection.md).
+    Connections are created in the Utilities area. If the required connection does not appear, create it first. For more information, see [Create a connection for ServiceNow Quote Experience calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-a-connection.md).
 
 12. Define the transformation template
 13. In the **Transformation Template** area, enter the JSON that maps external data to CPQ fields, or maps CPQ data to external system fields.
@@ -111,8 +111,8 @@ Integrations define how ServiceNow Quote Experience exchanges data with external
 
 Assign the integration to an event or a stage to trigger it during the quote lifecycle.
 
--   To assign to an event, see [Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-custom-event.md).
--   To assign to a stage, see [Create a quote transaction stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-stage.md).
+-   To assign to an event, see [Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-custom-event.md).
+-   To assign to a stage, see [Create a quote transaction stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-stage.md).
 
-**Parent Topic:**[Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-integrations.md)
+**Parent Topic:**[Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-integrations.md)
 

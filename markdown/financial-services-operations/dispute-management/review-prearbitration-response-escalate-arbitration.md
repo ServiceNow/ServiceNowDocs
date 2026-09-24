@@ -2,7 +2,7 @@
 title: Review pre-arbitration response and escalate to arbitration
 description: After you raised a pre-arbitration request in the Chargeback stage of Mastercard transaction dispute, review the response and decide whether to accept, reject, or escalate the pre arbitration to arbitration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-prearbitration-response-escalate-arbitration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/review-prearbitration-response-escalate-arbitration.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -20,7 +20,7 @@ After you raised a pre-arbitration request in the Chargeback stage of Mastercard
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -30,7 +30,7 @@ If the agent is not satisfied with the merchant’s pre-arbitration response, th
 -   Reject without escalation: Review and reject the response, but choose not to proceed with arbitration.
 -   Escalate to arbitration: Respond by escalating the existing pre-arbitration to arbitration for further resolution.
 
-If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 ## Procedure
 
@@ -65,7 +65,7 @@ If Card Data Security is installed and configured, **Attachments** in the contex
     **Note:**
 
     -   You must upload a single `.zip` file whenever you submit documents to Mastercard.
-    -   When integrated with Mastercard's Mastercom APIs, the system automatically compresses multiple attachments into a single zip file. It also validates attached files against Mastercard requirements for file type and size, and alerts you when any attachment doesn’t meet Mastercard requirements. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/mastercard-image-and-document-requirements.md).
+    -   When integrated with Mastercard's Mastercom APIs, the system automatically compresses multiple attachments into a single zip file. It also validates attached files against Mastercard requirements for file type and size, and alerts you when any attachment doesn’t meet Mastercard requirements. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/mastercard-image-and-document-requirements.md).
 12. Select one of the following options from the **Response outcome** drop-down.
 
 <table id="choicetable_c3f_zll_wfc"><thead><tr><th align="left" id="d37971e333">
@@ -90,7 +90,7 @@ The **Arbitration response received** drop-down is displayed.
 
     -   Select **Yes** if you have received a response from the merchant.
 
-The next task [Review arbitration response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-arbitration-response-mc.md) is displayed.
+The next task [Review arbitration response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/review-arbitration-response-mc.md) is displayed.
 
     -   Select **No** if you have not received a response from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1.
 -   **No** to end the chargeback, then the transaction moves to the Financial adjustments 2. The task is then marked as Complete.
@@ -109,7 +109,7 @@ Accept the chargeback response and resolve the dispute. The transaction moves to
 
 13. To reupload the document, delete and replace your attachment with one that meets Mastercard's requirements, then select **Upload document**.
 
-    For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/mastercard-image-and-document-requirements.md).
+    For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 14. If you want to stop and withdraw the case for any reason, such as you've selected a wrong option, select **Withdraw case**.
 
@@ -121,8 +121,8 @@ Accept the chargeback response and resolve the dispute. The transaction moves to
 ## What to do next
 
 -   When you escalate the pre-arbitration to an arbitration, the request is sent to Mastercard and the state of the task changes to Awaiting External Info.
--   Once a response is received from the merchant, the **Arbitration response received** value is marked as **Yes**. The next activity [Review arbitration response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-arbitration-response-mc.md) is displayed.
+-   Once a response is received from the merchant, the **Arbitration response received** value is marked as **Yes**. The next activity [Review arbitration response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/review-arbitration-response-mc.md) is displayed.
 -   If you don’t receive a response from the merchant, then the case goes in favor of the cardholder and the appropriate task is displayed based on the policy.
 
-**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
+**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
 

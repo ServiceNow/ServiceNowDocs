@@ -2,7 +2,7 @@
 title: Components installed with Enterprise Asset Management for Providers
 description: Several types of components are installed with activation of the com.sn\_eam\_provider plugin, including user roles, applications, and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/installed-with-eam-providers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/installed-with-eam-providers.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -117,5 +117,5 @@ Inbound asset order line
 Information about each asset that is associated with your inbound asset orders, including the model of the asset.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-providers.md)
+</table>**Parent Topic:**[Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/eam-providers.md)
 

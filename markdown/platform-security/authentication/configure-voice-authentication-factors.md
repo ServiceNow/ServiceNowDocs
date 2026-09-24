@@ -2,7 +2,7 @@
 title: Configure voice input for authentication factors
 description: Configure how callers provide authentication responses by speaking or using the phone keypad.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-voice-authentication-factors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/configure-voice-authentication-factors.html
 release: australia
 product: Authentication
 classification: authentication
@@ -22,7 +22,7 @@ Role required: auth\_factors\_admin
 
 **Note:**
 
--   For KBA, voice input is configured per question. For more information, see [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-questions.md)
+-   For KBA, voice input is configured per question. For more information, see [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-questions.md)
 -   For all other numeric factors — Authenticator App \(TOTP\), Email OTP, SMS OTP, and Soft PIN, use the following procedure.
 
 ## Procedure

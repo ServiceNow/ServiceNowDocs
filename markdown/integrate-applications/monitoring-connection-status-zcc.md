@@ -2,7 +2,7 @@
 title: Monitoring established connections
 description: Maintain the health of established connections by monitoring connection status in Zero Copy Connector Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/monitoring-connection-status-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/monitoring-connection-status-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Determine whether a connection requires an update by checking the status on the 
     The connection details have been added, but the connection to the data source isn't working.
 
 
-**Parent Topic:**[Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-connections-zcc.md)
+**Parent Topic:**[Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-connections-zcc.md)
 

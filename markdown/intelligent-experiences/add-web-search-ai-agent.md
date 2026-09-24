@@ -2,7 +2,7 @@
 title: Add a web search to an AI agent
 description: Add a web search to an AI agent in AI Agent Studio using a third-party search API such as Microsoft Bing or Google.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-web-search-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-web-search-ai-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"

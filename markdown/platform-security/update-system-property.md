@@ -2,10 +2,10 @@
 title: Update system property
 description: Update the glide.les.disable\_logs\_forwarding system property within the Log Export Service application to control log forwarding during migration or database reseeding operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/update-system-property.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/update-system-property.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Administer, Log Export Service \(LES\), Platform Security]
 ---
@@ -94,5 +94,5 @@ When the property is set to **true**, Log Export Service stops forwarding logs, 
 
 **Warning:** After migration or database reseeding is complete, revert the property value to **false**. If you do not revert this setting, log forwarding stops permanently and may result in missing log data in downstream systems.
 
-**Parent Topic:**[Administering Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-administer.md)
+**Parent Topic:**[Administering Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-administer.md)
 

@@ -2,7 +2,7 @@
 title: Query a remote table using Zero Copy Connector for ERP
 description: Query ERP \(Enterprise Resource Planning\) remote tables from an ERP system directly from the All menu using Zero Copy Connector for ERP.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-query-remote-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-query-remote-table.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -23,7 +23,7 @@ Role required: sn\_erp\_integration.erp\_user
 
 ## About this task
 
-You can query the ERP system to create an ERP model for your ERP processes. For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
+You can query the ERP system to create an ERP model for your ERP processes. For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
 
 **Note:** Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system, and remains protected there.
 

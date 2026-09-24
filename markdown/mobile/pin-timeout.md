@@ -2,7 +2,7 @@
 title: PIN timeout
 description: Configure the PINIdleTimeout property to define the PIN timeout for different ServiceNow mobile apps. You can use this property to enhance security by controlling how long users are allowed to remain inactive before being required to reenter their PIN.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/pin-timeout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/pin-timeout.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -60,7 +60,7 @@ Application
 
 Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: globe image\) on the instance banner. Then select **Application scope: _application\_scope_**.
 
- For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
+ For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -144,5 +144,5 @@ Mobile application to which you want to send the mobile property. This setting l
 
 After updating this property, the end user must refresh the app to get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md)
 

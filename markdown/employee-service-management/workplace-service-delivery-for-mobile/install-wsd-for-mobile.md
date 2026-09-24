@@ -2,7 +2,7 @@
 title: Install Workplace Service Delivery for Mobile
 description: Install the Workplace Service Delivery for Mobile application from the ServiceNow Store .
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/install-wsd-for-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-for-mobile/install-wsd-for-mobile.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -47,9 +47,9 @@ Role required: admin
     Dependent plugins and applications are listed.
 
 
-**Parent Topic:**[Configure Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-wsd-mobile.md)
+**Parent Topic:**[Configure Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/configure-wsd-mobile.md)
 
-**Previous topic:**[Configure Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-wsd-mobile.md)
+**Previous topic:**[Configure Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/configure-wsd-mobile.md)
 
-**Next topic:**[Mobile Wayfinding Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/mobile-wayfinding.md)
+**Next topic:**[Mobile Wayfinding Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/mobile-wayfinding.md)
 

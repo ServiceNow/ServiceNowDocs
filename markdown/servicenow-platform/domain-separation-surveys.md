@@ -2,7 +2,7 @@
 title: Domain separation and Surveys
 description: Domain separation is supported in Surveys. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/domain-separation-surveys.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/domain-separation-surveys.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -139,7 +139,7 @@ A user can assign a trigger condition to a survey if the user belongs to the Glo
 
 If there is no domain path for a trigger condition, users from any domain can view the trigger condition. For example, in the `asmt_condition` table that has no column for the domain path, users from the Acme domain can view the trigger condition created by the Cisco domain users.
 
-**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/survey-reference.md)
 
 **Related topics**  
 

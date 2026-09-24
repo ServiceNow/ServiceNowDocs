@@ -2,7 +2,7 @@
 title: Application design access record
 description: Administrators use application design access records to specify which other applications are available to developers during application creation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationDesignAccessRecord.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_ApplicationDesignAccessRecord.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Application design access records allow administrators to have oversight of the 
 
 After developers create configuration records to other applications, the system displays these applications as dependencies.
 
-**Parent Topic:**[Application design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_ApplicationDesignAndRuntimeSettings.md)
+**Parent Topic:**[Application design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/r_ApplicationDesignAndRuntimeSettings.md)
 

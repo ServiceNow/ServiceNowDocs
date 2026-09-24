@@ -2,7 +2,7 @@
 title: Incident Management data model
 description: Learn about the Incident Management application by viewing the data model diagram. This diagram shows the relationships between the tables within the application and provides an overall picture of how the Incident Management application operates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-mangmt-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/incident-mangmt-data-model.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -24,5 +24,5 @@ The flexibility of the Incident Management platform provides you with a data mod
 
 \[Omitted image "incident-management-data-model.png"\] Alt text: Incident management data model
 
-**Parent Topic:**[Reference section for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/reference-section-for-incident-management.md)
+**Parent Topic:**[Reference section for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/reference-section-for-incident-management.md)
 

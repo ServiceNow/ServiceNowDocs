@@ -2,7 +2,7 @@
 title: Edit an app's settings in Creator Studio
 description: Maybe you want to jazz up your app a bit, for example by giving it a new name, tweaking the description, or swapping in a new image. All it takes is just a few clicks in the settings! Let's dive into how you can do it, even if you're not a tech whiz.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-edit-app-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-edit-app-settings.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -55,5 +55,5 @@ There are some things you can't change after you've created the app, like its ta
 
 And there you have it: With just a few simple steps, you gave your app a whole new vibe. So go ahead, get creative, and make it yours!
 
-**Parent Topic:**[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-creating-apps.md)
+**Parent Topic:**[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-creating-apps.md)
 

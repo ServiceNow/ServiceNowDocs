@@ -2,7 +2,7 @@
 title: Kanban Team dashboard in EAP
 description: The Kanban Team Dashboard in EAP provides the work item status and progress metrics for the Agile teams following the Kanban configuration in the Enterprise Agile Planning \(EAP\) workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/kanban-team-dashboard-in-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/kanban-team-dashboard-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning

@@ -2,7 +2,7 @@
 title: Retire or archive a specification version
 description: Move a published specification version to a Retired or Archived state when the version is no longer in use or being sold to your customers. When you retire a specification version, you can't use it in a product offering or create a specification version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/retire-archiving-specifications-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/retire-archiving-specifications-somt.html
 release: australia
 topic_type: task
 last_updated: "2026-04-07"

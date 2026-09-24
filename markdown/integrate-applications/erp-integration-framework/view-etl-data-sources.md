@@ -2,7 +2,7 @@
 title: View ERP extraction tables
 description: Work with ETL \(extract, transform, and load\) processes in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to extract large amounts of data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-etl-data-sources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/view-etl-data-sources.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -59,7 +59,7 @@ Table transform map link
 
 Table that the extracted data is cached and stored in.Select the table name to view the table on the ServiceNow AI Platform in a new browser tab.
 
-For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
+For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/t_CreateATransformMap.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ ERP model
 
 </td><td>
 
-ERP model used in the ETL extraction.Select the ERP model name to view the details. For more information, see [View and edit models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md).
+ERP model used in the ETL extraction.Select the ERP model name to view the details. For more information, see [View and edit models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md).
 
 </td></tr><tr><td>
 
@@ -91,5 +91,5 @@ Date and time the extraction table record was last saved.
 
 ## What to do next
 
-After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
+After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/import-sets-landing-page.md).
 

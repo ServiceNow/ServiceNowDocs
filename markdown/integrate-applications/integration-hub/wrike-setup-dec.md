@@ -2,7 +2,7 @@
 title: Set up the Wrike spoke
 description: Integrate your ServiceNow instance with Wrike by creating a custom OAuth application in the Wrike API Developer Site and configuring a connection in the Wrike spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/wrike-setup-dec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/wrike-setup-dec.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -37,7 +37,7 @@ Integrate your ServiceNow instance with Wrike by creating a custom OAuth applica
 
         \[Omitted image "wrike-spoke-tile.png"\] Alt text: Connection for the Wrike spoke
 
-    -   To manage more than one Wrike spoke connection records, you should create child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Wrike spoke connection records, you should create child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you're configuring the spoke for the first time, click **Configure**. Otherwise, select **Edit**.
 
     \[Omitted image "wrike-spoke-configure.png"\] Alt text: Initial connection configuration.

@@ -2,7 +2,7 @@
 title: Discover
 description: The Discover tab on My Learning provides a variety of widgets that help you browse through courses, paths, and collections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/discover-lxp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/discover-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core

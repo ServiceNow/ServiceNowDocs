@@ -2,7 +2,7 @@
 title: Migrate existing safety documents to the Document library
 description: Migrate your existing safety documents from the deprecated Standards and Documents list to the new Health and Safety document library list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/hs-migrate-sync-existing-safety-document-docs-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/hs-migrate-sync-existing-safety-document-docs-library.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -43,10 +43,10 @@ Use the Document Migration tool to seamlessly move your existing safety document
 -   The count of documents that have successfully migrated, documents pending migration, and failed migration are listed in the **Migrated records**, **Remaining records**, and **Fail records** widgets.
 -   The successfully migrated records appear in the new **Health and Safety document library** list under **Configuration**, and are saved in the Health and Safety document \[sn\_ohs\_im\_document\_v2\] table.
 
-    For information on storing safety-related documents, see [Add a new Health and Safety related document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/add-hs-related-document.md).
+    For information on storing safety-related documents, see [Add a new Health and Safety related document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/add-hs-related-document.md).
 
 
-**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 

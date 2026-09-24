@@ -2,7 +2,7 @@
 title: Update a data asset
 description: Edit catalog asset metadata to add business context, improve discoverability, and provide additional information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/update-data-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/update-data-asset.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,13 +44,13 @@ Enrich assets with descriptions, business context, and organizational metadata t
     -   Steward: Person responsible for data quality and governance. Adding or removing a steward sends the steward an email notification.
 7.  Update the classification details.
 
-    -   Domain: Terms that represent the logical grouping of related data assets \(like customer or product data\). For details about creating domains, see [Create catalog domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-domains-dc.md).
-    -   Tags: Non-hierarchical label or keyword that provides context and descriptive metadata, making data easier to organize, locate, and manage. For details about creating tags, see [Create catalog tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-tags-dc.md).
+    -   Domain: Terms that represent the logical grouping of related data assets \(like customer or product data\). For details about creating domains, see [Create catalog domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-domains-dc.md).
+    -   Tags: Non-hierarchical label or keyword that provides context and descriptive metadata, making data easier to organize, locate, and manage. For details about creating tags, see [Create catalog tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-tags-dc.md).
     -   Related terms: Glossary terms connected to this data asset.
 8.  Select **Save**.
 
     \[Omitted image "dc-data-asset-edits.png"\] Alt text: Data asset form showing editable fields and the Save button
 
 
-**Parent Topic:**[Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md)
+**Parent Topic:**[Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-data-catalog.md)
 

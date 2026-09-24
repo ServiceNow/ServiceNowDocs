@@ -2,7 +2,7 @@
 title: Risk Identification Overview dashboard
 description: The risk identification dashboard is useful for risk managers and helps them to keep a track of various records or objects which are in transit in the risk identification workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-identification-overview-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/risk-identification-overview-dashboard.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -135,5 +135,5 @@ Bar graph\[Omitted image "icon-bar-report.png"\] Alt text: Bar graph icon.
 The number of upcoming questionnaires assigned to a user based on the due dates. This is a weekly report.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
+</table>**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

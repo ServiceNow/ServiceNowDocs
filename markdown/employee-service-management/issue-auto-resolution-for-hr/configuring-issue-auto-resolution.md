@@ -2,7 +2,7 @@
 title: Configuring Issue Auto Resolution for HR
 description: Setting up Issue Auto Resolution helps your organization to provide near real-time responses to your employee's routine inquiries. To view the settings for Issue Auto Resolution, navigate to All Issue Auto Resolution Settings .
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/issue-auto-resolution-for-hr/configuring-issue-auto-resolution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/issue-auto-resolution-for-hr/configuring-issue-auto-resolution.html
 release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr

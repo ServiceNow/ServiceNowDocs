@@ -2,7 +2,7 @@
 title: Pause a repair task in the Enterprise Asset Workspace
 description: Record a break from a repair task in the Enterprise Asset Workspace if you’re not continuing to work on it. Resume the task when you start working on it again. The system automatically tracks and calculates the actual time taken to complete the task even though the work was interrupted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/pause-repair-task-eam-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/pause-repair-task-eam-ws.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -56,7 +56,7 @@ Role required: enterprise\_asset\_technician
 
 Each time you pause or resume work on the task, the actual time you worked on the task is automatically calculated. An entry for the time worked is created in the Time Worked tab.
 
-**Parent Topic:**[Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md)
+**Parent Topic:**[Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md)
 
 **Related topics**  
 

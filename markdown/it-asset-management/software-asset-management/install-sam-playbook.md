@@ -2,7 +2,7 @@
 title: Install Software Asset Management Guided Experiences
 description: Install the Software Asset Management Guided Experiences \(com.sn\_sam\_playbook\) application for step-by-step guidance for completing tasks in your daily software management activities.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/install-sam-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/install-sam-playbook.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -57,5 +57,5 @@ The following items are installed with the Software Asset Management Guided Expe
 5.  Select **Install**.
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)
 

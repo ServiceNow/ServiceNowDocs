@@ -2,7 +2,7 @@
 title: Talent Profile
 description: Talent profile provides an aggregated view of internal and external talent types, enabling quicker hiring decisions by consolidating information on applicants, employees, contingent workers, and alumni in one place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/talent-profile-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/talent-profile-landing.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,19 +20,19 @@ Talent profile provides an aggregated view of internal and external talent types
 
 <table id="table_iky_zqc_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/exploring-talent-profile.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/exploring-talent-profile.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Talent profile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-tp.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Talent profile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-tp.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-3-person.svg"\] Alt text:Learn how to use Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-t-pool.md)
+[Use\[Omitted image "bus-3-person.svg"\] Alt text:Learn how to use Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-t-pool.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Important reference information about Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/talent-profile-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Important reference information about Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/talent-profile-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

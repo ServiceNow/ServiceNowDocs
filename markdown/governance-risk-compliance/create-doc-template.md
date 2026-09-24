@@ -2,7 +2,7 @@
 title: Set up the Document Template
 description: Set up the Document Template \(HTML Template\) that is used for generating the PDF of the Operational vulnerability record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-doc-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-doc-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: sn\_oper\_res.admin
 
 3.  On the HTML Template record form, fill in the fields.
 
-    For more information on the fields, see [HTML Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/html-template-form-op-vul.md).
+    For more information on the fields, see [HTML Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/html-template-form-op-vul.md).
 
 4.  Select **Submit**.
 

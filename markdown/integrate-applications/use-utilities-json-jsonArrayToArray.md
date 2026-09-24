@@ -2,7 +2,7 @@
 title: Use the JsonArrayToArray component
 description: Convert a JSON object to an array of objects using the JsonArrayToArray component in the RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-json-jsonArrayToArray.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-utilities-json-jsonArrayToArray.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties for the JsonArrayToArray component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-utilities-json.md).
+To configure the properties for the JsonArrayToArray component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-utilities-json.md).
 
 ## Procedure
 
@@ -60,7 +60,7 @@ To configure the properties for the JsonArrayToArray component, see [Properties 
      
     ```
 
-6.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+6.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 7.  Connect the data and control ports of the JsonArrayToArray component to the corresponding ports of the other components as described in the following table and image.
 
@@ -124,5 +124,5 @@ Used to return an array of JObjects. Each JObject has the same set of properties
 
 \[Omitted image "json-arraytoarray-data-preview-rpa.png"\] Alt text: Data preview of the JsonArrayToArray component after execution.
 
-**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/json.md)
 

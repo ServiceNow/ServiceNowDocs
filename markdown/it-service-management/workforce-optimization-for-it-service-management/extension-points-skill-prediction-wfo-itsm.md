@@ -2,7 +2,7 @@
 title: Use extension points for skill prediction
 description: Use scripted extension points to customize skill prediction for tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/extension-points-skill-prediction-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/extension-points-skill-prediction-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -43,5 +43,5 @@ You can create multiple implementations for each extension point and provide an 
 5.  Click **Update**.
 
 
-**Parent Topic:**[Setting up skill prediction in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-skill-prediction-configurable-wfo-itsm.md)
+**Parent Topic:**[Setting up skill prediction in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/setup-skill-prediction-configurable-wfo-itsm.md)
 

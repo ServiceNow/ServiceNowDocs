@@ -2,7 +2,7 @@
 title: Guidelines for writing AI agent instructions
 description: Review the guidelines to write affective instructions for the AI agents to complete your Agentic Playbooks activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/guidelines-agent-instruction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/guidelines-agent-instruction.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

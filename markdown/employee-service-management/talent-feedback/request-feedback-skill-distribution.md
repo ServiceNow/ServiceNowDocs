@@ -2,7 +2,7 @@
 title: Request feedback from skill distribution
 description: You can request feedback from skill distribution using skill view or employee view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/request-feedback-skill-distribution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-feedback/request-feedback-skill-distribution.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

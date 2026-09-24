@@ -2,7 +2,7 @@
 title: Special handling notes
 description: The Special Handling Notes application enables you to create notes that bring important information about individual records, such as a case or account record, to the user's attention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_OnScreenAlerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_OnScreenAlerts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,21 +24,21 @@ You can create special handling notes for specific records or for a set of recor
 
 Users with the sn\_shn.admin role can configure the desired entity tables, such as the Case table, to use special handling notes. Special handling notes can be configured to display in the following ways:
 
--   [In a pop-up window that appears when a user accesses a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OnScreenAlerts.md).
--   [In an embedded list or a related list on a record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OnScreenAlerts.md).
+-   [In a pop-up window that appears when a user accesses a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_OnScreenAlerts.md).
+-   [In an embedded list or a related list on a record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_OnScreenAlerts.md).
 
 For more information, see the following configuration topics:
 
--   [Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-special-handling-notes.md)
--   [Configure an entity table to use special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ConfigEntityToUseSHNotes.md)
--   [Configure a form to show special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ConfigFormToShowOnScreenAlerts.md)
+-   [Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-special-handling-notes.md)
+-   [Configure an entity table to use special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ConfigEntityToUseSHNotes.md)
+-   [Configure a form to show special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ConfigFormToShowOnScreenAlerts.md)
 
 ## Creating, updating, and deleting special handling notes
 
 Users with the sn\_shn.admin role can create, update, and delete special handling notes. Users with the sn\_shn.editor role can view and update notes and users with the sn\_shn.user role can view notes. For more information about creating special handling notes, see the following topics:
 
--   [Create a special handling note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAnOnScreenAlert.md)
--   [Components installed with Special Handling Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithSpecHandNotes.md)
+-   [Create a special handling note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_CreateAnOnScreenAlert.md)
+-   [Components installed with Special Handling Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_InstalledWithSpecHandNotes.md)
 
 Special handling notes display important information to the user. In addition to a message, a special handling note also has a status, an assigned priority, and an expiration date.
 
@@ -151,12 +151,12 @@ The Special Handling Notes application supports domain separation as a process-s
 
 When inserting or updating a special handling note, the picker domain scope takes precedence by design with the Overrides \[sys\_overrides\] field on process-separated tables. For more information, see [Process administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DelegatedAdministration.md).
 
-**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 
 
-[Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-special-handling-notes.md)
+[Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-special-handling-notes.md)
 
-[Manage special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-special-handling-notes.md)
+[Manage special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/manage-special-handling-notes.md)
 

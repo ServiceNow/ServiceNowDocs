@@ -2,7 +2,7 @@
 title: View all application category groups
 description: You can view the list of all application category groups in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-application-category-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-view-all-application-category-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,12 +29,12 @@ Role required: admin
 4.  Select **All**.
 
 
-**Parent Topic:**[Working with the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-setup-page.md)
+**Parent Topic:**[Working with the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-setup-page.md)
 
 **Related topics**  
 
 
-[Manage application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-application-category-groups.md)
+[Manage application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-configure-application-category-groups.md)
 
-[Add or edit an application category group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-app-cat-grp.md)
+[Add or edit an application category group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-app-cat-grp.md)
 

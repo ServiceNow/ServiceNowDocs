@@ -2,7 +2,7 @@
 title: Determining additional user profiles in Pre-Visit Management
 description: You can determine who can act as an agent connector or contributor for procedure request cases in the Pre-Visit Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-connector-contributor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pre-visit-connector-contributor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,8 +24,8 @@ As a user with the admin role, you can create contributor and agent connector pr
 
 The sn\_previsit.contributor and sn\_previsit.agent\_connector roles installed with the Pre-Visit Management application provide the following user profiles:
 
--   [Agent connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-connector-contributor.md)
--   [Contributor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-connector-contributor.md)
+-   [Agent connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-connector-contributor.md)
+-   [Contributor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-connector-contributor.md)
 
 ## Agent connector
 

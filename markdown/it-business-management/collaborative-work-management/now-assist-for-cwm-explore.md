@@ -2,7 +2,7 @@
 title: AI skills for Collaborative Work Management \(CWM\)
 description: Learn more about the generative AI capabilities of ServiceNow Otto for CWM. These capabilities can help you save time and improve efficiency for the actions your team performs within the CWM workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/now-assist-for-cwm-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/now-assist-for-cwm-explore.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -17,7 +17,7 @@ breadcrumb: [Explore, Collaborative Work Management, Strategic Portfolio Managem
 
 Learn more about the generative AI capabilities of ServiceNow Otto for CWM. These capabilities can help you save time and improve efficiency for the actions your team performs within the CWM workspace.
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -30,7 +30,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
 ## Skills
 
--   **[Generate scrum tasks for stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-scrum-tasks-for-stories-cwm.md)**
+-   **[Generate scrum tasks for stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-scrum-tasks-for-stories-cwm.md)**
 
     Accelerate your sprint planning by using ServiceNow Otto to generate scrum tasks based on user story descriptions and acceptance criteria. Instead of manually creating each task, you receive a relevant set of scrum tasks as a starting point for further refinement.
 
@@ -38,7 +38,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
     You can review and edit AI-generated tasks before adding them to your story. There is no limit on the number of tasks generated, giving you flexibility to capture all necessary work breakdown items. This capability reduces the time spent on repetitive task creation and helps teams establish a consistent starting point for sprint execution.
 
--   **[Create child tasks from CWM task types in List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-subtasks-for-cwm-tasks.md)**
+-   **[Create child tasks from CWM task types in List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-subtasks-for-cwm-tasks.md)**
 
     Break down a large and complex CWM task into smaller units of clear and assignable child tasks using AI. The parent task's short description and description are analyzed by AI to generate child tasks.
 
@@ -46,7 +46,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
     \[Omitted image "generate-subtasks-cwm.png"\] Alt text: The Generate Subtasks option is available on hovering over the short description of a task.
 
--   **[Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)**
+-   **[Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)**
 
     Turn an open prompt or an uploaded file into a batch of tasks for your Board, instead of creating each task individually. Describe the context for task generation, or attach a file such as meeting notes, brainstorming planning docs, or epic PRDs. The input is analyzed by AI and a list of tasks is proposed.
 
@@ -56,7 +56,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
     \[Omitted image "cwm-generate-contextual-tasks-review.png"\] Alt text: Review the generated tasks and select the ones you want to add to your board.
 
--   **[Generate formulas from natural language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md)**
+-   **[Generate formulas from natural language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md)**
 
     Create formula columns faster by describing your calculation in natural language and letting ServiceNow Otto generate the formula for you.
 
@@ -66,7 +66,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
     \[Omitted image "na-cwm-formula-instruction-side-panel.png"\] Alt text: Formula Builder panel in ServiceNow Otto for CWM showing a natural language description used to generate a formula.
 
--   **[Generate acceptance criteria for stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-acceptance-criteria-for-stories-in-cwm.md)**
+-   **[Generate acceptance criteria for stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-acceptance-criteria-for-stories-in-cwm.md)**
 
     As a product manager, generate clear, comprehensive, and testable acceptance criteria for your user stories, instead of spending hours writing and refining them manually.
 
@@ -74,7 +74,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
     \[Omitted image "na-cwm-acc-criteria.png"\] Alt text: Sprint planning view in CWM showing a story detail panel with the Acceptance criteria field open and the ServiceNow Otto menu displaying the Generate acceptance criteria option.
 
--   **[CWM Doc generation and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)**
+-   **[CWM Doc generation and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)**
 
     Generate content with ServiceNow Otto for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 
@@ -115,7 +115,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
         \[Omitted image "cwm-nacm-ask-questions.png"\] Alt text: Ask questions in the context of the document. Here, user asks questions on project budget, in the context of a Project Charter document.
 
--   **[Doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/summarize-doc-now-assist-cwm.md)**
+-   **[Doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/summarize-doc-now-assist-cwm.md)**
 
     Gain insights into the contents of the page by summarizing it in CWM Docs. Whether you're reviewing long documents or preparing for meetings, Doc summarization skill helps you stay informed and efficient.
 
@@ -123,7 +123,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
     \[Omitted image "cwm-na-doc-summarization.png"\] Alt text: CWM Doc page titled 'Phases and milestones' with the ServiceNow Otto panel showing an AI-generated summary of the document's key milestones.
 
--   **[Generate CWM Tasks from Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-docs-now-assist.md)**
+-   **[Generate CWM Tasks from Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-tasks-cwm-docs-now-assist.md)**
 
     Creating tasks with detailed descriptions for your CWM Board requires significant time and manual effort. If the tasks aren’t detailed enough, it can lead to confusion and misalignment within the team, affecting their understanding of the expected outcomes. To avoid this manual effort and improve time to value, ServiceNow Otto can generate tasks for your Board using the information in your Docs. This way, you can ensure clear and comprehensive task descriptions, allowing you to focus more on execution and less on the administrative work.
 
@@ -154,7 +154,7 @@ A knowledge worker can use the ServiceNow Otto panel in CWM workspace. This conv
 
 To learn more about configuring and using ServiceNow Otto, see:
 
--   [Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md)
--   [Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)
--   [Generate tasks from Docs in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-docs-now-assist.md)
+-   [Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md)
+-   [Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)
+-   [Generate tasks from Docs in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-tasks-cwm-docs-now-assist.md)
 

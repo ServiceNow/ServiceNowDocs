@@ -2,7 +2,7 @@
 title: Manage stashes
 description: App developers can apply or delete stashed changes from App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-manage-stashes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/source-control-manage-stashes.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -52,5 +52,5 @@ Removes the stashed changes.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Stash changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/stash-changes.md)
+**Parent Topic:**[Stash changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/stash-changes.md)
 

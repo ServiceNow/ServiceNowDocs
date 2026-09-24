@@ -2,7 +2,7 @@
 title: Copy a hardware model from the Content lookup portal
 description: Copy a hardware model record from the Content lookup portal to add a new model entry to the Product Model \[cmdb\_model\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/copy-hardware-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/copy-hardware-model.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -52,16 +52,16 @@ The model record is created and you’re redirected to the Model record form.
 
 ## What to do next
 
--   To publish the model to the Hardware Catalog, select **Publish to Hardware Catalog**. For more information about publishing the model to the hardware catalog, see [Publish an item to the hardware catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/t_PublishAnItemToTheHardwareCatalog.md).
--   To revert the normalization of the hardware or consumable model, select **Revert Normalization**. For more information about reverting normalization, see [Revert normalization of hardware and consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/revert-norm-ham.md).
+-   To publish the model to the Hardware Catalog, select **Publish to Hardware Catalog**. For more information about publishing the model to the hardware catalog, see [Publish an item to the hardware catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/t_PublishAnItemToTheHardwareCatalog.md).
+-   To revert the normalization of the hardware or consumable model, select **Revert Normalization**. For more information about reverting normalization, see [Revert normalization of hardware and consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/revert-norm-ham.md).
 -   To save the changes made to the model record, select **Save**.
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 
 **Related topics**  
 
 
-[Create a hardware or consumable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md)
+[Create a hardware or consumable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md)
 
-[Content lookup portal for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/content-lookup-ham.md)
+[Content lookup portal for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/content-lookup-ham.md)
 

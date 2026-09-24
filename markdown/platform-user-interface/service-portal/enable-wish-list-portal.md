@@ -2,7 +2,7 @@
 title: Enable the SC Wish List Cart widget in Service Portal
 description: Add catalog items or record producers to the wish list after you enable the wish list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-wish-list-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/enable-wish-list-portal.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -65,7 +65,7 @@ Role required: admin or sp\_admin
     4.  Select the **Show Add/Update Wish List buttons** check box and click **Save**.
 
 
-**Parent Topic:**[SC Wish List Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-wish-list.md)
+**Parent Topic:**[SC Wish List Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-wish-list.md)
 
 **Related topics**  
 

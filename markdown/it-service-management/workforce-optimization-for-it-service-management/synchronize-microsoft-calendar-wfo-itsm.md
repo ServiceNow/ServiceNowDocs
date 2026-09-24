@@ -2,7 +2,7 @@
 title: Set up the Workforce Optimization for ITSM agent calendar integration with their Microsoft Outlook calendar
 description: Display the schedules, shifts, and events from the agent's calendar also in their Microsoft Outlook calendar when you synchronize both the calendars.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/synchronize-microsoft-calendar-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/synchronize-microsoft-calendar-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -36,7 +36,7 @@ Role required: admin
 
 2.  Set the **sn\_wfo\_outlook.enable\_outlook\_sync** system property to **true**.
 
-    For more information, see [Scheduling components in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
+    For more information, see [Scheduling components in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
 
 3.  Add the email IDs of the users that you want to synchronize to the User \[sys\_user\] table.
 
@@ -45,5 +45,5 @@ Role required: admin
     **Important:** If the swapped shifts don't appear in the Microsoft Outlook calendar, verify that you've followed all steps in this procedure to make sure that the schedule for the shifts have been synchronized with Microsoft Outlook.
 
 
-**Parent Topic:**[Synchronize agent calendar in Workforce Optimization for ITSM with the Microsoft Outlook calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/synchronize-microsoft-outlook-wfo-itsm.md)
+**Parent Topic:**[Synchronize agent calendar in Workforce Optimization for ITSM with the Microsoft Outlook calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/synchronize-microsoft-outlook-wfo-itsm.md)
 

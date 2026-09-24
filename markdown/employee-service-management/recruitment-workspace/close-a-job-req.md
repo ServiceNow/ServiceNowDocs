@@ -2,7 +2,7 @@
 title: Close a job requisition
 description: Close a job requisition if it’s no longer required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/close-a-job-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/close-a-job-req.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -30,10 +30,10 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 4.  In the pop-up window, select **Cancel requisition** and select **Close**.
 
-    If a requisition is closed while it was on hold, the on hold state won't be retained. For more information, see [Job requisition state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/job-req-state-mngmnt.md).
+    If a requisition is closed while it was on hold, the on hold state won't be retained. For more information, see [Job requisition state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/job-req-state-mngmnt.md).
 
 
-**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
+**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/manage-job-reqs.md)
 
 **Related topics**  
 

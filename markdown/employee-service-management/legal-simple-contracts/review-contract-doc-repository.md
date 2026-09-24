@@ -2,7 +2,7 @@
 title: Preview and download a signed contract document
 description: Preview and download a signed contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/review-contract-doc-repository.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/review-contract-doc-repository.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -45,15 +45,15 @@ Access to a contract document is based on the following user roles and condition
 
 6.  Download the contract document.
 
-<table id="choicetable_chr_vty_2zb"><thead><tr><th align="left" id="d453984e163">
+<table id="choicetable_chr_vty_2zb"><thead><tr><th align="left" id="d453988e163">
 
 External integration status
 
-</th><th align="left" id="d453984e166">
+</th><th align="left" id="d453988e166">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d453984e172">
+</th></tr></thead><tbody><tr><td id="d453988e172">
 
 **Active and published**
 
@@ -61,7 +61,7 @@ Action
 
 Select the link in the Signed Contract list in the **Details** tab
 
-</td></tr><tr><td id="d453984e184">
+</td></tr><tr><td id="d453988e184">
 
 **Not available**
 

@@ -2,7 +2,7 @@
 title: Viewing the requester home page
 description: View and manage cloud account requests on requester page. The home page provides a view of requested, approved, denied, pending, and active accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/view-requester-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/view-requester-dashboard.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

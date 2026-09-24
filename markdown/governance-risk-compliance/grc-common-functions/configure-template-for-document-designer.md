@@ -2,7 +2,7 @@
 title: Configure templates for Document Designer
 description: Configure the template to specify the fields from which data must be obtained and displayed on the audit report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-template-for-document-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/configure-template-for-document-designer.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -40,5 +40,5 @@ Role required: sn\_grc\_doc\_design.admin and sn\_audit.admin
 
 ## What to do next
 
-Create a data relationship path from the template configuration to go to any table that you require. For more information, see [Create data relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-data-relationships.md).
+Create a data relationship path from the template configuration to go to any table that you require. For more information, see [Create data relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-data-relationships.md).
 

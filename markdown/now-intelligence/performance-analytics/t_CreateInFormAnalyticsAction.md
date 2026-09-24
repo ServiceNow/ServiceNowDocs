@@ -2,7 +2,7 @@
 title: Add in-form analytics to a form
 description: Create a UI action that enables users to view relevant analytics while completing a form. The UI action associates the table that uses the form, a breakdown used with that table, and a breakdown dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreateInFormAnalyticsAction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_CreateInFormAnalyticsAction.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -20,7 +20,7 @@ Create a UI action that enables users to view relevant analytics while completin
 
 **Important:** This feature is available only for Core UI dashboards. It is not available on net new instances.
 
-Before adding in-form analytics for a specific table and breakdown, create a breakdown dashboard that uses that table and the breakdown source of that breakdown. Design the dashboard so that it prominently displays the most useful information to the users who create records on that table. For more information about breakdown dashboards, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+Before adding in-form analytics for a specific table and breakdown, create a breakdown dashboard that uses that table and the breakdown source of that breakdown. Design the dashboard so that it prominently displays the most useful information to the users who create records on that table. For more information about breakdown dashboards, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 Performance Analytics must be active to create in-form analytics.
 
@@ -61,5 +61,5 @@ The Self-Service view does not show the Assignment Group field by default. In th
 
 \[Omitted image "in-form-analytics-related-link.png"\] Alt text: The dashboard pop-up opened from the Related Links
 
-**Parent Topic:**[In-form analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/in-form-analytics.md)
+**Parent Topic:**[In-form analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/in-form-analytics.md)
 

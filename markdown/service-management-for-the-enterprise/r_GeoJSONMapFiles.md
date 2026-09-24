@@ -2,7 +2,7 @@
 title: GeoJSON map files
 description: The floor plan visualization feature uses files in the GeoJSON format, an open standard for representing geographical features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_GeoJSONMapFiles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_GeoJSONMapFiles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,12 +24,12 @@ When cloning an instance, sys\_attachments including GeoJSON maps are not cloned
 
 **Note:** As an option, you can download the GeoJSON maps from the source tables \(fm\_map\_set and fm\_map\_set\_tranformed\) and upload to the destination.
 
--   **[Community file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_CommunityFile.md)**  
+-   **[Community file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_CommunityFile.md)**  
 The community file contains information about the campus, including the number of buildings and the number of floors for each building.
--   **[Level geometry file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_LevelFile.md)**  
+-   **[Level geometry file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_LevelFile.md)**  
 The level geometry file contains all the geometry for a given level. Each file is one map that can be rendered in the ServiceNow platform.
--   **[Process GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ProcessMapFiles.md)**  
+-   **[Process GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ProcessMapFiles.md)**  
 Processing GeoJSON map files includes parsing data from a map and importing that information to the campus space management tables. Use this process to set up your spaces or update bulk changes to your campus without having to enter each change manually.
 
-**Parent Topic:**[Space management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_SpaceManagement.md)
+**Parent Topic:**[Space management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_SpaceManagement.md)
 

@@ -2,7 +2,7 @@
 title: Ethoca spoke
 description: Integrate ServiceNow instance with your Ethoca account to manage card dispute resolution and prevent fraud. By using this spoke, you can access detailed merchant information and subscription control, view digital receipts, and manage their disputes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ethoca-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/ethoca-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -122,5 +122,5 @@ Retrieves a list of alerts and their outcomes based on the Batch ID provided by 
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up Ethoca spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
+For information about setting up the spoke, see [Set up Ethoca spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
 

@@ -2,14 +2,14 @@
 title: Add an external content search source to ServiceNow Otto for Virtual Agent
 description: Include searchable content retrieved by an external content connector in your ServiceNow Otto for Virtual Agent chats.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/add-ext-cont-srch-src-na-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/add-ext-cont-srch-src-na-va.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-07-24"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Include searchable content retrieved by an external content connector in your Se
 
 ## Before you begin
 
-You must have already created at least one search source for the indexed source associated with the external content connector. For instructions on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-source-ais.md).
+You must have already created at least one search source for the indexed source associated with the external content connector. For instructions on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-search-source-ais.md).
 
 Role required: ais\_admin
 
@@ -39,7 +39,7 @@ When linking a search source to the **ServiceNow Otto in VA** search profile, yo
 
 4.  On the Search Profile - Search Source Mapping form, fill in the fields.
 
-    For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-prof-src-mapping-form-ais.md).
+    For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/search-prof-src-mapping-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -50,7 +50,7 @@ The new search source appears in the Search Sources related list. ServiceNow Ott
 
 ## What to do next
 
-Derived auto-correction term lists for the **ServiceNow Otto in VA** search profile's typo handling dictionary don't automatically update to reflect changes to the set of searchable records. To update these auto-correction term lists, publish the **ServiceNow Otto in VA** search profile. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
+Derived auto-correction term lists for the **ServiceNow Otto in VA** search profile's typo handling dictionary don't automatically update to reflect changes to the set of searchable records. To update these auto-correction term lists, publish the **ServiceNow Otto in VA** search profile. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 

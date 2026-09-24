@@ -2,7 +2,7 @@
 title: External roles in self-registration
 description: To prevent inadvertently providing access to external users, you can assign the snc\_external role to all external users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/external-roles-self-registration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/external-roles-self-registration.html
 release: australia
 product: Authentication
 classification: authentication

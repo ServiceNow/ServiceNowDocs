@@ -2,7 +2,7 @@
 title: Configuring auto-close rules
 description: By configuring auto-close rules, you can automate the process of closing stale detections and findings associated with retired configuration items \(CIs\).Create rules to close stale detections and findings associated with retired configuration items \(CIs\) automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-auto-close-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-auto-close-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-06"
@@ -23,12 +23,12 @@ Starting with v30.3.3 of USEM parallel processing for auto close rules is suppor
 
 Configuration of auto-delete rules includes the following steps.
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
+**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 
 
-[Closing stale detections and findings automatically using auto-close rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-closing-stale-findings-automatically.md)
+[Closing stale detections and findings automatically using auto-close rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-closing-stale-findings-automatically.md)
 
 ## Create or edit auto-close rules
 
@@ -36,7 +36,7 @@ Create rules to close stale detections and findings associated with retired conf
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-acls-for-admin-rules.md)
 
 ### Procedure
 

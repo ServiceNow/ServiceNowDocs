@@ -2,7 +2,7 @@
 title: Domain separation in Autonomous Workforce
 description: Domain separation is unsupported for Autonomous Workforce.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/domain-separation-aiw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/domain-separation-aiw.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-19"

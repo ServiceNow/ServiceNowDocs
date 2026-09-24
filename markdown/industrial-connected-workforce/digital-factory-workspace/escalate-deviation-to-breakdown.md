@@ -2,7 +2,7 @@
 title: Escalate a deviation to a breakdown
 description: Convert a deviation into a breakdown when it no longer fits the deviation criteria and requires structured analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/escalate-deviation-to-breakdown.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/escalate-deviation-to-breakdown.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -35,5 +35,5 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 The deviation has been escalated to a breakdown and is displayed in the breakdown list and the list of all tasks. To start breakdown analysis, select **Start breakdown analysis** from the three-dot menu in the top corner of the record page.
 
-**Parent Topic:**[Breakdown Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/breakdown-analysis.md)
+**Parent Topic:**[Breakdown Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/breakdown-analysis.md)
 

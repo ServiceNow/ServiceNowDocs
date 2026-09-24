@@ -2,7 +2,7 @@
 title: JS Code Coverage Debug
 description: JS Code Coverage Debug allows administrators and application developers to log the server-side scripts triggered during a user session and then review which lines of code the system ran.The JS Code Coverage application highlights script fields to indicate whether the system ran or skipped each line.You can activate the JS Code Coverage Debug plugin \(com.glide.js.coverage\) if you have the admin role.Use JS Code Coverage Debug to record a user session and then review which server-side scripts and lines of code the system ran.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/js-code-coverage-debug.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/js-code-coverage-debug.html
 release: australia
 product: Scripts
 classification: scripts
@@ -27,7 +27,7 @@ Users with the js\_coverage\_debugger role can debug server-side scripts without
 
 **Note:** JS Code Coverage Debug doesn't log information for client-side scripts.
 
-**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debug-overview.md)
+**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debug-overview.md)
 
 ## JS Code Coverage highlighting
 
@@ -48,7 +48,7 @@ Administrators and application developers can use this information to conduct mo
 **Related topics**  
 
 
-[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
+[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debugger.md)
 
 ## Activate JS Code Coverage Debug
 
@@ -131,5 +131,5 @@ Role required: js\_coverage\_debugger or admin
 
 ### What to do next
 
-Use the code coverage information to do more targeted debugging activities such as set breakpoints and review variable values with the Script Debugger. For more information, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md).
+Use the code coverage information to do more targeted debugging activities such as set breakpoints and review variable values with the Script Debugger. For more information, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debugger.md).
 

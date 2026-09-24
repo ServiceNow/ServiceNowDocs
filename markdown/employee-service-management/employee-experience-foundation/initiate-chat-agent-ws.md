@@ -2,7 +2,7 @@
 title: Request-based chat - Start and import chat from Start Microsoft Teams chat action
 description: Interact with a requester in Microsoft Teams from the workspace to quickly resolve the ticket.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/initiate-chat-agent-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/initiate-chat-agent-ws.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -106,5 +106,5 @@ Option to choose the default chat client.
     The system captures the work notes about the chat details.
 
 
-**Parent Topic:**[Request-based chat - Start and import chat from Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/initiate-chat-agent-workspace.md)
+**Parent Topic:**[Request-based chat - Start and import chat from Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/initiate-chat-agent-workspace.md)
 

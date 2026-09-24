@@ -2,7 +2,7 @@
 title: Generative AI skills in the Platform workflow
 description: Most generative AI products include skills in the Platform workflow, such as product navigation. Some products include skills for the conversational user and platform experience, and knowledge article recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills

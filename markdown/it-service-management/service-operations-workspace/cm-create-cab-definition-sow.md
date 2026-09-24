@@ -2,7 +2,7 @@
 title: Create a Change Advisory Board \(CAB\) definition
 description: Create a Change Advisory Board \(CAB\) definition in Service Operations Workspace to set up recurring CAB meetings for reviewing and authorizing change requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/cm-create-cab-definition-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/cm-create-cab-definition-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -333,7 +333,7 @@ If the schedule entry is scheduled to repeat, specifies an end date until which 
 
 You can modify CAB meeting details and send meeting requests to attendees. You can also manage agendas by reviewing or adding agenda items to each of the CAB meetings.
 
-**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/change-sow.md)
+**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/change-sow.md)
 
 **Related topics**  
 

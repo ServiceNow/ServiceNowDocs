@@ -2,7 +2,7 @@
 title: Public Sector Digital Services case types
 description: You can use a public service case, which is based on the Government Service case type, to extend the customer service case from the Customer Service Management application. By using a case type, you can define the processes and data that are needed to resolve your public service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/government-service-case-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/government-service-case-type.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,17 +16,17 @@ You can use a public service case, which is based on the Government Service case
 
 ## Overview of a case type
 
-A case type represents the processes and data needed to resolve a specific type of constituent request. For example, within Public Sector, government service agents can use case types for different constituent needs such as requests for information, requests for maintenance, social benefits application processing, or managing licenses and permits. You can associate record producers with a certain type of case so that when you submit that record producer through the portal, it creates a case of the correct type. In addition to using service definitions, you can use the case types feature to create and configure the different types of government service cases that your agency handles. For more information on service definitions, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-service-definitions.md).
+A case type represents the processes and data needed to resolve a specific type of constituent request. For example, within Public Sector, government service agents can use case types for different constituent needs such as requests for information, requests for maintenance, social benefits application processing, or managing licenses and permits. You can associate record producers with a certain type of case so that when you submit that record producer through the portal, it creates a case of the correct type. In addition to using service definitions, you can use the case types feature to create and configure the different types of government service cases that your agency handles. For more information on service definitions, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-service-definitions.md).
 
 The base Government Service case type is called a public service case, and is an extension of the Customer Service case type from the Customer Service Management application. Each Public Sector Digital Services playbook application comes with its own case type \(for example, Information Request Playbook has an Information Request case type that comes by default, which is an extension of the base Government Service case type\). The Information Request case type can be extended further if your specific use case goes beyond what it offers.
 
 As an administrator, you can extend from existing base case types that are provided in applications out-of-the-box to create additional case types for various government services that your agency offers, or you can create and configure an entirely new case type that extends the Case table, in order to implement specific case application types, and enabling you to take advantage of prebuilt roles, business rules, and other business logic.
 
-Creating a new case type can include creating a new table that is an extension of an existing case, or creating an entirely new case type. Typically this involves creating new roles, modules, workspaces, and other required entities. For additional information on case types, see Customer Service Case Types
+Creating a new case type can include creating a new table that is an extension of an existing case, or creating an entirely new case type. Typically this involves creating new roles, modules, workspaces, and other required entities. For additional information on case types, see [Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md)
 
-All Public Sector Digital Services applications have a base case type table. Use the base case type table when adding a new case type for that application. For example, if you need a new case type in License and Permit Playbook, extend the License and Permit Base Case table, which is itself an extension of the Government Service base case table and was created to capture more specific information related only to a License and Permit case. However, if there is need for a new case type for which there is no base application in PSDS that works, extend the base PSDS case \[sn\_govservice\_case\] table.For more information on the base tables installed with each Public Sector Digital Services application, see [Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services-data-model.md).
+All Public Sector Digital Services applications have a base case type table. Use the base case type table when adding a new case type for that application. For example, if you need a new case type in License and Permit Playbook, extend the License and Permit Base Case table, which is itself an extension of the Government Service base case table and was created to capture more specific information related only to a License and Permit case. However, if there is need for a new case type for which there is no base application in PSDS that works, extend the base PSDS case \[sn\_govservice\_case\] table.For more information on the base tables installed with each Public Sector Digital Services application, see [Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/public-sector-digital-services-data-model.md).
 
-You can use both case types and service definitions to define the data and processes that are needed to resolve a government service request. For more information on service definitions in Public Sector Digital Services, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-service-definitions.md)
+You can use both case types and service definitions to define the data and processes that are needed to resolve a government service request. For more information on service definitions in Public Sector Digital Services, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-service-definitions.md)
 
 When you are evaluating whether you need to create a new case type in Public Sector Digital Services, you should consider the following:
 
@@ -39,7 +39,7 @@ When you are evaluating whether you need to create a new case type in Public Sec
 You can configure a case type by creating a table for the new case type that extends the government service base case table. Then, you can set up a series of processes and components for that case type.
 
 -   To get an overview of this process, see the Government Service Case Types Guided Setup.
--   For more details on how to configure case types using Guided Setup, see .
+-   For more details on how to configure case types using Guided Setup, see [Configuring customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-case-types.md).
 
 An agent can then use this custom case type to create a case to resolve a constituent or business request. .
 
@@ -49,7 +49,7 @@ The Customer Service Case Types plugin \(com.snc.csm\_case\_types\) is activated
 
 Activating this plugin adds the Case Types module to the application navigator. You can use this module to create and manage case types, as well as extend the Government Service base case type.
 
-For more information on the plugins that are installed with the Public Sector Digital Services Core application, see [Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/installed-with-public-sector-digital-services-core.md).
+For more information on the plugins that are installed with the Public Sector Digital Services Core application, see [Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/installed-with-public-sector-digital-services-core.md).
 
 ## Case Types Guided Setup
 
@@ -68,7 +68,7 @@ To create and configure a case type, do the following tasks.
 -   Create a case type definition record for the new case type and add it to the Case Type table \(sn\_case\_type\).
 -   Configure the Get Case Types flow and modify the conditions that determine the visibility for a case type.
 
-For more information on using Guided Setup for Public Sector Digital Services, see [Configure Public Sector Digital Services Core foundational data using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-psds-foundation-data.md).
+For more information on using Guided Setup for Public Sector Digital Services, see [Configure Public Sector Digital Services Core foundational data using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configure-psds-foundation-data.md).
 
 ## Government Service case type applications
 
@@ -120,7 +120,7 @@ Service Request Playbook \(sn\_gsm\_srvc\_req\)
 
 </td><td>
 
-Playbook that provides step-by-step guidance through the life cycle of a service request case. This playbook uses the service request case type to capture the details of the requests for the various types of community maintenance. For more information, see [Life cycle of a Public Service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/government-service-case-states.md). The Service Request case table \[sn\_gsm\_service\_request\_case\] is installed with Service Request Playbook.
+Playbook that provides step-by-step guidance through the life cycle of a service request case. This playbook uses the service request case type to capture the details of the requests for the various types of community maintenance. For more information, see [Life cycle of a Public Service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/government-service-case-states.md). The Service Request case table \[sn\_gsm\_service\_request\_case\] is installed with Service Request Playbook.
 
 </td></tr></tbody>
 </table>Review the [Service Request Playbook](https://store.servicenow.com/sn_appstore_store.do#!/store/application/7aade7bb87a0d51056f84089cebb35ff), [Information Request Playbook](https://store.servicenow.com/sn_appstore_store.do#!/store/application/bd7902882cd29510f877ae4a7a748ca3), [License and Permit Playbook](https://store.servicenow.com/sn_appstore_store.do#!/store/application/50f57c9d93d4f950e3e7b0627cba1045), [Social Benefits playbook](https://store.servicenow.com/sn_appstore_store.do#!/store/application/1490efb5c3fbf5509fad2abdc0013133/1.1.1?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dsocial%2520benefits&sl=sh), or [Grants Management](https://store.servicenow.com/store/app/b687d2b01bd52a50396216db234bcbf3) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
@@ -138,7 +138,7 @@ The government service case type moves through the stages that are listed in the
 
 ## Public Service Case states
 
-The government case type moves through the states that are listed in the following table. For more information, see [Life cycle of a Public Service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/government-service-case-states.md).
+The government case type moves through the states that are listed in the following table. For more information, see [Life cycle of a Public Service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/government-service-case-states.md).
 
 |State|Description|
 |-----|-----------|

@@ -2,7 +2,7 @@
 title: Access the Applicant Center
 description: Log in to the Applicant Center without a password and explore the portal easily.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/view-applicant-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/applicant-center/view-applicant-center.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -43,5 +43,5 @@ An applicant can log in to the Applicant Center without the need for a password 
 6.  Select **View Applicant Center** to re-login to the Applicant Center.
 
 
-**Parent Topic:**[Using Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/use-applicant-center.md)
+**Parent Topic:**[Using Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/applicant-center/use-applicant-center.md)
 

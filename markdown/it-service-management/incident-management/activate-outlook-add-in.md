@@ -2,7 +2,7 @@
 title: Activate the ServiceNow Add-in for Microsoft Office
 description: You can activate the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/activate-outlook-add-in.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/activate-outlook-add-in.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -58,7 +58,7 @@ For more information, see [Install the ServiceNow Add-in for Microsoft 365](http
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-incident-outlook.md)
+**Parent Topic:**[Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-incident-outlook.md)
 
 **Related topics**  
 

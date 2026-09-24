@@ -2,12 +2,12 @@
 title: Evaluated sessions
 description: View all evaluated AI sessions across your portfolio, compare quality and safety scores by AI system, and identify the sessions that need investigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-evaluated-sessions-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-evaluated-sessions-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-08"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Investigate sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -48,7 +48,7 @@ Find the sessions that need attention by reviewing the evaluated sessions table.
 
 -   **Name**
 
-    Session identifier. Select the name to open the session detail page and begin investigating traces and spans. See [Investigate a low-scoring session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-investigate-session-task.md).
+    Session identifier. Select the name to open the session detail page and begin investigating traces and spans. See [Investigate a low-scoring session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-investigate-session-task.md).
 
 -   **Traces**
 
@@ -87,5 +87,5 @@ Find the sessions that need attention by reviewing the evaluated sessions table.
     Combined language model response time, in milliseconds, across all traces in the session. This measures time spent in language model calls, not total session duration. Unusually high latency can point to a slow-responding model or a high number of tool-calling steps within the session.
 
 
-**Parent Topic:**[Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
+**Parent Topic:**[Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
 

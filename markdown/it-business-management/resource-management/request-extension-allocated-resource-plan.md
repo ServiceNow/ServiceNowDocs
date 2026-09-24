@@ -2,7 +2,7 @@
 title: Request extension of an allocated resource plan
 description: As a project manager, you can request the extension of an allocated resource plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/request-extension-allocated-resource-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/request-extension-allocated-resource-plan.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -20,9 +20,9 @@ As a project manager, you can request the extension of an allocated resource pla
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility and start using Resource Management Workspace.
+You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility and start using Resource Management Workspace.
 
-Resource requester can [extend a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/manage-resource-allocations-rmw.md) using Resource Management Workspace.
+Resource requester can [extend a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/manage-resource-allocations-rmw.md) using Resource Management Workspace.
 
 Role required: it\_project\_manager, resource\_user
 
@@ -38,7 +38,7 @@ Assume that a project, which has resources allocated, gets delayed by one month.
 
 3.  On the Request Extension from, fill the fields.
 
-    For a description of the field values, see [Request Extension form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-req-extn-form.md).
+    For a description of the field values, see [Request Extension form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-req-extn-form.md).
 
 
 ## Result
@@ -47,9 +47,9 @@ The end date of the resource plan is updated and the **Extension** field is set 
 
 ## What to do next
 
-[Allocate resources for the extended period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/allocate-resources-for-extended-period.md).
+[Allocate resources for the extended period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/allocate-resources-for-extended-period.md).
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 

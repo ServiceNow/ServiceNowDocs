@@ -2,7 +2,7 @@
 title: View and download a signed contract document as a legal fulfiller
 description: View and download a signed contract document as a legal fulfiller.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-preview-contract-fulfiller.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-preview-contract-fulfiller.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -37,5 +37,5 @@ Role required: sn\_lg\_contracts.contracts\_fulfiller
     -   If an external storage integration is active and published, select the link in the **URL** tab to open the external storage location to download the contract document.
     -   If no external storage integration is available, select the document in the **Contract Documents** tab to view the contract revision details. Select the Actions icon \(\[Omitted image "menu-icon.png"\] Alt text: Actions icon.\) and select **Download** to download the document. You can click on the name of the document view option to it.
 
-**Parent Topic:**[View and download a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-preview-contract.md)
+**Parent Topic:**[View and download a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-preview-contract.md)
 

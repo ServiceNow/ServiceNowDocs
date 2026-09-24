@@ -2,7 +2,7 @@
 title: Create dependencies between work order tasks
 description: If a work order contains multiple tasks, you can create dependencies between the tasks that determine the order in which tasks are performed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_SetAnUpstreamTask.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_SetAnUpstreamTask.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -18,7 +18,7 @@ If a work order contains multiple tasks, you can create dependencies between the
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 Activate the Field Service Task Dependency \(com.snc.fsm\_task\_dependency\) plugin to optionally define advanced task dependencies among work order tasks from different or same work order.
 

@@ -2,7 +2,7 @@
 title: Compliance Activation
 description: Compliance functionality is provided by the Certification Core \(com.snc.certification\_core\) plugin which contains shared functionality required for certification audits.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_ActivatingCompliance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/c\_ActivatingCompliance.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -18,7 +18,7 @@ Compliance functionality is provided by the Certification Core \(com.snc.certifi
 
 The Certification Core \(com.snc.certification\_core\) plugin consists of the following plugins, and is activated by default.
 
--   Activated by default: [Desired State Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_DesiredState.md) \(com.snc.certification\_desired\_state\)
--   [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md): [Architecture Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ArchitectureCompliance.md) \(com.snc.architecture\_compliance\), which automatically activates the Version Management \(com.snc.version\) plugin that manages certification filter and template versions.
--   [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md): [Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_DataCertification.md) \(com.snc.certification\_v2\), which automatically activates the Version Management \(com.snc.version\) plugin that manages certification filter versions.
+-   Activated by default: [Desired State Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_DesiredState.md) \(com.snc.certification\_desired\_state\)
+-   [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md): [Architecture Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ArchitectureCompliance.md) \(com.snc.architecture\_compliance\), which automatically activates the Version Management \(com.snc.version\) plugin that manages certification filter and template versions.
+-   [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md): [Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_DataCertification.md) \(com.snc.certification\_v2\), which automatically activates the Version Management \(com.snc.version\) plugin that manages certification filter versions.
 

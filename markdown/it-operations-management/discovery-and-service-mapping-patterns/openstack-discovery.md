@@ -2,7 +2,7 @@
 title: OpenStack resource discovery
 description: The ServiceNow Discovery application uses OpenStack resource discovery patterns to find OpenStack resources through REST API calls. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -45,7 +45,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create a discovery schedule**
 
-    For more information, see [Create an OpenStack Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-openstack-schedule-DAW.md).
+    For more information, see [Create an OpenStack Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-openstack-schedule-DAW.md).
 
 -   **Create an automatic discovery schedule for OpenStack service accounts—for private cloud only**
 
@@ -500,5 +500,5 @@ The relationships listed in the following table are created to support OpenStack
 |cmdb\_ci\_openstack\_hypervisor\_view|Hosted on::Hosts|cmdb\_ci\_openstack\_datacenter|
 |cmdb\_ci\_openstack\_hypervisor\_view|Uses::Hosts Used by|cmdb\_ci\_server|
 
-**Parent Topic:**[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
+**Parent Topic:**[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 

@@ -2,7 +2,7 @@
 title: Customize Activity stream in Agent Workspace for HR Case Management
 description: Configure which activities appear in the Activity stream and set their display order for HR cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/activity-stream-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/activity-stream-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

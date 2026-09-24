@@ -2,7 +2,7 @@
 title: Configure AI search for Contract Workspace
 description: Get improved search results in Contract Workspace by configuring the ServiceNow AI Search application to work with it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-ai-srch-cntrct-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-config-ai-srch-cntrct-wrkspc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

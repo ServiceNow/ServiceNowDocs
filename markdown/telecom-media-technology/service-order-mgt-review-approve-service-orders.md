@@ -2,7 +2,7 @@
 title: Reviewing service orders for fulfillment
 description: Learn how your order fulfillment manager can review service orders for fulfillment by using the Order Management application. With this application, you can make sure that your service orders are fulfilled correctly.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 7, 2025.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-review-approve-service-orders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-order-mgt-review-approve-service-orders.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

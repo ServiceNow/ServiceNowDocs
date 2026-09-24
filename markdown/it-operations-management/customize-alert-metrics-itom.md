@@ -2,7 +2,7 @@
 title: View alert metric trends in Service Operations Workspace
 description: View the metrics for an alert and adjust the time range to see the trends for either the alert or its associated Configuration Item \(CI\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/customize-alert-metrics-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/customize-alert-metrics-itom.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ View the metrics for an alert and adjust the time range to see the trends for ei
 
 Ensure you have the Metric Intelligence \(sn\_metrics\_ng\) plugin installed.
 
-Configure the metrics to be displayed for the alert, as described in [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-alert-metrics-itom.md).
+Configure the metrics to be displayed for the alert, as described in [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-alert-metrics-itom.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -74,5 +74,5 @@ Role required: evt\_mgmt\_admin
     4.  Select **Save**.
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/workspace-dashboard-use.md)
 

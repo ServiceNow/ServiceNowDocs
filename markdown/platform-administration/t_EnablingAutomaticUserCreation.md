@@ -2,7 +2,7 @@
 title: Enable automatic user creation
 description: An administrator can set an email property to automatically create users from incoming email. The administrator provides a list of trusted domains to prevent untrusted users from being automatically created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EnablingAutomaticUserCreation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_EnablingAutomaticUserCreation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ Users in your instance must still have write and update access to the records th
 
     **Note:**
 
-    -   The **glide.user.trusted\_domain** property prevents user creation if the sender is not from a trusted domain. However, the system may still process inbound actions for emails that are received from the domain. To have the system ignore these emails, set up a system address filter. For more information on setting up system address filters, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-address-filters.md). You can also prevent untrusted users from triggering inbound actions by locking out the guest user.
+    -   The **glide.user.trusted\_domain** property prevents user creation if the sender is not from a trusted domain. However, the system may still process inbound actions for emails that are received from the domain. To have the system ignore these emails, set up a system address filter. For more information on setting up system address filters, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-address-filters.md). You can also prevent untrusted users from triggering inbound actions by locking out the guest user.
     -   The **glide.user.trusted\_domain** property does not accept wildcarded domains or values such as:
         -   \*.edu
         -   \*.net
@@ -76,5 +76,5 @@ The plugin sets the property **glide.email.create\_userid\_from\_email** to **tr
 
 **Warning:** Review your existing user records to reconcile any that contain identical email addresses. If you activate the plugin prior to reconciling email addresses, your instance cannot distinguish between users with identical email addresses and randomly selects one of the users with the matching email address.
 
-**Parent Topic:**[Configure inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-inbound-email.md)
+**Parent Topic:**[Configure inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-inbound-email.md)
 

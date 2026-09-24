@@ -2,7 +2,7 @@
 title: Normalize the scores for metrics
 description: You can use the Maximum normalization input setting to use normalized values to calculate assessment scores for questions \(metrics\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/set-max-norm-input.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/set-max-norm-input.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

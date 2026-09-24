@@ -2,7 +2,7 @@
 title: Enterprise Service Management Foundation
 description: Enterprise Service Management Foundation combines the Core Business Suite and the Simplified IT Service Management to deliver unified service experiences across IT, HR, finance, legal, workplace services, and procurement. The integrated solution streamlines service delivery and reduces administrative overhead for growing organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/esm-foundation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/esm-foundation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-30"
@@ -284,5 +284,5 @@ Get started with ESM Foundation by completing the following implementation and c
 11. Configure comprehensive analytics dashboards for service performance monitoring across all domains
 12. Train service agents on AI-assisted tools and integrated case management workflows.
 
-**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/solutions-gallery.md)
 

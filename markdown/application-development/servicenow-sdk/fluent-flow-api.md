@@ -2,7 +2,7 @@
 title: Flow API - ServiceNow Fluent
 description: The Flow API defines flows and subflows \[sys\_hub\_flow\], which automate business processes with reusable multiple-step components.Create a flow \[sys\_hub\_flow\] to run a sequence of actions and flow logic when a set of trigger conditions occur.Create a subflow \[sys\_hub\_flow\] to run a reusable sequence of actions and flow logic when called by a flow or API.Run a flow when the start conditions of a specific trigger type are met. Triggers determine when a flow runs and what data is available from the flow start conditions.Run a specific action instance from a flow or subflow. Actions determine what data is generated, updated, or retrieved.Run a specific flow logic instance from a flow or subflow. Flow logic determines how and when data is used.Reference a specific runtime data pill value from an action or flow logic input.Run a specific subflow from a parent flow or subflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/fluent-flow-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-sdk/fluent-flow-api.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -19,18 +19,18 @@ The Flow API defines flows and subflows \[sys\_hub\_flow\], which automate busin
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-Create a flow using the Flow object. For more information, see [Flow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+Create a flow using the Flow object. For more information, see [Flow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-flow-api.md).
 
-Create a subflow using the Subflow object. For more information, see [Subflow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+Create a subflow using the Subflow object. For more information, see [Subflow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-flow-api.md).
 
 For general information about flows, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md). For general information about subflows, see [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-subflows.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md)
 
 ## Flow object
 
@@ -80,7 +80,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ Function
 
 </td><td>
 
-Defines when to run the flow. When the trigger conditions are met, the system runs the flow using the data provided by the trigger. For more information about the wfa.trigger function, see [wfa.trigger function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+Defines when to run the flow. When the trigger conditions are met, the system runs the flow using the data provided by the trigger. For more information about the wfa.trigger function, see [wfa.trigger function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-flow-api.md).
 
 </td></tr><tr><td>
 
@@ -218,8 +218,8 @@ Function
 
 **Flow body** is an **Arrow function** in TypeScript that represents the execution steps in the flow. The Flow Body receives the **params** parameter as its input, which contains the **wfa.trigger** and **flowVariables** objects.The steps in the **Flow body** consist of these function types:
 
--   **wfa.action** function: Execute specific tasks and operations within a flow, such as creating records, sending emails, requesting approvals, or integrating with external systems. For more information about the wfa.action function, see [wfa.action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
--   **wfa.flow\_logic** function: Control how flows execute, providing conditional branching, iteration, and flow structuring capabilities. For more information about wfa.flow\_logic function, see [wfa.flow\_logic function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+-   **wfa.action** function: Execute specific tasks and operations within a flow, such as creating records, sending emails, requesting approvals, or integrating with external systems. For more information about the wfa.action function, see [wfa.action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-flow-api.md).
+-   **wfa.flow\_logic** function: Control how flows execute, providing conditional branching, iteration, and flow structuring capabilities. For more information about wfa.flow\_logic function, see [wfa.flow\_logic function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-flow-api.md).
 
  You can use these parameter values in the Flow body function.
 
@@ -517,7 +517,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -685,8 +685,8 @@ Function
 
 **Flow body** is an **Arrow function** in TypeScript that represents the execution steps in the flow. The Flow Body receives the **\_params** parameter as its input, which contains the **inputs** and **flowVariables** objects.The steps in the **Flow body** consist of these function types:
 
--   **wfa.action** function: Execute specific tasks and operations within a flow, such as creating records, sending emails, requesting approvals, or integrating with external systems. For more information about the wfa.action function, see [wfa.action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
--   **wfa.flow\_logic** function: Control how flows execute, providing conditional branching, iteration, and flow structuring capabilities. For more information about wfa.flow\_logic function, see [wfa.flow\_logic function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+-   **wfa.action** function: Execute specific tasks and operations within a flow, such as creating records, sending emails, requesting approvals, or integrating with external systems. For more information about the wfa.action function, see [wfa.action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-flow-api.md).
+-   **wfa.flow\_logic** function: Control how flows execute, providing conditional branching, iteration, and flow structuring capabilities. For more information about wfa.flow\_logic function, see [wfa.flow\_logic function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-flow-api.md).
 
  You can use these parameter values in the Flow body function.
 
@@ -959,7 +959,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -1168,7 +1168,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -1372,7 +1372,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -1484,8 +1484,8 @@ Function
 
 </td><td>
 
-**Flow logic body** is an **Arrow function** in TypeScript that represents the execution steps in the flow logic. The Flow Body receives the **\_params** parameter as its input, which contains the **wfa.trigger** and **flowVariables** objects. The steps in the **Flow logic body** consist of these functions calls:-   **wfa.action** function: Run a specific action instance from a flow or subflow. Actions determine what data is generated, updated, or retrieved.. For more information about the wfa.action function, see [wfa.action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
--   **wfa.flow\_logic** function: Run a specific flow logic instance from a flow or subflow. Flow logic determines how and when data is used. For more information about the wfa.flow\_logic function, see [wfa.flow\_logic function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+**Flow logic body** is an **Arrow function** in TypeScript that represents the execution steps in the flow logic. The Flow Body receives the **\_params** parameter as its input, which contains the **wfa.trigger** and **flowVariables** objects. The steps in the **Flow logic body** consist of these functions calls:-   **wfa.action** function: Run a specific action instance from a flow or subflow. Actions determine what data is generated, updated, or retrieved.. For more information about the wfa.action function, see [wfa.action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-flow-api.md).
+-   **wfa.flow\_logic** function: Run a specific flow logic instance from a flow or subflow. Flow logic determines how and when data is used. For more information about the wfa.flow\_logic function, see [wfa.flow\_logic function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-flow-api.md).
 
 </td></tr></tbody>
 </table>This example shows checking for conditions in the trigger record. If the current record has a priority of 1, it assigns the record to a critical priority team. Else If the current record has a priority value of 2, it assigns the record to a high priority team. If neither condition is met, the record is assigned to a general team.
@@ -1872,7 +1872,7 @@ export const emailIncidentTaskFlow = Flow(
 
 Run a specific subflow from a parent flow or subflow.
 
-Create a subflow object to run a reusable sequence of actions and flow logic. To create a subflow object, see [Subflow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+Create a subflow object to run a reusable sequence of actions and flow logic. To create a subflow object, see [Subflow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-flow-api.md).
 
 Call a specific subflow by adding a wfa.subflow function to the **Flow Body** function of a Flow or Subflow object.
 
@@ -1922,7 +1922,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 

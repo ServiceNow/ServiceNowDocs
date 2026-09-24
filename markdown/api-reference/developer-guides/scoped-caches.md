@@ -2,7 +2,7 @@
 title: ScopedCacheManager API Developer Guide
 description: Scoped caches allow customers to store custom data in memory for faster access, and define when it becomes invalidated. This can be useful when working with data takes longer to obtainthat from scratch, such as the results of a query across multiple tables. Use the ScopedCacheManager API to retrieve, set, and flush cache data for scoped applications.Create a scoped cache and define its cache pair.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/scoped-caches.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/scoped-caches.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -16,7 +16,7 @@ breadcrumb: [Developer guides, API implementation and reference]
 
 Scoped caches allow customers to store custom data in memory for faster access, and define when it becomes invalidated. This can be useful when working with data takes longer to obtainthat from scratch, such as the results of a query across multiple tables. Use the ScopedCacheManager API to retrieve, set, and flush cache data for scoped applications.
 
-This guide includes instructions for creating a scoped cache and table pair to use with the [ScopedCacheManager API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScopedCacheManagerAPI.md).
+This guide includes instructions for creating a scoped cache and table pair to use with the [ScopedCacheManager API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ScopedCacheManagerAPI.md).
 
 You can assign the following types of table pairs to a scoped cache:
 

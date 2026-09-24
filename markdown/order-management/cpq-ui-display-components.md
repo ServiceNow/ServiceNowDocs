@@ -2,7 +2,7 @@
 title: UI display components
 description: View examples of picklist, text, and number fields as they appear to end users in the CPQ UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-ui-display-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-ui-display-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-16"

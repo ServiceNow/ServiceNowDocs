@@ -2,7 +2,7 @@
 title: Resolve an SRM incident
 description: Resolve an incident, if you need it reviewed, or you think it has already been handled, but aren't ready to close it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-resolve-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-resolve-incident.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -63,7 +63,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>    For value choices, see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
+</table>    For value choices, see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
     The new state is displayed in the incident list view, incident form, and form header.
 
@@ -76,5 +76,5 @@ Resolved incidents remain in the Incidents list view. Check your filters if you 
 
 When you resolve an incident, the related alerts remain open until you close the incident.
 
-**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

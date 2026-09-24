@@ -2,7 +2,7 @@
 title: Channel Management in Workforce Optimization for Customer Service
 description: Channel management lets you monitor important metrics across different channels and queues, manage the work being done by your team members, and collaborate with them to solve complex issues for your end-customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/explore-channels-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/explore-channels-configurable-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -69,15 +69,15 @@ Get an overview on how you can manually assign work items, monitor ongoing cases
 
 Get an overview on how managers can add service channels, queues, and configure KPIs.
 
--   **[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-channels-wfo-cs.md)**  
+-   **[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-channels-wfo-cs.md)**  
 Use Channel Management to keep a track of the real-time performance of work done by your team members through channels and queues views. You can also drill down into specific cases and chats and collaborate with your team members to achieve better results.
 
-**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Setting up service channels and queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-channels-queues-configurable-wfo-cs.md)
+[Setting up service channels and queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-channels-queues-configurable-wfo-cs.md)
 
-[Using Channel Management in WFO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-channels-configurable-wfo-cs.md)
+[Using Channel Management in WFO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-channels-configurable-wfo-cs.md)
 

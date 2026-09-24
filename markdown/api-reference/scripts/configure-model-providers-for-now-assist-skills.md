@@ -2,12 +2,12 @@
 title: Configure AI model providers for ServiceNow Otto for Code skills
 description: Select a large language model \(LLM\) as the AI service provider for ServiceNow Otto for Code skills.Select a large language model \(LLM\) as the AI service provider for ServiceNow Otto for Code skills.Select an AI model provider for specific skills within the script editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/configure-model-providers-for-now-assist-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/configure-model-providers-for-now-assist-skills.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Configure, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -20,7 +20,7 @@ You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on 
 
 AI stewards can enable or disable AI model providers in the AI Control Tower. Administrators set the default AI model providers for generative AI skills in your instance through the AI Admin Hub console. As a user, you can override the instance default AI model provider and select a different model provider for ServiceNow Otto for Code skills in the script editor.
 
-**Parent Topic:**[Configuring ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/configuring-now-assist-code.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/configuring-now-assist-code.md)
 
 ## Set default AI model providers for your instance
 
@@ -44,15 +44,15 @@ Set the default AI model providers for generative AI skills in your instance thr
 
 4.  Select a model provider for either all skill groups or just a specific skill group.
 
-<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d731195e191">
+<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d728175e191">
 
 Choice
 
-</th><th align="left" id="d731195e194">
+</th><th align="left" id="d728175e194">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d731195e200">
+</th></tr></thead><tbody><tr><td id="d728175e200">
 
 **Select a model provider for all the skill groups and skills in the instance.**
 
@@ -63,7 +63,7 @@ Description
 3.  Select **Save and activate**.
  \[Omitted image "soc-instance-edit-model-provider.png"\] Alt text: Select a model provider for all the skill groups and skills in the instance.
 
-</td></tr><tr><td id="d731195e247">
+</td></tr><tr><td id="d728175e247">
 
 **Select a model provider for a specific skill group.**
 
@@ -77,7 +77,7 @@ Description
 
 \[Omitted image "soc-customize-group-edit-model-provider.png"\] Alt text: Select a model provider for a specific skill group.
 
-</td></tr><tr><td id="d731195e290">
+</td></tr><tr><td id="d728175e290">
 
 **Select a model provider for a specific skill.**
 

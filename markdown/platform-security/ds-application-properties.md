@@ -2,7 +2,7 @@
 title: Domain separation application properties
 description: The Domain Separation plugin has two new tables to give service providers more flexibility in customizing their applications that use domain separation. These tables are the System Application Property table \[sys\_application\_property\] and the System Application Property Value table \[sys\_application\_property\_value\].
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ds-application-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ds-application-properties.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -70,12 +70,12 @@ The new System Application Property Value \[sys\_application\_property\_value\] 
 
 The new APIs are also supported in scoped apps. Domain-separated application properties have distinct APIs. The GlideApplicationProperty API has two new scriptable methods, available in both global and scoped applications. See [GlideApplicationProperty - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideApplicationProperty.md) to learn more about these new APIs.
 
-**Parent Topic:**[Advanced domain separation administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationAdministration.md)
+**Parent Topic:**[Advanced domain separation administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_DomainSeparationAdministration.md)
 
 **Related topics**  
 
 
 [Use domain selection menus]()
 
-[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 

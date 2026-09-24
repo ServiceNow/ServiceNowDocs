@@ -2,7 +2,7 @@
 title: Allocate resources for the extended period
 description: As a resource manager, you can allocate resources for the extended period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/allocate-resources-for-extended-period.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/allocate-resources-for-extended-period.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -41,7 +41,7 @@ Resources are allocated for the extended period.
 
 Any errors or warnings during allocations are logged in the Resource Plan Logs related list on the Resource Plan form. The log is generated if a resource is allocated over 24 hours for a given day. You can review these logs to take correct actions for further resource allocation.
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 

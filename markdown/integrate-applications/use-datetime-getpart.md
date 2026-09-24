@@ -2,7 +2,7 @@
 title: Use the GetPart component
 description: Get the value of a part of the date format by using the GetPart component in RPA Desktop Design Studio. For example, you might want to get the value of the month in the MM/DD/YYYY format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-datetime-getpart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-datetime-getpart.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetPart component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-datetime-prop.md).
+You can configure the properties for the GetPart component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-datetime-prop.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the GetPart component. For more information
 
 2.  Drag the GetPart component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the GetPart component to the corresponding ports of the other components as described in the following table.
 
@@ -104,5 +104,5 @@ String
 
 \[Omitted image "getpart-datetime-rpa.png"\] Alt text: GetPart component gets a part of the date using Now component as the source date.
 
-**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/datetime-utility.md)
+**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/datetime-utility.md)
 

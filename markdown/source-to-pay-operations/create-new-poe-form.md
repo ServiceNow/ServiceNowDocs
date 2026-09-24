@@ -2,7 +2,7 @@
 title: Create new purchase order exception form
 description: Use the Create new purchase order exception form to provide details about the exception that is being created from a universal request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/create-new-poe-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/create-new-poe-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -191,7 +191,7 @@ Proposed delivery quantity
 Revised delivery quantity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Purchase Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-reference.md)
+</table>**Parent Topic:**[Purchase Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purchase-order-mgmt-reference.md)
 
 **Related topics**  
 
@@ -202,5 +202,5 @@ Revised delivery quantity.
 
 [Master data tables for Purchase Order Management]()
 
-[Create purchase order exception from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-po-exception-universal-req.md)
+[Create purchase order exception from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/create-po-exception-universal-req.md)
 

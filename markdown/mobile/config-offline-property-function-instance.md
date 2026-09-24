@@ -2,7 +2,7 @@
 title: Configure offline mode properties for function instances
 description: Determine if the function instance available to users in online mode is also available in offline mode. This option gives you more control over how users manage their offline tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-offline-property-function-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-offline-property-function-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-06-09"
@@ -70,5 +70,5 @@ Procedure
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/functions-offline.md)
+**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/functions-offline.md)
 

@@ -2,7 +2,7 @@
 title: Modify banner width options
 description: Modify the width of the Employee Center Pro banner widget, on the home page, to suit your preference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/change-default-width-of-employee-center-pro-home-page-banner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/change-default-width-of-employee-center-pro-home-page-banner.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -50,5 +50,5 @@ Configure the width of the Employee Center Pro banner widget, in one of the foll
 
 Set the banner widget on the Employee Center Pro home page to your preferred width.
 
-**Parent Topic:**[Configure employee communications widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-comms-widgets.md)
+**Parent Topic:**[Configure employee communications widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-comms-widgets.md)
 

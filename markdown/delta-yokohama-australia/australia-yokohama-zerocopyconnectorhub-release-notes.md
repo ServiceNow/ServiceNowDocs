@@ -2,10 +2,10 @@
 title: Combined Zero Copy Connector Hub release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Zero Copy Connector Hub from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-zerocopyconnectorhub-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-zerocopyconnectorhub-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -90,7 +90,16 @@ Zurich
 
 </td><td>
 
--   **[Established connections](https://www.servicenow.com/docs/access?context=connections-wdf&family=zurich&ft:locale=en-US)**
+-   **[Connect to Teradata](https://www.servicenow.com/docs/access?context=teradata-wdf&family=zurich&ft:locale=en-US)**
+
+Retrieve data from Teradata in real-time without copying or duplicating the data.
+
+-   **[Connect to Amazon S3 tables](https://www.servicenow.com/docs/access?context=amazon-s3-tables-wdf&family=zurich&ft:locale=en-US)**
+
+Retrieve data from Amazon S3 tables in real-time without copying or duplicating the data.
+
+
+ -   **[Established connections](https://www.servicenow.com/docs/access?context=connections-wdf&family=zurich&ft:locale=en-US)**
 
 Retrieve real-time data from external sources directly in the ServiceNow AI Platform, without copying any data to your instance using zero copy connections.
 
@@ -134,7 +143,20 @@ Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[SAP ECC primary connector](https://www.servicenow.com/docs/access?context=sap-ecc-primary-wdf&family=zurich&ft:locale=en-US)**
+
+The SAP ECC connector is now certified as a primary connector.
+
+-   **[SAP S/4HANA primary connector](https://www.servicenow.com/docs/access?context=sap-s4hana-primary-wdf&family=zurich&ft:locale=en-US)**
+
+The SAP S/4HANA connector is now certified as a primary connector.
+
+-   **[Primary connectors in preview](https://www.servicenow.com/docs/access?context=primary-connectors-wdf&family=zurich&ft:locale=en-US)**
+
+Primary connectors that are still being enhanced to include all planned functionality are now identified as in preview. These connectors are fully supported by ServiceNow®.
+
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -247,6 +269,8 @@ Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visi
 Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-wdf&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Zero Copy Connector Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -259,6 +283,8 @@ Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visi
 
 Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-wdf&family=zurich&ft:locale=en-US).
 
+
+**Important:** Zero Copy Connector Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -466,5 +492,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

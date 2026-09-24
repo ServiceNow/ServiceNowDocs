@@ -2,7 +2,7 @@
 title: View approval state flows for a business impact analysis
 description: View approval state transitions and approver details at each level as you direct the business impact analysis through the approval process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-approval-state-flows-bia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-approval-state-flows-bia.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

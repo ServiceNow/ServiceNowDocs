@@ -2,7 +2,7 @@
 title: Close an invoice inquiry case
 description: Mark an invoice inquiry case as resolved after completing all necessary activities and tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/close-inquiry-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/close-inquiry-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -59,5 +59,5 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
     Depending on the option that you selected in step 5, the state of the case updates to Close complete or Closed incomplete.
 
 
-**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
+**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
 

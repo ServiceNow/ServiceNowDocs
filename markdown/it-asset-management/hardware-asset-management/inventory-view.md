@@ -2,7 +2,7 @@
 title: Inventory view
 description: Use the Inventory view in the Hardware Asset Workspace to view the inventory functions such as Asset audits and Disposal orders and to take any inventory-related actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/inventory-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/inventory-view.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -30,7 +30,7 @@ Use the following tabs to view the inventory functions and take appropriate acti
 -   **Repair orders**: View the list of repair orders submitted for repair of assets with your stockroom. You can also create repair orders.
 -   **Asset attestations**: Create asset attestations or attestation schedules to perform remote audits for hardware assets.
 
-To create an asset audit for your inventory, select **New asset audit**. For more details, see [Create an audit record in the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-your-inventory.md).
+To create an asset audit for your inventory, select **New asset audit**. For more details, see [Create an audit record in the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/audit-your-inventory.md).
 
 **Note:** You need the asset or inventory\_admin role to access the Inventory view.
 

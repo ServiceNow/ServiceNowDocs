@@ -2,7 +2,7 @@
 title: Compare planning scenarios
 description: Compare various planning scenarios with your current or default plan to assess different combinations of projects and demands in your portfolio for execution. You can perform a what-if analysis and determine the planning scenario that optimally achieves the target budget and uses your resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/compare-scenarios.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-management/compare-scenarios.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -18,7 +18,7 @@ Compare various planning scenarios with your current or default plan to assess d
 
 ## Before you begin
 
-Ensure that you have created up to four planning scenarios and selected projects and demands for execution. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/create-scenarios.md) and [Select demands and projects for portfolio planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/select-prj-demands.md).
+Ensure that you have created up to four planning scenarios and selected projects and demands for execution. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/create-scenarios.md) and [Select demands and projects for portfolio planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/select-prj-demands.md).
 
 Role required: it\_portfolio\_manager
 
@@ -69,7 +69,7 @@ Steps
 
 ## What to do next
 
-Confirm a scenario that best aligns with your organizational objectives, optimally achieves your target budget, and uses your resources. For more information see, [Confirm a planning scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/confirm-a-scenario.md).
+Confirm a scenario that best aligns with your organizational objectives, optimally achieves your target budget, and uses your resources. For more information see, [Confirm a planning scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/confirm-a-scenario.md).
 
-**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/portfolio-planning-overview.md)
 

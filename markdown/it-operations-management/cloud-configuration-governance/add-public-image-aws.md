@@ -2,7 +2,7 @@
 title: Add an AWS public image to Cloud Provisioning and Governance
 description: You can make any AWS image selectable in an OS profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-public-image-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/add-public-image-aws.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -70,5 +70,5 @@ Role required: sn\_cmp.cloud\_admin
     This step also creates a relationship between the public image and the logical datacenter \(LDC\) in the CMDB.
 
 
-**Parent Topic:**[Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
+**Parent Topic:**[Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
 

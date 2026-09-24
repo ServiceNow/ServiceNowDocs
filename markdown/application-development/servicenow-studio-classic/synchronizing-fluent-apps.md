@@ -2,7 +2,7 @@
 title: Synchronizing Fluent apps in ServiceNow Studio
 description: Synchronizing an application in ServiceNow Studio downloads and transforms application metadata into ServiceNow Fluent code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/synchronizing-fluent-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/synchronizing-fluent-apps.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -41,5 +41,5 @@ The following list explains the stages of the synchronization process for applic
     -   Only the changes made since the last time the application was synced are downloaded and transformed.
     -   Optionally, you can synchronize all metadata in the application with the `Fluent: Force Sync of Fluent App with all metadata` command from the command palette. Before running this command, you should stage any changes to retain them.
 
-**Parent Topic:**[Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md)
+**Parent Topic:**[Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md)
 

@@ -2,7 +2,7 @@
 title: Work notes for incident field updates with DEX
 description: When a configuration item \(CI\), Business Service, or Service Offering on an incident record is set to an item monitored by DEX, a work note is added automatically. Service desk agents use these notes to view monitoring context on the incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/ci-update-work-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/ci-update-work-notes.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -24,9 +24,9 @@ When the CI, Business Service, or Service Offering field on an incident record c
 -   For a Business Service, whether the business service is monitored by DEX
 -   For a Service Offering, whether the service offering is monitored by DEX
 
-If the item is monitored, the system automatically posts a work note on the incident. The work note includes a message and a link to view more details in DEX. Service desk agents can select the link to view more details. For link destinations by field type, see [Link destination by field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/ci-update-work-notes.md).
+If the item is monitored, the system automatically posts a work note on the incident. The work note includes a message and a link to view more details in DEX. Service desk agents can select the link to view more details. For link destinations by field type, see [Link destination by field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/ci-update-work-notes.md).
 
-**Tip:** This automatic work note is separate from the incident diagnostics and suggested resolutions available from the **Investigation** tab. For more information, see [Incident investigation with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-diagnostics-guided-resolutions.md).
+**Tip:** This automatic work note is separate from the incident diagnostics and suggested resolutions available from the **Investigation** tab. For more information, see [Incident investigation with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-diagnostics-guided-resolutions.md).
 
 ## When the work note is posted
 

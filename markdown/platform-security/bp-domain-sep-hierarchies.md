@@ -2,7 +2,7 @@
 title: Domain separation hierarchies
 description: Create a hierarchy when defining a domain architecture to track your processes and workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-sep-hierarchies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-domain-sep-hierarchies.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -87,9 +87,9 @@ The following diagram delineates how to choose which hierarchy model is right fo
 
 \[Omitted image "bp-dedicated-vs-shared.png"\] Alt text: Dedicated vs shared hierarchy of data separation
 
-To learn more about hierarchy architecture, see [Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-ds.md).
+To learn more about hierarchy architecture, see [Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-sp-reference-arch-ds.md).
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

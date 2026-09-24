@@ -2,7 +2,7 @@
 title: Manage nodes in a Knowledge Graph schema
 description: Add or delete a node from an existing Knowledge Graph schema.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/add-or-delete-nodes-from-a-knowledge-graph-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/add-or-delete-nodes-from-a-knowledge-graph-schema.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

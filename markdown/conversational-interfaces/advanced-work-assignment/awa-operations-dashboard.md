@@ -2,7 +2,7 @@
 title: Advanced Work Assignment dashboard for operations
 description: Enable managers to monitor work items across all service channels so that their agents can better support customer needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-operations-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-operations-dashboard.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -16,7 +16,7 @@ breadcrumb: [Platform Analytics Solutions for Advanced Work Assignment, Analytic
 
 Enable managers to monitor work items across all service channels so that their agents can better support customer needs.
 
-This dashboard is available in the Performance Analytics - Content Pack - Advanced Work Assignment plugin. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-content-pack.md).
+This dashboard is available in the Performance Analytics - Content Pack - Advanced Work Assignment plugin. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-content-pack.md).
 
 The Overview tab of the Operations dashboard displays information across all queues, teams, and channels.
 

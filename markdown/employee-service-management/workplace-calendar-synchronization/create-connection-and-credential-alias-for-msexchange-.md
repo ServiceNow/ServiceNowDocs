@@ -2,7 +2,7 @@
 title: Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections
 description: Establish connection and credential alias for Microsoft Exchange Online so that you can synchronize reservations. Configure the default credentials and connections. Ensure that the values for the connection and credentials alias are set as specified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/create-connection-and-credential-alias-for-msexchange-.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/create-connection-and-credential-alias-for-msexchange-.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -18,8 +18,8 @@ Establish connection and credential alias for Microsoft Exchange Online so that 
 
 ## Before you begin
 
--   [Configure Microsoft Azure in normal mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/authenticate-mxexchange-with-azure.md)
--   [Set up OAuth connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-connectivity-with-msexchange-for-calendar-sync.md).
+-   [Configure Microsoft Azure in normal mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/authenticate-mxexchange-with-azure.md)
+-   [Set up OAuth connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/setup-connectivity-with-msexchange-for-calendar-sync.md).
 
 Ensure that the application scope is set to **Microsoft Exchange Online Spoke**. Otherwise, do the following:
 
@@ -28,7 +28,7 @@ Ensure that the application scope is set to **Microsoft Exchange Online Spoke**.
 3.  In the filter navigator, search and select **Microsoft Exchange Online Spoke**.
 4.  Refresh the page.
 
-**Note:** Starting from Workplace Calendar Synchronization version 2.0.1, to synchronize the reservations automatically with Microsoft Exchange Online, create a connection with Microsoft Exchange Online spoke version 3.2.1. If you have upgraded to Workplace Calendar Synchronization version 2.0.1, then the following procedure is no longer required. For more information on how to install Microsoft Exchange Online spoke and to set up a connection, refer to [Create a connection with Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.md).
+**Note:** Starting from Workplace Calendar Synchronization version 2.0.1, to synchronize the reservations automatically with Microsoft Exchange Online, create a connection with Microsoft Exchange Online spoke version 3.2.1. If you have upgraded to Workplace Calendar Synchronization version 2.0.1, then the following procedure is no longer required. For more information on how to install Microsoft Exchange Online spoke and to set up a connection, refer to [Create a connection with Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.md).
 
 Role required: admin
 
@@ -78,9 +78,9 @@ The Connection and credential alias is set.
 
 ## What to do next
 
-[Configure Microsoft Exchange Online calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-xsex-calendar-provider-in-normal-mode.md)
+[Configure Microsoft Exchange Online calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/configure-xsex-calendar-provider-in-normal-mode.md)
 
-**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
+**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
 
 **Related topics**  
 

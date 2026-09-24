@@ -2,7 +2,7 @@
 title: Install the Task Mining Portable Windows agent
 description: Run the Task Mining agent from a portable archive without installing it on the system. The portable agent does not modify the Windows registry or write files outside its extracted folder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/install-task-mining-portable-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/install-task-mining-portable-agent.html
 release: australia
 product: Task Mining
 classification: task-mining

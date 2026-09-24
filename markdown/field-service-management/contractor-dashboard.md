@@ -2,7 +2,7 @@
 title: Contractor dashboard
 description: Use this dashboard to review the status of work order tasks, agents, agent feedback, and appointments of contractor companies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/contractor-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/contractor-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -61,5 +61,5 @@ Reviews the work order task progress and agent feedback results based on the sel
 |Contractor|Reference|Select Single Input|Filter the report results based on a selected contractor company or all.|
 |Date Range|Date|Select Single Input|Filter the report results based on the selected date range, such as last 30 days.|
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/analytics-reporting-fsm.md)
 

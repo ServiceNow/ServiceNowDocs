@@ -2,7 +2,7 @@
 title: Turn off the Next Experience welcome screen after upgrading your instance
 description: You can turn off the Next Experience welcome splash screen that appears in the Core UI after upgrading your instance by creating a user preference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/remove-welcome-splash-screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/remove-welcome-splash-screen.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -94,7 +94,7 @@ Select this check box to apply this user preference system wide.
     **Note:** In the User Preferences table, verify that there is only one user preference record where the **System** field and **Value** field is set to `true`.
 
 
-**Parent Topic:**[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
+**Parent Topic:**[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UserPreferences.md)
 
 **Related topics**  
 

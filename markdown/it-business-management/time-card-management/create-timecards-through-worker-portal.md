@@ -2,12 +2,12 @@
 title: Create time cards and log time through Time Sheet Portal
 description: After you create time cards in Time Sheet Portal, log time in the time cards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/create-timecards-through-worker-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/time-card-management/create-timecards-through-worker-portal.html
 release: australia
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Time Sheet Portal, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ After you create time cards in Time Sheet Portal, log time in the time cards.
 
 ## Before you begin
 
--   Time sheet portal supports [resource assignments created using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md). Once the time cards are approved, Project Managers can view the planned vs actual hours for an assignment in Project Workspace and Resource Management Workspace heatmap view.
+-   Time sheet portal supports [resource assignments created using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md). Once the time cards are approved, Project Managers can view the planned vs actual hours for an assignment in Project Workspace and Resource Management Workspace heatmap view.
 -   Role required: timecard\_user
 
 ## Procedure
@@ -48,7 +48,7 @@ Steps
 
     -   If a time card exists for a project task during the selected week, a duplicate time card is not created.
     -   Time cards are generated only for those project tasks that are in progress or planned for the selected week.
-    -   The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md) determines the level at which the time cards are created for project tasks.
+    -   The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md) determines the level at which the time cards are created for project tasks.
 
 
 </td></tr><tr><td id="d341069e189">
@@ -161,5 +161,5 @@ If you encounter issues with time card creation or time logging, try the followi
 
 For issues you cannot resolve, contact your system administrator or the user with the timecard\_admin role in your organization.
 
-**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/worker-portal.md)
+**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/worker-portal.md)
 

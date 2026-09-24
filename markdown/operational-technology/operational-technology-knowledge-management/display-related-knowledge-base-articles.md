@@ -2,7 +2,7 @@
 title: Find information in the related knowledge articles for an OT incident
 description: Find information in the related knowledge articles that are attached to an Operational Technology \(OT\) incident record for any previous resolutions that may be applicable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/display-related-knowledge-base-articles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-knowledge-management/display-related-knowledge-base-articles.html
 release: australia
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -43,5 +43,5 @@ Role required: sn\_ot\_incident\_read
 9.  To mark the knowledge article as helpful, select the **More actions** button \[Omitted image "more-actions-vertical.png"\] Alt text: More actions button. and choose **Helpful**.
 
 
-**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
+**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
 

@@ -2,7 +2,7 @@
 title: UKG Spoke
 description: Manage time off requests in UKG from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/kronos-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/kronos-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

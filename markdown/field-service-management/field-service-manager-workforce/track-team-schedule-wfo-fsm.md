@@ -2,7 +2,7 @@
 title: Track and manage your team's schedule
 description: Create, update, or monitor your team's schedule from one location. You can approve or reject requests for swapping shifts or time off for agents within your assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/track-team-schedule-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/track-team-schedule-wfo-fsm.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

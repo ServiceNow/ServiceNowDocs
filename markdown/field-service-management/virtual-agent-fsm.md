@@ -2,7 +2,7 @@
 title: Virtual Agent for Field Service Management
 description: ServiceNow Virtual Agent for Field Service Management enables field service agents to get quick answers to their work-related queries by interacting with a virtual agent through the Now Agent mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/virtual-agent-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/virtual-agent-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Enable NLU on the Field Service Virtual Agent Conversations application and repu
 **Related topics**  
 
 
-[Configuring Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/fsm-va-conversation.md)
+[Configuring Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/fsm-va-conversation.md)
 

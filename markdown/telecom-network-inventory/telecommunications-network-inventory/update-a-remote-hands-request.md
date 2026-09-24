@@ -2,12 +2,12 @@
 title: Update a Remote Hands Request
 description: Update a Remote Hands requests within the CSM/FSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/update-a-remote-hands-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/update-a-remote-hands-request.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Remote Hands Request, Use, Telecommunications Network Inventory]
 ---
@@ -50,5 +50,5 @@ The following procedure enables Remote Hands Agents to review the submitted case
 6.  Select **Summarize**
 
 
-**Parent Topic:**[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)
+**Parent Topic:**[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)
 

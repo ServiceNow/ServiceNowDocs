@@ -2,7 +2,7 @@
 title: Configure ping-pong
 description: Configure a ping-pong definition to view a pattern where a record bounces back and forth between two steps without interruption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/automated-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/automated-builder.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -28,7 +28,7 @@ Ping-pong finding definition surfaces areas in the process where records continu
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
+    For information about Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Ping-Pong card.
 
@@ -126,5 +126,5 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 5.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)
+**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/automated-findings.md)
 

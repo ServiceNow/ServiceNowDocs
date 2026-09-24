@@ -2,7 +2,7 @@
 title: Fields in the Update banking details form
 description: Use the Update banking details form to update the banking details of the supplier.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -121,7 +121,7 @@ Bank account proof
 Option to upload the bank account proof document. Select **Required - Upload** to upload the document.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Supplier Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
+</table>**Parent Topic:**[Supplier Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
 
 **Related topics**  
 
@@ -150,5 +150,5 @@ Option to upload the bank account proof document. Select **Required - Upload** t
 
 [Supplier Lifecycle Operations glossary]()
 
-[Update banking details using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-info.md)
+[Update banking details using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-info.md)
 

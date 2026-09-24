@@ -2,7 +2,7 @@
 title: Monitor schedule adherence of your agents
 description: Evaluate whether or not your agents are adhering to their assigned schedules. Look for areas where agent activities that do not offer much value can be reduced or eliminated and fine-tune your staffing levels requirements based on their adherence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-workspace-view-schedule-adherence-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-workspace-view-schedule-adherence-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -42,15 +42,15 @@ Role required: sn\_shift\_planning.admin
 
 3.  Monitor the schedule adherence of your agents.
 
-<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d345984e144">
+<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d345963e144">
 
 To
 
-</th><th align="left" id="d345984e147">
+</th><th align="left" id="d345963e147">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d345984e153">
+</th></tr></thead><tbody><tr><td id="d345963e153">
 
 **View schedule adherence at organization or team level**
 
@@ -58,7 +58,7 @@ Do this
 
 Click the **Schedule Adherence** tab.The bar displays the schedule adherence and conformance in percentage for your teams. Click on the bar chart to drill down and view more analytics.
 
-</td></tr><tr><td id="d345984e168">
+</td></tr><tr><td id="d345963e168">
 
 **Analyze planned vs actual scheduling for your team members**
 
@@ -82,5 +82,5 @@ Example: A clock-in event gets generated when an agent logs in or changes the pr
     \[Omitted image "schedule-adherence-itsm.png"\] Alt text: Schedule Adherence
 
 
-**Parent Topic:**[Schedule Adherence in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/schedule-adherence-configurable-itsm.md)
+**Parent Topic:**[Schedule Adherence in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/schedule-adherence-configurable-itsm.md)
 

@@ -2,7 +2,7 @@
 title: High Assurance session with Continuous Authentication
 description: Establish high assurance session for with ServiceNow's continuous authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/high-assurance-ca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/high-assurance-ca.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,8 +22,8 @@ When the user re-authenticates or perform step-up authentication \(MFA\), there'
 
 Following are the re-authentication methods used to establish High-assurance based on the type of login:
 
--   [High Assurance for SSO login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/high-assurance-sso-logins.md)
--   [High Assurance for non-SSO login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/high-assurance-non-sso-logins.md)
+-   [High Assurance for SSO login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/high-assurance-sso-logins.md)
+-   [High Assurance for non-SSO login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/high-assurance-non-sso-logins.md)
 
 High assurance session created by the user is valid based on the High Assurance session length \(**glide.zta.high\_assurance.session.timeout**\) determined by the CA administrator.
 
@@ -81,9 +81,9 @@ High assurance session can be created by the themselves. To create a high assura
 **Related topics**  
 
 
-[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-continuous-auth.md)
+[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/explore-continuous-auth.md)
 
-[Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/pre-work-ca.md)
+[Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/pre-work-ca.md)
 
-[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-ca.md)
+[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-ca.md)
 

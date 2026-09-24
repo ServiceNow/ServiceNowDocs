@@ -2,7 +2,7 @@
 title: Apply table extension
 description: Preserve data sets using table extension.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_TableExtensionExample.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_TableExtensionExample.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -70,5 +70,5 @@ A schedule is created and new shards are added indefinitely to preserve data.
 
 **Note:** Deleting a rotation deletes the additional tables and all the data. Don't delete the rotation if you still need the data.
 
-**Parent Topic:**[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension.md)
+**Parent Topic:**[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-extension.md)
 

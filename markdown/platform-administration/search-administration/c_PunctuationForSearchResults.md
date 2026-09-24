@@ -2,7 +2,7 @@
 title: Zing indexes punctuation as part of some words
 description: Zing indexes some punctuation marks as part of some words to improve search results for common search terms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/c\_PunctuationForSearchResults.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/c\_PunctuationForSearchResults.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -157,7 +157,7 @@ Zing locates product numbers that follow a typical pattern. To meet this pattern
 </td></tr></tbody>
 </table>**Note:** The punctuation handling described here doesn't affect wildcard and boolean operators. These operators provide separate Zing functions.
 
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

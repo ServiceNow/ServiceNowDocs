@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP field descriptions
 description: Field descriptions for larger ERP forms in Zero Copy Connector for ERP, including model, system, and remote table fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

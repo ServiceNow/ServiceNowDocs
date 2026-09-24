@@ -2,7 +2,7 @@
 title: Set the default theme
 description: Set a preferred Theme Builder theme as the default for your web experiences when multiple themes are published.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-the-default-theme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-the-default-theme.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,5 +51,5 @@ The default theme is treated as the first theme that is displayed in the Next Ex
     The default theme appears first in the user's Theme preference.
 
 
-**Parent Topic:**[Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md)
+**Parent Topic:**[Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md)
 

@@ -2,7 +2,7 @@
 title: CSM integration with Incident Management
 description: Integration with the Incident Management application enables customer service agents to create incident records from cases or associate existing incident records to cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-integration-sm-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-integration-sm-incident.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ The following roles enable customer service agents to view and create incidents 
 -   sn\_incident\_read
 -   sn\_incident\_write
 
-For more information, see [Assign CSM/ITSM integration roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/assign-csm-itsm-integration-roles.md).
+For more information, see [Assign CSM/ITSM integration roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/assign-csm-itsm-integration-roles.md).
 
 ## Determining the incident priority, impact, and urgency
 

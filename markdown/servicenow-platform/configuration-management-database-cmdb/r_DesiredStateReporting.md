@@ -2,7 +2,7 @@
 title: Desired State reporting
 description: The Desired State application includes reports to assess your audit results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r\_DesiredStateReporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/r\_DesiredStateReporting.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

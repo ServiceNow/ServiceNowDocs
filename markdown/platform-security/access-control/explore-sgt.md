@@ -2,7 +2,7 @@
 title: Explore Scripting Governance Tool
 description: The Scripting Governance Tool provides a single, centralised control for managing scripting access across your ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/explore-sgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/explore-sgt.html
 release: australia
 product: Access Control
 classification: access-control
@@ -70,7 +70,7 @@ Scripting governance feature introduces 9 data type ACLs to enforce Layer 2. The
     -   html\_template
     -   xml
     -   condition\_string
-    **Note:** The admin role does not have scripting access by default. Admin users are subject to the same two-layer check and cannot edit script fields unless they are members of the **Conditional Script Writer** group or explicitly hold the `snc_required_script_writer_permission` role.To know more, see [Datatype ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/datatype-acl.md).
+    **Note:** The admin role does not have scripting access by default. Admin users are subject to the same two-layer check and cannot edit script fields unless they are members of the **Conditional Script Writer** group or explicitly hold the `snc_required_script_writer_permission` role.To know more, see [Datatype ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/datatype-acl.md).
 
 
 ## Scheduled jobs and properties

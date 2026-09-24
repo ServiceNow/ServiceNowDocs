@@ -2,7 +2,7 @@
 title: Configure Contractor Service Center web page
 description: Edit or configure the Contractor Service Center web interface and use layouts to organize the columns that house the widgets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contractor-service-center/hs-customize-contractor-service-center-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contractor-service-center/hs-customize-contractor-service-center-page.html
 release: australia
 product: Contractor Service Center
 classification: contractor-service-center
@@ -18,5 +18,5 @@ Edit or configure the Contractor Service Center web interface and use layouts to
 
 For more information to perform the web interface customization, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md)
 
-**Parent Topic:**[Configuring Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contractor-service-center/hs-configure-contractor-service-center.md)
+**Parent Topic:**[Configuring Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contractor-service-center/hs-configure-contractor-service-center.md)
 

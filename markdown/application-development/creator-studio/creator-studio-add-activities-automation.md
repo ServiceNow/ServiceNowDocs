@@ -2,7 +2,7 @@
 title: Add activities to an app's playbook in Creator Studio
 description: Add activities to an app's playbook to specify what the automation does to the designated record type. An activity defines what actually happens when a playbook executes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-add-activities-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-add-activities-automation.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -18,7 +18,7 @@ Add activities to an app's playbook to specify what the automation does to the d
 
 ## Before you begin
 
-To add [activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md) to a playbook, you must be given permission to work on the app.
+To add [activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-glossary.md) to a playbook, you must be given permission to work on the app.
 
 ## About this task
 
@@ -214,7 +214,7 @@ Update the value of the specified fields on the record that the form generates w
 
 ## What to do next
 
-Continue adding activities and decisions, as well as connectors and parallel processes if needed, to finish creating your playbook. For more information on decisions, see [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-decision-automation.md).
+Continue adding activities and decisions, as well as connectors and parallel processes if needed, to finish creating your playbook. For more information on decisions, see [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-decision-automation.md).
 
-**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-working-with-automations.md)
 

@@ -2,7 +2,7 @@
 title: Create a Cloudera Hive connection
 description: Establish a zero copy connection to a Cloudera Hive system in Zero Copy Connector Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-cloudera-hive-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-cloudera-hive-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

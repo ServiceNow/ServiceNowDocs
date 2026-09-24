@@ -2,7 +2,7 @@
 title: Add members to your Healthcare IT support organization
 description: Add members to your Healthcare IT support organization to provide visibility and access to Healthcare IT cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-it-add-members-orgs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-it-add-members-orgs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

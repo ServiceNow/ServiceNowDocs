@@ -2,7 +2,7 @@
 title: Configure a catalog in Service Portal
 description: Associate a portal with multiple catalogs. By default, Service Portal is associated with Service Catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/associate-portal-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/associate-portal-catalog.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -51,12 +51,12 @@ Role required: admin or sp\_admin
 5.  Click **Update**.
 
 
--   **[Access Management Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/access-management.md)**  
+-   **[Access Management Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/access-management.md)**  
 Automate access management request fulfillment using the Service Catalog or Service Portal. The catalog items and flows support requests in Okta, Microsoft Entra ID \(formerly Microsoft Entra ID\), and Microsoft Active Directory.
--   **[Cloud Deployment Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/cloud-dep-auto.md)**  
+-   **[Cloud Deployment Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/cloud-dep-auto.md)**  
 Automates the deployment and provisioning of the AWS CloudFormation services using Service Catalog or Service Portal.
 
-**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md)
+**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/create-a-portal.md)
 
 **Related topics**  
 

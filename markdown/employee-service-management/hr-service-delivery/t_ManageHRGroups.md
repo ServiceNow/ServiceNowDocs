@@ -2,7 +2,7 @@
 title: Manage HR Groups
 description: HR Groups are a set of users with common job skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_ManageHRGroups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_ManageHRGroups.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -151,11 +151,11 @@ Activities
 
 This field only appears for the Lifecycle Events application. The HR Service Activities the group manages. The HR Service Activities are part of the Activity Set and together make up a Lifecycle Event. Only members of this group can update this HR Service Activity.
 
-Refer to [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
+Refer to [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
 
 </td></tr></tbody>
 </table>4.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md)
+**Parent Topic:**[Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManageRoles.md)
 

@@ -2,7 +2,7 @@
 title: Create a process parameter within a bot process in RPA Hub
 description: Create a process parameter to store the variables that are used within a bot process. The process parameter that you just created can only be used by this bot process.Use the process parameter form to create a process parameter and a shared parameter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-process-parameter-botprocess.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-process-parameter-botprocess.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,11 +16,11 @@ Create a process parameter to store the variables that are used within a bot pro
 
 ## Before you begin
 
-Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md).
 
 Before you can access a bot process, ensure that the RPA business user \(sn\_rpa\_fdn.rpa\_business\_user\), RPA developer \(sn\_rpa\_fdn.rpa\_developer\), or the RPA support user \(sn\_rpa\_fdn.rpa\_support\_user\) are in the Managed by Group list.
 
-\(Optional\) Configure the system properties related to **Activity Stream**, to add or remove the fields. The changes to these fields are captured in the work notes. For more information, see [Configure the system properties for an activity stream in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-sys-properties-activity.md).
+\(Optional\) Configure the system properties related to **Activity Stream**, to add or remove the fields. The changes to these fields are captured in the work notes. For more information, see [Configure the system properties for an activity stream in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-sys-properties-activity.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -28,7 +28,7 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
 You cannot delete a process parameter that is associated to a published bot process.
 
-**Note:** To use a variable in multiple processes, create a shared parameter. For more information, see [Create a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-shared-parameter.md).
+**Note:** To use a variable in multiple processes, create a shared parameter. For more information, see [Create a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-shared-parameter.md).
 
 ## Procedure
 
@@ -49,12 +49,12 @@ You cannot delete a process parameter that is associated to a published bot proc
 8.  In the **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
 
 
-**Parent Topic:**[Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/post-req-bot-process-rpa.md)
+**Parent Topic:**[Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/post-req-bot-process-rpa.md)
 
 **Related topics**  
 
 
-[Process parameter form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-process-parameter-botprocess.md)
+[Process parameter form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-process-parameter-botprocess.md)
 
 [View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
 

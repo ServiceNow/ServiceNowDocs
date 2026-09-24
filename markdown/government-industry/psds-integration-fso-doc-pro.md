@@ -2,7 +2,7 @@
 title: Using Document Processor
 description: The Public Sector Digital Services integration with the Financial Services Operations Document Processor enables other Public Sector applications to collect and verify documents that are used in workflows across the Public Sector workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-integration-fso-doc-pro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-integration-fso-doc-pro.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ An admin can use Document Templates to create HTML and PDF document templates, w
 
 Admins can also integrate documents with 3rd party e-signature providers like DocuSign and Adobe Sign. For more information, see [Document Template integration with Docusign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/docusign-doc.md) or [Document Template integration with AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/adobe-sign-doc.md).
 
-The Document Processor plugin is the foundation for document activities, installed automatically when you install the above plugins or applications. All document activities, components, and flows created by Public Sector Digital Services are part of the Service Applicant Information plugin. For more information on the Service Applicant Information plugin, see [Plugins installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/plugins-installed-with-psds.md).
+The Document Processor plugin is the foundation for document activities, installed automatically when you install the above plugins or applications. All document activities, components, and flows created by Public Sector Digital Services are part of the Service Applicant Information plugin. For more information on the Service Applicant Information plugin, see [Plugins installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/plugins-installed-with-psds.md).
 

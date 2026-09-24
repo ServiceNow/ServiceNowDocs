@@ -2,7 +2,7 @@
 title: Remove a member from a roster
 description: You might remove a member from a roster, for example, if they are no longer a member of the organization or of the group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/remove-member-from-roster-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/remove-member-from-roster-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -94,10 +94,10 @@ Name of the shift.
 </table>7.  Click **Submit**.
 
 
-**Parent Topic:**[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/managing-roster-members.md)
+**Parent Topic:**[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/managing-roster-members.md)
 
 **Related topics**  
 
 
-[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
+[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
 

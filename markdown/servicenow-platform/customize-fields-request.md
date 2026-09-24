@@ -2,7 +2,7 @@
 title: Customize fields in the approval message for request
 description: Customize the body message for a request and request item sent in Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/customize-fields-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/customize-fields-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: oam\_admin
     \[Omitted image "oam-request2.png"\] Alt text: Request approval in Microsoft Outlook
 
 
-**Parent Topic:**[Customize fields for the approval message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/customize-approval-message.md)
+**Parent Topic:**[Customize fields for the approval message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/customize-approval-message.md)
 

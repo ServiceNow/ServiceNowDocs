@@ -2,7 +2,7 @@
 title: Demand form
 description: Learn about the fields on the Demand form. Use this form to create or edit a demand from the Prioritize page in AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-demand-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-demand-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-29"

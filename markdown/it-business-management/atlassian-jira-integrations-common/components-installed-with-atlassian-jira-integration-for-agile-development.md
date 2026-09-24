@@ -2,7 +2,7 @@
 title: Components installed with Atlassian Jira integration for Agile Development
 description: Several types of components are installed with activation of the Atlassian Jira integration for Agile Development application, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/components-installed-with-atlassian-jira-integration-for-agile-development.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/atlassian-jira-integrations-common/components-installed-with-atlassian-jira-integration-for-agile-development.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -79,7 +79,7 @@ Import Jira Issue
 
 Imports issues and sprints from Jira automatically at a scheduled time.This job is inactive by default.
 
- For more information, see [Schedule a job to auto-import issues from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/schedule-jobs-to-import-issue-from-jira.md).
+ For more information, see [Schedule a job to auto-import issues from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/atlassian-jira-integrations-common/schedule-jobs-to-import-issue-from-jira.md).
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -221,5 +221,5 @@ Webhook Registry\[sn\_int\_common\_webhook\_registry\]
 Stores details of the registry callback path for webhooks registered in Jira to receive event updates.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Atlassian Jira Integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-overview.md)
+</table>**Parent Topic:**[Atlassian Jira Integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-overview.md)
 

@@ -2,7 +2,7 @@
 title: Create an incident in Proactive Service Experience Workflows
 description: Create an incident record in Proactive Service Experience Workflows to document an issue that your customer is facing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/create-an-incident-proactive.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/create-an-incident-proactive.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -203,5 +203,5 @@ Type of issue. After selecting the category, select the subcategory, if applicab
 
 The incident is created.
 
-**Parent Topic:**[About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-identify-act-incident.md)
+**Parent Topic:**[About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/psew-identify-act-incident.md)
 

@@ -2,7 +2,7 @@
 title: Payment card
 description: The Payment card application stores details of payment cards, which can be used across the entire card life-cycle, from issuance to servicing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/payment-card-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/payment-card-application.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,10 +28,10 @@ Cards in Payment card can be associated with a Financial Account in Financial Se
 
 Payment card is included with Financial Services Operations Core.
 
--   **[Payment card tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/payment-card-application-tables.md)**  
+-   **[Payment card tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/payment-card-application-tables.md)**  
 This section describes the tables in the Payment card application and shows how they store and manage physical payment card information.
--   **[Payment card roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/payment-card-application-roles.md)**  
+-   **[Payment card roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/payment-card-application-roles.md)**  
 This section outlines the core roles involved in managing payment cards in the Payment card application.
 
-**Parent Topic:**[Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/data-models.md)
+**Parent Topic:**[Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/data-models.md)
 

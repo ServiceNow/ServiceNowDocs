@@ -2,7 +2,7 @@
 title: Create Sourcing Request or Purchase Requisition in SPO via Asset Management Workspace
 description: As an Asset Manager, you can create an SR or PR in SPO from the Asset Management Workspace to fulfill asset requests submitted through Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -80,16 +80,16 @@ To ensure a seamless integration between Asset Management and SPO, the following
 
     One of the following occurs depending on whether the requested items have a price associated with them.
 
-    -   For products that do not have an associated price, the sourcing flow is triggered. For more information, see [Create sourcing request from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.md).
+    -   For products that do not have an associated price, the sourcing flow is triggered. For more information, see [Create sourcing request from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.md).
 
-    -   For products, that have an associated price, the purchasing flow is triggered. For more information, see [Create purchase requisition from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.md).
+    -   For products, that have an associated price, the purchasing flow is triggered. For more information, see [Create purchase requisition from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.md).
 11. Select **Checkout**.
 
 
--   **[Create sourcing request from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.md)**  
+-   **[Create sourcing request from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.md)**  
 As an asset manager, use SPO's sourcing flow from the Asset Management Workspace to complete checkout when the requested item doesn't have contractual pricing.
--   **[Create purchase requisition from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.md)**  
+-   **[Create purchase requisition from the Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.md)**  
 As an asset manager, use SPO's purchasing flow from the Asset Management Workspace to complete checkout when the requested item has contractual pricing.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)
 

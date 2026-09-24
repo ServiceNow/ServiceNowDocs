@@ -2,7 +2,7 @@
 title: Enforce scoped ACL access for information request playbooks \[New in Security Center 1.3 and updated in 1.5\]
 description: Use the glide.enforce\_security\_scope.sn\_gsm\_info\_req property to control access to playbook data for the Information Request playbooks feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enforce-scoped-acl-access-for-information-request-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-enforce-scoped-acl-access-for-information-request-playbooks.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -74,7 +74,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -104,5 +104,5 @@ References
 -   [Configure Information Requests service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/awa-psds-overview.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

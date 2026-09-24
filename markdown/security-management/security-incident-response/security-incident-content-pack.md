@@ -2,7 +2,7 @@
 title: Security Incident Response Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. The dashboards present important metrics for analyzing your Security Incident Response process, such as new security incidents or the average age of open security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/security-incident-content-pack.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -18,7 +18,7 @@ Platform Analytics Solutions contain preconfigured dashboards. The dashboards pr
 
 Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
-The Security Incident Response Performance Analytics Solution is available from the ServiceNow Store. For information about downloading and installing this application, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-and-store.md).
+The Security Incident Response Performance Analytics Solution is available from the ServiceNow Store. For information about downloading and installing this application, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-and-store.md).
 
 **Note:** To evaluate the functionality, you can activate Performance Analytics solutions and in-form analytics on instances that have not licensed Performance Analytics. However, you have the following limitations:
 
@@ -29,18 +29,18 @@ For full functionality, license Performance Analytics. For more information, see
 
 **Important:** By default, the data collection limit for the `(com.snc.pa.dc.max_records)` property in Performance Analytics is set as 5,000 records. But you can increase this limit per your requirements, such as 50,000 records. However, increasing this limit may impact performance during data collection or when performing operations on the Snapshot table. To learn more about the Performance Analytics properties, see [Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-properties.md).
 
--   **[CISO dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ciso-dashboard.md)**  
+-   **[CISO dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ciso-dashboard.md)**  
 This dashboard reveals the overall security posture of your organization, including security vulnerability and incidents.
--   **[Security Incident Management Premium dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/si-mgmt-premium-dashboard.md)**  
+-   **[Security Incident Management Premium dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/si-mgmt-premium-dashboard.md)**  
 This dashboard uses advanced Platform Analytics visualizations to aid security managers to track the volume, performance and progress of security incidents from initial analysis/detection to containment, eradication, and recovery. The licensed version of Performance Analytics is therefore required.
--   **[Security Incident Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-mgmt-dashboard.md)**  
+-   **[Security Incident Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/security-incident-mgmt-dashboard.md)**  
 With this dashboard, security managers can easily track the volume, performance and progress of security incidents from initial analysis/detection to containment, eradication, and recovery.
--   **[Security Incident Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/si-explorer-dashboard.md)**  
+-   **[Security Incident Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/si-explorer-dashboard.md)**  
 With this dashboard, security managers are able to view security incidents summarized and grouped by category, subcategory, location, priority and business impact. These views let managers quickly gain insight into the frequency in which attacks are occurring and which business services are affected.
--   **[Security Operations Efficiency dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/cj-sir-socpa-dashboard.md)**  
+-   **[Security Operations Efficiency dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/cj-sir-socpa-dashboard.md)**  
 Security operations center \(SOC\) managers can view overall efficiency metrics and measure the individual performance of the SOC team members in the organization.
 
-**Parent Topic:**[Security Incident Response setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-sir.md)
+**Parent Topic:**[Security Incident Response setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-sir.md)
 
 **Related topics**  
 

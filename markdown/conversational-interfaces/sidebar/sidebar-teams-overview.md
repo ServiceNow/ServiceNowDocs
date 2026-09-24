@@ -2,7 +2,7 @@
 title: Sidebar and Microsoft Teams
 description: Sidebar's integration with Microsoft Teams enables Sidebar users and Microsoft Teams users to communicate with each other from their respective platforms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-teams-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/sidebar-teams-overview.html
 release: australia
 product: Sidebar
 classification: sidebar
@@ -23,7 +23,7 @@ The Sidebar-Microsoft Teams integration is available as a standard ServiceNow fe
 
 -   The rate charge applies each time the Microsoft Teams API is called. Charges apply for messages sent from your ServiceNow instance to Microsoft Teams and vice versa.
 -   The rate charge doesn’t apply to "means to an end" actions such as searching for or adding users to a Microsoft Teams group chat, user presence, or reactions.
--   To minimize the number of API calls to Microsoft Teams, the base system Sidebar-Microsoft Teams integration requires at least one participant is an external only user \(a user that doesn't have a corresponding sys\_user record\). If you want to modify this base system behavior, see [Manage Microsoft Teams permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/manage-teams-permissions.md) for information on how to add the internal user or group that the internal user is part of.
+-   To minimize the number of API calls to Microsoft Teams, the base system Sidebar-Microsoft Teams integration requires at least one participant is an external only user \(a user that doesn't have a corresponding sys\_user record\). If you want to modify this base system behavior, see [Manage Microsoft Teams permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/manage-teams-permissions.md) for information on how to add the internal user or group that the internal user is part of.
 
 Microsoft bills ServiceNow customers directly via their Microsoft Azure account. For more information, see [Licensing and payment requirements for the Microsoft Teams API](https://learn.microsoft.com/en-us/graph/teams-licenses).
 

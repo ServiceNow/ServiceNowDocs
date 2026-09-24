@@ -2,7 +2,7 @@
 title: Discovery commands for probes and patterns
 description: Discovery commands are used for both probe and pattern-based discovery to access configuration items \(CIs\) in your environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-command-probe-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discovery-command-probe-pattern.html
 release: australia
 product: Discovery
 classification: discovery
@@ -17,7 +17,7 @@ breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Ma
 
 Discovery commands are used for both probe and pattern-based discovery to access configuration items \(CIs\) in your environment.
 
-For information about Service Mapping commands, see [Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prerequisites-service-mapping.md).
+For information about Service Mapping commands, see [Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/prerequisites-service-mapping.md).
 
 For information about MID Server privileged commands, see [MID Server privileged commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_PrivilegedCommandsForMIDServer.md).
 
@@ -27,10 +27,10 @@ Discovery runs several different types of commands during probe-based horizontal
 
 |Command/Permission|Resource|
 |------------------|--------|
-|SSH commands requiring a privileged user|[Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-command-require-priv.md)|
-|SSH commands not requiring a privileged user|[Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-probe-commands.md)|
-|Windows commands and permissions|[Windows probes and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoWinProbesAndPermissions.md)|
-|Additional permissions|[Discovery probe permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_AdditionalPermissions.md)|
+|SSH commands requiring a privileged user|[Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-ssh-command-require-priv.md)|
+|SSH commands not requiring a privileged user|[Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-ssh-probe-commands.md)|
+|Windows commands and permissions|[Windows probes and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_DiscoWinProbesAndPermissions.md)|
+|Additional permissions|[Discovery probe permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_AdditionalPermissions.md)|
 
 ## Pattern-based discovery
 
@@ -50,9 +50,9 @@ View commands used by infrastructure and application patterns
 
 </td><td>
 
--   [View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-command-pattern-discovery.md)\*
--   [View Patterns commands through the Command List module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-pattern-command-in-command-list.md)
--   [Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/commands-list-discovery.md)
+-   [View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/view-command-pattern-discovery.md)\*
+-   [View Patterns commands through the Command List module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/view-pattern-command-in-command-list.md)
+-   [Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/commands-list-discovery.md)
 
 </td></tr><tr><td>
 
@@ -60,9 +60,9 @@ Validate commands used by infrastructure and application patterns
 
 </td><td>
 
--   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/validate-discovery-commands.md)\*
--   [View command validation task results in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-command-validation-task-results.md)
--   [Command Validation Tasks form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/command-validation-reference.md)
+-   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/validate-discovery-commands.md)\*
+-   [View command validation task results in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/view-command-validation-task-results.md)
+-   [Command Validation Tasks form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/command-validation-reference.md)
 
 </td></tr><tr><td>
 

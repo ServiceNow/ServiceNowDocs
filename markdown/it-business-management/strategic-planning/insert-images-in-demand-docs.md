@@ -2,7 +2,7 @@
 title: Add images in demand Docs or download them
 description: Add images to demand Docs by uploading a file or embedding a URL. You can also download images from a Doc page to use outside Docs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/insert-images-in-demand-docs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/insert-images-in-demand-docs.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

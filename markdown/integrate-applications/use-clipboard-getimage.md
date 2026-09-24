@@ -2,7 +2,7 @@
 title: Use the GetImage component
 description: Get an image from the clipboard by using the GetImage component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-clipboard-getimage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-clipboard-getimage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetImage component. For more information about these properties, see [Properties of the Data Writer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-datawriter-prop.md).
+You can configure the properties for the GetImage component. For more information about these properties, see [Properties of the Data Writer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-datawriter-prop.md).
 
 ## Procedure
 
@@ -82,5 +82,5 @@ No. Connecting the port is optional.
 </table>4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/clipboard.md)
+**Parent Topic:**[Clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/clipboard.md)
 

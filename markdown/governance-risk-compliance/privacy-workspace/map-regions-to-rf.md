@@ -2,7 +2,7 @@
 title: Map regions and jurisdictions to RadarFirst regions and jurisdictions
 description: Map the configured breach assessment regions and jurisdictions in your instance to those imported from RadarFirst.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/map-regions-to-rf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/map-regions-to-rf.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -30,7 +30,7 @@ Each jurisdiction has its own set of data elements and breach factors configured
 
 To use RadarFirst for risk analysis, each region and jurisdiction in your instance must be mapped to a corresponding record in RadarFirst. This mapping ensures that the data elements and breach factors configured for a jurisdiction in your instance are correctly associated with the equivalent jurisdiction record in RadarFirst.
 
--   To view the regions and jurisdictions configured in your instance, navigate to **All** &gt; **Privacy Case Management** &gt; **Breach Assessment Configuration** &gt; **Regions**. Each region record lists its first-level jurisdictions in the **Locations** tab. Open a jurisdiction to view any further jurisdictions nested within it. To add a region, see [Create a region](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-region.md).
+-   To view the regions and jurisdictions configured in your instance, navigate to **All** &gt; **Privacy Case Management** &gt; **Breach Assessment Configuration** &gt; **Regions**. Each region record lists its first-level jurisdictions in the **Locations** tab. Open a jurisdiction to view any further jurisdictions nested within it. To add a region, see [Create a region](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/create-a-region.md).
 -   To view the regions imported from RadarFirst, navigate to **All** &gt; **Privacy Case Management** &gt; **RadarFirst Integration** &gt; **RadarFirst Regions**.
 -   To view the jurisdictions imported from RadarFirst, navigate to **All** &gt; **Privacy Case Management** &gt; **RadarFirst Integration** &gt; **RadarFirst Jurisdictions**.
 
@@ -171,5 +171,5 @@ This marks the completion of the Map regions and Map jurisdictions activities of
 
 ## What to do next
 
-Map the breach assessment data associated with these regions to that of RadarFirst. For steps, see [Map breach assessment data to RadarFirst data elements and risk factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/initiate-data-mapping-rf.md).
+Map the breach assessment data associated with these regions to that of RadarFirst. For steps, see [Map breach assessment data to RadarFirst data elements and risk factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/initiate-data-mapping-rf.md).
 

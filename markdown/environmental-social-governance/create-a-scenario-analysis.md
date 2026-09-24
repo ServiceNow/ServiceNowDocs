@@ -2,7 +2,7 @@
 title: Create an analysis
 description: Create analyses to model different outcomes based on specific interventions or changes. You can generate forecasts for each analysis and use that information to compare the different outcomes and better understand the impact of potential interventions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-scenario-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-scenario-analysis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -119,7 +119,7 @@ Description of the analysis.
 
 ## What to do next
 
-Adjust parameters to model different outcomes based on specific interventions or changes. For more information, see [Adjust parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-forecast-intervention.md).
+Adjust parameters to model different outcomes based on specific interventions or changes. For more information, see [Adjust parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-forecast-intervention.md).
 
-**Parent Topic:**[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-scenarios.md)
+**Parent Topic:**[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-up-scenarios.md)
 

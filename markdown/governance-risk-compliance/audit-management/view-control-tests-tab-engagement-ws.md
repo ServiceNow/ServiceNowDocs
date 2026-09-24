@@ -2,7 +2,7 @@
 title: View control tests in a grid on an engagement
 description: Use the Control tests tab on an engagement record to view, manage, and request evidence for all control tests in a single grid.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/view-control-tests-tab-engagement-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/view-control-tests-tab-engagement-ws.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -79,7 +79,7 @@ Both views show control test details including number, name, assigned auditor, d
 **Related topics**  
 
 
-[Create a control test from an engagement in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-control-test-engagement-ws.md)
+[Create a control test from an engagement in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/create-control-test-engagement-ws.md)
 
-[Create a control test from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateControlTest.md)
+[Create a control test from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/t_CreateControlTest.md)
 

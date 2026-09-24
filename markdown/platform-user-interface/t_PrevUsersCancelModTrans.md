@@ -2,7 +2,7 @@
 title: Prevent users from canceling module transactions
 description: You can explicitly prevent users from canceling the activity of a module by updating the module definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_PrevUsersCancelModTrans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_PrevUsersCancelModTrans.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Navigation action cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CancelingNavigationActions.md)
+**Parent Topic:**[Navigation action cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_CancelingNavigationActions.md)
 
 **Related topics**  
 

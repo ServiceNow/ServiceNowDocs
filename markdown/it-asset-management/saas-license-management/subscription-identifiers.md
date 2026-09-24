@@ -2,7 +2,7 @@
 title: Subscription identifiers for SaaS and SSO applications
 description: Use the SaaS License Management application to view, manage, and resolve subscription identifiers for your SaaS and SSO applications.Keep your SaaS and SSO license positions accurate and up to date by managing the updated subscription identifiers that are detected by the ServiceNow AI Platform.Maintain accurate license positions for your subscription software by resolving unrecognized subscription identifiers that are detected by the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/subscription-identifiers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/saas-license-management/subscription-identifiers.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -18,7 +18,7 @@ Use the SaaS License Management application to view, manage, and resolve subscri
 
 Subscription identifiers uniquely identify your SaaS and SSO applications. Each subscription identifier is associated with a discovery map and software model that help to normalize the software that is installed in your environment. You can use this information to track your software subscriptions and understand your license positions.
 
-**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
+**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 
@@ -143,7 +143,7 @@ The ServiceNow AI Platform marks a subscription identifier as unrecognized when 
 
 1.  Send unrecognized subscription identifiers back to the ServiceNow content team by opting in to the Software Asset Management content service.
 
-    When you opt in to the Software Asset Management content service, verify that the **Unrecognized Subscription Identifier** KPI is enabled. See [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_EnableSAMContentService.md) for detailed instructions.
+    When you opt in to the Software Asset Management content service, verify that the **Unrecognized Subscription Identifier** KPI is enabled. See [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_EnableSAMContentService.md) for detailed instructions.
 
 2.  Navigate to **SaaS License** &gt; **Unrecognized Subscription Identifiers**.
 

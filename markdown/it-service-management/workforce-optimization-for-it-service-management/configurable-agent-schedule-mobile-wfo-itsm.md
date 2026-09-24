@@ -2,7 +2,7 @@
 title: Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM
 description: Using the ITSM Mobile Agent app, shift planning agents can access their schedule. They can request time off to get their manager's approval or swap shifts with their peers and receive notifications for those requests and approvals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-agent-schedule-mobile-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-agent-schedule-mobile-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -18,7 +18,7 @@ Using the ITSM Mobile Agent app, shift planning agents can access their schedule
 
 **Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-**Important:** The ITSM Mobile Agent for Workforce Optimization for ITSM features are available with the ITSM Mobile Agent 5.0 store application. For more information, see [Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
+**Important:** The ITSM Mobile Agent for Workforce Optimization for ITSM features are available with the ITSM Mobile Agent 5.0 store application. For more information, see [Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
 
 ## Using On-Call Scheduling with Workforce Optimization for ITSM
 
@@ -32,21 +32,21 @@ To access:
 
 ## Setting the number of days to display events in shifts on the ITSM Mobile Agent
 
-As a Workforce Optimization admin \[sn\_wfo.admin\], you can configure the number of days events for shifts can be displayed on the mobile application using system properties. For more information, see **Properties** in the **Scheduling** section in [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
+As a Workforce Optimization admin \[sn\_wfo.admin\], you can configure the number of days events for shifts can be displayed on the mobile application using system properties. For more information, see **Properties** in the **Scheduling** section in [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
 
--   **[Notifications in ITSM Mobile Agent for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-mobile-notifications.md)**  
+-   **[Notifications in ITSM Mobile Agent for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-mobile-notifications.md)**  
 Receive notifications when you manage shift-swap and time-off requests. Enable notifications for the actions that are most relevant to you. For example, get notified when you receive a request for approval from an agent who wants to swap shifts with a peer.
--   **[Make a request to swap shifts or take time off using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/manage-schedule-configurable-wfo-itsm-mobile.md)**  
+-   **[Make a request to swap shifts or take time off using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/manage-schedule-configurable-wfo-itsm-mobile.md)**  
 Use the ITSM mobile app to look up your schedule, request time off, or swap your shift with your peers. If you can work during the requested shift, you can also approve your peer's request for the shift swap.
--   **[Approve or reject a shift swap using the ITSM Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/approve-reject-shiftswap-configurable-wfo-itsm-mobile.md)**  
+-   **[Approve or reject a shift swap using the ITSM Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/approve-reject-shiftswap-configurable-wfo-itsm-mobile.md)**  
 Using your ITSM Mobile Agent application, approve a shift swap requested by your peer if you are available to work at that time. You can reject it if you are unable to work then.
--   **[Track and manage your agent's schedule using the ITSM Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/approve-reject-requests-configurable-wfo-itsm-mobile.md)**  
+-   **[Track and manage your agent's schedule using the ITSM Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/approve-reject-requests-configurable-wfo-itsm-mobile.md)**  
 Monitor the shifts and schedule of teams within your assignment group using the ITSM Mobile Agent application. You can approve or reject requests for swapping shifts or time off for your agents.
 
-**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
+**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
 
 **Related topics**  
 
 
-[Mobile experience for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/mobile-experience-ocs.md)
+[Mobile experience for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/mobile-experience-ocs.md)
 

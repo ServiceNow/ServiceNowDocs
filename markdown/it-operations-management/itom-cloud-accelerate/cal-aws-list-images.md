@@ -2,7 +2,7 @@
 title: AWS List Images action
 description: Action that describes the specified images \(AMIs, AKIs, and ARIs\) available to you or all of the images available to you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/cal-aws-list-images.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/cal-aws-list-images.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -24,7 +24,7 @@ Action that describes the specified images \(AMIs, AKIs, and ARIs\) available to
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
+    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
 
 
 ## Cloud permission
@@ -95,5 +95,5 @@ You can use these outputs as inputs for other actions.
     A complex object containing information about the images.
 
 
-**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
 

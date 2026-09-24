@@ -2,7 +2,7 @@
 title: Conflict calendar
 description: The conflict calendar graphically represents the potential scheduling conflicts for a change request. Conflicts are identified as active change requests, blackout schedules, and changes scheduled outside maintenance schedules. Use the Scheduling Assistant to resolve any schedule conflicts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-conflict-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-conflict-calendar.html
 release: australia
 product: Change Management
 classification: change-management
@@ -40,7 +40,7 @@ Scheduling Assistant
 
 </td><td>
 
-Enables you to choose from the list of available time slots to resolve conflicts. For more information on resolving conflicts, see [Manage your change schedules and resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/use-conflict-calendar.md) [Manage your change schedules and resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/use-conflict-calendar.md)
+Enables you to choose from the list of available time slots to resolve conflicts. For more information on resolving conflicts, see [Manage your change schedules and resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/use-conflict-calendar.md) [Manage your change schedules and resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/use-conflict-calendar.md)
 
 </td></tr><tr><td>
 
@@ -139,10 +139,10 @@ Change request block
 Enables you to view the details of the change request.**Note:** Related changes section is displayed if other scheduled changes that potentially conflict with the change based on a schedule or assignment is detected. For example, if the same person is assigned to two or more changes at the same date and time, you can visually see the conflict and update one of the scheduled changes, as appropriate.
 
 </td></tr></tbody>
-</table>-   **[Manage your change schedules and resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/use-conflict-calendar.md)**  
+</table>-   **[Manage your change schedules and resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/use-conflict-calendar.md)**  
 Prevent schedule conflicts by using the conflict calendar to manage your change schedule details, customize views, and resolve conflicts.
 
-**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
+**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Learn UI Builder using other ServiceNow resources
 description: Learn more about UI Builder using resources outside of the product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/addit-UIB-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/addit-UIB-resources.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -53,5 +53,5 @@ UI Builder is a web user interface builder. Use UI Builder to build pages for CR
 \[Omitted image "bus-start-developing.svg"\] Alt text: Components documentation [Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib.md)
+</table>**Parent Topic:**[Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/learning-uib.md)
 

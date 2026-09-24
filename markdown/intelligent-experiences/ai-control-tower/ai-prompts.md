@@ -2,7 +2,7 @@
 title: Prompts
 description: Explore the prompts in detail with examples.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-prompts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-prompts.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

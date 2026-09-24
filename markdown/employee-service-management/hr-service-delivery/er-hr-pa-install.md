@@ -2,7 +2,7 @@
 title: Activate the Analytics and Reporting Solution for Employee Relations
 description: Activate the content pack plugins for the Analytics and Reporting Solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/er-hr-pa-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/er-hr-pa-install.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

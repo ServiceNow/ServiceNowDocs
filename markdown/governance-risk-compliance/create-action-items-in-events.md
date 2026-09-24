@@ -2,7 +2,7 @@
 title: Create task and assessment-type action items in events
 description: Use integration of events and Smart Assessment for creating necessary action items related to an event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-action-items-in-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-action-items-in-events.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ Verify that you have created Smart Assessment templates for integrating crisis e
 
 4.  On the form, fill in the fields.
 
-    For information on the fields, see [Create Action item form for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-action-item-crisis-event-form.md).
+    For information on the fields, see [Create Action item form for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-action-item-crisis-event-form.md).
 
     **Note:** Starting with GRC: Crisis Management, version 9.1.4, deleting an event associated with an action item now automatically deletes the action items and cancels any linked SAE assessments. Additionally, SAE assessments can now be viewed even if they are not linked to an action item.
 
@@ -87,7 +87,7 @@ Verify that you have created Smart Assessment templates for integrating crisis e
         -   Publish the assessment template.
         Only when these conditions are met, the template is available for selection in the drop-down of the action item form.
 
-        For information on setting up Smart Assessment templates, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+        For information on setting up Smart Assessment templates, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
     2.  Add an assignment group or a team member and additional assignee list, select the timeline, and save the record.
 
@@ -114,8 +114,8 @@ Verify that you have created Smart Assessment templates for integrating crisis e
     This step completes the workflow of the action item record.
 
 
--   **[Create Action item form for events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-action-item-events.md)**  
+-   **[Create Action item form for events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-action-item-events.md)**  
 Use the Create New Action item form in the BCM Configurable Workspace to add action items about a crisis event.
 
-**Parent Topic:**[Creating action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-action-items-in-events.md)
+**Parent Topic:**[Creating action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-action-items-in-events.md)
 

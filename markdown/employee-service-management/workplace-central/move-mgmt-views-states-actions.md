@@ -2,7 +2,7 @@
 title: Move management key features and actions
 description: As a Move manager, fulfill move requests efficiently by logically grouping them in to move projects using the Workplace Central Move management workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/move-mgmt-views-states-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/move-mgmt-views-states-actions.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -23,12 +23,12 @@ The Move management workspace is a one stop workspace where you can perform mult
 The workspace has several key features such as move requests-related metrics, visual representation, detailed views, and also the option to create a move project. The Move management displays information in the following categories:
 
 -   **Move management**: Displays metrics of your active move projects, move requests, and move tasks. It also provides a visual representation of the planned and unplanned move requests, states of requests and active projects.
--   **Create project**: Option to create a move project. For more information, refer to [Create a move project from existing move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-move-project.md).
+-   **Create project**: Option to create a move project. For more information, refer to [Create a move project from existing move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-move-project.md).
 -   **Move management**: Lists the details of the following:
     -   Details of all the move projects with their planned start and end date, their current state, and the assigned user.
     -   Details of all the move requests with their current state, the requested move date, the expected start, and the due date.
 
-For detailed information about move projects, its features, and various states, refer to [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-project-schedule-view.md).
+For detailed information about move projects, its features, and various states, refer to [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/move-project-schedule-view.md).
 
 ## Move request metrics
 
@@ -72,10 +72,10 @@ At a time, the workspace displays up to five move requests. To view all the move
     -   Add or remove filters.
 -   You can select a move request to view the details in a separate tab. When selected, the workplace move case record is opened where you can view the request details and also edit any information if necessary.
 
--   **[Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-project-schedule-view.md)**  
+-   **[Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/move-project-schedule-view.md)**  
 As a move manager, create, track, and work on move projects to fulfill multiple move requests at a time. The move project enables you to work using a schedule view, which is faster than opening individual move requests.
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Update sets properties
 description: A reference topic that contains information on the system properties used with update sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/update-sets-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/system-update-sets/update-sets-properties.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -49,5 +49,5 @@ Grant access to the update set picker: By default, only administrators can use t
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-sets-reference.md)
+</table>**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/update-sets-reference.md)
 

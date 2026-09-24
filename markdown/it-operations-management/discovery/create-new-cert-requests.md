@@ -2,7 +2,7 @@
 title: Create certificate requests
 description: Create certificate requests manually through Service Catalog for a personalized and efficient procurement of certificates, providing greater flexibility and control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-new-cert-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/create-new-cert-requests.html
 release: australia
 product: Discovery
 classification: discovery

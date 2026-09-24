@@ -2,7 +2,7 @@
 title: View survey instance
 description: A survey instance represents one questionnaire assigned to one user. You view an instance to verify that survey instances were created, to check the state of a survey instance, or to reassign a survey instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/create-fdbk-instance-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-feedback/create-fdbk-instance-ai.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

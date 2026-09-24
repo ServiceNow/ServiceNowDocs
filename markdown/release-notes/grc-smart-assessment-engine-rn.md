@@ -2,7 +2,7 @@
 title: Smart Assessment Engine release notes
 description: The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/grc-smart-assessment-engine-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/grc-smart-assessment-engine-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ The ServiceNow® Smart Assessment Engine \(SAE\) enables you to create customiza
 
 ## About Smart Assessment Engine
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)ServiceNow Otto® is the new name for the Now Assist experience in SAE. All Now Assist references have been updated to ServiceNow Otto.
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)ServiceNow Otto® is the new name for the Now Assist experience in SAE. All Now Assist references have been updated to ServiceNow Otto.
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
 
 -   Collaborate inline with question-level flags, question-level comments, and a new Work Notes tab.
 -   Draft assessment responses automatically with AI Response Assist, which suggests answers from prior assessments and attached documents with full source traceability.
@@ -26,7 +26,7 @@ The ServiceNow® Smart Assessment Engine \(SAE\) enables you to create customiza
 -   Update published templates safely with template versioning while preserving auditability of in-flight assessments.
 -   Streamline the responder experience with continuous scrolling inside sections and sub-sections, fully hidden conditional questions, and multi-filter support on the question list. View scope item fields directly in the assessment task list.
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   Edit published templates quickly with inline edits and built‑in audit tracking.
 -   Enable efficient, role-based collaboration by allowing primary owners to delegate assessment sections to subject matter experts \(SMEs\).
@@ -42,7 +42,7 @@ See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/Servi
     Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/grc-rn-landing.md)
 
 ## July 2026
 
@@ -147,7 +147,7 @@ The ServiceNow® Smart Assessment Engine \(SAE\) enables you to create customiza
 
 -   **[ServiceNow Otto® name announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 -   **[Hide conditional questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sae-q-text-create.md)**
 

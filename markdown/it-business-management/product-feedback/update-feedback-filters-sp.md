@@ -2,7 +2,7 @@
 title: Update feedback filters in Strategic Planning
 description: Edit the details of a feedback filters and make real-time updates on your feedback filter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/update-feedback-filters-sp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/product-feedback/update-feedback-filters-sp.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -26,7 +26,7 @@ Role required: pf\_user
 
 2.  Create a feedback filter.
 
-    For more information, see [Create feedback filters in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-feedback-filters.md).
+    For more information, see [Create feedback filters in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/create-feedback-filters.md).
 
 3.  From the feedback page, select the feedback filter card that you want to edit.
 

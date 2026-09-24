@@ -2,7 +2,7 @@
 title: Configure Azure Credentials for Cloud License Estimator
 description: To use this tool, configure the Azure Service Principal Account credentials. If you already have credentials configured in the ServiceNow instance, those credentials can be used.The tool supports management accounts and single subscriptions. Management accounts include all subscriptions under that account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-license-estimator/cle-azure-credential-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-license-estimator/cle-azure-credential-setup.html
 release: australia
 product: Cloud License Estimator
 classification: cloud-license-estimator
@@ -33,7 +33,7 @@ Role required: admin
 
 A **Credential ID** is generated, which is required when creating configurations.
 
-**Parent Topic:**[Configure Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-license-estimator/configure-cloud-license-estimator.md)
+**Parent Topic:**[Configure Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-license-estimator/configure-cloud-license-estimator.md)
 
 **Related topics**  
 
@@ -60,7 +60,7 @@ Role required: admin
     -   **Cloud Provider**: Choose **Azure** from the list. Fill in the additional fields appear.
     -   **Account ID**: Enter the management account ID or subscription ID.
     -   **Management group**: Select this checkbox if the Account ID is a management account.
-    -   **Credentials**: Select the Azure Service principle credentials configured in [Configure Azure Credentials for Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-license-estimator/cle-azure-credential-setup.md).
+    -   **Credentials**: Select the Azure Service principle credentials configured in [Configure Azure Credentials for Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-license-estimator/cle-azure-credential-setup.md).
     -   **Activate**: Enable this option.
 4.  Select **Save and run license estimator**.
 
@@ -72,5 +72,5 @@ Role required: admin
 **Related topics**  
 
 
-[Generate Cloud License Estimator Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-license-estimator/cle-generate-reports.md)
+[Generate Cloud License Estimator Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-license-estimator/cle-generate-reports.md)
 

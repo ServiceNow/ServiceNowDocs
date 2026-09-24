@@ -2,7 +2,7 @@
 title: Assign Model Context Protocol \(MCP\) servers to an assistant
 description: Assign configured Model Context Protocol \(MCP\) servers to enable users to access external data sources and tools. You can assign an MCP server to an assistant that uses premium chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/assign-mcp-servers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/assign-mcp-servers.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,7 +18,7 @@ Assign configured Model Context Protocol \(MCP\) servers to enable users to acce
 
 ## Before you begin
 
-See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
+See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
 
 Before assigning an MCP server to an assistant, make sure that the MCP server is created and available on the instance. For more information, see [Adding an MCP Server in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-mcp-client-on-ai-agent-studio.md).
 
@@ -67,5 +67,5 @@ MCP server assignments are configured at the assistant level. This lets you cont
 
 ## What to do next
 
-See [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
+See [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
 

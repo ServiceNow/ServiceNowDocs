@@ -2,7 +2,7 @@
 title: Prioritization in Strategic Planning
 description: Prioritize work that is relevant for your portfolio using a centralized workspace in Strategic Planning. Review and determine the right work to invest in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/backlog-management-in-alignment-planner-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/backlog-management-in-alignment-planner-workspace.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -43,7 +43,7 @@ Alternatively, you can also use the Kanban or Hierarchy tab to review and manage
     \[Omitted image "prioritization-lens-switcher.png"\] Alt text: Hierarchy view of the Prioritization view in Strategic Planning and Portfolio Planning Workspace
 
 
-To get started with managing your work pipeline in Strategic Planning, see [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
+To get started with managing your work pipeline in Strategic Planning, see [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
 
-**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
+**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

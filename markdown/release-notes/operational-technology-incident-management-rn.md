@@ -2,7 +2,7 @@
 title: Operational Technology Incident Management release notes
 description: The ServiceNow Operational Technology Incident Management application enables engineers to resolve Operational Technology \(OT\) device and production process issues. Operational Technology Incident Management was enhanced and updated in the Australia release.The ServiceNow Operational Technology Incident Management application enables engineers to resolve Operational Technology \(OT\) device and production process issues. Operational Technology Incident Management was enhanced and updated in the Australia release.The ServiceNow Operational Technology Incident Management application enables engineers to resolve Operational Technology \(OT\) device and production process issues. Operational Technology Incident Management was enhanced and updated in the Australia release.The ServiceNow Operational Technology Incident Management application enables engineers to resolve Operational Technology \(OT\) device and production process issues. Operational Technology Incident Management was enhanced and updated in the Australia release.The ServiceNow Operational Technology Incident Management application enables engineers to resolve Operational Technology \(OT\) device and production process issues. Operational Technology Incident Management was enhanced and updated in the Australia release.The ServiceNow Operational Technology Incident Management application enables engineers to resolve Operational Technology \(OT\) device and production process issues. Operational Technology Incident Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/operational-technology-incident-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/operational-technology-incident-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-07-20"
@@ -16,21 +16,21 @@ The ServiceNow® Operational Technology Incident Management application enables 
 
 ## About Operational Technology Incident Management
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
-[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-6.md)
+
 
 -   The Now LLM Service is being prepared for future deprecation.
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   Now Assist for Operational Technology Service Management \(OTSM\) has been changed to ServiceNow Otto for OT Service Management.
 
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-4.md)
 
 -   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available.
 
@@ -52,7 +52,7 @@ See [Operational Technology Incident Management](https://raw.githubusercontent.c
     Install Operational Technology Incident Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/operational-technology-rn-landing.md)
+**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/operational-technology-rn-landing.md)
 
 ## September 2026
 
@@ -62,7 +62,7 @@ The ServiceNow® Operational Technology Incident Management application enables 
 
 -   **[Now LLM Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md) deprecation**
 
-    Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
 ## August 2026

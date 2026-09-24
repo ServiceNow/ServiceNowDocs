@@ -2,7 +2,7 @@
 title: Reschedule a callback
 description: Reschedule callbacks on behalf of customers when the original scheduled time is no longer suitable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/reschedule-callback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/reschedule-callback.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

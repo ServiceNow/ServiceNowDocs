@@ -2,7 +2,7 @@
 title: Configure topic page widget instance
 description: Configure the topic page widget instance to control applications, topic subtopics, and topic assistance settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-topic-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-topic-widget.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

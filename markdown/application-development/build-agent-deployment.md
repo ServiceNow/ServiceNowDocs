@@ -2,12 +2,12 @@
 title: Deploying what you built with Build Agent
 description: Learn about deployment methods and workflows for moving applications created with Build Agent from development to production environments. Choose the right deployment approach based on your application complexity and organizational requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-deployment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-deployment.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-15"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -41,7 +41,7 @@ Build Agent supports the following deployment methods for apps created and edite
 -   Git-based source control integration: ServiceNow supports Git-based workflows for version control and CI/CD.
     -   You can push scoped apps to Git repositories, enabling branching, merging, and automated deployments. ServiceNow supports bring-your-own Git integration, such as GitHub or Bitbucket.
     -   You must be on Australia Patch 5 to use source control in ServiceNow Studio.
-    -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md) and [Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md).
+    -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md) and [Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md).
 -   Update sets and application packaging: Standard ServiceNow deployment uses System Update Sets to track changes.
     -   Advanced guidance includes packing update sets into scoped applications for easier transport and installation across instances, for example using Application Repository \(AppRepo\).
     -   For more information on System Update Sets, see [System update sets]().
@@ -60,7 +60,7 @@ After you create an app using Build Agent, you have several options to move the 
     -   Scoped apps, as well as apps that are ready for testing, can be published to the AppRepo for distribution across environments.
     -   After an app is in AppRepo, you can move it through a ReleaseOps pipeline. If ATF tests are included in the pipeline, they automatically run.
     -   Register and entitle apps before publishing.
-    -   For more information on Application Repository, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/app-repo.md).
+    -   For more information on Application Repository, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/app-repo.md).
 
 ## Additional deployment tools
 
@@ -71,14 +71,14 @@ The ServiceNow AI Platform has additional deployment tools that include the foll
     -   AEMC validates ACLs, roles, and compliance settings before deployment.
     -   Use ReleaseOps pipelines to move apps through environments with ATF tests and approval gates.
     -   AEMC provides dashboards for monitoring deployments and managing app versions throughout the lifecycle.
-    -   For more information on AEMC, see [Using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/monitor-requests-using-aemc.md).
+    -   For more information on AEMC, see [Using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/monitor-requests-using-aemc.md).
 -   ReleaseOps:
     -   Move changes from development to production through multiple instances using customizable playbooks.
     -   Automate preview, commit, and validation of update sets before deployment.
     -   Run Automated Test Framework \(ATF\) tests as part of the pipeline to validate quality.
     -   Deploy changes immediately or schedule releases for controlled rollouts.
     -   Enforce checks, scans, and approvals before production deployment.
-    -   For more information on ReleaseOps, see [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-landing.md).
+    -   For more information on ReleaseOps, see [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/releaseops-landing.md).
 -   ServiceNow SDK:
     -   Use the ServiceNow SDK to move applications to and from your instance to your local machine. You can integrate the ServiceNow SDK with your off-instance CI/CD process if you have one.
     -   Install the ServiceNow SDK locally and use the command line interface \(CLI\).
@@ -86,7 +86,7 @@ The ServiceNow AI Platform has additional deployment tools that include the foll
     -   Push to or install an application on the authenticated instance from your local environment.
 -   Automated Test Framework \(ATF\)
     -   Tests can be generated by Build Agent and executed in ServiceNow Studio or ServiceNow IDE to confirm functionality after changes.
-    -   For more information on ATF, see [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md).
+    -   For more information on ATF, see [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-landing-page.md).
 
 ## Mixing application repository and update set deployment
 
@@ -96,5 +96,5 @@ For any given application on a given instance, the application repository deploy
 
 For more information, see the [Can't mix Update Set and App Repo deployment for the same application \[KB0715422\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0715422) article in the Knowledge Base.
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-build-agent.md)
 

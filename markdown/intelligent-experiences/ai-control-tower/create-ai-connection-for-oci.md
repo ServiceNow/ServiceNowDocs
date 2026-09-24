@@ -2,7 +2,7 @@
 title: Create an AI connection for AI Service Graph Connector for OCI
 description: Create an AI connection for OCI in AI Control Tower using the  AI Service Graph Connector for OCI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-oci.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-ai-connection-for-oci.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -63,11 +63,11 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
         |Connection name|Name to identify the OCI connection.|
         |Tenancy ID|The OCID of your OCI tenancy. For example, `ocid1.tenancy.oc1..aaaaaa...`.|
         |User ID|The OCID of the OCI user whose API key is configured.|
-        |Key Fingerprint|The fingerprint generated when uploading the public key. See [OCI prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-sgc-oci.md) and the [Service Graph Connector for OCI - Setup Instructions \[KB2898105\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2898105) article in the Now Support Knowledge Base.|
+        |Key Fingerprint|The fingerprint generated when uploading the public key. See [OCI prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-sgc-oci.md) and the [Service Graph Connector for OCI - Setup Instructions \[KB2898105\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2898105) article in the Now Support Knowledge Base.|
         |Region|The OCI region identifier. For example, `us-chicago-1`.|
-        |Certificate|The JKS certificate. See [OCI prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-sgc-oci.md) and the [Service Graph Connector for OCI - Setup Instructions \[KB2898105\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2898105) article in the Now Support Knowledge Base.|
-        |Certificate Alias|The alias used during JKS certificate creation. See [OCI prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-sgc-oci.md) and the [Service Graph Connector for OCI - Setup Instructions \[KB2898105\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2898105) article in the Now Support Knowledge Base.|
-        |Certificate Alias Password|The alias password used during JKS certificate creation. See [OCI prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-sgc-oci.md) and the [Service Graph Connector for OCI - Setup Instructions \[KB2898105\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2898105) article in the Now Support Knowledge Base.|
+        |Certificate|The JKS certificate. See [OCI prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-sgc-oci.md) and the [Service Graph Connector for OCI - Setup Instructions \[KB2898105\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2898105) article in the Now Support Knowledge Base.|
+        |Certificate Alias|The alias used during JKS certificate creation. See [OCI prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-sgc-oci.md) and the [Service Graph Connector for OCI - Setup Instructions \[KB2898105\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2898105) article in the Now Support Knowledge Base.|
+        |Certificate Alias Password|The alias password used during JKS certificate creation. See [OCI prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-sgc-oci.md) and the [Service Graph Connector for OCI - Setup Instructions \[KB2898105\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2898105) article in the Now Support Knowledge Base.|
         |Compartment ID \(optional\)|The OCID of a specific compartment to scope discovery to that compartment and its sub-tree. If no value is specified, the entire tenancy is discovered.|
 
     2.  Select a MID Server.

@@ -2,7 +2,7 @@
 title: Service Model Foundation data model
 description: The Service Model Foundation data model defines the underlying structure that supports data consistency and relationships across Service Model Foundation. The data model explains its purpose, including how entities such as services, locations, and accounts are organized and connected through the entity-relationship Diagram \(ERD\) and reference architecture. It provides a unified view of data design, confirming scalability, integrity, and seamless integration across Service Model Foundation components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/data-models-smf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/data-models-smf.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up y
 
 The Service Model Foundation data model defines the underlying structure that supports data consistency and relationships across Service Model Foundation. The data model explains its purpose, including how entities such as services, locations, and accounts are organized and connected through the entity-relationship Diagram \(ERD\) and reference architecture. It provides a unified view of data design, confirming scalability, integrity, and seamless integration across Service Model Foundation components.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 Service Model Foundation provides a framework that your customers can use to create structured yet flexible data models that represent their business structure. Central support represents the supporting entity within the main organization. Service organizations represent additional entities providing customer support.
 
@@ -122,7 +122,7 @@ The external customers in the business-to-business model who use goods and servi
 
 </td></tr><tr><td>
 
-[Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-households.md)
+[Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-households.md)
 
 </td><td>
 
@@ -149,7 +149,7 @@ The people who work at internal and external organizations and assist customers.
 
 </td></tr><tr><td>
 
-[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-roles.md)
+[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-data-model-roles.md)
 
 </td><td>
 
@@ -165,7 +165,7 @@ Job functions that are performed by various users in the business organization.
 
 </td></tr><tr><td>
 
-[Responsibility definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-responsibilities.md)
+[Responsibility definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-data-model-responsibilities.md)
 
 </td><td>
 
@@ -182,7 +182,7 @@ Definitions of the responsibilities that an agent can perform for a customer or 
 
 </td></tr><tr><td>
 
-[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-relationships.md)
+[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-data-model-relationships.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Ask questions about an incident by using the ServiceNow Otto panel
 description: Quickly obtain common incident related information conversationally within the incident record by asking questions in the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

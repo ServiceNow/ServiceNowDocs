@@ -2,7 +2,7 @@
 title: Supported functions for the Expression components
 description: Learn about the various functions for the Expression components in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/supported-expression-functions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/supported-expression-functions.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -38,5 +38,5 @@ Learn about the various functions for the Expression components in RPA Desktop D
 |Truncate|Calculates the integral part of a number.|Truncate\(1.7\)|1|
 |NCalc|The NCalc is a mathematical expressions evaluator in .NET. With this function, you can parse any expression and evaluate its result. This includes static or dynamic parameters, or custom functions.|For more information, see [https://github.com/ncalc/ncalc/wiki](https://github.com/ncalc/ncalc/wiki)| |
 
-**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/general-component.md)
 

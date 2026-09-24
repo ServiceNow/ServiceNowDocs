@@ -2,7 +2,7 @@
 title: Service Problem case record page
 description: The record page provides a simplified view of Service Problem cases. Agents can see Customer 360 data and resolve cases from this view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-problem-case-record-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-problem-case-record-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-31"
@@ -58,7 +58,7 @@ Customer 360
 
 Consolidates customer information, interaction history, products, and billing into a single view.
 
- For details about each card in the Customer 360 tab, see [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md).
+ For details about each card in the Customer 360 tab, see [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-home-page.md).
 
  **Note:** You must install the Telecommunications Customer 360 \(sn\_telecom\_c360\) plugin to view the Customer 360 tab in your ServiceNow instance.
 
@@ -68,7 +68,7 @@ Diagnose
 
 </td><td>
 
-Shows diagnostic test results and repair tasks. You can run diagnostics and generate repair tasks. For more information, see [Diagnose and resolve a service problem case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/work-on-service-problem-case.md).
+Shows diagnostic test results and repair tasks. You can run diagnostics and generate repair tasks. For more information, see [Diagnose and resolve a service problem case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/work-on-service-problem-case.md).
 
 </td></tr></tbody>
 </table>

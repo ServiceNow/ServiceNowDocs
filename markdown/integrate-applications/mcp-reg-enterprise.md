@@ -2,7 +2,7 @@
 title: Available Enterprise MCP Registries
 description: Pre-configured connection information for a set of high‑value MCP Servers are available as part of the Enterprise MCP Registry.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mcp-reg-enterprise.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mcp-reg-enterprise.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-04"
@@ -336,5 +336,5 @@ OAuth 2.1
 Cloud-based bridge for Box file content access. All actions respect existing user permissions. Supports natural-language file discovery, content summarization, and document retrieval. Users must have appropriate Box folder/file permissions.
 
 </td></tr></tbody>
-</table>**Note:** Some connectors may require additional configurations. See [Additional connector configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/additional-configs-mcr.md) for the list of supported connectors that require additional configurations. If your connector is listed, perform the required configurations before registering the client manually.
+</table>**Note:** Some connectors may require additional configurations. See [Additional connector configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/additional-configs-mcr.md) for the list of supported connectors that require additional configurations. If your connector is listed, perform the required configurations before registering the client manually.
 

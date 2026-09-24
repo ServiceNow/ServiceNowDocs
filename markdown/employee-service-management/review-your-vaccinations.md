@@ -2,7 +2,7 @@
 title: Review your vaccine responses
 description: If you would like to review your recently reported COVID-19 vaccinations or add an attachment to a record, access your previous vaccine responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/review-your-vaccinations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/review-your-vaccinations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,5 +32,5 @@ Role required: sn\_imt\_core.privacy\_consent\_user
 
     -   If you are reviewing the record, review the record and click **Back** to return to the list of vaccine responses.
 
-**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/vaccination-status.md)
 

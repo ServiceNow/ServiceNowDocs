@@ -2,7 +2,7 @@
 title: Enable ServiceNow Otto experience in Virtual Agent API
 description: Enable ServiceNow Otto experience in Virtual Agent API to support generative AI skills across multiple provider channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Enable ServiceNow Otto experience in Virtual Agent API to support generative AI 
 
 ## Before you begin
 
-Set up ServiceNow Otto for Virtual Agent. See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) for more information.
+Set up ServiceNow Otto for Virtual Agent. See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) for more information.
 
 Role required: admin
 
@@ -40,5 +40,5 @@ Role required: admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

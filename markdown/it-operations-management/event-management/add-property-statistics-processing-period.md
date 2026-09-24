@@ -2,7 +2,7 @@
 title: Configure statistics processing period
 description: Set the time period, in seconds, for collecting event processing statistics. For example, you can set a time period twice as long as the default 60 seconds to collect more statistics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/add-property-statistics-processing-period.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/add-property-statistics-processing-period.html
 release: australia
 product: Event Management
 classification: event-management

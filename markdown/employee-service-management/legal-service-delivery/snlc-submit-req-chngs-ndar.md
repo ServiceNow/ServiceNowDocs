@@ -2,7 +2,7 @@
 title: Review a contract document in Employee Center
 description: As a contract user, review a contract document and submit a change request to the contract fulfiller if changes are required in the contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-submit-req-chngs-ndar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-submit-req-chngs-ndar.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -40,15 +40,15 @@ Role required: sn\_cm\_core.contract\_user and sn\_lg\_ops.legal\_user
 
 5.  Access the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d160705e131">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d160748e131">
 
 Location
 
-</th><th align="left" id="d160705e134">
+</th><th align="left" id="d160748e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d160705e140">
+</th></tr></thead><tbody><tr><td id="d160748e140">
 
 **From internal storage**
 
@@ -59,7 +59,7 @@ Action
 3.  Select **Preview** to view the document.
 
 
-</td></tr><tr><td id="d160705e167">
+</td></tr><tr><td id="d160748e167">
 
 **From external storage**
 
@@ -70,23 +70,23 @@ Select the link in the **URL** column. The document opens from the external stor
 </td></tr></tbody>
 </table>6.  Review the contract document.
 
-<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d160705e191">
+<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d160748e191">
 
 Review result
 
-</th><th align="left" id="d160705e194">
+</th><th align="left" id="d160748e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d160705e200">
+</th></tr></thead><tbody><tr><td id="d160748e200">
 
 **No change is required**
 
 </td><td>
 
-Send the document for signature. For more information, see [Send a non-disclosure agreement document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-send-doc-sign-nda.md).
+Send the document for signature. For more information, see [Send a non-disclosure agreement document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-send-doc-sign-nda.md).
 
-</td></tr><tr><td id="d160705e218">
+</td></tr><tr><td id="d160748e218">
 
 **Changes are required**
 
@@ -107,5 +107,5 @@ The change request is submitted for the contract document. The change request de
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Reviewing and finalizing a self-served contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-review-finalize-contract.md)
+**Parent Topic:**[Reviewing and finalizing a self-served contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-review-finalize-contract.md)
 

@@ -2,7 +2,7 @@
 title: Define an invoice tolerance rule
 description: Create tolerance rules to define acceptable invoice variances based on tolerance types and invoice filters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-rule.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -115,5 +115,5 @@ Filter condition to determine the invoices for which the tolerance rule is appli
 
 The tolerance rule is configured for the selected tolerance type.
 
-**Parent Topic:**[Tolerance rules and variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance rules and variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

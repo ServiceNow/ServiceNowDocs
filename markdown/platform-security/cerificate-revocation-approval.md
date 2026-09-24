@@ -2,7 +2,7 @@
 title: Approve certificate revocation
 description: Review and approve certificate revocation requests from the email approval notifications that are sent to your registered email address. Review the approval notification and select the Click here to approve or Click here to reject link to access the protected instance and act. You can also access the approval request and the code-signing quorum request directly from the email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cerificate-revocation-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cerificate-revocation-approval.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

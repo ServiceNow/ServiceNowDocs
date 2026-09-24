@@ -2,7 +2,7 @@
 title: Exploring Agent Workspace for HR Case Management
 description: Use Agent Workspace for HR Case Management to manage your employee HR requests from one place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-exploring.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -70,7 +70,7 @@ Lists icon
 
 </td><td>
 
-The lists provide you with a view into all HR cases. You can filter and sort by what is relevant to you. Select to view a list of HR cases, interactions, HR tasks, and more. For more information, see [Lists in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-lists.md).
+The lists provide you with a view into all HR cases. You can filter and sort by what is relevant to you. Select to view a list of HR cases, interactions, HR tasks, and more. For more information, see [Lists in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-lists.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Tabs
 
 </td><td>
 
-Tabs display lists, HR case numbers, and the Add icon. If you hover on an HR case number, you can quickly see more details related to a case, for example, the description of the case, HR Service and Subject person.When you have multiple tabs open, you can only see the case number on the tab by default. However, you can also configure the information you want to be displayed on the tab. For more information, see [Customize tab label in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/customise-tab-lable-agent-ws.md).
+Tabs display lists, HR case numbers, and the Add icon. If you hover on an HR case number, you can quickly see more details related to a case, for example, the description of the case, HR Service and Subject person.When you have multiple tabs open, you can only see the case number on the tab by default. However, you can also configure the information you want to be displayed on the tab. For more information, see [Customize tab label in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/customise-tab-lable-agent-ws.md).
 
 </td></tr><tr><td>
 
@@ -118,8 +118,8 @@ Add icon
 
 </td><td>
 
-Select to instantly create one of the following:-   **Create HR case**. For more information, see [Create a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md).
--   **Create interaction**. An interaction is when an employee contacts an HR agent and you want to ensure the interaction is documented and captured. For more information, see [Using interactions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-interactions.md).
+Select to instantly create one of the following:-   **Create HR case**. For more information, see [Create a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md).
+-   **Create interaction**. An interaction is when an employee contacts an HR agent and you want to ensure the interaction is documented and captured. For more information, see [Using interactions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-interactions.md).
 
 </td></tr><tr><td>
 
@@ -152,5 +152,5 @@ Displays a graphical representation of the data related to the teams you belong 
 
 Information related to the teams your HR agents belong to display in the **My team** section.
 
-The bottom of the landing page provides company information, links, and tools available. This section is part of Content Delivery. For more information, see [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
+The bottom of the landing page provides company information, links, and tools available. This section is part of Content Delivery. For more information, see [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 

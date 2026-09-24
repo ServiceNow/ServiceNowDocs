@@ -2,7 +2,7 @@
 title: Syntax errors and warnings
 description: All script fields provide controls for checking the syntax for errors and for locating the error easily when one occurs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_ScriptSyntaxErrorChecking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_ScriptSyntaxErrorChecking.html
 release: australia
 product: Scripts
 classification: scripts
@@ -26,5 +26,5 @@ The syntax editor displays messages about errors or warnings in your scripts in 
 
 You can configure whether to show indicators next to a line of code that contains an issue for errors, warnings, both, or none with the **glide.ui.syntax\_editor.show\_warnings\_errors** system property.
 
-**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
+**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
 

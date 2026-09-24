@@ -2,7 +2,7 @@
 title: AWS Marketplace pattern-based discovery
 description: Discovery and Service Mapping Patterns finds active AWS Marketplace subscriptions on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-marketplace-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-marketplace-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -28,7 +28,7 @@ The Amazon AWS - Marketplace \(LP\) pattern discovers the following AWS Marketpl
 
 -   **Verify the AWS discovery prerequisites**
 
-    For more information, see the prerequisites section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
+    For more information, see the prerequisites section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 -   **Verify that the us-east-1 region is activated on your instance**
 
@@ -148,5 +148,5 @@ The Amazon AWS - Marketplace \(LP\) pattern creates the following relationships 
 |---|-----|-------------|
 |Marketplace Product Details \[marketplace\_product\_details\]|Deployed On \[deployed\_on\]|Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|
 
-**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

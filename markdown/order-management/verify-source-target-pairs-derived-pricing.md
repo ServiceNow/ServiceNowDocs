@@ -2,7 +2,7 @@
 title: Using the DerivedProductPriceExtensionPoint
 description: The sn\_csm\_pricing.DerivedProductPriceExtensionPoint provides an interface with specific methods that call certain business logic for using valid source products in source and target product pairs in derived pricing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/verify-source-target-pairs-derived-pricing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/verify-source-target-pairs-derived-pricing.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-02"

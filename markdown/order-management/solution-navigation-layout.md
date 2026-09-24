@@ -2,7 +2,7 @@
 title: Solution navigation and layout
 description: The solution navigation sidebar and layout settings control how buyers move between configurations in a solution session.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/solution-navigation-layout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/solution-navigation-layout.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -33,9 +33,9 @@ The solution navigation sidebar lists all configurable products in the current s
 **Related topics**  
 
 
-[Launch a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/launch-solution.md)
+[Launch a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/launch-solution.md)
 
-[Navigate within a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/navigate-solution.md)
+[Navigate within a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/navigate-solution.md)
 
-[Bill of Materials in solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/bill-of-materials-in-solution-configuration.md)
+[Bill of Materials in solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/bill-of-materials-in-solution-configuration.md)
 

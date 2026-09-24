@@ -2,7 +2,7 @@
 title: VMware Workstation
 description: In the basic VMware system, the VMware Workstation runs on a Windows or Linux host machine, but not managed directly thorugh vCenter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_VMWareWinLinWithoutVCenter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c\_VMWareWinLinWithoutVCenter.html
 release: australia
 product: Discovery
 classification: discovery

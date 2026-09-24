@@ -2,7 +2,7 @@
 title: Sign up for your preferred shifts
 description: Specify one or more shifts in a schedule plan for which you would prefer to sign up.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/sign-up-preferred-shifts-wfo-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/sign-up-preferred-shifts-wfo-csm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -63,5 +63,5 @@ You can receive notifications when your manager makes a schedule plan available 
     All shifts you have added for sign up will be submitted.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/scheduling-configurable-wfo-cs.md)
 

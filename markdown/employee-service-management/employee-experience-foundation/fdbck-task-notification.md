@@ -2,7 +2,7 @@
 title: Feedback task notification
 description: Feedback task notification is sent to the feedback provider once the resolution is provided.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/fdbck-task-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/fdbck-task-notification.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

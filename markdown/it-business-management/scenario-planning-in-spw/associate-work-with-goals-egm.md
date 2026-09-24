@@ -2,7 +2,7 @@
 title: Align a planning item with goals or targets
 description: Create a goal or target relationship with a planning item or any other item to identify and associate your current or future work and achieve your goals and targets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -26,7 +26,7 @@ You can associate a goal or target with the planning items - Project, Demand, an
 
 From the Align work window, you can associate a goal or target with multiple planning items at a time. From the Planning items tab of the goal or target, you can associate a goal or target with only one planning item at a time.
 
-You can create goal or target relationships with a custom planning item from the Align work window only if the planning item table is added to the **planning\_item\_types\_allow\_list** property. For more information, see [Enable custom item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.md).
+You can create goal or target relationships with a custom planning item from the Align work window only if the planning item table is added to the **planning\_item\_types\_allow\_list** property. For more information, see [Enable custom item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.md).
 
 **Note:** When a goal or target relationship is created with a planning item \(Project, Demand, or Epic\), the record appears on the Planning items tab on the goal record. When a goal or target relationship is created with any other item, the record appears on the Other items tab on the respective goal or target record.
 
@@ -34,15 +34,15 @@ You can create goal or target relationships with a custom planning item from the
 
 1.  Open the Goal/Target Relationship form using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d153974e80">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d154090e80">
 
 Option
 
-</th><th align="left" id="d153974e83">
+</th><th align="left" id="d154090e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d153974e89">
+</th></tr></thead><tbody><tr><td id="d154090e89">
 
 **From the Align work window**
 
@@ -63,9 +63,9 @@ Alternatively, you can select **View aligned work** from the row context menu ic
 
 You can search for the required planning items by applying filter on the Name column.
 
-For a description of the field values, see [Goal/Target Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/goal-relationship-form-egm.md).
+For a description of the field values, see [Goal/Target Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/goal-relationship-form-egm.md).
 
-</td></tr><tr><td id="d153974e180">
+</td></tr><tr><td id="d154090e180">
 
 **From the Planning items or Other items tab**
 
@@ -85,7 +85,7 @@ The Goal side panel opens with the **Details** tab.
 
 For any item other than planning item, on the Goal/Target Relationship form, fill in the **Table** and **Document ID** fields.
 
-For a description of the field values, see [Goal/Target Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/goal-relationship-form-egm.md).
+For a description of the field values, see [Goal/Target Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/goal-relationship-form-egm.md).
 
 </td></tr></tbody>
 </table>2.  Select either **Done** or **Save**.

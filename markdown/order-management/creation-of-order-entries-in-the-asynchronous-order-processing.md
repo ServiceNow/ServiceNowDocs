@@ -2,7 +2,7 @@
 title: Create order entries manually during the asynchronous order processing
 description: Skip the scheduled job and create order entries manually in the Order Management application for asynchronous order requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/creation-of-order-entries-in-the-asynchronous-order-processing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/creation-of-order-entries-in-the-asynchronous-order-processing.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -139,14 +139,14 @@ Name of the target table, such as Customer Order.
 
 ## What to do next
 
-[Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-om-approve-product-order.md)
+[Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-om-approve-product-order.md)
 
-**Parent Topic:**[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/asynchronous-order-processing.md)
+**Parent Topic:**[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/asynchronous-order-processing.md)
 
 **Related topics**  
 
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 
-[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md)
 

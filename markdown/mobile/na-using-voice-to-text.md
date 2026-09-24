@@ -2,7 +2,7 @@
 title: Using Voice Input for mobile
 description: The Voice Input feature allows users to easily transcribe spoken words into written text. Voice-to-text can be accessed directly from the search bar or Otto chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/na-using-voice-to-text.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/na-using-voice-to-text.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"
@@ -19,5 +19,5 @@ The Voice Input feature allows users to easily transcribe spoken words into writ
 
 To begin, tap the microphone button \[Omitted image "na-voice-icon.png"\] Alt text: in your Otto chat search bar to start the transcription. To show that Otto is listening, the listening icon \[Omitted image "na-listen-icon.png"\] Alt text: will display while you're speaking. Once your message has been transcribed, it will appear as text in your search bar.
 
-**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-now-assist-mobile.md)
 

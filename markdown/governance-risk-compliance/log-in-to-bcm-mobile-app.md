@@ -2,7 +2,7 @@
 title: Log in to the BCM mobile application
 description: Open the BCM mobile app and add a ServiceNow AI Platform instance with BCM to your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/log-in-to-bcm-mobile-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/log-in-to-bcm-mobile-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Open the BCM mobile app and add a ServiceNow AI Platform® instance with BCM to 
 
 Role required: sn\_bcm.manager
 
-Verify that you have completed the setup steps described in [Set up the BCM mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-mobile-app-setup.md).
+Verify that you have completed the setup steps described in [Set up the BCM mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-mobile-app-setup.md).
 
 ## Procedure
 

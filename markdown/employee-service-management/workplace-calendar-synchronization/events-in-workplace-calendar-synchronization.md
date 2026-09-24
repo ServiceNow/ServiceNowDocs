@@ -2,7 +2,7 @@
 title: Events in Workplace Calendar Synchronization
 description: For every reservation-related action, an event is created in Workplace Calendar Synchronization
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/events-in-workplace-calendar-synchronization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/events-in-workplace-calendar-synchronization.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

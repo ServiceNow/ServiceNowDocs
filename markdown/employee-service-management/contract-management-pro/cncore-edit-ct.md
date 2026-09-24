@@ -2,7 +2,7 @@
 title: Edit contract templates by manually adding content controls
 description: Edit a contract template to reflect any modifications that must be included in the template to generate a standard contract when an employee submits a contract request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-edit-ct.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-edit-ct.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -66,7 +66,7 @@ Document
 
 </td><td>
 
-The document from which you want to import clauses and template field mapping. The selected document should be a Microsoft Word \(.docx\) document and should have valid content controllers. For more information, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md).
+The document from which you want to import clauses and template field mapping. The selected document should be a Microsoft Word \(.docx\) document and should have valid content controllers. For more information, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md).
 
 </td></tr><tr><td>
 
@@ -102,14 +102,14 @@ Option to make the template active and available for use.
     -   Any new added content controls will be listed under Imported clauses, Clause Mapping or Template Mappings.
 5.  Classify and map the newly added Imported clauses.
 
-    For more information, see [Classify and map imported clauses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-import-clauses.md).
+    For more information, see [Classify and map imported clauses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-import-clauses.md).
 
 6.  Select **Update** to save the modifications.
 
 7.  On finalizing the content of the contract document, select **Publish**.
 
 
-**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
+**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
 
 **Related topics**  
 

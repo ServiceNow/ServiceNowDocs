@@ -2,7 +2,7 @@
 title: Configure the employee profile
 description: Configure the employee profile page in EmployeeWorks Web App. Set the fields that appear and the fields that an employee can edit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-employee-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-employee-profile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -65,5 +65,5 @@ Employees view the configured **About** and **Team** sections, the selected fiel
 **Related topics**  
 
 
-[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
+[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 

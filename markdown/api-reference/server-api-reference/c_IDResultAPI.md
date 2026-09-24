@@ -2,7 +2,7 @@
 title: IDResult - Global
 description: The IDResult script include is a container class for the result of a CI Identifier.Creates an instance of the IDResult class.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_IDResultAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_IDResultAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The IDResult script include is a container class for the result of a CI Identifi
 
 Use with any server-side discovery script.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## IDResult - IDResult\(Boolean explore, String sysID\)
 

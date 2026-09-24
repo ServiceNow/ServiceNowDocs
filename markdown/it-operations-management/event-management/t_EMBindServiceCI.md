@@ -2,7 +2,7 @@
 title: Example: Binding alerts to non-host CIs
 description: Bind alerts to an application service \(a non-host CI\) using event rules and event field mapping. This example demonstrates how to achieve this by leveraging the IP address associated with the service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMBindServiceCI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMBindServiceCI.html
 release: australia
 product: Event Management
 classification: event-management

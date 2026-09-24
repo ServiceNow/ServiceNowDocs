@@ -2,7 +2,7 @@
 title: Translation of Service Catalog items
 description: You can translate Service Catalog items into multiple languages using the ServiceNow Localization Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/translate-catalog-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/translate-catalog-items.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -29,5 +29,5 @@ You can monitor the overall localization health of the Service Catalog items fro
 
 Watch this six-minute video to learn more about the process of localizing catalog items.
 
-**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
+**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 

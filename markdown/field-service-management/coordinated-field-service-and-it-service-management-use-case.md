@@ -2,7 +2,7 @@
 title: Field Service IT workflow example
 description: This example describes a coordinated Field Service and IT service management situation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/coordinated-field-service-and-it-service-management-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/coordinated-field-service-and-it-service-management-use-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ The following table provides the steps for the IT Field Service workflow.
 |5. Complete work order|Once the technician completes the work, they document their work effort, make any notes, and close the work order. The store manager then digitally signs and confirms the work order is complete. This submission automatically updates the incident.|
 |6. Track and provide audit trail|A PDF summary of all the completed tasks, parts used and returned, incidental expenses, and time taken to do the work is automatically created and attached to the work order. All data is tracked in one single platform for future trend analysis, reports, and audits.|
 
-**Parent Topic:**[Field Service Management workflow examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-use-cases.md)
+**Parent Topic:**[Field Service Management workflow examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-use-cases.md)
 

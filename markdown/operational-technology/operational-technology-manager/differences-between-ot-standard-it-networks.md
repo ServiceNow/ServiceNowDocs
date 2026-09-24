@@ -2,7 +2,7 @@
 title: Differences between OT and standard IT networks
 description: There are differences in how the Configuration Management Database \(CMDB\) handles the devices located in Operational Technology networks and those in standard Information Technology \(IT\) networks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/differences-between-ot-standard-it-networks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/differences-between-ot-standard-it-networks.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -31,5 +31,5 @@ The following graphic depicts these differences.
 
 **Note:** To learn more about Purdue levels, see [Industrial Control Systems](https://subscription.packtpub.com/book/networking_and_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems).
 
-**Parent Topic:**[Exploring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/exploring-operational-technology-manager.md)
+**Parent Topic:**[Exploring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/exploring-operational-technology-manager.md)
 

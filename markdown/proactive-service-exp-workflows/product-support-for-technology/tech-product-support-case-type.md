@@ -2,7 +2,7 @@
 title: Technology Product Support case type
 description: The Technology Product Support case type enables technology companies to provide support for digital products and services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -36,11 +36,11 @@ Tables
 
 </td><td>
 
-The Technology Product Support Case application includes the Tech Product Support Case \[sn\_tech\_product\_support\_case\] table. This table extends the Case table and can be extended.For a detailed description of the Tech Product Support Case table, including field descriptions, see [Tech Product Support Case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.md).
+The Technology Product Support Case application includes the Tech Product Support Case \[sn\_tech\_product\_support\_case\] table. This table extends the Case table and can be extended.For a detailed description of the Tech Product Support Case table, including field descriptions, see [Tech Product Support Case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.md).
 
 </td></tr><tr><td>
 
-[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Roles control access to features and capabilities in the Technology Product Supp
 
 </td></tr><tr><td>
 
-[Case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Technology product support cases follow a specific life cycle and move through a
 
 </td></tr><tr><td>
 
-[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -64,7 +64,7 @@ State flows are customized transitions from one state to another, such as when a
 
 </td></tr><tr><td>
 
-[List views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[List views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -72,7 +72,7 @@ The Technology Product Support Case application includes list views for CSM/FSM 
 
 </td></tr><tr><td>
 
-[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -80,7 +80,7 @@ Special handling notes bring important information to an agent's attention.
 
 </td></tr><tr><td>
 
-[Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -88,7 +88,7 @@ Service definitions enable customers to quickly discover and request the service
 
 </td></tr><tr><td>
 
-[Email notifications and email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Email notifications and email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -96,7 +96,7 @@ Email notifications are sent to the contact and, in some cases, to users on the 
 
 </td></tr><tr><td>
 
-[Provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -104,7 +104,7 @@ Provider notifications for agents are sent following updates to technology produ
 
 </td></tr><tr><td>
 
-[Service level agreement \(SLA\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Service level agreement \(SLA\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -112,7 +112,7 @@ An SLA definition includes the timing, conditions, workflows, and other informat
 
 </td></tr><tr><td>
 
-[Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -120,7 +120,7 @@ A record producer is a specific type of catalog item that allows end users to cr
 
 </td></tr><tr><td>
 
-[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -128,7 +128,7 @@ The case action status feature enables agents to easily identify cases that need
 
 </td></tr><tr><td>
 
-[Field indicators and highlights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Field indicators and highlights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -136,7 +136,7 @@ The Technology Product Support case type uses field indicators and field highlig
 
 </td></tr><tr><td>
 
-[Auto close cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
+[Auto close cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -817,7 +817,7 @@ To create a case from the Customer Service Portal using this record producer:
 1.  Select **Requests** &gt; **Request Something**.
 2.  Select the **Support** category.
 3.  Select the **Create a Technology Product Case** catalog item.
-4.  Fill in the fields on the record producer. For field definitions, see the [Create a Technology Product Case record producer fields table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md) below.
+4.  Fill in the fields on the record producer. For field definitions, see the [Create a Technology Product Case record producer fields table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md) below.
 5.  Select **Submit**.
 
 The **Create a Technology Product Case** record producer includes the following fields.

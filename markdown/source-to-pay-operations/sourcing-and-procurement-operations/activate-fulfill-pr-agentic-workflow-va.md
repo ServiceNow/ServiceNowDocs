@@ -2,7 +2,7 @@
 title: Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in Virtual Agent
 description: Enable AI agents in Virtual Agent to streamline procurement requests, providing quicker support and a more efficient experience for requesters through intelligent assistance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/activate-fulfill-pr-agentic-workflow-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-fulfill-pr-agentic-workflow-va.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -61,7 +61,7 @@ Role required: admin
 
 Verify that the selected AI agent has been enabled. For more information, see .
 
-**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
+**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 **Related topics**  
 

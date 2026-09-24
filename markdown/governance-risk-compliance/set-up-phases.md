@@ -2,7 +2,7 @@
 title: Set up the phases
 description: Set up phases in the Business Continuity Management application to map them to recovery and event tasks. Once phases are set up, BCM users tag recovery and event tasks with these phases and execute them in order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-phases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-phases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,11 +20,11 @@ Role required: sn\_bcm.admin
 
 ## About this task
 
-For information on setting up the phases, see [Set up the phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-phases.md).
+For information on setting up the phases, see [Set up the phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-phases.md).
 
-For information and steps on mapping recovery tasks to phases, see [Mapping recovery tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/mapping-recovery-tasks-to-phases.md) and [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-a-recovery-task.md).
+For information and steps on mapping recovery tasks to phases, see [Mapping recovery tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/mapping-recovery-tasks-to-phases.md) and [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-a-recovery-task.md).
 
-For information on mapping event tasks to phases, see [Mapping event tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/mapping-event-tasks-to-phases.md).
+For information on mapping event tasks to phases, see [Mapping event tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/mapping-event-tasks-to-phases.md).
 
 ## Procedure
 
@@ -48,7 +48,7 @@ For information on mapping event tasks to phases, see [Mapping event tasks to ph
 
 3.  On the form, fill in the fields.
 
-    For the description of the fields, see [Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/phase-form.md).
+    For the description of the fields, see [Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/phase-form.md).
 
     A sample configuration of the phase is shown where the name of the phase is phase10, its order is 80, and the phase is active.
 

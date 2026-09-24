@@ -2,7 +2,7 @@
 title: Configure Skills Management
 description: Manage skill data in a central location for customer service agents and work items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-skills-man-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-skills-man-csm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

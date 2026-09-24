@@ -2,7 +2,7 @@
 title: Create and publish a cost-based attribute adjustment
 description: Set different product costs based on product attributes, such as model or size, by applying cost adjustments for a product offering by cost book or specified cost book line. The base cost is the cost at the cost book line. Product cost is the base cost plus attribute adjustments. These adjustments are used to display the profit margins in quotes and quote lines, which can be criteria for triggering quote approval rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-cost-attribute-adjustment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-cost-attribute-adjustment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Reassign an assessment
 description: Reassign assessment to redirect them to different users, enabling for flexible task management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/reassign-an-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/reassign-an-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine

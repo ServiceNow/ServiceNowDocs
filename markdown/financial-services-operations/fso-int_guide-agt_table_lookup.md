@@ -2,7 +2,7 @@
 title: Lookup remote information in the system of record
 description: This use case illustrates how to use a REST API call to lookup financial transaction details for a customer’s mortgage account on a remote banking system \(system of record\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-agt\_table\_lookup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-agt\_table\_lookup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Using the consumer and financial account information, a script within the Servic
 
 The following is an example of what the financial transaction details received from the remote bank application might look like when they appear on the FSO case form:
 
-The following diagram shows the application flow for this use case scenario and provides brief remarks on any required processing. In this implementation, the data obtained from the remote bank application is store in remote tables. [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md) are only cached in memory, they are never stored in the ServiceNow database tables. You can also implement this scenario by writing the remote data to the corresponding ServiceNow database tables. The [s](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-agt_submit_case.md) scenario illustrates how to store data in the ServiceNow database tables using the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) API.
+The following diagram shows the application flow for this use case scenario and provides brief remarks on any required processing. In this implementation, the data obtained from the remote bank application is store in remote tables. [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md) are only cached in memory, they are never stored in the ServiceNow database tables. You can also implement this scenario by writing the remote data to the corresponding ServiceNow database tables. The [s](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-int_guide-agt_submit_case.md) scenario illustrates how to store data in the ServiceNow database tables using the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) API.
 
 <table id="table_rmq_ywq_bpb"><tbody><tr><td>
 

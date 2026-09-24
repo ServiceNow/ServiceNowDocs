@@ -2,7 +2,7 @@
 title: Activate the CSDM plugin
 description: Activate the CSDM plugin so you can begin implementing the CSDM data model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-enable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/csdm-enable.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -18,7 +18,7 @@ Activate the CSDM plugin so you can begin implementing the CSDM data model.
 
 ## Before you begin
 
-**Important:** Before you activate the CSDM plugin, you must map your existing life-cycle data to standard CSDM attributes. The mapping enables you to track assets effectively through their life cycle transitions with the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md). For instructions, see [Migrate to CSDM life cycle standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
+**Important:** Before you activate the CSDM plugin, you must map your existing life-cycle data to standard CSDM attributes. The mapping enables you to track assets effectively through their life cycle transitions with the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md). For instructions, see [Migrate to CSDM life cycle standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
 -   Role required: itil and itil\_admin
 
@@ -29,5 +29,5 @@ Activate the CSDM plugin so you can begin implementing the CSDM data model.
     For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/configure-csdm.md)
+**Parent Topic:**[Configuring CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/configure-csdm.md)
 

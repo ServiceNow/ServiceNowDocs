@@ -2,7 +2,7 @@
 title: Verifi Spoke
 description: Integrate your ServiceNow instance with the Verifi Spoke to streamline the card dispute resolution process by using the Verifi APIs. This integration facilitates early connections between issuers and merchants in the dispute lifecycle, which simplifies conflict resolutions at the pre-dispute stage and minimizes chargebacks.Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/verifi-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/verifi-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -79,5 +79,5 @@ The actions with sensitive information contain sensitive information in the requ
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up Verifi Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-verifi-spoke.md)
+For information about setting up the spoke, see [Set up Verifi Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-verifi-spoke.md)
 

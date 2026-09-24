@@ -2,7 +2,7 @@
 title: Open new cases in the same tab with ServiceNow Link Manager for Google Chrome
 description: Follow the steps below to install, activate, and use ServiceNow Link Manager in Google Chrome.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-snow-link-manager-chrome.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-snow-link-manager-chrome.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

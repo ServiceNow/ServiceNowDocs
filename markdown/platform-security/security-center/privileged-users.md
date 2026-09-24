@@ -2,7 +2,7 @@
 title: Privileged Users
 description: View the trend line for the privileged users \(active and inactive\) and their activity on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/privileged-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/privileged-users.html
 release: australia
 product: Security Center
 classification: security-center
@@ -38,7 +38,7 @@ Below is an explanation of the privileged users:
 
 Select the cards to view the individual metrics page with additional details.
 
-Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-task-manager.md).
 
-**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md)
 

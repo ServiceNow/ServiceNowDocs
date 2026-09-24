@@ -2,7 +2,7 @@
 title: Activate a predefined alert clustering definition
 description: Activate the predefined alert clustering definitions provided with the Tag-Based Alert Clustering Engine application before use. Utilizing these preconfigured definitions minimizes setup time and ensures a more efficient configuration process, allowing for quicker implementation and streamlined alert management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-clustering-predefined-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/alert-clustering-predefined-definition.html
 release: australia
 product: Event Management
 classification: event-management
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-**Note:** To group alerts using tag-based grouping, create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
+**Note:** To group alerts using tag-based grouping, create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/group-alert-sow-itom.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Role required: evt\_mgmt\_admin
 
 2.  Select a predefined definition.
 
-    **Note:** For a complete list of the available predefined definitions, see [List of predefined tag-based alert grouping definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-predefined-definition-list.md).
+    **Note:** For a complete list of the available predefined definitions, see [List of predefined tag-based alert grouping definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-clustering-predefined-definition-list.md).
 
 3.  On the Tag Based Alert Clustering Definition form, select the **Active** check box.
 

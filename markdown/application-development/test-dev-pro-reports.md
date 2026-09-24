@@ -2,7 +2,7 @@
 title: Reporting on data from pro-code apps
 description: Most applications that you create have some level of reporting requirements. Reports should be actionable to drive change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-pro-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-dev-pro-reports.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

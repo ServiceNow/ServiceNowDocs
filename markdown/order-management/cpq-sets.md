@@ -2,7 +2,7 @@
 title: Sets
 description: Learn how sets organize repeatable field groups, simplify complex configurations, and enable data aggregation across repeated elements in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-sets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-sets.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -119,5 +119,5 @@ if (set.networkDevices.totalRackUnits > 50) {
 **Related topics**  
 
 
-[Configure sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sets.md)
+[Configure sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sets.md)
 

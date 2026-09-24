@@ -2,7 +2,7 @@
 title: Create a custom integration profile
 description: Create a custom integration profile to track software subscriptions and optimize stale licenses for any SaaS application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-integration-custom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/saas-license-management/create-integration-custom.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -33,15 +33,15 @@ If you’re using Software Asset Workspace, the option to create the custom inte
 
 1.  Navigate to the custom integration profile.
 
-<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d264799e91">
+<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d264759e91">
 
 Interface
 
-</th><th align="left" id="d264799e94">
+</th><th align="left" id="d264759e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d264799e100">
+</th></tr></thead><tbody><tr><td id="d264759e100">
 
 **Core UI**
 
@@ -51,7 +51,7 @@ Action
 2.  Select **Custom Integration Profile**.
 
 
-</td></tr><tr><td id="d264799e136">
+</td></tr><tr><td id="d264759e136">
 
 **Software Asset Workspace**
 
@@ -160,7 +160,7 @@ Custom Integration. This value is automatically populated.
 
 ## What to do next
 
-[Create a data stream action to get users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-data-stream-action-slc.md) and view SaaS related analytics on [SaaS overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
+[Create a data stream action to get users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-data-stream-action-slc.md) and view SaaS related analytics on [SaaS overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RunReconciliation.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/run-recon-workspace.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_RunReconciliation.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/run-recon-workspace.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 

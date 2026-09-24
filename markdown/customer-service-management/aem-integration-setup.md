@@ -2,7 +2,7 @@
 title: Configuring integration settings for ServiceNow services and components in AEM
 description: You have to set up your ServiceNow services and components to integrate with your Adobe Experience Manager \(AEM\) instance.Define OSGi configuration settings for ServiceNow services used by ServiceNow components in Adobe Experience Manager \(AEM\).Configure log file settings for ServiceNow services in Adobe Experience Manager \(AEM\) to generate debug logs to help identify issues in the authentication process.Define a cross-origin resource sharing \(CORS\) rule on your ServiceNow instance to access endpoints of the Knowledge Management REST API, Case API, or CSM Attachment API from your Adobe Experience Manager \(AEM\) instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/aem-integration-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/aem-integration-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,13 +18,13 @@ You have to set up your ServiceNow services and components to integrate with you
 
 You can define the following types of configuration settings for ServiceNow services in AEM:
 
--   Authentication settings with a third-party OIDC provider \(see [Configure OIDC provider details in Adobe Experience Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-setup-servicenow-authentication.md)\).
--   Specific settings for ServiceNow services \(see [Define OSGi configuration settings for ServiceNow services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-integration-setup.md)\).
--   Log file settings for ServiceNow services \(see [Configure log file settings for ServiceNow services in Adobe Experience Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-integration-setup.md)\).
+-   Authentication settings with a third-party OIDC provider \(see [Configure OIDC provider details in Adobe Experience Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/aem-setup-servicenow-authentication.md)\).
+-   Specific settings for ServiceNow services \(see [Define OSGi configuration settings for ServiceNow services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/aem-integration-setup.md)\).
+-   Log file settings for ServiceNow services \(see [Configure log file settings for ServiceNow services in Adobe Experience Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/aem-integration-setup.md)\).
 
 ## Settings for using ServiceNow components in AEM
 
-To use the Knowledge API endpoint on your AEM instance, you have to define the cross-origin resource sharing \(CORS\) rule on your ServiceNow instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-integration-setup.md).
+To use the Knowledge API endpoint on your AEM instance, you have to define the cross-origin resource sharing \(CORS\) rule on your ServiceNow instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/aem-integration-setup.md).
 
 ## Define OSGi configuration settings for ServiceNow services
 

@@ -2,7 +2,7 @@
 title: Managing the Threat Lookup Reputation Calculator
 description: You can use the Threat Lookup Finding Calculator to calculate the observable findings based on the responses received from threat lookup vendor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/manage-threat-lookup-reputation-calculator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/manage-threat-lookup-reputation-calculator.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

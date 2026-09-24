@@ -2,7 +2,7 @@
 title: Prepare Circle of Trust certificates
 description: Create an update set in the trusted environment to export the trusted certificate to the production environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/create-updateset-nonprod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/create-updateset-nonprod.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: View cases in Draft state on the portal
 description: Customers can view a list of cases in the Draft state from the Customer and Consumer Service Portals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/playbook-for-portals-my-draft-cases-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/playbook-for-portals-my-draft-cases-list.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

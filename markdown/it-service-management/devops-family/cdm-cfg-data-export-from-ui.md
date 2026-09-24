@@ -2,7 +2,7 @@
 title: Export a snapshot
 description: Export a snapshot to generate config data for the pipeline to use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-cfg-data-export-from-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-cfg-data-export-from-ui.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -31,7 +31,7 @@ Role required: cdm\_exporter\_editor or cdm\_editor or cdm\_admin
 -   Exporters in the content pack have the **Source** value of **ServiceNow**. You can duplicate, but cannot delete or modify content pack exporters.
 -   You can execute only active published exporters.
 -   For export, snapshots cannot exceed 10,000 config data items \(CDIs\) per deployable or 100,000 CDIs per application.
--   Records of exporter executions are deleted after a period of three years. For instructions on changing the default time period, see [Set the purge period for records of exporter executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-export-record-purge.md).
+-   Records of exporter executions are deleted after a period of three years. For instructions on changing the default time period, see [Set the purge period for records of exporter executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-export-record-purge.md).
 
 ## Procedure
 

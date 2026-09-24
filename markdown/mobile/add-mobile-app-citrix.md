@@ -2,7 +2,7 @@
 title: Add the ServiceNow app to Citrix XenMobile
 description: Configure the ServiceNow for Cetrix XenMobile distribution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/add-mobile-app-citrix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/add-mobile-app-citrix.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,7 +53,7 @@ Role required: admin
 
     4.  Click **Next**.
 
-    If Android for Work cannot find the ServiceNow application, the app might not be approved for your organization. You can [approve the app in the Google Play store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/approve-app-google.md).
+    If Android for Work cannot find the ServiceNow application, the app might not be approved for your organization. You can [approve the app in the Google Play store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/approve-app-google.md).
 
     If the search results still do not display in Citrix, click **Didn't find the app you were looking for?** then enter the URL for the app: `https://play.google.com/work/apps/details?id=com.servicenow.servicenow`.
 
@@ -70,5 +70,5 @@ Role required: admin
 
 After successfully adding the ServiceNow app from the iOS store platforms, install the ServiceNow application from the Citrix Hub app from your devices. For Android, the ServiceNow app appears in the Google Play Store managed by your Android Work Profile.
 
-**Parent Topic:**[Citrix XenMobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/citrix-mdm.md)
+**Parent Topic:**[Citrix XenMobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/citrix-mdm.md)
 

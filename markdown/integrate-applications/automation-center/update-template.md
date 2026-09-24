@@ -2,7 +2,7 @@
 title: Update a template
 description: Update your template if you have changed the checklist and want those changes to reflect in your template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/update-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/update-template.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -42,7 +42,7 @@ After the automation request is moved to the following states, the option to upd
 
 6.  Make updates to the checklist.
 
-    You can add more tasks to the checklist or edit the existing tasks. To add more tasks, follow the same steps as creating a checklist in [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-checklist.md). To edit or delete a task, see [Edit a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/edit-task.md).
+    You can add more tasks to the checklist or edit the existing tasks. To add more tasks, follow the same steps as creating a checklist in [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-checklist.md). To edit or delete a task, see [Edit a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/edit-task.md).
 
 7.  Select **Update template** from the details button to ensure that your changes are reflected in your template.
 
@@ -53,5 +53,5 @@ After the automation request is moved to the following states, the option to upd
     The template is updated with your changes.
 
 
-**Parent Topic:**[Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/working-golive.md)
+**Parent Topic:**[Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/working-golive.md)
 

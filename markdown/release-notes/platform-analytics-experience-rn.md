@@ -2,7 +2,7 @@
 title: Platform Analytics experience release notes
 description: The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/platform-analytics-experience-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/platform-analytics-experience-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow
     After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
 
 
-**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
+**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/analytics-intel-report-rn-landing.md)
 
 ## Australia
 
@@ -48,7 +48,7 @@ The ServiceNow® Platform Analytics experience provides a single center for cons
 
 ### What's new
 
--   **[Use new UI Builder templates for Dashboards and Data visualization libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)**
+-   **Use new UI Builder templates for Dashboards and Data visualization libraries**
 
     Create Dashboard and Data Visualization library pages within your workspaces in UI Builder by using new page templates.
 

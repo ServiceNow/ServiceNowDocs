@@ -2,7 +2,7 @@
 title: Review AI governance posture and compliance status
 description: The Risk &amp; Compliance tab under Govern displays regulatory classification, risk posture, and governance readiness for AI assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-airc-using.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
@@ -59,7 +59,7 @@ Top 5 action items
 
 </td><td>
 
-Recommended action items along with other assigned and unassigned action items. Select **See all Recommendations in Activity Center** to view more details. Select the arrow to open Lifecycle tasks that require action. For more information, see [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-regulatory-status.md)
+Recommended action items along with other assigned and unassigned action items. Select **See all Recommendations in Activity Center** to view more details. Select the arrow to open Lifecycle tasks that require action. For more information, see [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-regulatory-status.md)
 
 </td><td>
 
@@ -81,7 +81,7 @@ Regulatory risk classification
 -   Regulatory risk classification of assets in the portfolio. Use the drop-down selector to filter the assets into AI System, AI Model, and Dataset.
 -   The assets are categorized based on their status. Select each status to drill down further.
 
-For more information, see [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-regulatory-status.md)
+For more information, see [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-regulatory-status.md)
 
 </td><td>
 
@@ -105,7 +105,7 @@ Compliance score
 -   Compliance scores for AI assets compared to adopted frameworks and policies.
 -   Compliance status for top regulatory frameworks. The progress indicator shows compliant and non-compliant controls and displays an alert badge for high priority issues. Toggle between Authority documents and Policies to view detailed information.
 
-For more information, see [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-regulatory-status.md)
+For more information, see [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-regulatory-status.md)
 
 </td><td>
 
@@ -144,7 +144,7 @@ AI system by aggregated risk score
 
 </td><td>
 
-AI system risk landscape, categorized by aggregated risk score. Use the drop-down selector to filter between Inherent and Residual risk. For more information, see [AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-risk-posture.md)
+AI system risk landscape, categorized by aggregated risk score. Use the drop-down selector to filter between Inherent and Residual risk. For more information, see [AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-risk-posture.md)
 
 </td><td>
 
@@ -163,7 +163,7 @@ Risk heat map
 
 </td><td>
 
-Assessed AI risks displayed in a color-coded matrix to help identify concentrations of higher-risk AI assets and compare current and intended risk posture. Use the drop-down selector to filter between Inherent and Residual risk. Select **Open heatmap workbench** to open the heatmap in the AI Risk and Compliance Workspace. For more information, see [AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-risk-posture.md).
+Assessed AI risks displayed in a color-coded matrix to help identify concentrations of higher-risk AI assets and compare current and intended risk posture. Use the drop-down selector to filter between Inherent and Residual risk. Select **Open heatmap workbench** to open the heatmap in the AI Risk and Compliance Workspace. For more information, see [AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-risk-posture.md).
 
 </td><td>
 

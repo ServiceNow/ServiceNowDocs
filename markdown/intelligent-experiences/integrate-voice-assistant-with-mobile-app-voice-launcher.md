@@ -2,7 +2,7 @@
 title: Integrate voice assistant with mobile app launcher
 description: Configure your voice assistant to be accessible through the voice launcher functions in mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.html
 release: australia
 topic_type: task
 last_updated: "2026-01-20"

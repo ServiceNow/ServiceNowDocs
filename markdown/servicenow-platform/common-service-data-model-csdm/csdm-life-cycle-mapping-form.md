@@ -2,7 +2,7 @@
 title: Life cycle mapping form
 description: Use the Life Cycle Mapping module to specify how existing legacy status values should be converted to CSDM life-cycle value pairs \(life cycle stage and life cycle stage status\). You map both asset and CI legacy status values to life-cycle value pairs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-mapping-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-mapping-form.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -135,12 +135,12 @@ Business Application records define a restricted set of Life Cycle Stage values 
 
 In contrast, in sys\_choice inheritance definitions in child tables override the values in parent tables.
 
-**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 
 **Related topics**  
 
 
-[Asset status values aligned to CSDM life cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-map-csdm-to-asset.md)
+[Asset status values aligned to CSDM life cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-map-csdm-to-asset.md)
 
 [Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ManagingAssets.md)
 

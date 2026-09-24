@@ -2,7 +2,7 @@
 title: Array.String data type
 description: Store a sequence of alphanumeric text values in an array.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/array-string-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/array-string-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -44,7 +44,7 @@ Store a sequence of alphanumeric text values in an array.
 
 \[Omitted image "array-strings-execution-details.png"\] Alt text: Execution details of a custom action that generates user names who have a specific role.
 
-This example uses a custom action to generate a list of users who have a specific user role. To create the custom action to generate an array of strings, see [Create a custom action to generate an array of strings from a list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-custom-action-array-strings.md).
+This example uses a custom action to generate a list of users who have a specific user role. To create the custom action to generate an array of strings, see [Create a custom action to generate an array of strings from a list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-custom-action-array-strings.md).
 
 In this example, the users array contains three users who have the admin role.
 
@@ -59,5 +59,5 @@ In this example, the users array contains three users who have the admin role.
 
 ```
 
-**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md)
 

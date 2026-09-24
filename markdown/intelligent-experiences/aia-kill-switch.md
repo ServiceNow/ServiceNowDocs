@@ -2,7 +2,7 @@
 title: Kill Switch in Now Assist AI Agents
 description: The kill switch feature detects and stops runaway AI agent triggers that execute repeatedly against the same records, preventing unnecessary consumption of Now Assist interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-kill-switch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-kill-switch.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"
@@ -31,7 +31,7 @@ The kill switch evaluates trigger activity against the following default thresho
 
 Five tunable system properties control these thresholds and the feature's operating mode:
 
--   **kill\_switch.mode**: Default value: **warn\_only**. For the different operating modes the property contains, see [Operating modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-kill-switch.md).
+-   **kill\_switch.mode**: Default value: **warn\_only**. For the different operating modes the property contains, see [Operating modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-kill-switch.md).
 -   **kill\_switch.max\_fires\_per\_window**: Fires per record that mark it as breaching. Default value: **5**.
 -   **kill\_switch.min\_distinct\_records**: Breaching records needed for the window to count as runaway. Default value: **25**.
 -   **kill\_switch.window\_size**: Length of one observation window. Default value: **1440 min / 24h**.

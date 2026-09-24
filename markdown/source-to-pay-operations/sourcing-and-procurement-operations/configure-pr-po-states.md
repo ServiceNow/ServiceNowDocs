@@ -2,7 +2,7 @@
 title: Configure PR and PO Progress Tracker states
 description: Configure which states appear in the Progress Tracker, and how they flow, by editing the PR Stage Display Config and PO Stage Display Config records—no code deployment required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -84,7 +84,7 @@ The stepper shows Pending Review → Pending Approval → Awaiting Task Completi
 
 The `ProcessStateMachine` script include reads this configuration. Its output reaches the stepper UI through the get\_pr\_stepper\_data data broker transform \(PR\) and the equivalent PO data broker. Both data brokers run under an execute ACL requiring the sn\_shop.shopper role for the viewing user. See the configure tracker visibility topic for system-wide visibility, and the PR state model and PO state model topics for the resulting state model.
 
-**Parent Topic:**[Configure the Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-progress-tracker.md)
+**Parent Topic:**[Configure the Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-progress-tracker.md)
 
 **Related topics**  
 

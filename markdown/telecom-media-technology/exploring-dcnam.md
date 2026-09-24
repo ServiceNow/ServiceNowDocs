@@ -2,7 +2,7 @@
 title: Data Center and Network Asset Management
 description: Data Center and Network Asset Management delivers end-to-end lifecycle management across all data center assets to increase visibility, reduce downtime, maximize usable life, and minimize risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/exploring-dcnam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/exploring-dcnam.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-23"
@@ -58,7 +58,7 @@ The solution combines purpose-built applications for the telecom, media, and tec
 ## Additional resources
 
 -   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-center-and-network-asset-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-center-and-network-asset-management-rn.md).
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Problem Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=data%20center%20and%20network%20asset%20management&spa=1)
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).
@@ -67,5 +67,5 @@ The solution combines purpose-built applications for the telecom, media, and tec
 **Related topics**  
 
 
-[Install Data Center and Network Asset Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/install-data-center-network-asset-management-applications.md)
+[Install Data Center and Network Asset Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/install-data-center-network-asset-management-applications.md)
 

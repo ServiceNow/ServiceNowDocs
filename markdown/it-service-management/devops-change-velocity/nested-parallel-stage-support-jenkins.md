@@ -2,7 +2,7 @@
 title: Nested and parallel stages in Jenkins pipelines
 description: Use nested and parallel stages in scripted Jenkins pipelines to speed up your pipeline execution. Change requests are created for nested and parallel stages and not just for the parent stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/nested-parallel-stage-support-jenkins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/nested-parallel-stage-support-jenkins.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity

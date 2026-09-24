@@ -2,7 +2,7 @@
 title: Install Automation Discovery
 description: You can install the Automation Discovery application \(sn\_auto\_discovery\) using the admin role. The application activates related plugins if they are not already activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-automation-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/install-automation-discovery.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: admin
 
 The following items are installed with Automation Discovery: plugins, roles, and tables.
 
-For more information, see [Components installed with Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/installed-with-automation-discovery.md).
+For more information, see [Components installed with Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/installed-with-automation-discovery.md).
 
 ## Procedure
 

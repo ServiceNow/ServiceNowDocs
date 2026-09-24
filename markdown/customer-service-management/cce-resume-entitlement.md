@@ -2,7 +2,7 @@
 title: Resume an entitlement
 description: Resume an entitlement by creating an order on the CRM Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-resume-entitlement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cce-resume-entitlement.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: \(Legacy\) Publish a report
 description: Publish a report to create a URL that anyone can use to access the report, including people who are not users. When anyone navigates to the URL, the report is generated with current data from the instance. Reports are available until they are unpublished.Published reports are available at the published URL until you unpublish them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_PublishAReport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_PublishAReport.html
 release: australia
 product: Reporting
 classification: reporting
@@ -51,14 +51,14 @@ Users with the admin or report\_admin role can see if a report has been publishe
     **Note:** Business rules may affect how records are collected for public reports.
 
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)
 
 **Related topics**  
 
 
-[Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ShareASetting.md)
+[Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_ShareASetting.md)
 
-[Report options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md)
+[Report options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md)
 
 [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md)
 

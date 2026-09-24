@@ -2,7 +2,7 @@
 title: Custom and Custom with label
 description: The custom variable inserts a UI macro into the catalog item. Custom with label variable inserts a UI macro with a label.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/custom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/custom.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -37,7 +37,7 @@ This variable inserts a UI macro with a label.
 
 \[Omitted image "MacroWithLabel.png"\] Alt text: A Custom with label variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -52,7 +52,7 @@ This variable inserts a UI macro with a label.
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

@@ -2,7 +2,7 @@
 title: Components installed with Personal Lines Servicing
 description: Several types of components are installed with the installation of the Financial Services Insurance Policy Operations Personal Lines Servicing store applications, including tables and user roles. The applications also install related plugins and store applications if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/installed-with-ins-policy-ops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/installed-with-ins-policy-ops.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -39,9 +39,9 @@ Enables the extension of tables from the Customer Service Management application
 
 |Store application|Description|
 |-----------------|-----------|
-|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md).|
-|Personal Lines Underwriting|Enables management of personal underwriting services tasks that are used in insurance policy service cases. For more information, see [Components installed with Personal Lines Underwriting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/installed-with-fso-underwriting-ops.md).|
-|Document Processor|Enables the management of document services tasks that are used in insurance operations workflows. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integrating-with-document-processor.md).|
+|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-core-data-model.md).|
+|Personal Lines Underwriting|Enables management of personal underwriting services tasks that are used in insurance policy service cases. For more information, see [Components installed with Personal Lines Underwriting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/installed-with-fso-underwriting-ops.md).|
+|Document Processor|Enables the management of document services tasks that are used in insurance operations workflows. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/integrating-with-document-processor.md).|
 |Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).|
 
 ## Roles installed
@@ -85,7 +85,7 @@ Personal insurance contributor\[sn\_ins\_policy\_b2c.contributor\]
 
 </td><td>
 
-Create and track policy service cases for accounts managed by them.**Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+Create and track policy service cases for accounts managed by them.**Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -252,5 +252,5 @@ Policy Participant Info\[sn\_ins\_policy\_b2c\_policy\_participant\_info\]
 This is an Info table which stores the changes to policy coverages which can take place as part of servicing a case against a policy.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Personal Lines Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ins-policy-ops-reference.md)
+</table>**Parent Topic:**[Personal Lines Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/ins-policy-ops-reference.md)
 

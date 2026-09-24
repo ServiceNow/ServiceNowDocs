@@ -2,7 +2,7 @@
 title: Purchase an L2 punchout item on behalf of another user
 description: Select a business owner when you request to buy or add a Level 2 \(L2\) punchout item to your cart. This validates eligibility and attributes the resulting order to the correct user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l2-punchout-on-behalf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l2-punchout-on-behalf.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -18,7 +18,7 @@ Select a business owner when you request to buy or add a Level 2 \(L2\) punchout
 
 ## Before you begin
 
-Verify that the administrator has configured the "Buy on Behalf of" shopping control so that you have at least one eligible business owner to select. For more information, see [Purchase punchout items on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.md).
+Verify that the administrator has configured the "Buy on Behalf of" shopping control so that you have at least one eligible business owner to select. For more information, see [Purchase punchout items on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.md).
 
 Role required: sn\_shop.shopper
 
@@ -52,12 +52,12 @@ Plugin required: Shopping Hub \(sn\_spend\_uib\)
 
 5.  Complete the checkout in Shopping Hub.
 
-    Checkout creates a purchase requisition, and upon approval, a purchase order that's synced with the punchout system. For more information, see [How L2 punchout works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/level-two-punchout.md).
+    Checkout creates a purchase requisition, and upon approval, a purchase order that's synced with the punchout system. For more information, see [How L2 punchout works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/level-two-punchout.md).
 
 
 ## Result
 
 The order created from this purchase is attributed to the selected business owner. If you didn't select a business owner, the order is attributed to you.
 
-**Parent Topic:**[Purchase punchout items on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.md)
+**Parent Topic:**[Purchase punchout items on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.md)
 

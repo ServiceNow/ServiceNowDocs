@@ -2,7 +2,7 @@
 title: Install MCP for Strategic Portfolio Management
 description: You can install the MCP for Strategic Portfolio Management application \(com.sn.spm.mcp\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/install-mcp-for-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/install-mcp-for-spm.html
 release: australia
 topic_type: task
 last_updated: "2026-06-08"

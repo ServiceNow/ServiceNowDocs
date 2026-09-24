@@ -2,10 +2,10 @@
 title: Add costs for other vendors
 description: Configure costs for LLM vendors without direct integrations with the AI Control Tower. You can do this by manually entering token usage or a direct cost. This will ensure they are included in your total AI cost calculations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mc-add-and-configure-costs-for-non-integrated-vendors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mc-add-and-configure-costs-for-non-integrated-vendors.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
@@ -39,7 +39,7 @@ This step is optional. If every vendor you use is integrated, select **Next** an
 
 4.  Make sure you have configured the average rate.
 
-    For more information, see [Configure average hourly rate for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.md).
+    For more information, see [Configure average hourly rate for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.md).
 
 5.  In the **Add other vendor costs** section, select **Add vendors** and choose an approach.
 

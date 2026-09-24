@@ -2,7 +2,7 @@
 title: Publish a catalog workflow
 description: Publish the catalog workflow to make it available for use in the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_PublishAServiceCatalogWorkflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_PublishAServiceCatalogWorkflow.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -33,5 +33,5 @@ After adding activities to your workflow, publish it to make it available for us
     \[Omitted image "ServiceCatalogWorkflowFormFullExample.png"\] Alt text: Screenshot for workflow
 
 
-**Parent Topic:**[Service catalog workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogWorkflowDefinition.md)
+**Parent Topic:**[Service catalog workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ServiceCatalogWorkflowDefinition.md)
 

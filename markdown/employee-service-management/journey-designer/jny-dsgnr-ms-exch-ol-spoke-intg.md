@@ -2,7 +2,7 @@
 title: Integrating Microsoft Exchange Online spoke with Journey designer
 description: The Microsoft Exchange Online spoke integration with Journey designer is achieved with Journey Accelerator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-ms-exch-ol-spoke-intg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-dsgnr-ms-exch-ol-spoke-intg.html
 release: australia
 product: Journey Designer
 classification: journey-designer

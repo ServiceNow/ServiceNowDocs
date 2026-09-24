@@ -2,7 +2,7 @@
 title: Cloud Provisioning and Governance dashboards and reports
 description: Dashboards enable cloud admins and cloud users to view reports like cloud billing data and cloud tag usage.The Billing dashboard provides rich summary information on cloud usage, cost trends, and cost aggregates.The Tag dashboard shows all tagged resources. Use the Tag dashboard to see specific tag values for a group of resources such as stacks or virtual machines.Administrators can assign a budget for a group and a user within the group. When the user or group reaches the budget limit threshold, notifications are sent alerting them about it.You can configure budgets for groups and users within that group. You can set up a budget period for the group, allocate a budget limit to a group and to each user within that group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/cloud-dashboards.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -121,7 +121,7 @@ Administrators can assign a budget for a group and a user within the group. When
 -   The budget-based notification and approval feature is no longer available if you are using the Cloud Cost Management app for cloud billing.
 -   You can only continue using the Budget Consumption feature in two scenarios. The first is if you are using Cloud Provisioning and Governance on a domain separated instance. The second is if you have switched back to the native Cloud Provisioning and Governance billing feature.
 
-Administrators can assign a budget \(in USD\) on a weekly, monthly, quarterly, or yearly basis. The budget set for a user and for a group are independent of each other. For example, a group consisting of five users can have a budget of $100 and each user in that group can be assigned a limit of 25 dollars. An organization decides on the frequency of the budget and all the groups in that organization follow the same frequency. For example, if an organization decides on a monthly budget, then all the groups and users in that organization follow a monthly budget. See [Configure budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-dashboards.md).
+Administrators can assign a budget \(in USD\) on a weekly, monthly, quarterly, or yearly basis. The budget set for a user and for a group are independent of each other. For example, a group consisting of five users can have a budget of $100 and each user in that group can be assigned a limit of 25 dollars. An organization decides on the frequency of the budget and all the groups in that organization follow the same frequency. For example, if an organization decides on a monthly budget, then all the groups and users in that organization follow a monthly budget. See [Configure budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-dashboards.md).
 
 A default budget is given to each new group and new user. A new group gets a default budget of $1000 and a new user gets a default budget of 100 dollars.
 

@@ -2,7 +2,7 @@
 title: Create the Asset Refresh topic in Assistant Designer Asset library
 description: Create the topic in Assistant Designer Asset library using topic blocks that come with the ITSM Virtual Agent Conversations plugin. When the user receives a notification that it's time to upgrade, they will be directed to this topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,7 +25,7 @@ Install the following applications:
 
     You must have a subscription for Virtual Agent before you can activate the Glide Virtual Agent plugin.
 
--   [Enable Natural Language Understanding \(NLU\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md), if not already enabled \(recommended\).
+-   [Enable Natural Language Understanding \(NLU\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-nlu-settings.md), if not already enabled \(recommended\).
 -   [ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/setup-itsm-virtual-agent.md) \(available in the ServiceNow® Store\)
 
     If this application is already installed, check the ServiceNow Store for an updated version before you begin.
@@ -46,10 +46,10 @@ Role required: virtual\_agent\_admin or admin
 
 For more information about building topics and the Assistant Designer Asset library interface, see the following topics:
 
--   [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
--   [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
--   [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md)
--   [Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
+-   [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+-   [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+-   [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-controls.md)
+-   [Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-reference.md)
 
 **Tip:** Look through existing conversations to ensure you are not duplicating effort, and familiarize yourself with Virtual Agent and the flow of topics. Additionally, it may be helpful to outline the flow of a conversation before building it in Assistant Designer Asset library.
 
@@ -71,11 +71,11 @@ For more information about building topics and the Assistant Designer Asset libr
 
         \[Omitted image "example-create-intent-vad.png"\] Alt text: In the Associated Intent field, select an existing intent or create a new one for your topic.
 
-        For descriptions of all field values, see [Create a topic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-creation-form.md).
+        For descriptions of all field values, see [Create a topic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-creation-form.md).
 
     4.  Select **Create**.
 
-    The **Flow** tab appears with Start and End nodes. For an overview of this screen and its components, see [Topic Flow tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-flow-tab.md).
+    The **Flow** tab appears with Start and End nodes. For an overview of this screen and its components, see [Topic Flow tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-flow-tab.md).
 
 5.  Create your initial message to greet the user.
 
@@ -194,10 +194,10 @@ For more information about building topics and the Assistant Designer Asset libr
 
 ## What to do next
 
-[Create the Open Incident workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.md)
+[Create the Open Incident workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.md)
 
 **Related topics**  
 
 
-[Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md)
+[Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/topic-blocks-overview.md)
 

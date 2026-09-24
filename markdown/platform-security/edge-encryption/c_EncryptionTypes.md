@@ -2,7 +2,7 @@
 title: Encryption configurations and patterns
 description: With Edge Encryption, you can encrypt fields and tokenize strings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/c\_EncryptionTypes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/edge-encryption/c\_EncryptionTypes.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -50,14 +50,14 @@ You can encrypt individual fields using encryption configurations. Edge Encrypti
 
 You can secure sensitive data found in strings using encryption patterns. Once an encryption pattern is stored and activated, the Edge Encryption proxy server identifies strings that match the pattern in requests. Once located, the clear text string is stored in the proxy database and replaced on the instance with a token. Use encryption patterns to tokenize strings that match regular patterns such as social security and credit card numbers. While we recommend that encryption configurations be the primary method of encryption, use encryption patterns as a supplement to locate and secure sensitive information found outside of encrypted fields.
 
-**Note:** The Edge Encryption proxy server requires a MySQL database in your network only if using order preserving encryption or encryption patterns. Clear text values are stored in the proxy database in your network. For this reason, it is critical that you secure and regularly back up your proxy database. For recommendations, see [Edge Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionProxy.md).
+**Note:** The Edge Encryption proxy server requires a MySQL database in your network only if using order preserving encryption or encryption patterns. Clear text values are stored in the proxy database in your network. For this reason, it is critical that you secure and regularly back up your proxy database. For recommendations, see [Edge Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_EdgeEncryptionProxy.md).
 
-**Parent Topic:**[Exploring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)
+**Parent Topic:**[Exploring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)
 
 **Related topics**  
 
 
-[Encrypt fields using encryption configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_ConfigureCloudEdge.md)
+[Encrypt fields using encryption configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_ConfigureCloudEdge.md)
 
-[Tokenize strings using encryption patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_ConfigureBasicEncryptionPatterns.md)
+[Tokenize strings using encryption patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/t_ConfigureBasicEncryptionPatterns.md)
 

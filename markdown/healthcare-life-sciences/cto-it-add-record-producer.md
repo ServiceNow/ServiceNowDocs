@@ -2,7 +2,7 @@
 title: Add custom record producers to the service catalog in Care Team Operations for Healthcare IT
 description: Add custom record producers you have configured into service catalogs in Care Team Operations for Healthcare IT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-it-add-record-producer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-it-add-record-producer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,12 +2,12 @@
 title: Email parser agent for APO
 description: The Email parser AI agent processes incoming emails from suppliers and invoice owners. This agent identifies and classifies actionable requests, and routes them to the appropriate workflows to create invoice cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/email-parser-agent-for-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/email-parser-agent-for-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, AI agent, Email Parser, Structured data extraction, Supplier, payment acceleration request]
 breadcrumb: [Use AI agents in ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]

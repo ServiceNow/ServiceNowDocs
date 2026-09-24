@@ -2,7 +2,7 @@
 title: Telecom Discovery Builder framework
 description: The Telecom Discovery Builder framework ETL \(Extract, Transform, Load\) is a reusable and schema-aligned component delivered with the Telecommunications Service Operations Management \(TSOM\) Core application. It provides a consistent and extensible method for ingesting telecom inventory data into the ServiceNow configuration management database \(CMDB\) across multiple Service Graph Connectors \(SGCs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/exploring-the-telco-generic-schema-etl-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/exploring-the-telco-generic-schema-etl-framework.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -154,7 +154,7 @@ Benefits of the Telecom Discovery Builder framework ETL include:
 **Related topics**  
 
 
-[Configure the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-the-telco-generic-schema-etl.md)
+[Configure the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configuring-the-telco-generic-schema-etl.md)
 
-[Extend TNI entity support for duplicated ETLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tni-entiry-support-for-duplicated-etls.md)
+[Extend TNI entity support for duplicated ETLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configuring-tni-entiry-support-for-duplicated-etls.md)
 

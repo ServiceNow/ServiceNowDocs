@@ -2,7 +2,7 @@
 title: Go back activity
 description: The Go back activity defines a conditional return point in a playbook, enabling the playbook to loop back to an earlier activity, stage, or the start of the playbook based on an outcome.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/go-back-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/go-back-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -42,8 +42,8 @@ Workflow Studio enforces the following rules when you add a Go back activity. Th
 |Target required|The Go back activity must have a configured target. The target must appear before the Go back activity and the target can’t be another Go back activity.|
 |Must be the last activity|A decision branch can contain only one Go back activity and the activity must be the last activity.|
 
--   **[Add a Go back activity to a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-go-back-activity.md)**  
+-   **[Add a Go back activity to a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-go-back-activity.md)**  
 Add a Go back activity to a decision branch in your playbook and configure where the playbook returns to when the activity runs.
 
-**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

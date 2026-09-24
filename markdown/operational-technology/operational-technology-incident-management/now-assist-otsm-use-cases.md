@@ -2,7 +2,7 @@
 title: Agentic AI for Operational Technology Service Management
 description: Use the Operational Technology Service Management \(OTSM\) AI agent collection to complete tasks autonomously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/now-assist-otsm-use-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/now-assist-otsm-use-cases.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -54,10 +54,10 @@ There might be AI agents installed on your instance that are not used in agentic
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
--   **[Activate an agentic workflow for ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/activate-agentic-workflow-now-assist-for-otsm.md)**  
+-   **[Activate an agentic workflow for ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/activate-agentic-workflow-now-assist-for-otsm.md)**  
 Activate the agentic workflows for ServiceNow Otto for Operational Technology \(OT\) Service Management from the AI Agent Studio so that the AI agents can execute requests autonomously. The ServiceNow Otto for OT Service Management agents included with the application are activated by default.
--   **[Generate OT KB articles agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/agent-ot-knowledge-generator.md)**  
+-   **[Generate OT KB articles agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/agent-ot-knowledge-generator.md)**  
 The Generate OT KB articles agentic workflow automatically generates a KB article when an Operational Technology \(OT\) incident is resolved, capturing resolution information for future reference.
 
-**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

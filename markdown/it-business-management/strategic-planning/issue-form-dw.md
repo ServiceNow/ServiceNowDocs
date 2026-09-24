@@ -2,7 +2,7 @@
 title: Issue form
 description: The issue form enables you to create an issue for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/issue-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/issue-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

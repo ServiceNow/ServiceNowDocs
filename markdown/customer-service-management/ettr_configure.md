@@ -2,7 +2,7 @@
 title: Configure the default estimated resolution time
 description: The Estimated Time to Resolve a Case regression definition is available by default. You can modify the default values of case fields, the case timeline, and the training frequency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ettr\_configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ettr\_configure.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
@@ -34,7 +34,7 @@ The Estimated Time to Resolve a Case definition is available by default. You can
 
     In the Regression Definition screen, the **Table** field is autopopulated with the Case Report \[sn\_customerservice\_case\_report\] table. The **Output Field** field is autopopulated with the time taken to resolve a case in seconds.
 
-    **Note:** If you have upgraded, you have to run a fix script in order to show the **Time to Resolve Numeric Value** column to display values for older cases. For more information, see [Configure settings for estimated time to resolve values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ettr-upgrade.md).
+    **Note:** If you have upgraded, you have to run a fix script in order to show the **Time to Resolve Numeric Value** column to display values for older cases. For more information, see [Configure settings for estimated time to resolve values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ettr-upgrade.md).
 
 3.  To edit, add, or delete case attributes, modify the default values in the **Fields** field.
 

@@ -2,10 +2,10 @@
 title: Edit Operational Sustainability Management dashboard elements
 description: You can edit the contents of a dashboard or dashboard tab, including data visualizations and filters. Because dashboards are shared, any changes you make are applied globally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/edit-esg-dashboard-elements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/edit-esg-dashboard-elements.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -157,5 +157,5 @@ Move to the element, then select the information icon \[Omitted image "details-i
 </table>    **Note:** If you’re unable to edit the dashboard, you don’t have permissions to edit the dashboard.
 
 
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

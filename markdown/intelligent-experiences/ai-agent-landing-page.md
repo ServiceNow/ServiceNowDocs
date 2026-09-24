@@ -2,7 +2,7 @@
 title: ServiceNow AI agents library
 description: All ServiceNow AI agents are listed. Depending on your license, not all AI agents may appear in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-agent-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-29"
@@ -16,13 +16,13 @@ All ServiceNow® AI agents are listed. Depending on your license, not all AI age
 
 ## Prerequisites and setup
 
-To access an AI agent, you must have either the appropriate ServiceNow Otto plugins installed or have access to the appropriate pricing tier. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+To access an AI agent, you must have either the appropriate ServiceNow Otto plugins installed or have access to the appropriate pricing tier. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-native-sku-overview.md).
 
 ## AI agent role masking
 
 Each AI agent comes with specific user and data access roles by default. These roles vary with the purpose of each AI agent. You can modify these settings as needed on your instance. If an agent is not performing as expected, it may be due to a roles issue. Either it does not have the appropriate user access, or it does not have the appropriate data access.
 
-AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
+AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-role-masking.md) to determine which users can access them. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aia.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to evaluate for readiness. For example, you can add the itil role to the AI agent's list of approved roles so that it can access Incident records.
 

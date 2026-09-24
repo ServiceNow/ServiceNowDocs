@@ -2,7 +2,7 @@
 title: Migrating a blueprint from test to production
 description: You can migrate a blueprint from a test environment to a production environment using the Matrix Loader or REST API automation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/how\_can\_i\_accomplish\_test-to-production\_migration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/how\_can\_i\_accomplish\_test-to-production\_migration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,5 +22,5 @@ CPQ administrators have two ways to migrate a blueprint from test to production:
 **Related topics**  
 
 
-[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-env-to-env-bp-migration-intro.md)
+[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-env-to-env-bp-migration-intro.md)
 

@@ -2,7 +2,7 @@
 title: Place an alert in the Maintenance state
 description: Placing an alert into the Maintenance state indicates that there are issues with the alert's CIs that are being addressed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-maintenance-state.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/alert-maintenance-state.html
 release: australia
 product: Event Management
 classification: event-management

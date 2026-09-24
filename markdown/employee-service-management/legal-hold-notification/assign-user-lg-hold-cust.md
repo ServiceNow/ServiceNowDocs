@@ -2,7 +2,7 @@
 title: Assign the legal user role to a custodian
 description: Assign the legal user role to a custodian who is responsible for preserving data related to a legal hold.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/assign-user-lg-hold-cust.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-hold-notification/assign-user-lg-hold-cust.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -41,5 +41,5 @@ Role required: admin
 
 The user is assigned as the legal user role and can be added as a custodian when issuing a legal hold notice.
 
-**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
+**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
 

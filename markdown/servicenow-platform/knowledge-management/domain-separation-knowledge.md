@@ -2,7 +2,7 @@
 title: Domain separation and Knowledge Management
 description: Domain separation is supported in Knowledge Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/domain-separation-knowledge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/domain-separation-knowledge.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -53,7 +53,7 @@ Fulfiller: The application can be used by the Fulfiller within the tenant domain
 -   Domains of versioned articles will be maintained as per the latest article version's domain. This includes updating the domain for kb\_version, kb\_knowledge, kb\_feedback, and sys\_attachment tables.
 -   If domains contain another domain: If Domain A contains Domain B, users with access to Domain A can author articles in Domain B by toggling the domain scope. To learn more about toggling domain scope, see [Visibility domains and Contains domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainVisibility.md).
 
-See [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md) to learn how to control contribute and read access to knowledge bases and knowledge articles.
+See [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/user-access-knowledge.md) to learn how to control contribute and read access to knowledge bases and knowledge articles.
 
 ## Requester use cases
 

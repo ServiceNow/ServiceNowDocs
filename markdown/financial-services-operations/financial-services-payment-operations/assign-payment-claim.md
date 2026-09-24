@@ -2,7 +2,7 @@
 title: Assign a payment claim
 description: Assign a case for a payment claim to yourself or to another claim agent so that you or another agent can start working on the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/assign-payment-claim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-payment-operations/assign-payment-claim.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -43,5 +43,5 @@ When a case for a claim is created, the case is automatically assigned to an ass
 
 The case is assigned to the claim agent. If the agent also belongs to an agent assignment group, the group's name appears in the **Assignment group** field.
 
-**Parent Topic:**[Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
+**Parent Topic:**[Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
 

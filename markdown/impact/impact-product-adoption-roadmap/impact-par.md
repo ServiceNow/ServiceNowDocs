@@ -2,7 +2,7 @@
 title: Build implementation plans
 description: Product adoption roadmaps enable you to view a recommended implementation sequence for your capabilities. The implementation sequence is organized into specific phases for an optimal implementation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/impact-par.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-product-adoption-roadmap/impact-par.html
 release: australia
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap

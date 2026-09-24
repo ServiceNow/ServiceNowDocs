@@ -2,7 +2,7 @@
 title: Monitor alerts for an application services
 description: To view information for application services only, navigate to the application services list. From this list, you can open service maps to view and manage alerts for the CIs in each service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMMonitorManualService.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMMonitorManualService.html
 release: australia
 product: Event Management
 classification: event-management
@@ -98,5 +98,5 @@ In the service map:1.  Click a CI tile.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewDashboard.md)
+**Parent Topic:**[Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewDashboard.md)
 

@@ -2,7 +2,7 @@
 title: Next Experience UI
 description: The Next Experience UI delivers a next generation, intuitive, personalized experience to drive productivity, improve engagement, and surface insights across the ServiceNow AI Platform. The UI unifies your instance apps and reduces clicks to access the items you need to get working.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,19 +18,19 @@ The Next Experience UI delivers a next generation, intuitive, personalized exper
 
 <table id="table_b5z_nd3_2bc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about Next Experience concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about Next Experience concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Configure environments, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Configure environments, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 
 </td><td>
 
-[Migrate \[Omitted image "bus-it-leader.svg"\] Alt text: Administer navigation card Migrate to Next Experience UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md)
+[Migrate \[Omitted image "bus-it-leader.svg"\] Alt text: Administer navigation card Migrate to Next Experience UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-adoption-paths.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Next Experience features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-use.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Next Experience features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-use.md)
 
 </td><td>
 
@@ -58,7 +58,7 @@ New features and benefits when working in the Next Experience:
 
     -   Navigate to and save important resources with the Favorites, History, and Workspaces menus. Find your recently-viewed items in a single menu.
     -   Easily switch between classic environment applications and configurable workspaces.
-    -   Create custom menus for your end users. For more information, see [Configure custom menus for Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-custom-menu.md).
+    -   Create custom menus for your end users. For more information, see [Configure custom menus for Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-custom-menu.md).
 -   **Next Experience landing pages**
     -   Start your day with everything you need right when you log in.
     -   View content specific to your role and tasks all in one location.

@@ -2,14 +2,14 @@
 title: Statistics for external content connector user permission crawls
 description: Each crawl history entry for an external content connector's user permission crawl crawl includes statistics about the permissions \(user and group-membership security principals\) retrieved by the crawl.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/permission-statistics-external-content-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/permission-statistics-external-content-connectors.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -35,5 +35,5 @@ Each crawl history entry for an external content connector's user permission cra
 |----------------------------|-----------|
 |Average crawl speed|Score shows the average speed of the user permission crawl, expressed in users processed per second of crawl time.|
 
-**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/reference-ext-cont-connectors.md)
+**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/reference-ext-cont-connectors.md)
 

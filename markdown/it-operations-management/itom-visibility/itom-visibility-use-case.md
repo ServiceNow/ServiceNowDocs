@@ -2,7 +2,7 @@
 title: ITOM Visibility and CMDB tables
 description: ITOM Visibility manages and uses CMDB tables. Several ServiceNow products benefit from and add value to ITOM Visibility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/itom-visibility-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/itom-visibility-use-case.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -59,5 +59,5 @@ ITOM Visibility manages and uses CMDB tables. Several ServiceNow products benefi
 
 For details on implementing CMDB data to conform with the CSDM framework, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-implementation-stages.md).
 
-**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
+**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
 

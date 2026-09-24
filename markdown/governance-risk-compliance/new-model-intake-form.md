@@ -2,7 +2,7 @@
 title: New Model Intake form
 description: Use the New Model Intake form to request a new model by providing details such as the purpose, owner, model complexity, and expected outputs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/new-model-intake-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/new-model-intake-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -119,5 +119,5 @@ Estimated level of model complexity. The options are as follows:-   Simple
 </td></tr></tbody>
 </table>**Note:** The fields shown in the intake form are sample basic fields. You can configure additional fields and update choice values as needed to meet your specific requirements.
 
-**Parent Topic:**[Request a new model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-new-model.md)
+**Parent Topic:**[Request a new model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/request-new-model.md)
 

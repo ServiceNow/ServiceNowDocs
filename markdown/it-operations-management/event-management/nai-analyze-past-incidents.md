@@ -2,7 +2,7 @@
 title: Generate a ServiceNow Otto summary of past related incidents
 description: View an AI summary of past incidents related to the current alert, including strategies used to resolve them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/nai-analyze-past-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/nai-analyze-past-incidents.html
 release: australia
 product: Event Management
 classification: event-management
@@ -18,8 +18,8 @@ View an AI summary of past incidents related to the current alert, including str
 
 ## Before you begin
 
--   Install ServiceNow Otto for ITOM. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
--   Ensure that the Alert investigation skill is active. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+-   Install ServiceNow Otto for ITOM. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
+-   Ensure that the Alert investigation skill is active. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
 
 For comprehensive information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 

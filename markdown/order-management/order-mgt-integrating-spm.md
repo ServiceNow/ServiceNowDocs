@@ -2,7 +2,7 @@
 title: Order Management integration with Strategic Portfolio Management
 description: The Order Management application provides an integration with the ServiceNow Strategic Portfolio Management \(SPM\) application enables project oversight of complex order fulfillment tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-integrating-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-integrating-spm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

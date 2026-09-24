@@ -2,7 +2,7 @@
 title: Configure non-planning items for feedback or product ideas
 description: Configure non-planning items to link your feedback or product idea records to navigate quickly between related items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/config-items-sp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/product-feedback/config-items-sp.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -53,7 +53,7 @@ Role required: admin
 
 ## What to do next
 
-[Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
+[Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
 
-**Parent Topic:**[Configuring Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
+**Parent Topic:**[Configuring Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
 

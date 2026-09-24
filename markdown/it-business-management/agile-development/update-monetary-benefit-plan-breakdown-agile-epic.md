@@ -2,7 +2,7 @@
 title: Update a monetary benefit plan breakdown for an epic
 description: Update a monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/update-monetary-benefit-plan-breakdown-agile-epic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/update-monetary-benefit-plan-breakdown-agile-epic.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -130,5 +130,5 @@ First date of the fiscal period corresponding to the benefit plan breakdown.
 </table>9.  Click **Update**.
 
 
-**Parent Topic:**[Create a monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-monetary-benefit-plan-agile-epic.md)
+**Parent Topic:**[Create a monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/create-monetary-benefit-plan-agile-epic.md)
 

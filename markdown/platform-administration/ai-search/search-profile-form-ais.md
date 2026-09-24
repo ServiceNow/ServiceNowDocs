@@ -2,7 +2,7 @@
 title: Search Profile form
 description: The Search Profile form enables you to create a search profile for use in AI Search applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/search-profile-form-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/search-profile-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Search Profile form enables you to create a search profile for use in AI Search applications.
 
-For details on creating or editing search profiles, see [Create a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-profile-ais.md).
+For details on creating or editing search profiles, see [Create a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-search-profile-ais.md).
 
 <table id="table_atb_k2r_gnb"><thead><tr><th>
 
@@ -85,5 +85,5 @@ State of the search profile.-   **New**: The search profile has never been publi
 -   **Published**: The search profile is saved with all changes published.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/reference-ais.md)
 

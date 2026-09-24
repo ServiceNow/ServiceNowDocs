@@ -2,7 +2,7 @@
 title: Usage Insights release notes
 description: The ServiceNow Usage Insights application, formerly known as User Experience Analytics, enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Mobile, and Service Portal applications so product managers and applicationners can gain insight into application usage and adoption. Usage Insights was enhanced and updated in the Australia release.The ServiceNow Usage Insights applications, enables you to monitor how users interact with the Core UI, Next Experience, Mobile, and Service Portal applications so product managers and applicationners can gain insight into application usage and adoption. Usage Insights was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/user-experience-analytics-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/user-experience-analytics-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ See [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     Usage Insights is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
+**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/analytics-intel-report-rn-landing.md)
 
 ## Australia
 

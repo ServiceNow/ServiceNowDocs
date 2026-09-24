@@ -2,7 +2,7 @@
 title: Configure Siri shortcuts for Now Mobile
 description: Configure Siri shortcuts for quick access to common features on your iOS mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/config-siri-shortcuts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-mobile-employee-experience/config-siri-shortcuts.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -45,5 +45,5 @@ Role required: admin
     -   You can repeat the process to configure the remaining shortcuts, or change the phrase used to activate previously configured shortcuts.
     -   You can also set up the Siri shortcuts in the Apple **Shortcuts** application.
 
-**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

@@ -2,7 +2,7 @@
 title: Translated text table
 description: The Translated Text \[sys\_translated\_text\] table stores translations for fields with the field type translated\_text or translated\_html \(see the dictionary entry\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/r\_TranslatedText.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/r\_TranslatedText.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -26,12 +26,12 @@ This field type is typically used for long text fields, up to 65,000 characters 
 
 \[Omitted image "TranslatedTextList.png"\] Alt text: The list of records in the Translated Text table.
 
-**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslationTables.md)
+**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/r_TranslationTables.md)
 
 **Related topics**  
 
 
 [Translating text fields]()
 
-[Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_UseTranslatedText.md)
+[Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/c_UseTranslatedText.md)
 

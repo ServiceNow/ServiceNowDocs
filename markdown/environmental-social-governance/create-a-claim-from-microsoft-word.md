@@ -2,7 +2,7 @@
 title: Create a claim from Microsoft Word
 description: You can create a claim directly from Microsoft Word for use in future disclosures or reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-claim-from-microsoft-word.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-claim-from-microsoft-word.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,10 +36,10 @@ Role required: Any user of the Microsoft Word document and sn\_grc\_claims.manag
 
 4.  On the **Claims for reporting** form, fill in the fields.
 
-    For more information regarding the field descriptions, see [Claims for reporting fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/claims-for-reporting-fields.md).
+    For more information regarding the field descriptions, see [Claims for reporting fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/claims-for-reporting-fields.md).
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Import data in to a Microsoft Word disclosure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/import-data-into-ms-word.md)
+**Parent Topic:**[Import data in to a Microsoft Word disclosure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/import-data-into-ms-word.md)
 

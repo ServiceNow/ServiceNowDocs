@@ -2,7 +2,7 @@
 title: Receive an asset
 description: When assets are received and delivered to a stockroom, they’re added to the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_ReceiveAnAsset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/procurement/t\_ReceiveAnAsset.html
 release: australia
 product: Procurement
 classification: procurement
@@ -166,7 +166,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
     Different assets are created for each hardware item. If it’s a software asset, one single asset is created for each license if you don't split the rights. For consumables, if an asset exists, it’s updated, or else, new assets are created.
 
 
-**Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_ReceiveAssets.md)
+**Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/c_ReceiveAssets.md)
 
 **Related topics**  
 

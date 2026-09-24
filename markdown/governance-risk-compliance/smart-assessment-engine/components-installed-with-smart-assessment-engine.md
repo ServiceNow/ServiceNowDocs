@@ -2,7 +2,7 @@
 title: Components installed with Smart Assessment Engine
 description: Several types of components are installed with activation of the Smart Assessment Engine plugins, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/components-installed-with-smart-assessment-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/components-installed-with-smart-assessment-engine.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine

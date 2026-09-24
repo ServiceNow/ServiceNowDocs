@@ -2,7 +2,7 @@
 title: Run an automated test on a playbook
 description: After creating your test and adding steps, run and monitor the progress of your automated test.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/run-atf-test-on-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/run-atf-test-on-playbook.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -45,5 +45,5 @@ If you get the error "The test timed out because the max execution time \(600 se
     For more information, see [Run an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-run-test.md).
 
 
-**Parent Topic:**[Testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/testing-support-playbooks.md)
+**Parent Topic:**[Testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/testing-support-playbooks.md)
 

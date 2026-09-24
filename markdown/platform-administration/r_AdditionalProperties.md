@@ -2,7 +2,7 @@
 title: Advanced email properties
 description: Use advanced email properties to fine-tune the way your instance sends or receives email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_AdditionalProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_AdditionalProperties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -55,7 +55,7 @@ Add these properties to the System Property \[sys\_properties\] table before the
     -   Default value: false
 -   **__glide.email.append.timezone__**
 
-    Appends the user time zone to all date and time values in outbound email messages \(for example, 2018-07-02 04:01:14 PST\). The time zone does not show if the system property **glide.sys.time\_format** does not have a "z" value. For more information on configuring the time zone in email notifications, see [Time zone for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SpecifyingTheTimeZone.md).
+    Appends the user time zone to all date and time values in outbound email messages \(for example, 2018-07-02 04:01:14 PST\). The time zone does not show if the system property **glide.sys.time\_format** does not have a "z" value. For more information on configuring the time zone in email notifications, see [Time zone for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_SpecifyingTheTimeZone.md).
 
     -   Type: true \| false
     -   Default: false
@@ -425,7 +425,7 @@ Add these properties to the System Property \[sys\_properties\] table before the
     -   Type: true \| false
     -   Default value: false
 
-**Parent Topic:**[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailProperties.md)
+**Parent Topic:**[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailProperties.md)
 
 **Related topics**  
 

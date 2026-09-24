@@ -2,7 +2,7 @@
 title: Create a Workday connection
 description: Create connection and credential records for the Operational Sustainability Integration with Workday so that you can establish a new connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-workday-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-workday-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

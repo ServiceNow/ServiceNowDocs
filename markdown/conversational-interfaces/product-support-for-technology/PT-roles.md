@@ -2,7 +2,7 @@
 title: Proactive Triggers roles
 description: Proactive Triggers adds the Proactive Triggers admin role.Users who create proactive rules and have access to related tables and related records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/PT-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/product-support-for-technology/PT-roles.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -78,7 +78,7 @@ Simplify user administration by creating groups that contain all the roles neces
 
 For details on the administration of users, groups, and roles, see [User Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UserAdministration.md).
 
-**Parent Topic:**[Components installed with the Proactive Triggers feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/components-installed-with-proactive-triggers.md)
+**Parent Topic:**[Components installed with the Proactive Triggers feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/product-support-for-technology/components-installed-with-proactive-triggers.md)
 
 ## Proactive Triggers admin \[sn-pt.proactive\_admin\]
 

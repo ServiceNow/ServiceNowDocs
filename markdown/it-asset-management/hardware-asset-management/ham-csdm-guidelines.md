@@ -2,7 +2,7 @@
 title: Applying the CSDM guidelines to Hardware Asset Management
 description: Hardware Asset Management manages \(contributes data to\) CSDM tables. Hardware Asset Management also uses data from CSDM tables that other applications generate. Several ServiceNow products, therefore, benefit from and add value to Hardware Asset Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/ham-csdm-guidelines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/ham-csdm-guidelines.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

@@ -2,7 +2,7 @@
 title: Configure a third-party LLM provider as default for ServiceNow Otto for Spokes
 description: Configure a third-party LLM provider as the default LLM provider that can create a spoke using ServiceNow Otto.Set a third-party LLM provider as the default LLM provider to create a spoke using the ServiceNow Otto for Spokes from the AI Admin Hub panel.Configure a third-party LLM provider as the default LLM provider for creating a spoke using ServiceNow Otto after installing the AI Skill Kit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-tpt-llm-provider-for-now-assist-for-spokes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/configure-tpt-llm-provider-for-now-assist-for-spokes.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

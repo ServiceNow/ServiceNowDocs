@@ -2,7 +2,7 @@
 title: Domain separation and Financial Services Loan Operations
 description: Domain separation is unsupported for the Financial Services Loan Operations application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/fso-loan-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/fso-loan-domain-separation.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -32,7 +32,7 @@ For more information on support levels, see [Application support for domain sepa
 
 All Financial Service Loan Operations applications are built on top of Customer Service Management \(CSM\) and use many CSM tables. The key reference tables are the customer tables, such as Consumer, Account, and Contact. These tables are domain-separated.
 
-**Parent Topic:**[Financial Services Loan Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-loan-operations/loan-operations-reference.md)
+**Parent Topic:**[Financial Services Loan Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-loan-operations/loan-operations-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Workflow stage field icons and tooltips
 description: A workflow stage field displays icons to indicate the workflow stage.Based on the stage renderer selected for a workflow, workflow stage icons may display tooltips with detailed information about a stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/r\_WorkflowFieldIcons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/r\_WorkflowFieldIcons.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -27,7 +27,7 @@ Based on the stage renderer selected for the workflow, these icons may display a
 |\[Omitted image "WorkflowLate.png"\] Alt text: Late or Canceled icon|Late \(Change/Request\) or Canceled \(Catalog\)|
 |\[Omitted image "WorkflowSkipped.png"\] Alt text: Skipped icon|Skipped \(Catalog only\)|
 
-**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md)
+**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md)
 
 ## Stage tooltips
 

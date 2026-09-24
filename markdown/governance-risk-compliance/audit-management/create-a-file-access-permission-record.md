@@ -2,7 +2,7 @@
 title: Set File Access Permissions
 description: Create a File access permission record and manage the access permissions on the cloud document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-a-file-access-permission-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/create-a-file-access-permission-record.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -54,7 +54,7 @@ The File access permission record enables the users to manage access permissions
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [File access permission record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/file-access-permission-record-form.md).
+    For more information on the fields in the form, see [File access permission record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/file-access-permission-record-form.md).
 
 5.  Select **Submit**.
 

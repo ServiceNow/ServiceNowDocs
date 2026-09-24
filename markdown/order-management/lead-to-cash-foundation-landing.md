@@ -2,7 +2,7 @@
 title: Lead-to-cash foundation
 description: Lead-to-cash foundation applications enable you to manage the end-to-end commercial life cycle from product setup to core transaction flows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/lead-to-cash-foundation-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/lead-to-cash-foundation-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,11 +20,11 @@ Select a link from the following table to explore key capabilities that streamli
 
 |Application|Description|
 |-----------|-----------|
-|[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)|Organize and maintain a unified catalog of products and services.|
-|[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pricing-management.md)|Manage price lists, discounts, and rules to support dynamic and region-specific pricing.|
-|[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md)|Enable seamless integration of lead generation, quoting, order management, and fulfillment.|
+|[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)|Organize and maintain a unified catalog of products and services.|
+|[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pricing-management.md)|Manage price lists, discounts, and rules to support dynamic and region-specific pricing.|
+|[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)|Enable seamless integration of lead generation, quoting, order management, and fulfillment.|
 
 ## What to explore next
 
-Configure the lead-to-cash foundation applications to enable core capabilities for using Sales Customer Relationship Management. For more information, see [Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-to-cash-foundation.md).
+Configure the lead-to-cash foundation applications to enable core capabilities for using Sales Customer Relationship Management. For more information, see [Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-lead-to-cash-foundation.md).
 

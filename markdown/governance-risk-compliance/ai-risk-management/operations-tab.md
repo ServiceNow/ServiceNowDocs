@@ -2,7 +2,7 @@
 title: Operations tab
 description: The Operations tab on the AI Risk and Compliance workspace provides an overview of AI systems by state, along with metrics for assessments, control assurance, issues, policy exceptions, and AI cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/operations-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/operations-tab.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management

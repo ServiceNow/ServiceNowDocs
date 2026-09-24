@@ -2,7 +2,7 @@
 title: Namespace identifier
 description: The system adds a namespace identifier to the front of application artifacts such as tables, scripts, and configuration records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_NamespaceIdentifier.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_NamespaceIdentifier.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Required fields for creating an invoice
 description: Mandatory invoices and invoice lines fields that the Accounts Payable Operations integration with Document Intelligence application checks before creating an invoice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/mandatory-fields-docintel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/mandatory-fields-docintel.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -24,5 +24,5 @@ Mandatory invoices and invoice lines fields that the Accounts Payable Operations
 |Invoice amount|Line unit price|
 |Supplier|Invoiced quantity|
 
-**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md)
+**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md)
 

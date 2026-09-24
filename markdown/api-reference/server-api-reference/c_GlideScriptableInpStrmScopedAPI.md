@@ -2,7 +2,7 @@
 title: GlideScriptableInputStream - Scoped, Global
 description: A GlideScriptableInputStream object cannot be instantiated directly, but is used as an opaque object which is used to connect an input stream from GlideSysAttachment.getContentStream\(\) with other streaming APIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideScriptableInpStrmScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_GlideScriptableInpStrmScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,10 +18,10 @@ A GlideScriptableInputStream object cannot be instantiated directly, but is used
 
 The public APIs that can consume this input stream include:
 
--   [GlideDigest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDigestScopedAPI.md)
--   [GlideExcelParser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideExcelParserScopedAPI.md)
--   [GlideTextReader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideTextReaderScopedAPI.md)
--   [XMLDocument2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md)
+-   [GlideDigest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDigestScopedAPI.md)
+-   [GlideExcelParser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideExcelParserScopedAPI.md)
+-   [GlideTextReader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideTextReaderScopedAPI.md)
+-   [XMLDocument2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 

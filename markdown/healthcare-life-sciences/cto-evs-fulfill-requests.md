@@ -2,7 +2,7 @@
 title: Fulfilling requests in Care Team Operations for Environmental Services
 description: Healthcare EVS cases can be fulfilled one of two ways, depending on what plugin you have installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-fulfill-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-fulfill-requests.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

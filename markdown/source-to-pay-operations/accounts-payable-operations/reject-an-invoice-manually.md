@@ -2,7 +2,7 @@
 title: Reject an invoice manually
 description: Review exceptions flagged for manual rejection and reject an invoice from the invoice case when AP specialist confirmation is required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/reject-an-invoice-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/reject-an-invoice-manually.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -57,5 +57,5 @@ After you confirm the rejection, the system performs the following actions:
 -   Populates the rejection reason and comments in the invoice audit history and activity stream.
 -   Sends an email notification to the supplier with the rejection comments.
 
-**Parent Topic:**[Create an invoice line manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line.md)
+**Parent Topic:**[Create an invoice line manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-line.md)
 

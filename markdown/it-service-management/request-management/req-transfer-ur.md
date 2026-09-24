@@ -2,7 +2,7 @@
 title: Transfer a request to another department
 description: Transfer a request to another department with or without resolution to fulfill the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/req-transfer-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/request-management/req-transfer-ur.html
 release: australia
 product: Request Management
 classification: request-management
@@ -93,5 +93,5 @@ Option to copy the comments and attachments of the request while transferring. T
 
 The request item is transferred to the selected department. The request is transferred based on the direct transfer mappings in mapping configuration and transfer type configurations. For more information on configuring routing, see [Transfer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-route-state.md).
 
-**Parent Topic:**[Request Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-mgmt-integration-ur.md)
+**Parent Topic:**[Request Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/request-mgmt-integration-ur.md)
 

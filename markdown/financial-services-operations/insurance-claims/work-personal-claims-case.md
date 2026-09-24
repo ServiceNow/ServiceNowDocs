@@ -2,7 +2,7 @@
 title: Work on personal claim adjuster tasks
 description: An adjuster can review a claim to verify documents, evaluate claim coverages, determine claim payment details, and approve settlement for a claim.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/work-personal-claims-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/work-personal-claims-case.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -175,7 +175,7 @@ Depending on the current stage of the case:
 **Related topics**  
 
 
-[Generate and view a claim's fraud score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/view-claim-fraud-score.md)
+[Generate and view a claim's fraud score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/view-claim-fraud-score.md)
 
-[View a claim's summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/view-claim-summary.md)
+[View a claim's summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/view-claim-summary.md)
 

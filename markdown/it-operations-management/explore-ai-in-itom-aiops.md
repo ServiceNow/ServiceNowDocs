@@ -2,7 +2,7 @@
 title: AI in ITOM AIOps
 description: AI features in ITOM AIOps help operators triage alerts, investigate incidents, analyze service health, and improve service reliability using generative AI and agentic workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/explore-ai-in-itom-aiops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/explore-ai-in-itom-aiops.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-02"
@@ -61,8 +61,8 @@ An operator selects an alert from an observability-connected source and wants to
 
 </td><td>
 
--   [Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/now-assist-itom-agentic-aia.md)
--   [Analyze alert impact in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/now-assist-itom-use-aia.md)
+-   [Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/now-assist-itom-agentic-aia.md)
+-   [Analyze alert impact in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/now-assist-itom-use-aia.md)
 
 </td></tr><tr><td>
 
@@ -82,9 +82,9 @@ An operations team wants alerts to be triaged, analyzed, and summarized automati
 
 </td><td>
 
--   [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/itom-autonomous-operator-workflow.md)
--   [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md)
--   [Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/use-ai-insights-express-list.md)
+-   [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/itom-autonomous-operator-workflow.md)
+-   [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md)
+-   [Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/use-ai-insights-express-list.md)
 
 </td></tr><tr><td>
 
@@ -104,8 +104,8 @@ An operator or change manager wants to assess the risk of a change request befor
 
 </td><td>
 
--   [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)
--   [Assess a change request with the Analyze potential impact workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/use-now-assist-analyze-impact-agentic-workflow.md)
+-   [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)
+-   [Assess a change request with the Analyze potential impact workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/use-now-assist-analyze-impact-agentic-workflow.md)
 
 </td></tr></tbody>
 </table>## AI agents
@@ -114,7 +114,7 @@ Standalone AI agents in ITOM AIOps run autonomously on a schedule or in response
 
 |Product|AI feature|Description|Use case|Resources|
 |-------|----------|-----------|--------|---------|
-|Service Reliability Management|SLO creator agent|Runs every 14 days and processes up to 25 services or CIs that do not already have auto-generated SLOs. Analyzes historical alerts, incidents, and outages to generate one SLO per service or CI with up to 10 service level indicators \(SLIs\). Generated SLOs are active by default. Email notifications are sent to team managers when SLOs are generated and when the error budget falls to 25% or lower. Requires ServiceNow Otto for ITOM and Service Reliability Management.|A team wants to adopt SLOs without manually defining them, using historical incident and alert data to generate a starting point for each service.|[Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md)|
+|Service Reliability Management|SLO creator agent|Runs every 14 days and processes up to 25 services or CIs that do not already have auto-generated SLOs. Analyzes historical alerts, incidents, and outages to generate one SLO per service or CI with up to 10 service level indicators \(SLIs\). Generated SLOs are active by default. Email notifications are sent to team managers when SLOs are generated and when the error budget falls to 25% or lower. Requires ServiceNow Otto for ITOM and Service Reliability Management.|A team wants to adopt SLOs without manually defining them, using historical incident and alert data to generate a starting point for each service.|[Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md)|
 
 ## Generative AI skills
 
@@ -158,8 +158,8 @@ An operator opens an alert and wants a quick summary of what it means and what t
 
 </td><td>
 
--   [View an alert analysis by ServiceNow Otto in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-summarization-now-assist.md)
--   [View an alert analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-summary-now-assist-express-list.md)
+-   [View an alert analysis by ServiceNow Otto in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-summarization-now-assist.md)
+-   [View an alert analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-summary-now-assist-express-list.md)
 
 </td></tr><tr><td>
 
@@ -179,7 +179,7 @@ An operator selects an alert group and wants to understand its overall significa
 
 </td><td>
 
-[View an alert group analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-group-analysis-el.md)
+[View an alert group analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-group-analysis-el.md)
 
 </td></tr><tr><td>
 
@@ -199,7 +199,7 @@ An operator wants to replace a system-generated alert group description with a m
 
 </td><td>
 
-[Generate an alert group description in Express List using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-group-descr-generate-el.md)
+[Generate an alert group description in Express List using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-group-descr-generate-el.md)
 
 </td></tr><tr><td>
 
@@ -219,8 +219,8 @@ An operator is investigating an alert and wants to know whether similar issues h
 
 </td><td>
 
--   [Accelerate alert resolution with past incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/nai-past-incidents.md)
--   [Generate a ServiceNow Otto summary of past related incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/nai-analyze-past-incidents.md)
+-   [Accelerate alert resolution with past incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/nai-past-incidents.md)
+-   [Generate a ServiceNow Otto summary of past related incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/nai-analyze-past-incidents.md)
 
 </td></tr><tr><td>
 
@@ -240,7 +240,7 @@ An operator determines that an alert requires an incident and wants the incident
 
 </td><td>
 
-[Create an incident from an alert with ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-incident-now-assist-el.md)
+[Create an incident from an alert with ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-incident-now-assist-el.md)
 
 </td></tr><tr><td>
 
@@ -260,8 +260,8 @@ An operator wants a quick orientation to an unfamiliar dashboard or needs to ide
 
 </td><td>
 
--   [Activate the analyze Service Observability dashboard skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/activate-the-analyze-service-observability-dashboard-skill.md)
--   [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md)
+-   [Activate the analyze Service Observability dashboard skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/activate-the-analyze-service-observability-dashboard-skill.md)
+-   [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md)
 
 </td></tr><tr><td>
 
@@ -281,8 +281,8 @@ An operator is triaging an incident and needs to quickly assess service impact, 
 
 </td><td>
 
--   [Activate the analyze service health skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md)
--   [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-service-health-in-service-observability.md)
+-   [Activate the analyze service health skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md)
+-   [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/analyze-service-health-in-service-observability.md)
 
 </td></tr></tbody>
 </table>

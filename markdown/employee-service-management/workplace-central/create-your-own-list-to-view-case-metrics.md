@@ -2,7 +2,7 @@
 title: Create your own list to view case metrics
 description: Configure a custom list to view workplace cases. You can view the workplace cases based on the filter that you apply and monitor the cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-your-own-list-to-view-case-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/create-your-own-list-to-view-case-metrics.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -78,5 +78,5 @@ You can also create your own list on the panel based and view the workplace case
 
 The custom list is added to the **My Lists** tab on the left panel. At any time, you can view the lists and manage the workplace cases.
 
-**Parent Topic:**[Manage workplace cases using Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/manage-workplace-cases-using-case-management.md)
+**Parent Topic:**[Manage workplace cases using Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/manage-workplace-cases-using-case-management.md)
 

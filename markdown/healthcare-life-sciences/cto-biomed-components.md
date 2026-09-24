@@ -2,7 +2,7 @@
 title: Components installed with Care Team Operations for Biomed
 description: Several types of components such as tables, user roles, and business rules are installed when you install the Care Team Operations for Biomed plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-biomed-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

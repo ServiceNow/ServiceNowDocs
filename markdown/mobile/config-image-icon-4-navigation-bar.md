@@ -2,7 +2,7 @@
 title: Add an image icon for a navigation bar
 description: Use Mobile App Builder to configure an image type icon that can be used in navigation bars on mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-image-icon-4-navigation-bar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-image-icon-4-navigation-bar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Use Mobile App Builder to configure an image type icon that can be used in navig
 
 ## Before you begin
 
-**Important:** Image icons can also be used in the legacy icon section of a launcher screen. For more information, see [Adding images to an icon section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/add-image-icon-section.md).
+**Important:** Image icons can also be used in the legacy icon section of a launcher screen. For more information, see [Adding images to an icon section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/add-image-icon-section.md).
 
 Role required: admin
 
@@ -48,7 +48,7 @@ You can configure an icon within the work flow of configuring a screen or you ca
 
     |Style|Value|
     |-----|-----|
-    |Enter `Name`|Enter the name of the image icon to display in the navigation bar. For example, enter the text `Explore` to display the Explore Solid icon. For a list of navigation bar icons, see [Image icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/image-icons.md).|
+    |Enter `Name`|Enter the name of the image icon to display in the navigation bar. For example, enter the text `Explore` to display the Explore Solid icon. For a list of navigation bar icons, see [Image icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/image-icons.md).|
 
 8.  Select **Save**.
 

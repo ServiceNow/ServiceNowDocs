@@ -2,7 +2,7 @@
 title: Add an audience to your UI Builder page
 description: Add one or more audiences to your page or page variant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/configure-audiences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/configure-audiences.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -20,7 +20,7 @@ Add one or more audiences to your page or page variant.
 
 Role required: admin
 
-The **glide.ux.user\_criteria\_enabled** property needs to be set to **true** to configure access for users based on role, department, group, location, or company. See [Enable the user criteria property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/enable-user-criteria-property.md), for more information.
+The **glide.ux.user\_criteria\_enabled** property needs to be set to **true** to configure access for users based on role, department, group, location, or company. See [Enable the user criteria property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/enable-user-criteria-property.md), for more information.
 
 ## Procedure
 
@@ -61,8 +61,8 @@ The **glide.ux.user\_criteria\_enabled** property needs to be set to **true** to
 11. Select **Done**.
 
 
--   **[Enable the user criteria property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/enable-user-criteria-property.md)**  
+-   **[Enable the user criteria property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/enable-user-criteria-property.md)**  
 Enable the user criteria property to configure access for users based on role, department, group, location, or company in UI Builder.
 
-**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md)
+**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-pages.md)
 

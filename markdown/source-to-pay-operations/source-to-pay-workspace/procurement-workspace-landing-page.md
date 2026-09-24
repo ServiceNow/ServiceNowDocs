@@ -2,7 +2,7 @@
 title: SPO landing page
 description: As a fulfiller within the procurement team, you can visually launch into your day with a one-stop-shop experience where you can view work that needs your attention, and use quick actions to navigate to internal and external websites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/procurement-workspace-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/procurement-workspace-landing-page.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -191,7 +191,7 @@ Open a new tab with the ShoppingHub home page.
 
 You can configure the landing page using UI Builder, define different audiences for the landing page, and even add, remove, or modify the different content, if you want. However, it’s recommended that you create a duplicate of the landing page before modifying it. For detailed information on how to configure using UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md).
 
-**Parent Topic:**[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)
+**Parent Topic:**[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)
 
 **Related topics**  
 

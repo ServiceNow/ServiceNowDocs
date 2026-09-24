@@ -2,7 +2,7 @@
 title: Compose and send an email about a regulatory agency record
 description: Compose and send an email about a regulatory agency record to multiple stakeholders within or outside your organization by using the Compliance Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/compose-emails-regulatory-agency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/compose-emails-regulatory-agency.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -76,5 +76,5 @@ Body of your message that includes any information, requests, or details that yo
     The email has been sent to the recipient. You can view emails associated with the regulatory agency record by navigating to the Emails tab of that record.
 
 
-**Parent Topic:**[Regulatory Agency Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/regulatory-agency-library-rcm.md)
+**Parent Topic:**[Regulatory Agency Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/regulatory-agency-library-rcm.md)
 

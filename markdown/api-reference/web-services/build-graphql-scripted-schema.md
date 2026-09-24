@@ -2,7 +2,7 @@
 title: Create a GraphQL schema
 description: Create a GraphQL schema to make data available to GraphQL queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/build-graphql-scripted-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/build-graphql-scripted-schema.html
 release: australia
 product: Web Services
 classification: web-services
@@ -309,5 +309,5 @@ Define the value returned for union and interface types. Functions available on 
     3.  Select **Submit**.
 
 
-**Parent Topic:**[Query record data using the GraphQL API framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-graph-ql.md)
+**Parent Topic:**[Query record data using the GraphQL API framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/scripted-graph-ql.md)
 

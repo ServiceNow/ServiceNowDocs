@@ -2,7 +2,7 @@
 title: Components installed with Workplace Reservations for Microsoft Outlook Add-in
 description: Several types of components are installed with the Workplace Space Management application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery/components-installed-with-wsd-reservations-outlookaddin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery/components-installed-with-wsd-reservations-outlookaddin.html
 release: australia
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -26,7 +26,7 @@ Demo data is available for this feature.
 |-------------------|-----------|--------------|
 |sn\_wsd\_msaddin.admin|As a Workplace Reservations for Microsoft Outlook Add-in admin, you can access the application completely.|None|
 
-**Parent Topic:**[Workplace Reservations for Microsoft Outlook Add-in references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/workplace-rsv-for-outlook-addin-reference.md)
+**Parent Topic:**[Workplace Reservations for Microsoft Outlook Add-in references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/workplace-rsv-for-outlook-addin-reference.md)
 
 **Related topics**  
 

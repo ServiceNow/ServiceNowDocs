@@ -2,7 +2,7 @@
 title: Telemetry in ServiceNow Extensions for VS Code
 description: ServiceNow Extensions for VS Code collects information on its various usage patterns such as the commands run with the help of Now Telemetry.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/telemtry-vscode.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/telemtry-vscode.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Telemetry is enabled by default for the ServiceNow extension. If you do not wish
 
 **Note:** The usage data will be sent until you disable the setting. The extension abides by the global telemetry setting `telemetry.enableTelemetry`. If that is set to false, Now telemetry is disabled.
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vs-code.md)
 

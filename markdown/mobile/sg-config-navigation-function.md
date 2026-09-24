@@ -2,7 +2,7 @@
 title: Configure a navigation to a screen
 description: Navigation functions enable you to define simple ways for end users to navigate within the mobile platform, for example, navigating to a record from a field on another record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-config-navigation-function.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-config-navigation-function.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -92,7 +92,7 @@ Whether the navigation function is available offline.**Note:**
 
 -   The screen and the application that contains the navigation function must be marked as available offline for the navigation function to work when the device is offline.
 -   Offline is only supported for the Mobile Agent.
-For more information about offline mode, see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md).
+For more information about offline mode, see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-offline-mode.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -253,5 +253,5 @@ Whether the attribute is turned on. Enter `true` to turn on the attribute. By de
 
 ## What to do next
 
-After you create a navigation function, you must associate it with a specific location in the mobile app. For more information, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md).
+After you create a navigation function, you must associate it with a specific location in the mobile app. For more information, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-button-instances.md).
 

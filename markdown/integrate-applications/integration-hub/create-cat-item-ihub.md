@@ -2,7 +2,7 @@
 title: Create a catalog item for an SCCM application
 description: Create a catalog item for an application you want to offer for distribution from the service catalog using the applications discovered on the SCCM server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-cat-item-ihub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/create-cat-item-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -97,5 +97,5 @@ Name of the [Define an SCCM configuration](https://raw.githubusercontent.com/Ser
 7.  To see all client software distribution \(CSD\) catalog items, navigate to **Client Software Distribution** &gt; **Maintain Items** &gt; **Software Items**.
 
 
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-sccm-ihub.md)
 

@@ -2,7 +2,7 @@
 title: Opt-in to the Hardware Asset Management Content Service
 description: Opt in to the Hardware Asset Management Content Service to improve the normalization process by sharing hardware and consumable model data from your organization with ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/opt-in-hardware-normalization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/opt-in-hardware-normalization.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -72,5 +72,5 @@ Click **Opt-Out**.
 
 You are returned to the Hardware Asset Management Content Service agreement and you can opt back in at anytime.
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

@@ -2,7 +2,7 @@
 title: Configure Service Graph Connector for Microsoft Azure using the guided setup
 description: Set up data sources and scheduled import jobs to pull in data from Azure into your CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/configure-azure-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -24,18 +24,18 @@ To use this Service Graph Connector, you need a subscription to a Subscription U
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   Discovery Core plugin \(com.snc.discovery.core\), which is automatically installed by Discovery.
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 
-**Important:** After the initial import of Azure data, the application performs a delta import of data. However, you can perform a full pull of data anytime later by disabling the delta synchronization and setting the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** property to `false`. For more information, see [Configuring data synchronization in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-data-sync.md).
+**Important:** After the initial import of Azure data, the application performs a delta import of data. However, you can perform a full pull of data anytime later by disabling the delta synchronization and setting the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** property to `false`. For more information, see [Configuring data synchronization in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-data-sync.md).
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 
@@ -61,7 +61,7 @@ For more information on the Azure setup instructions, see the [Service Graph Con
         4.  Select **Update** to close the tab and return to the guided setup.
         5.  Modify the application scope again to **Service Graph Connector for Microsoft Azure** by using the application picker.
         6.  Set the Update Scheduled Data Import access task to complete by selecting **Mark as Complete**.
-        7.  Repeat the steps [3.b.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md) to [3.b.v](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md) for the Update Data Source Access task with the Data Source \[sys\_data\_source\] table and set the task to complete by selecting **Mark as Complete**.
+        7.  Repeat the steps [3.b.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md) to [3.b.v](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md) for the Update Data Source Access task with the Data Source \[sys\_data\_source\] table and set the task to complete by selecting **Mark as Complete**.
     3.  Clear the cache for the new connection.
 
         1.  In the Clear Cache for Datasource and Import set section, select **Configure**.
@@ -147,7 +147,7 @@ OAuth Client ID
 
 </td><td>
 
-Application \(client\) ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
+Application \(client\) ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client Secret of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
+Client Secret of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ https://login.partner.microsoftonline.cn/*&lt;tenantid&gt;*/oauth2/v2.0/token
 https://login.microsoftonline.de/*&lt;tenantid&gt;*/oauth2/v2.0/token
     ```
 
-Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
+Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr></tbody>
 </table>        5.  Select **Configure and Get OAuth Token**.
@@ -218,7 +218,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as de
 
     1.  Obtain the OAuth credentials and set up the Log Analytics workspace in the Azure.
 
-        1.  Ensure that you have the OAuth credentials from step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
+        1.  Ensure that you have the OAuth credentials from step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
         2.  Configure the Log Analytics workspace in the Azure client application.
 
             -   Use an existing workspace, if available.
@@ -270,7 +270,7 @@ Hardware Connection Name
 
 </td><td>
 
-Name of the hardware connection associated with the software as described in step [4.b.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md).You add a hardware connection name to associate the software connection with the respective hardware.
+Name of the hardware connection associated with the software as described in step [4.b.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md).You add a hardware connection name to associate the software connection with the respective hardware.
 
 </td></tr><tr><td>
 
@@ -282,7 +282,7 @@ Base URL to connect to the Log Analytics workspace in the following format: ```
 https://api.loganalytics.io/v1/workspaces/<workspace_id>
 ```
 
-Where `<workspace_id>` is the ID of the Log Analytics workspace as described in step [5.a.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md). **Note:** This field is automatically set to the URL to connect to the Log Analytics workspace. Replace the `<workspace_id>` variable in the auto-generated URL with the workspace ID of your Log Analytics workspace.
+Where `<workspace_id>` is the ID of the Log Analytics workspace as described in step [5.a.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md). **Note:** This field is automatically set to the URL to connect to the Log Analytics workspace. Replace the `<workspace_id>` variable in the auto-generated URL with the workspace ID of your Log Analytics workspace.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -294,7 +294,7 @@ OAuth Client ID
 
 </td><td>
 
-Application \(client\) ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
+Application \(client\) ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr><tr><td>
 
@@ -302,7 +302,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client Secret of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
+Client Secret of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr><tr><td>
 
@@ -336,7 +336,7 @@ https://login.partner.microsoftonline.cn/*&lt;tenantid&gt;*/oauth2/v2.0/token
 https://login.microsoftonline.de/*&lt;tenantid&gt;*/oauth2/v2.0/token
     ```
 
-Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
+Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as described in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-azure-integration.md).
 
 </td></tr></tbody>
 </table>        5.  Select **Configure and Get OAuth Token**.

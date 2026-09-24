@@ -2,7 +2,7 @@
 title: Virtual Agent features supported in Slack conversations
 description: Virtual Agent features, such as AI Search results, Virtual Agent notifications, and controls for creating Virtual Agent conversations are supported in Slack bot conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-slack-other-features.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-slack-other-features.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -49,12 +49,12 @@ Translation of responses to the conversation language is done using the function
     When the requested language plugin is absent and fallback is not configured, the default translation language will be English.
 
 
--   **[Assistant Designer user input and bot response controls in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-bot-controls-slack.md)**  
+-   **[Assistant Designer user input and bot response controls in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-designer-bot-controls-slack.md)**  
 The Assistant Designer user input controls and bot responses for creating conversation topics are supported in Slack conversations, including the table bot response and the card control that can display images.
--   **[Virtual Agent notifications supported in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-notif-slack.md)**  
+-   **[Virtual Agent notifications supported in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-notif-slack.md)**  
 Slack app supports Virtual Agent notifications during conversations.
--   **[Unsupported Virtual Agent features in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/limited-slack-features.md)**  
+-   **[Unsupported Virtual Agent features in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/limited-slack-features.md)**  
 Refer to the unsupported features of Virtual Agent in Conversational Integration with Slack.
 
-**Parent Topic:**[Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/mssg-slack.md)
+**Parent Topic:**[Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/mssg-slack.md)
 

@@ -2,7 +2,7 @@
 title: Quick start tests for Integration Commons for CMDB
 description: Validate that integrations for CMDB pass validation and still work after you make any configuration changes such as applying an upgrade or developing an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.html
 release: australia
 product: CMDB Integration Commons
 classification: cmdb-integration-commons
@@ -37,7 +37,7 @@ By default, the system property that is used to run automated tests is turned of
 |CMDB INT: Validate Related Entries|Validate all related classes against the data dictionary for related entries.|Paris|
 |CMDB INT: Validate Relationships|Validate CMDB integration relationships.|Paris|
 
-To learn more about Integration Commons for CMDB, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+To learn more about Integration Commons for CMDB, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 **Related topics**  
 

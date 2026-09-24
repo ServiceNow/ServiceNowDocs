@@ -2,7 +2,7 @@
 title: Use common alerts to track performance \(Guided users\)
 description: Use the Instance Observer alerting feature to receive notifications on the performance of your instance. Monitor the alerts that are system driven.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-alerts-guided-cust.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-alerts-guided-cust.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,8 +56,8 @@ If you’re an Impact Guided tier customer, then the important top 6 and commonl
 
 8.  Select **Save**.
 
-    For more information on configuring alerts and setting notifications, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
+    For more information on configuring alerts and setting notifications, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-io-alerts.md).
 
 
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-alerts-intro.md)
 

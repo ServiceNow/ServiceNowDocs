@@ -2,7 +2,7 @@
 title: View an assessable record
 description: View the Assessable Record form to edit preferences and perform various actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewAnAssessableRecord.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ViewAnAssessableRecord.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -106,7 +106,7 @@ Category
 
 </td><td>
 
-All metric categories associated with the assessable record. An assessable record must be associated to a category to be evaluated. Click **Edit** to add or remove category associations. Note that it is often more efficient to [associate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ManageAssessablRecordAssociation.md) to categories using the Metric Category form.
+All metric categories associated with the assessable record. An assessable record must be associated to a category to be evaluated. Click **Edit** to add or remove category associations. Note that it is often more efficient to [associate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_ManageAssessablRecordAssociation.md) to categories using the Metric Category form.
 
 </td></tr><tr><td>
 
@@ -114,16 +114,16 @@ Category users
 
 </td><td>
 
-All stakeholders who can take assessment questionnaires about this assessable record. Click **Edit** to create and delete stakeholders. For more information about this and other methods of creating stakeholders, see [Stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CategoryUsersAndStakeholders.md). This related list is available only when the associated metric type has the **Scheduled** schedule type.
+All stakeholders who can take assessment questionnaires about this assessable record. Click **Edit** to create and delete stakeholders. For more information about this and other methods of creating stakeholders, see [Stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_CategoryUsersAndStakeholders.md). This related list is available only when the associated metric type has the **Scheduled** schedule type.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_assessable-records.md)
+**Parent Topic:**[Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_assessable-records.md)
 
-**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
 **Related topics**  
 
 
-[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 

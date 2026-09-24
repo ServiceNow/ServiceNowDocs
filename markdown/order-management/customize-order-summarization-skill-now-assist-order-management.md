@@ -2,12 +2,12 @@
 title: Customize an order summarization skill in ServiceNow Otto for Order Management
 description: Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/customize-order-summarization-skill-now-assist-order-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/customize-order-summarization-skill-now-assist-order-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
 
@@ -154,5 +154,5 @@ Description of the base input field value.
     Select **Summarize** in an order to generate the order summary.
 
 
-**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 

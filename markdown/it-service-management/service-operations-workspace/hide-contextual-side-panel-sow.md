@@ -2,7 +2,7 @@
 title: Hide contextual side panel
 description: Set the hideContextualSidebar page property to determine when to hide the default primary contextual side panel for specific table-tab combinations, showing the tab's embedded contextual side panel in its place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/hide-contextual-side-panel-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/hide-contextual-side-panel-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -45,5 +45,5 @@ Role required: admin
     \[Omitted image "hide-contextual-sidepanel-ux-property-sow.png"\] Alt text: Hide contextual sidepanel UX property
 
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

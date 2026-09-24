@@ -2,7 +2,7 @@
 title: Manage application category groups
 description: An application category group is a collection of application categories. Category groups help with the filtering and reporting of the application categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-configure-application-category-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-configure-application-category-groups.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,12 +16,12 @@ An application category group is a collection of application categories. Categor
 
 Application category groups help organize your application categories into broader business-aligned clusters, making it easier to manage your application portfolios.
 
-**Parent Topic:**[Exploring the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup.md)
+**Parent Topic:**[Exploring the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup.md)
 
 **Related topics**  
 
 
-[View all application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-application-category-groups.md)
+[View all application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-application-category-groups.md)
 
-[Add or edit an application category group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-app-cat-grp.md)
+[Add or edit an application category group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-app-cat-grp.md)
 

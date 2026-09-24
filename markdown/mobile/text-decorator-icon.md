@@ -2,7 +2,7 @@
 title: Create text decorator icon
 description: Use a text decorator icon to selectively highlight list elements that need your users attention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/text-decorator-icon.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/text-decorator-icon.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

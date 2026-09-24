@@ -2,7 +2,7 @@
 title: Tasks page for AI Risk and Compliance
 description: The Tasks page in the AI Risk and Compliance Workspace provides a view of your pending tasks, your group's tasks, and your watchlist. You can update tasks directly from the Tasks page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/tasks-ai-risk-compliance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/tasks-ai-risk-compliance.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management

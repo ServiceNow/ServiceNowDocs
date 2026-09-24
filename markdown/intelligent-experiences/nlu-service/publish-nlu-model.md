@@ -2,7 +2,7 @@
 title: Publish your NLU model
 description: Publish your Natural Language Understanding \(NLU\) model to activate it and make it available for use in other applications that consume NLU.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/publish-nlu-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/publish-nlu-model.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -44,7 +44,7 @@ If your model is already published, you can publish it again. However, you must 
 
 4.  On the **Test and publish your model** screen, select **Run new test** to assess the model using its default test set.
 
-    Testing can be skipped, but model performance may not be optimal. If testing is skipped, a confirmation message displays, asking if you want to continue without testing. For more information on testing, see [Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/testing-your-model.md).
+    Testing can be skipped, but model performance may not be optimal. If testing is skipped, a confirmation message displays, asking if you want to continue without testing. For more information on testing, see [Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/testing-your-model.md).
 
 5.  Click **Publish model**.
 

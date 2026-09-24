@@ -2,7 +2,7 @@
 title: Cloud Provisioning and Governance administration guide
 description: After you set up the Cloud Provisioning and Governance application on your instance, there are many items that you must configure before your users can request and manage any cloud resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/cloud-configuration.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -26,9 +26,9 @@ Role required to use the Cloud Provisioning and Governance administration guide 
 
     See the appropriate setup guide for your cloud provider:
 
-    -   [Cloud Provisioning and Governance setup guide for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-aws-setup-day-1.md)
-    -   [Cloud Provisioning and Governance setup guide for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-azure-setup-guide.md)
-    -   [Cloud Provisioning and Governance setup guide for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-vmware-setup-guide.md)
+    -   [Cloud Provisioning and Governance setup guide for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-mgt-aws-setup-day-1.md)
+    -   [Cloud Provisioning and Governance setup guide for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-mgt-azure-setup-guide.md)
+    -   [Cloud Provisioning and Governance setup guide for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-mgt-vmware-setup-guide.md)
     .
 
 
@@ -36,11 +36,11 @@ Role required to use the Cloud Provisioning and Governance administration guide 
 
 -   **Create resource profiles**
 
-    Resource profiles contain the attributes that a resource can have. Users select values for these attributes when they order a cloud resource. You can configure these types of resource profiles: Compute \(such as the size of a VM\), Operating System \(such as the type and version\), Storage \(such as backup\), and Security Groups \(such as whether to use HTTPS\). See [Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md) for more information.
+    Resource profiles contain the attributes that a resource can have. Users select values for these attributes when they order a cloud resource. You can configure these types of resource profiles: Compute \(such as the size of a VM\), Operating System \(such as the type and version\), Storage \(such as backup\), and Security Groups \(such as whether to use HTTPS\). See [Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md) for more information.
 
 -   **Configure governance**
 
-    Governance tools that you can use to restrict the provisioning of cloud resources include quotas and policies. Examples of things you can configure include the approval subflow that is used after a user requests a cloud resource, whether an email is sent after a cloud resource is stopped, and which datacenter should be automatically selected when a user selects a resource from a specific cloud provider. See [Cloud Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-governance.md) for more information.
+    Governance tools that you can use to restrict the provisioning of cloud resources include quotas and policies. Examples of things you can configure include the approval subflow that is used after a user requests a cloud resource, whether an email is sent after a cloud resource is stopped, and which datacenter should be automatically selected when a user selects a resource from a specific cloud provider. See [Cloud Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-governance.md) for more information.
 
 -   **Populate the Cloud Service Catalog**
 

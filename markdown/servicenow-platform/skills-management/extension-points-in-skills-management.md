@@ -2,7 +2,7 @@
 title: Extension points in Skills Management
 description: Use extension points to calls scripts to add custom group types to manage skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/extension-points-in-skills-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/skills-management/extension-points-in-skills-management.html
 release: australia
 product: Skills Management
 classification: skills-management

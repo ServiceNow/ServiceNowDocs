@@ -2,7 +2,7 @@
 title: Select Assignment groups in Dispatcher Workspace
 description: Select assignment groups in Dispatcher Workspace to see a list of agents in the assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/select-groups-dispatcher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/select-groups-dispatcher.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -22,7 +22,7 @@ Role required: wm\_dispatcher
 
 ## About this task
 
-You must have **Enable single select groups / territories** off in settings to select multiple territories. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
+You must have **Enable single select groups / territories** off in settings to select multiple territories. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## Procedure
 

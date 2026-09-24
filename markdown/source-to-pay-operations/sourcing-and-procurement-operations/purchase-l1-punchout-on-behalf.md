@@ -2,7 +2,7 @@
 title: Purchase an L1 punchout item on behalf of another user
 description: Purchase items from a Level 1 \(L1\) punchout supplier site on behalf of another user. Select a business owner before the redirect so that items are placed in the correct user's cart.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l1-punchout-on-behalf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l1-punchout-on-behalf.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -18,7 +18,7 @@ Purchase items from a Level 1 \(L1\) punchout supplier site on behalf of another
 
 ## Before you begin
 
-Verify that the administrator has configured the "Buy on Behalf of" shopping control so that you have at least one eligible business owner to select. The target business owner must be a member of the punchout group required for the supplier you want to purchase from. For more information, see [Purchase punchout items on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.md).
+Verify that the administrator has configured the "Buy on Behalf of" shopping control so that you have at least one eligible business owner to select. The target business owner must be a member of the punchout group required for the supplier you want to purchase from. For more information, see [Purchase punchout items on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.md).
 
 **Note:** The requirement for the target business owner to be a member of the supplier's punchout group applies only to L1 punchout suppliers.
 
@@ -56,12 +56,12 @@ Plugin required: Shopping Hub \(sn\_spend\_uib\)
 
     \[Omitted image "sh-on-behalf-cart.png"\] Alt text: Alan Edwards's shopping cart showing two items from 3CLogic, Inc. with an estimated total and Proceed to checkout button.
 
-    For more information, see [How L1 punchout works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/level-one-punchout.md)
+    For more information, see [How L1 punchout works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/level-one-punchout.md)
 
 
 ## Result
 
 The items you added on the punchout supplier site are placed in the cart of the selected business owner. If you didn't select a business owner, the items are placed in your own cart.
 
-**Parent Topic:**[Purchase punchout items on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.md)
+**Parent Topic:**[Purchase punchout items on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.md)
 

@@ -2,7 +2,7 @@
 title: Enable a field type for normalization or transformation
 description: Create or modify a normalization field type record to enable a specific field data type for use with normalization or transformation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAFieldType.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAFieldType.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

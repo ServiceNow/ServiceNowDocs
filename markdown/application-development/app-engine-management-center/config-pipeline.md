@@ -2,7 +2,7 @@
 title: Configure your pipeline
 description: Configure your app development pipeline so that your administrator can quickly move an application from one environment to another.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/config-pipeline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/config-pipeline.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -18,7 +18,7 @@ Configure your app development pipeline so that your administrator can quickly m
 
 ## Before you begin
 
-You must create all of your pipeline environment records before completing these steps. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-pipeline-environments.md).
+You must create all of your pipeline environment records before completing these steps. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/config-pipeline-environments.md).
 
 Role required: admin or app\_engine\_admin
 

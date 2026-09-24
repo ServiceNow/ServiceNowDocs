@@ -2,7 +2,7 @@
 title: Connecting CWM with Strategic Planning or Portfolio Planning
 description: Configure Strategic Planning or Portfolio Planning to include CWM Boards so that you can plan, roadmap, and associate goals to Boards in a portfolio plan.For the lens that you want to use to build portfolio plans, update the configuration to include CWM Board as a planning item in Strategic Planning or Portfolio Planning.Add the lens entity field to the CWM Board form. This lets users link Boards and have them appear in the right portfolio plan in Strategic Planning or Portfolio Planning workspaces.Link CWM Boards to a lens entity so that these Boards appear in the corresponding portfolio plans in Strategic Planning or Portfolio Planning workspaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/connect-cwm-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/connect-cwm-spw.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -53,7 +53,7 @@ All default lenses support CWM Board as a planning item. For example, if you are
 
 ### What to do next
 
-[Configure CWM Board form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-cwm-spw.md).
+[Configure CWM Board form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-cwm-spw.md).
 
 ## Configure CWM Board form layout
 
@@ -98,7 +98,7 @@ Your CWM users can add details of their departments, portfolios, or primary goal
 
 ### What to do next
 
-[Associate Boards with portfolio plan entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-cwm-spw.md).
+[Associate Boards with portfolio plan entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-cwm-spw.md).
 
 ## Associate Boards with portfolio plan entities
 

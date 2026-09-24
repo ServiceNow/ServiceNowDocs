@@ -2,7 +2,7 @@
 title: Default configurations for daily stats
 description: Predefined set of daily stat configurations are available to use once you have activated Manager Hub from ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-daily-stats.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/config-daily-stats.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +25,7 @@ Predefined set of daily stat configurations are available to use once you have a
 
 For more details, navigate to **All** &gt; **Manager Hub** &gt; **Administration** &gt; **Team Daily Stats**.
 
-**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Domain separation in GRC
 description: This is an overview of domain separation and the Governance, Risk, and Compliance applications. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/grc-domain-separation.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -95,10 +95,10 @@ Records that are automatically generated, the domain of the record is determined
 
 **Note:** When the domain source is global or nil, then that object's domain will be set to Default.
 
--   **[Create a domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-a-domain.md)**  
+-   **[Create a domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-a-domain.md)**  
 You can create a domain by creating a record in the \[domain\] table.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 
 **Related topics**  
 

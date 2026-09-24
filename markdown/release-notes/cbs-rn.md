@@ -2,7 +2,7 @@
 title: Core Business Suite release notes
 description: The ServiceNow Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.The ServiceNow Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.The ServiceNow Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.The ServiceNow Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.The ServiceNow Core Business Suite \(CBS\) application lays the foundation to unify disjointed processes across business units. It’s a collection of modules that fulfills different business needs for different personas within a single product suite. CBS is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/cbs-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/cbs-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-23"
@@ -45,9 +45,9 @@ See [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNo
         -   Prime: Act autonomously with all AI assets, and create your own
         For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-    -   Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    -   ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 
 ## August 2026
 
@@ -55,11 +55,11 @@ The ServiceNow® Core Business Suite \(CBS\) application lays the foundation to 
 
 ### What's new
 
--   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)**
+-   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)**
 
     Use the Knowledge module in CBS to adjust the default settings for Knowledge Base articles. You can also import articles, or create additional knowledge bases to support cross-functional knowledge sharing across business units.
 
--   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)**
+-   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)**
 
     Provide specific permissions for business unit admins to own and manage Knowledge Base and Knowledge Base articles in different departments within CBS.
 
@@ -79,7 +79,7 @@ The ServiceNow® Core Business Suite \(CBS\) application lays the foundation to 
 
 ### What's new
 
--   **[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)[Employee Slate for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/employee-slate-cbs.md)**
+-   **[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)[Employee Slate for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/employee-slate-cbs.md)**
 
     Provide your employees with a consolidated view of the Employee Center widgets with a conversational interface on Employee Slate. Raise issues, ask for information, or submit business unit-specific service requests conversationally. Employee Slate is the default employee support portal for CBS.
 
@@ -122,7 +122,7 @@ The ServiceNow® Core Business Suite \(CBS\) application lays the foundation to 
     Use the new CBS home page to initiate installations of different applications across BUs in one place. Track setup progress and receive guided configuration support from a unified product console. You can install and configure applications according to your business requirements.
 
 
--   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/groups-cbs.md)**
+-   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/groups-cbs.md)**
 
     Assign people to groups for task and project management across Core Business Suite organizations in CBS.
 

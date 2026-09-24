@@ -2,7 +2,7 @@
 title: Establish a connection using client secret
 description: Establish a connection between newly created Microsoft Teams graph application with ServiceNow AI Platform instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/establish-a-connection-using-client-secret.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/establish-a-connection-using-client-secret.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -50,5 +50,5 @@ Role required: admin
     \[Omitted image "api-permissions-msteams.png"\] Alt text: API Permissions - MS Teams
 
 
-**Parent Topic:**[Using Client Secret value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-client-secret-value.md)
+**Parent Topic:**[Using Client Secret value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-client-secret-value.md)
 

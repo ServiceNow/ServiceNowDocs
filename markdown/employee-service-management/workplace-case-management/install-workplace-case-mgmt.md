@@ -2,7 +2,7 @@
 title: Install Workplace Case Management
 description: Install the Workplace Case Management application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/install-workplace-case-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/install-workplace-case-mgmt.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -61,7 +61,7 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

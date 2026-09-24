@@ -2,7 +2,7 @@
 title: NetApp SolidFire storage system discovery
 description: ServiceNow Discovery uses the NetApp SolidFire storage system discovery pattern to find clusters and nodes on the SolidFire storage system. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -28,7 +28,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   CMDB CI Class Models
 -   **Create credential alias for basic authentication credential**
 
-    Configure a credential alias for basic authentication credentials for a SolidFire Cluster Admin user. For more information, see [Create a basic authentication credential alias for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-solidfire.md).
+    Configure a credential alias for basic authentication credentials for a SolidFire Cluster Admin user. For more information, see [Create a basic authentication credential alias for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-solidfire.md).
 
 -   **Verify that the MID Server has access**
 
@@ -36,7 +36,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create a serverless discovery schedule**
 
-    Create a serverless discovery schedule to perform targeted discovery of SolidFire clusters and nodes. For more information, see [Create a serverless discovery schedule for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-solidfire.md).
+    Create a serverless discovery schedule to perform targeted discovery of SolidFire clusters and nodes. For more information, see [Create a serverless discovery schedule for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-solidfire.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -137,10 +137,10 @@ The NetApp SolidFire Storage System pattern creates the following relationships 
 |Serial Number \[cmdb\_serial\_number\]|Configuration Item \[cmdb\_ci\]|Storage Server \[cmdb\_ci\_storage\_server\]|
 |Serial Number \[cmdb\_serial\_number\]|Configuration Item \[cmdb\_ci\]|Storage Node Element \[cmdb\_ci\_storage\_node\_element\]|
 
--   **[Create a basic authentication credential alias for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-solidfire.md)**  
+-   **[Create a basic authentication credential alias for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-solidfire.md)**  
 Create an alias and add it to a basic authentication credential to discover NetApp SolidFire clusters.
--   **[Create a serverless discovery schedule for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-solidfire.md)**  
+-   **[Create a serverless discovery schedule for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-solidfire.md)**  
 Set up a dedicated serverless discovery schedule for NetApp SolidFire cluster and node discovery.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

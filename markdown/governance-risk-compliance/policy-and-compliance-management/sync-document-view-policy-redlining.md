@@ -2,7 +2,7 @@
 title: Sync document and view policy text
 description: Update the document and view the content in the Policy text field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/sync-document-view-policy-redlining.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/sync-document-view-policy-redlining.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

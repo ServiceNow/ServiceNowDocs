@@ -2,7 +2,7 @@
 title: Start and end a conference call from Twilio in Service Operations Workspace
 description: Start a conference call using Twilio to collaborate with others to work toward the resolution of an incident. End the call when the discussion is over.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/start-conference-call-telephony.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/start-conference-call-telephony.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -82,5 +82,5 @@ Provide a brief summary about the issue to be discussed in the conference call.
     2.  From the **Leave call** drop-down menu, select **End call**.
 
 
-**Parent Topic:**[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/telephony-sow.md)
+**Parent Topic:**[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/telephony-sow.md)
 

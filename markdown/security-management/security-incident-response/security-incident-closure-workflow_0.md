@@ -2,7 +2,7 @@
 title: Security Incident Closure workflow
 description: Close the security incident by updating the incident state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-closure-workflow\_0.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/security-incident-closure-workflow\_0.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -66,7 +66,7 @@ Role required: sn\_si.analyst
     **Note:** By any chance if the analyst cancels the **Close the security incident** dialogue box, then the analyst can navigate to the **Details** tab and change the incident state to **close** to continue with the closure.
 
 
-**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 

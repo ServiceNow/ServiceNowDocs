@@ -2,7 +2,7 @@
 title: Pipeline project record tabs and UI actions
 description: View project financial details, add existing procurement objects to pipeline projects, or create new procurement objects from the Pipeline project record form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-form-tabs-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-form-tabs-actions.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -127,7 +127,7 @@ Use this drop-down list to create new objects for the pipeline project. Availabl
 -   New contract
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
+</table>**Parent Topic:**[Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
 
 **Related topics**  
 

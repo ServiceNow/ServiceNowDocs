@@ -2,7 +2,7 @@
 title: Components installed with Predictive Intelligence for Legal Service Delivery
 description: Several types of components are installed with activation of the Predictive Intelligence for Legal Service Delivery application, including user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-components-installed-pi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-components-installed-pi.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -65,5 +65,5 @@ Legal AI Configuration\[sn\_lg\_ai\_configuration\]
 Stores information related to use cases for the solution definitions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Predictive Intelligence for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-PI-reference-landing.md)
+</table>**Parent Topic:**[Predictive Intelligence for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-PI-reference-landing.md)
 

@@ -2,7 +2,7 @@
 title: Handling fees
 description: Configure the conditions of a purchase request that, met, add a handling fee to that purchase request. Any field on the Purchase Request table can be used as part of the conditions to determine if a handling fee is to be applied for a purchase.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/handling-fees.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/handling-fees.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,5 +22,5 @@ If there is a handling fee rule associated with a purchase requisition, a new pu
 
 **Note:** Handling fees support fixed amounts and percentage-based pricing only. Tiered or break-based pricing is not available for handling fees.
 
-**Parent Topic:**[Purchase requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition.md)
+**Parent Topic:**[Purchase requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition.md)
 

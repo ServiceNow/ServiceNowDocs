@@ -2,7 +2,7 @@
 title: Create demand form
 description: Use a demand as a step to identify cost-saving opportunities on the business applications and meet your targets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-demand-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-demand-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -92,12 +92,12 @@ Business applications that you add to the demand.
 You can select any business application in your enterprise, irrespective of it being related or not related to the capability that you’ve selected in the **Business capabilities** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md)
+[Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md)
 
-[Create a demand using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-demand-using-the-list-view.md)
+[Create a demand using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-a-demand-using-the-list-view.md)
 

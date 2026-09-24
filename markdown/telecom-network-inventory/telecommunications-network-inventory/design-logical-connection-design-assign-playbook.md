@@ -2,7 +2,7 @@
 title: Logical connections
 description: Design and assign a logical connection in the Telecommunications Network Inventory application. By using the Design and Assign function, you can fulfill the logical connection design request of a customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -109,7 +109,7 @@ The Design and Assign function for a logical connection has the following workfl
 
 By completing these steps, a logical connection record is generated with the associated Configuration Items \(CI\).
 
-To learn more about the steps to design and assign a logical connection, see [Create a logical connection record using the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-design-assign-playbook.md).
+To learn more about the steps to design and assign a logical connection, see [Create a logical connection record using the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-design-assign-playbook.md).
 
 ## Access
 
@@ -122,7 +122,7 @@ You can access the Design and Assign function for a logical connection in the Te
 **Related topics**  
 
 
-[Design and assign your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/design-assign-playbook.md)
+[Design and assign your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/design-assign-playbook.md)
 
-[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
+[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 

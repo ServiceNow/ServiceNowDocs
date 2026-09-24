@@ -2,7 +2,7 @@
 title: Overall supplier dashboard
 description: The Overall supplier dashboard provides a comprehensive view of the entire supplier base's performance in one centralized location, aggregating data across all suppliers to give you enterprise-wide insights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/overall-supplier-db.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/overall-supplier-db.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -39,10 +39,10 @@ The Overall supplier dashboard offers the following key benefits:
 -   Check if strategic suppliers have higher or lower risk profiles than tactical ones.
 -   Review action plans for suppliers with elevated risk levels.
 
--   **[View Overall supplier dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-overall-supp-db.md)**  
+-   **[View Overall supplier dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/view-overall-supp-db.md)**  
 You can view the Overall supplier dashboard to get the enterprise-wide insights for the entire suppliers base.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 
@@ -71,5 +71,5 @@ You can view the Overall supplier dashboard to get the enterprise-wide insights 
 
 [Emails view for supplier managers]()
 
-[View Overall supplier dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-overall-supp-db.md)
+[View Overall supplier dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/view-overall-supp-db.md)
 

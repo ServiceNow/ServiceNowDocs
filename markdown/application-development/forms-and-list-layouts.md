@@ -2,7 +2,7 @@
 title: Forms and list layouts
 description: Forms and list layouts control how an app's data appears to users. A form displays a single record so users can view or edit it. A list displays multiple records so users can browse, filter, and find the data they need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/forms-and-list-layouts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/forms-and-list-layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-01"
@@ -42,5 +42,5 @@ Forms and list layouts work together to shape the user experience of your app. A
 
 Configuring both helps ensure your app presents data in a way that matches your users' actual workflow, rather than exposing every field on every table by default.
 
-**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-your-first-app.md)
 

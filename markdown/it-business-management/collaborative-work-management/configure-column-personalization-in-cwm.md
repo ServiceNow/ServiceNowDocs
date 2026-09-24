@@ -2,7 +2,7 @@
 title: Configure columns available for personalization in CWM
 description: Configure which columns are available in the column personalization panel in CWM by updating the default list layout for the relevant table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/configure-column-personalization-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/configure-column-personalization-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -43,12 +43,12 @@ CWM displays columns from the default list view of a table as available options 
 
 ## Result
 
-Users can now select the updated columns when personalizing the display of CWM Boards. For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
+Users can now select the updated columns when personalizing the display of CWM Boards. For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
 
 **Related topics**  
 
 
 [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheListLayout.md)
 
-[Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/personalize-cwm-board-views.md)
+[Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/personalize-cwm-board-views.md)
 

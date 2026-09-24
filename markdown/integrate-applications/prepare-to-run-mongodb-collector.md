@@ -2,7 +2,7 @@
 title: Prepare to run the MongoDB collector
 description: Create a MongoDB user and configure authentication before running the collector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-mongodb-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-mongodb-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,5 +34,5 @@ Role required: admin
     -   For built-in roles: Assign the Read any database role.
     -   For specific privileges: Assign Read permission for every database that you want to collect.
 
-**Parent Topic:**[MongoDB metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mongodb-metadata-collector.md)
+**Parent Topic:**[MongoDB metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mongodb-metadata-collector.md)
 

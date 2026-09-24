@@ -2,7 +2,7 @@
 title: Domain separation and Strategic Planning
 description: If any conrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file. In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conref at the end that describes domain separation.Domain separation is supported for Strategic Planning. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/alignment-planner-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/alignment-planner-domain-separation.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -38,9 +38,9 @@ After you enable domain separation on your ServiceNow instance, the data of Stra
 
 ## Domain separated tables in Strategic Planning
 
-All the tables installed with Strategic Planning support domain separation. For a complete list of tables, see [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md).
+All the tables installed with Strategic Planning support domain separation. For a complete list of tables, see [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md).
 
-**Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
+**Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
 
 **Related topics**  
 

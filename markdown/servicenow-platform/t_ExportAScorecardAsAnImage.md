@@ -2,7 +2,7 @@
 title: Export a survey scorecard as an image
 description: You can export a scorecard as an image to use in presentations or other documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ExportAScorecardAsAnImage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ExportAScorecardAsAnImage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ Role required: admin or survey\_admin
 2.  Click **Download** and save the scorecard image to a storage location.
 
 
-**Parent Topic:**[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAScorecard.md)
+**Parent Topic:**[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAScorecard.md)
 
 **Related topics**  
 

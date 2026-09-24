@@ -2,7 +2,7 @@
 title: Rich Text Label
 description: This variable displays a formatted label on a catalog item form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/rich-text-label.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/rich-text-label.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -38,7 +38,7 @@ In the TinyMCE rich text editor, you can format the label and add images or link
 
 \[Omitted image "RichTextVariable.png"\] Alt text: The Rich Text Label variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -53,7 +53,7 @@ In the TinyMCE rich text editor, you can format the label and add images or link
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

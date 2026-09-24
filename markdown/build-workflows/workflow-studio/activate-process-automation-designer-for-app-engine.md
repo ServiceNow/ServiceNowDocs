@@ -2,7 +2,7 @@
 title: Activate Playbooks for App Engine
 description: Activate Playbooks on your instance to create playbooks in App Engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/activate-process-automation-designer-for-app-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/activate-process-automation-designer-for-app-engine.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -198,5 +198,5 @@ You can create triggers in Playbooks for [custom tables that you create](https:/
 
 **Note:** If you create a custom table such as My Table \[x\_my\_table\], you can create playbooks that trigger from it. However, you cannot create a playbook that triggers from a table belonging to another Process Automation Designer plugin.
 
-**Parent Topic:**[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md)
+**Parent Topic:**[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activate-process-automation-designer.md)
 

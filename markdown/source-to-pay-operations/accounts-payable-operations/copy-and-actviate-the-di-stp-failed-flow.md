@@ -2,7 +2,7 @@
 title: Copy and activate the DI STP Failed flow
 description: Copy and activate the DI STP Failed flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-and-actviate-the-di-stp-failed-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/copy-and-actviate-the-di-stp-failed-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

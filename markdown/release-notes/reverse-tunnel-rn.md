@@ -2,7 +2,7 @@
 title: Reverse Tunnel release notes
 description: The ServiceNow Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.The ServiceNow Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/reverse-tunnel-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/reverse-tunnel-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-06-08"
@@ -34,7 +34,7 @@ See [Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     For details, see [Connect a private relay to the Reverse Tunnel gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-customer-relay.md).
 
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## Australia
 

@@ -2,7 +2,7 @@
 title: Create a CAPI API
 description: If the existing CAPI APIs do not integrate with the CAPI interface for a provider, you can create an API. The steps in resource blocks can call your API methods when operations are executed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-api.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,7 +19,7 @@ If the existing CAPI APIs do not integrate with the CAPI interface for a provide
 ## Before you begin
 
 -   Role required: admin
--   Review [Default CAPI APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/default-apis.md) and make sure the provider and product that you are creating do not exist.
+-   Review [Default CAPI APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/default-apis.md) and make sure the provider and product that you are creating do not exist.
 -   Familiarize yourself with the cloud provider API so that you know how to create REST calls to the provider. If you are not familiar with the headers, authentication requirements, endpoint, and data that you can pass into the provider API, you cannot build your own CAPI components.
 
 ## About this task
@@ -327,5 +327,5 @@ You typically do not need to change this value.Change the **Supported in** versi
     7.  Modify the script include for each operation.
 
 
-**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
+**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

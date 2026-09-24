@@ -2,7 +2,7 @@
 title: Revoked MITRE tactic-technique review fields
 description: Fields on the review record that MITRE ingestion creates for a revoked tactic and technique pair, and the values that each field can hold.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-mitre-revoked-review-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-mitre-revoked-review-fields.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -128,10 +128,10 @@ Journal of the review activity, including the action that was requested and the 
 |Complete|The requested action finished.|
 |Error|The background work didn't finish. You can run the action again from the record.|
 
-**Parent Topic:**[Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md)
+**Parent Topic:**[Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md)
 
 **Related topics**  
 
 
-[Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md)
+[Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md)
 

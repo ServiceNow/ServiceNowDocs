@@ -2,7 +2,7 @@
 title: Localization Framework integration with Catalog Builder
 description: The Translation Status tab in the Catalog items tab on the Catalog Builder dashboard enables you to view the translation status of catalog items, and translate catalog items on the fly using manual or machine translation methods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c-CB-LF-translation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/c-CB-LF-translation.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -66,5 +66,5 @@ For more information, see [Request ad hoc translation for Service Catalog items]
 |Partially translated|Request translation and Self-translation|If there are partial translations in the system for that specific catalog item for that language, the state **Partially Translated** appears near the language name.|
 |Translated|Request translation and Self-translation|If all translations for that specific catalog item for that language exist in the system, the state **Translated** appears near the language name.|
 
-**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
+**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
 

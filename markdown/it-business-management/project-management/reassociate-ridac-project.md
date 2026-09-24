@@ -2,7 +2,7 @@
 title: Associate existing RIDAC records for a project
 description: Link existing RIDAC records \(risks, issues, actions, decisions, and request changes\) to one another for your project. Associating RIDAC records with each other enables you to keep a record of risks or issues and their outcome for analysis at project closure and planning. It also helps to track the risks and issues throughout the project life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/reassociate-ridac-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/reassociate-ridac-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -48,7 +48,7 @@ You can associate one record with multiple different records. For example, you c
 **Related topics**  
 
 
-[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md)
+[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ridac-entries-for-project.md)
 
-[Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/convert-ridac-for-project.md)
+[Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/convert-ridac-for-project.md)
 

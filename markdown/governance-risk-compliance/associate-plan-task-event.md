@@ -2,7 +2,7 @@
 title: Add impacted assets and plans to an event
 description: Quantify the performance of your continuity and recovery plans through event-based testing. Measure success by tracking the completion of tasks associated with each plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/associate-plan-task-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/associate-plan-task-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,11 +46,11 @@ A good business continuity plan is a result of thoughtful assessment of business
     -   view the plans related to the assets under the respective assets in the grid
     -   add an ad hoc plan that does not have a plan reference
     -   view the details of asset recovery and the activated plan by selecting the information icon \(\[Omitted image "InformationIcon.png"\] Alt text: Information icon\)
-    For information on the logic behind the calculation of recovery task entities, see [Calculation of actual duration and total effort to recover an event asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-exercise-crisis-event-details.md).
+    For information on the logic behind the calculation of recovery task entities, see [Calculation of actual duration and total effort to recover an event asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/view-exercise-crisis-event-details.md).
 
     When CMDB CI assets scoped in the plan are recovered, related assets and plans are automatically pulled into the exercise event as impacted assets and activated plans.
 
-    For more information on the planning and execution of a recovery event, see [Data flow, planning, execution, and recovery of related plan assets in event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/planning-execution-event-bcm.md).
+    For more information on the planning and execution of a recovery event, see [Data flow, planning, execution, and recovery of related plan assets in event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/planning-execution-event-bcm.md).
 
 8.  Select the **Add assets** button to recover assets in the event.
 

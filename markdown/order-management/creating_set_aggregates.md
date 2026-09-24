@@ -2,7 +2,7 @@
 title: Creating set aggregates
 description: You can collect the average, count, maximum, minimum, and sum of the data in any field in a set by using a set aggregate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/creating\_set\_aggregates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/creating\_set\_aggregates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -127,5 +127,5 @@ The following field is the field set up for the examples in this topic. Note tha
 **Related topics**  
 
 
-[Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layouts-sets.md)
+[Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layouts-sets.md)
 

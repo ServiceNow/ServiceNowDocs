@@ -2,7 +2,7 @@
 title: Configure an action configuration record
 description: Create an action configuration record for a form or list action and copy the action configuration record's sys\_id.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/config-da-action-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/config-da-action-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ An action configuration is a record that defines how and where a declarative act
 
     The action configuration record’s sys\_id is copied to clipboard. You’ll need to use the sys\_id in UI Builder to display the action on a workspace page.
 
-    For example, you can display a restricted global list action on a specified workspace page. For instructions, see [Restrict a global list action to a workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-da-limit-workspace-page.md).
+    For example, you can display a restricted global list action on a specified workspace page. For instructions, see [Restrict a global list action to a workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/config-da-limit-workspace-page.md).
 
 6.  Select **Submit**.
 

@@ -2,7 +2,7 @@
 title: Migrate the Verizon eBonding Integration to a Production System
 description: This topic outlines the tasks required for moving the Verizon eBonding integration from a Dev/Test environment to a Production environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_MigrVerizoneBondIntegToAProdSys.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_MigrVerizoneBondIntegToAProdSys.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ Perform these tasks in order.
     **Warning:** Do not create test tickets against the production system without working with the Verizon team. Any tickets created are treated as real tickets.
 
 
-**Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ServiceNowProvidedintegrations.md)
+**Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_ServiceNowProvidedintegrations.md)
 

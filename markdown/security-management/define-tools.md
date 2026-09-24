@@ -2,7 +2,7 @@
 title: Define tools
 description: Define tools as legitimate software that is used to perform attacks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-tools.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -172,5 +172,5 @@ Show Relationships
 Opens the STIX Visualizer where you can view the relationship of the STIX object.Show Relationships appears only when the object has an associated object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tools.md)
+</table>**Parent Topic:**[Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/tools.md)
 

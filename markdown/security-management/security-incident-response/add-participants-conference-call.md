@@ -2,7 +2,7 @@
 title: Add participants to a conference call
 description: Add participants to a conference call using the search option on the Start conference call pop-up to find and add the required participants. You can also add participants by selecting the participants from the Recommendations list, which provides participant recommendations to add to the conference call.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-participants-conference-call.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/add-participants-conference-call.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -53,7 +53,7 @@ The call participants can include the following:
 7.  Alternatively, you can add participants by selecting the **Copy invite** option on the Conference calls section on the right-context menu, and you can share with the required participants.
 
 
-**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
+**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-msim-conference-calls.md)
 
 **Related topics**  
 

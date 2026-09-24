@@ -2,7 +2,7 @@
 title: Using Voice with Workforce Optimization for ITSM
 description: Use Voice to deflect incidents away from your human agents using bots. You can record phone interactions when agents resolve issues. Also, you can monitor those interactions to evaluate and improve the quality of incident resolutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/voice-configurable-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/voice-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -51,12 +51,12 @@ As an agent, you can:
 -   Analyze call transcripts and listen to recordings after you complete an interaction.
 -   Place outbound calls using automated outbound dialing.
 
--   **[Associate Amazon Connect queues for ITSM to a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-cloudcallcenter-itsm-configurable-workspace.md)**  
+-   **[Associate Amazon Connect queues for ITSM to a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/setup-cloudcallcenter-itsm-configurable-workspace.md)**  
 Set up phone queues for Amazon Connect to gain visibility into the queues using Workforce Optimization for ITSM.
--   **[Listen in to an agent call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/listen-in-to-agent-call-configurable-workspace.md)**  
+-   **[Listen in to an agent call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/listen-in-to-agent-call-configurable-workspace.md)**  
 Monitor agent calls when they are resolving issues for external callers by using Workforce Optimization for ITSM.
--   **[Analyze transcripts and sentiments for the Amazon Connect phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/analyze-transcripts-sentiments-wfo-itsm-confgurable-workspace.md)**  
+-   **[Analyze transcripts and sentiments for the Amazon Connect phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/analyze-transcripts-sentiments-wfo-itsm-confgurable-workspace.md)**  
 Analyze your agent's call recordings, transcripts, and sentiment reports. With this information, you can assess the call quality and train your agents to handle calls better in the future.
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

@@ -2,7 +2,7 @@
 title: Update filter conditions for connected work in CWM
 description: Update the filter conditions for connected work item types in Collaborative Work Management Boards so that the work items displayed in the Board reflect your team's current workload.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/update-conditions-for-connected-work-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/update-conditions-for-connected-work-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -53,5 +53,5 @@ Role required: sn\_cwm.cwm\_user
 
 The Board is refreshed to load the work items based on your changes.
 
-**Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
+**Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 

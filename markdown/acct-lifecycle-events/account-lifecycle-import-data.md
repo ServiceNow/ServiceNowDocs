@@ -2,7 +2,7 @@
 title: Import data into the account onboarding playbook
 description: As part of the Customer Success Management process, you can import, configure, and publish data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-import-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-import-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -75,5 +75,5 @@ To import data into these default tables, follow these steps:
     **Note:** You can send emails only to the team members associated with the account.
 
 
-**Parent Topic:**[Data capture and validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-playbook-data-capture.md)
+**Parent Topic:**[Data capture and validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use-playbook-data-capture.md)
 

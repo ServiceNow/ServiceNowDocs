@@ -2,7 +2,7 @@
 title: Use the GetMainWindowHandle component
 description: Retrieve the window handle of a main window of an active process by using the GetMainWindowHandle component in RPA Desktop Design Studio. This component accepts the Process ID as input and returns the Integer value of the specified process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-sysprocess-getmainwindhandle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-sysprocess-getmainwindhandle.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetMainWindowHandle component. For more information about these properties, see [Properties of the System Process components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-sysprocess-prop.md).
+You can configure the properties for the GetMainWindowHandle component. For more information about these properties, see [Properties of the System Process components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-sysprocess-prop.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the GetMainWindowHandle component. For more
 
 2.  Drag the GetMainWindowHandle component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the GetMainMainWindowHandle to the corresponding ports of the other component as described in the following table.
 
@@ -42,5 +42,5 @@ You can configure the properties for the GetMainWindowHandle component. For more
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-process-utilities.md)
+**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-process-utilities.md)
 

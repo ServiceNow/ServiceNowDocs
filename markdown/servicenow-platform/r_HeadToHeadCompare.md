@@ -2,7 +2,7 @@
 title: Assessment scorecard head-to-head compare view
 description: The Head to Head Compare view allows you to compare the ratings of two assessable records of the same type. Select an assessable record from the choice list to compare against the current record's trailing twelve month \(TTM\) ratings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_HeadToHeadCompare.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_HeadToHeadCompare.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ In the following example, the calculation is
 
 \[Omitted image "OverallRatingExample.png"\] Alt text: Overall rating on the group scorecard
 
-**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 

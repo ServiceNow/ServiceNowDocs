@@ -2,7 +2,7 @@
 title: Identify the source of the profile
 description: Specify the name and source of the profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secureworks-ctp-create-profile-name.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/secureworks-ctp-create-profile-name.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

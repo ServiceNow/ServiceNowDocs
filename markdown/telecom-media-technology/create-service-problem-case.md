@@ -2,7 +2,7 @@
 title: Create a service problem case from the workspace
 description: Create a service problem case using playbook for a customer raised issue so that an agent can work on it and resolve the service-related problem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-service-problem-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/create-service-problem-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

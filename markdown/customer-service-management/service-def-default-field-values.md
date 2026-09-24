@@ -2,7 +2,7 @@
 title: Configure default field values for a service definition
 description: Configure default values for fields in a service definition's target table. When a record is created for this table, the system uses these values to auto populate record fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-def-default-field-values.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/service-def-default-field-values.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

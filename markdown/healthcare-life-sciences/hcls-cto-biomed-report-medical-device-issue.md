@@ -2,7 +2,7 @@
 title: Report a medical device issue with Care Team Operations for Biomed
 description: Report any issue with a medical device issue using the Report a medical device issue catalog item from the Care Team Operations portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-cto-biomed-report-medical-device-issue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-cto-biomed-report-medical-device-issue.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

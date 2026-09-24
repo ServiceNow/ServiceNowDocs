@@ -2,7 +2,7 @@
 title: Module access policy overview
 description: Module access policies \(MAPs\) are access controls that you apply to your cryptographic modules. Use these access policies to decide which users and scripts can access data encrypted by a cryptographic module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/module\_access\_policy\_overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/module\_access\_policy\_overview.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -18,7 +18,7 @@ Module access policies \(MAPs\) are access controls that you apply to your crypt
 
 ## Module access policies
 
-**Note:** A subscription is required to utilize the Field Encryption Enterprise functionality. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md) for more information on Field Encryption Enterprise.
+**Note:** A subscription is required to utilize the Field Encryption Enterprise functionality. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/activate-platform-encryption.md) for more information on Field Encryption Enterprise.
 
 Module access policies are introduced with the Key Management Framework \(KMF\) in the base system.
 
@@ -30,7 +30,7 @@ Module access policies expand on the role-based designations that were provided 
 -   Script
 -   Resource Exchange
 
-    **Note:** See [Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/resource-exchange.md) for details.
+    **Note:** See [Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/resource-exchange.md) for details.
 
 
 In a cryptographic module, you must configure the correct module access policies to permit access to encrypted data. Without a module access policy associated with a cryptographic module, encrypted data isn’t visible to users and associated fields and columns in lists display as empty.
@@ -41,7 +41,7 @@ In this example, the absence of a module access policy on the encrypted Short De
 
 **Note:** The data in the column also appears empty to users without the correct role specified in the module access policy.
 
-Refer to [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-module-access-policy.md) for setup.
+Refer to [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/create-module-access-policy.md) for setup.
 
 ## Autogen policies
 
@@ -51,5 +51,5 @@ Autogen policies are automatically system generated based on the default module 
 
 Autogen policy rules aren’t applied for scheduled jobs types, or field encryption modules \(modules where the parent module is Field Encryption\).
 
-**Parent Topic:**[Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/explore-kmf.md)
+**Parent Topic:**[Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/explore-kmf.md)
 

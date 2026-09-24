@@ -2,7 +2,7 @@
 title: Configure keyword search for catalog items
 description: When you search for a catalog item by a keyword in Service Catalog, the search results are displayed by considering a few fields of the catalog table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/search-catalog-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/search-catalog-item.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -59,24 +59,24 @@ The search results are sorted in the following order based on the frequency of t
     2.  Under the **Did You Mean Properties** section, enable the **Suggest alternate search spellings for knowledge, catalog or global search** property.
 
 
-**Parent Topic:**[Configure search and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ConfigSrchNavUseProps.md)
+**Parent Topic:**[Configure search and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ConfigSrchNavUseProps.md)
 
 **Related topics**  
 
 
 [Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration.md)
 
-[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
+[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
 
 [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RegenerateATextIndexForATable.md)
 
 [Configure a "Did You Mean?" suggestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureADidYouMeanSuggestion.md)
 
-[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md)
+[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_DefineACatalogItem.md)
 
-[Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md)
+[Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_DefRecProdInSCat.md)
 
-[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md)
+[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md)
 
-[Define a content item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_AddingContentItemServiceCatalog.md)
+[Define a content item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_AddingContentItemServiceCatalog.md)
 

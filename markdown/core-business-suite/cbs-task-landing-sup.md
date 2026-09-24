@@ -2,7 +2,7 @@
 title: Supplier support areas
 description: The supplier support services in the Core Business Suite help you set up a simplified supplier journey for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-task-landing-sup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-task-landing-sup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Choose one of the following tiles to learn more about the different applications
 
 \[Omitted image "slo-form-dec.png"\] Alt text: Image displays General inquiry form template in SLO.
 
-Ask a general category question, using the supplier catalog. For more information, [Raise a general supplier request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-slo.md).
+Ask a general category question, using the supplier catalog. For more information, [Raise a general supplier request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/request-slo.md).
 
 ## Accounts Payable requests
 
@@ -43,7 +43,7 @@ Ask a general category question, using the supplier catalog. For more informatio
 
 As a supplier, use the Supplier Collaboration Portal to create an inquiry related to an invoice and submit it to the Accounts Payable Operations team to evaluate and resolve the inquiry.
 
-For more information, see [Raise an invoice request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-apo.md).
+For more information, see [Raise an invoice request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/request-apo.md).
 
 ## Workflows and applications
 

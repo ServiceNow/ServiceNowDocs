@@ -2,7 +2,7 @@
 title: Set up a work configuration
 description: Create a work configuration for a work item. Add filters that display key information that the manager wants to analyze. This work configuration will determine how the work items display on the Work scheduler calendar in manager workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-work-scheduler-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/setup-work-scheduler-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -153,5 +153,5 @@ Select a matching rule for the work configuration.
     5.  Select **Update**.
 
 
-**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
 

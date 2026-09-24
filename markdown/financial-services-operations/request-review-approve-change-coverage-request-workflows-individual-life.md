@@ -2,7 +2,7 @@
 title: Request, review, and approve increase coverage request workflows
 description: Learn how agents, using the increase coverage workflow, resolve service requests for requesting, reviewing, and approving individual life insurance policy change requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/request-review-approve-change-coverage-request-workflows-individual-life.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/request-review-approve-change-coverage-request-workflows-individual-life.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

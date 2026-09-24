@@ -2,7 +2,7 @@
 title: Mobile App Builder categories home screen
 description: Use the Mobile App Builder categories home screen to select or create the most commonly used configuration options. Select category options like Screens or Cards &amp; Icons to create and edit records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-menu-screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-menu-screen.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

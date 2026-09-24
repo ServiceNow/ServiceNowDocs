@@ -2,7 +2,7 @@
 title: Instance Data Replication release notes
 description: The ServiceNow Instance Data Replication \(IDR\) application simplifies the data replication process between instances. Instance Data Replication was enhanced and updated in the Australia release.The ServiceNow Instance Data Replication \(IDR\) application simplifies the data replication process between instances. Instance Data Replication was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/instance-data-replication-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/instance-data-replication-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ See [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/Ser
     Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is composed of seven shards, with five days for each shard. All log entries in this table that are created before the upgrade are automatically truncated.
 
 
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-capabilities-rn-landing.md)
 
 ## Australia
 

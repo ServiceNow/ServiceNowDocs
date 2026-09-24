@@ -2,12 +2,12 @@
 title: View Customer Actions
 description: See details of all of the activity related to your Customer Actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/view-activity-of-critical-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/view-activity-of-critical-updates.html
 release: australia
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Customer Actions, Security configuration console, Security Center, Platform Security]
 ---
@@ -43,5 +43,5 @@ The activities will be listed from newest to oldest so that you can analyze the 
     All of the activity related to a Customer Action is automatically recorded. In addition, you have the ability to add additional comments to activities.
 
 
-**Parent Topic:**[Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/critical-updates.md)
+**Parent Topic:**[Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/critical-updates.md)
 

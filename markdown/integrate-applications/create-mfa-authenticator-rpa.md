@@ -2,7 +2,7 @@
 title: Create an MFA authenticator in RPA Hub
 description: Define the authenticator and token length that acts as an enabler for the Time-based One-time Password \(TOTP\) authentication in RPA Hub so that the unattended robots can seamlessly authenticate against multi-factor authentication \(MFA\)-enabled applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-mfa-authenticator-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-mfa-authenticator-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ Define the authenticator and token length that acts as an enabler for the Time-b
 
 Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mfa-landing.md).
 
-Familiarize yourself with the TOTP authentication in RPA Hub. For more information, see [TOTP authentication in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/totp-authentication-rpa.md).
+Familiarize yourself with the TOTP authentication in RPA Hub. For more information, see [TOTP authentication in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/totp-authentication-rpa.md).
 
 You must do this task in the classic environment.
 
@@ -93,12 +93,12 @@ Status of the life-cycle stage of the MFA authenticator:-   **In Use**- This val
 
 ## What to do next
 
-Create a TOTP authenticator. For more information, see [Create a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/map-totp-credential-set-rpa.md).
+Create a TOTP authenticator. For more information, see [Create a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/map-totp-credential-set-rpa.md).
 
 **Related topics**  
 
 
-[Retire an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/retire-mfa-authenticator.md)
+[Retire an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/retire-mfa-authenticator.md)
 
-[Delete a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/delete-mfa-authenticator-rpa.md)
+[Delete a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/delete-mfa-authenticator-rpa.md)
 

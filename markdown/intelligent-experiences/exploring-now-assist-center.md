@@ -2,7 +2,7 @@
 title: Exploring AI Admin Center
 description: The ServiceNow AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, making it fast and effortless for administrators to set up and manage AI solutions from a unified experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-now-assist-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/exploring-now-assist-center.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -120,7 +120,7 @@ Accelerate and simplify setup of your AI solutions in a unified experience. The 
 
 </td><td>
 
-[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md)
+[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md)
 
 </td><td>
 
@@ -132,7 +132,7 @@ Easy-to-use conversational interface to perform common admin tasks, from basic s
 
 </td><td>
 
-[ServiceNow Otto panel in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
+[ServiceNow Otto panel in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
 
 </td><td>
 
@@ -144,7 +144,7 @@ Automated assessment of your instance readiness helps you prepare for AI adoptio
 
 </td><td>
 
-[AI readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-readiness-evaluation.md)
+[AI readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-readiness-evaluation.md)
 
 </td><td>
 
@@ -156,7 +156,7 @@ Get started right away with guided quick-start use cases that appear as actionab
 
 </td><td>
 
-[Actionable use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-actionable-use-cases.md)
+[Actionable use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-actionable-use-cases.md)
 
 </td><td>
 
@@ -180,7 +180,7 @@ Matches identified automation opportunities to existing AI agents on the platfor
 
 </td><td>
 
-[AI agent matching and automated deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md)
+[AI agent matching and automated deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-automation-opportunity-now-assist-center.md)
 
 </td><td>
 
@@ -194,7 +194,7 @@ Provides centralized access to the broader AI ecosystem within a consistent tabb
 
 </td><td>
 
-[ServiceNow AI applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-other-applications.md)
+[ServiceNow AI applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-using-other-applications.md)
 
 </td><td>
 
@@ -206,19 +206,19 @@ View performance and usage statistics for your AI implementation.
 
 </td><td>
 
-[AI adoption metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-monitoring.md)
+[AI adoption metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-monitoring.md)
 
 </td><td>
 
 AI administrator
 
 </td></tr></tbody>
-</table>-   **[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md)**  
+</table>-   **[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md)**  
 Use the AI Admin Center workspace to set up, monitor, and manage your AI solutions.
--   **[AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-readiness-evaluation.md)**  
+-   **[AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-readiness-evaluation.md)**  
 The AI readiness assessment helps to simplify and automate the generative AI and agentic AI implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
--   **[Supporting information for AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/supporting-information-now-assist-center.md)**  
+-   **[Supporting information for AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/supporting-information-now-assist-center.md)**  
 Get a quick overview of the important information that is related to the AI Admin Center application.
 
-**Parent Topic:**[AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md)
+**Parent Topic:**[AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-landing-page.md)
 

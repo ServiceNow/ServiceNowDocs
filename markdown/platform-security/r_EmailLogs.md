@@ -2,7 +2,7 @@
 title: System email log and mailboxes
 description: The system email log records all emails that the instance creates or receives. System mailboxes are filtered views of this log.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_EmailLogs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_EmailLogs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

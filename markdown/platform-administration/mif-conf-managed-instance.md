@@ -2,7 +2,7 @@
 title: Configure Managed Instances
 description: Implement the following steps to configure the Managed Instances in Multi-Instance Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/mif-conf-managed-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/mif-conf-managed-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

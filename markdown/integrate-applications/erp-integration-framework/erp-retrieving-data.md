@@ -2,7 +2,7 @@
 title: Retrieving data
 description: To retrieve data from an Enterprise Resource Planning \(ERP\) system, use remote tables or extraction tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-retrieving-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-retrieving-data.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

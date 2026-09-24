@@ -2,12 +2,12 @@
 title: Configure the KB generation skill
 description: Configure the KB generation skill that agents can use to draft a knowledge article with ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configure-the-kb-generation-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/configure-the-kb-generation-skill.html
 release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, Set up work orders and tasks, Configure, Field Service Management]
 ---

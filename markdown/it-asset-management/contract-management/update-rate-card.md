@@ -2,7 +2,7 @@
 title: Add rate cards to the new contract
 description: Add rate card details to the new contract by using the Rate cards task to track contract expenses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/update-rate-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/update-rate-card.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -38,7 +38,7 @@ Adding rate card details to a contract isn't a required procedure. You can close
 
 4.  On the Contract Rate Card form, fill in the financial details.
 
-    For a description of the field values, see [Contract Rate Card form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/ContractRateCardForm.md).
+    For a description of the field values, see [Contract Rate Card form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/ContractRateCardForm.md).
 
 5.  Select **Submit**.
 
@@ -51,5 +51,5 @@ The rate card is attached to the draft contract.
 
 ## What to do next
 
-[Review contract renewal details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/confirm-cont-renewal.md)
+[Review contract renewal details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/confirm-cont-renewal.md)
 

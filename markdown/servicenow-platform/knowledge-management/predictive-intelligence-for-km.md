@@ -2,7 +2,7 @@
 title: Predictive Intelligence for Knowledge Management
 description: The Predictive Intelligence for Knowledge Management capability uses machine-learning algorithms to provide various Knowledge Management capabilities, such as similar articles and knowledge demand insights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/predictive-intelligence-for-km.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/predictive-intelligence-for-km.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -18,7 +18,7 @@ The Predictive Intelligence for Knowledge Management capability uses machine-lea
 
 ## Solution definitions for Predictive Intelligence for Knowledge Management
 
-The solution definitions for Predictive Intelligence for Knowledge Management capability are available in the Predictive Intelligence for Knowledge Management plugin \(com.snc.knowledge\_ml\). For more information about the plugin, see [Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/additional-plugins-km.md).
+The solution definitions for Predictive Intelligence for Knowledge Management capability are available in the Predictive Intelligence for Knowledge Management plugin \(com.snc.knowledge\_ml\). For more information about the plugin, see [Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/additional-plugins-km.md).
 
 <table id="table_bdh_nzs_kbc"><thead><tr><th>
 
@@ -98,16 +98,16 @@ Similarity
 Compares similarity of incidents with knowledge bases and identifies similar closed and resolved incidents as candidate knowledge gaps.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Machine learning solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/machine-learning-km.md)
+</table>**Parent Topic:**[Machine learning solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/machine-learning-km.md)
 
 **Related topics**  
 
 
-[Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/train-similarity-solution-km.md)
+[Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/train-similarity-solution-km.md)
 
-[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-article-workspace.md)
+[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-article-workspace.md)
 
-[Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-demand-insights.md)
+[Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-demand-insights.md)
 
-[Demand Insights for Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/demand-insights-cases-dashboard.md)
+[Demand Insights for Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/demand-insights-cases-dashboard.md)
 

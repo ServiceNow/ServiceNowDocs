@@ -2,7 +2,7 @@
 title: Audit plan overview
 description: An audit plan enables you to plan all your audit engagements in a systematic and logical manner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/what-is-an-audit-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/what-is-an-audit-plan.html
 release: australia
 product: Audit Management
 classification: audit-management

@@ -2,7 +2,7 @@
 title: Geolocation history
 description: The Geolocation History \[geo\_history\] table contains the history of each tracked user's location over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_GeolocationHistory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_GeolocationHistory.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ The following system properties, located in **Geolocation** &gt; **Administratio
 -   Number of days to keep history data: Time period for which the system retains history data.
 -   Minimum amount of time between updating the user's location \(in seconds\): Time period the system waits before updating a user's location, regardless of how often the user accesses tasks.
 
-**Parent Topic:**[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Geolocation.md)
+**Parent Topic:**[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_Geolocation.md)
 

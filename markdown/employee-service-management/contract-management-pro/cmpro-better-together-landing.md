@@ -2,7 +2,7 @@
 title: Contract Management Pro integrations
 description: Contract Management Pro integrates with other ServiceNow products to streamline contract workflows across your organization. These integrations enable seamless collaboration between legal teams and other departments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-better-together-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-better-together-landing.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -33,11 +33,11 @@ Using Contract Management Pro with other products provides the following benefit
 
 Contract Management Pro integrates with the following products:
 
--   **[Optimizing Sales Customer Relationship Management through Contract Lifecycle Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-som-better-together.md)**
+-   **[Optimizing Sales Customer Relationship Management through Contract Lifecycle Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-som-better-together.md)**
 
     Enable sales teams to create legal sales contracts directly from quotes, accelerating the quote-to-contract process and ensuring faster revenue recognition.
 
--   **[Optimizing Sourcing and Procurement Operations through Contract Lifecycle Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-spo-better-together.md)**
+-   **[Optimizing Sourcing and Procurement Operations through Contract Lifecycle Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-spo-better-together.md)**
 
     Embed contract request workflows into procurement processes, enabling sourcing professionals to request and manage contracts without leaving their workspace.
 

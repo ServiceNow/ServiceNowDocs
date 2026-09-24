@@ -2,7 +2,7 @@
 title: View the history of changes to a changeset
 description: View the details of changes in each committed changeset on the Activities tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-changeset-view-change-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-changeset-view-change-history.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

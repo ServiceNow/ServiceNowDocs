@@ -2,7 +2,7 @@
 title: Upload a custom font to your theme
 description: Upload and preview up to 10 custom font families and an unlimited number of associated font faces in your Theme Builder theme.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/upload-custom-font.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/upload-custom-font.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -88,12 +88,12 @@ You can also watch a short video on how to upload a custom font to your theme.
 
 ## Result
 
-After you upload your custom font, you can select it as your default font and apply it to your theme. For information, see [Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-font.md). The most recently added font family appears at the bottom of the **Manage custom fonts** list.
+After you upload your custom font, you can select it as your default font and apply it to your theme. For information, see [Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/edit-font.md). The most recently added font family appears at the bottom of the **Manage custom fonts** list.
 
--   **[Add a font face](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-font-face.md)**  
+-   **[Add a font face](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/add-font-face.md)**  
 Add a new style such as bold or italic to your custom font family in Theme Builder.
--   **[Delete a custom font from your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/delete-custom-font.md)**  
+-   **[Delete a custom font from your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/delete-custom-font.md)**  
 Delete and remove a custom font family or font face you no longer need from your Theme Builder theme.
 
-**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)
+**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-with-global-styles.md)
 

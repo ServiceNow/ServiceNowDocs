@@ -2,7 +2,7 @@
 title: AI insights skill reference
 description: Build a custom Now Assist skill that generates AI insights for the task details widget. Use this reference for the input, output, and error contract your skill must follow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-ai-insights-skill-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-ai-insights-skill-ref.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +21,7 @@ Build a custom Now Assist skill that generates AI insights for the task details 
 
 Build your skill to match the input and output format in this topic. Administrators select your skill in the **AI insights skill** field \(`aix_ai_insights_skill`\) on the **AI insights** tab of the `sn_ex_sp_task_configuration` table.
 
-To set a skill for a task type, see [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
+To set a skill for a task type, see [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
 
 -   When a task page loads, the task details widget runs your skill through `ActivityHubUtilSNC.generateAiInsights`. The widget then displays the results in the AI response card.
 -   When a skill is not selected, the AI insights section doesn't appear.
@@ -106,5 +106,5 @@ Administrators control when your skill runs using this property:
 **Related topics**  
 
 
-[Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md)
+[Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md)
 

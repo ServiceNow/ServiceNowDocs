@@ -2,7 +2,7 @@
 title: Set the presentation order of your Theme Builder themes
 description: Set the order of your Theme Builder themes to configure how they’re displayed in the user's Theme preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-presentation-order-themes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-presentation-order-themes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Set the order of your Theme Builder themes to configure how they’re displayed 
 
 ## Before you begin
 
--   Before setting the order of your themes, verify that you have more than one theme published. For more information on publishing your Theme Builder themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+-   Before setting the order of your themes, verify that you have more than one theme published. For more information on publishing your Theme Builder themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 -   Verify that you have selected the correct scope for the theme from the application scope picker.
 
 Role required: ui\_builder\_admin
@@ -48,5 +48,5 @@ Currently, setting order to your themes is only available to web instances. Mobi
     **Note:** If you have themes that are created outside of Theme Builder, the order displayed might not be reflective of all the themes available in the Theme user preference.
 
 
-**Parent Topic:**[Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md)
+**Parent Topic:**[Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md)
 

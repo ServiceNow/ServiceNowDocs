@@ -2,7 +2,7 @@
 title: Upgrade History Task form
 description: You can update information about a skipped record task using the Upgrade History Task form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-history-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-history-task-form.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center

@@ -2,7 +2,7 @@
 title: Administer Connect actions
 description: You can create or modify Connect actions to provide custom functionality in Connect Chat or Connect Support conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_AdministerConnectActions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/t\_AdministerConnectActions.html
 release: australia
 product: Connect
 classification: connect

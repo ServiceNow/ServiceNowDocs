@@ -2,7 +2,7 @@
 title: Configure Platform Analytics dashboard settings
 description: You can set refresh interval details and background colors, enable data caching to speed page refreshes, and choose which Insights cards to show.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-ac-db-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configure-ac-db-settings.html
 release: australia
 topic_type: task
 last_updated: "2026-05-11"
@@ -17,7 +17,7 @@ You can set refresh interval details and background colors, enable data caching 
 
 ## Before you begin
 
-Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards. Additionally, dashboard\_admin is required to schedule automated refreshes even of dashboards that you own.
+Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards. Additionally, dashboard\_admin is required to schedule automated refreshes even of dashboards that you own.
 
 ## Procedure
 
@@ -71,6 +71,6 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
     -   Choose whether and which analytics to show in the **Insights** section.
 
-        When you select **Show insights panel**, an **Insights** button is added to the dashboard. When a viewer presses this button, insights cards corresponding to the selected analytics options are shown. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/proactive-analytics/proactive-analytics.md).
+        When you select **Show insights panel**, an **Insights** button is added to the dashboard. When a viewer presses this button, insights cards corresponding to the selected analytics options are shown. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/proactive-analytics/proactive-analytics.md).
 
 

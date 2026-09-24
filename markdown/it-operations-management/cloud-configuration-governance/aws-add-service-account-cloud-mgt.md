@@ -2,7 +2,7 @@
 title: Add an AWS service account to the cloud account
 description: During Cloud Provisioning and Governance Day 1 setup, you added one service account to the cloud account. To compartmentalize your infrastructure or to include different datacenters, you can add another service account. A particular datacenter, however, cannot be selected in more than one service account in a cloud account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/aws-add-service-account-cloud-mgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/aws-add-service-account-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -70,7 +70,7 @@ Discovery credentials
 
 The credentials needed for ServiceNow applications to access this account. You may configure this field at a later stage, while configuring access to AWS accounts.
 
- -   If you [configured AWS credentials at ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-creds-cloud-mgt.md) , select the magnifying glass icon, and then select the name of the relevant AWS credential.
+ -   If you [configured AWS credentials at ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aws-create-creds-cloud-mgt.md) , select the magnifying glass icon, and then select the name of the relevant AWS credential.
 -   To use other AWS accounts to access this account, leave the field blank. For example, you don't need to specify the AWS credentials for accounts assuming IAM roles or member accounts using their management account for access.
 
 
@@ -124,7 +124,7 @@ Is master account
 
 Management account flag.It appears when you select **AWS datacenter** from the Datacenter Type drop-down. Select the check box to associate the AWS service account with the management account. Select this check box only for accounts that you previously configured in the AWS Management Console as management accounts with some member accounts belonging to them. See the [AWS documentation](https://aws.amazon.com/documentation/) for information on AWS Organizations.
 
-**Note:** You will need to setup the correct permission in AWS or the Organization role for a standard credential. For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md).
+**Note:** You will need to setup the correct permission in AWS or the Organization role for a standard credential. For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 
 </td></tr><tr><td>
 

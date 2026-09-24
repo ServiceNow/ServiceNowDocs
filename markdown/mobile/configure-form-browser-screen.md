@@ -2,7 +2,7 @@
 title: Configure an embedded browser screen for a record screen
 description: Add an embedded browser screen to display content from a URL within a browser section. This enables users to access information in a ServiceNow instance or on a page outside of your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/configure-form-browser-screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/configure-form-browser-screen.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Role required: admin
 
 7.  In the **Create a screen** dialog box, select **Mobile web**, and then select **Continue**.
 
-8.  Complete the mobile web screen form by using the instructions in [Configure a mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-url-screen.md).
+8.  Complete the mobile web screen form by using the instructions in [Configure a mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-url-screen.md).
 
 
 ## Result

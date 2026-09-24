@@ -2,7 +2,7 @@
 title: Triage an instance for ongoing operations
 description: Perform a triage on a ServiceNow instance to gather point-in-time telemetry data for troubleshooting using Instance Observer. The triage feature gives a summary of ongoing operations at the time of its execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-triage-sn-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-triage-sn-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ Role required: admin
 
     Most of the charts display data broken down by age. Whereas, Schedulers chart breaks down the data by worker nodes.
 
-    To know more about each of the sections, see [Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-triage.md).
+    To know more about each of the sections, see [Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-triage.md).
 
     \[Omitted image "io-triage-phase-2.png"\] Alt text: Instance Observer triage page.
 
@@ -69,8 +69,8 @@ Role required: admin
 12. Select **Download Triage File** to view all the sections of triaged details, downloaded in an excel format.
 
 
--   **[Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-triage.md)**  
+-   **[Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-triage.md)**  
 You can triage your instance to get instant information on transactions, jobs, nodes utilization, semaphores, schedulers and update sets. Minimal use of this feature is recommended as use of this consumes resources on your instance.
 
-**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-overview.md)
 

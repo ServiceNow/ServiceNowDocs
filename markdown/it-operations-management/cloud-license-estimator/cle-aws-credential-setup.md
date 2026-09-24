@@ -2,7 +2,7 @@
 title: Configure AWS credentials for Cloud License Estimator
 description: This task guides you in configuring IAM user permanent credentials for the designated account.There are several ways to configure AWS Service Accounts depending on the credentials and master accounts.The tool supports management accounts and single subscriptions. Management accounts include all subscriptions under that account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-license-estimator/cle-aws-credential-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-license-estimator/cle-aws-credential-setup.html
 release: australia
 product: Cloud License Estimator
 classification: cloud-license-estimator
@@ -35,7 +35,7 @@ You can configure IAM roles to generate temporary credentials using STS API for 
     A **Credential ID** is generated, which is used when creating configurations.
 
 
-**Parent Topic:**[Configure Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-license-estimator/configure-cloud-license-estimator.md)
+**Parent Topic:**[Configure Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-license-estimator/configure-cloud-license-estimator.md)
 
 **Related topics**  
 
@@ -157,5 +157,5 @@ Role required: admin
 **Related topics**  
 
 
-[Generate Cloud License Estimator Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-license-estimator/cle-generate-reports.md)
+[Generate Cloud License Estimator Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-license-estimator/cle-generate-reports.md)
 

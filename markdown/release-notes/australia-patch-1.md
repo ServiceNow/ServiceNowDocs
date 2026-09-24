@@ -2,7 +2,7 @@
 title: Australia Patch 1
 description: The Australia Patch 1 release contains important problem fixes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-patch-1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/australia-patch-1.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-03"
@@ -18,7 +18,7 @@ The Australia Patch 1 release contains important problem fixes.
     -   Build date: 03-31-2026\_1137
     -   Build tag: glide-australia-02-11-2026\_\_patch1-03-23-2026
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -39,20 +39,17 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 ## Changes in Australia Patch 1
 
 -   ****
-
-    Live Connect provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
-
--   **[Associate a request header with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/associate-header-api-resource.md)**
+-   ****
 
     The following procedure describes the process for manually associating a REST API request header with a resource. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
     The request headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a "type: string" schema definition. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/export-openapi-specification.html)
 
--   **[Associate query parameters with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/AssocQueryParmResource.md)**
+-   ****
 
     The following procedure describes the process for manually associating a query parameter with a resource. For details about automatically generating query parameters for requests in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   **[Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/autogenerate-api-request-definitions.md)**
+-   ****
 
     Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
 
@@ -80,31 +77,31 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 -   ****
 -   ****
 -   ****
--   **[Define a REST API response header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/define-scripted-api-response-header.md)**
+-   ****
 
     Define one or more REST API response headers in a REST API.
 
--   **[Define a REST API schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/define-scripted-rest-api-schema.md)**
+-   ****
 
     Specify the expected data structure for requests or responses within a REST API by defining a schema.
 
     The following procedure describes the process for manual schema definition. For details about automatically generating request schema definitions in non-production instances, see .
 
--   **[Define an API resource request structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/add-schema-rest-api-request.md)**
+-   ****
 
     Add a schema to a REST request record to define the request's expected data structure.
 
     The following procedure describes the process for manually adding a request schema to a resource. For details about automatically generating request schema definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html)
 
--   **[Define an API resource response structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/add-schema-rest-api-response.md)**
+-   ****
 
     Add a schema and relevant response headers to a REST response to define the response's expected data structure.
 
--   **[Define available query parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_DefineAvailableQueryParameters.md)**
+-   ****
 
     The following procedure describes the process for manually defining query parameters for a scripted REST API service. For details about automatically generating query parameters for requests in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   **[Define a scripted REST API request header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_DefineRESTServiceHeaders.md)**
+-   ****
 
     a scripted REST API request header
 
@@ -133,15 +130,15 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
     Link your desired categories to the topics and track the additions and removals to have easier management of unconnected content.
 
 -   ****
--   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)**
+-   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)**
 
-    For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md).
+    For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md).
 
 -   ****
 
     You can route Live Connect calls to Read Replica to optimize the performance of your ServiceNow instance.
 
--   **[Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_CustomWebServices.md)**
+-   ****
 
     Schemas define a structure that can be used for API requests and responses, including data type, expected fields, and formats. You can define multiple schemas within a scripted REST API, which can be used to specify request and response contents of the resources within that API.
 
@@ -7131,5 +7128,5 @@ Unless any exceptions are noted, you can safely upgrade to this release version 
 -   [Australia security and notable fixes](https://www.servicenow.com/docs/r/release-notes/australia-security-notables.html)
 -   [All other Australia fixes](https://www.servicenow.com/docs/r/release-notes/australia-all-other-fixes.html)
 
-**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/available-versions.md)
 

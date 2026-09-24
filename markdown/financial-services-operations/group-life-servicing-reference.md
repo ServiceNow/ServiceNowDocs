@@ -2,7 +2,7 @@
 title: Group Life Servicing reference
 description: Learn about the components, such as the roles, tables, plugins, and store applications, that are installed when you install the Group Life Servicing application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/group-life-servicing-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/group-life-servicing-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

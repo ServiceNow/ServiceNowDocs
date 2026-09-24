@@ -2,7 +2,7 @@
 title: Configure Next Experience user experience preferences
 description: Configure your user experience preferences for your Next Experience instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-next-experience-user-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-next-experience-user-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ Description
 
 </td><td>
 
-Start page that appears when users log in to their Next Experience instances. For more information on start page options, see [Configure a user-selected start page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-selected-start-page-preference.md).
+Start page that appears when users log in to their Next Experience instances. For more information on start page options, see [Configure a user-selected start page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-user-selected-start-page-preference.md).
 
 </td></tr><tr><td>
 

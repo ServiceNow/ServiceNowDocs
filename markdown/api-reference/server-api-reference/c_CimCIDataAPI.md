@@ -2,7 +2,7 @@
 title: CimCIData - Global
 description: The CimCIData script include provides a wrapper for Common Information Model \(CIM\) configuration item \(CI\) data manipulation.Adds a serial number to the current configuration item \(CI\), by type.Creates a new serial record.Sets the make and model for the current configuration item \(CI\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_CimCIDataAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_CimCIDataAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The CimCIData script include provides a wrapper for Common Information Model \(C
 
 Use with any server-side discovery script.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## CimCIData - addSerial\(String type, String serial\)
 

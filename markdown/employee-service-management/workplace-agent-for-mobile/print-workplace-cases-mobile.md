@@ -2,7 +2,7 @@
 title: Print workplace cases
 description: Workplace agents can print the workplace case at any time on the go. The case reports contain reservation details, services, and all other relevant information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/print-workplace-cases-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-agent-for-mobile/print-workplace-cases-mobile.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
@@ -49,7 +49,7 @@ Role required: sn\_wsd\_case.workplace\_agent
     The downloaded document displays the workplace case details.
 
 
-**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
+**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
 
 **Related topics**  
 

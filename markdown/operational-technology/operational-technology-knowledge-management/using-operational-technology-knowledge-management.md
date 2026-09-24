@@ -2,7 +2,7 @@
 title: Using Operational Technology Knowledge Management
 description: After you complete all the required set-up tasks for Operational Technology Knowledge Management, you can begin managing knowledge articles that are related to Operational Technology \(OT\) incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.html
 release: australia
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -80,18 +80,18 @@ Under the Knowledge module in the Industrial Workspace list view, you can view k
     All articles that are available in the OT knowledge base.
 
 
--   **[Create a knowledge article from an OT incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/create-knowledge-base-article-from-incident.md)**  
+-   **[Create a knowledge article from an OT incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/create-knowledge-base-article-from-incident.md)**  
 Create a knowledge article to record and save information that is related to an Operational Technology \(OT\) incident and its resolution.
--   **[Create a knowledge article in Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/create-knowledge-base-article-in-industrial-workspace.md)**  
+-   **[Create a knowledge article in Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/create-knowledge-base-article-in-industrial-workspace.md)**  
 Create a knowledge article in Industrial Workspace to help cater an article's contents to the needs and solutions not directly related to an Operational Technology \(OT\) incident.
--   **[Report a knowledge gap from an OT incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/report-knowledge-base-gap.md)**  
+-   **[Report a knowledge gap from an OT incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/report-knowledge-base-gap.md)**  
 Report a knowledge gap from an Operational Technology \(OT\) incident if you can't find relevant knowledge articles about the incident.
--   **[Approve requests to publish or retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/approve-publish-edit-retire-requests.md)**  
+-   **[Approve requests to publish or retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/approve-publish-edit-retire-requests.md)**  
 Approve requests to publish or retire a knowledge article to help ensure that the knowledge base is up to date.
--   **[Assign feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/assign-feedback-tasks.md)**  
+-   **[Assign feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/assign-feedback-tasks.md)**  
 Assign feedback tasks to a user to help make sure that the feedback task is addressed and the related knowledge article is updated.
--   **[Find information in the related knowledge articles for an OT incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/display-related-knowledge-base-articles.md)**  
+-   **[Find information in the related knowledge articles for an OT incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/display-related-knowledge-base-articles.md)**  
 Find information in the related knowledge articles that are attached to an Operational Technology \(OT\) incident record for any previous resolutions that may be applicable.
 
-**Parent Topic:**[Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-landing-page.md)
+**Parent Topic:**[Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-landing-page.md)
 

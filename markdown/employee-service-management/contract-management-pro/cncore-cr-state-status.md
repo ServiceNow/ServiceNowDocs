@@ -2,7 +2,7 @@
 title: Contract request State and Contract document status in Contract Management Pro
 description: Contract requests follow a specific life cycle and move through a series of states in Contract Management Pro. The contract request state and the contract document status are displayed in the State and the Contract status fields on the request record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-cr-state-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-cr-state-status.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -425,7 +425,7 @@ Cancelled
 Contract request was canceled.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

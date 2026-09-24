@@ -2,7 +2,7 @@
 title: PredictabilityEstimateStore - Global
 description: Enables storing and retrieving predictability estimates.Adds a new predictability estimate object to the store and returns a unique name.Removes a specified predictability estimate object from the store.Gets a predictability estimate object from a store.Gets the names of all predictability estimate definition records in the store.Updates a predictability estimate object in a store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PredictabilityEstimateStoreAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/PredictabilityEstimateStoreAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ Enables storing and retrieving predictability estimates.
 
 The PredictabilityEstimateStore API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## PredictabilityEstimateStore - add\(Object mlEstimate\)
 
@@ -28,13 +28,13 @@ Adds a new predictability estimate object to the store and returns a unique name
 
 |Name|Type|Description|
 |----|----|-----------|
-|mlEstimate|[PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md)|[PredictabilityEstimate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md) object to add to the store.|
+|mlEstimate|[PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PredictabilityEstimateAPI.md)|[PredictabilityEstimate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PredictabilityEstimateAPI.md) object to add to the store.|
 
 |Type|Description|
 |----|-----------|
 |String|System-generated predictability estimate name.|
 
-The following example shows how to add a predictability estimate to the store. Use [PredictabilityEstimate - submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md) to run the training job after adding it to the store.
+The following example shows how to add a predictability estimate to the store. Use [PredictabilityEstimate - submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PredictabilityEstimateAPI.md) to run the training job after adding it to the store.
 
 ```
 // Create a dataset 
@@ -66,7 +66,7 @@ Removes a specified predictability estimate object from the store.
 
 |Name|Type|Description|
 |----|----|-----------|
-|name|String|Name of the [PredictabilityEstimate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md) object to be deleted.|
+|name|String|Name of the [PredictabilityEstimate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PredictabilityEstimateAPI.md) object to be deleted.|
 
 |Type|Description|
 |----|-----------|
@@ -88,9 +88,9 @@ Gets a predictability estimate object from a store.
 
 |Type|Description|
 |----|-----------|
-|Object|[PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md) object. Returns an error if the object does not exist.|
+|Object|[PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PredictabilityEstimateAPI.md) object. Returns an error if the object does not exist.|
 
-The following example shows how to get a predictability estimate object from the store using the get\(\) method and view its training status using the [PredictabilityEstimate - getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md) and [PredictabilityEstimateVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateVersionAPI.md) methods.
+The following example shows how to get a predictability estimate object from the store using the get\(\) method and view its training status using the [PredictabilityEstimate - getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PredictabilityEstimateAPI.md) and [PredictabilityEstimateVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PredictabilityEstimateVersionAPI.md) methods.
 
 ```
 // Get status
@@ -228,7 +228,7 @@ Updates a predictability estimate object in a store.
 |Name|Type|Description|
 |----|----|-----------|
 |name|String|Name of the predictability estimate to update.|
-|mlEstimate|[PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md)|[PredictabilityEstimate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md) object properties to update.|
+|mlEstimate|[PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PredictabilityEstimateAPI.md)|[PredictabilityEstimate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PredictabilityEstimateAPI.md) object properties to update.|
 
 |Type|Description|
 |----|-----------|

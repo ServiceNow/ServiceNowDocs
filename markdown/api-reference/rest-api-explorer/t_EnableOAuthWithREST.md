@@ -2,7 +2,7 @@
 title: Enable OAuth with inbound REST
 description: Using OAuth, you can pass a user ID and password once, and then use a token for subsequent REST requests instead of submitting credentials with each request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t\_EnableOAuthWithREST.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/t\_EnableOAuthWithREST.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -47,8 +47,8 @@ OAuth reduces the number of times you submit user credentials. After authenticat
 7.  Submit the access token with subsequent REST requests.
 
 
--   **[REST OAuth example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/r_RESTOAuthExample.md)**  
+-   **[REST OAuth example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/r_RESTOAuthExample.md)**  
 This example shows how to authenticate an inbound REST request using OAuth.
 
-**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md)
+**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md)
 

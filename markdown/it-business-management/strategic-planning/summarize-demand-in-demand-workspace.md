@@ -2,7 +2,7 @@
 title: Summarize demands with the demand summarization skill
 description: Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/summarize-demand-in-demand-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/summarize-demand-in-demand-workspace.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

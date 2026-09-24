@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 description: Configure the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application so that your requesters, procurement specialists, and sourcing managers can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -76,7 +76,7 @@ The following table lists the features and skills that you can access from the A
 
 1.  Install the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) plugin \(sn\_spend\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md).
     -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the **AI Skills** tab in the AI Admin Hub.
 
@@ -141,15 +141,15 @@ On the skill card that you want to activate, select **Activate skill**.
 
 10. Select **Define availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d228886e688">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d229012e688">
 
 Option
 
-</th><th align="left" id="d228886e691">
+</th><th align="left" id="d229012e691">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d228886e697">
+</th></tr></thead><tbody><tr><td id="d229012e697">
 
 **Skill is always available**
 
@@ -157,7 +157,7 @@ Description
 
 Skill is continuously available to users.
 
-</td></tr><tr><td id="d228886e706">
+</td></tr><tr><td id="d229012e706">
 
 **Customize skill availability**
 
@@ -170,15 +170,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d228886e742">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d229012e742">
 
 Option
 
-</th><th align="left" id="d228886e745">
+</th><th align="left" id="d229012e745">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d228886e751">
+</th></tr></thead><tbody><tr><td id="d229012e751">
 
 **In-product desktop**
 
@@ -186,7 +186,7 @@ Description
 
 AI skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d228886e760">
+</td></tr><tr><td id="d229012e760">
 
 **ServiceNow Otto panel**
 
@@ -206,14 +206,14 @@ AI skills are available in the ServiceNow Otto panel. Turn on multi-language sup
     The skill is activated.
 
 
--   **[Customize an AI skill in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/cust-now-assist-spo-skill.md)**  
+-   **[Customize an AI skill in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/cust-now-assist-spo-skill.md)**  
 Customize an AI skill in SPO so that fulfillers and requesters can use the AI skills in the Source-to-Pay Workspace, Shopping Hub, and in the Core UI.
--   **[Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md)**  
+-   **[Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md)**  
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
--   **[Application plugins for AI capabilities in SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-ai-plugins.md)**  
+-   **[Application plugins for AI capabilities in SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-ai-plugins.md)**  
 View the consolidated list of plugins required to use AI capabilities in Sourcing and Procurement Operations.
--   **[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)**  
+-   **[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)**  
 The Spend categorization agent predicts product and spend categories on purchase requisition lines. Complete the configuration tasks that activate the agent and its supporting prediction services in ServiceNow Otto for SPO.
 
-**Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+**Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

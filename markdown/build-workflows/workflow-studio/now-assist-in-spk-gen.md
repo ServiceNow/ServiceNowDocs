@@ -2,7 +2,7 @@
 title: Use ServiceNow Otto to create spokes and build actions
 description: Use ServiceNow Otto in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/now-assist-in-spk-gen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/now-assist-in-spk-gen.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

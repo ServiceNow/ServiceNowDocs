@@ -2,7 +2,7 @@
 title: E.164 phone number field configuration
 description: Administrators can use the phone number system properties and dictionary attributes to do certain things.By default, phone number fields require that a phone number match the display format of the selected territory.By default, users can enter phone numbers in their territory's local format and do not have to format the number for international dialing.By default, an E.164 phone number field always displays phone numbers in an international format.A property controls how territory labels are displayed.A property is available to control the display of prefixes.By default, an E.164 phone number field always displays the phone territory that is associated with the phone number.Several properties are available to configure E.164 phone number fields.You can override the global system property with certain dictionary attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_ConfigureE.164PhoneNumberFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_ConfigureE.164PhoneNumberFields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Changing the **glide.phone\_number\_e164.allow\_national\_entry** system propert
 
 By default, an E.164 phone number field always displays phone numbers in an international format.
 
-Change the E.164 phone number to use the local format in certain circumstances by [adding the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md):
+Change the E.164 phone number to use the local format in certain circumstances by [adding the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md):
 
 <table id="simpletable_xsy_m3x_vz"><thead><tr><th>
 
@@ -67,7 +67,7 @@ Description
 </td></tr></tbody>
 </table>Select one of the possible values to determine how the system handles the E.164 phone number.
 
-You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
+You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
 
 <table id="simpletable_nn2_x3x_vz"><thead><tr><th>
 
@@ -96,7 +96,7 @@ You can display territory labels next to the number in an E.164 phone number fie
 
 Enabling territory labels also displays the phone territory in lists.
 
-[Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to display the territory label next to the number in an E.164 phone number.
+[Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to display the territory label next to the number in an E.164 phone number.
 
 <table id="simpletable_xsy_m3x_vz"><thead><tr><th>
 
@@ -124,7 +124,7 @@ Determines when an E.164 phone number field displays a territory label.-   **__T
     -   **none**: Does not display the territory label.
 
 </td></tr></tbody>
-</table>You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
+</table>You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
 
 <table id="simpletable_nn2_x3x_vz"><thead><tr><th>
 
@@ -151,7 +151,7 @@ A property is available to control the display of prefixes.
 
 You can enable the display of the international direct dialing prefix, which appears between the territory selector choice list and the input box for an E.164 phone number field on forms, by setting the system property or adding the dictionary attribute.
 
-[Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to display the international direct dialing prefix.
+[Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to display the international direct dialing prefix.
 
 <table id="simpletable_xsy_m3x_vz"><thead><tr><th>
 
@@ -171,7 +171,7 @@ Determines whether to display the international direct dialing prefix between th
 -   Default value: false
 
 </td></tr></tbody>
-</table>You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
+</table>You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
 
 <table id="simpletable_nn2_x3x_vz"><thead><tr><th>
 
@@ -198,7 +198,7 @@ By default, an E.164 phone number field always displays the phone territory that
 
 Changing the system property or adding the dictionary attribute hides the territory selector choice list. If the territory selector choice list is hidden, users can only enter a local or national number.
 
-[Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to show or hide the territory selector choice list.
+[Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to show or hide the territory selector choice list.
 
 <table id="simpletable_xsy_m3x_vz"><thead><tr><th>
 
@@ -218,7 +218,7 @@ Determines whether to display the territory selector choice list. Hiding the ter
 -   Default value: true
 
 </td></tr></tbody>
-</table>You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
+</table>You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
 
 <table id="simpletable_nn2_x3x_vz"><thead><tr><th>
 
@@ -265,7 +265,7 @@ Determines whether all phone number fields must match the display format for the
 
  -   Type: true \| false
 -   Default value: true
--   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -277,7 +277,7 @@ Determines whether users can enter phone numbers in the local format or whether 
 
  -   Type: true \| false
 -   Default value: true
--   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -290,9 +290,9 @@ Determines whether to display E.164 phone numbers in local format.-   Type: stri
 -   Other possible values:
     -   **true or form**: Displays phone numbers in a local format on forms, but displays an international format on lists.
     -   **all**: Always displays phone numbers in a local format.
-    -   **user**: Only displays phone numbers in a local format when the phone number matches the local setting of the current user. The local setting of the current user is determined by the location associated with the [user record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
+    -   **user**: Only displays phone numbers in a local format when the phone number matches the local setting of the current user. The local setting of the current user is determined by the location associated with the [user record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/t_CreateAUser.md).
     -   **false**: Does not display phone numbers in local format.
--   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -302,7 +302,7 @@ glide.phone\_number\_e164.display\_territory\_selector
 
 Determines whether to display the territory selector choice list. Hiding the territory selector choice list restricts users to entering only local or national phone numbers.-   Type: true \| false
 -   Default value: true
--   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -320,7 +320,7 @@ Determines when an E.164 phone number field displays a territory label.-   Type:
     -   **list**: Displays the territory label in a list.
     -   **list-national**: Displays the territory label in a list if the number is in national format.
     -   **none**: Does not display the territory label.
--   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -330,7 +330,7 @@ glide.phone\_number\_e164.display\_users\_idd
 
 Determines whether to display the international direct dialing prefix between the territory selector choice list and the input field on forms.-   Type: true \| false
 -   Default value: false
--   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr></tbody>
 </table>## E.164 phone number field dictionary attributes

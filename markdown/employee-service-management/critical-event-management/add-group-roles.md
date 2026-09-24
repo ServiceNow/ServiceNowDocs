@@ -2,7 +2,7 @@
 title: Add roles to the group
 description: Add roles to groups that are mapped to a location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/add-group-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/add-group-roles.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -33,7 +33,7 @@ Role required: admin
 5.  Select \[Omitted image "chevron-right-fill-24.svg"\] Alt text: Chevron right to add the role to the group.
 
 
-**Parent Topic:**[Configure Critical Event Management groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-critical-event-management-groups.md)
+**Parent Topic:**[Configure Critical Event Management groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/configure-critical-event-management-groups.md)
 
 **Related topics**  
 

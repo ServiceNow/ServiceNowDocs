@@ -2,7 +2,7 @@
 title: Access applications from App Launcher
 description: Access all your applications from a central location in one-click.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/web-application-employee.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/web-application-employee.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,9 +27,9 @@ As an employee, you can access the custom and third-party app integrations. Navi
 -   Select applications as favorites.
 -   Navigate to **View all** for a full list of both SSO and non-SSO applications.
 
-For more information, see [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee-about.md)
+For more information, see [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-application-employee-about.md)
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

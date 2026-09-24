@@ -2,7 +2,7 @@
 title: Create a business rule to automatically create universal request
 description: Create a before insert business rule on the service table to automatically create a universal request when a ticket is raised from any of the available channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-create-brule-omnichannel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-create-brule-omnichannel.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -78,5 +78,5 @@ You can automatically create a universal request in the following scenarios.
     For more information on other fields of this form, see [Create a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_BusinessRules.md).
 
 
-**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

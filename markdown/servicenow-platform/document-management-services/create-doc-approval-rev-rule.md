@@ -2,7 +2,7 @@
 title: Create a document approval revision rule
 description: Create a document approval revision rule for the document review and approval process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/create-doc-approval-rev-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/create-doc-approval-rev-rule.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -36,5 +36,5 @@ Role required: platform\_document\_management\_admin or admin
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md)
+**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/document-review-approval.md)
 

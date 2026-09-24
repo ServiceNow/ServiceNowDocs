@@ -2,7 +2,7 @@
 title: Set up the HAM advisor dashboard manually
 description: If the HAM advisor dashboard was not configured automatically, set it up manually by selecting the model categories that define the HAM scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-manual-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-manual-setup.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

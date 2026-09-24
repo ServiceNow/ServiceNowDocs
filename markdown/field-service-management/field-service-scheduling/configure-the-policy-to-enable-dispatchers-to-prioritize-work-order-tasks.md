@@ -2,7 +2,7 @@
 title: Configure the policy to enable dispatchers to prioritize work order tasks
 description: Incorporate optimization features into the policy to allow dispatchers to prioritize work orders, establishing the importance of each task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-the-policy-to-enable-dispatchers-to-prioritize-work-order-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/configure-the-policy-to-enable-dispatchers-to-prioritize-work-order-tasks.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

@@ -2,7 +2,7 @@
 title: Test the SAML integration
 description: Test the SAML integration after you complete all the other setup tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_TestTheIntegration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_TestTheIntegration.html
 release: australia
 product: Authentication
 classification: authentication
@@ -44,5 +44,5 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 **Related topics**  
 
 
-[Multi-SSO \(SAML 2.0\) errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/saml-errors.md)
+[Multi-SSO \(SAML 2.0\) errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/saml-errors.md)
 

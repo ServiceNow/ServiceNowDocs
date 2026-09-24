@@ -2,7 +2,7 @@
 title: Georeference your floor plan
 description: Georeference and position your source floor plan on the map to scale it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/georeference-floor-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/georeference-floor-plan.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -37,9 +37,9 @@ Role required: admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configure CAD objects using the Map Configuration tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-cad-map-config.md)
+**Parent Topic:**[Configure CAD objects using the Map Configuration tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/manage-cad-map-config.md)
 
-**Previous topic:**[Configure CAD objects using the Map Configuration tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-cad-map-config.md)
+**Previous topic:**[Configure CAD objects using the Map Configuration tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/manage-cad-map-config.md)
 
-**Next topic:**[Configure layers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/wsd-edit-layers.md)
+**Next topic:**[Configure layers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/wsd-edit-layers.md)
 

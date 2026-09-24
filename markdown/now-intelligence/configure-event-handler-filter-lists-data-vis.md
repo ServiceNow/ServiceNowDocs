@@ -2,7 +2,7 @@
 title: Configure an event handler for a Filter component
 description: On a technical dashboard, configure a special client script-based event handler for a Filter component so it can be followed by any Lists or Data Visualizations. It is not necessary to configure an event handler for filters on inline dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-event-handler-filter-lists-data-vis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configure-event-handler-filter-lists-data-vis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -87,5 +87,5 @@ Role required: ui\_builder\_admin, admin
 14. Save the page.
 
 
-**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md)
+**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/technical-dashboards.md)
 

@@ -2,7 +2,7 @@
 title: Configure new enrichment
 description: Set up threat intelligence enrichment integrations to automatically gather additional context about observables, search for sightings, or perform threat lookups from external security vendors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-config-new-enrich.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-config-new-enrich.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -109,10 +109,10 @@ Unique description for the new enrichment integration.
     **Note:** You can also enable, disable, or delete an enrichment integration using the Actions menu on the integration tile.
 
 
-**Parent Topic:**[TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
+**Parent Topic:**[TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
 
 **Related topics**  
 
 
-[TISC Security Tools integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-edr-integrations.md)
+[TISC Security Tools integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-edr-integrations.md)
 

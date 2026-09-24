@@ -2,7 +2,7 @@
 title: Configure the preview modal for attachment upload
 description: Configure whether the preview modal appears when security analysts attach files to a security incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-attachment-upload-preview-modal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/configure-attachment-upload-preview-modal.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -35,5 +35,5 @@ Role required: sn\_si.admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[View and update Security Incident Response system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-update-sirw-system-properties.md)
+**Parent Topic:**[View and update Security Incident Response system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/view-update-sirw-system-properties.md)
 

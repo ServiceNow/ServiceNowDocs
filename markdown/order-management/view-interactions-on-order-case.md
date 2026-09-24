@@ -2,12 +2,12 @@
 title: View customer context for an order exception chat
 description: View the customer's account and contact details on the interaction record and the AI-generated chat summary in the Active Chat panel when the order exception AI agent hands off a chat to a live agent in the CSM/FSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/view-interactions-on-order-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-interactions-on-order-case.html
 release: australia
 topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
@@ -42,7 +42,7 @@ When a customer's chat for an order exception is escalated to a live agent, the 
 3.  Review the AI-generated chat summary in the Active Chat panel to understand the customer's request and what the order exception AI agent has done so far.
 
 
-**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-case-self-service.md)
+**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-case-self-service.md)
 
 **Related topics**  
 

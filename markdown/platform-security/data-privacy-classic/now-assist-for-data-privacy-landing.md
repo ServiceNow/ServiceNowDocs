@@ -2,7 +2,7 @@
 title: Data Privacy for ServiceNow Otto
 description: Set up and configure how to discover and anonymize sensitive data from generative AI prompts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -20,11 +20,11 @@ Set up and configure how to discover and anonymize sensitive data from generativ
 
 <table id="table_tpg_p4l_ydc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/explore-now-assist-data-privacy.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/explore-now-assist-data-privacy.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md)
 
 </td></tr></tbody>
 </table>**Note:**

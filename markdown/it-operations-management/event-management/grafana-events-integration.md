@@ -2,7 +2,7 @@
 title: Integrate Grafana events with basic authentication
 description: Integrate Grafana with Event Management by adding a standard webhook in the Grafana console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/grafana-events-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/grafana-events-integration.html
 release: australia
 product: Event Management
 classification: event-management
@@ -28,7 +28,7 @@ Integrate Grafana with Event Management by adding a standard webhook in the Graf
 
 Configure the Event Management environment for the collection of events from Grafana. In your Grafana console, set your ServiceNow AI Platform instance as the rest endpoint using a standard webhook.
 
-You can also configure Grafana as an event push connector from the Integrations Launchpad. For more information, see [Configure an event push connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/push-connector.md).
+You can also configure Grafana as an event push connector from the Integrations Launchpad. For more information, see [Configure an event push connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/push-connector.md).
 
 **Note:** Perform steps 1 and 2 for Grafana v7.4.3. For Grafana v9.3.2. skip to step 3.
 
@@ -137,5 +137,5 @@ Alerts start flowing from Grafana into the Event Management plugin. The plugin e
 -   For Grafana v7.4.3, you may see extra clear events coming into ServiceNow which aren’t bound to an alert. Ignore them as they’re created to overcome the issue of Grafana not sending information in the clear notification.
 -   A severity parameter is added which is used only for Grafana 8 and above. The provided value is used as a severity for an event if the severity isn’t passed in custom labels.
 
-**Parent Topic:**[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/grafana-integration.md)
+**Parent Topic:**[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/grafana-integration.md)
 

@@ -2,7 +2,7 @@
 title: Integrating with Safe Workplace suite
 description: Integrate ServiceNow Safe Workplace suite data with a third-party system. For example, you can integrate Employee Health Screening data with badge reader software to ensure compliance with your workplace entry requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/integrate-safe-workplace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/integrate-safe-workplace.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -28,15 +28,15 @@ Integrate with Safe Workplace suite :
 
 You can integrate with Safe Workplace suite in these ways:
 
--   **[Subscribe to request for entry updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/get-health-data.md)**
+-   **[Subscribe to request for entry updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/get-health-data.md)**
 
     Send the result of each Employee Health Screening entry request to a third-party system by configuring a webhook.
 
--   **[Send data to the Employee Health Screening log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/send-health-logs.md)**
+-   **[Send data to the Employee Health Screening log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/send-health-logs.md)**
 
     Send data from a third-party system to the Employee Health Screening application log table. You can use this table to create reports and monitor health trends.
 
--   **[Get employee or visitor health data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/query-health-data.md)**
+-   **[Get employee or visitor health data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/query-health-data.md)**
 
     Send a GET request for Employee Health and Safety Status data to use in your third-party system. Get data to determine an employee or visitor's current health status.
 

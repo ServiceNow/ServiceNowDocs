@@ -2,7 +2,7 @@
 title: Configure IT Compliance Manager data filter
 description: There are three distinct steps that must be followed to segregate, associate, and display the IT-related data for the IT compliance manager to view in the IT Compliance Home page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/set-up-steps-it-compliance-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/set-up-steps-it-compliance-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -38,7 +38,7 @@ For more information on setting up auto-tagging, see the [IT Compliance Workspac
 
 A scheduled daily job \(GRCObjectsFunctionalDomainChanges\) runs and gathers the user's manual actions recorded in the table to read these relationships, auto-associate the child object to IT risk and compliance functional domain, and auto-populate the record in the related item of the parent table.
 
-For more information on the tables used for IT compliance workspace, see [Components installed with Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
+For more information on the tables used for IT compliance workspace, see [Components installed with Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## Display segregated data to IT compliance manager in IT Compliance Home page
 

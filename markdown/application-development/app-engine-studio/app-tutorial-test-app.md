@@ -2,7 +2,7 @@
 title: Test your application
 description: Verify that your application works as intended before publishing by testing the application experience and flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-test-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/app-tutorial-test-app.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -36,7 +36,7 @@ Step 1
 
 </td><td>
 
-[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-introduction.md)
+[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-introduction.md)
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Step 2
 
 </td><td>
 
-[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-an-app.md)
+[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-create-an-app.md)
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Step 3
 
 </td><td>
 
-[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-data-model.md)
+[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-data-model.md)
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Step 4
 
 </td><td>
 
-[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-experience-layer.md)
+[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-experience-layer.md)
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Step 5
 
 </td><td>
 
-[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
+[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
 
 </td></tr><tr><td>
 
@@ -96,10 +96,10 @@ Step 6
 
 </td><td>
 
-[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-test-app.md)
+[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
-</table>For more information about testing your application, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/testing-and-debugging-applications.md).
+</table>For more information about testing your application, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/testing-and-debugging-applications.md).
 
 Follow along with the tutorial to test the employee travel request application.
 
@@ -235,5 +235,5 @@ Your have tested the employee travel request application and verified that it fu
 
 Congratulations! You have completed the app creation tutorial by planning, building, and testing an application.You are ready to start building your own applications in App Engine Studio.
 
-To see what tasks you could perform after building an application, such as publishing or managing app deployments, see [Publish your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/publish-your-app.md).
+To see what tasks you could perform after building an application, such as publishing or managing app deployments, see [Publish your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/publish-your-app.md).
 

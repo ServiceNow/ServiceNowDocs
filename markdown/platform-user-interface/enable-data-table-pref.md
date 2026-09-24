@@ -2,7 +2,7 @@
 title: Enable data table for charts and graphs preference
 description: Learn more about the Enable data table for charts and graphs accessibility preference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-data-table-pref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/enable-data-table-pref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

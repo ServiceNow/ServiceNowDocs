@@ -2,7 +2,7 @@
 title: Activate Multi-Provider SSO plugin
 description: This integration requires the Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_ActivateMultipleProviderSSO.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_ActivateMultipleProviderSSO.html
 release: australia
 product: Authentication
 classification: authentication

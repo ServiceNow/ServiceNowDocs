@@ -2,10 +2,10 @@
 title: Data model for Partner Relationship Management
 description: The Partner Relationship Management data model provides a framework to map the relationship between channel partners and programs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/data-model-for-partner-relationship-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/data-model-for-partner-relationship-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure Channel Partner table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-channel-partner-table.md)
+[Configure Channel Partner table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-channel-partner-table.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ Manage information related to channel partners.
 
 </td></tr><tr><td>
 
-[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-program-table.md)
+[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-program-table.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Enable channel partners to participate in structured programs to build customer 
 
 </td></tr><tr><td>
 
-[Configure Partner Program Relationship table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-program-relationship-table.md)
+[Configure Partner Program Relationship table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-program-relationship-table.md)
 
 </td><td>
 
@@ -68,25 +68,25 @@ Enable channel partners to participate in structured programs to build customer 
 Establish a relationship between channel partners and partner programs.
 
 </td></tr></tbody>
-</table>-   **[Configure Channel Partner table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-channel-partner-table.md)**  
+</table>-   **[Configure Channel Partner table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-channel-partner-table.md)**  
 With the Partner Relationship Management application, you can use the channel partner \[sn\_prm\_channel\_partner\] table to manage and store information related to channel partners.
--   **[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-program-table.md)**  
+-   **[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-program-table.md)**  
 With the Partner Relationship Management application, enable channel partners to participate in structured initiatives designed to drive revenue, enhance market reach, and build customer relationships by using the Partner Program \[sn\_prm\_partner\_program\] table.
--   **[Configure Partner Program Relationship table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-program-relationship-table.md)**  
+-   **[Configure Partner Program Relationship table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-program-relationship-table.md)**  
 With the Partner Relationship Management application, you can establish a relationship between channel partners and partner programs.
--   **[Configure Program Segment Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-program-segment-mapping.md)**  
+-   **[Configure Program Segment Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-program-segment-mapping.md)**  
 Establish a mapping between a program and a segment on the program segment mapping \(sn\_prm\_program\_segment\_mapping\) table to determine which segment belongs to which partner program.
--   **[Configure Program Segment Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-program-segment-criteria.md)**  
+-   **[Configure Program Segment Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-program-segment-criteria.md)**  
 Create records in the program segment criteria \(sn\_prm\_program\_segment\_criteria\) table based on different records on the entity criteria \(sn\_req\_criteria\_customer\_condition\) table and segments.
--   **[Configure Program Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-program-criteria.md)**  
+-   **[Configure Program Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-program-criteria.md)**  
 Establish a mapping between the partner program \(sn\_prm\_partner\_program\_relationship\) table and the entity criteria \(sn\_req\_criteria\_customer\_condition\) table.
 
-**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-partner-relationship-management.md)
+[Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-partner-relationship-management.md)
 
-[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-partner-relationship-management.md)
+[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/roles-and-components-of-partner-relationship-management.md)
 

@@ -2,7 +2,7 @@
 title: Approve application restricted caller access privileges for Sign document supplier task type
 description: Approve restricted caller access \(RCA\) privileges after you create a supplier task of action type Sign document for the very first time so that you can create and use subsequent Sign document supplier tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

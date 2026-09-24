@@ -2,7 +2,7 @@
 title: Assign a role to a service group
 description: Assign an Event Management role to the application service group to ensure that group members can manage and act on alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMAssignRoleSvcGroup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMAssignRoleSvcGroup.html
 release: australia
 product: Event Management
 classification: event-management
@@ -41,10 +41,10 @@ Role required: evt\_mgmt\_admin
 6.  To find users who are assigned to the role, navigate to **User Administration** &gt; **Users** &gt; **Roles** and search for the role.
 
 
-**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/application-service-event-management.md)
+**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/application-service-event-management.md)
 
 **Related topics**  
 
 
-[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md)
+[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/r_InstalledWithEventManagement.md)
 

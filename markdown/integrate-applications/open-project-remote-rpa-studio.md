@@ -2,7 +2,7 @@
 title: Open a cloud automation project in RPA Desktop Design Studio
 description: Open an automation project remotely from RPA Hub in RPA Desktop Design Studio, so that you can debug, build, or modify the automation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/open-project-remote-rpa-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/open-project-remote-rpa-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Open an automation project remotely from RPA Hub in RPA Desktop Design Studio, s
 
 ## Before you begin
 
-Make sure that the package \(automation project\) that you’re trying to open is published on RPA Hub. For more information, see [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-automation-project.md).
+Make sure that the package \(automation project\) that you’re trying to open is published on RPA Hub. For more information, see [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/publish-automation-project.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_support\_user, or sn\_rpa\_fdn.rpa\_admin
 
@@ -26,7 +26,7 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_support\_user, or 
 
 2.  Select **Open cloud project**.
 
-    If the selected ServiceNow instance session has expired, add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-studio.md).
+    If the selected ServiceNow instance session has expired, add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/set-up-rpa-studio.md).
 
 3.  In the Open Project dialog box, select a package name and a version.
 
@@ -36,8 +36,8 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_support\_user, or 
 
 6.  If the plugin versions that are used in the project aren’t found in the local framework, go to the Choose Plugin Version dialog box, select the plugin versions to be used, and select **OK**.
 
-    **Important:** When you open an older automation project in the latest version of [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-studio.md), the Upgrade Plugin Version dialog box is displayed. If you proceed to upgrade the plugin version and any automation components are unavailable after the upgrade, then these components are marked as Unknown in the automation project.
+    **Important:** When you open an older automation project in the latest version of [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/set-up-rpa-studio.md), the Upgrade Plugin Version dialog box is displayed. If you proceed to upgrade the plugin version and any automation components are unavailable after the upgrade, then these components are marked as Unknown in the automation project.
 
 
-**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-build.md)
 

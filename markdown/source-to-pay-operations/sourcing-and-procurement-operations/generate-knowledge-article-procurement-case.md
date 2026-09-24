@@ -2,7 +2,7 @@
 title: Generate a knowledge article from a closed procurement case
 description: Generate a draft knowledge article from a closed procurement case using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), then review and publish it to the knowledge base.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/generate-knowledge-article-procurement-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/generate-knowledge-article-procurement-case.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -72,5 +72,5 @@ If article generation fails:
 
 If the issue persist, contact your administrator.
 
-**Parent Topic:**[Generate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-generate-knowledge-article.md)
+**Parent Topic:**[Generate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-generate-knowledge-article.md)
 

@@ -2,7 +2,7 @@
 title: HRSD MCP Server
 description: The HRSD MCP Server allows HR agents and employees to securely access Case and Knowledge Management features through AI applications like Claude.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/hrsd-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/hrsd-mcp-server.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

@@ -2,7 +2,7 @@
 title: Publish a custom template
 description: You can publish a custom template that is built from scratch or from an existing application using App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/publish-custom-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/publish-custom-template.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +18,7 @@ You can publish a custom template that is built from scratch or from an existing
 
 ## Before you begin
 
-You must have permissions to publish a custom template. For details, see [Assign permissions to publish custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/assign-permissions-publish-custom-templates.md).
+You must have permissions to publish a custom template. For details, see [Assign permissions to publish custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/assign-permissions-publish-custom-templates.md).
 
 Role required: admin, app\_template\_author
 
@@ -82,5 +82,5 @@ Select where you want the custom template published.-   To publish the template 
 
 The custom template is published and available to users the app template admin shares it with.
 
-**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/build-custom-template.md)
 

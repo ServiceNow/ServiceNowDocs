@@ -2,7 +2,7 @@
 title: Mobile photo search
 description: Configure photo search to give your users the ability to perform image-based searches using the objects around them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-image-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-image-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ When photo search is configured on your instance, a photo icon \(\[Omitted image
 
 ## Google Firebase account
 
-To take advantage of image recognition in your mobile applications, you need a Firebase account with the Google Vision API enabled. Google Firebase and the Google Vision API are third-party services that must be subscribed to separately. Once you have a Firebase account, you can connect that account to your ServiceNow instance by entering your Firebase App ID and Web API key. For details on this process see [Configure photo search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-image-search.md).
+To take advantage of image recognition in your mobile applications, you need a Firebase account with the Google Vision API enabled. Google Firebase and the Google Vision API are third-party services that must be subscribed to separately. Once you have a Firebase account, you can connect that account to your ServiceNow instance by entering your Firebase App ID and Web API key. For details on this process see [Configure photo search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-image-search.md).
 
 ## Third-party data usage
 

@@ -2,7 +2,7 @@
 title: Now Assist Virtual Agent topics for HR Service Delivery Advanced Integration with Oracle HCM
 description: You can use the Now Assist Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the Oracle HCM system in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/na-va-oracle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/na-va-oracle.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,7 +20,7 @@ You can use the Now Assist Virtual Agent topics in Employee Center to place requ
 
 To access and use the Virtual Agent topics, verify the following:
 
--   [Configure the ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
+-   [Configure the ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
 -   Role required: sn\_hr\_oracle\_adv.admin
 
 ## Available Spoke Subflows for Virtual Agent topics for HR Service Delivery Advanced Integration with Oracle HCM

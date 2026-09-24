@@ -2,7 +2,7 @@
 title: Fulfilling request for copy of contract in playbook
 description: Reduce manual effort by providing your procurement specialist with a playbook for attaching the contract from and sending it as an email to the employee who requested for it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/fulfilling-request-for-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/fulfilling-request-for-contract.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -18,10 +18,10 @@ Reduce manual effort by providing your procurement specialist with a playbook fo
 
 If an employee requires a copy of a contract they have access to, they can submit a request for the same from Employee Center by navigating to **Purchase and expense** &gt; **Purchase Requests** &gt; **Request a copy of contract**. A procurement case of type Request a copy of contract is created for the procurement specialist to work on, in Source-to-Pay Workspace.​ The procurement specialist can attach a copy of the contract from a playbook and send it as an email to the employee who requested for it. This reduces a lot of manual effort and provides the procurement specialist a single place to perform all the necessary actions.​
 
--   **[Fulfill request for copy of contract in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/fulfill-request-for-contract-playbook.md)**  
+-   **[Fulfill request for copy of contract in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/fulfill-request-for-contract-playbook.md)**  
 Attach a copy of the contract from a playbook and send it as an email to the employee who requested for it.
 
-**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 

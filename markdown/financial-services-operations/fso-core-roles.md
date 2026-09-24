@@ -2,7 +2,7 @@
 title: User roles and FSO Business rules
 description: This section defines the various roles within Financial Services Operations Core and explains the business rules that guide the system’s actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-core-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-core-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

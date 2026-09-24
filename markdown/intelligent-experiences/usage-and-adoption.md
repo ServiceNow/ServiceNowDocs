@@ -2,7 +2,7 @@
 title: Usage and adoption
 description: The Usage and adoption dashboard page contains key usage and performance indicators that help you evaluate AI adoption in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/usage-and-adoption.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/usage-and-adoption.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ The Usage summary page includes indicators on total and daily AI actions, skill 
 
 \[Omitted image "naa-usage-summary.png"\] Alt text: Usage and adoption dashboard page.
 
-The indicators on the Usage and adoption dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on data source and calculations behind each indicator on the page.
+The indicators on the Usage and adoption dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on data source and calculations behind each indicator on the page.
 
 -   Skills engagement trend for a selected period can reveal skills that have been used more frequently or less frequently.
 -   Total and daily actions for a selected period can reveal the scale of AI actions executed. The trend line in the visualization shows periods of increased or declining engagement.
@@ -101,5 +101,5 @@ The indicators on the Usage and adoption dashboard page provide the following in
     \[Omitted image "naa-error-details.png"\] Alt text: Error details indicator.
 
 
-**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-analytics.md)
 

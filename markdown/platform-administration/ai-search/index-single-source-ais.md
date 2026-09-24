@@ -2,7 +2,7 @@
 title: Perform a full table index or reindex for a single AI Search indexed source
 description: Make content from an internal indexed source searchable by performing a full table index. This procedure indexes existing records from the source table and any child tables configured for indexing. You can manually reindex content from an internal indexed source by repeating this procedure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/index-single-source-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/index-single-source-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -18,7 +18,7 @@ Make content from an internal indexed source searchable by performing a full tab
 
 ## Before you begin
 
-Your indexed source must be active and internal \(referring to a ServiceNow AI Platform® table\). To index content from an indexed source for external documents, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-ais.md).
+Your indexed source must be active and internal \(referring to a ServiceNow AI Platform® table\). To index content from an indexed source for external documents, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/external-content-ais.md).
 
 Role required: ais\_admin
 
@@ -61,7 +61,7 @@ AI Search indexes content from existing records in the indexed source. Indexing 
 
 ## What to do next
 
-Define search sources to make searchable content from the indexed source available in user search experiences. For details on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-source-ais.md).
+Define search sources to make searchable content from the indexed source available in user search experiences. For details on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-search-source-ais.md).
 
-**Parent Topic:**[Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexing-content-ais.md)
+**Parent Topic:**[Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/indexing-content-ais.md)
 

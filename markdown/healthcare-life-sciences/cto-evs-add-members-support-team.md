@@ -2,7 +2,7 @@
 title: Add members to your healthcare environmental services support organization
 description: Add members to your Environmental Services support organization to provide visibility and access to healthcare environmental services cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-add-members-support-team.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-add-members-support-team.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

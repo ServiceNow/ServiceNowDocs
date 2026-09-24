@@ -2,7 +2,7 @@
 title: Predictive Intelligence for User Reported Phishing
 description: This feature assists security analysts in triaging and prioritizing user reported phishing emails.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/cj-sir-ml-urp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/cj-sir-ml-urp.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

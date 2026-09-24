@@ -2,7 +2,7 @@
 title: Configuring Appointment Booking
 description: Set up appointment booking to allow customers and service providers to schedule and manage service appointments efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/appointment-booking-administer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/appointment-booking-administer.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -47,16 +47,16 @@ In addition to the application-level configuration, each service offering schedu
 
 The steps for configuring Appointment Booking are:
 
-1.  [Configure Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-appointment-booking.md)
-2.  \(Optional\) [Configure Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-advanced-appointment-booking.md)
+1.  [Configure Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-appointment-booking.md)
+2.  \(Optional\) [Configure Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-advanced-appointment-booking.md)
 
     Advanced Appointment Booking allows you to configure flexible schedules, holidays and appointment window durations for a territory.
 
-3.  \(Optional\) [Customize Appointment Booking email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appointment-booking-notifications.md)
+3.  \(Optional\) [Customize Appointment Booking email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/appointment-booking-notifications.md)
 
     The system administrator can customize email and SMS notifications for appointment confirmation and cancellation notices and appointment reminders.
 
-4.  \(Optional\) [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/extension-points-field-service.md)
+4.  \(Optional\) [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/extension-points-field-service.md)
 
     Use extension points to customize appointment booking configurations.
 
@@ -68,13 +68,13 @@ The steps for configuring Appointment Booking are:
 **Related topics**  
 
 
-[Appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking.md)
+[Appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/appointment-booking.md)
 
-[Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking/managing-appointments.md)
+[Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/appointment-booking/managing-appointments.md)
 
-[Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking-components.md)
+[Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/appointment-booking-components.md)
 
-[Learn about appointment availability settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appt-booking-task-assignment.md)
+[Learn about appointment availability settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/appt-booking-task-assignment.md)
 
-[Learn about task assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appt-booking-config-overview.md)
+[Learn about task assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/appt-booking-config-overview.md)
 

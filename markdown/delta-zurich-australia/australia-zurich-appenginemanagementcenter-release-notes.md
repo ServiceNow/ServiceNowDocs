@@ -2,11 +2,11 @@
 title: Combined App Engine Management Center release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for App Engine Management Center from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-appenginemanagementcenter-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-appenginemanagementcenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -76,6 +76,11 @@ Starting with version 28.2.1 of AEMC, you can deploy using ReleaseOps. ReleaseOp
 Starting with version 28.2.1 of AEMC, migrate your existing App Engine pipelines to ReleaseOps to take advantage of ReleaseOps features without disrupting your existing pipeline and deployment process.
 
 
+ -   **[Use AEMC to manage app delegation, development, and deployment](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=zurich&ft:locale=en-US)**
+
+AEMC is a centralized tool for IT admins and developers to manage the entire app development life cycle, from idea submission to deployment and monitoring. AEMC enhances efficiency and governance, and provides clear insights into custom app usage and developer productivity.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -93,6 +98,11 @@ Configure a standalone environment for deployments in the platform version of AE
 -   **[AEMC guided setup now includes ReleaseOps](https://www.servicenow.com/docs/access?context=configuring-aemc&family=australia&ft:locale=en-US)**
 
 Streamline credential sharing between instances and automates the deployment process in ReleaseOps within the AEMC guided setup.
+
+
+ -   **[Release lifecycle documentation AI agent](https://www.servicenow.com/docs/access?context=exploring-release-lifecycle-documentation-agent&family=australia&ft:locale=en-US)**
+
+Help improve transparency across your app development environment using the release lifecycle documentation AI agent, to generate update set descriptions and release notes.
 
 
 </td></tr></tbody>
@@ -214,6 +224,8 @@ Install AEMC by requesting it from the ServiceNow Store.
 Starting with version 28.2.1 of AEMC, you can use ReleaseOps pipelines or migrate your existing App Engine pipelines to ReleaseOps. To use ReleaseOps, you must install ReleaseOps by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** App Engine Management Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -224,6 +236,8 @@ Australia
 
 Install App Engine Management Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** App Engine Management Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -387,5 +401,5 @@ Australia
  See [App Engine Management Center](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

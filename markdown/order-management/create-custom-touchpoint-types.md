@@ -2,7 +2,7 @@
 title: Create custom touchpoint types
 description: Create touchpoint types in Activity Management tailored to your sales organization's workflow to capture activities beyond the standard Discovery, Demo, and CBR types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-custom-touchpoint-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-custom-touchpoint-types.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_crm\_touchpoint.admin
 
 ## About this task
 
-Several touchpoint types are available by default. To view the available options, see [Create new CRM touchpoint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-touchpoint-form.md).
+Several touchpoint types are available by default. To view the available options, see [Create new CRM touchpoint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-crm-touchpoint-form.md).
 
 ## Procedure
 
@@ -49,7 +49,7 @@ Several touchpoint types are available by default. To view the available options
 **Related topics**  
 
 
-[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-activity-management.md)
 
-[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-activity-management.md)
 

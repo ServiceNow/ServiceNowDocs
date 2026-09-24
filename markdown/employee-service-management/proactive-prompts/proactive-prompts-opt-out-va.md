@@ -2,7 +2,7 @@
 title: Opting out of a prompt in Virtual Agent
 description: Choose not to receive a specific prompt by opting out of the signal displayed in Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-opt-out-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/proactive-prompts/proactive-prompts-opt-out-va.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts

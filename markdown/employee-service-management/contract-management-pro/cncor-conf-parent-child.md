@@ -2,7 +2,7 @@
 title: Configure field mapping for parent-child contract linking
 description: Select the child contract type and configure the parent-child field mapping to inherit the mapped fields from the parent contract when linking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncor-conf-parent-child.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncor-conf-parent-child.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

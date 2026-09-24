@@ -2,7 +2,7 @@
 title: Collect data for Platform Analytics Solutions
 description: After you install an Platform Analytics Solution and ensure that it points at the correct data structures in your instance, collect the data for the indicators and breakdowns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/collect-data-nowintel-solutions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/collect-data-nowintel-solutions.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -34,15 +34,15 @@ The plugin or ServiceNow Store application for an Platform Analytics Solution us
     This job populates the Performance Analytics tables with data going forward. Schedule the periodic data collector to run with the same periodicity as the frequency of the indicators for which it collects data. Most indicators have a Daily frequency, so most Data Collector jobs also run daily. After you schedule the job, verify that it is Active, or it will not run.
 
 
-1.  [Run historical data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/historical-data-nowintel-solution.md)  
+1.  [Run historical data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/historical-data-nowintel-solution.md)  
 After you activate an Platform Analytics Solution, run a historical data collection job. This job gives you immediate insight from your existing data.
-2.  [Schedule data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/schedule-job-nowintel-solution.md)  
+2.  [Schedule data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/schedule-job-nowintel-solution.md)  
 Enable the periodic data collection job for your Platform Analytics Solution. Check that the time that it runs is correct.
 
-**Parent Topic:**[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/content-packs-in-form-analytics-published.md)
+**Parent Topic:**[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/content-packs-in-form-analytics-published.md)
 
 **Related topics**  
 
 
-[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md)
+[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ClctData.md)
 

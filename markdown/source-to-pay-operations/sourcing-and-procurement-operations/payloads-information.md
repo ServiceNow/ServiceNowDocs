@@ -2,7 +2,7 @@
 title: Payloads samples and errors
 description: Use the following sample payloads to enable procurement data import and export.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/payloads-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/payloads-information.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -174,5 +174,5 @@ This section describes the following procurement errors:
 }
 ```
 
-**Parent Topic:**[Data source table information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md)
+**Parent Topic:**[Data source table information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md)
 

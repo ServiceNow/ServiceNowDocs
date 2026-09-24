@@ -2,7 +2,7 @@
 title: Guidelines for creating prompts
 description: Guidelines for writing prompts for out-of-box \(OOB\) and custom knowledge article templates to optimize the use of AI models for generating knowledge articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/guidelines-for-creating-prompts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-in-knowledge-management/guidelines-for-creating-prompts.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -148,5 +148,5 @@ Generate a JSON response in the following format:
 
 ```
 
-**Parent Topic:**[Configure custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
+**Parent Topic:**[Configure custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
 

@@ -2,7 +2,7 @@
 title: Methods and events of an attended automation form
 description: Learn about the methods and events of an attended automation form in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/form-methods-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/form-methods-events.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -99,10 +99,10 @@ Provides visual feedback in the form as a progress bar. Set the percentage of th
 |OnOpen|Occurs when the form is opened.|
 |OnClose|Occurs when the form is closed.|
 
-**Parent Topic:**[RPA Desktop Design Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-reference.md)
+**Parent Topic:**[RPA Desktop Design Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-reference.md)
 
 **Related topics**  
 
 
-[Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-rda-form.md)
+[Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-rda-form.md)
 

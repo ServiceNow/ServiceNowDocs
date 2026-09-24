@@ -2,7 +2,7 @@
 title: Track a publication
 description: Access a list of recipients for a publication and see which recipients have viewed the content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommTrackPublications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_TargetCommTrackPublications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Application plugins for AI capabilities in SLO
 description: View the consolidated list of plugins required to use AI capabilities for supplier case management in Supplier Lifecycle Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slo-ai-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-ai-plugins.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -73,5 +73,5 @@ ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) \(app-supplier-gen-ai\
 -   Supplier Case Management \(scope name: sn\_supplier\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
+</table>**Parent Topic:**[Install Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
 

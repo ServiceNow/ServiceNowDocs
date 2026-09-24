@@ -2,7 +2,7 @@
 title: Configure mobile campaign components
 description: Configure components to display the image, video, and text cards in a campaign for your users to view and interact with on mobile devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-campaign-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-campaign-create.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ To configure components to display a campaign on mobile devices, ensure that you
 
 -   Developed content for your campaign. For more information, see [Campaigns for Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ecpro-campaigns.md) and [Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ecpro-content-delivery-mobile.md).
 
--   Defined the appearance criteria for at least one card type. For more information, see [Create appearance templates for cards for a mobile campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-campaign-card-type.md) and [Configure the details for the appearance of cards for a mobile campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-campaign-card-config.md).
+-   Defined the appearance criteria for at least one card type. For more information, see [Create appearance templates for cards for a mobile campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-campaign-card-type.md) and [Configure the details for the appearance of cards for a mobile campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-campaign-card-config.md).
 
 -   Have the Employee Center Pro Content Publishing plugin \[com.sn\_content\_delivery\] installed. For more information, see [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/activate-content-delivery-plugin.md).
 
@@ -228,5 +228,5 @@ Not applicable for mobile campaigns.
 
 ## What to do next
 
-Add the content UI section to a screen launcher. For more information, see [Configure a content UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-content-ui-section.md).
+Add the content UI section to a screen launcher. For more information, see [Configure a content UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-content-ui-section.md).
 

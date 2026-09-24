@@ -2,7 +2,7 @@
 title: Generate KB article with ServiceNow Otto context menu
 description: Use the ServiceNow Otto context menu to generate Knowledge Base articles in Knowledge Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generate-kb-article-with.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generate-kb-article-with.html
 release: australia
 topic_type: task
 last_updated: "2025-12-05"
@@ -52,5 +52,5 @@ Role required: admin
     Using the ServiceNow Otto context menu open prompt inline and pop-over variant you can quickly produce high-quality, accurate, and lucid knowledge articles, saving time and improving support in Knowledge Management.
 
 
-**Parent Topic:**[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md)
+**Parent Topic:**[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-write-overview.md)
 

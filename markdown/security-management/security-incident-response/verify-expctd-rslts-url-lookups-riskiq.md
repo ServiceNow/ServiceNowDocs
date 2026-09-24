@@ -2,7 +2,7 @@
 title: Verify expected results for WHOISIQ URL lookups
 description: When a security incident generates observables for URLs or domains, the WHOISIQ API performs the observable enrichment automatically upon security incident creation. The lookup results are displayed on the Observable Enrichment Results and SSL Certificates tabs on the security incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-expctd-rslts-url-lookups-riskiq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/verify-expctd-rslts-url-lookups-riskiq.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -53,14 +53,14 @@ Observable enrichment results are displayed on the **Observable Enrichment Resul
 
 If you can't view expected results, review the work notes. Also, verify the observable is supported for the lookup by the integration.
 
-**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq-lookups.md)
+**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/riskiq-lookups.md)
 
-**Previous topic:**[RISKIQ SSL certificate lookups that return multiple certificates or no certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq_ssl_no_match.md)
+**Previous topic:**[RISKIQ SSL certificate lookups that return multiple certificates or no certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/riskiq_ssl_no_match.md)
 
-**Next topic:**[Create an observable for manual WHOISIQ lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manually-attch-obsv-whoisiq.md)
+**Next topic:**[Create an observable for manual WHOISIQ lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manually-attch-obsv-whoisiq.md)
 
 **Related topics**  
 
 
-[Supported observables for RISKIQ and RISKIQ WHOISIQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq_supported_obsv.md)
+[Supported observables for RISKIQ and RISKIQ WHOISIQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/riskiq_supported_obsv.md)
 

@@ -2,7 +2,7 @@
 title: Open a project in the project workbench
 description: The project manager can open an existing project in the project workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_OpenAProjectInTheProjectWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_OpenAProjectInTheProjectWorkbench.html
 release: australia
 product: Project Management
 classification: project-management
@@ -29,7 +29,7 @@ Role required: it\_project\_manager
     The selected project opens in the project workbench under **Planning** tab in project workspace.
 
 
-**Parent Topic:**[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
+**Parent Topic:**[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_UsingProjectWorkbench.md)
 
 **Related topics**  
 
@@ -42,5 +42,5 @@ Role required: it\_project\_manager
 
 [Create a test case in the project workbench]()
 
-[Create a project task in the project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateProjTaskProjWorkbench.md)
+[Create a project task in the project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateProjTaskProjWorkbench.md)
 

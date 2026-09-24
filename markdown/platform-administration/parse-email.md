@@ -2,7 +2,7 @@
 title: Parse an email thread
 description: When an email is received, parse the most recent message in an email thread by creating Email Reply Separators using specified string or regular expressions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/parse-email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/parse-email.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -106,7 +106,7 @@ Language of the reply separator.**Note:** All email clients don't indicate a lan
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 

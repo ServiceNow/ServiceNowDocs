@@ -2,7 +2,7 @@
 title: Configure event body fields
 description: Administrators can add fields to event bodies so dispatchers have more information about events when they’re viewing the calendar in Dispatcher Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/add-event-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/add-event-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Administrators can add fields to event bodies so dispatchers have more informati
 
 ## About this task
 
-Administrators can show up to five fields on the event body in Dispatcher Workspace. Dispatchers can choose what fields show on event bodies in the Dispatcher Settings under the Events tab. For more information on the Events tab, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
+Administrators can show up to five fields on the event body in Dispatcher Workspace. Dispatchers can choose what fields show on event bodies in the Dispatcher Settings under the Events tab. For more information on the Events tab, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## Before you begin
 

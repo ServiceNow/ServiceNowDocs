@@ -2,7 +2,7 @@
 title: Configurable workspace
 description: Configurable workspace is a user interface that provides users with the tools and information they need to assist customers. Workspaces use role-based layouts, components, and communication channels to support agent, fulfiller, and technician workflows across Sales CRM, CSM, FSM, and industry solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"

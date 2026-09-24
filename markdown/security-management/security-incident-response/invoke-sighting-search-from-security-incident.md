@@ -2,7 +2,7 @@
 title: Invoke Sighting Search from a Security Incident
 description: Invoke the sightings search from a SIR security incident by following the below procedure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/invoke-sighting-search-from-security-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/invoke-sighting-search-from-security-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

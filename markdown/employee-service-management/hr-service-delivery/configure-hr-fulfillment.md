@@ -2,7 +2,7 @@
 title: Configure HR fulfillment instructions
 description: Use HR fulfillment instructions to provide focused and targeted instructions for an HR case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-hr-fulfillment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-hr-fulfillment.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -99,10 +99,10 @@ Knowledge articles
 Knowledge articles that you want to attach to the fulfillment instructions. HR agents use knowledge articles as reference when fulfilling an HR case.**Note:** Knowledge articles are visible only to HR agents and not to employees.
 
 </td></tr></tbody>
-</table>    **Note:** Previously, Fulfillment Instructions and Checklists were configured from HR services. Checklists are still configured from HR services. For more information on checklists, see [Checklists in HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ChecklistsInHRCasesAndTasks.md).
+</table>    **Note:** Previously, Fulfillment Instructions and Checklists were configured from HR services. Checklists are still configured from HR services. For more information on checklists, see [Checklists in HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ChecklistsInHRCasesAndTasks.md).
 
 4.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)
+**Parent Topic:**[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)
 

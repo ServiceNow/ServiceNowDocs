@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Voice
 description: Use ServiceNow Voice to facilitate inbound and outbound telephone calls by integrating your ServiceNow instance with a third-party phone system such as Amazon Connect.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/ccc-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/ccc-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ Here is an example workflow.
 
 \[Omitted image "amazon-connect-integration.png"\] Alt text: Amazon Connect Integration
 
-**Parent Topic:**[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-overview.md)
+**Parent Topic:**[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cloud-call-center-overview.md)
 

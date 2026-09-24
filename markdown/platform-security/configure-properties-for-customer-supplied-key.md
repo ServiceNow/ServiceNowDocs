@@ -2,7 +2,7 @@
 title: Configure properties for customer-supplied key
 description: Review the system properties for the ephemeral public wrapping key that your instance uses to unwrap customer-supplied keys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-properties-for-customer-supplied-key.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configure-properties-for-customer-supplied-key.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -84,7 +84,7 @@ Period for which the ephemeral key pair is valid.
 
 ## What to do next
 
-Once your properties are configured to your needs, proceed to [Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/wrap-your-customer-supplied-key.md).
+Once your properties are configured to your needs, proceed to [Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/wrap-your-customer-supplied-key.md).
 
-**Parent Topic:**[Configure Customer-supplied keys for Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/fe-config-customer-supplied-keys.md)
+**Parent Topic:**[Configure Customer-supplied keys for Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-config-customer-supplied-keys.md)
 

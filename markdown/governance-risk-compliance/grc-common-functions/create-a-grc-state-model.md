@@ -2,7 +2,7 @@
 title: Create a GRC state model
 description: Create a GRC state model to define the states a table's records move through so an issue workflow can use it to control its lifecycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-a-grc-state-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/create-a-grc-state-model.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -50,7 +50,7 @@ The state model record is created and is active by default, with no states yet d
 
 ## What to do next
 
-Add states to the model. See [Add a state to a GRC state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.md).
+Add states to the model. See [Add a state to a GRC state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.md).
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

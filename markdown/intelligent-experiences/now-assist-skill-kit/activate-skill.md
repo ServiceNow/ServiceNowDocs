@@ -2,7 +2,7 @@
 title: Activate a skill
 description: After you publish a skill, a Otto admin must activate it in AI Admin Hub. Activating the skill makes it available for users to trigger within the platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/activate-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/activate-skill.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -65,7 +65,7 @@ After activation, the skill moves to the **Active** tab in AI Admin Hub. Users c
 
 You can enable AI Guardian for your skills. To learn more about AI Guardian, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md).
 
-**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

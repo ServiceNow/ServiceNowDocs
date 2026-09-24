@@ -2,7 +2,7 @@
 title: Export a list in CWM
 description: Export the records in a default or custom list in Collaborative Work Management to Excel, CSV, JSON, or PDF, either as a direct download or delivered by email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/export-a-list-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/export-a-list-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -54,5 +54,5 @@ Role required: sn\_cwm.cwm\_user
 
 Depending on the delivery type you selected, the file downloads directly on your system or is sent to the email address you entered.
 
-**Parent Topic:**[Manage lists in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-lists.md)
+**Parent Topic:**[Manage lists in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-lists.md)
 

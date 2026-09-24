@@ -2,7 +2,7 @@
 title: Create a data source similar to Telecom core data source
 description: Set up a schema-compliant data source in the connector's application scope to simulate telecom data. Test the Telecom Discovery Builder framework ETL before integrating with live device data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/create-a-data-source-similar-to-tsom-core-data-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/create-a-data-source-similar-to-tsom-core-data-source.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -87,7 +87,7 @@ After the data source is created and tested:
 **Related topics**  
 
 
-[Standardized JSON data set for service graph connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/overview-of-standardized-json-common-data-set.md)
+[Standardized JSON data set for service graph connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/overview-of-standardized-json-common-data-set.md)
 
-[Duplicate the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/duplicate-the-generic-etl-to-use-a-specific-connector.md)
+[Duplicate the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/duplicate-the-generic-etl-to-use-a-specific-connector.md)
 

@@ -2,7 +2,7 @@
 title: ConsolidationService - Scoped, Global
 description: The ConsolidationService API is a script include with methods for merging and de-duplicating complex, hierarchical business data \(such as contracts, quotes, line items, and entitlements\) using custom logic.Overridable method for specifying which child entity types can be consolidated within a JSON. The base implementation returns false for all entity types if not overridden.Overridable method that adds conditions for determining whether two entity JSONs with the same hash can be consolidated. The base implementation returns false if not overridden.Overridable method for specifying which child entity types can be merged from source JSONs into the target JSON. The base implementation returns false for all entity types if not overridden.Merges source entity JSON\(s\) into a target entity JSON and consolidates child entities within the merged result based on hash-based grouping and pairwise consolidation logic.Overridable method that controls whether consolidation is enabled for this service instance. The base implementation returns false if not overridden. Implementing classes must override this method to return true to enable consolidation.Overridable method that returns the hash configuration for grouping entities before consolidation. The configuration specifies which attributes and child context types generate an MD5 hash for each entity. Entities with the same hash are grouped for pairwise consolidation. The base implementation returns an empty object when not overridden.Overridable method to determine the primary JSON when two JSONs are being consolidated. For non-overridden attributes, the primary JSON's attribute values are used on the consolidated result. The base implementation returns json1 if not overridden.Overridable method, called after two JSONs are consolidated, for updating attributes on the consolidated JSON. The base implementation is a no-op if not overridden.Overridable method that applies final modifications to the consolidated JSON after hierarchy consolidation is complete. The base implementation is a no-op if not overridden.Overridable method called before merge and consolidation for performing custom pre-processing tasks such as bulk map creation or caching lookup data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ConsolidationServiceAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/ConsolidationServiceAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -34,7 +34,7 @@ Before implementing ConsolidationService, ensure you have:
 
 -   The Lead to Cash Core plugin \(`com.snc.l2c_core`\) installed and the `admin` role.
 -   Two custom script includes: a `ConsolidationService` subclass containing your consolidation logic, and a `LeadToCashService` subclass that returns it from `getConsolidationService()`. The subclass wires your consolidation logic into the pipeline so PrimitiveUtil can resolve it at runtime. See the 'Extension and workflow' section for more information.
--   Familiarity with PrimitiveUtil, which is the entry point for invoking L2C Core primitives, including consolidation. See [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md) for more information.
+-   Familiarity with PrimitiveUtil, which is the entry point for invoking L2C Core primitives, including consolidation. See [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadToCashCoreAPI.md) for more information.
 
     **Note:** If no custom implementation is registered, PrimitiveUtil falls back to the base `sn_l2c_core.LeadToCashService` automatically which has consolidation disabled by default, meaning no merging or deduplication is performed. You never need to instantiate or reference this fallback directly in your code.
 
@@ -94,7 +94,7 @@ To extend and use the ConsolidationService API:
 
 6.  Invoke your consolidation by calling consolidate\(\) either directly from a server‑side script or indirectly via Lead‑to‑Cash Flow Designer primitives.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## ConsolidationService - canConsolidateEntity\(String contextType\)
 
@@ -358,7 +358,7 @@ Object
 
 </td><td>
 
-Accepts the JSON output of the [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md) createInstance\(\) or effect\(\) method. Can be a single entity JSON object, or a JSON object containing an items array of multiple entity JSONs.If you're not piping output from another primitive, you can also construct this JSON manually following the structure below."
+Accepts the JSON output of the [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadToCashCoreAPI.md) createInstance\(\) or effect\(\) method. Can be a single entity JSON object, or a JSON object containing an items array of multiple entity JSONs.If you're not piping output from another primitive, you can also construct this JSON manually following the structure below."
 
 ```
 "sourceJSON": {
@@ -1646,7 +1646,7 @@ Store computed results on the `this` object \(for example, `this.targetHeaderId 
 
 |Name|Type|Description|
 |----|----|-----------|
-|sourceJSON|Object|Output of sourceJSON to consolidate. Accepts the JSON output of the [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md) createInstance\(\) or effect\(\) method. Can be a single entity JSON object, or a JSON object containing an items array of multiple entity JSONs. Can be null or empty.|
+|sourceJSON|Object|Output of sourceJSON to consolidate. Accepts the JSON output of the [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadToCashCoreAPI.md) createInstance\(\) or effect\(\) method. Can be a single entity JSON object, or a JSON object containing an items array of multiple entity JSONs. Can be null or empty.|
 |targetJSON|Object|Required. Target entity JSON for consolidation.|
 |additionalParams|Object|Optional. Additional data passed from the caller.|
 

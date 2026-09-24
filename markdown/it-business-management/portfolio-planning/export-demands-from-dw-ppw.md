@@ -2,7 +2,7 @@
 title: Export demands
 description: Share data with stakeholders or perform further analysis outside the platform by exporting demand records from Next Experience for Demand Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/export-demands-from-dw-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/export-demands-from-dw-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

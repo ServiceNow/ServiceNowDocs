@@ -2,7 +2,7 @@
 title: Set a filter to follow another filter
 description: In some cases, values on a pair of filters can refer to multiple values on each other. For one such filter to follow another, it must go through a connecting table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/set-filter-to-follow-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/set-filter-to-follow-filter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-In most cases, a filter follows another filter either in a one-to-one relationship or in a one-to-many relationship. In the latter case, the filter source is a reference field. Anyone who can edit a dashboard can set up one such filter to follow another on that dashboard, in a direct connection. Users with the analytics\_filter\_admin role can also create such filters in the filter library. For more information, see the example in [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md).
+In most cases, a filter follows another filter either in a one-to-one relationship or in a one-to-many relationship. In the latter case, the filter source is a reference field. Anyone who can edit a dashboard can set up one such filter to follow another on that dashboard, in a direct connection. Users with the analytics\_filter\_admin role can also create such filters in the filter library. For more information, see the example in [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md).
 
 If the values on each filter can refer to multiple values on the other filter \(a many-to-many relationship\), you have to select a connecting table. This connecting table has a unique record for every possible reference between the two filters. The connecting tables between two tables are defined in the Collection \[sys\_collection\] and Many to Many Definition \[sys\_m2m\] tables. Only administrators can access these tables.
 
@@ -30,7 +30,7 @@ If the values on each filter can refer to multiple values on the other filter \(
 
 1.  Add at least two single or multiple select filters to the relevant dashboard.
 
-    For more information about adding filters to a dashboard, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md).
+    For more information about adding filters to a dashboard, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-workspace-filter-type.md).
 
 2.  Put the dashboard in Edit mode.
 

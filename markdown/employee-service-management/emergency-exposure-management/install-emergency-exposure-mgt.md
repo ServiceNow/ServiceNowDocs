@@ -2,7 +2,7 @@
 title: Install Emergency Exposure Management
 description: You can install Emergency Exposure Management if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/install-emergency-exposure-mgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-exposure-management/install-emergency-exposure-mgt.html
 release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -98,8 +98,8 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
     For more information, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
 
 
--   **[Components installed with Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/emergency-exposure-installed-with.md)**  
+-   **[Components installed with Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/emergency-exposure-installed-with.md)**  
 Several types of components are installed with Emergency Exposure Management, including tables and user roles.
 
-**Parent Topic:**[Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/emergency-exposure-management.md)
+**Parent Topic:**[Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/emergency-exposure-management.md)
 

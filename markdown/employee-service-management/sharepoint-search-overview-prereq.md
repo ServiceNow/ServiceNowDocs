@@ -2,7 +2,7 @@
 title: SharePoint Online Search Connector prerequisites
 description: The ServiceNow SharePoint Online Search Connector offers a consumer-grade search configuration to manage your information resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/sharepoint-search-overview-prereq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/sharepoint-search-overview-prereq.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ Activate the following plugins and apps:
 
 Verify that the AI Search engine is enabled. External Content for the AI Search plugin \(com.glide.ais.external\_content\) must have a ServiceNow subscription.
 
-For more information, see [Setting up SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md).
+For more information, see [Setting up SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/setup-sp-ovrvw.md).
 
 ## Things to remember
 
@@ -79,5 +79,5 @@ For more information, see [Setting up SharePoint Online Search Connector](https:
 **Related topics**  
 
 
-[SharePoint Online Search Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-reference.md)
+[SharePoint Online Search Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/sharepoint-reference.md)
 

@@ -2,7 +2,7 @@
 title: Share a Task Mining analysis
 description: Determine which process owners have access to the project's analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/share-projects.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/share-projects.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -54,5 +54,5 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 **Related topics**  
 
 
-[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
+[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/task-mining-dashboard.md)
 

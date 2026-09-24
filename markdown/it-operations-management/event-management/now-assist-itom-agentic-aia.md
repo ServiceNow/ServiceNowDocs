@@ -2,14 +2,14 @@
 title: Analyze alert impact agentic workflow
 description: Use the analyze alert impact agentic workflow to investigate an alert and get the context that you need to respond efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/now-assist-itom-agentic-aia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/now-assist-itom-agentic-aia.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -45,13 +45,13 @@ The Analyze alert impact page lets you manage the agentic workflow, including de
 
 ## AI agents used in the analyze alert impact agentic workflow
 
-The analyze alert impact agentic workflow uses observability AI agents to gather information from alerts and request insights. The observability AI agents require additional configuration. For configuration procedures and detailed information about the data returned by these agents, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
+The analyze alert impact agentic workflow uses observability AI agents to gather information from alerts and request insights. The observability AI agents require additional configuration. For configuration procedures and detailed information about the data returned by these agents, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 |AI agent|AI agent role|
 |--------|-------------|
 |Alert impact summary AI agent|Retrieves the alert impact summary for a specific alert.|
 |Alert information retrieval AI agent|Gathers key observability details for a specific alert.|
-|Observability agents|Retrieves data from the observability vendor associated with the alert. For details, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md)|
+|Observability agents|Retrieves data from the observability vendor associated with the alert. For details, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-integration-agents-for-now-assist.md)|
 
 ## Generating the alert analysis
 
@@ -67,5 +67,5 @@ In the agentic workflow record:
     The page shows the chat responses, visualizes the AI agents involved, and lists the AI agent decision logs.
 
 
-In AI Agent Studio, you get notified when the analysis is generated. You can then act on the information or ask more questions about the alert. For more information about using the agentic workflow in the ServiceNow Otto panel, see [Analyze alert impact in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/now-assist-itom-use-aia.md).
+In AI Agent Studio, you get notified when the analysis is generated. You can then act on the information or ask more questions about the alert. For more information about using the agentic workflow in the ServiceNow Otto panel, see [Analyze alert impact in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/now-assist-itom-use-aia.md).
 

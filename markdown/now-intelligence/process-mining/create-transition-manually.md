@@ -2,7 +2,7 @@
 title: Create a process step filter manually
 description: Create a process step filter to meet your needs and apply it to view the result on the process graph.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/create-transition-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/create-transition-manually.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -89,5 +89,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 6.  When the task completes, select **View result** in the Scheduled tasks panel of Analyst workbench.
 
 
-**Parent Topic:**[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/node-to-node-conditions.md)
+**Parent Topic:**[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/node-to-node-conditions.md)
 

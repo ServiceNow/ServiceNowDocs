@@ -2,7 +2,7 @@
 title: Sidebar discussion subject mapping
 description: Create a requester mapping to customize what displays in the subject field of a Sidebar conversation. The subject field defaults to the short description.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-discussion-subject-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/sidebar-discussion-subject-mapping.html
 release: australia
 product: Sidebar
 classification: sidebar

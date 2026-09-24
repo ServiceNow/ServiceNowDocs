@@ -2,7 +2,7 @@
 title: Install containerized OT Discovery packages
 description: Install the OT Discovery containerized packages on your network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/install-containerized-ot-discovery-packages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/install-containerized-ot-discovery-packages.html
 release: australia
 topic_type: task
 last_updated: "2026-06-01"
@@ -85,5 +85,5 @@ To help meet the air-gapped challenge, ServiceNow provides containerized version
     ```
 
 
-**Parent Topic:**[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md)
+**Parent Topic:**[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/air-gapped-networks-installation.md)
 

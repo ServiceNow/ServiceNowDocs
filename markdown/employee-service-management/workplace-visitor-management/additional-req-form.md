@@ -2,7 +2,7 @@
 title: Additional requirement form
 description: The Additional requirement form specifies visitor information that is required while adding a visitor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/additional-req-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/additional-req-form.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -103,7 +103,7 @@ Person who is required to fill the information.You can select the host, guest, b
 If you select **None**, the field is considered optional.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 

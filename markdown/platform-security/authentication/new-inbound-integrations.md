@@ -2,7 +2,7 @@
 title: New Inbound Integrations experience
 description: The new inbound integration workflow in the ServiceNow Machine Identity Console provides enhanced experience for managing inbound integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/new-inbound-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/new-inbound-integrations.html
 release: australia
 product: Authentication
 classification: authentication
@@ -27,9 +27,9 @@ On the instance, navigate to **All** &gt; **Machine Identity Console** &gt; **In
 
 To learn more about the different grant types and how to configure them, refer to the following topics:
 
--   [Authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authorization-code-grant.md)
--   [Client credentials grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/client-credential-grant.md)
--   [Third party token grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/third-party-id-token.md)
--   [JSON Web token bearer grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/jwt-bearer-grant.md)
--   [Resource owner password credential grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/resource-owner-password-grant.md)
+-   [Authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/authorization-code-grant.md)
+-   [Client credentials grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/client-credential-grant.md)
+-   [Third party token grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/third-party-id-token.md)
+-   [JSON Web token bearer grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/jwt-bearer-grant.md)
+-   [Resource owner password credential grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/resource-owner-password-grant.md)
 

@@ -2,7 +2,7 @@
 title: Add a related observable
 description: In addition to importing observables as STIX data, you can add related observables manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/t\_AddRelatedObservable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/t\_AddRelatedObservable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Role required: sn\_ti.admin
 7.  Click **Save**.
 
 
-**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_Observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_Observables.md)
 
 **Related topics**  
 

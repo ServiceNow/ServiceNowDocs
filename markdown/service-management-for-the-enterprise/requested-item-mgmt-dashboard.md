@@ -2,7 +2,7 @@
 title: Legacy: Request Management - Requested Item dashboard
 description: Track the progress of purchase orders, transfer orders, and software assignments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/requested-item-mgmt-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/requested-item-mgmt-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -87,5 +87,5 @@ Indicators not appearing in dashboard widgets but used in formulas:
 -   Stage
 -   State
 
-**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/request-content-pack.md)
+**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/request-content-pack.md)
 

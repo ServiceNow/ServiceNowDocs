@@ -2,7 +2,7 @@
 title: View program status reports
 description: Program status reports provide the up-to-date at-a-glance progress of all the projects in the program in several categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/program-management/view-program-status-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/program-management/view-program-status-report.html
 release: australia
 product: Program Management
 classification: program-management
@@ -22,7 +22,7 @@ Role required: it\_program\_manager
 
 ## About this task
 
-Use the **Program Status Report** related list to view the program status reports created for the program. If no report is listed, [create a program status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/create-program-status-report.md).
+Use the **Program Status Report** related list to view the program status reports created for the program. If no report is listed, [create a program status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/program-management/create-program-status-report.md).
 
 ## Procedure
 
@@ -65,7 +65,7 @@ Provides general overview information about the program:-   **Program Name**: Na
 -   **Actual Start Date**: Actual start date of the program.
 -   **Actual End Date**: Actual end date of the program.
 -   **Actual Cost**: Actual cost of the program.
- This information rolls up from the [Program form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_CreateAProgram.md).
+ This information rolls up from the [Program form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/program-management/t_CreateAProgram.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Summary
 
 </td><td>
 
-Information about the overall health of the program from the most recent [status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/create-program-status-report.md) entered by the program manager for the project.-   **Executive Summary**: Brief summary and analysis of the program.
+Information about the overall health of the program from the most recent [status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/program-management/create-program-status-report.md) entered by the program manager for the project.-   **Executive Summary**: Brief summary and analysis of the program.
 -   **Last Week's Achievements**: Progress of the program in the previous week.
 -   **Key Activities Planned**: Next planned activities for the program.
 
@@ -84,7 +84,7 @@ Current Status
 
 </td><td>
 
-Status of program related to overall health, schedule, cost, resources, and scope that is rolled up from the latest project status reports of all projects in the program. If there are multiple project status reports for each of these projects, the values from the latest project status report of each project are aggregated and rolled up to the program status. For more information, see [Program Status Report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/create-program-status-report.md).
+Status of program related to overall health, schedule, cost, resources, and scope that is rolled up from the latest project status reports of all projects in the program. If there are multiple project status reports for each of these projects, the values from the latest project status report of each project are aggregated and rolled up to the program status. For more information, see [Program Status Report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/program-management/create-program-status-report.md).
 
  Different colors indicate the status of above aspects. The rolled-up color for the final status is in the order red, yellow, and green by default. If there are projects in red, yellow, and green, then the program status is red. If there are projects only in yellow and green, then the program status is yellow.
 
@@ -110,7 +110,7 @@ The value of these KPIs roll up and are shown in the Current Status section of t
 
 \[Omitted image "program-status-report-example.gif"\] Alt text: Program status report example
 
-**Parent Topic:**[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_CreateAProgram.md)
+**Parent Topic:**[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/program-management/t_CreateAProgram.md)
 
 **Related topics**  
 

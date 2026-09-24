@@ -2,7 +2,7 @@
 title: Test ServiceNow components without setting up authentication
 description: Enables you to test the ServiceNow components on your sandbox instance without setting up authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/test-sn-comps-without-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/test-sn-comps-without-authentication.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,7 +2,7 @@
 title: Retrieve SCCM data for client software distribution
 description: Retrieve the collections and the list of applications available for deployment from your SCCM servers.A Discovery workflow populates ServiceNow tables with collection, application, and deployment data retrieved from SCCM servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_RetrieveSCCMDataClientSWDist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/t\_RetrieveSCCMDataClientSWDist.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -23,7 +23,7 @@ Retrieve the collections and the list of applications available for deployment f
 Before starting this procedure:
 
 -   Set up your Microsoft System Center Configuration Manager \(SCCM\) server, create the applications and collections, and configure the deployments you need. For information, see your SCCM documentation.
--   [Configure a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t-config-SCCM-deployment-manager.md) with the Application Deployment Manager role on the SCCM server.
+-   [Configure a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t-config-SCCM-deployment-manager.md) with the Application Deployment Manager role on the SCCM server.
 -   Set up the MID Server to communicate with the SCCM server.
 -   Add Powershell credentials to the ServiceNow Credentials \[discovery\_credentials\] table for the SCCM user who has the Application Deployment Manager role.
 
@@ -50,13 +50,13 @@ To populate the Client Software Distribution application with SCCM data:
     \[Omitted image "SCCMServerInstance.png"\] Alt text: SCCM server instance record
 
 
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/configuring-sccm.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/configuring-sccm.md)
 
 ## SCCM server Discovery for client software distribution
 
 A Discovery workflow populates ServiceNow tables with collection, application, and deployment data retrieved from SCCM servers.
 
-Users run the **Discover SCCM** workflow from an [SCCM Server Instance record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_RetrieveSCCMDataClientSWDist.md) to populate the following ServiceNow tables:
+Users run the **Discover SCCM** workflow from an [SCCM Server Instance record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_RetrieveSCCMDataClientSWDist.md) to populate the following ServiceNow tables:
 
 <table id="table_lxp_vcp_ks"><thead><tr><th>
 
@@ -99,5 +99,5 @@ SCCM Deployment \[sn\_client\_sf\_dist\_sccm\_deployment\]
 -   type
 
 </td></tr></tbody>
-</table>**Note:** For details about the custom activities used in this workflow to extract data from an SCCM server, see [Orchestration SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_SCCMActivityPack.md).
+</table>**Note:** For details about the custom activities used in this workflow to extract data from an SCCM server, see [Orchestration SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_SCCMActivityPack.md).
 

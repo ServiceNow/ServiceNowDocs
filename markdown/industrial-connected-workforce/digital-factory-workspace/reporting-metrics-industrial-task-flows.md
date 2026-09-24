@@ -2,7 +2,7 @@
 title: Reporting and metrics for industrial task flows
 description: The task\_classification and contact\_type fields distinguish industrial task flows on shared tables, enabling independent metrics for breakdowns, deviations, and root cause analyses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/reporting-metrics-industrial-task-flows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/reporting-metrics-industrial-task-flows.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -26,5 +26,5 @@ Deviations include a system-only **contact\_type** field with default values tha
 
 With these two markers, teams can produce straightforward counts. For example, how many breakdowns were created, how many deviations remained regular, and how many deviations escalated, without introducing additional UI complexity.
 
-**Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
+**Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
 

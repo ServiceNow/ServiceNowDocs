@@ -2,7 +2,7 @@
 title: Evaluating the prompt
 description: Evaluating the prompt is an ongoing process that occurs during and after prompt development and completion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/evaluating-the-prompt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/evaluating-the-prompt.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit

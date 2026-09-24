@@ -2,14 +2,14 @@
 title: Rename an external content connector
 description: Change the name of an existing external content connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/rename-ext-cont-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/rename-ext-cont-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -44,5 +44,5 @@ Role required: sn\_ext\_conn.xcc\_admin
 6.  Enter a new name for the connector, then select **Save**.
 
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 

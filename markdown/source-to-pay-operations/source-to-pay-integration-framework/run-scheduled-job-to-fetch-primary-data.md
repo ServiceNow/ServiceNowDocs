@@ -2,7 +2,7 @@
 title: Scheduled jobs to fetch primary data
 description: Schedule on-demand jobs to fetch primary data from ERP sources into Accounts Payable Operations at defined intervals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/run-scheduled-job-to-fetch-primary-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/run-scheduled-job-to-fetch-primary-data.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -17,7 +17,7 @@ breadcrumb: [Source-to-Pay integration framework, Integration with third-party a
 
 Schedule on-demand jobs to fetch primary data from ERP sources into Accounts Payable Operations at defined intervals.
 
-Before you start the ERP integration, you must configure the integration services record for target ERP source using the sn\_fcms\_intg\_service table. The sn\_fcms\_intg\_service table is a mapping table between sub flows and target ERP source. For more information on creating a integration service record, see [Create Integration Service record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/create-integration-service-record.md).
+Before you start the ERP integration, you must configure the integration services record for target ERP source using the sn\_fcms\_intg\_service table. The sn\_fcms\_intg\_service table is a mapping table between sub flows and target ERP source. For more information on creating a integration service record, see [Create Integration Service record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/create-integration-service-record.md).
 
 Scheduled jobs are configured for entities using scripts. Example: Fetch cost center from ERP systems. For more information on configuring scheduled jobs using scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md). The script invokes subflow which is associated with an entity as shown in the following figure. The subflow queries the active entities or ERP source configuration \(optional\) listed in the integration service table.
 

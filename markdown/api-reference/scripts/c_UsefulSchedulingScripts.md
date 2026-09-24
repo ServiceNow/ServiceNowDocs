@@ -2,7 +2,7 @@
 title: Scheduling script use cases
 description: A business rule script specifies the actions that the business rule takes. Scripts commonly include predefined global variables to reference items in your system, such as the current record. Global variables are available to all business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_UsefulSchedulingScripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_UsefulSchedulingScripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -87,5 +87,5 @@ You can also utilize the system's scripting functionality available for server-s
 
 You can use options on the Business Rules form to build conditions, set field values, and display alert messages without needing to write a script.
 
-**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/usefulScripts.md)
+**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md)
 

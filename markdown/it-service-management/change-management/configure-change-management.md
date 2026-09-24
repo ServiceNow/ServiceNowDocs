@@ -2,7 +2,7 @@
 title: Configuring Change Management
 description: You can configure various aspects of Change Management based on the specific requirements of your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-change-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/configure-change-management.html
 release: australia
 product: Change Management
 classification: change-management
@@ -18,34 +18,34 @@ You can configure various aspects of Change Management based on the specific req
 
 The ITSM guided setup provides a sequence of tasks that help you configure Change Management on your ServiceNow instance. To open ITSM guided setup, navigate to **Guided Setup** &gt; **ITSM Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
 
--   **[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)**  
+-   **[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)**  
 You can activate one or more of the Change Management plugins if they are not already active. Some plugins include demo data.
--   **[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)**  
+-   **[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)**  
 Standard changes are pre-approved, low risk changes with a proven history of success. The standard change catalog contains the changes that have been approved by the Change Management application as standard changes.
--   **[Enhanced change data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-data-model.md)**  
+-   **[Enhanced change data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-data-model.md)**  
 The enhanced Change data model supports better categorization, change model linkage, and role-based access to change templates. This new data model does not impact the existing standard change catalog and no migration of existing standard changes is required.
--   **[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md)**  
+-   **[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-a-change-model.md)**  
 Create change models to configure the states and transitions to match your organization's change processes.
--   **[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-schedule.md)**  
+-   **[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-schedule.md)**  
 The Change Schedules landing page provides a view of schedules that are categorized under **Pinned Schedules**, **Your Schedules**, and **All Schedules**. The grouping of schedules provides easy access to your most required schedules and saves your time from searching through all the schedules in the system.
--   **[Configure ability to copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-copy-change-request.md)**  
+-   **[Configure ability to copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-copy-change-request.md)**  
 You can configure the ability to copy a change request record and its details using system properties.
--   **[Create a change request assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_DefineAnAssignRuleForChange.md)**  
+-   **[Create a change request assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_DefineAnAssignRuleForChange.md)**  
 You can define assignment rules to automate the process of assigning change requests to the appropriate group or individual.
--   **[Add a new change request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddNewChangeType.md)**  
+-   **[Add a new change request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewChangeType.md)**  
 You can add a new change type to your change process. There are several processes involved with adding a change type. These processes include managing script includes and workflows.
--   **[Extend or disable multiple CI association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ExtendMultipleCIAssociation.md)**  
+-   **[Extend or disable multiple CI association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ExtendMultipleCIAssociation.md)**  
 The ability to associate multiple CIs to a task can be extended to other types of tasks. You can also disable multiple CI association from the related lists on change request records.
--   **[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)**  
+-   **[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md)**  
 Conflict detection identifies potential scheduling conflicts for a change request based on the configuration items, and planned start and end date or the change. If a scheduling conflict exists, conflict detection also checks any related blackout or maintenance schedules and other active change requests to determine the scheduling conflict.
--   **[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-success-score.md)**  
+-   **[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-success-score.md)**  
 Use team historical data for insights into team performance. The score value helps you to determine how likely the team is to complete your change request without issues.
--   **[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-mgmt-intelligent-solutions.md)**  
+-   **[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-mgmt-intelligent-solutions.md)**  
 The Predictive Intelligence for Change Management capability uses machine-learning algorithms to suggest standard templates, identify similar incidents, and enhance risk assessment for the change.
--   **[Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/itsm-change-use-case-product-view.md)**  
+-   **[Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/itsm-change-use-case-product-view.md)**  
 Change Management lets you control every aspect of the IT change process from creation to approval. When you have accurate information, you can minimize risks to your business and avoid conflicts with scheduling. The goal of this product view is to help you to understand how Change Management key entities work with the core CSDM framework.
--   **[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md)**  
+-   **[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ChangeStateModel.md)**  
 Change Management offers a state model to move and track change requests through several states.
 
-**Parent Topic:**[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)
+**Parent Topic:**[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ITILChangeManagement.md)
 

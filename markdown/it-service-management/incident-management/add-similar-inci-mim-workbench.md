@@ -2,7 +2,7 @@
 title: Add similar incidents from major incident workbench
 description: Add similar incidents to a major incident so that the support teams can work on the parent record for a coordinated response process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/add-similar-inci-mim-workbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/add-similar-inci-mim-workbench.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -26,7 +26,7 @@ Role required: itil, major\_incident\_manager, communication\_manager, incident\
 
 ## Procedure
 
-1.  Navigate to [Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-workbench.md).
+1.  Navigate to [Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-workbench.md).
 
 2.  Select the **Summary** tab.
 
@@ -37,5 +37,5 @@ Role required: itil, major\_incident\_manager, communication\_manager, incident\
     The similar child incidents appear under the Child Incidents section.
 
 
-**Parent Topic:**[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-workbench.md)
+**Parent Topic:**[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-workbench.md)
 

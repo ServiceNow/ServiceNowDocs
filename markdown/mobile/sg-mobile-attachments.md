@@ -2,7 +2,7 @@
 title: Manage attachments on details screens
 description: Add, remove, rename, and view attachments in your mobile record screens.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-attachments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-attachments.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ You can enable attachments on a mobile record screen. Navigate to your record sc
 
 \[Omitted image "mobile-attach-checkbox.png"\] Alt text: Attachment check box on the screen configuration form in Mobile App Builder.
 
-For details on the record screen configuration, see [Configure a record screen for use with a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-form-applet.md).
+For details on the record screen configuration, see [Configure a record screen for use with a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-form-applet.md).
 
 ## View the attachment list on your record screens
 

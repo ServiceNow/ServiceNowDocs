@@ -2,7 +2,7 @@
 title: Supported Tanium resource types
 description: Several Tanium resource types are imported as CMDB data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-sgc-tanium-endpoints-resource-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/cmdb-sgc-tanium-endpoints-resource-types.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -298,5 +298,5 @@ Asset SIU Product Usage
 </td></tr></tbody>
 </table>**Note:** Of the four tags available in Tanium \(Custom, Extended Custom, Enhanced, and Meta\), the Service Graph Connector for Tanium Endpoints 1.0.0 version supports only Custom Tags.
 
-**Parent Topic:**[Service Graph Connector for Tanium Endpoints reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-tanium-endpoints-reference.md)
+**Parent Topic:**[Service Graph Connector for Tanium Endpoints reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-tanium-endpoints-reference.md)
 

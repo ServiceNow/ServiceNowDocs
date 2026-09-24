@@ -2,7 +2,7 @@
 title: Customer success
 description: Learn how your organization can use the customer success solution to engage customers, run success plays to mitigate risks, and identify expansion opportunities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-events-customer-success-about.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-events-customer-success-about.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

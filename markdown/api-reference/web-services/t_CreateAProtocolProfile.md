@@ -2,7 +2,7 @@
 title: Create a protocol profile
 description: You can create a custom HTTPS protocol profile to specify the credentials and certificates used for outbound web services. For example, you can create a custom HTTPS protocol profile to enable mutual authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_CreateAProtocolProfile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_CreateAProtocolProfile.html
 release: australia
 product: Web Services
 classification: web-services
@@ -77,5 +77,5 @@ Select the client certificate the protocol uses to authenticate itself with the 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Outbound web service mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundWebServicesMutualAuth.md)
+**Parent Topic:**[Outbound web service mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_OutboundWebServicesMutualAuth.md)
 

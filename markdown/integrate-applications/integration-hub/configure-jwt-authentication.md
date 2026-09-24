@@ -2,7 +2,7 @@
 title: Generate X.509 key pair and fingerprints on your Windows machine
 description: Generate the X.509 key pair and its fingerprint on your Windows machine that you upload to the Oracle HCM tenant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-jwt-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/configure-jwt-authentication.html
 release: australia
 product: Integration Hub
 classification: integration-hub

@@ -2,7 +2,7 @@
 title: Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)
 description: If you have the admin role, you can customize a ServiceNow Otto for Legal Service Delivery \(LSD\) skill so that you can use the generative AI skills in Legal Counsel Center and in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/now-assist-lsd-customize-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/now-assist-lsd-customize-skill.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -45,7 +45,7 @@ From the AI Admin Hub console, you can select the input table, related records, 
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs for each skill, see [Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-skill-inputs.md).
+    For information about the inputs for each skill, see [Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
@@ -197,13 +197,13 @@ Description of the base input field value.
 
 15. Configure the variables of the practice areas that you want to be considered as inputs for the legal request or matter summarization.
 
-    For more information, see [Configure variables for AI summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/configure-variables-for-now-assist-summarization.md).
+    For more information, see [Configure variables for AI summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/configure-variables-for-now-assist-summarization.md).
 
 
--   **[Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-skill-inputs.md)**  
+-   **[Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-skill-inputs.md)**  
 Get a quick overview of the skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.
--   **[Configure variables for AI summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/configure-variables-for-now-assist-summarization.md)**  
+-   **[Configure variables for AI summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/configure-variables-for-now-assist-summarization.md)**  
 Configure the variables of the practice areas that you want to be considered as inputs for legal request or matter summarization by using the AI.
 
-**Parent Topic:**[Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-configuring.md)
+**Parent Topic:**[Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-configuring.md)
 

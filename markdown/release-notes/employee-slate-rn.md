@@ -2,7 +2,7 @@
 title: Employee Slate release notes
 description: Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/employee-slate-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/employee-slate-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -50,7 +50,7 @@ For more information, see  documentation.
     The AI widget builder in Employee Slate includes built-in design components that support accessibility standards. When custom widgets are created through the prompt-driven interface, the design components are structured to help developers address accessibility requirements.
 
 
-**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/uex-rn-landing.md)
 
 ## June 2026
 

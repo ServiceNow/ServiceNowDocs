@@ -2,7 +2,7 @@
 title: Associate an interaction with a task record
 description: Associating a record to an interaction leverages data to streamline processes, enhance the customer experience, and improve resolution time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/associate-interaction-record-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/associate-interaction-record-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -45,7 +45,7 @@ Role required: itil or admin
     The selected records are associated with the interaction.
 
 
-**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/interaction-sow.md)
+**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/interaction-sow.md)
 
 **Related topics**  
 

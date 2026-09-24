@@ -2,7 +2,7 @@
 title: CMDB classes targeted in the Service Graph Connector Integration for Claroty CTD
 description: When you complete the setup tasks, you can configure the integration periodically to pull data from Claroty CTD. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/sgc-claroty-ctd-classes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/sgc-claroty-ctd-classes.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -71,7 +71,7 @@ Active
 When checked, the class mapping is set to **Active**.
 
 </td></tr></tbody>
-</table>The Service Graph Connector Integration for Claroty CTD also uses Claroty types and codes. For more information, see the [Default class mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-claroty-ctd-classes.md) table.
+</table>The Service Graph Connector Integration for Claroty CTD also uses Claroty types and codes. For more information, see the [Default class mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/sgc-claroty-ctd-classes.md) table.
 
 ## Computer \[cmdb\_ci\_computer\]
 
@@ -405,5 +405,5 @@ A default class mapping is shipped with the Service Graph Connector Integration 
 |eVOIPAccessPoint​|\(Empty\)​|cmdb\_ci\_ip\_switch​| |eVOIPAccessPoint = 71​|
 |eVulnerabilityScanner​|\(Empty\)​|cmdb\_ci\_server​| |eVulnerabilityScanner = 70​|
 
-**Parent Topic:**[Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-cmdb-integration-claroty-ctd.md)
+**Parent Topic:**[Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/sgc-cmdb-integration-claroty-ctd.md)
 

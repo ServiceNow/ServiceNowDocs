@@ -2,10 +2,10 @@
 title: List of responsibilities provided with the base system
 description: List of responsibilities that are provided with the base system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/list-of-reponsibilities-provided-with-base-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/list-of-reponsibilities-provided-with-base-system.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create a responsibility definition, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---

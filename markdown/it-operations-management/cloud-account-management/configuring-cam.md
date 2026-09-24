@@ -2,7 +2,7 @@
 title: Configuring Cloud Account Management
 description: Configuring the Cloud Account Management application involves a set of required tasks, integrations, and setups to be completed before initiating service account creation and provisioning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configuring-cam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/configuring-cam.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -53,7 +53,7 @@ Purpose
 
 </td><td>
 
-\[Omitted image "bus-email-server.svg"\] Alt text:[Set up and verify root email in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/aws-setup.md)
+\[Omitted image "bus-email-server.svg"\] Alt text:[Set up and verify root email in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/aws-setup.md)
 
 </td><td>
 
@@ -81,7 +81,7 @@ A single AD email across multiple AWS accounts streamlines management, enhances 
 
 </td><td>
 
-\[Omitted image "bus-person.svg"\] Alt text:[Set up an IAM account for a ServiceNow user in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/set-up-iam-account-in-aws.md)
+\[Omitted image "bus-person.svg"\] Alt text:[Set up an IAM account for a ServiceNow user in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/set-up-iam-account-in-aws.md)
 
 </td><td>
 
@@ -111,7 +111,7 @@ A centralized IAM user in the management account efficiently manages multiple AW
 
 </td><td>
 
-\[Omitted image "bus-whitepaper.svg"\] Alt text:[Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configure-suspension-policy.md)
+\[Omitted image "bus-whitepaper.svg"\] Alt text:[Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/configure-suspension-policy.md)
 
 </td><td>
 
@@ -139,7 +139,7 @@ Adding an account number to the AWS organization's Service Control Policy blocks
 
 </td><td>
 
-\[Omitted image "bus-actionable-analytics.svg"\] Alt text:[Setting up Terraform and GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/about-terraform-git-and-servicenow_0.md)
+\[Omitted image "bus-actionable-analytics.svg"\] Alt text:[Setting up Terraform and GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/about-terraform-git-and-servicenow_0.md)
 
 **Note:** This step isn’t required if cloud native interface is used for provisioning the account.
 
@@ -181,7 +181,7 @@ GitHub templates deployed to Terraform Cloud or Enterprise streamline account cr
 
 </td><td>
 
-\[Omitted image "bus-actionable-analytics.svg"\] Alt text:[Create a cloud native interface account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/create-cloud-native-interface-config.md)
+\[Omitted image "bus-actionable-analytics.svg"\] Alt text:[Create a cloud native interface account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/create-cloud-native-interface-config.md)
 
 **Note:** This step isn’t required if Terraform is used for provisioning the account.
 
@@ -203,7 +203,7 @@ None
 
 </td><td>
 
-No additional procedure is needed for cloud native interface. You can proceed to [Install Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/activate-cloud-account-management.md).
+No additional procedure is needed for cloud native interface. You can proceed to [Install Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/activate-cloud-account-management.md).
 
 </td></tr><tr><td>
 
@@ -211,10 +211,10 @@ No additional procedure is needed for cloud native interface. You can proceed to
 
 </td><td>
 
-\[Omitted image "bus-work-order.svg"\] Alt text:[Populate Cloud Account Management dependent tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/add-account-details.md)
+\[Omitted image "bus-work-order.svg"\] Alt text:[Populate Cloud Account Management dependent tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/add-account-details.md)
 
-1.  [Create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/create-service-account.md)
-2.  [Define and run discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/define-run-discovery-schedule.md)
+1.  [Create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/create-service-account.md)
+2.  [Define and run discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/define-run-discovery-schedule.md)
 
 </td><td>
 
@@ -246,10 +246,10 @@ Cloud Discovery or Service Graph Connector for AWS to import cloud organization 
 
 </td><td>
 
-\[Omitted image "bus-integration-and-apis.svg"\] Alt text:[Provisioning modes for Cloud Account Management in Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/supported-provision-modes.md)
+\[Omitted image "bus-integration-and-apis.svg"\] Alt text:[Provisioning modes for Cloud Account Management in Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/supported-provision-modes.md)
 
 -   [Set up Terraform API key in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
--   [Set up AWS API configuration information in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configure-aws-api-key-in-servicenow.md)
+-   [Set up AWS API configuration information in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/configure-aws-api-key-in-servicenow.md)
 
 </td><td>
 
@@ -285,7 +285,7 @@ Streamline provisioning with flexible modes like Terraform and cloud native inte
 
 </td><td>
 
-\[Omitted image "bus-investor-relations-1.svg"\] Alt text:[Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/set-up-data-visualization.md)
+\[Omitted image "bus-investor-relations-1.svg"\] Alt text:[Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/set-up-data-visualization.md)
 
 </td><td>
 
@@ -313,7 +313,7 @@ Data visualization requires scanning all account violations based on the policy 
 
 </td><td>
 
-\[Omitted image "bus-3-person.svg"\] Alt text:[Add members to the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/add-member-group.md)
+\[Omitted image "bus-3-person.svg"\] Alt text:[Add members to the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/add-member-group.md)
 
 </td><td>
 
@@ -341,7 +341,7 @@ Confirm that members are assigned to the correct group for them to perform the a
 
 </td><td>
 
-\[Omitted image "bus-sdlc.svg"\] Alt text:[Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-config.md)
+\[Omitted image "bus-sdlc.svg"\] Alt text:[Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cam-config.md)
 
 </td><td>
 
@@ -369,7 +369,7 @@ Configure before creating, suspending, or scanning accounts.
 
 </td><td>
 
-\[Omitted image "bus-compliance.svg"\] Alt text:[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/policy-setup.md)
+\[Omitted image "bus-compliance.svg"\] Alt text:[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/policy-setup.md)
 
 </td><td>
 
@@ -397,7 +397,7 @@ Certify all cloud service accounts either created or boarded after discovery can
 
 </td><td>
 
-\[Omitted image "bus-compliance.svg"\] Alt text:[Review request policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/viewing-pace-policy.md)
+\[Omitted image "bus-compliance.svg"\] Alt text:[Review request policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/viewing-pace-policy.md)
 
 </td><td>
 
@@ -454,7 +454,7 @@ Purpose
 
 </td><td>
 
-\[Omitted image "bus-whitepaper.svg"\] Alt text:[Configure account suspension in Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configuring-azure-suspension-permission.md)
+\[Omitted image "bus-whitepaper.svg"\] Alt text:[Configure account suspension in Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/configuring-azure-suspension-permission.md)
 
 </td><td>
 
@@ -486,7 +486,7 @@ Configure the permission and assign the permission to a user who suspends or rea
 
 </td><td>
 
-\[Omitted image "bus-person.svg"\] Alt text:[Set up Azure Service Principal credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/set-up-azure-service-principal-credential.md)
+\[Omitted image "bus-person.svg"\] Alt text:[Set up Azure Service Principal credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/set-up-azure-service-principal-credential.md)
 
 </td><td>
 
@@ -518,7 +518,7 @@ Provide the Azure credentials obtained from your Azure administrator. These cred
 
 </td><td>
 
-\[Omitted image "bus-actionable-analytics.svg"\] Alt text:[Create a cloud native interface account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/create-cloud-native-interface-config.md)
+\[Omitted image "bus-actionable-analytics.svg"\] Alt text:[Create a cloud native interface account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/create-cloud-native-interface-config.md)
 
 **Note:** This step isn’t required if Terraform is used for provisioning the account.
 
@@ -540,7 +540,7 @@ None
 
 </td><td>
 
-No additional procedure is needed for cloud native interface. You can proceed to [Install Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/activate-cloud-account-management.md).
+No additional procedure is needed for cloud native interface. You can proceed to [Install Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/activate-cloud-account-management.md).
 
 </td></tr><tr><td>
 
@@ -548,10 +548,10 @@ No additional procedure is needed for cloud native interface. You can proceed to
 
 </td><td>
 
-\[Omitted image "bus-work-order.svg"\] Alt text:[Populate Cloud Account Management dependent tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/add-account-details.md)
+\[Omitted image "bus-work-order.svg"\] Alt text:[Populate Cloud Account Management dependent tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/add-account-details.md)
 
-1.  [Create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/create-service-account.md)
-2.  [Define and run discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/define-run-discovery-schedule.md)
+1.  [Create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/create-service-account.md)
+2.  [Define and run discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/define-run-discovery-schedule.md)
 
 </td><td>
 
@@ -583,7 +583,7 @@ Cloud Discovery import cloud organization structures and create subscription acc
 
 </td><td>
 
-\[Omitted image "bus-investor-relations-1.svg"\] Alt text:[Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/set-up-data-visualization.md)
+\[Omitted image "bus-investor-relations-1.svg"\] Alt text:[Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/set-up-data-visualization.md)
 
 </td><td>
 
@@ -611,7 +611,7 @@ Data visualization requires scanning all account violations based on the policy 
 
 </td><td>
 
-\[Omitted image "bus-3-person.svg"\] Alt text:[Add members to the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/add-member-group.md)
+\[Omitted image "bus-3-person.svg"\] Alt text:[Add members to the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/add-member-group.md)
 
 </td><td>
 
@@ -639,7 +639,7 @@ Confirm that members are assigned to the correct group for them to perform the a
 
 </td><td>
 
-\[Omitted image "bus-sdlc.svg"\] Alt text:[Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-config.md)
+\[Omitted image "bus-sdlc.svg"\] Alt text:[Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cam-config.md)
 
 </td><td>
 
@@ -667,7 +667,7 @@ Configure before creating, suspending, or scanning accounts.
 
 </td><td>
 
-\[Omitted image "bus-compliance.svg"\] Alt text:[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/policy-setup.md)
+\[Omitted image "bus-compliance.svg"\] Alt text:[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/policy-setup.md)
 
 </td><td>
 

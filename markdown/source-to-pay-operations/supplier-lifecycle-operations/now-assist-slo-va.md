@@ -2,7 +2,7 @@
 title: Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat
 description: Use the conversational interface of ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -72,14 +72,14 @@ ServiceNow Otto in Virtual Agent provides your users with an interactive generat
 
 As an administrator, you can use the ServiceNow Otto in Virtual Agent Analytics dashboard to monitor the performance of ServiceNow Otto in Virtual Agent as a self-service deflection tool. ServiceNow Otto in Virtual Agent Analytics calculates the conversation deflection rate that is based on the resolution status associated with ServiceNow Otto query responses.
 
-For detailed information on ServiceNow Otto in Virtual Agent in general, and ServiceNow Otto for SLO in particular, see [Explore ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md).
+For detailed information on ServiceNow Otto in Virtual Agent in general, and ServiceNow Otto for SLO in particular, see [Explore ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md).
 
-For information on configuring ServiceNow Otto for SLO, see [Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md).
+For information on configuring ServiceNow Otto for SLO, see [Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md).
 
 **Related topics**  
 
 
-[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
+[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
 
-[Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.md)
+[Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.md)
 

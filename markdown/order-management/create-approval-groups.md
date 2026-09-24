@@ -2,7 +2,7 @@
 title: Define an approval group
 description: Define the approval group, such as a contract or finance group, and the associated approval rule that they review during the approval process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-approval-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-approval-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Define the approval group, such as a contract or finance group, and the associat
 
 ## Before you begin
 
-[Define the approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-rules.md) associated with this approval group.
+[Define the approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-rules.md) associated with this approval group.
 
 Groups are set up in the Group \[sys\_user\] table. For more information on creating groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
 

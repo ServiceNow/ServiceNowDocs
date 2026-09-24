@@ -2,7 +2,7 @@
 title: Create assets
 description: Create hardware, software, consumable, bundle, pallet, mobile, and facility assets using the Core UI or the Hardware Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_CreatingAssets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/t\_CreatingAssets.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -66,10 +66,10 @@ Action
 </td></tr></tbody>
 </table>2.  On the Asset record fields form, fill in the fields.
 
-    For a description of the field values, see [Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-record-fields.md).
+    For a description of the field values, see [Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-record-fields.md).
 
 3.  Submit or save the asset form.
 
 
-**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-asset-ci.md)
+**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/work-with-asset-ci.md)
 

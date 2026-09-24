@@ -2,7 +2,7 @@
 title: Configure the JWT signing key for MS Teams
 description: Create a JSON Web Token \(JWT\) signing key to assign to your Java Key Store certificate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-the-jwt-signing-key-for-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/configure-the-jwt-signing-key-for-ms-teams.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -31,5 +31,5 @@ Role required: admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Using Certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-certificates-for-authentication.md)
+**Parent Topic:**[Using Certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-certificates-for-authentication.md)
 

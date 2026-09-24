@@ -2,7 +2,7 @@
 title: Upload glossaries to Language Asset Management
 description: Upload glossaries to the Language Asset Management area of Localization Workspace. Create a glossary by entering source terms and translations in the provided spreadsheet template, then uploading the completed spreadsheet to Language Asset Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-lam-upload-glossaries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-lam-upload-glossaries.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -18,7 +18,7 @@ Upload glossaries to the Language Asset Management area of Localization Workspac
 
 ## Before you begin
 
--   Confirm that the Languages \[sys\_language\] table in your instance contains an ID for every language that you plan to include in your glossary. Language IDs should be compliant with BCP 47. For more information and links see [Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-asset-management.md).
+-   Confirm that the Languages \[sys\_language\] table in your instance contains an ID for every language that you plan to include in your glossary. Language IDs should be compliant with BCP 47. For more information and links see [Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-language-asset-management.md).
 -   You must be able to work with and save files in the Excel Workbook \(.xlsx\) file format. This file format supports the UTF-8 encoding that is needed for special characters and non-alphabetic writing systems.
 -   Role required: sn\_lw.user. From version 3.1.0, both the sn\_lw.user and the sn\_lw.terminology\_manager roles are required.
 
@@ -27,7 +27,7 @@ Upload glossaries to the Language Asset Management area of Localization Workspac
 From version 3.0.0, the Language Asset Management area of Localization Workspace enables you to upload glossaries for editing and storage.
 
 -   Glossaries consist of source terms and their translations. Each source term can have translations into one or more languages.
--   After you initially create a glossary by uploading a spreadsheet, you can make updates or add new terms in the product UI. See [Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-edit-glossary.md).
+-   After you initially create a glossary by uploading a spreadsheet, you can make updates or add new terms in the product UI. See [Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-lam-edit-glossary.md).
 -   The same source term can be listed in multiple glossaries. A source term repeated in two different glossaries is considered to be two different records, with different translations possible.
 
     Similarly, a source term can be repeated in one glossary if assigned to different categories within that glossary \(Product/Service or Part of Speech\). Repeated source terms are considered to be two different records, with different translations possible.
@@ -170,9 +170,9 @@ You can add you own columns for self-localized languages. If you create a column
 
 ## What to do next
 
-To add or edit source terms, or make any modifications after the initial upload, see [Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-edit-glossary.md).
+To add or edit source terms, or make any modifications after the initial upload, see [Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-lam-edit-glossary.md).
 
-To download glossaries in a CSV or spreadsheet format, see [Export a glossary from Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-export-glossary.md).
+To download glossaries in a CSV or spreadsheet format, see [Export a glossary from Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-lam-export-glossary.md).
 
-**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-asset-management.md)
+**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-language-asset-management.md)
 

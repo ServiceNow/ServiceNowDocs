@@ -2,7 +2,7 @@
 title: Working on component libraries with a unified view
 description: The unified view of component libraries in the DevOps Config Workspace provides a single location to view and manage component libraries and the components within them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-viewing-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-viewing-library.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

@@ -2,7 +2,7 @@
 title: Available HR reports
 description: Predefined HR reports are available in the HR Case Management Reports list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/r\_AvailableReports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/r\_AvailableReports.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -34,10 +34,10 @@ Predefined HR reports are available in the **HR Case Management** &gt; **Reports
 |SLA Breached|Count of HR cases with a breached SLA|Number|
 |Unassigned HR Cases|List of HR cases not assigned to any user.|Number, Type, Category, State, Short description, Opened by, Assignment group, Assigned to|
 
-**Parent Topic:**[Run Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_RunningHRReports.md)
+**Parent Topic:**[Run Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_RunningHRReports.md)
 
 **Related topics**  
 
 
-[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
+[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

@@ -2,7 +2,7 @@
 title: SharePoint Online Search Connector
 description: The ServiceNow SharePoint Online Search Connector offers a consumer-grade search configuration to manage your information resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/sharepoint-search-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/sharepoint-search-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 **Related topics**  
 
 
-[SharePoint Online Search Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-reference.md)
+[SharePoint Online Search Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/sharepoint-reference.md)
 
 [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md)
 

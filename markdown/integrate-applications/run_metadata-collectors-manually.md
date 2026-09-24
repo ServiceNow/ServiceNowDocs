@@ -2,7 +2,7 @@
 title: Run metadata collectors manually
 description: Execute a metadata collector on-demand to import metadata immediately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/run\_metadata-collectors-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/run\_metadata-collectors-manually.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Running a collector manually initiates immediate metadata harvesting from the co
 6.  In the Last run summary section, select **Run now**.\[Omitted image "dc-mcollector-run.png"\] Alt text: Run a collector manually
 
 
-**Parent Topic:**[Running metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-metadata-collectors-dc.md)
+**Parent Topic:**[Running metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/run-metadata-collectors-dc.md)
 

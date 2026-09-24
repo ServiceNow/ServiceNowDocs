@@ -2,7 +2,7 @@
 title: Create versions and branches in Git
 description: Create tags and branches in a Git repository from ServiceNow Studio to version application releases and manage parallel development streams.Create a tag in the Git repository from ServiceNow Studio to mark a specific application version for future reference.Switch to a different repository branch in ServiceNow Studio to work on a separate version of the application.Create a branch in ServiceNow Studio to develop a new version of an existing app in isolation. The new branch is created in the remote repository and the application, including any uncommitted changes, switches to the new branch.Set a default branch in ServiceNow Studio to direct new changes to a branch other than main.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-create-versions-branches-git.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-sc-create-versions-branches-git.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -16,7 +16,7 @@ breadcrumb: [Metadata source control in ServiceNow Studio, Source control integr
 
 Create tags and branches in a Git repository from ServiceNow Studio to version application releases and manage parallel development streams.
 
-**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
 
 ## Create a tag to link to a particular application version
 
@@ -24,7 +24,7 @@ Create a tag in the Git repository from ServiceNow Studio to mark a specific app
 
 ### Before you begin
 
-[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 Role required: admin or sn\_group\_creator.app\_creator
 
@@ -142,7 +142,7 @@ Set a default branch in ServiceNow Studio to direct new changes to a branch othe
 
 ### Before you begin
 
-[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 Role required: admin
 

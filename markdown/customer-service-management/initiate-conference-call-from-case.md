@@ -2,7 +2,7 @@
 title: Initiate a conference call from a case
 description: As part of resolving a customer service case, you can initiate a conference call between involved users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/initiate-conference-call-from-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/initiate-conference-call-from-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

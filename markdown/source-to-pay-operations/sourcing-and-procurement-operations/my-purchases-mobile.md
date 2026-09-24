@@ -2,7 +2,7 @@
 title: My purchases on your mobile
 description: As a shopper, you can view all the purchases you made from your shopping account, view their statuses, and revise your purchases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/my-purchases-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/my-purchases-mobile.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -16,7 +16,7 @@ breadcrumb: [Shopping Hub Mobile, Explore, Sourcing and Procurement Operations, 
 
 As a shopper, you can view all the purchases you made from your shopping account, view their statuses, and revise your purchases.
 
-As a ShoppingHub Administrator, you can configure your mobile instance to display My Purchases on your landing page. For details, see [Display My Purchases on your mobile instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/display-my-purchases-on-mobile.md).
+As a ShoppingHub Administrator, you can configure your mobile instance to display My Purchases on your landing page. For details, see [Display My Purchases on your mobile instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/display-my-purchases-on-mobile.md).
 
 The fulfilment status of your individual purchases are flagged for your quick reference.
 
@@ -47,10 +47,10 @@ You can filter your orders by:
     -   Where a purchase order line exists, the corresponding purchase line is not visible.
 -   **All**: All the orders, irrespective of their state. Where a purchase order line exists, the corresponding purchase line is not visible.
 
-**Parent Topic:**[Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-mobile.md)
+**Parent Topic:**[Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-mobile.md)
 
 **Related topics**  
 
 
-[View and revise your purchase from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-revise-purchase-mobile.md)
+[View and revise your purchase from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-revise-purchase-mobile.md)
 

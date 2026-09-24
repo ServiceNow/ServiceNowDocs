@@ -2,7 +2,7 @@
 title: Accelerators and Initiatives
 description: Initiatives are the actionable engagements and work streams that support your digital transformation. Impact Accelerators are fixed-scope offerings with experts behind each option to provide value exactly where you need it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/impact-initiatives.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/impact-initiatives.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -29,7 +29,7 @@ Your Impact squad recommends Initiatives that are right for you, typically share
 
 <table id="table_v5t_ds1_p1c" class="nav-card"><tbody><tr><td>
 
-[Initiatives Catalog\[Omitted image "bus-service-portfolio.svg"\] Alt text:Initiatives can range from advisory sessions to Squad-led engagements.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/initiatives-catalog.md)
+[Initiatives Catalog\[Omitted image "bus-service-portfolio.svg"\] Alt text:Initiatives can range from advisory sessions to Squad-led engagements.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/initiatives-catalog.md)
 
 </td></tr></tbody>
 </table>## Overview of Accelerators
@@ -87,13 +87,13 @@ Accelerator availability is defined by your Impact Package and is classified int
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Architecture Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/architecture-accelerators.md)
+[Architecture Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/architecture-accelerators.md)
 
  \[Omitted image "bus-2-buildings.svg"\] Alt text: Gain a foundational understanding of business outcome maturity with targeted recommendations on what to tackle next to unlock further value from the platform.
 
 </td><td align="center">
 
-[Strategy Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/strategy-accelerators.md)
+[Strategy Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/strategy-accelerators.md)
 
  \[Omitted image "bus-strategic.svg"\] Alt text:
 
@@ -101,7 +101,7 @@ Accelerator availability is defined by your Impact Package and is classified int
 
 </td><td>
 
-[Optimization Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-accelerators.md)
+[Optimization Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/optimization-accelerators.md)
 
 \[Omitted image "bus-documentation.svg"\] Alt text:Expert-led guidance and support to design and configure ServiceNow capabilities to improve platform health and adoption
 
@@ -109,23 +109,23 @@ Accelerator availability is defined by your Impact Package and is classified int
 
 </td><td>
 
-[Technical Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/technical-accelerators.md)
+[Technical Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/technical-accelerators.md)
 
  \[Omitted image "bus-it-leader.svg"\] Alt text: Accelerate usage and adoption of specific platform and product capabilities via applied demonstrations, personalized coaching, and best practices.
 
 </td></tr><tr><td colspan="4" align="center">
 
-[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md)\[Omitted image "bus-service-catalog.svg"\] Alt text: Browse the complete Accelerator catalog that combines all three sub-catalogs into one consolidated list.
+[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/accelerator-catalog.md)\[Omitted image "bus-service-catalog.svg"\] Alt text: Browse the complete Accelerator catalog that combines all three sub-catalogs into one consolidated list.
 
 </td></tr></tbody>
 </table>## Accelerator Recommendations
 
-When requesting an Accelerator, in addition to the sub-catalog, Accelerators can also be sorted by recommendations. Accelerator recommendations are generated based on customer context using data gathered from product subscriptions, objectives, instance data, and peer comparisons. Some of the recommendations are generated by the Artificial Intelligence \(AI\) engine, while the Impact squad manually recommends others. See [Request an Accelerator from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/request-accelerator.md) for additional information for engaging Accelerators in the IDI and see [Request an Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerators.md) for the Impact Store Application
+When requesting an Accelerator, in addition to the sub-catalog, Accelerators can also be sorted by recommendations. Accelerator recommendations are generated based on customer context using data gathered from product subscriptions, objectives, instance data, and peer comparisons. Some of the recommendations are generated by the Artificial Intelligence \(AI\) engine, while the Impact squad manually recommends others. See [Request an Accelerator from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/request-accelerator.md) for additional information for engaging Accelerators in the IDI and see [Request an Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/accelerators.md) for the Impact Store Application
 
 **Related topics**  
 
 
-[View the Accelerator and Initiative catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/catalog-of-accelerators-and-initiatives.md)
+[View the Accelerator and Initiative catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/catalog-of-accelerators-and-initiatives.md)
 
-[Request Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerator-request.md)
+[Request Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/accelerator-request.md)
 

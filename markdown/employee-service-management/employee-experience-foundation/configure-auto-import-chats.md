@@ -2,7 +2,7 @@
 title: Configure the chat to enable auto-import
 description: Create a chat configuration to automatically import the chats between the agents and the requesters for additional tables to extend the auto import functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-auto-import-chats.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-auto-import-chats.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -132,5 +132,5 @@ Option to provide a text message that displays to the agent when the agent initi
     The chat configuration defined will be applicable only for the table selected. You can extend the chat configuration to other tables by creating another chat configuration record.
 
 
-**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/auto-import-messages.md)
+**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/auto-import-messages.md)
 

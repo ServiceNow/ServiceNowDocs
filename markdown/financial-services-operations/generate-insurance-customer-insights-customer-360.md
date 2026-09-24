@@ -2,7 +2,7 @@
 title: Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance
 description: Use the Insurance CSR customer insights AI agent in the Customer 360 page to quickly access and understand a customer's insurance details. View policies, coverages, claims, and servicing history without navigating away from the workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/generate-insurance-customer-insights-customer-360.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/generate-insurance-customer-insights-customer-360.html
 release: australia
 topic_type: task
 last_updated: "2026-05-13"
@@ -48,7 +48,7 @@ The agent can answer questions about the following areas of a customer's insuran
 
     The chat is specific to this customer record. If you navigate away, you can resume the chat by selecting **Ask Otto**.
 
-    For more information, see [Agentic Contact Center for Insurance AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.md).
+    For more information, see [Agentic Contact Center for Insurance AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.md).
 
 4.  Ask the agent a question about the customer's insurance details, or select a follow-up option from the response.
 
@@ -66,7 +66,7 @@ The agent answers your questions using information from the customer's insurance
 **Related topics**  
 
 
-[Agentic Contact Center for Insurance AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.md)
+[Agentic Contact Center for Insurance AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.md)
 
-[Summarize an insurance customer profile in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-profile.md)
+[Summarize an insurance customer profile in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/summarize-insurance-customer-profile.md)
 

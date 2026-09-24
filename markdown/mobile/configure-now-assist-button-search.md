@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto button in search
 description: Add a conversational chat button to standard catalog search results in mobile. The chat button redirects users to a new Virtual Agent conversation for eligible catalog items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/configure-now-assist-button-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/configure-now-assist-button-search.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -149,5 +149,5 @@ Verify that ServiceNow Otto for AI Search and Otto Self Service Enhanced Chat ar
     |Attribute 3|`TextColorVariable`|`menu_01_TextColorVariable`|`--now-color--primary-1`|
 
 
-**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configuring-now-assist-mobile.md)
 

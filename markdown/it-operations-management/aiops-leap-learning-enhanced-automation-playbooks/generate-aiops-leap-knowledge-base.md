@@ -2,7 +2,7 @@
 title: Generate LEAP knowledge base articles
 description: Generate AI-enhanced knowledge base articles from automation opportunity resolution steps to share structured, publication-ready knowledge across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-aiops-leap-knowledge-base.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-aiops-leap-knowledge-base.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -23,9 +23,9 @@ Resolution steps must exist for the automation opportunity before generating a k
 
 Role required: LEAP admin
 
-A default knowledge base must be configured in LEAP properties before LEAP AI agent creates knowledge base articles. See [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md).
+A default knowledge base must be configured in LEAP properties before LEAP AI agent creates knowledge base articles. See [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md).
 
-Each knowledge base used in LEAP must have the correct Can Contribute permissions configured. See [Knowledge base permissions for LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-knowledge-base-user-collections.md).
+Each knowledge base used in LEAP must have the correct Can Contribute permissions configured. See [Knowledge base permissions for LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-knowledge-base-user-collections.md).
 
 ## About this task
 

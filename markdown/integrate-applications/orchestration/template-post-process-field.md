@@ -2,7 +2,7 @@
 title: Template post-processing fields
 description: From the Post Processing form in the activity designer you can define a script to run after the activity executes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/template-post-process-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/template-post-process-field.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -40,5 +40,5 @@ The supported messages are:
 
 \[Omitted image "Post-ProcessLoggingAPI.png"\] Alt text: ActivityLogger API
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/create-custom-activities.md)
 

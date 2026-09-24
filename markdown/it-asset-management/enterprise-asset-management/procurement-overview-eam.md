@@ -2,7 +2,7 @@
 title: Procurement overview for Enterprise Asset Workspace
 description: View and manage procurement-related details such as procurement requests, purchase orders, sourcing tasks, and receiving slips through the Enterprise Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/procurement-overview-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/procurement-overview-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

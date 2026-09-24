@@ -2,7 +2,7 @@
 title: Edit file settings
 description: Modify the unit file settings of your CAD source file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/edit-cad-file-settnigs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/edit-cad-file-settnigs.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -37,9 +37,9 @@ Role required: admin
 
     -   File encoding: Option to change or update your file encoding standard. Update the file encoding format only if there's an issue with the file encoding standard.
 
-**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
+**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
 
-**Previous topic:**[Import CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/import-cad-config.md)
+**Previous topic:**[Import CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/import-cad-config.md)
 
-**Next topic:**[Bulk hierarchy upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/bulk-upload-hierarchy.md)
+**Next topic:**[Bulk hierarchy upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/bulk-upload-hierarchy.md)
 

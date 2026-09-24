@@ -2,7 +2,7 @@
 title: Importing historical data for DevOps tools
 description: Use the service catalog to onboard a new app and import historical DevOps data for that app. Enable polling to import data that is mapped to associated plans, repositories and pipelines on a scheduled frequency.Enable polling to import DevOps data on a scheduled frequency to apps that have imported historical data, and are mapped to associated plans, repositories, and pipelines.After you have integrated Azure DevOps with DevOps, you can import up to 90 days of existing Azure DevOps pipeline, repository, and plan data. You can then use DevOps dashboards to view and manage Azure DevOps data.After you have integrated GitLab with DevOps, you can import up to 90 days of existing GitLab pipeline and repository data. You can then use DevOps dashboards to view and manage GitLab data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/import-historical-data-devops-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/import-historical-data-devops-catalog.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -57,7 +57,7 @@ For example, if the Plan import request failed \(after all retries\), we will pr
 -   Specify the count of retries to auto-attempt, in case the import request page fails in the **Maximum retries per page, while importing** field. If after all the automatic retries, page does not succeed, the import request will process the remaining pages. The overall status of the import request reflects as errored.
 -   You can manually retry attempting a failed import by clicking the **Retry import** button, on the failed import request page,
 
-**Parent Topic:**[Onboarding DevOps tools and apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/onboard-tools-self-service-catalog.md)
+**Parent Topic:**[Onboarding DevOps tools and apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/onboard-tools-self-service-catalog.md)
 
 ## Polling schedule and configuration
 

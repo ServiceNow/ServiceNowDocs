@@ -2,7 +2,7 @@
 title: Activate Playbooks for Customer Service Management \(CSM\)
 description: Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by CSM tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/activate-process-automation-designer-for-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/activate-process-automation-designer-for-csm.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -100,5 +100,5 @@ Enabling the **Playbooks for Customer Service Management \[com.sn\_csm\_playbook
 
 **Note:** If you create a custom table that extends a CSM table such as Case, you can create playbooks that trigger from it.
 
-**Parent Topic:**[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md)
+**Parent Topic:**[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activate-process-automation-designer.md)
 

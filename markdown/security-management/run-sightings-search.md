@@ -2,7 +2,7 @@
 title: Run a Sightings Search
 description: Determine the prevalence of a threat over time or test remediation or eradication efforts. You can select individual or multiple observables and the date range for your search from a security incident. Results are included in the Security Incident Observables related list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/run-sightings-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/run-sightings-search.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-The Sightings Search capability has a flow, [Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-sightings-search-workflow.md), that executes the sightings search. This flow accepts a list of observables, finds any implementing capabilities, creates the queries based on Sightings Search Configurations, and executes the searches based on the configured flow.
+The Sightings Search capability has a flow, [Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-sightings-search-workflow.md), that executes the sightings search. This flow accepts a list of observables, finds any implementing capabilities, creates the queries based on Sightings Search Configurations, and executes the searches based on the configured flow.
 
 **Note:** An active implementation must be configured. Sightings Search supports Elasticsearch, Splunk, McAfee ESM, HPE ArcSight Logger, and QRadar incident enrichment. If no implementations are available, capability actions, such as **Run Sightings Search**, are not displayed in product menus.
 
@@ -42,7 +42,7 @@ The Sightings Search capability has a flow, [Security Operations Integration - S
 
 6.  Choose the number of days or a date range to search for data.
 
-<table id="choicetable_cgw_qxn_qz"><tbody><tr><td id="d460368e130">
+<table id="choicetable_cgw_qxn_qz"><tbody><tr><td id="d460364e130">
 
 **Last**
 
@@ -50,7 +50,7 @@ The Sightings Search capability has a flow, [Security Operations Integration - S
 
 The number of hours or days prior to the creation of the incident to search. The default is 7 days. The limit is 99 hours or days.
 
-</td></tr><tr><td id="d460368e142">
+</td></tr><tr><td id="d460364e142">
 
 **between**
 
@@ -92,5 +92,5 @@ Range of dates to search. Default dates are:-   The date and time the incident w
     |Updated|Date and time of the last modification.|
 
 
-**Parent Topic:**[Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-search-configurations.md)
+**Parent Topic:**[Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-search-configurations.md)
 

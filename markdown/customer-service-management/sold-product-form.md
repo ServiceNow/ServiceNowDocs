@@ -2,7 +2,7 @@
 title: Sold product form
 description: Descriptions of the fields on the sold product form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/sold-product-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/sold-product-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Facilities move requests
 description: Both employees and managers can request a move, which initiates the workflow of tasks to complete that move. Any user can submit a move request through the Facilities catalog. Users with the Facilities staff role can also create and update facilities requests using the move request form directly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_FacMoveRequests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_FacMoveRequests.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,10 +23,10 @@ Facilities move management works in the following manner:
 5.  Facilities staff members perform the tasks necessary to fulfill the move request.
 6.  The end of workflow script runs to update the user location and the location of all the asserts that were requested to be moved.
 
--   **[Create a move request through the facilities catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateAMoveReqThruFacCatalog.md)**  
+-   **[Create a move request through the facilities catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_CreateAMoveReqThruFacCatalog.md)**  
 Users can submit move requests by selecting from the categories of the Facilities catalog.
--   **[Create a move request with the move request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateMoveReqWFacReqForm.md)**  
+-   **[Create a move request with the move request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_CreateMoveReqWFacReqForm.md)**  
 Facilities staff members can create move requests using the move request form.
 
-**Parent Topic:**[Facilities move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacMoveMgmt.md)
+**Parent Topic:**[Facilities move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacMoveMgmt.md)
 

@@ -2,7 +2,7 @@
 title: Add human readable keywords to page URLs
 description: Add human readable keywords to the URLs of portal pages to improve search engine optimization \(SEO\) and click-through rates and help users understand what to expect on the page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -114,9 +114,9 @@ For pages that have canonical URLs, you must include the human readable keywords
 For more information about including human readable keywords in canonical URLs, refer to the following resources:
 
 -   [Configure custom SEO tags for canonical URLs and localized knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-seo-knowledge.md)
--   SPSEOUtilsSNC - Global
+-   [SPSEOUtilsSNC - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPSEOUtilsSNCAPI.md)
 
-**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md)
+**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/seo-sp.md)
 
 **Related topics**  
 

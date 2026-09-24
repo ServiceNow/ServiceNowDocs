@@ -2,7 +2,7 @@
 title: Relate a control objective to a citation using the Compliance Workspace
 description: Using the Compliance Workspace, you can map a single control objective to many citations from different authority documents. This function allows you to test a control objective once while complying with many different citations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/relate-ctrl-obj-to-citation-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/relate-ctrl-obj-to-citation-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

@@ -2,7 +2,7 @@
 title: Configure a custom Map provider
 description: Configure map providers so that directions are displayed from one location to another in Workplace Service Delivery for Mobile
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/configure-custom-map-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-for-mobile/configure-custom-map-provider.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -139,10 +139,10 @@ App secret of the map provider \(Mappedin\). Available only if you have installe
 
     The custom map provider is configured for the table entity that you selected. For example, the map provider shows directions for locations in Building1.The custom map provider is configured for the table entity that you selected. For example, the map provider shows directions for locations in Building1.
 
-    **Note:** The **CustomMapConfigId** is mapped with sys Id of mapped reservations of Indoor Mapping and Mappedin. To get Indoor Mapping maps, users must update **CustomMapDefaultProviderId** and **CustomMapConfigId** in both **location\_custom\_map** and **locations\_custom\_map**. The **CustomMapDefaultProviderId** is the sys Id of Indoor Mapping associated record in the custom map provider. For more information, see [Enable map view to create reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/enable-map-view-mobile-reservations.md).
+    **Note:** The **CustomMapConfigId** is mapped with sys Id of mapped reservations of Indoor Mapping and Mappedin. To get Indoor Mapping maps, users must update **CustomMapDefaultProviderId** and **CustomMapConfigId** in both **location\_custom\_map** and **locations\_custom\_map**. The **CustomMapDefaultProviderId** is the sys Id of Indoor Mapping associated record in the custom map provider. For more information, see [Enable map view to create reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/enable-map-view-mobile-reservations.md).
 
-    For more information on how to select a map provider map properties, see [Customize the map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-configure-map-properties.md).
+    For more information on how to select a map provider map properties, see [Customize the map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-configure-map-properties.md).
 
 
-**Parent Topic:**[Mobile Wayfinding Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/mobile-wayfinding.md)
+**Parent Topic:**[Mobile Wayfinding Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/mobile-wayfinding.md)
 

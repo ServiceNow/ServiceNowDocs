@@ -2,7 +2,7 @@
 title: Monitor safety audit progress and outcomes at a glance
 description: Use the Overview tab in a Health and Safety audit to quickly assess the audit completion status and outstanding items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-view-safety-audit-progress.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-view-safety-audit-progress.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -96,5 +96,5 @@ Percentage of audit compliance ratings based on findings. -   The percentage ins
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
+**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Schedule a CMDB query
 description: Schedule a saved CMDB query to run once at a scheduled time or on a recurring schedule, and to email the query results to specified users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

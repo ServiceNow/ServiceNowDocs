@@ -2,7 +2,7 @@
 title: Change the language models for a use case
 description: Choose the language models for a Now Assist in Document Intelligence use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/change-llm-for-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-in-document-intelligence/change-llm-for-use-case.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -19,14 +19,14 @@ Choose the language models for a Now Assist in Document Intelligenceuse case.
 
 ## Before you begin
 
--   Set up a use case for the extract information from documentsskill. For more information, see [Set up a use case for Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.md).
+-   Set up a use case for the extract information from documentsskill. For more information, see [Set up a use case for Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.md).
 -   Role required: sn\_docintel.manager
 
 ## About this task
 
 Language models are used to detect information in documents and make predictions for information extraction.
 
-Third-party large language model \(LLM\) providers are available for Now Assist skills and AI agents in addition to Now LLM Service. For more information on LLMs in Now Assist, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
+Third-party large language model \(LLM\) providers are available for Now Assist skills and AI agents in addition to Now LLM Service. For more information on LLMs in Now Assist, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-large-language-models.md).
 
 For each Now Assist in Document Intelligence use case, only one LLM can be enabled at a time. Now Assist employs the selected LLM when processing documents for the use case.
 
@@ -48,7 +48,7 @@ For image files that need optical character recognition \(OCR\) to detect the te
 
 7.  Select the LLM that will make predictions for the documents processed with this use case.
 
-    For more information, see [Large language models used by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/llms-now-assist-document-intelligence.md).
+    For more information, see [Large language models used by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/llms-now-assist-document-intelligence.md).
 
 8.  Turn on image mode to process images more efficiently.
 
@@ -62,7 +62,7 @@ For image files that need optical character recognition \(OCR\) to detect the te
 
     If the files contain multiple languages, select the primary language.
 
-    For more information, see [Languages supported by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/languages-supported-now-assist-document-intelligence.md).
+    For more information, see [Languages supported by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/languages-supported-now-assist-document-intelligence.md).
 
 10. Select **Save**.
 
@@ -71,7 +71,7 @@ For image files that need optical character recognition \(OCR\) to detect the te
 
 The selected languages areenabled for the use case.
 
-**Parent Topic:**[Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
+**Parent Topic:**[Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
 
 **Related topics**  
 

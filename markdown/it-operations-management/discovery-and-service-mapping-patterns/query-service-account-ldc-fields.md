@@ -2,7 +2,7 @@
 title: Improved query performance with direct field population in CI tables
 description: The Populate Service Account and LDC IN CMDB scheduled job populates the Service Account and Logical Datacenter fields in cloud configuration item \(CI\) tables, and the Virtual Machine Object field in the Hardware \[cmdb\_ci\_hardware\] table. This direct population reduces query complexity and improves query performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -23,7 +23,7 @@ Starting with the Discovery and Service Mapping Patterns version 1.30.2, you can
 
 \[Omitted image "multi-joins-vs-direct-fields.png"\] Alt text: Comparison between complex multi-table joins without the feature versus direct field access with the feature
 
-For information about enabling this feature, see [Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md).
+For information about enabling this feature, see [Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md).
 
 ## System properties
 
@@ -41,7 +41,7 @@ Description
 
 </td><td>
 
-Sets the number of days after which a running job is considered stale and automatically canceled. For more information, see [Set the Populate Service Account and LDC job stale threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-stale-days.md).-   **Type**: Integer
+Sets the number of days after which a running job is considered stale and automatically canceled. For more information, see [Set the Populate Service Account and LDC job stale threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-stale-days.md).-   **Type**: Integer
 -   **Default value**: 2
 
 </td></tr><tr><td>
@@ -50,7 +50,7 @@ Sets the number of days after which a running job is considered stale and automa
 
 </td><td>
 
-Starting with Discovery and Service Mapping Patterns version 1.35.0, determines if all CI records are reprocessed on the next job run. For more information, see [Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md).-   **Type**: Boolean
+Starting with Discovery and Service Mapping Patterns version 1.35.0, determines if all CI records are reprocessed on the next job run. For more information, see [Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md).-   **Type**: Boolean
 -   **Default value**: False
 
 </td></tr></tbody>
@@ -89,25 +89,25 @@ The following virtual machine tables are referenced in the Virtual Machine Objec
 |Windows Server|cmdb\_ci\_win\_server|
 |Linux Server|cmdb\_ci\_linux\_server|
 
--   **[Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md)**  
+-   **[Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md)**  
 Populate Service Account, Logical Datacenter, and Virtual Machine Object fields in configuration item \(CI\) tables to improve query performance.
--   **[Set the Populate Service Account and LDC job stale threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-stale-days.md)**  
+-   **[Set the Populate Service Account and LDC job stale threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-stale-days.md)**  
 Configure the number of days before a running **Populate Service Account and LDC IN CMDB** job is considered stale and canceled. Increase this value if a large configuration item \(CI\) dataset causes the job to be canceled before a full run completes.
--   **[Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md)**  
+-   **[Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md)**  
 Trigger the **Populate Service Account and LDC IN CMDB** scheduled job to reprocess all configuration item \(CI\) records. Configure the **sn\_itom\_pattern.populate\_saldc\_full\_resync** system property when service accounts or logical datacenters have incorrect or corrupted values for a CI.
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Discover datacenters only for new cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/discover-datacenter-only-new-account.md)
+**Previous topic:**[Discover datacenters only for new cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/discover-datacenter-only-new-account.md)
 
-**Next topic:**[Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md)
+**Next topic:**[Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md)
 
 **Related topics**  
 
 
-[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
+[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 
-[Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md)
+[Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md)
 
-[Windows discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md)
+[Windows discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md)
 

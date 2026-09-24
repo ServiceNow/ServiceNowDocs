@@ -2,7 +2,7 @@
 title: Set up a triage board in Agile Development 2.0
 description: Set up your own triage board to view and manage records that are important to your product. These records include problems, incident tasks, defects, or change requests, viewable at one place easily.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/setup-triage-board.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/setup-triage-board.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -18,7 +18,7 @@ Set up your own triage board to view and manage records that are important to yo
 
 ## Before you begin
 
-Ensure that you own a backlog. See [Create a personalized backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-a-backlog.md).
+Ensure that you own a backlog. See [Create a personalized backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/create-a-backlog.md).
 
 Role required: scrum\_product\_owner
 
@@ -102,12 +102,12 @@ A triage board is created and can be accessed from the Backlog section of the Ag
 
     Select **Triage Board** and then select the board that you created.
 
--   [Triage items and add them to a backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/add-triage-board-items-to-backlog-agile-development-2.md)
+-   [Triage items and add them to a backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/add-triage-board-items-to-backlog-agile-development-2.md)
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/using-agile-development-2-0.md)
 
 **Related topics**  
 
 
-[Manage your product backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/manage-maintain-backlog.md)
+[Manage your product backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/manage-maintain-backlog.md)
 

@@ -2,7 +2,7 @@
 title: Create an event
 description: If you do not find a suitable existing event, you can create your own.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-events/t\_CreateYourOwnEvent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-events/t\_CreateYourOwnEvent.html
 release: australia
 product: System Events
 classification: system-events
@@ -234,12 +234,12 @@ Add custom script that:
 
 Create a script action or notification to process the event.
 
-**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/managing-system-events.md)
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-events/managing-system-events.md)
 
 **Related topics**  
 
 
-[Register an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/t_RegisterAnEvent.md)
+[Register an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-events/t_RegisterAnEvent.md)
 
-[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/r_ScriptActions.md)
+[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-events/r_ScriptActions.md)
 

@@ -2,7 +2,7 @@
 title: View related details for a configuration item artifact
 description: If your case includes configuration item artifacts, you can view any related details contained in each CI referenced by the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/view-related-details-for-ci-artifact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/view-related-details-for-ci-artifact.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Role required: sn\_ti.case\_user\_write
 5.  You can also click the **Security Annotation** tab to view annotations for the selected artifact.
 
 
-**Parent Topic:**[Related details for case artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/related-details-for-case-artifacts.md)
+**Parent Topic:**[Related details for case artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/related-details-for-case-artifacts.md)
 
 **Related topics**  
 

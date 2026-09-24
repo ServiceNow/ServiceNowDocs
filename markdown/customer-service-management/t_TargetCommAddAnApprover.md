@@ -2,7 +2,7 @@
 title: Add or remove an approver
 description: Facilitate approval process by adding or removing approvers from your publication workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommAddAnApprover.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_TargetCommAddAnApprover.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

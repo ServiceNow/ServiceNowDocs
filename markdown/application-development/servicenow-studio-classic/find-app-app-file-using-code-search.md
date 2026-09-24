@@ -2,7 +2,7 @@
 title: Find an app or app file using code search
 description: Use code search in ServiceNow Studio to search through all applications and tables on an instance to locate a specific app, app file, or code snippet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/find-app-app-file-using-code-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/find-app-app-file-using-code-search.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -38,7 +38,7 @@ Role required: admin or delegated\_developer
     -   Select **Select specific app** and enter the name of the app in the search bar that appears.
 5.  Limit the search to a table by entering the table name in the **File types / tables** field.
 
-    Only tables in the same scope are available. For a list of supported file types, see [ServiceNow Studio supported file types using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-file-types.md).
+    Only tables in the same scope are available. For a list of supported file types, see [ServiceNow Studio supported file types using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-file-types.md).
 
 6.  Select **View results** to run the search.
 
@@ -59,5 +59,5 @@ Role required: admin or delegated\_developer
     The complete script opens in a new tab in ServiceNow Studio.
 
 
-**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
+**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
 

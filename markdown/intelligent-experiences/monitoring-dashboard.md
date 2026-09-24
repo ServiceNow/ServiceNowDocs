@@ -2,7 +2,7 @@
 title: Monitoring dashboard
 description: Explore MCP Server monitoring dashboard to review the performance and usage of the MCP servers and tools in a specific time frame.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/monitoring-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/monitoring-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-08-20"
@@ -46,5 +46,5 @@ Review the successes, failures, throttling incidents, and denial events associat
 5.  You can also turn on the **Show per-server details** to sort and view server-wise tools data.
 
 
-**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
+**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-mcp-server-console.md)
 

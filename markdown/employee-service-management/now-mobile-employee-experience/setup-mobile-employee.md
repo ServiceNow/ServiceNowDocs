@@ -2,7 +2,7 @@
 title: Configuring Now Mobile
 description: Configure options for the Now Mobile app. For example, you can link the app with a service catalog and knowledge base, personalize the greeting for the home page, and specify which records appear under My Requests in the For Me tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -88,26 +88,26 @@ In the base system, iOS users can use Siri shortcuts to open these pages in the 
 -   Open my tasks.
 -   Open my requests.
 
--   **[Configure a personalized greeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/configure-greeting.md)**  
+-   **[Configure a personalized greeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/configure-greeting.md)**  
 Configure the greeting that your users see when they log in to the Now Mobile app. For example, you can add a hello message that includes the user's first and last name.
--   **[Configure My Requests to track open records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/set-up-my-requests.md)**  
+-   **[Configure My Requests to track open records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/set-up-my-requests.md)**  
 Specify which records that you want your users to see under **My Requests** so that they can track their work assignments. For example, you can add a filter to display records that are opened by the user from the Problem table. By default, the app displays records that are opened by the user from the Incident and Requested Item tables.
--   **[AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md)**  
+-   **[AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md)**  
 The AI Search search engine in the Now Mobile platform enables users to find answers to issues and then proceed quickly with their tasks.
--   **[Define people search as inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/enable-people-search.md)**  
+-   **[Define people search as inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/enable-people-search.md)**  
 Configure whether users can search for other users in the system. By default, people search is enabled.
--   **[Configure catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/configure-catalog.md)**  
+-   **[Configure catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/configure-catalog.md)**  
 Enable your users to view and request their associated items in the Now Mobile app. If no catalogs are selected, users can view and request items from all catalogs in the system. By default, the app uses Service Catalog.
--   **[Configure knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/configure-kbs.md)**  
+-   **[Configure knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/configure-kbs.md)**  
 Enable users to view knowledge articles from the mobile app. If no knowledge bases are selected, users can view articles from all knowledge bases in the system. By default, the app uses the IT knowledge base.
--   **[Configure Siri shortcuts for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/config-siri-shortcuts.md)**  
+-   **[Configure Siri shortcuts for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/config-siri-shortcuts.md)**  
 Configure Siri shortcuts for quick access to common features on your iOS mobile device.
--   **[Add a quick action in your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/add-quick-action.md)**  
+-   **[Add a quick action in your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/add-quick-action.md)**  
 Provide your users with a shortcut, which is also known as a quick action, to an item or action in your mobile apps. Quick actions appear on the applet launcher page.
--   **[Enable Live Agent in the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/va-in-me.md)**  
+-   **[Enable Live Agent in the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/va-in-me.md)**  
 Activate the Chat quick action to allow your users to ask for help from a virtual or live agent from the Now Mobile home page.
--   **[Populate search suggestions in the mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/populate-search-suggestions-me.md)**  
+-   **[Populate search suggestions in the mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/populate-search-suggestions-me.md)**  
 If you are upgrading from a previous release, run a script to populate search suggestions with data from a platform search table to provide search suggestions to your users. Alternatively, you can wait until users search for keywords instead of running this script.
 
-**Parent Topic:**[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
+**Parent Topic:**[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
 

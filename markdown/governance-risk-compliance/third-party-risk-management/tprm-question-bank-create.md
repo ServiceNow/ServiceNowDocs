@@ -2,7 +2,7 @@
 title: Set up and maintain a question bank
 description: After you add a question to a question bank, you can reuse it in any assessment by dropping it into the assessment. You can create custom questions, add existing questions, or add and customize the sample questions that are included with the base system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-question-bank-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-question-bank-create.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -44,7 +44,7 @@ Description
 
 </td><td>
 
-Select **New** and fill out the form. For more information, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
+Select **New** and fill out the form. For more information, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
 
 </td></tr><tr><td id="d59479e134">
 

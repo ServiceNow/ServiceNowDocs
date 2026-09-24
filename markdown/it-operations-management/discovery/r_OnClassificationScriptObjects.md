@@ -2,7 +2,7 @@
 title: On classification script objects for Discovery
 description: Use an On classification script in a process classifier to customize an application record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_OnClassificationScriptObjects.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_OnClassificationScriptObjects.html
 release: australia
 product: Discovery
 classification: discovery
@@ -22,7 +22,7 @@ By default, application names are in this format: `<name of the process classifi
 
 For example, for a MySQL server running on a computer called machineA, the application is named `mysql@machineA`.
 
-You can use the **On classification script** field in the [process classifier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateAProcessClassification.md) to change the default application name to match your business needs. For example, the following script changes the default application name to include a suffix after the process classifier:
+You can use the **On classification script** field in the [process classifier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateAProcessClassification.md) to change the default application name to match your business needs. For example, the following script changes the default application name to include a suffix after the process classifier:
 
 ```
 var computerName = g_sensor.deviceGR.name;
@@ -94,5 +94,5 @@ Use these objects in the script:
 **Related topics**  
 
 
-[Create a Discovery process handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateAProcessHandler.md)
+[Create a Discovery process handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateAProcessHandler.md)
 

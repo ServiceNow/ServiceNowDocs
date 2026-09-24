@@ -2,7 +2,7 @@
 title: Install a Security Operations integration
 description: All ServiceNow integrations are available on the ServiceNow Store. Core applications, such as Security Incident Response, are visible in the ServiceNow Products tab on the store. Integration add-ons are visible in the Certified Apps tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/install-non-core-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/install-non-core-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ Store installations require a Now Support account and permission to request appl
 
 4.  If the integration has any core application dependencies, such as Security Incident Response, to which your company is not yet entitled:
 
-    1.  [Follow these instructions to obtain entitlements, download dependency plugins, and activate the applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+    1.  [Follow these instructions to obtain entitlements, download dependency plugins, and activate the applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/download-app-first-time.md).
 
     2.  Return to this procedure.
 

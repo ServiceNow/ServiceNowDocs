@@ -2,7 +2,7 @@
 title: Microsoft Azure Cosmos DB Spoke
 description: Manage Microsoft Azure Cosmos DB from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/azure-cosmos-db-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/azure-cosmos-db-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -97,10 +97,10 @@ The Microsoft Azure Cosmos DB Spoke provides actions to automate Microsoft Azure
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Set up the Microsoft Azure Cosmos DB spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-azure-cosmos-db.md).
+For information about setting up the spoke, see [Set up the Microsoft Azure Cosmos DB spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-azure-cosmos-db.md).
 
 Set up the Microsoft Azure Cosmos DB spoke by fulfilling the following dependencies:
 
--   Install and configure a connection alias of the Microsoft Azure Resource Management Spoke. To view the procedure, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-res-mngmt.md).
--   Configure a connection alias of the Microsoft Azure Cosmos DB SAS. To view the procedure, see [Create a connection alias record for Microsoft Azure Cosmos DB SAS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-azure-cosmos-db.md).
+-   Install and configure a connection alias of the Microsoft Azure Resource Management Spoke. To view the procedure, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-res-mngmt.md).
+-   Configure a connection alias of the Microsoft Azure Cosmos DB SAS. To view the procedure, see [Create a connection alias record for Microsoft Azure Cosmos DB SAS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-azure-cosmos-db.md).
 

@@ -2,7 +2,7 @@
 title: IT Service Management AI agent collection Manage Microsoft 365 group members agentic workflow
 description: Use the Microsoft 365 group membership AI agent to manage users in the Microsoft 365 email distribution list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-O365-groupmembers-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-O365-groupmembers-workflow.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -101,5 +101,5 @@ In the agentic workflow record:
 
 **Example of the Manage Microsoft 365 group members agentic workflow output in the ServiceNow AI Agent Studio**\[Omitted image "now-assist-itsm-aiagents-o365-group-manage.png"\] Alt text: Microsoft 365 group members agentic workflow output.
 
-In the AI Agent Studio, the human agent gets notified as soon as one or more users are added or removed so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as one or more users are added or removed so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 

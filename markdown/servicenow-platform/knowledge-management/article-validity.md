@@ -2,7 +2,7 @@
 title: Validity of a knowledge article
 description: Knowledge article validity is the date a knowledge article expires. Articles do not appear in search results after the Valid to date or if the Valid to date is blank.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/article-validity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/article-validity.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -24,7 +24,7 @@ When you create or edit a knowledge article, a default value appears in the **Va
 
 ## Default article validity when creating a knowledge article
 
-The default value of the **Valid to** field is derived from the **Article Validity** field configured for the knowledge base \(see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md)\). The **Valid to** date starts from the date the article was created until the number of days specified in the **Article Validity** field. If the **Article Validity** field is blank, the default date in the **Valid to** field for the knowledge article is set to January 1, 2100.
+The default value of the **Valid to** field is derived from the **Article Validity** field configured for the knowledge base \(see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-a-knowledgebase.md)\). The **Valid to** date starts from the date the article was created until the number of days specified in the **Article Validity** field. If the **Article Validity** field is blank, the default date in the **Valid to** field for the knowledge article is set to January 1, 2100.
 
 ## Default article validity when editing a knowledge article
 
@@ -35,7 +35,7 @@ If the article versioning feature is enabled, the default value of the **Valid t
 |Blank|Earlier version **Valid to** date value|If the **Article Validity** field in the knowledge base associated with the article is blank, the **Valid to** date value from the earlier version of the article is retained.|
 |Is not blank|Article updated date + article validity|If the **Article Validity** field in the knowledge base associated with the article is not blank, the **Valid to** date is automatically updated to start from the date the article was updated until the number of days specified in the **Article Validity** field.|
 
-**Note:** If the article versioning feature is enabled, you must check out the article to edit the **Valid to** date. However, if the glide.knowman.versioning.enable\_minor\_edits property is set to true, some users can make minor edits, such as changing the **Valid to** date, without checking out the article. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+**Note:** If the article versioning feature is enabled, you must check out the article to edit the **Valid to** date. However, if the glide.knowman.versioning.enable\_minor\_edits property is set to true, some users can make minor edits, such as changing the **Valid to** date, without checking out the article. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 If you move a knowledge article to another knowledge base, the default value of the **Valid to** date in the updated article is automatically set as described in the following table.
 
@@ -48,5 +48,5 @@ If you move a knowledge article to another knowledge base, the default value of 
 
 ## Email notifications for expiring knowledge articles
 
-On the first day of each month, the application sends an email notification to a list of authorized recipients to remind them about articles that are about to expire in the next month. The recipient can then extend the **Valid to** date to continue using the article. For more information, see [Managing email notifications in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+On the first day of each month, the application sends an email notification to a list of authorized recipients to remind them about articles that are about to expire in the next month. The recipient can then extend the **Valid to** date to continue using the article. For more information, see [Managing email notifications in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/email-notifications-km.md).
 

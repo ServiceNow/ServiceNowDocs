@@ -2,7 +2,7 @@
 title: ServiceNow Kafka Consumer
 description: Integrates your ServiceNow instance with Kafka Consumer and stores data in the ServiceNow tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/kafka-consumer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/kafka-consumer.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -32,7 +32,7 @@ This spoke was built for Confluent REST Proxy API v2.
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Confluent Kafka REST Proxy Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-kafka-spoke.md)
+-   [Confluent Kafka REST Proxy Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/conf-kafka-spoke.md)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
 -   ServiceNow IntegrationHub Action Step - RTE \(com.glide.hub.action\_step.rte\)
 
@@ -42,10 +42,10 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-ServiceNow Kafka Consumer uses the connection and credential alias of the [Confluent Kafka REST Proxy Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-kafka-spoke.md).
+ServiceNow Kafka Consumer uses the connection and credential alias of the [Confluent Kafka REST Proxy Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/conf-kafka-spoke.md).
 
--   **[Configure ServiceNow Kafka Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-kafka-consumr.md)**  
+-   **[Configure ServiceNow Kafka Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-kafka-consumr.md)**  
 Retrieve events pertaining to the specified topics and store it in the required ServiceNow tables.
 
-**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/building-integrations-ih.md)
 

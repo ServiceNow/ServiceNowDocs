@@ -2,7 +2,7 @@
 title: Manage Hardware Asset Management subscriptions
 description: Save on Hardware Asset Management licensing cost by choosing only the Hardware Asset Management Resource Categories that you use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/managing-ham-subscriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/managing-ham-subscriptions.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -17,16 +17,16 @@ breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Manageme
 
 Save on Hardware Asset Management licensing cost by choosing only the Hardware Asset Management Resource Categories that you use.
 
-For details on Hardware Asset Management licensing, see [Hardware Asset Management subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-subscription.md).
+For details on Hardware Asset Management licensing, see [Hardware Asset Management subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-subscription.md).
 
--   **[Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md)**  
+-   **[Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md)**  
 Opt in the Hardware Asset Management \(HAM\) license resource categories that are part of the HAM subscription. You can purchase and opt in the resource categories that you use, and you can opt out and not pay for the categories that you don't use.
--   **[View the license report for the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-license-report-ham.md)**  
+-   **[View the license report for the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/view-license-report-ham.md)**  
 View details of the subscriptions purchased and consumed by your organization for the managed IT resource types such as Server, End User Computing Device, Networking Device, Mobile Device, and Telecom Network Inventory using the ITAM License Report.
--   **[Exclude assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/exclude-assets.md)**  
+-   **[Exclude assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exclude-assets.md)**  
 Exclude an asset for which you don't want to use Hardware Asset Management licensed features.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

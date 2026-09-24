@@ -2,7 +2,7 @@
 title: Merge transfer orders
 description: After you submit a new transfer order, the system examines all existing transfer orders attached to the current work order task to determine if the new transfer order can be merged with any of the existing orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_MergeTransferOrders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/c\_MergeTransferOrders.html
 release: australia
 product: Work Order Management
 classification: work-order-management

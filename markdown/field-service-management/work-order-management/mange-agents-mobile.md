@@ -2,7 +2,7 @@
 title: Manage Field Service agents from Field Service Manager Mobile
 description: Manage Field Service agents from Field Service Manager Mobile and do everything that you can from your computer while on the go.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/mange-agents-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/mange-agents-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

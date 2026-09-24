@@ -2,7 +2,7 @@
 title: Web embeddables
 description: Web  embeddables  are a set of self-service components that you can embed directly into external websites to give customers access to ServiceNow  self-service  capabilities without leaving your site. Customers can  search for  knowledge articles,  submit  requests, and create and track cases  from any web page where the components are deployed. 
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-web-embeddables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-web-embeddables.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-29"

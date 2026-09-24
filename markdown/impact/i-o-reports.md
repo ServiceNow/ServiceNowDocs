@@ -2,7 +2,7 @@
 title: IO reports
 description: Reports in Instance Observer offer insights into the health of the instances, tracks database growth, and encryption status. The reports help you to analyze trends, and to schedule, download, and share these reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/i-o-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/i-o-reports.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-17"
@@ -89,7 +89,7 @@ This report provides users with the ability to create a report on the database g
 
 **Note:** If shards are not configured, then the chart for database size will not display any shards database. The table growth is sorted in descending order by the highest table size.
 
-For more information on reports, see [Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-reporting.md).
+For more information on reports, see [Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-reporting.md).
 
 ## URL for graphs
 
@@ -98,8 +98,8 @@ For more information on reports, see [Instance performance telemetry reports](ht
 -   IO is supported on Google Chrome and Mozilla Firefox and the links are valid on these browsers. You must log in to the respective browser to view the shared URL.
 -   There is a limitation with sharing the URL for Triage — both the sender and recipient must have the same instance enabled in their accounts.
 
--   **[Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-reporting.md)**  
+-   **[Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-reporting.md)**  
 Quickly generate reports to download and share with your business stakeholders, making  organizations faster, smarter, and better in their  instance performance management.
 
-**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-overview.md)
 

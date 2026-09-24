@@ -2,7 +2,7 @@
 title: Track requests in the Care Team Portal
 description: Track requests created by you or your team from directly within the Care Team Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-cto-track-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-cto-track-requests.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

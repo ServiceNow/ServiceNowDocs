@@ -2,7 +2,7 @@
 title: Installed with ServiceNow Otto for Workflow Data Fabric \(WDF\)
 description: Several tables are installed with activation of the ServiceNow Otto for Workflow Data Fabric \(WDF\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/installed-with-now-assist-for-wdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/installed-with-now-assist-for-wdf.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ Search Result Route Config
 Contains routing configurations for search results for ServiceNow Otto for WDF.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow Data Fabric Home Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric-reference.md)
+</table>**Parent Topic:**[Workflow Data Fabric Home Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/workflow-data-fabric-reference.md)
 

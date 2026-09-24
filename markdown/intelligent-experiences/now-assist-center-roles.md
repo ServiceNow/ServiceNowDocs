@@ -2,7 +2,7 @@
 title: AI Admin Center roles
 description: AI Admin Center is installed with these roles.Use the AI Admin Center workspace to access and set up Now Assist solutions, perform administrative tasks, and monitor performance. This role has full access to the AI Admin Center application, and can access AI Admin Center tables.Perform read actions in AI Admin Center workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-30"
@@ -15,7 +15,7 @@ breadcrumb: [Reference, AI Admin Center, Enable AI experiences]
 
 AI Admin Center is installed with these roles.
 
-**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
+**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-reference.md)
 
 **Related topics**  
 

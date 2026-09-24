@@ -2,7 +2,7 @@
 title: ODBC SQL Server video tutorials
 description: Watch video tutorials about configuring and troubleshooting the ODBC driver with a SQL Linked Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_ODBCSQLServerVideos.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/r\_ODBCSQLServerVideos.html
 release: australia
 product: Web Services
 classification: web-services
@@ -20,5 +20,5 @@ Watch video tutorials about configuring and troubleshooting the ODBC driver with
 
 ## Troubleshooting Microsoft SQL Linked Server permissions
 
-**Parent Topic:**[ODBC driver in SQL Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ODBCDrvrSQL20082012.md)
+**Parent Topic:**[ODBC driver in SQL Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ODBCDrvrSQL20082012.md)
 

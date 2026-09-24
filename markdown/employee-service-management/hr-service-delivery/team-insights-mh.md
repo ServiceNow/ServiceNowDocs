@@ -2,7 +2,7 @@
 title: Get team insights
 description: Find data visualizations about your team, their service requests, journeys, and learnings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/team-insights-mh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/team-insights-mh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

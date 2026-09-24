@@ -2,7 +2,7 @@
 title: Campus information
 description: Sample code for campus and map set properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_CampusInfo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_CampusInfo.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -50,5 +50,5 @@ Sample code for campus and map set properties.
 
 -   Other data provides the name and address of the campus and is used to create a location in the location table for the campus.
 
-**Parent Topic:**[Community file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_CommunityFile.md)
+**Parent Topic:**[Community file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_CommunityFile.md)
 

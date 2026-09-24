@@ -2,7 +2,7 @@
 title: Use case: Using the Salesforce Quote Calculator plugin to integrate data from CPQ to Salesforce quotes and quote lines
 description: In the CPQ Extension for Salesforce CPQ package version 1.7 or earlier, use the Salesforce Quote Calculator Plugin to parse extended information from a configuration and map it to custom fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/integrate\_config\_data\_from\_productlist\_extended\_to\_salesforce\_quote\_and\_quote\_lines\_using\_quote\_calculator\_pluginqcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/integrate\_config\_data\_from\_productlist\_extended\_to\_salesforce\_quote\_and\_quote\_lines\_using\_quote\_calculator\_pluginqcp.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Use cases, Using CPQ, CPQ Configurator, Configure, price, quote app
 
 In the CPQ Extension for Salesforce CPQ package version 1.7 or earlier, use the Salesforce Quote Calculator Plugin to parse extended information from a configuration and map it to custom fields.
 
-**Note:** This article applies to the CPQ Extension for Salesforce CPQ package version 1.7 or earlier. If your version is 1.8 or later, see [Use case: Configuration line item to quote line flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-case-configuration-line-item-to-quote-line-flow.md).
+**Note:** This article applies to the CPQ Extension for Salesforce CPQ package version 1.7 or earlier. If your version is 1.8 or later, see [Use case: Configuration line item to quote line flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-case-configuration-line-item-to-quote-line-flow.md).
 
 Using the extended information of the CPQ ProductList object with the Salesforce Quote Calculator plugin \(QCP\), data may be passed from CPQ into Salesforce and used to manipulate both quote and quote line information.
 
@@ -77,5 +77,5 @@ Once your script has been written, define it in the Salesforce CPQ settings. Fol
 
 When you navigate to your quote and trigger any action that performs a calculation in SFDC \(such as clicking “Calculate”\), the Quote Calculator Plugin runs and modifies fields as designated.
 
-**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-cases.md)
 

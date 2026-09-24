@@ -2,7 +2,7 @@
 title: Resource Management classic
 description: The ServiceNow Resource Management application enables resource requesters, such as project managers or change managers, to create resource plans, request resources, and analyze resource availability and utilization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/c\_ResourceManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/c\_ResourceManagement.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -20,12 +20,12 @@ The ServiceNow® Resource Management application enables resource requesters, su
 
 Resource plans in Resource Management will no longer be available for new customers from future releases. Existing customers are encouraged to work on resource assignments which offers more flexibility in assigning and managing the work.
 
--   New customers: [Use Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md) or [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.md) to request resources for any work. Resource managers can use Resource Management Workspace to [assign, approve, and manage the resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/allocate-resources-rmw.md).
+-   New customers: [Use Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md) or [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.md) to request resources for any work. Resource managers can use Resource Management Workspace to [assign, approve, and manage the resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/allocate-resources-rmw.md).
 -   Existing customers:
     -   If you already have resource management and working with resource plans, you can continue using it, but we encourage you to migrate and start using resource assignments.
-    -   For more information on migrating from resource plans to resource assignments, see [migrate your resource plans and operational resource plans to resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) and starting using the Resource Management Workspace to continue managing your work.
+    -   For more information on migrating from resource plans to resource assignments, see [migrate your resource plans and operational resource plans to resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) and starting using the Resource Management Workspace to continue managing your work.
 
-Resource Managers are encouraged to use the [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-wrkspc.md) to assign, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
+Resource Managers are encouraged to use the [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-mgmt-wrkspc.md) to assign, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
 
 Resource Management will not be enhanced for performance or functionality.
 
@@ -39,30 +39,30 @@ With the Resource Management application:
 -   Resource managers can view availability, existing allocations, and utilization for the requested resources and make allocations based on resource availability.
 -   Resource managers can change resource plan dates, resources, requested hours and proposed allocations for resource utilization and availability.
 
-The Resource Management application is activated as part of the [PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
+The Resource Management application is activated as part of the [PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
--   **[Resource management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_ResourceManagementProcess.md)**  
+-   **[Resource management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/r_ResourceManagementProcess.md)**  
 The resource plan is the key to understanding how resource management works.
--   **[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)**  
+-   **[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)**  
 Resource plans are the key element in resource management.
--   **[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)**  
+-   **[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)**  
 Migrate resource plans to resource assignments and the associated cost plans to attribute-based labor costs of your projects or demands and easily work on resource allocations using Project Workspace.
--   **[Create requested allocations for a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/request-allocation.md)**  
+-   **[Create requested allocations for a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/request-allocation.md)**  
 Requested Allocations are automatically created when a resource plan is submitted and is in Planning state. If required, the resource requester can create new requested allocations for a resource plan in Planning or Rejected state. Resource managers can create requested allocations for the plans in Requested state.
--   **[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md)**  
+-   **[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/r_AllocatingResources.md)**  
 After resource requesters create a resource plan, resource managers can confirm the resources to move the plan to the Confirmed state. Resource managers can then allocate resources to the plan and move it to the Allocated state.
--   **[Resource schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_UsingResourceSchedules.md)**  
+-   **[Resource schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_UsingResourceSchedules.md)**  
 Understand the default schedules used in Resource Management and learn how to create your own custom schedules.
--   **[Resource events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceEvents.md)**  
+-   **[Resource events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourceEvents.md)**  
 A resource event is a block of time that a resource spends on a task.
--   **[Resource Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_UsingResourceManagementReports.md)**  
+-   **[Resource Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_UsingResourceManagementReports.md)**  
 Resource Management reports provide the resource requester and resource managers with resource allocations, availability, and utilization.
--   **[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_MyCalendar.md)**  
+-   **[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_MyCalendar.md)**  
 Any user with the resource\_user role can open My Calendar to view, add, and modify their planned work, actual work, operational work, administrative tasks, and personal activities.
--   **[Use Resource Diagnostics to detect corrupt resource data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/use-resource-diagnostics.md)**  
+-   **[Use Resource Diagnostics to detect corrupt resource data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/use-resource-diagnostics.md)**  
 The Resource Diagnostics feature uses the Application Diagnostics Tool to detect corrupt data for a resource, such as duplicate aggregates for users, or dailies without a top task.
--   **[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)**  
+-   **[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-mgmt-reference.md)**  
 Reference information to provide additional details about Resource Management such as the fields, user roles, tables, and guidelines.
 
-**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

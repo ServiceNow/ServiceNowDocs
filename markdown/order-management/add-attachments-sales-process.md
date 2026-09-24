@@ -2,7 +2,7 @@
 title: Add attachments for a sales process record
 description: Attach files, documents, or images such as implementation plans, customer-provided specifications, or finalized quotes related to a customer account you're monitoring with a sales process record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-attachments-sales-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-attachments-sales-process.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,14 +73,14 @@ Drag and drop the file from your system to the Attachments pane.
 
 ## What to do next
 
-Download, rename, or delete attachments. For more information, see [Manage attachments for a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-attachments-l2c-process-management.md).
+Download, rename, or delete attachments. For more information, see [Manage attachments for a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-attachments-l2c-process-management.md).
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-process-management.md)
 
 **Related topics**  
 
 
-[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-cash-process-management.md)
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-lead-cash-process-management.md)
 
-[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-lead-cash-process-management.md)
 

@@ -2,7 +2,7 @@
 title: Enterprise Service Management Foundation release notes
 description: The ServiceNow Enterprise Service Management \(ESM\) Foundation unifies IT, HR, finance, procurement, legal, and workplace services on one AI platform, delivering a simplified and unified implementation, service delivery, and employee experience for midsize companies. Enterprise Service Management Foundation is a new solution in the Australia release.The ServiceNow Enterprise Service Management \(ESM\) Foundation unifies IT, HR, finance, procurement, legal, and workplace services on one AI platform, delivering a simplified and unified implementation, service delivery, and employee experience for midsize companies. Enterprise Service Management Foundation is a new solution in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/employee-service-management-foundation-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/employee-service-management-foundation-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-04-02"
@@ -28,10 +28,10 @@ See [Enterprise Service Management Foundation](https://raw.githubusercontent.com
 
 -   **Activation information**
 
-    Enterprise Service Management Foundation is available in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). For more details on the individual products, see [Core Business Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cbs-rn.md) and [Simplified IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-native-it-service-desk-rn.md).
+    Enterprise Service Management Foundation is available in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). For more details on the individual products, see [Core Business Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cbs-rn.md) and [Simplified IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/ai-native-it-service-desk-rn.md).
 
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 
 ## Australia
 
@@ -54,7 +54,7 @@ The ServiceNow® Enterprise Service Management \(ESM\) Foundation unifies IT, HR
     -   Implementation Agent Content \(sn\_ia\_content\): Provides content assets for the Implementation Agent guided setup experience.
     -   Implementation Agent Common \(sn\_ia\_common\): Provides common components shared across the Implementation Agent framework.
     -   Simplified IT Service Management \(sn\_ai\_itsm\_cont\): Provides a tailored service desk with a central workspace, AI agent chat, an Employee Slate, and Now Assist to streamline ITSM and enhance productivity.
-    -   Core Business Suite Foundation: Provides streamlined employee and supplier case and knowledge management to improve service request management across departments. For detailed plugin information for Core Business Suite, see [Core Business Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cbs-rn.md).
+    -   Core Business Suite Foundation: Provides streamlined employee and supplier case and knowledge management to improve service request management across departments. For detailed plugin information for Core Business Suite, see [Core Business Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cbs-rn.md).
         -   The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
             -   Foundation: AI basics to deliver insights

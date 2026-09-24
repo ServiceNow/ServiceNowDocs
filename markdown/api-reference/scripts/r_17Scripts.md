@@ -2,7 +2,7 @@
 title: Available script types
 description: Scripts can be used in many places. The most important detail is whether the script runs on the client or the server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_17Scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/r\_17Scripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -48,7 +48,7 @@ server - script and any condition run on the server
 
 </td></tr><tr><td>
 
-[Ajax Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_AJAX.md)
+[Ajax Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_AJAX.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ Enables the client to get data from the server to dynamically incorporate into a
 
 </td></tr><tr><td>
 
-[Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md)
+[Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/business-rules-classic/c_BusinessRules.md)
 
 </td><td>
 
@@ -91,7 +91,7 @@ Defines the display of a variable set or a catalog item \(from the service catal
 
 </td></tr><tr><td>
 
-[Client Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md)
+[Client Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-scripts.md)
 
 </td><td>
 
@@ -197,7 +197,7 @@ Defines which "right-click menu" will pop-up in which area, and the menu choices
 
 </td></tr><tr><td>
 
-[UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md)
+[UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_UIMacros.md)
 
 </td><td>
 
@@ -213,7 +213,7 @@ Contains modular, reusable components that can contain Jelly and are called by U
 
 </td></tr><tr><td>
 
-[UI Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md)
+[UI Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_UIPages.md)
 
 </td><td>
 
@@ -290,7 +290,7 @@ client
 
 </td></tr><tr><td>
 
-[Validation Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ValidateDateAndTime.md)
+[Validation Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ValidateDateAndTime.md)
 
 </td><td>
 
@@ -317,5 +317,5 @@ Used to create or change a workflow. Scripts can be run at any point in a workfl
 server - script and any conditions run on the server
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
+</table>**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

@@ -2,7 +2,7 @@
 title: Contract Configuration form
 description: Use the Contract Configuration New Record form to create or modify a contract configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-contract-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-contract-config-form.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -106,7 +106,7 @@ Applies to
 Conditions under which the contract configuration is applied. For example, to apply a configuration when a contract request is submitted in the Non-disclosure agreement category, you would enter the following condition: **\[Category\]\[is\]\[ Non-disclosure agreement\]**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Restore Recommended Actions on record page variants after upgrade
 description: After upgrading to a newer release, Recommended Actions \(RA\) may no longer appear on certain record page variants \(CSM default record page or CSM Interaction record page\), even if it was visible before. This can occur if the RA page is inactive or if the record page uses a customized variant created before RA was introduced as a static tab. Use the following procedure if the RA page exists but is not active for the record page variant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-enable-ra-variant-record-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-enable-ra-variant-record-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

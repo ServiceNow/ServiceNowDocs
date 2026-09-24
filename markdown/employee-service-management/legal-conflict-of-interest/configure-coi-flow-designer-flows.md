@@ -2,7 +2,7 @@
 title: Configure flows for Legal Conflict of Interest
 description: Review the flows installed with the Legal Conflict of Interest application and configure them to align with your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/configure-coi-flow-designer-flows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-conflict-of-interest/configure-coi-flow-designer-flows.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -50,5 +50,5 @@ The flows are built using ServiceNow Workflow Studio, so make sure you’re fami
 6.  If not already active, click **Activate** to enable the flow.
 
 
-**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
+**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 

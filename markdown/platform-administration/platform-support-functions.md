@@ -2,7 +2,7 @@
 title: Function field
 description: Create function fields and scripts in the ServiceNow AI Platform to perform common database transformations and calculations.Create a field that displays the results of a database function, such as a mathematical operation, field length computation, or day of the week calculation. Test in a subproduction instance before deploying to a production instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-support-functions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/platform-support-functions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

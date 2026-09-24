@@ -2,7 +2,7 @@
 title: Use Resource Finder to analyze resource availability
 description: Search and analyze resource availability using the Resource Finder, so that you can create resource plans for a project or demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/create-resource-plan-with-finder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/create-resource-plan-with-finder.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -165,9 +165,9 @@ Right-click on the user and select **Update Capacity**.
 
 -   Update the planned hours for the resource plan using the resource grid.
 -   To view and update more details for the resource plan, click the information icon in the beginning of the resource plan row.
--   You can now [request the resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_RequestResourcePlanApproval.md).
+-   You can now [request the resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_RequestResourcePlanApproval.md).
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 

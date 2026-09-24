@@ -2,7 +2,7 @@
 title: Configuring customer service case types
 description: Configure case types to handle different types of customer issues. A case type identifies the processes and the data needed to resolve a specific type of issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-case-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-csm-case-types.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -146,7 +146,7 @@ The Case Type table extends the Application File table \(sys\_metadata\). This t
 -   Email templates
 -   Quick messages
 -   Reports
-For more information, see [Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-csm-case-types.md).
+For more information, see [Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/manage-csm-case-types.md).
 
 **Note:** These related lists only display information for the new case type. They do not include information for the base case.
 
@@ -251,7 +251,7 @@ Configure the fields that a customer can see when they view a case on the Custom
 **Related topics**  
 
 
-[Enable the case type single select property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-case-type-single-select-prop.md)
+[Enable the case type single select property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-case-type-single-select-prop.md)
 
-[Create a configuration for case type single-select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-type-single-selection.md)
+[Create a configuration for case type single-select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-type-single-selection.md)
 

@@ -2,7 +2,7 @@
 title: Navigation links within a branded landing page
 description: Learn about the different behavior of trusted or untrusted links on your branded landing page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/branded-landing-page-links.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/branded-landing-page-links.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Trusted links are ServiceNow supported links, which must contain one of the foll
 -   A URL path ending with `*.service-now.com`
 -   Domain and sub-domains of the branded landing page.
 
-When using these path types, a dialog box does not display. These trusted links can be general hyperlinks to another web page within the trusted domains or mobile deep links. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
+When using these path types, a dialog box does not display. These trusted links can be general hyperlinks to another web page within the trusted domains or mobile deep links. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/deep-link-mobile.md).
 
 ## Untrusted links
 

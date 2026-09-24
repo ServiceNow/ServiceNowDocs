@@ -2,7 +2,7 @@
 title: Compare scores
 description: In the Analytics Hub Compare tab, compare scores on any two dates, or compare scores against linked benchmark scores.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/scorecard-compare-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/scorecard-compare-tab.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -43,5 +43,5 @@ If the indicator is linked to a benchmark indicator, select **Benchmarks** to co
 **Related topics**  
 
 
-[Link an automated indicator to a benchmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/link-automated-indicator-benchmark.md)
+[Link an automated indicator to a benchmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/link-automated-indicator-benchmark.md)
 

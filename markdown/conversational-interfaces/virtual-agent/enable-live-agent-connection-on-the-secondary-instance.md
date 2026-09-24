@@ -2,7 +2,7 @@
 title: Enable live agent connection on the primary instance
 description: Enable live agent connection on the primary instance to route an interaction to a live agent on the secondary instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/enable-live-agent-connection-on-the-secondary-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/enable-live-agent-connection-on-the-secondary-instance.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -46,9 +46,9 @@ Role required: admin or virtual\_agent\_admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-sn-secondary-bot-with-sn-primary.md)
+**Parent Topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-sn-secondary-bot-with-sn-primary.md)
 
-**Previous topic:**[Create a Virtual Agent Bot Interconnect shell topic to call Virtual Agent secondary topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-va-topic-sn-primary-secondary-config.md)
+**Previous topic:**[Create a Virtual Agent Bot Interconnect shell topic to call Virtual Agent secondary topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-va-topic-sn-primary-secondary-config.md)
 
-**Next topic:**[Debug Virtual Agent Bot Interconnect with a ServiceNow Virtual Agent secondary bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/debug-bot-sn-sn-configuration.md)
+**Next topic:**[Debug Virtual Agent Bot Interconnect with a ServiceNow Virtual Agent secondary bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/debug-bot-sn-sn-configuration.md)
 

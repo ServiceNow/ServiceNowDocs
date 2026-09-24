@@ -2,7 +2,7 @@
 title: Contextual assistance
 description: ServiceNow Otto for Creator contains AI assets that provide contextual assistance for handling development tasks more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-contextual-assistance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/dev-get-start-contextual-assistance.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ For example, the app generation skill is embedded in ServiceNow Studio, enabling
 
 In addition to the app generation skill, ServiceNow Otto for Creator contains AI assets for each stage in the app development process, such as generating code, UI experiences, Automated Test Framework \(ATF\) test suites, and more.
 
-For more information, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
+For more information, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
 
-**Parent Topic:**[AI-native app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-use-ai-to-build-faster.md)
+**Parent Topic:**[AI-native app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-get-start-use-ai-to-build-faster.md)
 

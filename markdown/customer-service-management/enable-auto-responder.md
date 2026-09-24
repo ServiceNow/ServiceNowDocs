@@ -2,7 +2,7 @@
 title: Enable Auto-Responder
 description: Enable the Auto-Responder feature to include content suggested for deflecting cases in email notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-auto-responder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-auto-responder.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Enable the Auto-Responder feature to include content suggested for deflecting ca
 
 ## Before you begin
 
-Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/predictive-intelligence-for-csm.md).
+Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/predictive-intelligence-for-csm.md).
 
 Role required: admin
 

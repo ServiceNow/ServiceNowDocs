@@ -2,7 +2,7 @@
 title: Perform actions on regulatory alerts
 description: Perform various actions on unassigned and other types of regulatory alerts. For example, you can assign an unassigned alert, initiate impact assessment on an alert, and mark an alert as applicable, among other actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/perform-actions-reg-event-feeds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/perform-actions-reg-event-feeds.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -75,7 +75,7 @@ In the following procedure, steps 3 and after describe the various actions that 
 9.  To delete an alert, select **Delete**.
 
 
-**Parent Topic:**[Regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-feeds.md)
+**Parent Topic:**[Regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-feeds.md)
 
 **Related topics**  
 

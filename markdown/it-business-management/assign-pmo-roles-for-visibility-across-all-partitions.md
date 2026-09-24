@@ -2,7 +2,7 @@
 title: Assign PMO role for visibility across all partitions
 description: Grant users or user groups access to partitioned records in Enterprise-Wide Deployment by assigning the appropriate EWD PMO role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/assign-pmo-roles-for-visibility-across-all-partitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/assign-pmo-roles-for-visibility-across-all-partitions.html
 release: australia
 topic_type: task
 last_updated: "2026-05-12"
@@ -24,7 +24,7 @@ You can assign the EWD PMO \[sn\_spm\_ewd.ewd\_pmo\] role to individual users or
 
 **Important:** Assign the EWD PMO role only to users who need cross-partition access, as it grants visibility to data across all partitions. This role does not replace base role requirements. Users must still have the appropriate base roles — for example, it\_project\_manager — to access projects and related records.
 
-For more information on roles installed with Enterprise-Wide Deployment, see the Roles table in [Components installed with Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/components-installed-with-ewd.md).
+For more information on roles installed with Enterprise-Wide Deployment, see the Roles table in [Components installed with Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/components-installed-with-ewd.md).
 
 ## Procedure
 
@@ -43,5 +43,5 @@ For more information on roles installed with Enterprise-Wide Deployment, see the
 
 ## What to do next
 
-Verify that the role assignment is working correctly by impersonating the user and confirming that record visibility matches the expected access level for the assigned role. For details, see [Verify partition configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/verify-partition-configuration-ewd.md).
+Verify that the role assignment is working correctly by impersonating the user and confirming that record visibility matches the expected access level for the assigned role. For details, see [Verify partition configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/verify-partition-configuration-ewd.md).
 

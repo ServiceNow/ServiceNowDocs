@@ -2,7 +2,7 @@
 title: Accessibility options on dashboards
 description: Understand how accessibility settings affect reports and Performance Analytics widgets on dashboards. Data visualizations on a Workspace are also affected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/analytics-accessibility-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/analytics-accessibility-options.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

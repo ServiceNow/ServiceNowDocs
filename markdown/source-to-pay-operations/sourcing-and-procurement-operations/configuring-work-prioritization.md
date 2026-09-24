@@ -2,7 +2,7 @@
 title: Configuring work prioritization
 description: Configure decision table rules to automatically assign priority to purchase requisitions, sourcing requests, and procurement cases based on your organization's criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,14 +17,14 @@ breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply 
 
 Configure decision table rules to automatically assign priority to purchase requisitions, sourcing requests, and procurement cases based on your organization's criteria.
 
--   **[Configure work prioritization for procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-procurement-cases.md)**  
+-   **[Configure work prioritization for procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-procurement-cases.md)**  
 Configure the **Priority defaulting for procurement cases** decision table to automatically assign priority levels to procurement cases based on conditions you define.
--   **[Configure work prioritization for purchase requisitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-purchase-requisitions.md)**  
+-   **[Configure work prioritization for purchase requisitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-purchase-requisitions.md)**  
 Configure the **Priority defaulting for purchase requisitions** decision table to automatically assign priority levels to purchase requisitions based on line item values or other administrator-defined conditions.
--   **[Configure work prioritization for sourcing requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-sourcing-requests.md)**  
+-   **[Configure work prioritization for sourcing requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-sourcing-requests.md)**  
 Configure the **Priority defaulting for sourcing requests** decision table to automatically assign priority levels to sourcing requests based on the organizational seniority of the business owner or other administrator-defined conditions.
 
-**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 

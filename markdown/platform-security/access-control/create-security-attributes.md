@@ -2,7 +2,7 @@
 title: Create Security Attributes
 description: Create security attributes with a step-by-step guide.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/create-security-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/create-security-attributes.html
 release: australia
 product: Access Control
 classification: access-control
@@ -60,7 +60,7 @@ Type
 
 The type of security attribute. -   compound
 
-**Note:** For further information about Compound Security Attributes see [Compound Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/compound-security-attributes.md)
+**Note:** For further information about Compound Security Attributes see [Compound Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/compound-security-attributes.md)
 
 -   integer
 -   list

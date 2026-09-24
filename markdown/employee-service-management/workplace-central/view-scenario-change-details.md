@@ -2,7 +2,7 @@
 title: View scenario change details
 description: View details of each change that you implemented in a scenario. You can view details such as the space that is changed, the type of change, and the workplace move case associated with the change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-scenario-change-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/view-scenario-change-details.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -42,15 +42,15 @@ View details of every change made in the scenario. You can view details such as 
 
 3.  Open the scenario that you want to view by using any of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d781725e142">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d781729e142">
 
 Path
 
-</th><th align="left" id="d781725e145">
+</th><th align="left" id="d781729e145">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d781725e151">
+</th></tr></thead><tbody><tr><td id="d781729e151">
 
 **From the Scenarios list section**
 
@@ -64,7 +64,7 @@ A list of all the scenarios created in the application is displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d781725e176">
+</td></tr><tr><td id="d781729e176">
 
 **From the Buildings list section**
 
@@ -92,10 +92,10 @@ The details of every change that is implemented on the scenario is displayed. If
 
 For more information about the space and user deployment plans, see the following topics:
 
--   [Space Deployment Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/space-deployment-plan.md)
--   [User Deployment Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/user-deployment-plan.md)
+-   [Space Deployment Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/space-deployment-plan.md)
+-   [User Deployment Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/user-deployment-plan.md)
 
-**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 

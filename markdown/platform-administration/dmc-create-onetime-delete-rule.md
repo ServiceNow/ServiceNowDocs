@@ -2,7 +2,7 @@
 title: Create a one-time delete rule
 description: Define a rule for deleting records now or at a later date.Define one or more conditions that identify the records to be deleted.Specify which associated records to delete when the one-time delete rule runs.Schedule a date and time to execute a one-time delete rule or execute it after you finish creating it.View a summary of your one-time delete rule and acknowledge the deletion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dmc-create-onetime-delete-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dmc-create-onetime-delete-rule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Create a one-time delete rule to delete records once. To delete records on a recurring basis, see [Create a cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-cleanup-rule.md).
+Create a one-time delete rule to delete records once. To delete records on a recurring basis, see [Create a cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dmc-create-cleanup-rule.md).
 
 ## Procedure
 
@@ -64,7 +64,7 @@ Steps
 
     2.  Enter a name and description for the rule.
 
-        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) for references to this rule.
+        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_DisplayValues.md) for references to this rule.
 
     3.  Select **Save and continue**.
 
@@ -145,7 +145,7 @@ Role required: admin
 
 ### About this task
 
-Consider scheduling the one-time delete rule to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use a cleanup rule instead. For more information, see [Deleting older or unwanted records in Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deleting-records.md).
+Consider scheduling the one-time delete rule to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use a cleanup rule instead. For more information, see [Deleting older or unwanted records in Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/deleting-records.md).
 
 ### Procedure
 

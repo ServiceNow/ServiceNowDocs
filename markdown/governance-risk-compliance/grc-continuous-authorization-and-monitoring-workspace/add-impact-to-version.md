@@ -2,7 +2,7 @@
 title: Add impact to version
 description: Add impact levels to a version to categorize authorization packages by risk level. Impacts filter control objectives based on the impact requirements and work with versions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-impact-to-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-impact-to-version.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -53,7 +53,7 @@ The workflow impact is available for authorization packages. Baseline controls a
 
 ## What to do next
 
-[Add view rules to workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-view-rules-to-workflow.md)
+[Add view rules to workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-view-rules-to-workflow.md)
 
-**Parent Topic:**[Add version to workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-version-and-impact-to-workflow.md)
+**Parent Topic:**[Add version to workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-version-and-impact-to-workflow.md)
 

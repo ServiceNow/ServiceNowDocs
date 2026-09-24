@@ -2,7 +2,7 @@
 title: Now Assist suite versions
 description: The Application Manager uses Now Assist suite versions to verify compatibility between multiple generative AI applications in one instance.Some Now Assist applications are part of multiple Now Assist suites because they're compatible with multiple other Now Assist application versions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-suites-app-mgr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-suites-app-mgr.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

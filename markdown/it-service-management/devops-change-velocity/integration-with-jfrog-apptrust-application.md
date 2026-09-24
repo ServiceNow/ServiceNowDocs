@@ -2,7 +2,7 @@
 title: Integration with JFrog AppTrust application
 description: Integrate DevOps Change Velocity with JFrog AppTrust applications to automate change request creation, approval, and evidence collection as application versions are promoted through life-cycle stages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/integration-with-jfrog-apptrust-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/integration-with-jfrog-apptrust-application.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -32,7 +32,7 @@ JFrog AppTrust is an application risk governance solution containing application
     -   Re-configuration of webhooks that are already existing.
     -   Association of ServiceNow business applications with JFrog AppTrust applications to configure new webhooks for projects.
     -   Enabling of change control for application promotion.
-    **Note:** For information on connecting a JFrog tool, see [Onboard JFrog to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-jfrog-connect-workspace.md).
+    **Note:** For information on connecting a JFrog tool, see [Onboard JFrog to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-jfrog-connect-workspace.md).
 
 -   **Permission checks**
 
@@ -50,7 +50,7 @@ JFrog AppTrust is an application risk governance solution containing application
 
 -   **Configure webhooks at project level**
 
-    To configure new webhooks for a project, you must associate the ServiceNow business application with the JFrog AppTrust application. For more information, see [Associate business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/associate-business-application.md).
+    To configure new webhooks for a project, you must associate the ServiceNow business application with the JFrog AppTrust application. For more information, see [Associate business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/associate-business-application.md).
 
 -   **Configure webhooks at tool level**
 
@@ -60,7 +60,7 @@ JFrog AppTrust is an application risk governance solution containing application
 
     Use the **Project** tab in the tool record to associate ServiceNow business applications with JFrog AppTrust applications. This association ensures that change requests created during promotions are linked to the correct business application in ServiceNow, enabling accurate tracking and governance.
 
-    To associate a business application, select a discovered project and map it to the appropriate ServiceNow business application. For detailed instructions, see [Associate business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/associate-business-application.md).
+    To associate a business application, select a discovered project and map it to the appropriate ServiceNow business application. For detailed instructions, see [Associate business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/associate-business-application.md).
 
 
 ## Change creation
@@ -73,7 +73,7 @@ Once the change request is reviewed and approved in ServiceNow, the approval is 
 
 ## Change policy
 
-You can add change approval policies to the model you created for JFrog change requests. For information on creating change approval policies, see [Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-approval-policies-cf.md).
+You can add change approval policies to the model you created for JFrog change requests. For information on creating change approval policies, see [Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/using-change-approval-policies-cf.md).
 
 In the change policy, to retrieve the evidence associated with a JFrog change request, you can use the JFrog Fetch evidences flow action. This flow action collects the relevant evidence data such as artifact promotion details from JFrog and attaches it to the corresponding change request. You can incorporate this flow action into your change policy's approval workflow. This ensures that the required evidence is available before the change request is approved or moved forward.
 
@@ -89,8 +89,8 @@ ServiceNow supports digital signature verification to ensure the integrity and a
     2.  Look for the public key associated with your AppTrust configuration.
     3.  Export or copy the public key from this section.
 
--   **[Associate business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/associate-business-application.md)**  
+-   **[Associate business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/associate-business-application.md)**  
 Associate a business application with a JFrog project in the JFrog tool record to create an AppTrust application in JFrog.
 
-**Parent Topic:**[JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-jfrog-integration.md)
+**Parent Topic:**[JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-jfrog-integration.md)
 

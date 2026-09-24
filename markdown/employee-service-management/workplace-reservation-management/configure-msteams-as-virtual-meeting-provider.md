@@ -2,7 +2,7 @@
 title: Configure Microsoft Teams as virtual meeting provider
 description: Set Microsoft Teams as your virtual meeting provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/configure-msteams-as-virtual-meeting-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/configure-msteams-as-virtual-meeting-provider.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -41,7 +41,7 @@ Role required: sn\_wsd\_rsv.admin
 
 1.  Connect Workplace Reservation Management and Microsoft Teams.
 
-    To create a connections, refer to [Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md).
+    To create a connections, refer to [Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md).
 
     After the connection is configured, the application by default provides with the **Microsoft Teams** virtual meeting provider.
 
@@ -56,7 +56,7 @@ Role required: sn\_wsd\_rsv.admin
 
 Microsoft Teams is set as the virtual meeting provider.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

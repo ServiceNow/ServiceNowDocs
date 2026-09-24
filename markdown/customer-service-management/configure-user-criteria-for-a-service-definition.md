@@ -2,7 +2,7 @@
 title: Configure user criteria for a service definition
 description: After creating a service definition, configure user-specific criteria to control which users can access and use that service definition to create a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-user-criteria-for-a-service-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-user-criteria-for-a-service-definition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

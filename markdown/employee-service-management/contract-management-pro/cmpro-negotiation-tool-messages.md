@@ -2,7 +2,7 @@
 title: Contract analysis playbook tool messages
 description: Messages that the playbook tool returns to an external AI tool when it cannot resolve or return a playbook for a contract. Each message tells the fulfiller how to correct the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-negotiation-tool-messages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-negotiation-tool-messages.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -35,7 +35,7 @@ The messages that the playbook tool can return, and the condition that triggers 
 |The contract request has more than one contract type.|Multiple contract types are associated with this contract request. Select one to continue.|
 |Active playbooks exist for the contract type, but none match the contract request conditions.|No playbook matched this contract request's conditions. Select one of the available playbooks for this contract type to proceed.|
 
-**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

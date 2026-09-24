@@ -2,7 +2,7 @@
 title: Complete a safety inspection or audit survey in the offline mode
 description: Complete a safety inspection or audit survey assigned to you in the offline mode-without an internet connection- through the Mobile Agent app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/complete-safety-inspection-survey-offline-mode.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/complete-safety-inspection-survey-offline-mode.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -21,7 +21,7 @@ Complete a safety inspection or audit survey assigned to you in the offline mode
 Verify the following conditions:
 
 -   The system properties for the offline mode behavior of the mobile application are configured. For more information, see .
--   The offline mode for the Mobile Agent app on your mobile device is turned on. For more information, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-health-safety-mobile.md).
+-   The offline mode for the Mobile Agent app on your mobile device is turned on. For more information, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-health-safety-mobile.md).
 -   The **glide.sg.offline.scheduled\_download.enabled** system property for scheduled offline caching is set. If the property is not set, manually update cache before you go offline. To update cache, navigate to **Settings** and tap **Update Cache**. This ensures that the survey is downloaded and it's ready for you to complete.
 
 Role required: none
@@ -49,5 +49,5 @@ For more information on how offline mode works in the mobile app, see [Offline m
 6.  Tap **Submit**.
 
 
-**Parent Topic:**[Manage the safety inspection and audit surveys through mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-manage-safety-inspections-audits-mobile.md)
+**Parent Topic:**[Manage the safety inspection and audit surveys through mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-configure-manage-safety-inspections-audits-mobile.md)
 

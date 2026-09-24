@@ -2,7 +2,7 @@
 title: Confluent Kafka REST Proxy Spoke
 description: Integrates your ServiceNow instances with the Kafka cluster through Confluent Kafka REST Proxy API.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/conf-kafka-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/conf-kafka-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -56,5 +56,5 @@ The Confluent Kafka REST Proxy spoke provides actions to automate tasks when eve
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Confluent Kafka REST Proxy spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-kafka-spoke.md).
+For information about setting up the spoke, see [Set up the Confluent Kafka REST Proxy spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-kafka-spoke.md).
 

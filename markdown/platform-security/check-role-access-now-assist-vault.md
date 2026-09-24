@@ -2,7 +2,7 @@
 title: Check role access for an encrypted column with ServiceNow Otto for Vault
 description: Use the check role access for encrypted column skill to identify user roles that have access to encryption and decryption keys in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/check-role-access-now-assist-vault.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/check-role-access-now-assist-vault.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Use the check role access for encrypted column skill to identify user roles that
 
 ## Before you begin
 
--   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-servicenow-vault.md).
+-   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-servicenow-vault.md).
 -   Ensure that the check role access for encrypted column skill is active. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 Role required: sn\_vault\_console.vault\_console\_admin
@@ -30,5 +30,5 @@ Role required: sn\_vault\_console.vault\_console\_admin
     Example prompt: `Which roles have decryption key access to an encrypted column? Access includes read access.`
 
 
-**Parent Topic:**[Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md)
+**Parent Topic:**[Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-now-assist-vault.md)
 

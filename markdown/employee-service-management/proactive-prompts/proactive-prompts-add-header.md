@@ -2,7 +2,7 @@
 title: Add a new prompt header to identify the prompt
 description: Add intuitive headers to the prompts displayed on the Employee Portal to enable users to identify the type of prompt easily.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-add-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/proactive-prompts/proactive-prompts-add-header.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts

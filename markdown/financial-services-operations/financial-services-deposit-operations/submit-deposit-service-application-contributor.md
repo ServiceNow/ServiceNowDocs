@@ -2,7 +2,7 @@
 title: Create a deposit service case as a contributor or agent connector
 description: Begin the deposit service application process by creating a deposit case on behalf of your customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/submit-deposit-service-application-contributor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-deposit-operations/submit-deposit-service-application-contributor.html
 release: australia
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -23,9 +23,9 @@ Role required:
 -   For a business deposit service for a business customer \(account or contact\): sn\_bom\_deposit\_b2b.contributor or sn\_bom\_deposit\_b2b.agent\_connector
 -   For a personal deposit service for a consumer: sn\_bom\_deposit\_b2c.contributor or sn\_bom\_deposit\_b2c.agent\_connector
 
-**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-core-roles.md).
+**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-core-roles.md).
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -70,5 +70,5 @@ Collect all the required customer information and submit the application.
 1.  In the **Playbook** tab, fill the data in the Initiate stage.​
 2.  Submit the application to back-office agents for fulfillment.
 
-**Parent Topic:**[Submitting a deposit service request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/submit-deposit-request.md)
+**Parent Topic:**[Submitting a deposit service request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-deposit-operations/submit-deposit-request.md)
 

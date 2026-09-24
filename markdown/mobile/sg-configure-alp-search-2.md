@@ -2,7 +2,7 @@
 title: Configure global search options for your screen launcher
 description: Configure global search options, using the Zing search engine, to control how your app presents search results to your users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-configure-alp-search-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-configure-alp-search-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,5 +54,5 @@ Role required: admin
 
 ## What to do next
 
-Enable voice search so that your users can search using native speech recognition. For more details, see [Turn on voice search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/turn-on-voice-search.md)
+Enable voice search so that your users can search using native speech recognition. For more details, see [Turn on voice search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/turn-on-voice-search.md)
 

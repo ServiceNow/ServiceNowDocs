@@ -2,7 +2,7 @@
 title: Example configurations of recommended actions
 description: This example documentation demonstrates end-to-end configurations of recommendations with actions of type guidance, decision tree, or field recommendation to help you get started with Recommended Actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/recommended-actions-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/recommended-actions-use-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ This example documentation demonstrates end-to-end configurations of recommendat
 
 |Scenario|Description|
 |--------|-----------|
-|[Troubleshoot a failed credit card transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-troubleshooting-failed-credit-card-transaction.md)|A decision tree that helps agents troubleshoot a failed credit card transaction. This decision tree asks a series of questions and based on the answers entered, provides a resolution, such as track the failed transaction, dispatch a new credit card, or provide further assistance.|
-|[Recommend an assignment group for a router issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-field-recommendation-decision-table-example.md)|A field recommendation that recommends a value for the Assignment group field so that the agent can assign the case to the appropriate team to resolve the customer issue faster.|
-|[Link the current case to the similar major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-example-guidance-similarity-trend.md)|A guidance that recommends linking the current case to the recommended similar major case so that the business owner can identify the trend and take corrective actions.|
+|[Troubleshoot a failed credit card transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-troubleshooting-failed-credit-card-transaction.md)|A decision tree that helps agents troubleshoot a failed credit card transaction. This decision tree asks a series of questions and based on the answers entered, provides a resolution, such as track the failed transaction, dispatch a new credit card, or provide further assistance.|
+|[Recommend an assignment group for a router issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-field-recommendation-decision-table-example.md)|A field recommendation that recommends a value for the Assignment group field so that the agent can assign the case to the appropriate team to resolve the customer issue faster.|
+|[Link the current case to the similar major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-example-guidance-similarity-trend.md)|A guidance that recommends linking the current case to the recommended similar major case so that the business owner can identify the trend and take corrective actions.|
 

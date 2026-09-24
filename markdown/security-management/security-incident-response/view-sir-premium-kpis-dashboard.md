@@ -2,7 +2,7 @@
 title: View Security Incident Response Premium KPIs dashboard
 description: With this dashboard, security managers can track and view the volume, performance, and progress of security incidents from initial analysis/detection to containment, eradication, and recovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-sir-premium-kpis-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/view-sir-premium-kpis-dashboard.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -40,6 +40,6 @@ Role required: sn\_si.analyst \(Read\), sn\_si.manager or sn\_si.admin \(write\)
 
 4.  View the Security Incident Response Premium KPIs dashboard for further action.
 
-    For detailed information on Security Incident Response Premium KPIs dashboard, see [Security Incident Management Premium dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/si-mgmt-premium-dashboard.md)
+    For detailed information on Security Incident Response Premium KPIs dashboard, see [Security Incident Management Premium dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/si-mgmt-premium-dashboard.md)
 
 

@@ -2,7 +2,7 @@
 title: Using conversational search in ServiceNow Otto panel
 description: Get common case-related information from the KBs within the case record by asking questions in the panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/using-conversational-search-in-now-assist-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/using-conversational-search-in-now-assist-panel.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -38,5 +38,5 @@ To use the feature, do the following:
 
 To get started with configuring the ServiceNow Otto Q&amp;A Skill, see the [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md) instructions.
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

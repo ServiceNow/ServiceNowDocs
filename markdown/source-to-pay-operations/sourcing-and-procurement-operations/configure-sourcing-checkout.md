@@ -2,7 +2,7 @@
 title: Configure sourcing checkout
 description: As an administrator, you can configure the sourcing checkout to collect information that is relevant to a specific product, product model, or product category. You can also change the default sourcing checkout used universally. The additional information at the sourcing checkout helps understand the requirement better and enable quicker processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-sourcing-checkout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-sourcing-checkout.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,7 +22,7 @@ Role required: sn\_shop.shopping\_hub\_admin
 
 Configure sourcing checkouts in Shopping Hub to change all sourcing requests for a product or service throughout the system. Or you can configure for specific products and categories.
 
-To configure a sourcing checkout for a product or service, you must first create the sourcing checkout from the purchasing automation tab of product, product model, or category. Simply select **Create new sourcing checkout**, for more information, see [Create sourcing checkout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-sourcing-checkout-record.md).
+To configure a sourcing checkout for a product or service, you must first create the sourcing checkout from the purchasing automation tab of product, product model, or category. Simply select **Create new sourcing checkout**, for more information, see [Create sourcing checkout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-sourcing-checkout-record.md).
 
 -   **Supplier Product**: Create or change the sourcing checkout for a specific product from a specific supplier. For example, MacBook Pros 15 inch sold by a specific supplier, for example, Apple.
 -   **Product Model**: Create or change the sourcing checkout for a product model. For example, MacBook Pros 15 inch sold by any supplier.
@@ -57,7 +57,7 @@ Configure the relevant questions in this manner.
     Once you select sourcing checkout, shoppers can view, select, and provide relevant information associated with the procurement of the product or service.
 
 
-**Parent Topic:**[Sourcing checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-checkout.md)
+**Parent Topic:**[Sourcing checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-checkout.md)
 
 **Related topics**  
 
@@ -66,5 +66,5 @@ Configure the relevant questions in this manner.
 
 [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md)
 
-[Create sourcing checkout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-sourcing-checkout-record.md)
+[Create sourcing checkout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-sourcing-checkout-record.md)
 

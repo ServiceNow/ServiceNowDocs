@@ -2,7 +2,7 @@
 title: Create Template configurations
 description: Use the Template Configurations module to set up the template relationship registry. This module displays document design template configurations for action tasks. It enables you to configure data relationships, content, and scripted variables via the Document designer application so that required data is displayed in your reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-template-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-template-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -93,5 +93,5 @@ Fields from which data must be displayed on the report. Move the required fields
 **Related topics**  
 
 
-[Create Data relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-data-relationships-action-tasks.md)
+[Create Data relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-data-relationships-action-tasks.md)
 

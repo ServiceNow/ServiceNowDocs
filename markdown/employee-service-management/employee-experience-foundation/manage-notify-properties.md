@@ -2,7 +2,7 @@
 title: Manage Notify Connector for Microsoft Teams properties
 description: Manage the Notify connector for Microsoft Teams application properties to configure the calling capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/manage-notify-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/manage-notify-properties.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -90,5 +90,5 @@ Option to provide the app Id of Meeting Extensibility app. Provide the Meeting E
 </table>3.  Select **Save**.
 
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
 

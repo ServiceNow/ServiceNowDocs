@@ -2,7 +2,7 @@
 title: Create a monetary benefit plan for an epic
 description: Epic benefit plans capture the potential benefits accrued by the epic when the epic is executed. Create a monetary benefit plan to specify the estimated benefit in a category spanning one or more fiscal periods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-monetary-benefit-plan-agile-epic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/create-monetary-benefit-plan-agile-epic.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -215,8 +215,8 @@ Non-monetary benefit that is associated to this monetary benefit plan.
 
 On the Benefit Plan form, view the benefit breakdown by fiscal period in the Monetary Benefit Plan Breakdowns related list.
 
--   **[Update a monetary benefit plan breakdown for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/update-monetary-benefit-plan-breakdown-agile-epic.md)**  
+-   **[Update a monetary benefit plan breakdown for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/update-monetary-benefit-plan-breakdown-agile-epic.md)**  
 Update a monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 
-**Parent Topic:**[Create an epic in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-an-epic.md)
+**Parent Topic:**[Create an epic in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/create-an-epic.md)
 

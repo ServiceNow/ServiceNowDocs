@@ -2,7 +2,7 @@
 title: Domain separation and Workflow
 description: Domain separation is supported in the Workflow application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.Delegated administration allows child domains to inherit workflows from higher up the domain hierarchy and to override them with domain-specific versions if necessary.When a user starts a new workflow, the workflow runs with that user's domain and credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_WorkflowsAndDomainSeparation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/c\_WorkflowsAndDomainSeparation.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -41,7 +41,7 @@ The Workflow Editor displays a workflow's domain in the title bar after the work
 
 \[Omitted image "WorkflowEditorDomain.png"\] Alt text:
 
-**Parent Topic:**[Workflow concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowConcepts.md)
+**Parent Topic:**[Workflow concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowConcepts.md)
 
 **Related topics**  
 

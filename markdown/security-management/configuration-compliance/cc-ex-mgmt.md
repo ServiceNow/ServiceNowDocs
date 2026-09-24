@@ -2,7 +2,7 @@
 title: Configuration Compliance Exception Management overview
 description: When your organization can't comply with a published vulnerability management or security policy, standard, or guideline, you can request an exception. Exception management entails requesting, reviewing, approving, or rejecting exceptions for a remediation task that cannot be remediated according to the policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-ex-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/cc-ex-mgmt.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Configuration Compliance, Unified Security Exposure Manage
 
 When your organization can't comply with a published vulnerability management or security policy, standard, or guideline, you can request an exception. Exception management entails requesting, reviewing, approving, or rejecting exceptions for a remediation task that cannot be remediated according to the policy.
 
-**Important:** Exception management is supported in the [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-request-exception.md).
+**Important:** Exception management is supported in the [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/vr-ws-request-exception.md).
 
 **Note:** Starting with v14.9 of Configuration Compliance, the following terms have been renamed:
 
@@ -43,13 +43,13 @@ The life cycle of an exception is as follows:
 
 As the remediation owner, you can ask for an exemption for a remediation task using the exception management process. During the approval process, the remediation task remains in **In review** state. After the exception approver approves this request, the remediation task moves to a **Deferred** state.
 
-**Important:** You can request an exception from the IT Remediation Workspace. For more information, see [Request an exception in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-request-exception.md).
+**Important:** You can request an exception from the IT Remediation Workspace. For more information, see [Request an exception in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/vr-ws-request-exception.md).
 
 **Approving an exception request**
 
-Remediation tasks that can't be remediated immediately are reviewed, assessed for risk, and approved for deferral until they can be remediated. Approving an exception request can be a two-level workflow. If only the first-level approver is present, the exception can be requested and approved. However, if there's no first-level approver, an exception can't be requested. See [Add an exception approver for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-ex-request-add-approver.md) for more information.
+Remediation tasks that can't be remediated immediately are reviewed, assessed for risk, and approved for deferral until they can be remediated. Approving an exception request can be a two-level workflow. If only the first-level approver is present, the exception can be requested and approved. However, if there's no first-level approver, an exception can't be requested. See [Add an exception approver for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/cc-ex-request-add-approver.md) for more information.
 
-**Important:** You can approve or reject an exception request from the Vulnerability Manager Workspace. For more information, see [Request exceptions for remediation tasks and records in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md).
+**Important:** You can approve or reject an exception request from the Vulnerability Manager Workspace. For more information, see [Request exceptions for remediation tasks and records in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md).
 
 **Note:**
 
@@ -75,7 +75,7 @@ When an exception request for a remediation task expires, the remediation task r
 **Related topics**  
 
 
-[Configure Exception Management for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exp-mngmt-vr.md)
+[Configure Exception Management for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exp-mngmt-vr.md)
 
-[Specify the duration of an exception requested for a remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ex-req-sysprop.md)
+[Specify the duration of an exception requested for a remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-ex-req-sysprop.md)
 

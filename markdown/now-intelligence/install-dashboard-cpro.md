@@ -2,7 +2,7 @@
 title: Install the Chief Procurement Officer Dashboard
 description: The Chief Procurement Officer Dashboard provides key insights around the procurement process of your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-cpro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/install-dashboard-cpro.html
 release: australia
 topic_type: task
 last_updated: "2026-07-31"
@@ -18,7 +18,7 @@ The Chief Procurement Officer Dashboard provides key insights around the procure
 
 Role required: admin, platform\_analytics\_admin, sn\_cpro\_dashboard.admin
 
-Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/duplicate-db.md).
 
 **Note:** The CPRO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications:
 

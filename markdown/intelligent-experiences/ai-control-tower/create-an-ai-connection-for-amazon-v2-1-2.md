@@ -2,7 +2,7 @@
 title: Create an AI connection for Amazon \(v2.1.2\)
 description: Create an AI connection for Amazon in AI Control Tower using the AI Service Graph Connector for Amazon \(version 2.1.2\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-amazon-v2-1-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-amazon-v2-1-2.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

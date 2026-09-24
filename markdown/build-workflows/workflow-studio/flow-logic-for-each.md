@@ -2,7 +2,7 @@
 title: For Each flow logic
 description: Apply one or more actions to each record in a list of records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-for-each.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-logic-for-each.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -20,7 +20,7 @@ The **For Each** flow logic applies one or more actions to a list of records. Th
 
 **Note:** When you set a data pill value from inside a For each item branch of flow logic, the data pill value is only available to other actions in the same branch. Referencing a data pill value that was set inside a For each branch from outside of the flow logic branch produces a null value.
 
-Iterating over a large number of records can be resource intensive, especially when the For Each logic block includes complex actions for each iteration. To avoid performance issues, turn off reporting using the **com.snc.process\_flow.reporting.level** system property. For more information, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
+Iterating over a large number of records can be resource intensive, especially when the For Each logic block includes complex actions for each iteration. To avoid performance issues, turn off reporting using the **com.snc.process\_flow.reporting.level** system property. For more information, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-designer-system-properties.md).
 
 ## Inputs
 
@@ -28,7 +28,7 @@ Iterating over a large number of records can be resource intensive, especially w
 
     Data type: **Records**
 
-    List of Sys ID values or Records data pill specifying the records to process in sequence. You can use a Look Up Records action to generate a list of records. For more information, see [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-records-flow-designer.md).
+    List of Sys ID values or Records data pill specifying the records to process in sequence. You can use a Look Up Records action to generate a list of records. For more information, see [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-records-flow-designer.md).
 
     **Note:** If you want to process items in a particular order, you must first sort the items in this input in advance. For example, use the Order by option to sort the results of a Look Up Records action.
 
@@ -41,7 +41,7 @@ Iterating over a large number of records can be resource intensive, especially w
 
     Current record in the loop.
 
-    **Note:** By default, all flow loops only store execution details for the first and last iterations of a loop. To report on all iterations of a loop, create a flow execution setting record for each flow that you want to collect loop execution details. For more information about flow execution settings, see [Flow execution settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-settings.md).
+    **Note:** By default, all flow loops only store execution details for the first and last iterations of a loop. To report on all iterations of a loop, create a flow execution setting record for each flow that you want to collect loop execution details. For more information about flow execution settings, see [Flow execution settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-settings.md).
 
 
 ## Send an email for each configuration item potentially affected by a change
@@ -71,7 +71,7 @@ Use these general guidelines with a For Each flow logic.
     Avoid nested For Each loops that process many records. Nested loops may cause the flow to run until it is stopped by the flow transaction quota rule, which prevents flows from running longer than an hour. For more information about transaction quotas, see [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TransactionQuotas.md).
 
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

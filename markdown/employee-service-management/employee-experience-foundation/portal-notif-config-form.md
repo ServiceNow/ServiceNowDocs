@@ -2,7 +2,7 @@
 title: Portal notification configuration form
 description: The portal notification configurations form enables you to create a unified notification system for your preferred portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/portal-notif-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/portal-notif-config-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -118,7 +118,7 @@ Card actions: Types of card actions available for notifications.-   Mark as read
 -   Clear notification: Clears all notifications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

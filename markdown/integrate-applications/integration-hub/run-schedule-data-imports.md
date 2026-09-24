@@ -2,7 +2,7 @@
 title: Run or schedule a data import
 description: Specify when to run a data import by creating a schedule. Schedule an import to run at a specific time, at regular intervals, or after a parent import. You can also run your import immediately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/run-schedule-data-imports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/run-schedule-data-imports.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,7 +18,7 @@ Specify when to run a data import by creating a schedule. Schedule an import to 
 
 ## Before you begin
 
-[Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-data-source.md), then [Map source data to a target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/map-source-data-target.md).
+[Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-data-source.md), then [Map source data to a target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/map-source-data-target.md).
 
 Role required: admin or ih\_import.
 
@@ -175,5 +175,5 @@ Number of records for the partition size. Must be greater than or equal to 1000.
 
 Your import will run at the scheduled time. After it runs, an Executions section appears on the Run and schedule imports page. The Execution section has execution records where you can view details about your import, including its runtime, the number of imported rows, and any errors or log messages.
 
-**Parent Topic:**[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
+**Parent Topic:**[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integrationhub-imports.md)
 

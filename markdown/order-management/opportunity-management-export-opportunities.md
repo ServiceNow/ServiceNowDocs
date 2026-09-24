@@ -2,7 +2,7 @@
 title: Export opportunities
 description: You can export an opportunity as a JSON file in Opportunity Management and provide it to a customer. The export opportunity feature in Opportunity Management exports a list of all opportunities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-export-opportunities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management-export-opportunities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Role required: sales\_agent
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

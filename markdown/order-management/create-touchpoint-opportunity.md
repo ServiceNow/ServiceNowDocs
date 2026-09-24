@@ -2,7 +2,7 @@
 title: Create a touchpoint from an opportunity
 description: Create a touchpoint to log a customer interaction directly from an opportunity record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-touchpoint-opportunity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-touchpoint-opportunity.html
 release: australia
 topic_type: task
 last_updated: "2026-06-12"
@@ -59,9 +59,9 @@ To view all touchpoints for the opportunity, select the **Touchpoints** tab.
 **Related topics**  
 
 
-[Create a touchpoint from a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-touchpoint-lead.md)
+[Create a touchpoint from a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-touchpoint-lead.md)
 
-[Create new CRM touchpoint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-touchpoint-form.md)
+[Create new CRM touchpoint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-crm-touchpoint-form.md)
 
-[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-crm-touchpoints.md)
+[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-crm-touchpoints.md)
 

@@ -2,7 +2,7 @@
 title: Configure Walk-up Experience customer satisfaction surveys
 description: With Walk-up Experience surveys, requesters can rate their satisfaction with walk-up location interactions and provide feedback to improve the Walk-up Experience application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/walkup-survey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/walkup-survey.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -28,8 +28,8 @@ Walk-up administrators and managers can modify these surveys and the associated 
 
 For more information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see [Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessments-surveys-landing-page.md).
 
--   **[Create or modify a Walk-up Experience customer satisfaction survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/configure-walkup-csat-survey.md)**  
+-   **[Create or modify a Walk-up Experience customer satisfaction survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/configure-walkup-csat-survey.md)**  
 Improve your **Walk-up Experience** operations and customer service by using surveys and monitoring survey results. Walk-up surveys capture important information from users about the interaction experience provided to them at the venue.
 
-**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

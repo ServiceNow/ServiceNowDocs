@@ -2,7 +2,7 @@
 title: Create a survey designer template question
 description: You can create a question that uses choice lists from a template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateASurveyDesignerTemplateQ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreateASurveyDesignerTemplateQ.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin or survey\_admin
 
 ## About this task
 
-For more information about the template, see [Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestionTemplate.md).
+For more information about the template, see [Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyQuestionTemplate.md).
 
 ## Procedure
 
@@ -53,7 +53,7 @@ For more information about the template, see [Survey question template](https://
 9.  Click the **X** icon to close the template properties dialog box and save your settings.
 
 
-**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
@@ -90,9 +90,9 @@ For more information about the template, see [Survey question template](https://
 
 [Legacy survey migration]()
 
-[Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesignerElements.md)
+[Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDesignerElements.md)
 
-[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
+[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDesigner.md)
 
-[Edit a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_EditASurveyInTheSurveyDesigner.md)
+[Edit a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_EditASurveyInTheSurveyDesigner.md)
 

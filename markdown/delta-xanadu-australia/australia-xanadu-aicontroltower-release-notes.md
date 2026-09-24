@@ -2,10 +2,10 @@
 title: Combined AI Control Tower release notes for upgrades from Xanadu to Australia
 description: Consolidated page of all release notes for AI Control Tower from Xanadu to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-aicontroltower-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-aicontroltower-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 22
 breadcrumb: [Products combined by family]
 ---
@@ -856,5 +856,5 @@ Previously, the URL format was:
  For more information on the legacy AI Control Tower experience, see [AI Governance \(legacy\)](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-xanadu-australia/rn-combined-intro.md)
 

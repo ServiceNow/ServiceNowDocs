@@ -2,7 +2,7 @@
 title: Access Customer Central
 description: Access Customer Central to get a quick overview of key customer information. This information helps you learn more about a customer who contacts support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/access-customer-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/access-customer-central.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

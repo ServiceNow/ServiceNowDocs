@@ -2,7 +2,7 @@
 title: Record time worked for a task manually using the Mobile Agent application
 description: Record time worked on a work order task or asset task manually and provide any additional comments on the task using the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/record-time-worked-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/record-time-worked-manually.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -61,7 +61,7 @@ You can record time for a work order task or an asset task that is in progress.
 
 The Time worked form is saved and the time card is added to the Time worked list.
 
-**Parent Topic:**[Record time worked on a task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-time-mobile-agent-app.md)
+**Parent Topic:**[Record time worked on a task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-time-mobile-agent-app.md)
 
 **Related topics**  
 

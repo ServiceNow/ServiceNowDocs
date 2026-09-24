@@ -2,7 +2,7 @@
 title: Evaluation flow
 description: The workflow for evaluation execution, which performs evaluations when conversations are completed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-eval-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-eval-flow.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

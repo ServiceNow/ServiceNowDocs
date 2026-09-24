@@ -2,7 +2,7 @@
 title: Get started with credentials
 description: The MID Server uses the credentials you create in the Credentials \[discovery\_credentials\] table to access resources for Discovery, Orchestration, Service Mapping, and Cloud Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/credentials-getting-started.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/credentials-getting-started.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -38,7 +38,7 @@ When the MID Server requests credentials, the ServiceNow AI Platform decrypts th
 
 ## Credential order
 
-Credentials can be assigned an order value in the [Credentials Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md), which forces the application to try all the credentials at their disposal in a certain sequence. If you do not specify an order value, the application tries the credentials in the Credentials \[discovery\_credential\] table randomly, until it finds one that works. For example, when:
+Credentials can be assigned an order value in the [Credentials Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md), which forces the application to try all the credentials at their disposal in a certain sequence. If you do not specify an order value, the application tries the credentials in the Credentials \[discovery\_credential\] table randomly, until it finds one that works. For example, when:
 
 -   Orchestration attempts to run a command on an SSH server, such as a Linux or a UNIX machine.
 -   Discovery attempts to query an SNMP device, such as a printer, router, or UPS.
@@ -54,13 +54,13 @@ Ordering credentials is useful in the following situations:
 
 ## Credential aliases
 
-Credential aliases are available for [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md) and [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md).
+Credential aliases are available for [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/discovery-credential-alias.md) and [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md).
 
 Aliases for Discovery enable an administrator to:
 
 -   Employ a credential filtering behavior with configurable levels of compliance.
 -   Assign multiple credential aliases to a Discovery schedule.
--   Prevent the creation of credential affinities that use inappropriate or sensitive credentials. To learn more, see [credential affinities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CredentialAffinity.md).
+-   Prevent the creation of credential affinities that use inappropriate or sensitive credentials. To learn more, see [credential affinities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/c_CredentialAffinity.md).
 
 Aliases for Orchestration enable workflow creators to:
 
@@ -71,5 +71,5 @@ Aliases for Orchestration enable workflow creators to:
 
 ## External credential stores
 
-If you do not want credentials stored in your instance, you can use external credential repositories. External credential stores save the credentials in an external site that your instance can access. [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md) is the only supported external credential store. However, other external stores can be configured using the ServiceNow API.
+If you do not want credentials stored in your instance, you can use external credential repositories. External credential stores save the credentials in an external site that your instance can access. [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md) is the only supported external credential store. However, other external stores can be configured using the ServiceNow API.
 

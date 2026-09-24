@@ -2,12 +2,12 @@
 title: Install Build Agent
 description: For the Premium version of Build Agent, install the ServiceNow Otto for Creator application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/install-build-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/install-build-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-07-27"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -20,7 +20,7 @@ For the Premium version of Build Agent, install the ServiceNow Otto for Creator 
 The Premium version of Build Agent is part of ServiceNow Otto for Creator, and is a ServiceNow AI Platform® feature that's activated by default when ServiceNow Otto for Creator is installed. You don't need an entitlement to start exploring Build Agent.
 
 -   Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   You can use Build Agent on a Personal Development Instance \(PDI\) or in Developer Sandboxes. For more information, see [Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-build-agent.md).
+-   You can use Build Agent on a Personal Development Instance \(PDI\) or in Developer Sandboxes. For more information, see [Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/access-build-agent.md).
 -   Build Agent supports the following models:
     -   Azure OpenAI 5.4
     -   Azure OpenAI 5.5
@@ -35,7 +35,7 @@ Role required: admin
 
 ## About this task
 
-Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other ServiceNow Otto products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences. For more information, see [Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-use-app-gen-skill.md).
+Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other ServiceNow Otto products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences. For more information, see [Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-use-app-gen-skill.md).
 
 **Note:** The trial app was formerly called "Build Agent" and has been renamed to "Build Agent \(Trial\)."
 
@@ -62,10 +62,10 @@ Build Agent is enabled by default to create apps with AI, for example in Service
     The skill is enabled for all users.
 
 
-**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-build-agent.md)
 
 **Related topics**  
 
 
-[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 

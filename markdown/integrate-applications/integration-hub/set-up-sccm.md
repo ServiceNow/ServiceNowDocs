@@ -2,7 +2,7 @@
 title: Set up the Microsoft SCCM spoke
 description: Integrate the ServiceNow instance and SCCM using Windows credentials to authenticate ServiceNow requests.Create a Credential record to the SCCM server. The SCCM spoke connection and credential alias uses this credential to authorize actions.Create a Connection record to your SCCM host machine. The SCCM spoke connection and credential alias uses this connection to perform actions in SCCM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-sccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-sccm.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -66,7 +66,7 @@ Create a Connection record to your SCCM host machine. The SCCM spoke connection 
 ### Before you begin
 
 -   Request Integration Hub subscription
--   [Create Credential record for the SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-sccm.md)
+-   [Create Credential record for the SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-sccm.md)
 -   Role required: admin
 
 ### Procedure

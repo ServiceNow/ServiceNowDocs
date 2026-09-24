@@ -2,7 +2,7 @@
 title: Client software distribution validation process
 description: After SCCM deploys software to a target computer, client software distribution \(CSD\) detects the installation and validates its status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/c\_ClientSWDistValidProcess.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/c\_ClientSWDistValidProcess.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -26,5 +26,5 @@ The instance uses the data gathered by Discovery or the SCCM integration plugin 
 -   **Not installed** to **Installed**: The user has installed the requested software within the time limit configured in the **sn\_client\_sf\_dist.softwareInstallExpDays** property.
 -   **Not installed** to **Status check expired**: The time limit has expired for the user to install the requested software. The system stops checking for installation when the time limit expires.
 
-**Parent Topic:**[Client software distribution from SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_CSDFromAnSCCMHost.md)
+**Parent Topic:**[Client software distribution from SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_CSDFromAnSCCMHost.md)
 

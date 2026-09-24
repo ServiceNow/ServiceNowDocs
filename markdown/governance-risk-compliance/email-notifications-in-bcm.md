@@ -2,7 +2,7 @@
 title: Email notifications in Business Continuity Management
 description: Email notifications are sent by the Business Continuity Management \(BCM\) application at different points in the Business Impact Analysis, planning, exercise, and crisis management lifecycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/email-notifications-in-bcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/email-notifications-in-bcm.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-24"
@@ -167,5 +167,5 @@ Recipient: Not a stored field. Recipients are computed at send time: either the 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-reference.md)
+**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-reference.md)
 

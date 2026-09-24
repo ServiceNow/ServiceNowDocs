@@ -2,7 +2,7 @@
 title: Migration upgrade prerequisites
 description: Before you install the required applications for Security Exposure Management Workspace, review the following information and setup tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-install-prerequisites.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-install-prerequisites.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Security Exposure Management supports the following applications:
     2.  Open an integration record.
     3.  Locate the integration instances related list and open a record.
     4.  Clear the Active flag and save \(Update\) the record.
--   You must deactivate the scheduled jobs and scheduled jobs within integration-specific scopes for the Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response, and Configuration Compliance applications. For a list of scheduled jobs you must deactivate, see [Migration upgrade reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-migration-prereq-reference-data.md).
+-   You must deactivate the scheduled jobs and scheduled jobs within integration-specific scopes for the Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response, and Configuration Compliance applications. For a list of scheduled jobs you must deactivate, see [Migration upgrade reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-migration-prereq-reference-data.md).
 
     To deactivate scheduled jobs:
 
@@ -46,7 +46,7 @@ Security Exposure Management supports the following applications:
     2.  Open a record.
     3.  Clear the Active flag and save \(Update\) the record.
 
-After you have completed the deactivation of scheduled jobs and third-party integrations, upgrade plugins in sequential order to migrate to USEM. See [Download and activate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-install-required-applications.md) for more information.
+After you have completed the deactivation of scheduled jobs and third-party integrations, upgrade plugins in sequential order to migrate to USEM. See [Download and activate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-install-required-applications.md) for more information.
 
 1.  Vulnerability Response \(This will upgrade all the dependent plugins shown in the flow chart\)
 2.  Configuration Compliance

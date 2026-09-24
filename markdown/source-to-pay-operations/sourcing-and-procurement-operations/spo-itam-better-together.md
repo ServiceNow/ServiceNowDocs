@@ -2,7 +2,7 @@
 title: Sourcing and Procurement Operations integration with Asset Management
 description: The Asset Management Integration for Sourcing and Procurement Operations plugin \(sn\_spend\_asset\) provides an integration between Asset Management \(Asset Management\) and Sourcing and Procurement Operations \(SPO\) applications, enhancing operational efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -95,16 +95,16 @@ The Asset Management and SPO better together feature supports the following appl
     -   Hardware, Software, and Enterprise Asset Standard Flows
     -   Hardware and Enterprise Inventory Stock Orders
 
--   **[Create Sourcing Request or Purchase Requisition in SPO via Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md)**  
+-   **[Create Sourcing Request or Purchase Requisition in SPO via Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md)**  
 As an Asset Manager, you can create an SR or PR in SPO from the Asset Management Workspace to fulfill asset requests submitted through Employee Center.
--   **[Receiving assets in Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-receiving-assets.md)**  
+-   **[Receiving assets in Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-receiving-assets.md)**  
 As part of the Better Together integration, all asset receiving is handled within ServiceNow's Asset Management product suite. When an item is initially received in Asset Management, a receipt is automatically generated in SPO in the Pending Submission state.
--   **[Asset creation process in Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-asset-creation.md)**  
+-   **[Asset creation process in Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-asset-creation.md)**  
 In ServiceNow's Asset Management product suite, assets are created when you acknowledge the receipt of the requested items.
--   **[Considerations for implementing the Asset Management and SPO better together flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-key-consideration.md)**  
+-   **[Considerations for implementing the Asset Management and SPO better together flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-key-consideration.md)**  
 This section provides information on considerations for implementing the Asset Management and SPO better together solution.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 

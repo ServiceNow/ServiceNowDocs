@@ -2,7 +2,7 @@
 title: Associate an interaction with a finance case
 description: Associate an interaction record to a finance case, if the interaction is related to an existing finance case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/associate-interaction-with-finance-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/associate-interaction-with-finance-case.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -41,12 +41,12 @@ Role required: sn\_fin\_ops.specialist
 
 7.  On the Create New Interaction Related Record form, fill in the fields.
 
-    For more information on the form fields and descriptions, see [Create new interaction related record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/create-interaction-related-record-form.md).
+    For more information on the form fields and descriptions, see [Create new interaction related record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/create-interaction-related-record-form.md).
 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Interaction management in Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/interaction-mgmt-fin-ops.md)
+**Parent Topic:**[Interaction management in Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/interaction-mgmt-fin-ops.md)
 
 **Related topics**  
 

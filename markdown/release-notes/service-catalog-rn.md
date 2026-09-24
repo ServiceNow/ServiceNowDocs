@@ -2,7 +2,7 @@
 title: Service Catalog release notes
 description: The ServiceNow Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Australia release.The ServiceNow Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/service-catalog-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/service-catalog-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     Service Catalog is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-capabilities-rn-landing.md)
 
 ## Australia
 

@@ -2,7 +2,7 @@
 title: Track and manage team schedule
 description: Create, update, or monitor your teams' schedule from one location. You can approve or reject requests for swapping shifts or time off for agents within your assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/track-team-schedule-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/track-team-schedule-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -60,5 +60,5 @@ Using the calendar, you can do the following:
     If you approve the request, the schedule gets updated in the team calendar based on the approvals.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
 

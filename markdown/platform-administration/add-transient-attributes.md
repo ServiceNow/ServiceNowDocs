@@ -2,7 +2,7 @@
 title: Add transient attributes to a record
 description: Store transient attributes and their values on a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/add-transient-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/add-transient-attributes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -81,7 +81,7 @@ gr.query();
 
 ## What to do next
 
-Decide whether to create formal definitions for each attribute. Providing a formal definition makes the attribute non-transient and allows you to modify its behavior. To provide this definition, navigate to the dynamic namespace record the store field is configured with and create a dynamic attribute record using the name of the attribute you wish to modify. See [Create a dynamic attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/add-dynamic-attributes.md).
+Decide whether to create formal definitions for each attribute. Providing a formal definition makes the attribute non-transient and allows you to modify its behavior. To provide this definition, navigate to the dynamic namespace record the store field is configured with and create a dynamic attribute record using the name of the attribute you wish to modify. See [Create a dynamic attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/add-dynamic-attributes.md).
 
 Note that modifying the definition of an attribute doesn't modify any data stored for that attribute. Rather, it simply modifies how the system interacts with that data. For example, attributes defined as strings sort differently than when defined as integers.
 

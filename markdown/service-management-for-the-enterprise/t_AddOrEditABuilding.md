@@ -2,7 +2,7 @@
 title: Add or edit a building
 description: Buildings are assigned to campuses with a unique name, and contain floors or levels, a location, and utilization thresholds.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_AddOrEditABuilding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_AddOrEditABuilding.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -125,7 +125,7 @@ Area unit
 
 Select the unit used for defining the space size: square feet or square meters.
 
- **Note:** The **Area unit** assigned to all spaces must be consistent for the roll-up calculations to work properly. See [Space roll up calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_SpaceRollupCalculations.md).
+ **Note:** The **Area unit** assigned to all spaces must be consistent for the roll-up calculations to work properly. See [Space roll up calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_SpaceRollupCalculations.md).
 
 </td></tr><tr><td>
 
@@ -213,5 +213,5 @@ Action
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_Manually-builtMaps.md)
+**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_Manually-builtMaps.md)
 

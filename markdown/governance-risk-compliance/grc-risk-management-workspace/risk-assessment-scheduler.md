@@ -2,7 +2,7 @@
 title: Manage risk assessment scheduler
 description: Create a risk assessment scheduler and assign it to the risk manager. A risk manager can then identify the entities and the risks within the entities for bulk initiation of risk assessments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-scheduler.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-scheduler.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -29,10 +29,10 @@ The following figure shows the states, the descriptions, and the expected outcom
 
 \[Omitted image "risk\_assessment\_scheduler.png"\] Alt text: The complete life cycle of the risk assessment scheduler
 
-**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
+**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
 
 **Related topics**  
 
 
-[Schedule risk assessments in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/schedule-risk-assessment-workspace.md)
+[Schedule risk assessments in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/schedule-risk-assessment-workspace.md)
 

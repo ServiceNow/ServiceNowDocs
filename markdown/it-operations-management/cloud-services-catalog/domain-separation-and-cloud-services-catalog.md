@@ -2,7 +2,7 @@
 title: Domain separation and Cloud Services Catalog
 description: Domain separation is supported in Cloud Services Catalog. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/domain-separation-and-cloud-services-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-services-catalog/domain-separation-and-cloud-services-catalog.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -53,9 +53,9 @@ Domain separation recommendations in Cloud Services Catalog:
 
 ## Next steps
 
-For more information on how domain separation works in Cloud Provisioning and Governance, visit [Domain separation and Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/domain-separation-cloud-management.md).
+For more information on how domain separation works in Cloud Provisioning and Governance, visit [Domain separation and Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/domain-separation-cloud-management.md).
 
-**Parent Topic:**[CSC references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/csc-reference.md)
+**Parent Topic:**[CSC references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/csc-reference.md)
 
 **Related topics**  
 

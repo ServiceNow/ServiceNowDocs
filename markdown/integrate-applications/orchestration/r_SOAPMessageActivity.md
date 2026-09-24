@@ -2,7 +2,7 @@
 title: SOAP Message workflow activity
 description: The SOAP Message activity uses SOAP messages defined in the System Web Services plugin and can call the messages using a MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_SOAPMessageActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/r\_SOAPMessageActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -121,5 +121,5 @@ sensor\_script
 The script to execute after the request has been made and a response has been received. You can access the full XML response body from the activity.output object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)
+</table>**Parent Topic:**[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)
 

@@ -2,7 +2,7 @@
 title: Mobile web UI
 description: Access an instance using the browser on your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/c\_MobileWebUI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/c\_MobileWebUI.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ The following capabilities are not currently supported in mobile browsers, thoug
 -   Data lookup rules
 -   Custom auto-complete scripts
 
-**Parent Topic:**[Accessing an instance on a mobile device web browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-access-options.md)
+**Parent Topic:**[Accessing an instance on a mobile device web browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-access-options.md)
 

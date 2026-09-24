@@ -2,7 +2,7 @@
 title: Line breaks in email notifications and rich HTML
 description: Rich HTML provides additional control over line breaks in your email notifications and templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_HandlingLineBreaks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_HandlingLineBreaks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ If an email notification or template is not converted to rich HTML, newlines are
 
 When writing new scripts, insert explicit HTML line breaks and clear the **Newlines to HTML** check box so that no HTML tags are injected when email notifications are generated. For existing notifications and templates, replace template.print\("\\n"\) JavaScript function calls with template.print\("&lt;br /&gt;"\). This replacement gives you better control over the HTML formatting of your email notifications.
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateANotification.md)
 

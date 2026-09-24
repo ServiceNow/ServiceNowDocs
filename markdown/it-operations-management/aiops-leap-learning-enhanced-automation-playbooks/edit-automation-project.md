@@ -2,12 +2,12 @@
 title: Edit an Automation Project
 description: Edit an Automation Project configuration when the analysis job is in ready status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/edit-automation-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/edit-automation-project.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [automation project, LEAP configuration]
 breadcrumb: [Manage automation projects, Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]

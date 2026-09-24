@@ -2,7 +2,7 @@
 title: Set document permissions
 description: Grant role-based or user-based read and write permissions on a document in the Documents panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/set-document-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/set-document-permissions.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -22,7 +22,7 @@ Role required: sn\_grc\_workspace.admin
 
 ## About this task
 
-For more information on the two types of permissions, see [Manage document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/manage-document-permissions.md).
+For more information on the two types of permissions, see [Manage document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/manage-document-permissions.md).
 
 ## Procedure
 

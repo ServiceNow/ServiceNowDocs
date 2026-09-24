@@ -2,7 +2,7 @@
 title: Activate Content engagement
 description: You can activate the Content Engagement \[sn\_ce\] plugin if you have the admin role to enable employee engagement activities \(reaction icons, comments, or sharing content\) with portal and mobile content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/installing-content-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/installing-content-engagement.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ You can activate the Content Engagement \[sn\_ce\] plugin if you have the admin 
 
 Role required: admin
 
-Activate the Content Publishing \[sn\_cd\] plugin: [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-delivery-plugin.md)
+Activate the Content Publishing \[sn\_cd\] plugin: [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-content-delivery-plugin.md)
 
 ## Procedure
 
@@ -40,7 +40,7 @@ Activate the Content Publishing \[sn\_cd\] plugin: [Activate Content Publishing]
 **Related topics**  
 
 
-[Components installed with Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/installed-content-engagement.md)
+[Components installed with Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/installed-content-engagement.md)
 
-[Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
+[Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
 

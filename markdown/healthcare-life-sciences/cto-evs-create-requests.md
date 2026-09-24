@@ -2,7 +2,7 @@
 title: Creating service requests for Care Team Operations for Environmental Services
 description: Use Care Team Operations for Environmental Services to report environmental services issues using Care Team Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-create-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-create-requests.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Components installed with Portfolio Planning
 description: Several types of components are installed with activation of the Portfolio Planning application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/installed-with-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/installed-with-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -398,8 +398,8 @@ com.sn\_align\_cmn\_int.bulk\_import
     -   INSERT
     -   &lt;Value 2 name&gt;:
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Configure bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-bulk-import.md)
+-   Learn more: [Configure bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configure-bulk-import.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
+</table>**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/portfolio-planning-reference.md)
 

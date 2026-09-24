@@ -2,7 +2,7 @@
 title: Create a mobile UI rule action
 description: Create the actions that execute when your mobile UI rule conditions are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/create-mobile-ui-rule-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/create-mobile-ui-rule-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -172,11 +172,11 @@ Use this value to set a background color, font color, and text decorator icon. T
 }
 ```
 
- You can also use color variables to change theming in your mobile UI rules. For details see [Color variable support for UI rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/color-var-ui-rule.md).
+ You can also use color variables to change theming in your mobile UI rules. For details see [Color variable support for UI rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/color-var-ui-rule.md).
 
  **Note:**
 
--   `IconCode` must be replaced with a valid icon code. For a list of icon codes, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md)
+-   `IconCode` must be replaced with a valid icon code. For a list of icon codes, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-icon.md)
 -   Use a JSON validator when copying and pasting JSON code from a topic, to make sure all code is correctly applied.
 
 

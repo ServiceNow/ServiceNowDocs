@@ -2,7 +2,7 @@
 title: Activate Field Service Questionnaire
 description: You can activate the Field Service - Questionnaire plugin \(com.snc.wm\_questionnaire\) for Field Service if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Activate-fsm-questionnaire.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/Activate-fsm-questionnaire.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -52,5 +52,5 @@ Configure the form layout and add the **Assigned to** field to ensure that a que
 **Related topics**  
 
 
-[Create a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-questionnaire-for-work-order.md)
+[Create a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/create-questionnaire-for-work-order.md)
 

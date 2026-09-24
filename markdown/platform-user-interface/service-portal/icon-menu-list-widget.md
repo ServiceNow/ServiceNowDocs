@@ -2,7 +2,7 @@
 title: Icon menu list widget
 description: A simple list with a glyph icon next to each link. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/icon-menu-list-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/icon-menu-list-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -35,7 +35,7 @@ Configure the icon information using the Menu Items related list.
 |Condition|Determines what conditions are required for menu items to show in the header. For more information on what conditions to use in the **Condition** field, see [Create a UI Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md) [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).|
 |Glyph|Icon that you want to display in the icon menu list widget.|
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

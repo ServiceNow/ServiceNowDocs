@@ -2,7 +2,7 @@
 title: Add communication plan in the workbench
 description: You can create a new communication plan or add a new communication task to an existing communication plan from the workbench. This UI action is helpful when you do not have an existing well-defined communication plan in the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/add-comm-plan-from-mim-workbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/add-comm-plan-from-mim-workbench.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -22,7 +22,7 @@ Role required: major\_incident\_manager
 
 ## Procedure
 
-1.  Navigate to [Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-workbench.md).
+1.  Navigate to [Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-workbench.md).
 
 2.  Select the **Communications** tab and then select **Add** that appears in Communication Tasks section to display the Adhoc Communication pop-up window.
 
@@ -68,7 +68,7 @@ Channels
 
 Option for selecting email, SMS, Slack, or conference as the communication method channel for the plan.
 
- **Note:** To use the SMS channel, the Notify plugin \[com.snc.notify\] must be active and configured with a Twilio integration, and a notify number group must be set up. For more information, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-major-incident-management-plugin.md).
+ **Note:** To use the SMS channel, the Notify plugin \[com.snc.notify\] must be active and configured with a Twilio integration, and a notify number group must be set up. For more information, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 </td></tr><tr><td>
 
@@ -88,5 +88,5 @@ Time span when the task must be executed after the task initiates. For recurring
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-workbench.md)
+**Parent Topic:**[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-workbench.md)
 

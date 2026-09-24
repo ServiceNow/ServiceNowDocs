@@ -2,7 +2,7 @@
 title: Configure groups
 description: Configure user groups for Financial Services Operations applications for assignment of cases and tasks. You can assign roles to groups to provide access to all group members or assign roles to individual users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-groups-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-groups-fso.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -59,7 +59,7 @@ Any rule that is applied to a group is automatically assigned to group members. 
 
     Configure agent connector and contributor roles for the group, if required.
 
-    **Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+    **Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 -   Add users to the group.
 -   Associate groups with assignment rules.

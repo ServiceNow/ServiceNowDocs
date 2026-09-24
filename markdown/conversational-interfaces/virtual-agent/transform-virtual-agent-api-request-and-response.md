@@ -2,7 +2,7 @@
 title: Transform Virtual Agent API request and response
 description: You can transform Virtual Agent API request and response into supported formats through the scripted extension points provided in Virtual Agent API.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/transform-virtual-agent-api-request-and-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/transform-virtual-agent-api-request-and-response.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -125,5 +125,5 @@ Role required: admin
     4.  Click **Update**.
 
 
-**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

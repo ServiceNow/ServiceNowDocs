@@ -2,7 +2,7 @@
 title: Exploring AI Readiness Evaluation
 description: The AI Readiness Evaluation app automates assessment processes, evaluates data readiness impacting implementation, and provides actionable insights to promote adopting AI quickly. The app enables you to assess whether updates, installations, or customizations of your instance could affect implementation. The assessments provide direct hyperlinks to improve any issues found.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/exploring-now-assist-readiness-evaluation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-readiness-evaluation/exploring-now-assist-readiness-evaluation.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
@@ -54,7 +54,7 @@ The following list details what generative AI Now Assist products are evaluated 
 
     This feature analyzes customizations in the HR Core Case and Task tables, tracking field-level changes and promoting data completeness for critical fields. The assessment provides insights into historical HR Core cases, including field population percentages, to enhance data accuracy in HRSD processes. Additionally, the feature identifies estimated remediation efforts required and reports the languages used within the instance.
 
-    **Note:** Additional configuration is needed to run the HRSD assessment successfully. For more information, see [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
+    **Note:** Additional configuration is needed to run the HRSD assessment successfully. For more information, see [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
 
 
 ## AI Readiness Evaluation users
@@ -67,17 +67,17 @@ The following list details what generative AI Now Assist products are evaluated 
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Run scheduled jobs for applicable agentic and generative AI products from a single assessment job.|[Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md)|Admins|
-|Review an overall dashboard of your issues before implementing agentic and generative AI.|[Using AI Readiness Evaluation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation-dashboard.md)|Admins|
-|View your overall go or no-go status to implement generative AI skills or agentic AI agents, and view the go or no-go status' issues categorized by percentage.|[Assessing readiness status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/assessing-go-no-go.md)|Admins|
-|Review summary information of overall implementation readiness.|[Reviewing your AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
-|Improve the gaps for implementation by using the hyperlinks found in the assessments to fix issues. Direct hyperlinks to records and tables make it easier to validate, investigate, or act without switching contexts.|[Reviewing your AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
-|Receive an estimated remediation effort of development work days to fix issues before implementation.|[Reviewing your AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
+|Run scheduled jobs for applicable agentic and generative AI products from a single assessment job.|[Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md)|Admins|
+|Review an overall dashboard of your issues before implementing agentic and generative AI.|[Using AI Readiness Evaluation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation-dashboard.md)|Admins|
+|View your overall go or no-go status to implement generative AI skills or agentic AI agents, and view the go or no-go status' issues categorized by percentage.|[Assessing readiness status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/assessing-go-no-go.md)|Admins|
+|Review summary information of overall implementation readiness.|[Reviewing your AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
+|Improve the gaps for implementation by using the hyperlinks found in the assessments to fix issues. Direct hyperlinks to records and tables make it easier to validate, investigate, or act without switching contexts.|[Reviewing your AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
+|Receive an estimated remediation effort of development work days to fix issues before implementation.|[Reviewing your AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
 
 ## What to explore next
 
 To learn more about configuring and using the Now Assist Readiness Evaluation app, see:
 
--   [Configuring AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)
--   [Using AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)
+-   [Configuring AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)
+-   [Using AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)
 

@@ -2,7 +2,7 @@
 title: Publish a contract template
 description: Publish a contract template to make it available for generating a standard contract document with predefined content when a contract user submits a request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-publish-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-publish-template.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +18,7 @@ Publish a contract template to make it available for generating a standard contr
 
 ## Before you begin
 
-Ensure that the clause mapping has been completed before you publish a contract template with clauses. For more information, see [Complete clause mapping to build a clause library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-clause-map-addin.md) and [Classify and map imported clauses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-import-clauses.md).
+Ensure that the clause mapping has been completed before you publish a contract template with clauses. For more information, see [Complete clause mapping to build a clause library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-clause-map-addin.md) and [Classify and map imported clauses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-import-clauses.md).
 
 Role required: sn\_cm\_core.contract\_config
 
@@ -32,7 +32,7 @@ Role required: sn\_cm\_core.contract\_config
 
     1.  Generate and preview the contract document.
 
-        For more information, see [Generate and preview a contract document from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-preview-template.md).
+        For more information, see [Generate and preview a contract document from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-preview-template.md).
 
     2.  If any changes are necessary, update the document and save it.
 
@@ -47,7 +47,7 @@ The contract template is published.
 
 **Note:** If the contract type associated with the contract template is deactivated when the contract template is in the Draft or Editing state, an error is displayed when you try to publish the template.
 
-**Parent Topic:**[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-document-templates.md)
+**Parent Topic:**[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-document-templates.md)
 
 **Related topics**  
 

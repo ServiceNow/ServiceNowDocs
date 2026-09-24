@@ -2,7 +2,7 @@
 title: Configure case digests
 description: The Case Digests application enables you to provide periodic updates and resolution information about high priority customer service cases to customers and internal stakeholders. You can install the Case Digests application \(com.sn\_csm\_case\_digest\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-case-digests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-case-digests.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -57,7 +57,7 @@ Create Assignment Rules
 
 Assignment rules automatically assign tasks to users and groups when the rule conditions are met. Two rules are provided with the case digests feature that assigns the post case review and case action summary records to the case agent:-   Auto- assign the CAS to case agent
 -   Auto- assign the PCR to case agent
- For more information, see [Case action summary and post case review assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-digests-assignment-rules.md).
+ For more information, see [Case action summary and post case review assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-digests-assignment-rules.md).
 
 </td></tr><tr><td>
 
@@ -100,5 +100,5 @@ Create the mapping that identifies the case type fields that are copied to post 
 **Related topics**  
 
 
-[Customer Service case digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-digests.md)
+[Customer Service case digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-case-digests.md)
 

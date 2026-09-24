@@ -2,7 +2,7 @@
 title: Configure self-registration for external users
 description: Configure self-registration for external users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -82,7 +82,7 @@ Ensure that you have activated the com.snc.external\_user\_self\_registration pl
     **Note:**
 
     -   The **Supplier name** field has been added in the Xanadu December 2024 upgrade. To enable and register this field, customize the registration form by adding the new supplier field with field label: Supplier name and column name: u\_supplier\_name. For more information, see [Configure a user registration configuration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/external-user-configuration.md).
-    -   If you need to add a supplier contact whose email domain differs from the supplier's domain, you must also [Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md).
+    -   If you need to add a supplier contact whose email domain differs from the supplier's domain, you must also [Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md).
 17. In the Variables related list, select and open the **First name**, **Last name**, **Email**, and **Supplier name** records individually.
 
 18. In the First name variable record, select the **Mandatory** check box and select **Save**.
@@ -146,31 +146,31 @@ Ensure that you have activated the com.snc.external\_user\_self\_registration pl
 
 Do the following:
 
--   Configure the sn\_supplier.external\_registration\_profile\_id system property to ensure that registration emails are sent to external users. For more information, see [Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md).
--   Configure the Vendor Contact table to send emails to contacts during self-registration. For more information, see [Configure the Vendor Contact table to send invitation emails during self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-vendor-contact-table.md).
--   If you do this task after installing the Supplier Collaboration Portal, map the external user registration configuration that you just created to the Supplier Collaboration Portal. For more information, see [Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md).
+-   Configure the sn\_supplier.external\_registration\_profile\_id system property to ensure that registration emails are sent to external users. For more information, see [Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md).
+-   Configure the Vendor Contact table to send emails to contacts during self-registration. For more information, see [Configure the Vendor Contact table to send invitation emails during self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-vendor-contact-table.md).
+-   If you do this task after installing the Supplier Collaboration Portal, map the external user registration configuration that you just created to the Supplier Collaboration Portal. For more information, see [Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md).
 
--   **[Configure the flow to create approval records for all supplier contact invite requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/invite-contact-approval.md)**  
+-   **[Configure the flow to create approval records for all supplier contact invite requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/invite-contact-approval.md)**  
 Typically, an approval record is created only when a supplier contact self-registers to get access to the Supplier Collaboration Portal. However, a supplier admin can configure the Supplier Contact Onboarding flow to create approval records even when a supplier manager adds or invites a new supplier contact.
--   **[Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md)**  
+-   **[Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md)**  
 Map the external user self-registration configuration to the Supplier Collaboration Portal.
--   **[Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md)**  
+-   **[Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md)**  
 Configure the sn\_supplier.external\_registration\_profile\_id system property to ensure that registration emails are sent to external users for accessing the Supplier Collaboration Portal.
--   **[Configure the Vendor Contact table to send invitation emails during self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-vendor-contact-table.md)**  
+-   **[Configure the Vendor Contact table to send invitation emails during self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-vendor-contact-table.md)**  
 Configure the Vendor Contact \[vm\_vdr\_contact\] table to send invitation emails to supplier contacts during the self-registration process.
--   **[Enable notifications about self-registration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-supp-admin-emails.md)**  
+-   **[Enable notifications about self-registration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/enable-supp-admin-emails.md)**  
 Add the sn\_slm.admin role to the groups to enable supplier admins to receive an email if a supplier contact encounters an error during self-registration.
 
-**Parent Topic:**[Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md)
+**Parent Topic:**[Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md)
 
 **Related topics**  
 
 
-[Configure the flow to create approval records for all supplier contact invite requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/invite-contact-approval.md)
+[Configure the flow to create approval records for all supplier contact invite requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/invite-contact-approval.md)
 
-[Enable notifications about self-registration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-supp-admin-emails.md)
+[Enable notifications about self-registration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/enable-supp-admin-emails.md)
 
-[Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md)
+[Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md)
 
-[Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md)
+[Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md)
 

@@ -2,7 +2,7 @@
 title: Trigger a UI interaction from a declarative action
 description: Trigger a UI interaction from a declarative action to extend a page without taking ownership.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-da-ui-interactions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-da-ui-interactions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,8 +18,8 @@ Trigger a UI interaction from a declarative action to extend a page without taki
 
 Complete the following actions:
 
-1.  Create a UI interaction in UI Builder. For instructions, see Create a UI interaction.
-2.  Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/creating-declarative-actions.md).
+1.  Create a UI interaction in UI Builder. For instructions, see [Create a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-ui-interaction-show-alert.md).
+2.  Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/creating-declarative-actions.md).
 
 Role required:
 
@@ -43,7 +43,7 @@ A UI interaction defines what you want to happen, and how you apply a UI interac
 
 A UI interaction can be used instead of a UXF client action to simplify configuration since there's no need to configure add-on event mapping on a corresponding UI Builder page.
 
-For a detailed overview of UI interactions, see UI interactions.
+For a detailed overview of UI interactions, see [UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/uib-ui-interactions.md).
 
 ## Procedure
 

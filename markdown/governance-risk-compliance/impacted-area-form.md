@@ -2,7 +2,7 @@
 title: Impacted area form
 description: On the Impacted area form, fill in the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/impacted-area-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/impacted-area-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

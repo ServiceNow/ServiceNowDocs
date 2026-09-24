@@ -2,7 +2,7 @@
 title: Reference for Proactive Prompts
 description: Reference topics provide additional information about user roles, tables, and default configurations in Proactive Prompts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/proactive-prompts/proactive-prompts-reference.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -16,18 +16,18 @@ breadcrumb: [Proactive Prompts, HR Service Delivery, Employee Service Management
 
 Reference topics provide additional information about user roles, tables, and default configurations in Proactive Prompts.
 
--   **[Components installed with Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-components.md)**  
+-   **[Components installed with Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-components.md)**  
 Several types of components install with the activation of the Proactive Prompts application, including user roles and tables.
--   **[Tokens in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-tokens.md)**  
+-   **[Tokens in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-tokens.md)**  
 Token placeholders indicate the data that will be replaced during runtime.
--   **[Types of data sources in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-data-source.md)**  
+-   **[Types of data sources in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-data-source.md)**  
 Data sources are the different type of data retrieving methods from data tables in Proactive Prompts.
--   **[Actions and action groups in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-actions.md)**  
+-   **[Actions and action groups in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-actions.md)**  
 Actions provide the user the ability to act on the prompt.
--   **[Signal data source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-datasource-form.md)**  
+-   **[Signal data source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-signal-datasource-form.md)**  
 Form to create a data source for the signal.
--   **[Signal configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-create-signal-form.md)**  
+-   **[Signal configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-create-signal-form.md)**  
 Form to create a signal in Proactive Prompts.
 
-**Parent Topic:**[Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.md)
+**Parent Topic:**[Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.md)
 

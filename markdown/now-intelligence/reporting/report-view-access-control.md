@@ -2,7 +2,7 @@
 title: Report\_view access control
 description: The report\_view operation is a record type access control list \(ACL\) that restricts access to reports. Only users who have one of the required roles can view reports that contain the restricted resource.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/report-view-access-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/report-view-access-control.html
 release: australia
 product: Reporting
 classification: reporting
@@ -35,10 +35,10 @@ Use these guidelines when creating your own report\_view operation access contro
     A list report uses regular record access controls to determine who can access data in a table or field. A report\_view access control cannot prevent users from viewing lists to which they have read access. To restrict access to record data in lists and forms, create a read operation access control. For more information about record access controls, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
 
 
--   **[Report execution security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/read-access-control.md)**  
+-   **[Report execution security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/read-access-control.md)**  
 When a report is run, report\_view access control lists \(ACLs\) are evaluated on the table and table fields that the report is based on. If no report\_view ACL exists, there is a fallback check on table-level read ACL roles. The report\_view ACL checks on all fields, including those used in the condition builder \(including dot-walked fields\).
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 **Related topics**  
 

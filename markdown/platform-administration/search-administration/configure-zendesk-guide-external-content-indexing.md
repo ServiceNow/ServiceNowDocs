@@ -2,14 +2,14 @@
 title: Configure Zendesk for external content indexing
 description: Create an API token in Zendesk Admin Center to allow the Zendesk Guide external content connector to access your Zendesk source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-zendesk-guide-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-zendesk-guide-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Zendesk Guide external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -131,12 +131,12 @@ Enter `https://<instance-name>.service-now.com/oauth_redirect.do`, where `<insta
 
 Provide the following items to your connector administrator:
 
--   The OAuth 2.0 client identifier that you entered in step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-zendesk-guide-external-content-indexing.md).
--   The client secret that you saved in step [8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-zendesk-guide-external-content-indexing.md).
+-   The OAuth 2.0 client identifier that you entered in step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-zendesk-guide-external-content-indexing.md).
+-   The client secret that you saved in step [8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-zendesk-guide-external-content-indexing.md).
 
 Your connector administrator needs these settings to configure a Zendesk Guide external content connector to retrieve searchable content and security principals from your Zendesk source system.
 
-For details on creating and configuring a Zendesk Guide external content connector, see [Create a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-zendesk-guide.md).
+For details on creating and configuring a Zendesk Guide external content connector, see [Create a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-zendesk-guide.md).
 
-**Parent Topic:**[Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zendesk-guide-external-content-connector.md)
+**Parent Topic:**[Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/zendesk-guide-external-content-connector.md)
 

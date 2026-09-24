@@ -2,7 +2,7 @@
 title: Configure 360° relationship registries and views
 description: Configure 360° view configurations with the sn\_bcm.admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-relationship-registries-views.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-relationship-registries-views.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -190,6 +190,6 @@ Based on the **Order** value given the position of element in the 360º view wil
 
     \[Omitted image "new-view.png"\] Alt text: Select a new view
 
-    For more information on 360° views configurations, see [Configure 360º views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.md).
+    For more information on 360° views configurations, see [Configure 360º views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.md).
 
 

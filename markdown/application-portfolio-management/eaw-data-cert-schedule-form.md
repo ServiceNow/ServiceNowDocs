@@ -2,7 +2,7 @@
 title: Schedule form
 description: Timing and frequency settings for running the certification task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-data-cert-schedule-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-data-cert-schedule-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-03"
@@ -76,5 +76,5 @@ User account that the scheduled job impersonates when it runs the certification 
 -   To run certification policies on tables that are not rooted in the CMDB, the service account in this field must have the **sn\_apm.apm\_analyst** role. Without this role, the scheduled job does not create certification tasks for non-CMDB tables. If you are using the out-of-box DataManager Job Runner account, ask your system administrator to assign the **sn\_apm.apm\_analyst** role to that account.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 

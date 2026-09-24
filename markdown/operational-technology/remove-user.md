@@ -2,7 +2,7 @@
 title: Deactivate a user
 description: Deactivating a user verifies that they can't access the Discovery Console for OT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/remove-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/remove-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Role required: admin
     \[Omitted image "deactivate-user-ot-console.png"\] Alt text: Deactivate user window
 
 
-**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-page.md)
+**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/users-page.md)
 

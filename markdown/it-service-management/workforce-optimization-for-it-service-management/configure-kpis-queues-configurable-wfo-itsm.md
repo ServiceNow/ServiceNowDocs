@@ -2,7 +2,7 @@
 title: Configure KPIs for queues
 description: Configure key performance indicators in queues to track the incoming work for specific categories of work in a service channel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-kpis-queues-configurable-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/configure-kpis-queues-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -26,15 +26,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  Add KPIs to a queue.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d123198e73">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d123529e73">
 
 To
 
-</th><th align="left" id="d123198e76">
+</th><th align="left" id="d123529e76">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d123198e82">
+</th></tr></thead><tbody><tr><td id="d123529e82">
 
 **Add from a service channel**
 
@@ -46,7 +46,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d123198e120">
+</td></tr><tr><td id="d123529e120">
 
 **Add from a queue**
 
@@ -72,5 +72,5 @@ Do This
     The key performance indicators are added to the queue and appear in the **All Queues** tab in Manager Workspace. By default, the indicators get automatically refreshed at an interval of five seconds. You can add the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** property to the system properties to modify the interval time.
 
 
-**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
 

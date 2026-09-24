@@ -2,7 +2,7 @@
 title: Work with demands in Employee Slate
 description: The My Demands widget and conversational experience in Employee Slate brings demand creation and tracking into a single, conversation-first workspace. Requesters can create demands through the conversational experience and track them using widgets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/my-demands-widget-ppm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/my-demands-widget-ppm.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -45,13 +45,13 @@ Select the Open full list icon on the widget to view the entire list of your dem
 
 \[Omitted image "demand-my-demands-filter.png"\] Alt text: The demand state filters available in the full list view.
 
-A demand record page includes the demand details, demand status tracker, delivery information, activity notes, and attachments. The demand fields shown are configurable by admin users. For more information, see [Configure the demand details fields in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configure-demand-details-ticket-page-ppm.md).
+A demand record page includes the demand details, demand status tracker, delivery information, activity notes, and attachments. The demand fields shown are configurable by admin users. For more information, see [Configure the demand details fields in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/configure-demand-details-ticket-page-ppm.md).
 
-The current state of the demand is highlighted. The delivery information indicates whether the demand is converted to a work item. After conversion, the card displays a link to the resulting work item. For more information about demand states, see [Demand Management process flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_DemandManagementProcessFlow.md).
+The current state of the demand is highlighted. The delivery information indicates whether the demand is converted to a work item. After conversion, the card displays a link to the resulting work item. For more information about demand states, see [Demand Management process flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/r_DemandManagementProcessFlow.md).
 
 \[Omitted image "demand-details-page-employee-slate.png"\] Alt text: The demand details page.
 
-You can edit the demand values only while the demand is in the Draft state. After you submit a demand, you can no longer edit its field values, but you can still add activity notes and attachments. See [Edit a draft demand in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/edit-an-active-demand-ppm.md).
+You can edit the demand values only while the demand is in the Draft state. After you submit a demand, you can no longer edit its field values, but you can still add activity notes and attachments. See [Edit a draft demand in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/edit-an-active-demand-ppm.md).
 
 ## Track demands with Requests widget
 
@@ -63,12 +63,12 @@ You can also view and edit demands by selecting a demand from the list.
 
 \[Omitted image "demand-request-list.png"\] Alt text: Demands in the Requests list.
 
--   **[Edit a draft demand in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/edit-an-active-demand-ppm.md)**  
+-   **[Edit a draft demand in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/edit-an-active-demand-ppm.md)**  
 Update the details of a draft demand in Employee Slate before submitting it for a demand manager's review.
--   **[Configure the demand details fields in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configure-demand-details-ticket-page-ppm.md)**  
+-   **[Configure the demand details fields in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/configure-demand-details-ticket-page-ppm.md)**  
 Configure the fields that appear in the demand details ticket page in Employee Slate.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

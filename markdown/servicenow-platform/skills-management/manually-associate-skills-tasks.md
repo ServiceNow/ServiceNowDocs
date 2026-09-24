@@ -2,7 +2,7 @@
 title: Assign skills to tasks
 description: Add skills and the level required for each skill to tasks. Identify whether the skill is mandatory to perform the task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/manually-associate-skills-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/skills-management/manually-associate-skills-tasks.html
 release: australia
 product: Skills Management
 classification: skills-management

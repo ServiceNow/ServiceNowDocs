@@ -2,7 +2,7 @@
 title: Create a task rate card in Enterprise Asset Workspace
 description: Create a task rate card to capture costs per task type in the Enterprise Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-task-rate-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-eam-task-rate-card.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

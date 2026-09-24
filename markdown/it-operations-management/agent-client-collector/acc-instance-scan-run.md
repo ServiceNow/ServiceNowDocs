@@ -2,7 +2,7 @@
 title: Schedule the Agent Client Collector \(ACC\) health instance scan
 description: Run the Run \(ACC\) health instance scan as a scheduled job to monitor the overall health of the instance receiving data from the Agent Client Collector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-instance-scan-run.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-instance-scan-run.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -47,7 +47,7 @@ This procedure describes how to schedule an ACC health instance scan. Alternativ
 
 The results of the job are compiled in the Scan Results \(scan\_result\) table. Errors are compiled in the Agents issue \(sn\_agent\_acc\_error\_msg\) table.
 
-For details on the ACC health instance scan suite checks, see [Agent Client Collector health instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-instance-scan-checks.md).
+For details on the ACC health instance scan suite checks, see [Agent Client Collector health instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-instance-scan-checks.md).
 
-**Parent Topic:**[Agent Client Collector health instance scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-instance-scan-suite.md)
+**Parent Topic:**[Agent Client Collector health instance scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-instance-scan-suite.md)
 

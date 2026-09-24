@@ -2,7 +2,7 @@
 title: Add or remove a supplier location using the supplier catalog
 description: Submit a request to add a new supplier location or remove an existing one to keep the supplier information up to date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/submit-add-remove-supploc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/submit-add-remove-supploc.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -64,7 +64,7 @@ Role required: sn\_slm.contact
 
 9.  On the Supplier Location form, fill in the fields.
 
-    For a description of the field values, see [Fields in the Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md).
+    For a description of the field values, see [Fields in the Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md).
 
 10. Select **Submit**.
 
@@ -75,7 +75,7 @@ The application creates a case and assigns it to the supplier manager for review
 
 After the supplier manager approves the case, the supplier record is updated accordingly.
 
-**Parent Topic:**[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
+**Parent Topic:**[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 
 **Related topics**  
 
@@ -102,5 +102,5 @@ After the supplier manager approves the case, the supplier record is updated acc
 
 [Request something else using the supplier catalog]()
 
-[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 

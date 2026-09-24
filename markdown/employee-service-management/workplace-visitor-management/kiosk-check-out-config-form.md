@@ -2,7 +2,7 @@
 title: Kiosk Check-out Flow Configuration form
 description: Use the Kiosk Check-out Flow Configuration form to create a check-out flow for the Workplace Services Kiosk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/kiosk-check-out-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/kiosk-check-out-config-form.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -65,7 +65,7 @@ Active
 Option to make the page configuration active.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 

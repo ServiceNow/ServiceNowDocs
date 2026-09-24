@@ -2,10 +2,10 @@
 title: Get help with Configurable Workspace
 description: To get help with Configurable Workspace, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/workspace-get-help.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/workspace-get-help.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

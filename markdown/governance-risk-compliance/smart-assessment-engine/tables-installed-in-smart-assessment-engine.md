@@ -2,7 +2,7 @@
 title: Tables installed in Smart Assessment Engine
 description: Tables are added with activation of GRC: Smart Assessment Engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/tables-installed-in-smart-assessment-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/tables-installed-in-smart-assessment-engine.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine

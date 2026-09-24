@@ -2,7 +2,7 @@
 title: Employee Slate \(built for Now Assist\)
 description: Employees use Now Assist to start any request from one chat bar and finish in the same panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-slate-nowassist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-slate-nowassist.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,9 +36,9 @@ Administrators complete the following tasks to enable Employee Slate \(built for
 
 |Task|Description|
 |----|-----------|
-|[Configure the admin console for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md)|Set the portal name, URL suffix, logos, favicon, and palette colors for the Now Assist deployment.|
-|[Configure notifications for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md)|Set the content, the trigger conditions, and the recipients for the 14 default notifications shipped with Now Assist.|
-|[Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md)|Set the scope, the role access, and the chat panel that drives widget generation.|
+|[Configure the admin console for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md)|Set the portal name, URL suffix, logos, favicon, and palette colors for the Now Assist deployment.|
+|[Configure notifications for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md)|Set the content, the trigger conditions, and the recipients for the 14 default notifications shipped with Now Assist.|
+|[Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md)|Set the scope, the role access, and the chat panel that drives widget generation.|
 
 ## Employee tasks
 
@@ -46,11 +46,11 @@ The following tasks cover the core employee workflows on Now Assist:
 
 |Task|Description|
 |----|-----------|
-|[Submit a catalog request in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-submit-catalog-request.md)|Submit a catalog item through the conversational catalog with Now Assist.|
-|[Find a policy in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-find-policy.md)|Ask conversationally for a policy and receive an answer with citations to the source article.|
-|[Create an announcement with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md)|Draft and publish an announcement with conversational authoring in Now Assist.|
-|[Use the calendar assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-use-calendar-assistant.md)|Manage meetings, agendas, and follow-ups from the calendar widget with Now Assist.|
-|[EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-home-page.md)|Use Tasks and requests, announcements, popular content, upcoming holiday, and quick links widgets on the home page.|
+|[Submit a catalog request in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-submit-catalog-request.md)|Submit a catalog item through the conversational catalog with Now Assist.|
+|[Find a policy in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-find-policy.md)|Ask conversationally for a policy and receive an answer with citations to the source article.|
+|[Create an announcement with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md)|Draft and publish an announcement with conversational authoring in Now Assist.|
+|[Use the calendar assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-use-calendar-assistant.md)|Manage meetings, agendas, and follow-ups from the calendar widget with Now Assist.|
+|[EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-home-page.md)|Use Tasks and requests, announcements, popular content, upcoming holiday, and quick links widgets on the home page.|
 
 ## What employees can do with Now Assist
 

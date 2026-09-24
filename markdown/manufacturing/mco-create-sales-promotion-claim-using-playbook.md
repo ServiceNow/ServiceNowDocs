@@ -2,7 +2,7 @@
 title: Create a sales promotion claim using playbook
 description: Create the sales promotion claim using the guided playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-sales-promotion-claim-using-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-sales-promotion-claim-using-playbook.html
 release: australia
 topic_type: task
 last_updated: "2026-05-26"

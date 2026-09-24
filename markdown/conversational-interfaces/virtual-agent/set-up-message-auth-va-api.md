@@ -2,7 +2,7 @@
 title: Configure Message Authentication for inbound communication
 description: You can configure Message Authentication for the Virtual Agent API instead of Basic or OAuth. Message Authentication involves configuring either Static or Hash tokens, setting up Provider Authentication, and setting the channel identity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/set-up-message-auth-va-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/set-up-message-auth-va-api.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ You can configure Message Authentication for the Virtual Agent API instead of Ba
 
 ## Before you begin
 
-Follow the steps in [Review the inbound REST endpoint and configure inbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-send-request.md).
+Follow the steps in [Review the inbound REST endpoint and configure inbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-send-request.md).
 
 Role required: admin
 
@@ -103,5 +103,5 @@ Role required: admin
 
 
 
-**Parent Topic:**[Review the inbound REST endpoint and configure inbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-send-request.md)
+**Parent Topic:**[Review the inbound REST endpoint and configure inbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-send-request.md)
 

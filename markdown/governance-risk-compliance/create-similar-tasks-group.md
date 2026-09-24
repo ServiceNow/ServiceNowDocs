@@ -2,7 +2,7 @@
 title: Create a similar tasks group
 description: Identify similar or duplicate event tasks associated with an event and add them to a similar tasks group by grouping them in the Similar tasks groups tab. It helps you to streamline event task management and reduce duplication of efforts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-similar-tasks-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-similar-tasks-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -79,5 +79,5 @@ Applicable event tasks are added to the Similar tasks group.**Note:** When you s
     The event task is deleted from the event.
 
 
-**Parent Topic:**[Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identifying-running-dup-tasks-once.md)
+**Parent Topic:**[Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/identifying-running-dup-tasks-once.md)
 

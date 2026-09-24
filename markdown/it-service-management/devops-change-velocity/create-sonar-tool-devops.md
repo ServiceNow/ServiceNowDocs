@@ -2,7 +2,7 @@
 title: Onboard SonarQube to DevOps Change Velocity — Classic
 description: Connect to your Sonar instance to retrieve scan results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/create-sonar-tool-devops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/create-sonar-tool-devops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -87,8 +87,8 @@ MID Server is optional. Select MID Server for an on-premises tool that is attach
 
 ## What to do next
 
--   [Configure SonarQube scans on Azure DevOps pipelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-sonarqube-azure-devops.md)
--   [Configure SonarQube scans on Jenkins pipelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-sonarqube-jenkins-devops.md)
+-   [Configure SonarQube scans on Azure DevOps pipelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/config-sonarqube-azure-devops.md)
+-   [Configure SonarQube scans on Jenkins pipelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/config-sonarqube-jenkins-devops.md)
 
-**Parent Topic:**[SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
+**Parent Topic:**[SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
 

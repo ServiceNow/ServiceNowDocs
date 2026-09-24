@@ -2,7 +2,7 @@
 title: Create CI From Template function
 description: The TNI Create CI From Template function enables you to create the inventory instance in the designated site or equipment holder in the Telecommunications Network Inventory application. This occurs when you instantiate an inventory with the inventory template. You can automatically create the inventory when you instantiate the network inventory design and assign process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/add-card-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/add-card-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -52,7 +52,7 @@ The following table lists the information about the function output.
 
 This flow action creates a telco equipment record when you use an inventory template to instantiate equipment.
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

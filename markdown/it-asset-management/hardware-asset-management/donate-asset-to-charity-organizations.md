@@ -2,7 +2,7 @@
 title: Donate assets to charity organizations
 description: Use the Asset Donation flow to donate hardware and consumable assets of your organization to charity organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -16,16 +16,16 @@ breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Manageme
 
 Use the Asset Donation flow to donate hardware and consumable assets of your organization to charity organizations.
 
--   **[Create an Asset Donation Order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-asset-donation-order.md)**  
+-   **[Create an Asset Donation Order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-asset-donation-order.md)**  
 Create a service catalog request to donate the in-stock hardware and consumable assets in your organization to charity organizations.
--   **[Approve or reject an Asset Donation Order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/approve-reject-asset-donation-order.md)**  
+-   **[Approve or reject an Asset Donation Order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/approve-reject-asset-donation-order.md)**  
 As an asset manager, review and then approve or reject an Asset Donation Order.
--   **[Process an Asset Donation Order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/process-asset-donation-order.md)**  
+-   **[Process an Asset Donation Order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/process-asset-donation-order.md)**  
 Process an Asset Donation Order to prepare and send assets to a charity organization.
--   **[Add a charity organization for donating assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/add-charity-org.md)**  
+-   **[Add a charity organization for donating assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/add-charity-org.md)**  
 Add a charity organization to the Charity Organization \[sn\_itam\_common\_charity\_org\] table to make it available for asset donations.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

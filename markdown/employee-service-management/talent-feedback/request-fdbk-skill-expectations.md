@@ -2,7 +2,7 @@
 title: Request skill feedback from skill expectations
 description: You can request skill feedback from the skill expectations widget on the Skills tab in Employee center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/request-fdbk-skill-expectations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-feedback/request-fdbk-skill-expectations.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

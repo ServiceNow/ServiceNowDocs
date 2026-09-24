@@ -2,7 +2,7 @@
 title: Provide feedback to ServiceNow
 description: The Help Center menu includes an option you can use to provide your feedback to ServiceNow about your experience with the current product. All feedback is reviewed and may be used to improve the product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/provide-customer-feedback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/provide-customer-feedback.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -36,6 +36,6 @@ Role required: none
 
 4.  When you have completed your feedback, select **Submit**.
 
-    **Note:** If you do not want the **Provide Feedback** button to appear in the Help Center, you can [disable it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/disable-feedbak.md).
+    **Note:** If you do not want the **Provide Feedback** button to appear in the Help Center, you can [disable it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/disable-feedbak.md).
 
 

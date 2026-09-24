@@ -2,7 +2,7 @@
 title: Add Microsoft Teams Chat widget
 description: Add the Teams Chat widget to enable employees to view or continue chats with agents and view and access the content of attached files in the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/add-teams-chat-widget-it.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/add-teams-chat-widget-it.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -139,5 +139,5 @@ Comma-separated list of tab widget parameters. This field appears only when **Cu
 
 A Teams Chat tab is added in each record of the Employee Center My Request page for the configured ticket type or table.
 
-**Parent Topic:**[Microsoft Teams Chat widget in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-std-ticket-page-teams-it.md)
+**Parent Topic:**[Microsoft Teams Chat widget in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-std-ticket-page-teams-it.md)
 

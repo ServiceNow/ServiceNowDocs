@@ -2,7 +2,7 @@
 title: Create an order from a quote line item
 description: You can create an order from all quote line items, or from a subset of top-level line items that you select.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-create-order-quote-line.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-create-order-quote-line.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,5 +44,5 @@ When you create an order from a quote, the quote line items, along with other re
     An order is created from the quote. Orders associated with the quote appear in the **Related Lists: Orders** section of the Contextual Side Panel \(CSP\).
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

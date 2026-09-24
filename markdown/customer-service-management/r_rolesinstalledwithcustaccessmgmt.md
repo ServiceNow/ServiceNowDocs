@@ -2,7 +2,7 @@
 title: Roles installed with customer access management
 description: Customer access management uses different functional and granular roles to establish relationships between users and entities. The granular and functional roles help provide user access to information and maintain data security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_rolesinstalledwithcustaccessmgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r\_rolesinstalledwithcustaccessmgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -482,5 +482,5 @@ None
 </table>**Related topics**  
 
 
-[Assign granular roles to a functional role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/assign-granular-to-func-role-cam.md)
+[Assign granular roles to a functional role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/assign-granular-to-func-role-cam.md)
 

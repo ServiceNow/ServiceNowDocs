@@ -2,7 +2,7 @@
 title: CMDB Model Category Stage inbound staging table
 description: The CMDB Model Category Stage inbound \[sn\_fcms\_intg\_cmdb\_model\_category\_stage\] staging table temporarily stores important data about product model categories before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-prod-cate-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-prod-cate-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

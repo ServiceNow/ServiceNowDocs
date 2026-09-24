@@ -2,7 +2,7 @@
 title: Create delegation rules
 description: Specify which records are available for service delegation. Specify records by table name, by a condition, and by whether they are an approval or an assignment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/granular-delegation/create-delegation-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/granular-delegation/create-delegation-rules.html
 release: australia
 product: Granular Delegation
 classification: granular-delegation
@@ -20,7 +20,7 @@ Specify which records are available for service delegation. Specify records by t
 
 Role required: delegation\_admin
 
-If you have not done so already, create a delegation rule table. See [Add delegation rule tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/add-delegation-rules-tables.md).
+If you have not done so already, create a delegation rule table. See [Add delegation rule tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/granular-delegation/add-delegation-rules-tables.md).
 
 ## About this task
 
@@ -148,9 +148,9 @@ Option to delegate assignments.
 
 ## What to do next
 
-Organize the delegation rules into categories to make delegating large batches of tasks easy and efficient for your employees. See [Create delegation rule categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/create-delegation-rule-categories.md).
+Organize the delegation rules into categories to make delegating large batches of tasks easy and efficient for your employees. See [Create delegation rule categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/granular-delegation/create-delegation-rule-categories.md).
 
-Delegate assigned tasks for a specific period of time. See [Create a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/create-delegation-admin.md).
+Delegate assigned tasks for a specific period of time. See [Create a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/granular-delegation/create-delegation-admin.md).
 
-Employees can now delegate their assigned tasks to other employees. See [Delegate on-demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/granular-delegation-use.md).
+Employees can now delegate their assigned tasks to other employees. See [Delegate on-demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/granular-delegation/granular-delegation-use.md).
 

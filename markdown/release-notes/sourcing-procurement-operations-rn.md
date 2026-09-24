@@ -2,7 +2,7 @@
 title: Sourcing and Procurement Operations release notes
 description: The ServiceNow Sourcing and Procurement Operations application provides your employees with a simple automated tool that they can use to shop for goods and services that they need at work. Sourcing and Procurement Operations was enhanced and updated in the Australia release.The ServiceNow Sourcing and Procurement Operations application provides your employees with a simple automated tool that they can use to shop for goods and services that they need at work. Sourcing and Procurement Operations was enhanced and updated in the Australia release.The ServiceNow Sourcing and Procurement Operations application provides your employees with a simple automated tool that they can use to shop for goods and services that they need at work. Sourcing and Procurement Operations was enhanced and updated in the Australia release.The ServiceNow Sourcing and Procurement Operations application provides your employees with a simple automated tool that they can use to shop for goods and services that they need at work. Sourcing and Procurement Operations was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/sourcing-procurement-operations-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/sourcing-procurement-operations-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -46,7 +46,7 @@ See [Sourcing and Procurement Operations](https://raw.githubusercontent.com/Serv
     Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/source-to-pay-operations-rn-landing.md)
+**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/source-to-pay-operations-rn-landing.md)
 
 ## June 2026
 
@@ -92,7 +92,7 @@ The ServiceNow® Sourcing and Procurement Operations application provides your e
 
     Automatically classify service requests, purchase requisitions, and purchase orders into the correct spend categories using the Spend categorization agent. This classification process reduces manual classification effort and improves consistency across procurement workflows.
 
--   ****
+-   **[Purchase on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-on-behalf-sh.md)**
 
     Enable users to purchase on behalf of others without requiring delegate configuration in Shopping Hub. Users can manage individuals they are authorized to purchase for, directly within the buying experience. Purchases made on behalf of others are visible through filtering by business owner in the My Purchases view.
 

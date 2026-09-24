@@ -2,7 +2,7 @@
 title: Task SLA cards component
 description: The Task SLA cards component displays the status of one or more Service Level Agreements \(SLAs\) for the current record in card format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-record-page-sla-card-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-record-page-sla-card-component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

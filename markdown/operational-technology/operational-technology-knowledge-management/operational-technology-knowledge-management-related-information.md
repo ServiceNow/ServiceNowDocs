@@ -2,7 +2,7 @@
 title: Related information
 description: Find more information about the OT extension classes and related applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-related-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-related-information.html
 release: australia
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -31,7 +31,7 @@ The extension classes help you understand how Operational Technology Management 
 
     The Knowledge Management application enables the sharing of information in knowledge bases. These knowledge bases contain articles that provide users with information such as self-help, troubleshooting, and task resolution.
 
--   **[Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)**
+-   **[Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)**
 
     The Operational Technology Incident Management application enables manufacturers to manage OT device incidents from the time the incident is opened to when it's complete.
 
@@ -40,5 +40,5 @@ The extension classes help you understand how Operational Technology Management 
     When integrated with Operational Technology Knowledge Management, the ServiceNow IT Service Management application enables engineers to resolve OT device and production process issues quickly.
 
 
-**Parent Topic:**[Operational Technology Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-reference-landing-page.md)
+**Parent Topic:**[Operational Technology Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-reference-landing-page.md)
 

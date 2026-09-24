@@ -2,7 +2,7 @@
 title: Integrating with Field Service Management
 description: Integrating Financial Services Operations with Field Service Management enables you to create and view all work orders and appointments related to your case, depending on your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/integration-with-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/integration-with-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ The recommended implementation of Financial Services Operations application inte
 
 To learn more, see [Integration with Industry products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/industry-products-integration.md).
 
-**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integrate-other-applications.md)
+**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integrate-other-applications.md)
 

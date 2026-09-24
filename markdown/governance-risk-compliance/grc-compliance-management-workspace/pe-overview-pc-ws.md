@@ -2,7 +2,7 @@
 title: Manage policy exception from the overview page
 description: The overview page of the policy exception gives you the overall basic details of the policy exception.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/pe-overview-pc-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/pe-overview-pc-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

@@ -2,7 +2,7 @@
 title: Domain support and schedules
 description: Domain separation is supported in schedules. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data. Activate the Domain Support \[com.glide.domain\] plugin to enable the domain separation functionality for schedules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/domain-support-for-schedules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/domain-support-for-schedules.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -57,7 +57,7 @@ For example, consider the relationship of the Schedule \[cmn\_schedule\] \(paren
 
 **Note:** The **domain\_master** attribute ensures that the child and parent record domains remain the same as the domain for the child that is derived from the specified reference field.
 
-**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_UseSchedules.md)
 
 **Related topics**  
 

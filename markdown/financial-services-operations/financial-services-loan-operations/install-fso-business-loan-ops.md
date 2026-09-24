@@ -2,7 +2,7 @@
 title: Install Financial Services Business Loan Operations
 description: You can install the Financial Services Business Loan Operations application \(sn\_bom\_loan\_b2b\) if you have the admin role. The application includes demo data and install-related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/install-fso-business-loan-ops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/install-fso-business-loan-ops.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -31,7 +31,7 @@ The following items are installed with Financial Services Business Loan Operatio
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Financial Services Business Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-loan-operations/installed-with-business-loan-operations.md).
+For more information, see [Components installed with Financial Services Business Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-loan-operations/installed-with-business-loan-operations.md).
 
 ## Procedure
 
@@ -54,5 +54,5 @@ For more information, see [Components installed with Financial Services Business
 5.  Select **Install**.
 
 
-**Parent Topic:**[Install Financial Services Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-loan-operations/install-loan-operations.md)
+**Parent Topic:**[Install Financial Services Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-loan-operations/install-loan-operations.md)
 

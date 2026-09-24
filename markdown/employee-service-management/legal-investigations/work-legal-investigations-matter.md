@@ -2,7 +2,7 @@
 title: Work on a legal matter for a complaint
 description: Work on a legal matter assigned to you to conduct legal investigations and resolve an internal complaint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/work-legal-investigations-matter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-investigations/work-legal-investigations-matter.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -18,7 +18,7 @@ Work on a legal matter assigned to you to conduct legal investigations and resol
 
 ## Before you begin
 
-The practice area lead or the group manager would have [assigned the legal matter to you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/assign-legal-matter.md) to work on.
+The practice area lead or the group manager would have [assigned the legal matter to you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/assign-legal-matter.md) to work on.
 
 Role required: sn\_lg\_investigate.fulfiller
 
@@ -38,16 +38,16 @@ Role required: sn\_lg\_investigate.fulfiller
 
 6.  During the legal investigation, you can create and record the following information related to the incident and involved parties.
 
-    -   [Add or modify an involved party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/add-involved-party.md) in the **Involved Parties** tab.
-    -   [Add an allegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/add-allegation-matter.md) to the matter, and associate it with one or more involved parties of the type Subject of Allegation.
+    -   [Add or modify an involved party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/add-involved-party.md) in the **Involved Parties** tab.
+    -   [Add an allegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/add-allegation-matter.md) to the matter, and associate it with one or more involved parties of the type Subject of Allegation.
     -   Add documentation, interviews, and recommended actions through legal matter tasks as you conduct investigations.
 
         **Note:** For a legal investigation matter, add tasks of the following types:
 
-        -   **Documentation**: Store documents that you collected as part of the investigations in the legal matter. You can also assign the task of collecting investigation documentation to another user. For detailed instructions, see [Add a task in the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md).
-        -   **Interview**: Conduct interviews with the involved parties, and as needed, include other users on the interview panel. For detailed instructions on adding interviews, see [Add an interview task to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/add-interview-matter-task.md).
+        -   **Documentation**: Store documents that you collected as part of the investigations in the legal matter. You can also assign the task of collecting investigation documentation to another user. For detailed instructions, see [Add a task in the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md).
+        -   **Interview**: Conduct interviews with the involved parties, and as needed, include other users on the interview panel. For detailed instructions on adding interviews, see [Add an interview task to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/add-interview-matter-task.md).
         -   **Recommended Actions**: Based on the findings of the investigations, provide recommendations for the involved parties. For detailed instructions on adding recommended actions, see [Add a recommended actions task to a legal matter]().
     -   [Perform other general tasks on the legal matter]().
-7.  [Close the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/close-legal-matter.md) or [transfer the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/transfer-legal-request-universal-request.md) based on the requirements.
+7.  [Close the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/close-legal-matter.md) or [transfer the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/transfer-legal-request-universal-request.md) based on the requirements.
 
 

@@ -2,7 +2,7 @@
 title: Mandatory and optional app selection modal
 description: The app selection modal enables platform admins to view, select, and install product bundles with clear separation of mandatory and optional apps. The modal validates licensing, prevents modification of required apps, and integrates with App Manager APIs to verify transparent and guided installations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-mandatory-optional-select-modal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-mandatory-optional-select-modal.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-26"
@@ -51,8 +51,8 @@ Consider the following when using the app selection modal:
 -   Item count updates dynamically: As admins select and deselect optional apps, the install button updates to show the current count of selected items. This count includes mandatory apps plus selected optional apps.
 -   Install button availability: The install button is disabled if zero apps are selected for installation \(that is, if no mandatory apps are available and no optional apps are selected\). This prevents silent failures caused by empty install requests.
 
--   **[Select apps during product installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-select-app-prod-install.md)**  
+-   **[Select apps during product installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-select-app-prod-install.md)**  
 Use the app selection modal to review mandatory and optional apps, customize your installation by selecting optional components, and complete the product installation through product hub installation flow.
 
-**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)
+**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-administer.md)
 

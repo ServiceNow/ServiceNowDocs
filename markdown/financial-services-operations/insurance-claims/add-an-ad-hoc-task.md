@@ -2,7 +2,7 @@
 title: Add an ad-hoc task for an Insurance claims case
 description: Create a task for an Insurance claims case to help prioritize and plan your claim work better.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/add-an-ad-hoc-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/add-an-ad-hoc-task.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

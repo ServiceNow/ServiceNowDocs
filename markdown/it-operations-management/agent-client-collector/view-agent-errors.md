@@ -2,7 +2,7 @@
 title: View agent errors
 description: Agent Client Collector \(ACC\) errors are visible in logs related to the agent and the ServiceNow instance. This feature provides improved visibility of agent errors, enabling faster error resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/view-agent-errors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/view-agent-errors.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

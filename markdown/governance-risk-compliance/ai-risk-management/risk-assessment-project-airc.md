@@ -2,7 +2,7 @@
 title: Risk assessment project in AI Risk and Compliance
 description: You can perform assessments on multiple risks and controls simultaneously by creating a risk assessment project for an AI asset. This feature enables assessors to review multiple risks to understand their potential impact, likelihood, and associated mitigation strategies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/risk-assessment-project-airc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/risk-assessment-project-airc.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -63,11 +63,11 @@ The following roles are required for a risk assessment project:
 **Related topics**  
 
 
-[Workflow of risk assessment project in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/workflow-of-risk-assessment-project-airc.md)
+[Workflow of risk assessment project in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/workflow-of-risk-assessment-project-airc.md)
 
-[Create bulk risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.md)
+[Create bulk risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.md)
 
-[Perform bulk assessment in stacked view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-stacked-view-airc.md)
+[Perform bulk assessment in stacked view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-stacked-view-airc.md)
 
-[Perform bulk assessment in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.md)
+[Perform bulk assessment in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.md)
 

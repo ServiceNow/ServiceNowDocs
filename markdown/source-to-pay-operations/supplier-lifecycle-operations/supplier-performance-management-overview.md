@@ -2,7 +2,7 @@
 title: Supplier Relationship and Performance Management
 description: Managing supplier relationship and performance is a key aspect of supplier management that aims to optimize the value and quality of the products and services delivered by suppliers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supplier-performance-management-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-performance-management-overview.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -37,20 +37,20 @@ To install Supplier Relationship and Performance Management, the following plugi
     -   Supplier Operations \(com.snc.sn\_so\)
     -   Gantt Component for ServiceNow \(com.servicenow\_now\_gantt\)
 
-To enable the Automated KPIs feature after an upgrade, run the fix scripts **KPI - Dec 25 records script** and **KPI - Dec 25 data records script**. For more information, see [Run fix scripts to enable Automated KPI collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-automated-kpis.md).
+To enable the Automated KPIs feature after an upgrade, run the fix scripts **KPI - Dec 25 records script** and **KPI - Dec 25 data records script**. For more information, see [Run fix scripts to enable Automated KPI collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-automated-kpis.md).
 
-For more information about configuring Supplier Relationship and Performance Management, see [Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md).
+For more information about configuring Supplier Relationship and Performance Management, see [Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md).
 
-For more information about using Supplier Relationship and Performance Management, see [Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md).
+For more information about using Supplier Relationship and Performance Management, see [Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md).
 
-For more information about Supplier Relationship and Performance Management data model and primary tables, see [Supplier Relationship and Performance Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-reference.md).
+For more information about Supplier Relationship and Performance Management data model and primary tables, see [Supplier Relationship and Performance Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-reference.md).
 
 **Related topics**  
 
 
-[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
+[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 
-[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
+[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 
-[Supplier Relationship and Performance Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-reference.md)
+[Supplier Relationship and Performance Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-reference.md)
 

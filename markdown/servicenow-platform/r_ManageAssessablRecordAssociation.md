@@ -2,7 +2,7 @@
 title: Assessable record associations
 description: Only the assessable records associated to a category can be evaluated using metrics in that category. Manage which assessable records you evaluate for each category by creating and removing the associations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_ManageAssessablRecordAssociation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_ManageAssessablRecordAssociation.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,19 +16,19 @@ Only the assessable records associated to a category can be evaluated using metr
 
 Only the assessable records associated to a category can be evaluated using metrics in that category. Manage which assessable records you evaluate for each category by creating and removing the associations.
 
-**Note:** You can also manage which categories an assessable record is associated to using the [Assessable Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessableRecord.md) form.
+**Note:** You can also manage which categories an assessable record is associated to using the [Assessable Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAnAssessableRecord.md) form.
 
--   **[Manage an assessable record automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ManageAnAssessbleRecAuto.md)**  
+-   **[Manage an assessable record automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ManageAnAssessbleRecAuto.md)**  
 Define at least one filter condition in the Metric Category form to automatically associate assessable records with the category.
--   **[Manage an assessable record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ManageAnAssessableRecordManually.md)**  
+-   **[Manage an assessable record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ManageAnAssessableRecordManually.md)**  
 You can manually create and remove assessable record associations for a category using a related list on the Metric Category form.
 
-**Parent Topic:**[Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetricCategories.md)
+**Parent Topic:**[Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetricCategories.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md)
 
-[Create a category for assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateACategoryAR.md)
+[Create a category for assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateACategoryAR.md)
 

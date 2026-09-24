@@ -2,7 +2,7 @@
 title: Landing page and dashboard views
 description: The landing page in the Operational Resilience Workspace provides a single-pane overview of the services, business services, and pillars in your organization. The dashboard displays resilience metrics, including operational status, completed activities, red flags, and suggestions for improvement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setup-homepage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/setup-homepage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

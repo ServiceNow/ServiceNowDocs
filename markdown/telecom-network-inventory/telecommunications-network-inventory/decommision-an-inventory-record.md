@@ -2,7 +2,7 @@
 title: Decommission an inventory record
 description: Decommission an inventory record that you want to remove from Telecommunications Network Inventory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/decommision-an-inventory-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/decommision-an-inventory-record.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -48,5 +48,5 @@ When you decommission a CI record, all the related tables of the CI are removed 
     |Equipment|Physical or logical interface linked to a connection or to a physical interface that has a logical connection.|
 
 
-**Parent Topic:**[Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
+**Parent Topic:**[Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
 

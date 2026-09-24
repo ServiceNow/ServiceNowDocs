@@ -2,7 +2,7 @@
 title: MobileDeepLinkGenerator - Global
 description: The MobileDeepLinkGenerator script include provides methods to embed a link to a mobile app list or form applet.Instantiates a MobileDeepLinkGenerator object for a specific mobile app.Create a link to a form applet.Create a link to a list applet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/MobileDeepLinkGeneratorAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/MobileDeepLinkGeneratorAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -25,7 +25,7 @@ For example, create a link from an email, push notification, or Virtual Agent co
 
 For an example of this API used in a push notification, see [Configure push notification message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-push-notification-message-content.md). For additional information on deep links, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## MobileDeepLinkGenerator - MobileDeepLinkGenerator\(String clientType\)
 

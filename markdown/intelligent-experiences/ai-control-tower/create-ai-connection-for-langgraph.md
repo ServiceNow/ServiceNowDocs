@@ -2,7 +2,7 @@
 title: Create an AI connection for LangGraph
 description: Create an AI connection for LangGraph in AI Control Tower using the  AI Service Graph Connector for LangGraph \(version 1.1.1\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-langgraph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-ai-connection-for-langgraph.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

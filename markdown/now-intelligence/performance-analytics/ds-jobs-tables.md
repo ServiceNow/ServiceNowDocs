@@ -2,7 +2,7 @@
 title: Data snapshots jobs and tables
 description: Several types of components are installed with activation of the Data snapshots plugin, including tables and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/ds-jobs-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/ds-jobs-tables.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -106,5 +106,5 @@ Data Snapshots Exclusions
 List of tables that cannot be sources for Data snapshots indicators
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)
+</table>**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 

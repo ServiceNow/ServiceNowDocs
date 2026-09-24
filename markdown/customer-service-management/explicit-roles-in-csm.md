@@ -2,7 +2,7 @@
 title: Explicit Roles in CSM
 description: You can give both internal users and external users access to your instance. However, you might not want both types of users to have the same level of access. To provide added security, every user must have at least one role so that the instance can distinguish between internal and external users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/explicit-roles-in-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/explicit-roles-in-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -80,7 +80,7 @@ For the Paris release, this property is enabled by default for zBoot instances a
 
 ## Providing table access to external users
 
-You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see [Provide external users access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ProvideExternalUsersAccessToTables.md).
+You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see [Provide external users access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ProvideExternalUsersAccessToTables.md).
 
 ## The hasRoles\(\) method
 
@@ -360,5 +360,5 @@ For indirect cases,such as adding an explicit role to a group \(so that a group 
 
 Note that the ServiceNow AI Platform reports only the first potential collision encountered. If repeated attempts continue to fail after remediation, with a new root cause each time, re-evaluate the relevant user/group/role interdependence more broadly. You may want to rethink how groups and role containments are structured.
 
-**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

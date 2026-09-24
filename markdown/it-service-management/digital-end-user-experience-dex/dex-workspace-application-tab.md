@@ -2,7 +2,7 @@
 title: Applications
 description: Manage the active applications in your organization to enhance user productivity and engagement. The Application list serves as a central hub, offering visibility into monitored applications. Access details such as the name of an application, its type, the number of alerts and incidents associated with each of those applications, and impacted users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-workspace-application-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/dex-workspace-application-tab.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -24,5 +24,5 @@ To refine your search based on applications, use the Applications filter. The ap
 
 Select the column filtering row icon \(\[Omitted image "icon-filtering-row.png"\] Alt text:\) to choose the desired filter condition from the drop-down list of the filter section and enter the desired value. In the following field, select **Web** or **Installed** and then select **Apply**. For example, if you want to choose all applications that begin with the letter "M", select the "starts with" option from the drop-down menu. Then enter "M" in the subsequent field and select **Apply**.
 
-To learn details of any application, select the name of the application. For more details on each field, see [Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/application-form.md).
+To learn details of any application, select the name of the application. For more details on each field, see [Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/application-form.md).
 

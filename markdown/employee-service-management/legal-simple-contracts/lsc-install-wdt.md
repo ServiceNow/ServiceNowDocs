@@ -2,7 +2,7 @@
 title: Activate Word Document Templates
 description: You can activate the Word Document Templates plugin \(sn\_doc\_word\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application activates related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/lsc-install-wdt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/lsc-install-wdt.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts

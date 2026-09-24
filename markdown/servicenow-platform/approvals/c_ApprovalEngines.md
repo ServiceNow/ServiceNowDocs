@@ -2,7 +2,7 @@
 title: Approval engines
 description: The differences in the way that companies handle their approvals, as well as the differences between approvals for the various applications \(such as Service Catalog Requests and Change Management\), calls for supporting flexibility in setting up approvals within applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/c\_ApprovalEngines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/c\_ApprovalEngines.html
 release: australia
 product: Approvals
 classification: approvals
@@ -55,8 +55,8 @@ Turn off Engines
 Turn off both approval engines for this Task table. This option should be selected and is made read-only when a workflow is used to manage the approval process for the table. **Note:** Not turning off the approval engines might have a performance or behavioral impact on your instance.
 
 </td></tr></tbody>
-</table>-   **[Set up an approval engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/t_SetupAnApprovalEngine.md)**  
+</table>-   **[Set up an approval engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/t_SetupAnApprovalEngine.md)**  
 To manage the approvals for each of the Task tables in the system, set up an approval engine.
 
-**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_Approvals.md)
+**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_Approvals.md)
 

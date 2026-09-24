@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) help remediate bill issues agentic workflow
 description: Use the Help remediate bill issues agentic workflow to handle the billing inquiry case requests and recommend better plans based on the customer usage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/billissue-remediation-usecase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/billissue-remediation-usecase.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -48,7 +48,7 @@ The Help remediate bill issues agentic workflow has the following dependencies:
 -   Case Management for Invoice operations \(com.sn\_csm\_invoice\)
 -   Product offering recommendations
 
-To configure the spoke selector, see [Configure the spoke selector for external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/configure-spoke-selector-for-external-systems.md).
+To configure the spoke selector, see [Configure the spoke selector for external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/configure-spoke-selector-for-external-systems.md).
 
 ## Testing the agentic workflow
 

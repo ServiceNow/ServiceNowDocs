@@ -2,7 +2,7 @@
 title: Update min and max values to match templates
 description: If you use survey result calculation data, ensure that the Min and Max values for a question that uses a template are equal to the smallest and largest template definition Value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_UpdateQMinAndMaxToMatchTemplates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_UpdateQMinAndMaxToMatchTemplates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ When you create a question of the **Template** data type, the system sets the **
     **Note:** When the data type is **Template**, a UI policy prevents the editing of **Min** and **Max** from the form.
 
 
-**Parent Topic:**[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestionTemplate.md)
+**Parent Topic:**[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyQuestionTemplate.md)
 
 **Related topics**  
 

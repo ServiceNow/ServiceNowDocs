@@ -2,7 +2,7 @@
 title: Reading email using Microsoft Graph
 description: Use Microsoft Graph API to retrieve emails from Microsoft Exchange Online and save them to sys\_email table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/read-email-using-ms-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/read-email-using-ms-graph.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,12 +16,12 @@ Use Microsoft Graph API to retrieve emails from Microsoft Exchange Online and sa
 
 In the **Email Account** form, select, **Microsoft Graph \(Receive\)** in the **Type** field.
 
--   **[Configure an OAuth profile to use a client ID and secret for token generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/microsoft-graph.md)**  
+-   **[Configure an OAuth profile to use a client ID and secret for token generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/microsoft-graph.md)**  
 Configure an OAuth profile using a client ID and client secret to create an email account for using Microsoft Graph \(receive\) in your email account type.
--   **[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-oauth-profile-using-certificates.md)**  
+-   **[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-oauth-profile-using-certificates.md)**  
 Configure an OAuth application profile to authenticate using certificates.
--   **[Create an email account for Microsoft Graph \(receive\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-account-ms-graph.md)**  
+-   **[Create an email account for Microsoft Graph \(receive\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-email-account-ms-graph.md)**  
 Create an email account for reading emails from Microsoft Exchange Online using Microsoft Graph Endpoints.
 
-**Parent Topic:**[Read or send emails using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-send-emails-ms-graph.md)
+**Parent Topic:**[Read or send emails using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/read-send-emails-ms-graph.md)
 

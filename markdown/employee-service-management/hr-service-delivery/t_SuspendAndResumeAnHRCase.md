@@ -2,7 +2,7 @@
 title: Suspend and resume an HR case
 description: If you are unable to close the HR case within the duration specified in the service level agreement \(SLA\), you can suspend the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_SuspendAndResumeAnHRCase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_SuspendAndResumeAnHRCase.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -55,5 +55,5 @@ For example, to contact a vendor, such as the insurance administrator or payroll
     The SLA progress is resumed.
 
 
-**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

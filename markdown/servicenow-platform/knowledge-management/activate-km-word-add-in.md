@@ -2,7 +2,7 @@
 title: Activate Knowledge Management - Add-in for Microsoft Word
 description: Activate the Knowledge Management - Add-in for Microsoft Word plugin \(com.snc.knowledge.ms\_word\) if you have the admin role. This plugin activates related plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/activate-km-word-add-in.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/activate-km-word-add-in.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

@@ -2,7 +2,7 @@
 title: Impersonation logs
 description: Impersonations are logged in the system log.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/c\_LogImpersonations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/c\_LogImpersonations.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -63,5 +63,5 @@ Enables \(**true**\) or disables \(**false**\) impersonation logging for non-int
 Excludes impersonation logging of non-interactive sessions for specified users.Enter user names as a comma-separated list. Default users \(**system**, **soap.guest**, and **guest**\) don’t need to be included in the list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md)
+</table>**Parent Topic:**[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/c_ImpersonateAUser.md)
 

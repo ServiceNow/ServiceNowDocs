@@ -2,7 +2,7 @@
 title: Available Platform Analytics Solutions
 description: The following Platform Analytics Solutions are available for their corresponding ServiceNow Performance Analytics entitlements. The solutions are at no extra charge, but the underlying applications require appropriate licensing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/r\_AvailableContentPacks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/r\_AvailableContentPacks.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -57,7 +57,7 @@ Activate the following Solutions when you have the Performance Analytics for Cus
 -   [Field Service Management \(com.snc.work\_management\_pa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-content-pack.md)
 -   [Incident Management \(com.snc.pa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-content-pack.md)
 
-    **Note:** Incident management content is available by default with Performance Analytics in a [Try out Complimentary Performance Analytics for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_StUpPAInctMgmt.md).
+    **Note:** Incident management content is available by default with Performance Analytics in a [Try out Complimentary Performance Analytics for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/r_StUpPAInctMgmt.md).
 
 -   [Incident SLA \(com.snc.pa.sla\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-sla-content-pack.md)
 -   [ITSM Dashboards \(com.snc.pa.itsm\_dashboards\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack.md)
@@ -128,7 +128,7 @@ Activate the following Solutions when you have the Performance Analytics for Ser
 -   [Change Management \(com.snc.pa.change\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-content-pack.md)
 -   [Incident Management \(com.snc.pa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-content-pack.md)
 
-    **Note:** Incident management content is available by default with Performance Analytics in a [Try out Complimentary Performance Analytics for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_StUpPAInctMgmt.md).
+    **Note:** Incident management content is available by default with Performance Analytics in a [Try out Complimentary Performance Analytics for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/r_StUpPAInctMgmt.md).
 
 -   [Incident SLA \(com.snc.pa.sla\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-sla-content-pack.md)
 -   [ITSM Dashboards \(com.snc.pa.itsm\_dashboards\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack.md)
@@ -155,5 +155,5 @@ The ITSM Dashboards plugin \(com.snc.pa.itsm\_dashboards\) activates the followi
 -   [Major Incident Management \(com.snc.pa.incident.mim\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/major-incident-overview.md)
 -   Fixed Costs \(com.snc.fixed\_costs\)
 
-**Parent Topic:**[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/content-packs-in-form-analytics-published.md)
+**Parent Topic:**[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/content-packs-in-form-analytics-published.md)
 

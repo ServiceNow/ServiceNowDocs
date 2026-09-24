@@ -2,7 +2,7 @@
 title: Submit an assessment
 description: You must have the assessment actor role to complete and submit the assessment. The submit button becomes enabled once all required questions are answered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/submit-an-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/submit-an-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine

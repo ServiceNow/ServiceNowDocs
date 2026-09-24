@@ -2,7 +2,7 @@
 title: Content pack for HR Service Delivery
 description: Using the Process Mining content pack for HR Service Delivery enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with customer service cases.Analyze a process for your HR service or, if installed, Lifecycle Events cases and identify bottlenecks to minimize delays in the case flow for a better user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/hrsd-integration-po.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/hrsd-integration-po.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -20,11 +20,11 @@ Using the Process Mining content pack for HR Service Delivery enables you to ana
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-For more information about enabling the HRSD Process Mining Content Pack, see [Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-po-content-pack.md).
+For more information about enabling the HRSD Process Mining Content Pack, see [Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-po-content-pack.md).
 
 ## End user and roles
 
-If you have the required roles, you can use Analyst workbench to access the visualized process workflow data, and tools for analyzing the data related to customer service cases. For more information, see [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md).
+If you have the required roles, you can use Analyst workbench to access the visualized process workflow data, and tools for analyzing the data related to customer service cases. For more information, see [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/analyst-workbench-dashboard.md).
 
 The following combinations of roles are required for using the Process Mining application with HR Service Delivery.
 
@@ -36,7 +36,7 @@ The following combinations of roles are required for using the Process Mining ap
 
 ## Optimization project for HR cases
 
-The HRSD Process Mining Content Pack \(com.sn\_hr\_process\_optimization\) adds a prebuilt project that includes predefined HR service cases and, if installed, Lifecycle Events cases project definitions. By default, the project filters cases for the last two quarters. You can also configure a new process project based on the prebuilt project. For more information, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md).
+The HRSD Process Mining Content Pack \(com.sn\_hr\_process\_optimization\) adds a prebuilt project that includes predefined HR service cases and, if installed, Lifecycle Events cases project definitions. By default, the project filters cases for the last two quarters. You can also configure a new process project based on the prebuilt project. For more information, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/define-workflow-model.md).
 
 The project definition includes default activity definitions and breakdown definitions for cases that you can use as they’re or modify for a custom configuration.
 
@@ -45,13 +45,13 @@ The project definition includes default activity definitions and breakdown defin
 
 ## Continual Improvement Management initiative for HR cases
 
-If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from Analyst workbench to track the progress of improvement initiatives for HR cases. The improvement initiative and Process Mining project are automatically linked. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-with-continuous-i.md).
+If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from Analyst workbench to track the progress of improvement initiatives for HR cases. The improvement initiative and Process Mining project are automatically linked. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integrate-with-continuous-i.md).
 
 ## Performance Analytics for HR cases
 
-If the Performance Analytics \(PA\) application is enabled, you can also use the available template configurations to open the Process Mining application from a Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) based on the customer service case data. For more information, see [Integration with Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-pa.md).
+If the Performance Analytics \(PA\) application is enabled, you can also use the available template configurations to open the Process Mining application from a Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) based on the customer service case data. For more information, see [Integration with Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integrate-pa.md).
 
-**Parent Topic:**[Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-po-content-pack.md)
+**Parent Topic:**[Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-po-content-pack.md)
 
 ## Example of Process Mining for HR Service Delivery
 

@@ -2,7 +2,7 @@
 title: Duplicate an action or subflow
 description: Duplicate an action or subflow within a flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/duplicate-action-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/duplicate-action-subflow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -24,8 +24,8 @@ Role required: admin or flow\_designer
 
 This procedure can only duplicate an action or subflow within the current flow. You can't directly duplicate an action to move it from one flow to another. If you need to move content between flows, you can use one of these alternatives.
 
--   Create a custom action that hard-codes the values you want to duplicate between flows. For more information about creating a custom action, see [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md).
--   Convert one or more items in the current flow to a subflow. Call the subflow from each flow that needs the duplicated content. For more information about converting items to a subflow, see [Convert items to subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/convert-items-subflow.md).
+-   Create a custom action that hard-codes the values you want to duplicate between flows. For more information about creating a custom action, see [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-action.md).
+-   Convert one or more items in the current flow to a subflow. Call the subflow from each flow that needs the duplicated content. For more information about converting items to a subflow, see [Convert items to subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/convert-items-subflow.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ This procedure can only duplicate an action or subflow within the current flow. 
 
 \[Omitted image "example-duplicate-action-result.png"\] Alt text: Example flow where a second Look Up Record action has been duplicated.
 
-Your selected action or subflow duplicates directly under itself. All configurations, including [transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md), are copied over to the duplicated action or subflow.
+Your selected action or subflow duplicates directly under itself. All configurations, including [transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/transform-functions.md), are copied over to the duplicated action or subflow.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

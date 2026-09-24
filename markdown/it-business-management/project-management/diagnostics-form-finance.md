@@ -2,7 +2,7 @@
 title: Diagnostics form
 description: Learn about the fields of diagnostic form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/diagnostics-form-finance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/diagnostics-form-finance.html
 release: australia
 product: Project Management
 classification: project-management
@@ -28,5 +28,5 @@ Learn about the fields of diagnostic form.
 **Related topics**  
 
 
-[Create Diagnostic scans and map related scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-diagnostic-scan-map-script.md)
+[Create Diagnostic scans and map related scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-diagnostic-scan-map-script.md)
 

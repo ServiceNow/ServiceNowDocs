@@ -2,7 +2,7 @@
 title: Configure Field Service Management Virtual Conferencing Integration
 description: Install and set up the Field Service Management Virtual Conferencing Integration application to interact with customers and peer agents using Zoom or Microsoft Teams meetings initiated from the Now Agent mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/configure-virtual-conference-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-integrations/configure-virtual-conference-fsm.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -71,17 +71,17 @@ The conference call details of Microsoft Teams meetings are stored in the Notify
 </td></tr></tbody>
 </table>2.  Install the Field Service Management Virtual Conferencing Integration application.
 
-    For more information, see [Install Field Service Management Virtual Conferencing Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/install-virtual-conferencing-fsm.md).
+    For more information, see [Install Field Service Management Virtual Conferencing Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/install-virtual-conferencing-fsm.md).
 
 3.  Add the **Conferences** related list to the work order task form.
 
     If the related list does not already appear, right-click the **Work Order Task** form header and select **Configure** &gt; **Related Lists**. Use the dual listbox to add the Conferences-&gt;Work Order Task related list.
 
-    **Note:** You must personalize the Conferences related list to get detailed information about the conference recordings for work order tasks. For more information, see [Customize the display of conference recording information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/personalize-conference-list.md).
+    **Note:** You must personalize the Conferences related list to get detailed information about the conference recordings for work order tasks. For more information, see [Customize the display of conference recording information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/personalize-conference-list.md).
 
 
--   **[Customize the display of conference recording information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/personalize-conference-list.md)**  
+-   **[Customize the display of conference recording information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/personalize-conference-list.md)**  
 Customize the Conferences related list to display specific information about conference recordings for work order tasks.
 
-**Parent Topic:**[Integration with Virtual Conferencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/virtual-conference-integration-fsm.md)
+**Parent Topic:**[Integration with Virtual Conferencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/virtual-conference-integration-fsm.md)
 

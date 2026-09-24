@@ -2,7 +2,7 @@
 title: Building information
 description: Each drawing in the campus map file represents a building or campus overview. The campus overview is a map that shows the entire campus, and is included for multi-building campuses only.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_BuildingInfo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_BuildingInfo.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -50,5 +50,5 @@ Each drawing in the campus map file represents a building or campus overview. Th
 -   The `display_name` is used to name the building.
 -   The `ref frame` is used to align the building horizontally and vertically. The GeoJSON data, contains WGS 84 information used to rotate the image so it displays at a natural horizontal orientation.
 
-**Parent Topic:**[Community file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_CommunityFile.md)
+**Parent Topic:**[Community file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_CommunityFile.md)
 

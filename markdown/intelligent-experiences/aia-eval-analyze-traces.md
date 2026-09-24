@@ -2,7 +2,7 @@
 title: Analyze traces found in agentic evaluation run results
 description: Investigate the full record of an agentic interaction to diagnose the root cause of a quality failure. Trace each step the agent took, including tool calls and outputs, to pinpoint where things went wrong.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-eval-analyze-traces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-eval-analyze-traces.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"

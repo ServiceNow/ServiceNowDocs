@@ -2,7 +2,7 @@
 title: Working with automation in Creator Studio
 description: How do you simplify and streamline tasks for fulfillers? Use automation! For example, you can have a task assigned automatically to someone based on what type of request it is. We’ll use playbooks to accomplish adding this automation to your app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-working-with-automations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-working-with-automations.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -17,15 +17,15 @@ breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developi
 
 How do you simplify and streamline tasks for fulfillers? Use automation! For example, you can have a task assigned automatically to someone based on what type of request it is. We’ll use playbooks to accomplish adding this automation to your app.
 
-**Summary:** After reading this section, you'll understand how to use [automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md) to do the following things:
+**Summary:** After reading this section, you'll understand how to use [automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-glossary.md) to do the following things:
 
 -   Use playbooks to guide agents and fulfillers through processes from start to finish, improving the customer experience and the way tasks are carried out.
 -   Create a consistent process for your tasks or activities to be carried out.
 -   Consolidate business decisions and processes across the organization.
 
-**Note:** Because playbooks are based on forms, you must publish a form \(mark it as ready\) before you use it to create a playbook. For more information, see [Publish a form for your app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-publish-form.md).
+**Note:** Because playbooks are based on forms, you must publish a form \(mark it as ready\) before you use it to create a playbook. For more information, see [Publish a form for your app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-publish-form.md).
 
-[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md) are a series of steps triggered by an event. You can add multiple playbooks to an app if needed
+[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-glossary.md) are a series of steps triggered by an event. You can add multiple playbooks to an app if needed
 
 **Key terms:**
 
@@ -101,7 +101,7 @@ Playbook
 
 </td><td>
 
-An automatic workflow that guides users through tasks based on the record's status changes. Find out more about creating playbooks in [Add an automated playbook to an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-automation.md).
+An automatic workflow that guides users through tasks based on the record's status changes. Find out more about creating playbooks in [Add an automated playbook to an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-automation.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Trigger
 
 </td><td>
 
-The event that specifies when the playbook should start running, such as when a form is submitted or updated to a specific status. Check out [Edit the trigger for a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-trigger-automation.md) for more information.
+The event that specifies when the playbook should start running, such as when a form is submitted or updated to a specific status. Check out [Edit the trigger for a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-trigger-automation.md) for more information.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ The thing that happens during the playbook, such as assigning a task or requirin
 
 Additionally, admins can create custom activities for you to include in a playbook.
 
-Learn how to add activities in [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-activities-automation.md).
+Learn how to add activities in [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-activities-automation.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Decision
 
 </td><td>
 
-A series of inputs, conditions, and results that create different branches, or conditional paths that users follow based on the decision's outcome. Get the scoop on adding decisions in [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-decision-automation.md).
+A series of inputs, conditions, and results that create different branches, or conditional paths that users follow based on the decision's outcome. Get the scoop on adding decisions in [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-decision-automation.md).
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Branch
 
 </td><td>
 
-A distinct path from a decision's outcome, or what happens for each of the decision's possible choices. For more information, see [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-decision-automation.md).
+A distinct path from a decision's outcome, or what happens for each of the decision's possible choices. For more information, see [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-decision-automation.md).
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Parallel process
 
 </td><td>
 
-Branches for activities and stages that run in parallel to another branch of activities. Learn about parallel processes in [Add a parallel process to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-decision-parallel-process-add.md).
+Branches for activities and stages that run in parallel to another branch of activities. Learn about parallel processes in [Add a parallel process to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-decision-parallel-process-add.md).
 
 </td></tr><tr><td>
 
@@ -176,26 +176,26 @@ Users work on requests in the Request App Workspace on the ServiceNow AI Platfor
 
 Specifically, the **Catalog tasks** tab of the record details walks users through the activities they must do to complete the task and close the record.
 
--   **[Workflow for creating automations in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-automations-workflow.md)**  
+-   **[Workflow for creating automations in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-automations-workflow.md)**  
 Provide your organization's fulfillers with guidance when addressing records generated from the app by adding automated playbooks to it.
--   **[Add an automated playbook to an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-automation.md)**  
+-   **[Add an automated playbook to an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-automation.md)**  
 Create an automated playbook, which is a process that runs whenever a record is created or updated by the app's specified form.
--   **[Copy an automated playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-duplicate-automation.md)**  
+-   **[Copy an automated playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-duplicate-automation.md)**  
 Duplicate an existing playbook and make small changes to it, which may be faster than creating an entirely new automated playbook.
--   **[Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-activities-automation.md)**  
+-   **[Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-activities-automation.md)**  
 Add activities to an app's playbook to specify what the automation does to the designated record type. An activity defines what actually happens when a playbook executes.
--   **[Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-decision-automation.md)**  
+-   **[Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-decision-automation.md)**  
 Add decisions, which are if/then conditions, to define branches, or different paths of an automation's playbook in Creator Studio.
--   **[Add a parallel process to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-decision-parallel-process-add.md)**  
+-   **[Add a parallel process to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-decision-parallel-process-add.md)**  
 Create parallel processes in Creator Studio to make things happen in your app at the same time.
--   **[Edit the trigger for a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-trigger-automation.md)**  
+-   **[Edit the trigger for a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-trigger-automation.md)**  
 Define the trigger for a playbook in Creator Studio to specify what makes the playbook start running.
--   **[Edit a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-edit-automation.md)**  
+-   **[Edit a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-edit-automation.md)**  
 Update a playbook to change its settings, or rearrange or remove tasks, to make it work for your app.
--   **[Activate a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-activate-automation.md)**  
+-   **[Activate a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-activate-automation.md)**  
 Activating a playbook means that it will run when its related form is created or updated on your non-production, development instance. However, the app must still be deployed to production.
--   **[Delete a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-delete-automation.md)**  
+-   **[Delete a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-delete-automation.md)**  
 Delete a playbook to remove it from the app completely.
 
-**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/building-apps-with-creator-studio.md)
 

@@ -2,7 +2,7 @@
 title: Complete a resource plan from a project or demand
 description: If a project or a project task is marked Closed, the project manager can complete the associated Allocated resource plans. Similarly, the demand manager can complete the resource plans for a Closed or Deferred demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -107,5 +107,5 @@ A similar message for completing the resource plans appears on the Demand form w
 -   If the completion date is earlier than the resource plan end date, the end date of the resource plan is updated with the completion date. If the completion date was entered later than the resource plan end date, the resource plan end date is retained.
 -   All the requested and resource allocations for the resource plan that are past the completion date are deleted. If there are any actual hours logged against an allocation, that allocation record is not deleted. But the allocated hours become zero and the actual hours are retained. The available and allocated hours for the resources are also updated in the aggregate tables.
 
-**Parent Topic:**[Complete an allocated resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CloseAResourcePlan.md)
+**Parent Topic:**[Complete an allocated resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_CloseAResourcePlan.md)
 

@@ -2,7 +2,7 @@
 title: Test security incidents to initiate malware scan
 description: After you configure a profile for the malware scan, test the profile and view the security incidents that match the settings of your profile. Preview the scan results on the related lists of a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-test-incident-malscan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mcafee-epo-test-incident-malscan.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,7 +46,7 @@ As a user with the sn\_si.admin role, verify that the profile with the malware s
 
 6.  Scroll to view the work notes.
 
-    **Note:** The list threat events workflow is part of the scan. For more information about creating a profile with the malware scan capability, see [Create a capability profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-create-profile.md).
+    **Note:** The list threat events workflow is part of the scan. For more information about creating a profile with the malware scan capability, see [Create a capability profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-create-profile.md).
 
     Scans are sometimes scheduled to run during after peak working hours to minimize their impact to users on the network. The scan may not complete immediately. In this case, on the top of the security incident, a security tag is displayed indicating that the scan is scheduled. Refer to the work notes for status on the workflow. The work notes list when workflows start and are successfully completed.
 
@@ -75,9 +75,9 @@ As a user with the sn\_si.admin role, verify that the profile with the malware s
     |**Finish**|Complete the configuration. You're prompted to confirm activation.|
 
 
-**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Using McAfee ePO integration in Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-mcafee-integration-aws.md)
+**Previous topic:**[Using McAfee ePO integration in Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-mcafee-integration-aws.md)
 
-**Next topic:**[Test security incidents and approve requests for the isolate host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-test-incident-ih.md)
+**Next topic:**[Test security incidents and approve requests for the isolate host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-test-incident-ih.md)
 

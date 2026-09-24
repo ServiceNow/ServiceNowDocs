@@ -2,7 +2,7 @@
 title: Domain separation and Advanced Work Assignment
 description: Domain separation is supported in the Advanced Work Assignment feature. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-domain-separation.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -41,7 +41,7 @@ When an instance has a domain hierarchy where users and groups belong to differe
     -   To route all work items in domain X and its child domains to a queue, use the **Domain Path** field and specify a condition such as: **\[Domain Path\] \[starts with\] \[!!!/!!\#/\]**
 -   **Assign work to agents in the appropriate domain**
 
-    To assign work items to agents in the appropriate domain, ensure that the assignment groups specified in the queue [Eligibility Assignment pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md) have agents that belong to the domains where they can see the work items routed to the queue.
+    To assign work items to agents in the appropriate domain, ensure that the assignment groups specified in the queue [Eligibility Assignment pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md) have agents that belong to the domains where they can see the work items routed to the queue.
 
     If a mismatch occurs, and agents in an eligible assignment group cannot see a work item in a queue, AWA may temporarily assign an item to an agent. However, before the item is moved to the agent's inbox, AWA automatically rejects the assignment with the reason **No access**. AWA reassigns the work item to a different agent who might have access. If none of the available agents can see the work item, the item could be rejected multiple times.
 

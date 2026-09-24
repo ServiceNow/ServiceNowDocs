@@ -2,7 +2,7 @@
 title: Set up ServiceNow CPQ Configurator without guided setup
 description: Plan and configure your implementation of the ServiceNow CPQ Configurator. Product catalog admins and agents use the Configurator in the CRM Workspace, while users using self-service features use it in the Business Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-servicenow-cpq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-servicenow-cpq.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,11 +47,11 @@ Plan and configure your implementation of the ServiceNow CPQ Configurator. Produ
     -   Price Management \(sn\_csm\_pricing\) - installed with Product and pricing rules, Sales Cart
     -   Order Management \(sn\_ind\_tmt\_orm\) - installed with Order Management Portal, Order Operations Case Management
     -   CPQ Integration \(sn\_cpq\_intg\) - installed with CPQ Configurator
-3.  [Set up instance for CPQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-integration-create-certificates.md).
-4.  [Request a CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-logik-instance.md)
-5.  [Connect your instance with CPQ instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/connect-sn-instance-logik.md).
-6.  [Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-external-connection-logik.md).
-7.  [Enable the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-advanced-configurator.md).
+3.  [Set up instance for CPQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-integration-create-certificates.md).
+4.  [Request a CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-up-logik-instance.md)
+5.  [Connect your instance with CPQ instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/connect-sn-instance-logik.md).
+6.  [Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-up-external-connection-logik.md).
+7.  [Enable the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enable-advanced-configurator.md).
 
     If you're currently using the Sales Customer Relationship Management product configurator and want to use the ServiceNow CPQ Configurator, enable the **enable\_advanced\_configuration** system property.
 

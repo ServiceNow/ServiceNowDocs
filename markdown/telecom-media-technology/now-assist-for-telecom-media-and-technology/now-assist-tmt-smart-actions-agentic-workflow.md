@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Smart Actions for Telecom agentic workflow
 description: Use the Smart Actions for Telecom agentic workflow to retrieve customer data and get a summary with a recommended next action for a customer account or consumer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-smart-actions-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-smart-actions-agentic-workflow.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -20,7 +20,7 @@ Use the Smart Actions for Telecom agentic workflow to retrieve customer data and
 
 Retrieve a consolidated view of customer data using the Smart Actions for Telecom agentic workflow. When triggered from the Recommended Actions panel on the Telecom Customer 360 page, the workflow retrieves data for the current customer account or consumer. The workflow delivers a Customer 360 summary in the ServiceNow Auto panel and performs the following steps:
 
--   Retrieves customer account or consumer context and performs a pre-diagnostic check across product inventory, duplicate cases, open incidents, open work orders, active alerts, and outstanding billing. The workflow uses the Telecom Customer Enterprise Graph to enrich customer context at runtime, retrieving service-related data such as service problem cases and sold product details. For more information, see [Telecom Customer Enterprise Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-telecom-customer-enterprise-graph.md).
+-   Retrieves customer account or consumer context and performs a pre-diagnostic check across product inventory, duplicate cases, open incidents, open work orders, active alerts, and outstanding billing. The workflow uses the Telecom Customer Enterprise Graph to enrich customer context at runtime, retrieving service-related data such as service problem cases and sold product details. For more information, see [Telecom Customer Enterprise Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-telecom-customer-enterprise-graph.md).
 -   Delivers a Customer 360 summary with an overall risk assessment and a recommended next action.
 -   Remains available to answer follow-up questions using the gathered context, the knowledge graph, or the associated tools.
 
@@ -70,5 +70,5 @@ To create an AI agent, see [Create an AI agent](https://raw.githubusercontent.co
 **Related topics**  
 
 
-[Telecom Customer Enterprise Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-telecom-customer-enterprise-graph.md)
+[Telecom Customer Enterprise Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-telecom-customer-enterprise-graph.md)
 

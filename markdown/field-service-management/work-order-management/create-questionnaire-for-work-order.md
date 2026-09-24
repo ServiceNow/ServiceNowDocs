@@ -2,7 +2,7 @@
 title: Create a questionnaire for a work order or task
 description: Create a questionnaire record and then associate it with Work Order Task table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-questionnaire-for-work-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/create-questionnaire-for-work-order.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -72,5 +72,5 @@ To edit a questionnaire, open the form, make your changes, and select **Update**
 **Related topics**  
 
 
-[Complete a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/complete-wo-or-task-questionnaire.md)
+[Complete a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/complete-wo-or-task-questionnaire.md)
 

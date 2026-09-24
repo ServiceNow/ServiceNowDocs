@@ -2,7 +2,7 @@
 title: Conversational intake for sourcing and procurement agentic workflow
 description: The Conversational intake for sourcing and procurement agentic workflow addresses your procurement needs by providing product recommendations, guided checkout, off-catalog processes, and detailed product information. It also answers questions and tracks related records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-help-fulfill-pr-agentic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-help-fulfill-pr-agentic.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -103,7 +103,7 @@ Retrieves and displays relevant knowledge articles to address sourcing and procu
 |Scripts|Autonomous|Connect to live agent|Escalates to a live SPO agent on user request.|
 |Scripts|Autonomous|Redirect to Employee Center|Politely deflects unsupported requests and directs users to Employee Center resources.|
 
-**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
+**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 **Related topics**  
 

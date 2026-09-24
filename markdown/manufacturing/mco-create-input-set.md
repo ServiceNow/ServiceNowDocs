@@ -2,7 +2,7 @@
 title: Create promotion questionnaire
 description: Create a promotion questionnaire. Configure the MCO input set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-input-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-input-set.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

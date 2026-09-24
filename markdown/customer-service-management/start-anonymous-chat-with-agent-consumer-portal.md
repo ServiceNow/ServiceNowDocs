@@ -2,7 +2,7 @@
 title: Chat anonymously with an agent from the Consumer Portal
 description: Start a chat session with an agent from the Consumer Portal without logging in to your account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/start-anonymous-chat-with-agent-consumer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/start-anonymous-chat-with-agent-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Anonymous chat lets users get support without creating or logging in to an accou
 **Related topics**  
 
 
-[Chat with an agent from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-chat-agent-on-consumer-portal.md)
+[Chat with an agent from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/start-chat-agent-on-consumer-portal.md)
 
-[Guest users experience on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guest-users-experience-consumer-portal.md)
+[Guest users experience on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/guest-users-experience-consumer-portal.md)
 

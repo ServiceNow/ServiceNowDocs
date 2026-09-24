@@ -2,7 +2,7 @@
 title: Event registry
 description: You can use events to schedule actions or tasks to occur when conditions are fulfilled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_EventRegistry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/r\_EventRegistry.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -39,7 +39,7 @@ For example:
     You can also use events to trigger Email Notifications when an event is recorded in the log.
 
 
-**Parent Topic:**[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduleEvents.md)
+**Parent Topic:**[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_ScheduleEvents.md)
 
 **Related topics**  
 

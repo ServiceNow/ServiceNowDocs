@@ -2,7 +2,7 @@
 title: Configure related party configurations
 description: Configure the responsibilities of your retail staff by linking related party entity responsibilities to responsibility definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-configure-titles-labels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-configure-titles-labels.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

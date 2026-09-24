@@ -2,7 +2,7 @@
 title: Generate work order resolution notes on mobile
 description: Generate resolution notes in your Mobile app that summarize your work order task record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/generate-work-order-res-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/generate-work-order-res-notes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,5 +19,5 @@ Agents can generate resolution notes for work order tasks that are assigned to t
 
 For more information on how to generate work resolution notes, see [Generate work order task closure summaries in ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/close-wo-wot-mobile.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-now-assist-mobile.md)
 

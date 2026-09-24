@@ -2,7 +2,7 @@
 title: Signal configuration form
 description: Form to create a signal in Proactive Prompts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-create-signal-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/proactive-prompts/proactive-prompts-create-signal-form.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -54,7 +54,7 @@ Schedule
 
 </td><td>
 
-Determines how frequently to send the prompt to the user.For more information, see [Configure signal schedules in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-schedules.md).
+Determines how frequently to send the prompt to the user.For more information, see [Configure signal schedules in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-signal-schedules.md).
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Category tags
 
 </td><td>
 
-The category for the signal, which is used to pull specific prompts on the prompt widget. For more information, see [Configure signal categories in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-catergories.md).
+The category for the signal, which is used to pull specific prompts on the prompt widget. For more information, see [Configure signal categories in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-signal-catergories.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Channels and actions
 
 </td><td>
 
-The channel where the prompts should be displayed and the actions associated with the channel. For more information, see [Configure delivery channels in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-config-channels.md).
+The channel where the prompts should be displayed and the actions associated with the channel. For more information, see [Configure delivery channels in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-config-channels.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Datasource
 
 </td><td>
 
-The data source method to retrieve the data.For more information, see [Types of data sources in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-data-source.md).
+The data source method to retrieve the data.For more information, see [Types of data sources in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-data-source.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -121,7 +121,7 @@ Prompt header
 
 </td><td>
 
-Icon and label displayed on the Employee Portal to identify the type of prompt. For example, you could have headers for Skills, Learning, Roles, and so on.For information on adding headers, see [Add a new prompt header to identify the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-add-header.md).
+Icon and label displayed on the Employee Portal to identify the type of prompt. For example, you could have headers for Skills, Learning, Roles, and so on.For information on adding headers, see [Add a new prompt header to identify the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-add-header.md).
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Multiple record display
 
 </td><td>
 
-A template for the message to display to users when the prompt is generated for multiple records.For more information on tokens, see [Tokens in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-tokens.md).
+A template for the message to display to users when the prompt is generated for multiple records.For more information on tokens, see [Tokens in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-tokens.md).
 
 </td></tr><tr><td>
 
@@ -153,10 +153,10 @@ URL
 
 </td><td>
 
-A URL that the user can access in the **View details** action on the Employee Portal or **Take action** action for Virtual Agent.For more information, see [Actions and action groups in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-actions.md).
+A URL that the user can access in the **View details** action on the Employee Portal or **Take action** action for Virtual Agent.For more information, see [Actions and action groups in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-actions.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
+</table>**Parent Topic:**[Reference for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
 
 **Related topics**  
 

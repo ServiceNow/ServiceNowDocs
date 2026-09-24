@@ -2,7 +2,7 @@
 title: Use sample automations in RPA Desktop Design Studio
 description: Use a sample automation, which is a prebuilt automation, that shows how different components are configured for a specific use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-sample-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-sample-automation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Use a sample automation, which is a prebuilt automation, that shows how differen
 
 ## Before you begin
 
-Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-studio.md).
+Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/set-up-rpa-studio.md).
 
 Role required: none
 
@@ -53,8 +53,8 @@ The sample automations are classified into **Beginner**, **Intermediate**, **Adv
         \[Omitted image "sample-automation-readme-file.png"\] Alt text: ReadMe file for sample automation in the project folder.
 
 
--   **[Sample automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sample-automations-rpa-studio.md)**  
+-   **[Sample automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/sample-automations-rpa-studio.md)**  
 The RPA Desktop Design Studio provides multiple sample automations that cater to different use cases.
 
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-use.md)
 

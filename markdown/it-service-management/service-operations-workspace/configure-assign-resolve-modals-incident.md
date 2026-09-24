@@ -2,7 +2,7 @@
 title: Configure the Assign or Resolve dialog box for an incident or change request in Service Operations Workspace
 description: Customize the fields displayed in the Assign and Resolve dialog box for an incident in Service Operations Workspace. Customize the fields displayed in the Assign dialog box for a change request in Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-assign-resolve-modals-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configure-assign-resolve-modals-incident.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -69,5 +69,5 @@ Role required: admin
     7.  Select **Save**.
 
 
-**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.md)
+**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.md)
 

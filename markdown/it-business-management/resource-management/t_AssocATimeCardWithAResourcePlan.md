@@ -2,7 +2,7 @@
 title: Associate a time card with a resource plan
 description: If one resource is allocated to identically named tasks in two resource plans. Use the following procedure to specify the resource plan the time card should be allocated to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_AssocATimeCardWithAResourcePlan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/t\_AssocATimeCardWithAResourcePlan.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -22,7 +22,7 @@ Role required: resource\_manager
 
 ## About this task
 
--   A resource plan can be associated with a time card only if the resource plan contains [hard allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md) for the user.
+-   A resource plan can be associated with a time card only if the resource plan contains [hard allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/r_AllocatingResources.md) for the user.
 -   If a resource plan isn’t associated manually to a time card, then a resource plan is auto-associated. The auto-association is done based on the selected **Task** in the time card.
 
 ## Procedure
@@ -42,7 +42,7 @@ Role required: resource\_manager
 5.  Select **Update**.
 
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 

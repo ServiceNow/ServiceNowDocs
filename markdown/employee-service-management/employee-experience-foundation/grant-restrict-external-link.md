@@ -2,7 +2,7 @@
 title: Grant or restrict access to an external link
 description: Control who can access external links by setting the user criteria, which allows access only to specific users, groups, roles, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/grant-restrict-external-link.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/grant-restrict-external-link.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,26 +30,26 @@ Role required: sp\_admin, taxonomy\_admin, or taxonomy\_manager
 
 3.  To grant access to the external link, click the **Available For** tab.
 
-<table><thead><tr><th align="left" id="d591222e80">
+<table><thead><tr><th align="left" id="d591226e80">
 
 To
 
-</th><th align="left" id="d591222e83">
+</th><th align="left" id="d591226e83">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d591222e89">
+</th></tr></thead><tbody><tr><td id="d591226e89">
 
 **Add a new user criteria**
 
 </td><td>
 
 1.  Click **New**.
-2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-user-criteria-form.md)
+2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-user-criteria-form.md)
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d591222e123">
+</td></tr><tr><td id="d591226e123">
 
 **Edit an existing user criteria**
 
@@ -63,26 +63,26 @@ Do this
 </td></tr></tbody>
 </table>4.  To restrict access to the external link, click the **Not Available For** tab.
 
-<table><thead><tr><th align="left" id="d591222e169">
+<table><thead><tr><th align="left" id="d591226e169">
 
 To
 
-</th><th align="left" id="d591222e172">
+</th><th align="left" id="d591226e172">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d591222e178">
+</th></tr></thead><tbody><tr><td id="d591226e178">
 
 **Add a new user criteria**
 
 </td><td>
 
 1.  Click **New**.
-2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-user-criteria-form.md)
+2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-user-criteria-form.md)
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d591222e212">
+</td></tr><tr><td id="d591226e212">
 
 **Edit an existing user criteria**
 
@@ -97,5 +97,5 @@ Do this
 </table>    **Note:** The Not Available For settings override the Available For settings. A user on the Not Available For list for an external link cannot access that external link, even if that user is also on the Available For list for that external link.
 
 
-**Parent Topic:**[Create an external link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-external-links.md)
+**Parent Topic:**[Create an external link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-external-links.md)
 

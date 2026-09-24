@@ -2,7 +2,7 @@
 title: Tracking interview health
 description: The Interview health tracker gives recruiters and coordinators a unified view to monitor interview health and address support needs proactively, reducing reactive coordination effort.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/tracking-interview-health.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/interview-management/tracking-interview-health.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -27,7 +27,7 @@ Needs-attention alerts provide the following benefits:
 
 -   -   **Configurable to your business processes:**
 
-    Configure alerts to create the necessary tracking mechanism that meet your business requirements. For details on configuring alerts, see [Configuring interview health tracker alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/configure-needs-attention-framework.md).
+    Configure alerts to create the necessary tracking mechanism that meet your business requirements. For details on configuring alerts, see [Configuring interview health tracker alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/configure-needs-attention-framework.md).
 
 -   -   **Central tracking that drives timely action:**
 
@@ -66,5 +66,5 @@ Recruiters can view the needs-attention alerts in the following areas:
 -   **List view**: The Needs attention list view in Recruitment workspace displays a consolidated list of all open alerts and their details. With everything in one place, recruiters can plan their work more effectively and address higher-priority items first.
 -   **Interview record**: Alert messages and an AI-generated interview alert summary appear on the interview record page. A detailed view of each alert is available under the **Alerts** tab, where users may also choose to close or snooze individual alerts.
 
-**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/using-interview-mgmnt.md)
 

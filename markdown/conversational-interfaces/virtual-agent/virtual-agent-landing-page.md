@@ -2,7 +2,7 @@
 title: Virtual Agent
 description: Unlock your enterprise productivity with ServiceNow Virtual Agent. Increase deflections by empowering your employees and customers to serve themselves using a friendly messaging interface, featuring prebuilt conversations powered by artificial intelligence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/virtual-agent-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/virtual-agent-landing-page.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -32,31 +32,31 @@ Select a tile to get started.
 
 <table id="table_ev3_ndm_v4b" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn how employees, customers, and agents use Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-virtual-agent.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn how employees, customers, and agents use Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-virtual-agent.md)
 
 </td><td>
 
-[Activate\[Omitted image "bus-manage.svg"\] Alt text:Activate Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-quick-start.md)
+[Activate\[Omitted image "bus-manage.svg"\] Alt text:Activate Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-quick-start.md)
 
 </td><td>
 
-[Plan and configure\[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your Virtual Agent implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
+[Plan and configure\[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your Virtual Agent implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 
 </td></tr><tr><td>
 
-[Build and deploy\[Omitted image "bus-rocketship.svg"\] Alt text: Design and build automated conversations and reusable topic components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-virtual-agent.md)
+[Build and deploy\[Omitted image "bus-rocketship.svg"\] Alt text: Design and build automated conversations and reusable topic components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-virtual-agent.md)
 
 </td><td>
 
-[Integrate and maintain\[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Virtual Agent capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md)
+[Integrate and maintain\[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Virtual Agent capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrate-virtual-agent.md)
 
 </td><td>
 
-[Analyzing Virtual Agent performance\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Analyze and improve Virtual Agent interactions using insights into conversational data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/analyzing-virtual-agent-performance.md)
+[Analyzing Virtual Agent performance\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Analyze and improve Virtual Agent interactions using insights into conversational data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/analyzing-virtual-agent-performance.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get Virtual Agent Designer interface descriptions and Virtual Agent technical details.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-parent-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get Virtual Agent Designer interface descriptions and Virtual Agent technical details.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-parent-reference.md)
 
 </td><td>
 
@@ -77,7 +77,7 @@ To explore Virtual Agent for IT Service Management, Customer Service Management,
 
 </td><td>
 
-Virtual Agent for Customer Service Management \[Omitted image "bus-customer-service-agent.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common self-service tasks.
+[Virtual Agent for Customer Service Management \[Omitted image "bus-customer-service-agent.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common self-service tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-virtual-agent-csm.md)
 
 </td><td>
 

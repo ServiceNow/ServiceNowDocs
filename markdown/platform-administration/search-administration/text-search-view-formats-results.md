@@ -2,7 +2,7 @@
 title: Text search views control format of global search results for tables
 description: The text\_search view for a table determines how global search displays results from that table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/text-search-view-formats-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/text-search-view-formats-results.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -73,10 +73,10 @@ Global search uses the first string field in the table's text\_search list view 
 </td></tr></tbody>
 </table>By default, the system uses the text\_search list view for a table to format global text search results for that table. If a text\_search view doesn't exist for the table, the system instead formats search results using the table's default form view. Implementers can specify which view the system uses to format search results by modifying the value of the **glide.ui.text\_search.view** system property.
 
--   **[Default display fields for global search tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-default-tables.md)**  
+-   **[Default display fields for global search tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/global-search-default-tables.md)**  
 Multiple tables are enabled for global search in the base system. Each global search table has its own set of fields included in the table's default text\_search list view. The system uses fields from this view to format global search results from these tables.
 
-**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
+**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_GlobalTextSearch.md)
 
 **Related topics**  
 

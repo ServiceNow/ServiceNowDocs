@@ -2,7 +2,7 @@
 title: Subflows installed with On-Call Scheduling
 description: Subflows are installed with On-Call Scheduling to support building on-call escalation notification configurable flows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/subflows-installed-on-call-scheduling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/subflows-installed-on-call-scheduling.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -67,5 +67,5 @@ Starting from the Zurich release, the following subflows are available instead o
 
 **Note:** All the flows and channel information related to notifications channels including the primary, secondary channel, user preferences are placed inside the On-call Send Notifications subflow. This subflow is invoked to send notifications to the on-call members or user groups.
 
-**Parent Topic:**[On-Call Scheduling subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-scheduling-subflows-overview.md)
+**Parent Topic:**[On-Call Scheduling subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/on-call-scheduling-subflows-overview.md)
 

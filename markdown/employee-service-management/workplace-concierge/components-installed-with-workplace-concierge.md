@@ -2,7 +2,7 @@
 title: Components installed with Workplace Concierge
 description: Several types of components are installed with activation of the Workplace Concierge application, including tables, user roles, and business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/components-installed-with-workplace-concierge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/components-installed-with-workplace-concierge.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -48,10 +48,10 @@ Employee Presence Exceptions
 
 </td><td>
 
-If the presence status is changed from **In-office** to **Remote**, a record is created in the Employee Presence Exceptions table \(**All** &gt; **Workplace Concierge** &gt; **Employee Presence** &gt; **Exceptions**\). If the presence status is changed from "**In-office** or **Remote**" to "**Visit another office**," a record is created in the Employee Presence Exceptions table and Location column is updated with the building name for the **In-office** day. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
+If the presence status is changed from **In-office** to **Remote**, a record is created in the Employee Presence Exceptions table \(**All** &gt; **Workplace Concierge** &gt; **Employee Presence** &gt; **Exceptions**\). If the presence status is changed from "**In-office** or **Remote**" to "**Visit another office**," a record is created in the Employee Presence Exceptions table and Location column is updated with the building name for the **In-office** day. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Concierge - Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/workplace-concierge-references.md)
+</table>**Parent Topic:**[Workplace Concierge - Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/workplace-concierge-references.md)
 
 **Related topics**  
 

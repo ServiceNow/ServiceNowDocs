@@ -2,7 +2,7 @@
 title: Configure project insights generation skill in the AI Admin Hub console
 description: Define the triggers, inputs, and display location for project insights generation skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configure-project-insights-generation-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/configure-project-insights-generation-skill.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -55,5 +55,5 @@ The skill is active on the instance.
 
 Analyze your skill performance and usage on the AI Admin Hub console to help determine the success of the skill. Learn more about tracking your AI usage at [Monitor AI usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-**Parent Topic:**[Activate a AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-now-assist-skill-spm.md)
+**Parent Topic:**[Activate a AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-now-assist-skill-spm.md)
 

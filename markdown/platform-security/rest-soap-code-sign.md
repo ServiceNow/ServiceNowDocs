@@ -2,7 +2,7 @@
 title: Sign the existing REST and SOAP messages
 description: Sign and validate the existing REST and SOAP messages by enabling the Code Signing in protected and trusted instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/rest-soap-code-sign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/rest-soap-code-sign.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

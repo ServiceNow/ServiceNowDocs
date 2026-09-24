@@ -2,7 +2,7 @@
 title: Customer Service Platform Analytics Solutions
 description: Customer Service Platform Analytics Solutions contain preconfigured dashboards with actionable data visualizations to improve your business processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/customer-service-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/customer-service-content-pack.html
 release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
@@ -63,9 +63,9 @@ These dashboards have all the information shown on the dashboards for the basic 
 -   Advanced Work Assignment for CSM
 -   Performance Analytics - Content Pack - Advanced Work Assignment
 
-**Note:** For more information about the Major Issue Management indicators, see [Major issue management analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/major-issue-management-analytics.md).
+**Note:** For more information about the Major Issue Management indicators, see [Major issue management analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/major-issue-management-analytics.md).
 
-The Customer Service Management - Advanced solution also adds additional Service Management indicators to the Analytics Hub. For more information, see [Customer Service Management integration with Service Management analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-integration-sm-analytics.md).
+The Customer Service Management - Advanced solution also adds additional Service Management indicators to the Analytics Hub. For more information, see [Customer Service Management integration with Service Management analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-integration-sm-analytics.md).
 
 ## Enable Performance Analytics for Customer Service Management
 

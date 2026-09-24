@@ -2,7 +2,7 @@
 title: Order Acknowledgement Error staging table
 description: The Order Acknowledgement Error \[sn\_spend\_intg\_order\_ack\_error\] staging table temporarily stores important data about any errors in the order price imports before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/order-acknowledgement-error.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/order-acknowledgement-error.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -21,7 +21,7 @@ The Order Acknowledgement Error \[sn\_spend\_intg\_order\_ack\_error\] staging t
 |Sales order line number|String|Unique identifier for each item on a sales order.|
 |Sales order number|String|Unique identifier for a customer's purchase.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Change the fetch type for a screen
 description: Change the fetch type of a screen to change when the app loads its data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/change-fetch-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/change-fetch-type.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Screen fetch types typically do not need to be changed. Be sure to test fetch ty
 4.  Click **Update**.
 
 
-**Parent Topic:**[Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/applet-fetch-types.md)
+**Parent Topic:**[Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/applet-fetch-types.md)
 

@@ -2,7 +2,7 @@
 title: Set up CRM Workspace
 description: Set up CRM Workspace for your agents so they can engage with customers, answer questions, create cases, and resolve issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-set-up.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-workspace-set-up.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,8 +25,8 @@ Complete the following tasks to set up CRM Workspace:
 
 Activating the Customer Service plugin \(com.sn\_customerservice\) provides the CRM Workspace functionality. For more information, see the following topics:
 
--   [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md)
--   [Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/plugins-activated-with-csm.md)
+-   [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ActivateCustomerService.md)
+-   [Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/plugins-activated-with-csm.md)
 
 ## Set up CRM Workspace using guided setup
 
@@ -102,7 +102,7 @@ Search
 </td><td>
 
 Define search sources that your agents can query in a configurable workspace. Agents can use these keywords to search for specific records or knowledge articles.-   [Configuring search in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-search-next-experience.md)
--   [AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md)
+-   [AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-ai-search.md)
 
 </td></tr><tr><td>
 
@@ -141,9 +141,9 @@ Playbooks display business process workflows in a simple task-oriented view. The
 
 You can use UI Builder to configure the pages and components that display information in CRM Workspace including the following:
 
--   [Landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-landing-page.md)
--   [Record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md)
--   [Customer Central – Customer Information tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cust-central-configure-info-tab.md)
+-   [Landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-landing-page.md)
+-   [Record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-record-pages.md)
+-   [Customer Central – Customer Information tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/cust-central-configure-info-tab.md)
 
 For more information, see the [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md) topic in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-custom-experience.md) documentation.
 
@@ -157,14 +157,14 @@ Complete these tasks to set up the components that are specific to CRM Workspace
 
 |Task|Description|
 |----|-----------|
-|[Create or modify a landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-landing-page.md)|The landing page is an agent's initial view of the workspace. The **CSM Landing Page** is included with the Customer Service plugin. You can modify this landing page or you can create and modify a page variant in UI Builder.|
-|[Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-ribbon.md)|The form ribbon includes components that display information about a record. You can add the Customer 360, Timeline, and SLA components to the Case form ribbon. You can also configure attributes for the Customer 360 and Timeline components.|
-|[Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-header.md)|Configure form headers that provide a quick summary of case, account, or contact information.|
-|[Set up a highlighted value in a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-highlight-value.md)|Configure fields that appear as highlighted values in form headers in CRM Workspace.|
-|[Set up a form action in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-action.md)|Create form actions that link to UI actions so that you can use the UI actions in CRM Workspace.|
-|[Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-display-header-in-sidebar.md)|Configure the form ribbon and the secondary values that appear in a form header to display in the Contextual side panel in CRM Workspace.|
-|[Display field values as interaction record tab titles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-display-values-as-tab-titles.md)|Display field values, such as contact or consumer names, as titles on interaction record tabs in CRM Workspace.|
+|[Create or modify a landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-landing-page.md)|The landing page is an agent's initial view of the workspace. The **CSM Landing Page** is included with the Customer Service plugin. You can modify this landing page or you can create and modify a page variant in UI Builder.|
+|[Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-ribbon.md)|The form ribbon includes components that display information about a record. You can add the Customer 360, Timeline, and SLA components to the Case form ribbon. You can also configure attributes for the Customer 360 and Timeline components.|
+|[Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-form-header.md)|Configure form headers that provide a quick summary of case, account, or contact information.|
+|[Set up a highlighted value in a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-highlight-value.md)|Configure fields that appear as highlighted values in form headers in CRM Workspace.|
+|[Set up a form action in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-form-action.md)|Create form actions that link to UI actions so that you can use the UI actions in CRM Workspace.|
+|[Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-display-header-in-sidebar.md)|Configure the form ribbon and the secondary values that appear in a form header to display in the Contextual side panel in CRM Workspace.|
+|[Display field values as interaction record tab titles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-display-values-as-tab-titles.md)|Display field values, such as contact or consumer names, as titles on interaction record tabs in CRM Workspace.|
 |Make sure that the sn\_csm\_case\_types.enable\_service\_selector property which enables the case type selector is set to true.|The sn\_csm\_case\_types.enable\_service\_selector property which enables the case type selector is set to true for zBoot customers, and can be enabled for upgrade customers.|
-|[Configure tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-side-panel-tabs.md)|Use the **inlineTabExclusion** UX page property to prevent tabs from appearing in the configurable side panel in CRM Workspace.|
+|[Configure tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-side-panel-tabs.md)|Use the **inlineTabExclusion** UX page property to prevent tabs from appearing in the configurable side panel in CRM Workspace.|
 |Configure service catalogs for CSM workspaces|Customer service agents use service catalogs to fulfill catalog item requests. You can configure the Service Workspace Portal to use the catalogs that contain the desired items.|
 

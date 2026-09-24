@@ -2,7 +2,7 @@
 title: Configure Zoom to create a touchpoint meeting summary
 description: Set up the Zoom spoke integration and the bi-directional web hook to generate summaries for virtual touchpoint meetings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-config-zoom-sum.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-config-zoom-sum.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -118,5 +118,5 @@ Name of the webhook registry.
 
 When these steps have been completed, you can generate the meeting summary for touchpoint meetings that have been created using Zoom.
 
-**Parent Topic:**[Configure Zoom and touchpoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-zoom-int.md)
+**Parent Topic:**[Configure Zoom and touchpoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-zoom-int.md)
 

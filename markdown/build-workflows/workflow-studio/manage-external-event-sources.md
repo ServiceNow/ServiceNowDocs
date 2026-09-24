@@ -2,7 +2,7 @@
 title: Managing external event sources
 description: Create and manage external event sources for a spoke or a scoped application that listen to events occurring in an application outside ServiceNow. Then, you can create external trigger definitions and associate them with the external event sources. When the event that you specify in the external trigger definition occurs, it starts one or more flows on your ServiceNow instance. Create an external event source for a spoke or scoped application that listens to events occurring in an application or system outside ServiceNow. Based on the external event source, you can create an external trigger definition that receives communication from the external event source and starts a flow on your ServiceNow instance.Update an external event source that is in the draft or published state.Delete an external event source in the draft or published state that is not associated with an external trigger definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/manage-external-event-sources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/manage-external-event-sources.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -26,7 +26,7 @@ Confirm that you have installed the External Trigger Builder plugin on your inst
 
 An external event source is an end point on your ServiceNow instance which listens to a system or application outside of ServiceNow. After the application outside ServiceNow sends an event to the external event source, it enables a trigger definition to start one or more flows. For example, you define an external event source for an issue-tracking software that communicates with an external trigger definition that you have defined. The external trigger definition listens to the event source and starts a flow when a new issue is created in the issue-tracking software. Both the external event source and the trigger definitions are defined on your ServiceNow instance. An external trigger definition gives a set of conditions that tells your ServiceNow instance when to start a flow.
 
-**Parent Topic:**[Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-saved-external-trigger.md)
+**Parent Topic:**[Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-saved-external-trigger.md)
 
 ## Create an external event source
 
@@ -225,7 +225,7 @@ Option to specify a value that may come before the token.
 
 ### What to do next
 
-[Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-saved-external-trigger.md) and associate it with the external event source that you created.
+[Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-saved-external-trigger.md) and associate it with the external event source that you created.
 
 ## Update an external event source
 

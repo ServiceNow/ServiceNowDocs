@@ -2,7 +2,7 @@
 title: Configure announcement for community members
 description: Global announcements appear in the banner and broadcast messages to all community members. Forum announcements appear in the Announcements section on the forum page. You can also send the announcement by email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/manage-announcements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/manage-announcements.html
 release: australia
 product: Communities
 classification: communities
@@ -168,5 +168,5 @@ This setting appears for Global announcements only. Determines how the user can 
 -   To update an announcement, update any setting as needed and then click **Update**. If you specified **Send email notification**, then you are prompted to send the updated email message.
 -   To cancel an announcement, clear the **Active** check box.
 
-**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-service-portal.md)
+**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/community-service-portal.md)
 

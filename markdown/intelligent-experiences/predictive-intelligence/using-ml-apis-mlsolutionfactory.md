@@ -2,7 +2,7 @@
 title: Using MLSolutionFactory scriptable objects
 description: MLSolutionFactory scriptable objects enable defining ML functionality. You can use the APIs to compose data-driven functionality, such as subclustering large clusters or clusters with multiple PRBs attached.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/using-ml-apis-mlsolutionfactory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/using-ml-apis-mlsolutionfactory.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence

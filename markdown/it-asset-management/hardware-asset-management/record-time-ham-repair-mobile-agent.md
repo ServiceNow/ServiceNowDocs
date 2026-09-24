@@ -2,7 +2,7 @@
 title: Record time worked on a hardware asset repair task manually using the Mobile Agent application
 description: Record time worked on a hardware asset repair task manually and provide any additional comments on the task using the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/record-time-ham-repair-mobile-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/record-time-ham-repair-mobile-agent.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -53,7 +53,7 @@ Role required: asset
 
 The Record time form is saved and the time card is added to the Time worked section of the Related tab.
 
-**Parent Topic:**[Record time worked on a hardware asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/record-time-worked-mobile-agent-app-con.md)
+**Parent Topic:**[Record time worked on a hardware asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/record-time-worked-mobile-agent-app-con.md)
 
 **Related topics**  
 

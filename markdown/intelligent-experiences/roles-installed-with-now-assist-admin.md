@@ -2,7 +2,7 @@
 title: AI Admin Hub roles
 description: Certain roles are required to use AI Admin Hub functionality.This user can create and update the AI Admin Hub experience by editing and configuring skills.This user role can access the console and view skills, but can't configure or make edits.Users who have access to the Now Assist panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/roles-installed-with-now-assist-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/roles-installed-with-now-assist-admin.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +15,7 @@ breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
 
 Certain roles are required to use AI Admin Hub functionality.
 
-**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-reference-landing.md)
 
 ## AI Admin Hub \[sn\_nowassist\_admin.nsa\_admin\]
 

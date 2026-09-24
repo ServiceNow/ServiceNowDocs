@@ -2,7 +2,7 @@
 title: Manage and assign source document alerts
 description: Assign source document alerts that are received from the regulatory intelligence provider to an appropriate user. You can review other properties of the source document alert.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/manage-source-document-feeds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/manage-source-document-feeds.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -71,7 +71,7 @@ As a manager, you can view and assign the source document alerts to users with t
 
 The source document alert is assigned to the selected user and it is listed under the **All Assigned Alerts** module in the application.
 
-**Parent Topic:**[Regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-feeds.md)
+**Parent Topic:**[Regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-feeds.md)
 
 **Related topics**  
 

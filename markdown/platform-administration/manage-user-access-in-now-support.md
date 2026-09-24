@@ -2,7 +2,7 @@
 title: Manage user access in Now Support
 description: You can manage users in Now Support and change their access roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/manage-user-access-in-now-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/manage-user-access-in-now-support.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ Role required: admin
 7.  Select **Confirm**.
 
 
-**Parent Topic:**[Now Support administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-support-administration.md)
+**Parent Topic:**[Now Support administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/now-support-administration.md)
 
 **Related topics**  
 

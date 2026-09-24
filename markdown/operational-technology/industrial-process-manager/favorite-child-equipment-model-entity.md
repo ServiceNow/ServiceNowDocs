@@ -2,7 +2,7 @@
 title: Favorite a child equipment model entity
 description: Favorite a child equipment model entity in the Equipment Model Manager of the Industrial Workspace so that you can access a tailored view of your favorites while working.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/favorite-child-equipment-model-entity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/favorite-child-equipment-model-entity.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -43,5 +43,5 @@ To view only favorite child equipment model entities, you can select the Show Fa
 
 When you switch on the Show Favorites toggle, the configuration is saved. When you log out and log back in, or open a different site, the Show Favorites toggle is still switched on.
 
-**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

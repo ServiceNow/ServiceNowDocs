@@ -2,7 +2,7 @@
 title: Dashboards in Platform Analytics
 description: Dashboards are canvasses for organizing and sharing data visually. They contain data visualizations, filters, and other visual elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/analytics-center-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/analytics-center-dashboards.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,27 +20,27 @@ Dashboards are canvasses for organizing and sharing data visually. They contain 
 
 <table id="table_o5y_trj_mcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Guide to the layouts and content of a dashboard and how to find a dashboard in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ac-elements.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Guide to the layouts and content of a dashboard and how to find a dashboard in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/ac-elements.md)
 
 </td><td>
 
-[Create, edit, share\[Omitted image "bus-start-developing.svg"\] Alt text:Procedures for performing the most common dashboard tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+[Create, edit, share\[Omitted image "bus-start-developing.svg"\] Alt text:Procedures for performing the most common dashboard tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set refresh periods and other one-time settings as an owner or administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-dashboards.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set refresh periods and other one-time settings as an owner or administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configuring-dashboards.md)
 
 </td></tr><tr><td>
 
-[Proactive analytics Insights\[Omitted image "bus-light-bulb.svg"\] Alt text:Automate the extraction of insights from your indicator data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/proactive-analytics/proactive-analytics.md)
+[Proactive analytics Insights\[Omitted image "bus-light-bulb.svg"\] Alt text:Automate the extraction of insights from your indicator data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/proactive-analytics/proactive-analytics.md)
 
 </td><td>
 
-[Technical dashboards\[Omitted image "ind-nuclear-energy.svg"\] Alt text:Create dashboards as UI Builder pages, with all of UI Builder's customizability and complexity. Developers only.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md)
+[Technical dashboards\[Omitted image "ind-nuclear-energy.svg"\] Alt text:Create dashboards as UI Builder pages, with all of UI Builder's customizability and complexity. Developers only.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/technical-dashboards.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Roles and translatable fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboard-reference-page.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Roles and translatable fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboard-reference-page.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

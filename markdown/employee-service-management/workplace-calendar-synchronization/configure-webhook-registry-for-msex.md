@@ -2,7 +2,7 @@
 title: Configure the webhook registry of Microsoft Exchange Online spoke
 description: Configure callback URL for communication between the Workplace Calendar Synchronization application and Microsoft Exchange Online calendar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/configure-webhook-registry-for-msex.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/configure-webhook-registry-for-msex.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

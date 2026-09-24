@@ -2,12 +2,12 @@
 title: Edit a calculated metric definition formula
 description: Edit a formula in a calculated metric definition to update the calculation logic or apply changes to historical data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/edit-a-calculated-metric-definition-formula-irm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/edit-a-calculated-metric-definition-formula-irm.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Formula building in a calculated metric definition, Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -55,5 +55,5 @@ Roles required: sn\_risk\_workspace.operational\_risk\_manager, sn\_risk\_worksp
 
 The formula is saved as a new version. The new version is listed in the **Versions** related list on the calculated metric definition.
 
-**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/formula-building-at-metric-definition-and-entity-level-irm.md)
+**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/formula-building-at-metric-definition-and-entity-level-irm.md)
 

@@ -2,7 +2,7 @@
 title: Service Exchange for Public Sector Digital Services
 description: Connect multiple ServiceNow instances to provide support and service experiences across the Public Sector​ ecosystem, enabling coordination between multiple government service agencies and their constituents using Service Bridge for Public Sector Digital Services \(PSDS\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/servicebridge-psds-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/servicebridge-psds-exploring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

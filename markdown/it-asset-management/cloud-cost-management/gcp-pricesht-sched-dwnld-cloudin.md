@@ -2,7 +2,7 @@
 title: Schedule and manage the Cloud Cost Management jobs that download Google Cloud price sheets
 description: A Price Sheet Download job downloads and stores price sheet data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/gcp-pricesht-sched-dwnld-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/gcp-pricesht-sched-dwnld-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -143,5 +143,5 @@ Details for the execution that is currently running.
 **Related topics**  
 
 
-[Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/rs-cloudin.md)
+[Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/rs-cloudin.md)
 

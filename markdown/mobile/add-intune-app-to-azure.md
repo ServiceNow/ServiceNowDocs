@@ -2,7 +2,7 @@
 title: Add an Intune integrated app to Microsoft Azure
 description: Configure your ServiceNow app for distribution with Microsoft Intune.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/add-intune-app-to-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/add-intune-app-to-azure.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,5 +51,5 @@ Role required: Microsoft Intune admin
 10. Review the information you entered and when you are finished, click **Create**.
 
 
-**Parent Topic:**[Intune mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/intune-mdm.md)
+**Parent Topic:**[Intune mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/intune-mdm.md)
 

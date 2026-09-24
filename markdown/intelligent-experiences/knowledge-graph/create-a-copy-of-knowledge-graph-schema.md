@@ -2,7 +2,7 @@
 title: Create a copy of a Knowledge Graph schema
 description: Create a copy of a Knowledge Graph schema and duplicate it for further customization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/create-a-copy-of-knowledge-graph-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/create-a-copy-of-knowledge-graph-schema.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

@@ -2,7 +2,7 @@
 title: Configure filters for dispatchers
 description: Create filters for dispatchers to filter work order tasks in Dispatcher Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-filters-for-dispatchers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configure-filters-for-dispatchers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

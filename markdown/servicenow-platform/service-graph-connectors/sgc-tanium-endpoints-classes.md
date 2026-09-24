@@ -2,7 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for Tanium Endpoints
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from Tanium. The data is saved in tables that extend from the Configuration Item \[cmdb\_ci\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -156,7 +156,7 @@ The following attributes in the Key Value \[cmdb\_key\_value\] table are populat
 |Value|value|
 |Tag|tag|
 
-**Note:** Of the four tags available in Tanium \(Custom, Extended Custom, Enhanced, and Meta\), the Service Graph Connector for Tanium Endpoints 1.0.0 version supports only Custom tags. See [Supported Tanium resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-tanium-endpoints-resource-types.md).
+**Note:** Of the four tags available in Tanium \(Custom, Extended Custom, Enhanced, and Meta\), the Service Graph Connector for Tanium Endpoints 1.0.0 version supports only Custom tags. See [Supported Tanium resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-sgc-tanium-endpoints-resource-types.md).
 
 ## Network Adapter \[cmdb\_ci\_network\_adapter\]
 

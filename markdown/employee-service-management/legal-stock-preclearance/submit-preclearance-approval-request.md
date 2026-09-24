@@ -2,7 +2,7 @@
 title: Submit a preclearance approval request
 description: As a designated access person, submit a request to obtain the preclearance approval from the legal department before you can trade in the securities of your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-stock-preclearance/submit-preclearance-approval-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-stock-preclearance/submit-preclearance-approval-request.html
 release: australia
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -123,5 +123,5 @@ Option to confirm your consent to trade in securities in accordance with your or
 
     -   Request Details: Review request details.
 
-**Parent Topic:**[Submitting Legal Stock Preclearance requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/submit-legal-stock-reqs.md)
+**Parent Topic:**[Submitting Legal Stock Preclearance requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-stock-preclearance/submit-legal-stock-reqs.md)
 

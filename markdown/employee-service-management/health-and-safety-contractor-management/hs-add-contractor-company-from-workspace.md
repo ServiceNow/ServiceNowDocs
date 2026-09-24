@@ -2,7 +2,7 @@
 title: Add a contractor company from Health and Safety Workspace
 description: Add a contractor company to prequalify it and its workers. You can then manage the contractor workers from this company for their health and safety.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -82,7 +82,7 @@ Primary contact
 
 Primary contact person from the contractor company.The **Primary contact** field displays only users who have been assigned the \[snc\_external\] role and have the Health and Safety profile created for them.
 
-For more information, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
+For more information, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
 
 </td></tr></tbody>
 </table>6.  Select **Submit**.
@@ -103,11 +103,11 @@ For more information, see [Assign Health and Safety profile to a contractor work
 
     -   Select **Add** to link an existing document stored in the **Health and Safety document library** list.
     -   Select **New** to upload a new document.
-    For information on storing safety-related documents in Health and Safety Workspace, see [Add a new Health and Safety related document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/add-hs-related-document.md).
+    For information on storing safety-related documents in Health and Safety Workspace, see [Add a new Health and Safety related document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/add-hs-related-document.md).
 
 -   In the **Site access** tab, select **New** to grant site access to workers from this contractor company so that they can perform required tasks at your location.
 
-    If any workers associated with this company already have the site access, they appear in this list. For information on adding site access for a worker, see [Grant site access to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-grant-site-access-worker.md).
+    If any workers associated with this company already have the site access, they appear in this list. For information on adding site access for a worker, see [Grant site access to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-grant-site-access-worker.md).
 
 -   If necessary, add attachments related to the company using the add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachment icon.\).
 

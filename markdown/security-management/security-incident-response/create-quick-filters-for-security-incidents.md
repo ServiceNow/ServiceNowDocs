@@ -2,7 +2,7 @@
 title: Create quick filters for Security Incidents and Response Tasks lists
 description: Create quick filters to create reusable, predefined filters that appear on the security incidents and response tasks list pages enabling security analysts to filter the list items without adding the filter conditions each time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-quick-filters-for-security-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-quick-filters-for-security-incidents.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -45,7 +45,7 @@ Role required: sn\_si.admin
 
 The newly created filter is saved and appears on the Filter page.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

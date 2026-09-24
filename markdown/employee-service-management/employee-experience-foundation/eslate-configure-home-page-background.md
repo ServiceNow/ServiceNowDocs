@@ -2,7 +2,7 @@
 title: Configure the home page background
 description: Set a solid color, gradient, or image background for the home page, and match the logo and text color to the background.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-home-page-background.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-home-page-background.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

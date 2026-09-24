@@ -2,7 +2,7 @@
 title: Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace
 description: Reduce manual effort by leveraging the Manage contract repository agentic workflow to extract key metadata and obligations from an uploaded signed contract, and calculate the contract reminder date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/extract-metadata-from-uploaded-contract-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/extract-metadata-from-uploaded-contract-document.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -33,7 +33,7 @@ Use the Manage contract repository agentic workflow to extract metadata and key 
 
 3.  On the Create New Contract form, fill in the required **Contract model** and **Contract number** field values.
 
-    For a description of the field values, see [Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_CreateAContract.md).
+    For a description of the field values, see [Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/t_CreateAContract.md).
 
 4.  Select **Save**.
 
@@ -66,14 +66,14 @@ After extraction is completed, a confirmation message appears on the contract fo
 
 Review the extracted metadata, contract reminder date, and obligations record.
 
-**Parent Topic:**[Use manage contract repository agentic workflow in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manage-contract-repository-workflow.md)
+**Parent Topic:**[Use manage contract repository agentic workflow in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/manage-contract-repository-workflow.md)
 
 **Related topics**  
 
 
-[Review AI-extracted metadata and contract reminder date in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/work-with-extracted-contract-metadata.md)
+[Review AI-extracted metadata and contract reminder date in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/work-with-extracted-contract-metadata.md)
 
-[Review AI-extracted obligations Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/review-extracted-obligations.md)
+[Review AI-extracted obligations Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/review-extracted-obligations.md)
 
-[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_CreateAContract.md)
+[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/t_CreateAContract.md)
 

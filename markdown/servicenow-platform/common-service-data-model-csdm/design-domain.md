@@ -2,7 +2,7 @@
 title: Design &amp; Planning domain in the CSDM model
 description: Enterprise architects and digital product owners work on the design and planning of digital products that your organization can either buy or build.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/design-domain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/design-domain.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -23,7 +23,7 @@ CIs in the Design &amp; Planning domain aren’t operational, so you can’t sel
 The Design &amp; Planning domain includes the tables used by Application Portfolio Management \(APM\). You use APM to rationalize and manage your business applications, but you're not required to use APM to benefit from the data in these tables. The Design &amp; Planning domain includes the following tables:
 
 -   Business Capability \[cmdb\_ci\_business\_capability\] table. Business Capability: A business capability is a high-level capability required by the organization to execute its business model. A business capability provides design guidance for implementing applications.
--   Business Application \[cmdb\_ci\_business\_app\] table. A business application is a purchased or internally-developed application that supports a business capability. A Business Application, ultimately, relates to an Application Service table and not any other type of Service Instance. For more information, see [CI relationships in the CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/ci-relationships.md).
+-   Business Application \[cmdb\_ci\_business\_app\] table. A business application is a purchased or internally-developed application that supports a business capability. A Business Application, ultimately, relates to an Application Service table and not any other type of Service Instance. For more information, see [CI relationships in the CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/ci-relationships.md).
 -   Information Object \[cmdb\_ci\_information\_object\] table. An information object describes the type of data that is being interchanged between the business application and the database that serves it.
 
 \[Omitted image "domain-design-planning-tables.png"\] Alt text: Design &amp; Planning domain of the CSDM framework.
@@ -110,10 +110,10 @@ Use either of the following methods to add a business application:
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
+**Parent Topic:**[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
 
 **Related topics**  
 
 
-[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 

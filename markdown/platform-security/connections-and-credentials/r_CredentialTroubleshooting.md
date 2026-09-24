@@ -2,7 +2,7 @@
 title: Credentials troubleshooting
 description: Review the &lt;credentials\_debug&gt; section of the ECC queue payload to troubleshoot issues with credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/r\_CredentialTroubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/r\_CredentialTroubleshooting.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -20,7 +20,7 @@ Certain probes support credential debugging. Credential debugging inserts a `<cr
 
 The `<credentials_debug>` section appears in the payload if:
 
--   Credentials fail for [WMIRunner probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_WMIRunnerProbe.md), [PowerShell probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_PowershellProbe.md), [JMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JMSCredentialsForm.md), or [SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_SSHCommandProbe.md).
+-   Credentials fail for [WMIRunner probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_WMIRunnerProbe.md), [PowerShell probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_PowershellProbe.md), [JMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/r_JMSCredentialsForm.md), or [SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_SSHCommandProbe.md).
 -   You set the **credentials\_debug** parameter to **true** for the WMIRunner, PowerShell, or SSHCommand probes. If you set the parameter to true, the `<credentials_debug>` section appears even if the credential lookup is successful.
 
 The `<credentials_debug>` section shows:

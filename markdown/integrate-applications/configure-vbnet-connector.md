@@ -2,7 +2,7 @@
 title: Configure the VB.Net connector
 description: Write and validate a custom VB.Net script before executing it as part of a Workflow in the RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-vbnet-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-vbnet-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Write and validate a custom VB.Net script before executing it as part of a Workf
 
 ## Before you begin
 
-Ensure you have installed the Scripting plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+Ensure you have installed the Scripting plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-plugins-rpa-studio.md).
 
 Role required: Developer
 
@@ -53,5 +53,5 @@ Role required: Developer
 
 The custom script you created by using the VB.net connector is now ready to be used in your automation.
 
-**Parent Topic:**[VB.Net](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/vb-net.md)
+**Parent Topic:**[VB.Net](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/vb-net.md)
 

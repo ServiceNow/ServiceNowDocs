@@ -2,7 +2,7 @@
 title: Create a subflow to reclaim a user
 description: Create a subflow to reclaim a user subscription.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-subflow-reclaim-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/saas-license-management/create-subflow-reclaim-user.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -18,7 +18,7 @@ Create a subflow to reclaim a user subscription.
 
 ## Before you begin
 
-This subflow requires an action to remove a user. For more information, see [Create an action to remove a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-data-stream-remove-user.md).
+This subflow requires an action to remove a user. For more information, see [Create an action to remove a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-data-stream-remove-user.md).
 
 Role required: flow\_designer
 
@@ -125,7 +125,7 @@ Run As
 
 7.  In the list of installed spokes, select the spoke for the SaaS application that you're integrating with.
 
-    **Note:** To add additional spokes to your list of installed spokes, request them on the [ServiceNow Store](https://store.servicenow.com). For a complete list of available spokes, see [IntegrationHub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/spokes-list.md). If there's no existing spoke for the SaaS application that you want to integrate with, you can [create a new spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-saas-spoke.md).
+    **Note:** To add additional spokes to your list of installed spokes, request them on the [ServiceNow Store](https://store.servicenow.com). For a complete list of available spokes, see [IntegrationHub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/spokes-list.md). If there's no existing spoke for the SaaS application that you want to integrate with, you can [create a new spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-saas-spoke.md).
 
 8.  To remove a user, select an action.
 

@@ -2,7 +2,7 @@
 title: Now Mobile app demo
 description: Access the demo in your Now Mobile app to learn how the app can help you work from anywhere using your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/sg-mobile-demo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-mobile-employee-experience/sg-mobile-demo.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -55,7 +55,7 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 -   **Frequently Used Items**
 
-    The display includes an example of shortcuts to items employee users are likely to access frequently, such as scheduling a visit to the tech lounge. These can be configured by the organization to keep them readily available for employees. For more information about the tech lounge example, see [Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walkup-experience-landing-page.md). For more information on office entry codes, see [Verify your health status and compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/agree-compliance-return.md).
+    The display includes an example of shortcuts to items employee users are likely to access frequently, such as scheduling a visit to the tech lounge. These can be configured by the organization to keep them readily available for employees. For more information about the tech lounge example, see [Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walkup-experience-landing-page.md). For more information on office entry codes, see [Verify your health status and compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/agree-compliance-return.md).
 
 -   **My Items**
 
@@ -87,11 +87,11 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 -   **Health**
 
-    Employees have everything they need for workplace health and safety. Users can verify health, make reservations, or report vaccinations. For more information, see [Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md).
+    Employees have everything they need for workplace health and safety. Users can verify health, make reservations, or report vaccinations. For more information, see [Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md).
 
 -   **Virtual Agent Chat**
 
-    Use the chat button to connect to a virtual agent. Virtual agent is an automated conversational interface you can use to address common issues, such as password resets, or email account setup. The Now Mobile uses a quick action to access chat. For more information on Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md). The chat button on the demo launch page is a quick action. For details on how to add a virtual agent to your mobile apps, see [Enable Live Agent in the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/va-in-me.md).
+    Use the chat button to connect to a virtual agent. Virtual agent is an automated conversational interface you can use to address common issues, such as password resets, or email account setup. The Now Mobile uses a quick action to access chat. For more information on Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md). The chat button on the demo launch page is a quick action. For details on how to add a virtual agent to your mobile apps, see [Enable Live Agent in the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/va-in-me.md).
 
 
 ## Chief Information Officer \(CIO\)
@@ -160,7 +160,7 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 -   **Get Ready**
 
-    A list of common tasks from across the organization that new employees may complete as part of their onboarding experience. These tasks are lifecycle activities, which are part of the Enterprise Onboarding and Transitions application. For more information on lifecycle activities, see [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
+    A list of common tasks from across the organization that new employees may complete as part of their onboarding experience. These tasks are lifecycle activities, which are part of the Enterprise Onboarding and Transitions application. For more information on lifecycle activities, see [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
 
 -   **New Hire Contacts**
 
@@ -177,5 +177,5 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 Use the following link to learn more about on how to use and configure the Now Mobile app: [Configuring the Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-platform-landing.md).
 
-**Parent Topic:**[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
+**Parent Topic:**[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
 

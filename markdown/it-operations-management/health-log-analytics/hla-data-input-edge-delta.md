@@ -2,7 +2,7 @@
 title: Configure an Edge Delta data input in Health Log Analytics manually
 description: Set up an Edge Delta data input to enable Health Log Analytics to process Edge Delta log messages streaming into your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-edge-delta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-edge-delta.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -43,7 +43,7 @@ If your organization uses Edge Delta to handle large volumes of log data from mu
 
 4.  On the form, fill in the fields.
 
-    For a detailed description of the fields, see [Edge Delta data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-edge-delta-ref.md).
+    For a detailed description of the fields, see [Edge Delta data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-edge-delta-ref.md).
 
 5.  Select **Save** to save your configuration.
 
@@ -58,7 +58,7 @@ The data input configuration process is complete. Health Log Analytics adds the 
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
+[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

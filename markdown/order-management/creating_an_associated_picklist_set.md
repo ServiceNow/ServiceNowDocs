@@ -2,7 +2,7 @@
 title: Creating an associated picklist set
 description: Learn to use an associated picklist instead of a set field when you create a new set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/creating\_an\_associated\_picklist\_set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/creating\_an\_associated\_picklist\_set.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Configure picklist extensions, CPQ Configurator, Configure, price, 
 
 Learn to use an associated picklist instead of a set field when you create a new set.
 
-**Note:** Be sure to read about product pickers and their functionality before building associated picklists, as they may be better suited to your use case. See [Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product_picker_overview.md).
+**Note:** Be sure to read about product pickers and their functionality before building associated picklists, as they may be better suited to your use case. See [Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product_picker_overview.md).
 
 The New Set dialog box includes an option for size type. **Set Field** is the default. If you select **Associated picklist**, a new field appears where you can select the picklist field that will be associated with the set.
 

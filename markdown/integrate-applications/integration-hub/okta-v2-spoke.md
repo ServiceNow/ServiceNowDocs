@@ -2,7 +2,7 @@
 title: Okta Spoke
 description: Use Okta to manage users, passwords, and groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/okta-v2-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/okta-v2-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -125,7 +125,7 @@ Creates an Okta application record or updates an existing Okta application recor
 </td></tr></tbody>
 </table>## Available sample conversational subflows
 
-Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [ServiceNow Otto for Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conv-spokes-na.md).
+Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [ServiceNow Otto for Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/conv-spokes-na.md).
 
 |Conversational subflow|Description|
 |----------------------|-----------|
@@ -164,7 +164,7 @@ Okta groups
 
 </td><td>
 
-Shows the list of user groups at Okta. Click **Fetch Okta Groups** to retrieve details of the Okta groups. For more information, see [Fetch Okta groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fetch-okta-groups.md).
+Shows the list of user groups at Okta. Click **Fetch Okta Groups** to retrieve details of the Okta groups. For more information, see [Fetch Okta groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/fetch-okta-groups.md).
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ Okta Webhook Registry
 
 </td><td>
 
-Shows the list of webhook registries. Click **New** to create a webhook registry. For more information, see[Set up a bi-directional webhook for Okta spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhook-okta.md).
+Shows the list of webhook registries. Click **New** to create a webhook registry. For more information, see[Set up a bi-directional webhook for Okta spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webhook-okta.md).
 
 </td></tr></tbody>
 </table>## Spoke actions
@@ -634,13 +634,13 @@ Verifies and retrieves an external service endpoint configured for an event hook
 </td></tr></tbody>
 </table>## Available conversational actions
 
-Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [ServiceNow Otto for Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conv-spokes-na.md).
+Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [ServiceNow Otto for Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/conv-spokes-na.md).
 
 Available conversation action is Create Group that creates a group in Okta with the provided details.
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -675,11 +675,11 @@ The Okta spoke requires generating and configuring your Okta account to use a we
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-This spoke uses the Okta Connection &amp; Credential Alias record to authorize actions. For information about setting up the spoke, see [Set up Okta spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md).
+This spoke uses the Okta Connection &amp; Credential Alias record to authorize actions. For information about setting up the spoke, see [Set up Okta spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-okta-v1.1.1.md).
 
 ## MID Server requirements
 
 These actions use REST calls that can run either on an instance or, optionally, through a MID Server. Use the connection record associated with the Okta alias to configure where actions run and, if needed, specify MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

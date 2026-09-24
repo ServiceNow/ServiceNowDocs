@@ -2,7 +2,7 @@
 title: Manage a crisis event
 description: Review and update the details of a crisis event in the Details tab. Get the event ready for a crisis that may strike and disrupt your business.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/manage-crisis-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/manage-crisis-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

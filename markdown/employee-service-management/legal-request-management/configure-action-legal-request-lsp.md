@@ -2,7 +2,7 @@
 title: Configure an Action for legal services on the Standard ticket page
 description: Add or modify an Action and its functionality on the Standard ticket page for a legal request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/configure-action-legal-request-lsp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/configure-action-legal-request-lsp.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -78,5 +78,5 @@ The base system `DefaultLegalTicketActions` script provides the configuration of
     4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-ops-administration.md)
 

@@ -2,7 +2,7 @@
 title: Verify the Microsoft Intune spoke records
 description: Verify that the spoke is integrated with CSD 2.0 after setting up and configuring the Microsoft Intune spoke and create server instance record to use Microsoft Intune spoke with CSD 2.0.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-intune.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd2-intune.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,8 +18,8 @@ Verify that the spoke is integrated with CSD 2.0 after setting up and configurin
 
 ## Before you begin
 
--   Activate the Microsoft Azure Active Directory spoke spoke and set up the spoke. For more information about the spoke setup, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-azure.md).
--   Activate the Microsoft Intune spoke and set up the spoke. For more information about the spoke setup, see [Set up the Microsoft Intune spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ms-intune.md).
+-   Activate the Microsoft Azure Active Directory spoke spoke and set up the spoke. For more information about the spoke setup, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-azure.md).
+-   Activate the Microsoft Intune spoke and set up the spoke. For more information about the spoke setup, see [Set up the Microsoft Intune spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-ms-intune.md).
 -   Activate the CSD 2.0 application.
 -   Role required: admin
 
@@ -52,5 +52,5 @@ Verify that the spoke is integrated with CSD 2.0 after setting up and configurin
         **Note:** You can configure the default flows as per your requirement.
 
 
-**Parent Topic:**[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-ms-intune.md)
+**Parent Topic:**[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-ms-intune.md)
 

@@ -2,7 +2,7 @@
 title: Create extension points for Work scheduler
 description: Create extension points to customize your implementation in Work scheduler. For example, if you want your team members to work on an on-site task, you can configure the location of your team members to the work items assigned to them so that they can get to the tasks quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-work-sched-ext-points-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-work-sched-ext-points-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ The **WorkItemSkillsRecommendationManager** extension point is available by defa
 4.  Define the functions based on your needs to customize your implementation.
 
 
-**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
 

@@ -2,7 +2,7 @@
 title: Configure Set Classification Values on Invoice Stage flow
 description: Configure the classification values within the invoice stage flow using the flow designer to write back the classification results into the invoice record for subsequent processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/set-classification-values-on-invoice-stage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/set-classification-values-on-invoice-stage.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

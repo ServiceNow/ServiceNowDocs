@@ -2,7 +2,7 @@
 title: Decline a feedback request
 description: You can decline a feedback request sent you if you do not wish to provide feedback for any reason.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/accept-deny-feedback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-feedback/accept-deny-feedback.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

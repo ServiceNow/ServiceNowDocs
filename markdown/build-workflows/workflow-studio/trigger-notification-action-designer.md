@@ -2,7 +2,7 @@
 title: Notification step
 description: Trigger a notification as a step within an action by selecting a record \(such as an incident, change request, problem, or user record\) to trigger a notification and defining the associated notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/trigger-notification-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/trigger-notification-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -66,12 +66,12 @@ Select the notification to be triggered. The notifications that can be selected 
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## Example
 
 \[Omitted image "notification-step-example.png"\] Alt text: Example Notification step in an action.
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

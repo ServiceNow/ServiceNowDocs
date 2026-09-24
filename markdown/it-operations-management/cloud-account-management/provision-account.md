@@ -2,7 +2,7 @@
 title: Provision a cloud account
 description: Provision a cloud account as an admin through Cloud Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/provision-account.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/provision-account.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -18,7 +18,7 @@ Provision a cloud account as an admin through Cloud Workspace.
 
 ## Before you begin
 
-Confirm that the cloud context has been configured. For more information, see [Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-config.md).
+Confirm that the cloud context has been configured. For more information, see [Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cam-config.md).
 
 Discovery must have been performed on the cloud admin portal.
 

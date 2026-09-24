@@ -2,7 +2,7 @@
 title: Using product offering recommendations in quotes
 description: As a sales agent, you can use recommended product offerings to upsell or cross-sell additional products in your quotes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/using-prod-recommendations-quote.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-prod-recommendations-quote.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,10 +34,10 @@ When multiple cards are displayed, they're arranged in the order value that was 
 
 ## Recommendation process
 
-When you add a product recommendation, the recommended product offering is added as a line item to your quote. For more information, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-get-product-offer.md). After you add or dismiss recommendations, they’re moved to the recommendation history. Use the History \[Omitted image "history-prod-recommendations-icon.png"\] Alt text: icon in the Recommended products panel to view the recommendation history.
+When you add a product recommendation, the recommended product offering is added as a line item to your quote. For more information, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-get-product-offer.md). After you add or dismiss recommendations, they’re moved to the recommendation history. Use the History \[Omitted image "history-prod-recommendations-icon.png"\] Alt text: icon in the Recommended products panel to view the recommendation history.
 
--   **[Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-get-product-offer.md)**  
+-   **[Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-get-product-offer.md)**  
 Get product offering recommendations to upsell or cross-sell additional products in quotes.
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

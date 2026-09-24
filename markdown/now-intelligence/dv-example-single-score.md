@@ -2,7 +2,7 @@
 title: Single score data visualization example
 description: Use a single score visualization when you want to show a single value or metric, such as overall revenue or number of open incidents. The basic score visualizes a single value with a descriptive heading and date/timestamp.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-single-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-example-single-score.html
 release: australia
 topic_type: task
 last_updated: "2026-03-25"
@@ -16,7 +16,7 @@ Use a single score visualization when you want to show a single value or metric,
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -26,7 +26,7 @@ In this example, you create a single score visualization that shows the number o
 
 ## Procedure
 
-1.  Follow the first steps to [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md):
+1.  Follow the first steps to [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-sing-sc-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -139,5 +139,5 @@ In this example, you create a single score visualization that shows the number o
 
 You have created a single score visualization based on a single metric, open incidents. You have also configured user options regarding filters and drilldowns, and configured a color, an icon, and coloring rules.
 
-**Parent Topic:**[Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md)
+**Parent Topic:**[Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-sing-sc-ac.md)
 

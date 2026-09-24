@@ -2,7 +2,7 @@
 title: Schedule or execute a job to update records
 description: Schedule a date and time to execute an update job or execute the job immediately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/schedule-execute-job-update-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/schedule-execute-job-update-records.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -65,7 +65,7 @@ Description
 </table>
 ## Result
 
-The records are scheduled for update or updated immediately. If you want to revert the updates to the records, see [Rollback an update job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/rollback-update-job.md).
+The records are scheduled for update or updated immediately. If you want to revert the updates to the records, see [Rollback an update job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/rollback-update-job.md).
 
-**Parent Topic:**[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/updating-records-safely.md)
+**Parent Topic:**[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/updating-records-safely.md)
 

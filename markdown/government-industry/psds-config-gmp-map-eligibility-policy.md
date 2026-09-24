@@ -2,7 +2,7 @@
 title: Map an PaCE eligibility policy to a grant model using Grants Management Eligibility Framework
 description: For a eligibility policy to be invoked correctly, it must be mapped to an existing grant model. Map a published eligibility policy to one or more of the grant types that your agency offers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-map-eligibility-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-map-eligibility-policy.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -35,5 +35,5 @@ Role required: admin
 
 The newly created mapping is valid and active, and the mapping input is added to the list of policy mappings.
 
-**Parent Topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-eligibility.md)
+**Parent Topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-eligibility.md)
 

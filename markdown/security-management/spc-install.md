@@ -2,7 +2,7 @@
 title: Install the supported applications for Security Posture Control
 description: The applications required for this integration are available on the ServiceNow Store. Some applications have dependencies that you must download and install separately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/spc-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/spc-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,12 +52,12 @@ Role required: admin for download, installation, and activation of all applicati
     |------|---------|
     |ServiceNow IntergationHub Action Template - Data Stream|com.glide.hub.action\_type.datastream|
 
-    See [Creating your own API connectors in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-creating-sgc-template.md) for more information.
+    See [Creating your own API connectors in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-creating-sgc-template.md) for more information.
 
     For more information about downloading and activating applications, see the following topics:
 
-    -   [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
-    -   [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+    -   [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/download-app-first-time.md).
+    -   [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/activate-entitled-store-app.md).
 2.  After you have downloaded the applications, navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 3.  Locate the applications that you downloaded and select **Install** to activate them along with their dependencies.
@@ -100,10 +100,10 @@ Role required: admin for download, installation, and activation of all applicati
 
 6.  Set the **ignoreCIClass** \[sn\_sec\_cmn.ignoreCIClass\] system property to ignore some configuration item \(CI\) classes when running CI Lookup Rules.
 
-    As an SPC Admin and SPC Analyst, you might need to ignore certain hardware or virtual classes. By ignoring these items, you do not ingest information about assets you do not want to control. See [Create a Vulnerability Response CI lookup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/create-ci-identifier-rules.md) and [Ignore CI classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/ignore-CI-classes.md) for more information.
+    As an SPC Admin and SPC Analyst, you might need to ignore certain hardware or virtual classes. By ignoring these items, you do not ingest information about assets you do not want to control. See [Create a Vulnerability Response CI lookup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/create-ci-identifier-rules.md) and [Ignore CI classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/ignore-CI-classes.md) for more information.
 
 7.  Modify reconcilation and recompute CMDB data sources to set the source of truth for attribute values.
 
-    The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in Configuration Management Database \(CMDB\) Workspace to track activities and identify potential issues of discovery sources. See [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-workspace-cmdb360-view.md) for more information.
+    The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in Configuration Management Database \(CMDB\) Workspace to track activities and identify potential issues of discovery sources. See  for more information.
 
 

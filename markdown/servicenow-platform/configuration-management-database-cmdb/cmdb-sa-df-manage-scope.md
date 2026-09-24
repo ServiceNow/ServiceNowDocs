@@ -2,7 +2,7 @@
 title: Manage principal classes in the Data Foundations advisor
 description: Add or remove CI classes from the Data Foundations advisor scope to keep it aligned with your organization's current goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-manage-scope.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-manage-scope.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -42,5 +42,5 @@ Role required: sn\_cmdb\_admin
 
 ## Result
 
-The Data Foundations advisor dashboard updates to reflect the data based on the new principal class selection. Dashboard metrics refresh once daily when the **CMDB Advisor - DF Daily Data Collection** scheduled job runs. The scheduled job invokes the **CMDB success advisor data collection for Data Foundation** Performance Analytics job to recalculate the pre-aggregated indicators used throughout the dashboard. For more information about Performance Analytics jobs, see [Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ClctData.md). Changes to your principal class selection appear in the dashboard metrics after this job's next run, not immediately. For the full list of CMDB success advisor scheduled jobs, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-components-installed.md).
+The Data Foundations advisor dashboard updates to reflect the data based on the new principal class selection. Dashboard metrics refresh once daily when the **CMDB Advisor - DF Daily Data Collection** scheduled job runs. The scheduled job invokes the **CMDB success advisor data collection for Data Foundation** Performance Analytics job to recalculate the pre-aggregated indicators used throughout the dashboard. For more information about Performance Analytics jobs, see [Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ClctData.md). Changes to your principal class selection appear in the dashboard metrics after this job's next run, not immediately. For the full list of CMDB success advisor scheduled jobs, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-components-installed.md).
 

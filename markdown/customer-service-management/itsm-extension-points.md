@@ -2,7 +2,7 @@
 title: Extension points for CSM integration with IT Service Management
 description: Use the extension points available with CSM integration with IT Service Management to extend the functionality of your application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/itsm-extension-points.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/itsm-extension-points.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

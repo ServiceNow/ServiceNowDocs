@@ -2,7 +2,7 @@
 title: Collaborate with stakeholders by using the sidebar
 description: Initiate a discussion with internal and external stakeholders, such as sales agents, solution consultants, and subject matter experts using sidebar integration with Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-sidebars-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management-sidebars-teams.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,7 +49,7 @@ Make your collaboration more effective by sharing emojis, messages, and attachme
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

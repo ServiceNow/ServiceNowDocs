@@ -2,10 +2,10 @@
 title: Combined Decision tables in Workflow Studio release notes for upgrades from Xanadu to Australia
 description: Consolidated page of all release notes for Decision tables in Workflow Studio from Xanadu to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-decisiontablesinworkflowstudio-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-decisiontablesinworkflowstudio-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -542,5 +542,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-xanadu-australia/rn-combined-intro.md)
 

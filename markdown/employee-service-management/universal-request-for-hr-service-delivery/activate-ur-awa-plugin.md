@@ -2,7 +2,7 @@
 title: Activate Universal Request Advanced Work Assignment
 description: You can activate the Universal Request: Advanced Work Assignment plugin \(com.snc.universal\_request.awa\) if you have the admin role. Activating this plugin enables you to use Advanced Work Assignment and automatically assign work items to your agents, based on their availability in the Universal Request application. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-awa-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-awa-plugin.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -20,7 +20,7 @@ You can activate the Universal Request: Advanced Work Assignment plugin \(com.sn
 
 **Note:** The Universal Request: Advanced Work Assignment plugin \(com.snc.universal\_request.awa\) plugin requires a separate subscription and must be activated by a ServiceNow personnel.
 
-Before installing the Universal Request: Advanced Work Assignment plugin \(com.snc.universal\_request.awa\) plugin, install the Universal Request plugin. For more information, see [Activate Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-plugin.md).
+Before installing the Universal Request: Advanced Work Assignment plugin \(com.snc.universal\_request.awa\) plugin, install the Universal Request plugin. For more information, see [Activate Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-plugin.md).
 
 Role required: admin
 
@@ -39,7 +39,7 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Universal Request plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-plugins.md)
+**Parent Topic:**[Universal Request plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-plugins.md)
 
 **Related topics**  
 

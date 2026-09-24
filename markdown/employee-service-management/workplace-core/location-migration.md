@@ -2,7 +2,7 @@
 title: Location migration
 description: Learn how to migrate location data from the ServiceNow Locations table to the Workplace Location table to use them in Workplace Service Delivery applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/location-migration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/location-migration.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -29,12 +29,12 @@ When you set a configuration as optional, then the records that don’t match th
 
 After migrating the locations, if you create a location in the Workplace Core application, the location is automatically added in the ServiceNow® Location \[cmn\_location\] table. You can configure the type of the location by setting Dictionary Overrides.
 
--   **[Configure location migration hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-location-migration-hierarchy.md)**  
+-   **[Configure location migration hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/add-location-migration-hierarchy.md)**  
 Create a hierarchy for how the location data from the ServiceNow® Location table \[cmn\_location\] must be migrated to the Workplace Location \[sn\_wsd\_core\_workplace\_location\] table of Workplace Service Delivery.
--   **[Set the location type in Location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/set-loc-type-in-loc-table.md)**  
+-   **[Set the location type in Location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/set-loc-type-in-loc-table.md)**  
 Set the location type of a location by creating a dictionary override of the table.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

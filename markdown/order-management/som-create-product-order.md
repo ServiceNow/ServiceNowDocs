@@ -2,7 +2,7 @@
 title: Create an order in Order Management
 description: Create a product or service order for an account or consumer in Order Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-product-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-create-product-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -121,12 +121,12 @@ The order is started and the product catalog opens.
 
 ## What to do next
 
-Browse the product catalog and add products and services to the order. For more information, see [Add products or services to an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-add-products-services-to-orders.md).
+Browse the product catalog and add products and services to the order. For more information, see [Add products or services to an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-add-products-services-to-orders.md).
 
 **Related topics**  
 
 
-[Order types in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-order-types.md)
+[Order types in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-order-types.md)
 
-[Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md)
+[Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-customer-order-types.md)
 

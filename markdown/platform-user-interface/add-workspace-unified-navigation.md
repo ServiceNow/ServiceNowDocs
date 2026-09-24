@@ -2,7 +2,7 @@
 title: Add a workspace to the Unified Navigation Workspaces menu
 description: Configure the Unified Navigation to display a workspace in the Workspaces menu.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-workspace-unified-navigation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/add-workspace-unified-navigation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -78,7 +78,7 @@ Order
 
 </td><td>
 
-Order in which the Workspace you select is displayed in the Workspaces menu.**Note:** This option is enabled once the **glide.ui.next\_experience.workspace\_sorting** system property has been created. For more information, see [Set the order of your workspaces in the Unified Navigation Workspaces menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-order-workspace-unified-navigation.md).
+Order in which the Workspace you select is displayed in the Workspaces menu.**Note:** This option is enabled once the **glide.ui.next\_experience.workspace\_sorting** system property has been created. For more information, see [Set the order of your workspaces in the Unified Navigation Workspaces menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-order-workspace-unified-navigation.md).
 
 </td></tr></tbody>
 </table>7.  Select **Submit**.
@@ -86,5 +86,5 @@ Order in which the Workspace you select is displayed in the Workspaces menu.**No
 8.  Refresh your browser to access the new workspace from the Workspaces menu.
 
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 

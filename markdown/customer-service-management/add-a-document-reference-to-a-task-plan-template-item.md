@@ -2,7 +2,7 @@
 title: Add and Manage Document Reference in Task Plan Templates
 description: Add documents to task plan template items through extensible feature tables. Supported file types include PDFs, Word documents, PowerPoint files, or images.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-a-document-reference-to-a-task-plan-template-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-a-document-reference-to-a-task-plan-template-item.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

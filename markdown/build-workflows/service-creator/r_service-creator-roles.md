@@ -2,7 +2,7 @@
 title: Service Creator roles
 description: The Service Creator application uses the specific roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/r\_service-creator-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/service-creator/r\_service-creator-roles.html
 release: australia
 product: Service Creator
 classification: service-creator

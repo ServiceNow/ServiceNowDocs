@@ -2,7 +2,7 @@
 title: Add HQ task details
 description: Log the HQ task details to the new HQ communications store plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-add-hq-task-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-add-hq-task-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,5 +53,5 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
     3.  Select **Continue** to go next step.
 
 
-**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plan-authoring.md)
+**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-manage-store-plan-authoring.md)
 

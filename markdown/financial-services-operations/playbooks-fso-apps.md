@@ -2,7 +2,7 @@
 title: Playbooks for Financial Services Operations applications
 description: Several playbooks are installed with Financial Services Operations applications that you can use to run your digitized business process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/playbooks-fso-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/playbooks-fso-apps.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

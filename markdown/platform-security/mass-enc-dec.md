@@ -2,7 +2,7 @@
 title: Run mass encryption or decryption
 description: You can run mass encryption on encryption configurations, as well as a mass decryption to decrypt previously encrypted values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/mass-enc-dec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/mass-enc-dec.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: security\_admin
 
 ## About this task
 
-You can also create scheduled jobs for mass encryption and decryption. See [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-mass-jobs.md) for instructions.
+You can also create scheduled jobs for mass encryption and decryption. See [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/schedule-mass-jobs.md) for instructions.
 
 Mass encryption and decryption are available only when an encrypted field configuration uses the single cryptographic module. Mass decryption is available for both the single and multiple encryption method.
 
@@ -43,5 +43,5 @@ Mass encryption and decryption are available only when an encrypted field config
 
 If running a mass encryption, all values are encrypted with the encryption module defined in the encrypted field configuration record. If running a mass decryption, only fields encrypted with an encryption module you have access to are decrypted.
 
-**Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption-key-management.md)
+**Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption-key-management.md)
 

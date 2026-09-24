@@ -2,7 +2,7 @@
 title: Modifying data retention and table cleanup policy for Lead-to-Cash Process Management
 description: Modify the default data retention and table cleanup policy for Lead-to-Cash Process Management to match your organizations requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/modifying-table-cleanup-policy-l2c-process-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/modifying-table-cleanup-policy-l2c-process-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

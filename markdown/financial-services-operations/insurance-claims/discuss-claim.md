@@ -2,7 +2,7 @@
 title: Discuss a claim
 description: Discuss details of a claim with additional users that have access to the claim record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/discuss-claim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/discuss-claim.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

@@ -2,7 +2,7 @@
 title: Create post incident review assignment rules
 description: In addition to manually adding users to a Post Incident Review \(PIR\) assessment list for a security incident, you can define assignment rules for automatically adding users or group to the list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-pir-assignment-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-pir-assignment-rules.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

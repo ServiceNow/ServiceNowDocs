@@ -2,7 +2,7 @@
 title: Request a knowledge base
 description: If existing knowledge bases do not fit your needs, you can request a new knowledge base through the service catalog. If the request is approved, you are added as the owner of the new knowledge base.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_RequestAKnowledgeBase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/t\_RequestAKnowledgeBase.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -43,14 +43,14 @@ You are notified when the request is approved or rejected. If the request is app
 
 Knowledge bases created through this request process are inactive by default, so you must activate the knowledge base to make it available for users.
 
-**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/using-knowledge-management.md)
 
 **Related topics**  
 
 
-[Assign a knowledge base manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_AssignAKnowledgeBaseManager.md)
+[Assign a knowledge base manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_AssignAKnowledgeBaseManager.md)
 
-[Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_PinAnArticle.md)
+[Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_PinAnArticle.md)
 
-[Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
+[Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-knowledge-article.md)
 

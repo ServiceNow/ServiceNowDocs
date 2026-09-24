@@ -2,7 +2,7 @@
 title: PPM Virtual Agent conversation flows
 description: Virtual Agent for PPM provides several predefined topic conversations to enable project managers to gather information on their business-related tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/ppm-va-conversations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/ppm-va-conversations.html
 release: australia
 product: Project Management
 classification: project-management
@@ -42,9 +42,9 @@ The following predefined topic conversations are available to view if you have t
 **Related topics**  
 
 
-[Install Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/activate-ppm-va.md)
+[Install Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/activate-ppm-va.md)
 
-[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/setup-ppm-va.md)
+[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/setup-ppm-va.md)
 
-[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-topic-blocks.md)
+[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ppm-va-topic-blocks.md)
 

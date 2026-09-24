@@ -2,7 +2,7 @@
 title: Breakdown matrices in formula indicators
 description: Formula indicators inherit breakdown matrices from indicators in the formula.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/bkdown-matrix-formula-indicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/bkdown-matrix-formula-indicators.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -42,7 +42,7 @@ Number of open incidents with Category = Software: 31
 Formula: 8152/31/24=11
 ```
 
-**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Use the log file browser
 description: The instance provides the utilities log file browser and log file download.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_LogUtilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_LogUtilities.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

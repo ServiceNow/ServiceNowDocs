@@ -2,7 +2,7 @@
 title: Deregister a Discovery Sensor for OT
 description: Deregister a Discovery Sensor for OT from the Discovery Console for OT that is no longer available on your system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/deregister-sensor-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/deregister-sensor-console.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ Role required: admin
 
 The Sensor is deregistered, and the Sensor is reset to the default network configuration, which is the DHCP with the link-local fallback.
 
-**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-discovery-sensor-ot.md)
 

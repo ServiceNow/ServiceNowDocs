@@ -2,7 +2,7 @@
 title: Review and approve a pre-authorization request
 description: Review and approve the pre-authorization request submitted by a dealer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-pre-auth-review.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-pre-auth-review.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

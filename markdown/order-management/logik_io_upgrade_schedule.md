@@ -2,7 +2,7 @@
 title: CPQ Upgrade Schedule
 description: CPQ updates customer environments on a predictable bi-weekly schedule to deliver new features, enhancements, and fixes. Test environments are upgraded first, with production updates following after at least 14 days to ensure stability. You can identify your environment’s sector from its URL and refer to the Upgrade Calendar to see which version your instance is currently running.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io\_upgrade\_schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/logik\_io\_upgrade\_schedule.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

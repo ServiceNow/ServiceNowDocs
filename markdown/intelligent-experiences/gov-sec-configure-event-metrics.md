@@ -2,12 +2,12 @@
 title: Configure post-runtime security metrics
 description: Customize security and content moderation policies, sampling rate, skill call usage limit, LLMs to use, and other settings for the Top AI asset security events metric and others.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-event-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-configure-event-metrics.html
 release: australia
 topic_type: task
 last_updated: "2026-05-02"
 reading_time_minutes: 9
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -178,5 +178,5 @@ You can configure these settings:-   **Input extended PII** – Collect more pot
     Some settings aren't available to be configured in security for external AI systems. Instead, you're directed to the Evaluation tab in Settings to configure the settings.
 
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configuring.md)
 

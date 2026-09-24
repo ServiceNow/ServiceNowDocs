@@ -2,7 +2,7 @@
 title: Adobe Experience Platform Spoke
 description: Automate the process of managing datasets and entities in Adobe Experience Platform from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/adobe-exp-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/adobe-exp-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -67,5 +67,5 @@ Integration Hub uses aliases to manage connection and credential information. Us
 
 **Note:** Two connection and credential alias records are needed for the Adobe Experience Platform spoke; one for data inlet management and batch ingestion, and other for data collection. Each alias should be associated with the respective Adobe Experience Platform API.
 
-For information about setting up the spoke, see [Set up Adobe Experience Platform spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-aep-spoke.md).
+For information about setting up the spoke, see [Set up Adobe Experience Platform spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-aep-spoke.md).
 

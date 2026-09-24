@@ -2,7 +2,7 @@
 title: Customization vs. configuration with Creator Studio
 description: There are important differences between customizing and configuring ServiceNow applications. The ServiceNow platform is built to embrace customization and configuration but how you do so can have significant impacts on ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-custom-vs-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-custom-vs-config.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -112,7 +112,7 @@ When your company needs to add new functionality to the ServiceNow platform, you
 
 For example, ITSM is designed to handle IT issues. To customize it to handle travel requests goes beyond the original intention of ITSM. Because IT and travel requests have different workflows, it’s better to create a travel request app using App Engine developer tools, such as Creator Studio and ServiceNow Studio, instead of customizing ITSM.
 
-For more information, see [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-landing.md).
+For more information, see [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-landing.md).
 
 ## Examples of when to use App Engine developer products
 

@@ -2,7 +2,7 @@
 title: Help resolve friendly fraud disputes agentic workflow
 description: Use this agentic workflow to assist human agents with analyzing friendly fraud cases, selecting a course of action, and drafting a decision response to customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/friendly-fraud-agentic-ai-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/friendly-fraud-agentic-ai-workflow.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -21,7 +21,7 @@ Use this agentic workflow to assist human agents with analyzing friendly fraud c
 
 The Help resolve friendly fraud disputes agentic workflow detects friendly fraud through automated checks, guides human agents toward appropriate actions, and helps draft responses for customers.
 
-For information on modifying agentic workflows in FSO, see [Configure agentic workflows in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-agentic-workflows-in-fso.md).
+For information on modifying agentic workflows in FSO, see [Configure agentic workflows in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-agentic-workflows-in-fso.md).
 
 ## Help resolve friendly fraud disputes agentic workflow
 
@@ -48,10 +48,10 @@ The following table lists the agent that is used in the Help resolve friendly fr
 |--------|-------------|
 |Friendly fraud AI agent|Assists dispute agents in resolving friendly fraud disputes by providing transaction details, recommended actions, and compliance guidelines. It also helps draft a detailed response for the customer, explaining the reasons for any rejection in further dispute processing.|
 
-**Parent Topic:**[Set up Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/setting-up-disputes-management.md)
+**Parent Topic:**[Set up Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/setting-up-disputes-management.md)
 
 **Related topics**  
 
 
-[Resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-friendly-fraud.md)
+[Resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/resolve-friendly-fraud.md)
 

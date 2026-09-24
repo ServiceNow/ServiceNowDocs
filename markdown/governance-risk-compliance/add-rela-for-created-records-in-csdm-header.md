@@ -2,7 +2,7 @@
 title: Verify the Main node configurations and relationships
 description: Verify that the Main node configurations are set up and the relationships are configured in Operational Resilience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-rela-for-created-records-in-csdm-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-rela-for-created-records-in-csdm-header.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: sn\_oper\_res.manager
 
 ## What to do next
 
-To fetch the dependencies, execute the scheduled job. For more information, see [Execute the scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/execute-sch-jobs.md).
+To fetch the dependencies, execute the scheduled job. For more information, see [Execute the scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/execute-sch-jobs.md).
 

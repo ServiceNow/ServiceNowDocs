@@ -2,7 +2,7 @@
 title: Parameters of the PowerShell connector methods
 description: Learn about the various parameters of the Microsoft PowerShell connector methods in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/parameters-powershell-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/parameters-powershell-connectors.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ Learn about the various parameters of the Microsoft PowerShell connector methods
 
 ## Input parameter values
 
-To input the parameter values, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To input the parameter values, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
-**Parent Topic:**[ITSM connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/itsm.md)
+**Parent Topic:**[ITSM connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/itsm.md)
 

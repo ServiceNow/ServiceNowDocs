@@ -2,7 +2,7 @@
 title: Hide or show a layer in the CAD editor
 description: Hide or display a layer while you’re editing and updating layers in the CAD Editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/show-a-layer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/show-a-layer.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -35,7 +35,7 @@ Role required: admin
 5.  To show a layer, select the toggle on visibility icon \(\[Omitted image "wsd-autocad-toggle-on-visibility-icon.png"\] Alt text: Toggle on visibility icon.\) option.
 
 
-**Parent Topic:**[Configure CAD objects using the CAD Editor tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/cad-editor-v2-ovw.md)
+**Parent Topic:**[Configure CAD objects using the CAD Editor tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/cad-editor-v2-ovw.md)
 
 **Related topics**  
 

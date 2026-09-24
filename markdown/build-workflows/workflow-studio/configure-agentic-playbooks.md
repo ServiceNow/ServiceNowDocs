@@ -2,14 +2,14 @@
 title: Configuring Agentic Playbooks
 description: As a playbook author in Workflow Studio, configure AI Agents to perform a playbook activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-agentic-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/configure-agentic-playbooks.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Agentic Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -55,7 +55,7 @@ You can set up AI Agents to automatically complete activities or provide recomme
 
 6.  In the **AI Agent Instructions** field, enter instructions for the task that you want the AI Agent to perform.
 
-    For guidelines about how to write instructions for AI Agents, see [Guidelines for writing AI agent instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/guidelines-agent-instruction.md).
+    For guidelines about how to write instructions for AI Agents, see [Guidelines for writing AI agent instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/guidelines-agent-instruction.md).
 
 7.  Select **Save and close**.
 
@@ -64,5 +64,5 @@ You can set up AI Agents to automatically complete activities or provide recomme
 
 Repeat as needed for any other activities that you want an AI Agent to help perform.
 
-After the playbook is complete, test the playbook. For information, see [Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-process.md).
+After the playbook is complete, test the playbook. For information, see [Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-process.md).
 

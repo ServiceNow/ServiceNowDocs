@@ -2,7 +2,7 @@
 title: Configure a record page tab in Service Operations Workspace
 description: Configure the display order of a record page tab in Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-record-page-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configure-record-page-tab.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -43,5 +43,5 @@ When you modify the order of a common tab in multiple record pages and workspace
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.md)
+**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.md)
 

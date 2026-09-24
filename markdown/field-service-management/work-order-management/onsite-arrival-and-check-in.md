@@ -2,7 +2,7 @@
 title: Onsite arrival and check-in
 description: The Onsite Arrival and Check-in process ensures accurate task location confirmation and effective time tracking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/onsite-arrival-and-check-in.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/onsite-arrival-and-check-in.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -23,7 +23,7 @@ The Onsite Arrival and Check-in process ensures accurate task location confirmat
     -   Completion of prerequisites before initiating work.
 -   **Geofencing Validation**
     -   Verifies agent location within the configured geofence radius.
-    -   Check-In status stores the outcomes such as success, failure, or skipped scenarios. The following table outlines the outcomes based on different scenarios and geofence validations when an agent clicks the **Check-in** button. The status gets stored in the Check-in status field of the work order task table. For more information, see [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md)
+    -   Check-In status stores the outcomes such as success, failure, or skipped scenarios. The following table outlines the outcomes based on different scenarios and geofence validations when an agent clicks the **Check-in** button. The status gets stored in the Check-in status field of the work order task table. For more information, see [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_CreateAWorkOrderTask.md)
 
         |Scenario|Check-In Status|
         |--------|---------------|

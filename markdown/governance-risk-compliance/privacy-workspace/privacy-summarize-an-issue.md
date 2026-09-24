@@ -2,7 +2,7 @@
 title: Use Issue summarization skill to summarize an issue
 description: Use Issue summarization skill to summarize an issue, and obtain a quick context and awareness about an issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-summarize-an-issue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/privacy-summarize-an-issue.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace

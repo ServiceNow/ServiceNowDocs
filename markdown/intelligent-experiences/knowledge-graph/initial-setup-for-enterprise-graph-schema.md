@@ -2,7 +2,7 @@
 title: Enterprise Graph initial setup in production instance
 description: Setup and use Enterprise Graph Schema, a unified Knowledge Graph schema, that captures all the ServiceNow and third-party tables and their connections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/initial-setup-for-enterprise-graph-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/initial-setup-for-enterprise-graph-schema.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

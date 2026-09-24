@@ -2,7 +2,7 @@
 title: Using ServiceNow Otto for Threat Intelligence Security Center \(TISC\) generative AI skills
 description: Threat analysts can generate threat intelligence reports and summarize case management content from within their flow of work with ServiceNow Otto for Threat Intelligence Security Center \(TISC\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/using-now-assist-tisc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/using-now-assist-tisc.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-12"
@@ -20,9 +20,9 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
 **Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-With generative AI skills in ServiceNow Otto for Threat Intelligence Security Center \(TISC\), your threat analysts can summarize threat case management content in a concise, easy-to-read format. See [Summarize a Case using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/now-assist-tisc-case-summarization.md).
+With generative AI skills in ServiceNow Otto for Threat Intelligence Security Center \(TISC\), your threat analysts can summarize threat case management content in a concise, easy-to-read format. See [Summarize a Case using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/now-assist-tisc-case-summarization.md).
 
-Threat analysts can also generate threat intelligence reports directly from case data and export for stakeholder review. See [Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.md).
+Threat analysts can also generate threat intelligence reports directly from case data and export for stakeholder review. See [Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.md).
 
-In Import Intelligence, threat analysts can upload an unstructured document and have AI extract the threat observables and objects from its content for review before import. See [Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-ai.md).
+In Import Intelligence, threat analysts can upload an unstructured document and have AI extract the threat observables and objects from its content for review before import. See [Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-ai.md).
 

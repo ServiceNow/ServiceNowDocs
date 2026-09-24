@@ -2,7 +2,7 @@
 title: Custom URL with Identity Provider
 description: Set your custom URL with the Identity Provider to enable the user to login with their IdP's.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/custom-url-with-multiple-identity-providers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/custom-url-with-multiple-identity-providers.html
 release: australia
 product: Authentication
 classification: authentication
@@ -28,7 +28,7 @@ Role required: custom\_url\_admin
 
 3.  Provide the details of the IdP in the **Identity Provider** field.
 
-    For information about other fields, see [Set a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-custom-url.md). \[Omitted image "new-custom-url-idp.png"\] Alt text: A Custom URL"configuration interface with fields for domain name, status, service portal, and identity provider \(set to "GOOGLE OIDC"\), along with helpful setup links.
+    For information about other fields, see [Set a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-custom-url.md). \[Omitted image "new-custom-url-idp.png"\] Alt text: A Custom URL"configuration interface with fields for domain name, status, service portal, and identity provider \(set to "GOOGLE OIDC"\), along with helpful setup links.
 
 4.  Click **Create**.
 

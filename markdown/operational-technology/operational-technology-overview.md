@@ -2,7 +2,7 @@
 title: Operational Technology
 description: Use ServiceNow for Operational Technology \(OT\) to help your organization streamline operations, boost productivity, and maximize your Operational Technology up-time on the production floor through digital workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-09"
@@ -62,51 +62,51 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 
 ## Applications
 
--   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)
+-   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/operational-technology-manager.md)
 
     Creates the foundational data and relationships that enable your organization to use the ServiceNow® OT solution.
 
--   [Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-discovery-landing.md)
+-   [Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-discovery-landing.md)
 
     Amplifies the visibility of devices in your OT environment.
 
--   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
+-   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
 
     Creates the ISA-95 Equipment Model data foundation required for the ServiceNow® OT solution.
 
--   [Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-vulnerability-response/oper-tech-vulnerability-response-landing-page.md)
+-   [Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-vulnerability-response/oper-tech-vulnerability-response-landing-page.md)
 
     Enables effective prioritization and remediation of OT device vulnerabilities at the site level.
 
--   [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)
+-   [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)
 
     Enables manufacturers to manage OT device incidents from open to closure.
 
--   [Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/operational-technology-change-management-landing-page.md)
+-   [Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-change-management/operational-technology-change-management-landing-page.md)
 
     Enables your organization to implement changes to OT devices and production processes.
 
--   [Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-landing-page.md)
+-   [Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-landing-page.md)
 
     Helps you collect, organize, and share knowledge about your OT system, its devices, and the resolved incidents within your organization.
 
--   [Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/operational-technology-request-management-landing-page.md)
+-   [Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-request-management/operational-technology-request-management-landing-page.md)
 
     Lets you request catalog items and fulfill them based on the defined flows.
 
--   [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.md)
+-   [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.md)
 
     Allows you to set up and apply real-time actionable recommendations for speeding up the triaging process and resolving issues quickly across various records in the Industrial Workspace.
 
--   [AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ai-enhanced-ra-otsm-landing.md)
+-   [AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/ai-enhanced-ra-otsm-landing.md)
 
     Accesses external sources related to an OT incident, and contextualizes how the document is relevant to the incident.
 
--   [Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-employee-portal-landing.md)
+-   [Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/ot-employee-portal-landing.md)
 
     Central location where you can submit requests related to OT and industrial services.
 
--   [Industrial Workspace for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
+-   [Industrial Workspace for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
 
     User interface that provides you with the tools you need to manage your OT data.
 
@@ -118,19 +118,19 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 
 -   Watch features demonstrated via [DemoNow](https://www.servicenow.com/lpdem/demonow.html).
 -   For information on how to request and set up Operational Technology, see
-    -   [Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
-    -   [Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-na-otm.md)
-    -   [Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
-    -   [Configuring Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-vulnerability-response/configuring-oper-tech-vulnerability-response.md)
-    -   [Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
-    -   [Configure ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.md)
-    -   [Configuring Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/configuring-operational-technology-change-request.md)
-    -   [Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
-    -   [Configuring Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.md)
-    -   [Configuring Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/configuring-recommended-actions-otsm.md)
-    -   [Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ai-enhanced-ra-otsm.md)
-    -   [Configuring the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-ot-employee-portal.md)
-    -   [Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
--   For more information about how Operational Technology manages and uses Common Service Data Model tables, see [Operational Technology and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-use-case.md).
+    -   [Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
+    -   [Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-na-otm.md)
+    -   [Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+    -   [Configuring Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-vulnerability-response/configuring-oper-tech-vulnerability-response.md)
+    -   [Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
+    -   [Configure ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.md)
+    -   [Configuring Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-change-management/configuring-operational-technology-change-request.md)
+    -   [Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
+    -   [Configuring Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.md)
+    -   [Configuring Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/recommended-actions-for-otsm/configuring-recommended-actions-otsm.md)
+    -   [Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-ai-enhanced-ra-otsm.md)
+    -   [Configuring the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configuring-ot-employee-portal.md)
+    -   [Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
+-   For more information about how Operational Technology manages and uses Common Service Data Model tables, see [Operational Technology and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/ot-use-case.md).
 -   For more information about the latest releases for Operational Technology, see [ServiceNow Store - Operational Technology release notes](https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-highlights.html).
 

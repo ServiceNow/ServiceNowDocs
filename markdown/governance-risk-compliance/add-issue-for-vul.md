@@ -2,7 +2,7 @@
 title: Add or create an issue
 description: Add an existing issue from the available issues or create an issue for the Operational vulnerability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-issue-for-vul.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-issue-for-vul.html
 release: australia
 topic_type: task
 last_updated: "2026-06-01"
@@ -55,7 +55,7 @@ Action
 
 </td><td>
 
-Create an issue. Follow the steps in the [Create Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
+Create an issue. Follow the steps in the [Create Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-issue-opres-ws.md).
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

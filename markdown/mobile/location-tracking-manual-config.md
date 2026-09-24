@@ -2,7 +2,7 @@
 title: Configuring manual location tracking
 description: Configure manual location tracking system properties to control how location tracking registers the activity of your users, while performing their tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/location-tracking-manual-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/location-tracking-manual-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -68,5 +68,5 @@ Procedure
 </table>3.  Right-click in the header and select **Save**.
 
 
-**Parent Topic:**[Enabling and selecting location tracking options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-enable.md)
+**Parent Topic:**[Enabling and selecting location tracking options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/location-tracking-enable.md)
 

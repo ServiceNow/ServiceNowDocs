@@ -2,7 +2,7 @@
 title: Implement post-upgrade activities on a non-prod instance
 description: Implement the post-upgrade tasks for a successful upgrade completion on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-post-upgrade-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-post-upgrade-activities.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -131,7 +131,7 @@ Role required: upgrade\_admin
 5.  Select **Mark as complete** to complete the sub-production tasks in a non-production instance.
 
 
-**Parent Topic:**[Access guided upgrade on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement.md)
+**Parent Topic:**[Access guided upgrade on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-guided-tour-implement.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Select large language models for use cases in ServiceNow Otto for Contract Management Pro
 description: Select a large language model \(LLM\) provider for a contract analysis or metadata extraction use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-manage-llm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-manage-llm.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -62,7 +62,7 @@ In ServiceNow Otto for Contract Management Pro, you can select the LLM provider 
 
 The LLM provider is set for the use case and is used for contract analysis or metadata extraction where this use case is applicable.
 
-**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
@@ -79,9 +79,9 @@ The LLM provider is set for the use case and is used for contract analysis or me
 
 [Post-upgrade steps for ServiceNow Otto for Contract Management Pro]()
 
-[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
-[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
+[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
 
-[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)
+[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)
 

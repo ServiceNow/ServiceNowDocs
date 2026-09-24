@@ -2,7 +2,7 @@
 title: Put a job requisition on hold
 description: Put a job requisition on hold if the requirement changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/put-req-on-hold.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/put-req-on-hold.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -38,14 +38,14 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
         -   If you choose the other reason option from the list of reasons, providing comments in the notes is required.
         -   If a requisition is closed while it was on hold, the on hold state won't be retained.
-    You can put a Job requisition on hold regardless of its state. For more information on the requisition state maangement, see [Job requisition state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/job-req-state-mngmnt.md).
+    You can put a Job requisition on hold regardless of its state. For more information on the requisition state maangement, see [Job requisition state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/job-req-state-mngmnt.md).
 
 
 ## Result
 
 The requisition is put on hold and displays the last state along with the on hold badge when searched.
 
-**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
+**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/manage-job-reqs.md)
 
 **Related topics**  
 

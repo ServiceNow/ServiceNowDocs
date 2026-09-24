@@ -2,7 +2,7 @@
 title: Create a flow with a Proactive Analytics trigger
 description: Use Performance Analytics indicators to start a flow. Define the flow start conditions as a set of Proactive Analytics KPI scores and KPI threshold values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-proactive-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-flow-proactive-analytics.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -36,7 +36,7 @@ Role required: admin or flow\_designer
 
 3.  Define the flow properties.
 
-    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md).
 
 4.  In the Trigger section, add a trigger and select **Proactive Analytics**.
 
@@ -67,10 +67,10 @@ Role required: admin or flow\_designer
 
 8.  Test the flow.
 
-    For more information about testing a flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+    For more information about testing a flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-test.md).
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 
 **Related topics**  
 

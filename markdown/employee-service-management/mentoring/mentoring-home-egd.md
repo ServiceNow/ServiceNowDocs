@@ -2,7 +2,7 @@
 title: Mentoring home page
 description: Mentoring home page provides you with a bird's eye view of all your mentorship relationships, requests, and programs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/mentoring-home-egd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/mentoring/mentoring-home-egd.html
 release: australia
 product: Mentoring
 classification: mentoring

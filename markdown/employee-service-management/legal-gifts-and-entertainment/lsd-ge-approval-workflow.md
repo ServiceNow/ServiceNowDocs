@@ -2,7 +2,7 @@
 title: Configure approval workflow for Gifts and Entertainment Compliance
 description: Review the flows installed with the Gifts and Entertainment Compliance application and configure them to align to your company's policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-gifts-and-entertainment/lsd-ge-approval-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-gifts-and-entertainment/lsd-ge-approval-workflow.html
 release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -47,5 +47,5 @@ The flows are built using ServiceNow Workflow Studio, so make sure you’re fami
 6.  If not already active, click **Activate** to enable the flow.
 
 
-**Parent Topic:**[Configure Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.md)
+**Parent Topic:**[Configure Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.md)
 

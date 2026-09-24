@@ -2,7 +2,7 @@
 title: Follow-up conversations
 description: AI agents continue with follow-up conversations after the AI agent execution is complete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-follow-up-convsnts-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-follow-up-convsnts-new.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

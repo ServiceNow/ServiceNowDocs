@@ -2,7 +2,7 @@
 title: SLA timeline
 description: The SLA timeline is a feature of the Service Level Management application. The SLA timeline detail helps you understand the progress of an SLA. The timeline provides detailed insight to the task updates which triggered stage changes during the life cycle of a task SLA.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_SLATimeline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/c\_SLATimeline.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -202,25 +202,25 @@ Displays the details of a task SLA, depending on where you click the timeline. *
 
 The SLA timeline receives information about the task from the audit history and refers to the current SLA definition to pull data for the SLA timeline. The SLA timeline displays task SLA information as though the SLA repair is already executed, irrespective of whether it is executed or not.
 
--   **[Understand why an SLA did not trigger as expected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/why-sla-did-not-trigger.md)**  
+-   **[Understand why an SLA did not trigger as expected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/why-sla-did-not-trigger.md)**  
 Describes the conditions when an SLA might not trigger as expected.
--   **[Use SLA timeline to determine business schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-timeline-determines-bus-schedule.md)**  
+-   **[Use SLA timeline to determine business schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/sla-timeline-determines-bus-schedule.md)**  
 This example demonstrates how to use the SLA timeline to determine the business schedules and business percentage time related to a task SLA.
--   **[Use SLA timeline to understand SLA stage change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/understand-sla-stage-change.md)**  
+-   **[Use SLA timeline to understand SLA stage change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/understand-sla-stage-change.md)**  
 Describes how you can understand SLA stage changes using SLA timeline.
--   **[Use SLA Timeline to validate a new SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/validate-new-sla-definition.md)**  
+-   **[Use SLA Timeline to validate a new SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/validate-new-sla-definition.md)**  
 When a new SLA Definition is created the SLA Timeline can be used to see how the SLA will behave against existing task records.
 
-**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-management-reference.md)
 
 **Related topics**  
 
 
-[Use SLA timeline to determine business schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-timeline-determines-bus-schedule.md)
+[Use SLA timeline to determine business schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/sla-timeline-determines-bus-schedule.md)
 
-[Use SLA timeline to understand SLA stage change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/understand-sla-stage-change.md)
+[Use SLA timeline to understand SLA stage change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/understand-sla-stage-change.md)
 
-[Use SLA Timeline to validate a new SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/validate-new-sla-definition.md)
+[Use SLA Timeline to validate a new SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/validate-new-sla-definition.md)
 
-[Understand why an SLA did not trigger as expected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/why-sla-did-not-trigger.md)
+[Understand why an SLA did not trigger as expected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/why-sla-did-not-trigger.md)
 

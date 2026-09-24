@@ -2,7 +2,7 @@
 title: Install Idea Manager dashboard
 description: You can install the Idea Manager dashboard application from ServiceNow Store if you have the admin role. This application includes demo data and installs the related plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/install-idea-manager-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/innovation-management/install-idea-manager-dashboard.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -24,7 +24,7 @@ You can install the Idea Manager dashboard application from ServiceNow Store if 
 -   If the application requires plugins or other store applications, install them first if they are not already installed. For the Idea Manager dashboard application, the following plugins are required:
     -   PPM Standard plugin \(com.snc.financial\_planning\_pmo\)
 
-        For information on activation steps, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
+        For information on activation steps, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 
 Role required: admin
@@ -63,7 +63,7 @@ Run the following Performance Analytics data collector jobs before using the Ide
 -   **\[PA PPM IMD\] Historic Data Collection**: Collects historical data related to ideas and runs on demand to update data for dashboard.
 -   **\[PA PPM IMD\] Daily Data Collection**: Collects data for daily indicators and runs daily to update data for dashboard.
 
-**Parent Topic:**[Configuring Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/configuring-innovation-management.md)
+**Parent Topic:**[Configuring Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/configuring-innovation-management.md)
 
 **Related topics**  
 

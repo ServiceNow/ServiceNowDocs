@@ -2,7 +2,7 @@
 title: Test the SOAP message
 description: Test a SOAP message to validate the configuration before using the message in an integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_TestTheSOAPMessage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_TestTheSOAPMessage.html
 release: australia
 product: Web Services
 classification: web-services
@@ -24,5 +24,5 @@ You can see the original SOAP request message, the resulting HTTP status code, a
 
 **Note:** A test SOAP message will time out after 60 seconds if a response is not received.
 
-**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPMessage.md)
+**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPMessage.md)
 

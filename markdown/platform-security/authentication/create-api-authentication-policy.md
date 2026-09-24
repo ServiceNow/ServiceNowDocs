@@ -2,7 +2,7 @@
 title: Create an API authentication policy
 description: Authentication policies allow you to enforce access restrictions on the APIs based on the specified filter criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-api-authentication-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-api-authentication-policy.html
 release: australia
 product: Authentication
 classification: authentication

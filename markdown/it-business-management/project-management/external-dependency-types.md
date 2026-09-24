@@ -2,7 +2,7 @@
 title: Types of external dependencies
 description: The Project management application supports two types of external dependencies - hard and soft.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/external-dependency-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/external-dependency-types.html
 release: australia
 product: Project Management
 classification: project-management
@@ -16,11 +16,11 @@ breadcrumb: [Basics of Project Management, Exploring Project Management, Project
 
 The Project management application supports two types of external dependencies - hard and soft.
 
-The type of external dependency can be set during [adding a dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-external-dependency-planning-console.md) between two projects tasks on the planning console.
+The type of external dependency can be set during [adding a dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-external-dependency-planning-console.md) between two projects tasks on the planning console.
 
 ## Hard dependencies
 
-In a hard dependency, any changes made in the predecessor project are automatically propagated to the successor project. A [notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_PlanningConsoleTasks.md) for the changes made is triggered in the successor project. The following image shows the process flow for a hard dependency type:
+In a hard dependency, any changes made in the predecessor project are automatically propagated to the successor project. A [notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_PlanningConsoleTasks.md) for the changes made is triggered in the successor project. The following image shows the process flow for a hard dependency type:
 
 \[Omitted image "ExternalHardDependency.png"\] Alt text: Process flow for a hard dependency type
 
@@ -30,7 +30,7 @@ In a soft dependency, any changes made in the predecessor project trigger a noti
 
 \[Omitted image "ExternalSoftDependency.png"\] Alt text: Process flow for a soft dependency type
 
-**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Contractor dashboard in the configurable workspace
 description: Use this dashboard to review the status of work order tasks, agent rating, and work distribution by type and state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/contractor-dashboard-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/contractor-dashboard-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -66,5 +66,5 @@ Reviews the work order task progress and agent feedback results based on the sel
 |Contractor|Reference|Filter the report results based on a selected contractor company or all.|
 |Date Range|Date|Filter the report results based on the selected date range, such as last 30 days.|
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/analytics-reporting-fsm.md)
 

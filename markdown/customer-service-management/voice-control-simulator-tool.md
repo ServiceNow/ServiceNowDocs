@@ -2,7 +2,7 @@
 title: Voice Controls Simulator tool
 description: The Voice Controls Simulator tool enables CCaaS partners and customers to simulate and test voice control UI flows within the CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/voice-control-simulator-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/voice-control-simulator-tool.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,10 +34,10 @@ The following are key features for the Voice Controls Simulator tool capability:
 
 |Simulator steps|Description|
 |---------------|-----------|
-|[Launch simulator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/launch-voice-controls-simulator.md)|After meeting all prerequisites, you’re ready to launch the tool in the CRM Workspace.|
-|[Set Idle state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-idle-state-and-directory.md)|This state is the agent's initial state in the simulator. The agent can make an outbound call using the keypad or the phone directory. Additionally, if the agent doesn't want to take anymore calls they can log out of CCaaS.|
-|[Configure Transfer capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-transfer-capability.md)|If you select **Transfer** during the **Set Agent Capabilities** step, you can configure transfer options for agents, queues, external numbers, and direct dial.|
-|[Set Agent capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-participants.md)|Set up call controls for the simulated agent flow for an active call.|
+|[Launch simulator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/launch-voice-controls-simulator.md)|After meeting all prerequisites, you’re ready to launch the tool in the CRM Workspace.|
+|[Set Idle state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-idle-state-and-directory.md)|This state is the agent's initial state in the simulator. The agent can make an outbound call using the keypad or the phone directory. Additionally, if the agent doesn't want to take anymore calls they can log out of CCaaS.|
+|[Configure Transfer capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-transfer-capability.md)|If you select **Transfer** during the **Set Agent Capabilities** step, you can configure transfer options for agents, queues, external numbers, and direct dial.|
+|[Set Agent capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/adding-participants.md)|Set up call controls for the simulated agent flow for an active call.|
 
-See [Set up the Voice Controls Simulator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/set-up-voice-controls-simulator-tool.md).
+See [Set up the Voice Controls Simulator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/set-up-voice-controls-simulator-tool.md).
 

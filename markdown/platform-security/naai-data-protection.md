@@ -2,7 +2,7 @@
 title: Data protection
 description: Learn how ServiceNow security tools such as the Key Management Framework, Field Encryption, and Data Classification work to keep your data secure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-data-protection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-data-protection.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-20"
@@ -24,7 +24,7 @@ The following topics, all in AI Admin Hub, describe how Now Assist handles your 
 
     Understand how Now Assist transmits, processes, and protects your data, including options to mask sensitive data and control data sharing for model improvements.
 
--   **[Configuring Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md)**
+-   **[Configuring Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md)**
 
     Configure how PII is de-identified before it reaches the large language model, including which data types are caught and how anonymization rules are applied.
 
@@ -45,31 +45,31 @@ The following topics, all in AI Admin Hub, describe how Now Assist handles your 
 
 The following topics describe how to use ServiceNow Otto for Vault and Now Assist Data Kit to discover, classify, and protect sensitive data on your instance.
 
--   **[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)**
+-   **[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md)**
 
     Use the Key Management Framework to create and manage encryption keys that control access to sensitive data on your instance, including keys used by AI agents and agentic workflows.
 
--   **[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md)**
+-   **[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption.md)**
 
     Encrypt individual fields on your instance to protect sensitive data at rest, ensuring that AI agents can only access encrypted fields when they have the appropriate permissions.
 
--   **[Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-classification.md)**
+-   **[Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/dps-data-classification.md)**
 
     Define and apply data classification labels to identify sensitive content across your instance, helping you understand what data your AI agents can access and where protection controls are needed.
 
--   **[ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-landing.md)**
+-   **[ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-vault-landing.md)**
 
     Learn about the generative AI skills available in ServiceNow Otto for Vault for generating custom data patterns, checking role access for encrypted columns, and scheduling data discovery jobs.
 
--   **[Schedule a Data Discovery job with ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-data-discovery-job-now-assist-vault.md)**
+-   **[Schedule a Data Discovery job with ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/schedule-data-discovery-job-now-assist-vault.md)**
 
     Schedule one-time or recurring Data Discovery jobs to detect sensitive data such as PII or PHI that may be present in inputs to the LLM.
 
--   **[Check role access for an encrypted column with ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/check-role-access-now-assist-vault.md)**
+-   **[Check role access for an encrypted column with ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/check-role-access-now-assist-vault.md)**
 
     Identify which user roles have access to encryption and decryption keys in your instance to monitor your encryption access posture.
 
--   **[Generate a custom data pattern by using ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/generate-custom-data-pattern-now-assist-vault.md)**
+-   **[Generate a custom data pattern by using ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/generate-custom-data-pattern-now-assist-vault.md)**
 
     Create a custom regular expression data pattern from a plain-language description and add it as an active data pattern on your instance.
 
@@ -78,5 +78,5 @@ The following topics describe how to use ServiceNow Otto for Vault and Now Assis
     AI Data Kit: Scan your datasets for sensitive data including PII, and cleanse identified data before it is used in AI evaluations.
 
 
-**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)
+**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-security.md)
 

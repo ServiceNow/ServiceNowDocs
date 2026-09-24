@@ -2,11 +2,11 @@
 title: Combined Integration Hub release notes for upgrades from Xanadu to Australia
 description: Consolidated page of all release notes for Integration Hub from Xanadu to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-integrationhub-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-integrationhub-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 10
+last_updated: "2026-09-24"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -157,13 +157,7 @@ Australia
 
 </td><td>
 
--   **[Stream Producer](https://www.servicenow.com/docs/access?context=stream-producer&family=australia&ft:locale=en-US)**
 
-Automatically stream changes from ServiceNow tables to Kafka topics with Stream Producer. Stream Producer uses change data capture \(CDC\) technology to capture inserts, updates, and deletes on selected tables. The captured changes are formatted as messages and sent to a Kafka topic, enabling real-time data synchronization with external applications.
-
--   **[Stream Producer schemas](https://www.servicenow.com/docs/access?context=schema-management&family=australia&ft:locale=en-US)**
-
-Stream Producer supports the Avro serialization format for message payloads. When using an Avro format, Stream Producer uses the selected table's auto-generated schema to convert CDC payloads to Avro before sending them to Kafka.
 
 
 </td></tr></tbody>
@@ -627,5 +621,5 @@ Australia
  See [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-xanadu-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Install the OT Discovery Collector on a Windows system
 description: Install the OT Discovery Collector on a Windows system. The OT Discovery Collector installation is compatible on Windows 10 or Windows 11 systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/installing-collector-on-windows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/installing-collector-on-windows.html
 release: australia
 topic_type: task
 last_updated: "2026-03-27"
@@ -20,7 +20,7 @@ The required Windows \(10 or 11\) environment for the OT Discovery Collector is 
 
 Role required: admin
 
-**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
+**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/air-gapped-networks-installation.md).
 
 ## Procedure
 
@@ -117,5 +117,5 @@ To update the OT Discovery Collector version, do the following steps.
 
 The updated version is installed.
 
-**Parent Topic:**[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-the-collector.md)
+**Parent Topic:**[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configuring-the-collector.md)
 

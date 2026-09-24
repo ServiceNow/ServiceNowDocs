@@ -2,7 +2,7 @@
 title: Quickly edit work order tasks
 description: Quickly edit work order tasks directly from Dispatcher Workspace without opening the work order task form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/quick-edit-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/quick-edit-tasks.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

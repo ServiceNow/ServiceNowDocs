@@ -2,7 +2,7 @@
 title: Respond to a request on Field Service Marketplace
 description: Respond to or decline requests on Field Service Marketplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/respond-request-fsm-mktplc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/respond-request-fsm-mktplc.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -20,7 +20,7 @@ Respond to or decline requests on Field Service Marketplace.
 
 Role required: sn\_mktplace\_core.mktplace\_fulfiller
 
-Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md).
+Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md).
 
 Fulfilling requests on Field Service Marketplace is only available via the Mobile experience. This requires the Field Service Contractor for mobile plugin \(com.snc.fsm\_ext\_mobile\).
 
@@ -64,5 +64,5 @@ After responding or accepting, the requestor decides who to award the task to. I
 
 ## What to do next
 
-Wait for the request window to close. If you want to withdraw from the request, see [Withdraw from a request on Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/withdraw-fsm-marketplace.md).
+Wait for the request window to close. If you want to withdraw from the request, see [Withdraw from a request on Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/withdraw-fsm-marketplace.md).
 

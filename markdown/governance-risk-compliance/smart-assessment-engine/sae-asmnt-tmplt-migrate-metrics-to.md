@@ -2,7 +2,7 @@
 title: Migrate a legacy metric type to an assessment template
 description: Migrate an existing metric type to an SAE assessment template. You can leverage the existing assessment designs while using Smart Assessment Engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-tmplt-migrate-metrics-to.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-tmplt-migrate-metrics-to.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -101,12 +101,12 @@ New template that the existing metric type is migrated to.
 
 ## Result
 
-The Section migration related list is updated as migration proceeds. You can view the data that was migrated from the metric type to the Smart Assessment Engine assessment template in the related lists on the Assessment template migration form. See [Results of migrating a metric category to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-migrate-asmnt-template-form.md).
+The Section migration related list is updated as migration proceeds. You can view the data that was migrated from the metric type to the Smart Assessment Engine assessment template in the related lists on the Assessment template migration form. See [Results of migrating a metric category to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-migrate-asmnt-template-form.md).
 
 **Related topics**  
 
 
-[How legacy metric types are migrated to sections in templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-how-legacy-metrics-migrated.md)
+[How legacy metric types are migrated to sections in templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-how-legacy-metrics-migrated.md)
 
-[Results of migrating a metric category to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-migrate-asmnt-template-form.md)
+[Results of migrating a metric category to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-migrate-asmnt-template-form.md)
 

@@ -2,7 +2,7 @@
 title: Manage workplace profiles using Space Planning
 description: Manage the workplace user profiles, their details, and their assignments using the Space Planning module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/manage-workplace-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/manage-workplace-users.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -36,15 +36,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 4.  Manage the users based on your requirement.
 
-<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d337332e101">
+<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d337336e101">
 
 Action
 
-</th><th align="left" id="d337332e104">
+</th><th align="left" id="d337336e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d337332e110">
+</th></tr></thead><tbody><tr><td id="d337336e110">
 
 **Create a workplace profile**
 
@@ -53,12 +53,12 @@ Steps
 1.  On the Workplace users list, select **New**.
 2.  On the User Workplace Profile form, fill in the fields.
 
-For a description of the field values, see [User Workplace Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/user-workplace-profile-form.md).
+For a description of the field values, see [User Workplace Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/user-workplace-profile-form.md).
 
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d337332e146">
+</td></tr><tr><td id="d337336e146">
 
 **Edit user assignments**
 
@@ -76,7 +76,7 @@ The Assign users pop-up opens.
 
 For the **Neighborhood** assignment, you must select the neighborhood you want to assign the users to.
 
-</td></tr><tr><td id="d337332e192">
+</td></tr><tr><td id="d337336e192">
 
 **Remove user assignments**
 
@@ -91,7 +91,7 @@ For the **Neighborhood** assignment, you must select the neighborhood you want t
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d337332e242">
+</td></tr><tr><td id="d337336e242">
 
 **Edit user details**
 
@@ -106,7 +106,7 @@ For the **Neighborhood** assignment, you must select the neighborhood you want t
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d337332e281">
+</td></tr><tr><td id="d337336e281">
 
 **Export user profile details**
 
@@ -133,5 +133,5 @@ If you select email, you must enter the email address of the recipient.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Working with Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-planning.md)
+**Parent Topic:**[Working with Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-planning.md)
 

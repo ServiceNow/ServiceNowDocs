@@ -2,7 +2,7 @@
 title: Create and publish a provider-bound FDS offering definition
 description: Create a foundation data sync \(FDS\) offering definition to inform your providers about the data you're ready to share.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-provider-bound-fds-consumer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-create-provider-bound-fds-consumer.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -181,14 +181,14 @@ The FDS offering is now published. Providers can request foundation data based o
 
 ## What to do next
 
-[Acknowledge foundation data sync offering request.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-con-acknowledge-fds-request.md)
+[Acknowledge foundation data sync offering request.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-con-acknowledge-fds-request.md)
 
 **Related topics**  
 
 
-[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
+[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
 
-[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/using-provider-bound-fds-consumer.md)
+[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/using-provider-bound-fds-consumer.md)
 
-[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
+[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
 

@@ -2,7 +2,7 @@
 title: AI insights and dependency details
 description: Analyze an individual cryptographic asset with AI insights powered by ServiceNow Otto and a dependency graph, which shows where the asset is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/ai-insights-and-dependency-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/ai-insights-and-dependency-details.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility

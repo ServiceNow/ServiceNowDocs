@@ -2,7 +2,7 @@
 title: Customer contact self-registration on Business Portal
 description: The self-registration feature enables new customer contacts to submit registration requests through the business portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_Business-PortalSelfRegistration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_Business-PortalSelfRegistration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

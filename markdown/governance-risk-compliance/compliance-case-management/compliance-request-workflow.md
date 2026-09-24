@@ -2,7 +2,7 @@
 title: Compliance request workflow
 description: Use the request workflow in the Compliance Case Management application to raise and manage compliance requests within an organization. By using this workflow, your compliance requests are addressed effectively and efficiently by your compliance team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/compliance-request-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/compliance-request-workflow.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -31,7 +31,7 @@ The different stages of a compliance request are described as follows:
 
 ## Raise a compliance request
 
-A business user or a compliance team can raise a compliance request in the Employee Center application. Compliance case team can raise requests in the Compliance Workspace application. For more information, see [Raising a compliance request in GRC: Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/raising-compliance-request.md).
+A business user or a compliance team can raise a compliance request in the Employee Center application. Compliance case team can raise requests in the Compliance Workspace application. For more information, see [Raising a compliance request in GRC: Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/raising-compliance-request.md).
 
 ## Triage the compliance request
 
@@ -43,7 +43,7 @@ In the In progress stage, the request analyst determines all the requirements fo
 
 ## Awaiting request approval
 
-After the request has been reviewed, it reaches this stage where a decision is made regarding its approval or rejection. This stage involves evaluating the raised request. If the request meets the necessary criteria, it’s approved. Otherwise, it may be rejected with the justifications provided to the requester. Requests can be sent for approval to multiple users and can be approved or rejected by any one of them. The **Any Approvers** option enables the request to be closed as soon as it receives an approval or rejection from any of the assigned approvers. For more information, see [Create an approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/approval-configuration.md).
+After the request has been reviewed, it reaches this stage where a decision is made regarding its approval or rejection. This stage involves evaluating the raised request. If the request meets the necessary criteria, it’s approved. Otherwise, it may be rejected with the justifications provided to the requester. Requests can be sent for approval to multiple users and can be approved or rejected by any one of them. The **Any Approvers** option enables the request to be closed as soon as it receives an approval or rejection from any of the assigned approvers. For more information, see [Create an approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/approval-configuration.md).
 
 ## Cancel a compliance request
 
@@ -53,5 +53,5 @@ In this stage, a request may need to be canceled if it isn't a compliance reques
 
 After a compliance request is fully processed and approved or rejected, it enters the Closed stage. This stage indicates that all the necessary actions that are related to the request have been taken. The request is considered resolved, and no further actions are required.
 
-**Parent Topic:**[Exploring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/ccm-overview.md)
+**Parent Topic:**[Exploring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/ccm-overview.md)
 

@@ -2,7 +2,7 @@
 title: Use the Send Keys component
 description: Send text to fields in web pages, Windows applications, or the Windows desktop using the Send Keys component in RPA Desktop Design Studio. Use the component to enter data to fields such as text boxes and lists and to send special keys such as Shift, Control, F1, and F2.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionsui-send-keys.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-actionsui-send-keys.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,9 +24,9 @@ You can use the Send Keys component in situations where the Set Text component d
 
 You can use the Action Set Send Keys action to send keyboard shortcuts, regular text, or a combination of both. Enter key combinations in one set of square brackets per key combination as shown below. Any keys used in combination will be sent together as if simultaneously pressed. Keys outside brackets are sent in the order they appear in the input string. For example, the following sequence replaces text in a text box by selecting all the text \(CTRL + A\), sending the delete key, and then entering the regular text “ServiceNow”: `[ctrl+a][del]ServiceNow`
 
-To see all the supported special keys and functions, click [Supported keys and functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/supported-keys-and-functions.md).
+To see all the supported special keys and functions, click [Supported keys and functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/supported-keys-and-functions.md).
 
-Many properties of the Send Keys component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-actions-ui-components.md).
+Many properties of the Send Keys component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-actions-ui-components.md).
 
 The properties unique to the Send Keys component are given.
 
@@ -72,7 +72,7 @@ Type of keyboard input sent to the application. The default input is SendInput.-
 
 7.  Add an anchor to the captured image by doing the following actions:
 
-    An anchor is a unique identifier that enables the Send Keys component to identify the part where the component will perform an action. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Send Keys component treats the whole captured image as an anchor. To view how to use the anchor, see the steps to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    An anchor is a unique identifier that enables the Send Keys component to identify the part where the component will perform an action. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Send Keys component treats the whole captured image as an anchor. To view how to use the anchor, see the steps to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/anchor.md).
 
     1.  In the Send Keys component, right-click the image, and click **Add Anchor**.
 
@@ -110,7 +110,7 @@ Type of keyboard input sent to the application. The default input is SendInput.-
 
     The default action is **SendInput**.
 
-10. To set the keys in the **Text Input** field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+10. To set the keys in the **Text Input** field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 11. Connect the control ports of the Send Keys component to the control ports of the preceding and next components in the automation.
 
@@ -137,5 +137,5 @@ As the user runs the component, the text "Abel Tuter" are typed in the Name fiel
 
 Use the Send Keys component to click the **Print Badge** button and run the component. The employee name is submitted for badging.
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/actions-ui.md)
 

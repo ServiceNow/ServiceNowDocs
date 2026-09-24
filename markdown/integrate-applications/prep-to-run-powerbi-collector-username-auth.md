@@ -2,7 +2,7 @@
 title: Configure Power BI username and password authentication
 description: Set up API permissions for username and password authentication to enable Power BI metadata collection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prep-to-run-powerbi-collector-username-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prep-to-run-powerbi-collector-username-auth.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -68,5 +68,5 @@ To harvest report pages, grant the user access to each workspace. The admin API 
     This permission enables the collector to run without asking you for permission on every run.
 
 
-**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-powerbi-collector.md)
+**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-powerbi-collector.md)
 

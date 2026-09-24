@@ -2,7 +2,7 @@
 title: Create a page variant
 description: A page variant in UI Builder is a variation of a page that exists at the same path that targets different audiences using user criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/create-variant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/create-variant.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -55,7 +55,7 @@ Learn how to create a page variant in UI Builder. A page variant is based on you
 
     The name can be similar to your page name, or what ever you want it to be.
 
-    **Note:** The application scope defaults to the scope that the user is in within the ServiceNow AI Platform®. For more information about application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/security-roles.md).
+    **Note:** The application scope defaults to the scope that the user is in within the ServiceNow AI Platform®. For more information about application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/security-roles.md).
 
 8.  Specify one or more audiences for your variant page by selecting **Add an audience**.
 
@@ -63,17 +63,17 @@ Learn how to create a page variant in UI Builder. A page variant is based on you
 
 9.  Declare conditions for when to display the page by either using the provided dropdown menus or writing an encoded query string.
 
-    To learn more about declaring conditions, see [Control the conditions for a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/control-conditions-for-your-variant.md). For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+    To learn more about declaring conditions, see [Control the conditions for a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/control-conditions-for-your-variant.md). For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 10. If creating a page from scratch, select **Continue** and then select the **Build responsive** option \(default\).
 
 11. Click **Create** to create your page variant.
 
 
--   **[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-variant-settings.md)**  
+-   **[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/edit-variant-settings.md)**  
 Edit page variant settings to add additional criteria to determine when the page variant displays to users.
--   **[Control the conditions for a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/control-conditions-for-your-variant.md)**  
+-   **[Control the conditions for a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/control-conditions-for-your-variant.md)**  
 Set the conditions and manage the criteria that determine when a page variant is displayed. UI Builder page variants enable you to create different versions of a page to tailor content for a specific audience.
 
-**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md)
+**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-pages.md)
 

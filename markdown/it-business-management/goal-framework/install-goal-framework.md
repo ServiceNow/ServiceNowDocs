@@ -2,7 +2,7 @@
 title: Install Goal Framework and Goal Framework for SPM
 description: You can install the Goal Framework \(sn\_gf\) and Goal Framework for SPM \(sn\_gfa\) applications if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/install-goal-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/install-goal-framework.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -54,7 +54,7 @@ The following components are installed with installation of the Goal Framework o
 -   Scheduled jobs
 -   Target automation script for benefit plans \(installed with Goal Framework for SPM\)
 
-As part of Goal Framework for SPM installation, components of both Goal Framework and Goal Framework for SPM are installed. See [Components installed with Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/components-installed-with-goal-framework.md) for more information.
+As part of Goal Framework for SPM installation, components of both Goal Framework and Goal Framework for SPM are installed. See [Components installed with Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/components-installed-with-goal-framework.md) for more information.
 
-**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/configuring-goal-framework.md)
+**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/configuring-goal-framework.md)
 

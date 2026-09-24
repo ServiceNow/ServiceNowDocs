@@ -2,12 +2,12 @@
 title: ServiceNow Otto for Legal Service Delivery \(LSD\) release notes
 description: The ServiceNow Otto for Legal Service Delivery \(LSD\) application leverages generative AI capabilities to summarize a legal request or legal matter. This summary can help you understand context quickly so you can then refresh the summary and add context to the work notes. ServiceNow Otto for Legal Service Delivery \(LSD\) was enhanced and updated in the Australia release.The ServiceNow Otto for Legal Service Delivery \(LSD\) application leverages generative AI capabilities to summarize a legal request or legal matter. This summary can help you understand context quickly so you can then refresh the summary and add context to the work notes. ServiceNow Otto for Legal Service Delivery \(LSD\) was enhanced and updated in the Australia release.The ServiceNow Otto for Legal Service Delivery \(LSD\) application leverages generative AI capabilities to summarize a legal request or legal matter. This summary can help you understand context quickly so you can then refresh the summary and add context to the work notes. ServiceNow Otto for Legal Service Delivery \(LSD\) was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-lsd-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-lsd-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Legal Service Delivery release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -31,10 +31,10 @@ The ServiceNow Otto for Legal Service Delivery \(LSD\) application leverages gen
 
 -   **Browser requirements**
 
-    To see the list of supported browsers for ServiceNow Otto for Legal Service Delivery \(LSD\), see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
+    To see the list of supported browsers for ServiceNow Otto for Legal Service Delivery \(LSD\), see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/browser-support.md).
 
 
-**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/lsd-rn-landing-page.md)
+**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/lsd-rn-landing-page.md)
 
 ## August 2026
 
@@ -44,7 +44,7 @@ The ServiceNow Otto for Legal Service Delivery \(LSD\) application leverages gen
 
 -   **[ServiceNow® AI implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 ## April 2026

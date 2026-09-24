@@ -2,7 +2,7 @@
 title: Development and automation
 description: This phase is used to track and complete critical activities including account relationship management, maintenance scheduling, Service Level Agreement \(SLA\) definition, and Service Exchange installation \(when required\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-use-playbook-development.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-use-playbook-development.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -45,10 +45,10 @@ The following activities are available with the base system:-   Setup account re
 
 **Note:** If you have selected any of the Service Exchange integration options in the Initial Setup stage, the relevant activities are displayed and you can configure them as required.
 
-These activities can be configured according to your requirements. You can add or delete tasks, and modify them as required. In the Related work activity, you can create ad-hoc tasks if necessary. See [Configure onboarding tasks in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure-simple.md) for details on simple configuration tasks.
+These activities can be configured according to your requirements. You can add or delete tasks, and modify them as required. In the Related work activity, you can create ad-hoc tasks if necessary. See [Configure onboarding tasks in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-configure-simple.md) for details on simple configuration tasks.
 
 </td></tr></tbody>
 </table>Review the data and select **Mark Complete** to move to the next stage.
 
-**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
+**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
 

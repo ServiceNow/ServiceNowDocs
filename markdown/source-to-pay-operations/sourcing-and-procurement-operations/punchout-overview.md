@@ -2,7 +2,7 @@
 title: Understanding Punchout
 description: PunchOut is a technology that connects a buyer’s eProcurement application directly to their supplier is third-party punchout suppliers’ eCommerce sites
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,16 +22,16 @@ In level 1 PunchOut, only the search functionality of the PunchOut catalog is av
 
 On the other hand, with level 2 PunchOut catalog, the customer can use the search capability of procurement system to search and order products in the PunchOutcatalogue without requiring redirection to the punchout system.
 
--   **[Punchout configuration in SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/punchout-configuration-spo.md)**  
+-   **[Punchout configuration in SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-configuration-spo.md)**  
 You must configure punchout for third-party suppliers.
--   **[How L1 punchout works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/level-one-punchout.md)**  
+-   **[How L1 punchout works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/level-one-punchout.md)**  
 In the Level 1 \(L1\) punchout, SPO and the punchout supplier communicate using the cXML protocol.
--   **[Establishing connection between SPO and the supplier punchout system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-punchout-connection.md)**  
+-   **[Establishing connection between SPO and the supplier punchout system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-punchout-connection.md)**  
 SPO and the supplier punchout system use PunchOutRequest and PunchOutResponse payloads to establish the connection.
--   **[How L2 punchout works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/level-two-punchout.md)**  
+-   **[How L2 punchout works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/level-two-punchout.md)**  
 Level 2 \(L2\) PunchOut enables buying organizations to search for and discover PunchOut items directly within their procurement application, eliminating the need to search each supplier’s site individually.
 
-**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 

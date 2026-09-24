@@ -2,7 +2,7 @@
 title: PaCE policy version states
 description: A PaCE policy version can be in one of four states: Draft, Current, Archived, and Now-Content. The policy version state also defines the version numbering.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-policy-version-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-policy-version-states.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

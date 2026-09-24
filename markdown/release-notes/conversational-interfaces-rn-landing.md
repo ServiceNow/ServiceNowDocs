@@ -2,7 +2,7 @@
 title: Conversational Interfaces release notes
 description: Conversational Interfaces includes enhancements and changes in the Xanadu release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/conversational-interfaces-rn-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/conversational-interfaces-rn-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,12 +16,12 @@ Conversational Interfaces includes enhancements and changes in the Xanadu releas
 
 Updates are available for the following Conversational Interfaces applications on the ServiceNow AI Platform.
 
--   **[Advanced Work Assignment \(AWA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/advanced-work-assignment-rn.md)**  
+-   **[Advanced Work Assignment \(AWA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/advanced-work-assignment-rn.md)**  
 The ServiceNow® Advanced Work Assignment \(AWA\) application automatically assigns work items to your agents based on their availability, capacity, and, optionally, skills. AWA was enhanced and updated in the Australia release.
--   **[Sidebar release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sidebar-rn.md)**  
+-   **[Sidebar release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sidebar-rn.md)**  
 The ServiceNow® Sidebar application enables agents and subject matter experts to collaborate on user issues. Sidebar was enhanced and updated in the Australia release.
--   **[Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/virtual-agent-rn.md)**  
+-   **[Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/virtual-agent-rn.md)**  
 The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 

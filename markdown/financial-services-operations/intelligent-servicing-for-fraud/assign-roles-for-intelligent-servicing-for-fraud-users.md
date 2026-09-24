@@ -2,7 +2,7 @@
 title: Assign roles for Intelligent Servicing for Fraud users
 description: Assign roles to control access to features, capabilities, and data in the Intelligent Servicing for Fraud application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/assign-roles-for-intelligent-servicing-for-fraud-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/intelligent-servicing-for-fraud/assign-roles-for-intelligent-servicing-for-fraud-users.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud

@@ -2,7 +2,7 @@
 title: Configure real-time scanning properties
 description: Real-time scanning properties allow control over which users have access to real-time scanning, and how the scan operates within their environment. Perform the following procedure to configure real time scanning properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/configure-real-time-scanning-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-real-time-scanning-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,5 +44,5 @@ Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
     This sets the maximum number of code lines that can be scanned in real-time. Scripts exceeding this limit will not be scanned during editing.
 
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

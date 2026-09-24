@@ -2,14 +2,14 @@
 title: Create or edit an EVAM view definition
 description: Create or edit an Entity View Action Mapper \(EVAM\) view definition in the AI Search Admin console to customize how your AI Search results appear in the portal or workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-evam-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-admin-console-evam-configurations.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -111,7 +111,7 @@ Procedure
 </td></tr></tbody>
 </table>7.  On the form, fill in the fields.
 
-    For a description of the field values, see [Edit view config form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-edit-view-config-form.md).
+    For a description of the field values, see [Edit view config form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-edit-view-config-form.md).
 
 8.  In the Preview Card section, review the auto-generated JSON to verify the edits that you made to the view configuration.
 
@@ -124,7 +124,7 @@ Changes made to search result EVAM cards take effect immediately in AI Search ap
 
 ## What to do next
 
-After creating a view configuration, you must activate it. For more information, see [Activate or deactivate an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/enable-evam-config-ais-admin-console.md).
+After creating a view configuration, you must activate it. For more information, see [Activate or deactivate an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/enable-evam-config-ais-admin-console.md).
 
-**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-managing-evam.md)
+**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-managing-evam.md)
 

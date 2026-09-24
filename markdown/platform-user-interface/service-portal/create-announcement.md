@@ -2,7 +2,7 @@
 title: Create an announcement
 description: An announcement appears as a banner in Service Portal or within the announcements widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/create-announcement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/create-announcement.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -142,7 +142,7 @@ Display first
 
 </td><td>
 
-If selected, the announcement displays before all other announcements. If there is a tie between two records set to **Display first**, the sort order defined in the **glide.service\_portal.announcement.default\_sort\_order** system property is honored. See [Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/properties-service-portal.md).
+If selected, the announcement displays before all other announcements. If there is a tie between two records set to **Display first**, the sort order defined in the **glide.service\_portal.announcement.default\_sort\_order** system property is honored. See [Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/properties-service-portal.md).
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ Roles
 
 </td><td>
 
-If **Public** is not selected, you can define the roles that the announcement is visible to. If left empty, the announcement is visible to all roles.**Note:** Alternatively, you can define user criteria for the announcement instead. To do so, set up [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md) and clear the **Public** check box. Announcements display to only the users who pass the access criteria.
+If **Public** is not selected, you can define the roles that the announcement is visible to. If left empty, the announcement is visible to all roles.**Note:** Alternatively, you can define user criteria for the announcement instead. To do so, set up [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/user-criteria.md) and clear the **Public** check box. Announcements display to only the users who pass the access criteria.
 
 </td></tr><tr><td>
 
@@ -223,7 +223,7 @@ Portals that display the announcement. If this field is empty, the announcement 
 
 If the **Type** is **Banner**, test your announcement by navigating to the portal defined in the **Portals** field. If the **Type** is **Widget** or a custom type, test your announcement by navigating to the page with the associated widget instance.
 
-**Parent Topic:**[Posting announcements to portal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/announcements.md)
+**Parent Topic:**[Posting announcements to portal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/announcements.md)
 
 **Related topics**  
 

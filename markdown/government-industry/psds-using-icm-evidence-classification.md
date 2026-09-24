@@ -2,7 +2,7 @@
 title: Configure the security classification of an evidence record in Investigative Case Management
 description: You can change and configure the security classification of an evidence record for labeling purposes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-icm-evidence-classification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-icm-evidence-classification.html
 release: australia
 topic_type: task
 last_updated: "2026-03-13"

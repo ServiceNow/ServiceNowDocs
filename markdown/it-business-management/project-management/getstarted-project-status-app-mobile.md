@@ -2,7 +2,7 @@
 title: Get started with Project Status app
 description: Access project status and status reports on the Project Status mobile app to review your project status and collaborate with stakeholders regardless of your location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/getstarted-project-status-app-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/getstarted-project-status-app-mobile.html
 release: australia
 product: Project Management
 classification: project-management
@@ -19,7 +19,7 @@ Access project status and status reports on the Project Status mobile app to rev
 ## Before you begin
 
 -   Download the Mobile Agent mobile application on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
--   [Activate the PPM Mobile plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/activate-ppm-mobile.md).
+-   [Activate the PPM Mobile plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/activate-ppm-mobile.md).
 
 Role required: admin
 

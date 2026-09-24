@@ -2,7 +2,7 @@
 title: Exploring Sales CRM for Telecommunications
 description: Learn how the ServiceNow Sales CRM for Telecommunications application can help your organization manage the sales-to-fulfillment cycle for your customers. By adopting an integrated approach to quoting, ordering, and service delivery, you can increase operational efficiency and improve your customer experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/sales-order-management-telecommunications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/sales-order-management-telecommunications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

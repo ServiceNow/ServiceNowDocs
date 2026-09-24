@@ -2,7 +2,7 @@
 title: Install Employee Center
 description: Install Employee Center to deliver a unified, engaging employee experience across departments and systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/activate-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/activate-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -63,10 +63,10 @@ Employee Center \(sn\_ex\_sp\) installs the following dependent plugins:
 
 6.  Run the fix script  **Set primary topics for Employee taxonomy ** to  index the  curated experiences  demo data into  search and recommended content  .
 
-    For more information, see [Run fix scripts to update Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/run_scripts_manually_config-search.md).
+    For more information, see [Run fix scripts to update Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/run_scripts_manually_config-search.md).
 
 
 ## What to do next
 
-Check and allow all the RCA \(Requested Caller Access\) privileges requested by Employee Center. For more information on running a fix script for RCA approvals, see [Run fix-script for RCA approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-rca-fix-script.md).
+Check and allow all the RCA \(Requested Caller Access\) privileges requested by Employee Center. For more information on running a fix script for RCA approvals, see [Run fix-script for RCA approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-rca-fix-script.md).
 

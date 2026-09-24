@@ -2,7 +2,7 @@
 title: Explore Access management console
 description: Use the Access Management Console within Security Center to review and remediate access issues and misconfigurations. The Access Management Console provides enhanced visibility and control of your Access Analyzer findings, and streamlines remediation efforts. Within the console you can track, prioritize, and resolve access issues by assigning tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/access-controls-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/access-controls-console.html
 release: australia
 product: Access Control
 classification: access-control
@@ -53,7 +53,7 @@ Select **Evaluate Access** to evaluate the selected items and see results.
 
 Select the **See all** link to open the **Access analyzer** tab.
 
-For details on using the Access Analyzer diagnostic tool, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-analyzer.md), or review the tutorial video and links in the **Access analyzer** tab.
+For details on using the Access Analyzer diagnostic tool, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer.md), or review the tutorial video and links in the **Access analyzer** tab.
 
 
 </td><td>
@@ -68,7 +68,7 @@ Use this section to learn more about access control lists \(ACLs\), user adminis
 
 Select the **Learn More** links to view product documentation about each subject.
 
-Select **Learn more in Security Center** to view the **Security learning and references** page on your instance, which contains links to documentation, user guides, and more for Security Center. To learn more, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-analyzer.md) documentation.
+Select **Learn more in Security Center** to view the **Security learning and references** page on your instance, which contains links to documentation, user guides, and more for Security Center. To learn more, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer.md) documentation.
 
 
 </td><td>
@@ -109,7 +109,7 @@ Access the **Access checks** section by selecting it on the left edge of the scr
 
 <table id="table_kxr_z4d_hhc"><tbody><tr><td>
 
-Use the access analyzer tab start using the Access Analyzer tool, designed to help administrators view the permissions of an identity for a resource. From this tab, you can use the tool, review previously searched criteria, and review resources to learn how to use Access Analyzer. For more details on this tool and how it's used, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-analyzer.md).
+Use the access analyzer tab start using the Access Analyzer tool, designed to help administrators view the permissions of an identity for a resource. From this tab, you can use the tool, review previously searched criteria, and review resources to learn how to use Access Analyzer. For more details on this tool and how it's used, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer.md).
 
 </td><td>
 

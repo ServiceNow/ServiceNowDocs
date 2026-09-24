@@ -2,7 +2,7 @@
 title: Activate and configure appointment booking reminders for Walk-up Experience
 description: Configure scheduled appointment reminders for Walk-up Experience users. Reminders ensure that users attend appointments in a timely manner, and if they can't attend then reschedule or cancel an appointment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-activate-appt-reminder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-activate-appt-reminder.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,7 +2,7 @@
 title: Recovery strategy template form
 description: Use the Recovery strategy template form to define a reusable implementation profile that planners can apply to loss scenarios in business continuity plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/recovery-strategy-template-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/recovery-strategy-template-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-16"
@@ -33,8 +33,8 @@ For description of the field values, see the table.
 
 |Related list|Description|
 |------------|-----------|
-|Task template groups|Task template groups applied to the loss scenario when this recovery strategy template is used. See [Task template group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/task-template-group-form.md).|
-|Task templates|Individual task templates applied when this recovery strategy template is used. See [Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/task-template-form.md).|
+|Task template groups|Task template groups applied to the loss scenario when this recovery strategy template is used. See [Task template group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/task-template-group-form.md).|
+|Task templates|Individual task templates applied when this recovery strategy template is used. See [Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/task-template-form.md).|
 
-**Parent Topic:**[Configure a recovery strategy template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md)
+**Parent Topic:**[Configure a recovery strategy template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md)
 

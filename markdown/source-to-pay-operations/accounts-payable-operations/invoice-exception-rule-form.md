@@ -2,7 +2,7 @@
 title: Invoice exception rule form
 description: Reference information for Invoice Exception Rules in Accounts Payable Operations. Use this topic to understand each form field and its configuration options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -37,5 +37,5 @@ The following table describes each field in the invoice exception rule for.
 |New Criteria button|Adds an additional condition row to the rule, allowing complex multi-field matching criteria.|
 |Order|A numeric value that controls the sequence in which rules are evaluated.|
 
-**Parent Topic:**[Invoice exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/exception-form-fields.md)
+**Parent Topic:**[Invoice exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/exception-form-fields.md)
 

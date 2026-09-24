@@ -2,7 +2,7 @@
 title: Encryption options in EMR Help
 description: EMR Help provides encryption support to secure sensitive information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-help-encryption-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/emr-help-encryption-support.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -25,5 +25,5 @@ The **emr\_data\_viewer** module access policy grants the sn\_ind\_rmt\_help.vie
 
 Field Encryption capabilities are required. For more information, see [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md).
 
-**Parent Topic:**[EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-reference.md)
+**Parent Topic:**[EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/emr-reference.md)
 

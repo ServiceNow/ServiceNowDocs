@@ -2,7 +2,7 @@
 title: User criteria form and reference
 description: Reference information for configuring audience applicability criteria used in multi-theme functionality and other platform features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/es-audience-applicability-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/es-audience-applicability-criteria.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +19,7 @@ Reference information for configuring audience applicability criteria used in mu
 
 ## User criteria form fields
 
-The User Criteria form contains fields for defining user access criteria and restrictions. For more information, see [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md).
+The User Criteria form contains fields for defining user access criteria and restrictions. For more information, see [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md).
 
 |Field|Description|
 |-----|-----------|

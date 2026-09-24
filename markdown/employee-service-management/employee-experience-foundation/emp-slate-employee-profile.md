@@ -2,7 +2,7 @@
 title: Employee profile
 description: The Employee profile enables you to search for colleagues, view profiles, and access contact information through an directory interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-slate-employee-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-slate-employee-profile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

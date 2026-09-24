@@ -2,7 +2,7 @@
 title: Schedule a conversation form
 description: Use the Schedule a conversation form to schedule a conversation with an employee when the Microsoft Outlook integration is enabled for Leader Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/schedule-conversation-lh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/schedule-conversation-lh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -97,5 +97,5 @@ Cancel
 Close this conversation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Leader Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-reference.md)
+</table>**Parent Topic:**[Leader Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-reference.md)
 

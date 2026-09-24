@@ -2,7 +2,7 @@
 title: Use AI filter assist
 description: AI filter assist enables you to convert everyday language into an AI-generated encoded query.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-ai-filter-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/use-ai-filter-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

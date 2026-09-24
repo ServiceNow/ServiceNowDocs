@@ -2,7 +2,7 @@
 title: Restrict responsive dashboard sharing by role
 description: You can configure responsive dashboard properties to restrict which users are able to share responsive dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/restrict-responsive-db-sharing-to-specific-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/restrict-responsive-db-sharing-to-specific-roles.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -43,10 +43,10 @@ Users with the specified roles can see the **Share** panel when they view a dash
 
 ## What to do next
 
-To apply security rules to what is visible in the **Share** panel, select the box labeled **Apply security rules to the list of users, user groups, and roles that are visible when sharing dashboards**. For more information, see [Restrict responsive dashboard sharing with security rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/restrict-responsive-db-sharing-w-security-rule.md).
+To apply security rules to what is visible in the **Share** panel, select the box labeled **Apply security rules to the list of users, user groups, and roles that are visible when sharing dashboards**. For more information, see [Restrict responsive dashboard sharing with security rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/restrict-responsive-db-sharing-w-security-rule.md).
 
 **Related topics**  
 
 
-[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
+[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 

@@ -2,7 +2,7 @@
 title: Activate Notify
 description: You can activate the Notify \(com.snc.notify\) plugin if you are an administrator. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_ActivateNotify.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/t\_ActivateNotify.html
 release: australia
 product: Notify
 classification: notify
@@ -66,12 +66,12 @@ Provides ability to set SMS preferences for receiving messages from different pr
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Differences between Notify and Legacy Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/differences-notify-legacy-notify.md)**  
+-   **[Differences between Notify and Legacy Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/differences-notify-legacy-notify.md)**  
 Describes the differences between the Notify and Legacy Notify applications, including architecture, workflows, Twilio support, and task-initiated conference calls.
--   **[Migrating from Legacy Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/r_NotifyMigration.md)**  
+-   **[Migrating from Legacy Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/r_NotifyMigration.md)**  
 When migrating to Notify from the Legacy Notify functionality, several changes are made to the instance.
 
-**Parent Topic:**[Configuring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configuring-notify.md)
+**Parent Topic:**[Configuring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/configuring-notify.md)
 
 **Related topics**  
 

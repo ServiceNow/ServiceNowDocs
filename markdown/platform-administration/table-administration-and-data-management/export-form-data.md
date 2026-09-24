@@ -2,7 +2,7 @@
 title: Export data from a record
 description: Export a record to PDF or XML.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/export-form-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/export-form-data.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management

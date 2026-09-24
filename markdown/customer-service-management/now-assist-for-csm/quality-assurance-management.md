@@ -2,7 +2,7 @@
 title: Automated quality assurance
 description: Configure the Automated quality assurance skill to generate quality assurance scores and feedback for closed cases through automatic review based on defined scoring criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/quality-assurance-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/quality-assurance-management.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -119,7 +119,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 **Related topics**  
 
 
-[Use automated quality assurance dashboard as a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-an-agent.md)
+[Use automated quality assurance dashboard as a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-an-agent.md)
 
-[Use automated quality assurance dashboard as a manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-a-manager.md)
+[Use automated quality assurance dashboard as a manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-a-manager.md)
 

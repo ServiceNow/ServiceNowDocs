@@ -2,7 +2,7 @@
 title: Configure the ODBC driver
 description: Configure the ODBC driver to connect to your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ConfigureTheODBCDriver.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_ConfigureTheODBCDriver.html
 release: australia
 product: Web Services
 classification: web-services
@@ -42,5 +42,5 @@ After the driver is installed, configure it for your instance. The driver is pre
 5.  Click **OK**.
 
 
-**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-odbc.md)
+**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/configuring-odbc.md)
 

@@ -2,7 +2,7 @@
 title: DocumentReferenceService - Scoped, Global
 description: The DocumentReferenceService API provides methods for managing document references within a target table, such as the Incidents \[incident\] or Knowledge \[kb\_knowledge\] table. You can use document references to associate information with a record.Instantiates a DocumentReferenceService object.Adds a document reference to a target table record.Removes a document reference from the Document References \[ds\_document\_reference\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DocumentReferenceServiceBothAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/DocumentReferenceServiceBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,10 +20,10 @@ This API requires the Document Management plugin \(com.snc.platform\_document\_m
 
 The following APIs enable you to define and manage documents:
 
--   [SystemDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentBothAPI.md) – Define a document object.
--   [DocumentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentServiceBothAPI.md) – Add, update, or delete a document.
+-   [SystemDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SystemDocumentBothAPI.md) – Define a document object.
+-   [DocumentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentServiceBothAPI.md) – Add, update, or delete a document.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## DocumentReferenceService - DocumentReferenceService\(\)
 

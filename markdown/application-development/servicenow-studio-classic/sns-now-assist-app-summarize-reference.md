@@ -2,7 +2,7 @@
 title: ServiceNow Otto for app summary generation reference
 description: The following roles are required for use with the ServiceNow Otto for Creator app summary generation skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-reference.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -21,5 +21,5 @@ The following roles are required for use with the ServiceNow Otto for Creator ap
 
 Grant the admin and now.assist.creator roles, or the sn\_g\_app\_creator.app\_creator and now.assist.creator roles, to each user that you want to summarize apps.
 
-**Parent Topic:**[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
+**Parent Topic:**[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
 

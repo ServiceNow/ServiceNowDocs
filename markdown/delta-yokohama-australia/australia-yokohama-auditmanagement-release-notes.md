@@ -2,11 +2,11 @@
 title: Combined Audit Management release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Audit Management from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-auditmanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-auditmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 6
+last_updated: "2026-09-24"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,21 @@ Yokohama
 
 </td><td>
 
--   **[Matrix report in the Audit Workspace](https://www.servicenow.com/docs/access?context=matrix-report-audit-ws&family=yokohama&ft:locale=en-US)**
+-   **[Entity Based Access for Audit Management](https://www.servicenow.com/docs/access?context=c_Engagements&family=yokohama&ft:locale=en-US)**
+
+Entity-based access enables you to create configurations for entities, entity classes, and entity types. When a user is qualified based on these configurations and has the minimum required roles, they can access to the following tables:
+
+    -   Engagement
+    -   Test Plan
+    -   Control Test
+    -   Observation
+    -   Control to Engagement
+    -   Test Plan to Engagement
+    -   Risk to Engagement
+    -   Issue to Engagement
+    -   Entity to Engagement
+
+ -   **[Matrix report in the Audit Workspace](https://www.servicenow.com/docs/access?context=matrix-report-audit-ws&family=yokohama&ft:locale=en-US)**
 
 Analyze relationships between different variables by using a Matrix report that presents data in a structured format. Assess and document risks and the internal controls designed to mitigate those risks through the Risk and Controls Matrix.
 
@@ -94,6 +108,21 @@ Set audit period start and end dates directly on Engagement records to focus aud
 
 Simplify the installation of pre-configured content packs with the new Unified content management icon in the Audit Workspace. Content Accelerator includes the Digital Operational Resilience Act \(DORA\) content pack, offering citations and authority documents for DORA compliance. Audit shared manager and Audit WS supervisor roles can access Content Accelerator.
 
+
+ -   **[Enhancement to evidence request](https://www.servicenow.com/docs/access?context=evidence-request&family=zurich&ft:locale=en-US)**
+
+Create evidence response directly in one step. This bypasses the step involved in creation of evidence request and collection details. Evidence response is enhanced with additional data of source and context. To leverage evidence capabilities, feature roles have been introduced:
+
+    -   sn\_grc\_advanced.evidence\_reader
+    -   sn\_grc\_advanced.evidence\_requester
+    -   sn\_grc\_advanced.evidence\_responder
+    -   sn\_grc\_advanced.evidence\_admin
+-   **[Integration with ITAM](https://www.servicenow.com/docs/access?context=solutions-gallery&family=zurich&ft:locale=en-US)**
+
+Leverage Audit Management support as an ITAM customer through dedicated feature roles. A lightweight version of the Audit Management workspace is available, which includes the following features:
+
+    -   On the Audit Management home page, you can track **Timeline**, **Engagements**, **Tracking**, **Create evidence request**, and **.**
+    -   The lightweight Audit Management also includes the key capabilities, such as Engagement, Entity Scoping, Activities, and Evidence when Advanced Core is installed.
 
 </td></tr><tr><td>
 
@@ -257,6 +286,8 @@ Yokohama
 Install Audit Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Audit Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -267,6 +298,8 @@ Zurich
 
 Install Audit Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Audit Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -483,5 +516,5 @@ Australia
  See [Audit Management](https://www.servicenow.com/docs/access?context=c_GRCAudits&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

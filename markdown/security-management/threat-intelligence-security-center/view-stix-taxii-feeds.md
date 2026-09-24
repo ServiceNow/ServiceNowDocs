@@ -2,7 +2,7 @@
 title: View STIX TAXII Feeds
 description: View and manage STIX TAXII threat intelligence feeds that provide automated security data to your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/view-stix-taxii-feeds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/view-stix-taxii-feeds.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -41,5 +41,5 @@ Role required: sn\_sec\_tisc.admin
 5.  Select **Save** to apply the changes.
 
 
-**Parent Topic:**[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)
+**Parent Topic:**[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)
 

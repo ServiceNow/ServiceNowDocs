@@ -2,7 +2,7 @@
 title: Exploring Legal Counsel Center
 description: Legal Counsel Center enables legal department members to categorize, prioritize, and efficiently address legal issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/exploring-legal-counsel-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/exploring-legal-counsel-center.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -44,14 +44,14 @@ The Legal Counsel Center is the next experience Workspace for the legal fulfille
 **Important:**
 
 -   The Matters and Matter tasks widgets are visible if the Legal Matter Management plugin is installed.
--   To use interview templates, you must first install the Interview Templates plugin \(com.sn\_interview\_templates\) and enable the Requested RCA of Interview Templates for Legal Counsel Center application and Legal Matter Management scope. For more information, see [Interview Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
+-   To use interview templates, you must first install the Interview Templates plugin \(com.sn\_interview\_templates\) and enable the Requested RCA of Interview Templates for Legal Counsel Center application and Legal Matter Management scope. For more information, see [Interview Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 The following is an example of the Legal Counsel Center landing page.
 
 \[Omitted image "landing-page.png"\] Alt text: Legal Counsel Center Home page
 
--   **[Legal Counsel Center Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-counsel-center.md)**  
+-   **[Legal Counsel Center Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-counsel-center.md)**  
 Legal Counsel Center Classic enables legal department members to categorize, prioritize, and efficiently address legal issues.
 
-**Parent Topic:**[Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md)
+**Parent Topic:**[Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md)
 

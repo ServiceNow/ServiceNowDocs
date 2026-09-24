@@ -2,7 +2,7 @@
 title: SPO MCP Server tools
 description: Tools available in the SPO MCP Server, their internal names, and what each tools does.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-mcp-server-tools-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-mcp-server-tools-reference.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations

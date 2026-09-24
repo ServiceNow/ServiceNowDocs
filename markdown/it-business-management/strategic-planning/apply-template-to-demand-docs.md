@@ -2,7 +2,7 @@
 title: Use templates with demand Doc pages
 description: Apply a template to demand Doc pages to standardize content structure across demands or save a configured page as a reusable template for your team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/apply-template-to-demand-docs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/apply-template-to-demand-docs.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

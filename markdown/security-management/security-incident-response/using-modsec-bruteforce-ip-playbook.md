@@ -2,7 +2,7 @@
 title: Use the ModSec Brute force by IP Burst playbook
 description: Use this playbook to investigate incidents of brute force attempts on the login pages from multiple IPs detected by ModSec. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the ModSec Brute force by IP Burst playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-modsec-bruteforce-ip-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/using-modsec-bruteforce-ip-playbook.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -67,5 +67,5 @@ Role required:
 8.  In Action 16, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for ModSec Brute force by IP Burst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-modsec-bruteforce-ip.md)
+**Parent Topic:**[Playbook for ModSec Brute force by IP Burst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-modsec-bruteforce-ip.md)
 

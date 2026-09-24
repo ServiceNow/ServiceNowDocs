@@ -2,7 +2,7 @@
 title: Create an email client configuration
 description: Define a configuration that controls the display and behavior of the email client that is based on a selected ServiceNow table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-email-client-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-email-client-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -76,5 +76,5 @@ You can create one email client configuration per ServiceNow table.
     The configuration is added to the Email Client Configuration \[sys\_email\_client\_configuration\] table.
 
 
-**Parent Topic:**[Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-client-configuration.md)
+**Parent Topic:**[Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-client-configuration.md)
 

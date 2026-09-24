@@ -2,7 +2,7 @@
 title: Copy File activity
 description: The Copy File activity copies a file from an SFTP server \(source host\) to another SFTP server \(target host\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_CopyFileActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/r\_CopyFileActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -34,7 +34,7 @@ The Copy File activity copies a file from an SFTP server \(source host\) to anot
 
 |Variable|Description|
 |--------|-----------|
-|errorMessages|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.|
+|errorMessages|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.|
 |result|Text message advising that the command was executed successfully.|
 
 ## Conditions
@@ -44,5 +44,5 @@ The Copy File activity copies a file from an SFTP server \(source host\) to anot
 |Success|The activity succeeded in copying the file.|
 |Failure|The activity failed to copy the file.|
 
-**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md)
 

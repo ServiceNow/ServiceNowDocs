@@ -2,7 +2,7 @@
 title: Update a special handling note
 description: Update a special handling note for a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_UpdateAnOnScreenAlert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_UpdateAnOnScreenAlert.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

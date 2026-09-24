@@ -2,7 +2,7 @@
 title: Grouping of tasks in status reports of CWM My Work
 description: Learn how various tasks assigned to you are grouped based on their State and Priority in My Work reports of Collaborative Work Management \(CWM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -40,10 +40,10 @@ Your ServiceNow instance may have some extended task types that have custom stat
 
 \[Omitted image "cwm-my-work-other.png"\] Alt text: Other grouping for State and Priority.
 
-**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/reference-cwm.md)
+**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/reference-cwm.md)
 
 **Related topics**  
 
 
-[My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/my-work-in-cwm.md)
+[My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/my-work-in-cwm.md)
 

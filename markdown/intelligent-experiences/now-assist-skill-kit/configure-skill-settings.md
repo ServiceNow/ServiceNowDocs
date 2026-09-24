@@ -2,7 +2,7 @@
 title: Configure deployment and skill settings
 description: Configure where a skill appears in AI Admin Hub, review general information, set security controls, choose a provider, and add evaluation metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -112,7 +112,7 @@ A description of the feature.
 
 6.  Configure the **Security controls** section to restrict which roles can run the skill.
 
-    For the procedure, see [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
+    For the procedure, see [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
 
 7.  Review the **Providers** section.
 
@@ -130,7 +130,7 @@ A description of the feature.
 
     Script-based metrics \(metrics with a script instead of a judge prompt\) don't consume assists.
 
-    For details about Now Assist consumption during prompt testing, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
+    For details about Now Assist consumption during prompt testing, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
 
     1.  In the **Evaluation metrics** section, select the add icon \[Omitted image "icon-nask-add.png"\] Alt text: add icon.
 
@@ -138,7 +138,7 @@ A description of the feature.
 
         Metrics are grouped by category. Each metric shows the language model provider that runs the metric, such as **Amazon Bedrock**, **Now LLM Generic**, or **Multiple LLMs**. Metrics that run as scripts don't display a provider tag.
 
-        For descriptions of the available metrics, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md).
+        For descriptions of the available metrics, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md).
 
     3.  Review the metric details.
 
@@ -154,9 +154,9 @@ A description of the feature.
 
 ## What to do next
 
-After you configure the deployment and skill settings, you can publish your skill. To learn more about publishing skills, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
+After you configure the deployment and skill settings, you can publish your skill. To learn more about publishing skills, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
 
-**Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+**Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: GlideElementCurrency2 - Scoped
 description: The GlideElementCurrency2 API provides methods to perform operations on Foreign Exchange \(FX\) Currency fields \(also known as Currency2\) within the current GlideRecord.Returns an FX Currency field display string, as entered by the user, from the associated GlideRecord.Returns the display value of an FX Currency field within the associated GlideRecord.Returns the reference currency value of an FX Currency field within the associated GlideRecord.Returns the session currency value of the associated FX Currency field within the current GlideRecord.Sets the display value of an FX Currency field with the specified currency value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideElementCurrency2ScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideElementCurrency2ScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -26,7 +26,7 @@ This API provides methods that enable you to perform the following:
 
 The GlideElementCurrency2 class has no constructor.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideElementCurrency2 - getAsEnteredDisplayValue\(\)
 

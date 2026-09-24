@@ -2,7 +2,7 @@
 title: Frequently Asked Questions \(FAQs\) on Document Templates
 description: Find answers to some common questions on Document Templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/dc-faq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/dc-faq.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

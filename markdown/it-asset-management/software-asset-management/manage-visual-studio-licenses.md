@@ -2,7 +2,7 @@
 title: Manage licenses for Microsoft Visual Studio
 description: Manage your Visual Studio subscriptions with the Software Asset Management publisher pack for Microsoft. Verify license compliance and detect unlicensed installations. Reduce licensing costs by identifying subscriptions that are allocated but aren’t being used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/manage-visual-studio-licenses.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/manage-visual-studio-licenses.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -34,13 +34,13 @@ First, set up software models and entitlements to track your Visual Studio subsc
 
 ## Procedure
 
-1.  [Import software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-entitlement-import-errors.md) for your Visual Studio subscriptions.
+1.  [Import software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/view-entitlement-import-errors.md) for your Visual Studio subscriptions.
 
     **Important:** Fill in the **Publisher part number** column on the entitlement import template to automatically create software models for Visual Studio and all included software \(suite components\). You can look up publisher part numbers in the Software Product Definition table \[samp\_sw\_product\_definition\]. If you fill in the **Publisher part number** field, **Publisher**, **Product**, **Version**, **Edition**, **Platform**, and **Language** aren’t required because the publisher part number provides that information.
 
     When the import is complete, software models and entitlements are automatically created for your Visual Studio subscriptions. The Visual Studio software models are automatically populated with Suite Components and Downgrade Rights.
 
-    You can also create software entitlements manually. For details, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+    You can also create software entitlements manually. For details, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 
     **Important:** You can view your software models in both the Software Asset Management classic application and the Software Asset Workspace.
 
@@ -48,7 +48,7 @@ First, set up software models and entitlements to track your Visual Studio subsc
 
     Install conditions define where the software can be installed. For Visual Studio, installing the software anywhere that is not a development or test environment is a violation of the Microsoft license agreement. Install conditions are used during reconciliation. When you run reconciliation, any Microsoft software installed on production, disaster recovery, or other environments aren't covered by your Visual Studio licenses. These products are considered unlicensed installations unless they’re covered by another Microsoft license.
 
-    For details on adding product install conditions, see [Create product install conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-product-install-condition.md).
+    For details on adding product install conditions, see [Create product install conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-product-install-condition.md).
 
     You can add filter conditions to the Product install condition field to limit installations to your development or test environments. For example, you could use the conditions `Installed on contains dev` or `Installed on contains test`.
 
@@ -58,12 +58,12 @@ First, set up software models and entitlements to track your Visual Studio subsc
 
     For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-sets-landing-page.md).
 
-    Additionally, you can change the inference percent of the Visual Studio software models. The inference percent specifies what percentage of the components must be installed for the suite. It can be 0% in most cases. Also, verify that the Visual Studio community edition is free. For more details on adding inference percent and product licensability at the edition level, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-swmodels-workspace.md).
+    Additionally, you can change the inference percent of the Visual Studio software models. The inference percent specifies what percentage of the components must be installed for the suite. It can be 0% in most cases. Also, verify that the Visual Studio community edition is free. For more details on adding inference percent and product licensability at the edition level, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-swmodels-workspace.md).
 
 
 ## What to do next
 
-Run a reconciliation to view your Visual Studio license compliance. Reconciliation runs weekly or on demand. Reconciliation compares your purchased Visual Studio rights recorded in software entitlements with actual installations found by Discovery. To view reconciliation results in a simplified workbench view, navigate to **Software Asset** &gt; **Reconciliation** &gt; **License Workbench**. For more information, see [Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md).
+Run a reconciliation to view your Visual Studio license compliance. Reconciliation runs weekly or on demand. Reconciliation compares your purchased Visual Studio rights recorded in software entitlements with actual installations found by Discovery. To view reconciliation results in a simplified workbench view, navigate to **Software Asset** &gt; **Reconciliation** &gt; **License Workbench**. For more information, see [Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMReconciliation.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
 

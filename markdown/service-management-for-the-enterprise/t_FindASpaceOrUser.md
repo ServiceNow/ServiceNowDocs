@@ -2,7 +2,7 @@
 title: Find a space or user
 description: All users in your organization, regardless of their role, can search for other users and spaces. The results are ordered by current level or floor, current campus, and other campuses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_FindASpaceOrUser.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_FindASpaceOrUser.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Role required: none
 
 3.  To help narrow your search results, you can select the campus, building, and floor number for your search.
 
-    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
+    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
 
     \[Omitted image "CampusFloorSelection.png"\] Alt text: In this figure, a facilities map image displays a building floor and its designated spaces.
 
@@ -64,7 +64,7 @@ Action
 
 Click the link for the space or user. The details for that user or space open in a separate form.
 
- **Note:** If the location is a space, users and facilities staff can create facilities requests from the room information. See [Create a facility request from the floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateFacReqWorkbench.md).
+ **Note:** If the location is a space, users and facilities staff can create facilities requests from the room information. See [Create a facility request from the floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_CreateFacReqWorkbench.md).
 
 </td></tr><tr><td id="d32985e237">
 

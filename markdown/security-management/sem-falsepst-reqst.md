@@ -2,10 +2,10 @@
 title: Request a false positive for a vulnerable item or remediate task
 description: Indicate a false positive request for a finding or a remediation task in the Security Exposure Management Workspace. A false positive is a condition where a scanner incorrectly reports that a finding exists in the system due to situations such as an incorrect classification, improper logic, or an algorithm in the scanner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-falsepst-reqst.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-falsepst-reqst.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -95,5 +95,5 @@ The state of the remediation task and its records reverts to previous state.
 </td></tr></tbody>
 </table>In the **Activity stream** of a record or remediation task, you can view the entire workflow of the false positive request.
 
-**Parent Topic:**[Exception Management Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-exception-management-overview.md)
+**Parent Topic:**[Exception Management Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-exception-management-overview.md)
 

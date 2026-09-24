@@ -2,7 +2,7 @@
 title: UI generation
 description: UI generation in ServiceNow Otto uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform using natural language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/ui-generation-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/ui-generation-landing.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -20,19 +20,19 @@ UI generation in ServiceNow Otto uses AI-powered skills to help app developers, 
 
 <table id="table_a31_mx5_lbc" class="nav-card"><tbody><tr><td>
 
-[Explore UI generation\[Omitted image "bus-explore.svg"\] Alt text:Learn how you can create UI experiences with the power of AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/exploring-ui-generation.md)
+[Explore UI generation\[Omitted image "bus-explore.svg"\] Alt text:Learn how you can create UI experiences with the power of AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/exploring-ui-generation.md)
 
 </td><td>
 
-[Configure UI generation\[Omitted image "bus-sdlc.svg"\] Alt text:Configure UI generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configuring-ui-generation.md)
+[Configure UI generation\[Omitted image "bus-sdlc.svg"\] Alt text:Configure UI generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configuring-ui-generation.md)
 
 </td></tr><tr><td>
 
-[Using UI generation\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Quickly generate a UI with natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-generation.md)
+[Using UI generation\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Quickly generate a UI with natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-generation.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, roles, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, roles, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -62,14 +62,14 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/exploring-ui-generation.md)**  
+-   **[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/exploring-ui-generation.md)**  
 Learn how UI generation uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform® using natural language.
--   **[Configuring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configuring-ui-generation.md)**  
+-   **[Configuring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configuring-ui-generation.md)**  
 Configure and install UI generation.
--   **[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-generation.md)**  
+-   **[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-generation.md)**  
 UI generation in ServiceNow Otto for Creator enables developers to build ServiceNow portal experiences faster using natural language. Instead of manually configuring each page, module, or data binding, you describe what you need, and ServiceNow Otto for Creator it for you.
--   **[UI generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-reference.md)**  
+-   **[UI generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 
-**Parent Topic:**[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
+**Parent Topic:**[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-builder-overview.md)
 

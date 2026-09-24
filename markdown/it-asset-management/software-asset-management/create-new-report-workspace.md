@@ -2,7 +2,7 @@
 title: Create and manage reports in workspace
 description: Create and manage your report tiles in the Software Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-new-report-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-new-report-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -55,5 +55,5 @@ All the base system Software Asset Management reports and the custom created rep
     The new report tile appears on the Reports tab. You may need to reload the Reports tab to see the new report tile.
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)
 

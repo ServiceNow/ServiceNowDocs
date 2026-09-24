@@ -2,7 +2,7 @@
 title: RMA case line form
 description: Fields on the Return Merchandise Authorization \(RMA\) case line form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/rma-case-line-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/rma-case-line-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-01"
@@ -28,5 +28,5 @@ Fields on the Return Merchandise Authorization \(RMA\) case line form.
 |Assigned to|Agent to whom the case is assigned.|
 |Needs attention|Check box to signify whether case needs immediate attention.|
 
-**Parent Topic:**[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/return-merchandise-authorization-case-management-reference.md)
+**Parent Topic:**[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/return-merchandise-authorization-case-management-reference.md)
 

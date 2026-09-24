@@ -2,7 +2,7 @@
 title: Create Event workflow activity
 description: The Create Event activity adds an event to the event queue, but does not immediately fire the event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_CreateEvent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/r\_CreateEvent.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -18,7 +18,7 @@ The **Create Event** activity adds an event to the event queue, but does not imm
 
 The event processor typically processes the event within one minute. This activity triggers any business rules or email notifications that would normally be triggered by the event.
 
-For more information about creating and using system events, see [System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/events.md).
+For more information about creating and using system events, see [System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/system-events/events.md).
 
 ## Results
 
@@ -63,5 +63,5 @@ The second event parameter.
  **Note:** If this parameter is a string value, it must be within quotes \(" "\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow notification activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_NotificationActivities.md)
+</table>**Parent Topic:**[Workflow notification activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-activities/c_NotificationActivities.md)
 

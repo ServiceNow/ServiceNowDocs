@@ -2,7 +2,7 @@
 title: Important considerations for using ServiceNow Otto for IT Service Management \(ITSM\) agentic AI
 description: Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/important-considerations-itsm-agentic-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/important-considerations-itsm-agentic-ai.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

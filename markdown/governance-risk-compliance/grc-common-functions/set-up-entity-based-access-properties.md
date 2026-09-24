@@ -2,7 +2,7 @@
 title: Set up Entity Based Access properties
 description: Enable or disable the Entity Based Access properties to control access to the objects that are associated with an entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/set-up-entity-based-access-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/set-up-entity-based-access-properties.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -48,5 +48,5 @@ Role required: sn\_grc\_ent\_access.admin
 
 You have completed configuring entity-based access properties in your system.
 
-**Parent Topic:**[Configuring Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/setting-up-entity-based-access.md)
+**Parent Topic:**[Configuring Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/setting-up-entity-based-access.md)
 

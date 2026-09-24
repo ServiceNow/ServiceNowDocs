@@ -2,7 +2,7 @@
 title: Domain Job Management
 description: Queue multiple Domain Separation updates sequentially into a single background job using the Domain Job Manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/domain-job-manger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/domain-job-manger.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

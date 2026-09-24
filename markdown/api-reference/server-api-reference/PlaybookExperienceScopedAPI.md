@@ -2,7 +2,7 @@
 title: PlaybookExperience - Scoped
 description: The PlaybookExperience API provides methods for handling playbook executions.Cancel an individual playbook.Cancels playbook executions for a given parent record.Gets a list of playbook executions for a given parent record.Checks whether a parent record has playbook executions.Restarts an execution from the beginning \(the entire playbook\) or from a specific stage or activity of a playbook.Initiates a playbook for a parent record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PlaybookExperienceScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/PlaybookExperienceScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,7 +20,7 @@ This API requires the Playbook Experience Core plugin \(com.glide.playbook\_expe
 
 This API requires at least one playbook in the Process Definition \[sys\_pd\_process\_definition\] table. To use this API, you must have the roles required to view and cancel a running process in Process Automation Designer. For more information, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## PlaybookExperience - cancelPlaybook\(String playbookContext, String cancellationReason, String playbookExperienceId, Boolean force\)
 

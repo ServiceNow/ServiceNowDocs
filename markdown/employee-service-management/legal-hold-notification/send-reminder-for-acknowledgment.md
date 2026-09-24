@@ -2,7 +2,7 @@
 title: Send a reminder to custodians for acknowledgment
 description: Send a reminder to custodians for them to acknowledge their role in ensuring that the data related to the legal hold is preserved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/send-reminder-for-acknowledgment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-hold-notification/send-reminder-for-acknowledgment.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -45,5 +45,5 @@ A reminder email is sent to the custodian.
 
 The message **Reminder notice is sent** appears in the **Activity** section.
 
-**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

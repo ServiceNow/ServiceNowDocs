@@ -2,7 +2,7 @@
 title: Cancel a submitted approval request
 description: Cancel a submitted approval request if it's no longer needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/cancel-approval-job-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/cancel-approval-job-req.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -31,7 +31,7 @@ Role required: sn\_ta\_hiring\_core.recruiter
     -   When you cancel an approval request, the state changes to canceled on the **Approvers** tab.
     -   The cancelled notification also shows up on the Activity stream.
 
-**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
+**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/manage-job-reqs.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a service provider
 description: Administrators can configure service providers for devices that use SMS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAServiceProvider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAServiceProvider.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -124,10 +124,10 @@ Optional attributes of an SMS device used inside an SMS service provider's **Adv
 
 </td></tr></tbody>
 </table>
--   **[Select a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectingAServiceProvider.md)**  
+-   **[Select a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_SelectingAServiceProvider.md)**  
 You can configure how a device's service provider affects the construction of the device's email address.
--   **[SMS notification advanced scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_SMSNotificationAdvancedScripting.md)**  
+-   **[SMS notification advanced scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_SMSNotificationAdvancedScripting.md)**  
 You can use these objects and their attributes in your advanced notification scripts on the SMS Notification Service Provider form.
 
-**Parent Topic:**[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md)
+**Parent Topic:**[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_SubscriptionBasedNotifications.md)
 

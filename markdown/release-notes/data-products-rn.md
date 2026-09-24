@@ -2,7 +2,7 @@
 title: Data products release notes
 description: The ServiceNow Data products application enables data stewards to create governed data interfaces and package them into discoverable, reusable data products that teams can access through the Data Catalog. Data products is a new application in the Australia release.The ServiceNow Data products application enables data stewards to create governed data interfaces and package them into discoverable, reusable data products that teams can access through the Data Catalog. Data products is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/data-products-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/data-products-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-25"
@@ -33,7 +33,7 @@ See [Explore data products](https://raw.githubusercontent.com/ServiceNow/Service
     Install Data products by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## Australia
 

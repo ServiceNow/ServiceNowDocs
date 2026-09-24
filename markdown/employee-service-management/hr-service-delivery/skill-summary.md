@@ -2,7 +2,7 @@
 title: Skills summary of your team
 description: Do a deeper analysis of skills of your team. Understand your team's top strengths and areas of growth.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/skill-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/skill-summary.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

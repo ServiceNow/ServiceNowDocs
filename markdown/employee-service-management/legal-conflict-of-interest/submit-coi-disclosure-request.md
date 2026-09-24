@@ -2,7 +2,7 @@
 title: Submit COI request form Employee Center
 description: Submit a request to obtain the legal clearance before you involve in any activity that might pose a risk of potential conflict with the primary employer duties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -58,5 +58,5 @@ Role required: sn\_lg\_ops.legal\_user
 
     -   Request Details: Review request details.
 
-**Parent Topic:**[Submit COI requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-requests.md)
+**Parent Topic:**[Submit COI requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/submit-coi-requests.md)
 

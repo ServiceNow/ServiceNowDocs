@@ -2,7 +2,7 @@
 title: Use the guided tour in Universal Request
 description: Use the guided tour to navigate a sequence of interactive steps that provides an overview of Universal Request cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-guided-tour.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-guided-tour.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -47,5 +47,5 @@ Use this procedure the start the guided tour manually.
 9.  Select **Done** to complete the tour.
 
 
-**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

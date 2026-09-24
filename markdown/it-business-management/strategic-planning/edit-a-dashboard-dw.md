@@ -2,7 +2,7 @@
 title: Edit a dashboard
 description: Customize or edit a dashboard by adding sections, filters, images, lists, process mining maps, and rich text. If the dashboard has been shared, any changes you make are applied globally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/edit-a-dashboard-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/edit-a-dashboard-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

@@ -2,7 +2,7 @@
 title: Playbooks in Customer Service Management
 description: Playbooks provide customer service agents with step-by-step guidance for resolving specific types of cases. Agents can follow a playbook in CRM Workspace and complete guided activities to resolve customer issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setting-up-csm-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/setting-up-csm-playbooks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,10 +25,10 @@ Playbooks include:
 -   A series of steps that a user must complete in order to achieve a particular goal and the necessary guidance for completing those steps.
 -   One or more stages, or groups of tasks, and sequences of activities within each stage.
 
-Playbooks are created in the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md) application. Pages that display playbooks in a workspace are created in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) application. Agents use playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md) to complete activities. End users can also use playbooks from service portals to create requests and provide information. For more information, see the following sections in this topic:
+Playbooks are created in the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md) application. Pages that display playbooks in a workspace are created in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) application. Agents use playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspaces-configure.md) to complete activities. End users can also use playbooks from service portals to create requests and provide information. For more information, see the following sections in this topic:
 
--   [Playbook users and tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)
--   [Configuring and configuring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)
+-   [Playbook users and tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md)
+-   [Configuring and configuring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md)
 
 ## Playbook users and tools
 
@@ -64,9 +64,9 @@ UI Builder admin\[ui\_builder\_admin\]
 
 </td><td>
 
-Uses the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) application to create or customize pages that display playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md).UI Builder is a web user interface builder. Users with the UI Builder admin role use the tool to create pages, which are collections of components that make up a workspace user interface.
+Uses the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) application to create or customize pages that display playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspaces-configure.md).UI Builder is a web user interface builder. Users with the UI Builder admin role use the tool to create pages, which are collections of components that make up a workspace user interface.
 
-**Note:** [Playbook page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-templates.md) are available for UI Builder admins to use as a starting point for creating playbook pages.
+**Note:** [Playbook page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-templates.md) are available for UI Builder admins to use as a starting point for creating playbook pages.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ End user\[sn\_customerservice.customer\]
 
 </td><td>
 
-Uses playbooks create cases, provide requested information, and complete assigned tasks. For more information, see [Playbooks for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbooks-for-portals.md).
+Uses playbooks create cases, provide requested information, and complete assigned tasks. For more information, see [Playbooks for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbooks-for-portals.md).
 
 </td></tr></tbody>
 </table>## Creating and configuring playbooks
@@ -130,14 +130,14 @@ Users with the ui\_builder\_admin role can use UI Builder to create or customize
 </td></tr></tbody>
 </table>## Playbook applications
 
-Several applications are available that enable you to create and use playbooks with Customer Service Management. See [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md) for detailed plugin and dependency information.
+Several applications are available that enable you to create and use playbooks with Customer Service Management. See [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md) for detailed plugin and dependency information.
 
 |Application|Description|
 |-----------|-----------|
 |Playbooks for Customer Service Management|Use this application to create or customize playbooks based on your individual business needs. Create playbooks that support case types or the base customer service case.|
-|[Case Playbook for Onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-onboarding.md)|Use this application to manage the process for taking on new customers or enrolling customers in new products. An onboarding case captures the details of the new customer, including their selection of products and services.|
-|[Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-complaint-overview.md)|Use this application to manage the process for handling customer complaints. A complaint case captures the details of the problem reported by the customer and the expected resolution.|
-|[Case Playbook for Product Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-product-support.md)|Use this application to guide agents through the steps that are needed to resolve product issues. A product support case captures information about the customer, the product, and the reported issue.|
+|[Case Playbook for Onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-type-onboarding.md)|Use this application to manage the process for taking on new customers or enrolling customers in new products. An onboarding case captures the details of the new customer, including their selection of products and services.|
+|[Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-complaint-overview.md)|Use this application to manage the process for handling customer complaints. A complaint case captures the details of the problem reported by the customer and the expected resolution.|
+|[Case Playbook for Product Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-product-support.md)|Use this application to guide agents through the steps that are needed to resolve product issues. A product support case captures information about the customer, the product, and the reported issue.|
 
 ## Playbook plugins
 
@@ -173,13 +173,13 @@ Several features are available to agents when using a playbook, depending on the
 
 | | |
 |---|---|
-|[Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-create-record.md)|If a playbook is configured to use the record generator feature, customer service agents can create a record using a playbook activity.|
-|[Filter playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-filter-activities.md)|Filter the activities in playbook stages by the selected user or activity state.|
-|[Using the activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using-activity-stream.md)|Customer service agents can access the activity stream in the contextual side panel to communicate with requesters and make internal notes about the work done on a record.|
-|[Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)|Customer service agents can view dynamic related records that dynamically change based on the context of the current record or playbook activity.|
-|[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)|Customer service agents can view ribbon information in the contextual side panel, including the case overview and timeline, Customer 360, and SLAs.|
-|[Add an optional activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-customized-playbook-experience-for-customer-service-management.md)|Add optional activities to different stages in a playbook as needed. For example, a customer may want to schedule an appointment to visit a location.|
-|[Summarize a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-summarization-in-process-page.md)|Use the ServiceNow Otto for CSM case summarization skill to summarize the case details and display this information on the case record.|
+|[Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-create-record.md)|If a playbook is configured to use the record generator feature, customer service agents can create a record using a playbook activity.|
+|[Filter playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-filter-activities.md)|Filter the activities in playbook stages by the selected user or activity state.|
+|[Using the activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-using-activity-stream.md)|Customer service agents can access the activity stream in the contextual side panel to communicate with requesters and make internal notes about the work done on a record.|
+|[Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-rel-records.md)|Customer service agents can view dynamic related records that dynamically change based on the context of the current record or playbook activity.|
+|[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-ribbon-info.md)|Customer service agents can view ribbon information in the contextual side panel, including the case overview and timeline, Customer 360, and SLAs.|
+|[Add an optional activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-customized-playbook-experience-for-customer-service-management.md)|Add optional activities to different stages in a playbook as needed. For example, a customer may want to schedule an appointment to visit a location.|
+|[Summarize a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-summarization-in-process-page.md)|Use the ServiceNow Otto for CSM case summarization skill to summarize the case details and display this information on the case record.|
 
 ## Configuring Playbooks
 
@@ -199,8 +199,8 @@ Create or customize a playbook record page
 
 </td><td>
 
-A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. The following playbook record pages are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]:-   [Case playbook: horizontal stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-horizontal-stages.md)
--   [Case playbook: vertical stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-vertical-stages.md)
+A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. The following playbook record pages are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]:-   [Case playbook: horizontal stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-horizontal-stages.md)
+-   [Case playbook: vertical stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-vertical-stages.md)
 
 For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md).
 
@@ -217,12 +217,12 @@ Each UI Builder record page includes the following settings:-   **Active**: Enab
 
 For more information, see the following topics:
 
--   [Case playbook: horizontal stages page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-horizontal-stages.md)
--   [Case playbook: vertical stages page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-vertical-stages.md)
+-   [Case playbook: horizontal stages page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-horizontal-stages.md)
+-   [Case playbook: vertical stages page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-vertical-stages.md)
 
 </td></tr><tr><td>
 
-[Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-select-activity-view.md)
+[Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-select-activity-view.md)
 
 </td><td>
 
@@ -233,7 +233,7 @@ Users with the system administrator role can select a playbook activity view in 
 
 </td></tr><tr><td>
 
-[Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-config-activity-visibility.md)
+[Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-config-activity-visibility.md)
 
 </td><td>
 
@@ -279,7 +279,7 @@ Different playbooks for the same record type can use different playbook experien
 
 </td></tr><tr><td>
 
-[Set up a record generator for a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-record-generator-for-case-type.md)
+[Set up a record generator for a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-record-generator-for-case-type.md)
 
 </td><td>
 
@@ -287,7 +287,7 @@ Create a record for a case type by using a playbook record generator. With a rec
 
 </td></tr><tr><td>
 
-[Configure an optional activity for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-optional-activity-for-a-case-type-playbook.md)
+[Configure an optional activity for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-optional-activity-for-a-case-type-playbook.md)
 
 </td><td>
 

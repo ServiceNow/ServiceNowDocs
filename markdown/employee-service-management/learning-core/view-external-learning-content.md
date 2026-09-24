@@ -2,7 +2,7 @@
 title: View external Learning content
 description: View the details of all course items that are pulled from external sources into the Learning application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/view-external-learning-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/view-external-learning-content.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -28,17 +28,17 @@ Role required: sb\_lc.learning\_admin
 
 3.  On the Learning External Content form, view the fields.
 
-    For a description of the field values, see [Learning External Content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-external-content-form.md).
+    For a description of the field values, see [Learning External Content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-external-content-form.md).
 
 
--   **[Define user access to course within external learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/define-external-content-user-access.md)**  
+-   **[Define user access to course within external learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/define-external-content-user-access.md)**  
 Define user access to configure who has read access to external learning content.
--   **[Assign topics to external content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/assign-external-content-topics.md)**  
+-   **[Assign topics to external content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/assign-external-content-topics.md)**  
 Assign topics to external learning content in Learning.
--   **[Add associated skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-associated-skills.md)**  
+-   **[Add associated skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-associated-skills.md)**  
 Add associated skills to external learning content in Learning.
 
-**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-learning-achievements.md)
+**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-learning-achievements.md)
 
 **Related topics**  
 

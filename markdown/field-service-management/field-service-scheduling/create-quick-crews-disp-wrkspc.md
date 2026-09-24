@@ -2,7 +2,7 @@
 title: Create quick crews in Dispatcher Workspace
 description: Create planned or ad hoc crews faster and more efficiently using a single interface in Dispatcher Workspace. The single interface helps dispatchers view the agent schedule and availability while creating crews and adding crew members.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-quick-crews-disp-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/create-quick-crews-disp-wrkspc.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

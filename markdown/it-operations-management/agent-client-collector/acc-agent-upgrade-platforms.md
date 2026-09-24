@@ -2,7 +2,7 @@
 title: Supported platforms for Agent Client Collector auto-upgrade
 description: Operating systems and package types supported for Agent Client Collector auto-upgrade, and the minimum agent version required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-agent-upgrade-platforms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-agent-upgrade-platforms.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -53,7 +53,7 @@ RPM
 
 </td><td>
 
-Agent must run as root or have full sudo access.For information on configuring sudo access, see [Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/install-acc-linux.md).
+Agent must run as root or have full sudo access.For information on configuring sudo access, see [Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/install-acc-linux.md).
 
 </td></tr><tr><td>
 
@@ -65,7 +65,7 @@ DEB
 
 </td><td>
 
-Agent must run as root or have full sudo access.For information on configuring sudo access, see [Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/install-acc-linux.md).
+Agent must run as root or have full sudo access.For information on configuring sudo access, see [Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/install-acc-linux.md).
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ PKG
 
 </td><td>
 
-Agent must run as root or have full sudo access.For information on configuring sudo access, see [Manually install Agent Client Collector on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-macOS-manual.md).
+Agent must run as root or have full sudo access.For information on configuring sudo access, see [Manually install Agent Client Collector on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-install-macOS-manual.md).
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ PKG
 
 </td><td>
 
-Architecture is detected automatically. Agent must run as root or have full sudo access.For information on configuring sudo access, see [Manually install Agent Client Collector on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-macOS-manual.md).
+Architecture is detected automatically. Agent must run as root or have full sudo access.For information on configuring sudo access, see [Manually install Agent Client Collector on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-install-macOS-manual.md).
 
 </td></tr></tbody>
 </table>## Non-supported platforms
@@ -104,5 +104,5 @@ Agents must run with elevated privileges on the host to perform a self-upgrade:
 -   Linux: root user or sudoers file configuration with full sudo access
 -   macOS: root user or sudoers file configuration with full sudo access
 
-**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

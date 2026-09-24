@@ -2,7 +2,7 @@
 title: Get employee or visitor health data
 description: Send a GET request for Employee Health and Safety Status data to use in your third-party system. Get data to determine an employee or visitor's current health status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/query-health-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/query-health-data.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -98,7 +98,7 @@ requirements\_status
 
 </td><td>
 
-Whether the visitor or employee has completed all requirements to return to the workplace. For more information, see [Create health and safety user records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/create-readiness-user.md) and [Create a health and safety requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/create-readiness-requirement.md).-   Cleared: The visitor or employee has completed all requirements to return to the workplace.
+Whether the visitor or employee has completed all requirements to return to the workplace. For more information, see [Create health and safety user records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/create-readiness-user.md) and [Create a health and safety requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/create-readiness-requirement.md).-   Cleared: The visitor or employee has completed all requirements to return to the workplace.
 -   Not Cleared: The visitor or employee has not completed all requirements to return to the workplace.
 
  Data type: String

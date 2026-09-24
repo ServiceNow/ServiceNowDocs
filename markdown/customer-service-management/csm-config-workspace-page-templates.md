@@ -2,7 +2,7 @@
 title: CRM Workspace page templates
 description: A page template is a blueprint of a record page that you can use to create a new page or page variant in UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-page-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-workspace-page-templates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -71,5 +71,5 @@ The CSM centered chat interaction record template brings the chat component to t
 
 ## Record presence feature
 
-Pages that you create from the CSM record page template and the CSM Interaction record page templates have the record presence feature available. This feature lets you see the users who are currently viewing a record. For more information, see [User presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-default-record-page.md).
+Pages that you create from the CSM record page template and the CSM Interaction record page templates have the record presence feature available. This feature lets you see the users who are currently viewing a record. For more information, see [User presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-default-record-page.md).
 

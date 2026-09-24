@@ -2,7 +2,7 @@
 title: Sending an email in Agent Workspace for HR Case Management
 description: Send any communication related to HR cases with attached documents using the Send email feature. Minimize typing errors by auto-populating the email address of the subject person \(of the case\) in the email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/send-email-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/send-email-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

@@ -2,7 +2,7 @@
 title: Risk value lookup form
 description: The risk value lookup form information is used to rate the impact and probability of a risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/risk-value-matcher-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/risk-value-matcher-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

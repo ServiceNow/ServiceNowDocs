@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Operational Technology \(OT\) Service Management
 description: Use the ServiceNow Otto for Operational Technology \(OT\) Service Management application to summarize the Operational Technology \(OT\) incident information and generate incident resolution notes. You can enable your users to understand the context so that they can implement quicker resolutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/now-assist-for-operational-technology-service-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/now-assist-for-operational-technology-service-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-23"
@@ -30,7 +30,7 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
 For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-For more information about AI capabilities in Operational Technology Service Management, see [ServiceNow Otto for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/exploring-now-assist-otsm.md).
+For more information about AI capabilities in Operational Technology Service Management, see [ServiceNow Otto for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/exploring-now-assist-otsm.md).
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 

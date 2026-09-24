@@ -2,7 +2,7 @@
 title: Create a checklist template
 description: Create a checklist template. Manufacturers can use the checklist template to create checklists for verification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-checklist-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-checklist-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 **Related topics**  
 
 
-[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-checklist.md)
+[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-checklist.md)
 

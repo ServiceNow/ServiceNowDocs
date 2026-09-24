@@ -2,7 +2,7 @@
 title: Set up the Google Tasks spoke
 description: Integrate the ServiceNow instance and the Google Tasks spoke by using the G Suite credentials to authenticate the ServiceNow requests.Create a custom OAuth application to enable OAuth 2.0 authentication of the ServiceNow by the Google Workspace.Create a connection and credential record to establish a connection between the ServiceNow instance and the Google Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gtask.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-gtask.html
 release: australia
 product: Integration Hub
 classification: integration-hub

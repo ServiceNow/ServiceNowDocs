@@ -2,7 +2,7 @@
 title: Create a reservation for a day in Workplace
 description: Reserve your preferred workspace in Workplace using the Workplace Service Delivery for Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -67,9 +67,9 @@ Role required: sn\_wsd\_core.workplace\_user
         -   Use the chevron expand button \(\[Omitted image "wsd-mobile-chevron-down.png"\] Alt text: chevron button to collapse the calendar view.\) to expand the calendar view for a month if it is in a collapsed state \(shows only a week view for a selected month when collapsed\).
     2.  Change your workplace presence information from **In-office**, **Remote**, or **Visiting another office**.
 
-        The application fetches presence information from the Employee presence configuration. For information, see [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md). This option is not available for creating bulk reservations.
+        The application fetches presence information from the Employee presence configuration. For information, see [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/use-workplace-concierge.md). This option is not available for creating bulk reservations.
 
-        **Note:** If you try to select a date which is labeled as **Remote**, the Remote day is changed to an **In-office** presence day and this record is updated in the Employee Presence Exceptions table \(**All** &gt; **Workplace Concierge** &gt; **Employee Presence** &gt; **Exceptions**\). The **Location** column in this table is updated with the building name that you using to reserve a space for your **In-office** day. For more information, see [Components installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/components-installed-with-workplace-concierge.md).
+        **Note:** If you try to select a date which is labeled as **Remote**, the Remote day is changed to an **In-office** presence day and this record is updated in the Employee Presence Exceptions table \(**All** &gt; **Workplace Concierge** &gt; **Employee Presence** &gt; **Exceptions**\). The **Location** column in this table is updated with the building name that you using to reserve a space for your **In-office** day. For more information, see [Components installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/components-installed-with-workplace-concierge.md).
 
         -   **In-office**: Option to indicate your in-office presence or days when you are working from office. For example, if you change your In-office presence day to Remote, the changed location message is displayed.
 
@@ -89,7 +89,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 6.  Tap and select **Change preferences** to change your workplace preferences.
 
-    The In-office preferences page opens for you to update your in-office days. Change or modify your location, collaborators, and workplace services as required. For more information, see [Manage your in-office presence preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/workplace-preferences-emp-center.md).
+    The In-office preferences page opens for you to update your in-office days. Change or modify your location, collaborators, and workplace services as required. For more information, see [Manage your in-office presence preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/workplace-preferences-emp-center.md).
 
 7.  In **Space suggestions**, review the suggested building, floor, and a space.
 
@@ -110,7 +110,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
     \[Omitted image "wsd-workplace-mobile-space-suggestion-get-directions.jpeg"\] Alt text: Space card showing the Show on map to find your space on the map.
 
-    Application provides workspace suggestions based on your past and future reservation data, frequently used desk or spaces, preferred locations, favorite spaces, preferred workplace services, and preferred collaborators. The Suggestion tags you have added to the Space Suggestion configuration table is displayed on the Desk suggestions card. For example, **Reserved frequently**, **Your favorite**, and so on. When an employee is visiting another office, the suggestions are provided from the office that an employee is visiting and is not based on the users in-office preferences. For more information, see [Space suggestion Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/space-suggestion-configuration.md) and [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md)
+    Application provides workspace suggestions based on your past and future reservation data, frequently used desk or spaces, preferred locations, favorite spaces, preferred workplace services, and preferred collaborators. The Suggestion tags you have added to the Space Suggestion configuration table is displayed on the Desk suggestions card. For example, **Reserved frequently**, **Your favorite**, and so on. When an employee is visiting another office, the suggestions are provided from the office that an employee is visiting and is not based on the users in-office preferences. For more information, see [Space suggestion Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/space-suggestion-configuration.md) and [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md)
 
 8.  To update or change a suggested workspace from Space Suggestions, select the **Suggest another** refresh button icon \(\[Omitted image "wsd-mobile-refresh-icon-workplace-suggestion.png"\] Alt text: Select the refresh button to suggest another workspace.\).
 
@@ -122,7 +122,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
     To review previous suggestions, tap and select "Click here to review suggestions again".
 
-    Select **Search all spaces** if you are don't find the workspace that you are looking for. Selecting **Search all spaces** opens the Make a reservation screen on the mobile app. For more information, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/make-a-reservation-on-mobile.md).
+    Select **Search all spaces** if you are don't find the workspace that you are looking for. Selecting **Search all spaces** opens the Make a reservation screen on the mobile app. For more information, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/make-a-reservation-on-mobile.md).
 
 9.  Select **Reserve** to reserve a space for a selected date and time on the Make a reservation page.
 
@@ -134,7 +134,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
     When there's no reservations for a selected workday, the application shows "You have no desk reservations for today." If you don't make a reservation, application shows "You have not made a reservation for this week's in-office day for \(&lt;date and month name&gt;\)''. If you select a remote day, application shows "You are working from home this day."
 
-    Reservation timings are based on the **All day**Reservable module configuration set by your administrator. If **All day** is enabled and **All day meaning** is set to **Full day**, you can make a reservation for full day \(one day or entire day based on your building timezone\). For Example, reservation timings is shown from 9.00 am to 5.00 pm based on your office work day start time and end time reservation properties. settings. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
+    Reservation timings are based on the **All day**Reservable module configuration set by your administrator. If **All day** is enabled and **All day meaning** is set to **Full day**, you can make a reservation for full day \(one day or entire day based on your building timezone\). For Example, reservation timings is shown from 9.00 am to 5.00 pm based on your office work day start time and end time reservation properties. settings. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
 
 10. Tap the **Reservations** tab to view your reservations in an Agenda view.
 
@@ -167,13 +167,13 @@ Role required: sn\_wsd\_core.workplace\_user
 
     4.  Select **Edit Reservation** to edit location, date and time for your reservations.
 
-        Update your reservations to remove or edit workplace services using the Update reservation details page. For more information, see [Review and edit your reservations in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-edit-rsv.md).
+        Update your reservations to remove or edit workplace services using the Update reservation details page. For more information, see [Review and edit your reservations in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-edit-rsv.md).
 
         \[Omitted image "wsd-mobile-workplace-edit-dialog-box.png"\] Alt text: Edit reservation dialog box.
 
     5.  Select **Cancel Reservation** to cancel a reservation.
 
-        Employees can directly cancel a reservation if the reservation doesn't require cancel notes. The option to add a cancel note is set by your administrator in the Reservable Module Widget Configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+        Employees can directly cancel a reservation if the reservation doesn't require cancel notes. The option to add a cancel note is set by your administrator in the Reservable Module Widget Configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
         \[Omitted image "wsd-mobile-workplace-cancel-rsv-use.jpeg"\] Alt text: Cancel Reservation dialog box.
 
@@ -185,7 +185,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 13. Tap and select the **Insights** tab to view your collaborators and get insight on their in-office days.
 
-    Match your In-office days with that of your collaborators to maximize productivity and collaboration. The application fetches your preferred collaborators information from the Employee presence configuration. For information, see [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md).
+    Match your In-office days with that of your collaborators to maximize productivity and collaboration. The application fetches your preferred collaborators information from the Employee presence configuration. For information, see [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/use-workplace-concierge.md).
 
     Application shows the following information for your preferred collaborators:
 

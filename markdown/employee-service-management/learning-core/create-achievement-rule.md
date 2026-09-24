@@ -2,7 +2,7 @@
 title: Create an achievement rule
 description: Create achievement rules to define the criteria to be met to complete an achievement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-achievement-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/create-achievement-rule.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -28,12 +28,12 @@ Role required: sn\_lep.achievement\_manager
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Achievement rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/achievement-rule-form.md).
+    For a description of the field values, see [Achievement rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/achievement-rule-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-learning-achievements.md)
+**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-learning-achievements.md)
 
 **Related topics**  
 

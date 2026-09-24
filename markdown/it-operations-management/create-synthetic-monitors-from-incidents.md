@@ -2,7 +2,7 @@
 title: Create synthetic monitors from incidents
 description: Create synthetic monitors from incidents to proactively track endpoint failures and reduce repeat occurrences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-synthetic-monitors-from-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/create-synthetic-monitors-from-incidents.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,5 +61,5 @@ While creating these synthetic monitors from a post-incident recommended action,
 7.  Select the link on the success message to view the monitors created in Synthetic monitoring landing page.
 
 
-**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-synthetic-monitoring.md)
+**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configuring-synthetic-monitoring.md)
 

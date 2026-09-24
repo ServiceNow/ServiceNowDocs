@@ -2,7 +2,7 @@
 title: Set up Federal plugin
 description: Set up the Federal plugin.You can activate the Additional tables for Federal Agencies plugin \[com.snc.fedtables\] if you have the admin role. Some data elements included in the Federal plugin allow for an import of the reference data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/set-up-fed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/set-up-fed.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -26,7 +26,7 @@ Role required: admin
 
 ### About this task
 
-Tables are installed with the plugin. For more information, see [Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/fed-view.md).
+Tables are installed with the plugin. For more information, see [Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/fed-view.md).
 
 ### Procedure
 

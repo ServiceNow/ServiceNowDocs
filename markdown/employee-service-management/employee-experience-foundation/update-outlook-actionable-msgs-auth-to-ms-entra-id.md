@@ -2,7 +2,7 @@
 title: Update Outlook Actionable Messages authentication to Microsoft Entra ID
 description: Microsoft will retire External Access Token \(EAT\) authentication for Outlook Actionable Messages on March 31, 2026. Microsoft Entra ID token authentication is required for Outlook Actionable Messages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/update-outlook-actionable-msgs-auth-to-ms-entra-id.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/update-outlook-actionable-msgs-auth-to-ms-entra-id.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -69,5 +69,5 @@ To ensure uninterrupted functionality with actionable message, you must migrate 
 
 You are now migrated to Microsoft Entra ID token authentication and the Outlook Actionable Messages app registration is updated in your ServiceNow instance.
 
-**Parent Topic:**[Using ServiceNow for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-sn-ms-outlook.md)
+**Parent Topic:**[Using ServiceNow for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-sn-ms-outlook.md)
 

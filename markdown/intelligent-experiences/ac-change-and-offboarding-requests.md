@@ -2,7 +2,7 @@
 title: Change and offboarding requests
 description: Make controlled changes to a managed AI asset, or retire an asset that is no longer needed, by submitting a request for AI steward review and approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-change-and-offboarding-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-change-and-offboarding-requests.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-23"

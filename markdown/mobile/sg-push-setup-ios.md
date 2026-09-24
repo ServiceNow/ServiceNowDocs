@@ -2,7 +2,7 @@
 title: Configure push applications for iOS branded apps using certificate based authentication
 description: Install an iOS push certificate to use push notifications on your branded ServiceNow mobile apps for iOS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-push-setup-ios.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-push-setup-ios.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 To use push notifications on your branded ServiceNow mobile apps for iOS, you must upload your Apple certificates p12 file, and enter your key store password into your instance.
 
-**Note:** These steps are not necessary if you are not using a custom branded mobile apps. For more detail on custom branding, see [Request, test, and publish a branded mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-test-pub-branded-mob-app.md).
+**Note:** These steps are not necessary if you are not using a custom branded mobile apps. For more detail on custom branding, see [Request, test, and publish a branded mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/request-test-pub-branded-mob-app.md).
 
 ## Procedure
 
@@ -62,5 +62,5 @@ To use push notifications on your branded ServiceNow mobile apps for iOS, you mu
 11. On the push application form, click **Update**.
 
 
-**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-push-notifications.md)
 

@@ -2,7 +2,7 @@
 title: SAFe Board — ART level
 description: As a product manager, you can plan and monitor activities across teams within your agile release train \(ART\) by accessing the ART level on the SAFe Board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/program-level-tabs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/program-level-tabs.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -42,16 +42,16 @@ The **Planning** tab facilitates a detailed planning of the upcoming program inc
 
 \[Omitted image "bigroomplanningSAFe.png"\] Alt text: Planning tab
 
--   **[Track features in a board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/track-features-board.md)**  
+-   **[Track features in a board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/track-features-board.md)**  
 Track the progress of features in the ART. View their transition from one state \(lane\) to another.
--   **[Manage your ART backlog from the SAFe Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/plan-program-backlog.md)**  
+-   **[Manage your ART backlog from the SAFe Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/plan-program-backlog.md)**  
 Prioritize and manage features in your agile release train \(ART\) backlog. The ART backlog lists only the active features that are not assigned to any program increment.
--   **[Schedule features for your program increments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/program-increment-planning.md)**  
+-   **[Schedule features for your program increments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/program-increment-planning.md)**  
 Define a program increment \(PI\) and plan the features scheduled for completion within that PI.
--   **[SAFe PI planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-pi-planning-board.md)**  
+-   **[SAFe PI planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-pi-planning-board.md)**  
 Use a centralized board to plan your program increments \(PIs\) for an agile release train \(ART\). You can create and assign stories to teams, add and view story dependencies, track stories by sprints, and re-plan these stories if required.
 
-**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
+**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/essential-overview.md)
 
 **Related topics**  
 

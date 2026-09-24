@@ -2,7 +2,7 @@
 title: Select the rate and target table fields used for filtering
 description: Optionally specify the rate table and target table fields to use for filtering conversion rate information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/fx-currency-rate-target-table-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/currency-administration/fx-currency-rate-target-table-fields.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -38,12 +38,12 @@ For example, you maintain interfaces to several ERP systems, have currency conve
 4.  Click **Save**.
 
 
-**Parent Topic:**[Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md)
+**Parent Topic:**[Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/configure-fx-currency-field-behavior.md)
 
 **Related topics**  
 
 
-[Understanding FX Currency values in lists and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-values-lists-reports.md)
+[Understanding FX Currency values in lists and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency-values-lists-reports.md)
 
-[Understanding FX Currency values in forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-values-forms.md)
+[Understanding FX Currency values in forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency-values-forms.md)
 

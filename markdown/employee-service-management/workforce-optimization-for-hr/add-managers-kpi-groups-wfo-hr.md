@@ -2,7 +2,7 @@
 title: Add managers to a KPI assignment group
 description: Add managers to a KPI assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/add-managers-kpi-groups-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/add-managers-kpi-groups-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -37,5 +37,5 @@ You can associate a user with a primary assignment group by selecting the group 
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Teams in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/setup-team-workforce-wfo-hr.md)
+**Parent Topic:**[Configure Teams in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-team-workforce-wfo-hr.md)
 

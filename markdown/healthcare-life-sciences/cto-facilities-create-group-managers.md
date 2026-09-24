@@ -2,7 +2,7 @@
 title: Create a group for all location managers in Care Team Operations for Facilities
 description: Create a group for location managers with the sn\_customerservice.svc\_location\_manager role assigned so that users added to this group inherits the collection of roles for Care Team Operations for Facilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-create-group-managers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-facilities-create-group-managers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Fetching dependencies from the CMDB and BIA
 description: You can fetch the dependencies for the services or business services from CMDB in Operational Resilience. Similarly, when the BCM applications are installed, the Operational Resilience scheduled job also monitors for the changes in the business impact analysis \(BIA\) dependencies and fetches the dependency updates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-dependencies-automatically.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-dependencies-automatically.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -80,5 +80,5 @@ If the entity does not belong to an entity type, manually add it to the correspo
 
 ## Support for main node configuration in Data Relationships Framework
 
-For information, see [Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-relationship-framework.md) and [Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-main-node-config-record.md).
+For information, see [Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/data-relationship-framework.md) and [Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-a-main-node-config-record.md).
 

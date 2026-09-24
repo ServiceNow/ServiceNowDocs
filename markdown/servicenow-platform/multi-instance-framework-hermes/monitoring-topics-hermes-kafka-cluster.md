@@ -2,7 +2,7 @@
 title: Monitoring topics in the Hermes Kafka cluster
 description: Monitor message processing and view topics in the Hermes Kafka cluster that belong to you using the Hermes Messaging Service topic inspector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/monitoring-topics-hermes-kafka-cluster.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/monitoring-topics-hermes-kafka-cluster.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -41,12 +41,12 @@ You can track the progress of processing messages for each consumer by viewing c
 
 You can detect problems with consuming messages using the topic inspector. For example, if a message that you produced isn't consumed from the Hermes Kafka cluster, you can validate the payload and message key by inspecting the topic. You can also download the full payload and save it as a file on your local machine.
 
-You can view messages as binary data in base-64 encoding instead of UTF8 strings by adding a system property. See [Hermes Messaging Service system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-properties.md).
+You can view messages as binary data in base-64 encoding instead of UTF8 strings by adding a system property. See [Hermes Messaging Service system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-properties.md).
 
--   **[View a message in a Hermes topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/view-messages-hermes-topic.md)**  
+-   **[View a message in a Hermes topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/view-messages-hermes-topic.md)**  
 View the payload of a message in a Hermes topic using the Hermes Messaging Service topic inspector.
 
-**Parent Topic:**[Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md)
+**Parent Topic:**[Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md)
 
 **Related topics**  
 

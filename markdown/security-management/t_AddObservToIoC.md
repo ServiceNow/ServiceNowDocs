@@ -2,7 +2,7 @@
 title: Add a related observable to an IoC
 description: In addition to importing observables as STIX data, you can add related observables to an IoC manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/t\_AddObservToIoC.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/t\_AddObservToIoC.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Role required: sn\_ti.write
 7.  Click **Save**.
 
 
-**Parent Topic:**[Indicators of compromise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IoCs.md)
+**Parent Topic:**[Indicators of compromise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_IoCs.md)
 
 **Related topics**  
 

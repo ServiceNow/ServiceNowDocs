@@ -2,7 +2,7 @@
 title: Google Cloud Platform \(GCP\) Big Query
 description: Cloud Services Catalog with Google Cloud Platform BigQuery Serverless data warehouse.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/google-cloud-platform-big-query.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-services-catalog/google-cloud-platform-big-query.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -37,8 +37,8 @@ This fully functional sample catalog item streamlines ordering a serverless, cos
  You can set up real-time data streaming and analytics sharing effortlessly with a few clicks. BigQuery's serverless architecture allows SQL-based data analysis and offers customization options for scalability.
 
 </td></tr></tbody>
-</table>-   **[Google Cloud Platform \(GCP\) Big Query Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/gcp-big-query-oob-permissions.md)**  
+</table>-   **[Google Cloud Platform \(GCP\) Big Query Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/gcp-big-query-oob-permissions.md)**  
 GCP Big Query Out Of Box catalog items permissions
 
-**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
+**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

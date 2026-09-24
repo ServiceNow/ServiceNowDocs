@@ -2,7 +2,7 @@
 title: Commands installed with CMDB Application CLI and API
 description: Commands and command groups available to the ServiceNow CLI when the app-cmdb-api-cli plugin is installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/cmdb-cli-commands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-cli/cmdb-cli-commands.html
 release: australia
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -1459,5 +1459,5 @@ Sys\_id of the application service listed in the Service Instance \[cmdb\_ci\_se
     ```
 
 
-**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-cli/servicenow-cli.md)
 

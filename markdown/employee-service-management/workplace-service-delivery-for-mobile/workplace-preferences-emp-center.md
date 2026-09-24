@@ -2,7 +2,7 @@
 title: Manage your in-office presence preferences
 description: Employees can customize and manage their in-office or workday presence preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/workplace-preferences-emp-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-for-mobile/workplace-preferences-emp-center.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -106,7 +106,7 @@ Sit near
 
 Preferred Collaborators name. Option to add preferred collaborators to collaborate while you are in office. Selected collaborators will be used when suggesting spacesApplication provides workspace suggestions based on your preferred collaborators. You can add multiple collaborators that you want to collaborate with while you are visiting your office. If the collaborators are available on your in-office days, application provides space suggestions accordingly.
 
-Application fetches preferred collaborators data from the Employee presence in Workplace Concierge. You have the option of removing collaborators and adding new ones as required for a selected location and as per your in-office presence day schedule.To add more than 10 preferred collaborators, you can use the Employee Presence dashboard in Workplace Concierge to add them. For more information, see [Add a collaborator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/add-a-collaborator.md).
+Application fetches preferred collaborators data from the Employee presence in Workplace Concierge. You have the option of removing collaborators and adding new ones as required for a selected location and as per your in-office presence day schedule.To add more than 10 preferred collaborators, you can use the Employee Presence dashboard in Workplace Concierge to add them. For more information, see [Add a collaborator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/add-a-collaborator.md).
 
 </td></tr><tr><td>
 
@@ -119,6 +119,6 @@ Available workplace services for a reservation and a selected location. Option t
 </td></tr></tbody>
 </table>5.  Select **Apply**.
 
-    You can now manage your workplace schedule and reserve a space using the desk suggestions and presence data. For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md).
+    You can now manage your workplace schedule and reserve a space using the desk suggestions and presence data. For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md).
 
 

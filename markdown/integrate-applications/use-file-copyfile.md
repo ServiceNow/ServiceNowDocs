@@ -2,7 +2,7 @@
 title: Use the CopyFile component
 description: Copy an existing file to a new location by using the CopyFile component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-file-copyfile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-file-copyfile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the CopyFile component. For more information about these properties, see [Properties of the File components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-file-prop.md).
+You can configure the properties for the CopyFile component. For more information about these properties, see [Properties of the File components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-file-prop.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ You can configure the properties for the CopyFile component. For more informatio
 
     2.  Click **Override**.
 
-    3.  Enter details for the following fields, [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+    3.  Enter details for the following fields, [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the CopyFile component to the corresponding ports of the other components as described in the following table.
 
@@ -106,5 +106,5 @@ Boolean
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[File](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/file.md)
+**Parent Topic:**[File](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/file.md)
 

@@ -2,10 +2,10 @@
 title: Program criteria table fields
 description: Establish a mapping between the partner program \(sn\_prm\_partner\_program\_relationship\) table and the entity criteria \(sn\_req\_criteria\_customer\_condition\) table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/program-criteria-table-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/program-criteria-table-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
@@ -63,12 +63,12 @@ True/False
 Current state of the program criteria, whether active or not
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management-reference.md)
 
 **Related topics**  
 
 
-[Program segment mapping table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/program-segment-mapping-table-fields.md)
+[Program segment mapping table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/program-segment-mapping-table-fields.md)
 
-[Program segment criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/program-segment-criteria-table-fields.md)
+[Program segment criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/program-segment-criteria-table-fields.md)
 

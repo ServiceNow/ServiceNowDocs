@@ -2,7 +2,7 @@
 title: Post a document in the community
 description: If you have the proper permissions in a forum, you can share a document with colleagues, experts, or other community users. You can associate the document with as many topics as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/create-document.html
 release: australia
 product: Communities
 classification: communities
@@ -84,10 +84,10 @@ Enter a useful description for the document.
     -   You can download the attachments only when the scan is successful.
     -   The user who posted the document and community administrators receive a notification that an attachment is infected.
 
-**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/post-respond-content.md)
+**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/post-respond-content.md)
 
 **Related topics**  
 
 
-[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/disable-comments.md)
+[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/disable-comments.md)
 

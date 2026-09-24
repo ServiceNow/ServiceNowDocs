@@ -2,7 +2,7 @@
 title: Exploring Employee Center
 description: Employee Center portal is a unified portal that connects systems across an enterprise within one destination site to provide a centralized employee portal. It requires minimal configuration and offers a wide variety of features to extend portal functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/explore-emp-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/explore-emp-center.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -55,20 +55,20 @@ The Employee Center enables organizations to assemble an employee portal tailore
 |Manager|Managers monitor tasks status and approve requests.|
 |Employee|Employees complete tasks, submit requests, and search for knowledge articles|
 
-For more information on Employee Center user roles, see [Employee Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-personas.md).
+For more information on Employee Center user roles, see [Employee Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-personas.md).
 
 ## Employee Center for IT Service Management
 
-Use Employee Center to streamline your IT ticket management and other service management tasks. Improve agent experience with higher case deflections enabled by customised, machine learning-driven recommendations and solutions for employees. For more information, see [Employee Center for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/itsm-n-ec-integration.md).
+Use Employee Center to streamline your IT ticket management and other service management tasks. Improve agent experience with higher case deflections enabled by customised, machine learning-driven recommendations and solutions for employees. For more information, see [Employee Center for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/itsm-n-ec-integration.md).
 
 ## Employee Center benefits
 
 |Benefit|Feature|
 |-------|-------|
-|Access any of your single sign-on \(SSO\) and non-SSO web applications from the portal home page.|[App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee-about.md)|
-|Book and manage appointments across multiple business units.|[Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/appointment-booking.md)|
+|Access any of your single sign-on \(SSO\) and non-SSO web applications from the portal home page.|[App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-application-employee-about.md)|
+|Book and manage appointments across multiple business units.|[Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/appointment-booking.md)|
 |One-click access to frequently-used internal and external sites.|[Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)|
-|Access self-serve capabilities through guided experiences to improve productivity and efficiency.|[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)|
+|Access self-serve capabilities through guided experiences to improve productivity and efficiency.|[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)|
 | | |
 | | |
 
@@ -76,7 +76,7 @@ Use Employee Center to streamline your IT ticket management and other service ma
 
 To learn more about configuring and using Employee Center, see:
 
--   [Configuring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-emp-center.md)
--   [Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
--   [Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+-   [Configuring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-emp-center.md)
+-   [Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
+-   [Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 

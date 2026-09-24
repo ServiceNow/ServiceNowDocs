@@ -2,7 +2,7 @@
 title: Configure the currency optimizer
 description: You can configure the system to use an optimizer for currency/price fields to speed up list view \(reading currency/price values\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/configure-currency-optimizer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/currency-administration/configure-currency-optimizer.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -36,5 +36,5 @@ Role required: admin
     The default value is 4.
 
 
-**Parent Topic:**[Setting up defaults required for standard currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/setting-up-standard-currency-defaults.md)
+**Parent Topic:**[Setting up defaults required for standard currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/setting-up-standard-currency-defaults.md)
 

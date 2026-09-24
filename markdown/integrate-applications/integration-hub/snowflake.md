@@ -2,7 +2,7 @@
 title: Snowflake Spoke
 description: Manage data warehousing capabilities of Snowflake directly from your ServiceNow instance. You can create, delete, search, records, execute queries, and perform other data manipulation tasks in Snowflake from your ServiceNow instance.Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/snowflake.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/snowflake.html
 release: australia
 product: Integration Hub
 classification: integration-hub

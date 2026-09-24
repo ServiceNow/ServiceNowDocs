@@ -2,7 +2,7 @@
 title: Submit a catalog item request in Employee Center
 description: Save time in searching for and submitting requests for commonly requested catalog items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/submit-cat-request-native-ai-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/submit-cat-request-native-ai-itsm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: none
 
 2.  Select **Browse catalogs**.
 
-    The commonly requested catalog items are displayed. For information about catalog items available in the base system, see [Catalog items installed with Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/catalog-items-base-system.md).
+    The commonly requested catalog items are displayed. For information about catalog items available in the base system, see [Catalog items installed with Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/catalog-items-base-system.md).
 
 3.  Select a catalog item and specify the required details.
 
@@ -35,5 +35,5 @@ Role required: none
     -   A requested item is created for a catalog item.
     -   A request is created for an order guide.
 
-**Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
+**Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/employee-experience-employee-center.md)
 

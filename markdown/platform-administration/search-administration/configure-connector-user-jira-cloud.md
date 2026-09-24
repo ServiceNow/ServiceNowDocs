@@ -2,14 +2,14 @@
 title: Configure a connector user in Atlassian Jira Cloud
 description: Create a user and group in your Atlassian Jira Cloud tenant with access and permissions required by the Atlassian Jira Cloud external content connector. The connector runs as this user when accessing data from your tenant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-connector-user-jira-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-connector-user-jira-cloud.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Atlassian Jira Cloud external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -64,5 +64,5 @@ Atlassian administrators need to create and configure this user as part of confi
 
 Provide the technical user credentials to your search administrators so they can use them when creating Atlassian Jira Cloud external content connectors.
 
-**Parent Topic:**[Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/atlassian-jira-cloud-external-content-connector.md)
+**Parent Topic:**[Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/atlassian-jira-cloud-external-content-connector.md)
 

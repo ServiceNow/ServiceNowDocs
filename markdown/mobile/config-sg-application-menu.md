@@ -2,7 +2,7 @@
 title: Configure the navigation bar and navigation tabs
 description: Configure the navigation bar that appears at the bottom of the mobile app. Use navigation bar tabs to navigate to screens, launcher screens, as well as saved records, settings, and notifications pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-sg-application-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-sg-application-menu.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ The following is a short summary of each of the navigation tab types:
 -   Notifications: This option opens the Notifications page showing user-related notifications within the mobile app experience.
 -   Settings: This option opens the Settings page where the user controls their mobile experience.
 
-**Note:** Your navigation bar should only contain one of each of the following tab types, saved, notifications, and settings tabs. For more information, see the General guidelines for the navigation bar section in the topic [Navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-tab-bar.md).
+**Note:** Your navigation bar should only contain one of each of the following tab types, saved, notifications, and settings tabs. For more information, see the General guidelines for the navigation bar section in the topic [Navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-tab-bar.md).
 
 ## Procedure
 
@@ -89,7 +89,7 @@ Procedure
             1.  Enter a name for the icon.
             2.  From the **Type** field, select `Image`.
             3.  In the Set appearance section, in the **Style** field, enter `Name`.
-            4.  In the Set appearance section, in the **Value** field, enter the name of an image icon. For a list of image icon names, see [Image icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/image-icons.md).
+            4.  In the Set appearance section, in the **Value** field, enter the name of an image icon. For a list of image icon names, see [Image icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/image-icons.md).
 4.  Select **Save**.
 
 
@@ -105,7 +105,7 @@ Procedure
     1.  Enter a name for the tab in the **Label** field.
     2.  Select whether the tab should display in the navigation bar, by using the **Active** toggle.
     3.  Depending whether you selected the launcher or screen navigation tab types, do one of the following.
-        -   If you selected Launcher, then in the Launcher area either select **Choose**, select a launcher screen, and then select **Apply**. Alternatively, select **New** to create a launcher screen. This is the launcher screen users are directed to when they tap this navigation tab. For more information about creating a launcher screen, see [Create a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/launcher-screen-template.md).
+        -   If you selected Launcher, then in the Launcher area either select **Choose**, select a launcher screen, and then select **Apply**. Alternatively, select **New** to create a launcher screen. This is the launcher screen users are directed to when they tap this navigation tab. For more information about creating a launcher screen, see [Create a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/launcher-screen-template.md).
         -   If you selected Screen, then in the Screen area, select **Choose**, select a screen, and then select **Apply**. This is the screen users are directed to when they tap this navigation tab.
     4.  In the Icon field, select whether to choose an existing icon or create an icon. Either do one of the following.
         -   Select **Choose**, then choose an icon and then select **Apply**.
@@ -113,17 +113,17 @@ Procedure
             1.  Enter a name for the icon.
             2.  From the **Type** list, select `Image`.
             3.  In the Set appearance section, in the **Style** field, enter `Name`.
-            4.  In the Set appearance section, in the **Value** field, enter the name of an image icon. For a list of image icon names, see [Image icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/image-icons.md).
+            4.  In the Set appearance section, in the **Value** field, enter the name of an image icon. For a list of image icon names, see [Image icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/image-icons.md).
             5.  Select **Save**.
     5.  Add a badge count to indicate the number of records that await your users’ attention for this tab.
         1.  Select **New** in the Badge count section.
         2.  Enter a name for the badge count in the **Name** field.
         3.  Select whether the badge should display in the navigation tab, by using the **Active** toggle.
         4.  In the Data section, select the table you want to apply your condition filter.
-        5.  In the Conditions section, create conditions used to count records that match the condition to determine the badge count. The records that match the condition are displayed as a count on the navigation tab. For more information on configuring badge counts in the web-based UI, see [Configure badge counts on navigation bars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-badge-counts-nav-bars.md).
+        5.  In the Conditions section, create conditions used to count records that match the condition to determine the badge count. The records that match the condition are displayed as a count on the navigation tab. For more information on configuring badge counts in the web-based UI, see [Configure badge counts on navigation bars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-badge-counts-nav-bars.md).
         6.  In the Badge placement section, the fields **Location**, **Mobile component**, and **Component** all contain predefined values.
         7.  Select **Save**.
-    6.  Add user criteria permissions to determine what criteria a user must meet in order to see this tab in their navigation bar. For more information,see [User roles and user criteria permissions for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/roles-user-criteria.md).
+    6.  Add user criteria permissions to determine what criteria a user must meet in order to see this tab in their navigation bar. For more information,see [User roles and user criteria permissions for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/roles-user-criteria.md).
 4.  Select **Save**.
 
 

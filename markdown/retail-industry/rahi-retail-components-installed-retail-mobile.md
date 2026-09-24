@@ -2,7 +2,7 @@
 title: Components installed with Retail Mobile
 description: Certain dependencies must be considered when using the Retail Mobile plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-installed-retail-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-components-installed-retail-mobile.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -46,5 +46,5 @@ The Retail Mobile plugin offers a tailored mobile experience for retail operatio
 -   com.sn\_retail\_core
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+</table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

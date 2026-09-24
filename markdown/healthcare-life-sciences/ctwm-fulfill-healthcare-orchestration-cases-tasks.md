@@ -2,7 +2,7 @@
 title: Fulfill healthcare orchestration cases and tasks
 description: Fulfill the healthcare operations orchestration cases and tasks created from task plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-fulfill-healthcare-orchestration-cases-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-fulfill-healthcare-orchestration-cases-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_hco\_orc.loc\_support\_agent or sn\_hco\_orc.admin
 
 ## About this task
 
-For more information on healthcare orchestration cases and tasks, see [Healthcare orchestration cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-healthcare-orc-cases-task.md).
+For more information on healthcare orchestration cases and tasks, see [Healthcare orchestration cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-healthcare-orc-cases-task.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Import meter details from Urjanet
 description: Using scheduled jobs, import meter details such as meter number, meter ID, and so on from Urjanet into the Operational Sustainability Management application for reporting purposes. The details are imported in the form of entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/import-data-from-urjanet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/import-data-from-urjanet.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ The entities are created with the following details.
 -   Location: Service address of the Urjanet meter.
 -   Description: Provider of the Urjanet meter.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

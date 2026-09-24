@@ -2,7 +2,7 @@
 title: Retire or delete a question bank
 description: Retire all the published questions in a question bank at once, or delete an entire question bank when it's no longer needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-retire-delete.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-retire-delete.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -55,7 +55,7 @@ Retired questions are no longer available for template managers to add to new as
 **Related topics**  
 
 
-[Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/question-bank.md)
+[Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/question-bank.md)
 
-[Publish questions in a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-publish.md)
+[Publish questions in a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-publish.md)
 

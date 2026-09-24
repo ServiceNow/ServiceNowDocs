@@ -2,7 +2,7 @@
 title: AI Service Graph Connector for GCP Vertex AI
 description: The AI Service Graph Connector for GCP Vertex AI enables you to discover and import AI assets from your Google Cloud environment into ServiceNow AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/gcp-vertex-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/gcp-vertex-ai.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

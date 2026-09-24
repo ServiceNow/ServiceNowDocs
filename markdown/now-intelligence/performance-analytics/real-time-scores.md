@@ -2,7 +2,7 @@
 title: Real-time scores
 description: You can view some Performance Analytics scores in real-time instead of from the most recent data collection job. If real-time scores are enabled, you can view them in KPI Details and in some data visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/real-time-scores.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/real-time-scores.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -16,7 +16,7 @@ breadcrumb: [Configure fundamentals, Performance Analytics \(Indicator data sour
 
 You can view some Performance Analytics scores in real-time instead of from the most recent data collection job. If real-time scores are enabled, you can view them in KPI Details and in some data visualizations.
 
-Usually, the most recent score that a visualization can show is the one from the most recent successfully run [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). However, some visualizations can show indicator scores in real-time, for some indicators.
+Usually, the most recent score that a visualization can show is the one from the most recent successfully run [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md). However, some visualizations can show indicator scores in real-time, for some indicators.
 
 You can show real-time scores for an indicator that meets the following criteria:
 
@@ -38,18 +38,18 @@ The following visualizations can show scores in real time:
 
 **Important:** The Analytics Hub does not update real-time scores automatically. To see the most up-to-date scores on the Analytics Hub, refresh the browser page. Widgets and KPI Details do update automatically.
 
-**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
+**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 
 **Related topics**  
 
 
-[Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
+[Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
 
-[Analytics Hub for a specific indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/view-scorecard.md)
+[Analytics Hub for a specific indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/view-scorecard.md)
 
-[Create a real-time score visualization for a score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-real-time-score-widget.md)
+[Create a real-time score visualization for a score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-real-time-score-widget.md)
 
-[Single score report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_SingleScoreCharts.md)
+[Single score report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_SingleScoreCharts.md)
 
-[Monitor a workflow with a workbench process widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_MonitorWorkflowWorkbenchWidget.md)
+[Monitor a workflow with a workbench process widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_MonitorWorkflowWorkbenchWidget.md)
 

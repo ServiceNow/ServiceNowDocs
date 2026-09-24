@@ -2,7 +2,7 @@
 title: Link your ServiceNow user account to your Slack or MS Teams account for Now Actions
 description: Link your ServiceNow account to your Slack or Teams account to take action on ServiceNow notifications from within Slack or Teams. If you do not link accounts, you can still receive notifications within group channels. However, you cannot to approve ServiceNow requests or take action on notifications from within Slack or Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/link-accounts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/link-accounts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ Role required: none
     \[Omitted image "va-link-confirm-success.png"\] Alt text: The link confirmation message shown on the user record.
 
 
-**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/messaging-integration.md)
 

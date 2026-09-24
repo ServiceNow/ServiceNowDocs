@@ -2,7 +2,7 @@
 title: Configure data columns
 description: Configure data columns to include table fields or scripted content in your report. Format scripted content as text or HTML.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-data-columns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/configure-data-columns.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -58,5 +58,5 @@ Role required: sn\_grc\_doc\_design.admin or sn\_audit.admin
 
 ## What to do next
 
-To continue configuring your report, see [Configure intermediate filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-intermediate-filters.md).
+To continue configuring your report, see [Configure intermediate filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-intermediate-filters.md).
 

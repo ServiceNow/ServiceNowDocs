@@ -2,7 +2,7 @@
 title: Update to the latest version of Workflow Studio
 description: Workflow Studio is automatically installed on your instance. However, Workflow Studio is a ServiceNow Store application, so to get the latest features, you must update your version manually to the most recent version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/update-to-the-latest-version-of-workflow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/update-to-the-latest-version-of-workflow-studio.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -45,5 +45,5 @@ You can also find and update each individual Workflow Studio application depende
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configuring-workflow-studio.md)
+**Parent Topic:**[Configuring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configuring-workflow-studio.md)
 

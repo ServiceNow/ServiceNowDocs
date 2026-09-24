@@ -2,7 +2,7 @@
 title: Supported use case table
 description: The supported use case table \(sn\_prod\_cap\_core\_sup\_use\_case\) is the default implementation of the use case catalog. It extends the base use case table and adds classifies the industry verticals and business model segments relevant to the use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-product-uc-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-product-uc-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-01"
@@ -136,12 +136,12 @@ Domain path
 Domain path for multi-domain deployments.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
+</table>**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-reference.md)
 
 **Related topics**  
 
 
-[Product use case catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-product-use-case.md)
+[Product use case catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-product-use-case.md)
 
-[Customer Discovery Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-customer-discovery-hub.md)
+[Customer Discovery Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-customer-discovery-hub.md)
 

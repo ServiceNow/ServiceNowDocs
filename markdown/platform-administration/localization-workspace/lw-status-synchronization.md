@@ -2,7 +2,7 @@
 title: Localization Workspace Home and translation job status
 description: Start a translation request and monitor the current status of your translation requests from the Localization Workspace Home screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-status-synchronization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-status-synchronization.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -34,13 +34,13 @@ From version 3.0.0, two guided tours are available. One guided tour assists with
 
 \[Omitted image "lw-status-synchronization-home-overview.png"\] Alt text: The Home screen of Localization Workspace including the My Requests list displaying one saved translation request and one submitted request. A tab for a localization project is highlighted.
 
-Localization Workspace extends and builds on projects in [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md). When you create a translation request, the system creates a project in Localization Framework for you. You can open a tab for the translation request's project by selecting the **LF Project** number from the Requests list.
+Localization Workspace extends and builds on projects in [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/localization-framework-landing.md). When you create a translation request, the system creates a project in Localization Framework for you. You can open a tab for the translation request's project by selecting the **LF Project** number from the Requests list.
 
 \[Omitted image "lw-status-synchronization-project.png"\] Alt text: A localization project tab which has been opened from the Home screen. The project details can be reviewed and optionally updated.
 
 In the Localization Project tab you can drill down into project components such as Localization Tasks. You can fulfill a localization task using the **Translate** button in a Localization Task tab, when the project state is In Progress.
 
-Any update you make here in Localization Workspace is saved to the underlying Localization Framework tables. Completed and archived projects can't be updated. For more information, see [Fulfill a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/fulfill-localization-task.md) in the Localization Framework documentation.
+Any update you make here in Localization Workspace is saved to the underlying Localization Framework tables. Completed and archived projects can't be updated. For more information, see [Fulfill a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/fulfill-localization-task.md) in the Localization Framework documentation.
 
 ## Translation request states
 
@@ -122,7 +122,7 @@ Select the **Switch to archived requests** link to view the list of archived req
 
 ## Translation request details
 
-You can open a modal window displaying details about your translation request by selecting the value in the **Number** column. From version 3.0.0, the details window displays the request's translation method. Possible values are [TMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md), MT \(machine translation\), or Mixed.
+You can open a modal window displaying details about your translation request by selecting the value in the **Number** column. From version 3.0.0, the details window displays the request's translation method. Possible values are [TMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/tms-configuration.md), MT \(machine translation\), or Mixed.
 
 Also in the details window you can modify the Due date for requests that are handled by a TMS. Select the Due date field to open a calendar picker.
 
@@ -137,12 +137,12 @@ After modifying the date, select Update to save the new date, or Cancel to aband
 
 ## The display of Cost in the My Requests list
 
-When displayed in the Requests list, the Cost uses a rate rounded up to the decimal place that is set in your Display Value Currency field. However, the base calculation of the informational cost estimate uses the actual rate that you have configured in Localization Workspace. The base calculation does not use the currency's display value. For more information, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-display-parameters.md).
+When displayed in the Requests list, the Cost uses a rate rounded up to the decimal place that is set in your Display Value Currency field. However, the base calculation of the informational cost estimate uses the actual rate that you have configured in Localization Workspace. The base calculation does not use the currency's display value. For more information, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency-display-parameters.md).
 
 **Related topics**  
 
 
-[States of Localization Framework projects and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-task-states.md)
+[States of Localization Framework projects and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/localization-task-states.md)
 
-[Requesting translations in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/requesting-translations-localization-workspace.md)
+[Requesting translations in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/requesting-translations-localization-workspace.md)
 

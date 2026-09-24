@@ -2,7 +2,7 @@
 title: Define a quick message
 description: Create predefined content to add in the email client so that users can write emails consistently and efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_QuickMessages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_QuickMessages.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -110,5 +110,5 @@ Content to insert in the **Message Text** field in the email client. By default,
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/quick-message.md)
+**Parent Topic:**[Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/quick-message.md)
 

@@ -2,7 +2,7 @@
 title: Business Rule API - ServiceNow Fluent
 description: The Business Rule API defines server-sides scripts \[sys\_script\] that run when a record is displayed, inserted, updated, or deleted, or when a table is queried.Create a business rule \[sys\_script\] that automatically changes values in form fields when certain server-side conditions are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/business-rule-api-now-ts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-sdk/business-rule-api-now-ts.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -20,12 +20,12 @@ The Business Rule API defines server-sides scripts \[sys\_script\] that run when
 
 For general information about business rules, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md)
 
 ## BusinessRule object
 
@@ -53,7 +53,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -91,8 +91,8 @@ Script
 
 A custom script runs when the defined conditions are true. This property supports a function from a JavaScript module, a reference to another file in the application that contains a script, or inline JavaScript. Format:
 
--   For functions, use the name of a function, function expression, or default function exported from a JavaScript module and import it into the `.now.ts` file. For information about JavaScript modules, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md).
--   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).
+-   For functions, use the name of a function, function expression, or default function exported from a JavaScript module and import it into the `.now.ts` file. For information about JavaScript modules, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/javascript-modules-third-party-libraries.md).
+-   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-constructs.md).
 -   To provide an inline script, use string literals or template literals for multiple lines of code: `'Script' or `Script``.
 
 </td></tr><tr><td>
@@ -216,7 +216,7 @@ Array
 
 </td><td>
 
-A list of variable identifiers of Role objects that users who are modifying records in the table must have for the business rule to run. For more information, see [Role API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/role-api-now-ts.md).
+A list of variable identifiers of Role objects that users who are modifying records in the table must have for the business rule to run. For more information, see [Role API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/role-api-now-ts.md).
 
 </td></tr><tr><td>
 
@@ -234,7 +234,7 @@ By specifying the condition statement with this property, the condition is evalu
 
 Format:
 
--   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).
+-   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-constructs.md).
 -   To provide an inline script, use string literals or template literals for multiple lines of code: `'Script' or `Script``.
 
 </td></tr><tr><td>

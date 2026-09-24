@@ -2,7 +2,7 @@
 title: Removed features and products in Australia
 description: Cumulative release notes summary on features that were removed from Australia features and products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-removed-features.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-removed-features.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-10"
@@ -35,5 +35,5 @@ Some features were removed as part of Australia product updates.
 |ServiceNow Otto for Zero Copy Connector| |
 |Third-party Risk Management| |
 
-**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)
+**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/release-notes-summaries.md)
 

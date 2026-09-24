@@ -2,7 +2,7 @@
 title: Generate and view a claim's fraud score
 description: Generate a fraud score, and view the fraud score page to get detailed insight into a claim's fraud score and history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/view-claim-fraud-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/view-claim-fraud-score.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -18,7 +18,7 @@ Generate a fraud score, and view the fraud score page to get detailed insight in
 
 An adjuster, processor, and manager can generate a fraud score and view the fraud score page on a claim case and from an adjuster task to determine fraud risk of a case. Admins can use the baseline fraud score page to create a customized scoring page specific to requirements for your line of business.
 
-**Note:** For more information, see [Configure the fraud score ranges with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/configure-ranges-for-scores.md).
+**Note:** For more information, see [Configure the fraud score ranges with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/configure-ranges-for-scores.md).
 
 ## Generating and accessing fraud score details
 
@@ -41,7 +41,7 @@ The following example shows the fraud score page for the Personal Lines Claims a
 
 -   **Score gauge**
 
-    Shows a high, average, or low risk score based on the passed claim data. You can configure the display by defining the ranges for high, average, or low scores. For more information on how to configure the ranges, see [Configure the fraud score ranges with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/configure-ranges-for-scores.md).
+    Shows a high, average, or low risk score based on the passed claim data. You can configure the display by defining the ranges for high, average, or low scores. For more information on how to configure the ranges, see [Configure the fraud score ranges with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/configure-ranges-for-scores.md).
 
 -   **Fraud score**
 
@@ -61,7 +61,7 @@ The following example shows the fraud score page for the Personal Lines Claims a
 
 -   **Indicators contributing to the fraud score**
 
-    If FRISS is enabled, displays a list of indicators such as Claim Date Check and Police report that factor into the fraud score, with accompanying scores and rationales for why each score was specified for the indicator. For more information about FRISS, see [Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-friss-overview.md).
+    If FRISS is enabled, displays a list of indicators such as Claim Date Check and Police report that factor into the fraud score, with accompanying scores and rationales for why each score was specified for the indicator. For more information about FRISS, see [Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integration-with-friss-overview.md).
 
 -   **Score history trend**
 

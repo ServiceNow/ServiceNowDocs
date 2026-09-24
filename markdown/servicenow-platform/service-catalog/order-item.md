@@ -2,7 +2,7 @@
 title: Submit and track a request
 description: Submit a request for an item or service and track the progress of your request with the Now Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/order-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/order-item.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -65,7 +65,7 @@ Role required: none
     \[Omitted image "requested-item-menu-options.png"\] Alt text: More options menu item
 
 
-**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md)
+**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/now-mobile-catalog.md)
 
 **Related topics**  
 

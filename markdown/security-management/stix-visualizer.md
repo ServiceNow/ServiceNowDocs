@@ -2,7 +2,7 @@
 title: STIX Visualizer
 description: The STIX Visualizer visually represents the structure of the STIX object and its relationship.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/stix-visualizer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/stix-visualizer.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ You can zoom in to an object, drag the nodes, or pin them to focus on a particul
 
 Click any object to open the details pane. On the details pane, you can learn more information that is associated with the object.
 
-**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ioc-repository.md)
 
 **Related topics**  
 

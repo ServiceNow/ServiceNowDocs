@@ -2,7 +2,7 @@
 title: WhoisXML API integration
 description: The WhoisXML API integration enables you to submit Whois lookups on domain names and URLs to obtain context on URL observables, and to make better determination on threats.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/whois-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/whois-landing-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,27 +18,27 @@ The WhoisXML API integration enables you to submit Whois lookups on domain names
 
 Explore
 
- [Threat Intelligence integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-integrations.md)
+ [Threat Intelligence integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-integrations.md)
 
 </td><td>
 
 Set up
 
- -   [WhoisXML API integration setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/whois-integration-setup.md)
--   [Activate and configure the Security Operations Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-whois.md)
+ -   [WhoisXML API integration setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/whois-integration-setup.md)
+-   [Activate and configure the Security Operations Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/activate-whois.md)
 
 </td></tr><tr><td>
 
 Use
 
- [Threat Intelligence - Run IoC Lookup workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-orch-wfs-and-activities.md)
+ [Threat Intelligence - Run IoC Lookup workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-orch-wfs-and-activities.md)
 
 </td><td>
 
 Develop
 
- -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IntegrationWritingGuidelines.md)
--   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_BestPractisesIntegrations.md)
+ -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_IntegrationWritingGuidelines.md)
+-   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_BestPractisesIntegrations.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
 -   [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md)
@@ -47,7 +47,7 @@ Develop
 
 Troubleshoot and get help
 
- -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IntegrationTroubleshooting.md)
+ -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_IntegrationTroubleshooting.md)
 -   [Ask or answer questions in the Security Operations community](https://community.servicenow.com/community/security-operations)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

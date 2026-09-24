@@ -2,7 +2,7 @@
 title: Configure Process Classification Attachment using DI flow
 description: Copy and activate the Process Classification Attachment using DI flow to submit email attachments to Document Intelligence for document type identification. Complete this task as part of the Accounts Payable Operations integration with Document Intelligence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/process-classification-attachment-di.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/process-classification-attachment-di.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

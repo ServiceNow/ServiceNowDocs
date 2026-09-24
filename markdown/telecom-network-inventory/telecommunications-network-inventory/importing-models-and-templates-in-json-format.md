@@ -2,12 +2,12 @@
 title: Importing models and templates in JSON format
 description: Import equipment models and inventory templates together in a single operation using JSON format in the Telecommunications Network Inventory application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/importing-models-and-templates-in-json-format.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/importing-models-and-templates-in-json-format.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Import models and templates, Explore, Telecommunications Network Inventory]
 ---
@@ -18,12 +18,12 @@ Import equipment models and inventory templates together in a single operation u
 
 In scenarios where models and templates are exported from external network management systems, JSON is a more natural and efficient format. The import models and templates in JSON format feature lets you bring both models and templates together in a single import operation using a JSON file. The JSON import supports Equipment Model, Equipment Holder Model, Card Model,Connection, cable, Topology, Facility template, and Interface Model. Images aren't supported.
 
-A dedicated inventory template is generated for every rack/cabinet equipment holder, equipment model, and card model, with related templates generated based on defined model relationships. To learn how to importing models and templates in JSON format see [Import models and templates in JSON format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-templates-json.md)
+A dedicated inventory template is generated for every rack/cabinet equipment holder, equipment model, and card model, with related templates generated based on defined model relationships. To learn how to importing models and templates in JSON format see [Import models and templates in JSON format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-templates-json.md)
 
 **Related topics**  
 
 
-[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/network-inventory-import-model.md)
+[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/network-inventory-import-model.md)
 
-[Import models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-inventory.md)
+[Import models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-inventory.md)
 

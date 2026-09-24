@@ -2,7 +2,7 @@
 title: Map an Operational Technology system service to an equipment model entity
 description: Map an Operational Technology \(OT\) system service to an ISA equipment model entity by enabling a scheduled job. When the relationship between an OT device and an equipment model entity changes, the scheduled job recomputes the relationship between the OT system service and the equipment model entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/map-ot-system-service-to-equipment-model-entity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/map-ot-system-service-to-equipment-model-entity.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -39,5 +39,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Modeling an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/modeling-ot-system.md)
+**Parent Topic:**[Modeling an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/modeling-ot-system.md)
 

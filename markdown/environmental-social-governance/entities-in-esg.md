@@ -2,7 +2,7 @@
 title: Manage entities in Operational Sustainability Management \(formerly ESG Management\)
 description: You can learn about how Operational Sustainability Management is used by the investors and reporting agencies to evaluate different entities that they want to invest in, such as different business units in an organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/entities-in-esg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/entities-in-esg.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,23 +40,23 @@ For Product, its attributes are product ID, name, cost, and currency. In the Pro
 
 Entities and entity types can have a one-to-many relationship. For example, an entity called Hope can have an entity type called Person and an entity type called Organization.
 
--   **[Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity.md)**  
+-   **[Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity.md)**  
 Create an entity and measure its performance against the goals. Defining an entity ensures that the entity owners are also identified. After an entity is defined, Operational Sustainability Management goals are applied to the entity.
--   **[Update an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/update-an-entity.md)**  
+-   **[Update an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/update-an-entity.md)**  
 Update the details of an existing entity.
--   **[Create an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity-type.md)**  
+-   **[Create an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity-type.md)**  
 Create an entity type for the entities in your system. Entity types enable you to find and create entities that have the same attributes and that match a set of filter conditions.
--   **[Update an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/update-entity-type.md)**  
+-   **[Update an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/update-entity-type.md)**  
 Update an existing entity type to add entity filters, policies, and control objectives.
--   **[Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity-class.md)**  
+-   **[Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity-class.md)**  
 Create an entity class that is to be associated with an entity. Define the parent class, root entity, and tier for an entity class.
--   **[Update an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/update-entity-class.md)**  
+-   **[Update an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/update-entity-class.md)**  
 Update an existing entity class that is associated with an entity. Entity classes are used to add the conceptual information about an entity or tag the entity.
 
-**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-esg.md)
+**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-esg.md)
 
 **Related topics**  
 
 
-[Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity.md)
+[Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity.md)
 

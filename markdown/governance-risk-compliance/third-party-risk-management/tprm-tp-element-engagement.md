@@ -2,7 +2,7 @@
 title: Add a third-party element record to an engagement
 description: Assign a third-party element record to an engagement by using the Third-party Risk Management application. After you assign the element record to an engagement, the third-party risk manager and internal stakeholders can assess it as part of the due diligence process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-tp-element-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-tp-element-engagement.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -22,7 +22,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor that is the due diligence re
 
 ## About this task
 
-You can assign third-party elements to an engagement after they’ve been reviewed and approved by the third-party risk manager and internal stakeholders. For more information, see [Monitoring third-party elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-monitor-tp-elements.md) and [Create a third-party element record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tp-element-create.md).
+You can assign third-party elements to an engagement after they’ve been reviewed and approved by the third-party risk manager and internal stakeholders. For more information, see [Monitoring third-party elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-monitor-tp-elements.md) and [Create a third-party element record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-tp-element-create.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Exploring synthetic monitoring
 description: Learn how synthetic monitoring provides proactive, automated testing of service endpoints. By simulating user interactions, it can identify bugs, performance issues, and outages before they impact real users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/exploring-synthetic-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/exploring-synthetic-monitoring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,15 +30,15 @@ You can create synthetic monitors in the following ways:
 
 -   **Manual monitor creation**
 
-    Create monitors for any HTTP endpoint by manually configuring the endpoint details. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md).
+    Create monitors for any HTTP endpoint by manually configuring the endpoint details. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-synthetic-monitor.md).
 
 -   **Monitors for discovered APIs**
 
-    Create monitors for APIs discovered through API Insights. Each discovered API is represented in the Configuration Management Database \(CMDB\) as an API component CI, and you create the monitor directly against that existing CI. See [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
+    Create monitors for APIs discovered through API Insights. Each discovered API is represented in the Configuration Management Database \(CMDB\) as an API component CI, and you create the monitor directly against that existing CI. See [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
 
 -   **Monitors from incidents**
 
-    Create monitors directly from incident records to prevent future occurrences. See [Create synthetic monitors from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitors-from-incidents.md).
+    Create monitors directly from incident records to prevent future occurrences. See [Create synthetic monitors from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-synthetic-monitors-from-incidents.md).
 
 
 ## Synthetic monitoring users
@@ -88,7 +88,7 @@ View aggregate monitor information.View the synthetic monitoring home page where
 
 </td><td>
 
-[View aggregate information about the monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/identifying-system-issues.md).
+[View aggregate information about the monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/identifying-system-issues.md).
 
 </td><td>
 
@@ -105,7 +105,7 @@ Visualize synthetic test results.View the details page for a monitor where you c
 
 </td><td>
 
-[View a monitor and its tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/identifying-system-issues.md).
+[View a monitor and its tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/identifying-system-issues.md).
 
 </td><td>
 
@@ -117,7 +117,7 @@ Get real-time notifications for outages before they impact users.
 
 </td><td>
 
-[Optionally configure alerts when tests don't succeed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-synthetic-monitoring.md)
+[Optionally configure alerts when tests don't succeed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configuring-synthetic-monitoring.md)
 
 </td><td>
 
@@ -129,7 +129,7 @@ Share insights with stakeholders.
 
 </td><td>
 
-[View aggregate monitor information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-aggregat-monitor-information.md).
+[View aggregate monitor information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/view-aggregat-monitor-information.md).
 
 </td><td>
 
@@ -141,7 +141,7 @@ Update monitors to match your business needs.
 
 </td><td>
 
-[Edit existing monitors, including deactivation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/manage-synthetic-monitors.md).
+[Edit existing monitors, including deactivation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/manage-synthetic-monitors.md).
 
 </td><td>
 
@@ -153,7 +153,7 @@ Embed monitor results in a Service Observability dashboard.
 
 </td><td>
 
-[Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)
+[Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)
 
 </td><td>
 
@@ -164,8 +164,8 @@ Service owner
 
 To learn more about configuring and using synthetic monitoring, see:
 
--   [Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-synthetic-monitoring.md)
--   [Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/identifying-system-issues.md)
--   [Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-reference.md)
--   [Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)
+-   [Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configuring-synthetic-monitoring.md)
+-   [Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/identifying-system-issues.md)
+-   [Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/synthetic-monitoring-reference.md)
+-   [Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)
 

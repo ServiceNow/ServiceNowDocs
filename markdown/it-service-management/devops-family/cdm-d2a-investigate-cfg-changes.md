@@ -2,7 +2,7 @@
 title: Investigate config change alerts
 description: A high percentage of alerts occur due to errors in config data. If the chain of events that resulted in an alert includes a change request that involves the same CI as the alert, then you can use a variety of tools to isolate the config changes that might have caused the alert.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -147,7 +147,7 @@ The target snapshot is the snapshot that is associated with the change request. 
 
     -   **B: Data panel**
 
-        The data panel displays groups of CDIs for the selected node. By default, the root node is selected in the node tree, and the list includes all CDIs for both snapshots. Select a node in the navigation panel to display CDIs for only that node and its descendents. You can switch from this list view of the config data to a script view, as described in [G: Script view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.md).
+        The data panel displays groups of CDIs for the selected node. By default, the root node is selected in the node tree, and the list includes all CDIs for both snapshots. Select a node in the navigation panel to display CDIs for only that node and its descendents. You can switch from this list view of the config data to a script view, as described in [G: Script view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.md).
 
         Expand and close groupings with the expand icon \(\[Omitted image "cdm-icon-expand.png"\] Alt text: expand icon\). If a selection includes more than 50 CDIs, then CDIs are organized into groups of 50.
 

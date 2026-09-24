@@ -2,7 +2,7 @@
 title: Submit amendment request
 description: Submit an amendment request from the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-amend-inititate-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-amend-inititate-req.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -46,15 +46,15 @@ A sample workflow while submitting on an amendment request would be:
 
 4.  Enter the contract details.
 
-<table id="choicetable_ihc_fgn_fhc"><thead><tr><th align="left" id="d129482e145">
+<table id="choicetable_ihc_fgn_fhc"><thead><tr><th align="left" id="d129486e145">
 
 Option
 
-</th><th align="left" id="d129482e148">
+</th><th align="left" id="d129486e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d129482e154">
+</th></tr></thead><tbody><tr><td id="d129486e154">
 
 **Select an existing contract**
 
@@ -75,7 +75,7 @@ Steps
     -   A parent contract child hierarchy is established between the selected contract and the amendment request. You can’t unlink the parent and the child contract.
 
 
-</td></tr><tr><td id="d129482e206">
+</td></tr><tr><td id="d129486e206">
 
 **Manually enter contract details**
 
@@ -104,21 +104,21 @@ Steps
 
 7.  Select Electronic or Wet signature, in the **Signature type** drop-down.
 
-    For more information on the signature flow, see [Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
+    For more information on the signature flow, see [Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 
 8.  Attach contract documents.
 
     -   For own paper based amendment requests: Adding documents isn’t required. The attached documents are classified as supporting documents.
     -   For third-party paper based amendment requests: Adding documents is required. You must classify the attached document. The options available for classification are supporting documents and contract type selected in the contract details section.
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d129482e340">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d129486e340">
 
 Method
 
-</th><th align="left" id="d129482e343">
+</th><th align="left" id="d129486e343">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d129482e349">
+</th></tr></thead><tbody><tr><td id="d129486e349">
 
 **__Choose the file__**
 
@@ -128,7 +128,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d129482e374">
+</td></tr><tr><td id="d129486e374">
 
 **__Drag the file__**
 
@@ -163,9 +163,9 @@ Drag files from your local computer into your browser window to attach them to t
     -   Replacing the metadata with data from the request.
     -   Replacing the signatory information.
     -   Placing the content of the clauses in the contract document according to the clause variation rules.
--   Internal signatories based on the template are also populated in the generated document. For more information, see [Define an internal signatory rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.md). View the signatories in the Signatories tab of the contract request.
+-   Internal signatories based on the template are also populated in the generated document. For more information, see [Define an internal signatory rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.md). View the signatories in the Signatories tab of the contract request.
 
-For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
+For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
 
-**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
+**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
 

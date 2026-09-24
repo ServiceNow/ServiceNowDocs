@@ -2,7 +2,7 @@
 title: Define ERP source configuration for Oracle EBS
 description: ERP source configuration determines the ERP source to which your ERP system connects. Map the integration payload with the Oracle EBS tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-oracle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-oracle.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -67,7 +67,7 @@ By default, the Oracle EBS base system provides 13 service mappings. For other O
 -   Define service mappings manually for each integration service by accessing the Service Mappings related list. You can define element level mapping between Oracle EBS table fields and payload elements.
 -   Map the users and corresponding ERP User IDs by accessing the ERP User Mappings related list.
 
-**Parent Topic:**[Configure the Source-to-Pay integration with Oracle EBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-oracle-ebs-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with Oracle EBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-oracle-ebs-integration.md)
 
 **Related topics**  
 

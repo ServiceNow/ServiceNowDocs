@@ -2,7 +2,7 @@
 title: Manually run a supplier document configuration
 description: Run a supplier document configuration to enable supplier managers, supplier owners, and supplier contacts to immediately upload the required documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -66,7 +66,7 @@ Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Administration
 3.  Select **Execute Now**.\[Omitted image "run-doc-config-manually.png"\] Alt text: Selected button for running the document configuration manually.
 
 
-**Parent Topic:**[Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md)
+**Parent Topic:**[Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md)
 
 **Related topics**  
 
@@ -77,7 +77,7 @@ Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Administration
 
 [Configure document expiration monitoring attributes]()
 
-[Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md)
+[Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md)
 
-[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)
+[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)
 

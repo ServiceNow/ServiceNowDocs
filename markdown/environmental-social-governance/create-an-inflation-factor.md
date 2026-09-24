@@ -2,7 +2,7 @@
 title: Create an inflation factor
 description: Create inflation factors for spend-based emission factors to account for price changes over time, which can otherwise make these factors inaccurate. Spend-based emission factors estimate pollution based on monetary expenditure. Adjusting spending for inflation before applying the emission factor ensures a more realistic picture of your emissions footprint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-an-inflation-factor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-an-inflation-factor.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,5 +62,5 @@ Year for which the inflation factor is applicable.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
+**Parent Topic:**[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-the-scope-3-dashboard.md)
 

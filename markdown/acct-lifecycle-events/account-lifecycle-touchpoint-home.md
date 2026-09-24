@@ -2,7 +2,7 @@
 title: Touchpoint home page
 description: During the engagement lifecycle, customer success agents schedule regular touchpoints with customers to evaluate progress, provide feedback, and offer guidance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-touchpoint-home.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-touchpoint-home.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +23,7 @@ Internal touchpoints ensure that only internal teams are involved in that partic
 The following options are available:
 
 -   Discuss: Select **Discuss** to start a sidebar discussion about this touchpoint. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this touchpoint. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
--   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md).
+-   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-play.md).
 
     The success play created using this UI action button is stored in Touchpoint applicable records table and the type of association is the action item.
 
@@ -159,7 +159,7 @@ Meeting link
 
 </td><td>
 
-This field is automatically populated if you select Zoom in the Video software field. For details on setting up and configuring Zoom, see [Configure Zoom to create a touchpoint meeting summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-config-zoom-sum.md).
+This field is automatically populated if you select Zoom in the Video software field. For details on setting up and configuring Zoom, see [Configure Zoom to create a touchpoint meeting summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-config-zoom-sum.md).
 
 </td></tr><tr><td>
 
@@ -327,5 +327,5 @@ The touchpoint applicable record associates touchpoint that are applicable to th
 -   Action item
 -   Reference
 
-**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
+**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
 

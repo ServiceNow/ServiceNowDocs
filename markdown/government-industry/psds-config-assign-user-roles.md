@@ -2,7 +2,7 @@
 title: Assign roles to Public Sector Digital Services users
 description: Roles control access to features, capabilities, and data in the Public Sector Digital Services application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-assign-user-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-assign-user-roles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -78,5 +78,5 @@ External Roles
 **Related topics**  
 
 
-[Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)
+[Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md)
 

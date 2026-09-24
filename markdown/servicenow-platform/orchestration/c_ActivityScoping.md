@@ -2,7 +2,7 @@
 title: Activity scoping
 description: Custom activities run in their own scope, even if it is different from that of the workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/c\_ActivityScoping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/c\_ActivityScoping.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -22,5 +22,5 @@ You can use private activities as part of a workflow that has a public applicati
 
 **Note:** Custom activities uploaded to the ServiceNow Store must be configured as accessible to all application scopes.
 
-**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md)
+**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md)
 

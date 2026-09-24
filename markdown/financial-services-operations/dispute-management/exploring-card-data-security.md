@@ -2,7 +2,7 @@
 title: Exploring Card Data Security
 description: Learn more about Card Data Security and how it can be used to tokenize sensitive card data, display and mask Primary Account Numbers \(PANs\), and manage sensitive attachments for Dispute Cases and Dispute Transactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/exploring-card-data-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/exploring-card-data-security.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -186,7 +186,7 @@ Agents use Card Data Security to view and reveal PANs in a transaction for a car
 
 To learn more about configuring Card Data Security, see:
 
--   [Configuring Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-card-data-security.md)
--   [Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-card-data-security.md)
--   [Card Data Security Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/card-data-security-reference.md)
+-   [Configuring Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/configuring-card-data-security.md)
+-   [Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/managing-card-data-security.md)
+-   [Card Data Security Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/card-data-security-reference.md)
 

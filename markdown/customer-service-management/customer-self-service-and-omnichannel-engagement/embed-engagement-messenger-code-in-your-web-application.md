@@ -2,7 +2,7 @@
 title: Embed Engagement Messenger in your web application
 description: Embed the source code of the messenger module that you configured in your website so that you can enable your customers to start using Engagement Messenger in your website.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-engagement-messenger-code-in-your-web-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-engagement-messenger-code-in-your-web-application.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -18,7 +18,7 @@ Embed the source code of the messenger module that you configured in your websit
 
 ## Before you begin
 
--   [Activate an Engagement Messenger module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-engagement-messenger-module.md).
+-   [Activate an Engagement Messenger module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-engagement-messenger-module.md).
 -   Role required: sn\_csm\_ec.ec\_admin
 
 ## About this task
@@ -47,15 +47,15 @@ Next, depending on the authentication type that you selected for your configured
 
 7.  For a messenger module with OIDC-based or SAMl-based authentication, complete the following configuration.
 
-<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d104706e153">
+<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d104710e153">
 
 Authentication type
 
-</th><th align="left" id="d104706e156">
+</th><th align="left" id="d104710e156">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d104706e162">
+</th></tr></thead><tbody><tr><td id="d104710e162">
 
 **OIDC-based**
 
@@ -70,7 +70,7 @@ This function enables authenticated users to log in to Engagement Messenger seam
 
 This function enables authenticated users to seamlessly log out from Engagement Messenger and your website.
 
-</td></tr><tr><td id="d104706e202">
+</td></tr><tr><td id="d104710e202">
 
 **SAML-based**
 
@@ -108,7 +108,7 @@ This function enables authenticated users to seamlessly log out from Engagement 
 
 11. Modify the embed code of Engagement Messenger to integrate Proactive Recommendations on a web page.
 
-    For more information on using Engagement Messenger to integrate Proactive Recommendations on a web page, see [Use Engagement Messenger embed Code to integrate proactive recommendations on a web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/em-contextual-help.md).
+    For more information on using Engagement Messenger to integrate Proactive Recommendations on a web page, see [Use Engagement Messenger embed Code to integrate proactive recommendations on a web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/em-contextual-help.md).
 
 
 ## What to do next

@@ -2,7 +2,7 @@
 title: Restricting record access
 description: You can use a query business rule that executes before the database query to prevent users from accessing certain records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_ExScptDftBfrQryBsnRu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_ExScptDftBfrQryBsnRu.html
 release: australia
 product: Scripts
 classification: scripts
@@ -101,7 +101,7 @@ if(typeof g_user_date_time_format !=='undefined')
 return parseDate(value)!==null;}
 ```
 
-For more information, see [Validation script use case - Date and time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ValidateDateAndTime.md).
+For more information, see [Validation script use case - Date and time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ValidateDateAndTime.md).
 
-**Parent Topic:**[Business rule use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/useful-business-rules.md)
+**Parent Topic:**[Business rule use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/useful-business-rules.md)
 

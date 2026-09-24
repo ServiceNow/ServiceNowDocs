@@ -2,7 +2,7 @@
 title: NLU intents
 description: Intents drive your models' responses by matching a system action to user inputs. Models with good intents help Virtual Agent and Search respond to your users accurately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/intents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/intents.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -28,7 +28,7 @@ A model can contain up to 750 intents. However, models with over 300 intents or 
 
 **Note:** As you create intents, keep in mind that they can sometimes impact each other. For example, you build and test an intent that works on one or two utterances. But when you test it in a larger intent environment, it might behave differently. To reduce the likelihood of such an event, you may want to create at least five intents in a model before you start proper testing.
 
-To start adding content to your model, see [Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-intent.md).
+To start adding content to your model, see [Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/create-nlu-intent.md).
 
 The **Enabled** column shows whether or not the intent is active in predictions. An NLU admin can deactivate an individual intent but keep it in the model.
 
@@ -57,7 +57,7 @@ Here are some things to consider when adding utterances to intents:
 -   The system currently supports up to 20,000 utterances in a single model.
 -   Models with more than 4,500 utterances take longer to train, test, and publish.
 
-Provide vocabulary for any words or phrases that are relevant to your organization or domain when adding utterances to your model. The vocabulary helps with intent prediction for words and phrases that your users are likely to use. You can use the @ symbol when adding an utterance to call on a vocabulary source. For more context and examples, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
+Provide vocabulary for any words or phrases that are relevant to your organization or domain when adding utterances to your model. The vocabulary helps with intent prediction for words and phrases that your users are likely to use. You can use the @ symbol when adding an utterance to call on a vocabulary source. For more context and examples, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
 
 ## Associated entities
 
@@ -65,7 +65,7 @@ Your model uses entities to provide additional context and meaning when predicti
 
 \[Omitted image "intents07.png"\] Alt text: The Associated entities tab for an example intent.
 
-For more information, see [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/entities.md).
+For more information, see [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/entities.md).
 
 ## Intent issues
 
@@ -75,5 +75,5 @@ If your model has issues or conflicts, the **Intents** page displays cards showi
 
 Select a card to see a filtered list of intents with that issue. Resolving issues ensures that your intents meet the requirements and work as intended.
 
-For more information, see [Resolve intent issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/resolve-intent-issues.md).
+For more information, see [Resolve intent issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/resolve-intent-issues.md).
 

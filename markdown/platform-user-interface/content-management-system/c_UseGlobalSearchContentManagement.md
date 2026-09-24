@@ -2,7 +2,7 @@
 title: Global search in Content Management
 description: When you add global search to a CMS site, two different search result blocks can display, depending on the user role: global or no global.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_UseGlobalSearchContentManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/c\_UseGlobalSearchContentManagement.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -33,7 +33,7 @@ Before you use the **Search Results \(Global\)** dynamic block, define Configure
 
 The **Search Results \(No Global\)** dynamic block does not require any additional configuration.
 
-**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 **Related topics**  
 

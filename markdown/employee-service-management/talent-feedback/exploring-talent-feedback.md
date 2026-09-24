@@ -2,7 +2,7 @@
 title: Exploring Talent Feedback
 description: Learn about Talent Feedback and its benefits as managers and employees looking to leverage a feedback engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/exploring-talent-feedback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-feedback/exploring-talent-feedback.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback
@@ -70,7 +70,7 @@ Easier and efficient way to request skill feedback from employees.
 
 </td><td>
 
-[Request skill feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/request-skill-feedback.md)
+[Request skill feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/request-skill-feedback.md)
 
 </td><td>
 
@@ -82,9 +82,9 @@ Request feedback from various views of skills, helping you understand the skill 
 
 </td><td>
 
--   [Request feedback from skill distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/request-feedback-skill-distribution.md)
--   [Request skill feedback from skill expectations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/request-fdbk-skill-expectations.md)
--   [Request skill feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/request-skill-feedback-widget.md)
+-   [Request feedback from skill distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/request-feedback-skill-distribution.md)
+-   [Request skill feedback from skill expectations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/request-fdbk-skill-expectations.md)
+-   [Request skill feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/request-skill-feedback-widget.md)
 
 </td><td>
 
@@ -96,8 +96,8 @@ View and submit skill feedback for other employees or decline any feedback reque
 
 </td><td>
 
--   [View skill feedback submitted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/view-skill-feedback.md)
--   [Decline a feedback request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/accept-deny-feedback.md)
+-   [View skill feedback submitted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/view-skill-feedback.md)
+-   [Decline a feedback request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/accept-deny-feedback.md)
 
 </td><td>
 
@@ -106,11 +106,11 @@ Employee
 </td></tr></tbody>
 </table>## Talent Feedback requires the following related applications
 
--   **[Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-intelligence.md)**
+-   **[Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/skills-intelligence.md)**
 
     The ServiceNow® Skills Foundation application is an AI-driven platform that you can use in your organization to develop a workforce that is based on skills.
 
--   **[Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/manager-hub-overview.md)**
+-   **[Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/manager-hub-overview.md)**
 
     The ServiceNow® Manager Hub increases a manager's self-service and proactive engagement with their team by providing insights and recommended actions for what's most urgent and important to drive team success. It enables managers to grow as leaders through curated and personalized resources.
 
@@ -119,7 +119,7 @@ Employee
 
 To learn more about configuring and using Talent Feedback, see:
 
--   [Configuring Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/configuring-talent-feedback.md)
--   [Using Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/using-talent-feedback.md)
--   [Talent Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/talent-feedback-reference.md)
+-   [Configuring Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/configuring-talent-feedback.md)
+-   [Using Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/using-talent-feedback.md)
+-   [Talent Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-feedback/talent-feedback-reference.md)
 

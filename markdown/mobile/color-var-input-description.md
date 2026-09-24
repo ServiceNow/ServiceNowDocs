@@ -2,7 +2,7 @@
 title: Color variable support for input descriptions
 description: Learn how to use color variables to change theming in your mobile input descriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-input-description.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/color-var-input-description.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ Use color variables in the **Description** field of your inputs to control text 
 
  Use color variables in the **Description** field of your inputs to control text color when **Description** field is configured as `HTML`.
 
- For example, in addition to color hex values like `#FF0000`, you may use a color variable, such as `--now-color-primary-0`. For a list of available variables see [Color theme considerations for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/color-guide-landing.md).
+ For example, in addition to color hex values like `#FF0000`, you may use a color variable, such as `--now-color-primary-0`. For a list of available variables see [Color theme considerations for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/color-guide-landing.md).
 
- For details on inputs, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+ For details on inputs, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-config.md).
 
 </td><td>
 

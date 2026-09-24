@@ -2,7 +2,7 @@
 title: Resolve entitlement import errors by using ServiceNow Otto for Software Asset Management \(SAM\)
 description: Reduce manual effort when reviewing entitlement import errors in the Software Asset Workspace using ServiceNow Otto for SAM AI skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/resolve-entitlement-import-error.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/resolve-entitlement-import-error.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -35,7 +35,7 @@ Role required: sam\_user or sam\_admin
 
 Starting with the Australia Patch 4 release, AWS Claude is the default model provider for the Product match reviewer and Google Gemini is the default model provider for the Software normalization AI skill.
 
-When you import software entitlements using the [Import bulk entitlements in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-entitlements-workspace.md) feature, some rows may contain publisher or product data that standard content matching can't resolve. Unresolved publisher or product data prevents the entitlement import from completing successfully.
+When you import software entitlements using the [Import bulk entitlements in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-entitlements-workspace.md) feature, some rows may contain publisher or product data that standard content matching can't resolve. Unresolved publisher or product data prevents the entitlement import from completing successfully.
 
 To resolve this issue, ServiceNow Otto for SAM provides the following AI-powered skills that normalize publisher and product values:
 
@@ -56,7 +56,7 @@ After the file import completes, if any publisher or product names in the import
 
 5.  Upload a Microsoft Excel file.
 
-    For more information about importing multiple entitlements, see [Import bulk entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-entitlements-workspace.md).
+    For more information about importing multiple entitlements, see [Import bulk entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-entitlements-workspace.md).
 
     **Note:** The error resolution for the **Product** and **Publisher** fields applies only when the **Import Type** field value is selected as **Standard Import document**.
 
@@ -127,10 +127,10 @@ The Product match reviewer skill performs an AI-powered search and selects the c
     \[Omitted image "import-errors-require-review.png"\] Alt text: Import errors to review
 
 
-**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam.md)
 
 **Related topics**  
 
 
-[Import bulk entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-entitlements-workspace.md)
+[Import bulk entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-entitlements-workspace.md)
 

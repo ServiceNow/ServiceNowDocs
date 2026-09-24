@@ -2,7 +2,7 @@
 title: Audit Workspace
 description: If you are an audit manager, you can use the Audit Workspace to track and manage your financial regulatory audit engagements and corresponding evidence requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/audit-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-audits/audit-workspace.html
 release: australia
 product: Asset Audits
 classification: asset-audits

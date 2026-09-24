@@ -2,7 +2,7 @@
 title: JDBC step
 description: Create a reusable action to send SQL commands to a relational database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jdbc-step.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/jdbc-step.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -196,7 +196,7 @@ SQL Statement
 
 </td><td>
 
-SQL statement that the step executes.**Note:** When you use data pills in step SQL statements, sanitize them first using a preprocessing [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/javascript-step-action-designer.md). For more information, see [Sanitizing inputs using the escape functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jdbc-step.md).
+SQL statement that the step executes.**Note:** When you use data pills in step SQL statements, sanitize them first using a preprocessing [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/javascript-step-action-designer.md). For more information, see [Sanitizing inputs using the escape functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/jdbc-step.md).
 
 </td></tr><tr><td>
 
@@ -220,7 +220,7 @@ Test JDBC Step
 
 </td><td>
 
-Test the JDBC step. View test results directly in the Test JDBC Step window. For more information, see [Test JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-jdbc-step.md).
+Test the JDBC step. View test results directly in the Test JDBC Step window. For more information, see [Test JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/test-jdbc-step.md).
 
 </td></tr><tr><td colspan="2">
 

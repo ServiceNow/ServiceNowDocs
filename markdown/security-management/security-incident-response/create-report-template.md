@@ -2,7 +2,7 @@
 title: Create a Report Template
 description: Create various report templates, which can be applied to the major security incidents and generate a status report. You can add standard and custom Major Security Incident Response form fields to the report template that are dot-walkable. In addition, you can format and configure the report based on your requirements using sections, subsections, and its elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-report-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-report-template.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -126,18 +126,18 @@ Allows you to define the template body. Select the required variables to add to 
     A new report template is created under the Reports Templates page.
 
 
--   **[Add Branding to your Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-branding-to-your-report-templates.md)**  
+-   **[Add Branding to your Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/add-branding-to-your-report-templates.md)**  
 Add branding to your reports. You can add header and footer image, header and footer text. You can include this branding information in any of the report template types that you want to create other than the two predefined reports.
--   **[Use Visualizations in Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-widgets-in-your-report-templates.md)**  
+-   **[Use Visualizations in Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-widgets-in-your-report-templates.md)**  
 Use report widgets to define and include User Interface Builder \(UIB\) elements such as data visualizations in the MSIM status reports.
--   **[Use Reports Lists in Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-reports-lists-in-your-report-templates.md)**  
+-   **[Use Reports Lists in Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-reports-lists-in-your-report-templates.md)**  
 Use report lists to define and include the related list artifacts to generate lists in the PDF based on your configured MSI list records.
--   **[Use Template Scripts in your Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-template-scripts-in-your-report-templates.md)**  
+-   **[Use Template Scripts in your Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-template-scripts-in-your-report-templates.md)**  
 Create a script to include the related lists data, date operations, and any other data that aren’t directly dot-walkable.
--   **[Preview the Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/preview-status-reports.md)**  
+-   **[Preview the Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/preview-status-reports.md)**  
 Use the Preview functionality to preview your design-time report template to generate and share the report with other stakeholders during run time from the Major Security Incident Management workspace.
 
-**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
+**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 
 **Related topics**  
 
@@ -150,5 +150,5 @@ Use the Preview functionality to preview your design-time report template to gen
 
 [Add system properties]()
 
-[Create and distribute MSIM Status Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/creating-and-distributing-major-security-incident-status-reports.md)
+[Create and distribute MSIM Status Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/creating-and-distributing-major-security-incident-status-reports.md)
 

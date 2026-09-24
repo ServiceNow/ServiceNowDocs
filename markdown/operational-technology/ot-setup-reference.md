@@ -2,7 +2,7 @@
 title: Operational Technology Setup reference
 description: Reference topics provide additional information about the Operational Technology Setup application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/ot-setup-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/ot-setup-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-27"

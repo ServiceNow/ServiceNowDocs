@@ -2,7 +2,7 @@
 title: Create a personal course collection
 description: Create personal collections to include the courses and paths that you would like to access easily.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-personal-collection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/create-personal-collection.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -40,10 +40,10 @@ Role required: user
 6.  Select **Save**.
 
 
--   **[Save courses to your personal collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/save-personal-collection.md)**  
+-   **[Save courses to your personal collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/save-personal-collection.md)**  
 Save courses of interest to your personal collection for easy access and to plan your learning.
 
-**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-your-learning.md)
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-your-learning.md)
 
 **Related topics**  
 

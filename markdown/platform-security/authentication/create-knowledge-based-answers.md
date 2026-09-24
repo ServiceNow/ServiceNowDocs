@@ -2,7 +2,7 @@
 title: Create KBA answers
 description: Create knowledge-based answers for the preconfigured security questions to confirm the user's identity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-knowledge-based-answers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-knowledge-based-answers.html
 release: australia
 product: Authentication
 classification: authentication
@@ -106,7 +106,7 @@ Select the field that links records in the Answer Table to a system user account
 
 When populated with a valid `sys_user` reference, the answer supports identification and authentication. When left empty, the answer supports guest identification only and the caller can't be authenticated.
 
-Whether this field is required is controlled by the property. To know more, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-answers.md).
+Whether this field is required is controlled by the property. To know more, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md).
 
 </td></tr></tbody>
 </table>        \[Omitted image "kba-answers-1.png"\] Alt text: Knowledge Based Answer - Script Configuration as None
@@ -137,7 +137,7 @@ Define the custom script to validate the caller's answer against an external sys
 
  -   `table_name`: The ServiceNow AI Platform table where the matched record is located.
 -   `sys_id`: The `sys_id` of the matched record within the specified table.
- For script execution time limits, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-answers.md).
+ For script execution time limits, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md).
 
 </td></tr></tbody>
 </table>        \[Omitted image "kba-answers-1-2.png"\] Alt text: Script Configuration as Identification
@@ -178,7 +178,7 @@ Define the custom script to verify the caller's answer against an external syste
 
  Script output: `kb_auth_result`, set to `true` if the answer matches, `false` if it does not.
 
- For script execution time limits, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-answers.md).
+ For script execution time limits, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md).
 
 </td></tr></tbody>
 </table>        \[Omitted image "kba-answers-1-1.png"\] Alt text: External source fields \(Authentication\)

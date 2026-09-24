@@ -2,12 +2,12 @@
 title: Configure ServiceNow Otto for Zero Copy Connector
 description: If you have the admin role, you can configure the ServiceNow Otto for Zero Copy Connector application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-now-assist-for-zero-copy-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-now-assist-for-zero-copy-connectors.html
 release: australia
 topic_type: task
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 

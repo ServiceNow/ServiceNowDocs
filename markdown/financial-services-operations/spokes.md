@@ -2,7 +2,7 @@
 title: Integrating with spokes
 description: By integrating spokes with the Financial Services Operations \(FSO\) applications, flow designers can provide the actions within Workflow Studio for specific applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/spokes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/spokes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ A spoke is a scoped application containing Workflow Studio content dedicated to 
 |[FRISS Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/friss-spoke.md)|Detect fraud and assess risk by analyzing customer data, identifying suspicious activity, and triggering fraud alerts. Integrate these actions into your workflows to enhance fraud prevention.|\[com.sn\_friss\_spoke\]|
 |[Guidewire Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/guidewire-spoke.md)|Manage insurance operations by creating policies, updating claims, and retrieving billing information directly within flows.|\[com.sn\_guidewire\_spoke\]|
 
-**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integrate-other-applications.md)
+**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integrate-other-applications.md)
 

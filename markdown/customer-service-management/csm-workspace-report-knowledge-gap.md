@@ -2,7 +2,7 @@
 title: Report a knowledge gap
 description: If you cannot find relevant knowledge articles that could help resolve a case, you can report a knowledge gap.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-report-knowledge-gap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-report-knowledge-gap.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

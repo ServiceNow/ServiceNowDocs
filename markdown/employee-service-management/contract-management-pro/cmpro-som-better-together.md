@@ -2,7 +2,7 @@
 title: Optimizing Sales Customer Relationship Management through Contract Lifecycle Automation
 description: Sales Customer Relationship Management integration with Contract Management Pro enables seamless integration between sales professionals and legal teams by enabling sales agents to create legal sales contracts from a quote.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-som-better-together.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-som-better-together.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -77,7 +77,7 @@ The following roles are required to initiate, view, and manage contract executio
 ## Requirements for integrating Sales Customer Relationship Management and Contract Management Pro
 
 1.  [Install Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md).
-2.  [Install Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-install-cmpro.md).
+2.  [Install Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-install-cmpro.md).
 3.  [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-integrate-contract-management.md).
 
 For more information, see [Quote Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-int-contracts-pro.md).
@@ -88,37 +88,37 @@ Get started with initiating contract request by completing these tasks:
 
 1.  [Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-configuring.md).
 2.  Configure Contract Management Pro
-    -   **[Create a contract type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-contract-type.md)**
+    -   **[Create a contract type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-contract-type.md)**
 
         Create a contract type for defining different types of contract requests and associate it to a contract model.
 
         Role:contract administrator.
 
-    -   **[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-document-templates.md)**
+    -   **[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-document-templates.md)**
 
         Create a contract template of type .docx that can be used when submitting a contract request to generate a standard contract with predefined content.
 
         Role:contract configurator.
 
-    -   **[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)**
+    -   **[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)**
 
         Enable dynamic customized content in contract templates through clauses that contain clause variations for preset conditions.
 
         Role:contract configurator.
 
-    -   **[Define an internal signatory rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.md)**
+    -   **[Define an internal signatory rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.md)**
 
         Define a user as an internal signatory rule so that the signer can be added to a contract template to automatically add to the contract document for a request.
 
         Role:contract configurator.
 
-    -   **[Create document template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-doc-tmplt-cat.md)**
+    -   **[Create document template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-doc-tmplt-cat.md)**
 
         Create document template categories to easily identify similar documents and find the correct document template more easily.
 
         Role:contract configurator.
 
-    -   **[Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contract-config.md)**
+    -   **[Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-contract-config.md)**
 
         Define the contract repository where the contracts will be stored and map the data to be added to the contract document.
 

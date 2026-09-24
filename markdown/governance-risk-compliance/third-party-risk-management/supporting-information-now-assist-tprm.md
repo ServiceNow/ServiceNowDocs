@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Third-party Risk Management \(TPRM\)
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Third-party Risk Management \(TPRM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/supporting-information-now-assist-tprm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/supporting-information-now-assist-tprm.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -35,5 +35,5 @@ The ServiceNow Otto for TPRM application skills TPRM Issue Summarization and TPR
 
 Activate the ServiceNow Otto for TPRM \(sn\_tprm\_gen\_ai\) store app.
 
-For more information, see [Configure AI capabilities in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.md).
+For more information, see [Configure AI capabilities in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.md).
 

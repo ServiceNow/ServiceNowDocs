@@ -2,7 +2,7 @@
 title: Control visibility default values for Cloud catalog items
 description: Through blueprints, you can control how form fields appear to users in the cloud catalog. For example, you can control where the fields appear to users on the catalog item form, and whether they are read only or mandatory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/control-form-field-visibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/control-form-field-visibility.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -82,7 +82,7 @@ Click the **Availability** tab, and then select or clear the **Visible** check b
 
 </td><td>
 
-Select a different **Variable set**. **General Info** and **Provision** are provided in the base system, and you can configure additional form UI groups. To add a new tab for organizing fields in the catalog item, see [Create a variable set for Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-ui-group.md).
+Select a different **Variable set**. **General Info** and **Provision** are provided in the base system, and you can configure additional form UI groups. To add a new tab for organizing fields in the catalog item, see [Create a variable set for Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/configure-ui-group.md).
 
 </td></tr><tr><td id="d456728e195">
 
@@ -121,5 +121,5 @@ In this example, the Business Service field:
 
 On the catalog order form, the field appears like this graphic: \[Omitted image "blueprint-example-business-service-catalog.png"\] Alt text: The Business Service field
 
-**Parent Topic:**[Form configuration with blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/blueprint-form-configuration.md)
+**Parent Topic:**[Form configuration with blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/blueprint-form-configuration.md)
 

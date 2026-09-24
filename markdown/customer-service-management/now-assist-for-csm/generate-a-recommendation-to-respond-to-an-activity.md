@@ -2,7 +2,7 @@
 title: Generate activity stream responses
 description: Generate recommendations for work notes or comments in a case record using ServiceNow Otto and add them to enhance the quality of your interactions with the user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/generate-a-recommendation-to-respond-to-an-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/generate-a-recommendation-to-respond-to-an-activity.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -49,10 +49,10 @@ Role required: sn\_customerservice\_agent or sn\_customerservice.consumer\_agent
 3.  Select **Insert**.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 
 
-[Configure activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-activity-response-generation.md)
+[Configure activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/configure-activity-response-generation.md)
 

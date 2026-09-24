@@ -2,7 +2,7 @@
 title: Decision Builder user interface
 description: The decision tables user interface in Workflow Studio provides controls for creating, editing, and managing decision tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/decision-builder-user-interface.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/decision-builder-user-interface.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

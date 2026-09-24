@@ -2,7 +2,7 @@
 title: Configure ITSM Employee Slate for Moveworks
 description: Enable ITSM Employee Slate for Moveworks by setting up Moveworks for Employee Slate and enabling the ITSM Employee Slate for Moveworks plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-employeeworks-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configure-employeeworks-itsm.html
 release: australia
 topic_type: task
 last_updated: "2026-08-13"
@@ -31,6 +31,6 @@ Role required: admin
 
     -   Outage Lookup plugin
     -   IT Walk-up Visits plugin
-4.  To customize your walk-up experience, refer to [Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md).
+4.  To customize your walk-up experience, refer to [Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-experience-configuration.md).
 
 

@@ -2,7 +2,7 @@
 title: Scheduled job to create financial baselines
 description: Define a scheduled job to automatically create financial baselines for your planning items at a required cadence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/baseline-schedule-job-pp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/baseline-schedule-job-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

@@ -2,7 +2,7 @@
 title: Survey Designer Configuration form
 description: Description of the field values for the Survey Designer Configuration form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/survey-design-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/survey-design-config-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -136,7 +136,7 @@ Chat Survey
 
 </td><td>
 
-Option to validate if survey questions are supported in a chat survey. Enables conversational questionnaires \(pre-chat and post-chat surveys\) in the chat client. Also enables you to map chat context variables to survey questions. For information on a chat survey in ITSM Virtual Agent, see [Surveys in ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-virtual-agent.md) **Note:** This field is available only when the Glide Conversation Server plugin \(com.glide.cs\) is activated.
+Option to validate if survey questions are supported in a chat survey. Enables conversational questionnaires \(pre-chat and post-chat surveys\) in the chat client. Also enables you to map chat context variables to survey questions. For information on a chat survey in ITSM Virtual Agent, see [Surveys in ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/survey-virtual-agent.md) **Note:** This field is available only when the Glide Conversation Server plugin \(com.glide.cs\) is activated.
 
 </td></tr><tr><td>
 
@@ -229,5 +229,5 @@ Add recipients lists
 Recipients lists for whom the survey is available.**Note:** This field is displayed only if the **Accessible by** is `Specific users`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/survey-reference.md)
 

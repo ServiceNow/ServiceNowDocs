@@ -2,7 +2,7 @@
 title: Contract Management Pro MCP Server tools reference
 description: Reference for the tools available in the Contract Management Pro MCP Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-mcp-server-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-mcp-server-tools.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

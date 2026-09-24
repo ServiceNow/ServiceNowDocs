@@ -2,7 +2,7 @@
 title: Using the CRM Workspace for Public Sector Digital Services
 description: Set up CSM Configurable Workspace for your agents and expand the Workspace UI so they can engage with customers, answer questions, create cases, and resolve issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-csm-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-csm-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
 
 Set up CSM Configurable Workspace for your agents and expand the Workspace UI so they can engage with customers, answer questions, create cases, and resolve issues.
 
-Government service agents can complete most tasks in CRM Workspace. For more information on how to set up the CRM Workspace, see [Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/setting-up-csm-fsm.md).
+Government service agents can complete most tasks in CRM Workspace. For more information on how to set up the CRM Workspace, see [Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/setting-up-csm-fsm.md).
 
 The tables below describe some of the basic tasks that agents can perform in CRM Workspace.
 
@@ -40,7 +40,7 @@ Use the step-by-step guidance provided by playbooks to complete tasks and resolv
 
 </td><td>
 
-[Using Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-playbooks-overview.md)
+[Using Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-using-playbooks-overview.md)
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Create a case for a specific type of constituent request.
 
 </td><td>
 
-[Creating and resolving case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gsp-resolving-case-tasks-agent.md)
+[Creating and resolving case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gsp-resolving-case-tasks-agent.md)
 
 </td></tr><tr><td>
 
@@ -64,13 +64,13 @@ Search for knowledge articles and attach them to cases or open articles in sub-t
 
 </td><td>
 
-Search for knowledge articles
+[Search for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-search-knowledge.md)
 
- Open a knowledge article
+ [Open a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-open-knowledge.md)
 
- Report a knowledge gap
+ [Report a knowledge gap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-report-knowledge-gap.md)
 
- Create a knowledge article
+ [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-create-knowledge.md)
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Quickly respond to customers using different types of predefined information.
 
 </td><td>
 
-[Use response templates in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/use-response-templates-psds.md)
+[Use response templates in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/use-response-templates-psds.md)
 
 </td></tr></tbody>
 </table>

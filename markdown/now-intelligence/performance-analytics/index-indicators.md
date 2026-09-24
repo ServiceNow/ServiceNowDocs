@@ -2,7 +2,7 @@
 title: Indexing multiple indicators in a formula
 description: You can write a formula to measure what the gap is to the overall target of multiple, combined indicators. Such a formula indicator is called an 'index indicator'.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/index-indicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/index-indicators.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -45,7 +45,7 @@ For indicators that have a **Minimize** direction, the formula is:
 
 If you are weighting the indicators evenly, you can index the final aggregation to 100 instead of indexing the individual indicators to 100.
 
-You can use methods of the PAFormulaUtils\(\) API to get the gap between score and target for the indicator from the Analytics Hub. For more information, see [Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/get-indicator-analytics.md):
+You can use methods of the PAFormulaUtils\(\) API to get the gap between score and target for the indicator from the Analytics Hub. For more information, see [Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/get-indicator-analytics.md):
 
 ```
 pa.getGap(indicator, On date) / pa.getGlobalTarget(indicator, On date)
@@ -85,7 +85,7 @@ To get this single index, follow these steps to produce an index indicator:
     The three indicators are weighted equally, so the aggregation is indexed to 100 instead of the individual indicators.
 
 
-**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure Zero Trust Access for mobile
 description: Configure Zero Trust Access \(ZTA\) on mobile to reduce end-user access based on factors such as IP address, location, and identity provider attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/configure-zero-trust-access-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/configure-zero-trust-access-mobile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ If Zero Trust Access is enabled on mobile, the following scenarios trigger a che
 
 If the session access state changes, the user is informed with a banner and the app refreshes to the home tab. If session access privilege is reduced while the user is impersonating, the session isrelegated and ends the impersonation mode.
 
-To turn off the banner display on mobile app screens when the connection state changes, set the **disableZTABanner** mobile property to `True`. For more information, see [Turn off the Zero Trust Access banner on mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/turn-off-zta-banner.md).
+To turn off the banner display on mobile app screens when the connection state changes, set the **disableZTABanner** mobile property to `True`. For more information, see [Turn off the Zero Trust Access banner on mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/turn-off-zta-banner.md).
 
 **Note:**
 
@@ -51,5 +51,5 @@ This feature is not yet fully supported with mobile offline capability. Mobile o
 
 Typically, users should not to opt in for mobile offline and ZTA together. However, if users want both then they should create a group of users to whom the ZTA policy should not be applied. This group of users would contain mobile offline users, and if ZTA is enabled, the access policies can be defined to exclude ZTA offline users.
 
-**Parent Topic:**[Securing your ServiceNow mobile instance with Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/zero-trust-access-for-mobile.md)
+**Parent Topic:**[Securing your ServiceNow mobile instance with Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/zero-trust-access-for-mobile.md)
 

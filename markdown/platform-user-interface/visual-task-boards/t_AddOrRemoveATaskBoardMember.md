@@ -2,7 +2,7 @@
 title: Add or remove a Visual Task Board member
 description: You can add and remove task board members using the members tab of the activity stream. You can also promote assignees to board members.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_AddOrRemoveATaskBoardMember.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_AddOrRemoveATaskBoardMember.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -74,7 +74,7 @@ In the **Assignees** section, click **Promote All**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
+**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
 
 **Related topics**  
 

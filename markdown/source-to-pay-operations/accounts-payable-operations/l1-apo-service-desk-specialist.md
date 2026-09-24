@@ -2,7 +2,7 @@
 title: L1 APO Service Desk Specialist
 description: The L1 APO Service Desk Specialist is a worker agent that processes incoming invoice inquiries using knowledge articles and historical data. The AP agents to focus on more complex work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/l1-apo-service-desk-specialist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/l1-apo-service-desk-specialist.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

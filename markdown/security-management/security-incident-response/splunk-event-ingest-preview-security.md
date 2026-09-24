@@ -2,7 +2,7 @@
 title: Preview security incident
 description: After you complete the mapping step, preview the values that you mapped in a ServiceNow AI Platform Security Incident Response \(SIR\) security incident. This preview step permits you to verify that you have mapped all the notable fields that you want displayed on the security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-preview-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest-preview-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -112,5 +112,5 @@ Delete this event profile and the Splunk Event Profiles list is displayed.
 </table>
 ## What to do next
 
-If no error messages are displayed, and you are satisfied with the field mapping on the security incident, the next step is to [Schedule and retrieve alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-schedule.md).
+If no error messages are displayed, and you are satisfied with the field mapping on the security incident, the next step is to [Schedule and retrieve alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-schedule.md).
 

@@ -2,7 +2,7 @@
 title: Optimizing rules engine performance
 description: You can help make your pages responsive by following a few guidelines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/rules\_engine\_performance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/rules\_engine\_performance.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

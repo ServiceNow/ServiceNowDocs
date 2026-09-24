@@ -2,7 +2,7 @@
 title: Configure team column data
 description: Configure column titles that you want to display on the Team members tab in Your team menu. For example, configure a column title to denote the current status of an employee such as new hire, or on leave.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-team-columndata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-team-columndata.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -96,7 +96,7 @@ Order in which you want to display the column display fields on the Team members
 </td></tr></tbody>
 </table>3.  Click **Submit**
 
-**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 

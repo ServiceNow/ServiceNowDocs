@@ -2,7 +2,7 @@
 title: Add a finding for a review item in a safety audit
 description: Record a finding for a review item during an audit and perform a root cause analysis \(RCA\) for it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-add-finding-rca-safety-audit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-add-finding-rca-safety-audit.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -26,7 +26,7 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.safety\_audit\_wr
 
 A finding can cite the specific criterion the item relates to, including a precise clause, section, or regulation from the cited source.
 
-Safety auditors create actions for specific questions while completing a smart assessment from the mobile app. When they create an action for a question, the system also generates a related finding record based on the response. For more information, see [Create actions and findings for the smart assessment questionnaire from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
+Safety auditors create actions for specific questions while completing a smart assessment from the mobile app. When they create an action for a question, the system also generates a related finding record based on the response. For more information, see [Create actions and findings for the smart assessment questionnaire from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
 
 ## Procedure
 
@@ -38,15 +38,15 @@ Safety auditors create actions for specific questions while completing a smart a
 
 4.  Create a finding from the **Findings** tab or directly from within an item for review.
 
-<table id="choicetable_omn_fqz_l3c"><thead><tr><th align="left" id="d263426e131">
+<table id="choicetable_omn_fqz_l3c"><thead><tr><th align="left" id="d263430e131">
 
 Option
 
-</th><th align="left" id="d263426e134">
+</th><th align="left" id="d263430e134">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d263426e140">
+</th></tr></thead><tbody><tr><td id="d263430e140">
 
 **From the Findings tab**
 
@@ -54,7 +54,7 @@ Steps
 
 In the **Findings** tab of the audit, select **New**.
 
-</td></tr><tr><td id="d263426e155">
+</td></tr><tr><td id="d263430e155">
 
 **From within an item for review**
 
@@ -69,7 +69,7 @@ In the **Findings** tab of the audit, select **New**.
 </td></tr></tbody>
 </table>5.  On the form, fill in the fields.
 
-    For field descriptions, see [Finding form for safety audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-audit-finding-form.md).
+    For field descriptions, see [Finding form for safety audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-audit-finding-form.md).
 
 6.  Select **Save**.
 
@@ -96,11 +96,11 @@ In the **Findings** tab of the audit, select **New**.
 
 ## What to do next
 
--   In the **Actions** tab of the finding, add actions to ensure that any issues are prevented or corrected. For more information, see [Add an action for a safety inspection or audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-action-safety-inspection.md).
--   If needed, submit the finding and its associated actions for approval and start the approval workflow. For more information, see [Submit a safety audit, finding, or action for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-submit-audit-finding-action-approval.md).
+-   In the **Actions** tab of the finding, add actions to ensure that any issues are prevented or corrected. For more information, see [Add an action for a safety inspection or audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-add-action-safety-inspection.md).
+-   If needed, submit the finding and its associated actions for approval and start the approval workflow. For more information, see [Submit a safety audit, finding, or action for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-submit-audit-finding-action-approval.md).
 
-    **Note:** Before you can submit a finding or action for approval, at least one person must be added to the **People involved** list with the appropriate approver options selected. For more information, see [Add people involved in a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-people-involved-safety-audit.md).
+    **Note:** Before you can submit a finding or action for approval, at least one person must be added to the **People involved** list with the appropriate approver options selected. For more information, see [Add people involved in a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-add-people-involved-safety-audit.md).
 
 
-**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
+**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
 

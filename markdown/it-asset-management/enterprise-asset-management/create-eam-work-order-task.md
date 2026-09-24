@@ -2,7 +2,7 @@
 title: Create a work order task for an Enterprise Asset Management work order
 description: Create a work order task to track and manage an individual task for your Enterprise Asset Management work order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-work-order-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-eam-work-order-task.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

@@ -2,7 +2,7 @@
 title: Design your GPON Broadband Service
 description: The GPON broadband service change model creates and orchestrates multiple change tasks required to fulfill a GPON broadband service order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -22,11 +22,11 @@ Before establishing a GPON Broadband Service change request and completing the r
 
 1.  Navigate to **Telecom Network Inventory** &gt; **Inventory Models**, create your inventory models, and define their relationships.
 
-    To learn more, see [Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md).
+    To learn more, see [Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md).
 
 2.  Navigate to **Telecom Network Inventory** &gt; **Network Inventory Templates**, create the inventory templates for your equipment, and establish the template relationships.
 
-    To learn more, see [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
+    To learn more, see [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
 
 
 Install the Telecommunications Network Inventory Advanced and Core demo data.
@@ -45,17 +45,17 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 5.  On the GPON Broadband form select the **Customer Site name**.
 
-    Other fields are pre-populated but can be updated as needed.. To learn more about the fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    Other fields are pre-populated but can be updated as needed.. To learn more about the fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 6.  Select **Submit**.
 
-    The change request is created based on your input and GPON Broadband service form appears with relevant tabs. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)
+    The change request is created based on your input and GPON Broadband service form appears with relevant tabs. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)
 
 7.  Select an **Assignment group.**
 
 8.  Select **Save.**
 
-9.  The system automatically creates change tasks and displays them in the **Change Tasks**tab.For more information see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)
+9.  The system automatically creates change tasks and displays them in the **Change Tasks**tab.For more information see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)
 
 10. Switch to **Change Task** tab and click on the change task to review it.
 
@@ -66,5 +66,5 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 12. Select **Save**.
 
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

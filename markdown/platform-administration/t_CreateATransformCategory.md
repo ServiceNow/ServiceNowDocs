@@ -2,7 +2,7 @@
 title: Create a transform category
 description: Create a transform category to group the transform definitions together.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateATransformCategory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateATransformCategory.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

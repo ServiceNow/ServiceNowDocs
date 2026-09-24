@@ -2,7 +2,7 @@
 title: Run fix scripts to update Contract Management Pro
 description: Manually run fix scripts after you have installed the demo data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/run-fix-scripts-update-contract-management-pro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/run-fix-scripts-update-contract-management-pro.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ If the demo data was installed, the Request Type field in the demo data will rem
 3.  Click **Run Fix Script** at the top of record, in the modal that opened up select **Proceed/Proceed in background** to run the script.
 
 
-**Parent Topic:**[Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-integrate-contract-management.md)
+**Parent Topic:**[Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-integrate-contract-management.md)
 

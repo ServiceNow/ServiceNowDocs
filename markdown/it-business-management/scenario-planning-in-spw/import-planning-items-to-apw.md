@@ -2,7 +2,7 @@
 title: Import records to Strategic Planning Workspace
 description: Import records from Agile Development 2.0, after the relevant table maps, fields maps, and choice maps are configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/import-planning-items-to-apw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/import-planning-items-to-apw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

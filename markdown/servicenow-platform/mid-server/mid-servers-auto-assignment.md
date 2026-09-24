@@ -2,7 +2,7 @@
 title: Using MID Server IP range auto-assignment
 description: Discovery Quick Start can automatically assign ranges of IP addresses, called subnets, to qualified MID Servers. This subnet auto-assignment requires SNMP credentials for read-only access to routers Discovery uses. The Automation Status Set form shows summary details of subnet Discoveries and the IP range assignments for associated MID Servers.Customers who use network service providers must request specific SNMP access to use MID Server IP range auto-assignment.The Automation Status Set form shows summary details of a subnet Discovery and the subsequent IP range assignments for MID Servers selected for automatic subnet assignment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-servers-auto-assignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -31,7 +31,7 @@ The subnet assignments that the instance makes for your MID Servers are stored i
 
 **Important:** You must auto-assign at least one MID Server to create a schedule automatically.
 
-**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 
 ## Required SNMP OIDs for MID Server IP range auto-assignment
 

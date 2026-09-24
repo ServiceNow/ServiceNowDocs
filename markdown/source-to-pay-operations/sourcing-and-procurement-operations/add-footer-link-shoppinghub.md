@@ -2,7 +2,7 @@
 title: Add a footer link in Shopping Hub
 description: You can add a link to the footer of Shopping Hub, similar to the existing Don't see what you need? link.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/add-footer-link-shoppinghub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/add-footer-link-shoppinghub.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -57,7 +57,7 @@ The newly added link is displayed in the Shopping Hub footer.
 
 The `chrome_footer` page property is part of the Now Experience Framework page configuration for Shopping Hub. For more information about UI Builder, which manages other page configuration for Shopping Hub, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
 
-**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Properties installed with Workplace Core
 description: Customize the properties available with Workplace Core.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/properties-installed-with-workplace-safety-mgmt-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/properties-installed-with-workplace-safety-mgmt-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -37,7 +37,7 @@ sn\_wsd\_core.AUTO\_ASSIGN\_LOCATION
 Enables auto-assignment of workspaces when employees make workspace reservation requests.-   Type: true\|false
 -   Default value: false
 
- **Note:** Once this feature is enabled, the fields related to workplace locations such as **Area**, **Space preference**, and **Space** do not appear on the Workspace Reservation form. Enable this feature only if all employees have a designated workspace in their user profiles in the User Workplace Profile \[sn\_wsd\_core\_workplace\_profile\] table. For more information, see [Mapping employees to their designated workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/mapping-employees-to-existing-work-locations-wsd.md).
+ **Note:** Once this feature is enabled, the fields related to workplace locations such as **Area**, **Space preference**, and **Space** do not appear on the Workspace Reservation form. Enable this feature only if all employees have a designated workspace in their user profiles in the User Workplace Profile \[sn\_wsd\_core\_workplace\_profile\] table. For more information, see [Mapping employees to their designated workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/mapping-employees-to-existing-work-locations-wsd.md).
 
 </td></tr><tr><td>
 
@@ -194,5 +194,5 @@ Enables you to specify the maximum number of days in the future until when emplo
 -   Default value: 7
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/install-workplace-safety-mgmt-hr.md)
+</table>**Parent Topic:**[Install Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/install-workplace-safety-mgmt-hr.md)
 

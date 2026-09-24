@@ -2,7 +2,7 @@
 title: Set up Outside Counsels for Legal Invention Disclosure
 description: Create Outside Counsel records to enable outside counsels to work on a Legal Invention Disclosure request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-invention-disclosure/setup-outside-counsels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-invention-disclosure/setup-outside-counsels.html
 release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -18,7 +18,7 @@ Create Outside Counsel records to enable outside counsels to work on a Legal Inv
 
 ## Before you begin
 
-An Outside Firm record must be active. For more information, see [Set up Outside Firms for Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/setup-outside-firms.md).
+An Outside Firm record must be active. For more information, see [Set up Outside Firms for Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/setup-outside-firms.md).
 
 Role required: sn\_lg\_matter.matter\_config, sn\_lg\_matter.matter\_fulfiller
 
@@ -30,15 +30,15 @@ Setting up an outside counsel can be done either as a fulfiller task or when con
 
 1.  Access the form to create an Outside Counsel record.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d139546e78">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d139550e78">
 
 Location
 
-</th><th align="left" id="d139546e81">
+</th><th align="left" id="d139550e81">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d139546e87">
+</th></tr></thead><tbody><tr><td id="d139550e87">
 
 **From the Legal Matter module**
 
@@ -46,7 +46,7 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d139546e114">
+</td></tr><tr><td id="d139550e114">
 
 **From Legal Counsel Center**
 
@@ -73,5 +73,5 @@ Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **
     -   On the Outside Counsels New record form, select **Submit**.
     -   On the Create New Outside Counsel from the Legal Counsel Center, select **Save**.
 
-**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
+**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 

@@ -2,7 +2,7 @@
 title: Close a request
 description: When you close a request, you can add details that you want the submitter to be aware of.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CloseARequest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_CloseARequest.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,10 +27,10 @@ When you close a request, you can add details that you want the submitter to be 
 5.  Click **Update**.
 
 
--   **[Closed and completed requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ClosedAndCompletedRequests.md)**  
+-   **[Closed and completed requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_ClosedAndCompletedRequests.md)**  
 When the **Request lifecycle** option is set to **request-driven**, the assigned agent can complete and close the request once all the tasks in the request are complete.
 
-**Parent Topic:**[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesRequests.md)
+**Parent Topic:**[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesRequests.md)
 
-**Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/rm-sm-application.md)
+**Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/rm-sm-application.md)
 

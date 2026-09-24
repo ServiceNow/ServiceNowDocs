@@ -2,7 +2,7 @@
 title: Make a request to swap shifts or take time off using the Mobile Agent application
 description: Use the ITSM mobile app to look up your schedule, request time off, or swap your shift with your peers. If you can work during the requested shift, you can also approve your peer's request for the shift swap.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/manage-schedule-configurable-wfo-itsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/manage-schedule-configurable-wfo-itsm-mobile.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -28,15 +28,15 @@ Role required: sn\_shift\_planning.agent
 
 2.  Request time off.
 
-<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d480003e84">
+<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d479936e84">
 
 To
 
-</th><th align="left" id="d480003e87">
+</th><th align="left" id="d479936e87">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d480003e93">
+</th></tr></thead><tbody><tr><td id="d479936e93">
 
 **Request time off after reviewing your schedule**
 
@@ -53,7 +53,7 @@ Do this
 6.  In the **Description** field, enter a reason requesting time off.
 
 
-</td></tr><tr><td id="d480003e141">
+</td></tr><tr><td id="d479936e141">
 
 **Request time off after reviewing your time-off requests**
 
@@ -112,5 +112,5 @@ Do this
     A notification is sent to the agent to approve your request.
 
 
-**Parent Topic:**[Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-agent-schedule-mobile-wfo-itsm.md)
+**Parent Topic:**[Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-agent-schedule-mobile-wfo-itsm.md)
 

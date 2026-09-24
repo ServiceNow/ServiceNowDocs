@@ -2,7 +2,7 @@
 title: Enable session debugging for AI Search
 description: Capture and review detailed AI Search log messages for a user session.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/session-debugging-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/session-debugging-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -47,5 +47,5 @@ After enabled, session debugging remains active for the user session until you d
     A message reports completion of the Disable All session debug script.
 
 
-**Parent Topic:**[AI Search logging and debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/logging-debugging-ais.md)
+**Parent Topic:**[AI Search logging and debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/logging-debugging-ais.md)
 

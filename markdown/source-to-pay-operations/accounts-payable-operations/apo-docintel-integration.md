@@ -2,7 +2,7 @@
 title: Accounts Payable Operations integration with Document Intelligence
 description: Accounts Payable Operations integration with Document Intelligence \(com.sn\_ap\_ic\) automatically extracts invoice data from emails and creates invoice records in Accounts Payable Operations, reducing manual effort.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/apo-docintel-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/apo-docintel-integration.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,7 +23,7 @@ Accounts Payable Operations integration with Document Intelligence uses the capa
 
 For more information, see [Exploring Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-docintel.md).
 
-**Parent Topic:**[Explore Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.md)
+**Parent Topic:**[Explore Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.md)
 
 **Related topics**  
 

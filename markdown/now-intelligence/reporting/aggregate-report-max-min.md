@@ -2,7 +2,7 @@
 title: Aggregate a report on minimum or maximum
 description: When you create a report, you can aggregate the data on several calculations including the number of records, averages, and standard deviation. The maximum and minimum aggregations show the maximum or minimum value for each segment of the visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/aggregate-report-max-min.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/aggregate-report-max-min.html
 release: australia
 product: Reporting
 classification: reporting

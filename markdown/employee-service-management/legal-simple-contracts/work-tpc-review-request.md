@@ -2,7 +2,7 @@
 title: Work on a TPC review request
 description: As a member of the legal contracts support team, review and revise a third-party contract document. You can email the revised document to stakeholders to verify the revisions and then send the ready document for e-signature from within the legal request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/work-tpc-review-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/work-tpc-review-request.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -24,7 +24,7 @@ Role required: sn\_lg\_contracts.contracts\_fulfiller
 
 As a collaborator added to a request, you can access and work on the request just as assignees can. However, you can't modify the **Assigned to** and **Assignment group** fields.
 
-**Note:** During times when you're unavailable, you can [delegate your legal duties to other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-services-delegation.md).
+**Note:** During times when you're unavailable, you can [delegate your legal duties to other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-services-delegation.md).
 
 ## Procedure
 
@@ -34,15 +34,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d296614e121">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d296618e121">
 
 Option
 
-</th><th align="left" id="d296614e124">
+</th><th align="left" id="d296618e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d296614e130">
+</th></tr></thead><tbody><tr><td id="d296618e130">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d296614e159">
+</td></tr><tr><td id="d296618e159">
 
 **As a collaborator**
 
@@ -73,15 +73,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 
 5.  In the **Document Revisions** tab, manage all revisions of the contract document.
 
-<table id="choicetable_v1f_bjj_bwb"><thead><tr><th align="left" id="d296614e213">
+<table id="choicetable_v1f_bjj_bwb"><thead><tr><th align="left" id="d296618e213">
 
 Option
 
-</th><th align="left" id="d296614e216">
+</th><th align="left" id="d296618e216">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d296614e222">
+</th></tr></thead><tbody><tr><td id="d296618e222">
 
 **To review an existing document revision**
 
@@ -93,7 +93,7 @@ Steps
 -   To mark the document revision as ready, select **Ready**.
 
 
-</td></tr><tr><td id="d296614e258">
+</td></tr><tr><td id="d296618e258">
 
 **To create another document revision**
 
@@ -106,7 +106,7 @@ The Create Revision dialog box displays.
 2.  In the **Create revision from** list, select the location of the document.
     -   **Computer**: Select a file from your local system. Click **Attach File** and upload a file.
     -   **Activity**: Select an attachment from the Activities stream. All files that are attached in the inbound emails are listed in the **Document** field.
-    -   **Online**: Select a file stored in the [configured external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/integrate-legal-ext-storage.md).
+    -   **Online**: Select a file stored in the [configured external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/integrate-legal-ext-storage.md).
 3.  Add more information about the document in the **Work notes** field. This information is added to the Activities stream along with the attachment.
 4.  To make the document ready for review or sending for e-signature, select **Ready**.
 5.  Click **Create**.
@@ -115,7 +115,7 @@ The Create Revision dialog box displays.
 </td></tr></tbody>
 </table>    **Note:** If you mark the current document revision as Ready, any previous document versions that were marked as Ready are cleared.
 
-6.  [Send the document for ad-hoc approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/initiate-approval-legal-request.md) when an approval is required from other stakeholders.
+6.  [Send the document for ad-hoc approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/initiate-approval-legal-request.md) when an approval is required from other stakeholders.
 
 7.  Send an email to stakeholders to have the completed contract document reviewed and the changes confirmed.
 
@@ -158,12 +158,12 @@ The Create Revision dialog box displays.
 
 ## What to do next
 
-1.  Signatories can review and [sign or decline to sign the contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/sign-a-legal-contract-document.md).
+1.  Signatories can review and [sign or decline to sign the contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/sign-a-legal-contract-document.md).
 2.  You can check the document status in the request.
-    -   If all signatories sign the contract document, the document status updates to Contract Signed. A [legal contracts repository record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/review-contract-doc-repository.md) is created where the signed document is attached or linked. You can also access the legal contract repository record from the **Legal Contracts** tab.
+    -   If all signatories sign the contract document, the document status updates to Contract Signed. A [legal contracts repository record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/review-contract-doc-repository.md) is created where the signed document is attached or linked. You can also access the legal contract repository record from the **Legal Contracts** tab.
     -   In the **Signatories** tab, the status of all signatories updates to Signed.
     -   If any signatory declines to sign the contract document, the document status updates to Contract Declined.If more changes are required in the contract document, update it and resend it to the signatories for signature.
-3.  If the contract is signed by all parties, you can [close the request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/close-legal-request.md) by clicking **Close Complete.**
+3.  If the contract is signed by all parties, you can [close the request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/close-legal-request.md) by clicking **Close Complete.**
 
-**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-request-third-party-contract.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/legal-request-third-party-contract.md)
 

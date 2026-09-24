@@ -2,7 +2,7 @@
 title: Cloud class
 description: Description, identification rule, and other important schema structures for the CMDB cloud classes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/class-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/class-cloud.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -16,7 +16,7 @@ breadcrumb: [CMDB schema model, Explore, Configuration Management Database \(CMD
 
 Description, identification rule, and other important schema structures for the CMDB cloud classes.
 
-For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 \[Omitted image "CloudAWS\_Azure\_OpenStack.png"\] Alt text: AWS/Azure/OpenStack class model.
 
@@ -55,5 +55,5 @@ The base system contains pre-defined identification rules for cloud schema class
     -   Object ID: Unique ID of the account where applicable.
     -   Account ID: The unique Account ID that encompasses the different cloud resources. Account ID is generally more applicable than Object ID.
 
-For more information, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
+For more information, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
 

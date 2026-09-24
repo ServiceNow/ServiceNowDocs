@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Zero Copy Connector agentic workflow prerequisites
 description: Before you use ServiceNow Otto for Zero Copy Connector agentic workflows, you must complete several prerequisites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-erp-ai-agents-prereqs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/now-assist-erp-ai-agents-prereqs.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"

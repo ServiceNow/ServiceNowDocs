@@ -2,7 +2,7 @@
 title: Exporting data
 description: You can export data records to CSV format. Exporting user and session lists, and other analytics data to CSV is available wherever you see the download icon \( CSV export download icon. \).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/export-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/export-data.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -27,5 +27,5 @@ Select the \(\[Omitted image "csv-download.png"\] Alt text: CSV export download 
 
 \[Omitted image "uxa-csv-export.png"\] Alt text: Page with visualizations that can be exported to CSV
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/using-uxa.md)
 

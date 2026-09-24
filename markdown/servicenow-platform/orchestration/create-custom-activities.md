@@ -2,7 +2,7 @@
 title: Create custom activities using custom activity designer templates
 description: You can create and update different types of custom activities in the Workflow Editor using a custom template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/create-custom-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/create-custom-activities.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -30,7 +30,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
     The **Welcome** tab of the Workflow Editor opens.
 
-2.  On the **Custom** tab in the palette, click **+** to create a new activity select the appropriate [template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ActivityDesignerComponents.md) from the list.
+2.  On the **Custom** tab in the palette, click **+** to create a new activity select the appropriate [template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_ActivityDesignerComponents.md) from the list.
 
     \[Omitted image "custom-activity-icon.png"\] Alt text: Arrow pointing to the plus sign on the Custom tab
 
@@ -46,7 +46,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
     Create the variables to pass into the activity in the Inputs form of the activity designer.
 
-5.  Add a [pre-processing script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/PreprocessFields.md).
+5.  Add a [pre-processing script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/PreprocessFields.md).
 
     For input validation or transforming input data, you might need a pre-processing script.
 
@@ -54,17 +54,17 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 6.  Click **Continue** to open the Execution Command form, then fill out the **Execution Command** step based on the corresponding execution templates:
 
-    -   [Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
-    -   [Create a JDBC activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAJDBCActivity.md)
-    -   [Create a JavaScript Probe activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAJavaScriptProbeActivity.md)
-    -   [Create a PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAPowershellActivity.md)
-    -   [Create a REST web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md)
-    -   [Create a Probe activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAProbeActivity.md)
-    -   [Create an SFTP activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAnSFTPActivity.md)
-    -   [Create a Run Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateARunScriptActivity.md)
-    -   [Create an SSH activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAnSSHActivity.md)
-    -   [Create a JMS activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAJMSActivity.md)
-7.  [Test your inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md).
+    -   [Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
+    -   [Create a JDBC activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAJDBCActivity.md)
+    -   [Create a JavaScript Probe activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAJavaScriptProbeActivity.md)
+    -   [Create a PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAPowershellActivity.md)
+    -   [Create a REST web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md)
+    -   [Create a Probe activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAProbeActivity.md)
+    -   [Create an SFTP activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAnSFTPActivity.md)
+    -   [Create a Run Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateARunScriptActivity.md)
+    -   [Create an SSH activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAnSSHActivity.md)
+    -   [Create a JMS activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAJMSActivity.md)
+7.  [Test your inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/CreateInputVariables.md).
 
 8.  In the Outputs form, define local and/or output variables.
 
@@ -74,17 +74,17 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 9.  Use one of the options to assign values to Outputs.
 
-<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d581908e333">
+<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d582570e333">
 
 **Parsing rule**
 
 </td><td>
 
-You can create a parsing rule and map them to the output fields by dragging and dropping the variables into the [parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md) structure. The REST, SOAP, and JDBC templates provide auto-mapping to create the parsing rules automatically. If available from the test inputs form, auto-mapping should be used when possible.
+You can create a parsing rule and map them to the output fields by dragging and dropping the variables into the [parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md) structure. The REST, SOAP, and JDBC templates provide auto-mapping to create the parsing rules automatically. If available from the test inputs form, auto-mapping should be used when possible.
 
-</td></tr><tr><td id="d581908e349">
+</td></tr><tr><td id="d582570e349">
 
-**[Post-processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md)**
+**[Post-processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md)**
 
 </td><td>
 
@@ -94,24 +94,24 @@ Post-processing scripts allow you to code your own output data validation, outpu
 </table>10. Click **Continue** to open the [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions.md) form to create exit condition rules for your activity and then click **Save**.
 
 
--   **[General properties for activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/General-Flds-Templates.md)**  
+-   **[General properties for activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/General-Flds-Templates.md)**  
 The following General Property fields are common to all activity designer templates.
--   **[Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md)**  
+-   **[Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/CreateInputVariables.md)**  
 Create the variables to pass into the activity in the **Inputs** form of the activity designer.
--   **[Data encryption for activity variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_DataEncryptActivityVariables.md)**  
+-   **[Data encryption for activity variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_DataEncryptActivityVariables.md)**  
 You can protect sensitive data passed from Orchestration activities by encrypting input and output variables.
--   **[Activity designer template pre-processing fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/PreprocessFields.md)**  
+-   **[Activity designer template pre-processing fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/PreprocessFields.md)**  
 Use the **Pre Processing** form of the activity designer to define a script to run before the activity executes.
--   **[Template post-processing fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/template-post-process-field.md)**  
+-   **[Template post-processing fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/template-post-process-field.md)**  
 From the **Post Processing** form in the activity designer you can define a script to run after the activity executes.
--   **[Auto-map activity output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/automap-output-variable-inputs.md)**  
+-   **[Auto-map activity output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/automap-output-variable-inputs.md)**  
 You can map parameter values in a test payload to variables in the **Outputs** tab automatically.
--   **[Create an output variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAnOutputVariable.md)**  
+-   **[Create an output variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAnOutputVariable.md)**  
 The **Outputs** form in the designer contains a variable builder for creating data structures of objects and arrays.
--   **[Create a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md)**  
+-   **[Create a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md)**  
 Populate output variables defined in a custom activity with payload data returned from an inputs test on an external host or endpoint.
--   **[Activity conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/conditions.md)**  
+-   **[Activity conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/conditions.md)**  
 Create the exit conditions for your activity in the **Condition** column and set the order for each..
 
-**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md)
+**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md)
 

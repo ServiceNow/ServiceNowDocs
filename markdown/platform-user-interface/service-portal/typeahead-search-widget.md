@@ -2,7 +2,7 @@
 title: Typeahead Search widget
 description: Predictive search feature that shows words as users type. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/typeahead-search-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/typeahead-search-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -22,7 +22,7 @@ Predictive search feature that shows words as users type. You can use this base 
 
 Use the instance options to configure the Typeahead Search widget for a portal page.
 
-**Note:** The AI Search instance options apply only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+**Note:** The AI Search instance options apply only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-ais-sp.md).
 
 <table id="table_ghq_ddf_kz"><thead><tr><th>
 
@@ -86,7 +86,7 @@ Contextual Search Sources
 
 </td><td>
 
-Limit the results available in the typeahead search by only configuring specific search sources. For example, users searching in the Service Catalog only see results for the Service Catalog when that search sources is configure. For more information on contextual search, see [Configure Search Sources available on a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-contextual-search.md)
+Limit the results available in the typeahead search by only configuring specific search sources. For example, users searching in the Service Catalog only see results for the Service Catalog when that search sources is configure. For more information on contextual search, see [Configure Search Sources available on a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-contextual-search.md)
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -139,7 +139,7 @@ AI Search Source Filter
 Content that portal users can search on, including tables in your instance or external data sources. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-widgets.md)
+</table>**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/search-widgets.md)
 
 **Related topics**  
 

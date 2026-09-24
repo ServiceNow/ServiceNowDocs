@@ -2,7 +2,7 @@
 title: Corrective actions
 description: Corrective action enables you to address the asset issue, either by eliminating or replacing the asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-corrective-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-corrective-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 5.  On the corrective action form, fill in the fields.
 
-    For a description of the field values, see [Corrective action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-corrective-action-form.md).
+    For a description of the field values, see [Corrective action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-corrective-action-form.md).
 
 6.  Select **Save**.
 

@@ -2,7 +2,7 @@
 title: SC Scroll to top widget
 description: In the Service Portal mobile view, the SC Scroll to top widget \(sc\_scroll\_to\_top\) lets you scroll to the top of the screen after you scroll down. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-scroll-to-top.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/sc-scroll-to-top.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -28,7 +28,7 @@ Use the widget instance options to customize the settings for the SC Scroll to t
 |---|---|
 |Height from top \(px\)|Screen height where the widget is displayed when you start to scroll upwards.|
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

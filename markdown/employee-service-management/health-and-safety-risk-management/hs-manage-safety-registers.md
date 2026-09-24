@@ -2,7 +2,7 @@
 title: Manage your safety registers
 description: Manage your safety registers to log and keep track of the hazardous materials used in your organization, along with Safety Data Sheets \(SDSs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-manage-safety-registers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-manage-safety-registers.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -50,7 +50,7 @@ Depending on the selected register type, the safety register is available in the
 
 ## What to do next
 
-Employees can access the attached safety register document, such as SDS, through the Employee Center. For more information, see [Access a safety register document in Employee center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-view-safety-register-docs-ec.md).
+Employees can access the attached safety register document, such as SDS, through the Employee Center. For more information, see [Access a safety register document in Employee center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-view-safety-register-docs-ec.md).
 
-**Parent Topic:**[Safety registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-registers.md)
+**Parent Topic:**[Safety registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-safety-registers.md)
 

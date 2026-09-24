@@ -2,14 +2,14 @@
 title: Set up an indexed source attribute
 description: Set up an indexed source attribute to control how AI Search indexes content for all records in a source table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-setup-indexed-source-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-admin-console-setup-indexed-source-attributes.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Managing indexed sources from the AI Search Admin console, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -23,7 +23,7 @@ Role required: ais\_admin
 
 ## About this task
 
-An indexed source attribute defines how records from an indexed source table are indexed in AI Search. For example, with indexed source attributes, you can control which records to index, how to handle specific data types, such as attachments or tags, and whether to include translated fields in the index. These attributes help customize the indexing process to your needs. For more information, see [Indexed source attributes for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-attributes-ais.md).
+An indexed source attribute defines how records from an indexed source table are indexed in AI Search. For example, with indexed source attributes, you can control which records to index, how to handle specific data types, such as attachments or tags, and whether to include translated fields in the index. These attributes help customize the indexing process to your needs. For more information, see [Indexed source attributes for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
 ## Procedure
 
@@ -93,5 +93,5 @@ Option to enable or disable the indexing of a selected attribute.This field appe
 
 The new indexed source attribute is added in the Advanced configurations form.
 
-**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-managing-indexed-source.md)
+**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-managing-indexed-source.md)
 

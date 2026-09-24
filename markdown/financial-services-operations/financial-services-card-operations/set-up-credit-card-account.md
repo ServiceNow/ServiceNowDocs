@@ -2,7 +2,7 @@
 title: Set up a credit card account for a customer and close the case
 description: Set up a new credit card account for a customer after customer verification is done and the required documents are prepared.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/set-up-credit-card-account.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-card-operations/set-up-credit-card-account.html
 release: australia
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -20,11 +20,11 @@ Set up a new credit card account for a customer after customer verification is d
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
-This credit card task is automatically created for a new credit card case when the document service task to [file the customer agreement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/file-customer-agreement.md) completes.
+This credit card task is automatically created for a new credit card case when the document service task to [file the customer agreement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-card-operations/file-customer-agreement.md) completes.
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Edit Knowledge Graph Tags
 description: Customize instructions used by the AI L1 SLO Service Desk Specialist to retrieve information by editing the FSC Common Knowledge Graph tags.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/edit-fsc-common-kg-tags-slo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/edit-fsc-common-kg-tags-slo.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

@@ -2,12 +2,12 @@
 title: Test what you built
 description: Test Agent generates test coverage for code created by Build Agent, executes tests, and performs root cause analysis \(RCA\) on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-testing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-testing.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-25"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -17,9 +17,9 @@ Test Agent generates test coverage for code created by Build Agent, executes tes
 
 Test Agent extends Build Agent by making every build safe before release. After Build Agent produces code changes in a development instance, Test Agent consumes the same prompt and code context. It uses those to author functional Automated Test Framework \(ATF\) tests, execute those tests, and triage any failures automatically.
 
--   For details on configuring tests in Build Agent, see [Configure auto test prompting and UI tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-config-testing.md).
--   For more information ATF test generation, see [ATF test generation in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-atf-test-gen-ba.md).
--   For complete documentation on using Test Agent, see [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-landing-page.md).
+-   For details on configuring tests in Build Agent, see [Configure auto test prompting and UI tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-config-testing.md).
+-   For more information ATF test generation, see [ATF test generation in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-atf-test-gen-ba.md).
+-   For complete documentation on using Test Agent, see [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-landing-page.md).
 
 If a test fails, Test Agent performs an RCA. Then it either auto-applies safe fixes or surfaces actionable guidance in the chat panel so you can resolve the issue without leaving ServiceNow Studio or the ServiceNow IDE.
 
@@ -61,17 +61,17 @@ The end-to-end workflow is:
 
 -   **UI testing**
 
-    Generate comprehensive UI tests for applications you build with Build Agent. UI testing extends the existing functional test capability to cover browser-level interactions, such as multi-step page navigation flows. Request a UI test by prompting Build Agent to generate a UI test for the application or flow you want to validate. For more information, see [UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-ui-test-script-atf.md).
+    Generate comprehensive UI tests for applications you build with Build Agent. UI testing extends the existing functional test capability to cover browser-level interactions, such as multi-step page navigation flows. Request a UI test by prompting Build Agent to generate a UI test for the application or flow you want to validate. For more information, see [UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-ui-test-script-atf.md).
 
     \[Omitted image "ba-tests-ui-prompt-for.png"\] Alt text: AI prompt asking whether to run UI tests, with options to select Yes or No and a Submit button.
 
 -   **List and related list step generation**
 
-    Test Agent can generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list tests. List step support extends test coverage beyond form-based interactions to include list view interactions on the ServiceNow AI Platform. For more information on list and related list test steps, see [List and Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-list-related-list.md). Available with Australia Patch 6 and later.
+    Test Agent can generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list tests. List step support extends test coverage beyond form-based interactions to include list view interactions on the ServiceNow AI Platform. For more information on list and related list test steps, see [List and Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/test-steps-list-related-list.md). Available with Australia Patch 6 and later.
 
 -   **Test suite authoring and execution**
 
-    Create ATF test suites and edit existing ones from Build Agent. Group individual tests under a suite and execute the suite from the chat panel to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel. For more information on test suites, see [Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md). Available with Australia Patch 6 and later.
+    Create ATF test suites and edit existing ones from Build Agent. Group individual tests under a suite and execute the suite from the chat panel to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel. For more information on test suites, see [Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-suites-overview.md). Available with Australia Patch 6 and later.
 
 -   **Assisted troubleshooting**
 
@@ -99,5 +99,5 @@ Test Agent is available in the following environments and scopes:
 
 **Note:** Test execution requires the ATF Test Generator and Cloud Runner app to be installed and a cloud user set up. For more information, see [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-intro.md).
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-build-agent.md)
 

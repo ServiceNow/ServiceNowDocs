@@ -2,7 +2,7 @@
 title: Configuring an appointment booking setting for Patient Support Services
 description: Enable patients to book an appointment for the training requests conducted by nurse educators.Set up time windows for conducting a program task that patient can use to book appointments in the Patient Support Services application.Set up an appointment booking configuration for a service provided to patients within the program tasks.Create or modify different schedules on a day level when booking appointments for a program task. The appointments can be scheduled at different time slot of a day, such as morning, afternoon, or evening.Display a menu item to select appointments when booking or rescheduling an appointment for Patient Support Services on a patient portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-appt-booking-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-appt-booking-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,18 +26,18 @@ The Patient Support Services application uses the Appointment Booking plugin \(c
 
 As a user with the sn\_patientservice.admin role, you configure the following appointment booking settings:
 
-1.  [Configure an appointment booking setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-setup.md).
-2.  [Configure an appointment booking service setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-setup.md).
+1.  [Configure an appointment booking setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-setup.md).
+2.  [Configure an appointment booking service setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-setup.md).
 
     **Note:** The appointment booking feature requires configuration for a program task that offers scheduled appointments. A service configuration includes settings that apply only to that specific service.
 
-3.  Optional: [Configure a day-level appointment booking setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-setup.md).
-4.  [Display an appointment booking window on a patient portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-setup.md).
+3.  Optional: [Configure a day-level appointment booking setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-setup.md).
+4.  [Display an appointment booking window on a patient portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-setup.md).
 
 **Related topics**  
 
 
-[Booking appointments for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-booking-appt-patient.md)
+[Booking appointments for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-booking-appt-patient.md)
 
 ## Configure an appointment booking setting in Patient Support Services
 
@@ -173,7 +173,7 @@ Script used to determine the number of available appointments. This field appear
 
 ### What to do next
 
-[Configure an appointment booking service setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-setup.md).
+[Configure an appointment booking service setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-setup.md).
 
 ## Configure an appointment booking service setting in Patient Support Services
 
@@ -455,8 +455,8 @@ Starting with the Yokohama release, Patient Support Services is being prepared f
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-1.  [Configure an appointment booking setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-setup.md).
-2.  [Configure an appointment booking service setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-setup.md).
+1.  [Configure an appointment booking setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-setup.md).
+2.  [Configure an appointment booking service setting in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-setup.md).
 
 Role required: admin
 

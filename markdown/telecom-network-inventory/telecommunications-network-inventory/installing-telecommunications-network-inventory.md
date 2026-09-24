@@ -2,7 +2,7 @@
 title: Install Telecommunications Network Inventory
 description: If you have the admin role, you can install the Telecommunications Network Inventory application. The application includes the demo data and installations that are related ServiceNow Store applications and plugins, if they aren’t already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/installing-telecommunications-network-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/installing-telecommunications-network-inventory.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -65,5 +65,5 @@ For more information on viewing components that are installed with an applicatio
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
+**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
 

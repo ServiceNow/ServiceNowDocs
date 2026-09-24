@@ -2,7 +2,7 @@
 title: Interacting with the Nexus map UI from the Workspace
 description: Use the Nexus map \(Resilience map\) to define relationships between different records and configuration to show related data with hierarchy and plot those in a node map. You can examine the map's current configuration and identify areas for change. By modifying the configuration, you can observe how the map is updated accordingly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/interacting-with-nexus-map-ui-from-worksapce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/interacting-with-nexus-map-ui-from-worksapce.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

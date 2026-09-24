@@ -2,7 +2,7 @@
 title: Run work notes analysis
 description: Generate a work notes analysis on a transition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/run-worknotes-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/run-worknotes-analysis.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -49,5 +49,5 @@ You can use AI for work notes analysis even with 5-50 eligible work notes. If th
     Use the thumbs up and thumbs down icons to provide feedback for the result that you have received.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)
+**Parent Topic:**[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-na-process-mining.md)
 

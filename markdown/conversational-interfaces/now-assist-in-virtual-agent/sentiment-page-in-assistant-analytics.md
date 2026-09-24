@@ -2,7 +2,7 @@
 title: Sentiment page in Assistant analytics
 description: Analyze user sentiment through customer satisfaction \(inferred CSAT\) score and CSAT factors such as empathy, frustration and confusion, transfers and escalations from conversations with assistants to improve the quality of user interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/sentiment-page-in-assistant-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/sentiment-page-in-assistant-analytics.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

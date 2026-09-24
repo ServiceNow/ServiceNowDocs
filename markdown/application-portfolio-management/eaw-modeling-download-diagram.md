@@ -2,7 +2,7 @@
 title: Download a modeling diagram as an image
 description: Download a diagram as an image to share it with other stakeholders with offline access or use it in the presentations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-download-diagram.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-download-diagram.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: sn\_apm.apm\_user
     The diagram gets downloaded as an image.\[Omitted image "modeling-download-diagram.png"\] Alt text: Download diagram as an image
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 

@@ -2,7 +2,7 @@
 title: Document Intelligence for Customer Service
 description: Use the Document Intelligence for Customer Service feature to extract relevant information from email and case attachments, such as credit card numbers or customer addresses, and add that information to cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-document-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-document-intelligence.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -60,7 +60,7 @@ Access the DocIntel Admin experience through the Task Intelligence Admin Console
 
 For more information, see the following topics:
 
--   [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-di-use-case.md)
+-   [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-di-use-case.md)
 -   [Monitor Document Intelligence performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/doc-intel-monitor-performance.md)
 
 .
@@ -96,17 +96,17 @@ Set up a document classification use case in the following steps.
     Initiate a training job to provide user inputs from completed document tasks to the AI for continuous improvement.
 
 
--   **[How Document Intelligence for Customer Service works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-docintel-how-it-works.md)**  
+-   **[How Document Intelligence for Customer Service works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-docintel-how-it-works.md)**  
 Document Intelligence for Customer Service performs a series of steps to extract relevant information from email and case attachments and add that information to fields on the case record.
 
-**Parent Topic:**[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md)
+**Parent Topic:**[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intelligence.md)
 
 **Related topics**  
 
 
 [Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md)
 
-[Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-doc-intel-configuring-.md)
+[Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-doc-intel-configuring-.md)
 
-[Review and submit values predicted by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-doc-intel-review-values.md)
+[Review and submit values predicted by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-doc-intel-review-values.md)
 

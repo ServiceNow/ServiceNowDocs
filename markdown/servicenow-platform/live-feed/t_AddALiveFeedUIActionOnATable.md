@@ -2,7 +2,7 @@
 title: Add a Live Feed UI action on a table
 description: You can add UI actions on a table to allow users to follow records in live feed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_AddALiveFeedUIActionOnATable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/t\_AddALiveFeedUIActionOnATable.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -33,7 +33,7 @@ Role required: ui\_action\_admin or admin
 5.  Repeat steps 1 – 4 for all Live Feed UI actions.
 
 
-**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_DocumentFeeds.md)
+**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_DocumentFeeds.md)
 
 **Related topics**  
 

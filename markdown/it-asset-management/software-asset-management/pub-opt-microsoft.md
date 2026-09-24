@@ -2,7 +2,7 @@
 title: Publisher optimizations for Microsoft
 description: View licensing optimizations for Microsoft by selecting Microsoft from the Publisher drop-down list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/pub-opt-microsoft.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/pub-opt-microsoft.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -18,7 +18,7 @@ View licensing optimizations for Microsoft by selecting **Microsoft** from the *
 
 **Important:** To view the recommended licensing optimizations for Microsoft, you must activate the Software Asset Management Professional for Microsoft plugin \(com.snc.samp.microsoft\) on your ServiceNow® instance. To view the recommended licensing optimizations for your Microsoft 365 subscriptions, you must also request and install the Software Asset Management - SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/).
 
-For more information on license optimization, see [License optimization for Microsoft subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md).
+For more information on license optimization, see [License optimization for Microsoft subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/o365-usage-activity.md).
 
 <table id="table_vcq_xwt_2xb"><thead><tr><th>
 
@@ -132,14 +132,14 @@ Cost savings that you have achieved for licenses on your physical hosts and clus
 Select the report to view details about the cost savings that you have achieved for each host or cluster.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 
 **Related topics**  
 
 
-[Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md)
+[Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/o365-usage-activity.md)
 
-[Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/m365-reclamation-rules.md)
+[Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/m365-reclamation-rules.md)
 
-[Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-o365.md)
+[Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/microsoft-o365.md)
 

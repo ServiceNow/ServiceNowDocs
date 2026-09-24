@@ -2,7 +2,7 @@
 title: Delegate approvals and tasks to another user
 description: If you're out of the office, you can delegate responsibilities to another active user for a period of time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/t\_DelegateApprovalsTasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/self-service/t\_DelegateApprovalsTasks.html
 release: australia
 product: Self-service
 classification: self-service
@@ -54,5 +54,5 @@ Ensure that the Delegates related list displays on the form. If the Delegates re
         -   If your delegate gets email notifications, they will be the same email notifications sent to you. The delegate may be confused to see "Incident assigned to you" emails, so make sure they know they are a delegate.
     -   **Meeting invitations**: The delegate receives a copy of email notifications sent of the type Meeting Invitation.
 
-**Parent Topic:**[Service Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/c_ServiceDelegation.md)
+**Parent Topic:**[Service Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/self-service/c_ServiceDelegation.md)
 

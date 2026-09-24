@@ -2,7 +2,7 @@
 title: Create an exam
 description: Create an exam on Career Assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/create-exam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/create-exam.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -28,7 +28,7 @@ Users configured as part of the admin list, can contribute user criteria or owne
 
 2.  On the form, fill in the fields.
 
-    For a description of the field values, see [Exam form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/exam-form.md).
+    For a description of the field values, see [Exam form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/exam-form.md).
 
 3.  Select **Submit**.
 
@@ -41,12 +41,12 @@ The exam is created in Draft state.
 
 ## What to do next
 
-Add questions to an exam. See, [Add questions to an exam](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/add-questions-exam.md).
+Add questions to an exam. See, [Add questions to an exam](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/add-questions-exam.md).
 
--   **[Add questions to an exam](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/add-questions-exam.md)**  
+-   **[Add questions to an exam](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/add-questions-exam.md)**  
 Add questions for an exam in Career Assessment.
 
-**Parent Topic:**[Using Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/using-exam-engine.md)
+**Parent Topic:**[Using Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/using-exam-engine.md)
 
 **Related topics**  
 

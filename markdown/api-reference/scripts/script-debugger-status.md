@@ -2,7 +2,7 @@
 title: Script Debugger status
 description: The Script Debugger status determines what debugging actions are available and what information it can display.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/script-debugger-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/script-debugger-status.html
 release: australia
 product: Scripts
 classification: scripts
@@ -125,5 +125,5 @@ chars: 20,731, SQL time: 50 (count: 34), business rule: 0 (count: 0), phase 1
 form length 56,464, largest chunk written: 10,428, request parms size: 40, largest input read: 0
 ```
 
-**Parent Topic:**[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/parts-script-debugger-interface.md)
+**Parent Topic:**[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/parts-script-debugger-interface.md)
 

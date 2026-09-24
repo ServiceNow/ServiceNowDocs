@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Install the APO plugin \[sn\_ap\_gen\_ai\] to give AP fulfillers access to generative AI skills in Source-to-Pay Workspace and Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/install-now-assist-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/install-now-assist-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -131,7 +131,7 @@ AI skills are available in the ServiceNow Otto Panel. Turn on multi-language sup
 
         For more information on the fields, test outputs, and integrations in the use case, see [Set up a use case for Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-use-case-for-now-assist-document-intelligence.md).
 
-        **Note:** When you create a copy of the generative AI use case in AI Admin Hub, then "DocIntel Extract Values Flow - copied GenAI use case name-Invoice processing-GenAI integration" use case is created automatically in the flow designer. For more information on configuring the use case, see [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md).
+        **Note:** When you create a copy of the generative AI use case in AI Admin Hub, then "DocIntel Extract Values Flow - copied GenAI use case name-Invoice processing-GenAI integration" use case is created automatically in the flow designer. For more information on configuring the use case, see [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md).
 
     3.  Select **Save and continue** to go to the next step.
 

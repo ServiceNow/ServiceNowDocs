@@ -2,7 +2,7 @@
 title: Request an approval
 description: Request approval for a state change or a due date extension on an issue or remediation task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/request-an-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/request-an-approval.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,7 +18,7 @@ Request approval for a state change or a due date extension on an issue or remed
 
 ## Before you begin
 
-An approval configuration record must exist for the approval type that you want to request. See [Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md).
+An approval configuration record must exist for the approval type that you want to request. See [Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md).
 
 Role required: sn\_grc\_appr.approver
 
@@ -72,7 +72,7 @@ An approval request is created and sent to the approver. The record cannot move 
 
 ## What to do next
 
-See [Review and respond to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/review-and-respond-to-an-approval-request.md).
+See [Review and respond to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/review-and-respond-to-an-approval-request.md).
 
-**Parent Topic:**[Issue approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-approval-flows.md)
+**Parent Topic:**[Issue approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-approval-flows.md)
 

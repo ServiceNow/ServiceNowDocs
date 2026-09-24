@@ -2,7 +2,7 @@
 title: Integrate with a translation service provider
 description: Integrate with a third-party translation provider of your choice for machine translation of user-generated text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/integrate-translation-service-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation/integrate-translation-service-provider.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -32,7 +32,7 @@ Use default subflows as examples when you build your own subflows. For example:
 -   Detect Language \[detect\_language\_v4\]
 -   Translate Text \[translate\_text\_v3\]
 
-For background information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md) and [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).
+For background information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md) and [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).
 
 ## Procedure
 
@@ -76,7 +76,7 @@ texts
 
 </td><td>
 
-Input texts whose language should be detected.Version v3 supports bulk detection \(detection of multiple texts input in a single string\). With the Xanadu Patch 3 release, version v4 supports [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md) as well as bulk detection.
+Input texts whose language should be detected.Version v3 supports bulk detection \(detection of multiple texts input in a single string\). With the Xanadu Patch 3 release, version v4 supports [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md) as well as bulk detection.
 
 </td><td>
 
@@ -236,25 +236,25 @@ Choice
 </td></tr></tbody>
 </table>        **Note:** Ensure that the **Run As** field is set to **User who initiates session** in the flow properties.
 
-2.  [Create a custom translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md) for your service provider in the Translator Configurations table, and set the record to active.
+2.  [Create a custom translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/create-custom-translator.md) for your service provider in the Translator Configurations table, and set the record to active.
 
     When you create the record in the Translator Configurations table, search for the subflows you created in the previous step..
 
 3.  If your instance is on Xanadu Patch 3 or higher, and you intend to use Exclusion Framework, enter your translation provider's exclusion tags in the Exclusion Provider Pattern table.
 
-    Refer to your provider's documentation to obtain these tags. For more information about entering the tags, see [Add an Exclusion Provider Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-provider.md).
+    Refer to your provider's documentation to obtain these tags. For more information about entering the tags, see [Add an Exclusion Provider Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-exclusion-provider.md).
 
 4.  Create a language code mapping to associate your provider's language codes to ServiceNow language codes.
 
-    For more information, see [Create a language code mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-language-code-mapping.md).
+    For more information, see [Create a language code mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/create-language-code-mapping.md).
 
 
 ## What to do next
 
-For information about APIs, see [DynamicTranslation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-apis.md).
+For information about APIs, see [DynamicTranslation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-apis.md).
 
--   **[Create a custom translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md)**  
+-   **[Create a custom translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/create-custom-translator.md)**  
 Configure Dynamic Translation for a third-party machine translation provider of your choice.
 
-**Parent Topic:**[Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integration-with-other-translation-services.md)
+**Parent Topic:**[Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/integration-with-other-translation-services.md)
 

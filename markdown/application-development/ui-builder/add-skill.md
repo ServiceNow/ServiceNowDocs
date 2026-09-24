@@ -2,7 +2,7 @@
 title: Add Now Assist skills to your page
 description: Add skills to enhance your UI Builder page with Now Assist's generative AI capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/add-skill.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -43,7 +43,7 @@ In this example, you will:
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
@@ -119,5 +119,5 @@ In this example, you will:
 
 When you view the page and type in the input field, your text input triggers the **Generate Content** skill to execute and return content on the topic in the input field.
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/data-resources.md)
 

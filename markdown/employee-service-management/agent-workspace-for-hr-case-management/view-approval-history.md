@@ -2,7 +2,7 @@
 title: View approval history in Agent Workspace for HR Case Management
 description: View approval history in the activity stream to track approval requests, approvers, and approval status for HR cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/view-approval-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/view-approval-history.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

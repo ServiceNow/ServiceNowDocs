@@ -2,7 +2,7 @@
 title: Set up Threat Intelligence
 description: Before you run Threat Intelligence in your instance, you must download it from the ServiceNow Store. You can also set up properties and define a threat source.Before you run Threat Intelligence in your instance, you must download it from the ServiceNow Store.Several types of components are installed with activation of the Threat Intelligence plugin, including tables and user roles.Threat Intelligence properties allow you to control how different aspects of the system function, including the setting of API keys.You can maintain a list of Threat Intelligence threat sources. Each source includes the ability to define how often a source is queried. You can also execute a threat source on demand to import the needed Structured Threat Information eXpression \(STIX\) data.You can maintain TAXII profiles for sharing STIX-formatted information. Each profile contains one or more TAXII collections or feeds.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/c\_GetStartedWithThreatIntel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/c\_GetStartedWithThreatIntel.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,12 +44,12 @@ The following roles are required for installation, configuration, and verificati
 
 ### Procedure
 
-1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/download-app-first-time.md).
 
 
 ### What to do next
 
-[Set Threat Intelligence properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md).
+[Set Threat Intelligence properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_GetStartedWithThreatIntel.md).
 
 ### Components installed with Threat Intelligence
 

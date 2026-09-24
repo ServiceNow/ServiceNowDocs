@@ -2,7 +2,7 @@
 title: AI model providers
 description: AI model providers enable you to select data routing and manage third-party LLMs \(Large language models\) and SLMs \(Small language models\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-model-providers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-model-providers.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-14"
@@ -23,7 +23,7 @@ The AI Control Tower provides an AI model providers section where administrators
 
 **Note:** You can select the Now LLM-LTS \(Long Term Stable\) model, which supports regulated industries such as financial institutions with stronger AI lifecycle management, governance, transparency, and conformance tools.
 
-For more information on the Now LLM-LTS \(Long Term Stable\) model, see [Long term stable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/long-term-stable-models.md)
+For more information on the Now LLM-LTS \(Long Term Stable\) model, see [Long term stable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-large-language-model-now-llm/long-term-stable-models.md)
 
 ## Data routing and model providers
 
@@ -112,5 +112,5 @@ You can also filter the changes by selecting a date range, starting with the las
 
 **Note:** In a Multi-instance setup, when a managed \(sub-prod\) instance is added to or removed from the synchronizing instances, the audit log displays two records. The first record shows all instances being removed and the second record shows the instance being added or removed.
 
-**Parent Topic:**[Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configure-servicenow-ai-settings.md)
+**Parent Topic:**[Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-servicenow-ai-settings.md)
 

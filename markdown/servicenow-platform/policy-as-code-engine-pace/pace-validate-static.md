@@ -2,7 +2,7 @@
 title: Map PaCE policies using Static Mapping
 description: Use Static Mapping to map multiple PaCE policies against a record such as a change request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-validate-static.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-validate-static.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

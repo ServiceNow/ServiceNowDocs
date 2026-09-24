@@ -2,7 +2,7 @@
 title: Task Plan Templates in Care Team Work Management
 description: Understand how task plan templates can be leveraged from Customer Service Management in Care Team Work Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-task-plan-templates-understand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-task-plan-templates-understand.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

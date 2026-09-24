@@ -2,7 +2,7 @@
 title: Use your navigation function as a quick action
 description: Use your navigation function as a quick action if users need to frequently access the launcher.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-launcher-navigation-example-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-launcher-navigation-example-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,7 +46,7 @@ Quick actions appear on screen launcher pages and serve as a quick way to provid
     |Disable offline|Toggle that turns the quick action off when the device is offline.|
     |Icon|The icon that appears for the quick action in the UI.|
     |Function placement|The function used by this quick action. These fields are automatically populated.|
-    |Button Emphasis|The button emphasis for the quick action. This selection affects the color of the button. For a navigation function, select **Primary** or **Secondary**. These colors are determined by your mobile theme. For more information on configuring a legacy mobile theme, see [Create a theme for your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-theme.md).|
+    |Button Emphasis|The button emphasis for the quick action. This selection affects the color of the button. For a navigation function, select **Primary** or **Secondary**. These colors are determined by your mobile theme. For more information on configuring a legacy mobile theme, see [Create a theme for your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-theme.md).|
     |Function|The function used by this quick action. Select the navigation function you wish to assign to this quick action.|
 
 6.  Select **Save**.
@@ -56,5 +56,5 @@ Quick actions appear on screen launcher pages and serve as a quick way to provid
 
 Test the navigation using your mobile app. After completing the steps, you can see a quick action in your screen launcher with the label and icon you defined in these steps. Tapping the quick action will direct you to the screen launcher you defined in your navigation function.
 
-**Parent Topic:**[Configure navigation to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-launcher-nav-example.md)
+**Parent Topic:**[Configure navigation to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-launcher-nav-example.md)
 

@@ -2,7 +2,7 @@
 title: Manage delivery to valid address
 description: As an administrator, you can define one or multiple valid countries where a supplier can deliver the products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/manage-shipping-address.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/manage-shipping-address.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,14 +37,14 @@ Role required: sn\_fin.procurement\_primary\_data\_admin and sn\_shop.procuremen
     Once you select valid countries, employees can view and select the list of delivery locations associated with the valid countries in **ShoppingHub**.
 
 
-**Parent Topic:**[Add office locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-office-locations.md)
+**Parent Topic:**[Add office locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-office-locations.md)
 
 **Related topics**  
 
 
-[Valid countries for delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/valid-countries.md)
+[Valid countries for delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/valid-countries.md)
 
-[Delivery location options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/delivery-location-details.md)
+[Delivery location options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/delivery-location-details.md)
 
-[Select a delivery location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/select-delivery-location.md)
+[Select a delivery location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/select-delivery-location.md)
 

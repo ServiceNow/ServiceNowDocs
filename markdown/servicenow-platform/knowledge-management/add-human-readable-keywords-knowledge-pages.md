@@ -2,7 +2,7 @@
 title: Enable Human Readable URLs for the Knowledge Article View page
 description: Update a human readable URL structure in the Knowledge Article View page to improve search ranking and click-through rates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/add-human-readable-keywords-knowledge-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/add-human-readable-keywords-knowledge-pages.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -60,5 +60,5 @@ This article URL contains the field variables, and keywords in the following tab
 |Category|%category|`faq`|
 |Short description|%short\_descr|`What is a cookie?`|
 
-**Parent Topic:**[Using human readable URLs for the Knowledge article page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/human-readable-urls-km.md)
+**Parent Topic:**[Using human readable URLs for the Knowledge article page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/human-readable-urls-km.md)
 

@@ -2,7 +2,7 @@
 title: Set the on-click behavior of a Core UI report
 description: You can configure a URL to open when you select a section of a report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/set-report-on-click.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/set-report-on-click.html
 release: australia
 product: Reporting
 classification: reporting
@@ -24,7 +24,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 You can redirect users to a URL rather than to the configured drilldown or the list that underlies the selected section of a report.
 
-See [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_DrillingDownWithinReports.md) for the report types that don't support the drilldown feature.
+See [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DrillingDownWithinReports.md) for the report types that don't support the drilldown feature.
 
 ## Procedure
 
@@ -55,5 +55,5 @@ See [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/Ser
 
 When you select the report, the redirect URL replaces any drilldown functionality.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdvancedReporting.md)
 

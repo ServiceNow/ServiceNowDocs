@@ -2,7 +2,7 @@
 title: Configure Walk-up Experience notifications
 description: As an administrator, you can create and use notifications to notify requesters about events that impact them while they’re getting their issue addressed through a walk-up experience. Requesters are notified of online appointments that they’ve taken or when their issue is assigned to a store representative by email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-notifications.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

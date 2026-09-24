@@ -2,7 +2,7 @@
 title: Record time worked on asset repair tasks in the Enterprise Asset Workspace
 description: Manage and record time worked on Troubleshoot asset, Repair asset, and Evaluate asset tasks in the Enterprise Asset Workspace. After you start work on a repair asset task, you can pause and resume work. You can also record the time worked manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -16,14 +16,14 @@ breadcrumb: [Manage repair of defective assets in your stockroom in the Enterpri
 
 Manage and record time worked on Troubleshoot asset, Repair asset, and Evaluate asset tasks in the Enterprise Asset Workspace. After you start work on a repair asset task, you can pause and resume work. You can also record the time worked manually.
 
--   **[Record time worked on a repair task automatically in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-total-repair-time-eam-ws.md)**  
+-   **[Record time worked on a repair task automatically in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-total-repair-time-eam-ws.md)**  
 Record the time that you took to complete a repair task without taking any break until you completed the task.
--   **[Record time worked on a repair task manually in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-time-worked-manually-eam-ws.md)**  
+-   **[Record time worked on a repair task manually in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-time-worked-manually-eam-ws.md)**  
 Create an entry for the time worked on a repair task manually in the Enterprise Asset Workspace.
--   **[Pause a repair task in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/pause-repair-task-eam-ws.md)**  
+-   **[Pause a repair task in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/pause-repair-task-eam-ws.md)**  
 Record a break from a repair task in the Enterprise Asset Workspace if you’re not continuing to work on it. Resume the task when you start working on it again. The system automatically tracks and calculates the actual time taken to complete the task even though the work was interrupted.
 
-**Parent Topic:**[Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-repair-of-defective-eam-assets.md)
+**Parent Topic:**[Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-repair-of-defective-eam-assets.md)
 
 **Related topics**  
 

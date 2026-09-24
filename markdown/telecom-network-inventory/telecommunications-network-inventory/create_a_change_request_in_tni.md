@@ -2,7 +2,7 @@
 title: Create a change request from Network Inventory Workspace
 description: Create, review, update, or close a change request for a change model from the network inventory workspace of the Telecommunications Network Inventory application. You can also analyze the instantiation details of the network instance. Created topic as per DOC1068893 - STRY55011331
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create\_a\_change\_request\_in\_tni.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create\_a\_change\_request\_in\_tni.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -47,15 +47,15 @@ You can create, review, update, or close a change request task in the Telecommun
     -   Remove Equipment/Shelf from Rack/Cabinet
     -   IP Address Allocation
     -   Phone Number Allocation
-    **Note:** For design assign link aggregation group and GPON broadband service, see [Create a Link Aggregation Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_by_using_the_design_assign_link_aggregation_group.md) and [Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md).
+    **Note:** For design assign link aggregation group and GPON broadband service, see [Create a Link Aggregation Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_by_using_the_design_assign_link_aggregation_group.md) and [Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md).
 
 6.  Select **Next**.
 
-    A record producer or a change request form is displayed depending on the decision table entry. To learn more, see [Assign a record producer form to a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_record_producer_form_for_a_change_request.md).
+    A record producer or a change request form is displayed depending on the decision table entry. To learn more, see [Assign a record producer form to a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_record_producer_form_for_a_change_request.md).
 
 7.  Select **Save**.
 
-    A change request is created and related tabs appear. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md).
+    A change request is created and related tabs appear. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md).
 
 8.  On the **Overview** tab, do one or more of the following actions:
 
@@ -75,11 +75,11 @@ You can create, review, update, or close a change request task in the Telecommun
 
     -   View and create the change tasks by selecting **New**.
 
-        To learn more, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
+        To learn more, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
 
 9.  On the **Details** tab, fill in the fields.
 
-    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 10. Select **Save**.
 
@@ -92,7 +92,7 @@ You can create, review, update, or close a change request task in the Telecommun
 
 Create, review, update, or close the change tasks.
 
-For more information, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
+For more information, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

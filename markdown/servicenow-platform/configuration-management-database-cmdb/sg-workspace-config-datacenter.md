@@ -2,7 +2,7 @@
 title: Configure datacenters for Cloud vs Non-cloud resources in CMDB Workspace
 description: The Cloud vs Non-cloud resources chart in the insights view in CMDB Workspace determines which CIs and service instances \(application services\) are stored on a cloud and which aren't in the organization. In addition to base system classifications, you can add cloud vs. non-cloud classifications that reflect specific datacenter deployments in the organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-datacenter.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -48,5 +48,5 @@ In the base system, the Datacenter Types table contains several common datacente
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

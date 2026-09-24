@@ -2,7 +2,7 @@
 title: Using the Scratchpad for Service Exchange tasks
 description: The Scratchpad feature facilitates exchange of additional data between provider and consumer instances while performing Service Exchange tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-scratchpad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-scratchpad.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -30,11 +30,11 @@ The CSBScratchpadUtil API allows consumers to share extra information that is ou
 
 **Example Scratchpad use case:** This example shows how data in the Scratchpad is synced between the consumer and provider instances.
 
--   A consumer orders a laptop from the local catalog. The local catalog in this case is a [Remote Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-record.md).
+-   A consumer orders a laptop from the local catalog. The local catalog in this case is a [Remote Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-remote-record.md).
 -   This request is immediately forwarded the provider and appears as a Provider Task on the provider's instance.
 -   The provider then selects a laptop from the inventory and sets it up. The provider adds relevant information like the serial number, model, configuration to the Scratchpad, which is automatically sent to the consumer.
 -   On the consumer's instance, the Scratchpad data is retrieved and updated on the local database.
 -   The laptop is then assigned to the consumer.
 
-**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-administer.md)
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-administer.md)
 

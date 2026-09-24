@@ -2,7 +2,7 @@
 title: View Walk-up Experience inbox
 description: View a personal inbox of automatically assigned Walk-up Experience interactions using the Agent Workspace feature interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/view-walkup-inbox.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/view-walkup-inbox.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -39,10 +39,10 @@ There are two ways the agents can view the walk-up inbox. The agents primarily a
     You are linked directly to your personal inbox in Agent Workspace. Automatically pushed interaction assignments appear in the inbox based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 
 **Related topics**  
 
 
-[Manage automatically assigned Walk-up Experience interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/view-auto-assigned-walkup-requests.md)
+[Manage automatically assigned Walk-up Experience interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/view-auto-assigned-walkup-requests.md)
 

@@ -2,7 +2,7 @@
 title: Add a drilldown event to a data visualization on a technical dashboard
 description: Technical dashboards do not support preconfigured destinations for drilling down from a data visualization. If you want a viewer to open a more detailed view of the data when they interact with a visualization, configure a custom drilldown event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-custom-drilldown-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/add-custom-drilldown-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -151,7 +151,7 @@ In runtime, a viewer can interact with the visualization to open KPI Details for
 
 \[Omitted image "db-adv-ex-ddown-indicator.gif"\] Alt text: Opening KPI Details by clicking a Line visualization on a technical dashboard.
 
-**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md)
+**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/technical-dashboards.md)
 
 **Related topics**  
 

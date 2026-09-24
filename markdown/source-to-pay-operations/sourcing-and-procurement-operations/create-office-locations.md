@@ -2,7 +2,7 @@
 title: Add office locations
 description: Add all the office locations that your suppliers deliver to in your primary data. That way, your employees using Shopping Hub can select any of these pre-approved office locations for delivery while placing an order for a product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-office-locations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-office-locations.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -88,8 +88,8 @@ Legal entity that is responsible for this office location.
     \[Omitted image "add\_office\_location.png"\] Alt text: Office location.
 
 
--   **[Manage delivery to valid address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/manage-shipping-address.md)**  
+-   **[Manage delivery to valid address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/manage-shipping-address.md)**  
 As an administrator, you can define one or multiple valid countries where a supplier can deliver the products.
 
-**Parent Topic:**[Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

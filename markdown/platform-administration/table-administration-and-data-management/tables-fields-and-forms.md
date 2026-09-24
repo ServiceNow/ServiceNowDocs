@@ -2,7 +2,7 @@
 title: ServiceNow AI Platform tables and data
 description: ServiceNow provides options for managing your data on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/tables-fields-and-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/tables-fields-and-forms.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -18,19 +18,19 @@ ServiceNow provides options for managing your data on the ServiceNow AI Platform
 
 <table id="table_oyp_mhr_r5b" class="nav-card"><tbody><tr><td>
 
-[Table administration \[Omitted image "bus-management-console.svg"\] Alt text: Learn about working with complex, large amounts of data, by using tables and records on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md)
+[Table administration \[Omitted image "bus-management-console.svg"\] Alt text: Learn about working with complex, large amounts of data, by using tables and records on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_TableAdministration.md)
 
 </td><td>
 
-[Data management \[Omitted image "bus-datasheet.svg"\] Alt text: Explore options for storing and deleting data with ServiceNow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataManagement.md)
+[Data management \[Omitted image "bus-datasheet.svg"\] Alt text: Explore options for storing and deleting data with ServiceNow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_DataManagement.md)
 
 </td><td>
 
-[Export data \[Omitted image "bus-share.svg"\] Alt text: Learn about exporting data from the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ExportData.md)
+[Export data \[Omitted image "bus-share.svg"\] Alt text: Learn about exporting data from the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_ExportData.md)
 
 </td><td>
 
-[Roll back and delete recovery\[Omitted image "bus-rewind.svg"\] Alt text:Learn how to roll back actions and recover deleted records.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
+[Roll back and delete recovery\[Omitted image "bus-rewind.svg"\] Alt text:Learn how to roll back actions and recover deleted records.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
 
 </td></tr></tbody>
 </table>## Table administration

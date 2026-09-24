@@ -2,7 +2,7 @@
 title: Form design visual indicators
 description: The UI displays the following visual indicators when designing forms in custom applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_FormDesignVisualIndicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_FormDesignVisualIndicators.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

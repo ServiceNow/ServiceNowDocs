@@ -2,7 +2,7 @@
 title: Navigating breakdown elements with breakdown relations
 description: Breakdown relations open a new navigation path for viewing breakdown scores, by moving from one breakdown element to another element of the same breakdown. The elements should be in an hierarchical relationship.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/breakdown-relations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/breakdown-relations.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -36,23 +36,23 @@ Breakdown-to-breakdown relations define different primary and related breakdowns
 
 ## Breakdown relations in Core UI breakdown widgets
 
-A Core UI breakdown widget can show the parent, child, or sibling elements of the element that was chosen for the breakdown dashboard. For more information about using breakdown relations on breakdown dashboards, see [Showing breakdown relations on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ShowBkdwnRltnsWdgts.md).
+A Core UI breakdown widget can show the parent, child, or sibling elements of the element that was chosen for the breakdown dashboard. For more information about using breakdown relations on breakdown dashboards, see [Showing breakdown relations on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ShowBkdwnRltnsWdgts.md).
 
 \[Omitted image "Breakdown\_relations\_widget.png"\] Alt text: A breakdown dashboard with a breakdown widget showing the child elements of the EMEA element
 
--   **[Create relations between elements of a breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-relation-btwn-bkdn-elements.md)**  
+-   **[Create relations between elements of a breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-relation-btwn-bkdn-elements.md)**  
 Use a breakdown relation to set up navigation between a hierarchy of elements within the same breakdown. A field in the breakdown records must identify the hierarchical relationship of one record to another.
--   **[Create a breakdown-to-breakdown relation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateABreakdownRelation.md)**  
+-   **[Create a breakdown-to-breakdown relation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateABreakdownRelation.md)**  
 To set up navigation in a visualization between the elements of two breakdowns at the same level, create a breakdown relation between the breakdowns. A table must exist with fields that reference the records for both breakdowns.
 
-**Parent Topic:**[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
+**Parent Topic:**[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
 
 **Related topics**  
 
 
-[Create an Indicator Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-indicator-scorecard.md)
+[Create an Indicator Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-indicator-scorecard.md)
 
-[Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md)
+[Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-workspace-filter-type.md)
 
-[Breakdown widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-widgets.md)
+[Breakdown widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/breakdown-widgets.md)
 

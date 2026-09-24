@@ -2,7 +2,7 @@
 title: Create RIDAC for an EAP iteration
 description: Create a Risk, Issue, Decision, Action, or Change item and associate it with an Enterprise Agile Planning \(EAP\) iteration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-ridac-eap-iteration-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/create-ridac-eap-iteration-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -56,11 +56,11 @@ You can create a RIDAC item directly from an EAP iteration to document and track
 
     For a description of the field values, see the form.
 
-    -   For a Risk, see [RIDAC Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/ridac-risk-form-spw.md).
-    -   For an Issue, see [RIDAC Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/ridac-issue-form-spw.md).
-    -   For a Decision, see [RIDAC Decision form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/ridac-decision-form-spw.md).
-    -   For an Action, see [RIDAC Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/ridac-action-form-spw.md).
-    -   For a Change Request, see [RIDAC Change Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/ridac-change-request-form-spw.md).
+    -   For a Risk, see [RIDAC Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/ridac-risk-form-spw.md).
+    -   For an Issue, see [RIDAC Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/ridac-issue-form-spw.md).
+    -   For a Decision, see [RIDAC Decision form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/ridac-decision-form-spw.md).
+    -   For an Action, see [RIDAC Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/ridac-action-form-spw.md).
+    -   For a Change Request, see [RIDAC Change Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/ridac-change-request-form-spw.md).
 7.  Select **Save** to save the record.
 
 

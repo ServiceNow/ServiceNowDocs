@@ -2,7 +2,7 @@
 title: Domain separation and Reporting
 description: Domain separation is supported in reporting and relates to report creation and administration. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/domain-separation-in-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/domain-separation-in-reporting.html
 release: australia
 product: Reporting
 classification: reporting
@@ -43,10 +43,10 @@ In Reporting, separated data includes report designs and report content. A repor
 
 If you create a report in one domain and copy it to another, the report structure remains the same, but the report data is adjusted for the domain. For example, an Active Incident report shows all active incidents to a user in the parent domain, but only IT incidents to a user in the IT domain.
 
--   **[Enable domain separation on reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_EnsureDomainSepOnAReport.md)**  
+-   **[Enable domain separation on reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_EnsureDomainSepOnAReport.md)**  
 Activate the domain separation plugin to enable reports to display content based on data, rules, and settings from the logged-on user domain.
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 **Related topics**  
 

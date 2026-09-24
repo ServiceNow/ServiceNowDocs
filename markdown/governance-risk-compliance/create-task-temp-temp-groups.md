@@ -2,7 +2,7 @@
 title: Configure Task templates and Task template groups
 description: Create task templates and task template groups to save individual tasks or groups of tasks for reuse. Add templates to new plans or insert them into existing ones.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-task-temp-temp-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-task-temp-temp-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-06-04"
@@ -30,7 +30,7 @@ Role required: sn\_bcm.admin
 
 5.  To inspect a recovery task template, open it from the **Recovery task templates** list.
 
-    The template form includes the same recovery task fields as a non-template task: Dependencies, Phase, Task classification, Tag, Configuration item, Asset recovery level, Tag assets, and Include task in. The **Plan templates**, **Loss scenarios**, and **Recovery strategies** related lists show every parent the template is currently attached to. For field-level details, see [Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/task-template-form.md).
+    The template form includes the same recovery task fields as a non-template task: Dependencies, Phase, Task classification, Tag, Configuration item, Asset recovery level, Tag assets, and Include task in. The **Plan templates**, **Loss scenarios**, and **Recovery strategies** related lists show every parent the template is currently attached to. For field-level details, see [Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/task-template-form.md).
 
     \[Omitted image "recovery-task-template-form.png"\] Alt text: Recovery task template form with related lists for Plan templates, Loss scenarios, and Recovery strategies.
 
@@ -52,13 +52,13 @@ Role required: sn\_bcm.admin
 
     \[Omitted image "task-template-groups-list.png"\] Alt text: Task template groups list showing Applicable to element definitions and Active columns.
 
-    For field-level details, see [Task template group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/task-template-group-form.md).
+    For field-level details, see [Task template group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/task-template-group-form.md).
 
 
--   **[Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/task-template-form.md)**  
+-   **[Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/task-template-form.md)**  
 Use the Task template form to define a reusable recovery task or event task. It can be inserted into plans, loss scenarios, recovery strategies, exercise events, crisis events, or activated plans.
--   **[Task template group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/task-template-group-form.md)**  
+-   **[Task template group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/task-template-group-form.md)**  
 Use the Task template group form to bundle related task templates and define dependencies between them. Apply the group from a plan, loss scenario, recovery strategy, exercise event, crisis event, or activated plan to create the underlying tasks in bulk.
 
-**Parent Topic:**[Configuring plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-admin-plan-templates.md)
+**Parent Topic:**[Configuring plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-admin-plan-templates.md)
 

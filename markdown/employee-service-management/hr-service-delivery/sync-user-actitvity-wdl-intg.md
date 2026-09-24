@@ -2,7 +2,7 @@
 title: View user activity for Workday Learning
 description: All user activity data is shipped along with HR Service Delivery Integration with Workday Learning. However, if you want to view or edit the user activity details, you can edit the respective subflow and then edit the respective record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/sync-user-actitvity-wdl-intg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/sync-user-actitvity-wdl-intg.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,10 +28,10 @@ Role required: sn\_lrn\_workday.admin
 
 3.  On the form, edit the fields.
 
-    For a description of the field values, see [Edit a record in HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/sync-user-activity-form.md).
+    For a description of the field values, see [Edit a record in HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/sync-user-activity-form.md).
 
 
-**Parent Topic:**[Using HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-workday-learning-intg.md)
+**Parent Topic:**[Using HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-workday-learning-intg.md)
 
 **Related topics**  
 

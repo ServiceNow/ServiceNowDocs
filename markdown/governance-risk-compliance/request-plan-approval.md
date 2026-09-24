@@ -2,7 +2,7 @@
 title: Request the plan approval
 description: Request the plan approval from the analysis approver. You can then proceed with the scenario analysis in Operational Resilience Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/request-plan-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/request-plan-approval.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: sn\_oper\_res.manager
 
 ## What to do next
 
-As the next step, request analysis approval. For more information, see [Submit the scenario analysis and receive an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-plan-approval-for-scenario-analysis.md).
+As the next step, request analysis approval. For more information, see [Submit the scenario analysis and receive an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/request-plan-approval-for-scenario-analysis.md).
 

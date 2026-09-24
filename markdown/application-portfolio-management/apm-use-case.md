@@ -2,7 +2,7 @@
 title: Enterprise Architecture and CSDM tables
 description: Enterprise Architecture manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Enterprise Architecture.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/apm-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/apm-use-case.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -46,7 +46,7 @@ The following ServiceNow products gain value from Enterprise Architecture:
 -   Governance, Risk, and Compliance \(GRC\): Auditors can leverage the business applications and related information objects. This helps auditors understand the design-time data sensitivity for scoping audits, measuring risks, and managing audit activities.
 -   Asset Management: Manages the software and hardware life cycles for business applications and business services.
 
-**Parent Topic:**[Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/apm-use-case-product-view.md)
+**Parent Topic:**[Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/apm-use-case-product-view.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Cloud cost overview
 description: Enhance your experience by using the modernized and user-friendly Cloud Cost Management overview. This overview page helps you use the Cloud Cost Management application more effectively by reducing complexity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/ccm-ws-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/ccm-ws-overview.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -48,7 +48,7 @@ Total spend this month
 
 </td><td>
 
-Actual spend on your service accounts or cloud resources for the month. Selecting this card navigates you to the Spend dashboard. For more information, see [Spend view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/spend-view-ccm-ws.md).The **Forecasted spend this month** amount displays the total future spends for all your cloud assets.
+Actual spend on your service accounts or cloud resources for the month. Selecting this card navigates you to the Spend dashboard. For more information, see [Spend view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/spend-view-ccm-ws.md).The **Forecasted spend this month** amount displays the total future spends for all your cloud assets.
 
 The **Compared to last month** percentage amount shows the spend difference of the current month and last month.
 
@@ -58,7 +58,7 @@ Total budget
 
 </td><td>
 
-Total budget of your service accounts or cloud assets where the current date falls between the start date and end date of the budget. Selecting this card navigates you to the Budget view. For more information, see [Budget view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/budget-view-ws.md).For a budget owner, the budget for only the created policies is displayed.
+Total budget of your service accounts or cloud assets where the current date falls between the start date and end date of the budget. Selecting this card navigates you to the Budget view. For more information, see [Budget view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/budget-view-ws.md).For a budget owner, the budget for only the created policies is displayed.
 
 The **Forecasted variance** amount shows the budget amount based on the spend on your cloud resources, which is
 
@@ -72,7 +72,7 @@ Total potential saving
 
 </td><td>
 
-Total saving for your cloud assets based on all the recommendations that you haven't acted on. Selecting this card navigates you to the Optimization view. For more information, see [Optimization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/optimization-view-ccm-ws.md).
+Total saving for your cloud assets based on all the recommendations that you haven't acted on. Selecting this card navigates you to the Optimization view. For more information, see [Optimization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/optimization-view-ccm-ws.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Monthly spend breakdown
 
 Monthly spend breakdown grouped by provider, service category, service account, cloud service, or purchase option. The results can be sorted by time range and cost type. Use the **Show forecast** toggle switch for hiding or showing the future cost.Selecting the **Summarize** button generates an AI-assisted summary of your cloud spend trends, top cost drivers, and budget alignment with your selected filters and groupings.
 
-Selecting a monthly spend breakdown bar navigates you to the Spend analytics page. The filters that you apply to the Monthly spend breakdown get applied to the Spend analytics page. For more information, see [Spend analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/spend-anaytics.md).
+Selecting a monthly spend breakdown bar navigates you to the Spend analytics page. The filters that you apply to the Monthly spend breakdown get applied to the Spend analytics page. For more information, see [Spend analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/spend-anaytics.md).
 
 </td></tr></tbody>
 </table><table id="table_llc_g3c_2yb"><thead><tr><th>
@@ -99,7 +99,7 @@ Top spend trend
 
 </td><td>
 
-Spend trend or actual cost grouped by service category, cloud service, provider, cost center, business service, and Kubernetes cluster.Selecting a Top spend trend card navigates you to the Spend analytics page. For more information, see [Spend analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/spend-anaytics.md).
+Spend trend or actual cost grouped by service category, cloud service, provider, cost center, business service, and Kubernetes cluster.Selecting a Top spend trend card navigates you to the Spend analytics page. For more information, see [Spend analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/spend-anaytics.md).
 
 </td></tr></tbody>
 </table><table id="table_nwp_kz5_ywb"><thead><tr><th>
@@ -116,12 +116,12 @@ Potential vs actual savings grouped by Provider, Service category, and Environme
 
 </td><td>
 
-Potential vs actual savings grouped by provider, service category, and environment.**Note:** To view the Potential vs actual savings grouped by environment chart, you must create tag categories as Production and Non Production. For more information about creating a tag category, see [Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md).
+Potential vs actual savings grouped by provider, service category, and environment.**Note:** To view the Potential vs actual savings grouped by environment chart, you must create tag categories as Production and Non Production. For more information about creating a tag category, see [Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md).
 
 -   **Potential savings**: Indicates the total spend on your cloud resources that could be optimized by the recommendations.
 -   **Actual savings**: Indicates the total savings achieved by following the recommendations to optimize your cloud resources.
 
-Selecting a potential or actual savings bar navigates you to the Optimization view. For more information, see [Optimization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/optimization-view-ccm-ws.md).
+Selecting a potential or actual savings bar navigates you to the Optimization view. For more information, see [Optimization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/optimization-view-ccm-ws.md).
 
 </td></tr></tbody>
 </table>**Note:** The alerts that you view on the Cloud Cost Management Overview page are for the last one week.

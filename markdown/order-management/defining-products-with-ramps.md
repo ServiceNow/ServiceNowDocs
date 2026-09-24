@@ -2,7 +2,7 @@
 title: Price and quantity ramps
 description: Price and quantity ramps enable sales agents to set incremental increases in product pricing and quantity deals over the duration of a customer contract or subscription period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/defining-products-with-ramps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/defining-products-with-ramps.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Different product adoption scenarios by customers can affect product pricing and
 
 Ramps provide a flexible pricing structure for sales agents to schedule pricing and quantity increases over specific time periods, called ramp segments. During the quote process, sales agents can create ramps for configurable products.
 
-**Note:** Products that can have ramps must have the **Price method** set to Recurring and the **Enable ramps** option selected. Your product catalog admin sets those options when [creating a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-offering.md).
+**Note:** Products that can have ramps must have the **Price method** set to Recurring and the **Enable ramps** option selected. Your product catalog admin sets those options when [creating a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-product-offering.md).
 
 Ramps can be defined using yearly, quarterly, or custom structures. Yearly and quarterly ramps generate ramp segments automatically based on the selected term and frequency. Custom ramps allow agents to define ramp segments with flexible durations, rather than relying on automatically generated segments.
 
@@ -82,7 +82,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Enable ramps in product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-offering.md)
+[Enable ramps in product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-product-offering.md)
 
 </td><td>
 
@@ -95,7 +95,7 @@ Product catalog admin
 
 </td></tr><tr><td>
 
-[Add price ramps on a quote line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-price-ramps-on-a-quote-line-item.md)
+[Add price ramps on a quote line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/add-price-ramps-on-a-quote-line-item.md)
 
 </td><td>
 

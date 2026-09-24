@@ -2,7 +2,7 @@
 title: Configuring search in Next Experience
 description: Administrators can customize Next Experience search settings. Add new searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu for users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configuring-search-next-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configuring-search-next-experience.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ For details on using the search context menu, see [View and open search results 
 
 For more information on configuring search settings in Next Experience, see [Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_GlobalTextSearch.md).
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 

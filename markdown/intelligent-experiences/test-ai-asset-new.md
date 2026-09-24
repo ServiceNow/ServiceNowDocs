@@ -2,7 +2,7 @@
 title: Manually test an agentic AI asset
 description: Manually test an AI agent or agentic workflow to verify it functions as defined and achieves the desired objectives.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-ai-asset-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-ai-asset-new.html
 release: australia
 topic_type: task
 last_updated: "2026-06-06"
@@ -24,7 +24,7 @@ Role required: sn\_aia.admin and either admin or at least one role required by t
 
 ## About this task
 
-After you create an AI agent or agentic workflow, test it to verify the agentic AI asset functions as defined. A test shows what the agentic AI asset did, including which tools it called, in what order, and what it returned. There is no additional guidance on individual tests whether the agentic AI asset's behavior is intended and correct. You can run a manual test to evaluate the behavior of your agentic AI asset on a single test record, or you can run an automated evaluation to reveal patterns across multiple executions. See [Evaluate an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/launch-aia-eval.md) for more details about running an automated evaluation.
+After you create an AI agent or agentic workflow, test it to verify the agentic AI asset functions as defined. A test shows what the agentic AI asset did, including which tools it called, in what order, and what it returned. There is no additional guidance on individual tests whether the agentic AI asset's behavior is intended and correct. You can run a manual test to evaluate the behavior of your agentic AI asset on a single test record, or you can run an automated evaluation to reveal patterns across multiple executions. See [Evaluate an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/launch-aia-eval.md) for more details about running an automated evaluation.
 
 You can access the test interface from the node map view or from the guided setup. During a test, you can view a chat session, examine node and card expansions that show different agents or tools within an agentic AI asset, review the trace log containing execution information, and analyze test details.
 
@@ -38,7 +38,7 @@ You can access the test interface from the node map view or from the guided setu
 
 4.  Select a test type: **Single test** or **Evaluation**.
 
-    **Single test** provides a snapshot of agentic behavior on a single test record. **Evaluation** reveals patterns of behavior across multiple executions in an automated way. For more information about running an evaluation, see [Evaluate an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/launch-aia-eval.md).
+    **Single test** provides a snapshot of agentic behavior on a single test record. **Evaluation** reveals patterns of behavior across multiple executions in an automated way. For more information about running an evaluation, see [Evaluate an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/launch-aia-eval.md).
 
     **Note:** You can't test and evaluate the same agentic AI asset at the same time.
 
@@ -46,7 +46,7 @@ You can access the test interface from the node map view or from the guided setu
 
 6.  In the **Version** dropdown, select the version you want to test.
 
-    See [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/version-control.md) for more information about creating and managing versions.
+    See [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/version-control.md) for more information about creating and managing versions.
 
 7.  Under **Objective for your test subject**, choose an objective or write your own.
 

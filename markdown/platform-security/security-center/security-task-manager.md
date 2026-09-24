@@ -2,7 +2,7 @@
 title: Security Tasks
 description: Use Security Tasks to monitor, prioritize, and assign all your security-related tasks in one place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/security-task-manager.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/security-task-manager.html
 release: australia
 product: Security Center
 classification: security-center
@@ -56,22 +56,22 @@ For example, in Security Center, on the Best Practices tool details page, the ad
 </td></tr></tbody>
 </table>## Automatically generated tasks
 
-Security Tasks can be automatically generated. Automatic Security Task generation is triggered by an associated event that occurred on the platform. Learn more about generated Security Tasks in [Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/auto-sec-task.md).
+Security Tasks can be automatically generated. Automatic Security Task generation is triggered by an associated event that occurred on the platform. Learn more about generated Security Tasks in [Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/auto-sec-task.md).
 
 ## Edit and assign Security Tasks
 
-Edit Security Tasks to assign them to users, define due dates, and provide additional details to the users who will complete these tasks. For details, see [Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/create-edit-security-tasks.md).
+Edit Security Tasks to assign them to users, define due dates, and provide additional details to the users who will complete these tasks. For details, see [Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/create-edit-security-tasks.md).
 
 ## Export tasks
 
-You can export Security Tasks into the format of your choice. For details, see [Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/export-security-tasks.md).
+You can export Security Tasks into the format of your choice. For details, see [Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/export-security-tasks.md).
 
--   **[Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/auto-sec-task.md)**  
+-   **[Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/auto-sec-task.md)**  
 Learn about how and when your instance generates Security Tasks.
--   **[Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/create-edit-security-tasks.md)**  
+-   **[Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/create-edit-security-tasks.md)**  
 Learn how to create, edit, delete, or export Security Tasks in Security Center
--   **[Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/export-security-tasks.md)**  
+-   **[Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/export-security-tasks.md)**  
 Export Security Tasks into files that you can download and use in other software.
 
-**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-v2.md)
+**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sec-center-v2.md)
 

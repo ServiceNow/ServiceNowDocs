@@ -2,14 +2,14 @@
 title: Configure crawl settings for a Workday external content connector
 description: Specify the content types you want your Workday external content connector to retrieve.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-crawl-settings-workday-external-content-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-crawl-settings-workday-external-content-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-05-15"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Workday external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,17 +19,17 @@ Specify the content types you want your Workday external content connector to re
 
 ## Before you begin
 
-A connector administrator must have already created the Workday external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-workday.md).
+A connector administrator must have already created the Workday external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-workday.md).
 
 A Workday admin must have already completed the preliminary tasks shown in the following table.
 
 |Preliminary task|Description|
 |----------------|-----------|
-|[Configure Workday security settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-workday-security-settings.md)|Required task.|
-|[Configure access to help articles in Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-public-help-articles-workday.md)|Optional task. Only required if you want the connector to retrieve searchable content and metadata from help articles accessible by all users in your Workday organization.|
-|[Configure a payslip report in Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-payslip-report-workday.md)|Optional task. Only required if you want the connector to retrieve searchable content and metadata from payroll data.|
-|[Configure a Learning assignment custom report in Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-learning-assignment-report-workday.md) and [Get Workday task code for Find Learning Assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/get-workday-task-code-learning-assignments.md)|Optional tasks. Only required if you want the connector to retrieve searchable content and metadata from Learning assignment data.|
-|[Get Workday task code for My Team's Birthday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/get-workday-task-code-birthday.md) and [Get Workday task code for My Team Anniversaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/get-workday-task-code-anniversaries.md)|Optional tasks. Only required if you want the connector to retrieve searchable content and metadata from Manager hub data.|
+|[Configure Workday security settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-workday-security-settings.md)|Required task.|
+|[Configure access to help articles in Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-public-help-articles-workday.md)|Optional task. Only required if you want the connector to retrieve searchable content and metadata from help articles accessible by all users in your Workday organization.|
+|[Configure a payslip report in Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-payslip-report-workday.md)|Optional task. Only required if you want the connector to retrieve searchable content and metadata from payroll data.|
+|[Configure a Learning assignment custom report in Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-learning-assignment-report-workday.md) and [Get Workday task code for Find Learning Assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/get-workday-task-code-learning-assignments.md)|Optional tasks. Only required if you want the connector to retrieve searchable content and metadata from Learning assignment data.|
+|[Get Workday task code for My Team's Birthday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/get-workday-task-code-birthday.md) and [Get Workday task code for My Team Anniversaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/get-workday-task-code-anniversaries.md)|Optional tasks. Only required if you want the connector to retrieve searchable content and metadata from Manager hub data.|
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -131,7 +131,7 @@ Learning assignment manager view task code
 
 </td><td>
 
-Task code for the Find Learning Assignments task in your Workday tenant.If you don't have this task code, ask a Workday manager who has access to the Find Learning Assignments task for it. For details on how to find this task code, see [Get Workday task code for Find Learning Assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/get-workday-task-code-learning-assignments.md).
+Task code for the Find Learning Assignments task in your Workday tenant.If you don't have this task code, ask a Workday manager who has access to the Find Learning Assignments task for it. For details on how to find this task code, see [Get Workday task code for Find Learning Assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/get-workday-task-code-learning-assignments.md).
 
 </td></tr><tr><td>
 
@@ -169,7 +169,7 @@ Birthday task code
 
 </td><td>
 
-Task code for the My Team's Birthday task in your Workday tenant.If you don't have this task code, ask a Workday manager who has access to the My Team's Birthday task for it. For details on how to find this task code, see [Get Workday task code for My Team's Birthday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/get-workday-task-code-birthday.md).
+Task code for the My Team's Birthday task in your Workday tenant.If you don't have this task code, ask a Workday manager who has access to the My Team's Birthday task for it. For details on how to find this task code, see [Get Workday task code for My Team's Birthday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/get-workday-task-code-birthday.md).
 
 </td></tr><tr><td>
 
@@ -177,7 +177,7 @@ Anniversary task code
 
 </td><td>
 
-Task code for the My Team Anniversaries task in your Workday tenant.If you don't have this task code, ask a Workday manager who has access to the My Team Anniversaries task for it. For details on how to find this task code, see [Get Workday task code for My Team Anniversaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/get-workday-task-code-anniversaries.md).
+Task code for the My Team Anniversaries task in your Workday tenant.If you don't have this task code, ask a Workday manager who has access to the My Team Anniversaries task for it. For details on how to find this task code, see [Get Workday task code for My Team Anniversaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/get-workday-task-code-anniversaries.md).
 
 </td></tr></tbody>
 </table>8.  If you want AI Search to automatically generate captions for content in attachments and files retrieved by the connector, select the **Multimodal captions** option.
@@ -186,8 +186,8 @@ Task code for the My Team Anniversaries task in your Workday tenant.If you don't
 
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
-    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 9.  Select **Save and validate**.
 
 
@@ -197,7 +197,7 @@ The Workday external content connector is updated with your modified crawl setti
 
 ## What to do next
 
-To retrieve content from your Workday source system using your modified crawl settings, create and run a one-time content crawl for your Workday external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
+To retrieve content from your Workday source system using your modified crawl settings, create and run a one-time content crawl for your Workday external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/workday-external-content-connector.md)
+**Parent Topic:**[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/workday-external-content-connector.md)
 

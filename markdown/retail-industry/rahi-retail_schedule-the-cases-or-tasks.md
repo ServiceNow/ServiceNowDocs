@@ -2,7 +2,7 @@
 title: Schedule the store plan
 description: Schedule the store plan based on the requirement- immediate, one time, or recurring. Once the store plan gets scheduled, it automates the case and task generation which reduces manual work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail\_schedule-the-cases-or-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail\_schedule-the-cases-or-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,5 +51,5 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 
 The summary gets generated based on the store plan schedule.
 
-**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plan-authoring.md)
+**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-manage-store-plan-authoring.md)
 

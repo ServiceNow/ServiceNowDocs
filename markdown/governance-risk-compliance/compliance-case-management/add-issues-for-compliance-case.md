@@ -2,7 +2,7 @@
 title: Add an issue for a compliance case
 description: Identify and add an issue that is related to the impacted areas of a reported compliance case. You can also create an issue from the GRC: Compliance Case Management landing page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -55,14 +55,14 @@ Action
 
 </td><td>
 
-See the [Create an Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-issue-compliance-ws.md).
+See the [Create an Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/create-issue-compliance-ws.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
 
 
--   **[Create an Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-issue-compliance-ws.md)**  
+-   **[Create an Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/create-issue-compliance-ws.md)**  
 Use the Create an Issue form in GRC: Compliance Case Management to add an issue to a compliance case, report findings or observations or compliance deficiencies, or matters that require immediate attention from the respective owners.
 
-**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

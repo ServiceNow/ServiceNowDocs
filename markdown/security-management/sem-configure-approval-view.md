@@ -2,10 +2,10 @@
 title: Configure Approval List and Form View
 description: Optimize the review and approval process by configuring list views and form layouts for unified exception and approval management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-approval-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-approval-view.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Unified Approvals View, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -50,5 +50,5 @@ Role required: Admin
         **Note:** Admins can see additional filtering options and widgets such as: **Pending approvals**, **Today's approvals**, **Exception Approvals**, **False Positive Approvals**
 
 
-**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-view.md)
+**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approval-view.md)
 

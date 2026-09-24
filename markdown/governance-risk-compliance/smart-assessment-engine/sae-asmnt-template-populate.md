@@ -2,7 +2,7 @@
 title: Add instructions and questions to an assessment template
 description: Add instructions and questions to an assessment template by using the Smart Assessment Engine application. You can use instructions and questions to help gather precise and relevant information from designated responders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -112,14 +112,14 @@ Role that is required to view an assessment that is generated from this template
 
     |Description|Location|
     |-----------|--------|
-    |Create and configure text type questions.|[Create a text question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-text-create.md)|
-    |Create and configure drop-down list type questions.|[Create a drop-down list question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-drop-down-create.md)|
-    |Create and configure radio button type questions.|[Create a radio button question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-radio-button-create.md)|
-    |Create and configure check box type questions.|[Create a check box question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-check-box-create.md)|
-    |Create and configure number type questions.|[Create a number question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-number-create.md)|
-    |Create and configure reference type questions.|[Create a reference question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-reference-create.md)|
-    |Create and configure attachment type questions.|[Create an attachment question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-attachment-create.md)|
-    |Create and configure date type questions.|[Create a date question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-date-create.md)|
-    |Create and configure code type questions.|[Create a code question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-q-code-create.md)|
+    |Create and configure text type questions.|[Create a text question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-q-text-create.md)|
+    |Create and configure drop-down list type questions.|[Create a drop-down list question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-q-drop-down-create.md)|
+    |Create and configure radio button type questions.|[Create a radio button question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-q-radio-button-create.md)|
+    |Create and configure check box type questions.|[Create a check box question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-q-check-box-create.md)|
+    |Create and configure number type questions.|[Create a number question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-q-number-create.md)|
+    |Create and configure reference type questions.|[Create a reference question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-q-reference-create.md)|
+    |Create and configure attachment type questions.|[Create an attachment question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-q-attachment-create.md)|
+    |Create and configure date type questions.|[Create a date question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-q-date-create.md)|
+    |Create and configure code type questions.|[Create a code question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-q-code-create.md)|
 
 

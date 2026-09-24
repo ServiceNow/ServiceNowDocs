@@ -2,7 +2,7 @@
 title: Set up table notifications for task tables
 description: You can set up a table notification for a task table to enable automatic Live Feed messages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_SetUpATableNotifForATaskTable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/t\_SetUpATableNotifForATaskTable.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -158,7 +158,7 @@ Create a script that runs before a notification is generated. The script runs on
 </table>4.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Live Feed table notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_SetUpLiveFeedTableNotifications.md)
+**Parent Topic:**[Live Feed table notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_SetUpLiveFeedTableNotifications.md)
 
 **Related topics**  
 

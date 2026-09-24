@@ -2,7 +2,7 @@
 title: Automated testing for Virtual Agent topics that use NLU topic discovery
 description: Automated testing for your Virtual Agent topic flows uses the ServiceNow Automated Test Framework product through Assistant Designer. You can create and run automated tests through the Automated Test Framework to confirm that your topic flow works after making a change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/automated-testing-va-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/automated-testing-va-topics.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,12 +24,12 @@ Working with test cases is only available if you have:
 -   Received one of the following roles: atf\_test\_designer, atf\_ws\_designer, atf\_test\_admin, virtual\_agent\_admin, or admin.
 -   Published topics with one of the following topic types: **Topic**, **Setup Topic**, or **Small talk**.
 
--   **[Create an automated test in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-automated-test-vad.md)**  
+-   **[Create an automated test in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-automated-test-vad.md)**  
 Create automated tests in Assistant Designer Asset library, and run tests regularly against ideal conversation topic flows. You can create multiple automated tests for a topic to capture different conversation flows for various situations such as ideal conversation paths or errors.
--   **[Manage and run automated test cases in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/manage-automated-test-cases.md)**  
+-   **[Manage and run automated test cases in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/manage-automated-test-cases.md)**  
 Run reusable test cases of your published topics using the Automated Test Framework through Assistant Designer Asset library to identify performance issues and prevent regressions before production.
--   **[Handle failures caused by dynamic inputs in user testing of Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/t_handle-dynamic-inputs-user-testing.md)**  
+-   **[Handle failures caused by dynamic inputs in user testing of Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/t_handle-dynamic-inputs-user-testing.md)**  
 Avoid failures when performing automated tests for topics in Assistant Designer by controlling which inputs that you want to run as part of a test case.
 
-**Parent Topic:**[Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md)
+**Parent Topic:**[Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-designer-testing.md)
 

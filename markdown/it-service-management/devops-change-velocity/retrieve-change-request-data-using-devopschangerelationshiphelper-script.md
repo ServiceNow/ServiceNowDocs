@@ -2,7 +2,7 @@
 title: Retrieve change request data using DevOpsChangeRelationshipHelper script
 description: Retrieve data associated with a change request based on the specified relation type using the DevOpsChangeRelationshipHelper script include.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/retrieve-change-request-data-using-devopschangerelationshiphelper-script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/retrieve-change-request-data-using-devopschangerelationshiphelper-script.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -96,5 +96,5 @@ try {
 
 ```
 
-**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

@@ -2,7 +2,7 @@
 title: View or modify a case from the Customer Service Portal
 description: View or modify the information in a selected customer service case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ViewOrModCaseFromCustSlfServPrt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_ViewOrModCaseFromCustSlfServPrt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ Depending on the role of the current user, the Case list displays:
 **Related topics**  
 
 
-[Close a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-close-case-from-portal.md)
+[Close a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-close-case-from-portal.md)
 
-[Complete a customer service satisfaction survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ComACustServSatSurvey.md)
+[Complete a customer service satisfaction survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ComACustServSatSurvey.md)
 

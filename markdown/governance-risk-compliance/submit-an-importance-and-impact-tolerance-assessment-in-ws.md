@@ -2,7 +2,7 @@
 title: Submit the assessment
 description: Log in as an assessor of the Importance and impact tolerance assessment, respond to the questionnaire, and submit the assessment in Operational Resilience Workspace for an approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/submit-an-importance-and-impact-tolerance-assessment-in-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/submit-an-importance-and-impact-tolerance-assessment-in-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -89,5 +89,5 @@ Role required: sn\_oper\_res.manager
 
 ## What to do next
 
-The owner of the Importance and impact tolerance assessment \(IIA\) requests for an approval. For more information, see [Request an approval for the assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/verify-response-to-the-assessment-in-ws.md). If no approvers are specified, the record moves to the **Approved** state.
+The owner of the Importance and impact tolerance assessment \(IIA\) requests for an approval. For more information, see [Request an approval for the assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/verify-response-to-the-assessment-in-ws.md). If no approvers are specified, the record moves to the **Approved** state.
 

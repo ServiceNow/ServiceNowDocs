@@ -2,7 +2,7 @@
 title: CSM integration with Problem Management
 description: Integration with the Problem Management application enables customer service agents to create problem records from cases or associate existing problem records to cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-integration-sm-problem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-integration-sm-problem.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ The following roles enable customer service agents to view and create problems f
 -   sn\_problem\_read
 -   sn\_problem\_write
 
-For more information, see [Assign CSM/ITSM integration roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/assign-csm-itsm-integration-roles.md).
+For more information, see [Assign CSM/ITSM integration roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/assign-csm-itsm-integration-roles.md).
 
 ## Synchronizing data between the problem and the case
 

@@ -2,7 +2,7 @@
 title: Activate Digital Operational Resilience Act \(DORA\) framework
 description: You can activate the Digital Operational Resilience Act \(DORA\) framework from the unified content management landing page and install the associated citations into your compliance library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/activate-digital-operational-resilience-act-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/activate-digital-operational-resilience-act-framework.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

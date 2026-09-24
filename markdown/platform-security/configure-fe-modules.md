@@ -2,7 +2,7 @@
 title: Configure Field Encryption modules
 description: Learn how to configure Field Encryption modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-fe-modules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configure-fe-modules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
 2.  Select the module you want to configure.
 
-    To create a new module, see [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-PE-cryptographic-module.md).
+    To create a new module, see [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/create-PE-cryptographic-module.md).
 
 3.  In the Module Overview fill out the fields as shown here.
 
@@ -90,7 +90,7 @@ Defines which encryption scheme will be used to encrypt fields associated with t
 
 ## What to do next
 
-Configure the purpose, algorithm, key length, mode, and origin of your encryption key in [Cryptographic specifications for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-fe-crypto-specs.md).
+Configure the purpose, algorithm, key length, mode, and origin of your encryption key in [Cryptographic specifications for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-fe-crypto-specs.md).
 
-**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-column-level-encryption.md)
 

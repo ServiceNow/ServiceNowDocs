@@ -2,7 +2,7 @@
 title: Automated Test Framework use case: test a Service Catalog request
 description: This use case illustrates testing a service catalog request with the Automated Test Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-serv-cat-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-serv-cat-use.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -139,10 +139,10 @@ With the Replay Request Item test step, you can test the service catalog orderin
     \[Omitted image "atf-use-sc-step-16.png"\] Alt text: Record validation test step
 
 
-**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-use-cases.md)
 
 **Related topics**  
 
 
-[Replay Request Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-server-category.md)
+[Replay Request Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/test-steps-server-category.md)
 

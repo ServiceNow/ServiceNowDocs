@@ -2,7 +2,7 @@
 title: Explore Now Assist AI asset discovery
 description: Explore the synchronizing process of AI assets including models, datasets, prompts, skills, and agentic AI components into the AI Asset Inventory of AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/now-assist-asset-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/now-assist-asset-discovery.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

@@ -2,7 +2,7 @@
 title: Create a GRC indicator
 description: Create an Indicator to monitor the controls and risks and collect evidence of performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_CreateAnIndicator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/t\_CreateAnIndicator.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -165,7 +165,7 @@ Due date duration in days between the creation and due date of the indicator tas
 
 This field appears only when **Manual** is selected from the **Type** field.
 
-For more information, see [Performance enhancements for Indicator nightly job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/performance-enhancements-indicator-jobs.md).
+For more information, see [Performance enhancements for Indicator nightly job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/performance-enhancements-indicator-jobs.md).
 
 </td></tr><tr class="sub-head"><td class="sub-head" colspan="2">
 
@@ -278,5 +278,5 @@ Number of records to select for the supporting data.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Manage GRC key risk and control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/continuous-monitoring.md)
+**Parent Topic:**[Manage GRC key risk and control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/continuous-monitoring.md)
 

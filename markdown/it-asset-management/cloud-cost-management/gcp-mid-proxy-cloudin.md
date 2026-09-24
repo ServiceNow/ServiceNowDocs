@@ -2,7 +2,7 @@
 title: Proxy server configuration for Cloud Cost Management MID Server
 description: You can configure any MID Server to use a proxy server for Cloud Cost Management operations. Proxy servers support all cloud-based activities such as running Discovery, Billing Download jobs, and Price Sheet Download jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/gcp-mid-proxy-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/gcp-mid-proxy-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

@@ -2,7 +2,7 @@
 title: Copy a flow or subflow in SAP Ariba
 description: You can create a copy of the a flow or subflow, and modify based on your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/copy-subflow-sap-ariba.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/copy-subflow-sap-ariba.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -52,12 +52,12 @@ Role required: sn\_fcms\_intg.admin, sn\_shop.procurement\_specialist, connectio
 
     **Note:**
 
-    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md).
+    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md).
 
     You have successfully copied and executed the flow.
 
 
-**Parent Topic:**[Use flows in SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/use-flows-sap-ariba.md)
+**Parent Topic:**[Use flows in SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/use-flows-sap-ariba.md)
 
 **Related topics**  
 

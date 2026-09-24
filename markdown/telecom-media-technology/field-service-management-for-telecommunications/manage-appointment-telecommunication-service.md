@@ -2,7 +2,7 @@
 title: Manage appointments for telecommunication services
 description: Manage the appointments for the field services to enable the installation, activation, and site assessments that are needed for connectivity services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/field-service-management-for-telecommunications/manage-appointment-telecommunication-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/field-service-management-for-telecommunications/manage-appointment-telecommunication-service.html
 release: australia
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications

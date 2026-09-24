@@ -2,7 +2,7 @@
 title: Request a dataset
 description: Request a dataset to support AI model training, testing, validation, or analytical use cases. This process helps ensure data sources are reviewed for quality, privacy, and compliance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/request-dataset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/request-dataset.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -62,7 +62,7 @@ Description
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For full descriptions of the fields for the Request an AI dataset form, see [Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-dataset-form.md). For more information, on adding a dataset using the AI Control Tower, see [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-dataset-assets.md).
+    For full descriptions of the fields for the Request an AI dataset form, see [Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-dataset-form.md). For more information, on adding a dataset using the AI Control Tower, see [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-dataset-assets.md).
 
 3.  To add attachments, select **Add attachments**.
 
@@ -85,12 +85,12 @@ For more information, see [AI Control Tower dashboard](https://raw.githubusercon
 
 Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]: Assess the dataset for regulatory, policy, and risk considerations. Assign risk assessments, recommend controls and attestations, and monitor compliance throughout the dataset and associated AI system life cycle.
 
-For more information, see [AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.md), [Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md), [Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md), [Initiate risk assessment on AI asset's risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.md), and [Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md).
+For more information, see [AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.md), [Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md), [Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md), [Initiate risk assessment on AI asset's risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.md), and [Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md).
 
-For an overview of how AI systems and datasets move from intake through assessment, deployment, monitoring, and value tracking, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
+For an overview of how AI systems and datasets move from intake through assessment, deployment, monitoring, and value tracking, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
 
--   **[Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-dataset-form.md)**  
+-   **[Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-dataset-form.md)**  
 The Request a dataset form is designed to streamline the request process for procuring a dataset. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

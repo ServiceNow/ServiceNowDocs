@@ -2,7 +2,7 @@
 title: Create healthcare organizations for your biomed support teams
 description: Create a healthcare organization to represent the fulfilling healthcare organization for healthcare biomed cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-create-org.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-biomed-create-org.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

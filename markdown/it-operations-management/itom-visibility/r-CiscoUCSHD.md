@@ -2,7 +2,7 @@
 title: Cisco Unified Computing System \(UCS\)-HD device discovery
 description: Discovery and Service Mapping Patterns application uses the to find Cisco UCS equipment, including chassis and blades. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-CiscoUCSHD.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r-CiscoUCSHD.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -122,5 +122,5 @@ These relationships are created to support UCS - HD discovery.
 |cmdb\_ci\_ucs\_equipment|Contains::Contained by|cmdb\_ci\_ucs\_chassis|
 |cmdb\_ci\_server|Runs on::Runs|cmdb\_ci\_ucs\_blade|
 
-**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

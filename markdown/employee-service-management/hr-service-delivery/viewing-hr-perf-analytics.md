@@ -2,7 +2,7 @@
 title: Viewing HR Performance Analytics Scoped
 description: HR Performance Analytics for the scoped version of HR Service Delivery helps you align resources and systems to strategic objectives.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/viewing-hr-perf-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/viewing-hr-perf-analytics.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -90,5 +90,5 @@ The **Performance Analytics** dashboard provides the following reports.
 
 For more information about performance analytics and how to develop and modify widgets for your organization, see [Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PerformanceAnalytics.md) .
 
-**Parent Topic:**[Performance Analytics for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/scoped-hr-performance-analytics.md)
+**Parent Topic:**[Performance Analytics for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/scoped-hr-performance-analytics.md)
 

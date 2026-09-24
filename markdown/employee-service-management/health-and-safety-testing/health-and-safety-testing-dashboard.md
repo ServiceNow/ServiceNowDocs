@@ -2,7 +2,7 @@
 title: Health and Safety Testing dashboard
 description: Use the Health and Safety Testing dashboard to gain insight on the health of your users with reports detailing testing trends, the types of tests performed, and approvals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-testing/health-and-safety-testing-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-testing/health-and-safety-testing-dashboard.html
 release: australia
 product: Health and Safety Testing
 classification: health-and-safety-testing
@@ -77,5 +77,5 @@ sn\_imt\_core.admin
 |Employee Testing Rate \(Monthly\)|Line\[Omitted image "line-icon.png"\] Alt text: Line icon|Testing rate of users in your organization for the month.|
 |Test Results \(Monthly\)|Stacked bar chart\[Omitted image "stacked-bar-chart.png"\] Alt text: Stacked bar chart icon|The monthly number of test results reported \(positive, negative, and inconclusive\).|
 
-**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/health-safety-testing.md)
+**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-testing/health-safety-testing.md)
 

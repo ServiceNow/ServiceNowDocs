@@ -2,7 +2,7 @@
 title: Domain separation and Software Asset Management
 description: Domain separation is supported in Software Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/domain-separation-software-asset-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/domain-separation-software-asset-management.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -84,10 +84,10 @@ Avoid customizing the base system domain configuration record. For more informat
 
 To learn more, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md), [Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-contains-domain-visibility.md), and [Importance of Default domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-default-domain.md).
 
--   **[Domain separation and lifecycle reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/domain-sep-sam-lifecycle.md)**  
+-   **[Domain separation and lifecycle reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/domain-sep-sam-lifecycle.md)**  
 There are certain domain separation aspects to consider when running software lifecycle reports.
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 
 **Related topics**  
 

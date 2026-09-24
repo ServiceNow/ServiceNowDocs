@@ -2,7 +2,7 @@
 title: Manage appointments in the navigator
 description: Viewing upcoming scheduled Walk-up Experience appointments provides technicians with an estimate of future queue demand and workload. Managers can view future appointments and adjust staffing at walk-up queue locations to best support demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-view-manage-appointment-nav.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-walkup-view-manage-appointment-nav.html
 release: australia
 topic_type: task
 last_updated: "2026-06-25"

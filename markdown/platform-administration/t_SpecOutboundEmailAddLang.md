@@ -2,7 +2,7 @@
 title: Specify an outbound email address for a particular language
 description: You can specify a different email address for each language your instance supports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SpecOutboundEmailAddLang.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_SpecOutboundEmailAddLang.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: admin
     All notifications for that event originate from the specified email address and go out in the language of the recipient.
 
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateANotification.md)
 

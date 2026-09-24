@@ -2,7 +2,7 @@
 title: Track collaboration activity via MSIM workspace
 description: Track chat and file activities related to resolving major security incidents through the MSIM Workspace.The File Explorer displays the file system so you can view and interact with files and folders related to resolving the incident.The Chat Channel Manager displays Microsoft Teams with multiple channels created in the Microsoft Teams application based on a configuration template setup.The Chat Channel Manager displays Slack with multiple channels created in the Slack application based on a configuration template setup.Displays all the activities, logs, status that were performed on Microsoft SharePoint, File explorer, and Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/collab-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/collab-tab.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +27,7 @@ When a security incident is promoted as major security incident:
 
 Role required: sn\_msi.workspace\_manager.
 
-**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 

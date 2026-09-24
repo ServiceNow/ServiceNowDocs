@@ -2,7 +2,7 @@
 title: Configure gamification properties
 description: Configure gamification properties to meet your company's needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-configure-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/gamification-configure-properties.html
 release: australia
 product: Communities
 classification: communities
@@ -32,8 +32,8 @@ Role required: sn\_gamification.admin
 
 4.  Click **Save**.
 
-    Additional properties can be configured for the gamification feature. For more information, see [Gamification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-properties.md).
+    Additional properties can be configured for the gamification feature. For more information, see [Gamification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/communities-properties.md).
 
 
-**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-administer.md)
+**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/communities-gamification-administer.md)
 

@@ -2,7 +2,7 @@
 title: ServiceNow for Microsoft Teams and Microsoft 365
 description: The ServiceNow integrations with Microsoft Teams and Microsoft 365 help you to create a better, more connected experience for your users. It drives productivity for the entire enterprise because employees get seamless self-service and agents can resolve their cases faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/c\_ServiceNowForMSTeams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/c\_ServiceNowForMSTeams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +21,7 @@ The ServiceNow integrations with Microsoft Teams and Microsoft 365 help you to c
 -   From [IT Service Management for Microsoft 365](https://store.servicenow.com/sn_appstore_store.do#!/store/application/14eb9da8c3f310102986a81c8640dd08/2.6.7?referer=%2Fstore%2Fproduct%2F9389b69edbb8e810d27e581adc9619ca) \(version 2.6.7\), ServiceNow for Microsoft Teams is upgraded to ServiceNow for Microsoft 365.
 -   From [HR Service Delivery for Microsoft 365](https://store.servicenow.com/sn_appstore_store.do#!/store/application/23364660c3b31010aab55b79c840ddc2/3.3.6?referer=%2Fstore%2Fproduct%2F9389b69edbb8e810d27e581adc9619ca) \(version 3.3.6\), ServiceNow for Microsoft Teams is upgraded to ServiceNow for Microsoft 365.
 
-For upgrading existing Microsoft Teams capabilities to Microsoft 365 applications, see [Integrating ServiceNow with Microsoft 365 applications for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-ms365.md).
+For upgrading existing Microsoft Teams capabilities to Microsoft 365 applications, see [Integrating ServiceNow with Microsoft 365 applications for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-ms365.md).
 
 ServiceNow for Microsoft Teams extends the Now Virtual Agent \(VA\) integration with Microsoft Teams to enable employees effectively request and receive service from within Microsoft Teams.
 
@@ -43,14 +43,14 @@ Capabilities included
 
 </th></tr></thead><tbody><tr><td rowspan="3">
 
-[Enhance Employee Experience by integrating ServiceNow with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_experience.md)
+[Enhance Employee Experience by integrating ServiceNow with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_employee_experience.md)
 
 </td><td>
 
 -   IT Service Management Pro, or
 -   IT Service Management Standard
 
- To implement IT Service Management integration with Microsoft Teams, see [IT Service Management integration with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-teams.md).
+ To implement IT Service Management integration with Microsoft Teams, see [IT Service Management integration with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-ms-teams.md).
 
 </td><td>
 
@@ -60,7 +60,7 @@ Capabilities included
 
 </td></tr><tr><td>
 
-HR Service Delivery Pro for full Virtual AgentTo implement HR Service Delivery integration with Microsoft Teams, see [HR Service Delivery integration with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-teams-hr.md).
+HR Service Delivery Pro for full Virtual AgentTo implement HR Service Delivery integration with Microsoft Teams, see [HR Service Delivery integration with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-ms-teams-hr.md).
 
 </td><td>
 
@@ -70,7 +70,7 @@ HR Service Delivery Pro for full Virtual AgentTo implement HR Service Delivery i
 
 </td></tr><tr><td>
 
-For upgrading existing Microsoft Teams capabilities to Microsoft 365 applications, see [Integrating ServiceNow with Microsoft 365 applications for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-ms365.md).
+For upgrading existing Microsoft Teams capabilities to Microsoft 365 applications, see [Integrating ServiceNow with Microsoft 365 applications for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-ms365.md).
 
 </td><td>
 
@@ -115,7 +115,7 @@ Use ServiceNow Virtual Agent with Microsoft Teams
 
 </td></tr><tr><td>
 
-[Enhance Agent Experience by integrating Major incident Management workbench with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_agent_experience.md)
+[Enhance Agent Experience by integrating Major incident Management workbench with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_agent_experience.md)
 
 </td><td>
 
@@ -123,9 +123,9 @@ Use ServiceNow Virtual Agent with Microsoft Teams
 -   Major Incident Management
 -   Chat to Call
 
- To implement the Notify connector for Microsoft Teams, see [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md).
+ To implement the Notify connector for Microsoft Teams, see [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md).
 
- To implement Meeting Extensions with Microsoft Teams, see [Meeting Extensions for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/meeting-extensibility-ms-teams.md).
+ To implement Meeting Extensions with Microsoft Teams, see [Meeting Extensions for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/meeting-extensibility-ms-teams.md).
 
 </td><td>
 
@@ -138,7 +138,7 @@ Enhance Employee and Agent experience by integrating ServiceNow with Microsoft T
 
 </td><td>
 
-To integrate ServiceNow with Microsoft Teams for Government Community Cloud - High \(GCC-H\) or US Department of Defense \(DoD\), see [Integrating ServiceNow with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-gcch.md).
+To integrate ServiceNow with Microsoft Teams for Government Community Cloud - High \(GCC-H\) or US Department of Defense \(DoD\), see [Integrating ServiceNow with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-gcch.md).
 
 </td><td>
 
@@ -164,7 +164,7 @@ Universal Request integrations
 
 </td><td>
 
-Universal RequestTo implement Universal Request integration with Microsoft Teams, see [Universal Request integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-teams-ur.md).
+Universal RequestTo implement Universal Request integration with Microsoft Teams, see [Universal Request integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-ms-teams-ur.md).
 
 </td><td>
 
@@ -173,27 +173,27 @@ Enables employees to create universal requests directly from Microsoft Teams, vi
 </td></tr></tbody>
 </table><table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how agents and employees use ServiceNow for Microsoft Teams.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/explore-sn-teams.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how agents and employees use ServiceNow for Microsoft Teams.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/explore-sn-teams.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-sn-ms-teams.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-sn-ms-teams.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Extend Teams integrated capabilities with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/integrate-sn-teams.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Extend Teams integrated capabilities with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/integrate-sn-teams.md)
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "bus-documentation.svg"\] Alt text: Manage and customise Microsoft Teams chat messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-sn-teams.md)
+[Manage \[Omitted image "bus-documentation.svg"\] Alt text: Manage and customise Microsoft Teams chat messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/manage-sn-teams.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Microsoft integration with various applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_using_sn_ms_teams.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Microsoft integration with various applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_using_sn_ms_teams.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: See reusable reference content for Microsoft Teams integrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/reference-sn-teams.md)
+[Reference \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: See reusable reference content for Microsoft Teams integrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/reference-sn-teams.md)
 
 </td></tr></tbody>
 </table>## Additional resources

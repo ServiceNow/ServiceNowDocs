@@ -2,7 +2,7 @@
 title: Microsoft Azure discovery solutions comparison
 description: ITOM Visibility applications discover a variety of Microsoft Azure resources and populate the relevant configuration item \(CI\) classes in the Configuration Management Database \(CMDB\) with their attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/azure-discovery-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/azure-discovery-methods.html
 release: australia
 product: Discovery
 classification: discovery
@@ -39,12 +39,12 @@ Discovery and Service Mapping Patterns and Visibility Content
 
 </td><td>
 
-[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
+[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
 </td><td>
 
 -   You must update your store apps to the latest release version.
--   You must provide ITOM Visibility with access permissions. For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-azure-service-accounts.md)
+-   You must provide ITOM Visibility with access permissions. For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/setup-azure-service-accounts.md)
 
 </td></tr><tr><td>
 
@@ -1284,5 +1284,5 @@ No
 cmdb\_azure\_service\_endpoint\_policy\_service\_endpoint\_policy
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-methods-comparison.md)
+</table>**Parent Topic:**[Cloud discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cloud-discovery-methods-comparison.md)
 

@@ -2,7 +2,7 @@
 title: Publish a scenario
 description: After creating a scenario and implementing the space allocation and assignment, assignment type change for a department, cost center, or neighborhood publish the scenario. Share the scenario with your colleagues or stake holders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/publish-a-scenario.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/publish-a-scenario.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -20,7 +20,7 @@ After creating a scenario and implementing the space allocation and assignment, 
 
 [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-**Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
+**Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
 
 \[Omitted image "wsd-central-review-changes.png"\] Alt text: Space details panel displaying a warning about reviewing allocation changes.
 
@@ -30,7 +30,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
 Publish a scenario after it’s created so that it’s available for others to view in a read-only mode. Share the scenario with your colleagues or stakeholders to review in a read-only mode. Access the published scenario from the Space optimization module.
 
-When you publish a scenario, the state of the scenario changes from **Draft** state to **Ready** state. For more information about the states of a scenario, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
+When you publish a scenario, the state of the scenario changes from **Draft** state to **Ready** state. For more information about the states of a scenario, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
 
 ## Procedure
 
@@ -46,15 +46,15 @@ When you publish a scenario, the state of the scenario changes from **Draft** st
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d111775e159">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d111779e159">
 
 Path
 
-</th><th align="left" id="d111775e162">
+</th><th align="left" id="d111779e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d111775e168">
+</th></tr></thead><tbody><tr><td id="d111779e168">
 
 **From the Scenarios list section**
 
@@ -68,7 +68,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d111775e193">
+</td></tr><tr><td id="d111779e193">
 
 **From the Buildings list section**
 
@@ -87,7 +87,7 @@ The stack plan view of the building opens.
 
 4.  Review the scenario in the Stack plan or Floor map as required.
 
-    Refer to [Review a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/review-a-scenario.md).
+    Refer to [Review a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/review-a-scenario.md).
 
 5.  Select **Publish**.
 
@@ -104,9 +104,9 @@ View all the scenario real estate and allocation changes in detail using the **S
 
 ## What to do next
 
-[Send a scenario for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/send-a-scenario-for-approval.md)
+[Send a scenario for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/send-a-scenario-for-approval.md)
 
-**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 

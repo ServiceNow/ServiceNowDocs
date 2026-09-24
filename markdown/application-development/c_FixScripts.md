@@ -2,7 +2,7 @@
 title: Fix scripts
 description: A fix script is server-side JavaScript code that you run after an application is installed or upgraded.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_FixScripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_FixScripts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

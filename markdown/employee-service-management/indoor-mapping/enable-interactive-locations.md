@@ -2,7 +2,7 @@
 title: Manage Directions
 description: Directions are used to compute routes from point A to point B on the map. Map administrators can manually draw lines on the floor map areas where people are allowed to walk within a building. This cannot be automated and has to be done manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/enable-interactive-locations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/enable-interactive-locations.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -28,7 +28,7 @@ Role required: map admin, map editor, map editor limited
     -   **Default**: Configured for general public and pedestrians.
 2.  New direction modes require icons.
 
-    For more information, see [Create Indoor Mapping icons and place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/place-icons-place-type.md)
+    For more information, see [Create Indoor Mapping icons and place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/place-icons-place-type.md)
 
 3.  To create a new direction mode, navigate to **All** &gt; **Indoor Mapping** &gt; **Direction modes**.
 
@@ -136,7 +136,7 @@ Option to activate the direction mode on the map.**Note:** Turning off the direc
 
 18. Once the direction graph is complete, make sure you clearly identify the connectors to link your floors together.
 
-    For more information, see [Create a connector type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/create-connectors.md).
+    For more information, see [Create a connector type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/create-connectors.md).
 
 19. Select the **Display settings** icon \[Omitted image "manage-directions-new-toggle-icon.png"\] Alt text: Manage directions toggle optionadjacent to the **Save** button.
 
@@ -144,7 +144,7 @@ Option to activate the direction mode on the map.**Note:** Turning off the direc
 
 21. Select the node that represents a connector and ensure that the correct building is selected.
 
-    For more information, see [Create a connector type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/create-connectors.md).
+    For more information, see [Create a connector type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/create-connectors.md).
 
 22. After creating the connectors, link additional floors of your building together.
 
@@ -172,7 +172,7 @@ Option to activate the direction mode on the map.**Note:** Turning off the direc
 
 32. Select **Copy directions**.
 
-    This option helps in mapping or copying directions where several floors have the same layout. You can also reuse directions defined for a previous floor. For more information, see [Copy direction graphs to multiple floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/copy-directions-multiple-floors.md).
+    This option helps in mapping or copying directions where several floors have the same layout. You can also reuse directions defined for a previous floor. For more information, see [Copy direction graphs to multiple floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/copy-directions-multiple-floors.md).
 
 33. Click **Save** to save all your changes.
 
@@ -185,14 +185,14 @@ Option to activate the direction mode on the map.**Note:** Turning off the direc
 37. If you want to remove a content, select it and click **Delete**.
 
 
--   **[Create a connector type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/create-connectors.md)**  
+-   **[Create a connector type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/create-connectors.md)**  
 Create connectors \(stairs, elevators, escalators, ramps\) and activate the connector type in the View editor. Connector Type contains the style \(icon\) and properties for each connector.
--   **[Copy direction graphs to multiple floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/copy-directions-multiple-floors.md)**  
+-   **[Copy direction graphs to multiple floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/copy-directions-multiple-floors.md)**  
 Select a campus or building and copy floor direction graphs from a floor to a single floor or multiple floors in a building.
 
-**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Create Indoor Mapping icons and place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/place-icons-place-type.md)
+**Previous topic:**[Create Indoor Mapping icons and place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/place-icons-place-type.md)
 
-**Next topic:**[Create a connector type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/create-connectors.md)
+**Next topic:**[Create a connector type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/create-connectors.md)
 

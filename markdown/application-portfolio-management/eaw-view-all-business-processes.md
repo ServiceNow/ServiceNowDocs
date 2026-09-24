@@ -2,7 +2,7 @@
 title: View all business processes
 description: You can view the list of all available business processes in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-business-processes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-view-all-business-processes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,16 +29,16 @@ Role required: business\_process\_manager or asset or itil or sn\_apm.apm\_user
 4.  Select **Business Processes**.
 
 
-**Parent Topic:**[Manage business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-processes.md)
+**Parent Topic:**[Manage business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-business-processes.md)
 
 **Related topics**  
 
 
-[Add or edit a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-business-process.md)
+[Add or edit a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-business-process.md)
 
-[Manage architectural artifacts of a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bp.md)
+[Manage architectural artifacts of a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-assoicate-artifact-bp.md)
 
-[Create a diagram for a business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bp-map.md)
+[Create a diagram for a business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-bp-map.md)
 
-[Update a business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-update-bp-map.md)
+[Update a business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-update-bp-map.md)
 

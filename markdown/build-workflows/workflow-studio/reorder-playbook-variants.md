@@ -2,7 +2,7 @@
 title: Re-order playbook variants
 description: Change the order in which playbook variants are evaluated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/reorder-playbook-variants.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/reorder-playbook-variants.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -39,5 +39,5 @@ Playbook variants are evaluated from the top down at every level. The first vari
     Variants cannot be moved to different levels. They can only be reordered at the sibling level.
 
 
-**Parent Topic:**[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-variants.md)
+**Parent Topic:**[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-variants.md)
 

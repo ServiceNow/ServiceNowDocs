@@ -2,7 +2,7 @@
 title: Setting up an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration using HTTPS
 description: You can set up an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration for IBM compliance reporting.Set up IBM License Metric Tool \(ILMT\) and BigFix Inventory integration for IBM compliance reporting using an HTTPS connection with the MID Server.Set up IBM License Metric Tool \(ILMT\) and BigFix Inventory integration for IBM compliance reporting using an HTTPS connection without the MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/setting-up-ibm-ilmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/setting-up-ibm-ilmt.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -21,7 +21,7 @@ If you're using an HTTPS connection, you can use any of the following connection
 -   HTTPS with the MID Server
 -   HTTPS without the MID Server
 
-**Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md)
+**Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md)
 
 ## HTTPS with the MID Server
 
@@ -40,7 +40,7 @@ Role required: sys\_admin
 
 ### What to do next
 
-After you've finished uploading your certificates, [create a connection to ILMT/BigFix Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/set-up-ibm-platform.md).
+After you've finished uploading your certificates, [create a connection to ILMT/BigFix Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/set-up-ibm-platform.md).
 
 ## HTTPS without the MID Server
 
@@ -88,5 +88,5 @@ Role required: sys\_admin
 
 ### What to do next
 
-After you've finished uploading your certificates, [create a connection to ILMT/BigFix Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/set-up-ibm-platform.md).
+After you've finished uploading your certificates, [create a connection to ILMT/BigFix Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/set-up-ibm-platform.md).
 

@@ -2,7 +2,7 @@
 title: Table - Scoped, Global
 description: Creates a Table object to add to a PDF document. Defines the data to use in each cell and sets styles, margins, and alignment.Instantiates a new Table object with text direction, column width, and layout settings.Adds a cell element to the table.Adds a cell element with an applied style to the table.Adds a header Cell object to the table.Adds a cell that contains an image to the table.Adds a cell that contains a paragraph to the table.Adds a cell that contains a string to the table.Indicates that all the intended content has been added to a large table.Prevents splitting a row across two pages, when possible.Adds additional content to a table that is already added to a document.Returns the default style.Returns the style applied to the table's header.Sets a border of designated width around the outer edges of the table.Sets the table's default background color.Sets the default style to apply to the table.Sets the table to a fixed position on the page.Sets the Style object to apply to the table's header.Sets the horizontal alignment of the table.Sets all margins around the table to the same width.Sets the margin at the bottom of the page.Sets the margin at the left side of the page.Sets the margin at the right side of the page.Sets a margin at the top of the page.Sets the table's total width.Expands the table to use the entire width available on the page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/TableBothAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/TableBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,11 +18,11 @@ Creates a Table object to add to a PDF document. Defines the data to use in each
 
 This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.apppdfgenerator\) and is provided within the `sn_pdfgeneratorutils` namespace. The plugin is activated by default.
 
-This API is a component used with the [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) to generate a PDF.
+This API is a component used with the [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) to generate a PDF.
 
 Build a Table object using the methods in this class. You can use these additional classes to add cells, paragraphs, and styles to your table:
 
--   **[Cell API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CellBothAPI.md)**
+-   **[Cell API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CellBothAPI.md)**
 
     Create a cell using the Cell API. Then, add the cell to your table using one of these methods:
 
@@ -32,11 +32,11 @@ Build a Table object using the methods in this class. You can use these addition
     -   Table.addImageCell\(\)
     -   Table.addParagraphCell\(\)
     -   Table.addTextCell\(\)
--   **[Paragraph API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ParagraphBothAPI.md)**
+-   **[Paragraph API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ParagraphBothAPI.md)**
 
     Create a paragraph using the Paragraph API. Add the paragraph to a cell in the table using Cell.addParagraph\(\).
 
--   **[Style API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)**
+-   **[Style API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)**
 
     Set styles, colors, and borders using the Style API. Add the styles to the table using one of these methods:
 
@@ -45,12 +45,12 @@ Build a Table object using the methods in this class. You can use these addition
 
 You can then apply the Table object to a PDF document using the following class and method.
 
--   **[Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md)**
+-   **[Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md)**
 
     Use the Document.addTable\(\) method to add your table to a PDF document. You can use the Document.saveAsAttachment\(\) method to attach the document to a record.
 
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Table - Table\(Boolean ltr, Array columnWidths, Boolean largeTable\)
 
@@ -127,7 +127,7 @@ Adds a cell element to the table.
 
 |Name|Type|Description|
 |----|----|-----------|
-|cell|[Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CellBothAPI.md)|Cell element to add to the table.|
+|cell|[Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CellBothAPI.md)|Cell element to add to the table.|
 
 |Type|Description|
 |----|-----------|
@@ -205,8 +205,8 @@ Adds a cell element with an applied style to the table.
 
 |Name|Type|Description|
 |----|----|-----------|
-|cell|[Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CellBothAPI.md)|Cell object to add to the table.|
-|style|[Style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)|Style to apply to the cell.|
+|cell|[Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CellBothAPI.md)|Cell object to add to the table.|
+|style|[Style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)|Style to apply to the cell.|
 
 |Type|Description|
 |----|-----------|
@@ -282,13 +282,13 @@ Adds a header Cell object to the table.
 
 |Name|Type|Description|
 |----|----|-----------|
-|cell|[Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CellBothAPI.md)|Header cell to add to the table.|
+|cell|[Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CellBothAPI.md)|Header cell to add to the table.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-This example shows how to add a header cell to a table that contains a Paragraph object. For more information on Paragraph objects, see the [Paragraph API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ParagraphBothAPI.md).
+This example shows how to add a header cell to a table that contains a Paragraph object. For more information on Paragraph objects, see the [Paragraph API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ParagraphBothAPI.md).
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
@@ -360,7 +360,7 @@ Adds a cell that contains an image to the table.
 
 |Name|Type|Description|
 |----|----|-----------|
-|image|[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ImageBothAPI.md)|Image object to add to the cell.|
+|image|[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ImageBothAPI.md)|Image object to add to the cell.|
 
 |Type|Description|
 |----|-----------|
@@ -391,7 +391,7 @@ Adds a cell that contains a paragraph to the table.
 
 |Name|Type|Description|
 |----|----|-----------|
-|p|[Paragraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ParagraphBothAPI.md)|Paragraph object to add to the cell.|
+|p|[Paragraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ParagraphBothAPI.md)|Paragraph object to add to the cell.|
 
 |Type|Description|
 |----|-----------|
@@ -828,7 +828,7 @@ Sets the table's default background color.
 
 |Name|Type|Description|
 |----|----|-----------|
-|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ColorBothAPI.md)|Color object used as the default background color for the table.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ColorBothAPI.md)|Color object used as the default background color for the table.|
 
 |Type|Description|
 |----|-----------|
@@ -968,7 +968,7 @@ Sets the Style object to apply to the table's header.
 
 |Name|Type|Description|
 |----|----|-----------|
-|headerStyle|[Style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)|Style object to apply to the table's header.|
+|headerStyle|[Style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)|Style object to apply to the table's header.|
 
 |Type|Description|
 |----|-----------|

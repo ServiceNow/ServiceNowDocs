@@ -2,7 +2,7 @@
 title: Orchestration ROI premium reports
 description: The premium dashboard provides detailed reports on calculated savings over time.To view the Orchestration ROI premium reports, you must request activation of the Orchestration - ROI Premium \(com.snc.runbook\_automation.roi\_premium\) plugin. The Orchestration - ROI Premium plugin is included with an Orchestration subscription, but must be activated by request.Orchestration ROI premium reports use a Performance Analytics job that must be activated before premium reports can be generated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_OrchestrationROIPremiumDashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/r\_OrchestrationROIPremiumDashboard.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -97,7 +97,7 @@ Shows the top 10 automation entries that have the most calculated savings in the
 -   **Table**: Detailed Savings Report \[detailed\_savings\_report\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Orchestration ROI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationROIDashboards.md)
+</table>**Parent Topic:**[Orchestration ROI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationROIDashboards.md)
 
 ## Request Orchestration ROI premium reports
 

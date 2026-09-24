@@ -2,7 +2,7 @@
 title: HLA Operational dashboard
 description: The Health Log Analytics Operational dashboard uses Performance Analytics to monitor log data, alerts, and error rates in Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/hla-operational-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/hla-operational-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

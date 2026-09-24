@@ -2,7 +2,7 @@
 title: Export a survey
 description: You can export a survey and then import it to another instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ExportASurvey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ExportASurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ For information about update sets, see [System update sets](https://raw.githubus
 4.  If applicable, follow the prompt in your browser to save the XML file.
 
 
-**Parent Topic:**[Sharing surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyInportAndExport.md)
+**Parent Topic:**[Sharing surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyInportAndExport.md)
 

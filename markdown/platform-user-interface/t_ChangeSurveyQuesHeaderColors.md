@@ -2,7 +2,7 @@
 title: Change survey question header colors
 description: The Classic Environment uses a header color from the base color, which allows theming from CSS properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ChangeSurveyQuesHeaderColors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ChangeSurveyQuesHeaderColors.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ One notable exception is the survey, which has its own CSS. It is possible to ch
     The survey should now use the desired color.
 
 
-**Parent Topic:**[Customizing instance appearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/customizing-instance-appearance.md)
+**Parent Topic:**[Customizing instance appearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/customizing-instance-appearance.md)
 

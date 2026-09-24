@@ -2,7 +2,7 @@
 title: Install and configure Security Incident Response integration with Zscaler
 description: Install and configure the Security Incident Response integration with Zscaler internet Access product from the ServiceNow Store to start using the integration on your ServiceNow AI Platform instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/install-zscaler-integration-for-security-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/install-zscaler-integration-for-security-operations.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

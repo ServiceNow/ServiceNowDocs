@@ -2,7 +2,7 @@
 title: Create a product case from Business Portal
 description: Create a case about a question or issue on a product from the business portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateACaseFrom-businessportal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_CreateACaseFrom-businessportal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -121,7 +121,7 @@ The case is created, assigned a case number, and added to the creator's case lis
 **Related topics**  
 
 
-[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
+[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
 
-[Chat with an agent from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_StartAChatWithAnAgent-business-portal.md)
+[Chat with an agent from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_StartAChatWithAnAgent-business-portal.md)
 

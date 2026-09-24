@@ -2,7 +2,7 @@
 title: Email retention
 description: You can archive and eventually destroy email messages that you no longer need or if your Email table is excessively large.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-retention.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/email-retention.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Email retention is available starting with the Helsinki release.
 
 ## Email archive and destruction plugins
 
-The email archiving and destruction feature uses the [Data archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ArchiveData.md) and [Email Retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateTheEmailRetentionPlugin.md) plugins. The Data Archiving plugin must be active to archive and destroy email records. The Email Retention plugin provides a set of rules that specify when the system archives and destroys email records.
+The email archiving and destruction feature uses the [Data archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ArchiveData.md) and [Email Retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ActivateTheEmailRetentionPlugin.md) plugins. The Data Archiving plugin must be active to archive and destroy email records. The Email Retention plugin provides a set of rules that specify when the system archives and destroys email records.
 
 **Note:** The Email Retention plugin also prevents the system from deleting watermarks, which are required for inbound email actions to continue to function.
 

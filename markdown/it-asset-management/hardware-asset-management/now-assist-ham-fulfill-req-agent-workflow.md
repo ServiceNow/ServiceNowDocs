@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow
 description: Use the Help manage hardware asset requests agentic workflow, driven by AI agents, to handle your employees' hardware asset requests automatically. The AI agents fulfill requests by either consuming the available local stock, or by generating transfer orders or purchase orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -226,5 +226,5 @@ Sources the requested item by either creating a purchase order autonomously or a
 -   Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 -   Select **Help manage hardware asset requests**.
 
-**Parent Topic:**[Fulfilling hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfilling-hardware-asset-requests.md)
+**Parent Topic:**[Fulfilling hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/fulfilling-hardware-asset-requests.md)
 

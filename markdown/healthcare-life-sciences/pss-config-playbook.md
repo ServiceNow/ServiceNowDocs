@@ -2,7 +2,7 @@
 title: Configuring playbooks for Patient Support Services
 description: Configure a playbook to provide step-by-step guidance for resolving enrollment cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-config-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-config-playbook.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

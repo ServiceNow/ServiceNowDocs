@@ -2,7 +2,7 @@
 title: CDM data model
 description: The CDM data model is a standardized data structure that supports the broader life cycle of software delivery — automation, quality validation, and CSDM. CDM imports existing config data, validates it using policies that you define, and exports valid config data to your organization's existing DevOps pipeline to implement applications, services, and infrastructure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-data-model.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -123,7 +123,7 @@ This diagram is simplified. In your implementation, deployables can include mult
 
     Components are the building blocks that typically represent the config data for a logical element of an application or a part of an infrastructure service. For example, a monolithic app, a micro-service, a physical server, or a Docker template.
 
-    A component can contain variables that can take on different values in collections and deployables. More detailed instructions appear in [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md).
+    A component can contain variables that can take on different values in collections and deployables. More detailed instructions appear in [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-define.md).
 
 -   **Collections**
 
@@ -154,15 +154,15 @@ This diagram is simplified. In your implementation, deployables can include mult
     A file node is created when you attach a file to the config data model of a CDM app or a component library. It contains a link to the attached file. Using file nodes, you can attach files of any MIME type supported on ServiceNow AI Platform.
 
 
--   **[Contextual variables for config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-context-var.md)**  
+-   **[Contextual variables for config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-context-var.md)**  
 Contextual variables are out-of-the-box variables delivered by ServiceNow that enable you to use the context of a node to define a variable.
 
-**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-reference.md)
+**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-reference.md)
 
 **Related topics**  
 
 
-[Preparing an application for config data upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-prep-app-for-upload.md)
+[Preparing an application for config data upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-prep-app-for-upload.md)
 
-[Create and update a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-deployable-define.md)
+[Create and update a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-deployable-define.md)
 

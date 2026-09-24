@@ -2,7 +2,7 @@
 title: Activate a component library
 description: Activate a component library to make all of its shared components available for use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-comp-library-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-comp-library-activate.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

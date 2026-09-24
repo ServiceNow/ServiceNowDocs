@@ -2,7 +2,7 @@
 title: Generating the tests
 description: Generate tests automatically by leveraging ServiceNow Test Generation and Cloud Runner application. You can also run these tests with the click of a button.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-generate-tests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-generate-tests.html
 release: australia
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
@@ -110,7 +110,7 @@ Role required: admin
     From the automated tests created, you can view all the users who have used that record or incident. Although the tests steps here are similar to the other test steps, the initial validation is done for the fields on the form. Also, for every mandatory field, a value is set based on the sample data. It also validates after every mandatory step. Once you submit, it does a final record validation.
 
 
-**Parent Topic:**[Operating ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-operate.md)
+**Parent Topic:**[Operating ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-operate.md)
 
 **Related topics**  
 

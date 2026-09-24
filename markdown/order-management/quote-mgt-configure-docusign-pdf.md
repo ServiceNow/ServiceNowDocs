@@ -2,7 +2,7 @@
 title: Configure DocuSign for PDF documents
 description: Quote operations specialists can configure PDF documents to work with Docusign to enable customers to sign PDF documents electronically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-mgt-configure-docusign-pdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-mgt-configure-docusign-pdf.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,5 +32,5 @@ Sales operation specialists can link quote PDF documents to Docusign so that sig
 -   [How to automate signing requests using templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automate-docusign-templates.md)
 -   [How to separate Docusign account data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/separate-docusign-data.md)
 
-**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-reference.md)
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-reference.md)
 

@@ -2,7 +2,7 @@
 title: Activate data privacy
 description: Data Privacy includes data classification and anonymization and is installed from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-activate-data-privacy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-privacy-classic/dps-activate-data-privacy.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -18,7 +18,7 @@ Data Privacy includes data classification and anonymization and is installed fro
 
 ## Before you begin
 
-To use data anonymization, Data Privacy \(Classic\) must first be activated with the ServiceNow Vault entitlement. See [Activate data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/install-data-privacy.md) for additional information.
+To use data anonymization, Data Privacy \(Classic\) must first be activated with the ServiceNow Vault entitlement. See [Activate data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/install-data-privacy.md) for additional information.
 
 **Note:** Installing the Data Privacy Store App will auto install the Data Discovery Store App, Data Privacy \(Classic\) plug-in, and the Data Classification plugin.
 

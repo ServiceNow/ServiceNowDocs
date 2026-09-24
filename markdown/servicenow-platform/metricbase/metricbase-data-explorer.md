@@ -2,7 +2,7 @@
 title: Get familiar with MetricBase APIs
 description: Experiment with MetricBase APIs using Data Explorer that is part of the MetricBase Demo application. Data Explorer uses the data installed with the MetricBase Demo application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/metricbase-data-explorer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/metricbase/metricbase-data-explorer.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -157,5 +157,5 @@ builder.metric(metric).deviation(model, "chiSquare");
  \[Omitted image "data-explor-chisquare-deviation.png"\] Alt text: Deviation model
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with MetricBase demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/working-with-metricbase-demo-data.md)
+</table>**Parent Topic:**[Working with MetricBase demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/working-with-metricbase-demo-data.md)
 

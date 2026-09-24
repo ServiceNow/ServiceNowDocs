@@ -2,7 +2,7 @@
 title: View RFID information of assets
 description: View the Radio Frequency Identification \(RFID\) information of assets to manage and locate important assets easily.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-rfid-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/view-rfid-info.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -81,7 +81,7 @@ Action
     The activity history is captured only for RFID tag and Zone.
 
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
@@ -154,5 +154,5 @@ Action
 
 [Update associated Decision tables for HAM flows]()
 
-[Integrating Zebra technology RFID system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/integrating-rfid.md)
+[Integrating Zebra technology RFID system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/integrating-rfid.md)
 

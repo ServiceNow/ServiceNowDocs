@@ -2,7 +2,7 @@
 title: Real time transcriptions for ServiceNow Voice for Customer Service Management
 description: Agents can see a transcript of voice calls while interacting with customers. Real time transcription allows agents to better understand customer issues, and allows managers to gain insights into customer trends and agent training gaps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/using-voice-rtt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/using-voice-rtt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -51,5 +51,5 @@ Persona: Customer Service Agent.
 
 An interaction is created with the subject “outbound call to `<customer name>`”, and a chat panel opens with the transcript.
 
-**Parent Topic:**[Integrating ServiceNow Voice with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrating-ccc-csm.md)
+**Parent Topic:**[Integrating ServiceNow Voice with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integrating-ccc-csm.md)
 

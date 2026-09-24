@@ -2,7 +2,7 @@
 title: GlideGuid - Client
 description: The GlideGuid API provides methods to create a globally unique identifier.Creates a globally unique identifier 32 characters long, or as specified with the optional length argument.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_GlideGuidV3API.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/c\_GlideGuidV3API.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -18,7 +18,7 @@ The GlideGuid API provides methods to create a globally unique identifier.
 
 You access the GlideGuidV3 methods using the `g_guid` global object.
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 
 ## GlideGuid - generate\(Number stringLength\)
 

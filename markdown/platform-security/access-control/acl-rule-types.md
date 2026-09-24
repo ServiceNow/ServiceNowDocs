@@ -2,7 +2,7 @@
 title: ACL types
 description: Create ACLs on different components of the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/acl-rule-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/acl-rule-types.html
 release: australia
 product: Access Control
 classification: access-control

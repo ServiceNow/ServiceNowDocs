@@ -2,7 +2,7 @@
 title: Add custom fields to the Express List preview panel
 description: Add custom fields from the Alert \[em\_alert\] table to the Express List Info preview panel to track alert information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/preview-alert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/preview-alert.html
 release: australia
 product: Event Management
 classification: event-management

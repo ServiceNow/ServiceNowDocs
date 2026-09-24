@@ -2,7 +2,7 @@
 title: Altering tables and fields using dictionary attributes
 description: Dictionary attributes alter the behavior of the table or field that the dictionary record describes. Administrators can add or modify dictionary attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_DictionaryAttributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/c\_DictionaryAttributes.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -18,7 +18,7 @@ Dictionary attributes alter the behavior of the table or field that the dictiona
 
 ## Adding an attribute
 
-To add or remove an attribute to a table or field, open a dictionary record, select the **Advanced** link, and modify the **Attributes** field. Alternatively, in a dictionary record, select **New** in the Attributes related list. For details on modifying dictionary entries, see [Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md).
+To add or remove an attribute to a table or field, open a dictionary record, select the **Advanced** link, and modify the **Attributes** field. Alternatively, in a dictionary record, select **New** in the Attributes related list. For details on modifying dictionary entries, see [Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md).
 
 Attributes are comma-separated. If attributes exist on a dictionary record, add a comma with no spaces before adding an attribute.
 
@@ -147,7 +147,7 @@ any table
 
 </td><td>
 
-If true, attachments on the table are indexed for search purposes. To learn more, see [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DisablingAttachmentsOnATable.md).
+If true, attachments on the table are indexed for search purposes. To learn more, see [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_DisablingAttachmentsOnATable.md).
 
 </td></tr><tr><td>
 
@@ -649,7 +649,7 @@ any string field
 
 </td><td>
 
-If true, enables case and accent \(diacritic\) sensitivity for text search of the column. If false, text search of the column is case and accent insensitive. The default behavior is false. This attribute can't be set to true when i18n\_session\_language\_sortable is true on the same column. To learn more see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sl-locale-text-match.md).
+If true, enables case and accent \(diacritic\) sensitivity for text search of the column. If false, text search of the column is case and accent insensitive. The default behavior is false. This attribute can't be set to true when i18n\_session\_language\_sortable is true on the same column. To learn more see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/sl-locale-text-match.md).
 
 </td></tr><tr><td>
 
@@ -665,7 +665,7 @@ any string field
 
 </td><td>
 
-If true, enables sorting the column by the user's session language. If false, sorting by the user's session language is disabled and the column is sorted according to the English alphabet. This attribute can't be set to true when i18n\_locale\_text\_match is true on the same column. To learn more see [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sorting-session-language.md)
+If true, enables sorting the column by the user's session language. If false, sorting by the user's session language is disabled and the column is sorted according to the English alphabet. This attribute can't be set to true when i18n\_locale\_text\_match is true on the same column. To learn more see [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/sorting-session-language.md)
 
 </td></tr><tr><td>
 
@@ -879,7 +879,7 @@ any field
 
 </td><td>
 
-If present or true, creates a toggle option on the activity formatter header for incidents, tasks, and problems. The toggle provides a choice between the **Live Feed** for that record \(also known as a document feed\) or the activity formatter fields already in use. To learn more, see [Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md) for more details.
+If present or true, creates a toggle option on the activity formatter header for incidents, tasks, and problems. The toggle provides a choice between the **Live Feed** for that record \(also known as a document feed\) or the activity formatter fields already in use. To learn more, see [Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ActivityFormatter.md) for more details.
 
 </td></tr><tr><td>
 
@@ -1332,7 +1332,7 @@ any reference field with an auto completer \(see ref\_auto\_completer\)
 
 </td><td>
 
-Causes auto-complete to work with all fields that are specified in the **ref\_ac\_columns** attribute. This attribute overrides the default behavior, which searches only the display value column. To learn more, see [Configure auto-complete to match text from any reference field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
+Causes auto-complete to work with all fields that are specified in the **ref\_ac\_columns** attribute. This attribute overrides the default behavior, which searches only the display value column. To learn more, see [Configure auto-complete to match text from any reference field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AutoCompleteForReferenceFields.md).
 
 </td></tr><tr><td>
 
@@ -1348,7 +1348,7 @@ any reference field with an auto completer \(see ref\_auto\_completer\)
 
 </td><td>
 
-Causes the reference field to hide the display value column so that the auto-complete function only matches the text from the columns that are listed in the **ref\_ac\_columns** attribute. This feature requires the use of the AJAXTableCompleter class and the **ref\_ac\_columns**, **ref\_ac\_columns\_search**, and **ref\_ac\_display\_value** attributes. To learn more, see [Remove the display value column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
+Causes the reference field to hide the display value column so that the auto-complete function only matches the text from the columns that are listed in the **ref\_ac\_columns** attribute. This feature requires the use of the AJAXTableCompleter class and the **ref\_ac\_columns**, **ref\_ac\_columns\_search**, and **ref\_ac\_display\_value** attributes. To learn more, see [Remove the display value column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AutoCompleteForReferenceFields.md).
 
 **Note:** The ref\_ac\_display\_value function does not work with Catalog Item variables.
 
@@ -1382,11 +1382,11 @@ any reference field \(can be applied to a table to affect all reference fields o
 
 </td><td>
 
-Specifies the name of a JavaScript class \(client side\) that creates the list auto completion choices. Valid class values include: -   AJAXReferenceCompleter: Matching auto-complete choices appear as a list. Only the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) column of the reference table appears. If there is no other auto-completion class specified, reference fields automatically use this class.
+Specifies the name of a JavaScript class \(client side\) that creates the list auto completion choices. Valid class values include: -   AJAXReferenceCompleter: Matching auto-complete choices appear as a list. Only the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_DisplayValues.md) column of the reference table appears. If there is no other auto-completion class specified, reference fields automatically use this class.
 -   AJAXTableCompleter: Matching auto-complete choices appear as rows in a table. The display value column of the reference table appears, with any columns listed in the **ref\_ac\_columns** attribute.
 -   AJAXReferenceChoice: Displays matching auto-complete choices as a list. Only the display value column of the reference table, and up to 25 matching choices, appear. If there are more than 25 auto-complete choices, the choices for the AJAXTableCompleter class appear for the reference field instead.
 
- For more information, see [Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
+ For more information, see [Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AutoCompleteForReferenceFields.md).
 
 </td></tr><tr><td>
 
@@ -1634,7 +1634,7 @@ condition fields
 
 </td><td>
 
-Enables or disables the condition count widget to preview how many records are a set of conditions. To learn more, see [Add the condition count to a condition field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddingTheConditionCountWidget.md).
+Enables or disables the condition count widget to preview how many records are a set of conditions. To learn more, see [Add the condition count to a condition field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddingTheConditionCountWidget.md).
 
 </td></tr><tr><td>
 
@@ -1778,7 +1778,7 @@ any table
 
 </td><td>
 
-Similar to **update\_synch** but writes the file attachments of the record to update sets. To learn more, see [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DisablingAttachmentsOnATable.md).
+Similar to **update\_synch** but writes the file attachments of the record to update sets. To learn more, see [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_DisablingAttachmentsOnATable.md).
 
 </td></tr><tr><td>
 
@@ -1840,7 +1840,7 @@ target_field=percent_complete_target,target_threshold_colors=0:tomato;50:khaki;9
 target_field=percent_complete_target,target_threshold_colors=0:tomato;50:khaki;90:lightgreen,target_field=u_expected_completion
 ```
 
- If you do not specify an additional target\_field, a target value of 100 is used, allowing you to use the color thresholds with a single field value. See [Target threshold colors attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TargetThresholdColorsAttribute.md).
+ If you do not specify an additional target\_field, a target value of 100 is used, allowing you to use the color thresholds with a single field value. See [Target threshold colors attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_TargetThresholdColorsAttribute.md).
 
 </td></tr><tr><td>
 
@@ -1888,7 +1888,7 @@ any table
 
 </td><td>
 
-Sets the value to false to [Enable or disable the Zing junk filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_DisableTheJunkFilter.md) for the table. -   By default, Zing does not index or search for two-digit numbers and single character words \(unless they are Chinese or Japanese characters\).
+Sets the value to false to [Enable or disable the Zing junk filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/t_DisableTheJunkFilter.md) for the table. -   By default, Zing does not index or search for two-digit numbers and single character words \(unless they are Chinese or Japanese characters\).
 -   Regenerate the index after disabling the junk filter. This attribute results in a larger table index.
 -   For optimal performance, do not apply it unless it is required.
 
@@ -2002,7 +2002,7 @@ any field
 
 </td><td>
 
-Controls the relative importance of a match in the field for a text search. To learn more, see [Set the relative weight of a field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_ControlMatchRelevanceByField.md).
+Controls the relative importance of a match in the field for a text search. To learn more, see [Set the relative weight of a field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/t_ControlMatchRelevanceByField.md).
 
 </td></tr><tr><td>
 
@@ -2117,8 +2117,8 @@ radio buttons
 If true, displays the radio buttons vertically.
 
 </td></tr></tbody>
-</table>-   **[Modify the Glide durations format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ModifyTheGlideDurationsFormat.md)**  
+</table>-   **[Modify the Glide durations format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_ModifyTheGlideDurationsFormat.md)**  
 To convert fields that are displayed in milliseconds \(such as 'Resolution Time' on the Incident table\) to a duration format \(Months/Days/Hours/Seconds\), populate the attribute field on the dictionary with: `format=glide_duration`.
 
-**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

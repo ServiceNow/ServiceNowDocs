@@ -2,7 +2,7 @@
 title: CRM Workspace
 description: CRM Workspace is a user interface that provides customer service agents with the tools they need to assist customers, answer questions, and resolve issues quickly and efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspaces-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspaces-configure.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Key features of CRM Workspace include list views for managing cases, interaction
 |Contextual side panel|A configurable panel that provides agents with additional tools and information such as search, Recommended Actions, attachments, and templates.|
 |AI tools|Summarize interaction chats and calls, summarize case information, and generate case resolution notes.|
 
-For more information, see [CSM Configurable Workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-feature-overview.md).
+For more information, see [CSM Configurable Workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspace-feature-overview.md).
 
 ## CRM Workspace benefits
 
@@ -47,13 +47,13 @@ CRM Workspace presents the Core UI lists and forms in one interface and consolid
 -   Get notified of potential major incidents based on issue frequency and impact.
 -   Keep informed of updates and surface important insights with a live activity feed and analytics.
 
-For more information, see [CSM Configurable Workspace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-overview.md).
+For more information, see [CSM Configurable Workspace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-overview.md).
 
 ## Application information
 
 The CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\) is activated with the Customer Service plugin \(com.sn\_customerservice\).
 
-**Note:** Starting with the Yokohama release, CRM Workspace has a dependency on the Customer Central plugin. For more information, see [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md).
+**Note:** Starting with the Yokohama release, CRM Workspace has a dependency on the Customer Central plugin. For more information, see [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md).
 
 The CRM Workspace application is available from the ServiceNow Store.
 

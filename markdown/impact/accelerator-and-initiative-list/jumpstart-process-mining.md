@@ -2,7 +2,7 @@
 title: Jumpstart Your Process Mining
 description: Jumpstart Your Process Mining Accelerator provides a demonstration of the possibilities and capabilities of Process Mining.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-process-mining.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-process-mining.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,7 +2,7 @@
 title: Integrating with Document Intelligence
 description: Integration with Document Intelligence enables machine learning \(ML\) to assist in quickly automating document processing and accurately extracting information from documents to the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/integration-with-document-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/integration-with-document-intelligence.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,10 +22,10 @@ For information on activating Document Intelligence, see [Install Document Intel
 
 For information on how to upload and extract data from documents, and information on how to use the Document Intelligence workspace and dashboard, see [Process documents using Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/doc-intel-using.md)
 
--   **[Enable Document Intelligence for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/enable-docintel-fso.md)**  
+-   **[Enable Document Intelligence for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/enable-docintel-fso.md)**  
 Enable Document Intelligence for FSO Document Processor by installing and activating the required plugins.
--   **[Synchronize types and categories to Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/sync-doc-processor-intelligence.md)**  
+-   **[Synchronize types and categories to Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/sync-doc-processor-intelligence.md)**  
 If Document Intelligence is installed after document types and categories were set up in Document Processor, run this script to synchronize these values between the two applications.
 
-**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integrate-other-applications.md)
+**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integrate-other-applications.md)
 

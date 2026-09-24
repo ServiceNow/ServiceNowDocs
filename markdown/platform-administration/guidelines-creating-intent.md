@@ -2,7 +2,7 @@
 title: General guidelines for creating and mapping an intent
 description: By following some general guidelines for creating email intents and mapping actions to intents, you can create clear and effective instructions that help maximize the efficiency and effectiveness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/guidelines-creating-intent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/guidelines-creating-intent.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Request generative AI capabilities in TMT using the ServiceNow Otto panel
 description: Request the contextual generative AI capabilities by using the conversational interface in the ServiceNow Otto panel. These capabilities include service problem case summary or resolution notes in the TMT application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/request-genai-in-tmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/request-genai-in-tmt.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -43,5 +43,5 @@ For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel
     -   To summarize the service problem case, select **Summarize a record**.
     -   To generate the service problem case resolution notes, select **Generate resolution notes**.
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

@@ -2,7 +2,7 @@
 title: Asset form
 description: The Asset Management application uses the Asset form to store asset information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-asset-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-service-asset-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

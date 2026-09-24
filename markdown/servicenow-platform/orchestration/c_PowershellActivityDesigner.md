@@ -2,12 +2,12 @@
 title: PowerShell activity designer
 description: PowerShell activities are configured to return data to a workflow from a host using Microsoft PowerShell.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/c\_PowershellActivityDesigner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/c\_PowershellActivityDesigner.html
 release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,5 +24,5 @@ You must purchase [Classic Orchestration](https://raw.githubusercontent.com/Serv
 
 ServiceNow supports PowerShell 3.0 to 5.1.
 
-**Parent Topic:**[PowerShell activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md)
+**Parent Topic:**[PowerShell activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md)
 

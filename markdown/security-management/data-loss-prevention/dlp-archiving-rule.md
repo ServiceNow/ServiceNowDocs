@@ -2,12 +2,12 @@
 title: DLP Incidents Archival
 description: The Data Loss Prevention Incident Response is provisioned with one archival rule in the base system for the DLP incident table. The related records are also added in the base system to the DLP incident archive rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/dlp-archiving-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/dlp-archiving-rule.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -34,15 +34,15 @@ Role required: admin
 
     **Note:** For information on how the archival rules are created, see [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md).
 
-    For information on how to view the archived incidents, see [View archived DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/using-dlp-ops-portal.md).
+    For information on how to view the archived incidents, see [View archived DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/using-dlp-ops-portal.md).
 
 3.  **Update** the rule.
 
 
--   **[Archive DLP related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/archive-dlp-related-records.md)**  
+-   **[Archive DLP related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/archive-dlp-related-records.md)**  
 Use the Archive Related Records related list for DLP incidents to add the related records to the archive rule.
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

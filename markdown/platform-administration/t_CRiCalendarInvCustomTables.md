@@ -2,7 +2,7 @@
 title: Create iCalendar invitations for custom tables
 description: To generate iCalendar invitations that use field values from custom tables, create an import export map that computes the values of the iCalendar fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CRiCalendarInvCustomTables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CRiCalendarInvCustomTables.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -109,5 +109,5 @@ Role required: admin
     -   **Content type**: Select **Plain text** only.
     -   **Email template**: Select the template you created.
 
-**Parent Topic:**[Calendar integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_CalendarIntegration.md)
+**Parent Topic:**[Calendar integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_CalendarIntegration.md)
 

@@ -2,7 +2,7 @@
 title: GeniusResultContext - Scoped
 description: The GeniusResultContext API provides methods for retrieving search query information from the context of a Genius Result configuration.Retrieves search result documents from the search query that triggers your Genius Result configuration.Retrieves the original search terms from the search query that triggers your Genius Result configuration.Retrieves NLU model prediction results for the search query that triggers your Genius Result configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GeniusResultContextScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GeniusResultContextScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -16,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GeniusResultContext API provides methods for retrieving search query information from the context of a Genius Result configuration.
 
-You can use search query details retrieved with this API to populate Genius Result answer objects created with the [GeniusResultAnswer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GeniusResultAnswerScopedAPI.md) API.
+You can use search query details retrieved with this API to populate Genius Result answer objects created with the [GeniusResultAnswer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GeniusResultAnswerScopedAPI.md) API.
 
 Use this API in Genius Result server-side scripts with the `sn_ais` namespace identifier. For more information on scripting logic for Genius Results, see [Create a new Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-genius-results-config-ais.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GeniusResultContext - getMatchingDocuments\(\)
 

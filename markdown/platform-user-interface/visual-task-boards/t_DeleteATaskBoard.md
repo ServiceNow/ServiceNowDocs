@@ -2,7 +2,7 @@
 title: Delete a Visual Task Board
 description: You can delete any task board that you own.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_DeleteATaskBoard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_DeleteATaskBoard.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -33,7 +33,7 @@ Deleting a board does not impact the underlying task records. However, you canno
 3.  In the confirmation dialog, click **Delete**.
 
 
-**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
+**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
 
 **Related topics**  
 

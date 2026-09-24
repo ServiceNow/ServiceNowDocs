@@ -2,7 +2,7 @@
 title: Workflow of Operational Sustainability Risk Management
 description: To perform risk assessments for your material topics and your entities, the ESG administrator, the ESG risk manager, and the ESG data owner must perform a set of defined steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/workflow-of-esg-risk-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/workflow-of-esg-risk-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ The following steps are necessary to successfully perform your ESG risk assessme
 4.  For risk-based assessments, as an ESG data owner, from the Tasks pane in the Operational Sustainability Workspace, respond to an assessment, review, and submit the assessment for approval if the approvers are defined. If there are no approvers defined, the risk score is rolled up to the risks and entities.
 5.  For object-based assessments, as an ESG program manager, from the Tasks pane in the Operational Sustainability Workspace, respond to the assessment, review, and submit for the assessment for approval if the approvers are defined.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-risk-management.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-risk-management.md)
 

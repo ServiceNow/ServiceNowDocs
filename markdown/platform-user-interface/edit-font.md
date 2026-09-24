@@ -2,7 +2,7 @@
 title: Edit your default font
 description: Edit your default font family and choose from the predefined options in Theme Builder or your own custom fonts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/edit-font.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/edit-font.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,9 +56,9 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
 ## Result
 
-Your new font is displayed as the Default font family and applied globally to your theme. If you want to upload a custom font, see [Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-custom-font.md).
+Your new font is displayed as the Default font family and applied globally to your theme. If you want to upload a custom font, see [Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/upload-custom-font.md).
 
-If your theme is published, your edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)
+**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-with-global-styles.md)
 

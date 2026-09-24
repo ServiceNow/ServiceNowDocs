@@ -2,7 +2,7 @@
 title: Create Record step
 description: Creates a record on any table. You can dynamically add and configure fields for the record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-record-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-record-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -64,8 +64,8 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

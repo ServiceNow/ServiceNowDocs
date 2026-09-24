@@ -2,7 +2,7 @@
 title: Lists
 description: Learn about the components in UI Builder that enable admins to create and customize lists and list pages for a Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/lists-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/lists-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Learn about the components in UI Builder that enable admins to create and custom
 
 ## Lists overview
 
-A [list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configurable-workspace-glossary.md) is a content page that displays zero or more records from a database table. The list has rows and columns. Each row is a record, and each column is a field from the record.
+A [list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configurable-workspace-glossary.md) is a content page that displays zero or more records from a database table. The list has rows and columns. Each row is a record, and each column is a field from the record.
 
 Lists display multiple records in a Configurable Workspace, such as cases, task, or incidents, so that agents can find and work on records quickly.
 

@@ -2,7 +2,7 @@
 title: Create Task action
 description: Create a task record in an extension of the Task table. After you choose the task table, you can dynamically select the fields to configure the action. Defining the Parent field associates the task to a parent record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-task-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-task-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -66,5 +66,5 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 In this example, a flow starts when a high priority network incident is created. The flow creates an Incident Task record where the Parent field is set to the trigger incident, the Short Description inherits the incident short description, and the Assignment group is set to Network. Since there are no more actions in the flow, there's no need to select the Wait option to pause the flow until the Incident Task is complete.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

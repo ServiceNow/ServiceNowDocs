@@ -2,7 +2,7 @@
 title: Configure form views for Service Portfolio Management integration
 description: Configure the form layout and related lists for the Sold Product, Case, Account, and Service Offering forms to provide users with the correct visibility into which service offerings are associated with which sold products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-form-views-spm-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-form-views-spm-csm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Configure the form layout and related lists for the Sold Product, Case, Account,
 
 Role required: admin
 
-Instead of doing the configuration through this procedure, consider using guided setup. For more information, see [Integrate with Service Portfolio Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/spm-csm-integration.md).
+Instead of doing the configuration through this procedure, consider using guided setup. For more information, see [Integrate with Service Portfolio Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/spm-csm-integration.md).
 
 ## Procedure
 
@@ -50,9 +50,9 @@ Product Model forms
 
 Add the **Offerings** \(**Offering** &gt; **Model ID**\) related list on the Product Model/Service Model forms to enable customer service managers to associate service offerings to product models. To enable the **Edit** button on the Offerings related list:1.  Configure the list control and deselect the **Omit Edit** check box.
 2.  Add the sn\_customerservice\_manager role.
- If you do not see the **Edit** button enabled, see [Assign roles for Service Portfolio Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/assign-roles-spm-csm.md) for more details.
+ If you do not see the **Edit** button enabled, see [Assign roles for Service Portfolio Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/assign-roles-spm-csm.md) for more details.
 
- **Note:** To configure catalog items for product models, add the Catalog Items related list. For more information, see [Configure product model and catalog item relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-product-model-items.md).
+ **Note:** To configure catalog items for product models, add the Catalog Items related list. For more information, see [Configure product model and catalog item relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-csm-product-model-items.md).
 
 </td></tr><tr><td>
 

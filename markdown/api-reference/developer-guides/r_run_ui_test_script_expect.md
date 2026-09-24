@@ -2,7 +2,7 @@
 title: expect — assertions
 description: The expect API makes assertions about elements or values in a Run UI Test Script step. Pass a DOM element for element-specific matchers, or pass any other value for value matchers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/r\_run\_ui\_test\_script\_expect.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/r\_run\_ui\_test\_script\_expect.html
 release: australia
 product: Developer Guides
 classification: developer-guides

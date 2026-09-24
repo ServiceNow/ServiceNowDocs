@@ -2,7 +2,7 @@
 title: Create a basic authentication credential alias for NetApp SolidFire discovery
 description: Create an alias and add it to a basic authentication credential to discover NetApp SolidFire clusters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-solidfire.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-solidfire.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -58,12 +58,12 @@ Role required: discovery\_admin
 
 ## What to do next
 
-Create a serverless discovery schedule. For more information, see [Create a serverless discovery schedule for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-solidfire.md).
+Create a serverless discovery schedule. For more information, see [Create a serverless discovery schedule for NetApp SolidFire discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-solidfire.md).
 
-**Parent Topic:**[NetApp SolidFire storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.md)
+**Parent Topic:**[NetApp SolidFire storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.md)
 
 **Related topics**  
 
 
-[NetApp SolidFire storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.md)
+[NetApp SolidFire storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.md)
 

@@ -2,7 +2,7 @@
 title: DLP SLA Definition form
 description: Field descriptions for the DLP SLA Definition form used to create an SLA record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/dlp-sla-def-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/dlp-sla-def-properties.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -160,7 +160,7 @@ Reset condition
 Conditions under which the active SLA is completed and a new SLA is established when the value of any field on the task record changes, changes to, or changes from a specific value in the record. For example, say the value of the **Location** field in the task record is 101 Broadway East, Seattle, WA. If you set the SLA reset condition to **\[Location\]\[changes from\]\[101 Broadway East, Seattle, WA\]**, any change in the value of the **Location** field resets the SLA of the task record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+</table>**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
@@ -207,5 +207,5 @@ Conditions under which the active SLA is completed and a new SLA is established 
 
 [DLP Incidents Archival]()
 
-[Create a Data Loss Prevention Incident Response SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-sla-definitions.md)
+[Create a Data Loss Prevention Incident Response SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/dlp-sla-definitions.md)
 

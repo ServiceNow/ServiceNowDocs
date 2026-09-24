@@ -2,7 +2,7 @@
 title: NowWebTheme interface - Android
 description: The NowWebTheme interface provides properties that enable you to override the colors used within web pages hosted on your ServiceNow instance in a native web view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowWebThemeAndroidInterface.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowWebThemeAndroidInterface.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -20,7 +20,7 @@ The NowWebTheme interface extends the NowUITheme interface and inherits the prop
 
 `val nowUIColoring: NowUIColoring?`
 
-This property is used to reference color variables that NowWebTheme can use. For additional information on how to theme the UI, see [Use NowUIColoring to theme NowWebTheme and NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/mobsdk-and-color-theming.md) in the Mobile SDK Developer Guide - Android.
+This property is used to reference color variables that NowWebTheme can use. For additional information on how to theme the UI, see [Use NowUIColoring to theme NowWebTheme and NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/mobsdk-and-color-theming.md) in the Mobile SDK Developer Guide - Android.
 
 The default colors use the Coral theme.
 
@@ -208,5 +208,5 @@ Sys\_id of the theme variant to apply to the ServiceNow web pages loaded by NowW
 Table: UX Style \[sys\_ux\_style\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

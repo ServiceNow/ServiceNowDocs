@@ -2,7 +2,7 @@
 title: Install Supplier Collaboration Portal
 description: Install Supplier Collaboration Portal application from ServiceNow Store to enable supplier self-service access to related ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -27,7 +27,7 @@ Install Supplier Collaboration Portal application from ServiceNow Store to enabl
     -   E-signature \(com.snc.esign\)
     -   Employee Center \(sn\_ex\_sp\)
 
-**Note:** You can activate additional plugins to enable other features in Supplier Collaboration Portal. For more information, see [Additional plugins for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/additional-plugins-supp-mgmt.md).
+**Note:** You can activate additional plugins to enable other features in Supplier Collaboration Portal. For more information, see [Additional plugins for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/additional-plugins-supp-mgmt.md).
 
 Role required: admin
 
@@ -56,24 +56,24 @@ Role required: admin
 
 ## Result
 
-After installing the Supplier Collaboration Portal, install the post-install fix script. For more information, see [Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md).
+After installing the Supplier Collaboration Portal, install the post-install fix script. For more information, see [Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md).
 
 ## What to do next
 
 Ensure that you complete the post installation mandatory steps. For more information, see [Post installation troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/post-install-steps.md).
 
--   **[Post installation mandatory step for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.md)**  
+-   **[Post installation mandatory step for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.md)**  
 After you install the Supplier Collaboration Portal, ensure that you enable access to Supplier Collaboration Portal.
--   **[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)**  
+-   **[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)**  
 Configure self-registration for external users.
--   **[Restricted caller access approvals for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/rca-approvals.md)**  
+-   **[Restricted caller access approvals for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/rca-approvals.md)**  
 After you install the Supplier Collaboration Portal application from ServiceNow Store, you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request. You can approve the RCA privileges either manually or by running the fix script.
--   **[Set the property to configure activity configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/set-sys-prop-activity-config.md)**  
+-   **[Set the property to configure activity configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/set-sys-prop-activity-config.md)**  
 Set the **sn\_supplier\_sp.allow\_all\_apps\_configuration** property to make activity configurations and filters accessible from all application scopes.
--   **[Additional plugins for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/additional-plugins-supp-mgmt.md)**  
+-   **[Additional plugins for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/additional-plugins-supp-mgmt.md)**  
 After installing the Supplier Collaboration Portal application, you can activate additional plugins to enable additional features.
 
-**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
+**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
 
 **Related topics**  
 
@@ -98,11 +98,11 @@ After installing the Supplier Collaboration Portal application, you can activate
 
 [Configure smart assessments]()
 
-[Enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-access-supp-central.md)
+[Enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/enable-access-supp-central.md)
 
-[Post installation mandatory step for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.md)
+[Post installation mandatory step for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.md)
 
-[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)
+[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)
 
-[Additional plugins for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/additional-plugins-supp-mgmt.md)
+[Additional plugins for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/additional-plugins-supp-mgmt.md)
 

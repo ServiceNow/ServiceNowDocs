@@ -2,7 +2,7 @@
 title: Configure the session properties
 description: Configure the password reset properties based on the requirement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-session-properties-pr-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configure-session-properties-pr-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -212,5 +212,5 @@ Support for SMS channel used for notifying users for password reset enrollment a
 </table>5.  Select **Save**.
 
 
-**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/setup-password-reset-sow.md)
+**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/setup-password-reset-sow.md)
 

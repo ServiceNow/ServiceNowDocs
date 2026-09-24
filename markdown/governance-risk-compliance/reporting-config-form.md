@@ -2,7 +2,7 @@
 title: Create Reporting Configuration form
 description: On the Create Reporting Configuration form, fill in the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/reporting-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/reporting-config-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-12"

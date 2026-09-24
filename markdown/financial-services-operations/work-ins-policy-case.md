@@ -2,7 +2,7 @@
 title: Work on a policy service case
 description: Review a policy case for a policy service request and update its details to trigger its workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-ins-policy-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/work-ins-policy-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,14 +61,14 @@ The case workflow triggers next tasks for underwriter and document agent and the
 
 Work on the tasks associated with the case to resolve it.
 
--   [Work on an insurance underwriting task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-insurance-underwriting-task.md).
--   [Work on a document task to verify documents for a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-document-task-ins-policy-ops.md).
+-   [Work on an insurance underwriting task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/work-insurance-underwriting-task.md).
+-   [Work on a document task to verify documents for a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/work-document-task-ins-policy-ops.md).
 -   Work on a policy service task.
 
--   **[Work on an insurance underwriting task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-insurance-underwriting-task.md)**  
+-   **[Work on an insurance underwriting task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/work-insurance-underwriting-task.md)**  
 Work on a personal insurance underwriting task to evaluate the policy request and analyze risks for an insurance policy customer.
--   **[Work on a document task to verify documents for a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-document-task-ins-policy-ops.md)**  
+-   **[Work on a document task to verify documents for a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/work-document-task-ins-policy-ops.md)**  
 Work on a document task to manage and track documents \(inbound and outbound\) that are needed for a policy service case.
 
-**Parent Topic:**[Using Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-financial-services-insurance-policy-operations.md)
+**Parent Topic:**[Using Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/using-financial-services-insurance-policy-operations.md)
 

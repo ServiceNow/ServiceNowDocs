@@ -2,7 +2,7 @@
 title: Add team members to SRM
 description: Add new team members to your team as required to plan, manage, resolve issues, and increase the efficiency of your business operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-manage-team-members.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-manage-team-members.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -43,5 +43,5 @@ Role required: srm\_manager or srm\_admin
 7.  Select **Add**.
 
 
-**Parent Topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md)
+**Parent Topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-create-team.md)
 

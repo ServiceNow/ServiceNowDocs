@@ -2,7 +2,7 @@
 title: Create a list screen to use as a related list
 description: Create a related list using your parametrized data item. This list appears for your users when they select the related list tab on their form screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-create-related-list-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-create-related-list-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ Role required: admin
 
     A new **New list stream** panel displays.
 
-11. In the **Data item** section, click **Choose**, and select the parametrized data item you created in [Create a parametrized data item for your related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-related-list.md).
+11. In the **Data item** section, click **Choose**, and select the parametrized data item you created in [Create a parametrized data item for your related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-create-related-list.md).
 
 12. Return to the list screen record by selecting it in the configuration tree.
 

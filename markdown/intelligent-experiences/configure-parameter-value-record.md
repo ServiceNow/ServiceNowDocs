@@ -2,7 +2,7 @@
 title: Create a parameter value record
 description: Create a Desktop action parameter value record to store the value that an AI agent retrieves during desktop action execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-parameter-value-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-parameter-value-record.html
 release: australia
 topic_type: task
 last_updated: "2026-05-25"

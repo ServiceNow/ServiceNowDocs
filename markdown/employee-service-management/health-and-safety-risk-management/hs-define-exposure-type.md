@@ -2,7 +2,7 @@
 title: Define an exposure type
 description: Identify and define a potential workplace exposure type present in a location in your organization. Maintain a list of all exposures types across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-define-exposure-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-define-exposure-type.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -89,7 +89,7 @@ Exposure sub-category
 
 Subcategory for the exposure. This field appears only when a category is selected from **Exposure category** and subcategories are available for the selected category.
 
-The subcategory choices for a category are defined in the `Exposure sub-category` column of the Exposure type \[sn\_hs\_rm\_exposure\_type\] table. For more information, see [Define a category for an exposure type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-category-measurement-unit-exposure-type.md).
+The subcategory choices for a category are defined in the `Exposure sub-category` column of the Exposure type \[sn\_hs\_rm\_exposure\_type\] table. For more information, see [Define a category for an exposure type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-define-category-measurement-unit-exposure-type.md).
 
 </td></tr><tr><td>
 
@@ -123,8 +123,8 @@ The exposure type is listed in the **Exposure types** list and is saved in the E
 
 ## What to do next
 
-1.  Create exposure assessment records for all locations in your organization that this exposure type applies to. For more information, see [Create an exposure assessment for an exposure type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-exposure-assessment.md).
-2.  Perform exposure assessments across different locations for this exposure type. For more information, see [Perform an exposure assessment for a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-perform-exposure-assessment.md).
+1.  Create exposure assessment records for all locations in your organization that this exposure type applies to. For more information, see [Create an exposure assessment for an exposure type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-create-exposure-assessment.md).
+2.  Perform exposure assessments across different locations for this exposure type. For more information, see [Perform an exposure assessment for a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-perform-exposure-assessment.md).
 
-**Parent Topic:**[Safety exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-exposures.md)
+**Parent Topic:**[Safety exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-safety-exposures.md)
 

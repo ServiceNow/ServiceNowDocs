@@ -2,7 +2,7 @@
 title: Create a tool from a REST API
 description: Create a tool from a REST API to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-a-tool-from-rest-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-a-tool-from-rest-api.html
 release: australia
 topic_type: task
 last_updated: "2026-05-29"
@@ -112,11 +112,11 @@ One or more servers you want to add your tool to.
 
 ## What to do next
 
-Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md).
+Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/connect-mcp-server-client.md).
 
 **Note:** When calling a Scripted REST API tool from a client, you must provide inputs in your request. If a required parameter, such as a record number, a date range, or a filter value, is not present in the request, the tool will not be able to complete the task.
 
-**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md)
+**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/creating-tools-mcp-server.md)
 
 **Related topics**  
 

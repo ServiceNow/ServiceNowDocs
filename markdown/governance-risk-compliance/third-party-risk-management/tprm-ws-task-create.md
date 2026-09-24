@@ -2,7 +2,7 @@
 title: Create a task for a third party or engagement
 description: Create a task to help ensure that a user at your organization or the third-party contact responds to your concerns about questionnaire responses or requested documents during the due diligence process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -30,21 +30,21 @@ In an iterative process, before the TPR manager closes an assessment, the TPR ma
 
 2.  Select **New** and fill in the form.
 
-    For descriptions of all these fields, see [Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md).
+    For descriptions of all these fields, see [Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md).
 
 3.  Select **Save**.
 
 
 ## What to do next
 
-Monitor and manage the task as work progresses, including updating its state and reviewing third-party portal activity, as described in [Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md). If you made the task visible in the third-party portal, the third-party contact can view and act on it there.
+Monitor and manage the task as work progresses, including updating its state and reviewing third-party portal activity, as described in [Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md). If you made the task visible in the third-party portal, the third-party contact can view and act on it there.
 
 **Related topics**  
 
 
-[Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md)
+[Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md)
 
-[Create a task for an internal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-internal-tasks.md)
+[Create a task for an internal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-internal-tasks.md)
 
-[Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md)
+[Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md)
 

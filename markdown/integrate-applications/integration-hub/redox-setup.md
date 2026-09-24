@@ -2,7 +2,7 @@
 title: Set up the Redox Electronic Health Record Spoke
 description: Integrate your ServiceNow instance and the Redox engine with both inbound and outbound configuration.Enable your ServiceNow instance to connect with the Redox engine by setting up a connection and credential record.Enable the Redox Electronic Health Record Spoke to send data to the external Redox healthcare system by configuring the source and destination IDs of the system in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/redox-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/redox-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -35,11 +35,11 @@ This task gives the procedure to set up both the inbound and outbound transactio
 
 ## Procedure
 
-1.  [Create a Redox Electronic Health Record Spoke connection and credential record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/redox-setup.md).
+1.  [Create a Redox Electronic Health Record Spoke connection and credential record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/redox-setup.md).
 
     This procedure enables the outbound transactions.
 
-2.  [Configure the external Redox healthcare system as a source system for the Redox Electronic Health Record Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/redox-setup.md).
+2.  [Configure the external Redox healthcare system as a source system for the Redox Electronic Health Record Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/redox-setup.md).
 
     This procedure enables the inbound transactions.
 

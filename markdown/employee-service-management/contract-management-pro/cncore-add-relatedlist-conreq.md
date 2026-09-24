@@ -2,7 +2,7 @@
 title: Add Contract requests tab to the contract request record
 description: As an administrator, add the ability to access contract request details to your form by adding the Contract requests tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-add-relatedlist-conreq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-add-relatedlist-conreq.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -46,9 +46,9 @@ The Contract requests tab is available your workspace to view the request detail
 
 \[Omitted image "cmpro-bu-add-cr-result.png"\] Alt text: The contract request related list is available in your record
 
-For more information on roles required to work on contract requests, see [Components installed with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-comp-ccore.md).
+For more information on roles required to work on contract requests, see [Components installed with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-comp-ccore.md).
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 

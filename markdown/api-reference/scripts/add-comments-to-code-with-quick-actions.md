@@ -2,7 +2,7 @@
 title: Add comments to code
 description: Add comments in the ServiceNow Otto for Code enabled script editor using quick actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/add-comments-to-code-with-quick-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/add-comments-to-code-with-quick-actions.html
 release: australia
 product: Scripts
 classification: scripts

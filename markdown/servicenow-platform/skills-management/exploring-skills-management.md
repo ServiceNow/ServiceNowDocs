@@ -2,7 +2,7 @@
 title: Exploring Skills Management
 description: Use Skills Management to associate skills with individual users or groups and assign them to tasks or projects. You can also assess the skills needed for your organization, identify gaps, and implement effective plans for hiring or training of your teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/exploring-skills-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/skills-management/exploring-skills-management.html
 release: australia
 product: Skills Management
 classification: skills-management

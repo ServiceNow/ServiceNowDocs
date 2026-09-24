@@ -2,7 +2,7 @@
 title: Service Manager dashboard
 description: Use the Service Manager dashboard to track and analyze customer service case data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/customer-service-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/customer-service-dashboard.html
 release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service

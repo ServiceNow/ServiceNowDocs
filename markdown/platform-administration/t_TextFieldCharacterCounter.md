@@ -2,7 +2,7 @@
 title: Enable the text field character counter
 description: By default, multi-line text fields have a 4000 character limit. To help users see how many characters remain before they reach the limit, you can enable the glide.ui.textarea.character\_counter property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_TextFieldCharacterCounter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_TextFieldCharacterCounter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

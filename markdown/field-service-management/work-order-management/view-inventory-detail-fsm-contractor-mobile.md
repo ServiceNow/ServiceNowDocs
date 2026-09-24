@@ -2,7 +2,7 @@
 title: View inventory details using the Field Service Contractor for mobile application
 description: View details of available and defective parts in your inventory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-inventory-detail-fsm-contractor-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/view-inventory-detail-fsm-contractor-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

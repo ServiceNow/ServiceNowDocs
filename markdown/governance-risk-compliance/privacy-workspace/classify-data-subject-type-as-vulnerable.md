@@ -2,12 +2,12 @@
 title: Classify data subject type as vulnerable
 description: Classify a data subject type as vulnerable. When you mark a data subject type as vulnerable, the criticality score is calculated as High.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/classify-data-subject-type-as-vulnerable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/classify-data-subject-type-as-vulnerable.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -39,5 +39,5 @@ Role required: sn\_privacy.manager
 
 The data subject type that you classified as vulnerable contributes to the criticality score being High.
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

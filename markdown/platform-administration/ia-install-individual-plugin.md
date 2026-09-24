@@ -2,7 +2,7 @@
 title: Install an individual plugin from Product Hub
 description: Use Product Hub to discover, review, and install an individual standalone plugin without requiring a full product bundle installation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-install-individual-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-install-individual-plugin.html
 release: australia
 topic_type: task
 last_updated: "2026-08-27"
@@ -92,7 +92,7 @@ After the plugin installation completes, consider the following next steps:
 -   Configure the plugin settings if required \(consult the plugin's documentation for configuration guidance\).
 -   Test the plugin functionality in your instance to confirm it meets your needs.
 -   Monitor Product Hub for any available plugin updates and plan upgrade windows as needed.
--   Refer to the [Individual plugin installation from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-plugin-install.md) for more information about dependencies, entitlements, and considerations.
+-   Refer to the [Individual plugin installation from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-plugin-install.md) for more information about dependencies, entitlements, and considerations.
 
-**Parent Topic:**[Individual plugin installation from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-plugin-install.md)
+**Parent Topic:**[Individual plugin installation from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-plugin-install.md)
 

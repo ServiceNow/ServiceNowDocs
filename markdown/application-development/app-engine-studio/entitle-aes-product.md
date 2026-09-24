@@ -2,7 +2,7 @@
 title: Get entitlement for AES apps
 description: Install App Engine Studio \(AES\) by verifying that the application or the product and its associated applications have valid ServiceNow entitlements. An entitlement means you have a license to install the product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/entitle-aes-product.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/entitle-aes-product.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -60,5 +60,5 @@ Role required: admin
 
 Install and activate AES. Navigate to **All** &gt; **My Company Applications** and select App Engine Studio.
 
-**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-installation-store.md)
 

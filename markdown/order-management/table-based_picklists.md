@@ -2,7 +2,7 @@
 title: Table-based picklists
 description: A table-based picklist lets an administrator query and retrieve data from managed tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/table-based\_picklists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/table-based\_picklists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -63,5 +63,5 @@ If the referenced table returns a row with no data contained in the label or val
 **Related topics**  
 
 
-[Picklists and picklist extensions in rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-picklists-and-picklist-extensions-in-rules.md)
+[Picklists and picklist extensions in rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-picklists-and-picklist-extensions-in-rules.md)
 

@@ -2,7 +2,7 @@
 title: Restrict access to the domain picker
 description: Use a system property to restrict access to the domain picker in Core UI and Next Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_RestrictAccesstoDomainPicker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_RestrictAccesstoDomainPicker.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Admins can grant access to users by creating a system property in the sys\_prope
     To learn more, see [Configure Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md)
 
 
-**Parent Topic:**[Use domain selection menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DisplayingDomainSelectionMenus.md)
+**Parent Topic:**[Use domain selection menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_DisplayingDomainSelectionMenus.md)
 
 **Related topics**  
 

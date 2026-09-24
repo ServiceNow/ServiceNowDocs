@@ -2,7 +2,7 @@
 title: Role masking in AI agents
 description: Role masking for AI agents and agentic workflows helps users enhance security by enabling them to limit their roles during tool execution and verify that AI agents run with least-access privileges.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-role-masking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-role-masking.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-04"
@@ -24,7 +24,7 @@ Use role masking to:
 -   Empower users to follow least-access principles when an agentic workflow or AI agent executes on behalf of a dynamic user.
 -   Limit roles that agentic workflows, AI agents, and skills inherit from users and can be applied when a user invokes them.
 
-    For more information about configuring skills, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+    For more information about configuring skills, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
 -   Reduce the risk of AI solutions accessing the resources that they shouldn't, therefore helping prevent agentic overreach into sensitive data or capabilities beyond what the user is allowed.
 -   Expand the security configurations to increase functionality of agentic products while reducing security risks by enforcing governance for elevated or scoped roles.
@@ -58,6 +58,6 @@ Role masking behavior in agentic workflows, AI agents, and tools controls which 
 
 ## Configuration
 
--   To configure role masking for an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
--   To configure role masking for an AI agent, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+-   To configure role masking for an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aia.md).
+-   To configure role masking for an AI agent, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 

@@ -2,7 +2,7 @@
 title: Jumpstart Your Task Intelligence
 description: The Jumpstart Your Task Intelligence Accelerator provides a demonstration of the possibilities and capabilities of Task Intelligence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-task-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-task-intelligence.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

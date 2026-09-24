@@ -2,12 +2,12 @@
 title: Telecom data model
 description: The Telecom data model defines a structured framework for representing telecommunications networks within the CMDB. It extends the core configuration item \(CI\) model to describe telecom‑specific infrastructure, connections, and relationships in a consistent and scalable way.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/bundle-tsom.telecom-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/bundle-tsom.telecom-data-model.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Explore, Telecommunications Service Operations Management]
 ---
@@ -46,7 +46,7 @@ Domain‑specific data models build on the Telecom data model by refining and sp
 **Related topics**  
 
 
-[SD-WAN data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.md)
+[SD-WAN data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.md)
 
 [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/uses-for-network-inventory-data.md)
 

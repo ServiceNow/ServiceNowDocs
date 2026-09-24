@@ -2,7 +2,7 @@
 title: IntelliSense in VS Code
 description: The IntelliSense code editing feature in the ServiceNow Extensions for VS Code extension provides intelligent code completions which provide auto-completion options to make writing code faster and more efficient.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/Intellisense.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/Intellisense.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ The auto-completion options available are:
 
 The extension supports snippets \(templates\) for commonly used code patterns and loads snippets defined by the user in Macros table of the Syntax Editor on an instance. Snippets appear in IntelliSense when you type `⌃Space` along with other suggestions. Alternatively, snippets can also be inserted using the **Insert Snippet** command from the command palette in VS Code.
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vs-code.md)
 

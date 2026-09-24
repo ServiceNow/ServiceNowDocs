@@ -2,7 +2,7 @@
 title: DevOps Change Velocity release notes
 description: The ServiceNow DevOps Change Velocity application improves visibility into your DevOps data in a single system, automates and accelerates change processes, and helps you gain insights to measure the performance of your DevOps environment. DevOps Change Velocity was enhanced and updated in the Australia release.The version 7.1 release adds support for authenticating Rally tool connections with OAuth 2.0 credentials, and GitHub Data Residency.The ServiceNow DevOps Change Velocity application improves visibility into your DevOps data in a single system, automates and accelerates change processes, and helps you gain insights to measure the performance of your DevOps environment. DevOps Change Velocity was enhanced and updated in the Australia release.The ServiceNow DevOps Change Velocity application improves visibility into your DevOps data in a single system, automates and accelerates change processes, and helps you gain insights to measure the performance of your DevOps environment. DevOps Change Velocity was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/devops-change-velocity-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/devops-change-velocity-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ See [DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/Servic
     Install DevOps Change Velocity by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-service-management-rn-landing.md)
 
 ## Version 7.1
 
@@ -39,7 +39,7 @@ The version 7.1 release adds support for authenticating Rally tool connections w
 
 ### What's new
 
--   **Rally authentication with OAuth 2.0**
+-   **[Rally authentication with OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/setting-up-rally-oauth-2-0-credentials-for-devops.md)**
 
     Authenticate a Rally tool connection using OAuth 2.0 credentials to strengthen your tool security.
 

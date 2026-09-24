@@ -2,7 +2,7 @@
 title: Configure Knowledge Management - Add-in for Microsoft Word
 description: Configure the Knowledge Management - Add-in for Microsoft Word to author and access knowledge articles in Microsoft Word.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-km-add-in-word.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/configure-km-add-in-word.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -22,17 +22,17 @@ Complete the following tasks to use the Knowledge Management - Add-in for Micros
 
 ## Procedure
 
-1.  [Activate Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-km-word-add-in.md).
+1.  [Activate Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/activate-km-word-add-in.md).
 
-2.  [Deploy Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/deploy-km-word-manifest.md).
+2.  [Deploy Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/deploy-km-word-manifest.md).
 
-3.  [Configure the security for Knowledge Management add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-domain-km-word-add-in.md).
+3.  [Configure the security for Knowledge Management add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-domain-km-word-add-in.md).
 
-4.  [Enable downloading of the source Microsoft Word document for a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-downloading-article-word-document.md).
+4.  [Enable downloading of the source Microsoft Word document for a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/enable-downloading-article-word-document.md).
 
 
 **Related topics**  
 
 
-[Authoring a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-authoring-word.md)
+[Authoring a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-article-authoring-word.md)
 

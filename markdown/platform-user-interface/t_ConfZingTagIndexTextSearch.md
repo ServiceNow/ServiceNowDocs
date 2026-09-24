@@ -2,7 +2,7 @@
 title: Configure Zing tag indexing for text search
 description: Zing text indexing is available for tags on records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfZingTagIndexTextSearch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ConfZingTagIndexTextSearch.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,5 +58,5 @@ After you turn on text indexing for tags on a table, records on the table are re
 -   When you modify a tag, as long as fewer than 100 records are affected. If there are more records, you must manually reindex.
 -   When you manually reindex an entire table \(required after initial tag indexing setup\).
 
-**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Tags.md)
 

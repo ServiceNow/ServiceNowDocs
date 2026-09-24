@@ -2,7 +2,7 @@
 title: Using the item generation process to generate controls and risks
 description: The ServiceNow GRC suite of applications can automatically generate controls and risks for your organization with the enhanced item generation process. The enhanced item generation process \(v2\) in version 13.x.x fixes the stalling and performance issues from the item generation process \(v1\) in version 12.x.x and earlier releases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/item-generation-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/item-generation-process.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -20,13 +20,13 @@ The ServiceNow® GRC suite of applications can automatically generate controls a
 
 By using the Governance, Risk, and Compliance application, you can use the item generation process to generate controls and risks for your organization.
 
-A control is the actual control activity that an organization performs. For example, a control can be related to authoritative source content \(legal articles, regulations, or public records\), policies, and risks. A control is automatically generated when you associate a policy with an entity type \(grouping of the entities that match a set of filter conditions\) or an entity type with a control objective. For more information on controls, see [Manage controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md).
+A control is the actual control activity that an organization performs. For example, a control can be related to authoritative source content \(legal articles, regulations, or public records\), policies, and risks. A control is automatically generated when you associate a policy with an entity type \(grouping of the entities that match a set of filter conditions\) or an entity type with a control objective. For more information on controls, see [Manage controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md).
 
 A risk is any threat or vulnerability that could adversely affect an organization’s business objectives. For example, a risk can be related to any item, policy, control, or remediation task. A risk is automatically generated when you make associations between risk frameworks or risk statements and entity types.
 
 **Note:** Risk statements are general statements about potential risks or threats that could occur in an organization. A risk framework consists of a risk assessment, response, and accountability for the risk and mitigation activities around it.
 
-For more information on risks, see [Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md).
+For more information on risks, see [Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md).
 
 The item generation process \(v1\) in version 12.x.x and earlier releases generated out-of-sync updates due to the stalled actions in the action queue. The enhanced item generation process \(v2\) eliminates the stalling issues and improves the processing time of the controls and risks significantly. For example, the legacy item generation process \(v1\) generated 10,000 risks in approximately 13.7 minutes where the new item generation process \(v2\) can generate 10,000 risks in approximately 5.27 minutes.
 
@@ -78,7 +78,7 @@ When you upgrade, you don't see any visible impact to your existing implementati
 
 ## Components that are used by the item generation process
 
-The item generation process uses several types of reference components such as tables, scheduled jobs, and action handlers. For more information on the components that are used with the item generation process, see [Components installed with the item generation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/components-item-gen-process.md).
+The item generation process uses several types of reference components such as tables, scheduled jobs, and action handlers. For more information on the components that are used with the item generation process, see [Components installed with the item generation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/components-item-gen-process.md).
 
 ## Using the scheduled job and action event queue
 
@@ -114,10 +114,10 @@ As a user with the script\_include\_admin role, you can revise the action strate
 
 \[Omitted image "override\_base\_class\_functions.png"\] Alt text: Override the base functions.
 
--   **[Components installed with the item generation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/components-item-gen-process.md)**  
+-   **[Components installed with the item generation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/components-item-gen-process.md)**  
 Several types of components are installed with the item generation process, including tables, scheduled jobs, and action handlers.
--   **[Operational changes in item generation of common controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/item-gen-action-types.md)**  
+-   **[Operational changes in item generation of common controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/item-gen-action-types.md)**  
 Operational changes are made in item generation mainly because item generation either creates a control or activates an existing standard control. When it comes to associating a control to an entity, then associating a reliant entity to a common control takes precedence over creating a control for that entity.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

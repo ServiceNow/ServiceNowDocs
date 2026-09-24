@@ -2,7 +2,7 @@
 title: Restore a homepage
 description: Restore retired homepages as dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/hpm-restore-homepages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/hpm-restore-homepages.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

@@ -2,7 +2,7 @@
 title: Guidelines for translated dashboards
 description: Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable. When working with language plugins, refer to these guidelines to make sure users can find your translated dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/guidelines-translated-dbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/guidelines-translated-dbs.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -28,6 +28,6 @@ Users can only find translated dashboards under certain configurations. You can 
 
     Open the dashboard, select the target language in your preferences, and in the dashboard's properties, enter the translated name of the dashboard. Other users can now find the dashboard using its localized name.
 
-    Learn more: [Solving issues on translated dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/solving-issues-translated-dashboards.md).
+    Learn more: [Solving issues on translated dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/solving-issues-translated-dashboards.md).
 
 

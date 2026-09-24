@@ -2,7 +2,7 @@
 title: Buying Group release notes
 description: The ServiceNow Buying Group application provides information on the key  decision-making stakeholders of a company to whom you are trying to sell a particular product. Buying Group is a new application in the Australia release.The ServiceNow Buying Group application provides information on the key  decision-making stakeholders of a company to whom you are trying to sell a particular product. Buying Group is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/buying-group-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/buying-group-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ See [Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/a
     Install Buying Group by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
 
 ## Australia
 

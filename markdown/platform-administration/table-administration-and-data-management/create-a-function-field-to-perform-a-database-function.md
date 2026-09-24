@@ -2,7 +2,7 @@
 title: Create a function field to perform a database function
 description: Create a function field that displays the results of a database function, such as a mathematical operation, field length computation, or day of the week calculation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/create-a-function-field-to-perform-a-database-function.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/create-a-function-field-to-perform-a-database-function.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -118,7 +118,7 @@ The variable prefix `inc` is included because the function field is defined on t
 
 ## What to do next
 
-[Display function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/display-function-results-in-a-database-view.md)
+[Display function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/display-function-results-in-a-database-view.md)
 
-**Parent Topic:**[Displaying function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/displaying-function-results-in-a-database-view.md)
+**Parent Topic:**[Displaying function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/displaying-function-results-in-a-database-view.md)
 

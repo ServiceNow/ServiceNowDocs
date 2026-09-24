@@ -2,7 +2,7 @@
 title: Link the insurance product model and claim case service definition
 description: Link the insurance product model and claim case service definition by using the Insurance claims application. Without this link, the system doesn’t know which policies are relevant to the case service definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/link-the-insurance-product-model-and-service-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/link-the-insurance-product-model-and-service-definition.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -45,5 +45,5 @@ After creating an insurance product model and a claim case service definition, y
 
 Associate another product model by repeating steps 3–5.
 
-**Parent Topic:**[Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md)
+**Parent Topic:**[Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md)
 

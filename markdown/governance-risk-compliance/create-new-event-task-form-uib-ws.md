@@ -2,7 +2,7 @@
 title: Create Event Task form
 description: Use the Create New Event Task form in BCM UIB Workspace to add details about an event task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-event-task-form-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-event-task-form-uib-ws.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -157,7 +157,7 @@ Option to enable clearer visual indicators for different levels of recovery prog
 
  For example, if a recovery process involves three steps, you can consider an asset recovered after completing step two, and defer step three to a later time. This provides greater flexibility in managing your recovery processes.
 
- For more information on enhanced event asset management, see [Event assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/event-assets.md).
+ For more information on enhanced event asset management, see [Event assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/event-assets.md).
 
 </td></tr><tr><td>
 
@@ -242,5 +242,5 @@ Original task
 Original task assigned by the system. When an event starts, the system identifies the first executed event task as the original task. Other similar tasks are modified as duplicate tasks in the group. When a task gets added into the similar tasks group, the system marks it in the **On hold** state. Tasks with dependencies can be managed such that only one task with dependencies is added to the group. Once dependencies are resolved, duplicate tasks are closed when the original task is completed. You cannot edit the **Original task** field at any time. It is auto-assigned only after the event task starts executing.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Monitor event tasks and create ad-hoc tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-an-event-task-to-exercise-event.md)
+</table>**Parent Topic:**[Monitor event tasks and create ad-hoc tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-an-event-task-to-exercise-event.md)
 

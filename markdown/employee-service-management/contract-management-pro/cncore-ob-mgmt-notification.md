@@ -2,7 +2,7 @@
 title: Obligation Management notifications
 description: Obligation Management uses email notifications to notify obligation fulfiller and obligation users when an obligation task is created, assigned, submitted, approved, or rejected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-ob-mgmt-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-ob-mgmt-notification.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,9 +29,9 @@ The following notifications are not activated by default:
 -   Obligation task approved
 -   Obligation task rejected
 
-For information about how to activate notifications, see [Configure Obligation Management notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-ob-mgmt-notf.md).
+For information about how to activate notifications, see [Configure Obligation Management notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-ob-mgmt-notf.md).
 
-**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

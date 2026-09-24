@@ -2,7 +2,7 @@
 title: Components installed with Commercial Lines Underwriting
 description: Several types of components are installed with installation of the Commercial Lines Underwriting application \(sn\_ins\_uw\_b2b\), including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/components-installed-with-insurance-commercial-underwriting-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/components-installed-with-insurance-commercial-underwriting-operations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -98,5 +98,5 @@ Commercial Underwriting Service Task \[sn\_ins\_uw\_b2b\_task\]
 Stores all underwriting tasks for business policy service requests for all Financial Services Operations applications. This table extends the Financial Task \[sn\_bom\_task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Commercial Lines Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/commercial-lines-servicing-reference.md)
+</table>**Parent Topic:**[Commercial Lines Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/commercial-lines-servicing-reference.md)
 

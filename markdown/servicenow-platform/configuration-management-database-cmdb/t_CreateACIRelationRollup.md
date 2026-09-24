@@ -2,7 +2,7 @@
 title: Create a CI relation rollup
 description: A CI relation rollup allows you to sum, count, max, min, or mean a relationship type. You can create CI relation rollups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CreateACIRelationRollup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/t\_CreateACIRelationRollup.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -57,7 +57,7 @@ CI relation rollups use the **cmdb synch event** business rule on the \[cmdb\_ci
     Additionally, if you wish CI relation rollups to recalculate when there is a change to a relationship, use a similar procedure to select the **Active** check box on the **cmdb\_rel\_ci synch event** business rule.
 
 
-**Parent Topic:**[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+**Parent Topic:**[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 
 **Related topics**  
 
@@ -76,5 +76,5 @@ CI relation rollups use the **cmdb synch event** business rule on the \[cmdb\_ci
 
 [CI relationship security]()
 
-[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 

@@ -2,7 +2,7 @@
 title: Import your Wi-Fi access logs spreadsheet
 description: Import Wi-Fi access logs from an Excel spreadsheet into the Wi-Fi Access Register table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/import-wifi-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/import-wifi-data.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -44,5 +44,5 @@ Role required: sn\_imt\_tracing.wifi\_manager
 7.  Verify that the data records were imported into the Wi-Fi Access Register table by navigating to **Contact Tracing** &gt; **Wi-Fi Access Management** &gt; **Wi-Fi Access Register**.
 
 
-**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/wifi-access-management.md)
+**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/wifi-access-management.md)
 

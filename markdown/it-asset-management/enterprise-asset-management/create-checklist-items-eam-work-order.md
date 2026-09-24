@@ -2,7 +2,7 @@
 title: Create a checklist for an Enterprise Asset Management work order or work order task
 description: Create a checklist of all items that you must complete for your work order or work order task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-checklist-items-eam-work-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-checklist-items-eam-work-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

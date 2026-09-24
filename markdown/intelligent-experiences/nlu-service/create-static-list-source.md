@@ -2,7 +2,7 @@
 title: Create a list vocabulary source
 description: Create a list of words or phrases to act as a vocabulary source. The values in the list source are replaced by the synonym if they are detected in a user utterance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-static-list-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/create-static-list-source.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -83,7 +83,7 @@ In this example procedure, you're creating a list vocabulary source for your com
 
 Add the rest of the break room names and alternatives.
 
-You must retrain the model after updating a list vocabulary source. For more information, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md).
+You must retrain the model after updating a list vocabulary source. For more information, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/test-train-nlu-model.md).
 
 Then you can use the list vocabulary source when annotating a training utterance. Use the @ symbol with the handle to refer to this vocabulary source.
 

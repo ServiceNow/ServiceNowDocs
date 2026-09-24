@@ -2,7 +2,7 @@
 title: Verify CrowdStrike Falcon Insight profile trigger conditions
 description: Test the profile and verify that the trigger condition filters that you have configured work as expected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-integration-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/verify-integration-configuration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,7 +2,7 @@
 title: api - UI Builder
 description: The api API provides methods that you can use when developing client scripts in the UI Builder.Page properties can be configured within UI Builder. The configuration values depend on the context in which the page is used.Context session properties associated with the current user.Boolean flag that indicates whether the last fetch attempt for the specified data resource instance finished successfully.Displays the specified error message at the top of the current form.Displays the specified informational message at the top of the current form.Adds an option to the specified choice type field.Displays the specified warning message at the top of the current form.Removes all informational and error messages from the top of the current form.Clears all options from the specified choice type field.Executes the specified UI action.Triggers an execute operation on the specified data resource.Hides the oldest message next to the specified field or clears all messages associated with the field.Hides the specified related list on the current form.Hides all related lists on the current form.Triggers a refresh operation for the specified non-mutating data resource instance.Reloads the current form using the same table and sys\_id.Removes an option from the specified choice type field.Triggers form submission using the Save UI action.Sets whether the specified form field is mandatory.Sets the read/write capabilities of the specified form field.Updates a specified GlideForm field with the specified value. Optionally, you can also update the display value with the same specified value.Sets the visibility of the specified form field.Displays the specified message next to the specified field.Displays the specified related list on the current form.Displays all related lists associated with the current form.Triggers form submission using the specified UI action.Emits an event with the specified name and payload.Sets the value of the specified client state parameter.Sets the value of the specified client state parameter to the value returned by the specified callback function.Current value of the specified client state parameter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/ui-builder-api-reference/apiAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/ui-builder-api-reference/apiAPI.html
 release: australia
 product: UI Builder API Reference
 classification: ui-builder-api-reference
@@ -33,7 +33,7 @@ These scripts cannot be written as an asynchronous function. They also cannot in
 
 The api object contains both configuration dependent and configuration independent properties that you can access within the context of the associated page or component. You cannot directly modify the properties within this object. Modification can only be made through the available methods.
 
-**Parent Topic:**[UIB API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ui-builder-api-reference/api-uib.md)
+**Parent Topic:**[UIB API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/ui-builder-api-reference/api-uib.md)
 
 ## api - api.context.props.&lt;page\_property\_name&gt;
 
@@ -2131,7 +2131,7 @@ function showRelatedLists({api}) {
 } 
 ```
 
- **Note:** These property values are read-only. To update a client state parameter, use [api.setState\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ui-builder-api-reference/apiAPI.md). Mutating nested object values from scripts is not supported.
+ **Note:** These property values are read-only. To update a client state parameter, use [api.setState\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/ui-builder-api-reference/apiAPI.md). Mutating nested object values from scripts is not supported.
 
 </td></tr></tbody>
 </table>

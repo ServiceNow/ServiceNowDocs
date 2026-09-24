@@ -2,7 +2,7 @@
 title: Onboarding DevOps tools and apps
 description: Use the onboarding catalog items as a self-service approach to onboard your DevOps tools and apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-tools-self-service-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/onboard-tools-self-service-catalog.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -101,8 +101,8 @@ You can also use the onboarding APIs to onboard DevOps tools &amp; apps in bulk 
 -   Onboard DevOps apps at scale by using the DevOps app onboarding API. The POST/devops/onboarding/app request creates an onboarding app event that is asynchronously processed by the DevOps service. For more information, see [POST/devops/onboarding/app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md).
 -   Onboard DevOps tools at scale by using the DevOps tool onboarding API. The POST/devops/onboarding/tool request creates an onboarding tool event that is asynchronously processed by the DevOps service. For more information, see [POST/devops/onboarding/tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md).
 
--   **[Importing historical data for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/import-historical-data-devops-catalog.md)**  
+-   **[Importing historical data for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/import-historical-data-devops-catalog.md)**  
 Use the service catalog to onboard a new app and import historical DevOps data for that app. Enable polling to import data that is mapped to associated plans, repositories and pipelines on a scheduled frequency.
 
-**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

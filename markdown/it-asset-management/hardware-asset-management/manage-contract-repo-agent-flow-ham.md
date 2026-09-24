@@ -2,7 +2,7 @@
 title: Manage contract repository agentic workflow in the Hardware Asset Workspace
 description: Automate contract management with the Manage contract repository agentic workflow. Extract metadata and obligations from signed contracts and set renewal or termination reminders automatically to reduce manual data entry and help legal and procurement teams maintain compliance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -34,7 +34,7 @@ The following workflow explains the metadata extraction and contract reminder se
 
 1.  As a Contract admin with the AI role \(sn\_cm\_gen\_ai.ai\_contract\_config\), activate the Contract metadata extraction skill in the AI Admin Hub console.
 
-    For more information, see [Configure the Manage contract repository agentic workflow for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configure-contract-repo-agentic-workflow-ham.md).
+    For more information, see [Configure the Manage contract repository agentic workflow for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configure-contract-repo-agentic-workflow-ham.md).
 
 2.  In the Contract management view of the Hardware Asset Workspace, create a contract record.
 3.  On the contract record, upload a signed contract file and select **Initiate contract extraction**.
@@ -49,7 +49,7 @@ The following workflow explains the metadata extraction and contract reminder se
 
 7.  The Contract Manager sets the contract reminders in the playbook by reviewing the calculated date and configuring the recipient list for the reminders.
 
-For more information, see [Review AI-extracted metadata and contract reminder date in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/review-ai-extracted-metadata-ham.md).
+For more information, see [Review AI-extracted metadata and contract reminder date in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/review-ai-extracted-metadata-ham.md).
 
 ## Obligation extraction
 
@@ -59,7 +59,7 @@ The following workflow explains the obligation extraction process:
 
 1.  As a Contract admin with the AI role \(sn\_cm\_gen\_ai.ai\_contract\_config\), activate the contract obligation extraction skill in the AI Admin Hub console.
 
-    For more information, see [Configure the Manage contract repository agentic workflow for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configure-contract-repo-agentic-workflow-ham.md).
+    For more information, see [Configure the Manage contract repository agentic workflow for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configure-contract-repo-agentic-workflow-ham.md).
 
 2.  In the Contract management view of the Hardware Asset Workspace, create a contract record.
 3.  On the contract record, upload a signed contract file and select **Initiate contract extraction**.
@@ -68,7 +68,7 @@ The following workflow explains the obligation extraction process:
 6.  Approved obligations are automatically added as obligation records in the **Obligations** tab of the contract record.
 7.  Obligation tasks are created.
     -   For a recurring schedule, the obligation tasks are automatically created for the obligation record based on the defined schedule.
-    -   For an ad hoc schedule, the user with the sn\_cm\_obligation.obligation\_fulfiller role creates an obligation task. For details, see [Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
+    -   For an ad hoc schedule, the user with the sn\_cm\_obligation.obligation\_fulfiller role creates an obligation task. For details, see [Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
 8.  The assigned user with the sn\_cm\_obligation.obligation\_user role is notified when the obligation task is created.
 9.  The assigned user works on the obligation task and submits it for review.
 
@@ -78,7 +78,7 @@ The following workflow explains the obligation extraction process:
     -   If the obligation task is rejected, the state of the task changes to Open, and the assigned user continues to work on it.
     -   If the obligation task is approved, the state of the task changes to Completed.
 
-For more information, see [Review AI-extracted obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/review-extracted-obligation-ham.md).
+For more information, see [Review AI-extracted obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/review-extracted-obligation-ham.md).
 
 ## Conditions for initiating extraction from the contract file
 
@@ -112,14 +112,14 @@ Contract repository AI agent
 -   Calculates the average lead time for similar contracts.
 
 </td></tr></tbody>
-</table>-   **[Initiate metadata and obligation extraction from a signed contract in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/initiate-metadata-extraction-ham.md)**  
+</table>-   **[Initiate metadata and obligation extraction from a signed contract in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/initiate-metadata-extraction-ham.md)**  
 Reduce manual effort by using the Manage contract repository agentic workflow to extract key metadata and obligations from an uploaded signed contract and calculate the contract reminder date.
--   **[Review AI-extracted metadata and contract reminder date in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/review-ai-extracted-metadata-ham.md)**  
+-   **[Review AI-extracted metadata and contract reminder date in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/review-ai-extracted-metadata-ham.md)**  
 Use the contract playbook to review and update the AI-extracted metadata and contract reminder date.
--   **[Review AI-extracted obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/review-extracted-obligation-ham.md)**  
+-   **[Review AI-extracted obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/review-extracted-obligation-ham.md)**  
 Use the contract playbook to review, edit, approve, or reject obligations automatically extracted from contract documents.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
@@ -192,5 +192,5 @@ Use the contract playbook to review, edit, approve, or reject obligations automa
 
 [Update associated Decision tables for HAM flows]()
 
-[Hardware Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-cm-pro-integration.md)
+[Hardware Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-cm-pro-integration.md)
 

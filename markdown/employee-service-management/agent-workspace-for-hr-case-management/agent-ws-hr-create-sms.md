@@ -2,7 +2,7 @@
 title: Compose an SMS message from a chat in HR Service Delivery Agent Workspace
 description: Create and send an outbound SMS message to a recipient directly from a chat interaction. Access interactions assigned to you to follow up via SMS message when you need more details from the employee.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-create-sms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-create-sms.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

@@ -2,7 +2,7 @@
 title: Set up the MID Web Server with a .pem file
 description: Install the .pem file into the MID unified keystore and set up the MID Web Server to enable configuring mTLS on your MID Web Server and agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/set-mid-web-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/set-mid-web-server.html
 release: australia
 product: Event Management
 classification: event-management
@@ -18,7 +18,7 @@ Install the .pem file into the MID unified keystore and set up the MID Web Serve
 
 ## Before you begin
 
-Copy the `labmid/mid.pem` file \(created in the [Create keys and certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-keys-and-certificates.md) procedure\) to your MID Web Server host directory.
+Copy the `labmid/mid.pem` file \(created in the [Create keys and certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-keys-and-certificates.md) procedure\) to your MID Web Server host directory.
 
 **Note:** This procedure includes commands for both CentOS 7/Linux and Windows Server environments. Select the commands relevant for your host operating system. If working with another Linux distribution, adapt the commands as needed for your specific OS.
 
@@ -95,5 +95,5 @@ Role required: agent\_client\_collector\_admin
 
 ## What to do next
 
-[Connect the agent to the MID Web Server using TLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/agent-mid-connect.md).
+[Connect the agent to the MID Web Server using TLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/agent-mid-connect.md).
 

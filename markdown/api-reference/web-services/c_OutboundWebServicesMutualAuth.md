@@ -2,7 +2,7 @@
 title: Outbound web service mutual authentication
 description: Mutual authentication establishes trust by exchanging Secure Sockets Layer \(SSL\) certificates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_OutboundWebServicesMutualAuth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_OutboundWebServicesMutualAuth.html
 release: australia
 product: Web Services
 classification: web-services
@@ -24,10 +24,10 @@ For example, you can create a protocol profile called `mauth` with a certificate
 
 **Note:** This feature enables mutual authentication only on outbound HTTPS connections, such as SOAP, REST, or direct HTTPS calls. ServiceNow does not support mutual authentication for outbound requests sent through a MID Server. For information about mutual authentication for inbound web services, see [Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication.md).
 
--   **[Create a protocol profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CreateAProtocolProfile.md)**  
+-   **[Create a protocol profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_CreateAProtocolProfile.md)**  
 You can create a custom HTTPS protocol profile to specify the credentials and certificates used for outbound web services. For example, you can create a custom HTTPS protocol profile to enable mutual authentication.
--   **[Enable mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_EnableMutualAuth.md)**  
+-   **[Enable mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_EnableMutualAuth.md)**  
 You can configure a SOAP or REST message for mutual authentication using a protocol profile.
 
-**Parent Topic:**[Outbound web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-web-services.md)
+**Parent Topic:**[Outbound web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/outbound-web-services.md)
 

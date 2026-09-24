@@ -2,7 +2,7 @@
 title: Import external data using Process Mining
 description: Process Mining analyzes process data from your ServiceNow instance by default. However, if your organization runs processes in external systems such as Workday or Salesforce, you can import that data into Process Mining to analyze those processes alongside your ServiceNow data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/import-ext-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/import-ext-data.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -52,9 +52,9 @@ Applications for external data can't function without Process Mining. Before act
 **Related topics**  
 
 
-[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/external-dataset.md)
+[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/external-dataset.md)
 
-[Process Mining for Workday and Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/pm-workday.md)
+[Process Mining for Workday and Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/pm-workday.md)
 
 [pm-salesforce]
 

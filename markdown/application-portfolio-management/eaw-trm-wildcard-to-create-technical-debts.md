@@ -2,7 +2,7 @@
 title: Technology Reference Model \(TRM\) lifecycle with wildcard
 description: Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple software product lifecycles simultaneously without specifying exact minor version details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multi
 
 A TRM lifecycle with a wildcard is a TRM software product that has lifecycle version that ends with a '\*'. The '\*' means that exact specific version details aren’t provided.
 
-**Note:** To define a version for a specific TRM product, see [Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
+**Note:** To define a version for a specific TRM product, see [Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
 
 ## Use of TRM lifecycle with wildcard
 
@@ -28,7 +28,7 @@ Suppose you use Microsoft PowerPoint and have multiple versions like 1.1, 1.2, 1
 
 ## Create a TRM lifecycle with wildcard
 
-A TRM lifecycle with wildcard is created in a similar process as to how you would request a TRM product lifecycle. For information on how to add a TRM product lifecycle, see [Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
+A TRM lifecycle with wildcard is created in a similar process as to how you would request a TRM product lifecycle. For information on how to add a TRM product lifecycle, see [Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
 
 The only difference is, the TRM wildcard version ends with a ‘\*’.
 
@@ -38,18 +38,18 @@ You must be a part of the enterprise architects group to be able to create a TRM
 
 A TRM wildcard can’t create technical debts when the full version of a particular TRM software product exists.
 
-**Parent Topic:**[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+**Parent Topic:**[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 
 **Related topics**  
 
 
-[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md)
+[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-trm-technical-debt.md)
 
-[View Technology Reference Model technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-trm-tech-debt.md)
+[View Technology Reference Model technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/view-trm-tech-debt.md)
 
-[Technical debt calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-calc.md)
+[Technical debt calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-calc.md)
 
-[Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
+[Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
 
-[Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
+[Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
 

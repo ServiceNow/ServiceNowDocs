@@ -2,7 +2,7 @@
 title: Chief Human Resources Officer Dashboard roles
 description: Two roles are associated with this dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/chro-db-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/chro-db-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

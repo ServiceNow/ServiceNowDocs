@@ -2,7 +2,7 @@
 title: Example 4: Update a record in an external source
 description: In this example, we create a script to update an incident record in the external source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/remote-tables/remote-table-script-def-example4.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/remote-tables/remote-table-script-def-example4.html
 release: australia
 product: Remote Tables
 classification: remote-tables
@@ -49,5 +49,5 @@ v\_changed\_fields is a map of changed field names and values.
 })(v_record, v_changed_fields);
 ```
 
-**Parent Topic:**[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)
+**Parent Topic:**[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/remote-tables/create-remote-table-script.md)
 

@@ -2,7 +2,7 @@
 title: Google Chat spoke
 description: Manage communication within your Google Chat spaces directly from your ServiceNow instance using Google Chat spoke. Create flows in your ServiceNow instance to manage media, members, messages, and spaces in Google Chat.Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/google-chat-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/google-chat-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -302,7 +302,7 @@ https://www.googleapis.com/auth/chat.spaces
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 

@@ -2,7 +2,7 @@
 title: Exploring Health and Safety Environmental Management
 description: Health and Safety Environmental Management helps organizations centralize and streamline the tracking of hazardous materials and chemicals. It reduces the reliance on manual processes and spreadsheets, improving data accuracy and conformance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-exploring-environmental-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-exploring-environmental-management.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -31,8 +31,8 @@ In the Health and Safety Workspace, environmental management list view displays 
 |Actions|Tasks or steps created and assigned as part of the approval flow to manage chemical requests.|
 |Regulatory|Regulatory lists that are manually created or fetched through 3E integration.|
 
--   **[Chemical management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-chemical-management-workflow.md)**  
+-   **[Chemical management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-chemical-management-workflow.md)**  
 The chemical management solution is designed to scale for organizations with large chemical inventories and complex conformance needs. It provides tools for managing chemical requests, approvals, and risk assessments, supporting safer workplace practices.
 
-**Parent Topic:**[Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-environmental-management-landing-page.md)
+**Parent Topic:**[Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-environmental-management-landing-page.md)
 

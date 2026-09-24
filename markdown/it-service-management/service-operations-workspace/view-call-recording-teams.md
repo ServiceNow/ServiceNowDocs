@@ -2,7 +2,7 @@
 title: View a conference call recording from Microsoft Teams in Service Operations Workspace
 description: View details for a recorded conference call in Service Operations Workspace by accessing the associated conference record as a reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/view-call-recording-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/view-call-recording-teams.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -35,5 +35,5 @@ Role required: itil
 6.  On the **Calls** tab in the **Completed calls** section, select the **View Recording** button.
 
 
-**Parent Topic:**[Use Microsoft Teams to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/microsoft-teams-sow.md)
+**Parent Topic:**[Use Microsoft Teams to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/microsoft-teams-sow.md)
 

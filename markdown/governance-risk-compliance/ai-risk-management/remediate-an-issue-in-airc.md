@@ -2,7 +2,7 @@
 title: Remediate an issue in AI Risk and Compliance
 description: After an issue has been created, reported, identified, triaged, and investigated, you can remediate it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/remediate-an-issue-in-airc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/remediate-an-issue-in-airc.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -60,7 +60,7 @@ Assigned to
 
 </td><td>
 
-Select the user responsible for working this task.You can configure a hierarchy of users to access the remediation task. For more information, see [User hierarchy access control for issue and remediation task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/user-hierarchy-risk-remed-task.md).
+Select the user responsible for working this task.You can configure a hierarchy of users to access the remediation task. For more information, see [User hierarchy access control for issue and remediation task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/user-hierarchy-risk-remed-task.md).
 
 </td></tr><tr><td>
 
@@ -200,11 +200,11 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

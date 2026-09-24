@@ -2,7 +2,7 @@
 title: Components installed with Major Issue Management
 description: Several types of components are installed with the major issue management feature.Major Issue Management provides these roles.Major Issue Management provides these properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/installed-with-major-issue-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/installed-with-major-issue-mgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

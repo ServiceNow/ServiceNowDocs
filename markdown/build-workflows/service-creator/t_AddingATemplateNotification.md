@@ -2,7 +2,7 @@
 title: Add a template notification
 description: Adding a template notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/t\_AddingATemplateNotification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/service-creator/t\_AddingATemplateNotification.html
 release: australia
 product: Service Creator
 classification: service-creator

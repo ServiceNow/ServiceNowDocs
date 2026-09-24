@@ -2,7 +2,7 @@
 title: Upload business data for unit economics
 description: Upload revenue and unit count data to populate the Unit economics dashboard in the Business Insights view. This Unit economics dashboard enables you to view unit count data across applications, departments, and business units.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/upload-business-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/upload-business-data.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -73,10 +73,10 @@ The Unit economics dashboard requires revenue and unit count data that you provi
 
 Validated rows are written to the unit economics table and appear in the Unit economics dashboard in the Business insights view.
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 
 **Related topics**  
 
 
-[Business Insights view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/business-insights-ccm-ws.md)
+[Business Insights view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/business-insights-ccm-ws.md)
 

@@ -2,7 +2,7 @@
 title: Settle payment with customer
 description: Complete the financial adjustment so the customer receives the correct funds after the dispute is resolved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-settle-payment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/fso-ach-settle-payment.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -47,5 +47,5 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 10. Close the task.
 
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/process-dispute-ach.md)
 

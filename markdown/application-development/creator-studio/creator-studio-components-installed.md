@@ -2,7 +2,7 @@
 title: Components installed with Creator Studio
 description: When you activate the Creator Studio plugin, various components like tables and user roles are automatically installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-components-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-components-installed.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -34,7 +34,7 @@ You must install the following plugins for Creator Studio:
     -   Type: string
     -   Default value: 211f71ca73202010ae42d31ee2f6a785
     -   Hide additional templates by adding their system values \(sys\_id for the template\), separated by commas, in the **Value** field. For more information on the sys\_id, see [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
-    For more information, see [Show the AES template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-unhide-template.md).
+    For more information, see [Show the AES template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-unhide-template.md).
 
 -   **sn\_creatorstudio.history\_record\_limit**
 
@@ -47,7 +47,7 @@ You must install the following plugins for Creator Studio:
 
 ## Roles installed with Creator Studio
 
-The following table lists all roles installed with Creator Studio. For details on how the roles work with Creator Studio, see [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/roles-creator-studio.md).
+The following table lists all roles installed with Creator Studio. For details on how the roles work with Creator Studio, see [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/roles-creator-studio.md).
 
 <table id="table_oyr_sy3_v1c"><thead><tr><th>
 
@@ -225,7 +225,7 @@ Request Task \[sn\_creatorstudio\_task\]
 Table where all requests from apps made in Creator Studio are stored.**Note:**
 
 -   You must have the Request Task table installed on the production instance as well as the non-production instance.
--   Admins can change the associated table that each app in Creator Studio uses. However, the tables in this topics are still installed by default. For more information, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-admin-app-table.md).
+-   Admins can change the associated table that each app in Creator Studio uses. However, the tables in this topics are still installed by default. For more information, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-admin-app-table.md).
 -   You can change the **Request type** field, which specifies the form, on the Request Task table or a table that extends Request Task. To do so, you must be an admin or have the sn\_creatorstudio.configuration\_admin or sn\_creatorstudio.task\_admin role.
 
 </td></tr><tr><td>
@@ -237,5 +237,5 @@ Creator Studio Activities \[sn\_creatorstudio\_activity\]
 Table where all standard and custom activities for Creator Studio automations are stored.**Note:** This table is readable by Creator Studio users and delegated developers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installing Creator Studio from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/installing-creator-studio-from-the-store.md)
+</table>**Parent Topic:**[Installing Creator Studio from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/installing-creator-studio-from-the-store.md)
 

@@ -2,7 +2,7 @@
 title: Integrate with Docusign at Organization level
 description: Integrating your Software Asset Management application with the Docusign service at the organization level enables you to track your software subscriptions and envelope consumption data.Register a Docusign application through the Docusign admin portal.Generate RSA keys to integrate the Docusign application with your ServiceNow instance.Generate a Java Key Store \(JKS\) certificate for the JSON Web Token \(JWT\) authentication of your Docusign integration profile.Create an integration profile to track software subscriptions and optimize licensing for the Docusign service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/integrate-with-docusign-org.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/saas-license-management/integrate-with-docusign-org.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -45,7 +45,7 @@ Docusign Role required: admin
 
 2.  Go to the Admin tab.
 
-    -   If you already have an API integration key from a previous integration ready for use in production, skip to [step 15](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-docusign-org.md).
+    -   If you already have an API integration key from a previous integration ready for use in production, skip to [step 15](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrate-with-docusign-org.md).
     -   If you don't have your API integration key saved, you must generate a new one.
 3.  On the side navigation pane, select **Account Profile** and copy the **Organization ID** to secure it for later use.
 
@@ -130,7 +130,7 @@ The JKS file that you generate is required for uploading to retrieve the OAuth t
 
 2.  Paste the Private key that you had generated from your Docusign integrator app.
 
-    For more information, see [Generate RSA keypair for Docusign integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-docusign-org.md).
+    For more information, see [Generate RSA keypair for Docusign integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrate-with-docusign-org.md).
 
     **Note:** Make sure to include both the beginning and ending of the private key.
 
@@ -294,7 +294,7 @@ The frequency at which envelope consumption gets renewed.For example, if you ent
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Process configuration** field for each process to reduce security risks and optimize SaaS licenses.
 
-    **Note:** For more information about the required roles and scopes, see the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-docusign-org.md) table.
+    **Note:** For more information about the required roles and scopes, see the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrate-with-docusign-org.md) table.
 
     The **Download subscriptions** check box is selected by default and you can't clear it.
 
@@ -318,14 +318,14 @@ The frequency at which envelope consumption gets renewed.For example, if you ent
     |Connection Name|Name of the connection.|
     |Connection URL|This field is automatically set to **https://api.docusign.net**.|
     |Credential Information|
-    |Integration Key|The API integration key that you generated in the [Register a Docusign application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-docusign-org.md) procedure.|
-    |Key Pair ID|The key pair ID of the private key that you generated in the [Generate RSA keypair for Docusign integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-docusign-org.md) procedure.|
+    |Integration Key|The API integration key that you generated in the [Register a Docusign application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrate-with-docusign-org.md) procedure.|
+    |Key Pair ID|The key pair ID of the private key that you generated in the [Generate RSA keypair for Docusign integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrate-with-docusign-org.md) procedure.|
     |Audience URI|Enter `account.docusign.com` as the URI.|
-    |Keystore Password|Password associated with the uploaded JKS file that you created in the [Generate a Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-docusign-org.md) procedure.|
+    |Keystore Password|Password associated with the uploaded JKS file that you created in the [Generate a Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrate-with-docusign-org.md) procedure.|
 
 8.  Locate the JKS file on your device by selecting **Keystore**.
 
-    For more information on creating the JKS file, see [Generate a Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-docusign-org.md).
+    For more information on creating the JKS file, see [Generate a Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrate-with-docusign-org.md).
 
 9.  Select **Create and Get OAuth Token**.
 
@@ -348,18 +348,18 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/run-recon-workspace.md).
 

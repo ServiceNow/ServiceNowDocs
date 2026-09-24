@@ -2,7 +2,7 @@
 title: SSH step
 description: The SSH step executes SSH commands on an external \*nix system through a ServiceNow MID Server. The step also stores scripts and commands for the \*nix systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ssh-step-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/ssh-step-action-designer.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -151,7 +151,7 @@ Command
 
 </td><td>
 
-Command that runs on the target directory. The command can also include MID Server scripts. See [Advanced SSH script options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ssh-step-action-designer.md) for more information.**Note:** Escape and validate data pills before the command field uses them by sanitizing arguments using a preprocessing [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/javascript-step-action-designer.md). For more information, see [Sanitizing arguments using the escape class and function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jdbc-step.md).
+Command that runs on the target directory. The command can also include MID Server scripts. See [Advanced SSH script options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/ssh-step-action-designer.md) for more information.**Note:** Escape and validate data pills before the command field uses them by sanitizing arguments using a preprocessing [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/javascript-step-action-designer.md). For more information, see [Sanitizing arguments using the escape class and function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/jdbc-step.md).
 
 </td></tr><tr><td>
 

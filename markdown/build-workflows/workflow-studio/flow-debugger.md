@@ -2,7 +2,7 @@
 title: Flow debugger
 description: Debug flows and subflows from a dedicated Workflow Studio tab. Set breakpoints and step through a paused flow to review configuration and runtime values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-debugger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-debugger.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

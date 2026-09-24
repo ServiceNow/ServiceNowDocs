@@ -2,7 +2,7 @@
 title: Sales promotion form
 description: Includes all the forms related to the sales promotion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/sales-promotion-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/sales-promotion-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,12 +14,12 @@ breadcrumb: [Reference, Manufacturing Commercial Operations]
 
 Includes all the forms related to the sales promotion.
 
--   **[All promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-all-promotion-form.md)**  
+-   **[All promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-all-promotion-form.md)**  
 The All promotion form enables the manufacturers to enter the promotion campaign and incentive details.
--   **[My promotions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-my-promotions-form.md)**  
+-   **[My promotions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-my-promotions-form.md)**  
 The My promotions form enables the manufacturers to enter the promotion campaign and incentive details.
--   **[Sales promotion bulk upload form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sp-bulk-upload-form.md)**  
+-   **[Sales promotion bulk upload form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-sp-bulk-upload-form.md)**  
 Bulk sales promotion upload form.
 
-**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-reference.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-reference.md)
 

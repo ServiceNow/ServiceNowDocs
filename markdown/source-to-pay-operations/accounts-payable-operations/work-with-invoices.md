@@ -2,7 +2,7 @@
 title: Invoice processing
 description: Invoices generated for purchase orders are processed through automated and manual workflows, managed by Accounts Payable specialists from creation to approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-with-invoices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/work-with-invoices.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -27,14 +27,14 @@ The Accounts Payable Specialist can view the invoices by doing the following:
 2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 3.  Navigate to **Lists** &gt; **Invoices**.
 
--   **[Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice.md)**  
+-   **[Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice.md)**  
 Manually create an invoice from the Source-to-Pay Workspace when the automated invoice creation process encounters issues or is unavailable.
--   **[Update the purchase order on an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/change-invoice-po-number.md)**  
+-   **[Update the purchase order on an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/change-invoice-po-number.md)**  
 Correct the purchase order associated with an invoice when the wrong purchase order is linked.
--   **[View your invoices on Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-invoices-ec.md)**  
+-   **[View your invoices on Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/view-invoices-ec.md)**  
 View invoices you own directly from Employee Center to monitor invoice status and review invoice details.
 
-**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
+**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
 
 **Related topics**  
 

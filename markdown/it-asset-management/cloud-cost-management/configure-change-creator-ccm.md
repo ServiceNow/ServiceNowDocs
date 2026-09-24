@@ -2,7 +2,7 @@
 title: Configure a change creator user for Cloud Cost Management
 description: Create and configure a change creator user so that the Cloud Cost Management application can create change requests on behalf of the insights\_admin or insights\_owner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/configure-change-creator-ccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/configure-change-creator-ccm.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

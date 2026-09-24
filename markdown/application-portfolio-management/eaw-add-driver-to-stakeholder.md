@@ -2,7 +2,7 @@
 title: Add a driver to a stakeholder
 description: Add existing drivers to stakeholders or create drivers directly from stakeholder records to identify influences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-driver-to-stakeholder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-driver-to-stakeholder.html
 release: australia
 topic_type: task
 last_updated: "2026-08-02"
@@ -39,18 +39,18 @@ Role required: sn\_apm.apm\_user
         1.  Select **Add**.
         2.  In the Add driver window, select the driver and the relationship type between the driver and the stakeholder.
         3.  Select **Add**.
-    -   To create a driver, select **New** and complete the fields on the form. For field descriptions, see [Create a driver form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-driver-form.md).
+    -   To create a driver, select **New** and complete the fields on the form. For field descriptions, see [Create a driver form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-a-driver-form.md).
 
 ## Result
 
 The driver appears in the Drivers related list for the stakeholder.
 
-**Parent Topic:**[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-stakeholders.md)
+**Parent Topic:**[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-stakeholders.md)
 
 **Related topics**  
 
 
-[Remove a driver from a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-driver-from-stakeholder.md)
+[Remove a driver from a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-remove-driver-from-stakeholder.md)
 
-[View all stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-stakeholders.md)
+[View all stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-stakeholders.md)
 

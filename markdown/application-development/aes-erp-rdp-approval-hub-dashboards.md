@@ -2,7 +2,7 @@
 title: App Engine ERP Approval Hub dashboards
 description: The Approval Hub dashboards provide information and metrics about master data, ERP, and journal entry requests sent for approval. Approvers can review and decide on pending requests across all App Engine ERP Rapid Deployment Packs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-approval-hub-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-approval-hub-dashboards.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -56,5 +56,5 @@ The Approval Hub JE dashboard provides an overview of journal entry requests sub
 |Approval Score by Journal Type|Percentage of journal entry requests approved categorized by type \(for example, adjusting or purchase\) for the set time period. Percentage calculated as number of approved journal entry requests multiplied by 100 and divided by total number of journal entry requests for the type.|
 |Recent Actionable|Most recently created journal entry request tasks assigned to any approver that need approval.|
 
-**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
+**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-reference.md)
 

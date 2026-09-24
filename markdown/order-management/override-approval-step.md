@@ -2,7 +2,7 @@
 title: Override an approver
 description: Override the approver in an approval step if the approval is no longer required, to help prevent the approval workflow from being blocked.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/override-approval-step.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/override-approval-step.html
 release: australia
 topic_type: task
 last_updated: "2026-03-23"

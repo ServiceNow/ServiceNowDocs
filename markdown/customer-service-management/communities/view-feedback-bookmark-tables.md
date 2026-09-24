@@ -2,7 +2,7 @@
 title: View community feedback and bookmarks tables
 description: View feedback and bookmarks tables to view which community content was given feedback or was bookmarked.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/view-feedback-bookmark-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/view-feedback-bookmark-tables.html
 release: australia
 product: Communities
 classification: communities
@@ -31,7 +31,7 @@ Role required: sn\_communities.admin, sn\_communities.community\_moderator, sn\_
     -   Click **Feedback** to view the content feedback was given for, the type of the feedback, and who provided it.
     -   Click **Bookmarks** to view the content that was bookmarked and who added it.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

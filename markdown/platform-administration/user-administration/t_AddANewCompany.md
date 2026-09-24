@@ -2,7 +2,7 @@
 title: Add a new company
 description: You can add companies that represent vendors, manufacturers, or customers with whom you do business. These companies provide a way to categorize users, groups, and assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_AddANewCompany.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/t\_AddANewCompany.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -158,7 +158,7 @@ The longitude of the company, if applicable. This field is populated by a busine
 
 ## What to do next
 
-Normalize company data to create consistency when referring to a company name, such as a vendor or manufacturer. For more information see, [Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NormalizationOverview.md).
+Normalize company data to create consistency when referring to a company name, such as a vendor or manufacturer. For more information see, [Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/c_NormalizationOverview.md).
 
-**Parent Topic:**[Creating users, companies, and departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/using-user-administration.md)
+**Parent Topic:**[Creating users, companies, and departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/using-user-administration.md)
 

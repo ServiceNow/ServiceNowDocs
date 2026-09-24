@@ -2,7 +2,7 @@
 title: Reject an automation request
 description: Reject an automation request from Automation Center if it's a duplicate of an existing automation or if it doesn’t meet the required criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/reject-automation-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/reject-automation-request.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -18,7 +18,7 @@ Reject an automation request from Automation Center if it's a duplicate of an ex
 
 ## Before you begin
 
-Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-request.md).
+Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-automation-request.md).
 
 After you reject an automation request, the life cycle of the automation request ends.
 
@@ -47,5 +47,5 @@ Rejecting an automation request is one of the life-cycle stages of an automation
 
 The Rejected state is the end state of a request. There are no operations possible after that state.
 
-**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-through-states.md)
+**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/move-through-states.md)
 

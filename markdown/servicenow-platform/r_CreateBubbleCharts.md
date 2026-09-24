@@ -2,7 +2,7 @@
 title: Create a bubble chart
 description: Assessment administrators can create bubble charts to compare the relative standing of assessable records in three metric categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_CreateBubbleCharts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_CreateBubbleCharts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -106,5 +106,5 @@ Default
 Check box that enables \(selected\) or disables \(cleared\) the bubble chart as the default. There can be only one default bubble chart per metric type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_view-bubble-chart-assessments.md)
+</table>**Parent Topic:**[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_view-bubble-chart-assessments.md)
 

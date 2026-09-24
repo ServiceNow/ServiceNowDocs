@@ -2,7 +2,7 @@
 title: NOC operator use case for AIOps
 description: Follow a typical NOC operator through their daily workflow using ITOM AIOps capabilities to transform reactive operations into proactive, intelligent IT management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/noc-operator-aiops-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/noc-operator-aiops-use-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-01"

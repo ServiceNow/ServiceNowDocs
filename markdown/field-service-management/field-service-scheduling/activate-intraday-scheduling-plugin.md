@@ -2,7 +2,7 @@
 title: Activate intra-day schedule automation
 description: You can activate the Field Service Management Scheduling Automations plugin \(sn\_fsm\_sched\_flws\) for Field Service Management if you have the admin role. After the plugin is installed, three flow designer flows and nine subflows are added to your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/activate-intraday-scheduling-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/activate-intraday-scheduling-plugin.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For more information, see [Intra-day schedule automation flows and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/intraday-scheduling-flows.md).
+For more information, see [Intra-day schedule automation flows and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/intraday-scheduling-flows.md).
 
 ## Procedure
 

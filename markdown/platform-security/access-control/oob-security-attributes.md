@@ -2,7 +2,7 @@
 title: OOB \(Out-of-Box\) Security Attributes
 description: Commonly used, generalized Security Attributes roles ready for use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/oob-security-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/oob-security-attributes.html
 release: australia
 product: Access Control
 classification: access-control
@@ -20,7 +20,7 @@ Commonly used, generalized Security Attributes roles ready for use.
 
 The OOB\(Out-of-Box\) Security Attributes are an easy way to begin using and learning the capabilities of Security Attributes with a series of preconfigured Security Attribute roles. The OOB Security Attribute roles are commonly used access control roles.
 
-To create your own Security Attribute, or expand an OOB Security Attributes capabilities see [Compound Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/compound-security-attributes.md)
+To create your own Security Attribute, or expand an OOB Security Attributes capabilities see [Compound Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/compound-security-attributes.md)
 
 |Attribute|Description|
 |---------|-----------|
@@ -45,7 +45,7 @@ Following security attributes are added for client session \(plugin: `com.glide.
 -   **Is Servicenow Web Session**: The attribute is used in web interactive session.
 -   **Is Mobile App Session**: The attribute is used if the **mobile\_client** property is true in the **oauth\_entity** record.
 
-**Note:** You must use the **IsIframeEmbeddedSession**, **IsIntegrationAsAServiceSession**, and **IsIntegrationAsAUserSession** only while configuring client type for OAuth and SSO records. To learn more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/client-type.md).
+**Note:** You must use the **IsIframeEmbeddedSession**, **IsIntegrationAsAServiceSession**, and **IsIntegrationAsAUserSession** only while configuring client type for OAuth and SSO records. To learn more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/client-type.md).
 
 ## Non-explicit and explicit behavior explained
 

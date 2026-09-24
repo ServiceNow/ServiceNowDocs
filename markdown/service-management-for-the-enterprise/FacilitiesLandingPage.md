@@ -2,7 +2,7 @@
 title: Facilities Service Management
 description: With the ServiceNow Facilities Service Management application, you can request changes to the operation and maintenance of your facilities, track these requests, and make the necessary changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/FacilitiesLandingPage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/FacilitiesLandingPage.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,33 +22,33 @@ Facilities Service Management is being prepared for future deprecation. It will 
 
 **Explore**
 
- -   [Facilities Service Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesServiceManagement.md)
--   [Domain separation and Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)
+ -   [Facilities Service Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesServiceManagement.md)
+-   [Domain separation and Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)
 
 </td><td>
 
 **Set up**
 
- -   [Activate Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateFacVisWorkbench.md)
+ -   [Activate Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateFacVisWorkbench.md)
 
 </td><td>
 
 **Administer**
 
- -   [Facilities service management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesSMProcess.md)
--   [Configure Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ConfigureFacilities.md)
--   [Configure Enterprise Move](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ConfigureEnterpriseMove.md)
--   [Properties installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_PropInstallWFacServMgmnt.md)
--   [Properties installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_PropsInstallWFacMoveMgmt.md)
+ -   [Facilities service management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesSMProcess.md)
+-   [Configure Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ConfigureFacilities.md)
+-   [Configure Enterprise Move](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ConfigureEnterpriseMove.md)
+-   [Properties installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_PropInstallWFacServMgmnt.md)
+-   [Properties installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_PropsInstallWFacMoveMgmt.md)
 
 </td></tr><tr><td>
 
 **Use**
 
- -   [Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesRequests.md)
--   [Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacRequestTasks.md)
--   [Space management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_SpaceManagement.md)
--   [Facilities move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacMoveMgmt.md)
+ -   [Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesRequests.md)
+-   [Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacRequestTasks.md)
+-   [Space management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_SpaceManagement.md)
+-   [Facilities move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacMoveMgmt.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Facilities Service Management is being prepared for future deprecation. It will 
 
  -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   [Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
+-   [Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Create a security incident from the Security Incident Catalog
 description: Users in your company can use the Security Incident Catalog to request various types of security-related analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manual-si-creation-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/manual-si-creation-catalog.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

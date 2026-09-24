@@ -2,7 +2,7 @@
 title: Take action on an enterprise asset using the Mobile Agent application
 description: Deploy, remove, or swap any assets or parts that are required for an enterprise asset by using the Mobile Agent application. You can also use the application to calibrate your enterprise assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-work-order-mobile-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/complete-work-order-mobile-agent.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -156,7 +156,7 @@ Swap an asset or part with a replacement part
 
         7.  On the Calibration lines screen, select the calibration line that you want to complete or skip.
 
-            Each calibration line corresponds with a calibration attribute on the associated enterprise asset. If any calibration attribute contains multiple points at which you can measure accuracy, the Enterprise Asset Management application creates a separate calibration line for each point. You can choose to complete or skip each calibration line as needed. For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
+            Each calibration line corresponds with a calibration attribute on the associated enterprise asset. If any calibration attribute contains multiple points at which you can measure accuracy, the Enterprise Asset Management application creates a separate calibration line for each point. You can choose to complete or skip each calibration line as needed. For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
 
         8.  On the Calibration line record, use one of the following options to complete or skip the calibration line:
             -   To complete the calibration line, tap **Edit**. On the Edit calibration line screen, fill in the fields and then tap **Submit**.
@@ -214,7 +214,7 @@ Additional comments about the calibration.
         9.  Return to the Calibration lines screen.
         10. Repeat steps f to h for each of your calibration lines.
 
-            **Note:** If any of your calibration lines have a Result of Failed, you can remediate the entire calibration event by initiating a new work order and corresponding work order tasks. See [Remediate an unsuccessful enterprise asset calibration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/remediate-unsuccessful-enterprise-asset-calibration.md) for detailed instructions.
+            **Note:** If any of your calibration lines have a Result of Failed, you can remediate the entire calibration event by initiating a new work order and corresponding work order tasks. See [Remediate an unsuccessful enterprise asset calibration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/remediate-unsuccessful-enterprise-asset-calibration.md) for detailed instructions.
 
         11. Tap **Mark as complete**.
 
@@ -224,9 +224,9 @@ Additional comments about the calibration.
 
 ## What to do next
 
-Close the work order associated with the enterprise asset. For details, see [Close a work order for an enterprise asset using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/close-workorder-mobile-app-eam.md).
+Close the work order associated with the enterprise asset. For details, see [Close a work order for an enterprise asset using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/close-workorder-mobile-app-eam.md).
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 

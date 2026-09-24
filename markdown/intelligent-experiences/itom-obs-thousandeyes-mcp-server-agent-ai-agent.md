@@ -2,7 +2,7 @@
 title: ThousandEyes MCP server AI agent
 description: This AI agent investigates ThousandEyes tests. It retrieves test configuration, analyzes metrics and anomalies, correlates network events and outages, and performs path visualization to provide actionable root cause analysis. It receives a test ID and optional alert context from the orchestrator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itom-obs-thousandeyes-mcp-server-agent-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itom-obs-thousandeyes-mcp-server-agent-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-01"
@@ -56,7 +56,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -128,5 +128,5 @@ Not applicable.
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md).
 
-**Parent Topic:**[IT Operations Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itom-ai-agents-overview.md)
+**Parent Topic:**[IT Operations Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itom-ai-agents-overview.md)
 

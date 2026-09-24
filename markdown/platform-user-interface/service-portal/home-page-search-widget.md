@@ -2,7 +2,7 @@
 title: Homepage Search widget
 description: Add a search bar to your home page. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/home-page-search-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/home-page-search-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -22,7 +22,7 @@ Add a search bar to your home page. You can use this base system widget as-is in
 
 Use the instance options to configure the Homepage Search widget for a portal page.
 
-**Note:** The AI Search instance options apply only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+**Note:** The AI Search instance options apply only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-ais-sp.md).
 
 <table id="table_bkp_rsp_5mb"><thead><tr><th>
 
@@ -58,7 +58,7 @@ Typeahead search
 
 </td><td>
 
-Controls the appearance of the search bar. Use a comma separated list inside curly braces to add style details to the search bar, for example \{title: 'Search', color: 'blue', size: 'lg'\}. For more information on which style options you can add, see the instance options for the [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/typeahead-search-widget.md).
+Controls the appearance of the search bar. Use a comma separated list inside curly braces to add style details to the search bar, for example \{title: 'Search', color: 'blue', size: 'lg'\}. For more information on which style options you can add, see the instance options for the [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/typeahead-search-widget.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -109,7 +109,7 @@ AI Search Source Filter
 Content that portal users can search on, including tables in your instance or external data sources. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-widgets.md)
+</table>**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/search-widgets.md)
 
 **Related topics**  
 

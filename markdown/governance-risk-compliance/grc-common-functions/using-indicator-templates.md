@@ -2,7 +2,7 @@
 title: Using indicator templates
 description: Indicators collect data to monitor a single control or risk. Indicator templates allow you to create multiple indicators for similar controls or risks. The Technology Controls Monitoring Accelerator application provides a collection of 171 predefined indicator templates for monitoring cybersecurity controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/using-indicator-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/using-indicator-templates.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -129,5 +129,5 @@ You can also view information on the following tabs:
 
 **Note:** The **Control Objectives/Risk Statements** tab allows you to reuse the same template for multiple control objectives or risk statements.
 
-**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
+**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
 

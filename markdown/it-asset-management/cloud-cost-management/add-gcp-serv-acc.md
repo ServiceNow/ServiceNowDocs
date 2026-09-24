@@ -2,7 +2,7 @@
 title: Add a Google Cloud service account
 description: Add a Google Cloud service account to store the credential and access information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/add-gcp-serv-acc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/add-gcp-serv-acc.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -111,7 +111,7 @@ The service account that you created gets listed on the **Service accounts** pag
 **Related topics**  
 
 
-[Schedule and manage the jobs that download Google Cloud billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-bill-dwnld-job-cloudin.md)
+[Schedule and manage the jobs that download Google Cloud billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/gcp-bill-dwnld-job-cloudin.md)
 
-[Schedule and manage the Cloud Cost Management jobs that download Google Cloud price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-pricesht-sched-dwnld-cloudin.md)
+[Schedule and manage the Cloud Cost Management jobs that download Google Cloud price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/gcp-pricesht-sched-dwnld-cloudin.md)
 

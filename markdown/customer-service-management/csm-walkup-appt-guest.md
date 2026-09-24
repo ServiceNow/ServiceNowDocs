@@ -2,7 +2,7 @@
 title: Schedule a walk-up appointment as a guest user
 description: Schedule walk-up appointments as a guest user from either the Customer Service Portal or Consumer Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-appt-guest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-walkup-appt-guest.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

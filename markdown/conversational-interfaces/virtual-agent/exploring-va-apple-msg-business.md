@@ -2,7 +2,7 @@
 title: Exploring Conversational Integration with Apple Messages for Business
 description: Use Conversational Integration with Apple Messages for Business to connect a requester with a virtual agent or live agent using your company's Apple Messages for Business account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/exploring-va-apple-msg-business.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/exploring-va-apple-msg-business.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -133,8 +133,8 @@ Users or live or virtual agents can send PDF documents during a chat.
 
 To learn more about configuring and using Conversational Integration with Apple Messages for Business, see:
 
--   [Configuring Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-apple-configure.md)
--   [Using Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-apple-using.md)
+-   [Configuring Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-apple-configure.md)
+-   [Using Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-apple-using.md)
 
-**Parent Topic:**[Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integration-apple-mssg.md)
+**Parent Topic:**[Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integration-apple-mssg.md)
 

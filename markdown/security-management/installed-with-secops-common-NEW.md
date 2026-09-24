@@ -2,7 +2,7 @@
 title: View components installed with Security Support Common
 description: Several types of components are installed when you activate the Security Support Common plugin including but not limited to tables, user roles, and modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/installed-with-secops-common-NEW.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/installed-with-secops-common-NEW.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Filter the Applications Files table so that only the roles, scheduled jobs, and 
 
 The results for the class you selected are displayed in a filtered list.
 
-**Parent Topic:**[Components installed with Security Support Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-with-sec-sup-common.md)
+**Parent Topic:**[Components installed with Security Support Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-with-sec-sup-common.md)
 

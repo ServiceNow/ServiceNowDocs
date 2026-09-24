@@ -2,7 +2,7 @@
 title: Exploring Certificates
 description: Your instance requires certificates to establish secure connections and validate signatures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-certificates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/exploring-certificates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ Your instance requires certificates to establish secure connections and validate
 
 Certificates are used for features such as:
 
--   [LDAPS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/r_LDAPIntegrationFAQs.md)
+-   [LDAPS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ldap-integration/r_LDAPIntegrationFAQs.md)
 -   [Outbound web service mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundWebServicesMutualAuth.md)
--   [Web service security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_WebServiceSecurity.md)
+-   [Web service security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_WebServiceSecurity.md)
 -   [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-ssl-certificates.md)
 
 In order to use a certificate, you must generate or purchase a certificate for the secured server, or client and upload it to an instance.
@@ -59,7 +59,7 @@ By default, your instance trusts only certificates from a Certificate Authority 
 
 **Note:** To learn more about the properties that affect the use of certificates, see  in Instance Security Hardening Settings.
 
-**Parent Topic:**[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_Certificates.md)
+**Parent Topic:**[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_Certificates.md)
 
 **Related topics**  
 

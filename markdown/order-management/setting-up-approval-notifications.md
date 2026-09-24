@@ -2,7 +2,7 @@
 title: Notifications in Advanced Approval Management
 description: In Advanced Approval Management, as an approval request moves through the approval process, notifications about the status of the approval request are sent automatically to approval requesters and approvers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/setting-up-approval-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/setting-up-approval-notifications.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-06"
@@ -33,7 +33,7 @@ The notification framework handles various approval scenarios in the approval pr
 
     -   Simple approvals: A notification is sent to each approver when an approval request is submitted, as shown in the following example. The approver can approve or reject the approval request from the notification.
 
-        **Note:** Ad-hoc approvers receive a simple approval notification and can approve or reject the request from the notification. Ad-hoc approvers can also approve or reject a request from a step in the General chain in the approval workflow interface. For more information on configuring ad-hoc approvers, see [Add ad-hoc approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md).
+        **Note:** Ad-hoc approvers receive a simple approval notification and can approve or reject the request from the notification. Ad-hoc approvers can also approve or reject a request from a step in the General chain in the approval workflow interface. For more information on configuring ad-hoc approvers, see [Add ad-hoc approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/add-approver.md).
 
     -   Consolidated approvals: When an approver receives multiple approval requests for approvals within the same set of approvals, the system can consolidate those requests into a single notification email, if your approval rules admin has turned on the email consolidation feature in your approval configuration.
 
@@ -41,13 +41,13 @@ The notification framework handles various approval scenarios in the approval pr
 
     Both simple and consolidated approval emails are handled through a single notification definition, with different rendering logic used to generate the appropriate message format. These approval request emails can be delivered as mobile push notifications, if approvers are using the ServiceNow Mobile app, and Advanced Approval push notifications is set as a push notification channel in their notification preferences.
 
-    **Note:** Ad-hoc approvers receive a simple approval notification. Or they can approve or reject a request from a step in the General chain in the approval workflow interface. For more information on ad-hoc approvers, see [Add ad-hoc approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md).
+    **Note:** Ad-hoc approvers receive a simple approval notification. Or they can approve or reject a request from a step in the General chain in the approval workflow interface. For more information on ad-hoc approvers, see [Add ad-hoc approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/add-approver.md).
 
 -   **Approval Reminder**
 
     Approval Reminder notifications are sent to approvers automatically when the **Send auto reminders** and **Reminder schedule** features are set in the approval configuration by your approval rule admin. Each reminder is a separate email and is sent at the time specified in the reminder schedule, which is triggered by a scheduled job.
 
-    The system generates the first reminder, subsequent reminders, and a final reminder that could lead to escalation, if the escalation feature is set for the approval configuration. For details on setting approval reminders, see [Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-configuration.md).
+    The system generates the first reminder, subsequent reminders, and a final reminder that could lead to escalation, if the escalation feature is set for the approval configuration. For details on setting approval reminders, see [Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-configuration.md).
 
 -   **Approval Escalation**
 
@@ -57,7 +57,7 @@ The notification framework handles various approval scenarios in the approval pr
 
     With overrides, an approval admin for the ServiceNowAI platform who also has the requester role can approve or reject an approval request on behalf of other approvers. For example, the approval admin might need to unblock an approval step when the step is no longer needed. The approval admin uses the **Override** option in the step card in the approval workflow interface.
 
-    When an override occurs, original approvers receive a notification stating that their action is no longer required because the approval was overridden. For more information on overrides, see [Override an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/override-approval-step.md).
+    When an override occurs, original approvers receive a notification stating that their action is no longer required because the approval was overridden. For more information on overrides, see [Override an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/override-approval-step.md).
 
 -   **Notify approval request approvers**
 

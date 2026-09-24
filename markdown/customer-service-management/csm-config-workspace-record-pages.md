@@ -2,7 +2,7 @@
 title: CRM Workspace record pages
 description: A record page provides the base structure for how a record is displayed in CRM Workspace. This includes records such as cases, tasks, and interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-record-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-workspace-record-pages.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,15 +34,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-default-record-page.md)
+[CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-default-record-page.md)
 
 </td><td>
 
-This page provides the basic structure for case management, including record information, chat and phone features, and suggestions for resolving issues.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md).
+This page provides the basic structure for case management, including record information, chat and phone features, and suggestions for resolving issues.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm.md).
 
 </td></tr><tr><td>
 
-[Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md)
+[Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page.md)
 
 </td><td>
 
@@ -50,15 +50,15 @@ This page is designed for front-line agents. It provides a simplified case view 
 
 </td></tr><tr><td>
 
-[CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-interaction-record-page.md)
+[CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-interaction-record-page.md)
 
 </td><td>
 
-This page includes CSM-specific features for interaction management, including interaction information and related search results, and enables agents to accept and respond to live chats, calls, email, and SMS messages.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md).
+This page includes CSM-specific features for interaction management, including interaction information and related search results, and enables agents to accept and respond to live chats, calls, email, and SMS messages.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm.md).
 
 </td></tr><tr><td>
 
-[Email interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-email-interaction-record-page.md)
+[Email interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-email-interaction-record-page.md)
 
 </td><td>
 
@@ -66,7 +66,7 @@ This page enables agents to manage email conversations with customers using inte
 
 </td></tr><tr><td>
 
-[CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md)
+[CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md)
 
 </td><td>
 
@@ -74,7 +74,7 @@ This page provides a component that customers can use for integration with Conta
 
 </td></tr><tr><td>
 
-[CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-centered-chat-interaction-page.md)
+[CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-centered-chat-interaction-page.md)
 
 </td><td>
 
@@ -190,7 +190,7 @@ Upgrade customers retain their custom record pages. However, the following pages
 -   Record default
 -   Interaction record page
 
-For more information about setting the default record pages, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
+For more information about setting the default record pages, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 **Note:** Starting with the Australia release, the admin role includes all roles. With this change, the admin role can see the following pages:
 

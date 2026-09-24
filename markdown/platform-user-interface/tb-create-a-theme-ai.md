@@ -2,7 +2,7 @@
 title: Create a theme with AI in Theme Builder
 description: Use AI-powered theme creation in Theme Builder to generate themes from brand images or brand guidelines. Preview and refine results in the Create a theme wizard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-create-a-theme-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-create-a-theme-ai.html
 release: australia
 topic_type: task
 last_updated: "2026-08-06"
@@ -19,7 +19,7 @@ Use AI-powered theme creation in Theme Builder to generate themes from brand ima
 
 This feature requires:
 
--   The ServiceNow Otto for Creator application must be installed. See .
+-   The ServiceNow Otto for Creator application must be installed. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
 
 Role required: ui\_builder\_admin
 
@@ -107,7 +107,7 @@ Your theme is saved as a draft in Theme Builder and appears in the Unpublished s
 
 ## What to do next
 
-The Editor view opens. From there, you can modify or publish your theme. See [Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md) and [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+The Editor view opens. From there, you can modify or publish your theme. See [Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-edit-theme.md) and [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)
+**Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/theme-creation-with-ai.md)
 

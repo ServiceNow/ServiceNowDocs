@@ -2,7 +2,7 @@
 title: Integration Hub solutions
 description: Automate typical business processes with Integration Hub solutions. Solutions combine pre-built flows, actions, and other integration-specific content into one package, for quicker, simpler process automation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/solutions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/solutions.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -26,11 +26,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     Automates access management request fulfilment using the Service Catalog or Service Portal. The catalog items and flows support requests in Okta, Microsoft Entra ID, and Microsoft Active Directory.
 
--   **[Client Software Distribution using Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-integrationhub.md)**
+-   **[Client Software Distribution using Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd-integrationhub.md)**
 
     Use Client Software Distribution \(CSD\) to distribute software from the Service Catalog using third-party management systems.
 
--   **[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md)**
+-   **[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd-app-2.md)**
 
     Client Software Distribution 2.0 application \(CSD 2.0\) application enables administrators to distribute software from the service catalog using third-party management systems.
 
@@ -54,11 +54,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     Use Okta to manage users, passwords, and groups.
 
--   **[Retry Handler Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/retry-handler-frmwrk.md)**
+-   **[Retry Handler Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/retry-handler-frmwrk.md)**
 
     Framework that retries a failed HTTP request when the API rate limits are exceeded and the 429 Too Many Requests status code is returned. The retry-after time HTTP header is used to retry the request again after that specified retry-after time.
 
--   **[ServiceNow Kafka Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/kafka-consumer.md)**
+-   **[ServiceNow Kafka Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/kafka-consumer.md)**
 
     Integrates your ServiceNow instance with Kafka Consumer and stores data in the ServiceNow tables.
 

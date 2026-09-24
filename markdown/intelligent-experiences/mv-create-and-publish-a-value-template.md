@@ -2,7 +2,7 @@
 title: Create and publish a value template
 description: A value template defines the formula used to calculate productivity gains for mapped AI systems. After you publish a template, the value job runs automatically and populates the Value dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-create-and-publish-a-value-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-create-and-publish-a-value-template.html
 release: australia
 topic_type: task
 last_updated: "2026-08-12"

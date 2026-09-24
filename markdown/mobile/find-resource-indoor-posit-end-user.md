@@ -2,7 +2,7 @@
 title: Find resources with indoor positioning
 description: When indoor positioning is enabled on your device, you can get step-by-step interactive directions to resources in a building that has been mapped for this feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/find-resource-indoor-posit-end-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/find-resource-indoor-posit-end-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Sales CRM Pricing API
 description: The Sales CRM Pricing API provides methods to calculate prices for transaction lines containing products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/sales-crm-pricing-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/sales-crm-pricing-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -65,10 +65,10 @@ The caller sends a Pricing REST API request that can include:
 
 Requests must include \(`"use_external_code": true`\) in the settings object to enable external code resolution.
 
--   **[Sales CRM Pricing - DELETE - /api/sn\_csm\_pricing/v1/pricingengine/pricing\_context/\{pricing\_context\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales_crm_pricing-DELETE-pricing-context-id.md)**  
+-   **[Sales CRM Pricing - DELETE - /api/sn\_csm\_pricing/v1/pricingengine/pricing\_context/\{pricing\_context\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/sales_crm_pricing-DELETE-pricing-context-id.md)**  
 Terminate a session with a given ID that was established during a configurator session.
--   **[Sales CRM Pricing - POST /api/sn\_csm\_pricing/\{api\_version\}/pricingengine/computePrice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales_crm_pricing-POST-compute-price.md)**  
+-   **[Sales CRM Pricing - POST /api/sn\_csm\_pricing/\{api\_version\}/pricingengine/computePrice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/sales_crm_pricing-POST-compute-price.md)**  
 Enables callers to compute the price of products specified in the request payload. The pricing settings included in the payload determine and control the execution flow of the Pricing Engine, such as whether to apply validations, adjustments, or rollups.
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 

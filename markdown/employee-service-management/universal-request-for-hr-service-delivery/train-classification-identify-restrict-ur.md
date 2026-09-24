@@ -2,7 +2,7 @@
 title: Train the classification solution to identify UR with sensitive information
 description: Train the Universal Request classification solution definition to identify and predict universal request with sensitive information using the short description and description. The solution identifies and marks the UR as restricted, allowing only agents with access or from the assignment group to work on the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/train-classification-identify-restrict-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/train-classification-identify-restrict-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -37,5 +37,5 @@ Set the **Enable to auto-restrict requests with sensitive information \(sn\_uni\
     For more information about the Classification Definition form fields, see [Create and train classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-solution-definition.md).
 
 
-**Parent Topic:**[Predictive Intelligence for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/predictive-intelligence-ur.md)
+**Parent Topic:**[Predictive Intelligence for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/predictive-intelligence-ur.md)
 

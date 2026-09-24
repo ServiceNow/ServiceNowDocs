@@ -2,7 +2,7 @@
 title: Solution configuration terminology
 description: Terms used in solution configurations and their definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/solution-configuration-terminology.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/solution-configuration-terminology.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-26"
@@ -33,9 +33,9 @@ Terms used in solution configurations and their definitions.
 **Related topics**  
 
 
-[Solution configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/solution-configurations.md)
+[Solution configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/solution-configurations.md)
 
-[Field mapping in solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-mapping-in-solution-configuration.md)
+[Field mapping in solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/field-mapping-in-solution-configuration.md)
 
-[Bill of Materials in solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/bill-of-materials-in-solution-configuration.md)
+[Bill of Materials in solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/bill-of-materials-in-solution-configuration.md)
 

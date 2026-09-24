@@ -2,7 +2,7 @@
 title: Plan unscheduled items into a roadmap
 description: Add items without start or end dates yet to your portfolio plan or free-form roadmap.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/schedule-unscheduled-items-to-a-roadmap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/schedule-unscheduled-items-to-a-roadmap.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -63,10 +63,10 @@ From the Free-form Roadmaps tab, select a roadmap.
     \[Omitted image "unscheduled-items.gif"\] Alt text: Schedule unscheduled items.
 
 
-**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
+**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
 
 **Related topics**  
 
 
-[Reschedule roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/reschedule-items-on-a-roadmap.md)
+[Reschedule roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/reschedule-items-on-a-roadmap.md)
 

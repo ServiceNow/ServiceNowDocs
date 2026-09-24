@@ -2,7 +2,7 @@
 title: Building workflows and automations
 description: Workflows and automation let your app take action automatically in response to events, record changes, or schedules. Rather than relying on users to manually move work forward, you define the logic once and let the platform execute it consistently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/building-workflows-and-automations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/building-workflows-and-automations.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
@@ -32,5 +32,5 @@ Subflows are reusable workflow components that you build once and call from mult
 
 Workflow Studio is the recommended approach for new ServiceNow development. For low-code app development, building automation in Workflow Studio helps ensure your app uses current platform patterns and benefits from ongoing improvements to the tooling.
 
-**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-your-first-app.md)
 

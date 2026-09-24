@@ -2,7 +2,7 @@
 title: Components installed for Advanced Work Assignment for Legal Service Delivery reference
 description: Several types of components are installed with activation of the Advanced Work Assignment for Legal Service Delivery plugin application, including user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-components-installed-awa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-components-installed-awa.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -45,5 +45,5 @@ Provides administrative access to Advanced Work Assignment for legal application
 sn\_lg\_ops.legal\_user**Note:** To enable a user with the sn\_lg\_awa.admin role to configure Advanced Work Assignment, add the awa\_admin role as a contained role of sn\_lg\_awa.admin on your instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-reference-landing.md)
+</table>**Parent Topic:**[Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-reference-landing.md)
 

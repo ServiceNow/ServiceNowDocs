@@ -2,7 +2,7 @@
 title: Create a module access policy
 description: Create module access policies to decide which users and scripts can access data encrypted by a cryptographic module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/create-module-access-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/create-module-access-policy.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -204,5 +204,5 @@ Select one of the following: -   **StrictReject** rejects access under all circu
     **Note:** A maximum of five module access policies are permitted with Field Encryption. See for configuration options.
 
 
-**Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/configure-kmf.md)
+**Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/configure-kmf.md)
 

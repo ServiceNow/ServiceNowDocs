@@ -2,7 +2,7 @@
 title: NowVoiceEndpoint class - Android
 description: Describes a voice agent endpoint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceEndpointAndroidClass.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowVoiceEndpointAndroidClass.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 Describes a voice agent endpoint.
 
-A voice endpoint identifies the specific voice agent channel to connect to. Use [`NowVoiceService.nowVoiceEndpoints`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md) to obtain available NowVoiceEndpoints. Endpoints are retrieved from your ServiceNow instance's Mobile SDK settings. In most apps, there is a single endpoint.
+A voice endpoint identifies the specific voice agent channel to connect to. Use [`NowVoiceService.nowVoiceEndpoints`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md) to obtain available NowVoiceEndpoints. Endpoints are retrieved from your ServiceNow instance's Mobile SDK settings. In most apps, there is a single endpoint.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -50,5 +50,5 @@ lifecycleScope.launch {
 val endpoint = voiceService.nowVoiceEndpoints.firstOrNull() ?: return
 ```
 
-**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

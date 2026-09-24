@@ -2,7 +2,7 @@
 title: Create a Google Cloud billing account
 description: Create a billing account, project, and BigQuery dataset in the Google Cloud Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-gcp-service-account.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/create-gcp-service-account.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

@@ -2,7 +2,7 @@
 title: Export a CWM Board to CSV or Microsoft Excel
 description: Export the list view of Collaborative Work Management \(CWM\) Boards to CSV or Microsoft Excel. Use the data to obtain insights, share with stakeholders, and prepare for analysis or presentations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/export-a-board-in-cwm-to-csv-or-excel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/export-a-board-in-cwm-to-csv-or-excel.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,7 +18,7 @@ Export the list view of Collaborative Work Management \(CWM\) Boards to CSV or M
 
 ## Before you begin
 
-[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
 
 Role required: sn\_cwm.cwm\_user
 
@@ -74,5 +74,5 @@ Description
 
 The file is downloaded and saved in your local system.
 
-**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-boards.md)
 

@@ -2,7 +2,7 @@
 title: Scheduled job to generate data to view portfolio financials
 description: Activate and define Data generation for financials in SPW/PPW scheduled job to migrate budget from old data model to new data model and view portfolio financials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/fin-data-generation-scheduled-job-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/fin-data-generation-scheduled-job-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

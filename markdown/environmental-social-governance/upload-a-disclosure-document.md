@@ -2,7 +2,7 @@
 title: Upload a disclosure document
 description: Upload locally created disclosures in the Operational Sustainability Management application instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/upload-a-disclosure-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/upload-a-disclosure-document.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ Role required: sn\_esg.admin or the owner of the disclosure
 -   The disclosure document is synced. The data takes some time to sync.
 -   The corresponding claim records are synced and created in the disclosure.
 
-**Parent Topic:**[Create a narrative disclosure on local system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-disclosure-on-local.md)
+**Parent Topic:**[Create a narrative disclosure on local system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-disclosure-on-local.md)
 

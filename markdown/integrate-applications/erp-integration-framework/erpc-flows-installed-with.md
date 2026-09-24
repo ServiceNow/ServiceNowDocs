@@ -2,7 +2,7 @@
 title: Flows installed with Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) includes ERP flows that run automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-flows-installed-with.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-flows-installed-with.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

@@ -2,7 +2,7 @@
 title: Configuring contract obligation extraction
 description: Configure and map use cases for the contract obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,12 +17,12 @@ breadcrumb: [Configure AI capabilities, Configure, Contract Management Pro, Lega
 
 Configure and map use cases for the contract obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts.
 
--   **[Create use cases for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.md)**  
+-   **[Create use cases for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.md)**  
 Create obligation extraction use cases to specify the types of key contractual obligation that you want AI to detect and extract from contract documents.
--   **[Map a use case for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-map-usecase-obext.md)**  
+-   **[Map a use case for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-map-usecase-obext.md)**  
 Map a use case to specific tables, and define conditions to apply the use case for obligation extraction.
 
-**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 

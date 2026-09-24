@@ -2,7 +2,7 @@
 title: AWS Elastic Load Balancing Spoke
 description: Manage load balancers, tags, and target groups in AWS account from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/aws-elasticload-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/aws-elasticload-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -83,5 +83,5 @@ The AWS Elastic Load Balancing spoke provides actions to automate AWS Elastic Lo
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the AWS Elastic Load Balancing spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-load-balancing.md).
+For information about setting up the spoke, see [Set up the AWS Elastic Load Balancing spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-load-balancing.md).
 

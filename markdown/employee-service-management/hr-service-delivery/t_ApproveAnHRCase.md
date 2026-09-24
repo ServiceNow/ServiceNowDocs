@@ -2,7 +2,7 @@
 title: Resubmit an HR case for approval
 description: HR cases that are rejected can be resubmitted for approval. Resubmitting a rejected case alleviates having to recreate a new case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_ApproveAnHRCase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_ApproveAnHRCase.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.case\_writer
 
 After a new case is submitted, an email notification is sent to all approvers. Approvals for HR cases are assigned to individual users or to members of a specified group. Approvers can reject or approve from the HR Service Portal or HR Ticket Page.
 
-When a service activity for an HR service has **Allow resubmit of approvals** for **On rejection**, the Assigned to person can resubmit an approval request after rejection. See [Configure an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-approval-to-fulfill-hr-service.md).
+When a service activity for an HR service has **Allow resubmit of approvals** for **On rejection**, the Assigned to person can resubmit an approval request after rejection. See [Configure an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-approval-to-fulfill-hr-service.md).
 
 You can view a list of approvers at the bottom of the HR case form under the **Approvers** tab.
 
@@ -42,10 +42,10 @@ HR cases: Approvals for HR cases use workflows. Do the following to resubmit a r
 
     Lifecycle Events cases:
 
-    Approvals for HR activities under a lifecycle event are configured differently than an HR case. There are more options for approvals. See [For an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
+    Approvals for HR activities under a lifecycle event are configured differently than an HR case. There are more options for approvals. See [For an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
 
     **Note:** Approvers that do not have the sn\_hr\_core.manager role cannot access the HR case after the state changes to **Closed Complete**.
 
 
-**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

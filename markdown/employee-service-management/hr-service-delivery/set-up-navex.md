@@ -2,7 +2,7 @@
 title: Set up Employee Relations integration with Navex Ethicspoint
 description: Understand how to set up the Employee Relations integration with Navex Ethicspoint application for pulling and pushing employee relations case data from the Navex EthicsPoint system into the ServiceNow system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/set-up-navex.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/set-up-navex.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,7 +30,7 @@ Role required: sn\_hr\_navex\_ep.admin
 
     Allow the Restricted Caller Access records with Status = **Requested** and Source Scope = **Employee Relations integration with Navex EthicsPoint**.
 
-3.  For better performance, index Source field: external\_id mapped to Target field: correlation\_id in [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/transform-maps-navex.md).
+3.  For better performance, index Source field: external\_id mapped to Target field: correlation\_id in [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/transform-maps-navex.md).
 
     For more information, see [create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateCustomIndex.md).
 
@@ -38,8 +38,8 @@ Role required: sn\_hr\_navex\_ep.admin
 
     For more information, see [Set up Navex EthicsPoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/navex-ethics-spoke.md).
 
-5.  [Configure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/prop-navex.md).
+5.  [Configure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/prop-navex.md).
 
-6.  [Map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/map-fields-navex.md).
+6.  [Map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/map-fields-navex.md).
 
 

@@ -2,7 +2,7 @@
 title: Configure the SCOM connector instance
 description: Configure the Microsoft System Center Operations Manager \(SCOM\) connector to receive alerts and Metric Intelligence raw data from the SCOM server. SCOM event collection and metric collection are handled by two separate connector definitions: SCOM \(for alerts and bi-directional exchange\) and SCOM Metrics \(for Metric Intelligence raw data\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigureSCOMConnector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMConfigureSCOMConnector.html
 release: australia
 product: Event Management
 classification: event-management
@@ -167,7 +167,7 @@ SCOM 2025
     5.  Navigate to **Event Management** &gt; **Integrations** &gt; **Connector Instances**.
     6.  Click **New** and create a new connector instance.
 
-        For details on the connector instance fields displayed on the page, see [SCOM connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/scom-connector-instance-form.md).
+        For details on the connector instance fields displayed on the page, see [SCOM connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/scom-connector-instance-form.md).
 
     7.  Select and hold \(or right-click\) the form header and select **Save**.
 
@@ -258,5 +258,5 @@ SCOM 2025
 
     9.  After a successful test, select the **Active** check box and select **Update**.
 
-**Parent Topic:**[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)
+**Parent Topic:**[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)
 

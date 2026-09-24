@@ -2,7 +2,7 @@
 title: Get help with App Engine Management Center
 description: To get help with App Engine Management Center, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/get-help-with-aemc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/get-help-with-aemc.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center

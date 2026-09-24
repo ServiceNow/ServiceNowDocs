@@ -2,7 +2,7 @@
 title: Reset a demand to draft state
 description: Reset a demand to the Draft state when it has been moved past that state unintentionally or when changes to it are required. A demand can be reset to Draft until an entity is created from it or it has reached the Qualified state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/reset-a-demand-to-draft-state-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/reset-a-demand-to-draft-state-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

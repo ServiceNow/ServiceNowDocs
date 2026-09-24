@@ -2,7 +2,7 @@
 title: Components installed with knowledge blocks
 description: Several types of components are installed with activation of the knowledge blocks plugin, including tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/components-installed-with-knowledge-blocks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/components-installed-with-knowledge-blocks.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

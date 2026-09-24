@@ -2,7 +2,7 @@
 title: Explore ServiceNow Otto for Setup
 description: ServiceNow Otto for Setup simplifies installing, configuring, and deploying ServiceNow products by automating setup, applying best practices, tracking progress, and packaging changes for production.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -60,19 +60,19 @@ See [ServiceNow Otto for Setup personas and role assignments](https://support.se
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Set up an application with ServiceNow Otto for Setup|[Set up an application with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-apps.md)|admin|
-|Set up ServiceNow Otto|[Set up ServiceNow Otto with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md)|admin|
-|Upload update set batch file|[Manage update set for ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-update-set.md)|admin|
-|Configure an application with ServiceNow Otto for Setup|[Product modules configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-bu-conf.md)|admin|
-|General guidelines for ServiceNow Otto for Setup|[General guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-des-conf.md)|admin|
+|Set up an application with ServiceNow Otto for Setup|[Set up an application with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-setup-apps.md)|admin|
+|Set up ServiceNow Otto|[Set up ServiceNow Otto with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-setup-now-assist.md)|admin|
+|Upload update set batch file|[Manage update set for ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-update-set.md)|admin|
+|Configure an application with ServiceNow Otto for Setup|[Product modules configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-bu-conf.md)|admin|
+|General guidelines for ServiceNow Otto for Setup|[General guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-des-conf.md)|admin|
 
 ## What to explore next
 
 To learn more about using ServiceNow Otto for Setup, see:
 
--   [Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)
--   [Product modules configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-bu-conf.md)
--   [ServiceNow Otto for Setup references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
+-   [Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-administer.md)
+-   [Product modules configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-bu-conf.md)
+-   [ServiceNow Otto for Setup references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-reference.md)
 
-**Parent Topic:**[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)
+**Parent Topic:**[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-landing.md)
 

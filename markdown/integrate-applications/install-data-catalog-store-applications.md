@@ -2,7 +2,7 @@
 title: Install Data Catalog store applications
 description: You can install the Data Catalog application \(sn\_dcg\_app\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-data-catalog-store-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/install-data-catalog-store-applications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,5 +51,5 @@ The following items are installed with Data Catalog:
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring the data catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-data-catalog.md)
+**Parent Topic:**[Configuring the data catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-data-catalog.md)
 

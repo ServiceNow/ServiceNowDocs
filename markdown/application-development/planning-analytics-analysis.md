@@ -2,7 +2,7 @@
 title: Planning for analytics and reporting
 description: Include analytics requirements during the design phase to enable meaningful reporting and insights from the start. Analytics cannot be an afterthought when building on the ServiceNow AI Platform. Defining KPIs and reporting needs during app design ensures that data is captured correctly and supports dashboards, performance metrics, and decision-making.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/planning-analytics-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/planning-analytics-analysis.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,5 +25,5 @@ Include analytics requirements during the design phase to enable meaningful repo
 
 Embed analytics logic into workflows where possible, validate data quality during development, and use ServiceNow's built-in reporting capabilities to avoid custom solutions. Document your analytics plan for stakeholders.
 
-**Parent Topic:**[Plan your app before you start building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/plan-app-building.md)
+**Parent Topic:**[Plan your app before you start building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/plan-app-building.md)
 

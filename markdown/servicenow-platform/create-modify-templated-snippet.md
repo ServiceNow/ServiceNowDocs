@@ -2,7 +2,7 @@
 title: Create or modify a response template
 description: Create or modify a response template \(formerly known as a templated snippet\) to define a reusable message that can be copied to case or task forms or used in Agent Chat sessions to provide quick and consistent messages to users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/create-modify-templated-snippet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/create-modify-templated-snippet.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

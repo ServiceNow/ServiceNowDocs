@@ -2,7 +2,7 @@
 title: Set up event forwarding
 description: Create an event forwarding configuration record to enable events to flow from one ServiceNow instance to another instance. Forwarding events to multiple target instances requires creating separate configuration records for each target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-event-forwarding-em.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configure-event-forwarding-em.html
 release: australia
 product: Event Management
 classification: event-management
@@ -18,7 +18,7 @@ Create an event forwarding configuration record to enable events to flow from on
 
 ## Before you begin
 
-You must have a credential with the evt\_mgmt\_integration role, which enables you to create events in the target instance. If you don't have this credential, see [Create basic auth server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-basic-auth.md) for information on how to create it.
+You must have a credential with the evt\_mgmt\_integration role, which enables you to create events in the target instance. If you don't have this credential, see [Create basic auth server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-credentials-basic-auth.md) for information on how to create it.
 
 Role required: evt\_mgmt\_admin
 
@@ -60,5 +60,5 @@ You must create a separate configuration record for each target instance to forw
 **Related topics**  
 
 
-[Periodically run an event forwarding job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configuration-management-job-em.md)
+[Periodically run an event forwarding job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configuration-management-job-em.md)
 

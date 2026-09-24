@@ -2,7 +2,7 @@
 title: View a saved OSHA 300 and 300A form
 description: View a saved OSHA 300 and 300A form for an establishment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/view-osha-annual-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/view-osha-annual-forms.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -35,5 +35,5 @@ Role required: sn\_ohs\_im.compliance\_manager
 5.  In the **Attachments** section, select the required OSHA form PDF file to open it.
 
 
-**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/generating-osha-forms.md)
+**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/generating-osha-forms.md)
 

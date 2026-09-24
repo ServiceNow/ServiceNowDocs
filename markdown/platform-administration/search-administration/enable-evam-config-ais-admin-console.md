@@ -2,14 +2,14 @@
 title: Activate or deactivate an EVAM view configuration
 description: Activate or deactivate the Entity View Action Mapper \(EVAM\) view configurations in the AI Search application as needed. This helps you to control which view configurations are in use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/enable-evam-config-ais-admin-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/enable-evam-config-ais-admin-console.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -44,5 +44,5 @@ When you configure a new EVAM view configuration for your AI Search application,
 
 The selected view configuration is activated or deactivated.
 
-**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-managing-evam.md)
+**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-managing-evam.md)
 

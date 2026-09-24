@@ -2,7 +2,7 @@
 title: Exploring Dispute Rules Content Pack for Nacha
 description: Learn how the Dispute Rules Content Pack for Nacha application helps ensure that your organization can properly categorize and process automated clearing house \(ACH\) disputes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/exploring-dispute-rules-content-pack-for-nacha.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/exploring-dispute-rules-content-pack-for-nacha.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +23,7 @@ Nacha, originally known as the National Automated Clearinghouse Association, is 
 
 The Dispute Rules Content Pack for Nacha application enables your agents to access Nacha operating guidelines to check the eligibility of disputed ACH transactions. It provides a central reference for ACH return reason codes and the logic used to determine them based on the operating guidelines.
 
-Dispute Rules Content Pack for Nacha includes 10 reason codes and the predefined logic to determine if the codes apply to a disputed transaction. See [Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md) for more information.
+Dispute Rules Content Pack for Nacha includes 10 reason codes and the predefined logic to determine if the codes apply to a disputed transaction. See [Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md) for more information.
 
 ## Dispute Rules Content Pack for Nacha users
 
@@ -58,7 +58,7 @@ Key benefits of using the Dispute Rules Content Pack for Nacha include:
 
 To learn more about configuring and using Dispute Rules Content Pack for Nacha, see:
 
--   [Installing Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-install.md)
--   [Using Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-use.md)
--   [Dispute Rules Content Pack for Nacha reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-reference.md)
+-   [Installing Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-install.md)
+-   [Using Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-use.md)
+-   [Dispute Rules Content Pack for Nacha reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-reference.md)
 

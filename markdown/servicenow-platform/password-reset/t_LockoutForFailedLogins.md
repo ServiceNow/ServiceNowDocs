@@ -2,7 +2,7 @@
 title: Specify lockout for failed login attempts
 description: The system provides inactive script actions that enable you to specify the number of failed login attempts before a user account is locked and to reset the count after a successful login.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_LockoutForFailedLogins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/t\_LockoutForFailedLogins.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -71,7 +71,7 @@ Each time a user attempts to log in, the action is recorded in an event log. You
 1.  Navigate to **System Policy** &gt; **Event Logs**.
 2.  Filter for **login.failed** in the **Name** field. You can view the attempted login name, date, and IP address logged for the attempt.
 
-**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 

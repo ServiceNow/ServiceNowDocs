@@ -2,7 +2,7 @@
 title: Generate summary for Zoom meetings
 description: Generate the meeting summary for virtual meetings conducted using Zoom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-zoom-meeting-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-zoom-meeting-summary.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 3.  Open the touchpoint for which you want to create a virtual meeting.
 
-4.  Follow the steps described in the [Meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-touchpoint-home.md) section to schedule a Zoom meeting.
+4.  Follow the steps described in the [Meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-touchpoint-home.md) section to schedule a Zoom meeting.
 
     The meeting summary can be generated only if the meeting State is set to **Scheduled**.
 
@@ -57,5 +57,5 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
     -   Internal notes
     -   External notes
 
-**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
+**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
 

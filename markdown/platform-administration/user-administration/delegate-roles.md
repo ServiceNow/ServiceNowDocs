@@ -2,7 +2,7 @@
 title: Assign roles as a role delegator
 description: If you're a role delegator, you can delegate roles that are assigned to you for groups that you manage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/delegate-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/delegate-roles.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -35,5 +35,5 @@ Role required: role\_delegator
     \(Optional\) To remove a delegated role from a user, open the delegation record and remove the unwanted role or roles.
 
 
-**Parent Topic:**[Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md)
+**Parent Topic:**[Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/c_DelegateRoles.md)
 

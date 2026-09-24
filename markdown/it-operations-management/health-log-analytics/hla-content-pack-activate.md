@@ -2,7 +2,7 @@
 title: Activate a content pack in Health Log Analytics
 description: You can activate a content pack before configuring a data input.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-content-pack-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-content-pack-activate.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,7 +19,7 @@ You can activate a content pack before configuring a data input.
 
 ## Before you begin
 
-For an overview of this feature, see [Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-content-packs.md).
+For an overview of this feature, see [Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-content-packs.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -48,5 +48,5 @@ Role required: evt\_mgmt\_admin
 
 When you have configured the data input and you're mapping your raw log data, you can select the content pack’s mapping script from the **JS functions templates** drop-down.
 
-**Parent Topic:**[Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-content-packs.md)
+**Parent Topic:**[Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-content-packs.md)
 

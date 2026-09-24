@@ -2,7 +2,7 @@
 title: Retail release notes
 description: The ServiceNow retail applications streamline frontline operations and customer experiences. Retail applications were enhanced and updated in the Australia release. The ServiceNow retail applications streamline frontline operations and customer experiences. Retail applications were enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/retail-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/retail-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austral
     Install the Retail applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 
 ## Australia Early Availability
 

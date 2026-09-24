@@ -2,7 +2,7 @@
 title: Set accessibility preference
 description: Enable keyboard accessibility for your profile to navigate through the applicant center portal using keyboard tabs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/set-accessibility-preference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/applicant-center/set-accessibility-preference.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -33,5 +33,5 @@ Users can tab through the platform UI without enabling accessibility. However, w
 3.  Turn on the Accessibility enabled toggle switch.
 
 
-**Parent Topic:**[Using Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/use-applicant-center.md)
+**Parent Topic:**[Using Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/applicant-center/use-applicant-center.md)
 

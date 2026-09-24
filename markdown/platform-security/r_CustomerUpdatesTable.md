@@ -2,7 +2,7 @@
 title: Customer Updates table
 description: Changes made in the system are recorded on the Customer Updates \[sys\_update\_xml\] table chronologically. There are a few exceptions, as noted below.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_CustomerUpdatesTable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_CustomerUpdatesTable.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

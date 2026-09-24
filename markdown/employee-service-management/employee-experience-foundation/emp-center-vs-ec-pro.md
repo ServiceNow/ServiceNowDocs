@@ -2,7 +2,7 @@
 title: Exploring Employee Center Pro
 description: Employee Center Pro is a modern, multi-department employee destination site to drive employee engagement and productivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-center-vs-ec-pro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-center-vs-ec-pro.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -64,33 +64,33 @@ The Employee Center Pro enables organizations to assemble an employee portal tai
 |Manager|Managers monitor tasks status, approve requests, and assign content requests.|
 |Employee|Employees complete tasks, submit requests, search for knowledge articles, and interact with company communications on the employee portal or mobile app.|
 
-For more information on Employee Center Pro user roles, see [Employee Center Pro roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-roles.md).
+For more information on Employee Center Pro user roles, see [Employee Center Pro roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-roles.md).
 
 ## Employee Center Pro benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Access any of your single sign-on \(SSO\) and non-SSO web applications from the portal home page.|[App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee-about.md)|Employee|
-|Submit request for content, track the request, preview the content, and approve it before it is published|[Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-governance.md)|Employee|
-|Book and manage appointments across multiple business units.|[Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/appointment-booking.md)|Employee|
-|View in one place all tasks, surveys, and requests that require action.|[My active items widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/my-activity-config.md)|Employee|
+|Access any of your single sign-on \(SSO\) and non-SSO web applications from the portal home page.|[App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-application-employee-about.md)|Employee|
+|Submit request for content, track the request, preview the content, and approve it before it is published|[Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-governance.md)|Employee|
+|Book and manage appointments across multiple business units.|[Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/appointment-booking.md)|Employee|
+|View in one place all tasks, surveys, and requests that require action.|[My active items widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/my-activity-config.md)|Employee|
 |One-click access to frequently-used internal and external sites.|[Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)|Employee|
-|Access self-serve capabilities through guided experiences to improve productivity and efficiency.|[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)|Employee|
-|Employees comment and react to news articles; Content authors measure the effectiveness of their content using engagement metrics.|[Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-engagement.md)|Employee, Content author|
-|Find information about other employees and understand the team structure|[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)|Employee, Manager|
-|View employees' work-related information.|[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)|Employee, Manager|
-|Manage and approve requests from internal and external applications from one location.|[Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-intro.md)|Manager|
-|Gather quick feedback from employees on their user or service experiences.|[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ex-fdback-ovrvw.md)|Manager|
-| |[Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-templates.md)|Content author|
-|Create and publish a variety of content to the employee portal or mobile app, including rich content, news articles, tasks, notifications, surveys, and social media messages.|[Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md)|Content author|
-|Configure multi-stage and multi-channel campaigns to ensure content reaches the intended audience at the optimal time.|[Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)|Content author|
-|Monitor and measure the impact of Employee Center content.|[Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md)|Content author|
+|Access self-serve capabilities through guided experiences to improve productivity and efficiency.|[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)|Employee|
+|Employees comment and react to news articles; Content authors measure the effectiveness of their content using engagement metrics.|[Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-engagement.md)|Employee, Content author|
+|Find information about other employees and understand the team structure|[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)|Employee, Manager|
+|View employees' work-related information.|[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md)|Employee, Manager|
+|Manage and approve requests from internal and external applications from one location.|[Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-intro.md)|Manager|
+|Gather quick feedback from employees on their user or service experiences.|[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ex-fdback-ovrvw.md)|Manager|
+| |[Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-templates.md)|Content author|
+|Create and publish a variety of content to the employee portal or mobile app, including rich content, news articles, tasks, notifications, surveys, and social media messages.|[Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-publish-content.md)|Content author|
+|Configure multi-stage and multi-channel campaigns to ensure content reaches the intended audience at the optimal time.|[Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)|Content author|
+|Monitor and measure the impact of Employee Center content.|[Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md)|Content author|
 
 ## What to explore next
 
 To learn more about configuring and using Employee Center Pro, see:
 
--   [Configuring Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configuring-employee-center-pro.md)
--   [Authoring and managing employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-emp-center.md)
--   [Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+-   [Configuring Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configuring-employee-center-pro.md)
+-   [Authoring and managing employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/manage-emp-center.md)
+-   [Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 

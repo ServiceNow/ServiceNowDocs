@@ -2,7 +2,7 @@
 title: Create a connection for ServiceNow Quote Experience calls
 description: Add a connection in CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-a-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-a-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-04-15"
@@ -22,7 +22,7 @@ Role required: admin
 
 Connections are used in transaction rules only. Each connection stores the host URL, an optional path, and authentication credentials. When you configure an integration in ServiceNow Quote Experience, you select a connection and CPQ uses the stored credentials to authenticate outbound requests during a transaction.
 
-To call an external system from a configuration rule instead, configure an external connection. For more information, see [Set up External connections for configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/external-connections.md).
+To call an external system from a configuration rule instead, configure an external connection. For more information, see [Set up External connections for configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/external-connections.md).
 
 The following authentication types are available: bearer token, OAuth client credentials, and JWT client credentials.
 
@@ -111,7 +111,7 @@ In the **Authentication token** field, enter the token used to authenticate outb
 
 The connection is saved and available for selection when configuring integrations.
 
-**Parent Topic:**[Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-integrations.md)
+**Parent Topic:**[Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-integrations.md)
 
 **Related topics**  
 

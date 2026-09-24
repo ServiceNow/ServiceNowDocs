@@ -2,7 +2,7 @@
 title: Deploy the ABAP program for SAP
 description: Deploy the Advanced Business Application Programming \(ABAP\) program to establish a connection between your SAP system and your ServiceNow instance. Deploying the ABAP program allows data to be shared between SAP and your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/import-abap-program-sap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/import-abap-program-sap.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -69,7 +69,7 @@ For more information on SAP and its related tools, refer to the [SAP Help Portal
 
 ## What to do next
 
-In your SAP system, configure a service provider with the SOA Manager and generate a Web Services Description Language \(WSDL\) URL for the SAP service definition. For details, see [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-wsdl-sap-service.md).
+In your SAP system, configure a service provider with the SOA Manager and generate a Web Services Description Language \(WSDL\) URL for the SAP service definition. For details, see [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-wsdl-sap-service.md).
 
-**Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/setup-sap-integration.md)
+**Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/setup-sap-integration.md)
 

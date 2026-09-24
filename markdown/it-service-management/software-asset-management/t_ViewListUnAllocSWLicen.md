@@ -2,7 +2,7 @@
 title: View a list of unallocated software licenses for the legacy Software Asset Management plugin
 description: Managing software licenses includes knowing what licenses are owned by your organization, but are not allocated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_ViewListUnAllocSWLicen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/t\_ViewListUnAllocSWLicen.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -37,7 +37,7 @@ You can allocate the licenses to users or devices. If no one needs the unallocat
     View the **Software Model** list in the **Unallocated License** view.
 
 
-**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareLicenses.md)
+**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_SoftwareLicenses.md)
 
 **Related topics**  
 

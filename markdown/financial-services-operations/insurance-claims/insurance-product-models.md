@@ -2,7 +2,7 @@
 title: Insurance product models
 description: Use an insurance product model to customize the essential features, terms, conditions, and coverages that an insurance policy offers by using the Insurance claims application. You must first establish an insurance product model before you can create an insurance policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/insurance-product-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/insurance-product-models.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -45,10 +45,10 @@ Examples of product types include:
 -   Personal auto policies
 -   Homeowners policies
 
-For more information, see [Create an insurance product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/creating-an-insurance-product-model.md).
+For more information, see [Create an insurance product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/creating-an-insurance-product-model.md).
 
 **Related topics**  
 
 
-[Create an insurance product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/creating-an-insurance-product-model.md)
+[Create an insurance product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/creating-an-insurance-product-model.md)
 

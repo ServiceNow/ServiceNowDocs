@@ -2,7 +2,7 @@
 title: Field Service Management SLAs
 description: ServiceNow SLAs track the service level provided by groups and individuals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_FieldServiceAutomationSLAs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/c\_FieldServiceAutomationSLAs.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -41,5 +41,5 @@ SLA details show on the task card in the task panel and the calendar in the Disp
 **Related topics**  
 
 
-[Manage a work order SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_ManageAWorkOrderSLA.md)
+[Manage a work order SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_ManageAWorkOrderSLA.md)
 

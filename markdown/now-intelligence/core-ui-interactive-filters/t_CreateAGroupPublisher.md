@@ -2,7 +2,7 @@
 title: Create a group interactive filter
 description: A group interactive filter allows users to select multiple interactive filters to apply to reports on a dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/t\_CreateAGroupPublisher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/core-ui-interactive-filters/t\_CreateAGroupPublisher.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
@@ -20,7 +20,7 @@ A group interactive filter allows users to select multiple interactive filters t
 
 Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience.
 
-**Note:** If the interactive filter has a default value or specifies the last selected value, non-responsive dashboards do not apply this value automatically. This feature is only available on [Responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ResponsiveDashboards.md).
+**Note:** If the interactive filter has a default value or specifies the last selected value, non-responsive dashboards do not apply this value automatically. This feature is only available on [Responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ResponsiveDashboards.md).
 
 Before starting this procedure, create several choice list, reference field, boolean, or date filters to group.
 
@@ -68,5 +68,5 @@ Default values selected for child filters are not applied when using a group fil
 1.  After you create the filter, add it to a dashboard.
 2.  On the dashboard, select the **Edit widget** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
 
-**Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
+**Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
 

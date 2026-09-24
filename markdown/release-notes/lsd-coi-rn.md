@@ -2,7 +2,7 @@
 title: Legal Conflict of Interest release notes
 description: The ServiceNow Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Legal Conflict of Interest was enhanced and updated in the Australia release.The ServiceNow Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Legal Conflict of Interest was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/lsd-coi-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/lsd-coi-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/Se
     Install Legal Conflict of Interest by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/lsd-rn-landing-page.md)
+**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/lsd-rn-landing-page.md)
 
 ## Australia
 

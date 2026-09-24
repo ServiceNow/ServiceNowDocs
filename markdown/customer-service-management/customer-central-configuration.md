@@ -2,7 +2,7 @@
 title: Configuring the Customer History component
 description: Users with the admin role can configure several properties for the Customer History component.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-central-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-central-configuration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

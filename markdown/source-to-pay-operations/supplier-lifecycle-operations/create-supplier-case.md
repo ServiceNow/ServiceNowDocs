@@ -2,7 +2,7 @@
 title: Create supplier case from Universal Request
 description: Routing agents can create a supplier case from the Source-to-Pay Workspace to resolve a Universal Request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -52,7 +52,7 @@ You must have the following plugin installed: Universal Request for Source-to-Pa
 
 The supplier case number appears in the **Primary Ticket** field of the Universal Request record. It also appears in the **Associated Tickets** list of the Universal Request record.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 

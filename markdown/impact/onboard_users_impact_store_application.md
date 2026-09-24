@@ -2,7 +2,7 @@
 title: Use Guided Setup to onboard users to the Impact Store Application
 description: Onboard new and existing users to the Impact Store Application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/onboard\_users\_impact\_store\_application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/onboard\_users\_impact\_store\_application.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Role required: impact app admin
 
     The Assign users to group assignment table contains a list of available Impact groups to assign users to. You can also create a new group.
 
-    **Note:** For information on Impact groups and roles, see [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-roles.md).
+    **Note:** For information on Impact groups and roles, see [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-roles.md).
 
 3.  Select a **\[Group name\]** to open the user assignment page for the selected group.
 
@@ -55,7 +55,7 @@ Role required: impact app admin
 
 ## What to do next
 
-[Assign users to Platform Health groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/assign-users-scan-engine-groups.md)
+[Assign users to Platform Health groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/assign-users-scan-engine-groups.md)
 
-**Parent Topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
+**Parent Topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/guided-setup-impact-in-app.md)
 

@@ -2,7 +2,7 @@
 title: Review existing planning item types in Strategic Planning
 description: Before you create a portfolio plan using lenses, start with verifying that the default planning item types in Strategic Planning suit your company's planning needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/review-existing-planning-org-planning-item-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/review-existing-planning-org-planning-item-types.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -39,6 +39,6 @@ Role required: admin
 
 If you need a planning item type other than those available, use one of the five pre-defined custom planning item tables or you can create your own.
 
--   [Enable pre-defined custom planning item tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-items-for-lenses-and-portfolio-plans.md)
--   [Define a planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md)
+-   [Enable pre-defined custom planning item tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/planning-items-for-lenses-and-portfolio-plans.md)
+-   [Define a planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md)
 

@@ -2,7 +2,7 @@
 title: System property configuration
 description: Use system properties to configure the functionality of the Conversational Analytics dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/config-sys-parameters-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/config-sys-parameters-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -104,5 +104,5 @@ If the number of custom events exceeds the limit specified in the com.snc.pa.dc.
 See [Breakdown and indicator Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-limit-setting-props.md) and [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-dc-props.md) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Conversational Analytics dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversational-analytics-dashboard-reference-pae.md)
+</table>**Parent Topic:**[Conversational Analytics dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversational-analytics-dashboard-reference-pae.md)
 

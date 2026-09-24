@@ -2,7 +2,7 @@
 title: Create a remediation task on-demand from Remediation Effort in the Vulnerability Manager Workspace
 description: Create a remediation task on-demand from a remediation effort. If you create a remediation task on-demand, you choose the records you want to add manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-rt-frm-re.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-create-rt-frm-re.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,5 +54,5 @@ For version 18.0 of Vulnerability Response, you cannot create a Remediation Task
 10. The new remediation task is displayed with the active records you selected.
 
 
-**Parent Topic:**[Use Remediation Effort records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ws-remed-eff-rcd.md)
+**Parent Topic:**[Use Remediation Effort records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-ws-remed-eff-rcd.md)
 

@@ -2,7 +2,7 @@
 title: Remove a group from a product subscription in Subscription Management
 description: Fix an over-allocated subscription and free up entitlements by removing a group from a product subscription in Subscription Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/remove-group-from-subscription-v2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/remove-group-from-subscription-v2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
 ## About this task
 
-To simplify the Subscription Management experience, user-based subscriptions are automatically allocated based on role if you haven't manually allocated user-based subscriptions before. To resolve over-consumed user-based subscriptions, reduce the number of users with roles that provide access to the over-consumed subscription. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md) and [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
+To simplify the Subscription Management experience, user-based subscriptions are automatically allocated based on role if you haven't manually allocated user-based subscriptions before. To resolve over-consumed user-based subscriptions, reduce the number of users with roles that provide access to the over-consumed subscription. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/t_AddAUserToAGroup.md) and [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/ua-creating-roles.md).
 
 If you have manually allocated user-based subscriptions before, you can still make manual changes to the subscribed groups using the following process.
 
@@ -53,5 +53,5 @@ If you can't manually allocate user-based subscriptions despite having manually 
 
 The group is removed from the subscription. If the group still has a measured-role that requires a subscription, add the group to a different subscription or remove the measured-role from the group.
 
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md)
+**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-user-subscriptions-v2.md)
 

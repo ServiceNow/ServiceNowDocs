@@ -2,7 +2,7 @@
 title: Classify and normalize software spend transactions by using ServiceNow Otto for Software Asset Management \(SAM\)
 description: Classify imported spend transactions to identify software purchases and normalize the derived raw publisher and raw product by matching them to existing publisher and product records. This automation reduces manual effort and improves spend reporting accuracy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/classify-normalize-software-spend-transactions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/classify-normalize-software-spend-transactions.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -41,12 +41,12 @@ ServiceNow Otto for SAM classifies and normalizes spend transactions through the
 
     For details, see:
 
-    -   [Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-spend-transactions.md)
-    -   [Manually create a spend transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manually-update-transactions.md)
+    -   [Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-spend-transactions.md)
+    -   [Manually create a spend transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/manually-update-transactions.md)
 2.  After the **SAM - Label Spend Transactions** scheduled job runs, navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Software spend detection** &gt; **All transactions** to review the classified transactions.
 
-    The list shows each transaction's state, publisher, product, and prediction method. For details, see [Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-sam-workspace.md) and [AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
+    The list shows each transaction's state, publisher, product, and prediction method. For details, see [Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-sam-workspace.md) and [AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
 
 
-**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam.md)
 

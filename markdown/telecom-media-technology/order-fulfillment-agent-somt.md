@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Sales CRM for Telecommunications AI agent collection order fulfillment AI agent
 description: Use the order fulfillment AI agent to identify the tasks required for domain orders by using historical data from similar orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-fulfillment-agent-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-fulfillment-agent-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ When a domain order is created, if a fulfillment process isn’t defined for tha
 
 To modify the order fulfillment AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
-The order fulfillment AI agent adds tasks apart from the generated tasks from Group Action Framework \(GAF\). To activate the GAF, see [Activate Group Action Framework for ServiceNow Otto for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/activate-group-action-framework-somt.md). The GAF and AI search are both used for order tasks.
+The order fulfillment AI agent adds tasks apart from the generated tasks from Group Action Framework \(GAF\). To activate the GAF, see [Activate Group Action Framework for ServiceNow Otto for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/activate-group-action-framework-somt.md). The GAF and AI search are both used for order tasks.
 
 Role required: sn\_somt\_gen\_ai.sales\_and \_order\_fulfillment\_ai\_agent
 

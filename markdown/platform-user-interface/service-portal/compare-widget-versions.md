@@ -2,7 +2,7 @@
 title: Compare versions of a customized widget
 description: Compare your most recent update of a customized widget against the previous version to check if your recent changes are causing issues on a portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/compare-widget-versions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/compare-widget-versions.html
 release: australia
 product: Service Portal
 classification: service-portal

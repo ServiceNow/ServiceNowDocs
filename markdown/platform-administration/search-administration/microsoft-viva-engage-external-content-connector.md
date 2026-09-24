@@ -2,14 +2,14 @@
 title: Microsoft Viva Engage external content connector
 description: The Microsoft Viva Engage external content connector retrieves messages and attachments from conversations in your Microsoft Viva Engage source system and makes their content and metadata searchable in AI Search applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/microsoft-viva-engage-external-content-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/microsoft-viva-engage-external-content-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -27,19 +27,19 @@ The Microsoft Viva Engage external content connector only retrieves searchable c
 
 Only members of a private community can see searchable content from attachments found in that community. Non-members cannot see searchable content from attachments in the private community, even if those attachments are shared with them in Microsoft Viva Engage.
 
--   **[Configure Microsoft Viva Engage for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-microsoft-viva-engage-external-content-indexing.md)**  
+-   **[Configure Microsoft Viva Engage for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-microsoft-viva-engage-external-content-indexing.md)**  
 Register an OAuth 2.0 application in the Microsoft Entra admin center to allow the Microsoft Viva Engage external content connector to access your Microsoft Viva Engage source system.
--   **[Create a Microsoft Viva Engage external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-microsoft-viva-engage.md)**  
+-   **[Create a Microsoft Viva Engage external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-microsoft-viva-engage.md)**  
 Create an external content connector to retrieve searchable content and security principals from your Microsoft Viva Engage source system.
--   **[Configure crawl settings for a Microsoft Viva Engage external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-crawl-settings-microsoft-viva-engage-external-content-connector.md)**  
+-   **[Configure crawl settings for a Microsoft Viva Engage external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-microsoft-viva-engage-external-content-connector.md)**  
 Specify the communities you want your Microsoft Viva Engage external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 
 **Related topics**  
 
 
-[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
+[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
 
-[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
+[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
 

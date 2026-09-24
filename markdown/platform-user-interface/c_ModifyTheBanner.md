@@ -2,7 +2,7 @@
 title: Modify the banner
 description: The banner is displayed at the top of the page and is rendered using certain system properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_ModifyTheBanner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_ModifyTheBanner.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ The banner is displayed at the top of the page and is rendered using certain sys
 
 **Note:** From the San Diego release on, configure banner announcements instead of updating **glide.product.description**, which is not used when Next Experience is enabled.
 
-For more information, see [Configure Next Experience banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-banner-announcements.md).
+For more information, see [Configure Next Experience banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-banner-announcements.md).
 
 -   **glide.product.image**
 -   &lt;div&gt;**glide.product.name**&lt;/div&gt;
@@ -38,7 +38,7 @@ If **glide.product.name** is blank, then the ServiceNow name is used as the prod
 
 The banner text and banner image defined for the Company that a user is assigned to may be used to override the **glide.product.image** and **glide.product.description**. The banner text, if specified, is used instead of the **glide.product.description** property. The banner image, if specified, is used instead of the **glide.product.image** property.
 
-**Parent Topic:**[Create a company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateACompanyProfile.md)
+**Parent Topic:**[Create a company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_CreateACompanyProfile.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Viewing Active Sessions in Identity Center
 description: Displays the information about the user sessions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/active-sessions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/active-sessions.html
 release: australia
 product: Identity
 classification: identity

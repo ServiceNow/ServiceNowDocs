@@ -2,7 +2,7 @@
 title: Supported screens for offline mode
 description: Consider which screen types to use in offline mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/screens-offline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/screens-offline.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-31"
@@ -29,7 +29,7 @@ Screens are the building blocks of your mobile experience. Each screen defines w
 
 Each mobile app has its own configuration. Within that configuration, you decide which screens to include in the app.
 
-Offline mode is supported in the following screens. For more information about screen types in mobile, see [Mobile screen types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet.md).
+Offline mode is supported in the following screens. For more information about screen types in mobile, see [Mobile screen types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-applet.md).
 
 -   Input form screen
 -   List screen
@@ -44,12 +44,12 @@ Offline mode is supported in the following screens. For more information about s
     -   Details screen
     -   Activity stream screen
 
--   **[Setup screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/setup-screens-offline.md)**  
+-   **[Setup screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/setup-screens-offline.md)**  
 Setup ofﬂine mode for your mobile screen so that users can work without an internet connection.
--   **[Configure data items in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-offline-data-item.md)**  
+-   **[Configure data items in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-offline-data-item.md)**  
 Define a separate data item for offline mode, giving you the flexibility to define the amount of data to display when a user is offline.
--   **[Define the number of displayed records in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-offline-record-number.md)**  
+-   **[Define the number of displayed records in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-offline-record-number.md)**  
 Define the number of records to display to users in offline mode. Choose between 0 through 1000 records. This range gives you the flexibility to display different amounts to the user in online and offline modes.
 
-**Parent Topic:**[Set up and align the app, screen, and function hierarchy for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/align-app-screen-function.md)
+**Parent Topic:**[Set up and align the app, screen, and function hierarchy for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/align-app-screen-function.md)
 

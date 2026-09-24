@@ -2,7 +2,7 @@
 title: Activate Location Based Access
 description: Activate the Zero Trust - Location Based Access \(com.snc.zero\_trust\_location\_access\) to allow admins to configure adaptive authentication policies based on the location of the user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-location-based-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/activate-location-based-access.html
 release: australia
 product: Authentication
 classification: authentication

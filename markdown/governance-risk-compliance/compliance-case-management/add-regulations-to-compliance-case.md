@@ -2,7 +2,7 @@
 title: Add compliance regulations to a compliance case
 description: Add the regulations that are or can be impacted by the reported compliance case. In the ServiceNow platform, regulations are captured as authority documents. Adding the regulations to the case enables you to identify which regulations are breached or violated and prevents your organization from getting penalties or fines for this case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/add-regulations-to-compliance-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/add-regulations-to-compliance-case.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -102,5 +102,5 @@ Brief description of the regulation violation based on your analysis.
 </table>8.  Select **Save**.
 
 
-**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

@@ -2,7 +2,7 @@
 title: Actions in Password Reset for Virtual Agent
 description: The actions in the Virtual Agent use plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/actions-in-password-reset-for-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/actions-in-password-reset-for-virtual-agent.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -19,7 +19,7 @@ The actions in the Virtual Agent use plugins.
 -   Password Reset \(com.glideapp.password\_reset\): This plugin is active by default.
 -   Password Reset for Virtual Agent \(com.snc.password\_reset.virtual\_agent\): You must install this plugin to use Password Reset for Virtual Agent.
 
-For more information about creating your password reset process, see [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-landing-page.md).
+For more information about creating your password reset process, see [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/password-reset-landing-page.md).
 
 End users can initiate a password reset conversation with Virtual Agent by entering specific keywords. For example, when a user enters the keyword `Reset`, the Virtual Agent shows the **Reset Password** action. The users can select the action to initiate the password reset.
 

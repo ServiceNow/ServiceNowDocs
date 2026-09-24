@@ -2,7 +2,7 @@
 title: Set up the CIC Plus integration
 description: Integrate with the CIC Plus service by configuring a SAML connection between your third-party identity provider \(IDP\) and CIC Plus accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/set-up-cic-plus-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/set-up-cic-plus-integration.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

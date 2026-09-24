@@ -2,7 +2,7 @@
 title: Wide single-line text
 description: The wide single-line text variable creates a field that spans the form, letting users enter longer lines of text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/wide-single-line-text.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/wide-single-line-text.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -20,7 +20,7 @@ For attributes supported by this variable, see variable attributes.
 
 \[Omitted image "VariableWideSingleLineG.png"\] Alt text: A wide single-line text variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -35,7 +35,7 @@ For attributes supported by this variable, see variable attributes.
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

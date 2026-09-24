@@ -2,7 +2,7 @@
 title: Product quality investigation use case
 description: Use case scenarios demonstrate when and how to use the Product non-conformance application to create a product quality investigation report. It provides practical examples of common product quality investigation situations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-quality-investigation-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-product-quality-investigation-use-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-18"
@@ -16,7 +16,7 @@ Use case scenarios demonstrate when and how to use the Product non-conformance a
 
 ## Scenario-Airbag sensor defect investigation
 
-This use case is a follow-up use case from Product non-conformance, see [Product non-conformance use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-non-conformance-use-case.md).
+This use case is a follow-up use case from Product non-conformance, see [Product non-conformance use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-product-non-conformance-use-case.md).
 
 Alectri detects airbag sensor defects affecting 2024 Voltar VS vehicles. Quality teams must conduct a comprehensive investigation with cross-functional coordination, structured root cause analysis, and financial governance. Key challenges include:
 
@@ -36,7 +36,7 @@ Manage the quality investigation through four key workflow phases:
 3.  Coordinate: Establish RACI roles across Engineering, Supplier Quality, Manufacturing, and Dealer teams. Review impacted assets and create remediation actions.
 4.  Approve: Finance Lead reviews line-level charges for parts, labor, and process improvements, then approves remediation costs with full traceability.
 
-The [Product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-PQI-use.md) provides real-time visibility into investigation status, root causes, and cost of quality \(CoPQ\) tracking across all remediation activities.
+The [Product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-PQI-use.md) provides real-time visibility into investigation status, root causes, and cost of quality \(CoPQ\) tracking across all remediation activities.
 
 ## Benefits
 

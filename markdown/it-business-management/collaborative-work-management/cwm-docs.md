@@ -2,7 +2,7 @@
 title: Collaborative documentation using CWM
 description: Manage all kinds of documentation for work such as meeting notes, project requirements, or technical specifications using rich text Docs with real-time collaboration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-docs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/cwm-docs.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -30,7 +30,7 @@ Docs can be created within a Space, and organized into folders. Within a Space, 
 -   Cross-references: Add references to other ServiceNow AI Platform tables to connect work across teams.
 -   Slash command \(**/**\) for more options:
     -   Insert tables quickly
-    -   Mention a record. See [Dynamic data linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md).
+    -   Mention a record. See [Dynamic data linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-docs.md).
     -   Insert a list.
     -   Choose formatting options.
 -   Copy and paste within Docs: Transfer text, images, lists, and tables between Docs pages. Comments on text are retained when you copy or cut and paste within the same document but aren't carried over when pasting into a different document.
@@ -173,26 +173,26 @@ You can interact with ServiceNow Otto directly in your Doc to create content, ad
 
 Use the generative AI capabilities of ServiceNow Otto to create tasks from the context of your Docs. From the Doc header, select **Create Tasks** and ServiceNow Otto generates task recommendations for you and walks you through to add them to the required Board in CWM workspace.
 
--   **[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)**  
+-   **[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)**  
 Store information related to your tasks, reference users and task records, and collaborate in real-time using Docs in Collaborative Work Management workspace.
--   **[Manage pages and subpages in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/manage-pages-and-subpages-in-cwm-docs.md)**  
+-   **[Manage pages and subpages in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/manage-pages-and-subpages-in-cwm-docs.md)**  
 Flexibly organize information for your teams and work items by creating, duplicating, and deleting pages and subpages within a Doc in Collaborative Work Management \(CWM\) workspace.
--   **[Refine content of a Doc page in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/summarize-doc-now-assist-cwm.md)**  
+-   **[Refine content of a Doc page in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/summarize-doc-now-assist-cwm.md)**  
 Gain insights into the page content by summarizing it or improve content quality by refining it in CWM Docs.
--   **[Generate and improve Docs content with ServiceNow Otto \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)**  
+-   **[Generate and improve Docs content with ServiceNow Otto \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)**  
 Use ServiceNow Otto within your Docs to generate new content, summarize or expand sections, and refine drafts. Avoid starting Docs from scratch, save time, and keep your content relevant.
--   **[Add comments to Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.md)**  
+-   **[Add comments to Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.md)**  
 Add a comment to specific text in a Doc to share feedback or start a discussion without modifying the Doc content.
--   **[Manage comments in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/manage-comments-in-cwm-docs.md)**  
+-   **[Manage comments in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/manage-comments-in-cwm-docs.md)**  
 Edit, reply to, or delete comments in Docs to maintain relevant discussions and keep your documentation organized.
--   **[Hide or show comment highlights in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/hide-comment-highlights-cwm-docs.md)**  
+-   **[Hide or show comment highlights in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/hide-comment-highlights-cwm-docs.md)**  
 Toggle comment highlight visibility in Docs to switch between a clean reading view and a markup view.
--   **[Disable comment notifications in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/disable-comment-notifications-cwm.md)**  
+-   **[Disable comment notifications in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/disable-comment-notifications-cwm.md)**  
 Turn off email notifications for comment activities in Docs to manage which comment events you're notified about.
--   **[Duplicate a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/duplicate-doc-in-cwm.md)**  
+-   **[Duplicate a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/duplicate-doc-in-cwm.md)**  
 Save time by duplicate an existing Doc to copy all its pages and content without having to copy the information manually in the Collaborative Work Management workspace.
--   **[Export a Doc in CWM to a PDF file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/export-a-doc-in-cwm-to-a-pdf-file.md)**  
+-   **[Export a Doc in CWM to a PDF file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/export-a-doc-in-cwm-to-a-pdf-file.md)**  
 Use the Docs offline, and share with teams or stakeholders outside Collaborative Work Management \(CWM\) by exporting Docs as PDF.
 
-**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
+**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 

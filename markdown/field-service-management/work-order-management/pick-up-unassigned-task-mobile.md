@@ -2,7 +2,7 @@
 title: Pick up an unassigned task
 description: If you are available, you can assign a task to yourself.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/pick-up-unassigned-task-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/pick-up-unassigned-task-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,7 +2,7 @@
 title: Assign collaboration descriptors to groups
 description: Assign collaboration descriptors to user groups for a specific application so that you can define specific permissions for these user groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/assign-descriptor-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/assign-descriptor-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

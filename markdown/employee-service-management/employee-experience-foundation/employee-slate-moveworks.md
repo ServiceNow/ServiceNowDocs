@@ -2,7 +2,7 @@
 title: EmployeeWorks Web App
 description: Employees search and take action across ServiceNow workflows and connected business applications from one AI front door on web and mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-slate-moveworks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-slate-moveworks.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,7 +25,7 @@ You start any request from one chat bar and complete the request. You can work a
 
 ## Quick features overview
 
-See [Moveworks AI assistant capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md) for in-depth feature descriptions. Descriptions cover the following features:
+See [Moveworks AI assistant capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md) for in-depth feature descriptions. Descriptions cover the following features:
 
 -   Reasoning engine
 -   Enterprise search
@@ -41,10 +41,10 @@ Administrators complete the following tasks to enable Moveworks for Employee Sla
 
 |Task|Description|
 |----|-----------|
-|[Set up Moveworks for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-set-up-moveworks.md)|Initial setup and configuration of the Moveworks integration with Employee Slate.|
-|[Configure the Moveworks chat bot for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md)|Set up and customize the Moveworks chat bot functionality for Employee Slate users.|
-|[Configure Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-employee-slate-moveworks.md)|Configure Employee Slate settings to work with the Moveworks integration.|
-|[Configure terms of use attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-terms-of-use.md)|Configure attestation terms that employees must accept before accessing the application.|
+|[Set up Moveworks for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-set-up-moveworks.md)|Initial setup and configuration of the Moveworks integration with Employee Slate.|
+|[Configure the Moveworks chat bot for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md)|Set up and customize the Moveworks chat bot functionality for Employee Slate users.|
+|[Configure Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-employee-slate-moveworks.md)|Configure Employee Slate settings to work with the Moveworks integration.|
+|[Configure terms of use attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-terms-of-use.md)|Configure attestation terms that employees must accept before accessing the application.|
 
 ## Employee tasks
 
@@ -52,11 +52,11 @@ The following tasks cover the core employee workflows on Moveworks:
 
 |Task|Description|
 |----|-----------|
-|[Update personal records with the AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-update-hr-records.md)|Update personal HR records such as home address and emergency contact information using the AI assistant.|
-|[Research prospects and generate artifacts with the AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-research-external-content.md)|Use the AI assistant to research potential prospects and create relevant business artifacts and documentation.|
-|[Search enterprise content with Enterprise Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-search-enterprise-content.md)|Find and access enterprise documents, policies, and information using Enterprise Search capabilities.|
-|[Submit a catalog request in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-submit-catalog-request.md)|Request items and services from the service catalog through the Employee Slate interface.|
-|[Find a policy in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-find-policy.md)|Locate and access company policies and procedures within Employee Slate.|
+|[Update personal records with the AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-update-hr-records.md)|Update personal HR records such as home address and emergency contact information using the AI assistant.|
+|[Research prospects and generate artifacts with the AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-research-external-content.md)|Use the AI assistant to research potential prospects and create relevant business artifacts and documentation.|
+|[Search enterprise content with Enterprise Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-search-enterprise-content.md)|Find and access enterprise documents, policies, and information using Enterprise Search capabilities.|
+|[Submit a catalog request in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-submit-catalog-request.md)|Request items and services from the service catalog through the Employee Slate interface.|
+|[Find a policy in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-find-policy.md)|Locate and access company policies and procedures within Employee Slate.|
 
 ## What employees can do with Moveworks
 
@@ -70,5 +70,5 @@ From the chat bar on any Employee Slate page, employees complete the following w
 -   Act on notifications — approvals, announcements, and ticket status updates — in one panel.
 -   Continue the same conversations on a mobile browser.
 
-For an end-to-end walk-through of a sample day, see [Employee Slate for Moveworks experience journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-experience-journey.md).
+For an end-to-end walk-through of a sample day, see [Employee Slate for Moveworks experience journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-experience-journey.md).
 

@@ -2,7 +2,7 @@
 title: Auriga Intelligent Alert report
 description: Auriga Intelligent Alert is an advanced multivariate machine learning \(ML\) model that learns from historical issues on your instance to provide real-time insight. Auriga monitors your performance metrics to deliver notifications of noteworthy events or deviations from anticipated data patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/auriga-intelligent-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/auriga-intelligent-report.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-12"
@@ -42,7 +42,7 @@ Auriga Intelligent Alert is an advanced multivariate machine learning \(ML\) mod
     1.  From the time the alert is generated, retrieve the anomaly data for server response time with a 10-minute rollup.
     2.  If an anomaly is detected within the past hour, categorize the system as unstable; otherwise, categorize it as stable.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

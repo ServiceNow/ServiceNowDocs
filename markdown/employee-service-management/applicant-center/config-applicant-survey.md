@@ -2,7 +2,7 @@
 title: Configure applicant survey
 description: Configure the survey that you want your applicants to take to provide feedback on their hiring experience. Determine at which state the feedback survey goes to the applicant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/config-applicant-survey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/applicant-center/config-applicant-survey.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -30,8 +30,8 @@ The **Applicant interview feedback** is available by default that triggers the s
 
     For more information, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
 
-    For more information on applicant survey in the Applicant Center, see [Applicant survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/applicant-feedback.md).
+    For more information on applicant survey in the Applicant Center, see [Applicant survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/applicant-center/applicant-feedback.md).
 
 
-**Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/config-applicant-center.md)
+**Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/applicant-center/config-applicant-center.md)
 

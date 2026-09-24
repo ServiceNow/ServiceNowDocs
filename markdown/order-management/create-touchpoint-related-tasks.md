@@ -2,7 +2,7 @@
 title: Create a related task from a touchpoint
 description: Create tasks directly from a touchpoint record to assign follow-up actions such as researching customer backgrounds, track post-interaction commitments, and coordinate stakeholders without having to leave the touchpoint workspace. Tasks are automatically linked to the touchpoint so all related activity stays connected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-touchpoint-related-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-touchpoint-related-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -40,8 +40,8 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
     |CRM entity|Form field descriptions|
     |----------|-----------------------|
-    |**Lead**|[Create new lead task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-lead-task-form.md)|
-    |**Opportunity**|[Create new opportunity task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-opportunity-task-form.md)|
+    |**Lead**|[Create new lead task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-lead-task-form.md)|
+    |**Opportunity**|[Create new opportunity task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-opportunity-task-form.md)|
 
 8.  Select **Save**.
 
@@ -50,12 +50,12 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
 A task record is created against the CRM entity and touchpoint record. You can view the corresponding task from the respective module. For example, to view opportunity task, navigate to **Opportunity** &gt; **Opportunity Tasks** list menu. You can also access it from the **Opportunity Tasks** tab from the touchpoint record.
 
-**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-activity-management.md)
 
 **Related topics**  
 
 
-[Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md)
+[Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-tasks-tab.md)
 
-[Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-use-tasks-tab.md)
+[Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-use-tasks-tab.md)
 

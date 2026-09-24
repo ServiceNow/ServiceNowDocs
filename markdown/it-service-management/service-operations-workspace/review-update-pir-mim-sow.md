@@ -2,7 +2,7 @@
 title: Review and update a post incident report
 description: Review a post incident report \(PIR\) using the Post Incident Report tab. A PIR helps you review and understand the cause of the major incident and the actions taken by the teams to resolve the incident. This helps prevent the issue in the future.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/review-update-pir-mim-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/review-update-pir-mim-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -18,7 +18,7 @@ Review a post incident report \(PIR\) using the **Post Incident Report** tab. A 
 
 ## Before you begin
 
-The major incident must be in the **Resolved** state. For more information, see [Resolve and close a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/resolve-close-mim-sow.md).
+The major incident must be in the **Resolved** state. For more information, see [Resolve and close a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/resolve-close-mim-sow.md).
 
 Role required:
 
@@ -280,5 +280,5 @@ Select the **Reset settings** \(\[Omitted image "mim-refresh-icon.png"\] Alt tex
 
 The post incident report is downloaded to your system in PDF format. You can send the PDF file to the required stakeholders.
 
-**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
+**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
 

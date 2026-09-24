@@ -2,7 +2,7 @@
 title: Jumpstart Your Major Incident Management
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Major Incident Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-major-incident-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-major-incident-management.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

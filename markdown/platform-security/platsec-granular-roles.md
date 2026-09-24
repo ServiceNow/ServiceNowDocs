@@ -2,7 +2,7 @@
 title: Platform security granular admin roles
 description: Use granular admin roles to verify access management by assigning roles that define user permissions and responsibilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platsec-granular-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platsec-granular-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ access\_analyzer\_admin
 
 </td><td>
 
-Role required to access the Access analyzer to compare user records and access, simulate user access, and view access insights. To learn more, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-analyzer.md).
+Role required to access the Access analyzer to compare user records and access, simulate user access, and view access insights. To learn more, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer.md).
 
 </td></tr><tr><td>
 
@@ -51,7 +51,7 @@ adaptive\_auth\_admin
 
 </td><td>
 
-Role required to configure adaptive authentication policies. To learn more, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication.md).
+Role required to configure adaptive authentication policies. To learn more, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-authentication.md).
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ custom\_url\_admin
 
 </td><td>
 
-Role required to configure custom URL, view datacenters jobs in read-only mode, and select portal and SSO records. To learn more, see [Custom instance URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/custom-url.md).
+Role required to configure custom URL, view datacenters jobs in read-only mode, and select portal and SSO records. To learn more, see [Custom instance URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/custom-url.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ E-signature with SSO
 
 </td><td>
 
-Role required to configure E-signature with SSO \(SAML or OIDC\) only and not required if using local database login. To learn more, see [E-signature for Multi-Provider SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/e-signature-for-multi-provider-sso.md).
+Role required to configure E-signature with SSO \(SAML or OIDC\) only and not required if using local database login. To learn more, see [E-signature for Multi-Provider SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/e-signature-for-multi-provider-sso.md).
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ iamsync\_admin
 
 </td><td>
 
-Role required to manage the Federated ID and read or write Federated ID related property. To learn more, see [Global Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/global-identity.md).
+Role required to manage the Federated ID and read or write Federated ID related property. To learn more, see [Global Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/global-identity.md).
 
 </td></tr><tr><td>
 
@@ -238,7 +238,7 @@ user\_login\_history\_viewer
 
 </td><td>
 
-Role required to view login history details in the Identity Center, including login timestamps, browser information,IP address, and login status. Supports security investigations by enabling filtered views of login actions and helps identify suspicious activity. To learn more, see [Identity Center for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/identity-center-for-user.md).
+Role required to view login history details in the Identity Center, including login timestamps, browser information,IP address, and login status. Supports security investigations by enabling filtered views of login actions and helps identify suspicious activity. To learn more, see [Identity Center for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/identity-center-for-user.md).
 
 </td></tr><tr><td>
 
@@ -250,7 +250,7 @@ privileged\_role\_config\_admin
 
 </td><td>
 
-Role required to grants full access to manage role configurations in the Identity Center, including adding, deleting, creating, reading, and viewing reports in the **sys\_icenter\_role\_config** table. To learn more, see [Identity Metrics for administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/identity-center-for-admin.md).
+Role required to grants full access to manage role configurations in the Identity Center, including adding, deleting, creating, reading, and viewing reports in the **sys\_icenter\_role\_config** table. To learn more, see [Identity Metrics for administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/identity-center-for-admin.md).
 
 </td></tr><tr><td>
 
@@ -262,7 +262,7 @@ role\_viewer
 
 </td><td>
 
-Role required to only view the records in the **sys\_icenter\_role\_config** table. To learn more, see [Identity Center for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/identity-center-for-user.md).
+Role required to only view the records in the **sys\_icenter\_role\_config** table. To learn more, see [Identity Center for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/identity-center-for-user.md).
 
 </td></tr><tr><td>
 
@@ -289,7 +289,7 @@ mi\_admin
 
 </td><td>
 
-Role required to manage identities that interact with systems and data. To learn more, see [Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/machine-identity-console.md).
+Role required to manage identities that interact with systems and data. To learn more, see [Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/machine-identity-console.md).
 
 </td></tr><tr><td>
 
@@ -301,7 +301,7 @@ password\_policy\_admin
 
 </td><td>
 
-Role required to configure password policy-related items. To learn more, see [Local authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/local-authentication.md)
+Role required to configure password policy-related items. To learn more, see [Local authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/local-authentication.md)
 
 </td></tr><tr><td>
 
@@ -340,7 +340,7 @@ scim\_admin
 
 </td><td>
 
-Role required to configure and manage SCIM provisioning, including creating customization properties, supported and extension schema, and ETL definitions for user and group data. To learn more, see [System for Cross-domain Identity Management \(SCIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim.md).
+Role required to configure and manage SCIM provisioning, including creating customization properties, supported and extension schema, and ETL definitions for user and group data. To learn more, see [System for Cross-domain Identity Management \(SCIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/scim.md).
 
 </td></tr><tr><td>
 
@@ -352,7 +352,7 @@ scim\_config\_admin
 
 </td><td>
 
-Role required to configure SCIM custom schema and system properties. To learn more, see [SCIM customization properties and schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-customization-properties-and-schemas.md).
+Role required to configure SCIM custom schema and system properties. To learn more, see [SCIM customization properties and schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/scim-customization-properties-and-schemas.md).
 
 </td></tr><tr><td>
 
@@ -364,7 +364,7 @@ scim\_client\_config\_admin
 
 </td><td>
 
-Role required to configure SCIM Client. To learn more, see [SCIM Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-client-app.md).
+Role required to configure SCIM Client. To learn more, see [SCIM Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/scim-client-app.md).
 
 </td></tr><tr><td>
 
@@ -376,7 +376,7 @@ scim\_admin
 
 </td><td>
 
-Role required to configure SCIM Provider. To learn more, see [SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-provider.md).
+Role required to configure SCIM Provider. To learn more, see [SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/scim-provider.md).
 
 </td></tr><tr><td>
 
@@ -388,7 +388,7 @@ external\_user\_self\_registration\_admin
 
 </td><td>
 
-Role required to on-board a large volume of external users to your instance. To learn more, see [Self-register to ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/external-user-self-registration.md).
+Role required to on-board a large volume of external users to your instance. To learn more, see [Self-register to ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/external-user-self-registration.md).
 
 </td></tr><tr><td>
 
@@ -400,7 +400,7 @@ sn\_vault\_console.vault\_console\_admin
 
 </td><td>
 
-Role required to have a collection of Data Classification admin, Data Privacy admin, and CA Admin roles to execute a template flow and monitor sensitive data. To learn more, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-servicenow-vault.md)
+Role required to have a collection of Data Classification admin, Data Privacy admin, and CA Admin roles to execute a template flow and monitor sensitive data. To learn more, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-servicenow-vault.md)
 
 </td></tr><tr><td>
 
@@ -426,7 +426,7 @@ SSO \(SAML and OIDC\)
 
 </td><td>
 
-Role required to configure SSO configuration \(SAML or OIDC\). To learn more, see [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
+Role required to configure SSO configuration \(SAML or OIDC\). To learn more, see [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
 
 </td></tr><tr><td>
 
@@ -438,7 +438,7 @@ oauth\_admin
 
 </td><td>
 
-Role required to configure all OAuth related functionality. To learn more, see [OAuth Inbound and Outbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/api-inbound-and-outbound.md).**Note:** You must assign the following roles for the following configurations:
+Role required to configure all OAuth related functionality. To learn more, see [OAuth Inbound and Outbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/api-inbound-and-outbound.md).**Note:** You must assign the following roles for the following configurations:
 
 -   The **admin** role for non out of the box properties.
 -   The **script\_include\_admin** to change existing scripts \(JWT, and so on\).
@@ -480,5 +480,5 @@ sn\_vsc.security\_center\_admin
 Role required to access Security Center consoles and tools. Users with this role can also create and manage security tasks.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md)
+</table>**Parent Topic:**[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/granular-admin-roles.md)
 

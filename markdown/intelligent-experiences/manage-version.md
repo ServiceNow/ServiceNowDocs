@@ -2,7 +2,7 @@
 title: Manage version
 description: Manage the version of the model providers across skills and instance levels. You can change and update versions for the out-of-box and custom skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/manage-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/manage-version.html
 release: australia
 topic_type: task
 last_updated: "2025-10-24"
@@ -18,7 +18,7 @@ Manage the version of the model providers across skills and instance levels. You
 
 Role required: admin
 
-See [Default and target model version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/default-and-target-model-model-version.md) to know more about default and target model versions.
+See [Default and target model version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/default-and-target-model-model-version.md) to know more about default and target model versions.
 
 ## Procedure
 
@@ -86,5 +86,5 @@ This program aims to provide an opportunity for the user to explore and experime
 -   The preview models are enabled to provide early access to custom skill users as soon as the new models are available.
 -   The admin can choose to opt-in or out of the program. A toggle is presented in AI control tower allowing the user to opt in to the preview program. The toggle defaults to off.
 
-**Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md)
+**Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-large-language-models.md)
 

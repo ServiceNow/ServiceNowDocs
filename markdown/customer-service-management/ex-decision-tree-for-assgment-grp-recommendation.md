@@ -2,7 +2,7 @@
 title: Creating a decision table for recommending assignment groups
 description: Create a decision table with name Assignment group for a router issue that provides an assignment group as a result for a given product and problem combination.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-decision-tree-for-assgment-grp-recommendation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ex-decision-tree-for-assgment-grp-recommendation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

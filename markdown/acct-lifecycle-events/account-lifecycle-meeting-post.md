@@ -2,7 +2,7 @@
 title: Meeting recap
 description: When a meeting is completed, the meeting page displays a recap of the meeting, including an AI-generated summary, success tasks, and records associated with the meeting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-meeting-post.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-meeting-post.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-21"
@@ -33,7 +33,7 @@ The Meeting Recap section contains three tabs.
 
 -   **Prep Brief**
 
-    Displays the meeting preparation guide that was generated before the meeting. The brief includes the meeting objective, a recap of the last meeting, and the timestamp when it was generated. This is the same guide that was available on the **Meeting prep guide** tab in the [Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md) page.
+    Displays the meeting preparation guide that was generated before the meeting. The brief includes the meeting objective, a recap of the last meeting, and the timestamp when it was generated. This is the same guide that was available on the **Meeting prep guide** tab in the [Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-meeting-pre.md) page.
 
 
 ## Success Tasks
@@ -59,14 +59,14 @@ The Related Record section lists records associated with the meeting. Records ar
 
 Select **Add record** to associate an additional record with the meeting. Select **View record** to open a listed record.
 
-**Parent Topic:**[Meeting page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-page.md)
+**Parent Topic:**[Meeting page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-meeting-page.md)
 
 **Related topics**  
 
 
-[Meeting page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-page.md)
+[Meeting page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-meeting-page.md)
 
-[Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md)
+[Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-meeting-pre.md)
 
-[bundle-telmt.now-assist-tmt-meeting-skills]
+[Use touchpoint meeting skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-meeting-skills.md)
 

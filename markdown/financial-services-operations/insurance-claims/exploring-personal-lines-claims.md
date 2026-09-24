@@ -2,7 +2,7 @@
 title: Exploring Personal Lines Claims
 description: Learn how the first-notice-of-loss \(FNOL\) representatives, processors, adjusters, special investigation agents, and managers can use the Personal Lines Claims application to create and manage personal insurance claims.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/exploring-personal-lines-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/exploring-personal-lines-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -91,5 +91,5 @@ Manager who approves the reserves and payment requests and can view an overview 
 </table>**Related topics**  
 
 
-[Personal Lines Claims dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/personal-lines-claims.md)
+[Personal Lines Claims dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/personal-lines-claims.md)
 

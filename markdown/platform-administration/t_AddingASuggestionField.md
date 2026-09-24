@@ -2,7 +2,7 @@
 title: Suggestion field type
 description: To help users find what they are looking for, you can add a suggestion field to any form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_AddingASuggestionField.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_AddingASuggestionField.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

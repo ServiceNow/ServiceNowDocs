@@ -2,7 +2,7 @@
 title: Insights and Opportunities for Incident dashboard
 description: The Insights and Opportunities for Incident dashboard in Service Operations Workspace gives service desk managers and incident managers a unified view of incident trends, SLA compliance, sentiment, and operational patterns to support data-driven decisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/insights-opportunities-incident-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/insights-opportunities-incident-dashboard.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -124,5 +124,5 @@ The trend category view includes all Dashboard view widgets scoped to the select
 **Related topics**  
 
 
-[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md)
+[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/c_IncidentManagement.md)
 

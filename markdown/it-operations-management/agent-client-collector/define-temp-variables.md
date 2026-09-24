@@ -2,7 +2,7 @@
 title: Define temporary variables for a pattern allowlist
 description: Define temporary variables by assigning values such as executable paths, config file paths, and so forth. Defining temporary variables ensures that runtime commands are successful.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/define-temp-variables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/define-temp-variables.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -46,5 +46,5 @@ Role required: agent\_client\_collector\_admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Generate a Pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/generate-patterns-allow-list.md)
+**Parent Topic:**[Generate a Pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/generate-patterns-allow-list.md)
 

@@ -2,7 +2,7 @@
 title: View the network or storage path in classic Service Mapping
 description: You can drill down to see objects behind a connection on a map for troubleshooting service performance or maintaining your network. This feature is not available for manually created services or for services on instances using Edge Encryption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_CheckNtwrkStrgPath.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/t\_CheckNtwrkStrgPath.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -71,17 +71,17 @@ You can see the change history for network and storage paths for application ser
 
 5.  For storage paths, use the Storage Mapping tab at the bottom of the screen to view correlation between file systems on the host and the storage volume or the shared folder on the storage device.
 
-6.  To view the change history for network paths, perform steps in [View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md).
+6.  To view the change history for network paths, perform steps in [View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_ViewCIChanges.md).
 
 7.  If you access the network or storage path map from Event Management, you can see the list of alerts related to this path appear at the bottom of the screen.
 
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 
 **Related topics**  
 
 
-[Application service maps in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_UndestandMaps.md)
+[Application service maps in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_UndestandMaps.md)
 
-[SNMP-based queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/snmp-based-queries.md)
+[SNMP-based queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/snmp-based-queries.md)
 

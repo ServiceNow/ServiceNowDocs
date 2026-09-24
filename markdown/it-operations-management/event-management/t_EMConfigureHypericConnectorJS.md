@@ -2,7 +2,7 @@
 title: Configure event collection from Hyperic
 description: Configure the Hyperic connector instance to receive events from the VMware vRealize Hyperic server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigureHypericConnectorJS.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMConfigureHypericConnectorJS.html
 release: australia
 product: Event Management
 classification: event-management
@@ -60,10 +60,10 @@ Supported version: 5.8.4.0.
 7.  After a successful test, select the **Active** check box and then click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 
 **Related topics**  
 
 
-[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

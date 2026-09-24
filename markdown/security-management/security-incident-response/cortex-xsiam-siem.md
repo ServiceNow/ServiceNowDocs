@@ -2,7 +2,7 @@
 title: Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks
 description: Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks ingests Alerts and Incidents from Cortex XSIAM into ServiceNow's Security Incident Response platform, enabling seamless post-incident management while maintaining bi-directional status and work note synchronization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/cortex-xsiam-siem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/cortex-xsiam-siem.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

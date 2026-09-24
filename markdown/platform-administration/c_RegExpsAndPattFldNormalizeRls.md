@@ -2,7 +2,7 @@
 title: Regular expressions and patterns in field normalization rules
 description: Field Transformation definitions support the use of regular expressions \(referred to in the platform as regex\) and pattern matching for determining the position of characters in a string.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_RegExpsAndPattFldNormalizeRls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_RegExpsAndPattFldNormalizeRls.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

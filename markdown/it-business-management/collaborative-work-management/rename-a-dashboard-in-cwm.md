@@ -2,7 +2,7 @@
 title: Rename a dashboard in Collaborative Work Management
 description: Rename a dashboard in a CWM Board so your team can easily identify it among shared dashboards for any specific requirement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/rename-a-dashboard-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/rename-a-dashboard-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -19,7 +19,7 @@ Rename a dashboard in a CWM Board so your team can easily identify it among shar
 
 ## Before you begin
 
-Confirm that a dashboard is created. For more information, see [Create a dashboard for a CWM Board in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.md).
+Confirm that a dashboard is created. For more information, see [Create a dashboard for a CWM Board in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -48,5 +48,5 @@ Predefined dashboards — Team progress and Team sprint tracker — can't be ren
 8.  Select **Save**.
 
 
-**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
 

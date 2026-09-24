@@ -2,7 +2,7 @@
 title: Approve or reject a legal matter task
 description: As a matter owner, you can review and approve or reject matter tasks that are marked as complete by the task owners.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/approve-reject-matter-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/approve-reject-matter-task.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -46,5 +46,5 @@ Role required: sn\_lg\_matter.matter\_fulfiller
 -   If you approve the matter task, the task is closed. The state of the task updates to Closed Complete.
 -   If you reject the matter task, the task is opened again. The state of the task updates to Work in Progress. The task owner can work on the task again to fulfill the requirements of the task and mark it complete for approval.
 
-**Parent Topic:**[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)
+**Parent Topic:**[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)
 

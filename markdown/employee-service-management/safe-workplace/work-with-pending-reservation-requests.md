@@ -2,7 +2,7 @@
 title: Review pending workplace reservation requests
 description: Review pending workplace reservation requests from employees in Workplace Core and assign available workplaces to complete these requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/work-with-pending-reservation-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/work-with-pending-reservation-requests.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -58,5 +58,5 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 Once the status of workplace request is updated to **Closed complete**, the reservation information is populated in the **Notes** field of the workplace request.
 
-**Parent Topic:**[Managing workplace reservations for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/managing-workplace-reservations.md)
+**Parent Topic:**[Managing workplace reservations for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/managing-workplace-reservations.md)
 

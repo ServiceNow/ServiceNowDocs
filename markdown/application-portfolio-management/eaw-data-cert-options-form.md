@@ -2,7 +2,7 @@
 title: Options form
 description: The options that appear depends on whether they are relevant to the selected policy type. Therefore, some of the following options don't appear on your form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-data-cert-options-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-data-cert-options-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -81,5 +81,5 @@ Instructions
 Any instructions to assigned users, to help them complete the tasks.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 

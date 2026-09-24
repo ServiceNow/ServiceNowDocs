@@ -2,7 +2,7 @@
 title: MFA metrics
 description: FAQ related to understanding the MFA metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/faq-familiar-with-mfa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/faq-familiar-with-mfa.html
 release: australia
 product: Authentication
 classification: authentication

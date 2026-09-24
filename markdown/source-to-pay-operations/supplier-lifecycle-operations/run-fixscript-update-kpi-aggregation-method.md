@@ -2,7 +2,7 @@
 title: Run fix script to update the Aggregation method field in the KPI table
 description: Run this fix script to update the new fields added in the KPI table \(sn\_kpi\_kpi\) after the May 2025 Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-update-kpi-aggregation-method.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-update-kpi-aggregation-method.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -44,7 +44,7 @@ For new KPI templates and KPIs, there’s no impact even if the script is not ru
 4.  Select **Run Fix Script**.
 
 
-**Parent Topic:**[Post-upgrade tasks for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-upgrade-tasks-slo.md)
+**Parent Topic:**[Post-upgrade tasks for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/post-upgrade-tasks-slo.md)
 
 **Related topics**  
 

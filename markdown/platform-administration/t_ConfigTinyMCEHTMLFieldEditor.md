@@ -2,7 +2,7 @@
 title: Configure a field editor for the HTML field
 description: Configure HTML fields to use TinyMCE or the legacy htmlArea editor. The TinyMCE editor provides better stability and more editing functions than the legacy htmlArea editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfigTinyMCEHTMLFieldEditor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfigTinyMCEHTMLFieldEditor.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create an improvement initiative from Process Mining
 description: Create an improvement initiative associated with the project you're analyzing in Process Mining.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/create-improvement-initiative.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/create-improvement-initiative.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -60,5 +60,5 @@ To change a record, from the CIM record:
 -   Update a record: Make a change on the record, then select **Save**.
 -   Delete an initiative: From the record, select the menu icon and select **Delete**.
 
-**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/initiatives-from-process-optimization.md)
+**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/initiatives-from-process-optimization.md)
 

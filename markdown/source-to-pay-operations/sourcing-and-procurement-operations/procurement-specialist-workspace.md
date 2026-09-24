@@ -2,7 +2,7 @@
 title: Source-to-Pay Workspace
 description: As a Procurement Specialist, you can easily complete your actionable tasks within the premises of an enhanced user experience with Source-to-Pay Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/procurement-specialist-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/procurement-specialist-workspace.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -68,7 +68,7 @@ Admin role for Canvas Core Application: View and make configuration changes to t
 canvas\_admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+</table>**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 

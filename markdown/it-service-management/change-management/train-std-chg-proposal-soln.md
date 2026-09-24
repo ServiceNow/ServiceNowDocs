@@ -2,7 +2,7 @@
 title: Train the clustering solution for standard change proposal
 description: Train the Standard change proposal solution definition to use clustering capabilities to identify and suggest Standard Change templates to create a change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/train-std-chg-proposal-soln.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/train-std-chg-proposal-soln.html
 release: australia
 product: Change Management
 classification: change-management
@@ -35,5 +35,5 @@ Role required: admin
 3.  Select **Update**.
 
 
-**Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-mgmt-intelligent-solutions.md)
+**Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-mgmt-intelligent-solutions.md)
 

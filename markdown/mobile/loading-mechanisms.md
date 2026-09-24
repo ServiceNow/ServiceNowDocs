@@ -2,7 +2,7 @@
 title: Loading mechanisms for input form screens
 description: The input form screen contains various UI elements, such as inputs, input actions, and descriptive elements. These elements can be populated either manually by the user or automatically using data sources and autofill variables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/loading-mechanisms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/loading-mechanisms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ The following scenarios are supported by at least one of the loading mechanisms:
 -   Populating the form with the most current data from the database when triggering an input form action, such as saving progress.
 -   Providing data for write-back actions when submitting or saving progress. \(Variables only\)
 
-For a table listing which loading mechanisms support various input form UI elements, see [Loading mechanisms for input form UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/loading-mechanisms-table.md)
+For a table listing which loading mechanisms support various input form UI elements, see [Loading mechanisms for input form UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/loading-mechanisms-table.md)
 
 ## Examples for autofill variables and data sources
 
@@ -39,7 +39,7 @@ For a table listing which loading mechanisms support various input form UI eleme
 
 For more information, refer to the following topics:
 
--   [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-sources.md)
--   [Configure attributes for input form screen variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-variables.md)
--   [Configure auto-fill inputs on input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-autofil-inputs-nptfrmscrn.md)
+-   [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/data-sources.md)
+-   [Configure attributes for input form screen variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/param-screen-config-variables.md)
+-   [Configure auto-fill inputs on input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-autofil-inputs-nptfrmscrn.md)
 

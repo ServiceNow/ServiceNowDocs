@@ -2,7 +2,7 @@
 title: Linear Assets Support properties
 description: Linear assets support for Field Service Management uses the following system properties, which are located in the System Properties \[sys\_properties\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/linear-asset-support-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/linear-asset-support-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -77,5 +77,5 @@ Distance unit used on service location google maps-   Type: Choice list
 -   Default value: roadmap
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+</table>**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 

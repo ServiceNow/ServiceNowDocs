@@ -2,7 +2,7 @@
 title: Creating Notify activities
 description: Default Notify workflow generally performs a single action, such as initiating a phone call. You can create custom Notify workflow activities to implement more complex functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/c\_CreatingNotifyActivities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/c\_CreatingNotifyActivities.html
 release: australia
 product: Notify
 classification: notify
@@ -30,7 +30,7 @@ When creating a new Notify workflow activity, follow these design principles.
 -   Within the onUpdate event handler function, deserialize the NotifyAction object from the notify\_wf\_activity table and use this object to perform any other operations.
 -   Use the other event handler functions and the Notify as needed to implement the desired activity behavior.
 
-**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyActivities.md)
+**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifyActivities.md)
 
 **Related topics**  
 

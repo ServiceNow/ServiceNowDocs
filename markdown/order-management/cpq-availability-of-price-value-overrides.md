@@ -2,7 +2,7 @@
 title: Availability of price value overrides
 description: See which component types accept price-value overrides for zero-priced and null-priced items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-availability-of-price-value-overrides.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-availability-of-price-value-overrides.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

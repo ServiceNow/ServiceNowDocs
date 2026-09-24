@@ -2,7 +2,7 @@
 title: Run the Populate Agents Daily Schedule Table
 description: Trigger the Populate Agents Daily Schedule Table to run so dispatchers can see the changes that they made without having to wait for the nightly execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/run-agent-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/run-agent-schedule.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -40,7 +40,7 @@ By default the Populate Agents Daily Schedule Table runs once a day at midnight 
 **Related topics**  
 
 
-[Change the number of days that dispatchers can hide off shift agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/change-hide-off-shift.md)
+[Change the number of days that dispatchers can hide off shift agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/change-hide-off-shift.md)
 
-[Show or hide off shift agents from the calendar in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/hide-off-shift-agents.md)
+[Show or hide off shift agents from the calendar in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/hide-off-shift-agents.md)
 

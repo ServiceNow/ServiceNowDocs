@@ -2,7 +2,7 @@
 title: Quick start tests for Employee Center
 description: Validate the continued functionality of the Employee Center after any configuration change such as an upgrade or after developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

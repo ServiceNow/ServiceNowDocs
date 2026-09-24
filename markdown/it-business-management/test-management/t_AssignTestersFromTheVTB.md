@@ -2,7 +2,7 @@
 title: Assign testers from the Visual Task Board
 description: Assign the test case to a tester from the Visual Task Board \(VTB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_AssignTestersFromTheVTB.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/t\_AssignTestersFromTheVTB.html
 release: australia
 product: Test Management
 classification: test-management
@@ -41,5 +41,5 @@ Role required: tm\_test\_manager or tm\_tester
 7.  Close the card by clicking the close icon \(\[Omitted image "close-icon.png"\] Alt text: Close icon.\).
 
 
-**Parent Topic:**[Assigning testers to test cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/assigning-testers-to-test-cases.md)
+**Parent Topic:**[Assigning testers to test cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/test-management/assigning-testers-to-test-cases.md)
 

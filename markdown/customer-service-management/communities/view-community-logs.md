@@ -2,7 +2,7 @@
 title: View community logs
 description: Community logs display information about who has viewed or searched for content in a community. The list view displays all log entries, unless filtered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/view-community-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/view-community-logs.html
 release: australia
 product: Communities
 classification: communities
@@ -32,7 +32,7 @@ Role required: sn\_communities.admin
     |View Log|View who has viewed what and where in the community.|
 
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

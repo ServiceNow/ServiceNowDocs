@@ -2,7 +2,7 @@
 title: Marking definitions
 description: The marking definitions object represents a specific marking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/marking-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/marking-definitions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,10 +20,10 @@ For example, data may be shared with the restriction that it must not be reshare
 
 In STIX, data markings are specified using the marking definition object. These definitions are applied to STIX Objects using object markings and to individual properties of STIX Objects via granular markings.
 
--   **[Define marking definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-marking-definitions.md)**  
+-   **[Define marking definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/define-marking-definitions.md)**  
 Define marking definitions that represent a specific data marking.
 
-**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ioc-repository.md)
 
 **Related topics**  
 

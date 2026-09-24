@@ -2,7 +2,7 @@
 title: Request ITSM Roles - Request Management
 description: Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles — Request Management plugin \(com.snc.itsm.roles.request\_management\) to gain more control over the access that different service desk agents, technicians, and managers have within your Request Management process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/request-itsm-roles-rm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/request-management/request-itsm-roles-rm.html
 release: australia
 product: Request Management
 classification: request-management
@@ -136,8 +136,8 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with ITSM Roles — Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/req-mgmnt-roles-instld-itsm.md)**  
+-   **[Components installed with ITSM Roles — Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/req-mgmnt-roles-instld-itsm.md)**  
 Several user roles are installed with the activation of the ITSM Roles - Request Management plugin \(com.snc.itsm.roles.request\_management\).
 
-**Parent Topic:**[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-management-reference.md)
+**Parent Topic:**[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/request-management-reference.md)
 

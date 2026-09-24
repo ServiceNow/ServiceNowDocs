@@ -2,7 +2,7 @@
 title: Elevate your role in ServiceNow Studio
 description: Elevate your role to security\_admin in ServiceNow Studio to configure roles and access control lists \(ACLs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/elevate-your-role-in-servicenow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/elevate-your-role-in-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -37,5 +37,5 @@ Role required: admin, or another role that can be elevated.
 5.  Select **Update**.
 
 
-**Parent Topic:**[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)
+**Parent Topic:**[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)
 

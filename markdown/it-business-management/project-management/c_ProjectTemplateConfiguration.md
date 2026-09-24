@@ -2,7 +2,7 @@
 title: Project template configuration
 description: The Project Template Configuration list defines the items that are included in a template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_ProjectTemplateConfiguration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/c\_ProjectTemplateConfiguration.html
 release: australia
 product: Project Management
 classification: project-management
@@ -30,16 +30,16 @@ The Project Template Configuration list contains three default template configur
 |pm\_project\_task|Project task object|pm\_project|Parent. Because this task object is one level below the root level, it uses the parent table as a link element.|
 |pm\_project\_task|Project subtask object|pm\_project\_task|Parent. Because this subtask object is two levels below the root level, it uses the parent table as a link element.|
 
-Select an item in the Project Template Configuration list to open the project Template Configuration form. For more information, see [Project template configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-template-form.md).
+Select an item in the Project Template Configuration list to open the project Template Configuration form. For more information, see [Project template configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-template-form.md).
 
 \[Omitted image "ProjectTemplateConfigForm.png"\] Alt text: Project Template Configuration form
 
--   **[Add a project template configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_AddNewProjTempConfigItem.md)**  
+-   **[Add a project template configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_AddNewProjTempConfigItem.md)**  
 Add a project template configuration item to include in a template.
--   **[Modify a project template configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ModifAProjectTempConfigItem.md)**  
+-   **[Modify a project template configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ModifAProjectTempConfigItem.md)**  
 Modify a project template configuration item included in a template.
 
-**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
+**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTemplates.md)
 
 **Related topics**  
 

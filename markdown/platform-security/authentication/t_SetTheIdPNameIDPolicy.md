@@ -2,7 +2,7 @@
 title: Set the IdP NameID policy
 description: Specify what format the IdP uses for the NameID token.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SetTheIdPNameIDPolicy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_SetTheIdPNameIDPolicy.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,7 +2,7 @@
 title: Submit a catering request
 description: Raise a catering request service using either the Workplace Service Portal or the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/submit-a-catering-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/submit-a-catering-request.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -123,7 +123,7 @@ Select **Delivery** method of the catering service.
 
     **Note:** This option appears only if there is atleast one service item available for the specific location.
 
-    The availability of the service items is determined based on the service items notifications. For more information about adding a workplace service item to a workplace service, refer to [Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/add-workplace-service-items.md)
+    The availability of the service items is determined based on the service items notifications. For more information about adding a workplace service item to a workplace service, refer to [Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/add-workplace-service-items.md)
 
 6.  Click **Submit**.
 
@@ -134,9 +134,9 @@ The catering request is submitted.
 
 The state of the request changes to Awaiting approval for approval by the respective manager. After the request is approved, the state of the request changes to Work in progress. Depending on the progress of the background tasks that are assigned to fulfill the request, the state of the request further changes.
 
-For more information about blocking the workplace location for a reservation, refer to [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/block-workplace-location.md)
+For more information about blocking the workplace location for a reservation, refer to [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/block-workplace-location.md)
 
-**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

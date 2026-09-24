@@ -2,7 +2,7 @@
 title: RIDAC Change Request form
 description: Use the RIDAC Change Request form to document and track proposed changes to your strategic planning items, goals, or EAP iterations. Manage change requests and monitor implementation status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/ridac-change-request-form-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/ridac-change-request-form-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

@@ -2,7 +2,7 @@
 title: Delete a work order task
 description: Work order tasks can be deleted by users with the wm\_admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_DeleteAWorkOrderTask.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_DeleteAWorkOrderTask.html
 release: australia
 product: Work Order Management
 classification: work-order-management

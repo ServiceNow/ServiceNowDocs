@@ -2,7 +2,7 @@
 title: Transfer domain configuration with score aggregation
 description: To transfer between instances a Performance Analytics domain configuration that is set to aggregate scores, transfer both the configuration and the aggregation domain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/transfer-aggregation-domains.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/transfer-aggregation-domains.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -53,5 +53,5 @@ Role required: admin
 
 You can execute data collection jobs for the transferred domain.
 
-**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
+**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
 

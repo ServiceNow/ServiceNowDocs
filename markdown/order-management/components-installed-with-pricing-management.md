@@ -2,7 +2,7 @@
 title: Components installed with Pricing Management
 description: Several types of components are installed with activation of the Pricing Management plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-with-pricing-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/components-installed-with-pricing-management.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -140,5 +140,5 @@ Pricing Plan\[sn\_csm\_pricing\_pricing\_plan\]
 Stores the pricing steps used by the pricing engine to retrieve and calculate product pricing.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-cpq.md)
+</table>**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/reference-cpq.md)
 

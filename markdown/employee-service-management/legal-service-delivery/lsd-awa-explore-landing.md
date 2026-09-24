@@ -2,7 +2,7 @@
 title: Explore Advanced Work Assignment for Legal Service Delivery
 description: Use the ServiceNow Advanced Work Assignment for Legal Service Delivery feature to automatically assign legal to agents based on availability, capacity, and optionally skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-awa-explore-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-awa-explore-landing.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -47,9 +47,9 @@ For more information on the benefits of Advanced Work Assignment, see [Exploring
 
 To learn more about configuring and using Advanced Work Assignment for Legal Service Delivery, see:
 
--   [Configure Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-configure-landing.md)
--   [Use Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-use-landing.md)
--   [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md)
+-   [Configure Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-configure-landing.md)
+-   [Use Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-use-landing.md)
+-   [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md)
 
-**Parent Topic:**[Advanced work assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-landing.md)
+**Parent Topic:**[Advanced work assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-landing.md)
 

@@ -2,7 +2,7 @@
 title: Return Merchandise Authorization case end-to-end workflow
 description: The Return Merchandise Authorization \(RMA\) end-to-end process is structured into a four-stage playbook that provides structured guidance and oversight throughout each phase. The RMA case workflow initiates when a customer logs an issue for their products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/rma-case-end-to-end-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/rma-case-end-to-end-flow.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -53,6 +53,6 @@ Agent action:
 
 ## What to explore next
 
--   [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-return-merchandise-authorization-plugin.md)
--   [Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/return-merchandise-authorization-case-management-reference.md)
+-   [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activate-return-merchandise-authorization-plugin.md)
+-   [Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/return-merchandise-authorization-case-management-reference.md)
 

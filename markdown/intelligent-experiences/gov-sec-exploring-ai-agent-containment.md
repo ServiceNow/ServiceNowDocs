@@ -2,12 +2,12 @@
 title: AI agent containment using kill switch protocol manually
 description: Explore how detecting malicious activity and deactivating AI agents works to enforce guardrails and help improve your security posture.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-exploring-ai-agent-containment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-exploring-ai-agent-containment.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-21"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -33,7 +33,7 @@ Every containment action including the PEP-by-PEP confirmation, produces a compl
 
 ## Next steps
 
-To configure and use AI agent containment with kill switch protocol, see [Configure AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-ai-agent-containment.md) and [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
+To configure and use AI agent containment with kill switch protocol, see [Configure AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-ai-agent-containment.md) and [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
-**Parent Topic:**[Exploring security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-exploring.md)
+**Parent Topic:**[Exploring security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-exploring.md)
 

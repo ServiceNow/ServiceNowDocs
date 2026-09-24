@@ -2,7 +2,7 @@
 title: Import existing data from other systems
 description: Import existing data \(third parties, engagements, assessments, questionnaires, issues, and so on\) from other systems \(like the Aravo platform, the ProcessUnity platform, and so on\). You aren’t charged for importing the data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-historical-data-import.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-historical-data-import.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -44,5 +44,5 @@ An article on running transform maps appears at [https://developer.servicenow.co
 **Related topics**  
 
 
-[Import a questionnaire from a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/import-questions-from-excel.md)
+[Import a questionnaire from a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/import-questions-from-excel.md)
 

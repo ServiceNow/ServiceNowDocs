@@ -2,7 +2,7 @@
 title: Service Request Management template
 description: Build an application in App Engine Studio \(AES\) using the Service Request Management template to create, track, and manage service requests in your organization.The following tables, experiences, automated workflows, and roles are included in the Service Request Management template for App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/service-request-management-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/service-request-management-template.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -69,7 +69,7 @@ This template contains several important roles that correspond to individuals or
 
 For information about how to set up a service for your Service Request Management application, see [Service catalog setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/p_ServiceCatalogs.md).
 
-**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/template-library.md)
 
 ## Service Request Management template contents
 

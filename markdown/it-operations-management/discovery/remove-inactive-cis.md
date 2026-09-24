@@ -2,7 +2,7 @@
 title: Enable automatic retirement for inactive Kubernetes cluster CIs
 description: Enable automatic retirement to update the status of inactive Kubernetes cluster configuration items \(CIs\) and all associated resources during full discovery cycles, so your CMDB reflects only active infrastructure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/remove-inactive-cis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/remove-inactive-cis.html
 release: australia
 product: Discovery
 classification: discovery
@@ -58,5 +58,5 @@ Enable automatic retirement to update the status of inactive Kubernetes cluster 
 2.  To manage the lifecycle of retired CIs, see [https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.html](https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.html).
 
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-deploy-install.md)
 

@@ -2,7 +2,7 @@
 title: Create default content in a provider
 description: Create and use the default content for a notification that doesn't have a content provider or some of the fields in the content provider aren’t present.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-default-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-default-content.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ Role required: admin
     A new default content has been created.
 
 
-**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-provider-notification-using.md)
+**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-provider-notification-using.md)
 

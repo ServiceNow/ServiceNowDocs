@@ -2,7 +2,7 @@
 title: Impact Delivery Instance roles
 description: IDI offers roles to fit your business needs. When you log in to IDI, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/idi-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/idi-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-25"
@@ -70,9 +70,9 @@ Impact Admin
 -   Has full access to all IDI features.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-idi.md)
+</table>**Parent Topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-idi.md)
 
-**Previous topic:**[Manage Impact Delivery Instance users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/ide-user-management.md)
+**Previous topic:**[Manage Impact Delivery Instance users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/ide-user-management.md)
 
-**Next topic:**[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-activity-center/impact-activity-center.md)
+**Next topic:**[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-activity-center/impact-activity-center.md)
 

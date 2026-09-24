@@ -2,7 +2,7 @@
 title: Employee Journey Management
 description: Employee Journey Management integrates HR Service Delivery features and applications to enable employees, managers, and the organization to initiate and manage journeys to drive employee engagement and productivity. There are several applications, plugins, integrations, and features that are available for Employee Journey Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-journey-management/employee-journey-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-journey-management/employee-journey-management.html
 release: australia
 product: Employee Journey Management
 classification: employee-journey-management

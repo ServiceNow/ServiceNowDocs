@@ -2,7 +2,7 @@
 title: Activate Test Management 2.0
 description: Activate the Test Management 2.0 plugin \(com.snc.test\_management.2.0\) if you've the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/activate-test-management2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/activate-test-management2.html
 release: australia
 product: Test Management
 classification: test-management

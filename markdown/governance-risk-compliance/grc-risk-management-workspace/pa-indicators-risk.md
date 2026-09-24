@@ -2,7 +2,7 @@
 title: Monitor risks using GRC Performance Analytics Indicators
 description: You can link Risk Management risk statement and risks to Performance Analytics indicators, breakdowns and thresholds. You can associate Performance Analytics indicators with risk statements, and risks to view scorecards and trends and analyze current conditions and trends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -42,5 +42,5 @@ You can associate Performance Analytics indicators with risks and controls to an
 -   **[Update associated GRC indicators for a set of items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 You can update all the items belonging to a GRC content record so each item is individually related to the PA indicator.
 
-**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

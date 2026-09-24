@@ -2,7 +2,7 @@
 title: Integrate MSIM Conference Calls with Zoom
 description: The Conference Call Zoom integration enables you to manage and initiate a Zoom conference call directly from a major security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/integrate-msim-conf-calls-zoom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/integrate-msim-conf-calls-zoom.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -37,10 +37,10 @@ For more information, see [Request IntegrationHub](https://raw.githubusercontent
 
 To configure the MSIM Conference Call Zoom integration using the Notify communication channel, see [Configure Notify Zoom connector in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-notify-zoom-connector.md).
 
--   **[Use the MSIM Conference Call Zoom integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-conf-call-zoom-integration.md)**  
+-   **[Use the MSIM Conference Call Zoom integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-conf-call-zoom-integration.md)**  
 The following steps give you a walkthrough of how you can manage and initiate a Zoom conference call directly from a major security incident.
 
-**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
+**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-msim-conference-calls.md)
 
 **Related topics**  
 

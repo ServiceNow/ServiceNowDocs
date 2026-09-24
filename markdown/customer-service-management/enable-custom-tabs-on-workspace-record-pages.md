@@ -2,10 +2,10 @@
 title: Enable custom tabs on CSM workspace record page
 description: Enable custom tabs which appear after details tab, on CSM default Record page of CRM Workspace CSM configurable to get access to multiple list and form views for various sold product and product inventory entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-custom-tabs-on-workspace-record-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-custom-tabs-on-workspace-record-pages.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---

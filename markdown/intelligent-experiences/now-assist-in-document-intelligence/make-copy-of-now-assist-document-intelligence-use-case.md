@@ -2,7 +2,7 @@
 title: Make a copy of a use case in Now Assist in Document Intelligence
 description: Make a copy of a use case to save time when you need to create a new use case with a similar structure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/make-copy-of-now-assist-document-intelligence-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-in-document-intelligence/make-copy-of-now-assist-document-intelligence-use-case.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -52,9 +52,9 @@ The duplicated use case appears in the use cases list.
 
 Edit the new use case to make any necessary changes and test it to make sure it functions properly.
 
-For more information, see [Edit a use case in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/edit-now-assist-document-intelligence-use-case.md).
+For more information, see [Edit a use case in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/edit-now-assist-document-intelligence-use-case.md).
 
-**Parent Topic:**[Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
+**Parent Topic:**[Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
 
 **Related topics**  
 

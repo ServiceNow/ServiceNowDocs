@@ -2,7 +2,7 @@
 title: Easy import properties
 description: Several properties control the behavior of easy import.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/easy-import/easy-import-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/easy-import/easy-import-properties.html
 release: australia
 product: Easy Import
 classification: easy-import
@@ -38,5 +38,5 @@ Several properties control the behavior of easy import.
     -   Default value: table\_name, order\_index, collection, user\_image, video, timer, translated\_field, conditions, field\_name, sys\_class\_name, journal, journal\_input, due\_date, user\_input, image, workflow, template\_value, domain\_id, documentation\_field, user\_roles, glide\_list
     -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
-**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md)
+**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/easy-import/c_EasyImport.md)
 

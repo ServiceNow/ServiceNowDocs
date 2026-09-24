@@ -2,7 +2,7 @@
 title: Add or remove assets for a contract renewal
 description: Add or remove hardware or enterprise assets from the contract renewal process. You can also view the hardware or enterprise assets carried over to the new contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/select-hw-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/select-hw-asset.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -117,5 +117,5 @@ The Payment amount field in the Financial tab of the draft contract shows the to
 
 ## What to do next
 
-[Add or remove entitlements for a contract renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/select-sw-asset.md)
+[Add or remove entitlements for a contract renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/select-sw-asset.md)
 

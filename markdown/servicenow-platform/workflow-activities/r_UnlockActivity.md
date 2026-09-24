@@ -2,7 +2,7 @@
 title: Unlock workflow activity
 description: The Unlock activity releases a lock that was previously placed by the Lock activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/r\_UnlockActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/workflow-activities/r\_UnlockActivity.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

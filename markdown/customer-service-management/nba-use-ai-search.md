@@ -2,7 +2,7 @@
 title: Use AI search in Recommended Actions to resolve cases
 description: As an agent, use AI search in Recommended Actions to help address customer issues and resolve cases quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/nba-use-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/nba-use-ai-search.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,13 +41,13 @@ Role required: sn\_nb\_action.next\_best\_action\_user
     -   Share KB in chat interactions
     -   Case resolution guidance
     -   All no-code guidances \(Link incident to current case, Link problem to current case, and Link change request to current case\).
-    **Note:** The relevancy score displays only when the **Show relevancy score for results** check box is enabled in the Context form. For more information, see [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-contexts-create.md).
+    **Note:** The relevancy score displays only when the **Show relevancy score for results** check box is enabled in the Context form. For more information, see [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-contexts-create.md).
 
 7.  Select the **Filters** button, select a search source to filter the results and then select **Apply**.
 
     The number of search sources selected appear on the Filter button once you apply the filters. The following table shows the actions that you can perform on the search results in the Filters section in the Search tab.
 
-    **Note:** When top N results are enabled, the **Filters** button and the Sort icon does not appear. For more information, see [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-contexts-create.md).
+    **Note:** When top N results are enabled, the **Filters** button and the Sort icon does not appear. For more information, see [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-contexts-create.md).
 
 <table id="table_f2k_p3g_3hc"><thead><tr><th>
 
@@ -101,7 +101,7 @@ Removes all the applied filters, when you select the **Clear all** button.
 
 9.  Select the full view search icon to get a detailed view of the search results in the Search page.
 
-    **Note:** When top N results are enabled, the **Filters** button and the Sort icon does not appear on the Search page. For more information, see [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-contexts-create.md).
+    **Note:** When top N results are enabled, the **Filters** button and the Sort icon does not appear on the Search page. For more information, see [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-contexts-create.md).
 
     The following table shows the actions that you can perform on the search results on the Search page.
 

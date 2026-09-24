@@ -2,7 +2,7 @@
 title: Create an actionable push notification
 description: Create a push notification your users will see on their mobile devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/actionable-push-notification-1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/actionable-push-notification-1.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -80,5 +80,5 @@ Category of your notification. This field is visible only when the **Actionable*
     Your notification record is created. After saving, the **Push Action Instances** related list appears on the form.
 
 
-**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
+**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/actionable-push-notification.md)
 

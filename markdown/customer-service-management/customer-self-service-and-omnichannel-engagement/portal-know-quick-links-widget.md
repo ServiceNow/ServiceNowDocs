@@ -2,7 +2,7 @@
 title: Portal Knowledge Quick Links widget
 description: The Portal Knowledge Quick Links widget displays a list of relevant knowledge articles for quick access on the portal. The card displays article details such as the title, preview, author, view count, rating, and updated date in the widget.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-know-quick-links-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-know-quick-links-widget.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -18,5 +18,5 @@ The Portal Knowledge Quick Links widget displays a list of relevant knowledge ar
 
 \[Omitted image "portal-know-article-quick-links-widget.png"\] Alt text: Portal Knowledge Quick Links displaying knowledge articles.
 
-For more information, see [Add and configure the Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-know-quick-links-widget-inst-optns.md).
+For more information, see [Add and configure the Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-know-quick-links-widget-inst-optns.md).
 

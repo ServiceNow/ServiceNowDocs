@@ -2,7 +2,7 @@
 title: HR interaction wrap up
 description: Interaction wrap up provides HR agents with a brief wrap-up period at the end of customer conversations. HR agents can use this time to complete their work before moving on to assist other customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-interaction-wrapup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-interaction-wrapup.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

@@ -2,7 +2,7 @@
 title: Data sharing, processing, and security in AI Control Tower
 description: Explore the Data sharing, processing, and Security &amp; privacy sections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/data.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -27,7 +27,7 @@ By default, Data sharing is active. You can opt out to share your data with Serv
 
 Data sharing helps enhance ServiceNow products, but if you choose to opt out of the ServiceNow data sharing program, you’ll no longer be able to contribute data to improve ServiceNow AI products.
 
-For information on data sharing opt-out, see [Opt out of data sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+For information on data sharing opt-out, see [Opt out of data sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 ## Data overflow processing
 
@@ -73,7 +73,7 @@ By default, all ServiceNow Otto traffic is managed within ServiceNow datacenters
     -   **Output PII Violation** – Collect and show data in the AI agent output with PII detected chart. The data is collected by analyzing LLM output for potential PII sensitive data patterns specified in Data Privacy. For example, U.S. phone number or credit card number.
 -   **Sensitive data input and anonymization**
 
-    This section shows the data patterns enabled in Data Privacy to detect and anonymize information in LLM prompts. Use this view as a quick reference when troubleshooting Sensitive data detected and Sensitive data anonymized charts. This feature requires the Data privacy plugin to be installed. For more information on how the data is sent and stored, see [User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/user-data-usage-policy-now-assist.md).
+    This section shows the data patterns enabled in Data Privacy to detect and anonymize information in LLM prompts. Use this view as a quick reference when troubleshooting Sensitive data detected and Sensitive data anonymized charts. This feature requires the Data privacy plugin to be installed. For more information on how the data is sent and stored, see [User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/user-data-usage-policy-now-assist.md).
 
 -   **Score weight**
 

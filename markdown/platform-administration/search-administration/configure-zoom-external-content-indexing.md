@@ -2,14 +2,14 @@
 title: Configure Zoom for external content indexing
 description: Create and activate a Server-to-Server OAuth app in the Zoom App Marketplace to allow the Zoom external content connector to access your Zoom source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-zoom-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-zoom-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Zoom external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -125,13 +125,13 @@ To allow the connector to access your Zoom source system via the Zoom APIs, you 
 
 Provide the following items to your connector administrator:
 
--   The account ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-zoom-external-content-indexing.md).
--   The client ID that you copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-zoom-external-content-indexing.md).
--   The client secret that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-zoom-external-content-indexing.md).
+-   The account ID that you copied in step [2.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-zoom-external-content-indexing.md).
+-   The client ID that you copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-zoom-external-content-indexing.md).
+-   The client secret that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-zoom-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a Zoom external content connector to retrieve meetings, webinars, and security principals from your Zoom source system.
 
-For details on creating and configuring a Zoom external content connector, see [Create a Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-zoom.md).
+For details on creating and configuring a Zoom external content connector, see [Create a Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-zoom.md).
 
-**Parent Topic:**[Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zoom-external-content-connector.md)
+**Parent Topic:**[Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/zoom-external-content-connector.md)
 

@@ -2,7 +2,7 @@
 title: Service Model Foundation cases
 description: Location agents and location consumer agents at a business organization \(formerly business location\) can create cases for accounts, contacts, consumers, and households.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/industry-data-model-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/industry-data-model-cases.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up y
 
 Location agents and location consumer agents at a business organization \(formerly business location\) can create cases for accounts, contacts, consumers, and households.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 Staff members with the location agent or location consumer agent role can do the following:
 
@@ -45,7 +45,7 @@ Cases for a business organization are added to the Cases related list on the int
 -   When a case is created, the service organization on the case is the service organization of the user who creates the case.
 -   When a case is assigned to an agent, the service organization on the case is updated to the service organization of the assigned agent.
 
-**Note:** Only external staff with the location agent can act as fulfillers. For more information, see [External Organization as a fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ebl-as-a-fulfiller.md).
+**Note:** Only external staff with the location agent can act as fulfillers. For more information, see [External Organization as a fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ebl-as-a-fulfiller.md).
 
 |Consumer type|Case access|
 |-------------|-----------|

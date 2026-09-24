@@ -2,7 +2,7 @@
 title: Select queues from keypad, directory, and Interaction record
 description: This procedure describes how to select a queue and place outbound calls using the Global Call keypad and phone directory in the CCaaS platform. It covers both standard and mandatory queue selection scenarios.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/select-queue-for-outbound-calls-from-keypad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/select-queue-for-outbound-calls-from-keypad.html
 release: australia
 topic_type: task
 last_updated: "2026-01-02"

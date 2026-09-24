@@ -2,7 +2,7 @@
 title: Create a capability profile
 description: Create a profile and select the CrowdStrike Falcon Insight capabilities that you want the profile to run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-a-capability-profile-for-the-crowdstrike-falcon-insight-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-a-capability-profile-for-the-crowdstrike-falcon-insight-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -158,5 +158,5 @@ Capabilities of the CrowdStrike Falcon Insight profile.Select the capabilities t
 
 ## What to do next
 
-Now you can [configure your profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-profiles-and-security-incidents-for-the-crowdstrike-falcon-insight-integration.md). Verify that you have [reviewed the concepts for configuring profiles and trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/define-trigger-conditions.md) before you configure the profile.
+Now you can [configure your profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-profiles-and-security-incidents-for-the-crowdstrike-falcon-insight-integration.md). Verify that you have [reviewed the concepts for configuring profiles and trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/define-trigger-conditions.md) before you configure the profile.
 

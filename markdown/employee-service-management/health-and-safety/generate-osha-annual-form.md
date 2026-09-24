@@ -2,7 +2,7 @@
 title: Generate an annual OSHA 300 Log or 300A Summary form
 description: Generate an annual 300 Log or 300A Summary OSHA form for all OSHA recordable injuries and illnesses that happened in an establishment between January 1 and December 31 of a calendar year.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/generate-osha-annual-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/generate-osha-annual-form.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -75,7 +75,7 @@ Establishment
 
 Establishment to generate the form for.The form includes all OSHA recordable injuries and illnesses that happened in the selected establishment.
 
-**Note:** In OSHA 300A form, the total hours worked by employees are auto-filled from the establishment's annual information. However, when the total hours information is not available for the selected year for this establishment, the system uses the default value from the Total hours worked system property in the report. For more information, see [Manage the list of establishments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/manage-establishment-list.md).
+**Note:** In OSHA 300A form, the total hours worked by employees are auto-filled from the establishment's annual information. However, when the total hours information is not available for the selected year for this establishment, the system uses the default value from the Total hours worked system property in the report. For more information, see [Manage the list of establishments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/manage-establishment-list.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Calendar year to generate the form for.The form includes all OSHA recordable inj
 
 ## What to do next
 
-You can view the saved OSHA form by navigating to the **Establishments** list. For more information, see [View a saved OSHA 300 and 300A form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/view-osha-annual-forms.md).
+You can view the saved OSHA form by navigating to the **Establishments** list. For more information, see [View a saved OSHA 300 and 300A form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/view-osha-annual-forms.md).
 
-**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/generating-osha-forms.md)
+**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/generating-osha-forms.md)
 

@@ -2,7 +2,7 @@
 title: Run a scheduled job to populate Technology Lifecycle Management lifecycle record identifier
 description: Run the Populate Number field in TPM Discovered Technologies job to populate missing Technology Lifecycle Management \(TLM\) lifecycle record identifiers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,14 +49,14 @@ On selecting a TLM lifecycle record identifier, more information on the TLM life
 
 The missing TLM lifecycle record identifiers are generated for the older TLM lifecycle records.
 
-**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
+**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-tpm.md)
 
 **Related topics**  
 
 
-[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
+[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-install-tpm.md)
 
-[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm.md)
+[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-tpm.md)
 
-[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md)
+[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/update-tpm-data.md)
 

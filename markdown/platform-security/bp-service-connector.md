@@ -2,7 +2,7 @@
 title: Service provider connector
 description: The service provider connector application is a reference design for creating a ServiceNow Store application for your customers to use to integrate with your systems. Service provider applications help you speed on-boarding and create standardized integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-service-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-service-connector.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -136,7 +136,7 @@ Global Work Queue \(Virtual\)
 
 When task federation is the goal, and storing data externally is not acceptable:-   Used where agents are working across multiple ServiceNow instances and need to see all open work assigned to them
 -   Rows returned should be limited to less than 1000
--   To learn more, see [Global work queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/global-queue.md)
+-   To learn more, see [Global work queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/global-queue.md)
 
 </td></tr><tr><td>
 
@@ -159,5 +159,5 @@ When process design is the goal-   Used for automating processes in a single des
 </td></tr></tbody>
 </table>Learn more about the [Service Connector proof of concept](https://support.servicenow.com/kb_view.do?sysparm_article=KB0817720) on the ServiceNow Knowledge site.
 
-**Parent Topic:**[Concepts for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sp-concepts.md)
+**Parent Topic:**[Concepts for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/sp-concepts.md)
 

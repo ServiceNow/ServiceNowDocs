@@ -2,7 +2,7 @@
 title: Customize canvas widgets
 description: Add, resize, and arrange widgets on your canvas to create a personalized workspace that fits your daily work requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-customize-canvas-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-customize-canvas-widgets.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

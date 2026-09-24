@@ -2,12 +2,12 @@
 title: Add or modify quick filters
 description: Add or modify quick filters for security incidents or response tasks within the list view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add\_quick\_filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/add\_quick\_filters.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Working with quick filters, List view in SIR Workspace, Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -39,5 +39,5 @@ Role required: sn\_si.basic
 5.  Select **Save**.
 
 
-**Parent Topic:**[Working with quick filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-quick-filters.md)
+**Parent Topic:**[Working with quick filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-quick-filters.md)
 

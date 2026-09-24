@@ -32,7 +32,7 @@ If the generated NDA document doesn’t require any changes, the requester can s
 
 A sample workflow for a non-disclosure agreement \(NDA\) contract request might progress as follows:
 
-1.  Legal configurator sets up the foundation data for submitting an NDA request. For more information, see [Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md).
+1.  Legal configurator sets up the foundation data for submitting an NDA request. For more information, see [Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md).
 2.  Legal requester fills out the NDA intake request form.
 3.  A contract request is initiated.
 4.  Contract document is generated from a contract template and content is added dynamically per predefined conditions.

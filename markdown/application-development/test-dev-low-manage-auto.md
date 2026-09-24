@@ -2,7 +2,7 @@
 title: Automate apps with low-code tools
 description: Automate your ServiceNow apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-low-manage-auto.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-dev-low-manage-auto.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

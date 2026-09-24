@@ -2,7 +2,7 @@
 title: Map breach assessment data to RadarFirst data elements and risk factors
 description: Map the data elements and breach factors linked to the breach assessment regions in your instance to RadarFirst.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/initiate-data-mapping-rf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/initiate-data-mapping-rf.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -20,7 +20,7 @@ Map the data elements and breach factors linked to the breach assessment regions
 
 Role required: sn\_privacy.admin or sn\_privacy\_case.privacy\_case\_admin
 
-Map the regions in your instance with those of RadarFirst to proceed. For steps, see [Map regions and jurisdictions to RadarFirst regions and jurisdictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/map-regions-to-rf.md).
+Map the regions in your instance with those of RadarFirst to proceed. For steps, see [Map regions and jurisdictions to RadarFirst regions and jurisdictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/map-regions-to-rf.md).
 
 ## About this task
 
@@ -56,5 +56,5 @@ RadarFirst data import brings in data elements and risk factors that you must ma
 
 ## Result
 
-With integration complete, a privacy analyst can initiate a RadarFirst analysis on a breach assessment to get a detailed report comprising regional regulatory guidance. For details, see [Perform RadarFirst analysis on a privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/submit-breach-review.md).
+With integration complete, a privacy analyst can initiate a RadarFirst analysis on a breach assessment to get a detailed report comprising regional regulatory guidance. For details, see [Perform RadarFirst analysis on a privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/submit-breach-review.md).
 

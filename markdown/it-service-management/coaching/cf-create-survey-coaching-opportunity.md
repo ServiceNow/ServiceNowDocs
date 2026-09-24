@@ -2,7 +2,7 @@
 title: Create a survey and associate with a Coaching opportunity
 description: Create a survey for coaches or trainees to assess the training quality. Add a question bank to the survey. Associate the survey with a coaching opportunity to provide feedback when the coach completes the coaching assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-create-survey-coaching-opportunity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/coaching/cf-create-survey-coaching-opportunity.html
 release: australia
 product: Coaching
 classification: coaching
@@ -80,8 +80,8 @@ Role required: sn\_coaching.admin
 
         -   To add a survey to be taken by the coach, in the **Survey taken by Coach** field, using the search icon select the survey.
         -   To add a survey to be taken by the trainee, in the **Survey taken by Trainee** field, using the search icon select the survey.
-        For more information on the coaching opportunities, see [Define trigger conditions for a coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-create-coaching-opportunity.md).
+        For more information on the coaching opportunities, see [Define trigger conditions for a coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-create-coaching-opportunity.md).
 
 
-**Parent Topic:**[Setting up Coaching and surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-setting-up-coaching.md)
+**Parent Topic:**[Setting up Coaching and surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-setting-up-coaching.md)
 

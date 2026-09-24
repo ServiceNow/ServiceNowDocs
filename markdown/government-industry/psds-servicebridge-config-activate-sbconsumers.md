@@ -2,7 +2,7 @@
 title: Configuring Service Exchange for Consumers for Public Sector Digital Services
 description: You can do the following configuration tasks to customize your Service Bridge for consumers instance, the Government Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-config-activate-sbconsumers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-servicebridge-config-activate-sbconsumers.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,5 +17,5 @@ You can do the following configuration tasks to customize your Service Bridge fo
 **Related topics**  
 
 
-[Activate remote catalog item entitlements for Service Exchange Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-servicebridge-config-activate-entitlements.md)
+[Activate remote catalog item entitlements for Service Exchange Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-servicebridge-config-activate-entitlements.md)
 

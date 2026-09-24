@@ -2,7 +2,7 @@
 title: Troubleshooting for Conversation Improvement Themes
 description: Troubleshooting steps for errors that might occur in Conversation Improvement Themes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/conv-impr-themes-ts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/conv-impr-themes-ts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Associated Error Codes/Warning: N/A.
 
 Steps to Resolve:
 
-Make sure all the skills and scheduled jobs are active by following the steps given in [Activating Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conv-impr-themes-activate.md).
+Make sure all the skills and scheduled jobs are active by following the steps given in [Activating Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/conv-impr-themes-activate.md).
 
 **Scenario/Symptom: Execution staging records are stuck on Processing/Failed.**
 
@@ -71,5 +71,5 @@ If no Gen AI logs are created, check the Outbound HTTP logs for any issues exist
 
 Sys Logs: Check sys logs for any errors related to passing with scope as sn\_na\_thematic.
 
-**Parent Topic:**[Reference for Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conv-impr-themes-reference.md)
+**Parent Topic:**[Reference for Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/conv-impr-themes-reference.md)
 

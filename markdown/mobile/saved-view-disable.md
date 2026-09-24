@@ -2,7 +2,7 @@
 title: Disable saved views
 description: Disable the saved views feature for some or all of your mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/saved-view-disable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/saved-view-disable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

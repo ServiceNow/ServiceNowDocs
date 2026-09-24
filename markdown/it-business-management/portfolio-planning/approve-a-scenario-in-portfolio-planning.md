@@ -2,7 +2,7 @@
 title: Approve a scenario
 description: Approve a scenario that aligns with your organizational goals and offers the best business outcomes to make the scenario your current plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +18,7 @@ Approve a scenario that aligns with your organizational goals and offers the bes
 
 ## Before you begin
 
-Ensure that you have compared the scenarios and selected the one you want to approve. For more information, see [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md).
+Ensure that you have compared the scenarios and selected the one you want to approve. For more information, see [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md).
 
 Role required:
 

@@ -2,7 +2,7 @@
 title: Respond to an email resolution notification
 description: When you receive an email resolution notification for your Accounts Payable Operations case, use the action buttons to accept or reject the resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/respond-to-email-resolution-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/respond-to-email-resolution-notification.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -58,10 +58,10 @@ In either case, your response is processed automatically, and you don't take any
 
 Monitor your email for follow-up communications from the Accounts Payable Operations team. If you selected "No, I need more help," the team will continue working on your case and send you updates as progress is made.
 
-**Parent Topic:**[Email resolution notifications for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/email-resolution-notifications-for-apo.md)
+**Parent Topic:**[Email resolution notifications for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/email-resolution-notifications-for-apo.md)
 
 **Related topics**  
 
 
-[Email resolution notifications for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/email-resolution-notifications-for-apo.md)
+[Email resolution notifications for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/email-resolution-notifications-for-apo.md)
 

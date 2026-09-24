@@ -2,7 +2,7 @@
 title: Employee engagement experience through Proactive Engagement
 description: This experience details the employee engagement through the Proactive Engagement application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/employee-engagement-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/proactive-engagement/employee-engagement-experience.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -20,5 +20,5 @@ Every Proactive Engagement trigger creates an experience issue record. When the 
 
 \[Omitted image "empengpe.png"\] Alt text: Employee engagement experience
 
-**Parent Topic:**[Using Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/using-proactive-engagement.md)
+**Parent Topic:**[Using Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/using-proactive-engagement.md)
 

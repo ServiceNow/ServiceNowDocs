@@ -2,7 +2,7 @@
 title: Definition of domain separation
 description: With domain separation \(also known as the ServiceNow Multitenant Platform Architecture\), you can segregate application data, UI, and business logic in a single customer instance that supports hierarchical modeling with cross-tenant \(customer\) intelligence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-dom-sep-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-dom-sep-definition.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Domain-separated ServiceNow applications are defined with the following properti
     Handles automatically the data, metadata, business logic, and processing context for tenants that have access to additional tenant data.
 
 
-**Parent Topic:**[Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md)
+**Parent Topic:**[Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-what-is-domain-separation.md)
 

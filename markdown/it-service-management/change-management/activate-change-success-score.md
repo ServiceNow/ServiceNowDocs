@@ -2,7 +2,7 @@
 title: Activate Change Management - Change Success Score
 description: You can activate the Change Management - Change Success Score \(com.snc.change\_management.change\_success\_score\) plugin if you have the admin role. This plugin activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-change-success-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-change-success-score.html
 release: australia
 product: Change Management
 classification: change-management
@@ -56,10 +56,10 @@ Adds the Change Success Score icon to the change form, loads default rating reco
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Change Management - Change Success Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-change-success-score.md)**  
+-   **[Components installed with Change Management - Change Success Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-change-success-score.md)**  
 Several types of components are installed with activation of the Change Management - Change Success Score \(com.snc.change\_management.change\_success\_score\) plugin, including tables and scheduled jobs.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

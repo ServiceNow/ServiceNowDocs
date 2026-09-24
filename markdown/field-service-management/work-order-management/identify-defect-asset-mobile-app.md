@@ -2,7 +2,7 @@
 title: Analyze all work orders for a selected asset
 description: Scan an asset to view its work history and upcoming work orders. You can also create a work order for an asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/identify-defect-asset-mobile-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/identify-defect-asset-mobile-app.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -64,7 +64,7 @@ Do the following:
 2.  Tap **Short description**.
 3.  Enter a short description for the work order and click **Done**.
 4.  Click **Submit**.
- The work order gets qualified automatically if it requires qualification; if not, the work order state changes to **Ready to dispatch**. For more information, see [Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_QualifyWorkOrders.md).
+ The work order gets qualified automatically if it requires qualification; if not, the work order state changes to **Ready to dispatch**. For more information, see [Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/c_QualifyWorkOrders.md).
 
 </td></tr></tbody>
 </table>

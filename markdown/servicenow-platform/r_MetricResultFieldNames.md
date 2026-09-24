@@ -2,7 +2,7 @@
 title: Metric Result form
 description: Description of the field values for the Metric Result form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_MetricResultFieldNames.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_MetricResultFieldNames.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -106,7 +106,7 @@ Normalized value
 
 </td><td>
 
-Adjusted value that accounts for the **Scale definition** setting, minimum and maximum values, and other factors. The equation that generates the value and an example calculation appear in [Normalized value for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/example-normalized-value-calc.md).
+Adjusted value that accounts for the **Scale definition** setting, minimum and maximum values, and other factors. The equation that generates the value and an example calculation appear in [Normalized value for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/example-normalized-value-calc.md).
 
 </td></tr><tr><td>
 
@@ -117,8 +117,8 @@ String value
 Value that displays the response as it appears on a questionnaire. In some cases this is the same as the **Actual value**, such as when the question data type is **Percentage**. The string value is `N/A` for unanswered questions of certain data types.
 
 </td></tr></tbody>
-</table>-   **[Normalized value for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/example-normalized-value-calc.md)**  
+</table>-   **[Normalized value for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/example-normalized-value-calc.md)**  
 The normalized value is calculated based on a linear equation and the scale definition of the metric. This value can be used for risk assessment.
 
-**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/survey-reference.md)
 

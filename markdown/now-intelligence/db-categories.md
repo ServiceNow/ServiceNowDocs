@@ -2,7 +2,7 @@
 title: Platform Analytics experience dashboard categories
 description: Dashboard categories enable searching and filtering dashboards using general terms assigned to multiple dashboards.Dashboard categories users to filter the dashboards in the dashboard overview on terms or phrases describing the dashboard as provided by its creator or the analytics\_categories\_admin.Categories enable users to filter dashboards in the Dashboard library. You can assign one or more categories to each dashboard
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/db-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/db-categories.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Dashboard categories enable searching and filtering dashboards using general ter
 
 **Note:** Core UI dashboard groups are migrated into categories.
 
-Users with the platform\_analytics\_admin or analytics\_categories\_admin can create, edit, and remove dashboard [categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-glossary.md). Users can then apply one or more categories to dashboards they create and can filter the dashboards in the Dashboards library by category.
+Users with the platform\_analytics\_admin or analytics\_categories\_admin can create, edit, and remove dashboard [categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md). Users can then apply one or more categories to dashboards they create and can filter the dashboards in the Dashboards library by category.
 
 When there are enough categories, you can search for categories in the dashboard overview. Otherwise, all categories that have been assigned to dashboards are visible under **Filter by categories**. Categories that have not been assigned in the dashboard's Information panel do not appear in the overview.
 

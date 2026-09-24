@@ -2,7 +2,7 @@
 title: Business units
 description: Business units are parts of your organization that are in charge of certain operations, such as Finance, HR, IT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/c\_BusinessUnits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/c\_BusinessUnits.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

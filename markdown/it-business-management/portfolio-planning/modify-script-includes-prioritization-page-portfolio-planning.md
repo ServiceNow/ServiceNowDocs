@@ -2,7 +2,7 @@
 title: Modify Script Includes for Prioritization page in Portfolio Planning
 description: Modify the Script Includes for Prioritization and Hierarchy views of the Planning page to change the columns to be highlighted in these views in the workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/modify-script-includes-prioritization-page-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/modify-script-includes-prioritization-page-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -152,7 +152,7 @@ The Priority column is now highlighted in the Prioritization Hierarchy view. Dur
 </table>
 ## What to do next
 
-[Create highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)
+[Create highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)
 
-**Parent Topic:**[Highlighted fields on the Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
+**Parent Topic:**[Highlighted fields on the Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
 

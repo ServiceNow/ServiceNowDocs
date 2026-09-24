@@ -2,7 +2,7 @@
 title: Business process activity form
 description: Fields for creating and configuring business process activities that represent discrete units of work in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-a-business-process-activity-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-a-business-process-activity-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-03"
@@ -23,12 +23,12 @@ Fields for creating and configuring business process activities that represent d
 |Owned by|User who owns the business process activity.|
 |Managed by group|Group that manages the business process activity.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Manage business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-process-activities.md)
+[Manage business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-business-process-activities.md)
 
-[Add or edit a business process activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-business-process-activity.md)
+[Add or edit a business process activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-or-edit-a-business-process-activity.md)
 

@@ -2,7 +2,7 @@
 title: PDAutomationProvider - Scoped, Global
 description: The PDAutomationProvider API enables inserting an optional activity into a process while it's executing.Activates a playbook.Adds a specified optional activity to a process to be run relative to another activity during process execution.Assigns an optional activity to a lane to run during that lane's execution context.Deactivates a playbook.Duplicates a playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PDAutomationProviderBothAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/PDAutomationProviderBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -34,7 +34,7 @@ See also:
 -   [Design an automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/design-automated-process.md)
 -   [Process Automation Designer lanes and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-lanes-activities.md)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## PDAutomationProvider – activateProcess\(String processDefinitionSysId\)
 

@@ -2,7 +2,7 @@
 title: FinancialsWidgetUtil - Scoped
 description: The FinancialsWidgetUtil script include provides methods to customize widgets in the Financials section of Project Workspace and Strategic Planning Workspace.Instantiates a FinancialsWidgetUtil object.Returns the actual cost for any planning items and work items linked to an investment.Returns the budget for any planning items and work items linked to an investment.Returns the estimate at completion \(EAC\) value for any planning items and work items linked to an investment.Returns the planned cost for any planning items and work items linked to an investment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/FinancialsWidgetUtilScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/FinancialsWidgetUtilScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -33,7 +33,7 @@ To use this script include, [create a child widget](https://raw.githubuserconten
 
 The FinancialsWidgetUtil script include requires the Financials Core application \(sn\_invst\_pln\), as well as the Strategic Planning application \(sn\_apw\_advanced\) or Project Workspace application \(sn\_pw\). This script include is provided within the `sn_invst_pln` namespace.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## FinancialsWidgetUtil - FinancialsWidgetUtil\(GlideRecord investmentGr, Object timeScope, String expenseType\)
 
@@ -59,7 +59,7 @@ investmentGr
 
 </td><td>
 
-[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 </td><td>
 

@@ -2,12 +2,12 @@
 title: Create pre-provisioning operations
 description: Pre-provisioning operations streamline catalog item deployment by automating tasks like notifications, workflows, or scripts before provisioning. Configuring these operations eliminates manual steps and saves time. The system automatically executes specified actions when a provisioning request is submitted, such as notifying users about the impending item provisioning process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-pre-provisioning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-pre-provisioning.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -92,7 +92,7 @@ Option for enabling the pre-provision operation you want invoked.
 
 6.  Either create expression mappings for an attribute \(in the **Mapping** field\) or generate variables for an attribute.
 
-    See [Manage operation attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/manage-attributes.md) for more information.
+    See [Manage operation attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/manage-attributes.md) for more information.
 
 7.  Click **Apply Changes**.
 

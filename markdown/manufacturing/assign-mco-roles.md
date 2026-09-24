@@ -2,7 +2,7 @@
 title: Assigning roles in Manufacturing Commercial Operations
 description: Assign roles to control access to features, capabilities, and data in the Manufacturing Commercial Operations Core application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/assign-mco-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/assign-mco-roles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -381,11 +381,11 @@ Create, view, update, and cancel a non-conformance case. Create a correction act
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
-    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+    -   To assign a role to a user, see Assign a role to a user.
+    -   To assign a role to a group, see Assign a role to a group.
 
 **Related topics**  
 
 
-[Set up Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-setup.md)
+[Set up Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-setup.md)
 

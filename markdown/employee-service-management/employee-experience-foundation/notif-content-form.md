@@ -2,7 +2,7 @@
 title: Portal notification content form
 description: The field descriptions provided here are required to configure your portal notification messages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/notif-content-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/notif-content-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -137,7 +137,7 @@ Icon Configuration
 Icon background: Background colors for the notification icons.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

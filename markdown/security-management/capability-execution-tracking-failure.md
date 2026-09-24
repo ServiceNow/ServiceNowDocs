@@ -2,7 +2,7 @@
 title: Legacy: Capability Execution Tracking- Failure Flow Action
 description: The Capability Execution Tracking - Failure flow action records a failure to the audit record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/capability-execution-tracking-failure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/capability-execution-tracking-failure.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ Input variables determine the initial behavior of the flow action.
 
 There are no output variables.
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md)
 

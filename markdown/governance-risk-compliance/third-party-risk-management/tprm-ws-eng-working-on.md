@@ -2,7 +2,7 @@
 title: Get an overview of an engagement
 description: Use the engagement page to access all current information and status for an engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-eng-working-on.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-eng-working-on.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -33,11 +33,11 @@ On most reports, you can select an item to view the underlying data.
 
 -   **Risk overview tab**
 
-    The Risk overview tab displays engagement name and process information, risk intelligence scores, summary reports, and tracking data for issues and tasks. See [Viewing summarized risk information for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-eng-risk-overview.md).
+    The Risk overview tab displays engagement name and process information, risk intelligence scores, summary reports, and tracking data for issues and tasks. See [Viewing summarized risk information for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-eng-risk-overview.md).
 
 -   **Details tab**
 
-    The **Details** tab displays overview and process tracking information and offers actions for managing the third party or engagement. See [Viewing general information on a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-details.md)
+    The **Details** tab displays overview and process tracking information and offers actions for managing the third party or engagement. See [Viewing general information on a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-details.md)
 
 
 **Note:** When you select the More tab, you can view additional tabs that will show other types of relevant information such as, associated assessments, issues, tasks, risk components, entity types, and more.

@@ -2,7 +2,7 @@
 title: Create a CoPQ planned line charge
 description: Create a CoPQ planned line charge for CoPQ financial request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-copq-planned-line-charge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-copq-planned-line-charge.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: admin
 
 3.  On the CoPQ Planned Line Charge form, fill in the fields.
 
-    For a description of the field values, see [CoPQ planned line charge form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-copq-planned-line-charge-form.md).
+    For a description of the field values, see [CoPQ planned line charge form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-copq-planned-line-charge-form.md).
 
 4.  Select **Save**.
 
@@ -34,5 +34,5 @@ Role required: admin
 **Related topics**  
 
 
-[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-copq-expense-line.md)
+[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-copq-expense-line.md)
 

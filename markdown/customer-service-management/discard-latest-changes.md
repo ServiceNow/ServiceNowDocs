@@ -2,7 +2,7 @@
 title: Revert to the previous activated decision tree version
 description: Discard any changes in a non-activated decision tree and revert the decision tree to the last activated version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/discard-latest-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/discard-latest-changes.html
 release: australia
 topic_type: task
 last_updated: "2026-06-25"

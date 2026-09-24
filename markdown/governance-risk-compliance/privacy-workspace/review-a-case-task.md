@@ -2,7 +2,7 @@
 title: Review and close a case task
 description: Review a case task after a case task owner provides their responses and observations for the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/review-a-case-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/review-a-case-task.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -82,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/accept-a-case-task.md)
+**Parent Topic:**[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/accept-a-case-task.md)
 

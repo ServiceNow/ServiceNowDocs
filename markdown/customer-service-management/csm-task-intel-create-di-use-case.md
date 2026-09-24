@@ -2,7 +2,7 @@
 title: Create a Document Intelligence use case
 description: Create a use case that identifies the information to extract from email and case attachments and determines how users with CSM agent roles interact with the extracted values in the Document Intelligence workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-create-di-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-task-intel-create-di-use-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Create a use case that identifies the information to extract from email and case
 
     -   Activate Task Intelligence for Customer Service \(com.snc.csm\_ml\_task\).
     -   Activate Document Intelligence Admin \(com.snc.docintel\_admin\).
-    For more information, see [Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-doc-intel-configuring-.md).
+    For more information, see [Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-doc-intel-configuring-.md).
 
 
 ## Access the DocIntel Admin experience
@@ -44,7 +44,7 @@ Create a use case that identifies the information to extract from email and case
 
 ## Create a use case
 
-Create a use case to identify a document or set of documents to be processed together in Document Intelligence. With Document Intelligence for Customer Service, the [Use Cases list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-document-intelligence.md) in the DocIntel Admin experience uses a default filter with an OR condition to show use cases for:
+Create a use case to identify a document or set of documents to be processed together in Document Intelligence. With Document Intelligence for Customer Service, the [Use Cases list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-document-intelligence.md) in the DocIntel Admin experience uses a default filter with an OR condition to show use cases for:
 
 -   Application = Task Intelligence for Customer service -or-
 -   MLUC ID = MLUC CSM-00003

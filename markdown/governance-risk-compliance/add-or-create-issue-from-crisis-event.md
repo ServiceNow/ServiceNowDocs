@@ -2,7 +2,7 @@
 title: Add or create an issue from a crisis event
 description: Add an existing issue or create an issue to track problems identified during a crisis event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-or-create-issue-from-crisis-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-or-create-issue-from-crisis-event.html
 release: australia
 topic_type: task
 last_updated: "2026-08-23"
@@ -18,7 +18,7 @@ Add an existing issue or create an issue to track problems identified during a c
 
 Role required: sn\_recovery.event\_manager, sn\_recovery.event\_user, sn\_bcm.program\_manager
 
-The **Issues** related list appears on a crisis event record when GRC: Profiles is installed. For more information, see [Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/managing-issues-in-bcm.md).
+The **Issues** related list appears on a crisis event record when GRC: Profiles is installed. For more information, see [Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/managing-issues-in-bcm.md).
 
 ## Procedure
 
@@ -87,5 +87,5 @@ The issue association is removed from the event; the issue record isn't deleted 
     \[Omitted image "issues-section-in-pdf-events.png"\] Alt text: Issues section in the PDF.
 
 
-**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

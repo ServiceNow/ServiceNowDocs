@@ -2,10 +2,10 @@
 title: Add integration
 description: Connect a use case to a workflow by adding an integration. Integrations automate document task creation or value extraction based on triggers in the target table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-integration.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Set up a use case, Information Extraction skill, Configure, Content Understanding, Enable AI experiences]
 ---
@@ -49,5 +49,5 @@ Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_d
 
 ## What to do next
 
-[Review and activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-and-activate.md)
+[Review and activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-and-activate.md)
 

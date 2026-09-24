@@ -2,7 +2,7 @@
 title: Create or modify a Walk-up Experience customer satisfaction survey
 description: Improve your Walk-up Experience operations and customer service by using surveys and monitoring survey results. Walk-up surveys capture important information from users about the interaction experience provided to them at the venue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/configure-walkup-csat-survey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/configure-walkup-csat-survey.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -33,5 +33,5 @@ Creating a new customer satisfaction survey requires that you first define a new
 3.  To modify or complete the form, refer to [Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifySurveyDefinitions.md).
 
 
-**Parent Topic:**[Configure Walk-up Experience customer satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-survey.md)
+**Parent Topic:**[Configure Walk-up Experience customer satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-survey.md)
 

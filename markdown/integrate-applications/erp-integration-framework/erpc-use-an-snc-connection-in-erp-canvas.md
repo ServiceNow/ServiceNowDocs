@@ -2,7 +2,7 @@
 title: Using a Secure Network Communication \(SNC\) connection in Zero Copy Connector for ERP
 description: Use Secure Network Communication \(SNC\) for data communications between ServiceNow MID Server and SAP systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-use-an-snc-connection-in-erp-canvas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-use-an-snc-connection-in-erp-canvas.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

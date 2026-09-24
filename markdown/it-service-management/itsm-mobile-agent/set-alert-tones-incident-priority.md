@@ -2,7 +2,7 @@
 title: Set custom alert tones in ITSM Mobile Agent for different incident priority
 description: Set custom alert tones in ITSM Mobile Agent to distinguish between incidents with different priorities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/set-alert-tones-incident-priority.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/set-alert-tones-incident-priority.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

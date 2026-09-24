@@ -2,7 +2,7 @@
 title: Activate Core UI
 description: Core UI can be activated with the Core UI plugin \(com.glide.ui.ui16\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ActivateUI16.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ActivateUI16.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UI16.md)
+**Parent Topic:**[Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UI16.md)
 

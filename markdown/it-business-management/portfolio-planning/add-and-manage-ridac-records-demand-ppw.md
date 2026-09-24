@@ -2,7 +2,7 @@
 title: Add risks to a demand
 description: Add a risk to a demand to identify, analyze, prioritize, plan, and track potential problems during any phase of the demand life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-and-manage-ridac-records-demand-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/add-and-manage-ridac-records-demand-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -42,7 +42,7 @@ A risk is any uncertain event that can potentially impact the success or outcome
 
 7.  On the Risk form, fill in the fields.
 
-    For a description of the field values, see [Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-risk-form-ppw.md).
+    For a description of the field values, see [Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-risk-form-ppw.md).
 
 8.  Select **Save**.
 

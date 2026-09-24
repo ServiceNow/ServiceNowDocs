@@ -2,7 +2,7 @@
 title: Configuring Contract Workspace
 description: Configure and customize Contract Workspace by using the UI Builder web user interface builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-conf-cntrct-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-conf-cntrct-wrkspc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

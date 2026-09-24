@@ -2,7 +2,7 @@
 title: Create an Assistant for Field Service Management
 description: Set up ServiceNow Otto in Virtual Agent to help Field Service technicians summarize work order tasks and find relevant Knowledge Base articles to complete their tasks efficiently from the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-virtual-agent-for-field-service-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-virtual-agent-for-field-service-management.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

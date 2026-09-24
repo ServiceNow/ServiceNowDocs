@@ -2,7 +2,7 @@
 title: Ingest sample Microsoft Graph Security API alerts
 description: Ingest sample alerts from your Microsoft Azure tenant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-create-profile-ingestion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ms-graph-create-profile-ingestion.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,7 +2,7 @@
 title: Insert a header card in a Static Choice or Dynamic Choice control
 description: When you create a Virtual Agent topic, you can include images and YouTube videos on Static Choice and Dynamic Choice user input controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/insert-header-card-user-input-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/insert-header-card-user-input-control.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -26,7 +26,7 @@ Role required: virtual\_agent\_admin or admin
 
 2.  Select the **Asset library** tab.
 
-3.  Open a topic or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+3.  Open a topic or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
 4.  On the Flow tab, drag a Static Choice or a Dynamic Choice user input control onto the canvas.
 
@@ -136,5 +136,5 @@ The alphanumeric string at the end of the YouTube URL. For example, in the URL `
 8.  Select **Save**.
 
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

@@ -2,7 +2,7 @@
 title: Create a service account and private key in Google Dialogflow ES
 description: To use Google Dialogflow as your NLU provider for Virtual Agent, create a service account and private key for your agent in Google Dialogflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/vad-create-srvc-acct-key-dialogflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/vad-create-srvc-acct-key-dialogflow.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -73,14 +73,14 @@ Role required: admin
 
 15. Make note of the private key password \(`notasecret`\).
 
-    You will need this password in a [later step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-configure-dialogflow-security.md).
+    You will need this password in a [later step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-configure-dialogflow-security.md).
 
     \[Omitted image "ggl-p12-key-downloaded.png"\] Alt text: The private key password is shown onscreen when you download the P12 file.
 
 
-**Parent Topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-dialogflow-es-integration.md)
+**Parent Topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-dialogflow-es-integration.md)
 
-**Previous topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-dialogflow-es-integration.md)
+**Previous topic:**[Configure Google Dialogflow ES as the NLU provider for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-dialogflow-es-integration.md)
 
-**Next topic:**[Generate a Java Keystore \(JKS\) file and configure security on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-configure-dialogflow-security.md)
+**Next topic:**[Generate a Java Keystore \(JKS\) file and configure security on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-configure-dialogflow-security.md)
 

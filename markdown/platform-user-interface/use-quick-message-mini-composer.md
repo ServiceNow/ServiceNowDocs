@@ -2,7 +2,7 @@
 title: Insert a quick message from the mini email composer
 description: Insert predefined content into email messages from the mini email composer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-quick-message-mini-composer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/use-quick-message-mini-composer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

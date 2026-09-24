@@ -2,7 +2,7 @@
 title: Track your key investments
 description: Track and analyze the cost, schedule, and scope of your investments in one place using Investment Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/use-investment-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/use-investment-portal.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -24,7 +24,7 @@ Role required: it\_project\_manager or it\_project\_user
 
 1.  Navigate to **All** &gt; **Project** &gt; **Investment Portal**.
 
-2.  From the My Investment Views page, [create an investment report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/create-an-investment-report.md) and navigate to Investment Portal.
+2.  From the My Investment Views page, [create an investment report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/create-an-investment-report.md) and navigate to Investment Portal.
 
 3.  Use the following banner icons.
 
@@ -243,7 +243,7 @@ Select the **Configuration** \[Omitted image "configuration\_investment.png"\] A
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Investment Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/investment-portal.md)
+**Parent Topic:**[Investment Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/investment-portal.md)
 
 **Related topics**  
 
@@ -254,5 +254,5 @@ Select the **Configuration** \[Omitted image "configuration\_investment.png"\] A
 
 [Configure your investment metrics as widgets]()
 
-[Investment Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/investment-portal.md)
+[Investment Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/investment-portal.md)
 

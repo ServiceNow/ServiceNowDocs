@@ -2,7 +2,7 @@
 title: Use the agent calendar
 description: Users with the agent calendar user role can add events to their personal calendar and configure the calendar to show or hide different types of events.Users with the agent schedule user role can add events to their personal calendar.Users with the agent schedule user role can move events on their personal calendar.Users with the agent schedule user role can personalize their calendar and show or hide different types of events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/use-agent-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/use-agent-calendar.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -19,9 +19,9 @@ Users with the agent calendar user role can add events to their personal calenda
 **Related topics**  
 
 
-[Configuring an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configure-agent-calendar.md)
+[Configuring an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configure-agent-calendar.md)
 
-[Managing agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/agent-calendar.md)
+[Managing agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/agent-calendar.md)
 
 ## Add an event to the agent calendar
 

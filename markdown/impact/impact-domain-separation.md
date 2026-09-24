@@ -2,7 +2,7 @@
 title: Domain Separation in Impact
 description: Domain separation is unsupported for Impact. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ Domain separation is unsupported for Impact. Domain separation enables you to se
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-reference.md)
+**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-reference.md)
 

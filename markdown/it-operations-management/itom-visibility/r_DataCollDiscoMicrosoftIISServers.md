@@ -2,7 +2,7 @@
 title: Microsoft IIS server discovery
 description: Discovery identifies and classifies information about Microsoft IIS servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoMicrosoftIISServers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r\_DataCollDiscoMicrosoftIISServers.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -61,7 +61,7 @@ IIS
 </td></tr></tbody>
 </table>\*Probes inactive on new instances.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected by Discovery for IIS Web Server
 
@@ -88,5 +88,5 @@ The following data is collected in the Web site \[cmdb\_ci\_web\_site\] table.
 
 When top-down discovery reaches an IIS server, Service Mapping identifies the specific website and application or virtual directory serving the entry point, not just the IIS server itself. Service Mapping creates a connection from the entry point to the matching IIS Virtual Directory \[cmdb\_ci\_iisdirectory\] CI. The resulting service map shows the application running on IIS rather than a generic host-level node.
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Software.md)
 

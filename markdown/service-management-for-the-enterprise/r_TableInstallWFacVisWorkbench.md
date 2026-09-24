@@ -2,7 +2,7 @@
 title: Tables installed with Facilities Visualization Workbench
 description: Facilities visualization workbench adds the following tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_TableInstallWFacVisWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_TableInstallWFacVisWorkbench.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -247,5 +247,5 @@ Facility Map Color\[fm\_map\_color\]
 Specifies map colors
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)
+</table>**Parent Topic:**[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)
 

@@ -2,7 +2,7 @@
 title: Set up the SAP S4 HANA IDoc spoke
 description: Integrate the ServiceNow instance and SAP S4 HANA IDoc spoke by using the Basic Auth credentials to authenticate ServiceNow requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sap-s4-hana-idoc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-sap-s4-hana-idoc.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -22,7 +22,7 @@ Integrate the ServiceNow instance and SAP S4 HANA IDoc spoke by using the Basic 
 -   Activate the SAP S4 HANA IDoc spoke.
 -   Role required: admin.
 
-**Note:** To retrieve information, use the Execute RFC spoke action in the [SAP S4 HANA RFC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-s4hanarfc-spoke.md).
+**Note:** To retrieve information, use the Execute RFC spoke action in the [SAP S4 HANA RFC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/sap-s4hanarfc-spoke.md).
 
 ## Procedure
 

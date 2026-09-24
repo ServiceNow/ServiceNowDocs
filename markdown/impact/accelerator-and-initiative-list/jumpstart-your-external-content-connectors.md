@@ -2,7 +2,7 @@
 title: Jumpstart Your External Content Connectors
 description: This Accelerator provides a demonstration of the possibilities and capabilities of External Content Connectors \(XCC\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-external-content-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-external-content-connectors.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,7 +2,7 @@
 title: Corporate style guide
 description: When you build a CMS website, you design the look and feel based on guidelines in the corporate style guide.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_LeverageTheCorporateStyleGuide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/c\_LeverageTheCorporateStyleGuide.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -33,5 +33,5 @@ A corporate style guide provides detailed information for designing any corporat
 
 \[Omitted image "StyleGuide.png"\] Alt text: A corporate style guide, as shown in this example, has specifications on Header, Page content, and footer areas, as well as Navigation and Information snip panels.
 
-**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
+**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
 

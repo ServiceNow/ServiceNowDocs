@@ -2,7 +2,7 @@
 title: Set up the Credential Sniffing playbook
 description: Use the following steps to set up the Credential Sniffing playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-credential-sniffing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-setup-credential-sniffing.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,5 +46,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
     This playbook is triggered and associated with the security incident when the **Category** is **Malicious code activity**.
 
 
-**Parent Topic:**[Playbook for Credential Sniffing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-credential-sniffing.md)
+**Parent Topic:**[Playbook for Credential Sniffing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-credential-sniffing.md)
 

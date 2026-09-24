@@ -2,7 +2,7 @@
 title: Cross-instance application trust configuration
 description: Multi-instance management provides a mechanism to streamline the management of trust configurations across your entire multi-instance environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/grant-access-v2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/grant-access-v2.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

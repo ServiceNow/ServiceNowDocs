@@ -2,7 +2,7 @@
 title: Configure UIs and portals
 description: Customize your interface to create an efficient, unique experience for users and customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-uis-and-portals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-uis-and-portals.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,23 +16,23 @@ Customize your interface to create an efficient, unique experience for users and
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Next Experience UI \[Omitted image "bus-try-a-demo.svg"\] Alt text: Icon for working with Next Experience Unify your instance apps and reduce clicks with the ServiceNow® Next Experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md)
+[Next Experience UI \[Omitted image "bus-try-a-demo.svg"\] Alt text: Icon for working with Next Experience Unify your instance apps and reduce clicks with the ServiceNow® Next Experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-landing-page.md)
 
 </td><td>
 
-[Workspace UI \[Omitted image "bus-monitor.svg"\] Alt text: Icon for working with Workspace UI Improve agent efficiency with Workspace UI, to offer better customer experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)
+[Workspace UI \[Omitted image "bus-monitor.svg"\] Alt text: Icon for working with Workspace UI Improve agent efficiency with Workspace UI, to offer better customer experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/workspace-landing-page.md)
 
 </td><td>
 
-[Working in Core UI \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Icon for Working in Core UI Upgrade the user experience with custom homepages and URL navigation, all in Core UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-in-ui16-and-ui15.md)
+[Working in Core UI \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Icon for Working in Core UI Upgrade the user experience with custom homepages and URL navigation, all in Core UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-in-ui16-and-ui15.md)
 
 </td></tr><tr><td>
 
-[Service Portal \[Omitted image "bus-discover.svg"\] Alt text: Icon for working with Service Portal Build the perfect self-service interface for your customers with the mobile-friendly Service Portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
+[Service Portal \[Omitted image "bus-discover.svg"\] Alt text: Icon for working with Service Portal Build the perfect self-service interface for your customers with the mobile-friendly Service Portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/c_ServicePortal.md)
 
 </td><td>
 
-[Content Management System \[Omitted image "bus-learn.svg"\] Alt text: Icon for working with Content Management System Design custom interfaces for the ServiceNow platform and its applications using this highly flexible application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+[Content Management System \[Omitted image "bus-learn.svg"\] Alt text: Icon for working with Content Management System Design custom interfaces for the ServiceNow platform and its applications using this highly flexible application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 </td><td>
 

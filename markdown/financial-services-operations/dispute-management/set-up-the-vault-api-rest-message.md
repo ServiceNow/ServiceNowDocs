@@ -2,7 +2,7 @@
 title: Set up the API REST message
 description: Configure the API REST message for your integration. This step points outbound REST messages to the correct tokenizer service endpoint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-the-vault-api-rest-message.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/set-up-the-vault-api-rest-message.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -21,7 +21,7 @@ Configure the API REST message for your integration. This step points outbound R
 
 Role required: admin
 
-For card network integration, this task requires an OAuth Provider created for Card Data Security. See [Set up an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-provider.md) for more information.
+For card network integration, this task requires an OAuth Provider created for Card Data Security. See [Set up an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/set-up-an-oauth-provider.md) for more information.
 
 ## Procedure
 

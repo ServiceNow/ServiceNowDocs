@@ -2,7 +2,7 @@
 title: Export the configuration BOM to a CSV file
 description: Export the configuration bill of materials \(BOM\) to a customizable CSV file before the quote is finalized.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/export-the-configuration-bom-as-a-csv-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/export-the-configuration-bom-as-a-csv-file.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

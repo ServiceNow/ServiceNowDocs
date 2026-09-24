@@ -2,7 +2,7 @@
 title: Update the incident
 description: Update the incident record using either a PUT or PATCH function.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/get-started-update-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/get-started-update-incident.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -47,5 +47,5 @@ Use the REST API Explorer to send the following request:
 7.  Verify that the Response Body contains the updated **short\_description** value.
 
 
-**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

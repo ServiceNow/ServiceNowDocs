@@ -2,14 +2,14 @@
 title: Configure Smartsheet for external content indexing
 description: Generate an API key in Smartsheet to allow the Smartsheet external content connector to access your Smartsheet source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-smartsheet-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-smartsheet-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Smartsheet external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -62,12 +62,12 @@ To allow the connector to access your Smartsheet source system via the Smartshee
 
 Provide the following items to your connector administrator:
 
--   The URL for your Smartsheet domain that you recorded in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-smartsheet-external-content-indexing.md).
--   The API key value that you copied in step [2.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-smartsheet-external-content-indexing.md).
+-   The URL for your Smartsheet domain that you recorded in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-smartsheet-external-content-indexing.md).
+-   The API key value that you copied in step [2.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-smartsheet-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a Smartsheet external content connector to retrieve sheets and security principals from your Smartsheet source system.
 
-For details on creating and configuring a Smartsheet external content connector, see [Create a Smartsheet external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-smartsheet.md).
+For details on creating and configuring a Smartsheet external content connector, see [Create a Smartsheet external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-smartsheet.md).
 
-**Parent Topic:**[Smartsheet external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/smartsheet-external-content-connector.md)
+**Parent Topic:**[Smartsheet external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/smartsheet-external-content-connector.md)
 

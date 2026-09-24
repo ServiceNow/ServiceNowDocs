@@ -2,12 +2,12 @@
 title: Deactivate a managed AI agent
 description: Deactivate a managed AI agent directly from its asset record using kill switch protocol, even if the agent has no associated security event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-contain-managed-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-contain-managed-asset.html
 release: australia
 topic_type: task
 last_updated: "2026-09-01"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -31,7 +31,7 @@ This action is available only for managed AI agents in the Agentic AI category. 
 
 4.  In the confirmation dialog box that appears, provide the reason for deactivation and select **Deactivate**.
 
-    For details on tracking deactivation progress, retrying a failed operation, and reinstating the agent afterward, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
+    For details on tracking deactivation progress, retrying a failed operation, and reinstating the agent afterward, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
 
 ## Result

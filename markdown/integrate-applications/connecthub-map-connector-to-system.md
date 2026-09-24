@@ -2,7 +2,7 @@
 title: Map connector to system
 description: After creating a connector, configure connectors with an external system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connecthub-map-connector-to-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connecthub-map-connector-to-system.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Role required: admin
 
 4.  Choose an existing system to map the connector to.
 
-    To create an new external system, click \[Omitted image "create-new-record-icon.png"\] Alt text: Add new external system to [add a new external system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connecthub-create-external-systems.md) to map an existing connector.
+    To create an new external system, click \[Omitted image "create-new-record-icon.png"\] Alt text: Add new external system to [add a new external system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connecthub-create-external-systems.md) to map an existing connector.
 
 5.  Choose the connector type.
 

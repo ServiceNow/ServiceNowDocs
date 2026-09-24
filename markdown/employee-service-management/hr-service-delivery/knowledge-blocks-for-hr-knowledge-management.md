@@ -2,7 +2,7 @@
 title: Knowledge blocks for HR knowledge management
 description: You can use knowledge blocks with HR Service Delivery to simplify knowledge authoring for writers and knowledge consumption for readers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/knowledge-blocks-for-hr-knowledge-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/knowledge-blocks-for-hr-knowledge-management.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -62,7 +62,7 @@ To use knowledge blocks in your application, you must [activate knowledge blocks
 
 **Note:** Activating knowledge blocks automatically activates Knowledge Management Advanced, which enables advanced features such as article versioning. Knowledge blocks can be used with or without the article versioning feature. To disable the feature, see [Disable the article versioning feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/article-versioning-disable-property.md).
 
-**Parent Topic:**[HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-knowledge-management.md)
+**Parent Topic:**[HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-knowledge-management.md)
 
 **Related topics**  
 

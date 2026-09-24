@@ -2,7 +2,7 @@
 title: List untranslated items
 description: Get a list of all custom UI strings that have not been translated into any language \(English only\) to provide your own translations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_ExportAnUntranslatedString.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/t\_ExportAnUntranslatedString.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -60,5 +60,5 @@ This method of listing untranslated items does not identify strings that have be
 
 ## What to do next
 
-You can translate the fields in an external application and reload the translations as an update set. For more information see, [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateTheInterface.md). If you have a small number of strings to translate, you can translate them individually. For more information, see [Translating individual UI strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_TranslateIndFieldLabelsAndValues.md).
+You can translate the fields in an external application and reload the translations as an update set. For more information see, [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_TranslateTheInterface.md). If you have a small number of strings to translate, you can translate them individually. For more information, see [Translating individual UI strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/c_TranslateIndFieldLabelsAndValues.md).
 

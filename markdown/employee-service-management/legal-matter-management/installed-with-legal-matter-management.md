@@ -2,7 +2,7 @@
 title: Components installed with Legal Matter Management
 description: Several types of components are installed with installation of the Legal Matter Management application, including tables, and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/installed-with-legal-matter-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/installed-with-legal-matter-management.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -120,7 +120,7 @@ Provides access to all transactional data of matters and permission to assign ma
 </td></tr></tbody>
 </table>## Tables
 
-**Note:** In addition to the following tables, tables specific to practice areas are installed with Legal Matter Management. For more information, see [Practice area tables for legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-pa-tables.md).
+**Note:** In addition to the following tables, tables specific to practice areas are installed with Legal Matter Management. For more information, see [Practice area tables for legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/legal-matter-pa-tables.md).
 
 <table id="table_fbz_45z_vdb"><thead><tr><th>
 
@@ -227,5 +227,5 @@ Request - Matter m2m\[sn\_lg\_matter\_m2m\_request\_matter\]
 Stores the details of the relationship between a request and a matter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Matter Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-management-reference.md)
+</table>**Parent Topic:**[Legal Matter Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/legal-matter-management-reference.md)
 

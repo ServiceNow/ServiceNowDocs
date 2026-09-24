@@ -2,7 +2,7 @@
 title: Create test step plans in the test plan
 description: Create a test step plan from the Audit Workspace by selecting a test plan, opening the Test step plans tab, and entering details like identifier and assessment objective.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-test-step-plans-in-the-test-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/create-test-step-plans-in-the-test-plan.html
 release: australia
 product: Audit Management
 classification: audit-management

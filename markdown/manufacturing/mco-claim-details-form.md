@@ -2,7 +2,7 @@
 title: Claim details form
 description: The Claim details form enables the dealer to enter the claim details for the repair work performed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-claim-details-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-claim-details-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -104,12 +104,12 @@ Product usage
 Enter the number of Asset used. It provides insights into how customers use a product.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
 [Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-partner-relationship-management.md)
 
-[Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-submit-repair-claim.md)
+[Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-submit-repair-claim.md)
 

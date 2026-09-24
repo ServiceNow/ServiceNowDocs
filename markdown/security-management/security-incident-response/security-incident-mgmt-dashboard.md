@@ -2,7 +2,7 @@
 title: Security Incident Management dashboard
 description: With this dashboard, security managers can easily track the volume, performance and progress of security incidents from initial analysis/detection to containment, eradication, and recovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-mgmt-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/security-incident-mgmt-dashboard.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -67,7 +67,7 @@ The following breakdowns apply to the indicators on the dashboard:
 -   Security Incident Priority
 -   Security Incident State
 
-**Parent Topic:**[Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-content-pack.md)
+**Parent Topic:**[Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/security-incident-content-pack.md)
 
 **Related topics**  
 

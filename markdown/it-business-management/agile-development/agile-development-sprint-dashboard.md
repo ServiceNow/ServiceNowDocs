@@ -2,7 +2,7 @@
 title: Agile 2.0 Sprint Dashboard
 description: Track the progress of your stories in the current sprint and forecast sprint completion using the Sprint Dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-development-sprint-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/agile-development-sprint-dashboard.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -135,7 +135,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Sprint Burnup
 -   Sprint Cumulative Flow Diagram
 
-For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
+For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
 
 **Note:** For all reports shown in the Sprint dashboard, the planned end date of the Sprints is used as a filter. Completed Sprints appear in the chart only if their Planned end date is less than or equal to the current date.
 
@@ -215,7 +215,7 @@ Monitor the progress of all the stories of your sprint between its actual start 
  **Note:** Stories in Ready and Cancelled states are not included in this report.
 
 </td></tr></tbody>
-</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/customizing-dashboard-reports.md).
+</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/customizing-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

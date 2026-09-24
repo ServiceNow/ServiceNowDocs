@@ -2,7 +2,7 @@
 title: Authenticate Google for calendar synchronization
 description: Set up Google to start with reservation synchronization with the Workplace Reservation Management application. Create scopes, credentials and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/authenticate-google-for-calendar-sync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/authenticate-google-for-calendar-sync.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

@@ -2,7 +2,7 @@
 title: Export a demand Doc as a PDF
 description: Export demand Docs as PDF files to use them offline or share with stakeholders outside Next Experience for Demand Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/export-a-demand-doc-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/export-a-demand-doc-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

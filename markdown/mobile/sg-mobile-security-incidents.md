@@ -2,7 +2,7 @@
 title: Incident reporting
 description: ServiceNow mobile app issues should be reported through the standard support channels. You can report incidents by contacting Customer Service and Support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-security-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-security-incidents.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,5 +16,5 @@ ServiceNow mobile app issues should be reported through the standard support cha
 
 To report incidents, contact [Customer Service and Support](https://support.servicenow.com/now?draw=case).
 
-**Parent Topic:**[Mobile security practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-security-practices.md)
+**Parent Topic:**[Mobile security practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-security-practices.md)
 

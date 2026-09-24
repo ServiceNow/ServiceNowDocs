@@ -2,7 +2,7 @@
 title: Create a scenario analysis record using simulation
 description: Create a Scenario analysis record to assess how a critical service performs under adverse conditions using statistical modelling. Use the guided Playbook experience to move through scoping, scenario selection, simulation, results review, and treatment decision.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-sca-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-sca-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Users with the sn\_oper\_res.user role can view records and playbook stages in r
 
 2.  To create a scenario analysis record, select **New**.
 
-    The Scenario Analysis form is displayed. You can fill in the form and create a Scenario Analysis record. For more information on the form, see [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sca-record.md).
+    The Scenario Analysis form is displayed. You can fill in the form and create a Scenario Analysis record. For more information on the form, see [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-sca-record.md).
 
 3.  Enter the name of the scenario analysis record in the **Name** field.
 
@@ -60,7 +60,7 @@ Users with the sn\_oper\_res.user role can view records and playbook stages in r
 
     **Statistical Modelling** is selected by default.
 
-    Steps for using the simulation method are described in [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-scenario-testing.md). The manual method is described in [Run a scenario analysis using the manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/run-sca-manual-method.md).
+    Steps for using the simulation method are described in [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/complete-sca-scenario-testing.md). The manual method is described in [Run a scenario analysis using the manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/run-sca-manual-method.md).
 
 8.  Verify that the **Annual loss model driven by risk events** is shown in the **Statistical model profile** field.
 
@@ -81,5 +81,5 @@ The scenario analysis record is created and the **Playbook** tab is available to
 
 ## What to do next
 
-For defining the scope of scenario analysis, see [Define the scope and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-sca-scope-service-dep.md).
+For defining the scope of scenario analysis, see [Define the scope and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-sca-scope-service-dep.md).
 

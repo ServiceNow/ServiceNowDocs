@@ -2,7 +2,7 @@
 title: Create an agent from automations
 description: After reviewing the automations on an automation request, create an AI agent in AI Agent Studio that uses those automations as tools to execute the recorded task on a Windows machine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-agent-automations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/create-agent-automations.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -23,7 +23,7 @@ After reviewing the automations on an automation request, create an AI agent in 
 -   Automation Center and AI Desktop Actions must be installed on the target instance.
 -   The AI Desktop Actions agent application must be downloaded and installed on the Windows machine where the agent will run.
 -   You must have completed the steps in [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/integration-with-automation-center.md) and reviewed the automations created from the automation request.
--   User task step summarization skill must be activated. For more information, see [Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md).
+-   User task step summarization skill must be activated. For more information, see [Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/activate-skill.md).
 -   The automation request must be in **In progress** state.
 
 ## About this task
@@ -40,7 +40,7 @@ Agent testing and AI Desktop Actions tool execution require a Windows machine wi
 
 1.  On the **Automations** tab of the automation request, confirm that you have reviewed and are satisfied with the automations.
 
-    For detailed navigation, see step 1 in [Generate automations from a Task Mining request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-automations-tm.md).
+    For detailed navigation, see step 1 in [Generate automations from a Task Mining request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/generate-automations-tm.md).
 
 2.  Select **Create agent** on the automation request page.
 
@@ -95,12 +95,12 @@ Agent testing and AI Desktop Actions tool execution require a Windows machine wi
 
 The agent is active in AI Agent Studio and available to authorized users. When a user types a request in the ServiceNow Otto panel that matches the agent's name or description, the system invokes the agent. The agent executes the AI Desktop Actions tools on the user's Windows machine to complete the recorded task.
 
-**Parent Topic:**[Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automate-tasks-from-task-mining.md)
+**Parent Topic:**[Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automate-tasks-from-task-mining.md)
 
 **Related topics**  
 
 
-[Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automate-tasks-from-task-mining.md)
+[Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automate-tasks-from-task-mining.md)
 
-[Generate automations from a Task Mining request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-automations-tm.md)
+[Generate automations from a Task Mining request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/generate-automations-tm.md)
 

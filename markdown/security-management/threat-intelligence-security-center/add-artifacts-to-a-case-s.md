@@ -2,7 +2,7 @@
 title: Add artifacts to cases or case tasks
 description: After you have created a case, you can view or add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -20,7 +20,7 @@ After you have created a case, you can view or add artifacts, such as security i
 
 Role required: admin
 
-**Note:** Artifacts are available only to the existing cases. For observables and indicators, the artifacts can also be added or associated to a case from the import job using the Import Intelligence button. For more information on how to import see, [Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
+**Note:** Artifacts are available only to the existing cases. For observables and indicators, the artifacts can also be added or associated to a case from the import job using the Import Intelligence button. For more information on how to import see, [Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
 
 ## Procedure
 
@@ -40,7 +40,7 @@ Role required: admin
 
 6.  Link or Unlink the records from the case or case task.
 
-    For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
+    For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
 
     Following table lists the artifacts related lists related to the case\(s\) or case task\(s\):
 
@@ -287,15 +287,15 @@ List the vulnerability entries that are related to this cases or case tasks.
 </td></tr></tbody>
 </table>7.  Select **New** to create a record and link it to the case or case task from within the flow.
 
-    For more information, see [Create a related record to link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-new-related-record.md).
+    For more information, see [Create a related record to link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-create-new-related-record.md).
 
 
--   **[Roll up of MITRE Techniques from Artifacts to Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/roll-up-mitre-case.md)**  
+-   **[Roll up of MITRE Techniques from Artifacts to Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/roll-up-mitre-case.md)**  
 When intelligence records are added to a case, all associated MITRE Techniques are automatically rolled up to the case level.
--   **[Show MITRE ATT&amp;CK Framework for a Case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-show-mitre-fw.md)**  
+-   **[Show MITRE ATT&amp;CK Framework for a Case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-show-mitre-fw.md)**  
 Displays all the associated techniques of a case on the MITRE ATT&amp;CK framework.
 
-**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 

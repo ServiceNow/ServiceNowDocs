@@ -2,7 +2,7 @@
 title: Synchronize Indoor Mapping with Workplace Service Delivery
 description: Synchronize Indoor Mapping locations and map data objects with Workplace Service Delivery campus, buildings, floors, and spaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -178,7 +178,7 @@ Option to select a Workplace Service Delivery campus.
 
 17. Enable the Default view in the Indoor Mapping Map studio.
 
-    **Note:** Enabling the default view in Indoor Mapping is a mandatory step. The Default view is required to render the map in Workplace Service Delivery. For more information about Default view, see [Edit with view editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/edit-with-view-editor.md).
+    **Note:** Enabling the default view in Indoor Mapping is a mandatory step. The Default view is required to render the map in Workplace Service Delivery. For more information about Default view, see [Edit with view editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/edit-with-view-editor.md).
 
 18. Configure notifications to be sent to workplace users every time a change or update is made to synchronized location records.
 
@@ -234,9 +234,9 @@ Option to select a Workplace Service Delivery campus.
             The **Unlink Campus** tab is available after the synchronization is complete and the Indoor Mapping map object is linked to WSD locations indicating that the linking is complete. Unlinking a campus unlinks all the buildings associated with a campus. Unlinking a building unlinks all the floors and spaces associated with a building. Unlinking a floor unlinks the spaces associated with a floor.
 
 
-**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/keyboard-shortcuts.md)
+**Previous topic:**[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/keyboard-shortcuts.md)
 
-**Next topic:**[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/sync-cmn-location.md)
+**Next topic:**[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/sync-cmn-location.md)
 

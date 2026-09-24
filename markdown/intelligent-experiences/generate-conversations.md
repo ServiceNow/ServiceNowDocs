@@ -2,7 +2,7 @@
 title: Generate conversations from scenarios
 description: Create execution log data for AI voice agentic assets By creating new conversations from typical scenarios you configure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generate-conversations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generate-conversations.html
 release: australia
 topic_type: task
 last_updated: "2026-06-04"
@@ -16,9 +16,9 @@ Create execution log data for AI voice agentic assets By creating new conversati
 
 ## Before you begin
 
-The following steps are for the second step of the guided setup for executing an AI voice agentic asset evaluation. For more information about how to access the guided setup, see [Execute a run for an AI voice agentic asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-voice-aia-eval.md).
+The following steps are for the second step of the guided setup for executing an AI voice agentic asset evaluation. For more information about how to access the guided setup, see [Execute a run for an AI voice agentic asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/execute-voice-aia-eval.md).
 
-To create conversation logs for your AI voice agentic asset, it must run before the judges can evaluate it. Ensure that you have the correct permissions to run the AI voice agentic asset. For more information, see [Security for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+To create conversation logs for your AI voice agentic asset, it must run before the judges can evaluate it. Ensure that you have the correct permissions to run the AI voice agentic asset. For more information, see [Security for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-security-implementation.md).
 
 Role required: sn\_voice\_aia.admin
 
@@ -118,5 +118,5 @@ The scenarios you generate are the context for creating new execution logs for y
 
 ## What to do next
 
-After generating your scenarios, you can move on to the final step of the guided setup. See step 9 of [Execute a run for an AI voice agentic asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-voice-aia-eval.md).
+After generating your scenarios, you can move on to the final step of the guided setup. See step 9 of [Execute a run for an AI voice agentic asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/execute-voice-aia-eval.md).
 

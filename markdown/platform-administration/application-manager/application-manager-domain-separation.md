@@ -2,7 +2,7 @@
 title: Domain separation and Application Manager
 description: Domain separation is unsupported for Application Manager. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/application-manager-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/application-manager/application-manager-domain-separation.html
 release: australia
 product: Application Manager
 classification: application-manager
@@ -27,7 +27,7 @@ For more information on support levels, see [Application support for domain sepa
 
 Application Manager enables instance-level administrators to install and manage applications for their instances. Data within the Application Manager isn't filtered, displayed, or managed at the domain level.
 
-**Parent Topic:**[Application Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/app-mgr-reference.md)
+**Parent Topic:**[Application Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/app-mgr-reference.md)
 
 **Related topics**  
 

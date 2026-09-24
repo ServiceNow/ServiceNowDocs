@@ -2,7 +2,7 @@
 title: Run fix scripts to update Employee Center
 description: Manually run fix scripts to upgrade to the latest taxonomy-based Employee Center. Download the latest version from the ServiceNow Store before running the scripts. The scripts update your existing portal setup to Employee Center without performing multiple set up or configuration steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/run\_scripts\_manually\_config-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/run\_scripts\_manually\_config-search.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,7 +25,7 @@ Role required: admin
 Manually run the following are the scripts if
 
 -   You are an existing Employee Service Center \(HR\) customer and have modified the portal records.
--   You have not installed the demo data at the time of installation, repair the dependent plugins as described in [Install Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-ec.md) and [Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-ec-pro.md).
+-   You have not installed the demo data at the time of installation, repair the dependent plugins as described in [Install Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-ec.md) and [Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-ec-pro.md).
 
 <table id="table_kp2_vv3_2rb"><thead><tr><th>
 
@@ -75,9 +75,9 @@ Your existing portal is updated to the latest Employee Center portal that uses u
 
 ## What to do next
 
-Configure AI search to align with curated experience. For more information, see [AI Search for Curated Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/align-search-for-curated-exp.md).
+Configure AI search to align with curated experience. For more information, see [AI Search for Curated Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/align-search-for-curated-exp.md).
 
-**Parent Topic:**[Post installation troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/post-install-steps.md)
+**Parent Topic:**[Post installation troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/post-install-steps.md)
 
 **Related topics**  
 

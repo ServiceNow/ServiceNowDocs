@@ -2,7 +2,7 @@
 title: Integration and configuration health event fields
 description: Populate the event fields to capture details such as event time, description, alert number, state, severity, metric name, node, message key, and error message.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/integration-config-health-event-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/integration-config-health-event-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ Populate the event fields to capture details such as event time, description, al
 |Message Key|Unique identifier for the event message.|
 |Error Message|Provides additional information about any errors associated with the event.|
 
-To return to the procedure, see [Review integration and configuration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/review-integration-config-health.md).
+To return to the procedure, see [Review integration and configuration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/review-integration-config-health.md).
 

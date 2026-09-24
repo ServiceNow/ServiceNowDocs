@@ -2,7 +2,7 @@
 title: Accept an incoming chat request from the Source-to-Pay Workspace
 description: As a supplier fulfiller, accept an incoming chat request from the Supplier Manager Workspace Inbox to start a chat session with a supplier contact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/accept-chat-supp-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/accept-chat-supp-ws.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -57,7 +57,7 @@ Supplier Information
 
 </td><td>
 
-Displays information about the supplier.For more information, see [View information on supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supp-info-tab.md).
+Displays information about the supplier.For more information, see [View information on supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supp-info-tab.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Shows all the supplier cases associated with the interaction record.
 
     |UI action|Description|
     |---------|-----------|
-    |Create Supplier Case|Creates a new supplier case. For more information, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).|
+    |Create Supplier Case|Creates a new supplier case. For more information, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).|
     |End Chat|Ends the current chat session.|
     |Save|Saves any updates you made to the chat information.|
     |More actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\)|Select **Associate Record** to associate an interaction to a supplier case.|
@@ -97,7 +97,7 @@ Shows all the supplier cases associated with the interaction record.
 
 The incoming chat request from the Supplier Manager Workspace Inbox is accepted and a chat session with the supplier contact is initiated.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 
@@ -126,5 +126,5 @@ The incoming chat request from the Supplier Manager Workspace Inbox is accepted 
 
 [Emails view for supplier managers]()
 
-[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
+[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 

@@ -2,7 +2,7 @@
 title: How users consent to tracking in Usage Insights
 description: An individual can select to opt in or opt out of Usage Insights advanced tracking at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/user-exp-analytics-user-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/user-exp-analytics-user-set.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -74,14 +74,14 @@ Action
 </table>
 ## What to do next
 
-Read more about tracking options presented to you in the UI in [Tracking controls and data collection behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-tracking-controls-and-data-collection-behavior.md).
+Read more about tracking options presented to you in the UI in [Tracking controls and data collection behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/uxa-tracking-controls-and-data-collection-behavior.md).
 
--   **[View users’ consent tracking selections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-view-user-decision.md)**  
+-   **[View users’ consent tracking selections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/uxa-view-user-decision.md)**  
 View and analyze details regarding users and their tracking selection preferences.
--   **[Define texts for Notice and Explicit Opt-in messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-define-text-policies.md)**  
+-   **[Define texts for Notice and Explicit Opt-in messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/uxa-define-text-policies.md)**  
 Administrators can edit the text that is displayed in the modal window when a user’s location is assigned to a **Notice** or **Explicit Opt-In** consent policy.
--   **[Configure link to your privacy policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-config-link-privacy-policy.md)**  
+-   **[Configure link to your privacy policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/uxa-config-link-privacy-policy.md)**  
 When Usage Insights is enabled, the ServiceNow Services Privacy Statement is linked by default. However, administrators can update the link to point to the organization privacy policy.
 
-**Parent Topic:**[User privacy, tracking, and user consent management in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-track-options.md)
+**Parent Topic:**[User privacy, tracking, and user consent management in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/user-exp-analytics-track-options.md)
 

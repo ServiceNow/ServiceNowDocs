@@ -2,7 +2,7 @@
 title: Build a needs decision tree
 description: Define the decision tree question nodes, decision paths, and guidance for each decision path using Decision Tree Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/build-needs-decision-tree.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/build-needs-decision-tree.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -103,12 +103,12 @@ When your decision tree is complete, select **Activate** in Decision Tree Builde
 </table>
 ## What to do next
 
-[Create a needs template and set the catalog relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-publish-needs-template.md).
+[Create a needs template and set the catalog relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-publish-needs-template.md).
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP Enterprise Data Foundation content pack
 description: The Zero Copy Connector for ERP Enterprise Data Foundation content pack contains models and process extensions for SAP master data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

@@ -2,7 +2,7 @@
 title: Agile 2.0 Release Dashboard
 description: Track the progress of your stories and analyze scope changes in the current release using Agile 2.0 Release Dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-development-release-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/agile-development-release-dashboard.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -118,7 +118,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Release Cumulative Flow Diagram
 -   Story Cycle Time
 
-For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
+For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
 
 <table id="table_enf_b2k_k3b"><thead><tr><th>
 
@@ -237,7 +237,7 @@ Identify the time taken for each story in the release to move from an in-progres
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
 </td></tr></tbody>
-</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/customizing-dashboard-reports.md).
+</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/customizing-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

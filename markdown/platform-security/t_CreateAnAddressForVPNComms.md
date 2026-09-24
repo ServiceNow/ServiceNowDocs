@@ -2,7 +2,7 @@
 title: Configuring an address for VPN communication
 description: To prevent conflict or overlap with internal ServiceNow networks or with another customer's internal IP address schemes, the instance requires that all tunneled traffic in the encryption domain use non-RFC-1918 addresses on both sides of the tunnel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_CreateAnAddressForVPNComms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_CreateAnAddressForVPNComms.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

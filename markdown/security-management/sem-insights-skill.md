@@ -2,7 +2,7 @@
 title: Generate vulnerability insights with generative AI
 description: Use the Security Exposure Management \(SEM\) Insights generative AI skill to provide contextual summaries and actionable recommendations in the Security Exposure Management \(SEM\) Workspace. Use insights based on exposure data, threat intelligence, remediation status, and asset context to surface dynamic insights for findings views. Help admins, analysts, and vulnerability managers prioritize critical risks and take immediate remediation actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-insights-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-insights-skill.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
@@ -22,7 +22,7 @@ The ServiceNow Otto® panel must be activated. For more information, see [Activa
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-For more information about configuring this skill, see [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-skills-now-assist-vulnerability-response.md).
+For more information about configuring this skill, see [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/activate-skills-now-assist-vulnerability-response.md).
 
 Role required: sn\_vul\_ai.run\_sem\_insights
 
@@ -55,5 +55,5 @@ To generate insights in the SEM workspace, you must have the sn\_vul\_ai.run\_se
 -   Provide feedback on insights using the thumbs up or thumbs down icons on each card.
 -   Refresh dashboard data with the refresh icon. Refreshing updates data but does not regenerate insights automatically.
 
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

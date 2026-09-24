@@ -2,7 +2,7 @@
 title: Manage Audit Engagements
 description: The Engagement Workbench provides a timeline view from which you can select an audit engagement to view details or create a new engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/c\_AuditEngagementWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/c\_AuditEngagementWorkbench.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -18,8 +18,8 @@ The Engagement Workbench provides a timeline view from which you can select an a
 
 \[Omitted image "EngagementWorkbench.png"\] Alt text: Audit Engagement Workbench
 
--   **[Create an engagement from Audit Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-engagement-from-workbench.md)**  
+-   **[Create an engagement from Audit Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/create-engagement-from-workbench.md)**  
 The Engagement Workbench provides a timeline view from which you can select an audit engagement to view details or create a new engagement. Audit managers create engagements directly from the Workbench to manage audit information and collect entities, controls, and control tests that are relevant to the audit.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/c_Engagements.md)
 

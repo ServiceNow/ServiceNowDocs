@@ -2,7 +2,7 @@
 title: Functional domain bulk update
 description: The functional domain feature enables users to efficiently filter and sort records within a workspace based on domain-specific tags. For instance, when working in the Privacy Workspace, users can exclude records that are not tagged with privacy, allowing for a more focused view and reducing potential confusion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/functional-domain-bulk-update.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/functional-domain-bulk-update.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -32,5 +32,5 @@ Tagging methods: Users can tag records with functional domains using two methods
     \[Omitted image "functional-domain-bulk-update.png"\] Alt text: The figure displays the functional domain screen where users can update functional domains for multiple records
 
 
-**Parent Topic:**[Tagging records with functional domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tagging-records-with-functional-domain.md)
+**Parent Topic:**[Tagging records with functional domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/tagging-records-with-functional-domain.md)
 

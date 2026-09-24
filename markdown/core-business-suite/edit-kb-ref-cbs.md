@@ -2,7 +2,7 @@
 title: Edit Knowledge Base form
 description: Edit any Knowledge Base settings by filling in the form fields to define workflows, ownership, and management. You can apply separate settings for different Knowledge bases across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/edit-kb-ref-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/edit-kb-ref-cbs.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-28"
@@ -80,5 +80,5 @@ Users who can manage the Knowledge Base.**Note:** You can add additional people 
 Selected when the Knowledge Base is active.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+</table>**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-reference-parent.md)
 

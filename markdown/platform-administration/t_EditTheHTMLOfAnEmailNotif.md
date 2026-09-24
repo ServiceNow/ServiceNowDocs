@@ -2,7 +2,7 @@
 title: Edit HTML content in an email notification
 description: For added control over the content of an email notification, you can edit the underlying HTML.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EditTheHTMLOfAnEmailNotif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_EditTheHTMLOfAnEmailNotif.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: admin
 7.  On the form, select **Update**.
 
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateANotification.md)
 

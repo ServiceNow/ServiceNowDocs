@@ -2,7 +2,7 @@
 title: Create a workplace field mapping
 description: Create a field mapping record to copy the field information of a parent case to the child workplace service activities or to workplace item-related tasks. Skip the process of re-entering the same details of a parent case to a child case by using field mapping records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/create-workplace-field-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/create-workplace-field-mapping.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -66,7 +66,7 @@ Save time from manually entering details in a child case or task triggered by a 
 
 The field mapping record is added.
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

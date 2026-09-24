@@ -2,7 +2,7 @@
 title: Create a sales promotion claim case
 description: Create a sales promotion claim case to claim the reimbursement or discount.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-sls-promotion-cc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-sls-promotion-cc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

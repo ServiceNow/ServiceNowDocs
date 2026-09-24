@@ -2,7 +2,7 @@
 title: Table form for use case setup
 description: The Table form enables you to define a table for extraction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/document-extraction-table-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-in-document-intelligence/document-extraction-table-form.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -103,9 +103,9 @@ Column type
 
 </td><td>
 
-The type of field in the table column. For example, a text or date field. For more information, see [Field types in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-field-types.md).
+The type of field in the table column. For example, a text or date field. For more information, see [Field types in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-field-types.md).
 
- Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
+ Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/data-normalization.md).
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Create multiple tables
 Option to keep the form displayed on the screen. Enable this option if you’re adding more than one table to the use case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist in Document Intelligence forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-forms.md)
+</table>**Parent Topic:**[Now Assist in Document Intelligence forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-forms.md)
 
 **Related topics**  
 

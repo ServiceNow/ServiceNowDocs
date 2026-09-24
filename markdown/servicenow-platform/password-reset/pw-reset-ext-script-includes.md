@@ -2,7 +2,7 @@
 title: Password Reset extension scripts
 description: Extension scripts allow you to extend Password Reset functionality in credential store, verification, or identification types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/pw-reset-ext-script-includes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/pw-reset-ext-script-includes.html
 release: australia
 product: Password Reset
 classification: password-reset

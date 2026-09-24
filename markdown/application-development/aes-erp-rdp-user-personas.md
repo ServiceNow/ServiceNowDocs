@@ -2,7 +2,7 @@
 title: App Engine ERP Rapid Deployment Packs user personas
 description: App Engine ERP Rapid Deployment Packs define four core personas, each with distinct permissions, workflows, and responsibilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-user-personas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-user-personas.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -88,5 +88,5 @@ Review fully prepared requests across all packs and make the final business deci
 
 Administrators assign personas based on role and domain responsibilities. Domain access is independent. You might be a requestor for the Customer domain but an enricher for the Cost Center domain. The enricher, governance, and approver personas typically don't have access to the Create New Request portal. They access only the requests that reach their workflow stage.
 
-**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
+**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-reference.md)
 

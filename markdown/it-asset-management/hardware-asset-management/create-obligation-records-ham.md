@@ -2,7 +2,7 @@
 title: Create an obligation record in the Hardware Asset Workspace
 description: Create an obligation record for signed contracts in the Hardware Asset Workspace to fulfill the responsibilities specified in the contract through obligation tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-obligation-records-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-obligation-records-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -55,12 +55,12 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 ## What to do next
 
-Create an obligation task for the obligation record. For details, see [Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
+Create an obligation task for the obligation record. For details, see [Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
 
--   **[Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md)**  
+-   **[Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-obligation-task-ham.md)**  
 Create an ad hoc obligation task required only once or at irregular intervals to track and fulfill an obligation specified in a contract.
 
-**Parent Topic:**[Manage obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-obligations-in-ham.md)
+**Parent Topic:**[Manage obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-obligations-in-ham.md)
 
 **Related topics**  
 

@@ -2,10 +2,10 @@
 title: Components installed with Sales Common for Channel Partners
 description: The Sales Common for Channel Partners plugin \(com.snc.partner\_relationship\_management\_sales\_common\) application uses roles to provide access to information, identify internal and external users, and maintain data security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/roles-and-components-of-sales-common.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/roles-and-components-of-sales-common.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Install Sales Common for Partner Relationship Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -23,12 +23,12 @@ The PRM plugin \(com.snc.partner\_relationship\_management\) comes with a set of
 |sn\_prm\_sales\_partner\_sales\_manager|This role is assigned to external channel partner organizational staff to manage the entire sales lead to cash life cycle for B2B and B2C customers.| |
 |sn\_prm\_sales\_partner\_sales\_relationship\_manager|This role is assigned to enterprise personnel to manage the entire sales lead to cash life cycle for the hierarchy of their channel partners.| |
 
-**Parent Topic:**[Install Sales Common for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-sales-common-for-partner-relationship-management.md)
+**Parent Topic:**[Install Sales Common for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-sales-common-for-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

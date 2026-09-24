@@ -2,7 +2,7 @@
 title: View Manager Dashboard
 description: You can use the Manager Dashboard to monitor HR team effectiveness based on metrics. Metrics includes state of assigned cases by HR agent and service level agreement \(SLA\) elapsed time percentage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_UseTheHRManagerDashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_UseTheHRManagerDashboard.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -46,5 +46,5 @@ You can customize any dashboard that you can access to add or remove reports and
     |**Save the chart as an image file**|If a menu icon appears when you point your cursor to a chart, you can click the icon to export the chart to an image file.|
 
 
-**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
+**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
 

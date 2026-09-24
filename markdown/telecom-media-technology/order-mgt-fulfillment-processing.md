@@ -2,7 +2,7 @@
 title: Approving and fulfilling customer \(product\) orders
 description: Learn how your organization can use the Order Management application to fulfill customer orders.OM revamp project - This topic has been removed from SOM bundle on Oct 14, 2025.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-fulfillment-processing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-mgt-fulfillment-processing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Review a customer order and approve or reject it for fulfillment.
 
 An order fulfillment manager approves or rejects a customer order for fulfillment. If it's approved, the sold product and order decomposition processing can take place. If it's rejected, more investigation is needed. To learn more, see:
 
--   [Approve or reject a customer order for fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/approve-reject-customer-order-fulfillment.md)
+-   [Approve or reject a customer order for fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/approve-reject-customer-order-fulfillment.md)
 -   [Creation of sold product and product inventory records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-sold-product-creation.md)
 -   [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-order-decomposition.md)
 

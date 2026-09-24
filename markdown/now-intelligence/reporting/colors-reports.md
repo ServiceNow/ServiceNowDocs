@@ -2,7 +2,7 @@
 title: Predefined colors in reports
 description: Depending on the type and configuration of the report, you can select one color, a predefined color palette, or predefined chart colors. All three options are built on a customizable set of individual colors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/colors-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/colors-reports.html
 release: australia
 product: Reporting
 classification: reporting
@@ -43,12 +43,12 @@ Both the color palettes and the chart colors use the colors defined in the Color
 
 **Note:** If neither a color palette nor the chart colors are suitable for your report, you can enter a set of hexadecimal color codes. These codes are independent of the defined colors.
 
--   **[Color palettes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/color-palettes.md)**  
+-   **[Color palettes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/color-palettes.md)**  
 A color palette is a sequence of colors that apply to the elements in a chart, in order from highest value to lowest. All reports that use the same palette use the same colors.
--   **[Chart colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ChartColors.md)**  
+-   **[Chart colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_ChartColors.md)**  
 Chart colors assign a consistent color to a grouping or stacking value in reports. The color stays the same across reports regardless of the order of the values.
--   **[Define system colors for analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_DefiningSystemColors.md)**  
+-   **[Define system colors for analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_DefiningSystemColors.md)**  
 Create color definitions for use in visualizations and Performance Analytics widgets.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdvancedReporting.md)
 

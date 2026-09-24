@@ -2,7 +2,7 @@
 title: Displaying campaigns on ServiceNow mobile
 description: Use campaigns to deliver messages and important information to your users. You can set up and display a campaign on ServiceNow mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-campaigns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-campaigns.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

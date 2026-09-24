@@ -2,7 +2,7 @@
 title: Upgrade Center roles
 description: Upgrade Center is installed with these roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-roles.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -16,7 +16,7 @@ breadcrumb: [Upgrade Center references, Upgrade Center, Upgrade, Administer the 
 
 Upgrade Center is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## System administrator \[admin\]
 
@@ -48,7 +48,7 @@ Access all tables and information within Upgrade Center on your instance.
     None.
 
 
-**Parent Topic:**[Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-reference.md)
+**Parent Topic:**[Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-reference.md)
 
 **Related topics**  
 

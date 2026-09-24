@@ -2,7 +2,7 @@
 title: Integration errors in staging tables
 description: ERP integration errors are recorded as system-generated error tasks in staging tables and appear in the Tasks area of the Source-to-Pay workspace, where outbound and inbound integration errors are categorized separately for resolution and reintegration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/integration-errors-in-staging-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/integration-errors-in-staging-tables.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

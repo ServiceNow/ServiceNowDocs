@@ -2,7 +2,7 @@
 title: Space Optimization - Key features and actions
 description: As a space planner, you can perform multiple scenario-related actions using the Space Optimization module. You can create a scenario using the stack plan and view it on a floor map and make changes directly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/space-optmization-features-and-actions-.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/space-optmization-features-and-actions-.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -61,7 +61,7 @@ As a space planner, you can view the list of all the scenarios created in your o
 
 As a space planner, you can view the list of buildings of your organization on the Space optimization module. You can configure the list view settings based on what details you want to view about a building. The homepage displays five scenarios at a time and to view more, select **View all**. When you select **View all**, the list is opened in a separate tab where you can view all the buildings of your organization and their details. You can refresh the list, edit columns, or apply building-related filters.
 
-When you select a building, the building is opened in a stack plan view where you can see all the space allocations and floor arrangements. A stack plan is a visual representation of all the allocations made on a floor of a building. Every allocation is displayed in a bar based on the department or cost center that is assigned to. For more information about stack plan view and floor map view, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
+When you select a building, the building is opened in a stack plan view where you can see all the space allocations and floor arrangements. A stack plan is a visual representation of all the allocations made on a floor of a building. Every allocation is displayed in a bar based on the department or cost center that is assigned to. For more information about stack plan view and floor map view, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
 
 -   The details of the building such as its total capacity, total number of spaces, and location are displayed on top of the plan.
 -   You can see the total number of unallocated spaces of the building in total as well as floor-wise.
@@ -72,7 +72,7 @@ When you select a building, the building is opened in a stack plan view where yo
 -   In the **Settings** tab, you can apply a filter based on which you want to see the spaces on a floor.
 -   You can’t edit a scenario when you open it in the building view. To edit a scenario of a building, copy that scenario and make changes. The scenario copies the exact building data and enables you to make changes. The changes don’t affect the main data as long as it’s deployed. To create a scenario of a building, you can also select the **Create scenario** option when the building is open in the stack plan view.
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: OnCallContactPrefTemplate - Global
 description: The OnCallContactPrefTemplate script include provides methods to apply contact preference templates to escalation sets.Instantiates an OnCallContactPrefTemplate object.Applies a contact preference template to an escalation set.Deletes all contact preferences associated with an escalation set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/OnCallContactPrefTemplateAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/OnCallContactPrefTemplateAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,7 +20,7 @@ For more information about the escalation process, see [Defining On-Call Schedul
 
 This script include requires the On-Call Scheduling plugin \(com.snc.on\_call\_rotation\).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## OnCallContactPrefTemplate - OnCallContactPrefTemplate\(\)
 

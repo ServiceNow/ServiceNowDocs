@@ -2,7 +2,7 @@
 title: sb - Scoped, Global
 description: The sb script include provides methods that enable you to perform operations on Service Exchange configuration records.Validates that the specified GlideRecord is a valid Service Exchange configuration record and verifies that the record is in the "inactive" state. If this validation passes, archives the specified configuration record, leaving all other versions of the same configuration record untouched.Validates that the specified GlideRecord is a valid Service Exchange configuration record and verifies that the record is in the "published" state. If this validation passes, creates a new version of the specified configuration record and sets the state field to "draft".Validates that the specified GlideRecord is a valid Service Exchange configuration record and verifies that the record is in the "draft" state. If this validation passes, publishes the draft version of the configuration record.Validates that the specified GlideRecord is a valid Service Exchange configuration record and verifies that the record is in a valid state. If this validation passes, retires the specified version of the configuration record along with all other revisions of that same configuration record. Populates virtual fields in a task table on a target instance when using Service Exchange remote tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PSBPublicAPIUtilBoth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/PSBPublicAPIUtilBoth.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -55,7 +55,7 @@ global.sb.archive(glideRecord);
 global.sb.retire(glideRecord);
 ```
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## sb - archive\(glideRecord\)
 

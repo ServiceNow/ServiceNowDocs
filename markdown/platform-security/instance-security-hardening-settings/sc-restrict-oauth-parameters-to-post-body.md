@@ -2,7 +2,7 @@
 title: Restrict oauth parameters to POST body \[New in Security Center 1.3\]
 description: Use the glide.oauth.allow.parameters.in.post.body.only property to control the inbound OAuth authentication's acceptance of access tokens. Access tokens are sensitive and should only be accepted when located within a POST request body.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-restrict-oauth-parameters-to-post-body.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-restrict-oauth-parameters-to-post-body.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -72,7 +72,7 @@ Category
 
 </td><td>
 
-[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)
+[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 
 </td></tr><tr><td>
 
@@ -98,8 +98,8 @@ References
 
 </td><td>
 
--   [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthApplications.md)
--   [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ManageTokens.md)
+-   [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_OAuthApplications.md)
+-   [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_ManageTokens.md)
 
 </td></tr><tr><td>
 
@@ -110,5 +110,5 @@ Functional impact
 Ensures that oauth\_token.do processor accepts only POST body parameters as input for all supported grant types.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)
+</table>**Parent Topic:**[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 

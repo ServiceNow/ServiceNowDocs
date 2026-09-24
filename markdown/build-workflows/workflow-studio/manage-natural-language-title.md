@@ -2,7 +2,7 @@
 title: Change a flow or action's default title
 description: Change the default title for a flow, subflow, or action by adding styled and dynamic text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/manage-natural-language-title.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/manage-natural-language-title.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -53,5 +53,5 @@ Role required: admin, flow\_designer, or action\_designer
 
 When you change your action or subflow's default title, the new title appears in the Workflow Studio environment.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

@@ -2,7 +2,7 @@
 title: Primary success outcome record page
 description: A primary success outcome refers to the result or goal that is used to measure the achievement of a success objective.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-view-sucess-outcome.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-view-sucess-outcome.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Manage engagements, Customer success, Use, Customer Success Managem
 
 A primary success outcome refers to the result or goal that is used to measure the achievement of a success objective.
 
-When you create a success blueprint for an engagement, you can define success objectives and outcomes for each objective. See [Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-blueprint.md) for details. You can view this page either by navigating from the Engagement record page or by following these steps:
+When you create a success blueprint for an engagement, you can define success objectives and outcomes for each objective. See [Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-blueprint.md) for details. You can view this page either by navigating from the Engagement record page or by following these steps:
 
 1.  Login as a user with the sn\_acct\_lc.customer\_success\_agent role.
 2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
@@ -22,10 +22,10 @@ When you create a success blueprint for an engagement, you can define success ob
 
 This page contains the following tabs:
 
--   Details: See [Add a primary success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-outcome.md) for a detailed description of the fields.
+-   Details: See [Add a primary success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-outcome.md) for a detailed description of the fields.
 -   Success Initiatives: Shows the list of success initiatives associated with this outcome.
 -   Approvers: Shows the list of approvers for this outcome.
 -   Risk Signals and Issues: Lists any risk signals or issues associated with this outcome.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

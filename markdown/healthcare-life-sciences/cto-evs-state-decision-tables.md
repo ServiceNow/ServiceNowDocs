@@ -2,7 +2,7 @@
 title: Modify state decision tables in Care Team Operations for Environmental Services
 description: Use Decision Builder to change the state mappings for cases and incidents work orders in Care Team Operations for Environmental Services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-state-decision-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-state-decision-tables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

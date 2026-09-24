@@ -2,7 +2,7 @@
 title: Creating and publishing product offering versions
 description: As a product catalog manager, you can create and publish the product offering versions that list enhanced products and services that you can offer to your customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/creating-publishing-product-offering-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/creating-publishing-product-offering-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-16"
@@ -26,9 +26,9 @@ When you create a product offering version, complete these steps:
     -   Characteristics
     -   Characteristic options
     -   Product specifications
-2.  Create the required specification relationships, decomposition rules, and attribute mappings for each specification in the new version. To learn more, see [Creating and publishing specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/creating-publish-specification-versions-somt.md).
+2.  Create the required specification relationships, decomposition rules, and attribute mappings for each specification in the new version. To learn more, see [Creating and publishing specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/creating-publish-specification-versions-somt.md).
 3.  Create the product offering, and then publish it when you update your product catalog.
-4.  Retire or archive old or unused specifications, and product offerings. To learn more, see [Retiring or archiving versioned specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/retiring-archiving-specifications-somt.md).
+4.  Retire or archive old or unused specifications, and product offerings. To learn more, see [Retiring or archiving versioned specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/retiring-archiving-specifications-somt.md).
 
 ## Updates and validations that are performed when you create and publish a product offering version
 
@@ -52,5 +52,5 @@ When you create a version for a published product offering, the ServiceNow AI Pl
     -   **Initial Version**. The name of the base version of the product offering appears but can't be changed.
     -   **Previous Version**: The name of the product offering is as it was in the previous version.
 
-When you publish the updated product version, additional validations are performed on your edits. To learn more, see the Updating and validating copied rules for a new specification version section in [Create and publish a specification version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-publish-new-specification-somt.md).
+When you publish the updated product version, additional validations are performed on your edits. To learn more, see the Updating and validating copied rules for a new specification version section in [Create and publish a specification version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/create-publish-new-specification-somt.md).
 

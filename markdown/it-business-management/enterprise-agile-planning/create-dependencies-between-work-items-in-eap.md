@@ -2,7 +2,7 @@
 title: Create and manage dependencies between work items in EAP
 description: Draw work item dependencies in real-time across teams and iterations and visually analyze them while you collaborate using the Planning board in Enterprise Agile Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -70,5 +70,5 @@ This task is explained using stories in an Agile Release Train \(ART\) as an exa
     6.  Select **OK** to confirm deleting the dependency.
 
 
-**Parent Topic:**[Work item dependencies in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/work-item-dependencies-in-eap.md)
+**Parent Topic:**[Work item dependencies in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/work-item-dependencies-in-eap.md)
 

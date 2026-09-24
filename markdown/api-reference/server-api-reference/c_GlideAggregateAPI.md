@@ -2,7 +2,7 @@
 title: GlideAggregate - Global
 description: The GlideAggregate API enables creating database aggregation queries.Adds an aggregate to a database query.Adds trending by a business calendar to the aggregate query. This method allows you to pick a date and time field in the corresponding GlideRecord and group records based on a specified business calendar time span.Adds an encoded query to the other queries that may have been set for this aggregate.Adds a "having" element to the aggregate, such as select category, count\(\*\) from incident group by category HAVING count\(\*\) &gt; 5.Adds a "having" element to the aggregate, such as select category, count\(\*\) from incident group by category HAVING count\(\*\) &gt; 5. This implementation of the method enables you to specify a specific field within a table or a dynamic attribute to act upon.Adds a trend for a field. Use a trend to show patterns over a period of time.Gets the value of an aggregate from the current record.Returns the value of the dynamic attribute located at a specified path.Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.Returns the display value of the dynamic attribute located at the specified path.Returns the display value of the dynamic attribute located in a specified table field and attribute path.Retrieves the query necessary to return the current aggregate.Retrieves the number of rows in the GlideAggregate object.Returns the number of records by summing an aggregate.Returns the value of a field or a dynamic attribute.Provides the name of a field, or an attribute within a dynamic attribute store, to use when grouping the aggregates.Orders the aggregates using the value of the specified field, dynamic attribute path, or glidefunction. The field is also added to the group-by list.Orders the aggregates based on the specified aggregate and field or dynamic attribute.Issues the query and gets the results.Limits the number of rows from the table to include in the aggregate query.Activates or deactivates the running of business rules for aggregate queries.Sets the query category, which determines how the query is routed to a secondary database.Sets whether to group the results.Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the dayofweek time interval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideAggregateAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_GlideAggregateAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -26,7 +26,7 @@ See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
 **Note:** When using an on-premise system, the database server time zone must be set to GMT/UTC for this class to work properly.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideAggregate - addAggregate\(String agg, String name\)
 
@@ -293,7 +293,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addAggregate\(\) method in a scoped application, use the corresponding scoped method: [addAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the addAggregate\(\) method in a scoped application, use the corresponding scoped method: [addAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - addBizCalendarTrend\(String fieldName, String bizCalendarSysId\)
 
@@ -387,7 +387,7 @@ while (agg.next()) {
 
 ### Scoped equivalent
 
-To use the addEncodedQuery\(\) method in a scoped application, use the corresponding scoped method: [addEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the addEncodedQuery\(\) method in a scoped application, use the corresponding scoped method: [addEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - addHaving\(String name, String operator, String value\)
 
@@ -566,7 +566,7 @@ Incidents by month 11/2018 where count is more than 2 count is: 14
 
 Adds a trend for a field. Use a trend to show patterns over a period of time.
 
-**Note:** To control whether to group **dayofweek** results by year, use [GlideAggregate - setIntervalYearIncluded\(Boolean b\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md).
+**Note:** To control whether to group **dayofweek** results by year, use [GlideAggregate - setIntervalYearIncluded\(Boolean b\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateAPI.md).
 
 <table id="table_tlk_cdk_ws" class="parameters"><thead><tr><th>
 
@@ -651,7 +651,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addTrend\(\) method in a scoped application, use the corresponding scoped method: [addTrend\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the addTrend\(\) method in a scoped application, use the corresponding scoped method: [addTrend\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - getAggregate\(String agg, String name\)
 
@@ -880,7 +880,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getAggregate\(\) method in a scoped application, use the corresponding scoped method: [getAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the getAggregate\(\) method in a scoped application, use the corresponding scoped method: [getAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - getDynamicAttributeValue\(String fullPath\)
 
@@ -1290,7 +1290,7 @@ Software Update counts: MIN = 4 MAX = 98 AVG = 24.0000
 
 ### Scoped equivalent
 
-To use the getRowCount\(\) method in a scoped application, use the corresponding scoped method: [Scoped GlideAggregate - getRowCount\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the getRowCount\(\) method in a scoped application, use the corresponding scoped method: [Scoped GlideAggregate - getRowCount\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - getTotal\(String agg, String name\)
 
@@ -1433,7 +1433,7 @@ Incidents by month 11/2018 where count is more than 2 count is: 14
 
 ### Scoped equivalent
 
-To use the getValue\(\) method in a scoped application, use the corresponding scoped method: [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the getValue\(\) method in a scoped application, use the corresponding scoped method: [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - groupBy\(String name\)
 
@@ -1510,7 +1510,7 @@ ga.query();
 
 ### Scoped equivalent
 
-To use the groupBy\(\) method in a scoped application, use the corresponding scoped method: [groupBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the groupBy\(\) method in a scoped application, use the corresponding scoped method: [groupBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - orderBy\(String name\)
 
@@ -1587,7 +1587,7 @@ while (agg.next()) {
 
 ### Scoped equivalent
 
-To use the orderBy\(\) method in a scoped application, use the corresponding scoped method: [orderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the orderBy\(\) method in a scoped application, use the corresponding scoped method: [orderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - orderByAggregate\(String agg, String fieldName\)
 
@@ -1684,7 +1684,7 @@ while (agg.next()) {
 
 ### Scoped equivalent
 
-To use the orderByAggregate\(\) method in a scoped application, use the corresponding scoped method: [orderByAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the orderByAggregate\(\) method in a scoped application, use the corresponding scoped method: [orderByAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - query\(\)
 
@@ -1727,7 +1727,7 @@ while (agg.next()) {
 
 ### Scoped equivalent
 
-To use the query\(\) method in a scoped application, use the corresponding scoped method: [query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the query\(\) method in a scoped application, use the corresponding scoped method: [query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - setAggregateWindow\(Number firstRow, Number lastRow\)
 
@@ -1766,7 +1766,7 @@ software count: 1
 
 ### Scoped equivalent
 
-To use the setAggregateWindow\(\) method in a scoped application, use the corresponding scoped method: [setAggregateWindow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the setAggregateWindow\(\) method in a scoped application, use the corresponding scoped method: [setAggregateWindow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - setAggregateWorkflow\(Boolean workflow\)
 
@@ -1875,7 +1875,7 @@ ga.query();
 
 ### Scoped equivalent
 
-To use the setCategory\(\) method in a scoped application, use the corresponding scoped method: [setCategory\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the setCategory\(\) method in a scoped application, use the corresponding scoped method: [setCategory\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - setGroup\(Boolean b\)
 
@@ -1922,13 +1922,13 @@ ga.setGroup(true);
 
 ### Scoped equivalent
 
-To use the setGroup\(\) method in a scoped application, use the corresponding scoped method: [setGroup\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the setGroup\(\) method in a scoped application, use the corresponding scoped method: [setGroup\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - setIntervalYearIncluded\(Boolean b\)
 
 Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the **dayofweek** time interval.
 
-Dependency: [GlideAggregate - addTrend\('&lt;fieldName&gt;', 'dayofweek'\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md).
+Dependency: [GlideAggregate - addTrend\('&lt;fieldName&gt;', 'dayofweek'\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateAPI.md).
 
 <table class="parameters"><thead><tr><th>
 
@@ -1990,5 +1990,5 @@ Saturday: 1
 
 ### Scoped equivalent
 
-To use the setIntervalYearIncluded\(\) method in a scoped application, use the corresponding scoped method: [setIntervalYearIncluded\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+To use the setIntervalYearIncluded\(\) method in a scoped application, use the corresponding scoped method: [setIntervalYearIncluded\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 

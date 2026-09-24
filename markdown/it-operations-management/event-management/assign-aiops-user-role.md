@@ -2,7 +2,7 @@
 title: Assign Event Management admin role to group
 description: Assign the evt\_mgmt\_admin role to users who will be in charge of configuration and operational control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/assign-aiops-user-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/assign-aiops-user-role.html
 release: australia
 product: Event Management
 classification: event-management

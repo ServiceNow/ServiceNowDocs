@@ -2,7 +2,7 @@
 title: Configure mapped columns to append or add fields from related tables
 description: Configure dynamic tables in a contract template to display additional data from related table fields by appending it to existing columns or adding it as new columns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-append-data-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-append-data-table.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -22,8 +22,8 @@ As a contract configurator, you can add scripts for configuring the mapped table
 
 ## Before you begin
 
--   Map tables in Microsoft Word document using the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-table.md).
--   Upload and parse the document with the content controls. For more information, see [Complete mapping and upload Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md).
+-   Map tables in Microsoft Word document using the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-addin-table.md).
+-   Upload and parse the document with the content controls. For more information, see [Complete mapping and upload Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md).
 -   Role required: sn\_cm\_core.contract\_config
 
 ## Procedure
@@ -53,5 +53,5 @@ As a contract configurator, you can add scripts for configuring the mapped table
 
 The additional fields will be appended to a column or added as a new column in the contract document that is generated using this template.
 
-**Parent Topic:**[Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-table.md)
+**Parent Topic:**[Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-addin-table.md)
 

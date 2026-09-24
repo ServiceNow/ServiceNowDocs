@@ -2,7 +2,7 @@
 title: Show or hide connected CWM tasks on the planning page
 description: Enable or disable the display of connected Collaborative Work Management \(CWM\) tasks and stories on the Project planning page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/show-hide-connected-tasks-in-planner-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/show-hide-connected-tasks-in-planner-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -48,10 +48,10 @@ The setting is saved as a personal preference for you. Turning it off for one pr
 
 The planning page immediately reflects the setting. Your preference persists across sessions and applies to every project you open.
 
-**Parent Topic:**[Project Workspace integration with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/cwm-integration-pw.md)
+**Parent Topic:**[Project Workspace integration with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/cwm-integration-pw.md)
 
 **Related topics**  
 
 
-[Connected CWM work on the project planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/connected-cwm-work-in-planner-pw.md)
+[Connected CWM work on the project planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/connected-cwm-work-in-planner-pw.md)
 

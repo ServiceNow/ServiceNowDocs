@@ -2,14 +2,14 @@
 title: Configure GitLab for external content indexing
 description: Create a personal access token for a group owner user account on GitLab.com to allow the GitLab external content connector to access your GitLab source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-gitlab-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-gitlab-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [GitLab external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -86,11 +86,11 @@ Your ServiceNow AI Platform instance admin needs this personal access token to c
 Provide the following items to your connector administrator:
 
 -   The URL for your GitLab instance. This is typically [https://gitlab.com/](https://gitlab.com/).
--   The personal access token for the group owner user that you copied in step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-gitlab-external-content-indexing.md).
+-   The personal access token for the group owner user that you copied in step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-gitlab-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a GitLab external content connector to retrieve searchable content and security principals from your GitLab.com instance.
 
-For details on creating and configuring a GitLab external content connector, see [Create a GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-gitlab.md).
+For details on creating and configuring a GitLab external content connector, see [Create a GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-gitlab.md).
 
-**Parent Topic:**[GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/gitlab-external-content-connector.md)
+**Parent Topic:**[GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/gitlab-external-content-connector.md)
 

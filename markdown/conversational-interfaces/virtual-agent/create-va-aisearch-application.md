@@ -2,7 +2,7 @@
 title: Create a custom AI Search experience for Virtual Agent conversations
 description: Define a custom AI Search experience in a conversation using the AI Search topic block. You create a Search Application Configuration used by the topic block to control the AI Search results returned in the conversation. Or you can use the Search Application Configuration to control AI Search results in a custom chat experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-va-aisearch-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-va-aisearch-application.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -54,7 +54,7 @@ Procedure
 
 </td><td>
 
-Add the AI Search topic block to a conversation topic. For details, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).1.  Navigate to **Conversational Interfaces** &gt; **Assistant Designer**, select the **Asset library** tab, and open your topic or [create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+Add the AI Search topic block to a conversation topic. For details, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).1.  Navigate to **Conversational Interfaces** &gt; **Assistant Designer**, select the **Asset library** tab, and open your topic or [create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 2.  In the Flow tab, drag the Topic Block utility onto the canvas.
 3.  Complete the Topic Block Properties sheet:
     -   In the **Topic Block** field, select AI Search.
@@ -74,11 +74,11 @@ The AI Search topic block runs the selected search application configuration to 
 
 </td><td>
 
-Create or update a custom chat experience that uses the Run AI Search topic block with the custom Search Application Configuration. For details on creating a custom experience, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
+Create or update a custom chat experience that uses the Run AI Search topic block with the custom Search Application Configuration. For details on creating a custom experience, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
 
 </td></tr></tbody>
 </table>    Your custom Search Application Configuration is used in the AI Search topic block in a conversation or a custom chat experience to generate the customized AI Search experience.
 
 
-**Parent Topic:**[Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md)
+**Parent Topic:**[Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ai-search.md)
 

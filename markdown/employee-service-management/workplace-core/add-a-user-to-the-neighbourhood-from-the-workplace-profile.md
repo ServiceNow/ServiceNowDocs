@@ -2,7 +2,7 @@
 title: Add or edit a neighborhood assignment of a workplace profile
 description: Add a user or edit a user's neighborhood assignment from their workplace profile directly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/add-a-user-to-the-neighbourhood-from-the-workplace-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/add-a-user-to-the-neighbourhood-from-the-workplace-profile.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -63,5 +63,5 @@ You can also add a user or modify a user's neighborhood assignment from their wo
 
 The user's neighborhood assignment and the neighborhood to which the user belongs is updated. Neighborhood assignments are applicable if **Neighborhood** is selected as the group by or view by option in a scenario or building overview. Location assignments are applicable for all other options.
 
-**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/neighborhoods.md)
+**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/neighborhoods.md)
 

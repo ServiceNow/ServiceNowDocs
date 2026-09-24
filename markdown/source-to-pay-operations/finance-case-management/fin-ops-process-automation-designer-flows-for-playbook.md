@@ -2,7 +2,7 @@
 title: Process Automation Designer flows for playbook
 description: Workflow Studio Playbooks enables you, as a business playbook owner, to organize Workflow Studio content into unified and digitized cross-enterprise processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/fin-ops-process-automation-designer-flows-for-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/fin-ops-process-automation-designer-flows-for-playbook.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -20,7 +20,7 @@ You can customize the Playbook experience with your own configurations and activ
 
 For information on Playbooks, see [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
 
-**Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
+**Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
 
 **Related topics**  
 

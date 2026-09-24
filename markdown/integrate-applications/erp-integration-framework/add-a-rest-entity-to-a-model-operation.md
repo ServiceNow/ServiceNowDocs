@@ -2,7 +2,7 @@
 title: Add a REST entity to a model operation
 description: Specify the REST entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -19,15 +19,15 @@ Specify the REST entity that a Zero Copy Connector for ERP \(Enterprise Resource
 
 ## Before you begin
 
-The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
+The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 The service tables must be populated with any services you want to add using the AI search method. REST services are read from the REST endpoint table.
 
-For an overview of the REST API connector, see [REST API for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-rest-api-connector.md).
+For an overview of the REST API connector, see [REST API for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-rest-api-connector.md).
 
-For information about the REST API connector tables added for Zero Copy Connector for ERP, see [REST API connector tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-rest-api-tables.md).
+For information about the REST API connector tables added for Zero Copy Connector for ERP, see [REST API connector tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-rest-api-tables.md).
 
-Oracle E-Business Suite services described by WADL documents are read from the WADL service tables. For more information, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md)
+Oracle E-Business Suite services described by WADL documents are read from the WADL service tables. For more information, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md)
 
 **Note:** Many REST APIs return deeply nested JSON objects. The connector supports up to three levels of nesting in response mapping. You can define nested levels for both input parameters and output fields in the Model Manager UI.
 
@@ -53,7 +53,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
     \[Omitted image "erp-add-rest-entity-to-model7.png"\] Alt text: Add entity page with select service field specified as workday.
 
-    If you don't see the service you need, add the service. For more information, see [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
+    If you don't see the service you need, add the service. For more information, see [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
 
 9.  In **REST Services**, select a **REST service** from the drop-down list.
 

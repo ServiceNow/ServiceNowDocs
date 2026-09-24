@@ -2,7 +2,7 @@
 title: Field mapping supported field types
 description: Field types that are supported as source and target fields in solution configuration field mappings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/field-mapping-supported-field-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/field-mapping-supported-field-types.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-26"
@@ -35,7 +35,7 @@ Field types that are supported as source and target fields in solution configura
 **Related topics**  
 
 
-[Define field mappings for a solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/define-field-mappings-sol-config.md)
+[Define field mappings for a solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/define-field-mappings-sol-config.md)
 
 [Solution configuration limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

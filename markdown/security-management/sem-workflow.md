@@ -2,7 +2,7 @@
 title: Security Exposure Management workflow
 description: Unified Security Exposure Management \(USEM\) is ServiceNow’s next-generation platform that consolidates multiple security exposure applications—Vulnerability Response \(VR\), Application Vulnerability Response \(AVR\), Container Vulnerability Response \(CVR\), and Configuration Compliance \(CC\)—into a unified architecture. It provides a single source of truth for security exposure, enabling real-time visibility, streamlined workflows, and automated remediation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure evidence file storage
 description: Configure evidence file storage to securely store the evidence file for the DLP Incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/config-evidence-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/config-evidence-file.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -40,15 +40,15 @@ When DLP analyst performs the Download evidence files for DLP Incidents action f
 
 4.  Select the preferred storage type.
 
-<table id="choicetable_hl4_mjf_jcc"><thead><tr><th align="left" id="d471687e124">
+<table id="choicetable_hl4_mjf_jcc"><thead><tr><th align="left" id="d471683e124">
 
 Type
 
-</th><th align="left" id="d471687e127">
+</th><th align="left" id="d471683e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d471687e133">
+</th></tr></thead><tbody><tr><td id="d471683e133">
 
 **Evidence File Storage**
 
@@ -56,7 +56,7 @@ Description
 
 Option to enable the Evidence file storage.
 
-</td></tr><tr><td id="d471687e142">
+</td></tr><tr><td id="d471683e142">
 
 **Storage Type**
 
@@ -72,5 +72,5 @@ Option to select the preferred storage type.**Note:** **ServiceNow Storage**: Th
 
 The evidence files are stored as per the configuration, after the incident ingestion is completed.
 
-**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
+**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
 

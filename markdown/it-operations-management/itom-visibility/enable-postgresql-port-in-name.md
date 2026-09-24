@@ -2,7 +2,7 @@
 title: Include the port number in PostgreSQL instance names
 description: You can make multiple PostgreSQL instances on the same host distinguishable by port number by creating the mid.discovery.postgresql.include\_port\_in\_name MID Server property. This property is supported for UNIX hosts only.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/enable-postgresql-port-in-name.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/enable-postgresql-port-in-name.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -48,10 +48,10 @@ By default, Discovery assigns every PostgreSQL instance the display name **insta
 
 Run Discovery again to apply the change.
 
-**Parent Topic:**[PostgreSQL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DiscoverPostgreSQLInstances.md)
+**Parent Topic:**[PostgreSQL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DiscoverPostgreSQLInstances.md)
 
 **Related topics**  
 
 
-[PostgreSQL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DiscoverPostgreSQLInstances.md)
+[PostgreSQL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DiscoverPostgreSQLInstances.md)
 

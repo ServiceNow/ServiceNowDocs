@@ -2,7 +2,7 @@
 title: Scripting: How to populate set values
 description: View a detailed example of how to use an On Configure/Reconfigure blueprint enrichment script to load field values into a set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

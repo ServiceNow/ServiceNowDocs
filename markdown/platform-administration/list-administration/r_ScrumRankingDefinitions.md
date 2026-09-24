@@ -2,7 +2,7 @@
 title: Scrum ranking definitions
 description: Ranking definitions for user stories are part of the SDLC \(scrum process\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/r\_ScrumRankingDefinitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/r\_ScrumRankingDefinitions.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -28,10 +28,10 @@ Story points for each story are listed in a ranked view, which is useful for pri
 
 \[Omitted image "RankingStoryPoints.png"\] Alt text: Ranking story points
 
--   **[Rank stories in a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_RankingStories.md)**  
+-   **[Rank stories in a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/t_RankingStories.md)**  
 The Context Ranking feature enables all scrum users to manually sort a related list of stories by priority.
 
-**Parent Topic:**[Context ranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_ContextRanking.md)
+**Parent Topic:**[Context ranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/r_ContextRanking.md)
 
 **Related topics**  
 

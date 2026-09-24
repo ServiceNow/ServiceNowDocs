@@ -2,7 +2,7 @@
 title: Payment card tables
 description: This section describes the tables in the Payment card application and shows how they store and manage physical payment card information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/payment-card-application-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/payment-card-application-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ The Expanded Model and Asset Classes Store application contains a Payment Card M
 
 For more information, see [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-model-asset-classes-app.md).
 
-**Parent Topic:**[Payment card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/payment-card-application.md)
+**Parent Topic:**[Payment card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/payment-card-application.md)
 
 **Related topics**  
 

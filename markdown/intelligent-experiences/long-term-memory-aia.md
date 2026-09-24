@@ -2,7 +2,7 @@
 title: Set up long-term memory
 description: Make AI agents remember your preference or facts from previous interactions and use memories for more focused conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/long-term-memory-aia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/long-term-memory-aia.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

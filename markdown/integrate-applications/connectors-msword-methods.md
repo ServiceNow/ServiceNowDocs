@@ -2,7 +2,7 @@
 title: Microsoft Word connector methods
 description: The Microsoft Word connector methods enable you to perform various day-to-day tasks with Microsoft Word documents and automate them. For example, add a page footer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connectors-msword-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connectors-msword-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ To use this method, provide the text to be added to the Text parameter and the f
 |Text|Specifies the text in the footer.|Data in|String|
 |FontSize|Specifies the font size of the text in the footer. Default value is 12.|Data in|Integer|
 
-To provide inputs, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md)
+To provide inputs, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md)
 
 ## AddHeader
 
@@ -691,7 +691,7 @@ To use this method, index of the table row at which the data needs to be set is 
 
 -   **Input**
 
-    [RowIndex](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-msword.md)
+    [RowIndex](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-msword.md)
 
     Provide the column index as follows:
 
@@ -703,5 +703,5 @@ To use this method, index of the table row at which the data needs to be set is 
 |---------|-----------|--------------|---------|
 |RowIndex|Index of row at which data needs to be set. Default value is 0, meaning the data will be set to the first row.|Data in|Integer|
 
-**Parent Topic:**[Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-word-connector.md)
+**Parent Topic:**[Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/microsoft-word-connector.md)
 

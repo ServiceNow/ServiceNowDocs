@@ -2,7 +2,7 @@
 title: Exploring Data Management
 description: Learn about Data Management capabilities and how they help you manage table data in the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/exploring-data-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/exploring-data-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -46,19 +46,19 @@ This infographic depicts how an administrator uses a data management policy to c
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Monitor data usage on your instance over time|[Analyzing data usage on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/viewing-data-usage.md)|Instance admin|
-|Archive older records|[System Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ArchiveData.md)|Instance admin|
-|Delete older or unwanted records automatically|[Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-cleaner.md)|Instance admin|
-|Preview and update records safely|[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/updating-records-safely.md)|Instance admin|
-|Preview and delete records safely|[Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deleting-records-safely.md)|Instance admin|
+|Monitor data usage on your instance over time|[Analyzing data usage on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/viewing-data-usage.md)|Instance admin|
+|Archive older records|[System Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ArchiveData.md)|Instance admin|
+|Delete older or unwanted records automatically|[Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-cleaner.md)|Instance admin|
+|Preview and update records safely|[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/updating-records-safely.md)|Instance admin|
+|Preview and delete records safely|[Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/deleting-records-safely.md)|Instance admin|
 
 ## What to explore next
 
 To learn more about using Data Management, see:
 
--   [Analyzing data usage on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/viewing-data-usage.md)
--   [Managing data growth in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-policies.md)
--   [Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/updating-records-safely.md)
--   [Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deleting-records-safely.md)
--   [Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-reference.md)
+-   [Analyzing data usage on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/viewing-data-usage.md)
+-   [Managing data growth in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/data-management-policies.md)
+-   [Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/updating-records-safely.md)
+-   [Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/deleting-records-safely.md)
+-   [Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/data-management-reference.md)
 

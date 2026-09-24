@@ -2,7 +2,7 @@
 title: Create Feedback in Strategic Planning
 description: Create feedback using the Feedback application and make informed decisions on your product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/create-feedback-in-sp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/product-feedback/create-feedback-in-sp.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -53,7 +53,7 @@ From the feedback page:-   Select **All feedback** card to view all the feedback
 </td><td>
 
 From the feedback page:-   Select **New filter** to create a new filter based on your requirement.
--   Create a new feedback filter. For more information, see [Create feedback filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-feedback-filters.md).
+-   Create a new feedback filter. For more information, see [Create feedback filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/create-feedback-filters.md).
 -   Select **New feedback** from either overview or list page.
 
 
@@ -70,7 +70,7 @@ From the feedback page:-   Select the existing filter card you prefer for compos
 </td></tr></tbody>
 </table>4.  On the form, fill in the fields.
 
-    For more information on fields and description, see [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/feedback-form.md).
+    For more information on fields and description, see [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/feedback-form.md).
 
 5.  Select **Submit**.
 
@@ -79,7 +79,7 @@ From the feedback page:-   Select the existing filter card you prefer for compos
 
 ## What to do next
 
--   [Update Feedback or Product idea records from the list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/update-feedback-or-idea.md)
--   [Associate feedback with a product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-product-idea.md)
--   [Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-planning-item.md)
+-   [Update Feedback or Product idea records from the list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/update-feedback-or-idea.md)
+-   [Associate feedback with a product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/associate-feedback-with-product-idea.md)
+-   [Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/associate-feedback-with-planning-item.md)
 

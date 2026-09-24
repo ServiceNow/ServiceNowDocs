@@ -2,7 +2,7 @@
 title: Invoice case resolution using AI worker
 description: Mark an invoice inquiry case and payment inquiry as resolved to start an automated workflow that requests supplier confirmation through Supplier Collaboration Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-case-resolution-using-ai-worker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-case-resolution-using-ai-worker.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -41,5 +41,5 @@ Mark a supplier invoice case as resolved after completing your investigation and
     **Note:** When a resolution is provided and the case is in **Awaiting acceptance** state, if there is no activity on the case from supplier for 72 hours, a scheduled job closes the case automatically.
 
 
-**Parent Topic:**[AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md)
+**Parent Topic:**[AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md)
 

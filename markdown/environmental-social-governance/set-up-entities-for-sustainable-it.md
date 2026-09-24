@@ -2,7 +2,7 @@
 title: Manually set up entities for Sustainable IT data centers
 description: Create entities for data centers and add them to an entity type. The entity type is then added to the metric definitions that enables the metric definitions to collect data from various data centers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/set-up-entities-for-sustainable-it.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/set-up-entities-for-sustainable-it.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,11 +28,11 @@ To gather emissions data pertaining to your data centers, it is necessary to giv
 
 2.  Create entities with names such as `Paris data center`.
 
-    For information on how to create an entity, refer to [Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity.md). The name that you use when creating an entity is the name that is displayed on the Sustainable IT dashboard. It is important to provide a value in the **Location** field on the entity form. If a particular datacenter has multiple locations, you can name the entities accordingly.
+    For information on how to create an entity, refer to [Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity.md). The name that you use when creating an entity is the name that is displayed on the Sustainable IT dashboard. It is important to provide a value in the **Location** field on the entity form. If a particular datacenter has multiple locations, you can name the entities accordingly.
 
 3.  Create an entity type called `Data center`.
 
-    For information on how to create an entity, refer to [Create an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity-type.md). The name that you use when creating an entity is the name that is displayed on the Sustainable IT dashboard.
+    For information on how to create an entity, refer to [Create an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity-type.md). The name that you use when creating an entity is the name that is displayed on the Sustainable IT dashboard.
 
 4.  Add the entities that you created to the Data center entity type.
 
@@ -43,5 +43,5 @@ To gather emissions data pertaining to your data centers, it is necessary to giv
 
 When the metrics are executed, data from all four entities is collected and displayed on the Sustainable IT dashboard.
 
-**Parent Topic:**[Methods to set up entities for Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/methods-to-set-up-entities.md)
+**Parent Topic:**[Methods to set up entities for Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/methods-to-set-up-entities.md)
 

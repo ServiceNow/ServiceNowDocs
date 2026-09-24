@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Workflow Data Fabric \(WDF\)
 description: The ServiceNow Otto for Workflow Data Fabric \(WDF\) application provides AI-guided assistance for discovering data fabric assets and configuring integrations. Use it to receive contextual recommendations and take actions directly without leaving your workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/exploring-now-assist-for-workflow-data-fabric.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/exploring-now-assist-for-workflow-data-fabric.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -90,6 +90,6 @@ If the sparkle \[Omitted image "image.now-assist-sparkle-icon-dark"\] icon is no
 
 To learn more about configuring and using ServiceNow Otto for WDF, see:
 
--   [Configure ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-workflow-data-fabric.md)
--   [Ask ServiceNow Otto for Workflow Data Fabric \(WDF\) for recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ask-now-assist-for-recommendation.md)
+-   [Configure ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-now-assist-for-workflow-data-fabric.md)
+-   [Ask ServiceNow Otto for Workflow Data Fabric \(WDF\) for recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ask-now-assist-for-recommendation.md)
 

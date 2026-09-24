@@ -2,7 +2,7 @@
 title: Summarize and refine Docs content in EAP using ServiceNow Otto for SPM
 description: Use ServiceNow Otto capabilities to elaborate, shorten, and summarize selected content in Docs, or to get a summary of the whole document in Enterprise Agile Planning \(EAP\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -23,7 +23,7 @@ Use ServiceNow Otto capabilities to elaborate, shorten, and summarize selected c
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
--   [Create a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.md).
+-   [Create a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.md).
 -   Activate the EAP doc summarization ServiceNow Otto skill.
 
 Role required: sn\_apw\_advanced.eap\_user

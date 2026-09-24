@@ -2,7 +2,7 @@
 title: Latency feedback in Virtual Agent
 description: The com.glide.cs.message.processing.enabled system property notifies requesters whenever the generative AI large language model \(LLM\) is processing their request in the Virtual Agent chat widget and ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/latency-feedback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/latency-feedback.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -31,7 +31,7 @@ The latency feedback messages can’t be customized and disappears after the LLM
 
 \[Omitted image "va-latency-feedback-message.png"\] Alt text: "Thinking" is a temporary latency feedback message.
 
-**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
+**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 
 **Related topics**  
 

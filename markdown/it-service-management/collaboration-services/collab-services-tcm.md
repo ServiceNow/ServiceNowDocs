@@ -2,7 +2,7 @@
 title: Collaboration services
 description: Collaboration services provides a way to communicate and collaborate in real-time. You can directly use a collaboration tool from task records and as a channel within communication plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/collab-services-tcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/collaboration-services/collab-services-tcm.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

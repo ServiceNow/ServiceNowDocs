@@ -2,7 +2,7 @@
 title: Cloning options with Instance Data Replication
 description: Ensure that certain tables are preserved or excluded to clone your database from one instance to another successfully with Instance Data Replication \(IDR\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/cloning-with-instance-data-replicaton.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instance-data-replication-idr/cloning-with-instance-data-replicaton.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -20,7 +20,7 @@ There are multiple methods for copying an IDR configuration from one instance to
 
 -   **Capture the configuration in an update set**
 
-    An update set captures a group of configuration changes that you can move from one instance to another but doesn’t include data that a producer replicates to a consumer. You can capture a snapshot of an IDR replication configuration, including selected fields, filters, or data transformations using the **Track in Update Set** option, and then copy it to another instance using an update set. See [Deploying a replication configuration from one instance to another in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/copying-replication-configuration.md).
+    An update set captures a group of configuration changes that you can move from one instance to another but doesn’t include data that a producer replicates to a consumer. You can capture a snapshot of an IDR replication configuration, including selected fields, filters, or data transformations using the **Track in Update Set** option, and then copy it to another instance using an update set. See [Deploying a replication configuration from one instance to another in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/copying-replication-configuration.md).
 
 -   **Copy the configuration using a clone profile**
 
@@ -132,7 +132,7 @@ After performing the true clone, you must perform the following actions on the t
 3.  Re-create the source replication sets using the cloned entry sets from the source instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
+</table>**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 

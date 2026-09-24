@@ -2,7 +2,7 @@
 title: Orchestration ROI premium reports
 description: The premium dashboard provides detailed reports on calculated savings over time.To view the Orchestration ROI premium reports, you must request activation of the Orchestration - ROI Premium \(com.snc.runbook\_automation.roi\_premium\) plugin. The Orchestration - ROI Premium plugin is included with an Orchestration subscription, but must be activated by request.Orchestration ROI premium reports use a Performance Analytics job that must be activated before premium reports can be generated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_OrchestrationROIPremiumDashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/r\_OrchestrationROIPremiumDashboard.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -18,7 +18,7 @@ The premium dashboard provides detailed reports on calculated savings over time.
 
 The ROI premium reports require the Orchestration - ROI Premium plugin and are built using [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PerformanceAnalytics.md). The Orchestration - ROI Premium plugin is dependent on the [Performance Analytics - Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md) plugin which requires a separate subscription.
 
-**Important:** You must activate the Performance Analytics [scheduled collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_OrchestrationROIPremiumDashboard.md) before Orchestration ROI premium can display data.
+**Important:** You must activate the Performance Analytics [scheduled collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_OrchestrationROIPremiumDashboard.md) before Orchestration ROI premium can display data.
 
 To access the ROI premium dashboard, navigate to **Orchestration** &gt; **ROI Reports** &gt; **Premium Dashboard**.
 
@@ -97,7 +97,7 @@ Shows the top 10 automation entries that have the most calculated savings in the
 -   **Table**: Detailed Savings Report \[detailed\_savings\_report\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Orchestration ROI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationROIDashboards.md)
+</table>**Parent Topic:**[Orchestration ROI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationROIDashboards.md)
 
 ## Request Orchestration ROI premium reports
 

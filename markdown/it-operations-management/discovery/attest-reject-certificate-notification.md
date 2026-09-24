@@ -2,7 +2,7 @@
 title: Attest or reject certificate ownership via Email
 description: Attest or reject ownership of a certificate from your certification attestation email notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/attest-reject-certificate-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/attest-reject-certificate-notification.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ Attest or reject ownership of a certificate from your certification attestation 
 
 ## Before you begin
 
--   Verify that your system is configured to send certificate attestation notifications. For more information, see [Configure certificate attestation reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-certificate-attestation.md)
+-   Verify that your system is configured to send certificate attestation notifications. For more information, see [Configure certificate attestation reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/configure-certificate-attestation.md)
 -   Role required: pki\_admin or admin
 
 ## Procedure

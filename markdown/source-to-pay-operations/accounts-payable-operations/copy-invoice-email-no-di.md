@@ -2,7 +2,7 @@
 title: Configure the Invoice email flow without Document Intelligence
 description: Copy and configure the Invoice email flow to create invoice processing cases from inbound emails when Document Intelligence is not installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-no-di.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-no-di.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

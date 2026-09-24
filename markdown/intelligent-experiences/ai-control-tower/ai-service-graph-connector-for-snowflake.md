@@ -2,7 +2,7 @@
 title: AI Service Graph Connector for Snowflake
 description: The AI Service Graph Connector for Snowflake enables you to discover and import AI assets from your Snowflake environment into ServiceNow AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-service-graph-connector-for-snowflake.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-service-graph-connector-for-snowflake.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

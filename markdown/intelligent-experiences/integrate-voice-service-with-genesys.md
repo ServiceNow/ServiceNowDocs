@@ -2,7 +2,7 @@
 title: Integrate ServiceNow voice assistant with Genesys Cloud service \(Audio Connector\)
 description: Enable users to get support from AI voice agents by integrating a ServiceNow AI voice assistant with Genesys Cloud service using the Audio Connector integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-voice-service-with-genesys.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-voice-service-with-genesys.html
 release: australia
 topic_type: task
 last_updated: "2026-06-04"
@@ -101,7 +101,7 @@ Read-only. API key to authenticate your Genesys Cloud service to the ServiceNow 
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
 
-    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md).
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md).
 
 9.  Create Audio Connector integration.
 
@@ -152,5 +152,5 @@ Read-only. API key to authenticate your Genesys Cloud service to the ServiceNow 
     2.  Select a DID number and assign the number to the call route created earlier.
 
 
-**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
+**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
 

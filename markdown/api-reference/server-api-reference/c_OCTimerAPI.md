@@ -2,7 +2,7 @@
 title: OCTimer - Global
 description: The OCTimer script include provides methods to track the length of time it takes for a function to complete.Logs the entry based on the function name.Takes a millisecond value and returns a formatted duration.Calculates the time taken for each function registered.Initializes a timer based on the name provided.Registers the end of the timer for the provided name.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_OCTimerAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_OCTimerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The OCTimer script include provides methods to track the length of time it takes
 
 This script include requires the On-Call Scheduling \(com.snc.on\_call\_rotation\) plugin to be activated. For more information, refer to the topic [Activate On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_ActivateOnCallScheduling.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## OCTimer - log \(String name, String entry\)
 

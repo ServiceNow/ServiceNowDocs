@@ -2,7 +2,7 @@
 title: TPRM List page
 description: The List page is a general-purpose page that enables access to all items that you can view or act on in TPRM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-list-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-list-page.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -24,5 +24,5 @@ To open the List page, select **Workspaces** &gt; **Vendor Management Workspace*
 
 Each of the lists provides links to risk information and to action pages for your day-to-day tasks.
 
-**Parent Topic:**[Viewing third-party risk reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/unified-vrm-workspace.md)
+**Parent Topic:**[Viewing third-party risk reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/unified-vrm-workspace.md)
 

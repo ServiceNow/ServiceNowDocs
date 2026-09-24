@@ -2,7 +2,7 @@
 title: Show or hide the features for a portfolio plan
 description: As a portfolio manager, show or hide the features \(for example, Goals, Scoring, Prioritization, Roadmap, and so on\) for your portfolio plan as needed so that you can share only the required data with your stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -20,11 +20,11 @@ As a portfolio manager, show or hide the features \(for example, Goals, Scoring,
 
 Hiding features for your portfolio plan helps you share only the data that matters to your stakeholders and restrict access to the other data in your portfolio plan.
 
-**Note:** When you [share a portfolio plan with your stake holder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md) providing view access and hiding a feature \(for example, Scoring\), the viewer can only view the enabled features and can't see the hidden feature \(Scoring\) in the shared portfolio plan. However, when you share a portfolio plan providing edit access, the editor can enable or hide the features as required and can view and edit any data in the shared portfolio plan.
+**Note:** When you [share a portfolio plan with your stake holder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md) providing view access and hiding a feature \(for example, Scoring\), the viewer can only view the enabled features and can't see the hidden feature \(Scoring\) in the shared portfolio plan. However, when you share a portfolio plan providing edit access, the editor can enable or hide the features as required and can view and edit any data in the shared portfolio plan.
 
 ## Before you begin
 
-[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
@@ -43,10 +43,10 @@ Role required: sn\_align\_core.apw\_user or business\_stakeholder
 5.  Select **Apply changes**.
 
 
-**Parent Topic:**[Managing portfolio plans in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-portfolio-plans-in-alignment-planner-workspace.md)
+**Parent Topic:**[Managing portfolio plans in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/managing-portfolio-plans-in-alignment-planner-workspace.md)
 
 **Related topics**  
 
 
-[Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md)
+[Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md)
 

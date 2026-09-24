@@ -2,7 +2,7 @@
 title: Assess field-level accuracy for multi-output models
 description: Evaluate the performance of your model by field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/assess-field-level-accuracy-for-multi-output-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/task-intelligence/assess-field-level-accuracy-for-multi-output-models.html
 release: australia
 product: Task Intelligence
 classification: task-intelligence
@@ -61,5 +61,5 @@ Your model must be in Monitoring mode. You can set Monitoring mode on the Assess
 
 ## What to do next
 
-If the accuracy of each field is acceptable, transition your model from monitoring mode to real-time predictions and deploy. If the accuracy of a specific field is not acceptable, you can remove that output field from your model, retrain, and deploy. See [Edit a Task Intelligence model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/edit-a-task-intelligence-model.md) for more information on editing your model.
+If the accuracy of each field is acceptable, transition your model from monitoring mode to real-time predictions and deploy. If the accuracy of a specific field is not acceptable, you can remove that output field from your model, retrain, and deploy. See [Edit a Task Intelligence model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/task-intelligence/edit-a-task-intelligence-model.md) for more information on editing your model.
 

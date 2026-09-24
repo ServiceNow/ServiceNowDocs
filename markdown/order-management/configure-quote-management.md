@@ -2,7 +2,7 @@
 title: Configuring Quote Management
 description: Learn how to set up Quote Management so that your sales agents can create and manage customer quotes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-quote-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-quote-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installing-quote-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installing-quote-management.md)
 
 </td><td>
 
@@ -45,7 +45,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-catalogs.md)
+[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-managing-product-catalogs.md)
 
 </td><td>
 
@@ -57,12 +57,12 @@ Product catalog admin
 
 </td></tr><tr><td>
 
-[Configuring product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-price-list-line.md)
+[Configuring product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-price-list-line.md)
 
 </td><td>
 
-Define the price lists, pricing strategies, and other pricing features that you want to use, unless they've been previously defined.-   Set the [price lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-price-list.md) and pricing strategies that control how pricing is applied to quotes.
--   If you're using cost books, create the [cost books](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-cost-books.md) that define the unit costs for product offerings.
+Define the price lists, pricing strategies, and other pricing features that you want to use, unless they've been previously defined.-   Set the [price lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-price-list.md) and pricing strategies that control how pricing is applied to quotes.
+-   If you're using cost books, create the [cost books](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-cost-books.md) that define the unit costs for product offerings.
 
 </td><td>
 
@@ -82,7 +82,7 @@ Quote Management admin
 
 </td></tr><tr><td>
 
-[Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-activate-location-filter.md)
+[Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-activate-location-filter.md)
 
 </td><td>
 
@@ -94,13 +94,13 @@ Admin
 
 </td></tr><tr><td>
 
-[Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-configure-pdf-documents.md)
+[Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-configure-pdf-documents.md)
 
 </td><td>
 
-Set up PDF template, signers, and Docusign.-   [Create PDF templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-setup-pdf-document-templates.md)
--   [Configure DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-configure-docusign-pdf.md)
--   [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-configure-pdf-document-signers.md)
+Set up PDF template, signers, and Docusign.-   [Create PDF templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-setup-pdf-document-templates.md)
+-   [Configure DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-configure-docusign-pdf.md)
+-   [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-configure-pdf-document-signers.md)
 
 </td><td>
 
@@ -109,25 +109,25 @@ sales\_operations\_specialists
 </td></tr></tbody>
 </table>## What to do next
 
-After completing the configuration tasks, you can start using Quote Management to build and manage customer quotes. See [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md).
+After completing the configuration tasks, you can start using Quote Management to build and manage customer quotes. See [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md).
 
-Optionally, configure [Configuring Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-advanced-approval-management.md) to build automated approval workflows for customer quotes and other Sales Customer Relationship Management entities.
+Optionally, configure [Configuring Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-advanced-approval-management.md) to build automated approval workflows for customer quotes and other Sales Customer Relationship Management entities.
 
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md)**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installing-quote-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installing-quote-management.md)**  
 
 
-**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-reference.md)
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md)
+[ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quoting-experiences-overview.md)
 
-[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 
-[Approving or rejecting quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-or-rejecting-quotes.md)
+[Approving or rejecting quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/approving-or-rejecting-quotes.md)
 
-[Using product offering recommendations in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-prod-recommendations-quote.md)
+[Using product offering recommendations in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-prod-recommendations-quote.md)
 
-[Sync quote and opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/synchronise_quote_and_opportunity.md)
+[Sync quote and opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/synchronise_quote_and_opportunity.md)
 

@@ -2,7 +2,7 @@
 title: Configure prompt injection attack protection
 description: Activate or deactivate prompt injection attack detection settings to protect all generative AI interactions on your instance from malicious inputs and unintended model behaviors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-prompt-injection-attack-protection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configure-prompt-injection-attack-protection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ AI Guardian detects and logs prompt injection attempts across all generative AI 
 
 Prompt injection detection is enabled by default for all ServiceNow Otto skills, except Platform and custom skills, which can be configured manually. The default action is block and log, with a medium severity threshold. When a skill has its own setting, AI Guardian automatically applies the more protective of the two settings, the skill-level setting or the instance-level setting.
 
-You can export logs for review. For more information, see [Export ServiceNow Otto Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/export-now-assist-guardian-logs.md).
+You can export logs for review. For more information, see [Export ServiceNow Otto Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/export-now-assist-guardian-logs.md).
 
 ## Procedure
 
@@ -67,5 +67,5 @@ You can export logs for review. For more information, see [Export ServiceNow Ott
 
 Prompt injection detection is configured on your instance for all generative AI workflows. AI Guardian detects prompt injection attempts based on the severity level you selected and responds according to the action you configured. When a skill has its own setting, the more protective setting applies automatically.
 
-**Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
+**Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-guardian.md)
 

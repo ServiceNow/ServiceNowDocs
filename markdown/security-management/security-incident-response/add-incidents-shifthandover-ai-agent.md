@@ -2,7 +2,7 @@
 title: Generate SIR Shift Handover Report
 description: Chat with an AI agent in the ServiceNow Otto panel to use the Generate SIR Shift Handover Report agentic workflow to help you add a security incident's detail to a shift handover report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-incidents-shifthandover-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/add-incidents-shifthandover-ai-agent.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -28,8 +28,8 @@ If you want to modify this agentic workflow, you can [duplicate](https://raw.git
 
 The Generate SIR Shift Handover Report agentic workflow contains the following agents: Security incident shift handover AI Agent.
 
--   **[Add security incident to shift handover report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-incident-shift-handover.md)**  
+-   **[Add security incident to shift handover report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/add-incident-shift-handover.md)**  
 Chat with an AI agent in the ServiceNow Otto panel to add a security incident details to a shift handover report.
 
-**Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
+**Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
 

@@ -2,7 +2,7 @@
 title: Set up the Vonage spoke
 description: Integrate your ServiceNow instance with the Vonage instance to enable communication between them. With this integration, your ServiceNow instance can automate actions on the Vonage instance, while the Vonage instance can send payloads to your ServiceNow instance.Generate essential credentials, such as API keys, secrets, and signature secrets, to set up your Vonage developer instance. Your ServiceNow instance uses these credentials in the connection record to connect to the Vonage developer instance.Configure a connection record that enables your ServiceNow instance to connect with the Vonage instance and automate various actions on the Vonage instance. For example, create a flow on Workflow Studio that gets your Vonage account balance.Configure a connection record that enables your ServiceNow instance to connect with the Vonage instance and automate various actions on the Vonage instance. For example, create a flow on Workflow Studio that gets your Vonage account balance.Set up webhooks for SMS to enable the Vonage API platform to send data to your ServiceNow instance. For instance, if a flow in your ServiceNow instance sends an API request for call details to the Vonage API but the request fails initially, the webhook ensures that the Vonage API sends the data later.Customise the webhook routing policy and subflow as per your requirement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-vonage-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-vonage-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -210,7 +210,7 @@ Role required: admin
 
 4.  Customize the subflow as per your requirement and publish it.
 
-    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md) for more information about creating and using subflows and [Vonage Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/vonage-spoke.md) for information about the fields that the default routing policy and subflows support.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md) for more information about creating and using subflows and [Vonage Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/vonage-spoke.md) for information about the fields that the default routing policy and subflows support.
 
 5.  Navigate to **Vonage Spoke** &gt; **Vonage WebHook Routing Policy**.
 

@@ -2,7 +2,7 @@
 title: Configure groups for Health and Safety
 description: Configure user groups for Health and Safety for assignment of safety records. You can assign roles to groups to provide access to all group members or assign roles to individual users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/configure-groups-health-and-safety.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/configure-groups-health-and-safety.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -55,7 +55,7 @@ These groups are available for assignment.
 -   Assign roles to the group. For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
 -   Add users to the group.
 
-**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 

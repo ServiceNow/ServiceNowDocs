@@ -2,7 +2,7 @@
 title: Change the status of a workplace location
 description: Change the availability of a workplace location to Active, Future, Temporary, or Retired. The availability of a workplace location for any workplace-related activities is determined based on the status that is set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/change-active-status-of-workplace-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/change-active-status-of-workplace-location.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -77,7 +77,7 @@ A schedule job runs every month and a reminder email is sent to the workplace ma
         -   One week before the **Actual end date**.
         -   On the **Actual start date**.
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

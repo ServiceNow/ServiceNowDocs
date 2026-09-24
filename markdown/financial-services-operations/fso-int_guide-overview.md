@@ -2,7 +2,7 @@
 title: Developer guide
 description: ServiceNow Financial Services Operations \(FSO\) enables financial services institutions \(FSIs\) to securely automate core operational processes through pre-built digital applications and workflows. FSO connects operations across all departments—front, middle, and back-office—for financial institutions with a single platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,5 +16,5 @@ ServiceNow® Financial Services Operations \(FSO\) enables financial services in
 
 This developer guide provides information on how to extend the FSO base capabilities as well as integrate your existing applications with ServiceNow FSO.
 
-Before performing any of the integration tasks described in this document, you must first install the FSO application and perform all of the necessary configuration. For details, see [Configuring Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/setting-up-fso-applications.md).
+Before performing any of the integration tasks described in this document, you must first install the FSO application and perform all of the necessary configuration. For details, see [Configuring Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/setting-up-fso-applications.md).
 

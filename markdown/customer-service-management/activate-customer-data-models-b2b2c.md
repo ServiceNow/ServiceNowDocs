@@ -2,7 +2,7 @@
 title: Activate customer data models for B2B2C
 description: Activate the customer data models for the B2B2C plugin \(com.sn\_csm\_b2b\_consumers\) if you have the admin role. If they aren't already installed, the application includes demo data and installs related ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-customer-data-models-b2b2c.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-customer-data-models-b2b2c.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

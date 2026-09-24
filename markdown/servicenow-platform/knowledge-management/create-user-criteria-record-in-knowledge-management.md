@@ -2,7 +2,7 @@
 title: Create user criteria for controlling access to knowledge bases and articles
 description: Control access to knowledge bases and articles by creating user criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/create-user-criteria-record-in-knowledge-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/create-user-criteria-record-in-knowledge-management.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -20,7 +20,7 @@ Control access to knowledge bases and articles by creating user criteria.
 
 Role required: user\_criteria\_admin
 
-**Note:** To create a user criteria record from the Knowledge module, you must have the user\_criteria\_admin role in addition to the knowledge role. For more information about access, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md).
+**Note:** To create a user criteria record from the Knowledge module, you must have the user\_criteria\_admin role in addition to the knowledge role. For more information about access, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/user-access-knowledge.md).
 
 ## Procedure
 
@@ -150,12 +150,12 @@ With **Match All** selected, only users that meet all of these conditions are ma
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md)
+**Parent Topic:**[Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/user-access-knowledge.md)
 
 **Related topics**  
 
 
-[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
+[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
 
-[Control access at the knowledge article level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
+[Control access at the knowledge article level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
 

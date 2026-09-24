@@ -2,7 +2,7 @@
 title: Set up Virtual Agent for Universal Request integration with Microsoft Teams
 description: Publish the default Virtual Agent topics \(conversation flows\) so that they can be used in the Universal Request integration with Microsoft Teams application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ur-ms-teams-setup-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ur-ms-teams-setup-va.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -56,5 +56,5 @@ You can also clone and modify the default topics or create your own topics to us
     **Note:** If you have already published the **Track Universal Request Status \(Template\)** topic for Universal Request, you can skip this step.
 
 
-**Parent Topic:**[Configure Universal Request integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ur-ms-teams-config-ur.md)
+**Parent Topic:**[Configure Universal Request integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ur-ms-teams-config-ur.md)
 

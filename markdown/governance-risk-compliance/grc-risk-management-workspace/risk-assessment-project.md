@@ -2,7 +2,7 @@
 title: Risk assessment project
 description: You can perform assessments on multiple risks and controls simultaneously by creating a risk assessment project. Risk assessment project enables assessors to review multiple risks and controls to understand their potential impact, likelihood, and associated mitigation strategies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -59,27 +59,27 @@ The following roles are required for a risk assessment project:
 -   Risk assessment project user \[sn\_risk\_advanced.risk\_asmt\_project\_user\]: Provides the ability to create risk assessment projects and update or delete only the projects created by the user.
 -   Risk assessment project manager \[sn\_risk\_advanced.risk\_asmt\_project\_manager\]: Provides the ability to create, update, and delete any risk assessment projects.
 
-For more information, see [Roles installed with the GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/roles-installed-with-risk-ws.md).
+For more information, see [Roles installed with the GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/roles-installed-with-risk-ws.md).
 
--   **[Workflow of risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/workflow-of-risk-assessment-project.md)**  
+-   **[Workflow of risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/workflow-of-risk-assessment-project.md)**  
 The risk assessment project workflow is a structured process to assess multiple risks and controls simultaneously using Risk Workspace.
--   **[Create a risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-assessment-project.md)**  
+-   **[Create a risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-assessment-project.md)**  
 Create a risk assessment project to perform assessments on multiple risks and controls simultaneously using Risk Workspace. You can define the project context, including the assessable entity, Risk assessment methodology \(RAM\), project name, description, and identify and add stakeholders.
--   **[Perform assessment on a risk assessment project in stacked view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-assessment-on-risk-assessment-project.md)**  
+-   **[Perform assessment on a risk assessment project in stacked view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/perform-assessment-on-risk-assessment-project.md)**  
 Perform assessments on multiple risks and controls simultaneously in a risk assessment project using Risk Workspace. You can assess inherent risks, effectiveness of controls, residual risks, and target risks. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
--   **[Perform assessment on a risk assessment project in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-assessment-risk-assessment-project-grid-view.md)**  
+-   **[Perform assessment on a risk assessment project in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/perform-assessment-risk-assessment-project-grid-view.md)**  
 Perform assessments on multiple risks and controls simultaneously in a risk assessment project using the grid view. You can assess inherent risks, effectiveness of controls, residual risks, and target risks. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
--   **[Reassess a risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/reassess-risk-assessment-project.md)**  
+-   **[Reassess a risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/reassess-risk-assessment-project.md)**  
 Reassess a risk assessment project to assess any completed risk assessment project. It verifies that risks are reviewed and updated to reflect new insights or changing conditions, maintaining alignment with organizational goals.
--   **[Reassign assessor for a risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/reassign-assessor-for-risk-assessment-project.md)**  
+-   **[Reassign assessor for a risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/reassign-assessor-for-risk-assessment-project.md)**  
 Reassign assessors for multiple in-progress risk assessment projects simultaneously to minimize disruptions during stakeholder transitions.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 
 **Related topics**  
 
 
-[Workflow of risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/workflow-of-risk-assessment-project.md)
+[Workflow of risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/workflow-of-risk-assessment-project.md)
 
-[Create a risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-assessment-project.md)
+[Create a risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-assessment-project.md)
 

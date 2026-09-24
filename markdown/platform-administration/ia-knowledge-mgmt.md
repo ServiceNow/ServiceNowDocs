@@ -2,7 +2,7 @@
 title: Knowledge management
 description: Configure a self-service platform for users to store, share and manage content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-knowledge-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-knowledge-mgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-26"
@@ -23,5 +23,5 @@ Implement the following steps to complete the configuration:
 
 See [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-center.md) for more information.
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
 

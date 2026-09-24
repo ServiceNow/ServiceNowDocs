@@ -2,7 +2,7 @@
 title: View all departments
 description: You can view the list of all available departments in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-departments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-view-all-departments.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,12 +29,12 @@ Role required: sn\_apm.apm\_user
 4.  Select **Departments**.
 
 
-**Parent Topic:**[Manage departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-departments.md)
+**Parent Topic:**[Manage departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-departments.md)
 
 **Related topics**  
 
 
-[Add or edit a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-department.md)
+[Add or edit a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-or-edit-a-department.md)
 
-[Add a user to a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-a-new-user-to-a-deparment.md)
+[Add a user to a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-a-new-user-to-a-deparment.md)
 

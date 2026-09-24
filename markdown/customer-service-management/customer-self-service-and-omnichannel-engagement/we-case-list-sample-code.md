@@ -2,7 +2,7 @@
 title: Sample code for the Case list component
 description: Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-list-sample-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-list-sample-code.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -57,11 +57,11 @@ console.log(errorMessage, errorType);
 **Related topics**  
 
 
-[Configure the Case list component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-case-list-component-on-instance.md)
+[Configure the Case list component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-case-list-component-on-instance.md)
 
-[Embed the Case list component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-list-component-on-third-party-website.md)
+[Embed the Case list component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-list-component-on-third-party-website.md)
 
-[Component properties for the Case list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/component-properties-for-the-case-list.md)
+[Component properties for the Case list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/component-properties-for-the-case-list.md)
 
-[Event handler in the Case list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-case-list-event-handlers.md)
+[Event handler in the Case list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-case-list-event-handlers.md)
 

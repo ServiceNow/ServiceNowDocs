@@ -2,7 +2,7 @@
 title: Funnels tab
 description: Funnels provide cumulative filtering of conversation flows. Using funnels, you can identify whether your conversation flows are performing effectively when users chat with Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/funnels-tab-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/funnels-tab-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -74,5 +74,5 @@ You can compare the performance of previous and current conversation flows. Funn
 
 \[Omitted image "prev-metrics.png"\] Alt text: The change from previous metrics displays at the bottom of the card. For example, the percentage of users may display as a 25% increase from the previous 8 days.
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

@@ -2,7 +2,7 @@
 title: Mandatory fields in the bulk import spreadsheets
 description: A list of the mandatory fields in the model, asset, and model and asset templates for bulk import in the Enterprise Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/mandatory-bulk-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/mandatory-bulk-fields.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -910,7 +910,7 @@ The values entered in the following columns must exist in the database:
 -   Asset failure impact
 -   Asset failure likelihood
 
-**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

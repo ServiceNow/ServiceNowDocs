@@ -2,7 +2,7 @@
 title: Configure approvals for a workflow
 description: Attach approvals to a workflow so issues or remediation tasks require approval before certain actions can be completed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-approvals-for-a-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/configure-approvals-for-a-workflow.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,7 +18,7 @@ Attach approvals to a workflow so issues or remediation tasks require approval b
 
 ## Before you begin
 
-An approval configuration record must already exist for the approval that you want to attach. See [Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md).
+An approval configuration record must already exist for the approval that you want to attach. See [Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md).
 
 Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
@@ -53,7 +53,7 @@ For a State Change approval, an issue can't move beyond the associated state unt
 
 ## What to do next
 
-Review and activate the workflow. See [Review and activate a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/review-and-activate-a-workflow.md).
+Review and activate the workflow. See [Review and activate a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/review-and-activate-a-workflow.md).
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

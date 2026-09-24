@@ -2,7 +2,7 @@
 title: SLO list page
 description: As a supplier manager, use the list page to work on the various supplier case types, view the cases and tasks assigned to you, all the cases and tasks, all the unassigned tasks, Knowledge Base articles, and active suppliers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/supp-workspace-list-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/supp-workspace-list-page.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -49,7 +49,7 @@ Review needed
 -   Unassigned cases: Displays a list of all the unassigned cases.
 -   Unassigned tasks: Displays a list of all the unassigned tasks.
 
- For more information, see [Create a task for a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-task-for-supp-case.md).
+ For more information, see [Create a task for a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-new-task-for-supp-case.md).
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ All work
 -   Interactions: Displays a list of all the interactions.
 -   Closed interactions: Displays a list of all the closed interactions.
 
- For more information, see [Interaction Management in Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/interaction-mgmt-supplier-mgr-ws.md).
+ For more information, see [Interaction Management in Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/interaction-mgmt-supplier-mgr-ws.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Primary Data
 Suppliers: Displays a list of active suppliers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Source-to-Pay Workspace list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-list-page.md)
+</table>**Parent Topic:**[Source-to-Pay Workspace list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-list-page.md)
 
 **Related topics**  
 

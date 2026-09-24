@@ -2,7 +2,7 @@
 title: Translate a Universal Request field
 description: Use dynamic translation to translate Universal Request fields to another language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-use-dynamic-translation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-use-dynamic-translation.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -39,5 +39,5 @@ As of now, you can only translate the short description, description and work no
     A translate icon \[Omitted image "icon-translation.png"\] Alt text: Dynamic translation icon appears next to the fields. The logged-in user can click on \[Omitted image "icon-translation.png"\] Alt text: Dynamic translation icon to translate the text to their preferred language as configured. \[Omitted image "ur-dynamic-translation.gif"\] Alt text: Dynamic translation in action
 
 
-**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

@@ -2,7 +2,7 @@
 title: Define a metric
 description: Create a metric definition for a task table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-metric.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-metric.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -82,7 +82,7 @@ Type
 
 </td><td>
 
-Select what values this metric generates.-   **Field value duration**: This type of metric measures the duration of time from when the value of the specified field is set until it’s changed. A Field value duration metric can optionally specify a script. The script can either return a duration value or set the answer variable to false to stop processing the metric. For example, the baseline incident metrics stop calculating duration when the Active field of an incident is set to false. The script can also carry out any other action such as closing the duration of other metrics defined on the same record. For more information, see [Sample field value duration script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SampleFieldValueDurationScript.md).
+Select what values this metric generates.-   **Field value duration**: This type of metric measures the duration of time from when the value of the specified field is set until it’s changed. A Field value duration metric can optionally specify a script. The script can either return a duration value or set the answer variable to false to stop processing the metric. For example, the baseline incident metrics stop calculating duration when the Active field of an incident is set to false. The script can also carry out any other action such as closing the duration of other metrics defined on the same record. For more information, see [Sample field value duration script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_SampleFieldValueDurationScript.md).
 -   **Script calculation**: This type of metric creates a metric instance using a script. The script has access to the current row in the table \(for example an incident\) and the metric definition. The script must perform metric calculations and insert data into the metric\_instance table. The calculation doesn’t have to result in a duration. It can calculate any type of value and store it in the metric instance value.
 
 
@@ -92,7 +92,7 @@ Timeline
 
 </td><td>
 
-Check this box to display the metric on a timeline page. For more information, see [Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md).
+Check this box to display the metric on a timeline page. For more information, see [Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_TimelinePages.md).
 
 </td></tr><tr><td>
 

@@ -2,7 +2,7 @@
 title: Create notification content for Microsoft Teams
 description: Create notifications to send messages directly to your employees through Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-campaign-content-publish-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/create-campaign-content-publish-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,9 +18,9 @@ Create notifications to send messages directly to your employees through Microso
 
 ## Before you begin
 
--   [Install the necessary plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams.md)
+-   [Install the necessary plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams.md)
 -   Role required: sn\_cd.campaign\_manager
--   A Microsoft Teams notification includes a link [Create a video, URL, or to-do link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
+-   A Microsoft Teams notification includes a link [Create a video, URL, or to-do link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
 
 ## Procedure
 
@@ -28,15 +28,15 @@ Create notifications to send messages directly to your employees through Microso
 
 2.  Either use an existing content record or create a notification.
 
-<table id="choicetable_chl_pby_h5b"><thead><tr><th align="left" id="d620131e97">
+<table id="choicetable_chl_pby_h5b"><thead><tr><th align="left" id="d620106e97">
 
 Record source
 
-</th><th align="left" id="d620131e100">
+</th><th align="left" id="d620106e100">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d620131e106">
+</th></tr></thead><tbody><tr><td id="d620106e106">
 
 **Existing content record**
 
@@ -44,7 +44,7 @@ Action
 
 Select the content record from the list.
 
-</td></tr><tr><td id="d620131e115">
+</td></tr><tr><td id="d620106e115">
 
 **New content**
 
@@ -123,9 +123,9 @@ Option to indicate that the notification is active and available.
 
 ## What to do next
 
-Make the content available to users: [Schedule delivery of Microsoft Teams notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/schedule-delivery-content.md).
+Make the content available to users: [Schedule delivery of Microsoft Teams notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/schedule-delivery-content.md).
 
-Alternatively, you can build out a more robust publishing configuration using [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
+Alternatively, you can build out a more robust publishing configuration using [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 
-**Parent Topic:**[Create a Microsoft Teams campaign using direct content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-publishing.md)
+**Parent Topic:**[Create a Microsoft Teams campaign using direct content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-campaign-content-publishing.md)
 

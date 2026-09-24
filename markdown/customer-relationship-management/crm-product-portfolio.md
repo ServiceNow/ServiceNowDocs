@@ -2,7 +2,7 @@
 title: CRM products
 description: Use the ServiceNow CRM products to manage customer interactions, service requests, field operations, and order fulfillment across the full customer lifecycle. Whether you are starting or expanding a CRM implementation, learn more about the available products, features, and workflows that can help your organization deliver consistent, connected customer experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-product-portfolio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-product-portfolio.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-30"

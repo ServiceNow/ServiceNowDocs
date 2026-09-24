@@ -2,7 +2,7 @@
 title: Validation framework for Register of Information in Operational Resilience
 description: The validation framework helps to verify that RoI packages meet regulatory requirements defined by the DORA.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/opres-dora-validate-roi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/opres-dora-validate-roi.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -86,7 +86,7 @@ Refer to the following guidance to troubleshoot common validation issues when su
 -   Validation report is difficult to interpret: The report lacks context or field labels are unclear. Download the template and use it to cross-reference the row number, sheet name, and record identifier. This helps locate the affected record and understand the validation error in context.
 -   File size or encoding issues: The uploaded ZIP file exceeds the 5 MB limit or uses unsupported encoding. Compress the file to meet the size requirement and ensure all CSV files use UTF-8 encoding. Re-upload the corrected package.
 
-For more information, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-validate-roi.md).
+For more information, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/opres-drtp-validate-roi.md).
 
-**Parent Topic:**[Exploring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/exploring-digi-resi-third-party-registers.md)
+**Parent Topic:**[Exploring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/exploring-digi-resi-third-party-registers.md)
 

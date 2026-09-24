@@ -2,7 +2,7 @@
 title: Cost Center Stage inbound staging table
 description: The Cost Center Stage inbound \[sn\_fcms\_intg\_imp\_cost\_center\] staging table temporarily stores important data about cost centers before this data is sent to the primary table. You can use this table to lookup all the cost center details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/spo-cost-center-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-cost-center-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -33,7 +33,7 @@ The following table lists the mandatory fields for the Cost Center Stage inbound
 |Valid from|String|Date the cost center is valid from|
 |Valid to|String|Date the cost center is valid to|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

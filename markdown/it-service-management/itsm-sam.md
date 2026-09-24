@@ -2,7 +2,7 @@
 title: ITSM Software Asset Management
 description: The software asset management features of the ITSM suite can be activated using one of the plugins in the feature table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-sam.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ Description
 
 </td><td>
 
-[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
+[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
 
 </td><td>
 
@@ -54,17 +54,17 @@ Manage your software assets using manual normalization and reconciliation to det
 
 </td><td>
 
-[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
+[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
 
 </td><td>
 
 Manage your software licenses.
 
 </td></tr></tbody>
-</table>-   **[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)**  
+</table>-   **[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)**  
 The legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin activates the legacy ITSM Software Asset Management feature that is provided with the Asset Management application.
--   **[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)**  
+-   **[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)**  
 The Software Asset Management Foundation plugin activates the ITSM Software Asset Management feature provided with the Asset Management application.
 
-**Parent Topic:**[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management-core.md)
+**Parent Topic:**[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/asset-management-core.md)
 

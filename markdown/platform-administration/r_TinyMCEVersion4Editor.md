@@ -2,7 +2,7 @@
 title: Table functions in HTML field editor
 description: TinyMCE version 6.8.2 uses menus and menu selections to create and edit tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_TinyMCEVersion4Editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_TinyMCEVersion4Editor.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

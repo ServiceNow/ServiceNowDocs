@@ -2,7 +2,7 @@
 title: Track reservations using the Event planner
 description: As a reservation planner and a reservation viewer, the Event planner enables you to monitor the reservations that are requested in your workplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-reservation-details-in-the-event-planner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/view-reservation-details-in-the-event-planner.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -80,5 +80,5 @@ You can view all the reservations that are currently active and also the reserva
 8.  To view all the reservations created in the workplace in a schedule view, select **Open schedule view**.
 
 
-**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-event-planner.md)
 

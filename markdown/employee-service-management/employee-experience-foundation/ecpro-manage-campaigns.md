@@ -2,7 +2,7 @@
 title: Create a campaign
 description: Create a campaign to push communications and important information to your employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-manage-campaigns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ecpro-manage-campaigns.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -64,9 +64,9 @@ Audience
 
 </td><td>
 
-Audience that will view the content of a campaign. Click the Unlock Audience icon to select the audience that you want the campaign to target. For more information, see [Create an audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-audiences.md).
+Audience that will view the content of a campaign. Click the Unlock Audience icon to select the audience that you want the campaign to target. For more information, see [Create an audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-audiences.md).
 
-**Note:** After a campaign is in the Published state, you cannot add users. To add new users to a published campaign, click the **Edit Campaign** button. Or, go to the specific content of a campaign and use the **Refine audience** field. For more information, see [Create content for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-content.md).
+**Note:** After a campaign is in the Published state, you cannot add users. To add new users to a published campaign, click the **Edit Campaign** button. Or, go to the specific content of a campaign and use the **Refine audience** field. For more information, see [Create content for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-content.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Re-evaluate frequency
 
 The frequency, in days, that you want to re-evaluate the audience. Audiences are re-evaluated after the **Content Experiences: Update Campaign Audience** scheduled job runs based on the value you enter here.This field appears only after you select the **Re-evaluate campaign** check box.
 
- This field allows you to override the default \(7 days\) value that is set in the **Campaign Re-evaluation** field in the Content Experiences system property. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
+ This field allows you to override the default \(7 days\) value that is set in the **Campaign Re-evaluation** field in the Content Experiences system property. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Tracking on
 
 </td><td>
 
-Option for capturing analytics for your campaign. For more information about campaign analytics, see [Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md).
+Option for capturing analytics for your campaign. For more information about campaign analytics, see [Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md).
 
  This field appears only when a tracking profile is selected from the **Tracking profile** field.
 
@@ -158,7 +158,7 @@ Select **Clone Campaign** to copy the campaign, bundles or stages, and content. 
 
 Select **Next** or the **Schedule of Content** tab to view the **Schedule of content** and access the **Content library**, stages, and content of the campaign.
 
-Select the **Portal preview** tab to show the content you want to appear in your campaign. You can use filters to determine what you want to preview from the portal or single content. For more information, see [Preview your portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaign-preview-use.md) and [Preview single content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaign-pre-piece.md).
+Select the **Portal preview** tab to show the content you want to appear in your campaign. You can use filters to determine what you want to preview from the portal or single content. For more information, see [Preview your portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaign-preview-use.md) and [Preview single content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaign-pre-piece.md).
 
 After completing all parts of a campaign, click the **Publish** button.
 
@@ -170,7 +170,7 @@ The Trigger Campaign Published Workflow business rule executes and the scheduled
 -   Add Non-Portal Campaign Content: Email, SMS, Push, and To-do content are being added and ready to be distributed.
 -   Delivering Content: The audience and content has been defined and in the process of delivering the content.
 
-The other scheduled jobs related to re-evaluate a campaign and frequency are not affected by this sys property. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
+The other scheduled jobs related to re-evaluate a campaign and frequency are not affected by this sys property. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
 
 Publishing a campaign prior to the start date enables the scheduled jobs to add users to the campaign and create and schedule the content for the campaign.
 

@@ -2,7 +2,7 @@
 title: Activate Field Service with Service Locations Support
 description: You can activate the Field Service with Service Locations Support \(com.snc.fsm\_service\_locations\) plugin if you have the admin role. The application includes demo data and installs related plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/activate-service-location-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/activate-service-location-plugin.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -24,7 +24,7 @@ Role required: admin
 
 Activation of Field Service with Service Locations Support \(com.snc.fsm\_service\_locations\) plugin activates Field Service Management \(com.snc.work\_management\) and sn-fsm-components \(com.sn\_fsm\_components\) plugins if they are not already active.
 
-For more information, see [Field Service with Service Locations Support components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/service-locations-components.md).
+For more information, see [Field Service with Service Locations Support components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/service-locations-components.md).
 
 ## Procedure
 

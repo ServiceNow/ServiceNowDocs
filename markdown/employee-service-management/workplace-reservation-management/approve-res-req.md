@@ -2,7 +2,7 @@
 title: Approve a reservation
 description: Review employee reservations raised using Workplace Reservation Management and approve or reject them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/approve-res-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/approve-res-req.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -31,7 +31,7 @@ Role required: approver\_user
 4.  Approve or reject the reservation by selecting **Approve** or **Reject**.
 
 
-**Parent Topic:**[Manage employee reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/manage-reservation-requests.md)
+**Parent Topic:**[Manage employee reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/manage-reservation-requests.md)
 
 **Related topics**  
 

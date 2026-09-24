@@ -2,7 +2,7 @@
 title: ServiceNow Studio and legacy products
 description: If you previously used Guided Application Creator or the legacy Studio product to develop apps, use ServiceNow Studio to continue your app development. ServiceNow Studio replaces both products with a unified development environment on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-and-legacy-products.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/servicenow-studio-and-legacy-products.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -30,7 +30,7 @@ Both Guided Application Creator \(GAC\) and legacy Studio are supported until a 
 
 ServiceNow Studio provides a unified environment where you can find, organize, and edit your work using a consistent navigation structure and metadata taxonomy. Every development tool you need is accessible in one place, so you can switch between tools without leaving ServiceNow Studio. When your app is ready to deploy, manage the deployment using update sets or pipelines. ServiceNow Studio also includes native support for ServiceNow Otto, providing access to generative AI capabilities and low-code development tools.
 
-As of version 29.2.11, ServiceNow IDE capabilities have been integrated into ServiceNow Studio. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
+As of version 29.2.11, ServiceNow IDE capabilities have been integrated into ServiceNow Studio. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
 
 ## ServiceNow Studio and changed functionality
 

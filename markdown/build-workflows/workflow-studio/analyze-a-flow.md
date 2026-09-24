@@ -2,7 +2,7 @@
 title: Analyze a flow
 description: Have ServiceNow Otto for Creator scan a flow's execution details, identify errors, and suggest fixes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/analyze-a-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/analyze-a-flow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -23,7 +23,7 @@ Role required:
 -   now.assist.creator
 -   flow\_designer or admin
 
-Turn on the flow summarization skill. See [Turn on the Flow execution analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-the-flow-execution-analysis-skill.md).
+Turn on the flow summarization skill. See [Turn on the Flow execution analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-the-flow-execution-analysis-skill.md).
 
 ## Procedure
 
@@ -42,5 +42,5 @@ Turn on the flow summarization skill. See [Turn on the Flow execution analysis s
 
 ServiceNow Otto for Creator analyzes the flow, identifies errors, and suggests fixes.
 
-**Parent Topic:**[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-analysis-landing.md)
+**Parent Topic:**[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-analysis-landing.md)
 

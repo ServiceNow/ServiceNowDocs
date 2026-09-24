@@ -2,7 +2,7 @@
 title: Associate an initiative with a project
 description: Associate an existing improvement initiative with a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/associate-initiative.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/associate-initiative.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -35,5 +35,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 The associated improvement initiative displays in the refreshed initiatives list.
 
-**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/initiatives-from-process-optimization.md)
+**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/initiatives-from-process-optimization.md)
 

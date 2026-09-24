@@ -2,7 +2,7 @@
 title: HL7 v2.x Integration and domain separation
 description: HL7 v2.x Integration does not support domain separation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-domain-separation.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-30"

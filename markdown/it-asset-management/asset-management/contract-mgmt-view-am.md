@@ -2,7 +2,7 @@
 title: Contract management view
 description: Use the Contract management view in the Asset Workspace to view and manage details of contracts such as Contract number, Contract start and end dates, terms and conditions statements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/contract-mgmt-view-am.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/contract-mgmt-view-am.html
 release: australia
 product: Asset Management
 classification: asset-management

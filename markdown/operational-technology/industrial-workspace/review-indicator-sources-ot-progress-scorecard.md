@@ -2,7 +2,7 @@
 title: Review the indicator sources for a large number of records
 description: Review the indicator sources if you need a large number of records. You can override the records collection so that the Operational Technology \(OT\) Progress Scorecard shows more records than the default value of 1 million.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/review-indicator-sources-ot-progress-scorecard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/review-indicator-sources-ot-progress-scorecard.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -51,5 +51,5 @@ The job logs may include errors that aren't about the indicator sources. You mus
 6.  Select **Update**.
 
 
-**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
+**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
 

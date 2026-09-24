@@ -2,7 +2,7 @@
 title: Assign roles to Workflow Data Fabric Home users
 description: Assign roles to control access to features, capabilities, and data in Workflow Data Fabric Home.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/assign-roles-to-wdf-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/assign-roles-to-wdf-users.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For detailed information about roles that are installed with Workflow Data Fabric Home, see [Workflow Data Fabric Home roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-workflow-data-fabric.md).
+For detailed information about roles that are installed with Workflow Data Fabric Home, see [Workflow Data Fabric Home roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/installed-with-workflow-data-fabric.md).
 
 ## Procedure
 

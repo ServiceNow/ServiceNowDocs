@@ -2,7 +2,7 @@
 title: Migration of UI actions and layouts from ITSM Agent Workspace to Service Operations Workspace for ITSM
 description: Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM includes identifying the required tables, identifying the eligible UI actions and layout records for migrations, and the migration process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/ui-actions-layouts-migration-itsm-aw-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/ui-actions-layouts-migration-itsm-aw-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -68,10 +68,10 @@ The Service Operations Workspace migration utility uses the following sequence t
     3.  Searches for Sys Ux M2m Action Layout Item \[sys\_ux\_m2m\_action\_layout\_item\] table records that are mapped to the UX Form Actions Layout \[sys\_ux\_form\_action\_layout\] table record.
     4.  If a mapped record isn’t found, creates a Sys Ux M2m Action Layout Item \[sys\_ux\_m2m\_action\_layout\_item\] table record.
 
--   **[Perform post-migration tasks for UI actions and layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/verify-migration-status-ui-actions-layouts.md)**  
+-   **[Perform post-migration tasks for UI actions and layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/verify-migration-status-ui-actions-layouts.md)**  
 Verify that the UI actions and layouts in Service Operations Workspace \(SOW\) are consistent with UI actions and layouts in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated UI actions and layouts settings in SOW based on your requirements.
 
-**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
+**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
 
 **Related topics**  
 

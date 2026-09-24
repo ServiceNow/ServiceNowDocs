@@ -2,7 +2,7 @@
 title: Create a portfolio
 description: Create a portfolio to manage related programs, projects, and demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/t\_CreateAPortfolio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-management/t\_CreateAPortfolio.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -72,7 +72,7 @@ Portfolio Planning
 
 </td><td>
 
-Link to open Portfolio Planning Workbench for scenario planning. This related link is available when Scenario Planning for PPM is installed in your instance. For more information, see [Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md).
+Link to open Portfolio Planning Workbench for scenario planning. This related link is available when Scenario Planning for PPM is installed in your instance. For more information, see [Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/portfolio-planning-overview.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Cost Plans
 
 </td><td>
 
-List of cost plans of [projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md) and [demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateADemandCostPlan.md) that are part of the portfolio.
+List of cost plans of [projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectCostPlan.md) and [demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreateADemandCostPlan.md) that are part of the portfolio.
 
 </td></tr><tr><td>
 
@@ -149,7 +149,7 @@ Monetary Benefit Plans
 
 </td><td>
 
-List of monetary benefit plans of [projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md) and [demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateADemandCostPlan.md) that are part of the portfolio.To create a monetary benefit plan, open the project or demand record and select **New** in the Monetary Benefit Plans related list.
+List of monetary benefit plans of [projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectCostPlan.md) and [demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreateADemandCostPlan.md) that are part of the portfolio.To create a monetary benefit plan, open the project or demand record and select **New** in the Monetary Benefit Plans related list.
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ Non-monetary Benefit Plans
 
 </td><td>
 
-List of non-monetary benefit plans of [projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md) and [demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateADemandCostPlan.md) that are part of the portfolio.To create a non-monetary benefit plan, open the project or demand record and select **New** in the Non-monetary Benefit Plans related list.
+List of non-monetary benefit plans of [projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectCostPlan.md) and [demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreateADemandCostPlan.md) that are part of the portfolio.To create a non-monetary benefit plan, open the project or demand record and select **New** in the Non-monetary Benefit Plans related list.
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ Portfolio Target
 
 </td><td>
 
-List of portfolio capital and operational expense target for different fiscal years. The values are displayed from the project\_funding table. Set these values in the [Portfolio Target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/select-fiscal-period-set-target.md) window on the portfolio form. You can create targets for different financial periods.**Note:** The PPS admin can also set the portfolio target by navigating to **Project Administration** &gt; **Enter Portfolio Target**.
+List of portfolio capital and operational expense target for different fiscal years. The values are displayed from the project\_funding table. Set these values in the [Portfolio Target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/select-fiscal-period-set-target.md) window on the portfolio form. You can create targets for different financial periods.**Note:** The PPS admin can also set the portfolio target by navigating to **Project Administration** &gt; **Enter Portfolio Target**.
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ Planning &amp; Budgeting
 According to the fiscal years, lists projects and demands that are part of the portfolio. You can include or exclude a project or demand from the portfolio budget plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/c_PortfolioManagement.md)
+</table>**Parent Topic:**[Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_PortfolioManagement.md)
 
 **Related topics**  
 

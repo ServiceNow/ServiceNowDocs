@@ -2,7 +2,7 @@
 title: Exclude relationships from the relations formatter view
 description: Create a list of relationships that should not appear in the relations formatter view on CI forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/exclude-relationship.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/exclude-relationship.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -36,5 +36,5 @@ Role required:
     Excluded relationships do not appear in the relations formatter view on CI forms.
 
 
-**Parent Topic:**[CI relations formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationsFormatterNG.md)
+**Parent Topic:**[CI relations formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CIRelationsFormatterNG.md)
 

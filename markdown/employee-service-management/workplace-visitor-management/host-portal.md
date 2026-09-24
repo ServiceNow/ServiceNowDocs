@@ -2,7 +2,7 @@
 title: Host portal
 description: Use the host portal to manage visits and visitors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/host-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/host-portal.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -29,7 +29,7 @@ As a host, you can use the portal for the following:
 
 \[Omitted image "wsd-visitor-host-portal.png"\] Alt text: Host portal displaying a list of visits. A single visit is selected and the details are displayed in a separate panel.
 
-**Parent Topic:**[Exploring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
+**Parent Topic:**[Exploring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
 
 **Related topics**  
 

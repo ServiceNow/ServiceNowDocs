@@ -2,7 +2,7 @@
 title: Hide the chat button on the custom portal
 description: Hide the chat option for your custom portal that appears in the Employee Center tab within Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/disable-chat-button-teams-custom-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/disable-chat-button-teams-custom-portal.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -48,5 +48,5 @@ Role required: admin
 6.  Refresh the custom portal tab in Microsoft Teams.
 
 
-**Parent Topic:**[Embed a custom portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/customize-custom-portal-employee-center.md)
+**Parent Topic:**[Embed a custom portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/customize-custom-portal-employee-center.md)
 

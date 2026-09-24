@@ -2,7 +2,7 @@
 title: Request translations for missing languages in Agent Workspace
 description: Request to translate a published knowledge article in available languages by creating a translation task in Agent Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/request-translations-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/request-translations-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -27,7 +27,7 @@ Ensure that the system administrator verifies the following settings:
 
     **Note:** The 18N: Internationalization plugin \(com.glide.i18n\) activates the I18N: Knowledge Management Internationalization Plugin v2 plugin.
 
--   The **glide.knowman.translation.enable\_translation\_task** property is set to `true` in the ServiceNow AI Platform interface. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+-   The **glide.knowman.translation.enable\_translation\_task** property is set to `true` in the ServiceNow AI Platform interface. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 Role required: agent\_workspace\_user
 
@@ -57,7 +57,7 @@ The translation task is created for the article in the selected languages and as
 **Related topics**  
 
 
-[Create translation assignments for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-translation-assignments.md)
+[Create translation assignments for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-translation-assignments.md)
 
-[Translate a knowledge article from a translation task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translate-article-agent.md)
+[Translate a knowledge article from a translation task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/translate-article-agent.md)
 

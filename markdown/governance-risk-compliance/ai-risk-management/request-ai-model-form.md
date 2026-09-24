@@ -2,7 +2,7 @@
 title: Request an AI model form
 description: The Request an AI model form is designed to streamline the request process for developing or procuring an AI model. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/request-ai-model-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/request-ai-model-form.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -206,5 +206,5 @@ Required infrastructure
 Description of the Hardware and software resources needed to deploy and run the AI model. For example, you can mention that one graphics processing unit \(GPU\) of type A100 is required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-model.md)
+</table>**Parent Topic:**[Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-ai-model.md)
 

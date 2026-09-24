@@ -2,7 +2,7 @@
 title: Workflow assignments
 description: An alternative to creating data lookup or assignment rules is to create one or more workflow tasks that assign a task record as part of a workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_WorkflowAssignments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/c\_WorkflowAssignments.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -20,7 +20,7 @@ Consider using [Task workflow activities](https://raw.githubusercontent.com/Serv
 
 When using a workflow to manage task assignments, add a brief [Timer workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/r_Timer.md) to the start of the workflow. Without this timer activity, the workflow runs before the parent record, the current record, is inserted into the database. After the timer activity completes, the workflow resumes using the parent record information from the database instead of the original current. Pausing a workflow in this way does not change a default workflow to a deferred workflow. For more information on how the workflow engine interacts with the database, see [Workflow engine operation order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowEngineOperationOrder.md).
 
-**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
+**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
 
 **Related topics**  
 

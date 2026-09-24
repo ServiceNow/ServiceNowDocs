@@ -2,7 +2,7 @@
 title: Review external dependencies between projects
 description: Review the external dependencies between projects in a portfolio to track projects that are dependant on each other more closely.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -51,5 +51,5 @@ For example, project B is dependent on project A \(external soft dependency\) an
 4.  Click the project number in a tab to open and review the linked project in the planning console view.
 
 
-**Parent Topic:**[Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/create-scenarios.md)
+**Parent Topic:**[Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/create-scenarios.md)
 

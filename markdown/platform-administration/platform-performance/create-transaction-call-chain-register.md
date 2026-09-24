@@ -2,7 +2,7 @@
 title: Create a transaction call chain register
 description: Create a call chain register to record call chain information for a problematic \(or slow\) transaction during the next occurrence of that URL. You specify that the next occurrence of the transaction URL should be persisted with all of its call chain information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/create-transaction-call-chain-register.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/platform-performance/create-transaction-call-chain-register.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -59,7 +59,7 @@ Steps
 </td></tr></tbody>
 </table>2.  On the Transaction Call Chain Register form, fill in the fields.
 
-    For a description of the field values, see [Transaction call chain register form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/transaction-call-chain-reg-form.md).
+    For a description of the field values, see [Transaction call chain register form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/transaction-call-chain-reg-form.md).
 
 3.  Select **Submit**.
 
@@ -72,7 +72,7 @@ A call chain register is created to designate that the next occurrence of the tr
 
 ## What to do next
 
-[Review a transaction call chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/review-transaction-call-chain.md)
+[Review a transaction call chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/review-transaction-call-chain.md)
 
-**Parent Topic:**[Transaction call chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/transaction-call-chains.md)
+**Parent Topic:**[Transaction call chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/transaction-call-chains.md)
 

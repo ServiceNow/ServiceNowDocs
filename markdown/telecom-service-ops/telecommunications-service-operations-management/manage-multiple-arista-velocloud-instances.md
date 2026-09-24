@@ -2,12 +2,12 @@
 title: Manage multiple Arista VeloCloud instances
 description: Configure and manage multiple Arista VeloCloud instances within a single ServiceNow AI Platform environment. Create distinct connection aliases and establish independent import schedules. Customize data filtering and frequency requirements for each instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/manage-multiple-arista-velocloud-instances.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/manage-multiple-arista-velocloud-instances.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Configure Arista VeloCloud SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -22,7 +22,7 @@ Verify the following:
 
 -   The active application scope is Service Graph Connector \(SGC\) for VeloCloud.
 -   The SGC for Arista VeloCloud has been installed.
--   The initial Arista VeloCloud instance has been set up. For more information, see [Set up the Service Graph Connector for Arista VeloCloud schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-the-service-graph-connector-for-arista-velocloud-schedule.md).
+-   The initial Arista VeloCloud instance has been set up. For more information, see [Set up the Service Graph Connector for Arista VeloCloud schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-the-service-graph-connector-for-arista-velocloud-schedule.md).
 -   The associated MID Server has been set up and validated. For more information, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-mid-server.md).
 
 Role required: TSOM Visibility admin
@@ -97,7 +97,7 @@ You can configure additional VeloCloud instances or reuse the same VeloCloud ins
 
     1.  Select **Configure** and fill in the fields.
 
-        For more information, see [Set up the Service Graph Connector for Arista VeloCloud schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-the-service-graph-connector-for-arista-velocloud-schedule.md).
+        For more information, see [Set up the Service Graph Connector for Arista VeloCloud schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-the-service-graph-connector-for-arista-velocloud-schedule.md).
 
     2.  In the **Use connection** field, choose the new VeloCloud instance.
 

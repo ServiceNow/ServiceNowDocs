@@ -2,7 +2,7 @@
 title: Configure to do mappings
 description: Create additional conditions or mappings to display managerial tasks and requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/use-to-do-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/use-to-do-map.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -47,7 +47,7 @@ To-do filter condition
 
 </td><td>
 
-To-do filter condition on which additional conditions are applied. For more information on to-do filter condition, see [Create or modify a to-dos filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-to-dos-page-filters.md).
+To-do filter condition on which additional conditions are applied. For more information on to-do filter condition, see [Create or modify a to-dos filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-to-dos-page-filters.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Order in which additional filter conditions are applied.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 

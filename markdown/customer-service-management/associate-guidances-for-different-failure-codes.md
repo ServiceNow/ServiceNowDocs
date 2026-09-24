@@ -2,7 +2,7 @@
 title: Associate guidances for different failure codes
 description: Associate guidances to paths with different failure code conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-guidances-for-different-failure-codes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-guidances-for-different-failure-codes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

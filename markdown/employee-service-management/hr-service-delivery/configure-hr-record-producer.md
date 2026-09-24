@@ -2,7 +2,7 @@
 title: Configure a record producer for an HR service
 description: Make an existing HR service available for employee self-service by adding it to the HR service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-hr-record-producer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-hr-record-producer.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -122,16 +122,16 @@ Expand help for all questions
 
     User criteria controls which employees can access and request the HR catalog item in the HR service catalog. To learn more about user criteria and how they are used to control access to HR catalog items, see [Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogAccessControls.md).
 
-    **Note:** User criteria applied to the HR catalog item is employee-facing only, and has no relation to the HR criteria that is used to control what HR services an HR agent can request for an employee from the **Create New Case** module. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md) for more information.
+    **Note:** User criteria applied to the HR catalog item is employee-facing only, and has no relation to the HR criteria that is used to control what HR services an HR agent can request for an employee from the **Create New Case** module. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md) for more information.
 
 8.  Click **Submit** or **Update** on the record producer form.
 
 9.  Click **Update** on the HR service form.
 
 
-**Parent Topic:**[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-configuration.md)
+**Parent Topic:**[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-configuration.md)
 
-**Previous topic:**[Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-case-template.md)
+**Previous topic:**[Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-case-template.md)
 
-**Next topic:**[HR service catalog management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-catalog-management.md)
+**Next topic:**[HR service catalog management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-catalog-management.md)
 

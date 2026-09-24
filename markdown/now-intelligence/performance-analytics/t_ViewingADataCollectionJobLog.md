@@ -2,7 +2,7 @@
 title: View the data collection job logs
 description: Job logs display information about the data collection jobs that have run for Performance Analytics. You can view job logs, create events, and view and edit the event registry. The list view displays all log entries, unless filtered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_ViewingADataCollectionJobLog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_ViewingADataCollectionJobLog.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -45,14 +45,14 @@ Role required: pa\_data\_collector or admin
 
 ## What to do next
 
-Click on a job in the list to see a detailed log of the job. For information about the contents of individual job logs, see [Log details for classic data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/original-data-collection-process.md) .
+Click on a job in the list to see a detailed log of the job. For information about the contents of individual job logs, see [Log details for classic data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/original-data-collection-process.md) .
 
 **Note:** If the logs return the following error, `java.lang.IllegalStateException: Sparse storage format has one field, sys_id`, see [KB0550063](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0550063).
 
-**Parent Topic:**[Data collection process and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/data-collection-process-logging.md)
+**Parent Topic:**[Data collection process and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/data-collection-process-logging.md)
 
 **Related topics**  
 
 
-[View a data collection job event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ViewingADataCollectionJobEvent.md)
+[View a data collection job event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_ViewingADataCollectionJobEvent.md)
 

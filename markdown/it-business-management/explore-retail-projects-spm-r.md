@@ -2,7 +2,7 @@
 title: Explore retail projects
 description: Retail Strategic Portfolio Management Suite enables retail organizations to plan, execute, and track store life cycle projects such as new store openings, closures, refurbishments, relocations, and technology refreshes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/explore-retail-projects-spm-r.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/explore-retail-projects-spm-r.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-16"
@@ -77,9 +77,9 @@ Retail Strategic Portfolio Management Suite provides benefits for retail project
 
 To learn more about configuring and using Retail Strategic Portfolio Management Suite, see:
 
--   [Explore Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/explore-spm-retail-suite.md)
--   [Explore playbooks for retail projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/playbooks-spm-retail-suite.md)
--   [Configure Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/config-spm-retail-suite.md)
--   [Using Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/use-spm-retail-suite.md)
--   [Retail Strategic Portfolio Management Suite References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/references-spm-retail-suite.md)
+-   [Explore Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/explore-spm-retail-suite.md)
+-   [Explore playbooks for retail projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/playbooks-spm-retail-suite.md)
+-   [Configure Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/config-spm-retail-suite.md)
+-   [Using Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/use-spm-retail-suite.md)
+-   [Retail Strategic Portfolio Management Suite References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/references-spm-retail-suite.md)
 

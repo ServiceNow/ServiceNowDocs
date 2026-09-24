@@ -2,7 +2,7 @@
 title: SP Variable Editor widget
 description: The Variable Editor widget allows you to change the specifications you chose for an item in the Service Catalog. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/variable-editor-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/variable-editor-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -26,7 +26,7 @@ For more information on the service catalog variables that are available in Serv
 
 The Variable Editor widget is embedded as part of the shopping cart widget, therefore no instance options are included.
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

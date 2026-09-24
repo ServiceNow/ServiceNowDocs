@@ -2,7 +2,7 @@
 title: Impact Rating record form
 description: Use the Impact Rating record form to assess an impact category such as low, moderate, high, or critical by using BCM UIB Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/impact-rating-new-record-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/impact-rating-new-record-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -89,5 +89,5 @@ Field to revise the question text. For the recovery time objective of an impact 
 \[Omitted image "question-text.png"\] Alt text: Revising the question text.The revised question is then displayed in the RTO assessment of the business impact analysis record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure impact ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-impact-rating-uib-ws.md)
+</table>**Parent Topic:**[Configure impact ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-impact-rating-uib-ws.md)
 

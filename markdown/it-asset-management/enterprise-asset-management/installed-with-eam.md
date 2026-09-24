@@ -2,7 +2,7 @@
 title: Components installed with Enterprise Asset Management
 description: Several types of components are installed with activation of the com.sn\_eam plugin, including user roles, plugins, and applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/installed-with-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/installed-with-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -230,7 +230,7 @@ Procurement\(com.snc.procurement\)
 
 </td><td>
 
-Provides the capability to source and receive requested assets so that you can fulfill service catalog requests. See [Procuring enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/procuring-assets.md) for more information on procurement.
+Provides the capability to source and receive requested assets so that you can fulfill service catalog requests. See [Procuring enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/procuring-assets.md) for more information on procurement.
 
 </td></tr><tr><td>
 
@@ -337,7 +337,7 @@ Expanded Model and Asset Classes
 
 </td><td>
 
-Adds enterprise model and asset classes that extend out-of-the-box product model and asset classes within the CMDB class hierarchy. In addition, creates model categories that associate these enterprise model and asset classes with CMDB configuration item \(CI\) classes. See [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md) for more information on this application.
+Adds enterprise model and asset classes that extend out-of-the-box product model and asset classes within the CMDB class hierarchy. In addition, creates model categories that associate these enterprise model and asset classes with CMDB configuration item \(CI\) classes. See [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md) for more information on this application.
 
 </td></tr><tr><td>
 
@@ -412,7 +412,7 @@ ISA Equipment Model \(com.sn\_isa\_model\)
 Data model for ISA-95 Equipment model entities and templates.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

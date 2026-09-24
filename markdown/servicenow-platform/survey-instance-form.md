@@ -2,7 +2,7 @@
 title: Survey Instance form
 description: Description of the field values for the on the Survey Instance form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/survey-instance-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/survey-instance-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -114,10 +114,10 @@ All instance question records, which store user response values for each questio
 -   **Metric**: Displays the survey questions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/survey-reference.md)
 
 **Related topics**  
 
 
-[View a survey instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewSurveyInstance.md)
+[View a survey instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewSurveyInstance.md)
 

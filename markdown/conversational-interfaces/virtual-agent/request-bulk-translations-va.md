@@ -2,7 +2,7 @@
 title: Request bulk translations for multiple topics
 description: If you need to translate many Virtual Agent topics across multiple models at one time, you can use the \[sys\_cs\_topic\] table list view to request translations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/request-bulk-translations-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/request-bulk-translations-va.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -35,5 +35,5 @@ Role required: virtual\_agent\_admin or admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md)
+**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

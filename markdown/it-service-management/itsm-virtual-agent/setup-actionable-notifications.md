@@ -2,7 +2,7 @@
 title: Set up actionable notifications for ITSM Virtual Agent
 description: Administrators and users with the virtual\_agent\_admin role can enable system notifications, trigger Workflow Studio flows for actionable notifications topics, and activate notifications in Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/setup-actionable-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/setup-actionable-notifications.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -46,5 +46,5 @@ Role required: admin or virtual\_agent\_admin
 3.  [Enable notifications in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-va-notifications.md)
 
 
-**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
+**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
 

@@ -2,7 +2,7 @@
 title: Filter and search for requests in AEMC
 description: The App Engine Management Center \(AEMC\) application provides tools for locating requests. You can perform a global search for request records or filter the list of current requests to locate the ones you want to work on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/filter-search-aemc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/filter-search-aemc.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -36,5 +36,5 @@ For example, you can type DEV0001\* and select **View results** \(or simply pres
 
 You can then select the record you want to review.
 
-**Parent Topic:**[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-aemc-requests.md)
+**Parent Topic:**[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/manage-aemc-requests.md)
 

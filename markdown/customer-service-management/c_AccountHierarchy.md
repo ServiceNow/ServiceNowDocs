@@ -2,7 +2,7 @@
 title: Account hierarchy
 description: Use the account hierarchy feature to create and view a parent-child relationship between accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_AccountHierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_AccountHierarchy.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-26"

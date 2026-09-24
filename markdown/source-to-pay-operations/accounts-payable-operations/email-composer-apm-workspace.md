@@ -2,7 +2,7 @@
 title: Composing emails with predefined content
 description: Insert predefined email content in the Source-to-Pay Workspace email client to send consistent, professional responses to invoice inquiries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -40,10 +40,10 @@ Open the response template that you want to use for your email and select **Copy
 
 For more information on how to work with response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
--   **[Communicate using emails from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/send-emails-apm-ws.md)**  
+-   **[Communicate using emails from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/send-emails-apm-ws.md)**  
 Compose and send emails directly from an invoice inquiry case or an invoice processing case in the Source-to-Pay Workspace to communicate with suppliers and stakeholders.
 
-**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

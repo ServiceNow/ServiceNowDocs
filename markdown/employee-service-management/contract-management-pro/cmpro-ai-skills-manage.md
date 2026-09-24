@@ -2,7 +2,7 @@
 title: Manage AI skills
 description: Manage AI skills in Contract Management Pro including use cases, use case mappings, clause mappings, expected responses, and skill activation.
 locale: en-us
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -54,18 +54,18 @@ Follow these best practices when managing AI skills:
 -   Monitor AI skill performance and adjust configurations based on accuracy and user feedback
 -   Deactivate unused skills to improve system performance and reduce confusion
 
--   **[Manage use cases for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-use-cases.md)**  
+-   **[Manage use cases for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-manage-use-cases.md)**  
 Manage use cases for ServiceNow Otto for Contract Management Pro by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.
--   **[Manage use case mappings for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-use-case-map.md)**  
+-   **[Manage use case mappings for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-manage-use-case-map.md)**  
 Manage use case mappings for ServiceNow Otto for Contract Management Pro by updating the mapped tables for use cases, deactivating the mappings when not in use, or deleting them when no longer required.
--   **[Manage clause mappings for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-clause-mappings.md)**  
+-   **[Manage clause mappings for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-manage-clause-mappings.md)**  
 Manage clause mappings for contract analysis by updating the mapped clause for a field group, deactivating the mappings when not in use, or deleting them when no longer required.
--   **[Manage expected response mappings for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-expected-response.md)**  
+-   **[Manage expected response mappings for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-manage-expected-response.md)**  
 Manage expected response mappings for contract analysis by updating the expected response for the fields of a use case, deactivating the mappings when not in use, or deleting them when no longer required.
--   **[Deactivate skills for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-deactivate-na-skills.md)**  
+-   **[Deactivate skills for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-deactivate-na-skills.md)**  
 Deactivate the skills in ServiceNow Otto for Contract Management Pro when they are not in use.
 
-**Parent Topic:**[Managing Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
+**Parent Topic:**[Managing Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
 
 **Related topics**  
 

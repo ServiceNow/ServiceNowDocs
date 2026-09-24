@@ -2,7 +2,7 @@
 title: Staggered decomposition
 description: Learn how you can stagger the decomposition for your customer orders. You can decompose your customer orders in multiple iterations by using the available information at the domain level, rather than decomposing an entire customer order at one time after it is approved for fulfillment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/staggered-decomposition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/staggered-decomposition.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,12 +36,12 @@ When you approve an order, the order decomposition process starts. The decomposi
 
 When the characteristic values are available either from a user’s action or from an attribute propagation rule, the decomposition process is retriggered. The process then creates the required domain orders and completes the order decomposition. If you again update the characteristic value after the order decomposition is complete, it does not trigger the decomposition for the domain order.
 
-To understand staggered decomposition with the help of an example, see [Customer order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customer-order-decomposition.md).
+To understand staggered decomposition with the help of an example, see [Customer order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customer-order-decomposition.md).
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

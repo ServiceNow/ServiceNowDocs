@@ -2,7 +2,7 @@
 title: HTTP Response Headers
 description: A response header is a simple name-value pair used in an HTTP response to provide additional information about page content or how the client should process it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/http-response-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/http-response-header.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

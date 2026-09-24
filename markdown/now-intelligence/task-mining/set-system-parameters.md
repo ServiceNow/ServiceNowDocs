@@ -2,7 +2,7 @@
 title: Adjust Task Mining agent parameters
 description: Modify system-level Task Mining agent records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/set-system-parameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/set-system-parameters.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -36,7 +36,7 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 4.  Select the Task Mining agent configuration record that you want to modify.
 
-    For information on the agent configuration records, see [Agent and system configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/agent-system-configuration-records.md).
+    For information on the agent configuration records, see [Agent and system configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/agent-system-configuration-records.md).
 
 5.  Modify the **Value** field.
 
@@ -46,5 +46,5 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 **Related topics**  
 
 
-[Agent and system configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/agent-system-configuration-records.md)
+[Agent and system configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/agent-system-configuration-records.md)
 

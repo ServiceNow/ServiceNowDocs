@@ -2,7 +2,7 @@
 title: Domain separation in Cloud Provisioning and Governance - considerations for service providers
 description: Review the following considerations to effectively create, implement, and maintain domain separation for Cloud Provisioning and Governance services in the instance that you are setting up for your customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-mgmt-dom-sep-recommend.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/cloud-mgmt-dom-sep-recommend.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -105,7 +105,7 @@ Perform the following tasks to set up your domain-separated instance:
 
 ## Next Steps
 
-For more information on onboarding customers or companies in a domain-separated instance for Cloud Provisioning and Governance services, see [On-board a Company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cust-onboard-dom-sep-sp.md).
+For more information on onboarding customers or companies in a domain-separated instance for Cloud Provisioning and Governance services, see [On-board a Company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cust-onboard-dom-sep-sp.md).
 
 **Related topics**  
 

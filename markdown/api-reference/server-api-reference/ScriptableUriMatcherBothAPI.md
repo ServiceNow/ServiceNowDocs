@@ -2,7 +2,7 @@
 title: ScriptableUriMatcher - Scoped, Global
 description: Use the ScriptableUriMatcher API to verify URI matches.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ScriptableUriMatcherBothAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/ScriptableUriMatcherBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -16,5 +16,5 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Use the ScriptableUriMatcher API to verify URI matches.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 

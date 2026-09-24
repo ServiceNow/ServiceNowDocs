@@ -2,7 +2,7 @@
 title: Activate Field Service Advanced Capacity and Reservations management
 description: You can activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -25,7 +25,7 @@ You can activate the Field Service Advanced Capacity and Reservations management
 
         -   Field Service Capacity and Reservations Management \(com.snc.fsm\_capacity\_management\) plugin.
         -   Field Service Territory Planning \(com.snc.fsm\_territory\_planning\) plugin.
-        -   Enable territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
+        -   Enable territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 Role required: admin.
 
@@ -37,7 +37,7 @@ The following components are installed with Field Service Advanced Capacity and 
 -   Script Includes
 -   Roles
 
-For more information, see [Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-capacity-components.md).
+For more information, see [Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/advanced-capacity-components.md).
 
 **Note:** You can customize the Capacity Console by taking the reference from the SNC script includes.
 
@@ -59,7 +59,7 @@ For more information, see [Capacity and Reservations Management components](http
 **Related topics**  
 
 
-[Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/capacity-console.md)
+[Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/capacity-console.md)
 
-[Using the Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/capacity-and-reservation-management-console.md)
+[Using the Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/capacity-and-reservation-management-console.md)
 

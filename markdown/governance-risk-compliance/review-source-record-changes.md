@@ -2,7 +2,7 @@
 title: Review source record changes in a DRIR case
 description: When the linked incident changes, review the modifications in your DRIR case or in the email notification to stay current with incident updates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/review-source-record-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/review-source-record-changes.html
 release: australia
 topic_type: task
 last_updated: "2026-08-27"

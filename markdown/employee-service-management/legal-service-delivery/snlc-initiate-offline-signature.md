@@ -2,7 +2,7 @@
 title: Initiate an offline signature for a contract request
 description: Initiate an offline signature when a contract is signed outside Contract Management Pro and record the signed document in Contract Management Pro.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-initiate-offline-signature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-initiate-offline-signature.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -23,7 +23,7 @@ Role required: sn\_lg\_cnt.contract\_fulfiller and sn\_cm\_core.contract\_fulfil
 
 ## About this task
 
-**Note:** The **Initiate offline signature** option is not available for wet signature and electronic signature. For more information, see [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
+**Note:** The **Initiate offline signature** option is not available for wet signature and electronic signature. For more information, see [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
 
 ## Procedure
 
@@ -44,9 +44,9 @@ Role required: sn\_lg\_cnt.contract\_fulfiller and sn\_cm\_core.contract\_fulfil
 
 From this state, only the **Upload signed contracts** and **Cancel signature** actions are available.
 
-For offline signatures, when uploading the signed contract, you don't need to select signatories. For more information, see [Upload a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.md).
+For offline signatures, when uploading the signed contract, you don't need to select signatories. For more information, see [Upload a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.md).
 
-To cancel the offline signature process, see [Cancel the signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cancel-a-manual-signature.md).
+To cancel the offline signature process, see [Cancel the signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-cancel-a-manual-signature.md).
 
-**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 

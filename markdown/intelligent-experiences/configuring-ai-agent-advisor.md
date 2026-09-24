@@ -2,7 +2,7 @@
 title: Configuring AI Agent Advisor
 description: Configure settings for AI Agent Advisor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configuring-ai-agent-advisor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configuring-ai-agent-advisor.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -15,10 +15,10 @@ breadcrumb: [AI Agent Advisor, AI Admin Center, Enable AI experiences]
 
 Configure settings for AI Agent Advisor.
 
--   **[Confirm installation of AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-ai-agent-advisor.md)**  
+-   **[Confirm installation of AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/set-up-ai-agent-advisor.md)**  
 Confirm the installation of the AI Agent Advisor application.
--   **[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md)**  
+-   **[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-automation-discovery-setup.md)**  
 Configure the data sources, filters, and schedule that AI Agent Advisor uses to analyze your instance and identify automation opportunities.
 
-**Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md)
+**Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-advisor-landing-page.md)
 

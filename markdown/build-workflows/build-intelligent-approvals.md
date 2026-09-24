@@ -2,7 +2,7 @@
 title: Build intelligent approvals
 description: Intelligent approvals use AI to automate approval decisions based on policy documents you upload and configure. The system analyzes approval requests against your policies and provides automated decisions or recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/build-intelligent-approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/build-intelligent-approvals.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-01"

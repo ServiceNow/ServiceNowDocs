@@ -2,7 +2,7 @@
 title: Edit an order case line item
 description: Edit one or more order case line items for an order case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-order-ops-order-case-edit-lines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-order-ops-order-case-edit-lines.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

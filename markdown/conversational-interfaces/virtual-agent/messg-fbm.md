@@ -2,7 +2,7 @@
 title: Conversational Integration with Facebook Messenger
 description: Use this application to empower customers to engage with your business using Facebook Messenger.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/messg-fbm.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,15 +22,15 @@ Select a tile to get started.
 
 <table id="table_ev3_ndm_v4b" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Integrate Conversational Integration with Facebook Messenger with Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-va-fb-messenger.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Integrate Conversational Integration with Facebook Messenger with Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-va-fb-messenger.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure your Conversational Integration with Facebook Messenger implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure your Conversational Integration with Facebook Messenger implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-chat.svg"\] Alt text: Agents and requesters can use Conversational Integration with Facebook Messenger in portals on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-fbm-using.md)
+[Use\[Omitted image "bus-chat.svg"\] Alt text: Agents and requesters can use Conversational Integration with Facebook Messenger in portals on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm-using.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
@@ -45,12 +45,12 @@ Customers are solely responsible for the implementation of the Conversational In
 2.  Facebook Pre-Launch Checklist: [https://developers.facebook.com/docs/messenger-platform/prelaunch-checklist](https://developers.facebook.com/docs/messenger-platform/prelaunch-checklist)
 3.  Facebook review and submission process for applications: [https://developers.facebook.com/docs/messenger-platform/\#review---submission-process](https://developers.facebook.com/docs/messenger-platform/#review---submission-process)
 
--   **[Exploring Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-va-fb-messenger.md)**  
+-   **[Exploring Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-va-fb-messenger.md)**  
 Use this application to enable your users to initiate a Facebook Messenger chat conversation with Virtual Agent.
--   **[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-fbm-configure.md)**  
+-   **[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm-configure.md)**  
 Install and set up the Conversational Integration with Facebook Messenger application to enable your users to interact with virtual and live agents.
--   **[Using Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-fbm-using.md)**  
+-   **[Using Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm-using.md)**  
 Enable a requester to converse with an agent using the Facebook Messenger chat conversations.
 
-**Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
+**Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

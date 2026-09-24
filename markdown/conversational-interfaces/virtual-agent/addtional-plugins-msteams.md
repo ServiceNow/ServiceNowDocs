@@ -2,7 +2,7 @@
 title: Plugins for Conversational Integration with Microsoft Teams
 description: Activate the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin, the Conversational Integration with Microsoft Teams \[sn\_va\_teams\] plugin, and verify its additional plugins to enable other features for conversation design.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/addtional-plugins-msteams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/addtional-plugins-msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,7 +22,7 @@ You must have either the virtual\_agent\_admin or admin role and the external\_a
 
 -   Install the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin.
 
-    For more information about activating the Glide Virtual Agent plugin, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
+    For more information about activating the Glide Virtual Agent plugin, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
 -   Download the Conversational Integration with Microsoft Teams app from the ServiceNow® Store.
 
@@ -30,7 +30,7 @@ You must have either the virtual\_agent\_admin or admin role and the external\_a
 
 -   Install the Conversational Integration with Microsoft Teams \[sn\_va\_teams\] plugin in your ServiceNow instance.
 
-    For more information about installing Conversational Integration with Microsoft Teams, see [Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-install.md).
+    For more information about installing Conversational Integration with Microsoft Teams, see [Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/teams-install.md).
 
 
 Verify the following plugins for Conversational Integration with Microsoft Teams.
@@ -38,5 +38,5 @@ Verify the following plugins for Conversational Integration with Microsoft Teams
 -   Microsoft Teams Graph Spoke \[sn\_msteams\_ahv2\]: Plugin is auto installed as part of \[sn\_va\_teams\]. In your ServiceNow instance, navigate to **All** &gt; **sys\_plugins.list** and search for \[sn\_msteams\_ahv2\] to locate the plugin. If it hasn't been installed, you might have to request from the ServiceNow Store first and install the plugin in your ServiceNow instance.
 -   MS Teams - App Core \[com.snc.msteams.app.core\]: Plugin is auto installed as part of \[sn\_va\_teams\]. In your ServiceNow instance, navigate to **All** &gt; **sys\_plugins.list** and search for \[com.snc.msteams.app.core\] to locate the plugin. If the plugin is installed, you are all set to move forward. If it was not installed, reach out to Customer Service and Support.
 
-**Parent Topic:**[Exploring Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-ci-microsoft-teams.md)
+**Parent Topic:**[Exploring Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-ci-microsoft-teams.md)
 

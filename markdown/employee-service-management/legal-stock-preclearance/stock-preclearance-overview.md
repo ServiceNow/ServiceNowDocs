@@ -2,7 +2,7 @@
 title: Exploring Legal Stock Preclearance
 description: Legal Stock Preclearance application keeps you in compliance with your organization's stock preclearance policy through automation of submission and approvals of preclearance requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-stock-preclearance/stock-preclearance-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-stock-preclearance/stock-preclearance-overview.html
 release: australia
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -20,5 +20,5 @@ Employees of your organization on designation as an access person, such as direc
 
 \[Omitted image "workflow-stock-preclearance.png"\] Alt text: Legal Stock Preclearance workflow.
 
-**Parent Topic:**[Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md)
+**Parent Topic:**[Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md)
 

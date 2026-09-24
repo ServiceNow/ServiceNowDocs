@@ -2,7 +2,7 @@
 title: Configure SMI-S Provider for storage Discovery
 description: Use this procedure for configuring a standalone storage device with the required SMI-S Provider for Discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/t\_ConfigDiscoForStandaloneStorage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/t\_ConfigDiscoForStandaloneStorage.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -28,7 +28,7 @@ Role required: admin
 
 2.  For NetApp storage devices, [install the SMI-S agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CIMCredentialsForm.md) on the storage device host.
 
-    **Note:** Discovery can also perform native discovery of NetApp servers without accessing the SMI-S server. See [NetApp Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/netapp-discovery.md) for more information.
+    **Note:** Discovery can also perform native discovery of NetApp servers without accessing the SMI-S server. See [NetApp Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/netapp-discovery.md) for more information.
 
 3.  Start the SMI-S Provider service.
 
@@ -38,10 +38,10 @@ Role required: admin
 
 6.  Create a Discovery Schedule with the IP addresses of each SMI-S Provider.
 
-7.  Create a [Discovery behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md) that uses a functionality definition with a **wbem** port probe to make the initial port-scanning phase \(Shazzam\) more efficient.
+7.  Create a [Discovery behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryBehaviors.md) that uses a functionality definition with a **wbem** port probe to make the initial port-scanning phase \(Shazzam\) more efficient.
 
 8.  Run a basic IP address Discovery.
 
 
-**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
+**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
 

@@ -2,7 +2,7 @@
 title: CMDB tables used by ITOM AIOps
 description: ITOM AIOps relies on accurate data in CMDB tables to function as expected. Following CSDM guidelines when populating these tables improves the accuracy of service mapping and helps route alerts and incidents correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-health-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-health-use-case.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

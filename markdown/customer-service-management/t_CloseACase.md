@@ -2,7 +2,7 @@
 title: Close a customer service case
 description: Close a case at any time, except when it is in the Resolved state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CloseACase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_CloseACase.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

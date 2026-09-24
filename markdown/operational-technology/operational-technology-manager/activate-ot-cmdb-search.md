@@ -2,7 +2,7 @@
 title: Activate the OT CMDB Search feature
 description: If you have the admin role, you can configure the Operational Technology \(OT\) Manager Foundation so that teams can use the OT Configuration Management Database \(CMDB\) search feature in the Industrial Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/activate-ot-cmdb-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/activate-ot-cmdb-search.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -34,7 +34,7 @@ The following table lists the features and skills that you can access from the A
 
 1.  Install the OT Manager Foundation plugin \(sn\_otm\_gen\_ai\).
 
-    -   For information about the application dependencies, see [Supporting information for OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/supporting-information-for-now-assist-otm.md).
+    -   For information about the application dependencies, see [Supporting information for OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/supporting-information-for-now-assist-otm.md).
     -   For information about the installation process, see [Install plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub**.
 
@@ -73,5 +73,5 @@ The following table lists the features and skills that you can access from the A
     4.  Select the **Status** toggle if the toggle isn't already selected.
 
 
-**Parent Topic:**[Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-na-otm.md)
+**Parent Topic:**[Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-na-otm.md)
 

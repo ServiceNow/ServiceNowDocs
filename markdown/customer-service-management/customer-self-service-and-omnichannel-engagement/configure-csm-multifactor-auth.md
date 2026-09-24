@@ -2,7 +2,7 @@
 title: Multi-factor authentication for Customer and Consumer Service Portals
 description: Multi-factor authentication, also known as two-step verification, is a security requirement that asserts a user enter more than one set of credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-multifactor-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-multifactor-auth.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -83,7 +83,7 @@ Users with these roles are required to use multi-factor authentication. For more
 **Related topics**  
 
 
-[Multi-factor authentication for Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal-multifactor-auth.md)
+[Multi-factor authentication for Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal-multifactor-auth.md)
 
-[Customer Service Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServicePortalUserRoles.md)
+[Customer Service Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_CustomerServicePortalUserRoles.md)
 

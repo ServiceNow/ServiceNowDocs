@@ -2,7 +2,7 @@
 title: ServiceNow Studio user interface
 description: Use the ServiceNow Studio interface to build, manage, and deploy applications — and customize the interface to match your workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-user-interface.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/servicenow-studio-user-interface.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -49,8 +49,8 @@ The home page provides access to all tools and services in ServiceNow Studio.
     |Page|Description|
     |----|-----------|
     |Home|Main landing page for ServiceNow Studio. Access the Navigator panel, recently opened files and apps, and other tools and resources.|
-    |Tools|Access documentation for the tools and builders in ServiceNow Studio. For more information, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/integrated-development-tools.md).|
-    |Deployment|See lists of update sets, applications, and deployment requests on the **Deployment** page. For more information, see [App deployment in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/app-deployment-servicenow-studio.md).|
+    |Tools|Access documentation for the tools and builders in ServiceNow Studio. For more information, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/integrated-development-tools.md).|
+    |Deployment|See lists of update sets, applications, and deployment requests on the **Deployment** page. For more information, see [App deployment in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/app-deployment-servicenow-studio.md).|
 
 -   Use the Create button to create apps and app filesor import a new app from source control.
 
@@ -67,5 +67,5 @@ When you have an app or file open, the status bar shows the current scope and th
 
 \[Omitted image "sn-studio-scope-update-set-zs1.png"\] Alt text: Each app shows its scope and update set at the bottom of the canvas. Select a new update set or create one to change it.
 
-For more information, see [Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md).
+For more information, see [Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md).
 

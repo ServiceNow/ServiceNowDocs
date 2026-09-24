@@ -2,7 +2,7 @@
 title: Omnichannel
 description: Omnichannel routes customer conversations from every channel into one workspace. Agents can see the full interaction history and resolve issues without switching context.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/omnichannel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/omnichannel.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-27"
@@ -45,17 +45,17 @@ The following omnichannel workflow example shows how Alex, a customer service ma
 
 |Channel|Role|Description|
 |-------|----|-----------|
-|[Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ChatFeature.md)|Agent|Review incoming chat with full customer history and open cases, resolve the issue, and record a wrap-up code to close the interaction.|
+|[Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_ChatFeature.md)|Agent|Review incoming chat with full customer history and open cases, resolve the issue, and record a wrap-up code to close the interaction.|
 |Admin|Set up chat queues, define routing rules to distribute incoming chats by priority or skill, configure Virtual Agent escalation paths, and adjust agent capacity settings to balance workload.|
-|[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceEmailCommunication.md)|Agent|Review Al-generated email thread summaries and the full activity stream to understand customer issues without reading every message, compose responses, and log outcomes with wrap-up codes.|
+|[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CustomerServiceEmailCommunication.md)|Agent|Review Al-generated email thread summaries and the full activity stream to understand customer issues without reading every message, compose responses, and log outcomes with wrap-up codes.|
 |Admin|Configure email routing rules to send messages to the correct team, set up shared inboxes for team access, and enable AI summarization to reduce agent review time.|
-|[Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrate-channels.md)|Agent|Engage with customers over messaging at a flexible pace and transfer conversations to other agents while preserving the full conversation thread.|
+|[Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/messg-integrate-channels.md)|Agent|Engage with customers over messaging at a flexible pace and transfer conversations to other agents while preserving the full conversation thread.|
 |Admin|Connect and manage multiple messaging channels \(SMS, WhatsApp, social messaging\) from a single ServiceNow interface instead of toggling between separate tools.|
-|[Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_PhoneCommunication.md)|Agent|Handle inbound and outbound calls with customer details and case history displayed before answering, then record a wrap-up code when complete.|
+|[Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_PhoneCommunication.md)|Agent|Handle inbound and outbound calls with customer details and case history displayed before answering, then record a wrap-up code when complete.|
 |Admin|Integrate a CCaaS platform with ServiceNow, define voice routing rules, and manage agent availability, all within ServiceNow rather than switching to a separate platform.|
 
 **Related topics**  
 
 
-[Configure omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-comm-channels.md)
+[Configure omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-comm-channels.md)
 

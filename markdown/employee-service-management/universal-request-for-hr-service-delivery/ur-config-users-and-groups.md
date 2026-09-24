@@ -2,7 +2,7 @@
 title: Configure users and groups
 description: A user is an individual who can access your instance and a group is a set of users who share a common purpose. The users associated with a group are listed as group members.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-config-users-and-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-config-users-and-groups.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -28,7 +28,7 @@ Group information is used across most processes in the ServiceNow AI Platform fo
 
 -   You can import existing users and groups using guided setup.
 
-    For more information, see [Guided setup for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-guided-setup.md).
+    For more information, see [Guided setup for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-guided-setup.md).
 
 -   You can create new users and groups using the ServiceNow AI Platform user administration feature.
 
@@ -36,5 +36,5 @@ Group information is used across most processes in the ServiceNow AI Platform fo
     -   [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md)
     -   [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md)
 
-**Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
+**Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
 

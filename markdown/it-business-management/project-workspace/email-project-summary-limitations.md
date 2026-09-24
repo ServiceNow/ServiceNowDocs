@@ -2,7 +2,7 @@
 title: Additional information on Project insights generation skill
 description: View the additional information about project insights generation skill such as column restrictions, date criteria, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/email-project-summary-limitations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/email-project-summary-limitations.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -143,5 +143,5 @@ RIDAC
     -   Due date
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-reference.md)
+</table>**Parent Topic:**[Project Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-reference.md)
 

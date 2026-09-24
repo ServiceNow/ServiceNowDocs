@@ -2,7 +2,7 @@
 title: Watching fields
 description: The field watcher tool tracks and displays all actions that the system performs on a selected form field.Access field-level debugging information using the field watcher.The field watcher displays field information and configuration options.Administrators may need to watch a hidden field.When information for a watched field is changed and the record is updated, the field watcher tab displays relevant information at the bottom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_FieldWatcher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_FieldWatcher.html
 release: australia
 product: Scripts
 classification: scripts
@@ -40,7 +40,7 @@ The Field Watcher tool logs activity when any of the following events occur on a
 
 **Note:** The field watcher works only on form fields. It cannot be used on list fields. Also, field watcher is not available on password-protected fields or encrypted fields. Field watcher is only available within the UI frame. The option to watch a field does not appear in the context menu if you open a record outside of the UI frame, for example, in a new tab.
 
-**Parent Topic:**[JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_JavaScriptDebugWindow.md)
+**Parent Topic:**[JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_JavaScriptDebugWindow.md)
 
 ## Use field watcher
 
@@ -60,7 +60,7 @@ Role required: none
 
 3.  View the field watcher log by clicking the debug icon.
 
-    A new pane opens at the bottom of the screen, showing a field watcher tab. It may also show tabs for [JavaScript Logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_WritingToTheDebugLog.md) and JavaScript Debugger.
+    A new pane opens at the bottom of the screen, showing a field watcher tab. It may also show tabs for [JavaScript Logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_WritingToTheDebugLog.md) and JavaScript Debugger.
 
 4.  Click the **Field Watcher** tab, if needed.
 

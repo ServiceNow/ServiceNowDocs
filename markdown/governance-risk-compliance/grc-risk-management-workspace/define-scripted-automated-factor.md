@@ -2,7 +2,7 @@
 title: Create a scripted automated factor
 description: Create scripted automated factors that use a script to fetch data from ServiceNow records or from external sources. During risk assessment, scripted automated factors automatically calculate and provide the responses for factors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/define-scripted-automated-factor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/define-scripted-automated-factor.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -194,10 +194,10 @@ Date when the factor is run again. This field is automatically set based on the 
 
 The factor is published and is ready for use in a Risk Assessment Methodology.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 
 **Related topics**  
 
 
-[Create an automated factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure_automated_factor.md)
+[Create an automated factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/configure_automated_factor.md)
 

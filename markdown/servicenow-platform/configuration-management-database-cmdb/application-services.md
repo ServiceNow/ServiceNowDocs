@@ -2,7 +2,7 @@
 title: Service instances \(Application services\)
 description: Understand service instances \(application services\), learn about different application service types and how multiple ServiceNow business units and products use them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/application-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/application-services.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -46,7 +46,7 @@ There are the following types of application services:
 
 -   **Dynamic CI Group**
 
-    Dynamic CI groups which act as application services. The members of the [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) that is associated with the dynamic CI group, populates the application service. A dynamic CI group is a dynamic grouping of CIs, based on some common criteria such as the location of all web servers in Detroit or all Oracle databases in Boston. After creating a dynamic CI group, it can be used as a group offering in IT Service Management.
+    Dynamic CI groups which act as application services. The members of the [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) that is associated with the dynamic CI group, populates the application service. A dynamic CI group is a dynamic grouping of CIs, based on some common criteria such as the location of all web servers in Detroit or all Oracle databases in Boston. After creating a dynamic CI group, it can be used as a group offering in IT Service Management.
 
     If created from the Application Service wizard, the service classification is application service, and if created from the legacy Event Management UI or Service Mapping UI, the classification is technical service. Application services of the Dynamic CI Group type are stored in the Dynamic CI Group \[cmdb\_ci\_query\_based\_service\] table.
 
@@ -152,7 +152,7 @@ Analyze discovered resources in the CMDB before ingesting from 3rd party to avoi
 
 </td></tr><tr><td>
 
-[Populate an application service using the Dynamic CI Group method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md) Based on CMDB groups, whose members populate the application service.
+[Populate an application service using the Dynamic CI Group method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md) Based on CMDB groups, whose members populate the application service.
 
 </td><td>
 
@@ -180,9 +180,9 @@ Be familiar with the exact service structure: sys\_id of each CI comprising the 
 
 </td></tr><tr><td>
 
-[Populate an application service using the Manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-manual.md) Create a manual application service with one CI only: the entry point. To populate a manually created application service, add other CIs manually as described in [Manually add CIs to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manually-add-ci-to-business-service.md).
+[Populate an application service using the Manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/populate-app-service-manual.md) Create a manual application service with one CI only: the entry point. To populate a manually created application service, add other CIs manually as described in [Manually add CIs to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/manually-add-ci-to-business-service.md).
 
- Alternatively, create and populate manual application services by [converting business services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md) created in the CMDB and stored in \[cmdb\_ci\_service\].
+ Alternatively, create and populate manual application services by [converting business services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md) created in the CMDB and stored in \[cmdb\_ci\_service\].
 
 </td><td>
 
@@ -198,12 +198,12 @@ This method doesn't require any preexisting setup or object configuration.You ca
 
 </td></tr><tr><td>
 
-[Populate an application service using the Dynamic Service method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-service.md) Application services that automatically update to reflect any change to CI relationships in the CMDB CI Relationship \[cmdb\_rel\_ci\] table.
+[Populate an application service using the Dynamic Service method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-service.md) Application services that automatically update to reflect any change to CI relationships in the CMDB CI Relationship \[cmdb\_rel\_ci\] table.
 
  To conform with Common Service Data Model, you can also convert legacy services to dynamic application services. Those legacy services are stored in the \[cmdb\_ci\_service\] or \[cmdb\_ci\_service\_manual\] CMDB tables:
 
--   [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md)
--   [Convert legacy manual services into dynamic application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-manual-app-ser-to-dynamic.md)
+-   [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md)
+-   [Convert legacy manual services into dynamic application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/convert-manual-app-ser-to-dynamic.md)
 
 </td><td>
 

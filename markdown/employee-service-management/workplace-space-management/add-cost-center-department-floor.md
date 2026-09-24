@@ -2,7 +2,7 @@
 title: Allocate a cost center, department, or workplace entity
 description: Assign either a cost center, department, or workplace entity to a workplace location. Manage space consumptions, expenses, workplace assignments, and reservations based on an employee cost center, department, or workplace entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/add-cost-center-department-floor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/add-cost-center-department-floor.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -150,7 +150,7 @@ You can assign the allocation to the child locations such as areas, rooms, and s
 
 **Note:** For time-bound allocations, only the dates are considered for allocation.
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

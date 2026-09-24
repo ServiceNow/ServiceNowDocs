@@ -2,7 +2,7 @@
 title: Enable push notifications for logged-out users
 description: Enable push notifications for users when they're logged out to deliver timely critical updates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/enable-notifications-logged-out-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/enable-notifications-logged-out-users.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -77,7 +77,7 @@ The date and time to activate the plugin.
 
 4.  In the form, select the **Push to inactive users** check box.
 
-    If the **Push to inactive users** check box is not visible, configure the form layout. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    If the **Push to inactive users** check box is not visible, configure the form layout. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md).
 
 5.  Select **Update**.
 
@@ -98,7 +98,7 @@ The date and time to activate the plugin.
     4.  Select **Submit**.
 
 
-**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md)
+**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_PushNotifications.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: App Readiness and Compliance Report
 description: App Engine Admins can use the App Readiness and Compliance Report dashboard to check if the apps they’re creating are ready to go live.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/app-readiness-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/app-readiness-report.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center

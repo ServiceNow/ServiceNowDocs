@@ -2,7 +2,7 @@
 title: Set up checklist for the Security Incident Response Mobile app
 description: The following checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform instance and on your mobile device prior to using the Security Incident Response Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -43,9 +43,9 @@ As a user with the admin role, verify that you have the Security Incident Respon
  1.  To verify the core application is installed on your instance, navigate to **Plugins** and search for Security Incident Response.
 2.  If the Security Incident Response core application is not already installed, click **Install** to install it.
 
- For more information about installing the Security Incident Response core application, see [Install and configure Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-configure-sir.md).
+ For more information about installing the Security Incident Response core application, see [Install and configure Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/install-and-configure-sir.md).
 
- If the Security Incident Response core application is not visible in Plugins, for more information about installing core applications and entitlements to applications, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-and-store.md).
+ If the Security Incident Response core application is not visible in Plugins, for more information about installing core applications and entitlements to applications, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-and-store.md).
 
 </td></tr><tr><td>
 
@@ -65,7 +65,7 @@ As a user with the admin role, verify that you have the Security Incident Respon
 2.  Search for the plugin IDs \(com.glide.sg and com.glide.sg.agent\_native\_client\).
 3.  If they are not activated, activate these plugins. These plugins are required for the Security Incident Response Mobile app.
 
- For more information about installing applications and entitlements to applications, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-and-store.md).
+ For more information about installing applications and entitlements to applications, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-and-store.md).
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ As a user with the ServiceNow AI Platform admin role, verify that you have assig
 
  **Note:** If you have a large number of users for the mobile application, you alternatively can assign the sn\_si.analyst role to a group. Each user you add to the group inherits this role.
 
- For more information about security analysts, see [Assigning security analysts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_AgentAssignment.md).
+ For more information about security analysts, see [Assigning security analysts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/r_AgentAssignment.md).
 
  For more information on users and assigning roles to users and groups, see [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UserAdministration.md).
 

@@ -2,7 +2,7 @@
 title: Submit an emergency maintenance request
 description: Submit an emergency maintenance request for a meeting room.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/submit-emergency-maint-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/submit-emergency-maint-request.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -39,12 +39,12 @@ Role required: sn\_wsd\_core.workplace\_user
 
 4.  Select **Submit**.
 
-    A workplace case is created and it is assigned automatically to the Workplace Event Planners assignment group. It is then assigned manually to a user in the Workplace Event Planners assignment group. For more information, see [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
+    A workplace case is created and it is assigned automatically to the Workplace Event Planners assignment group. It is then assigned manually to a user in the Workplace Event Planners assignment group. For more information, see [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
 
-    When the emergency maintenance request case is assigned to a orkplace Event Planners assignment group, the AI agentic workflow **Manage temporary space closures** is triggered. The team of AI agents block a workspace location for maintenance. AI agents create a record in the sn\_wsd\_core\_block\_location table for blocking a location. If there are any impacted reservations for a blocked location, AI agents move any existing reservations to a new location.For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
+    When the emergency maintenance request case is assigned to a orkplace Event Planners assignment group, the AI agentic workflow **Manage temporary space closures** is triggered. The team of AI agents block a workspace location for maintenance. AI agents create a record in the sn\_wsd\_core\_block\_location table for blocking a location. If there are any impacted reservations for a blocked location, AI agents move any existing reservations to a new location.For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
 
 
-**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

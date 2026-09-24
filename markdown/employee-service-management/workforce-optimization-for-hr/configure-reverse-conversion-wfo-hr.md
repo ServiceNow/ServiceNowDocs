@@ -2,7 +2,7 @@
 title: Configure resource conversion formula
 description: Configure the resource conversion formula.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/configure-reverse-conversion-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/configure-reverse-conversion-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -69,5 +69,5 @@ Formula to calculate the forecasted number of agents that you need.In the Relate
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure data collection for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-data-collection-df-wfo-hr.md)
+**Parent Topic:**[Configure data collection for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/configure-data-collection-df-wfo-hr.md)
 

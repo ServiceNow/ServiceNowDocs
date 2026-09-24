@@ -2,7 +2,7 @@
 title: Service Definitions in FSO
 description: A service definition describes a service that a financial institution offers to support a product that they sell. Service definitions work with case types to provide different types of support inquiries and unique request and fulfillment processes. In FSO, a sample list of service definitions is preconfigured for each product and line of business.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-service-definitions-in-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-service-definitions-in-fso.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,12 +36,12 @@ The following are the main components needed to create a service definition:
 -   Flows are only needed for more complex use cases, such as ones with multiple tasks or subtasks.
 -   A new record producer for customer/requester to create via service catalog. Only use record producers if you want an end user to create the request.
 
-**Parent Topic:**[Using case types and service definitions in FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-work_case_types.md)
+**Parent Topic:**[Using case types and service definitions in FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-int_guide-work_case_types.md)
 
 **Related topics**  
 
 
 [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md)
 
-[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-service-definitions.md)
+[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-service-definitions.md)
 

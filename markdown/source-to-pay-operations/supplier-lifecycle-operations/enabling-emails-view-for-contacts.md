@@ -2,7 +2,7 @@
 title: Emails view for supplier managers
 description: Supplier managers can access all emails including system-triggered emails, inbound replies, and error emails from the Source-to-Pay Workspace at case, task, and supplier levels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/enabling-emails-view-for-contacts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/enabling-emails-view-for-contacts.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -51,7 +51,7 @@ To enable email summarization, set the default model for the One Extend capabili
 
 **Note:** Email summarization is not available for supplier records.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 

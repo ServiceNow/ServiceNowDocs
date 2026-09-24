@@ -2,7 +2,7 @@
 title: Discovery Quick Start
 description: Discovery Quick Start is a wizard that helps you get up and running with Discovery quickly. Use Discovery Quick Start tasks to discover IP ranges, or subnets, in your environment and then to identify the configuration items \(CI\) in those subnets.Subnet discovery finds all the subnets in your environment to determine available IP ranges and to verify that there are MID Servers available to access these ranges.Using the credentials you provide, the Quick Start wizard finds all the configuration items \(CI\) for the IP ranges identified during subnet discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-quick-start.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discovery-quick-start.html
 release: australia
 product: Discovery
 classification: discovery
@@ -134,7 +134,7 @@ Using the credentials you provide, the Quick Start wizard finds all the configur
 
 ### Before you begin
 
-You should perform this procedure after you complete [Configure and schedule subnet discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-quick-start.md) in the Discovery Quick Start.
+You should perform this procedure after you complete [Configure and schedule subnet discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-quick-start.md) in the Discovery Quick Start.
 
 Role required: discovery\_admin
 
@@ -144,7 +144,7 @@ The goal of this phase is to create the schedules necessary to discover the CIs 
 
 You must be familiar with the types of credentials that you need for the CIs in your network. Each CI type requires different credentials. For example, if Discovery uses patterns instead of probes, the patterns might require [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
 
-Review the requirements for the CI types you intend to discover. See [Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md), and then locate the specific type of device, computer, or application.
+Review the requirements for the CI types you intend to discover. See [Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md), and then locate the specific type of device, computer, or application.
 
 ### Procedure
 

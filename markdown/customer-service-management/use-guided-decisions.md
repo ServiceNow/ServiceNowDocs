@@ -2,7 +2,7 @@
 title: Use Guided Decisions in playbooks to resolve cases
 description: As an agent, work your way through a decision tree in a playbook to help troubleshoot a case and get recommendations on the next possible steps in solving the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-guided-decisions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-guided-decisions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_agent
 
 A decision tree presents a series of questions that you can answer and provide inputs where required. The decision tree evaluates your answers and provides the next set of questions or gives you guidance on what to do next. For example, the guidance can be to attach a knowledge article or propose a solution to a customer to help resolve an issue.
 
-Depending on the context of the case that you're working on, decision trees appear in playbooks in CRM Workspace or as a recommended action in CRM Workspace. For details on using recommended actions, see [Use Guided Decisions in recommended actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-guided-decisions-ra.md).
+Depending on the context of the case that you're working on, decision trees appear in playbooks in CRM Workspace or as a recommended action in CRM Workspace. For details on using recommended actions, see [Use Guided Decisions in recommended actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-guided-decisions-ra.md).
 
 ## Procedure
 

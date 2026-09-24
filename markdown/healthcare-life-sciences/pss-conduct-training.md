@@ -2,7 +2,7 @@
 title: Manage a training task in Workspace
 description: Manage the training support for a Patient Support Services program with training tasks and checklists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-conduct-training.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-conduct-training.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Role required: sn\_patientservice.nurse\_educator
 
 ## About this task
 
-A training task is created based on the appointment booking workflow. For more information, see [Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-feature.md).
+A training task is created based on the appointment booking workflow. For more information, see [Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-feature.md).
 
 ## Procedure
 
@@ -52,5 +52,5 @@ A training task is created based on the appointment booking workflow. For more i
 
 ## Result
 
-The status of the task is reflected on the Fulfill services task page of the Program services activity in the playbook. For more information, see [Working on an enrollment case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-playbook.md).
+The status of the task is reflected on the Fulfill services task page of the Program services activity in the playbook. For more information, see [Working on an enrollment case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-playbook.md).
 

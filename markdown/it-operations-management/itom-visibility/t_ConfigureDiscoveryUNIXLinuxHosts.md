@@ -2,7 +2,7 @@
 title: Configure Discovery for UNIX or Linux hosts with attached storage
 description: Discovery can find information about a UNIX or Linux host and attached storage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/t\_ConfigureDiscoveryUNIXLinuxHosts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/t\_ConfigureDiscoveryUNIXLinuxHosts.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -32,8 +32,8 @@ Role required: discovery\_admin
 
 5.  Run network discovery.
 
-    **Note:** If the host also connects to a NAS or SAN storage array, set up the [SMI-S Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/t_ConfigDiscoForStandaloneStorage.md) and [CIM credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CIMCredentialsForm.md).
+    **Note:** If the host also connects to a NAS or SAN storage array, set up the [SMI-S Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/t_ConfigDiscoForStandaloneStorage.md) and [CIM credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CIMCredentialsForm.md).
 
 
-**Parent Topic:**[Configure discovery of hosts with attached storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/configure-discovery-of-hosts-with-attached-storage.md)
+**Parent Topic:**[Configure discovery of hosts with attached storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/configure-discovery-of-hosts-with-attached-storage.md)
 

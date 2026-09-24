@@ -2,7 +2,7 @@
 title: Model categories
 description: Model categories define the relationships between enterprise model classes, enterprise asset classes, and Configuration Management Database \(CMDB\) CI classes in Enterprise Asset Management. Model categories connect every enterprise asset to the correct model class, asset class, and CI class.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/model-hierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/model-hierarchy.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -45,17 +45,17 @@ Model categories are organized in a two-tier hierarchy. Parent model categories 
 
 \[Omitted image "parent\_model\_eam.png"\] Alt text: The 9 seeded parent model categories: Medical, Facility, Transportation, Industrial, Multimedia production equipment, Retail, Construction, Tactical equipment, and Wearable
 
-For the complete list of available model categories and their corresponding CMDB CI class, asset class, and model class, see [Enterprise model categories and corresponding classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-model-categories.md).
+For the complete list of available model categories and their corresponding CMDB CI class, asset class, and model class, see [Enterprise model categories and corresponding classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/enterprise-model-categories.md).
 
 **Important:** Use only the existing top-level parent model categories.
 
 ## Creating custom model categories
 
-If none of the existing child model categories meet your needs, you can create a custom child category under an existing parent. When creating a child category, you specify the parent model category, model class, asset class, and optionally a CI class. For details, see [Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-model-category.md)
+If none of the existing child model categories meet your needs, you can create a custom child category under an existing parent. When creating a child category, you specify the parent model category, model class, asset class, and optionally a CI class. For details, see [Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-custom-model-category.md)
 
 **Important:**
 
 Custom model categories must be children of one of the nine seeded parent categories. Creating new top-tier parent categories is not supported.
 
-**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
+**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/eam-data-model.md)
 

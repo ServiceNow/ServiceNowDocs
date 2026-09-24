@@ -2,7 +2,7 @@
 title: Initiate wrap-up during an active call
 description: Open the wrap-up modal, select a wrap-up code, and submit summary notes during an active call so that call context is captured in real time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/initiate-agent-wrap-up-agent-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/initiate-agent-wrap-up-agent-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-06-18"

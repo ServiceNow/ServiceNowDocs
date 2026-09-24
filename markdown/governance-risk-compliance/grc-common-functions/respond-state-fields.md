@@ -2,7 +2,7 @@
 title: Respond state fields
 description: Fields used in the activities of the Respond state in an issue's lifecycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/respond-state-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/respond-state-fields.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -47,16 +47,16 @@ Track the individual tasks required to remediate the issue.
 |**State**|The current state of the remediation task.|
 |**Due date**|The date by which the remediation task must be completed.|
 
-See [Remediation task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/remediation-task-fields.md).
+See [Remediation task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/remediation-task-fields.md).
 
-**Parent Topic:**[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)
+**Parent Topic:**[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)
 
 **Related topics**  
 
 
-[Remediation task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/remediation-task-fields.md)
+[Remediation task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/remediation-task-fields.md)
 
-[Review and close state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/review-and-close-state-fields.md)
+[Review and close state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/review-and-close-state-fields.md)
 
-[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)
+[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)
 

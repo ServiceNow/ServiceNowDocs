@@ -2,7 +2,7 @@
 title: Configure an MCP client to connect to an MCP server
 description: Configure a Model Context Protocol \(MCP\) client to connect to an MCP server and prompt the server to perform a task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-client-connect-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-client-connect-server.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
@@ -158,32 +158,32 @@ The client secret from the OAuth inbound integration on the server instance.If y
 
     **Note:** If you don't receive the expected data in the response, review the following troubleshooting tips:
 
-    -   If you receive an empty or incomplete response rather than an error, first check the ACL configuration for the invoked tool. For more information, see [Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md).
+    -   If you receive an empty or incomplete response rather than an error, first check the ACL configuration for the invoked tool. For more information, see [Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/creating-tools-mcp-server.md).
     -   If you receive a 401 error, generate a new authentication token from the client.
     -   If you receive a 403 error, confirm that the calling user or client has the required role and ACL access for the invoked tool.
 
 If you run into other issues connecting to a server, see the following additional resources to help you troubleshoot:
 
--   [Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md)
+-   [Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/creating-tools-mcp-server.md)
 -   [MCP Server Console FAQ](https://www.servicenow.com/community/now-assist-articles/mcp-server-console-faq/ta-p/3550125) in the ServiceNow Community
 -   [OAuth Inbound Authentication with ServiceNow: Authorization Code Grant Flow Using Postman](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2058755) article in the Now Support Knowledge Base
 
 ## Connecting to an MCP server from ServiceNow Model Context Protocol Client
 
-This example demonstrates how to connect to a server from an AI agent on another instance using the ServiceNow Model Context Protocol Client. First, you configure the client to call the preconfigured Quickstart Server. From an AI agent, you access the Quickstart Server's list of tools and add individual tools to the agent. Lastly, you test the agent in AI Agent Studio by providing a prompt and seeing the agent's response. For more information, see the [Model Context Protocol Client Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-client.md) documentation.
+This example demonstrates how to connect to a server from an AI agent on another instance using the ServiceNow Model Context Protocol Client. First, you configure the client to call the preconfigured Quickstart Server. From an AI agent, you access the Quickstart Server's list of tools and add individual tools to the agent. Lastly, you test the agent in AI Agent Studio by providing a prompt and seeing the agent's response. For more information, see the [Model Context Protocol Client Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-client.md) documentation.
 
 Role required: sn\_mcp\_server.viewer and sn\_mcp\_client.admin
 
 1.  On the server instance, create an OAuth inbound integration for the ServiceNow Model Context Protocol Client.
 
-    For more information, see [Create an OAuth inbound integration for an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-oauth-inbound-integration-mcp-client.md).
+    For more information, see [Create an OAuth inbound integration for an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-oauth-inbound-integration-mcp-client.md).
 
 2.  On the client instance, navigate to **All** &gt; **AI Agent Studio** &gt; **Settings**.
 3.  Select **Manage MCP Servers**.
 4.  Select **New**.
 5.  Add the Quickstart Server.
 
-    For more information about this step, see [Add an MCP server with OAuth 2.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-an-oauth-2-1-mcp-server.md).
+    For more information about this step, see [Add an MCP server with OAuth 2.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-an-oauth-2-1-mcp-server.md).
 
     1.  On the Add MCP server form, fill in the fields.
 
@@ -213,12 +213,12 @@ Role required: sn\_mcp\_server.viewer and sn\_mcp\_client.admin
     2.  Select **Allow** to allow the client to connect to the server.
 7.  Add tools from the Quickstart Server to an AI agent.
 
-    For more information about this step, see [Add an MCP server tool to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-mcp-server-tool.md).
+    For more information about this step, see [Add an MCP server tool to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-mcp-server-tool.md).
 
     1.  In AI Agent Studio, select the **Create and manage** tab.
     2.  From the AI agents tab, select an existing agent or create one.
 
-        For information about creating an agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+        For information about creating an agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-next-best-action-agent.md).
 
     3.  Select **Add tools and information**.
     4.  Select **Add tool** &gt; **MCP server tool**.
@@ -235,7 +235,7 @@ Role required: sn\_mcp\_server.viewer and sn\_mcp\_client.admin
     7.  Select **Save and continue**.
 8.  Test the AI agent.
 
-    For more information about this step, see [Test an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent-mcp.md).
+    For more information about this step, see [Test an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-agent-mcp.md).
 
     1.  In AI Agent Studio, select the **Testing** tab.
     2.  Select **Start manual test**.
@@ -253,5 +253,5 @@ Role required: sn\_mcp\_server.viewer and sn\_mcp\_client.admin
     \[Omitted image "mcp-server-agent-response.png"\] Alt text: The agent responds with summaries of two cases closed by Abel Tuter this week.
 
 
-**Parent Topic:**[Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
+**Parent Topic:**[Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/connect-mcp-server-client.md)
 

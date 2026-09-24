@@ -2,7 +2,7 @@
 title: Set term multiplier for contract renewal uplift
 description: Use the renewal\_uplift\_term system property to select the contract duration basis used to calculate the renewal uplift term, either per year or per term.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/set-renewal-term-multiplier.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/set-renewal-term-multiplier.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

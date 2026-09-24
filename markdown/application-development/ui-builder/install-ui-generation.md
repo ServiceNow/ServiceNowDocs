@@ -2,7 +2,7 @@
 title: Install UI generation
 description: Install the ServiceNow Otto for Creator application from the ServiceNow Store to enable UI generation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/install-ui-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/install-ui-generation.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -45,16 +45,16 @@ Role required: admin
 
 ## What to do next
 
-Grant the ui\_builder\_admin role to users who need UI generation access. For more information, see [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+Grant the ui\_builder\_admin role to users who need UI generation access. For more information, see [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 **Note:**
 
 You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-**Parent Topic:**[Configuring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configuring-ui-generation.md)
+**Parent Topic:**[Configuring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configuring-ui-generation.md)
 
 **Related topics**  
 
 
-[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 

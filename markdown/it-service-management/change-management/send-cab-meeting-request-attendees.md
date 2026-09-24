@@ -2,7 +2,7 @@
 title: Send CAB meeting request to attendees
 description: You can send CAB meeting invitations to attendees for each CAB meeting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/send-cab-meeting-request-attendees.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/send-cab-meeting-request-attendees.html
 release: australia
 product: Change Management
 classification: change-management
@@ -24,13 +24,13 @@ Role required: sn\_change\_cab.cab\_manager
 
 You can send meeting invitations from a CAB meeting only.
 
-**Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+**Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 ## Procedure
 
 1.  Navigate to the CAB meeting for which you want to send out invitations using one of the following steps.
 
-<table id="choicetable_mqf_2kv_lz"><tbody><tr><td id="d439878e87">
+<table id="choicetable_mqf_2kv_lz"><tbody><tr><td id="d439819e87">
 
 **Open from the CAB meeting list**
 
@@ -40,7 +40,7 @@ You can send meeting invitations from a CAB meeting only.
 2.  Select and open the CAB meeting to modify.
 
 
-</td></tr><tr><td id="d439878e117">
+</td></tr><tr><td id="d439819e117">
 
 **Open from the CAB definition list**
 
@@ -57,5 +57,5 @@ You can send meeting invitations from a CAB meeting only.
     The CAB meeting invitation is sent to all listed attendees.
 
 
-**Parent Topic:**[Create a single CAB meeting occurrence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-cab-meeting.md)
+**Parent Topic:**[Create a single CAB meeting occurrence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-a-cab-meeting.md)
 

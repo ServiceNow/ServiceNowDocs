@@ -2,7 +2,7 @@
 title: Account onboarding landing page
 description: Get real-time visibility into your onboarding cases and track your onboarding tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-events-onboarding-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-events-onboarding-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,5 +28,5 @@ For each of the cards, historical data trend for the last 3 months is also displ
 
 Select a score card to view a list of records that match the appropriate filter condition. You can drill down to the record page of the case, task, or risk signal to view additional details.
 
-**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use.md)
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use.md)
 

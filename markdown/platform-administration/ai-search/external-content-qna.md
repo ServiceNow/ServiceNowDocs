@@ -2,14 +2,14 @@
 title: External Content Q&amp;A Genius Results
 description: External Content Q&amp;A Genius Results display concise, actionable AI-generated answers derived from documents in your Microsoft SharePoint Online instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/external-content-qna.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/external-content-qna.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -35,18 +35,18 @@ To make External Content Q&amp;A Genius Results available for use in AI Search a
 
 1.  Verify that the ServiceNow IntegrationHub Enterprise Pack Installer \[com.glide.hub.integrations.enterprise\] plugin is installed on your instance. If this plugin isn't installed, you can request it. For details on requesting IntegrationHub plugins, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md).
 2.  Create and configure an OAuth application in the Microsoft Azure portal to verify and authorize connection requests from your ServiceNow AI Platform® instance. To learn about this procedure, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-oauth-application-in-microsoft-azure.md).
-3.  Add the AllSites.FullControl SharePoint delegated permission \(and grant admin consent\) to your new OAuth application in the Microsoft Azure portal. For details on this procedure, see [Configure SharePoint API permissions for your External Content Q&amp;A Genius Results OAuth 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/grant-perms-azure-ext-cont-qna-grs.md).
-4.  Define OAuth configuration settings for External Content Q&amp;A Genius Results. For full details on the required OAuth settings, see [Configure OAuth settings for External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
+3.  Add the AllSites.FullControl SharePoint delegated permission \(and grant admin consent\) to your new OAuth application in the Microsoft Azure portal. For details on this procedure, see [Configure SharePoint API permissions for your External Content Q&amp;A Genius Results OAuth 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/grant-perms-azure-ext-cont-qna-grs.md).
+4.  Define OAuth configuration settings for External Content Q&amp;A Genius Results. For full details on the required OAuth settings, see [Configure OAuth settings for External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
 
-Next, search administrators need to enable External Content Q&amp;A Genius Results in one or more AI Search portals. To learn about this procedure, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
+Next, search administrators need to enable External Content Q&amp;A Genius Results in one or more AI Search portals. To learn about this procedure, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
 
-After all these steps are completed, AI Search portal users can authorize External Content Q&amp;A Genius Results for their searches by authenticating with Microsoft SharePoint Online. For details on this authentication procedure, see [Sign in to Microsoft SharePoint Online to authorize External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/auth-sharepoint-ext-cont-qna-gr.md).
+After all these steps are completed, AI Search portal users can authorize External Content Q&amp;A Genius Results for their searches by authenticating with Microsoft SharePoint Online. For details on this authentication procedure, see [Sign in to Microsoft SharePoint Online to authorize External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/auth-sharepoint-ext-cont-qna-gr.md).
 
 **Note:** When you activate External Content Q&amp;A Genius Results in a search application, they're available to all users with Microsoft SharePoint Online credentials who search using that application.
 
 ## Limitations
 
-By default, External Content Q&amp;A Genius Results only support English-language searches. Administrators can enable support for other languages by activating Dynamic Translation. To learn more about how content and answers are translated, see [Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md). For more details on Dynamic Translation, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
+By default, External Content Q&amp;A Genius Results only support English-language searches. Administrators can enable support for other languages by activating Dynamic Translation. To learn more about how content and answers are translated, see [Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/dynamic-translation-na-gr.md). For more details on Dynamic Translation, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 External Content Q&amp;A Genius Results only generate answers from documents found in your Microsoft SharePoint Online instance. They don't generate answers from sites found in your instance.
 
@@ -56,19 +56,19 @@ The following table describes the interactions between External Content Q&amp;A 
 
 |Feature|Interaction with External Content Q&amp;A Genius Results Genius Results|
 |-------|-----------------------------------------------------------------------|
-|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)|When computing External Content Q&amp;A Genius Result answers, AI Search doesn't apply your result improvement rules because they don't operate on documents from your Microsoft SharePoint Online instance.|
-|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)|When computing External Content Q&amp;A Genius Result answers, AI Search doesn't remove stop words from your search.|
-|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)|When computing External Content Q&amp;A Genius Result answers, AI Search doesn't expand synonyms found in your search.|
-|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)|When computing External Content Q&amp;A Genius Result answers, AI Search doesn't correct misspelled search terms.|
+|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/result-improvement-rules-ais.md)|When computing External Content Q&amp;A Genius Result answers, AI Search doesn't apply your result improvement rules because they don't operate on documents from your Microsoft SharePoint Online instance.|
+|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/stop-words-ais.md)|When computing External Content Q&amp;A Genius Result answers, AI Search doesn't remove stop words from your search.|
+|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/synonyms-ais.md)|When computing External Content Q&amp;A Genius Result answers, AI Search doesn't expand synonyms found in your search.|
+|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/typo-handling-ais.md)|When computing External Content Q&amp;A Genius Result answers, AI Search doesn't correct misspelled search terms.|
 
--   **[Configure SharePoint API permissions for your External Content Q&amp;A Genius Results OAuth 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/grant-perms-azure-ext-cont-qna-grs.md)**  
+-   **[Configure SharePoint API permissions for your External Content Q&amp;A Genius Results OAuth 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/grant-perms-azure-ext-cont-qna-grs.md)**  
 Add the AllSites.FullControl SharePoint API delegated permission to your External Q&amp;A Genius Results OAuth 2.0 application in Microsoft Azure portal and grant admin consent to allow the application to access this permission. The OAuth 2.0 application for External Q&amp;A Genius Results requires the delegated permission to search your Microsoft SharePoint Online sites.
--   **[Configure OAuth settings for External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md)**  
+-   **[Configure OAuth settings for External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md)**  
 Configure the settings that External Content Q&amp;A Genius Results need to interact with your Microsoft SharePoint Online instance.
--   **[Restrict the Microsoft SharePoint Online sites that External Content Q&amp;A Genius Results can search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/filter-spo-sites-ext-cont-qa-gr.md)**  
+-   **[Restrict the Microsoft SharePoint Online sites that External Content Q&amp;A Genius Results can search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/filter-spo-sites-ext-cont-qa-gr.md)**  
 Define a Microsoft Keyword Query Language \(KQL\) query to restrict the set of Microsoft SharePoint Online sites \(paths\) that External Content Q&amp;A Genius Results can search for documents. Only documents that satisfy your query are eligible for External Content Q&amp;A Genius Result answer generation.
--   **[Sign in to Microsoft SharePoint Online to authorize External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/auth-sharepoint-ext-cont-qna-gr.md)**  
+-   **[Sign in to Microsoft SharePoint Online to authorize External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/auth-sharepoint-ext-cont-qna-gr.md)**  
 Obtain an OAuth 2.0 token from Microsoft SharePoint Online so that External Content Q&amp;A Genius Results can find documents and generate answers when you search.
 
-**Parent Topic:**[Configuring ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
+**Parent Topic:**[Configuring ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configuring-now-assist-ais.md)
 

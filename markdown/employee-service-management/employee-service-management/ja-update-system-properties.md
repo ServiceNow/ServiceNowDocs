@@ -16,7 +16,7 @@ Update the Journey Accelerator app system properties to use with Microsoft Excha
 
 Complete all the steps required for setting up [Microsoft Exchange Online Spoke v2.0.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ms-exch-online-spoke.md) Microsoft Exchange Online before updating the system properties for the Journey Accelerator app.
 
-See, [Microsoft Exchange Online setup for Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-ms-exchange-online-setup.md) for a list of required spokes supported for different versions of Journey Accelerator.
+See, [Microsoft Exchange Online setup for Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/ja-ms-exchange-online-setup.md) for a list of required spokes supported for different versions of Journey Accelerator.
 
 Role required: admin
 

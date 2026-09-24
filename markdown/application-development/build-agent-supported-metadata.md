@@ -2,12 +2,12 @@
 title: Supported metadata in Build Agent
 description: Metadata and app file types that Build Agent can create and manage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-supported-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-supported-metadata.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-26"
 reading_time_minutes: 5
-keywords: [metadata, app files, development workflow, compatibility, business rules, client scripts, forms, tables, workflows, UI components, scripted REST APIs, ATF tests, LDAP, data import, JavaScript modules, application menus, record insertion, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [metadata, app files, development workflow, compatibility, business rules, client scripts, forms, tables, workflows, UI components, scripted REST APIs, ATF tests, LDAP, data import, JavaScript modules, application menus, record insertion, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -17,7 +17,7 @@ Metadata and app file types that Build Agent can create and manage.
 
 For metadata types not listed in this table, query Build Agent directly.
 
-**Important:** Build Agent only creates metadata supported by ServiceNow® Fluent. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md). For the latest API reference, see [https://servicenow.github.io/sdk/](https://servicenow.github.io/sdk/)
+**Important:** Build Agent only creates metadata supported by ServiceNow® Fluent. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md). For the latest API reference, see [https://servicenow.github.io/sdk/](https://servicenow.github.io/sdk/)
 
 <table id="table_supported-metadata"><thead><tr><th>
 
@@ -113,7 +113,7 @@ Custom AI agents
 
 </td><td>
 
-AI agents scoped to application data models, roles, and ACLs. For more information, see [Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-custom-ai-agent.md).
+AI agents scoped to application data models, roles, and ACLs. For more information, see [Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-custom-ai-agent.md).
 
 </td></tr><tr><td>
 
@@ -398,5 +398,5 @@ Workspaces
 Agent-facing interfaces built with configurable workspace components.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Build Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-reference-landing.md)
+</table>**Parent Topic:**[Build Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-reference-landing.md)
 

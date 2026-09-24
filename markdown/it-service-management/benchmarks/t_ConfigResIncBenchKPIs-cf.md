@@ -2,7 +2,7 @@
 title: Configure resolved incident Benchmarks KPIs
 description: The source for the KPIs containing resolved incident data is the resolved\_at field in the Incident \[incident\] table, which may not exist in some environments. In this case, additional configuration is required to use these KPIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_ConfigResIncBenchKPIs-cf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/t\_ConfigResIncBenchKPIs-cf.html
 release: australia
 product: Benchmarks
 classification: benchmarks

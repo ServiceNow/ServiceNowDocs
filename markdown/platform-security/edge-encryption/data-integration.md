@@ -2,7 +2,7 @@
 title: Data integration with Edge Encryption
 description: To integrate third-party data with an instance using Edge Encryption, you must route the data through the Edge Encryption proxy server using supported integrations. Supported integrations use base system encryption rules that map data in each payload to fields in a table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/data-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/edge-encryption/data-integration.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -24,13 +24,13 @@ Edge Encryption does not support importing data from or exporting data to Excel,
 
     Encrypt requests and query data through the Edge Encryption proxy server using the ODBC driver.
 
-    Learn more: [Edge Encryption ODBC driver integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_IntegrateODBCWithEdge.md)
+    Learn more: [Edge Encryption ODBC driver integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_IntegrateODBCWithEdge.md)
 
 -   **MID Server**
 
     You can configure the MID Server to route data through an Edge Encryption proxy server. However, some restrictions apply.
 
-    Learn more: [Edge Encryption MID Server integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-mid-pass-through.md)
+    Learn more: [Edge Encryption MID Server integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/edge-mid-pass-through.md)
 
 -   **REST/SOAP web services**
 
@@ -47,16 +47,16 @@ Edge Encryption does not support importing data from or exporting data to Excel,
     Learn more: [JSONv2 Web Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JSONv2WebService.md)
 
 
-To encrypt data from custom third-party integrations not listed above, create custom encryption rules. See [Define a custom encryption rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EncryptionRules.md).
+To encrypt data from custom third-party integrations not listed above, create custom encryption rules. See [Define a custom encryption rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_EncryptionRules.md).
 
 ## Upload attachments to records marked for encryption
 
 Attachments can be uploaded to tables with attachment encryption configured using REST and SOAP web services.
 
--   **[Edge Encryption ODBC driver integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_IntegrateODBCWithEdge.md)**  
+-   **[Edge Encryption ODBC driver integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_IntegrateODBCWithEdge.md)**  
 Configure your ODBC driver to query data encrypted by Edge Encryption. The Edge Encryption proxy server encrypts ODBC driver requests to the ServiceNow instance when Edge Encryption is integrated with the ODBC driver.
--   **[Edge Encryption MID Server integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-mid-pass-through.md)**  
+-   **[Edge Encryption MID Server integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/edge-mid-pass-through.md)**  
 Configure the MID Server to route data through an Edge Encryption proxy server.
 
-**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/edge-config.md)
 

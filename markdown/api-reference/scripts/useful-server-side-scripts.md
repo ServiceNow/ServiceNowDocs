@@ -2,7 +2,7 @@
 title: Server-side script use cases
 description: Use cases for server-side scripts include logging output, getting user objects, and modifying date/time values.A catalog item has been requested, and the attached workflow contains a run script activity that populates a value in the scratchpad. From a business rule running on the requested item, you want to retrieve or set scratchpad values.Assign a service catalog item to the database group if it uses a delivery plan that has a catalog task that is assigned to the desktop group.Often you may need to provide users with a way to specify when a task or process is due. Using the DurationCalculator script include, you can calculate the due date using either a simple duration or relative duration.How much work is required to complete a task can be expressed as a "relative duration".This business rule and script example demonstrate how to calculate a simple duration.An example of a relative duration calculation script.You can implement a relative duration by creating the cmn\_relative\_duration table and the DurationCalculator script include.The cmn\_relative\_duration table supports the definition of a due date as either a duration of time or a relative duration.In a business rule or other server script, the gs.getUser\(\) method returns a user object. The user object is an internal representation of the currently logged in user and provides information about the user and various utility functions.GSLog is a script include that simplifies script logging and debugging by implementing levels of log output, selectable by per-caller identified sys\_properties values.This example demonstrates how to modify a GlideDateTime field value using a server-side script.You can use custom queues for applications that create a large volume of events or events that take a long time to process. This task shows how to create a custom queue, its monitoring process, and use a script to send events to the queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/useful-server-side-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/useful-server-side-scripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -16,7 +16,7 @@ breadcrumb: [Useful scripts, Scripting, API implementation, API implementation a
 
 Use cases for server-side scripts include logging output, getting user objects, and modifying date/time values.
 
-**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/usefulScripts.md)
+**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md)
 
 ## Accessing the workflow scratchpad from business rules
 
@@ -461,7 +461,7 @@ In a business rule or other server script, the gs.getUser\(\) method returns a u
 
 ### About this task
 
-For a list and description of the available scoped methods for the user object, see [GlideUser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GUserAPI.md).
+For a list and description of the available scoped methods for the user object, see [GlideUser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GUserAPI.md).
 
 ### Procedure
 
@@ -496,9 +496,9 @@ Logs can be at the level of debug, info, notice, warning, err, or crit \(after B
 
 Use for any server-side script where you want to implement event logging.
 
-For the API reference, see [GSLog\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GSLogBoth.md).
+For the API reference, see [GSLog\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GSLogBoth.md).
 
-For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debug-overview.md)
+For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debug-overview.md)
 
 ## Modify a GlideDateTime field value
 
@@ -545,14 +545,14 @@ gs.info('In ' + GlideSession.get().getTimeZoneName() + ": " + gdt.getDisplayValu
 
 See also:
 
--   [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md)
--   [GlideDate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDateAPI.md)
--   [GlideDate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
--   [GlideDateTime - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md)
--   [GlideDateTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
--   [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md)
--   [GlideElement - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
--   [GlideTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideTimeScopedAPI.md)
+-   [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md)
+-   [GlideDate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDateAPI.md)
+-   [GlideDate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
+-   [GlideDateTime - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeAPI.md)
+-   [GlideDateTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
+-   [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementAPI.md)
+-   [GlideElement - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
+-   [GlideTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideTimeScopedAPI.md)
 
 ## Using custom queues to process events
 

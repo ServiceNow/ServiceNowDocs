@@ -2,7 +2,7 @@
 title: Quiz reports
 description: Quizzes provide several global reports so that assessment administrators can view important statistics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_QuizReports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_QuizReports.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -90,5 +90,5 @@ Total number of incorrect answers for each scored question. -   **Type**: Bar Ch
 -   **Table**: Metric Results \[asmt\_metric\_result\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quizzes reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/quizzes-reference.md)
+</table>**Parent Topic:**[Quizzes reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/quizzes-reference.md)
 

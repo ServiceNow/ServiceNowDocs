@@ -2,7 +2,7 @@
 title: Configure the activity timer log
 description: Configure the activity timer log to appear on selected record pages in CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-activity-timer-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-activity-timer-log.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -77,5 +77,5 @@ Specifies case types excluded from the activity timer log feature.
 **Related topics**  
 
 
-[Activity timer log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-time-tracking.md)
+[Activity timer log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-time-tracking.md)
 

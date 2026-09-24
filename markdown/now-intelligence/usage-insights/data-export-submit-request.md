@@ -2,12 +2,12 @@
 title: Preparing for the Usage Insights data export via REST API
 description: Submit an export request to the Usage Insights data export API to extract usage data asynchronously and consume results from a Kafka topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/data-export-submit-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/data-export-submit-request.html
 release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Bulk export of Usage Insights data via REST API, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -62,7 +62,7 @@ This task involves preparing the export request parameters, managing API request
 
 ## What to do next
 
-Set up a secure connection to Hermes, to start consuming data export results. See [Setting up a secure connection to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-setup-hermes.md).
+Set up a secure connection to Hermes, to start consuming data export results. See [Setting up a secure connection to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/data-export-setup-hermes.md).
 
-**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-restapi.md)
+**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/data-export-restapi.md)
 

@@ -2,7 +2,7 @@
 title: Additional options for application screens and elements in Universal App Connector
 description: Validate and perform additional operations for the added application screens and their captured elements. The additional options for the application screens are categorized based on the application type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/contextmenu-application-screens.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/contextmenu-application-screens.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -103,7 +103,7 @@ Capture element
 
 </td><td>
 
-Captures elements from the application screen. For more information, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-uac.md).
+Captures elements from the application screen. For more information, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-uac.md).
 
 </td></tr><tr><td>
 
@@ -240,5 +240,5 @@ Click
 Clicks the elements if applicable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md)
+</table>**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/universal-app-connector.md)
 

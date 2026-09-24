@@ -2,7 +2,7 @@
 title: Using Machine Learning APIs
 description: Use ServiceNow Machine Learning \(ML\) APIs to train Machine Learning models and run inferences.This section briefly describes classes for training ML solutions and running inferences with trained solutions.Follow this example procedure to learn how to configure and train a solution.Follow these example breakdowns to learn how to manage trained solution versions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/using-ml-apis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/using-ml-apis.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence

@@ -2,7 +2,7 @@
 title: Review event details and start an exercise event
 description: Review the details of an event in the Details tab, start an event to test your business continuity or recovery plan, and monitor completion of the event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-bcm-crisis-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-bcm-crisis-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

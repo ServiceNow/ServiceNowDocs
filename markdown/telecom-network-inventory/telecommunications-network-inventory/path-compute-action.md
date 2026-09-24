@@ -2,7 +2,7 @@
 title: Path Search function
 description: The Path Search function enables you to execute the path computation function between the starting and ending sites in the Telecommunications Network Inventory application. You can use this function for the path computation when you process the network inventory design and assign.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/path-compute-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/path-compute-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -197,7 +197,7 @@ The following table lists the information about the function's output.
 |----|-----------|---------|
 |Connection id|Returns the sys\_id of the logical connection record.|String|
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

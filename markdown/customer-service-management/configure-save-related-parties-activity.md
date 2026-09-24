@@ -2,7 +2,7 @@
 title: Save Related Parties Activity
 description: Save related party records to the database using the output of an upstream Add related party activity. Supports insert, update, and delete operations when related table permissions are enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-save-related-parties-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-save-related-parties-activity.html
 release: australia
 topic_type: task
 last_updated: "2026-06-08"
@@ -62,6 +62,6 @@ Within a stage, you can configure activities to guide users through steps such a
 
 5.  Configure the newly added activity in the playbooks canvas using the **Details and Automation** tabs in the side panel.
 
-    To further customize the side panel tabs, and to tailor the activity to your specific use case, see. [Configure Save Related Parties Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-save-related-parties-activity.md)
+    To further customize the side panel tabs, and to tailor the activity to your specific use case, see. [Configure Save Related Parties Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customize-save-related-parties-activity.md)
 
 

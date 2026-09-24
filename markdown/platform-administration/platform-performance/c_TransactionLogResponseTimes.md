@@ -2,7 +2,7 @@
 title: Reviewing transaction logs
 description: The instance automatically logs the vital statistics of every transaction that it processes, and that information is available to you as an administrator. Reviewing transaction logs can help identify latency and performance issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/c\_TransactionLogResponseTimes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/platform-performance/c\_TransactionLogResponseTimes.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -35,5 +35,5 @@ For each completed transaction, available information includes the following \(t
 
 **Note:** You can change which columns are shown and their order by selecting the Update Personalized List icon \(\[Omitted image "gear.png"\] Alt text:\)
 
-**Parent Topic:**[Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/monitoring-platform-performance.md)
+**Parent Topic:**[Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/monitoring-platform-performance.md)
 

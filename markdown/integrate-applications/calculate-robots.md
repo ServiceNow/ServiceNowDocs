@@ -2,7 +2,7 @@
 title: Calculate the number of robots in RPA Hub
 description: Calculate the number of robots that you need to complete an unattended bot process execution that is based on the allocation type, for example, the SLA Based and Percentage Reduction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/calculate-robots.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/calculate-robots.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,15 +16,15 @@ Calculate the number of robots that you need to complete an unattended bot proce
 
 ## Before you begin
 
-Familiarize yourself with robot pool concepts. For more information, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md).
+Familiarize yourself with robot pool concepts. For more information, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/robot-pool-rpa.md).
 
-Create a robot pool. For more information, see [Create a robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robot-pool.md).
+Create a robot pool. For more information, see [Create a robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-robot-pool.md).
 
-Enable robot pool for the bot process. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Enable robot pool for the bot process. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/select-botprocess.md).
 
-Associate a queue to the bot process. For more information, see [c to the bot process from the related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/associate-queue-botprocess.md).
+Associate a queue to the bot process. For more information, see [c to the bot process from the related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/associate-queue-botprocess.md).
 
-Define Average Handling Time \(AHT\) details on the queue form. For more information, see [Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-form.md).
+Define Average Handling Time \(AHT\) details on the queue form. For more information, see [Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/queue-form.md).
 
 Ensure that multiple queues are not associated to a bot process.
 
@@ -40,7 +40,7 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
 If the value of the calculation is in decimals, the value is rounded off to the next higher value. For example, if the calculation result is 2.2 robots, the result that is displayed is 3. That means that 3 robots are required to execute the bot process.
 
-queryConditions included in the PickWorkItem component are considered for calculating the number of robots required to complete an unattended bot process execution, if the bot process is enabled with robot pool. For more information about PickWorkItem component, see [Queue connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-queues-methods.md).
+queryConditions included in the PickWorkItem component are considered for calculating the number of robots required to complete an unattended bot process execution, if the bot process is enabled with robot pool. For more information about PickWorkItem component, see [Queue connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connectors-queues-methods.md).
 
 ## Procedure
 
@@ -59,5 +59,5 @@ queryConditions included in the PickWorkItem component are considered for calcul
     A message is displayed about the number of robots that are required to execute the bot process.
 
 
-**Parent Topic:**[Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md)
+**Parent Topic:**[Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/robot-pool-rpa.md)
 

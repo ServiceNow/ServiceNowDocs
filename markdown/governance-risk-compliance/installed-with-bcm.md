@@ -2,7 +2,7 @@
 title: Components installed with Business Continuity Management
 description: Several types of components are installed with activation of the Business Continuity Management application.When you download the Business Continuity Management application, several script includes are added to your instance.Use this reference to integrate the shared Microsoft Excel import and export library into your ServiceNow application. It lists the library components, configuration class methods, artifacts that you must create, and example code for export, import, and combined integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/installed-with-bcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/installed-with-bcm.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -67,7 +67,7 @@ The BCM admin contains the Approver Configurator admin role, but it doesn’t co
 
 For security reasons, the Approver Configurator admin has read access to the **Script** field on the Approval Rule form. If you have the Approver Configurator developer role in the GRC: Approver Configurator application, you’ve create and write access to the **Script** field on the Approval Rule form.
 
-For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
+For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
 
 
 </td><td>
@@ -392,7 +392,7 @@ Allows read access on all recovery events.
 </td></tr></tbody>
 </table>## BCM lite operator role
 
-For information on the BCM lite operator role, see [BCM lite operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-lite-operators.md).
+For information on the BCM lite operator role, see [BCM lite operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-lite-operators.md).
 
 ## Tables installed
 
@@ -927,9 +927,9 @@ Business Continuity Management – Planning
 </td></tr></tbody>
 </table>## Properties installed
 
-For properties installed with the Business Continuity Management application, see [Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/properties-bcm.md).
+For properties installed with the Business Continuity Management application, see [Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/properties-bcm.md).
 
-**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-reference.md)
+**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-reference.md)
 
 ## Script includes in Business Continuity Management
 

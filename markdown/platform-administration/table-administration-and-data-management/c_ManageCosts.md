@@ -2,7 +2,7 @@
 title: Manage costs
 description: When the cost management feature is enabled, time cards can be used to manage the cost of labor in the Cost Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_ManageCosts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/c\_ManageCosts.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -22,7 +22,7 @@ When a time card for a project task is approved, an expense line is generated fo
 
 The timecard\_admin role enables users to approve, modify, and delete the time cards of other users.
 
-**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/time-card-management.md)
 
 **Related topics**  
 

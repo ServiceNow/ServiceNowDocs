@@ -2,7 +2,7 @@
 title: Use case: Populate display names and quote lines in Configuration Field Data Set objects
 description: Learn how to set up custom objects and Apex triggers in SFDC to populate the display names of CPQ fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_populate\_display\_name\_and\_quote\_line\_in\_configuration\_field\_data\_sets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/use\_case\_populate\_display\_name\_and\_quote\_line\_in\_configuration\_field\_data\_sets.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -226,5 +226,5 @@ Now, every time a Quote is saved in SFDC, the Quote Line of the Parent Configura
 
 **Note:** Configuration Field Data Sets are created immediately after you click **Save** in the CPQ Configurator. When you enter the Quote Line Editor, the Quote Line field will not be populated because it hasnʼt been created or updated yet. Only once you save from the Editor will the quote line appear in the field.
 
-**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-cases.md)
 

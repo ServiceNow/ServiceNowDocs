@@ -2,7 +2,7 @@
 title: Set up the SAP ECC RFC spoke
 description: Integrate the ServiceNow instance and SAP ECC RFC account by using the Basic Auth credentials to authenticate ServiceNow requests.Configure MID Server using the SAP proprietary JAR files to integrate SAP ECC RFC account with your ServiceNow instance.Create a credential record for the SAP ECC RFC account. The SAP ECC RFC spoke connection and credential alias uses these credentials to authorize actions.Create a connection record for your SAP ECC RFC account. The SAP ECC RFC spoke connection and credential aliases use these connections to perform actions in SAP ECC RFC.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sap-ecc-rfc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-sap-ecc-rfc.html
 release: australia
 product: Integration Hub
 classification: integration-hub

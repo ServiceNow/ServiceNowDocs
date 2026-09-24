@@ -2,7 +2,7 @@
 title: User Criteria output
 description: User Criteria output based on Available For and Not Available For values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/user-criteria-output.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/user-criteria-output.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -24,7 +24,7 @@ User Criteria output based on **Available For** and **Not Available For** values
 |Defined|Defined|Accessible only to the users falling under **Available For** criteria.|
 |Defined|Defined \(with some users falling under **Available For** criteria\)|Accessible to all users falling under **Available For** criteria and not falling under **Not Available For** criteria.|
 
-**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

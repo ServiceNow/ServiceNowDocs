@@ -2,7 +2,7 @@
 title: Create a group for all location support agents in Care Team Operations for Biomed
 description: Create a group for location support agents with the sn\_cto\_biomed.loc\_support\_agent role assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Biomed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-create-agent-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-biomed-create-agent-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

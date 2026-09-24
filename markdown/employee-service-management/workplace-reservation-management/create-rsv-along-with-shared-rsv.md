@@ -2,7 +2,7 @@
 title: Create a reservation along with a shared reservation
 description: Reserve a workplace near to your co-worker using their shared reservation details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-rsv-along-with-shared-rsv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/create-rsv-along-with-shared-rsv.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -39,7 +39,7 @@ Role required: sn\_wsd\_core.workplace\_user
     **Note:** This option is unavailable for multi-reservation.
 
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure settings for Dispatcher Workspace
 description: Automate processes and provide dispatchers with more information so they can get their job done more effectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-workspce-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configure-workspce-settings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Enable Auto-refresh
 
 </td><td>
 
-Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created in Dispatcher Workspace. Enabling the feature here gives dispatchers the option to enable or disable this setting on Dispatcher Workspace.**Note:** Ensure the system property **Enable Shift Scheduling for FSM to Determine Availability** is enabled. For more information, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
+Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created in Dispatcher Workspace. Enabling the feature here gives dispatchers the option to enable or disable this setting on Dispatcher Workspace.**Note:** Ensure the system property **Enable Shift Scheduling for FSM to Determine Availability** is enabled. For more information, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 </td></tr><tr><td>
 

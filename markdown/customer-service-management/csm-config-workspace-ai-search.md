@@ -2,7 +2,7 @@
 title: Using AI Search with CRM Workspace
 description: Use the ServiceNow AI Search application with CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-workspace-ai-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

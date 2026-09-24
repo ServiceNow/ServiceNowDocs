@@ -2,7 +2,7 @@
 title: Operational Sustainability Workspace \(formerly ESG Workspace\) users
 description: The Operational Sustainability Workspace displays the relevant data for the environmental, social, and governance pillars and enables you to take appropriate actions according to your role. These roles include the ESG administrator, ESG program manager, ESG reporting and disclosure manager, ESG metrics manager, and ESG data owner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/esg-workspace-personas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/esg-workspace-personas.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,18 +32,18 @@ ESG Administrator
 
 </td><td>
 
-Set up the Operational Sustainability Management application so that it can be used by the users. -   [Create material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-material-topics.md)
--   [Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-goal.md)
--   [Set targets for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-target.md)
--   [Add a goal to a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/associate-a-goal-to-mt.md)
--   [Approve a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/approve-a-mt.md)
--   [Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/entities-in-esg.md)
--   [Create a new emission activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-emission-activity.md)
--   [Create an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-emission-factor.md)
--   [Manage all integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg.md)
--   [Create a new schedule for calculating the due date of the metric data task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-new-schedule.md).
--   [Manage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-metrics.md).
--   [Create unit family, units, and unit conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-unit-family.md).
+Set up the Operational Sustainability Management application so that it can be used by the users. -   [Create material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-material-topics.md)
+-   [Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-esg-goal.md)
+-   [Set targets for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-esg-target.md)
+-   [Add a goal to a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/associate-a-goal-to-mt.md)
+-   [Approve a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/approve-a-mt.md)
+-   [Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/entities-in-esg.md)
+-   [Create a new emission activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-emission-activity.md)
+-   [Create an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-emission-factor.md)
+-   [Manage all integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg.md)
+-   [Create a new schedule for calculating the due date of the metric data task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-new-schedule.md).
+-   [Manage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-metrics.md).
+-   [Create unit family, units, and unit conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-unit-family.md).
 
 </td></tr><tr><td>
 
@@ -51,13 +51,13 @@ ESG program manager
 
 </td><td>
 
--   [Create material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-material-topics.md)
--   [Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-goal.md)
--   [Set targets for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-target.md)
--   [Add a goal to a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/associate-a-goal-to-mt.md)
--   [Approve a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/approve-a-mt.md)
--   [Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/entities-in-esg.md)
--   [Manage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-metrics.md)
+-   [Create material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-material-topics.md)
+-   [Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-esg-goal.md)
+-   [Set targets for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-esg-target.md)
+-   [Add a goal to a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/associate-a-goal-to-mt.md)
+-   [Approve a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/approve-a-mt.md)
+-   [Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/entities-in-esg.md)
+-   [Manage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-metrics.md)
 
 </td></tr><tr><td>
 
@@ -65,7 +65,7 @@ ESG reporting and disclosure manager
 
 </td><td>
 
-[Create disclosures for internal and external stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-disclosure.md)
+[Create disclosures for internal and external stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-disclosure.md)
 
 </td></tr><tr><td>
 
@@ -73,11 +73,11 @@ ESG metrics manager
 
 </td><td>
 
--   [Create an automated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-metric-definition.md)
--   [Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-manual-metric-definition.md)
--   [Create a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-composite-metric-definition.md)
--   [Create a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-metric.md)
--   [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-watershed.md)
+-   [Create an automated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-metric-definition.md)
+-   [Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-manual-metric-definition.md)
+-   [Create a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-composite-metric-definition.md)
+-   [Create a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-metric.md)
+-   [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg-with-watershed.md)
 
 </td></tr><tr><td>
 
@@ -85,8 +85,8 @@ ESG data owner
 
 </td><td>
 
--   [Provide data for the metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/provide-data-for-metric-data-task.md)
--   [Provide responses for multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/provide-data-for-multiple-metrics.md)
+-   [Provide data for the metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/provide-data-for-metric-data-task.md)
+-   [Provide responses for multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/provide-data-for-multiple-metrics.md)
 
 </td></tr><tr><td>
 
@@ -96,10 +96,10 @@ ESG Risk Manager**Note:** This role is installed if you activate the sn\_esg\_ri
 
 -   [Create a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/t_CreateRiskState.md)
 -   [Generate a risk from a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/t_GenRiskFromRiskFrameProfile.md)
--   [Create a risk assessment scope and initiate an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-risk-asmt-scope-and-initiate-asmt.md)
+-   [Create a risk assessment scope and initiate an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-risk-asmt-scope-and-initiate-asmt.md)
 
 </td></tr></tbody>
-</table>For more information on the roles, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
+</table>For more information on the roles, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/components-installed-with-esg.md).
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-new-explore.md)
 

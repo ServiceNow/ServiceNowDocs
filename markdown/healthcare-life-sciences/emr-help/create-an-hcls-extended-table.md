@@ -2,7 +2,7 @@
 title: Create a custom healthcare case type
 description: Create a custom healthcare case type for EMR Help.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/create-an-hcls-extended-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/create-an-hcls-extended-table.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -63,9 +63,9 @@ Set your scope to Healthcare and Life Sciences Service Management Core.
 
 ## Result
 
-You now have a new case type extended from the abstract case type Healthcare case. For more information on the abstract Healthcare case type, see [Healthcare case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-case-table.md).
+You now have a new case type extended from the abstract case type Healthcare case. For more information on the abstract Healthcare case type, see [Healthcare case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-case-table.md).
 
 ## What to do next
 
-[Configure the record producer for your healthcare case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/configure-the-record-producer-for-your-hcls-case-type.md).
+[Configure the record producer for your healthcare case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/configure-the-record-producer-for-your-hcls-case-type.md).
 

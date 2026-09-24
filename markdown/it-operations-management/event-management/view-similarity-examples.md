@@ -2,7 +2,7 @@
 title: Review Event Management similarity examples
 description: Review the similarity examples and scores that the system provides during solution training to see how the selected alert record compares to existing alert records. For example, you can modify the similarity score threshold to increase the accuracy of your similarity recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-similarity-examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/view-similarity-examples.html
 release: australia
 product: Event Management
 classification: event-management
@@ -18,7 +18,7 @@ Review the similarity examples and scores that the system provides during soluti
 
 ## Before you begin
 
-Train a similarity solution in a ServiceNow datacenter. For more information, see [Create an Event Management similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-solution-similarity.md).
+Train a similarity solution in a ServiceNow datacenter. For more information, see [Create an Event Management similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-solution-similarity.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -61,5 +61,5 @@ Adjust the current threshold to provide useful results. For example, a low simil
     Your solution uses the new similarity threshold value. In the example, the solution returns similar results that have a score higher than 90.
 
 
-**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-similarity.md)
 

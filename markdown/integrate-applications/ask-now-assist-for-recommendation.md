@@ -2,7 +2,7 @@
 title: Ask ServiceNow Otto for Workflow Data Fabric \(WDF\) for recommendations
 description: Find guidance on setting up integrations, understand the advantages of different integration tools, and get links to sources of information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/ask-now-assist-for-recommendation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/ask-now-assist-for-recommendation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,5 +66,5 @@ The support team is investigating customer churn. It wants to find data assets i
 **Related topics**  
 
 
-[oneExtend LLM skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/recommendation-skill.md)
+[oneExtend LLM skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/recommendation-skill.md)
 

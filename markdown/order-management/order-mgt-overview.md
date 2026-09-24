@@ -2,7 +2,7 @@
 title: Sales Customer Relationship Management
 description: ServiceNow Sales Customer Relationship Management \(Sales CRM\) applications enables organizations to manage the product sales life cycle. Your agents can use these applications to generate pre-sales leads and opportunities, provide sales quotes, capture and fulfill orders, work with contracts and entitlements, and manage the customer order workflow for changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
@@ -15,27 +15,27 @@ ServiceNow® Sales Customer Relationship Management \(Sales CRM\) applications e
 
 <table id="table_qq4_trz_3tb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how you can use the Sales CRM applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-exploring.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how you can use the Sales CRM applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-exploring.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your Sales CRM implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-configuring.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your Sales CRM implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-configuring.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the Sales CRM applications as an agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-using.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the Sales CRM applications as an agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-using.md)
 
 </td></tr><tr><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend capabilities in Sales CRM by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-integrating.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend capabilities in Sales CRM by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-integrating.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-reference.md)
 
 </td><td>
 
-[Automate \[Omitted image "bus-ai-otto.svg"\] Alt text: Improve customer, agent, and partner productivity and user experience with AI‑powered tools and workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/ai-capabilities-sales-crm.md)
+[Automate \[Omitted image "bus-ai-otto.svg"\] Alt text: Improve customer, agent, and partner productivity and user experience with AI‑powered tools and workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/ai-capabilities-sales-crm.md)
 
 </td></tr></tbody>
 </table>## Additional resources

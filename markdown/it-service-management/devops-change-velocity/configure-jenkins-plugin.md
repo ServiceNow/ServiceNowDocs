@@ -2,7 +2,7 @@
 title: Configure Jenkins plugin
 description: Configure Jenkins to send real time notifications for your pipeline executions to DevOps Change Velocity.Configure webhooks in Jenkins to send sync notifications to the DevOps Change Velocity application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/configure-jenkins-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/configure-jenkins-plugin.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -27,12 +27,12 @@ Role required: Jenkins admin
 2.  Search for **ServiceNow DevOps Plugin** and select it, and then select **Install**.
 
 
-**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
+**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
 
 **Related topics**  
 
 
-[Configure webhooks manually for Jenkins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md)
+[Configure webhooks manually for Jenkins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/configure-jenkins-plugin.md)
 
 ## Configure webhooks manually for Jenkins
 
@@ -188,7 +188,7 @@ The level of log messages you want to store in Jenkins logs/ ServiceNow log reco
 -   finer
 -   finest
 -   all
- For more information on Log levels and log recorders, see [Jenkins log levels and Log Recorders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-jenkins-log-recorders.md)
+ For more information on Log levels and log recorders, see [Jenkins log levels and Log Recorders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-jenkins-log-recorders.md)
 
 </td></tr><tr><td>
 

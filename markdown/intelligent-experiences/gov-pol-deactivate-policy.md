@@ -2,12 +2,12 @@
 title: Deactivate a policy
 description: Stop a policy from running by deactivating it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-deactivate-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-deactivate-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-08-27"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Threat Response, deactivate]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Threat Response, deactivate]
 breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 

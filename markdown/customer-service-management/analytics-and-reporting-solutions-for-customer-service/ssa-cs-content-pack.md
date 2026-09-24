@@ -2,7 +2,7 @@
 title: Platform Analytics Solutions for Self-Service Analytics for Customer Service
 description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution quantifies the value of self-service using the Self-Service Analytics dashboard for customer service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-content-pack.html
 release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
@@ -25,7 +25,7 @@ The following roles and tasks are associated with this Solution:
 **Related topics**  
 
 
-[Configure the Platform Analytics Solution for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ssa-solution-config.md)
+[Configure the Platform Analytics Solution for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ssa-solution-config.md)
 
 [Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service-analytics.md)
 

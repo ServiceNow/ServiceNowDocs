@@ -2,7 +2,7 @@
 title: Work on a problem in Service Operations Workspace
 description: Manage problems and problem tasks through their life cycle, share workarounds or fixes with related incidents, and create known error articles to help deflect incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/work-on-problem-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/work-on-problem-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -18,7 +18,7 @@ Manage problems and problem tasks through their life cycle, share workarounds or
 
 ## Before you begin
 
-If you aren't using the base problem life cycle, you will continue to use the classic experience to manage problems or problem tasks through their life cycle. From the problem record page, select **Continue problem** to be redirected to the ServiceNow AI Platform user interface where you can make state transitions. For information about state transitions of a problem, see [Life cycle of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/understanding-state-mgmt-transitions.md).
+If you aren't using the base problem life cycle, you will continue to use the classic experience to manage problems or problem tasks through their life cycle. From the problem record page, select **Continue problem** to be redirected to the ServiceNow AI Platform user interface where you can make state transitions. For information about state transitions of a problem, see [Life cycle of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/understanding-state-mgmt-transitions.md).
 
 The base problem life cycle is included with the Problem Management  Best Practice - Madrid - State Model \(com.snc.best\_practice.problem.madrid.state\_model\) plugin. Use the Problem Management Migration Utility [store application](https://store.servicenow.com/sn_appstore_store.do#!/store/application/d03b7539dbbb3300f21e7ffdbf9619a8) to enable this plugin and migrate your records to the base problem life cycle.
 
@@ -28,19 +28,19 @@ Role required: itil, problem\_coordinator or higher \(for managing the life cycl
 
 1.  Open a problem.
 
-    For information about creating a problem in Service Operations Workspace, see [Create a problem in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-problem-sow.md).
+    For information about creating a problem in Service Operations Workspace, see [Create a problem in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-problem-sow.md).
 
 2.  Perform any of the following actions on the problem record page.
 
-<table id="choicetable_ptk_vnq_cbc"><thead><tr><th align="left" id="d430415e101">
+<table id="choicetable_ptk_vnq_cbc"><thead><tr><th align="left" id="d430356e101">
 
 Option
 
-</th><th align="left" id="d430415e104">
+</th><th align="left" id="d430356e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d430415e110">
+</th></tr></thead><tbody><tr><td id="d430356e110">
 
 **View the unified dependency CMDB map in a new tab within the workspace view**
 
@@ -48,15 +48,15 @@ Description
 
 For the reference fields such as **Configuration item**, **Service offering** and **Service**, select the **Dependency view** icon \(\[Omitted image "dependency-icon-r.png"\] Alt text: Dependency icon\).
 
-</td></tr><tr><td id="d430415e137">
+</td></tr><tr><td id="d430356e137">
 
 **Create a problem task associated with the problem**
 
 </td><td>
 
-Select **Create problem task**, or select **New** from the **Problem Tasks** tab. For more information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-problem-task-sow.md).
+Select **Create problem task**, or select **New** from the **Problem Tasks** tab. For more information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-problem-task-sow.md).
 
-</td></tr><tr><td id="d430415e164">
+</td></tr><tr><td id="d430356e164">
 
 **Assess a problem**
 
@@ -64,7 +64,7 @@ Select **Create problem task**, or select **New** from the **Problem Tasks** tab
 
 Select **Assess** and fill the mandatory fields.
 
-</td></tr><tr><td id="d430415e176">
+</td></tr><tr><td id="d430356e176">
 
 **Confirm a problem**
 
@@ -72,7 +72,7 @@ Select **Assess** and fill the mandatory fields.
 
 Select **Confirm** to move the problem from the **Assess** state to the **Root Cause Analysis** state.
 
-</td></tr><tr><td id="d430415e195">
+</td></tr><tr><td id="d430356e195">
 
 **Investigate the root cause of a problem**
 
@@ -81,17 +81,17 @@ Select **Confirm** to move the problem from the **Assess** state to the **Root C
 -   If you are the subject matter expert for this problem area, carry out the investigation and select **Fix** to provide the cause notes and fix notes.
 -   If you are not the subject matter expert and you want help from another team to investigate, create a problem task.
 
-For more information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-problem-task-sow.md).
+For more information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-problem-task-sow.md).
 
-</td></tr><tr><td id="d430415e225">
+</td></tr><tr><td id="d430356e225">
 
 **Create a change request from the problem**
 
 </td><td>
 
-From the drop-down list next to **Create problem task**, select **Create change request**, or select **New** from the **Fix Tasks** tab.For information about creating a change request, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-sow.md).
+From the drop-down list next to **Create problem task**, select **Create change request**, or select **New** from the **Fix Tasks** tab.For information about creating a change request, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-change-sow.md).
 
-</td></tr><tr><td id="d430415e255">
+</td></tr><tr><td id="d430356e255">
 
 **Create an outage associated with the problem**
 
@@ -99,15 +99,15 @@ From the drop-down list next to **Create problem task**, select **Create change 
 
 From the drop-down list next to **Create problem task**, select **Create outage**.
 
-</td></tr><tr><td id="d430415e270">
+</td></tr><tr><td id="d430356e270">
 
 **Create a known error article**
 
 </td><td>
 
-From the drop-down list next to **Create problem task**, select **Create known error article**.Known error articles document the root cause and the workaround of the problem. For a description of the field values, see [Known error article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/known-error-article-form.md).
+From the drop-down list next to **Create problem task**, select **Create known error article**.Known error articles document the root cause and the workaround of the problem. For a description of the field values, see [Known error article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/known-error-article-form.md).
 
-</td></tr><tr><td id="d430415e295">
+</td></tr><tr><td id="d430356e295">
 
 **Assign the problem to yourself**
 
@@ -115,7 +115,7 @@ From the drop-down list next to **Create problem task**, select **Create known e
 
 Select **Assign to me**.
 
-</td></tr><tr><td id="d430415e307">
+</td></tr><tr><td id="d430356e307">
 
 **Mark a problem as a duplicate of an existing problem**
 
@@ -123,7 +123,7 @@ Select **Assign to me**.
 
 From the drop-down list next to **Cancel**, select **Mark duplicate** and fill the mandatory fields.
 
-</td></tr><tr><td id="d430415e323">
+</td></tr><tr><td id="d430356e323">
 
 **Cancel a problem**
 
@@ -131,7 +131,7 @@ From the drop-down list next to **Cancel**, select **Mark duplicate** and fill t
 
 Select **Cancel problem** and fill the mandatory fields.
 
-</td></tr><tr><td id="d430415e335">
+</td></tr><tr><td id="d430356e335">
 
 **Delete a problem**
 
@@ -139,7 +139,7 @@ Select **Cancel problem** and fill the mandatory fields.
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Delete**.
 
-</td></tr><tr><td id="d430415e353">
+</td></tr><tr><td id="d430356e353">
 
 **Create a known error article for a high-impact problem**
 
@@ -151,10 +151,10 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 -   A known error article is not already attached.
 -   Work notes are not empty.
  1.  From the contextual side panel, select the recommendations icon \(\[Omitted image "recommended-actions-icon.png"\] Alt text: recommendations icon\).
-2.  From the **Recommended actions** tab, select **Create article**. For a description of the field values, see [Known error article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/known-error-article-form.md).
+2.  From the **Recommended actions** tab, select **Create article**. For a description of the field values, see [Known error article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/known-error-article-form.md).
 
 
-</td></tr><tr><td id="d430415e404">
+</td></tr><tr><td id="d430356e404">
 
 **Attach knowledge articles or records that help a quick resolution of a problem**
 
@@ -164,7 +164,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  Search for a resource and perform the required action.
 The knowledge articles attached here are displayed in the **Related records** tab.
 
-</td></tr><tr><td id="d430415e430">
+</td></tr><tr><td id="d430356e430">
 
 **Add an attachment to a problem**
 
@@ -172,7 +172,7 @@ The knowledge articles attached here are displayed in the **Related records** ta
 
 From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\).
 
-</td></tr><tr><td id="d430415e445">
+</td></tr><tr><td id="d430356e445">
 
 **Copy the record page URL to easily access the record**
 
@@ -180,7 +180,7 @@ From the contextual side panel, select the attachments icon \(\[Omitted image "a
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
 
-</td></tr><tr><td id="d430415e464">
+</td></tr><tr><td id="d430356e464">
 
 **Share a workaround**
 
@@ -188,7 +188,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Share workaround**.
 
-</td></tr><tr><td id="d430415e482">
+</td></tr><tr><td id="d430356e482">
 
 **Share a fix**
 
@@ -196,7 +196,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Share fix**.
 
-</td></tr><tr><td id="d430415e500">
+</td></tr><tr><td id="d430356e500">
 
 **Create templates for reuse**
 
@@ -204,7 +204,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text: templates icon\).
 
-</td></tr><tr><td id="d430415e515">
+</td></tr><tr><td id="d430356e515">
 
 **Acknowledge the problem while recognizing there is currently no permanent resolution**
 
@@ -212,7 +212,7 @@ From the contextual side panel, select the templates icon \(\[Omitted image "tem
 
 From the drop-down list next to **Cancel**, select **Accept risk** and fill the mandatory fields.**Note:** You can apply workaround notes to a risk-accepted problem.
 
-</td></tr><tr><td id="d430415e532">
+</td></tr><tr><td id="d430356e532">
 
 **Re-analyze a problem**
 
@@ -222,7 +222,7 @@ From a problem in the closed or resolved state, select **Re-analyze**. The state
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/problem-sow.md)
+**Parent Topic:**[Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/problem-sow.md)
 
 **Related topics**  
 

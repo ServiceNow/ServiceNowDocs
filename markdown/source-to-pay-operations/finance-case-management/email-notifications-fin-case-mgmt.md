@@ -2,7 +2,7 @@
 title: Email notifications from Finance Case Management
 description: Finance Case Management sends email notifications when you perform certain actions on a finance case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/email-notifications-fin-case-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/email-notifications-fin-case-mgmt.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -26,7 +26,7 @@ Finance Case Management sends emails in a predefined template and uses email act
 |A comment is added to the finance case.|User addressed in the comment|
 |A request for additional information is made.|Requester|
 
-**Parent Topic:**[Finance Case Management Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-case-mgmt-reference.md)
+**Parent Topic:**[Finance Case Management Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/fin-case-mgmt-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: TISC RPZ API
 description: The TISC RPZ API provides an endpoint to export domains and IP addresses in Response Policy Zone \(RPZ\) format.Exports domains and IP addresses in Response Policy Zone \(RPZ\) format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/tisc-rpz-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/tisc-rpz-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -26,7 +26,7 @@ This API runs in the `sn_sec_tisc` namespace. The calling user must have the sn\
 
 The current version of this API is `v1`.
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## TISC RPZ - POST /sn\_sec\_tisc/rpz\_export
 
@@ -432,7 +432,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -458,7 +458,7 @@ Authorization
 
 </td><td>
 
-Basic. For more information about API authentication and authorization, see the REST API security section in [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+Basic. For more information about API authentication and authorization, see the REST API security section in [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 </td></tr><tr><td>
 
@@ -488,7 +488,7 @@ Use this value in the next API request to get the next page of results. Provide 
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

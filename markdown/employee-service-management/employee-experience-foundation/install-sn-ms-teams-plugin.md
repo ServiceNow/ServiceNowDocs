@@ -2,7 +2,7 @@
 title: Install IT Service Management integration with Microsoft Teams application
 description: Install the IT Service Management integration with Microsoft Teams application for the collaboration between the agents and employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/install-sn-ms-teams-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/install-sn-ms-teams-plugin.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -75,5 +75,5 @@ Role required: admin
     The \[Omitted image "teams-decorator.png"\] Alt text: Microsoft Teams icon is displayed as a field decorator in a record.
 
 
-**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
+**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
 

@@ -2,7 +2,7 @@
 title: Configure service desk groups to access the Service Operations Workspace landing page
 description: Confirm that the right users have access to the Service Operations Workspace landing page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-service-desk-groups-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configure-service-desk-groups-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace

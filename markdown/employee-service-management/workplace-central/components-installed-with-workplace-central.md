@@ -2,7 +2,7 @@
 title: Components installed with Workplace Central
 description: Several types of components are installed with activation of the Workplace Central application, including tables, user roles, and business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/components-installed-with-workplace-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/components-installed-with-workplace-central.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -54,7 +54,7 @@ A table to store Capacity and Utilization drilled down to the area level.​
 |-----|-----------|
 |WSDSpaceMgmtAnalyticsSNC|Script which populates the capacity vs utilization table for Space Management in Workplace Analytics​|
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

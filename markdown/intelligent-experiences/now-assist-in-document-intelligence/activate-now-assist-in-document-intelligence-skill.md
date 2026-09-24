@@ -2,7 +2,7 @@
 title: Activate a Now Assist in Document Intelligence skill
 description: Activate the Now Assist in Document Intelligence skills that agents can use to help analyze and extract information from documents with generative AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/activate-now-assist-in-document-intelligence-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-in-document-intelligence/activate-now-assist-in-document-intelligence-skill.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -35,22 +35,22 @@ Now Assist in Document Intelligence skills are turned on by default. The skills 
 
     -   The skill was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the skill.
-    For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+    For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 
 Before activating a document intelligence skill in Now Assist, the following applications and their respective plugins must be installed.
 
 -   Now Assist
 
-    For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 -   Document Intelligence
 
-    For more information, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/install-document-intelligence.md).
+    For more information, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/install-document-intelligence.md).
 
 -   Now Assist in Document Intelligence
 
-    For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
 Role required: admin
@@ -69,13 +69,13 @@ This task doesn’t apply to the Multimodal chat skill. The multimodal chat skil
 
 3.  In thelist of Platform skills, select **Activate skill** for the document intelligenceskill that you want to activate.
 
-    For more information on document intelligence skills, see [Exploring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-exploring-now-assist.md).
+    For more information on document intelligence skills, see [Exploring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-exploring-now-assist.md).
 
     The guided use case setup opens.
 
 4.  Create a use case.
 
-    1.  To create a new use case, follow the steps in [Set up a use case for Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.md).
+    1.  To create a new use case, follow the steps in [Set up a use case for Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.md).
 
     2.  Select **Save and continue**.
 
@@ -131,7 +131,7 @@ Select the roles that a user must have to execute the skill.
 
 The skill is active and available to the selected user roles.
 
-**Parent Topic:**[Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
+**Parent Topic:**[Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
 
 **Related topics**  
 

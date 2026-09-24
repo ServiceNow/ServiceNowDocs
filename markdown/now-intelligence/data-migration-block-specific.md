@@ -2,7 +2,7 @@
 title: Block migration of specific artifacts
 description: Before you perform full migration, you can flag artifacts to be excluded from the migration process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-block-specific.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-block-specific.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,5 +56,5 @@ When you perform a full data migration, the selected artifacts are excluded. You
 
 ## What to do next
 
-Navigate to **All** &gt; **Performance Analytics** &gt; **Migration Center** to proceed with migrating the other artifacts on your instance. For more information, see [Perform full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-perform.md).
+Navigate to **All** &gt; **Performance Analytics** &gt; **Migration Center** to proceed with migrating the other artifacts on your instance. For more information, see [Perform full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-migration-perform.md).
 

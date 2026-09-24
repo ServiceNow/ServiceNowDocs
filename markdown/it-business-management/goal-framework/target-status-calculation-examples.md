@@ -2,12 +2,12 @@
 title: Status calculation specifications and examples
 description: Detailed specifications for status calculation across different target types, calculation formulas for targets with and without breakdowns, and worked examples demonstrating status assignment and rollup mechanics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/target-status-calculation-examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/target-status-calculation-examples.html
 release: australia
 product: Goal Framework
 classification: goal-framework
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Explore, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---

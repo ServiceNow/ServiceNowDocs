@@ -2,7 +2,7 @@
 title: Colors in data visualizations
 description: Depending on the data visualization, you can select different colors: a fixed color for each Group by element, a predefined color palette, a spectrum spanning high and low values, or a single color.Configure rules for how numerical values are displayed, to easily highlight why a value is important.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/colors-dv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/colors-dv.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ If the data visualization shows more than one metric, you can select a single co
 
 ## Color rules for pivot table, dial, and single score visualizations
 
-Single score, dial, and pivot table visualizations can use a single color that is set dynamically when the data meets certain conditions. For example, you can create a rule to show the score in green for values under 25. For more information, see [Create coloring rules for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/colors-dv.md).
+Single score, dial, and pivot table visualizations can use a single color that is set dynamically when the data meets certain conditions. For example, you can create a rule to show the score in green for values under 25. For more information, see [Create coloring rules for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/colors-dv.md).
 
 ## Color options for Group by values from table data sources
 
@@ -46,7 +46,7 @@ If you group by a value in a visualization based on a Table data source, you hav
 
     Color palettes are the default coloring pattern in a data visualization where a Group by value is defined. If you don’t specify a color palette, the color palette from the UX theme is used.
 
-    Non-default color palettes are defined in the Chart color scheme \[pa\_chart\_color\_schemes\] table. The admin or pa\_admin role is required to create a color palette. For more information, see [Create a color scheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/color-schemes-pa-widgets.md).
+    Non-default color palettes are defined in the Chart color scheme \[pa\_chart\_color\_schemes\] table. The admin or pa\_admin role is required to create a color palette. For more information, see [Create a color scheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/color-schemes-pa-widgets.md).
 
     In the following example, you see two data visualizations that show incidents. One visualization shows incidents grouped by Priority, and the other visualization shows incidents grouped by Category. Both visualizations use the Blues dark to light \(6\) color palette, which uses six shades of blue. Both visualizations show the same colors for the same ranking of values, although the values are different.
 
@@ -60,7 +60,7 @@ If you group by a value in a visualization based on a Table data source, you hav
 
     Fixed element colors are only available for visualizations of Table data sources.
 
-    When an element appears for the first time in a data visualization that is using fixed element colors, a color is defined for that element. Thereafter that element has the same color in any data visualization that shows it. The colors are stored for each element in the Chart Colors \[sys\_report\_chart\_color\] table. To change the color assigned to an element, you need the admin or report\_admin role. For more information, see [Define colors for data categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ChartColors.md).
+    When an element appears for the first time in a data visualization that is using fixed element colors, a color is defined for that element. Thereafter that element has the same color in any data visualization that shows it. The colors are stored for each element in the Chart Colors \[sys\_report\_chart\_color\] table. To change the color assigned to an element, you need the admin or report\_admin role. For more information, see [Define colors for data categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_ChartColors.md).
 
     In the following example, you see two data visualizations that show incidents that are grouped by the same field, Priority. Both visualizations use fixed element colors. The same values of Priority have the same color despite being in a different order.
 
@@ -71,7 +71,7 @@ If you group by a value in a visualization based on a Table data source, you hav
     \[Omitted image "dv-fixed-color-scheme.png"\] Alt text: Two data visualizations using fixed element colors but grouped by different elements, thus using different colors.
 
 
-**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-data-visualizations.md)
 
 **Related topics**  
 
@@ -92,7 +92,7 @@ This task is part of configuring the display settings of some data visualization
 
 1.  Open the data visualization for editing, either in the dashboard in-line editor or the Visualization Designer.
 
-    For more information, see [Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/editing-dv-in-line-db.md) or [Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-dv-ac-center.md).
+    For more information, see [Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/editing-dv-in-line-db.md) or [Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-dv-ac-center.md).
 
 2.  In the **Presentation** area of the configuration panel, open the **Colors** section.
 

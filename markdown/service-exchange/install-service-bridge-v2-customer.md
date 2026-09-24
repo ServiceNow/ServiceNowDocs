@@ -2,7 +2,7 @@
 title: Install Service Exchange for Consumers
 description: If you have an admin role, you can install the Service Exchange for Consumers application. The application includes demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/install-service-bridge-v2-customer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/install-service-bridge-v2-customer.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -32,7 +32,7 @@ The following plugins are installed with the Service Exchange for Consumers appl
 -   com.glide.hub.process.sync
 -   com.snc.ihub\_spoke\_util\_pack
 
-Apart from these, several components including roles, business rules, tables, and flows are also installed. For more information about the components that are installed with this application, see [Components installed with Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-installed-components-customer.md).
+Apart from these, several components including roles, business rules, tables, and flows are also installed. For more information about the components that are installed with this application, see [Components installed with Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-installed-components-customer.md).
 
 ## Procedure
 

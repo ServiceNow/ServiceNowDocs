@@ -2,7 +2,7 @@
 title: Analyze vulnerability remediation status with generative AI
 description: Chat with an AI agent to help you gain insights into your monthly remediation compliance metrics for vulnerable items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sla-targets-vr-aiagent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sla-targets-vr-aiagent.html
 release: australia
 topic_type: task
 last_updated: "2026-07-24"
@@ -120,5 +120,5 @@ End the conversation.
     The VR.System role also inherits these granular roles so background job execution for the workflow can occur.
 
 
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

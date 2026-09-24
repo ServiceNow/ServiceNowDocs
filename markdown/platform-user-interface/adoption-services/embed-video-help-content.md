@@ -2,7 +2,7 @@
 title: Embed video content in help topics
 description: You can embed a link to video content in a custom embedded help topic. YouTube and Vimeo video content is supported.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/embed-video-help-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/embed-video-help-content.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -26,7 +26,7 @@ You cannot use the insert/edit video icon in the HTML editor to embed the video.
 
 \[Omitted image "html-editor-video.png"\] Alt text: Use the source code icon, not the insert video icon, to embed video.
 
-The administrator can disable the ability for users to see embedded video in the [Embedded Help system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-sys-properties.md).
+The administrator can disable the ability for users to see embedded video in the [Embedded Help system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/embedded-help-sys-properties.md).
 
 ## Procedure
 
@@ -82,5 +82,5 @@ The administrator can disable the ability for users to see embedded video in the
 7.  To test that the video appears, open the page that displays the content you just updated, and then open the help panel.
 
 
-**Parent Topic:**[Configuring Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configuring-embedded-help.md)
+**Parent Topic:**[Configuring Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/configuring-embedded-help.md)
 

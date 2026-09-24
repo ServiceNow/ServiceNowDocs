@@ -2,7 +2,7 @@
 title: List view in Recruitment workspace
 description: The List view in the Recruitment workspace displays all assigned job requisitions, interviews, tasks, and their key details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/list-view-recruit-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/list-view-recruit-workspace.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace

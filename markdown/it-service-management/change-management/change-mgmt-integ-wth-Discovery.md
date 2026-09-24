@@ -2,7 +2,7 @@
 title: Change Management integration with ITOM Visibility
 description: If your organization is subscribed to ITOM Discovery or ITOM Visibility, integration with these ITOM products is automatically enabled. With this integration, any configuration item \(CI\) with an IP address that is part of a change request process can be maintained automatically. Change request fulfillers can also manually request the discovery process for a CI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-mgmt-integ-wth-Discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-mgmt-integ-wth-Discovery.html
 release: australia
 product: Change Management
 classification: change-management
@@ -115,7 +115,7 @@ The type of change mark depends on the nature of changes that it represents:
     Multiple separate changes that happened a short time from each other.
 
 
-**Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-mgmt-integrations.md)
+**Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-mgmt-integrations.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: ACL Trails
 description: Displays audits of ACLs in the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/acl-trails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/acl-trails.html
 release: australia
 product: Identity
 classification: identity

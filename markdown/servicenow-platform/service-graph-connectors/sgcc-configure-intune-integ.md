@@ -2,7 +2,7 @@
 title: Configure Service Graph Connector for Microsoft Intune using SGC Central
 description: Use the playbook available with the SGC Central application to set up the Service Graph Connector for Microsoft Intune for pulling in Microsoft Intune data into the CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgcc-configure-intune-integ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgcc-configure-intune-integ.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -34,8 +34,8 @@ For the connector to access the data in Microsoft Intune, the credential informa
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   ServiceNow IntegrationHub Zip step \(com.glide.hub.action\_step.zip\), which is automatically installed.
@@ -49,11 +49,11 @@ Role required: The following table shows the roles required for each stage of th
 |Prerequisites|admin|
 |Setup|SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin|
 
-**Note:** The admin user role is required to run background scripts, to provide access to global tables to the SGC-Admin user, and to configure advanced data sources. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts, to provide access to global tables to the SGC-Admin user, and to configure advanced data sources. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
 For more details on permissions, see [Service Graph Connector for Microsoft Intune - Troubleshooting connection issues](https://community.servicenow.com/community?id=community_blog&sys_id=a405ef9bdbbd7018bb4a474d13961903) on ServiceNow Community and [Microsoft Graph permissions reference](https://learn.microsoft.com/en-us/graph/permissions-reference) on the Microsoft documentation site.
 
@@ -71,7 +71,7 @@ For more details on permissions, see [Service Graph Connector for Microsoft Intu
 
 4.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
+    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/sgcc-first-time-setup.md).
 
 5.  Select the data source type.
 
@@ -151,7 +151,7 @@ OAuth Client ID
 
 </td><td>
 
-Client ID of the Microsoft Intune application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-intune-integ.md) section.
+Client ID of the Microsoft Intune application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgcc-configure-intune-integ.md) section.
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client secret of the Microsoft Intune application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-intune-integ.md) section.
+Client secret of the Microsoft Intune application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgcc-configure-intune-integ.md) section.
 
 </td></tr><tr><td>
 
@@ -226,7 +226,7 @@ MID Server for the connection.This field appears only when you select the **Use 
 
 8.  Configure the report trigger job for advanced data sources.
 
-    The **Activate report trigger job** activity appears only if you selected **Advanced data sources** in step [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-intune-integ.md). The advanced data sources require device reports and software reports to be triggered in the Microsoft environment before related jobs and scheduled imports are run.
+    The **Activate report trigger job** activity appears only if you selected **Advanced data sources** in step [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgcc-configure-intune-integ.md). The advanced data sources require device reports and software reports to be triggered in the Microsoft environment before related jobs and scheduled imports are run.
 
     1.  In the **Setup** stage of the playbook, select the **Activate report trigger job** activity.
 
@@ -240,7 +240,7 @@ MID Server for the connection.This field appears only when you select the **Use 
         |Time|Specify the time when the job should run.|
         |Run as|Specify the user role required to run the report trigger job.|
 
-        **Note:** After you configure the report trigger job, all related jobs and the device and software reports scheduled imports are automatically scheduled to run in a specific sequence a few hours later \(typically 3–4 hours\). You can review the scheduled imports that are already activated and their scheduled time in step [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-intune-integ.md).
+        **Note:** After you configure the report trigger job, all related jobs and the device and software reports scheduled imports are automatically scheduled to run in a specific sequence a few hours later \(typically 3–4 hours\). You can review the scheduled imports that are already activated and their scheduled time in step [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgcc-configure-intune-integ.md).
 
     3.  Select **Continue**.
 
@@ -270,9 +270,9 @@ Select **View all connections** to review the connection details. The configured
 **Related topics**  
 
 
-[Service Graph Connector for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-intune.md)
+[Service Graph Connector for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-intune.md)
 
-[CMDB classes targeted in Service Graph Connector for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-intune-classes.md)
+[CMDB classes targeted in Service Graph Connector for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-intune-classes.md)
 
-[Accessing the connection details of Service Graph Connector for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-intune-conn.md)
+[Accessing the connection details of Service Graph Connector for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-intune-conn.md)
 

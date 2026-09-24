@@ -2,7 +2,7 @@
 title: Configure widget instances
 description: Create unique instances of widgets by configuring the options for each instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/c\_ConfigureWidgetInstances.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/c\_ConfigureWidgetInstances.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -18,13 +18,13 @@ Create unique instances of widgets by configuring the options for each instance.
 
 ## Before you begin
 
-Create or edit a portal page and add widgets to it. You can also configure the existing widget instances on a base system page. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
+Create or edit a portal page and add widgets to it. You can also configure the existing widget instances on a base system page. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 Role required: sp\_admin or admin
 
 ## About this task
 
-You can have several instances of the same widget on a page, and each instance of the widget you configure remains unique. For example, each instance of the [Cool Clock widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/cool-clock-widget.md) on a page could use a different time zone.
+You can have several instances of the same widget on a page, and each instance of the widget you configure remains unique. For example, each instance of the [Cool Clock widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/cool-clock-widget.md) on a page could use a different time zone.
 
 Adding a widget to a page creates a record on the Widget Instances \[sp\_instance\] table with the following information:
 
@@ -57,7 +57,7 @@ Adding a widget to a page creates a record on the Widget Instances \[sp\_instanc
 
 ## What to do next
 
-Advanced users can define what options are available for a widget. For more information, see [Widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_WidgetInstanceOptions.md).
+Advanced users can define what options are available for a widget. For more information, see [Widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/c_WidgetInstanceOptions.md).
 
-**Parent Topic:**[Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
+**Parent Topic:**[Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/service-portal-widgets.md)
 

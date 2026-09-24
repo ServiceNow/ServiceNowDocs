@@ -2,7 +2,7 @@
 title: HR Service Delivery Portal UI Components
 description: The ServiceNow HR Service Delivery Portal UI Components application contains common widgets, such as Direct Deposits, Holiday Calendar, Time Off Balances, and Total Rewards widgets that be used with any HR application.Add the HR Portal Components, such as Direct Deposits, Holiday Calendar, Time Off Balances, and Total Rewards widgets that can be used with any HR application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/portal-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/portal-components.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

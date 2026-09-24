@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Purchase Order Management \(POM\)
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Purchase Order Management \(POM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supporting-information-na-pom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supporting-information-na-pom.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ Activate the applications in the following order:
 -   Purchase Order Management application \(sn\_poem\_core\)
 -   ServiceNow Otto for POM store app \(sn\_poem\_gen\_ai\)
 
-For more information, see [Configure ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md).
+For more information, see [Configure ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md).
 
-**Parent Topic:**[Exploring ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/exploring-na-for-pom.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/exploring-na-for-pom.md)
 

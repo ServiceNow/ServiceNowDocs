@@ -2,7 +2,7 @@
 title: Create a data collector for a policy version
 description: Create a data collector for a policy version in the Define Variables section of the Policy Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-create-data-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-create-data-collector.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -31,7 +31,7 @@ Role required: sn\_pace.code\_editor
     |Field|Description|
     |-----|-----------|
     |Name|Name of the data collector.|
-    |Category|Category of the data collector. See [Managing categories in PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-categories.md) for details.|
+    |Category|Category of the data collector. See [Managing categories in PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-categories.md) for details.|
     |Description|Additional details of the data collector.|
     |Created|Date and time when the data collector was created.|
     |Created by|Name of the user who created the data collector.|
@@ -43,7 +43,7 @@ Role required: sn\_pace.code\_editor
 
 ## What to do next
 
--   [Activate and build data collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-activate-data-collector.md)
--   [Test a data collector for a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-test-data-collector.md)
--   [Add data collectors to a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-add-data-collectors.md)
+-   [Activate and build data collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-activate-data-collector.md)
+-   [Test a data collector for a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-test-data-collector.md)
+-   [Add data collectors to a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-add-data-collectors.md)
 

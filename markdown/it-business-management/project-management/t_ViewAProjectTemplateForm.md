@@ -2,7 +2,7 @@
 title: Create a project template
 description: Create a template from an existing template or a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ViewAProjectTemplateForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_ViewAProjectTemplateForm.html
 release: australia
 product: Project Management
 classification: project-management
@@ -76,7 +76,7 @@ Steps
 5.  Select **Update**.
 
 
-**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
+**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTemplates.md)
 
 **Related topics**  
 
@@ -91,5 +91,5 @@ Steps
 
 [Project template configuration]()
 
-[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
+[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTemplates.md)
 

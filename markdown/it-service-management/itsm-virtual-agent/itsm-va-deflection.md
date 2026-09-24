@@ -2,7 +2,7 @@
 title: Tracking deflections in ITSM Virtual Agent
 description: You can use the pre-built deflection topics and topic blocks in Virtual Agent conversations to track the incidents that ITSM Virtual Agent helped to resolve.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-deflection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/itsm-va-deflection.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -56,5 +56,5 @@ The deflection metrics are generated and stored in the Deflection Metric \[ssa\_
     For more information about this dashboard, see Conversational Analytics Dashboard.
 
 
-**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
+**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
 

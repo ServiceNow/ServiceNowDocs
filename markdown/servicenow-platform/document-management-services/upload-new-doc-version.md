@@ -2,7 +2,7 @@
 title: Upload a document version in a parent record
 description: Upload a document version for each document in the parent record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/upload-new-doc-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/upload-new-doc-version.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -37,10 +37,10 @@ Role required: none
 6.  Select **OK**.
 
 
-**Parent Topic:**[Linking documents to a parent record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-linked-parent-rec.md)
+**Parent Topic:**[Linking documents to a parent record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/doc-linked-parent-rec.md)
 
 **Related topics**  
 
 
-[Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-doc-version.md)
+[Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/create-doc-version.md)
 

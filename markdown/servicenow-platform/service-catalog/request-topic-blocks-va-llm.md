@@ -2,7 +2,7 @@
 title: Request catalog item through Now LLM
 description: You can design a topic conversation in Virtual Agent powered Now LLM by including reusable topic blocks to perform request submission tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-topic-blocks-va-llm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/request-topic-blocks-va-llm.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -83,14 +83,14 @@ used\_LLM
 Option that indicates if Now LLM was used while requesting the item, that is, if slot filling was done for questions defined in a catalog item using generative AI.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)
+</table>**Parent Topic:**[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)
 
 **Related topics**  
 
 
 [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 
-[Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md)
+[Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-builder-preview-topic.md)
 
 [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md)
 

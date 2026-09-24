@@ -2,7 +2,7 @@
 title: Domain Override Viewer
 description: With the Domain Override Viewer, you can see and manage all your process overrides at once across the entire instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/domain-sep-override-viewer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/domain-sep-override-viewer.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

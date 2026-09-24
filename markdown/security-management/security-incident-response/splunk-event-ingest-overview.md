@@ -2,7 +2,7 @@
 title: Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow
 description: The Splunk Enterprise event and alert data integration with the Security Incident Response \(SIR\) product allows security incident analysts to collect and process security logs and related event data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest-overview.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -44,7 +44,7 @@ The following Security Operations applications must be installed and activated f
 3.  Security Support Orchestration
 4.  Security Incident Response
 
-For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/activate-entitled-store-app.md).
 
 ## ServiceNow Addons
 
@@ -62,24 +62,24 @@ This integration requires an installed and configured MID Server in your Service
 
 ## Integration architecture and systems connection
 
-For more information about the architecture of the integration including key terms and external systems connection details, see [Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md).
+For more information about the architecture of the integration including key terms and external systems connection details, see [Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md).
 
 ## Checklist
 
-For a printable checklist of these topics, see [Checklist for Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-checklist-security.md). You can use this list to monitor your progress as you work through the tasks of the integration.
+For a printable checklist of these topics, see [Checklist for Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-checklist-security.md). You can use this list to monitor your progress as you work through the tasks of the integration.
 
-The images used in the following topics were generated for the Kingston release of the ServiceNow AI Platform. For information about the San Diego user interface, see [Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui.md).
+The images used in the following topics were generated for the Kingston release of the ServiceNow AI Platform. For information about the San Diego user interface, see [Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-new-ui.md).
 
 The following topics are numbered. Follow the topics listed below in the order that they are presented for a smooth installation and configuration of the application.
 
-1.  [Set up your ServiceNow AI Platform instance for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-setup-sn.md)  
+1.  [Set up your ServiceNow AI Platform instance for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-setup-sn.md)  
 The following section lists the setup tasks that you are required to complete in your ServiceNow AI Platform® instance prior to installing the application from the ServiceNow Store.
-2.  [Install and configure the ServiceNow application for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-install-and-configure.md)  
+2.  [Install and configure the ServiceNow application for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-install-and-configure.md)  
 Install and configure Splunk Enterprise security- Event Ingestion integration from the ServiceNow Store on your ServiceNow AI Platform instance.
-3.  [Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md)  
+3.  [Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-create-profile.md)  
 Create an event profile in your ServiceNow AI Platform instance and determine which Splunk alerts create security incidents.
-4.  [Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)  
+4.  [Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)  
 The following topic outlines the integration architecture developed to support the ingestion of triggered alerts from the Splunk Enterprise console. This information clarifies, at a high level, the conceptual operation of the integration. It also explains why there are setup steps that are required prior to installing the application from the ServiceNow Store.
 
-**Parent Topic:**[Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir_integrations.md)
+**Parent Topic:**[Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir_integrations.md)
 

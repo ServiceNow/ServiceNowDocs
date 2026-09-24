@@ -2,7 +2,7 @@
 title: Create a template for your Enterprise Asset Management work orders
 description: Create a work order template to automatically populate information, generate appropriate tasks, and create asset or part requirements for your work orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-work-order-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-eam-work-order-template.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

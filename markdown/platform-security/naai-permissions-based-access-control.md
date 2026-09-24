@@ -2,7 +2,7 @@
 title: Permissions-based access control
 description: Use Agent Role Inheritance, identity types, and granular roles to verify your AI agents have only the permissions they need, and can act only within their intended boundaries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-permissions-based-access-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-permissions-based-access-control.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ The following reference topics describe the roles installed with Now Assist and 
     Details the **sn\_nowassist\_admin.user** role, which provides read-only access to the AI Admin Hub console.
 
 
-**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)
+**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-security.md)
 

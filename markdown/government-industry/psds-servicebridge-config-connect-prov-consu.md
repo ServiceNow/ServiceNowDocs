@@ -2,7 +2,7 @@
 title: Set up a Service Exchange connection between a Provider and a Consumer
 description: Establish an instance-to-instance integration between a provider and a consumer using Service Exchange for Public Sector Digital Services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-config-connect-prov-consu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-servicebridge-config-connect-prov-consu.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

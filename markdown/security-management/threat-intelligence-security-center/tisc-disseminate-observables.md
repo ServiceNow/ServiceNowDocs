@@ -2,7 +2,7 @@
 title: Analyze, assess, and disseminate observables
 description: Learn how to analyze and disseminate observables which are related to threat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-disseminate-observables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-disseminate-observables.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -60,7 +60,7 @@ Whenever a sighting search enrichment is requested, it returns with no sightings
         \[Omitted image "tisc-analyse-disseminate.png"\] Alt text: Analyze, assess, and disseminate on the IoC’s related to threat.
 
 
-**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 

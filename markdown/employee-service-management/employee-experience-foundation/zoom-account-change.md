@@ -2,7 +2,7 @@
 title: Change existing Zoom account connection
 description: Change your existing Zoom account connection in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/zoom-account-change.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/zoom-account-change.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,5 +43,5 @@ Role required: admin, Zoom admin
 
 Your existing ServiceNow instance is successfully connected to another Zoom account.
 
-**Parent Topic:**[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
+**Parent Topic:**[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
 

@@ -2,7 +2,7 @@
 title: Upload manifest file in Microsoft Teams for Microsoft 365
 description: Upload the manifest file in Microsoft Teams to integrate Microsoft 365 with your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams-ms365.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams-ms365.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

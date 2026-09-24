@@ -2,7 +2,7 @@
 title: Examples of Discovery behavior functionalities
 description: This example of a Discovery behavior requires three functionalities for the behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DefineTheFunctionalities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_DefineTheFunctionalities.html
 release: australia
 product: Discovery
 classification: discovery
@@ -162,7 +162,7 @@ Be sure to enable the criteria by selecting this check box \(true\).
 </td></tr></tbody>
 </table>The completed criteria appear in the Discovery Functionality form for this behavior.
 
-**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
+**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryBehaviors.md)
 
 **Related topics**  
 

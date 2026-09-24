@@ -2,7 +2,7 @@
 title: Domain separation and AI Search
 description: Domain separation is unsupported for the AI Search application tables, but user search queries respect domain restrictions from indexed ServiceNow AI Platform table records. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/ai-search-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/ai-search-domain-separation.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -86,7 +86,7 @@ Perform a one-time update of domain field values for a referenced table
 
 </td><td>
 
-Perform a full table reindex for the indexed source that includes the affected table. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
+Perform a full table reindex for the indexed source that includes the affected table. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -94,13 +94,13 @@ Enable automatic updating of domain field values for a referenced table
 
 </td><td>
 
-Create a **dot\_walk\_fields** field setting for the reference field, specifying the `sys_domain,sys_domain_path` domain fields as the attribute value. For full steps for this task, see [Enable automatic domain updates for a referenced table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-ref-auto-domain-update-ais.md).
+Create a **dot\_walk\_fields** field setting for the reference field, specifying the `sys_domain,sys_domain_path` domain fields as the attribute value. For full steps for this task, see [Enable automatic domain updates for a referenced table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-ref-auto-domain-update-ais.md).
 
 </td></tr></tbody>
-</table>-   **[Enable automatic domain updates for a referenced table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-ref-auto-domain-update-ais.md)**  
+</table>-   **[Enable automatic domain updates for a referenced table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-ref-auto-domain-update-ais.md)**  
 Configure a field setting to automatically index domain field value updates for records from a referenced table.
 
-**Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md)
+**Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configuring-ais.md)
 
 **Related topics**  
 

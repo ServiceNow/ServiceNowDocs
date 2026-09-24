@@ -2,7 +2,7 @@
 title: Roles installed with Operational Resilience
 description: Several types of roles are installed with the Operational Resilience application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/roles-installed-with-op-res.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/roles-installed-with-op-res.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-30"

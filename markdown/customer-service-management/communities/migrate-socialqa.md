@@ -2,7 +2,7 @@
 title: Migrate Social Q&amp;A data to Communities
 description: If you want to migrate existing Social Q&amp;A content to Communities, you can use a script to migrate the data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/migrate-socialqa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/migrate-socialqa.html
 release: australia
 product: Communities
 classification: communities
@@ -53,7 +53,7 @@ Verify the following information.
 -   The accepted solution to a question in Social Q&amp;A is **Marked as Correct Answer** in Communities.
 -   Social Q&amp;A is deactivated for every knowledge base that contained Social Q&amp;A data. Social Q&amp;A content is no longer visible for these knowledge bases.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

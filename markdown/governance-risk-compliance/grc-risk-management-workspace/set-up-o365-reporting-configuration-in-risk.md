@@ -2,7 +2,7 @@
 title: Set up Microsoft 365 reporting configuration in risk
 description: Set up the Microsoft 365 reporting configuration records to specify the data points and reports that you want to import in to a Microsoft Word document for risk reporting purposes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/set-up-o365-reporting-configuration-in-risk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/set-up-o365-reporting-configuration-in-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -112,5 +112,5 @@ Option to indicate if the record is active. Only active records are available fo
 
 ## What to do next
 
-Add additional reporting configuration filters to the reporting configuration. These filters help to fetch the data into your Microsoft Word disclosure report. For more information, see [Add additional reporting configuration filters for a Microsoft 365 configuration record in risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/add-additional-reporting-filters-risk-reporting.md).
+Add additional reporting configuration filters to the reporting configuration. These filters help to fetch the data into your Microsoft Word disclosure report. For more information, see [Add additional reporting configuration filters for a Microsoft 365 configuration record in risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/add-additional-reporting-filters-risk-reporting.md).
 

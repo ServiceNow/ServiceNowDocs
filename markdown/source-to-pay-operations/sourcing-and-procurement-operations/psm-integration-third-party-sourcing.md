@@ -2,7 +2,7 @@
 title: Sourcing and Procurement Operations integration with third-party sourcing solutions
 description: ServiceNow can integrate with third-party sourcing solutions to automate the sourcing process within the Sourcing and Procurement Operations product. A generic, easily configurable sourcing integration framework is provided within Source-to-Pay Integration Framework to enable you to specify the business criteria for triggering an integration. This integration framework can also integrate with multiple third-party sourcing solutions based on different criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/psm-integration-third-party-sourcing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/psm-integration-third-party-sourcing.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -20,9 +20,9 @@ Customers can either build the connector to that third-party tool or find one in
 
 For example, Fairmarkit, a third-party solution, built and certified its own ServiceNow application to the store, which leverages the integration framework to connect with the Fairmarkit system. For more information on this integration, visit [store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8bf60c3b979a3510a4ffb1511153afa2/1.0.4?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dfairmarkit&sl=sh).
 
-For information on decision configuration, see [Decision configuration for third-party sourcing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/decision-config-third-party-sourcing.md).
+For information on decision configuration, see [Decision configuration for third-party sourcing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/decision-config-third-party-sourcing.md).
 
-To learn about the integration tables, see [Integration tables for third-party sourcing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integ-tables-third-party-sourcing.md).
+To learn about the integration tables, see [Integration tables for third-party sourcing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integ-tables-third-party-sourcing.md).
 
 ## Third-party sourcing integration process
 
@@ -51,18 +51,18 @@ To learn about the integration tables, see [Integration tables for third-party s
 -   If additional supplier bids are returned from the third-party solution, an existing logic in ServiceNow determines if a new supplier, supplier product record, or both must be created.
 -   After awarding is done in ServiceNow, that information is sent back to the third party using the Awarded Supplier Outbound Queue table. Awarding can also be done in the third-party tool, in which case the data is received by ServiceNow.
 
-For information on sourcing request, negotiation, and sourcing event flows, see [Sourcing request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-request.md), [Negotiations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/negotiations.md) and [Sourcing events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/negotiation-events.md), respectively. For more information, see [Compare quotes and select a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-compare-quotes-todos.md).
+For information on sourcing request, negotiation, and sourcing event flows, see [Sourcing request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-request.md), [Negotiations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/negotiations.md) and [Sourcing events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/negotiation-events.md), respectively. For more information, see [Compare quotes and select a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/work-compare-quotes-todos.md).
 
--   **[Decision configuration for third-party sourcing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/decision-config-third-party-sourcing.md)**  
+-   **[Decision configuration for third-party sourcing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/decision-config-third-party-sourcing.md)**  
 The Sourcing Event Generation Rule decision table in Sourcing and Procurement Operations helps the sourcing managers and procurement teams to configure the business criteria on demand, which provides them with flexibility to decide on the types of requests that should be integrated with a third-party sourcing solution.
--   **[Integration tables for third-party sourcing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integ-tables-third-party-sourcing.md)**  
+-   **[Integration tables for third-party sourcing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integ-tables-third-party-sourcing.md)**  
 Integration tables are used to interact with the third-party sourcing application. Relevant information that is required to conduct a Request for anything \(RFx\) in the third-party application is staged within ServiceNow and transferred through APIs to the third-party application.
--   **[Submit multi-product sourcing requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/multi-product-sourcing-intake-with-third-party-integration.md)**  
+-   **[Submit multi-product sourcing requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/multi-product-sourcing-intake-with-third-party-integration.md)**  
 Requesters can submit sourcing requests with multiple products in a single sourcing intake form. When a sourcing request form contains multiple products, the third-party sourcing solution automatically creates individual sourcing events for each product.
--   **[Manage third-party RFx tasks in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/third-party-rfx-task-management-for-requestors.md)**  
+-   **[Manage third-party RFx tasks in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/third-party-rfx-task-management-for-requestors.md)**  
 Requesters can view and manage third-party Request for anything \(RFx\) tasks in the Employee Center and navigate to the third-party sourcing tool to review, publish, and award RFx.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 

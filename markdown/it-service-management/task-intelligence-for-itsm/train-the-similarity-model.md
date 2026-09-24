@@ -2,7 +2,7 @@
 title: Train the similarity model
 description: Train your similar record models with training data to predict the similar records by recognizing similarities between fields of Incident table and training tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/train-the-similarity-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/task-intelligence-for-itsm/train-the-similarity-model.html
 release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -18,7 +18,7 @@ Train your similar record models with training data to predict the similar recor
 
 ## Before you begin
 
-You can set up a task intelligence model or use the base system template that is shipped with Task Intelligence for ITSM. For more information on setting up a new model, see [Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
+You can set up a task intelligence model or use the base system template that is shipped with Task Intelligence for ITSM. For more information on setting up a new model, see [Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
 
 Role required: sn\_ti\_admin.tia\_admin or sn\_itsm\_ml\_task.ti\_admin 
 
@@ -73,5 +73,5 @@ You can select the table and fields that you want to predict, such as the Predic
 
 If you’re training the model on a large amount of data, training can take some time. You can request that the system sends you an email when the training is done.
 
-**Parent Topic:**[Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
+**Parent Topic:**[Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
 

@@ -2,7 +2,7 @@
 title: Configure a learning system
 description: Configure the learning system so that the schedule flow pulls learning content from the third-party system into a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-source-ln.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/create-source-ln.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -39,5 +39,5 @@ Role required: learning\_admin
 3.  Select **Update**.
 
 
-**Parent Topic:**[Administration tasks in Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/ln-administration.md)
+**Parent Topic:**[Administration tasks in Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/ln-administration.md)
 

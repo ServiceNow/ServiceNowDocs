@@ -2,7 +2,7 @@
 title: General guidelines for AI voice agent evaluation grounding
 description: Guidelines for writing effective grounding documents to generate scenarios for automated testing of AI voice agents and assistants.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gg-aia-eval-grounding-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gg-aia-eval-grounding-doc.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-29"

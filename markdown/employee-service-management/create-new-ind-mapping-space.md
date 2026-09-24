@@ -2,7 +2,7 @@
 title: Create a new Indoor Mapping space
 description: Create a Indoor Mapping space in Workplace Indoor Mapping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/create-new-ind-mapping-space.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/create-new-ind-mapping-space.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -166,11 +166,11 @@ Indoor map place
 
 </td><td>
 
-Indoor mapping location. Ensure that the parent hierarchy is synced to view available locations. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
+Indoor mapping location. Ensure that the parent hierarchy is synced to view available locations. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Workplace Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsd-integration-indoor-mapping.md)
+**Parent Topic:**[Configure Workplace Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsd-integration-indoor-mapping.md)
 

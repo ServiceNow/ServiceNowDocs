@@ -2,12 +2,12 @@
 title: Attachment quarantine policies
 description: Manage policies that automatically isolate suspicious attachments for security review and analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/attachment-quarantine-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-privacy-classic/attachment-quarantine-policies.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Real time protection, Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -69,7 +69,7 @@ View scan findings
 
 </td><td>
 
-View the findings specific to the quarantine scan policy, including links to flagged attachments and their status.**Note:** To work with the findings themselves, including the release of quarantined attachments, refer to [Attachment scan findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/attachment-findings.md).
+View the findings specific to the quarantine scan policy, including links to flagged attachments and their status.**Note:** To work with the findings themselves, including the release of quarantined attachments, refer to [Attachment scan findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/attachment-findings.md).
 
 </td></tr><tr><td>
 

@@ -2,7 +2,7 @@
 title: Configure work prioritization for procurement cases
 description: Configure the Priority defaulting for procurement cases decision table to automatically assign priority levels to procurement cases based on conditions you define.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-procurement-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-procurement-cases.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -77,5 +77,5 @@ This table belongs to the Procurement Case Management application, which is a se
 
 Procurement cases are automatically assigned a priority level when they are created or updated. Procurement specialists can sort and filter their work queue by priority to work the most urgent cases first.
 
-**Parent Topic:**[Configuring work prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.md)
+**Parent Topic:**[Configuring work prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.md)
 

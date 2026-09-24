@@ -2,7 +2,7 @@
 title: 'Crawl' stage reports on the CSDM Data Foundations dashboard
 description: Crawl stage reports on the CSDM Data Foundations dashboard
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-crawl-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-crawl-tab.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -29,7 +29,7 @@ In this example, a report on the **Crawl** tab indicates that there are service 
         -   Red: 0–50% are in conformance.
         -   Yellow: 50–90% are in conformance.
         -   Green: More than 90% are in conformance.
-        To promote optimum performance, the system stops collecting data for some metrics when they reach a specified number of non-conforming CIs. For information on managing data collection for a metric that isn't needed or that affects performance of the dashboard, see [Manage performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+        To promote optimum performance, the system stops collecting data for some metrics when they reach a specified number of non-conforming CIs. For information on managing data collection for a metric that isn't needed or that affects performance of the dashboard, see [Manage performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
     -   The **Remediation playbook URL** column displays links to knowledge articles in Now Support with instructions for bringing the CIs into conformance. Use your Now Support credentials to access the knowledge article.
 
@@ -37,7 +37,7 @@ To view detailed information on the impact of a metric and for details on workin
 
 -   **App services missing business app relationship**
 
-    Percent of CIs missing an important relationship. The service instance is a base-system CMDB table that should map to the related business application in use. Because the service instance is typically the system that a caller identifies when they report an issue with an application, the relationship is required if you're to identify the affected business application. For more information, see [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+    Percent of CIs missing an important relationship. The service instance is a base-system CMDB table that should map to the related business application in use. Because the service instance is typically the system that a caller identifies when they report an issue with an application, the relationship is required if you're to identify the affected business application. For more information, see [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 -   **CIs with Mismatched Operational Status and Life Cycle Stage**
 
@@ -60,12 +60,12 @@ The system runs scheduled jobs that collect data for three CSDM metrics:
 -   Business apps that are missing an app service relationship
 -   App services where the relationship to business apps is not Consumed by
 
-For information on managing data collection for a metric that isn't needed or that affects performance of the dashboard, see [Manage performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+For information on managing data collection for a metric that isn't needed or that affects performance of the dashboard, see [Manage performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
-**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 
 **Related topics**  
 
 
-[CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md)
+[CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md)
 

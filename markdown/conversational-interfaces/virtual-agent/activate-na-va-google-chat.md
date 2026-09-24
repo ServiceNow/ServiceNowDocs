@@ -2,7 +2,7 @@
 title: Activate ServiceNow Otto for Virtual Agent for Google Chat
 description: Add ServiceNow Otto for Virtual Agent to your Google Chat bot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/activate-na-va-google-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/activate-na-va-google-chat.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +21,7 @@ Add ServiceNow Otto for Virtual Agent to your Google Chat bot.
 
 Role required: admin or virtual\_agent\_admin
 
-Create a self-configured bot for Google Chat. For more information, see [Integrate Virtual Agent with Google Chat using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/installing-ci-google-chat.md). Verify that you have updated the version of your Google Chat app in the **Version** field.
+Create a self-configured bot for Google Chat. For more information, see [Integrate Virtual Agent with Google Chat using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/installing-ci-google-chat.md). Verify that you have updated the version of your Google Chat app in the **Version** field.
 
 **Note:** Notifications are not supported for premium chat at this time.
 
@@ -52,5 +52,5 @@ Create a self-configured bot for Google Chat. For more information, see [Integra
 11. Select **Download** to save the manifest zip file.
 
 
-**Parent Topic:**[Install Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/install-ci-google-chat.md)
+**Parent Topic:**[Install Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/install-ci-google-chat.md)
 

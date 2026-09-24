@@ -2,7 +2,7 @@
 title: Request translations in Localization Workspace: Types
 description: Add content types to a translation request in Localization Workspace. Your translation request can include multiple types of documents from tables across your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-request-translations-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-request-translations-types.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -18,8 +18,8 @@ Add content types to a translation request in Localization Workspace. Your trans
 
 ## Before you begin
 
--   Content types correspond to tables. For details about making your content available to Localization Workspace, see [Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-localizable-content.md).
--   Complete the first step in the Translation Request wizard, then proceed to this step. See [Request translations in Localization Workspace: Languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-request-translations-langs.md).
+-   Content types correspond to tables. For details about making your content available to Localization Workspace, see [Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-localizable-content.md).
+-   Complete the first step in the Translation Request wizard, then proceed to this step. See [Request translations in Localization Workspace: Languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-request-translations-langs.md).
 -   Role required: sn\_lw.user
 
 ## About this task
@@ -38,7 +38,7 @@ The following procedure covers step number two in the Translation Request wizard
 
 2.  Choose the content types you want to translate by selecting the appropriate check boxes.
 
-    **Note:** Content types that are not selectable may require table or role permissions. Ask your administrator to enable access. For more information see [Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-localizable-content.md).
+    **Note:** Content types that are not selectable may require table or role permissions. Ask your administrator to enable access. For more information see [Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-localizable-content.md).
 
 3.  Select **Save**.
 

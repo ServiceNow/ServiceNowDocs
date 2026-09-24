@@ -2,7 +2,7 @@
 title: Docusign eSignature Spoke
 description: Automate the process of sending a document to an individual or list of recipients for digital signature using Docusign eSignature. For example, automate employee onboarding and offboarding, or send non-disclosure agreements, legal agreements, and statements of work. Use ServiceNow data in document templates and enable users to upload documents for signature as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/docusign-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/docusign-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -604,7 +604,7 @@ Deletes the specified Docusign user.
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -640,7 +640,7 @@ The Docusign eSignature spoke adds a Docusign module to your ServiceNow instance
 |------------|-----------|
 |Connection Aliases|The Docusign connection alias.|
 |Scheduled Job|The Get Accounts &amp; Templates scheduled job that synchronizes templates and envelopes with your Docusign account.|
-|Accounts|Docusign accounts synchronized with your ServiceNow instance. To synchronize accounts, see [Synchronize Docusign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sync-docusign-servicenow.md). The Get Accounts subflow retrieves a list of accounts and associated templates from Docusign and then inserts or updates them as records in the Accounts \[sn\_docusign\_spoke\_accounts\] and Templates \[sn\_docusign\_spoke\_docusign\_templates\] tables.|
+|Accounts|Docusign accounts synchronized with your ServiceNow instance. To synchronize accounts, see [Synchronize Docusign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/sync-docusign-servicenow.md). The Get Accounts subflow retrieves a list of accounts and associated templates from Docusign and then inserts or updates them as records in the Accounts \[sn\_docusign\_spoke\_accounts\] and Templates \[sn\_docusign\_spoke\_docusign\_templates\] tables.|
 |Templates|Docusign templates from synchronized Docusign accounts. The Get Templates Per Account subflow retrieves templates associated with a specified Docusign account and then inserts or updates them as records in the Templates \[sn\_docusign\_spoke\_docusign\_templates\] table.|
 |Envelopes|Docusign envelopes from synchronized Docusign accounts. Records in the Envelopes table are updated only when webhook is configured for the Docusign account.|
 |DocuSign Webhook Answer Subflows|List of webhook answer subflows.|
@@ -715,7 +715,7 @@ ServiceNow supports specific events on Docusign that create triggers. You must f
 |Recipient Delivered|Trigger is initiated when the recipient has viewed the document\(s\) in an envelope through the Docusign signing web site. Configure the flow to execute only when the specified trigger conditions are met.|
 |Recipient Sent|Trigger is initiated when an email notification is sent to the recipient signifying that it is their turn to sign an envelope. Configure the flow to execute only when the specified trigger conditions are met.|
 
-For information about setting up the triggers for the Docusign eSignature spoke, see [Set up triggers for the Docusign eSignature spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ext-triggers-docusign.md). For more information about inbound integration, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
+For information about setting up the triggers for the Docusign eSignature spoke, see [Set up triggers for the Docusign eSignature spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-ext-triggers-docusign.md). For more information about inbound integration, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
 
 ## Docusign account requirements
 
@@ -729,7 +729,7 @@ This spoke uses the Docusign Connection &amp; Credential Alias record to authori
 
 **Important:**
 
--   You can choose to set up the Docusign spoke using [authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-authorization-code.md) or [JWT grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-jwt.md).
+-   You can choose to set up the Docusign spoke using [authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-authorization-code.md) or [JWT grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-jwt.md).
 
     -   Use Authorization Code Grant if your integration uses a browser or client to make requests to a web server.
     -   Use JWT Grant if each user of your integration will use a single system account to log in.
@@ -737,14 +737,14 @@ This spoke uses the Docusign Connection &amp; Credential Alias record to authori
 
 -   Your company may have a Docusign account for each department that uses Docusign. To use multiple accounts with this spoke, create a child alias for each account. Also, ensure that you override the base alias with the child alias in your flows. At runtime, the system identifies the child alias associated with the account and sends the correct connection and credential information in the request.
 
-    -   For more information about child alias and overriding the base alias, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
-    -   For information about setting up multiple accounts, see [Create child aliases for additional Docusign accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-aliases-docusign.md).
-    If your company only has one account, you can use the default **Docusign** alias provided with the spoke and proceed to setting up the Docusign spoke using [authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-authorization-code.md) or [JWT grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-jwt.md).
+    -   For more information about child alias and overriding the base alias, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   For information about setting up multiple accounts, see [Create child aliases for additional Docusign accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/create-aliases-docusign.md).
+    If your company only has one account, you can use the default **Docusign** alias provided with the spoke and proceed to setting up the Docusign spoke using [authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-authorization-code.md) or [JWT grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-jwt.md).
 
 
 ## MID Server requirements
 
 These actions use REST calls that can run either on an instance or, optionally, through a MID Server. Use the connection record associated with the Docusign alias to configure where actions run and, if needed, specify MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

@@ -2,7 +2,7 @@
 title: Configure the demand details fields in Employee Slate
 description: Configure the fields that appear in the demand details ticket page in Employee Slate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/configure-demand-details-ticket-page-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/configure-demand-details-ticket-page-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

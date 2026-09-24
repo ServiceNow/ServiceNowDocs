@@ -2,7 +2,7 @@
 title: Add carousel badge item count
 description: How to create a dynamic carousel item count \(displayed in the badge\) where the items in the carousel are controlled by a repeater pulling its data from a data resource.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-carousel-badge-item-count.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/add-carousel-badge-item-count.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -23,7 +23,7 @@ Role required: workspace\_admin or ui\_builder\_admin
 
 This procedure uses UI Builder components to create dynamic, interactive layouts. For more information on how to configure components, see:
 
--   [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md)
+-   [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-components.md)
 -   [UI Builder Quick Bits: Navigating Component Configuration](https://www.servicenow.com/community/next-experience-blog/ui-builder-quick-bits-navigating-component-configuration/ba-p/3181624)
 
 <table id="table_exc_zzf_dhc"><thead><tr><th>
@@ -125,5 +125,5 @@ Carousel
     The **Title** of your carousel should have a badge **count** followed by the number of carousel items.
 
 
-**Parent Topic:**[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-components-by-example.md)
+**Parent Topic:**[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/learning-components-by-example.md)
 

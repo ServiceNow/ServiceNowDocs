@@ -2,7 +2,7 @@
 title: Set up action task templates in Regulatory agency profile
 description: Set up action task templates in the Regulatory Body Management Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile.list\] table. Verify that the action task configurations \(with Smart Assessment Smart Assessment template configurations\) for the selected regulation are correctly set up.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-action-task-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-action-task-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
         **Note:** Use an action task configuration to set up contextual information for different regulations. The configuration includes the assessment template, assignment group, trigger conditions, due dates, and more.
 
-        **Note:** The templates shown in this example are specific to DORA regulation. If other regulations are mapped to the entities in use, verify that their corresponding Smart Assessment templates are set up and published in the Assessment Workspace first. For more information, see [Set up DRI Smart Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-sae-templates.md).
+        **Note:** The templates shown in this example are specific to DORA regulation. If other regulations are mapped to the entities in use, verify that their corresponding Smart Assessment templates are set up and published in the Assessment Workspace first. For more information, see [Set up DRI Smart Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-sae-templates.md).
 
         The DORA regulations include four Smart Assessment template configurations as shown in the Action Task Configurations related list.
 

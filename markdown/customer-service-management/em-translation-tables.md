@@ -2,7 +2,7 @@
 title: Engagement Messenger translation tables
 description: Engagement Messenger uses the \[sys\_translated\_text\] and \[sys\_ui\_message\] tables to store translated text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/em-translation-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/em-translation-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

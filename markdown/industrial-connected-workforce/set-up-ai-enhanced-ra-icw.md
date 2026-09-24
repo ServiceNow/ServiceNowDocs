@@ -2,7 +2,7 @@
 title: Set up AI Enhanced Recommended Actions for Industrial Connected Workforce
 description: Set up AI Enhanced Recommended Actions for ICW so that you can contextualize external sources related to a deviation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/set-up-ai-enhanced-ra-icw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/set-up-ai-enhanced-ra-icw.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Set up AI Enhanced Recommended Actions for ICW so that you can contextualize ext
 
 ## Before you begin
 
-You must have Recommended Actions for ICW installed and configured. For more information, see [Recommended Actions for the Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/recommended-actions-icw.md).
+You must have Recommended Actions for ICW installed and configured. For more information, see [Recommended Actions for the Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/recommended-actions-icw.md).
 
 Role required: admin
 
@@ -53,7 +53,7 @@ Role required: admin
 
 ## What to do next
 
-After you set up AI Enhanced Recommended Actions for ICW, you can use the feature in the Digital Factory Workspace. For more information see, [Contextualize an external document for a deviation in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/use-ai-enhanced-ra-icw.md).
+After you set up AI Enhanced Recommended Actions for ICW, you can use the feature in the Digital Factory Workspace. For more information see, [Contextualize an external document for a deviation in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/use-ai-enhanced-ra-icw.md).
 
-**Parent Topic:**[Configure AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configure-ai-enhanced-ra-icw.md)
+**Parent Topic:**[Configure AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/configure-ai-enhanced-ra-icw.md)
 

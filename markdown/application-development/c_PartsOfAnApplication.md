@@ -2,7 +2,7 @@
 title: Anatomy of an application
 description: Applications consist of several types of files and records that collectively deliver a service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_PartsOfAnApplication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_PartsOfAnApplication.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: AI in Software Asset Management
 description: ServiceNow Otto for Software Asset Management \(SAM\) uses AI to automate software asset management operations, improve compliance, and optimize license management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/exploring-now-assist-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/exploring-now-assist-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -45,8 +45,8 @@ With ServiceNow Otto for SAM generative AI skills, organizations gain the follow
 
 For more information about AI capabilities in ServiceNow Otto for SAM, see the following:
 
--   [Agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam-ai-agents-usecases.md)
--   [Generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
+-   [Agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam-ai-agents-usecases.md)
+-   [Generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam.md)
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 
@@ -57,12 +57,12 @@ You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on 
 
 Domain separation is supported in ServiceNow Otto for SAM. For details, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
 
--   **[Supporting information for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/supporting-information-now-assist-sam.md)**  
+-   **[Supporting information for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/supporting-information-now-assist-sam.md)**  
 Get a quick overview of the important information that is related to the ServiceNow Otto for Software Asset Management \(SAM\) application.
--   **[Agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-agentic-workflows-now-assist-sam.md)**  
+-   **[Agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-agentic-workflows-now-assist-sam.md)**  
 Agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\) enable ServiceNow Otto for SAM managers to manage software requests, create reclamation rules, and evaluate software removal candidates reducing manual effort and improving operational efficiency.
--   **[Generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-generative-ai-skills-now-assist-sam.md)**  
+-   **[Generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-generative-ai-skills-now-assist-sam.md)**  
 ServiceNow Otto for Software Asset Management \(SAM\) includes generative AI capabilities that help ServiceNow Otto for SAM managers streamline daily workflows, gain real-time insights, and automate repetitive tasks throughout the software asset lifecycle.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

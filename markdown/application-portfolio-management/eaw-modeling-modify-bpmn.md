@@ -2,7 +2,7 @@
 title: Modify BPMN diagram details
 description: Business Process Model and Notation \(BPMN\) diagram element directly from the diagram page. You can make quick updates without leaving the modeling interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-modify-bpmn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-modify-bpmn.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,14 +37,14 @@ Role required: sn\_apm.apm\_user
 6.  Select **Update**.
 
 
-**Parent Topic:**[Working with business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-bp-map.md)
+**Parent Topic:**[Working with business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-bp-map.md)
 
 **Related topics**  
 
 
-[Business process map diagrams from images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-bpm-diagram-from-image.md)
+[Business process map diagrams from images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-bpm-diagram-from-image.md)
 
-[Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md)
+[Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-bpm-diag-from-image.md)
 
-[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
+[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
 

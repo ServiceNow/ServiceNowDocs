@@ -2,7 +2,7 @@
 title: Data model enhancements in Test Management 2.0
 description: Test Management 2.0 offers a few data model enhancements over Test Management 1.0.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/data-model-enhancements-test.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/data-model-enhancements-test.html
 release: australia
 product: Test Management
 classification: test-management

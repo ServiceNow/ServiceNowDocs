@@ -2,7 +2,7 @@
 title: Dashboard sharing reference qualifiers
 description: Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/share-db-ref-qualifiers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/share-db-ref-qualifiers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ Role required: admin
 
 Perform the same actions on the Group and Role columns to limit sharing with those categories of recipient.
 
-**Parent Topic:**[Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-in-ac.md)
+**Parent Topic:**[Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/share-db-in-ac.md)
 

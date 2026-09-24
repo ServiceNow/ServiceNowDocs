@@ -2,7 +2,7 @@
 title: Layout options for forms in Creator Studio
 description: Adjust how your form, which creates a catalog item, appears in Creator Studio using layout options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-form-layout-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-form-layout-options.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -106,5 +106,5 @@ Use the rich text editor to enhance any supplemental text with the following typ
 -   Numbered list
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-reference.md)
+</table>**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-reference.md)
 

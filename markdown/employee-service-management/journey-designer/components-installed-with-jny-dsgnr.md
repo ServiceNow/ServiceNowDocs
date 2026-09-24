@@ -2,7 +2,7 @@
 title: Components installed with Journey designer
 description: Several types of components install with the activation of the Journey designer application, including user roles and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/components-installed-with-jny-dsgnr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/components-installed-with-jny-dsgnr.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -286,5 +286,5 @@ Not Available For \[sn\_jny\_m2m\_journey\_config\_user\_criteria\_no\]
 List users that met the criteria not to be added to a recommended course.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsnr-reference.md)
+</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsnr-reference.md)
 

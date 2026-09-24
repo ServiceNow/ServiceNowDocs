@@ -2,7 +2,7 @@
 title: Work on a group life insurance underwriting task
 description: An underwriter can work on a group life insurance underwriting task to evaluate the policy request and analyze risks for an insurance policy customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-group-life-insurance-underwriting-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/work-group-life-insurance-underwriting-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Request Outside Counsel engagement
 description: As a legal fulfiller, create an outside counsel engagement request for a matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/create-lt-outside-counsel-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/create-lt-outside-counsel-engagement.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -18,7 +18,7 @@ As a legal fulfiller, create an outside counsel engagement request for a matter.
 
 ## Before you begin
 
-Ensure you have configured Legal Matter Management to engage with outside counsel. For more information, see [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md).
+Ensure you have configured Legal Matter Management to engage with outside counsel. For more information, see [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md).
 
 Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
@@ -26,15 +26,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d201709e61">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d201713e61">
 
 Method
 
-</th><th align="left" id="d201709e64">
+</th><th align="left" id="d201713e64">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d201709e70">
+</th></tr></thead><tbody><tr><td id="d201713e70">
 
 **Using Legal Counsel Center homepage**
 
@@ -46,7 +46,7 @@ Action
 4.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d201709e114">
+</td></tr><tr><td id="d201713e114">
 
 **Using Legal Counsel Center lists**
 
@@ -59,7 +59,7 @@ Action
 5.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d201709e173">
+</td></tr><tr><td id="d201713e173">
 
 **Using platform view**
 
@@ -75,14 +75,14 @@ Action
 
 3.  On the form, fill in the fields.
 
-    For more information on the form fields, see [Legal Tracker Outside Counsel Engagement request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/create-lt-outside-counsel-engagement-form.md).
+    For more information on the form fields, see [Legal Tracker Outside Counsel Engagement request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/create-lt-outside-counsel-engagement-form.md).
 
 4.  If do not have the complete the Legal Tracker details and want it to be filled later, select the **Create a task for entering Legal Tracker field details** check box.
 
-    A task will be created to fill in the Legal Tracker details once the outside counsel request is approved. You need to fill in the details and submit the outside counsel engagement request for integration with Legal Tracker. For more information, see [Assign task created for filling Legal Tracker details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-lt-assign-task-ocer.md) and [Enter Legal Tracker details and submit for integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-enter-lt-details.md).
+    A task will be created to fill in the Legal Tracker details once the outside counsel request is approved. You need to fill in the details and submit the outside counsel engagement request for integration with Legal Tracker. For more information, see [Assign task created for filling Legal Tracker details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-lt-assign-task-ocer.md) and [Enter Legal Tracker details and submit for integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-enter-lt-details.md).
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
+**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
 

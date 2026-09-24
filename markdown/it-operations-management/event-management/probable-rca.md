@@ -2,7 +2,7 @@
 title: Probable Root Cause Analysis \(RCA\)
 description: Shorten the mean time to repair \(MTTR\) by discovering the root cause of an alert.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/probable-rca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/probable-rca.html
 release: australia
 product: Event Management
 classification: event-management
@@ -42,8 +42,8 @@ Scoring for probable root causes is determined by the following criteria, in the
 
 To disable the Probable Root Cause Analysis feature, you must create the property **sa\_analytics.disable\_prc** and set the value to `true`. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
--   **[Customize RCA settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/set-rca-change-query-filters.md)**  
+-   **[Customize RCA settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/set-rca-change-query-filters.md)**  
 Modify default settings that determine RCA behavior.
 
-**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/c_EMAlert.md)
 

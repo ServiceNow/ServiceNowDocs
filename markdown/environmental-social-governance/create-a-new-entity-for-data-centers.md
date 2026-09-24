@@ -2,7 +2,7 @@
 title: Create new entities for data centers
 description: Use the cmdb\_ci\_datacenter table to create entities for all your data centers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-new-entity-for-data-centers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-new-entity-for-data-centers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ Role required: sn\_esg.admin
 
 When the metric definition is executed, the metrics for the selected datacenter will be collected and displayed on the Sustainable IT dashboard.
 
-**Parent Topic:**[Methods to set up entities for Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/methods-to-set-up-entities.md)
+**Parent Topic:**[Methods to set up entities for Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/methods-to-set-up-entities.md)
 

@@ -2,7 +2,7 @@
 title: Activate a lens in Portfolio Planning
 description: Validate your lens configuration and activate it so that your planning managers can start creating portfolio plans using this lens.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/activate-lens-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/activate-lens-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -45,5 +45,5 @@ Planning managers can create portfolio plans using only lenses that are active. 
 **Related topics**  
 
 
-[Modify lens structure in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/modify-lens-portfolio-planning.md)
+[Modify lens structure in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/modify-lens-portfolio-planning.md)
 

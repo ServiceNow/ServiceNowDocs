@@ -2,7 +2,7 @@
 title: Add an import set of alumni for Alumni Center
 description: Use System Import Sets to upload your file of alumni.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/asc-add-import-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/asc-add-import-set.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -44,6 +44,6 @@ Role required: import\_set\_loader
 
 11. To view the import set, click the import \(ISET\) set number link.
 
-    To view a list of staged alumni, see [Edit staged users for Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-staged-users.md)
+    To view a list of staged alumni, see [Edit staged users for Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/asc-staged-users.md)
 
 

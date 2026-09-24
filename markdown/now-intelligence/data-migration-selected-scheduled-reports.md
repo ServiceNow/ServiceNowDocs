@@ -2,7 +2,7 @@
 title: Migrate a selection of scheduled Core UI reports
 description: Migrate a selection of scheduled reports to the Platform Analytics experience Scheduled export.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-selected-scheduled-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-selected-scheduled-reports.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ The underlying reports in the scheduled export are migrated to the Platform Anal
 
 ## What to do next
 
-Edit the migrated scheduled export as needed. For more information, see [Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-visualization-vd.md).
+Edit the migrated scheduled export as needed. For more information, see [Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).
 

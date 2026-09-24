@@ -2,7 +2,7 @@
 title: Agent assist
 description: Learn about how the Workspace Agent assist functions with Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-agent-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-agent-assist.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

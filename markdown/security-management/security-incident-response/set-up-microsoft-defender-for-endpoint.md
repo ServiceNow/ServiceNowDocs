@@ -2,7 +2,7 @@
 title: Get started with the Microsoft Defender for Endpoint integration
 description: The following section lists the setup tasks that you are required to complete in your ServiceNow AI Platform instance prior to installing the Microsoft Defender for Endpoint application from the ServiceNow store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/set-up-microsoft-defender-for-endpoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/set-up-microsoft-defender-for-endpoint.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,7 +2,7 @@
 title: Add a table to the database view
 description: Specify the table to join to the database view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_AddATableToTheDatabaseView.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/t\_AddATableToTheDatabaseView.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -32,10 +32,10 @@ When you write the **Where clause**, add the field name to the **Variable prefix
 
 **Note:**
 
--   Database views cannot be created on tables that participate in [table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md).
+-   Database views cannot be created on tables that participate in [table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_TableRotation.md).
 -   Use only lowercase characters in the **Variable prefix**. Using uppercase characters may prevent you from viewing the database view in a list.
 
-To see an example of using left joins to create a view, see [Example left join in creating a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/example-left-join-db-view.md).
+To see an example of using left joins to create a view, see [Example left join in creating a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/example-left-join-db-view.md).
 
 The **Where clause** supports these JavaScript conditional operators:
 
@@ -54,7 +54,7 @@ There is no support for LIKE or CONTAINS conditions in the **Where clause** clau
 
 1.  From the Database View form, select **New** on the View Tables related list.
 
-2.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) and add the **Left join** field \(a check box\) to the form.
+2.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md) and add the **Left join** field \(a check box\) to the form.
 
 3.  Select **Save**.
 

@@ -2,7 +2,7 @@
 title: SaaS detection report
 description: Use the SaaS detection report to discover and manage all SaaS applications accessed via a browser and configured within the ServiceNow Agent Client Collector for Visibility Content \(ACC-VC\) product. The SaaS applications that can be managed through this report can be paid or free ones.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/shadow-saas-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/shadow-saas-analytics.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -18,7 +18,7 @@ Use the SaaS detection report to discover and manage all SaaS applications acces
 
 **Important:** To view the SaaS detection report, you must do the following:
 
--   Request and install the Software Asset Management - SaaS License Management application version 17.4.0 or later from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
+-   Request and install the Software Asset Management - SaaS License Management application version 17.4.0 or later from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/request-saas-license-management.md).
 -   Install the Agent Client Collector for Visibility Content \(ACC-VC\) product version 1.9.0 or later. For more information, see [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-landing-page.md).
 
 You can use this report to manage shadow IT spend by viewing all the users who access these applications and their usage patterns. You can also see how long each application has been in use.
@@ -115,5 +115,5 @@ Total duration for which the product has been accessed by its users.
 |Total usage time|Total duration for which the application has been accessed by a user.|
 |Domain|Domain URL for the application.|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 

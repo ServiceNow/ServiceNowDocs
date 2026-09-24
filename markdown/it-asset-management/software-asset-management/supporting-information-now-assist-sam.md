@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Software Asset Management \(SAM\)
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Software Asset Management \(SAM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/supporting-information-now-assist-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/supporting-information-now-assist-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -67,5 +67,5 @@ Activate the applications in the following order:
 -   Now Assist for Platform
 -   ServiceNow Otto for Software Asset Management \(SAM\)
 
-**Parent Topic:**[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/exploring-now-assist-sam.md)
+**Parent Topic:**[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/exploring-now-assist-sam.md)
 

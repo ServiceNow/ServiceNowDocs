@@ -2,7 +2,7 @@
 title: Create catalog domains
 description: Organize data assets by creating hierarchical domain structures that represent business areas, departments, or data categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-domains-dc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-domains-dc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,7 +62,7 @@ You can create root domains at the top level and subdomains \(child domains\) un
 
 ## What to do next
 
-After creating domain, apply them to data assets in the Domains field of the Classification section when editing a data asset. For details, see [Update a data asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/update-data-asset.md).
+After creating domain, apply them to data assets in the Domains field of the Classification section when editing a data asset. For details, see [Update a data asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/update-data-asset.md).
 
-**Parent Topic:**[Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md)
+**Parent Topic:**[Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-data-catalog.md)
 

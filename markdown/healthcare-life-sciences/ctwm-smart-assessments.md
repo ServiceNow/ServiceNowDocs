@@ -2,7 +2,7 @@
 title: Smart assessments in Care Team Work Management
 description: Smart assessments are structured, repeatable questionnaires that care team agents complete as part of a care team task. They capture standardized evidence — such as room inspections, equipment checks, or readiness surveys. Results can be reviewed, compared, and reported on across a unit, an organization, or an entire hospital.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-smart-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-smart-assessments.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-12"

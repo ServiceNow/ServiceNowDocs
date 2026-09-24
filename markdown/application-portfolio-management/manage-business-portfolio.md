@@ -2,7 +2,7 @@
 title: Exploring a business portfolio
 description: As an Enterprise Architect, view the capability hierarchy, manage capabilities, and assign business applications to the capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/manage-business-portfolio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/manage-business-portfolio.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Business capabilities are assessed by indicators to provide indicator scores use
 
 **Note:** The business capability scores of the current fiscal year are displayed by default. You can change the fiscal year value using the Fiscal year filter.
 
-By default, the first business capability in the hierarchy at level 0 expands to display its immediate child capabilities at level 1. For subsequent business capabilities and child capabilities, select the expand icon \(\[Omitted image "9634607244d27b53ae3c2b97a0086363852084e4.png"\] Alt text: Expand icon.\) to expand and view its sub-capabilities at each level. You can see the total count of the sub-capabilities below each parent capability, the total number of business applications directly related to each capability, and their capability score. When you expand a parent capability, you can see the number of sub-capabilities at that level. You can also see the total count of business applications directly related to the sub-capability.
+By default, the first business capability in the hierarchy at level 0 expands to display its immediate child capabilities at level 1. For subsequent business capabilities and child capabilities, select the expand icon \(\[Omitted image "9328d408edd1abfc208eefc89af4b5dca79df0ee.png"\] Alt text: Expand icon.\) to expand and view its sub-capabilities at each level. You can see the total count of the sub-capabilities below each parent capability, the total number of business applications directly related to each capability, and their capability score. When you expand a parent capability, you can see the number of sub-capabilities at that level. You can also see the total count of business applications directly related to the sub-capability.
 
 **Note:** You can zoom on this page or any of the child pages to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
@@ -42,26 +42,26 @@ You can associate business capabilities with value stream stages to map your org
 
 To view the value stream stages associated with a business capability, open a business capability record and select the **Value Stream Stages** tab. The tab displays a read-only list of associated value stream stages, showing the name, display name, and description of each stage.
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/explore-eaw.md)
 
 **Related topics**  
 
 
-[Add a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-a-capability.md)
+[Add a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/add-a-capability.md)
 
-[Create a demand towards achievement of a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-demand-towards-achievement-of-capability.md)
+[Create a demand towards achievement of a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-a-demand-towards-achievement-of-capability.md)
 
-[Update the hierarchy of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-hierarchy.md)
+[Update the hierarchy of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/update-hierarchy.md)
 
-[Create a sub-capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-sub-capability.md)
+[Create a sub-capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-sub-capability.md)
 
-[Assign a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/assign-a-business-application.md)
+[Assign a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/assign-a-business-application.md)
 
-[Delete a capability from the hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/delete-a-capability.md)
+[Delete a capability from the hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/delete-a-capability.md)
 
-[Unassign a business application from a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/unassign-a-business-application-from-a-capability.md)
+[Unassign a business application from a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/unassign-a-business-application-from-a-capability.md)
 
-[View a roadmap of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-roadmap-bc.md)
+[View a roadmap of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-roadmap-bc.md)
 
-[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-into-ba.md)
+[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/generate-insights-into-ba.md)
 

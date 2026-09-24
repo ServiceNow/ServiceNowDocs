@@ -2,7 +2,7 @@
 title: Components installed with Collaborative Work Management
 description: Several types of components are installed with activation of the Collaborative Work Management application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/components-installed-with-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/components-installed-with-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -417,5 +417,5 @@ MyWork Table Mapping
 Stores information of tasks shown in My Work such as dates, states, and assigned users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/reference-cwm.md)
+</table>**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/reference-cwm.md)
 

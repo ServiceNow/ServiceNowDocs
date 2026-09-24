@@ -2,7 +2,7 @@
 title: Create notification filter configuration for notification preferences
 description: Control the list of notifications that are displayed to the users under the advanced notification preferences page. This capability can help narrow down and show only relevant notifications based on user criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-notification-filter-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-notification-filter-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: admin
 
 5.  Enter the **Name** and the **Order**, the notification filter configuration with the lowest order will take precedence.
 
-6.  Select the User Criteria from the list of target records or create a new [user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-criteria-form-notifications.md).
+6.  Select the User Criteria from the list of target records or create a new [user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-criteria-form-notifications.md).
 
 7.  Select **Notification filters** tab to create and submit filter conditions for the selected user criteria.
 
@@ -39,5 +39,5 @@ Role required: admin
 9.  Select **Submit**.
 
 
-**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-notification-prefrences.md)
+**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/advanced-notification-prefrences.md)
 

@@ -2,7 +2,7 @@
 title: Initiate metadata extraction from a contract
 description: Use generative AI capabilities to extract metadata from a signed contract attached in a contract repository record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-extract-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-extract-metadata.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,13 +18,13 @@ Use generative AI capabilities to extract metadata from a signed contract attach
 
 ## Before you begin
 
-Verify that AI has data access or your role. For more information, see [Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
+Verify that AI has data access or your role. For more information, see [Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 ## About this task
 
-You can also configure the system properties to automatically initiate the metadata extraction process once the contract repository record is created. For more information, see [Configure system properties for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-sys-prop-na.md).
+You can also configure the system properties to automatically initiate the metadata extraction process once the contract repository record is created. For more information, see [Configure system properties for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-conf-sys-prop-na.md).
 
 **Note:** Contract metadata extraction using generative AI capabilities is not available when the Manage contract repository agentic workflow is enabled.
 
@@ -32,15 +32,15 @@ You can also configure the system properties to automatically initiate the metad
 
 1.  Open a contract repository record where you want to extract information from a contract.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d208301e86">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d208305e86">
 
 Method
 
-</th><th align="left" id="d208301e89">
+</th><th align="left" id="d208305e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d208301e95">
+</th></tr></thead><tbody><tr><td id="d208305e95">
 
 **Contract Workspace**
 
@@ -53,7 +53,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d208301e143">
+</td></tr><tr><td id="d208305e143">
 
 **Workspace used by your application**
 
@@ -75,7 +75,7 @@ Steps
 
 ## What to do next
 
-[Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-metatdata.md)
+[Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-review-metatdata.md)
 
-**Parent Topic:**[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
+**Parent Topic:**[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
 

@@ -2,7 +2,7 @@
 title: Assessment scorecard category metrics
 description: The Category Metrics view displays the weighted average results for each metric within a category. Use this view to learn how individual metrics affect the overall rating for the category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_CategoryMetrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_CategoryMetrics.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Select a metric category from the choice list to display the chart.
 
 \[Omitted image "ScorecardCategoryMetrics.png"\] Alt text:
 
-**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 

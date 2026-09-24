@@ -2,7 +2,7 @@
 title: Workflow engine operation order
 description: The workflow engine runs in a predefined order relative to business rules and database operations. It caches commonly-used published workflows to improve performance.The workflow engine caches commonly-used published workflows to improve performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_WorkflowEngineOperationOrder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/c\_WorkflowEngineOperationOrder.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow

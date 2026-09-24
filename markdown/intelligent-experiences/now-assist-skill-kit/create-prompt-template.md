@@ -2,7 +2,7 @@
 title: Create a prompt
 description: After you create a custom skill, create a prompt. Creating a prompt enables you to choose what skill inputs to use, as well as the type of tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/create-prompt-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/create-prompt-template.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -28,7 +28,7 @@ Role required: sn\_skill\_builder.admin
 
 3.  In the **Prompt** window, create your prompt.
 
-    For guidance on creating prompts, see [Developing the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/developing-the-prompt.md).
+    For guidance on creating prompts, see [Developing the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/developing-the-prompt.md).
 
 4.  In the **Skill contents** sidebar, select the plus \(+\) icon next to **Skill Inputs**.
 
@@ -132,21 +132,21 @@ Default values that are used when the skill runs. You can override this at run t
 
 8.  If you're not ready to finalize the prompt and publish the skill, select **Save** or **Save as**.
 
-    **Tip:** A skill can have multiple prompts. The prompt without usage conditions acts as the default — it runs when no other prompt's conditions are met. To add usage conditions to a prompt, select **Manage prompt** and then **Usage conditions**. Usage conditions are built from your skill inputs, so you must have at least one input defined before you can configure them. To learn more about prompt settings and usage conditions, see [Configure a skill prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-prompt.md).
+    **Tip:** A skill can have multiple prompts. The prompt without usage conditions acts as the default — it runs when no other prompt's conditions are met. To add usage conditions to a prompt, select **Manage prompt** and then **Usage conditions**. Usage conditions are built from your skill inputs, so you must have at least one input defined before you can configure them. To learn more about prompt settings and usage conditions, see [Configure a skill prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/configure-skill-prompt.md).
 
 
 ## What to do next
 
-After you have created a prompt, you must test it. To learn more about testing your prompt, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
+After you have created a prompt, you must test it. To learn more about testing your prompt, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
 
--   **[Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-a-tool.md)**  
+-   **[Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/add-a-tool.md)**  
 Add and configure tools in the AI Skill Kit tool canvas to gather data and context before a prompt runs. Tools can be chained sequentially, run in parallel, or branched conditionally using decision nodes.
--   **[Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-retriever.md)**  
+-   **[Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/add-retriever.md)**  
 Add a retriever to your prompt to augment and add context to your prompts with AI search results.
--   **[Add a web search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-web-search.md)**  
+-   **[Add a web search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/add-web-search.md)**  
 Add a web search tool to your skill to retrieve web content and include it as context in your prompt.
 
-**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

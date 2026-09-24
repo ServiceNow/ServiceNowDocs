@@ -2,7 +2,7 @@
 title: Lock workflow activity
 description: The Lock activity prevents other instances of this workflow from continuing past this activity until the lock is released.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/r\_LockActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/workflow-activities/r\_LockActivity.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

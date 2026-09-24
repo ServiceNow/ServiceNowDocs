@@ -2,7 +2,7 @@
 title: View a historical domain message
 description: View historical domain messages in the log file to troubleshoot domain separation issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ViewAHistoricalDomainMessage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ViewAHistoricalDomainMessage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

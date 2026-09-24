@@ -2,7 +2,7 @@
 title: Scope 3 dashboard
 description: The Scope 3 dashboard helps you to calculate and track scope 3 emissions to know about your organization's operational sustainability impact and confirm compliance with evolving regulations. Scope 3 emissions refer to indirect emissions in your value chain, for example, the emissions generated from procurement of equipment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/scope-3-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/scope-3-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -45,13 +45,13 @@ The supplier category data uses the following calculation methodologies.
 
 Emissions from purchased goods and services, classified under Scope 3 category 1 of the Greenhouse Gas \(GHG\) Protocol and capital goods classified under category 2, refer to the indirect emissions generated from a company's procurement of goods and services. The GHG category also uses the EEIO, LCA, and supplier calculation methodologies.
 
--   **[Reports on the scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/reports-on-the-scope-3-dashboard.md)**  
+-   **[Reports on the scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/reports-on-the-scope-3-dashboard.md)**  
 The Scope 3 dashboard displays a variety of reports to easily gauge the sustainability impact of the scope 3 emissions of an organization. All the reports on this dashboard can be drilled down for detailed metric definitions and the entities that provide the data for each report.
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-new-explore.md)
 
 **Related topics**  
 
 
-[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
+[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-the-scope-3-dashboard.md)
 

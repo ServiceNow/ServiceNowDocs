@@ -2,7 +2,7 @@
 title: Create a project using Agentic AI
 description: Create a project using Agentic AI data to understand any bottlenecks and inefficiencies caused when using agentic AI in your processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/project-agentic-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/project-agentic-ai.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -106,7 +106,7 @@ This field is available only if you choose the type as **Project**.
 
  If you don’t change the retired status within the specified days, the mined versions are permanently deleted. However, the project definition isn’t deleted. You can opt out of auto retirement by clearing this check box.
 
- The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
+ The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/data-cleanup.md).
 
 </td></tr><tr><td id="d66813e214">
 
@@ -138,5 +138,5 @@ The template for Agentic AI project is auto-selected.
     \[Omitted image "agentic-ai-project.png"\] Alt text: Agentic AI project
 
 
-**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-process-mining.md)
 

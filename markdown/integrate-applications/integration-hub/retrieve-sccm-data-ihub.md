@@ -2,7 +2,7 @@
 title: Retrieve SCCM data for client software distribution
 description: Retrieve the collections and the list of applications available for deployment from your SCCM servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/retrieve-sccm-data-ihub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/retrieve-sccm-data-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -52,8 +52,8 @@ To populate the Client Software Distribution application with SCCM data:
     \[Omitted image "sccm-ihub.png"\] Alt text: Retrieving SCCM data with Discovery
 
 
--   **[SCCM server Discovery for client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sccm-server-disc-ihub.md)**  
+-   **[SCCM server Discovery for client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/sccm-server-disc-ihub.md)**  
 Discovery flow populates ServiceNow tables with collection, application, and deployment data retrieved from SCCM servers.
 
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-sccm-ihub.md)
 

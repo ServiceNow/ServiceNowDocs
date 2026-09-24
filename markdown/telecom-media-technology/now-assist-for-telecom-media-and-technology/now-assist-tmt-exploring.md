@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: With the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application, your agents can use generative AI to summarize service problem cases, account onboarding cases, engagements, touchpoints, and internal plays. Agents can also summarize customer plays, successive initiatives, tests, risk signals, and issues, and generate resolution notes. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exploring.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -192,7 +192,7 @@ The ServiceNow Otto for TMT application includes the following generative AI ski
     -   Next steps
 -   **Analyze metric data trend**
 
-    Collects and analyzes metric data, processes large data sets, identifies patterns and anomalies. Provides clear actionable insights that enables the [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) monitor engagement health agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.md) to make informed decisions and take appropriate actions.
+    Collects and analyzes metric data, processes large data sets, identifies patterns and anomalies. Provides clear actionable insights that enables the [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) monitor engagement health agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.md) to make informed decisions and take appropriate actions.
 
 -   **Risk signal and issues summarization**
 

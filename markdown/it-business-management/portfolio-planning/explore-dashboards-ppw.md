@@ -2,7 +2,7 @@
 title: Explore dashboards
 description: The Demands dashboard in Next Experience for Demand Management help demand users and managers monitor performance, track progress, and make informed decisions related to demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/explore-dashboards-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/explore-dashboards-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

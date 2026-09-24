@@ -2,7 +2,7 @@
 title: Review and edit your reservations in Workplace
 description: Update or edit reservations in Workplace using the Workplace Service Delivery for Mobile application. Update your location, date, and time of your existing reservations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-edit-rsv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-edit-rsv.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -43,7 +43,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 4.  Create a reservation for a day or create bulk reservations.
 
-    For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md) and [Create bulk reservations in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-bulk-reservations.md).
+    For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md) and [Create bulk reservations in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-bulk-reservations.md).
 
 5.  Select the **Reservations** tab.
 
@@ -69,7 +69,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
         Update your reservations to change the start time and date or end time or date and the location. You can also remove or edit workplace services from your existing reservations. After you update a reservation, the reservation subject name is changed automatically to the space name for which you are updating the reservation. For example, Reservation for C1-04-01, where C1-04-01 is the space name.
 
-        **Note:** When you try to edit a group reservation, the **Edit Group Parent** option is available for a group reservation. Selecting this option opens the group parent reservation in the Reservation Summary Page. For more information about how to create a group reservation, see [Create a group reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-group-reservation.md).
+        **Note:** When you try to edit a group reservation, the **Edit Group Parent** option is available for a group reservation. Selecting this option opens the group parent reservation in the Reservation Summary Page. For more information about how to create a group reservation, see [Create a group reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-group-reservation.md).
 
     2.  Select**Edit**.
 

@@ -2,7 +2,7 @@
 title: Responsibilities for Incident Communication Plan
 description: Contact responsibilities helps you to identify contacts by their responsibilities and to understand what you can expect from the user throughout the life cycle of the communication plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/r\_ResponsibilitiesForIncidentAlerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/r\_ResponsibilitiesForIncidentAlerts.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -56,7 +56,7 @@ Incident Communications Management provides the following additional responsibil
 |Service Owner|Service owner or manager who is identified as a potential contact when an incident communication plan relates to one or more of their services.|
 |Technical Support|Second or third level technical support personnel involved in troubleshooting and resolving an incident communication plan.|
 
-**Parent Topic:**[Incident Communications Management and Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
+**Parent Topic:**[Incident Communications Management and Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
 
 **Related topics**  
 

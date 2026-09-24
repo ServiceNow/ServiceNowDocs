@@ -2,7 +2,7 @@
 title: Configure the knowledge base for articles in Healthcare and Life Sciences Service Management
 description: You can configure the Healthcare and Life Sciences knowledge base that contains the knowledge articles available on the Patient Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-kb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-kb.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

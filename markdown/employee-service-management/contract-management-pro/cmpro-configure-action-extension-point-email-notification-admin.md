@@ -2,7 +2,7 @@
 title: Configure extension point for notifications
 description: Add or modify an Action and its functionality on the Standard ticket page for a contract request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-configure-action-extension-point-email-notification-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-configure-action-extension-point-email-notification-admin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -79,5 +79,5 @@ To see a list of available default email notifications, go to **All** &gt; **Sys
 
 To create new email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
-**Parent Topic:**[Manage notifications in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-notifications.md)
+**Parent Topic:**[Manage notifications in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-manage-notifications.md)
 

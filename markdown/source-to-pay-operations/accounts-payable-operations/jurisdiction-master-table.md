@@ -2,7 +2,7 @@
 title: Jurisdictions main table
 description: The reference \[sn\_fin\_jurisdiction\] table that the Jurisdiction field on the invoice tax line points to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/jurisdiction-master-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/jurisdiction-master-table.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -27,7 +27,7 @@ The reference \[sn\_fin\_jurisdiction\] table holds the set of taxing jurisdicti
 |Jurisdiction type|Level or category of the jurisdiction.|
 |Tax authority|Taxing authority or levy associated with the jurisdiction \(example, Local Sales and Use Tax\).|
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

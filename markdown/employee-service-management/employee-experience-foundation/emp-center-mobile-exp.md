@@ -2,7 +2,7 @@
 title: Now Mobile experience for Employee Center
 description: The Employee Center mobile capabilities enable employees to stay connected regardless of when, where, and how they are working.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-center-mobile-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-center-mobile-exp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -53,15 +53,15 @@ The following are the features that are delivered to give you a curated experien
     \[Omitted image "nm-qlinkls.png"\] Alt text: Quick link section displays on Now Mobile home page.
 
 
-For more information on configuring for Employee Center, see [Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md).
+For more information on configuring for Employee Center, see [Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md).
 
--   **[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)**  
+-   **[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)**  
 Configure Employee Center capabilities on Now Mobile to help employees utilize the employee-centric content experience. This configuration enables all services, information, and support tabs.
 
-**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/integrate-ec.md)
+**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/integrate-ec.md)
 
 **Related topics**  
 
 
-[Exploring Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-vs-ec-pro.md)
+[Exploring Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-vs-ec-pro.md)
 

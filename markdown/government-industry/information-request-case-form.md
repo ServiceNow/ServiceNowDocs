@@ -2,7 +2,7 @@
 title: Information Request case form
 description: A government agent can create a case by using the Information Request case form to capture detailed information about public record requests that constituents, business stakeholders, or other agents have. Constituents, business stakeholders, or agents can also view the form to see the status of their information requests.The Case form includes related lists that store case information and that agents can use to perform case-related tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/information-request-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/information-request-case-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -444,7 +444,7 @@ Resolution notes
 Details about how the case was closed. This field is required if a customer service agent or agent manager closes a case. If a constituent closes a case, it isn’t required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Core Case Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-case-forms.md)
+</table>**Parent Topic:**[Public Sector Digital Services Core Case Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-case-forms.md)
 
 ## Information Request Case form related lists
 

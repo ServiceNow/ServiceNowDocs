@@ -2,7 +2,7 @@
 title: Create a sales opportunity
 description: Create sales opportunities for services, products, or assets identified during field service visits using the ServiceNow Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-opportunity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/create-opportunity.html
 release: australia
 product: Work Order Management
 classification: work-order-management

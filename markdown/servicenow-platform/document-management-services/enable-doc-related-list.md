@@ -2,7 +2,7 @@
 title: Enable viewing related documents in a parent record
 description: Add the Documents related list to the record to be able to link and view documents related to the record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/enable-doc-related-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/enable-doc-related-list.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -35,5 +35,5 @@ Role required: admin
 
 The Documents related list is added to the related lists available in the record.
 
-**Parent Topic:**[Linking documents to a parent record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-linked-parent-rec.md)
+**Parent Topic:**[Linking documents to a parent record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/doc-linked-parent-rec.md)
 

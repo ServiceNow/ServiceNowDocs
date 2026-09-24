@@ -2,7 +2,7 @@
 title: Analyze sentiments in invoice cases
 description: Use the Sentiment Analysis skill in ServiceNow Otto for Accounts Payable Operations \(APO\) to analyze requester's response and determine the sentiment associated with an invoice case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/analyze-sentiments-in-invoice-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/analyze-sentiments-in-invoice-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

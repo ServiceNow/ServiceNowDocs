@@ -2,7 +2,7 @@
 title: HL7 FHIR Spoke release notes
 description: The ServiceNow HL7 FHIR Spoke application lets Workflow Studio authors read HL7 FHIR R4 provider-directory resources from any FHIR R4-conformant server without writing custom REST, scripting, or pagination code. HL7 FHIR Spoke is a new application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/fhir-spoke-release-notes-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/fhir-spoke-release-notes-rn.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-16"
@@ -63,5 +63,5 @@ Before deploying the spoke, the following platform plugins must be active: Workf
     Consumes the HL7 FHIR Spoke actions to import FHIR provider-directory data into the Healthcare Operations data model on a schedule.
 
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 

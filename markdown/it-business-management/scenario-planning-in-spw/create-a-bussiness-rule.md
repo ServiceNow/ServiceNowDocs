@@ -2,7 +2,7 @@
 title: Create a business rule for custom table map configuration
 description: Create a business rule to enable import for your new custom table map configuration from Agile Development 2.0, SAFe, and PPM applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-a-bussiness-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/create-a-bussiness-rule.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

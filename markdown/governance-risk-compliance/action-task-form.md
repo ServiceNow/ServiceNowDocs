@@ -2,7 +2,7 @@
 title: Create Action task form
 description: On the Create Action task form, fill in the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/action-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/action-task-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

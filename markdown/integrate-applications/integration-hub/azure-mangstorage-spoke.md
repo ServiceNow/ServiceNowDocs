@@ -2,7 +2,7 @@
 title: Microsoft Azure Managed Storage Spoke
 description: Manage the Microsoft Azure managed disks from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/azure-mangstorage-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/azure-mangstorage-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -261,5 +261,5 @@ Updates tags of the specified snapshot. The provided tags will replace any exist
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-res-mngmt.md) and .
+For information about setting up the spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-res-mngmt.md) and .
 

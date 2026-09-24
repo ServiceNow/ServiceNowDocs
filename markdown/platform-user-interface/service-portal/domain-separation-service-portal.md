@@ -2,7 +2,7 @@
 title: Domain separation and Service Portal
 description: Domain separation is unsupported in Service Portal. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/domain-separation-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/domain-separation-service-portal.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -31,7 +31,7 @@ Domain separation provides complete data isolation for domain-specific users.
 
 Elements of the Service Portal platform such as settings, portals, pages and widgets are not domain-separated. However, the data within widgets does display when based on the appropriate domain. To provide different experiences, admins should create separate service portals, each with unique URLs, that they can redirect users to.
 
-**Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/reference-service-portal.md)
+**Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/reference-service-portal.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Google Cloud Platform \(GCP\) resource inventory discovery with Patterns
 description: The ServiceNow Discovery application uses the Google Cloud Platform \(GCP\) Resource Inventory pattern to find GCP resources and policies. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -276,5 +276,5 @@ These relationships are created to support GCP asset inventory discovery:
 |For Regional Resources:|
 |Main CI \[cmdb\_ci\_cmp\_resource\]|HostedOn::Hosts|Logical Datacenter \(LDC\)|
 
-**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
+**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
 

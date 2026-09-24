@@ -2,7 +2,7 @@
 title: Configure Solarwinds metric pull connector
 description: Configure a metric pull connectors that require a script, connector definition, and connector instance to pull metrics from external sources. These connectors automate the data retrieval process, ensuring the seamless integration of external metrics into your system for efficient monitoring and performance analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-metric-pull-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/configure-metric-pull-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

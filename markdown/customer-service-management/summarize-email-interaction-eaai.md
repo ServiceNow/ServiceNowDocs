@@ -2,7 +2,7 @@
 title: Summarize an email interaction
 description: Use ServiceNow Otto to generate an AI summary of an email interaction. Agents get a concise overview of customer issues, conversation context, and action items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/summarize-email-interaction-eaai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/summarize-email-interaction-eaai.html
 release: australia
 topic_type: task
 last_updated: "2026-05-11"
@@ -17,7 +17,7 @@ Use ServiceNow Otto to generate an AI summary of an email interaction. Agents ge
 
 ## Before you begin
 
-Verify that ServiceNow Otto for Customer Service Management is installed and the AI summarization skill is activated. For activation steps, see [Activate email interaction summarization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-email-summarization-csm.md).
+Verify that ServiceNow Otto for Customer Service Management is installed and the AI summarization skill is activated. For activation steps, see [Activate email interaction summarization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-email-summarization-csm.md).
 
 Role required: sn\_customerservice\_agent
 

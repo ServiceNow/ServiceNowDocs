@@ -2,7 +2,7 @@
 title: Define the specialty of an AI agent
 description: In the guided setup for an AI agent, write a clear description defining your agent and its role. You can also configure supported LLMs, enable third-party access, and manage long-term memory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-specialty.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-specialty.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
@@ -20,7 +20,7 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-The first step of the guided setup enables you to define the fundamentals of the AI agent. The description, AI agent role, and list of steps fields are used by the LLM to understand how to use the AI agent, by itself or as part of an agentic workflow. Descriptions, AI agent roles, and list of steps should be clear and well-defined. For guidelines for writing these fields, see [Writing effectively for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md). For an example AI agent, see [Example AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-aia.md).
+The first step of the guided setup enables you to define the fundamentals of the AI agent. The description, AI agent role, and list of steps fields are used by the LLM to understand how to use the AI agent, by itself or as part of an agentic workflow. Descriptions, AI agent roles, and list of steps should be clear and well-defined. For guidelines for writing these fields, see [Writing effectively for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gg-creating-aia.md). For an example AI agent, see [Example AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/example-aia.md).
 
 \[Omitted image "create-aia-new1.png"\] Alt text: AI Agent Guided Setup showcasing the different stages of configuring an AI agent.
 
@@ -42,7 +42,7 @@ The first step of the guided setup enables you to define the fundamentals of the
 
 4.  Craft a list of steps.
 
-    You can also use an old version of a list of steps. Select **View versions** for a full list of previous versions of the field. See [Version control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/version-control.md) for more information.
+    You can also use an old version of a list of steps. Select **View versions** for a full list of previous versions of the field. See [Version control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/version-control.md) for more information.
 
 5.  Determine unsupported model providers.
 
@@ -52,21 +52,21 @@ The first step of the guided setup enables you to define the fundamentals of the
 
     Make your AI agent discoverable by turning on the **Allow third-party to access this AI agent** toggle button that enables you to use your ServiceNow AI agent on other platforms. You can still use it on your ServiceNow instances as well.
 
-    See [ServiceNow agents as secondary agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/secondary-agent.md) for more information about configuring agents to use on other AI platforms.
+    See [ServiceNow agents as secondary agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/secondary-agent.md) for more information about configuring agents to use on other AI platforms.
 
 7.  Configure long-term memory options.
 
     Long-term memory for AI agents enables agents to access data outside of the specific conversation or trigger that executes it. For example, you can select the **Device and Software** category to give the AI agent access to user information about the kinds of hardware devices and software that are available to the invoking user. The AI agent can remember this information in later conversations.
 
-    -   For more information about creating LTM categories, see [Create long-term memory category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ltm-category.md).
-    -   For more information about selecting the categories to map them to you AI agent, see [Map Long-term memory category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/map-ltm-aia.md).
+    -   For more information about creating LTM categories, see [Create long-term memory category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-ltm-category.md).
+    -   For more information about selecting the categories to map them to you AI agent, see [Map Long-term memory category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/map-ltm-aia.md).
 
 
 8.  Configure AI agent learning.
 
     You can enable the AI agent to learn from past interactions with the user. For example, if the user encounters a similar issue, enabling this feature could help the AI agent understand what didn't work previously, so it can recommend other options.
 
-    **Note:** When the agent learning capability is inactive at the AI Agent Studio level, the option to enable at the AI agent level is also inactive. To enable agent learning at the AI Agent Studio level, see [Set up long-term memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/long-term-memory-aia.md).
+    **Note:** When the agent learning capability is inactive at the AI Agent Studio level, the option to enable at the AI agent level is also inactive. To enable agent learning at the AI Agent Studio level, see [Set up long-term memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/long-term-memory-aia.md).
 
 
 ## Result
@@ -75,5 +75,5 @@ You have defined the basics of your AI agent.
 
 ## What to do next
 
-Select **Save and continue** to move to the next step, [Add tools and information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-tool-aia.md).
+Select **Save and continue** to move to the next step, [Add tools and information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-tool-aia.md).
 

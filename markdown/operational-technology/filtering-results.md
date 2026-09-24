@@ -2,7 +2,7 @@
 title: Filter results
 description: The Results page provides a filter to find specific types of queries of information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/filtering-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/filtering-results.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ If you select Operating System, for example, another drop-down menu opens with a
 
 After you have made your selection, any query that matches the filter displays on the Result page.
 
-**Parent Topic:**[Results page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/results-page-console.md)
+**Parent Topic:**[Results page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/results-page-console.md)
 

@@ -2,7 +2,7 @@
 title: Diagnose Advanced Work Assignment configuration issues
 description: Use the Conversational Interfaces Diagnostic Tool to identify and resolve common Advanced Work Assignment \(AWA\) configuration issues before reaching out to Now Support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose-awa-no-agents-avail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose-awa-no-agents-avail.html
 release: australia
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
@@ -77,5 +77,5 @@ Solve issues with your AWA configuration. For example, you can solve issues such
 9.  Click the link to download support data.
 
 
-**Parent Topic:**[Using the Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/using-ci-diagnostics-tool.md)
+**Parent Topic:**[Using the Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/conversational-interfaces-diagnostics-tool/using-ci-diagnostics-tool.md)
 

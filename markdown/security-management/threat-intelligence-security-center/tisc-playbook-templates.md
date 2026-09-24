@@ -2,7 +2,7 @@
 title: TISC playbook templates
 description: This section describes the playbook templates that are shipped with TISC Sentinel solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-playbook-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-playbook-templates.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -164,5 +164,5 @@ The following table describes how you can run the following playbooks.
 |Export\_URL\_Entity|On a Sentinel incident, select **URL entity** &gt; **Run Playbook** for execution.|
 |Incident\_Enrichment|On a Sentinel incident, select **Incident Actions** &gt; **Run Playbook** for execution.|
 
-**Parent Topic:**[Microsoft Sentinel integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-sentinel-integration.md)
+**Parent Topic:**[Microsoft Sentinel integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-sentinel-integration.md)
 

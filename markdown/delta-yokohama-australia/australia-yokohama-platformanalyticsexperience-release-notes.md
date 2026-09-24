@@ -2,10 +2,10 @@
 title: Combined Platform Analytics experience release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Platform Analytics experience from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-platformanalyticsexperience-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-platformanalyticsexperience-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -721,5 +721,5 @@ Australia
  See [Platform Analytics experience](https://www.servicenow.com/docs/access?context=par-workspace&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

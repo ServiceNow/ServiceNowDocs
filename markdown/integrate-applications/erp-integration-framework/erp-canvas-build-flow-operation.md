@@ -2,7 +2,7 @@
 title: Building flows to read or update the ERP system
 description: After you configure an operation in Zero Copy Connector for ERP \(Enterprise Resource Planning\), you can build a flow in Workflow Studio to specify details for querying the ERP system. For example, build a flow that filters by Order ID.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -25,7 +25,7 @@ The Use ERP Data action enables you to use ERP data outside of Zero Copy Connect
 
 After you're done creating and managing your model in Zero Copy Connector for ERP, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs.
 
-When you test the action, you must specify the model you're using, which fields to read or update, and the ERP system. For more information about the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
+When you test the action, you must specify the model you're using, which fields to read or update, and the ERP system. For more information about the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
 
 ## Using parameters to filter data requests
 
@@ -41,11 +41,11 @@ To use ERP data for processes or tasks outside of Zero Copy Connector for ERP, u
 
 1.  In Workflow Studio, test the **Use ERP Data** action by selecting the model in the **System** field of the Test Action modal and then specifying the inputs.
     -   For more information about testing actions, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-action.md).
-    -   For more details on inputs for the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
+    -   For more details on inputs for the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
 2.  After the test runs, view the action execution details. For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
 3.  The returned data from testing the action appears in the **Response** field of the output data.
-    -   For more information about outputs for the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
-    -   For details on incorporating returned ERP data, see [Specifying where ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-call-response-data.md).
+    -   For more information about outputs for the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
+    -   For details on incorporating returned ERP data, see [Specifying where ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-call-response-data.md).
 4.  Build a flow that runs the Use ERP Data action.
 
     The **Use ERP Data** action returns ERP data in an output data pill called **Response**. The **Response** pill is available when you build a flow in Workflow Studio with the **Use ERP Data** action. The **Response** data pill is available in the following places of the action:

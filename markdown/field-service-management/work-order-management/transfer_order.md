@@ -2,7 +2,7 @@
 title: Transfer part orders through the Field Service Contractor Portal
 description: Use a transfer order to move required parts between company stockrooms or to a location where a requesting agent can receive the parts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/transfer\_order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/transfer\_order.html
 release: australia
 product: Work Order Management
 classification: work-order-management

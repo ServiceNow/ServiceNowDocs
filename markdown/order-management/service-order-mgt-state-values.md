@@ -2,7 +2,7 @@
 title: Service order states
 description: Use the State fields on the Order Management forms to determine the current processing state for the service order and to perform certain types of order actions, such as canceling an external service order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/service-order-mgt-state-values.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/service-order-mgt-state-values.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -96,7 +96,7 @@ In progress
 
 </td><td>
 
-Service order that has been approved and is being actively worked on. To learn more, see [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-tasks.md).
+Service order that has been approved and is being actively worked on. To learn more, see [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-customer-order-tasks.md).
 
 </td></tr><tr><td>
 
@@ -396,5 +396,5 @@ Draft
 Order task that is still in the capture stage or the manual entry of the order task is not complete.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-reference.md)
 

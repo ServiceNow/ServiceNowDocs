@@ -2,7 +2,7 @@
 title: Google Calendar - Calendar synchronization
 description: Create a connection with Google Calendar and synchronize reservations made using the Workplace Reservation Management application. You can synchronize all the reservations that are made using the Workplace Reservation Management to the Google Calendar and vice versa.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/google-calendar-calendar-synchronization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/google-calendar-calendar-synchronization.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -28,9 +28,9 @@ The synchronization process includes the following steps:
 
 1.  Install [Google Calendar Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/gcal-spoke.md).
 2.  [Set up Google Calendar spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-gcal.md)
-3.  Authenticate ServiceNow with Google. Refer to [Authenticate Google for calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/authenticate-google-for-calendar-sync.md).
-4.  Configuring the Google Calendar Spoke connection using the Flow designer. Refer to [Create a Connection and credential record for Google](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-configuration-with-google.md).
-5.  Creating the Google Calendar provider. Refer to [Configure Google as calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-google-as-calendar-provider.md).
+3.  Authenticate ServiceNow with Google. Refer to [Authenticate Google for calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/authenticate-google-for-calendar-sync.md).
+4.  Configuring the Google Calendar Spoke connection using the Flow designer. Refer to [Create a Connection and credential record for Google](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-connection-configuration-with-google.md).
+5.  Creating the Google Calendar provider. Refer to [Configure Google as calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/configure-google-as-calendar-provider.md).
 
 The application also enables you to create your own connection and credential alias instead of using the default alias created by using the flow designer.
 

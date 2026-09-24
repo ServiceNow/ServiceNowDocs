@@ -2,7 +2,7 @@
 title: Assign roles and personas to groups for Service Exchange
 description: Associate groups with Service Exchange Personas to grant all group members access to remote catalog items, instead of assigning users individually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-assign-roles-customer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-assign-roles-customer.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -32,15 +32,15 @@ Roles control which actions are available to users and grant access to remote re
 
 3.  To assign roles and personas to a group, do the following steps.
 
-<table id="choicetable_rh3_h3m_mjc"><thead><tr><th align="left" id="d36709e102">
+<table id="choicetable_rh3_h3m_mjc"><thead><tr><th align="left" id="d36713e102">
 
 Option
 
-</th><th align="left" id="d36709e105">
+</th><th align="left" id="d36713e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d36709e111">
+</th></tr></thead><tbody><tr><td id="d36713e111">
 
 **To assign roles**
 
@@ -51,7 +51,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d36709e138">
+</td></tr><tr><td id="d36713e138">
 
 **To assign personas**
 

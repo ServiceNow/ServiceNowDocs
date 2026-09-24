@@ -2,7 +2,7 @@
 title: CPQ: User Access Control
 description: View access types, access areas, and user roles that can be managed via the User Access utility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_admin\_user\_access\_control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/logik\_admin\_user\_access\_control.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

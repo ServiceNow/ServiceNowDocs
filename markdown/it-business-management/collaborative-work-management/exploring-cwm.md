@@ -2,7 +2,7 @@
 title: Exploring Collaborative Work Management
 description: Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace. It helps knowledge workers, project managers, and agile teams manage work without switching between applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/exploring-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/exploring-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -30,7 +30,7 @@ CWM integrates with the broader ServiceNow AI Platform, connecting to other Serv
 
 |User|Description|
 |----|-----------|
-|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and formula building.|
+|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and formula building.|
 |Project manager|Organizes work into Spaces and Boards, tracks progress across teams, and connects work to business goals and the Strategic Planning workspace.|
 |Agile practitioner|Plans and runs sprints, manages backlogs, generates scrum tasks from user stories, and tracks cross-team dependencies.|
 |SPM team member|Views and updates project and demand tasks from Project Workspace and Next Experience for Demand Management directly in CWM using the team member read or team member read-write role.|
@@ -57,7 +57,7 @@ Keep all team work in one place by organizing Boards and Docs into shared Spaces
 
 </td><td>
 
-[Spaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-spaces.md)
+[Spaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-spaces.md)
 
 </td><td>
 
@@ -74,7 +74,7 @@ Get started without admin involvement by configuring your own workflow and organ
 
 </td><td>
 
-[Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
+[Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-boards.md)
 
 </td><td>
 
@@ -86,7 +86,7 @@ Bring in tasks, Stories, or Epics from existing files such as Excel, Word, or PD
 
 </td><td>
 
-[Import tasks into Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/importing-tasks-cwm-boards.md)
+[Import tasks into Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/importing-tasks-cwm-boards.md)
 
 </td><td>
 
@@ -98,7 +98,7 @@ Create CWM tasks and stories from open prompts or documents with ServiceNow Otto
 
 </td><td>
 
-[Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)
+[Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)
 
 </td><td>
 
@@ -114,7 +114,7 @@ Create and collaborate on meeting notes, technical specifications, or feature re
 
 </td><td>
 
-[Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+[Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-docs.md)
 
 </td><td>
 
@@ -126,7 +126,7 @@ Reduce repetitive setup and ensure consistency across your team by starting from
 
 </td><td>
 
-[Templates for Spaces, Boards, and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
+[Templates for Spaces, Boards, and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 
 </td><td>
 
@@ -138,7 +138,7 @@ Run sprints end-to-end in CWM without switching to a separate Agile tool. Plan w
 
 </td><td>
 
-[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
+[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 
 </td><td>
 
@@ -152,7 +152,7 @@ Break user stories into granular scrum tasks to improve sprint execution and est
 
 </td><td>
 
-[Scrum tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
+[Scrum tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
 
 </td><td>
 
@@ -164,7 +164,7 @@ Link work items as prerequisites, dependents, or related to surface dependencies
 
 </td><td>
 
-[Task dependencies and relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
+[Task dependencies and relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
 
 </td><td>
 
@@ -176,7 +176,7 @@ Visualize task and sprint progress at a glance with configurable widgets, such a
 
 </td><td>
 
-[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
 
 </td><td>
 
@@ -188,7 +188,7 @@ Save and reuse filtered views of records from any table. Default lists such as M
 
 </td><td>
 
-[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-lists.md)
+[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-lists.md)
 
 </td><td>
 
@@ -200,7 +200,7 @@ Switch between Dashboard, List, Gantt, and Kanban view modes to visualize work i
 
 </td><td>
 
-[Board views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/board-views-in-cwm.md)
+[Board views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/board-views-in-cwm.md)
 
 </td><td>
 
@@ -214,7 +214,7 @@ Add calculated columns to the List view that automatically compute values from y
 
 </td><td>
 
-[Formula columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md)
+[Formula columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md)
 
 </td><td>
 
@@ -226,7 +226,7 @@ Reduce manual overhead by automating repetitive processes such as sending notifi
 
 </td><td>
 
-[Automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/implementing-automations-in-collaborative-work-management.md)
+[Automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/implementing-automations-in-collaborative-work-management.md)
 
 </td><td>
 
@@ -238,7 +238,7 @@ Bring work from across your ServiceNow AI Platform applications onto a single CW
 
 </td><td>
 
-[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
+[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 
 </td><td>
 
@@ -250,7 +250,7 @@ Access and update project and demand tasks directly in CWM without requiring acc
 
 </td><td>
 
-[Team member roles for project work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-roles.md)
+[Team member roles for project work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-team-member-roles.md)
 
 </td><td>
 
@@ -262,7 +262,7 @@ Connect team execution to organizational strategy by surfacing CWM Boards in Str
 
 </td><td>
 
-[Connecting CWM with Strategic Planning or Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-cwm-spw.md)
+[Connecting CWM with Strategic Planning or Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-cwm-spw.md)
 
 </td><td>
 
@@ -274,7 +274,7 @@ Reference live ServiceNow AI Platform records such as Incidents, Risks, or Issue
 
 </td><td>
 
-[Enable ServiceNow AI Platform records in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/enable-now-platform-servicenow-records-cwm-docs.md)
+[Enable ServiceNow AI Platform records in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/enable-now-platform-servicenow-records-cwm-docs.md)
 
 </td><td>
 
@@ -286,7 +286,7 @@ Share Board data with stakeholders outside CWM or prepare for offline analysis a
 
 </td><td>
 
-[Export Board as CSV or Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/export-a-board-in-cwm-to-csv-or-excel.md)
+[Export Board as CSV or Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/export-a-board-in-cwm-to-csv-or-excel.md)
 
 </td><td>
 
@@ -298,7 +298,7 @@ Share Doc content with stakeholders who don't have access to CWM by exporting pa
 
 </td><td>
 
-[Export Doc as PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/export-a-doc-in-cwm-to-a-pdf-file.md)
+[Export Doc as PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/export-a-doc-in-cwm-to-a-pdf-file.md)
 
 </td><td>
 
@@ -311,7 +311,7 @@ Knowledge worker
 
 To learn more about configuring and using Collaborative Work Management, see:
 
--   [Configuring Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/configuring-cwm.md)
--   [Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
--   [Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/reference-cwm.md)
+-   [Configuring Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/configuring-cwm.md)
+-   [Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
+-   [Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/reference-cwm.md)
 

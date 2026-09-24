@@ -2,7 +2,7 @@
 title: Automate Configuration Assignment policy process
 description: Automate assigning configurations and AWS organizational units in requests based on specified conditions. When conditions are met and approvals are complete, requests move forward without admin input. Update the default policy to include specific conditions and values for configuration and AWS organizational unit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/automate-account-creation-config-assign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/automate-account-creation-config-assign.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

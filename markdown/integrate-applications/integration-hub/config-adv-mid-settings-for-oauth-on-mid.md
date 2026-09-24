@@ -2,7 +2,7 @@
 title: Set up MID Server for a spoke
 description: Configure MID Server settings on your ServiceNow instance that enables it to integrate with a third-party application via MID Server after you have set up the connection record for a spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -26,7 +26,7 @@ Confirm that you have set up the connection record for the spoke.
 
 ## About this task
 
-Setting up MID Server may be mandatory or optional for the spoke that you set up. For example, configuring MID Server is required for [Microsoft Active Directory v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-ad-v2-spoke.md) but optional for the [Jira Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md). Use this procedure to set up the MID Server for your spoke after you have set up your spoke by filling the default connection alias form.
+Setting up MID Server may be mandatory or optional for the spoke that you set up. For example, configuring MID Server is required for [Microsoft Active Directory v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/ms-ad-v2-spoke.md) but optional for the [Jira Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/jira-spoke-v3-0-2.md). Use this procedure to set up the MID Server for your spoke after you have set up your spoke by filling the default connection alias form.
 
 ## Procedure
 
@@ -104,5 +104,5 @@ The application the MID Server must support to be eligible for selection. The sy
 
 Confirm that the spoke connection form has the Use MID option.
 
-**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/building-integrations-ih.md)
 

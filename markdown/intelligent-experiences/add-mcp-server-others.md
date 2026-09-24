@@ -2,7 +2,7 @@
 title: Add an MCP Server with Connection and Credential Alias
 description: Add an MCP Server by selecting a Connection and Credential Alias record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-mcp-server-others.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-mcp-server-others.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -83,7 +83,7 @@ Select a Connection and credential alias record to map with your MCP Server.
 
 8.  Define Security controls for the MCP Servers.
 
-    For more information, see [Define security controls for MCP Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-mcp.md).
+    For more information, see [Define security controls for MCP Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-mcp.md).
 
 9.  Define the Tools for the Model Context Protocol Sever.
 

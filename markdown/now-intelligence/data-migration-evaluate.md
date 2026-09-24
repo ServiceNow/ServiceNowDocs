@@ -2,7 +2,7 @@
 title: Evaluate full data migration
 description: When you have completed the migration process, review the results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-evaluate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-evaluate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

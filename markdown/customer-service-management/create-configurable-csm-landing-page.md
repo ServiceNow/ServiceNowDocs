@@ -2,7 +2,7 @@
 title: Create Manager Workspace Landing Page
 description: Create a landing page based on your business requirement.You can set a default landing page to surface the information that is most relevant for your business.Set the enhanced Manager Workspace as the default landing page for an improved user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-configurable-csm-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-configurable-csm-landing-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -234,7 +234,7 @@ The type of report that renders.
 10. Select **Update** to save changes to the landing page.
 
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-configurable-wfo-cs.md)
 
 ## Set the default landing page
 

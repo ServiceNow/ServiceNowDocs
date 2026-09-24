@@ -2,7 +2,7 @@
 title: Create a knowledge base article
 description: Create knowledge base articles for finance-related topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/create-kb-fcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/create-kb-fcm.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -41,14 +41,14 @@ Role required: sn\_fin\_ops.admin, sn\_fin\_ops.specialist
     -   Select **Create Article.**
 6.  On the Create New Knowledge form, fill in the fields.
 
-    For more information on the form fields and descriptions, see [Create knowledge base article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/create-kb-form.md).
+    For more information on the form fields and descriptions, see [Create knowledge base article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/create-kb-form.md).
 
 7.  Save the article.
 
 
 ## What to do next
 
-Publish the knowledge article. For information, see [Publish a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/configure-kb-fin-ops-ws.md).
+Publish the knowledge article. For information, see [Publish a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/configure-kb-fin-ops-ws.md).
 
-**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

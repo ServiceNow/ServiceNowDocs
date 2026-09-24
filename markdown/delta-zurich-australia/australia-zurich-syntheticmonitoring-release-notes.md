@@ -2,11 +2,11 @@
 title: Combined Synthetic monitoring release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Synthetic monitoring from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-syntheticmonitoring-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-syntheticmonitoring-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 3
+last_updated: "2026-09-24"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -87,6 +87,19 @@ As of 1.4, use tag-based clustering to group monitor alerts.
 As of 1.4, OAuth credentials on endpoints are supported.
 
 
+ -   **[MID Server support for running synthetic monitors](https://www.servicenow.com/docs/access?context=create-synthetic-monitoring-locations&family=zurich&ft:locale=en-US)**
+
+Run synthetic monitors from your MID Server.
+
+-   **[HTTP endpoint creation directly in synthetic monitoring](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
+
+Create HTTP endpoints for your monitors without leaving the SOW.
+
+-   **[Support groups for synthetic monitor-based alerts](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
+
+Assign a support group to a monitor, and then any raised alerts follow the associated alert automation rules.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -136,6 +149,14 @@ In version 1.4, you can see open alerts for any tests the monitor has run.
 
 In version 1.4, you can add tags when configuring alerts for monitors.
 
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[New columns in the Synthetic Location table](https://www.servicenow.com/docs/access?context=create-synthetic-monitoring-locations&family=zurich&ft:locale=en-US)**
+    -   **Type**: Shows whether the location is a MID Server, ACC Collector, or hosted on the platform.
+    -   **Number of monitors**: Displays the number of monitors running on the location.
 
 </td></tr><tr><td>
 
@@ -226,6 +247,8 @@ Zurich
 
 Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Synthetic monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -392,5 +415,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

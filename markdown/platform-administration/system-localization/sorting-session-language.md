@@ -2,7 +2,7 @@
 title: Sorting according to the session language
 description: Order string values according to the user's session language when sorting a column in a list.Enable sorting string values in columns according to the user's session language.Configure whether the values in columns are sorted according to the user's session language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/sorting-session-language.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/sorting-session-language.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -22,9 +22,9 @@ In the following example, the user's session language is Swedish. The Example st
 
 \[Omitted image "sort-session-lang.png"\] Alt text: Column sorted according to the session language
 
-**Note:** This column attribute can't be set to true when the following column attribute is also set to true: Locale text match. For more information see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sl-locale-text-match.md).
+**Note:** This column attribute can't be set to true when the following column attribute is also set to true: Locale text match. For more information see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/sl-locale-text-match.md).
 
-The availability of this functionality for a supported language depends on the availability of a collation in the underlying Relational Database Management System \(RDBMS\) used in the instance. For a list of available collations for each language and RDBMS, navigate to the DB Collation Info \[sys\_db\_collation\_info\] table. To add a collation for an unsupported language, see [Add collation information for an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/add-collation-unsupported-language.md).
+The availability of this functionality for a supported language depends on the availability of a collation in the underlying Relational Database Management System \(RDBMS\) used in the instance. For a list of available collations for each language and RDBMS, navigate to the DB Collation Info \[sys\_db\_collation\_info\] table. To add a collation for an unsupported language, see [Add collation information for an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/add-collation-unsupported-language.md).
 
 ## Enable sorting according to the session language
 
@@ -59,7 +59,7 @@ Configure whether the values in columns are sorted according to the user's sessi
 
 Enable sorting according to the user's session language for the instance.
 
-This column attribute can't be set to true with locale text match. For more information see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sl-locale-text-match.md).
+This column attribute can't be set to true with locale text match. For more information see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/sl-locale-text-match.md).
 
 Role required: admin
 

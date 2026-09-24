@@ -2,7 +2,7 @@
 title: Catalog Import staging table
 description: The Catalog Import \[sn\_spend\_intg\_imp\_catalog\] staging table temporarily stores important data about catalog imports before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/catalog-import-staging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/catalog-import-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -49,7 +49,7 @@ The Catalog Import \[sn\_spend\_intg\_imp\_catalog\] staging table temporarily s
 |Third-party category|Reference|Reference to the Third Party category.|
 |Unit|String|Unit or rate at which the product is sold by the supplier.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

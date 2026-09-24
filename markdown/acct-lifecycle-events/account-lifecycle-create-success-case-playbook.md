@@ -2,7 +2,7 @@
 title: Create a customer play
 description: Create a customer play in collaboration with customers to define planned and unplanned activities required to support an engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -59,7 +59,7 @@ A customer play monitors external activities of unplanned actions that a provide
 
         **Note:** Meetings that are in a Draft or Scheduled state displayed in the Related meeting page. To continue to the next activity, update the State to Complete or Canceled. After all meetings have been closed or canceled, you can select **Mark Complete** to continue with the next activity.
 
-    -   Related work: Select **Create Task** to create a customer play task. See [Create a customer play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-task.md) for a detailed description of this form.
+    -   Related work: Select **Create Task** to create a customer play task. See [Create a customer play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-case-task.md) for a detailed description of this form.
 
         **Note:** customer play tasks that are in a New, In-progress, or Paused state are displayed in the Related meeting page. To continue to the next activity, update the State to Complete or Canceled. After all customer play tasks have been closed or canceled, select **Mark Complete** to continue with the next activity.
 
@@ -77,12 +77,12 @@ A customer play monitors external activities of unplanned actions that a provide
 ## What to do next
 
 -   Select **Discuss** to start a sidebar discussion about this customer play. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this initiative. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the **Activity stream**.
--   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md).
+-   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-play.md).
 
--   **[Create a customer play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-task.md)**  
+-   **[Create a customer play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-case-task.md)**  
 Create a customer play task to define a planned action that a provider or customer must complete in support of a customer play. A customer play task must be clearly defined and can be visible to internal stakeholders or external customers.
--   **[Close or cancel a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cancel-success-case.md)**  
+-   **[Close or cancel a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-cancel-success-case.md)**  
 You can close or cancel a customer play and all the related tasks.
 
-**Parent Topic:**[Manage customer success playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.md)
+**Parent Topic:**[Manage customer success playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.md)
 

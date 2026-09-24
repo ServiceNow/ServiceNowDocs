@@ -2,7 +2,7 @@
 title: Add events to a user calendar
 description: Resource managers can add events to user calendars.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_AddEventsToAUserCalendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/t\_AddEventsToAUserCalendar.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -49,15 +49,15 @@ Select a User record to open the User form, and then select the **View Calendar*
 
 4.  On the form, fill the fields.
 
-    For description of the field names, see [Add events to your calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_AddEventsToYourCalendar.md).
+    For description of the field names, see [Add events to your calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_AddEventsToYourCalendar.md).
 
 
 ## Result
 
 -   When you add a calender event, the resource aggregate daily, weekly, and monthly tables are updated. The resource aggregate daily table isn’t enabled by default. To generate daily aggregates and store them in this table, create the **com.snc.resource\_management.generate\_daily\_aggregates** property and set the value to true.
--   All the non-project events created for a user from the calender appear as Operational Work for the user in [Resource Finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-resource-plan-with-finder.md).
+-   All the non-project events created for a user from the calender appear as Operational Work for the user in [Resource Finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-resource-plan-with-finder.md).
 
-**Parent Topic:**[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_MyCalendar.md)
+**Parent Topic:**[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_MyCalendar.md)
 
 **Related topics**  
 

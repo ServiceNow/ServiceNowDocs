@@ -2,7 +2,7 @@
 title: TuneUp Your Now Assist in Virtual Agent
 description: This Accelerator provides prescriptive guidance on fine-tuning your Now Assist in Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-now-assist-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/tuneup-now-assist-virtual-agent.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,7 +2,7 @@
 title: View a quote PDF document
 description: Agents can view quote documents in the PDF viewer window. The PDF viewer window has controls that enable agents to manage the PDF.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-view-a-quote-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-view-a-quote-document.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: sales\_agent
 5.  Use the PDF viewer controls to manage the PDF.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

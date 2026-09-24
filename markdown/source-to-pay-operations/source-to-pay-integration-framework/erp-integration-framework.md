@@ -2,7 +2,7 @@
 title: ERP Integration Framework
 description: The Source-to-Pay \(S2P\) ERP Integration Framework enables seamless data exchange between ServiceNow and third-party Enterprise Resource Planning \(ERP\) systems. This framework supports comprehensive integration of primary data, transactional data \(purchase orders, receipts, invoices\), fixed assets, and tax information across multiple ERP instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-integration-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-integration-framework.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

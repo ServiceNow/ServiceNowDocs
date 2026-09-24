@@ -2,7 +2,7 @@
 title: View unassigned tasks using Resource Management Workspace
 description: Filter unassigned tasks to view custom requests to match with your organization's priorities and planning, and assign them to resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/view-unassigned-work-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/view-unassigned-work-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -18,7 +18,7 @@ Filter unassigned tasks to view custom requests to match with your organization'
 
 ## Before you begin
 
--   Create resource assignments, or migrate your existing resource plans from Classic to Next Experience. For more information, see [Create resource assignments using Resource Management Workspace,](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-rmw.md)[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-pws-rmw.md), or [Migrate resource plans to resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
+-   Create resource assignments, or migrate your existing resource plans from Classic to Next Experience. For more information, see [Create resource assignments using Resource Management Workspace,](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-ra-rmw.md)[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-ra-pws-rmw.md), or [Migrate resource plans to resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
 -   Role required: resource\_user, resource\_manager
 
 ## Procedure
@@ -48,5 +48,5 @@ Filter unassigned tasks to view custom requests to match with your organization'
     \[Omitted image "rmw-rsrc-portfolio-view.png"\] Alt text: Resource board view with assigned tasks in the top tray and unassigned tasks in the bottom tray.
 
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md)
 

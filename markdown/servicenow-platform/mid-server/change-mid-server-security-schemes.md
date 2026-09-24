@@ -2,7 +2,7 @@
 title: Change MID Server configuration file security schemes
 description: A MID Server security scheme is the method the MID Server uses to protect sensitive values stored in its config.xml file \(for example, the instance password\). The scheme defines how those values are encrypted and where the encryption key is stored.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/change-mid-server-security-schemes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/change-mid-server-security-schemes.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -45,14 +45,14 @@ MID Server supports several schemes for securing sensitive data in the `config.x
     The data is re-secured or encrypted, based on the security scheme you have selected.
 
 
-**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-encrypter-api.md)
+**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-encrypter-api.md)
 
 **Related topics**  
 
 
-[Encrypt MID Server configuration data with DPAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-data-encrypt-with-dpapi.md)
+[Encrypt MID Server configuration data with DPAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-data-encrypt-with-dpapi.md)
 
-[Use CyberArk as a secure configuration provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/use-cyberark-secure-config-provider.md)
+[Use CyberArk as a secure configuration provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/use-cyberark-secure-config-provider.md)
 
-[MID Server ISecuredConfigProvider interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-secured-config-interface.md)
+[MID Server ISecuredConfigProvider interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-secured-config-interface.md)
 

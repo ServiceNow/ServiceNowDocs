@@ -2,7 +2,7 @@
 title: Application quota rule form
 description: A description of the fields on the Application Quota Rule form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/application-quota-rule-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/platform-performance/application-quota-rule-form.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -97,5 +97,5 @@ Description
 A description of the transaction quota.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
+</table>**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/platform-performance-references.md)
 

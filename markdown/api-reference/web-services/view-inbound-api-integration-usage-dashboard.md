@@ -2,7 +2,7 @@
 title: View Inbound API Integration Usage dashboard
 description: View integration request counts, data egress volume, and domain-level usage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/view-inbound-api-integration-usage-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/view-inbound-api-integration-usage-dashboard.html
 release: australia
 product: Web Services
 classification: web-services
@@ -41,5 +41,5 @@ Role required: inbound\_integration\_metering\_admin
 
 The dashboard displays metrics based on the tab and filters you selected.
 
-**Parent Topic:**[Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)
+**Parent Topic:**[Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/inbound-api-integration-usage-dashboard.md)
 

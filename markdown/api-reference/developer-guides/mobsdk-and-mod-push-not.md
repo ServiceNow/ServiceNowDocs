@@ -2,7 +2,7 @@
 title: Modify the push notification
 description: Modify the Virtual Agent Message Push Notification record to include your application. This record is used to trigger notifications to the Virtual Agent. All applications that will push notifications to the Virtual Agent must be configured in this record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-mod-push-not.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-and-mod-push-not.html
 release: australia
 product: Developer Guides
 classification: developer-guides

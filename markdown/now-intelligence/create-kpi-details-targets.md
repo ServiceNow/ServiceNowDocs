@@ -2,7 +2,7 @@
 title: Create a target in KPI Details
 description: You can set target values for indicators that apply only to specific breakdown elements and time series aggregations. The target starts to apply at a selected date and continues to apply until you set the next target. You can set a date on which you expect to reach the target, and set a new target then.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-kpi-details-targets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-kpi-details-targets.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ You can set target values for indicators that apply only to specific breakdown e
 
 Role required: pa\_target\_admin to create global targets that are visible to all users. Any user who can view an indicator on KPI Details can view targets and create personal targets. Personal targets and thresholds are visible on KPI Details only to the user that created them.
 
-A responsible user can create a global target to replace the target they are responsible for, regardless of role. For more information, see [Responsibility for indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/responsibiity-targets-kpi-details.md).
+A responsible user can create a global target to replace the target they are responsible for, regardless of role. For more information, see [Responsibility for indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/responsibiity-targets-kpi-details.md).
 
 ## Procedure
 
@@ -30,11 +30,11 @@ A responsible user can create a global target to replace the target they are res
 
     For a Data snapshots indicator, you can select multiple breakdowns. For a classic indicator, you can select up to two if a breakdown matrix is enabled on the indicator.
 
-    **Note:** To add targets for multiple breakdown elements, see [Add a target to multiple breakdown elements in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-multiple-targets.md).
+    **Note:** To add targets for multiple breakdown elements, see [Add a target to multiple breakdown elements in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-multiple-targets.md).
 
 4.  If you want the target to apply to a specific time series aggregation, select the time series.
 
-    For more information about time series aggregations, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
+    For more information about time series aggregations, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
 
 5.  Select the target icon \(\[Omitted image "target-icon.png"\] Alt text: Target icon\).
 
@@ -48,7 +48,7 @@ A responsible user can create a global target to replace the target they are res
 
     You see all the existing global or personal targets on this indicator that apply to whichever breakdown elements or time series you selected. You can select and deselect breakdown elements or a time series interactively, and the list of targets updates.
 
-    **Note:** Instead of creating a new target, you can edit one of these existing targets. Select the tile for a target to edit that target. You can only change the absolute value of the target and the start and review dates. For more sophisticated target editing, see [Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-multiple-targets.md).
+    **Note:** Instead of creating a new target, you can edit one of these existing targets. Select the tile for a target to edit that target. You can only change the absolute value of the target and the start and review dates. For more sophisticated target editing, see [Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-multiple-targets.md).
 
 8.  In the **Based on** field, select either **New value**, **Average score**, or **Previous target**.
 
@@ -99,13 +99,13 @@ Finally, you decide to put your target into effect on the beginning of the next 
 
 \[Omitted image "kpi-details-target-dates.png"\] Alt text: Create Target dialog showing start and review dates filled in.
 
-When you click **Save**, you create your target. For an example of what such a target looks like in KPI Details, see [Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md).
+When you click **Save**, you create your target. For an example of what such a target looks like in KPI Details, see [Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details-targets.md).
 
 ## What to do next
 
-After you create a global target, make yourself or another user responsible for maintaining the target. See [Responsibility for indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/responsibiity-targets-kpi-details.md).
+After you create a global target, make yourself or another user responsible for maintaining the target. See [Responsibility for indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/responsibiity-targets-kpi-details.md).
 
-**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)
+**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details-targets.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Using premium chat
 description: Premium Chat delivers a hybrid conversational experience that combines the flexibility of web-based Now Assist capabilities with the native mobile interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/using-premium-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/using-premium-chat.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-05"
@@ -57,7 +57,7 @@ Web search mode in Now Assist enables you to search the internet directly from w
 
 While active, all user queries are answered using internet search results, and a banner shows that web search mode is enabled. The identifying banner disappears after you end web search.
 
-For additional information, see [Using Now Assist web search on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-na-web-search-mobile.md).
+For additional information, see [Using Now Assist web search on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-na-web-search-mobile.md).
 
 ## Granular feedback
 
@@ -69,7 +69,7 @@ Rate Virtual Agent responses using the thumbs up or thumbs down icons. Tapping e
 
 Use your device microphone to speak your queries instead of typing with Mobile AI Voice Agent. Tap the microphone icon in the chat input field to start voice input. Your speech is transcribed and sent as a chat message.
 
-For more information, see [Using Mobile AI Voice Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-mobile-ai-voice-agent.md).
+For more information, see [Using Mobile AI Voice Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-mobile-ai-voice-agent.md).
 
 ## Additional resources
 
@@ -77,5 +77,5 @@ For more detailed information on all of standard chat’s specific skills, see [
 
 For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-now-assist-mobile.md)
 

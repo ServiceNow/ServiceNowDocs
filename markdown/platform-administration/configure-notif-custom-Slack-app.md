@@ -2,7 +2,7 @@
 title: Set up notifications for a custom Slack app
 description: Send ServiceNow notifications to users via your own Slack bot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-notif-custom-Slack-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configure-notif-custom-Slack-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ Send ServiceNow notifications to users via your own Slack bot.
 ## Before you begin
 
 -   [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md)
--   [Request the Messaging Notification plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/request-messaging-notification.md)
+-   [Request the Messaging Notification plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/request-messaging-notification.md)
 -   Create a custom application for Slack
 
 Role required: admin or messaging\_admin
@@ -67,7 +67,7 @@ Role required: admin or messaging\_admin
 
 3.  Next to the Slack listing, click **Install**.
 
-4.  On the JSON Configuration window, paste the JSON that you created in Step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-notif-custom-Slack-app.md).
+4.  On the JSON Configuration window, paste the JSON that you created in Step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-notif-custom-Slack-app.md).
 
     \[Omitted image "custom-slack-app-json.png"\] Alt text: Example JSON
 
@@ -86,9 +86,9 @@ The system creates a notification channel for your custom Slack app automaticall
 
 -   Link ServiceNow user accounts to your custom Slack app so that users can take action on notifications that are delivered by your Slack bot.
 -   For each user account that you link, enable the notification channel using the system settings.
--   Create notifications for your custom Slack app by following the steps in [Create a messaging notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-messaging-notification.md) and [Configure message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-message-content.md).
+-   Create notifications for your custom Slack app by following the steps in [Create a messaging notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-messaging-notification.md) and [Configure message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-message-content.md).
 
-**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/messaging-integration.md)
 
 **Related topics**  
 

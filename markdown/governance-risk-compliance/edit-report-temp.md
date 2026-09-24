@@ -2,7 +2,7 @@
 title: Manage Microsoft Word document templates
 description: Manage Microsoft Word document templates centrally using the Admin module in the BCM application. This feature enables you to create or edit templates for BIA, BCP, or other events, providing customized and controlled document generation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/edit-report-temp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/edit-report-temp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: sn\_bcm.admin
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields, see [Word template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/word-template-form.md).
+    For more information on the fields, see [Word template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/word-template-form.md).
 
     Microsoft Word templates provided with an instance have two categories: BCM and BIA Smart Assessment.
 

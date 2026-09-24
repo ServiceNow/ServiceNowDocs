@@ -2,7 +2,7 @@
 title: Install Accounts Payable Invoice Processing
 description: Install the Accounts Payable Invoice Processing \(sn\_ap\_apm\) application as an admin to include demo data and related ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/install-acc-pay-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/install-acc-pay-mgmt.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -36,7 +36,7 @@ The following items are installed with Accounts Payable Operations:
 -   Flows
 -   Tables
 
-For more information, see [Components installed with Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-acc-pay-mgmt.md).
+For more information, see [Components installed with Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/installed-with-acc-pay-mgmt.md).
 
 ## Procedure
 
@@ -61,10 +61,10 @@ For more information, see [Components installed with Accounts Payable Invoice Pr
 6.  Select **Install**.
 
 
--   **[Components installed with Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-acc-pay-mgmt.md)**  
+-   **[Components installed with Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/installed-with-acc-pay-mgmt.md)**  
 Reference information for the roles, flows, scheduled jobs, and tables installed with the Accounts Payable Invoice Processing plugin during activation.
 
-**Parent Topic:**[Configure Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md)
+**Parent Topic:**[Configure Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md)
 
 **Related topics**  
 

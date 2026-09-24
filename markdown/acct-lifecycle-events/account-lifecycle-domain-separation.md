@@ -2,7 +2,7 @@
 title: Domain separation and Customer Success Management
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Customer Success Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -78,7 +78,7 @@ Domain separation for Customer Success Management requires the domain separation
 -   Product Usage \(sn\_prod\_cap\_core\_prod\_usage\)
 -   Product Capability Usage \(sn\_prod\_cap\_core\_prod\_cap\_usage\)
 
-**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
+**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-reference.md)
 
 **Related topics**  
 

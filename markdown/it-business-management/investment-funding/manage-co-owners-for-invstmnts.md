@@ -2,7 +2,7 @@
 title: Manage co-owners for an investment
 description: Add co-owners to your investments to request, approve, and manage the funds on your behalf. You can remove the existing co-owners when you no longer need them to manage your investments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/manage-co-owners-for-invstmnts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/investment-funding/manage-co-owners-for-invstmnts.html
 release: australia
 product: Investment Funding
 classification: investment-funding
@@ -65,5 +65,5 @@ Steps
 4.  Click **Update**.
 
 
-**Parent Topic:**[Co-owners for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/co-owner-for-investments.md)
+**Parent Topic:**[Co-owners for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/investment-funding/co-owner-for-investments.md)
 

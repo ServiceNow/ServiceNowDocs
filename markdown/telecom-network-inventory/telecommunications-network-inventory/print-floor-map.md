@@ -2,7 +2,7 @@
 title: Print a floor map
 description: Print the entire canvas of the floor map based on your map selection in the Telecommunications Network Inventory application. You can use it as a reference to view the floor map details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/print-floor-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/print-floor-map.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -117,5 +117,5 @@ You can use your web browser to print the map or save it as a PDF.
 -   If the aspect ratio of the map is not the same as your instance, verify that the layout settings \(like page size and orientation\) of the print dialog of your browser are the same as the settings on your instance.
 -   If the map is shifted on the printed page, or the position of icons or the pin isn’t the same as your instance, set the margins in the print dialog of your browser to **None**.
 
-**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 

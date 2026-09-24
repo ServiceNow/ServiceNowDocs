@@ -2,7 +2,7 @@
 title: Supporting information for OT Manager Foundation
 description: Review language model support, user interfaces, and skill availability for the Operational Technology \(OT\) Manager Foundation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/supporting-information-for-now-assist-otm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/supporting-information-for-now-assist-otm.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -52,5 +52,5 @@ The OT CMDB search feature uses the following agentic workflow and skill:
 -   Agentic workflow for uploading, importing, and validating your OT device data with the Service Graph Connector for Microsoft Excel.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-na-otm.md)
+</table>**Parent Topic:**[Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-na-otm.md)
 

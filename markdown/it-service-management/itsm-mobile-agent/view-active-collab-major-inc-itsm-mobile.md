@@ -2,7 +2,7 @@
 title: View active collaborations
 description: As a major incident manager, you can view all the active collaborations for the major incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/view-active-collab-major-inc-itsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/view-active-collab-major-inc-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

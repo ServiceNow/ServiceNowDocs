@@ -2,7 +2,7 @@
 title: CEM email templates
 description: Various email templates are available depending on the purpose of the communication, whether it's for employees, or on-site responders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/cem-email-template-description.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/cem-email-template-description.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -26,5 +26,5 @@ Various email templates are available depending on the purpose of the communicat
 |Update Communication|Inform employees or responders about any updates throughout the emergency situation.|
 |End Emergency|Notify that the emergency has ended.|
 
-**Parent Topic:**[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/critical-event-management-reference.md)
+**Parent Topic:**[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/critical-event-management-reference.md)
 

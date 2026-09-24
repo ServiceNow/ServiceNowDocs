@@ -2,7 +2,7 @@
 title: Microsoft Azure Resource Management Spoke
 description: Azure Resource Management enables you to create, update, and delete the resources in your Microsoft Azure subscription from within ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/azure-res-mngmt-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/azure-res-mngmt-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -71,5 +71,5 @@ The Microsoft Azure Resource Management spoke provides actions to automate the r
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-res-mngmt.md).
+For information about setting up the spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-res-mngmt.md).
 

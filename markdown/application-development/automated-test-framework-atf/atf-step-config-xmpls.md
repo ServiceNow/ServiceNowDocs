@@ -2,7 +2,7 @@
 title: Examples of step config field values
 description: Examples of where the system displays values assigned to some of the step config fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-step-config-xmpls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-step-config-xmpls.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -58,5 +58,5 @@ When a step of this type is included in a test, the generated description appear
 
 \[Omitted image "atf-xmpl-template-gen.png"\] Alt text: Description generation script in test step
 
-**Parent Topic:**[Step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/step-configurations-module.md)
+**Parent Topic:**[Step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/step-configurations-module.md)
 

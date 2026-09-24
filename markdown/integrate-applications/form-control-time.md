@@ -2,7 +2,7 @@
 title: Methods and events of the Time element
 description: The Time element in RPA Desktop Design Studio enables you to provide a time picker on the form so that your user can select a specific time on the form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/form-control-time.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/form-control-time.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -90,5 +90,5 @@ The methods and events of the Time element are displayed in the Object Explorer 
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/form-control-methods-events.md)
 

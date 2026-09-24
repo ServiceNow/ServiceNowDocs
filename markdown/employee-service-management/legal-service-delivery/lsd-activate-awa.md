@@ -2,7 +2,7 @@
 title: Activate Advanced Work Assignment for Legal Service Delivery
 description: You can activate the Advanced Work Assignment for Legal Service Delivery plugin \(sn\_lg\_awa\) for Legal Service Delivery if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-activate-awa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-activate-awa.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -32,7 +32,7 @@ Role required: admin
 
 Roles are installed with Advanced Work Assignment for Legal Service Delivery:
 
-For more information, see [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md).
+For more information, see [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md).
 
 ## Procedure
 
@@ -55,5 +55,5 @@ For more information, see [Components installed for Advanced Work Assignment for
 
     **Note:** If you're using skill management, ensure you have the right subscription.
 
--   Configure live agent support for legal services. For more information, see [Configure Virtual Agent conversation topics for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/configure-legal-va.md).
+-   Configure live agent support for legal services. For more information, see [Configure Virtual Agent conversation topics for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/configure-legal-va.md).
 

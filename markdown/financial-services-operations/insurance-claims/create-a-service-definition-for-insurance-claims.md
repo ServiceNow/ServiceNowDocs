@@ -2,7 +2,7 @@
 title: Create a service definition for Insurance claims
 description: Create a service definition for each claim type in your Insurance claims workflow. You can also create a service definition to generate adjuster tasks in the workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-a-service-definition-for-insurance-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/create-a-service-definition-for-insurance-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -28,7 +28,7 @@ A service definition describes a service that your workflow offers to support a 
 
 Create an adjuster task service definition for each incident type to ensure clear categorization and efficient task management in Insurance claims.
 
-The service definition for the claim type and the adjuster service definition are both used in the Claim Incident Configuration \[sn\_ins\_claim\_incident\_config\] table as part of configuring your workflow. For more information, see [Claim Incident Configuration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/claim-incident-configuration-table.md).
+The service definition for the claim type and the adjuster service definition are both used in the Claim Incident Configuration \[sn\_ins\_claim\_incident\_config\] table as part of configuring your workflow. For more information, see [Claim Incident Configuration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/claim-incident-configuration-table.md).
 
 ## Procedure
 
@@ -67,5 +67,5 @@ The service definition for the claim type and the adjuster service definition ar
     \[Omitted image "create-service-definition-example.png"\] Alt text: Service definition for a travel claim with a service category relationship.
 
 
-**Parent Topic:**[Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md)
+**Parent Topic:**[Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md)
 

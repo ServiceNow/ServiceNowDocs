@@ -2,12 +2,12 @@
 title: Project scheduling in Project Management
 description: Define how tasks are sequenced, timed, and connected to determine when a project starts and finishes with Project scheduling. Project scheduling calculates task start and finish dates based on the project start date, task dependencies, constraints, and task duration in forward scheduling mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-schedules-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/project-schedules-tasks.html
 release: australia
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 7
 keywords: [project scheduling, task constraints, forward scheduling, task dependencies, start date scheduling]
 breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
@@ -108,7 +108,7 @@ Other scheduling elements interact with constraints:
 -   Critical path: Identifies the sequence of tasks that determines the project finish date.
 -   Project calendars: Define working and nonworking time for the entire project, affecting all task scheduling calculations.
 
-**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 

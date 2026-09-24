@@ -2,7 +2,7 @@
 title: Using AI Agents with ServiceNow Otto for Employee Experience
 description: Use AI Agents with the Now Assist for Virtual Agent in the Employee Center for users to have a seamless agent-like conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/using-ai-agent-in-now-assist-for-empexp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/using-ai-agent-in-now-assist-for-empexp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

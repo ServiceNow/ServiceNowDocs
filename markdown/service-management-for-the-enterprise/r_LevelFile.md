@@ -2,7 +2,7 @@
 title: Level geometry file
 description: The level geometry file contains all the geometry for a given level. Each file is one map that can be rendered in the ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_LevelFile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_LevelFile.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -90,8 +90,8 @@ The main component of the level file is an array of features, and looks like:
     -   If any default icons are assigned to a space
     -   If any default colors are assigned to the map
 
--   **[Valid classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_ValidClasses.md)**  
+-   **[Valid classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_ValidClasses.md)**  
 There are certain classes and class types that are valid for the level geometry file.
 
-**Parent Topic:**[GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_GeoJSONMapFiles.md)
+**Parent Topic:**[GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_GeoJSONMapFiles.md)
 

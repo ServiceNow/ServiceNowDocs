@@ -2,7 +2,7 @@
 title: Run an automation using Unattended Robot
 description: Run an unattended robot to execute the unattended automations that are triggered either by a schedule, API, or manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/run-rpa-robot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/run-rpa-robot.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,30 +16,30 @@ Run an unattended robot to execute the unattended automations that are triggered
 
 ## Before you begin
 
-Create a package. For more information, see [Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-package.md).
+Create a package. For more information, see [Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-package.md).
 
-Create a robot. For more information, see [Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robots-rpa-hub.md).
+Create a robot. For more information, see [Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/robots-rpa-hub.md).
 
-Create a bot process. Select the **Process Type** field as **Unattended** on the Bot process form, while you’re creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md) and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Create a bot process. Select the **Process Type** field as **Unattended** on the Bot process form, while you’re creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md) and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/select-botprocess.md).
 
 Ensure that the following conditions are met to execute a robot:
 
 -   The life cycle stage status of the associated bot process must be **Published**.
 -   The life cycle stage status of the executing robot must be **In-Use**.
 
-\(Optional\) To run your bot process on regular intervals, create a schedule within a bot process. For more information, see [Create a schedule within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-schedule-botprocess.md).
+\(Optional\) To run your bot process on regular intervals, create a schedule within a bot process. For more information, see [Create a schedule within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-schedule-botprocess.md).
 
-Create a credential group and assign it to a bot process. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-group.md) and [Associate a credential group to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/map-credential-groups-to-bot-process.md).
+Create a credential group and assign it to a bot process. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-credential-group.md) and [Associate a credential group to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/map-credential-groups-to-bot-process.md).
 
-Assign a robot to a bot process. For more information, see [Assign a robot to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-robots.md).
+Assign a robot to a bot process. For more information, see [Assign a robot to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/assign-robots.md).
 
-Assign a process robot credential within a bot process. For more information, see [Assign a process robot credential within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-process-robot-cred-botprocess.md).
+Assign a process robot credential within a bot process. For more information, see [Assign a process robot credential within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/assign-process-robot-cred-botprocess.md).
 
-Ensure that the licenses are available. For more information, see [Robot license distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/license-rpa-hub.md).
+Ensure that the licenses are available. For more information, see [Robot license distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/license-rpa-hub.md).
 
-Establish a connection between a robot and ServiceNow RPA Hub instance. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-runtime.md).
+Establish a connection between a robot and ServiceNow RPA Hub instance. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/set-up-rpa-runtime.md).
 
-\(Optional\) Create a process parameter within a bot process. For more information, see [Create a process parameter within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-process-parameter-botprocess.md).
+\(Optional\) Create a process parameter within a bot process. For more information, see [Create a process parameter within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-process-parameter-botprocess.md).
 
 Role required: sn\_rpa\_fdn.rpa\_robot and snc\_internal
 
@@ -47,7 +47,7 @@ Role required: sn\_rpa\_fdn.rpa\_robot and snc\_internal
 
 ## About this task
 
-You can also start an unattended bot process manually from the RPA Hub. For more information, see [Start an unattended bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/start-bot-process.md).
+You can also start an unattended bot process manually from the RPA Hub. For more information, see [Start an unattended bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/start-bot-process.md).
 
 In this task, you can run an unattended robot in two ways.
 
@@ -55,43 +55,43 @@ In this task, you can run an unattended robot in two ways.
 
 1.  To run an unattended robot, do any one of the following actions.
 
-<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d225750e264">
+<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d225732e264">
 
 Option
 
-</th><th align="left" id="d225750e267">
+</th><th align="left" id="d225732e267">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d225750e273">
+</th></tr></thead><tbody><tr><td id="d225732e273">
 
 **Based on the schedule you define in the bot process**
 
 </td><td>
 
-1.  Connect with a robot to execute the bot process. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-runtime.md).
-2.  Review the schedule within a bot process. For more information, see [Create a schedule within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-schedule-botprocess.md).
+1.  Connect with a robot to execute the bot process. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/set-up-rpa-runtime.md).
+2.  Review the schedule within a bot process. For more information, see [Create a schedule within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-schedule-botprocess.md).
 
 The Unattended Robot runs the execution based on the schedule defined.
 
- For more information about the scheduled and manual triggers, see [Execution priority of bot processes in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/bot-process-prioritization-order-rpa-hub.md).
+ For more information about the scheduled and manual triggers, see [Execution priority of bot processes in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/bot-process-prioritization-order-rpa-hub.md).
 
-</td></tr><tr><td id="d225750e332">
+</td></tr><tr><td id="d225732e332">
 
 **Based on the API via Start Process subflow**
 
 </td><td>
 
-Review the Start Process subflow in Workflow Studio. For more information, see [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-actions.md).The Unattended Robot runs the execution based on the subflow that triggers the Start Process in Workflow Studio.
+Review the Start Process subflow in Workflow Studio. For more information, see [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-actions.md).The Unattended Robot runs the execution based on the subflow that triggers the Start Process in Workflow Studio.
 
 </td></tr></tbody>
-</table>    **Important:** A process job record gets created as soon as the unattended robot starts initiating the bot process in the robot machine. The **Message** field is updated during the different stages of the process that provides insight and visibility regarding the status of your bot process. For more information on the different fields of a process job record, see [Process job form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-process-jobs-botprocess.md).
+</table>    **Important:** A process job record gets created as soon as the unattended robot starts initiating the bot process in the robot machine. The **Message** field is updated during the different stages of the process that provides insight and visibility regarding the status of your bot process. For more information on the different fields of a process job record, see [Process job form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-process-jobs-botprocess.md).
 
 
-**Parent Topic:**[Using Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/using-rpa-runtime.md)
+**Parent Topic:**[Using Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/using-rpa-runtime.md)
 
 **Related topics**  
 
 
-[Open Service and Runtime logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/open-logs-rpa-studio.md)
+[Open Service and Runtime logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/open-logs-rpa-studio.md)
 

@@ -2,7 +2,7 @@
 title: Monetary benefit plan form
 description: The benefit plan form enables you to create monetary benefit plans for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/monetary-benefit-plan-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/monetary-benefit-plan-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -150,7 +150,7 @@ Entered currency
 
 </td><td>
 
-Currency for the benefit plan. If the selected currency differs from the default currency configured in the Financial Management application, the budget reference rate is used to calculate the financial benefit of the demand. For more information, refer to [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md).
+Currency for the benefit plan. If the selected currency differs from the default currency configured in the Financial Management application, the budget reference rate is used to calculate the financial benefit of the demand. For more information, refer to [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md).
 
 </td></tr><tr><td>
 

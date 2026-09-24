@@ -2,7 +2,7 @@
 title: AI Agent Advisor release notes
 description: The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/ai-agent-advisor-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/ai-agent-advisor-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-07"
@@ -17,24 +17,24 @@ The ServiceNow® AI Agent Advisor application is an AI solution that automatical
 
 ## About AI Agent Advisor
 
-[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-6.md)
+Australia Patch 6
 
 -   Use the automation opportunities enhancements to refine your view and identify opportunities.
 -   Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   Choose from base system and pre-generated AI agents in AI Agent Studio to automate solutions to common issues.
 -   Analyze the custom tables and fields in your instance to find automation opportunities.
 -   Generate and edit AI agents through the AI Admin Center conversational experience.
 -   View automation opportunities as insights in AI Control Tower.
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Discover and take action on automation opportunities for Customer Service Management \(CSM\) using interaction data from chat, voice, and email channels.
 -   Match chat and voice agents along with existing agents and tools from a unified agent registry.
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
 
 -   Let AI analyze the CSM cases and ITSM incident records in your instance data and tell you exactly where automation will have the biggest impact.
 -   Match your automation opportunities to existing AI agents and automate the creation and deployment of new agents.
@@ -57,7 +57,7 @@ See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     AI Agent Advisor supports machine translation for Australia. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## September 2026
 
@@ -69,7 +69,7 @@ The ServiceNow® AI Agent Advisor application is an AI solution that automatical
 
     Use the automation opportunities enhancements to refine your view and identify opportunities. The automation opportunities list shows quick-select filters. The Resolution steps page for an automation opportunity is enhanced to show matched opportunities for default AI agents, agent status, and tooltips with links.
 
--   **Delete custom data set analysis**
+-   **[Delete custom data set analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-delete-data-source.md)**
 
     Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
 
@@ -114,7 +114,7 @@ The ServiceNow® AI Agent Advisor application is an AI solution that automatical
 
 ### What's new
 
--   **[CSM automation opportunities from chat, voice, and email data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-ai-agent-advisor.md)**
+-   **CSM automation opportunities from chat, voice, and email data**
 
     Discover automation opportunities for CSM AI deployment by using AI Agent Advisor to analyze interaction data from chat, voice, and email channels. Match or generate channel-specific AI agents to implement the automation opportunities.
 
@@ -141,7 +141,7 @@ The ServiceNow® AI Agent Advisor application is an AI solution that automatical
     -   Foundation: AI agents and skills to deliver insights
     -   Advanced: AI agents and skills to boost productivity across relevant use cases
     -   Prime: Act autonomously with all AI agents and skills, and create your own
--   **[Automation discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)**
+-   **Automation discovery with AI Agent Advisor**
 
     Use AI Agent Advisor to analyze actual instance data, identify automation opportunities, and view proposed AI automations.
 

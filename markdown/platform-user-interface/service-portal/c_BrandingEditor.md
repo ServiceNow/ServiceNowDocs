@@ -2,7 +2,7 @@
 title: Configure portal branding
 description: Use Branding Editor to give your portal its own look and feel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/c\_BrandingEditor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/c\_BrandingEditor.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -120,5 +120,5 @@ Upload an image to appear in the background of your homepage. This image is stor
 
 Changes made to the theme colors in the Branding Editor appear in the CSS variables field of the portal form in the platform UI.
 
-**Parent Topic:**[Defining portal styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/portal-css.md)
+**Parent Topic:**[Defining portal styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/portal-css.md)
 

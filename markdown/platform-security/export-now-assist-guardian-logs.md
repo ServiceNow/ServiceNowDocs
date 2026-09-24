@@ -2,7 +2,7 @@
 title: Export AI Guardian logs
 description: Export logs from AI Guardian to get insights into how often different guardrails are being detected and used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/export-now-assist-guardian-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/export-now-assist-guardian-logs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +23,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 AI Guardian logs all three types of guardrails available. Reviewing the logs can help you determine how often offensive content is generated, prompt injection attack attempts occur, or sensitive topics are detected.
 
-See [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md) for more information.
+See [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-guardian.md) for more information.
 
 ## Procedure
 
@@ -33,15 +33,15 @@ See [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
 3.  Export logs for the guardrail.
 
-<table><thead><tr><th align="left" id="d231973e136">
+<table><thead><tr><th align="left" id="d231359e136">
 
 Option
 
-</th><th align="left" id="d231973e139">
+</th><th align="left" id="d231359e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d231973e145">
+</th></tr></thead><tbody><tr><td id="d231359e145">
 
 **Export offensive content detection logs**
 
@@ -51,7 +51,7 @@ Description
 2.  In the **Active** tab, select the workflow you want to export logs for, and then select **Export**.
 
 
-</td></tr><tr><td id="d231973e178">
+</td></tr><tr><td id="d231359e178">
 
 **Export Prompt injection logs**
 
@@ -61,7 +61,7 @@ Description
 2.  Select **Export Log**.
 
 
-</td></tr><tr><td id="d231973e208">
+</td></tr><tr><td id="d231359e208">
 
 **Export sensitive topic logs**
 
@@ -81,5 +81,5 @@ The log is exported as a .csv file to your computer.
 
 If you do not see any log data, then it is most likely that the guardrail has not been triggered yet. If you believe you should be seeing data but aren't, reach out to Now Support.
 
-**Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
+**Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-guardian.md)
 

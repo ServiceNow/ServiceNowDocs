@@ -2,7 +2,7 @@
 title: Configure Service Exchange ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application so that enterprise providers can use the Service Exchange Mapping Assist feature in the Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring-servicebridge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring-servicebridge.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Install the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
     -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Features** and access the **Features** tab of the console.
 

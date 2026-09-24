@@ -2,7 +2,7 @@
 title: Configure Business and Consumer Portal
 description: Configure the business and consumer portal to provide information and support for your customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -44,7 +44,7 @@ You can add additional self-service capabilities such as order management by ins
 -   The Business Portal Store app is automatically installed when you install the Customer Service Portal store app \(from version 24.0.0 and above\).
 -   The Consumer Portal Store app is automatically installed when you install the Consumer Portal store app \(from version 24.0.0 and above\).
 
-For details, see [Activate the Consumer and Customer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-consumer-portal.md).
+For details, see [Activate the Consumer and Customer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-consumer-portal.md).
 
 ## Procedure
 

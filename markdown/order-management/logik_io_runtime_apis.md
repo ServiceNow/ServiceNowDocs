@@ -2,7 +2,7 @@
 title: Runtime APIs
 description: CPQ provides a set of APIs for building front-end applications and manipulating configurations. These are commonly referred to as buyside or runtime APIs and are used by customers or end users to create, update and save CPQ configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io\_runtime\_apis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/logik\_io\_runtime\_apis.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -370,7 +370,7 @@ Saving a configuration is a subset of the update configuration. It requires a co
 
 If you are using Salesforce as a backend, when the save API is called, CPQ asynchronously creates and populates the CPQ custom objects Configuration Field Data Sets and Configuration Line Items with the appropriate data.
 
-If your CPQ instance has a webhook configured, when the save API is called, the data is sent to the endpoint specified in the webhook setting. See [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-webhooks.md).
+If your CPQ instance has a webhook configured, when the save API is called, the data is sent to the endpoint specified in the webhook setting. See [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-webhooks.md).
 
 **Note:** This ends the configuration session. Further edits or updates to the configuration must be started from the create configuration or reconfigure API calls.
 
@@ -608,5 +608,5 @@ N/A
     ]}
 ```
 
-For information about additional configuration APIs and sample scenarios, see [Additional configuration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io_additional_configuration_apis.md).
+For information about additional configuration APIs and sample scenarios, see [Additional configuration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/logik_io_additional_configuration_apis.md).
 

@@ -2,7 +2,7 @@
 title: Use Agent assist to view associated claims
 description: View the associated claims and relevant knowledge articles by using the Agent assist contextual search. You can find related information on your Individual Life Claims case to assist in understanding and completing your case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/agent-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/agent-assist.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

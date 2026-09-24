@@ -2,7 +2,7 @@
 title: Add and build contract terms and conditions in Core UI
 description: Add and build terms and condition when a contract is in the Awaiting Review, Rejected, or Renewal Rejected substate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/lease-add-terms-and-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/lease-add-terms-and-conditions.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -49,5 +49,5 @@ Role required: sn\_wsd\_la.manager or sn\_wsd\_la.admin
     All records from the Terms and Conditions related list are added to the **Terms and Conditions** section of the contract record. The terms and conditions records are built in the sequence specified in the **Order** field.
 
 
-**Parent Topic:**[Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
 

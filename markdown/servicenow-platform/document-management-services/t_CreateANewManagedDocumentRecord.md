@@ -2,7 +2,7 @@
 title: Create a new managed document record
 description: Configure the properties and policies for a managed document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_CreateANewManagedDocumentRecord.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/t\_CreateANewManagedDocumentRecord.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -49,5 +49,5 @@ Role required: document\_management\_user
 10. Click **Submit**.
 
 
-**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
+**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/c_ManagedDocuments.md)
 

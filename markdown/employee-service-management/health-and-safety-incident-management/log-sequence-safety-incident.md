@@ -2,7 +2,7 @@
 title: Add hazards and log sequence of events for a safety incident
 description: Add hazards and log a sequence of events for a safety incident as part of its investigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/log-sequence-safety-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-incident-management/log-sequence-safety-incident.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -59,5 +59,5 @@ The logged events appear in the Sequence of events section in the **Incident Ove
 
 Add people involved in the incident such as injured person, witnesses, and collaborators.
 
-**Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
+**Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
 

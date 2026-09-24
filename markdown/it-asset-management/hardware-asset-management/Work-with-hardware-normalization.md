@@ -2,7 +2,7 @@
 title: Work with hardware normalization
 description: Asset Management Hardware Model Normalization enables users to normalize the details, such as manufacturer, product, model, and device type, of your hardware and consumable models. Data from the models is compared against the data in the Hardware Model Normalization Content Service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -39,24 +39,24 @@ The following reports are included.
 -   Hardware Model Normalization Status
 -   Consumable Model Normalization Status
 
--   **[Opt-in to the Hardware Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/opt-in-hardware-normalization.md)**  
+-   **[Opt-in to the Hardware Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/opt-in-hardware-normalization.md)**  
 Opt in to the Hardware Asset Management Content Service to improve the normalization process by sharing hardware and consumable model data from your organization with ServiceNow.
--   **[Import and export content data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/import-export-ham.md)**  
+-   **[Import and export content data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/import-export-ham.md)**  
 Import content data from or export content data to the Hardware Asset Management content library service to support hardware normalization of asset models. On-premise users can import or export data via a zip file using the Manage Hardware Library module.
--   **[Create a hardware or consumable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md)**  
+-   **[Create a hardware or consumable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md)**  
 To begin tracking your hardware and consumable assets, create a hardware or consumable model. Then, add lifecycle information to keep track of the lifecycle phase of your model.
--   **[Copy a hardware model from the Content lookup portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/copy-hardware-model.md)**  
+-   **[Copy a hardware model from the Content lookup portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/copy-hardware-model.md)**  
 Copy a hardware model record from the Content lookup portal to add a new model entry to the Product Model \[cmdb\_model\] table.
--   **[Normalize hardware and consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.md)**  
+-   **[Normalize hardware and consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.md)**  
 After you have created your hardware and consumable models, normalize the information of the model.
--   **[Revert normalization of hardware and consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/revert-norm-ham.md)**  
+-   **[Revert normalization of hardware and consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/revert-norm-ham.md)**  
 Revert the normalization of hardware and consumable models in the Hardware Asset Workspace.
--   **[Add a custom product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/add-custom-hardware-model.md)**  
+-   **[Add a custom product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/add-custom-hardware-model.md)**  
 If you have a product that is not represented in the Asset Management Content Service yet, you can create a custom product.
--   **[Add a custom hardware model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/add-custom-model.md)**  
+-   **[Add a custom hardware model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/add-custom-model.md)**  
 If you have a hardware model that isn't represented in the Asset Management Content Service yet, you can create a custom model.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
@@ -129,5 +129,5 @@ If you have a hardware model that isn't represented in the Asset Management Cont
 
 [Update associated Decision tables for HAM flows]()
 
-[Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-normalization.md)
+[Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/hardware-normalization.md)
 

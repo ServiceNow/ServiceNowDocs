@@ -2,7 +2,7 @@
 title: Set up the SAP ECC IDoc spoke
 description: Integrate the ServiceNow instance and SAP ECC IDoc spoke by using the Basic Auth credentials to authenticate ServiceNow requests.Configure MID Server using the SAP proprietary JAR files to integrate SAP ECC IDoc account with your ServiceNow instance.Create a credential record for the SAP ECC IDoc account. The SAP ECC IDoc spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your SAP ECC IDoc account. The SAP ECC IDoc spoke connection and credential aliases use these connections to perform actions in SAP ECC IDoc.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sap-ecc-idoc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-sap-ecc-idoc.html
 release: australia
 product: Integration Hub
 classification: integration-hub

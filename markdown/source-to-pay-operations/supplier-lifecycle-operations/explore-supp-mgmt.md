@@ -2,7 +2,7 @@
 title: Explore Supplier Lifecycle Operations
 description: Use ServiceNow Supplier Lifecycle Operations to empower suppliers with self-service to simplify operations and improve productivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/explore-supp-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/explore-supp-mgmt.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -33,11 +33,11 @@ Supplier Lifecycle Operations provides the following benefits:
 -   Manage supplier relationship and performance: Monitor and assess supplier performance by setting up criteria for measuring supplier performance though KPIs and thresholds.
 -   Many-to-many \(M2M\) mapping between supplier contact and suppliers: A single supplier contact can be the contact for multiple suppliers, if those suppliers share a parent-subsidiary relationship.
 
-    **Important:** M2M mapping between supplier contact and suppliers is available from the Xanadu December 2024 release onwards. To enable M2M mapping, see [Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md).
+    **Important:** M2M mapping between supplier contact and suppliers is available from the Xanadu December 2024 release onwards. To enable M2M mapping, see [Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md).
 
 -   Supplier payment optimization: Supplier managers can view the potential returns or savings when a supplier accepts commercial credit card payments. They can convert high-potential suppliers, and capture value through card-based payments.
 
-For more information about installing and configuring Supplier Lifecycle Operations, see [Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md).
+For more information about installing and configuring Supplier Lifecycle Operations, see [Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md).
 
 ## Supplier Lifecycle Operations applications
 
@@ -53,7 +53,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
+[Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
 
 </td><td>
 
@@ -61,7 +61,7 @@ The application includes demo data and installs related ServiceNow® Store appli
 
 </td></tr><tr><td>
 
-[Supplier Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-common.md)
+[Supplier Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-common.md)
 
 </td><td>
 
@@ -69,7 +69,7 @@ Provides a common architecture to track data objects related to a supplier used 
 
 </td></tr><tr><td>
 
-[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.md)
+[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.md)
 
 </td><td>
 
@@ -77,7 +77,7 @@ Enables you to centralize supplier information and collaborate with suppliers to
 
 </td></tr><tr><td>
 
-[Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-central.md)
+[Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-central.md)
 
 </td><td>
 
@@ -85,7 +85,7 @@ Provides a single, one-stop experience for suppliers to get self-service, comple
 
 </td></tr><tr><td>
 
-[Supplier Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-operations.md)
+[Supplier Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-operations.md)
 
 </td><td>
 
@@ -93,7 +93,7 @@ Provides advanced case management capabilities to handle key supplier lifecycle 
 
 </td></tr><tr><td>
 
-[Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-performance-management-overview.md)
+[Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-performance-management-overview.md)
 
 </td><td>
 
@@ -101,7 +101,7 @@ Enables you to establish clear expectations and criteria for measuring supplier 
 
 </td></tr><tr><td>
 
-[Supplier Payment Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-pmnt-opt.md)
+[Supplier Payment Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-pmnt-opt.md)
 
 </td><td>
 
@@ -109,7 +109,7 @@ Enables supplier managers to view the potential returns or savings when supplier
 
 </td></tr><tr><td>
 
-[Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-awa.md)
+[Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-awa.md)
 
 </td><td>
 
@@ -125,7 +125,7 @@ Provides an integration with the Third-party Risk Management \(TPRM\) applicatio
 
 </td></tr><tr><td>
 
-[News Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-news-integration.md)
+[News Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-news-integration.md)
 
 </td><td>
 
@@ -133,7 +133,7 @@ Retrieve recent news and other articles from preferred news channels. There’s 
 
 </td></tr><tr><td>
 
-[Craft.co Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/craft-integration.md)
+[Craft.co Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/craft-integration.md)
 
 </td><td>
 
@@ -141,7 +141,7 @@ Provides a preconfigured integration with Craft.co. Craft.co is a supplier intel
 
 </td></tr><tr><td>
 
-[Relish Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.md)
+[Relish Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Run response actions on multiple alerts in Express List
 description: Run response actions to efficiently remediate and respond to issues on multiple alerts directly from the Express List pane.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/bulk-alert-response-express-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/bulk-alert-response-express-list.html
 release: australia
 product: Event Management
 classification: event-management

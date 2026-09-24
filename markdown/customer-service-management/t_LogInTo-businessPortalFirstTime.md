@@ -2,7 +2,7 @@
 title: Log in to the Business Portal for the first time
 description: Use your user ID and temporary password to login to the business portal for the first time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_LogInTo-businessPortalFirstTime.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_LogInTo-businessPortalFirstTime.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,7 +46,7 @@ After a registration request is approved, the customer contact receives an email
 **Related topics**  
 
 
-[Submit a self-registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_Submit-businessPortal-SelfRegRequest.md)
+[Submit a self-registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_Submit-businessPortal-SelfRegRequest.md)
 
-[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_RequestPasswordReset-businessportal.md)
+[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_RequestPasswordReset-businessportal.md)
 

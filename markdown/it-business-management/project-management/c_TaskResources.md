@@ -2,7 +2,7 @@
 title: Task resources
 description: Resources are the individuals or groups assigned to perform tasks and subtasks in Project Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_TaskResources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/c\_TaskResources.html
 release: australia
 product: Project Management
 classification: project-management
@@ -16,9 +16,9 @@ breadcrumb: [Basics of Project Management, Exploring Project Management, Project
 
 Resources are the individuals or groups assigned to perform tasks and subtasks in Project Management.
 
-You can use Resource Management to [set up resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md), which can be associated with projects. Activate [Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md) to use Resource Management with Project Management.
+You can use Resource Management to [set up resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md), which can be associated with projects. Activate [Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md) to use Resource Management with Project Management.
 
-**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
@@ -47,7 +47,7 @@ You can use Resource Management to [set up resource plans](https://raw.githubuse
 
 [Project scheduling in Project Management]()
 
-[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceManagement.md)
+[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourceManagement.md)
 
-[Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-wrkspc.md)
+[Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-mgmt-wrkspc.md)
 

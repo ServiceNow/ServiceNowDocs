@@ -2,7 +2,7 @@
 title: Make a visitor registration
 description: Pre-plan your visitor or off-site colleagues visit. Specify their visit details like date, time, location, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/register-a-guest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/register-a-guest.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -248,7 +248,7 @@ Your visitor registration is submitted and you can view your requests. The detai
 
 **Note:** For Workplace Visitor Management version 2.0.0 or later, visitor emails include the full address of the campus and building locations along with time-zone based date and time.
 
-If any visitor policies are applicable for the visit, the email sent to the visitor contains options to accept or decline the policies. If the visitor declines the policies in the email, they can still accept them while checking in through the Workplace Services Kiosk. For more information about the kiosk check-in process, see [Check in using an invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/visitor-check-in.md).
+If any visitor policies are applicable for the visit, the email sent to the visitor contains options to accept or decline the policies. If the visitor declines the policies in the email, they can still accept them while checking in through the Workplace Services Kiosk. For more information about the kiosk check-in process, see [Check in using an invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/visitor-check-in.md).
 
 **Warning:** In Workplace Visitor Management version 2.0.0 or later, the accept and decline policy buttons have been removed from visitor emails. Visitors can acknowledge policies on the visitor portal, or during the check-in process on a kiosk.
 
@@ -263,7 +263,7 @@ You can check the details of your request. You can also edit or cancel the reque
 -   On the request details screen, you can cancel a request by selecting **Cancel Request**.
 -   You can search for registered visitors in the **Visitors list** using the search option.
 
-**Parent Topic:**[Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/registerring-a-visitor.md)
+**Parent Topic:**[Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/registerring-a-visitor.md)
 
 **Related topics**  
 

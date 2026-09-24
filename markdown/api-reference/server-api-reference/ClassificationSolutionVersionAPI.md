@@ -2,7 +2,7 @@
 title: ClassificationSolutionVersion - Global
 description: The ClassificationSolutionVersion API is a scriptable object used in Predictive Intelligence stores.Calculates solution precision and coverage.Gets estimated precision, estimated coverage, estimated recall values from the ML Solutions \[ml\_solution\] table and records from the Class Confidence \[ml\_class\] table.Gets solution object properties and version number.Gets training completion status.Gets all the training statistics for a given solution.Gets the version number of a solution object.Gets the input data for a prediction.Sets precision, coverage, or recall values at solution level or class level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ClassificationSolutionVersionAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/ClassificationSolutionVersionAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,18 +18,18 @@ The ClassificationSolutionVersion API is a scriptable object used in Predictive 
 
 This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-This API is used for working with solution versions based on [ClassificationSolution API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md) objects in the [ClassificationSolution store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md).
+This API is used for working with solution versions based on [ClassificationSolution API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionAPI.md) objects in the [ClassificationSolution store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md).
 
 The system creates a solution version each time you train a solution definition. Most versions are created during scheduled solution training.
 
-Methods in this API are accessible using the following [ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md) methods:
+Methods in this API are accessible using the following [ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionAPI.md) methods:
 
--   [getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
--   [getAllVersions\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
--   [getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
--   [getVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+-   [getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+-   [getAllVersions\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+-   [getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+-   [getVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionAPI.md)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## ClassificationSolutionVersion - getPredictionPerformance\(Object options\)
 
@@ -299,7 +299,7 @@ Object
 
 </td><td>
 
-Contents of the Dataset and [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md) version details. Results vary by object property setup.```
+Contents of the Dataset and [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionAPI.md) version details. Results vary by object property setup.```
 {
   "algorithmConfig": {
     "algorithm": "String",
@@ -358,7 +358,7 @@ Class recall parameter to steer a solution's training to bias a specific class. 
 
 </td><td>
 
-Lists the properties of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) object associated with the solution.
+Lists the properties of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DatasetDefinitionAPI.md) object associated with the solution.
 
  Data type: Object
 
@@ -442,7 +442,7 @@ Domain name associated with this dataset. See [Domain separation and Predictive 
 
 </td><td>
 
-Encoder object assigned to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md).Data type: Object
+Encoder object assigned to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md).Data type: Object
 
 </td></tr><tr><td>
 
@@ -640,7 +640,7 @@ Object
 
 </td><td>
 
-JavaScript object containing training status information for a [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md) object.```
+JavaScript object containing training status information for a [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionAPI.md) object.```
 {
   "state": "String",
   "percentComplete": "Number as a String",
@@ -1000,7 +1000,7 @@ Object
 
 </td><td>
 
-[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) or array of JSON objects containing field names and values as key-value pairs.
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordAPI.md) or array of JSON objects containing field names and values as key-value pairs.
 
 </td></tr><tr><td>
 
@@ -1304,7 +1304,7 @@ String
 
 </td><td>
 
-Optional. Name of the class to restrict results to. Use the [getTrainingStatistics\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md) method to retrieve a complete list of classes for a solution.
+Optional. Name of the class to restrict results to. Use the [getTrainingStatistics\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md) method to retrieve a complete list of classes for a solution.
 
 </td></tr></tbody>
 </table>|Type|Description|

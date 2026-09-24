@@ -2,7 +2,7 @@
 title: Invoice Line form tabs
 description: Tab descriptions for the Invoice Line form, including details, exceptions, and goods receipts. Use this reference when reviewing or completing invoice line records in Accounts Payable Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-line-form-related-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-line-form-related-list.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,5 +23,5 @@ Tab descriptions for the Invoice Line form, including details, exceptions, and g
 |Exceptions|A list of exceptions on the invoice line.|
 |Receipts|Goods receipts for the purchase order line corresponding to the invoice line. This tab is shown only for the invoice of type **PO Invoice**.|
 
-**Parent Topic:**[Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md)
+**Parent Topic:**[Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md)
 

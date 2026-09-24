@@ -2,14 +2,14 @@
 title: Add a playbook as an MCP tool
 description: Create a tool in the MCP Server Console and expose it in an MCP server so that MCP clients can invoke the playbook through the MCP.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-playbook-as-mcp-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/add-playbook-as-mcp-tool.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-07-23"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbooks as an MCP tool, Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -21,7 +21,7 @@ Create a tool in the MCP Server Console and expose it in an MCP server so that M
 
 Make sure you have an existing MCP server to which you want to add the playbook as a tool. For more information, see [Create an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-mcp-server.md)
 
-Create or update existing playbooks to make sure that they are compatible for exposing as an MCP tool. For more information, see [Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-as-mcp-tool.md).
+Create or update existing playbooks to make sure that they are compatible for exposing as an MCP tool. For more information, see [Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-as-mcp-tool.md).
 
 Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
@@ -60,5 +60,5 @@ Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
 Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
 
-**Parent Topic:**[Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-as-mcp-tool.md)
+**Parent Topic:**[Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-as-mcp-tool.md)
 

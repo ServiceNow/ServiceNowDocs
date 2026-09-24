@@ -2,7 +2,7 @@
 title: Create a task template for common task requests
 description: If you have tasks that are often repeated across multiple jobs, you can create and reuse a task template in multiple request templates. You can also use it on a Work order request to pull common and repeatable information into a request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_UseTaskTempForMultReqTemp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_UseTaskTempForMultReqTemp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -65,7 +65,7 @@ With request tasks, work order tasks are not required, though they can be used. 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacRequestTasks.md)
+**Parent Topic:**[Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacRequestTasks.md)
 
-**Parent Topic:**[Request task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_RequestTasksMgmt.md)
+**Parent Topic:**[Request task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_RequestTasksMgmt.md)
 

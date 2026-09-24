@@ -2,7 +2,7 @@
 title: View and complete smart assessments in workspace
 description: Technicians can use the configurable workspace to view, complete, and submit questionnaires partially completed in the mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/viewing-smart-assessments-in-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/viewing-smart-assessments-in-workspace.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,7 +2,7 @@
 title: Apply quick filters on Security Incidents and Response Tasks lists
 description: Apply the predefined quick filters on Security Incidents and Response Tasks lists to get the desired work items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/use-quick-filters-for-security-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/use-quick-filters-for-security-incidents.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -51,7 +51,7 @@ Role required: sn\_si.analyst
     Selected filters are displayed in the Quick Filters pane. This configuration persists for a security analyst.
 
 
-**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 

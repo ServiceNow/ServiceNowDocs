@@ -2,7 +2,7 @@
 title: Cross-project library elements
 description: Library elements are single artifacts or trees of artifacts that you can reuse in multiple projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/cross-project-artifact-libraries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/cross-project-artifact-libraries.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -24,12 +24,12 @@ You can drag a library element into a KPI Tree from the **Library Elements** men
 
 \[Omitted image "kpi-comp-library-elements.png"\] Alt text: Library Elements list.
 
--   **[Create a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-library-element.md)**  
+-   **[Create a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-library-element.md)**  
 Convert an artifact and its children in a KPI tree into a KPI Composer cross-project library element.
--   **[Use a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/use-library-element.md)**  
+-   **[Use a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/use-library-element.md)**  
 Add a library element to a KPI tree in any KPI Composer project.
--   **[Edit or delete a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/edit-library-element.md)**  
+-   **[Edit or delete a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/edit-library-element.md)**  
 You can add artifacts to a library element, or convert a library element back to project-based artifacts. You can also edit the data definitions of artifacts in a library element.
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/designing-pa-solution.md)
 

@@ -2,7 +2,7 @@
 title: Submit a request for an internal claim
 description: As a front-office worker \(branch employee or call center agent\), you can submit a claim request on behalf of a customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/submit-request-internal-claim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-payment-operations/submit-request-internal-claim.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -22,9 +22,9 @@ Role required: sn\_bom\_payment.requestor
 
 ## About this task
 
-Branch workers and customers can submit claim requests only for internal claims. For information about external claims, see [Create a case for an external claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/create-case-external-claim.md).
+Branch workers and customers can submit claim requests only for internal claims. For information about external claims, see [Create a case for an external claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/create-case-external-claim.md).
 
-Internal claims can also be created by inquiry agents if the investigation of an internal payment inquiry case shows that it is a valid claim. For more information, see [Create a claim for a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/create-claim-case-inquiry-case.md).
+Internal claims can also be created by inquiry agents if the investigation of an internal payment inquiry case shows that it is a valid claim. For more information, see [Create a claim for a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/create-claim-case-inquiry-case.md).
 
 ## Procedure
 
@@ -96,5 +96,5 @@ Steps
 -   Click **View Details** to open the claim and view its details. You can also add additional information in the **Comments** field that can help the claim agent in resolving the case.
 -   A claim agent can start working on the claim.
 
-**Parent Topic:**[Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
+**Parent Topic:**[Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
 

@@ -2,12 +2,12 @@
 title: Resource owner password credential grant
 description: Configuring an OAuth Resource Owner Password Credential \(ROPC\) grant enables applications to authenticate users by directly using their credentials to obtain an access token.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/resource-owner-password-grant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/resource-owner-password-grant.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -34,7 +34,7 @@ Avoid using this grant in modern applications unless absolutely necessary. For s
 **Related topics**  
 
 
-[Resource owner password credential grant workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/resource-owner-password-credential-workflow.md)
+[Resource owner password credential grant workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/resource-owner-password-credential-workflow.md)
 
-[Configure an OAuth resource owner password credential grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-an-oauth-resource-owner-password-credential-grant.md)
+[Configure an OAuth resource owner password credential grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-an-oauth-resource-owner-password-credential-grant.md)
 

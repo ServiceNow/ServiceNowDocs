@@ -2,7 +2,7 @@
 title: NLU system entities
 description: Use globally defined NLU entities to identify system information that Virtual Agent can extract from the conversation. You can define entities as "nodeless" input variables for a topic. These variables can be slot-filled from NLU service provider predictions or provided outside of the scope of the topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/nlu-system-entities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/nlu-system-entities.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -1028,7 +1028,7 @@ Code example
 
 ```
 
-**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
+**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 
 **Related topics**  
 

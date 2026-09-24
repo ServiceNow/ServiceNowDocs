@@ -2,7 +2,7 @@
 title: Enabling dialog intelligence
 description: Enable support for dialog intelligence in ITSM Virtual Agent to let the Virtual Agent dynamically react to user utterances and modifications during your conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/dialog-acts-itsm-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/dialog-acts-itsm-va.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -20,5 +20,5 @@ The IT Service Management topics leverage the latest platform Dialog Acts enhanc
 
 For more information about Dialog Acts enhancements on the ServiceNow AI Platform, see [Dialog Acts for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/c_dialog-acts.md).
 
-**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
+**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
 

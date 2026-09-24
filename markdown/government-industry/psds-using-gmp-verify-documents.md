@@ -2,7 +2,7 @@
 title: Verify documents uploaded to a grant proposal
 description: Verify all documents the applicant has uploaded with the submitted proposal. Flag documents that don't meet requirements and undo accidental flags. From Grants management version 1.41 onward grant program managers can request corrected documents from applicants.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-verify-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-gmp-verify-documents.html
 release: australia
 topic_type: task
 last_updated: "2026-06-24"

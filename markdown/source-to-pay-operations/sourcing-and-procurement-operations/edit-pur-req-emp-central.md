@@ -2,7 +2,7 @@
 title: Edit a purchase line from a purchase requisition or order from Employee Center \(EC\)
 description: You can edit and revise the quantity of a product or delivery location of a purchase line from Employee Center. You can also view the existing or current quantity or delivery date of the purchase requisition or order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-emp-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-emp-central.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -273,5 +273,5 @@ Enter the reason for editing the purchase requisition or order.
 9.  To save the modified details of the purchase requisition or order as a draft, select **Save as Draft** option.
 
 
-**Parent Topic:**[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
+**Parent Topic:**[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
 

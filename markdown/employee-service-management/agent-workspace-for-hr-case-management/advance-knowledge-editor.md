@@ -2,7 +2,7 @@
 title: Advanced Knowledge Editor
 description: The Knowledge Center article editor has editing tools that help in formatting knowledge article content such as text, images, and media.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/advance-knowledge-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/advance-knowledge-editor.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

@@ -2,7 +2,7 @@
 title: Observability-Datadog properties
 description: Observability-Datadog properties control the behavior of the connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-datadog-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-datadog-properties.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

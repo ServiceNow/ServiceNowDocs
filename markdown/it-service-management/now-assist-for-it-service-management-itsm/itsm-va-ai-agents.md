@@ -2,7 +2,7 @@
 title: Agentic AI in the Virtual Agent application
 description: Use AI agents in Virtual Agent to autonomously resolve tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/itsm-va-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/itsm-va-ai-agents.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

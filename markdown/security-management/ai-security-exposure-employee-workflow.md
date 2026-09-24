@@ -2,7 +2,7 @@
 title: Using AI remediation workflows with Employee Center
 description: AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI posture findings \(configuration issues\) directly through lightweight tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/ai-security-exposure-employee-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/ai-security-exposure-employee-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-03"
@@ -75,8 +75,8 @@ Integrating AI exposure remediation with Employee Center provides several advant
 -   Provides asset owners with visibility into security issues affecting their AI assets
 -   Streamlines the remediation process through a simplified task interface that does not require specialized security expertise
 
--   **[Resolve tasks for AI assets in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-management-employee-task.md)**  
+-   **[Resolve tasks for AI assets in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ai-security-exposure-management-employee-task.md)**  
 Resolve the finding or request an exception from Employee Center AI posture findings.
 
-**Parent Topic:**[Exploring AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-ai-security-exposure.md)
+**Parent Topic:**[Exploring AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/exploring-ai-security-exposure.md)
 

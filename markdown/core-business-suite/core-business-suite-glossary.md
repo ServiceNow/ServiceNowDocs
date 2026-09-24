@@ -2,7 +2,7 @@
 title: Core Business Suite terminology
 description: Glossary of terms used in the Core Business Suite documentation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/core-business-suite-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/core-business-suite-glossary.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-22"
@@ -15,7 +15,7 @@ breadcrumb: [Reference, Core Business Suite]
 
 Glossary of terms used in the Core Business Suite documentation.
 
-**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-reference-parent.md)
 
 ## Advanced Portal Navigation
 

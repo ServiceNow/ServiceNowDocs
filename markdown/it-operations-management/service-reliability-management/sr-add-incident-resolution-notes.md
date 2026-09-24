@@ -2,7 +2,7 @@
 title: Add resolution code and notes to an SRM incident
 description: Add a resolution code and notes to an incident when you have resolved the incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-add-incident-resolution-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-add-incident-resolution-notes.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -41,5 +41,5 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

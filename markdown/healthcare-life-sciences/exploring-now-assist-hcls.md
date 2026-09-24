@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Care Team Operations
 description: Use ServiceNow Otto for Care Team Operations to create support requests for service departments conversationally through Virtual Agent on Care Team Mobile or Care Team Portal or via phone using AI voice agent capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/exploring-now-assist-hcls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/exploring-now-assist-hcls.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -53,6 +53,6 @@ The Care Team Operations Case Creation AI voice agent enables care team members 
 
 To learn more about configuring and using ServiceNow Otto for Care Team Operations, see:
 
--   [Configuring ServiceNow Otto for Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/configuring-now-assist-hcls.md)
--   [Using Agentic AI in ServiceNow Otto for Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-agentic-ai-use-cases.md)
+-   [Configuring ServiceNow Otto for Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/configuring-now-assist-hcls.md)
+-   [Using Agentic AI in ServiceNow Otto for Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcls-agentic-ai-use-cases.md)
 

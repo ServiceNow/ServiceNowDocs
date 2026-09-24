@@ -2,7 +2,7 @@
 title: Parallel Flow Launcher example
 description: This example shows how to use the Parallel Flow Launcheractivity with an array of input values and with a WorkflowCoordinator object.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/r\_ParallelFlowLauncherExample.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/workflow-activities/r\_ParallelFlowLauncherExample.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -34,5 +34,5 @@ The second **Parallel Flow Launcher** activity uses WorkflowCoordinator objects 
 
 \[Omitted image "WFParallelActivityDetail2.png"\] Alt text:
 
-**Parent Topic:**[Parallel Flow Launcher workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_ParallelFlowLauncher.md)
+**Parent Topic:**[Parallel Flow Launcher workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_ParallelFlowLauncher.md)
 

@@ -2,7 +2,7 @@
 title: Chief Information Security Officer \(CISO\) Dashboard
 description: The Chief Information Security Officer \(CISO\) dashboard provides a single pane glass view of end-to-end information security operations by capturing real-time insights on organizational security posture across risk exposure, compliance health, security incidents, vulnerabilities, and audit performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/ciso-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/ciso-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

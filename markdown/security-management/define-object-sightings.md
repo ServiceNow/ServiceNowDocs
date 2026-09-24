@@ -2,7 +2,7 @@
 title: Define object sightings
 description: Define object sighting that describes that an object \(malware, tool, threat actor, and so on\) was seen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-object-sightings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-object-sightings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,5 +52,5 @@ Click any of the following related lists to view additional information about ob
 |Identities|List of identities associated with this object.|
 |Observed Data|Lists observed data associated with this object.|
 
-**Parent Topic:**[Sightings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/indicator-sightings.md)
+**Parent Topic:**[Sightings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/indicator-sightings.md)
 

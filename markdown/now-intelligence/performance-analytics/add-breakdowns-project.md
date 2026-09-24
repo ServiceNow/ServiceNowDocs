@@ -2,7 +2,7 @@
 title: Group data by breakdown definitions
 description: Each project can have a set of breakdown definitions that you can use to group the data in KPIs. These breakdown definitions provide the specifications for Performance Analytics breakdowns that you eventually create.Provide the functional description of how to build an actual Performance Analytics breakdown in a breakdown definition. Once an appropriate Performance Analytics breakdown exists, you can link to it in the breakdown definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/add-breakdowns-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/add-breakdowns-project.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +17,7 @@ breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fu
 Each project can have a set of breakdown definitions that you can use to group the data in KPIs. These breakdown definitions provide the specifications for Performance Analytics breakdowns that you eventually create.
 
 Prerequisites
-:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
+:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-kpi-composer-project.md)
 
 ## Before you begin
 
@@ -65,11 +65,11 @@ By holding down the Ctrl/Command or Alt/Option key while dropping a breakdown de
     Remove the breakdown definition from the artifact on which is dropped and from all child artifacts of that artifact.
 
 
-**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/add-personas-project.md)
+**Previous topic:**[Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/add-personas-project.md)
 
-**Next topic:**[Write journal entries for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/write-journal-entries-kpi-composer.md)
+**Next topic:**[Write journal entries for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/write-journal-entries-kpi-composer.md)
 
 ## Define a breakdown
 

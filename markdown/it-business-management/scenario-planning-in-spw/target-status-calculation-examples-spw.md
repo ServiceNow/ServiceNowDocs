@@ -2,12 +2,12 @@
 title: Status calculation specifications and examples
 description: Detailed specifications for status calculation across different target types, calculation formulas for targets with and without breakdowns, and worked examples demonstrating status assignment and rollup mechanics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Goals in Strategic Planning, Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -115,5 +115,5 @@ LAYER 3 — Goals roll up to Parent goals (Worst-wins):
     Milestone targets use qualitative maturity levels \(e.g., Planning, Execution, Delivery, Launch\) instead of numeric formulas. Status is assigned manually based on milestone stage progress. Examples: project readiness, capability maturity, process implementation. Though not automatically calculated, milestone targets still roll up using worst-wins logic and affect portfolio health.
 
 
-**Parent Topic:**[Goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/goal-management-in-alignment-planner-workspace.md)
+**Parent Topic:**[Goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/goal-management-in-alignment-planner-workspace.md)
 

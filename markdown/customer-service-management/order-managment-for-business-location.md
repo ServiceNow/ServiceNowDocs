@@ -2,7 +2,7 @@
 title: Order Management for business organization
 description: Integrate Service Model Foundation with Order Management to support channel sales.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/order-managment-for-business-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/order-managment-for-business-location.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Integration with Sales Customer Relationship Management, Configure 
 
 Integrate Service Model Foundation with Order Management to support channel sales.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Overview of the integration
 
@@ -140,7 +140,7 @@ Boolean
 </table>**Related topics**  
 
 
-[Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/personas-roles-and-tables-post-integration.md)
+[Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/personas-roles-and-tables-post-integration.md)
 
-[Activate Order Management for Business Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-order-management-for-business-locations.md)
+[Activate Order Management for Business Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-order-management-for-business-locations.md)
 

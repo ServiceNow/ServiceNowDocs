@@ -2,7 +2,7 @@
 title: AI Service Graph Connector for Microsoft
 description: The AI Service Graph Connector for Microsoft enables you to discover and import AI assets from Azure AI Foundry and Copilot Studio environments into ServiceNow AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/microsoft.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/microsoft.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

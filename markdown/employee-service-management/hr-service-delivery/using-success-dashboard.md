@@ -2,7 +2,7 @@
 title: Measure the performance of the HR implementation
 description: Use the HR Success Dashboard indicators to measure the performance of your HR implementation using different KPIs.View and monitor the HR Success Dashboard indicators to measure the performance of your HR implementation using different KPIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/using-success-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/using-success-dashboard.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -36,7 +36,7 @@ You can monitor the data in **Monthly**, **Quarterly**, or **Yearly** time aggre
 
 Once the time aggregation is set, all the score-cards show the data for that period.
 
-For more information on the dashboard components, see [HR Success Dashboard indicators components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/sdb-dasboard-overview.md).
+For more information on the dashboard components, see [HR Success Dashboard indicators components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/sdb-dasboard-overview.md).
 
-For more information on the KPI definitions and formulas, see [HR Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/sd-formulae.md).
+For more information on the KPI definitions and formulas, see [HR Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/sd-formulae.md).
 

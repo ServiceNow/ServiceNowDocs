@@ -2,7 +2,7 @@
 title: Set up the Check Point NGTP integration
 description: Complete the following steps to set up the Check Point Next Generation Threat Prevention integration. This would ensure that the pre-requisites for the integration to work are in place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/set-up-chk-pt-ngtp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/set-up-chk-pt-ngtp.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

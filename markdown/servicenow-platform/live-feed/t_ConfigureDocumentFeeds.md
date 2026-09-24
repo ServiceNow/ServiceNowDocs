@@ -2,7 +2,7 @@
 title: Configure document feeds
 description: You can configure a table to support document feeds.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_ConfigureDocumentFeeds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/t\_ConfigureDocumentFeeds.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -22,12 +22,12 @@ Role required: personalize\_dictionary or admin
 
 ## Procedure
 
-1.  [Add Live Feed to a form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_AddLiveFeedToAFormHeader.md).
+1.  [Add Live Feed to a form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/t_AddLiveFeedToAFormHeader.md).
 
 2.  Add **Follow on Live Feed** and **Show Live Feed** as list and form UI actions.
 
 
-**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_DocumentFeeds.md)
+**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_DocumentFeeds.md)
 
 **Related topics**  
 

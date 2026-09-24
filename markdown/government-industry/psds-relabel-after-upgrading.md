@@ -2,7 +2,7 @@
 title: Relabel CRM Workspace items after upgrade
 description: After you upgrade your instance for the first time, you can relabel certain items in the CRM Workspace for public sector use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-relabel-after-upgrading.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-relabel-after-upgrading.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ Certain menus and menu items in the CRM Workspace are relabeled for public secto
         In the **Title** field, change `Service Organization External Staff` to `External Staff`.
 
 
-**Parent Topic:**[Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/setting-up-csm-fsm.md)
 

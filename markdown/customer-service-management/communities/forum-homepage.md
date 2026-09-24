@@ -2,7 +2,7 @@
 title: Navigating the forum homepage
 description: While in a forum, you can navigate the forum homepage and perform tasks, such as posting content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/forum-homepage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/forum-homepage.html
 release: australia
 product: Communities
 classification: communities
@@ -126,7 +126,7 @@ Most viewed content
 Displays the top three posts according to number of views.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+</table>**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

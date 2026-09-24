@@ -2,7 +2,7 @@
 title: Add a business capability
 description: Add a business capability to the capability hierarchy map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/add-a-capability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/add-a-capability.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Role required: sn\_apm.apm\_analyst
 
 4.  On the form, fill in the fields.
 
-    For a description of field values, see [Create business capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-cap-form.md).
+    For a description of field values, see [Create business capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-cap-form.md).
 
 5.  Select **Create**.
 
@@ -39,22 +39,22 @@ Role required: sn\_apm.apm\_analyst
     2.  Select **Create sub-capability**.
 
 
-**Parent Topic:**[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
+**Parent Topic:**[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
 
 **Related topics**  
 
 
-[Create a demand towards achievement of a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-demand-towards-achievement-of-capability.md)
+[Create a demand towards achievement of a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-a-demand-towards-achievement-of-capability.md)
 
-[Update the hierarchy of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-hierarchy.md)
+[Update the hierarchy of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/update-hierarchy.md)
 
-[Create a sub-capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-sub-capability.md)
+[Create a sub-capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-sub-capability.md)
 
-[Assign a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/assign-a-business-application.md)
+[Assign a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/assign-a-business-application.md)
 
-[Unassign a business application from a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/unassign-a-business-application-from-a-capability.md)
+[Unassign a business application from a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/unassign-a-business-application-from-a-capability.md)
 
-[Delete a capability from the hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/delete-a-capability.md)
+[Delete a capability from the hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/delete-a-capability.md)
 
-[View a roadmap of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-roadmap-bc.md)
+[View a roadmap of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-roadmap-bc.md)
 

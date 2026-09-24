@@ -2,7 +2,7 @@
 title: Annotate security artifacts
 description: As you are analyzing a case, you can add annotations to any artifact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/annotate-artifacts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/annotate-artifacts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,7 +54,7 @@ Role required:
 6.  You can also enter a new annotation for the artifact in the **Security Annotation** box, and click **Annotate**.
 
 
-**Parent Topic:**[Security artifact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-artifact-analysis.md)
+**Parent Topic:**[Security artifact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-artifact-analysis.md)
 
 **Related topics**  
 

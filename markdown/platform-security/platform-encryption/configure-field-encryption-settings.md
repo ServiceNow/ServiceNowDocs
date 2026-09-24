@@ -2,7 +2,7 @@
 title: Configure field encryption settings to select key type
 description: Configure your field encryption settings to use ServiceNow supplied keys or your own customer-supplied keys \(CSK\) for encryption on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/configure-field-encryption-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/configure-field-encryption-settings.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -37,8 +37,8 @@ Role required: sn\_kmf.cryptographic\_manager and security\_admin
 
 ## What to do next
 
--   If you’re using your own customer-supplied keys, see [Using customer-supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/csk-landing.md).
--   If you’re using ServiceNow supplied keys, start creating your cryptographic module. See [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md).
+-   If you’re using your own customer-supplied keys, see [Using customer-supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/csk-landing.md).
+-   If you’re using ServiceNow supplied keys, start creating your cryptographic module. See [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/create-cryptographic-module.md).
 
-**Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/configure-kmf.md)
+**Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/configure-kmf.md)
 

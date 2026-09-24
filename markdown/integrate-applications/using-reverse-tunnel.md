@@ -2,7 +2,7 @@
 title: Monitoring relay connectivity
 description: Monitor the connection health and registration status of private relays registered with Reverse Tunnel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/using-reverse-tunnel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/using-reverse-tunnel.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -19,11 +19,11 @@ Monitor the connection health and registration status of private relays register
 
 After a private relay is registered and connected, use the relay record to verify connectivity and diagnose issues.
 
--   [Monitor relay connection health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/monitor-relay-health.md)
+-   [Monitor relay connection health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/monitor-relay-health.md)
 
     View real-time connection status, heartbeat data, and reconnection activity for a registered relay.
 
--   [Manage relay service endpoints through Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-relay-services.md)
+-   [Manage relay service endpoints through Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-relay-services.md)
 
     Add or update the service endpoints assigned to a relay.
 

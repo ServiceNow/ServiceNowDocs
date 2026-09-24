@@ -2,7 +2,7 @@
 title: Restore archived records and related records
 description: Restore one or more archive records and any related records back into the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dmc-restore-archived-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dmc-restore-archived-records.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

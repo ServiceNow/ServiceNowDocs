@@ -2,7 +2,7 @@
 title: Premium chat
 description: ServiceNow Otto for Virtual Agent premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they're doing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -139,11 +139,11 @@ After the user enters an utterance and a search result is found, a synthesized r
 
 If multiple results are found, you can follow inline citations to either begin an action or learn more. The option to **Show sources** appears at the end of the synthesized response for internal and external Knowledge Base articles. Virtual Agent can only return available catalog items that match a user's request when the ServiceNow Otto Multi-Turn Catalog Ordering skill is enabled.
 
-**Note:** For full catalog functionality, enable the generative AI experience for catalog item request submissions. For more information, see [Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
+**Note:** For full catalog functionality, enable the generative AI experience for catalog item request submissions. For more information, see [Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
 
 Whenever only a single search result for topics is found, the synthesized response and options are bypassed by default and users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
-You can create a new query from within a ServiceNow Otto conversation using mid-topic discovery. For more information, see [Mid-topic switching during ServiceNow Otto for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.md).
+You can create a new query from within a ServiceNow Otto conversation using mid-topic discovery. For more information, see [Mid-topic switching during ServiceNow Otto for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.md).
 
 If AI Guardian is enabled and your request contains profane content, the Virtual Agent responds with a message prompting you to re-enter an appropriate request without profanity or offensive content.If your request is too ambiguous on the portal search, a synthesized response appears along with an **Ask a follow up** option. Selecting the **Ask a follow up** option redirects you to a Virtual Agent chat. In the Virtual Agent chat, you can submit your follow-up question or request, but the synthesized response links are only available to select on the portal page and are unavailable to select in the chat window. If your follow-up question or request is too ambiguous in the Virtual Agent chat, Virtual Agent asks a clarifying question and displays the go to search results icon \(\[Omitted image "nass-search-result-icon.png"\] Alt text: Go to search results icon.\) in the feedback panel.
 
@@ -178,7 +178,7 @@ Depending on the context of the response, an additional go to search results ico
 
 Extended entity information can be found if you have activated Knowledge Graph.
 
-**Note:** To enable the Knowledge Graph natural language query \(NLQ\) schema, configure this schema for the assistant. To configure the schema for an assistant, see [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
+**Note:** To enable the Knowledge Graph natural language query \(NLQ\) schema, configure this schema for the assistant. To configure the schema for an assistant, see [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
 
 These extended entities that come from the additional custom tables associated with the Knowledge Graph natural language query \(NLQ\) schema can include:
 
@@ -219,7 +219,7 @@ The **View Details** button behaves in the following ways:
 
 ## Fallback options
 
-**Note:** For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
+**Note:** For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 
 A fallback state can occur whenever search results are unavailable. Scenarios where search results are unavailable include the Virtual Agent didn't understand the query, complaint small talk was found, or an error occurred. When search results are unavailable, a single or multiple fallback options may appear. These fallback options include:
 
@@ -247,7 +247,7 @@ You can start the chat experience either through the chat icon on the portal's s
 
 After selecting the chat widget button on the portal, the floating chat window opens and replaces the chat button. A greeting message appears, and a chat is created only after you have entered an initial utterance. If you have an active chat ongoing, the current active chat appears instead of a greeting message. You can select a predefined action, topic, suggested search query, start a new conversation, or view all options, if applicable. The **View all options** link only shows if more than one suggested search query or promoted topic is available.
 
-**Note:** Any search query entered into the portal’s search bar or Virtual Agent is incorporated into the greeting topic for future conversations as a suggested search query. Suggested search queries can be viewed in the Search Suggestions \[sys\_search\_suggestion.list\] table. For more information on how to enable suggested search queries, see [ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
+**Note:** Any search query entered into the portal’s search bar or Virtual Agent is incorporated into the greeting topic for future conversations as a suggested search query. Suggested search queries can be viewed in the Search Suggestions \[sys\_search\_suggestion.list\] table. For more information on how to enable suggested search queries, see [ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
 
-If language detection is turned on and the initial utterance entered into the portal's search bar or chat differs from the user's profile language preference, the conversational language automatically switches to the detected language. For more information and examples of language detection in premium chat conversations, see [Language detection and dynamic translation in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
+If language detection is turned on and the initial utterance entered into the portal's search bar or chat differs from the user's profile language preference, the conversational language automatically switches to the detected language. For more information and examples of language detection in premium chat conversations, see [Language detection and dynamic translation in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
 

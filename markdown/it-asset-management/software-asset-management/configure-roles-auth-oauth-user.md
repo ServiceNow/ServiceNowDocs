@@ -2,7 +2,7 @@
 title: Configure roles and authorizations for the OAuth user
 description: Create a role in SAP and assign the required authorization objects to the OAuth system user to support OData service access and background job execution for integration with the Software Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/configure-roles-auth-oauth-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/configure-roles-auth-oauth-user.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +19,7 @@ Create a role in SAP and assign the required authorization objects to the OAuth 
 
 ## Before you begin
 
-The OAuth client must be configured in SAP before assigning roles to the OAuth user. See [Configure an OAuth client in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-oauth-client-sap.md).
+The OAuth client must be configured in SAP before assigning roles to the OAuth user. See [Configure an OAuth client in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-oauth-client-sap.md).
 
 SAP Role required: SAP Basis administrator
 
@@ -68,5 +68,5 @@ The OAuth user has the required authorizations to access OData services, run bac
 
 ## What to do next
 
-Create an OAuth 2.0 SAP connection on your ServiceNow instance. For more information, see [Establish an SAP connection using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-sap-connection-oauth.md).
+Create an OAuth 2.0 SAP connection on your ServiceNow instance. For more information, see [Establish an SAP connection using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-sap-connection-oauth.md).
 

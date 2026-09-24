@@ -2,7 +2,7 @@
 title: Import OSCAL Assessment Results \(AR\)
 description: Import OSCAL Assessment Results \(AR\) from similar NIST RMF frameworks to create an engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-assessment-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-assessment-results.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -219,5 +219,5 @@ Assign users to the authorization package roles for the imported files. The role
         The import runs in the background and can take several minutes. When complete, the import record appears on the OSCAL Import page. If you specified import status recipients in the Details step, they are notified when the import completes.
 
 
-**Parent Topic:**[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
+**Parent Topic:**[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
 

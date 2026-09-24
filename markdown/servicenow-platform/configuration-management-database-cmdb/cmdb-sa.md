@@ -2,7 +2,7 @@
 title: CMDB success advisor
 description: The ServiceNow CMDB success advisor is a scoped application that drives business outcomes for targeted business products, including Data Foundations, Hardware Asset Management, and Software Asset Management \(SAM\), by improving Configuration Management Database \(CMDB\) data quality. Use a specialized advisor to resolve data quality issues through guided remediation and identify which data integrations are keeping your CMDB accurate and complete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -20,19 +20,19 @@ The ServiceNow® CMDB success advisor is a scoped application that drives busine
 
 <table id="table_ond_xs3_ybc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits of CMDB success advisor.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits of CMDB success advisor.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-explore.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-configuring.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-strategic.svg"\] Alt text:Target business outcomes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-outcomes.md)
+[Use\[Omitted image "bus-strategic.svg"\] Alt text:Target business outcomes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-outcomes.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about installed components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about installed components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

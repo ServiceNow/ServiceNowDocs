@@ -2,7 +2,7 @@
 title: Initiate a Sidebar chat in the Digital Factory Workspace
 description: Initiate a Sidebar chat in the Digital Factory Workspace. Sidebar discussion enables operators to collaborate with others when working on deviations, actions, root cause analyses, and standards. For example, if you want to notify the deviation expert that a deviation is fixed and can be closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/initiate-sidebar-chat-digital-factory-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/initiate-sidebar-chat-digital-factory-workspace.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -37,5 +37,5 @@ Role required: sn\_icw.user
 
 Added participants are notified. They can join the discussion by selecting the **Sidebar discussions** icon \(\[Omitted image "sidebar-discussions.png"\] Alt text: Sidebar discussion icon.\). To read more about the Sidebar discussions functionality, see [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-sidebar.md).
 
-**Parent Topic:**[Using Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-digital-factory-workspace.md)
+**Parent Topic:**[Using Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/using-digital-factory-workspace.md)
 

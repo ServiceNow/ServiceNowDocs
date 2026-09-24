@@ -2,7 +2,7 @@
 title: Activate Investment Funding for projects and demands
 description: Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they aren't already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/activate-investment-funding-ppm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/activate-investment-funding-ppm.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -48,14 +48,14 @@ The plugin activates the related plugins if they are not already active. It also
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md)
+**Parent Topic:**[PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md)
 
 **Related topics**  
 
 
 [Currencies and budget reference rates]()
 
-[Install Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/activate-investment-funding.md)
+[Install Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/investment-funding/activate-investment-funding.md)
 
 [List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

@@ -2,7 +2,7 @@
 title: Request an analytics service
 description: Request services associated with dashboards, such as to request a new dashboard or access to an existing dashboard.Analytics service requests are assigned to the Analytics group who can review and fulfill the requests.You can activate the Self-Service Portal for Analytics plugin \(com.snc.pa.bi\_service\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/request-bi-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/request-bi-service.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -45,7 +45,7 @@ Role required: none
 
 After you submit the request, the Analytics team is responsible for reviewing and implementing your requested changes.
 
-**Parent Topic:**[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+**Parent Topic:**[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
 ## Fulfill an analytics request
 
@@ -98,9 +98,9 @@ Role required:
 **Related topics**  
 
 
-[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
-[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
+[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 
 ## Activate the Self-Service Portal for Analytics plugin
 

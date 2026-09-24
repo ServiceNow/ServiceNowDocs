@@ -2,7 +2,7 @@
 title: Generate, accept, and reject risks
 description: Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, milestones, and work notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-risks-using-ai-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/generate-risks-using-ai-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -36,7 +36,7 @@ The AI Identified Risks menu is visible only to project managers when the risk g
 
 1.  Navigate to **Workspaces** &gt; **Project Workspace**.
 
-2.  From Project Workspace, [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md) or open an existing project.
+2.  From Project Workspace, [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-project-from-project-workspace.md) or open an existing project.
 
 3.  Select **AI-Identified Risks** from the RIDAC menu.
 
@@ -56,5 +56,5 @@ The AI Identified Risks menu is visible only to project managers when the risk g
     You can select any task ID, resource ID, or other reference in the AI Rationale column of AI-identified risks. This navigates directly to the related record without searching for the ID manually.
 
 
-**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/manage-ridac-pw.md)
+**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/manage-ridac-pw.md)
 

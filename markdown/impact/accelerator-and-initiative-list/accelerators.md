@@ -2,7 +2,7 @@
 title: Request an Accelerator
 description: You can request a designated number of concurrent Impact Accelerators according to your subscription and complete the setup.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/accelerators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/accelerators.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,7 +18,7 @@ You can request a designated number of concurrent Impact Accelerators according 
 
 ## Before you begin
 
-For details on available Accelerators, refer to the [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md).
+For details on available Accelerators, refer to the [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/accelerator-catalog.md).
 
 Role required: Impact app admin, or Impact platform owner, or Impact portfolio owner
 
@@ -32,7 +32,7 @@ Accelerators and Initiatives follow a similar procedure for requesting and monit
 
 2.  Select **Request Accelerators &amp; initiatives** from the **Your Accelerators and Initiatives Overview** page.
 
-3.  In the [Accelerator Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/catalog-of-accelerators-and-initiatives.md), select an Accelerator card and select the maximize icon to view the details.
+3.  In the [Accelerator Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/catalog-of-accelerators-and-initiatives.md), select an Accelerator card and select the maximize icon to view the details.
 
 4.  Select **Request Accelerator**.
 
@@ -42,7 +42,7 @@ Accelerators and Initiatives follow a similar procedure for requesting and monit
 
     If you have granted consent for an Accelerator once, the terms and conditions for the Accelerator appear as accepted.
 
-    If you have not granted consent for an Accelerator, you need to accept the terms and conditions from the **Manage Permissions** menu in the Impact IDE. See [Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/grant-ide-permissions.md) for more information.
+    If you have not granted consent for an Accelerator, you need to accept the terms and conditions from the **Manage Permissions** menu in the Impact IDE. See [Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/grant-ide-permissions.md) for more information.
 
     If you need time to decide, select **Revoke**. Your request doesn’t move forward.
 
@@ -90,5 +90,5 @@ Accelerators and Initiatives follow a similar procedure for requesting and monit
 
 You can request an Initiative following similar on-screen guidance.
 
-If you use IDI, see [Request an Accelerator from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/request-accelerator.md) to request an Accelerator.
+If you use IDI, see [Request an Accelerator from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/request-accelerator.md) to request an Accelerator.
 

@@ -2,7 +2,7 @@
 title: Workplace dashboard in Workplace Service Portal
 description: Use the Workplace Dashboard from Workplace Service Portal to visually analyze the available workspace capacity, space request and reservation trends, and monitor the maintenance tasks of your workplace. You can also reserve a space for an employee or create a workplace maintenance task directly from this Workplace Service Portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/wsm-workplace-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/wsm-workplace-dashboard.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -79,7 +79,7 @@ The data displayed in visualizations corresponds to the selected campus.
 **Related topics**  
 
 
-[Create workplace reservations for an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/reserve-workspaces-for-employees.md)
+[Create workplace reservations for an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/reserve-workspaces-for-employees.md)
 
-[Create an ad hoc workplace task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/create-adhoc-workplace-task.md)
+[Create an ad hoc workplace task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/create-adhoc-workplace-task.md)
 

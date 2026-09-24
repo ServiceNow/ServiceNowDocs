@@ -2,7 +2,7 @@
 title: Configure summary fields for standard ticket page
 description: Configure summary fields on the standard ticket page such that the page displays the Summarize button, enabling requesters to view ServiceNow Otto-generated overviews of recent ticket activity and details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-summary-fields-for-standard-ticket-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/configure-summary-fields-for-standard-ticket-page.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -38,7 +38,7 @@ Role required: admin and sp\_admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)
+**Parent Topic:**[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-st-page.md)
 
 **Related topics**  
 

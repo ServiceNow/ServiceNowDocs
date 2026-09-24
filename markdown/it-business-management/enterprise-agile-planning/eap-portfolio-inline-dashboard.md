@@ -2,7 +2,7 @@
 title: EAP Portfolio dashboard
 description: The Portfolio dashboard provides a high-level view of all the active work items in your portfolio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/eap-portfolio-inline-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/eap-portfolio-inline-dashboard.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -18,7 +18,7 @@ The Portfolio dashboard provides a high-level view of all the active work items 
 
 \[Omitted image "eap-portfolio-inline-dashboard.png"\] Alt text: Portfolio Planning Inline dashboard.
 
-You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
+You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
 
 ## Required EAP roles
 

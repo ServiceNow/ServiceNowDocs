@@ -2,7 +2,7 @@
 title: MPN Latency Dashboard
 description: Monitor UE-to-switch latency and related KPIs across MPN-connected devices, with combined and per-KPI trend views, an instance summary table, and a last-recorded-value panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/mpn-latency-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/mpn-latency-dashboard.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -66,7 +66,7 @@ TSOM flags or logs a latency metric as stale when the latest published value for
 **Related topics**  
 
 
-[MPN latency KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-latency-kpis.md)
+[MPN latency KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-latency-kpis.md)
 
-[SD-WAN Alerts Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/sd-wan-alerts-dashboard.md)
+[SD-WAN Alerts Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/sd-wan-alerts-dashboard.md)
 

@@ -2,7 +2,7 @@
 title: Set up the Zoom spoke
 description: Integrate your Zoom account with your ServiceNow instance so that you can use the Zoom spoke to perform various actions on your Zoom account. You can also create a custom OAuth application in the Zoom account so that it can authenticate requests from your instance.Create a connected app in your Zoom account to establish an OAuth 2.0 level of authentication between the Zoom APIs and the Zoom spoke on the ServiceNow AI Platform. After creating the connected app, you can add scopes that enable you to perform different actions from the Zoom spoke.Use the information generated during Zoom account configuration to register Zoom spoke as an OAuth provider and allow the instance to request OAuth 2.0 tokens. Add the Zoom connection in Workflow Studio to perform actions in Zoom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-zoom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-zoom.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -121,7 +121,7 @@ Role required: admin
 4.  In the Zoom card, select **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Zoom spoke, click **View Details**.
-    -   To manage more than one Zoom spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Zoom spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, select **Configure**. Otherwise, click **Edit**.
 
 5.  On the form, fill these values.

@@ -2,7 +2,7 @@
 title: Specify that a table is a fulfillment table
 description: You configure a table as a fulfillment table to enable the system to prevent updates by users who are not subscribed to the app. For ServiceNow Store apps, you configure a table as a fulfillment table to enforce that fulfillment usage complies with your subscription use policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/t\_SpecifyFulfillmentTable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/t\_SpecifyFulfillmentTable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

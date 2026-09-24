@@ -2,7 +2,7 @@
 title: Low-code and no-code tools: What you can do to build apps
 description: When building low-code apps, you can customize them, create reports on their usage, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-low-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-dev-low-code.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,19 +16,19 @@ When building low-code apps, you can customize them, create reports on their usa
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Build apps \[Omitted image "icon-app-journey.png"\] Learn about developing on the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-low-build.md)
+[Build apps \[Omitted image "icon-app-journey.png"\] Learn about developing on the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-dev-low-build.md)
 
 </td><td>
 
-[Manage my apps \[Omitted image "icon-aes.png"\] Customize your ServiceNow applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-low-manage.md)
+[Manage my apps \[Omitted image "icon-aes.png"\] Customize your ServiceNow applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-dev-low-manage.md)
 
 </td><td>
 
-[Engage with my customers \[Omitted image "icon-engage.png"\] Learn how you can communicate with your customers using the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-low-engage.md)
+[Engage with my customers \[Omitted image "icon-engage.png"\] Learn how you can communicate with your customers using the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-dev-low-engage.md)
 
 </td></tr><tr><td>
 
-[Create reports \[Omitted image "icon-dashboard-builder.png"\] Create reports with your data on the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-low-reports.md)
+[Create reports \[Omitted image "icon-dashboard-builder.png"\] Create reports with your data on the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-dev-low-reports.md)
 
 </td><td>
 
@@ -36,7 +36,7 @@ When building low-code apps, you can customize them, create reports on their usa
 
 </td><td>
 
-[Get help \[Omitted image "icon-core.png"\] Find resources to help you with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer_navigation_table.md)
+[Get help \[Omitted image "icon-core.png"\] Find resources to help you with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer_navigation_table.md)
 
 </td></tr></tbody>
 </table>

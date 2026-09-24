@@ -2,7 +2,7 @@
 title: Delete an AI agent chat log
 description: After you close an AI agent session, you can delete its chat if any sensitive information was captured. Deleting your chat log permanently erases the chat history of that session, including screenshots.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-wa-delete-chat-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/na-ai-wa-delete-chat-log.html
 release: australia
 topic_type: task
 last_updated: "2025-09-05"
@@ -56,5 +56,5 @@ Review your chat log by selecting its title. Use the following procedure if you 
 
 The chat history and its screenshots are deleted from the system.
 
-**Parent Topic:**[Trigger an AI agent to execute adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-access-using-nap.md)
+**Parent Topic:**[Trigger an AI agent to execute adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-ai-wa-access-using-nap.md)
 

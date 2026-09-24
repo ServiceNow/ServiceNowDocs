@@ -2,7 +2,7 @@
 title: Create UI parameters for your Virtual Agent link
 description: Create UI parameters to pass information from your record into Virtual Agent so that your users get the information they need for their issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-av-context-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-av-context-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,5 +64,5 @@ Role required: admin
 
 The UI parameters that you created are available to your Virtual Agent topics within the `vaContext` object. You can access these parameters in Virtual Agent Designer by entering `vaContext.` followed by the name of your UI parameter. For example, you can access the `incident_caller` UI parameter by entering `vaContext.incident_caller`. For more details on using context variables in Virtual Agent, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-scripts.md).
 
-**Parent Topic:**[Configure a contextual link to Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-av-context-action.md)
+**Parent Topic:**[Configure a contextual link to Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-av-context-action.md)
 

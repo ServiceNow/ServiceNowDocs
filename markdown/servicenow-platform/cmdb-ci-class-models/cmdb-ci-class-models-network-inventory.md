@@ -2,7 +2,7 @@
 title: Network Inventory \(NI\) extension classes
 description: The CMDB CI Class Models app adds or updates classes for the Telecommunications Network Inventory application. Telecommunications Network Inventory uses the Network Inventory \(NI\) extension classes to extend the Configuration Management Database \(CMDB\) Configuration item \(CI\) class hierarchy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-network-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-network-inventory.html
 release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -41,7 +41,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_kv4_rwq_zrb"><thead><tr><th>
 

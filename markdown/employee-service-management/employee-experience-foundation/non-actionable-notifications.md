@@ -2,7 +2,7 @@
 title: View informational notifications
 description: View the notifications that are sent during specific events in a ticket life cycle. These notifications are sent to the requester associated with the ticket.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/non-actionable-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/non-actionable-notifications.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -48,5 +48,5 @@ The following informational notifications are included with ServiceNow for Micro
     \[Omitted image "non-action-notification-2.png"\] Alt text: Non-actionable notification
 
 
-**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
 

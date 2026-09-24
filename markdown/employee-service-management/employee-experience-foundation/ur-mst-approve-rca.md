@@ -2,7 +2,7 @@
 title: Approve application restricted caller access privileges
 description: Approve restricted caller access \(RCA\) privileges in the target scope so that you can provide scope access privileges. Approving the RCA privileges enables the script includes in Universal Request scope to be accessed from the Universal Request integration with Microsoft Teams scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ur-mst-approve-rca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ur-mst-approve-rca.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -45,5 +45,5 @@ RCA privileges define cross-scope access to an application, an event, or an appl
 
 The RCA is approved. The records get updated as shown in the following figure. The **Application** column and the **Target Scope** column now have the same values, and the **Status** column changes to **Allowed**.\[Omitted image "ur-mst-rca-result.png"\] Alt text: Universal Request integration with MS Teams RCA approval.
 
-**Parent Topic:**[Install Universal Request integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-ur-ms-teams-app.md)
+**Parent Topic:**[Install Universal Request integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-ur-ms-teams-app.md)
 

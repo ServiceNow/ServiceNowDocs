@@ -2,7 +2,7 @@
 title: View approval history and track status
 description: Track the progress of submitted quote approval requests. View the complete history of approvals and rejections for audit and reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/view-approval-history-and-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-approval-history-and-status.html
 release: australia
 topic_type: task
 last_updated: "2026-06-16"
@@ -107,7 +107,7 @@ The approval history records the following details for each approval action:
 Based on the approval status and history, you can:
 
 -   If approved: Proceed to complete the quote or order transaction
--   If rejected: Revise the quote to address the feedback from the approver and resubmit \(for more information, see [Reject or return a quote for revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reject-or-return-quote-for-revision.md)\)
+-   If rejected: Revise the quote to address the feedback from the approver and resubmit \(for more information, see [Reject or return a quote for revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/reject-or-return-quote-for-revision.md)\)
 -   If pending: Wait for remaining approvers to complete their review, or contact them for status updates
 -   If recalled: You can view previous approval requests to understand the decision history, then resubmit with updates
 
@@ -118,5 +118,5 @@ If your approval request is pending and has exceeded the expected approval timef
 3.  Escalate to your manager if the approval has been pending longer than your organizational SLA
 4.  Contact your approval administrator for escalation options
 
-**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-advanced-approval-management.md)
+**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-advanced-approval-management.md)
 

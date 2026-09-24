@@ -2,7 +2,7 @@
 title: Create assessments from assessment templates
 description: After mapping the assessment templates with segmentation rules, supplier managers manually trigger batch creation of assessments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/create-assessments.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -45,5 +45,5 @@ The assessment is created and runs in the background. The status of the assessme
 |**Cancelled**|When cancelled using the **Cancel** related list action. The Assessment Template Relationship record and all related assessment instances move to the Cancelled state.|
 |**Error**|When an error occurs during assessment creation, or when assessment instance creation fails for one or more assignees. The Assessment Template Relationship record moves to the Error state.|
 
-**Parent Topic:**[Configure smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-smart-assessments.md)
+**Parent Topic:**[Configure smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configure-smart-assessments.md)
 

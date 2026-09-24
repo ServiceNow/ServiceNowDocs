@@ -2,7 +2,7 @@
 title: Perform post-migration tasks for list actions
 description: Verify that the list actions in Service Operations Workspace \(SOW\) are consistent with the list actions in ITSM Agent Workspace \(ITSM AW\) and they’re ready for use in SOW. You can update the migrated list actions settings in SOW based on your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/verify-migration-status-list-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/verify-migration-status-list-actions.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -18,7 +18,7 @@ Verify that the list actions in Service Operations Workspace \(SOW\) are consist
 
 ## Before you begin
 
-When performing the migration, you must have selected the **List actions** option for ITSM Agent Workspace features. For example, the **List actions** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).
+When performing the migration, you must have selected the **List actions** option for ITSM Agent Workspace features. For example, the **List actions** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).
 
 Role required: admin
 
@@ -50,8 +50,8 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     3.  Review the logs to determine which items failed during migration.
 
-    4.  For each failed item, identify which step has failed and perform the steps mentioned in the [List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/list-actions-migration-itsm-aw-sow.md) section.
+    4.  For each failed item, identify which step has failed and perform the steps mentioned in the [List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/list-actions-migration-itsm-aw-sow.md) section.
 
 
-**Parent Topic:**[List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/list-actions-migration-itsm-aw-sow.md)
+**Parent Topic:**[List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/list-actions-migration-itsm-aw-sow.md)
 

@@ -2,7 +2,7 @@
 title: Configure Notify Zoom connector in Notify
 description: Configure Notify to receive the event information from Zoom. An event is usually any action that is related to a meeting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/configure-notify-zoom-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/configure-notify-zoom-connector.html
 release: australia
 product: Notify
 classification: notify
@@ -91,17 +91,17 @@ Configure and use Zoom as a conference provider from any of the task records.
 
 You must sign in to the browser in order to direct to the Zoom client. However, if you are not signed in, you must provide your registration details.
 
--   **[Set up Notify Zoom connector in Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/setup-notify-zoom-connector.md)**  
+-   **[Set up Notify Zoom connector in Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/setup-notify-zoom-connector.md)**  
 Use the Notify Zoom connector to expand the Notify communication channel by managing and initiating a Zoom meeting directly from any task record such as an incident or a change.
--   **[Disable Zoom meeting password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/disable-zoom-password.md)**  
+-   **[Disable Zoom meeting password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/disable-zoom-password.md)**  
 Disable Zoom meeting password so that you can join a Zoom meeting without any meeting password.
 
-**Parent Topic:**[Configuring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configuring-notify.md)
+**Parent Topic:**[Configuring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/configuring-notify.md)
 
 **Related topics**  
 
 
-[Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configure-providers-for-provider-selectors.md)
+[Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/configure-providers-for-provider-selectors.md)
 
-[Start a conference call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/start-a-conference-call.md)
+[Start a conference call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/start-a-conference-call.md)
 

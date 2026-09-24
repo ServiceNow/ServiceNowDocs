@@ -2,7 +2,7 @@
 title: Configure Healthcare and Life Sciences Virtual Agent conversations to view a healthcare request status
 description: The predefined Healthcare and Life Sciences Virtual Agent chatbot conversation enables patients to view their healthcare request status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-va-conversations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-va-conversations.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

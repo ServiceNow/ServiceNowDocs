@@ -2,7 +2,7 @@
 title: Create a Task Intelligence model
 description: Create machine learning models to predict field values, analyze case sentiment, or detect case language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/create-a-task-intelligence-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/task-intelligence/create-a-task-intelligence-model.html
 release: australia
 product: Task Intelligence
 classification: task-intelligence

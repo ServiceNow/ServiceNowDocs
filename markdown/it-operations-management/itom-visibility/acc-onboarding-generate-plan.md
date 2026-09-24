@@ -2,7 +2,7 @@
 title: Generate an Agent Client Collector installation plan
 description: Configure and deploy new agents in your environment, using the Agent Onboarding guide. The Agent Onboarding guide generates a customized installation plan for deploying the Agent Client Collector on your endpoints or servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/acc-onboarding-generate-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/acc-onboarding-generate-plan.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -53,11 +53,11 @@ The Agent Onboarding guide generates a customized installation plan based on you
 
 6.  Activate the toggle switch for a setting to enable customizing the value.
 
-    For details on the available settings, see [Agent onboarding configuration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-onboarding-config-settings.md).
+    For details on the available settings, see [Agent onboarding configuration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-onboarding-config-settings.md).
 
 7.  Select the **Next: Installation plan** button to view the agent installation plan, based on your configured settings.
 
-    For details on the displayed agent installation plan steps and the commands required to be carried out for each, see [Agent installation plan steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-installation-plan-steps.md).
+    For details on the displayed agent installation plan steps and the commands required to be carried out for each, see [Agent installation plan steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-installation-plan-steps.md).
 
     The settings configured for your agent appear in the Agent configuration panel.
 
@@ -74,5 +74,5 @@ The installation plan is generated and ready to use. Each step in the plan inclu
 
 After completing the installation plan steps, verify that the agent is running and connected to the ServiceNow instance, on the ACC agents page.
 
-**Parent Topic:**[Use the Agent Client Collector \(ACC\) admin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/use-acc-admin-workspace.md)
+**Parent Topic:**[Use the Agent Client Collector \(ACC\) admin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/use-acc-admin-workspace.md)
 

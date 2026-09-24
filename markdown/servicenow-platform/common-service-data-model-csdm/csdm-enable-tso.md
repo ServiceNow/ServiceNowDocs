@@ -2,7 +2,7 @@
 title: Synchronize user groups for a technology management offering
 description: Synchronize group assignment attributes on entire CI classes and individual CIs by creating a dynamic CI group for use by a Technology management offering.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -24,7 +24,7 @@ Role required: itil and itil\_admin
 
 Directly set the **Support group**, **Change group**, or **Managed by group** attributes in a Technology management offering. The settings are applied to all CIs that are associated with the Technology management offering.
 
-In addition to the method described in this procedure, you can use the CI Class Manager to set any CI property value. If the **Support group**, **Change group**, or **Managed by group** value is set in the Technology management offering, the value specified by the Technology management offering takes precedence. For more information, see [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md).
+In addition to the method described in this procedure, you can use the CI Class Manager to set any CI property value. If the **Support group**, **Change group**, or **Managed by group** value is set in the Technology management offering, the value specified by the Technology management offering takes precedence. For more information, see [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md).
 
 **Note:** The **Managed by Group** setting identifies the group that manages a CI class \(ensuring that it is complete and correct\). It might or might not be the same group as repairs an individual CI.
 
@@ -32,7 +32,7 @@ In addition to the method described in this procedure, you can use the CI Class 
 
 1.  Navigate to **All** &gt; **Configuration** &gt; **CMDB Groups** and create a CMDB group.
 
-    See [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) for details.
+    See [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) for details.
 
 2.  Navigate to **All** &gt; **Configuration** &gt; **Dynamic CI Groups**.
 
@@ -40,11 +40,11 @@ In addition to the method described in this procedure, you can use the CI Class 
 
     \[Omitted image "create-dynamic-group.png"\] Alt text: CMDB: Create a dynamic CI group.
 
-    See [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md) for more information on dynamic CI groups.
+    See [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md) for more information on dynamic CI groups.
 
 4.  Navigate to **All** &gt; **CSDM** &gt; **Technical Service Offering** and create a Technology management offering.
 
-    See [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md) for more information on Technology management offerings.
+    See [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md) for more information on Technology management offerings.
 
 5.  Navigate to the **CI Relationships** table, select **New**, and then enter the following values:
 
@@ -74,10 +74,10 @@ In addition to the method described in this procedure, you can use the CI Class 
     **Note:** If a new CI is added to the class, the data will be synchronized only after the scheduled CSDM Data Synchronization job is completed. If you must synchronize the data immediately, navigate to **Scheduled Jobs** &gt; **CSDM Data Sync** and select **Execute**.
 
 
-**Parent Topic:**[Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md)
+**Parent Topic:**[Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md)
 
 **Related topics**  
 
 
-[CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md)
+[CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md)
 

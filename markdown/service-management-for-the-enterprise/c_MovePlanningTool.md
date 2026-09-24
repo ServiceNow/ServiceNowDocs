@@ -2,7 +2,7 @@
 title: Move planning tool
 description: The Move Planning tool displays occupancy totals by campus and floor. Facilities and move administrators can add or remove users to and from scenarios while planning a move. Groups of people are selected and moved by department \(department on sys\_user record\) or by direct manager \(manager on sys\_user record\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_MovePlanningTool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_MovePlanningTool.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -55,14 +55,14 @@ Display
 </td></tr></tbody>
 </table>\[Omitted image "MPTPlanningTab.png"\] Alt text: In this figure, the Move Planning Tool is displayed with different colors representing categories per floors in a building.
 
--   **[Enterprise move scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_EnterMoveScenarios.md)**  
+-   **[Enterprise move scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_EnterMoveScenarios.md)**  
 Move scenarios are used by the Facilities team to see the implications of a move in relation to other moves. Multiple scenarios can be created.
--   **[Enterprise move details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_EnterMoveDetails.md)**  
+-   **[Enterprise move details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_EnterMoveDetails.md)**  
 Enterprise move details are created when people are added to the scenario. Move details contain information about the move for a specific person, such the destination floor, destination building, need for moving boxes, or a security badge update.
--   **[Enterprise move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_EnterMoveRequests.md)**  
+-   **[Enterprise move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_EnterMoveRequests.md)**  
 Enterprise move requests are managed by a workflow, which contains required approvals from facilities\_admin or move\_admin. State changes are handled by UI actions.
--   **[Enterprise move tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_EnterMoveTasks.md)**  
+-   **[Enterprise move tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_EnterMoveTasks.md)**  
 Before a move can be executed, destination locations for all users must be complete. Move tasks are based on check boxes on the request form.
 
-**Parent Topic:**[Enterprise move](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_EnterpriseMove.md)
+**Parent Topic:**[Enterprise move](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_EnterpriseMove.md)
 

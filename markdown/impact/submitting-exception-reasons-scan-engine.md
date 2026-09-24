@@ -2,7 +2,7 @@
 title: Submit exceptions for Scan Engine findings
 description: For Recommend level findings, developers can submit exception requests if they determine the finding should not be considered an issue to deter development.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/submitting-exception-reasons-scan-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/submitting-exception-reasons-scan-engine.html
 release: australia
 topic_type: task
 last_updated: "2026-06-26"
@@ -18,7 +18,7 @@ For Recommend level findings, developers can submit exception requests if they d
 
 Generally, exceptions require approval from a system administrator. However, certain settings configured by a system administrator may determine if the exception is automatically approved or rejected. If the exception is approved, the finding is excluded from technical debt.
 
-**Note:** The record under the Scanned Record field of the finding, sn\_se\_finding, record should be extending sys\_metadata table in order for the Scan Engine Exceptions UI action button to be available. For more information on configuring exception properties, refer to [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/exception-reason-properties.md).
+**Note:** The record under the Scanned Record field of the finding, sn\_se\_finding, record should be extending sys\_metadata table in order for the Scan Engine Exceptions UI action button to be available. For more information on configuring exception properties, refer to [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-reason-properties.md).
 
 Role required: sn\_se.scan\_engine\_admin, sn\_impact\_common.Impact Developer, or sn\_impact\_common.Impact App Admin
 

@@ -2,7 +2,7 @@
 title: Add existing attributes to a GRC workflow state
 description: Add existing Governance, Risk, and Compliance state model attributes to add special capabilities to workflow steps without custom code. Attributes control features like approval requirements, report generation, and Open Security Controls Assessment Language \(OSCAL\) file exports for specific workflow states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-state-model-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-state-model-attributes.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -42,7 +42,7 @@ In addition, you get the following UI page attributes:
 -   Required Overlay Page: Displays the Overlays UI page
 -   Required Authorization Documents Page: Displays the Authorization Documents page
 
-**Note:** To configure state model attributes with the CAM specific attributes, perform the tasks in this topic. To create a new state model attribute, see [Create a new state model attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-new-state-model-attributes.md).
+**Note:** To configure state model attributes with the CAM specific attributes, perform the tasks in this topic. To create a new state model attribute, see [Create a new state model attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-new-state-model-attributes.md).
 
 Role required: sn\_irm\_cont\_auth.admin
 
@@ -71,5 +71,5 @@ Role required: sn\_irm\_cont\_auth.admin
 
 State model attributes are configured and control the functionality available at specific workflow steps. You can see the appropriate buttons and features based on the attributes assigned to each workflow state.
 
-**Parent Topic:**[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-create-state-model.md)
+**Parent Topic:**[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-create-state-model.md)
 

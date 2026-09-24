@@ -2,7 +2,7 @@
 title: Create a labor rate card in Enterprise Asset Workspace
 description: Create a labor rate card to capture costs by the time consumed on an hourly basis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-labor-rate-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-eam-labor-rate-card.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

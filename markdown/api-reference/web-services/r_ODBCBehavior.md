@@ -2,7 +2,7 @@
 title: ODBC behavior
 description: After testing the ODBC driver, you can use it to query your instance database from a variety of client applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_ODBCBehavior.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/r\_ODBCBehavior.html
 release: australia
 product: Web Services
 classification: web-services
@@ -82,8 +82,8 @@ Query routing is done to take the load off the primary database for SELECT queri
 
 For routing ODBC calls to Read Replica, go to **All** &gt; **Secondary Database** &gt; **Secondary DB Categories** and set **odbc** to `true`.
 
--   **[Increase the field length in SQL queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_IncreaseTheODBCOutputFieldSize.md)**  
+-   **[Increase the field length in SQL queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_IncreaseTheODBCOutputFieldSize.md)**  
 The ODBC driver limits the field length in SQL queries to the maximum length defined by the ServiceNow dictionary entry. You can increase the maximum field length to avoid truncating data.
 
-**Parent Topic:**[Create data sources from other apps using ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ODBCDriver.md)
+**Parent Topic:**[Create data sources from other apps using ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ODBCDriver.md)
 

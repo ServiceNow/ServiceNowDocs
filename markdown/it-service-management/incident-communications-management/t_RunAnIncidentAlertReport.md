@@ -2,7 +2,7 @@
 title: Run an incident communication plan report
 description: Run an incident communication plan report to view the status of communication plans. You can track the progress of the plan and intervene to improve the overall efficiency and effectiveness of the communication process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/t\_RunAnIncidentAlertReport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/t\_RunAnIncidentAlertReport.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -79,5 +79,5 @@ Role required: ia\_admin or admin
     **Note:** You can also choose a graphical representation for the report or narrow down the result using the **Type** and **Configure** options.
 
 
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

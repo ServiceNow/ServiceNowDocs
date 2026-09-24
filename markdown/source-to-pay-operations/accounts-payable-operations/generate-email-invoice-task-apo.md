@@ -2,7 +2,7 @@
 title: Generate email response for invoice task
 description: Generate email response for invoice task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/generate-email-invoice-task-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/generate-email-invoice-task-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

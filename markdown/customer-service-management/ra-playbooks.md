@@ -2,7 +2,7 @@
 title: Playbooks in Recommended Actions
 description: Playbooks are interactive, step-by-step guided workflows that help agents make decisions and resolve issues faster. Configure playbooks as recommended actions to deliver contextual guidance directly in the Recommended Actions Contextual Side Panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-playbooks.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-06"
@@ -15,7 +15,7 @@ breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement I
 
 Playbooks are interactive, step-by-step guided workflows that help agents make decisions and resolve issues faster. Configure playbooks as recommended actions to deliver contextual guidance directly in the Recommended Actions Contextual Side Panel.
 
-For more information on playbooks, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
+For more information on playbooks, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md).
 
 ## Key concepts
 

@@ -2,7 +2,7 @@
 title: Activate Change Management - Risk Calculator
 description: The Change Management - Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-change-risk-calculator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-change-risk-calculator.html
 release: australia
 product: Change Management
 classification: change-management
@@ -37,12 +37,12 @@ Role required: admin
 
 ## What to do next
 
-You can [define risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/define-risk-and-impact-conditions.md) for your change records.
+You can [define risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/define-risk-and-impact-conditions.md) for your change records.
 
--   **[Installed with Change Management - Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-change-risk-calc.md)**  
+-   **[Installed with Change Management - Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-change-risk-calc.md)**  
 Several types of components are installed with the Change Management - Risk Calculator.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

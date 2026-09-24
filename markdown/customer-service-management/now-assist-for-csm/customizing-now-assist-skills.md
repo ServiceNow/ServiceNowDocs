@@ -2,7 +2,7 @@
 title: Customizing a ServiceNow Otto for CSM skill
 description: Learn how to access, activate, and customize a ServiceNow Otto for CSM skill using the AI Admin Hub console and AI Skill Kit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customizing-now-assist-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/customizing-now-assist-skills.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -50,7 +50,7 @@ ServiceNow Otto for CSM provides base system skills that can be tailored to meet
     9.  Under each display type, open the chevron and specify user roles by entering role names in the User roles field.
     10. Review your choices and select **Activate** to complete the skill customization.
 
-        **Note:** For more information, see [Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.md).
+        **Note:** For more information, see [Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.md).
 
 
 ## Access and clone base system skills with the AI Skill Kit

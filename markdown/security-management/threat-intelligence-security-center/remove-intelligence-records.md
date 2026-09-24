@@ -2,7 +2,7 @@
 title: Delete intelligence records
 description: Delete records from Threat Intelligence library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/remove-intelligence-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/remove-intelligence-records.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -37,5 +37,5 @@ Role required: sn\_sec\_tisc.admin
     **Note:**
 
     1.  If a library record with associated source records is deleted, then the source records will be reprocessed, and a new library record will be created by aggregating the field values from the source records.
-    2.  To permanently delete the data from the threat intelligence library, use archival rules instead of deleting the library records. For more information, see, [TISC Data archival and cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/data-archival-process.md).
+    2.  To permanently delete the data from the threat intelligence library, use archival rules instead of deleting the library records. For more information, see, [TISC Data archival and cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/data-archival-process.md).
 

@@ -2,10 +2,10 @@
 title: Combined Zero Copy Connectors release notes for upgrades from Xanadu to Australia
 description: Consolidated page of all release notes for Zero Copy Connectors from Xanadu to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-zerocopyconnectors-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-zerocopyconnectors-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -540,12 +540,9 @@ Australia
 -   Connect to Databricks, Oracle, and Snowflake using OAuth authentication.
 -   Query time-series monitoring data from Prometheus using the new community connector.
 -   Include either primary connectors only or both primary and community connectors.
--   Retrieve real-time data from Oracle HCM \(Discovery\), and Acumatica using new REST connectors.
--   Connect to MySQL and PostgreSQL using newly promoted primary connectors.
--   Authenticate to external data sources using your own credentials with personal authentication support.
 
  See [Zero Copy Connectors](https://www.servicenow.com/docs/access?context=zero-copy-connectors&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-xanadu-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Configure the Normal change model
 description: Configure the Normal change model to define availability, approval requirements, templates, and change task behaviors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-normal-change-model-scm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configure-normal-change-model-scm.html
 release: australia
 topic_type: task
 last_updated: "2026-05-18"
@@ -23,7 +23,7 @@ Role required: sn\_itsm\_chg\_admin.change\_models\_config, sn\_itsm\_chg\_admin
 
 1.  Open the **Normal** change model in the Configuration Console.
 
-    For navigation steps, see [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-change-models-scm.md).
+    For navigation steps, see [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configure-change-models-scm.md).
 
 2.  Configure the availability, templates, and risk-based approvals for different states, and control the automatic change task creation for Normal change requests.
 
@@ -51,7 +51,7 @@ New
 
 </td><td>
 
-Templates have pre-filled common fields that follow the change model's workflow and approval requirements.Review the template that use this change model. To add a template, select **New template**. For steps to configure a template, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md).
+Templates have pre-filled common fields that follow the change model's workflow and approval requirements.Review the template that use this change model. To add a template, select **New template**. For steps to configure a template, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-change-template.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ The Normal change model configuration is saved. New Normal change requests refle
 
 ## What to do next
 
-To configure additional change models, return to [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-change-models-scm.md).
+To configure additional change models, return to [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configure-change-models-scm.md).
 
-**Parent Topic:**[Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-change-models-scm.md)
+**Parent Topic:**[Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configure-change-models-scm.md)
 

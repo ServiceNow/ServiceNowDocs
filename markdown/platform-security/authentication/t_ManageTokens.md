@@ -2,7 +2,7 @@
 title: Manage OAuth tokens
 description: Open OAuth tokens to provide access to restricted resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_ManageTokens.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_ManageTokens.html
 release: australia
 product: Authentication
 classification: authentication

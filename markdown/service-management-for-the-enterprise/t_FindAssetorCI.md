@@ -2,7 +2,7 @@
 title: Find an asset or CI
 description: All users in your organization, regardless of their role, can search for assets and CIs. The results are ordered by current level or floor, current campus, and other campuses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_FindAssetorCI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_FindAssetorCI.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Role required: none
 
 3.  To help narrow your search results, you can select the campus, building, and floor number for your search.
 
-    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
+    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
 
     \[Omitted image "CampusFloorSelection.png"\] Alt text: In this figure, a facilities map image displays a building floor and its designated spaces.
 
@@ -74,5 +74,5 @@ Click the pin \[Omitted image "PinIcon.png"\] Alt text: pin icon icon, beside th
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
+**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
 

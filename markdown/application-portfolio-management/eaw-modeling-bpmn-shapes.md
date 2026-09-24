@@ -2,7 +2,7 @@
 title: Business Process Modeling Notation \(BPMN\) shapes
 description: Use the BPMN shapes to generate diagrams for your current business processes and model the future state of the business processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-bpmn-shapes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-bpmn-shapes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -240,5 +240,5 @@ Gateway shapes control how the process flow splits and merges. Gateways can be r
 |\[Omitted image "bpmn-gateway-timer-boundary-interrupting.png"\] Alt text: Timer Boundary \(Interrupting\)|Timer Boundary \(Interrupting\)|Represents an interrupting boundary event that fires at a specific time or after a defined interval while the attached activity is active. Cancels the activity and redirects flow to the timer-handling path.|
 |\[Omitted image "bpmn-gateway-timer-boundary-non-interrupting.png"\] Alt text: Timer Boundary \(Non-Interrupting\)|Timer Boundary \(Non-Interrupting\)|Represents a non-interrupting boundary event that fires at a specific time or after a defined interval while the attached activity is active. Spawns a concurrent flow without canceling the activity.|
 
-**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-shapes.md)
+**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-shapes.md)
 

@@ -2,7 +2,7 @@
 title: Granular admin roles
 description: Granular admin roles enables you to verify proper access management by assigning roles that define user permissions and responsibilities. By doing so, organizations can maintain security, enforce conformance, and optimize their operations effectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/granular-admin-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -4250,7 +4250,7 @@ sn\_vault\_console.vault\_console\_admin
 
 </td><td>
 
-Role required to have a collection of Data Classification admin, Data Privacy admin, and CA Admin roles to execute a template flow and monitor sensitive data. To learn more, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-servicenow-vault.md)
+Role required to have a collection of Data Classification admin, Data Privacy admin, and CA Admin roles to execute a template flow and monitor sensitive data. To learn more, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-servicenow-vault.md)
 
 </td></tr><tr><td>
 
@@ -4529,6 +4529,6 @@ sn\_vul.vulnerability\_admin
 Role required for complete access to the Vulnerability Response \(VR\) application and its records. Users with this role configure all VR applications and rules and can install third-party integrations.
 
 </td></tr></tbody>
-</table>-   **[Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md)**  
+</table>-   **[Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platsec-granular-roles.md)**  
 Use granular admin roles to verify access management by assigning roles that define user permissions and responsibilities.
 

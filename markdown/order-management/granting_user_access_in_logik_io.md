@@ -2,7 +2,7 @@
 title: Granting user access in CPQ
 description: This outline briefly examines how to add or limit users to CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/granting\_user\_access\_in\_logik\_io.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/granting\_user\_access\_in\_logik\_io.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -38,12 +38,12 @@ When using a custom UI \(such as React\) that calls CPQ APIs, CPQ leverages your
 
 ## Additional permissions to check
 
-[Assigning non-Admin user permissions for CPQ in Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/non-admin_user_permissions_for_logik_in_salesforce.md)
+[Assigning non-Admin user permissions for CPQ in Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/non-admin_user_permissions_for_logik_in_salesforce.md)
 
 [What to do if receiving and Insufficient Privileges or blank screen when launching a CPQ configuration](https://logikio.atlassian.net/wiki/spaces/CS/pages/1616314402/What+to+do+if+receiving+and+Insufficient+Privileges+or+blank+screen+when+launching+a+Logik+configuration#reverse_twin_productlist.extended_data_to_quoteline/bookmark4)
 
 **Related topics**  
 
 
-[CPQ: User Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_admin_user_access_control.md)
+[CPQ: User Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/logik_admin_user_access_control.md)
 

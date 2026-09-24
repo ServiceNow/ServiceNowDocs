@@ -2,7 +2,7 @@
 title: Configuring Document Templates
 description: Set up Document Templates to automate and simplify the process of filling, reviewing and signing a document online.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/set-up-doc-temp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/set-up-doc-temp.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -22,8 +22,8 @@ You can activate the Document Templates application from ServiceNow Store.
 
 **Note:** PDF document template and HTML document template are available with the Document Templates application. For Word document Template, Contract Management Pro \(paid\) or Legal Service Delivery \(paid\) license is required.
 
--   To configure and use a PDF document template, see [Document Templates of type PDF \(Advanced forms\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-PDF-flow.md).
--   To configure and use an HTML document template, see [Document Templates of type HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-flow-html.md).
+-   To configure and use a PDF document template, see [Document Templates of type PDF \(Advanced forms\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/document-templates-PDF-flow.md).
+-   To configure and use an HTML document template, see [Document Templates of type HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/document-templates-flow-html.md).
 
 ## Request apps on the Store
 

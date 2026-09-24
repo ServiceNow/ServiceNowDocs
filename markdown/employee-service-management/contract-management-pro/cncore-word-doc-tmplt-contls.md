@@ -2,7 +2,7 @@
 title: Add content controls in a Microsoft Word document
 description: As a contract configurator, prepare a Microsoft Word document that you want to import as a contract template by marking the content with content controls so it can be efficiently parsed and reused.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -64,7 +64,7 @@ Role required: sn\_cm\_core.contract\_config
 9.  Select **OK**.
 
 
-**Parent Topic:**[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)
+**Parent Topic:**[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)
 
 **Related topics**  
 

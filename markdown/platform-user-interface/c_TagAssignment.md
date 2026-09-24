@@ -2,7 +2,7 @@
 title: Assigning tags
 description: You can assign tags to records from the form or list view. You can also add tags to a homepage. Tags enable you to group and organize the items.You can assign one or more tags to a record directly from the list view.You can assign one or more tags to a record using the action menu in a list.You can assign one or more tags from the list context menu.You can assign one or more tags to a record using the More options menu in the form header.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_TagAssignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_TagAssignment.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The list view provides multiple ways of assigning tags. You can assign tags with
 
 **Note:** Tag names are case-insensitive and must not include punctuation.
 
-**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Tags.md)
 
 ## Assign a tag from the list view using inline field editing
 

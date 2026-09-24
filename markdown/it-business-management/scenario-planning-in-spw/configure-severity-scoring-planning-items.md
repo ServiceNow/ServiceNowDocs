@@ -2,12 +2,12 @@
 title: Update severity scoring configuration for portfolio insights
 description: Configure the severity thresholds and scoring factors that determine how planning items are classified as critical, medium, or low risk, so that Portfolio insights generates recommendations based on your organization's risk criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/configure-severity-scoring-planning-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/configure-severity-scoring-planning-items.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -99,5 +99,5 @@ The insights are generated for the following categories for a portfolio plan:
 
 ## What to do next
 
-To verify that the configuration is working as expected, open a portfolio plan that contains planning items with known delays and confirm that the severity classifications reflect the thresholds you set. For details, see [View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/view-portfolio-insights.md).
+To verify that the configuration is working as expected, open a portfolio plan that contains planning items with known delays and confirm that the severity classifications reflect the thresholds you set. For details, see [View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/view-portfolio-insights.md).
 

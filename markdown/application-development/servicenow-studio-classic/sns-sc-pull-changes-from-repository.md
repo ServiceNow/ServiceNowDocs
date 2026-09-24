@@ -2,7 +2,7 @@
 title: Pull changes from a repository
 description: Pull changes from a linked Git repository in ServiceNow Studio to apply remote updates to the local instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-pull-changes-from-repository.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-sc-pull-changes-from-repository.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -18,7 +18,7 @@ Pull changes from a linked Git repository in ServiceNow Studio to apply remote u
 
 ## Before you begin
 
-[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 Role required: admin
 
@@ -76,5 +76,5 @@ If there are conflicts, the system displays the **Resolve Conflicts** window.
 
 Delta loading is enabled by default in sys\_properties so your data is not removed. Disable this feature if you want data automatically deleted.
 
-**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
+**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
 

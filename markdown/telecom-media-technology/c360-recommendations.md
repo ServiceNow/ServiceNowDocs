@@ -2,7 +2,7 @@
 title: Recommendations panel
 description: The Recommendations panel displays Knowledge Base article suggestions and enables you to search for Knowledge Base articles and trigger agentic workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-recommendations.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-26"
@@ -14,7 +14,7 @@ breadcrumb: [Use, Telecommunications Customer 360, Telecommunications, Media, an
 
 The Recommendations panel displays Knowledge Base article suggestions and enables you to search for Knowledge Base articles and trigger agentic workflows.
 
-The Recommendations panel is available in the contextual side panel on the [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md). It contains two tabs:
+The Recommendations panel is available in the contextual side panel on the [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-home-page.md). It contains two tabs:
 
 -   Suggested actions: Knowledge Base articles that are available as part of demo data.
 -   Search: Enter a search term to find Knowledge Base articles and, when the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application is installed, agentic workflows that match the term.
@@ -54,17 +54,17 @@ If the rule mapping for the workflow includes a context data input, that JSON st
 
 For example, if you search for `suggest configuration items for change request CHG0001234` and select **Trigger Workflow**, the workflow opens in the AI Admin Hub with that full string as the initial prompt. The workflow uses the change request number directly to find relevant configuration items.
 
-To map the context data input for a workflow, open the recommendation rule record and populate the **Context Data** guidance input with an optional JSON string. Alternatively, open the search result mapping record and populate the **Context Data** guidance input. For more information, see [Launch agentic workflow guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-launch-agentic-workflow-guidance.md).
+To map the context data input for a workflow, open the recommendation rule record and populate the **Context Data** guidance input with an optional JSON string. Alternatively, open the search result mapping record and populate the **Context Data** guidance input. For more information, see [Launch agentic workflow guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-launch-agentic-workflow-guidance.md).
 
--   **[Launch agentic workflow guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-launch-agentic-workflow-guidance.md)**  
+-   **[Launch agentic workflow guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-launch-agentic-workflow-guidance.md)**  
 Launch agentic workflow guidance is a configuration record that determines which agentic workflow runs when a user selects it from the Recommended Actions panel. It also defines what context data is passed to the workflow during execution.
 
-**Parent Topic:**[Use Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-use.md)
+**Parent Topic:**[Use Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-use.md)
 
 **Related topics**  
 
 
-[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
+[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
 
-[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md)
+[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-home-page.md)
 

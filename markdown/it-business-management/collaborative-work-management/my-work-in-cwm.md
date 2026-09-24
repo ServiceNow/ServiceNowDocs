@@ -2,7 +2,7 @@
 title: My Work in CWM
 description: Manage your work from all ServiceNow applications from a centralized view in the Collaborative Work Management workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/my-work-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/my-work-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -20,12 +20,12 @@ My Work provides a centralized view of all your assigned tasks, including projec
 
 Work items from all ServiceNow applications assigned to you’re displayed in My Work. If you receive a work item on the CWM Board via Connected Work, those items appear here as well. This ensures you have a single source for all assigned work without the need to switch between applications.
 
-Project tasks from Project Workspace also appear in My Work when they are assigned to you directly or through a group. For details on the assignment paths that surface project tasks, see [View project tasks assigned to you in CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/view-project-tasks-in-cwm-my-work.md).
+Project tasks from Project Workspace also appear in My Work when they are assigned to you directly or through a group. For details on the assignment paths that surface project tasks, see [View project tasks assigned to you in CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/view-project-tasks-in-cwm-my-work.md).
 
 **Note:**
 
 -   Any task record created in a table that doesn’t extend the Task \[task\] table, such as VTask, won't show up in My Work.
--   If you’re added as **Additional assignee** to a task, work with your admin to enable the display of such tasks in My Work. See [Properties installed with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/properties-installed-with-cwm.md).
+-   If you’re added as **Additional assignee** to a task, work with your admin to enable the display of such tasks in My Work. See [Properties installed with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/properties-installed-with-cwm.md).
 
 \[Omitted image "cwm-my-work.png"\] Alt text: My Work filters in CWM.
 
@@ -115,7 +115,7 @@ Task by State
 
 </td><td>
 
-Bar chart that groups all work items assigned to you by their current state. Clicking a bar opens a list of tasks that meet the filter criteria for the corresponding bar.For more information on how the tasks are grouped by state, see [Grouping of tasks in status reports of CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.md).
+Bar chart that groups all work items assigned to you by their current state. Clicking a bar opens a list of tasks that meet the filter criteria for the corresponding bar.For more information on how the tasks are grouped by state, see [Grouping of tasks in status reports of CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Task by Priority
 
 </td><td>
 
-Bar chart that groups all work items assigned to you by their priority. Clicking a bar opens a list of tasks that meet the filter criteria for the corresponding bar.For more information on how the tasks are grouped by priority, see [Grouping of tasks in status reports of CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.md).
+Bar chart that groups all work items assigned to you by their priority. Clicking a bar opens a list of tasks that meet the filter criteria for the corresponding bar.For more information on how the tasks are grouped by priority, see [Grouping of tasks in status reports of CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.md).
 
 </td></tr></tbody>
 </table>\[Omitted image "cwm-my-work-list-view.png"\] Alt text: List view of work items from My Work.
@@ -136,5 +136,5 @@ The List view shows all open work items assigned to you. Select the **Short desc
 -   Any closed task that doesn't have dates populated isn’t shown in My Work.
 -   You can't perform bulk editing of state, priority, or date values of the tasks through My Work.
 
-**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
+**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 

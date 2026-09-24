@@ -2,7 +2,7 @@
 title: Create HTML and PDF document templates​
 description: Create a customized HTML document template​ in the Operational Resilience application to suit your business needs. You can use the customized HTML document template instead of the default HTML template to export an attestation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-an-html-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-an-html-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Creating a customized HTML document template is optional.
 
 4.  On the form, fill in the fields and click **Submit**.
 
-    The new template is displayed in the Document Templates list.​ For descriptions of the field values, see [HTML Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/html-template-reference-form.md).
+    The new template is displayed in the Document Templates list.​ For descriptions of the field values, see [HTML Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/html-template-reference-form.md).
 
 
 ## Result

@@ -2,7 +2,7 @@
 title: Model types in Enterprise Asset Management
 description: Every enterprise model in the Enterprise Asset Management application is assigned a model type that determines its structural nature. Each enterprise model can represent standalone enterprise assets, quantity-tracked consumable assets, or complex assemblies that are comprised of multiple components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/eam-model-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/eam-model-types.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -59,8 +59,8 @@ User-assembled models
 Represents equipment that you must assemble on-site using components from your existing inventory. With this model type, all required components must be readily available in your stockrooms before any assembly begins.
 
 </td></tr></tbody>
-</table>-   **[Multi-component models and assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complex-models.md)**  
+</table>-   **[Multi-component models and assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/complex-models.md)**  
 Multi-component models and multi-components assets help you track the maintenance of your enterprise assets.
 
-**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
+**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/eam-data-model.md)
 

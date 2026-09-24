@@ -2,7 +2,7 @@
 title: Indicators used in the CMDB success advisor for SAM dashboard
 description: Indicators enable viewing of high-level metrics that highlight data quality, completeness, and licensing compliance issues across software installs and their related configuration items \(CIs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management

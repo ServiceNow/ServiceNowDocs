@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Finance and Procurement
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-supporting-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-supporting-info.html
 release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
@@ -30,7 +30,7 @@ The ServiceNow Otto for Finance and Procurement application includes the skills 
 
 ## Required roles
 
-To use ServiceNow Otto for Finance and Procurement, you need specific roles. For more information, see [Roles for ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-common-roles.md).
+To use ServiceNow Otto for Finance and Procurement, you need specific roles. For more information, see [Roles for ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-common-roles.md).
 
 ## Licensing requirements
 
@@ -49,18 +49,18 @@ To use ServiceNow Otto for Finance and Procurement \(sn\_fsc\_genai\) with SPO, 
 -   ServiceNow Otto for APO \(sn\_ap\_gen\_ai\)
 
 
-For more information, see [Configuring ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md).
+For more information, see [Configuring ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md).
 
-**Parent Topic:**[Explore ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-exploring.md)
+**Parent Topic:**[Explore ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-exploring.md)
 
 **Related topics**  
 
 
 [Roles for ServiceNow Otto for Finance and Procurement]()
 
-[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 
-[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-slo.md)
+[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-slo.md)
 
-[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
+[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
 

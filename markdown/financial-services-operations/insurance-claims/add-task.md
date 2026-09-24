@@ -2,7 +2,7 @@
 title: Add an ad-hoc task
 description: Create a task as a processor, adjuster, or manager to help prioritize and plan your claim work better.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/add-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/add-task.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.auto\_processor, sn\_ins\_claim\_cml.auto\_ad
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d137721e82">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d137580e82">
 
 Option
 
-</th><th align="left" id="d137721e85">
+</th><th align="left" id="d137580e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d137721e91">
+</th></tr></thead><tbody><tr><td id="d137580e91">
 
 **From the landing page**
 
@@ -44,7 +44,7 @@ Steps
 
 From a claims list, select the claim case you want to create a new task for.
 
-</td></tr><tr><td id="d137721e100">
+</td></tr><tr><td id="d137580e100">
 
 **From the applicable case/tasks list**
 

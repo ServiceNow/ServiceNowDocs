@@ -2,7 +2,7 @@
 title: Success portfolio overview
 description: Get an overall view of your success portfolio including your engagements, account status, escalations, and risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-success-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Login as a user with the `sn_acct_lc.customer_success_agent` role and navigate t
 
 \[Omitted image "account-lifecycle-success-landing.png"\] Alt text: Customer success landing page
 
-**Note:** The colors displayed in the Overall engagement health and Engagement health by stage cards are based on the global color banding defined in the color banding table. See [Set up the color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) for details.
+**Note:** The colors displayed in the Overall engagement health and Engagement health by stage cards are based on the global color banding defined in the color banding table. See [Set up the color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) for details.
 
 In the My Active Engagements section, you can view the following:
 
@@ -40,10 +40,10 @@ In the My Active Engagements section, you can view the following:
     -   Active risk signals
     -   Last touchpoint
     -   Next renewal date
-    **Note:** The colors used in the health score displayed for each engagement is derived from the metric based color banding defined in the Color Banding table. See [Set up the color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) for details.
+    **Note:** The colors used in the health score displayed for each engagement is derived from the metric based color banding defined in the Color Banding table. See [Set up the color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) for details.
 
     Select an engagement to drill down to the detailed record page.
 
 
-**Parent Topic:**[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-dashboards.md)
+**Parent Topic:**[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-dashboards.md)
 

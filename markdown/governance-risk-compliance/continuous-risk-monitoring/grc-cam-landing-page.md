@@ -2,7 +2,7 @@
 title: Continuous Authorization and Monitoring
 description: Continuous Authorization and Monitoring \(CAM\) employs the seven steps defined by the NIST Risk Management Framework \(RMF\) to allow you to make better-informed decisions about your security posture.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -24,19 +24,19 @@ The video gives you an overview of the seven steps of the Risk Management Framew
 
 <table id="table_urw_xls_hcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text:The CAM application applies a standardized approach to automating NIST's Risk Management Framework \(RMF\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/exploring-grc-cam.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:The CAM application applies a standardized approach to automating NIST's Risk Management Framework \(RMF\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/exploring-grc-cam.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Follow the steps in the checklist to download CAM from the ServiceNow Store and get it ready for operation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Follow the steps in the checklist to download CAM from the ServiceNow Store and get it ready for operation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Define, categorize, secure, implement, and continuously assess to manage risk effectively.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/using-grc-cam.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Define, categorize, secure, implement, and continuously assess to manage risk effectively.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/using-grc-cam.md)
 
 </td><td>
 
-[Monitor \[Omitted image "bus-it-leader.svg"\] Alt text:The CAM Workspace is a centralized hub where you can continuously monitor and manage compliance with the NIST Risk Management Framework to ensure adherence to your security policies and guidelines.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
+[Monitor \[Omitted image "bus-it-leader.svg"\] Alt text:The CAM Workspace is a centralized hub where you can continuously monitor and manage compliance with the NIST Risk Management Framework to ensure adherence to your security policies and guidelines.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store

@@ -2,7 +2,7 @@
 title: Initiate limited definition scans
 description: You can scan individual definitions or suites of definitions on-demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/initiate-limited-def-scans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/initiate-limited-def-scans.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ Role required:
         Definition suites group related definitions. Scanning a suite runs all definitions in that suite.
 
 
-**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-impact-scan-engine.md)
+**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/using-impact-scan-engine.md)
 

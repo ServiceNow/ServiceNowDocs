@@ -2,7 +2,7 @@
 title: Image form
 description: The image form helps you to create an image file in the database for a custom shape that can be used in the Enterprise Modeling and Visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-image-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-image-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -75,10 +75,10 @@ Format, Size bytes, Height, and  Width
 View current image metadata. This information is automatically populated when the image is uploaded.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Storing shapes or images to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-store-image-databse.md)
+[Storing shapes or images to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-store-image-databse.md)
 

@@ -2,7 +2,7 @@
 title: Customer Project Management domain separation
 description: With Customer Project Management, you can create customer projects for customer accounts. Domain separation for customer projects is based on the account domain. New projects are created in the same domain as the associated customer account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-ppm-domain-separation.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

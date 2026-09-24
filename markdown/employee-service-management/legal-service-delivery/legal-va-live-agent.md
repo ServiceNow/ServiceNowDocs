@@ -2,7 +2,7 @@
 title: Live agent support for legal services
 description: Employees can contact a live agent from the Legal department \(a paralegal staff or lawyer\) via the Virtual Agent chat window to seek legal help.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/legal-va-live-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/legal-va-live-agent.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -44,13 +44,13 @@ In the Legal Counsel Center, users in the Legal department with the legal\_fulfi
     -   Transfer the chat to another queue.
     -   Send attachments to the chat.
 
--   **[Configure live agent support settings for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/set-up-live-agent-support.md)**  
+-   **[Configure live agent support settings for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/set-up-live-agent-support.md)**  
 Configure settings to enable live agent support for legal services.
 
-**Parent Topic:**[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md)
+**Parent Topic:**[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-va-conversations.md)
 
 **Related topics**  
 
 
-[Start a chat session through Legal Counsel Center Inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/chat-employee-counsel-center.md)
+[Start a chat session through Legal Counsel Center Inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/chat-employee-counsel-center.md)
 

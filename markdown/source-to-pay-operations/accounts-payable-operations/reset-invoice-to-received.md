@@ -2,7 +2,7 @@
 title: Reset an invoice to the Received status
 description: If you confirm an invoice as a duplicate by mistake, you can reset that invoice from the Confirmed duplicate status back to the Received status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/reset-invoice-to-received.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/reset-invoice-to-received.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -44,7 +44,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 The status of the invoice changes to Received.
 
-**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 

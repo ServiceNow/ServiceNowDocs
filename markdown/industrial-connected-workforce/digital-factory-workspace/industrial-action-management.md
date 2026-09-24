@@ -2,7 +2,7 @@
 title: Action Management
 description: Use Industrial Action Management to manage all ad-hoc tasks that don't fit into any of the standard processes. Document activities like following up on a safety incident or updating an Industrial Guided Task \(IGT\) standard in response to equipment behavior changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-action-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/industrial-action-management.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -34,14 +34,14 @@ A line manager notices unusual vibrations in a packaging machine during a routin
 
 This use of Action Management enables fast, flexible response to emerging issues, supports traceability, and helps maintain equipment reliability between scheduled tasks.
 
--   **[Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-industrial-action.md)**  
+-   **[Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-industrial-action.md)**  
 Create an action in the Digital Factory Workspace.
--   **[Create an action from another task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-action-from-another-task.md)**  
+-   **[Create an action from another task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-action-from-another-task.md)**  
 Create an action from another task in the Digital Factory Workspace.
--   **[Create a follow-up action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-follow-up-action.md)**  
+-   **[Create a follow-up action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-follow-up-action.md)**  
 Create a follow-up action from a task in the Digital Factory Workspace.
--   **[Priority matrix for actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/priority-matrix-actions.md)**  
+-   **[Priority matrix for actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/priority-matrix-actions.md)**  
 Use the priority matrix to see how priority is calculated based on impact and urgency.
 
-**Parent Topic:**[Industrial Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-workflows.md)
+**Parent Topic:**[Industrial Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-workflows.md)
 

@@ -2,7 +2,7 @@
 title: Connect intermediate certificates to root certificates
 description: Connect intermediate certificates to recently imported certificates or to root certificates located outside the servers to complete the certificate chain of trust.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/connect-intermediate-certificate-to-root.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/connect-intermediate-certificate-to-root.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ Connect intermediate certificates to recently imported certificates or to root c
 
 ## Before you begin
 
-If your root certificate is outside your server, you must first [Discover root certificates hosted outside servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discover-root-certificate-browser.md). If you need to import certificate files, [Run certificate discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
+If your root certificate is outside your server, you must first [Discover root certificates hosted outside servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discover-root-certificate-browser.md). If you need to import certificate files, [Run certificate discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
 
 **Note:** If your root certificates are already in your servers, they're discovered and connected to the certificate chain using the standard Discovery probes deployed to your servers.
 

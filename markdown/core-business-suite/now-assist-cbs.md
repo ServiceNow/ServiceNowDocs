@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Core Business Suite \(CBS\)
 description: ServiceNow Otto for Core Business Suite \(CBS\) supports administrators during Core Business Suite configuration through a guided conversational experience. It can help drive setup completion by displaying next actions, tracking configuration progress, and assisting with error resolution from a single chat interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/now-assist-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/now-assist-cbs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-22"
@@ -60,18 +60,18 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
 
--   **[Agentic Workflow in ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/using-ai-agent-workflows-na-cbs.md)**  
+-   **[Agentic Workflow in ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/using-ai-agent-workflows-na-cbs.md)**  
 Agentic workflow in ServiceNow Otto for Core Business Suite \(CBS\) supports the Core Business Suite setup process through a conversational interface.
--   **[Configure groups and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-groups.md)**  
+-   **[Configure groups and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/config-groups.md)**  
 Configure groups and roles for Core Business Suite business units through the Now Assist conversational experience.
--   **[Create a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/create-notification-using-na.md)**  
+-   **[Create a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/create-notification-using-na.md)**  
 Create notifications for Core Business Suite business units through the Now Assist conversational experience.
--   **[Edit a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/edit-existing-notification-using-na.md)**  
+-   **[Edit a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/edit-existing-notification-using-na.md)**  
 Edit notifications for Core Business Suite business units through the Now Assist conversational experience.
--   **[Bulk upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/manage-bulk-upload-using-na.md)**  
+-   **[Bulk upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/manage-bulk-upload-using-na.md)**  
 Upload records in bulk for Core Business Suite business units through the Now Assist conversational experience.
--   **[Bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/manage-bulk-edit-using-na.md)**  
+-   **[Bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/manage-bulk-edit-using-na.md)**  
 Edit records in bulk for Core Business Suite business units through the Now Assist conversational experience.
 
-**Parent Topic:**[Configure Core Business Suite using Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs-using-now-assist.md)
+**Parent Topic:**[Configure Core Business Suite using Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs-using-now-assist.md)
 

@@ -2,7 +2,7 @@
 title: Adding warning and failure messages to validation results
 description: You use the CdmPolicyUtil script include to add warning and failure messages to validation results in the CDM Policy Validation Results table. CDM expects validation warnings and failures to contain a node path, a snapshot ID, and a reference to the impacted node.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-about-cdmpolicyutil.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-about-cdmpolicyutil.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

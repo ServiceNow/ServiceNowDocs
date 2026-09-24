@@ -2,7 +2,7 @@
 title: Use the Find Window component
 description: Set the focus back on various windows that are inactive or running in the background as part of a Robotic Process Automation workflow in the RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-findwindow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-general-findwindow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: none
 
 The Find Window component identifies one or more rules associated with a Window and later uses the rules to set the focus back on the window. The component also returns the window handle of the window.
 
-You can configure the properties for the Find Window component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
+You can configure the properties for the Find Window component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/Properties-general-components.md).
 
 ## Procedure
 
@@ -57,5 +57,5 @@ You can configure the properties for the Find Window component. For more informa
 9.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/general-component.md)
 

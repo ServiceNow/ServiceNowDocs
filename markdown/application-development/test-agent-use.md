@@ -2,12 +2,12 @@
 title: Author, execute, and troubleshoot tests and test suites with Test Agent
 description: Use Test Agent to significantly reduce the skills and resources needed to troubleshoot test and test suite failures on covered metadata.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-agent-use.html
 release: australia
 topic_type: task
 last_updated: "2026-04-21"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -40,7 +40,7 @@ Role required: admin
 
         \[Omitted image "ta-ba-install.png"\] Alt text: Screenshot showing the banner message
 
-        See [Create new test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-tut-build-first.md) for more information.
+        See [Create new test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-tut-build-first.md) for more information.
 
     -   Troubleshoot ATF test/test suite failures.
     -   Use Test Agent, an extension to building or editing apps with Build Agent, to generate ATF tests/test suites for newly built or edited functionality, run those tests/test suites, and troubleshoot failures directly within the ServiceNow IDE or ServiceNow Studio context.

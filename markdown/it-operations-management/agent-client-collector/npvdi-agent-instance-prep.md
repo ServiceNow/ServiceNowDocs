@@ -2,7 +2,7 @@
 title: Prepare for agent deployment on a non-persistent virtual desktop infrastructure machine
 description: Configure the preliminary settings on an instance to enable using the agent with a non-persistent virtual desktop infrastructure machine \(NPVDI\) machine. NPVDI agents gather data more quickly than traditional agents not enabled for a VPVDI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -69,7 +69,7 @@ Configurations are set on a ServiceNow instance.
 
 ## What to do next
 
-Enable an agent to run as an NPVDI agent, as described in [Enable a non-persistent virtual desktop infrastructure \(NPVDI\) agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/enable-npvdi-agent.md).
+Enable an agent to run as an NPVDI agent, as described in [Enable a non-persistent virtual desktop infrastructure \(NPVDI\) agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/enable-npvdi-agent.md).
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

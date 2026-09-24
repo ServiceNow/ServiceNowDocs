@@ -2,7 +2,7 @@
 title: Data collection and discovery using VPC Flow Logs
 description: Service Mapping can perform discovery based on data collected using VPC Flow Logs. Amazon VPC hosts Amazon Elastic Compute Cloud \(EC2\) instances that provide Amazon Web Services. VPC Flow Logs collect data on IP traffic going to and from network interfaces in the VPC.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/data-collection-vpc-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/data-collection-vpc-mapping.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -42,5 +42,5 @@ In deployments with multiple flow log groups, configure a dedicated connector th
 
 [https://support.servicenow.com/kb\_view.do?sysparm\_article=KB0597467](https://support.servicenow.com/kb_view.do?sysparm_article=KB0597467)
 
-[Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traffic-based-discovery.md)
+[Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/traffic-based-discovery.md)
 

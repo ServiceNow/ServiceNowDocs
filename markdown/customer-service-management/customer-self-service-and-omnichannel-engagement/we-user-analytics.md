@@ -2,7 +2,7 @@
 title: Navigating the Usage Insights for Web Embeddable application
 description: Learn how to navigate the Usage Insights application to view telemetry data for Web Embeddables. Access user analytics dashboards that display metrics organized by module and page to understand component user interactions across your external websites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-user-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-user-analytics.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -285,5 +285,5 @@ Users can opt in or opt out of Usage Insights advanced tracking at any time thro
 **Related topics**  
 
 
-[Web Embeddables component events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-events-detail.md)
+[Web Embeddables component events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-events-detail.md)
 

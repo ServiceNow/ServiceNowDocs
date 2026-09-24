@@ -2,7 +2,7 @@
 title: Create a PostgreSQL connection
 description: Create a zero-copy connection to PostgreSQL to access relational database data in Zero Copy Connector Hub without moving or duplicating data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-postgresql-connection-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-postgresql-connection-zcc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -91,20 +91,20 @@ SSL
 
 </td><td>
 
-Option to enable or disable SSL for the connection. When **Enabled**, additional fields appear based on the selected SSL mode, Server Certificate Source, and Store type. See [PostgreSQL connection security configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-connection-security-fields-zcc.md) for the complete conditional field set.
+Option to enable or disable SSL for the connection. When **Enabled**, additional fields appear based on the selected SSL mode, Server Certificate Source, and Store type. See [PostgreSQL connection security configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/postgresql-connection-security-fields-zcc.md) for the complete conditional field set.
 
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with PostgreSQL.
 
-<table id="choicetable_pg_auth"><thead><tr><th align="left" id="d219086e264">
+<table id="choicetable_pg_auth"><thead><tr><th align="left" id="d219068e264">
 
 Option
 
-</th><th align="left" id="d219086e267">
+</th><th align="left" id="d219068e267">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d219086e273">
+</th></tr></thead><tbody><tr><td id="d219068e273">
 
 **Basic**
 
@@ -116,29 +116,29 @@ Option to use a username and password.
 2.  Enter the password associated with the username.
 
 
-</td></tr><tr><td id="d219086e294">
+</td></tr><tr><td id="d219068e294">
 
 **AWS IAM**
 
 </td><td>
 
-Option to authenticate using AWS RDS IAM \(temporary STS token-based\) authentication. See [PostgreSQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-authentication-method-fields-zcc.md) for the specific fields \(Database user, AWS region, AWS access key ID, AWS secret access key\).
+Option to authenticate using AWS RDS IAM \(temporary STS token-based\) authentication. See [PostgreSQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/postgresql-authentication-method-fields-zcc.md) for the specific fields \(Database user, AWS region, AWS access key ID, AWS secret access key\).
 
-</td></tr><tr><td id="d219086e313">
+</td></tr><tr><td id="d219068e313">
 
 **GCP IAM**
 
 </td><td>
 
-Option to authenticate using GCP Cloud IAM token-based authentication, with either a service account or user credentials. See [PostgreSQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-authentication-method-fields-zcc.md) for the specific fields \(Service account key \(JSON\), Database user, GCP token scope\).
+Option to authenticate using GCP Cloud IAM token-based authentication, with either a service account or user credentials. See [PostgreSQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/postgresql-authentication-method-fields-zcc.md) for the specific fields \(Service account key \(JSON\), Database user, GCP token scope\).
 
-</td></tr><tr><td id="d219086e332">
+</td></tr><tr><td id="d219068e332">
 
 **OAuth**
 
 </td><td>
 
-Option to authenticate using Azure AD / Entra ID OAuth 2.0 \(Resource Owner Password Credentials flow\). See [PostgreSQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-authentication-method-fields-zcc.md) for the specific fields \(OAuth credential type, Database user, Azure tenant ID, Azure client ID, Azure client secret, Azure token scope\).
+Option to authenticate using Azure AD / Entra ID OAuth 2.0 \(Resource Owner Password Credentials flow\). See [PostgreSQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/postgresql-authentication-method-fields-zcc.md) for the specific fields \(OAuth credential type, Database user, Azure tenant ID, Azure client ID, Azure client secret, Azure token scope\).
 
 </td></tr></tbody>
 </table>5.  Select **Connect**.
@@ -150,14 +150,14 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 
 **Related topics**  
 
 
-[PostgreSQL connection security configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-connection-security-fields-zcc.md)
+[PostgreSQL connection security configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/postgresql-connection-security-fields-zcc.md)
 
-[PostgreSQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-authentication-method-fields-zcc.md)
+[PostgreSQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/postgresql-authentication-method-fields-zcc.md)
 

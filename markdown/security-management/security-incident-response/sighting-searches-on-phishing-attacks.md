@@ -2,7 +2,7 @@
 title: Sightings searches on user-reported phishing and malware attacks
 description: Perform sightings searches on emails or observables to determine how often certain types of attacks, such as phishing attacks or communications with a malicious IP or URL occur in your network. Each occurrence is considered a sighting. Sightings searches for observables must be configured for your log stores or security information and event management \(SIEM\).Search for users who have received phishing emails based on observables such as email subject, sender name, or message ID. You can then contain and eradicate these phishing emails from your organization.Perform sightings searches on observables to find out how many users have visited a malicious or suspicious website within a specific period.Create multiple sightings search configuration records and use them while querying multiple log stores or varying the search parameters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sighting-searches-on-phishing-attacks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sighting-searches-on-phishing-attacks.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +23,7 @@ The following terms are used to describe user-reported phishing attacks:
 -   Phished user: A user who has received a phishing email.
 -   Victim user: A user who has interacted with the phishing URL, typically by clicking a link in the phishing email. This action potentially exposes credentials to the attacker.
 
-As you start analyzing a phishing incident, you can [Perform an email sightings search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sighting-searches-on-phishing-attacks.md) or [Perform an observable sightings search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sighting-searches-on-phishing-attacks.md) to identify other users in your organization who are impacted by the same phishing attack. Search your log stores to identify phished and victim users. After you have identified the list of affected users, create child security incidents to perform comprehensive incident response procedures using the tools available in Security Incident Response.
+As you start analyzing a phishing incident, you can [Perform an email sightings search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sighting-searches-on-phishing-attacks.md) or [Perform an observable sightings search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sighting-searches-on-phishing-attacks.md) to identify other users in your organization who are impacted by the same phishing attack. Search your log stores to identify phished and victim users. After you have identified the list of affected users, create child security incidents to perform comprehensive incident response procedures using the tools available in Security Incident Response.
 
 **Note:** You can also use the following approach to perform a sightings search:
 
@@ -43,7 +43,7 @@ Configure sighting searches and create saved configurations for SIEMs or other l
 **Related topics**  
 
 
-[Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-search-configurations.md)
+[Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-search-configurations.md)
 
 ## Perform an email sightings search for user-reported phishing attacks
 

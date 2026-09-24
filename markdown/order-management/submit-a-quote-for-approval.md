@@ -2,7 +2,7 @@
 title: Submit a quote for advanced approval
 description: Submit a quote for advanced approval to route it to required approvers before sharing it with a customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/submit-a-quote-for-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/submit-a-quote-for-approval.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,5 +49,5 @@ If your administrator has configured reminder schedules, approvers receive autom
 
 The quote is submitted for approval and enters the In Review state. Approval requests are generated based on configured approval rules and sequencing.
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

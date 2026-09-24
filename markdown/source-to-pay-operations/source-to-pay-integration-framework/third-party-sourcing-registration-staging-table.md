@@ -2,7 +2,7 @@
 title: Third Party Sourcing Registration staging table
 description: The Third Party Sourcing Registration \[sn\_spend\_intg\_sourcing\_vendor\] table temporarily stores important data on third party sourcing registrations before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/third-party-sourcing-registration-staging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/third-party-sourcing-registration-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -21,7 +21,7 @@ The Third Party Sourcing Registration \[sn\_spend\_intg\_sourcing\_vendor\] tabl
 |Third-party sourcing registration name|String|Name of the third-party sourcing registration to be integrated with ServiceNow.|
 |Third-party sourcing registration code|String|User defined code to be associated to the third-party sourcing registration.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

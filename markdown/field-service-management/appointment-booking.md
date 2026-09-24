@@ -2,7 +2,7 @@
 title: Appointment booking
 description: Appointment booking enables you to configure, manage and create appointments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/appointment-booking.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,12 +33,12 @@ Key features of appointment booking include:
 
 ## Appointment Booking based on Capacity and Reservations Management
 
-Appointment Booking considers the defined capacity and reservations for a territory or group to show the available slots. For more information, see [Learn about appointment availability settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appt-booking-task-assignment.md).
+Appointment Booking considers the defined capacity and reservations for a territory or group to show the available slots. For more information, see [Learn about appointment availability settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/appt-booking-task-assignment.md).
 
 **Related topics**  
 
 
-[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appointment-booking-administer.md)
+[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 
-[Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking/managing-appointments.md)
+[Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/appointment-booking/managing-appointments.md)
 

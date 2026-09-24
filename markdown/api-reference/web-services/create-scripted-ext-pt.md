@@ -2,7 +2,7 @@
 title: Create a scripted extension point
 description: Create a scripted extension point that can be placed in a script include in the base application code. By placing the scripted extension point, you designate the specific location in the application code where data or objects can be sent to a customization and where data is returned.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/create-scripted-ext-pt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/create-scripted-ext-pt.html
 release: australia
 product: Web Services
 classification: web-services
@@ -48,5 +48,5 @@ By creating a good definition, you provide a structure for the extensions.
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md)
+**Parent Topic:**[Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/impl-scripted-ext-pts-base-code.md)
 

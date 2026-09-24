@@ -2,7 +2,7 @@
 title: Map Proofpoint DLP incidents status with ServiceNow incident status
 description: Synchronize the status of the DLP incidents ingested on your ServiceNow instance and DLP incidents of the Proofpoint. Map the ServiceNow Incident status with the Proofpoint Incident status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/map-proofpoint-dlp-incident-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/map-proofpoint-dlp-incident-status.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -48,5 +48,5 @@ A record for mapping is successfully created. The statuses of the ServiceNow inc
 
 When you change the status of any DLP incident on your ServiceNow instance, then the status of the associated Proofpoint DLP incident will be changed on the source Proofpoint platform as per the mapping set in the record.
 
-**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)
 

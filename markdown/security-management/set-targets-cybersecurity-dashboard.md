@@ -2,7 +2,7 @@
 title: Set targets
 description: Set targets in days to remediate the vulnerabilities, security incidents, and misconfigurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/set-targets-cybersecurity-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/set-targets-cybersecurity-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

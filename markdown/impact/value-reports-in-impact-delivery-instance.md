@@ -2,7 +2,7 @@
 title: Value Reports in Impact Delivery Instance
 description: Your impact squad can work with you to calculate the operational or monetized value you have realized with ServiceNow in a Value Report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/value-reports-in-impact-delivery-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/value-reports-in-impact-delivery-instance.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-18"
@@ -67,9 +67,9 @@ Value reporting actuals
 </td></tr></tbody>
 </table>## Upgrade to the Impact Store Application
 
-This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
+This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/install-impact-innovation-lab.md) for more information.
 
 **Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
 

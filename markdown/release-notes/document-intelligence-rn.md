@@ -2,7 +2,7 @@
 title: Document Intelligence release notes
 description: The ServiceNow Document Intelligence application is an artificial intelligence \(AI\) solution that quickly and accurately categorizes and extracts information from documents.The ServiceNow Document Intelligence application is an artificial intelligence \(AI\) solution that quickly and accurately categorizes and extracts information from documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/document-intelligence-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/document-intelligence-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ The ServiceNow® Document Intelligence application is an artificial intelligence
 
 ## Activation and other requirements
 
-**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/intelligent-experiences-rn-landing.md)
+**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/intelligent-experiences-rn-landing.md)
 
 ## Australia
 

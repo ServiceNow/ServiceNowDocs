@@ -2,7 +2,7 @@
 title: Default read-only flows
 description: Open existing flows in a read-only state to protect them from accidental changes. While a flow is in a read-only state, you can only review, test, deactivate, or request to edit it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/default-read-only-flows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/default-read-only-flows.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -39,5 +39,5 @@ When you're done editing a flow, you can make it read only so that other people 
 
 \[Omitted image "example-make-flow-read-only-option.png"\] Alt text: More actions menu displaying the Make flow read only option.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md)
 

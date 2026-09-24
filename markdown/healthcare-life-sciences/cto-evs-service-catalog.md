@@ -2,7 +2,7 @@
 title: Service Catalog installed with Care Team Operations for Environmental Services
 description: The Care Team Operations for Environmental Services service catalog is organized into a hierarchy of EVS-related categories and subcategories that care teams commonly report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-service-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-service-catalog.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

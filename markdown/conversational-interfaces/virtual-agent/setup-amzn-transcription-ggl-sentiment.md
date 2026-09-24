@@ -2,7 +2,7 @@
 title: Set up transcription for Amazon Connect
 description: Configure Conversational IVR with Amazon Connect application to store the conversation between the agent and the user over Softphone as a transcript.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/setup-amzn-transcription-ggl-sentiment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/setup-amzn-transcription-ggl-sentiment.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -101,5 +101,5 @@ Role required: admin
         ```
 
 
-**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-aws-account.md)
+**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-aws-account.md)
 

@@ -2,7 +2,7 @@
 title: Activate and setup Learning
 description: Learn how to set up and start using Learning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/setup-activate-learning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/setup-activate-learning.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -34,11 +34,11 @@ Learning leverages the new, Talent Development licensing module. This licensing 
 
 Learning comes with optional demo data.
 
-For more information, see [Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/configuring-learning.md) and [Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-experience-reference.md).
+For more information, see [Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/configuring-learning.md) and [Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-experience-reference.md).
 
 ## Skills Foundation integration with Learning
 
 Learning integrates Skills Foundation to skill based recommendations for a learner. Learning admins can add skills to a learning course by searching and selecting skills using the skills Intelligent widget.
 
-For more information, see [Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-your-learning.md).
+For more information, see [Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-your-learning.md).
 

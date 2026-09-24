@@ -2,7 +2,7 @@
 title: Add dependencies for roadmap items
 description: Create dependencies and visualize relationships between planning items of your portfolio or free-form roadmap, so that you can adjust their scheduling.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -25,7 +25,7 @@ Role required: sn\_align\_core.apw\_user
 
 From the portfolio roadmap or the free-form roadmap, use the item details side panel to create dependencies between two planning items. Dependencies are supported for projects, epics, demands, initiatives, programs, or any custom planning item types that you may have created.
 
-The dependency for a planning item on your roadmap can be on an item from the same roadmap, a different roadmap, or the item might not be planned yet. [Learn more about dependencies in the roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/roadmap-planning-overview.md).
+The dependency for a planning item on your roadmap can be on an item from the same roadmap, a different roadmap, or the item might not be planned yet. [Learn more about dependencies in the roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/roadmap-planning-overview.md).
 
 **Note:** Dependencies for free-form roadmaps are available only if the roadmap's source table is Planning Item \[sn\_align\_core\_planning\_item\] or one of its extensions.
 
@@ -70,7 +70,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 5.  On the form, fill in the fields.
 
-    For form field information, see [Dependency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/dependency-form-portfolio-planning.md).
+    For form field information, see [Dependency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/dependency-form-portfolio-planning.md).
 
 6.  Select **Save**.
 
@@ -79,7 +79,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 The dependency is created between the selected planning items and is listed in the Dependencies tab of the Item details side panel.\[Omitted image "dependencies-item-details-panel.png"\] Alt text: Dependency details in side panel.
 
-On the roadmap, you can see the dependency details from the roadmap item card or the dependency lines. [Learn about display settings available for dependencies on the roadmap.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md)
+On the roadmap, you can see the dependency details from the roadmap item card or the dependency lines. [Learn about display settings available for dependencies on the roadmap.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md)
 
 If one of the dependency items is not on the roadmap, then the dependency details are shown on the roadmap item card, with a redirect link to the external planning item. In this case, the items could belong to the same roadmap or not.
 
@@ -87,11 +87,11 @@ If one of the dependency items is not on the roadmap, then the dependency detail
 
 ## What to do next
 
--   [Learn how to resolve a roadmap item dependency error.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/error-state-for-planning-item-dependencies.md)
--   Update the dependency details or delete it. See [Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.md).
+-   [Learn how to resolve a roadmap item dependency error.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/error-state-for-planning-item-dependencies.md)
+-   Update the dependency details or delete it. See [Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.md).
 
--   **[Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.md)**  
+-   **[Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.md)**  
 Update or delete the dependencies for the planning items on your roadmap so that they reflect any change of plans.
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

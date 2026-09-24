@@ -2,7 +2,7 @@
 title: Implementing notification action with a script
 description: Use the Script field in the Notification Action form to update and implement a notification action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/notification-action-script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/notification-action-script.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,5 +52,5 @@ Role required: admin
 6.  Select **Update**.
 
 
-**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-provider-notification-using.md)
+**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-provider-notification-using.md)
 

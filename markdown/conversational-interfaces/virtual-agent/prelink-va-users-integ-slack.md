@@ -2,7 +2,7 @@
 title: Link Virtual Agent requesters before integration with Slack
 description: Link your Virtual Agent requesters to a ServiceNow instance before they run the Conversational Integration with Slack. Batch linking lets your Virtual Agent users chat immediately and receive notifications without going through the initial authentication linking process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/prelink-va-users-integ-slack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/prelink-va-users-integ-slack.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Link your Virtual Agent requesters to a ServiceNow instance before they run the 
 
 ## Before you begin
 
--   [Manage the ServiceNow Virtual Agent integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-slack.md), with the **Automatically Link ServiceNow user profiles** option enabled.
+-   [Manage the ServiceNow Virtual Agent integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-slack.md), with the **Automatically Link ServiceNow user profiles** option enabled.
 -   [Set up Slack Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-slack.md).
 
 Roles required:
@@ -56,5 +56,5 @@ Batch linking happens automatically during the **Slack Daily Pre-Link Job** sche
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configure Virtual Agent settings for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-slack-settings.md)
+**Parent Topic:**[Configure Virtual Agent settings for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-slack-settings.md)
 

@@ -2,12 +2,12 @@
 title: Generate Personal Auth Initiator URL
 description: Generate the initial token for a user who doesn’t have access to the credentials page to configure personal authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/generate-initial-token.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/generate-initial-token.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Personal authentication, Authentication, Access Management]
 ---

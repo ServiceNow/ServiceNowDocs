@@ -2,7 +2,7 @@
 title: Create remote task definitions in Service Exchange for Providers in Public Sector Digital Services
 description: As a government agency provider, you can create remote task definitions that trigger the assignment of remote task\(s\) to your constituent. Remote tasks originate in the agency provider instance \(where they auto-create an associated government case record\), and are pushed to your constituent through the Government Service Portal, enabling both provider and consumer to keep case records and details in sync.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-config-create-remote-task-def.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-servicebridge-config-create-remote-task-def.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

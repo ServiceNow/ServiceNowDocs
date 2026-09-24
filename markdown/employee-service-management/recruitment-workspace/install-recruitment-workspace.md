@@ -2,7 +2,7 @@
 title: Install Recruitment workspace
 description: You can install the Recruitment workspace application \(sn\_ta\_recruiter\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/install-recruitment-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/install-recruitment-workspace.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -27,7 +27,7 @@ Role required: admin
 
 Scheduled jobs and Store applications are installed with Recruitment workspace.
 
-For more information, see [Components installed with Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/installed-with-recruitment-w.md).
+For more information, see [Components installed with Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/installed-with-recruitment-w.md).
 
 ## Procedure
 
@@ -52,5 +52,5 @@ For more information, see [Components installed with Recruitment workspace](http
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/config-recruitment.md)
 

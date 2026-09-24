@@ -2,7 +2,7 @@
 title: SpendInt APIs
 description: SpendInt APIs allow external procurement systems to send catalog, pricing, order, shipment, and invoice data to ServiceNow, synchronizing procurement data from third-party systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -59,7 +59,7 @@ During catalog ingestion, the framework determines a supplier product's model th
     -   The imported manufacturer is not used in this path.
     -   The canonical model is assigned to the supplier product.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Edit a Task Mining project
 description: Change the project settings, project tasks, or workstation users assigned to a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/edit-task-mining-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/edit-task-mining-project.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -42,9 +42,9 @@ Role required: admin
 **Related topics**  
 
 
-[Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/create-task-mining-projects.md)
+[Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/create-task-mining-projects.md)
 
-[Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md)
+[Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/mine-data.md)
 
-[Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/add-users-to-task-mining-project.md)
+[Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/add-users-to-task-mining-project.md)
 

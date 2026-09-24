@@ -2,7 +2,7 @@
 title: Evaluate HAM data integration coverage
 description: Identify supported model categories and attributes from a Discovery pattern or Service Graph Connector to evaluate data coverage and upgrade requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-evaluate-data-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-evaluate-data-integration.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

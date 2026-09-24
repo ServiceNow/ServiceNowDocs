@@ -2,7 +2,7 @@
 title: Create a risk assessment scope in the Risk Workspace
 description: Create a risk assessment scope to identify risks for an entity, define assessors and approvers, set assessment frequency, and initiate assessments using the Risk Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-asses-scope-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-asses-scope-workspace.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -186,5 +186,5 @@ Number of days within which the assessment should be completed after it is initi
 16. To go back in the workflow and change the scope, assignment, or frequency, select the menu \[Omitted image "more-actions-new.png"\] Alt text: Menu icon. icon, and then select **Redefine scope**.
 
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Viewing Login History in Identity Center
 description: Provides details about your login history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/login-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/login-history.html
 release: australia
 product: Identity
 classification: identity

@@ -2,7 +2,7 @@
 title: Components installed with Personal Lines Underwriting
 description: Several types of components are installed with installation of the Personal Lines Underwriting application \(sn\_ins\_underwrite\), including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/installed-with-fso-underwriting-ops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/installed-with-fso-underwriting-ops.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -95,5 +95,5 @@ Underwriting Service Task \(Personal\)\[sn\_ins\_underwrite\_b2c\_task\]
 Stores all underwriting tasks for personal policy service requests for all Financial Services Operations applications. This table extends the Financial Task \[sn\_bom\_task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Personal Lines Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ins-policy-ops-reference.md)
+</table>**Parent Topic:**[Personal Lines Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/ins-policy-ops-reference.md)
 

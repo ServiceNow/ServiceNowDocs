@@ -2,7 +2,7 @@
 title: Discovering knowledge articles and catalog items for employees
 description: Discover all the users who have a similar profile as the employee who has logged in to Employee Service Center. Identify the top viewed knowledge articles and top submitted catalog items by those users. Display the top three knowledge articles and top three catalog items to the employee.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/user-profile-based-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/user-profile-based-recommendations.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,7 +30,7 @@ By default, the User Profile Based Recommendation solution definition is configu
 -   The Predictive Intelligence \(com.glide.platform\_ml\) plugin is installed.
 -   The**glide.platform\_ml.auto\_training.enabled** system property is set to true.
 
-You can [manually train the predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md) if it is not auto trained by default. After you manually train the predictive model, navigate to the **HR AI configuration** module, open the Similar users group record, and map the configured solution definition.
+You can [manually train the predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md) if it is not auto trained by default. After you manually train the predictive model, navigate to the **HR AI configuration** module, open the Similar users group record, and map the configured solution definition.
 
 ## Configuring widget options
 

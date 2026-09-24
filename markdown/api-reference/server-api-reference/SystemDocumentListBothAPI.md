@@ -2,7 +2,7 @@
 title: SystemDocumentList - Scoped, Global
 description: The SystemDocumentList API provides methods for setting the record fields in the Document Lists \[ds\_document\_lists\] table.Instantiates a SystemDocumentList object.Sets the Description field of a new document list record.Sets the Name field of a document list record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SystemDocumentListBothAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/SystemDocumentListBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,9 +18,9 @@ The SystemDocumentList API provides methods for setting the record fields in the
 
 This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-services-landing-page.md).
 
-To create or manage a document list, use the [DocumentListService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentListServiceBothAPI.md).
+To create or manage a document list, use the [DocumentListService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentListServiceBothAPI.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## SystemDocumentList - SystemDocumentList\(String docListName\)
 
@@ -52,7 +52,7 @@ Sets the Description field of a new document list record.
 |----|-----------|
 |None| |
 
-The following example shows how to add a description to the document list. See also [DocumentListService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentListServiceBothAPI.md).
+The following example shows how to add a description to the document list. See also [DocumentListService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentListServiceBothAPI.md).
 
 ```
 var dL = new sn_doc_services.SystemDocumentList('My document list');
@@ -88,7 +88,7 @@ Sets the Name field of a document list record.
 |----|-----------|
 |None| |
 
-The following example shows how to rename an existing document list. See also [DocumentListService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentListServiceBothAPI.md).
+The following example shows how to rename an existing document list. See also [DocumentListService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentListServiceBothAPI.md).
 
 ```
 var docListID = 'b2c021a924683c10f877a6fed1c2b0b1';

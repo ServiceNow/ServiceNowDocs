@@ -2,7 +2,7 @@
 title: Data Privacy
 description: Use Data Privacy to classify sensitive data and to remove personally identifiable information \(PII\) from user data in a production instance and anonymize data in non-production instances. Once anonymized, the user data is no longer considered regulated private information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/data-privacy-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-privacy-classic/data-privacy-landing.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -18,19 +18,19 @@ Use Data Privacy to classify sensitive data and to remove personally identifiabl
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore Data Privacy \[Omitted image "icon-explore.png"\] Alt text: Exploring Data privacy Learn about Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy.md)
+[Explore Data Privacy \[Omitted image "icon-explore.png"\] Alt text: Exploring Data privacy Learn about Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy.md)
 
 </td><td>
 
-[Configure Data Privacy \[Omitted image "icon-set-up.png"\] Alt text: Configure Data Privacy Learn how to configure Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-config.md)
+[Configure Data Privacy \[Omitted image "icon-set-up.png"\] Alt text: Configure Data Privacy Learn how to configure Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/data-privacy-config.md)
 
 </td></tr><tr><td>
 
-[Roles in Data Privacy \[Omitted image "icon-reference.png"\] Alt text: Roles for Data Privacy Get details about roles in Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-roles.md)
+[Roles in Data Privacy \[Omitted image "icon-reference.png"\] Alt text: Roles for Data Privacy Get details about roles in Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/data-privacy-roles.md)
 
 </td><td>
 
-[Data Privacy Advanced Features \[Omitted image "icon-workspace.png"\] Alt text: Advanced Learn about the advanced features of Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-privacy-overview.md)
+[Data Privacy Advanced Features \[Omitted image "icon-workspace.png"\] Alt text: Advanced Learn about the advanced features of Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/dps-data-privacy-overview.md)
 
 </td></tr></tbody>
 </table>

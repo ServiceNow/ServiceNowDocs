@@ -2,7 +2,7 @@
 title: Virtual Agent Lite
 description: Virtual Agent Lite is a limited version of Virtual Agent that is available to ITSM standard customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-lite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-lite.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -44,7 +44,7 @@ For Australia, the Virtual Agent Designer features available in Virtual Agent Li
 
     -   Enable Virtual Agent to discover topics for use in chats.
     -   Include a topic in the **All Topics** menu. This menu lists all of the topics that are available for use.
-    For more information about using these options, see [Control topic discovery and visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/manage-topics-task.md).
+    For more information about using these options, see [Control topic discovery and visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/manage-topics-task.md).
 
 
 After using Virtual Agent Lite, you can upgrade to Virtual Agent to access all of the features. Contact your ServiceNow account representative for upgrade information.
@@ -70,5 +70,5 @@ Virtual Agent Lite has the following limitations:
 
 ## What to do
 
-Set up and configure Virtual Agent Lite. For details, see [Quick start for Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/quick-start-va-lite.md).
+Set up and configure Virtual Agent Lite. For details, see [Quick start for Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/quick-start-va-lite.md).
 

@@ -2,7 +2,7 @@
 title: Use automation to create standard tasks
 description: Set up an automation to create a standard task that is directly related to the Industrial Guided Task \(IGT\) that triggered the standard task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/use-automation-create-standard-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/use-automation-create-standard-tasks.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -48,7 +48,7 @@ The automation action belongs to the Action Category called Guided Task Automati
 
 9.  On the Set actions form, fill in the fields.
 
-    For a description of the field values, see [Standard automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/standard-task-automation-form.md).
+    For a description of the field values, see [Standard automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/standard-task-automation-form.md).
 
 10. Select **Close**.
 
@@ -57,5 +57,5 @@ The automation action belongs to the Action Category called Guided Task Automati
 12. Select the option **I understand the automation will no longer be editable** and then select **Activate**.
 
 
-**Parent Topic:**[Using Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.md)
+**Parent Topic:**[Using Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.md)
 

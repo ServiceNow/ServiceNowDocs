@@ -2,7 +2,7 @@
 title: Review and optimize articles using Article Optimization
 description: The Knowledge Center Article Optimization feature provides automated, actionable feedback to improve content quality, accessibility, and search engine optimization, with configurable scans to identify and fix issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-review-and-optimize-articles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/kc-review-and-optimize-articles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: agent
 
 ## About this task
 
-Review and optimize knowledge articles in the Knowledge Center \(KC\) by running quality scans of all the articles. Default settings come with default scan configurations, but you can also customize scan jobs. For more on creating an Article Optimization job, see [Configure Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuring-article-optimization-jobs.md).
+Review and optimize knowledge articles in the Knowledge Center \(KC\) by running quality scans of all the articles. Default settings come with default scan configurations, but you can also customize scan jobs. For more on creating an Article Optimization job, see [Configure Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuring-article-optimization-jobs.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Generate an email response for procurement cases
 description: Enables procurement specialists and buyers to generate professional, accurate email responses using ServiceNow Otto. By minimizing manual drafting and review, it helps procurement specialists and buyers respond to requester inquiries more efficiently and focus on higher-value procurement tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/email-response-na-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/email-response-na-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -83,7 +83,7 @@ To generate an email response for the following records:-   Negotiation
 
 An AI-generated email response is sent to the requester.
 
-**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 **Related topics**  
 

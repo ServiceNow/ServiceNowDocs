@@ -2,7 +2,7 @@
 title: Modify a manual cluster
 description: Modify an existing manual cluster to update its service, CI, CI class, or description.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/modify-a-manual-cluster.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/modify-a-manual-cluster.html
 release: australia
 product: Event Management
 classification: event-management
@@ -57,10 +57,10 @@ Role required: evt\_mgmt\_admin
 
 The manual cluster is saved in the EM Impact Manual Cluster \[em\_impact\_manual\_cluster\] table. The impact calculation is recalculated automatically.
 
-**Parent Topic:**[Configuring CIs in a manual service as a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manual-cluster-in-a-manual-service.md)
+**Parent Topic:**[Configuring CIs in a manual service as a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manual-cluster-in-a-manual-service.md)
 
 **Related topics**  
 
 
-[Configuring CIs in a manual service as a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manual-cluster-in-a-manual-service.md)
+[Configuring CIs in a manual service as a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manual-cluster-in-a-manual-service.md)
 

@@ -2,7 +2,7 @@
 title: Technology portfolio audit form
 description: You can use the Technology portfolio audit table to view audit information for your applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-technology-portfolio-audit-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-technology-portfolio-audit-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -152,10 +152,10 @@ Technology lifecycle
 TLM technology lifecycle information of the software product or hardware model.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)
+[Technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)
 

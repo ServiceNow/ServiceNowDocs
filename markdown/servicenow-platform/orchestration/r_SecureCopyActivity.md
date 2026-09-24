@@ -2,7 +2,7 @@
 title: Secure Copy activity
 description: The Secure Copy activity copies a file from one host to another, without storing the copied file on the MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_SecureCopyActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/r\_SecureCopyActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -16,7 +16,7 @@ breadcrumb: [SSH activity pack, Orchestration activity packs, Classic Orchestrat
 
 The Secure Copy activity copies a file from one host to another, without storing the copied file on the MID Server.
 
-This activity replaces an SSH activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [SSH activity designer template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAnSSHActivity.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
+This activity replaces an SSH activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [SSH activity designer template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAnSSHActivity.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
 
 ## Input variables
 
@@ -33,7 +33,7 @@ This activity replaces an SSH activity by the same name available in releases pr
 
 |Output variable|Description|
 |---------------|-----------|
-|payload|The **executionResult.payload** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md).|
+|payload|The **executionResult.payload** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md).|
 |output|The **executionResult.output** from the parsing sources.|
 
 ## Conditions
@@ -43,5 +43,5 @@ This activity replaces an SSH activity by the same name available in releases pr
 |Success|Activity successfully copied the file from one host to another.|
 |Failure|Activity failed to copy the file from one host to another.|
 
-**Parent Topic:**[SSH activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationSSHCustomActivities.md)
+**Parent Topic:**[SSH activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationSSHCustomActivities.md)
 

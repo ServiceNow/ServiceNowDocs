@@ -2,7 +2,7 @@
 title: Table Builder workflow and navigation
 description: You can start using Table Builder to manage your data tables, forms, or flows by reviewing this high-level workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/form-builder-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/form-builder-glide-family-release/form-builder-workflow.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -36,7 +36,7 @@ Choosing a table or form to work with
 
 </td><td>
 
-To choose a data table or form to work with, launch Table Builder as instructed in [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md) and choose the table or form to work with.
+To choose a data table or form to work with, launch Table Builder as instructed in [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/accessing-form-builder.md) and choose the table or form to work with.
 
  **Note:** While using Table Builder in App Engine Studio, the table selected here is chosen when you select a table in your app. However, if Table Builder is launched from UI Builder, you can choose a table to work with from the drop-down list that displays the name of your currently selected table.
 
@@ -50,7 +50,7 @@ Select a domain and application scope to work within from Table Builder navigati
 
  **Note:** While using Table Builder in App Engine Studio, the application scope selected is the app you're working in. However, if Table Builder is launched from UI Builder, you can choose an application scope to work with from the drop-down list in the top right side of your screen \(e.g., Global\).
 
- See [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md) and [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
+ See [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-builder-domain-separation.md) and [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Modifying table properties
 
 Select **Data** tab to edit table properties directly.
 
- For more information, see [Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-builder.md).
+ For more information, see [Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/table-builder.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Customizing form views
 
 Select **Forms** tab to create and customize new views or configure the form elements for a selected view.
 
- For more information, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md).
+ For more information, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-view-configuration.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Configuring policies and rules
 
 Select **Policies and rules** tab to configure and control how data is displayed for your form views.
 
- For more information, see [Policies and rules in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-policies-rules.md).
+ For more information, see [Policies and rules in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-builder-policies-rules.md).
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Previewing a form and managing your changes
 
 </td><td>
 
-At any point in the process, you can preview the changes you have made by selecting **Preview**. For more information, see [Preview your form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/preview-your-form.md).
+At any point in the process, you can preview the changes you have made by selecting **Preview**. For more information, see [Preview your form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/preview-your-form.md).
 
  Save your form view changes at any point in the process by clicking **Save**. Your form view is ready and can be accessed by other applications in the ServiceNow AI Platform.
 
@@ -165,7 +165,7 @@ Preview
 
 </td><td>
 
-Select **Preview** to review the selected form as how it is displayed in the ServiceNow AI Platform. For more information on previewing, see [Preview your form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/preview-your-form.md).
+Select **Preview** to review the selected form as how it is displayed in the ServiceNow AI Platform. For more information on previewing, see [Preview your form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/preview-your-form.md).
 
 </td></tr><tr><td>
 
@@ -193,8 +193,8 @@ PDF extractor
 
 </td><td>
 
-If a PDF is associated with the selected data table, select this element to launch the PDF extractor tool and view the PDF. See [Use a PDF to create data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/pdf-extractor.md).
+If a PDF is associated with the selected data table, select this element to launch the PDF extractor tool and view the PDF. See [Use a PDF to create data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/pdf-extractor.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/exploring-fb.md)
+</table>**Parent Topic:**[Exploring Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/exploring-fb.md)
 

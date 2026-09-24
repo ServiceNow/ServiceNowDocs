@@ -2,7 +2,7 @@
 title: Add synthetic monitor results to a Service Observability dashboard
 description: Add a synthetic monitor to a dashboard in Service Observability by customizing an existing dashboard template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/add-synthetic-monitor-results-to-a-service-observability-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-observability/add-synthetic-monitor-results-to-a-service-observability-dashboard.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -38,7 +38,7 @@ Role required: sn\_sow\_svcobs.admin
     -   **Express list** alert: Select a service from the **Impacted services** column.
     The Service Details page opens and the Overview tab is displayed.
 
-    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/chart-error-states.md).
+    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/chart-error-states.md).
 
 2.  Open the template in editing mode.
 

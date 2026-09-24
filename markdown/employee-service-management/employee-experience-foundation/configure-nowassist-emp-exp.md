@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Employee Experience
 description: If you have the admin role, you can configure the ServiceNow Otto for Employee Experience application so that employees can use ServiceNow Otto to quickly check the status of their work through conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-nowassist-emp-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-nowassist-emp-exp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

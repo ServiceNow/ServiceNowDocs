@@ -2,7 +2,7 @@
 title: Document reuse across records
 description: Link documents to authorization packages, boundaries, and engagements from your workspace, cloud storage, or local systems. Linked documents become shared resources across records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c\_cam\_document\_management\_system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c\_cam\_document\_management\_system.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -58,22 +58,22 @@ Link documents when you want to:
 -   Organize documents in folders to keep your workspace clean
 -   Keep documents in cloud storage while linking them here for easy access
 
--   **[Add documents to records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_add_documents_to_auth_package.md)**  
+-   **[Add documents to records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_add_documents_to_auth_package.md)**  
 Link documents from your workspace, cloud storage, or local drives to authorization packages, boundaries, and engagements. You can organize documents into folders and grant access to other users.
--   **[Set document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_set_document_permissions.md)**  
+-   **[Set document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_set_document_permissions.md)**  
 Grant users and roles access to documents by assigning permissions at the role, user, group, or criteria level. Permissions control whether users can view, edit, or own documents.
--   **[Configure document approval workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_configure_document_approval_workflow.md)**  
+-   **[Configure document approval workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_configure_document_approval_workflow.md)**  
 Set up reviewers and approvers for linked documents to establish a formal approval workflow before a document version becomes active.
--   **[Create, manage, and submit document versions for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_track_document_versions.md)**  
+-   **[Create, manage, and submit document versions for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_track_document_versions.md)**  
 Create and manage document versions to maintain a complete history of changes as a document evolves.
--   **[Review and approve document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_review_and_approve_documents.md)**  
+-   **[Review and approve document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_review_and_approve_documents.md)**  
 Examine document versions submitted for review and authorize them to move forward in the approval workflow as a reviewer or approver.
--   **[Use ServiceNow Otto to analyze linked documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_use_smart_docs_with_documents.md)**  
+-   **[Use ServiceNow Otto to analyze linked documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_use_smart_docs_with_documents.md)**  
 Use ServiceNow Otto to summarize documents, ask questions, and generate audio summaries without manually reviewing every page.
--   **[Connect documents to external cloud storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_connect_documents_to_external_cloud.md)**  
+-   **[Connect documents to external cloud storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_connect_documents_to_external_cloud.md)**  
 Link documents to external cloud storage such as Google Drive, OneDrive, or SharePoint to keep your documents synchronized across platforms.
--   **[Edit document metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_edit_document_metadata.md)**  
+-   **[Edit document metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_edit_document_metadata.md)**  
 Update document properties such as name, owner, classification, and access settings to organize documents and control permissions.
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

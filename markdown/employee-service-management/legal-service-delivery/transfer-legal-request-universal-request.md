@@ -2,7 +2,7 @@
 title: Transfer a legal ticket to another department
 description: Transfer a legal ticket \(legal request or legal matter\) associated with a universal request to another department or back to the universal request for processing and resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/transfer-legal-request-universal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/transfer-legal-request-universal-request.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -103,5 +103,5 @@ Options for including additional comments and attachments from the legal ticket 
 -   The legal ticket is transferred to the selected department.
 -   The legal ticket no longer remains a primary ticket for the universal request.
 
-**Parent Topic:**[Universal Request for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/universal-requests-legal.md)
+**Parent Topic:**[Universal Request for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/universal-requests-legal.md)
 

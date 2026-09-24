@@ -2,7 +2,7 @@
 title: Scheduled Script Execution Form
 description: Use the scheduled script execution form to define a scheduled job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/scheduled-script-execution-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/scheduled-script-execution-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -222,7 +222,7 @@ Date and time of the first scheduled job generation. Select the calendar date an
 </table>**Related topics**  
 
 
-[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-cost-pln-prj-wrkspc.md)
+[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/gen-cost-pln-prj-wrkspc.md)
 
-[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)
+[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)
 

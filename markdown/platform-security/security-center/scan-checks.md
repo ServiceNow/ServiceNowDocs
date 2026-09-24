@@ -2,7 +2,7 @@
 title: Scan checks
 description: Use checks to detect anomalies within an instance, running against tables, records, or metadata.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/scan-checks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/scan-checks.html
 release: australia
 product: Security Center
 classification: security-center
@@ -20,7 +20,7 @@ Use checks to detect anomalies within an instance, running against tables, recor
 
 Checks are rules designed to detect anomalies within an instance. Select a check on the list to view details including what the check evaluates, and possible steps to correct the issue if the check returns any findings.
 
-Select the **+Create task** button to create a Security Task related to a scan check. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a scan check. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-task-manager.md).
 
 Checks are divided into four classes to identify issues and implement security recommendations for your organization: table checks, column type checks, script only checks, and linter checks.
 
@@ -31,5 +31,5 @@ Checks are divided into four classes to identify issues and implement security r
 |[Script checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-create-script-health-check.md)|Use this check class to verify meta data, configurations, and execute complex checks by writing your own checks.|
 |[Linter checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hc-linter-check.md)|Use this check class to identify any issues in a script. When a linter check is run on a record, an abstract syntax tree for its code is generated which can be used to analyze issues with the code.|
 
-**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-scanning.md)
+**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-scanning.md)
 

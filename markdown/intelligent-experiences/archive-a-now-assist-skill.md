@@ -2,7 +2,7 @@
 title: Archive an AI skill
 description: The 'Archive' option enables you to archive copies and custom AI skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/archive-a-now-assist-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/archive-a-now-assist-skill.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"
@@ -63,5 +63,5 @@ Role required: sn\_generative\_ai.nsa\_admin
     -   Skills that are available for use but targeted to be removed soon
     -   Skills for which a new version has been released, rendering the old version deprecated
 
-**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-admin_0.md)
 

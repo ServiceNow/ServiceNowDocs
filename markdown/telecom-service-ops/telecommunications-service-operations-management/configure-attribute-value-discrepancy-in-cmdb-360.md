@@ -2,7 +2,7 @@
 title: Configure attribute value discrepancy in CMDB 360
 description: Configure attribute comparison settings in CMDB 360 to detect data inconsistencies across multiple discovery sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-attribute-value-discrepancy-in-cmdb-360.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/configure-attribute-value-discrepancy-in-cmdb-360.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -52,7 +52,7 @@ You can use the configured attributes in the CMDB 360 query.
 **Related topics**  
 
 
-[Control CI attribute updates using Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/control-ci-attribute-updates-using-reconciliation-rules.md)
+[Control CI attribute updates using Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/control-ci-attribute-updates-using-reconciliation-rules.md)
 
-[Generate reports for attribute value discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/use-attribute-value-discrepancy-in-cmdb-360.md)
+[Generate reports for attribute value discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/use-attribute-value-discrepancy-in-cmdb-360.md)
 

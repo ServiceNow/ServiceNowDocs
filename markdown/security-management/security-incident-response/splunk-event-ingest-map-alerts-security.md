@@ -2,7 +2,7 @@
 title: Map notable events
 description: During the notable event field-mapping step, you map individual event fields from notable events to fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-map-alerts-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest-map-alerts-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -140,15 +140,15 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 10. Choose one to continue with the profile configuration.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d516135e472">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d516129e472">
 
 Option
 
-</th><th align="left" id="d516135e475">
+</th><th align="left" id="d516129e475">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d516135e481">
+</th></tr></thead><tbody><tr><td id="d516129e481">
 
 ** **
 
@@ -156,7 +156,7 @@ Description
 
  
 
-</td></tr><tr><td id="d516135e488">
+</td></tr><tr><td id="d516129e488">
 
 **Continue**
 
@@ -164,7 +164,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d516135e505">
+</td></tr><tr><td id="d516129e505">
 
 **Update**
 
@@ -172,7 +172,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d516135e514">
+</td></tr><tr><td id="d516129e514">
 
 **Previous**
 
@@ -180,7 +180,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The Notable Event Selection form is displayed.
 
-</td></tr><tr><td id="d516135e524">
+</td></tr><tr><td id="d516129e524">
 
 **Delete**
 
@@ -192,5 +192,5 @@ Delete this event profile and the Splunk Event Profiles list is displayed.
 </table>
 ## What to do next
 
-The next step is to preview the values that you mapped on the security incident. For more information, see [Preview security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-preview-security.md).
+The next step is to preview the values that you mapped on the security incident. For more information, see [Preview security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-preview-security.md).
 

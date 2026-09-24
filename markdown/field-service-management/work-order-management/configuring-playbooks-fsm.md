@@ -2,7 +2,7 @@
 title: Configuring Playbooks for Field Service Management
 description: Playbooks provide step-by-step guidance for your field service teams to complete tasks. Use the playbooks feature to create processes to manage the life cycle of field service tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configuring-playbooks-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/configuring-playbooks-fsm.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -37,7 +37,7 @@ Playbooks are organized in stages to provide a guided experience. They direct yo
 5.  Verify work completion
 6.  Close work order task
 
-For more information, see [Playbooks on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/playbooks-now-mobile-agent-app.md).
+For more information, see [Playbooks on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/playbooks-now-mobile-agent-app.md).
 
 ## Request apps on the Store
 
@@ -47,11 +47,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 The steps for setting up Playbooks for Field Service Management are:
 
-1.  [Install Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/activate-fsm-playbook.md)
+1.  [Install Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/activate-fsm-playbook.md)
 
     Install the Playbooks for Field Service Management application \(sn\_fsm\_playbook\) if you have the admin role.
 
-2.  [Activate Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/activate-process-automation-designer-for-fsm.md)
+2.  [Activate Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/activate-process-automation-designer-for-fsm.md)
 
     Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by tables.
 

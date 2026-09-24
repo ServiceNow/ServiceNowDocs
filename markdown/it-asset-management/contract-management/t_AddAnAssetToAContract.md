@@ -2,7 +2,7 @@
 title: Add an asset to a contract
 description: You can associate contracts with specific assets, including software licenses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_AddAnAssetToAContract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/t\_AddAnAssetToAContract.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -52,7 +52,7 @@ Linking a contract with assets clarifies what the contract legally covers.
         2.  In the dialog box, select the check box for each asset that you want to add to the contract.
         3.  Click **Add**.
 
-**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_CreateAContract.md)
+**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/t_CreateAContract.md)
 
 **Related topics**  
 

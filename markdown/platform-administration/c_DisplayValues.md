@@ -2,7 +2,7 @@
 title: Display values
 description: Reference fields store a sys\_id for each referenced record in the database, but the sys\_id is not shown.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_DisplayValues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_DisplayValues.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,11 +27,11 @@ Reference fields show display values in:
 -   [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
 -   Forms
 -   Reports
--   [Auto-complete suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md)
+-   [Auto-complete suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AutoCompleteForReferenceFields.md)
 -   Slushbuckets
 
 **Related topics**  
 
 
-[Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md)
+[Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_UniqueRecordIdentifier.md)
 

@@ -2,7 +2,7 @@
 title: Access Enterprise Graph schema
 description: View and manage Enterprise Graph schema, select tables and test the schema with Knowledge Graph Designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/access-enterprise-graph-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/access-enterprise-graph-schema.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

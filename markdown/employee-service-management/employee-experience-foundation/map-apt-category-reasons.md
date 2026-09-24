@@ -2,7 +2,7 @@
 title: Map category and reasons to a location
 description: Use the Unified Taxonomy for Employee Center to create appointment categories to group appointment reasons and map them to location queues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/map-apt-category-reasons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/map-apt-category-reasons.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,10 +20,10 @@ Use the Unified Taxonomy for Employee Center to create appointment categories to
 
 Ensure that you have created the following records:
 
--   Unified Taxonomy topic for Employee Center. For more information about Unified Taxonomy, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
+-   Unified Taxonomy topic for Employee Center. For more information about Unified Taxonomy, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 -   Walk-up location queue record that you want to map the reasons to. For more information about creating a walk-up location queue, see [Create or modify Walk-up Experience locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-walkup-location.md).
--   Appointment reasons that you want to link to the location queue. For more information about creating reasons, see [Create an appointment reason](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-apt-reason.md).
--   Location consent \(communication configuration\) record that you want to link to the walk-up location queue. For more information about configuring location consent \(communication configuration\), see [Configure appointment communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-appt-comms.md).
+-   Appointment reasons that you want to link to the location queue. For more information about creating reasons, see [Create an appointment reason](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-apt-reason.md).
+-   Location consent \(communication configuration\) record that you want to link to the walk-up location queue. For more information about configuring location consent \(communication configuration\), see [Configure appointment communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-appt-comms.md).
 
 Role required: sn\_hr\_core.walkup\_admin, sn\_walkup.walkup\_manager
 

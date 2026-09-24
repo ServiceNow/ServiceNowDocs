@@ -2,7 +2,7 @@
 title: Outbound trouble ticket notifications via open message bus
 description: Produce an outbound notification from the ServiceNow instance using the open message bus. Customers can consume the details of the notification from the message bus in their external system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -42,7 +42,7 @@ The workflow for producing the outbound notification by using the open message b
 2.  The system pushes the Glide snapshot and event type in the staging table, which acts as a queue.
 3.  The producer framework picks the event and converts it to a TMF 688 complaint event payload.
 
-    To learn more about the producer framework, see [Using the producer framework for outbound notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/using-producer-framework-for-trouble-ticket-notification.md).
+    To learn more about the producer framework, see [Using the producer framework for outbound notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/using-producer-framework-for-trouble-ticket-notification.md).
 
 4.  The topic picker mechanism determines the topics, which are compatible with the event type. Topic picker performs the following steps to check the compatibility of the topics:
 
@@ -57,7 +57,7 @@ The workflow for producing the outbound notification by using the open message b
 
 7.  The customers can consume the message in their message bus REST Proxy.
 
-**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
+**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
 
 **Related topics**  
 

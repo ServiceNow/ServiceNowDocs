@@ -2,7 +2,7 @@
 title: Use NowUIColoring to create themes
 description: Use NowUIColoring to create themes with NowWebThemeable, NowChatThemeable, and NowVoiceThemeable. The NowUIColoring interface contains all the colors used by all NowSDK modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-use\_nowUIcoloring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-ios-use\_nowUIcoloring.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK Developer Guide - iOS, Developer guides, API implementat
 
 Use NowUIColoring to create themes with NowWebThemeable, NowChatThemeable, and NowVoiceThemeable. The NowUIColoring interface contains all the colors used by all NowSDK modules.
 
-For scenarios where you use similar color variables across multiple SDK modules, you can implement the NowUIColoring interface. Using this interface you can override color values and then use that implementation to override the NowUIColoring values inside the theme classes [NowWebThemeable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeableiOSProtocol.md), [NowChatThemeable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeableiOSProtocol.md), and [NowVoiceThemeable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md). If color variables aren’t overridden, the NowUIColoring interface uses the default colors.
+For scenarios where you use similar color variables across multiple SDK modules, you can implement the NowUIColoring interface. Using this interface you can override color values and then use that implementation to override the NowUIColoring values inside the theme classes [NowWebThemeable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowWebThemeableiOSProtocol.md), [NowChatThemeable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatThemeableiOSProtocol.md), and [NowVoiceThemeable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md). If color variables aren’t overridden, the NowUIColoring interface uses the default colors.
 
 NowWebThemeable contains specific colors that only pertain to NowWeb, NowChatThemeable contains specific colors that only pertain to NowChat, and NowVoiceThemeable contains specific colors that only pertain to NowVoice. Common colors are defined by NowUIColoring. NowUIColoring also contains all the default colors.
 

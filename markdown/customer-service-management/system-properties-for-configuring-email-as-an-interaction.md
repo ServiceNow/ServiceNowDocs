@@ -2,7 +2,7 @@
 title: System properties for configuring Email Interaction
 description: You can configure system properties to manage Email Interaction workflows, such as interaction creation, closure, rerouting, and reminder or notification settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/system-properties-for-configuring-email-as-an-interaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/system-properties-for-configuring-email-as-an-interaction.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

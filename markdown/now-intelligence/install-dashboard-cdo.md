@@ -2,7 +2,7 @@
 title: Install the CDO Dashboard
 description: The Chief Digital Officer \(CDO\) Dashboard provides visibility into the health and productivity of your company's digital properties. It gives a unified, real-time view of the digital product adoption, customer engagement, operational efficiency, and digital transformation maturity across the enterprise.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-cdo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/install-dashboard-cdo.html
 release: australia
 topic_type: task
 last_updated: "2026-07-31"
@@ -18,7 +18,7 @@ The Chief Digital Officer \(CDO\) Dashboard provides visibility into the health 
 
 Role required: admin, platform\_analytics\_admin, cdo\_dashboard\_admin
 
-Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/duplicate-db.md).
 
 **Note:** The CDO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications: IT Service Management. This professional entitlement includes a license for Platform Analytics.
 

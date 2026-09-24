@@ -2,7 +2,7 @@
 title: Download and install GRC: Regulatory Change Management
 description: Download the GRC: Regulatory Change Management application from the ServiceNow Store and run it in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/activate-grc-rcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/activate-grc-rcm.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -24,7 +24,7 @@ Role required: sn\_grc\_reg\_change.manager, sn\_grc\_reg\_change.it\_admin, or 
 
 1.  Download the GRC: Regulatory Change Management application from the ServiceNow Store.
 
-    Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-grc-first-time.md). Downloading the Regulatory Change Management application automatically installs the following required applications:
+    Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/download-grc-first-time.md). Downloading the Regulatory Change Management application automatically installs the following required applications:
 
     -   GRC: Policy and Compliance Management
     -   GRC: Advanced Risk

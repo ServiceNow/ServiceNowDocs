@@ -2,7 +2,7 @@
 title: Use CyberArk as a secure configuration provider
 description: You can use a CyberArk vault to secure any sensitive data from the MID Server config.xml file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/use-cyberark-secure-config-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/use-cyberark-secure-config-provider.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -58,5 +58,5 @@ CyberArk is commonly used to secure credentials in its external vault. However, 
 5.  Restart the MID Server.
 
 
-**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-encrypter-api.md)
+**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-encrypter-api.md)
 

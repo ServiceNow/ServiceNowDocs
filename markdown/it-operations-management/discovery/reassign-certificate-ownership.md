@@ -2,7 +2,7 @@
 title: Reassign certificate ownership
 description: View a list of all certificates and their respective owners, and reassign ownership for certificates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/reassign-certificate-ownership.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/reassign-certificate-ownership.html
 release: australia
 product: Discovery
 classification: discovery

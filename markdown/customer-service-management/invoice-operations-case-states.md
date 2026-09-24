@@ -2,7 +2,7 @@
 title: Invoice case and invoice case line states
 description: Invoice cases and invoice case lines move through several different states as agents work to resolve the individual case lines in invoice cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/invoice-operations-case-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/invoice-operations-case-states.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

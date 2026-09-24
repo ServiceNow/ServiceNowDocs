@@ -2,7 +2,7 @@
 title: Diagnose user access to an article
 description: Identify which users have access to an article and what enables that access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/diagnose-access-criteria-at-an-article-level.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/diagnose-access-criteria-at-an-article-level.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -68,11 +68,11 @@ From an article
         The page displays these details:
 
         -   Whether or not the user has access to the knowledge article based on their domain. Only system administrators can view domain information and change the domain to give access to a user.
-        -   Which user criteria provides read or read and contribute access for this user to the article and what type of [user criteria definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUCArticle.md) enables this access.
+        -   Which user criteria provides read or read and contribute access for this user to the article and what type of [user criteria definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_SelectUCArticle.md) enables this access.
         -   Whether a role of the user has \(knowledge\_manager, knowledge\_admin, or owner of the knowledge base\) enables this access.
         -   For a user with no access to this article, which user criteria may be modified to grant the access.
         **Note:** Members of an ownership group are automatically given **Can Contribute** access to knowledge articles that their ownership group is associated with.
 
 
-**Parent Topic:**[User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md)
+**Parent Topic:**[User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md)
 

@@ -2,7 +2,7 @@
 title: Create a visitor policy
 description: Define a policy that must be accepted by a visitor prior to their arrival. Send email notification to the visitor about the policy and enable them to accept the policy by replying to the email​.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/create-visitor-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/create-visitor-policy.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -44,14 +44,14 @@ The visitor policy is added.
 
 ## What to do next
 
-For Workplace Visitor Management version 2.0.0 or later, create a visit requirement and assign a policy as a requirement. For more information, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
+For Workplace Visitor Management version 2.0.0 or later, create a visit requirement and assign a policy as a requirement. For more information, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
 
-For earlier versions of Workplace Visitor management, you must assign the visitor policy to workplace locations. For more information, see [Assign visitor policy to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/assign-visitor-policy-to-workplace-location.md).
+For earlier versions of Workplace Visitor management, you must assign the visitor policy to workplace locations. For more information, see [Assign visitor policy to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/assign-visitor-policy-to-workplace-location.md).
 
--   **[Assign visitor policy to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/assign-visitor-policy-to-workplace-location.md)**  
+-   **[Assign visitor policy to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/assign-visitor-policy-to-workplace-location.md)**  
 Add one or more workplace location to a visitor policy. Visitors who are registered to arrive at that locations will receive an email notification in prior to accept the policy.
 
-**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 

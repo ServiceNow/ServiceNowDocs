@@ -2,7 +2,7 @@
 title: Invoice data transformation logic
 description: Accounts Payable Operations integration with Document Intelligence transforms invoice and invoice line field values into formats supported by downstream processing systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -175,5 +175,5 @@ In such cases, the invoice is considered as of type Credit memo.
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md)
+</table>**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md)
 

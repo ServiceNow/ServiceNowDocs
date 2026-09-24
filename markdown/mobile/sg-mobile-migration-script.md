@@ -2,7 +2,7 @@
 title: Run the mobile migration script
 description: Run the mobile migration script to convert Madrid mobile applications you have created or modified to use the new mobile hierarchy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-migration-script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-migration-script.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Mobile applications created in the Madrid release still work in the Australia re
 3.  Click **Upgrade** when prompted to start the migration script.\[Omitted image "migration-script-prompt.png"\] Alt text: Mobile migration script prompt
 
 
-**Parent Topic:**[Mobile migration from Madrid to New York and later releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-migration-ny.md)
+**Parent Topic:**[Mobile migration from Madrid to New York and later releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-migration-ny.md)
 

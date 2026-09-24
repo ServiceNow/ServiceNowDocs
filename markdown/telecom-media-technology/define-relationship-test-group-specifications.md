@@ -2,7 +2,7 @@
 title: Associate a test group with a specification or product model
 description: Establish a relationship between test groups and their respective specifications or product model to determine the tests that must be executed for a given inventory. This relationship confirms that the appropriate tests are identified and executed based on the defined specifications. Without this association, the system can’t accurately assign the necessary tests for each inventory item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/define-relationship-test-group-specifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/define-relationship-test-group-specifications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

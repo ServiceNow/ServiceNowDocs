@@ -2,7 +2,7 @@
 title: Sales CRM for Telecommunications release notes
 description: The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/sales-order-management-telecommunications-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/sales-order-management-telecommunications-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-17"
@@ -16,19 +16,19 @@ The ServiceNow® Sales CRM for Telecommunications application enables you to cap
 
 ## About Sales CRM for Telecommunications
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Use the task template generation agent to create a task plan template for the given specification based on the uploaded image file.
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
 
 -   Sales Customer Relationship Management for Telecommunications \(SOMT\) is now known as Sales Customer Relationship Management for Telecommunication \(Sales CRM for Telecommunications\) to align with the updated product taxonomy. There is no change to functionality or existing customer configurations.
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   Automatically create the fallout records based on reported issues in the order task work notes.
 
@@ -48,7 +48,7 @@ See [Sales Customer Relationship Management for Telecommunications](https://raw.
     Install Order Management for telecom, media, and tech by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/technology-industry-rn-landing.md)
 
 ## July 2026
 

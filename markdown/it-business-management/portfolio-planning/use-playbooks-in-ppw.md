@@ -2,7 +2,7 @@
 title: Use Playbook in Next Experience for Demand Management
 description: Use the default playbook or configure a custom one to capture required information for a demand and support governance processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/use-playbooks-in-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/use-playbooks-in-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -24,7 +24,7 @@ Role required: it\_demand\_user or it\_demand\_manager.
 
 A playbook defines the standard stages of a demand \(for example, Initiation, Planning, Execution, Monitoring, and Closure\) and includes activities or action items to complete at each stage.
 
-**Note:** This task describes how to use a playbook to manage demand information in a guided, stage-based workflow. To find out how to update demand information on the Details page of the demand record, see [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-the-demand-details-ppw.md).
+**Note:** This task describes how to use a playbook to manage demand information in a guided, stage-based workflow. To find out how to update demand information on the Details page of the demand record, see [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/update-the-demand-details-ppw.md).
 
 ## Procedure
 
@@ -58,5 +58,5 @@ A playbook defines the standard stages of a demand \(for example, Initiation, Pl
 
 [Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-reference.md)
 
-[Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/playbooks-in-demand-workspace-ppw.md)
+[Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/playbooks-in-demand-workspace-ppw.md)
 

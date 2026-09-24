@@ -2,7 +2,7 @@
 title: Encoder - Global
 description: The Encoder API provides a scriptable object used in Predictive Intelligence stores. This object converts input data into vectors of numbers, based on encoder-specific goals and configurations. Encoders can be used independently to run encodings or can be configured as part of solutions to encode text columns.Creates an encoder.Cancels a job for a encoder object that has been submitted for training.Gets the active EncoderVersion object.Gets all versions of an encoder.Gets the latest version of an encoder.Gets the name of the object to use for interaction with the store.Gets solution object properties.Gets an encoder by provided version number.Activates a specified version of an encoder in the store.Submits a training job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/EncoderAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/EncoderAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -24,23 +24,23 @@ Encoders have configuration and versions, and can be trained independently with 
 
 The encoder setup-to-training flow is as follows:
 
-1.  Create one or more datasets using the [DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) API.
-2.  Use the [constructor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md) to create an encoder object.
-3.  Add the encoder object to the encoder store using the [EncoderStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderStoreAPI.md) method.
-4.  Train the encoder using the [submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md) method. This creates a version of the object that you can manage using the [EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderVersionAPI.md) API.
+1.  Create one or more datasets using the [DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DatasetDefinitionAPI.md) API.
+2.  Use the [constructor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md) to create an encoder object.
+3.  Add the encoder object to the encoder store using the [EncoderStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderStoreAPI.md) method.
+4.  Train the encoder using the [submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md) method. This creates a version of the object that you can manage using the [EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderVersionAPI.md) API.
 
 Once you have trained an encoder, you can use it in a solution object:
 
--   [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
--   [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) \(required unless using the Levenshtein distance algorithm\)
--   [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md)
--   [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md) \(required\)
+-   [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+-   [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) \(required unless using the Levenshtein distance algorithm\)
+-   [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionAPI.md)
+-   [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SimilaritySolutionAPI.md) \(required\)
 
 **Note:** This API runs with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see [Query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/query-acl-rule.md).
 
 For usage guidelines, refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ml-apis.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Encoder - Encoder\(Object config\)
 
@@ -124,7 +124,7 @@ Array
 
 </td><td>
 
-List of [DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) object names.
+List of [DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DatasetDefinitionAPI.md) object names.
 
 </td></tr><tr><td>
 
@@ -263,7 +263,7 @@ Gets the active EncoderVersion object.
 
 |Type|Description|
 |----|-----------|
-|Object|Active [EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderVersionAPI.md) object.|
+|Object|Active [EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderVersionAPI.md) object.|
 
 The following example shows how to get an active Encoder version from the store and return its training status.
 
@@ -293,7 +293,7 @@ Gets all versions of an encoder.
 
 |Type|Description|
 |----|-----------|
-|Array|Existing versions of an encoder object. See also [EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderVersionAPI.md) API.|
+|Array|Existing versions of an encoder object. See also [EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderVersionAPI.md) API.|
 
 The following example shows how to get all Encoder version objects and call the getVersionNumber\(\) and getStatus\(\) encoder version methods on them.
 
@@ -327,7 +327,7 @@ Gets the latest version of an encoder.
 
 |Type|Description|
 |----|-----------|
-|Object|[EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderVersionAPI.md) object corresponding to the latest version of an [Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md).|
+|Object|[EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderVersionAPI.md) object corresponding to the latest version of an [Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md).|
 
 The following example shows how to get the latest version of an encoder and return its training status.
 
@@ -413,7 +413,7 @@ Object
 
 </td><td>
 
-Contents of the Dataset and [Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md) object details in the [EncoderStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderStoreAPI.md).```
+Contents of the Dataset and [Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md) object details in the [EncoderStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderStoreAPI.md).```
 {
   "algorithmConfig" : {Object},
   "datasetsProperties": [Array],
@@ -460,7 +460,7 @@ Optional. JavaScript object containing algorithm configuration properties. ```
 
 </td><td>
 
-List of [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) properties associated with the encoder.
+List of [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DatasetDefinitionAPI.md) properties associated with the encoder.
 
  ```
 {
@@ -657,7 +657,7 @@ Gets an encoder by provided version number.
 
 |Type|Description|
 |----|-----------|
-|Object|Specified version of the [Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md) object on which you can call [EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderVersionAPI.md) API methods.|
+|Object|Specified version of the [Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md) object on which you can call [EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderVersionAPI.md) API methods.|
 
 The following example shows how to get the training status of an encoder by version number.
 
@@ -703,7 +703,7 @@ String
 
 </td><td>
 
-Name of the [Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md) object version to activate.Activating this version deactivates any other version.
+Name of the [Encoder\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md) object version to activate.Activating this version deactivates any other version.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -720,7 +720,7 @@ sn_ml.Encoder.setActiveVersion("ml_incident_categorization");
 
 Submits a training job.
 
-**Note:** Before running this method, you must first add an encoder to the store using the [EncoderStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderStoreAPI.md) method.
+**Note:** Before running this method, you must first add an encoder to the store using the [EncoderStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderStoreAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -728,7 +728,7 @@ Submits a training job.
 
 |Type|Description|
 |----|-----------|
-|Object|[EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderVersionAPI.md) object corresponding to the [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md) being trained.|
+|Object|[EncoderVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderVersionAPI.md) object corresponding to the [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md) being trained.|
 
 The following example shows how to create a dataset, apply it to an encoder, add it to a store, and submit the training job.
 

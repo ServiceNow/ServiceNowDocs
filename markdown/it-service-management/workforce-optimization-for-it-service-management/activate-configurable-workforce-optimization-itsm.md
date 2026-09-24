@@ -2,7 +2,7 @@
 title: Activate Workforce Optimization for ITSM
 description: The Workforce Optimization for ITSM Configurable Workspace plugin \(sn\_wfo\_cfg\_itsm\) is available with the ITSM Enterprise subscription package.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -137,5 +137,5 @@ Enables you to assess your teams' abilities to resolve incidents efficiently.
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Getting started with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/getting-started-workforce-optimization-itsm.md)
+**Parent Topic:**[Getting started with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/getting-started-workforce-optimization-itsm.md)
 

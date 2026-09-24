@@ -2,7 +2,7 @@
 title: Source-to-Pay Workspace Analytics Center
 description: With Source-to-Pay Workspace Analytics Center, you can ask a question about your data, and see how things are performing now and trends over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/procurement-workspace-analytics-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/procurement-workspace-analytics-center.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -74,5 +74,5 @@ Based on these synonyms and semantic conditions, some of the predefined supporte
 
 If you do not get the desired search results, select **How can I improve my results?** to view tips and suggestions on improving your search.
 
-**Parent Topic:**[Source-to-Pay Workspace Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-reference.md)
+**Parent Topic:**[Source-to-Pay Workspace Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-reference.md)
 

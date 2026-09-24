@@ -2,7 +2,7 @@
 title: Add more forms to an app in Creator Studio
 description: Add as many forms as you need to create catalog items for your app. For example, you could have an office booking app with three different forms: one for requesting parking spaces, one for requesting a desk, and one for reserving conference rooms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-add-another-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-add-another-form.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -40,7 +40,7 @@ To add forms to an app, you must be given permission to work on the app.
 
 6.  Choose how you want to build the form:
 
-    -   To use AI, stay on the **Build with AI** tab and enter directions to provide a description for the form you want. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-text-to-form.md).
+    -   To use AI, stay on the **Build with AI** tab and enter directions to provide a description for the form you want. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-text-to-form.md).
 
         **Note:** You can select **Try an example** to see some examples of the available directions. To see a quick mock up of what the form will look like, select the **Generate form preview** button. If you want a different form, change the provided direction and select **Regenerate preview** for a quick look.
 
@@ -61,7 +61,7 @@ To add forms to an app, you must be given permission to work on the app.
 
 ## What to do next
 
-Next, you can edit the form to populate its questions and customize its layout. For more information, see [Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-edit-form.md).
+Next, you can edit the form to populate its questions and customize its layout. For more information, see [Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-edit-form.md).
 
-**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-work-with-forms.md)
 

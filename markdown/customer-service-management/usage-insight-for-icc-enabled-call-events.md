@@ -2,7 +2,7 @@
 title: Usage insights for call events enabled using Interaction Controls Component \(ICC\)
 description: Usage Insights provides event tracking for voice call events in ICC enabled interactions. Admins and managers can review detailed call events to verify correct event actions and diagnose issues without accessing console logs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/usage-insight-for-icc-enabled-call-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/usage-insight-for-icc-enabled-call-events.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-30"
@@ -55,5 +55,5 @@ Each event entry for usage insights includes a complete payload. The following t
 |interaction sys\_id|The sys\_id of the corresponding interaction record in the ServiceNow instance.|
 |external\_id|An identifier from the external CCaaS provider associated with this interaction.|
 
-Enable call events tracking by configuring the Usage Insights capability. See: [Enable Usage insights for Interaction Controls Component \(ICC\) enabled call events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-usage-insights-for-icc-call-events.md).
+Enable call events tracking by configuring the Usage Insights capability. See: [Enable Usage insights for Interaction Controls Component \(ICC\) enabled call events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-usage-insights-for-icc-call-events.md).
 

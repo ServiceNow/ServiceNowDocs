@@ -2,7 +2,7 @@
 title: Delete a playbook in Creator Studio
 description: Delete a playbook to remove it from the app completely.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-delete-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-delete-automation.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -41,5 +41,5 @@ To delete a playbook, you must be given permission to work on the app.
 7.  On the confirmation modal, select the **Delete** button.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-working-with-automations.md)
 

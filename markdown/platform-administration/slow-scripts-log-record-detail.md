@@ -2,7 +2,7 @@
 title: Slow scripts log record detail
 description: As an administrator, you can use Slow Scripts logs to gain insight into how events are affecting platform performance. To aid in debugging, you can filter a slow script log by application scope, limiting scripts to only those scripts originating in specific scopes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/slow-scripts-log-record-detail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/slow-scripts-log-record-detail.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

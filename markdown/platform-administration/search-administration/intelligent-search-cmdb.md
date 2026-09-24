@@ -2,7 +2,7 @@
 title: Intelligent Search for CMDB
 description: Use everyday natural language query \(NLQ\) in a search string to query for a set of CIs in the CMDB. Intelligent Search for CMDB, parses, resolves ambiguities, and converts your search string into a valid CMDB query. Complex search strings open fully constructed on a canvas of CMDB Query Builder where you can continue and refine, or run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/intelligent-search-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/intelligent-search-cmdb.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -30,7 +30,7 @@ Intelligent Search for CMDB is integrated into the Home view in the CMDB Workspa
 Intelligent Search for CMDB is integrated into the Search and Explore view in the Service Graph Workspace store app. For more information, see:
 
 -   [Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sg-workspace-search-explore-view.md), Search tab for details about how to use Intelligent Search, sample search strings, and helpful tips.
--   [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sg-workspace.md) for additional details about Service Graph Workspace.
+-    for additional details about Service Graph Workspace.
 
 ## Integration with CMDB Query Builder
 
@@ -44,7 +44,7 @@ Use the Intelligent Search search field to construct a search string using every
 
 Use Intelligent Search:
 
--   **Search tips**: Shows details and tips about the usage, and examples for single and multi-table search, advanced filtering, and relationships in Intelligent Search. The Relationships tab contains a link to the [CMDB Implicit Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/intelligent-search-cmdb.md) table.
+-   **Search tips**: Shows details and tips about the usage, and examples for single and multi-table search, advanced filtering, and relationships in Intelligent Search. The Relationships tab contains a link to the [CMDB Implicit Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/intelligent-search-cmdb.md) table.
 -   **Search**: Depending on whether the search string is already fully converted into a valid CMDB query and whether the search is for a single or multiple tables.
 
     -   If the search string has no ambiguities with the table name or relationships, then the query runs and the results appear in a list view format.

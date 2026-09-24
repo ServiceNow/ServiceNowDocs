@@ -2,7 +2,7 @@
 title: Configuring ATF Test Generator and Cloud Runner
 description: Configure the ATF Test Generator and Cloud Runner store application by setting up the cloud user.Set the credentials for the cloud user to be able to generate and run tests. This is a one time setup after the admin user installs the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-configure.html
 release: australia
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner

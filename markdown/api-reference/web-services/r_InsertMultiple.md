@@ -2,7 +2,7 @@
 title: insertMultiple
 description: Creates multiple new records for the table targeted in the URL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_InsertMultiple.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/r\_InsertMultiple.html
 release: australia
 product: Web Services
 classification: web-services
@@ -170,5 +170,5 @@ The resulting response looks like this:
 </soapenv:Envelope>
 ```
 
-**Parent Topic:**[Data Modification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_DataModificationAPI.md)
+**Parent Topic:**[Data Modification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_DataModificationAPI.md)
 

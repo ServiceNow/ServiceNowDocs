@@ -2,7 +2,7 @@
 title: Usage calculation of self-service experiences
 description: Calculates usage across self-service experiences, including Service Portals, Engagement Messenger, Community, and Web Embeddables. The dashboard displays the total of aggregated sessions across all self-service experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-portal-user-sessions-timeouts\_2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-portal-user-sessions-timeouts\_2.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

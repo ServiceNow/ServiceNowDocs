@@ -2,7 +2,7 @@
 title: Send an email response from a case activity stream
 description: Respond to cases using options within a customer email thread. You may not require using another email client which saves time and effort.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/respond-cases-reply-forward.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/respond-cases-reply-forward.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_agent
 
 ## About this task
 
-You can read and respond to large emails easily in a full screen which opens up in a new tab. Responding to a customer's email from within a case using the reply, reply all, or forward options, includes the content from previous conversation thread. These options are available by default. An admin can disable these options. For more information, see [Disable email responses from the case activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-email-response-from-case.md).
+You can read and respond to large emails easily in a full screen which opens up in a new tab. Responding to a customer's email from within a case using the reply, reply all, or forward options, includes the content from previous conversation thread. These options are available by default. An admin can disable these options. For more information, see [Disable email responses from the case activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-email-response-from-case.md).
 
 ## Procedure
 

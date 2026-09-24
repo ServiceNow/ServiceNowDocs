@@ -2,7 +2,7 @@
 title: Bypass the proxy server
 description: Administrators can configure the instance to bypass the proxy server for specific URLs or URL patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_BypassTheProxyServer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_BypassTheProxyServer.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ Specify the semicolon-separated list of addresses that bypass the proxy server. 
 127.0.0.1;\*.internal.com;localhost
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Web proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_WebProxy.md)
+</table>**Parent Topic:**[Web proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_WebProxy.md)
 

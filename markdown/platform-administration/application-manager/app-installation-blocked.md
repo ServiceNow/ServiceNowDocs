@@ -2,7 +2,7 @@
 title: App installation blocked when installing or updating Now Assist Suite
 description: Unlicensed applications can block the installation or update of Now Assist Suites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/app-installation-blocked.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/application-manager/app-installation-blocked.html
 release: australia
 product: Application Manager
 classification: application-manager
@@ -32,7 +32,7 @@ The application version that displays "Installation blocked" isn't licensed.
 
 1.  If your organization uses the application, license the version required for the Now Assist Suite installation.
 
-    To license the necessary application version, contact your account executive or request the license through the ServiceNow Store. For more information about licensing applications through the ServiceNow Store, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/buy-servicenow-app.md).
+    To license the necessary application version, contact your account executive or request the license through the ServiceNow Store. For more information about licensing applications through the ServiceNow Store, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/buy-servicenow-app.md).
 
 
 ## Resolution: Uninstall the application
@@ -41,8 +41,8 @@ The application version that displays "Installation blocked" isn't licensed.
 
 1.  If your organization doesn't use the application that blocks installation, uninstall it through the Application Manager.
 
-    For more information about uninstalling applications, see [Uninstall an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/uninstall-application-app-mgr.md).
+    For more information about uninstalling applications, see [Uninstall an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/uninstall-application-app-mgr.md).
 
 
-**Parent Topic:**[Application Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/app-mgr-reference.md)
+**Parent Topic:**[Application Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/app-mgr-reference.md)
 

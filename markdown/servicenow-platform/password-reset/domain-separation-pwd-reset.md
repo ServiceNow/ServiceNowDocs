@@ -2,7 +2,7 @@
 title: Domain separation and the Password Reset application
 description: Domain separation is supported in the Password Reset application. A password reset process that you define in any domain is isolated from a process that you create in any other domain. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/domain-separation-pwd-reset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/domain-separation-pwd-reset.html
 release: australia
 product: Password Reset
 classification: password-reset

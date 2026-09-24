@@ -2,7 +2,7 @@
 title: Close a legal request
 description: You can close a legal request assigned to you when you've resolved it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/close-legal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/close-legal-request.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -36,15 +36,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d405563e108">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d405567e108">
 
 Option
 
-</th><th align="left" id="d405563e111">
+</th><th align="left" id="d405567e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d405563e117">
+</th></tr></thead><tbody><tr><td id="d405567e117">
 
 **As an assignee**
 
@@ -56,7 +56,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d405563e146">
+</td></tr><tr><td id="d405567e146">
 
 **As a collaborator**
 
@@ -67,7 +67,7 @@ The state of the legal request is Work in progress and the document is Legal rev
 
 
 </td></tr></tbody>
-</table>4.  [Attach files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/manage-attachments-legal-request.md) that are a solution for the request or a link to the knowledge base article as reference material for the requester.
+</table>4.  [Attach files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/manage-attachments-legal-request.md) that are a solution for the request or a link to the knowledge base article as reference material for the requester.
 
 5.  Close the request based on the work done on the request:
 
@@ -80,12 +80,12 @@ The state of the legal request is Work in progress and the document is Legal rev
 
 ## Result
 
-The legal request is closed based on the [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-properties.md) **sn\_lg\_ops.allow\_request\_closure\_with\_open\_matters** and whether or not there is a legal matter associated with the request.
+The legal request is closed based on the [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-properties.md) **sn\_lg\_ops.allow\_request\_closure\_with\_open\_matters** and whether or not there is a legal matter associated with the request.
 
 -   If the property is set to false and there is an open associated legal matter, the request is closed only after the legal matter is closed.
 -   If the property is set to true, the request is closed regardless of the state of the associated legal matters.
 
 The state of the request changes to Closed Complete or Closed Incomplete, depending on the option selected.
 
-**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/work-on-legal-request.md)
 

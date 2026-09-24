@@ -2,7 +2,7 @@
 title: Filter citations documents for Operational Sustainability Management \(formerly ESG Management\)
 description: Set the functional domain to Operational Sustainability Management to view only those citations that are specific to the operational sustainability domain. This ability to select the domain enables you to see only those citations that are relevant to you. The same procedure applies to authority documents as well.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/filter-citations-and-authority-documents-for-esg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/filter-citations-and-authority-documents-for-esg.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ When you view the citations and authority documents in an instance, all the cita
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-esg.md)
+**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-esg.md)
 
 **Related topics**  
 

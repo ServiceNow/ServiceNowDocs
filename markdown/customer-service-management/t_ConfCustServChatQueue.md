@@ -2,7 +2,7 @@
 title: Configure the customer service chat queue
 description: Define the customer service agents, default chat messages, schedule, and escalation path for the customer service chat queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ConfCustServChatQueue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_ConfCustServChatQueue.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

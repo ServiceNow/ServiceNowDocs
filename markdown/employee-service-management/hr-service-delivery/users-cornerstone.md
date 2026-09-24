@@ -2,7 +2,7 @@
 title: Users for HR Service Delivery Integration with Cornerstone OnDemand
 description: Users from the Cornerstone OnDemand system are mapped to the users in ServiceNow system using email Ids. User mapping helps in assigning learning tasks to the correct user in the ServiceNow system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/users-cornerstone.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/users-cornerstone.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,7 +29,7 @@ When the Trigger CSOD Sync schedule flow is run, users are pulled from the Corne
 
 **Note:** In case you want to use **CSOD ID**, **CSOD user**, and **CSOD User ID** fields for mapping users, you must override the getUser method in CSODIntegrationsUtil script.
 
-**Parent Topic:**[Reference for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-ondemand.md)
+**Parent Topic:**[Reference for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-ondemand.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Publish a data product
 description: Publish a data product to make it available to consumers in the Data Catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/publish-data-product-wdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/publish-data-product-wdf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-31"
@@ -45,7 +45,7 @@ The data product is published. After the metadata collector runs, it appears in 
 
 ## What to do next
 
-To move the data product to production instance, see [Move data interfaces and data products to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/move-data-interfaces-products-to-prod-wdf.md)
+To move the data product to production instance, see [Move data interfaces and data products to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/move-data-interfaces-products-to-prod-wdf.md)
 
-**Parent Topic:**[Managing data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-products-wdf.md)
+**Parent Topic:**[Managing data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-data-products-wdf.md)
 

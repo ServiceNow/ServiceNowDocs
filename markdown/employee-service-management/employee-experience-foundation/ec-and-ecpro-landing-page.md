@@ -2,7 +2,7 @@
 title: Unified Employee Experience
 description: The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other omnichannel experiences and integrations, and Employee Slate, an AI-first experience that unifies search, requests, tasks, knowledge, and communications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,15 +18,15 @@ The Unified Employee Experience suite of products consist of Employee Center, th
 
 <table id="table_mtz_sfy_sdc" class="nav-card presentation"><tbody><tr><td>
 
-[Employee Center\[Omitted image "bus-manager.svg"\] Alt text:Employee Center provides a modern self-service experience for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
+[Employee Center\[Omitted image "bus-manager.svg"\] Alt text:Employee Center provides a modern self-service experience for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
 
 </td><td>
 
-[Employee Center Pro\[Omitted image "bus-manage.svg"\] Alt text:Employee Center Pro expands the portal experience beyond service delivery with employee communication and engagement tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-pro-landing.md)
+[Employee Center Pro\[Omitted image "bus-manage.svg"\] Alt text:Employee Center Pro expands the portal experience beyond service delivery with employee communication and engagement tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-pro-landing.md)
 
 </td></tr><tr><td colspan="2">
 
-[Employee Slate\[Omitted image "bus-service-aware.svg"\] Alt text:Employee Slate delivers an AI-first experience that unifies search, requests, tasks, knowledge, and communications for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
+[Employee Slate\[Omitted image "bus-service-aware.svg"\] Alt text:Employee Slate delivers an AI-first experience that unifies search, requests, tasks, knowledge, and communications for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
 
 </td></tr></tbody>
 </table>## Employee Center versus Employee Center Pro
@@ -75,7 +75,7 @@ AI Search
 
 </td></tr><tr><td>
 
-Chat \([live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-chat-configuration.md), virtual agent\)
+Chat \([live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-chat-configuration.md), virtual agent\)
 
 </td><td>
 
@@ -87,7 +87,7 @@ Chat \([live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
 </td></tr><tr><td>
 
-Curated Experiences \([Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md), [Dynamic topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/dynamic-topic-page.md), [Mega Menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-mega-menu.md)\)
+Curated Experiences \([Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-taxonomy.md), [Dynamic topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/dynamic-topic-page.md), [Mega Menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-mega-menu.md)\)
 
 </td><td>
 
@@ -99,7 +99,7 @@ Curated Experiences \([Unified Taxonomy for Employee Center](https://raw.githubu
 
 </td></tr><tr><td>
 
-[Complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md) and [Manage requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md)
+[Complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md) and [Manage requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md)
 
 </td><td>
 
@@ -111,7 +111,7 @@ Curated Experiences \([Unified Taxonomy for Employee Center](https://raw.githubu
 
 </td></tr><tr><td>
 
-[Content recommendations \(via "recommended for you"\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/rfy-ec.md)
+[Content recommendations \(via "recommended for you"\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/rfy-ec.md)
 
 </td><td>
 
@@ -135,7 +135,7 @@ Curated Experiences \([Unified Taxonomy for Employee Center](https://raw.githubu
 
 </td></tr><tr><td>
 
-[Unified employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
+[Unified employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 
 </td><td>
 
@@ -147,7 +147,7 @@ Curated Experiences \([Unified Taxonomy for Employee Center](https://raw.githubu
 
 </td></tr><tr><td>
 
-[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)
+[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)
 
 </td><td>
 
@@ -159,13 +159,13 @@ Curated Experiences \([Unified Taxonomy for Employee Center](https://raw.githubu
 
 </td></tr><tr><td>
 
-Employee communications-   [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
--   [Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content.md)
--   [Employee News](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-news-articles.md)
--   [Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
--   [Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
--   [Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md)
--   [Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-governance.md)
+Employee communications-   [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
+-   [Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content.md)
+-   [Employee News](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-news-articles.md)
+-   [Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
+-   [Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
+-   [Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md)
+-   [Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-governance.md)
 
 </td><td>
 
@@ -177,7 +177,7 @@ Employee communications-   [Portal content](https://raw.githubusercontent.com/Se
 
 </td></tr><tr><td>
 
-Enterprise Search \(with [SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-search-overview.md)\)
+Enterprise Search \(with [SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/sharepoint-search-overview.md)\)
 
 </td><td>
 
@@ -189,8 +189,8 @@ Enterprise Search \(with [SharePoint Online Search Connector](https://raw.github
 
 </td></tr><tr><td>
 
-Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee-about.md)
--   [Approval Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-intro.md)
+Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-application-employee-about.md)
+-   [Approval Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-intro.md)
 
 </td><td>
 
@@ -202,7 +202,7 @@ Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent
 
 </td></tr><tr><td>
 
-[Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/manager-hub-overview.md)
+[Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/manager-hub-overview.md)
 
 </td><td>
 
@@ -214,7 +214,7 @@ Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent
 
 </td></tr><tr><td>
 
-[Org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md) and [Dotted-line relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/add-other-manager-relationship.md)
+[Org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md) and [Dotted-line relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/add-other-manager-relationship.md)
 
 </td><td>
 
@@ -226,7 +226,7 @@ Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent
 
 </td></tr><tr><td>
 
-[Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md)
+[Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md)
 
 </td><td>
 
@@ -238,7 +238,7 @@ Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent
 
 </td></tr><tr><td>
 
-[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
+[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 
 </td><td>
 
@@ -250,7 +250,7 @@ Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent
 
 </td></tr><tr><td>
 
-[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ex-fdback-ovrvw.md)
+[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ex-fdback-ovrvw.md)
 
 </td><td>
 
@@ -262,7 +262,7 @@ Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent
 
 </td></tr><tr><td>
 
-[ServiceNow Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.md)
+[ServiceNow Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.md)
 
 </td><td>
 
@@ -279,19 +279,19 @@ The omnichannel experiences provide different information and communication chan
 
 <table id="table_vdp_gjy_f2c" class="nav-card presentation"><tbody><tr><td>
 
-[Now Mobile\[Omitted image "bus-mobile-phone.svg"\] Alt text:Now Mobile capabilities enable employees to stay connected on the move.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-mobile-exp.md)
+[Now Mobile\[Omitted image "bus-mobile-phone.svg"\] Alt text:Now Mobile capabilities enable employees to stay connected on the move.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-mobile-exp.md)
 
 </td><td>
 
-[Employee Center Pro Kiosk\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Employee Center Pro Kiosk enables the deskless workers with in-context information for operational efficiency.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
+[Employee Center Pro Kiosk\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Employee Center Pro Kiosk enables the deskless workers with in-context information for operational efficiency.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 
 </td></tr><tr><td>
 
-[ServiceNow Add-ins for Microsoft 365\[Omitted image "bus-service-aware.svg"\] Alt text:Microsoft 365 add-ins help customize the office controls for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-addin-for-ms365.md)
+[ServiceNow Add-ins for Microsoft 365\[Omitted image "bus-service-aware.svg"\] Alt text:Microsoft 365 add-ins help customize the office controls for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-addin-for-ms365.md)
 
 </td><td>
 
-[ServiceNow for Zoom\[Omitted image "bus-integration-and-apis.svg"\] Alt text:ServiceNow for Zoom helps create a connected experience for users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn_zoomIntegration.md)
+[ServiceNow for Zoom\[Omitted image "bus-integration-and-apis.svg"\] Alt text:ServiceNow for Zoom helps create a connected experience for users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn_zoomIntegration.md)
 
 </td></tr></tbody>
 </table>## Additional resources

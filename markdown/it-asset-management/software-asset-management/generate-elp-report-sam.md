@@ -2,7 +2,7 @@
 title: Generate an Effective License Position \(ELP\) report
 description: Generate an ELP report to gain detailed insights into the consumption details of different groups within your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/generate-elp-report-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/generate-elp-report-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -57,5 +57,5 @@ An ELP report groups your data on existing reconciliation groups, by consumption
     \[Omitted image "elprelatedlist.png"\] Alt text: Required by device related list
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)
 

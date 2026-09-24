@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto context menu
 description: Activate the Dashboard Summary skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-dashboard-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configure-dashboard-summary.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-29"

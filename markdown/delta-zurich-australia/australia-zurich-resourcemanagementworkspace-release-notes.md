@@ -2,10 +2,10 @@
 title: Combined Resource Management Workspace release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Resource Management Workspace from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-resourcemanagementworkspace-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-resourcemanagementworkspace-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,14 @@ Zurich
 
 </td><td>
 
--   **[Move a resource assignment](https://www.servicenow.com/docs/access?context=move-ra-rmw&family=zurich&ft:locale=en-US)**
+-   **[Assign resource assignments](https://www.servicenow.com/docs/access?context=allocate-resources-rmw&family=zurich&ft:locale=en-US)**
+
+Allocate effort from unassigned resource assignments using the following ways:
+
+    -   Auto-assign work among all the available resources.
+    -   Partially assign work among for selected resources.
+
+ -   **[Move a resource assignment](https://www.servicenow.com/docs/access?context=move-ra-rmw&family=zurich&ft:locale=en-US)**
 
 Move any assigned resource assignment without actuals or an unassigned resource assignment to a different date to align the work with your project realignment, prioritization, or resource availability. You can move individual resource assignments based on your project or organizational priorities.
 
@@ -208,6 +215,8 @@ Zurich
 
 Install Resource Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Resource Management Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -371,5 +380,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

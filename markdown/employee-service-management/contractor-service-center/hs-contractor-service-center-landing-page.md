@@ -2,7 +2,7 @@
 title: Contractor Service Center
 description: The ServiceNow Contractor Service Center enables the contract workers to self-service when coming on site to provide documentation, perform tasks, and report any health and safety issues or concerns when on site.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contractor-service-center/hs-contractor-service-center-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contractor-service-center/hs-contractor-service-center-landing-page.html
 release: australia
 product: Contractor Service Center
 classification: contractor-service-center
@@ -28,7 +28,7 @@ Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Contractor Service Cen
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-compliance.svg"\] Alt text:Complete pre-qualification tasks, raise safety requests and upload documents for health and safety.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-using-contractor-management.md)
+[Use\[Omitted image "bus-compliance.svg"\] Alt text:Complete pre-qualification tasks, raise safety requests and upload documents for health and safety.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-using-contractor-management.md)
 
 </td><td>
 

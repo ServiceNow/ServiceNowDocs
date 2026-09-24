@@ -2,7 +2,7 @@
 title: JSON Data Retrieval API
 description: Query for data by issuing an HTTPS GET request to the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_DataRetrievalAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_DataRetrievalAPI.html
 release: australia
 product: Web Services
 classification: web-services
@@ -207,5 +207,5 @@ https://<instance name>.service-now.com/incident.do?JSONv2&sysparm_action=getRec
 
 ```
 
-**Parent Topic:**[JSONv2 web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JSONv2WebService.md)
+**Parent Topic:**[JSONv2 web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_JSONv2WebService.md)
 

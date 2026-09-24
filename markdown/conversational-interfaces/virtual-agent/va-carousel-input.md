@@ -2,7 +2,7 @@
 title: Carousel user input control
 description: Use the Carousel user input control in a Virtual Agent topic to present a prompt and a horizontal series of labeled images. The user can select a single item from the carousel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-carousel-input.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-carousel-input.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -567,5 +567,5 @@ Supported
 For screen devices, use touch scroll. For nonscreen devices, use voice pagination.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
+</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

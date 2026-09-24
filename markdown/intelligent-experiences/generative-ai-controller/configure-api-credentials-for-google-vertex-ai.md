@@ -2,7 +2,7 @@
 title: Configure API credentials for Google Vertex AI
 description: Configure your API credentials to use Google Vertex AI as your LLM provider for Generative AI Controller capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-google-vertex-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-google-vertex-ai.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -102,5 +102,5 @@ You can now use Completions – Vertex AI and Chat Completions – Vertex AI as 
 
 ## What to do next
 
-Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md).
 

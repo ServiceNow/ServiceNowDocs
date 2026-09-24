@@ -2,7 +2,7 @@
 title: Customer Service Management considerations
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-use-case-faqs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-use-case-faqs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

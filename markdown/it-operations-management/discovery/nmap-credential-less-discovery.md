@@ -2,7 +2,7 @@
 title: Credential-less discovery with Nmap
 description: When authentication failure prevents configuration item \(CI\) identification, Discovery or Service Mapping can run selected Nmap commands through a MID Server. This collects basic CI information without credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/nmap-credential-less-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/nmap-credential-less-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -123,12 +123,12 @@ System script include
 The CredentiallessDiscoveryAjax script include runs on the instance and handles the installation and uninstallation of Nmap on Windows MID Server instances, executed from UI actions on the form. don't modify this script.
 
 </td></tr></tbody>
-</table>-   **[Credential-less host Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/credential-less-host-discovery.md)**  
+</table>-   **[Credential-less host Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/credential-less-host-discovery.md)**  
 Credential-less host discovery occurs when a scanned host is found to be alive, but not active, or when all configured credential-based classification probes have failed.
--   **[Credential-less Application Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/credential-less-app-discovery.md)**  
+-   **[Credential-less Application Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/credential-less-app-discovery.md)**  
 Credential-less Application Discovery attempts to identify an application service actively listening on a specific port at a given IP address.
--   **[Nmap commands and data collected with credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/data-collected-nmap.md)**  
+-   **[Nmap commands and data collected with credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/data-collected-nmap.md)**  
 Nmap executes in phases when collecting data and runs a controlled set of safe commands with two patterns for exploring applications and devices.
 
-**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

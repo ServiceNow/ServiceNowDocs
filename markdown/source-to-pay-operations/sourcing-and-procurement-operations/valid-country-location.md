@@ -2,7 +2,7 @@
 title: Valid country location
 description: As a shopper, you can select a valid delivery location based on the preconfigured countries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/valid-country-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/valid-country-location.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -52,14 +52,14 @@ The following example shows how a shopper can add or select valid addresses duri
 -   You can add or select the delivery location for the valid countries and complete the shopping.
 -   From your shopping cart, when you select **Proceed to checkout**, select valid addresses for each product based on the countries or office locations where the delivery is available.
 
-**Parent Topic:**[Valid countries for delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/valid-countries.md)
+**Parent Topic:**[Valid countries for delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/valid-countries.md)
 
 **Related topics**  
 
 
-[Manage delivery to valid address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/manage-shipping-address.md)
+[Manage delivery to valid address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/manage-shipping-address.md)
 
-[Valid countries for delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/valid-countries.md)
+[Valid countries for delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/valid-countries.md)
 
-[Delivery location options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/delivery-location-details.md)
+[Delivery location options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/delivery-location-details.md)
 

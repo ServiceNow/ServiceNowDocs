@@ -2,7 +2,7 @@
 title: Configure a Wizard layout playbook
 description: Build a wizard-driven Playbook to present a playbook as a guided, step-by-step experience that walks end users through a process one activity at a time. The Wizard layout adds numbered step navigation and forward and back controls to a standard playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-wizard-layout-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/configure-wizard-layout-playbook.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -20,7 +20,7 @@ Build a wizard-driven Playbook to present a playbook as a guided, step-by-step e
 
 Role required: playbook.admin, pd\_author, or playbook.write and ui\_builder\_admin or admin
 
-Have an activated playbook with the activities you want end users to complete in sequence. The activities and their order in the playbook directly map to the wizard's steps, so order the activities in Workflow Studio before you start. For more information, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
+Have an activated playbook with the activities you want end users to complete in sequence. The activities and their order in the playbook directly map to the wizard's steps, so order the activities in Workflow Studio before you start. For more information, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-process-definition.md).
 
 ## About this task
 

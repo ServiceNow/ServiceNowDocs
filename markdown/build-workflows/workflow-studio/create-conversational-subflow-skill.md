@@ -2,7 +2,7 @@
 title: Create conversational subflow skill
 description: Create a skill for the conversational subflow and make the skill available for users in a conversation. You can have multiple skills for the same subflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-conversational-subflow-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-conversational-subflow-skill.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -44,12 +44,12 @@ Role required:
 
     \[Omitted image "create-new-skill-subflow.png"\] Alt text: Option to generate descriptions for the skill and the inputs and outputs using generative AI.
 
-7.  Specify the settings as described in the topic [Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-subflow-conversation-settings.md)
+7.  Specify the settings as described in the topic [Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configure-subflow-conversation-settings.md)
 
 8.  Save the skill.
 
     You can also test the skill by selecting **Save and test**.
 
 
-**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflows.md)
 

@@ -2,7 +2,7 @@
 title: Stakeholder form
 description: The stakeholders form enables you to add the stakeholder details involved in the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-stakeholders-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-stakeholders-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -59,5 +59,5 @@ Role of the stakeholder involved in the issue.-   None
 -   Informed
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qim-form.md)
 

@@ -2,7 +2,7 @@
 title: Clone help resources
 description: Help resources provide guidance and documentation to support users during clone operations and troubleshooting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-help-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/clone-help-resources.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"

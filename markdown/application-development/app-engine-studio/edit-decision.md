@@ -2,7 +2,7 @@
 title: Edit a decision
 description: To update or change an existing decision for an app built in App Engine Studio \(AES\), edit it in Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/edit-decision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/edit-decision.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,9 +18,9 @@ To update or change an existing decision for an app built in App Engine Studio \
 
 ## Before you begin
 
-Add logic and automation to your application. If you created an application using a template, logic and automation may already be added to your application. For more information on adding custom logic and automation, see [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md).
+Add logic and automation to your application. If you created an application using a template, logic and automation may already be added to your application. For more information on adding custom logic and automation, see [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-automation.md).
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -39,5 +39,5 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 5.  To save your changes, select **Save**.
 
 
-**Parent Topic:**[Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-decision.md)
+**Parent Topic:**[Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-decision.md)
 

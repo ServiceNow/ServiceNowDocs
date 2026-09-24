@@ -2,7 +2,7 @@
 title: Share and collaborate on an exploration
 description: Work with others to generate, discuss, refine, and follow up on insights related to a shared project, concern, or goal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/share-now-assist-explorer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/share-now-assist-explorer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Participants \(shared with editing rights\) in an exploration can work together 
 
 1.  Launch AI Data Explorer.
 
-    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-ai-data-explorer.md).
+    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Create or open the exploration that you want to work on with others.
 
@@ -76,5 +76,5 @@ Grant editing rights to the users you are sharing the exploration with. They are
 
 You can add or remove users to share the exploration with. You can also change the rights of the users who you have shared the exploration with.
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/use-aide.md)
 

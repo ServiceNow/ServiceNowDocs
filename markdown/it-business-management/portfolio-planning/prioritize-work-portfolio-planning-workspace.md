@@ -2,7 +2,7 @@
 title: Prioritize work
 description: Review and prioritize the items of your portfolio plan pipeline to add them to the plan's roadmap so that your teams can start working on them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/prioritize-work-portfolio-planning-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/prioritize-work-portfolio-planning-workspace.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -19,7 +19,7 @@ Review and prioritize the items of your portfolio plan pipeline to add them to t
 
 ## Before you begin
 
--   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
+-   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 -   Ensure that the planning items in the Prioritization page are sorted by the Rank column in ascending order.
 
 Role required: sn\_align\_core.apw\_user

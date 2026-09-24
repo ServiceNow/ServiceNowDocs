@@ -2,7 +2,7 @@
 title: Configure search source when AI search is disabled
 description: In Employee Center, the AI search is enabled by default. In situations where the AI search is disabled, you can configure a search source from which to fetch search results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-search-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-search-source.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,7 +2,7 @@
 title: Initiate chargeback and fill merchant response
 description: This is a part of the collaboration dispute workflow for the Chargeback stage. Initiate a chargeback request for the card network issuer to credit the customer with the card network and await a response from the merchant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/initiate-chargeback-and-fill-merchant-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/initiate-chargeback-and-fill-merchant-response.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -53,8 +53,8 @@ The questionnaire data from the **Initiate** stage is sent to Visa. The task is 
 
 Review the response from the merchant and fill the further details.
 
-1.  After you receive the merchant's response, the **Dispute response** field is set to **Yes** or **No** and the next activity [Review a dispute response and initiate pre-arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-dispute-response-and-create-pre-arbitration.md) is displayed.
+1.  After you receive the merchant's response, the **Dispute response** field is set to **Yes** or **No** and the next activity [Review a dispute response and initiate pre-arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/review-dispute-response-and-create-pre-arbitration.md) is displayed.
 2.  Select **Close task**. The next task appears based on the selected option.
 
-**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

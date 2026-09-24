@@ -2,7 +2,7 @@
 title: Configure Customer summarization in ServiceNow Otto for CSM
 description: Turn on the Customer summarization skill in ServiceNow Otto for CSM and configure user access and role restrictions to control who can use the skill and what data it can access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-customer-summarization-in-now-assist-for-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/configure-customer-summarization-in-now-assist-for-csm.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

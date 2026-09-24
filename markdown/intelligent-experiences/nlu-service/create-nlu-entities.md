@@ -2,7 +2,7 @@
 title: Create a simple entity
 description: Create one or more simple entities from words in your utterance examples. An entity is an object of, or context for, an action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-nlu-entities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/create-nlu-entities.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -72,5 +72,5 @@ Your utterances can reference a vocabulary source by using the @ handle. If you 
 
 \[Omitted image "create-simple-entity0.png"\] Alt text: How to reference a vocabulary source from within an utterance.
 
-For more information, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
+For more information, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
 

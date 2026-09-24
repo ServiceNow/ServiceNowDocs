@@ -2,7 +2,7 @@
 title: Group Action Framework
 description: Group Action Framework \(GAF\) is an intelligence feature on the ServiceNow AI Platform that groups related records and applies actions to them using LLMs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/group-action-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/group-action-framework.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-10"
@@ -52,7 +52,7 @@ Multiple skills are involved in GAF setup and execution. They are modular, so no
 
 GAF uses AI Search to improve its effectiveness and can use it as a fallback option in case GAF does not return any results. GAF can work without ServiceNow Otto for AI Search, but if it is enabled then GAF has optimized prediction. The optimized prediction feature increases clustering capacity up to 500,000 records and improves recall speed.
 
-See [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-now-assist-ais.md) and [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/setup-ai-search-gaf.md) for more information on configuring AI Search for GAF.
+See [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-now-assist-ais.md) and [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/setup-ai-search-gaf.md) for more information on configuring AI Search for GAF.
 
 ## Grouping inputs
 
@@ -93,7 +93,7 @@ When you configure GAF, the Grouping inputs record in the Now Assist Skill Confi
 
 To find logs where GAF is used on your instance, go to the Generative AI Log \[sys\_generative\_ai\_log\] table and filter based on the skill that used GAF. You can also filter the Log \[syslog\] table for the scope containing `sn-gaf`. Actions performed by skills, AI agents, and agentic workflows that use GAF all generate logs.
 
-For more information about common errors and possible resolution steps, see [Troubleshooting GAF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshooting-gaf.md).
+For more information about common errors and possible resolution steps, see [Troubleshooting GAF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/troubleshooting-gaf.md).
 
 ## Additional information
 

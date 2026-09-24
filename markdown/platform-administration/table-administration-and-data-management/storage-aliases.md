@@ -2,7 +2,7 @@
 title: Storage aliases
 description: Learn about the role storage aliases play in data manipulation and field creation in the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/storage-aliases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/storage-aliases.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -94,5 +94,5 @@ Storage aliases serve multiple purposes.
 -   Only sibling elements can share a physical column. For example, a reference field on the Change Request \[change\_request\] table and a reference field on the Incident \[incident\] table and can both map to the same physical column.
 -   Fields created directly on the Task \[task\] table \(where sys\_class\_name is 'task'\) can't be glommed.
 
-**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
+**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
 

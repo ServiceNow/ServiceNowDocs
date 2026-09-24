@@ -2,7 +2,7 @@
 title: AI Search in ITSM Mobile Agent
 description: Intelligent query features enable agents to quickly find the required answers in ITSM Mobile Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/ai-search-itsm-mobile-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/ai-search-itsm-mobile-agent.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

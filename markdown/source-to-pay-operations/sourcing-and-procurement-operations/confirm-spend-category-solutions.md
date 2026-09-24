@@ -2,7 +2,7 @@
 title: Confirm spend category similarity solutions
 description: Confirm that the machine learning similarity solutions and retrieval configuration used to predict spend categories are trained and active, so the Spend categorization agent can return spend category predictions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/confirm-spend-category-solutions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-spend-category-solutions.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -61,5 +61,5 @@ The following similarity solutions support spend category prediction:
 
 The similarity solutions \(**Spend Category by PRL** and **Spend Category by POL**\) and retrieval configuration for spend categories are active and ready to support predictions from the Spend categorization agent.
 
-**Parent Topic:**[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)
+**Parent Topic:**[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)
 

@@ -2,7 +2,7 @@
 title: Getting started with SAM advisor dashboard setup
 description: Set up the SAM advisor dashboard by selecting the software products that define the SAM advisor scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cmdb-sa-sam-get-started.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/cmdb-sa-sam-get-started.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -27,5 +27,5 @@ Role required: sam\_admin or sn\_cmdb\_admin
 
 If auto-setup did not run or the eligibility conditions were not met, configure the dashboard manually by selecting software products on the CMDB success advisor landing page.
 
-For instructions, see [Set up the SAM advisor dashboard manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-manual-setup.md).
+For instructions, see [Set up the SAM advisor dashboard manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/cmdb-sa-sam-manual-setup.md).
 

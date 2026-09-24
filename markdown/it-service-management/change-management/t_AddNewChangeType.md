@@ -2,7 +2,7 @@
 title: Add a new change request type
 description: You can add a new change type to your change process. There are several processes involved with adding a change type. These processes include managing script includes and workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_AddNewChangeType.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_AddNewChangeType.html
 release: australia
 product: Change Management
 classification: change-management
@@ -158,12 +158,12 @@ In addition to the three types of change available by default, you can add new c
     9.  Select **Publish** from the **Actions** menu to publish the new workflow and make it available for use.
 
 
-**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-change-management.md)
 
 **Related topics**  
 
 
-[Change types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-types.md)
+[Change types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-types.md)
 
-[Legacy: Add a state to the state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddANewState.md)
+[Legacy: Add a state to the state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddANewState.md)
 

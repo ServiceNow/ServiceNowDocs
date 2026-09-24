@@ -2,7 +2,7 @@
 title: Create a Single Record Module
 description: Create custom Single Record form for the All menu using the Next Experience All Menu Editing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-single-record-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-single-record-module.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -165,5 +165,5 @@ Action
     \[Omitted image "neame-open-single-record-module.png"\] Alt text: Arrow pointing the open module icon in the header.
 
 
-**Parent Topic:**[Next Experience All Menu Editing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-all-menu-editing.md)
+**Parent Topic:**[Next Experience All Menu Editing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-all-menu-editing.md)
 

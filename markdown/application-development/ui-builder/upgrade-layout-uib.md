@@ -2,7 +2,7 @@
 title: Upgrading layouts in UI Builder
 description: Upgrade layouts created in Quebec and Rome to the new layout system.Upgrade your UI Builder pages to the new layout system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/upgrade-layout-uib.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/upgrade-layout-uib.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -36,7 +36,7 @@ All slots in the old layout system are migrated during the upgrade process to th
 
 While component styling is not impacted, there may not be a one-to-one style migration of how components were positioned. Complex pages can have visual misalignments that occur through the upgrade process as styles are merged from slots to containers. Some issues must be resolved manually.
 
-**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md)
+**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-layouts.md)
 
 ## Upgrade your layout to the new layout system
 
@@ -52,7 +52,7 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience with the page you want to upgrade.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Select the page that you want to upgrade.
 

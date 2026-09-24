@@ -2,7 +2,7 @@
 title: Tables installed with Facilities Move Management
 description: Facilities Move Management adds the following tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_TblsInstallWFacMoveMgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_TblsInstallWFacMoveMgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -111,5 +111,5 @@ Move Task\[move\_task\]
 Holds single user move tasks
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacMoveMgmt.md)
+</table>**Parent Topic:**[Installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacMoveMgmt.md)
 

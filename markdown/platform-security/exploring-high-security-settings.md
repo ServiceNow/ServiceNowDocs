@@ -2,7 +2,7 @@
 title: Exploring High Security Settings
 description: High Security Settings refer to several security options available in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-high-security-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/exploring-high-security-settings.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [High Security Settings]
 
 High Security Settings refer to several security options available in your instance.
 
-The High Security Settings module is activated with the High Security Settings plugin, which is active by default on new instances. If High Security Settings are not active on your instance, see [Requesting High Security Settings activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateHighSecuritySettings.md). To learn more about this plugin, see [Enable High Security Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md) in Instance Security Hardening Settings. Properties for these types of high security settings are available:
+The High Security Settings module is activated with the High Security Settings plugin, which is active by default on new instances. If High Security Settings are not active on your instance, see [Requesting High Security Settings activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ActivateHighSecuritySettings.md). To learn more about this plugin, see [Enable High Security Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md) in Instance Security Hardening Settings. Properties for these types of high security settings are available:
 
 -   Default property values: To harden security on your platform by centralizing all critical security settings to one location for management and auditing.
 -   Default deny property: Provides a security manager property to control the default security behavior for table access.
@@ -28,7 +28,7 @@ The High Security Settings module is activated with the High Security Settings p
 
 -   High Security Settings also automatically activates the Contextual Security plugin, if it is not already active. In addition, Platform Security Settings - High delivers settings and features in the context of increasing the security of your instance.
 -   The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform.
--   To learn more about each of these properties, see [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
+-   To learn more about each of these properties, see [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
 
 There are two ways to set or change High Security Settings properties.
 
@@ -90,7 +90,7 @@ Yes
 
 </td><td>
 
-[Escape XML markup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-escape-xml.md)
+[Escape XML markup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-escape-xml.md)
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Yes in new instances
 
 </td><td>
 
-[Escape jelly script \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)
+[Escape jelly script \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ If you are using the SAML 2.0 plugin for Single Sign-on authentication, set this
 
 </td><td>
 
-[Rotate HTTP session identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-rotate-http-session-identifiers.md)
+[Rotate HTTP session identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-rotate-http-session-identifiers.md)
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ Yes
 
 </td><td>
 
-[Enforce strict security of session cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-secure-session-cookies.md)
+[Enforce strict security of session cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-secure-session-cookies.md)
 
 </td></tr><tr><td>
 
@@ -174,7 +174,7 @@ Yes
 
 </td><td>
 
-[Double check inbound transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-double-check-inbound-transactions.md)
+[Double check inbound transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-double-check-inbound-transactions.md)
 
 </td></tr><tr><td>
 
@@ -190,7 +190,7 @@ Yes
 
 </td><td>
 
-[Check UI action conditions before execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-check-ui-action-conditions-before-execution.md)
+[Check UI action conditions before execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-check-ui-action-conditions-before-execution.md)
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Yes
 
 </td><td>
 
-[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)
+[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)
 
 </td></tr><tr><td>
 
@@ -222,7 +222,7 @@ Yes
 
 </td><td>
 
-[Escape HTML in list views \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-escape-html.md)
+[Escape HTML in list views \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-escape-html.md)
 
 </td></tr><tr><td>
 
@@ -238,7 +238,7 @@ Yes
 
 </td><td>
 
-[Escape JavaScript \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-escape-javascript.md)
+[Escape JavaScript \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-escape-javascript.md)
 
 </td></tr><tr><td>
 
@@ -254,7 +254,7 @@ Yes
 
 </td><td>
 
-[Remove remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-remove-remember-me.md)
+[Remove remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-remove-remember-me.md)
 
 </td></tr><tr><td>
 
@@ -286,7 +286,7 @@ Yes
 
 </td><td>
 
-[Enforce SOAP request strict security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-soap-request-strict-security.md)
+[Enforce SOAP request strict security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-soap-request-strict-security.md)
 
 </td></tr><tr><td>
 
@@ -304,7 +304,7 @@ Yes
 
 </td><td>
 
-[Require authorization for WSDL request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-wsdl-request-authorization.md)
+[Require authorization for WSDL request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-wsdl-request-authorization.md)
 
 </td></tr><tr><td>
 
@@ -322,7 +322,7 @@ Yes
 
 </td><td>
 
-[Require authorization for csv requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-require-authorization-for-csv-requests.md)
+[Require authorization for csv requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-authorization-for-csv-requests.md)
 
 </td></tr><tr><td>
 
@@ -338,7 +338,7 @@ Yes
 
 </td><td>
 
-[Require authorization for excel requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-excel-request-authorization.md)
+[Require authorization for excel requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-excel-request-authorization.md)
 
 </td></tr><tr><td>
 
@@ -354,7 +354,7 @@ Yes
 
 </td><td>
 
-[Require authorization for import requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-import-request-authorization.md)
+[Require authorization for import requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-import-request-authorization.md)
 
 </td></tr><tr><td>
 
@@ -370,7 +370,7 @@ Yes
 
 </td><td>
 
-[Require authorization for PDF requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-require-authorization-for-pdf-requests.md)
+[Require authorization for PDF requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-authorization-for-pdf-requests.md)
 
 </td></tr><tr><td>
 
@@ -386,7 +386,7 @@ Yes
 
 </td><td>
 
-[Require authorization for RSS requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-rss-request-authorization.md)
+[Require authorization for RSS requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-rss-request-authorization.md)
 
 </td></tr><tr><td>
 
@@ -402,7 +402,7 @@ Yes
 
 </td><td>
 
-[Require authorization for script requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-script-request-authorization.md)
+[Require authorization for script requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-script-request-authorization.md)
 
 </td></tr><tr><td>
 
@@ -418,7 +418,7 @@ Yes
 
 </td><td>
 
-[Require authorization for SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.md)
+[Require authorization for SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.md)
 
 </td></tr><tr><td>
 
@@ -434,7 +434,7 @@ Yes
 
 </td><td>
 
-[Require authorization for unload requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-require-authorization-for-unload-requests.md)
+[Require authorization for unload requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-authorization-for-unload-requests.md)
 
 </td></tr><tr><td>
 
@@ -450,7 +450,7 @@ Yes
 
 </td><td>
 
-[Require authorization for XML requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-xml-request-authorization.md)
+[Require authorization for XML requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-xml-request-authorization.md)
 
 </td></tr><tr><td>
 
@@ -466,7 +466,7 @@ Yes
 
 </td><td>
 
-[Require Authorization for XSD Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-xsd-request-authorization.md)
+[Require Authorization for XSD Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-xsd-request-authorization.md)
 
 </td></tr><tr><td>
 
@@ -482,7 +482,7 @@ Yes
 
 </td><td>
 
-[Enforce relative links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-relative-links.md)
+[Enforce relative links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-relative-links.md)
 
 </td></tr><tr><td>
 
@@ -498,7 +498,7 @@ Yes
 
 </td><td>
 
-[Implement the x-frame-options: SAMEORIGIN security header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-x-frame-options-sameorigin.md)
+[Implement the x-frame-options: SAMEORIGIN security header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-x-frame-options-sameorigin.md)
 
 </td></tr><tr><td>
 
@@ -514,7 +514,7 @@ A list of comma-separated attachment mime types that do not render inline in the
 
 </td><td>
 
-[Restrict downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.md)
+[Restrict downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.md)
 
 </td></tr><tr><td>
 
@@ -546,7 +546,7 @@ No
 
 </td><td>
 
-[Restrict performance monitoring access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-performance-monitoring-acl.md)
+[Restrict performance monitoring access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-performance-monitoring-acl.md)
 
 </td></tr><tr><td>
 
@@ -564,7 +564,7 @@ No
 
 </td><td>
 
-[Disable embedded HTML code \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-allow-embedded-html-code.md)
+[Disable embedded HTML code \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-allow-embedded-html-code.md)
 
 </td></tr><tr><td>
 
@@ -580,7 +580,7 @@ No
 
 </td><td>
 
-[Disable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md)
+[Disable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md)
 
 </td></tr></tbody>
 </table>The following properties are defined in the sys\_properties table, but are not visible on the High Security Settings page.
@@ -683,7 +683,7 @@ false
 
 </td><td>
 
-[Prevent Users From Accepting Warning To Bypass CSRF Validation \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-csrf-strict-validation.md)
+[Prevent Users From Accepting Warning To Bypass CSRF Validation \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-csrf-strict-validation.md)
 
 </td></tr><tr><td>
 

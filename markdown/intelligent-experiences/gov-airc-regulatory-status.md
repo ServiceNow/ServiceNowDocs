@@ -2,7 +2,7 @@
 title: Reviewing regulatory classification and compliance status
 description: Review regulatory risk classification and compliance posture to understand how AI assets align with configured governance expectations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-regulatory-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-airc-regulatory-status.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-13"

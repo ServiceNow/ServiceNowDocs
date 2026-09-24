@@ -2,7 +2,7 @@
 title: Create a site functional location
 description: Create a site-type functional location so users can work with Industrial Connected Workforce \(ICW\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-site-functional-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/create-site-functional-location.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -61,7 +61,7 @@ The location is the site. Users must set their location in the user profile to b
 
 The functional location of the type site is available in the Digital Factory Workspace, from where you can create child functional locations.
 
-**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
+**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
 
 **Related topics**  
 

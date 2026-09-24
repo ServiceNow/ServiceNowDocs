@@ -2,7 +2,7 @@
 title: Create age chart configurations
 description: Configure the age chart that appears in the Data Loss Prevention Incident Response \(DLP IR\) Ops portal. This chart shows the count of open incidents by the number of days.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-age-chart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/configure-age-chart.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -53,7 +53,7 @@ Role required:
 6.  Click **Submit**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

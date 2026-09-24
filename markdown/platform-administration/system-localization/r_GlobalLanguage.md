@@ -2,7 +2,7 @@
 title: Set the default language for an instance
 description: Change the language that appears by default for an instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/r\_GlobalLanguage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/r\_GlobalLanguage.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -18,13 +18,13 @@ Change the language that appears by default for an instance.
 
 ## Before you begin
 
-Activate the languages that your users need. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md) for supported languages or [Translating to an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/self-localize.md) for custom translations.
+Activate the languages that your users need. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_ActivateALanguage.md) for supported languages or [Translating to an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/self-localize.md) for custom translations.
 
 Role required: admin
 
 ## About this task
 
-This property defines the language that users with a role see if a language is not specified in their user record. Users without a role see the default guest language, as described in [User specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_UserSpecificLanguage.md).
+This property defines the language that users with a role see if a language is not specified in their user record. Users without a role see the default guest language, as described in [User specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/r_UserSpecificLanguage.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Use your navigation function as a top menu selection
 description: Use your navigation function as a top menu selection to give your users access to the screen launcher from within a screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-launcher-navigation-example-3.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-launcher-navigation-example-3.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Use your navigation function as a top menu selection to give your users access t
 
 Role required: admin
 
-Your users can access the top menu function by tapping the icon in the upper right corner of a launcher screen. In these steps you add your navigation function to a top menu function of an existing screen. If you have not configured any screens, you need to do that first. For detail on that process, see [Create a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-configure-applet-screens.md).
+Your users can access the top menu function by tapping the icon in the upper right corner of a launcher screen. In these steps you add your navigation function to a top menu function of an existing screen. If you have not configured any screens, you need to do that first. For detail on that process, see [Create a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-configure-applet-screens.md).
 
 ## Procedure
 
@@ -46,7 +46,7 @@ Your users can access the top menu function by tapping the icon in the upper rig
     |Disable offline|Toggle that turns the top menu function off when the device is offline.|
     |Icon|The icon that appears for the top menu function.|
     |Function placement|The function used by this top menu function. These fields are automatically populated.|
-    |Button Emphasis|The button emphasis for the top menu function. This selection affects the color of the button. For a navigation function, select **Primary** or **Secondary**. These colors are determined by your mobile theme. For more information on configuring a legacy mobile theme, see [Create a theme for your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-theme.md).|
+    |Button Emphasis|The button emphasis for the top menu function. This selection affects the color of the button. For a navigation function, select **Primary** or **Secondary**. These colors are determined by your mobile theme. For more information on configuring a legacy mobile theme, see [Create a theme for your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-theme.md).|
     |Function|The function used by this top menu function. Select the function you wish to use.|
 
 6.  Select **Save**.
@@ -56,5 +56,5 @@ Your users can access the top menu function by tapping the icon in the upper rig
 
 Test the top menu action using your mobile app. After completing the steps, you can see a menu icon in the upper right corner of your screen. Tapping the menu icon displays the items in the menu. Your navigation function appears in this list using the name you provided in the **Display label** field.
 
-**Parent Topic:**[Configure navigation to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-launcher-nav-example.md)
+**Parent Topic:**[Configure navigation to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-launcher-nav-example.md)
 

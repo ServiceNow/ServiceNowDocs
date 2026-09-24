@@ -2,7 +2,7 @@
 title: Include a table field in auditing \(inclusion listing\)
 description: Track a subset of fields in an audited table by add those fields to an inclusion listing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-whitelist-audit-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-whitelist-audit-field.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,11 +18,11 @@ Track a subset of fields in an audited table by add those fields to an inclusion
 
 Role required: admin
 
-To add fields in a table to an inclusion list, you must have first [enabled auditing for that table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md) and [enabled inclusion list auditing for that table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/enable-whitelist-for-table.md).
+To add fields in a table to an inclusion list, you must have first [enabled auditing for that table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_EnableAuditingForATable.md) and [enabled inclusion list auditing for that table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/enable-whitelist-for-table.md).
 
 ## About this task
 
-Add a set of fields to an inclusion list when you want to audit only a small number of an audited table's fields. If you need to audit most fields, and exclude only a few, follow the [exclusion list procedure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ExcludeAFieldFromBeingAudited.md) instead.
+Add a set of fields to an inclusion list when you want to audit only a small number of an audited table's fields. If you need to audit most fields, and exclude only a few, follow the [exclusion list procedure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ExcludeAFieldFromBeingAudited.md) instead.
 
 ## Procedure
 

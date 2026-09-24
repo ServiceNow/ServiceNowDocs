@@ -2,7 +2,7 @@
 title: Email One-time passwords \(OTP\) authentication
 description: Email OTP for AI voice agents sends a one-time numeric code to the caller's email address. The caller retrieves the code from their email and provides it to the agent to verify their identity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/email-otp-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/email-otp-authentication.html
 release: australia
 product: Authentication
 classification: authentication
@@ -21,7 +21,7 @@ Email OTP for AI voice agents sends a one-time numeric code to the caller's emai
 
 Email OTP is appropriate for caller verification when the caller has access to their email during the session and SMS delivery is not preferred or available. Email OTP can be configured as a single factor, the first factor in a multi-factor authentication flow, or a second factor.
 
-Email OTP is a medium-assurance factor and is not suitable as the only authentication factor for sensitive operations. For those flows, combine Email OTP with a higher-assurance factor such as Okta Verify push notification or a time-based one-time password \(TOTP\). For guidance on combining factors, see [Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/explore-authentication-factors.md)
+Email OTP is a medium-assurance factor and is not suitable as the only authentication factor for sensitive operations. For those flows, combine Email OTP with a higher-assurance factor such as Okta Verify push notification or a time-based one-time password \(TOTP\). For guidance on combining factors, see [Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/explore-authentication-factors.md)
 
 ## How Email OTP works
 
@@ -44,7 +44,7 @@ Email OTP is available base system on ServiceNow AI Platform. No plugin installa
 **Related topics**  
 
 
-[Configure Email OTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-email-otp-service.md)
+[Configure Email OTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-email-otp-service.md)
 
-[Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/explore-authentication-factors.md)
+[Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/explore-authentication-factors.md)
 

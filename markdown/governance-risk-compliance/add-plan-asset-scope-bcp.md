@@ -2,7 +2,7 @@
 title: Add an asset to the scope
 description: Use the Scope tab to add an asset to the scope of the plan. If the business impact analysis \(BIA\) application is installed, you can view primary elements defined in the plan template, its RTO and RPO details, and the BIA.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-plan-asset-scope-bcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-plan-asset-scope-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

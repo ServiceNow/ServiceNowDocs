@@ -2,7 +2,7 @@
 title: Create a supplier from the Source-to-Pay Workspace
 description: Create a supplier to quickly onboard the supplier using playbooks and start purchasing goods and services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/new-supplier.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/new-supplier.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -136,17 +136,17 @@ Priority of the supplier. The available options are:-   **Critical**
 
     The application creates a case of type **Onboard a Supplier** and its state moves to **Work in progress**.
 
-    The supplier manager can continue to onboard the supplier using the **Playbook** tab on the Case Details page. For more information, see [Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
+    The supplier manager can continue to onboard the supplier using the **Playbook** tab on the Case Details page. For more information, see [Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
 
 
--   **[Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)**  
+-   **[Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)**  
 Supplier owners and supplier managers can use the supplier onboarding playbook to complete the tasks and activities that are needed to onboard new suppliers.
--   **[Perform risk assessment playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/perform-risk-playbook.md)**  
+-   **[Perform risk assessment playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/perform-risk-playbook.md)**  
 The Perform risk assessment playbook includes activities that enable you to conduct risk assessments for the supplier that you are onboarding.
--   **[Add a subsidiary for a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-subsidiary.md)**  
+-   **[Add a subsidiary for a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-subsidiary.md)**  
 If a supplier has subsidiaries, you can add them to that supplier from the Source-to-Pay Workspace.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 
@@ -175,9 +175,9 @@ If a supplier has subsidiaries, you can add them to that supplier from the Sourc
 
 [Emails view for supplier managers]()
 
-[Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
+[Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
 
-[Add a subsidiary for a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-subsidiary.md)
+[Add a subsidiary for a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-subsidiary.md)
 
-[Perform risk assessment playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/perform-risk-playbook.md)
+[Perform risk assessment playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/perform-risk-playbook.md)
 

@@ -2,7 +2,7 @@
 title: Map a skill to a dashboard
 description: Map an AI skill to a dashboard to view skill performance indicators and skill details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/map-a-skill-to-a-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/map-a-skill-to-a-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure colors for modal illustrations
 description: Configure and control the colors automatically applied to modal illustrations to keep your visual experience engaging while maintaining brand recognition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-modal-colors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-modal-colors.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,7 +73,7 @@ As a category, all modal illustrations share color hook mappings. As a result, t
 
 The new colors are applied to all card illustration types.
 
-If your theme is published, your card illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your card illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Modal illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/modals-in-tb.md)
+**Parent Topic:**[Modal illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/modals-in-tb.md)
 

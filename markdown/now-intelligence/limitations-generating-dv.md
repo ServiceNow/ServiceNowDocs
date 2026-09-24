@@ -2,7 +2,7 @@
 title: Limitations to generating data visualizations
 description: While data visualization generation is designed to handle a wide range of queries and scenarios, certain cases are not supported or only partially supported.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/limitations-generating-dv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/limitations-generating-dv.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ Data source
 
 </td><td>
 
-Only table data sources listed in the Semantic Table Configuration table are supported. See [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
+Only table data sources listed in the Semantic Table Configuration table are supported. See [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-table-semantic-layer.md).
 
 </td></tr><tr><td>
 
@@ -133,5 +133,5 @@ Data visualizations can be added only to dashboards that are created in the inli
 -   Specify a single time period per query.
 -   Avoid multiple conditions in a single query.
 
-**Parent Topic:**[Generate visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-dv-generation.md)
+**Parent Topic:**[Generate visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/use-dv-generation.md)
 

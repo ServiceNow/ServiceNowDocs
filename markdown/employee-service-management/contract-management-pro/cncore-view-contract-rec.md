@@ -2,7 +2,7 @@
 title: View a contract record
 description: View the history of a contract request to track changes, review the audit trail, and update fields. Easily see the date a contract was modified and who modified it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-view-contract-rec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-view-contract-rec.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -39,7 +39,7 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
     2.  In the **Contract History** related list, select a date in the **Contract Starts** column to view the earlier version.
 
 
-**Parent Topic:**[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)
+**Parent Topic:**[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create Oracle API credentials
 description: Create Oracle API credentials on the ServiceNow AI Platform to enable access to your Oracle resources during Oracle discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-oracle-api-credentials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/create-oracle-api-credentials.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,7 +54,7 @@ Role required: discovery\_admin
 
 ## What to do next
 
-Create OCI service accounts. For more information, see [Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-oci-service-accounts.md).
+Create OCI service accounts. For more information, see [Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-oci-service-accounts.md).
 
-**Parent Topic:**[Set up Oracle Cloud infrastructure \(OCI\) service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/set-up-oracle-cloud-infrastructure-oci-service-accounts.md)
+**Parent Topic:**[Set up Oracle Cloud infrastructure \(OCI\) service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/set-up-oracle-cloud-infrastructure-oci-service-accounts.md)
 

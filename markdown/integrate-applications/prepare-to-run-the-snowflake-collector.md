@@ -2,7 +2,7 @@
 title: Prepare to run the Snowflake collector
 description: Set up authentication and grant role permissions to enable Snowflake metadata collection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-the-snowflake-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-the-snowflake-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -123,5 +123,5 @@ Some collector features require executing queries in Snowflake, which requires a
     ```
 
 
-**Parent Topic:**[Snowflake metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/snowflake-metadata-collector.md)
+**Parent Topic:**[Snowflake metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/snowflake-metadata-collector.md)
 

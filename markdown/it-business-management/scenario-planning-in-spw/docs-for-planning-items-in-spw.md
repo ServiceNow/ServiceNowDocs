@@ -2,12 +2,12 @@
 title: Docs for planning items in Strategic Planning
 description: Store and manage all kinds of documentation for planning items from a centralized location of Strategic Planning Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/docs-for-planning-items-in-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/docs-for-planning-items-in-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -58,7 +58,7 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 **Note:**
 
--   Now Assist for Docs requires an SPM Pro + license. For more information, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md).
+-   Now Assist for Docs requires an SPM Pro + license. For more information, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-na-spm.md).
 -   If there is more content to summarize, you can remove some content and retry.
 -   Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
 

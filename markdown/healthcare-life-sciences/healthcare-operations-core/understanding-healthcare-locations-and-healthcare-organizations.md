@@ -2,7 +2,7 @@
 title: Setting up healthcare locations and healthcare organizations
 description: Understand how healthcare locations and healthcare organizations function and should be organized to set up your care teams and the physical locations they operate in correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -42,7 +42,7 @@ Use the **Parent Organization** field to create multi-level hierarchies by label
 
 The **healthcare organization location association** table is a M2M table used to store the explicit link between healthcare locations and their owning healthcare organization.
 
-For information on the fields present in the Healthcare organization table, see [Healthcare organization table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-organization-table.md).
+For information on the fields present in the Healthcare organization table, see [Healthcare organization table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-organization-table.md).
 
 ## Healthcare organization related lists
 
@@ -100,7 +100,7 @@ When a location is created, the **Location hierarchy** panel displays up to thre
 
 The location hierarchy is only shown when the healthcare location is opened from the Healthcare Operations Core app module.
 
-For information on the fields present in the Healthcare location table, see [Healthcare location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.md).
+For information on the fields present in the Healthcare location table, see [Healthcare location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.md).
 
 ## Associating healthcare locations and healthcare organizations
 
@@ -112,7 +112,7 @@ Healthcare locations define which common locations a healthcare organization is 
 
 When creating a healthcare organization or a healthcare location, you can use this table to associate a healthcare location with a healthcare organization \(or vice versa\).
 
-For more information on this process, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md)
+For more information on this process, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md)
 
 This association is healthcare's implementation of the generic Service Model Foundation relationship model. For the platform-wide pattern, see [Service Model Foundation relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-relationships.md).
 
@@ -120,9 +120,9 @@ This association is healthcare's implementation of the generic Service Model Fou
 
 To create healthcare locations and healthcare organizations, see the following topics.
 
-1.  [Create a healthcare location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-sm-configure-healthcare-location.md)
-2.  [Create a healthcare organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-sm-configure-healthcare-organizations.md)
-3.  [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md)
+1.  [Create a healthcare location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-sm-configure-healthcare-location.md)
+2.  [Create a healthcare organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-sm-configure-healthcare-organizations.md)
+3.  [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md)
 
-For a worked example that applies these tables to a hospital system, see [Example: Service Model Foundation in a hospital setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/smf-hco-hospital-setting-example.md).
+For a worked example that applies these tables to a hospital system, see [Example: Service Model Foundation in a hospital setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/smf-hco-hospital-setting-example.md).
 

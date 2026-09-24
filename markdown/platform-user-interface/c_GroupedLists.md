@@ -2,7 +2,7 @@
 title: Grouped lists
 description: Grouping aggregates a list by a field and displays the record count per group. Grouping can help you find data quickly by organizing and providing a summary of search or filter results.You can find information by grouping a list by a particular field. After grouping items in a list, several options let you focus on a particular group or set of groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_GroupedLists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_GroupedLists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ For example, this picture shows active incidents grouped by caller.
 -   The record count for each group appears next to the group name.
 -   The total number of items in the list \(all groups combined\) appears near the paging controls in the list. This total displays only when the list is grouped on a field.
 
-**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UseLists.md)
 
 ## Use a grouped list
 

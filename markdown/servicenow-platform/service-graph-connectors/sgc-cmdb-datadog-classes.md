@@ -2,7 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for Observability - Datadog
 description: When you complete setting up the connection, the data is automatically pulled from Datadog. The data is saved in target tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-datadog-classes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-datadog-classes.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -149,5 +149,5 @@ The following attributes in the Service Calculated \[cmdb\_ci\_service\_calculat
 **Related topics**  
 
 
-[Service Graph Connector for Observability - Datadog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-datadog.md)
+[Service Graph Connector for Observability - Datadog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-datadog.md)
 

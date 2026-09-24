@@ -2,7 +2,7 @@
 title: Associate a discrete asset to a linear asset
 description: Associate a discrete asset to a linear asset in order to query and find these assets from the linear asset at a later point of time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/associate-discreet-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/associate-discreet-asset.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -76,5 +76,5 @@ Description of the discrete asset.
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

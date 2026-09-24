@@ -2,7 +2,7 @@
 title: Configure MID Server capabilities
 description: MID Server capabilities define the specific functions of a MID Server within an IP address range, allowing an application to select the most appropriate MID Server. Configure capabilities on MID Servers for applications like Orchestration, Cloud Management, and Service Mapping.MID Server capabilities define the specific functions of a MID Server within an IP address range.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_ConfigureCapabilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/t\_ConfigureCapabilities.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -27,9 +27,9 @@ Role required: admin or sm\_admin
 </td></tr></tbody>
 </table>## About this task
 
-Several applications use capabilities, IP ranges, and [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md) to narrow the pool of MID Servers the applications need.
+Several applications use capabilities, IP ranges, and [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerSelector.md) to narrow the pool of MID Servers the applications need.
 
-**Note:** At least one capability is required for each MID Server used by Orchestration. See [MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationMID.md) for more information.
+**Note:** At least one capability is required for each MID Server used by Orchestration. See [MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationMID.md) for more information.
 
 The following capabilities are available by default with Discovery:
 
@@ -145,7 +145,7 @@ WMI
     The capability defined here also appears in the primary record for this MID Server.
 
 
-**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 
 ## MID Server capabilities
 
@@ -153,7 +153,7 @@ MID Server capabilities define the specific functions of a MID Server within an 
 
 ### Nmap capability
 
-The **Nmap** capability is only assigned to MID Servers for which the Network Mapper \(Nmap\) scanner has been installed for [credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/nmap-credential-less-discovery.md). This capability cannot be added to or removed from any MID Server manually. For instructions on installing or uninstalling Nmap, see [Install and uninstall Nmap on a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-nmap-on-mid-server.md)
+The **Nmap** capability is only assigned to MID Servers for which the Network Mapper \(Nmap\) scanner has been installed for [credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/nmap-credential-less-discovery.md). This capability cannot be added to or removed from any MID Server manually. For instructions on installing or uninstalling Nmap, see [Install and uninstall Nmap on a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/install-nmap-on-mid-server.md)
 
 ### MID Server capability values
 

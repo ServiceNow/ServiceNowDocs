@@ -2,7 +2,7 @@
 title: Trigger the Microsoft Defender for Endpoint capabilities from Related Links
 description: Trigger a capability profile manually after reviewing a security incident from related links.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/trigger-ms-defender-endpoint-profile-related-links.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/trigger-ms-defender-endpoint-profile-related-links.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

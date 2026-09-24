@@ -2,7 +2,7 @@
 title: Migrate financial baselines of demands to Next Experience
 description: Migrate the financial baselines of demands to Next Experience to manage the financial using Project Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/migrate-fin-baselines-demands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/migrate-fin-baselines-demands.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -24,12 +24,12 @@ Baselines view in the Next Experience provides better insights to view and analy
 
 Unlike the financial baselines created using Next Experience, the financial baselines created in the Classic UI don’t capture the actual expenses along with planned costs as a default behavior. To support baselines comparison, actual costs are captured during baseline migration. The migration uses processed expense lines as of the financial baseline creation date.
 
-For detailed information and use cases on using financials in Next Experience, see [Managing financials for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/using-financials-pp.md).
+For detailed information and use cases on using financials in Next Experience, see [Managing financials for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/using-financials-pp.md).
 
 **Note:** Starting March 2026 release, for customers using multicurrency, migration of financial baselines updates the baseline data in project currency to investment currency.
 
 1.  Existing demands that have only financial baselines but no investment baselines. With the migration, financial baseline will be migrated to investment baseline and you can view the migrated baseline from the `sn_invst_pln_invst_investment_baseline` table list view.
-2.  Existing demands that have both project and investment baselines. Run the scheduled job to populate the investment currency fields in the baselines with values from project currency. For more information, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
+2.  Existing demands that have both project and investment baselines. Run the scheduled job to populate the investment currency fields in the baselines with values from project currency. For more information, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
 
 ## Before you begin
 
@@ -82,7 +82,7 @@ Description
 2.  Filter the Name field to locate the **Migrate financial baselines to Next Experience** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
@@ -93,11 +93,11 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 
 ## Result
 
-Financial baselines for the selected demands are migrated to Next Experience and you can view them in the [Baselines view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/using-financials-pp.md).
+Financial baselines for the selected demands are migrated to Next Experience and you can view them in the [Baselines view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/using-financials-pp.md).
 
 ## What to do next
 
-[View and compare the migrated baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-compare-baselines-pp.md) with any existing baselines or current baseline \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
+[View and compare the migrated baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-compare-baselines-pp.md) with any existing baselines or current baseline \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md)
 

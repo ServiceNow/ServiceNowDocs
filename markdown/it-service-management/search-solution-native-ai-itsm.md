@@ -2,7 +2,7 @@
 title: Search for a solution in Employee Center
 description: Resolve a user's issue by searching for a relevant solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/search-solution-native-ai-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/search-solution-native-ai-itsm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: none
 5.  If the solutions aren’t relevant, proceed with incident creation or checking the request status.
 
 
-**Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
+**Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/employee-experience-employee-center.md)
 

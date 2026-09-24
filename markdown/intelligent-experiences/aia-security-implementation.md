@@ -2,7 +2,7 @@
 title: Implement access control in AI agents
 description: Implement security controls for AI agents and agentic workflows through access control lists \(ACLs\), user identities, and role masking to implement the access control-based security measures in the agentic system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-security-implementation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-security-implementation.html
 release: australia
 topic_type: concept
 last_updated: "2025-09-11"
@@ -48,8 +48,8 @@ If you don't have a suitable AI user but want to use the **AI user** identity, y
 **Note:**
 
 -   Role masking limits which roles an AI agent can use during execution. It only applies when the agent runs as a dynamic user — not when it runs as an AI user. The key difference: AI users determine the identity the agent runs as and role masking narrows the roles available to an agent that run as a dynamic user.
-    -   For more information about user identity in an AI agent, refer to [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
-    -   For more information about user identity in an agentic workflow, refer to [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+    -   For more information about user identity in an AI agent, refer to [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aia.md).
+    -   For more information about user identity in an agentic workflow, refer to [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 -   For each component’s execution, the ACL is checked against the invoking user identity, and if passed, the component’s run as user identity is applied. Any downstream components’ ACLs are checked in comparison to the run as user identity of component directly before it in the agentic hierarchy, and their run as user identities are passed down to the next downstream component’s ACLs.
 
     **Note:**
@@ -61,5 +61,5 @@ If you don't have a suitable AI user but want to use the **AI user** identity, y
 
 Configuring AI agents' tools to run in supervised mode is another way to minimize the potential negative impact of an AI agent that is not executing as expected. This will require human approval for the tool's actions before it executes. You can use the Supervised mode to enhance security for agents with the capability to perform sensitive or critical actions.
 
-You can set the supervised execution mode when creating a tool in the AI agent guided setup. For example, choose Supervised as the Execution mode when adding a catalog item tool. For reference, see [Add a catalog item to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-catalog-ai-agent.md).
+You can set the supervised execution mode when creating a tool in the AI agent guided setup. For example, choose Supervised as the Execution mode when adding a catalog item tool. For reference, see [Add a catalog item to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-catalog-ai-agent.md).
 

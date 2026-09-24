@@ -2,7 +2,7 @@
 title: Catalog Item Standards scope and examples
 description: This reference describes the in-scope best practices that can be used for catalog item generation. It provides examples of in-scope and out-of-scope best practices and documents the rules for how best practices are applied.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-item-standards-scope-and-examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/catalog-item-standards-scope-and-examples.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -97,10 +97,10 @@ The following rules define how AI applies best practices:
 -   Deviation: If there is a deviation, a catalog item is created, and then the user is prompted about the deviation.
 -   Published version only: The LLM uses only the latest published version of the Catalog Best Practices article. Draft isn’t considered.
 
-**Parent Topic:**[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
+**Parent Topic:**[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
 
 **Related topics**  
 
 
-[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
+[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
 

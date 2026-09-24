@@ -2,7 +2,7 @@
 title: Help Center content thumbs up and down feedback
 description: Help Center content includes a thumb up or thumbs down feedback option for each Help center article in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/help-center-content-feedback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/help-center-content-feedback.html
 release: australia
 product: Adoption Services
 classification: adoption-services

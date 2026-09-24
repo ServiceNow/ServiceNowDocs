@@ -2,7 +2,7 @@
 title: Work with experts
 description: Your Impact Squad is a team of on-demand experts who work with you to take on your team's unique transformation challenges.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-squad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-squad.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
@@ -17,7 +17,7 @@ Your Impact Squad is a team of on-demand experts who work with you to take on yo
 **Note:**
 
 -   If you're a Guided customer, you will have a Customer Success Manager.
--   If you're a Total customer or a Guided customer with Add-ons, you will have an Impact Squad, which includes a Customer Success Manager, Customer Success Executive, Platform Architect, and Support Account Manager. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md) for information about available Add-ons.
+-   If you're a Total customer or a Guided customer with Add-ons, you will have an Impact Squad, which includes a Customer Success Manager, Customer Success Executive, Platform Architect, and Support Account Manager. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-packages1.md) for information about available Add-ons.
 
 <table id="table_qys_dgm_25b"><thead><tr><th>
 
@@ -129,7 +129,7 @@ Based on your Impact package, the deliverable outputs may vary:
 The standard initiatives are executed in consistent, timely intervals to keep you on pace and consists of the following:
 
 -   Periodic Support Review \(PSR\): A quarterly report of your cases, problems, changes, and real availability, including service metrics, instance performance data, and upgrade and patch information.
--   Review of Outcome Insights: A progress review to assess how well success metrics align with target improvements outlined in [Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/impact-in-platform-business-outcomes.md).​ ​Guidance on approaches to data collection for this review will be delivered by the Impact squad, with an overview of configuration alternatives, including Impact ’s Value Management applications.
+-   Review of Outcome Insights: A progress review to assess how well success metrics align with target improvements outlined in [Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/value-library/impact-in-platform-business-outcomes.md).​ ​Guidance on approaches to data collection for this review will be delivered by the Impact squad, with an overview of configuration alternatives, including Impact ’s Value Management applications.
 -   Quarterly Impact Review Executive Briefing \(QIR Executive Briefing\): A strategic level conversation with customer executives that focuses on the outcomes and value that Impact is delivering toward achieving your business priorities, including holistic support and value realization reviews.
 
 **Note:** Some Foundations may be re-invoked on request during the Steady State phase as an Accelerator. For more information on the operating model, reach out to your Impact Squad.​
@@ -139,7 +139,7 @@ This phase includes regular checkpoints to keep your Impact Plan on track. A seq
 **Related topics**  
 
 
-[Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md)
+[Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-packages1.md)
 
-[Get started with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/getting_started_with_impact_concept.md)
+[Get started with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/getting_started_with_impact_concept.md)
 

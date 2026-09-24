@@ -2,7 +2,7 @@
 title: Scenario details form
 description: Use the scenario details form to select the scenario owner, location, group by selection, and space selection criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/scenario-details-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/scenario-details-form.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -72,7 +72,7 @@ If you select Workplace Entity as the group by option, the bars of the stack pla
 
 -   Creating or viewing a scenario based on workplace entities is supported from Workplace Space Management version 1.15.0. Workplace Entity is not supported for scenarios created in earlier versions.
 
-For earlier versions, you can view spaces based on their workplace entities for a building. For more information, see [Edit or view a building's spaces based on workplace entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-a-building-s-spaces-based-on-workplace-entities.md).
+For earlier versions, you can view spaces based on their workplace entities for a building. For more information, see [Edit or view a building's spaces based on workplace entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-a-building-s-spaces-based-on-workplace-entities.md).
 
 
 </td></tr><tr><td>
@@ -91,7 +91,7 @@ You can select and add multiple buildings using the space selection criteria.
 Location names are displayed based on the filter conditions. Select the refresh icon \( \[Omitted image "refresh-icon.png"\] Alt text: Refresh icon to refresh the filter criteria and get locations for multi-building scenario.\) to view results matching filter conditions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

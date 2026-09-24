@@ -2,7 +2,7 @@
 title: Use the host portal
 description: Use the host portal to create, view, and manage visits; add visitors and optional co-hosts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/use-host-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/use-host-portal.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -32,15 +32,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 4.  Perform any of the following actions based on your preference.
 
-<table id="choicetable_x42_ksz_n3c"><thead><tr><th align="left" id="d469051e102">
+<table id="choicetable_x42_ksz_n3c"><thead><tr><th align="left" id="d469055e102">
 
 Action
 
-</th><th align="left" id="d469051e105">
+</th><th align="left" id="d469055e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d469051e111">
+</th></tr></thead><tbody><tr><td id="d469055e111">
 
 **Manage visits**
 
@@ -51,7 +51,7 @@ Select any of the following options:-   **Upcoming**: Displays upcoming visits i
 -   **Drafts**: Displays visits that are saved for later. You can edit and submit draft visits.
 You can select a visit to view its details. You can also edit or cancel a visit based on your preference.
 
-</td></tr><tr><td id="d469051e139">
+</td></tr><tr><td id="d469055e139">
 
 **Manage visitors**
 
@@ -65,7 +65,7 @@ Selecting the pending tasks displays the tasks that the visitor hasn't completed
 -   On the visit details page, you can edit a visitor's details or remove the visitor.
 
 
-</td></tr><tr><td id="d469051e164">
+</td></tr><tr><td id="d469055e164">
 
 **Create a visit**
 
@@ -74,19 +74,19 @@ Selecting the pending tasks displays the tasks that the visitor hasn't completed
 1.  Select **Create new visit**.
 2.  On the New visit form, fill in the fields.
 
-For a description of the field values, see [New visit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/new-visit-form.md).
+For a description of the field values, see [New visit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/new-visit-form.md).
 
 **Note:** The fields are based on the initial requirements configured by the admin.
 
 3.  Select **Create Visit**.
 4.  Add internal or external visitors.
 
-For more information about adding visitors, see [Adding visitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/adding-visitors.md).
+For more information about adding visitors, see [Adding visitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/adding-visitors.md).
 
 5.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d469051e220">
+</td></tr><tr><td id="d469055e220">
 
 **Edit a visit**
 
@@ -99,19 +99,19 @@ For recurring visits, you can edit a single occurrence or all occurrences.
 
 3.  On the Edit visit form, fill in the fields.
 
-The fields are the same as creating a visit. For a description of the field values, see [New visit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/new-visit-form.md).
+The fields are the same as creating a visit. For a description of the field values, see [New visit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/new-visit-form.md).
 
 4.  Select **Save changes**.
 5.  Add, edit, or remove visitors.
 
-For more information about adding visitors, see [Adding visitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/adding-visitors.md).
+For more information about adding visitors, see [Adding visitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/adding-visitors.md).
 
 6.  Select **Confirm**.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/registerring-a-visitor.md)
+**Parent Topic:**[Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/registerring-a-visitor.md)
 
 **Related topics**  
 

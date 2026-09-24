@@ -2,7 +2,7 @@
 title: HR Multi Instance Integration
 description: The ServiceNowHR Multi Instance Integration centralizes the delivery of HR services in a shared services model, enabling consumers and providers to connect their instances to securely build business workflows across the ServiceNow ecosystem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/multi-instance-int.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/multi-instance-int.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,19 +20,19 @@ The ServiceNow®HR Multi Instance Integration centralizes the delivery of HR ser
 
 <table id="table_nyp_yyr_qbc" class="nav-card"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/explore-hr-multi-instance.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn about HR Multi Instance Integration features
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/explore-hr-multi-instance.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn about HR Multi Instance Integration features
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-hr-multi-instance.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-hr-multi-instance.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation
 
 </td></tr><tr><td>
 
-[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-mii.md)\[Omitted image "bus-manage.svg"\] Alt text:Provide a frictionless experience that makes it easy to raise and fulfill HR requests while giving end users the convenience of working in their own instance.
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-mii.md)\[Omitted image "bus-manage.svg"\] Alt text:Provide a frictionless experience that makes it easy to raise and fulfill HR requests while giving end users the convenience of working in their own instance.
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-hr-multi-instance.md)\[Omitted image "bus-learn.svg"\] Alt text:Get details about component like fields, tables, and properties.
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-hr-multi-instance.md)\[Omitted image "bus-learn.svg"\] Alt text:Get details about component like fields, tables, and properties.
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

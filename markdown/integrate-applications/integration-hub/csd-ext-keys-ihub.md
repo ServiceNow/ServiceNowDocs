@@ -2,7 +2,7 @@
 title: Client software distribution extension keys
 description: Client software distribution \(CSD\) extension keys allow you to customize the deployment and revocation of software from distribution providers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-ext-keys-ihub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd-ext-keys-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -22,5 +22,5 @@ These pre-defined keys allow you to generate input variables for flows that depl
 -   **SetRevocationData**: Generates the input variables for the revocation flow.
 -   **CheckRevocable**: Specifies the conditions that determine if an installation can be revoked. If the software configuration associated with the installed software allows uninstallation, the installed software can be revoked.
 
-**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-ext-framewrk.md)
+**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd-ext-framewrk.md)
 

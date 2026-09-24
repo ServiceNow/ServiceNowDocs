@@ -2,7 +2,7 @@
 title: View territory and demand channel summary in the contextual side panel
 description: The Capacity Console provides a comprehensive summary of territories and demand channels, enabling capacity planners and managers to make informed decisions about resource allocation and management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/view-territory-summary-in-capacity-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/view-territory-summary-in-capacity-console.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

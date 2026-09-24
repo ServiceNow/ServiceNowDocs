@@ -2,7 +2,7 @@
 title: Activate AI Agents for Service Mapping
 description: Activate the Service Mapping AI Agent and the Business App Mapping AI Agent from the Service Mapping home page to start automated service map creation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/activate-sm-ai-specialists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/activate-sm-ai-specialists.html
 release: australia
 product: Service Mapping
 classification: service-mapping

@@ -2,7 +2,7 @@
 title: Configure an automatic response for a question
 description: Set up automatic responses for assessment questions using either static responses or script-based responses based on specific conditions. You can configure default responses for text, drop-down list, radio button, check box, date, code and number question types. This feature helps save assessors time and effort by reducing the number of questions that require answers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -33,7 +33,7 @@ Role required:
 
 2.  Create an assessment template or open an existing assessment template that is in the Draft state.
 
-    For more information on creating a template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    For more information on creating a template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 3.  Select a question for which you want to configure an automatic response.
 

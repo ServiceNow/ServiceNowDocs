@@ -2,7 +2,7 @@
 title: Review a dispute response and initiate pre-arbitration
 description: Review a merchant’s response for the dispute and initiate pre-arbitration, if necessary for the collaboration dispute workflow for the Chargeback stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-dispute-response-and-create-pre-arbitration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/review-dispute-response-and-create-pre-arbitration.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -44,7 +44,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
     The response might include the amount accepted for the chargeback or reasons the dispute wasn't accepted. You can also view the merchant response as an attachment in the activity stream.
 
-    **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+    **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 8.  In the **Response outcome** field, select **Resolved** or **Unresolved**.
 
@@ -104,5 +104,5 @@ request if you're within three days from the submission date and you haven't rec
 
 To recall the request, select **Recall**. When a response is received, the **Pre arbitration response received** value changes to **Yes** and the transaction state moves to **Work to Progress**.
 
-**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

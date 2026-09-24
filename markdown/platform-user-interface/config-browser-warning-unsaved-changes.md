@@ -2,7 +2,7 @@
 title: Configure a browser warning for unsaved changes
 description: Configure a browser warning to display when you navigate away from a Configurable Workspace page with unsaved changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/config-browser-warning-unsaved-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/config-browser-warning-unsaved-changes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

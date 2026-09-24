@@ -2,7 +2,7 @@
 title: View opportunity scores and insights
 description: Review AI-generated win probability scores and contextual insights for an opportunity to assess deal health without opening individual activity, contact, or deal records. Use this to prioritize pipeline opportunities and identify risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/view-opty-scores-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-opty-scores-insights.html
 release: australia
 topic_type: task
 last_updated: "2026-08-06"
@@ -16,7 +16,7 @@ Review AI-generated win probability scores and contextual insights for an opport
 
 ## Before you begin
 
-Opportunity scoring jobs must be activated and the ML model must be trained on the existing data before sales agents can view AI-generated scores and insights. For more information, see [Set up ML-based opportunity scoring and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-opty-score-insights.md).
+Opportunity scoring jobs must be activated and the ML model must be trained on the existing data before sales agents can view AI-generated scores and insights. For more information, see [Set up ML-based opportunity scoring and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-up-opty-score-insights.md).
 
 Role required: sales\_agent
 
@@ -60,5 +60,5 @@ Role required: sales\_agent
 **Related topics**  
 
 
-[Summarize an opportunity using ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-som-summarize-opportunity.md)
+[Summarize an opportunity using ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/now-assist-som-summarize-opportunity.md)
 

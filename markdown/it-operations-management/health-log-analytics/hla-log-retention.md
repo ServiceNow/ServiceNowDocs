@@ -2,7 +2,7 @@
 title: Modify the log source retention period in Health Log Analytics
 description: Modify the period that Health Log Analytics retains logs from a specific source. You can calculate the impact of your intended change on storage to help you make an informed decision.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-log-retention.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-log-retention.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -30,7 +30,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-By default, the log retention duration per source is set to three days. You can change this number to 7, 14, or 30 days. For more information, see [Storage space for log retention in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-retention-space.md). Note that longer log retention results in higher storage usage.
+By default, the log retention duration per source is set to three days. You can change this number to 7, 14, or 30 days. For more information, see [Storage space for log retention in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-retention-space.md). Note that longer log retention results in higher storage usage.
 
 ## Procedure
 
@@ -82,5 +82,5 @@ By default, the log retention duration per source is set to three days. You can 
         The log retention policy for all log sources reverts to the default value of three days.
 
 
-**Parent Topic:**[Storage space for log retention in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-retention-space.md)
+**Parent Topic:**[Storage space for log retention in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-retention-space.md)
 

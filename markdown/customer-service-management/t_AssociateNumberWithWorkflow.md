@@ -2,7 +2,7 @@
 title: Associate a phone number with a workflow
 description: You can associate a Notify phone number with a workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_AssociateNumberWithWorkflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_AssociateNumberWithWorkflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Update a project task from the Project Workspace
 description: Update the details of existing tasks from the planning page of the Project Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/update-project-task-from-project-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/update-project-task-from-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -24,7 +24,7 @@ Role required: it\_project\_manager, it\_project\_user
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  From the list of tasks on the data grid, select a task that you want to update.
 
@@ -35,5 +35,5 @@ Role required: it\_project\_manager, it\_project\_user
 4.  Select **Update**.
 
 
-**Parent Topic:**[Create and assign project tasks from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-project-task-from-project-workspace.md)
+**Parent Topic:**[Create and assign project tasks from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-a-project-task-from-project-workspace.md)
 

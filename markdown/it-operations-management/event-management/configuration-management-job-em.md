@@ -2,7 +2,7 @@
 title: Periodically run an event forwarding job
 description: Activate the event forwarding job to periodically send events to all target instances with active event forwarding configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configuration-management-job-em.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configuration-management-job-em.html
 release: australia
 product: Event Management
 classification: event-management
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 Event forwarding requires both an active event forwarding configuration record and an active **Event Management - Event Forwarding Job** scheduled job.
 
-You can customize the **event-forwarding** job behavior through related system properties. For more information, see [Event forwarding properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-forwarding-properties-em.md).
+You can customize the **event-forwarding** job behavior through related system properties. For more information, see [Event forwarding properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-forwarding-properties-em.md).
 
 **Note:** To minimize the performance impact, the scheduled job sends events not older than the latest hour when it ran for the first time after setting up event forwarding.
 

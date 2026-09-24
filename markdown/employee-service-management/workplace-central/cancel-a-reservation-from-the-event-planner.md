@@ -2,7 +2,7 @@
 title: Cancel a reservation from the Event planner
 description: As a reservation planner, the Event planner enables you to cancel a reservation at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/cancel-a-reservation-from-the-event-planner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/cancel-a-reservation-from-the-event-planner.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -61,5 +61,5 @@ Role required: sn\_wsd\_rsv.reservation\_planner
 
 The reservation is canceled. The cancellation notes are automatically generated.
 
-**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-event-planner.md)
 

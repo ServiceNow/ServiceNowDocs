@@ -2,7 +2,7 @@
 title: Alert table clean up
 description: The Scheduled Jobs feature runs a script to automatically close alerts in the Alerts \[em\_alert\] table that meet specific conditions, helping reduce alert noise and keep the system clean and efficient.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/auto-close-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/auto-close-alerts.html
 release: australia
 product: Event Management
 classification: event-management
@@ -39,14 +39,14 @@ Due to the high level of traffic to the table, you cannot audit the Alert table 
 
 The `Event Management - auto close alerts` script runs automatically and repeatedly at the scheduled time and closes alerts that meet the specified conditions.
 
-**Parent Topic:**[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/rotate-tables-purge-data.md)
+**Parent Topic:**[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/rotate-tables-purge-data.md)
 
 **Related topics**  
 
 
-[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/rotate-tables-purge-data.md)
+[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/rotate-tables-purge-data.md)
 
-[Modify event table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-table-rotation.md)
+[Modify event table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-table-rotation.md)
 
-[Purge impact status and alert history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigurePurge.md)
+[Purge impact status and alert history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigurePurge.md)
 

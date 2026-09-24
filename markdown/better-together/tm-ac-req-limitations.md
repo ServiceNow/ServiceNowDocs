@@ -2,7 +2,7 @@
 title: Requirements and limitations
 description: Learn about requirements and limitations for this unified journey.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/tm-ac-req-limitations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/tm-ac-req-limitations.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-10"

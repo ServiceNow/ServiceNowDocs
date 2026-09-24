@@ -2,7 +2,7 @@
 title: Edit Automated quality assurance skill
 description: Edit the configuration of the Automated quality assurance skill to choose the inputs or parameters and display the location of the skill output.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/edit-quality-assurance-management-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/edit-quality-assurance-management-skill.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

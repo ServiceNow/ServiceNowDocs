@@ -2,7 +2,7 @@
 title: Generate team summary
 description: Generate a summary from your team's data to quickly review activities, progress, and next steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/team-digest-mh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/team-digest-mh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,7 +20,7 @@ Generate a summary from your team's data to quickly review activities, progress,
 
 Ensure you have the ServiceNow Otto for HR Service Delivery \(HRSD\) plugin \(sn\_hr\_gen\_ai\).
 
-Configure the manager insights skill. For more information, see [Configure manager insights for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/config-manager-insights.md).
+Configure the manager insights skill. For more information, see [Configure manager insights for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/config-manager-insights.md).
 
 Role required: sn\_mh.manager\_hub\_user
 

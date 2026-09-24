@@ -2,7 +2,7 @@
 title: About escalating incidents
 description: An escalation can be triggered when an incident is created with the appropriate category and sub category and the Escalate UI option is triggered within the Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -47,8 +47,8 @@ When an incident is escalated, the status of the Needs attention field is update
 
 **Note:** As a system administrator, you can configure the **Set Needs Attention False** business rule.
 
--   **[Escalate an incident in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/escalate-incident-aw.md)**  
+-   **[Escalate an incident in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/escalate-incident-aw.md)**  
 Escalate an incident to continue the investigation and diagnosis of that incident. By escalating an incident, you can ask for help from a more-experienced resource so that the issue is resolved more quickly.
 
-**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
+**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 

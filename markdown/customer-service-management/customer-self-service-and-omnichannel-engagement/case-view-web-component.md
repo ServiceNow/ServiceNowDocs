@@ -2,7 +2,7 @@
 title: Case view component
 description: Displays a detailed view of all case-related activities that help you to make effective decisions and act on a case. It also displays an activity tab and an attachments tab for case management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/case-view-web-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/case-view-web-component.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

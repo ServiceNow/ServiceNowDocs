@@ -2,7 +2,7 @@
 title: Financial Services Operations Integration with Visa release notes
 description: The ServiceNow Financial Services Operations Integration with Visa application enables easier integration with workflow applications, such as the card operations dispute management playbook with Visa Resolve Online \(VROL\) subflows. Financial Services Operations Integration with Visa was enhanced and updated in the Australia release.The ServiceNow Financial Services Operations Integration with Visa application enables easier integration with workflow applications, such as the card operations dispute management playbook with Visa Resolve Online \(VROL\) subflows. Financial Services Operations Integration with Visa was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/financial-services-operations-integration-with-visa-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/financial-services-operations-integration-with-visa-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ See [Financial Services Operations Integration with Visa](https://raw.githubuser
     Install Financial Services Operations Integration with Visa by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
 
 ## Australia
 

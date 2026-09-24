@@ -2,7 +2,7 @@
 title: Configuring plan template
 description: As a BCP plan manager, you can create a business continuity plan that can be used for your respective business units during a disruptive event. The Business Continuity Management application provides pre-configured business continuity plan templates. You can streamline the process of a plan creation by using pre-configured plan templates. You can also create a plan template for your business requirement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcp-admin-plan-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcp-admin-plan-templates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ See the table for more information on different types of demo data plan template
 
 ## Creating a plan template for your business requirement
 
-Instead of using the demo data templates, you can create a template for your specific requirement. For more information on creating a plan template for your business requirement, see [Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-a-bcp-template-uib-ws.md).
+Instead of using the demo data templates, you can create a template for your specific requirement. For more information on creating a plan template for your business requirement, see [Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-a-bcp-template-uib-ws.md).
 
 ## Pre-populating tasks and strategies with templates
 
@@ -56,10 +56,10 @@ Plan templates can reference recovery strategy templates, task template groups, 
 
 Task dependencies that are defined inside a task template group are preserved on the created tasks.
 
--   **[Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-a-bcp-template-uib-ws.md)**  
+-   **[Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-a-bcp-template-uib-ws.md)**  
 Configure the business continuity plan template in the Business Continuity Management application for your business. You can use the plan template to recover a specific primary element such as Employees or Web Servers. Similarly, you can create a plan template for different plan authoring types such as documentation, loss scenarios, and recovery tasks.
--   **[Configure Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-task-temp-temp-groups.md)**  
+-   **[Configure Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-task-temp-temp-groups.md)**  
 Create task templates and task template groups to save individual tasks or groups of tasks for reuse. Add templates to new plans or insert them into existing ones.
 
-**Parent Topic:**[Setup for a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-admin-tasks.md)
+**Parent Topic:**[Setup for a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-admin-tasks.md)
 

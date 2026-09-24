@@ -2,7 +2,7 @@
 title: Customer Service Problem Management release notes
 description: The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. Customer Service Problem Management was enhanced and updated in the Australia release.The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. Customer Service Problem Management was enhanced and updated in the Australia release.The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. Customer Service Problem Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/customer-service-problem-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/customer-service-problem-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -16,13 +16,13 @@ The ServiceNow® Customer Service Problem Management application helps customer 
 
 ## About Customer Service Problem Management
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Use the Service Problem Case record page to view Customer 360 data.
 -   Perform and record dispute analysis in the Customer Dispute Management \(CDM\) case.
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   Processes task requests that require payment status, contextual information from similar cases and Knowledge Base articles.
 -   Runs the test groups that are mapped to a task and creates repair tasks for the failed test runs.
@@ -50,7 +50,7 @@ See [Customer Service Problem Management](https://raw.githubusercontent.com/Serv
     You must install Case Playbook for Complaints \(sn\_complaint\) plugin to use the CDM case type.
 
 
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/technology-industry-rn-landing.md)
 
 ## July 2026
 

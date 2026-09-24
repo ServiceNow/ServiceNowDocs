@@ -2,7 +2,7 @@
 title: Generate apps in ServiceNow Studio
 description: Use the app generation skill to build an application in ServiceNow Studio by describing your business process in a conversation with ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-app-gen-using-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-app-gen-using-landing.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -19,7 +19,7 @@ Use the app generation skill to build an application in ServiceNow Studio by des
 
 ## Before you begin
 
-To use app generation, enable the skill in the AI Admin Hub. For more information, see [Turn on the app generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-install.md).
+To use app generation, enable the skill in the AI Admin Hub. For more information, see [Turn on the app generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-install.md).
 
 Role required: now\_assist\_panel\_user
 
@@ -47,7 +47,7 @@ When the app generation skill is turned on, the ServiceNow Otto® icon \(\[Omitt
 
     ServiceNow Otto® asks questions to understand the data to be collected, the users involved and their permissions, and the desired interface. Your answers help ServiceNow Otto® create the correct tables, roles, access control lists \(ACLs\), forms, and record producers for your application. You can also ask ServiceNow Otto® to create a workspace \(user interface\) and flow \(automation\) for your application.
 
-    If you know exactly how you want your app to work, be specific about its functionality. If you do not, describe what you know and collaborate with ServiceNow Otto® to determine the correct application requirements. For more information, see [General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-guidelines.md).
+    If you know exactly how you want your app to work, be specific about its functionality. If you do not, describe what you know and collaborate with ServiceNow Otto® to determine the correct application requirements. For more information, see [General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-guidelines.md).
 
 5.  Preview, finalize, and then generate the app.
 
@@ -74,19 +74,19 @@ When the app generation skill is turned on, the ServiceNow Otto® icon \(\[Omitt
         -   **Save files and open app** generates the app and opens it in ServiceNow Studio for you to review and edit. If you included workspaces \(user interface\) or flows \(automation\) in your application, their metadata is generated when you save the application.
         -   **Make changes** continues the conversation with ServiceNow Otto® so you can refine and edit the app. The app preview updates after ServiceNow Otto® applies your changes.
         -   **Discard and start over** deletes the current app and resets the conversation in the ServiceNow Otto® panel.
-        For more information about ServiceNow Studio, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
+        For more information about ServiceNow Studio, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
 
 
 ## Result
 
-Use the tools in ServiceNow Studio to add more features and enhance your app. For more information, see [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md) and [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-create-app-file.md).
+Use the tools in ServiceNow Studio to add more features and enhance your app. For more information, see [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md) and [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-create-app-file.md).
 
--   **[Add a workspace to a custom application with app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-add-workspace.md)**  
+-   **[Add a workspace to a custom application with app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-add-workspace.md)**  
 Add a workspace to a custom application by asking ServiceNow Otto®. Describe what you want in the workspace, or ask ServiceNow Otto® for recommendations.
--   **[Add a flow to a custom application with app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-add-flow.md)**  
+-   **[Add a flow to a custom application with app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-add-flow.md)**  
 Add a flow to a custom application by asking ServiceNow Otto®. Describe what you want the flow to do, or ask ServiceNow Otto® for suggestions.
--   **[Review and edit applications built using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-review-apps.md)**  
+-   **[Review and edit applications built using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-review-apps.md)**  
 After app generation creates an application, review and modify it in ServiceNow Studio to verify accuracy and extend functionality.
 
-**Parent Topic:**[App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
+**Parent Topic:**[App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
 

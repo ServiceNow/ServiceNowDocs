@@ -2,7 +2,7 @@
 title: Edit a data interface
 description: Update a published data interface in place when source data or consumer requirements change, without unpublishing or recreating the interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/edit-data-interface-wdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/edit-data-interface-wdf.html
 release: australia
 topic_type: task
 last_updated: "2026-05-26"
@@ -81,5 +81,5 @@ The published data interface reflects your updates. Existing consumers continue 
 
 **Important:** There is a delay between saving an edit and its appearance in the Data Catalog. The metadata collector must run before consumers see the changes. To make the changes available without waiting for the scheduled run, ask your administrator to run the collector manually from Connect Hub.
 
-**Parent Topic:**[Managing data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-interfaces_wdf.md)
+**Parent Topic:**[Managing data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-data-interfaces_wdf.md)
 

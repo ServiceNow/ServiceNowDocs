@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Care Team Operations release notes
 description: The ServiceNow ServiceNow Otto for Care Team Operations application enables care teams to create requests for support departments conversationally through using Now Assist in Virtual Agent in both Care Team Portal and Care Team Mobile. Now Assist for Healthcare Operations is a new application in the Australia release.The ServiceNow ServiceNow Otto for Care Team Operations application enables care teams to create requests for support departments conversationally through using Now Assist in Virtual Agent in both Care Team Portal and Care Team Mobile. Now Assist for Healthcare Operations is a new application in the Australia release.The ServiceNow ServiceNow Otto for Care Team Operations application enables care teams to create requests for support departments conversationally through using Now Assist in Virtual Agent in both Care Team Portal and Care Team Mobile. Now Assist for Healthcare Operations is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-healthcare-operations-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-healthcare-operations-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -31,9 +31,9 @@ See [ServiceNow Otto for Care Team Operations](https://raw.githubusercontent.com
     Install ServiceNow Otto for Care Team Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 
 ## April 2026
 
@@ -50,7 +50,7 @@ The ServiceNow® ServiceNow Otto for Care Team Operations application enables ca
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)**
+-   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)**
 
     Starting with Australia Patch 5, Now Assist for Care Team Operations is now ServiceNow Otto® for Care Team Operations. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 

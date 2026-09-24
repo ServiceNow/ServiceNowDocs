@@ -2,7 +2,7 @@
 title: Add HQ case details to the HQ communication plan
 description: Log the HQ case details to the new HQ communications store plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-add-hq-case-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-add-hq-case-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 6.  Select **Save** to save the HQ case details or select **Save &amp; Continue** to go to the next step.
 
 
-**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plan-authoring.md)
+**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-manage-store-plan-authoring.md)
 

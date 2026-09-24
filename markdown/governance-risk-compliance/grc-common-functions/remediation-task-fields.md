@@ -2,7 +2,7 @@
 title: Remediation task fields
 description: Fields on a remediation task record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/remediation-task-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/remediation-task-fields.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -59,5 +59,5 @@ Control who can view this task based on sensitivity.
 |-----|-----------|
 |**Confidential**|Restricts visibility of the task when selected.|
 
-**Parent Topic:**[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)
+**Parent Topic:**[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)
 

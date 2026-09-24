@@ -2,7 +2,7 @@
 title: Insight rule form
 description: Use the Insight rule form to create an insight rule from Automation Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/insight-rule-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/insight-rule-form.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -79,7 +79,7 @@ Message
 
 Custom message that describes the insight.For example, `Time to Cleanup Automation Tasks. The count is {0}.`
 
- To configure the variable, such as \{0\}, see [Write a script for an automation message variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-message-variable-auto-center.md).
+ To configure the variable, such as \{0\}, see [Write a script for an automation message variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-message-variable-auto-center.md).
 
  **Note:** To enable localization of this message string, create the sys\_ui\_message update record. For more information, see [Custom translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/translating-applications.md).
 
@@ -181,5 +181,5 @@ Value to determine if an insight rule must be triggered based on the qualifier t
  This field appears only when **Percentage** is selected from the Threshold type list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-reference.md)
 

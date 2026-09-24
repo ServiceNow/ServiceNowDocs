@@ -2,7 +2,7 @@
 title: View employee summary reports
 description: View the Employee Summary Virtual Agent topic in Employee Center to access employee contribution summaries, view consolidated profiles, and track employee progress.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/employee-summary-lh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/employee-summary-lh.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -52,7 +52,7 @@ The Employee summary report is available to review. You can enter follow-up ques
 
 \[Omitted image "emp-sum-4.png"\] Alt text: Employee Summary report
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

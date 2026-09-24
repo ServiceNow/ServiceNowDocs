@@ -2,7 +2,7 @@
 title: Set up the Local Admin Access topic
 description: Administrators and users with the Virtual\_agent\_admin role can install and activate the Agent Client Collector Spoke plugin. Developers can update scripts and configure commands as needed for their organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/setup-admin-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/setup-admin-access.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -45,5 +45,5 @@ Role required: virtual\_agent\_admin or admin
     To view, duplicate, preview, or publish IT Service Management topics in the Virtual Agent Designer, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
 
 
-**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
+**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
 

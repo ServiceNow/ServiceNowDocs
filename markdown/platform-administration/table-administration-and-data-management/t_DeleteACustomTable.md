@@ -2,7 +2,7 @@
 title: Delete a custom table
 description: If you no longer need a custom table, you can delete it after you delete all the records in the table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_DeleteACustomTable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/t\_DeleteACustomTable.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -44,10 +44,10 @@ Role required: admin
     -   Reference fields that reference the table
     -   Access controls
 
-**Parent Topic:**[Deleting custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DeleteATable.md)
+**Parent Topic:**[Deleting custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DeleteATable.md)
 
 **Related topics**  
 
 
-[Deleting custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DeleteATable.md)
+[Deleting custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DeleteATable.md)
 

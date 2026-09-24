@@ -2,7 +2,7 @@
 title: Extension points in Voice
 description: Using extension points, you can call the custom scripts to extend the functionality of ServiceNow Voice. While integrating a third-party phone system with ServiceNow Voice, you can invoke extension points using the CTI API to handle events in ServiceNow Voice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/extension-point-ccc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/extension-point-ccc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ By using extension points, you can easily integrate customizations without havin
 
 To view the extension points that are available by default, navigate to **System Extension Points** &gt; **Scripted Extension Points** and group by the ServiceNow Voice application.
 
-**Note:** You should install the ServiceNow Voice, ServiceNow Voice for ITSM, ServiceNow Voice for CSM, and ServiceNow Voice with Amazon Connect applications from the ServiceNow® Store. For information about these installations, see [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md), [Install ServiceNow Voice for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-itsm.md), and [Install ServiceNow Voice for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-csm.md).
+**Note:** You should install the ServiceNow Voice, ServiceNow Voice for ITSM, ServiceNow Voice for CSM, and ServiceNow Voice with Amazon Connect applications from the ServiceNow® Store. For information about these installations, see [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/install-ccc-apps.md), [Install ServiceNow Voice for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/install-ccc-itsm.md), and [Install ServiceNow Voice for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/install-ccc-csm.md).
 
 |Extension point|Description|
 |---------------|-----------|
@@ -26,5 +26,5 @@ To view the extension points that are available by default, navigate to **System
 |sn\_cti\_core.CTICallAnalysisExtractor|Defines how the transcription and the recording data is retrieved for an interaction based on the third-party phone system integrated with ServiceNow Voice.|
 |sn\_cti\_core.SoftPhoneEventSink|Defines if the third-party phone system can handle an event. Maps events from the Softphone interface to back-end events.|
 
-**Parent Topic:**[Scripting for operation handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-api.md)
+**Parent Topic:**[Scripting for operation handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cloud-call-center-api.md)
 

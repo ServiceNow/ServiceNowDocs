@@ -2,7 +2,7 @@
 title: Define Virtual Agent notification contents
 description: Create the content for a Virtual Agent notification delivered in a chat or messaging channel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/define-va-notif-contents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/define-va-notif-contents.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -198,15 +198,15 @@ Image alt text
 \(For Image Cards\) Alternative text for the image to be displayed in the card.
 
 </td></tr></tbody>
-</table>        **Note:** To create or update the messaging notification details, navigate to the **Delivery Channel** related list and complete the form. For more information, see [Configure a delivery channel for Virtual Agent notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-delivery-channel.md).
+</table>        **Note:** To create or update the messaging notification details, navigate to the **Delivery Channel** related list and complete the form. For more information, see [Configure a delivery channel for Virtual Agent notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-delivery-channel.md).
 
     2.  Select **Submit** or **Update**.
 
 
 ## What to do next
 
--   To configure a delivery channel, see [Configure a delivery channel for Virtual Agent notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-delivery-channel.md).
--   If you're creating an actionable notification, see [Define the actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-va-notif-actions.md).
+-   To configure a delivery channel, see [Configure a delivery channel for Virtual Agent notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-delivery-channel.md).
+-   If you're creating an actionable notification, see [Define the actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/define-va-notif-actions.md).
 
-**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
+**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
 

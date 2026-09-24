@@ -2,7 +2,7 @@
 title: Standard chat
 description: With the ServiceNow Otto panel standard chat, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-panel-standard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-panel-standard.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-16"
@@ -22,7 +22,7 @@ Agents can use the ServiceNow Otto panel to interact with and get assistance fro
 
 Conversational aspects of the ServiceNow Otto panel, such as skill detection, are powered by Now LLM Service.
 
-**Note:** ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md).
+**Note:** ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 
 Let's get started by selecting the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to display the ServiceNow Otto panel.\[Omitted image "now-assist-panel-icon.png"\] Alt text: ServiceNow Otto panel icon.
 
@@ -98,7 +98,7 @@ Voice Input
 
 </td><td>
 
-If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the ServiceNow Otto panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for the ServiceNow Otto menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
+If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the ServiceNow Otto panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for the ServiceNow Otto menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
 
 </td></tr><tr><td>
 
@@ -170,7 +170,7 @@ You can generate a case or incident summarization from the ServiceNow Otto panel
 
 Get specific and accurate answers to your queries by using the Get Help skill option on the ServiceNow Otto panel. This skill is available to everyone entitled to ServiceNow Otto capabilities.
 
-For more information about the ServiceNow Otto Conversational Help skill which represents as Get Help on the ServiceNow Otto panel, see [Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/conversational-help-skills.md).
+For more information about the ServiceNow Otto Conversational Help skill which represents as Get Help on the ServiceNow Otto panel, see [Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/conversational-help-skills.md).
 
 ## Resolution notes generation
 
@@ -182,5 +182,5 @@ To generate resolution notes from the ServiceNow Otto panel, select **Generate r
 
 After you enter a question or request on the ServiceNow Otto panel, ServiceNow Otto gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after the entire message has been delivered. An animated sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded.
 
-**Parent Topic:**[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
+**Parent Topic:**[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md)
 

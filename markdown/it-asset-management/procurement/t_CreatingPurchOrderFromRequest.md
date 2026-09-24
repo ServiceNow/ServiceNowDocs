@@ -2,7 +2,7 @@
 title: Create a purchase order from a request
 description: You can create a purchase order directly from a request. This approach enables procurement managers to obtain items and fulfill requests from the Service Catalog. You can create multiple purchase orders from a request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_CreatingPurchOrderFromRequest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/procurement/t\_CreatingPurchOrderFromRequest.html
 release: australia
 product: Procurement
 classification: procurement
@@ -80,7 +80,7 @@ For more information about the Asset Management Integration for Sourcing and Pro
 -   A purchase order is created.
 -   On the request, the **Sourced** check box is selected
 
-**Parent Topic:**[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_SourcingRequestItems.md)
+**Parent Topic:**[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/c_SourcingRequestItems.md)
 
 **Related topics**  
 

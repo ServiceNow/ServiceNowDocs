@@ -2,7 +2,7 @@
 title: FlowKMFEncrypter API
 description: The FlowKMFEncrypter API provides secure encryption and decryption for ServiceNow Flow Actions, using the Key Management Framework \(KMF\) crypto operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/flowkmfencrypter-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/flowkmfencrypter-api.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -98,8 +98,8 @@ var encryptedString = "<encrypted value>";
 var decryptedString = encrypter.decrypt(encryptedString);
 ```
 
--   **[FlowKMFEncrypter in a Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/allow-flowkmfencrypter-restricted-caller-access.md)**  
+-   **[FlowKMFEncrypter in a Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/allow-flowkmfencrypter-restricted-caller-access.md)**  
 Resolve the "undefined is not a function" error that occurs when a Flow Action calls the FlowKMFEncrypter API, by allowing the operation in the Restricted Caller Access Privilege record.
 
-**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md)
 

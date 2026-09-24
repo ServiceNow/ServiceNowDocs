@@ -2,7 +2,7 @@
 title: Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in Virtual Agent
 description: ServiceNow Otto is a chat assistant that helps you complete procurement tasks through conversation. Instead of navigating forms or contacting procurement staff, you can use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) to request products, track orders, and get help with procurement questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-va-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-va-using.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -53,7 +53,7 @@ If the product is in your catalog:
 
 You can then track this request from Shopping Hub, Employee Center, or the Platform home page.
 
-To learn more about quick checkout and sourcing checkout processes, see [Order a product with quick checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.md) and [Complete sourcing checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/complete-sourcing-checkout.md).
+To learn more about quick checkout and sourcing checkout processes, see [Order a product with quick checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.md) and [Complete sourcing checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/complete-sourcing-checkout.md).
 
 If the product is not in your catalog:
 
@@ -62,7 +62,7 @@ If the product is not in your catalog:
 3.  If a quote is found, ServiceNow Otto for SPO routes you to request the item.
 4.  If no quote is found, ServiceNow Otto for SPO provides a form to submit an off-catalog request.
 
-For more information on off-catalog intake forms, see [Requesting for products or services that you don't see on ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/request-prod-serv-dont-see-sh.md).
+For more information on off-catalog intake forms, see [Requesting for products or services that you don't see on ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/request-prod-serv-dont-see-sh.md).
 
 ## Ask the procurement team a question
 
@@ -95,11 +95,11 @@ To learn how a conversation powered by generative AI works in Virtual Agent, see
 
 As an administrator, you can use the ServiceNow Otto for Virtual Agent Analytics dashboard to monitor the performance of ServiceNow Otto for Virtual Agent as a self-service deflection tool. To learn more, see [Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md). The dashboard calculates the conversation deflection rate based on the resolution status associated with ServiceNow Otto query responses.
 
-For detailed information on ServiceNow Otto for SPO, see [Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md).
+For detailed information on ServiceNow Otto for SPO, see [Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md).
 
-For information on configuring ServiceNow Otto for SPO, see [Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
+For information on configuring ServiceNow Otto for SPO, see [Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 
-**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Mute a CI's alerts in Express List
 description: Mute a CI's alerts in Express List to avoid alerts being issued when replacing or upgrading the CI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/put-into-maintenance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/put-into-maintenance.html
 release: australia
 product: Event Management
 classification: event-management

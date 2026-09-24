@@ -2,7 +2,7 @@
 title: Configure CIs to appear based on life cycle stage value
 description: By default, only CIs for which Life cycle stage is Operational or empty appear on maps. You can configure the map to display CIs with other Life cycle stage values. These are general settings that only sn\_cmdb\_admin can configure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-confg-operational-state.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/unified-map-confg-operational-state.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -44,8 +44,8 @@ These workspace-specific configuration settings affect all users of the CMDB Uni
 
     3.  On the record form, select **Update** or **Save**.
 
-    -   The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md). The updated list of life cycle stage values is added to the **CMDB Workspace Unified Map View** life cycle mode on the **Operational life cycle modes** related list for the affected configuration identifier.
+    -   The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/administer-unified-map.md). The updated list of life cycle stage values is added to the **CMDB Workspace Unified Map View** life cycle mode on the **Operational life cycle modes** related list for the affected configuration identifier.
     -   You can also perform this operation from the **Operational life cycle modes** related list.
 
-**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/administer-unified-map.md)
 

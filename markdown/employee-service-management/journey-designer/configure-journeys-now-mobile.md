@@ -2,7 +2,7 @@
 title: Configure Journeys for Now Mobile
 description: Configure Journey designer in Now Mobile to enable managers, mentors, and employees to interact with their journeys from their mobile devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/configure-journeys-now-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/configure-journeys-now-mobile.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -22,7 +22,7 @@ Role required: sn\_jny.admin
 
 Plugins: Journey designer \(sn\_jny\), Journey Accelerator \(sn\_ja\), HR Service Delivery for mobile \(sn\_hr\_mobile\)
 
-Assign the Journey to the employee and publish the Journey. See [Create a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-create-journey.md)
+Assign the Journey to the employee and publish the Journey. See [Create a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-create-journey.md)
 
 For more information on Journeys, see [Journey designer]().
 
@@ -34,8 +34,8 @@ For more information on Journeys, see [Journey designer]().
 
 3.  Upload an image to appear at the top of the Journey when viewed on Now Mobile.
 
-    For an example of how a Journey looks on Now Mobile, see [Journeys on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/journeys-mobile-now.md).
+    For an example of how a Journey looks on Now Mobile, see [Journeys on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/journeys-mobile-now.md).
 
 
-**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

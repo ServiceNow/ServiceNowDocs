@@ -2,7 +2,7 @@
 title: Create and associate a policy document in Microsoft SharePoint
 description: Enable redlining in a policy document that exists in your Microsoft SharePoint location instead of creating a document in Microsoft SharePoint and associating the document with the policy record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-policy-redlining-sharepoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/create-policy-redlining-sharepoint.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -36,7 +36,7 @@ When personal authentication is enabled, create, connect, and upload operations 
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-    You can [create a new policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.md) or open a policy record to associate a document.
+    You can [create a new policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.md) or open a policy record to associate a document.
 
 4.  Select a policy to associate a policy document from the Microsoft SharePoint site.
 
@@ -136,7 +136,7 @@ When personal authentication is enabled, create, connect, and upload operations 
 
 14. Select the **Complete publishing checklist** button.
 
-    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.md).
+    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.md).
 
     After the publishing process is complete, you can either attach the policy as a PDF to the policy record or generate a Knowledge Base article when the policy moves to the Published state.
 
@@ -144,6 +144,6 @@ When personal authentication is enabled, create, connect, and upload operations 
 
 16. To view the history of the policy, select the Policy history related list.
 
-    For more information, see [View the history of a redlining-enabled policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/view-history-policy-redlining.md).
+    For more information, see [View the history of a redlining-enabled policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/view-history-policy-redlining.md).
 
 

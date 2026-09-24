@@ -2,7 +2,7 @@
 title: Configure the list page in Service Operations Workspace for ITSM
 description: Configure the fuzzyCount property to modify how the number of records is displayed on the Service Operations Workspace \(SOW\) list page. Configuring the fuzzyCount property helps improve the system performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/incident-list-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/incident-list-page.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -78,5 +78,5 @@ Displays the count of the number of records in a list as &lt;integer+&gt;. You c
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

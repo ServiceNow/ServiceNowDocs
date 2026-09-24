@@ -2,7 +2,7 @@
 title: Edit a role's access to the experience switcher
 description: Add more roles to the Experience Visibility Controls table \[sn\_udc\_experience\_visibility\_control\] to give them access to other products in the experience switcher, such as ServiceNow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/crs-edit-role-access-experience-switcher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/crs-edit-role-access-experience-switcher.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -56,5 +56,5 @@ This topic is for giving non-default roles to the experience switcher. The follo
 6.  Select **Submit** to save the changes.
 
 
-**Parent Topic:**[Administering access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/crs-experience-switcher-role-access.md)
+**Parent Topic:**[Administering access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/crs-experience-switcher-role-access.md)
 

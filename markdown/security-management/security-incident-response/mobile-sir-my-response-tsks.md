@@ -2,7 +2,7 @@
 title: View, edit, and reassign your response tasks with the Security Incident Response Mobile app
 description: View, edit, and reassign response tasks that are assigned to you. Your changes are saved on the Security Incident Response Task of the parent security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mobile-sir-my-response-tsks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mobile-sir-my-response-tsks.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -26,7 +26,7 @@ From the list of records, reassign an open response task that is assigned to you
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mobile-sir-get-started.md).
 
 2.  With the Security Incidents landing screen displayed, tap **My Response Tasks**.
 
@@ -34,9 +34,9 @@ From the list of records, reassign an open response task that is assigned to you
 
     The My Response Tasks screen is displayed with a list of the response tasks that are assigned to you.
 
-3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-search.md) to search for tasks that match specific criteria.
+3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mobile-sir-search.md) to search for tasks that match specific criteria.
 
-    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
+    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 
 4.  To reassign a task directly from the list of task records that are assigned to you, swipe left on a record to open the menu.
 

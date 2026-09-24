@@ -2,7 +2,7 @@
 title: SC Wish List Cart widget
 description: Use this widget to add catalog items or record producers to the wish list so that you can review them. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-wish-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/sc-wish-list.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -34,12 +34,12 @@ Use the widget instance options to customize the settings for the SC Wish List C
 |-----|-----------|
 |Auto update wish list|Automatically updates the wish list across all sessions.|
 
--   **[Enable the SC Wish List Cart widget in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-wish-list-portal.md)**  
+-   **[Enable the SC Wish List Cart widget in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-wish-list-portal.md)**  
 Add catalog items or record producers to the wish list after you enable the wish list.
--   **[Enable automatic updates to the wish list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-auto-update-wish-list.md)**  
+-   **[Enable automatic updates to the wish list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-auto-update-wish-list.md)**  
 Update the wish list automatically with user-specific changes from multiple tabs and platforms.
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

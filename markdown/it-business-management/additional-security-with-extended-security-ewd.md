@@ -2,7 +2,7 @@
 title: Additional security with Extended Security for EWD
 description: Additional security is an ACL enforcement feature available with Extended Security for Enterprise-Wide Deployment that applies partition-based access control to four partitioned tables: Project, Demand, Program, and Portfolio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/additional-security-with-extended-security-ewd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/additional-security-with-extended-security-ewd.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-01"
@@ -65,5 +65,5 @@ When additional security is enabled, users can only access tables and records wi
 
 Additional security is configured on a per-table basis in the SPM Configure console under **Partitions** &gt; **Enable additional security**. Each table has a checkbox; when checked, partition-based ACL enforcement is enabled for that table.
 
-Changes take effect immediately after save. Existing records retain their partition assignment; access restrictions apply to all future queries. For instructions to enable additional security, see [Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enable-additional-security-extended-security-ewd.md).
+Changes take effect immediately after save. Existing records retain their partition assignment; access restrictions apply to all future queries. For instructions to enable additional security, see [Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enable-additional-security-extended-security-ewd.md).
 

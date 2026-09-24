@@ -2,7 +2,7 @@
 title: Edit a contract template using Microsoft Word add-in for ServiceNow Contracts
 description: Edit the metadata, signatories, or clauses in a contract template that must be included in the contract template to generate a standard contract when an employee submits a contract request using the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-edit-ct-addin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-edit-ct-addin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -48,7 +48,7 @@ Modify the metadata, signatories, or clauses using the Microsoft Word add-in for
 
 </td><td>
 
-[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
+[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Edit or delete signatories.
 
 </td><td>
 
-[Edit or delete participants using add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-del-signatory-addin.md)
+[Edit or delete participants using add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-del-signatory-addin.md)
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Right-click the content control and select **Remove Content Control**.The conten
 
 7.  Complete clause mapping in the ServiceNow instance.
 
-    For more information, see [Complete clause mapping to build a clause library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-clause-map-addin.md).
+    For more information, see [Complete clause mapping to build a clause library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-clause-map-addin.md).
 
     -   Unmodified existing metadata, signatories, and clauses are retained along with their details.
     -   Deleted metadata, signatories, and clauses are deleted from the Template mappings, Participants, and Imported clauses related lists of the contract template.
@@ -89,12 +89,12 @@ Right-click the content control and select **Remove Content Control**.The conten
 9.  On finalizing the content of the contract document, select **Publish**.
 
 
--   **[Edit or delete participants using add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-del-signatory-addin.md)**  
+-   **[Edit or delete participants using add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-del-signatory-addin.md)**  
 As a contract configurator, edit or delete a participant from a Microsoft Word document using the Microsoft Word add-in for ServiceNow Contracts.
--   **[Edit or delete table mappings in a contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-table-mappings.md)**  
+-   **[Edit or delete table mappings in a contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-table-mappings.md)**  
 As a contract configurator, edit or delete table mappings in a contract template using the Microsoft Word add-in.
 
-**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
+**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
 
 **Related topics**  
 

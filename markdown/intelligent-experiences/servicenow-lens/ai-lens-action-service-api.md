@@ -2,7 +2,7 @@
 title: Script include - AILensActionService
 description: Use the AILensActionService script include together with Lens actions to leverage ServiceNow AI Lens as a service for extracting information from the provided images and getting answers to your questions.Creates an AILensActionService instance.Invokes ServiceNow AI Lens as a service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/ai-lens-action-service-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-lens/ai-lens-action-service-api.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -25,7 +25,7 @@ This script include provides methods that enable the following:
 -   Gets response from AI as per provided directions
 -   Does not require ServiceNow AI Lens desktop app
 
-**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
+**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
 
 ## AILensActionService - AILensActionService\(\)
 
@@ -176,7 +176,7 @@ An optional parameter that you can use to pass any extra key–value information
     -   auto-map the column headers of an Excel file with ServiceNow table fields
     -   auto-map Excel values to ServiceNow drop-down values
     -   auto-map Excel values to referenced records in ServiceNow tables
-For more information on the various key-values of the Excel mapping service, see [Key-values of the Excel auto-mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/ai-lens-action-service-api.md)
+For more information on the various key-values of the Excel mapping service, see [Key-values of the Excel auto-mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/ai-lens-action-service-api.md)
 
 **Key-values of the Excel auto-mapping services**
 

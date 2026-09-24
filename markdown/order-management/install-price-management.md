@@ -2,7 +2,7 @@
 title: Install Pricing Management
 description: You can install the Pricing Management application \(sn\_csm\_pricing\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-price-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-price-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ The following items are installed with Pricing Management:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-with-pricing-management.md).
+For more information, see [Components installed with Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-with-pricing-management.md).
 
 ## Procedure
 

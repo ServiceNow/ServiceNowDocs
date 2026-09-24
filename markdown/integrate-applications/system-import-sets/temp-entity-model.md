@@ -2,7 +2,7 @@
 title: Temporary entity model
 description: Use temporary ETL entities to avoid repetitive operations in target entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/temp-entity-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/temp-entity-model.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

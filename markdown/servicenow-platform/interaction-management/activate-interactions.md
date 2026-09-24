@@ -2,7 +2,7 @@
 title: Activating the Interaction Management system
 description: An administrator can activate the Interaction Logging, Routing, and Queueing plugin \(com.glide.interaction\) to access the functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/activate-interactions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/interaction-management/activate-interactions.html
 release: australia
 product: Interaction Management
 classification: interaction-management
@@ -35,5 +35,5 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-management.md)
+**Parent Topic:**[Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/interaction-management.md)
 

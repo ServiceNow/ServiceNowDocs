@@ -2,7 +2,7 @@
 title: Industry Solutions
 description: The CRM portfolio includes industry solutions that extend the core CRM products for specific verticals. Each solution builds on the CSM foundation, inheriting its customer data model, case management framework, and shared platform, and adds the workflows, data structures, and case types that organizations in that industry need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-about-industry-solutions-in-crm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-about-industry-solutions-in-crm.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"

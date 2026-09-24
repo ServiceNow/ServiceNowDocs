@@ -2,7 +2,7 @@
 title: Using MSI List view in the MSIM workspace
 description: With the list view in the MSIM workspace, you can view proposed, promoted, and rejected major security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/list-view-in-msim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/list-view-in-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -86,7 +86,7 @@ Create a new MSI record.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 

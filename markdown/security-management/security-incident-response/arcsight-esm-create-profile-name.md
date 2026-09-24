@@ -2,7 +2,7 @@
 title: Create and name the profile for ArcSight ESM event ingestion integration
 description: You can set up a profile to ingest correlation events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-create-profile-name.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/arcsight-esm-create-profile-name.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,7 +2,7 @@
 title: Import project tasks for multiple projects
 description: Import project tasks for multiple projects from an external file system or data source using import sets and transform maps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/import-project-tasks-multiple-projects.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/import-project-tasks-multiple-projects.html
 release: australia
 product: Project Management
 classification: project-management
@@ -45,7 +45,7 @@ Role required: import\_transformer, import\_admin, or admin
     For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_RunImport.md).
 
 
-**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectImportAndExport.md)
 
 **Related topics**  
 
@@ -60,5 +60,5 @@ Role required: import\_transformer, import\_admin, or admin
 
 [Calendars and schedules- Limitations]()
 
-[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectImportAndExport.md)
 

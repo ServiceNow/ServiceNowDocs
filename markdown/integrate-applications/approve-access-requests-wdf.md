@@ -2,7 +2,7 @@
 title: Review and approve data access requests
 description: Review and act on requests from consumers who need access to a data product or data interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/approve-access-requests-wdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/approve-access-requests-wdf.html
 release: australia
 topic_type: task
 last_updated: "2026-04-22"

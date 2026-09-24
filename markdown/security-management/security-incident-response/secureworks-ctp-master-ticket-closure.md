@@ -2,7 +2,7 @@
 title: Secureworks CTP Master Ticket Closure Notice
 description: Before you close a security incident created by a Secureworks CTP master ticket, you must verify that all child tickets associated with the master ticket are closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secureworks-ctp-master-ticket-closure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/secureworks-ctp-master-ticket-closure.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

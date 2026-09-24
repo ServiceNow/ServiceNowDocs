@@ -2,7 +2,7 @@
 title: Data Loss Prevention Incident Response Integration with Proofpoint
 description: The Proofpoint DLP integration supports the ingestion of Data Loss Prevention incidents created on the Proofpoint Data Loss Prevention deployment. After ingestion, you can use the incident management functionalities to remediate the DLP incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -41,22 +41,22 @@ This integration includes the following key features:
 |Proofpoint product documentation website|[Proofpoint product documentation](https://help.proofpoint.com/)|
 |ServiceNow® product documentation website|[ServiceNow Product Documentation website](https://www.servicenow.com/docs)|
 
--   **[Getting started with Proofpoint integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/getting-started-with-proofpoint-integration-dlp.md)**  
+-   **[Getting started with Proofpoint integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/getting-started-with-proofpoint-integration-dlp.md)**  
 The Proofpoint DLP integration supports the ingestion of Data Loss Prevention incidents created on the Proofpoint Data Loss Prevention tenant. After ingestion, the incident management functionalities that remediate the DLP incidents will be used.
--   **[Install and configure the Proofpoint integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/install-configure-proofpoint-integration-dlp.md)**  
+-   **[Install and configure the Proofpoint integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/install-configure-proofpoint-integration-dlp.md)**  
 Install and configure the  Proofpoint DLP integration from the  ServiceNow® Store on your  ServiceNow AI Platform instance. Start investigating DLP incidents using the  Proofpoint DLP incident data.
--   **[Create an Application in Proofpoint and Obtain Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-application-proofpoint-dlp.md)**  
+-   **[Create an Application in Proofpoint and Obtain Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/create-application-proofpoint-dlp.md)**  
 Create an Application in Proofpoint and configure the required settings to obtain client credentials. These credentials enable secure access to Proofpoint's API for seamless integration and automation.
--   **[Create a Profile for Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-proofpoint-dlp-integration.md)**  
+-   **[Create a Profile for Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/create-profile-proofpoint-dlp-integration.md)**  
 Create an incident profile in your  ServiceNow AI Platform instance. Determine the  Proofpoint DLP incidents that are suitable for creating DLP incidents.
--   **[Map Proofpoint DLP incidents status with ServiceNow incident status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/map-proofpoint-dlp-incident-status.md)**  
+-   **[Map Proofpoint DLP incidents status with ServiceNow incident status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/map-proofpoint-dlp-incident-status.md)**  
 Synchronize the status of the DLP incidents ingested on your ServiceNow instance and DLP incidents of the Proofpoint. Map the ServiceNow Incident status with the Proofpoint Incident status.
--   **[Configure Proofpoint DLP integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-proofpoint-dlp-integration-settings.md)**  
+-   **[Configure Proofpoint DLP integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/configure-proofpoint-dlp-integration-settings.md)**  
 Modify the  Proofpoint DLP  integration default system properties.
--   **[Domain Separation in Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/domain-separation-proofpoint-dlp-integration.md)**  
+-   **[Domain Separation in Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/domain-separation-proofpoint-dlp-integration.md)**  
 Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[DLP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-integrations.md)
+**Parent Topic:**[DLP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/dlp-integrations.md)
 
 **Related topics**  
 

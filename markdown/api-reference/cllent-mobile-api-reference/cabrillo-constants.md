@@ -2,7 +2,7 @@
 title: Cabrillo JS constants
 description: These are the constants used by Cabrillo JS.Constants to use when setting the style of a button.Constants to use when setting the close button style of modal interfaces.Constants to use when setting the style of a message.Constants to use when setting the presentation style of modal interfaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/cabrillo-constants.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/cabrillo-constants.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 These are the constants used by Cabrillo JS.
 
-**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
+**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 ## Cabrillo JS constants - button styles
 

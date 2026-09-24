@@ -2,7 +2,7 @@
 title: Create a filter group
 description: Create a set of filters that you can apply simultaneously. When you have multiple filters, applying them all together can be faster than applying them separately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-filter-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-filter-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ If you have many filters that apply to many visualizations on a dashboard, it ca
 
 2.  Locate and open or create the dashboard to which you want to add a filter group.
 
-    Technical dashboards are not supported. You can only add a filter group to a dashboard in the inline editor. For more information, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
+    Technical dashboards are not supported. You can only add a filter group to a dashboard in the inline editor. For more information, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-db-in-ac.md).
 
 3.  Select **Add new element** and add a Filter Group element.
 
@@ -113,9 +113,9 @@ Turn on to have the group border and radius match the pill border and radius. Av
 
     You can add filters of any type except Domain. The filter configuration is the same as for the Filter component:
 
-    -   [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md)
-    -   [Configure a True/False filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-boolean-filter-workspace.md)
-    -   [Configure a Date filter in the inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-date-filter-workspace.md)
+    -   [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md)
+    -   [Configure a True/False filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-boolean-filter-workspace.md)
+    -   [Configure a Date filter in the inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-date-filter-workspace.md)
     When you complete the configuration of each filter, select **Back to group configuration**.
 
 6.  Configure any additional settings that you want to change.

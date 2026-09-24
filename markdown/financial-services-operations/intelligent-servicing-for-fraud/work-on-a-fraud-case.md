@@ -2,7 +2,7 @@
 title: Work on a fraud case for card fraud by alert
 description: Use card fraud by alert to work on a fraud case that is created for processing alerts that are received from an external fraud detection system, ensure that any outstanding tasks are completed, and the cases are investigated and resolved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/work-on-a-fraud-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/intelligent-servicing-for-fraud/work-on-a-fraud-case.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud

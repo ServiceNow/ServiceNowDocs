@@ -2,7 +2,7 @@
 title: Implement pre-upgrade activities on a prod instance
 description: Complete the pre-upgrade tasks for a successful upgrade experience on your production instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-pre-upgrade-prod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-pre-upgrade-prod.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -167,5 +167,5 @@ Role required: upgrade\_admin
     -   Ensure to review and update the list of skipped records after the upgrade.
     -   Once done with the reviewing of the skipped records, complete the next activities required in the pre-upgrade process.
 
-**Parent Topic:**[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)
+**Parent Topic:**[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)
 

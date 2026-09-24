@@ -2,14 +2,14 @@
 title: Configure Asana for external content indexing
 description: Create and authorize an OAuth 2.0 application in the Asana developer console to allow the Asana external content connector to access your Asana source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-asana-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-asana-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Asana external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -111,12 +111,12 @@ To allow the connector to access your Asana source system via the Asana API, you
 
 Provide the following items to your connector administrator:
 
--   The client ID for your new OAuth 2.0 application that you copied in step [3.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-asana-external-content-indexing.md).
--   The client secret for your new OAuth 2.0 application that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-asana-external-content-indexing.md).
+-   The client ID for your new OAuth 2.0 application that you copied in step [3.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-asana-external-content-indexing.md).
+-   The client secret for your new OAuth 2.0 application that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-asana-external-content-indexing.md).
 
 Your connector administrator needs these items to configure an Asana external content connector to retrieve projects, tasks, comments, and security principals from your Asana source system.
 
-For details on creating and configuring an Asana external content connector, see [Create an Asana external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-asana.md).
+For details on creating and configuring an Asana external content connector, see [Create an Asana external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-asana.md).
 
-**Parent Topic:**[Asana external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/asana-external-content-connector.md)
+**Parent Topic:**[Asana external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/asana-external-content-connector.md)
 

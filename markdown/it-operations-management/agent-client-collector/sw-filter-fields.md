@@ -2,7 +2,7 @@
 title: Software filter fields
 description: The following table lists the software filter fields from which you can create a filter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/sw-filter-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/sw-filter-fields.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -98,5 +98,5 @@ Active
 Toggle to **Active** to enable the rule.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+</table>**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

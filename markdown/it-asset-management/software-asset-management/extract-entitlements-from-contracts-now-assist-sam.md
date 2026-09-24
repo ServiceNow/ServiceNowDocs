@@ -2,7 +2,7 @@
 title: Extract entitlements from software contracts using ServiceNow Otto for Software Asset Management \(SAM\)
 description: Reduce manual effort by leveraging generative AI to automatically create entitlements by extracting information from software contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/extract-entitlements-from-contracts-now-assist-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/extract-entitlements-from-contracts-now-assist-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -96,5 +96,5 @@ You can extract data related to entitlements from an existing or a new contract 
     The entitlements are successfully created.
 
 
-**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam.md)
 

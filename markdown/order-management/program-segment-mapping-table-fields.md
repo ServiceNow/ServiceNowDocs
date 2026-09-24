@@ -2,10 +2,10 @@
 title: Program segment mapping table fields
 description: Establish a mapping between a program and a segment on the program segment mapping \(sn\_prm\_program\_segment\_mapping\) table to determine whether a segment belongs to the appropriate partner program.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/program-segment-mapping-table-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/program-segment-mapping-table-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
@@ -87,12 +87,12 @@ True/False
 Determines if a segment is marked as default for a program.**Note:** At any given time, there can be only one **is\_default** entry for a program and segment relationship record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management-reference.md)
 
 **Related topics**  
 
 
-[Program segment criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/program-segment-criteria-table-fields.md)
+[Program segment criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/program-segment-criteria-table-fields.md)
 
-[Program criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/program-criteria-table-fields.md)
+[Program criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/program-criteria-table-fields.md)
 

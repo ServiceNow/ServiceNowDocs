@@ -2,7 +2,7 @@
 title: Retrieve Vulnerability and exposure data with generative AI
 description: Chat with an AI agent to retrieve information about Vulnerability Response \(host\) and Application Vulnerability Response findings \(vulnerable items and application vulnerable items\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/retrieve-vr-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/retrieve-vr-data.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
@@ -87,7 +87,7 @@ The Vulnerability Manager \(legacy\) workspace is supported by versions of Vulne
 
 </td><td>
 
-The Security Exposure Management Workspace is supported by Unified Security Exposure Management \(USEM\). You must have version 30.0 or later of Vulnerability Response installed to view this workspace. See [Implementing Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuring-security-exposure-management.md) for more information.
+The Security Exposure Management Workspace is supported by Unified Security Exposure Management \(USEM\). You must have version 30.0 or later of Vulnerability Response installed to view this workspace. See [Implementing Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuring-security-exposure-management.md) for more information.
 
 </td></tr></tbody>
 </table>3.  Select the ServiceNow Otto® icon \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) on the header page from anywhere in your instance.
@@ -111,8 +111,8 @@ The Security Exposure Management Workspace is supported by Unified Security Expo
     -   Be sure to check the answers for accuracy.
 5.  Enter follow up questions as needed.
 
-    See [Sample queries for the Retrieve Vulnerability Response data agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vr-retrieve-qbank.md) for a list of sample questions to help you get started.
+    See [Sample queries for the Retrieve Vulnerability Response data agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vr-retrieve-qbank.md) for a list of sample questions to help you get started.
 
 
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

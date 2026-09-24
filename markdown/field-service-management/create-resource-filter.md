@@ -2,7 +2,7 @@
 title: Create an advanced resource filter for dispatchers
 description: Create an advanced resource filter so all dispatchers can use the same filter in Dispatcher Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/create-resource-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/create-resource-filter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

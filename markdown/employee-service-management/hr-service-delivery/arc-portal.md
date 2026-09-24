@@ -2,7 +2,7 @@
 title: Anonymous Report Center \(ARC\)
 description: The Anonymous Report Center \(ARC\) enables employees to report discrimination or misconduct without revealing their identity. Employees are automatically signed out of the Employee Center when the ARC opens.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/arc-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/arc-portal.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,11 +32,11 @@ The following steps describe how an employee submits a report and how the system
 
 <table id="table_nyp_yyr_qbc" class="nav-card"><tbody><tr><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activation and set-up information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-setup.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activation and set-up information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/arc-setup.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-manage.svg"\] Alt text:Submit and follow up on anonymous reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-use.md)
+[Use\[Omitted image "bus-manage.svg"\] Alt text:Submit and follow up on anonymous reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/arc-use.md)
 
 </td></tr></tbody>
 </table>**Note:**

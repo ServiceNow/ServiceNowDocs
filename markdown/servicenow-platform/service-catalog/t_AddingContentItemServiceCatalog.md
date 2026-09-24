@@ -2,7 +2,7 @@
 title: Define a content item
 description: A content item is a service catalog item that provides information instead of goods or services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_AddingContentItemServiceCatalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_AddingContentItemServiceCatalog.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -101,7 +101,7 @@ Meta
 
 </td><td>
 
-Comma-separated list of tags used to search for the content item. See [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/search-catalog-item.md).
+Comma-separated list of tags used to search for the content item. See [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/search-catalog-item.md).
 
 </td></tr><tr><td>
 
@@ -115,5 +115,5 @@ If selected, the content item is not available on Service Portal.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)
+**Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)
 

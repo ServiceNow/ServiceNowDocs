@@ -2,7 +2,7 @@
 title: Model categories
 description: Model categories associate CI classes with asset classes. Model categories are part of the Product Catalog application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/c\_ModelCategories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/product-catalog/c\_ModelCategories.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -29,18 +29,18 @@ The fields in the Asset class and the IBI class are synchronized as follows:
 1.  When an IBI class is updated, the Account, Consumer, Location, and Install date field changes are synchronized with the corresponding fields of the Asset class.
 2.  When an Asset class is updated, the Location and Install date field changes are synchronized with the corresponding fields of the IBI class.
 
--   **[View model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_ViewingModelCategories.md)**  
+-   **[View model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/t_ViewingModelCategories.md)**  
 Default model categories are included with product catalog. You can view a list of default categories and the categories that you created.
--   **[Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_CreatingModelCategories.md)**  
+-   **[Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/t_CreatingModelCategories.md)**  
 You can add custom model categories for your instance.
--   **[Create assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_CreatingAssetsManually.md)**  
+-   **[Create assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/t_CreatingAssetsManually.md)**  
 The ServiceNow AI Platform does not create an asset automatically under certain conditions. You can create an asset manually as needed.
--   **[Edit model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_EditingModelCategories.md)**  
+-   **[Edit model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/t_EditingModelCategories.md)**  
 All default model categories can be edited, except for the Contract model category. You can edit any custom model categories that you created at any time.
--   **[Delete model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_DeletingModelCategories.md)**  
+-   **[Delete model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/t_DeletingModelCategories.md)**  
 If a model category is no longer needed, you can delete it.
 
-**Parent Topic:**[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ProductCatalog.md)
+**Parent Topic:**[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/c_ProductCatalog.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Add Worknote Link to Context action
 description: Add a journal field entry containing a link to the current flow context record. Use the link to view the flow execution details of the current flow. You can add a flow context link to any record that has a journal field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-worknote-link.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/add-worknote-link.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -34,7 +34,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Data type: **Record**
 
-    Record where you want to add a link to the flow execution details. You can use the [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) to find an appropriate record.
+    Record where you want to add a link to the flow execution details. You can use the [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-record-flow-designer.md) to find an appropriate record.
 
 -   **Journal Field**
 
@@ -61,5 +61,5 @@ The execution details show that the trigger incident record INC008112 was update
 
 The incident record work notes field contains a text message and a link to the flow execution details for the flow.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

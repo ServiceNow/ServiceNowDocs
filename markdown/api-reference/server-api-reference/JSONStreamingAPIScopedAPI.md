@@ -2,7 +2,7 @@
 title: JSONStreamingAPI - Scoped
 description: Build a large streaming JSON payload to use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as a JSON string for a non-streaming option.Closes the JSONStreamingAPI object. Must call this method to close the stream after building a JSON object.Ends pretty print JSON formatting.Adds pretty print formatting to a JSON object, or a section of a JSON object.Closes an array within the parent JSON object.Closes an object within the parent JSON object.Returns the sys\_id of the attachment record in the Streaming Attachments \[streaming\_attachment\] table that contains the JSON payload.Returns the JSON object as a string.Opens an array within the parent JSON object.Creates an array within the parent JSON object.Opens an object within the parent JSON object.Adds a Boolean value to the parent JSON object.Adds a Boolean field and value to the parent JSON object.Adds a field name to the parent JSON object.Adds a null value to the parent JSON object.Adds a field with a null value to the parent JSON object.Adds a number field and value to the parent JSON object.Adds a raw value to the parent JSON object.Adds a string value to the parent JSON object.Adds a string field and value to the parent JSON object.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/JSONStreamingAPIScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/JSONStreamingAPIScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,7 +20,7 @@ Use these methods in the Workflow Studio script step with the `sn_ih` namespace 
 
 You can only use this API within the Workflow Studio environment.
 
-To use this class, you must call the build\(\) method in the JSONStreamingBuilder class to return a JSONStreamingAPI object. See [JSONStreamingBuilder - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md).
+To use this class, you must call the build\(\) method in the JSONStreamingBuilder class to return a JSONStreamingAPI object. See [JSONStreamingBuilder - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md).
 
 ## API call order
 
@@ -171,7 +171,7 @@ Output:
 }
 ```
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## JSONStreamingAPI - close\(\)
 
@@ -534,7 +534,7 @@ finally {
 
 Returns the sys\_id of the attachment record in the Streaming Attachments \[streaming\_attachment\] table that contains the JSON payload.
 
-You must call the withAttachment\(\) method in the JSONStreamingBuilder class to save the JSON payload as an attachment before calling this method. See [JSONStreamingBuilder - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md).
+You must call the withAttachment\(\) method in the JSONStreamingBuilder class to save the JSON payload as an attachment before calling this method. See [JSONStreamingBuilder - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -600,7 +600,7 @@ finally {
 
 Returns the JSON object as a string.
 
-To return the JSON object as a string, do not call the withAttachment\(\) method in the JSONStreamingBuilder class. See [JSONStreamingBuilder - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md).
+To return the JSON object as a string, do not call the withAttachment\(\) method in the JSONStreamingBuilder class. See [JSONStreamingBuilder - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|

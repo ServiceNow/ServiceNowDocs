@@ -2,7 +2,7 @@
 title: Example menu items and content links
 description: The method for choosing a link target \(current window, iFrame, or new window\) and referencing the item linked \(page, attachment, or URL\) are similar. Review examples of how to link within these elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_NavigationMenusAndContentLinks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/c\_NavigationMenusAndContentLinks.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -28,13 +28,13 @@ Menu items are similar to content links except they are called by the list block
 
 \[Omitted image "ContentLink.png"\] Alt text: Content link example
 
--   **[View menu and list examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_ExampleMenuSection.md)**  
+-   **[View menu and list examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_ExampleMenuSection.md)**  
 Menu sections define groups of links and how the links behave.
 
-**Parent Topic:**[Create a navigation menu block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateNavigationMenuBlock.md)
+**Parent Topic:**[Create a navigation menu block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateNavigationMenuBlock.md)
 
 **Related topics**  
 
 
-[View links between system elements and URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_LinkToContent.md)
+[View links between system elements and URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_LinkToContent.md)
 

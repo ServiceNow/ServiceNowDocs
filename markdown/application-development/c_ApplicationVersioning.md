@@ -2,7 +2,7 @@
 title: Application versions
 description: Each installed application has a version as defined by its application developer in the custom application record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationVersioning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_ApplicationVersioning.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

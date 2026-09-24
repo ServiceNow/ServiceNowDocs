@@ -2,7 +2,7 @@
 title: Configure event collection from vRealize
 description: Configure the VMware vRealize Operations \(vRealize or vRealize\_V2\) connector instance to receive events from the vRealize Operations Log and Event Management servers. vRealize uses basic authentication. vRealize\_V2 uses token-based authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigurevRealizeConnectorJS.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMConfigurevRealizeConnectorJS.html
 release: australia
 product: Event Management
 classification: event-management
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 Supported version: 8.10.0.
 
-**Note:** Connect to vRealize using a local account with at least Read-only vRealize Operations permission. You can use an existing credential or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-vrealize.md).
+**Note:** Connect to vRealize using a local account with at least Read-only vRealize Operations permission. You can use an existing credential or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-credentials-vrealize.md).
 
 ## About this task
 
@@ -38,7 +38,7 @@ This connector has the **debug** and **logPayloadForDebug** log parameters enabl
     |-----|-----|
     |Name|Specify a unique name for the vRealize Operations connector instance.|
     |Host IP|Specify the vRealize Operations IP address.|
-    |Credential|Select the credential with basic authentication that you created for this connector. vRealize\_V2 uses token-based authentication providing that the user can generate the token. For more information, see [Create vRealize credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-vrealize.md).|
+    |Credential|Select the credential with basic authentication that you created for this connector. vRealize\_V2 uses token-based authentication providing that the user can generate the token. For more information, see [Create vRealize credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-credentials-vrealize.md).|
     |Schedule \(seconds\)|The frequency in seconds that the system checks for new events from vRealize Operations.|
     |Description|Type a description for the use of the vRealize Operations connector.|
     |Connector definition|The vendor and protocol used to gather events from the external event source. Select **vRealize** or **vRealize\_V2** \(vRealize\_V2 is located in the Event Management connectors scope\).|
@@ -74,13 +74,13 @@ This connector has the **debug** and **logPayloadForDebug** log parameters enabl
 7.  After a successful test, select **Active** and then click **Update**.
 
 
--   **[Create vRealize credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-vrealize.md)**  
+-   **[Create vRealize credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-credentials-vrealize.md)**  
 Create credentials to access vRealize.
 
-**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 
 **Related topics**  
 
 
-[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

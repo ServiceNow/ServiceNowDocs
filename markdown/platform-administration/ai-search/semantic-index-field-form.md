@@ -2,7 +2,7 @@
 title: Semantic Index Field form
 description: The Semantic Index Field form enables you to define a semantic index field for use in an AI Search semantic index configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/semantic-index-field-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/semantic-index-field-form.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Semantic Index Field form enables you to define a semantic index field for use in an AI Search semantic index configuration.
 
-To learn about defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-semantic-indexing-ais.md). For details on semantic index configuration fields, see [Semantic Index Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-configuration-form.md).
+To learn about defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-semantic-indexing-ais.md). For details on semantic index configuration fields, see [Semantic Index Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/semantic-index-configuration-form.md).
 
 **Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one [ServiceNow Otto® application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) installed.
 
@@ -84,5 +84,5 @@ Field
 Name of the source table field to include in the semantic index. This field's value will be handled according to the parent semantic index configuration's specified **Chunking configuration for embedding** settings. This field is automatically set to **attachment\_body** when **Attachment** is selected from **Type**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/reference-ais.md)
 

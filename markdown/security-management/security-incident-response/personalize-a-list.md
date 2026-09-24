@@ -2,7 +2,7 @@
 title: Personalize a list
 description: Security analysts or managers can personalize the security incidents or response tasks or phishing emails custom list view based on their individual preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/personalize-a-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/personalize-a-list.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -83,7 +83,7 @@ Role required: sn\_si.analyst
         **Note:** you can **Reorder** your personalized view by moving their positions.
 
 
-**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 

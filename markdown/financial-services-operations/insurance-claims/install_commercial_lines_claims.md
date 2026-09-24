@@ -2,7 +2,7 @@
 title: Install Commercial Lines Claims
 description: If you have the admin role, you can install the Commercial Lines Claims application \(sn\_ins\_claim\_cml\).If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/install\_commercial\_lines\_claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/install\_commercial\_lines\_claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -32,7 +32,7 @@ The following items are installed with Commercial Lines Claims:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Commercial Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/components_installed_with_commercial_lines_claims.md).
+For more information, see [Components installed with Commercial Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/components_installed_with_commercial_lines_claims.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Create a reservation waitlist
 description: When work spaces in a location are fully booked, and employees are unable to find a space, they can join a reservation waitlist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-rsv-waitlist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/create-rsv-waitlist.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -28,7 +28,7 @@ Make sure you have installed and configured the following:
 -   Workplace Reservation Management
 -   Workplace Core
 -   Workplace Central
--   The **Enable waitlist** and **Enable browse by neighborhood** Reservable Module configuration options are enabled by your workplace administrator. For more information, see [Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md).
+-   The **Enable waitlist** and **Enable browse by neighborhood** Reservable Module configuration options are enabled by your workplace administrator. For more information, see [Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md).
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -74,7 +74,7 @@ Reservable type
 
 Option to enter a Reservable Module type configuration. For example, **Desks**, **Meeting rooms** and so on.**Note:** Shift-based Reservable Module configurations aren't supported for waitlisting a space.
 
-The **Enable waitlist** check box option in the Reservable Module configuration should be selected by your workplace administrator for you to create reservation waitlist. The Reservable Module configuration selected is shown for selection here. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+The **Enable waitlist** check box option in the Reservable Module configuration should be selected by your workplace administrator for you to create reservation waitlist. The Reservable Module configuration selected is shown for selection here. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Building
 
 Select a building location where you want to create a reservation waitlist.**Note:** Buildings added to the **Reservable Table configuration** are shown for selection. If you have updated the **Workplace Locations** in Reservable Table configuration, the Workplace Locations are prioritized over Buildings updated in the Reservable Table Configuration. For example, if you configure any buildings \(AMSB1 or CALB1\) in **Workplace Locations**, these locations get prioritized over the Buildings added in the Reservable Table Configuration.
 
-For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Neighborhood
 
 Option to select a Neighborhood.**Note:** Neighborhoods assigned to a selected building and to which an employee has access to are only shown for selection.
 
-The **Enable browse by Neighborhood** check box option should be enabled by your administrators in the Reservable Module Configuration. Only then Neighborhoods are displayed for selection. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md)
+The **Enable browse by Neighborhood** check box option should be enabled by your administrators in the Reservable Module Configuration. Only then Neighborhoods are displayed for selection. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md)
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Option to select a start time for your reservation waitlist. **Note:**
 
 Start time for a reservation should not be in the past. Start time value is dependent on the Max days in future Reservable Module configuration value. Time is shown in the selected Building time zone.
 
-For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md)
+For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md)
 
 </td></tr><tr><td>
 
@@ -170,7 +170,7 @@ Select an end time for your waitlist.**Note:** End time must be after start time
 
     -   Canceled: You can only view details for a canceled waitlist record. Select the more options icon \(\[Omitted image "waitlist-more-options-icon.png"\] Alt text: Select the icon to see additional options to view a waitlist record.\) to **View Details** for a waitlist record.
     -   Expired: Expired waitlist records aren't shown on the My Reservation Waitlist page.
-    Workplace reservation event planners can prioritize a waitlist that is queued. They can increase the weight of a Queued waitlist record to move it up in the queue for faster space assignment. They can update the weight of a waitlist record to prioritize it in the queue. They can also assign a space on behalf of others for waitlisting a space. For more information, see [Manage reservation waitlist records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/rsv-planner-subscribe-waitlist.md).
+    Workplace reservation event planners can prioritize a waitlist that is queued. They can increase the weight of a Queued waitlist record to move it up in the queue for faster space assignment. They can update the weight of a waitlist record to prioritize it in the queue. They can also assign a space on behalf of others for waitlisting a space. For more information, see [Manage reservation waitlist records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/rsv-planner-subscribe-waitlist.md).
 
 11. To view all waitlist records, navigate to **All** &gt; **Workplace Reservations Management** &gt; **Reservations Overview** &gt; **My Waiting list**.
 
@@ -187,9 +187,9 @@ Select an end time for your waitlist.**Note:** End time must be after start time
     **Note:** When the employee has an waitlist for the same module, date, and overlapping time, the waitlist record is created and the employee is informed. Resolving a waitlist item, will not complete any other overlapping items. These remain in the queue until these are cancelled, confirmed, or expired.
 
 
-**Parent Topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
+**Parent Topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
 
-**Previous topic:**[Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/waitlist-configuration.md)
+**Previous topic:**[Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/waitlist-configuration.md)
 
-**Next topic:**[Create a schedule job for waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/schedule-job-waitlist.md)
+**Next topic:**[Create a schedule job for waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/schedule-job-waitlist.md)
 

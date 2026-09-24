@@ -2,7 +2,7 @@
 title: Create a frame UI macro
 description: Copy an existing frame UI macro to display content in a custom frame.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CreateANewFrameUIMacro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_CreateANewFrameUIMacro.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -46,10 +46,10 @@ Create a custom frame UI macro if you want to control the style of the frame wit
 -   In any content block form, select the UI macro.
 -   Define the frame in a style sheet.
 
-**Parent Topic:**[Format a frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_Frame.md)
+**Parent Topic:**[Format a frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_Frame.md)
 
 **Related topics**  
 
 
-[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)
+[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentBlocks.md)
 

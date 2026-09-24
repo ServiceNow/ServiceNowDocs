@@ -2,7 +2,7 @@
 title: Set the planned disposition of a business application
 description: Set the planned disposition of a business application to track future decisions on the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application-listview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application-listview.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,12 +38,12 @@ Setting the planned disposition of a business application results in better data
 5.  Select **Update**.
 
 
-**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-app-rat-list-view.md)
+**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-using-app-rat-list-view.md)
 
 **Related topics**  
 
 
-[Edit business application details in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-business-application-details.md)
+[Edit business application details in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-edit-business-application-details.md)
 
-[Add business application lifecycle data using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data-listview.md)
+[Add business application lifecycle data using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-business-application-lifecycle-data-listview.md)
 

@@ -2,7 +2,7 @@
 title: Using Conversation Improvement Themes
 description: View performance insights using the widgets in Conversation Improvement Themes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/conv-impr-themes-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/conv-impr-themes-use.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Web service import set mode
 description: When a SOAP message inserts a record into an import set table, and there is no import set for that table in the Loading state, a new import set will be created with the Mode set to Synchronous.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_ImportSetMode.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/r\_ImportSetMode.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -122,5 +122,5 @@ The message related to a status of error. When an error occurs, setting this val
 
 It is possible to include information other than the information specified in the WSDL by overwriting the contents of status\_message using the transform script.
 
-**Parent Topic:**[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
+**Parent Topic:**[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
 

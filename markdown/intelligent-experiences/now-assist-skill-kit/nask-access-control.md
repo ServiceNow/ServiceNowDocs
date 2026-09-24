@@ -2,7 +2,7 @@
 title: Configure security controls for a skill
 description: You must define an access control list \(ACL\) and role restrictions for all skills. An ACL enables you to restrict who is able to access and execute a skill to only users with the correct role. Role restrictions enable users to limit roles during skill execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/nask-access-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/nask-access-control.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -75,7 +75,7 @@ Select the roles that a user must have to execute the skill. **Note:** If you se
 
 3.  Add an ACL to a new skill.
 
-    1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
+    1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
 
     2.  In the **Configure security controls** section, select an option for the access control list.
 
@@ -84,7 +84,7 @@ Select the roles that a user must have to execute the skill. **Note:** If you se
     4.  Continue creating the skill.
 
 
-**Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+**Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 **Related topics**  
 

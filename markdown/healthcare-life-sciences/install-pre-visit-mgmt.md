@@ -2,7 +2,7 @@
 title: Install Pre-Visit Management
 description: You can install the Pre-Visit Management application \(sn\_previsit\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/install-pre-visit-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/install-pre-visit-mgmt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ The following items are installed with Pre-Visit Management:
 -   Scheduled jobs
 -   Business rules
 
-For more information, see [Components installed with Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-components-installed.md).
+For more information, see [Components installed with Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-components-installed.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Universal Request in Sourcing and Procurement Operations
 description: Universal Request \(UR\) in Sourcing and Procurement Operations enables employees to submit procurement-related requests through Employee Center, even when a request requires collaboration across multiple departments or teams. After submission, a routing agent creates a procurement case and routes it to the appropriate fulfillers for resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/universal-request-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/universal-request-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -19,7 +19,7 @@ Universal Request \(UR\) in Sourcing and Procurement Operations enables employee
 
 ## Plugin
 
-To enable Universal Request in Sourcing and Procurement Operations, install the Universal Request for Source-to-Pay Operations plugin \(sn\_fsc\_ur\_common\). For more information, see [Install Universal Request for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-universal-request-spo.md).
+To enable Universal Request in Sourcing and Procurement Operations, install the Universal Request for Source-to-Pay Operations plugin \(sn\_fsc\_ur\_common\). For more information, see [Install Universal Request for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/install-universal-request-spo.md).
 
 ## Key stakeholders
 
@@ -32,12 +32,12 @@ To create routing agents, add users to the Source Operations Universal Request G
 
 1.  An employee submits a Universal Request from Employee Center.
 
-    For more information, see [Create a Universal Request from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-universal-request.md).
+    For more information, see [Create a Universal Request from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-universal-request.md).
 
 2.  A routing agent reviews the request and routes it to the appropriate team based on the short description and additional details provided.
 3.  The routing agent creates a procurement case as the primary ticket for resolution.
 
-    For more information, see [Create a procurement case from a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case-from-ur.md).
+    For more information, see [Create a procurement case from a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case-from-ur.md).
 
 4.  When **Need resolution review** is enabled, the routing agent reviews the resolution and determines the next steps:
 
@@ -49,7 +49,7 @@ To create routing agents, add users to the Source Operations Universal Request G
     Status updates sync automatically to the Universal Request. The employee can track progress on the **Activity** tab in their Universal Request in Employee Center.
 
 
-**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 

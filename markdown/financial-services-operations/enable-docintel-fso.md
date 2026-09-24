@@ -2,7 +2,7 @@
 title: Enable Document Intelligence for FSO
 description: Enable Document Intelligence for FSO Document Processor by installing and activating the required plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/enable-docintel-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/enable-docintel-fso.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,8 +22,8 @@ Role required: admin
 
 Enabling Document Intelligence for FSO requires the following plugins:
 
--   Financial Services Operations Core \(sn\_bom\): [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md)
--   Financial Services Document Processor \(sn\_doc\_processor\): [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integrating-with-document-processor.md)
+-   Financial Services Operations Core \(sn\_bom\): [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-core-data-model.md)
+-   Financial Services Document Processor \(sn\_doc\_processor\): [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/integrating-with-document-processor.md)
 -   Document Intelligence \(sn\_docintel\): [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-document-intelligence.md)
 -   Document Intelligence UIB Component \(com.sn\_docintel\_iframe\)
 
@@ -36,5 +36,5 @@ Enabling Document Intelligence for FSO requires the following plugins:
     **Note:** Applications and plugins may require additional licenses or need to be purchased from the ServiceNow Store.
 
 
-**Parent Topic:**[Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md)
+**Parent Topic:**[Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/integration-with-document-intelligence.md)
 

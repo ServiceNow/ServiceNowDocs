@@ -2,7 +2,7 @@
 title: Configure dealer portal
 description: Configure the dealer portal in MCO to enable dealers to access recalls, submit claims, and manage self-service workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-configure-dealer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-configure-dealer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-07-01"

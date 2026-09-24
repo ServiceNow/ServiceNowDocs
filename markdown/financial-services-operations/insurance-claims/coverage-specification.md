@@ -2,7 +2,7 @@
 title: Coverage specification
 description: Learn how an insurance policy defines the specific protections or risk coverages for your customers by using the Insurance claims application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/coverage-specification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/coverage-specification.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -39,5 +39,5 @@ An administrator defines these options in the product model, ensuring that the i
 **Related topics**  
 
 
-[Create a coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/creating-a-coverage-specification.md)
+[Create a coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/creating-a-coverage-specification.md)
 

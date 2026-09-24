@@ -2,7 +2,7 @@
 title: Create a flow, subflow, or action in Workflow Studio
 description: Create a flow in Workflow Studio to automate fixing repeated issues that cause automations to fail in Automation Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-acl-flowdesigner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/create-acl-flowdesigner.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -31,7 +31,7 @@ Role required: sn\_ac.automation\_technical\_user and sn\_ac.automation\_admin
 
 ## What to do next
 
-[Create an action category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-action-category.md)
+[Create an action category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-action-category.md)
 
-**Parent Topic:**[Creating an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-action.md)
+**Parent Topic:**[Creating an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/creating-action.md)
 

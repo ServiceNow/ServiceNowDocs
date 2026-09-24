@@ -2,7 +2,7 @@
 title: Configuring Workplace Visitor Management for Workplace Services Kiosk
 description: You can configure pages, check-in flows, check-out flows to integrate Workplace Visitor Management with the Workplace Services Kiosk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/config-visitor-for-kiosk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/config-visitor-for-kiosk.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -16,14 +16,14 @@ breadcrumb: [Configure, Workplace Visitor Management, Workplace Service Delivery
 
 You can configure pages, check-in flows, check-out flows to integrate Workplace Visitor Management with the Workplace Services Kiosk.
 
-For more information about the Workplace Services Kiosk, see [Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/workplace-services-kiosk.md).
+For more information about the Workplace Services Kiosk, see [Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/workplace-services-kiosk.md).
 
--   **[Configure pages for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/create-kiosk-pages.md)**  
+-   **[Configure pages for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/create-kiosk-pages.md)**  
 Configure pages that you want to display for check-in or check-out flows on the Workplace Services Kiosk.
--   **[Create a flow for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/create-kiosk-flow.md)**  
+-   **[Create a flow for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/create-kiosk-flow.md)**  
 Create a check-in or check-out flow for the Workplace Service Kiosk.
 
-**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Format an image as a static HTML block
 description: An easy way to add an image to a CMS page is to use a static HTML block. After the block is created, you can reuse it throughout the site.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_AddAnImageAsAStaticHTMLBlock.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_AddAnImageAsAStaticHTMLBlock.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -49,14 +49,14 @@ Role required: content\_admin or admin
     Now the image is a static HTML block and you can add it to any content page. Use standard HTML code to alter the image in the content block.
 
 
-**Parent Topic:**[Configure a static HTML block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_StaticHTMLBlock.md)
+**Parent Topic:**[Configure a static HTML block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_StaticHTMLBlock.md)
 
 **Related topics**  
 
 
-[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)
+[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentBlocks.md)
 
-[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
+[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
 
-[Configure a header block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_HeaderBlock.md)
+[Configure a header block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_HeaderBlock.md)
 

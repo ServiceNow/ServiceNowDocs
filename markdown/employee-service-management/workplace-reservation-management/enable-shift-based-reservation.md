@@ -2,7 +2,7 @@
 title: Enable shift-based reservation
 description: As an admin, enable employees to reserve a workplace item for a shift. Configure the spaces that can be reserved for a shift. Specify the users who can make shift-based reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/enable-shift-based-reservation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/enable-shift-based-reservation.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -74,7 +74,7 @@ The users and spaces are assigned to the shift. When an employee wants to make a
 -   The shifts for which the employee can make a reservation.
 -   The spaces that are available for reservation in the selected shift.
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

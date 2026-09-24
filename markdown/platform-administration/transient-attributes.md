@@ -2,7 +2,7 @@
 title: Working with attributes transiently
 description: Start adding attributes and values to records without formally defining a full schema.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/transient-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/transient-attributes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,11 +20,11 @@ Implementing Dynamic Schema is a flexible process. To get started, you can simpl
 
 Implement attributes transiently using the following process.
 
-1.  [Create a dynamic attribute store field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-dynamic-attribute-store-field-transient.md)
+1.  [Create a dynamic attribute store field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-dynamic-attribute-store-field-transient.md)
 
     Get started by creating a dynamic attribute store field for storing attributes on a record.
 
-2.  [Add transient attributes to a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/add-transient-attributes.md)
+2.  [Add transient attributes to a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/add-transient-attributes.md)
 
     After creating the dynamic attribute store field, describe your records by using transient attributes and string values.
 
@@ -37,5 +37,5 @@ When you add attributes to a store field without formally defining them as dynam
 -   Transient attributes aren't organized into logical categories.
 -   Transient attributes don't support choice sets, which give you control over attribute values and where they can be used.
 
-Instead, you can specify additional data types, organize attributes into categories, create dynamic choice sets, and reuse attributes in multiple store fields by formally defining your attributes in a dynamic namespace. When you're ready to take advantage of these capabilities, see [Working with Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/working-with-dynamic-schema.md).
+Instead, you can specify additional data types, organize attributes into categories, create dynamic choice sets, and reuse attributes in multiple store fields by formally defining your attributes in a dynamic namespace. When you're ready to take advantage of these capabilities, see [Working with Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/working-with-dynamic-schema.md).
 

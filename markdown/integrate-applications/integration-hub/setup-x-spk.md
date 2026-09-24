@@ -2,7 +2,7 @@
 title: Set up the X spoke
 description: Integrate the ServiceNow instance and X account to authenticate the requests from ServiceNow.Create an app in the X developer account and obtain the values of Access Token, Access Token Secret, Consumer key, and Consumer Secret for authenticating the requests.Add and configure the X connections to authenticate ServiceNow requests in the X spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-x-spk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-x-spk.html
 release: australia
 product: Integration Hub
 classification: integration-hub

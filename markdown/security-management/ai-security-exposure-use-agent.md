@@ -2,7 +2,7 @@
 title: Use the AI guardrails helper agentic workflow
 description: Use the AI agent to ask about guardrails identified by the AI skill component in the AI Guardrails Helper. Automatically defer findings with existing mitigations in the form of guardrails and create exception rules to automatically defer future findings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/ai-security-exposure-use-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/ai-security-exposure-use-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-08-03"
@@ -46,7 +46,7 @@ Before providing the agent with instructions, use the AI guardrails helper skill
 
     -   **Create exception rule**
 
-        Create exception rules to automatically defer future AI validation findings that have guardrails as mitigations already present in the AI security platform. See [Configure Exception Management for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exp-mngmt-vr.md) for more information about exception management.
+        Create exception rules to automatically defer future AI validation findings that have guardrails as mitigations already present in the AI security platform. See [Configure Exception Management for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exp-mngmt-vr.md) for more information about exception management.
 
     -   **Learn about guardrails**
 
@@ -67,5 +67,5 @@ Before providing the agent with instructions, use the AI guardrails helper skill
     Select the **Approvals** tab on the approval rule record to view the status of your requests.
 
 
-**Parent Topic:**[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-skill-agent.md)
+**Parent Topic:**[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ai-security-exposure-skill-agent.md)
 

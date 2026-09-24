@@ -2,10 +2,10 @@
 title: Install Partner Relationship Management
 description: Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\), along with the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-partner-relationship-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-partner-relationship-management.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -81,12 +81,12 @@ Load the demo data after installing Partner Relationship Management.1.  Install 
 
 You have successfully installed the Partner Relationship Management application.
 
-**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-partner-relationship-management.md)
+[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/roles-and-components-of-partner-relationship-management.md)
 
-[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-partner-relationship-management.md)
+[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/data-model-for-partner-relationship-management.md)
 

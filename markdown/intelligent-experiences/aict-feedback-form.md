@@ -2,7 +2,7 @@
 title: Feedback form
 description: Learn about the fields of the feedback form. Use this form to create or edit the details of a feedback record in AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-feedback-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-feedback-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-29"

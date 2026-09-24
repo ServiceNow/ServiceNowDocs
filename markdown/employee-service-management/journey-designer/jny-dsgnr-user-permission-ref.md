@@ -2,7 +2,7 @@
 title: Journey designer user permissions reference
 description: Administrators can configure the user permissions for different Journey designer journey configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-user-permission-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-dsgnr-user-permission-ref.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -82,12 +82,12 @@ Enables journey owners and mentors to include personalized messages from a journ
 **Note:** The **Send a note** button is visible in only published journeys.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsnr-reference.md)
+</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsnr-reference.md)
 
 **Related topics**  
 
 
-[Quick Link form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-quick-link-form.md)
+[Quick Link form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-quick-link-form.md)
 
-[Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-quick-links.md)
+[Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-quick-links.md)
 

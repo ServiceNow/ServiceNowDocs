@@ -2,7 +2,7 @@
 title: Contract metadata extraction use case mapping form
 description: Use the Create use case mapping form in the contract metadata extraction skill to map the use case to specific tables and conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-me.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-me.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -105,5 +105,5 @@ Conditions under which the use case applies on the repository table. The field a
 For more information on using the condition builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Map a use case for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-me.md)
+</table>**Parent Topic:**[Map a use case for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-me.md)
 

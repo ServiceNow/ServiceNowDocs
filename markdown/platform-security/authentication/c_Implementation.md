@@ -2,7 +2,7 @@
 title: Implement a nonce
 description: 
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_Implementation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/c\_Implementation.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,7 +2,7 @@
 title: Microsoft SQL Server Integration Services \(SSIS\) discovery
 description: The Discovery and Service Mapping application uses the SSIS pattern to find SQL Server Integration Services \(SSIS\) on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/ms-ssis-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/ms-ssis-pattern.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -51,5 +51,5 @@ Discovery populates the following data when running the SSIS pattern.
 |Installation directory|install\_directory|The SSIS install directory|
 |Instance Name|instance|The SSIS instance name|
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Software.md)
 

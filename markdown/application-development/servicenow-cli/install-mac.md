@@ -2,7 +2,7 @@
 title: Install the ServiceNow CLI on Mac
 description: Install ServiceNow CLI on a Mac OS using the installer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/install-mac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-cli/install-mac.html
 release: australia
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -54,5 +54,5 @@ Role required: admin
     ```
 
 
-**Parent Topic:**[Install the ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/download-cli.md)
+**Parent Topic:**[Install the ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-cli/download-cli.md)
 

@@ -2,7 +2,7 @@
 title: Add nodeless NLU entities as input variables to a topic
 description: You can add nodeless NLU entities as input variables to a topic if NLU is enabled for Virtual Agent. These variables can be slot-filled from NLU service provider predictions or provided outside of the scope of the topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-nodeless-entities-input-vars.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/add-nodeless-entities-input-vars.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,7 +25,7 @@ Role required: virtual\_agent\_admin or admin
 
 If a custom control prompts a user for a date and the user mentioned a date in their initial utterance, you can capture that without re-prompting the user. To prompt the user when not slot-filled, use input controls.
 
-For more information about NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/entities.md). For more information about system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-system-entities.md).
+For more information about NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/entities.md). For more information about system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/nlu-system-entities.md).
 
 ## Procedure
 
@@ -60,7 +60,7 @@ Data type of the input. The fields on the dialog box change according to your ch
 -   **Date Time**: Date, time, or both. Shows the **Input format** field.
 -   **Static Choice**: Defined user choices. Shows **Display name** and **Value to store** field pairs.
 -   **Dynamic Choice**: Choice of table records. Shows **Populate choices by**, **Table**, and **Filter choices** fields. The value can be either conditional or scripted.
- For details, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-data-types.md).
+ For details, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-data-types.md).
 
 </td></tr><tr><td>
 
@@ -170,8 +170,8 @@ Select one of the following:-   **Condition Builder**: Creates a filter used to 
 
     **Note:**
 
-    You can remove a slot-filled value to prompt the user again \(unbind it from the initial input value\). For more information, read about the vaInputs.myvar.unbindEntity\(\); method in [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
+    You can remove a slot-filled value to prompt the user again \(unbind it from the initial input value\). For more information, read about the vaInputs.myvar.unbindEntity\(\); method in [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
 
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

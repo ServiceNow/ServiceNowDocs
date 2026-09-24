@@ -2,7 +2,7 @@
 title: Deactivate a use case
 description: Deactivate a use case to stop it from being applied during document processing when it is no longer relevant to your document intelligence workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/deactivate-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/deactivate-use-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,5 +38,5 @@ Role required: DocIntel Admin role \[sn\_docintel.admin\] or DocIntel Manager ro
 
 The use case is deactivated and isn’t applied during document processing.
 
-**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-use-case.md)
+**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-use-case.md)
 

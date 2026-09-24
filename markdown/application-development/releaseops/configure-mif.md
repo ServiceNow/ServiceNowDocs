@@ -2,7 +2,7 @@
 title: Configure multi-instance management for instances using ReleaseOps
 description: Manage the multi-instance configurations to enable access across instances in your ReleaseOps ecosystem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/configure-mif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/configure-mif.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -19,11 +19,11 @@ Manage the multi-instance configurations to enable access across instances in yo
 
 ## Before you begin
 
-**Note:** Starting with version 1.2.1 of ReleaseOps, you can configure multi-instance management during guided setup. For more information, see [Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/complete-guided-setup.md).
+**Note:** Starting with version 1.2.1 of ReleaseOps, you can configure multi-instance management during guided setup. For more information, see [Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/complete-guided-setup.md).
 
 Role required: admin or sn\_mif.mif\_admin
 
-You must have ReleaseOps installed before configuring mulit-instance management. For more information, see [Install ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/install-releaseops.md).
+You must have ReleaseOps installed before configuring mulit-instance management. For more information, see [Install ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/install-releaseops.md).
 
 All non-production \(development and test\) instances must be configured as instances managed by your production instance to participate in your ReleaseOps ecosystem. For more information, see [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/grant-access-v2.md).
 

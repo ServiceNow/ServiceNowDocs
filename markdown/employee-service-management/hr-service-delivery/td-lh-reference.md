@@ -2,7 +2,7 @@
 title: Leader Hub reference
 description: Reference topics provide additional information about the lists and forms that you use to configure and administer Leader Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/td-lh-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/td-lh-reference.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,14 +20,14 @@ Reference topics provide additional information about the lists and forms that y
 
 Starting with the Brazil release, Leader Hub is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported till Canada. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
--   **[Leader Hub Metric Configurations table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-lhmetricsconfig-form.md)**  
+-   **[Leader Hub Metric Configurations table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-lhmetricsconfig-form.md)**  
 The form associated with a record in the Leader Hub Metric Configurations table enables you to configure metrics for employee engagement with certain applications in the Talent Development suite. The configurable options are applicable to the metrics that appear in the Growth engagement widget and the employee cards that appear on the Org talent page.
--   **[Org Support Relationships table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-orgsupportrel-form.md)**  
+-   **[Org Support Relationships table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-orgsupportrel-form.md)**  
 The form associated with a record in the Org Support Relationships table enables you to create a relationship between an organizational leader and an organizational supporter. After the relationship is established, supporters can use Leader Hub to view their designated leader's organization and provide support accordingly.
--   **[Create a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-conversation-lh.md)**  
+-   **[Create a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-conversation-lh.md)**  
 Use the Create a conversation form to schedule a conversation with an employee when the Microsoft Outlook integration isn’t enabled for Leader Hub.
--   **[Schedule a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/schedule-conversation-lh.md)**  
+-   **[Schedule a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/schedule-conversation-lh.md)**  
 Use the Schedule a conversation form to schedule a conversation with an employee when the Microsoft Outlook integration is enabled for Leader Hub.
 
-**Parent Topic:**[Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-landing.md)
+**Parent Topic:**[Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-landing.md)
 

@@ -2,7 +2,7 @@
 title: CSM Interaction record page
 description: The CSM Interaction record page provides CSM interaction management features and functionality and enables agents to accept and respond to live chats, calls, email and SMS messages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-interaction-record-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-interaction-record-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ For more information about this feature, see [User presence](https://raw.githubu
 
 ## Thin compose modeless dialogs
 
-[Thin compose modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) enable agents to initiate a work note or email from the activity stream in a modeless dialog.
+[Thin compose modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) enable agents to initiate a work note or email from the activity stream in a modeless dialog.
 
 **Note:** For the CSM Interaction record page, the thin compose modeless dialogs feature is hidden by default and can be enabled by the admin.
 
@@ -41,7 +41,7 @@ For more information about this feature, see [User presence](https://raw.githubu
 
 The Recommended Actions tab is now available as the first tab in the contextual side panel and is enabled for Pro customers. It includes a set of base system recommendations, such as similar incidents and similar open incidents.
 
-The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md) functionality and Suggested Actions for the chat, video, email, and walk-up channels on the CSM Interaction record page.
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-ai-search.md) functionality and Suggested Actions for the chat, video, email, and walk-up channels on the CSM Interaction record page.
 
 -   AI search tab: Agents can use AI search to find relevant resources or resolutions for customer issues. The search feature displays an initial set of search results based on the text in the interaction short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search. From the list of search results, agents can select a source to see search results of that type.
 
@@ -52,26 +52,26 @@ The Recommended Actions tab includes [AI search](https://raw.githubusercontent.c
     -   Read an article.
     -   Flag an article.
     -   Mark an article as helpful.
-    For all the other source types, default guidance is supported. The default guidance for search results is a guidance that can be used for any search sources that don't have mapped guidances. For more information on default guidance, see [Default guidance for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-default-guidance-search.md).
+    For all the other source types, default guidance is supported. The default guidance for search results is a guidance that can be used for any search sources that don't have mapped guidances. For more information on default guidance, see [Default guidance for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-default-guidance-search.md).
 
-    For more information on how to avail the AI search feature in Recommended Actions, see [Enable AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migrate-ra-agent-assist.md).
+    For more information on how to avail the AI search feature in Recommended Actions, see [Enable AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/migrate-ra-agent-assist.md).
 
-    For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba-use-ai-search.md).
+    For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba-use-ai-search.md).
 
-    **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+    **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
--   Suggested Actions tab: This tab displays relevant actions to agents based on a context of a record or recommend a value for a field. For more information on how to configure contexts so that relevant actions are displayed for the agents, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-nba.md).
+-   Suggested Actions tab: This tab displays relevant actions to agents based on a context of a record or recommend a value for a field. For more information on how to configure contexts so that relevant actions are displayed for the agents, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-nba.md).
 
 ## Editable record header field
 
-Agents can edit the short description of a record directly from the record header field. For more information, see [Editable record headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-agent-actions.md).
+Agents can edit the short description of a record directly from the record header field. For more information, see [Editable record headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspace-agent-actions.md).
 
 ## Collaborate component
 
-The Collaborate component enables agents to communicate with stakeholders and other users and gather information for case resolution. This component is available on the CSM default record page n the contextual side panel. For more information, see [Collaborate component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-collaborate-component.md).
+The Collaborate component enables agents to communicate with stakeholders and other users and gather information for case resolution. This component is available on the CSM default record page n the contextual side panel. For more information, see [Collaborate component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-collaborate-component.md).
 
 **Related topics**  
 
 
-[CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md)
+[CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md)
 

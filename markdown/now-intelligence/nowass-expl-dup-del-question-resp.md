@@ -2,7 +2,7 @@
 title: Duplicate, delete, copy, or move an answer in an exploration
 description: Duplicate, delete or reorder an individual question and response from inside an exploration. Yiou can also copy a response to another exploration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/nowass-expl-dup-del-question-resp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/nowass-expl-dup-del-question-resp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,11 +28,11 @@ Copy a response when you want to share only a response, not the whole exploratio
 
 1.  Launch AI Data Explorer.
 
-    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-ai-data-explorer.md).
+    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Open the exploration that contains a question and answer that you want to duplicate, delete, copy and send, or move.
 
-    See [Open an existing exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/open-existing-exploration.md).
+    See [Open an existing exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/open-existing-exploration.md).
 
 3.  Point the cursor at the question and answer.
 
@@ -49,10 +49,10 @@ Copy a response when you want to share only a response, not the whole exploratio
     -   To copy the response to another exploration, tap **Copy to...**. You are given the choice of copying the response to an existing exploration or a new exploration.
     -   To delete the response, tap the control and select **Delete**.
 
-**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ask-expl-questions.md)
+**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/ask-expl-questions.md)
 
 **Related topics**  
 
 
-[Delete an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/delete-an-exploration.md)
+[Delete an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/delete-an-exploration.md)
 

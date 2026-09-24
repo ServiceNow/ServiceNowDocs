@@ -2,7 +2,7 @@
 title: Configure a custom risk rank and risk value
 description: Configure custom risk ranks and value scores to rate the impact and probability factors of risks. These values determine the degree of the risks associated with a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/configure-a-custom-risk-rank-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/configure-a-custom-risk-rank-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -28,7 +28,7 @@ Role required: pps\_admin
 
 3.  On the Risk value lookup form, fill in the fields.
 
-    For a description of the field names, see [Risk value lookup form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/risk-value-matcher-form-dw.md).
+    For a description of the field names, see [Risk value lookup form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/risk-value-matcher-form-dw.md).
 
 4.  Select **Submit**.
 

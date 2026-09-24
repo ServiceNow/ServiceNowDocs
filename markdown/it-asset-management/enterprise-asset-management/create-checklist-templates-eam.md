@@ -2,7 +2,7 @@
 title: Create a checklist template for your Enterprise Asset Management work orders
 description: Create a checklist template for your work orders that gets added as a work order template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-checklist-templates-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-checklist-templates-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

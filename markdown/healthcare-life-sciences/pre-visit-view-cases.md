@@ -2,7 +2,7 @@
 title: View a procedure request case in Workspace
 description: View a procedure request case in Workspace to complete patient pre-visit activities for a procedure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-view-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pre-visit-view-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -60,5 +60,5 @@ For more information on tabs available for a customer service case, see [Custome
 
 ## What to do next
 
-You can select the **Patient information** tab in Workspace to view patient details. For more information, see [Viewing patient information for a procedure request in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-viewing-patient-info.md).
+You can select the **Patient information** tab in Workspace to view patient details. For more information, see [Viewing patient information for a procedure request in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-viewing-patient-info.md).
 

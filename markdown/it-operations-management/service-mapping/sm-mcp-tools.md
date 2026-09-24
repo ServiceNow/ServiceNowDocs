@@ -2,7 +2,7 @@
 title: Service Mapping MCP tools reference
 description: Details on the six Service Mapping MCP tools, including their inputs, outputs, and example natural-language queries for use with Claude, and service creation workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/sm-mcp-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/sm-mcp-tools.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -189,5 +189,5 @@ Creates an application service record from one or more entry points \(HTTP URLs 
     -   The service created by this tool can be queried immediately with get\_application\_service\_topology.
     -   If you provide all optional metadata fields at creation time, all service properties will be populated in a single call, reducing the number of follow-up edits needed.
 
-**Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+**Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-mcp-server.md)
 

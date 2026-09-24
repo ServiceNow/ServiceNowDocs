@@ -2,7 +2,7 @@
 title: Components installed with Workplace Space Mapping
 description: Several types of components are installed with Workplace Space Mapping, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsm-mappedin-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/wsm-mappedin-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -108,7 +108,7 @@ Indoor Map / WSD Types Synchronizationsn\_wsd\_indoor\_map\_type\_sync
 
 </td><td>
 
-Synchronizes Indoor Mapping Types with Workplace Service Delivery Types. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
+Synchronizes Indoor Mapping Types with Workplace Service Delivery Types. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 </td></tr><tr><td>
 
@@ -116,10 +116,10 @@ Indoor Map / WSD Cleaningsn\_wsd\_indoor\_map\_clean\_sync
 
 </td><td>
 
-If Indoor Mapping map objects or map data is removed from a campus, the Cleaning process is available as a first step in the Synchronization process. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
+If Indoor Mapping map objects or map data is removed from a campus, the Cleaning process is available as a first step in the Synchronization process. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Space Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-reference.md)
+</table>**Parent Topic:**[Workplace Space Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-reference.md)
 
 **Related topics**  
 

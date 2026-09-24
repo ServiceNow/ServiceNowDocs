@@ -2,7 +2,7 @@
 title: Map request types to data subjects for a jurisdiction
 description: Configure the request types available to each data subject type within a jurisdiction. When a requester selects a data subject type in the external-facing Personal Data Rights \(PDR\) form, only the request types scoped to it appear.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/map-request-type-to-ds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/map-request-type-to-ds.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -18,7 +18,7 @@ Configure the request types available to each data subject type within a jurisdi
 
 ## Before you begin
 
-Verify that the data subject types are mapped to their relevant jurisdictions. For steps, see [Configure the data subject types for a jurisdiction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-pdr-ds-types.md).
+Verify that the data subject types are mapped to their relevant jurisdictions. For steps, see [Configure the data subject types for a jurisdiction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/config-pdr-ds-types.md).
 
 Role required: sn\_grc\_pdr.pdr\_admin
 
@@ -70,7 +70,7 @@ This creates an active mapping for every re quest type currently active in the r
 1.  In the PDR external facing form request type maps related list, select **New**.
 2.  In **Request types**, select the unlock icon and add the request types you want to map.
 
-**Note:** The available request types are limited to those defined under the PDR request parent record. To add a request type, see [Configuring Personal Data Rights request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-pdr-request-type.md).
+**Note:** The available request types are limited to those defined under the PDR request parent record. To add a request type, see [Configuring Personal Data Rights request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/configure-pdr-request-type.md).
 
 3.  Select the **Active** option.
 4.  \(Optional\) In **Fields to hide**, add the fields that you want to hide from the external-facing form for the selected request type\(s\). For example, to prevent an authorized agent from submitting a request in a particular jurisdiction, hide the agent's first name, last name, and phone number fields.
@@ -86,12 +86,12 @@ The mapped request types appear in the PDR external facing form request type map
 
 Requesters who choose the corresponding location and data subject type can select these request types on the external-facing form.
 
-**Parent Topic:**[External-facing Personal Data Rights form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-pdr-ext-form.md)
+**Parent Topic:**[External-facing Personal Data Rights form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/configure-pdr-ext-form.md)
 
 **Related topics**  
 
 
-[Personal Data Rights \(PDR\) external-facing form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/pdr-external-facing.md)
+[Personal Data Rights \(PDR\) external-facing form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/pdr-external-facing.md)
 
-[External-facing Personal Data Rights form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-pdr-ext-form.md)
+[External-facing Personal Data Rights form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/configure-pdr-ext-form.md)
 

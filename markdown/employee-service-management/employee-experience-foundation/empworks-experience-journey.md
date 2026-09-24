@@ -2,7 +2,7 @@
 title: EmployeeWorks Web App use cases
 description: Use the Moveworks AI assistant, specialized assistants, Enterprise Search, and the interactive split view to handle daily work tasks. Available on web and mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-experience-journey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-experience-journey.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,7 +28,7 @@ To update your personal information:
 -   Confirm the changes so both records update in SAP SuccessFactors at the same time.
 -   Access helpful resources like the employee handbook and payroll information that the assistant displays suggestions for. Moving across state lines often affects your benefits.
 
-See [Update personal records with the AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-update-hr-records.md).
+See [Update personal records with the AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-update-hr-records.md).
 
 ## Research a prospect and generate an artifact
 
@@ -41,7 +41,7 @@ To prepare for a meeting with a manufacturing prospect such as Atlas Industrial 
 -   Request an NDA for your prospect contact.
 -   Review the pre-filled document with all the contact information and confirm before sending it through DocuSign.
 
-See [Research prospects and generate artifacts with the AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-research-external-content.md).
+See [Research prospects and generate artifacts with the AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-research-external-content.md).
 
 ## Submit a request in the split view
 
@@ -66,7 +66,7 @@ You can search across knowledge base and content from Enterprise Search. You get
 -   Select **Dive Deeper** to continue the conversation with the AI assistant.
 -   Ask `who the presales expert is for manufacturing demos` and the assistant shows you the relevant information from content sources such as SharePoint.
 
-See [Search enterprise content with Enterprise Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-search-enterprise-content.md).
+See [Search enterprise content with Enterprise Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-search-enterprise-content.md).
 
 ## Stay one message away, everywhere
 
@@ -85,7 +85,7 @@ You can manage all your work routines using the same AI assistant apps in portal
 **Related topics**  
 
 
-[EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-moveworks.md)
+[EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-moveworks.md)
 
-[Moveworks AI assistant capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md)
+[Moveworks AI assistant capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md)
 

@@ -2,7 +2,7 @@
 title: Policy snapshots in Insurance claims
 description: Learn how a claim in the Insurance claims application is driven by the policy snapshot throughout its life cycle. The Policy Snapshot table stores a copy of an insurance policy that can be used in a claims case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/policy-snapshots.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/policy-snapshots.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -27,7 +27,7 @@ When setting up the Insurance claims application, review the PolicySnapshotGener
 **Related topics**  
 
 
-[Insurance Claims Core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims-core-tables.md)
+[Insurance Claims Core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims-core-tables.md)
 
-[Insurance policies in Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-policies.md)
+[Insurance policies in Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/insurance-policies.md)
 

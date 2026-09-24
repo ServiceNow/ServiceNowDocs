@@ -2,7 +2,7 @@
 title: Assign Health and Safety profile to a user
 description: Assign the Health and Safety profile to all users in your organization, including employees, visitors, and contractors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/assign-hs-profile-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/assign-hs-profile-user.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -22,7 +22,7 @@ Role required: sn\_ohs\_im.hs\_profile\_writer
 
 ## About this task
 
-For more information on Health and Safety user profiles, see [Health and Safety user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/health-and-safety-user-profile.md).
+For more information on Health and Safety user profiles, see [Health and Safety user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/health-and-safety-user-profile.md).
 
 **Note:** The **Generate Health And Safety Profiles** scheduled job runs weekly and automatically creates health and safety user profiles for users \[sys\_user\] with an assigned role in any of the Health and Safety applications.
 
@@ -38,7 +38,7 @@ For more information on Health and Safety user profiles, see [Health and Safety 
 
 5.  On the form, fill in the fields.
 
-    For information on form field descriptions, see [Health and Safety profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-health-safety-profile-form.md).
+    For information on form field descriptions, see [Health and Safety profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-health-safety-profile-form.md).
 
 6.  Select **Save**.
 
@@ -48,7 +48,7 @@ For more information on Health and Safety user profiles, see [Health and Safety 
 -   The user is listed in the **Health and safety profile** list under **Configuration** on the Health and Safety Workspace.
 -   The user profile is saved in the Health and Safety profile \[sn\_ohs\_im\_health\_and\_safety\_profile\] table.
 
-**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 

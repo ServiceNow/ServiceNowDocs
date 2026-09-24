@@ -2,7 +2,7 @@
 title: View a training task in Workspace
 description: View a training task in Workspace to complete enrollment activities for a patient support services program.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-view-training-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-view-training-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: sn\_patientservice.nurse\_educator
 
 ## About this task
 
-A training task is created based on the appointment booking workflow, For more information, see [Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-feature.md).
+A training task is created based on the appointment booking workflow, For more information, see [Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-feature.md).
 
 ## Procedure
 
@@ -46,5 +46,5 @@ The selected training task page opens in another tab within Workspace displaying
 
 ## What to do next
 
-[Manage a training task in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-conduct-training.md).
+[Manage a training task in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-conduct-training.md).
 

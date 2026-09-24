@@ -2,7 +2,7 @@
 title: Move application files in a Git repository
 description: Move application files linked to source control to any folder of the repository when working in App Engine Studio \(AES\). Allow application developers to store supporting content such as automated tests in the same repository as the applications they support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-move-files-git.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/source-control-move-files-git.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +18,7 @@ Move application files linked to source control to any folder of the repository 
 
 ## Before you begin
 
--   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/source-control-link-application.md)
 -   Role required: Source control credentials with write access
 
 ## About this task
@@ -52,7 +52,7 @@ Linking an application to source control generates a properties text file called
 
 ## What to do next
 
-Login to your instance and perform [Source control operations in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-operations.md) from App Engine Studio.
+Login to your instance and perform [Source control operations in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/source-control-operations.md) from App Engine Studio.
 
-**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-use.md)
+**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-source-control-use.md)
 

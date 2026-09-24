@@ -2,7 +2,7 @@
 title: Explanation of license rights post reconciliation
 description: Get visibility into how your rights are calculated and consumed post the reconciliation process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/explanation-rights-post-recon.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/explanation-rights-post-recon.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -31,7 +31,7 @@ A detailed explanation of license rights is provided for the following metric gr
 -   Citrix
 -   Common
 
-For details on viewing the explanation of license rights, see [View calculations for your licenses in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/licenses-required-workspace.md)
+For details on viewing the explanation of license rights, see [View calculations for your licenses in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/licenses-required-workspace.md)
 
 ## Tier-based license metric calculation
 
@@ -61,5 +61,5 @@ The following is an example of how an explanation of license rights for a Per De
 
 \[Omitted image "explanation-rights-usecase.png"\] Alt text: License consumption explanation
 
-**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)
+**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMReconciliation.md)
 

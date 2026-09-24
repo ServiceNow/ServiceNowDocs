@@ -2,7 +2,7 @@
 title: Browse articles in the Now Mobile Information applet
 description: You can browse articles within a category in the Now Mobile Information applet to see articles related to a particular subject or grouping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/browse-articles-now-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/browse-articles-now-mobile.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -42,7 +42,7 @@ Role required: none
 **Related topics**  
 
 
-[View an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-now-mobile.md)
+[View an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/view-article-now-mobile.md)
 
-[Control access at the knowledge article level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
+[Control access at the knowledge article level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
 

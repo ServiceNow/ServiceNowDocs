@@ -2,7 +2,7 @@
 title: Assign responsibilities
 description: Use the responsibility data model to assign responsibilities to an organization member.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-assign-responsibilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-assign-responsibilities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ The responsibility data model tracks the relationship between the organization m
 
 **Note:** If the business organization plugin is active, this feature is enabled by default. However, for upgrade customer, the data in the \[sn\_csm\_svc\_org\_member\_responsibility\] table will be auto-populated for existing organization members to confirm that they retain as much access after the upgrade. Any new records created after the Australia release must be created using the following steps.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 

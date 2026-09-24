@@ -2,7 +2,7 @@
 title: Brand and personalize an assistant
 description: Decide how your ServiceNow Otto for Virtual Agent assistant should look by using the default branding or by creating a branding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,9 +18,9 @@ Decide how your ServiceNow Otto for Virtual Agent assistant should look by using
 
 ## Before you begin
 
-See [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md) for ServiceNow Otto for Virtual Agent assistants.
+See [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md) for ServiceNow Otto for Virtual Agent assistants.
 
-See [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md) for ServiceNow Otto panel assistants.
+See [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md) for ServiceNow Otto panel assistants.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -37,7 +37,7 @@ If you haven’t selected a display experience, branding options aren’t shown.
 
 1.  In the **Branding** section, select a default branding or an existing customized branding.
 
-    **Note:** To create and edit additional settings, select the **Conversational interfaces console** link. For more information, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-chat-branding.md).
+    **Note:** To create and edit additional settings, select the **Conversational interfaces console** link. For more information, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-chat-branding.md).
 
     If your display experience has standard or enhanced chat, the **Standard chat and enhanced chat** section is shown. The branding preview is for illustration purposes only.
 
@@ -49,7 +49,7 @@ If you haven’t selected a display experience, branding options aren’t shown.
 
     To create and edit additional brand settings, navigate to **Conversational Interfaces** &gt; **Settings** &gt; **Branding**.
 
-    Learn more about customizing the look-and-feel of enhanced chat by navigating to [Theming for ServiceNow Otto for Virtual Agent enhanced and premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/theming-na-full-page-experience.md).
+    Learn more about customizing the look-and-feel of enhanced chat by navigating to [Theming for ServiceNow Otto for Virtual Agent enhanced and premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/theming-na-full-page-experience.md).
 
     If your display experience has premium chat, the **Premium chat** section is shown.
 
@@ -88,13 +88,13 @@ If you haven’t selected a display experience, branding options aren’t shown.
 
     A **Channels** section is shown for ServiceNow Otto for Virtual Agent assistants and the default Employee Slate assistant if a channel is configured in the display experience.
 
-    -   [Configure branding for your ServiceNow Virtual Agent bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-msteams-branding.md)
-    -   [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/slack-branding-overview.md)
+    -   [Configure branding for your ServiceNow Virtual Agent bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-msteams-branding.md)
+    -   [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/slack-branding-overview.md)
     **Note:** Branding selections must happen in the channel, and not in the platform.
 
 2.  In the **Personalization** section, customize the assistant's tone, response length, and personal details.
 
-    **Note:** The **Personalization** section is viewable by default. To hide personalization or its different settings, use the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
+    **Note:** The **Personalization** section is viewable by default. To hide personalization or its different settings, use the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
 
     \[Omitted image "sno-personalization-tone-0826.png"\] Alt text: Select your assistant's tone, response length, and persona.
 
@@ -126,5 +126,5 @@ If you haven’t selected a display experience, branding options aren’t shown.
 
 ## What to do next
 
-See [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
+See [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
 

@@ -2,7 +2,7 @@
 title: Manage synthetic monitors
 description: Edit or delete synthetic monitors after creating them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/manage-synthetic-monitors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/manage-synthetic-monitors.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Description
 
 </td><td>
 
-From the synthetic monitoring landing page, select one or more monitors and select **Edit**. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md).**Note:** Current values aren't shown in the fields. If you don't edit a field, the original values remain.
+From the synthetic monitoring landing page, select one or more monitors and select **Edit**. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-synthetic-monitor.md).**Note:** Current values aren't shown in the fields. If you don't edit a field, the original values remain.
 
 If you want to edit properties other than credentials, location, or alert settings, you must edit a single monitor at a time from the **Details** tab.
 
@@ -48,7 +48,7 @@ If you want to edit properties other than credentials, location, or alert settin
 
 </td><td>
 
-From the synthetic monitoring landing page, select a monitor to open it and then select the **Details** tab to edit. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md) for more information.
+From the synthetic monitoring landing page, select a monitor to open it and then select the **Details** tab to edit. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-synthetic-monitor.md) for more information.
 
 </td></tr><tr><td id="d316280e147">
 
@@ -60,5 +60,5 @@ From the Synthetic monitoring landing page, choose one or more monitors to delet
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-synthetic-monitoring.md)
+**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configuring-synthetic-monitoring.md)
 

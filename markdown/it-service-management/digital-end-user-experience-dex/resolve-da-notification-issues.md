@@ -2,7 +2,7 @@
 title: Troubleshoot Desktop Assistant notification delivery
 description: Check notification records, queue processing, event handling, logs, and the endpoint client to identify why Desktop Assistant notifications aren't delivered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/resolve-da-notification-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/resolve-da-notification-issues.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

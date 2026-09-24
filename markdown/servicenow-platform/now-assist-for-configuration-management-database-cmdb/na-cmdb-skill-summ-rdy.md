@@ -2,7 +2,7 @@
 title: Summarize CMDB readiness with the ServiceNow Otto skill
 description: View an AI-generated summary of the CMDB success advisor for HAM or CMDB success advisor for Data Foundations dashboard data. The summary highlights the key findings on CMDB data accuracy, completeness, and health, and recommends remediation actions to address the findings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-summ-rdy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-summ-rdy.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -19,8 +19,8 @@ View an AI-generated summary of the CMDB success advisor for HAM or CMDB success
 
 ## Before you begin
 
--   Set up the CMDB success advisor for HAM or Data Foundations advisor scope so that the advisor dashboard has data to summarize. See [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-config-settings.md) or [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md).
--   Configure and activate the summarize CMDB readiness skill. See [Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-config-summ-rdy.md).
+-   Set up the CMDB success advisor for HAM or Data Foundations advisor scope so that the advisor dashboard has data to summarize. See [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-config-settings.md) or [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md).
+-   Configure and activate the summarize CMDB readiness skill. See [Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-config-summ-rdy.md).
 
 The sn\_cmdb\_user role grants access to the HAM or Data Foundations advisor dashboard but doesn't grant access to business rules or data manager policies. To follow remediation links from the summary into business rules, data manager policies, and similar records, the sn\_cmdb\_admin role is required.
 
@@ -30,7 +30,7 @@ Role required: sn\_cmdb\_user or sn\_cmdb\_admin
 
 The AI-generated summary of the CMDB success advisor for HAM or Data Foundations dashboard data highlights data accuracy, completeness, and health findings, and the recommended remediation actions to address them.
 
-Issues are grouped into categories and ranked within and across categories primarily by the percentage of CIs or CI classes each issue affects. Severity doesn't determine the ranking. Duplicate CIs and stale CIs \(not updated in the last 90 days\) are evaluated first because they can inflate the counts behind other issues. For the category list for each product, see [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-dashboard.md) or [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md).
+Issues are grouped into categories and ranked within and across categories primarily by the percentage of CIs or CI classes each issue affects. Severity doesn't determine the ranking. Duplicate CIs and stale CIs \(not updated in the last 90 days\) are evaluated first because they can inflate the counts behind other issues. For the category list for each product, see [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-dashboard.md) or [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md).
 
 The summary also applies the following rules when ranking and presenting issues:
 
@@ -43,7 +43,7 @@ The summary also applies the following rules when ranking and presenting issues:
 
 1.  On the CMDB success advisor landing page, select **View insights** within the HAM or Data Foundations card.
 
-    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md).
+    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md).
 
 2.  Select the **Dashboard** tab.
 
@@ -63,15 +63,15 @@ The summary also applies the following rules when ranking and presenting issues:
 
 6.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d213360e337">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d213555e337">
 
 Option
 
-</th><th align="left" id="d213360e340">
+</th><th align="left" id="d213555e340">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d213360e346">
+</th></tr></thead><tbody><tr><td id="d213555e346">
 
 **Provide feedback for the summary**
 
@@ -79,7 +79,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d213360e361">
+</td></tr><tr><td id="d213555e361">
 
 **Copy the summary**
 
@@ -87,7 +87,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d213360e372">
+</td></tr><tr><td id="d213555e372">
 
 **Refresh the summary**
 
@@ -100,5 +100,5 @@ If you think that data might have changed after you viewed the response, select 
 **Related topics**  
 
 
-[Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-config-summ-rdy.md)
+[Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-config-summ-rdy.md)
 

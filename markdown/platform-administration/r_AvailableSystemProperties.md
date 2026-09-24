@@ -2,7 +2,7 @@
 title: Available system properties
 description: Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Sometimes, the property does not exist in a base instance, but can be added if you change the value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_AvailableSystemProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_AvailableSystemProperties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.attachment.max\_size**
 
     Sets the maximum file attachment size in megabytes. An empty value in this field allows attachments up to a maximum of 1 KB.
@@ -74,7 +74,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.cs.field.boolean.show.choice\_picker**
 
     Enables \(**false**\) or disables \(**true**\) a Boolean option to requesters whenever a dynamic choice node only has a single value associated. When set to **true**, the dynamic choice node displays to requesters with only the single value selection option and no Boolean option.
@@ -123,21 +123,21 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.csv.loader.max\_errors\_allowed**
 
     Sets the maximum number of lines \(rows\) that an import can ignore before failing. If the import succeeds, the import lists the number of rows ignored due to errors.
 
     -   Type: integer
     -   Default value: 100
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.email.max\_read**
 
     Specifies the maximum number of emails a POP3 reader should process concurrently.
 
     -   Type: integer
     -   Default value: 20
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.event\_handler.CollabNotificationEventHandler**
 
     Specifies the event handler for the sidebar\_notification queue.
@@ -152,28 +152,28 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.loader.verify\_target\_field\_size**
 
     Enables dynamic resizing of import set fields. With the default setting of **false**, up to 20 records of the source data are sampled to determine the import set field length. If the field is empty in all the sampled records, the default length of 40 is used. Any data loaded that exceeds the import set table field length is truncated. Set this property to **true** to allow any import set field to increase the column size by 100 to match the length of the data. For example, if the incoming source data has a length of 60, the system sets the length of the column to 160.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.par.coreui\_single\_migration.enabled**
 
     Allows users with the sys\_admin role to hide the banner on Core UI dashboards that enables dashboard owners to migrate their dashboards to Next Experience.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.par.coreui.migration.admin\_redirection.enabled**
 
     Migrated responsive dashboards automatically redirect to the Platform Analytics experience library. Set this property to specify redirection for sys\_admins. Set the value to false to enable users with the sys\_admin role to open responsive dashboards in the Core UI experience. If Active Experience=Next for dashboards in the bridging tables, redirection is to the migrated version of the dashboard.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.par.pae.drilldown\_to\_core\_ui**
 
     Applies only to Platform Analytics experience:
@@ -193,35 +193,35 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.script.scoped\_evaluator.allow\_dynamic\_cross\_scope\_eval\_scoped\_administration**
 
     Controls whether to allow scripts in applications with Scoped Administration enabled to be modified and executed by scripts in the global scope. When false, scripts in applications with Scoped Administration can't be modified or executed by scripts in the global scope.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.scripting.module.use\_module\_sandbox**
 
     Separates the JavaScript module runtime environment from scripts​. Setting this property to false may improve performance.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.soap.include\_non\_db\_fields**
 
     Controls whether non-database fields, such as the sys\_tags field, are included in WSDLs and SOAP responses \(**true**\) or not \(**false**\).
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.ssl.read.timeout**
 
     Sets the time-out value in seconds for SSL connections during read operations. Typically, this setting is used as part of LDAPS. If you enter timeout values for both this system property and the LDAP **Read timeout** field, the lowest timeout value takes precedence.
 
     -   Type: integer
     -   Default value: 10
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.ui.virtual\_host**
 
     Specifies Guided Tour Designer callout icons. When set, callout icons appear in the designer instead of letters.
@@ -313,21 +313,21 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.snc.pa.activate\_kpi\_signals**
 
     Create this property and set to 'false' to deactivate the KPI Signals feature.
 
     -   Type: Boolean true \| false
     -   Default value: Does not exist but is treated as 'true'
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.snc.pa.correlation.enable\_insights**
 
     Enables the generation of key contributor insight cards.
 
     -   Type: true/false \(Boolean\)
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.snc.pa.dc.batch\_score\_insert**
 
     When true, Performance Analytics [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) insert indicator scores to the database in batches. When false, indicator scores are inserted one by one. Even when true, batch score insertion is performed only as a fallback when nested data collection \(com.snc.pa.dc.nested\_collection\) has been disabled.
@@ -348,7 +348,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: Boolean true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.snc.pa.dc.max\_breakdown\_elements\_limit**
 
     Maximum number of [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) retrieved by data collection for each [breakdown source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/breakdown-sources.md). This property is handled differently depending on whether nested collection is enabled. If nested collection is enabled, only those elements that have non-null scores count against this limit. If nested collection is disabled, such as under optimized data collection, all elements on the breakdown source count against the limit. When a breakdown source exceeds this limit, breakdown scores are not collected from that source.
@@ -397,14 +397,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: Boolean true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.snc.pa.insight.max\_days\_in\_past**
 
     By default, retrieve insights created within the number of days in the past that this property specifies.
 
     -   Type: Integer
     -   Default value: 14
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.snc.pa.insights.query\_limit**
 
     Limit the number of rows when querying the par\_computed\_insight table in the GET response to the Insights API.
@@ -734,7 +734,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: user\_name
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.authenticate.sso.saml2.require\_signed\_authnrequest**
 
     Enables the Identity Provider Single sign-on service to receive a signed AuthnRequest.
@@ -762,7 +762,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.bsm.color.affect\_neighbors**
 
     Color of an affected neighbor node. When a node has a service issue, all nodes that depend on that node are considered affected nodes. In the map, the affected nodes are parents or grandparents of the node with the service issue.
@@ -854,18 +854,18 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.businessrule.callstack**
 
     Specifies whether business rule executions are logged in the daily log when they start and finish \(**true**\) or are not logged \(**false**\). Logging is useful for troubleshooting a problem where you must know which business rules are running and in which order.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.cache.size.service\_cache**
     -   Type: integer
     -   Default value: 20
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.canvas.grid.widget\_render\_concurrent\_max**
 
     Defines the maximum number of widgets that can render simultaneously on a dashboard. With smaller values, individual widgets load more quickly. With larger values, fewer Ajax requests to the server are needed. Set the value of this property to half of the number of widgets that are visible when your most-used dashboard loads. For example, if six widgets are visible on the dashboard set the value to 3.
@@ -944,7 +944,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: integer
     -   Default value: 2
     -   Maximum value: 4
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.chat.invite\_fields**
 
     \(Chat plugin\) Comma-separated list of fields \(glide\_list or references to sys\_user or sys\_group\) used to generate the invitations when creating a chat room from a task. Users can select a check box for each of the specified fields to invite to the chat room users that are referenced by the fields.
@@ -1018,7 +1018,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: info, warn, error, debug, or debugVerbose
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
     **Note:** Depending on the setting, the system can generate large amounts of data that might affect overall system performance. Set the value with caution, limiting the level of details and use time to the minimum necessary for testing or debugging.
 
 -   **glide.cmdb.logger.use\_syslog.CMDBHealth**
@@ -1094,7 +1094,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: none
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
     -   Instance Security Hardening Settings: [Restrict performance monitoring access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-performance-monitoring-acl.md)
 -   **glide.db.aggregates.trend.use\_iso\_week**
 
@@ -1102,7 +1102,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: none
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.db.audit.ignore.delete**
 
     Specifies the tables where the sys\_audit\_delete file is not updated when records are deleted.
@@ -1115,7 +1115,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 100000000 \(100 million\)
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.db.clone.allow\_clone\_target**
 
     Enables \(**true**\) or disables \(**false**\) use of a non-production instance as the target for a system clone.
@@ -1138,28 +1138,28 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: none
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.db.loguser**
 
     Display \(**true**\) or suppress display \(**false**\) of database errors. For example, `Unique Key violation detected by database (Duplicate entry 'ABC' for key 'name') to user.` to logged-in user.
 
     -   Type: true \| false
     -   Default value: none
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.db.max.aggregate.size**
 
     Sets the maximum number of groups that a grouped report or list renders. Larger values may affect system performance.
 
     -   Type: integer
     -   Default value: 20
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.db.max\_view\_records**
 
     Sets the maximum number of records returned when running a GlideRecord query in a script. Do not use values larger than the default because they may cause queries to consume excessive memory on the application server and can, in extreme cases, cause a system outage. This property does not control the maximum number of records that appear in a list, report, or exported file.
 
     -   Type: integer
     -   Default value: 10000
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.db.table.update\_inactive\_choices\_enabled**
 
     Specifies whether choice table selections marked as inactive \(`sys_choice inactive attribute = true`\) should be loaded into client databases when applications are installed \(**true**\) or not \(**false**\).
@@ -1226,14 +1226,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.domain.notify\_record\_change**
 
     Displays a notification message telling the user that the domain picker automatically changed because the record that the user is viewing changed the domain of the user.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.duplicate\_ci\_remediator.dry\_run**
 
     Determines whether the Duplicate CI Remediator actually remediates CI duplication by updating records in the CMDB, or not.
@@ -1314,7 +1314,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: none
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.element.use\_object\_display\_value**
 
     It ensures that the display value for GlideElementGlideObject fields like glide\_date\_time is calculated correctly.
@@ -1360,7 +1360,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: fw:,fwd:
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.email.journal.lines**
 
     Specifies the number of entries from a journal field \(such as Additional comments and Work notes\) included in email notifications. A value of **-1** includes all journal entries.
@@ -1374,7 +1374,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: SMTP email address that is active by default
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.email.name\_split**
 
     Delimiter between the first and last name in an email address to identify users from incoming emails. For example, a delimiter of "." in the email address john.smith@company.com tells the system to look for a user record for John Smith.
@@ -1388,14 +1388,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.email.override.url**
 
     Sets the URL to use in emailed links in place of the instance URL. The URL should end with nav\_to.do. An example value is: https://servicenow.customerdomain.com/production/nav\_to.do.
 
     -   Type: string
     -   Default value: Instance URL
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.email.read.active**
 
     Enables \(**true**\) or disables \(**false**\) the inbound mail server.
@@ -1423,14 +1423,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 100
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.email.smtp.max\_send**
 
     Specifies how many emails to send through each new SMTP connection. The instance establishes a new SMTP connection if there are more emails to send than the specified value.
 
     -   Type: integer
     -   Default value: 100
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **__glide.email\_system\_address\_filter.max\_address\_filters__**
 
     Sets the maximum number of email filters that can be associated with a single system address filter.
@@ -1450,7 +1450,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.email.watermark.visible**
 
     Indicates whether the watermark in email notifications is visible \(**true**\) or is wrapped in a hidden div tag \(**false**\).
@@ -1487,21 +1487,21 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 500000
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.excel.use\_user\_date\_format**
 
     Specifies whether Excel exports use the date/time format specified in a user's profile \(**true**\) or not \(**false**\). If **false**, exports the instance date/time format defined by the glide.sys.date\_format property.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.export.csv.charset**
 
     Specifies the character set used to export CSV files. See [Supported Character Encodings](https://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html) for a list of supported character encoding options.
 
     -   Type: string
     -   Default value: windows-1252
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.export.csv.raw.value**
 
     When **true**, raw database values are exported instead of the display values when you export to CSV. When **false**, display values are exported.
@@ -1515,21 +1515,21 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: **true** for new instances starting with Istanbul
-    -   Location: System Property \[sys\_properties\] table for new instances starting with Istanbul. For upgraded instances, [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: System Property \[sys\_properties\] table for new instances starting with Istanbul. For upgraded instances, [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.export.excel.general\_formatting**
 
     When **true**, values in cells in exported Excel files have the general format. When **false**, the cells in exported Excel files have the text format.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.export.excel.wrap\_cells**
 
     When **true**, values in cells in exported Excel files are wrapped automatically. When **false**, the width of exported Excel columns is resized to fit 256 characters and values are not wrapped.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.fdih.retry.max\_count**
 
     Specifies the maximum number of retry attempts when no value is specified in **Count** for a retry policy.
@@ -1629,7 +1629,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.home.page**
 
     Specifies which page to load when a user selects a homepage from the banner.
@@ -1650,7 +1650,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: 300,900,1800,3600
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
     **Important:**
 
     The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality.
@@ -1710,7 +1710,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 30
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.http.outbound.max\_timeout.enabled**
 
     Enables setting a timeout in the **glide.http.outbound.max\_timeout** system property.
@@ -1719,7 +1719,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: boolean
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.http.proxy\_bypass\_list**
 
     Specifies the semicolon-separated list of addresses that bypass the proxy server. Use an asterisk \(\*\) as a wildcard character to specify all or part of an address.
@@ -1789,7 +1789,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 175000 \(175 seconds\)
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.i18n.force\_index**
 
     Enables \(**true**\) or disables \(**false**\) indexing all translated fields, regardless of the value of the table attribute text\_index\_translations.
@@ -1804,14 +1804,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.identification\_engine.dependent\_items\_local\_cache\_count**
 
     For optimization, a custom number of locally cached query result entries of dependent CIs.
 
     -   Type: integer
     -   Default value: 10000
-    -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
     **Note:** If there is a memory issue due to optimization related to using local cache, set the **glide.identification\_engine.related\_items\_local\_cache\_count** and the **glide.identification\_engine.dependent\_items\_local\_cache\_count** properties to 0.
 
 -   **glide.identification\_engine.granular\_insert\_locking**
@@ -1822,14 +1822,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.identification\_engine.independent\_items\_local\_cache\_count**
 
     For optimization, a custom number of locally cached query result entries of independent CIs.
 
     -   Type: integer
     -   Default value: 100000
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
     **Note:** Setting the value to 0 avoids using local cache for independent CIs and might affect performance.
 
 -   **glide.identification\_engine.related\_items\_local\_cache\_count**
@@ -1838,7 +1838,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 15000
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
     **Note:** If there is a memory issue due to optimization related to using local cache, set the **glide.identification\_engine.related\_items\_local\_cache\_count** and the **glide.identification\_engine.dependent\_items\_local\_cache\_count** properties to 0.
 
 -   **glide.identification\_engine.skip\_duplicates**
@@ -1849,7 +1849,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   When **false**: Matching a CI fails, and an error is logged.
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.identification\_engine.skip\_duplicates.threshold**
 
     Maximum number of CIs that can be in a set of duplicate CIs to allow identification to process the duplicate CIs according to the setting of **glide.identification\_engine.skip\_duplicates**.
@@ -1858,7 +1858,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 5
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.identification\_logs.max\_run\_ids**
 
     Maximum number of log runs that can be displayed when navigating to **Configuration** &gt; **Identification Logs**.
@@ -1881,28 +1881,28 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.imap.secure\_port**
 
     Specifies the communications port for IMAP secure connections.
 
     -   Type: string
     -   Default value: 995
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.imap.tls**
 
     Enables \(**true**\) or disables \(**false**\) starting the IMAP server in Transport Layer Security \(TLS\) mode.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.import.debug**
 
     Enables \(**true**\) or disables \(**false**\) debug logging for all import processes.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.import.error\_message.generic**
 
     Enables \(**true**\) or disables display \(**false**\), failed imports to display a generic error instead of a verbose SQL message. This property should be enabled.
@@ -1920,21 +1920,21 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table if you want to change the value to false.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table if you want to change the value to false.
 -   **glide.import.sftp.debug**
 
     Enables \(**true**\) or disables \(**false**\) additional debug logging for SFTP imports. Enabling this property causes the instance to log all outgoing and incoming messages during the SSH session.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.import.scp.debug**
 
     Enables \(**true**\) or disables \(**false**\) additional debug logging for SCP imports. Enabling this property causes the instance to log all outgoing and incoming messages during the SSH session.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.import\_set.preserve.leading.spaces**
 
     Specifies whether the import process preserves leading spaces in Excel data cells \(**true**\) or not \(**false**\). When **false**, the import process removes leading spaces from Excel data cells.
@@ -1943,14 +1943,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.import\_set\_row.dynamically\_add\_fields**
 
     Specifies whether an import set can add new columns to the staging table \(**true**\) or not \(**false**\). Instances that contain large numbers of import sets can sometimes become unresponsive when an import adds a column because the instance must alter every row in the staging table. Sometimes the database alter table action causes an outage. Setting this property to **false** prevents an import set from adding columns to the staging table and produces a log message. As a workaround, administrators can manually add a column to the staging table by creating a new dictionary entry and then reimporting the import set.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ir.query\_method**
 
     Sets the query method for global text search. Only the **Simple query** method is supported.
@@ -1964,14 +1964,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: Boolean true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.integration.session\_timeout**
 
     Sets the inactive session timeout for integration sessions, in minutes.
 
     -   Type: integer
     -   Default value: 1
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.integration.update\_last\_login\_time.window.seconds**
 
     Controls the frequency of updates to integration user records.
@@ -1980,7 +1980,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Default value: 60
     -   Minimum value: 5
     -   Maximum value: 86400 \(one day in seconds\)
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.integrations.active.session.life\_span**
 
     Sets the maximum session time for a integration session regardless of activity, in minutes.
@@ -1996,7 +1996,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.itil.assign.number.on.insert**
 
     Controls whether \(**true**\) or not \(**false**\) a task number is generated and assigned on load \(**Create New**\) or when the task is submitted. This feature helps prevent unused task numbers.
@@ -2010,14 +2010,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 60
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.jdbcprobeloader.retry\_millis**
 
     Sets the number of milliseconds a JDBC probe waits between retry attempts to a JDBC data source.
 
     -   Type: integer
     -   Default value: 5000
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.jquery.legacy**
 
     When true, enables legacy JQuery behavior. When false, integrates the JQuery 1.12.3 and 2.2.3 security patches. If you set this property to false, UI pages with incorrect HTML markup may render incorrectly. You can address this issue in your scripts by closing any html element tags that are self-closing and not in the valid list. For example, change `<div />` to `<div></div>`.
@@ -2046,7 +2046,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.knowman.search\_character\_limit**
 
     Minimum number of characters required for knowledge search. Search terms with fewer than this number of characters return no results.
@@ -2076,14 +2076,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.knowman.show\_language\_option.roles**
 
     \(Knowledge Management Internationalization Plugin v2\) Comma-separated list of roles that can see the Language box on articles with multiple translations.
 
     -   Type: string
     -   Default value: none
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.knowman.show\_links**
 
     Specifies whether the **Link** line appears \(**true**\) or is hidden \(**false**\) in a knowledge article.
@@ -2097,7 +2097,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ldap.binary\_attributes**
 
     Comma-separated list of LDAP attributes that should be converted from binary format to encoded64 strings. If you set this property, only the values listed are converted. The most common attributes are **objectSID** and **objectGUID**. These converted values are unique and can be used as the coalesce field on the LDAP import mapping. If this property is blank, ServiceNow tries to map these binary attributes without the conversion and they are not guaranteed to be unique since they are not properly converted to string values.
@@ -2118,7 +2118,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.list.filter\_max\_length**
 
     Sets a maximum character limit for the condition builder query.
@@ -2146,7 +2146,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.login.no\_blank\_password**
 
     Prevents \(**true**\) or allows \(**false**\) logins from users with blank passwords. Often, importing lists of users creates many users with blank passwords. By default, this property is set to **true** on production instances.
@@ -2167,7 +2167,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 10
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.messaging.reassign.enabled**
 
     Sets property that automatically reassigns messaging if the current agent is unavailable.
@@ -2181,14 +2181,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.notification.recipient.exclude\_logging**
 
     Master switch to enable/disable logging all reasons a recipient was excluded. If **false**, no exclude logging is performed.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.notification.recipient.exclude\_logging.device\_inactive**
 
     Logs recipients who are excluded because their chosen notification device record is marked as inactive.
@@ -2320,7 +2320,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.par.export.ppt.max\_visualizations\_allowed**
 
     For the ServiceNow Otto Data and Analytics skill "dashboard and visualization export," this property sets the maximum number of visualizations, and thus slides, that you can export from a Platform Analytics dashboard to Microsoft PowerPoint.
@@ -2341,14 +2341,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 1000
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.pdf.font.size**
 
     Sets the font size for exported PDF files.
 
     -   Type: integer
     -   Default value: 8
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.pdf.url.whitelisting.enabled**
 
     Enables or disables whether external URLs provided should be rendered in the PDF output generated by the [PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md). Verifies against the allowed URLs listed in the com.snc.pdf.whitelisted\_urls property.
@@ -2369,42 +2369,42 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.phone\_number\_e164.display\_national**
 
     When set to **true** or **form**, a Phone Number \(E164\) field displays phone numbers in a local format on forms but as an international format on lists. When set to **all**, a Phone Number \(E164\) field always displays phone numbers in a local format. When set to user, a Phone Number \(E164\) field only displays phone numbers in a local format when the phone number matches the locale setting of the current user.
 
     -   Type: string
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.phone\_number\_e164.display\_territory\_selector**
 
     Specifies whether to display \(**true**\) or hide \(**false**\) the territory selector. Hiding the territory selector restricts users to entering only local or national phone numbers.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.phone\_number\_e164.display\_territory\_text**
 
     When set to all, a Phone Number \(E164\) always displays the territory label. When set to national, a Phone Number \(E164\) displays the territory label only if the phone number is in local format. When set to read-only, a Phone Number \(E164\) displays the territory label in read-only mode regardless of whether the number is in local or global format. When set to read-only-national, a Phone Number \(E164\) displays the territory label in read-only mode only if the number is in local format. When set to list, a Phone Number \(E164\) displays the territory label in a list. When set to list-national, a Phone Number \(E164\) displays territory label in a list if the number is in national format. When set to none, a Phone Number \(E164\) does not display the territory label.
 
     -   Type: string
     -   Default value: read-only
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.phone\_number\_e164.display\_users\_idd**
 
     Specifies whether to display the international direct dialing prefix between the territory selector and the input box on forms \(**true**\) or not \(**false**\).
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.phone\_number\_e164.strict**
 
     Specifies whether all phone number fields must match the display format of the field's select territory. When **true**, the phone number input box displays a red line underneath phone numbers that do not match the territory format listed in the territory selector. Users cannot save an invalid phone number. When **false**, the phone number input box displays a green line underneath phone numbers that do not match the territory format listed in the territory selector. Users can save an invalid phone number, and the territory selector offers the option to select an **Other / Unknown** territory format.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.pop3.ignore\_headers**
 
     Specifies the comma-separated list of email headers that cause the instance to ignore an email message. Use the format name:value to specify email header types and values. You can use a wildcard \(\*\) for the subtype. For example, `Content-Type:multipart/*; report-type=delivery-status;` ignores emails containing a type of multipart and a parameter of **report-type=delivery-status**. For syntax specifications, see [http://www.w3.org/Protocols/rfc1341/4\_Content-Type.html](http://www.w3.org/Protocols/rfc1341/4_Content-Type.html).
@@ -2468,7 +2468,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 250
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.product.description**
 
     The value of this property is displayed as text in the banner next to the company logo.
@@ -2521,21 +2521,21 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.quota.manager.heartbeat**
 
     Sets the number of seconds between the start of each Quota Manager heartbeat. This value determines how often the Quota Manager checks for transactions exceeding a quota and how often the Quota Manager writes status in the log file.
 
     -   Type: integer
     -   Default value: 1
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.quota.manager.minimum\_transaction\_time**
 
     Sets the minimum number of seconds that a transaction must run before the Quota Manager matches it to a transaction quota. You should set this value to at least 1 second because smaller values decrease performance, and because transactions shorter than 1 second are probably not worth canceling. For optimal performance, set this value to the value of your most restrictive quota. For example, if your most restrictive quota cancels transactions longer than 1 minute, set the minimum transaction time to 60 seconds.
 
     -   Type: integer
     -   Default value: 1
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.reconciliation.override.null**
 
     Flag for allowing or disallowing the update of an empty field by a lower priority data source.
@@ -2551,7 +2551,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 250
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.report.add\_to\_list\_supported**
 
     Sets whether to support the add\_to\_list ACL for reporting on specified columns from the Available columns list when creating or sharing a list report.
@@ -2569,7 +2569,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 30
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.report.calendar.max\_events\_displayed\_per\_cell**
 
     Defines the maximum number of events that can appear in calendar report for:
@@ -2580,7 +2580,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 3
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.report.new\_calendar**
 
     Enables \(**true**\) or disables \(**false**\) new calendar reports. Internet Explorer 7 and 8 do not support new calendars. If you open a calendar report in one of these browsers, the old version of calendar reports is always used.
@@ -2615,7 +2615,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: all REST APIs are enabled by default
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.rest.choice.allow\_non\_existing\_value**
 
     Enables passing non-existing values to a choice field. Does not apply to Change REST API /api/sn\_chg\_rest/change.
@@ -2625,21 +2625,21 @@ Some properties are available on a system properties form, but some lesser-used 
 
         If **true**, the choice field is set to a passed value, even if the passed value does not exist in the choice field.
 
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.rest.debug**
 
     Logs all stages of REST processing, including processing times.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.rest.replace\_request\_host\_with\_property**
 
     Ensures that generated links in an API payload, such as links to more pages and reference fields, are based off of the instance address not the request host address.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.rest.sampling.enabled**
 
     Enables request sampling from scripted REST API resources. Request samples can be used to automatically generate definitions for request headers, query parameters, and schemas. General guidance to help limit performance problems is to only enable this property in non-production instances.
@@ -2653,21 +2653,21 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.rollback.version**
 
     Controls whether rollback behavior is used \(**true**\) or not \(**false**\).
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.rss.max\_rows**
 
     Controls the maximum number of records returned by the RSS Feed Generator.
 
     -   Type: integer
     -   Default value: 1000
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.sc.reset\_cascade**
 
     If **true**, forces variable cascading when navigating between pages in an order guide.
@@ -2695,7 +2695,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.script.dot\_walk.enforce\_cross\_scope\_access\_all\_tables**
 
     Used to enforce dot-walk cross-scope access checks on tables where the associated dictionary attribute **enforce\_dot\_walk\_cross\_scope\_access** is not set.
@@ -2706,7 +2706,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: boolean
     -   Default value: true for new and zBooted Instances on Australia; not present for instances upgraded to Australia
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 
         **Note:** To help prevent insecure configurations, this property cannot be manually added and set to **false**. For assistance, contact customer support.
 
@@ -2725,14 +2725,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: boolean
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.script.log\_level**
 
     Controls the behavior of gs.log. Set this property to **none** to disable Glide script logging, or to **print** to save log data to the file system instead of the database. Use the default value **all** to save all Glide script logs to the database.
 
     -   Type: string
     -   Default value: all
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.script.dot\_walk.log\_stack\_trace\_when\_blocked**
 
     When conditions prevent access to a protected table, a brief info message is displayed in the following format: "An attempt to dot-walk to table \{0\} present in \{1\} scope from \{2\} scope..." where appropriate values for \{0\}, \{1\}, and \{2\} are inserted.
@@ -2745,14 +2745,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: boolean
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.script\_processor.admin**
 
     Specifies the user role necessary to access the Scripts - Background module. To require administrators to elevate privileges to access the module, set the value to **security\_admin**.
 
     -   Type: string
     -   Default value: admin
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.script.use.sandbox**
 
     Enables the "script sandbox" feature. The script sandbox is mainly used when executing client-generated scripts such as query conditions and GlideAjax expressions. For more information, see [Enable script sandbox \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-client-generated-scripts-sandbox.md).
@@ -2766,10 +2766,10 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.search.suggestions.enabled**
 
-    Set it to **true** \(default\) to enable search suggestions, or set it to **false** to disable search suggestions everywhere. For more information about search suggestions, see [Enable search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/enable-search-suggestions.md).
+    Set it to **true** \(default\) to enable search suggestions, or set it to **false** to disable search suggestions everywhere. For more information about search suggestions, see [Enable search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/enable-search-suggestions.md).
 
 -   **glide.secondary.query.sysid**
 
@@ -2788,21 +2788,21 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.security.checkacl.before.setvalue**
 
     Controls how the high security setting glide.security.strict.updates processes ACLs. When **true**, the instance checks ACL rules for all columns before applying any updates to a row. When **false**, the instance applies ACL rules as each column is processed in alphabetical order. This behavior may result in one update preventing another update from occurring. For example, suppose that you create a custom ACL rule to prevent updates after a record is closed. If you attempt to close an incident and also add information to a custom resolution code field in the same update, the close action is applied first because it is controlled by the \[incident.state\] column and the custom field by the \[incident.u\_resolution\_code\] column. After the instance applies the close action, the custom ACL rule prevents further write updates to the row.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.security.csrf.handle.ajax.timeout**
 
     Handles errors for timed out Ajax requests.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.security.csrf.strict.validation.mode**
 
     Enforces strict validation on CSRF tokens so that users cannot resubmit a request if the CSRF token does not match.
@@ -2817,7 +2817,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
     -   Instance Security Hardening Settings: [Performance monitoring \(ACL\) \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-performance-monitoring-acl.md)
 -   **glide.security.disable\_ui\_pages\_sysparm\_client\_script**
 
@@ -2825,7 +2825,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.security.file.mime\_type.validation**
 
     Enables \(**true**\) or disables \(**false**\) MIME type validation for file attachments.
@@ -2853,7 +2853,7 @@ Some properties are available on a system properties form, but some lesser-used 
     Creates customized mime type alias sets. For example, `image/png=image/x-png`.
 
     -   Type: string
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.security.strict\_elevate\_privilege**
 
     Forces all elevated roles to be treated equally for users with the administrator role. When enabled, administrators must explicitly, manually elevate themselves to any roles that are marked as elevated.
@@ -2862,7 +2862,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: **true** for new instances, **false** for upgraded instances
-    -   Location: For new instances, this property is available on the System Property \[sys\_properties\] table. For upgrades, [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: For new instances, this property is available on the System Property \[sys\_properties\] table. For upgrades, [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.security.use\_csrf\_token**
 
     Enables usage or a secure token to identify and validate incoming requests. This token is used to prevent Cross Site Request Forgery \(CSRF\) attacks. For more information, see [Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-anti-csrf-token.md).
@@ -2872,7 +2872,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **glide.service\_portal.search\_as\_you\_type\_behavior**
 
-    Select search suggestions \(Suggestions\) or type-ahead functionality \(Typeahead\). For more information about search suggestions, see [Enable search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/enable-search-suggestions.md).
+    Select search suggestions \(Suggestions\) or type-ahead functionality \(Typeahead\). For more information about search suggestions, see [Enable search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/enable-search-suggestions.md).
 
 -   **glide.set\_x\_frame\_options**
 
@@ -2895,14 +2895,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 512000
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.smtp.dateformat**
 
     Specifies the date format to use for outgoing email notifications
 
     -   Type: string
     -   Default value: date format \[sys\_user.date\_format\] listed in the user record of the email sender.
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.smtp.default\_retry**
 
     Enables \(**true**\) or disables \(**false**\) resending email when an unknown SMTP error code is encountered. The instance recognizes only the SMTP error codes defined in the glide.smtp.defer\_retry\_ids property.
@@ -2930,7 +2930,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: time format listed in email sender's user record \[sys\_user.time\_format\].
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.soap.allow\_null\_numeric\_output**
 
     When **true**, SOAP XML responses return an empty element for numeric fields with no value. When **false**, numeric fields with no value return a value of `0` in the SOAP response.
@@ -2939,14 +2939,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.soap.default\_security\_policy**
 
     Specifies the name of SOAP security policy the instance uses when enforcing Web Services Security \(WSS\) for inbound requests.
 
     -   Type: string
     -   Default value: default security policy
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.soap.import\_set\_insert\_serialized**
 
     Controls the processing of web service inserts. If **true**, the instance processes multiple simultaneous inserts one at a time \(serially across nodes\) to ensure an accurate transform. Serialized processing slows the speed at which the instance processes inserts. If **false**, multiple simultaneous inserts into an import set table result in simultaneous transforms that may produce duplicate target records due to the coalesce value being created at the same time.
@@ -2955,7 +2955,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.soap.request\_processing\_timeout**
 
     Sets the maximum number of seconds that a SOAP request has to finish processing before the connection times out. This property computes a default value from the value of the property glide.http.timeout divided by 1000. There might be network infrastructure \(such as proxy servers\) in place that implements a shorter timeout. In this case, a socket timeout may occur unless this property is set to a shorter value. In general, you should set this property to a value several seconds less than the shortest socket inactivity timeout in effect anywhere in the network path between the client application and the ServiceNow instance.
@@ -2997,14 +2997,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 10
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.split\_journal\_audit\_records**
 
     When set to **true**, ensures one-to-one mapping between \[sys\_journal\_field\] table and \[sys\_audit\] table records for consistent synchronization. If **glide.history\_set.pull\_journal\_entries\_from\_journal\_table** is set to **true** and there are missing or duplicate comments in the activity stream, setting **glide.split\_journal\_audit\_records** to **true** might resolve the issue. For more details, see [Duplicate/Missing Comments in Activity Stream \(UI 16\) \[KB2122007\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2122007).
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.stax.allow\_entity\_resolution**
 
     Determines whether XML entities can be expanded during parsing by the streaming parser. For more information, see [Disable Entity Expansion within the XMLDocument2 Streaming Parser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-disable-entity-expansion.md).
@@ -3090,7 +3090,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
     **Note:** If the **glide.sys\_reference\_row\_check** system property is not present, or has been set to false, script conditions for Access Control Rules are not applied. This means an ACL containing scripted conditions will pass it's check as long as the other ACL criteria are met \(such as role requirements\).
 
 -   **glide.template.max\_context**
@@ -3106,7 +3106,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.translated\_html.sanitize\_all\_fields**
 
     If **true**, all translated\_html elements are sanitized using an HTML sanitizer. If **false**, an element is sanitized only if the dictionary attribute **html\_sanitize** is set to **true**.
@@ -3120,7 +3120,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ts.index.attachment.list\_terms.debug**
 
     If **true**, the system logs all indexed terms when an attachment is indexed.
@@ -3129,49 +3129,49 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ts.reindex.sys\_metadata.after.upgrade**
 
     If **true**, the system automatically reindexes the sys\_metadata table after an upgrade, without noticeable performance impact. To disable automatic reindexing, set the value to **false**.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.activity.displayname**
 
     Specifies whether the activity formatter shows **name** values \(true\) or **user\_name** values \(false\).
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.activity.email\_roles**
 
     Specifies the list of roles \(comma-separated\) that can view email in the Activity Formatter.
 
     -   Type: string
     -   Default value: itil
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.activity.email.use\_display**
 
     Specifies whether to display the email address or the user IDs \(display value of the User table\) in email headers \(**true**\) or not \(**false**\). If **true**, the instance searches for a user record with a matching email address. If the instance cannot find a matching user record, it displays the email address.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.activity\_stream.form\_button**
 
     Removes the activity stream button from forms.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.activity\_stream.list\_button**
 
     Removes the activity stream button from lists.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.activity\_stream.page\_size**
 
     Size of pages for Core UI form activity stream. A value of `0` means no paging.
@@ -3234,7 +3234,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.attachment.force\_download\_all\_mime\_types**
 
     Forces download of all MIME attachment files.
@@ -3285,14 +3285,14 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.breadcrumb\_max\_entries**
 
     Specifies how many choices will be shown in the condition builder breadcrumb.
 
     -   Type: integer
     -   Default value: 10
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.buttons\_bottom**
 
     Controls whether UI actions appear at both the bottom and top of the form \(**true**\) or only at the top \(**false**\). This property only works in a deprecated version of the UI.
@@ -3306,39 +3306,39 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: work\_notes
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.chart.bar.horiz.max\_col\_slant\_labels**
 
     Sets the maximum number of columns in a horizontal bar chart before slanting \(angling\) the labels.
 
     -   Type: integer
     -   Default value: 5
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.chart.height**
 
     Specifies the height of a chart in pixels.
 
     -   Type: integer
     -   Default value: 300
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.chart.pie.labels**
 
     Enables \(**true**\) or disables \(**false**\) labels on pie chart slices.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.chart.pie.labels.max\_items**
 
     Sets the maximum number of pie chart slice values that can be returned to display their labels.
 
     -   Type: integer
     -   Default value: 8
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.clickthrough.popup**
 
     -   For reference fields, enables \(**true**\) or disables \(**false**\) display of the pop-up diamond icon for reference fields, and opening a new window when clicking the icon.
-    -   For document ID fields, enables \(**true**\) or disables \(**false**\) displaying the information icon and opening a pop-up window with the document's form. To learn more [Document ID field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingADocumentIDField.md).
+    -   For document ID fields, enables \(**true**\) or disables \(**false**\) displaying the information icon and opening a pop-up window with the document's form. To learn more [Document ID field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreatingADocumentIDField.md).
     **Note:** Related lists do not appear on forms opened in the pop-up window.
 
     -   Type: true \| false
@@ -3371,28 +3371,28 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: first authorized application for the user
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.dirty\_form\_support**
 
     Enables \(**true**\) or disables \(**false**\) display of a confirmation message when a form has unsaved changes and the user leaves the form through any means except a submit \(such as using the green back arrow, any form button, or other\). This property is not supported in Safari.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.email.composer.enabled\_plugins**
 
     These plugin options are for Seismic Email Client. Removing plugins could cause undesirable side effects.
 
     -   Type: string
     -   Default values: link lists advlist table powerpaste searchreplace preview fullscreen placeholder readonlynoborder code image align\_listitems emoticons anchor charmap media
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.email.composer.toolbar**
 
     These toolbar options are for Seismic Email Client.
 
     -   Type: string
     -   Default values: newdocument bold italic underline \| strikethrough alignleft aligncenter alignright alignjustify \| blocks fontfamily fontsize table cut copy paste \| pastetext searchreplace bullist numlist outdent indent blockquote \| undo redo link unlink code forecolor backcolor removeformat \| hr visualblocks preview subscript superscript charmap image media fullscreen
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.encode\_module\_uri**
 
     Enables \(**true**, the default\) or disables \(**false**\) encoding of module URIs in the navigation pane. For information about how ServiceNow encodes module URIs, see [Encoding module URIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-steps-app-navigator-category.md).
@@ -3403,35 +3403,35 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.escape\_gwindow\_message**
 
     Specifies whether strings in GlideWindow functions are sanitized to remove unwanted code \(true\) or not \(false\).
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.export.choice\_list\_max\_characters**
 
     Sets the maximum number of characters that will be included from a condition field type in an export to Microsoft Excel, as well as the maximum number of characters displayed in the list view condition builder in Core UI. \(Note: This property has no effect on the length of condition field values in tables.\)
 
     -   Type: integer
     -   Default value: 80
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.filter.first\_day\_of\_week**
 
     Identifies the first day of the calendar week for the company. By default, the start of the week is Monday, meaning that the calendar week begins with Monday and ends with Sunday. To change this behavior, add the property **glide.ui.filter.first\_day\_of\_week** to the instance as an integer property. Set the value to the integer corresponding with the day of the week that the calendar begins on, where 1 is Sunday, 2 is Monday, and so on. The function impacts all charts and calculations where the day of the week is used as a parameter.
 
     -   Type: integer
     -   Default value: 2
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.first.field.reference**
 
     Enables \(**true**\) or disables \(**false**\) having the first column in a list always link to the underlying record, even if it is a reference field. For example, if the first column on an Incident list is **Assigned to**, that value links to the Incident if this property is set to **true**.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.form\_annotations**
 
     Enables \(**true**\) or disables \(**false**\) form annotations, which allow you to add Custom, Section Separator, and Line Separator to a form.
@@ -3466,7 +3466,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.homepage.parallel**
 
     Enables \(**true**\) or disables \(**false**\) use of parallel rendering.
@@ -3562,7 +3562,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: 5
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.incident\_alert\_activity.fields**
 
     Incident communication plan activity formatter fields — the list of fields tracked from the Incident Communication Plan form in the activity formatter.
@@ -3610,7 +3610,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table. In Categories, add the mobile\_post\_auth category.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table. In Categories, add the mobile\_post\_auth category.
 -   **glide.ui.max\_calendar\_duration**
 
     Maximum number of days that a single calendar report entry can display.
@@ -3660,7 +3660,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: none
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.personalize\_form**
 
     Enables the Personalize Form menu.
@@ -3755,7 +3755,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.section508**
 
     Enables \(**true**\) or disables \(**false**\) rendering of alternate text in place of images.
@@ -3776,7 +3776,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.session\_timeleft**
 
     Sets how much time, in minutes, users have to extend a session before it times out due to inactivity.
@@ -3887,7 +3887,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ui.user\_cookie.life\_span\_in\_days**
 
     Sets the expiration time period for the 'remember me' cookie.
@@ -3930,7 +3930,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: sys\_user,sys\_import\_set\_row
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.user.default\_password**
 
     Default password for new users created from incoming email. Users must reset the password at first login.
@@ -3965,42 +3965,42 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.wsdl.maximum\_hierarchy**
 
     Maximum number of hierarchical levels returned in a WSDL when hierarchical SOAP web service is enabled. This property has a maximum value of 3.
 
     -   Type: integer
     -   Default value: 3
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.wsdl.show\_nillable**
 
     Enables \(**true**\) or disables \(**false**\) allowing a WSDL element to be valid if it has no element content despite a \{content type\} which would otherwise require content.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.ws.use\_row\_lock**
 
     If **true**, avoid using the current web service lock that applies before running the transform. Use the row lock that applies after the OnStart method.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.xmlhttp.excessive**
 
     Sets the number of items visible in the Available half of a many-to-many or one-to-many collection box.
 
     -   Type: integer
     -   Default value: 100
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.xmlprocessor.use\_unload\_format**
 
     Enables \(true\) or disables \(false\) unloading the XML using the display\_value format. To unload using this format, add the parameter **useUnloadFormat=true** to the request URL.
 
     -   Type: true \| false
     -   Default value: false
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **google.maps.auto\_close**
 
     If **true**, automatically closes the current info window before opening a new one. Clear the check box to enable multiple pop-up windows to remain open at once.
@@ -4084,7 +4084,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: string
     -   Default value: none \(If this property is left empty, the MID Servers get their version information from the mid.buildstamp property.\)
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **par\_vis\_config.data\_source.can\_select\_indicator**
 
     Specifies roles \(comma-separated\) which can select indicators as data sources from the Data Visualization configuration panel. If empty, all users can select the indicator sources that they have access to.
@@ -4239,7 +4239,7 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 100,000 \(records\)
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **remember\_me.max\_duration\_in\_days**
 
     Sets a maximum cap for the **remember\_me\_cookie.duration\_in\_days** cookie to expire before forcing a user to reauthenticate into the instance.
@@ -4521,9 +4521,9 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Default value: 1 \(if property doesn't exist\)
 -   **sn\_global\_searchui.hide\_results\_count**
 
-    Hides \(**true**\) or displays \(**false**\) the number of matching records for search groups and tables on the [Global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-polaris-ui.md) page.
+    Hides \(**true**\) or displays \(**false**\) the number of matching records for search groups and tables on the [Global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/global-search-polaris-ui.md) page.
 
-    To modify this property, select **Enhanced Global Search UI** from the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md) before opening the System Properties table.
+    To modify this property, select **Enhanced Global Search UI** from the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_SelectAnAppFromTheAppPicker.md) before opening the System Properties table.
 
     -   Type: true \| false
     -   Default value: false
@@ -4639,7 +4639,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true/false \(Boolean\)
     -   Default value: true
     -   Location: To change the value, create this property in the System Properties table.
-    -   More information: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+    -   More information: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 -   **tablet.footer.text**
 
     Text that appears on the footer of the tablet UI.
@@ -4655,5 +4655,5 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Default value: ServiceNow
     -   Location: **System Properties** &gt; **Tablet UI Properties**
 
-**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/p_CoreConfigurationOverview.md)
 

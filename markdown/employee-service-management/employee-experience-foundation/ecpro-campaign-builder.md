@@ -2,7 +2,7 @@
 title: Create campaign stages with Content Experience Builder
 description: Use the Content Experience Builder to create stages for your campaign on Employee Center Pro. Campaign stages control when content is available to your employees and for how long. The Content Experience Builder provides a simple, single-page view for managing content and assembling your campaign.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-campaign-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ecpro-campaign-builder.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,11 +20,11 @@ Use the Content Experience Builder to create stages for your campaign on Employe
 
 Role required: sn\_ca.campaign\_manager
 
-Complete the steps to [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-create-campaign.md)
+Complete the steps to [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-create-campaign.md)
 
 ## About this task
 
-Stages organize and manage the delivery of campaign content. When configuring a stage, you set the stage trigger, which determines when content becomes available and for how long. To learn more about triggers, see [Campaign bundle triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-triggers.md).
+Stages organize and manage the delivery of campaign content. When configuring a stage, you set the stage trigger, which determines when content becomes available and for how long. To learn more about triggers, see [Campaign bundle triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-triggers.md).
 
 **Note:** Some parts of the interface use the term "bundles" to refer to stages.
 
@@ -47,7 +47,7 @@ Stages organize and manage the delivery of campaign content. When configuring a 
     |-----|-----------|
     |Title|The name of the campaign bundle.|
     |Campaign|The campaign associated with the campaign bundle.|
-    |Trigger type|How the campaign bundle starts or ends. To learn more about triggers, see [Campaign bundle triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-triggers.md)|
+    |Trigger type|How the campaign bundle starts or ends. To learn more about triggers, see [Campaign bundle triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-triggers.md)|
     |Description|Descriptive information about the campaign bundle.|
 
     \[Omitted image "campaign-bundle.png"\] Alt text: Campaign bundle
@@ -58,5 +58,5 @@ Stages organize and manage the delivery of campaign content. When configuring a 
 ## What to do next
 
 -   Click **Add stage** to configure additional stages
--   Add content to the stage, specify an audience, and set the location where the content will be delivered. For more information on creating content in the Content Experience Builder, see [Add content to a campaign using Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns-manage-content-builder.md)
+-   Add content to the stage, specify an audience, and set the location where the content will be delivered. For more information on creating content in the Content Experience Builder, see [Add content to a campaign using Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns-manage-content-builder.md)
 

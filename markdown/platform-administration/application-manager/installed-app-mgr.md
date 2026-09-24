@@ -2,7 +2,7 @@
 title: Application Manager installed tab
 description: You can view all installed applications and plugins from one place in the Application Manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/installed-app-mgr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/application-manager/installed-app-mgr.html
 release: australia
 product: Application Manager
 classification: application-manager

@@ -2,7 +2,7 @@
 title: Exclude a table from cloning \(legacy\)
 description: Exclude a table to create an empty but usable table on the target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/exclude-a-table-from-cloning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/exclude-a-table-from-cloning.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Exclude a table to create an empty but usable table on the target instance.
 
 Role required: clone\_admin
 
-For information on excluding a table from cloning, see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-exclusions-guidelines.md).
+For information on excluding a table from cloning, see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/clone-exclusions-guidelines.md).
 
 ## About this task
 

@@ -2,7 +2,7 @@
 title: Update details of a free-form roadmap
 description: Update the details of a free-form roadmap to reflect the changes in priorities or the timeline of the roadmap.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/update-details-of-a-roadmap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/update-details-of-a-roadmap.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -19,7 +19,7 @@ Update the details of a free-form roadmap to reflect the changes in priorities o
 
 ## Before you begin
 
-[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-a-roadmap-in-roadmap-planning.md).
+[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-a-roadmap-in-roadmap-planning.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -33,7 +33,7 @@ Role required: sn\_align\_core.apw\_user
 
 4.  Use the Update free-form roadmap wizard to edit out the details of your roadmap.
 
-    For field information, see [Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-a-roadmap-in-roadmap-planning.md).
+    For field information, see [Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-a-roadmap-in-roadmap-planning.md).
 
 5.  Select **Update**.
 
@@ -45,13 +45,13 @@ The roadmap is updated and the roadmap items are displayed according to the late
 **Related topics**  
 
 
-[Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
+[Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
 
-[Plan unscheduled items into a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/schedule-unscheduled-items-to-a-roadmap.md)
+[Plan unscheduled items into a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/schedule-unscheduled-items-to-a-roadmap.md)
 
-[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-item-dependencies-in-a-roadmap.md)
+[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-planning-item-dependencies-in-a-roadmap.md)
 
-[Collaborate on a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/collaborate-on-a-roadmap.md)
+[Collaborate on a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/collaborate-on-a-roadmap.md)
 
-[Share a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/share-a-roadmap-with-stakeholders.md)
+[Share a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/share-a-roadmap-with-stakeholders.md)
 

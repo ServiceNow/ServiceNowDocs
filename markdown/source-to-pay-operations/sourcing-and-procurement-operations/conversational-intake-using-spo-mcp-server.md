@@ -2,7 +2,7 @@
 title: Request a procurement item using SPO MCP Server
 description: Submit a procurement request for catalog and off-catalog items through an MCP client connected to SPO MCP Server in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\). The MCP client guides you through discovery questions, displays product recommendations, and routes you to Shopping Hub or Employee Center to complete your request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/conversational-intake-using-spo-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/conversational-intake-using-spo-mcp-server.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -40,7 +40,7 @@ Use conversational intake to streamline procurement requests. You can ask procur
 
 1.  Open your MCP client, such as Claude, that is connected to your ServiceNow instance using the SPO MCP Server.
 
-    For more information on how to configure SPO MCP Server, see [Activate SPO MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spo-mcp-server.md).
+    For more information on how to configure SPO MCP Server, see [Activate SPO MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spo-mcp-server.md).
 
 2.  Enter your procurement request into the chat.
 

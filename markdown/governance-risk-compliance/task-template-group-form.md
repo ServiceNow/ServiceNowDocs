@@ -2,7 +2,7 @@
 title: Task template group form
 description: Use the Task template group form to bundle related task templates and define dependencies between them. Apply the group from a plan, loss scenario, recovery strategy, exercise event, crisis event, or activated plan to create the underlying tasks in bulk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/task-template-group-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/task-template-group-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-16"
@@ -37,5 +37,5 @@ For description of the field values, see the table.
 |Loss scenarios|Loss scenarios that include the group.|
 |Recovery strategies|Recovery strategies that include the group.|
 
-**Parent Topic:**[Configure Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-task-temp-temp-groups.md)
+**Parent Topic:**[Configure Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-task-temp-temp-groups.md)
 

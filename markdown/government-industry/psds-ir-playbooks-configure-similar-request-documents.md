@@ -2,7 +2,7 @@
 title: Configure Similar Request Documents UI in Information Request Playbook
 description: The Similar Request Documents Activity UI uses the name and description of existing information request cases to display a list of documents associated with the current case, providing helpful information the documents used to resolve similar information requests in Information Request Playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbooks-configure-similar-request-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-ir-playbooks-configure-similar-request-documents.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

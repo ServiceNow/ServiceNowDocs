@@ -2,10 +2,10 @@
 title: Rename a list in Service Operations Workspace for ITOM
 description: Rename a list to better reflect its content or purpose. This customization allows operators to align list names with their workflow terminology, improving clarity and usability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/rename-list-sow-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/rename-list-sow-itom.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -37,5 +37,5 @@ Role required: itil
     The list is renamed.
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/workspace-dashboard-use.md)
 

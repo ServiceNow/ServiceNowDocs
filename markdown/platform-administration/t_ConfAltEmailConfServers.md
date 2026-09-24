@@ -2,7 +2,7 @@
 title: Enable using your own SMTP and POP3 servers
 description: You can use your own SMTP and POP3 servers to send email from the instance and to store and receive email for the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfAltEmailConfServers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfAltEmailConfServers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ You can use your own SMTP and POP3 servers to send email from the instance and t
 -   Email servers required:
     -   SMTP
     -   POP3
--   [Basic email properties:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfiguringStandardEmail.md) enabled
+-   [Basic email properties:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ConfiguringStandardEmail.md) enabled
 
 ## Procedure
 
@@ -142,7 +142,7 @@ System Address Filter
 
 System address filter to apply to the email account. If left empty, the system uses the default system address filter for inbound or outbound email.
 
- For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-address-filters.md).
+ For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-address-filters.md).
 
 </td></tr><tr><td>
 
@@ -194,5 +194,5 @@ Option to create node logs for the raw data that is exchanged with the email ser
 
 \[Omitted image "alt-email-configuration-smtp-pop3-servers.png"\] Alt text: Diagram of ServiceNow email routing where outbound email is sent from the instance through DNS and an SMTP server to a user mailbox, and inbound email is sent from the user through spam filtering, SMTP, and a POP3 incoming mail server back to the instance
 
-**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AlternateEmailConfigurations.md)
 

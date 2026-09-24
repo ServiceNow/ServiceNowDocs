@@ -2,7 +2,7 @@
 title: Create a Health and Safety action schedule
 description: Create an action schedule to schedule actions across the organization such as learning activities and recurring tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/create-health-safety-action-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/create-health-safety-action-schedule.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -36,7 +36,7 @@ The action scheduler uses the condition builder to create and assign actions to 
 
 5.  On the form, fill in the fields.
 
-    For information on field descriptions, see [Health and safety action schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-health-safety-action-schedule-form.md).
+    For information on field descriptions, see [Health and safety action schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-health-safety-action-schedule-form.md).
 
 6.  In the **Assign to** field, add conditions to auto-assign the generated actions.
 
@@ -58,7 +58,7 @@ The action scheduler uses the condition builder to create and assign actions to 
 -   The action schedule is saved in the Action schedule \[sn\_ohs\_im\_action\_schedule\] table.
 -   The **Actions** tab appears for the action schedule.
 -   In the **Actions** tab, the action scheduler creates and auto-assigns actions based on the condition builder. An action schedule might generate multiple actions for people over time.
--   The created actions appear in the assigned user's **My Tasks** list on both the Employee Center and the Now Mobile app. From either location, the user can respond to the action and update its status. For information on action form fields, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-action-form.md).
+-   The created actions appear in the assigned user's **My Tasks** list on both the Employee Center and the Now Mobile app. From either location, the user can respond to the action and update its status. For information on action form fields, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-action-form.md).
 
-**Parent Topic:**[Scheduling Health and Safety actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/scheduling-health-safety-actions.md)
+**Parent Topic:**[Scheduling Health and Safety actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/scheduling-health-safety-actions.md)
 

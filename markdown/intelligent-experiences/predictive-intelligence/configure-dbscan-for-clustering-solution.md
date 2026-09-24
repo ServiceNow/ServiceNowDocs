@@ -2,7 +2,7 @@
 title: Configure DBSCAN for a clustering solution
 description: Consider applying the Density Based Spatial Clustering of Applications with Noise \(DBSCAN\) algorithm to your clustering solution. DBSCAN is available as an alternative to the default clustering algorithm, k-means.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-dbscan-for-clustering-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/configure-dbscan-for-clustering-solution.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -64,10 +64,10 @@ In this example scenario, you apply DBSCAN to a clustering solution.
     \[Omitted image "configure-dbscan-clustering5.png"\] Alt text: When you submit the record you created, the DBSCAN solution parameter appears on your clustering solution definition form.
 
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
+[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
 

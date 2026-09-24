@@ -2,7 +2,7 @@
 title: Disconnect from an RPA Hub instance in RPA Desktop Design Studio
 description: Disconnect a connected RPA Hub instance while you’re using the RPA Desktop Design Studio. You can then log in to the same instance with different credentials. For example, you might want to switch credentials when you use the Assign Bot Process feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/disconnnect-rpa-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/disconnnect-rpa-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Disconnect a connected RPA Hub instance while you’re using the RPA Desktop Des
 
 ## Before you begin
 
-Connect to an RPA Hub instance. For more information, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-studio-instance-rpa.md).
+Connect to an RPA Hub instance. For more information, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connect-studio-instance-rpa.md).
 
 Role required: none
 
@@ -35,10 +35,10 @@ You can't disconnect from an RPA Hub connected instance and then connect to a di
 
 ## What to do next
 
-Log in with new credentials. For more information about connecting to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-studio-instance-rpa.md).
+Log in with new credentials. For more information about connecting to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connect-studio-instance-rpa.md).
 
 **Related topics**  
 
 
-[Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-bot-process.md)
+[Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/assign-bot-process.md)
 

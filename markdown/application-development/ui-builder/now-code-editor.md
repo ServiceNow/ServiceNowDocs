@@ -2,7 +2,7 @@
 title: Edit code with the Now Code Editor \(advanced feature\)
 description: Now Code Editor is a rich-text editor like interface that supports Cascading Style Sheets \(CSS\), Hypertext Markup Language \(HTML\), JavaScript, Extensible Markup Language \(XML\), and JavaScript Object Notation \(JSON\). Use Now Code Editor to modify UI configuration, data resource configuration, styles, events, client-side and server-side scripts in Next Experience UI Builder components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/now-code-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/now-code-editor.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -265,5 +265,5 @@ Use the side-by-side view icon \[Omitted image "nce\_side\_by\_side\_view.png"\]
         ```
 
 
-**Parent Topic:**[Advanced UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/advanced-uib.md)
+**Parent Topic:**[Advanced UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/advanced-uib.md)
 

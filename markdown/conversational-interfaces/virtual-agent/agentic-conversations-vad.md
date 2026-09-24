@@ -2,7 +2,7 @@
 title: Agentic conversations in Virtual Agent
 description: When you query a Virtual Agent, it reasons, plans, and executes across a wide variety of options. The Virtual Agent can use AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/agentic-conversations-vad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/agentic-conversations-vad.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -28,7 +28,7 @@ When you query a Virtual Agent, it reasons, plans, and executes across a wide va
 
 Role required: admin or virtual\_agent\_admin
 
-**Note:** Manually enable agents to make them discoverable in Virtual Agent. For more information about changing the settings, see [Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md).
+**Note:** Manually enable agents to make them discoverable in Virtual Agent. For more information about changing the settings, see [Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md).
 
 To enable AI agents in Virtual Agent:
 
@@ -36,11 +36,11 @@ To enable AI agents in Virtual Agent:
 
     The configuration consists of the following:
 
-    -   Create an assistant in Virtual Agent or use the default. To create an assistant, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
-    -   Assign specific assistants to a specific portal or portals. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+    -   Create an assistant in Virtual Agent or use the default. To create an assistant, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
+    -   Assign specific assistants to a specific portal or portals. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
     \[Omitted image "assistants.png"\] Alt text: Assistants in CI.
 
-2.  Verify that **Agentic support** is enabled. For more information about using agentic support, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
+2.  Verify that **Agentic support** is enabled. For more information about using agentic support, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
 
     \[Omitted image "assistant-skill.png"\] Alt text: AI agents skill.
 

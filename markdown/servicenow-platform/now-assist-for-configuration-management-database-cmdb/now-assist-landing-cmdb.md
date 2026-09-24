@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Configuration Management Database \(CMDB\)
 description: Use ServiceNow Otto for Configuration Management Database \(CMDB\) to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and several other processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -20,23 +20,23 @@ Use ServiceNow Otto for Configuration Management Database \(CMDB\) to improve th
 
 <table id="table_mzj_vxd_rcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 
 </td></tr><tr><td>
 
-[Using skills in ServiceNow Otto for CMDB\[Omitted image "bus-ai-otto.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using-skills.md)[Use ServiceNow Otto for CMDB skills to view a concise summary of key CI data, to help you to resolve deduplication tasks, and several other processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
+[Using skills in ServiceNow Otto for CMDB\[Omitted image "bus-ai-otto.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using-skills.md)[Use ServiceNow Otto for CMDB skills to view a concise summary of key CI data, to help you to resolve deduplication tasks, and several other processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 
 </td><td>
 
-[Using agentic workflows in ServiceNow Otto for CMDB\[Omitted image "bus-ai-otto.svg"\] Alt text:Apply AI agentic workflows to accelerate results.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
+[Using agentic workflows in ServiceNow Otto for CMDB\[Omitted image "bus-ai-otto.svg"\] Alt text:Apply AI agentic workflows to accelerate results.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference topics provide additional information about the property settings that you use to configure and administer ServiceNow Otto for CMDB.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference topics provide additional information about the property settings that you use to configure and administer ServiceNow Otto for CMDB.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 
 </td><td>
 

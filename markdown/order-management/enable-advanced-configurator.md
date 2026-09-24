@@ -2,7 +2,7 @@
 title: Enable the CPQ Configurator
 description: Use the sn\_prd\_pm.enable\_advanced\_configuration system property to turn on the CPQ Configurator, an interface for adding customizable products to Sales Customer Relationship Management transactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/enable-advanced-configurator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enable-advanced-configurator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ If you have been using the configurator for Sales Customer Relationship Manageme
 **Related topics**  
 
 
-[Configuring CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-configuring.md)
+[Configuring CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-configuring.md)
 
-[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
+[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
 

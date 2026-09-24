@@ -2,7 +2,7 @@
 title: Set up a safety audit schedule
 description: Create an audit schedule and define the top-level audit details and the recurrence, for example, monthly or bi-monthly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-setup-safety-audit-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-setup-safety-audit-schedule.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -32,7 +32,7 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
 
 5.  On the form, fill in the fields.
 
-    Define the audit scope, finalize the goals, and choose regulations for the audit so that the audit process is well structured and organized. For more information on audit field descriptions, see [Audit schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-audit-schedule-form.md).
+    Define the audit scope, finalize the goals, and choose regulations for the audit so that the audit process is well structured and organized. For more information on audit field descriptions, see [Audit schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-audit-schedule-form.md).
 
 6.  Select **Save**.
 
@@ -40,7 +40,7 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
 
 7.  In the **Audit questionnaires** tab, select **New** to add smart assessment orsurveys to be added to each scheduled audit.
 
-    -   For information on audit questionnaire field descriptions, see [Audit questionnaire form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-audit-survey-form.md).
+    -   For information on audit questionnaire field descriptions, see [Audit questionnaire form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-audit-survey-form.md).
     -   Audit surveys can also be added to each scheduled audit individually after they’re scheduled.
 8.  To generate the scheduled audit records immediately, select **Create audits**.
 
@@ -52,7 +52,7 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
 
 9.  In the **Scheduled audits** tab, add details, for example, objectives and people involved and their responsibilities, to each scheduled audit record.
 
-    For information on completing an audit, see, [Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md).
+    For information on completing an audit, see, [Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md).
 
 
 ## Result
@@ -62,8 +62,8 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
 -   All required fields are copied from the audit schedule and audit questionnaire to its scheduled audit records.
 -   Any audit questionnaire created for a schedule are automatically added to all its audit records.
 -   The assigned user receives a notification to complete the smart assessment or survey for the generated audits. They can complete the audit in the Employee Center or in the mobile app.
-    -   A smart assessment can be completed in the mobile app. For more information, see [Complete a smart assessment from mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-smart-assessment-inspection-audit-mobile-agent.md).
-    -   A survey can be completed either in the Employee Center or the mobile app. For more information, see [Complete a survey from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-complete-safety-insp-survey.md).
+    -   A smart assessment can be completed in the mobile app. For more information, see [Complete a smart assessment from mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-create-smart-assessment-inspection-audit-mobile-agent.md).
+    -   A survey can be completed either in the Employee Center or the mobile app. For more information, see [Complete a survey from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-complete-safety-insp-survey.md).
 
-**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

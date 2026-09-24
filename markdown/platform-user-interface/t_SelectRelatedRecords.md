@@ -2,7 +2,7 @@
 title: Select or create records in a related list
 description: When a form contains a related list, such as the Incidents related list in the problem form, you can select existing records or add new ones in the related list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_SelectRelatedRecords.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_SelectRelatedRecords.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ Role required: none
         The new record is added to the related table and to the related list of the record.
 
 
-**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 

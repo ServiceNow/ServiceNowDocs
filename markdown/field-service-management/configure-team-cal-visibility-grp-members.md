@@ -2,7 +2,7 @@
 title: Configure team calendar visibility for group members
 description: Increase Team calendar visibility to enable teams to better coordinate meetings, events, and tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-team-cal-visibility-grp-members.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configure-team-cal-visibility-grp-members.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ The Team calendar includes a list of the members in an assignment group and thei
 **Related topics**  
 
 
-[Workforce system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-system-properties.md)
+[Workforce system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-system-properties.md)
 
-[Managing agents and tasks from Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/using-manager-workforce.md)
+[Managing agents and tasks from Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/using-manager-workforce.md)
 

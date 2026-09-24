@@ -2,7 +2,7 @@
 title: Map alerts for the Splunk Enterprise Event Ingestion integration
 description: During the event field-mapping step, you map individual event fields from triggered alerts or imported event data to fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-map-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest-map-alerts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -176,7 +176,7 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
 11. Open the script editor and continue editing.
 
-    For more information about the script editor, see [Use the script editor to format alert values for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest_script_editor.md).
+    For more information about the script editor, see [Use the script editor to format alert values for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest_script_editor.md).
 
 12. Choose one to continue with the profile configuration.
 
@@ -234,5 +234,5 @@ Delete this event profile and the Splunk Event Profiles list is displayed.
 
 The next step is to preview the values that you mapped on the security incident.
 
-**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
+**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
 

@@ -2,7 +2,7 @@
 title: Set up the Qualtrics spoke
 description: Integrate the ServiceNow instance and Qualtrics by registering Qualtrics as an OAuth provider to authenticate ServiceNow requests.Copy and record the values of token, Organization ID, Client ID, and Client secret from your Qualtrics account for authentication.Add and configure a Qualtrics connection to authenticate ServiceNow requests.Configure the system parameter sn\_qualtrics\_spoke.qualtrics\_directory and specify the Qualtrics Directory ID that can be used in the flows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-qualtrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-qualtrics.html
 release: australia
 product: Integration Hub
 classification: integration-hub

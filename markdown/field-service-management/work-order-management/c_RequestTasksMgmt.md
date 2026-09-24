@@ -2,7 +2,7 @@
 title: Request task management
 description: A request contains one or more tasks. These tasks allow qualifiers to define activities that must be done to complete a request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_RequestTasksMgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/c\_RequestTasksMgmt.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -31,15 +31,15 @@ Splitting a request into separate tasks, when necessary, enables qualifiers to d
 
 Optionally, set up one or more additional request task management configurations:
 
--   [Task windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/r_TaskWindows.md)
+-   [Task windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/r_TaskWindows.md)
 
     Set a task window to define the time period for performing the task by specifying the start and end dates.
 
--   [Create a task template for common task requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_UseTaskTempForMultReqTemp.md)
+-   [Create a task template for common task requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_UseTaskTempForMultReqTemp.md)
 
     Create task templates to efficiently manage frequently repeated tasks across multiple jobs. By reusing these templates in various request templates, you save time and ensure consistency. Task templates can also be used in Work Order requests to automatically include common information, streamlining the process and minimizing errors.
 
--   [Clone a request task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CloneARequestTask.md)
+-   [Clone a request task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_CloneARequestTask.md)
 
     Clone an existing task to save time and ensures consistency by allowing administrators to quickly replicate tasks while reducing errors and enabling easy customization.
 

@@ -2,7 +2,7 @@
 title: Draw a polyline or a polygon
 description: Draw a polyline, polygon, or a geometrical shape using the Draw line tool available in the CAD Editor. Join lines to form a polygon or a shape.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/draw-a-line-autocadv2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/draw-a-line-autocadv2.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -43,5 +43,5 @@ Role required: admin
 7.  Select **Remove** to remove the element from the CAD file.
 
 
-**Parent Topic:**[Drawing and editing tools in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/editing-tools-cad-editor.md)
+**Parent Topic:**[Drawing and editing tools in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/editing-tools-cad-editor.md)
 

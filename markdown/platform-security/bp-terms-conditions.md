@@ -2,7 +2,7 @@
 title: Domain separation terms
 description: With a ServiceNow instance, you can improve efficiency, add greater security, and increase performance for your customer organizations. It's helpful to understand some of the most common terms as you create your configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-terms-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-terms-conditions.html
 release: australia
 topic_type: reference
 last_updated: "2025-07-31"
@@ -88,7 +88,7 @@ You can create and maintain the process that affect the global domain as well as
 
 Examples: System properties, dictionary overrides, `sys_documentation` \(field labels\), the data model \(classes, CI types, and so on\), tables and fields `[sys_dictionary]` \(access can be restricted\), indexing \(text indexes as well as database\), ACLs, installation exits, inbound actions, public pages, and interceptors.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

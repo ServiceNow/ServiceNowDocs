@@ -2,7 +2,7 @@
 title: Universal Request release notes
 description: The ServiceNow Universal Request application enables agents to resolve cases seamlessly across the enterprise to provide a better employee experience. Universal Request was enhanced and updated in the Australia release.The ServiceNow Universal Request application enables agents to resolve cases seamlessly across the enterprise to provide a better employee experience. Universal Request was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/ur-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/ur-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ See [Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
     Universal Request is available with activation of the Universal Request plugin \(com.snc.universal\_request\). For details, see [Activate Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/activate-ur-plugin.md).
 
 
-**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md)
+**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/hr-service-delivery-landing.md)
 
 ## Australia
 

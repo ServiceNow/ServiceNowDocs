@@ -2,7 +2,7 @@
 title: Create block content in Document Templates
 description: Each document template block can have multiple block contents. Each content mapping to a condition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-doc-blc-cnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/create-doc-blc-cnt.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -106,7 +106,7 @@ Body
 
 </td><td>
 
-Text that you want to include in the block content.**Note:** The output of the HTML block content is automatically sanitized when the **Sanitize** option is enabled in the HTML template. For more details, refer to the **Sanitize** field in [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
+Text that you want to include in the block content.**Note:** The output of the HTML block content is automatically sanitized when the **Sanitize** option is enabled in the HTML template. For more details, refer to the **Sanitize** field in [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.

@@ -2,7 +2,7 @@
 title: Menu Item form
 description: Use the Menu Items form to configure the items for the More menu on the Employee Center header.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/menu-item-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/menu-item-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -111,7 +111,7 @@ Glyph
 Icon that appears next to the menu item.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

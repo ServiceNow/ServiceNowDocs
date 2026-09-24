@@ -2,7 +2,7 @@
 title: Generative AI Controller tables
 description: Generative AI Controller use dedicated tables to log AI activities and track AI usage across the platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/generative-ai-controller-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generative-ai-controller/generative-ai-controller-tables.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller

@@ -2,7 +2,7 @@
 title: Add personal notes
 description: Using personal notes agents can record information that remains private and is not visible to other agents working on that case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/add-pn-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/add-pn-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

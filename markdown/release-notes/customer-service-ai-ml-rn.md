@@ -2,7 +2,7 @@
 title: Predictive AI for CSM release notes
 description: The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/customer-service-ai-ml-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/customer-service-ai-ml-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -16,11 +16,11 @@ The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applicati
 
 ## About Predictive AI for CSM
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Customer Service Management \(CSM\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Resolve cases faster with a new case insights section that consolidates key case details, customer history, sentiment scores, and special handling notes into a single view.
 -   Use AI to proactively detect emerging issues from case patterns and automatically propose major cases when similar cases trend together.
@@ -28,12 +28,12 @@ The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applicati
 -   Enable customers to make case updates through AI voice agent.
 -   Use Live Agent Assist for voice calls to generate recommendations during live voice calls.
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
 
 -   Automatically evaluate post-interaction customer conversations using AI models that score against a configurable quality rubric, eliminating manual effort.
 -   Receive intelligent email reply recommendations on extended table record pages in ServiceNow Otto for CSM, helping agents respond faster with less manual effort.
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   Availability of filter controls in Now Assist Guardian for ServiceNow Otto for CSM.
 -   Availability of AI Workflow tab in Core UI.
@@ -70,7 +70,7 @@ For details, see the "Activation information" section of these release notes.
     ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
 
 
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/customer-service-mgmt-rn-landing.md)
 
 ## August 2026
 

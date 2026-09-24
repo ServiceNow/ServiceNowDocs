@@ -2,7 +2,7 @@
 title: Managing employee documents
 description: Use Employee Document Management to search, create, move, or manage legal holds on employee documents.Search for and view employee documents using different filters from the employee document repository. You can also download documents for audit purposes.With the employee document writer \[sn\_hr\_ef.document\_writer\] role, you can create or upload an employee document directly to the employee document management repository.You can move employee documents from an HR case to the employee document repository. You can also move employee documents automatically by HR service when an HR case is closed complete.Legal or litigation holds prevent the deletion of documents related to a document type or all employee documents for an HR profile.Add legal hold to multiple HR profiles at one time. Legal or litigation holds prevent the deletion of employee documents for an HR profile.Add legal hold to multiple document types at one time. Legal or litigation holds prevent the deletion of documents related to a document type.You can view a list of all document types or HR profiles that are currently under or had been under a legal hold. You can review the reasons a document type or HR profile was placed on legal hold and remove the legal hold.For optimal system performance and depending on your internal processes, employee documentation is purged based on the security policy established by your company.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/hr-doc-management-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/hr-doc-management-admin.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -24,9 +24,9 @@ Employee Document Management is your virtual file cabinet containing any or all 
     -   When combined with HR Service Delivery, HR agents can move documents from an HR case or add directly to the document repository.
 -   Place an HR profile or document type on legal hold: Placing an HR profile or document type on legal hold prevents associated employee documents from being purged after the retention period has been reached.
 -   Move employee documents: When employee documents are attached to an HR case, you can manually move them to the document repository. Or, you can configure HR services to automatically move employee documents when the case is closed/complete.
--   View employee documents: Employees can view their own employee documents on the service portal or Employee Center. Here [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md) is how you give them access by document type. The base system provides example document types.
+-   View employee documents: Employees can view their own employee documents on the service portal or Employee Center. Here [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md) is how you give them access by document type. The base system provides example document types.
 
-**Parent Topic:**[Using Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/using-employee-document-management.md)
+**Parent Topic:**[Using Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/using-employee-document-management.md)
 
 **Related topics**  
 
@@ -74,7 +74,7 @@ Role required: sn\_hr\_ef.document\_writer
 
 Documents can also be uploaded from the HR case form and then moved to the document repository.
 
-**Note:** Employee documents can also be moved from the HR case form automatically when the case is closed by configuring the HR service. For information on configuring this feature, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+**Note:** Employee documents can also be moved from the HR case form automatically when the case is closed by configuring the HR service. For information on configuring this feature, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 ### Procedure
 
@@ -98,7 +98,7 @@ Document
 
 Employee document to upload.Click **Choose File** to upload an employee document.
 
-**Note:** By default, the maximum size of a document allowed is 30 MB. The default can be changed from the **Maximum file upload size in megabytes** field in Employee Document Properties. For more information, see [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/employee-doc-properties.md).
+**Note:** By default, the maximum size of a document allowed is 30 MB. The default can be changed from the **Maximum file upload size in megabytes** field in Employee Document Properties. For more information, see [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/employee-doc-properties.md).
 
  After selecting a document, the read-only fields show the file size, file format, created on, and created by.
 
@@ -219,7 +219,7 @@ Role required: sn\_hr\_ef.document\_writer or sn\_hr\_core.case\_reader
 
 ### About this task
 
-Employee documents can also be added directly to the employee document repository. The employee document repository provides a central repository for quick and easy identification using different sorting features. See [Create or modify an employee document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-admin.md).
+Employee documents can also be added directly to the employee document repository. The employee document repository provides a central repository for quick and easy identification using different sorting features. See [Create or modify an employee document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-admin.md).
 
 ### Procedure
 
@@ -239,7 +239,7 @@ Employee documents can also be added directly to the employee document repositor
 
 5.  Select the **Document Type** for each document.
 
-    The document type determines categorization, who can access it, and the retention policy. If no document type appears for the associated topic detail, one should be created to ensure correct categorization. See [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md).
+    The document type determines categorization, who can access it, and the retention policy. If no document type appears for the associated topic detail, one should be created to ensure correct categorization. See [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md).
 
 6.  Click **Move Selected**.
 
@@ -248,7 +248,7 @@ Employee documents can also be added directly to the employee document repositor
 
 The employee documents move from the HR case to the employee document repository. After an employee document is moved, the file name, format, and size are copied from the attachment to the document.
 
-**Note:** You can also automate this process by checking the **Automatically move attachments** box from HR services. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+**Note:** You can also automate this process by checking the **Automatically move attachments** box from HR services. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 ### What to do next
 
@@ -361,7 +361,7 @@ Role required: sn\_hr\_ef.legal\_hold\_writer
 
 ### About this task
 
-Legal holds are placed on employee documents by HR profile or by document type. See [Add or remove a legal hold for employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-admin.md).
+Legal holds are placed on employee documents by HR profile or by document type. See [Add or remove a legal hold for employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-admin.md).
 
 ### Procedure
 
@@ -392,7 +392,7 @@ Purging permanently deletes employee documents from the instance. Purging frees 
 -   Attributes of the deleted documents are stored.
 -   The default attributes that identify deleted documents are employee and HR case number. You can change the default in the Properties for Employee Document Management.
 
-See [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/employee-doc-properties.md).
+See [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/employee-doc-properties.md).
 
 ### Procedure
 

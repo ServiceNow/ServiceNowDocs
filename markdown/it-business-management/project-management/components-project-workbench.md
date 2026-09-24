@@ -2,7 +2,7 @@
 title: Components of project workbench
 description: The project workbench displays project information in two distinct areas. The top pane displays the project visualization, and the bottom pane displays phase details in a list view or visual task board. There is also a header above the workbench that includes several buttons and controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/components-project-workbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/components-project-workbench.html
 release: australia
 product: Project Management
 classification: project-management
@@ -78,7 +78,7 @@ The bottom pane of the project workbench displays detailed information for the p
 
 Information in the bottom pane can be displayed in list view or in a visual task board. The **List** and **VTB** buttons in the Project Workbench header control how this information is displayed.
 
-**Parent Topic:**[Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectWorkbench.md)
+**Parent Topic:**[Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectWorkbench.md)
 
 **Related topics**  
 

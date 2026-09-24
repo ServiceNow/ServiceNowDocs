@@ -2,7 +2,7 @@
 title: Close a case from the Customer Service Portal
 description: Customers and consumers can close cases from the Customer and Consumer Service Portals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-close-case-from-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-close-case-from-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ The **Close Case** button is not available for cases in the **Resolved** or **Cl
 **Related topics**  
 
 
-[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
 
-[Complete a customer service satisfaction survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ComACustServSatSurvey.md)
+[Complete a customer service satisfaction survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ComACustServSatSurvey.md)
 

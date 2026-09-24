@@ -2,7 +2,7 @@
 title: Quality issue management data model
 description: The quality issue management \(QIM\) framework enables OEMs for documenting non-conformance, evaluating their effects on assets and customers, conducting root cause analysis, and implementing corrective, containment, and other remediation actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-quality-issue-management-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-quality-issue-management-data-model.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,8 +26,8 @@ The QIM involves the following tasks:
 
 \[Omitted image "Data-model-QIM.png"\] Alt text: Decorative
 
--   **[Quality issue management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-quality-issue-management-tables.md)**  
+-   **[Quality issue management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-quality-issue-management-tables.md)**  
 This section explains quality issue management \(QIM\) tables in Manufacturing Commercial Operations.
 
-**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/data-model.md)
+**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/data-model.md)
 

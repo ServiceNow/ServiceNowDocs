@@ -2,14 +2,14 @@
 title: Manage hybrid search in search applications
 description: Control hybrid search settings in AI Search applications to optimize search performance. Enable hybrid search to create context-aware results that combine keyword matching with semantic understanding. Disabling it generates results that rely solely on keyword-based queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/enable-hybrid-search-aisac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/enable-hybrid-search-aisac.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-Hybrid search combines traditional keyword-based search with AI-powered semantic understanding. When hybrid search mode is on, it processes keywords and comprehends the meaning and context of your query, which delivers more accurate and comprehensive results. For more information, see [Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/hybrid-search-ais.md).
+Hybrid search combines traditional keyword-based search with AI-powered semantic understanding. When hybrid search mode is on, it processes keywords and comprehends the meaning and context of your query, which delivers more accurate and comprehensive results. For more information, see [Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/hybrid-search-ais.md).
 
 Upgrading an existing installation doesn't change current hybrid search settings. Users with the admin role can activate or deactivate hybrid search for individual SACs after installation.
 
@@ -49,5 +49,5 @@ Upgrading an existing installation doesn't change current hybrid search settings
 
 Hybrid search mode is updated for the selected application.
 
-**Parent Topic:**[Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/using-ais-admin-console.md)
+**Parent Topic:**[Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/using-ais-admin-console.md)
 

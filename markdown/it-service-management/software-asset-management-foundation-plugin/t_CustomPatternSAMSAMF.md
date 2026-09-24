@@ -2,7 +2,7 @@
 title: Customize a Discovery pattern for Software Asset Management Foundation plugin
 description: Software Asset Management Foundation plugin automatically leverages SQL Server, Exchange, and Oracle Database Discovery patterns, but you can perform steps for Software Asset Management Foundation plugin to utilize additional Discovery patterns, if needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/t\_CustomPatternSAMSAMF.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management-foundation-plugin/t\_CustomPatternSAMSAMF.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -94,7 +94,7 @@ Product name \(for example, MySQL\).
 
 ## What to do next
 
-If the software product has an edition that is not being discovered, [Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md) so the software can be successfully reconciled.
+If the software product has an edition that is not being discovered, [Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md) so the software can be successfully reconciled.
 
-**Parent Topic:**[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
+**Parent Topic:**[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
 

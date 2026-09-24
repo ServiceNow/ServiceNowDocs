@@ -2,7 +2,7 @@
 title: Create a REST message
 description: Configure a REST message for all outbound calls for a particular SCIM Provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/create-a-rest-message.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/create-a-rest-message.html
 release: australia
 product: Identity
 classification: identity
@@ -141,7 +141,7 @@ The REST message record is created.
 
 ## What to do next
 
-Use the REST message to create a SCIM Provider. For more information, see [Create a SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-provider.md).
+Use the REST message to create a SCIM Provider. For more information, see [Create a SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-provider.md).
 
 To learn more about how to create a REST message, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
 

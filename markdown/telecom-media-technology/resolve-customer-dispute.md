@@ -2,7 +2,7 @@
 title: Resolve a customer dispute and record the dispute analysis
 description: Resolve customer disputes by creating resolution tasks, documenting dispute analysis, and proposing solutions. Complete this stage after investigation and before closure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/resolve-customer-dispute.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/resolve-customer-dispute.html
 release: australia
 topic_type: task
 last_updated: "2026-07-27"
@@ -75,9 +75,9 @@ This stage in the Customer Dispute Management \(CDM\) playbook focuses on implem
 
 ## Result
 
-The system sends the customer an email that summarizes the dispute, investigation findings, and proposed resolution. Based on the customer response, you can close the dispute. For more information, see [Close a customer dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/close-customer-dispute.md).
+The system sends the customer an email that summarizes the dispute, investigation findings, and proposed resolution. Based on the customer response, you can close the dispute. For more information, see [Close a customer dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/close-customer-dispute.md).
 
-**Parent Topic:**[Using Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/use-alternative-dispute-resolution-case.md)
+**Parent Topic:**[Using Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/use-alternative-dispute-resolution-case.md)
 
 **Related topics**  
 
@@ -90,5 +90,5 @@ The system sends the customer an email that summarizes the dispute, investigatio
 
 [View a Customer Dispute Management case record]()
 
-[Customer Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/alternative-dispute-resolution.md)
+[Customer Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/alternative-dispute-resolution.md)
 

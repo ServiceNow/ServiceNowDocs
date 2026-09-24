@@ -2,7 +2,7 @@
 title: Add a target to multiple breakdown elements in KPI Details
 description: Select multiple breakdown elements in the KPI Details target configuration panel. Add the same target to each element. This target can be an improvement on a baseline instead of an absolute value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-multiple-targets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/add-multiple-targets.html
 release: australia
 topic_type: task
 last_updated: "2023-08-03"
@@ -48,7 +48,7 @@ Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin
 
     **Tip:** If you have many elements to scroll through, sort or filter on a value in any of the columns. You can also click **Filter** and use the condition builder to narrow down the selection.
 
-7.  Set targets for the elements as described in Step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-multiple-targets.md) in [Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-multiple-targets.md).
+7.  Set targets for the elements as described in Step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-multiple-targets.md) in [Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-multiple-targets.md).
 
 8.  Set a start date, when the targets come into effect, and a review date.
 
@@ -108,7 +108,7 @@ Here is a table with the targets you created and their values. All targets take 
 |Assignment Group: Technical Services Support|50|
 |Assignment Group: Financial Systems Support|43|
 
-**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)
+**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details-targets.md)
 
 **Related topics**  
 

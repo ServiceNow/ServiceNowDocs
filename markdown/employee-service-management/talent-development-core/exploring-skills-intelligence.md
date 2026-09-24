@@ -2,7 +2,7 @@
 title: Exploring Skills Foundation
 description: The Skills Foundation platform uses AI Search to process your industry skills data. Learn how Skills Foundation can help transform your organization to build a workforce that is based on skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/exploring-skills-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/exploring-skills-intelligence.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -30,15 +30,15 @@ The Skills Foundation engine acts as the foundational layer that powers all the 
 
 ## Skill Validation in Manager Hub
 
-As a manager, you can review and validate the skill proficiency levels updated by your employees by opening the conversations scheduled with them. Within Conversations there’s a dedicated section that offers details about skills that require validation. For more information, see [Validate skills in Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-intelligence-manager-hub.md).
+As a manager, you can review and validate the skill proficiency levels updated by your employees by opening the conversations scheduled with them. Within Conversations there’s a dedicated section that offers details about skills that require validation. For more information, see [Validate skills in Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/skills-intelligence-manager-hub.md).
 
 ## Skills-driven Learning recommendations
 
-Talent Development uses Skills Foundation to deliver learning recommendations for employees and their managers, keeping them engaged and productive. For more information, see [Learning overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-learning-ovrvw.md). The Skills Foundation application integrates with Learning to introduce skills-driven learning search results that your managers can use to recommend courses based on the skills of your employees. For more information, see [Learning integration with Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/skills-intelligence-lxp.md).
+Talent Development uses Skills Foundation to deliver learning recommendations for employees and their managers, keeping them engaged and productive. For more information, see [Learning overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-learning-ovrvw.md). The Skills Foundation application integrates with Learning to introduce skills-driven learning search results that your managers can use to recommend courses based on the skills of your employees. For more information, see [Learning integration with Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/skills-intelligence-lxp.md).
 
 ## Proactive Prompts integrated with Skills Foundation
 
-Proactive Prompts enable contextual and proactive engagement for your managers and employees by bringing actionable insights as prompts into their flow of work. You can use these prompts in multiple engagement channels, such as Microsoft Teams, Microsoft Outlook, Zoom, and the short messaging service \(SMS\). For more information, see [Proactive Prompts for Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/proactive-prompts-skills.md).
+Proactive Prompts enable contextual and proactive engagement for your managers and employees by bringing actionable insights as prompts into their flow of work. You can use these prompts in multiple engagement channels, such as Microsoft Teams, Microsoft Outlook, Zoom, and the short messaging service \(SMS\). For more information, see [Proactive Prompts for Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/proactive-prompts-skills.md).
 
 ## Support for multiple languages in Skills Foundation
 
@@ -52,7 +52,7 @@ Employees can view the skill names and their descriptions translated when they c
 
 ## Hiring core for Skills Foundation
 
-Hiring Core provides a repository to store information for your hiring requirements. Activate the Hiring Core plugin \(app-hiring-core\) to start using it. Skills Foundation runs predictions on the data in the hiring core tables and offers skill recommendations for role groups. For more information, see [Hiring Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/hiring-core.md).
+Hiring Core provides a repository to store information for your hiring requirements. Activate the Hiring Core plugin \(app-hiring-core\) to start using it. Skills Foundation runs predictions on the data in the hiring core tables and offers skill recommendations for role groups. For more information, see [Hiring Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/hiring-core.md).
 
 ## Key benefits
 
@@ -68,7 +68,7 @@ Benefits
 
 </th></tr></thead><tbody><tr><td>
 
-[Employee skills profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/manage-skills-profile.md)
+[Employee skills profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/manage-skills-profile.md)
 
 </td><td>
 
@@ -76,7 +76,7 @@ Provides a comprehensive view of the skills that your employees have.
 
 </td></tr><tr><td>
 
-[Pre-seed employee skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/pre-seeded-skills.md)
+[Pre-seed employee skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/pre-seeded-skills.md)
 
 </td><td>
 
@@ -84,7 +84,7 @@ Identifies the essential skills of an employee by analyzing the external data an
 
 </td></tr><tr><td>
 
-[About Job Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/job-architecture.md)
+[About Job Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/job-architecture.md)
 
 </td><td>
 
@@ -92,7 +92,7 @@ Associates the career data of your organization with skills.
 
 </td></tr><tr><td>
 
-[Proactive Prompts for Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/drive-adoption-proactive-prompts.md)
+[Proactive Prompts for Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/drive-adoption-proactive-prompts.md)
 
 </td><td>
 
@@ -100,7 +100,7 @@ Enables contextual and proactive engagement for your managers and employees by b
 
 </td></tr><tr><td>
 
-[Import skills from your resume or LinkedIn profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/import-skills-from-resume.md)
+[Import skills from your resume or LinkedIn profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/import-skills-from-resume.md)
 
 </td><td>
 
@@ -108,7 +108,7 @@ Imports skills from resumes and LinkedIn profiles of the employees.**Note:** Thi
 
 </td></tr><tr><td>
 
-[Validated skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-intelligence-manager-hub.md)
+[Validated skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/skills-intelligence-manager-hub.md)
 
 </td><td>
 
@@ -116,7 +116,7 @@ Managers validate the skill proficiency level of employees in the Manager Hub an
 
 </td></tr><tr><td>
 
-[View activity insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-intelligence-manager-hub.md)
+[View activity insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/skills-intelligence-manager-hub.md)
 
 </td><td>
 
@@ -124,7 +124,7 @@ Managers can view and review activities related to the skill that an employee ha
 
 </td></tr><tr><td>
 
-[Add skills by using the skill recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/add-skills-using-skill-recommender.md)
+[Add skills by using the skill recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/add-skills-using-skill-recommender.md)
 
 </td><td>
 

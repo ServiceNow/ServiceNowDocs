@@ -2,7 +2,7 @@
 title: Send an email from a job requisition
 description: As a recruiter, send an email to your applicants on a job requisition and provide personalized details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/send-email-to-applicants.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/send-email-to-applicants.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -39,5 +39,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 The applicant receives the email. The email is also added to the activity stream of the application record.
 
-**Parent Topic:**[Using Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/use-recruit-workspace.md)
+**Parent Topic:**[Using Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/use-recruit-workspace.md)
 

@@ -2,12 +2,12 @@
 title: Discovery on Code Signing instances
 description: Discovery is supported on instances with Code Signing enabled. Code signing validates the integrity of Discovery components before execution to help prevent unauthorized scripts from running on MID Servers and target machines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/code-sign-disco-probes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/code-sign-disco-probes.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -53,7 +53,7 @@ Code signing for Discovery supports the following discovery methods:
 -   IP-based Discovery
 -   Cloud Discovery
 
-    **Note:** Cloud Discovery requires additional configuration. For more information, see [Configure Cloud Discovery for code-signed instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-cloud-disco-code-sign.md).
+    **Note:** Cloud Discovery requires additional configuration. For more information, see [Configure Cloud Discovery for code-signed instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/config-cloud-disco-code-sign.md).
 
 
 ## Signature validation scope

@@ -2,7 +2,7 @@
 title: Set Values workflow activity
 description: The Set Values activity sets values on the current record when the workflow quiesces or ends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_SetValuesActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/r\_SetValuesActivity.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

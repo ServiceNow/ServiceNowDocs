@@ -2,7 +2,7 @@
 title: Set up CPQ using guided setup
 description: The guided setup organizes the configuration activities into modules and tracks completion as each activity is completed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-cpq-using-guided-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-cpq-using-guided-setup.html
 release: australia
 topic_type: task
 last_updated: "2026-05-14"
@@ -18,7 +18,7 @@ The guided setup organizes the configuration activities into modules and tracks 
 
 Role required: admin
 
-Complete the prerequisites. For more information, see [Prerequisites for setting up CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/prereq-for-cpq-config.md).
+Complete the prerequisites. For more information, see [Prerequisites for setting up CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/prereq-for-cpq-config.md).
 
 ## About this task
 
@@ -64,5 +64,5 @@ Configure the CPQ Configurator in a logical sequence and track your progress fro
 **Related topics**  
 
 
-[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
+[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
 

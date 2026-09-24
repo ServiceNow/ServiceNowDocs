@@ -2,7 +2,7 @@
 title: Use the Terminate component
 description: Abort an automation by using the Terminate component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-terminate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-general-terminate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Terminate component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
+You can configure the properties for the Terminate component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/Properties-general-components.md).
 
-Use the Terminate component in attended automations to complete the automation execution. For more information about the embedded task automation, [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md).
+Use the Terminate component in attended automations to complete the automation execution. For more information about the embedded task automation, [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md).
 
 ## Procedure
 
@@ -30,7 +30,7 @@ Use the Terminate component in attended automations to complete the automation e
 
 2.  Drag the Terminate component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Terminate component to the corresponding ports of the other components as described in the following table.
 
@@ -146,5 +146,5 @@ For example, in the automation workflow that requires to read data from an Excel
 
 \[Omitted image "general-termininate-comp-rpa.png"\] Alt text: Terminate component in a simple automation workflow after the Try Catch component. Terminate component displaying Message, Mark As Error, and Capture screen parameters.
 
-**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/general-component.md)
 

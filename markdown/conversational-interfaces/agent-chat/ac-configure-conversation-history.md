@@ -2,7 +2,7 @@
 title: Setting up conversation history
 description: Enable and customize the conversation history options that are available on the conversation history screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ac-configure-conversation-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ac-configure-conversation-history.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -57,5 +57,5 @@ Role required: admin
 10. On the Create New Conversation History Filter screen, select **Submit** or **Update**.
 
 
-**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
+**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

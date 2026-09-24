@@ -2,7 +2,7 @@
 title: Using Kiosk Indoor Mapping
 description: Use the kiosk indoor mapping feature to search for spaces, get directions, and raise cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-services-kiosk/using-kiosk-indoor-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-services-kiosk/using-kiosk-indoor-map.html
 release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -36,5 +36,5 @@ You can access the kiosk indoor map by selecting **Explore workplace** on the ki
 
 -   Raise an issue after selecting a space from the map or the search bar. The kiosk displays a form where you can provide details about the issue, select the urgency, and select a user to raise a request on their behalf.
 
-**Parent Topic:**[Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
+**Parent Topic:**[Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
 

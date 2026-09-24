@@ -2,7 +2,7 @@
 title: Move project views, actions, and states
 description: As a move manager, create, track, and work on move projects to fulfill multiple move requests at a time. The move project enables you to work using a schedule view, which is faster than opening individual move requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/move-project-schedule-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/move-project-schedule-view.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -110,5 +110,5 @@ A move project goes through the following state changes:
     A project that is in the **Cancelled** state can't be edited. You can only edit the **Assigned to** and the **State** fields.
 
 
-**Parent Topic:**[Move management key features and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-mgmt-views-states-actions.md)
+**Parent Topic:**[Move management key features and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/move-mgmt-views-states-actions.md)
 

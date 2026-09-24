@@ -2,7 +2,7 @@
 title: Legal entity
 description: Field descriptions for the \[sn\_fin\_legal\_entity\] table, which stores internal legal entities that request purchases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/legal-entity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/legal-entity.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -97,5 +97,5 @@ Reference
 Reporting currency of the entity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
+</table>**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

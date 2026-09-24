@@ -2,7 +2,7 @@
 title: Wrap up configuration
 description: Set up the wrap up configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/wrap-up-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/wrap-up-configuration.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

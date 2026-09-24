@@ -2,7 +2,7 @@
 title: Add a button to your mobile web screen that launches Virtual Agent
 description: Admins can configure a button on a mobile web screen that end users can use to launch Virtual Agent from their mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobwebscreen-add-button-virtagent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobwebscreen-add-button-virtagent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,5 +56,5 @@ To add a button to your mobile web screen, you must use UI Builder. For more inf
 
 In your mobile web screen on your device, refresh the mobile app to display the button you added for Virtual Agent.
 
-**Parent Topic:**[Mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/url-screen.md)
+**Parent Topic:**[Mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/url-screen.md)
 

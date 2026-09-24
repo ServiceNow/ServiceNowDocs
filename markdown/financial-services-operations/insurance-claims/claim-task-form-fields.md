@@ -2,12 +2,12 @@
 title: Claim Task form fields
 description: This section describes the claim task form, which displays the information about the claims tasks, which are created and assigned to users to complete the work to resolve the insurance claims.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/claim-task-form-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/claim-task-form-fields.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create an ad-hoc task on a claim, Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---

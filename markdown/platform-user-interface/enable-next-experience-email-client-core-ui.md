@@ -2,7 +2,7 @@
 title: Set up the Next Experience email client in the Core UI
 description: Access email features from the Next Experience in the Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-next-experience-email-client-core-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/enable-next-experience-email-client-core-ui.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,5 +54,5 @@ These Core UI email client features aren’t available after enabling the Next E
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UsingForms.md)
 

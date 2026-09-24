@@ -2,7 +2,7 @@
 title: Agentic ServiceNow AI Platform development with Build Agent
 description: Build Agent is the primary AI-powered development tool that works directly with the ServiceNow AI Platform to help you build applications. It generates code based on natural language descriptions, suggests improvements, and automates repetitive development tasks while you retain control of your application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vc-build-agent-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vc-build-agent-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -54,20 +54,20 @@ Some sample use cases for app development with Build Agent include the following
 
 You can access Build Agent in both ServiceNow Studio and the ServiceNow IDE.
 
-**Note:** This document provides an overview of how Build Agent sits in the agentic development workflow. For full product documentation, see [Build Agent and ServiceNow AI Platform tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-studio-vs-ide.md).
+**Note:** This document provides an overview of how Build Agent sits in the agentic development workflow. For full product documentation, see [Build Agent and ServiceNow AI Platform tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agent-studio-vs-ide.md).
 
--   **[Get started with agentic development using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-code-with-build-agent.md)**  
+-   **[Get started with agentic development using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-code-with-build-agent.md)**  
 Use Build Agent on the ServiceNow AI Platform to build apps agentically by executing complex configuration and development tasks through conversational prompts. This approach simplifies editing and creating ServiceNow applications and metadata such as tables, relationships, and access controls, without manual navigation.
--   **[Build Agent and ServiceNow AI Platform tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-studio-vs-ide.md)**  
+-   **[Build Agent and ServiceNow AI Platform tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agent-studio-vs-ide.md)**  
 Compare how Build Agent behaves in ServiceNow Studio \(UI-first, declarative workflows\) versus the ServiceNow IDE \(code-first, autonomous full-stack development\), so you can choose the right environment for your task and audience.
--   **[Creating custom agentic workflows, in-app agents, and skills with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agents-in-ba.md)**  
+-   **[Creating custom agentic workflows, in-app agents, and skills with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agents-in-ba.md)**  
 Use Build Agent to create and deploy custom agentic workflows, AI agents, and skills that add agentic experiences to your ServiceNow custom applications, supported by the built-in governance framework.
--   **[Limitations of agentic app generation with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-limitations.md)**  
+-   **[Limitations of agentic app generation with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agent-limitations.md)**  
 Build Agent accelerates agentic app development, but it also has some limitations that you should understand before using it. These constraints span feature coverage, platform compatibility, and governance requirements, all of which affect how and when you can use the tool effectively in agentic development workflows.
--   **[Agentic development app refinement in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-refine-sns.md)**  
+-   **[Agentic development app refinement in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-refine-sns.md)**  
 ServiceNow Studio connects AI-generated apps to enterprise-grade solutions, where you can review, edit, and enhance your application in a dedicated development environment.
--   **[Agentic development app refinement in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-refine-using-ide.md)**  
+-   **[Agentic development app refinement in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-refine-using-ide.md)**  
 The ServiceNow IDE provides a VS Code, file-based editing experience with syntax highlighting, code completion, and real-time installing to your instance. Use this approach to harden generated, scaffolded apps into production-grade solutions.
 
-**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-using.md)
+**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-using.md)
 

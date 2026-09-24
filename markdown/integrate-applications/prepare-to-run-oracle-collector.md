@@ -2,7 +2,7 @@
 title: Prepare to run the Oracle collector
 description: Set up database user permissions and configure advanced features before running the collector.Create a dedicated Oracle user and grant permissions for metadata harvesting.Grant AWR view permissions to enable historical lineage extraction from CREATE TABLE statements.Configure database links and gather connection information for cross-server lineage harvesting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-oracle-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-oracle-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,18 +26,18 @@ The collector requires a dedicated Oracle database user with SELECT and EXECUTE 
 
 1.  Create Oracle user and grant permissions.
 
-    See [Set up user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-oracle-collector.md).
+    See [Set up user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-oracle-collector.md).
 
 2.  Prepare to harvest cross-server lineage.
 
-    See [Set up AWR permissions for lineage extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-oracle-collector.md).
+    See [Set up AWR permissions for lineage extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-oracle-collector.md).
 
 3.  Prepare to harvest from autonomous databases.
 
-    See [Prepare to harvest cross-server lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-oracle-collector.md).
+    See [Prepare to harvest cross-server lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-oracle-collector.md).
 
 
-**Parent Topic:**[Oracle metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/oracle-metadata-collector.md)
+**Parent Topic:**[Oracle metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/oracle-metadata-collector.md)
 
 ## Set up user permissions
 

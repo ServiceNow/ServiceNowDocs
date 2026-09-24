@@ -2,7 +2,7 @@
 title: Types of landing pages in Service Operations Workspace for ITSM
 description: Landing pages provide an agent with quick visibility into the work assigned, announcements, upcoming tasks, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/landing-page-types-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/landing-page-types-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace

@@ -2,7 +2,7 @@
 title: Associate a group to a business organization
 description: Associate a group with the desired business organization \(formerly business location\) by establishing a one-to-many \(1:M\) relationship. This association helps you assign cases directly to the appropriate assignment groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-a-group-to-a-business-location-so.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-a-group-to-a-business-location-so.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ Role required: admin
 
 ## What to do next
 
-Add group members to a business organization. For more information, see [Add group members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-group-members-to-a-business-location-so.md).
+Add group members to a business organization. For more information, see [Add group members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/add-group-members-to-a-business-location-so.md).
 

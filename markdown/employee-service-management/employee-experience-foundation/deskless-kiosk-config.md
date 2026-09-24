@@ -2,7 +2,7 @@
 title: Configure Employee Center Pro Kiosk
 description: Configure and use the default Kiosk for better deskless experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/deskless-kiosk-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-config.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -86,10 +86,10 @@ Role required: sn\_hr\_sp.esc\_admin
 
 Your employees can now use the configured Kiosk portal. Kiosk app displays the portal, theme, header, footer, and others based on your configuration.
 
--   **[Schedule in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/shift-time-kiosk-ec.md)**  
+-   **[Schedule in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/shift-time-kiosk-ec.md)**  
 The schedule details in Employee Center Pro Kiosk is a one-stop destination to check the shift scheduling details for the deskless workers.
--   **[Time off balances in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/kiosk-timeoff-ec.md)**  
+-   **[Time off balances in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/kiosk-timeoff-ec.md)**  
 The time off balances details in the Employee Center Pro Kiosk is the source of truth for the time off or leave details of the deskless workers.
 
-**Parent Topic:**[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
+**Parent Topic:**[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 

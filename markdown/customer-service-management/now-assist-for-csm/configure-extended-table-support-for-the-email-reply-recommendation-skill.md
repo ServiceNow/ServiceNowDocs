@@ -2,7 +2,7 @@
 title: Configure extended table support for email reply recommendation skill
 description: Create a child skill variant of the Email reply recommendation skill to generate AI-powered email replies tailored to a specific case subtype or extended table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-extended-table-support-for-the-email-reply-recommendation-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/configure-extended-table-support-for-the-email-reply-recommendation-skill.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

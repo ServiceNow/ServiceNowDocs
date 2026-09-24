@@ -2,7 +2,7 @@
 title: User Trails
 description: Displays audits of users in the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/user-trails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/user-trails.html
 release: australia
 product: Identity
 classification: identity

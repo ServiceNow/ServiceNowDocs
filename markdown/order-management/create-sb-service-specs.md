@@ -2,7 +2,7 @@
 title: Create a service specification for a remote catalog item
 description: Create a service specification on a Service Exchange provider instance. When you publish the service specification, a remote record producer creates the remote catalog item for the service specification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-sb-service-specs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-sb-service-specs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -257,5 +257,5 @@ You can't change this field.
 
 ## What to do next
 
-[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-criteria-remote-catalog.md) for this remote catalog item.
+[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/associate-criteria-remote-catalog.md) for this remote catalog item.
 

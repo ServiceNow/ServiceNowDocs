@@ -2,7 +2,7 @@
 title: Parsing of CSV files in CDM
 description: The CDM CSV parser enables parsing of data in CSV files, so when you upload config data from a Comma-Separated Values \(CSV\) file into CDM, you can easily identify the data format attributes and config data in the CDM editor or list view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-parsing-csv-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-parsing-csv-file.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -157,9 +157,9 @@ To keep the CSV config data in its original format when exporting the config dat
 **Related topics**  
 
 
-[Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-upload-process.md)
+[Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-upload-process.md)
 
-[Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-structure-add-for-upload.md)
+[Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-data-structure-add-for-upload.md)
 
-[Parsing of XML files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-parsing-xml-file.md)
+[Parsing of XML files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-parsing-xml-file.md)
 

@@ -2,7 +2,7 @@
 title: Make a report act as an interactive filter
 description: You can configure an existing report widget to filter other report widgets on the same dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/t\_MakeAReportAPublisher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/core-ui-interactive-filters/t\_MakeAReportAPublisher.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
@@ -24,7 +24,7 @@ Only reports with a **Type** value of pie, donut, semi donut, funnel, or pyramid
 
 **Note:**
 
--   This documentation refers to Core UI reports and responsive dashboards. For information about making Platform Analytics data visualizations act as filters on dashboards, see [Make a data visualization act as a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/make-dv-act-as-filter.md).
+-   This documentation refers to Core UI reports and responsive dashboards. For information about making Platform Analytics data visualizations act as filters on dashboards, see [Make a data visualization act as a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/make-dv-act-as-filter.md).
 -   When a report is acting as an interactive filter, it is not possible to drill down into the report's segments.
 
 ## Procedure
@@ -52,7 +52,7 @@ Only reports with a **Type** value of pie, donut, semi donut, funnel, or pyramid
 
 Select a subset of data in the report, such as a slice of pie in a pie chart, to filter all subscriber reports for the same table. All reports on the dashboard that are based on the same table show information about that subset of data only.
 
-**Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
+**Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
 
 **Related topics**  
 

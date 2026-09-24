@@ -2,7 +2,7 @@
 title: Complete an allocated resource plan
 description: After all associated tasks and projects are complete or canceled, a resource manager can move the resource plan to the Complete state, which closes it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_CloseAResourcePlan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/t\_CloseAResourcePlan.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -24,7 +24,7 @@ Role required: resource\_manager
 
 ## About this task
 
-Project and demand managers can [complete resource plans from a project, project task, planning console, or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md).
+Project and demand managers can [complete resource plans from a project, project task, planning console, or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md).
 
 ## Procedure
 
@@ -63,10 +63,10 @@ Example 1: A resource plan of Allocation type **Monthly** from 1 November to 31 
 
 Example 2: If the same resource plan has Allocation type as **Planned Duration**, no allocations are deleted, and the end date of the allocation is updated to the completion date.
 
--   **[Complete a resource plan from a project or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md)**  
+-   **[Complete a resource plan from a project or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md)**  
 If a project or a project task is marked Closed, the project manager can complete the associated Allocated resource plans. Similarly, the demand manager can complete the resource plans for a Closed or Deferred demand.
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 

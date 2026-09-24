@@ -2,7 +2,7 @@
 title: Initiate a chat from Sidebar in Service Operations Workspace
 description: Initiate a Sidebar chat to work towards the resolution of an incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/initate-sidebar-chat-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/initate-sidebar-chat-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -88,5 +88,5 @@ Provide a brief summary about the issue to be discussed in the sidebar discussio
     **Note:** If the caller doesn't read the messages within 24 hours, an email is sent as a reminder to view the messages and resume the discussion.
 
 
-**Parent Topic:**[Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/collaboration-sow.md)
+**Parent Topic:**[Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/collaboration-sow.md)
 

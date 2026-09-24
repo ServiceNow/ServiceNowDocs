@@ -2,7 +2,7 @@
 title: Analytics Project manager
 description: The Analytics Project manager provides the project managers with quick reports of time card exceptions, and category wise time reported for their projects. The dashboard displays time card reports only for the projects managed by a project manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/project-manager-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/time-card-management/project-manager-dashboard.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -50,8 +50,8 @@ It displays the total approved hours in all project categories displayed in **Ti
 
 The bar chart report displays the time approved against each project category for the users allocated to the selected project.
 
--   **[Use the Analytics Project manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/use-project-manager-dashboard.md)**  
+-   **[Use the Analytics Project manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/use-project-manager-dashboard.md)**  
 The Analytics Project manager shows the time card reports for the selected projects.
 
-**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/time-card-management.md)
 

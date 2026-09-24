@@ -2,7 +2,7 @@
 title: Trigger McAfee ePO profile manually from a security incident
 description: Trigger a capability profile manually from a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-submit-ih-fm-si.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mcafee-epo-submit-ih-fm-si.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -20,7 +20,7 @@ Trigger a capability profile manually from a ServiceNow AI Platform Security Inc
 
 Role required: sn\_si.admin
 
-**Note:** The approvals option in the [Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-configuring-profile.md) appears only for Isolate Host and Remove Host Isolation capabilities.
+**Note:** The approvals option in the [Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-configuring-profile.md) appears only for Isolate Host and Remove Host Isolation capabilities.
 
 ## About this task
 
@@ -63,9 +63,9 @@ Once you activate the profile, based on the configured trigger conditions, you c
         The select CI gets isolated from the network.
 
 
-**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Configure a profile to initiate malware scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-config-scan-malwr.md)
+**Previous topic:**[Configure a profile to initiate malware scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-config-scan-malwr.md)
 
-**Next topic:**[Trigger additional actions in McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-additional-actions-mcafee.md)
+**Next topic:**[Trigger additional actions in McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-additional-actions-mcafee.md)
 

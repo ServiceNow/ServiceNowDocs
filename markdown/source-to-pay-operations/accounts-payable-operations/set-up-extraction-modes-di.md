@@ -2,7 +2,7 @@
 title: Configure data extraction modes
 description: Configure Document Intelligence extraction modes for invoice processing use cases to define how fields are extracted from invoice documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

@@ -2,7 +2,7 @@
 title: Configure Conversational Catalog Requests
 description: Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configure-gen-ai-catalog-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/configure-gen-ai-catalog-item.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -52,7 +52,7 @@ When the generative AI experience is configured for catalog item request submiss
 
     2.  Select a catalog item that must be requested in the conversation mode.
 
-        For information about catalog items that are supported in the conversation mode, see [Request catalog item through Now LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
+        For information about catalog items that are supported in the conversation mode, see [Request catalog item through Now LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
 
     3.  On the catalog item form, confirm that the **Make the item non-conversational in VA** check box isn’t selected.
 
@@ -63,7 +63,7 @@ When the generative AI experience is configured for catalog item request submiss
         **Note:**
 
         -   If you want the catalog item non-conversational, then select the **Make the item non-conversational in VA** check box. But if the catalog item contains some sensitive information that you don’t want to send to LLM, then select the **Use NLU for conversational requests** check box.
-        -   If you clear the **Make the item non-conversational in VA** check box, the item will become conversational only if all the conditions are met for making an item conversational. For more information about such conditions, see [Request catalog item through Now LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
+        -   If you clear the **Make the item non-conversational in VA** check box, the item will become conversational only if all the conditions are met for making an item conversational. For more information about such conditions, see [Request catalog item through Now LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
     5.  Select **Update**.
 
 3.  Confirm that the fallback record producer is configured in the **Fetch generic ticket producer for conversational catalog request** subflow.
@@ -76,15 +76,15 @@ When the generative AI experience is configured for catalog item request submiss
 
     Additionally, you can customize the fallback process by configuring your own record producer or by building additional logic in a new subflow.
 
-<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d564197e321">
+<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d564854e321">
 
 Option
 
-</th><th align="left" id="d564197e324">
+</th><th align="left" id="d564854e324">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d564197e330">
+</th></tr></thead><tbody><tr><td id="d564854e330">
 
 **Configure your own record producer. For example, to change the inputs in a Virtual Agent conversation.**
 
@@ -96,7 +96,7 @@ Description
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d564197e369">
+</td></tr><tr><td id="d564854e369">
 
 **Build additional logic in a new subflow. For example, to refer to a new record producer for each business.**
 
@@ -122,5 +122,5 @@ Description
 
 
 
-**Parent Topic:**[Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
+**Parent Topic:**[Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
 

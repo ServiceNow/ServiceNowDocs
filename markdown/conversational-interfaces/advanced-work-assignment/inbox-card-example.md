@@ -2,7 +2,7 @@
 title: Customize how change requests appear in an agent inbox
 description: Customize how change requests appear in an agent inbox so that agents receive enough information to decide whether to accept or reject the work item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/inbox-card-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/inbox-card-example.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

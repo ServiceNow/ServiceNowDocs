@@ -2,7 +2,7 @@
 title: Define threat groupings
 description: Define threat groupings as objects that have a shared context.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-threat-groupings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-threat-groupings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -84,5 +84,5 @@ Grouped Observables
 Lists observables grouped as part of the threat grouping.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Threat groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-groupings.md)
+</table>**Parent Topic:**[Threat groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-groupings.md)
 

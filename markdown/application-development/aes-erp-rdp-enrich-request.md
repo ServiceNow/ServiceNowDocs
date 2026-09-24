@@ -2,7 +2,7 @@
 title: Enrich a master data request
 description: Add supplementary details to master data requests to prepare each record for governance review and approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-enrich-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-enrich-request.html
 release: australia
 topic_type: task
 last_updated: "2026-08-14"
@@ -19,7 +19,7 @@ Add supplementary details to master data requests to prepare each record for gov
 
 Domain access is determined by your administrator.
 
-Role required: An MDM Orchestrator enricher role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator enricher role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## Procedure
 
@@ -48,7 +48,7 @@ Role required: An MDM Orchestrator enricher role. \(For more information, see [R
 
 ## Result
 
-A governance user performs compliance checks before the record is sent to the approver. For information about the governance stage, see [Governance review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-governance-review.md).
+A governance user performs compliance checks before the record is sent to the approver. For information about the governance stage, see [Governance review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-governance-review.md).
 
-**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-use.md)
 

@@ -2,7 +2,7 @@
 title: Create a decision table to resolve complex decisions
 description: Create a decision table to help you resolve a complex decision that depends on multiple factors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/decision-tables/create-a-decision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/decision-tables/create-a-decision.html
 release: australia
 product: Decision Tables
 classification: decision-tables
@@ -187,5 +187,5 @@ Default value for this input.
 
 With Workflow Studio, you can add your decision to the **Make a decision** flow logic. For more information about the **Make a decision** flow logic, see [Make a decision flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-logic-make-decision.md).
 
-**Parent Topic:**[Decision tables in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-tables-classic-ui.md)
+**Parent Topic:**[Decision tables in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/decision-tables/decision-tables-classic-ui.md)
 

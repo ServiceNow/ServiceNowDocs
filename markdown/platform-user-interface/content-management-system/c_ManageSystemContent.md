@@ -2,7 +2,7 @@
 title: System content management
 description: Most of the content in a CMS site is managed in different locations throughout the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_ManageSystemContent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/c\_ManageSystemContent.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -80,5 +80,5 @@ When you right-click and select **Show XML** on any form within the system, the 
 </j:jelly>
 ```
 
-**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
+**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
 

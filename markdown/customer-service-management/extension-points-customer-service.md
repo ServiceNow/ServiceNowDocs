@@ -2,7 +2,7 @@
 title: Extension points in Customer Service Management
 description: Use extension points to call custom scripts in the Customer Service Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/extension-points-customer-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/extension-points-customer-service.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

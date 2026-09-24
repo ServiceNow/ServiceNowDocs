@@ -2,7 +2,7 @@
 title: Create a workplace task checklist
 description: You can create a unique checklist for each workplace task template in Workplace Core. You can also quickly create a checklist from an existing checklist template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/create-workplace-task-checklist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/create-workplace-task-checklist.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -33,15 +33,15 @@ You can also create checklists for individual workplace task records.
 
 1.  Create a checklist to be included in all tasks using the same template or add a checklist to a specific task.
 
-<table id="choicetable_ggh_smr_rlb"><thead><tr><th align="left" id="d525498e68">
+<table id="choicetable_ggh_smr_rlb"><thead><tr><th align="left" id="d525630e68">
 
 Option
 
-</th><th align="left" id="d525498e71">
+</th><th align="left" id="d525630e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d525498e77">
+</th></tr></thead><tbody><tr><td id="d525630e77">
 
 **Checklist for workplace task template**
 
@@ -51,7 +51,7 @@ Steps
 2.  In the list, select to open the template to which you want to add the checklist.
 
 
-</td></tr><tr><td id="d525498e107">
+</td></tr><tr><td id="d525630e107">
 
 **Checklist in a specific workplace task**
 
@@ -90,10 +90,10 @@ Steps
 
 ## What to do next
 
-You can [save the checklist as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/save-workplace-task-checklist-template-wsd.md) for easy reuse, if required.
+You can [save the checklist as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/save-workplace-task-checklist-template-wsd.md) for easy reuse, if required.
 
--   **[Save a workplace task checklist as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/save-workplace-task-checklist-template.md)**  
+-   **[Save a workplace task checklist as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/save-workplace-task-checklist-template.md)**  
 You can save a Workplace Core workplace task checklist as a template for easy reuse. A template saves time by adding checklist items automatically in a record where you use it.
 
-**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/workplace-maintenance-tasks.md)
 

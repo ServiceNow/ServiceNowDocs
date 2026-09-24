@@ -2,7 +2,7 @@
 title: Services overview tab
 description: The Services overview tab in the Operational Resilience Workspace provides a comprehensive summary of active services, highlighting any red flags or urgent issues, status of resilience activities like assessments, scenario analysis, self-attestations. It also offers suggestions for mitigating top risks or vulnerabilities and strengthening top controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ser-ov.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ser-ov.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

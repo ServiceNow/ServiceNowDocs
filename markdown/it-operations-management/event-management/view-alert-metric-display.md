@@ -2,7 +2,7 @@
 title: View anomaly alert metric data on the preview panel in Express List
 description: View visualizations for anomaly alerts to investigate anomalies using metric data. You can view visualizations from the Express List preview panel or the alert record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-alert-metric-display.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/view-alert-metric-display.html
 release: australia
 product: Event Management
 classification: event-management
@@ -66,7 +66,7 @@ Select the number of the anomaly alert to open the alert record.
 
     -   When the Metric Intelligence statistical model is used to detect anomalies, the anomaly alert chart is displayed with upper and lower bounds based on machine learning models. \[Omitted image "preview\_panel\_metric\_static.png"\] Alt text: Anomaly alert graph
 
-        For more information, see [Understanding Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/operational-intelligence-overview.md).
+        For more information, see [Understanding Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/operational-intelligence-overview.md).
 
     -   When thresholds are configured by administrators, the static threshold metric anomaly alert chart shows anomalies defined using the configured thresholds.\[Omitted image "preview\_panel\_metric\_threshold.png"\] Alt text: Static threshold metric anomaly alert graph
 
@@ -74,12 +74,12 @@ Select the number of the anomaly alert to open the alert record.
 
     The raw data used for the metric chart in the preview panel is available only for seven days. If older alerts are selected and the raw data is no longer available, a chart isn’t shown.
 
-    For more information, see [Create metric rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/create-metric-rules.md).
+    For more information, see [Create metric rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/create-metric-rules.md).
 
 5.  Review surrounding metric data by selecting the **Open in Metric explorer** icon \(\[Omitted image "icon-anomaly-logs-link.png"\] Alt text: Open in Metric explorer icon\) in the information panel.
 
     The **Metric Explorer** tab displays the time frame of the anomaly. For an open alert, the chart shows one hour before and after the last time of event generation. For a closed alert, the chart shows one hour before and after the first event that created an alert. If there’s no data, the chart isn’t displayed.
 
-    For more information, see [Metric Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/agent-workspace-ops-intelligence.md).
+    For more information, see [Metric Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/agent-workspace-ops-intelligence.md).
 
 

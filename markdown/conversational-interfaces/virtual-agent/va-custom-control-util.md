@@ -2,7 +2,7 @@
 title: Custom control utility
 description: Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Assistant Designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-custom-control-util.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-custom-control-util.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Use the Custom Control utility in a Virtual Agent topic or topic block to refere
 
 ## Custom control utility properties
 
-Specify the properties of the custom input control or custom response control that you are adding to a topic or topic block. For more information about custom controls and their use, see [Customizing Virtual Agent with custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-controls.md).
+Specify the properties of the custom input control or custom response control that you are adding to a topic or topic block. For more information about custom controls and their use, see [Customizing Virtual Agent with custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/custom-controls.md).
 
 **Note:** Custom controls do not work on Internet Explorer version 11.
 
@@ -91,5 +91,5 @@ A no-code condition statement or low-code script that specifies a condition for 
 
 \[Omitted image "custom-control-utility-properties.png"\] Alt text: Custom control utility properties sheet for an input control.
 
-**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-utilities.md)
 

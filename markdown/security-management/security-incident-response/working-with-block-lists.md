@@ -2,7 +2,7 @@
 title: Working with block lists
 description: The ServiceNow Check Point Next Generation Threat Prevention Integration supports Block Lists that accept IP, URL, and Domain observables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/working-with-block-lists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/working-with-block-lists.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

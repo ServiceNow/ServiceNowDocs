@@ -2,7 +2,7 @@
 title: Risk framework
 description: Centralize, track, and monitor relational risks and reduce customer churn. Identify risk signals and create repeatable remediation plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-risk-frmwrk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-risk-frmwrk.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,8 +18,8 @@ Risks can affect the health of an engagement and jeopardize the chances of expan
 
 Risk signals can be:
 
--   Created manually. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-risk-signal.md).
--   Generated automatically when a threshold value is breached or a specific condition is met. See [Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md).
+-   Created manually. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-risk-signal.md).
+-   Generated automatically when a threshold value is breached or a specific condition is met. See [Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md).
 
 The following list shows a few sample use cases when risk signals are generated:
 
@@ -30,5 +30,5 @@ The following list shows a few sample use cases when risk signals are generated:
 -   Success outcome deadline missed
 -   The Net ACV for the opportunity is reduced by X%
 
-Customer success agents can monitor risk signals on the Active risk signals page. See the [Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-risk-portfolio.md) for details.
+Customer success agents can monitor risk signals on the Active risk signals page. See the [Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-risk-portfolio.md) for details.
 

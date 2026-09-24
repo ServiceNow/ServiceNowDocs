@@ -2,7 +2,7 @@
 title: Import the regulatory event alerts in bulk
 description: Populate the Workspace with your own regulatory event alerts. You can then import multiple alerts in the Regulatory Change Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/import-regulatory-event-alerts-in-bulk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/import-regulatory-event-alerts-in-bulk.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -46,7 +46,7 @@ Before importing the data, you must review the following checklist:
 
 2.  Select **Download Template**.
 
-    It downloads the prebuilt  spreadsheet  or workbook that is already  formatted, organized, and populated with data value. The Data entry sheet of the file shows the mandatory columns to be filled such as Title and Type. The Field description sheet of the template provides detailed information about each of those field attributes. For more information, see [Create regulatory event alerts manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/submit-creation-of-regulatory-event-alerts-manually.md).
+    It downloads the prebuilt  spreadsheet  or workbook that is already  formatted, organized, and populated with data value. The Data entry sheet of the file shows the mandatory columns to be filled such as Title and Type. The Field description sheet of the template provides detailed information about each of those field attributes. For more information, see [Create regulatory event alerts manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/submit-creation-of-regulatory-event-alerts-manually.md).
 
     **Note:** Before you import your regulatory alerts, you must prepare the downloaded file by filing in mandatory information.
 
@@ -81,5 +81,5 @@ The imported regulatory event alerts are assigned to the coordinator.
 
 ## What to do next
 
-[Assess the impact of a regulatory event alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/assess-impact-of-reg-change-using-ws.md)
+[Assess the impact of a regulatory event alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/assess-impact-of-reg-change-using-ws.md)
 

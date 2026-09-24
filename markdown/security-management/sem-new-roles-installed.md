@@ -2,7 +2,7 @@
 title: Security Exposure Management Workspace Roles
 description: List of roles installed with Security Exposure Management, defining user permissions and access for Security Exposure Management-related tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-new-roles-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-new-roles-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -167,7 +167,7 @@ Create, read, update, and delete records in the `sn_sec_calculator` scope.
 sn\_sec\_calculator.read
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-components-installed.md)
+</table>**Parent Topic:**[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-components-installed.md)
 
-**Parent Topic:**[Unified Security Exposure Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/unified-security-exposure-management-reference.md)
+**Parent Topic:**[Unified Security Exposure Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/unified-security-exposure-management-reference.md)
 

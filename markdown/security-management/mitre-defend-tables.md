@@ -2,7 +2,7 @@
 title: MITRE D3FEND tables
 description: MITRE D3FEND integration uses various tables to capture data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/mitre-defend-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/mitre-defend-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: View territory information in contextual side panel
 description: The contextual side panel offers valuable insights and easy access to territory information, helping you make well-informed decisions and efficiently manage your territories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/view-territory-details-in-csp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/view-territory-details-in-csp.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -22,7 +22,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_
 
 ## About this task
 
-The contextual side panel provides comprehensive details about territories, markers, shapes, and heatmaps. Administrators can configure the displayed fields to show precisely the information needed. For more information, see [Configure territory fields to appear in Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configure-fields-to-appear-in-contextual-side-panel.md).
+The contextual side panel provides comprehensive details about territories, markers, shapes, and heatmaps. Administrators can configure the displayed fields to show precisely the information needed. For more information, see [Configure territory fields to appear in Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/configure-fields-to-appear-in-contextual-side-panel.md).
 
 In the contextual side panel:
 

@@ -2,7 +2,7 @@
 title: Telecommunications Network Inventory
 description: With the ServiceNow Telecommunications Network Inventory application, you can build a digital representation of your physical and logical networks, and the services that are provisioned to your customers. This network inventory contains the assets, services, and the relationships that define the infrastructure of your telecommunications networks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/telecom-network-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/telecom-network-inventory.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

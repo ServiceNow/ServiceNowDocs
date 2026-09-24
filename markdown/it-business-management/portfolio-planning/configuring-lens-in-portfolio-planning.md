@@ -2,7 +2,7 @@
 title: Configuring lens in Portfolio Planning
 description: Learn about lens structure and pre-defined lenses in Portfolio Planning so that you can configure a lens that represents your company's planning process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/configuring-lens-in-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/configuring-lens-in-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -43,9 +43,9 @@ You can either use a pre-defined lens as it is or update its existing configurat
 
 -   To use the lens as it is, complete your lens setup by configuring integration with a ServiceNow Project Portfolio Management.
 
-    See [Configuring Portfolio Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.md).
+    See [Configuring Portfolio Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.md).
 
 -   To update the lens configuration:
-    -   Change the planning items included within the lens. See [Lens Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/lens-form-portfolio-planning.md).
-    -   Add more entities to the lens structure. See [Modify lens structure in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/modify-lens-portfolio-planning.md).
+    -   Change the planning items included within the lens. See [Lens Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/lens-form-portfolio-planning.md).
+    -   Add more entities to the lens structure. See [Modify lens structure in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/modify-lens-portfolio-planning.md).
 

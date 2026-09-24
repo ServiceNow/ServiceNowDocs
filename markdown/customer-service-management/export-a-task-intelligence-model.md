@@ -2,7 +2,7 @@
 title: Export a model
 description: Export a Task Intelligence model to another instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/export-a-task-intelligence-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/export-a-task-intelligence-model.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

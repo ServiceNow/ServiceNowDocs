@@ -2,7 +2,7 @@
 title: Connect your instance to your Firebase project
 description: Enter your project ID and Google Vision API key into your instance to begin using photo search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-image-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-image-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ Role required: admin
     Your app is configured to use the Google Vision API for photo search. Repeat the steps if for your other mobile apps if you want to include the photo search option in those apps. Before using the photo search, you must still enable the system property as detailed in the next steps.
 
 
-**Parent Topic:**[Configure photo search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-image-search.md)
+**Parent Topic:**[Configure photo search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-image-search.md)
 

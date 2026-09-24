@@ -2,7 +2,7 @@
 title: Set up triggers for the Jamf spoke
 description: Set up triggers for the Jamf spoke for the required events. The endpoint enables webhooks to connect with your ServiceNow instance.Configure endpoint for webhooks in the Jamf that support the token authentication.Create an outbound webhook in your Jamf Pro cloud instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jamf-setup-triggers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/jamf-setup-triggers.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -95,7 +95,7 @@ Webhook URL
 
 </td><td>
 
-URL the webhook should post to. Paste the URL that was generated when you configured triggers in ServiceNow instance. For more information, see [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jamf-setup-triggers.md).
+URL the webhook should post to. Paste the URL that was generated when you configured triggers in ServiceNow instance. For more information, see [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/jamf-setup-triggers.md).
 
 </td></tr><tr><td>
 
@@ -135,7 +135,7 @@ Webhook Event
 
 </td><td>
 
-Event that will trigger the webhook. Select one of the supported events. For the list of supported events, see the [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jamf-spoke.md) section.
+Event that will trigger the webhook. Select one of the supported events. For the list of supported events, see the [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/jamf-spoke.md) section.
 
 </td></tr></tbody>
 </table>    For more information about configuring the webhook, see [Configuring a Webhook](https://learn.jamf.com/r/en-US/jamf-pro-documentation-11.15.0/Webhooks) in [Jamf Learning Hub](https://learn.jamf.com/home).

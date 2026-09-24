@@ -2,7 +2,7 @@
 title: Reclassify supporting documents in the contract request
 description: As a contract fulfiller, reclassify the supporting documents submitted in the contract request. For example you can reclassify the supporting document as a contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

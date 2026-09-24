@@ -2,7 +2,7 @@
 title: Set up Now Assist search in Browser Extension for Employee Center
 description: Set up the Now Assist Virtual Agent search profile on the Browser Extension for Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-now-assist-search-ecbe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-now-assist-search-ecbe.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

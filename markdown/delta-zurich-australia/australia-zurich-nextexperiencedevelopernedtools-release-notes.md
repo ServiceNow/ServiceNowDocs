@@ -2,10 +2,10 @@
 title: Combined Next Experience Developer \(NED\) Tools release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Next Experience Developer \(NED\) Tools from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencedevelopernedtools-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-nextexperiencedevelopernedtools-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -383,5 +383,5 @@ Australia
  See [Next Experience Developer Tools](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/developer-tools/using-next-experience-developer-tools) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Activate SLO-based change approval decisions
 description: Activate Service Level Objective \(SLO\) change approval decisions to evaluate change requests based on SLO performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/sr-add-change-approval-slos.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-level-objective-management/sr-add-change-approval-slos.html
 release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -65,5 +65,5 @@ For more advanced setups, use Flow Designer to customize the SLOs and services i
 3.  Customize the **Action Inputs** section.
 4.  Select **Done** to implement your changes.
 
-**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
+**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

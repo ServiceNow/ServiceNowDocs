@@ -2,7 +2,7 @@
 title: Contextual Security Manager
 description: Contextual Security Manager protects your data by controlling read, write, create, and delete authorization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/r\_ContextualSecurity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/r\_ContextualSecurity.html
 release: australia
 product: Access Control
 classification: access-control
@@ -54,8 +54,8 @@ The Contextual Security Manager is active in the base system. If there are many 
 
 **Note:** After activating Role Management V2, you must set the glide.role\_management.v2.audit\_roles system property to allow the Audit Roles table to create audit records related to user roles. To learn more about setting this property and about the Audit Roles table, see:
 
--   [Enable role auditing with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/enable-audit-roles.md).
--   [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md) in Instance Security Hardening Settings.
+-   [Enable role auditing with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/enable-audit-roles.md).
+-   [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/security-hardening-settings.md) in Instance Security Hardening Settings.
 -   [Audit user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/audit-user-roles.md)
 
 ## Security Attribute Conditions
@@ -73,5 +73,5 @@ Security Attribute Conditions can be defined as local or existing:
     The condition references a Security Attribute condition already defined on another ACL, enabling reuse across multiple rules.
 
 
-For a complete list of built-in security attribute types and configuration details, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/security-attribute-scope.md).
+For a complete list of built-in security attribute types and configuration details, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/security-attribute-scope.md).
 

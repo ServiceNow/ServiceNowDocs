@@ -2,7 +2,7 @@
 title: Remove a stakeholder from a goal
 description: You can remove the stakeholders associated with a goal in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-remove-stakeholder-from-goal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-remove-stakeholder-from-goal.html
 release: australia
 topic_type: task
 last_updated: "2026-08-02"
@@ -39,12 +39,12 @@ Role required: sn\_apm.apm\_user
 8.  Select **Remove**.
 
 
-**Parent Topic:**[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-goals.md)
+**Parent Topic:**[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-goals.md)
 
 **Related topics**  
 
 
-[Add a stakeholder to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-stakeholder-to-goal.md)
+[Add a stakeholder to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-stakeholder-to-goal.md)
 
-[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-goals.md)
+[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-goals.md)
 

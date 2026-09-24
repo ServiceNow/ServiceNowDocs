@@ -2,7 +2,7 @@
 title: How a database query works with domain separation
 description: Using database queries with domain separation in your customers' applications help them protect their data. These queries then speed up the configuration and build processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-db-query-with-ds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-db-query-with-ds.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Using database queries with domain separation in your customers' applications he
 
 In the following figure, the Incident table \[incident\] has a domain field that is inherited from the incident's task. When you see this domain field, you know that the records in the table can have domain assignments.
 
-When users log in, their home domain appears with the set of domains they may access. This is known as the user’s session context. For more information about session contexts, see [Context and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-context.md).
+When users log in, their home domain appears with the set of domains they may access. This is known as the user’s session context. For more information about session contexts, see [Context and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-context.md).
 
 ## Database query with domain separation
 
@@ -34,11 +34,11 @@ When users log in, their home domain appears with the set of domains they may ac
     When you apply contextual security, you create limits to the data that are returned to the user. These limits protect other content that you may not want users to see.
 
 
-To learn more about contextual security, see [Context and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-context.md).
+To learn more about contextual security, see [Context and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-context.md).
 
 **Note:** This processing logic applies for all queries to the database, including those queries that are triggered using integrations.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

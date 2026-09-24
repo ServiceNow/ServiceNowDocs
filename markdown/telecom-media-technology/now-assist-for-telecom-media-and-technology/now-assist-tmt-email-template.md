@@ -2,7 +2,7 @@
 title: Create touchpoints and meeting records using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Send the email to instance to create the touchpoint and meeting records directly from the inbound email using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-email-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-email-template.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -103,5 +103,5 @@ For Touchpoints, the Email message must contain the required fields:
 -   If the validation passes, a record is created in the touchpoint and you receive a success email with the link to the created record.
 -   The emails are prepared and pushed to the outbound queue where they’re scheduled to be sent.
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

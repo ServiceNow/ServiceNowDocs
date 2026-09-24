@@ -2,7 +2,7 @@
 title: View invoice documents in the Source-to-Pay Workspace
 description: View invoice documents directly in the Source-to-Pay Workspace using Document Viewer without downloading them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/view-invoice-attachment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/view-invoice-attachment.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -19,7 +19,7 @@ View invoice documents directly in the Source-to-Pay Workspace using Document Vi
 
 ## Before you begin
 
-[Configure Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/update-dictionary-entry.md)
+[Configure Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/update-dictionary-entry.md)
 
 Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
@@ -42,7 +42,7 @@ The invoice document is displayed for invoice, invoice lines, invoice processing
     You can toggle the invoice document icon \(\[Omitted image "invoice-document-icon.png"\] Alt text: Invoice document icon\) to show or hide the invoice document.
 
 
-**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
+**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
 
 **Related topics**  
 

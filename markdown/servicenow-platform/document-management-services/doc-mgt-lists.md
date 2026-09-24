@@ -2,7 +2,7 @@
 title: Document Management lists
 description: Lists are a collection of template documents you can use to create documents that are linked to other target records. Only users with the admin role can access lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/doc-mgt-lists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/doc-mgt-lists.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -32,19 +32,19 @@ Lists entries are a mapping of a template document with a document list. Only te
 
 **Note:** Users can link only documents that they have access to.
 
--   **[Group document templates in a list for creating and linking documents to a target record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-doc-list.md)**  
+-   **[Group document templates in a list for creating and linking documents to a target record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/create-doc-list.md)**  
 Group document templates in a list to enable all the template documents in the list to automatically be created and linked to the target record when the list is referenced.
--   **[Add a document template to a document list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/add-list-entry-to-doc-list.md)**  
+-   **[Add a document template to a document list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/add-list-entry-to-doc-list.md)**  
 Add a template document to a document list that groups document templates for creating and linking to a parent record.
--   **[Create documents using document lists for a target table record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-documents-target-table-record.md)**  
+-   **[Create documents using document lists for a target table record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/create-documents-target-table-record.md)**  
 You can create and reference documents on a target table record through the DocumentListService API.
 
-**Parent Topic:**[Using Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/using-document-management.md)
+**Parent Topic:**[Using Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/using-document-management.md)
 
 **Related topics**  
 
 
-[Group document templates in a list for creating and linking documents to a target record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-doc-list.md)
+[Group document templates in a list for creating and linking documents to a target record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/create-doc-list.md)
 
-[Add a document template to a document list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/add-list-entry-to-doc-list.md)
+[Add a document template to a document list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/add-list-entry-to-doc-list.md)
 

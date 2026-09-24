@@ -2,7 +2,7 @@
 title: Copy ArcSight ESM profile for event ingestion integration
 description: Copy an existing profile and its associated settings instead of creating new profiles. If you are creating multiple profiles, and you want to reuse the settings of an existing profile, you may prefer to copy profiles to save time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-copy-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/arcsight-esm-copy-profile.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

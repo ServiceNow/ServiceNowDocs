@@ -2,7 +2,7 @@
 title: Review the MITRE-ATT&amp;CK system properties
 description: Review the MITRE-ATT&amp;CK system property values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configure-mitre-att-ck-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configure-mitre-att-ck-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Roll up MITRE ATT&amp;CK information automatically from Observables to security 
 
 </td><td>
 
-Rollup of MITRE-ATT&amp;CK information from observables to the security incident. For more information, see [Associate MITRE ATT&amp;CK information with observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/associate-mitre-observables.md).
+Rollup of MITRE-ATT&amp;CK information from observables to the security incident. For more information, see [Associate MITRE ATT&amp;CK information with observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/associate-mitre-observables.md).
 
  Default value: Yes
 
@@ -48,7 +48,7 @@ Roll up MITRE ATT&amp;CK information automatically from Threat Lookup results to
 
 </td><td>
 
-Rollup of MITRE-ATT&amp;CK information from threat lookup results to the security incident. For more information, see [Threat lookup auto-extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/auto-extract-technique-rules.md).Default value: Yes
+Rollup of MITRE-ATT&amp;CK information from threat lookup results to the security incident. For more information, see [Threat lookup auto-extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/auto-extract-technique-rules.md).Default value: Yes
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Roll up MITRE ATT&amp;CK information automatically from alert rules to security 
 
 </td><td>
 
-Rollup of MITRE-ATT&amp;CK TTP information automatically from alert rules to security incidents. For more information, see [map detection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-detection-rules.md).Default value: No
+Rollup of MITRE-ATT&amp;CK TTP information automatically from alert rules to security incidents. For more information, see [map detection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-detection-rules.md).Default value: No
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Enabling this property allows mapping of Security Incident Fields like category 
 
 </td><td>
 
-Category and sub-category in the [Detection Rules - MITRE ATT&amp;CK mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-detection-rules.md) page.
+Category and sub-category in the [Detection Rules - MITRE ATT&amp;CK mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-detection-rules.md) page.
 
  Default value: No
 
@@ -88,7 +88,7 @@ The scheduled time in hours to calculate the CVE and VUL information.Default val
 </table>3.  Select **Save**.
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

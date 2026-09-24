@@ -2,7 +2,7 @@
 title: Attach and share article guidance
 description: The Attach and share article guidance recommends relevant knowledge articles to customer service agents and enables them to share the selected articles in comments, work notes, or email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidances-attach-share-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-guidances-attach-share-article.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,23 +18,23 @@ The Attach and share article guidance recommends relevant knowledge articles bas
 
 The agent can view the knowledge articles in a card format in the contextual side panel or expand a selected card to see an article in a detail view. The card view provides a condensed view of articles for quick scanning. The detail view provides the full content of the selected article for further reading.
 
-Each card contains a primary action. The default primary action is [Attach and add link in comment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md). Secondary actions are available in the More actions menu in the upper right corner of the card:
+Each card contains a primary action. The default primary action is [Attach and add link in comment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-attach-share-article.md). Secondary actions are available in the More actions menu in the upper right corner of the card:
 
--   [Add link in work notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md)
--   [Attach and add link in email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md)
+-   [Add link in work notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-attach-share-article.md)
+-   [Attach and add link in email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-attach-share-article.md)
 
-The same primary and secondary actions are available in the expanded detail view. The system administrator can configure the primary and secondary actions in the **Recommended action specific configuration** property. For more information, see [Configuring guidances in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances.md).
+The same primary and secondary actions are available in the expanded detail view. The system administrator can configure the primary and secondary actions in the **Recommended action specific configuration** property. For more information, see [Configuring guidances in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances.md).
 
 The relevancy score displays on the Attach and share article guidance in the Search tab of the Recommended Actions contextual side panel. It indicates how well a search result matches the agent’s query.
 
 ## Modal and modeless dialog experiences
 
-The agent can share the article in a comment, a work note, or an email using the primary and secondary actions. Two different experiences are available for this guidance depending on the [record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md) you're using in the CRM Workspace:
+The agent can share the article in a comment, a work note, or an email using the primary and secondary actions. Two different experiences are available for this guidance depending on the [record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-record-pages.md) you're using in the CRM Workspace:
 
--   **Modeless dialogs**: This experience is available for record pages that support [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) \(for example, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md)\). Modeless dialogs are windows that overlay the main window content. Agents can move modeless dialogs around the window so they can interact with the window content and overlay content at the same time.
--   **Modals**: This experience is available for record pages that support modals \(for example, the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-default-record-page.md)\). With modals, agents must complete the action within a modal before continuing to interact with the window content, which is the default experience.
+-   **Modeless dialogs**: This experience is available for record pages that support [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) \(for example, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page.md)\). Modeless dialogs are windows that overlay the main window content. Agents can move modeless dialogs around the window so they can interact with the window content and overlay content at the same time.
+-   **Modals**: This experience is available for record pages that support modals \(for example, the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-default-record-page.md)\). With modals, agents must complete the action within a modal before continuing to interact with the window content, which is the default experience.
 
-The system administrator can configure the modal and modeless dialog experiences in the **Recommended Action Specific Configuration** property. For more information, see [Configuring guidances in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances.md).
+The system administrator can configure the modal and modeless dialog experiences in the **Recommended Action Specific Configuration** property. For more information, see [Configuring guidances in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances.md).
 
 If a record page supports the modeless dialog experience, selecting an action on a guidance card opens the corresponding modeless dialog. If a record page does not support the modeless dialog experience, the guidance uses the modal experience.
 
@@ -129,8 +129,8 @@ Primary action
 
 </td><td>
 
-The default primary action by channel:-   Email channel: [Attach and add link in email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md)
--   Other channels: [Attach and add link in comment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md)
+The default primary action by channel:-   Email channel: [Attach and add link in email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-attach-share-article.md)
+-   Other channels: [Attach and add link in comment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-attach-share-article.md)
 
 
 </td></tr><tr><td>
@@ -156,8 +156,8 @@ Primary action
 
 </td><td>
 
-The default primary action:-   Email channel: [Attach and add link in email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md)
--   Other channels: [Attach and add link in comment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md)
+The default primary action:-   Email channel: [Attach and add link in email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-attach-share-article.md)
+-   Other channels: [Attach and add link in comment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-attach-share-article.md)
 
 
 </td></tr><tr><td>

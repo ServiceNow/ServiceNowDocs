@@ -2,7 +2,7 @@
 title: Exploring Care Team Operations for Healthcare IT
 description: Learn how you can use the Care Team Operations for Healthcare IT application to support your care team in resolving IT issues quickly and efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/exploring-cto-it.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/exploring-cto-it.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,16 +48,16 @@ Care Team Operations for Healthcare IT provides care teams with a streamlined pl
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Automate healthcare operations by enabling IT support request creation and fulfillment.|[Healthcare IT case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcl-cto-it-case.md)|Admin|
-|Receive visibility to all IT service requests created by your teams.|[Creating service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/requesting-cto-it.md)|Care Team|
-|Use Workspace to fulfill IT service requests.|[Fulfilling service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/fulfilling-cto-it.md)|Agent|
+|Automate healthcare operations by enabling IT support request creation and fulfillment.|[Healthcare IT case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcl-cto-it-case.md)|Admin|
+|Receive visibility to all IT service requests created by your teams.|[Creating service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/requesting-cto-it.md)|Care Team|
+|Use Workspace to fulfill IT service requests.|[Fulfilling service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/fulfilling-cto-it.md)|Agent|
 
 ## What to explore next
 
 To learn more about configuring and using Care Team Operations for Healthcare IT, see:
 
--   [Configuring Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/configuring-cto-it.md)
--   [Creating service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/requesting-cto-it.md)
--   [Fulfilling service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/fulfilling-cto-it.md)
--   [Care Team Operations for Healthcare IT reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-it-reference.md)
+-   [Configuring Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/configuring-cto-it.md)
+-   [Creating service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/requesting-cto-it.md)
+-   [Fulfilling service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/fulfilling-cto-it.md)
+-   [Care Team Operations for Healthcare IT reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-it-reference.md)
 

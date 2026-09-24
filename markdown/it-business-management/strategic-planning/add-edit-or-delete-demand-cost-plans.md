@@ -2,7 +2,7 @@
 title: Create cost plans for a demand
 description: Create a cost plan for a specified duration to track planned and actual expenses. Edit cost plans to adjust planned expenses and delete descoped forecasts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-edit-or-delete-demand-cost-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/add-edit-or-delete-demand-cost-plans.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -25,7 +25,7 @@ Role required: it\_demand\_manager
 To create, edit, or delete cost plan records, you can also use:
 
 -   The **Cost Plans** related list in the **Details** tab.
--   The **Estimate financial cost** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+-   The **Estimate financial cost** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 ## Procedure
 
@@ -59,7 +59,7 @@ A side panel opens with the cost plan form.
 
 2.  On the New cost plan form, fill the fields.
 
-For a description of the field values, see [Cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/cost-plan-form-dw.md).
+For a description of the field values, see [Cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/cost-plan-form-dw.md).
 
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create another one.
 
@@ -88,6 +88,6 @@ Edit a cost plan in one of the following ways.-   Select the name of the cost pl
  **Note:** Deleted cost plans can't be recovered.
 
 </td></tr></tbody>
-</table>    **Note:** After capturing the initial planned costs, create a baseline to capture a snapshot of planned costs. Use this baseline to compare it against baselines from later dates as the work progresses, to identify the variance between initial planned costs and actual expenses. This step helps you plan for future expenses and re-forecast planned costs. For more information, see [Create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-compare-financial-baselines-dw.md).
+</table>    **Note:** After capturing the initial planned costs, create a baseline to capture a snapshot of planned costs. Use this baseline to compare it against baselines from later dates as the work progresses, to identify the variance between initial planned costs and actual expenses. This step helps you plan for future expenses and re-forecast planned costs. For more information, see [Create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-compare-financial-baselines-dw.md).
 
 

@@ -2,7 +2,7 @@
 title: Exploring Cloud Cost Management
 description: Learn more about Cloud Cost Management with a sample workflow and reviewing the benefits that it can provide for different users in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/exploring-cloud-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/exploring-cloud-insights.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -30,11 +30,11 @@ Cloud Cost Management continuously monitors your cloud infrastructure to analyze
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Optimize cloud costs and usage by gaining complete visibility of your cloud spend and usage through an intuitive and streamlined user interface.|[Cloud Cost Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/ci-workspace.md)|Executives/FinOps Practitioners/Cloud Managers/Cloud Administrators|
-|Rightsize cloud resources by getting automated recommendations on how to reduce cloud costs by correctly dimensioning cloud resources to match usage.|[Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/rs-cloudin.md)|Cloud Administrators/Application owners|
-|Decrease costs by the conversion of on-demand payment plans to reservation plans for your cloud resources.|[Commitments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/ri-cloudin.md)|Cloud Administrators/Application owners|
-|Identify cost optimizations targets by analyzing areas of high spend and stranded cloud assets.|[Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/ur-cloudin.md)|Cloud Administrators/Application owners|
-|Turn off resources when not in use by identifying cloud resources that aren’t used outside normal working hours and automatically turn them off and on.|[Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/bh-cloudin.md)|Cloud Administrators/Application owners|
-|Allocate budgets|[Cloud budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/bf-cloudin.md)|FinOps Practitioners/Cloud Administrators|
+|Optimize cloud costs and usage by gaining complete visibility of your cloud spend and usage through an intuitive and streamlined user interface.|[Cloud Cost Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/ci-workspace.md)|Executives/FinOps Practitioners/Cloud Managers/Cloud Administrators|
+|Rightsize cloud resources by getting automated recommendations on how to reduce cloud costs by correctly dimensioning cloud resources to match usage.|[Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/rs-cloudin.md)|Cloud Administrators/Application owners|
+|Decrease costs by the conversion of on-demand payment plans to reservation plans for your cloud resources.|[Commitments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/ri-cloudin.md)|Cloud Administrators/Application owners|
+|Identify cost optimizations targets by analyzing areas of high spend and stranded cloud assets.|[Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/ur-cloudin.md)|Cloud Administrators/Application owners|
+|Turn off resources when not in use by identifying cloud resources that aren’t used outside normal working hours and automatically turn them off and on.|[Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/bh-cloudin.md)|Cloud Administrators/Application owners|
+|Allocate budgets|[Cloud budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/bf-cloudin.md)|FinOps Practitioners/Cloud Administrators|
 |Automate optimization approvals by integrating cloud optimization tasks into your existing change management processes.|[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)|FinOps Practitioners/Cloud Administrators|
 

@@ -2,7 +2,7 @@
 title: Software reconciliation results
 description: Software reconciliation results show the compliance status of software products concerning discovery and entitlements. Users with the sam\_user role can view the reconciliation results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-reconciliation-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/software-reconciliation-results.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -16,7 +16,7 @@ breadcrumb: [Software reconciliation for compliance, Explore, Software Asset Man
 
 Software reconciliation results show the compliance status of software products concerning discovery and entitlements. Users with the sam\_user role can view the reconciliation results.
 
-When software reconciliation runs, it calculates compliance based on how many rights are in use compared to the number of active rights that have been purchased. Reconciliation runs weekly or on demand for a specific publisher or all publishers. This process generates a list of reconciliation results that display the compliance status of the software in relation to discovery and entitlements. For more details on running software reconciliation, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RunReconciliation.md).
+When software reconciliation runs, it calculates compliance based on how many rights are in use compared to the number of active rights that have been purchased. Reconciliation runs weekly or on demand for a specific publisher or all publishers. This process generates a list of reconciliation results that display the compliance status of the software in relation to discovery and entitlements. For more details on running software reconciliation, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_RunReconciliation.md).
 
 There are three tiers of reconciliation results:
 
@@ -82,7 +82,7 @@ Software Asset Workspace
     -   Unlicensed Options \(Oracle only\)
     -   Removal Candidates
     -   Purchase Orders \(only when the Procurement \(com.snc.procurement\) plugin is active\)
-    For more details on software model results related lists and descriptions, see [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md).
+    For more details on software model results related lists and descriptions, see [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_ViewSWModelResults.md).
 
 -   **License Metric Results**
 
@@ -98,8 +98,8 @@ Software Asset Workspace
     -   Downgrades/Upgrades
     -   Licensed Subscriptions
     -   Cloud Special Rights \(This tab is visible only if you have cloud installations on cloud platforms such as AWS or Azure.\)
-    For more details on license metric results related lists and descriptions, see [Software model results license metric results fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/license-metric-results-fields.md).
+    For more details on license metric results related lists and descriptions, see [Software model results license metric results fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/license-metric-results-fields.md).
 
 
-**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)
+**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMReconciliation.md)
 

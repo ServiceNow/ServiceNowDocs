@@ -2,7 +2,7 @@
 title: Enable planning attributes for capacity in Portfolio Planning
 description: Enable the planning attributes Group, Skill, and Role so that your planning managers can view the resource capacity details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/cp-enable-planning-attributes-pp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/cp-enable-planning-attributes-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -40,7 +40,7 @@ Role required: admin
 
     \[Omitted image "cp-enable-planning-attributes.png"\] Alt text: Enabled planning attributes for Capacity.
 
-    You can create custom attributes and map them to resources. For more information, see [Create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/configure-planning-attributes.md).
+    You can create custom attributes and map them to resources. For more information, see [Create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/configure-planning-attributes.md).
 
 6.  Set the value of the Enable for capacity planning column for Group, Role, and Skill field to **true**.
 
@@ -48,6 +48,6 @@ Role required: admin
 ## What to do next
 
 1.  Configure attribute values: Navigate to **All** &gt; **Strategic Planning** &gt; **Planning Attributes** to view and manage attribute values. You can add, edit, or import attribute entries for Group, Skill, and Role.
-2.  Map attributes to resources: Assign the enabled planning attributes to your resources so they appear in capacity views. For custom attributes, see [Create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/configure-planning-attributes.md).
+2.  Map attributes to resources: Assign the enabled planning attributes to your resources so they appear in capacity views. For custom attributes, see [Create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/configure-planning-attributes.md).
 3.  Start capacity planning: Navigate to the Capacity tab in your Strategic Planning Workspace to view resource capacity based on the enabled attributes.
 

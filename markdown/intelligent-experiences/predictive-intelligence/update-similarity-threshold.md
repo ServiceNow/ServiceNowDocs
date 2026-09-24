@@ -2,7 +2,7 @@
 title: Update your similarity score threshold
 description: After you review the similarity examples provided by the system, update your solution similarity score threshold if you want the results returned by the solution to be more or less similar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/update-similarity-threshold.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/update-similarity-threshold.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -18,7 +18,7 @@ After you review the similarity examples provided by the system, update your sol
 
 ## Before you begin
 
--   Review your similarity examples and their scores. For more information see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
+-   Review your similarity examples and their scores. For more information see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 -   Role required: ml\_admin or admin
 
 ## About this task

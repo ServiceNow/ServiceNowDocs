@@ -2,7 +2,7 @@
 title: Benchmarks roles
 description: The Benchmarks admin and the viewer roles are introduced with Benchmarks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c\_BenchRoles-cf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/c\_BenchRoles-cf.html
 release: australia
 product: Benchmarks
 classification: benchmarks

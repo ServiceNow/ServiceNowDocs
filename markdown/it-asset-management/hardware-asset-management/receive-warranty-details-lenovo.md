@@ -2,7 +2,7 @@
 title: Receive asset warranty details from Lenovo
 description: Connect to the Lenovo Warranty API and get the warranty details of your hardware assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/receive-warranty-details-lenovo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/receive-warranty-details-lenovo.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -16,12 +16,12 @@ breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Manageme
 
 Connect to the Lenovo Warranty API and get the warranty details of your hardware assets.
 
--   **[Connect to the Lenovo Warranty API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/connect-to-lenovo-api.md)**  
+-   **[Connect to the Lenovo Warranty API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/connect-to-lenovo-api.md)**  
 Create a connection and credential to connect to the Lenovo Warranty API and download the warranty information for hardware assets.
--   **[Track the warranty details of your Lenovo assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-asset-warranty-details.md)**  
+-   **[Track the warranty details of your Lenovo assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/view-asset-warranty-details.md)**  
 View and track the warranty details of your Lenovo hardware assets from a central location in the Asset operations view of the Hardware Asset Workspace.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
@@ -94,5 +94,5 @@ View and track the warranty details of your Lenovo hardware assets from a centra
 
 [Update associated Decision tables for HAM flows]()
 
-[Integration with Lenovo for asset warranty details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/integration-with-lenovo-asset-warranty.md)
+[Integration with Lenovo for asset warranty details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/integration-with-lenovo-asset-warranty.md)
 

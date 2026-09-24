@@ -2,7 +2,7 @@
 title: ICM Entity Management Events form
 description: The Event form allows you to create a new event entity record within an investigative case, and capture as many identifiable details about the event as possible. Not all fields are mandatory, but a minimum amount of information is required for the record to be searchable within ICM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-case-forms-enm-evnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-icm-ref-case-forms-enm-evnt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

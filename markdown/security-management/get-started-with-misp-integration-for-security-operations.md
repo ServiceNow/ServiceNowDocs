@@ -2,7 +2,7 @@
 title: Getting started with MISP integration for Security Operations
 description: Review the following information before you set up your MISP integration for Security Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/get-started-with-misp-integration-for-security-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/get-started-with-misp-integration-for-security-operations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ The following roles are used across the MISP features on the ServiceNow AI Platf
 -   sn\_si.admin and sn\_ti.admin can configure the integration and set up the automatic MISP event creation profiles.
 -   sn\_sec\_misp.write - The MISP analyst role has read and write permissions for MISP data that includes the event and attribute data.
 
- For more information, see [Setup Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md).
+ For more information, see [Setup Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_GetStartedWithThreatIntel.md).
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Assign the required MISP user roles.
 
 </td><td>
 
-[Review the MISP user roles and the permissions required to use the MISP integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md).**Note:** For more information about the user roles in MISP, see the Roles section in the [MISP documentation website](https://www.circl.lu/doc/misp/administration/#roles).
+[Review the MISP user roles and the permissions required to use the MISP integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-user-roles-and-permissions.md).**Note:** For more information about the user roles in MISP, see the Roles section in the [MISP documentation website](https://www.circl.lu/doc/misp/administration/#roles).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Verify that the following Security Operations applications are installed and act
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [get entitlement for a Security Operations product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) or application and [activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [get entitlement for a Security Operations product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/entitle-secops-product.md) or application and [activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/activate-entitled-store-app.md).
 
 </td></tr><tr><td>
 
@@ -70,13 +70,13 @@ Domain separation
 
 </td><td>
 
-Verify the [domain separation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-and-misp.md) if you intend to separate data, processes, and administrative tasks.
+Verify the [domain separation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/domain-separation-and-misp.md) if you intend to separate data, processes, and administrative tasks.
 
 </td></tr></tbody>
-</table>-   **[MISP user roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md)**  
+</table>-   **[MISP user roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-user-roles-and-permissions.md)**  
 Review the user roles that are required in the MISP integration for Security Operations integration.
 
-**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
+**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-administration.md)
 
 **Related topics**  
 

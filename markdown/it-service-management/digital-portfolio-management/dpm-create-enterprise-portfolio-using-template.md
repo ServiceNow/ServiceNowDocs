@@ -2,7 +2,7 @@
 title: Create enterprise service portfolios using a template
 description: Admins can create enterprise portfolios from scratch or by using a template. Enterprise portfolios are structured in a nesting tree format to facilitate navigation of service-related items and taxonomy nodes. Similar to personal portfolios, you can see key metrics to assess the portfolio performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolio-using-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolio-using-template.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -34,15 +34,15 @@ Role required: admin
 
 5.  In the dialog box, choose to build your portfolio from scratch or use a template.
 
-<table id="choicetable_k4w_m1j_q2c"><thead><tr><th align="left" id="d64620e102">
+<table id="choicetable_k4w_m1j_q2c"><thead><tr><th align="left" id="d64619e102">
 
 Option
 
-</th><th align="left" id="d64620e105">
+</th><th align="left" id="d64619e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d64620e111">
+</th></tr></thead><tbody><tr><td id="d64619e111">
 
 **Build your own portfolio**
 
@@ -52,7 +52,7 @@ Steps
 2.  In the form, fill in the fields.
 
 
-</td></tr><tr><td id="d64620e132">
+</td></tr><tr><td id="d64619e132">
 
 **Use a template for creating a service portfolio**
 
@@ -135,14 +135,14 @@ Individuals or groups that have an interest in the enterprise portfolio.
 
 7.  Add KPI groups.
 
-    For more information on KPI groups, see [Create KPI groups and mappings in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md).
+    For more information on KPI groups, see [Create KPI groups and mappings in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md).
 
 8.  Select **Add taxonomy node**.
 
 9.  In the dialog box, select an existing taxonomy node or create one.
 
-    You can add a parent, child, sibling, or duplicate node. For more information on enterprise taxonomy nodes, see Table 2 in [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
+    You can add a parent, child, sibling, or duplicate node. For more information on enterprise taxonomy nodes, see Table 2 in [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
 
 
-**Parent Topic:**[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
+**Parent Topic:**[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
 

@@ -2,7 +2,7 @@
 title: Retry policy
 description: Automatically retry failed requests when a step encounters an intermittent issue such as a network failure or request rate limit. Set a retry policy to prevent having to manually trigger the step again.Automatically retry failed requests when a step encounters an intermittent issue such as a network failure or request rate limit. Set a retry policy to prevent having to manually trigger the step again.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/retry-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/retry-policy.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -34,7 +34,7 @@ Associate a default retry policy to a Connection &amp; Credentials alias and app
 
 **Note:** You can only create retry policies for JDBC, REST, and SOAP steps.
 
-**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md)
+**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-action.md)
 
 ## Create a retry policy
 

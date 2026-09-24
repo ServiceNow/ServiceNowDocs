@@ -2,7 +2,7 @@
 title: Create an authority document
 description: Authority documents manage a process and citations are created within them to manage points of the process. For example, the process called Building Security contains a citation for Entry Control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/t\_CreateAnAuthorityDocument.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/t\_CreateAnAuthorityDocument.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -155,10 +155,10 @@ More information about the authority document.
 
 Create a citation from the **Authority document** related list.
 
-**Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
+**Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 
 **Related topics**  
 
 
-[Create or deactivate a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateCitations.md)
+[Create or deactivate a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_CreateCitations.md)
 

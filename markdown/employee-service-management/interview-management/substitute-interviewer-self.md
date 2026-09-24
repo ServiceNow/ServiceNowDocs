@@ -2,7 +2,7 @@
 title: Substitute yourself as an interviewer
 description: Assign a substitute interviewer yourself, instead of relying on a recruiter or coordinator to assign one for you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/substitute-interviewer-self.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/interview-management/substitute-interviewer-self.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -66,5 +66,5 @@ After the substitution request is submitted:
 -   The substitute interviewer is added to the hiring team, if not already part of it.
 -   The associated interview feedback task is reassigned to the substitute interviewer.
 
-**Parent Topic:**[Managing interviews as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/manage-interviews-interviewer.md)
+**Parent Topic:**[Managing interviews as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/manage-interviews-interviewer.md)
 

@@ -2,7 +2,7 @@
 title: Data egress reports in the Integration Hub Usage Dashboard
 description: The Data egress reports give insights on data egress from the ServiceNow instance through API protocols or export sets. You can view more information when you select specific records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ihub-dashboard-api-egress.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/ihub-dashboard-api-egress.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -242,5 +242,5 @@ The data appears.
 
 Data in the reports are generated from the `data_egress_count` table. [View](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1638468) how data is populated in the `data_egress_count`.
 
-**Parent Topic:**[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-usage-dashboard.md)
+**Parent Topic:**[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integrationhub-usage-dashboard.md)
 

@@ -2,12 +2,12 @@
 title: MPN Formulas table
 description: Reference for the MPN Formulas \[sn\_tsom\_em\_conns\_kpi\_definitions\] table and the automatic processing that occurs when a record is inserted or updated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formulas-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formulas-table.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
@@ -41,10 +41,10 @@ Reference for the MPN Formulas \[sn\_tsom\_em\_conns\_kpi\_definitions\] table a
 |MPC KPI Sub Group|Sub-grouping of the KPI within the MPC group|
 |Formatted KPI Formula|Auto-populated. Do not enter a value manually.|
 
-**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
+**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 
 **Related topics**  
 
 
-[MPN Formula Engine processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formula-engine.md)
+[MPN Formula Engine processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formula-engine.md)
 

@@ -2,7 +2,7 @@
 title: Create a move-related knowledge base article
 description: Create a knowledge base article so that you can provide move-related information or notices to employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/create-move-related-kb-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/create-move-related-kb-article.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -137,9 +137,9 @@ The knowledge base article is created.
 
 ## What to do next
 
-[Create a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-kb-article-wsd.md)
+[Create a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-workplace-kb-article-wsd.md)
 
-**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-mov-mgmt-setup.md)
+**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-mov-mgmt-setup.md)
 
 **Related topics**  
 

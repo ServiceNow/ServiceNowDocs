@@ -2,7 +2,7 @@
 title: Add a dashboard to dashboard library
 description: Add a dashboard to the Related Dashboards page in Assistant analytics so that users can access it from the dashboard library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/add-a-dashboard-to-dashboard-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/add-a-dashboard-to-dashboard-library.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

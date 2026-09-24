@@ -2,7 +2,7 @@
 title: HR Service Delivery with Ultimate Kronos Group
 description: With the HR Service Delivery with Ultimate Kronos Group application, provide employee assistance through conversations in the Virtual Agent conversational \(client\) interface. Enable employees to view their accrual leave balances, schedules, and upcoming shifts from the Ultimate Kronos Group application in ServiceNow Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/integration-ukg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/integration-ukg.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,7 +23,7 @@ Key features include:
 
 ## Application setup
 
-First, you must activate the HR Service Delivery Integration with the Ultimate Kronos Group \[sn\_hr\_ukg\] application from the ServiceNow Store. Next, you must set up [HR Service Delivery Integration with Ultimate Kronos Group application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-ukg.md).
+First, you must activate the HR Service Delivery Integration with the Ultimate Kronos Group \[sn\_hr\_ukg\] application from the ServiceNow Store. Next, you must set up [HR Service Delivery Integration with Ultimate Kronos Group application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-ukg.md).
 
 ## Overview of HR Service Delivery with Ultimate Kronos Group
 
@@ -37,7 +37,7 @@ As an employee, you can view your accrual balances, work hours, list of punches,
 
 -   **Retrieve My Accrual Balance**
 
-    You can view the aggregate of accrual leaves balance \(by type\) by selecting the **Retrieve My Accrual Balance \(Template\)**. If the [NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/nlu-ukg-model.md) is trained, you can ask a question in the chat \(for example, show my sick leaves\) and view the balance of a single type of leave.
+    You can view the aggregate of accrual leaves balance \(by type\) by selecting the **Retrieve My Accrual Balance \(Template\)**. If the [NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/nlu-ukg-model.md) is trained, you can ask a question in the chat \(for example, show my sick leaves\) and view the balance of a single type of leave.
 
 -   **Retrieve My Hours Worked**
 
@@ -49,7 +49,7 @@ As an employee, you can view your accrual balances, work hours, list of punches,
 
 -   **Retrieve My Schedule**
 
-    You can view the work schedule for a given period by selecting the **Retrieve My Employee Schedule \(Template\)** and choosing a symbolic period. If the [NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/nlu-ukg-model.md) is trained, you can ask a question in the chat \(for example, my work schedules of the previous pay period\) and view the work schedules for that symbolic period.
+    You can view the work schedule for a given period by selecting the **Retrieve My Employee Schedule \(Template\)** and choosing a symbolic period. If the [NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/nlu-ukg-model.md) is trained, you can ask a question in the chat \(for example, my work schedules of the previous pay period\) and view the work schedules for that symbolic period.
 
     You can also view your schedule location for three days from the current day.
 
@@ -61,7 +61,7 @@ As an employee, you can view your accrual balances, work hours, list of punches,
 
 -   **Retrieve My Upcoming Shift**
 
-    You can view the next upcoming shift by selecting the **Retrieve My Upcoming Shift \(Template\)**. If the [NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/nlu-ukg-model.md) is trained, you can ask a question in chat \(for example, show my shifts\) and directly view the next upcoming shift.
+    You can view the next upcoming shift by selecting the **Retrieve My Upcoming Shift \(Template\)**. If the [NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/nlu-ukg-model.md) is trained, you can ask a question in chat \(for example, show my shifts\) and directly view the next upcoming shift.
 
     You can also view your location along with the shift date and time.
 
@@ -93,11 +93,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-ukg.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-ukg.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
 
 </td></tr><tr><td>
 

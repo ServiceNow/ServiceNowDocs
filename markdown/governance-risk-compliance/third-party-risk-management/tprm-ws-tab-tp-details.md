@@ -2,7 +2,7 @@
 title: Viewing general information on a third party
 description: The Details tab displays overview and process tracking information and offers actions for managing the third party or engagement. On most reports, you can select an item to view the underlying data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-details.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -27,5 +27,5 @@ The **Details** tab displays overview and process tracking information and offer
     \[Omitted image "tprm-ws-dd-list-third-parties.png"\] Alt text: Open a third party page.
 
 
-For more information, see [Due diligence request process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-details-tab.md).
+For more information, see [Due diligence request process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-details-tab.md).
 

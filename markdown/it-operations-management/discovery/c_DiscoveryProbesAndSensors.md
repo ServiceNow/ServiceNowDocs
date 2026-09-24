@@ -2,7 +2,7 @@
 title: Discovery probes and sensors
 description: Discovery probes and sensors perform data collection and update the Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryProbesAndSensors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c\_DiscoveryProbesAndSensors.html
 release: australia
 product: Discovery
 classification: discovery
@@ -16,13 +16,13 @@ breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Manageme
 
 Discovery probes and sensors perform data collection and update the Configuration Management Database \(CMDB\).
 
-With each release, patterns are replacing many probes and sensors for Discovery. Consider creating new patterns or editing existing ones if you want to customize what Discovery can find. The information on probes and sensors is intended for customers who are not yet using patterns or who have customized probes retained upon upgrade. See [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for more information on patterns.
+With each release, patterns are replacing many probes and sensors for Discovery. Consider creating new patterns or editing existing ones if you want to customize what Discovery can find. The information on probes and sensors is intended for customers who are not yet using patterns or who have customized probes retained upon upgrade. See [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for more information on patterns.
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
 ## Discovery phases
 
-Discovery always uses probes and sensors during the first two phases of discovery: scanning and classification. For the last two phases, identification and exploration, Discovery can use probes and sensors or patterns. This topic refers to probes and sensors only. See [Exploring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_GetStartedWithDiscovery.md) for an explanation of these phases. See [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for more information on patterns.
+Discovery always uses probes and sensors during the first two phases of discovery: scanning and classification. For the last two phases, identification and exploration, Discovery can use probes and sensors or patterns. This topic refers to probes and sensors only. See [Exploring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_GetStartedWithDiscovery.md) for an explanation of these phases. See [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for more information on patterns.
 
 ## Probes, sensors, and the ECC queue
 
@@ -36,7 +36,7 @@ The MID Server then processes all the output ECC messages, runs the necessary pr
 
 After an entry is inserted in the ECC Queue table, a business rule fires \(on insert\) that takes that information and runs it through a sensor processor. The sensor processor's job is to take the input data, find any sensors interested in that data, and pass it along to be processed. Those sensors ultimately update the CMDB.
 
-**Important:** Discovery now enforces code signing for probes, probe parameters, and sensors when code signing is enabled on the instance. Unsigned or tampered payloads are blocked, and signatures are validated before execution. For more information about code signing, see [Discovery on Code Signing instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/code-sign-disco-probes.md).
+**Important:** Discovery now enforces code signing for probes, probe parameters, and sensors when code signing is enabled on the instance. Unsigned or tampered payloads are blocked, and signatures are validated before execution. For more information about code signing, see [Discovery on Code Signing instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/code-sign-disco-probes.md).
 
 ## How probes and sensors work together
 
@@ -115,18 +115,18 @@ Uninterruptible Power Supplies \(UPS\)
 SNMP queries
 
 </td></tr></tbody>
-</table>-   **[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)**  
+</table>-   **[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)**  
 A wide variety of probes exist for the Discovery application to detect elements on your network.
--   **[Discovery sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_Sensors.md)**  
+-   **[Discovery sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_Sensors.md)**  
 Every probe in Discovery must have a corresponding sensor to process the data returned.
--   **[Discovery probe management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_Probes.md)**  
+-   **[Discovery probe management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_Probes.md)**  
 Several discovery probes and their associated sensors are included with Discovery. You rarely need to modify probes or sensors. But you might need to set parameters to control the behavior of a particular probe or align versions of customized probes.
--   **[Align versions of customized probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_AlignVerCustProbeSens.md)**  
+-   **[Align versions of customized probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_AlignVerCustProbeSens.md)**  
 If you customized a probe or sensor and upgraded to a new instance version, realign the customized probe and sensor to the most current version.
--   **[Discovery multiprobes and multisensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md)**  
+-   **[Discovery multiprobes and multisensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md)**  
 Multiprobes contain one or more simple probes configured to extract specific information from manageable devices by executing multiple queries with a single authentication.
--   **[Custom Discovery probe to populate a CI from a text file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CustomProbeTextFile.md)**  
+-   **[Custom Discovery probe to populate a CI from a text file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CustomProbeTextFile.md)**  
 This custom Discovery probe reads a text file from a Windows computer and populates a configuration item \(CI\) in the CMDB with the values from the file.
 
-**Parent Topic:**[Using Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/using-discovery.md)
+**Parent Topic:**[Using Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/using-discovery.md)
 

@@ -2,7 +2,7 @@
 title: Terminology in Service Operations Workspace for ITSM
 description: Use this reference to understand the key terms and roles in Service Operations Workspace which includes agent types, request, structures and configuration concepts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/terminology-used-in-sow-for-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/terminology-used-in-sow-for-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -28,7 +28,7 @@ Use this reference to understand the key terms and roles in Service Operations W
 |Service desk group|An assignment group designated as a service desk, which determines whether agents in that group are routed to the Tier 1 landing page experience.|
 |SOW admin center|A centralized administration interface for configuring Service Operations Workspace settings, migration tools, and workspace components.|
 
-**Parent Topic:**[Service Operations Workspace for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-reference.md)
+**Parent Topic:**[Service Operations Workspace for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-reference.md)
 
 **Related topics**  
 

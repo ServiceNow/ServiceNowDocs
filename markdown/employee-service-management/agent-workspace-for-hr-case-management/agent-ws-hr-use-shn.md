@@ -2,7 +2,7 @@
 title: View a special handling note in HR Service Delivery Agent Workspace
 description: View special handling notes that alert you to important information about HR cases requiring careful attention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-use-shn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-use-shn.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

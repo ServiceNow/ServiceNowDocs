@@ -2,7 +2,7 @@
 title: Edit the profile of an AI specialist in AI Agent Studio
 description: Modify the profile of an AI specialist in AI Agent Studio to set its name, description, roles, and assignment groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/modify-aiw-profile-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/modify-aiw-profile-new.html
 release: australia
 topic_type: task
 last_updated: "2026-05-26"
@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 AI specialists profiles determine the unique specialties of the AI specialist. Choosing the right roles helps give your AI specialist the context necessary to accomplish its tasks.
 
-To learn how to modify the tasks that an AI specialist is capable of, see [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks-new.md).
+To learn how to modify the tasks that an AI specialist is capable of, see [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-tasks-new.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ To learn how to modify the tasks that an AI specialist is capable of, see [Edit 
 
 5.  Choose your AI specialist's assignment groups.
 
-    The assignment groups determine what work the AI specialist can pick up. Multiple teams can use the same AI specialist, but you can create copies of a AI specialist if you want to fine-tune an AI specialist for different teams. See [Create a copy of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/copy-aiw.md) for more information.
+    The assignment groups determine what work the AI specialist can pick up. Multiple teams can use the same AI specialist, but you can create copies of a AI specialist if you want to fine-tune an AI specialist for different teams. See [Create a copy of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/copy-aiw.md) for more information.
 
     If you remove your team from the list of assignment groups, the AI specialist won't handle your team's tickets.
 

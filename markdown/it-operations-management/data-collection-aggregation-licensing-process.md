@@ -2,7 +2,7 @@
 title: Data collection and aggregation for licensing process
 description: ITOM/OT SU Licensing application counts CIs for ITOM applications and uses a daily average count for the last 90 days to produce license statistics for purchased subscription units.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/data-collection-aggregation-licensing-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/data-collection-aggregation-licensing-process.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Mana
 
 ITOM/OT SU Licensing application counts CIs for ITOM applications and uses a daily average count for the last 90 days to produce license statistics for purchased subscription units.
 
-ServiceNow charges for various ITOM applications, including ITOM Visibility, ITOM Discovery, ITOM AIOps, Health Log Analytics, ITOM Cloud Accelerate, and ITOM Optimization. For specific information about the products and features covered by ITOM subscriptions, see [Subscriptions for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-license-module.md).
+ServiceNow charges for various ITOM applications, including ITOM Visibility, ITOM Discovery, ITOM AIOps, Health Log Analytics, ITOM Cloud Accelerate, and ITOM Optimization. For specific information about the products and features covered by ITOM subscriptions, see [Subscriptions for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-license-module.md).
 
 The process of collecting and aggregating information for licensing purposes involves the following steps:
 

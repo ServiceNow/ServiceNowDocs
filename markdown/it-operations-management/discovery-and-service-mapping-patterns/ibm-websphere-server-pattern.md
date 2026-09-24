@@ -2,7 +2,7 @@
 title: IBM WebSphere Application Server discovery using patterns
 description: The Discovery and Service Mapping Patterns application uses the Websphere On Windows and Websphere On Unix patterns to find IBM WebSphere Application Servers. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/ibm-websphere-server-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/ibm-websphere-server-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,7 +18,7 @@ The Discovery and Service Mapping Patterns application uses the Websphere On Win
 
 The IBM WebSphere Application Server is a software framework with middleware that hosts Java-based web applications. Discovery identifies and classifies information about the IBM WebSphere Application Server on both Windows and Linux computers.
 
-**Note:** Starting with Visibility Content version 6.1.0, pattern-based discovery is the default method for discovering IBM WebSphere Application Servers. The WebSphere probes are disabled by default. For more information, see [IBM WebSphere server discovery using probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DataCollDiscoWebSphereServers.md).
+**Note:** Starting with Visibility Content version 6.1.0, pattern-based discovery is the default method for discovering IBM WebSphere Application Servers. The WebSphere probes are disabled by default. For more information, see [IBM WebSphere server discovery using probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_DataCollDiscoWebSphereServers.md).
 
 ## Request apps on the Store
 
@@ -31,7 +31,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Visibility Content
 -   **Enable PowerShell on the MID Server**
 
-    For more information, see [Set up MID Servers to use PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetUpAMIDServerToUsePowerShell.md).
+    For more information, see [Set up MID Servers to use PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_SetUpAMIDServerToUsePowerShell.md).
 
 -   **Verify access to files and directories**
 
@@ -53,7 +53,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Schedule a horizontal discovery**
 
-    For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+    For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 
 ## Prerequisites for Linux discovery
@@ -88,11 +88,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify elevated rights for IBM WebSphere Application Server commands**
 
-    For more information, see IBM WebSphere Application Server \(on UNIX\) table in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+    For more information, see IBM WebSphere Application Server \(on UNIX\) table in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 -   **Schedule a horizontal discovery**
 
-    For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+    For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -135,5 +135,5 @@ Discovery creates these relationships to support the WebSphere Application Serve
 |IBM Websphere \[cmdb\_ci\_app\_server\_websphere\]|Contains::Contained by|Websphere EAR \[cmdb\_ci\_app\_server\_ws\_ear\]|
 |Web Service \[cmdb\_ci\_web\_service\]|Runs on::Runs|IBM Websphere \[cmdb\_ci\_app\_server\_websphere\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

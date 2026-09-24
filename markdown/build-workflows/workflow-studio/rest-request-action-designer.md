@@ -2,7 +2,7 @@
 title: REST step
 description: Send an outbound REST web service request to an external system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/rest-request-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/rest-request-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -71,7 +71,7 @@ Use MID
 
 </td><td>
 
-Option to use a ServiceNow® MID Server to run the REST step. Select this check box to display the **MID Application** and **Capabilities** fields.**Note:** The system doesn't log REST request, response, and parameter runtime data sent via a MID server in the same way that [Outbound web services logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-request-logging.md) occurs. Instead, you can view this data in the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+Option to use a ServiceNow® MID Server to run the REST step. Select this check box to display the **MID Application** and **Capabilities** fields.**Note:** The system doesn't log REST request, response, and parameter runtime data sent via a MID server in the same way that [Outbound web services logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-request-logging.md) occurs. Instead, you can view this data in the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-details.md).
 
 </td></tr><tr><td>
 
@@ -280,7 +280,7 @@ Name, Part Type, Value
 
 </td><td>
 
-Content of a multipart request. For each part, specify its name, part type, and value either using the fields individually or using an inline script for all the parts. You can specify the multipart values by clicking the toggle scripting icon \(\[Omitted image "flow-designer-inline-script-icon.png"\] Alt text: Toggle inline scripting icon\) and editing the script. For more information about inline scripting, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md).
+Content of a multipart request. For each part, specify its name, part type, and value either using the fields individually or using an inline script for all the parts. You can specify the multipart values by clicking the toggle scripting icon \(\[Omitted image "flow-designer-inline-script-icon.png"\] Alt text: Toggle inline scripting icon\) and editing the script. For more information about inline scripting, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/inline-scripts.md).
 
  -   **Name**:The name of the part. It can be any valid string.
 -   **Part Type**: The type of the part. Select either **Text** or **File**.
@@ -298,7 +298,7 @@ Name, Value
 
 </td><td>
 
-Content of a form URL-encoded request. Specify each part of the URL-encoded request with a name-value pair using the fields individually or using an inline script for all parts. You can specify the form URL-encoded values inline script by clicking the toggle scripting icon\(\[Omitted image "flow-designer-inline-script-icon.png"\] Alt text: Toggle inline scripting icon\) and editing the script. For more information about inline scripting, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md).**Note:** This field is available when you select **Form URL-Encoded** from the Request Type list.
+Content of a form URL-encoded request. Specify each part of the URL-encoded request with a name-value pair using the fields individually or using an inline script for all parts. You can specify the form URL-encoded values inline script by clicking the toggle scripting icon\(\[Omitted image "flow-designer-inline-script-icon.png"\] Alt text: Toggle inline scripting icon\) and editing the script. For more information about inline scripting, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/inline-scripts.md).**Note:** This field is available when you select **Form URL-Encoded** from the Request Type list.
 
 </td></tr><tr><td>
 
@@ -306,7 +306,7 @@ Enable Retry Policy
 
 </td><td>
 
-Option to enable the retry policy. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/retry-policy.md).
+Option to enable the retry policy. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/retry-policy.md).
 
 </td></tr><tr><td>
 
@@ -355,7 +355,7 @@ Target record to which the attachment is associated. The target record must be a
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## REST response size limits
@@ -364,7 +364,7 @@ By default, the system limits the size of REST responses that are not saved as a
 
 ## Parsing a REST response
 
-REST API calls return data in the Response Body. The response body data is usually structured in JSON or XML format. You can use a [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md) to parse the structured data into variables to use elsewhere in the action or in a flow. There is also an [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/xml-parser-step-action-designer.md) to parse a response body that's in an XML format.
+REST API calls return data in the Response Body. The response body data is usually structured in JSON or XML format. You can use a [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/javascript-step-action-designer.md) to parse the structured data into variables to use elsewhere in the action or in a flow. There is also an [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/xml-parser-step-action-designer.md) to parse a response body that's in an XML format.
 
 The general strategy to get extracted data from the response is to do the following.
 
@@ -379,5 +379,5 @@ The general strategy to get extracted data from the response is to do the follow
 
 For a detailed example, see the section on Parsing a REST Response in the [REST in IntegrationHub developer training \(Zurich\)](https://developer.servicenow.com/dev.do#!/learn/courses/australia/app_store_learnv2_rest_australia_rest_integrations/app_store_learnv2_rest_australia_rest_in_integration_hub/app_store_learnv2_rest_australia_rest_in_integration_hub_objectives).
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

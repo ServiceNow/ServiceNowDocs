@@ -2,7 +2,7 @@
 title: Run NVD Integrations for Hardware Vulnerability Assessment
 description: Install and run National Vulnerability Database \(NVD\) integrations to perform hardware vulnerability assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/jobs-hwd-nvd-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/jobs-hwd-nvd-integration.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -41,5 +41,5 @@ To understand what are the different NVD integrations and how do the integration
     -   **NIST National Vulnerability Database Integration-API \(CPE only\)**
     -   **NIST National Vulnerability Database Integration-API \(Unmapped CPE\)**
 
-**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
+**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 

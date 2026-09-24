@@ -2,7 +2,7 @@
 title: Remove Conversational Integration with Microsoft Teams
 description: Remove the integrations between your ServiceNow Virtual Agent bot or the Self-configured bots and Microsoft Teams to disassociate the app with your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/uninstall\_va\_msteams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/uninstall\_va\_msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -41,5 +41,5 @@ Roles required:
     The Virtual Agent integration with the selected Microsoft Teams bot has been removed.
 
 
-**Parent Topic:**[Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-install.md)
+**Parent Topic:**[Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/teams-install.md)
 

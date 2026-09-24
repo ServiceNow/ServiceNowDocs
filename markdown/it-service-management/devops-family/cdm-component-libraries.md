@@ -2,7 +2,7 @@
 title: Sharing components among applications — Component libraries
 description: Some applications may share the same basic structure and require nearly identical configuration data. Shared components in CDM enables you to use a component across several applications. For better organization, these shared components are managed in component libraries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-component-libraries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-component-libraries.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

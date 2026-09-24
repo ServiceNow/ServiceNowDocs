@@ -2,7 +2,7 @@
 title: Take control of AI Desktop Actions execution
 description: Take control and pause the execution that AI agent is running. Make manual changes to your desktop, and then resume execution by providing handoff notes to the AI agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/control\_ai\_desktop\_actions\_execution\_adaptive.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/control\_ai\_desktop\_actions\_execution\_adaptive.html
 release: australia
 topic_type: task
 last_updated: "2026-07-14"
@@ -17,7 +17,7 @@ Take control and pause the execution that AI agent is running. Make manual chang
 
 ## Before you begin
 
--   AI Desktop Actions must be in the Running state. For more information, see [Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use_ai_desktop_actions_adaptive.md).
+-   AI Desktop Actions must be in the Running state. For more information, see [Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/use_ai_desktop_actions_adaptive.md).
 
 Role required: sn\_aia.admin and lens\_user, now\_assist\_panel\_user and lens\_user, or desktop\_action\_user
 
@@ -79,12 +79,12 @@ After the AI agent resumes:
 -   If additional corrections are needed, you can pause execution again by selecting **Take control**.
 -   When execution completes, review the final results to verify that all steps were performed correctly.
 
-**Parent Topic:**[Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use_ai_desktop_actions_adaptive.md)
+**Parent Topic:**[Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/use_ai_desktop_actions_adaptive.md)
 
 **Related topics**  
 
 
-[Adaptive desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai_desktop_actions_adaptive.md)
+[Adaptive desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai_desktop_actions_adaptive.md)
 
-[Known issues and limitations of adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/adaptive-desktop-actions-troubleshooting.md)
+[Known issues and limitations of adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/adaptive-desktop-actions-troubleshooting.md)
 

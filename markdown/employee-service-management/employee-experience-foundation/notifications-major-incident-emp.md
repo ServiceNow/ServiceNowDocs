@@ -2,7 +2,7 @@
 title: View notifications for a major incident
 description: View the notifications that are sent during specific events in a major incident. These notifications are sent to all the stakeholders associated with the major incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/notifications-major-incident-emp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/notifications-major-incident-emp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,5 +43,5 @@ The following informational notifications are triggered for a major incident whe
 5.  Click **View workbench** to view the ticket details in ServiceNow.
 
 
-**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
 

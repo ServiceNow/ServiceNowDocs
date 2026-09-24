@@ -2,7 +2,7 @@
 title: Plan your Password Reset processes
 description: To ensure security and efficiency, take the time to plan your Password Reset implementation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_PlanPasswordReset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/t\_PlanPasswordReset.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -47,10 +47,10 @@ Role required: password\_reset\_admin or admin
     -   If your organization uses single sign-on, how will users reset their password if they are unable to log on?
     -   What options are available to users working off-site?
 
-**Parent Topic:**[Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-admin-guide.md)
+**Parent Topic:**[Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/password-reset-admin-guide.md)
 
 **Related topics**  
 
 
-[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
+[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 

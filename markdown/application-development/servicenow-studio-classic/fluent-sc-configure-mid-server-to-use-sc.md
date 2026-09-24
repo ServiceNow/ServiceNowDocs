@@ -2,7 +2,7 @@
 title: Configure a MID Server to use source control
 description: Configure a MID Server to use source control with ServiceNow Studio if your Git provider is behind a firewall.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/fluent-sc-configure-mid-server-to-use-sc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/fluent-sc-configure-mid-server-to-use-sc.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -51,9 +51,9 @@ Role required: admin
 
 ## What to do next
 
-If you haven't already, configure basic or OAuth 2.0 authentication to connect to a Git domain or repository. For more information, see [Connect to a Git provider using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-basic-auth.md) or [Connect to a Git provider using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-oauth-2-0.md).
+If you haven't already, configure basic or OAuth 2.0 authentication to connect to a Git domain or repository. For more information, see [Connect to a Git provider using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-basic-auth.md) or [Connect to a Git provider using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-oauth-2-0.md).
 
-**Note:** The MID Server user must have the sn\_glider.ide\_git\_user role or admin role to perform Git operations in ServiceNow Studio. For more information, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetupMIDServerRole.md) and [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-roles.md).
+**Note:** The MID Server user must have the sn\_glider.ide\_git\_user role or admin role to perform Git operations in ServiceNow Studio. For more information, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetupMIDServerRole.md) and [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-roles.md).
 
-**Parent Topic:**[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)
+**Parent Topic:**[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)
 

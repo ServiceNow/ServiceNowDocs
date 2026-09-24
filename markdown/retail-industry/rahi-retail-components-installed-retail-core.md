@@ -2,7 +2,7 @@
 title: Components installed with Retail core overview
 description: Several types of components such as tables, user roles, and business rule are installed when you activate the Retail Core.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-installed-retail-core.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-components-installed-retail-core.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ Stores information about the task details.
 </td></tr></tbody>
 </table>## Base roles installed with Retail Core
 
-For information on configuring these roles for retail, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-assign-roles-users.md).
+For information on configuring these roles for retail, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-assign-roles-users.md).
 
 <table id="table_d5t_ttp_bdc"><thead><tr><th>
 
@@ -203,5 +203,5 @@ Includes common themes, widgets, and code artifacts for customer and industry wo
 |Restrict SO update|sn\_retail\_organization|Before update|Restricts the user from updating the Organization Core field in the Retail Organization \[sn\_retail\_organization\] table.|
 |Hide multistore child cases|sn\_retail\_case|Before Query|Filters retail cases whose parent's child case creation state is either none or Completed successfully.|
 
-**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

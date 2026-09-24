@@ -2,7 +2,7 @@
 title: Continuous Integration and Continuous Delivery \(CICD\) Update Set API
 description: The CICD Update Set API provides methods to create, retrieve, preview, commit, and back-out an update set.Retrieves an update set with a given sys\_id and allows you to remove the existing retrieved update set from the instance.Commits multiple update sets in a single request according to the order that they're provided.Previews an update set to check for any conflicts and retrieve progress information about the update set operation.Backs out an installation operation that was performed on an update set with a given sys\_id.Commits an update set with a given sys\_id.Creates a new update set and inserts the new record in the Update Sets \[sys\_update\_set\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/cicd-update-set-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/cicd-update-set-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -18,7 +18,7 @@ The CICD Update Set API provides methods to create, retrieve, preview, commit, a
 
 This API is associated with the actions you can perform on [system update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md) and requires the sn\_cicd.sys\_ci\_automation role and Continuous Integration and Continuous Delivery \(CICD\) REST API \(com.glide.continuousdelivery\) plugin to access it.
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## CICD Update Set - POST /api/sn\_cicd/update\_set/retrieve
 
@@ -30,7 +30,7 @@ Versioned URL: `/api/sn_cicd/{api_version}/update_set/retrieve`
 
 Default URL: `/api/sn_cicd/update_set/retrieve`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -126,7 +126,7 @@ Default: false
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_tq1_qdy_qdc" class="rest_api_request_headers"><thead><tr><th>
 
@@ -147,7 +147,7 @@ Data format of the response body. Supported types: **application/json** or **app
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -211,7 +211,7 @@ links.progress.id
 
 </td><td id="entry-progress_id">
 
-Sys\_id containing progress details for the operation. You can use this value when calling the endpoint [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-api.md).Data type: String
+Sys\_id containing progress details for the operation. You can use this value when calling the endpoint [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cicd-api.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -323,7 +323,7 @@ Versioned URL: `/api/sn_cicd/{api_version}/update_set/commitMultiple`
 
 Default URL: `/api/sn_cicd/update_set/commitMultiple`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -358,7 +358,7 @@ remote\_update\_set\_ids
 
 </td><td>
 
-Required. List of sys\_ids associated with any update sets to commit. Sys\_ids are committed in the order given in the request.**Note:** You can use the [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-api.md) endpoint to get the remote update set ID.
+Required. List of sys\_ids associated with any update sets to commit. Sys\_ids are committed in the order given in the request.**Note:** You can use the [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cicd-api.md) endpoint to get the remote update set ID.
 
 Data type: String
 
@@ -391,7 +391,7 @@ Default: false
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -500,7 +500,7 @@ links.progress.id
 
 </td><td id="entry-progress_id">
 
-Sys\_id containing progress details for the operation. You can use this value when calling the endpoint [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-api.md).Data type: String
+Sys\_id containing progress details for the operation. You can use this value when calling the endpoint [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cicd-api.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -607,7 +607,7 @@ Response body.
 
 Previews an update set to check for any conflicts and retrieve progress information about the update set operation.
 
-**Note:** If the update set you want to preview doesn't exist on the instance, you must first use the [CICD Update Set - POST /api/sn\_cicd/update\_set/retrieve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-update-set-api.md) endpoint to retrieve the update set or manually in the UI.
+**Note:** If the update set you want to preview doesn't exist on the instance, you must first use the [CICD Update Set - POST /api/sn\_cicd/update\_set/retrieve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cicd-update-set-api.md) endpoint to retrieve the update set or manually in the UI.
 
 ### URL format
 
@@ -615,7 +615,7 @@ Versioned URL: `/api/sn_cicd/{api_version}/update_set/preview/{remote_update_set
 
 Default URL: `/api/sn_cicd/update_set/preview/{remote_update_set_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -656,7 +656,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_rbg_n2y_qdc" class="rest_api_request_headers"><thead><tr><th>
 
@@ -702,7 +702,7 @@ Data format of the response body. Supported types: **application/json** or **app
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -766,7 +766,7 @@ links.progress.id
 
 </td><td id="entry-progress_id">
 
-Sys\_id containing progress details for the operation. You can use this value when calling the endpoint [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-api.md).Data type: String
+Sys\_id containing progress details for the operation. You can use this value when calling the endpoint [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cicd-api.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -878,7 +878,7 @@ Versioned URL: `/api/sn_cicd/{api_version}/update_set/back_out`
 
 Default URL: `/api/sn_cicd/update_set/back_out`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -939,7 +939,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -978,14 +978,14 @@ Description
 
 Content-Type
 
-</td><td id="d2940e172">
+</td><td id="d2936e172">
 
 Data format of the request body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1050,7 +1050,7 @@ links.progress.id
 
 </td><td id="entry-progress_id">
 
-Sys\_id containing progress details for the operation. You can use this value when calling the endpoint [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-api.md).Data type: String
+Sys\_id containing progress details for the operation. You can use this value when calling the endpoint [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cicd-api.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -1162,7 +1162,7 @@ Versioned URL: `/api/sn_cicd/{api_version}/update_set/commit/{remote_update_set_
 
 Default URL: `/api/sn_cicd/update_set/ commit/{remote_update_set_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1188,7 +1188,7 @@ remote\_update\_set\_id
 
 </td><td>
 
-Sys\_id of the update set to commit.**Note:** You can use the [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-api.md) endpoint to get the remote update set ID.
+Sys\_id of the update set to commit.**Note:** You can use the [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cicd-api.md) endpoint to get the remote update set ID.
 
 Table: Retrieved Update Sets \[sys\_remote\_update\_set\]
 
@@ -1225,7 +1225,7 @@ Default: false
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1271,7 +1271,7 @@ Data format of the response body. Supported types: **application/json** or **app
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Name|Description|
 |----|-----------|
@@ -1336,7 +1336,7 @@ links.progress.id
 
 </td><td id="entry-progress_id">
 
-Sys\_id containing progress details for the operation. You can use this value when calling the endpoint [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-api.md).Data type: String
+Sys\_id containing progress details for the operation. You can use this value when calling the endpoint [CI/CD - GET /sn\_cicd/progress/\{progress\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cicd-api.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -1446,7 +1446,7 @@ Versioned URL: `/api/sn_cicd/{api_version}/update_set/create`
 
 Default URL: `/api/sn_cicd/update_set/create`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1520,7 +1520,7 @@ Required. Name to give the update set.Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1566,7 +1566,7 @@ Data format of the response body. Supported types: **application/json** or **app
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 | | |
 |---|---|

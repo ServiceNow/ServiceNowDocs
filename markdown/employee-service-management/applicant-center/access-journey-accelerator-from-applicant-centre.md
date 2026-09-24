@@ -2,7 +2,7 @@
 title: Configure pre-hire experience on applicant center
 description: Provide continuity in the hiring journey by providing a pre-hire experience on the applicant center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/access-journey-accelerator-from-applicant-centre.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/applicant-center/access-journey-accelerator-from-applicant-centre.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -34,7 +34,7 @@ Role required: admin
 
 2.  Write the following business rules for an applicant user when the application state becomes hired.
 
-    For details, see [Create a business rule for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-create-busrule-service.md)
+    For details, see [Create a business rule for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-create-busrule-service.md)
 
     1.  Delete an external applicant role: **sn\_ta\_hiring\_core.external\_applicant**.
 
@@ -44,7 +44,7 @@ Role required: admin
 
 4.  Link the applicant center user to the HR profile and create an onboarding journey using the same applicant user.
 
-    For details, see [Create a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-create-journey.md)
+    For details, see [Create a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-create-journey.md)
 
 
 ## Result
@@ -53,5 +53,5 @@ The applicants are assigned internal roles and they can start their pre-boarding
 
 **Note:** Giving internal roles to applicants enables access to other portals intended only for employees \(default users\).
 
-**Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/config-applicant-center.md)
+**Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/applicant-center/config-applicant-center.md)
 

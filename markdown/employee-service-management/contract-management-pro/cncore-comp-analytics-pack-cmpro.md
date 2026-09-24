@@ -2,7 +2,7 @@
 title: Components installed with Analytics Pack for Contract Management Pro
 description: Several types of components are installed with activation of the Analytics Pack for Contract Management Pro plugin, including user roles and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-comp-analytics-pack-cmpro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-comp-analytics-pack-cmpro.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -92,7 +92,7 @@ Provides an immediate insight from your existing contract request data.
 2.  Contracts Core: Monthly Data Collection
 3.  Contracts Core: Historical Data Collection
 
-**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

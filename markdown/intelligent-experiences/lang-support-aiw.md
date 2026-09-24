@@ -2,7 +2,7 @@
 title: Multilingual support for AI specialists
 description: AI specialists can respond to users in multiple languages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/lang-support-aiw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/lang-support-aiw.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-01"

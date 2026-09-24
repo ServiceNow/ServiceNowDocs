@@ -2,7 +2,7 @@
 title: MISP user information
 description: You can use the MISP user information page to view all the associated users for the ServiceNow AI Platform MISP integration for Security Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/misp-user-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/misp-user-information.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -98,7 +98,7 @@ Tagger Permission
 Permission that enables a user to do tagging.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
+</table>**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-administration.md)
 
 **Related topics**  
 

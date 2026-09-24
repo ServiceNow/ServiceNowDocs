@@ -2,7 +2,7 @@
 title: Auto-generate the manifest file for uploading on Microsoft Teams
 description: Auto-generate the manifest file and customize the branding of your Microsoft Teams app so that you can make Virtual Agent available in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -154,7 +154,7 @@ Message Extension or Copilot
 
 </td><td>
 
-This section allows you to activate Message extension if your bot is set up for NLU/Keyword, or activate Copilot if your bot is set up for for LLM. \(For more information on activating LLM for your bot, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).\)-   The Message extension check box appears if you configure your bot for NLU/Keyword. Message extension lets users search and share the results through the compose message area of the Microsoft Teams client.
+This section allows you to activate Message extension if your bot is set up for NLU/Keyword, or activate Copilot if your bot is set up for for LLM. \(For more information on activating LLM for your bot, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).\)-   The Message extension check box appears if you configure your bot for NLU/Keyword. Message extension lets users search and share the results through the compose message area of the Microsoft Teams client.
 
 If you're using this bot for Microsoft Copilot, then ensure that you enable **Message Extension**. \[Omitted image "message-extension-teams.png"\] Alt text: ServiceNow Otto in Virtual Agent conversation with Microsoft Copilot displaying the Message Extension enabled.
 
@@ -186,7 +186,7 @@ The Sample Prompts window appears when you select the Copilot check box. Enter y
 
 ## What to do next
 
-[Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/upload-package-file-msteams.md).
+[Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/upload-package-file-msteams.md).
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md)
+**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md)
 

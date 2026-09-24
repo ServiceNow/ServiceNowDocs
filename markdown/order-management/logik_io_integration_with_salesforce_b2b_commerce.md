@@ -2,7 +2,7 @@
 title: CPQ integration with Salesforce B2B Commerce
 description: Learn how to configure CPQ to work with Salesforce B2B Commerce.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io\_integration\_with\_salesforce\_b2b\_commerce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/logik\_io\_integration\_with\_salesforce\_b2b\_commerce.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -349,9 +349,9 @@ Example response:
 **Related topics**  
 
 
-[CPQ and Salesforce base package overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io-salesforce_base_package_overview.md)
+[CPQ and Salesforce base package overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/logik_io-salesforce_base_package_overview.md)
 
-[Salesforce amendments and CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/salesforce_amendments_and_logik_io.md)
+[Salesforce amendments and CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/salesforce_amendments_and_logik_io.md)
 
-[CPQ and Salesforce managed packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io-salesforce_managed_packages.md)
+[CPQ and Salesforce managed packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/logik_io-salesforce_managed_packages.md)
 

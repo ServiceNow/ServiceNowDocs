@@ -2,7 +2,7 @@
 title: Price adjustment breakdown on order lines
 description: Order agents can view the price adjustments that were applied to the base price in the price list to reflect attribute adjustments and any custom adjustments that you added through the pricing plan, and see how the net price was calculated while processing orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/view-price-adjustment-details-order-lines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-price-adjustment-details-order-lines.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Order agents can view the price adjustments that were applied to the base price 
 
 The unit base price, unit list price, and unit adjustment details are listed on the Pricing section of the Order Line Item Details page.
 
-The Price Adjustments tab on the Order Line Item page displays the manual price adjustments that were applied to an order line item. For information about the fields on the list view, see [Price adjustment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-customer-order-line-items.md).
+The Price Adjustments tab on the Order Line Item page displays the manual price adjustments that were applied to an order line item. For information about the fields on the list view, see [Price adjustment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/field-descriptions-customer-order-line-items.md).
 
 ## Price adjustment example
 
@@ -35,5 +35,5 @@ To understand price adjustment and the terms used, let's consider a scenario whe
 **Related topics**  
 
 
-[Configurable pricing plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-pricing-plan.md)
+[Configurable pricing plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-pricing-plan.md)
 

@@ -2,10 +2,10 @@
 title: Combined Return Merchandise Authorization release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Return Merchandise Authorization from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-returnmerchandiseauthorization-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-returnmerchandiseauthorization-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -207,6 +207,8 @@ Zurich
 Install RMA Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US). Return Merchandise Authorization is available with activation of the RMA Case Management plugin \(sn\_csm\_rma\_case\). For details, see [Return merchandise authorization](https://www.servicenow.com/docs/access?context=activate-return-merchandise-authorization-plugin&family=zurich&ft:locale=en-US).
 
 
+**Important:** RMA Case Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -367,5 +369,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

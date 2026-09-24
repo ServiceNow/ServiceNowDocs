@@ -2,7 +2,7 @@
 title: Activate the Create Finance Inquiry for inbound email flow
 description: Activate the Create Finance case on Inbound email inquiry flow to create a finance inquiry case automatically based on the information in an inbound email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/activate-fin-case-inquiry-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/activate-fin-case-inquiry-flow.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -47,5 +47,5 @@ Role required: admin
     The **Create Finance case on Inbound email inquiry** flow is activated and a finance inquiry case is created automatically based on the information in an inbound email.
 
 
-**Parent Topic:**[Components installed with Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/installed-with-fin-ops.md)
+**Parent Topic:**[Components installed with Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/installed-with-fin-ops.md)
 

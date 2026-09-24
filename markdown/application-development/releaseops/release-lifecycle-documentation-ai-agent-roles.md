@@ -2,7 +2,7 @@
 title: Roles required for using the release lifecycle documentation AI agent
 description: Learn about which roles are required for using the release lifecycle documentation AI agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/release-lifecycle-documentation-ai-agent-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/release-lifecycle-documentation-ai-agent-roles.html
 release: australia
 product: ReleaseOps
 classification: releaseops

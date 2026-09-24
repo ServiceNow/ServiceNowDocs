@@ -2,7 +2,7 @@
 title: Create an app file in ServiceNow Studio
 description: Create an app file in ServiceNow Studio to define how an aspect of an application functions — such as which users can access it or how it processes data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sn-studio-create-app-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sn-studio-create-app-file.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -22,11 +22,11 @@ Role required: admin or delegated\_developer
 
 ## About this task
 
-Application files are metadata records for application logic such as business rules, workflows, and script includes. For more information about app files, see [Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationFiles.md) and [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
+Application files are metadata records for application logic such as business rules, workflows, and script includes. For more information about app files, see [Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_ApplicationFiles.md) and [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
 
 Delegated developers can create app files for apps they have access to. To have an app created, contact your admin.
 
-Use this procedure to create files from anywhere in ServiceNow Studio. To add files to a newly created app, see [Add a file to your app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md).
+Use this procedure to create files from anywhere in ServiceNow Studio. To add files to a newly created app, see [Add a file to your app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md).
 
 ## Procedure
 
@@ -63,7 +63,7 @@ Use this procedure to create files from anywhere in ServiceNow Studio. To add fi
 
     \[Omitted image "sn-studio-create-file-page-as2.png"\] Alt text: The Create file page opens in a new tab, where you can select the file type you want to create.
 
-    For a list of all available file types, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md). For more information about each file type, see [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
+    For a list of all available file types, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md). For more information about each file type, see [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
 
 7.  Select **Continue**.
 
@@ -84,5 +84,5 @@ Select the refresh icon in the Navigator panel to display the new file in the li
 
 \[Omitted image "sn-studio-refresh-list-as2.png"\] Alt text: Refresh the Navigator panel to see the new metadata records.
 
-**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
+**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
 

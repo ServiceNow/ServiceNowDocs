@@ -2,12 +2,12 @@
 title: Explore credentials, connections, and aliases
 description: All application integrations in the ServiceNow AI Platform use connections, credentials, and aliases to enable applications to access resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/credentials-connections-alias.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/credentials-connections-alias.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Connections and Credentials, Access Management]
 ---
@@ -64,7 +64,7 @@ The following features use connections, credentials, and aliases:
 
 You can set up aliases on the ServiceNow AI Platform in one of two ways:
 
--   Using the Connections and Credentials module. See [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
+-   Using the Connections and Credentials module. See [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/connection-alias.md).
 -   In the Connections dashboard of Integration Hub. See [Add a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/dashboard-add-connection.md).
 
     **Note:** Integration Hub requires a separate subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md).
@@ -105,12 +105,12 @@ Defines the number of tables to traverse when the credential-sync mechanism coll
 -   **Default value**: 3
 
 </td></tr></tbody>
-</table>-   **[Scope protections for Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/scope-protections-connections-credentials.md)**  
+</table>-   **[Scope protections for Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/scope-protections-connections-credentials.md)**  
 You can classify certain types of Connection &amp; Credential records as belonging to a scope, and extend scope protections to them. These scope policies protect records you create in a table, and prevent interactions with records that are private to another scope.
--   **[Domain separation and Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/domain-separation-credentials_conn.md)**  
+-   **[Domain separation and Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/domain-separation-credentials_conn.md)**  
 Domain separation is supported in Credentials and Connections. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Connection &amp; Credential configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/spoke-configuration-template.md)**  
+-   **[Connection &amp; Credential configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/spoke-configuration-template.md)**  
 Enable users with the admin and flow\_designer roles to set up spoke integrations with third-party systems using a single, customizable form.
 
-**Parent Topic:**[Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md)
+**Parent Topic:**[Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/r-credentials.md)
 

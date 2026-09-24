@@ -2,7 +2,7 @@
 title: Domain separation and Automated Test Framework
 description: Domain separation is supported in the Automated Test Framework. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/domain-separation-auto-test-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/domain-separation-auto-test-framework.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -36,7 +36,7 @@ Automated test framework design and runtime access are solely for the owner of t
 
 When testing domain separation during ATF test steps, you must set the domain first. This should be part of the first impersonation step of each of the ATF test steps when they are dependent on a domain being set. To learn more about domain separation recommended practices, see [Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 
-**Parent Topic:**[Getting started with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-intro.md)
+**Parent Topic:**[Getting started with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-intro.md)
 
 **Related topics**  
 

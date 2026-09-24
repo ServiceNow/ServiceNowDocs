@@ -2,7 +2,7 @@
 title: Create a UI action
 description: You can create a new UI action or edit an existing one.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EditingAUIAction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_EditingAUIAction.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -342,5 +342,5 @@ To direct a user to a record, use this syntax, where **new\_record** is the vari
 action.setRedirectURL (new_record );
 ```
 
-**Parent Topic:**[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
+**Parent Topic:**[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_UIActions.md)
 

@@ -2,7 +2,7 @@
 title: Configure attachment icons
 description: Configure the icon that appears beside an attachment of a particular file type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfiguringAttachmentIcons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfiguringAttachmentIcons.html
 release: australia
 topic_type: task
 last_updated: "2026-07-03"
@@ -76,5 +76,5 @@ Enter the path to the icon image file \(example: `images/icons/attach_pdf.gifx`\
 </table>5.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringAttachments.md)
+**Parent Topic:**[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_AdministeringAttachments.md)
 

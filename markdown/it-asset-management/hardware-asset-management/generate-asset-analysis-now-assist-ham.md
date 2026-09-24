@@ -2,14 +2,14 @@
 title: Analyze hardware assets using the Generate hardware asset insights generative AI skill
 description: View consolidated asset data and identify key action items with the comprehensive AI-generated analysis summary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/generate-asset-analysis-now-assist-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/generate-asset-analysis-now-assist-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-02-03"
 reading_time_minutes: 7
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -52,7 +52,7 @@ The Generate hardware asset insights generative AI skill generates comprehensive
     \[Omitted image "now-assist-ham-asset-summary.png"\] Alt text: Asset analysis summary with comprehensive asset information and list of action items
 
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

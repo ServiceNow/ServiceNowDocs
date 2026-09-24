@@ -2,12 +2,12 @@
 title: Activate evaluation scoring for ServiceNow AI systems
 description: Assess the quality of your ServiceNow AI systems by activating evaluation scoring in AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-monitor-servicenow-ai-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-monitor-servicenow-ai-system.html
 release: australia
 topic_type: task
 last_updated: "2026-07-13"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -38,9 +38,9 @@ Evaluation scoring is active for ServiceNow AI systems. Scores appear on the mon
 
 ## What to do next
 
-To add or remove metrics or adjust the metric sample rate for ServiceNow AI systems, see [Configure global metrics for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-global-metrics-servicenow.md).
+To add or remove metrics or adjust the metric sample rate for ServiceNow AI systems, see [Configure global metrics for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-global-metrics-servicenow.md).
 
-**Parent Topic:**[Configure evaluation scoring for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-servicenow-ai-systems.md)
+**Parent Topic:**[Configure evaluation scoring for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-servicenow-ai-systems.md)
 
 **Related topics**  
 

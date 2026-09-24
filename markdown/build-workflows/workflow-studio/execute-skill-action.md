@@ -2,7 +2,7 @@
 title: Execute Skill action
 description: Run a published ServiceNow Otto for Creator skill and use the skill outputs in a flow or subflow.For existing actions and subflows, copy the short description from the product documentation, or insert a content reference to it. For new actions and subflows, create reusable content and insert a content reference to the short description.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/execute-skill-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/execute-skill-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -26,7 +26,7 @@ Available as a Now Assist Skill Kit action.
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
+    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/user-access-flow-designer.md).
 
 
 ## Inputs
@@ -75,5 +75,5 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
     The response provided by the Now Assist skill as a JSON-formatted object.
 
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

@@ -2,7 +2,7 @@
 title: Enhanced change data model
 description: The enhanced Change data model supports better categorization, change model linkage, and role-based access to change templates. This new data model does not impact the existing standard change catalog and no migration of existing standard changes is required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-data-model.html
 release: australia
 product: Change Management
 classification: change-management
@@ -41,12 +41,12 @@ Besides the Change manager, any user who is granted access to create and modify 
 
 To use features included in the new change templates, create a template using the change template feature and select the standard change model. Alternatively, you can continue to create standard change templates using the older data model by using the Propose standard change functionality.
 
-**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-change-management.md)
 
 **Related topics**  
 
 
-[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md)
+[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-a-change-model.md)
 
-[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md)
+[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-change-template.md)
 

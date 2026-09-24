@@ -2,7 +2,7 @@
 title: Script includes installed with Field Service Management
 description: Script includes are added with Field Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/r\_ScriptIncInstWFieldSrvMgmnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/r\_ScriptIncInstWFieldSrvMgmnt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -35,10 +35,10 @@ Field Service Management adds the following geolocation script includes.
 |WMGeolocationUtils|Provides utilities for Field Service Management geolocation maps.|
 |WorkTaskRouting|Routing functionality for work order tasks.|
 
--   **[Advanced configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/customizations.md)**  
+-   **[Advanced configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/customizations.md)**  
 Describes the customization extension model for separating default functionality from custom scripts using read-only SNC and exposed includes.
--   **[Field Service Manager Mobile script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/manager-mobile-ref.md)**  
+-   **[Field Service Manager Mobile script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/manager-mobile-ref.md)**  
 Update the script includes if you want to change the base system value.
 
-**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_InstalledWithFSM.md)
+**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_InstalledWithFSM.md)
 

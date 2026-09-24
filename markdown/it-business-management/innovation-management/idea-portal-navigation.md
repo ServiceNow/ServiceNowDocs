@@ -2,7 +2,7 @@
 title: Idea Portal navigation
 description: Configure the Idea Portal URL to enable access to the Idea Portal from the application navigator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/idea-portal-navigation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/innovation-management/idea-portal-navigation.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -37,9 +37,9 @@ Enable access to the Idea Portal module using the Application Menus module.
     For example, if you created an Idea module for your HR department and used **hr** as the **Module Id**, the URL to access the Idea Portal would be as follows: `/idea/?id=ideas_list&sysparm_module_id=hr`.
 
 
-**Parent Topic:**[Idea Portal administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-portal-administration.md)
+**Parent Topic:**[Idea Portal administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/idea-portal-administration.md)
 
-**Previous topic:**[Idea Portal administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-portal-administration.md)
+**Previous topic:**[Idea Portal administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/idea-portal-administration.md)
 
-**Next topic:**[Create an Idea module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-idea-module.md)
+**Next topic:**[Create an Idea module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/create-idea-module.md)
 

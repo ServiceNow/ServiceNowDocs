@@ -2,7 +2,7 @@
 title: Understanding Lifecyle events for enterprise
 description: Use Lifecyle events for enterprise to automate the fulfillment of employee lifecycle events such as new hire onboarding, offboarding, relocation, promotion, parental leave, and more. Lifecycle events are a collection of activities organized into activity sets to comprise an employee experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-journey-management/understanding-enterprise-onboarding-and-transitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-journey-management/understanding-enterprise-onboarding-and-transitions.html
 release: australia
 product: Employee Journey Management
 classification: employee-journey-management
@@ -46,7 +46,7 @@ Lifecycle Events \[com.sn\_hr\_lifecycle\_events\]
 
 </td><td>
 
-Enables you to easily configure digital workflows to manage employee lifecycle events within HR. See [Activate Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md) for more information.
+Enables you to easily configure digital workflows to manage employee lifecycle events within HR. See [Activate Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md) for more information.
 
 </td></tr><tr><td>
 
@@ -63,17 +63,17 @@ Depending on your role, you can access and configure the following:
 
 -   **Lifecycle event administrator**
 
-    Users with the lifecycle event administrator \[sn\_hr\_le.admin\] role can administer and configure any part of the application, including any lifecycle event and its associated activity sets and activities. For more information, see [Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md).
+    Users with the lifecycle event administrator \[sn\_hr\_le.admin\] role can administer and configure any part of the application, including any lifecycle event and its associated activity sets and activities. For more information, see [Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md).
 
 -   **Activity set manager**
 
     Users with the activity set manager \[sn\_hr\_le.activity\_set\_manager\] role can build any lifecycle event and the associated activity sets. You can configure any lifecycle event activity, so long as you are a member of the owning group that owns the activity. For example, if you are a member of the HR owning group, then you can configure any activity that is owned by the HR group, such as an employee task to watch an onboarding video or a fulfiller task to provide relocation assistance.
 
-    -   [Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md) and the associated activity sets
-    -   [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md) if you are a member of the associated owning group
+    -   [Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md) and the associated activity sets
+    -   [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md) if you are a member of the associated owning group
 -   **Activity writer**
 
-    Users with the activity writer \[sn\_hr\_le.activity\_writer\] role can configure any lifecycle event activity, so long as you are a member of the owning group that owns the activity. For example, if you are a member of the IT owning group, then you can configure any activity that is owned by the IT group, such as to set up an active directory account or to set up equipment for a new employee. For more information, see [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md) if you are a member of the associated owning group.
+    Users with the activity writer \[sn\_hr\_le.activity\_writer\] role can configure any lifecycle event activity, so long as you are a member of the owning group that owns the activity. For example, if you are a member of the IT owning group, then you can configure any activity that is owned by the IT group, such as to set up an active directory account or to set up equipment for a new employee. For more information, see [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md) if you are a member of the associated owning group.
 
 -   **Activity reader**
 
@@ -90,8 +90,8 @@ Once the Lifecyle events for enterprise application is configured, users with th
 
     Users with the lifecycle event case writer \[sn\_hr\_le.case\_writer\] role can create, manage, and monitor the status of any lifecycle event case.
 
-    -   [Create an HR case for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/create-hr-lifecycle-event-case.md)
-    -   [Monitor the status of a lifecycle event case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/t_BundleExContexts.md)
+    -   [Create an HR case for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/create-hr-lifecycle-event-case.md)
+    -   [Monitor the status of a lifecycle event case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/t_BundleExContexts.md)
 -   **Lifecycle event case reader**
 
     Users with the lifecycle event case reader \[sn\_hr\_le.case\_reader\] role can read any lifecycle event case.

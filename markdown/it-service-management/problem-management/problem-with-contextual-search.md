@@ -2,7 +2,7 @@
 title: Working with contextual search
 description: Contextual search display results on forms and record producers based on the text that you provide in a field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-with-contextual-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/problem-with-contextual-search.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -27,7 +27,7 @@ You can:
 
 -   Attach the article in the **Notes** &gt; **Work notes** if your search result displays knowledge articles.
 
-**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/reference-section-for-problem-management.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create an export definition
 description: Create an export definition to define what data to export in an export set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/t\_CreateAnExportDefinition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-export-sets/t\_CreateAnExportDefinition.html
 release: australia
 product: System Export Sets
 classification: system-export-sets

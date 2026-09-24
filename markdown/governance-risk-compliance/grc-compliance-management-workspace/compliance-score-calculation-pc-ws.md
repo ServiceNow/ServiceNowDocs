@@ -2,7 +2,7 @@
 title: Compliance score calculation of an entity
 description: There are two ways to calculate the compliance score of an entity. The existing method includes only the entity's direct controls, whereas the new logic considers the average of immediate downstream entities along with the average of direct controls of the entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/compliance-score-calculation-pc-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/compliance-score-calculation-pc-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

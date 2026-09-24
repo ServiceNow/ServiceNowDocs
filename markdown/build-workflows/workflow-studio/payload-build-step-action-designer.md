@@ -2,7 +2,7 @@
 title: Payload Builder step
 description: Enable action designers to easily create name-value pairs in JSON and XML payloads using dynamic data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/payload-build-step-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/payload-build-step-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -20,7 +20,7 @@ Enable action designers to easily create name-value pairs in JSON and XML payloa
 
 Available as an Workflow Studio action step. Users with the action\_designer role can create a custom action with one or more action steps.
 
-**Note:** For JSON, this step is deprecated and replaced by the [JSON Builder step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/json-build-step-action-designer.md).
+**Note:** For JSON, this step is deprecated and replaced by the [JSON Builder step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/json-build-step-action-designer.md).
 
 ## Fields
 
@@ -157,8 +157,8 @@ The read-only payload the step produces.
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

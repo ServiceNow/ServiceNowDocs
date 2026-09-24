@@ -2,7 +2,7 @@
 title: Configure conversational intake for COI request
 description: Confirm required applications are installed to enable legal users to submit a Conflict of Interest \(COI\) request using conversational interface of ServiceNow Otto panel in Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/lsd-config-converse-intake.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-conflict-of-interest/lsd-config-converse-intake.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -28,5 +28,5 @@ Role required: admin
 -   Confirm the ServiceNow Otto panel is turned on. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   Confirm ServiceNow Otto in Virtual Agent is configured. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 
-**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
+**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 

@@ -2,7 +2,7 @@
 title: System email log and mailboxes
 description: The system email log records all emails that the instance creates or receives. System mailboxes are filtered views of this log.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_EmailLogs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_EmailLogs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ The system email log records all emails that the instance creates or receives. S
 
 Every notification email that the instance creates or receives is recorded in an Email \[sys\_email\] record. You can navigate to a log of these records at **System Logs** &gt; **Emails**.
 
-The System Mailboxes are filtered views of the Emails \[sys\_email\] table. The instance assigns an email record to a system mailbox depending on the values of the **Type** and **State** fields. For more information, see [System mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SystemMailboxes.md).
+The System Mailboxes are filtered views of the Emails \[sys\_email\] table. The instance assigns an email record to a system mailbox depending on the values of the **Type** and **State** fields. For more information, see [System mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_SystemMailboxes.md).
 
 The following fields can be included in the layout of the system log and any of the system mailboxes:
 
@@ -191,5 +191,5 @@ Headers
 Any headers embedded in the email.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/troubleshooting-notification-emails.md)
+</table>**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/troubleshooting-notification-emails.md)
 

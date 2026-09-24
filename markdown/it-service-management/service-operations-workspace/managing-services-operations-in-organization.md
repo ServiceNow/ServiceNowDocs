@@ -2,7 +2,7 @@
 title: Managing IT services in your organization
 description: You can leverage a few Service Operations Workspace integrations to promptly investigate the root cause and resolve the incidents that lead to unplanned interruptions and reduce the quality of IT services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/managing-services-operations-in-organization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/managing-services-operations-in-organization.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -25,41 +25,41 @@ You can leverage a few Service Operations Workspace integrations to promptly inv
 -   The agent can collaborate easily with the requester and peers right from the task.
 -   The agent can create a change request to fix the issue.
 
--   **[Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/knowledge-articles-sow.md)**  
+-   **[Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/knowledge-articles-sow.md)**  
 Knowledge articles provide agents with information such as self-help, troubleshooting, and task resolution.
--   **[Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/mim-in-sow.md)**  
+-   **[Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/mim-in-sow.md)**  
 Create and manage major incidents in Service Operations Workspace.
--   **[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)**  
+-   **[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)**  
 Use On-Call Scheduling in Service Operations Workspace to view and manage your shifts and schedules.
--   **[Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/problem-sow.md)**  
+-   **[Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/problem-sow.md)**  
 When you have recurring incidents or a major incident, you can create a problem to identify the root cause of the incidents and help prevent them from happening again. Use Service Operations Workspace to manage problems through their life cycle, share workarounds or fixes with related incidents, and create known error articles to help deflect incidents.
--   **[Recommendation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommendation-framework-sow.md)**  
+-   **[Recommendation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/recommendation-framework-sow.md)**  
 An agent can view dynamic and contextual recommendations and perform a relevant action.
--   **[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)**  
+-   **[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)**  
 Get guidance-based or field-level recommendations for records in Service Operations Workspace.
--   **[ServiceNow integrations with Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/msteams-sow.md)**  
+-   **[ServiceNow integrations with Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/msteams-sow.md)**  
 You can create a connected experience for users in Service Operations Workspace through ServiceNow integrations with Microsoft Teams.
--   **[Service Level Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/slm-sow.md)**  
+-   **[Service Level Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/slm-sow.md)**  
 You can access the service level agreement \(SLA\) information for an incident on the Service Operations Workspace landing page and incident record page.
--   **[Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/walkup-sow.md)**  
+-   **[Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/walkup-sow.md)**  
 Manage your Walk-up interactions and queues in Service Operations Workspace.
--   **[Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/collaboration-sow.md)**  
+-   **[Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/collaboration-sow.md)**  
 Collaboration services provide a way to communicate and collaborate in real time to resolve the incidents. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.
--   **[Computer Telephony Integration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-cti-sow.md)**  
+-   **[Computer Telephony Integration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-cti-sow.md)**  
 Service Operations Workspace provides an agent \(with the sn\_openframe\_user role\) to receive inbound calls and place outbound calls using the Computer Telephony Integration \(CTI\) interface.
--   **[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/using-ur-sow.md)**  
+-   **[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/using-ur-sow.md)**  
 The Universal Request is a task that a requester creates from any of the sources that include: Agent Workspace, Service Operations Workspace, or using a Virtual Agent chat.
--   **[Universal Task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/using-ut-sow.md)**  
+-   **[Universal Task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/using-ut-sow.md)**  
 Agents can use the Universal Task application to create tasks for employees and to manage the request resolution.
--   **[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/resetting-password-pr-sow.md)**  
+-   **[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/resetting-password-pr-sow.md)**  
 The Password Reset for Service Operations Workspace application enforces strong and secure passwords by enabling end users to reset or change their passwords by requesting the service desk agent.
 
-**Parent Topic:**[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-landing-page.md)
+**Parent Topic:**[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-landing-page.md)
 
 **Related topics**  
 
 
-[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
+[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 
-[Optimizing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/optimizing-services-operations-in-organization.md)
+[Optimizing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/optimizing-services-operations-in-organization.md)
 

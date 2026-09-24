@@ -2,7 +2,7 @@
 title: Yes/No
 description: The Yes or No variable creates a choice list with Yes and No as options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/yes-no.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/yes-no.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -18,7 +18,7 @@ The Yes or No variable creates a choice list with **Yes** and **No** as options.
 
 \[Omitted image "VariableYesNoG.png"\] Alt text: A Yes or No variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -33,7 +33,7 @@ The Yes or No variable creates a choice list with **Yes** and **No** as options.
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

@@ -2,7 +2,7 @@
 title: Publish a publication
 description: Automatically publish a publication with an optional email notification to send to customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/target-comm-publish-publications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/target-comm-publish-publications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

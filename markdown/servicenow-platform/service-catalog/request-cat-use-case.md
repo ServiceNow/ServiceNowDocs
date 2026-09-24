@@ -2,7 +2,7 @@
 title: Service Catalog and CSDM tables
 description: Service Catalog manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Service Catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-cat-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/request-cat-use-case.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -69,5 +69,5 @@ The CIs can include:
     Exposes the creator \(Record Producer\) of customer service cases and displays the Record Producer in the relevant self-service catalogs \(for example, Self-service Portal, Mobile, and Virtual Agent\).
 
 
-**Parent Topic:**[Service Catalog and CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-cat-use-case-product-view.md)
+**Parent Topic:**[Service Catalog and CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/request-cat-use-case-product-view.md)
 

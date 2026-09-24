@@ -2,7 +2,7 @@
 title: Architectural considerations
 description: This document intends to describe the ServiceNow Operational Technology Discovery architecture and covers how discovery components find, identify, and inventory devices in an Operational Technology environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/architect-considerations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/architect-considerations.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-08"
@@ -90,7 +90,7 @@ Because both Sensors and Collectors are independently deployed and selectable, a
 
 As devices respond, their details are collected and returned to the Console. These include device type, vendor, model, firmware version, network address, zone, Purdue level, and where applicable, photographic data. From the Console, the data is uploaded to the ServiceNow instance.
 
-**Note:** It should be noted that depending on your network structure, there are additional OT components used to reach the ServiceNow instance, if needed. For further information on OT Discovery connections, see the [OT Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md) or the [Service Graph Connector for ServiceNow OT Discovery Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery-guided-setup.md).
+**Note:** It should be noted that depending on your network structure, there are additional OT components used to reach the ServiceNow instance, if needed. For further information on OT Discovery connections, see the [OT Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/deployment-scenarios.md) or the [Service Graph Connector for ServiceNow OT Discovery Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-ot-discovery-guided-setup.md).
 
 Within the ServiceNow instance, discovered devices are mapped to configuration items predefined in the CMDB. These configuration items are based on industry and operational device types, reflecting the OT world your team works in every day. They can be edited and adjusted to fit the data retrieved, giving your team flexibility to tailor the inventory to your environment.
 
@@ -100,5 +100,5 @@ The result is an accurate, up-to-date inventory of your OT environment — built
 
 Operational Technology Discovery is built on the principle that visibility should not come at the cost of safety. By deploying the Console, Sensor, and Collector at deliberate positions within your network — and querying devices in a way that is safe for operational environments — the system adapts to your environment rather than requiring you to adapt your environment to it. Whether you're managing a single compact site or a large enterprise with dozens of segmented zones, the architecture scales accordingly. The result is a current, accurate inventory of your OT environment, fully integrated into ServiceNow and built without disrupting the operational processes your network supports.
 
-**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deploy-ot-discovery-devices-landing.md)
+**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/deploy-ot-discovery-devices-landing.md)
 

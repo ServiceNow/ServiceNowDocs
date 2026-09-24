@@ -2,7 +2,7 @@
 title: Open full lists within playbook
 description: Open a full list within playbook cards to view and update list items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/full-list-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/full-list-playbook.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -24,5 +24,5 @@ A new tab opens to show a full list, as shown in the following image.
 
 \[Omitted image "playbook-list-tab.png"\] Alt text: Playbook List Tab example
 
-**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

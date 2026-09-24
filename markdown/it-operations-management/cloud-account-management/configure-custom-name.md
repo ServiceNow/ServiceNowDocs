@@ -2,7 +2,7 @@
 title: Configure a custom name for Cloud Account Management
 description: Configure a custom name for Cloud Account Management. You can optionally re-brand the Cloud Account Management with your company or any custom name. The name change is applicable only on the Cloud Account Management home page and navigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configure-custom-name.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/configure-custom-name.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

@@ -2,12 +2,12 @@
 title: Exclude ServiceNow AI systems from a metric
 description: Exclude one or more ServiceNow AI systems from a specific metric, without changing that metric's configuration for every other system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-exclude-ai-systems-servicenow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-exclude-ai-systems-servicenow.html
 release: australia
 topic_type: task
 last_updated: "2026-08-17"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -51,7 +51,7 @@ You can optionally exclude one or more AI systems from a single metric without a
 
 The metric no longer evaluates the AI systems that you excluded. They remain subject to every other metric in your global configuration, and their existing scores for other metrics are unaffected.
 
-**Parent Topic:**[Configure evaluation scoring for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-servicenow-ai-systems.md)
+**Parent Topic:**[Configure evaluation scoring for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-servicenow-ai-systems.md)
 
 **Related topics**  
 

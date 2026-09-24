@@ -2,7 +2,7 @@
 title: Legacy: Problem Overview dashboard
 description: This dashboard shows the current state of open problems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-overview-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/problem-overview-dashboard.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -18,7 +18,7 @@ This dashboard shows the current state of open problems.
 
 **Important:**
 
-Starting in Xanadu release, the Problem overview dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem.md) to view, and track the open problems.
+Starting in Xanadu release, the Problem overview dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem.md) to view, and track the open problems.
 
 \[Omitted image "problem-overview.png"\] Alt text: The Problem Overview dashboard showing all widgets and reports
 

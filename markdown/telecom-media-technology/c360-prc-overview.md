@@ -2,7 +2,7 @@
 title: Party Relationship Center
 description: The Party Relationship Center \(PRC\) provides a single, unified view of all entities connected to a party, including billing accounts, sold products, related parties, and active cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-prc-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-prc-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-01"
@@ -19,7 +19,7 @@ The Party Relationship Center \(PRC\) provides a single, unified view of all ent
 
 An interactive graph of all entities connected to a party is displayed in the CSM/FSM Configurable Workspace. It is fully configurable and administrators can controlAdministrators can control which entities appear in the graph, what information is displayed on each node, and how relationships are visualized. A contextual side panel shows detailed information about any selected entity and eliminates the need to navigate across multiple screens or applications.
 
-Log in as a user with the sn\_telecom\_c360.user or the sn\_telecom\_c360.admin role and select the Party Relationship Center icon on the [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md). The map is displayed when a graph configuration exists for the selected consumer or account.
+Log in as a user with the sn\_telecom\_c360.user or the sn\_telecom\_c360.admin role and select the Party Relationship Center icon on the [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-home-page.md). The map is displayed when a graph configuration exists for the selected consumer or account.
 
 Each node in the map displays a header, subheader, highlighted value, and contextual side panel properties. You can configure these values per node type. The node map supports horizontal and vertical orientation. Selecting any node opens a contextual side panel that displays the configured properties for that entity. You can also navigate directly to a node's underlying record by selecting the open-record button in the side panel.
 
@@ -78,5 +78,5 @@ When the customer is an account, the map displays the parent account and up to f
 **Related topics**  
 
 
-[Configure the Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-prc.md)
+[Configure the Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-prc.md)
 

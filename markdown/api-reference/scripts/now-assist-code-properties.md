@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Code properties
 description: You can adjust how code generation functions on an instance using several advanced properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/now-assist-code-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/now-assist-code-properties.html
 release: australia
 product: Scripts
 classification: scripts
@@ -62,7 +62,7 @@ Enables using the Code with Now Assist dialog box to provide text prompts.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-scripts-from-text.md)
+-   Learn more: [Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/generate-scripts-from-text.md)
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Enables tracking which lines of code are AI-generated. In a script editor, the A
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Tracking AI-generated code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/tracking-ai-generated-code.md)
+-   Learn more: [Tracking AI-generated code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/tracking-ai-generated-code.md)
 
 </td></tr><tr><td>
 
@@ -153,5 +153,5 @@ Users with access to the system property table can modify system properties. How
 -   sn\_now\_assist\_code.enable\_auto\_complete
 -   sn\_now\_assist\_code.disable\_snowsk8s\_autocomplete
 
-**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-reference.md)
+**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/now-assist-code-reference.md)
 

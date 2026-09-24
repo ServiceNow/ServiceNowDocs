@@ -2,7 +2,7 @@
 title: Opportunity Marketplace overview
 description: The Opportunity Marketplace is a single, unified space where individuals and organizations can share opportunities that are discoverable by employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-opportunity-marketplace-ovrvw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/egd-opportunity-marketplace-ovrvw.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -170,7 +170,7 @@ Shows recommendations based on your top skills. Internal job listings show the j
 
 ## Hiring Core
 
-Hiring Core provides a repository to store information for your hiring requirements. Activate the Hiring Core plugin \(app-hiring-core\) to start using it. For more information on the hiring core tables, see [Components installed with Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-components-roles-tables.md).
+Hiring Core provides a repository to store information for your hiring requirements. Activate the Hiring Core plugin \(app-hiring-core\) to start using it. For more information on the hiring core tables, see [Components installed with Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-components-roles-tables.md).
 
 ## AI search
 
@@ -197,5 +197,5 @@ For more information on AI search and Zing search features, refer to the followi
 
 For more information on AI search and how to enable it, refer to [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md).
 
-**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-explore.md)
+**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-explore.md)
 

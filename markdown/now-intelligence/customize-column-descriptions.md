@@ -2,7 +2,7 @@
 title: Customize column descriptions and usage instructions
 description: Create custom column descriptions and usage instructions in the Semantic Column Configuration table so that customizations can be transferred between instances via update sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/customize-column-descriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/customize-column-descriptions.html
 release: australia
 topic_type: task
 last_updated: "2026-04-17"
@@ -66,5 +66,5 @@ The following examples show effective column descriptions and usage instructions
 
 Test your column configuration by asking questions that involve this field in Query Generation and verifying that the correct filters are generated.
 
-**Parent Topic:**[Customizing semantic metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-semantic-metadata.md)
+**Parent Topic:**[Customizing semantic metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/customize-semantic-metadata.md)
 

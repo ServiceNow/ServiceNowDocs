@@ -2,7 +2,7 @@
 title: Case Playbook for Product Support
 description: Use the Case Playbook for Product Support to guide agents through the steps that are needed to resolve product issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-product-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-product-support.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ The Case Playbook for Product Support is available for both CRM Workspace and CS
 
 ## Case Playbook for Product Support application
 
-The Case Playbook for Product Support 3.0 application \(com.sn\_csm\_product\_caseflow\) is available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
+The Case Playbook for Product Support 3.0 application \(com.sn\_csm\_product\_caseflow\) is available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md).
 
 ## Case Playbook for Product Support PAD process definition
 
@@ -55,7 +55,7 @@ Focused activity view
 
 Feature that determines how the stages and activities appear in the playbook.
 
- The Case Playbook for Product Support uses the[Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-select-activity-view.md) , which enables agents to see
+ The Case Playbook for Product Support uses the[Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-select-activity-view.md) , which enables agents to see
 
 -   The end-to-end life cycle of the product support workflow in the playbook life-cycle panel.
 -   The current stage is expanded and the current activity is highlighted within the playbook life-cycle panel.
@@ -77,11 +77,11 @@ Feature that displays the following information in the contextual side panel:
 
  For more information about using the contextual side panel, see
 
--   [Using activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using-activity-stream.md)
--   [Viewing the ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
--   [Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)
+-   [Using activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-using-activity-stream.md)
+-   [Viewing the ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
+-   [Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-rel-records.md)
 
- For more information about configuring this feature, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-config-activity-visibility.md).
+ For more information about configuring this feature, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-config-activity-visibility.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Feature that displays the records in the contextual side panel. These records dy
 
 **Note:** The dynamic related records feature is available in CRM Workspace only.
 
- For more information, see [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md).
+ For more information, see [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-rel-records.md).
 
 </td></tr><tr><td>
 
@@ -263,5 +263,5 @@ The Case Playbook for Product Support v5.0 application includes a process-based 
 -   Displays the email templates in the contextual side panel.
 -   Supports case summarization card on the left panel.
 
-Agents can create tasks as needed as well as view and update case details. For more information, see [Configure templates and pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-pages.md).
+Agents can create tasks as needed as well as view and update case details. For more information, see [Configure templates and pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-pages.md).
 

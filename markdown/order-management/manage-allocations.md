@@ -2,7 +2,7 @@
 title: Manage allocations
 description: Allocate and track sales credit across opportunity team members to recognize individual contributions, improve transparency, and support accurate revenue attribution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/manage-allocations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/manage-allocations.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -19,7 +19,7 @@ For clear visibility into who contributed to each sale, supporting collaboration
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

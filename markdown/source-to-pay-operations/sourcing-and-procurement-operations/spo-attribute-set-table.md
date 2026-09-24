@@ -2,7 +2,7 @@
 title: Attribute Set \[sn\_shop\_attribute\_set\] table
 description: The Attribute Set \[sn\_shop\_attribute\_set\] table groups attribute types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-attribute-set-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-attribute-set-table.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,7 +23,7 @@ This table contains the following fields.
 |Name|String|Name of the attribute set.|
 |Attribute types|List|Reference to all attribute types that belong to this set.|
 
-**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
 
 **Related topics**  
 

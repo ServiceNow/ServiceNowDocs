@@ -2,7 +2,7 @@
 title: Generate a Certificate Signing Request
 description: Use the Generate Certificate Signing \(CSR\) page to create a certificate signing request to support customer-signed certificates for your instance load balancer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/inf-sec-generate-csr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/inf-sec-generate-csr.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -20,9 +20,9 @@ Use the Generate Certificate Signing \(CSR\) page to create a certificate signin
 
 Role required: admin
 
-The Infrastructure Security \(com.glide.infrastructure\_security\) plugin must be installed to perform these steps. See[Infrastructure Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/infrastructure-security.md) for details on this plugin.
+The Infrastructure Security \(com.glide.infrastructure\_security\) plugin must be installed to perform these steps. See[Infrastructure Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/infrastructure-security.md) for details on this plugin.
 
-For information on using custom URLs with ServiceNow, see [Set a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-custom-url.md).
+For information on using custom URLs with ServiceNow, see [Set a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-custom-url.md).
 
 ## Procedure
 
@@ -56,7 +56,7 @@ For information on using custom URLs with ServiceNow, see [Set a custom URL as t
 After generating the CSR, complete the following steps to install the signed certificate on your instance:
 
 1.  Submit the CSR to your Certificate Authority \(CA\). The CA signs the request and returns a signed certificate file.
-2.  Upload the signed certificate to your instance. See [Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md).
+2.  Upload the signed certificate to your instance. See [Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_UploadACertificateToAnInstance.md).
 
-**Parent Topic:**[Infrastructure Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/infrastructure-security.md)
+**Parent Topic:**[Infrastructure Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/infrastructure-security.md)
 

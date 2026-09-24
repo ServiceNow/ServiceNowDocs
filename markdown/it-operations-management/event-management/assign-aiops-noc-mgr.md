@@ -2,7 +2,7 @@
 title: Assign AIOps NOC managers to group
 description: Assign the evt\_aiops\_manager role to the group that is responsible for managing NOC operators and AIOps AI specialists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/assign-aiops-noc-mgr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/assign-aiops-noc-mgr.html
 release: australia
 product: Event Management
 classification: event-management

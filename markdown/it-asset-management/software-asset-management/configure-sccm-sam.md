@@ -2,7 +2,7 @@
 title: Configure SCCM for Software Asset Management
 description: Set up Microsoft SCCM for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with client software found in your environment. You can also set up SCCM for Client Software Distribution to reclaim unused and underused software.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/configure-sccm-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/configure-sccm-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -57,7 +57,7 @@ Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
 ## What to do next
 
-Once you've configured SCCM and discovered your software applications, you can [create reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-reclamation-rule-sccm.md) to identify unused or underused software, [view software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-sw-usage-workspace.md), and [reclaim software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAReclCandidate.md).
+Once you've configured SCCM and discovered your software applications, you can [create reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-reclamation-rule-sccm.md) to identify unused or underused software, [view software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/view-sw-usage-workspace.md), and [reclaim software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_AddAReclCandidate.md).
 
-**Parent Topic:**[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md)
+**Parent Topic:**[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/Config-sam-workspace.md)
 

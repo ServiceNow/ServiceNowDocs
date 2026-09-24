@@ -2,7 +2,7 @@
 title: Customizing other mobile settings for ITOM Mobile Agent
 description: Learn how to customize your mobile experience further. Configure actionable notifications, set custom notification tones, and override the Do Not Disturb setting for critical issues to help your teams stay informed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/itom-mobile-other-customizations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/itom-mobile-other-customizations.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management

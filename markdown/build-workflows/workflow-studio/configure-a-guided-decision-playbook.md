@@ -2,7 +2,7 @@
 title: Configure a Guided Decision Playbook
 description: Configure a Guided Decision Playbook to walk users through decision-driven questions and actions toward a recommended outcome, delivered as a seamless runtime experience that runs standalone or inside another playbook. The Guided Layout removes the activity and stage pickers and consolidates previous responses into an accordion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-a-guided-decision-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/configure-a-guided-decision-playbook.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -55,7 +55,7 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     Guided Decision Playbooks are single-stage playbooks. A typical Guided Decision Playbook is composed of questionnaire activities to gather user input, decisions to branch based on responses, and guidance activities to deliver the recommended outcome at the end of each branch.
 
-    For more information, see [Create a playbook variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-playbook-variant.md) and [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
+    For more information, see [Create a playbook variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-playbook-variant.md) and [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
 3.  Add a decision from the mini-picker on the canvas to branch the flow based on the user's responses.
 
@@ -63,13 +63,13 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     \[Omitted image "playbook-add-decision.png"\] Alt text: Screenshot showing the mini-picker and the Add a decision option.
 
-    For information on adding and configuring a Decision activity, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-a-decision-activity.md).
+    For information on adding and configuring a Decision activity, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-a-decision-activity.md).
 
 4.  Activate the playbook from the playbook's header to publish it so that the Guided Layout bundle in UI Builder can find and render it.
 
     The bundle's playbook property only lists activated playbooks. If you change the playbook after activating, the system saves your changes but deactivates the playbook. Activate the playbook again to publish your changes.
 
-    For information on activation states and what happens when you edit an activated playbook, see [Playbook statuses and activation states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-status-activation-state.md).
+    For information on activation states and what happens when you edit an activated playbook, see [Playbook statuses and activation states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-status-activation-state.md).
 
 5.  Go to UI Builder, and create or open an Experience to host the playbook so end users can access it from the Playbook Experience, and create a page.
 

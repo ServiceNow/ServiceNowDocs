@@ -2,7 +2,7 @@
 title: Delete an automation
 description: Delete an automation to permanently remove an automated alert handling rule from your system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/delete-alert-automation-sow-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/delete-alert-automation-sow-itom.html
 release: australia
 product: Event Management
 classification: event-management

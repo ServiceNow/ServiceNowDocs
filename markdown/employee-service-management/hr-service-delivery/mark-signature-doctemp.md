@@ -2,7 +2,7 @@
 title: Mark a signature block
 description: Specify the area in the PDF document where you want to collect the signatures of participants.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/mark-signature-doctemp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/mark-signature-doctemp.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,9 +28,9 @@ Role required: sn\_doc.admin
 
 2.  Select the PDF document template you want to use.
 
-3.  [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-editable-pdf.md).
+3.  [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-editable-pdf.md).
 
-4.  [Create participants for a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-participant.md).
+4.  [Create participants for a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-participant.md).
 
 5.  Click **Mark Signatures**.
 

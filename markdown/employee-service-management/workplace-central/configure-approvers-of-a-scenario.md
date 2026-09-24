@@ -2,7 +2,7 @@
 title: Configure approvers of a scenario
 description: Configure approvers for scenarios that are sent for approval. Edit the scenario approval definition to add or remove scenarios. By default, the workplace managers are configured to approve a scenario
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/configure-approvers-of-a-scenario.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/configure-approvers-of-a-scenario.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -20,9 +20,9 @@ Configure approvers for scenarios that are sent for approval. Edit the scenario 
 
 You can either edit the default scenario approval definition, **Scenario Plan Approval**, that is provided the application or create a new approval definition.
 
-To create a new approval definition, refer to [Create an approval definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-approval-defintion.md).
+To create a new approval definition, refer to [Create an approval definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-approval-defintion.md).
 
-**Note:** To add an approver to the approval definition, the approver must be configured in the performer criteria. To do so, refer to [Create a workplace performer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-performer-criteria.md).
+**Note:** To add an approver to the approval definition, the approver must be configured in the performer criteria. To do so, refer to [Create a workplace performer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-workplace-performer-criteria.md).
 
 Role required: sn\_wsd\_core.admin
 
@@ -45,7 +45,7 @@ Role required: sn\_wsd\_core.admin
 
 The approver is configured to review the scenario.
 
-**Parent Topic:**[Configure Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/configure-workplace-central.md)
+**Parent Topic:**[Configure Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/configure-workplace-central.md)
 
 **Related topics**  
 

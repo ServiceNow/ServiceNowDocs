@@ -2,7 +2,7 @@
 title: Config Converse
 description: With Config Converse, you can use natural language to create simple or complex configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-config-converse.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-config-converse.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-23"

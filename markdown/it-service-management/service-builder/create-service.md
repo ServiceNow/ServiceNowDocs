@@ -2,7 +2,7 @@
 title: Create a service in Service Builder
 description: Create a service in Service Builder to model, map, and document your own business and technology management services and offerings that relate to your data in Service Portfolio Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-builder/create-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-builder/create-service.html
 release: australia
 product: Service Builder
 classification: service-builder
@@ -96,7 +96,7 @@ The stage and status for the service that you're creating.
 
  If you don't have the plugin installed, then the legacy Service Portfolio Management phase and status fields display.
 
- For information on the different types of fields, see [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-csdm.md).
+ For information on the different types of fields, see [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-csdm.md).
 
 </td></tr><tr><td>
 

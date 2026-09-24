@@ -2,7 +2,7 @@
 title: MID Web Server
 description: The MID Web Server is part of the common infrastructure of the MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/mid-web-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/mid-web-server.html
 release: australia
 product: Event Management
 classification: event-management
@@ -23,7 +23,7 @@ The MID Web Server extension supports MID Server clusters that are configured fo
 **Related topics**  
 
 
-[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
+[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension.md)
 
-[Configure a secure MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-midwebserver-extension-secure.md)
+[Configure a secure MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-midwebserver-extension-secure.md)
 

@@ -2,7 +2,7 @@
 title: Predictive Intelligence for Demand Management
 description: The Predictive Intelligence for Demand Management capability uses machine-learning algorithms to search and display similar demands while creating a demand in the Demand form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/predictive-intelligence-for-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/predictive-intelligence-for-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -67,14 +67,14 @@ Similarity
 View similar demands based on the **Demand Name** and **Description** fields. You can see the results in the **Similar demands** section on the Demand form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/exploring-demand-management.md)
+</table>**Parent Topic:**[Exploring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/exploring-demand-management.md)
 
 **Related topics**  
 
 
 [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)
 
-[Train the similarity solution for Demand Management to find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/train-similarity-solution-dm.md)
+[Train the similarity solution for Demand Management to find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/train-similarity-solution-dm.md)
 
-[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md)
 

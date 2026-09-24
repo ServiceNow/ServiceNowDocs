@@ -2,7 +2,7 @@
 title: Save a task from Field Service Manager Mobile
 description: Save a task to review it or check on it later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/save-manager-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/save-manager-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

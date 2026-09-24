@@ -27,7 +27,7 @@ The Privileged and Confidential status of a legal request and its associated mat
 
 As a collaborator added to a legal matter, you can access and work on the legal matter just as matter owners can. However, you can't modify the **Matter owner**, **Assignment group**, and **Assignment group permission** fields.
 
-**Note:** During times when you're unavailable, you can [delegate your legal duties to other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-services-delegation.md).
+**Note:** During times when you're unavailable, you can [delegate your legal duties to other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-services-delegation.md).
 
 ## Procedure
 
@@ -37,15 +37,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d194128e128">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d194132e128">
 
 Option
 
-</th><th align="left" id="d194128e131">
+</th><th align="left" id="d194132e131">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d194128e137">
+</th></tr></thead><tbody><tr><td id="d194132e137">
 
 **As an assignee**
 
@@ -57,7 +57,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d194128e166">
+</td></tr><tr><td id="d194132e166">
 
 **As a collaborator**
 
@@ -108,11 +108,11 @@ The state of the legal matter updates to Work in Progress.
     -   **Edit**: All members from the assignment group can view and edit the legal matter.
     **Note:** The matter owner, practice area lead, or group manager can set the assignment group permissions on the legal matter.
 
-7.  [Create artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md) \(folders\) and [attach files to a legal matter artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-files-to-artifact.md) to store the collected supporting documents within the matter.
+7.  [Create artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md) \(folders\) and [attach files to a legal matter artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-files-to-artifact.md) to store the collected supporting documents within the matter.
 
 8.  If the request must be reassigned to a new assignment group due to business needs, select a new assignment group in the **Assignment group** field.
 
-    **Note:** Editing of the **Assignment group** field is available only when the **Editable Assignment group in Matter** [option is configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md) in the associated intake form.
+    **Note:** Editing of the **Assignment group** field is available only when the **Editable Assignment group in Matter** [option is configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/associate-categories-practice-area.md) in the associated intake form.
 
     When the assignment group is changed, existing group members who are not in the updated assignment group might lose access to the matter. The **Matter owner** field is also cleared, and the matter owner is notified via email.
 
@@ -122,66 +122,66 @@ The state of the legal matter updates to Work in Progress.
 
     The collaborators are notified via email that they have been added as collaborators to a legal matter.
 
-10. [Initiate an ad hoc approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/initiate-approval-legal-matter.md) for the legal matter or its artifact's content when an approval is required from other stakeholders.
+10. [Initiate an ad hoc approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/initiate-approval-legal-matter.md) for the legal matter or its artifact's content when an approval is required from other stakeholders.
 
-11. [Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md) while resolving matters.
+11. [Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md) while resolving matters.
 
 12. Communicate with the requester or other stakeholders using emails, chats, work notes, or comments.
 
-    -   Using emails: Communicate with any stakeholders using emails. For more information, see [Communicate using emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/send-receive-email-legal-matter.md).
-    -   Using live chats: Communicate with any stakeholders using chats. For more information, see [Start a chat session through Legal Counsel Center Inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/chat-employee-counsel-center.md).
+    -   Using emails: Communicate with any stakeholders using emails. For more information, see [Communicate using emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/send-receive-email-legal-matter.md).
+    -   Using live chats: Communicate with any stakeholders using chats. For more information, see [Start a chat session through Legal Counsel Center Inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/chat-employee-counsel-center.md).
     -   Using Comments: To communicate with the requester or other stakeholders, in the Compose section, enter your message in the **Comments** field and click **Post Comments**.
     -   Using Work notes: Communicate with the other members of the legal department, in the Compose section, enter your message in the **Work notes** field and click **Post Work notes**.
 
         Using response templates, you can insert predefined content into emails, chats, and legal request and legal matter form fields such as **Comments** and **Work notes**. Select the response template icon \(\[Omitted image "response-template-email-icon.png"\] Alt text: Response template icon.\) and find an appropriate response template based on the subject of your email. Copy and paste the template's content into the required field.
 
-        **Note:** [Response templates configured for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-lsd-response-template.md) are only available to use.
+        **Note:** [Response templates configured for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/create-lsd-response-template.md) are only available to use.
 
     For legal matters enabled for attorney client privilege, markers are added to the email content to indicate the privileged and confidential status.
 
 13. Create and manage a checklist of items in the Counsel Assist section to track what should be done to resolve the legal matter.
 
-14. [Create phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-phases-to-legal-matter.md) and [tasks under phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md) to organize the investigation.
+14. [Create phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-phases-to-legal-matter.md) and [tasks under phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md) to organize the investigation.
 
     You can assign these tasks to users across various departments in your organization.
 
-15. [Add milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-milestone-to-legal-matter.md) to keep a track of timelines to complete important tasks.
+15. [Add milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-milestone-to-legal-matter.md) to keep a track of timelines to complete important tasks.
 
-16. [Associate the matter with another legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/associate-existing-matter-to-legal-request.md) that is similar in nature.
+16. [Associate the matter with another legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/associate-existing-matter-to-legal-request.md) that is similar in nature.
 
 17. Either close the legal matter after you have completed the required activities or cancel it if it does not need further action.
 
-    -   To close the matter, follow the instructions in [Close the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/close-legal-matter.md).
+    -   To close the matter, follow the instructions in [Close the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/close-legal-matter.md).
     -   To cancel the matter, click the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and select **Cancel**.
-18. If new information surfaces or further investigation is required [reopen the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/reopen-legal-matter.md) after it has been closed or canceled.
+18. If new information surfaces or further investigation is required [reopen the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/reopen-legal-matter.md) after it has been closed or canceled.
 
 
--   **[Initiate an ad hoc approval for a legal matter or its artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/initiate-approval-legal-matter.md)**  
+-   **[Initiate an ad hoc approval for a legal matter or its artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/initiate-approval-legal-matter.md)**  
 Initiate an ad hoc approval for a legal matter or its artifacts from a user or a user group.
--   **[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)**  
+-   **[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)**  
 Engage with outside counsel to benefit from their expertise for resolving legal matters.
--   **[Approve or reject a legal matter or its artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/approve-reject-legal-matter-artif.md)**  
+-   **[Approve or reject a legal matter or its artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/approve-reject-legal-matter-artif.md)**  
 Review a legal matter or its artifact's content and approve or reject it.
--   **[Communicate using emails from Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/send-receive-email-legal-matter.md)**  
+-   **[Communicate using emails from Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/send-receive-email-legal-matter.md)**  
 Compose and send emails directly from legal matter record form in the Legal Counsel Center. You can also save the email as draft to send it later.
--   **[Add a phase to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-phases-to-legal-matter.md)**  
+-   **[Add a phase to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-phases-to-legal-matter.md)**  
 Add a phase to a matter to track specific tasks to complete the matter.
--   **[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)**  
+-   **[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)**  
 Create a task in a legal matter or a phase of the matter that you or another user should perform to resolve the matter.
--   **[Create an artifact for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md)**  
+-   **[Create an artifact for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md)**  
 Create an artifact for a legal matter to upload and store documents, emails, and files related to the matter.
--   **[Add a milestone to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-milestone-to-legal-matter.md)**  
+-   **[Add a milestone to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-milestone-to-legal-matter.md)**  
 Add a milestone to a legal matter to track important calendar events related to the matter.
--   **[Associate related legal requests with a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/associate-related-legal-requests-to-matter.md)**  
+-   **[Associate related legal requests with a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/associate-related-legal-requests-to-matter.md)**  
 Associate one or more legal requests with a legal matter to organize and resolve related requests through a single matter.
--   **[Associate an existing legal matter with a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/associate-existing-matter-to-legal-request.md)**  
+-   **[Associate an existing legal matter with a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/associate-existing-matter-to-legal-request.md)**  
 Associate an existing legal matter with a legal request that is similar to provide helpful information in resolving the request.
--   **[Disable attorney client privilege for legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-acp-disable.md)**  
+-   **[Disable attorney client privilege for legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-acp-disable.md)**  
 Disable privileged and confidential status of a legal matter.
--   **[Close a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/close-legal-matter.md)**  
+-   **[Close a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/close-legal-matter.md)**  
 Close a legal matter assigned to you when you complete all activities for resolving the legal matter. You can also close the matter if you find that it doesn’t need any further action.
--   **[Reopen a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/reopen-legal-matter.md)**  
+-   **[Reopen a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/reopen-legal-matter.md)**  
 If a legal matter requires further investigation after it was closed or canceled, you can reopen it to work on it again.
 
-**Parent Topic:**[Using Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-use-landing.md)
+**Parent Topic:**[Using Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-use-landing.md)
 

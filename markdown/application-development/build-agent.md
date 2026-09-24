@@ -2,12 +2,12 @@
 title: Build Agent
 description: Use Build Agent, an autonomous AI agent, for creating and updating ServiceNow applications. You can also ask Build Agent general ServiceNow development questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-24"
 reading_time_minutes: 2
-keywords: [Build Agent, AI agent, autonomous AI, application development, ServiceNow applications, conversational interface, natural language, application lifecycle management, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [Build Agent, AI agent, autonomous AI, application development, ServiceNow applications, conversational interface, natural language, application lifecycle management, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -19,19 +19,19 @@ Use Build Agent, an autonomous AI agent, for creating and updating ServiceNow® 
 
 <table id="table_a3w_q5k_hgc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Build Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Build Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-build-agent.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure Build Agent to use its features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure Build Agent to use its features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/install-build-agent.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Build Agent to autonomously create and update ServiceNow applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Build Agent to autonomously create and update ServiceNow applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-build-agent.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-try-a-demo.svg"\] Alt text:Build Agent reference material, such as example prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-reference-landing.md)
+[Reference\[Omitted image "bus-try-a-demo.svg"\] Alt text:Build Agent reference material, such as example prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-reference-landing.md)
 
 </td></tr></tbody>
 </table>**Important:**

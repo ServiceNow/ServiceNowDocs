@@ -2,7 +2,7 @@
 title: Install Care Team Operations for Environmental Services
 description: Install the Care Team Operations for Environmental Services application \[sn\_cto\_evs\] if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

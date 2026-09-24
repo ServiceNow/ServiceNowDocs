@@ -2,7 +2,7 @@
 title: Customer Service Virtual Agent conversations
 description: Predefined Customer Service Virtual Agent chatbot conversations enable your customers to get help with the product. Integrating Natural Language Understanding \(NLU\) models with your virtual agent chatbot topics enables chatbots to analyze, understand, and navigate the user to the right topic based on the inferred intent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-virtual-agent-chatbot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-virtual-agent-chatbot.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ The system administrator or a virtual agent admin must do the following to enabl
 
     -   Get Help \(Template\)
 
-        This topic is for users who are not logged in and want to chat anonymously. Users can use keywords and search relevant knowledge articles or choose to be transferred to a live agent. You can integrate this topic with the [Virtual agent - Facebook messaging integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/update-authentication-facebook-va-integration.md) to enable chat using your messaging application.
+        This topic is for users who are not logged in and want to chat anonymously. Users can use keywords and search relevant knowledge articles or choose to be transferred to a live agent. You can integrate this topic with the [Virtual agent - Facebook messaging integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/update-authentication-facebook-va-integration.md) to enable chat using your messaging application.
 
     -   Get Help with an Order \(Template\)
 
@@ -68,14 +68,14 @@ Your users can run the published topics in your chat support client.
     -   GetHelpWithProduct
     -   GetHelpWithOrder
     -   SubmitRequest
-    Each intent corresponds to a [chatbot topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-conversation.md). To customize an intent, you can [import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/import-nlu-intent.md) an existing intent from the Customer Service NLU for Virtual Agent model and then [link the NLU model with the associated intent for the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md).
+    Each intent corresponds to a [chatbot topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-virtual-agent-conversation.md). To customize an intent, you can [import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/import-nlu-intent.md) an existing intent from the Customer Service NLU for Virtual Agent model and then [link the NLU model with the associated intent for the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md).
 
 -   Enable ServiceNow NLU in the [general settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-conversation-settings.md).
 
 **Related topics**  
 
 
-[Get help using virtual agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-conversation.md)
+[Get help using virtual agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-virtual-agent-conversation.md)
 
 [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md)
 

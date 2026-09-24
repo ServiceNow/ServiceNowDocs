@@ -2,7 +2,7 @@
 title: Manage a user group segment
 description: After creating a user group segment, you can review and edit it before you create cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/bulk-case-segment-manage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/bulk-case-segment-manage.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -55,5 +55,5 @@ Role required: sn\_hr\_core.admin
 6.  After changing a user's status, select **Save**.
 
 
-**Parent Topic:**[Creating bulk cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/bulk-case.md)
+**Parent Topic:**[Creating bulk cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/bulk-case.md)
 

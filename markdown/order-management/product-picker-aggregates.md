@@ -2,7 +2,7 @@
 title: Product picker aggregates
 description: Aggregates help calculate and summarize data in products. Learn how to use aggregates in a product picker.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/product-picker-aggregates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/product-picker-aggregates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Aggregates help calculate and summarize data in products. Learn how to use aggre
 
 Product pickers let users select products from a list. Aggregates help calculate and summarize data \(like sums, counts, or averages\) from the selected products.
 
-**Note:** Before you read this article, we recommend that you understand the product picker field type and how to create a product picker. See [Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product_picker_overview.md).
+**Note:** Before you read this article, we recommend that you understand the product picker field type and how to create a product picker. See [Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product_picker_overview.md).
 
 Product picker aggregates allow data collection and calculation for specific fields in a product picker. This helps analyze data directly from the product picker options.
 
@@ -103,7 +103,7 @@ For steps to create and configure an aggregate using API calls, see [Adding a pr
 
 ## Viewing a product picker aggregate
 
-Aggregate fields can be added to the layout and will automatically be calculated on the change of a field. Just as we can search a normal field by its display name or variable name and add it to the layout, we can do the same with the product picker aggregate. We search the aggregate field name or variable name of the newly created field, define the position in the layout by adding it under the product picker field for ease of display, and save the layout. To read more about the layout editor, see [Layout editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_editor.md).
+Aggregate fields can be added to the layout and will automatically be calculated on the change of a field. Just as we can search a normal field by its display name or variable name and add it to the layout, we can do the same with the product picker aggregate. We search the aggregate field name or variable name of the newly created field, define the position in the layout by adding it under the product picker field for ease of display, and save the layout. To read more about the layout editor, see [Layout editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_editor.md).
 
 \[Omitted image "cpq-product-picker-aggregates-new-2.png"\] Alt text: Product picker: Aggregates
 

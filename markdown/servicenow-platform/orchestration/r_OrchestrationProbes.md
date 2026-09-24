@@ -2,7 +2,7 @@
 title: Probes used by Orchestration
 description: Certain probes, controlled by MID Servers, perform Orchestration tasks on remote computers, such as restarting a server or creating virtual machines from templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_OrchestrationProbes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/r\_OrchestrationProbes.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -206,5 +206,5 @@ A probe that runs a Windows PowerShell script on the MID Server. The PowerShell 
 -   *$cred*: A PowerShell credential, using a user name and password from the Credentials table, that logs into *$computer* successfully.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_OrchestrationBasicActivities.md)
+</table>**Parent Topic:**[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_OrchestrationBasicActivities.md)
 

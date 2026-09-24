@@ -2,7 +2,7 @@
 title: Set up the Successful VPN Attempts from the Service Accounts playbook
 description: Use the following steps to set up the Successful VPN Attempts from the Service Accounts playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-successful-vpn-attempts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-setup-successful-vpn-attempts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,5 +46,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
     This playbook is triggered and associated with the security incident when the security incident is created or updated based on your required conditions. For example, when **Category** is **Insider Breach**.
 
 
-**Parent Topic:**[Playbook for Successful VPN Attempts from the Service Accounts - Corp/Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-successful-vpn-attempts.md)
+**Parent Topic:**[Playbook for Successful VPN Attempts from the Service Accounts - Corp/Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-successful-vpn-attempts.md)
 

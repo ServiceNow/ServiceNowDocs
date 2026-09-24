@@ -2,7 +2,7 @@
 title: Jumpstart Your Migration of Platform Analytics
 description: The Jumpstart Your Migration of Platform Analytics Accelerator provides a demonstration of how to successfully prepare and migrate your Platform Analytics content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-migration-platform-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-migration-platform-analytics.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

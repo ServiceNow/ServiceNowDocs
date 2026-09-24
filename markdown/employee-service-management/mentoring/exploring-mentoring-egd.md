@@ -2,7 +2,7 @@
 title: Exploring Mentoring
 description: The Mentoring application provides the opportunity for employees to find and build meaningful mentoring relationships to drive employee growth and engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/exploring-mentoring-egd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/mentoring/exploring-mentoring-egd.html
 release: australia
 product: Mentoring
 classification: mentoring
@@ -47,13 +47,13 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Mentoring comes with optional demo data.
 
-For more information, see [Configuring mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/configuring-mentoring-egd.md) and [Mentoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/mentoring-egd-reference.md).
+For more information, see [Configuring mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mentoring/configuring-mentoring-egd.md) and [Mentoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mentoring/mentoring-egd-reference.md).
 
 ## Using Mentoring
 
 Use Mentoring to get a better understanding of your learnings. Act on items that need immediate attention, keep yourself up to date on upcoming content items, courses, and so on.
 
-For more information, see [Using Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/using-mentoring-egd.md).
+For more information, see [Using Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mentoring/using-mentoring-egd.md).
 
 ## Skills Foundation integration with Mentoring
 

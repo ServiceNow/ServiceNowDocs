@@ -2,7 +2,7 @@
 title: Using source control in the ServiceNow IDE
 description: Use Git commands and other source control features in the ServiceNow IDE to manage changes to an application across a development team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -45,7 +45,7 @@ Clone \(\[Omitted image "servicenow-ide-more-actions-icon.png"\] Alt text: More 
 
 </td><td>
 
-Clone a remote repository to add an application to your workspace.For more information, see [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md).
+Clone a remote repository to add an application to your workspace.For more information, see [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md).
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ The commit history for a branch is listed in the Commits section of the Source C
 
 To update the remote repository an application is connected to, you can use the `Git: Update remote origin` command from the command palette and enter a different remote repository URL.
 
-**Parent Topic:**[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
+**Parent Topic:**[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
 
 **Related topics**  
 

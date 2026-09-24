@@ -2,7 +2,7 @@
 title: Create an audit report template in classic formats
 description: Create an audit report template to generate an audit report. If you're an audit developer, you can use either the HTML, Script, or XML format to create an audit report template. You can then use the audit report template to display data in an audit report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-audit-report-temp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/create-audit-report-temp.html
 release: australia
 product: Audit Management
 classification: audit-management

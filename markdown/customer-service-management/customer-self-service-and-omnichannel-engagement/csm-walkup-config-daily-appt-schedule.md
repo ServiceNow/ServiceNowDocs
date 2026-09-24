@@ -2,7 +2,7 @@
 title: Configure daily schedules for Walk-up Experience service appointment booking
 description: Specify different daily hours of operation for your Walk-up Experience location appointment booking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-config-daily-appt-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-config-daily-appt-schedule.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

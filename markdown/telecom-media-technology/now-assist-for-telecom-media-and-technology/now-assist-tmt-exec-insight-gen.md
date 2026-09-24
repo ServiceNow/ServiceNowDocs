@@ -2,7 +2,7 @@
 title: Activate the Executive Insight Generator skill
 description: Enable AI-generated engagement briefs that summarize recent signals across risk, adoption, and market activity on the engagement record page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exec-insight-gen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exec-insight-gen.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -40,11 +40,11 @@ The **Executive Insight Generator** skill is inactive by default. After activati
 
 ## What to do next
 
-For information about insight categories, trigger types, and refresh behavior, see .
+For information about insight categories, trigger types, and refresh behavior, see [Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md).
 
-To create custom triggers for the Executive Insight Generator, see .
+To create custom triggers for the Executive Insight Generator, see [Configure a custom trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-custom-trigger.md).
 
-To activate the **Recommendations** panel on the engagement record page, activate the Signal to Action Recommender skill. See [Activate the Event-Context Candidate Recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-reco-actions-skill.md) for details.
+To activate the **Recommendations** panel on the engagement record page, activate the Signal to Action Recommender skill. See [Activate the Event-Context Candidate Recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-reco-actions-skill.md) for details.
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

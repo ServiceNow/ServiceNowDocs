@@ -2,7 +2,7 @@
 title: Update an entity
 description: Update the details of an existing entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/update-an-entity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/update-an-entity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Role required: \(per product\)
     |-----|-----------|
     |Tabs|
     |Overview tab|Compliance status and risk status of the entities. Tracking details of the issues, controls, and policy exceptions. This field is automatically set to display the overview of the status and the tracking details.|
-    |Details tab|Information on the entity. For more information on the **Details** tab, see [Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity.md) for more information.|
+    |Details tab|Information on the entity. For more information on the **Details** tab, see [Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity.md) for more information.|
     |Hierarchy tab|Upstream entities and downstream entities for the selected entity. A parent entity that has the child entities is said to have the downstream entities. Any child entity that has the parent entities is said to have the upstream entities. Select an entity and select **Add** to add an upstream or downstream entity to the parent entity.|
     |Related lists|
     |Entity types|Details of the entity type, description, filter condition for the entity type, and the compliance score in percentage.|
@@ -58,5 +58,5 @@ Role required: \(per product\)
 7.  To visually explore the relationship between the upstream entities, downstream entities, entity class, and entity type associated with the entity, select **360° view**.
 
 
-**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/entities-in-esg.md)
+**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/entities-in-esg.md)
 

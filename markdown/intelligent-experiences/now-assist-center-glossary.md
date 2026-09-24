@@ -2,7 +2,7 @@
 title: AI Admin Center glossary
 description: Before getting started with AI Admin Center, it is important to understand some key concepts used in the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-glossary.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -17,7 +17,7 @@ Before getting started with AI Admin Center, it is important to understand some 
 
 For more helpful terminology, see [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) glossary.
 
-**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
+**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a knowledge base article from the Source-to-Pay Workspace
 description: Create knowledge base articles within a knowledge base to share information across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/create-kb-s2p.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/create-kb-s2p.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -58,5 +58,5 @@ Role required: sn\_slm.manager, sn\_shop.procurement\_specialist\_manager, or ad
 7.  Select **Save**.
 
 
-**Parent Topic:**[Use Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/using-source-to-pay-ws.md)
+**Parent Topic:**[Use Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/using-source-to-pay-ws.md)
 

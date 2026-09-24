@@ -2,11 +2,11 @@
 title: Combined AI Desktop Actions release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for AI Desktop Actions from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aidesktopactions-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-aidesktopactions-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 8
+last_updated: "2026-09-24"
+reading_time_minutes: 24
 breadcrumb: [Products combined by family]
 ---
 
@@ -73,7 +73,78 @@ Zurich
 
 </td><td>
 
--   **[Improved error and informational messages](https://www.servicenow.com/docs/access?context=test-activate-desktop-action-ad&family=zurich&ft:locale=en-US)**
+-   **[Preserve context across long-running sessions](https://www.servicenow.com/docs/access?context=na-ai-wa-access-using-nap&family=zurich&ft:locale=en-US)**
+
+Preserve context across long-running sessions by summarizing older step history instead of discarding it. When history exceeds the configured window, older steps are automatically summarized instead of being discarded. They preserve context about earlier actions, failed approaches, and application state.
+
+-   **[New system properties introduced to manage compaction](https://www.servicenow.com/docs/access?context=components-installed-with-agentic-desktop&family=zurich&ft:locale=en-US)**
+
+Three new system properties are included to manage the compaction feature:
+
+    |Property|Type|Default|Purpose|
+    |--------|----|-------|-------|
+    |sn\_naa.web\_agent.compaction\_enabled|true \| false|true|Enables summarization of steps that exceed the history limit, rather than discarding them. When turned off, only the most recent configured number of steps are retained.|
+    |sn\_naa.web\_agent.compaction\_history\_limit|Integer|15|Sets the maximum number of unsummarized steps allowed before the oldest batch is summarized. When unsummarized steps exceed this value, compaction is triggered.|
+    |sn\_naa.web\_agent.summarization\_batch\_size|Integer|10|Sets the number of steps combined into a single summary. Larger batches reduce how often summarization runs, but produce less granular summaries.|
+
+
+ -   **[Unified automation workflow](https://www.servicenow.com/docs/access?context=explore-agentic-desktop&family=zurich&ft:locale=en-US)**
+
+Use the unified automation creation journey that eliminates manual intervention and saves time.
+
+    -   Request automations from Task Mining to automate desktop activities collected by the Task Mining agent.
+    -   Generate automations in Automation Center to create on-screen and background desktop actions.
+    -   From Automation Center, automatically create an AI agent that uses these desktop action tools.
+    -   Test and deploy the AI agent in AI Agent Studio.
+
+ -   **[Record desktop actions with AI](https://www.servicenow.com/docs/access?context=record-with-ai-ad&family=zurich&ft:locale=en-US)**
+
+    -   Record on-screen task desktop actions using AI to automatically validate anchor positions and generate screen contexts at design time, reducing automation failures caused by fragile anchors at testing or runtime.
+    -   Use a new role, sn\_desktop\_core.desktop\_action\_user that enables users to record desktop action with AI.
+    -   Enable AI to analyze the recording in three stages: analyzing the recording, inserting anchors, and generating screen contexts by selecting **Record with AI \(recommended\)** in the **Create Desktop Action** dialog and finish recording.
+    -   Identify AI-generated anchors and screen contexts that are marked with an AI badge in the properties panel. Each screen includes an editable screen context that helps AI agents understand the screen's intent at runtime.
+    -   Regenerate screen context and anchor positions that don't meet your expectations by selecting **Retry** in the screen properties panel.
+    -   Resolve anchor issues before activation by responding to the alert that appears when any screens have failed anchors in a desktop action recorded with AI.
+    -   Reduce manual setup time by letting AI auto-fill the desktop action intent in the **Action description** field when you select the **Record with AI** option. An AI badge confirms that the description was filled by AI.
+    -   Control whether **Record with AI** is the default recording option by configuring the new **sn\_desktop\_core.record\_with\_ai** property. By default, its value is set to true.
+**Important:** Record with AI requires the ServiceNow AI Lens skill to be active and you must have the sn\_desktop\_core.desktop\_action\_user role. If any of these conditions is not met, the **Record with AI** option is unavailable. You can still create desktop actions using auto-capture mode. Contact your ServiceNow administrator to enable these settings.
+
+-   **[Configure parameters for dynamic values](https://www.servicenow.com/docs/access?context=configure-parameter-record-ad&family=zurich&ft:locale=en-US)**
+
+    -   Provide dynamic values, such as credentials and user-specific inputs to on-screen task desktop actions by creating Desktop action parameter records in your ServiceNow instance.
+    -   Make a single stored parameter value available to all users by selecting the **Shared** field on a parameter record. When **Shared** is selected, the agent uses the one associated parameter value record, regardless of which user triggered the agent. Only a user with the sn\_aia.admin role can create the parameter value record for a shared parameter.
+    -   Encrypt all associated parameter value records by selecting the **Mark As Sensitive** field on a parameter record. The agent decrypts the value at execution time. For non-sensitive parameters, the value is passed to the agent as plain text.
+    -   In the AI Desktop Actions client application, enable the Set Text and Send Keys step types to use parameters by selecting the **Use parameter** property.
+    -   In AI Agent Studio, when you add an on-screen task desktop action tool that contains inputs configured for parameters, the **Map parameters** section appears. You can map inputs of on-screen task desktop actions to parameter records. These parameter values aren't exposed in agent instructions. Select a parameter record for each input to define the value the AI agent uses when executing the desktop action.
+**Important:**
+
+The **Shared** and **Mark As Sensitive** fields can only be modified when no Desktop action parameter value records exist under the parameter record.
+
+
+ -   **[Use the new application name](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=zurich&ft:locale=en-US)**
+
+The product formerly referred to as Agentic Desktop has been rebranded as AI Desktop Actions. All UI labels, navigation elements, and in-product text updated to reflect the new name.
+
+-   **[Automate dynamic steps with desktop actions](https://www.servicenow.com/docs/access?context=web-agents-overview&family=zurich&ft:locale=en-US)**
+    -   Use the desktop action to automate dynamic steps that are determined by AI during execution.
+    -   Install the **ServiceNow Web Automation** chrome extension for AI agent to interact with web applications.
+    -   Use the default Web Automation Agent AI agent and Web Automation agentic workflow to automate repetitive tasks.
+    -   See every click, keystroke, and scroll your AI agent makes in real time, with consent prompts before execution kicks off and timely warnings before your session expires.
+    -   Pause a running AI agent, provide corrective input, and resume. The AI agent replans based on your instructions, keeping execution on the right track.
+-   **[Use the onboarding wizard to get the app overview](https://www.servicenow.com/docs/access?context=desktop-actions&family=zurich&ft:locale=en-US)**
+
+Get a quick overview of the application by using the onboarding wizard that highlights recording, refining, testing, and activating desktop actions.
+
+Select **Skip intro** to bypass the onboarding wizard and go to the home page. Select the **Don't show this again** option to prevent the wizard from appearing the next time you open the app. After completing the onboarding wizard, select **Get started** to start creating desktop actions.
+
+-   **[Filter required inputs for testing](https://www.servicenow.com/docs/access?context=test-activate-desktop-action-ad&family=zurich&ft:locale=en-US)**
+
+Use filtering options to filter the inputs that are required.
+
+    -   **Show Inputs** — Filters the screens with required input fields.
+    -   **Show All** — Removes the filter and displays all screens.
+
+ -   **[Improved error and informational messages](https://www.servicenow.com/docs/access?context=test-activate-desktop-action-ad&family=zurich&ft:locale=en-US)**
 
 Improved error and informational messages for better guidance and troubleshooting during testing of desktop actions.
 
@@ -86,13 +157,126 @@ Added a **Delete** button to the image canvas to remove a screen.
 Test screens directly from the design tab while designing desktop actions.
 
 
+ -   **[Smart sizing in the Execution workspace](https://www.servicenow.com/docs/access?context=agentic-desktop-excution-workspace&family=zurich&ft:locale=en-US)**
+
+Smart sizing is now supported in the Execution Workspace with **Fit to window** and **Original resolution** options. The **Original resolution** option allows you to access different areas of the captured screen more easily.
+
+    -   **Fit to window**: Automatically scales the desktop session to fit within the Execution Workspace while keeping it fully visible and readable.
+    -   **Original resolution**: Displays the desktop session at its original resolution. Scroll bars appear if the desktop session is larger than the Execution workspace.
+-   **[Recorder enhancements](https://www.servicenow.com/docs/access?context=action-recorder-ad&family=zurich&ft:locale=en-US)**
+    -   The recorder toolbar is now floating, making it easier to access application controls during recording.
+    -   The recorder now adds only one screen per unique window during recording by auto-merging and optimizing duplicate screens.
+    -   You can capture maximum of 50 steps using the recorder in a recording session. While auto-capturing steps, a counter now displays the remaining number of steps you can record using the recorder \(for example, “35 of 50 max”\).
+-   **[Screen-level testing](https://www.servicenow.com/docs/access?context=test-activate-desktop-action-ad&family=zurich&ft:locale=en-US)**
+    -   Quickly isolate and troubleshoot issues by testing a specific screen within desktop actions without running the entire flow.
+    -   While working on a desktop action, the test values you enter are retained across test runs until you close the desktop action or reset the test values.
+-   **[View list of existing desktop actions](https://www.servicenow.com/docs/access?context=desktop-actions-designer-workspace-ad&family=zurich&ft:locale=en-US)**
+    -   View list of all existing desktop actions in the Desktop Action module in the ServiceNow instance. View related lists that include Desktop Action application, AI Agents, and Desktop action executions for UI block, and AI Agents and Desktop action executions for non-UI block.
+-   **[Improved AI Desktop Actions installer experience](https://www.servicenow.com/docs/access?context=download-agentic-desktop-installer&family=zurich&ft:locale=en-US)**
+
+The installer now guides you through the following two configurations that are essential for seamless execution of desktop actions:
+
+    -   Option to automatically add the current user to the Windows Remote User group
+    -   Configuration that validates if required .NET Desktop Runtime is installed or not. If not installed, provides a link to download and install the same.
+
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Support for different screen resolutions and scaling](https://www.servicenow.com/docs/access?context=agentic-desktop-overview&family=zurich&ft:locale=en-US)**
+
+Desktop actions now run reliably on machines with different screen resolutions and scaling. Screen resolution and scaling are consistent across all screens of a desktop actions during creation, saving, and publishing.
+
+
+ -   **[Design UI block desktop actions in Design workspace](https://www.servicenow.com/docs/access?context=agentic-desktop-overview&family=zurich&ft:locale=en-US)**
+
+Design, configure, and manage desktop actions in the Design workspace that enables:
+
+    -   Auto-recording or manually capturing screens and defining UI interactions, such as clicking buttons, typing into text boxes, and selecting from drop-down menus.
+    -   Adding details such as name, description, input and output parameters.
+    -   Testing desktop actions before activating them.
+    -   Publishing desktop actions to AI Agent Studio as tools for AI agents to execute.
+Example: Filling out fields and submitting a form.
+
+-   **[Use non-UI block desktop actions](https://www.servicenow.com/docs/access?context=desktop-actions-designer-workspace-ad&family=zurich&ft:locale=en-US)**
+
+Add default desktop actions of the type non-UI block as tools to AI agents in AI Agent Studio. The non-UI block actions include pre-built connectors that enable your agentic workflows to interact with various applications and system components. These connectors streamline automation by offering pre-built actions for common tasks, reducing the need for complex scripting.
+
+Each connector focuses on a specific application or system area, providing a collection of related actions. For example, the Microsoft Outlook connector offers actions for email management, while the File and Directory connector provides actions for file system operations.
+
+The following connectors are supported:
+
+    -   Microsoft Excel
+    -   Microsoft Outlook
+    -   Microsoft Word
+    -   PDF
+    -   PowerShell
+    -   SQL
+    -   SSH
+    -   SystemAction
+Example: Reading data from Microsoft Excel or emails from Microsoft Outlook.
+
+-   **[Adding desktop actions to AI agents in AI Agent Studio](https://www.servicenow.com/docs/access?context=create-ai-agents-ad&family=zurich&ft:locale=en-US)**
+
+Seamless integration with AI Agent Studio has enabled effortless configuration of desktop actions to automate repetitive tasks on applications without APIs. AI agents can reason, plan, and execute desktop actions autonomously and semi-autonomously across legacy systems and desktop applications without complex setups.
+
+-   **[Monitor desktop actions in Execution workspace](https://www.servicenow.com/docs/access?context=use-agentic-desktop&family=zurich&ft:locale=en-US)**
+
+Trigger desktop actions from the Now Assist panel that are executed by AI agents in the Execution workspace. Interact with the automation when human input is required. These automations run in the background and listen for instructions dispatched from the ServiceNow instance. You can continue working on other desktop applications outside Execution workspace.
+
+-   **[Leverage core desktop capabilities](https://www.servicenow.com/docs/access?context=desktop-actions-designer-workspace-ad&family=zurich&ft:locale=en-US)**
+
+Automate form filling, application clicks, and Windows OS file handling. Create workflows across legacy systems, thick client applications, and business applications on Windows operating system to perform repetitive tasks.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Unified automation workflow](https://www.servicenow.com/docs/access?context=explore-agentic-desktop&family=australia&ft:locale=en-US)**
+-   **[Execute adaptive desktop actions on macOS](https://www.servicenow.com/docs/access?context=ai_desktop_actions_adaptive&family=australia&ft:locale=en-US)**
+
+Download the new AI Desktop Actions installer for macOS with M-series processor support \(ARM64 architecture\). The adaptive desktop actions enable AI agents to navigate applications and browsers and perform tasks on macOS systems. Both adaptive and defined desktop actions are now available with platform-specific installers.
+
+    -   Review the AI agent's execution plan before it runs and pause execution to make manual adjustments at any time.
+    -   Explicit user consent is required before the AI agent can access desktop, third-party services, and files.
+    -   Monitor the live execution of adaptive desktop actions in the preview window.
+    -   Refer the real-time status tracking that shows whether the AI agent is initiating, running, or paused.
+    -   Take control of the execution where your input is needed.
+    -   The AI agent batches consecutive actions into single execution calls where possible, minimizing round trips and reducing overall execution time.
+-   **[Control resource access using policy and rules](https://www.servicenow.com/docs/access?context=security_policy_governance_concept&family=australia&ft:locale=en-US)**
+
+Create policies and rules to control which resources AI agents can access.
+
+    -   Policies: Collection of resource access rules that applies to a specific user group or set of users based on defined user criteria.
+    -   Resource access rules: Specific restrictions controlling agent access to various resource types, such as files, folders, websites, and applications.
+    -   Bi-directional policy-rule mapping: Link policies to rules from either the policy record or the rule record, enabling rule reuse across multiple policies.
+-   **[Credential and dynamic parameter management](https://www.servicenow.com/docs/access?context=credential-storage&family=australia&ft:locale=en-US)**
+
+Reference credentials or other user-specific values by name in your instructions. The agent resolves them securely at execution time, so you never have to type them in yourself.
+
+-   **[File upload and download](https://www.servicenow.com/docs/access?context=upload-download-file&family=australia&ft:locale=en-US)**
+
+Upload files to web forms and track file downloads during automated browser tasks. The agent validates file safety, confirms the target field with the reasoning model, and escalates to the user when it can't proceed safely.
+
+
+ -   **[Preserve context across long-running sessions](https://www.servicenow.com/docs/access?context=na-ai-wa-access-using-nap&family=australia&ft:locale=en-US)**
+
+Preserve context across long-running sessions by summarizing older step history instead of discarding it. When history exceeds the configured window, older steps are automatically summarized instead of being discarded. They preserve context about earlier actions, failed approaches, and application state.
+
+-   **[New system properties introduced to manage compaction](https://www.servicenow.com/docs/access?context=components-installed-with-agentic-desktop&family=australia&ft:locale=en-US)**
+
+Three new system properties are included to manage the compaction feature:
+
+    |Property|Type|Default|Purpose|
+    |--------|----|-------|-------|
+    |sn\_naa.web\_agent.compaction\_enabled|true \| false|true|Enables summarization of steps that exceed the history limit, rather than discarding them. When turned off, only the most recent configured number of steps are retained.|
+    |sn\_naa.web\_agent.compaction\_history\_limit|Integer|15|Sets the maximum number of unsummarized steps allowed before the oldest batch is summarized. When unsummarized steps exceed this value, compaction is triggered.|
+    |sn\_naa.web\_agent.summarization\_batch\_size|Integer|10|Sets the number of steps combined into a single summary. Larger batches reduce how often summarization runs, but produce less granular summaries.|
+
+
+ -   **[Unified automation workflow](https://www.servicenow.com/docs/access?context=explore-agentic-desktop&family=australia&ft:locale=en-US)**
 
 Use the unified automation creation journey that eliminates manual intervention and saves time.
 
@@ -100,6 +284,66 @@ Use the unified automation creation journey that eliminates manual intervention 
     -   Generate automations in Automation Center to create on-screen and background desktop actions.
     -   From Automation Center, automatically create an AI agent that uses these desktop action tools.
     -   Test and deploy the AI agent in AI Agent Studio.
+
+ -   **[Record desktop actions with AI](https://www.servicenow.com/docs/access?context=record-with-ai-ad&family=australia&ft:locale=en-US)**
+
+    -   Record on-screen task desktop actions using AI to automatically validate anchor positions and generate screen contexts at design time, reducing automation failures caused by fragile anchors at testing or runtime.
+    -   Use a new role, sn\_desktop\_core.desktop\_action\_user that enables users to record desktop action with AI.
+    -   Enable AI to analyze the recording in three stages: analyzing the recording, inserting anchors, and generating screen contexts by selecting **Record with AI \(recommended\)** in the **Create desktop action** dialog and finish recording.
+    -   Identify AI-generated anchors and screen contexts that are marked with an AI badge in the properties panel. Each screen includes an editable screen context that helps AI agents understand the screen's intent at runtime.
+    -   Regenerate screen context and anchor positions that don't meet your expectations by selecting **Retry** in the screen properties panel.
+    -   Resolve anchor issues before activation by responding to the alert that appears when any screens have failed anchors in a desktop action recorded with AI.
+    -   Reduce manual setup time by letting AI auto-fill the desktop action intent in the **Action description** field when you select the **Record with AI** option. An AI badge confirms that the description was filled by AI.
+    -   Control whether **Record with AI** is the default recording option by configuring the new **sn\_desktop\_core.record\_with\_ai** property. By default, its value is set to true.
+**Important:** Record with AI requires the ServiceNow AI Lens skill to be active and you must have the sn\_desktop\_core.desktop\_action\_user role. If any of these conditions is not met, the **Record with AI** option is unavailable. You can still create desktop actions using auto-capture mode. Contact your ServiceNow administrator to enable these settings.
+
+-   **[Configure parameters for dynamic values](https://www.servicenow.com/docs/access?context=configure-parameter-record-ad&family=australia&ft:locale=en-US)**
+
+    -   Provide dynamic values, such as credentials and user-specific inputs to on-screen task desktop actions by creating Desktop action parameter records in your ServiceNow instance.
+    -   Make a single stored parameter value available to all users by selecting the **Shared** field on a parameter record. When **Shared** is selected, the agent uses the one associated parameter value record, regardless of which user triggered the agent. Only a user with the sn\_aia.admin role can create the parameter value record for a shared parameter.
+    -   Encrypt all associated parameter value records by selecting the **Mark As Sensitive** field on a parameter record. The agent decrypts the value at execution time. For non-sensitive parameters, the value is passed to the agent as plain text.
+    -   In the AI Desktop Actions client application, enable the Set Text and Send Keys step types to use parameters by selecting the **Use parameter** property.
+    -   In AI Agent Studio, when you add an on-screen task desktop action tool that contains inputs configured for parameters, the **Map parameters** section appears. You can map inputs of on-screen task desktop actions to parameter records. These parameter values aren't exposed in agent instructions. Select a parameter record for each input to define the value the AI agent uses when executing the desktop action.
+**Important:**
+
+The **Shared** and **Mark As Sensitive** fields can only be modified when no Desktop action parameter value records exist under the parameter record.
+
+
+ -   **[Use the new application name](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=australia&ft:locale=en-US)**
+
+The product formerly referred to as Agentic Desktop has been rebranded as AI Desktop Actions. All UI labels, navigation elements, and in-product text updated to reflect the new name.
+
+-   **[Automate dynamic steps with desktop actions](https://www.servicenow.com/docs/access?context=web-agents-overview&family=australia&ft:locale=en-US)**
+    -   Use the desktop action to automate dynamic steps that are determined by AI during execution.
+    -   Install the **ServiceNow Web Automation** chrome extension for AI agent to interact with web applications.
+    -   Use the default Web Automation Agent AI agent and Web Automation agentic workflow to automate repetitive tasks.
+    -   See every click, keystroke, and scroll your AI agent makes in real time, with consent prompts before execution kicks off and timely warnings before your session expires.
+    -   Pause a running AI agent, provide corrective input, and resume. The AI agent replans based on your instructions, keeping execution on the right track.
+-   **[Use the onboarding wizard to get the app overview](https://www.servicenow.com/docs/access?context=desktop-actions&family=australia&ft:locale=en-US)**
+
+Get a quick overview of the application by using the onboarding wizard that highlights recording, refining, testing, and activating desktop actions.
+
+Select **Skip intro** to bypass the onboarding wizard and go to the home page. Select the **Don't show this again** option to prevent the wizard from appearing the next time you open the app. After completing the onboarding wizard, select **Get started** to start creating desktop actions.
+
+-   **[Filter required inputs for testing](https://www.servicenow.com/docs/access?context=test-activate-desktop-action-ad&family=australia&ft:locale=en-US)**
+
+Use filtering options to filter the inputs that are required.
+
+    -   **Show Inputs** — Filters the screens with required input fields.
+    -   **Show All** — Removes the filter and displays all screens.
+
+ -   **[Improved error and informational messages](https://www.servicenow.com/docs/access?context=test-activate-desktop-action-ad&family=australia&ft:locale=en-US)**
+
+Improved error and informational messages for better guidance and troubleshooting during testing of desktop actions.
+
+-   **[Delete button on image canvas](https://www.servicenow.com/docs/access?context=agentic-desktop-overview&family=australia&ft:locale=en-US)**
+
+Added a **Delete** button to the image canvas to remove a screen.
+
+-   **[Test button for a screen in the Design tab](https://www.servicenow.com/docs/access?context=agentic-desktop-overview&family=australia&ft:locale=en-US)**
+
+Test screens directly from the design tab while designing desktop actions.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -138,6 +382,24 @@ Browser session now opens to an empty page instead of Google's homepage. Automat
 -   **[Improved security for adaptive desktop actions system properties](https://www.servicenow.com/docs/access?context=components-installed-with-agentic-desktop&family=australia&ft:locale=en-US)**
 
 Adaptive desktop actions system properties now require appropriate read and write roles. This change prevents unauthorized users from viewing or modifying the configuration settings, while automation continues to work as expected.
+
+
+ -   **[Renamed ServiceNow AI experience](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including AI Desktop Actions. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+
+ The system now suggests a full URL instead of a partial URL. For example, `https://<instance name>.servicenow.com`.
+
+ Pagination is implemented for desktop actions on the AI Desktop Actions home page, which helps improve navigation and load times.
+
+ -   **[Optional Application name field](https://www.servicenow.com/docs/access?context=add-details-desktop-action-ad&family=australia&ft:locale=en-US)**
+
+The Application field in the Details tab is now optional, enabling you to save and run desktop actions without entering an application name.
+
+-   **[Improved connectors descriptions for non-UI block desktop actions](https://www.servicenow.com/docs/access?context=desktop-actions-designer-workspace-ad&family=australia&ft:locale=en-US)**
+
+Descriptions for Excel, Word, PDF, and System Actions connectors are enhanced to improve accuracy and selection.
 
 
 </td></tr></tbody>
@@ -469,5 +731,5 @@ Australia
  See [Agentic Desktop](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

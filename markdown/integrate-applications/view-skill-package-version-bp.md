@@ -2,7 +2,7 @@
 title: View skill package versions in a bot process
 description: View a list of skill package versions used in a bot process in RPA Hub to make sure that you’re using the correct version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-skill-package-version-bp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/view-skill-package-version-bp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,10 +35,10 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_support\_us
 5.  On the **Skill Overrides** tab, view a list of skill package versions associated to your bot process.
 
 
-**Parent Topic:**[Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/post-req-bot-process-rpa.md)
+**Parent Topic:**[Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/post-req-bot-process-rpa.md)
 
 **Related topics**  
 
 
-[Override a skill version for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/override-skill-version-rpahub.md)
+[Override a skill version for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/override-skill-version-rpahub.md)
 

@@ -2,7 +2,7 @@
 title: Configure outbound foundation data sync as providers
 description: As a provider, share foundational data with your consumer using foundation data sync \(FDS\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-using-foundation-data-sync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-using-foundation-data-sync.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -36,7 +36,7 @@ Description
 
 </td><td>
 
-[Create an FDS Definition.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-fds-offering-definition.md)
+[Create an FDS Definition.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-fds-offering-definition.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Define the data that you want to share with your consumer.After you create and p
 
 </td><td>
 
-[Acknowledge FDS requests and send a sample payload.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-acknowledge-FDS-request.md)
+[Acknowledge FDS requests and send a sample payload.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-acknowledge-FDS-request.md)
 
 </td><td>
 
@@ -60,7 +60,7 @@ After receiving an FDS request from your consumer, acknowledge it and send a sam
 
 </td><td>
 
-[Publish subscriptions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-publish-fds-subscription.md)
+[Publish subscriptions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-publish-fds-subscription.md)
 
 </td><td>
 
@@ -70,7 +70,7 @@ After the consumer accepts the subscription, publish it.After the FDS configurat
 </table>**Related topics**  
 
 
-[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
+[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
 
-[Configure inbound foundation data sync as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.md)
+[Configure inbound foundation data sync as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.md)
 

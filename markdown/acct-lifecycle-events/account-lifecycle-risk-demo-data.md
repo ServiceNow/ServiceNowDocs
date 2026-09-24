@@ -2,7 +2,7 @@
 title: Sample risk definitions
 description: These are sample risk definitions available with the base system and can configured based on your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-risk-demo-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-risk-demo-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,13 +26,13 @@ This is a metric based risk definition and generates a risk signal if the SLA ac
 
 \[Omitted image "account-lifecycle-risk-defn-sla-score.png"\] Alt text: SLA achievement score
 
-**Note:** For metric based definitions, the data source and the context engine mapping must be defined. See [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
+**Note:** For metric based definitions, the data source and the context engine mapping must be defined. See [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
 
 ## Missing renewal date in contract
 
-This is a table based risk definition and generates a risk signal if the contract renewal date are missing. In this case, the Source table is the Contract table. This table must be mapped to the Engagement table. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details. If the renewal start and end dates are missing in the Contract table, a risk signal is generated.
+This is a table based risk definition and generates a risk signal if the contract renewal date are missing. In this case, the Source table is the Contract table. This table must be mapped to the Engagement table. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details. If the renewal start and end dates are missing in the Contract table, a risk signal is generated.
 
 \[Omitted image "account-lifecycle-risk-defn-renew-date.png"\] Alt text: Missing renewal date
 
-**Parent Topic:**[Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md)
+**Parent Topic:**[Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md)
 

@@ -2,7 +2,7 @@
 title: Virtual machine pre-built topics for ITSM Virtual Agent
 description: ITSM Virtual Agent helps you manage a virtual machine \(VM\) using conversation flows. With this conversation flow, you can start, stop, terminate, describe, and provision a virtual machine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/manage-virtual-machine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/manage-virtual-machine.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -43,7 +43,7 @@ Returned details include Provider, Region, and Instance ID. The user can specify
 
 Requirement: User must have the sn\_managevm\_va.cai\_vm\_user role to perform these actions.
 
-This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Virtual Machine Operation AWS
 -   Virtual Machine Operation Azure
@@ -58,7 +58,7 @@ This topic calls the appropriate topic block \(describe, start, stop, and termin
 
 Requirement: [Cloud Provisioning and Governance plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/request-plugin-cloud-mgt.md) \(com.snc.cloud.mgmt\)
 
-This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Describe Virtual Machine
 -   Start Virtual Machine
@@ -89,7 +89,7 @@ Users can start any assigned virtual machine instance associated with their cred
 
 Requirement: User must have the sn\_managevm\_va.cai\_vm\_user role to perform these actions.
 
-This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Virtual Machine Operation AWS
 -   Virtual Machine Operation Azure
@@ -111,7 +111,7 @@ Users can stop any assigned VM instance associated with the credentials set up b
 
 Requirement: User must have the sn\_managevm\_va.cai\_vm\_user role to perform these actions.
 
-This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Virtual Machine Operation AWS
 -   Virtual Machine Operation Azure
@@ -133,12 +133,12 @@ Users can terminate any assigned virtual machine instance associated with the cr
 
 Requirement: User must have the sn\_managevm\_va.cai\_vm\_user role to perform these actions.
 
-This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Virtual Machine Operation AWS
 -   Virtual Machine Operation Azure
 
 \[Omitted image "TerminateVMCAI2.png"\] Alt text: Terminate Virtual Machine CAI topic.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

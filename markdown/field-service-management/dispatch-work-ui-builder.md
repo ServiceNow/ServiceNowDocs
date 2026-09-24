@@ -2,7 +2,7 @@
 title: Customize Dispatcher Workspace
 description: Use UI Builder to build pages for CRM Workspace or custom web experiences using Next Experience and custom web components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/dispatch-work-ui-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/dispatch-work-ui-builder.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ For information on components and how to work with them in UI Builder, see [Cust
 
 You can configure nearly any area of Dispatcher Workspace in UI Builder. Three of the most common areas to update are the contextual side panel, the agent card, and the calendar. For more information see the following topics:
 
--   [Customizing the contextual side panel in Dispatcher Workspace with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/side-panel-ui-builder.md)
--   [Customizing the agent card in Dispatcher Workspace with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/agent-card-ui-builder.md)
--   [Customizing the calendar grid in Dispatcher Workspace with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/calendar-color-ui-builder.md)
+-   [Customizing the contextual side panel in Dispatcher Workspace with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/side-panel-ui-builder.md)
+-   [Customizing the agent card in Dispatcher Workspace with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/agent-card-ui-builder.md)
+-   [Customizing the calendar grid in Dispatcher Workspace with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/calendar-color-ui-builder.md)
 

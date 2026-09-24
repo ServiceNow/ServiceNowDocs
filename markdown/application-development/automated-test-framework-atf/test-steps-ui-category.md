@@ -2,7 +2,7 @@
 title: UI category
 description: Validate the functionality of the UI actions.Executes a client-side test script entirely in the browser without requiring server-side processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-ui-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/test-steps-ui-category.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf

@@ -2,7 +2,7 @@
 title: Configure role-based access to the Personalize Form menu
 description: Configure which roles can access the Personalize Form menu.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-access-personalize-form-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-access-personalize-form-menu.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

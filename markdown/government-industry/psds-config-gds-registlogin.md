@@ -2,7 +2,7 @@
 title: Configure the GOV.UK Design System Service Portal Registration and Login pages
 description: The GOV.UK Developer Toolkit provides default GDS Service Portal registration and login pages that are complaint with GOV.UK design standards. You can use these pages as-is, or you can configure the default widgets to meet your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-registlogin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gds-registlogin.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -16,9 +16,9 @@ The GOV.UK Developer Toolkit provides default GDS Service Portal registration an
 
 ## Portal Landing page
 
-When accessing the portal homepage as a non-authenticated user, users are displayed the option to log in or register for the GDS Service Portal. This homepage is the same page as the [portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-homepage.md), albeit without any of the widgets that would be shown to an authenticated user. This page contains a login button in the header, and a link to the registration page for users that don't have a record in the system. On login or registration, the page redirects users to the [portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-homepage.md) view for logged-in users, that is populated with widgets that display various sources of information that requires authentication.
+When accessing the portal homepage as a non-authenticated user, users are displayed the option to log in or register for the GDS Service Portal. This homepage is the same page as the [portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-homepage.md), albeit without any of the widgets that would be shown to an authenticated user. This page contains a login button in the header, and a link to the registration page for users that don't have a record in the system. On login or registration, the page redirects users to the [portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-homepage.md) view for logged-in users, that is populated with widgets that display various sources of information that requires authentication.
 
-**Note:** You can configure this page to display widgets or components that don't require authentication. To configure access to widgets or pages, see [Manage role-based access to pages and widgets in GOV.UK Design System Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-man-acc.md).
+**Note:** You can configure this page to display widgets or components that don't require authentication. To configure access to widgets or pages, see [Manage role-based access to pages and widgets in GOV.UK Design System Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-man-acc.md).
 
 .
 
@@ -26,7 +26,7 @@ When accessing the portal homepage as a non-authenticated user, users are displa
 
 ## Login Page
 
-When a user selects **Log in** on this landing page, they are directed to the default GDS Service Portal login page. The default login page \(uk\_gds\_login\) contains the UK GDS Login widget, which provides a field for users to enter their credentials for log-in to the GDS Service Portal. This widget uses credentials from the User \[sys\_user\] record, and redirects users to the [portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-homepage.md) view for logged-in users upon authentication.
+When a user selects **Log in** on this landing page, they are directed to the default GDS Service Portal login page. The default login page \(uk\_gds\_login\) contains the UK GDS Login widget, which provides a field for users to enter their credentials for log-in to the GDS Service Portal. This widget uses credentials from the User \[sys\_user\] record, and redirects users to the [portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-homepage.md) view for logged-in users upon authentication.
 
 \[Omitted image "psds\_uk\_gds\_login.png"\] Alt text: GDS Portal login page.
 
@@ -51,5 +51,5 @@ The default business contact registration page \(uk\_gds\_business\_contact\_reg
 
 These pages and forms adhere to GOV.UK form patterns using single-column layout, inline validation via `ukgds-error-message`, error summary via `ukgds-error-summary`, reCAPTCHA, and a terms &amp; conditions checkbox.
 
-For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
+For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
 

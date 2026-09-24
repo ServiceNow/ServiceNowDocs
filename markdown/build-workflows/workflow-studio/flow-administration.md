@@ -2,7 +2,7 @@
 title: Flow administration
 description: Identify and troubleshoot potential issues by reviewing action and flow executions, their result state, and their runtime duration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-administration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-administration.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -44,27 +44,27 @@ Workflow Studio provides administrators and flow operators these modules to mana
 
 -   **Complex Object Templates**
 
-    Displays templates for complex objects that you can use in flows with Integration Hub integrations. To learn more about creating and using complex object templates, see [create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md) and the [Object data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/object-data.md).
+    Displays templates for complex objects that you can use in flows with Integration Hub integrations. To learn more about creating and using complex object templates, see [create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-action.md) and the [Object data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/object-data.md).
 
 -   **Usage Overview**
 
     Displays transaction counts between your instance and third-party systems. The Usage Overview is not available in the base system and requires the ServiceNow® Integration Hub subscription.
 
 
--   **[Flow execution details retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-reporting.md)**  
+-   **[Flow execution details retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-reporting.md)**  
 Due to the large amount of data consumed by flow execution details, your instance uses data retention policies to delete this data after a set time period.
--   **[Flow execution settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-settings.md)**  
+-   **[Flow execution settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-settings.md)**  
 Specify the runtime settings for an individual flow, subflow, or action such as the run priority, reporting level, and logging level.
--   **[Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-flow-reporting.md)**  
+-   **[Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/enable-flow-reporting.md)**  
 Choose whether to generate execution details for all flows and actions run, just for individual flows and actions, or just when you test a flow or action. Specify the level of detail the execution details contain.
--   **[FDIH Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/fdih-dashboard.md)**  
+-   **[FDIH Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/fdih-dashboard.md)**  
 Use a single dashboard to view usage, execution, and debug information for Workflow Studio and Integration Hub transactions. Open links to related Workflow Studio properties, logs, events, and editors.
--   **[Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-priority.md)**  
+-   **[Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-priority.md)**  
 Specify the priority that you want a background flow to have in relation to other flows waiting to be run. Run a group of higher priority flows before running any lower priority flows.
--   **[See related flows for action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/see-related-flows-for-action.md)**  
+-   **[See related flows for action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/see-related-flows-for-action.md)**  
 See the list of flows that include a custom action. Determine the impact that changes to an action have on published and draft flows.
--   **[See related flows for subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/see-related-flows-for-subflow.md)**  
+-   **[See related flows for subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/see-related-flows-for-subflow.md)**  
 See the list of flows that include a subflow. Determine the impact that changes to a subflow have on published and draft flows.
 
-**Parent Topic:**[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configuring-flow-designer.md)
+**Parent Topic:**[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configuring-flow-designer.md)
 

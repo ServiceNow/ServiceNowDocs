@@ -2,7 +2,7 @@
 title: Code editor
 description: The code editor provides support to use programming language services in a text editor and is used in scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/monaco-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/monaco-editor.html
 release: australia
 product: Scripts
 classification: scripts
@@ -31,5 +31,5 @@ The code editor has these features for the supported language services and [Inli
 -   To remove one tab from the start of a line of code, click in the line and press Shift+Tab.
 -   To declare variables, use the `var` keyword so that they remain within the proper JavaScript scope.
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

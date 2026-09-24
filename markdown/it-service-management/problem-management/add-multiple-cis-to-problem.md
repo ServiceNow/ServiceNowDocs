@@ -2,7 +2,7 @@
 title: Associate CIs with Problem
 description: Associate multiple affected or impacted configuration items \(CIs\) to a problem to find out all the CIs that are affected by the same problem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/add-multiple-cis-to-problem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/add-multiple-cis-to-problem.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -83,5 +83,5 @@ Impacted Services/CIs
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

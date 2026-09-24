@@ -2,7 +2,7 @@
 title: Activate AI skills in ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: Activate a skill before you can use the generative AI capabilities for the ServiceNow Otto for Integrated Risk Management \(IRM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions

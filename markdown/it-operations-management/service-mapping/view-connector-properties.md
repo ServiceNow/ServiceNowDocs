@@ -2,7 +2,7 @@
 title: View CI connection attributes in Service Mapping
 description: You can view attributes of connections between configuration items \(CIs\) in application service maps in classic Service Mapping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/view-connector-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/view-connector-properties.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -35,9 +35,9 @@ Each connection type has different attributes. For a merged connection line, all
 
 The way an service instance map displays connection attributes depends on the following factors:
 
--   [Views you configure for CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ConfigurePropertyDisplay.md) define which connection attributes appear in the Properties pane of the map.
--   Connection lines on the map depend on the [view you select for the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/modify-map-view.md).
--   Attributes available for viewing also depend on the Service Mapping setup, for more information see description of [components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping.md).
+-   [Views you configure for CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_ConfigurePropertyDisplay.md) define which connection attributes appear in the Properties pane of the map.
+-   Connection lines on the map depend on the [view you select for the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/modify-map-view.md).
+-   Attributes available for viewing also depend on the Service Mapping setup, for more information see description of [components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/components-installed-with-service-mapping.md).
 
 ## Procedure
 
@@ -156,7 +156,7 @@ All concealed connections for this CI appear on the map.
 1.  Right-click the CI whose traffic-based connections you want to check.
 2.  Select **Show traffic based connections**.
 
-The Traffic Based Connections List opens displaying the information in [Traffic Based Connections List table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-connector-properties.md).
+The Traffic Based Connections List opens displaying the information in [Traffic Based Connections List table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/view-connector-properties.md).
 
 3.  Click **Close** when finished viewing this list.
 
@@ -234,5 +234,5 @@ User decision
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 

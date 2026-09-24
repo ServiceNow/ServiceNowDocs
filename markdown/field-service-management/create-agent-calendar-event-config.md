@@ -2,7 +2,7 @@
 title: Create an event configuration
 description: Create event configurations to define and manage event types for the team calendar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/create-agent-calendar-event-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/create-agent-calendar-event-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

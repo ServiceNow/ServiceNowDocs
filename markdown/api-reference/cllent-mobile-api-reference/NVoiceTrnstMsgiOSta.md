@@ -2,7 +2,7 @@
 title: NowVoiceTranscriptMessage typealias - iOS
 description: Represents a single message in the voice session transcript.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NVoiceTrnstMsgiOSta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NVoiceTrnstMsgiOSta.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -23,7 +23,7 @@ NowVoiceTranscriptMessage is a type alias for `TranscriptMessage`.
 |role|String|The originator of the message. Typical values are `"user"` and `"assistant"`.|
 |content|String|The text content of the message.|
 
-The following code example shows NowVoiceTranscriptMessage used with `[NowVoiceCallbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)`.
+The following code example shows NowVoiceTranscriptMessage used with `[NowVoiceCallbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)`.
 
 ```
 onMessageReceived: { message in
@@ -31,5 +31,5 @@ onMessageReceived: { message in
 }
 ```
 
-**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

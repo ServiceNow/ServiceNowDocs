@@ -2,7 +2,7 @@
 title: Set up triggers for the Jenkins spoke
 description: Set up triggers for the Jenkins spoke for the required events. The endpoint enables webhooks to connect with your ServiceNow instance.Configure endpoint for webhooks in the Jenkins that support the token authentication.Create a pipeline projects in Jenkins to add the endpoint URL in Jenkinsfile that is generated in your ServiceNow instance and enable webhooks to connect with your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jenkinsv2-triggers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/jenkinsv2-triggers.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -83,7 +83,7 @@ Create a pipeline projects in Jenkins to add the endpoint URL in `Jenkinsfile` t
         -   read:packages
     For more information about creating a classic personal access token, see [Creating a personal access token \(classic\)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) in [GitHub Docs](https://docs.github.com/en).
 
-    For the list of supported events, see the [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkins-spoke.md) section.
+    For the list of supported events, see the [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/jenkins-spoke.md) section.
 
 -   Role required: admin
 
@@ -163,7 +163,7 @@ Script path
 
 </td><td>
 
-Relative location within the checkout of your Pipeline script.**Important:** In `Jenkinsfile`, paste the endpoint URL that was generated after you configured triggers in your ServiceNow instance. For more information, see [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkinsv2-triggers.md).
+Relative location within the checkout of your Pipeline script.**Important:** In `Jenkinsfile`, paste the endpoint URL that was generated after you configured triggers in your ServiceNow instance. For more information, see [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/jenkinsv2-triggers.md).
 
 \[Omitted image "jenkinsv2-file.jpg"\] Alt text:
 

@@ -2,7 +2,7 @@
 title: Meter-based guardrails and controls
 description: Meter-based guardrails and controls help you in identifying situations when you unexpectedly exceed your entitled record count.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/meter-based-guardrails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/meter-based-guardrails.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -33,7 +33,7 @@ There are two types of guardrails:
 
 ## How your usage is measured and reported
 
-An administrator can override the block entirely using the system property \(promin.metered\_usage.allow\_unrestricted\). This disables entitlement checks and allows unrestricted mining \(with the understanding that overages will be billed at the end of the contract period\). For more information on promin.metered\_usage.allow\_unrestricted, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/components-installed.md).
+An administrator can override the block entirely using the system property \(promin.metered\_usage.allow\_unrestricted\). This disables entitlement checks and allows unrestricted mining \(with the understanding that overages will be billed at the end of the contract period\). For more information on promin.metered\_usage.allow\_unrestricted, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/components-installed.md).
 
 If mining is allowed but the results would put you over your entitlement for the first time, the system doesn't charge you for the overage. It counts records toward your usage only up to your remaining entitlement, and quietly discards the rest. The next time you try to mine, you will have 0 remaining records and will be blocked.
 
@@ -43,13 +43,13 @@ Your usage resets on your contract anniversary date. The date your current contr
 
 If your project uses a crop or transition condition, only the records that remain after that condition is applied count toward your usage.
 
--   **[Create a table-level guardrail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-guardrail.md)**  
+-   **[Create a table-level guardrail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-guardrail.md)**  
 Define a mandatory filter condition for a table to prevent projects from being configured in ways that consume more mining capacity than necessary.
 
-**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-process-mining.md)
 
 **Related topics**  
 
 
-[Create a table-level guardrail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-guardrail.md)
+[Create a table-level guardrail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-guardrail.md)
 

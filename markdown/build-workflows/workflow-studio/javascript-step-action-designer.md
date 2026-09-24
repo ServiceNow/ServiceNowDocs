@@ -2,7 +2,7 @@
 title: Script step
 description: Add custom JavaScript to execute within a reusable action. While most core actions and steps fit common use cases, you can build a Script step to execute behavior not satisfied by the core steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/javascript-step-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/javascript-step-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -166,7 +166,7 @@ In general, don't create a variable that has the same name as a system field. Th
 
  By default, Workflow Studio run scripts on the instance. To run script from a MID Server requires an Integration Hub subscription.
 
- Workflow Studio runs script from the domain from which it is triggered or initiated. See [Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md).
+ Workflow Studio runs script from the domain from which it is triggered or initiated. See [Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-designer-domain-separation.md).
 
  For available classes and methods, see the [JavaScript API context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptingAssistance.md) or the [API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-reference.md).
 
@@ -185,7 +185,7 @@ Map JavaScript output to Workflow Studio data pills. Define output variables whe
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## Example
@@ -198,5 +198,5 @@ This example builds a JSON payload that can be easily updated or changed and add
 
 By creating an output variable that represents the payload, you can drag the **\[Payload\]** data pill into the REST step **Body** field.
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

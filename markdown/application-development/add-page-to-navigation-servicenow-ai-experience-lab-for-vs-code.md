@@ -2,7 +2,7 @@
 title: Add a page to the navigation
 description: Add pages to the navigation to make them accessible from other pages, such as a home page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: task
 last_updated: "2026-08-06"
@@ -130,6 +130,6 @@ ServiceNow instance
 
     For more information, see the following resources:
 
-    -   [Preview a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.md)
-    -   [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md)
+    -   [Preview a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.md)
+    -   [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md)
 

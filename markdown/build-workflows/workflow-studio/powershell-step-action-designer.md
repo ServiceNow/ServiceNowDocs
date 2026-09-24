@@ -2,7 +2,7 @@
 title: PowerShell step
 description: Run PowerShell scripts on remote machines from your ServiceNow instance through a MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/powershell-step-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/powershell-step-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -216,7 +216,7 @@ The inline PowerShell script to run on the target host.**Note:** This field is o
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## PowerShell scripting variables
@@ -252,5 +252,5 @@ To access input variables from the **Command** field, you must call them using s
     -   midScriptDirectory
     -   hresult
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

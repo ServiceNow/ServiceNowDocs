@@ -2,7 +2,7 @@
 title: Remove an alert from an alert group
 description: Remove an alert if you want to improve the group's accuracy and usefulness in troubleshooting an incident. If this action leaves the group with one or no alerts, the group is deleted and no longer displays as an alert group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/remove-alert-from-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/remove-alert-from-group.html
 release: australia
 product: Event Management
 classification: event-management

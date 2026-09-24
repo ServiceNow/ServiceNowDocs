@@ -2,7 +2,7 @@
 title: Business rules installed with Field Service Management
 description: Business rules are added with Field Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/r\_BRIWFieldServiceManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/r\_BRIWFieldServiceManagement.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -440,5 +440,5 @@ Validates the values for the fields. -   Maximum travel radius can’t be negati
 -   Maximum part search radius can’t be negative
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_InstalledWithFSM.md)
+</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_InstalledWithFSM.md)
 

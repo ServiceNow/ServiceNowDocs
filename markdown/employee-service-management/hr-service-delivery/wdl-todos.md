@@ -2,7 +2,7 @@
 title: HR Service Delivery Integration with Workday Learning to-dos staging
 description: Import workday learning todos.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/wdl-todos.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/wdl-todos.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,10 +28,10 @@ Role required: sn\_hr\_workday.admin
 
 3.  On the form, edit the fields.
 
-    For a description of the field values, see [HR Service Delivery Integration with Workday Learning to-dos staging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/wdl-todos.md).
+    For a description of the field values, see [HR Service Delivery Integration with Workday Learning to-dos staging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/wdl-todos.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Import set tables in HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/import-set-tables.md)
+**Parent Topic:**[Import set tables in HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/import-set-tables.md)
 

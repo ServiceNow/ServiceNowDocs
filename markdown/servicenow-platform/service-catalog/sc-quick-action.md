@@ -2,7 +2,7 @@
 title: Create a quick action in your mobile applications
 description: Provide easy access to an important item by creating a quick action. For example, you can create a quick action that opens a Service Catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/sc-quick-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/sc-quick-action.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -255,7 +255,7 @@ Number that indicates the order that the functions are listed. If there are mult
 
 Your users can open the quick action by selecting the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the applet launcher page.
 
-**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md)
+**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/now-mobile-catalog.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Implementing Unified Security Exposure Management
 description: This section guides you through the entire process of implementing Unified Security Exposure Management \(USEM\) on your ServiceNow AI Platform instance. It provides detailed instructions on how to download the application from the ServiceNow Store, install it, and configure it to optimize your security workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuring-security-exposure-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuring-security-exposure-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,11 +18,11 @@ This section guides you through the entire process of implementing Unified Secur
 
 This section provides information on the initial setup of USEM, whether you're a new user or upgrading from an older version of Vulnerability Response \(VR\).
 
--   [Install Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-install-and-configure.md)
+-   [Install Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-install-and-configure.md)
 
     For new deployments starting with version 30.0 of Vulnerability Response and other related applications, follow these steps to install USEM for the first time.
 
--   [Migrate to Unified Security Exposure Management \(USEM\) from Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/migrate-to-usem.md)
+-   [Migrate to Unified Security Exposure Management \(USEM\) from Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/migrate-to-usem.md)
 
     If you are upgrading from a version prior to 30.0 of Vulnerability Response and other related applications, refer to these instructions to successfully migrate to USEM.
 
@@ -31,23 +31,23 @@ This section provides information on the initial setup of USEM, whether you're a
 
 Once you install USEM, you must configure rules, email notifications, dashboards and so on to automate and streamline your exposure management.
 
-1.  [Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
+1.  [Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
     Automate the prioritization and triaging of security exposure findings using configurable rules.
 
-2.  [Configure email notifications in Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-email-notifications.md)
+2.  [Configure email notifications in Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-email-notifications.md)
 
     Set up email notifications to share critical information about important updates and activities, such as the approval or rejection of false-positive requests.
 
-3.  [Configure email templates in Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-email-templates.md)
+3.  [Configure email templates in Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-email-templates.md)
 
     Create and manage preconfigured email templates for consistent and efficient communication.
 
-4.  [Configure Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-visualization-library.md)
+4.  [Configure Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-visualization-library.md)
 
     Customize the Findings view page by selecting the columns and widgets you want to display, and manage their activation status and conditions.
 
-5.  [Configure Exception Management for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exp-mngmt-vr.md)
+5.  [Configure Exception Management for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exp-mngmt-vr.md)
 
     Manage requests for exceptions and review, approve, or reject exceptions for findings or remediation tasks.
 

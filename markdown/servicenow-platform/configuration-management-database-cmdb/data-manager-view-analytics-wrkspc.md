@@ -2,7 +2,7 @@
 title: View CMDB Data Manager analytics
 description: The CMDB Data Manager in CMDB Workspace, provides charts and counts that show the overall state of Data Manager policies in the organization. Review these details to track progress and to identify any problems that require your attention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-manager-view-analytics-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/data-manager-view-analytics-wrkspc.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

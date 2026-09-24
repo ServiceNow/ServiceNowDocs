@@ -2,7 +2,7 @@
 title: Domain separation and Goal Framework
 description: Domain separation is supported for Goal Framework and Goal Framework for SPM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/goal-framework-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/goal-framework-domain-separation.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -32,5 +32,5 @@ For more information on support levels, see [Application support for domain sepa
 
 After you enable domain separation on your ServiceNow instance, the Goal Framework and Goal Framework for SPM data is automatically domain separated. The goals and targets data of portfolio plans for different domains are visible to only those users who have access to these domains.
 
-**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework-reference.md)
+**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/goal-framework-reference.md)
 

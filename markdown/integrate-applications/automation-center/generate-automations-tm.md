@@ -2,7 +2,7 @@
 title: Generate automations from a Task Mining request
 description: Use the Automations tab on an automation request to break down a Task Mining recording into discrete automations that Automation Center categorizes as UI-block or non-UI-block interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/generate-automations-tm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/generate-automations-tm.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -142,12 +142,12 @@ A summary of the steps the automation performs. This field is used as the basis 
 
 The **Automations** tab displays the automations. You can now create an agent from the automations.
 
-**Parent Topic:**[Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automate-tasks-from-task-mining.md)
+**Parent Topic:**[Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automate-tasks-from-task-mining.md)
 
 **Related topics**  
 
 
-[Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automate-tasks-from-task-mining.md)
+[Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automate-tasks-from-task-mining.md)
 
-[Create an agent from automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-agent-automations.md)
+[Create an agent from automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-agent-automations.md)
 

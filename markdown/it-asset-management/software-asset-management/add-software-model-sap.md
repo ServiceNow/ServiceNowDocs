@@ -2,7 +2,7 @@
 title: Create software models for SAP
 description: Create software models to record SAP product information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/add-software-model-sap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/add-software-model-sap.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -20,13 +20,13 @@ Create software models to record SAP product information.
 
 Role required: sam\_user
 
-**Important:** You can create software models in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on creating software models in the Software Asset Management classic application. For details on creating software models in the Software Asset Workspace, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-swmodels-workspace.md).
+**Important:** You can create software models in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on creating software models in the Software Asset Management classic application. For details on creating software models in the Software Asset Workspace, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-swmodels-workspace.md).
 
 ## About this task
 
 Software models are automatically created for engines and license metrics that are pulled from your SAP systems. You can manually create additional software models for SAP products as needed.
 
-The following steps describe information that is specific to SAP. For general instructions on creating software models, see [Create software models in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/record-terms-software-licenses.md).
+The following steps describe information that is specific to SAP. For general instructions on creating software models, see [Create software models in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/record-terms-software-licenses.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ The following steps describe information that is specific to SAP. For general in
 
 2.  On the form, fill in the fields.
 
-    **Note:** Only the fields that are specific to SAP software models are shown below. For detailed descriptions of all software model fields, see [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-model-fields.md).
+    **Note:** Only the fields that are specific to SAP software models are shown below. For detailed descriptions of all software model fields, see [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-model-fields.md).
 
 <table id="table_nr2_nd1_y4"><thead><tr><th>
 
@@ -90,9 +90,9 @@ Some SAP engines allow a certain amount of unlicensed usage before your licence 
 
 ## What to do next
 
-[Create a software entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlement-sap.md) to record your licenses for the software model.
+[Create a software entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlement-sap.md) to record your licenses for the software model.
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

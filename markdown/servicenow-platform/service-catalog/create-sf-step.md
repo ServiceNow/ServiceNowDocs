@@ -2,7 +2,7 @@
 title: Define a service fulfillment step
 description: Define how a catalog item request should be fulfilled by creating simple service fulfillment steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/create-sf-step.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/create-sf-step.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -114,7 +114,7 @@ Condition
 
 </td><td>
 
-Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
+Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
 
 </td></tr></tbody>
 </table>        2.  Click **Add**.
@@ -183,7 +183,7 @@ Condition
 
 </td><td>
 
-Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
+Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
 
 </td></tr></tbody>
 </table>        3.  Click **Add**.
@@ -222,7 +222,7 @@ Condition
 
 </td><td>
 
-Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
+Condition that defines whether the step must run. The options on which a condition can be applied are the questions that are available on the catalog item for which you’re creating the service fulfillment steps. For information on questions, see the [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-item-cat-builder.md) topic.
 
 </td></tr></tbody>
 </table>        3.  Click **Add**.
@@ -255,5 +255,5 @@ Condition that defines whether the step must run. The options on which a conditi
     To add a stage, simply select the **Add stage** button that appears between steps.
 
 
-**Parent Topic:**[Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md)
+**Parent Topic:**[Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-item-cat-builder.md)
 

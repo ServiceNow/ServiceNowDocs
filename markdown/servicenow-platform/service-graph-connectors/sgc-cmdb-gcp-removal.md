@@ -2,7 +2,7 @@
 title: Record removal process in Service Graph Connector for GCP
 description: The Service Graph Connector for GCP uses soft deletion and hard deletion to manage the removal of records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -18,8 +18,8 @@ The Service Graph Connector for GCP uses soft deletion and hard deletion to mana
 
 Record removal is the process of handling data that is no longer needed. For any discovered resources that are deleted later after pulling data, the Service Graph Connector for GCP automatically updates the **Install Status** field of the associated CMDB CI classes to indicate any retired or deleted records.
 
--   [Soft deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md)
--   [Hard deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md)
+-   [Soft deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md)
+-   [Hard deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-removal.md)
 
 ## Soft deletion
 
@@ -62,16 +62,16 @@ Soft deletion is enabled for the following data sources in Service Graph Connect
 -   SG-GCP Kubernetes Cluster Role Binding
 -   SG-GCP Kubernetes Node Pool
 
-From Service Graph Connector for GCP version 1.10.0, the SG-GCP Generic Resource data source uses the post-script method for soft deletion, which relies on the Source \[sys\_object\_source\] table. For more information about the post-script method, see [Post-script method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/cmdb-integ-record-removal.md).
+From Service Graph Connector for GCP version 1.10.0, the SG-GCP Generic Resource data source uses the post-script method for soft deletion, which relies on the Source \[sys\_object\_source\] table. For more information about the post-script method, see [Post-script method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/cmdb-integ-record-removal.md).
 
 ## Hard deletion
 
 Hard deletion involves permanently deleting a record from the system. The record is removed from the CMDB and can't be referenced or restored later. The SG-GCP Software Inventory data source uses the hard deletion method for the deletion of records.
 
-**Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
+**Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
 
 **Related topics**  
 
 
-[Service Graph Connector for GCP properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-gcp-props.md)
+[Service Graph Connector for GCP properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-sgc-gcp-props.md)
 

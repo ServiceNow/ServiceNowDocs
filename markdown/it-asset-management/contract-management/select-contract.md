@@ -2,7 +2,7 @@
 title: Renew multiple child contracts
 description: Renew multiple child contracts under the parent contract by using the Contract selection task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/select-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/select-contract.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -53,5 +53,5 @@ The contract renewal request lines for parent and child contracts are listed in 
 
 ## What to do next
 
-[Supply contract renewal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/fill-cont-renew-info.md)
+[Supply contract renewal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/fill-cont-renew-info.md)
 

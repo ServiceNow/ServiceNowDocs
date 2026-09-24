@@ -2,7 +2,7 @@
 title: Quick start test for Firewall Audits and Reporting
 description: Quick start test for Firewall Audits and Reporting to validate configuration items \(CI\) and their relationships.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/quick-start-tests-firewall-audits-and-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/quick-start-tests-firewall-audits-and-reporting.html
 release: australia
 product: Discovery
 classification: discovery
@@ -20,9 +20,9 @@ Quick start test for Firewall Audits and Reporting to validate configuration ite
 |----|-----------|
 |Firewall Discovery|Firewall Discovery is performed on a firewall endpoint. Discovery brings the firewall manager, policies and devices, and persists them to the cmdb\_ci tables. This test validates the firewall manager, policies, and devices data in the cmdb\_ci tables and output and discovery errors during the discovery run.|
 
-To learn more, see [Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-reporting.md).
+To learn more, see [Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-audit-reporting.md).
 
-**Parent Topic:**[Firewall Audits and Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-report-reference.md)
+**Parent Topic:**[Firewall Audits and Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-audit-report-reference.md)
 
 **Related topics**  
 

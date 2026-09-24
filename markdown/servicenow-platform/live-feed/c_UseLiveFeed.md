@@ -2,7 +2,7 @@
 title: Using Live Feed
 description: Live Feed provides many methods you can use to share content with others in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_UseLiveFeed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/c\_UseLiveFeed.html
 release: australia
 product: Live Feed
 classification: live-feed

@@ -2,7 +2,7 @@
 title: Work with the Card view on the Location directory
 description: Work with Card view to reserve a space or raise a workplace service request. Filter spaces based on reservation and occupancy data. View designated neighborhoods on the space card. Switch to Map view anytime when you want to locate a workplace location on the map or to get directions to a collaborator or location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/wsd-card-view-loc-directory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/wsd-card-view-loc-directory.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -102,7 +102,7 @@ Role required: admin
 
 10. Navigate back to the All spaces page on the Card view and select **Show on map**.
 
-    The space card details panel opens on the map and shows option to raise a request or reserve a space, and get directions to a location for wayfinding. For more information, see [Work with the Map view on the Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-map-view-loc-directiory.md).
+    The space card details panel opens on the map and shows option to raise a request or reserve a space, and get directions to a location for wayfinding. For more information, see [Work with the Map view on the Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-map-view-loc-directiory.md).
 
 11. Select **Raise an issue** to request a workplace service or raise a workplace service issue.
 
@@ -128,7 +128,7 @@ Role required: admin
         -   Currently booked
     1.  Select the **Occupancy status** check box to view the occupancy status for a selected space or a location on the map.
 
-        **Note:** Occupancy states are only shown on the map if Workplace Connectors is configured for a selected location. Your administrator must also configure the map property **Show Reservation and/or Occupancy information on Location directory \[sn\_wsd\_space\_map.show\_rsv\_occ\_data\_loc\_dir\]**. For more information, see [Configure map properties for Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-map-properties-location-directory.md).
+        **Note:** Occupancy states are only shown on the map if Workplace Connectors is configured for a selected location. Your administrator must also configure the map property **Show Reservation and/or Occupancy information on Location directory \[sn\_wsd\_space\_map.show\_rsv\_occ\_data\_loc\_dir\]**. For more information, see [Configure map properties for Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/configure-map-properties-location-directory.md).
 
     2.  Select the following options as required:
 
@@ -163,7 +163,7 @@ Role required: admin
 
 14. To switch to Map view, select the toggle button \(\[Omitted image "wsd-map-card-view-toggle-button.png"\] Alt text: Toggle button icon to switch to Map view from card view.\).
 
-    For more information, see [Work with the Map view on the Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-map-view-loc-directiory.md).
+    For more information, see [Work with the Map view on the Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-map-view-loc-directiory.md).
 
 
 **Parent Topic:**[Manage workplace activities and services with Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)

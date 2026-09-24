@@ -2,7 +2,7 @@
 title: Configure MFA Provider
 description: Configure SMS and Email with the Provider to ensure every user can login securely.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-mfa-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/configure-mfa-provider.html
 release: australia
 product: Authentication
 classification: authentication

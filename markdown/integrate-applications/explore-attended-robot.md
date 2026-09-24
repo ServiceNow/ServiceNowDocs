@@ -2,7 +2,7 @@
 title: Exploring Attended Robot
 description: Learn about the Attended Robot features that enable you to run attended automations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-attended-robot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/explore-attended-robot.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,6 +29,6 @@ Attended automations are typically triggered manually.
 
 To learn more about configuring and using Attended Robot, see:
 
--   [Configuring Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rda-runtime-setup.md)
--   [Using Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/using-rda-runtime.md)
+-   [Configuring Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rda-runtime-setup.md)
+-   [Using Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/using-rda-runtime.md)
 

@@ -2,7 +2,7 @@
 title: Change Management properties
 description: Administrators can use change properties to configure Change Management behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/r\_ChangeManagementProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/r\_ChangeManagementProperties.html
 release: australia
 product: Change Management
 classification: change-management
@@ -44,7 +44,7 @@ glide.ui.risk\_calculate\_rule
 Change risk calculation method. Business rule calculates on insert/update, UI action calculates only on demand. **None** disables this capability.-   Type: choice list
 -   Default value: ui\_action
 
- For more information, see [Risk Calculator property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/r_ChangeRiskCalculator.md).
+ For more information, see [Risk Calculator property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/r_ChangeRiskCalculator.md).
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ com.snc.change\_request.event.state\_updated.states
 
 </td><td>
 
-Enter the change request state field values, each separated by a comma to generate the **sn\_change.state.updated** event. This happens when any of the state value changes, for example, -5, -3, 0. You can leave the property empty to generate the **sn\_change.state.updated** event for all state changes. For more information on the state values, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).**Note:** For this property to take effect, property **com.snc.change\_request.event.state\_updated.enabled** must be set to true.
+Enter the change request state field values, each separated by a comma to generate the **sn\_change.state.updated** event. This happens when any of the state value changes, for example, -5, -3, 0. You can leave the property empty to generate the **sn\_change.state.updated** event for all state changes. For more information on the state values, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ChangeStateModel.md).**Note:** For this property to take effect, property **com.snc.change\_request.event.state\_updated.enabled** must be set to true.
 
 </td></tr></tbody>
 </table>## Change Management properties for Discovery integration
@@ -260,5 +260,5 @@ Controls opening of a CAB meeting from the CAB Meeting calendar in the CAB Workb
 -   **false**: CAB meetings open in the Core UI.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/reference-change-management.md)
+</table>**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/reference-change-management.md)
 

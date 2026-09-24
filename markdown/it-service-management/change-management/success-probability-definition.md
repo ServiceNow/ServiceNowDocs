@@ -2,7 +2,7 @@
 title: Success Probability definitions
 description: Success Probability definition is a configuration that defines the probability and the matching conditions of a change request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/success-probability-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/success-probability-definition.html
 release: australia
 product: Change Management
 classification: change-management
@@ -38,5 +38,5 @@ You can edit the value in the Calculated success probability column for each com
 
 Success probability plugin supports domain separation. The **sn\_chg\_probability\_success**, **sn\_chg\_probability\_model\_success**, and **sn\_chg\_probability\_calculated\_lookup** tables are process separated when you install the domain separation plugin.
 
-**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/reference-change-management.md)
+**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/reference-change-management.md)
 

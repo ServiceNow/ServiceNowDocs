@@ -2,7 +2,7 @@
 title: Proximity calculation when browsing near a person
 description: When an employee searches for a space near a person using the Browse near a person option, the workplace locations are displayed based on the closest proximity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/proximity-calculation-for-browse-near-person.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/proximity-calculation-for-browse-near-person.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -39,7 +39,7 @@ The factors that influence the proximity based search are explained below:
 
 By default, all the available spaces are displayed based on the above proximity calculations. In case the employee has set favorite locations and has selected the **My favorites first** sort option, then the favorite locations are displayed at first.
 
-**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
+**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 **Related topics**  
 

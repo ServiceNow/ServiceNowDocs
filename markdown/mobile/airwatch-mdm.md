@@ -2,7 +2,7 @@
 title: Workspace ONE UEM Mobile Device Management \(MDM\)
 description: Use VMware Workspace ONE UEM to distribute and manage the ServiceNow mobile apps on user devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/airwatch-mdm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/airwatch-mdm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,10 +18,10 @@ Visit the following sections to view the steps to configure the ServiceNow mobil
 
 You should have access to Workspace ONE UEM before attempting any configuration.
 
--   **[Add the ServiceNow app for iOS to Workspace ONE UEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/add-ios-airwatch.md)**  
+-   **[Add the ServiceNow app for iOS to Workspace ONE UEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/add-ios-airwatch.md)**  
 Configure the ServiceNow app for iOS for Workspace ONE UEM distribution.
--   **[Add the ServiceNow app for Android to Workspace ONE UEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/add-android-airwatch.md)**  
+-   **[Add the ServiceNow app for Android to Workspace ONE UEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/add-android-airwatch.md)**  
 Configure the ServiceNow app for Android for Workspace ONE UEM distribution.
 
-**Parent Topic:**[Supported mobile device management vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-vendors.md)
+**Parent Topic:**[Supported mobile device management vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-vendors.md)
 

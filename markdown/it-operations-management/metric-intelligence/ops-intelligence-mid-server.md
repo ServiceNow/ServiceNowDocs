@@ -2,7 +2,7 @@
 title: MID Server distributed cluster for Metric Intelligence
 description: Using Metric Intelligence requires at least one MID Server distributed cluster which contains a single MID Server that is configured for Metric Intelligence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/ops-intelligence-mid-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/metric-intelligence/ops-intelligence-mid-server.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -22,7 +22,7 @@ To support the specified throughput, create a distributed cluster with a single 
 
 A MID Server supporting Discovery can also be used with other applications.
 
-For details on setting up Metric Intelligence, see [Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/get-started-metrics.md).
+For details on setting up Metric Intelligence, see [Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/get-started-metrics.md).
 
 ## MID Server distributed clusters
 

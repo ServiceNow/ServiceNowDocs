@@ -2,7 +2,7 @@
 title: Using capacity planning in Portfolio Planning
 description: Assess the resource capacity and review existing allocations, which help you to make informed decisions while working on assigning resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/using-cap-plan-pp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/using-cap-plan-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -16,9 +16,9 @@ breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 
 Assess the resource capacity and review existing allocations, which help you to make informed decisions while working on assigning resources.
 
-Use the [manage resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/manage-rsrc-cap-pp.md) screen to generate resource capacity details.
+Use the [manage resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/manage-rsrc-cap-pp.md) screen to generate resource capacity details.
 
-Use the [Capacity Planning screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/using-cap-planning-screen-pp.md) to view detailed information about the resource capacity mapping to a portfolio.
+Use the [Capacity Planning screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/using-cap-planning-screen-pp.md) to view detailed information about the resource capacity mapping to a portfolio.
 
 ## Manage resource capacity
 
@@ -83,7 +83,7 @@ Using Capacity Planning, you can:
 
 ## Calculation of Operational Resource Assignment in Capacity Planning
 
-As a Resource Manager, you can [create operation resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-op-rsrc-asgnmnts-ppm.md) or [migrate existing operational resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-operational-rsrc-plans.md) of your employees to handle the required meetings, trainings, time off and so on to meet your work requirements.
+As a Resource Manager, you can [create operation resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-op-rsrc-asgnmnts-ppm.md) or [migrate existing operational resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/migrate-operational-rsrc-plans.md) of your employees to handle the required meetings, trainings, time off and so on to meet your work requirements.
 
 Consider a group with capacity of 2 FTE and resource manager creates a Group type operation resource assignment for 10% of the capacity for training. This operational assignment can be viewed in the **Operational work** line item in the top-tray of the Capacity Planning screen. The value of the **Operational work** line item will be 0.2, which is 10% of total capacity of the group.
 

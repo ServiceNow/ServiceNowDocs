@@ -2,7 +2,7 @@
 title: Mobile plugins and upgrades
 description: Learn about upgrading to ServiceNow mobile, and how to install plugins to get your users started with the ServiceNow mobile platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/plugins-upgrades.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/plugins-upgrades.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,14 +14,14 @@ breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile
 
 Learn about upgrading to ServiceNow mobile, and how to install plugins to get your users started with the ServiceNow mobile platform.
 
--   **[Mobile plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-plugins.md)**  
+-   **[Mobile plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-plugins.md)**  
 Learn about the plugins used to enable ServiceNow mobile on your instance.
--   **[Migrate from the ServiceNow Classic mobile app to the ServiceNow Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/classic-mobile-migration.md)**  
+-   **[Migrate from the ServiceNow Classic mobile app to the ServiceNow Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/classic-mobile-migration.md)**  
 Migrate from the Mobile Classic app to the Mobile Platform to take advantage of features such as rapid development, offline capabilities, and native mobile device feature integrations.
--   **[Mobile migration from Madrid to New York and later releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-migration-ny.md)**  
+-   **[Mobile migration from Madrid to New York and later releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-migration-ny.md)**  
 Migrate your mobile applications in New York or later releases to take advantage of the improved features and continue editing within Studio.
--   **[Migration from New York and later releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-migration-ny-onward.md)**  
+-   **[Migration from New York and later releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-migration-ny-onward.md)**  
 Learn about migration from the New York to later releases.
 
-**Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/imp-considerations.md)
+**Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/imp-considerations.md)
 

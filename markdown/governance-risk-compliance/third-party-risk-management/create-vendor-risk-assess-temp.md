@@ -2,12 +2,12 @@
 title: Create an external assessment template
 description: When defining an assessment template, the third-party risk manager provides scheduling information for the third-party risk assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/create-vendor-risk-assess-temp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/create-vendor-risk-assess-temp.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -40,7 +40,7 @@ For existing assessments, the Supports smart assessment option is set automatica
 
 3.  On the form, fill in the fields.
 
-    For more information about the field descriptions, see [Create new external assessment template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-assess-template-form.md).
+    For more information about the field descriptions, see [Create new external assessment template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-assess-template-form.md).
 
 4.  Select **Submit**.
 
@@ -113,9 +113,9 @@ In the Vendor Management Workspace, navigate to the SAE Document request templat
 **Related topics**  
 
 
-[Create a questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.md)
+[Create a questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.md)
 
-[Create a questionnaire or document request template using the Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-question-template.md)
+[Create a questionnaire or document request template using the Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-question-template.md)
 
-[Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md)
+[Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md)
 

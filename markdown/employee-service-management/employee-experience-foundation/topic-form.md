@@ -2,7 +2,7 @@
 title: Topic form
 description: Use the topic form to create topics for the new or cloned taxonomy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/topic-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/topic-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -32,7 +32,7 @@ Name
 
 Name for the topic.**Note:** For better topic discovery and search results, avoid special character **/** and ensure you re-index the content after topic name edits.
 
-Ensure that the topic table changes are manually reindexed for their corresponding indexed sources, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md).
+Ensure that the topic table changes are manually reindexed for their corresponding indexed sources, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md).
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ When you opt in, you can select the user criteria for the topic visibility. Enab
 
 Default: Disable
 
-For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
+For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
 
 </td></tr><tr><td>
 
@@ -171,7 +171,7 @@ User group for whom the topic isn’t visible. Ensure you specify the user crite
 This field is available when the **Enable user criteria check** is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
@@ -234,5 +234,5 @@ This field is available when the **Enable user criteria check** is selected.
 
 [Website configuration form]()
 
-[Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md)
+[Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md)
 

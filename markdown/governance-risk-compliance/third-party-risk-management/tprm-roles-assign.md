@@ -2,7 +2,7 @@
 title: Assign TPRM roles to users and user groups
 description: Assign roles to users before you implement or use the Third-party Risk Management application. Assigning roles in a well-organized manner simplifies and improves process management and helps to ensure that users are promptly notified of tasks in their areas of responsibility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-roles-assign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-roles-assign.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The roles discussed in this procedure are described in [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
+The roles discussed in this procedure are described in [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ The roles discussed in this procedure are described in [Roles in Third-party Ris
 
     1.  In the search field for the **Collection** list, enter `sn_vdr` to view the list of roles that relate to the TPRM application.
 
-        TPRM roles are described in [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
+        TPRM roles are described in [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
 
     2.  Move the roles that are appropriate for the group from the **Collection** list to the **Roles** list and then select **Save**.
 
@@ -50,7 +50,7 @@ The roles discussed in this procedure are described in [Roles in Third-party Ris
 **Related topics**  
 
 
-[Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles.md)
+[Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md)
 
-[TPRM and the Explicit Roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vrm-and-explicit-roles-plugin.md)
+[TPRM and the Explicit Roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/vrm-and-explicit-roles-plugin.md)
 

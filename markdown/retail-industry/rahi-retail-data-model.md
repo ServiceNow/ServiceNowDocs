@@ -2,7 +2,7 @@
 title: Retail organization data model
 description: Learn about the Retail Core application by viewing the data model and role relationship diagrams. This diagram shows the relationship between the tables and roles within the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-data-model.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,8 +20,8 @@ Retail Core provides you with a flexible data model that you can extend and leve
 
 \[Omitted image "retail-org-data-model1.png"\] Alt text: Data model showing how the Retail Core and foundational tables interact.
 
--   **[Retail organization data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-data-model-tables.md)**  
+-   **[Retail organization data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-data-model-tables.md)**  
 Tables configured within the Retail Operations application enable you to determine the data model, tasks, and product offerings for your Retail Operations workflows.
 
-**Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-reference.md)
+**Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-reference.md)
 

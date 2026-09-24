@@ -2,7 +2,7 @@
 title: Software Publisher Analytics dashboard for VMware in Software Asset Management classic
 description: View compliance analysis results related to VMware on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/dashboard-vmware.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/dashboard-vmware.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -55,7 +55,7 @@ Product Results
 
 </td><td>
 
-Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
+Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -144,5 +144,5 @@ Number of products in each software lifecycle phase, including End of Extended S
 </td></tr></tbody>
 </table>The **vSphere Deployment** related link shows the VMware Discovered License Key Consumptions list.
 
-**Parent Topic:**[Software Asset Management publisher pack for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/vmware-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/vmware-publisher-pack.md)
 

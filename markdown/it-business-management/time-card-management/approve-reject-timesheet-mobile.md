@@ -2,7 +2,7 @@
 title: Approve or reject a time sheet or time card from your mobile device
 description: As a user manager, you can approve or reject from your mobile device all time cards for a user in a given week. Do this in a single step by approving or rejecting a time sheet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/approve-reject-timesheet-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/time-card-management/approve-reject-timesheet-mobile.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -24,7 +24,7 @@ Role required: timecard\_approver or timecard\_admin
 
 A user manager is the one who has either of the required roles. The manager who can accept or reject the time sheet is selected in the **Manager** field on the User form of the time card user.
 
-A manager can [delegate another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/delegate-time-sheet-approvals.md) with the required roles as the time sheet approver. For the specified time period, the delegated user also receives all the time sheets submitted by time card users to process.
+A manager can [delegate another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/delegate-time-sheet-approvals.md) with the required roles as the time sheet approver. For the specified time period, the delegated user also receives all the time sheets submitted by time card users to process.
 
 ## Procedure
 
@@ -49,8 +49,8 @@ A manager can [delegate another user](https://raw.githubusercontent.com/ServiceN
 -   If any time cards in the time sheet are pending approval by one of the approvers, the sheet remains in the Submitted state.
 -   If a time card in a time sheet is in the Rejected state, the time sheet also moves to the Rejected state. This occurs regardless of the state of any other time cards in the time sheet.
 
--   **[Track your time sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/track-timesheet.md)**  
+-   **[Track your time sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/track-timesheet.md)**  
 View and track the time sheets grouped according to the date of submission such as the current week, last week, or older.
 
-**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/timesheet-mobile.md)
+**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/timesheet-mobile.md)
 

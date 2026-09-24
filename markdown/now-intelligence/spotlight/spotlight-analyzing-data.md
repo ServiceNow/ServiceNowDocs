@@ -2,7 +2,7 @@
 title: Spotlight database views
 description: Spotlight ensures that a database view joins the Spotlight \[spotlight\] table and the facts table whose records the Spotlight group evaluates. You need this database view to use Spotlight interactive analysis. Administrators can access this database view to create reports or to diagnose problems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/spotlight-analyzing-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/spotlight/spotlight-analyzing-data.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -39,7 +39,7 @@ When creating, modifying, or deleting database views, Spotlight runs these busin
 -   Delete Database View
 -   Set DB View on Insert
 
-**Parent Topic:**[Administering Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/administering-spotlight.md)
+**Parent Topic:**[Administering Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/administering-spotlight.md)
 
 **Related topics**  
 

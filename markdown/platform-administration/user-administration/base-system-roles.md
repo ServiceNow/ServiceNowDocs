@@ -2,7 +2,7 @@
 title: System roles
 description: Administrators can control access to features and capabilities on a ServiceNow instance by assigning roles to users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/base-system-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/base-system-roles.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -16,7 +16,7 @@ breadcrumb: [Managing roles, User administration, Configure core features, Admin
 
 Administrators can control access to features and capabilities on a ServiceNow instance by assigning roles to users.
 
-Your ServiceNow includes roles to grant access to the platform features and applications included a base system instance. Applications you install on your instance may include additional roles to control access to those installed features. For more information about roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/exploring-user-administration.md).
+Your ServiceNow includes roles to grant access to the platform features and applications included a base system instance. Applications you install on your instance may include additional roles to control access to those installed features. For more information about roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/exploring-user-administration.md).
 
 **Important:** Base system and roles installed with applications can be deactivated by administrators, but can’t modify or rename these roles.
 
@@ -40,7 +40,7 @@ admin
 
 The system administrator role. This role has access to all system features, functions, and data because administrators can override access control list \(ACL\) rules and pass all role checks. Avoid assigning this role to your users when more targeted roles are available.
 
- **Warning:** Grant this privilege carefully. If you have sensitive information, such as HR records, that you need to protect, you must create a custom admin role for that area. You must also train any users authorized to see those records to act as the administrator. Also note the [Special Administrative Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_SpecialAdministrativeRoles.md).
+ **Warning:** Grant this privilege carefully. If you have sensitive information, such as HR records, that you need to protect, you must create a custom admin role for that area. You must also train any users authorized to see those records to act as the administrator. Also note the [Special Administrative Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/r_SpecialAdministrativeRoles.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ ais\_admin
 
 </td><td>
 
-AI search administrators can query, create, update, and delete indexing and search settings and log messages through the [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) application.
+AI search administrators can query, create, update, and delete indexing and search settings and log messages through the [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/overview-ais.md) application.
 
 </td></tr><tr><td>
 
@@ -460,7 +460,7 @@ personalize\_choices
 
 </td><td>
 
-Can configure [choices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewChoiceListDefinitions.md) and predefined responses for non-journal fields designated as choice or suggestion fields.
+Can configure [choices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ViewChoiceListDefinitions.md) and predefined responses for non-journal fields designated as choice or suggestion fields.
 
 </td></tr><tr><td>
 
@@ -468,7 +468,7 @@ personalize\_control
 
 </td><td>
 
-Can [configure controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureListControls.md) on lists, such as filters, links, and buttons.
+Can [configure controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/t_ConfigureListControls.md) on lists, such as filters, links, and buttons.
 
 </td></tr><tr><td>
 
@@ -476,7 +476,7 @@ personalize\_dictionary
 
 </td><td>
 
-Can configure dictionary entries and [labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ChangeFieldLabelOrHint.md).
+Can configure dictionary entries and [labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ChangeFieldLabelOrHint.md).
 
 </td></tr><tr><td>
 
@@ -484,7 +484,7 @@ personalize\_form
 
 </td><td>
 
-Can [configure forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+Can [configure forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md).
 
 </td></tr><tr><td>
 
@@ -492,7 +492,7 @@ personalize\_list
 
 </td><td>
 
-Can [configure lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md) and list [calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureListCalculations.md).
+Can [configure lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/t_ConfigureTheListLayout.md) and list [calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/t_ConfigureListCalculations.md).
 
 </td></tr><tr><td>
 
@@ -500,7 +500,7 @@ personalize\_responses
 
 </td><td>
 
-Can configure predefined responses for [journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_JournalFields.md) designated as suggestion fields.
+Can configure predefined responses for [journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_JournalFields.md) designated as suggestion fields.
 
 </td></tr><tr><td>
 
@@ -519,7 +519,7 @@ personalize\_styles
 
 </td><td>
 
-Can configure [field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineFieldStyles.md).
+Can configure [field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_DefineFieldStyles.md).
 
 </td></tr><tr><td>
 
@@ -783,7 +783,7 @@ ts\_admin
 
 </td><td>
 
-Can administer [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md).
+Can administer [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_ZingTextSearch.md).
 
 </td></tr><tr><td>
 
@@ -858,5 +858,5 @@ Applications you install on your instance may include additional roles. Follow t
 |-------|-----------|
 |Platform Capabilities|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/installed-with-awa.md)|
 
-**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
+**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/ua-creating-roles.md)
 

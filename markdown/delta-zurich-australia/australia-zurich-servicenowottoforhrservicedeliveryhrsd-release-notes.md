@@ -2,11 +2,11 @@
 title: Combined ServiceNow Otto for HR Service Delivery \(HRSD\) release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for HR Service Delivery \(HRSD\) from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforhrservicedeliveryhrsd-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoforhrservicedeliveryhrsd-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 8
+last_updated: "2026-09-24"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,79 @@ Zurich
 
 </td><td>
 
--   **[Some Now Assist skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+-   **[ER Interview Summarization](https://www.servicenow.com/docs/access?context=now-assist-hrsd-er-interview&family=zurich&ft:locale=en-US)**
+
+Use the ER interview summarization skill to obtain summary of the ER case interview, which includes details such as quick recap, key assertions and responses.
+
+-   **[Self-scheduling option in Schedule interviews agentic workflow](https://www.servicenow.com/docs/access?context=use-ai-agents-to-schedule-interviews&family=zurich&ft:locale=en-US)**
+
+Recruiters and recruitment coordinators can now use self-scheduling to streamline interview scheduling by presenting applicants with available time slots to choose from. This option reduces the time to schedule in the absence of overlapping applicant-declared availability and minimizes the probability of manual handover to recruiter. The workflow recommends self-scheduling when beneficial, offers panelist-compatible slots sorted by confidence level, and automatically schedules interviews once applicants select their preferred time.
+
+-   **[Offboarding knowledge transfer plan generation agentic workflow](https://www.servicenow.com/docs/access?context=offboarding-knowledge-x-agentic-wf&family=zurich&ft:locale=en-US)**
+
+The offboarding knowledge transfer plan generation agentic workflow captures and organizes critical knowledge when employees leave. AI agents interact with managers to collect requirements, discover documents from the specified time period, categorize content into meaningful work areas, and facilitate employee review before sharing with successors.
+
+-   **[Generate onboarding ramp-up plan](https://www.servicenow.com/docs/access?context=onboarding-ramp-up-plan-agentic-wf&family=zurich&ft:locale=en-US)**
+
+The generate onboarding ramp-up plan workflow has been enhanced to create more relevant and personalized ramp-up plans for new hires. The workflow now recommends additional Journey services \(catalogs and order guides\) based on previously completed journeys and services requested by peers in similar roles. Managers can review these recommendations in Now Assist in Virtual Agent and add new services through a conversational experience.
+
+
+ -   **[Predict service and transfer HR cases](https://www.servicenow.com/docs/access?context=predict-transfer-hrcase&family=zurich&ft:locale=en-US)**
+
+Analyze an HR case and automatically route it to the most appropriate HR service with the predict service and transfer HR cases agentic workflow.
+
+-   **[Resolve noncritical HR cases](https://www.servicenow.com/docs/access?context=employee-issue-resolver-na&family=zurich&ft:locale=en-US)**
+
+Use the resolve noncritical HR cases agentic workflow to assess the criticality of HR cases, and automatically respond to noncritical inquiries without human intervention. Human agent intervention is required when the request is identified as critical.
+
+-   **[Resolve critical HR case](https://www.servicenow.com/docs/access?context=employee-issue-resolve-critical&family=zurich&ft:locale=en-US)**
+
+Resolve critical HR requests efficiently with the resolve critical HR case agentic workflow. This workflow generates a tailored fulfillment plan for an HR case using fulfillment instructions, KB articles, or resolution notes of similar past cases. It helps accelerate the resolution process by providing planning support to HR agents.
+
+-   **[Summarize an ER case](https://www.servicenow.com/docs/access?context=now-assist-hrsd-summarize-er-case&family=zurich&ft:locale=en-US)**
+
+Use the ER case summarization skill to obtain a comprehensive overview of the ER case, which includes key details, such as allegations, evidences, and interviews.
+
+-   **[Help resolve tuition reimbursement requests](https://www.servicenow.com/docs/access?context=resolve-tuition-reimbursement-requests&family=zurich&ft:locale=en-US)**
+
+Use the policy based HR evaluator skill to automatically compare employee tuition reimbursement submissions against company policies and return a decision of approval, denial, or request for additional information.
+
+-   **[HR AI voice agents](https://www.servicenow.com/docs/access?context=now-assist-hrsd-voice-ai-agents&family=zurich&ft:locale=en-US)**
+
+Help employees handle self-service HR issues, such as creating cases, checking case status, and requesting time off, using real-time voice interactions with HR AI voice agents. With advanced speech-to-text and text-to-speech capabilities, configurable caller authentication, and seamless integration with Contact Center as a Service \(CCaaS\) providers, such as Twilio and Genesys, the agents can deliver an efficient and personalized experience for employees.
+
+
+ -   **[Security for AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
+
+Enable security settings to run AI agents and agentic workflows by using ACLs and user identities. You can configure and manage the ACLs in AI Agent Studio.
+
+-   **[HCM AI agents](https://www.servicenow.com/docs/access?context=conversational-agents&family=zurich&ft:locale=en-US)**
+
+Use AI agents to enable employees to place requests to the HCM system, such as apply for time off or update details.
+
+-   **[Resolve HR cases agentic workflow](https://www.servicenow.com/docs/access?context=employee-issue-resolver-na&family=zurich&ft:locale=en-US)**
+
+Generate a fulfillment plan in a series of steps for an HR case by selecting the **Generate Plan** button on the HR case. HR agents can add prompts to further refine the AI-generated fulfillment plan before the plan is published to the work notes of the case.
+
+-   **[HR case sentiment analysis](https://www.servicenow.com/docs/access?context=analyze-sentiments-now-assist&family=zurich&ft:locale=en-US)**
+
+Prioritize cases by the sentiment score and monitor sentiment trends over time. HR agents can review a brief summary to understand the reasoning for the sentiment score for each HR case.
+
+-   **[Schedule interviews](https://www.servicenow.com/docs/access?context=use-ai-agents-to-schedule-interviews&family=zurich&ft:locale=en-US)**
+
+Use AI agents to automate the interview scheduling process from the Now Assist panel and use the inputs from recruiters or recruitment coordinators to send out interview invites.
+
+
+ -   **[Generate onboarding ramp-up agentic workflow](https://www.servicenow.com/docs/access?context=onboarding-ramp-up-plan-agentic-wf&family=zurich&ft:locale=en-US)**
+
+Accelerate onboarding with the generate onboarding ramp-up plan agentic workflow, which creates personalized and team-specific plans for every new hire. Powered by AI agents, it tailors learning paths, team tasks, and 1:1 introductions to help employees ramp up fast, build stronger connections, and reach productivity quickly.
+
+-   **[Resolve noncritical HR cases](https://www.servicenow.com/docs/access?context=employee-issue-resolver-na&family=zurich&ft:locale=en-US)**
+
+Evaluate case criticality and retrieve relevant knowledge articles to resolve HR cases, minimizing the need for agent intervention. Generate a fulfillment plan for an HR case, which helps resolve the HR case fast.
+
+
+ -   **[Some Now Assist skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
 The new default behavior works as follows:
 
@@ -147,6 +219,29 @@ Zurich
 -   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+ -   **[Functional change](https://www.servicenow.com/docs/access?context=employee-issue-resolver-na&family=zurich&ft:locale=en-US)**
+
+The resolve HR cases agentic workflow has been broken down into three agentic flows:
+
+    -   [Predict service and transfer HR cases](https://www.servicenow.com/docs/access?context=predict-transfer-hrcase&family=zurich&ft:locale=en-US)
+    -   [Resolve noncritical HR cases](https://www.servicenow.com/docs/access?context=employee-issue-resolver-na&family=zurich&ft:locale=en-US)
+    -   [Resolve critical HR case](https://www.servicenow.com/docs/access?context=employee-issue-resolve-critical&family=zurich&ft:locale=en-US)
+
+ -   **[Flow name](https://www.servicenow.com/docs/access?context=employee-issue-resolver-na&family=zurich&ft:locale=en-US)**
+
+The resolve noncritical HR cases workflow has been renamed to the resolve HR cases workflow.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -242,6 +337,8 @@ Zurich
 Install ServiceNow Otto for HRSD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** ServiceNow Otto for HRSD is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -252,6 +349,8 @@ Australia
 
 Install ServiceNow Otto for HRSD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for HRSD is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -448,5 +547,5 @@ Australia
  See [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

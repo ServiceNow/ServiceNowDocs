@@ -2,7 +2,7 @@
 title: Threat Hunting Playbook
 description: The Threat Hunting playbook is a guided workflow for a TISC Case record that helps analysts move a threat hunt from an initial hypothesis to a final outcome.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -37,9 +37,9 @@ The playbook is initiated automatically when a Case is created with the followin
 
 A system work note on the Case record indicates that the playbook has been initiated. Open the **Playbooks** tab on the Case record to view execution details.
 
-**Important:** The Threat Hunting Playbook is shipped in a deactivated state. Before the auto-initiation takes effect, an administrator must activate the playbook. For details, see [Activate the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-activate-threat-hunt-playbook.md).
+**Important:** The Threat Hunting Playbook is shipped in a deactivated state. Before the auto-initiation takes effect, an administrator must activate the playbook. For details, see [Activate the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-activate-threat-hunt-playbook.md).
 
-You can also attach the playbook manually to a Case that does not meet the auto-trigger conditions. For details, see [Add the Threat Hunting Playbook to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.md).
+You can also attach the playbook manually to a Case that does not meet the auto-trigger conditions. For details, see [Add the Threat Hunting Playbook to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.md).
 
 ## Roles and permissions
 
@@ -57,17 +57,17 @@ Any user with access to a Case record can read playbook details and contribute i
 
 While you work on other tabs of the Case record, you can monitor playbook status and cancel the playbook from the **Playbook** card in the right-side context menu.
 
--   **[Use the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-use-threat-hunt-playbook.md)**  
+-   **[Use the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-use-threat-hunt-playbook.md)**  
 Run threat hunt on a Case record — from capturing the hunt hypothesis through to creating a Security incident or reporting.
--   **[Add the Threat Hunting Playbook to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.md)**  
+-   **[Add the Threat Hunting Playbook to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.md)**  
 If a Case does not meet the auto-trigger conditions for the Threat Hunting playbook, you can attach the playbook to the Case manually.
 
-**Parent Topic:**[Using playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-playbooks-analyst.md)
+**Parent Topic:**[Using playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-playbooks-analyst.md)
 
 **Related topics**  
 
 
-[Use the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-use-threat-hunt-playbook.md)
+[Use the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-use-threat-hunt-playbook.md)
 
-[Activate the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-activate-threat-hunt-playbook.md)
+[Activate the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-activate-threat-hunt-playbook.md)
 

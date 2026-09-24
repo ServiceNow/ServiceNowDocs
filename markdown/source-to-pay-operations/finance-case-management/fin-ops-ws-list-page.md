@@ -2,7 +2,7 @@
 title: Finance Operations Workspace list page
 description: View a high-level information of all records in a list filter from the Finance Operations Workspace list page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/fin-ops-ws-list-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/fin-ops-ws-list-page.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -99,10 +99,10 @@ Knowledge
 Finance articles
 
 </td></tr></tbody>
-</table>-   **[View a case from Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/view-case-fin-ops-ws.md)**  
+</table>-   **[View a case from Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/view-case-fin-ops-ws.md)**  
 View a case from the Finance Operations Workspace for further processing.
 
-**Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
+**Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
 
 **Related topics**  
 

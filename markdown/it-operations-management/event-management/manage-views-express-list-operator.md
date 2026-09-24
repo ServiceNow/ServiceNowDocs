@@ -2,7 +2,7 @@
 title: Identify an assigned Express List view
 description: Identify Express List views assigned to you by your Event Management admin to make sure that you focus on specific services, priorities, or alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/manage-views-express-list-operator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/manage-views-express-list-operator.html
 release: australia
 product: Event Management
 classification: event-management
@@ -42,5 +42,5 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 **Related topics**  
 
 
-[Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manage-views-express-list.md)
+[Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manage-views-express-list.md)
 

@@ -2,7 +2,7 @@
 title: Action form
 description: Use an action form to add an action to a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/action-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/action-form.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -121,5 +121,5 @@ Work notes
 Information about the action. Add work notes to communicate about the status of action approval, rejection, or implementation with other users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/demand-management-forms.md)
 

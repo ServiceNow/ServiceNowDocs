@@ -2,7 +2,7 @@
 title: Request other IT service with Care Team Operations for IT
 description: Request IT service for non-EMR issues using the Request other IT service catalog item from the Care Team Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-cto-it-request-other-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-cto-it-request-other-service.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

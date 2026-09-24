@@ -2,7 +2,7 @@
 title: Manage documents from the Supplier Collaboration Portal
 description: Manage documents by uploading, updating and downloading the required documents from the Supplier Collaboration Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -18,7 +18,7 @@ Manage documents by uploading, updating and downloading the required documents f
 
 ## Before you begin
 
-Ensure that you have created a supplier document configuration. For more information, see [Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md).
+Ensure that you have created a supplier document configuration. For more information, see [Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md).
 
 Role required: sn\_slm.contact or sn\_slm.admin
 
@@ -32,19 +32,19 @@ Role required: sn\_slm.contact or sn\_slm.admin
 
     |Action|Description|
     |------|-----------|
-    |**Upload or download a document from the My Company page**|Upload documents from the My Company page. For more information, see [Manage documents from My Company page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-my-company.md).|
-    |**Upload documents from the My Tasks page**|Upload documents from the My Tasks page to complete tasks assigned by the supplier relationship manager. For more information, see [Upload document from My Tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-document-from-my-tasks-page.md).|
-    |**Upload, download, manage permissions, from the Documents tab**|This tab lets you manage documents without needing a supplier manager to initiate the process first.For more information, see [Manage documents from Documents tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-documents-tab.md).|
+    |**Upload or download a document from the My Company page**|Upload documents from the My Company page. For more information, see [Manage documents from My Company page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-my-company.md).|
+    |**Upload documents from the My Tasks page**|Upload documents from the My Tasks page to complete tasks assigned by the supplier relationship manager. For more information, see [Upload document from My Tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-document-from-my-tasks-page.md).|
+    |**Upload, download, manage permissions, from the Documents tab**|This tab lets you manage documents without needing a supplier manager to initiate the process first.For more information, see [Manage documents from Documents tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-documents-tab.md).|
 
 
--   **[Manage documents from Documents tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-documents-tab.md)**  
+-   **[Manage documents from Documents tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-documents-tab.md)**  
 The Documents tab lets supplier contacts upload and manage documents without needing a supplier manager to initiate the process first. Supplier contacts can also manage document permissions from the Documents tab.
--   **[Manage documents from My Company page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-my-company.md)**  
+-   **[Manage documents from My Company page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-my-company.md)**  
 You can upload, update, and download documents and document templates from the document widget on the My Company page.
--   **[Upload document from My Tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-document-from-my-tasks-page.md)**  
+-   **[Upload document from My Tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-document-from-my-tasks-page.md)**  
 Complete the document upload tasks assigned to you from the My tasks page on the Supplier Collaboration Portal.
 
-**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
+**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 
 **Related topics**  
 
@@ -73,7 +73,7 @@ Complete the document upload tasks assigned to you from the My tasks page on the
 
 [Create a Universal Request from the Supplier Collaboration Portal]()
 
-[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 
-[View all your requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-supp-case-sc.md)
+[View all your requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/view-supp-case-sc.md)
 

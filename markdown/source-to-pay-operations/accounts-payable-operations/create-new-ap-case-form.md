@@ -2,7 +2,7 @@
 title: Create New Invoice case form
 description: Field descriptions for the Create New Invoice case form, organized by section, for creating and managing invoice cases in Accounts Payable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -190,12 +190,12 @@ Closed
 Whether the case is closed or not.
 
 </td></tr></tbody>
-</table>-   **[Invoice case form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inquiry-case-related-list.md)**  
+</table>-   **[Invoice case form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/inquiry-case-related-list.md)**  
 Descriptions of the tabs on the Invoice case form, including case details, tasks, service level agreements, emails, and related cases.
--   **[Invoice status messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-status.md)**  
+-   **[Invoice status messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-status.md)**  
 Reference information for invoice status messages and the conditions that trigger each status during invoice processing in Accounts Payable Operations.
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

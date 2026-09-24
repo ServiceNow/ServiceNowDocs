@@ -2,7 +2,7 @@
 title: AIOps Dashboards in Service Operations Workspace for ITOM
 description: The AIOps dashboards offer comprehensive visualizations of critical operational data. You can monitor key performance indicators \(KPIs\), track service health, and gain valuable context on the overall IT environment. These dashboards provide actionable insights that facilitate proactive responses to potential issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-dashboards-sow-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-dashboards-sow-itom.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

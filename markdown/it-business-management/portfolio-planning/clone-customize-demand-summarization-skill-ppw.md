@@ -2,7 +2,7 @@
 title: Copy and customize the demand summarization skill
 description: Copy the base demand summarization skill and customize it with your own fields, related entities, and prompt to summarize demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/clone-customize-demand-summarization-skill-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/clone-customize-demand-summarization-skill-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -75,7 +75,7 @@ Action
 Select the cross icon next to an input field.
 
 </td></tr></tbody>
-</table>    For more information on the default input fields and related tables, see [Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/skill-inputs-for-ai-skills-ppw.md).
+</table>    For more information on the default input fields and related tables, see [Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/skill-inputs-for-ai-skills-ppw.md).
 
 8.  Add rules or conditions for the skill.
 

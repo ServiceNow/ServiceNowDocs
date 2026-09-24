@@ -2,7 +2,7 @@
 title: Transfer catalog items using update sets
 description: Transfer catalog items published through Catalog Builder from one instance to another easily by using update sets automatically created for the catalog item. For example, you can transfer catalog items created by a business user from a non-production to production instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/transfer-catalog-items-using-update-sets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/transfer-catalog-items-using-update-sets.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -20,9 +20,9 @@ Transfer catalog items published through Catalog Builder from one instance to an
 
 You can access update sets for a catalog item only if it is created or modified in Catalog Builder.
 
-For information on creating a catalog item in Catalog Builder, see [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md).
+For information on creating a catalog item in Catalog Builder, see [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md).
 
-For information on editing a catalog item in Catalog Builder, see [Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md).
+For information on editing a catalog item in Catalog Builder, see [Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md).
 
 Role required: catalog\_admin, catalog\_builder\_editor
 
@@ -41,5 +41,5 @@ Role required: catalog\_admin, catalog\_builder\_editor
     **Note:** If you want to set the prefix of update sets, use the **glide.sc.cb.item.update\_set\_prefix** property. The property defines the naming format for catalog item update sets. You can use a static name or optionally include the following variables: $\{template\_name\}, $\{item\_name\}, and $\{timestamp\}. Format example: CatalogItem\_$\{item\_name\}\_$\{timestamp\} Default value: CB\_$\{template\_name\}\_$\{item\_name\}\_$\{timestamp\}
 
 
-**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
+**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
 

@@ -2,7 +2,7 @@
 title: Configure article list widget instance options
 description: Configure widget instance options for the article lists on the Knowledge Management Service Portal homepage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-article-list-widget-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/config-article-list-widget-options.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -51,5 +51,5 @@ The homepage uses the Article List widget to display different lists of articles
 5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

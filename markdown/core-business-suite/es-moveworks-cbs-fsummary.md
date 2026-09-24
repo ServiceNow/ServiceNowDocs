@@ -2,7 +2,7 @@
 title: Employee Slate for Moveworks configuration menu
 description: Navigation sections available on the Employee Slate for Moveworks Configuration Summary page, and what each section contains.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/es-moveworks-cbs-fsummary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/es-moveworks-cbs-fsummary.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-05"
@@ -32,5 +32,5 @@ Navigation sections available on the Employee Slate for Moveworks Configuration 
 |Documentation|Parent section for reference materials. Contains the Documentation and references subsection.|
 |Documentation and references|Links to supporting documentation and reference materials for the Employee Slate for Moveworks configuration.|
 
-**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-reference-parent.md)
 

@@ -2,7 +2,7 @@
 title: DPR and GRC integration for release compliance
 description: The integration between Digital Product Release \(DPR\) and ServiceNow GRC: Policy and Compliance Management connects your release management processes with the enterprise risk and compliance controls. This integration helps you deliver faster, safer, and reliable releases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-policy-compliance-grc-integ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-policy-compliance-grc-integ.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -104,5 +104,5 @@ The policy execution status is listed in the **PaCE results** tab in the newly c
 -
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
+</table>**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 

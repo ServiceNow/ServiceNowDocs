@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Integrated Risk Management \(IRM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -100,5 +100,5 @@ This store app has the following dependencies:
 -   GRC Compliance generative AI
 -   Recommendation Template
 
-For more information, see [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md).
+For more information, see [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md).
 

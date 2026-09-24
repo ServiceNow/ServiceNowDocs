@@ -2,7 +2,7 @@
 title: Complete the Repair asset task for a defective Device as a Service DaaS asset
 description: Complete the Repair asset task for a defective DaaS asset by repairing the asset either on-site or off-site.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/repair-daas-asset-rma-response-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/repair-daas-asset-rma-response-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -18,7 +18,7 @@ Complete the Repair asset task for a defective DaaS asset by repairing the asset
 
 ## Before you begin
 
-Before you can begin the Repair asset task, you must complete the preceding Evaluate RMA asset task by evaluating the asset and indicating that it is repairable. For detailed instructions, see [Complete the Evaluate RMA asset task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/evaluate-daas-asset-rma-response-order.md).
+Before you can begin the Repair asset task, you must complete the preceding Evaluate RMA asset task by evaluating the asset and indicating that it is repairable. For detailed instructions, see [Complete the Evaluate RMA asset task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/evaluate-daas-asset-rma-response-order.md).
 
 Role required: sn\_eam\_provider.provider\_asset\_technician
 
@@ -135,8 +135,8 @@ Notes about the task that are visible to all users within your organization.
 
 ## What to do next
 
--   If you set the **Repair result** field to **Repaired**, complete the corresponding Evaluate asset task by evaluating the repaired asset and determining if it can be redeployed. For detailed instructions, see [Complete the Evaluate asset task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/evaluate-repaired-daas-asset-rma-response-order.md).
--   If you set the **Repair result** field to **Unrepairable**, complete the corresponding Ship task by having the customer ship the asset to you for replacement. For detailed instructions, see [Complete the Ship task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ship-daas-asset-rma-response-order.md).
+-   If you set the **Repair result** field to **Repaired**, complete the corresponding Evaluate asset task by evaluating the repaired asset and determining if it can be redeployed. For detailed instructions, see [Complete the Evaluate asset task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/evaluate-repaired-daas-asset-rma-response-order.md).
+-   If you set the **Repair result** field to **Unrepairable**, complete the corresponding Ship task by having the customer ship the asset to you for replacement. For detailed instructions, see [Complete the Ship task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/ship-daas-asset-rma-response-order.md).
 
-**Parent Topic:**[Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md)
+**Parent Topic:**[Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md)
 

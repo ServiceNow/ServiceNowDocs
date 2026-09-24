@@ -2,7 +2,7 @@
 title: Add affected users to existing cases
 description: You can add affected users to one or more existing cases. After the user records have been added to cases, you can use Security Case Management to analyze the data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/add-users-to-cases-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/add-users-to-cases-sir.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ You need to navigate to the user records you want to add to existing cases.
     A message indicates that the selected records have been added to the cases, along with a link to the cases in Security Case Management.
 
 
-**Parent Topic:**[Affected users in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cases-from-affected-users.md)
+**Parent Topic:**[Affected users in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/cases-from-affected-users.md)
 
 **Related topics**  
 

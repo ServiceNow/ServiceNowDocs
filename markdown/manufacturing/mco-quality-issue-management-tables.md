@@ -2,7 +2,7 @@
 title: Quality issue management tables
 description: This section explains quality issue management \(QIM\) tables in Manufacturing Commercial Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-quality-issue-management-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-quality-issue-management-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -203,5 +203,5 @@ Impacted Asset Action\[sn\_mfg\_qm\_impacted\_asset\_action\]
 Links actions to impacted assets for issue resolution tracking.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-quality-issue-management-data-model.md)
+</table>**Parent Topic:**[Quality issue management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-quality-issue-management-data-model.md)
 

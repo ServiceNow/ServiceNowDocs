@@ -2,7 +2,7 @@
 title: Quick tests for Continual Improvement Management
 description: Validate the continued functionality of Continual Improvement Management during application development and after upgrades. Copy and configure these automated tests to identify customizations needing review. All test suites and tests should pass.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/quick-tests-cim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/continual-improvement-management/quick-tests-cim.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -19,7 +19,7 @@ Validate the continued functionality of Continual Improvement Management during 
 **Note:** To run CIM automated tests:
 
 -   The Continual Improvement Management Automated Tests \(com.sn\_cim\_atf\) plugin must be enabled.
--   The **sn\_cim.create\_default\_phase** system property must be enabled. For more information, see [Properties installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-components.md).
+-   The **sn\_cim.create\_default\_phase** system property must be enabled. For more information, see [Properties installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-components.md).
 
 <table id="atf-tests-cim"><thead><tr><th>
 
@@ -375,7 +375,7 @@ CIM: Submit an initiative in Implement state for Re-Approval
 Tests that an improvement initiative in Implement state can be submitted for Re-Approval action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md)
+</table>**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Health check
 description: Use the Health check dashboard to view the results of the health scan that is performed on the configurations in your Software Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/health-check-dboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/health-check-dboard.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -24,7 +24,7 @@ If you are on the Rome or the San Diego releases, you must execute the full scan
 
 Select **Domain** and choose a domain to view the health check results.
 
-You can also perform a scan for a suite by selecting **Execute Scan**. Verify the scan result to act accordingly. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/run-healthcheck.md)
+You can also perform a scan for a suite by selecting **Execute Scan**. Verify the scan result to act accordingly. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/run-healthcheck.md)
 
 \[Omitted image "feb-health-check.png"\] Alt text: Health check tab in the Success portal
 
@@ -114,7 +114,7 @@ Categorization of issues identified as a result of the health check scan.-   Dis
 </table>**Related topics**  
 
 
-[Software Asset Management health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-health-check.md)
+[Software Asset Management health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-health-check.md)
 
-[Run a health check scan for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/run-healthcheck.md)
+[Run a health check scan for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/run-healthcheck.md)
 

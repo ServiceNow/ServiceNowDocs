@@ -2,7 +2,7 @@
 title: Emergency Self Report
 description: During a crisis, the ServiceNow Emergency Self Report application gives users a way to notify their organization of their health status. It also provides a workflow for qualified users to safely return to work. Managers and response teams can track user reporting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-self-report/emergency-self-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-self-report/emergency-self-report.html
 release: australia
 product: Emergency Self Report
 classification: emergency-self-report
@@ -29,7 +29,7 @@ A menu-driven interface enables users to report their status to their managers. 
 
 \[Omitted image "employee-self-report-employee-view.png"\] Alt text: Users can self-report and select their health status
 
-If ServiceNow® [Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-tracing.md) is installed, a case is created automatically for a user who self-reports as being in quarantine. If an active case exists for the user at the time of reporting, a note is added to the case for the self-reporting.
+If ServiceNow® [Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/contact-tracing.md) is installed, a case is created automatically for a user who self-reports as being in quarantine. If an active case exists for the user at the time of reporting, a note is added to the case for the self-reporting.
 
 ## Managers can monitor the status of their teams
 
@@ -53,7 +53,7 @@ HR tasks do not have a specific workflow associated with them. They are created 
 
 ## Use with other Emergency Response Management applications
 
-Emergency Self Report was originally developed to monitor and aid in stopping the community spread of COVID-19 among users. It is part of the suite of ServiceNow® Emergency Response Management applications built on the ServiceNow AI Platform® to assist companies in their emergency response efforts. With the [Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/emergency-exposure-management.md) application, you can identify users who might have been exposed. You can then contact affected users through the [Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md) application. Both applications are available in the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+Emergency Self Report was originally developed to monitor and aid in stopping the community spread of COVID-19 among users. It is part of the suite of ServiceNow® Emergency Response Management applications built on the ServiceNow AI Platform® to assist companies in their emergency response efforts. With the [Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/emergency-exposure-management.md) application, you can identify users who might have been exposed. You can then contact affected users through the [Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-outreach/emergency-outreach.md) application. Both applications are available in the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 ## Emergency Response Management for federal customers
 
@@ -114,16 +114,16 @@ ServiceNow is offering this application to government agencies and their authori
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
 
--   **[Set up Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/set-up-emergency-self-report.md)**  
+-   **[Set up Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-self-report/set-up-emergency-self-report.md)**  
 To set up Emergency Self Report, install the application. Then configure user access, a dedicated knowledge base, and system properties.
--   **[Report and track health statuses during an emergency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/use-emergency-self-report.md)**  
+-   **[Report and track health statuses during an emergency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-self-report/use-emergency-self-report.md)**  
 Emergency Self Report is used by users to self-report their health status, by managers to track the health status of their users, and by response teams to view the status for all users and sort the data for analysis and action.
--   **[View self-reported user HR tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/view-hr-tasks-response-team.md)**  
+-   **[View self-reported user HR tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-self-report/view-hr-tasks-response-team.md)**  
 Members of the emergency response team can view all user reports and associated HR tasks on the Emergency Self Report overview dashboard.
--   **[Import Crisis Task data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/import-crisis-task-data.md)**  
+-   **[Import Crisis Task data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-self-report/import-crisis-task-data.md)**  
 As a crisis task administrator, upload a spreadsheet of self-reported health statuses to create crisis tasks in bulk.
--   **[Domain separation for Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/emergency-self-report-domain-separation.md)**  
+-   **[Domain separation for Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-self-report/emergency-self-report-domain-separation.md)**  
 The following table lists the domain separation use cases for service providers \(SPs\) using this application.
 
-**Parent Topic:**[Emergency Response Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-response-management.md)
+**Parent Topic:**[Emergency Response Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-response-management.md)
 

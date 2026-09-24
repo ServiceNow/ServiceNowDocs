@@ -2,7 +2,7 @@
 title: Common errors in DevOps Change Velocity
 description: Identify the root cause of errors that occur in DevOps Change Velocity, and see the corresponding steps that might resolve them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-reference-error-messages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/devops-reference-error-messages.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -50,7 +50,7 @@ Tool cannot be created because the tool URL is invalid or incorrect. Re-enter th
 
 </td><td>
 
-Verify that the tool URL is valid and reachable. The URL should follow the official format supported by the tool \(for e.g., Azure DevOps, GitHub, GitLab, Jenkins\). Also verify that there are no trailing spaces or invalid characters.For GitHub, see the About this task section of the [Onboard GitHub to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/playbook-enter-github-instance-details.md) topic.
+Verify that the tool URL is valid and reachable. The URL should follow the official format supported by the tool \(for e.g., Azure DevOps, GitHub, GitLab, Jenkins\). Also verify that there are no trailing spaces or invalid characters.For GitHub, see the About this task section of the [Onboard GitHub to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/playbook-enter-github-instance-details.md) topic.
 
 </td></tr><tr><td>
 
@@ -195,7 +195,7 @@ This error occurs only for custom tool integrations.
 16. Publish the subflow by selecting **Publish**.
 17. Navigate to **DevOps &gt; Integrations &gt; Integration Capabilities** and create a record with the **Validate** action.
 
-For more information, see [Create a DevOps tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-dev-ops-integrations.md).
+For more information, see [Create a DevOps tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-dev-ops-integrations.md).
 
 \[Omitted image "validate-associate-subflow.png"\] Alt text: Integration Capabilities related tab
 
@@ -285,7 +285,7 @@ This section lists the steps required to resolve tool permission errors when you
 
     -   Select **Continue** to progress to the next step in the playbook.
     -   If errors show up in the result, try again by selecting **Refresh**.
-    -   If the error persists, update the [Tool permission check timeout per record \(in milliseconds\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md) property and try again.
+    -   If the error persists, update the [Tool permission check timeout per record \(in milliseconds\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-reference-error-messages.md) property and try again.
 -   **Tool permission check timeout property**
 
     During the tool connection process, the system performs permission validations in the foreground, and restricts the tool connection page. For every permission validation, a REST API call is made to external tools to evaluate the availability of the permission. The REST API response time may vary based on your network settings. To avoid delays, you can specify how long the system should wait to get a response from an external tool before marking the permission as an error. You can specify this time using the **Tool permission check timeout per record \(in milliseconds\)** property **\(sn\_devops.permission\_check\_timeout\)**. If you find that some of the permission checks are resulting in an error, try increasing the timeout value, and select **Refresh** in the Permissions pop-up.
@@ -310,7 +310,7 @@ Authorization credentials are either invalid or do not have the minimum required
 </td><td>
 
 -   Verify if your third-party tool credentials have the required scopes. If you are using the workspace UI, you can navigate to the tool record, and select **More actions \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) &gt; Check credential permissions** to know about the required permissions.
--   Verify if you have entered the correct username/password for your third-party tool. If you are using the workspace UI, and you want to update your tool credentials, then navigate to the tool record, and select **More actions \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) &gt; Check credential permissions**. For more information on updating credentials, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
+-   Verify if you have entered the correct username/password for your third-party tool. If you are using the workspace UI, and you want to update your tool credentials, then navigate to the tool record, and select **More actions \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) &gt; Check credential permissions**. For more information on updating credentials, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
 
 </td></tr><tr><td>
 
@@ -489,7 +489,7 @@ Update the **Retry Errored Inbound Events** scheduled job to retry processing in
 -   Update the errors or exceptions list to specify exceptions that you want to retry event processing for.
 -   Modify the default **Maximum Retry** count.
 
-For more information, see [Retry errored inbound events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-retry-schedule-job-inbound.md)
+For more information, see [Retry errored inbound events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/config-retry-schedule-job-inbound.md)
 
 </td></tr><tr><td>
 
@@ -501,7 +501,7 @@ Pipeline execution in ServiceNow DevOps does not move forward and waits indefini
 
 For all SonarQube steps in code quality scans, the user must create SonarQube tool in the ServiceNow DevOps instance.
 
- For more information, see [SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
+ For more information, see [SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
 
 </td></tr><tr><td>
 
@@ -512,5 +512,5 @@ Pipeline UI displays broken links between stages.
 Navigate to **Task Executions** and ensure that the Upstream executions column has the appropriate upstream link references.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
+</table>**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 

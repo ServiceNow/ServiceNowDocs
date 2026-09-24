@@ -2,7 +2,7 @@
 title: App Engine ERP MDM Orchestrator dashboard
 description: The MDM Orchestrator dashboard provides tailored views of workflows, requests, and actions for each persona: requestor, enricher, and governance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-mdm-orchestrator-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-mdm-orchestrator-dashboard.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -58,5 +58,5 @@ The governance user view of the MDM Orchestrator dashboard displays requests awa
 |Task Work|The **My Tasks** tab lists governance tasks that are in progress. The **Completed Tasks** tab lists governance tasks that are done.|
 |My Team Recent Requests|All governance review tasks assigned to the governance reviewer, sortable and filterable by type, status, and age.|
 
-**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
+**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-reference.md)
 

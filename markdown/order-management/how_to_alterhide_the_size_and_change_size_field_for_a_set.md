@@ -2,7 +2,7 @@
 title: Modifying the Size and Change Size fields for a set
 description: You can change the appearance of the size fields for a set, or hide them altogether.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/how\_to\_alterhide\_the\_size\_and\_change\_size\_field\_for\_a\_set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/how\_to\_alterhide\_the\_size\_and\_change\_size\_field\_for\_a\_set.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,12 +30,12 @@ An admin can also hide the size field by modifying the Set type value column in 
 { "sizeControl": { "visible": false } }
 ```
 
-For more information about how to control the size and behavior of sets, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layouts-sets.md).
+For more information about how to control the size and behavior of sets, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layouts-sets.md).
 
 **Related topics**  
 
 
 [Example: Use a custom field to dynamically control set size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-[Configure sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sets.md)
+[Configure sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sets.md)
 

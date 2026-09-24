@@ -2,7 +2,7 @@
 title: Create an HTTP\(s\) connection
 description: The HTTP\(s\) connection provides the information custom HTTP\(s\) actions or activities use to connect.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/create-https-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/create-https-connection.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -180,5 +180,5 @@ The default OData ping URL is /sap/bc/ping. To edit the ping URL for OData heart
     You are ready to create a custom HTTP\(s\) action or activity.
 
 
-**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md)
+**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/connection-information.md)
 

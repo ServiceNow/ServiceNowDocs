@@ -2,7 +2,7 @@
 title: Resetting your PDI to its initial state
 description: Reset your PDI to its initial state to start work with a fresh instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/resetting\_your\_pdi\_to\_its\_initial\_state.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/resetting\_your\_pdi\_to\_its\_initial\_state.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ If you want to start work on a new application or want to work with a fresh inst
 5.  Click the **Reset and wipe instance** button.
 
 
-**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/personal_developer_instance_guide.md)
 

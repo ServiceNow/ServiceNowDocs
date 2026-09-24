@@ -2,12 +2,12 @@
 title: Use case: Create an AI-generated experience
 description: Learn how to generate a multi-page UI experience from a natural language description.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/use-case-experience-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/use-case-experience-generation.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Use case, Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -34,7 +34,7 @@ This functionality ensures that all team members, regardless of their level of e
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 ## Configuration steps
 
@@ -68,12 +68,12 @@ Perform the following steps to use Expereice generation feature in UI Builder:
 
 The development team creates three experiences in a few minutes, which is significantly faster than the hours it would take to build each one manually. Developers of all experience levels contribute, ensuring that the generated experiences have a consistent structure throughout the portal. As a result, the team can focus most of its time on meaningful customization rather than basic configuration.
 
-**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-use-cases.md)
+**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-use-cases.md)
 
 **Related topics**  
 
 
-[Experience Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/concept-experience-generation.md)
+[Experience Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/concept-experience-generation.md)
 
-[Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/generate-ui.md)
+[Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/generate-ui.md)
 

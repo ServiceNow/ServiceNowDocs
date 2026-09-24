@@ -2,7 +2,7 @@
 title: Using Hiring
 description: Use the Hiring tab, as a hiring manager, to leverage greater collaboration with stakeholders and a streamlined hiring process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/use-hiring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/use-hiring.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,18 +17,18 @@ breadcrumb: [Hiring tab, Hiring Experiences, HR Service Delivery, Employee Servi
 
 Use the Hiring tab, as a hiring manager, to leverage greater collaboration with stakeholders and a streamlined hiring process.
 
--   **[Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hiring-dashboard.md)**  
+-   **[Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hiring-dashboard.md)**  
 The hiring tab works as the source of truth for the hiring manager.
--   **[Create a job requisition as a hiring manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/request-req-hm.md)**  
+-   **[Create a job requisition as a hiring manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/request-req-hm.md)**  
 Request for a job requisition for a vacancy you want to fill in your organization.
--   **[Tracking a job requisition in the Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/view-status-my-request.md)**  
+-   **[Tracking a job requisition in the Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/view-status-my-request.md)**  
 Hiring manager can view the detailed status of an open job requisition to track and update. Hiring managers can refer to relevant hiring materials to enhance their knowledge base.
--   **[Tracking an application record from the Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/application-record-details-hiring.md)**  
+-   **[Tracking an application record from the Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/application-record-details-hiring.md)**  
 Track an application on a job requisition and view its corresponding details as a hiring manager.
--   **[Collaborate with the recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/collab-recruiter.md)**  
+-   **[Collaborate with the recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/collab-recruiter.md)**  
 Collaborate with the recruiter for the job requisition on the activity stream.
--   **[View hiring content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/view-hiring-content.md)**  
+-   **[View hiring content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/view-hiring-content.md)**  
 See different hiring materials available in the Hiring tab.
 
-**Parent Topic:**[Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hiring-landing.md)
+**Parent Topic:**[Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hiring-landing.md)
 

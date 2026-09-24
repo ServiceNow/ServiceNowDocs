@@ -2,7 +2,7 @@
 title: Create incident consolidation rules
 description: Create incident consolidation rule to consolidate multiple incidents of similar nature under one parent incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-incident-consolidation-rules-to-consolidate-your-dlp-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/configure-incident-consolidation-rules-to-consolidate-your-dlp-incidents.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -127,7 +127,7 @@ Select DLP incident field to consolidate the incidents when having the same valu
     Incidents consolidated based on the consolidation rule will be available under the Child incidents list on DLP Analyst Workspace.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

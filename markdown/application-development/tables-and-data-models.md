@@ -2,7 +2,7 @@
 title: Tables and data models
 description: Tables are the foundation of ServiceNow applications, as they define what data you're storing and how it's structured. Each table consists of fields \(columns\) that hold specific data types such as strings, dates, numbers, and references to other tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/tables-and-data-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/tables-and-data-models.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ ServiceNow supports table extension where child tables inherit all fields and fu
 
 Example: The Incident, Problem, and Change tables all extend the Task table, inheriting fields like assignment, state, and priority while adding their own specific fields.
 
-**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-your-first-app.md)
 

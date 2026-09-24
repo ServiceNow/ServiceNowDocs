@@ -2,12 +2,12 @@
 title: Event handler generation
 description: ServiceNow Otto event handler generation enables you to configure event handlers for UI components using natural language, eliminating the need for manual configuration of complex routing parameters and binding expressions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/concept-event-handler-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/concept-event-handler-generation.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Explore, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -82,12 +82,12 @@ For example, the Reference link clicked event on a list component dispatches the
 
 When an event has no payload — such as the Button clicked event — parameters must be bound from state parameters or entered as static values.
 
-**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/exploring-ui-generation.md)
 
 **Related topics**  
 
 
-[Configure an event handler with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-an-event-handler-with-now-assist.md)
+[Configure an event handler with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configure-an-event-handler-with-now-assist.md)
 
-[Use case: Configure an event handler with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/use-case-event-handler-generation.md)
+[Use case: Configure an event handler with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/use-case-event-handler-generation.md)
 

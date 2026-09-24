@@ -2,7 +2,7 @@
 title: Autoflush form
 description: On the Auto Flush form, you specify a retention policy for a set of records on a given test results table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-auto-flush.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-auto-flush.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -28,5 +28,5 @@ On the Auto Flush form, you specify a retention policy for a set of records on a
 
 **Note:** Table cleanup policies are platform-specific policies. See [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-cleaner.md) for more information.
 
-**Parent Topic:**[Table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/table-cleanup.md)
+**Parent Topic:**[Table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/table-cleanup.md)
 

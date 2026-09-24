@@ -2,7 +2,7 @@
 title: Add collaborators to an app in ServiceNow Studio
 description: Add collaborators to an app in ServiceNow Studio so other developers can co-develop the app with you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/add-collabs-app-servicenow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/add-collabs-app-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -40,12 +40,12 @@ Role required: admin or delegated\_developer
 
     If you are an editor for the app, you can select only the editor descriptor.
 
-    -   For more information about collaboration descriptors, see [Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md).
-    -   For a list of all collaboration permissions, see [Collaboration permissions for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.md).
+    -   For more information about collaboration descriptors, see [Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md).
+    -   For a list of all collaboration permissions, see [Collaboration permissions for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.md).
 6.  Select **Send** to invite the collaborator.
 
     -   If the user is new to the ServiceNow AI Platform, an admin must approve the request. After approval, both the requester and the user receive an email confirming that the user has been added to the application.
     -   If the user is not new to the ServiceNow AI Platform, the collaboration request is auto-approved. Both the requester and the user receive an email confirming that the user has been added to the application.
 
-**Parent Topic:**[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
+**Parent Topic:**[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
 

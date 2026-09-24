@@ -2,7 +2,7 @@
 title: Wait for condition workflow activity
 description: The Wait for condition activity causes the workflow to wait at this activity until the current record matches the specified condition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_WaitForCondition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/r\_WaitForCondition.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

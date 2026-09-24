@@ -2,7 +2,7 @@
 title: Issue modules in Business Continuity Workspace
 description: Browse and create issues from dedicated modules in the List view of the Business Continuity Workspace without opening a specific plan, event, or exercise.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcm-issue-list-modules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcm-issue-list-modules.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-21"
@@ -33,16 +33,16 @@ The **Issue remediation tasks** module lists the remediation tasks created again
 
 The **Issue triage** module lists issue triage records that are classified as BCM, filtered by **Unassigned** and **All**. This module requires installation of the GRC: Advanced Core application.
 
-For more information on the List view and its other modules, see [List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/list-view-uib-ws.md). For the steps to add or create an issue from a specific plan, event, or exercise, see [Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md) or [Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md). For more information on the dependencies, see [Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issues-bcm-dependencies.md).
+For more information on the List view and its other modules, see [List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/list-view-uib-ws.md). For the steps to add or create an issue from a specific plan, event, or exercise, see [Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md) or [Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md). For more information on the dependencies, see [Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/issues-bcm-dependencies.md).
 
 **Related topics**  
 
 
-[Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/managing-issues-in-bcm.md)
+[Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/managing-issues-in-bcm.md)
 
-[List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/list-view-uib-ws.md)
+[List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/list-view-uib-ws.md)
 
-[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)
+[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)
 
-[Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)
+[Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)
 

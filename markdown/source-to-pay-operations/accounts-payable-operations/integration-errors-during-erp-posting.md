@@ -2,7 +2,7 @@
 title: Integration errors
 description: Integration errors occur when invoices fail to post to the ERP system and are tracked as tasks for specialist review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/integration-errors-during-erp-posting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/integration-errors-during-erp-posting.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -27,7 +27,7 @@ When invoice and invoice lines ingested by DocIntel or integration can result in
 
 Playbooks are designed to auto-create an error task and attach the error task to the respective invoice case.
 
-The Accounts Payable Operations specialists can also view the ERP posting errors through the Accounts Payable Operations home page too. For more information on the home page, see [APO landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-landing-page.md).
+The Accounts Payable Operations specialists can also view the ERP posting errors through the Accounts Payable Operations home page too. For more information on the home page, see [APO landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-landing-page.md).
 
 When the Accounts Payable Operations admin closes the integration error task and resubmits the invoice to ERP, the following actions occur in the Outbound Invoice record.
 

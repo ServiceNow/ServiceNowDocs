@@ -2,7 +2,7 @@
 title: Survey Overview dashboard
 description: The Survey Overview dashboard displays various survey reports, such as Surveys by Metric Type and State.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/survey-overview-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/survey-overview-module.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -28,5 +28,5 @@ The Survey Overview dashboard displays various survey reports, such as Surveys b
 
 \[Omitted image "survey-overview-dashboard.png"\] Alt text: Various survey reports that appear on the Survey Overview dashboard.
 
-**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/survey-reference.md)
 

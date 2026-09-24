@@ -2,7 +2,7 @@
 title: View a cluster analysis
 description: View a cluster analysis of the top three clusters for an activity, connection between activities, or route.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/view-cluster-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/view-cluster-analysis.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -73,5 +73,5 @@ You can use a treemap visualization to help you better understand different aspe
 
 For additional information on using a treemap, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-clustering-solution.md).
 
-**Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md)
+**Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/cluster-analysis.md)
 

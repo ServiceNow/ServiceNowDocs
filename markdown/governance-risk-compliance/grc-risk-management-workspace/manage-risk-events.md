@@ -2,7 +2,7 @@
 title: Manage risk events
 description: Risk events are potential or actual financial and non-financial losses, near misses, and gains that occur within an organization. Risk events are also known as loss events or loss entries.After a risk event is created, the event goes through a life cycle where risk managers analyze it and send it for approval.Relating risk events to risks and relating a risk statement to a risk is important for all organizations that use the Risk Management application. Properties to enable these relationships are provided under Risk Event Properties and Risk Management properties.The risk event response template automates the process of adding approvers, issues, and owners to a risk event. This automation is based on the conditions defined in the template.Train a similarity solution definition that uses machine learning by activating the Governance, Risk, and Compliance: Predictive Intelligence plugin. The solution enables the system to display similar risk events automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/manage-risk-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/manage-risk-events.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -43,7 +43,7 @@ For information on how to configure risk event integration in the Risk Workspace
 **Related topics**  
 
 
-[Risk events life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manage-risk-events.md)
+[Risk events life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/manage-risk-events.md)
 
 ## Risk events life cycle
 
@@ -66,7 +66,7 @@ The risk events workflow is summarized in the following figure:
 **Related topics**  
 
 
-[Create a risk event in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-workspace.md)
+[Create a risk event in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-workspace.md)
 
 ## Relationship between risks, risk events, and risk statements
 
@@ -92,7 +92,7 @@ The Basel categorization is specific to the banking industry. This categorizatio
 -   Business disruption and system failures
 -   Execution, delivery, and process management
 
-For more information, see [Properties installed with Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-properties.md) and [Properties installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_PropInstallWRisk.md)
+For more information, see [Properties installed with Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-properties.md) and [Properties installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/r_PropInstallWRisk.md)
 
 To enable Basel categorization, set **Show Basel attributes and reports** to **Yes**.
 

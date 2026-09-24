@@ -2,7 +2,7 @@
 title: Using GRC: Metrics to provide data
 description: Using the GRC: Metrics application you can track your business goals, define your key risk indicators \(KRIs\) and key performance indicators \(KPIs\), and generate reports for the management to provide insights into the progress.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/using-grc-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/using-grc-metrics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,34 +14,34 @@ breadcrumb: [GRC: Metrics, Operational Sustainability Management \(formerly Envi
 
 Using the GRC: Metrics application you can track your business goals, define your key risk indicators \(KRIs\) and key performance indicators \(KPIs\), and generate reports for the management to provide insights into the progress.
 
--   **[Update a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/update-a-metric.md)**  
+-   **[Update a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/update-a-metric.md)**  
 Update a metric to add goals, metric data, and targets. Associate citations to the metric.
--   **[Update a manually created metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/update-manual-metric.md)**  
+-   **[Update a manually created metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/update-manual-metric.md)**  
 Update a manually created manual metric to add goals, metric data, and targets. Associate citations to the metric.
--   **[Provide data for a metric data task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/provide-data-for-metric-data-task.md)**  
+-   **[Provide data for a metric data task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/provide-data-for-metric-data-task.md)**  
 Use the metric data task to provide data for a manual metric. Metric data helps you analyze your progress toward your goals.
--   **[Provide responses for multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/provide-data-for-multiple-metrics.md)**  
+-   **[Provide responses for multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/provide-data-for-multiple-metrics.md)**  
 Use the metric tasks module to provide responses for multiple metrics in an easy-to-use format.
--   **[Review a metric data task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/review-mdt.md)**  
+-   **[Review a metric data task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/review-mdt.md)**  
 Review a metric data task for a manual or automated metric definition, and then either approve or reject the task based on your review.
--   **[Create ad hoc metric data tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-adhoc-metric-data-task.md)**  
+-   **[Create ad hoc metric data tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-adhoc-metric-data-task.md)**  
 Handle off-cycle requests for up-to-date information on existing metric definitions and metrics by creating ad hoc metric data tasks. These tasks address off-cycle requests and provide the latest information.
--   **[Override metric data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/override-metric-data.md)**  
+-   **[Override metric data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/override-metric-data.md)**  
 Modify or override the metric data if it's inaccurate, whether provided by the data owner or automatically collected based on the conditions defined in the metric definition.
--   **[Override metric data task response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/override-mdt-response.md)**  
+-   **[Override metric data task response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/override-mdt-response.md)**  
 As a metrics administrator, if the response provided for a quantitative or qualitative metric must be modified, you can edit the data and provide a justification for the modification.
--   **[Create a grouping for metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-classification-choice.md)**  
+-   **[Create a grouping for metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-classification-choice.md)**  
 Create a group and a subgroup for similar metric definitions. Creating these groups facilitates easy reporting and tracking. You can set the values for the group and the subgroup through choices.
--   **[Create a unique metric definition name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-unique-metric-definition-names.md)**  
+-   **[Create a unique metric definition name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-unique-metric-definition-names.md)**  
 Specify the value formula in the sn\_grc\_metric\_definition in the required record table to create unique metric definition names to import data from an external source such as Watershed spreadsheets.
--   **[Metric and metric definition overview pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/metric-definition-overview-page.md)**  
+-   **[Metric and metric definition overview pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/metric-definition-overview-page.md)**  
 The metric and the metric definition overview pages provide visualization for the metric trends and help you to monitor the tasks and activities that need attention.
--   **[Reviewing calculation details with formula trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/reviewing-formula-tree.md)**  
+-   **[Reviewing calculation details with formula trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/reviewing-formula-tree.md)**  
 Review calculated metric definitions by viewing a structured and visual representation of the entire calculation chain. By using a formula tree, you can access the calculation details and view how the different metrics and emission factors are interconnected.
--   **[Submit metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/submit-metric-data-tasks-for-a-campaign.md)**  
+-   **[Submit metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/submit-metric-data-tasks-for-a-campaign.md)**  
 Submit metric data tasks for a campaign individually, or together as a bulk action if bulk submission is enabled for the campaign.
--   **[Manage metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/manage-metric-data-tasks-for-a-campaign.md)**  
+-   **[Manage metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/manage-metric-data-tasks-for-a-campaign.md)**  
 Approve, reject, or review metric data tasks for a campaign individually, or together as a bulk action if bulk submission is enabled for the campaign.
 
-**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-landing-page.md)
+**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-landing-page.md)
 

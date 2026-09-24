@@ -2,12 +2,12 @@
 title: CAM workflow configuration
 description: Configure custom workflows in Continuous Authorization and Monitoring to support compliance requirements beyond the default National Institute of Standards and Technology NIST Risk Management Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-workflow-configurator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-workflow-configurator.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -57,7 +57,7 @@ Examples of validation conditions:
 
 Attributes add special capabilities to workflow states without requiring custom code. Attributes control features like approval requirements, report generation, related list actions, and UI page visibility for specific workflow states.
 
-For a complete list of available attributes, see [Add existing attributes to a GRC workflow state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-state-model-attributes.md).
+For a complete list of available attributes, see [Add existing attributes to a GRC workflow state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-state-model-attributes.md).
 
 ## Workflow limitations
 
@@ -65,7 +65,7 @@ Without the CAM Advanced plugin \(app-grc-cont-auth-monitor-advanced\), you can 
 
 ## Enabling workflow configuration
 
-The workflow configurator is available only when CAM Workspace is installed. A system property controls whether custom workflows are enabled. For more information, see [Continuous Authorization and Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md).
+The workflow configurator is available only when CAM Workspace is installed. A system property controls whether custom workflows are enabled. For more information, see [Continuous Authorization and Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md).
 
 When you enable the workflow configuration property:
 
@@ -121,16 +121,16 @@ Risk Assessment Methodology \(RAM\) assessments that evaluate risks associated w
 
 **Note:** CAM doesn’t ship assessment templates for authorization packages. You must create or modify existing templates for both assessment types.
 
--   **[Enable CAM workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/enable-cam-workflow-configuration.md)**  
+-   **[Enable CAM workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/enable-cam-workflow-configuration.md)**  
 Enable the CAM workflow configuration to use custom workflows and frameworks in CAM. This feature enables you to configure workflows beyond the default National Institute of Standards and Technology \(NIST\) framework and adapt CAM to your organization's specific requirements.
--   **[Run migration scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/run-migration-scheduled-job.md)**  
+-   **[Run migration scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/run-migration-scheduled-job.md)**  
 Run the migration scheduled job to associate existing authorization packages and boundaries with the workflow after enabling the CAM workflow configuration property. The migration confirms that existing data is compatible with the workflow configuration.
--   **[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-create-state-model.md)**  
+-   **[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-create-state-model.md)**  
 Create a Governance, Risk, and Compliance state model to define the steps, transitions, and validations for a custom workflow in CAM. State models control how authorization packages move through workflow life cycles and determine which actions are available at each step.
--   **[Workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/work-configuration.md)**  
+-   **[Workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/work-configuration.md)**  
 Define workflow, framework, regulation, and its associated versions, impacts, and view rules. CAM ships National Institute of Standards and Technology \(NIST\) workflow configuration by default, but you can create additional workflows for other frameworks such as Protective Security Policy Framework \(PSPF\) or custom internal frameworks.
--   **[Skip Attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/skip-attestations.md)**  
+-   **[Skip Attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/skip-attestations.md)**  
 Skip Attestations lets you bypass the attestation stage for all controls in a package. When enabled \(before implementation\), controls move directly from Draft to Review, attestation-related UI elements are hidden, and Review/Monitor actions replace attestation workflows.
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

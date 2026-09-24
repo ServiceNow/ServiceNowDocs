@@ -2,7 +2,7 @@
 title: Set a fallback language
 description: Set a fallback language to be used when user interface text is not translated in the user's preferred language to accommodate the language needs of your users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/set-fallback-language.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/set-fallback-language.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -18,7 +18,7 @@ Set a fallback language to be used when user interface text is not translated in
 
 ## Before you begin
 
-Activate the languages that your users need. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md) for supported languages or [Translating to an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/self-localize.md) for custom translations.
+Activate the languages that your users need. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_ActivateALanguage.md) for supported languages or [Translating to an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/self-localize.md) for custom translations.
 
 Role required: admin
 

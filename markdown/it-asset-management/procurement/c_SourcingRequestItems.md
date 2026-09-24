@@ -2,7 +2,7 @@
 title: Sourcing items in a service catalog request
 description: A service catalog request can contain multiple items that must be sourced.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/c\_SourcingRequestItems.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/procurement/c\_SourcingRequestItems.html
 release: australia
 product: Procurement
 classification: procurement
@@ -42,16 +42,16 @@ When a source stockroom doesn’t have enough items in stock, you can specify mu
 
 To source a requested software license, you must assign the rights of the software license to a user or a device so that they’re authorized to use the software.
 
--   **[Create a purchase order from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_CreatingPurchOrderFromRequest.md)**  
+-   **[Create a purchase order from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/t_CreatingPurchOrderFromRequest.md)**  
 You can create a purchase order directly from a request. This approach enables procurement managers to obtain items and fulfill requests from the Service Catalog. You can create multiple purchase orders from a request.
--   **[Create a transfer order from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_CreatingTransferOrderFromReq.md)**  
+-   **[Create a transfer order from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/t_CreatingTransferOrderFromReq.md)**  
 You can create a transfer order directly from a request to source hardware items and consumables from stockrooms.
--   **[Source requests from local stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/consume-local-asset-stock.md)**  
+-   **[Source requests from local stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/consume-local-asset-stock.md)**  
 Get visibility into local stockrooms at the time of sourcing requests.
--   **[Add an assignment from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_AddingAssignmentsFromReq.md)**  
+-   **[Add an assignment from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/t_AddingAssignmentsFromReq.md)**  
 You can add assignments directly from a request to source rights from software licenses.
 
-**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/c_Procurement.md)
 
 **Related topics**  
 
@@ -72,11 +72,11 @@ You can add assignments directly from a request to source rights from software l
 
 [Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_TransferOrders.md)
 
-[Track a request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_TrackReqFromServiceCatalog.md)
+[Track a request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/t_TrackReqFromServiceCatalog.md)
 
-[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md)
+[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_Models.md)
 
-[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_CreatingBundledModels.md)
+[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_CreatingBundledModels.md)
 
-[Source requests from local stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/consume-local-asset-stock.md)
+[Source requests from local stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/consume-local-asset-stock.md)
 

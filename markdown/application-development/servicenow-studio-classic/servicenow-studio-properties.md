@@ -2,7 +2,7 @@
 title: ServiceNow Studio properties
 description: Configure system properties to control ServiceNow Studio application behavior and delegated development deployment. Access ServiceNow Studio system properties by navigating to All sys\_properties.list .
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/servicenow-studio-properties.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -150,7 +150,7 @@ sn\_glider.fluent\_convert\_enabled
 Enables converting existing applications that weren't created with the ServiceNow IDE or ServiceNow SDK to support development in source code from the ServiceNow IDE.-   Type: true \| false
 -   Default value: true
 -   Location: Add the property to the System Property \[sys\_properties\] table
--   Learn more: [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)
+-   Learn more: [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Defines a custom extension for attachment files with binary content types \(for 
 -   Type: string
 -   Default value: gitdata
 -   Location: Add the property to the System Property \[sys\_properties\] table
--   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-roles.md)
+-   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-roles.md)
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ Defines a custom extension for attachment files with text content types \(for ex
 -   Type: string
 -   Default value: txt
 -   Location: Add the property to the System Property \[sys\_properties\] table
--   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-roles.md)
+-   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-roles.md)
 
 </td></tr><tr><td>
 
@@ -189,5 +189,5 @@ Specifies the version of the ServiceNow SDK to use when creating or converting a
 -   Location: Add the property to the System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
+</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
 

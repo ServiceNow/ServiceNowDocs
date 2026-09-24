@@ -2,7 +2,7 @@
 title: Add a new custodian to an existing legal hold matter
 description: Add a new custodian to issue the legal hold notice if a user is later identified as responsible for preserving data relevant to the existing legal hold.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/add-new-custodian-lg-hold-notif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-hold-notification/add-new-custodian-lg-hold-notif.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -34,7 +34,7 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller
 
 6.  On the Create New Custodians form, in the **Custodian name** field, select the Search for Record icon \(\[Omitted image "lookup-using-list.png"\] Alt text:\) and search for and select the custodian name.
 
-    Only users with the custodian role are available in the list. For more information, see [Assign the legal user role to a custodian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/assign-user-lg-hold-cust.md).
+    Only users with the custodian role are available in the list. For more information, see [Assign the legal user role to a custodian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/assign-user-lg-hold-cust.md).
 
 7.  On the form, fill in the remaining fields.
 
@@ -106,5 +106,5 @@ In the **Tasks** tab, the state of the task changes from Draft to Assigned.
 
 In the **Artifacts** tab, the legal hold notice sent to the custodian is automatically attached.
 
-**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

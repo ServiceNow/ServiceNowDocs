@@ -2,10 +2,10 @@
 title: Exploring Measure
 description: Measure helps you determine whether your AI systems deliver more value than they cost. It brings value and cost data together in dashboards so that you can compare productivity gains with AI spend.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/explore-measure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/explore-measure.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---

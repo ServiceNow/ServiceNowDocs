@@ -2,7 +2,7 @@
 title: Approval with e-signature
 description: Approve or reject an approval record by re-entering your login credentials. See the history of an approval from its activity stream or its audit history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/approval-with-e-signature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/approvals/approval-with-e-signature.html
 release: australia
 product: Approvals
 classification: approvals
@@ -35,7 +35,7 @@ By default, Approval with e-signature supports these tables.
 -   Change Request \[change\_request\]
 -   Standard Change Proposal \[std\_change\_proposal\]
 
-When you add an approval table, any approval for the table needs an e-signature authorization. See [Select an approval table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/t_SelectAnApprovalTable.md) to add or remove a table from supporting Approval with e-signature.
+When you add an approval table, any approval for the table needs an e-signature authorization. See [Select an approval table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/approvals/t_SelectAnApprovalTable.md) to add or remove a table from supporting Approval with e-signature.
 
 ## Approver Authentication dialog
 

@@ -2,7 +2,7 @@
 title: Configure Normalization Opt-in for Hardware Vulnerability Assessment
 description: Select Firmware Discovery Model Opt-in option for ServiceNow Asset Management Content Service to collect unnormalized firmware details of Operational Technology \(OT\) devices and update the normalized content library. This process improves the ratio of normalized data mapping to CVEs and therefore improves assessment of vulnerabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/hva-normalization-opt-in.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/hva-normalization-opt-in.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -29,7 +29,7 @@ Role required: sn\_eam.enterprise\_admin or admin
 3.  Enable **Firmware Discovery Models** toggle button.
 
 
-**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
+**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 
 **Related topics**  
 

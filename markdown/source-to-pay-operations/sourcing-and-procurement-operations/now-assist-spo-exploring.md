@@ -2,7 +2,7 @@
 title: Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 description: ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) is an application that adds generative AI capabilities to the Source-to-Pay Workspace to help requesters and procurement teams work more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -66,7 +66,7 @@ The following skills are available in ServiceNow Otto for Sourcing and Procureme
     **Note:** A fulfiller with the sn\_spend\_gen\_ai.now\_assist\_fulfiller role can use these summarization skills in Source-to-Pay Workspace.
 
 
-For more information about setting up ServiceNow Otto for SPO, see [Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
+For more information about setting up ServiceNow Otto for SPO, see [Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 
 As a requester, you can use ServiceNow Otto for SPO to:
 
@@ -74,7 +74,7 @@ As a requester, you can use ServiceNow Otto for SPO to:
 -   Sourcing requests
 -   Request for products or services that aren't available in the catalog
 
-For guidance on using these capabilities in ServiceNow Otto for SPO, see [Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md).
+For guidance on using these capabilities in ServiceNow Otto for SPO, see [Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md).
 
 ServiceNow Otto for SPO is also available in Virtual Agent, where it uses large language models \(LLMs\) and generative AI skills to enhance conversational experiences. These capabilities help improve deflection rates and reduce the manual effort required for Natural Language Understanding \(NLU\) topic discovery.
 
@@ -86,10 +86,10 @@ During the Conversational Interfaces Assistants guided setup, a ServiceNow Otto 
 
 Domain separation is supported for ServiceNow Otto for Virtual Agent. For more information, see [ServiceNow® Otto for Virtual Agent domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/na-in-va-domain-separation.md).
 
--   **[Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md)**  
+-   **[Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md)**  
 Get a quick overview of the important information that is related to the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.
--   **[Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md)**  
+-   **[Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md)**  
 AI-driven category prediction automatically assigns product and spend categories when sourcing requests, purchase requisitions, or purchase orders are created or updated, ensuring consistent classification at the line level.
 
-**Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+**Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

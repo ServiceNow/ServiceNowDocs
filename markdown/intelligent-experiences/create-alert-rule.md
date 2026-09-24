@@ -2,7 +2,7 @@
 title: Create alert rule
 description: Create alert rules to track the usage of generative AI skills in AI Admin Hub and notify you in the instance and via email, when the set thresholds are reached.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-alert-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-alert-rule.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
@@ -60,5 +60,5 @@ Role required: sn\_nowassist\_admin
     9.  Select **Create rule** to submit or **Cancel** to revert.
 
 
-**Parent Topic:**[Usage alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/usage-alerts.md)
+**Parent Topic:**[Usage alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/usage-alerts.md)
 

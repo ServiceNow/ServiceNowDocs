@@ -2,7 +2,7 @@
 title: ITSM Success Dashboard indicators
 description: ITSM Success Dashboard indicators provide insights to the IT leadership team and process owners so that they can measure the performance of their ITSM implementation using the KPIs defined by ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -35,19 +35,19 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore Learn about ITSM Success Dashboard concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore Learn about ITSM Success Dashboard concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Configure environment, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Configure environment, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Learn how you can use ITSM Success Dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Learn how you can use ITSM Success Dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Reference Get details about ITSM Success Dashboard components such as roles and dependent applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/itsm-success-dashboard-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Reference Get details about ITSM Success Dashboard components such as roles and dependent applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/itsm-success-dashboard-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

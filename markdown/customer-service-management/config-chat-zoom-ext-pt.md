@@ -2,7 +2,7 @@
 title: Configure application-specific field values for Zoom interactions
 description: Use scripted extension points to enable the copying of application-specific field values to interaction records for Zoom meetings initiated from chats.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-chat-zoom-ext-pt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-chat-zoom-ext-pt.html
 release: australia
 topic_type: task
 last_updated: "2023-08-03"
@@ -38,7 +38,7 @@ An implementation is available in the base system for scripted extension points.
 
     -   Create and register a custom script include.
 
-        For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/impl-scripted-ext-pts-custom-code.md).
+        For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/impl-scripted-ext-pts-custom-code.md).
 
     -   Modify the existing script include by going to the Implementations related list and selecting a script include in the **Class** column. The script includes are displayed in the **Class** column.
 

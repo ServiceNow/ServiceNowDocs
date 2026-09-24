@@ -2,7 +2,7 @@
 title: Work on an individual life service case
 description: Work on an individual life case to review policy information, ensure that any outstanding tasks are completed, and complete the policy service request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-indiv-life-service-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/work-indiv-life-service-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Work on an individual life case to review policy information, ensure that any ou
 
 Role required: sn\_ins\_indiv\_life.processor or sn\_ins\_indiv\_life.processor\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 

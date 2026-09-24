@@ -2,7 +2,7 @@
 title: Configure the standard ticket page
 description: Give Service Portal users a consistent way to view their submitted requests. You can configure the standard ticket page for different request types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-st-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/configure-st-page.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -194,25 +194,25 @@ To configure summary fields, use the Standard Ticket Summary Fields related list
 5.  After you make all the required changes, select **Submit**.
 
 
--   **[Enable instance options for the Activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-instanceop-activity.md)**  
+-   **[Enable instance options for the Activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-instanceop-activity.md)**  
 Format the work notes and add @mentions in the Activity tab on a standard ticket page.
--   **[Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-tabs-for-standard-ticket-page.md)**  
+-   **[Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-tabs-for-standard-ticket-page.md)**  
 You can configure the tabs for the standard ticket page.
--   **[Configure actions for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.md)**  
+-   **[Configure actions for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.md)**  
 You can configure specific actions to be directly available on the standard ticket page. Requesters are able to initiate these actions. Scriptable APIs can also trigger these actions.
--   **[Configure summary fields for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-summary-fields-for-standard-ticket-page.md)**  
+-   **[Configure summary fields for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-summary-fields-for-standard-ticket-page.md)**  
 Configure summary fields on the standard ticket page such that the page displays the Summarize button, enabling requesters to view ServiceNow Otto®-generated overviews of recent ticket activity and details.
 
-**Parent Topic:**[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/standard-ticket-page.md)
+**Parent Topic:**[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/standard-ticket-page.md)
 
 **Related topics**  
 
 
-[Enable instance options for the Activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-instanceop-activity.md)
+[Enable instance options for the Activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-instanceop-activity.md)
 
-[Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-tabs-for-standard-ticket-page.md)
+[Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-tabs-for-standard-ticket-page.md)
 
-[Configure actions for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.md)
+[Configure actions for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.md)
 
 [Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
 

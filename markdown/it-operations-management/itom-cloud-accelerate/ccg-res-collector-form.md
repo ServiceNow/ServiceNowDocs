@@ -2,7 +2,7 @@
 title: Cloud Configuration Governance Resource collector form
 description: The Resource collector form contains detailed information about the resource collector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-res-collector-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/ccg-res-collector-form.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -73,5 +73,5 @@ Flow
 Resource collector flow that can import the given resource type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

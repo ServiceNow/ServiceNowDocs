@@ -2,7 +2,7 @@
 title: Override a connection in a flow
 description: Override a connection for a flow, subflow, or action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/override-connection-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/override-connection-flow.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,7 +18,7 @@ Override a connection for a flow, subflow, or action.
 
 ## Before you begin
 
-For details about flow overrides, including how they affect actions with dynamic inputs and how multiple overrides are applied, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+For details about flow overrides, including how they affect actions with dynamic inputs and how multiple overrides are applied, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
 
 Role required: flow\_designer or admin
 

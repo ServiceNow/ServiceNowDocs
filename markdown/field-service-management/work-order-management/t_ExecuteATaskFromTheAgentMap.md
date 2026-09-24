@@ -2,7 +2,7 @@
 title: Execute a task from the agent map
 description: As an agent, you can accept or reject tasks assigned to you using features in the agent task map, or take on unassigned tasks near you if your schedule permits.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_ExecuteATaskFromTheAgentMap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_ExecuteATaskFromTheAgentMap.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -24,7 +24,7 @@ Role required: wm\_agent
 
 ## About this task
 
-You can optimize task routes in the map to have the system determine the most efficient route. Initial routing shows the sequence established when the dispatcher assigned the tasks. Route optimization uses your location information and creates an ideal schedule based on variables such as location, task duration, travel time, or any [task windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md). The agent map, which displays color-coded icons for the tasks and your current location, is updated as you complete each task.
+You can optimize task routes in the map to have the system determine the most efficient route. Initial routing shows the sequence established when the dispatcher assigned the tasks. Route optimization uses your location information and creates an ideal schedule based on variables such as location, task duration, travel time, or any [task windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_CreateAWorkOrderTask.md). The agent map, which displays color-coded icons for the tasks and your current location, is updated as you complete each task.
 
 ## Procedure
 

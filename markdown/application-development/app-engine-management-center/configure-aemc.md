@@ -2,7 +2,7 @@
 title: Configure the App Engine Management Center
 description: Complete AEMC guided setup to initially configure Application Intake and your preferred deployment option \(Pipelines and Deployments, ReleaseOps, or a standalone environment\). The Application Intake guided setup is optional, but setup of one of the deployment options is required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/configure-aemc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/configure-aemc.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -44,17 +44,17 @@ AEMC guided setup contains the setup steps for Application Intake and the deploy
 
 3.  Select the first **Get Started** button to initiate the Application Intake Guided Setup.
 
-    There are several [Application Intake configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/app-intake-config-tasks.md) you must complete.
+    There are several [Application Intake configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/app-intake-config-tasks.md) you must complete.
 
-    1.  [Activate the Apply for Citizen Development catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/activate-catalog-item-for-app-intake.md).
-    2.  [Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-users-to-admin-grp.md).
-    3.  [Create development environment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-pipeline-environments.md).
+    1.  [Activate the Apply for Citizen Development catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/activate-catalog-item-for-app-intake.md).
+    2.  [Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-users-to-admin-grp.md).
+    3.  [Create development environment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/config-pipeline-environments.md).
     When you've completed all of the tasks in this category, the Category screen reopens.
 
 4.  Select the **Get Started** button for either ReleaseOps or Pipelines and Deployments guided setup.
 
-    -   If you select **Get started** for ReleaseOps, you complete several [ReleaseOps configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/configure-releaseops-in-aemc.md).
-    -   If you select **Get started** for Pipelines and Deployments, you complete several [Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-p-and-d.md).
+    -   If you select **Get started** for ReleaseOps, you complete several [ReleaseOps configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/configure-releaseops-in-aemc.md).
+    -   If you select **Get started** for Pipelines and Deployments, you complete several [Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/config-p-and-d.md).
     When you have completed the tasks for either deployment option, the Category page reappears. You have completed guided setup for App Engine Management Center.
 
 5.  Configure additional properties used to control system behavior in AEMC.

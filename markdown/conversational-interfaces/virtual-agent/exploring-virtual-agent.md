@@ -2,7 +2,7 @@
 title: Exploring Virtual Agent
 description: The ServiceNow Virtual Agent platform provides user assistance through conversations within an intelligent messaging interface. Design and build automated conversations with an out-of-the-box system that help your users quickly obtain information, make decisions, and perform common work tasks with Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/exploring-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/exploring-virtual-agent.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -43,7 +43,7 @@ Virtual Agent supports multi-intent queries with AI agents if there are associat
 Prebuilt Virtual Agent topics are available from the ServiceNow Store. These topics are designed to handle common issues that can occur and are customized for ServiceNow workflows. Available plugins include the following:
 
 -   [ITSM Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent.md)
--   Customer Service Virtual Agent conversations
+-   [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-virtual-agent-csm.md)
 -   [HR Service Delivery Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-virtual-agent-conversations.md)
 
 ## Virtual Agent availability
@@ -77,7 +77,7 @@ Use a conversation designer to build and test conversations without scripting or
 
 </td><td>
 
-[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 
 </td><td>
 
@@ -89,7 +89,7 @@ Empower users to self-serve using LLM topic discovery. Options include AI agents
 
 </td><td>
 
-[Case and incident deflection in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/case-incident-deflection-virtual-agent.md)[LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md)
+[Case and incident deflection in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/case-incident-deflection-virtual-agent.md)[LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-llm.md)
 
 </td><td>
 
@@ -101,11 +101,11 @@ Create custom chat experiences for Virtual Agent users.
 
 </td><td>
 
-[Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)
+[Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)
 
- [Branding your chat client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/branding-chat-client.md)
+ [Branding your chat client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/branding-chat-client.md)
 
- [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md)
+ [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-conversation-settings.md)
 
 </td><td>
 
@@ -117,7 +117,7 @@ Seamlessly transfer the entire conversation history and context to the right hum
 
 </td><td>
 
-[Using Virtual Agent with a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-agent-chat.md)
+[Using Virtual Agent with a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-va-agent-chat.md)
 
 </td><td>
 
@@ -129,7 +129,7 @@ Connect to where your employees and customers already areâ€”in web portals, NowÂ
 
 </td><td>
 
-[Integrating Virtual Agent with other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md)
+[Integrating Virtual Agent with other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrate-virtual-agent.md)
 
 </td><td>
 
@@ -141,7 +141,7 @@ Analyze the performance of assistants in Assistant Designer.
 
 </td><td>
 
-[Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/ai-engagement-analytics.md)
+[Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/ai-engagement-analytics.md)
 
 </td><td>
 
@@ -153,7 +153,7 @@ Deliver real-time alerts and status updates to employees, including actionable n
 
 </td><td>
 
-[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
+[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
 
 </td><td>
 
@@ -177,9 +177,9 @@ Integrate with other ServiceNow AI Platform applications, such as AI Search. Use
 
 </td><td>
 
-[Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md)
+[Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md)
 
- [Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
+ [Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
 
  [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md)
 
@@ -193,9 +193,9 @@ The Virtual Agent API enables developers, advanced users, and admins to use Virt
 
 </td><td>
 
-[Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-api-landing-page.md)
+[Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-api-landing-page.md)
 
- [Using Virtual Agent Bot Interconnect in your configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-sn-va-primary-bot-api.md)
+ [Using Virtual Agent Bot Interconnect in your configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-sn-va-primary-bot-api.md)
 
 </td><td>
 

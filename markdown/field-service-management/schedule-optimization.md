@@ -2,7 +2,7 @@
 title: Schedule Optimization
 description: Schedule Optimization enables you to optimize task scheduling, auto-assign tasks, and adapt to changing conditions. You can create the best possible schedule that maximizes task assignment and minimizes travel time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/schedule-optimization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/schedule-optimization.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Schedule Optimization enables you to optimize task scheduling, auto-assign tasks
 
 ## Schedule Optimization based on territories
 
-Use Schedule Optimization with Field Service Territory Planning to schedule complex multi-territory assignments. Assign tasks to agents whether they’re primary or secondary members of a single or multiple territories. For more information, see [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md).
+Use Schedule Optimization with Field Service Territory Planning to schedule complex multi-territory assignments. Assign tasks to agents whether they’re primary or secondary members of a single or multiple territories. For more information, see [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/territory-based-optimization.md).
 
 ## Intra-day Schedule Optimization
 
@@ -64,5 +64,5 @@ For example, the optimization engine can decide on scheduling an agent who might
 **Related topics**  
 
 
-[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
+[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 

@@ -2,7 +2,7 @@
 title: Associate a work or planning item with goals or targets
 description: Create a goal or target relationship with a work, planning, strategic, or any other item to identify and associate your current or future work and achieve your goals and targets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/associate-work-with-goals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/associate-work-with-goals.html
 release: australia
 product: Goal Framework
 classification: goal-framework

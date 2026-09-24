@@ -2,7 +2,7 @@
 title: Create an assignment rule for case routing
 description: Create a rule that assigns those cases that meet the matching rule criteria to a customer service agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateAnAssignmentRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_CreateAnAssignmentRule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

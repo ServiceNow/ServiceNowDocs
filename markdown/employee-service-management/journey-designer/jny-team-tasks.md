@@ -2,7 +2,7 @@
 title: Team tasks
 description: Team tasks enable managers to personalize employee journeys by adding tasks directly to activity sets that are originated by the Lifecycle Events app. Managers can tailor journeys to meet individual employee needs without adding stages or modifying the underlying journey configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-team-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-team-tasks.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -53,7 +53,7 @@ Administrators control whether managers can add tasks to activity sets from the 
 **Related topics**  
 
 
-[Enable team tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/enable-team-tasks.md)
+[Enable team tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/enable-team-tasks.md)
 
-[Add tasks to an activity set using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/add-tasks-activity-set.md)
+[Add tasks to an activity set using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/add-tasks-activity-set.md)
 

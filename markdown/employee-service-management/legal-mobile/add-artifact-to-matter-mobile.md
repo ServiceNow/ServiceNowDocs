@@ -2,7 +2,7 @@
 title: Add an artifact to a legal matter through Mobile Agent
 description: Add an artifact to a legal matter to upload and store documents, emails, and files related to the matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/add-artifact-to-matter-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/add-artifact-to-matter-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile
@@ -43,5 +43,5 @@ An artifact folder is created for the matter.
 
 ## What to do next
 
-[Attach the matter-related files to the folder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-mobile/add-files-to-artifact-mobile.md).
+[Attach the matter-related files to the folder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-mobile/add-files-to-artifact-mobile.md).
 

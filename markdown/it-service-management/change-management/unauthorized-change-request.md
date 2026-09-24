@@ -2,7 +2,7 @@
 title: Unauthorized change request
 description: Understand how an unauthorized change activity on a configuration item \(CI\) is captured and managed, so that you can review and take timely action on this change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/unauthorized-change-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/unauthorized-change-request.html
 release: australia
 product: Change Management
 classification: change-management
@@ -45,7 +45,7 @@ With the help of the following details that are pre-populated on the form, you c
 -   The **Configuration item** field is populated with the item that the unauthorized change was made for.
 -   The **Description** field is populated with the information on the changed fields of the change request.
 
-An email notification is sent to the Assignment group, CI Item managed by, Owned by, and Assigned to members for review and approval. However, if there are many CI changes and there are no open change requests created to include the CIs, the system creates unauthorized change requests on these CIs. When this event occurs, the members receive numerous unauthorized change notification emails. In such a case, you can choose to disable these notifications. For more information, see [Disable unauthorized change notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/disable-unauth-notification.md).
+An email notification is sent to the Assignment group, CI Item managed by, Owned by, and Assigned to members for review and approval. However, if there are many CI changes and there are no open change requests created to include the CIs, the system creates unauthorized change requests on these CIs. When this event occurs, the members receive numerous unauthorized change notification emails. In such a case, you can choose to disable these notifications. For more information, see [Disable unauthorized change notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/disable-unauth-notification.md).
 
 **Note:** Email notifications are sent only when there is an unplanned change on the CI that is part of an application service \(discovered or manual service\).
 
@@ -61,16 +61,16 @@ After the unauthorized change is approved, a change task is created with **State
 
 As a change manager, you can clear the **Unauthorized** check box to convert the unauthorized change request to an emergency change request. When you clear the check box, enter the reason for this modification in the **Work notes** field.
 
-If you are an ITIL user, clear the **Unauthorized** check box by creating an outage from the task record with the **Type** field specified as `Outage`. For more information, see [Create an outage from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-outage/t_CreateAnOutageFromATask.md).
+If you are an ITIL user, clear the **Unauthorized** check box by creating an outage from the task record with the **Type** field specified as `Outage`. For more information, see [Create an outage from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-outage/t_CreateAnOutageFromATask.md).
 
 **Note:** When there is an unauthorized change without an outage record associated, then the state flow moves from **Authorize** to **Review** and skips the schedule or implement state. The state changes because the implementation has already happened for this change.
 
--   **[Disable the creation of an unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/disable-unauth-notification.md)**  
+-   **[Disable the creation of an unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/disable-unauth-notification.md)**  
 You can choose to disable the generation of unauthorized change requests that you receive on any unauthorized change event. When a configuration item \(CI\) that is part of an application service is updated, the system identifies this update and verifies whether the updated CI is part of an open change request.
--   **[Unauthorized change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/unauth-change-properties.md)**  
+-   **[Unauthorized change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/unauth-change-properties.md)**  
 Use the Unauthorized Change Properties page to enable or disable the unauthorized change capability, and to configure the criteria for additional unauthorized change properties.
 
-**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md)
+**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateAChange.md)
 
 **Related topics**  
 

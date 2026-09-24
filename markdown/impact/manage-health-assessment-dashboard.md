@@ -2,7 +2,7 @@
 title: Manage Health Assessment Dashboard
 description: Address platform health findings from the Health Assessment Dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/manage-health-assessment-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/manage-health-assessment-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: impact\_admin
 4.  Filter the findings by new, rating, or by category.
 
 
-**Parent Topic:**[Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/health-assessment-dashboard.md)
+**Parent Topic:**[Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/health-assessment-dashboard.md)
 

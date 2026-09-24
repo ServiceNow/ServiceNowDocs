@@ -2,7 +2,7 @@
 title: Self-Service Analytics
 description: The Self-Service Analytics framework enables you to gather information about user activities and deflection outcomes related to those activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/self-service-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/self-service-analytics.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -26,21 +26,21 @@ Analyzing self-service deflection metrics has the following benefits:
 
 ## Activation information
 
-The Self-Service Analytics framework requires the Self-Service Analytics Core plugin \(com.snc.self\_service\_analytics\_core\). For more information, see [Activate Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-ssa-cs.md).
+The Self-Service Analytics framework requires the Self-Service Analytics Core plugin \(com.snc.self\_service\_analytics\_core\). For more information, see [Activate Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/activate-ssa-cs.md).
 
 **Note:** The data for the Communities and Virtual Agent channels are generated when the Communities plugin \(com.sn\_communities\) and Glide Virtual Agent plugin \(com.glide.cs.chatbot\) are activated respectively.
 
--   **[Self-Service Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md)**  
+-   **[Self-Service Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/ssa-concepts.md)**  
 You can quantify your self-service effectiveness by measuring case deflections.
 
-**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
+**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-management.md)
 
 **Related topics**  
 
 
-[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/config-ssa.md)
+[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/config-ssa.md)
 
-[Self-Service Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md)
+[Self-Service Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/ssa-concepts.md)
 
 [Platform Analytics Solutions for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ssa-cs-content-pack.md)
 

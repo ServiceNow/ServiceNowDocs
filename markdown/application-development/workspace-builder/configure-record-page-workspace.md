@@ -2,7 +2,7 @@
 title: Add a record page for a workspace in Workspace Builder
 description: Configure a record page for a workspace in Workspace Builder. Use containers and components to guide a user through an experience. Each record page is linked to only one data table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/configure-record-page-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/workspace-builder/configure-record-page-workspace.html
 release: australia
 product: Workspace Builder
 classification: workspace-builder
@@ -21,7 +21,7 @@ Configure a record page for a workspace in Workspace Builder. Use containers and
 Role required:
 
 -   admin or Guided Application Creator for ServiceNow Studio.
--   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -37,7 +37,7 @@ If you don't see the record page for a table you configured for the workspace, s
 
 1.  Navigate to Workspace Builder.
 
-    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
+    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
 
 2.  Create a record page.
 
@@ -108,7 +108,7 @@ Form details
 
 Select the **Edit form** link to edit the form in a Table Builder tab inside AES.**Note:** After you leave the record page in the Table Builder tab, a dialog prompts you to **Reload this page**.
 
-For more information on editing forms for a record page, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md).
+For more information on editing forms for a record page, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-view-configuration.md).
 
 </td></tr><tr><td>
 

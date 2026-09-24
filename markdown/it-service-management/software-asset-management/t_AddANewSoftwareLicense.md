@@ -2,7 +2,7 @@
 title: Add a software license using the legacy Software Asset Management plugin
 description: You can add a new software license using the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_AddANewSoftwareLicense.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/t\_AddANewSoftwareLicense.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -57,5 +57,5 @@ Role required: sam
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareLicenses.md)
+**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_SoftwareLicenses.md)
 

@@ -2,7 +2,7 @@
 title: Set Flow Variables flow logic
 description: Assign a value to one or more flow variables, which store flow data as data pills. Access flow variable values by referring to their data pill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-set-flow-variables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-logic-set-flow-variables.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -16,7 +16,7 @@ breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows
 
 Assign a value to one or more flow variables, which store flow data as data pills. Access flow variable values by referring to their data pill.
 
-**Important:** This flow logic sets values for flow variables that have already been created. For instructions on creating flow variables, see [Create a flow variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-variables.md).
+**Important:** This flow logic sets values for flow variables that have already been created. For instructions on creating flow variables, see [Create a flow variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow-variables.md).
 
 ## Inputs
 
@@ -44,7 +44,7 @@ Data
 
 Value for the variable. Enter a string value, input a script, or use a data pill. Variable values can reference any data pill from earlier in the flow, including other variables. If you set variable values by reference to other data pills, you must maintain the order of the variable assignments. The referenced value must always come before the variable that uses the referenced value. Changing the order may produce null values. To assign an empty value, leave this field empty.**Note:** Flow variable values are set in the order in which they're assigned from top to bottom. If you set the value of the same variable multiple times, the flow only uses the last value set.
 
-To enter a script, select the **Toggle scripting on for \[variable\]** icon. Enter your script in the script editor. For more information about inline scripting, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md).
+To enter a script, select the **Toggle scripting on for \[variable\]** icon. Enter your script in the script editor. For more information about inline scripting, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/inline-scripts.md).
 
 </td></tr></tbody>
 </table>## Outputs
@@ -89,7 +89,7 @@ return incNumber;
 
 \[Omitted image "flow-logic-set-flow-variables-script-execution-details.png"\] Alt text: Example execution details of setting a flow variable with a script. \[Omitted image ""\] Alt text: Example execution details of setting a flow variable with an inline script.
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

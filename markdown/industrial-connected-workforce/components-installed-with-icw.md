@@ -2,7 +2,7 @@
 title: Components installed with the Industrial Connected Workforce
 description: Several types of components are installed with activation of the plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/components-installed-with-icw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/components-installed-with-icw.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -276,5 +276,5 @@ User role for the ICW Core application
 -   Industrial Task \[sn\_icw\_task\]
 -   Worker profile \[sn\_icw\_worker\_profile\]
 
-**Parent Topic:**[Industrial Connected Workforce reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/icw-reference.md)
+**Parent Topic:**[Industrial Connected Workforce reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/icw-reference.md)
 

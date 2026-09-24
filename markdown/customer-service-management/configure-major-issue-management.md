@@ -2,7 +2,7 @@
 title: Configure major issue management
 description: Major issue management enables customer communication for issues that impact a wider audience. Use this feature to proactively identify impacted customers, provide information to these customers, and manage the resolution process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-major-issue-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-major-issue-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ This feature enables you to efficiently manage the communication and resolution 
 **Related topics**  
 
 
-[Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-management.md)
+[Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/major-issue-management.md)
 

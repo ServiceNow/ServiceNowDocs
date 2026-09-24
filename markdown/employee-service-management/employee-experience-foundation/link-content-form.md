@@ -2,7 +2,7 @@
 title: Link content form
 description: Link content form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/link-content-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/link-content-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -48,7 +48,7 @@ To-do content
 
 The to-do content you want to reference to your link content.This field only appears when you select **To-do** from the **Type** field.
 
-**Note:** Use this field to reference your to-do content to a link that can be used in a banner or styled content. For more information, see [Creating to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-to-dos.md).
+**Note:** Use this field to reference your to-do content to a link that can be used in a banner or styled content. For more information, see [Creating to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-to-dos.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ The type of link for the content.-   Video: Link is a video.
 
 -   Forums Link: Link to a Communities forum post. Only appears when Communities plugin \[com.sn\_communities\] is installed.
 
- **Note:** After link content is associated with Portal Content, the **Type** cannot be modified. See [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
+ **Note:** After link content is associated with Portal Content, the **Type** cannot be modified. See [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ The list of posts from the topic or forum the link appears. For example:
  Only appears when **Forums Link** is selected from **Type** and the Communities plugin \[com.sn\_communities\] is installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

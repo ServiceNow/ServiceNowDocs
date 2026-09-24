@@ -2,7 +2,7 @@
 title: Manage temporary space closures agentic workflow
 description: This team of AI agents temporarily block a location when there’s an emergency workplace maintenance case is submitted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -18,37 +18,37 @@ This team of AI agents temporarily block a location when there’s an emergency 
 
 ## Manage temporary space closures workflow overview
 
-AI agent executes maintenance tasks, blocks a room for maintenance, and moves any existing reservation to another location. This occurs when the emergency workplace maintenance requested is assigned to a user in the Workplace Event Planners assignment group. For more information, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/submit-emergency-maint-request.md).
+AI agent executes maintenance tasks, blocks a room for maintenance, and moves any existing reservation to another location. This occurs when the emergency workplace maintenance requested is assigned to a user in the Workplace Event Planners assignment group. For more information, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/submit-emergency-maint-request.md).
 
 The team of AI agents block a room for emergency maintenance and move any existing reservations from the blocked location to another location. Multi-building and group reservations are also handled by the agents. AI agents send notification to Workplace Event planners using the ServiceNow Otto panel. The team of AI agents autonomously perform the following:
 
 -   Retrieves the case details from the emergency maintenance request.
 
-    For more information, see [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
+    For more information, see [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
 
 -   Retrieves impacted reservation from a location and blocks a location for maintenance.
 
-    For more information, see [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/block-workplace-location.md).
+    For more information, see [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/block-workplace-location.md).
 
 -   AI agents notifies workplace event planners with case resolution and summarization using the ServiceNow Otto panel conversational interface.
 
-    AI agents take confirmation from Workplace planners before blocking a location or before moving a reservation to another location. Workplace Event planners can respond to AI agents queries using the conversational interface of the ServiceNow Otto panel. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
+    AI agents take confirmation from Workplace planners before blocking a location or before moving a reservation to another location. Workplace Event planners can respond to AI agents queries using the conversational interface of the ServiceNow Otto panel. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
 -   Updates the emergency maintenance request case notes with all the actions taken. Workplace Event planners can review the activity log to know the actions taken by AI agents.
 
-    For more information, see [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
+    For more information, see [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
 
 
 ## Manage temporary space closures workflow
 
 To access the Maintenance Meeting rooms workflow:
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview** &gt; **Manage Temporary space closures**. For more information, see [AI agents used in the Manage temporary space closures workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview** &gt; **Manage Temporary space closures**. For more information, see [AI agents used in the Manage temporary space closures workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
 
     The Manage temporary space closure Describe and Connect workflow opens.
 
-2.  Select **Define Trigger** to review the trigger factor \(Emergency Meeting rooms\) for this agentic workflow. For more information, see [Triggers for the Manage temporary space closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
-3.  The **Select Display** option enables the ServiceNow Otto panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
+2.  Select **Define Trigger** to review the trigger factor \(Emergency Meeting rooms\) for this agentic workflow. For more information, see [Triggers for the Manage temporary space closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
+3.  The **Select Display** option enables the ServiceNow Otto panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
 
 ## AI agents used in the Manage temporary space closures workflow
 
@@ -184,9 +184,9 @@ In the Select display workflow, select **Display** to display the Now Assist pan
 
 **Note:** To view the output from a triggered use case, you should have the now\_assist\_panel\_role.
 
-Select this option to receive and review notifications sent by AI agents in the Now Assist panel. AI agents send notifications to Workplace Event planners in the ServiceNow Otto panel with the case resolution and summarization notes. The AI agent asks for Workplace Event planners confirmation before blocking a location and moving any impacted reservations to another available workspace. It also asks for confirmation before updating an existing reservation's date, time, and duration. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
+Select this option to receive and review notifications sent by AI agents in the Now Assist panel. AI agents send notifications to Workplace Event planners in the ServiceNow Otto panel with the case resolution and summarization notes. The AI agent asks for Workplace Event planners confirmation before blocking a location and moving any impacted reservations to another available workspace. It also asks for confirmation before updating an existing reservation's date, time, and duration. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
-**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 

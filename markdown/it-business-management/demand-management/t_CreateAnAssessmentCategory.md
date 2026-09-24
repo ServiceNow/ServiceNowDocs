@@ -2,7 +2,7 @@
 title: View an assessment metric category
 description: View assessment metric categories that are used with assessment metric types and assessment metrics in generating the bubble charts on the Demand Workbench. The bubble charts help the demand managers to assess the demands visually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_CreateAnAssessmentCategory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/t\_CreateAnAssessmentCategory.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -34,16 +34,16 @@ The Demand Management application comes with an assessment metric type named **D
 
     |Assessment metric category|Data source|Description|
     |--------------------------|-----------|-----------|
-    |**Size**|**T-Shirt size** field on the [Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md) form.|Assesses demand size relative to the size of other demands.|
+    |**Size**|**T-Shirt size** field on the [Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md) form.|Assesses demand size relative to the size of other demands.|
     |**Strategic Alignment**|[View an assessment category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewACategoryResult.md) field in the assessment category result for the Strategic Alignment metric category.|Assesses how closely the demand aligns with strategic goals of the organization compared to other demands.|
     |**Risk**|**Rating** field in the assessment category result for the Risk metric category.|Assesses demand risks compared to other demands.|
     |**ROI**|**Impact** and **Financial return** fields on the Demand form.|Assesses demand return on investment compared to other demands.|
     |**Cost**|**Labor costs**, **Capital expense**, and **Operating expense** fields on the Demand form.|Assesses demand cost compared to other demands.|
 
 
-**Parent Topic:**[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_SettingUpDemandManagement.md)
+**Parent Topic:**[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/c_SettingUpDemandManagement.md)
 
-**Previous topic:**[Populate the stakeholder registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_PopulatingTheStakeholderRegistry.md)
+**Previous topic:**[Populate the stakeholder registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_PopulatingTheStakeholderRegistry.md)
 
-**Next topic:**[Configure a widget for the financial metrics of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configure-widget-demand-financials.md)
+**Next topic:**[Configure a widget for the financial metrics of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/configure-widget-demand-financials.md)
 

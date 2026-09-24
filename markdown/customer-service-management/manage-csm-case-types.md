@@ -2,7 +2,7 @@
 title: Manage customer service case types
 description: Manage the settings and the configuration for a case type from the Case Type form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-csm-case-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/manage-csm-case-types.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Customer service case types, Case management, Organize agent worksp
 
 Manage the settings and the configuration for a case type from the Case Type form.
 
-After using the Customer Service Management Guided Setup to create and [configure a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-case-types.md), you can view and manage the settings and configuration for the case type from the [Case Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-type-form.md). To access a Case Type form, navigate to **Customer Service** &gt; **Case Types** &gt; **Manage Case Types** and select a case type from the list.
+After using the Customer Service Management Guided Setup to create and [configure a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-csm-case-types.md), you can view and manage the settings and configuration for the case type from the [Case Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-case-type-form.md). To access a Case Type form, navigate to **Customer Service** &gt; **Case Types** &gt; **Manage Case Types** and select a case type from the list.
 
 ## Case Type form related links
 
@@ -86,7 +86,7 @@ The Case Type form related lists display items configured for the case type tabl
 
 ## Select a category and subtype for a case type
 
-The system administrator can assign an optional category and a subtype to a case type. When creating a case, agents can filter the available case types by category and subtype in the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals.md). If an agent selects a category, the list of case types displayed is filtered by that category. If an agent selects a subtype, the list is further filtered by that subtype.
+The system administrator can assign an optional category and a subtype to a case type. When creating a case, agents can filter the available case types by category and subtype in the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-type-select-modals.md). If an agent selects a category, the list of case types displayed is filtered by that category. If an agent selects a subtype, the list is further filtered by that subtype.
 
 The Customer Service Case Types plugin includes several categories that the system administrator can select for a case type. These categories include:
 

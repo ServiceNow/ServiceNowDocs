@@ -2,7 +2,7 @@
 title: Activate Care Team Work Management
 description: Activate the Care Team Work Management \[com.sn\_cto\] application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

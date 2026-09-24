@@ -2,7 +2,7 @@
 title: Change insight to use a different field for trending topics
 description: Change the field used in a trending topics insight to display data from a different field, such as changing from Assignment Group to Consumer or Product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -49,9 +49,9 @@ The Trending topics dashboard uses different UI Builder Component names. These i
 **Related topics**  
 
 
-[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
+[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
 
-[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
+[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
 
-[Configure trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-trending-topics-dashboard.md)
+[Configure trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/configure-trending-topics-dashboard.md)
 

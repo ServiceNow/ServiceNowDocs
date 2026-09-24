@@ -2,7 +2,7 @@
 title: Edit a flow
 description: Edit an existing flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-edit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-edit.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -108,5 +108,5 @@ Select **Redo last action** to reapply the last reverted change. \[Omitted image
     Workflow Studio automatically saves changes as you add and edit items. It also saves when you test or activate a flow.
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

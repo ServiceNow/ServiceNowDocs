@@ -2,7 +2,7 @@
 title: Create a UI Test Script in Build Agent
 description: Create test scripts for custom user interfaces using conversational interaction with Build Agent. UI Test Scripts expose elements of Testing Library and run as part of the Automated Test Framework \(ATF\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-create-ui-test-script-ba.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-agent-create-ui-test-script-ba.html
 release: australia
 topic_type: task
 last_updated: "2026-07-27"

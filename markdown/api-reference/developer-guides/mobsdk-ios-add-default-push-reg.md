@@ -2,7 +2,7 @@
 title: Add a default push registration
 description: Register the push notification so that all users of your application receive the push notifications by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-add-default-push-reg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-ios-add-default-push-reg.html
 release: australia
 product: Developer Guides
 classification: developer-guides

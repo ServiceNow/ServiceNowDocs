@@ -2,7 +2,7 @@
 title: Event Management during a platform upgrade
 description: During a platform upgrade Event Management jobs whose Upgrade safe flag is marked as true remain running.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/platform-upgrade-and-event-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/platform-upgrade-and-event-management.html
 release: australia
 product: Event Management
 classification: event-management

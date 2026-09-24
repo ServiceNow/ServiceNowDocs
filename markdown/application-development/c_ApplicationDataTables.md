@@ -2,7 +2,7 @@
 title: Application tables
 description: Application developers create tables and their associated lists and forms for users to add and update records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationDataTables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_ApplicationDataTables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,5 +32,5 @@ For more information on database limitations and general questions on tables in 
 **Related topics**  
 
 
-[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md)
+[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_ApplicationAccessSettings.md)
 

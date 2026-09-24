@@ -2,7 +2,7 @@
 title: Setting up a travel estimate provider
 description: Set up a travel estimate provider in Schedule Optimization for each of your technician groups to streamline and enhance the travel planning process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/setting-up-a-travel-estimate-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/setting-up-a-travel-estimate-provider.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -26,7 +26,7 @@ You can use third-party map providers in Schedule Optimization to expand your ma
 -   Beans.ai: This map provider provides more accurate travel time estimates. Locations that are deemed invalid through geocoding or aren’t reachable by road are excluded from task assignments
 -   Third-party map providers: Schedule Optimization supports integration with third-party providers. To configure a third-party provider, you must already have a connection and credential established for that provider.
 
-For more information, see [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
+For more information, see [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
 
 ## Map vendor call types
 
@@ -35,7 +35,7 @@ Property: **map\_vendor\_call\_types property**
 -   Sync: Default value.
 -   Async: Changing the default value to async can improve performance and may result in more outbound requests.
 
-For more information on properties, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-properties.md).
+For more information on properties, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/schedule-optimization-properties.md).
 
 ## Travel band modifiers
 

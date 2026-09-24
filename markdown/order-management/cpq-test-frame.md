@@ -2,7 +2,7 @@
 title: The test frame
 description: Use a test frame to quickly validate the behavior of a configurator without creating a web page or running the full quoting flow. This lightweight test page lets you load a product and pass key parameters to preview the configuration in an iframe, either from on-page inputs or directly from URL parameters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-test-frame.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-test-frame.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -62,5 +62,5 @@ The testFrame HTML provides easy inputs to a variety of parameters that can be s
 -   Parameter inputs
 -   Configuration iframe
 
-For more information, see [Use case: Embed CPQ UI in an HTML page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_an_html_page.md).
+For more information, see [Use case: Embed CPQ UI in an HTML page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use_case_embed_logik_io_ui_in_an_html_page.md).
 

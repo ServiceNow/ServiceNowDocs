@@ -2,7 +2,7 @@
 title: ServiceNow Quote Experience use case: Calculate the total of line-level prices
 description: ServiceNow Quote Experience can include a determination rule that calculates the sum of line-level net prices so that it can be stored in a header-level field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-use-case-calculate-the-total-of-line-level-prices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/transaction-manager-use-case-calculate-the-total-of-line-level-prices.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -63,5 +63,5 @@ Here are two more examples of line-level calculations stored in a header-level f
     \[Omitted image "cpq-txn-mgr-use-case-calc-total-3.png"\] Alt text: ServiceNow Quote Experience Use Case: Calculate the Total of Line-Level Prices
 
 
-**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-cases.md)
+**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/transaction-manager-use-cases.md)
 

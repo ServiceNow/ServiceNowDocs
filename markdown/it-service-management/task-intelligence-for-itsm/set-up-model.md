@@ -2,7 +2,7 @@
 title: Set up your incident prediction model
 description: Use Task Intelligence for ITSM to set up your incident prediction model and train it with your data to make predictions. Access your model's performance results, set the prediction preferences and behavior, and deploy your model.Train your incident prediction model with data to predict the incident fields.Assess the results from the model training and view sample results for the predicted fields. Reviewing the results gives you a preview of how your model will perform after being deployed. Based on the sample results, select the prediction preference and behavior for each field.Deploy the incident prediction model to predict the incident field information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/set-up-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/task-intelligence-for-itsm/set-up-model.html
 release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -31,7 +31,7 @@ Role required: sn\_ti\_admin.tia\_admin or sn\_itsm\_ml\_task.ti\_admin
     This action opens the model and displays the introductory pages. Each page in the model asks you questions and helps you select the information needed to build an effective model.
 
 
-**Parent Topic:**[Create an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md)
+**Parent Topic:**[Create an incident prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md)
 
 ## Train your model
 
@@ -39,7 +39,7 @@ Train your incident prediction model with data to predict the incident fields.
 
 ### Before you begin
 
-You can set up a task intelligence model or use the base system template that is shipped with Task Intelligence for ITSM. For more information on setting up a new model, see [Set up your incident prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/set-up-model.md).
+You can set up a task intelligence model or use the base system template that is shipped with Task Intelligence for ITSM. For more information on setting up a new model, see [Set up your incident prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/set-up-model.md).
 
 Role required: sn\_ti\_admin.tia\_admin or admin
 
@@ -92,7 +92,7 @@ Assess the results from the model training and view sample results for the predi
 
 ### Before you begin
 
-You must train your model with various data. For more information on how to train your model, see [Train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/set-up-model.md).
+You must train your model with various data. For more information on how to train your model, see [Train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/set-up-model.md).
 
 Role required: sn\_ti\_admin.tia\_admin or admin
 
@@ -117,15 +117,15 @@ The model has flexible options. Based on the sensitivity and requirements of eac
 
 4.  Choose one of the following options from the **Prediction preference** drop-down list for each field.
 
-<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d303276e417">
+<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d303255e417">
 
 Options
 
-</th><th align="left" id="d303276e420">
+</th><th align="left" id="d303255e420">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d303276e426">
+</th></tr></thead><tbody><tr><td id="d303255e426">
 
 **Autofill**
 
@@ -133,15 +133,15 @@ Description
 
 Adds the best predicted value to the field on the Incident form.
 
-</td></tr><tr><td id="d303276e435">
+</td></tr><tr><td id="d303255e435">
 
 **Recommendations**
 
 </td><td>
 
-Shows the top recommended values for a field. Agents can choose to accept or reject the recommendation. You can configure the number of recommended values using Advanced Recommended actions for ITSM. For more information, see [Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md).
+Shows the top recommended values for a field. Agents can choose to accept or reject the recommendation. You can configure the number of recommended values using Advanced Recommended actions for ITSM. For more information, see [Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md).
 
-</td></tr><tr><td id="d303276e460">
+</td></tr><tr><td id="d303255e460">
 
 **Turn off predictions**
 
@@ -149,7 +149,7 @@ Shows the top recommended values for a field. Agents can choose to accept or rej
 
 Stops the model from performing any predictions.
 
-</td></tr><tr><td id="d303276e469">
+</td></tr><tr><td id="d303255e469">
 
 **Monitor only**
 
@@ -169,7 +169,7 @@ Deploy the incident prediction model to predict the incident field information.
 
 ### Before you begin
 
-You must access the model and set the preferences for your model. For more information on setting model preferences, see [Assess your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/set-up-model.md).
+You must access the model and set the preferences for your model. For more information on setting model preferences, see [Assess your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/set-up-model.md).
 
 Role required: sn\_ti\_admin.tia\_admin or admin
 
@@ -190,5 +190,5 @@ A pop-up appears confirming that your model was deployed.
 
 ### What to do next
 
-Select **Configure Recommended Actions** to configure the implementation of the incident prediction model in the incident fields. For more information, see [Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md).
+Select **Configure Recommended Actions** to configure the implementation of the incident prediction model in the incident fields. For more information, see [Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md).
 

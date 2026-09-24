@@ -2,7 +2,7 @@
 title: Map KBA questions to answers
 description: Create knowledge-based questions and answer mapping to confirm the user's identity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-kba-answer-mappings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-kba-answer-mappings.html
 release: australia
 product: Authentication
 classification: authentication

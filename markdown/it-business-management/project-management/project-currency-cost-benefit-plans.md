@@ -2,7 +2,7 @@
 title: Project currency in cost and benefit plans
 description: The currency fields in cost and benefit plans defaults to the project currency of the project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-currency-cost-benefit-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/project-currency-cost-benefit-plans.html
 release: australia
 product: Project Management
 classification: project-management
@@ -25,9 +25,9 @@ Similarly, the **Entered Currency** field of the benefit plan defaults to the pr
 **Related topics**  
 
 
-[Enable project currency view in project-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/enable-project-currency-view.md)
+[Enable project currency view in project-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/enable-project-currency-view.md)
 
-[Updates in cost plan and recalculation of cost in project currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-cost-calculated-project-currency.md)
+[Updates in cost plan and recalculation of cost in project currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/change-cost-calculated-project-currency.md)
 
-[Multicurrency in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/multicurrency-pps.md)
+[Multicurrency in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/multicurrency-pps.md)
 

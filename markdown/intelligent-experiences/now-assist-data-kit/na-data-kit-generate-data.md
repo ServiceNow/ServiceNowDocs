@@ -2,7 +2,7 @@
 title: Generate synthetic data
 description: Create synthetic data using the Standard data generator in AI Data Kit. Use synthetic data to imitate real-world records so you can run evaluations or create training for a test model without using production data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/na-data-kit-generate-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/na-data-kit-generate-data.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -45,13 +45,13 @@ Role required: sn\_data\_kit.admin
 
 5.  On the **Select sample data** page, add sample records to help the model understand the expected structure, format, and tone of the generated data, then select **Next**.
 
-    You can select up to 3 records from an instance table or an existing data collection. For detailed steps, see [Select the sample data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/select-sample-data.md).
+    You can select up to 3 records from an instance table or an existing data collection. For detailed steps, see [Select the sample data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/select-sample-data.md).
 
     **Note:** Sample data is not replicated in the output. It is used only to guide generation.
 
 6.  On the **Define columns** page, review and update the column definitions, then select **Next**.
 
-    Each column requires a label, a data type, and a description of the data to generate. You can use **Generate column descriptions** to auto-populate descriptions, add new columns, or delete all columns and start fresh. For detailed steps, see [Define columns to generate data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/na-data-kit-define-columns.md).
+    Each column requires a label, a data type, and a description of the data to generate. You can use **Generate column descriptions** to auto-populate descriptions, add new columns, or delete all columns and start fresh. For detailed steps, see [Define columns to generate data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/na-data-kit-define-columns.md).
 
     **Note:** If you selected sample data in the previous step, column definitions are pre-populated based on the columns you chose.
 
@@ -78,7 +78,7 @@ Role required: sn\_data\_kit.admin
 When generation completes, the dataset detail page shows three tabs:
 
 -   **Output data**: The generated records. Review these for accuracy. A disclaimer reminds you that AI-generated content should be verified before use.
--   **Data insights**: A quality score \(0–100\) and a breakdown of metrics including data volume, similarity to sample data, data hygiene, missing or empty values, and temporal consistency. A score of 80 or higher indicates the dataset is ready to use. For more information, see [View data insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/view-data-insights.md).
+-   **Data insights**: A quality score \(0–100\) and a breakdown of metrics including data volume, similarity to sample data, data hygiene, missing or empty values, and temporal consistency. A score of 80 or higher indicates the dataset is ready to use. For more information, see [View data insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/view-data-insights.md).
 -   **Input settings**: A record of the data definition, sample data, and column definitions used to generate the dataset.
 
 Select **Save as Template** to save the generator configuration for reuse, or **Add to data asset** to make the dataset available for use in data collections.

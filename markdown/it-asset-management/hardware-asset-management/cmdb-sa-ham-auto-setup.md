@@ -2,7 +2,7 @@
 title: Automatic dashboard setup for HAM in CMDB success advisor
 description: CMDB success advisor can automatically configure the HAM advisor dashboard after installation or upgrade, providing immediate access to pre-configured hardware asset insights without selecting model categories manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-auto-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-auto-setup.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -29,16 +29,16 @@ The dashboard card on the CMDB success advisor landing page displays a badge wit
 
 Auto-setup runs only when all the following conditions are met:
 
--   The instance has a HAM entitlement. See [Hardware Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-licensing.md).
+-   The instance has a HAM entitlement. See [Hardware Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-licensing.md).
 -   The CMDB success advisor for HAM setup isn't yet complete.
 -   The total number of CIs on the instance is fewer than 5 million.
--   If the Hardware Asset Management plugin \(sn\_hamp\) is installed, at least one HAM resource category is opted in. See [Managing opt-in and opt-out resource categories for HAM in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-opt-categories.md).
+-   If the Hardware Asset Management plugin \(sn\_hamp\) is installed, at least one HAM resource category is opted in. See [Managing opt-in and opt-out resource categories for HAM in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-opt-categories.md).
 
 **Note:** If any condition isn't met, you can configure the HAM advisor dashboard manually.
 
 ## Scope selected by auto-setup
 
-Auto-setup selects up to 10 recommended HAM model categories, ranked primarily by asset count. For more information, see [HAM model category recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-scope-recom.md).
+Auto-setup selects up to 10 recommended HAM model categories, ranked primarily by asset count. For more information, see [HAM model category recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-scope-recom.md).
 
 For each selected model category, auto-setup also marks the corresponding CI class as a principal class so the class appears in CI selection filters on incident, change, and problem forms.
 
@@ -56,5 +56,5 @@ This notification lets you refresh the dashboard view from anywhere in the Servi
 
 You can review and update the model categories selected by auto-setup at any time.
 
-For instructions on updating model categories, see [Optimize the HAM advisor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-optimize-dashboard.md).
+For instructions on updating model categories, see [Optimize the HAM advisor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-optimize-dashboard.md).
 

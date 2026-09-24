@@ -2,7 +2,7 @@
 title: Virtual grouping of nodes in a Dependency Views map
 description: To reduce the density on a map, Dependency Views automatically groups CIs of a similar CI type from the same level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/logical-grouping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/logical-grouping.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -37,5 +37,5 @@ Also, when using the node menu option **Load More**, virtual grouping is not app
 **Related topics**  
 
 
-[Properties for Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/properties-dependency-views.md)
+[Properties for Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/properties-dependency-views.md)
 

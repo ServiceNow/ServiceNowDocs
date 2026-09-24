@@ -2,7 +2,7 @@
 title: Work on a debit approval case to complete a refund
 description: Work with your internal customer or bank to get the debit amount approved so that you can complete the claim refund.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/work-debit-approval-case-internal-refund.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-payment-operations/work-debit-approval-case-internal-refund.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -89,7 +89,7 @@ Steps
 
 ## What to do next
 
-Update the claim case fields as required and [close the claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/close-claim-case.md).
+Update the claim case fields as required and [close the claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/close-claim-case.md).
 
-**Parent Topic:**[Work on a claim with an internal refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/work-claim-with-internal-refund.md)
+**Parent Topic:**[Work on a claim with an internal refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/work-claim-with-internal-refund.md)
 

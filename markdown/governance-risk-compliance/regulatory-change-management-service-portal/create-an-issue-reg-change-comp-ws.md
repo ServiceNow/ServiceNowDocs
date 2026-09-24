@@ -2,7 +2,7 @@
 title: Create or add an issue related to a regulatory task
 description: Create or add an issue related to a regulatory task to document the observations, changes in the citation, discrepancies, or to notify about any problems. You can also identify the source of the issue to analyze and classify the issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/create-an-issue-reg-change-comp-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/create-an-issue-reg-change-comp-ws.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

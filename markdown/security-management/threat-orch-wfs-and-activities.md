@@ -2,7 +2,7 @@
 title: Threat Intelligence Orchestration workflows and activities
 description: The base system includes workflows and workflow activities you can use to automate actions on your instance.The Threat Intelligence - Run IoC Lookup workflow checks whether there is an unexpired observable and if so, the lookup is set to Complete and updated with the data from the observable.If an unexpired observable is found, the Threat Intelligence Orchestration - Populate lookup with observable workflow activity supplies data from an existing observable to a lookup. This activity can accelerate the investigation and remediation process.The Threat Intelligence Orchestration - Perform IoC Lookup workflow activity performs a given lookup. This activity can accelerate the investigation and remediation process.The Threat Intelligence Orchestration - Update observable with lookup result workflow activity updates the observable record. If one does not exist, it creates a new observable. This activity is useful for logging information.When triggered by a workflow, Threat Intelligence - Run Default IoC Lookup Sources takes in a lookup request ID and creates multiple lookups depending on the entered data values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-orch-wfs-and-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-orch-wfs-and-activities.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Threat Intelligence Orchestration, Threat Intelligence, Enterprise 
 
 The base system includes workflows and workflow activities you can use to automate actions on your instance.
 
-**Parent Topic:**[Threat Intelligence Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_ThreatIntelligenceOrchestration.md)
+**Parent Topic:**[Threat Intelligence Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_ThreatIntelligenceOrchestration.md)
 
 ## Threat Intelligence - Run IoC Lookup workflow
 
@@ -38,10 +38,10 @@ If no correlating observable exists, a new observable with indicator is created.
 
 Workflow process activities include:
 
--   [Populate lookup with observable activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-orch-wfs-and-activities.md)
--   [Perform IoC Lookup activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-orch-wfs-and-activities.md)
+-   [Populate lookup with observable activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-orch-wfs-and-activities.md)
+-   [Perform IoC Lookup activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-orch-wfs-and-activities.md)
 -   Wait for lookup \(core activity\)
--   [Update observable with lookup result activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-orch-wfs-and-activities.md)
+-   [Update observable with lookup result activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-orch-wfs-and-activities.md)
 
 \[Omitted image "RunScanWorkflow.png"\] Alt text: Threat Intelligence - Run IoC Lookup workflow diagram
 

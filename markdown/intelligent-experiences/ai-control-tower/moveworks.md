@@ -2,7 +2,7 @@
 title: AI Service Graph Connector for Moveworks
 description: The AI Service Graph Connector for Moveworks enables you to discover and import AI assets from Moveworks environments into ServiceNow AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/moveworks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/moveworks.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

@@ -2,7 +2,7 @@
 title: MID Web Server and agent mTLS Authentication
 description: Mutual authentication using the Transport Layer Security protocol \(mTLS\) is a secure, certificate-based authentication scheme. With mTLS, the server \(the MID Web Server extension\) and the client \(the agent\) authenticate each other.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/mid-web-server-mTLS-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/mid-web-server-mTLS-authentication.html
 release: australia
 product: Event Management
 classification: event-management
@@ -27,7 +27,7 @@ Before enabling mTLS, you must first create keys and certificates, install the .
 **Related topics**  
 
 
-[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
+[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension.md)
 
-[Configure mTLS authentication for a MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension-mTLS.md)
+[Configure mTLS authentication for a MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension-mTLS.md)
 

@@ -18,13 +18,13 @@ HR Case has a business rule called Auto Assign that invokes matching rule logic.
 
 When auto assignment is triggered, the matching rules logic obtains a list of agents. The number of agents returned is based on a parameter that specifies the length of the list. The default is one.
 
-**Note:** For specific HR services, the auto-assignment functionality can be skipped. See Case options in [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+**Note:** For specific HR services, the auto-assignment functionality can be skipped. See Case options in [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 ## Matching Rules
 
 HR assignment rules use the Resource Matching Engine \[com.snc.matching\_rule\] plugin that is activated with the Human Resources Scoped App: Core \[com.sn\_hr\_core\] plugin. You can specify a table and a condition. By default, the base system sets an assignment group for each table and leaves the Assigned to field empty.
 
-For HR cases that meet these conditions, the hr\_AssignmentAPI script include is called to return a list of agents that are eligible for assignment. See [Add or modify a matching rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/CreateModMatchingRule.md).
+For HR cases that meet these conditions, the hr\_AssignmentAPI script include is called to return a list of agents that are eligible for assignment. See [Add or modify a matching rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/CreateModMatchingRule.md).
 
 **Note:** The base system provides matching rules for every COE table and HR task table.
 
@@ -66,12 +66,12 @@ If your organization is using HR skills to qualify HR case assignments, ensure t
 
 Refer to [Create rules to route and assign customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CaseRouting.md) for more information on matching and assignment rules.
 
--   **[Add or modify an HR assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreatingAnAssignmentRule.md)**  
+-   **[Add or modify an HR assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreatingAnAssignmentRule.md)**  
 Assignment rules are used to assign the HR group when it is not assigned from the catalog item template. You can create HR assignment rules as needed.
--   **[Test an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_TestingAssignmentRules.md)**  
+-   **[Test an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_TestingAssignmentRules.md)**  
 You can test a new assignment rule to verify that it works as intended.
--   **[Add or modify a matching rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/CreateModMatchingRule.md)**  
+-   **[Add or modify a matching rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/CreateModMatchingRule.md)**  
 You can add or modify a matching rule to assign HR cases to specific users or groups.
 
-**Parent Topic:**[HR Service Delivery case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-case-assignment.md)
+**Parent Topic:**[HR Service Delivery case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-case-assignment.md)
 

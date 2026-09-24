@@ -2,7 +2,7 @@
 title: Dynamic Translation for Agent Chat overview
 description: Dynamic Translation for Agent Chat \(DTAC\) translates chat conversations from one language to another. This translating enables agents and requesters to have chat conversations with each other without the need of a shared language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ci-dtac-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ci-dtac-overview.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -23,7 +23,7 @@ DTAC enables cross-locale support teams and merger and acquisition projects to s
 **Note:**
 
 -   DTAC is supported on Agent Workspace, not on Connect Support.
--   DTAC is currently not supported when autopilot is in progress. When the requester responds to prompts from autopilot topics, these responses are not translated for the agent, even if DTAC is turned on for that conversation. See [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md) for more information.
+-   DTAC is currently not supported when autopilot is in progress. When the requester responds to prompts from autopilot topics, these responses are not translated for the agent, even if DTAC is turned on for that conversation. See [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-agent-chat-using.md) for more information.
 
 ## How DTAC works
 

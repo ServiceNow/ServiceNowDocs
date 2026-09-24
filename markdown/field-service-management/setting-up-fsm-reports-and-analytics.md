@@ -2,7 +2,7 @@
 title: Setting up FSM reports and analytics
 description: Set up reports and analytic to offer valuable insights that assist decision-making processes within an organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/setting-up-fsm-reports-and-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/setting-up-fsm-reports-and-analytics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

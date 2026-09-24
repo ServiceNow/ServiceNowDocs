@@ -2,7 +2,7 @@
 title: NotifyUtil - Global
 description: The NotifyUtil script include provides utility methods to use when interacting with Notify calls and SMS messages using server-side scripts.Instantiates a NotifyUtil class object.Returns all of the Notify telephone numbers and related Notify information from a specified source record, such as an incident.Returns the SMS-capable number associated with the specified Notify user.Returns a list of unique Notify telephone numbers.Determines whether there are any active conference calls for the specified source record.Validates a specified Notify telephone number.Verifies that the specified number is a valid E.164 telephone number.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/NotifyUtilAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/NotifyUtilAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -26,7 +26,7 @@ Using the NotifyUtil script include you can:
 -   Obtain the SMS-capable number associated with the specified Notify user.
 -   Validate a specified Notify telephone number.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## NotifyUtil - NotifyUtil\(\)
 
@@ -243,7 +243,7 @@ userGROrId
 
 </td><td>
 
-String or [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+String or [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 

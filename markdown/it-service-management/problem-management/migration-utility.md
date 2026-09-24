@@ -2,7 +2,7 @@
 title: Migration Utility
 description: The Problem Management Migration Utility, available in the ServiceNow Store, is a guided setup application that helps you upgrade to adopt the base version of Problem Management using the guided problem life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/migration-utility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/migration-utility.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -33,7 +33,7 @@ The migration utility consists of several guided activities:
 
 -   **Migrate**
 
-    Guides you through the [Migration job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/migrating-existing-records.md).
+    Guides you through the [Migration job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/migrating-existing-records.md).
 
 -   **Clean-up**
 

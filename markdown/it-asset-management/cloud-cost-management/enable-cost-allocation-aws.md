@@ -2,7 +2,7 @@
 title: Enable cost allocation in AWS for Kubernetes cluster
 description: Enable cost allocation for a Kubernetes cluster in AWS Management Console before you run a AWS Billing download job to view the Kubernetes spend.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/enable-cost-allocation-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/enable-cost-allocation-aws.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

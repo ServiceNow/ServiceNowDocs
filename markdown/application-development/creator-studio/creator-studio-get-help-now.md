@@ -2,7 +2,7 @@
 title: Get help with Creator Studio
 description: To get help with Creator Studio, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company. You can also check some helpful resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-get-help-now.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-get-help-now.html
 release: australia
 product: Creator Studio
 classification: creator-studio

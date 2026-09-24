@@ -2,7 +2,7 @@
 title: Source-to-Pay integrations with Oracle reference
 description: Reference topics provide additional information on integrating Source-to-Pay Operations with Oracle, including sales orders, procurement, finance, and so on, between Source-to-Pay and ERP systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/s2p-integration-oracle-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/s2p-integration-oracle-reference.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -35,7 +35,7 @@ To access the system properties list, perform the following steps:
     **Note:** You can modify these values only if necessary.
 
 
-**Parent Topic:**[Source-to-Pay integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-integrations-reference.md)
+**Parent Topic:**[Source-to-Pay integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/s2p-integrations-reference.md)
 
 **Related topics**  
 

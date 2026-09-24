@@ -2,7 +2,7 @@
 title: Create model categories
 description: You can create model categories for the Enterprise Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-custom-model-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-custom-model-category.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

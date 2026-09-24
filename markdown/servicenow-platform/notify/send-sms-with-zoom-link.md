@@ -2,7 +2,7 @@
 title: Send an SMS with Zoom meeting invite
 description: Send an SMS with Zoom meeting invite to ensure that the meeting participants or any newly added participant is updated with the meeting details when the meeting host starts the conference or adds a participant to the conference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/send-sms-with-zoom-link.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/send-sms-with-zoom-link.html
 release: australia
 product: Notify
 classification: notify
@@ -33,5 +33,5 @@ Role required: notify\_view, notify\_admin or notify\_setup\_admin
 3.  Click **Update**.
 
 
-**Parent Topic:**[Using Notify with SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifySMS.md)
+**Parent Topic:**[Using Notify with SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifySMS.md)
 

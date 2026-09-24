@@ -2,7 +2,7 @@
 title: Set up a use case for Now Assist in Document Intelligence
 description: Create a use case record to define a document you want to process with Now Assist in Document Intelligence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -19,7 +19,7 @@ Create a use case record to define a document you want to process with Now Assis
 
 ## Before you begin
 
--   If the Now Assist in Document Intelligence skill has been deactivated, activate the skill.For more information, see [Activate a Now Assist in Document Intelligence skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/activate-now-assist-in-document-intelligence-skill.md).
+-   If the Now Assist in Document Intelligence skill has been deactivated, activate the skill.For more information, see [Activate a Now Assist in Document Intelligence skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/activate-now-assist-in-document-intelligence-skill.md).
 -   Role required: Admin, DocIntel Admin, DocIntel Manager
 
 ## About this task
@@ -28,7 +28,7 @@ In a use case, you define the information you want Now Assist to get from a docu
 
 Once you have defined a use case, users can begin processing documents for it in the related workflows.
 
-For more information on use cases, see [Use cases in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/use-cases-now-assist-document-intelligence.md).
+For more information on use cases, see [Use cases in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/use-cases-now-assist-document-intelligence.md).
 
 ## Procedure
 
@@ -52,11 +52,11 @@ For more information on use cases, see [Use cases in Now Assist in Document Inte
 
         If the files contain multiple languages, select the primary language.
 
-        For more information, see [Languages supported by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/languages-supported-now-assist-document-intelligence.md).
+        For more information, see [Languages supported by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/languages-supported-now-assist-document-intelligence.md).
 
     4.  Select the large language model \(LLM\) that will make predictions for the documents processed with this use case.
 
-        For more information, see [Large language models used by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/llms-now-assist-document-intelligence.md).
+        For more information, see [Large language models used by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/llms-now-assist-document-intelligence.md).
 
     5.  Turn on image mode to process images more efficiently.
 
@@ -98,9 +98,9 @@ For more information on use cases, see [Use cases in Now Assist in Document Inte
 
         The type of form depends on the type of field.
 
-        -   [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-qna-single-field-form.md)
-        -   [Field form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-extraction-single-field-form.md)
-        -   [Table form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-extraction-table-form.md)
+        -   [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/document-qna-single-field-form.md)
+        -   [Field form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/document-extraction-single-field-form.md)
+        -   [Table form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/document-extraction-table-form.md)
         \[Omitted image "docintel-na-de-field-form.png"\] Alt text: Form used to define a piece of information to extract from a document.
 
     4.  Select **Save**.
@@ -165,7 +165,7 @@ Upload from this device
 
     This option is available when a target table is selected for the use case.
 
-    For more information on Document Intelligence integrations, see [Integrate with a custom application or workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/configure-integration-setup.md).
+    For more information on Document Intelligence integrations, see [Integrate with a custom application or workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/configure-integration-setup.md).
 
     1.  Select **Add integration**.
 
@@ -200,7 +200,7 @@ Upload from this device
     3.  Select **Complete setup**.
 
 
-**Parent Topic:**[Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
+**Parent Topic:**[Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
 
 **Related topics**  
 

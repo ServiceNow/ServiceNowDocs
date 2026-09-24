@@ -2,7 +2,7 @@
 title: Enable connecting to meetings from Microsoft Teams
 description: Create the OIDC provider configuration record that enables users to connect to meetings in the Microsoft Teams application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-oauth-oidc-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/create-oauth-oidc-record.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -45,5 +45,5 @@ This step is only required if the upn is different from the email ID.
 6.  Select **Update**.
 
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
 

@@ -2,7 +2,7 @@
 title: Enable Virtual Agent notifications for HR Service Delivery
 description: Configure system properties to enable Virtual Agent notifications in Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/enable-va-notifications-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/enable-va-notifications-hr.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,7 +43,7 @@ After upgrading to [HR Service Delivery for Microsoft 365](https://store.service
 
 ## What to do next
 
-To configure LLM actionable provider notifications, refer to [Configure LLM based provider notifications for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-llm-based-provider-notifications-for-hr.md).
+To configure LLM actionable provider notifications, refer to [Configure LLM based provider notifications for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-llm-based-provider-notifications-for-hr.md).
 
-**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-teams-config-hr.md)
+**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-ms-teams-config-hr.md)
 

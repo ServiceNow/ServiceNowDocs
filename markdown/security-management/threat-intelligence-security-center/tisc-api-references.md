@@ -2,7 +2,7 @@
 title: TISC API References
 description: The following table lists all the available API endpoints provided as part of TISC.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-api-references.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-api-references.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

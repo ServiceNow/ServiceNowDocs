@@ -2,7 +2,7 @@
 title: Add credentials to an image template
 description: When you add credentials to an image template, the credentials are inherited by all VMs that are provisioned using the template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-credential-to-template-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/add-credential-to-template-type.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

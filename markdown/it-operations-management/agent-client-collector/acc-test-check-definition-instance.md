@@ -2,7 +2,7 @@
 title: Test a check definition or check instance
 description: When working with a check definition or check instance, you can test the check against its assigned agent to ensure that the check is configured properly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-test-check-definition-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-test-check-definition-instance.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

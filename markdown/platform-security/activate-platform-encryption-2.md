@@ -2,7 +2,7 @@
 title: Activate Column Level Encryption Enterprise
 description: With subscription to Column Level Encryption Enterprise, an admin can activate the com.glide.now.platform.encryption plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/activate-platform-encryption-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/activate-platform-encryption-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,5 +49,5 @@ Activating the Column Level Encryption Enterprise plugin \(`com.glide.now.platfo
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
 
-**Parent Topic:**[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption-2.md)
+**Parent Topic:**[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-column-level-encryption-2.md)
 

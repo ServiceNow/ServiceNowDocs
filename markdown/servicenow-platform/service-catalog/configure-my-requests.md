@@ -2,7 +2,7 @@
 title: Define filters for My Requests
 description: Define request filters to filter incidents, requests, or tasks under the Self-Service My Requests module in ServiceNow AI Platform, the My Requests widget in Service Portal, and the My Requests applet in the Now Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configure-my-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/configure-my-requests.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -131,7 +131,7 @@ Secondary information displayed for the request.**Note:**
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configuring-service-catalog.md)
+**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/configuring-service-catalog.md)
 
 **Related topics**  
 

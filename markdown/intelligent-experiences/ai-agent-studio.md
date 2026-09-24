@@ -2,7 +2,7 @@
 title: AI Agent Studio overview
 description: Create, manage, or test AI agents and agentic workflows so that you can create self-executing workflows to help you achieve your business goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-agent-studio.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ Create, manage, or test AI agents and agentic workflows so that you can create s
 
 ## AI Agent Studio homepage
 
-With the AI Agent Studio application, you can create, manage, or test AI agents and agentic workflows all in one place. To enable the agentic AI experience, you must first install AI agents. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+With the AI Agent Studio application, you can create, manage, or test AI agents and agentic workflows all in one place. To enable the agentic AI experience, you must first install AI agents. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-ai-agents-plugins.md).
 
 The Overview page has three sections where you can find the information that you must understand, begin, and continue developing AI agents and agentic workflows. When you first go to the AI Agent Studio, tour points are available to guide you through the experience.
 
@@ -43,7 +43,7 @@ The following example shows the AI Agent Studio create and manage page after sev
 
 ## agentic AI activity
 
-The activity page contains execution logs for both agentic workflows and AI agents. The list allows you to filter based on various fields, including the version. For more information on creating multiple versions of the **List of steps** field, see [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/version-control.md).
+The activity page contains execution logs for both agentic workflows and AI agents. The list allows you to filter based on various fields, including the version. For more information on creating multiple versions of the **List of steps** field, see [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/version-control.md).
 
 The following example shows several execution logs in AI Agent Studio.
 
@@ -51,7 +51,7 @@ The following example shows several execution logs in AI Agent Studio.
 
 ## Testing agentic AI
 
-From the AI Agent Studio testing page, you can review the different tests your AI agents and agentic workflows, both manual and automated. You can test the performance of your agentic AI by simulating a single execution manually, or you can use [automated agentic evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md) for testing multiple executions. Single tests are best for evaluating whether the AI agent or agentic workflow does what you expect it to. Agentic evaluations are better at finding underlying patterns and trends that may not be noticeable one execution at a time.
+From the AI Agent Studio testing page, you can review the different tests your AI agents and agentic workflows, both manual and automated. You can test the performance of your agentic AI by simulating a single execution manually, or you can use [automated agentic evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/execute-aia-eval.md) for testing multiple executions. Single tests are best for evaluating whether the AI agent or agentic workflow does what you expect it to. Agentic evaluations are better at finding underlying patterns and trends that may not be noticeable one execution at a time.
 
 **Note:** The testing feature does not support the ServiceNow Otto panel assistance for live agent interactions. To connect to a live agent, use Virtual Agent instead. Otherwise, during live agent chat sessions, requester and agent users may be logged out unexpectedly due to sessions expiring prematurely.
 
@@ -67,9 +67,9 @@ The following example shows the inputs for a Generate Resolution Plan agentic wo
 
 From the AI Agent Studio Settings page, you can enable AI GuardianGuardian for your AI agents. By using AI Guardian, you can configure:
 
--   [Offensiveness detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-aia-na-guardian.md)
--   [Prompt injection attempt decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-aia-na-guardian.md)
--   [Long-term memory for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/long-term-memory-aia.md)
+-   [Offensiveness detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-aia-na-guardian.md)
+-   [Prompt injection attempt decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-aia-na-guardian.md)
+-   [Long-term memory for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/long-term-memory-aia.md)
 
 The following image shows the AI Agent Studio settings.
 

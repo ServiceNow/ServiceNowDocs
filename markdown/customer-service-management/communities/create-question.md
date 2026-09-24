@@ -2,7 +2,7 @@
 title: Ask a question in the community
 description: Ask a question in a forum to get an answer from other community users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-question.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/create-question.html
 release: australia
 product: Communities
 classification: communities
@@ -113,10 +113,10 @@ To attach a file, click **Add attachments** and then drag the file into the **At
     -   Click **Edit** to remove the infected file and upload the attachment again. You cannot add any more attachments until the infected file is removed.
     -   If you are a user whose content is due to be moderated, the content is not posted until approved by a community moderator.
 
-**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/post-respond-content.md)
+**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/post-respond-content.md)
 
 **Related topics**  
 
 
-[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/disable-comments.md)
+[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/disable-comments.md)
 

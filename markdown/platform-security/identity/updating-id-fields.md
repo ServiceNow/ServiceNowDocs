@@ -2,7 +2,7 @@
 title: Updating ID fields
 description: To generate new Federated IDs, you can either use the existing user resolution search criteria or update the criteria before regeneration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/updating-id-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/updating-id-fields.html
 release: australia
 product: Identity
 classification: identity

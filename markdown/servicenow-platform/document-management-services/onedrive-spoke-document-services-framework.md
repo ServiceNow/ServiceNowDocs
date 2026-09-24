@@ -2,7 +2,7 @@
 title: Document Services Framework for Microsoft OneDrive
 description: Integrate the Document Services Framework with Microsoft OneDrive. Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/onedrive-spoke-document-services-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/onedrive-spoke-document-services-framework.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -454,5 +454,5 @@ Integration Hub uses aliases to manage connection and credential information. Us
 
 For information about setting up the spoke, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-msonedrive.md).
 
-**Parent Topic:**[Microsoft OneDrive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/one-drive-integration.md)
+**Parent Topic:**[Microsoft OneDrive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/one-drive-integration.md)
 

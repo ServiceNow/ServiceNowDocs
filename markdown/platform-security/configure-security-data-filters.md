@@ -2,7 +2,7 @@
 title: Create a security data filter
 description: Learn how to create security data filter rules to grant your users' access to records and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-security-data-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configure-security-data-filters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

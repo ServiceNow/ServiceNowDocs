@@ -2,7 +2,7 @@
 title: Create an Operational rounding task plan
 description: Create a new task plan using the Operational rounding playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-create-new-task-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-create-new-task-plan.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: sn\_hco\_orc.loc\_support\_agent or sn\_hco\_orc.plan author
 
 ## What to do next
 
-[Input plan details into the Operational Rounding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-op-plan-details.md)
+[Input plan details into the Operational Rounding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-op-plan-details.md)
 

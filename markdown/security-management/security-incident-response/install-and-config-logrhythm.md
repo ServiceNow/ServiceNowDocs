@@ -2,7 +2,7 @@
 title: Install the plugin and configure LogRhythm
 description: Before you run the integration on your instance, complete the installation and configuration steps so the application properly integrates with Security Operations on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/install-and-config-logrhythm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/install-and-config-logrhythm.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -56,7 +56,7 @@ Obtain a LogRhythm API user name and password and verify that you are using vers
 
 Visit the product website for information on API keys and to create an account: [LogRhythm Enterprise website](https://logrhythm.com/). The user accounts, credentials, and certificates must be configured properly prior to installing the application. The integration requires LogRhythm version 7.8 or later and the LogRhythm REST APIs.
 
- See [Set up the REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/drilldown-api-lr.md).
+ See [Set up the REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/drilldown-api-lr.md).
 
 </td></tr><tr><td>
 
@@ -81,14 +81,14 @@ For the Rome release and later family releases, the Security Incident Response D
 3.  Security Support Common
 4.  Security Support Orchestration
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/activate-entitled-store-app.md).
 
 </td></tr></tbody>
-</table>**Important:** If you have any connectivity issues to the LogRhythm client console, refer to the [Verify connectivity for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-connectivity.md).
+</table>**Important:** If you have any connectivity issues to the LogRhythm client console, refer to the [Verify connectivity for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/verify-connectivity.md).
 
 ## Procedure
 
-1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 2.  Once the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the LogRhythm tile.
 
@@ -162,11 +162,11 @@ Specific MID Server that is set up in your environment. Only the MID Servers tha
 
 ## What to do next
 
-After you successfully complete the validation, the next step is to [Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-alarm-profile-logrhythm.md).
+After you successfully complete the validation, the next step is to [Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-alarm-profile-logrhythm.md).
 
-**Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ovrview-logrhythm.md)
+**Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ovrview-logrhythm.md)
 
-**Previous topic:**[Set up the REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/drilldown-api-lr.md)
+**Previous topic:**[Set up the REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/drilldown-api-lr.md)
 
-**Next topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
+**Next topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

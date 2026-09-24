@@ -2,7 +2,7 @@
 title: Alternatives to domain separation
 description: You can use a separate instance as an alternative to domain separation for your customers. A separate instance allows you the flexibility to meet the requirements for data separation within the groups and departments in an organization with little to no impact on others.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-separation-alternatives.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-domain-separation-alternatives.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ You can time upgrades and releases separately for each instance. However, if you
 
 With a separate instance, you may address data and process separation but your instance owners must maintain and keep up with the extensive customizations that is required for separate instances.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 
@@ -90,7 +90,7 @@ With a separate instance, you may address data and process separation but your i
 
 [Domain separation and the Customer Service Management \(CSM\) plugin]()
 
-[Context and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-context.md)
+[Context and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-context.md)
 
-[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-ds.md)
+[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-sp-reference-arch-ds.md)
 

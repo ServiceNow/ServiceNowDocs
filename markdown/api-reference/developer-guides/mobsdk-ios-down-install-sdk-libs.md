@@ -2,7 +2,7 @@
 title: Download and install the Mobile SDK libraries
 description: Before you are able to create mobile applications that interact with your ServiceNow instance, you must first download and install the ServiceNow Mobile SDK libraries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-down-install-sdk-libs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-ios-down-install-sdk-libs.html
 release: australia
 product: Developer Guides
 classification: developer-guides

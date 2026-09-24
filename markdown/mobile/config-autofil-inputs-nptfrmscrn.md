@@ -2,7 +2,7 @@
 title: Configure auto-fill inputs on input form screens
 description: Streamline form completion on input form screens by configuring auto-filled inputs based on one or more user inputs. Auto-fill inputs are configured by using mobile client scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-autofil-inputs-nptfrmscrn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-autofil-inputs-nptfrmscrn.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Auto-fill inputs are configured by using mobile client scripts that run as a UI rule action in the UI rule of an input form screen. These scripts run in UI rules with an **OnChange** trigger type. For more information about UI rules and UI rule actions, see [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-rules.md).
+Auto-fill inputs are configured by using mobile client scripts that run as a UI rule action in the UI rule of an input form screen. These scripts run in UI rules with an **OnChange** trigger type. For more information about UI rules and UI rule actions, see [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-ui-rules.md).
 
 **Note:**
 

@@ -2,7 +2,7 @@
 title: Shodan Spoke
 description: Manage exploits, alerts, hosts, and others, in Shodan account from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/shodan-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/shodan-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -59,5 +59,5 @@ Integration Hub uses aliases to manage connection and credential information. Us
 
 Two connection and credential alias records are available along with the Shodan spoke.
 
-For information about setting up the spoke, see [Set up the Shodan spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-shodan-spoke.md).
+For information about setting up the spoke, see [Set up the Shodan spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-shodan-spoke.md).
 

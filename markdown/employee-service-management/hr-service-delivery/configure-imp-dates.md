@@ -2,7 +2,7 @@
 title: Configure important dates
 description: Configure important dates, such as employee leaves, employee birthdays, or anniversaries, that you want to display on the Upcoming team events widget in Manager Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-imp-dates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-imp-dates.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -190,7 +190,7 @@ Text that must appear when multiple important date configuration records are dis
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 

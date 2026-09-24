@@ -2,7 +2,7 @@
 title: Add business application lifecycle data using the list view
 description: Create or edit the life cycle of a business application to better manage the business application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-business-application-lifecycle-data-listview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-business-application-lifecycle-data-listview.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,17 +32,17 @@ Role required: sn\_apm.apm\_analyst
 
 5.  On the Application model lifecycle details form, fill in the fields.
 
-    For a description of the field values, see [Application model life-cycle details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-application-model-lifecycle-details-form.md).
+    For a description of the field values, see [Application model life-cycle details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-application-model-lifecycle-details-form.md).
 
 6.  Select **Create**.
 
 
-**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-app-rat-list-view.md)
+**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-using-app-rat-list-view.md)
 
 **Related topics**  
 
 
-[Edit business application details in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-business-application-details.md)
+[Edit business application details in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-edit-business-application-details.md)
 
-[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-into-ba.md)
+[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/generate-insights-into-ba.md)
 

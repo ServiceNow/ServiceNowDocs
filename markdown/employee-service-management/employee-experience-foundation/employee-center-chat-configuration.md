@@ -2,7 +2,7 @@
 title: Employee live chat overview
 description: As an employee, you can chat directly and in real time with support agents through the Employee Center. When you initiate a chat and select a conversation topic, you are routed to the appropriate chat queue and connected to a support agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-center-chat-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-center-chat-configuration.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

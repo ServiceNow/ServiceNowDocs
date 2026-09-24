@@ -2,7 +2,7 @@
 title: Create a work order from a change request in the CRM Workspace
 description: Create a work order directly from the change request using the CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/create-wo-from-chng-config-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-integrations/create-wo-from-chng-config-wrkspc.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations

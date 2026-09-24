@@ -2,7 +2,7 @@
 title: Offboard suppliers using the supplier offboarding playbook
 description: Supplier owners and supplier managers can use the supplier offboarding playbook to complete the tasks and activities that are needed to offboard suppliers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/offboard-suppliers-using-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/offboard-suppliers-using-playbook.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -296,10 +296,10 @@ Update primary contacts active to false
 This activity deactivates all the contacts of the offboarded supplier. That is, the **Active** check box is deselected and the **Locked out** check box is selected for the contacts in the Vendor Contact \[vm\_vdr\_contact\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Offboard a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/offboard-supplier.md)
+</table>**Parent Topic:**[Offboard a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/offboard-supplier.md)
 
 **Related topics**  
 
 
-[Offboard a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/offboard-supplier.md)
+[Offboard a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/offboard-supplier.md)
 

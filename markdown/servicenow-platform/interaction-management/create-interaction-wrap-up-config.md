@@ -2,7 +2,7 @@
 title: Create an interaction wrap-up configuration
 description: Create a configuration for each type of interaction that uses the interaction wrap up feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/create-interaction-wrap-up-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/interaction-management/create-interaction-wrap-up-config.html
 release: australia
 product: Interaction Management
 classification: interaction-management
@@ -186,5 +186,5 @@ Enable this check box to use the AI-recommended code as the default code in plac
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
+**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
 

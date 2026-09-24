@@ -2,7 +2,7 @@
 title: Example 3: Insert a record in an external source
 description: In this example, we create a script to insert an incident record into the external source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/remote-tables/remote-table-script-def-example3.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/remote-tables/remote-table-script-def-example3.html
 release: australia
 product: Remote Tables
 classification: remote-tables
@@ -36,5 +36,5 @@ For Remote Table API information, refer to:
 })(v_record);
 ```
 
-**Parent Topic:**[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)
+**Parent Topic:**[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/remote-tables/create-remote-table-script.md)
 

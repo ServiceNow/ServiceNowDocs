@@ -2,7 +2,7 @@
 title: Integrating Virtual Agent with Workflow Studio workflows
 description: The workflows of ServiceNow Workflow Studio can be integrated within ServiceNow Virtual Agent topics. You can then use these workflows in Virtual Agent conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-flow-designer-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-flow-designer-integration.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -30,7 +30,7 @@ If an action in the workflow is slow to respond or appears to be waiting, topic 
 
 By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
 
-You can change this interval as needed. To change the interval, see [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md).
+You can change this interval as needed. To change the interval, see [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md).
 
 ## Integrate workflows of third-party products available on the Integration Hub
 
@@ -40,16 +40,16 @@ For example, you can use one of the 100 prebuilt spokes available on the [Servic
 
 For more information about the ServiceNow Integration Hub, see [ServiceNow IntegrationHub – natively integrate ServiceNow with anything](https://www.youtube.com/watch?v=YGlGwGBNEfY).
 
--   **[Add actions or subflows to Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-flow-designer-va-properties.md)**  
+-   **[Add actions or subflows to Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/setup-flow-designer-va-properties.md)**  
 Use the Action utility to integrate ServiceNow Workflow Studio workflows in Virtual Agent topics. The Action utility node triggers the required Workflow Studio workflows used in the Virtual Agent conversation.
--   **[Virtual Agent secure password inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-secure-inputs.md)**  
+-   **[Virtual Agent secure password inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-secure-inputs.md)**  
 The **Include a password input** toggle switch on the Action utility properties sheet lets you enter passwords securely for use in Virtual Agent conversations.
--   **[Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md)**  
+-   **[Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md)**  
 Adhere to the following scoped application requirements to implement secure \(password2\) inputs in your Virtual Agent topics.
--   **[Test the Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-flow-designer-va-integration.md)**  
+-   **[Test the Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/test-flow-designer-va-integration.md)**  
 Test the Action utility to make sure that the integrated action works as intended in the conversation.
--   **[Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md)**  
+-   **[Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md)**  
 Set the length of time before the Workflow Studio Integration Hub action workflow times out.
 
-**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
+**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
 

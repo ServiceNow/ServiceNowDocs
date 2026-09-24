@@ -2,7 +2,7 @@
 title: Manual breakdowns
 description: In a manual breakdown, you define the breakdown elements and the indicator scores for each element manually instead of using records from a breakdown source.Create a breakdown for an indicator where you add scores manually.Associate a manual indicator with a manual breakdown to enable users to enter broken-down scores for the indicator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/manual-breakdowns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/manual-breakdowns.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -18,12 +18,12 @@ In a manual breakdown, you define the breakdown elements and the indicator score
 
 Unlike an automated breakdown, a manual breakdown does not map to any fields on the indicator source table. Instead, users must populate the broken-down scores manually.
 
-**Parent Topic:**[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
+**Parent Topic:**[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
 
 **Related topics**  
 
 
-[Add or edit indicator scores manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ManuallyAddingScoresForIndicators.md)
+[Add or edit indicator scores manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_ManuallyAddingScoresForIndicators.md)
 
 ## Create a manual breakdown
 

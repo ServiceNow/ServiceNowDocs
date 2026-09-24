@@ -2,12 +2,12 @@
 title: Build Agent checkpoints and conversation change log
 description: The conversation change log tracks every change Build Agent makes to your application. It appears automatically in an integrated tab in ServiceNow Studio and lets you view updates, roll back to a previous checkpoint, and deploy changes to an update set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ba-conversational-change-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-conversational-change-log.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-25"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -23,7 +23,7 @@ Use the conversation change log to do the following actions:
 -   Roll back changes to the previous checkpoint
 -   Approve and deploy changes to an update set
 
-When viewing the conversation change log, you can also view update sets created by Build Agent from within the chat panel. Each checkpoint includes a button that opens the relevant update set in a new tab. For information on how the change log and checkpoints work with update sets, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-update-sets.md).
+When viewing the conversation change log, you can also view update sets created by Build Agent from within the chat panel. Each checkpoint includes a button that opens the relevant update set in a new tab. For information on how the change log and checkpoints work with update sets, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-update-sets.md).
 
 The change log displays the following:
 
@@ -32,7 +32,7 @@ The change log displays the following:
 -   The overview section shows the plan and actions Build Agent took based on the conversation.
 -   The action in the corner menu to pen the chat, **Restore** your app to a previous checkpoint, or open the app details page.
 
-Changes from each checkpoint in the conversation are packaged together into an update set. You can find each update set on the **Deployment** tab on the ServiceNow Studio home page. For more information on deployment, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-deployment.md).
+Changes from each checkpoint in the conversation are packaged together into an update set. You can find each update set on the **Deployment** tab on the ServiceNow Studio home page. For more information on deployment, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-deployment.md).
 
 ## Checkpoints
 
@@ -42,11 +42,11 @@ Checkpoints are groups of changes that you made to an application that you can r
 
 -   Checkpoint 0 creates an update set in global scope, and subsequent checkpoints created update sets in your application scope. However, update sets that exist across different scopes and can't be merged.
 -   Checkpoint 0 doesn't create an update set. Instead, it serves as a placeholder in the UI that you can use to restore your application to its initial state.
--   Checkpoint 1 is the base update set for your application. The checkpoint 1 update set is the parent, or chain root, for all subsequent update sets created during the conversation. Because all update sets exist in the same application scope, you can merge them together when you're ready to move your changes to another environment. For information on update sets, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-update-sets.md).
+-   Checkpoint 1 is the base update set for your application. The checkpoint 1 update set is the parent, or chain root, for all subsequent update sets created during the conversation. Because all update sets exist in the same application scope, you can merge them together when you're ready to move your changes to another environment. For information on update sets, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-update-sets.md).
 
 \[Omitted image "ba-checkpoints.png"\] Alt text: Checkpoints panel with Checkpoint 5 expanded, listing six updated test step files and Restore and Review buttons.
 
 When Build Agent prepares to create the next checkpoint, it checks whether any changes exist in the manual edit update set. If no changes are present, Build Agent removes the update set. If changes exist, Build Agent completes the update set and renders it with the other update sets from your conversation. You can access manual edit update sets directly from the checkpoints panel in your Build Agent conversation.
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-build-agent.md)
 

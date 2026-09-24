@@ -2,7 +2,7 @@
 title: Review the bot processes
 description: Review a list of available bot processes in Automation Center, so that you can make sure that they are on track.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/view-base-bot-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/view-base-bot-process.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -20,7 +20,7 @@ Review a list of available bot processes in Automation Center, so that you can m
 
 Roles required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_user, or sn\_ac.automation\_admin.
 
-In addition to the Automation Center roles, you will also need the Robotic Process Automation \(RPA\) roles. For more information on RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-rpa-hub.md).
+In addition to the Automation Center roles, you will also need the Robotic Process Automation \(RPA\) roles. For more information on RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/installed-with-rpa-hub.md).
 
 ## About this task
 
@@ -41,5 +41,5 @@ You can't create a bot process.
 5.  Review the information on the bot process page.
 
 
-**Parent Topic:**[Execute and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/execute-and-monitor.md)
+**Parent Topic:**[Execute and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/execute-and-monitor.md)
 

@@ -2,7 +2,7 @@
 title: View task plan template executions
 description: View tracking and diagnostic information for every execution of task plan templates in the Task Plan Template Executions table. The information available includes success, failure, and skipped details, along with references for traceability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-task-plan-template-exec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-task-plan-template-exec.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

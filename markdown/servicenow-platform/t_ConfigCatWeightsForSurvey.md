@@ -2,7 +2,7 @@
 title: Configure category weights for a survey
 description: You can assign a weight to each category in a survey. The system calculates results from the weight that you configure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ConfigCatWeightsForSurvey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ConfigCatWeightsForSurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Weights are set to a value of **10** by default but can be changed.
 4.  Click **Update**.
 
 
-**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDesigner.md)
 
 **Related topics**  
 

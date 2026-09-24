@@ -2,7 +2,7 @@
 title: Set up Visa Spoke
 description: Activate the Visa spoke in IntegrationHub from the ServiceNow Store, and enable the quick access to payment and security data. You can use the spoke to search for transactions, collaborate with merchants, manage disputes and perform other functions with enhanced security
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/activate-visa-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/activate-visa-spoke.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ Role required: admin
     For more information on how to update the connection configuration, see [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/visa-spoke.md).
 
 
-**Parent Topic:**[Configuring Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-financial-services-operations-integration-with-visa.md)
+**Parent Topic:**[Configuring Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-financial-services-operations-integration-with-visa.md)
 

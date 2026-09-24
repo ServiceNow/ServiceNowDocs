@@ -2,7 +2,7 @@
 title: Quick actions
 description: Define quick actions for your launcher screen so that your users can access commonly used functions, such as transferring records or using a template in the mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-config-quick-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-config-quick-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -125,7 +125,7 @@ Icon
 
 </td><td>
 
-Icon that displays for the quick action. Select **Choose** to use an existing icon or select **New** to add one. For more information about creating an icon, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
+Icon that displays for the quick action. Select **Choose** to use an existing icon or select **New** to add one. For more information about creating an icon, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-icon.md).
 
 </td></tr></tbody>
 </table>7.  In the **Function placement** section, for **Button emphasis color**, select the emphasis color for the button from the following options.
@@ -136,11 +136,11 @@ Icon that displays for the quick action. Select **Choose** to use an existing ic
     |Primary|The emphasis color is the color that is set as the primary color in the mobile theme that you are using.|
     |Destructive|The emphasis color is the color that is set as the destructive color in the mobile theme that you are using.|
 
-    **Note:** For more information about mobile themes, see [Mobile theme color guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-theme-colors.md). If you have enabled Next Experience theming for mobile, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
+    **Note:** For more information about mobile themes, see [Mobile theme color guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-theme-colors.md). If you have enabled Next Experience theming for mobile, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/explore-ne-theming.md).
 
 8.  In the **Function** section, select **Choose** to use an existing function or select **New** to create one.
 
-    For information about creating a new function, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
+    For information about creating a new function, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-mobile-button-types.md).
 
 9.  Select **Save**.
 

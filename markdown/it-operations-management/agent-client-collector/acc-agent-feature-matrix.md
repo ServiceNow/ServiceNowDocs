@@ -2,7 +2,7 @@
 title: View the Agent feature matrix
 description: The Agent Client Collector Agent feature matrix displays the availability of Agent Client Collector features. The matrix displays data in a graph and a table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-agent-feature-matrix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-agent-feature-matrix.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

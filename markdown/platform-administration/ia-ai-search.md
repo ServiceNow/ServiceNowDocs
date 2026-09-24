@@ -2,7 +2,7 @@
 title: AI Search
 description: Configure and maintain the AI-Search engine to experience a modern search experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-ai-search.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-25"
@@ -22,7 +22,7 @@ Connect your external data sources with ServiceNow to enhance self-service capab
 
 \[Omitted image "ia-external-sources.png"\] Alt text: Screenshot showing external sources
 
-See [Webcrawler external content connector predefined web sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/predefined-websources-webcrawler-ext-cont-connector.md) for more information.
+See [Webcrawler external content connector predefined web sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/predefined-websources-webcrawler-ext-cont-connector.md) for more information.
 
 ## ServiceNow sources
 
@@ -30,9 +30,9 @@ Enable employees to resolve issues themselves by searching internal sources.
 
 \[Omitted image "ia-sources-sn.png"\] Alt text: Screenshot showing SN sources
 
-See [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-mspo.md) for more information.
+See [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-mspo.md) for more information.
 
-See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) for more information.
+See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/overview-ais.md) for more information.
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
 

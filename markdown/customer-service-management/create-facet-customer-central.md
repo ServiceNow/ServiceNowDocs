@@ -2,7 +2,7 @@
 title: Create facets for activity contexts
 description: Create facets to group the data and enable customer service agents to filter and display the data they want to see in the activity feed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-facet-customer-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-facet-customer-central.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

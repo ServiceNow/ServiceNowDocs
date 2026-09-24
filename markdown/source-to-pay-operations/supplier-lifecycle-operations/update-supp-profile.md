@@ -2,7 +2,7 @@
 title: Update company profile using the supplier catalog
 description: Update the company profile when the details about your company change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -36,7 +36,7 @@ Role required: sn\_slm.contact
     -   In the portal header, select **My Company**, and then select **Request Change** on the Company Profile page.
 4.  On the Update profile details form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Fields in the Update profile details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile-form.md).
+    For more information about the form fields and descriptions, see [Fields in the Update profile details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile-form.md).
 
 5.  Select **Submit**.
 
@@ -47,7 +47,7 @@ The application creates a case and assigns it to the supplier manager for review
 
 After the Supplier Manager approves the case, the company profile details are updated in the supplier record.
 
-**Parent Topic:**[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
+**Parent Topic:**[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 
 **Related topics**  
 
@@ -74,5 +74,5 @@ After the Supplier Manager approves the case, the company profile details are up
 
 [Request something else using the supplier catalog]()
 
-[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 

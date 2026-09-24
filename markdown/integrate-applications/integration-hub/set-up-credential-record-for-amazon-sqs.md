@@ -2,7 +2,7 @@
 title: Set up credential record for Amazon SQS
 description: Create a credential record on your ServiceNow instance for accessing the Amazon AWS.Specify whether record is for a host, instance, server, custom application, or account
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-credential-record-for-amazon-sqs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-credential-record-for-amazon-sqs.html
 release: australia
 product: Integration Hub
 classification: integration-hub

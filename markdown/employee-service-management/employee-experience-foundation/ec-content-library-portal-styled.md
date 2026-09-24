@@ -2,7 +2,7 @@
 title: Create customized media with styled content
 description: Create banners, block/announcements, or videos using the styled content type to customize settings such as text color, text alignment, links, background colors, and images on Employee Center Pro.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ Create banners, block/announcements, or videos using the styled content type to 
 
 Role required: sn\_cd.content\_manager
 
-If you are creating video content, you must first upload the video: [Add or modify links to other content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
+If you are creating video content, you must first upload the video: [Add or modify links to other content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
 
 ## About this task
 
@@ -362,7 +362,7 @@ Allows you to edit your background image within the Content Library module.This 
     -   You can also specify the angle you want your image rotated.
 -   Preview \[Omitted image "ec-preview-icon.png"\] Alt text: Preview icon
     -   Select to display a preview of your edited image.
-    -   Enter location information similar to when you publish your content. This allows you to view your image where you want it to appear. For information on the fields, see [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
+    -   Enter location information similar to when you publish your content. This allows you to view your image where you want it to appear. For information on the fields, see [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 -   Cancel and Save\[Omitted image "ec-cancel-crop-buttons.png"\] Alt text: Cancel and save buttons
     -   Select **Cancel** to exit editing your image and not save your changes.
     -   Select **Save** to save the edits you made to your image. You can select **Crop and continue** to continue editing.
@@ -414,15 +414,15 @@ Indicates that you want the text to include color gradient to make your text eas
 
 -   \(Optional\) Translate your content.
 
-    Request language translation for your content. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-switch-language.md).
+    Request language translation for your content. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 
     **Note:** Only translate content after you are done modifying the content. For best results, we do not recommend that you add or remove components or change the formatting after translation.
 
-    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md)
+    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-audience.md)
 
 -   Preview your content from the **Publish** tab.
 
     **Note:** Content Preview is designed to provide a general idea of how your content looks. Content may look different once published due to variations in device resolution, theme difference, or mobile app style configuration.
 
--   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
+-   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 

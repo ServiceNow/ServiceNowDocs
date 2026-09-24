@@ -2,7 +2,7 @@
 title: Control CI attribute updates using Reconciliation rules
 description: To prevent specific attributes of a configuration item \(CI\) from being overwritten by Discovery or other data sources, use Reconciliation Rules. These rules define which data source is trusted to update a particular attribute when multiple sources provide values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/control-ci-attribute-updates-using-reconciliation-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/control-ci-attribute-updates-using-reconciliation-rules.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -50,5 +50,5 @@ Certain CI attributes will no longer be updated by untrusted or lower-priority d
 **Related topics**  
 
 
-[Configure attribute value discrepancy in CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-attribute-value-discrepancy-in-cmdb-360.md)
+[Configure attribute value discrepancy in CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-attribute-value-discrepancy-in-cmdb-360.md)
 

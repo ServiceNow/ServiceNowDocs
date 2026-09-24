@@ -2,7 +2,7 @@
 title: Manage a task that has an SLA
 description: How to access and manage tasks with SLAs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_ManageATaskWithASLA.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_ManageATaskWithASLA.html
 release: australia
 product: Work Order Management
 classification: work-order-management

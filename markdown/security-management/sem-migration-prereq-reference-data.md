@@ -2,7 +2,7 @@
 title: Migration upgrade reference information
 description: Lists and tables of scheduled jobs, table deprecations, and new columns added to existing tables for migration to Security Exposure Management Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-migration-prereq-reference-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-migration-prereq-reference-data.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -433,5 +433,5 @@ Container Remediation Task \[sn\_vul\_container\_vulnerability\] table.
 -   ignore\_expiration\_for\_risk\_reduction\_dt\_tm
 -   ignore\_expiration\_dt\_tm
 
-**Parent Topic:**[Unified Security Exposure Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/unified-security-exposure-management-reference.md)
+**Parent Topic:**[Unified Security Exposure Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/unified-security-exposure-management-reference.md)
 

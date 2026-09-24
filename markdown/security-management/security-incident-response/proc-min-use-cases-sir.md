@@ -2,7 +2,7 @@
 title: Process Mining use cases for security incidents
 description: The following Process Mining use cases provide various analysis methods that you can use to identify inefficiencies during the resolution of your security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/proc-min-use-cases-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/proc-min-use-cases-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

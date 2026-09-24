@@ -2,7 +2,7 @@
 title: Using Retail Strategic Portfolio Management Suite
 description: ServiceNow Retail Strategic Portfolio Management Suite \(SPM Retail\) is a retail-focused extension to the Strategic Portfolio Management's workspace facilitating customers to manage the retail stores.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/use-spm-retail-suite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/use-spm-retail-suite.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-11"
@@ -21,15 +21,15 @@ To set up and manage retail projects in Retail Strategic Portfolio Management Su
 
 \[Omitted image "use-spm-retail-suite-workflow-light-brand.svg"\] Alt text: Workflow for using Retail Strategic Portfolio Management Suite: create a retail project from a template, enter key dates, work through the playbook stages, and submit each stage for approval.
 
-1.  [Create a retail project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spmr-create-retail-projects.md)
+1.  [Create a retail project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/spmr-create-retail-projects.md)
 
     Create a retail project from a template that matches the store work, such as a new store opening, relocation, refurbishment, technology refresh, or closure.
 
-2.  [Enter project type fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spmr-project-type-fields.md)
+2.  [Enter project type fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/spmr-project-type-fields.md)
 
     Capture the key project dates such as site approval, construction start, IT installation, and store go-live — to categorize and track the project.
 
-3.  [Use playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/use-playbooks-spm-retail.md)
+3.  [Use playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/use-playbooks-spm-retail.md)
 
     Work through the stage-gate playbook assigned to the project, completing activities and submitting each stage for approval before moving to the next.
 

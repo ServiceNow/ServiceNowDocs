@@ -2,7 +2,7 @@
 title: Scenarios for tracking store plans
 description: Tracking can support several operational goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-scenarios-tracking-store-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-scenarios-tracking-store-plans.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-15"
@@ -26,5 +26,5 @@ Regional Manager:
 
 HQ Manager and Regional Manager: **Recurring operational plans** - For plans scheduled on a recurring basis such as weekly stock counts, monthly safety checks. Both HQ and regional managers use the Track Plan view to monitor the current cycle's execution state and compare completion rates across cycles over time.
 
-**Parent Topic:**[Retail store plans tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-explore-store-plans-tracking.md)
+**Parent Topic:**[Retail store plans tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-explore-store-plans-tracking.md)
 

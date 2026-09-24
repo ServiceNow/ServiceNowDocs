@@ -2,7 +2,7 @@
 title: Install the ServiceNow Fluent Language server in Visual Studio Code
 description: Get language processing and validation for ServiceNow Fluent in Visual Studio Code with the ServiceNow Fluent Language server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/install-fluent-language-extension-vs-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-sdk/install-fluent-language-extension-vs-code.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -35,9 +35,9 @@ The ServiceNow Fluent Language server provides code completion features and vali
 
 ## What to do next
 
-To use ServiceNow Fluent in applications with the ServiceNow SDK, see [Define application metadata in code with ServiceNow Fluent and the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/define-metadata-code-fluent-sdk.md).
+To use ServiceNow Fluent in applications with the ServiceNow SDK, see [Define application metadata in code with ServiceNow Fluent and the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/define-metadata-code-fluent-sdk.md).
 
-**Parent Topic:**[Configuring the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/configuring-servicenow-sdk.md)
+**Parent Topic:**[Configuring the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/configuring-servicenow-sdk.md)
 
 **Related topics**  
 
@@ -46,5 +46,5 @@ To use ServiceNow Fluent in applications with the ServiceNow SDK, see [Define ap
 
 [Upgrade the ServiceNow SDK]()
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md)
 

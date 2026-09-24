@@ -2,7 +2,7 @@
 title: Translate a client script message
 description: Translate the messages used by client scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_TranslateAClientScriptMessage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/t\_TranslateAClientScriptMessage.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -52,6 +52,6 @@ For example, if you add the string `Please populate the Reason` field to the Mes
 
 4.  Select **Submit**.
 
-    A new record is added to the Message `[sys_ui_message]` table for the localized message key string. For more information about this table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md).
+    A new record is added to the Message `[sys_ui_message]` table for the localized message key string. For more information about this table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/r_MessageTable.md).
 
 

@@ -2,7 +2,7 @@
 title: Set up your Virtual Agent bot's branding
 description: Create different Virtual Agent branding configurations for the various organizations that use your instance. These configurations apply to the web-based chat and mobile clients only.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ac-configure-chat-branding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/ac-configure-chat-branding.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -19,11 +19,11 @@ Create different Virtual Agent branding configurations for the various organizat
 
 ## Before you begin
 
-If you're using ServiceNow® mobile, make sure you set up Virtual Agent for mobile chat. For details, see [Configure Virtual Agent for a ServiceNow mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.md).
+If you're using ServiceNow® mobile, make sure you set up Virtual Agent for mobile chat. For details, see [Configure Virtual Agent for a ServiceNow mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.md).
 
 Check for updates and improvements to the Omni-Experience Standard Feature Set application on the ServiceNow Store.
 
-**Note:** Branding for bots in the Conversational Integration with Microsoft Teams is available through the Microsoft Teams app customization feature. For details, see [MS Teams branding for the conversational integration](https://community.servicenow.com/community?id=community_article&sys_id=3b4f487edbe17490904fa9fb1396195b) in Now Community. Branding for bots in Slack is available as well. For details, see [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/slack-branding-overview.md).
+**Note:** Branding for bots in the Conversational Integration with Microsoft Teams is available through the Microsoft Teams app customization feature. For details, see [MS Teams branding for the conversational integration](https://community.servicenow.com/community?id=community_article&sys_id=3b4f487edbe17490904fa9fb1396195b) in Now Community. Branding for bots in Slack is available as well. For details, see [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/slack-branding-overview.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -142,9 +142,9 @@ Select this option to display notifications for new messages below or above your
 
     From here, you can adjust the color, icons, and font type and size of the chat client to match your brand. For example, you can:
 
-    -   [Change the color of items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-chat-branding.md)
-    -   [Customize the icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-chat-branding.md)
-    -   [Customize the fonts used in the chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-chat-branding.md)
+    -   [Change the color of items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-chat-branding.md)
+    -   [Customize the icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-chat-branding.md)
+    -   [Customize the fonts used in the chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-chat-branding.md)
 6.  To change the color of items in the chat window, select the **Colors** tab.
 
     \[Omitted image "chat-branding-colors-tab.png"\] Alt text: Chat branding colors tab showing chat window and chat messages colors.
@@ -199,7 +199,7 @@ Select this option to display notifications for new messages below or above your
 
 8.  Customize the font type and font size.
 
-    The available branding configurations \(for example, Coral Light\) are located [here.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-chat-branding.md)
+    The available branding configurations \(for example, Coral Light\) are located [here.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-chat-branding.md)
 
     **Note:** This feature is only available after you've installed and updated the Omni-Experience Standard Feature Set to the latest version through the ServiceNow® Store.
 
@@ -358,7 +358,7 @@ Global.
 
 11. Do one of the following to apply the branding configuration:
 
-    -   Apply the branding configuration to a Service Portal Agent Chat Configuration. In the server script that passes page and widget data to an Agent Chat \(Virtual Agent or Live Agent\) conversation, specify the branding key to be used. Items passed in this script are available to all pages in the portal. For details on setting up Service Portal Agent Chat, see [Add your bot to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-bot-portal.md).
+    -   Apply the branding configuration to a Service Portal Agent Chat Configuration. In the server script that passes page and widget data to an Agent Chat \(Virtual Agent or Live Agent\) conversation, specify the branding key to be used. Items passed in this script are available to all pages in the portal. For details on setting up Service Portal Agent Chat, see [Add your bot to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-bot-portal.md).
 
         For example, the following Service Portal Agent Chat Configuration for the Knowledge Portal uses the chat branding key `custom_1`.
 
@@ -378,7 +378,7 @@ Global.
 
         In this example, `acme` is the key of the branding configuration to be used.
 
-12. If you're using [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md) with your branded bot, specify the branded bot name displayed in the chat window during Autopilot sessions by changing system properties as follows.
+12. If you're using [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-agent-chat-using.md) with your branded bot, specify the branded bot name displayed in the chat window during Autopilot sessions by changing system properties as follows.
 
     1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
 
@@ -393,5 +393,5 @@ Global.
         \[Omitted image "autopilot-msg-chat-window.png"\] Alt text: Message displayed in the chat window informing the user that the Agent has enabled Virtual Agent to help complete the task.
 
 
-**Parent Topic:**[Branding your chat client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/branding-chat-client.md)
+**Parent Topic:**[Branding your chat client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/branding-chat-client.md)
 

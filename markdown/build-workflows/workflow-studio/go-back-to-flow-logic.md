@@ -2,7 +2,7 @@
 title: Go back to flow logic
 description: Return to a prior step in the flow to repeat a sequence of actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/go-back-to-flow-logic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/go-back-to-flow-logic.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -82,7 +82,7 @@ Use these general guidelines when adding Go back to flow logic.
     After you add Go back to flow logic, you can't move it to another location. You can only delete it from its current location and then add it to another valid location.
 
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

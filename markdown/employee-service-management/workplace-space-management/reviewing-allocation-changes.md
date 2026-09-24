@@ -2,7 +2,7 @@
 title: Reviewing allocation changes
 description: Review allocation changes in the Space Allocation Type Change Tracker table to plan changes for your scenarios.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/reviewing-allocation-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/reviewing-allocation-changes.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -114,7 +114,7 @@ Previous parent
 Previous parent of the workplace entity.This field is applicable for workplace entities and filled only if the type of change is **Reparent**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+</table>**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

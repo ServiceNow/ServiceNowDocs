@@ -2,7 +2,7 @@
 title: Create an exception questionnaire
 description: When you are setting up the Policy Exception Integration Registry, you can define configurable questions that can be included in risk assessments created from templates. The Policy Exception Integration Registry can be associated with one template at a time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-except-quest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/create-except-quest.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -46,8 +46,8 @@ Role required: sn\_compliance.attestation\_creator
 
 5.  Click **Attestation Designer** to create the questionnaire.
 
-    For more information, see [Attestation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
+    For more information, see [Attestation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
 
 
-**Parent Topic:**[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
+**Parent Topic:**[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
 

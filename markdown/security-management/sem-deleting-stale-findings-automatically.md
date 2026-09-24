@@ -2,7 +2,7 @@
 title: Deleting stale findings automatically using auto-delete rules
 description: Auto-delete rules automatically remove findings from the system based on predefined criteria. These rules help manage the life-cycle of vulnerabilities by ensuring that resolved or outdated findings are removed, reducing clutter and maintaining a clean, up-to-date database. This automation streamlines the vulnerability management process and ensures that teams focus on current and relevant issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-deleting-stale-findings-automatically.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-deleting-stale-findings-automatically.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,10 +18,10 @@ Over time, a significant number of closed records can accumulate in the Findings
 
 By default, auto-delete rules target records that have been closed for 365 days. However, the first run might attempt to purge too many records in a single transaction, which can be problematic in larger environments. To avoid this issue, you may stagger the deletion process. For example, you could start by deleting records that are older than 450 days. Once that run is complete, you can gradually work your way down in smaller increments. For example, delete records older than 425, 400, 375 days until you have reduced the number of records older than 365 days.
 
-**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-automating-prioritization-triaging.md)
+**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-automating-prioritization-triaging.md)
 
 **Related topics**  
 
 
-[Configuring auto-delete rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-auto-delete-rules.md)
+[Configuring auto-delete rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-auto-delete-rules.md)
 

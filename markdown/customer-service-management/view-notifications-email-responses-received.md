@@ -2,7 +2,7 @@
 title: View notifications on email response
 description: View notifications on email responses that are received from the customer in the ongoing email conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-notifications-email-responses-received.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-notifications-email-responses-received.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

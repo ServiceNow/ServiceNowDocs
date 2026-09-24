@@ -2,7 +2,7 @@
 title: Manage the schema and connections in the tokenizer service
 description: You can modify the schema and connection properties in our tokenizer service. Manage the vault columns and properties, and customize the data sent and received from the Third-Party System, such as additional routes and field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/manage-outbound-connections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/manage-outbound-connections.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -19,5 +19,5 @@ You can modify the schema and connection properties in our tokenizer service. Ma
 
 For more details, refer to [Initial setup for Vault schema, Connections and Service Account for Card data security \(KB2830577\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577).
 
-**Parent Topic:**[Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-card-data-security.md)
+**Parent Topic:**[Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/managing-card-data-security.md)
 

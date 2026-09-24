@@ -2,7 +2,7 @@
 title: Create a Microsoft 365 integration profile
 description: Create an integration profile to track software subscriptions and optimize stale licenses for the Microsoft 365 service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/set-up-microsoft-office-365.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/set-up-microsoft-office-365.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -25,7 +25,7 @@ To integrate with Microsoft 365, activate the following plugins:
 -   Software Asset Management Professional for Microsoft \(com.snc.samp.microsoft\) plugin
 -   Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) plugin from the [ServiceNow Store](https://store.servicenow.com/)
 
-    For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
+    For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 
 ## About this task
@@ -91,7 +91,7 @@ Client Id
 
 </td><td>
 
-Client ID of the application that you registered in the Microsoft Azure portal. Enter the application \(client\) ID that you copied in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/register-microsoft-app.md).
+Client ID of the application that you registered in the Microsoft Azure portal. Enter the application \(client\) ID that you copied in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/register-microsoft-app.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Client secret
 
 </td><td>
 
-Client secret of the application that you registered in the Microsoft Azure portal. Enter the client secret that you copied in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/register-microsoft-app.md).
+Client secret of the application that you registered in the Microsoft Azure portal. Enter the client secret that you copied in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/register-microsoft-app.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Tenant name or Id
 
 </td><td>
 
-Globally unique identifier \(GUID\) of the application that you registered in the Microsoft Azure portal. Enter the directory \(tenant\) ID that you copied in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/register-microsoft-app.md).**Warning:** When entering the directory \(tenant\) ID, don’t add any additional extensions to the ID. Enter the ID exactly as it was copied in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/register-microsoft-app.md).
+Globally unique identifier \(GUID\) of the application that you registered in the Microsoft Azure portal. Enter the directory \(tenant\) ID that you copied in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/register-microsoft-app.md).**Warning:** When entering the directory \(tenant\) ID, don’t add any additional extensions to the ID. Enter the ID exactly as it was copied in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/register-microsoft-app.md).
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ The type of permission for the integration profile to access data correctly and 
 </td></tr></tbody>
 </table>5.  In the Process configuration section, view the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information about the required roles and scopes, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/integrate-with-microsoft.md) table.
+    **Note:** For more information about the required roles and scopes, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/integrate-with-microsoft.md) table.
 
     -   The **Download subscriptions** check box is selected by default and you can't clear it.
     -   The **Download Activity** check box is selected by default. If you clear it, activity data for this integration profile isn't pulled.
@@ -171,18 +171,18 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-When you create an integration profile, a reclamation rule is automatically created for the software. It's important that you review the reclamation rule to ensure that it meets your specifications. You can view all automatically generated reclamation rules for Office 365 by navigating to **Software Asset** &gt; **Administration** &gt; **Reclamation Rules**. Reclamation rules are applied based on the Microsoft System Center Configuration Management \(SCCM\) usage data that is pulled through the Microsoft SCCM usage integration. For more information on these reclamation rules, see [Create a reclamation rule to import Microsoft SCCM usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-reclamation-rule-sccm.md).
+When you create an integration profile, a reclamation rule is automatically created for the software. It's important that you review the reclamation rule to ensure that it meets your specifications. You can view all automatically generated reclamation rules for Office 365 by navigating to **Software Asset** &gt; **Administration** &gt; **Reclamation Rules**. Reclamation rules are applied based on the Microsoft System Center Configuration Management \(SCCM\) usage data that is pulled through the Microsoft SCCM usage integration. For more information on these reclamation rules, see [Create a reclamation rule to import Microsoft SCCM usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-reclamation-rule-sccm.md).
 
 **Note:** ServiceNow automatically creates one default reclamation rule for Office 365. You can also update the Last activity threshold field under the Subscription Usage Condition tab.
 
 **Related topics**  
 
 
-[Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/add-reclamation-rule-sub.md)
+[Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/add-reclamation-rule-sub.md)
 
-[Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/m365-reclamation-rules.md)
+[Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/m365-reclamation-rules.md)
 
-[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-suites.md)
+[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-suites.md)
 

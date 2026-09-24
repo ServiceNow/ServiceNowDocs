@@ -2,7 +2,7 @@
 title: Wait for a duration flow logic
 description: Use this flow logic to give your users time to act during automated processes or to wait for a specific date and time to complete actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -126,7 +126,7 @@ The timer waits for the next instance of a selected schedule. For example, if yo
 
 2.  The Configuration Details section shows details about the variables that are used by the flow, including the type, configuration, and runtime values for each variable.
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

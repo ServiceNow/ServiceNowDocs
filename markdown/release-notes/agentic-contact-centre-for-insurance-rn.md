@@ -2,7 +2,7 @@
 title: Agentic Contact Center for Insurance release notes
 description: The ServiceNow Agentic Contact Center for Insurance application provides a workspace for Customer Service Representatives \(CSRs\) to run insurance operations efficiently and manage multiple applications simultaneously. Agentic Contact Center for Insurance Australia release.The ServiceNow Agentic Contact Center for Insurance application provides a workspace for Customer Service Representatives \(CSRs\) to run insurance operations efficiently and manage multiple applications simultaneously. Agentic Contact Center for Insurance Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/agentic-contact-centre-for-insurance-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/agentic-contact-centre-for-insurance-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -32,10 +32,10 @@ See  for an overview of features and capabilities.
 
 -   **Additional requirements**
 
-    This application requires ServiceNow Otto for Financial Services Operations \(FSO\). For activation and configuration details, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
+    This application requires ServiceNow Otto for Financial Services Operations \(FSO\). For activation and configuration details, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-for-financial-services-operations-rn.md).
 
 
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
 
 ## Australia
 

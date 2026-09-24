@@ -2,7 +2,7 @@
 title: Event Management Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/event-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/event-content-pack.html
 release: australia
 product: Event Management
 classification: event-management
@@ -22,12 +22,12 @@ Platform Analytics data visualizations use Performance Analytics [indicator](htt
 
 To enable the solution for Event Management, an admin can navigate to **Performance Analytics** &gt; **Guided Setup**. Click **Get Started** then scroll to the section for Event Management. The guided setup takes you through the entire setup and configuration process.
 
-Data visualization in ITOM now includes a funnel component to help you track metric progression across stages, making it easier to identify drop-offs or bottlenecks in processes. For more details, see [Data visualization in ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-data-visualization.md).
+Data visualization in ITOM now includes a funnel component to help you track metric progression across stages, making it easier to identify drop-offs or bottlenecks in processes. For more details, see [Data visualization in ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-data-visualization.md).
 
--   **[Customize Platform Analytics elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/perf-analytics-widget-customize.md)**  
+-   **[Customize Platform Analytics elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/perf-analytics-widget-customize.md)**  
 Customize the appearance of widgets when viewing Platform Analytics visualizations.
 
-**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-management-reference.md)
 
 **Related topics**  
 

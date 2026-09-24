@@ -2,7 +2,7 @@
 title: Business rules installed with Facilities Move Management
 description: A business rule is a server-side script that runs when a record is displayed, inserted, updated, deleted, or when a table is queried.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_BRulesInstallWFacMoveMgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_BRulesInstallWFacMoveMgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -269,5 +269,5 @@ Enterprise Move Request Task\[enterprise\_move\_request\_task\]
 Set the state to Assigned when Assigned to is not empty and State is Pending Assignment
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacMoveMgmt.md)
+</table>**Parent Topic:**[Installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacMoveMgmt.md)
 

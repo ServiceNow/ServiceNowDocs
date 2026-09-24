@@ -2,7 +2,7 @@
 title: Internal review overview
 description: Get your content reviewed by internal teams who have the expertise you need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-expert-review.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-expert-review.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -35,16 +35,16 @@ A workflow for getting content reviewed by internal teams might progress as foll
 
 The contract request remains in the Awaiting review State until a review task is active.
 
--   **[Request an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-add-review-task.md)**  
+-   **[Request an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-add-review-task.md)**  
 Initiate a review task for review of the contract document by subject matter experts.
--   **[Work on internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-work-int-review-doc.md)**  
+-   **[Work on internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-work-int-review-doc.md)**  
 As a contract reviewer, review and provide feedback on contract documents
--   **[Share requested information for internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-send-info-reviewtask.md)**  
+-   **[Share requested information for internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-send-info-reviewtask.md)**  
 As a contract fulfiller, share information requested by the reviewer to proceed with the contract document review.
--   **[Cancel a review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-close-int-review-task.md)**  
+-   **[Cancel a review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-close-int-review-task.md)**  
 As a contract fulfiller, cancel a review task irrespective of its state.
 
-**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
 

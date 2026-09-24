@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Health and Safety
 description: With the ServiceNow Otto for Health and Safety application, safety agents and managers can use generative AI to summarize the safety incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-exploring.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -40,5 +40,5 @@ Use the following skill provided by the ServiceNow Otto for Health and Safety ap
     \[Omitted image "na-hs-incident-summarization.png"\] Alt text: AI-generated summary for a Health and Safety incident.
 
 
-For information on activating the Health and Safety incident summarization skill, see [Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md). For information on how to use this skill on Health and Safety Workspace, see [Summarize a safety incident by using ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md).
+For information on activating the Health and Safety incident summarization skill, see [Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md). For information on how to use this skill on Health and Safety Workspace, see [Summarize a safety incident by using ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md).
 

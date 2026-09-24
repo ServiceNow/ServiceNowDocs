@@ -2,7 +2,7 @@
 title: Customer Central
 description: Learn about how CSM Agent Workspace Customer Central functions with CSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-custom-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-custom-central.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,8 +16,8 @@ Learn about how CSM Agent Workspace Customer Central functions with CSM Configur
 
 Customer Central displays all the touch points that a customer has had with a contact center in the form of information cards. CSM Agent Workspace Customer Central configurations function in CSM Configurable Workspace. Configuration changes at the sn\_customercentral\_cust\_info\_config and sys\_declarative\_action\_assignment and their related lists, however, can be configured in CSM Configurable Workspace.
 
--   Set up the Customer Information view in CRM Workspace using [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cust-central-configure-info-tab.md).
--   Set up the Customer Information view in CSM Agent Workspace using [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-information-tab.md).
+-   Set up the Customer Information view in CRM Workspace using [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/cust-central-configure-info-tab.md).
+-   Set up the Customer Information view in CSM Agent Workspace using [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-information-tab.md).
 
 |Legacy table name|UIB table name|
 |-----------------|--------------|

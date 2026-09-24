@@ -2,7 +2,7 @@
 title: Monitor or cancel remedial actions in DEX device page Playbook
 description: Use the Playbook Experience to view current and past remedial actions executed from different sources, and monitor or cancel actions initiated from the device page Action library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/manage-devices-remedial-actions-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/manage-devices-remedial-actions-playbook.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -54,5 +54,5 @@ Each action card in the playbook panel displays information such as the action n
     2.  To track stages of past actions initiated from the device page Action library, select **View Playbook** on an action card.
 
 
-**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-remedial-actions.md)
+**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-remedial-actions.md)
 

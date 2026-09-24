@@ -2,7 +2,7 @@
 title: Customize metric definitions
 description: Customize the base system metric definitions based on your business requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
@@ -46,21 +46,21 @@ Role required: sn\_dex\_score.digital\_workplace\_leader, sn\_dex.admin
 
 5.  On the form, customize the remaining fields.
 
-    For a description of the field values, see [Metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-metric-def-form.md).
+    For a description of the field values, see [Metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-metric-def-form.md).
 
 6.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-configuring-dex-score.md)
+**Parent Topic:**[Configuring Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-configuring-dex-score.md)
 
 **Related topics**  
 
 
-[Define qualitative mapping for a DEX Score metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-define-qlty-metric-score-mapping.md)
+[Define qualitative mapping for a DEX Score metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-define-qlty-metric-score-mapping.md)
 
-[Metric scores in Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-defs.md)
+[Metric scores in Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-defs.md)
 
-[DEX Score metrics calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-metrics-calc.md)
+[DEX Score metrics calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-metrics-calc.md)
 
-[DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md)
+[DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md)
 

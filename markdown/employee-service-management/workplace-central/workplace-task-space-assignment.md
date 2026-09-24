@@ -2,7 +2,7 @@
 title: Workplace Task form - Space Assignment task
 description: The Workplace Task form specifies details to assign a space to a neighborhood.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/workplace-task-space-assignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/workplace-task-space-assignment.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -92,7 +92,7 @@ Filter
 Conditions used to filter spaces from the selected table. For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

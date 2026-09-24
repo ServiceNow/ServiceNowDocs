@@ -2,7 +2,7 @@
 title: Edit trigger words for OT CMDB search
 description: Edit the trigger words used in the Operational Technology \(OT\) Configuration Management Database \(CMDB\) search feature to optimize OT search results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/edit-trigger-words-for-ot-cmdb-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/edit-trigger-words-for-ot-cmdb-search.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -61,5 +61,5 @@ Optionally, update the `sn_mfg_common.ot_cmdb_search_trigger_words` system prope
 3.  Select **Save**.
 
 
-**Parent Topic:**[Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-na-otm.md)
+**Parent Topic:**[Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-na-otm.md)
 

@@ -18,27 +18,27 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="jrny-acclrtr-info-model-table" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how employees, managers, and mentors use Journey Accelerator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/exploring-jny-accelerator.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how employees, managers, and mentors use Journey Accelerator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/exploring-jny-accelerator.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/install-journey-accelerator.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/install-journey-accelerator.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Journey Accelerator capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-integrations.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Journey Accelerator capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/ja-integrations.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Work with journeys.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Work with journeys.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-1.svg"\] Alt text: Improve process and track the progress of different journeys.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/monitor-journey-accelerator-plans.md)
+[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-1.svg"\] Alt text: Improve process and track the progress of different journeys.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/monitor-journey-accelerator-plans.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-documentation.svg"\] Alt text: Get details about components like roles, fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/components-installed-with-journey-accelerator.md)
+[Reference \[Omitted image "bus-documentation.svg"\] Alt text: Get details about components like roles, fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/components-installed-with-journey-accelerator.md)
 
 </td></tr></tbody>
 </table>## Additional resources

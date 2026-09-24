@@ -2,7 +2,7 @@
 title: Legacy: Change Velocity dashboard
 description: Use this dashboard to track the average duration of change requests in the last 30 days.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-velocity-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-velocity-dashboard.html
 release: australia
 product: Change Management
 classification: change-management
@@ -18,7 +18,7 @@ Use this dashboard to track the average duration of change requests in the last 
 
 **Important:**
 
-Starting in Xanadu release, the Core UI Change Velocity dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change.md) to view, and track the open changes.
+Starting in Xanadu release, the Core UI Change Velocity dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change.md) to view, and track the open changes.
 
 The Change Velocity dashboard is divided into the following tabs for effective usage. The ServiceNow® Performance Analytics capability in the Change Velocity dashboard provides the following benefits:
 
@@ -47,7 +47,7 @@ The Change Velocity dashboard is divided into the following tabs for effective u
 
 -   **Top Change Success Performers**
 
-    Performance of assignment groups in processing the change request with the highest performer on the top. For information on how the performance score is calculated, see [Success Score Calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-score-calculation.md).
+    Performance of assignment groups in processing the change request with the highest performer on the top. For information on how the performance score is calculated, see [Success Score Calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-score-calculation.md).
 
 -   **Average age of open changes**
 
@@ -86,5 +86,5 @@ The Change Velocity dashboard is divided into the following tabs for effective u
 |Unauthorized Changes|Line \(\[Omitted image "line-icon.png"\] Alt text: Line icon.\)|Number of unauthorized changes over the last 90 days.|
 |Active Changes &gt; 7 days|Single score \(\[Omitted image "single-score.png"\] Alt text: Single score icon.\)|Number of active changes that were created more than seven days ago.|
 
-**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-content-pack.md)
+**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-content-pack.md)
 

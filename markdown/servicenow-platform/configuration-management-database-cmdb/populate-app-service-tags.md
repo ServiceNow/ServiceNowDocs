@@ -2,7 +2,7 @@
 title: Use tags to populate application services
 description: Use tags that help categorize and organize configuration items \(CIs\) in your organization to populate an service instance. Tag-based mapping doesn't require configuring credentials or providing users with elevated rights. Tag-based population method requires the Service Mapping feature of ITOM Visibility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/populate-app-service-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/populate-app-service-tags.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -18,7 +18,7 @@ Use tags that help categorize and organize configuration items \(CIs\) in your o
 
 ## Before you begin
 
-1.  Tags is one of several methods for populating an application service with CIs. Choosing a method for populating an application service, is only one step of the generic procedure for creating an application service. Ensure that you have completed the initial steps as described in [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md). The procedure described here is incomplete by itself as it complements that generic procedure.
+1.  Tags is one of several methods for populating an application service with CIs. Choosing a method for populating an application service, is only one step of the generic procedure for creating an application service. Ensure that you have completed the initial steps as described in [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/create-it-services.md). The procedure described here is incomplete by itself as it complements that generic procedure.
 
 2.  Analyze the tag usage in your organization and make a list of all tags and their purposes. Use the Key Value \[cmdb\_key\_value\] table to see the tags in the CMDB.
 3.  If necessary, assign tags to CIs that you want to include in an service instance.
@@ -33,7 +33,7 @@ If you have [configured tag-based service families and tag categories](https://r
 
 Alternatively, you can define tag keys and their values while choosing the tag-based population method for a new application service. Define up to three tag keys and tag values for the population criteria. CIs that have discovered tag keys and tag values, become part of an service instance.
 
-For information about the different types of application services and the different methods you can use to populate application services, including using tags, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including using tags, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 **Note:** Service Mapping includes CIs that are part of CI relationships even if these CIs do not have tags assigned to them. For more information, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-based-mapping.md).
 
@@ -78,5 +78,5 @@ For information about the different types of application services and the differ
 
 ## What to do next
 
-Complete the generic procedure [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
+Complete the generic procedure [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 

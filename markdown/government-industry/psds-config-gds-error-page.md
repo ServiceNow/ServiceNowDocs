@@ -2,7 +2,7 @@
 title: Configure the GOV.UK Design System Service Portal Error Pages
 description: Use Portal Widgets to configure and customize the error page that is shown when a user encounters errors such as broken links, service issues, or downtime \(404, 500, 503\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-error-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gds-error-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ This page provides the basic structure for GDS-compliant, fully responsive error
     **Note:** Add or edit a footer to your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see [Add a header or footer to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md).
 
 
-The header, footer, and error message content widgets may be customized to fit your needs using Widget Instances. Optionally, the display of support links or alternative actions can also be configured. For more information on how to configure widgets and widget instances, see [Configure the GOV.UK Design System Service Portal Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets.md).
+The header, footer, and error message content widgets may be customized to fit your needs using Widget Instances. Optionally, the display of support links or alternative actions can also be configured. For more information on how to configure widgets and widget instances, see [Configure the GOV.UK Design System Service Portal Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-widgets.md).
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ Role required: admin
 
 2.  Select the error page you want to configure, and add a default or customized widget.
 
-    For more information on how to clone edits for modification, see [Configure the GOV.UK Design System Service Portal Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets.md).
+    For more information on how to clone edits for modification, see [Configure the GOV.UK Design System Service Portal Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-widgets.md).
 
 3.  In the Default 404 page for Service Portals, type the page ID found in the ID field of the page form and select **Save**.
 

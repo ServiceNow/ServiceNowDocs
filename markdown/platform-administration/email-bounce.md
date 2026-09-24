@@ -2,7 +2,7 @@
 title: Email bounce management
 description: Help prevent sending emails to addresses that are known to generate bounces by monitoring and filtering them out while sending emails.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-bounce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/email-bounce.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -54,17 +54,17 @@ The default status codes that are used for blocking bounced email addresses are 
 
 To view the blocked status codes, navigate to **All** &gt; **System Mailboxes** &gt; **Administration** &gt; **Bounce Email Address Status**.
 
--   **[Configure bounce email address status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-email-address-status.md)**  
+-   **[Configure bounce email address status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/config-email-address-status.md)**  
 Configure a bounced email address status according to type, class, subject, and details.
--   **[Resend all blocked emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/resend-all-blocked-emails.md)**  
+-   **[Resend all blocked emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/resend-all-blocked-emails.md)**  
 Unblock the bounce email address and resend all blocked emails.
 
-**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AlternateEmailConfigurations.md)
 
 **Related topics**  
 
 
-[Configure bounce email address status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-email-address-status.md)
+[Configure bounce email address status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/config-email-address-status.md)
 
-[Check the status of bounced email addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/change-bounce-email-status.md)
+[Check the status of bounced email addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/change-bounce-email-status.md)
 

@@ -2,7 +2,7 @@
 title: Enable viewing HAProxy metrics
 description: Configure the HAProxy metrics stats page to enable monitoring your system devices by viewing HAProxy metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-haproxy-metrics-stats-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/configure-haproxy-metrics-stats-page.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -56,10 +56,10 @@ HAProxy provides load balancing and reverse proxy capabilities for both HTTP and
     `http://<HAProxyServer>:8080/stats`
 
 
-**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 
 **Related topics**  
 
 
-[HAProxy default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/haproxy-checks-policies.md)
+[HAProxy default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/haproxy-checks-policies.md)
 

@@ -2,7 +2,7 @@
 title: EAP Solution Train dashboard
 description: The Solution Train dashboard provides a snapshot of teams' work assignment status such as capabilities, work items, and team performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/eap-solution-train-inline-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/eap-solution-train-inline-dashboard.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -18,7 +18,7 @@ The Solution Train dashboard provides a snapshot of teams' work assignment statu
 
 \[Omitted image "eap-solution-train-dashboard.png"\] Alt text: Solution train inline dashboard
 
-You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
+You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
 
 ## Required EAP roles
 

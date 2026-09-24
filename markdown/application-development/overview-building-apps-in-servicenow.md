@@ -2,7 +2,7 @@
 title: Standard app development in ServiceNow
 description: The ServiceNow AI Platform enables you to create global and custom applications. You can work in classic lists and forms, or you can build apps using App Engine products such as ServiceNow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/overview-building-apps-in-servicenow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/overview-building-apps-in-servicenow.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-16"
@@ -24,11 +24,11 @@ Some applications may only contain a few files, and others could contain thousan
 
 Agentic development is an AI-driven approach to application development. Use agentic development and ServiceNow AI-powered app building tools to describe your goals in natural language, and the ServiceNow AI Platform generates full-stack applications, workflows, and integrations. The ServiceNow AI Platform automatically incorporates governance into the app creation process.
 
-Agentic development and using AI to build apps with the ServiceNow AI Platform collapses the traditional app development lifecycle—from ideation to deployment—into minutes instead of weeks. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md).
+Agentic development and using AI to build apps with the ServiceNow AI Platform collapses the traditional app development lifecycle—from ideation to deployment—into minutes instead of weeks. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-landing.md).
 
 Traditional app development on the ServiceNow AI Platform usually takes place in ServiceNow Studio. ServiceNow Studio provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps with ease.
 
-Use ServiceNow Studio to build apps and app files with integrated tools, access and edit app metadata in scoped and global apps, and package app changes for deployment, all in one powerful development tool. For more information, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
+Use ServiceNow Studio to build apps and app files with integrated tools, access and edit app metadata in scoped and global apps, and package app changes for deployment, all in one powerful development tool. For more information, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
 
 ## Apps and plugins
 
@@ -70,22 +70,22 @@ For instance, the Incident Management application might contain workflows that a
 
 **Note:** Applications are the "what" \(the functionality\), workflows are the "how" \(the automated processes that make things happen\).
 
--   **[Determining good candidates for apps in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/determining-good-candidates-for-apps.md)**  
+-   **[Determining good candidates for apps in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/determining-good-candidates-for-apps.md)**  
 Before creating an app in ServiceNow, determine if the idea is a good candidate for an application.
--   **[Configure, customize, or build apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-customize-or-build-new-apps.md)**  
+-   **[Configure, customize, or build apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-customize-or-build-new-apps.md)**  
 Configuration and customization are hallmarks of the ServiceNow AI Platform that enable your company to customize workflows to fit its specific needs. You can also build new apps for novel use cases or departmental processes that don't fit within the scope of your current applications.
--   **[Plan your app before you start building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/plan-app-building.md)**  
+-   **[Plan your app before you start building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/plan-app-building.md)**  
 Planning your application before development ensures scalability, governance, and alignment with organizational goals. Effective planning reduces duplication, helps prevent technical debt, and ensures compliance with ServiceNow best practices. It also helps define clear objectives, timelines, and resource requirements.
--   **[ServiceNow files in applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-files-in-applications.md)**  
+-   **[ServiceNow files in applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-files-in-applications.md)**  
 ServiceNow files are digital documents and assets stored within the ServiceNow AI Platform that serve various purposes across applications and workflows.
--   **[ServiceNow metadata in applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-metadata-in-applications.md)**  
+-   **[ServiceNow metadata in applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-metadata-in-applications.md)**  
 ServiceNow metadata refers to the configuration and structural definitions that make up a ServiceNow application itself.
--   **[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)**  
+-   **[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-your-first-app.md)**  
 Build, configure, and deploy custom apps from a single development environment, ServiceNow Studio. ServiceNow Studio gives admins and developers integrated tools to create app files, edit scoped and global app metadata, and package changes for deployment.
--   **[User interface and experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-ui-and-experience.md)**  
+-   **[User interface and experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-get-start-ui-and-experience.md)**  
 Learn about user interfaces and tools for building them as you create applications on the ServiceNow AI Platform.
--   **[Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-integrations.md)**  
+-   **[Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-get-start-integrations.md)**  
 Integrations enable you to connect your custom app to external systems to send and receive data. The ServiceNow AI Platform supports multiple integration capabilities to fit your use case.
 
-**Parent Topic:**[Getting Started guide for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/getting-started-landing-page.md)
+**Parent Topic:**[Getting Started guide for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/getting-started-landing-page.md)
 

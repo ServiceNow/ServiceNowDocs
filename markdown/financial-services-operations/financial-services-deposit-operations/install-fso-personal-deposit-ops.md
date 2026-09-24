@@ -2,7 +2,7 @@
 title: Install Financial Services Personal Deposit Operations
 description: You can install the Financial Services Personal Deposit Operations application \(sn\_bom\_deposit\_b2c\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/install-fso-personal-deposit-ops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-deposit-operations/install-fso-personal-deposit-ops.html
 release: australia
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -32,7 +32,7 @@ The following items are installed with Financial Services Personal Deposit Opera
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Financial Services Personal Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/installed-with-personal-deposit-ops.md).
+For more information, see [Components installed with Financial Services Personal Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-deposit-operations/installed-with-personal-deposit-ops.md).
 
 ## Procedure
 
@@ -55,5 +55,5 @@ For more information, see [Components installed with Financial Services Personal
 5.  Select **Install**.
 
 
-**Parent Topic:**[Install Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/install-deposit-operations.md)
+**Parent Topic:**[Install Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-deposit-operations/install-deposit-operations.md)
 

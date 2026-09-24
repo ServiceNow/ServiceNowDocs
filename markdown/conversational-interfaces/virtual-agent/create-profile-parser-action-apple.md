@@ -2,7 +2,7 @@
 title: Create a profile parser action for Apple Messages for Business
 description: Create an action to parse the user information response and find the corresponding user on the ServiceNow instance for Conversational Integration with Apple Messages for Business using the information provided here.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-profile-parser-action-apple.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-profile-parser-action-apple.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

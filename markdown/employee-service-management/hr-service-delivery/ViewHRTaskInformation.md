@@ -2,7 +2,7 @@
 title: View HR task information
 description: There are multiple ways to find a specific HR task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/ViewHRTaskInformation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/ViewHRTaskInformation.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,5 +32,5 @@ Role required: sn\_hr\_core.case\_writer
 2.  Select the task to view.
 
 
-**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
+**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
 

@@ -2,7 +2,7 @@
 title: Run scheduled job to publish stop words dictionary, search profiles, and index tables
 description: After upgrading to the Australia release and the ServiceNow Otto for Sales Automation plugin has been installed, run a scheduled job that publishes the stop word dictionary, search profiles, and index tables for using AI Search in the product catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/run-sched-job-index-stopwords-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/run-sched-job-index-stopwords-profile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ The stop words dictionary, search profiles, and index tables for running AI Sear
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

@@ -2,7 +2,7 @@
 title: Assigning alert assignment group precedence
 description: Assign alert assignment group precedence to make sure that alerts are routed to the appropriate team members.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/assigning-alert-assignment-group-precedence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/assigning-alert-assignment-group-precedence.html
 release: australia
 product: Event Management
 classification: event-management
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  In the **Search** field, enter `evt_mgmt.alert_auto_assignment_field` and select the property record.
 
-    For more information on the property, see [Team-based integration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/team-based-integrations-properties.md).
+    For more information on the property, see [Team-based integration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/team-based-integrations-properties.md).
 
 3.  In the **Value** field, enter the assignment group precedence.
 
@@ -35,10 +35,10 @@ Role required: admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Alert assignment groups for teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-assignment-group.md)
+**Parent Topic:**[Alert assignment groups for teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-assignment-group.md)
 
 **Related topics**  
 
 
-[Team-based integration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/team-based-integrations-properties.md)
+[Team-based integration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/team-based-integrations-properties.md)
 

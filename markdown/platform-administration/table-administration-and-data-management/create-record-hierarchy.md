@@ -2,7 +2,7 @@
 title: Create a record hierarchy
 description: Build a record hierarchy between records in the same table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/create-record-hierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/create-record-hierarchy.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management

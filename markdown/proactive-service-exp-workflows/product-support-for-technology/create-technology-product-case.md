@@ -2,7 +2,7 @@
 title: Create a technology product case
 description: Customers can create a technology product case to report an issue about the service from the Customer Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/create-technology-product-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/create-technology-product-case.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -126,5 +126,5 @@ Displays the time zone of the user in the Contact field.
     When the service problem case is submitted, the stage is automatically set to **Verify** and state as **New**.
 
 
-**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
+**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
 

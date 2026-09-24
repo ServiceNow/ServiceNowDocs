@@ -2,7 +2,7 @@
 title: Dispute Rules Content Pack for Mastercard release notes
 description: The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/dispute-rules-content-pack-for-mastercard-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/dispute-rules-content-pack-for-mastercard-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-06-15"
@@ -38,7 +38,7 @@ See [Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.co
     This application requires Financial Services Card Operations \(sn\_bom\_credit\_card\) to be installed.
 
 
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
 
 ## July 2026
 

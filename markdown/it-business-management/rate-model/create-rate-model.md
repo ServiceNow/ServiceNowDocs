@@ -2,7 +2,7 @@
 title: Create or modify a rate model
 description: Create or modify a rate model that can be linked to a project or demand to determine planned costs and actuals for their resource. The rate model provides date-effective, criteria-driven hourly rates for these investments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/rate-model/create-rate-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/rate-model/create-rate-model.html
 release: australia
 product: Rate Model
 classification: rate-model
@@ -19,7 +19,7 @@ Create or modify a rate model that can be linked to a project or demand to deter
 ## Before you begin
 
 -   Choose the attributes to define the criteria in a rate model to derive hourly rates.
--   Define the [budget reference rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) for the non-functional currency for the required time periods.
+-   Define the [budget reference rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) for the non-functional currency for the required time periods.
 -   Role required: pps\_admin or it\_rate\_model\_admin
 
 ## Procedure
@@ -113,7 +113,7 @@ Rate type
 
 </td><td>
 
-Option for enabling the rate type attribute on rate lines in the rate model.When selected, **Rate type** is added as one of the attributes along with other defined attributes. For more information, see [Rate type in labor rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/RateType.md).
+Option for enabling the rate type attribute on rate lines in the rate model.When selected, **Rate type** is added as one of the attributes along with other defined attributes. For more information, see [Rate type in labor rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/cost-management/RateType.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Short description for the rate model.
 
 ## What to do next
 
-[Add attributes from a set of predefined entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/define-rate-model-criteria.md) to define the criteria for rate model to derive resource cost.
+[Add attributes from a set of predefined entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/rate-model/define-rate-model-criteria.md) to define the criteria for rate model to derive resource cost.
 
-**Parent Topic:**[Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md)
+**Parent Topic:**[Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/rate-model/rate-model.md)
 

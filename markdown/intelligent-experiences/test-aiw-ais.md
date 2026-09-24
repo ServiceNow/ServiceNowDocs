@@ -2,7 +2,7 @@
 title: Preview an AI specialist in the legacy AI Agent Studio
 description: Run a preview of your AI specialist in the legacy AI Agent Studio on a single record to preview how it works and verify it matches your intentions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-aiw-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-aiw-ais.html
 release: australia
 topic_type: task
 last_updated: "2026-08-11"
@@ -49,7 +49,7 @@ You can test an execution of the AI specialist on a single record to preview its
 
 6.  Verify that the AI specialist's performance meets your expectations.
 
-    See the Testing section in [General guidelines for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-ai-workforce.md) for more information about how to test your AI specialist.
+    See the Testing section in [General guidelines for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gg-ai-workforce.md) for more information about how to test your AI specialist.
 
 
 ## Result

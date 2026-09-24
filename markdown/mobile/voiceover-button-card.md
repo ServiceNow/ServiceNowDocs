@@ -2,7 +2,7 @@
 title: Adding voiceover text for buttons defined as icon type within cards
 description: Screen reader support provides voiceover text for elements on the screen. However, elements like buttons that are defined as icon type may require additional configuration. Alternative text is added to these elements enabling the screen reader to read the content of the button within cards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/voiceover-button-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/voiceover-button-card.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-You can define alternative text for buttons defined as icon types within both cards and card templates. This topic covers the configuration for cards. For more information about creating buttons defined as icon type, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-navig.md).
+You can define alternative text for buttons defined as icon types within both cards and card templates. This topic covers the configuration for cards. For more information about creating buttons defined as icon type, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-ui-section-config-navig.md).
 
 ## Procedure
 

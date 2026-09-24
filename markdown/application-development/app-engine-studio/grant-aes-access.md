@@ -2,7 +2,7 @@
 title: Grant user access to AES
 description: Control who has access to build applications in App Engine Studio \(AES\) by adding users to AES Users group or the AES User Limited group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/grant-aes-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/grant-aes-access.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -26,7 +26,7 @@ Grant access to build applications in AES by adding users to the App Engine Stud
 
 To restrict access so that users can work in App Engine Studio but not create apps or see templates, add users to the App Engine Studio User Limited group.
 
-For more information about the differences between the App Engine Studio Users group and the App Engine Studio User Limited group, see [Configure AES personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-personas-roles.md).
+For more information about the differences between the App Engine Studio Users group and the App Engine Studio User Limited group, see [Configure AES personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-personas-roles.md).
 
 ## Procedure
 
@@ -43,10 +43,10 @@ For more information about the differences between the App Engine Studio Users g
     4.  On the group record, select **Update**.
 
 
-**Parent Topic:**[Perform AES configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-config-tasks.md)
+**Parent Topic:**[Perform AES configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-config-tasks.md)
 
 **Related topics**  
 
 
-[Components installed with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/installed-with-aes.md)
+[Components installed with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/installed-with-aes.md)
 

@@ -2,7 +2,7 @@
 title: Explore ServiceNow Otto for Employee Experience
 description: With the ServiceNow Otto for Employee Experience application, your employees can use ServiceNow Otto to quickly check the status of their work through conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -52,7 +52,7 @@ The ServiceNow Otto for Employee Experience enables your employees to check the 
 
 Use the Request, Requested item, and Case summarization skill for approvals to create useful summaries so that the approver users can understand the context quickly.
 
-For more information, see [Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md).
+For more information, see [Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md).
 
 ## Expanded ServiceNow Otto for Virtual Agent search
 
@@ -62,7 +62,7 @@ When you search on topic pages and expand the search, the default search changes
 
 Employees can check their latest company news and upcoming events. The AI Agent in the ServiceNow Otto displays a list of latest news and any planned events in the company.
 
-For more information about the AI agent, see [Company News &amp; Events AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/check-company-newsevent-ai-agent-for-emp-exp.md).
+For more information about the AI agent, see [Company News &amp; Events AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/check-company-newsevent-ai-agent-for-emp-exp.md).
 
 ## Learn more about the ServiceNow Otto® journey
 
@@ -79,12 +79,12 @@ For more information about an agentic workflow and activating the required compo
 -   [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent.md)
 -   [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)
 
--   **[Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)**  
+-   **[Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)**  
 Activate ServiceNow Otto for Employee Experience skills to enable AI-powered summarization and assistance capabilities for employee requests, cases, and approval workflows.
--   **[Supporting information for ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/supporting-info-for-now-assist-for-emp-expe.md)**  
+-   **[Supporting information for ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/supporting-info-for-now-assist-for-emp-expe.md)**  
 Get a quick overview of the key information related to the ServiceNow Otto for Employee Experience.
 
-**Parent Topic:**[ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
+**Parent Topic:**[ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
 
 **Related topics**  
 

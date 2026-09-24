@@ -2,7 +2,7 @@
 title: Install Operational Sustainability Integration with Workday
 description: You can install the Operational Sustainability Integration with Workday application \(sn\_esg\_workday\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/install-workday-esg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/install-workday-esg.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ The following items are installed with Operational Sustainability Integration wi
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
+For more information, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/components-installed-with-esg.md).
 
 ## Procedure
 

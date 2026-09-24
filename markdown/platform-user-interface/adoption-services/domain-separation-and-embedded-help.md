@@ -2,7 +2,7 @@
 title: Domain separation and Embedded Help
 description: Domain separation is supported for Embedded Help. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/domain-separation-and-embedded-help.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/domain-separation-and-embedded-help.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -42,7 +42,7 @@ If your organization uses domain separation, you can create custom embedded help
 -   If domain-specific content does not exist for a user in a domain, the user sees the global help content.
 -   Users in the global domain only see global help content. An administrator who wants to test domain-specific help must impersonate a user in that domain.
 
-**Parent Topic:**[Embedded Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-reference.md)
+**Parent Topic:**[Embedded Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/embedded-help-reference.md)
 
 **Related topics**  
 

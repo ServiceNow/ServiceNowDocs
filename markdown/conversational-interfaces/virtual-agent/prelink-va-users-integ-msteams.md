@@ -2,7 +2,7 @@
 title: Installing Microsoft Teams for all Virtual Agent users
 description: Pre-link your Virtual Agent requesters to a ServiceNow instance before they run the Conversational Integration with Microsoft Teams. Batch pre-linking enables your Virtual Agent users to immediately chat with a virtual agent and receive notifications without going through the initial authentication linking process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/prelink-va-users-integ-msteams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/prelink-va-users-integ-msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,7 +24,7 @@ To install the app otherwise, use the following directions.
 
 To install the app otherwise, use the following directions.
 
--   [Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-install.md), with the **Automatically Link ServiceNow user profiles** option enabled.
+-   [Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/teams-install.md), with the **Automatically Link ServiceNow user profiles** option enabled.
 -   [Set up Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
 -   [Set up Microsoft Active Directory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-ad.md).
 
@@ -66,7 +66,7 @@ Batch pre-linking happens automatically via the **MS Teams Daily Pre Install Job
 
 ## What to do next
 
-You can also customize the auto-linking process for Conversational Integration with Microsoft Teams. For more information, see [Customize auto-linking for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/customize-autolink-msteams.md).
+You can also customize the auto-linking process for Conversational Integration with Microsoft Teams. For more information, see [Customize auto-linking for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/customize-autolink-msteams.md).
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

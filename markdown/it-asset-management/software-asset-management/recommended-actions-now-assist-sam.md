@@ -2,7 +2,7 @@
 title: Generate recommended actions for products by using ServiceNow Otto for Software Asset Management \(SAM\)
 description: Generate a list of recommended actions to manage software license compliance and optimize licensing spend. The recommended actions help you to take appropriate steps to fix any configuration, maintenance, and optimization issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/recommended-actions-now-assist-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/recommended-actions-now-assist-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -97,5 +97,5 @@ If you found that the recommended actions was helpful, select the helpful icon. 
     Once you have dismissed all the actions, a message appears mentioning that all recommendations have been dismissed.
 
 
-**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam.md)
 

@@ -2,7 +2,7 @@
 title: MCP Server Tools reference
 description: Reference for the tools available in the HRSD MCP Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/mcp-server-tools-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/mcp-server-tools-reference.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

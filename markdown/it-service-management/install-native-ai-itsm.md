@@ -2,7 +2,7 @@
 title: Install IT Service Management
 description: Set up and get started with IT Service Management \(ITSM\) on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/install-native-ai-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/install-native-ai-itsm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,8 +27,8 @@ Role required: admin
 
 Post installation, the following capabilities are available:
 
--   AI agents and agentic workflows simplifying ITSM workflows, supporting a simplified Employee Center portal, and a simplified administrator, employee, and fulfiller experience. For information on AI agents, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
--   Commonly requested catalog items. For information on catalog items, see [Catalog items installed with Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/catalog-items-base-system.md).
+-   AI agents and agentic workflows simplifying ITSM workflows, supporting a simplified Employee Center portal, and a simplified administrator, employee, and fulfiller experience. For information on AI agents, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
+-   Commonly requested catalog items. For information on catalog items, see [Catalog items installed with Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/catalog-items-base-system.md).
 
 ## Procedure
 
@@ -73,5 +73,5 @@ Post installation, the following capabilities are available:
         \[Omitted image "ai-naive-install-get-started.png"\] Alt text: getting started with configurations
 
 
-**Parent Topic:**[Configuring Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-ai-native-itsm.md)
+**Parent Topic:**[Configuring Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configuring-ai-native-itsm.md)
 

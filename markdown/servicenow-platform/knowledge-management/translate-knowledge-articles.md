@@ -2,7 +2,7 @@
 title: Translate multiple knowledge articles
 description: Translate multiple knowledge articles to localize your content into different locales.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/translate-knowledge-articles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/translate-knowledge-articles.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -18,8 +18,8 @@ Translate multiple knowledge articles to localize your content into different lo
 
 ## Before you begin
 
--   [Add a custom Localization Framework setting to enable bulk translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/conf-lf-settings-manual-translations.md).
--   [Request bulk translations for multiple knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/bulk-translations-step.md).
+-   [Add a custom Localization Framework setting to enable bulk translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/conf-lf-settings-manual-translations.md).
+-   [Request bulk translations for multiple knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/bulk-translations-step.md).
 
 Role required: Localization fulfiller to fulfill translation request
 
@@ -51,5 +51,5 @@ Role required: Localization fulfiller to fulfill translation request
 
 The selected articles are translated into the selected languages and marked as version 0.01. The articles can be accessed from the Knowledge \[kb\_knowledge\] table.
 
-**Parent Topic:**[Use Bulk Translation for manual translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-bts-manual-translation.md)
+**Parent Topic:**[Use Bulk Translation for manual translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/use-bts-manual-translation.md)
 

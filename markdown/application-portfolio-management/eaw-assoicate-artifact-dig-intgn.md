@@ -2,7 +2,7 @@
 title: Manage architectural artifacts of a digital integration in EA Workspace
 description: You can create new, add, or remove the architectural artifacts that are associated with a digital integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-assoicate-artifact-dig-intgn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-assoicate-artifact-dig-intgn.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,19 +44,19 @@ Role required: sn\_apm.apm\_user
     -   To remove an existing architectural artifact, select the artifact and then select **Remove**.
 9.  Fill in the form fields.
 
-    For field information, see [Create architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-new-arch-artifact-form.md).
+    For field information, see [Create architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-new-arch-artifact-form.md).
 
 10. Select **Save**.
 
 
-**Parent Topic:**[Working with digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-digital-integrations.md)
+**Parent Topic:**[Working with digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-digital-integrations.md)
 
 **Related topics**  
 
 
-[Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-integ-add-info-object.md)
+[Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-dig-integ-add-info-object.md)
 
-[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-digital-integ.md)
+[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-digital-integ.md)
 
-[View all digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-dig-integ.md)
+[View all digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-dig-integ.md)
 

@@ -2,7 +2,7 @@
 title: Diagnose and resolve a change request
 description: As a customer service agent, review, diagnose, resolve, and close a change request for the service-related issue experienced by the customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-case-change-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-case-change-request.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -124,5 +124,5 @@ The change request progresses through several stages from start to closure. It b
 10. View the change request records in the **Related records** tab.
 
 
-**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
+**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 

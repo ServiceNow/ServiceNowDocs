@@ -2,7 +2,7 @@
 title: Create a copy of an existing scenario
 description: Create a copy of an existing scenario and make changes. Save time from a creating a scenario from scratch if there are only minor changes to an already created scenario.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-copy-of-scenario.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/create-copy-of-scenario.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -62,7 +62,7 @@ After a few seconds of copying process, the scenario copy is created. To view th
 
 To work on the scenario, refer to [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
-**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 

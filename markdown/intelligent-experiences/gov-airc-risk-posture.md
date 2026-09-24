@@ -2,7 +2,7 @@
 title: AI risk posture
 description: Aggregated risk posture displays inherent risk, residual risk, and control effectiveness for AI assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-risk-posture.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-airc-risk-posture.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-13"

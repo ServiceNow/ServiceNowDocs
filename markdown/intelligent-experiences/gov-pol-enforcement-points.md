@@ -2,12 +2,12 @@
 title: Control enforcement points
 description: The systems an AI Control Tower policy can act on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-enforcement-points.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-enforcement-points.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-27"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Policies, enforcement points, connectors]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, enforcement points, connectors]
 breadcrumb: [Reference, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -80,5 +80,5 @@ Blocks and unblocks a person's access through their Okta-managed identity.
 Blocks and unblocks AI agents on the ServiceNow AI Platform®.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Control Tower policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-reference.md)
+</table>**Parent Topic:**[AI Control Tower policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reference.md)
 

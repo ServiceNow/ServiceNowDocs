@@ -2,7 +2,7 @@
 title: Reopen a legal hold matter
 description: Reopen a closed legal hold matter when a legal hold is either revoked or newly issued in relation to the same closed legal matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/reopen-lg-hold-notifi-matter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-hold-notification/reopen-lg-hold-notifi-matter.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -41,5 +41,5 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller
 
 The closed legal hold notification matter is reopened, and its state changes from Closed complete to Work in Progress.
 
-**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

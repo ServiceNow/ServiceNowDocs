@@ -2,7 +2,7 @@
 title: Add nodes with config data to CDM application
 description: Add the data structure to a new application that will accept the uploaded config data into appropriate nodes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-data-structure-add-for-upload.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-data-structure-add-for-upload.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -24,7 +24,7 @@ Role required: CDM Admin \[sn\_cdm.cdm\_admin\]
 
 ## About this task
 
-When the system creates a new application, the application has only the highest level of structure: **components**, **collections**, and **deployables** folders. In this procedure, you add the component, collection, and deployable nodes that will accept the uploaded config data. When you upload existing config data into the application, the system maps the data as `[name:value]` pairs \(config data items — CDIs\) in the appropriate node in the data structure of the CDM application. For more information, see [CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-model.md).
+When the system creates a new application, the application has only the highest level of structure: **components**, **collections**, and **deployables** folders. In this procedure, you add the component, collection, and deployable nodes that will accept the uploaded config data. When you upload existing config data into the application, the system maps the data as `[name:value]` pairs \(config data items — CDIs\) in the appropriate node in the data structure of the CDM application. For more information, see [CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-data-model.md).
 
 **Note:**
 
@@ -34,7 +34,7 @@ Starting with Configuration Data Management version 4.2, you can define a node u
 
 1.  Create the components that will be included in the collections.
 
-    For more information, see [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md) and [Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-collection-define.md).
+    For more information, see [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-define.md) and [Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-collection-define.md).
 
 2.  Add a collection to one or multiple deployables:
 
@@ -58,9 +58,9 @@ Starting with Configuration Data Management version 4.2, you can define a node u
 
     -   An application can contain a maximum total of 100,000 CDIs.
     -   Any single deployable can contain a maximum of 10,000 CDIs.
-    See [CDM system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-system-properties.md) for information on configuring the **sn\_cdm.max\_allowed\_cdi\_per\_application** and **sn\_cdm.max\_allowed\_cdi\_per\_deployable** property settings.
+    See [CDM system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-system-properties.md) for information on configuring the **sn\_cdm.max\_allowed\_cdi\_per\_application** and **sn\_cdm.max\_allowed\_cdi\_per\_deployable** property settings.
 
-    For more information, see [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md), [Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-collection-define.md), or [Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-variables-crud.md).
+    For more information, see [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-define.md), [Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-collection-define.md), or [Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-variables-crud.md).
 
 5.  Select **Save** to save the changes in the changeset and ready the changes in the changeset to be committed.
 
@@ -91,24 +91,24 @@ Starting with Configuration Data Management version 4.2, you can define a node u
 
 ## What to do next
 
-The application does not yet contain config data, so the next step is to import your existing configuration data into the appropriate nodes in the application. See [Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-upload-process.md).
+The application does not yet contain config data, so the next step is to import your existing configuration data into the appropriate nodes in the application. See [Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-upload-process.md).
 
 **Related topics**  
 
 
-[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-model.md)
+[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-data-model.md)
 
-[Parsing of XML files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-parsing-xml-file.md)
+[Parsing of XML files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-parsing-xml-file.md)
 
-[Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-parsing-csv-file.md)
+[Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-parsing-csv-file.md)
 
-[Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-editing-config-data-changesets.md)
+[Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-editing-config-data-changesets.md)
 
-[Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md)
+[Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-define.md)
 
-[Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-collection-define.md)
+[Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-collection-define.md)
 
-[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-variables-crud.md)
+[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-variables-crud.md)
 
-[How encrypted data is handled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-secrets-managing.md)
+[How encrypted data is handled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-secrets-managing.md)
 

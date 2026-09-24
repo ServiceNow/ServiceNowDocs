@@ -2,7 +2,7 @@
 title: Summarize supplier performance in Source-to-Pay Workspace
 description: Generate comprehensive performance summary including overall performance scores, trends, and action items by using the supplier performance summarization skill in the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/summarize-supp-perf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/summarize-supp-perf.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

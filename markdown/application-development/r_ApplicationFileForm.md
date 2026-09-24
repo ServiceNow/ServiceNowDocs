@@ -2,7 +2,7 @@
 title: Application File form
 description: Use the Application File form to view relationships between applications and configuration records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/r\_ApplicationFileForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/r\_ApplicationFileForm.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create a contract type
 description: As a contract configurator, create a contract type for defining different types of contract requests and associate it to a contract model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-create-contract-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-create-contract-type.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

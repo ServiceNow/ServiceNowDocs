@@ -2,14 +2,14 @@
 title: Review indexing status for individual content items
 description: View indexing status, selected fields, errors, and user and group access permissions for individual content items using the Index inspector tool in the external content connector editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/review-indexing-status-content-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/review-indexing-status-content-items.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-08-27"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Review, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -21,7 +21,7 @@ View indexing status, selected fields, errors, and user and group access permiss
 
 Roles required: sn\_ext\_conn.xcc\_admin and ais\_high\_security\_admin
 
-**Note:** The ais\_high\_security\_admin role is an elevated privilege role. To learn more about elevated privilege roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md). For details on the ais\_high\_security\_admin elevated privilege role, see [Assign roles to AI Search administrators and users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/assign-ais-admin-role.md).
+**Note:** The ais\_high\_security\_admin role is an elevated privilege role. To learn more about elevated privilege roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md). For details on the ais\_high\_security\_admin elevated privilege role, see [Assign roles to AI Search administrators and users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/assign-ais-admin-role.md).
 
 ## About this task
 
@@ -92,7 +92,7 @@ In the banner frame, select your name to open the user menu, then select **Eleva
 
     The system displays details on the item including its URL, ID, and selected fields. A **Who can see this document?** section shows users and groups with access to the item \(for secure search\). An **Activity** section reports the item's status from the most recent connector crawl and its last seen and last indexed timestamps. This section also displays entries for the most recent errors encountered while retrieving or indexing the item. You can select **See all** to view more error entries.
 
-    **Note:** You can hide index fields so they're not displayed on documents in the index inspector. For details on hiding fields in the index inspector, see [Hide fields in the index inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/hide-fields-index-inspector.md).
+    **Note:** You can hide index fields so they're not displayed on documents in the index inspector. For details on hiding fields in the index inspector, see [Hide fields in the index inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/hide-fields-index-inspector.md).
 
 9.  To verify whether a specific user can see the content item in search results, perform these steps.
 
@@ -103,8 +103,8 @@ In the banner frame, select your name to open the user menu, then select **Eleva
         The system reports whether the specified user can view the content item in search results or not.
 
 
--   **[Hide fields in the index inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/hide-fields-index-inspector.md)**  
+-   **[Hide fields in the index inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/hide-fields-index-inspector.md)**  
 Suppress display of fields on documents in the index inspector.
 
-**Parent Topic:**[Reviewing external content connector crawl results and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/reviewing-external-content-connector-results-and-analytics.md)
+**Parent Topic:**[Reviewing external content connector crawl results and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/reviewing-external-content-connector-results-and-analytics.md)
 

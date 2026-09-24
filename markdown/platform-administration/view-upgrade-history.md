@@ -2,7 +2,7 @@
 title: View the upgrade history of a ServiceNow Store application
 description: View the upgrade history of an application that you purchased and installed from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/view-upgrade-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/view-upgrade-history.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Role required: admin, sn\_appclient.app\_client\_company\_installer \(can only i
     **Note:** When customers upgrade to this new version of your application, the Deletes in your author\_elective\_update folder will be written as Skips in the Upgrade History entry for this application upgrade. Your users can browse the Skip list, and apply the changes on a case-by-case basis. Your customers have the option of setting com.glide.apps.include\_my\_deletes to false, which will skip writing Skip records as well.
 
 
-**Parent Topic:**[Installation considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-considerations.md)
+**Parent Topic:**[Installation considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/install-considerations.md)
 

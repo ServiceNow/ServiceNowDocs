@@ -2,7 +2,7 @@
 title: Viewing information on fourth parties
 description: The Downstream suppliers tab displays overview information on fourth parties that the third party engages with. On most reports, you can select an item to view the underlying data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-downstream-suppliers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-downstream-suppliers.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

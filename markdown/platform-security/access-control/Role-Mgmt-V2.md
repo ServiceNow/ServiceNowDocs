@@ -2,7 +2,7 @@
 title: Prevent duplicate entries with Contextual Security: Role Management V2
 description: Roles inherited from other roles are added as individual entries in the User Roles table \[sys\_user\_has\_role\], potentially causing one role to have duplicate entries. Contextual Security: Role Management V2 eliminates these duplicate entries and prevents future duplicates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/Role-Mgmt-V2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/Role-Mgmt-V2.html
 release: australia
 product: Access Control
 classification: access-control

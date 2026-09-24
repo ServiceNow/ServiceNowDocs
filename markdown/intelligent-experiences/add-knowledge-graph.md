@@ -2,7 +2,7 @@
 title: Add a Knowledge Graph to an AI agent
 description: Add a Knowledge Graph to an AI agent in AI Agent Studio that uses the structured and unstructured data from different ServiceNow records to enhance the performance of AI agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-knowledge-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-knowledge-graph.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: MID Servers for Orchestration
 description: Orchestration automatically selects an appropriate MID Server based on the capabilities that you configure in activities, the IP addresses of target devices, and the application that the MID Server is allowed to use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/c\_OrchestrationMID.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/c\_OrchestrationMID.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -16,12 +16,12 @@ breadcrumb: [Classic Orchestration, ServiceNow AI Platform Additional Capabiliti
 
 Orchestration automatically selects an appropriate MID Server based on the capabilities that you configure in activities, the IP addresses of target devices, and the application that the MID Server is allowed to use.
 
-To allow a MID Server to work with Orchestration, it must have the **Orchestration** application or the **ALL** application assigned to it. See [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md) for instructions.
+To allow a MID Server to work with Orchestration, it must have the **Orchestration** application or the **ALL** application assigned to it. See [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md) for instructions.
 
 You can have MID Servers focus on different capabilities and separate sections of your network. See:
 
 -   [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
--   [Map an IP address to a DNS name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_MapIPAddressToDNSName.md)
+-   [Map an IP address to a DNS name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_MapIPAddressToDNSName.md)
 
 You can also specify a default MID Server to use if no MID Servers meet the capability and IP range criteria for an activity. See [Select the default MID Server for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
@@ -29,12 +29,12 @@ You can also specify a default MID Server to use if no MID Servers meet the capa
 MID Server capabilities define the specific functions of a MID Server within an IP address range.
 -   **[Select the default MID Server for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Orchestration uses the default MID Server if it cannot find a MID Server with the correct IP range and capability.
--   **[PowerShell probe version 2 system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/powershell-probe-v2.md)**  
+-   **[PowerShell probe version 2 system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/powershell-probe-v2.md)**  
 View detailed PowerShell credential information and view extended logging information.
--   **[PowerShell log property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/powershell-log-property.md)**  
+-   **[PowerShell log property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/powershell-log-property.md)**  
 Enable debug messages to display from PowerShell.
 
-**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r-orchestration.md)
+**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r-orchestration.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Assign Industrial Process Manager user roles
 description: Assign roles to your users so that you can control their access to the features, capabilities, and data in the Industrial Process Manager application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/assign-manufacturing-process-manager-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/assign-manufacturing-process-manager-roles.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -38,7 +38,7 @@ Equipment Model Viewer \[cmdb\_ot\_isa\_viewer\]
 
 </td><td>
 
-Can only view the assigned ISA Equipment Model \[cmdb\_ci\_ot\_isa\_entity\] table records. To learn more, see [Using Industrial Process Manager with the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/using-manufacturing-process-manager.md) and [Managing equipment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/managing-equipment-models-after-data-import.md).
+Can only view the assigned ISA Equipment Model \[cmdb\_ci\_ot\_isa\_entity\] table records. To learn more, see [Using Industrial Process Manager with the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/using-manufacturing-process-manager.md) and [Managing equipment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/managing-equipment-models-after-data-import.md).
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Equipment Model Editor \[cmdb\_ot\_isa\_editor\]
 
 </td><td>
 
-Can view and edit the assigned ISA Equipment Model \[cmdb\_ci\_ot\_isa\_entity\] records.To learn more, see [Using Industrial Process Manager with the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/using-manufacturing-process-manager.md) and [Managing equipment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/managing-equipment-models-after-data-import.md).
+Can view and edit the assigned ISA Equipment Model \[cmdb\_ci\_ot\_isa\_entity\] records.To learn more, see [Using Industrial Process Manager with the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/using-manufacturing-process-manager.md) and [Managing equipment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/managing-equipment-models-after-data-import.md).
 
 </td></tr><tr><td>
 
@@ -57,7 +57,7 @@ Equipment Model Admin \[cmdb\_ot\_isa\_admin\]
 Inherit the cmdb\_ot\_isa\_editor role and can also do the following actions: -   Use the Industrial Guided Setup to set up the Industrial Process Manager and the Operational Technology Manager.
 -   Edit the Equipment Model Template \[isa\_entity\_template\], \[isa\_entity\_level\], and Equipment Entity type \[isa\_entity\_type\] table records.
 
- To learn more, see [Industrial Workspace Admin application menu and Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/manufacturing-app-menu-guided-setup.md).
+ To learn more, see [Industrial Workspace Admin application menu and Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/manufacturing-app-menu-guided-setup.md).
 
 </td></tr><tr><td>
 
@@ -110,5 +110,5 @@ Can view OT subnet records \(ot\_subnet\_mapping\) for all the equipment model e
     |**Assign a role to a group**|See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).|
 
 
-**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

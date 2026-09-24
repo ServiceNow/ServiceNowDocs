@@ -2,7 +2,7 @@
 title: Reviewing progress status for Agile Development 2.0 epics
 description: Understand if your work would be completed by the planned end dates by reviewing progress status of your Agile Development 2.0 epics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/review-work-progress-status-in-agile-2.0.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/review-work-progress-status-in-agile-2.0.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -26,7 +26,7 @@ The Status column of the epics list shows a Green, Yellow, or Red indicator for 
 
 The estimated completion date displays a date with the likelihood of the epic's completion.
 
-The [\[Scrum\] daily data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/enable-daily-data-collection.md) helps generate the burnup report for your epics. Using the data generated for these epic burnup reports, an estimated completion date is determined for each of your epics. You can see that this date is the intersection of Completed and Scope forecast series in the respective epic burnup reports.
+The [\[Scrum\] daily data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/enable-daily-data-collection.md) helps generate the burnup report for your epics. Using the data generated for these epic burnup reports, an estimated completion date is determined for each of your epics. You can see that this date is the intersection of Completed and Scope forecast series in the respective epic burnup reports.
 
 Based on this estimated completion date, the progress status for your epics is determined. Progress status for an epic is calculated only under the following conditions:
 
@@ -39,10 +39,10 @@ The color of the progress status indicator is determined using the following con
 -   Yellow: Estimated completion date is beyond the planned end date by a deviation of 1% to 14%.
 -   Red: Estimated completion date is beyond the planned end date by a deviation of 15% or more.
 
-**Parent Topic:**[Work Progress Status for Agile Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/work-progress-status-for-agile-teams.md)
+**Parent Topic:**[Work Progress Status for Agile Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/work-progress-status-for-agile-teams.md)
 
 **Related topics**  
 
 
-[Agile 2.0 Epic Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development-epic-dashboard.md)
+[Agile 2.0 Epic Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/agile-development-epic-dashboard.md)
 

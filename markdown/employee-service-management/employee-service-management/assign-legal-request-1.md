@@ -18,7 +18,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 ## About this task
 
-When an employee submits a legal request, it is automatically assigned to a group or user in the legal department. The assignment is done based on the [assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md) configured for the intake form of the associated practice area. If the request is assigned to a legal group, any member from the group can triage the request themselves or assign it to another member of the group.
+When an employee submits a legal request, it is automatically assigned to a group or user in the legal department. The assignment is done based on the [assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md) configured for the intake form of the associated practice area. If the request is assigned to a legal group, any member from the group can triage the request themselves or assign it to another member of the group.
 
 ## Procedure
 
@@ -50,7 +50,7 @@ The state of the request updates to Assigned.
 
 ## What to do next
 
-The assigned user can start [working on the legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md).
+The assigned user can start [working on the legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/work-on-legal-request.md).
 
-**Parent Topic:**[Managing legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/managing-legal-request.md)
+**Parent Topic:**[Managing legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/managing-legal-request.md)
 

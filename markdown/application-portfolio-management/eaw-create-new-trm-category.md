@@ -2,7 +2,7 @@
 title: Add or edit a TRM category
 description: Add or edit a TRM category to group the TRM software products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-new-trm-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-new-trm-category.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,19 +42,19 @@ You can assign an owner to a TRM category, to ensure clear accountability and im
     -   To update details of an existing TRM category, select the TRM category.
 6.  On the form, fill in the fields.
 
-    For field information, see [TRM Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/trm-category-form.md).
+    For field information, see [TRM Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/trm-category-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-trm-categories.md)
+**Parent Topic:**[Configure TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-trm-categories.md)
 
 **Related topics**  
 
 
-[View all TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-all-trm-categories.md)
+[View all TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/view-all-trm-categories.md)
 
-[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 
-[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
+[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-trm.md)
 

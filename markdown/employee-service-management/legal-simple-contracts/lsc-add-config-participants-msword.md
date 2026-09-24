@@ -2,7 +2,7 @@
 title: Create and configure participants for legal contract template
 description: Add and configure participants that act as placeholder for users who will be assigned as signers of a contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/lsc-add-config-participants-msword.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/lsc-add-config-participants-msword.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -18,7 +18,7 @@ Add and configure participants that act as placeholder for users who will be ass
 
 ## Before you begin
 
-A Microsoft Word document must have been uploaded and parsed to provide template mappings for the contract template. For more information, see [Create a Microsoft Word legal contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-create-ct-msword.md).
+A Microsoft Word document must have been uploaded and parsed to provide template mappings for the contract template. For more information, see [Create a Microsoft Word legal contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/lsc-create-ct-msword.md).
 
 Role required: sn\_lg\_contracts.contracts\_config
 
@@ -70,7 +70,7 @@ The user in the mapped field is automatically added as a signatory in the docume
 </table>5.  Select **Submit**.
 
 
-**Parent Topic:**[Configure legal contract templates of type Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-configure-ct-msword.md)
+**Parent Topic:**[Configure legal contract templates of type Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/lsc-configure-ct-msword.md)
 
 **Related topics**  
 

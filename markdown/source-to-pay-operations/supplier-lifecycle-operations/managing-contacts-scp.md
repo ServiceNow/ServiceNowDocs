@@ -2,7 +2,7 @@
 title: Managing supplier contacts from the Supplier Collaboration Portal
 description: Manage and remove contacts, update the contact's email address, elevate access or remove elevated access to contacts from the portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -16,18 +16,18 @@ breadcrumb: [Using Supplier Collaboration Portal, Use, Supplier Lifecycle Operat
 
 Manage and remove contacts, update the contact's email address, elevate access or remove elevated access to contacts from the portal.
 
--   **[Elevate a contact to the primary contact role from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/elevate-contact-portal.md)**  
+-   **[Elevate a contact to the primary contact role from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/elevate-contact-portal.md)**  
 Elevate a contact to the primary contact role to enable them to access and manage all the contacts and tasks in the Supplier Collaboration Portal.
--   **[Restrict the primary contact role for a contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/restrict-contact-portal.md)**  
+-   **[Restrict the primary contact role for a contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/restrict-contact-portal.md)**  
 Restrict the primary contact role for a contact to prevent them from accessing all the contacts and tasks in the Supplier Collaboration Portal.
--   **[Reassign tasks to a different contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/reassign-task-contact.md)**  
+-   **[Reassign tasks to a different contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/reassign-task-contact.md)**  
 Reassign a task to a different contact in the Supplier Collaboration Portal.
--   **[Update the supplier contact email from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-contact-email.md)**  
+-   **[Update the supplier contact email from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/update-supp-contact-email.md)**  
 Update the email address of the contacts to ensure that they don't miss any email notifications.
--   **[Remove a supplier contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.md)**  
+-   **[Remove a supplier contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.md)**  
 Remove a supplier contact that you no longer require from the Supplier Collaboration Portal.
 
-**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
+**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 
 **Related topics**  
 
@@ -56,13 +56,13 @@ Remove a supplier contact that you no longer require from the Supplier Collabora
 
 [Create a Universal Request from the Supplier Collaboration Portal]()
 
-[Elevate a contact to the primary contact role from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/elevate-contact-portal.md)
+[Elevate a contact to the primary contact role from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/elevate-contact-portal.md)
 
-[Restrict the primary contact role for a contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/restrict-contact-portal.md)
+[Restrict the primary contact role for a contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/restrict-contact-portal.md)
 
-[Reassign tasks to a different contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/reassign-task-contact.md)
+[Reassign tasks to a different contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/reassign-task-contact.md)
 
-[Update the supplier contact email from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-contact-email.md)
+[Update the supplier contact email from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/update-supp-contact-email.md)
 
-[Remove a supplier contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.md)
+[Remove a supplier contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.md)
 

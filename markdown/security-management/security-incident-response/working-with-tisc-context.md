@@ -2,7 +2,7 @@
 title: Working with TISC Context
 description: TISC context facilitates viewing threat intelligence data such as observables within the security incident response workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/working-with-tisc-context.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/working-with-tisc-context.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -26,14 +26,14 @@ Using this section, you can do the following:
 2.  View associated observables information.
 3.  View observables enrichment results.
 
-For more detailed information and procedures, see the following sections. For more information on how the integration works between TISC and Security Incident Response Workspace, see [TISC integration with SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-integration-with-sir-workspace.md) in [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md).
+For more detailed information and procedures, see the following sections. For more information on how the integration works between TISC and Security Incident Response Workspace, see [TISC integration with SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-integration-with-sir-workspace.md) in [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-landing-page.md).
 
--   **[Add observables to TISC Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisc-si-case.md)**  
+-   **[Add observables to TISC Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/tisc-si-case.md)**  
 Use this section to add security incidents or observables to a TISC case.
--   **[Link and unlink TISC records to a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisc-link-unlink-records-sir.md)**  
+-   **[Link and unlink TISC records to a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/tisc-link-unlink-records-sir.md)**  
 Link TISC records such as observables, threat actors, and malware to a security incident, or unlink records that you no longer need.
--   **[View Enrichment Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisccontext-enrich-results.md)**  
+-   **[View Enrichment Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/tisccontext-enrich-results.md)**  
 TISC context facilitates viewing threat intelligence data such as observables within the security incident response workspace.
 
-**Parent Topic:**[TISC integration within SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisc-sir-workspace.md)
+**Parent Topic:**[TISC integration within SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/tisc-sir-workspace.md)
 

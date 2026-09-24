@@ -2,7 +2,7 @@
 title: Activity conditions
 description: Create the exit conditions for your activity in the Condition column and set the order for each..
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/conditions.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -28,5 +28,5 @@ The following are possible conditions you might create for an activity:
 
 \[Omitted image "CustomActivityConditions.png"\] Alt text: Sample activity conditions
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/create-custom-activities.md)
 

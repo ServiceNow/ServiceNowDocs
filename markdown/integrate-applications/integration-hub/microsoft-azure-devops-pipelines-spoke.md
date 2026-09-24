@@ -2,7 +2,7 @@
 title: Microsoft Azure DevOps Pipelines Spoke
 description: The Microsoft Azure DevOps Pipelines spoke enables you to automate your work on pipelines on Azure DevOps. Create a flow with the actions that automate your work on Azure DevOps. For example, create a flow that automates the retrieval of the details of logs for a pipeline. Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/microsoft-azure-devops-pipelines-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/microsoft-azure-devops-pipelines-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

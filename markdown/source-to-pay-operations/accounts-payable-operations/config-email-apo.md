@@ -2,7 +2,7 @@
 title: Configure Email response generation skill in ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Configure the email response generation skill in ServiceNow Otto for Accounts Payable Operations \(APO\) so that accounts payable \(AP\) fulfillers can use generative AI skills in Source-to-Pay Workspace to draft professional responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/config-email-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/config-email-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,7 +31,7 @@ Role required: admin
 
     2.  Select **Email response for invoice task** if you want to activate the skill for invoice task.
 
-    For more information on email generation, see [Generate email response for invoice case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/generate-email-invoice-case-apo.md) and [Generate email response for invoice task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/generate-email-invoice-task-apo.md).
+    For more information on email generation, see [Generate email response for invoice case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/generate-email-invoice-case-apo.md) and [Generate email response for invoice task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/generate-email-invoice-task-apo.md).
 
 3.  Select **Activate skill**.
 
@@ -51,7 +51,7 @@ Role required: admin
 
 6.  Review and activate the skill.
 
-    For more information on drafting email responses in an invoice case or a task, see [Composing emails with predefined content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.md).
+    For more information on drafting email responses in an invoice case or a task, see [Composing emails with predefined content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.md).
 
 
 ## Result

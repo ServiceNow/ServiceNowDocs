@@ -2,7 +2,7 @@
 title: ServiceNow Otto Chat Integration reference
 description: The reference topics for the application provide additional information about the settings, observations, and troubleshooting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +21,7 @@ The reference topics for the application provide additional information about th
 When certificate validation returns errors during the setup process, verify the following configuration:
 
 -   The correct key store password is entered \(case-sensitive\).
--   JKS file isn’t corrupted, if necessary, request a fresh file, see [Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md).
+-   JKS file isn’t corrupted, if necessary, request a fresh file, see [Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md).
 -   Password is entered in both certificate record and JWT provider settings.
 -   Contact support if issues persist after verification.
 
@@ -32,7 +32,7 @@ When the Moveworks chat assistant isn't visible on Employee Center or appears no
 -   Confirm that the Moveworks plugin is installed and enabled from the ServiceNow Store.
 -   Navigate to **System Applications** &gt; **Applications** and confirm the status column displays **Active** for the plugin.
 -   Verify that the JKS is valid and JWT keys are configured with the correct password.
--   Check that the Moveworks website setup page is saved with a valid bot ID as explained in [Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-setup-botid.md).
+-   Check that the Moveworks website setup page is saved with a valid bot ID as explained in [Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-setup-botid.md).
 -   Validate the portal-side configuration and ingestion status when all the settings look correct.
 
 ## Enable or disable virtual agent on employee center
@@ -56,13 +56,13 @@ Verify the following configuration:
 **Related topics**  
 
 
-[Getting started with Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
+[Getting started with Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
 
-[Install Otto chat application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-install-app.md)
+[Install Otto chat application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-install-app.md)
 
-[Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
+[Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
 
-[Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
+[Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
 
-[Use Otto Chat Integration on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
+[Use Otto Chat Integration on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
 

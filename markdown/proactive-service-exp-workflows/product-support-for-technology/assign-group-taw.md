@@ -2,7 +2,7 @@
 title: Add users to Proactive Service Experience Workflows assignment groups
 description: Add users to Proactive Service Experience Workflows assignment groups so they have the required role and can resolve network-initiated issues at the correct escalation level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/assign-group-taw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/assign-group-taw.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -49,5 +49,5 @@ The Incident Escalation Policy decision table evaluates conditions such as curre
 
 The selected users are added to the assignment group and can resolve network-initiated issues at their escalation level.
 
-**Parent Topic:**[Set up your environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/set-up-environment-psew.md)
+**Parent Topic:**[Set up your environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/set-up-environment-psew.md)
 

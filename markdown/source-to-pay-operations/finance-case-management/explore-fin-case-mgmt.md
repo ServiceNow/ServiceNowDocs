@@ -2,7 +2,7 @@
 title: Explore Finance Case Management
 description: Learn about the benefits and capabilities of Finance Case Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/explore-fin-case-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/explore-fin-case-mgmt.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -49,8 +49,8 @@ Finance Case Management uses the following applications:
     Finance Operations Workspace provides a single system of action to manage and prioritize work. The application displays critical information to prioritize work, and it eliminates tool sprawl.
 
 
--   **[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)**  
+-   **[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)**  
 The Finance Operations Workspace is a single system to manage and prioritize work.
 
-**Parent Topic:**[Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-case-mgmt-landing-page.md)
+**Parent Topic:**[Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/fin-case-mgmt-landing-page.md)
 

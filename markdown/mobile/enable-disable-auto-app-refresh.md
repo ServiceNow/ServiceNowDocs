@@ -2,7 +2,7 @@
 title: Turn on or turn off automatic app refresh
 description: Use the clientRefresh mobile property on your ServiceNow instance to turn on or turn off automatically refreshing your mobile apps. You can also use the clientRefresh property to adjust the scope of refresh on your mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/enable-disable-auto-app-refresh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/enable-disable-auto-app-refresh.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,7 +62,7 @@ Application
 
 </td><td>
 
-Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe icon.\) on the instance banner. Then select **Application scope:_application\_scope_**. For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
+Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe icon.\) on the instance banner. Then select **Application scope:_application\_scope_**. For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -160,5 +160,5 @@ Mobile application to which you want to send the mobile property. This setting l
 
 After updating this property, the end user must pull to refresh and get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md)
 

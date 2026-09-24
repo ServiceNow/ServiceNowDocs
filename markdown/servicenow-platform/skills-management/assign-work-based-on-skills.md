@@ -2,7 +2,7 @@
 title: Qualify and rank users based on skills and skill levels
 description: Rank users so that you can select the right users based on skills needed to complete tasks. Qualify users to work on tasks such as case, work order task, or chat interaction based on the number of skills and skill levels required to work on those tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/assign-work-based-on-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/skills-management/assign-work-based-on-skills.html
 release: australia
 product: Skills Management
 classification: skills-management
@@ -47,7 +47,7 @@ Use the [UserSkillAnalyzer API](https://raw.githubusercontent.com/ServiceNow/Ser
     The API retrieves a list of qualified users based on matching and mandatory skills and skill levels.
 
 
-**Parent Topic:**[Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skill-based-routing.md)
+**Parent Topic:**[Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/skills-management/skill-based-routing.md)
 
 **Related topics**  
 

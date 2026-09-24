@@ -2,7 +2,7 @@
 title: Activate Service Level Management - SLA Timer Config API
 description: You can activate the Service Level Management - SLA Timer Config API plugin \(com.sn\_slm\_timer\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/activate-sla-timer-config-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/activate-sla-timer-config-api.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -39,12 +39,12 @@ Activating this plugin provides the ability to set a preferred SLA for a given t
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Installed with Service Level Management - SLA Timer Config API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/installed-with-sla-timer-config.md)**  
+-   **[Installed with Service Level Management - SLA Timer Config API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/installed-with-sla-timer-config.md)**  
 The Service Level Management - SLA Timer Config API \(com.sn\_slm\_timer\) plugin installs the admin role.
--   **[Script Includes installed with SLA Timer Config API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-timer-rest-api.md)**  
+-   **[Script Includes installed with SLA Timer Config API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/sla-timer-rest-api.md)**  
 When SLA Timer Config API is activated, script includes are installed.
 
-**Parent Topic:**[Service Level Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-plugins.md)
+**Parent Topic:**[Service Level Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/sla-plugins.md)
 
 **Related topics**  
 

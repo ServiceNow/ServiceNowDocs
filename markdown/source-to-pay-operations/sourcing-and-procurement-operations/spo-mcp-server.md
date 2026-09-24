@@ -2,7 +2,7 @@
 title: SPO MCP Server
 description: Use the SPO Model Context Protocol \(MCP\) Server to complete sourcing and procurement tasks in conversational interfaces such as Claude and Moveworks, without accessing the ServiceNow instance directly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-mcp-server.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations

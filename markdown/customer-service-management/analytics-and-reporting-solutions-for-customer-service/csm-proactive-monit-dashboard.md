@@ -2,7 +2,7 @@
 title: Proactive Customer Service - Advanced dashboard
 description: The Proactive Customer Service - Advanced dashboard helps customer service managers track key performance indicators \(KPIs\) to understand how proactive they were in identifying and communicating issues that impact customers. The dashboard also enables customer service managers to assess the business impact of outages over time. Install the Proactive Customer Service Advanced Dashboard plugin \(com.snc.pa.customer\_service\_advanced\) to view and monitor the advanced dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-proactive-monit-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-proactive-monit-dashboard.html
 release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service

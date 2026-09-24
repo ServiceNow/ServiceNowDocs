@@ -2,7 +2,7 @@
 title: Create a screen
 description: Create a screen for a specific task, within your mobile app. Each screen comprises of one or more embedded screens displayed to your user to complete a task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-studio-configure-applet-screens.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-studio-configure-applet-screens.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

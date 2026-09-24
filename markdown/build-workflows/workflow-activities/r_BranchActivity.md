@@ -2,7 +2,7 @@
 title: Branch workflow activity
 description: The Branch activity splits the workflow into multiple transition paths from a single activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_BranchActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/r\_BranchActivity.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -20,7 +20,7 @@ To add a transition path, drag the **Branch** activity onto the canvas. When the
 
 All transitions from this activity execute concurrently. This activity provides a single **Always** condition. You can draw any number of transitions from this condition. Using this activity is equivalent to drawing multiple transitions from a single condition of another activity.
 
-Branching can affect the behavior of rollback activities. See [Rollback To activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/r_RollbackTo.md) for more information.
+Branching can affect the behavior of rollback activities. See [Rollback To activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-activities/r_RollbackTo.md) for more information.
 
-**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_UtilityActivities.md)
+**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-activities/c_UtilityActivities.md)
 

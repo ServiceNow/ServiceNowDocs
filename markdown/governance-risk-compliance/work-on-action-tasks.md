@@ -2,7 +2,7 @@
 title: Complete action tasks and report incidents
 description: Report incidents or security incidents associated with multiple regulations for various legal entities. The automated workflow generates regulatory reporting assessments of IT incidents, and Digital resilience incident \(DRI\) Initial, Intermediate, and Final reports, all within regulatory timelines. Complete the action tasks and generate reports in Microsoft Word format, as required by regulatory authorities for analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/work-on-action-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/work-on-action-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -172,7 +172,7 @@ Role required: sn\_oper\_res.manager
 
     \[Omitted image "word-rep-1.png"\] Alt text: Word report sections.\[Omitted image "word-rep-2.png"\] Alt text: Details of Word report.
 
-    For information on Word templates and Template configurations, see [Generating Microsoft Word reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/gen-word-reports.md).
+    For information on Word templates and Template configurations, see [Generating Microsoft Word reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/gen-word-reports.md).
 
     The generation of Microsoft Word reports, required by regulatory authorities for analysis in Digital resilience incident reporting, is completed with this step.
 

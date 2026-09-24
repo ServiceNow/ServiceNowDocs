@@ -2,7 +2,7 @@
 title: Update your Live Feed profile
 description: Your profile information includes a photo or image, and tabs for different types of information including messages, feeds, teams, followers, and those who are following you. You can update your profile information and picture at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_UpdateYourProfile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/t\_UpdateYourProfile.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -51,5 +51,5 @@ You can provide details about yourself, such as your role in your organization. 
     **Note:** Your profile picture is used by the Connect and legacy chat features as well, if they are activated.
 
 
-**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

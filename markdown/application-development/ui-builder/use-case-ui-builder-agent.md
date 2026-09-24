@@ -2,12 +2,12 @@
 title: Use case: Using UI Builder Agent
 description: Learn UI Builder features and accelerate page configuration using conversational AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/use-case-ui-builder-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/use-case-ui-builder-agent.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Use case, Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -30,7 +30,7 @@ The UI Builder agent is available directly within the UI Builder page editor as 
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 ## Configuration steps
 
@@ -62,12 +62,12 @@ Perform the following steps to use UI Builder agent:
 
 The developer sets up a three-column layout and adds a linked button component in a single session, with guidance from the UI Builder agent. They also gain confidence in their page's script configuration before making any changes. Tasks that would have typically required multiple searches through documentation are now completed without leaving the editor.
 
-**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-use-cases.md)
+**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-use-cases.md)
 
 **Related topics**  
 
 
-[UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-builder-agent-concept.md)
+[UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/uib-builder-agent-concept.md)
 
-[Using UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder-agent.md)
+[Using UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-builder-agent.md)
 

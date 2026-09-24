@@ -2,10 +2,10 @@
 title: Break-Fix Case Management
 description: Break-Fix Case Management enables store staff to report and resolve hardware and IT failures through a structured workflow involving requestors, HQ support agents, and field service technicians.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/breakfix-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/breakfix-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Explore, Retail]
 ---
@@ -75,10 +75,10 @@ Break-Fix Case Management provides an end-to-end solution for managing equipment
 
 ## Related Tasks
 
--   [Submit Break-Fix Cases \(Portal and Mobile\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-submit-case.md)
--   [Resolve Cases in Workspace \(HQ Agents\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-resolve-workspace.md)
--   [Respond to Resolutions \(Portal and Mobile\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-respond-resolution.md)
--   [Break-Fix Reference: States, Fields, and Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-reference.md)
+-   [Submit Break-Fix Cases \(Portal and Mobile\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-submit-case.md)
+-   [Resolve Cases in Workspace \(HQ Agents\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-resolve-workspace.md)
+-   [Respond to Resolutions \(Portal and Mobile\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-respond-resolution.md)
+-   [Break-Fix Reference: States, Fields, and Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-reference.md)
 
-**Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-explore.md)
+**Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-explore.md)
 

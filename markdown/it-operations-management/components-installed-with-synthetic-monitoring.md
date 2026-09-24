@@ -2,7 +2,7 @@
 title: Components installed with synthetic monitoring
 description: Several types of components are installed with activation of the synthetic monitoring plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/components-installed-with-synthetic-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/components-installed-with-synthetic-monitoring.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -260,5 +260,5 @@ sn\_sow\_synthetics\_bulk\_job\_governance
 Defines governance metadata for rate limiting and auditing for bulk jobs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-reference.md)
+</table>**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/synthetic-monitoring-reference.md)
 

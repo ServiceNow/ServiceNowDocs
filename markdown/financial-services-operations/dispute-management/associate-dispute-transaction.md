@@ -2,7 +2,7 @@
 title: Associate dispute transaction
 description: List associated transactions identified by Visa after the chargeback creation. Review these transactions and associate them with the disputed transaction to help deflect and resolve the dispute in the next activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/associate-dispute-transaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/associate-dispute-transaction.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -20,5 +20,5 @@ List associated transactions identified by Visa after the chargeback creation. R
 1.  View the associated transaction\(s\) and select the required ones.
 2.  Select **Continue**.
 
-**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

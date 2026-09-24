@@ -2,7 +2,7 @@
 title: Refine your search results
 description: Refine your search results to narrow down the content displayed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/refine-search-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/refine-search-results.html
 release: australia
 product: Communities
 classification: communities
@@ -35,5 +35,5 @@ Role required: sn\_communities.community\_user
     The search results page displays content based on the filter criteria.
 
 
-**Parent Topic:**[Search the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/search.md)
+**Parent Topic:**[Search the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/search.md)
 

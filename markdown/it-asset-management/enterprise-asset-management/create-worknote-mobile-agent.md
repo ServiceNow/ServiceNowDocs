@@ -2,7 +2,7 @@
 title: Create work notes about the work order tasks using the Mobile Agent application
 description: Add notes with details about work order task to the task record using the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-worknote-mobile-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-worknote-mobile-agent.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -51,7 +51,7 @@ Role required: wm\_agent
 
 The posted work note is shown in the **Activity** tab of the work order task record.
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 

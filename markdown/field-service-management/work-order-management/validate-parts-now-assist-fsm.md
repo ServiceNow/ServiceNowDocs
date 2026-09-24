@@ -2,7 +2,7 @@
 title: Validate parts using the Parts Manager AI agent
 description: Use the Parts Manager AI agent to validate parts usage when closing work order tasks in ServiceNow Otto for Field Service Management \(FSM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/validate-parts-now-assist-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/validate-parts-now-assist-fsm.html
 release: australia
 product: Work Order Management
 classification: work-order-management

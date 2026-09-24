@@ -2,7 +2,7 @@
 title: Download Desktop Assistant installer on macOS devices
 description: Download the Desktop Assistant installer on your macOS device to install the Desktop Assistant application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/download-desktop-exp-mac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/download-desktop-exp-mac.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -49,7 +49,7 @@ Role required: sn\_dex\_desktop.admin
 
 The Desktop Assistant application is installed on your macOS device.
 
-When you install Desktop Assistant by using the installer, the instance URL field on the login page is not populated automatically. As a system administrator, you can update the instance URL in the Desktop Assistant configuration file. For more information, see [Update instance URL in the Desktop Assistant configuration file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/update-da-instance-url.md).
+When you install Desktop Assistant by using the installer, the instance URL field on the login page is not populated automatically. As a system administrator, you can update the instance URL in the Desktop Assistant configuration file. For more information, see [Update instance URL in the Desktop Assistant configuration file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/update-da-instance-url.md).
 
 **Note:** Only the system administrator must update the configuration file or make changes to it while deploying Desktop Assistant on devices.
 

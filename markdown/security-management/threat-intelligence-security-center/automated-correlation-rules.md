@@ -2,7 +2,7 @@
 title: Automated correlation
 description: Automated correlation automatically establishes relationships between threat intelligence records based on predefined rules, helping you identify connections between observables, indicators, and threat objects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/automated-correlation-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/automated-correlation-rules.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -26,11 +26,11 @@ The following list describes relationships and potential relationships.
 -   Relationships: Relates two observables or an observable and STIX Domain Object \(SDO\).
 -   Potential relationships: Establish potentially possible relationships between two SDOs, two observables, or an observable and SDO by using automated correlation.
 
-**Important:** Automated correlation is disabled by default. Set *sn\_sec\_tisc.disable\_correlation\_rules* to `true` to enable it. For more information, see [Components installed with Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-components-installed.md).
+**Important:** Automated correlation is disabled by default. Set *sn\_sec\_tisc.disable\_correlation\_rules* to `true` to enable it. For more information, see [Components installed with Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-components-installed.md).
 
 ## Correlation rule considerations
 
--   The correlation rules that generate potential relationships are disabled by default. To enable these rules, see [Configure correlation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-correlation-rules.md).
+-   The correlation rules that generate potential relationships are disabled by default. To enable these rules, see [Configure correlation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/configure-correlation-rules.md).
 -   Each potential relationship table has a default limit of 1,000,000 records for each domain. This is done to maintain optimal instance performance while managing threat intelligence data volume.
 -   The following observables must be of malicious or suspicious reputation for the correlation rule to trigger: Artifact, Domain Name, File, IPv4 address, IPv6 address, MD5 Hash, SHA1 Hash, SHA256 Hash, SHA512 Hash, and URL.
 
@@ -50,12 +50,12 @@ The following list describes relationships and potential relationships.
 |Domain-to-IP Resolution Mapping|Connects domain observables to the IP addresses that they resolve to in DNS records.|Creates a relationship|Enabled|
 |Certificate-Domain Association|Associates SSL/TLS certificate observables with their corresponding domain names.|Creates a relationship|Enabled|
 
--   **[Configure correlation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-correlation-rules.md)**  
+-   **[Configure correlation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/configure-correlation-rules.md)**  
 Enable or disable the Correlation rules or customize them according to your business requirements.
--   **[Configure potential relationship table limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-update-potential-relationship-record-limit.md)**  
+-   **[Configure potential relationship table limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-update-potential-relationship-record-limit.md)**  
 Configure the maximum potential relationship records that automated correlation can create. By default, each potential relationship table has a limit of 1,000,000 records for each domain.
 
-**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 

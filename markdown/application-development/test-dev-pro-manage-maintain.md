@@ -2,7 +2,7 @@
 title: Maintain apps with pro-code tools
 description: Maintain your ServiceNow apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-pro-manage-maintain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-dev-pro-manage-maintain.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Maintain your ServiceNow apps.
 
 <table id="table_otg_lfd_pvb" class="nav-card"><tbody><tr><td>
 
-[System Update Sets \[Omitted image "icon-update-sets.png"\] Alt text: System update sets. Allow administrators to group a series of changes into a named set and then move them as a unit to other systems for testing or deployment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md)
+[System Update Sets \[Omitted image "icon-update-sets.png"\] Alt text: System update sets. Allow administrators to group a series of changes into a named set and then move them as a unit to other systems for testing or deployment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/system-update-sets.md)
 
 </td><td>
 

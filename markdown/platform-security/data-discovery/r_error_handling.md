@@ -2,7 +2,7 @@
 title: Text to RegEx error handling
 description: When errors occur during regex generation or testing, Text to RegEx displays an error message to help you understand what went wrong and how to resolve the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/r\_error\_handling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/r\_error\_handling.html
 release: australia
 product: Data Discovery
 classification: data-discovery
@@ -45,7 +45,7 @@ Review the following:
 
 You do not have the required licenses or plugins to use Text to RegEx. You may receive the error message, "This feature requires an additional license. Please contact procurement."
 
-See [Licensing prerequisites for Text to RegEx](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/r_licensing_prerequisites.md) for details on required licenses and how to request them from your procurement team.
+See [Licensing prerequisites for Text to RegEx](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-discovery/r_licensing_prerequisites.md) for details on required licenses and how to request them from your procurement team.
 
 ## General troubleshooting
 

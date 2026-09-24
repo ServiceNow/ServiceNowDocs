@@ -2,7 +2,7 @@
 title: Payers Enrollment form
 description: Access, review and validate the Payers Enrollment details of a healthcare professional in the Payer enrollment form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-healthcare/hr-payer-en.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery-for-healthcare/hr-payer-en.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -26,7 +26,7 @@ Access, review and validate the Payers Enrollment details of a healthcare profes
 |Effective From|Date starting which payer enrolment is valid.|
 |Effective Till|Date until which payer enrolment is valid.|
 
-**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
+**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
 
 **Related topics**  
 

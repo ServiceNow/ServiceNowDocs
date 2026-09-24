@@ -2,7 +2,7 @@
 title: Add or remove data patterns for sensitive content detection
 description: Add or remove data patterns to customize what the Smart Docs Agent suggests during redaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-regex-patterns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configure-regex-patterns.html
 release: australia
 topic_type: task
 last_updated: "2026-08-05"

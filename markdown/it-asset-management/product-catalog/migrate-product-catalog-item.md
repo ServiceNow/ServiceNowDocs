@@ -2,7 +2,7 @@
 title: Import a Product Catalog item
 description: Import a hardware and software product catalog item from one ServiceNow instance to another ServiceNow instance to include it in the product catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/migrate-product-catalog-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/product-catalog/migrate-product-catalog-item.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -134,7 +134,7 @@ The catalog items are imported into the target ServiceNow instance.
 
 Navigate to the Hardware Models or Software Models page in the target ServiceNow instance, View the imported hardware or software model record, along with its catalog items that are published.
 
-**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ManagingProductCatalogItems.md)
+**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_ManagingProductCatalogItems.md)
 
 **Related topics**  
 

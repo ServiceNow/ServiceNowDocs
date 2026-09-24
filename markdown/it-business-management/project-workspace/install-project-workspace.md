@@ -2,7 +2,7 @@
 title: Install Project Workspace
 description: You can install the Project Workspace application \(sn\_pw\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/install-project-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/install-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -54,5 +54,5 @@ Role required: admin
 
 Planning attributes dependency plug-in is installed along with Project Workspace.
 
-**Parent Topic:**[Configuring projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-projects-pw.md)
+**Parent Topic:**[Configuring projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-projects-pw.md)
 

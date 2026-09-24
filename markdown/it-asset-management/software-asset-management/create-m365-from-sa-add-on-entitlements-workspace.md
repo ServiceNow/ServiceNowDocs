@@ -2,7 +2,7 @@
 title: Create Microsoft 365 From SA and Add-on entitlements in the Software Asset Workspace
 description: Create a Microsoft 365 From SA or Add-on entitlement in the Software Asset Workspace so that you can track and manage the From SA or Add-on licensing terms for your Microsoft 365 subscription software products and services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-m365-from-sa-add-on-entitlements-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-m365-from-sa-add-on-entitlements-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -34,7 +34,7 @@ Role required: sam\_user or sam\_admin
 
 4.  On the form, fill in the fields.
 
-    For a detailed description of each field, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+    For a detailed description of each field, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
     **Important:** To create a Microsoft 365 From SA or Add-on entitlement, set the **Software model** field to a Microsoft 365 software model and then set the **License type** field to either **From SA** or **Add-on**.
 
@@ -52,7 +52,7 @@ Role required: sam\_user or sam\_admin
 
     **Note:** You can assign a From SA or Add-on entitlement to multiple corresponding Microsoft entitlements.
 
-    **Note:** By default, the software model for your From SA or Add-on entitlement includes the corresponding Microsoft software product or service as a suite component. If the product or service isn’t already included as a suite component, you can include it manually. See [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-swmodels-workspace.md) for detailed instructions.
+    **Note:** By default, the software model for your From SA or Add-on entitlement includes the corresponding Microsoft software product or service as a suite component. If the product or service isn’t already included as a suite component, you can include it manually. See [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-swmodels-workspace.md) for detailed instructions.
 
     1.  On the **Related Entitlements** tab of the software entitlement record, select **New**.
 
@@ -90,7 +90,7 @@ Related Entitlement
 
 Corresponding Microsoft entitlement that you want to assign the From SA or Add-on entitlement to.**Important:** This entitlement must use either the Per User or Per Device license metric. In addition, it can’t already be assigned with another entitlement or have any active allocations.
 
-**Note:** If a corresponding Microsoft entitlement isn’t available for the given From SA or Add-on entitlement, you can create one. See [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md) for detailed instructions.
+**Note:** If a corresponding Microsoft entitlement isn’t available for the given From SA or Add-on entitlement, you can create one. See [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md) for detailed instructions.
 
 </td></tr><tr><td>
 
@@ -110,10 +110,10 @@ Number of From SA or Add-on rights that you want to grant to the corresponding M
     The From SA or Add-on entitlement is assigned to the specified Microsoft entitlement.
 
 
-**Parent Topic:**[Creating Microsoft 365 From SA and Add-on entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/creating-m365-from-sa-add-on-entitlements.md)
+**Parent Topic:**[Creating Microsoft 365 From SA and Add-on entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/creating-m365-from-sa-add-on-entitlements.md)
 
 **Related topics**  
 
 
-[Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md)
+[Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md)
 

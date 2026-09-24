@@ -2,10 +2,10 @@
 title: Configure Information Extraction skill
 description: Configure the Extract information from documents skill \(Information Extraction skill\) to define how AI agents identify and pull structured data from unstructured sources. Use this configuration to control extraction behavior, map output fields, and integrate results into your workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cu-configure-information-extraction-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cu-configure-information-extraction-skill.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, Content Understanding, Enable AI experiences]
 ---
@@ -18,5 +18,5 @@ The Information Extraction skill processes unstructured documents and returns st
 
 **Note:** AI-generated extraction results may not always be accurate. Review extracted data before using it in automated decisions or business processes.
 
-The Extract Information from documents skill can't be cloned. To set up the skill, activate the skill and configure a use case. See [Activate the Extract Information from documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-info-extraction-skill.md) and [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-use-case.md).
+The Extract Information from documents skill can't be cloned. To set up the skill, activate the skill and configure a use case. See [Activate the Extract Information from documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-info-extraction-skill.md) and [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/set-up-use-case.md).
 

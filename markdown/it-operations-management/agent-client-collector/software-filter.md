@@ -2,12 +2,12 @@
 title: Software filter
 description: The Software filter lets you define rules to automatically exclude irrelevant entries from your Software Asset Management \(SAM\) inventory. At the same time, it keeps a complete, auditable record of everything filtered so that nothing disappears silently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/software-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/software-filter.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [Software Asset Management, SAM, inventory, filter, Agent Client Collector]
 breadcrumb: [ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -35,7 +35,7 @@ Agent scans and background discovery runs produce software installs on devices i
 
 A single malformed rule \(for example, an invalid pattern\) is skipped and logged rather than blocking the rest of the check. One bad rule doesn't accidentally exclude everything.
 
-For details on the tables that determine which entries are labeled as irrelevant, see [Software filter tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/sw-filter-tables.md).
+For details on the tables that determine which entries are labeled as irrelevant, see [Software filter tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/sw-filter-tables.md).
 
 ## Modifying rules
 
@@ -45,10 +45,10 @@ If you deactivate or edit a custom rule, the behavior of excluded software chang
 -   Entries for filtered software remain in the Software Install Filter Staging table as a historical record, but are no longer refreshed with new confirmation dates.
 -   If you reactivate the rule or change it to match the software again, exclusion resumes on the next scan and the staging table entry is refreshed.
 
--   **[Create a custom filter rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-custom-filter-rule.md)**  
+-   **[Create a custom filter rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-custom-filter-rule.md)**  
 Create a custom filter rule in the Software Install Custom Filter table \(samp\_sw\_install\_custom\_filter\). Rules determine the criteria by which software is excluded from your Software Asset Management \(SAM\) workspace.
--   **[Review filtered software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/review-filtered-software.md)**  
+-   **[Review filtered software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/review-filtered-software.md)**  
 Review the entries in the Software Install Filter Staging table \(samp\_sw\_install\_filter\_staging\) to confirm your rules are filtering only the software you expect.
 
-**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

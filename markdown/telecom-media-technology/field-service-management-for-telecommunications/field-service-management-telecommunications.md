@@ -2,7 +2,7 @@
 title: Field Service Management for Telecommunications
 description: The ServiceNow Field Service Management for Telecommunications \(FSMT\) application enables you to manage the field service workflow for the telecommunications customers. Use this application to streamline the appointment booking, service delivery, and assurance processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/field-service-management-for-telecommunications/field-service-management-telecommunications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/field-service-management-for-telecommunications/field-service-management-telecommunications.html
 release: australia
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications
@@ -22,7 +22,7 @@ To learn more about Field Service Management application, see [Field Service Man
 
 ## Additional resources
 
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Field Service Management for Telecommunication features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=field%20service%20management%20for%20telecommunications&spa=1)
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).

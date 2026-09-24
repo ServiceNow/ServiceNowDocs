@@ -2,7 +2,7 @@
 title: Use email templates in the mini email composer
 description: Quickly compose emails for common issues by selecting an email template in the record view instead of manually drafting an email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/compose-emails-with-email-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/compose-emails-with-email-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

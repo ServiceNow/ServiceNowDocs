@@ -2,7 +2,7 @@
 title: Security for searchable referenced table field values in AI Search
 description: When a user searches referenced table field values that you have indexed for search with the searchable\_dot\_walk\_fields field setting, only field values that the user can view appear in the search results. The system uses a field value's role-based access control list rules \(ACLs\) to determine whether the search user can view that field value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/security-srch-dot-walk-values.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/security-srch-dot-walk-values.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -24,5 +24,5 @@ To bypass all ACLs and allow users to search for all searchable referenced table
 
 For more details on ACL types and configuration, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
 
-**Parent Topic:**[Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/field-settings-ais.md)
+**Parent Topic:**[Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/field-settings-ais.md)
 

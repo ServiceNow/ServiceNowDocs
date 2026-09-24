@@ -2,7 +2,7 @@
 title: Add records to a related list
 description: Add records to a related list to provide information related to the record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-records-to-related-lists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/add-records-to-related-lists.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

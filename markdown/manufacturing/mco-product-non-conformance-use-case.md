@@ -2,7 +2,7 @@
 title: Product non-conformance use case
 description: Use case scenarios show how to resolve product non-conformance issues, from triage through escalation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-non-conformance-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-product-non-conformance-use-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-18"
@@ -53,7 +53,7 @@ James triages with clear ownership. Sophie resolves the airbag issue across 47 i
 **Related topics**  
 
 
-[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-report-an-issue.md)
+[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-report-an-issue.md)
 
 [mco-product-non-conformances]
 

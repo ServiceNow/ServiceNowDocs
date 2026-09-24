@@ -2,7 +2,7 @@
 title: KB also in Category widget
 description: List of articles also included within a particular category. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/kb-also-in-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/kb-also-in-category.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -28,7 +28,7 @@ The information that appears in the KB also in Category widget is determined by 
 |-----|-----------|
 |Bootstrap color|Color scheme for the widget. The default colors are defined by the portal theme, but if you want the instance to have a specific color, select the option from the list.|
 
-**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/km-widgets.md)
+**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/km-widgets.md)
 
 **Related topics**  
 

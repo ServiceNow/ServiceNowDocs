@@ -2,7 +2,7 @@
 title: Order quantity support
 description: Learn how you can support and fulfill your customer orders for multiple instances of a product or service. You can create multiple domain orders that equal the order quantity for each instance of the product or service. This way, you can efficiently decompose and manage the fulfillment of your customer orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-quantity-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-quantity-support.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ In this scenario, you accept and support your customer order that has the inform
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

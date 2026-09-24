@@ -2,7 +2,7 @@
 title: Sourcing and Procurement Operations Configuration Console
 description: The SPO Configuration Console guides administrators through configuring SPO in a structured, sequenced set of steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-configuration-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-configuration-console.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -49,7 +49,7 @@ This section provides two tabs:
 -   **Configured items** — A searchable, sortable list of individual configuration changes not yet included in a completed batch. The list shows the configuration item, the module section it belongs to, who configured it, and when it was last updated. A **Go to active batch** link opens the update set currently collecting these changes.
 -   **Completed batches** — The update sets already packaged from prior configuration activity.
 
-For the procedure to package and download these update sets, see [Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-spo-apps.md).
+For the procedure to package and download these update sets, see [Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-spo-apps.md).
 
 ## Tracking progress on a configuration item
 
@@ -59,9 +59,9 @@ Administrators select **Mark as Configured** on a step to record it as complete.
 
 Documentation links, video guides, and community articles relevant to a configuration item are accessible inline within that step, without navigating away from the console. Each step also indicates whether ServiceNow Otto agent assistance is available for that item or whether it is a manual-only configuration step. A **How this works** link on the **Configuration Summary** page explains the console at a high level.
 
-For the procedure to open the console and an overview of what you can do from it, see [Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-spo-apps.md). For the configuration areas available under Procurement Case Management, see [Configuring case management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-case-management-spo.md).
+For the procedure to open the console and an overview of what you can do from it, see [Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-spo-apps.md). For the configuration areas available under Procurement Case Management, see [Configuring case management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-case-management-spo.md).
 
-**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 

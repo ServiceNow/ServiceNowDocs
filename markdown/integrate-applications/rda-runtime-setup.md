@@ -2,7 +2,7 @@
 title: Configuring Attended Robot
 description: You can plan and configure an Attended Robot implementation in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rda-runtime-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/rda-runtime-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,19 +18,19 @@ You can plan and configure an Attended Robot implementation in your organization
 
 Perform the following tasks to download the installation package and configure the Attended Robot after installation.
 
-1.  [Download Attended Robot from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/download-installer-rpa.md).
+1.  [Download Attended Robot from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/download-installer-rpa.md).
 
     Select and download the Attended Robot application in your Windows machine from RPA Hub as a prerequisite for installing the application.
 
-2.  [Install Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-rda-runtime.md)
+2.  [Install Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-rda-runtime.md)
 
     You can install the Attended Robot application in your Windows machine if you have the admin role.
 
-3.  [Set up Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rda-runtime.md)
+3.  [Set up Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/set-up-rda-runtime.md)
 
     Establish a connection between the Attended Robot and the ServiceNow RPA Hub instance.
 
-4.  [Connect to an RPA Hub instance from Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-rda-instance-rpa.md)
+4.  [Connect to an RPA Hub instance from Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connect-rda-instance-rpa.md)
 
     Establish a connection between the Attended Robot and ServiceNow RPA Hub instance to connect to an RPA Hub instance in three ways by using Connection Manager.
 

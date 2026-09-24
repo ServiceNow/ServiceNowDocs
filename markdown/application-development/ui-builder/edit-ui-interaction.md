@@ -2,7 +2,7 @@
 title: Edit an existing UI interaction
 description: Edit or modify an existing UI interaction by inserting new steps, swapping or deleting events, removing steps, or updating step configurations in the diagram editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/edit-ui-interaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/edit-ui-interaction.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -24,7 +24,7 @@ Role required: ui\_builder\_admin
 
 When you create a UI interaction, you can return to the diagram editor to modify its flow. You can insert steps before or after existing steps, swap the outgoing event that connects one step to the next, delete events or steps you no longer need, update step configurations, and add or remove branches.
 
-**Important:** Before editing a UI interaction that is already in use, check the Settings and Usage pages to understand where the interaction is triggered. Consider duplicating the interaction before making changes to avoid unintended impacts to active pages or declarative actions. For information on duplicating an interaction, see [Duplicate a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/duplicate-ui-interaction.md).
+**Important:** Before editing a UI interaction that is already in use, check the Settings and Usage pages to understand where the interaction is triggered. Consider duplicating the interaction before making changes to avoid unintended impacts to active pages or declarative actions. For information on duplicating an interaction, see [Duplicate a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/duplicate-ui-interaction.md).
 
 ## Procedure
 
@@ -158,5 +158,5 @@ Select the event on the diagram and select the delete icon \[Omitted image "uib-
 
 The updated UI interaction is saved. Any page events or declarative actions that reference this interaction automatically use the updated flow the next time the interaction is triggered.
 
-**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md)
+**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/uib-ui-interactions.md)
 

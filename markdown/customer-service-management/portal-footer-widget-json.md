@@ -2,7 +2,7 @@
 title: Portal Footer widget JSON parameters
 description: Use the JSON parameters to define aspects of the Portal Footer widget on the portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/portal-footer-widget-json.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/portal-footer-widget-json.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

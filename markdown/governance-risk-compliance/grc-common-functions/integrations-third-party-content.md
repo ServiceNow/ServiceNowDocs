@@ -2,7 +2,7 @@
 title: GRC: integrations with third-party content
 description: The GRC: integrations with third-party content application helps you to standardize the content integration process across various GRC applications by providing a common framework for your content providers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/integrations-third-party-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/integrations-third-party-content.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -26,12 +26,12 @@ You can install the GRC: integrations with third-party content application separ
 
 When the GRC: integrations with third-party content and GRC: Policy and Compliance integrator applications are downloaded in your instance, a user with the sn\_grc\_cim.admin role can execute the tasks that are related to the application workflow.
 
-For more information on the user roles, see [User roles for the integration process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/int-integrator-user-roles.md) and [Create a user with the sn\_grc\_cim.admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-user-with-cim-manager-role.md).
+For more information on the user roles, see [User roles for the integration process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/int-integrator-user-roles.md) and [Create a user with the sn\_grc\_cim.admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-user-with-cim-manager-role.md).
 
--   **[User roles for the integration process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/int-integrator-user-roles.md)**  
+-   **[User roles for the integration process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/int-integrator-user-roles.md)**  
 You must assign the user roles that are required for the overall integration process that is associated with the GRC: integrations with third-party content and GRC: Policy and Compliance integrator applications.
--   **[Create a user with the sn\_grc\_cim.admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-user-with-cim-manager-role.md)**  
+-   **[Create a user with the sn\_grc\_cim.admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-user-with-cim-manager-role.md)**  
 Create a user with the sn\_grc\_cim.admin role to perform the tasks that are related to the content integration and import process.
 
-**Parent Topic:**[Governance, Risk, and Compliance integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-integrations.md)
+**Parent Topic:**[Governance, Risk, and Compliance integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-integrations.md)
 

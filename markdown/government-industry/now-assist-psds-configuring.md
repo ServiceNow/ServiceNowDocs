@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: If you have the admin role, you can configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that your agents and managers can use the generative-AI skills in CRM Workspace and in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-configuring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-configuring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

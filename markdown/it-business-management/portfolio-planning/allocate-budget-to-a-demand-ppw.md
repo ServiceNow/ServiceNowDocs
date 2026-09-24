@@ -2,7 +2,7 @@
 title: Manage demand budgets
 description: Allocate, manage, and approve budget for your demands. Lean budgeting allocates budget for short planning cycles across fiscal periods, such as monthly, quarterly, or yearly. This approach differs from allocating budget to the complete duration of a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/allocate-budget-to-a-demand-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/allocate-budget-to-a-demand-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,8 +18,8 @@ Allocate, manage, and approve budget for your demands. Lean budgeting allocates 
 
 ## Before you begin
 
--   Enable the property to work on budgeting. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-financial-budget-allocation-for-demands-ppw.md).
--   Configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configure-budget-attribute-at-instance-level-ppw.md).
+-   Enable the property to work on budgeting. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/enable-financial-budget-allocation-for-demands-ppw.md).
+-   Configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/configure-budget-attribute-at-instance-level-ppw.md).
 -   Role required: it\_demand\_manager
 
 ## Procedure

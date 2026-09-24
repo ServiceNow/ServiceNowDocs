@@ -2,7 +2,7 @@
 title: Create tax codes to be added in an invoice
 description: Create tax codes to define tax rates and jurisdictions for invoice processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-tax-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-tax-code.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -49,5 +49,5 @@ Role required: Tax manager
 
 The tax code details are added.
 
-**Parent Topic:**[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-calculations-in-apo.md)
+**Parent Topic:**[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/tax-calculations-in-apo.md)
 

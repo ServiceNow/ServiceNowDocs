@@ -2,7 +2,7 @@
 title: Using the activity stream in Service Request Playbook
 description: You can access the activity stream in the contextual side panel in CRM Workspace after you create a service request record. The activity stream enables you to communicate with constituents and make internal notes about the work that is done on a record, making it easier to relay and track the information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-playbook-using-activity-stream.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-playbook-using-activity-stream.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

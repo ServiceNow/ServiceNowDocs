@@ -2,7 +2,7 @@
 title: Blocking tasks
 description: Certain agent actions trigger case flows which create and resolve the blocking tasks for customer service cases. These tasks determine the case action status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-action-status-blocking-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-action-status-blocking-tasks.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create and manage conversations
 description: Create new Impact conversations or manage existing conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-activity-center/create-manage-conversations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-activity-center/create-manage-conversations.html
 release: australia
 product: Impact Activity Center
 classification: impact-activity-center
@@ -149,5 +149,5 @@ Manage who receives and which conversations are part of the watchlist.
     Changes to the conversation are displayed.
 
 
-**Parent Topic:**[Activity Center Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-activity-center/conversations.md)
+**Parent Topic:**[Activity Center Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-activity-center/conversations.md)
 

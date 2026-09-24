@@ -2,7 +2,7 @@
 title: Start a Zoom or Microsoft Teams meeting from ServiceNow Agent
 description: Initiate a Zoom or Microsoft Teams meeting from the ServiceNow Agent application to resolve customer issues by assisting them virtually while out of the office or away from your desktop computer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/initiate-zoom-MSTeam-meeting-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/initiate-zoom-MSTeam-meeting-fsm.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -84,7 +84,7 @@ Customer
 
 </td><td>
 
-For Zoom calls, you can add a customer mentioned in the work order task.You must install the Customer Service with Field Service Management plugin to see the customer name on work order tasks. For more information, see [Integration with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/customer-service-integration.md).
+For Zoom calls, you can add a customer mentioned in the work order task.You must install the Customer Service with Field Service Management plugin to see the customer name on work order tasks. For more information, see [Integration with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/customer-service-integration.md).
 
 </td></tr></tbody>
 </table>    3.  After the participants list is finalized, tap **Submit** to initiate the conference call.

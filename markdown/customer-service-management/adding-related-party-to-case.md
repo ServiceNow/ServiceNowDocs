@@ -2,7 +2,7 @@
 title: Add related parties to a case
 description: Add related parties to a case to help provide the access level to the related parties, such as contacts or consumers on a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/adding-related-party-to-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/adding-related-party-to-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_agent
 
 ## About this task
 
-Related parties and their assigned responsibilities are part of the Customer Access Management feature. Customer access management enables you to support multiple contacts and consumers on cases and sold products, providing them with varying levels of access to the case. For more information, see [Configuring Customer Access Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-cam.md).
+Related parties and their assigned responsibilities are part of the Customer Access Management feature. Customer access management enables you to support multiple contacts and consumers on cases and sold products, providing them with varying levels of access to the case. For more information, see [Configuring Customer Access Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-cam.md).
 
 Related parties that are added to cases must also be assigned the sn\_customerservice.case\_authorized\_contributor role.
 
@@ -100,5 +100,5 @@ Once related parties are added to the case with a proper functional role having 
 **Related topics**  
 
 
-[Case update notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-update-notification-cam.md)
+[Case update notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-update-notification-cam.md)
 

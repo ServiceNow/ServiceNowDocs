@@ -2,7 +2,7 @@
 title: Accessing associated cases and interaction emails
 description: Access the associated case from the email interaction and vice versa. From the email interaction, agents can view the linked case for additional context. While from the case, they can access all related email interactions. This smooth navigation helps agents manage customer issues more effectively.View the linked case to get additional context on the email interaction.View the linked email interaction to access all information related to the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/accessing-associated-cases-interaction-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/accessing-associated-cases-interaction-emails.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Delete a chemical record
 description: When a chemical is no longer needed or was created in error, deleting it permanently removes the record from the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-delete-chemical-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-delete-chemical-record.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -39,5 +39,5 @@ Role required: sn\_hs\_chm.manager
 
 The chemical record and associated child records \(chemical ingredients and first aid records\) are deleted from the system.
 
-**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-using-chemical-management.md)
+**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-using-chemical-management.md)
 

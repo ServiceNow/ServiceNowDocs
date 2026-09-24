@@ -2,7 +2,7 @@
 title: Create enrollment cases as a contributor
 description: Create enrollment cases for your patients from a service portal as a user with the contributor profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-create-case-contributor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-create-case-contributor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

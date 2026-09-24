@@ -2,7 +2,7 @@
 title: Move a cloud API from one environment to the other
 description: Use update sets to move a cloud API from one environment to another. Update sets group a cloud API and its dependencies into a named set. You can then move them as a unit to other systems for testing or deployment. For example, you can move a cloud API from a development environment to a production environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/export-updateset-capi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/export-updateset-capi.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

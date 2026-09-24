@@ -2,7 +2,7 @@
 title: KB Search widget
 description: The KB Search widget is a search widget that is specifically confined to the knowledge base. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/kb-search-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/kb-search-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -16,7 +16,7 @@ breadcrumb: [Knowledge Management widgets, Widget library, Using portal widgets,
 
 The KB Search widget is a search widget that is specifically confined to the knowledge base. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-The [typeahead search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/typeahead-search-widget.md) is embedded in the KB search widget.
+The [typeahead search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/typeahead-search-widget.md) is embedded in the KB search widget.
 
 \[Omitted image "WidgetKBSearch.png"\] Alt text: KB Search widget with categories displayed
 
@@ -28,7 +28,7 @@ The [typeahead search widget](https://raw.githubusercontent.com/ServiceNow/Servi
 |-----|-----------|
 |Title|Name of the widget. This field is non-public facing.|
 
-**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/km-widgets.md)
+**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/km-widgets.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure Knowledge Base sources
 description: Associate the GDS Service Portal with one or more knowledge bases to display articles from this knowledge base in the portal widgets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-kb-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-govuk-dev-tk-portal-kb-source.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"
@@ -18,7 +18,7 @@ Associate the GDS Service Portal with one or more knowledge bases to display art
 
 **Note:**
 
-Users with the knowledge\_admin or admin role can configure the widget instance options used on the Knowledge Management Service Portal pages. Use the context menu to access the widget instance options and configure a widget instance. For more information, see [Configure Widgets Instance Options for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.md).
+Users with the knowledge\_admin or admin role can configure the widget instance options used on the Knowledge Management Service Portal pages. Use the context menu to access the widget instance options and configure a widget instance. For more information, see [Configure Widgets Instance Options for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.md).
 
 You can also use the external content integration feature to integrate content from various external sources and enable unified knowledge search results. For more information, see [Integration with external knowledge sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-external-content-integration.md).
 

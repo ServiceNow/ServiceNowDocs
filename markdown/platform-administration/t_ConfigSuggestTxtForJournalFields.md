@@ -2,7 +2,7 @@
 title: Configure suggested text for journal fields
 description: You can configure the suggested text options for journal fields, such as work notes or the activity stream. Suggested text options for journal fields are unavailable in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfigSuggestTxtForJournalFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfigSuggestTxtForJournalFields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

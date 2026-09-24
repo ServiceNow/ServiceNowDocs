@@ -2,7 +2,7 @@
 title: Disable citations in AI Agent Studio
 description: Disable citations for specific agentic workflows or AI agents in AI Agent Studio where citations aren’t required or involve confidential information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-hide-citations-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-hide-citations-new.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

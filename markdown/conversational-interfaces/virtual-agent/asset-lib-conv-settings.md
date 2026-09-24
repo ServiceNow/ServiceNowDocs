@@ -2,7 +2,7 @@
 title: Conversational settings for assets in the Asset library
 description: Manage asset settings from the Asset library for individual active assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/asset-lib-conv-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/asset-lib-conv-settings.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -102,5 +102,5 @@ If an asset is selected as Visible, it appears whenever the **Show me everything
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+</table>**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

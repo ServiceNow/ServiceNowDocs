@@ -2,7 +2,7 @@
 title: Exploring Database Encryption
 description: ServiceNow offers database encryption \(DBE\) and full-disk encryption methods for customers with statutory obligations for data protection which may require at-rest protection for all data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/database-encryption-with-customer-controlled-switch/explore-database-encryption.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/database-encryption-with-customer-controlled-switch/explore-database-encryption.html
 release: australia
 product: Database Encryption with Customer Controlled Switch
 classification: database-encryption-with-customer-controlled-switch
@@ -16,7 +16,7 @@ breadcrumb: [Database Encryption, Encryption]
 
 ServiceNow® offers database encryption \(DBE\) and full-disk encryption methods for customers with statutory obligations for data protection which may require at-rest protection for all data.
 
-**Important:** Database Encryption has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Australia release. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
+**Important:** Database Encryption has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Australia release. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cloud-encryption/dare-overview.md)
 
 Database Encryption enables all data to be protected with symmetric AES-256 encryption, whether the database is online or offline. From the ServiceNow AI Platform perspective, all data flows in decrypted.
 
@@ -41,7 +41,7 @@ The ServiceNow AI Platform also supports database encryption with a customer sup
 
 **Note:** Database Encryption is not supported for on-premise instances.
 
-If you are using your own keys for database encryption, see [Database Encryption with Customer Controlled Switch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/database-encryption-with-customer-controlled-switch/dbe-with-ccs.md).
+If you are using your own keys for database encryption, see [Database Encryption with Customer Controlled Switch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/database-encryption-with-customer-controlled-switch/dbe-with-ccs.md).
 
-**Parent Topic:**[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
+**Parent Topic:**[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
 

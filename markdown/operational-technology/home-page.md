@@ -2,7 +2,7 @@
 title: Home page
 description: The Home page on the Discovery Console for OT provides a dashboard overview of the assets and sites on your current system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/home-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/home-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ The following image shows an example of the data that you can find in the Assets
 
 ## Assets by Location
 
-The Assets by Location section provides the number of assets according to the available site. The location of an asset is dependent on the Site's IP ranges that you define when creating a site. For more information about creating a site, see [Add a Site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-site.md).
+The Assets by Location section provides the number of assets according to the available site. The location of an asset is dependent on the Site's IP ranges that you define when creating a site. For more information about creating a site, see [Add a Site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/add-site.md).
 
 The **Top Locations** widget ranks each location based on its number of assets. The **New Assets** widget calls out any recently discovered assets by Site. The **Modified Assets** widget calls out recently edited or updated assets by site.
 
@@ -63,5 +63,5 @@ The Keyswitch / Protection section displays any key switch security or protectio
 
 \[Omitted image "home-page-bottom.png"\] Alt text: Bottom of the Home page
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/using-discovery-console.md)
 

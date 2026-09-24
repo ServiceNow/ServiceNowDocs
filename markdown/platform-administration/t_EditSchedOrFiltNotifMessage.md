@@ -2,7 +2,7 @@
 title: Edit the schedule or filter of an existing notification message
 description: You can update a schedule or filter that was previously created for an email notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EditSchedOrFiltNotifMessage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_EditSchedOrFiltNotifMessage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ To edit the schedule or filter of an existing notification message:
 3.  Select **Update**.
 
 
-**Parent Topic:**[Create a notification filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_NotificationFilters.md)
+**Parent Topic:**[Create a notification filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_NotificationFilters.md)
 

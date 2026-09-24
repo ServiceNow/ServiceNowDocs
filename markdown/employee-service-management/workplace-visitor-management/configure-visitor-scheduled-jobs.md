@@ -2,7 +2,7 @@
 title: Configure the frequency of email notifications
 description: ServiceNow provides two scheduled jobs in the Workplace Visitor Management application that automate email notifications for visitor registration and policy confirmation. This topic explains how to locate these jobs and adjust their execution frequency to meet your organization's notification requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/configure-visitor-scheduled-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/configure-visitor-scheduled-jobs.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -65,7 +65,7 @@ As an admin, you can change the frequency of the jobs to control how often your 
 
 The selected visitor notification scheduled job is now configured to run at the specified frequency. Visitors will receive automated emails according to the updated schedule.
 
-**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 

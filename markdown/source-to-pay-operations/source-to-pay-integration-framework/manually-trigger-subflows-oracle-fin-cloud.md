@@ -2,7 +2,7 @@
 title: Manually trigger flows or subflows in Oracle Financial Cloud \(Inbound\)
 description: You can manually trigger flows or subflows in Oracle Financial Cloud on demand. Follow these steps to manually trigger a flow or subflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/manually-trigger-subflows-oracle-fin-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/manually-trigger-subflows-oracle-fin-cloud.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

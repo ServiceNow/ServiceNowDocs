@@ -2,7 +2,7 @@
 title: Set the priority for tag category definitions for Tag Categorization
 description: Set the priority for tag category definitions to ensure that tag keys belonging to multiple categories are properly categorized.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/set-priority-tag-category-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/tag-governance/set-priority-tag-category-definitions.html
 release: australia
 product: Tag Governance
 classification: tag-governance
@@ -18,7 +18,7 @@ Set the priority for tag category definitions to ensure that tag keys belonging 
 
 ## Before you begin
 
-Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
+Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 Role required: admin
 

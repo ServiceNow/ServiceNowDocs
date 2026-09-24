@@ -2,7 +2,7 @@
 title: Share Threat Intelligence data between TISC instances
 description: You can share threat intelligence data between TISC instances using one of the following methods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-config-sharing-instances.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-config-sharing-instances.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -20,7 +20,7 @@ You can share threat intelligence data between TISC instances using one of the f
 
 -   **Manual sharing through the user interface \(GUI\)**: Manually curate and share intelligence records with a target instance through the TISC interface. For more information, see [Sharing of Outbound Intelligence Records from the GUI](https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.html).
 -   **Automated sharing using flows**: Configure flows to automatically share intelligence data to a target instance based on a defined condition. For more information, see [Automated Sharing of Outbound Intelligence Records](https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-automated-outbound-intel-share.html).
--   **Sharing through a TAXII server**: Exchange threat intelligence data through TAXII collections using standardized threat intelligence sharing protocols. For more information, see [Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md).
+-   **Sharing through a TAXII server**: Exchange threat intelligence data through TAXII collections using standardized threat intelligence sharing protocols. For more information, see [Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md).
 
 **Data transfer mechanism**
 
@@ -30,9 +30,9 @@ You can share threat intelligence data between TISC instances using one of the f
 **Related topics**  
 
 
-[Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md)
+[Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md)
 
-[Automated Sharing of Outbound Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-outbound-intel-share.md)
+[Automated Sharing of Outbound Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-automated-outbound-intel-share.md)
 
-[Automated Sharing of TAXII Collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-share-taxii.md)
+[Automated Sharing of TAXII Collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-automated-share-taxii.md)
 

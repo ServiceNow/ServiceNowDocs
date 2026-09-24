@@ -2,7 +2,7 @@
 title: Activating your Performance Analytics subscription
 description: Without a paid Performance Analytics subscription, your use is limited to 180 days of data collection \(five months for monthly indicators\) and to specific indicators provided by ServiceNow, and you cannot activate Data snapshots. For unlimited access to all features, purchase a subscription to Performance Analytics.With a subscription to Performance Analytics, your features should be activated automatically.Confirm manually whether you are entitled to a Performance Analytics product line. If so, you are entitled to activate the corresponding plugin on production instances.When you have purchased a Performance Analytics subscription and identified the associated plugin, activate that plugin as follows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_PremiumPerformanceAnalytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/c\_PremiumPerformanceAnalytics.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -21,10 +21,10 @@ After you purchase the subscription, you might need to activate the plugin assoc
 Performance Analytics subscriptions enable you to use the following functionality beyond what is available with the base system:
 
 -   Custom Performance Analytics indicators, breakdowns, widgets, or other configuration records
--   The ability to activate Data snapshots for indicators. For more information, see [Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md).
+-   The ability to activate Data snapshots for indicators. For more information, see [Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-level-breakdowns.md).
 -   Scores preserved for longer than 180 days \(Five full months for monthly indicators\)
 -   Text analytics widgets \(Core UI only\)
--   [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/proactive-analytics/proactive-analytics.md)
+-   [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/proactive-analytics/proactive-analytics.md)
 
 If you have purchased Performance Analytics through a Professional or Enterprise offering, you may use it with no restrictions in these situations:
 
@@ -42,7 +42,7 @@ The Performance Analytics Admin Console also warns you when an instance doesn’
 
 \[Omitted image "admin-console-pa-not-activated.png"\] Alt text: Performance Analytics admin console showing subscription version not activated
 
-**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
 ## Subscription Management for Performance Analytics
 
@@ -108,5 +108,5 @@ A progress bar shows you the progress of the plugin activation, after which you 
 
 ### What to do next
 
-Consider activating Spotlight. Spotlight helps prioritize records by evaluating them against multiple weighted criteria. For more information, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md).
+Consider activating Spotlight. Spotlight helps prioritize records by evaluating them against multiple weighted criteria. For more information, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight.md).
 

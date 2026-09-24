@@ -2,7 +2,7 @@
 title: Submit an invoice inquiry case for an internal review
 description: Submit an invoice inquiry case for an internal review by creating a review task and assigning it to the reviewers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/submit-inquiry-case-internal-review.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/submit-inquiry-case-internal-review.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -46,5 +46,5 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
     The state of the case updates to **Awaiting internal info**.
 
 
-**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
+**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
 

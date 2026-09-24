@@ -2,7 +2,7 @@
 title: Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel
 description: Request generative AI capabilities in the ServiceNow Otto panel, such as chat summaries, case summaries, resolution notes, or knowledge article generation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -43,15 +43,15 @@ For more information about the panel, see [ServiceNow Otto panel](https://raw.gi
 
     You can summarize chats for interactions and cases, summarize cases and calls, and generate resolution notes and knowledge articles. You can also ask questions about cases, use AI agents to complete cases, and complete tasks with conversational subflows and actions.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d41671e172">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d41675e172">
 
 Option
 
-</th><th align="left" id="d41671e175">
+</th><th align="left" id="d41675e175">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41671e181">
+</th></tr></thead><tbody><tr><td id="d41675e181">
 
 **Summarize the chat for an interaction**
 
@@ -62,7 +62,7 @@ Description
 3.  In the panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d41671e211">
+</td></tr><tr><td id="d41675e211">
 
 **Summarize the chat for a case that is created from an interaction**
 
@@ -73,7 +73,7 @@ Description
 3.  In the panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the case was created is displayed.
 
 
-</td></tr><tr><td id="d41671e241">
+</td></tr><tr><td id="d41675e241">
 
 **Summarize a case**
 
@@ -84,7 +84,7 @@ Description
 3.  In the panel, select **Summarize a record**.
 
 
-</td></tr><tr><td id="d41671e271">
+</td></tr><tr><td id="d41675e271">
 
 **Generate case resolution notes**
 
@@ -95,7 +95,7 @@ Description
 3.  In the panel, select **Generate resolution notes**.
 
 
-</td></tr><tr><td id="d41671e302">
+</td></tr><tr><td id="d41675e302">
 
 **Summarize a call**
 
@@ -106,7 +106,7 @@ Description
 3.  In the panel, select **Summarize conversation**. A call summary of the conversation with the live agent is generated on the details page.
 
 
-</td></tr><tr><td id="d41671e332">
+</td></tr><tr><td id="d41675e332">
 
 **Generate a knowledge article**
 
@@ -117,7 +117,7 @@ Description
 3.  In the panel, select **Generate Article**. A knowledge article is drafted for the case using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d41671e362">
+</td></tr><tr><td id="d41675e362">
 
 **Ask questions about a case**
 
@@ -128,7 +128,7 @@ Description
 3.  In the panel, enter a case assist topic question and select a case assist topic. Information requested about the case is shown.
 
 
-</td></tr><tr><td id="d41671e389">
+</td></tr><tr><td id="d41675e389">
 
 **Use AI agents to complete cases**
 
@@ -151,5 +151,5 @@ Description
     Information requested about the case is shown. Conversational subflows and actions capture users' intents when requesting to run specific subflows and actions, along with all necessary details for those subflows and actions. This streamlines the user experience by enabling them to accomplish everything in one place within the panel.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

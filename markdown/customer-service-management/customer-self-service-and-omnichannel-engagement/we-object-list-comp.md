@@ -2,7 +2,7 @@
 title: Object list component
 description: Enables you to display records from different tables with their related actions in a list format. It supports bulk and inline actions like editing fields, assigning items, or changing states directly from the list. It also shows various record types such as interactions or orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-object-list-comp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-object-list-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

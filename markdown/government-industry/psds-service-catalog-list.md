@@ -2,7 +2,7 @@
 title: Government Service Portal service catalog
 description: The following services are base system public service catalog items offered in the Government Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-service-catalog-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-service-catalog-list.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ The following services are base system public service catalog items offered in t
 
 These services display automatically for registered users. When a user uses one of these catalog items to submit a request, it automatically maps the case to certain pre-built requests. .
 
-For information on how to set up and customize the public services offered by your agency \(and displayed in your Government Service Portal service catalog\), see [Configure the portal service catalog for a constituent, business, or agency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-services-offered.md).
+For information on how to set up and customize the public services offered by your agency \(and displayed in your Government Service Portal service catalog\), see [Configure the portal service catalog for a constituent, business, or agency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configure-services-offered.md).
 
 A user can go to the service catalog and create a case using the categories and sub-categories outlined in the following table.
 

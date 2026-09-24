@@ -2,7 +2,7 @@
 title: Create an invoice case
 description: Create an invoice case for a customer invoice or for selected invoice lines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/invoice-ops-create-invoice-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/invoice-ops-create-invoice-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,6 +50,6 @@ Role required: sn\_csm\_invoice.agent, sn\_csm\_invoice.manager, admin
 
 After submitting an invoice case, you can:
 
--   [Add an invoice case line to an invoice case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/invoice-ops-add-invoice-case-line-item.md)
--   [Create a task for an invoice case line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/invoice-ops-create-case-line-task.md)
+-   [Add an invoice case line to an invoice case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/invoice-ops-add-invoice-case-line-item.md)
+-   [Create a task for an invoice case line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/invoice-ops-create-case-line-task.md)
 

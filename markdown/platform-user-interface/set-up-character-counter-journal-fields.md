@@ -2,7 +2,7 @@
 title: Configure a character counter for journal fields
 description: Configure a character counter to display the number of remaining characters in a journal field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-character-counter-journal-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-up-character-counter-journal-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

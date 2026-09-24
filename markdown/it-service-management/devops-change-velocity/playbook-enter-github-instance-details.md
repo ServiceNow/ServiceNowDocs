@@ -2,7 +2,7 @@
 title: Onboard GitHub to DevOps Change Velocity — Workspace
 description: Connect to your GitHub instance using the DevOps Change Workspace playbook to discover, configure, and import repositories, plans, and pipelines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/playbook-enter-github-instance-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/playbook-enter-github-instance-details.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -18,7 +18,7 @@ Connect to your GitHub instance using the DevOps Change Workspace playbook to di
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -90,15 +90,15 @@ Only enter a different hostname if you run a self-hosted GitHub Enterprise Serve
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard GitHub.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d376415e238">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d376394e238">
 
 Option
 
-</th><th align="left" id="d376415e241">
+</th><th align="left" id="d376394e241">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d376415e247">
+</th></tr></thead><tbody><tr><td id="d376394e247">
 
 **Homepage**
 
@@ -108,19 +108,19 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category \(Orchestration, Code, Plan, or Software quality\). For example, if you want to connect to GitHub as coding tool, you'd select the **Coding tools** category.
 
 
-</td></tr><tr><td id="d376415e274">
+</td></tr><tr><td id="d376394e274">
 
 **Applications module**
 
 </td><td>
 
 1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\) from the primary navigation.
-2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/app-create-workspace.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitHub as coding tool, select GitHub under the **Code** category.
 
 
-</td></tr><tr><td id="d376415e329">
+</td></tr><tr><td id="d376394e329">
 
 **Tools module**
 
@@ -168,7 +168,7 @@ OAuth 2.0 with Authorization Code
 
 </td><td>
 
-Select an existing OAuth 2.0 with Authorization Code credential record or create an OAuth 2.0 with Authorization Code credential record. For more information, see [Create a credential record for GitHub App provider \(Authorization Code\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-github-apps-oauth-auth.md).
+Select an existing OAuth 2.0 with Authorization Code credential record or create an OAuth 2.0 with Authorization Code credential record. For more information, see [Create a credential record for GitHub App provider \(Authorization Code\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-github-apps-oauth-auth.md).
 
  \[Omitted image "github-oauth-auth.png"\] Alt text: GitHub Oauth 2.0 with Authorization Code credential type
 
@@ -180,17 +180,17 @@ OAuth 2.0 with JSON Web Token \(JWT\)
 
 To connect using OAuth 2.0 with a JWT, you must first perform the following:
 
--   [Create and configure a GitHub App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md)
--   [Generate the Java KeyStore certificate for GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md)
--   [Attach the GitHub Java KeyStore certificate to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md)
+-   [Create and configure a GitHub App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md)
+-   [Generate the Java KeyStore certificate for GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md)
+-   [Attach the GitHub Java KeyStore certificate to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md)
  After completing the prerequisites, you can continue with the DevOps Change Velocity Connect playbook activity:
 
 1.  Select the **Use an existing JWT credential record** option if you want to use an already existing JWT credential record. If this option is not selected, the fields to create a new JWT credential record are displayed. Proceed to the next step.
 2.  In the **JKS certificate** field, select an existing JKS certificate. This is the name you entered to uniquely identify the JWT provider. JKS certificates are created using shell commands to create a sys\_certificate record.
 
-For more information, see [Create a JWT signing key for the GitHub JKS certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md).
+For more information, see [Create a JWT signing key for the GitHub JKS certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md).
 
-3.  In the **Signing key** field, enter the signing key to be assigned to your JKS certificate. This is the export password entered while [generating the JKS certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md).
+3.  In the **Signing key** field, enter the signing key to be assigned to your JKS certificate. This is the export password entered while [generating the JKS certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.md).
 4.  In the **GitHub App ID** field, select the app ID of your GitHub App \(available in the About section of your GitHub App configuration in GitHub\). The following image displays an example of the About section of a GitHub App configuration from where you can access the GitHub App ID, Client ID, and Client secret.
 
 \[Omitted image "github-jwt-about-screen.png"\] Alt text: About page of GitHub App.
@@ -210,7 +210,7 @@ For the installation id, go to Install App section in your GitHub App configurat
  If the OAuth credential is created using GitHub Apps - JWT, the **Configure with GitHub App** option will be available on the tool record page.
 
 </td></tr></tbody>
-</table>        For more information on OAuth2.0 credentials, see [Setting up GitHub OAuth 2.0 credentials for DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-github-oauth-dev-ops.md).
+</table>        For more information on OAuth2.0 credentials, see [Setting up GitHub OAuth 2.0 credentials for DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/setting-up-github-oauth-dev-ops.md).
 
     3.  Enter a value in the **GitHub app slug name** field to check the permission requirements of the tool before connecting if you have created your Oauth 2.0 credentials using GitHub Apps.
 
@@ -230,7 +230,7 @@ For the installation id, go to Install App section in your GitHub App configurat
 
     6.  Permission checks are run on the credentials that you entered.
 
-        Permissions required and permissions that are available are displayed. If you want to enter credentials with better permissions, select **Re-enter credentials**. For detailed information on all the required permissions, see GitHub permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/tool-req-permission.md).
+        Permissions required and permissions that are available are displayed. If you want to enter credentials with better permissions, select **Re-enter credentials**. For detailed information on all the required permissions, see GitHub permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/tool-req-permission.md).
 
         For OAuth 2.0, if you haven’t entered the GitHub app slug name, the tool is connected without checking permission requirements.
 
@@ -270,7 +270,7 @@ For the installation id, go to Install App section in your GitHub App configurat
 
     \[Omitted image "github-plybk-02.png"\] Alt text: Select repositories to configure from GitHub.
 
-    To configure manually, select **Configure manually**. See [Configure webhooks in GitHub manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-webhooks-github-manually.md) for more information.
+    To configure manually, select **Configure manually**. See [Configure webhooks in GitHub manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/config-webhooks-github-manually.md) for more information.
 
     **Important:**
 
@@ -324,7 +324,7 @@ For the installation id, go to Install App section in your GitHub App configurat
 
     \[Omitted image "github-plybk-07.png"\] Alt text: Connection summary
 
-    For GitHub Actions pipelines, you must perform some additional steps like creating secrets, defining the workflow configuration in GitHub, and so on. For more information, see [GitHub Actions configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-actions-integration-with-devops.md).
+    For GitHub Actions pipelines, you must perform some additional steps like creating secrets, defining the workflow configuration in GitHub, and so on. For more information, see [GitHub Actions configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/github-actions-integration-with-devops.md).
 
 
 ## Result
@@ -355,10 +355,10 @@ If you are an upgrading customer, plans will be discovered for your repositories
 
 **Note:** Historical import of plans is not supported.
 
-**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
+**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
 
 **Related topics**  
 
 
-[Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md)
+[Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md)
 

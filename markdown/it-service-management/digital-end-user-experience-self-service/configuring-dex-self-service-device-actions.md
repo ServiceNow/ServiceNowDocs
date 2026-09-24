@@ -2,7 +2,7 @@
 title: Configure device actions
 description: Configure device actions that end users can trigger to maintain optimal device and application performance even when no issues are detected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-device-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-device-actions.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -40,7 +40,7 @@ Role required: sn\_dex.admin
 
 4.  On the form, fill in the remaining fields.
 
-    **Note:** For a description of the field values, see [DEX Self-service device action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/dex-self-service-device-actions-form.md).
+    **Note:** For a description of the field values, see [DEX Self-service device action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-self-service/dex-self-service-device-actions-form.md).
 
 5.  Select **Submit** to add new device actions, and **Update** to modify existing device actions.
 
@@ -48,5 +48,5 @@ Role required: sn\_dex.admin
 **Related topics**  
 
 
-[Custom device action example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/example-device-action.md)
+[Custom device action example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-self-service/example-device-action.md)
 

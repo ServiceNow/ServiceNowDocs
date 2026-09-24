@@ -2,7 +2,7 @@
 title: Custom UI category
 description: Validate the behavior of page components on custom user interfaces.Set component values on a custom UI page.Assert that the specified text is or is not on a custom UI page.Validate a component value on a custom UI page.Click a component on a custom UI page.Validate the state of a specified component on a custom UI page.Open a portal page. Test designers must first open a page in a portal before testing UI components on the page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-custom-ui-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/test-steps-custom-ui-category.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf

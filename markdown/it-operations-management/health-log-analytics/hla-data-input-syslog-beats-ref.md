@@ -2,7 +2,7 @@
 title: Rsyslog, Filebeat, or Winlogbeat data input configuration fields
 description: Description of the fields on the Rsyslog, Filebeat, and Winlogbeat data input configuration forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-syslog-beats-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-syslog-beats-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -73,7 +73,7 @@ Content pack
 
 </td><td>
 
-\(Linux using Filebeat only\) The content pack to use.Content packs contain default source types and mapping script templates. Health Log Analytics activates the selected pack automatically and uses its mapping script for mapping the data input sources. For more information, see [Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-content-packs.md).
+\(Linux using Filebeat only\) The content pack to use.Content packs contain default source types and mapping script templates. Health Log Analytics activates the selected pack automatically and uses its mapping script for mapping the data input sources. For more information, see [Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-content-packs.md).
 
 </td></tr></tbody>
 </table><table id="table_eqc_zjq_j4b"><thead><tr><th>
@@ -148,5 +148,5 @@ For data inputs that use Beats agents:
 |Character encoding|The character encoding for this data input.|UTF-8|
 |Drop if queue is full|Option to discard logs if there is a load on the MID Server.|false|
 
-**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

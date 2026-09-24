@@ -2,7 +2,7 @@
 title: Automate incident updates and closures
 description: Automate incident updates and closures based on the incident status. The Cortex XSIAM integration enables incidents to create security incidents and also to update the incidents after they are created or closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/pan-xsiam-automate-inc-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/pan-xsiam-automate-inc-updates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

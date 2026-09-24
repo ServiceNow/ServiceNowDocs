@@ -2,7 +2,7 @@
 title: Sample workspaces you can build
 description: Workspace Builder provides a basic workspace that includes a home page, record pages, lists, an Analytics Overview, and other functions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/types-of-workspaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/workspace-builder/types-of-workspaces.html
 release: australia
 product: Workspace Builder
 classification: workspace-builder
@@ -67,5 +67,5 @@ For more information on Analytics Overview, see [Platform Analytics overview](ht
 
 \[Omitted image "sample-worksapce-analytics-next-exp.png"\] Alt text: Example Analytics Center for a workspace
 
-**Parent Topic:**[Exploring Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/exploring-workspace-builder.md)
+**Parent Topic:**[Exploring Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/exploring-workspace-builder.md)
 

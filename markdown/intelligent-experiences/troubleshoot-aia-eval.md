@@ -2,7 +2,7 @@
 title: Troubleshoot agentic evaluations
 description: Find solutions to common evaluation errors, including run failures, data ingestion issues, and unexpected results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/troubleshoot-aia-eval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/troubleshoot-aia-eval.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-18"
@@ -26,11 +26,11 @@ There are a few different reasons why an evaluation run may fail to execute prop
 
 -   **User permissions**
 
-    Confirm that your User record has the permissions required to execute evaluation runs in general and to use the specific AI asset. To check whether a certain user has access, you can perform an access test. See [Test user access to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-access.md) and [Test user access to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aw-access.md).
+    Confirm that your User record has the permissions required to execute evaluation runs in general and to use the specific AI asset. To check whether a certain user has access, you can perform an access test. See [Test user access to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aia-access.md) and [Test user access to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aw-access.md).
 
 -   **Data format errors**
 
-    Verify that the dataset conforms to the required format. Malformed records can cause the evaluation to fail. See [Data requirements for agentic evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ref-aia-eval.md) for the supported data types.
+    Verify that the dataset conforms to the required format. Malformed records can cause the evaluation to fail. See [Data requirements for agentic evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ref-aia-eval.md) for the supported data types.
 
 -   **Metric and data mismatch**
 
@@ -47,7 +47,7 @@ If the evaluation found no issues, but the specific agentic AI asset is still no
 
 -   **Metric selection**
 
-    The selected metrics may not be measuring where the agentic AI asset is failing. Review whether additional or different metrics would better capture the performance gap. You can [create custom metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-custom-metric.md) to evaluate other dimensions of the agentic AI asset responses or actions, such as length of response or whether a response meets certain formatting requirements.
+    The selected metrics may not be measuring where the agentic AI asset is failing. Review whether additional or different metrics would better capture the performance gap. You can [create custom metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-custom-metric.md) to evaluate other dimensions of the agentic AI asset responses or actions, such as length of response or whether a response meets certain formatting requirements.
 
 -   **Scoring thresholds**
 
@@ -56,7 +56,7 @@ If the evaluation found no issues, but the specific agentic AI asset is still no
 
 ## Optimization applied, but re-evaluation didn't improve
 
-If the re-evaluation scores did not improve after [applying optimizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-eval-apply-optimization.md), try the following:
+If the re-evaluation scores did not improve after [applying optimizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-eval-apply-optimization.md), try the following:
 
 -   Review trace details for the issues that were targeted. The optimization may have only alleviated surface-level symptoms without resolving the underlying root cause.
 -   Check whether the optimization introduced a regression in a different metric. Score improvements in one area can sometimes degrade another, lowering the final scores.

@@ -2,7 +2,7 @@
 title: Legacy: ITIL dashboard
 description: Use this dashboard to view, maintain, and track the tasks and incidents for operating the IT service desk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/itil-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/itil-dashboard.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -18,7 +18,7 @@ Use this dashboard to view, maintain, and track the tasks and incidents for oper
 
 **Important:**
 
-Starting in Xanadu release, the ITIL dashboard is deprecated. Users can use [IT Agent dashboard for Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/it-agent-dashboard-sow.md) to view, maintain, and track the tasks and incidents for operating the IT service desk.
+Starting in Xanadu release, the ITIL dashboard is deprecated. Users can use [IT Agent dashboard for Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/it-agent-dashboard-sow.md) to view, maintain, and track the tasks and incidents for operating the IT service desk.
 
 \[Omitted image "itil-dashboard-updated.png"\] Alt text: ITIL Dashboard
 
@@ -50,5 +50,5 @@ The dashboard includes the following visualizations:
 |My Groups Work|List \(\[Omitted image "icon-list-report-p.png"\] Alt text: List report icon\)|Outstanding work load \(tasks\) of the logged-in user's group.|
 |My Work|List \(\[Omitted image "icon-list-report-p.png"\] Alt text: List report icon\)|The logged-in user's outstanding work load \(tasks\).|
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-content-pack.md)
 

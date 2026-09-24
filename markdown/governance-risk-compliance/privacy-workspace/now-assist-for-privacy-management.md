@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Privacy Management
 description: ServiceNow Otto for Privacy Management is a GenAI‑powered capability that streamlines privacy workflows by summarizing risk assessments, condensing issue details, and identifying redundant control objectives for rationalization into a common control objective.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/now-assist-for-privacy-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/now-assist-for-privacy-management.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace

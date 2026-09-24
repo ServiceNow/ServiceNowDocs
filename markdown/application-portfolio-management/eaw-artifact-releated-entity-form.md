@@ -2,7 +2,7 @@
 title: Create related entities form
 description: Enterprise Architecture Workspace enables Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform. These associations create a relationship between the artifact and related entities such as business capabilities, business applications, digital integrations, digital interfaces, and TRM products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-artifact-releated-entity-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-artifact-releated-entity-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,10 +22,10 @@ Enterprise Architecture Workspace enables Enterprise Architects to associate an 
 |Entity|Type of the business entity. The entity type can be a business application, business capability, digital integration, digital interface, or a TRM product.|
 |Target Record|Name of the particular business application or business capability or digital integration or digital interface, or a TRM product to which you want to associate the artifact.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add a related entity to an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-a-related-entity-to-an-architectural-artifact.md)
+[Add a related entity to an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-a-related-entity-to-an-architectural-artifact.md)
 

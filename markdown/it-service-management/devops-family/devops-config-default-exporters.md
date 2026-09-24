@@ -2,7 +2,7 @@
 title: Default DevOps Config exporters
 description: The DevOps Config Exporter content pack contains a set of default DevOps Config exporters of data that can be used as input for further deployment and provisioning activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-default-exporters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-default-exporters.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -251,5 +251,5 @@ Returns the value of a specific key based on its name in the snapshot. Unlike `e
     -   If the keyName is not provided, `no keyName argument provided`.
     -   If the key is not found, `key not found: <keyName>`.
 
-**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-reference.md)
+**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-reference.md)
 

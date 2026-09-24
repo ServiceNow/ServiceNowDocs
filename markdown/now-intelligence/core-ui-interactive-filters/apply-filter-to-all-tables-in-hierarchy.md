@@ -2,7 +2,7 @@
 title: Interactive filters on database views and table hierarchies
 description: When you create an interactive filter on an extended table, you can also apply the filter to database views and to the other tables in the hierarchy. The hierarchy includes all parent, child, and sibling tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/apply-filter-to-all-tables-in-hierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/core-ui-interactive-filters/apply-filter-to-all-tables-in-hierarchy.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
@@ -24,7 +24,7 @@ When you create an interactive filter, you can:
 
     Specify any possible targets in the **Interactive Filter References** section for this selection to be respected.
 
--   **Select __Apply filter to both [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) and tables__.**
+-   **Select __Apply filter to both [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) and tables__.**
 
     If the source table is incident, then the interactive filter applies to both incident and, for example, the \[incident\_sla\] database view.
 
@@ -47,5 +47,5 @@ Interactive filters applied to extended tables also apply to the other tables in
 
 **Note:** Interactive filters on a database view do not apply automatically to the siblings of the database view's source table. For example, \[problem\_sla\] is a database view created on the table \[task\_problem\]. Interactive filters applied to \[problem\_sla\] do not apply automatically to widgets based on the \[task\_change\] table, a sibling of \[task\_problem\], even if you have selected both options.
 
-**Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
+**Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
 

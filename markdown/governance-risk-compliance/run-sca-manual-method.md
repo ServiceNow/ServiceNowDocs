@@ -2,7 +2,7 @@
 title: Run a scenario analysis using the manual method
 description: Run a scenario analysis on subject-matter-expert \(SME\) judgment instead of statistical simulation. The manual method reuses the guided playbook but omits the Reference Data step and the quantitative Results step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/run-sca-manual-method.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/run-sca-manual-method.html
 release: australia
 topic_type: task
 last_updated: "2026-05-31"
@@ -21,9 +21,9 @@ Role required: **sn\_oper\_res.admin**, **sn\_oper\_res.manager**
 
 ## About this task
 
-Use the manual method when a quantitative financial-loss projection is not required and an SME records the impact of a scenario qualitatively. When you set the **Method** field to **Manual**, the analysis uses an SME assessment template instead of a statistical simulation. The **Scope**, **Scenarios**, **Treatment Decision**, **Operational Vulnerabilities**, and **Issues** steps are the same as in the statistical modelling flow. The method is a choice you make on the **Details** tab when you create the scenario analysis record; it is not an extra step in the flow. Choose **Statistical Modelling** or **Manual** based on your requirement. For the statistical modelling flow, see [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-scenario-testing.md).
+Use the manual method when a quantitative financial-loss projection is not required and an SME records the impact of a scenario qualitatively. When you set the **Method** field to **Manual**, the analysis uses an SME assessment template instead of a statistical simulation. The **Scope**, **Scenarios**, **Treatment Decision**, **Operational Vulnerabilities**, and **Issues** steps are the same as in the statistical modelling flow. The method is a choice you make on the **Details** tab when you create the scenario analysis record; it is not an extra step in the flow. Choose **Statistical Modelling** or **Manual** based on your requirement. For the statistical modelling flow, see [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/complete-sca-scenario-testing.md).
 
-**Note:** The manual method omits the **Reference Data** step and the quantitative **Results** step. Because the answers are entered manually and no simulation runs, the manual method does not produce calculated financial-loss metrics. For an overview of both methods, see [Scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-ov.md).
+**Note:** The manual method omits the **Reference Data** step and the quantitative **Results** step. Because the answers are entered manually and no simulation runs, the manual method does not produce calculated financial-loss metrics. For an overview of both methods, see [Scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/scenario-analysis-ov.md).
 
 ## Procedure
 
@@ -80,5 +80,5 @@ Use the manual method when a quantitative financial-loss projection is not requi
 
 ## Result
 
-The scenario analysis is complete and recorded with the SME assessment and treatment decision. Because the manual method does not run a simulation, the analysis does not include calculated financial-loss metrics. For information about the statistical modelling method, see [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-scenario-testing.md).
+The scenario analysis is complete and recorded with the SME assessment and treatment decision. Because the manual method does not run a simulation, the analysis does not include calculated financial-loss metrics. For information about the statistical modelling method, see [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/complete-sca-scenario-testing.md).
 

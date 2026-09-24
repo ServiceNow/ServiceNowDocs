@@ -2,7 +2,7 @@
 title: Prerequisites for using Dynamic Translation in Virtual Agent
 description: To enable dynamic machine translation, install ServiceNow language plugins and Dynamic Translation plugins. Then configure Dynamic Translation for your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/prereq-using-dt-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/prereq-using-dt-va.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -16,7 +16,7 @@ breadcrumb: [Localization options for Virtual Agent, Build and deploy, Virtual A
 
 To enable dynamic machine translation, install ServiceNow® language plugins and Dynamic Translation plugins. Then configure Dynamic Translation for your instance.
 
-Before you can [enable dynamic machine translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-lang-detection.md) for a language, you must install and configure Dynamic Translation on your instance.
+Before you can [enable dynamic machine translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-dynamic-lang-detection.md) for a language, you must install and configure Dynamic Translation on your instance.
 
 1.  As an admin, install the following plugins:
 
@@ -26,11 +26,11 @@ Before you can [enable dynamic machine translation](https://raw.githubuserconten
 
     **Note:** Languages for Dynamic Translation are stored in the sys\_cs\_dynamic\_translation\_virtual\_agent table.
 
-3.  \(Optional\) [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md), if you are using NLU topic discovery.
+3.  \(Optional\) [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md), if you are using NLU topic discovery.
 
     **Note:** NLU detection and discovery values are stored in the sys\_cs\_general\_settings table. As of Vancouver, ServiceNow NLU is the available NLU driver.
 
-4.  \(Optional\) [Enable LLM languages in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md) if you are using ServiceNow Otto in Virtual Agent.
+4.  \(Optional\) [Enable LLM languages in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md) if you are using ServiceNow Otto in Virtual Agent.
 5.  \(Optional\) Create exclusion rules for specific terms and content patterns within the [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dyn-translation-exclusion-framework.md).
 
 The following translation service providers are pre-configured once the plugins are installed:
@@ -54,7 +54,7 @@ You can configure any other translation service provider in the Dynamic Translat
 
 ## Next step
 
-[Configure Dynamic Translation service integration credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-translation-srvc-integration-credentials.md)
+[Configure Dynamic Translation service integration credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-translation-srvc-integration-credentials.md)
 
-**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

@@ -2,7 +2,7 @@
 title: Transform Payload from Inbound Sample action
 description: Transform a Remote Process Sync payload from a JSON string to a complex object. Generate the object structure from a sample of the inbound payload.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/transform-payload-inbound-sample-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub-remote-process-sync/transform-payload-inbound-sample-action.html
 release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
@@ -22,7 +22,7 @@ Available as a ServiceNow Core Remote Process Sync action.
 
 -   **Subscription requirements**
 
-    This action requires an Integration Hub subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md) and [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+    This action requires an Integration Hub subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/request-ih-overview.md) and [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
 -   **Role requirements**
 

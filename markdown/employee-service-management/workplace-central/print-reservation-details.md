@@ -2,7 +2,7 @@
 title: Print reservation details
 description: Print the details of a reservation created in your workplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/print-reservation-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/print-reservation-details.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -57,5 +57,5 @@ Role required: sn\_wsd\_rsv.reservation\_planner or sn\_wsd\_rsv.reservation\_vi
     **Note:** The Print reservation feature is only available for single- and multi-child reservations and is not available for blocker reservations and multi-parent reservations.
 
 
-**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-event-planner.md)
 

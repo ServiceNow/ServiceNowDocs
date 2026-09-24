@@ -2,7 +2,7 @@
 title: UI Builder release notes
 description: The ServiceNow UI Builder application is a web user interface builder for building pages for Workspaces, as well as custom workspaces or portals with Next Experience Components. UI Builder was enhanced and updated in the Australia release.The ServiceNow UI Builder application is a web user interface builder for building pages for Workspaces, as well as custom workspaces or portals with Next Experience Components. UI Builder was enhanced and updated in the Australia release.The ServiceNow UI Builder application is a web user interface builder for building pages for Workspaces, as well as custom workspaces or portals with Next Experience Components. UI Builder was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/ui-builder-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/ui-builder-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ The ServiceNow® UI Builder application is a web user interface builder for buil
 -   Share UI Builder pages across experiences without copying or recreating them, reducing maintenance and keeping users in their current workspace.
 -   UI Interactions let you define reusable UI and logic that can be triggered by user actions or system events and shared across any page or experience, eliminating the need to duplicate code or UI.
 
-See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -45,7 +45,7 @@ See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aus
     The expanded drop-down menus for column properties are compatible with screen readers, making interface navigation easier for screen reader users.
 
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## Australia General Availability
 
@@ -53,7 +53,7 @@ The ServiceNow® UI Builder application is a web user interface builder for buil
 
 ### What's new
 
--   **[Update an existing UI interaction flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-ui-interaction.md)**
+-   **Update an existing UI interaction flow**
 
     As of UI Builder version 29.2, the UI interaction diagram editor now supports in-place editing, giving you more flexibility when modifying existing interactions without rebuilding downstream flows.
 
@@ -68,7 +68,7 @@ The ServiceNow® UI Builder application is a web user interface builder for buil
 
 ### What's new
 
--   **[Create event-driven UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/uib-ui-interactions.md)**
+-   **Create event-driven UI interactions**
 
     Trigger UI interactions directly from events in UI Builder, allowing you to link event-driven behavior to reusable interaction logic with the following benefits:
 
@@ -79,7 +79,7 @@ The ServiceNow® UI Builder application is a web user interface builder for buil
 
 ### What's changed
 
--   **[Use pages across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-across-pages.md)**
+-   ****
 
     Share and reuse pages across workspaces without switching contexts or rebuilding content to help save time and simplify maintenance.
 

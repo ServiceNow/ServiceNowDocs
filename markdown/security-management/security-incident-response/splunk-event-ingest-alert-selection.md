@@ -2,7 +2,7 @@
 title: Select scheduled alerts for the Splunk Enterprise Event Ingestion integration
 description: After you have created a profile for a scheduled alert, select a Splunk alert for this profile that you want to map to a ServiceNow AI Platform Security Incident Response security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-alert-selection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest-alert-selection.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -50,15 +50,15 @@ View the available alerts in your ServiceNow AI Platform instance so you know wh
 
 4.  Choose one option to continue.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d507433e219">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d507427e219">
 
 Option
 
-</th><th align="left" id="d507433e222">
+</th><th align="left" id="d507427e222">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d507433e228">
+</th></tr></thead><tbody><tr><td id="d507427e228">
 
 **Continue, or alternatively, click Mapping in the progress bar**
 
@@ -66,7 +66,7 @@ Description
 
 The Mapping form is displayed. **Mapping** is selected on the progress bar. The next step is to map alert fields to a SIR security incident.
 
-</td></tr><tr><td id="d507433e245">
+</td></tr><tr><td id="d507427e245">
 
 **Update**
 
@@ -74,7 +74,7 @@ The Mapping form is displayed. **Mapping** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d507433e254">
+</td></tr><tr><td id="d507427e254">
 
 **Previous**
 
@@ -82,7 +82,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The **Name** step is displayed.
 
-</td></tr><tr><td id="d507433e266">
+</td></tr><tr><td id="d507427e266">
 
 **Delete**
 
@@ -96,5 +96,5 @@ Delete this event profile and the Splunk Event Profiles list is displayed.
 
 You have successfully selected an alert for a scheduled alert profile. The next step is map alert values to fields on a security incident.
 
-**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
+**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
 

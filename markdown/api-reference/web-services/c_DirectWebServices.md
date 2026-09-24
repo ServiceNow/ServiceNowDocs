@@ -2,7 +2,7 @@
 title: Direct web services
 description: A direct web service is available for any table in the system if the correct access control list is configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_DirectWebServices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_DirectWebServices.html
 release: australia
 product: Web Services
 classification: web-services
@@ -65,25 +65,25 @@ ServiceNow_<table name>
 
 To allow duplicate service names, administrators can set the **glide.wsdl.unique\_service\_name** property to **false**. Create the property if it does not exist.
 
--   **[Use forms to limit or extend the query response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/using-forms-limit-extend-query-resp.md)**  
+-   **[Use forms to limit or extend the query response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/using-forms-limit-extend-query-resp.md)**  
 On occasion, there is a need to limit the number of field values that a SOAP query returns.
--   **[Return the display value for reference variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/return-display-reference-variables.md)**  
+-   **[Return the display value for reference variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/return-display-reference-variables.md)**  
 When you query a record using a **get** or **getRecords** function, the instance returns all fields associated with that record. The fields are often reference fields that contain a sys\_id for a record on another table.
--   **[Clear values from a target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/clearing-values-target.md)**  
+-   **[Clear values from a target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/clearing-values-target.md)**  
 You can pass an empty value through a SOAP parameter to clear the respective value in the target instance.
--   **[Retrieve journal entries using direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/retrieving-journal-entries.md)**  
+-   **[Retrieve journal entries using direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/retrieving-journal-entries.md)**  
 To get the contents of a journal field, make a second soap request against the sys\_journal\_field table to pull the appropriate journal records back for the record in question.
--   **[Retrieve choice fields using direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/retrieving-choice-fields-direct-ws.md)**  
+-   **[Retrieve choice fields using direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/retrieving-choice-fields-direct-ws.md)**  
 To retrieve or set choice fields, use the choice **Value**, not the **Label**.
--   **[Persist an HTTP session across all SOAP calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/persist-session-all-soap-calls.md)**  
+-   **[Persist an HTTP session across all SOAP calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/persist-session-all-soap-calls.md)**  
 In circumstances when a SOAP client makes many calls in a short amount of time, you may want to re-use a single HTTP session for all SOAP calls.
--   **[SOAP direct web service API functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_DirectWebServiceAPIFunctions.md)**  
+-   **[SOAP direct web service API functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_DirectWebServiceAPIFunctions.md)**  
 The standard SOAP API is a set of small, globally defined functions that can be performed on a targeted resource.
 
-**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 
 **Related topics**  
 
 
-[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 

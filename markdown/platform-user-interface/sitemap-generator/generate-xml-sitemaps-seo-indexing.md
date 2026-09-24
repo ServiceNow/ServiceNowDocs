@@ -2,7 +2,7 @@
 title: Generate XML sitemaps for SEO indexing
 description: Create XML sitemaps for web crawlers to index your public portal pages and improve search engine optimization for your portals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/sitemap-generator/generate-xml-sitemaps-seo-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/sitemap-generator/generate-xml-sitemaps-seo-indexing.html
 release: australia
 product: Sitemap Generator
 classification: sitemap-generator
@@ -18,9 +18,9 @@ Create XML sitemaps for web crawlers to index your public portal pages and impro
 
 ## Before you begin
 
-Add SEO information to portal pages, such as meta tags that improve the searchability of Service Portal pages. For more information, see [Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md).
+Add SEO information to portal pages, such as meta tags that improve the searchability of Service Portal pages. For more information, see [Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/seo-sp.md).
 
-Review the "Sitemap requirements" section of the [Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/sitemap-generator.md) documentation topic to determine what content should be in the sitemap.
+Review the "Sitemap requirements" section of the [Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/sitemap-generator/sitemap-generator.md) documentation topic to determine what content should be in the sitemap.
 
 Role required: admin
 
@@ -44,7 +44,7 @@ Role required: admin
 
     **Important:**
 
-    -   You must ensure that the contents of your sitemap meet the [Sitemap requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/sitemap-generator.md).
+    -   You must ensure that the contents of your sitemap meet the [Sitemap requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/sitemap-generator/sitemap-generator.md).
     -   You don’t need to add the header and footer of the sitemap XML. These are added automatically when the sitemap is generated.
 6.  In the **Type** field of the UX Sitemap Definition form, select one of the following options to define the contents of the sitemap either with a script or by specifying static URL elements.
 
@@ -91,7 +91,7 @@ The approximate frequency at which the page is updated.
 </td></tr></tbody>
 </table>7.  Select **Active** and then select **Submit**.
 
-8.  Repeat steps [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/generate-xml-sitemaps-seo-indexing.md) through [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/generate-xml-sitemaps-seo-indexing.md) to define additional content to include in the sitemap.
+8.  Repeat steps [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/sitemap-generator/generate-xml-sitemaps-seo-indexing.md) through [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/sitemap-generator/generate-xml-sitemaps-seo-indexing.md) to define additional content to include in the sitemap.
 
     You can create multiple sitemap definitions with any combination of types that combine to create the sitemap. For example, you could include both static XML and dynamic content from a script or you could include content from multiple scripts.
 
@@ -130,5 +130,5 @@ The approximate frequency at which the page is updated.
 
 All active sitemaps automatically regenerate once a day and include content from any of their active sitemap definitions. Previous versions of the sitemap are deleted. You can check the status of the daily job at **All** &gt; **System Logs** &gt; **System Log** &gt; **Application Logs** using the filter **\[App Scope\] \[is\] \[Sitemap Generator\]**.
 
-**Parent Topic:**[Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/sitemap-generator.md)
+**Parent Topic:**[Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/sitemap-generator/sitemap-generator.md)
 

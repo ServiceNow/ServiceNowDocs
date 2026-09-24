@@ -2,7 +2,7 @@
 title: Domain separation and Test Management
 description: Domain separation is supported in Test Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/domain-separation-test-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/domain-separation-test-management.html
 release: australia
 product: Test Management
 classification: test-management
@@ -28,7 +28,7 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Test Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-management-overview.md)
+**Parent Topic:**[Test Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/test-management/test-management-overview.md)
 
 **Related topics**  
 

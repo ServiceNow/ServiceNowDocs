@@ -2,10 +2,10 @@
 title: Engagement dashboard
 description: The Engagement dashboard provides visibility into AI system usage patterns across your organization, including adoption metrics, department usage, and system adoption by geographic region.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/md-engagement-dashboard-enterprise.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/md-engagement-dashboard-enterprise.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
@@ -56,5 +56,5 @@ Shows the five most frequently used AI systems across your organization, broken 
 
 Systems are listed in descending order by usage. Hover over a bar to see the department breakdown within that system's total usage.
 
-To understand more about the Value insights from the ServiceNow AI Engagement dashboard, see [ServiceNow AI Engagement dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/md-servicenow-ai-engagement.md).
+To understand more about the Value insights from the ServiceNow AI Engagement dashboard, see [ServiceNow AI Engagement dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/md-servicenow-ai-engagement.md).
 

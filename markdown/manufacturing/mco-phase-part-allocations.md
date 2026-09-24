@@ -2,7 +2,7 @@
 title: Create a phase part allocation
 description: Create an allocation entry for a required part.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-phase-part-allocations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-phase-part-allocations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

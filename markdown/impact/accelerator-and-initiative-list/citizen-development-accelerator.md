@@ -2,7 +2,7 @@
 title: Citizen Development Program Design
 description: Provides prescriptive guidance on enabling Citizen Development for your ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/citizen-development-accelerator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/citizen-development-accelerator.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

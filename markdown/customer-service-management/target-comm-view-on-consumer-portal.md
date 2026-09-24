@@ -2,7 +2,7 @@
 title: View a publication on the Consumer Service Portal
 description: View the details of a publication on the Consumer Service Portal and download any attachments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/target-comm-view-on-consumer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/target-comm-view-on-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,5 +53,5 @@ After a publication reaches its **Expiry Date**, it is automatically removed fro
 **Related topics**  
 
 
-[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-consumer-portal.md)
+[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-cases-consumer-portal.md)
 

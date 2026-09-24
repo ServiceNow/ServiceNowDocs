@@ -2,7 +2,7 @@
 title: Supported preview file types
 description: Reference the file types that ServiceNow Studio supports when using preview features to confirm or update user-facing page functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/supported-preview-file-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/supported-preview-file-types.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -49,5 +49,5 @@ UI pages can be used to create and display forms, dialogs, lists, and other UI c
  This functionality requires a knowledge of HTML or Jelly. You can also create simple AngularJS applications using UI pages.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
+</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
 

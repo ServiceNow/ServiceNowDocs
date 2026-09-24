@@ -2,7 +2,7 @@
 title: Create an assessment template category
 description: Create an assessment template category in the Smart Assessment Engine application so that you can organize and grant access to the assessment templates that are related.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -28,7 +28,7 @@ Additional fields may appear on this form depending on which plugins are active.
 
 Use the **Allow user delegation** field to let users delegate their assessments in this category.
 
-If you use question banks, this form also includes a **Question bank category roles** field. This field controls access to the question banks associated with this category, separately from the **Category roles** field that controls access to templates. For more information, see [Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/question-bank.md).
+If you use question banks, this form also includes a **Question bank category roles** field. This field controls access to the question banks associated with this category, separately from the **Category roles** field that controls access to templates. For more information, see [Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/question-bank.md).
 
 ## Procedure
 
@@ -92,7 +92,7 @@ Is AI response enabled
 
 </td><td>
 
-Option to activate automated AI-generated responses for assessments associated with that category. When this option is selected, responders working on assessments triggered from templates in this category see the **Draft responses with AI** action and can run the Smart Assessment Response Assist skill on those assessments. The Smart Assessment Response Assist skill must also be turned on in the AI Admin Hub console for the action to be functional. For more information, see [Activate Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md).
+Option to activate automated AI-generated responses for assessments associated with that category. When this option is selected, responders working on assessments triggered from templates in this category see the **Draft responses with AI** action and can run the Smart Assessment Response Assist skill on those assessments. The Smart Assessment Response Assist skill must also be turned on in the AI Admin Hub console for the action to be functional. For more information, see [Activate Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Allow user delegation
 
 Option that lets users with assignments in this category have another user act on their behalf, using the platform delegation feature. This option is off by default.
 
- When selected, a user can name a delegate who can act on their Smart Assessments in this category during a set period. For more information, see [Delegation in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/delegation-in-sae.md).
+ When selected, a user can name a delegate who can act on their Smart Assessments in this category during a set period. For more information, see [Delegation in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/delegation-in-sae.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -124,7 +124,7 @@ Inherit read access for embedded assessment
 
 Option that enables read-access inheritance from a parent record to assessments triggered from templates in this category. When selected, assessments in this category inherit read access from the parent record in which they are embedded — a user must have both the Smart Assessment role required for the assessment and read access to the parent record to view the assessment.
 
- For more information on embedded assessments, see [Embedded assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/embedded-assessments.md).
+ For more information on embedded assessments, see [Embedded assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/embedded-assessments.md).
 
 </td></tr><tr><td>
 

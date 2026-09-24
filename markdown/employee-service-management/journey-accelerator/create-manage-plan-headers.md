@@ -2,7 +2,7 @@
 title: Customize and manage Journey Accelerator plan headers
 description: Create customized plan headers for different plan types based on user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/create-manage-plan-headers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-accelerator/create-manage-plan-headers.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -56,5 +56,5 @@ You can customize the plan header for each role. Customizations include role-bas
 **Related topics**  
 
 
-[Create and manage Journey Accelerator plan types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/create-manage-ja-plans.md)
+[Create and manage Journey Accelerator plan types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/create-manage-ja-plans.md)
 

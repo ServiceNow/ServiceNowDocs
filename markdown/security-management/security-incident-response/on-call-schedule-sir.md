@@ -2,7 +2,7 @@
 title: On-Call scheduling in Security Incident Response
 description: Use On-Call Scheduling in Security Incident Response to view and manage shifts for your analysts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/on-call-schedule-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/on-call-schedule-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -38,7 +38,7 @@ With the On-Call Scheduling feature, you can view and manage shifts, approve or 
 
 For detailed information on configuring and using On Call Scheduling features, refer to the IT Service Management [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_OnCallScheduling.md) documentation.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

@@ -2,10 +2,10 @@
 title: Combined Now Assist for Sales CRM for Telecommunications release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Now Assist for Sales CRM for Telecommunications from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforsalescrmfortelecommunications-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-nowassistforsalescrmfortelecommunications-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -87,6 +87,11 @@ Depending on your license, you will have access to certain application features,
 -   **[Order fallout AI agent](https://www.servicenow.com/docs/access?context=now-assist-order-fallout-somt&family=australia&ft:locale=en-US)**
 
 Automatically create fallout records mapped to existing fallout types for streamlined error tracking and follow-up.
+
+
+ -   **[Move Order Voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-move-order-somt&family=australia&ft:locale=en-US)**
+
+Use this agent to help you create a move order capture journey by collecting details such as the customer’s name, current service location, product offering, and new service address.
 
 
 </td></tr></tbody>
@@ -207,6 +212,8 @@ Australia
 
 Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
 
+
+**Important:** Now Assist for Sales CRM for Telecommunications is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -360,5 +367,5 @@ Australia
  See [Now Assist for Sales CRM for Telecommunications](https://www.servicenow.com/docs/access?context=somt-now-assist&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

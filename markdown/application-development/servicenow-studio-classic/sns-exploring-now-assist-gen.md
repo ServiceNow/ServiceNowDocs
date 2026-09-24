@@ -2,7 +2,7 @@
 title: Exploring app generation
 description: App generation enables you to create applications in ServiceNow Studio by describing your business process in a conversation with ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -17,7 +17,7 @@ breadcrumb: [App generation, AI tools and files, Use, ServiceNow Studio, Develop
 
 App generation enables you to create applications in ServiceNow Studio by describing your business process in a conversation with ServiceNow Otto®.
 
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md).
 
 ## How does app generation work?
 
@@ -30,7 +30,7 @@ Before you begin, confirm that you have the required roles:
 -   To use the ServiceNow Otto® panel, you must have the now\_assist\_panel\_user role.
 -   To create an application with the ServiceNow Otto for Creator app generation skill, you must have the admin role or the sn\_g\_app\_creator.app\_creator role.
 -   To edit \(not create\) an application with app generation, you must have the delegated developer role and be assigned to the application.
--   To add a workspace to an application created using app generation, enable the ServiceNow Otto for Creator experience generation skill. For more information, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/generate-ui.md).
+-   To add a workspace to an application created using app generation, enable the ServiceNow Otto for Creator experience generation skill. For more information, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/generate-ui.md).
 -   To add a flow to an application created using app generation, enable the ServiceNow Otto for Creator flow generation skill and confirm that you have a flow\_designer role. For more information, see .
 
 \[Omitted image "app-generation-workflow-infographic-asset-0020323v2.png"\] Alt text: Infographic that shows the four phases to using app generation, with a fifth on verifying the app in ServiceNow Studio.
@@ -60,12 +60,12 @@ On the ServiceNow Studio home page and on the application details tab, apps crea
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Create applications quickly by describing what you need using natural language.|[General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-guidelines.md)|Developer|
-|Refine application details through conversation with ServiceNow Otto®.|[Generate apps with Now Assist for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)|Developer|
-|Edit existing applications faster using ServiceNow Otto®.|[Review and edit applications built using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-review-apps.md)|Developer|
+|Create applications quickly by describing what you need using natural language.|[General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-guidelines.md)|Developer|
+|Refine application details through conversation with ServiceNow Otto®.|[Generate apps with Now Assist for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)|Developer|
+|Edit existing applications faster using ServiceNow Otto®.|[Review and edit applications built using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-review-apps.md)|Developer|
 
--   **[General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-guidelines.md)**  
+-   **[General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-guidelines.md)**  
 To get the best results from app generation, provide clear and detailed descriptions of your application requirements during your conversation with ServiceNow Otto®.
 
-**Parent Topic:**[App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
+**Parent Topic:**[App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
 

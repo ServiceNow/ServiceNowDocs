@@ -2,7 +2,7 @@
 title: Configure Facilities Service Management
 description: Facilities administrators can set facilities configurations to determine how the system handles daily operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_ConfigureFacilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_ConfigureFacilities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: facilities\_admin
 
 ## About this task
 
-Facilities Service Management defaults to the request-driven processing method for handling tasks. For information about both processing methods, see [Task vs. request driven processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_TaskVsRequestDrivenProcessing.md).
+Facilities Service Management defaults to the request-driven processing method for handling tasks. For information about both processing methods, see [Task vs. request driven processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_TaskVsRequestDrivenProcessing.md).
 
 ## Procedure
 
@@ -63,7 +63,7 @@ Enable state flows
 
 </td><td>
 
-Enable state flows consistent with all [service management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ServiceManagement.md). If you prefer to create your own state flows using business rules, client scripts, and UI actions, disable the option. A confirmation box displays and includes a link to a help article that describes the implications of disabling state flows. It is highly recommended that you read the article before proceeding.
+Enable state flows consistent with all [service management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_ServiceManagement.md). If you prefer to create your own state flows using business rules, client scripts, and UI actions, disable the option. A confirmation box displays and includes a link to a help article that describes the implications of disabling state flows. It is highly recommended that you read the article before proceeding.
 
  If you disable state flows and save, this configuration option is removed from the screen and state flows cannot be re-enabled from the user interface.
 
@@ -329,8 +329,8 @@ This option determines the degree to which skills must be matched to a task when
     **Warning:** When the **Enable state flows** option is disabled, a confirmation box with a link to documentation appears, explaining the consequences of disabling state flows. It is highly recommended that you read the documentation before making this change, as the action of disabling service management state flows cannot be reversed.
 
 
--   **[Task vs. request driven processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_TaskVsRequestDrivenProcessing.md)**  
+-   **[Task vs. request driven processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_TaskVsRequestDrivenProcessing.md)**  
 All applications use either task-driven or request-driven processes for handling tasks.
 
-**Parent Topic:**[Activate Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateFacilitiesSM.md)
+**Parent Topic:**[Activate Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateFacilitiesSM.md)
 

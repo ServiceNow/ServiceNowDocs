@@ -2,7 +2,7 @@
 title: Create a quote for business organizations
 description: Create a quote and manage the price breakdown of the products by verifying product price details. Agents can analyze price details, discuss with customers and resellers, and decide on the proposed quote.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-quote-management-for-organizations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-quote-management-for-organizations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

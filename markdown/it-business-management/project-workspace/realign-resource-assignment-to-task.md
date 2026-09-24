@@ -2,7 +2,7 @@
 title: Realign resource assignments with project dates
 description: Realign or synchronize the resource assignment dates with the project task dates. This synchronization helps to schedule and align the resource assignments with the timeline of project task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/realign-resource-assignment-to-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/realign-resource-assignment-to-task.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -47,12 +47,12 @@ The resource assignments dates are synchronized with the project task dates.
 
 Jason \(Project Manager\) updates the end date of a project from June 30 to August 31. The system prompts the Jason to realign resource assignments, but Jason closes the prompt without running the realignment. As a result, resource assignments still reflect the original end date of June 30. If the system property is configured, it runs automatically and realigns all resource assignments to the updated project dates without any manual action required.
 
-**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/resource-assignments-pw.md)
 
 **Related topics**  
 
 
-[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/resource-assignments-pw.md)
 
-[Project Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-reference.md)
+[Project Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-reference.md)
 

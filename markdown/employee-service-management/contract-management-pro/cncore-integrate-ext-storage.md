@@ -2,7 +2,7 @@
 title: Configure an external storage system
 description: As a contract configurator, configure an external storage system to store signed contract documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -162,9 +162,9 @@ The external storage system is configured and ready to be used for storing contr
 
 **Note:** \(Optional\) You can view, edit, and delete the record.
 
-For information on configuring electronic signature provider, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
+For information on configuring electronic signature provider, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
 
-**Parent Topic:**[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
+**Parent Topic:**[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
 
 **Related topics**  
 

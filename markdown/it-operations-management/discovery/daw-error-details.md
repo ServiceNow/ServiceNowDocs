@@ -2,12 +2,12 @@
 title: Discovery Admin Workspace Error Details
 description: The Error Details page displays the root cause and remediation steps for a specific Discovery error, along with the list of individual error instances associated with that error.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/daw-error-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/daw-error-details.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Diagnostics, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -44,7 +44,7 @@ After selecting an error card, the header displays key information including the
     |IP address / Error key|The IP address or unique key that identifies the affected device or target. Select the hyperlink to view additional details and perform actions on this error in a side panel.|
     |State|The current state of the error instance. Possible values are Open, Closed, and Ignored.|
     |Error re-opened|The number of times this error instance has re-opened after being closed.|
-    |Impacted schedule|The Discovery schedule associated with the error instance. Select the schedule name to navigate to its [schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_daw-disco-schedule-details.md) page.|
+    |Impacted schedule|The Discovery schedule associated with the error instance. Select the schedule name to navigate to its [schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_daw-disco-schedule-details.md) page.|
     |Last occurrence|The date and time when the error was most recently detected.|
     |Consecutive \#|The number of consecutive Discovery runs in which this error has occurred.|
     |Refined on|The date and time when the error classification was last refined.|

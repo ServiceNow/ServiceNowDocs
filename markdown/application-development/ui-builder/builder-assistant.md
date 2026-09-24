@@ -2,7 +2,7 @@
 title: Find and fix issues in UI Builder
 description: UI Builder can help identify common configuration issues and guidance on how to fix them.Find and fix issues found in your UI Builder experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/builder-assistant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/builder-assistant.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -30,7 +30,7 @@ To find more information, select the builder icon to view the list of recommenda
 
 \[Omitted image "find-fix-modal.png"\] Alt text: Modal containing the errors and warnings found on the page currently being edited.
 
-**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-builder.md)
 
 ## Find and fix issues in UI Builder
 

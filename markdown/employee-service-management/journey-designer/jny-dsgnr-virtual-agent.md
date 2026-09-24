@@ -2,7 +2,7 @@
 title: Integrating HR Service Delivery Virtual Agent Conversations app with Journey designer
 description: Install the HR Service Delivery Virtual Agent Conversations app to enable Journey designer to send actionable notifications as nudges to employees and managers on configured communications channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-dsgnr-virtual-agent.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -46,7 +46,7 @@ Notifications are sent to employees, managers, and mentors that are associated w
 
 **Note:** For a holistic experience of the journey outcome in Virtual Agent, turn on all the six Journey created scenario notifications \(Manager, Mentor, and Employee\).
 
-For more information about HR Service Delivery Virtual Agent Conversations and topic blocks, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md).
+For more information about HR Service Delivery Virtual Agent Conversations and topic blocks, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md).
 
 ## Actionable notification in the Journey designer app
 

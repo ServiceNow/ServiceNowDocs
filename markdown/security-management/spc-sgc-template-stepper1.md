@@ -2,7 +2,7 @@
 title: Enter metadata
 description: Fill in the metadata for your service graph connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/spc-sgc-template-stepper1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/spc-sgc-template-stepper1.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

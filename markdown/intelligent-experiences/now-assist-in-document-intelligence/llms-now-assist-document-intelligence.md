@@ -2,7 +2,7 @@
 title: Large language models used by Now Assist in Document Intelligence
 description: Now Assist in Document Intelligence uses large language models \(LLMs\) to perform generative AI and agentic AI capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/llms-now-assist-document-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-in-document-intelligence/llms-now-assist-document-intelligence.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -27,7 +27,7 @@ The following table lists the available LLMs for Now Assist in Document Intellig
 
 |LLM|Highlights|
 |---|----------|
-|Now Assist default|Use the LLM selected as the default for all Now Assist skills. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).|
+|Now Assist default|Use the LLM selected as the default for all Now Assist skills. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-large-language-models.md).|
 |Now LLM Service - Large|Text-only model used for AI-driven solutions to support natural language understanding, automation, and decision support.|
 |Now LLM Service - Small|Text-only model used for enterprise AI applications by enhancing text-based automation and content generation within ServiceNow workflows.|
 |Google Cloud - Gemini Large|Multimodal model with advanced reasoning and problem-solving capabilities.|
@@ -37,9 +37,9 @@ The following table lists the available LLMs for Now Assist in Document Intellig
 |Amazon Bedrock - Claude Large|Multimodal model with strong context management for long documents and dialogs.|
 |Amazon Bedrock - Claude Small|Multimodal model with lower latency and higher efficiency for real-time applications.|
 
-For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
-**Parent Topic:**[Now Assist in Document Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-in-document-intelligence-reference.md)
+**Parent Topic:**[Now Assist in Document Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/now-assist-in-document-intelligence-reference.md)
 
 **Related topics**  
 

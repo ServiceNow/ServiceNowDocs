@@ -2,7 +2,7 @@
 title: Specify a default field value
 description: A default value populates a value in a field when a new record is created.Review the following examples about specifying default field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SpecifyingADefaultValue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_SpecifyingADefaultValue.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ The default value populates the field on the blank form for a new record, and al
     **Note:** The default value should be the underlying value that would be present in the field, not the label. For example, in a choice list field, use the **value** of the choice as the default value, not the choice's name.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/customize-fields-now-platform-landing.md)
 
 ## Default field value examples
 

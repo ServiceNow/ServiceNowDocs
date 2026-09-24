@@ -2,7 +2,7 @@
 title: Configuring derived pricing
 description: Automatically set the pricing for a product by deriving its pricing from other products or pricing sources such as transactional values in quotes or orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-related-product-pricing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-related-product-pricing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -127,7 +127,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Enable related \(derived\) pricing for a price list line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-price-list-line.md)
+[Enable related \(derived\) pricing for a price list line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-price-list-line.md)
 
 </td><td>
 
@@ -139,7 +139,7 @@ Pricing admin or manager
 
 </td></tr><tr><td>
 
-[Create rules for derived product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-derived-pricing-source.md)
+[Create rules for derived product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-derived-pricing-source.md)
 
 </td><td>
 

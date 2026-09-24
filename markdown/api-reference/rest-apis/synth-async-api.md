@@ -2,7 +2,7 @@
 title: SyntheticsAsyncBulkCreate API
 description: The SyntheticsAsyncBulkCreate API provides endpoints to manage asynchronous synthetic monitor creation.Checks the progress of a bulk monitor creation job.Creates multiple synthetic monitors in a single asynchronous operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/synth-async-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/synth-async-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -16,11 +16,11 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The SyntheticsAsyncBulkCreate API provides endpoints to manage asynchronous synthetic monitor creation.
 
-Use this API to create up to 5,000 monitors per request. Monitors can be created using data in JSON or CSV format. For more information about using JSON or CSV files with Postman or Terminal, see the [Synthetic Monitoring Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/synth-monitor_dev-guide.md).
+Use this API to create up to 5,000 monitors per request. Monitors can be created using data in JSON or CSV format. For more information about using JSON or CSV files with Postman or Terminal, see the [Synthetic Monitoring Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/synth-monitor_dev-guide.md).
 
 This API requires the [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-landing-page.md) application \(com.snc.uib.sow\_synthetics\), which is available on the ServiceNow Store. Before calling this API, at least one MID Server location must be configured for synthetic monitoring. For instructions, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## SyntheticsAsyncBulkCreate - GET /sn\_sow\_synthetics/synthetics\_async\_bulk\_create/\{job\_id\}
 
@@ -75,7 +75,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_ahp_vlg_1jc" class="rest_api_request_headers"><thead><tr><th>
 
@@ -118,7 +118,7 @@ Authorization: Bearer <access-token>
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -332,7 +332,7 @@ result.errors.check\_number
 
 </td><td>
 
-Order of the monitor in the **checks** array provided in the request body for [POST /sn\_sow\_synthetics/synthetics\_async\_bulk\_create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/synth-async-api.md).Data type: Number
+Order of the monitor in the **checks** array provided in the request body for [POST /sn\_sow\_synthetics/synthetics\_async\_bulk\_create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/synth-async-api.md).Data type: Number
 
 </td></tr><tr><td>
 
@@ -453,7 +453,7 @@ Response body - job completed with errors.
 
 Creates multiple synthetic monitors in a single asynchronous operation.
 
-This endpoint supports creating up to 5,000 monitors per request, with a maximum payload size of 10MB. Calling this endpoint submits a job to asynchronously create the monitors in batches of 500. Check the job status by calling the endpoint [GET /sn\_sow\_synthetics/v1/synthetics\_async\_bulk\_create/\{job\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/synth-async-api.md).
+This endpoint supports creating up to 5,000 monitors per request, with a maximum payload size of 10MB. Calling this endpoint submits a job to asynchronously create the monitors in batches of 500. Check the job status by calling the endpoint [GET /sn\_sow\_synthetics/v1/synthetics\_async\_bulk\_create/\{job\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/synth-async-api.md).
 
 Uploaded data is checked for uniqueness against existing monitors on the fields **name**, **url**, **location**, **valid\_http\_code**, and **valid\_http\_code\_type** to avoid creating duplicates.
 
@@ -865,7 +865,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -916,7 +916,7 @@ Data format of the request body. Supported types: **application/json** or **text
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_cqm_nqf_1jc"><thead><tr><th>
 
@@ -1138,7 +1138,7 @@ result.status\_check\_url
 
 </td><td>
 
-Endpoint for tracking the current status of the monitor creation job. For more information, see [GET /sn\_sow\_synthetics/v1/synthetics\_async\_bulk\_create/\{job\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/synth-async-api.md).Data type: String
+Endpoint for tracking the current status of the monitor creation job. For more information, see [GET /sn\_sow\_synthetics/v1/synthetics\_async\_bulk\_create/\{job\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/synth-async-api.md).Data type: String
 
 </td></tr></tbody>
 </table>### cURL request

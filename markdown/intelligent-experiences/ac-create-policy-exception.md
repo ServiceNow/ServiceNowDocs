@@ -2,12 +2,12 @@
 title: Create a policy exception
 description: Request an approved, time-bound deviation from a policy or control objective that applies to an AI asset, supported by a justification and a risk assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-create-policy-exception.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-create-policy-exception.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Policy exceptions, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 

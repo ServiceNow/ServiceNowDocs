@@ -2,7 +2,7 @@
 title: Remove a supplier contact from the My contacts widget
 description: Remove a supplier contact that you no longer require.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -53,10 +53,10 @@ The **Remove Contact** option is available only to the primary supplier contact 
 
 The contact is removed and all the tasks that were assigned to that contact are reassigned to the alternate contact.
 
-**Parent Topic:**[Remove a supplier contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.md)
+**Parent Topic:**[Remove a supplier contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.md)
 
 **Related topics**  
 
 
-[Remove a supplier contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.md)
+[Remove a supplier contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.md)
 

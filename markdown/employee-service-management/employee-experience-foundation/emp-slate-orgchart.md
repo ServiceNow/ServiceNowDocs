@@ -2,7 +2,7 @@
 title: Employee org chart
 description: The organizational chart provides an interactive visualization of company structure, reporting relationships, and team hierarchies with search and navigation capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-slate-orgchart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-slate-orgchart.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

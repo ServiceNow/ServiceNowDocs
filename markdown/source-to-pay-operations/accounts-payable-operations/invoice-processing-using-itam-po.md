@@ -2,7 +2,7 @@
 title: Invoice processing using IT Asset Management purchase order
 description: Process invoices for IT Asset Management purchase orders using the ITAM-APO integration to validate received quantities against invoiced quantities and handle exceptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-processing-using-itam-po.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-processing-using-itam-po.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,7 +31,7 @@ Role required: Accounts\_payable\_specialist \[sn\_ap\_apm.accounts\_payable\_sp
 
 3.  Create an invoice with the ITAM purchase order.
 
-    For more information on invoices, [Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice.md). The Accounts Payable Operations checks whether the received quantity in the ITAM receiving slip matches the invoiced quantity. In case of mismatch, an insufficient goods receipt exception is triggered and automatically the ITAM user is notified through email. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md).
+    For more information on invoices, [Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice.md). The Accounts Payable Operations checks whether the received quantity in the ITAM receiving slip matches the invoiced quantity. In case of mismatch, an insufficient goods receipt exception is triggered and automatically the ITAM user is notified through email. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md).
 
 4.  The Accounts Payable Operations automatically verifies and revalidates the invoice.
 

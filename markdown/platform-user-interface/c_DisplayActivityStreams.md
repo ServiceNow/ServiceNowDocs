@@ -2,7 +2,7 @@
 title: Activity streams in list view
 description: Stream live activity information for all records on the current list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_DisplayActivityStreams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_DisplayActivityStreams.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,5 +24,5 @@ You can click an item to open the activity stream for that record. The record ac
 
 **Note:** The activity stream window is not the same interface as the activity formatter which appears on forms. Modifications and property settings user to change the behavior on the activity formatter are not applied to the activity stream window.
 
-**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UseLists.md)
 

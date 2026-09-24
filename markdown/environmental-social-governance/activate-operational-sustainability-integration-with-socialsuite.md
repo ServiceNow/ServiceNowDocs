@@ -2,7 +2,7 @@
 title: Activate Operational Sustainability Integration with Socialsuite
 description: You can activate the Operational Sustainability Integration with Socialsuite plugin \(sn\_osm\_ma\) for Operational Sustainability Management if you have the admin role. The plugin enables you to import materiality assessment results from Socialsuite for reporting and compliance. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/activate-operational-sustainability-integration-with-socialsuite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/activate-operational-sustainability-integration-with-socialsuite.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: admin
 
 Tables and fields are installed with Operational Sustainability Integration with Socialsuite.
 
-For more information on items installed with Operational Sustainability Management, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
+For more information on items installed with Operational Sustainability Management, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/components-installed-with-esg.md).
 
 ## Procedure
 
@@ -49,7 +49,7 @@ For more information on items installed with Operational Sustainability Manageme
 
 ## What to do next
 
-Configure the Material topic selection system property. Set the property to Socialsuite to enable the **Sync Topics** button and update the material topics visualization. For details, see [Set Material topic selection system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-material-topic-selection-system-property.md).
+Configure the Material topic selection system property. Set the property to Socialsuite to enable the **Sync Topics** button and update the material topics visualization. For details, see [Set Material topic selection system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-material-topic-selection-system-property.md).
 
-**Parent Topic:**[Integrating Operational Sustainability Management with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.md)
+**Parent Topic:**[Integrating Operational Sustainability Management with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.md)
 

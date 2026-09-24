@@ -2,7 +2,7 @@
 title: Delete an attended configuration record in RPA Hub
 description: Delete an attended configuration record that you no longer need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/delete-attended-config-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/delete-attended-config-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ Delete an attended configuration record that you no longer need.
 
 ## Before you begin
 
-Ensure you are familiar with Embedded Task Automation concepts. For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md).
+Ensure you are familiar with Embedded Task Automation concepts. For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md).
 
-Create an attended configuration record. For more information, see [Create an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-attended-config-rpa.md).
+Create an attended configuration record. For more information, see [Create an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-attended-config-rpa.md).
 
 Ensure that the attended configuration record is either in **Draft** state or **Inactive** state.
 
@@ -36,15 +36,15 @@ If you delete an attended configuration record, the associated mapping records a
 
 3.  Navigate to the Attended Configuration record either from the Attended Configuration menu list or from an attended bot process record's related list.
 
-<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d592025e140">
+<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d590898e140">
 
 Option
 
-</th><th align="left" id="d592025e143">
+</th><th align="left" id="d590898e143">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d592025e149">
+</th></tr></thead><tbody><tr><td id="d590898e149">
 
 **From an Attended Configuration menu list**
 
@@ -54,7 +54,7 @@ Action
 2.  Open an attended configuration record.
 
 
-</td></tr><tr><td id="d592025e176">
+</td></tr><tr><td id="d590898e176">
 
 **From an attended bot process record's related list**
 
@@ -69,18 +69,18 @@ Action
 </table>4.  In the form header, select **Delete**.
 
 
-**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md)
+**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md)
 
 **Related topics**  
 
 
-[Activate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/activate-attend-config-rpa.md)
+[Activate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/activate-attend-config-rpa.md)
 
-[Deactivate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/deactivate-attend-config-rpa.md)
+[Deactivate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/deactivate-attend-config-rpa.md)
 
-[Edit an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-attended-config-rpa.md)
+[Edit an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/edit-attended-config-rpa.md)
 
-[Invoke Embedded Task Automation via API in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-button-att-config-rpa.md)
+[Invoke Embedded Task Automation via API in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-button-att-config-rpa.md)
 
-[Conditions for the visibility of UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/visibility-cond-button-rpa.md)
+[Conditions for the visibility of UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/visibility-cond-button-rpa.md)
 

@@ -2,7 +2,7 @@
 title: Nutanix extension classes
 description: The CMDB CI Class Models app adds or updates classes for Nutanix.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-nutanix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-nutanix.html
 release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -32,7 +32,7 @@ The Nutanix Enterprise Cloud platform is a converged, scale-out compute and stor
 
 This section lists the classes that the CMDB CI Class Models app adds or updates. See the class columns table for further details about the columns added for each class.
 
-CMDB CI Class Models: Release 1.6.0 adds the following classes for Nutanix. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+CMDB CI Class Models: Release 1.6.0 adds the following classes for Nutanix. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_qnc_3b5_rkb"><thead><tr><th>
 
@@ -831,5 +831,5 @@ Number of maintained data copies. The replication factor is specified \(2 or 3\)
 **Related topics**  
 
 
-[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

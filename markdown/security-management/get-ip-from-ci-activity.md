@@ -2,7 +2,7 @@
 title: Get IP from CI activity
 description: The Get IP from CI flow activity gathers the IP address from configuration items \(CIs\) to use in the flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/get-ip-from-ci-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/get-ip-from-ci-activity.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ The output variables contain data that can be used in subsequent activities.
 |--------|-----------|
 |ip\_addr|IP addresses.|
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md)
 

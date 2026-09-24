@@ -2,7 +2,7 @@
 title: Work on a group life policy service case
 description: Work on a group life case to change or review member information, and complete the policy service request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-group-life-service-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/work-group-life-service-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Work on a group life case to change or review member information, and complete t
 
 Role required: sn\_ins\_group\_life.processor, sn\_ins\_group\_life.contributor, or sn\_ins\_group\_life.processor\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 

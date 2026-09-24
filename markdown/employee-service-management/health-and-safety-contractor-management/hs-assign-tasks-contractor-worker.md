@@ -2,7 +2,7 @@
 title: Assign a task to a contractor worker
 description: Assign tasks to the contractor workers to confirm that they’re up to date on prerequisite training and document uploads before they come on site.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/hs-assign-tasks-contractor-worker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-contractor-management/hs-assign-tasks-contractor-worker.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -26,15 +26,15 @@ Role required: sn\_hs\_crm.contractor\_coordinator
 
 2.  Open a contractor worker record to assign a task.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d73812e73">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d73753e73">
 
 Option
 
-</th><th align="left" id="d73812e76">
+</th><th align="left" id="d73753e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73812e82">
+</th></tr></thead><tbody><tr><td id="d73753e82">
 
 **From a contractor company record**
 
@@ -46,7 +46,7 @@ Steps
 4.  In the **Workers** tab, select the worker from the list to assign a task to.
 
 
-</td></tr><tr><td id="d73812e127">
+</td></tr><tr><td id="d73753e127">
 
 **From Health and Safety user profile list**
 
@@ -62,7 +62,7 @@ Steps
 
 4.  On the form, fill in the fields.
 
-    For information on field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-action-form.md).
+    For information on field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 5.  Select **Save**.
 
@@ -78,6 +78,6 @@ Steps
 -   -   Upload documents​
 -   View prerequisite training material​
 -   Mark the task as complete​
--   When the contract worker completes all prerequisite tasks, the contractor coordinator can grant them access to the site. For more information, see [Grant site access to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-grant-site-access-worker.md).
--   If there are any documents submitted by the contractor worker, the contractor coordinator can upload them to the worker's or contractor company's **Document** tab. For more information, see [Add a document to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-add-document-contractor-worker.md).
+-   When the contract worker completes all prerequisite tasks, the contractor coordinator can grant them access to the site. For more information, see [Grant site access to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-grant-site-access-worker.md).
+-   If there are any documents submitted by the contractor worker, the contractor coordinator can upload them to the worker's or contractor company's **Document** tab. For more information, see [Add a document to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-add-document-contractor-worker.md).
 

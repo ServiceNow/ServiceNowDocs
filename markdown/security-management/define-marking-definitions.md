@@ -2,7 +2,7 @@
 title: Define marking definitions
 description: Define marking definitions that represent a specific data marking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-marking-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-marking-definitions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -75,5 +75,5 @@ Marked Indicators
 Lists of indicators marked with the marking definition.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Marking definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/marking-definitions.md)
+</table>**Parent Topic:**[Marking definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/marking-definitions.md)
 

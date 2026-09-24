@@ -2,7 +2,7 @@
 title: VMUtils - Global
 description: The VMUtils script include provides methods for discovery and provisioning of virtual machines.Converts a correlation ID into a UUID for a virtual machine in the ServiceNow system.Converts a WMware universal unique identifier \(UUID\) to a format that matches the original format in the ServiceNow system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_VMUtilsAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_VMUtilsAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The VMUtils script include provides methods for discovery and provisioning of vi
 
 This script include is available in server-side scripts to convert between UUID and Correlation ID formats.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## VMUtils - turnCorrelationIdToUuid\(String correlationId\)
 

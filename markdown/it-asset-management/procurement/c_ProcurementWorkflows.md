@@ -2,7 +2,7 @@
 title: Procurement workflows
 description: Procurement uses the following workflows. You can edit the existing flows or create a flow in the graphical Workflow Studio to meet your organization's asset procurement process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/c\_ProcurementWorkflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/procurement/c\_ProcurementWorkflows.html
 release: australia
 product: Procurement
 classification: procurement
@@ -29,7 +29,7 @@ Procurement uses the following workflows. You can edit the existing flows or cre
     \[Omitted image "procurement-process-flow-hardware.png"\] Alt text: Procurement process flow-hardware actions
 
 
-**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/c_Procurement.md)
 
 **Related topics**  
 
@@ -50,7 +50,7 @@ Procurement uses the following workflows. You can edit the existing flows or cre
 
 [Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md)
 
-[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_SourcingRequestItems.md)
+[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/c_SourcingRequestItems.md)
 
-[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_UseProcurement.md)
+[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/c_UseProcurement.md)
 

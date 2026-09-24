@@ -2,7 +2,7 @@
 title: Remove a member using the Care Team Portal
 description: Remove a member from your team directly within the Care Team Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-cto-remove-member.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-cto-remove-member.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

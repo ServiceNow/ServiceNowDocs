@@ -2,7 +2,7 @@
 title: Setup your audit retention
 description: Use the Retention option to automate and simplify the deletion of audit data as per your requirement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/setup-audit-retention.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/setup-audit-retention.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ Role required: security\_admin
 
 6.  Select **Generate Estimate** to view the approximate number of audit records that are older than your selected duration.
 
-    For information about generate estimate, see [Enable an audit deletion estimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-audit-deletion-estimation.md)
+    For information about generate estimate, see [Enable an audit deletion estimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-audit-deletion-estimation.md)
 
 7.  Select **Save** to update the retention policy for the selected table.
 

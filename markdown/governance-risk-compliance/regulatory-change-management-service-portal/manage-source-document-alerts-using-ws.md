@@ -2,7 +2,7 @@
 title: Assign a source document alert to a coordinator
 description: Log in to the GRC: Regulatory Change Management application, review the source document alert, and assign it to a coordinator. The coordinator then assesses the applicability of the alert and completes the associated regulatory tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/manage-source-document-alerts-using-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/manage-source-document-alerts-using-ws.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

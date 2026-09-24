@@ -2,7 +2,7 @@
 title: Create an application service group
 description: Create service groups to combine similar services. Organize services by groups to perform actions simultaneously on multiple services and to control user access to services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-service-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/create-service-group.html
 release: australia
 product: Event Management
 classification: event-management
@@ -41,12 +41,12 @@ Service groups are a way to organize and group services based on the application
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/application-service-event-management.md)
+**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/application-service-event-management.md)
 
 **Related topics**  
 
 
-[Assign a role to a service group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMAssignRoleSvcGroup.md)
+[Assign a role to a service group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMAssignRoleSvcGroup.md)
 
-[Group application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/organizing_services-into-groups.md)
+[Group application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/organizing_services-into-groups.md)
 

@@ -2,7 +2,7 @@
 title: Assign the navigation function to the chart screen
 description: Assign your navigation function to your chart screen so that your users can tap the chart to access the list of records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/nav-chart-to-list-3.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/nav-chart-to-list-3.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ Role required: admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configure a navigation from a chart to a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/nav-chart-to-list.md)
+**Parent Topic:**[Configure a navigation from a chart to a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/nav-chart-to-list.md)
 

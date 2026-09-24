@@ -2,7 +2,7 @@
 title: Create license assets
 description: You can manage your organization's software license assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_CreatingLicenseAssets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/t\_CreatingLicenseAssets.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -30,10 +30,10 @@ Examples include a license to use a single copy of a desktop software program an
 
 2.  In the **Rights** field, type the number of entitlements to be granted by this license.
 
-3.  Complete the form as described in [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingAssets.md).
+3.  Complete the form as described in [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_CreatingAssets.md).
 
 
-**Parent Topic:**[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_AssetClasses.md)
+**Parent Topic:**[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/c_AssetClasses.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Cluster analysis configurations for ITSM work items
 description: The Process Mining application provides solution definitions for incidents, problems, change requests, and requested items. You can use these definitions to configure cluster analysis for those work items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/itsm-cluster-analysis-po.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/itsm-cluster-analysis-po.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -85,7 +85,7 @@ Requested item
 -   Assigned to
 
 </td></tr></tbody>
-</table>For information on how to perform a cluster analysis from the Process Mining application, see [Perform a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md).
+</table>For information on how to perform a cluster analysis from the Process Mining application, see [Perform a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/cluster-analysis.md).
 
-**Parent Topic:**[Content pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/itsm-proc-opti-content-pack.md)
+**Parent Topic:**[Content pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/itsm-proc-opti-content-pack.md)
 

@@ -2,7 +2,7 @@
 title: Set up a secure connection to the Hermes Messaging Service
 description: Secure your Kafka topics by generating a ServiceNow instance-signed certificate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -22,7 +22,7 @@ Setting up the Hermes Messaging Service requires coordination with your network 
 
 Make sure the following setup is in place:
 
--   The Hermes Messaging Service is activated. See [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
+-   The Hermes Messaging Service is activated. See [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
 -   The Key Management Framework plugin \(com.glide.kmf.global\) is activated.
 -   The Certificates \[sys\_kmf\_certificate\] table contains a ServiceNow instance root CA certificate.
 -   The instance isn't configured with a Custom URL. Custom URLs are not supported with the Instance PKI Certificate Generator.
@@ -37,15 +37,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d385090e128">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d385210e128">
 
 Option
 
-</th><th align="left" id="d385090e131">
+</th><th align="left" id="d385210e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d385090e137">
+</th></tr></thead><tbody><tr><td id="d385210e137">
 
 **Apply ACLs to namespaces**
 
@@ -58,7 +58,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d385090e179">
+</td></tr><tr><td id="d385210e179">
 
 **Apply ACLs to defined topics**
 
@@ -101,14 +101,14 @@ You can now create a secure connection to the Hermes Messaging Service.
 
 ## What to do next
 
--   Review the guidance in [Exchanging data using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/exchanging-data-hermes-messaging-service.md).
--   [Prepare your Apache Kafka client environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/prepare-kafka-client-environment.md)
+-   Review the guidance in [Exchanging data using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/exchanging-data-hermes-messaging-service.md).
+-   [Prepare your Apache Kafka client environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/prepare-kafka-client-environment.md)
 -   Configure the SSL connection to Hermes in the producer and consumer properties files using the truststore and keystore files that you generated. For more information, refer to the following topics:
-    -   [Create a test topic in Hermes using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/create-hermes-topic.md)
-    -   [Produce test messages to a Hermes topic using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/produce-messages-hermes.md)
-    -   [Consume test messages from a Hermes topic using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/consume-messages-hermes.md)
+    -   [Create a test topic in Hermes using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/create-hermes-topic.md)
+    -   [Produce test messages to a Hermes topic using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/produce-messages-hermes.md)
+    -   [Consume test messages from a Hermes topic using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/consume-messages-hermes.md)
 
-**Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
+**Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
 
 **Related topics**  
 

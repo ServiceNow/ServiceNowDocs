@@ -2,7 +2,7 @@
 title: Communication channel definition
 description: You can define a communication channel for each communication task. The communication channel determines which mode of communication to use for the task when a plan is attached to an incident. The modes of communication available are: email, SMS, conference, and Slack.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/communication-channel-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/communication-channel-definition.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -18,5 +18,5 @@ You can define a communication channel for each communication task. The communic
 
 For information on how to create a communication channel definition, refer to [Create communication channel definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-comm-channel-definition.md) .
 
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

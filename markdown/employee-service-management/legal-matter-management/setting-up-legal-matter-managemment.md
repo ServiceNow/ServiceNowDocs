@@ -2,7 +2,7 @@
 title: Setting up Legal Matter Management
 description: Configure the foundation data for legal matters through Legal Matter Management to provide legal services to employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/setting-up-legal-matter-managemment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/setting-up-legal-matter-managemment.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -18,7 +18,7 @@ Configure the foundation data for legal matters through Legal Matter Management 
 
 ## Configuration overview
 
--   [Legal matter templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-administration.md)
+-   [Legal matter templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/legal-matter-administration.md)
 
     Create legal matter templates to standardize legal procedures​ for handling legal matters.
 
@@ -26,17 +26,17 @@ Configure the foundation data for legal matters through Legal Matter Management 
 
     Configure email notifications to be sent when specific events occur, such as when a legal matter is assigned to a matter owner or when a matter is closed or canceled.
 
--   [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)
+-   [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)
 
     Configure the requirements to enable outside counsel engagement and matter creation in Legal Tracker.
 
 
--   **[Install Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/install-legal-matter-management.md)**  
+-   **[Install Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/install-legal-matter-management.md)**  
 You can install the Legal Matter Management application \(sn\_lg\_matter\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Legal matter templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-administration.md)**  
+-   **[Legal matter templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/legal-matter-administration.md)**  
 Legal matter templates help you standardize legal procedures​, policies, and workflows for various matter types.
--   **[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)**  
+-   **[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)**  
 Configure the requirements to enable outside counsel engagement and matter creation in Legal Tracker.
 
-**Parent Topic:**[Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-management-landing-page.md)
+**Parent Topic:**[Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/legal-matter-management-landing-page.md)
 

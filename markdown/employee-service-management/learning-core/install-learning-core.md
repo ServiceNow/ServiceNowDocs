@@ -2,7 +2,7 @@
 title: Install Learning Core
 description: You can install the Learning Core application \(sn\_lc\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/install-learning-core.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/install-learning-core.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -33,7 +33,7 @@ The following items are installed with Learning Core:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core-components-installed.md).
+For more information, see [Components installed with Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-core-components-installed.md).
 
 ## Procedure
 
@@ -58,7 +58,7 @@ For more information, see [Components installed with Learning Core](https://raw.
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/configuring-learning-core.md)
+**Parent Topic:**[Configuring Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/configuring-learning-core.md)
 
 **Related topics**  
 

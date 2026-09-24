@@ -2,7 +2,7 @@
 title: Playbook statuses and activation states
 description: View your playbook's status in the main header of the Playbooks builder. This status indicates whether the playbook is active or inactive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/process-status-activation-state.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/process-status-activation-state.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

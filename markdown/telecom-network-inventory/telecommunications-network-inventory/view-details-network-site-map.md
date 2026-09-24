@@ -2,7 +2,7 @@
 title: View details of the geo map
 description: Use the geo map to view the geographical location of a network site and datacenter and its details in the Telecommunications Network Inventory application. You can understand the detailed overview of the site and information about the connections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/view-details-network-site-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/view-details-network-site-map.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -56,7 +56,7 @@ Details
 
 </td><td>
 
-Hover over the map icon on the map pane and then select **View Details**. You can view the site details on the details pane. You can also view the image of the site. To learn more about how to upload an image, see [Add images to a network inventory record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/add-image-network-invetory-record.md).
+Hover over the map icon on the map pane and then select **View Details**. You can view the site details on the details pane. You can also view the image of the site. To learn more about how to upload an image, see [Add images to a network inventory record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/add-image-network-invetory-record.md).
 
  **Note:** If you select the datacenter on the map pane, select **View floor map** to view the floor map. The **View Floor Map** automatically populates the campus only. You must manually select a building and floor to view the corresponding floor map.
 
@@ -128,10 +128,10 @@ Select a site to view the number of associated change requests on the details pa
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
+**Parent Topic:**[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
 
 **Related topics**  
 
 
-[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/visualization-map.md)
+[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/visualization-map.md)
 

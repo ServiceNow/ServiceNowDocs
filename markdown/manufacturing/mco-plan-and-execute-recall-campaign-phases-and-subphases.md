@@ -2,7 +2,7 @@
 title: Plan and execute recall campaign phases and sub-phases using ServiceNow Otto
 description: Plan and execute recall campaign phases and sub-phases AI agent enables product recall campaigns to generate and manage phase.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,5 +56,5 @@ The Plan and Execute Recall Campaign Phases AI agent generates and manages recal
 **Related topics**  
 
 
-[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-phases.md)
+[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-recall-campaign-phases.md)
 

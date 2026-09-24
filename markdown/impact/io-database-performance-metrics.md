@@ -2,7 +2,7 @@
 title: Database performance metrics
 description: The metrics provide the database performance snapshot within the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-database-performance-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-database-performance-metrics.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-18"
@@ -56,7 +56,7 @@ This metric represents the max time taken by slow queries. Slow queries refer to
 
 This metric represents the duration InnoDB waits to acquire a row lock before timing out, specified in seconds. Adjusting it affects concurrency and performance in database transactions.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

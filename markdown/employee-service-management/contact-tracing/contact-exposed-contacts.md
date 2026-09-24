@@ -2,7 +2,7 @@
 title: Follow up with potentially exposed contacts
 description: As a case task owner, contact potentially exposed users to follow up on their health status using the predefined instructions and survey questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/contact-exposed-contacts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/contact-exposed-contacts.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -41,7 +41,7 @@ The Exposure Case Task Survey is available for contact tracers to use to assess 
     -   Contact the user by calling or sending an email with the questions specified in the survey by clicking **Take Survey**.
     -   Send the survey via SMS for the user to respond via SMS by clicking **Send SMS Survey** if available.
 
-        **Note:** You must have Virtual Agent installed and set up for use with SMS and Twilio to complete SMS outreach delivery. For more information on this feature, see [Virtual Agent conversations for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-tracing-va-sms.md).
+        **Note:** You must have Virtual Agent installed and set up for use with SMS and Twilio to complete SMS outreach delivery. For more information on this feature, see [Virtual Agent conversations for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/contact-tracing-va-sms.md).
 
     Each follow-up result is added to the Survey results related list.
 
@@ -70,5 +70,5 @@ If Employee Readiness Core is installed and the potentially exposed contacts req
 
 After all the case tasks in the case have been closed, the case manager can close the case.
 
-**Parent Topic:**[Managing cases to follow up with potentially exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/exposure-case-management.md)
+**Parent Topic:**[Managing cases to follow up with potentially exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/exposure-case-management.md)
 

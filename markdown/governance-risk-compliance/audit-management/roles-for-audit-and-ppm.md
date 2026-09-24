@@ -2,7 +2,7 @@
 title: Roles required for Advanced planning capability
 description: The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement, and provides planning features that could be used for resource planning, cost planning, and so on, from the engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -93,10 +93,10 @@ You can log hours in a time card for an engagement and other tasks on an engagem
 -   Users need timecard\_approver role to approve a submitted time card. The time sheet policy assigned to the user governs the approval process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-reference.md)
+</table>**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-management-reference.md)
 
 **Related topics**  
 
 
-[Roles required for Engagement project planning for Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/Engagement-project-roles-ppm.md)
+[Roles required for Engagement project planning for Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/Engagement-project-roles-ppm.md)
 

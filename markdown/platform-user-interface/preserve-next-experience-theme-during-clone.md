@@ -2,7 +2,7 @@
 title: Preserve your custom Next Experience theme during a clone
 description: Preserve your custom Next Experience theme during a clone by using a data preserver.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/preserve-next-experience-theme-during-clone.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/preserve-next-experience-theme-during-clone.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -65,5 +65,5 @@ This procedure preserves theme-related data during a clone. If the theme is not 
     **Note:** A clone profile enables you to store predefined target and clone options. If you don’t have a clone profile, or don’t need one, skip this step.
 
 
-**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
+**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/config-next-experience-themes-prefs.md)
 

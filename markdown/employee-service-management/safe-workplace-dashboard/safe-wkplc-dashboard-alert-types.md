@@ -2,7 +2,7 @@
 title: Alert types used with the Safe Workplace Dashboard
 description: Alert types define the ServiceNow Performance Analytics \(PA\) thresholds used to generate alerts on the Safe Workplace Dashboard. Alerts are generated from application data once per day.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-dashboard/safe-wkplc-dashboard-alert-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace-dashboard/safe-wkplc-dashboard-alert-types.html
 release: australia
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -25,5 +25,5 @@ Alert types define the ServiceNow® Performance Analytics \(PA\) thresholds used
 
 A user with the pa\_admin role can define additional alert types. For information about using Performance Analytics, see [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md).
 
-**Parent Topic:**[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)
+**Parent Topic:**[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)
 

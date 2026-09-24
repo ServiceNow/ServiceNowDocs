@@ -2,7 +2,7 @@
 title: Jumpstart Your CSDM for Service Operations
 description: This Accelerator provides a demonstration of the possibilities and capabilities of the Common Service Data Model \(CSDM\) for Service Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-csdm-for-service-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-csdm-for-service-operations.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -29,7 +29,7 @@ The accelerator aligns you with CSDM leading practices and enables you to build 
 
 ## Prerequisites
 
-Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md) before taking this one, as this offering builds on the foundational data required to operate, maintain and support business and technical services.
+Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-csdm.md) before taking this one, as this offering builds on the foundational data required to operate, maintain and support business and technical services.
 
 ## What You Get
 

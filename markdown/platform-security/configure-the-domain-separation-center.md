@@ -2,7 +2,7 @@
 title: Configure the Domain Separation Center
 description: Specify which tables in domains are large and whether you want detailed logging.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-the-domain-separation-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configure-the-domain-separation-center.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

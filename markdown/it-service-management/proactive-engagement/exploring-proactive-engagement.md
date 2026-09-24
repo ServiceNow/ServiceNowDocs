@@ -2,7 +2,7 @@
 title: Exploring Proactive Engagement
 description: It is a solution where the self-resolution remediation process is proactive, seamless, and consistent without the organization having to publish all solution sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/exploring-proactive-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/proactive-engagement/exploring-proactive-engagement.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -36,7 +36,7 @@ ServiceNow Digital End-User Experience empowers IT to take proactive measures an
 
 ServiceNow Proactive Engagement is part of the ServiceNow Digital End-User Experience now. The Proactive Engagement application is installed as part of the Digital End-User Experience bundle. It assists in defining issue detection rules, resolution content, and engagement settings that help employees to self-solve digital experience issues by leveraging proactive identification of issues.
 
-For information on the ServiceNow Digital End-User Experience, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md).
+For information on the ServiceNow Digital End-User Experience, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-landing.md).
 
 ## DEX Admin/Engagement admin experience
 
@@ -72,8 +72,8 @@ For information on the ServiceNow Digital End-User Experience, see [Digital End-
 
         **Note:** Fallback options are configured by the DEX or Engagement admin.
 
-    The ServiceNow Proactive Engagement provides base resolution content. You can create your own resolution content as well. For more information, on the base resolutions, see [Proactive Engagement solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/proactive-engagement-solution.md).
+    The ServiceNow Proactive Engagement provides base resolution content. You can create your own resolution content as well. For more information, on the base resolutions, see [Proactive Engagement solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/proactive-engagement-solution.md).
 
 
-**Parent Topic:**[Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/proactive-engagement-landing-page.md)
+**Parent Topic:**[Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/proactive-engagement-landing-page.md)
 

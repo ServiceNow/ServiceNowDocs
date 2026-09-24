@@ -2,7 +2,7 @@
 title: Planning your Field Service Management implementation
 description: Before starting on your implementation journey, take some time to plan your implementation, understand Field Service Management packaging and licensing, and take some training for the features you want to implement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/planning-implementation-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/planning-implementation-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

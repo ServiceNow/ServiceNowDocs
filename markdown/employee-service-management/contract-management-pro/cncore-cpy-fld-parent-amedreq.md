@@ -2,7 +2,7 @@
 title: Copy fields from parent request to amendment request
 description: Configure the ContractManagementExt extension point to automatically copy fields to contract request from the linked parent request and parent contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-cpy-fld-parent-amedreq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-cpy-fld-parent-amedreq.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -37,7 +37,7 @@ Role required: admin
 
 5.  On the Script Include form, fill in the fields.
 
-    For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
+    For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
 6.  In the **Script** field, update the copyDataFromBUToCMR function to configure the fields that you want to copy from the parent record to the contract request.
 
@@ -80,7 +80,7 @@ Role required: admin
 
 When a contract request is initiated, the configured fields are automatically populated with the corresponding values from the associated contract repository record selected while initiating an amendment request.
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Install Unified content management application
 description: Install the Unified Content Management application from the Application Manager to access regulatory frameworks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/install-unified-content-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/install-unified-content-management.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

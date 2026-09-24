@@ -2,7 +2,7 @@
 title: Key alerts and notifications
 description: Use the Instance Observer Key Alerts functionality for flexibility to set alerts with historical thresholds from four week increments specific to your business needs and configure who on your team receives notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-alerts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,14 +32,14 @@ Instance Observer utilizes the P-Score to assess instance usage, then calculate 
 -   When an instance meets the required P-Score for eligibility, users will see a banner to opt-in for the alerts activation feature. Users will receive intelligent thresholds under the **IO recommended** condition for all six metrics derived from historical data.
 -   If an instance has a low P-Score, the banner to opt-in for alerts activation feature will not be visible. The P-Score is regularly refreshed, and as instances grow in the future, you will see the option to opt-in for the alerts activation feature. Thresholds are refreshed automatically weekly for instances meeting the minimum P-Score criteria.
 
-To set up alerts, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
+To set up alerts, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-io-alerts.md).
 
--   **[Configure notifications in IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-self-serve-alerts-vid-tut.md)**  
+-   **[Configure notifications in IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-self-serve-alerts-vid-tut.md)**  
 Configure notifications and alerts to monitor your Instance Observer instance and receive alerts when specified conditions are met.
--   **[Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md)**  
+-   **[Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-io-alerts.md)**  
 Follow these steps to configure Key Alerts on an instance where critical alerts have not yet been configured.
--   **[Generate thresholds for key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/generate-thresholds-io-alerts.md)**  
+-   **[Generate thresholds for key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/generate-thresholds-io-alerts.md)**  
 For an instance where critical alerts have already been configured you can obtain improved thresholds to receive enhanced or minimal alerts.
 
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-alerts-intro.md)
 

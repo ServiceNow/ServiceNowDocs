@@ -2,7 +2,7 @@
 title: Configure Invoice case summarization
 description: Enable Accounts Payable fulfillers to use generative AI-powered invoice case summarization to quickly analyze invoice cases and determine next steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-invoice-case-summarization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/configure-invoice-case-summarization.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -121,5 +121,5 @@ The Invoice case summarization skill is activated.
 
 ## What to do next
 
-[Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-summarize-apo.md)
+[Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/now-assist-summarize-apo.md)
 

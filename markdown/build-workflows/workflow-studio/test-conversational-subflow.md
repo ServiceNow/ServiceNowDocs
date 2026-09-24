@@ -2,7 +2,7 @@
 title: Test conversational subflow
 description: Test a conversational subflow to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/test-conversational-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/test-conversational-subflow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -41,7 +41,7 @@ Role required: flow\_designer
 
 6.  For **Select skill**, select the conversational-enabled skill that you want to use for conversational testing.
 
-    To configure subflow conversational settings, see [Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-subflow-conversation-settings.md).
+    To configure subflow conversational settings, see [Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configure-subflow-conversation-settings.md).
 
 7.  For **Select assistant**, select the AI assistant you want to use for conversational testing.
 
@@ -60,5 +60,5 @@ Role required: flow\_designer
     \[Omitted image "example-execution-details-conv-subflow.png"\] Alt text: Sample execution details from testing the Crate Address subflow via a conversation
 
 
-**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflows.md)
 

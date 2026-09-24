@@ -2,7 +2,7 @@
 title: Export and import custom models in Zero Copy Connector for ERP
 description: Move a custom ERP \(Enterprise Resource Planning\) model from one instance to another by exporting and importing a remote update set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-export-and-import-custom-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-export-and-import-custom-models.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -42,7 +42,7 @@ Note the following rules when exporting and importing custom ERP models:
 -   The system value isn't imported.
 -   Only one model can be exported at a time.
 
-**Note:** A new version of the model is created when you export a model. For more information, see [Use model versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-use-model-versioning.md).
+**Note:** A new version of the model is created when you export a model. For more information, see [Use model versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-use-model-versioning.md).
 
 ## Procedure
 
@@ -102,6 +102,6 @@ Note the following rules when exporting and importing custom ERP models:
 
 11. Make any other necessary changes to the model.
 
-    For detailed information about editing and managing models, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
+    For detailed information about editing and managing models, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/exploring-erp-models.md).
 
 

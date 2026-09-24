@@ -2,7 +2,7 @@
 title: Configure AI search profiles with ServiceNow Otto for PSDS
 description: You can enable AI Search users to search content and metadata from documents in all or part of the knowledge bases, external repositories, and remote tables.Create a new search profile to store search experience settings for ServiceNow Otto for PSDS AI Search.Link search sources to a search profile to specify the content that a government service agent can search through that profile.Publish a search profile to make its settings, and any pending changes to its settings, active in search queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-config-ais-profiles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-config-ais-profiles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

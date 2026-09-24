@@ -2,7 +2,7 @@
 title: Configure territory view to allow users to see other members' schedules
 description: Allow users to switch between viewing assignment groups and territories within Workforce.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/enable-territory-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/enable-territory-view.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Allow users to switch between viewing assignment groups and territories within W
 
 ## Before you begin
 
-An administrator must [Configure Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md).
+An administrator must [Configure Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md).
 
 Role required: wm\_admin
 
@@ -45,9 +45,9 @@ Enable territory view by setting the technician visibility type to allow Workfor
 **Related topics**  
 
 
-[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
+[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
 
-[Workforce system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-system-properties.md)
+[Workforce system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-system-properties.md)
 
-[Managing agents and tasks from Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/using-manager-workforce.md)
+[Managing agents and tasks from Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/using-manager-workforce.md)
 

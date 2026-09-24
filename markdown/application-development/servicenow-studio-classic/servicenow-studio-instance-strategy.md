@@ -2,7 +2,7 @@
 title: ServiceNow Studio instance strategy
 description: Install ServiceNow Studio on every ServiceNow instance where you develop applications, then define your company's access and deployment strategy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-instance-strategy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/servicenow-studio-instance-strategy.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -32,5 +32,5 @@ After you establish your instance strategy, complete the following tasks.
 2.  Select the non-production environment where ServiceNow Studio will run.
 3.  Determine how to promote apps from your non-production instance to your test instance, and then to production. Deploy apps using update sets, pipelines, or the Application Repository in ServiceNow Studio.
 
-**Parent Topic:**[Installing ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/installing-servicenow-studio.md)
+**Parent Topic:**[Installing ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/installing-servicenow-studio.md)
 

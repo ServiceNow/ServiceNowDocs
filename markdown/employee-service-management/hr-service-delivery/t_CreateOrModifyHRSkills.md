@@ -2,7 +2,7 @@
 title: Add or modify an HR skill
 description: You can create HR skills and assign them to HR staff to assist with the auto-assignment of HR cases and tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyHRSkills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateOrModifyHRSkills.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,5 +35,5 @@ The following procedure describes how to create and edit HR skills from the Skil
 4.  Click **Submit** to save your changes.
 
 
-**Parent Topic:**[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)
+**Parent Topic:**[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)
 

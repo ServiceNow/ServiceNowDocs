@@ -2,11 +2,11 @@
 title: Combined Data Privacy release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Data Privacy from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-dataprivacy-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-dataprivacy-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 6
+last_updated: "2026-09-24"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -78,7 +78,16 @@ Yokohama
 
 </td><td>
 
--   **[Discover sensitive data from attachments.](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=yokohama&ft:locale=en-US)**
+-   **[AL/ML Based Data Discovery for Real Time Anonymization](https://www.servicenow.com/docs/access?context=now-assist-for-data-privacy-landing&family=yokohama&ft:locale=en-US)**
+
+Use AI/ML data discovery using Named Entity Recognition \(NER\) models to discover sensitive data that does not follow a pattern like name, address, organizations, and more; and run real-time anonymization.
+
+-   **[Configuring Data Privacy for Now Assist](https://www.servicenow.com/docs/access?context=configure-now-assist-data-privacy&family=yokohama&ft:locale=en-US)**
+
+Sanitize sensitive data entered in Now Assist prompts to prevent data leakage without impacting the response.
+
+
+ -   **[Discover sensitive data from attachments.](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=yokohama&ft:locale=en-US)**
 
 Discover and report on sensitive data from attachments.
 
@@ -167,6 +176,20 @@ Zurich
 -   **[Text to Regex from a LLM](https://www.servicenow.com/docs/access?context=configure-data-discovery-patterns&family=zurich&ft:locale=en-US)**
 
 Create a regex data pattern with the help of Now Assist, which supports all third-party LLMs approved by ServiceNow.
+
+
+ -   **[Full scan support added](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=zurich&ft:locale=en-US)**
+
+Data Discovery jobs support full type scans, which scan for sensitive data patterns in all the records. You can also use an incremental scan, which acts as a delta scan from the point of the last full scan.
+
+-   **[XLS and CSV support added](https://www.servicenow.com/docs/access?context=data-discovery-attachment-scanning&family=zurich&ft:locale=en-US)**
+
+Data Discovery attachment scan type jobs now support XLS and CSV files. Attachment scans are incremental scans by default.
+
+
+ -   **Key word matching**
+
+As part of key word matching when discovering sensitive data using regex, more precise data pattern matching has been implemented, using full strings of text. This may require customers to add more specific variants of keywords to achieve the same level of discovery precision as prior platform releases
 
 
 </td></tr><tr><td>
@@ -285,6 +308,8 @@ Yokohama
 Data Privacy is available with activation of the Data Privacy Plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Data Privacy is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -296,6 +321,8 @@ Zurich
 Data Privacy is available with activation of the Data Privacy plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=zurich&ft:locale=en-US).
 
 
+**Important:** Data Privacy is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -306,6 +333,8 @@ Australia
 
 Data Privacy is available with activation of the Data Privacy plugin \(`sn_dp_store_app`\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=australia&ft:locale=en-US).
 
+
+**Important:** Data Privacy is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -506,5 +535,5 @@ Australia
  See [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

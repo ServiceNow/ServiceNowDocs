@@ -2,7 +2,7 @@
 title: Add menu items into the Care Team Portal with Healthcare Operations Core
 description: Add more menu items into the Care Team Portal for easy user access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hco-add-menu-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/hco-add-menu-items.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

@@ -2,7 +2,7 @@
 title: KB Categories widget
 description: Lists the categories for your Knowledge Base. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/kb-categories-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/kb-categories-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -22,9 +22,9 @@ Categories are determined by the list of Knowledge Categories provided for the K
 
 **Note:** If the **Max article limit to allow category counts** field is set to 500 counts and the knowledge base contains more than 500 articles the KB categories widget displays all of the categories in the knowledge base.
 
-The knowledge base that a portal uses is determined in the portal form. If your portal uses multiple knowledge bases, you can use the [KB Knowledge Bases widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/knowledge-bases-widget.md) to filter the content of the KB Categories widget.
+The knowledge base that a portal uses is determined in the portal form. If your portal uses multiple knowledge bases, you can use the [KB Knowledge Bases widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/knowledge-bases-widget.md) to filter the content of the KB Categories widget.
 
-For more information on associating your portal with a knowledge base, see [Associate a portal with a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-knowledge.md).
+For more information on associating your portal with a knowledge base, see [Associate a portal with a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/associate-portal-knowledge.md).
 
 **Note:** In the widget Instance Options, if the **Max number of articles evaluated per category to determine visibility** value is set to 1 or higher the user must have access to at least one article in the category for the category to be displayed.
 
@@ -32,7 +32,7 @@ For more information on associating your portal with a knowledge base, see [Asso
 
 The KB categories widget does not include instance options.
 
-**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/km-widgets.md)
+**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/km-widgets.md)
 
 **Related topics**  
 

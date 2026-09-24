@@ -2,7 +2,7 @@
 title: Exploring Zero Copy Connector for ERP models
 description: Build ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP to create read, update, and create operations and organize mirrored ERP data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/exploring-erp-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/exploring-erp-models.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

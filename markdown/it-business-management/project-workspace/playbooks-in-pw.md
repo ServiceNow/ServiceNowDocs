@@ -2,7 +2,7 @@
 title: Playbooks in Project Workspace
 description: Organize and guide project teams with Playbooks to maintain consistency, streamline projects, and keep work on track.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/playbooks-in-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/playbooks-in-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -41,14 +41,14 @@ Project default playbook is a free-form playbook where all stages and tasks are 
 
 In a Stage-gate playbook, the stages and tasks must be completed in a linear order. Each stage must be finished before moving to the next one. The stages are visible only when all activities in the previous stage are completed or skipped. After completing a stage, project managers can still return to previous stages if needed. This playbook is commonly used in research and development projects.
 
-**Parent Topic:**[Project planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-planning-in-pw.md)
+**Parent Topic:**[Project planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-planning-in-pw.md)
 
 **Related topics**  
 
 
 [Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
 
-[Playbooks configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-playbooks-pw.md)
+[Playbooks configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-playbooks-pw.md)
 
-[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-playbooks-pw.md)
+[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-playbooks-pw.md)
 

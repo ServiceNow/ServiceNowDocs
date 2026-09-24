@@ -2,7 +2,7 @@
 title: Solving installation and configuration issues with ServiceNow AI features
 description: Use this checklist to address issues or gaps in your AI configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-install-config-checklist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-install-config-checklist.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-31"
@@ -126,7 +126,7 @@ Features/skills are missing or generally not working
 
 -   Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallUpdates.md).
 -   Verify that version and dependency requirements are met. For details, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/versions-dependencies.md).
--   For skills, verify that they are active in the AI Admin Hub. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+-   For skills, verify that they are active in the AI Admin Hub. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 -   Verify that the user has the correct role for the skill.
 -   Try clearing the cookies and cache in the web browser.
 -   Try repairing Generative AI Controller. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/repair-app.md).
@@ -143,7 +143,7 @@ Can't edit a skill
 
 Verify that you have the AI Admin Hub role: sn\_nowassist\_admin.nsa\_admin.
 
- You can edit a skill or make a copy of a skill to edit. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+ You can edit a skill or make a copy of a skill to edit. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 </td></tr><tr><td>
 
@@ -195,7 +195,7 @@ AI Skill Kit is not visible on my instance
 
 </td><td>
 
--   Verify that you have at least one AI or ServiceNow Otto product installed. For details, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   Verify that you have at least one AI or ServiceNow Otto product installed. For details, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   Verify that the sn\_skill\_builder.admin role is assigned to the user.
 
 </td></tr><tr><td>
@@ -222,7 +222,7 @@ I can't generate a knowledge article
 
 1.  Verify that ServiceNow Otto for Knowledge Management is installed and configured.
 2.  Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallUpdates.md).
-3.  Verify that the knowledge generation skill is activated. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+3.  Verify that the knowledge generation skill is activated. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 4.  Try repairing the plugins.
 
 </td></tr><tr><td>
@@ -247,7 +247,7 @@ Don't see code suggestions
 
 </td><td>
 
--   Verify that the skill is active. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+-   Verify that the skill is active. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 -   Verify that the user has the appropriate role. Any authenticated builder can use the related active skill.
 -   Verify that autocomplete is enabled. For details, see [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-code-with-autocomplete.md).
 
@@ -274,7 +274,7 @@ Can't access skills in the ServiceNow Otto panel
 
 </td><td>
 
--   Verify that the skill is configured to display in the ServiceNow Otto panel. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+-   Verify that the skill is configured to display in the ServiceNow Otto panel. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-a-now-assist-skill.md).
 -   If you're using ServiceNow Otto for Virtual Agent, verify that search sources were configured for the ServiceNow Otto panel. You can specify search sources for a ServiceNow Otto panel assistant when you set it up. Search sources are essential for the panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md).
 
 If ServiceNow Otto for Virtual Agent is not installed, the ServiceNow Otto panel uses default search sources.
@@ -290,7 +290,7 @@ Some users don't get a response to a question
 
 </td><td>
 
-Many generative AI skills require specific user roles. Verify that there are active skills with the user's role. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+Many generative AI skills require specific user roles. Verify that there are active skills with the user's role. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 
 </td></tr><tr><td>
 
@@ -302,7 +302,7 @@ I don't want skills to be available in ServiceNow Otto panel
 
 </td><td>
 
-Disable the ServiceNow Otto panel when you configure the skill. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+Disable the ServiceNow Otto panel when you configure the skill. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-a-now-assist-skill.md).
 
 </td></tr><tr><td>
 

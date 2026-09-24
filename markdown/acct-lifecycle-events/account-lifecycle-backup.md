@@ -2,7 +2,7 @@
 title: Run scheduled job to back up staging table
 description: You can take a backup of the data on the staging table at periodic intervals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-backup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-backup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,5 +44,5 @@ Data present in the staging table backed up if:
 
 A CSV file is created and attached to the import task. The file name includes the name of the staging file and the creation date in the format `stagingTable-dateCreated.csv`.
 
-**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure.md)
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-configure.md)
 

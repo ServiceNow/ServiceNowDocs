@@ -2,7 +2,7 @@
 title: Map sources for geomap data visualizations
 description: Geomap data visualizations are connected to location tables in a special map source.To use a custom location table in geomap data visualizations, define a map source that links to the table. Add more map sources at different levels of the hierarchy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/geomap-map-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/geomap-map-source.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Map sources for geomaps point directly to location tables. They don’t referenc
 
 \[Omitted image "dv-map-sources.png"\] Alt text: Reusable set of map sources for all geomap data visualizations on an instance.
 
-**Parent Topic:**[Create a geomap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-geomap-ac.md)
+**Parent Topic:**[Create a geomap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-geomap-ac.md)
 
 ## Create a data visualization map source
 

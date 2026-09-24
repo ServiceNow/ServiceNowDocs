@@ -2,7 +2,7 @@
 title: AI Analytics roles
 description: AI Analytics requires the following roles to view and manage the dashboard functionality.Users with the AI Analytics Viewer role can view the AI Analytics dashboard in the AI Admin Hub console, and have read access to data source tables.Users with AI Analytics Admin role can view the AI Analytics dashboard in the AI Admin Hub console, and read and write to some data source tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-analytics-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-analytics-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

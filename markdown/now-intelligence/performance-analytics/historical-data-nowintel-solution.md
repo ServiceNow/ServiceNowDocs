@@ -2,7 +2,7 @@
 title: Run historical data collection for a Platform Analytics Solution
 description: After you activate an Platform Analytics Solution, run a historical data collection job. This job gives you immediate insight from your existing data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/historical-data-nowintel-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/historical-data-nowintel-solution.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -76,14 +76,14 @@ In the form, you verify the following details:
 
 You are satisfied with the settings for the historical job, so you click **Execute Now**. After a few minutes, the job is shown as `Collected` in the job logs.\[Omitted image "nowintel-solution-complete-hist-job.png"\] Alt text: Job log showing collected Knowledge Management historical job
 
-**Parent Topic:**[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)
+**Parent Topic:**[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)
 
-**Previous topic:**[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)
+**Previous topic:**[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)
 
-**Next topic:**[Schedule data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/schedule-job-nowintel-solution.md)
+**Next topic:**[Schedule data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/schedule-job-nowintel-solution.md)
 
 **Related topics**  
 
 
-[Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_RunHistoricalDataCollection.md)
+[Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_RunHistoricalDataCollection.md)
 

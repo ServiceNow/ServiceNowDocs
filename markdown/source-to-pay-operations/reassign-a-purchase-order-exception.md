@@ -2,7 +2,7 @@
 title: Reassign a purchase order exception
 description: Reassign an open purchase order exception to another operational buyer or team member. Reassign the exception when the original assignee is unavailable, when the original assignee lacks the necessary authority, or when the workload must be balanced. This ensures exceptions continue progressing toward resolution without delays.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/reassign-a-purchase-order-exception.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/reassign-a-purchase-order-exception.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,12 +37,12 @@ Role required: sn\_poem\_core.operational\_buyer
     The purchase order exception is reassigned.
 
 
-**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/resolving-purchase-order-exceptions.md)
 
 **Related topics**  
 
 
-[Change the priority level of a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/change-priority-of-poe.md)
+[Change the priority level of a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/change-priority-of-poe.md)
 
-[Create a supplier escalation case from a PO exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-supplier-escalation-case-from-poe.md)
+[Create a supplier escalation case from a PO exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/create-supplier-escalation-case-from-poe.md)
 

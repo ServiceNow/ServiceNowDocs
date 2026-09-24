@@ -2,7 +2,7 @@
 title: Dynamic JavaScript filters
 description: Create dynamic conditions in JavaScript that you can configure as part of a report visualization's criteria instead of specified values.Add a dynamic JavaScript statement for evaluation as part of a report visualization's filter criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/dynamic-js-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/core-ui-interactive-filters/dynamic-js-filters.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
@@ -18,7 +18,7 @@ Create dynamic conditions in JavaScript that you can configure as part of a repo
 
 To create a report using a dynamic conditional statement, you place a JavaScript URL in the conditional value statement of the filter. You can enter a JavaScript command directly into the field, but for a script longer than one statement, the script should be placed in its own record. You then call a function from that record in the value field of the report condition.
 
-**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)
+**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)
 
 ## Add a dynamic JavaScript filter
 

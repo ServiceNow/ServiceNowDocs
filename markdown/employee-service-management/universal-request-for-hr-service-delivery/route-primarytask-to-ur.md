@@ -2,7 +2,7 @@
 title: Transfer a primary ticket
 description: You can transfer a primary ticket back to Universal Request, service set \(department\), or service either with or without resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/route-primarytask-to-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/route-primarytask-to-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -22,7 +22,7 @@ Role required: agent part of the assignment group of the primary ticket or assig
 
 ## About this task
 
-Configure the **sn\_uni\_req.transfer\_type** property in the **Universal Request properties** page to determine how to handle the primary ticket transfers. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
+Configure the **sn\_uni\_req.transfer\_type** property in the **Universal Request properties** page to determine how to handle the primary ticket transfers. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
 A routing agent can either resolve and close a primary ticket or transfer it to back to Universal Request or another department for review and closure. When a primary ticket is transferred back to UR, the ticket is no longer a primary ticket, and the primary ticket field of the Universal Request becomes empty.
 
@@ -59,7 +59,7 @@ The agent can transfer a ticket with one of the following reasons:
 
 4.  In the **Transfer Ticket** dialog, provide the following details and then click **Transfer**.
 
-    **Note:** Based on the transfer type configuration, different fields display on the form. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
+    **Note:** Based on the transfer type configuration, different fields display on the form. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
     -   **Action**: Select if you want to transfer the ticket to another department or back to the Universal Request.
     -   **Department**: Select the department from the list.
@@ -73,7 +73,7 @@ The agent can transfer a ticket with one of the following reasons:
 
 ## Result
 
-The ticket is transferred based on the direct transfer mappings in mapping configuration and transfer type configurations. For more information on configuring routing, see [Transfer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/configure-route-state.md) and [Map UR fields with target table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/transfer-fields-mapping.md).
+The ticket is transferred based on the direct transfer mappings in mapping configuration and transfer type configurations. For more information on configuring routing, see [Transfer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/configure-route-state.md) and [Map UR fields with target table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/transfer-fields-mapping.md).
 
-**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

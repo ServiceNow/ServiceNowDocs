@@ -2,7 +2,7 @@
 title: Explore
 description: Learn about the CAM benefits and workflows for users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/exploring-grc-cam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/continuous-risk-monitoring/exploring-grc-cam.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -22,7 +22,7 @@ The CAM application applies a standardized approach to automating NIST's Risk Ma
 
 ## CAM users
 
-CAM roles that are required for particular tasks are listed in [CAM user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-roles-list.md).
+CAM roles that are required for particular tasks are listed in [CAM user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/cam-roles-list.md).
 
 |User / Role|Description|
 |-----------|-----------|
@@ -57,13 +57,13 @@ The RMF System Life Cycle consists of seven interconnected phases that work toge
 
 To learn more about configuring and using CAM, see:
 
--   [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.md)
--   [RMF step 0 - Prepare the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/prepare-auth-pkg.md)
--   [RMF step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/categorize.md)
--   [RMF step 2 - Select controls for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/select-controls.md)
--   [RMF step 3 - Implement controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/implement-controls.md)
--   [RMF steps 4, 5, and 6 - Assess, authorize, and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.md)
--   [Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
--   [Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
--   [Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+-   [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.md)
+-   [RMF step 0 - Prepare the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/prepare-auth-pkg.md)
+-   [RMF step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/categorize.md)
+-   [RMF step 2 - Select controls for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/select-controls.md)
+-   [RMF step 3 - Implement controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/implement-controls.md)
+-   [RMF steps 4, 5, and 6 - Assess, authorize, and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.md)
+-   [Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
+-   [Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
+-   [Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

@@ -2,10 +2,10 @@
 title: ITOM AIOps configuration center
 description: The ITOM AIOps configuration center is a centralized hub to manage AIOps settings. It helps you integrate monitoring tools, optimize alerts, metrics, and logs, manage services, dashboards, teams, and authorization—streamlining event-to-response workflows for better visibility, noise reduction, and operational efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-aiops-conf-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-aiops-conf-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -33,5 +33,5 @@ The AIOps configuration center provides a single interface to configure and admi
 
 The AIOps configuration center consolidates all administrative tasks needed to set up and operate ITOM AIOps effectively. This makes it easier to streamline monitoring, improve incident response, and maintain service reliability.
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-sow-itom.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-sow-itom.md)
 

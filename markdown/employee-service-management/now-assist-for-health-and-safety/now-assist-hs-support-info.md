@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Health and Safety
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Health and Safety application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-support-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-support-info.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -40,5 +40,5 @@ Activate the applications in the following order:
 1.  Health and Safety Incident Management
 2.  ServiceNow Otto for Health and Safety
 
-For more information, see [Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md).
+For more information, see [Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md).
 

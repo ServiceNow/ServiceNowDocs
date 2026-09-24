@@ -2,7 +2,7 @@
 title: Edge Encryption limitations
 description: Edge Encryption impacts system functions. Carefully evaluate the impact of encrypting a field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/edge-encryption-limitations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/edge-encryption/edge-encryption-limitations.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -129,5 +129,5 @@ Impact of using Edge Encryption on the instance:
 -   Edge Encryption can’t be used with Data Archiving.
 -   Edge Encryption proxies cannot encrypt requests that use the batch REST request API. If you are using Edge Encryption proxies, disable REST batching by setting the `glide.uxf.disable_rest_batching` system property to true.
 
-**Parent Topic:**[Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
+**Parent Topic:**[Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
 

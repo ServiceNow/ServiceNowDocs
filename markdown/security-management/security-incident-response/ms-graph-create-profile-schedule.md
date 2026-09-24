@@ -2,7 +2,7 @@
 title: Define schedule for Microsoft Graph Security API integration
 description: Verify the default settings for alert retrieval or modify the scheduling as needed. This step permits you to filter your alert retrieval based on a date range.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-create-profile-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ms-graph-create-profile-schedule.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

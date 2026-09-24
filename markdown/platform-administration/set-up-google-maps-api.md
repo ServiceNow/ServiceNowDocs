@@ -2,7 +2,7 @@
 title: Set up Google Maps API
 description: You enable the geolocation feature using the appropriate entries from a Google Maps API for Business license, or a Google Maps JavaScript API Key.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/set-up-google-maps-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/set-up-google-maps-api.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -291,5 +291,5 @@ Maximum number of records in a table that can be processed using the scheduled j
     5.  Click **Save**.
 
 
-**Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ServiceNowProvidedintegrations.md)
+**Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_ServiceNowProvidedintegrations.md)
 

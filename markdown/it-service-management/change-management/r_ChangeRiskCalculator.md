@@ -2,7 +2,7 @@
 title: Risk Calculator property
 description: The Change Management - Change Risk Calculator plugin enables dynamic calculations of the risk and impact of a change. The administrator specifies how and when risk and impact rules are applied.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/r\_ChangeRiskCalculator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/r\_ChangeRiskCalculator.html
 release: australia
 product: Change Management
 classification: change-management
@@ -60,7 +60,7 @@ None
 Disables the processing of risk and impact rules.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-risk-assess-detect-conflict.md)
+</table>**Parent Topic:**[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-risk-assess-detect-conflict.md)
 
 **Related topics**  
 

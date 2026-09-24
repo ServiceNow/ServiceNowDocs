@@ -2,7 +2,7 @@
 title: Configure teamspace settings
 description: Configure teamspace settings after you activate a teamspace plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_EnableATeamspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_EnableATeamspace.html
 release: australia
 product: Project Management
 classification: project-management
@@ -39,9 +39,9 @@ The teamspace becomes available in the menu. The records that are assigned to th
 
 ## What to do next
 
-Assign the teamspace roles to the users of that teamspace. Do not assign the general roles that come with the applications in the [Project Portfolio Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md).
+Assign the teamspace roles to the users of that teamspace. Do not assign the general roles that come with the applications in the [Project Portfolio Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md).
 
-**Parent Topic:**[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_Teamspaces.md)
+**Parent Topic:**[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_Teamspaces.md)
 
 **Related topics**  
 
@@ -50,5 +50,5 @@ Assign the teamspace roles to the users of that teamspace. Do not assign the gen
 
 [Installed with teamspaces]()
 
-[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_Teamspaces.md)
+[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_Teamspaces.md)
 

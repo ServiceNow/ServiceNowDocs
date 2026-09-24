@@ -2,7 +2,7 @@
 title: Add a custom column to the planning console
 description: Define the columns that you want to make available in the project planning console, portfolio workbench, program workbench, and the release management Gantt chart.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/add-display-column.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/add-display-column.html
 release: australia
 product: Project Management
 classification: project-management
@@ -175,10 +175,10 @@ Check box to make the column editable in the planning console.
 
 The display column appears in the column filter list \(\[Omitted image "filter\_icon.png"\] Alt text: Filter icon\) in the planning console.
 
-**Parent Topic:**[Custom columns in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/custom-columns-planning-console.md)
+**Parent Topic:**[Custom columns in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/custom-columns-planning-console.md)
 
 **Related topics**  
 
 
-[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
+[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 

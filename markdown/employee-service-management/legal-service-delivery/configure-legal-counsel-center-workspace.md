@@ -2,7 +2,7 @@
 title: Configure Legal Counsel Center Workspace
 description: Configure the Legal Counsel Center Workspace to customize the dashboard and interface according to the needs of the fulfillers so that they can categorize, prioritize, and efficiently address legal issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/configure-legal-counsel-center-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/configure-legal-counsel-center-workspace.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -24,12 +24,12 @@ To work on the UI Builder, navigate to **UI Builder** from **All**. Then search 
 
 You must also understand additional Configurable Workspace components to configure Legal Counsel Center. For more information, see [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_set-up-configurable-workspace.md#section_xqc_p2z_cjb).
 
--   **[Install Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.md)**  
+-   **[Install Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.md)**  
 You can install the Legal Counsel Center application \(sn\_lg\_cf\_workspace\) if you have the admin role. The application installs ServiceNow® Store applications and plugins if they are not already installed.
--   **[Enable or disable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/enable-disable-notification.md)**  
+-   **[Enable or disable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/enable-disable-notification.md)**  
 Enable or disable Legal Counsel Center notifications to subscribe to items that interest you and unsubscribe from information that does not interest you and is not mandatory.
--   **[Configure AI Search for Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/configure-ai-search-for-legal-counsel-center.md)**  
+-   **[Configure AI Search for Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/configure-ai-search-for-legal-counsel-center.md)**  
 Configure your AI Search implementation for Legal Counsel Center Workspace.
 
-**Parent Topic:**[Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md)
+**Parent Topic:**[Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md)
 

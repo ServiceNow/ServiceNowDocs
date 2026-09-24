@@ -2,7 +2,7 @@
 title: Generate OT KB articles agentic workflow
 description: The Generate OT KB articles agentic workflow automatically generates a KB article when an Operational Technology \(OT\) incident is resolved, capturing resolution information for future reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/agent-ot-knowledge-generator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/agent-ot-knowledge-generator.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -63,5 +63,5 @@ The OT knowledge generator AI agent is used to generate a KB article for a resol
 
 **Important:** This AI agent is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-**Parent Topic:**[Agentic AI for Operational Technology Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/now-assist-otsm-use-cases.md)
+**Parent Topic:**[Agentic AI for Operational Technology Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/now-assist-otsm-use-cases.md)
 

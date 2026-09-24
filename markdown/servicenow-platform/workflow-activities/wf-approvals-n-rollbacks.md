@@ -2,7 +2,7 @@
 title: Using workflow approval activities and rolling back workflows
 description: When you work with approvals, you need to understand how approval activities interact with approval engines, how to correct a skipped approval workflow activity, and how rollbacks work.Approvals can be managed by approval activities or approval engines, but not both. Approval activities can be used if approval engines are not turned on for the table associated with the workflow.While a workflow is in an active context, an approval activity can skip to the next activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/wf-approvals-n-rollbacks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/workflow-activities/wf-approvals-n-rollbacks.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -25,7 +25,7 @@ When you work with approvals, you need to understand how approval activities int
 
 Approvals can be managed by approval activities or approval engines, but not both. Approval activities can be used if approval engines are not turned on for the table associated with the workflow.
 
-Approvals can be managed by approval activities or approval engines, but not both. Trying to use both can cause a range of issues. Approval activites are not available \(greyed out\) in the palette if approval engines are used on the specified table. If you hover over a greyed out approval activity in the palette, a comment with more information is provided. For more information about approvals and approval engines, see [Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_Approvals.md).
+Approvals can be managed by approval activities or approval engines, but not both. Trying to use both can cause a range of issues. Approval activites are not available \(greyed out\) in the palette if approval engines are used on the specified table. If you hover over a greyed out approval activity in the palette, a comment with more information is provided. For more information about approvals and approval engines, see [Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_Approvals.md).
 
 \[Omitted image "ApprovalActivitiesEngines.png"\] Alt text: Approval activities are greyed out in the palette if approval engines are used on the associated table
 
@@ -36,9 +36,9 @@ To turn approval engines off for the table, navigate to the **System Properties 
 **Related topics**  
 
 
-[Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_ApprovalAndRollbackActivities.md)
+[Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/c_ApprovalAndRollbackActivities.md)
 
-[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_Approvals.md)
+[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_Approvals.md)
 
 ## Correct a skipped workflow approval activity
 
@@ -77,6 +77,6 @@ To correct a missed approval activity:
 
 7.  Click **Users** or **Groups**.
 
-8.  Assign an active user or group for the approval activity. For more information, see [Workflow error handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowErrorHandling.md).
+8.  Assign an active user or group for the approval activity. For more information, see [Workflow error handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/c_WorkflowErrorHandling.md).
 
 

@@ -2,7 +2,7 @@
 title: Configure Auto-Responder for tasks other than cases
 description: Configure the Auto-Responder feature to send helpful resources for tasks other than customer service cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-auto-responder-other-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-auto-responder-other-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,7 +51,7 @@ Perform the following tasks.
 
         For the table that you’re configuring, be sure to do the following:
 
-        -   Train the similarity solution for the table. For more information, see [Train the similarity solution for finding Auto-Responder notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/train-sol-defn-auto-responder.md).
+        -   Train the similarity solution for the table. For more information, see [Train the similarity solution for finding Auto-Responder notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/train-sol-defn-auto-responder.md).
         -   Add the similarity solution in the Additional Resource Configurations tab on the Search Context form.
     3.  In the Email Conﬁgurations related list, link your task table configuration with the Notification \[sysevent\_email\_action\] table.
 
@@ -102,10 +102,10 @@ Maximum number of resources you want to include in the Auto-Responder email noti
         -   For an existing configuration, select **Update**.
 3.  Enable contextual search results based on text searches in addition to search results based on Predictive Intelligence to be included in Auto-Responder notifications.
 
-    For more information, see [Enable text search recommendations in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-text-based-auto-responder.md).
+    For more information, see [Enable text search recommendations in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-text-based-auto-responder.md).
 
 4.  Configure a custom portal and include advanced contextual search results in email notifications.
 
-    For more information, see [Include advanced contextual search results in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-extension-point-auto-responder.md).
+    For more information, see [Include advanced contextual search results in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-extension-point-auto-responder.md).
 
 

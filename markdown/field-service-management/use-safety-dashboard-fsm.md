@@ -2,7 +2,7 @@
 title: Field Service Safety dashboard
 description: Review the status of agents, tasks, and assets using the Field Service Management Covid19 map. Monitor the compliance reports of agents through the Field Service Safety dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/use-safety-dashboard-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/use-safety-dashboard-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -84,5 +84,5 @@ Managers can view the task compliance result of their agents based on the date, 
 |My Working Agents|The number of agents working on at least one task and reporting to the logged-in field service manager. Click the metrics to view the list of their compliant and non-compliant tasks.|
 |Task Compliance by my Agents|The breakdown of compliant and non-compliant tasks by each agent within the selected date range. Click a section to view the list of tasks.|
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/analytics-reporting-fsm.md)
 

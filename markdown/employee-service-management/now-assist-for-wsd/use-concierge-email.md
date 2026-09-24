@@ -2,7 +2,7 @@
 title: Use Workplace Concierge with email or calendar invite
 description: Add the Workplace Concierge to an email thread or a calendar invite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/use-concierge-email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/use-concierge-email.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -28,15 +28,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
     The email address for Workplace Concierge is configured by your admin.
 
-<table id="choicetable_lpt_w3n_r3c"><thead><tr><th align="left" id="d413625e75">
+<table id="choicetable_lpt_w3n_r3c"><thead><tr><th align="left" id="d413629e75">
 
 Choice
 
-</th><th align="left" id="d413625e78">
+</th><th align="left" id="d413629e78">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d413625e84">
+</th></tr></thead><tbody><tr><td id="d413629e84">
 
 **Calendar invite**
 
@@ -44,7 +44,7 @@ Description
 
 Add Workplace Concierge as a guest to the calendar invite.Workplace Concierge extracts the meeting date and time, host identity, location, and attendee email addresses.
 
-</td></tr><tr><td id="d413625e100">
+</td></tr><tr><td id="d413629e100">
 
 **Email thread**
 
@@ -65,7 +65,7 @@ Workplace Concierge then scans for the date and time, location, visitor type, at
 
 4.  Verify the details of the visit, then reply with a confirmation.
 
-    After you confirm the details, Workplace Concierge creates a visit and invites the visitors using the email addresses. For more information about visitor registrations, see [Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/registerring-a-visitor.md).
+    After you confirm the details, Workplace Concierge creates a visit and invites the visitors using the email addresses. For more information about visitor registrations, see [Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/registerring-a-visitor.md).
 
 
 ## What to do next
@@ -74,5 +74,5 @@ Visitors can reply to the invitation email to provide information for the prereq
 
 If Workplace Concierge is included in any emails sent to the visitors, the Email Visitor Intake agent scans the email threads for relevant data. The agent then updates the visitor records.
 
-**Parent Topic:**[Workplace Concierge agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md)
+**Parent Topic:**[Workplace Concierge agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md)
 

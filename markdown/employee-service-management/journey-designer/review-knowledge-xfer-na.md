@@ -2,7 +2,7 @@
 title: Review offboarding knowledge transfer summaries using Now Assist
 description: Departing employees working for organizations using the offboarding knowledge transfer plan generation agentic workflow can use Now Assist in Virtual Agent to review and approve AI-generated knowledge transfer summaries. Once the employee approves the summary, it’s shared with the manager and designated team members.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/review-knowledge-xfer-na.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/review-knowledge-xfer-na.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -18,7 +18,7 @@ Departing employees working for organizations using the offboarding knowledge tr
 
 ## Before you begin
 
-The manager must have completed the knowledge transfer request for the departing employee. For more information about this process, see [Generate offboarding knowledge transfer plans using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/generate-knowledge-xfer-na.md).
+The manager must have completed the knowledge transfer request for the departing employee. For more information about this process, see [Generate offboarding knowledge transfer plans using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/generate-knowledge-xfer-na.md).
 
 Role required: employee
 
@@ -70,5 +70,5 @@ The knowledge transfer summary is approved and shared with the manager. The mana
 
 The manager can review the knowledge transfer summary approved by the departing employee and share it with successors who will assume their duties.
 
-**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
+**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

@@ -2,7 +2,7 @@
 title: Purchase punchout items on behalf of another user in Shopping Hub
 description: Shoppers can purchase Level 1 \(L1\) and Level 2 \(L2\) punchout items on behalf of another user in Shopping Hub and Employee Center. The punchout supplier site uses that user's credentials and verifies punchout group membership for L1 suppliers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-punchout-on-behalf-sh.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -19,7 +19,7 @@ Shoppers can purchase Level 1 \(L1\) and Level 2 \(L2\) punchout items on behalf
 
 ## Key benefits
 
-This functionality extends the existing purchase-on-behalf-of capability \(see [Purchase on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-on-behalf-sh.md)\) to punchout purchases, and provides the following benefits:
+This functionality extends the existing purchase-on-behalf-of capability \(see [Purchase on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-on-behalf-sh.md)\) to punchout purchases, and provides the following benefits:
 
 -   A super shopper can select whether they are shopping for themselves or on behalf of another user. This selection occurs before starting an L1 punchout session or before completing checkout for an L2 punchout item.
 -   Eligibility for the selected business owner is validated against the punchout groups configured for the punchout supplier before the shopper can proceed. A business owner who isn't eligible for a supplier's punchout catalog cannot be used to complete the purchase.
@@ -27,7 +27,7 @@ This functionality extends the existing purchase-on-behalf-of capability \(see [
 -   If no business owner is selected, items are placed in the cart of the shopper who is currently logged in.
 -   Purchasing on behalf of another user is supported from multiple locations. These include punchout search results, supplier and product cards, the Browse supplier page, L2 punchout product details, and L1 punchout entry points in Employee Center.
 
-For step-by-step instructions on purchasing L1 and L2 punchout items on behalf of another user, see [Purchase an L1 punchout item on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l1-punchout-on-behalf.md) and [Purchase an L2 punchout item on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l2-punchout-on-behalf.md).
+For step-by-step instructions on purchasing L1 and L2 punchout items on behalf of another user, see [Purchase an L1 punchout item on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l1-punchout-on-behalf.md) and [Purchase an L2 punchout item on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l2-punchout-on-behalf.md).
 
 ## How to configure
 
@@ -37,11 +37,11 @@ Plugin required: Shopping Hub \(sn\_spend\_uib\)
 
 Purchasing punchout items on behalf of another user builds on two existing configurations. Ensure both are set up correctly before shoppers use this capability:
 
--   Configure the ShoppingHub Configuration record for **Purchase on behalf of**. This record determines which shoppers can use the "shop on behalf of" capability and which individuals or groups they can shop on behalf of. This configuration is used for purchasing on behalf of another user for standard supplier products. It also populates the list of users a shopper can select from when purchasing punchout items on behalf of another user. For configuration steps, see [Enable a shopper to purchase on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.md).
+-   Configure the ShoppingHub Configuration record for **Purchase on behalf of**. This record determines which shoppers can use the "shop on behalf of" capability and which individuals or groups they can shop on behalf of. This configuration is used for purchasing on behalf of another user for standard supplier products. It also populates the list of users a shopper can select from when purchasing punchout items on behalf of another user. For configuration steps, see [Enable a shopper to purchase on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.md).
 
     \[Omitted image "sh-config-behalf.png"\] Alt text: ShoppingHub Configuration form showing fields for individual shoppers and individuals to be shopped on behalf of.
 
--   Configure the **Punchout group** field on the Third-Party Registration record for each punchout supplier \(**All** &gt; **Procurement Integrations** &gt; **Setup** &gt; **Third-Party Registration**, then select the supplier\). Select the punchout group. For L1 punchout suppliers, only users who are members of the punchout group can purchase punchout items from that supplier, whether they are shopping for themselves or on behalf of another user. A shopper can select any business owner defined in the "Purchase on behalf" of ShoppingHub Configuration. However, the purchase proceeds only if the selected business owner is a member of the supplier's punchout group. If no business owner is selected, the shopper must be a member of the supplier's punchout group. For configuration steps, see [Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md).
+-   Configure the **Punchout group** field on the Third-Party Registration record for each punchout supplier \(**All** &gt; **Procurement Integrations** &gt; **Setup** &gt; **Third-Party Registration**, then select the supplier\). Select the punchout group. For L1 punchout suppliers, only users who are members of the punchout group can purchase punchout items from that supplier, whether they are shopping for themselves or on behalf of another user. A shopper can select any business owner defined in the "Purchase on behalf" of ShoppingHub Configuration. However, the purchase proceeds only if the selected business owner is a member of the supplier's punchout group. If no business owner is selected, the shopper must be a member of the supplier's punchout group. For configuration steps, see [Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md).
 
     **Note:** The punchout group membership requirement applies only to L1 punchout suppliers.
 
@@ -83,12 +83,12 @@ For an L2 punchout item, the shopper selects whether to purchase for themselves 
 
 ## After the purchase
 
-After the shopper returns from the punchout supplier site \(L1\) or completes checkout \(L2\), the resulting cart lines and purchase are associated with the selected business owner. As with standard supplier purchases, shoppers can use the filter on **My purchases** to view purchases made on behalf of other users. For more information, see [Purchase on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-on-behalf-sh.md).
+After the shopper returns from the punchout supplier site \(L1\) or completes checkout \(L2\), the resulting cart lines and purchase are associated with the selected business owner. As with standard supplier purchases, shoppers can use the filter on **My purchases** to view purchases made on behalf of other users. For more information, see [Purchase on behalf of another user in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-on-behalf-sh.md).
 
--   **[Purchase an L1 punchout item on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l1-punchout-on-behalf.md)**  
+-   **[Purchase an L1 punchout item on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l1-punchout-on-behalf.md)**  
 Purchase items from a Level 1 \(L1\) punchout supplier site on behalf of another user. Select a business owner before the redirect so that items are placed in the correct user's cart.
--   **[Purchase an L2 punchout item on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l2-punchout-on-behalf.md)**  
+-   **[Purchase an L2 punchout item on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-l2-punchout-on-behalf.md)**  
 Select a business owner when you request to buy or add a Level 2 \(L2\) punchout item to your cart. This validates eligibility and attributes the resulting order to the correct user.
 
-**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
+**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
 

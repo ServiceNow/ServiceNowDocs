@@ -2,7 +2,7 @@
 title: Create a folder in CWM
 description: Organize Boards and Docs of a Space into folders in Collaborative Work Management Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-a-folder-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/create-a-folder-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,7 +18,7 @@ Organize Boards and Docs of a Space into folders in Collaborative Work Managemen
 
 ## Before you begin
 
-[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
+[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -49,5 +49,5 @@ A new folder is created in the Space that you selected.
     \[Omitted image "cwm-folder-options.png"\] Alt text: Folder options in CWM workspace.
 
 
-**Parent Topic:**[Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-spaces.md)
+**Parent Topic:**[Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-spaces.md)
 

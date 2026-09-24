@@ -2,7 +2,7 @@
 title: Allocate budget to a project
 description: Set the budget of a project according to the fiscal years.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/allocate-budget-to-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/allocate-budget-to-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -45,7 +45,7 @@ Role required: it\_portfolio\_manager
 
 The project budget for the selected year appears in the **Project Budget** related list. You can select the amounts in the list to revise them.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 

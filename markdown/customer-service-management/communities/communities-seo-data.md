@@ -2,7 +2,7 @@
 title: Community pages that support SEO data
 description: To improve search results for community members using external search engines, the Communities application generates SEO meta tags and injects the tags into questions, topics, forums, and other page types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-seo-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/communities-seo-data.html
 release: australia
 product: Communities
 classification: communities
@@ -16,7 +16,7 @@ breadcrumb: [Community Service Portal, Configuring communities, Communities, Cus
 
 To improve search results for community members using external search engines, the Communities application generates SEO meta tags and injects the tags into questions, topics, forums, and other page types.
 
-**Note:** If the auto-generated SEO tags in a page does not meet your needs, you can change the SEO tags. See [Modify SEO in community pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/seo-communities-modify.md).
+**Note:** If the auto-generated SEO tags in a page does not meet your needs, you can change the SEO tags. See [Modify SEO in community pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/seo-communities-modify.md).
 
 ## Pages that include auto-generated SEO data
 
@@ -74,8 +74,8 @@ Leaderboard page
 The Title meta tag is populated with the text “&lt;community name&gt;”
 
 </td></tr></tbody>
-</table>-   **[Modify SEO in community pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/seo-communities-modify.md)**  
+</table>-   **[Modify SEO in community pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/seo-communities-modify.md)**  
 If an auto-generated SEO meta tag does not meet your needs, you can modify or replace the tag.
 
-**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-service-portal.md)
+**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/community-service-portal.md)
 

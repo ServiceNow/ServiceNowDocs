@@ -2,7 +2,7 @@
 title: Benchmark KPIs
 description: You can enable or disable a benchmark KPI, and customize KPI conditions. Integration with Performance Analytics provides daily data collection and drill down capabilities on KPI data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c\_BenchKPIConfig-cf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/c\_BenchKPIConfig-cf.html
 release: australia
 product: Benchmarks
 classification: benchmarks
@@ -653,7 +653,7 @@ Total number of times the ticket was submitted using the Virtual Agent. This is 
 Total number of tickets \(cases, incidents, requested items and so on\) submitted using the Service Catalog in Service Portal or NOW mobile.
 
 </td></tr></tbody>
-</table>For more information on Success Dashboard KPI definitions and formulas, see [ITSM Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md)
+</table>For more information on Success Dashboard KPI definitions and formulas, see [ITSM Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md)
 
 ## Strategic Portfolio Management KPIs
 

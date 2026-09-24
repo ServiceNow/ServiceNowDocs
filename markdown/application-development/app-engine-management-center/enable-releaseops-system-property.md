@@ -2,7 +2,7 @@
 title: Enable ReleaseOps system property
 description: Enable the ReleaseOps system property to have AEMC fetch data from the environments configured in ReleaseOps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/enable-releaseops-system-property.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/enable-releaseops-system-property.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center

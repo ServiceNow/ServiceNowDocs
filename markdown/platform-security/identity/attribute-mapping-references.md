@@ -2,7 +2,7 @@
 title: Attribute Mapping references
 description: The attribute mappings enables you to use the attributes as a single source of resource to the ServiceNow table fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/attribute-mapping-references.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/attribute-mapping-references.html
 release: australia
 product: Identity
 classification: identity

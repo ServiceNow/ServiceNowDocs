@@ -2,7 +2,7 @@
 title: Calculated Risk Score
 description: Risk lookup table is to get the risk value corresponding to the success probability value and impact value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/risk-lookup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/risk-lookup.html
 release: australia
 product: Change Management
 classification: change-management
@@ -20,11 +20,11 @@ sn\_chg\_probability\_risk\_lookup table is used to fetch the data to calculate 
 
 ## Defining probability ranges
 
-The **Calculated Risk Score** lookup does not define probability ranges. It consumes a success probability band that is calculated from the success probability definitions that produce each band. For more information, see [Success Probability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/success-probability-definition.md). Also see [Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-score-calculation.md)on how the resulting band combines with impact to produce the risk value.
+The **Calculated Risk Score** lookup does not define probability ranges. It consumes a success probability band that is calculated from the success probability definitions that produce each band. For more information, see [Success Probability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/success-probability-definition.md). Also see [Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-score-calculation.md)on how the resulting band combines with impact to produce the risk value.
 
 By default, there are nine records with all the possible mappings for Impact and Success Probability along with their corresponding risk values.
 
-The lookup maps banded success Probability values - High, Medium, and Low - against Impact values rather than raw percentages. The probability ranges that determine these bands are configured in the success probability definitions. For more information, see [Success Probability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/success-probability-definition.md).
+The lookup maps banded success Probability values - High, Medium, and Low - against Impact values rather than raw percentages. The probability ranges that determine these bands are configured in the success probability definitions. For more information, see [Success Probability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/success-probability-definition.md).
 
 ## Managing risk lookup records
 
@@ -47,5 +47,5 @@ Select the icon next to **Calculated Risk Score** to find which type of success 
 
 **Note:** Risk lookup supports domain separation. The **sn\_chg\_probability\_risk\_lookup** table is process separated when you install the domain separation plugin.
 
-**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/reference-change-management.md)
+**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/reference-change-management.md)
 

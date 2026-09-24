@@ -2,7 +2,7 @@
 title: Lifecycle event cases in Agent Workspace for HR Case Management
 description: Manage lifecycle event cases using Agent Workspace for HR Case Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-lifecycle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-lifecycle.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -18,7 +18,7 @@ Manage lifecycle event cases using Agent Workspace for HR Case Management.
 
 A lifecycle event case is an HR case fulfilled by a lifecycle event. For example, the HR service for New Hire Onboarding fulfills the lifecycle event for New Hire Onboarding.
 
-**Note:** This section assumes you have Enterprise Onboarding and Transitions activated. For more information, see [Understanding Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/understanding-enterprise-onboarding-and-transitions.md).
+**Note:** This section assumes you have Enterprise Onboarding and Transitions activated. For more information, see [Understanding Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-journey-management/understanding-enterprise-onboarding-and-transitions.md).
 
 You can see all lifecycle event cases by selecting the Lists icon \(\[Omitted image "IconList.png"\] Alt text: Lists icon\) under the **Lifecycle Events** section.
 

@@ -2,7 +2,7 @@
 title: Predictive Intelligence for Contextual Search
 description: The Predictive Intelligence for Contextual Search capability uses machine-learning algorithms to search for Similar Incidents, Similar Knowledge Articles, Similar Open Incidents, and Similar Resolved Incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/machine-learning-solutions-for-search/predictive-intelligence-for-cxs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/machine-learning-solutions-for-search/predictive-intelligence-for-cxs.html
 release: australia
 product: Machine Learning solutions for Search
 classification: machine-learning-solutions-for-search

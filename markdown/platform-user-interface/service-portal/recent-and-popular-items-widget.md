@@ -2,7 +2,7 @@
 title: Recent &amp; Popular Items widget
 description: Allow a user to browse recent and popular catalog items. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/recent-and-popular-items-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/recent-and-popular-items-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -87,7 +87,7 @@ Criteria to qualify which catalog items are displayed in the My Recent Items tab
 -   **Request**: Display the catalog items that the user requested most recently.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

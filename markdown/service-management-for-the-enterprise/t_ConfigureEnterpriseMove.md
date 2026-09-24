@@ -2,7 +2,7 @@
 title: Configure Enterprise Move
 description: Facilities or Move administrators can set configurations to determine how the system displays colors on the move planning tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_ConfigureEnterpriseMove.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_ConfigureEnterpriseMove.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,5 +34,5 @@ Role required: facilities\_admin or move\_admin
 3.  Click **Save**.
 
 
-**Parent Topic:**[Activate Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateFacMoveMgmt.md)
+**Parent Topic:**[Activate Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateFacMoveMgmt.md)
 

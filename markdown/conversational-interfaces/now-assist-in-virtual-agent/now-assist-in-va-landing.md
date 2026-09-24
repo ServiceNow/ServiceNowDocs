@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Virtual Agent
 description: Use generative AI skills in your conversational experiences. ServiceNow Otto for Virtual Agent uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -24,15 +24,15 @@ For an introduction to building a Virtual Agent with ServiceNow Otto, watch this
 
 <table id="table_lgc_mpv_jzb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in ServiceNow Otto for Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in ServiceNow Otto for Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate ServiceNow Otto for Virtual Agent and configure generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate ServiceNow Otto for Virtual Agent and configure generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-person.svg"\] Alt text:Learn about the requester conversational experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Learn about the requester conversational experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Monitor th
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about user input and bot responses supported by ServiceNow Otto for Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about user input and bot responses supported by ServiceNow Otto for Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-reference.md)
 
 </td><td>
 

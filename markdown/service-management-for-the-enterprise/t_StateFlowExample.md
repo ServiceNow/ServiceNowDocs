@@ -2,7 +2,7 @@
 title: State flow example
 description: Your business processes might require work order tasks to be accepted automatically when dispatched to an agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_StateFlowExample.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_StateFlowExample.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,5 +56,5 @@ Create a new state flow record that automates the transition from Pending Dispat
     This action deactivates the transition that allows agents to accept tasks and moves the state flow directly from **Pending Dispatch** to **Accepted**.
 
 
-**Parent Topic:**[Service management states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ServiceManagementStates.md)
+**Parent Topic:**[Service management states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_ServiceManagementStates.md)
 

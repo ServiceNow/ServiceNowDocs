@@ -2,7 +2,7 @@
 title: Review or create default template rules
 description: Assign a default value template to each AI system category and vendor so that newly onboarded AI systems are mapped automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-review-default-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-review-default-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-08-12"

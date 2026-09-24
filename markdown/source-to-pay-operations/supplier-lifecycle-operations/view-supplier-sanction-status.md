@@ -2,7 +2,7 @@
 title: View supplier sanction status
 description: Supplier managers can view the sanction status and last sanction check date for suppliers from the Manage Suppliers list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-sanction-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-sanction-status.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -41,12 +41,12 @@ The Manage Suppliers list displays the sanction status and last sanction check d
     **Note:** The Sanction status and Last sanction check fields in the supplier list are updated only when Relish is integrated. If Relish is not integrated, users can edit the field manually if they want.
 
 
-**Parent Topic:**[Conduct sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.md)
+**Parent Topic:**[Conduct sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.md)
 
 **Related topics**  
 
 
-[Conduct bulk sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/perform-bulk-sanction-screening.md)
+[Conduct bulk sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/perform-bulk-sanction-screening.md)
 
-[Conduct sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.md)
+[Conduct sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.md)
 

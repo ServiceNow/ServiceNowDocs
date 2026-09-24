@@ -2,7 +2,7 @@
 title: DynamicTranslation - Client
 description: The DynamicTranslation API provides methods that translate text, in real time, into multiple languages using translation service providers. This API is available for both standard clients and Angular-based Service Portal clients.Detects the language of the passed in text.Detects the languages of the passed in text strings.Translates the passed in text to one or more languages.Translates the passed in text strings to one or more languages.Determines whether the various methods in the DynamicTranslation API are enabled for a translation service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/DynamicTranslationClientAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/DynamicTranslationClientAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -24,7 +24,7 @@ To use this API you must activate the Dynamic Translation plugin. For informatio
 
 **Note:** The name of the class to use in Service Portal clients is dynamicTranslation, while the name of the class to use in standard clients is DynamicTranslation.
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 
 ## DynamicTranslation - getDetectedLanguage\(String text, Object parms\)
 

@@ -2,7 +2,7 @@
 title: Mobile App Builder and Mobile Card Builder integration with ServiceNow Studio
 description: Mobile App Builder and Mobile Card Builder are both available within ServiceNow Studio, allowing you to do all of your development work in one place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-studio-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-studio-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

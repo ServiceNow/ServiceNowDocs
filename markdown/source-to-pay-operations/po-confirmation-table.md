@@ -2,7 +2,7 @@
 title: Purchase Order Confirmation table
 description: Purchase order confirmations are supplier-generated transactions that acknowledge a buyer's order and communicate the supplier's ability to fulfill it as specified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/po-confirmation-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/po-confirmation-table.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-08"
@@ -35,10 +35,10 @@ The Purchase Order Confirmation \[sn\_poem\_po\_confirmation\] table contains th
 |Status|Choice|Indicates the current stage of the confirmation record. Possible values are Draft, Draft Retracted, or Submitted.|
 |ERP created|Date/Time|Data and time when this purchase order confirmation was created in the ERP system.|
 
-**Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/master-data-tables-for-pom.md)
+**Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/master-data-tables-for-pom.md)
 
 **Related topics**  
 
 
-[View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-purch-order-exception.md)
+[View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/view-purch-order-exception.md)
 

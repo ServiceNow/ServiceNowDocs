@@ -2,7 +2,7 @@
 title: Roles installed with Care Team Work Management
 description: The following roles are installed with Care Team Work Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-roles-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-roles-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

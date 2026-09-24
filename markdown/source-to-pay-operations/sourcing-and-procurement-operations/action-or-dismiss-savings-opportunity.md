@@ -2,7 +2,7 @@
 title: Action or dismiss a savings opportunity
 description: Convert a savings opportunity into a pipeline project, or dismiss it with a reason.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/action-or-dismiss-savings-opportunity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/action-or-dismiss-savings-opportunity.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -24,12 +24,12 @@ When a savings opportunity is created, it has an **Open** status by default. Aft
 
 **Note:** After an opportunity is closed or dismissed, the action is not reversible.
 
--   **[Review a savings opportunity and create a pipeline project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-create-pipeline.md)**  
+-   **[Review a savings opportunity and create a pipeline project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-create-pipeline.md)**  
 Open a savings opportunity discovered by the Savings Opportunity Discovery agentic workflow and create a pipeline project that tracks the savings.
--   **[Dismiss a savings opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-dismiss.md)**  
+-   **[Dismiss a savings opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-dismiss.md)**  
 Reject a savings opportunity that you do not intend to pursue, recording who dismissed it, when, and why so it stays on record for auditing.
 
-**Parent Topic:**[Using Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spend-mgmt.md)
+**Parent Topic:**[Using Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-spend-mgmt.md)
 
 **Related topics**  
 

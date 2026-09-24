@@ -2,7 +2,7 @@
 title: Create an asset attestation or a schedule using the playbook
 description: Create a one-time asset attestation or a schedule for recurring attestations to verify if your serialized hardware assets are in use, using the playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-attestation-using-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-attestation-using-playbook.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -169,5 +169,5 @@ View the asset attestation or the attestation schedule that's created.
     -   Navigate to the **Asset operations** view and select **Attestations** from the Attestation list.
 -   To view the attestation schedule record, navigate to **Asset operations** and select **Schedule** from the Attestation list.
 
-**Parent Topic:**[Playbook for asset attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/playbook-asset-attestation-ham.md)
+**Parent Topic:**[Playbook for asset attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/playbook-asset-attestation-ham.md)
 

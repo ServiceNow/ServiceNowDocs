@@ -2,7 +2,7 @@
 title: Define criticality for application services
 description: For each service instance, select a criticality level that reflects how important it is to your organization operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/define-criticality-for-business-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/define-criticality-for-business-services.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -71,7 +71,7 @@ You can also use a criticality value to define recovery strategies.
     7.  Click **Update**.
 
 
-**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/advanced-business-service-definitions.md)
+**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/advanced-business-service-definitions.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Example - Restrict a field with a condition
 description: This access control prevents everyone from editing a Critical Incident in a list. It is defined by a condition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/r\_ExRestrictAFieldWithACondition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/r\_ExRestrictAFieldWithACondition.html
 release: australia
 product: List Administration
 classification: list-administration

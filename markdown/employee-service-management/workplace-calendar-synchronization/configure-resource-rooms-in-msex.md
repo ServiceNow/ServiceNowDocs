@@ -2,7 +2,7 @@
 title: Configure resource rooms in Microsoft Exchange Online
 description: Specify your delegated user email in the Microsoft portal to access the resource calendar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/configure-resource-rooms-in-msex.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/configure-resource-rooms-in-msex.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -43,9 +43,9 @@ The user is configured as the delegated user.
 
 ## What to do next
 
-Create a personal authentication mode application registry for Microsoft Exchange Online with ServiceNow instance for OAuth authorization. For more information, see [Set up personal authentication mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-personal-auth-mode-oauth-connectivity-with-msex.md).
+Create a personal authentication mode application registry for Microsoft Exchange Online with ServiceNow instance for OAuth authorization. For more information, see [Set up personal authentication mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/setup-personal-auth-mode-oauth-connectivity-with-msex.md).
 
-**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
+**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
 
 **Related topics**  
 

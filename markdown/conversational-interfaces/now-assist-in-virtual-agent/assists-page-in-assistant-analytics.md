@@ -2,7 +2,7 @@
 title: Assists page in Assistant analytics
 description: View usage of assists across assistants and optimize their consumption for improved outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/assists-page-in-assistant-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/assists-page-in-assistant-analytics.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

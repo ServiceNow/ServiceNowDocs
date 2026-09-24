@@ -2,7 +2,7 @@
 title: Instance performance telemetry reports
 description: Quickly generate reports to download and share with your business stakeholders, making  organizations faster, smarter, and better in their  instance performance management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/instance-observer-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/instance-observer-reporting.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ Some Instance Observer reporting features vary between the Impact package that y
 |Data retention|45 days|6 months|6 months|
 |Self Service Alerts|X|✓|✓|
 
-**Note:** For more information on subscription support, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md).
+**Note:** For more information on subscription support, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-packages1.md).
 
 ## Daily Performance Metrics Report
 
@@ -178,5 +178,5 @@ There are several database growth reports that are available that show how the i
 -   **DBI encryption status**: ServiceNow offers three types of encryption to the dbi's which is a paid service. They are Disk Encryption, Table Space Encryption \(TSE\), and Cloud Encryption.
 -   With this report you can check the status of encryption service that you have subscribed for the dbi's associated with the instances.
 
-**Parent Topic:**[IO reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/i-o-reports.md)
+**Parent Topic:**[IO reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/i-o-reports.md)
 

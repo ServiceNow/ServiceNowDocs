@@ -2,7 +2,7 @@
 title: Tables installed with Grants Management
 description: This section describes the tables installed with the Grants Management application and shows how they store and manage information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-gm-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-data-model-gm-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -150,5 +150,5 @@ Contains information about evaluation tasks for assessing the quality and outcom
 Government Service Task \(sn\_gsm\_government\_service\_task\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Grants Management Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-gm.md)
+</table>**Parent Topic:**[Public Sector Digital Services Grants Management Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-data-model-gm.md)
 

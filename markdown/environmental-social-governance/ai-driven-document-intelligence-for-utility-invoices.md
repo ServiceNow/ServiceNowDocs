@@ -2,7 +2,7 @@
 title: Document intelligence for utility invoices
 description: The AI-driven document intelligence for utility invoices feature automates metric data collection. It automates the metric data collection by extracting utility bill data such as consumption, billing dates, amounts, and units of measurement within the Operational Sustainability Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ The AI-extracted fields are clearly marked for verification. You can override an
 
 **Note:** The sn\_esg\_gen\_ai.docintel\_user role is required to view the option to document intelligence for utility bills. This role must be manually assigned to an ESG user.
 
-To understand how you can extract details from the utility bills, refer to [Extract data from utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/extract-data-from-utility-invoices.md).
+To understand how you can extract details from the utility bills, refer to [Extract data from utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/extract-data-from-utility-invoices.md).
 
 **Note:** The fields extracted by AI on the Metric Data task page must be verified for accuracy before use.
 
@@ -51,12 +51,12 @@ After the extraction and data mapping you can view the following:
 -   The ability to override extracted data and provide justification if needed.
 -   The original utility bill attached as evidence for audit and compliance.
 
-**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/exploring-now-assist-for-esg.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/exploring-now-assist-for-esg.md)
 
 **Related topics**  
 
 
-[Activate the document intelligence for utility invoices skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-the-document-intelligence-for-utility-invoices-skill.md)
+[Activate the document intelligence for utility invoices skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-the-document-intelligence-for-utility-invoices-skill.md)
 
-[Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-now-assist-for-esg-skills.md)
+[Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-now-assist-for-esg-skills.md)
 

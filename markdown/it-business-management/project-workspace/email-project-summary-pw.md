@@ -2,7 +2,7 @@
 title: Schedule the project insights email
 description: Schedule the project insights email to prioritize and track the most important changes in the project in Project Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/email-project-summary-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/email-project-summary-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -78,10 +78,10 @@ Let's assume that you have selected a weekly cadence and chosen Monday \(which f
 -   If you select **Schedule**, the project insights are emailed to you and the recipients weekly on Mondays, starting from 2025-07-07 and continues until the project is inactive.
 -   If you select **Send preview**, you will receive an initial insights email immediately and will also receive insights according to the selected cadence and day.
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 
 **Related topics**  
 
 
-[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)
+[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)
 

@@ -2,7 +2,7 @@
 title: Building no-code applications
 description: Create and manage custom applications in a simple, no-code environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/building-no-code-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/building-no-code-applications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Developing your application, Building applications]
 
 Create and manage custom applications in a simple, no-code environment.
 
-[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-landing.md)
+[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-landing.md)
 
 Have you ever wanted to create an application, but you don't know how to code? Then Creator Studio was designed for you!
 
@@ -44,7 +44,7 @@ Process owners, line of business owners
 
 </td><td>
 
-Build request-fulfillment apps without writing code. For example, create an application to request office supplies: a user fills out a form, and an approver accepts or denies the request. For more information, see [Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/exploring-creator-studio.md).
+Build request-fulfillment apps without writing code. For example, create an application to request office supplies: a user fills out a form, and an approver accepts or denies the request. For more information, see [Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/exploring-creator-studio.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Citizen developers
 
 </td><td>
 
-Build a broader range of apps than Creator Studio without writing code.For more information, see [Exploring App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/exploring-aes.md).
+Build a broader range of apps than Creator Studio without writing code.For more information, see [Exploring App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/exploring-aes.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Citizen developers, Platform developers
 
 Build apps in a unified development environment.ServiceNow Studio provides streamlined navigation, integrated low-code tools, and built-in tracking and packaging so you can develop and ship apps faster. Use Build Agent in ServiceNow Studio to create and update apps with a conversational interaction.
 
-For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/exploring-servicenow-studio.md)and [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
+For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/exploring-servicenow-studio.md)and [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Source code developers
 
 </td><td>
 
-Develop applications in source code with ServiceNow Fluent, create JavaScript modules, and use third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code. Use Build Agent in ServiceNow IDE to create and update apps in source code with a conversational interaction.The ServiceNow IDE runs Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK runs Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md).
+Develop applications in source code with ServiceNow Fluent, create JavaScript modules, and use third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code. Use Build Agent in ServiceNow IDE to create and update apps in source code with a conversational interaction.The ServiceNow IDE runs Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK runs Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/building-applications-source-code.md).
 
 </td></tr></tbody>
 </table>## What apps are in ServiceNow
@@ -93,11 +93,11 @@ A Creator Studio app uses forms and automation to enable users to request someth
 
 ## Related applications and features
 
--   **[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/managing-app-development-using-aemc.md)**
+-   **[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/managing-app-development-using-aemc.md)**
 
     Track and manage your Creator Studio requests, deployments, applications, and collaborative developers using App Engine Management Center \(AEMC\).
 
--   **[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md)**
+-   **[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-overview.md)**
 
     Open Creator Studio apps in AES to build more custom experiences, such as email notifications and additional security.
 
@@ -105,7 +105,7 @@ A Creator Studio app uses forms and automation to enable users to request someth
 
     Create or edit a catalog item using a visual and guided experience.
 
--   **[Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md)**
+-   **[Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-view-configuration.md)**
 
     Visually create, configure, and customize the different form views for your users using the form editor in Form Builder.
 

@@ -2,7 +2,7 @@
 title: Assign safety inspection to agents
 description: Multiple safety agents can be assigned to the same inspection record to enable a collaborative effort. While only one agent can be assigned at a time to a survey related to an inspection record, it allows clear ownership and maintains overall team coordination. This collaboration can be achieved from both Employee center and Health and Safety Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-assign-safety-inspection-to-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-assign-safety-inspection-to-agents.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -67,5 +67,5 @@ The safety inspection record and the related survey are assigned to the safety a
 
 **Note:** When the survey is assigned to a different agent, any progress made on the survey does not transfer to the new agent. The new agent assigned to the survey must review and, if necessary, start the survey from the beginning, as partially completed surveys are not carried over.
 
-**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

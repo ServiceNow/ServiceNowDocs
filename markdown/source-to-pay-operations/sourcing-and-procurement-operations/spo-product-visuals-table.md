@@ -2,7 +2,7 @@
 title: Product Visuals \[sn\_shop\_supplier\_product\_artifact\] table
 description: The Product Visuals \[sn\_shop\_supplier\_product\_artifact\] table stores product images and media.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-product-visuals-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-product-visuals-table.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -33,7 +33,7 @@ This table contains the following fields.
 |Document|Attachment|File attachment for the artifact, such as a PDF.|
 |Video source|Choice|Source of the video. The options are Upload or YouTube video.|
 
-**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
 
 **Related topics**  
 

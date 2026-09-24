@@ -2,7 +2,7 @@
 title: Approval - Group workflow activity
 description: The Approval - Group activity creates approval records for each member of a specified group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_ApprovalGroup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/r\_ApprovalGroup.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -329,5 +329,5 @@ The activity state tells the workflow engine what to do with the activity.
 |Cancelled|This activity, or the workflow that contains this activity, was canceled.|
 |Error|A JavaScript error occurred. Review the logs for error details.|
 
-**Parent Topic:**[Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_ApprovalAndRollbackActivities.md)
+**Parent Topic:**[Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-activities/c_ApprovalAndRollbackActivities.md)
 

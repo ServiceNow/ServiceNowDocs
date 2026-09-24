@@ -2,7 +2,7 @@
 title: Add comments to an assessment
 description: In SAE, add comments and work notes to an assessment to clarify questions or other aspects of the assessment. Owners, contributors, readers, and administrators can add comments while the assessment is active. After the assessment is cancelled, existing comments and work notes remain visible but read-only.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/adding-comments-to-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/adding-comments-to-assessments.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -23,7 +23,7 @@ In SAE, add comments and work notes to an assessment to clarify questions or oth
 
 ## About this task
 
-**Note:** This task describes how to add comments at the assessment level. To comment on a specific question instead, see [Add a comment or work note to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/add-comment-to-question.md).
+**Note:** This task describes how to add comments at the assessment level. To comment on a specific question instead, see [Add a comment or work note to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/add-comment-to-question.md).
 
 ## Procedure
 

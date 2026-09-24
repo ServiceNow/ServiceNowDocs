@@ -2,7 +2,7 @@
 title: Workflow editor keyboard navigation
 description: The platform includes accessibility features that makes the interface accessible to users with disabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/workflow-keyboard-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/workflow-keyboard-access.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -27,10 +27,10 @@ These features improve the user experience when accessing platform functions wit
 
 The Workflow Editor is constructed in a unique manner. It includes a series of main \(left\) panel tabs, a series of side \(right\) panel tabs, and a drawing canvas for workflow creation or editing. As such, it has its own unique set of keyboard accessibility functions and commands.
 
--   **[Welcome page keyboard commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/welcome-page-keyboard-commands.md)**  
+-   **[Welcome page keyboard commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/welcome-page-keyboard-commands.md)**  
 Use keyboard commands to navigate and operate the Workflow Editor Welcome page.
--   **[Workflow drawing canvas keyboard commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflow-canvas-keyboard-commands.md)**  
+-   **[Workflow drawing canvas keyboard commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/workflow-canvas-keyboard-commands.md)**  
 Use keyboard commands to navigate and operate the Workflow Editor canvas.
 
-**Parent Topic:**[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflow-editor.md)
+**Parent Topic:**[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/workflow-editor.md)
 

@@ -2,7 +2,7 @@
 title: Storing credentials for Verifi CDRN
 description: Credential storage information for securely managing Issuer ID and Shared Secret values for Financial Services Operations Integration with Verifi.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/store-credentials-for-verifi-cdrn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/store-credentials-for-verifi-cdrn.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-07"
@@ -21,5 +21,5 @@ Credential storage information for securely managing Issuer ID and Shared Secret
 |Production Issuer ID|verifi.cdrn.prod.issuer\_id|Different value from UAT.|
 |Production Shared Secret|verifi.cdrn.prod.secret|Different value from UAT.|
 
-**Parent Topic:**[Configure the Authentication Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-the-authentication-profile.md)
+**Parent Topic:**[Configure the Authentication Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-the-authentication-profile.md)
 

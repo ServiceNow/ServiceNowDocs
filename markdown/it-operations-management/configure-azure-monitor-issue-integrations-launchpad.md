@@ -2,10 +2,10 @@
 title: Configure Azure Monitor Issue in Integrations Launchpad
 description: An Azure Issue is a unified case that aggregates related alerts and signals from Azure Monitor into a single, trackable operational problem. It preserves investigation context and serves as a durable record for incident management, so you can resolve problems faster instead of tracking scattered alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-azure-monitor-issue-integrations-launchpad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/configure-azure-monitor-issue-integrations-launchpad.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -62,7 +62,7 @@ Note the following before you start:
     1.  Navigate to your Azure Monitor Workspace.
     2.  Navigate to **Settings** &gt; **Action groups** and select the existing action group that you use to send Azure alerts to ServiceNow.
 
-        This creates an alert, and in turn, the Alert Management rule creates an incident. If you're configuring Azure issues or alerts for the first time, first create an action group by using the above URL you have copied. Then follow the steps in [Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-events-authentication.md).
+        This creates an alert, and in turn, the Alert Management rule creates an incident. If you're configuring Azure issues or alerts for the first time, first create an action group by using the above URL you have copied. Then follow the steps in [Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/azure-events-authentication.md).
 
         If you're configuring Azure issues or alerts for the first time, first create an action group by using the above URL you have copied. Then follow the steps in Integrate Azure Monitor with OAuth authentication.
 

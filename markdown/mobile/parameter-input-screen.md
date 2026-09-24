@@ -2,7 +2,7 @@
 title: Input form screen
 description: Use input form screens to provide an interface for your users to enter information in mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/parameter-input-screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/parameter-input-screen.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Input form screens display inputs to enable your users to enter information into
 
  After you create an input form screen and define its inputs and variables, you must associate the input form screen with an action item. Then these inputs and variables must be mapped to the action item.
 
- You can control how users input data, as well as the appearance of input types. You can further customize your input form screens using [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-rules.md).
+ You can control how users input data, as well as the appearance of input types. You can further customize your input form screens using [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-ui-rules.md).
 
 </td><td>
 
@@ -51,7 +51,7 @@ Input form screens consist of a header, and input section, and an option footer 
     -   Signature
     -   String
     -   Screen
-    For more detail on these parameter input types, see [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-var-attr.md)
+    For more detail on these parameter input types, see [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-var-attr.md)
 
 -   **Pagination buttons**
 

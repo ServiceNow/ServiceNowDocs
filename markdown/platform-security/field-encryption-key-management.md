@@ -2,7 +2,7 @@
 title: Encrypting fields and attachments
 description: Once cryptographic modules are created, a security admin can define the encrypted fields configuration \(EFC\) and opt to encrypt a field or attachment on a table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/field-encryption-key-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/field-encryption-key-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,28 +19,28 @@ Once cryptographic modules are created, a security admin can define the encrypte
 **Note:** Encrypted fields aren’t audited by design. This behavior isn’t configurable.
 
 1.  Specify the key source: ServiceNow generated keys or your customer-supplied keys \(bring your own key\) in **System Security** &gt; **Field Encryption Settings**.
-2.  After specifying the key source, create a cryptographic module or use an existing cryptographic module. Start with [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md) for instructions.
+2.  After specifying the key source, create a cryptographic module or use an existing cryptographic module. Start with [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/create-cryptographic-module.md) for instructions.
 
-    **Note:** If you use customer-supplied keys, follow the directions in [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-PE-cryptographic-module.md) and [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/customer-supplied-keys.md).
+    **Note:** If you use customer-supplied keys, follow the directions in [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/create-PE-cryptographic-module.md) and [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/customer-supplied-keys.md).
 
-3.  Create an encrypted field configuration to define where the encryption is applied. Here, you specify the target table and choose whether to encrypt a column or attachments within the table. See [Set encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-encrypted-field-config.md) to get started.
+3.  Create an encrypted field configuration to define where the encryption is applied. Here, you specify the target table and choose whether to encrypt a column or attachments within the table. See [Set encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/set-encrypted-field-config.md) to get started.
 
-**Note:** See [Field Encryption Enterprise examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/kmf-walkthroughs-tutorials.md) that illustrates how to encrypt fields and attachments using customer-supplied keys.
+**Note:** See [Field Encryption Enterprise examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/kmf-walkthroughs-tutorials.md) that illustrates how to encrypt fields and attachments using customer-supplied keys.
 
--   **[Set encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-encrypted-field-config.md)**  
+-   **[Set encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/set-encrypted-field-config.md)**  
 Configure which table columns or attachments that the system encrypts using a preconfigured cryptographic module.
--   **[Script access for cryptographic modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/script-map.md)**  
+-   **[Script access for cryptographic modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/script-map.md)**  
 Scripts can be run to access a cryptographic module policy for a cryptographic purpose.
--   **[Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-mass-jobs.md)**  
+-   **[Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/schedule-mass-jobs.md)**  
 Schedule encryption, decryption, and rekeying jobs to run at a time that is best for your instance.
--   **[Run mass encryption or decryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mass-enc-dec.md)**  
+-   **[Run mass encryption or decryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/mass-enc-dec.md)**  
 You can run mass encryption on encryption configurations, as well as a mass decryption to decrypt previously encrypted values.
--   **[Upload attachments for encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/upload-attachments-for-encryption.md)**  
+-   **[Upload attachments for encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/upload-attachments-for-encryption.md)**  
 Protect sensitive files by encrypting record attachments using Field Encryption and Row Conditions.
--   **[Module access policies for inbound email attachment encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/fe-maps-inbound-email-attachment-encryption.md)**  
+-   **[Module access policies for inbound email attachment encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-maps-inbound-email-attachment-encryption.md)**  
 Encrypting inbound email attachments associated with matched records requires one or more module access policies \(MAPs\).
 
-**Parent Topic:**[Using Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-column-level-encryption.md)
+**Parent Topic:**[Using Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-column-level-encryption.md)
 
-**Parent Topic:**[Using Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-column-level-encryption-2.md)
+**Parent Topic:**[Using Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-column-level-encryption-2.md)
 

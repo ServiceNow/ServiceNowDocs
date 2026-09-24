@@ -2,7 +2,7 @@
 title: Global scope
 description: The global scope is a special application scope that identifies applications developed prior to application scoping, or applications intended to be accessible to all other global applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_GlobalScope.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_GlobalScope.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ Applications in the global scope are eligible for upload to the application repo
 **Related topics**  
 
 
-[Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)
+[Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)
 
-[Publish an application to the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_PublishAppsToTheServiceNowStore.md)
+[Publish an application to the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/t_PublishAppsToTheServiceNowStore.md)
 

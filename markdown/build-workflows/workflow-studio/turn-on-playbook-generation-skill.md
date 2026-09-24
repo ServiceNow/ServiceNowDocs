@@ -2,7 +2,7 @@
 title: Turn on AI skills for Playbooks
 description: Turn on the ServiceNow Otto for Creator skills for using generative AI for creating and managing Playbooks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-playbook-generation-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/turn-on-playbook-generation-skill.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -35,7 +35,7 @@ AI skill name
 
 </th></tr></thead><tbody><tr><td>
 
-[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md)
+[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/generate-a-playbook-outline.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ Playbook generationPlaybook generation with images
 
 </td></tr><tr><td>
 
-[Generate a playbook from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-playbook-from-kb.md)
+[Generate a playbook from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/generate-playbook-from-kb.md)
 
 </td><td>
 
@@ -51,7 +51,7 @@ Playbook generation with KB
 
 </td></tr><tr><td>
 
-[Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-playbook-recommendations.md)
+[Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/generate-playbook-recommendations.md)
 
 </td><td>
 
@@ -59,7 +59,7 @@ Playbook recommendations
 
 </td></tr><tr><td>
 
-[Generate a playbook summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-playbook-summary.md)
+[Generate a playbook summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/generate-playbook-summary.md)
 
 </td><td>
 
@@ -87,12 +87,12 @@ Playbook summarization
 
 Generative AI skills for Playbooks are active on your instance.
 
-**Parent Topic:**[Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
+**Parent Topic:**[Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
 
 **Related topics**  
 
 
-[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md)
+[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/generate-a-playbook-outline.md)
 
-[Change the default LLM for playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/change-default-llm-playbook-generation.md)
+[Change the default LLM for playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/change-default-llm-playbook-generation.md)
 

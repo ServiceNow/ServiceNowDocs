@@ -2,7 +2,7 @@
 title: Application plugin installation sequence in Supplier Case Management
 description: The following table provides the list of plugins for Supplier Case Management, a high-level description of each plugin, and the dependencies that are required before installing each plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -188,12 +188,12 @@ To avoid incomplete demo data and other installation issues, you should install 
 5.  \(Optional\) SLO Connector for Relish Data Assure \(x\_reliq\_slo\_connec\)
 6.  \(Optional\) Advanced Work Assignment for Supplier Lifecycle Operations \(com.snc.sn\_slm\_awa\)
 
-**Parent Topic:**[Install Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
+**Parent Topic:**[Install Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
 
 **Related topics**  
 
 
-[Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.md)
+[Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.md)
 
-[Explicit Roles in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-explicit-roles-plugin.md)
+[Explicit Roles in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-explicit-roles-plugin.md)
 

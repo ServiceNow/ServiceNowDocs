@@ -2,7 +2,7 @@
 title: View widget performance metrics
 description: View the metrics provided by the performance window to identify which widgets take the longest to load data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/view-widget-performance-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/view-widget-performance-metrics.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ View the metrics provided by the performance window to identify which widgets ta
 
 Role required: sp\_admin
 
-To track the performance of a custom widget, add a hotspot to the script: [Add hotspots to track custom widget performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/add-hotspots-track-custom-widget-performance.md)
+To track the performance of a custom widget, add a hotspot to the script: [Add hotspots to track custom widget performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/add-hotspots-track-custom-widget-performance.md)
 
 ## About this task
 
@@ -65,5 +65,5 @@ The **Performance Details** window provides comprehensive tracking of each widge
 10. Click **Close** when you are done.
 
 
-**Parent Topic:**[Managing portal performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/improve-manage.md)
+**Parent Topic:**[Managing portal performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/improve-manage.md)
 

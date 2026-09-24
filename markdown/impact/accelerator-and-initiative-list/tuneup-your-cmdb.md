@@ -2,7 +2,7 @@
 title: TuneUp Your Configuration Management Database
 description: The TuneUp Your Configuration Management Database \(CMDB\) Accelerator provides insight and guidance to improve CMDB health.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-your-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/tuneup-your-cmdb.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

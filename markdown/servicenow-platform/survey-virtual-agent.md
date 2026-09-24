@@ -2,7 +2,7 @@
 title: Surveys in ITSM Virtual Agent
 description: You can use surveys in ITSM Virtual Agent to collect survey responses from users through conversational questionnaires \(pre-chat and post-chat surveys\) in the chat client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/survey-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/survey-virtual-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ When you select the **Chat Survey** check box for a survey, the following condit
     -   Scale
     -   String
 
-For information on configuring a survey, see [Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifySurveyDefinitions.md) and [Configure a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigSurveyInSurveyDesgnr.md).
+For information on configuring a survey, see [Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ModifySurveyDefinitions.md) and [Configure a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ConfigSurveyInSurveyDesgnr.md).
 
 The following capabilities are supported for the survey:
 
@@ -47,7 +47,7 @@ After a survey is submitted in a Virtual Agent conversation, a survey instance i
 -   Trigger ID, which is the sys\_id of the associated interaction ID created in the Virtual Agent chat
 -   Trigger table, which is the interaction table
 
-**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 

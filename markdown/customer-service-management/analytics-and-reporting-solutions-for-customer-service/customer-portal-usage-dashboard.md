@@ -2,7 +2,7 @@
 title: Customer Portal Usage dashboard
 description: The Customer Portal Usage dashboard enables you to understand the user usage of portals by presenting an aggregate count of sessions created every month.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/customer-portal-usage-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/customer-portal-usage-dashboard.html
 release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service

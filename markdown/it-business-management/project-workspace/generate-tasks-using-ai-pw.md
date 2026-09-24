@@ -2,7 +2,7 @@
 title: Generate tasks using project plan generation skill
 description: Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-tasks-using-ai-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/generate-tasks-using-ai-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -57,5 +57,5 @@ Role required: it\_project\_manager
 
 The project is created with the generated tasks, including task hierarchy and dates derived from your input.
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 

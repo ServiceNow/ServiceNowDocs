@@ -2,7 +2,7 @@
 title: Delete Record action
 description: Deletes a record on any table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/delete-record-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/delete-record-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -26,5 +26,5 @@ Available as a Workflow Studio ServiceNow core action. Users with the flow\_desi
 |-----|-----------|
 |Record|The record to be deleted. Drag-and-drop a record data pill or use the data pill picker to select a record.|
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

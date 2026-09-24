@@ -2,7 +2,7 @@
 title: GCP discovery solutions comparison
 description: ITOM Visibility applications discover a variety of Google Cloud Platform \(GCP\) resources and populate the relevant configuration item \(CI\) classes in the Configuration Management Database \(CMDB\) with their attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/gcp-discovery-methods-platcap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/gcp-discovery-methods-platcap.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -52,11 +52,11 @@ Service Graph Connector for GCP
 
 </td><td>
 
-[Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-gcp.md)
+[Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-gcp.md)
 
 </td><td>
 
-[Configure Service Graph Connector for GCP using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md)
+[Configure Service Graph Connector for GCP using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md)
 
 </td></tr></tbody>
 </table>**Note:**
@@ -211,5 +211,5 @@ If an entry is marked with two asterisks, the resource type is supported by Serv
 
 \*\* These resource types are supported in Service Graph Connecters only by utilizing the \[sn\_cmdb\_int\_util\_service\_graph\_resource\_inclusion\_whitelist\] table.
 
-**Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
+**Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
 

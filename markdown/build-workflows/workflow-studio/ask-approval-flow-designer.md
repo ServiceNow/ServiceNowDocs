@@ -2,7 +2,7 @@
 title: Ask for Approval action
 description: Request approval for a record. Configure a set of rules to automatically approve, reject, or cancel an approval request without having to write script. Add a due date to automatically approve, reject, or cancel when a decision has not been made by a designated time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/ask-approval-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/ask-approval-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -16,7 +16,7 @@ breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, a
 
 Request approval for a record. Configure a set of rules to automatically approve, reject, or cancel an approval request without having to write script. Add a due date to automatically approve, reject, or cancel when a decision has not been made by a designated time.
 
-Approvals play a central role in controlling workflow progression. They ensure that the right people review and authorize work before it moves forward, which is essential in incident handling, change requests, catalog fulfillment, and any process where structured governance and compliance matter. For more information about approvals, see [Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_Approvals.md).
+Approvals play a central role in controlling workflow progression. They ensure that the right people review and authorize work before it moves forward, which is essential in incident handling, change requests, catalog fulfillment, and any process where structured governance and compliance matter. For more information about approvals, see [Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/approvals/r_Approvals.md).
 
 ## Roles and availability
 
@@ -124,5 +124,5 @@ Follow these guidelines when asking for approvals.
     Workflow Studio does not support making multiple approval requests to the same record using Do the following in parallel flow logic. Asking for approval on the same record creates a dependency between branches, which can produce unexpected results since there is no way to know which branch will complete first.
 
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

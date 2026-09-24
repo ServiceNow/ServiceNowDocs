@@ -2,7 +2,7 @@
 title: Configure Code Signing Enterprise on your protected instance
 description: Turn on and configure Code Signing on your protected instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cse-ppi-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cse-ppi-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Roles required:
 -   security\_admin
 -   codesigning\_admin
 
-    **Note:** The codesigning\_admin role can be assigned using the process detailed in [Assign the Code Signing Administrator Role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cse-assign-roles.md).
+    **Note:** The codesigning\_admin role can be assigned using the process detailed in [Assign the Code Signing Administrator Role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cse-assign-roles.md).
 
 -   sn\_kmf.cryptographic\_manager
 

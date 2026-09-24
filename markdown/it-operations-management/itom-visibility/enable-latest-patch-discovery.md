@@ -2,7 +2,7 @@
 title: Discover only the latest operating system patch versions
 description: Collect only the current operating system patch level by configuring the sn\_itom\_pattern.discover\_latest\_os\_patches MID Server property. Collecting only the current patch is supported only for AIX Server discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/enable-latest-patch-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/enable-latest-patch-discovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -46,10 +46,10 @@ By default, Discovery adds a record to the Patches \[cmdb\_ci\_patches\] table f
 
 Run Discovery again to apply the change.
 
-**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Computers.md)
 
 **Related topics**  
 
 
-[AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md)
+[AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md)
 

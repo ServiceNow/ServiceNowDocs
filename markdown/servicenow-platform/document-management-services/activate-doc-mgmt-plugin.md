@@ -2,7 +2,7 @@
 title: Activate Document Management
 description: Activate the Document Management plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/activate-doc-mgmt-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/activate-doc-mgmt-plugin.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -27,7 +27,7 @@ The following items are installed with Document Management:
 -   Roles
 -   Tables
 
-For more information, see[Components installed with Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/installed-with-doc-mgmt.md).
+For more information, see[Components installed with Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/installed-with-doc-mgmt.md).
 
 ## Procedure
 

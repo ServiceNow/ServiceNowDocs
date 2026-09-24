@@ -2,12 +2,12 @@
 title: Setting up a secure connection to Hermes
 description: Configure SSL encryption for your Kafka consumers by generating an instance-signed certificate and configuring your Kafka client with SSL to securely connect to the managed Hermes cluster and consume data export results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/data-export-setup-hermes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/data-export-setup-hermes.html
 release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Bulk export of Usage Insights data via REST API, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -142,12 +142,12 @@ Verify network connectivity to Hermes and confirm you have a Kafka consumer envi
 
     **Note:** Both configurations use the same `group.id` value. This is intentional and required for high availability.
 
-9.  Start consuming data export results as described in [Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/consuming-data-export-results.md).
+9.  Start consuming data export results as described in [Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/consuming-data-export-results.md).
 
 
 ## What to do next
 
-Submit data export requests and consume results from the Kafka topic. See [Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/consuming-data-export-results.md) to learn more.
+Submit data export requests and consume results from the Kafka topic. See [Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/consuming-data-export-results.md) to learn more.
 
-**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-restapi.md)
+**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/data-export-restapi.md)
 

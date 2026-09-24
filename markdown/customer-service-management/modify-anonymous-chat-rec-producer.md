@@ -2,7 +2,7 @@
 title: Modify the anonymous chat record producer
 description: Modify the default anonymous chat record producer to gather the desired information from guest users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/modify-anonymous-chat-rec-producer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/modify-anonymous-chat-rec-producer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

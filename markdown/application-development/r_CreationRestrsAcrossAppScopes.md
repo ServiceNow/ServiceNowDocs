@@ -2,7 +2,7 @@
 title: Creation restrictions across application scopes
 description: The system restricts the creation of some configuration records when the current application scope does not match the application scope of the configuration record's target table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/r\_CreationRestrsAcrossAppScopes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/r\_CreationRestrsAcrossAppScopes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

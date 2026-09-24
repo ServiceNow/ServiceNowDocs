@@ -2,7 +2,7 @@
 title: Add supporting document widget in own-paper record producer
 description: Add the supporting document widget to a record producer to enable uploading of supporting documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-add-support-doc-wdgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-add-support-doc-wdgt.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -110,5 +110,5 @@ Role required: admin
     A supporting document widget is available while editing an own-paper based request.
 
 
-**Parent Topic:**[Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md)
+**Parent Topic:**[Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md)
 

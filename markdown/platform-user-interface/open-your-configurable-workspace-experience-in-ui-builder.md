@@ -2,7 +2,7 @@
 title: Open a Configurable Workspace experience in UI Builder
 description: Access your Configurable Workspace experience in UI Builder for editing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

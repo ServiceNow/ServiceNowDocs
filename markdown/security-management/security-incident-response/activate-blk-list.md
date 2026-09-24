@@ -2,7 +2,7 @@
 title: Activate a block list for the Check Point NGTP integration
 description: After the Block List has been created in your ServiceNow AI Platform and the URL is available, the Check Point administrator configures the Block List as Custom Intelligence Feed on all the Check Point Next Generation Gateways. Before it can accept Block List entries, the Block List must be configured in Check Point and activated in the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activate-blk-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/activate-blk-list.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

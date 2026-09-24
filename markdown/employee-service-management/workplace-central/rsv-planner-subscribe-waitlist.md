@@ -2,7 +2,7 @@
 title: Manage reservation waitlist records
 description: Only Workplace Reservation event planners are allowed to update the weight of a queued waitlist record. They can also manually assign a space to employees and cancel a waitlist record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/rsv-planner-subscribe-waitlist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/rsv-planner-subscribe-waitlist.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -50,7 +50,7 @@ Role required: sn\_wsd\_rsv.reservation\_planner
 
     Event planners can prioritize a waitlist record in the queue. Prioritizing a waitlist record moves the selected record to rank higher in the queue. Provide the highest possible weight number to a record. The Queued waitlist record for a space is prioritized for space assignment. For example, if a Queued waitlist is showing **Weight** as `50`, change it to `100` so that the waitlist entry moves up in the queue for quicker space assignment.
 
-    When a weight or priority value is not added, the application filters waitlist records based on the **Create by** field in the Reservation Waiting Lists Table. For example, if there are 5 waitlist records, the application prioritizes the waitlist record that was created first, based on the date and time field values. For example, a waitlist record that was created on 16/05/2026 will be prioritized before a waitlist record that was created on 21/05/2026. For more information, see [Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/waitlist-configuration.md).
+    When a weight or priority value is not added, the application filters waitlist records based on the **Create by** field in the Reservation Waiting Lists Table. For example, if there are 5 waitlist records, the application prioritizes the waitlist record that was created first, based on the date and time field values. For example, a waitlist record that was created on 16/05/2026 will be prioritized before a waitlist record that was created on 21/05/2026. For more information, see [Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/waitlist-configuration.md).
 
 6.  Select **Save**.
 
@@ -94,12 +94,12 @@ Role required: sn\_wsd\_rsv.reservation\_planner
 
 14. Navigate to **All** &gt; **Workplace Reservation Management** &gt; **My Reservation Waiting Lists** to review the waitlist reservation records along with their status.
 
-    For more information, see [Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/waitlist-configuration.md).
+    For more information, see [Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/waitlist-configuration.md).
 
     \[Omitted image "waitlist-my-waiting-list-table-page.png"\] Alt text: My Reservation Waiting List table showing waitlist status and priority field values.
 
 
-**Parent Topic:**[Manage Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/manage-workplace-central.md)
+**Parent Topic:**[Manage Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/manage-workplace-central.md)
 
 **Related topics**  
 
@@ -112,7 +112,7 @@ Role required: sn\_wsd\_rsv.reservation\_planner
 
 [Approve a space assist request]()
 
-[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
+[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
 
-[Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md)
+[Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md)
 

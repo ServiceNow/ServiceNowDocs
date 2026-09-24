@@ -2,7 +2,7 @@
 title: Use Service instance \(Application Services\) dashboard to monitor health
 description: Use insights from the Service instance dashboard to reduce the number of incomplete Service instances by populating them and adding missing data. To use service instances effectively, ensure that service instances are fully configured and are populated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -22,9 +22,9 @@ Role required: sn\_cmdb\_admin, itil\_admin or app\_service\_admin
 
 ## About this task
 
-The dashboard queries for service instances by checking for those records in the \[cmdb\_ci\_service\_auto\] class in which the value of **Service classification** is **Application Service**. Reduce the number of incomplete service instances by [editing application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md) and populating any empty attributes. For example, if an application service isn't configured with a service population method, then configure a service population method for it.
+The dashboard queries for service instances by checking for those records in the \[cmdb\_ci\_service\_auto\] class in which the value of **Service classification** is **Application Service**. Reduce the number of incomplete service instances by [editing application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/create-it-services.md) and populating any empty attributes. For example, if an application service isn't configured with a service population method, then configure a service population method for it.
 
-The Service instance dashboard is fully integrated into the and the [Service instances insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.md), and refreshes on a 24-hour cycle during night hours.
+The Service instance dashboard is fully integrated into the and the [Service instances insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.md), and refreshes on a 24-hour cycle during night hours.
 
 ## Procedure
 
@@ -48,7 +48,7 @@ The Service instance dashboard is fully integrated into the and the [Service ins
     -   Application Servers: Total number of application servers. The number of those which aren't in any Service instances and a breakdown of those application servers by class.
     -   Databases: Total number of databases. The number of those which aren't in any Service instances and a breakdown of those databases by class.
     -   Hardware Servers: Total number of hardware servers. The number of those which aren't in any Service instances and a breakdown of those hardware servers by class.
-    **Note:** Application servers, hardware servers, and databases, not included in Service instances, are counted only up to about 100,000, even if the actual count is greater than this limit. This number limit is determined by the value of the [glide.cmdb.csdm.app\_service.max\_results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md) property.
+    **Note:** Application servers, hardware servers, and databases, not included in Service instances, are counted only up to about 100,000, even if the actual count is greater than this limit. This number limit is determined by the value of the [glide.cmdb.csdm.app\_service.max\_results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md) property.
 
 4.  Select **Owned by**, **Support group**, or **Change Group** to filter the list of Service instances that are included in the dashboard, by a key attribute.
 
@@ -67,6 +67,6 @@ Update Service instances with any missing important details:
 2.  In the Service instances list view, select a Service instances to edit.
 3.  Add the missing details.
 
-    For details about configuring a Service instances, see [Create Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
+    For details about configuring a Service instances, see [Create Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 
 

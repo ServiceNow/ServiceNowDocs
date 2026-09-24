@@ -2,7 +2,7 @@
 title: Configuring external applications for legal contracts
 description: Set up external applications that provide services such as electronically signing contract documents and saving signed contracts or the documents related to legal requests in an external storage system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/setting-up-legal-external-app-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/setting-up-legal-external-app-config.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -29,7 +29,7 @@ The Legal Service Delivery applications use spokes from Integration Hub to integ
     -   [Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/onedrive-spoke.md)
 -   **Configure an external storage provider**
 
-    The legal configurator can set up the external storage app integrations for legal apps from **Legal Integrations**. For more information, see [Configure an external storage system for legal requests and legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/integrate-legal-ext-storage.md).
+    The legal configurator can set up the external storage app integrations for legal apps from **Legal Integrations**. For more information, see [Configure an external storage system for legal requests and legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/integrate-legal-ext-storage.md).
 
 
 ## Integration with e-signature providers
@@ -42,6 +42,6 @@ The Legal Service Delivery applications use spokes from Integration Hub to integ
     -   [Docusign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/docusign-spoke.md)
 -   **Set up the electronic signature provider app**
 
-    The legal configurator can set up the electronic signature app integrations for legal apps from **Legal Integrations**. For more information, see [Configure an e-signature provider for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/integrate-legal-contracts-esign.md).
+    The legal configurator can set up the electronic signature app integrations for legal apps from **Legal Integrations**. For more information, see [Configure an e-signature provider for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/integrate-legal-contracts-esign.md).
 
 

@@ -2,7 +2,7 @@
 title: Configure the relationships to query on
 description: Configure the type of relationships that you want to query for in CMDB Query Builder. For example, configure which CI on the canvas is the parent and which is the child in the relationship or the level of relationships to query on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-query-bldr-relationship-props.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-query-bldr-relationship-props.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -113,5 +113,5 @@ Query on related CIs using a field that the parent and ancestor parent CI classe
 **Related topics**  
 
 
-[CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md)
+[CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md)
 

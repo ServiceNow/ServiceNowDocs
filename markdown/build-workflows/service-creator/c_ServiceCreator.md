@@ -2,7 +2,7 @@
 title: Service Creator
 description: Service creator enables a department to offer custom services through the service catalog, such as the HR department offering tuition reimbursement for further education.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/c\_ServiceCreator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/service-creator/c\_ServiceCreator.html
 release: australia
 product: Service Creator
 classification: service-creator

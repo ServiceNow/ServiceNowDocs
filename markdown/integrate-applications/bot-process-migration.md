@@ -2,7 +2,7 @@
 title: Migrating the bot process configuration in RPA Hub
 description: In RPA Hub, you can migrate the bot process configuration and associated assets for an attended or unattended bot process from one environment to another environment. With this feature, you can create an automation and test it in a lower environment and then migrate it to a higher or production environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/bot-process-migration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/bot-process-migration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -59,19 +59,19 @@ Only the default field values are migrated. The custom field values aren't migra
 
 ## Restructured RPA Hub tables \(Tokyo and earlier releases\)
 
-For Tokyo and earlier releases, you must restructure the RPA Hub tables before migration. For more information, see [Restructuring RPA Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/restructured-rpa-hub-tables-utah.md).
+For Tokyo and earlier releases, you must restructure the RPA Hub tables before migration. For more information, see [Restructuring RPA Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/restructured-rpa-hub-tables-utah.md).
 
--   **[Mark the bot process as ready for migration in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mark-bot-process-ready-for-migration.md)**  
+-   **[Mark the bot process as ready for migration in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mark-bot-process-ready-for-migration.md)**  
 Mark the bot process as ready for migration in RPA Hub so that the bot process configuration and associated assets can be migrated to another environment. With this feature, you can create an automation and test it in a lower environment and then migrate it to a higher or production environment.
--   **[Migrate the bot process configuration to another environment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/migrate-bot-process.md)**  
+-   **[Migrate the bot process configuration to another environment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/migrate-bot-process.md)**  
 Migrate the bot process configuration and associated assets to another environment in RPA Hub. With this feature, you can create an automation and test it in a lower environment and then migrate it to a higher or production environment.
 
-**Parent Topic:**[Migrating data in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/migrating-data-rpa-hub.md)
+**Parent Topic:**[Migrating data in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/migrating-data-rpa-hub.md)
 
 **Related topics**  
 
 
-[Mark the bot process as ready for migration in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mark-bot-process-ready-for-migration.md)
+[Mark the bot process as ready for migration in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mark-bot-process-ready-for-migration.md)
 
-[Migrate the bot process configuration to another environment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/migrate-bot-process.md)
+[Migrate the bot process configuration to another environment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/migrate-bot-process.md)
 

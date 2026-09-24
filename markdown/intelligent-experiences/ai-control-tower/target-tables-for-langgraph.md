@@ -2,7 +2,7 @@
 title: Target tables for LangGraph
 description: Target tables for storing AI Service Graph Connector for LangGraph data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/target-tables-for-langgraph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/target-tables-for-langgraph.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

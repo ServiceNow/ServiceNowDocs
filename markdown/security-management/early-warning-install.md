@@ -2,7 +2,7 @@
 title: Install the required applications for Early Warning for Security Exposure Management
 description: Install the required applications for Early Warning for Security Exposure Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/early-warning-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/early-warning-install.html
 release: australia
 topic_type: task
 last_updated: "2026-04-02"
@@ -39,7 +39,7 @@ Role required: admin
 
 ## What to do next
 
-[Set up requirements for Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/early-warning-integration-setup.md)[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-early-warning-integration.md)
+[Set up requirements for Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/early-warning-integration-setup.md)[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configure-early-warning-integration.md)
 
-**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
+**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/armis-early-warning-integration.md)
 

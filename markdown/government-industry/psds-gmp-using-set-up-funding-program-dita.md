@@ -2,7 +2,7 @@
 title: Create a funding program for Public Sector Digital Services
 description: Create a funding program, or create one from an existing configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-using-set-up-funding-program-dita.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-gmp-using-set-up-funding-program-dita.html
 release: australia
 topic_type: task
 last_updated: "2026-01-29"
@@ -50,6 +50,6 @@ Role required: admin
 
     Choose **new** to create a grant program.
 
-    For more information about creating a grant program, see [Create a grant program for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-set-up-grants-management-program.md).
+    For more information about creating a grant program, see [Create a grant program for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gmp-using-set-up-grants-management-program.md).
 
 

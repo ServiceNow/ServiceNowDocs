@@ -2,7 +2,7 @@
 title: Storing media locally when taken from ServiceNow mobile apps
 description: Provide users with the option to save and retrieve pictures and videos taken with the camera on their mobile app, onto their device. By default, these images are saved for 24 hours on the phone’s local storage. You can set the storage time to be from 1 to 168 hours \(1 week\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/media-saving-mobile-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/media-saving-mobile-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,5 +67,5 @@ By default, these images and videos are saved for 24 hours on the phone’s loca
 16. Set the **Mobile Applications** to who you want to send the mobile property.
 
 
-**Parent Topic:**[Working with images and attachments in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/images-and-attachments.md)
+**Parent Topic:**[Working with images and attachments in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/images-and-attachments.md)
 

@@ -2,7 +2,7 @@
 title: Demand stakeholder form
 description: The Demand stakeholder form enables you to create a stakeholder record for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-stakeholder-form-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-stakeholder-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

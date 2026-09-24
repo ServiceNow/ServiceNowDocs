@@ -2,7 +2,7 @@
 title: Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace
 description: Summarize supplier-related cases to learn more about their status, progress, and action items by using the supplier case summarization skill in the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -124,7 +124,7 @@ The generated summary appears under the record summary and is saved automaticall
 **Related topics**  
 
 
-[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
+[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
 
-[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.md)
+[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.md)
 

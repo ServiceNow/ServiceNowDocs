@@ -2,7 +2,7 @@
 title: Modify a contract record
 description: After a contract record is created, you can change the end date, parent contract, and contract model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-modify-contract-rec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-modify-contract-rec.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -57,7 +57,7 @@ If changes are made to a contract end date or its terms and conditions, a copy o
 8.  Select **Save**.
 
 
-**Parent Topic:**[Manage Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-manage-sn-legal-contracts.md)
+**Parent Topic:**[Manage Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-manage-sn-legal-contracts.md)
 
 **Related topics**  
 

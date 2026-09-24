@@ -2,7 +2,7 @@
 title: View SSO users in workspace
 description: View details of all users that have direct access to a SSO application in the Software Asset Workspace, but not through membership in a group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-ssousers-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/view-ssousers-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -29,5 +29,5 @@ Role required: sam\_admin or sam\_user
 3.  Select a user record to view additional details related to the user.
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Create bulk risk assessment
 description: Create a bulk risk assessment project to perform assessments on multiple risks and controls simultaneously using the AI Risk and Compliance workspace. You can define the project context, including the assessable entity, Risk assessment methodology \(RAM\), project name, description, and identify and add stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -184,5 +184,5 @@ Watchlist users from the assessable entity stakeholders list. This field appears
     The project moves to the Assess stage, and a notification goes to the assessor.
 
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

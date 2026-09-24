@@ -2,7 +2,7 @@
 title: Enable a Health and Safety table for configuring report field mapping
 description: Enable a Health and Safety table for report field mapping. You can then configure its mapping with your reporting PDF template, enabling safety agents to generate reports for records in this table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/enable-hs-table-report-field-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/enable-hs-table-report-field-mapping.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -41,9 +41,9 @@ Role required: sn\_ohs\_im.admin
 
 ## What to do next
 
-To generate a report for this table's records, you must configure its report field mapping. For more information, see [Create a safety report field mapping for generating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/create-safety-report-field-mapping.md).
+To generate a report for this table's records, you must configure its report field mapping. For more information, see [Create a safety report field mapping for generating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/create-safety-report-field-mapping.md).
 
-**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 

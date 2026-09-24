@@ -2,7 +2,7 @@
 title: Assign a finance case to yourself
 description: As a finance specialist, assign a finance case to yourself from the Finance Operations Workspace. Start resolving it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/assign-fin-ops-case-to-yourself.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/assign-fin-ops-case-to-yourself.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -45,5 +45,5 @@ Role required: sn\_fin\_ops.specialist
 6.  Select **Save**.
 
 
-**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

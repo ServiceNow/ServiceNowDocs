@@ -2,7 +2,7 @@
 title: Change schedules view
 description: The Change Schedules module provides a Gantt or timeline view of change requests based on criteria defined within a Change Schedule Definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-schedules-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-schedules-view.html
 release: australia
 product: Change Management
 classification: change-management
@@ -148,9 +148,9 @@ Change record
 Summary of the change record when you click any span. Use **Open Record** in the header of the summary to open the change request in the form view. In the form, you can view the entire change request record. **Note:** You can specify the fields that are displayed in this window. On the Change Schedule Definition form, under the **Record Summary** tab, specify required fields on **Left column fields** and **Right column fields**.
 
 </td></tr></tbody>
-</table>**Note:** Change schedules are loaded on the timeline page on the client side in batches of 20. You can load a maximum of 1000 records. These numbers can be modified by system administrator. For more information, refer the properties at [Installed with Change Management - Change Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-cm-changeschedule.md).
+</table>**Note:** Change schedules are loaded on the timeline page on the client side in batches of 20. You can load a maximum of 1000 records. These numbers can be modified by system administrator. For more information, refer the properties at [Installed with Change Management - Change Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-cm-changeschedule.md).
 
-**Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-schedule.md)
+**Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-schedule.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Organize records tabs with ServiceNow Link Manager
 description: Use the ServiceNow Link Manager feature to manage and organize browser tabs within a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-chrome-link-manager.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-chrome-link-manager.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

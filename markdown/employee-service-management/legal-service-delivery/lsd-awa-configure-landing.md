@@ -2,7 +2,7 @@
 title: Configure Advanced Work Assignment for Legal Service Delivery
 description: Configure the Advanced Work Assignment for Legal Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-awa-configure-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-awa-configure-landing.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -18,11 +18,11 @@ Configure the Advanced Work Assignment for Legal Service Delivery.
 
 ## Configuration overview
 
--   **[Activate Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-activate-awa.md)**
+-   **[Activate Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-activate-awa.md)**
 
     Activate the Advanced Work Assignment for Legal Service Delivery plugin \(sn\_lg\_awa\) for Legal Service Delivery if you have the admin role
 
--   **[Set up Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/setup-awa-lsd.md)**
+-   **[Set up Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/setup-awa-lsd.md)**
 
     Configure various components, such as service channels, work item queues, and assignment rules that determine how a legal request should be routed to an agent.
 

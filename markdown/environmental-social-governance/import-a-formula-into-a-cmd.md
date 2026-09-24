@@ -2,7 +2,7 @@
 title: Import a formula into a calculated metric definition
 description: Directly import any formula that is stored in Microsoft Excel spreadsheets into a calculated metric definition. This import helps in quickly building your formula for performing calculations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/import-a-formula-into-a-cmd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/import-a-formula-into-a-cmd.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ Sometimes, you might have a formula saved in a spreadsheet that you want to incl
 
 The calculated metric definition becomes available with the formula in the list of all the metric definitions.
 
-**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
+**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
 

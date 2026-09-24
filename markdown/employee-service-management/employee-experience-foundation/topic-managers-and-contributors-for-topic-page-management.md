@@ -2,7 +2,7 @@
 title: Topic managers and contributors for topic page management
 description: While topic managers control the topic level decisions, the contributors manage the connected content, quick links, adding applications, and featured content on the topic page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/topic-managers-and-contributors-for-topic-page-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/topic-managers-and-contributors-for-topic-page-management.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +29,7 @@ While topic managers control the topic level decisions, the contributors manage 
 
 **Topic contributor** level has been introduced to manage all topic level tasks, such as, linking Connected content, Quick links, adding applications, and Featured content. Contributors also have a top-down access control. The user criteria only work further down the sub-tree from the topic that it has been added.
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

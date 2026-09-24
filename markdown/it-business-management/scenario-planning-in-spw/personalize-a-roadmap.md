@@ -2,7 +2,7 @@
 title: Personalize roadmap Timeline view
 description: Customize the way that your roadmap is displayed in the Timeline view. Group the roadmap items, color them by a category, add numerical data points, and display milestones and dependencies to analyze your roadmap efficiently and take informed decisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/personalize-a-roadmap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/personalize-a-roadmap.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -71,7 +71,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
         You can group the roadmap items by up to two attributes and color-code them by one attribute.
 
-        You can work with your admin to add other attributes for the Group by, Color by, and Metrics fields. See [Customize planning item display preferences for roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md).
+        You can work with your admin to add other attributes for the Group by, Color by, and Metrics fields. See [Customize planning item display preferences for roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md).
 
         **Important:** Don't group your roadmap items by the name attribute because the application renames the roadmap item when you move the item bar from one group to another.
 
@@ -85,11 +85,11 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     5.  If your roadmap items \(such as projects, epics, or demands\) have milestones, adjust how they’re displayed using the toggles in the Milestones section.
 
-        For more information, see [Customizing milestones display on roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.md).
+        For more information, see [Customizing milestones display on roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.md).
 
     6.  If your roadmap items have dependencies, adjust how they’re displayed using the toggles in the Dependencies section.
 
-        For more information, see [Dependencies display on the roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md).
+        For more information, see [Dependencies display on the roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md).
 
     7.  Identify the current date on your timeline using the current date indicator.
 
@@ -106,5 +106,5 @@ From the Free-form Roadmaps tab, select a roadmap.
 6.  Apply filters to the data shown on the roadmap.
 
 
-**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
+**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
 

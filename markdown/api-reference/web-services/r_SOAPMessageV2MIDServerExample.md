@@ -2,7 +2,7 @@
 title: SOAPMessageV2 MID server example
 description: You can send an outbound SOAP message through a MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_SOAPMessageV2MIDServerExample.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/r\_SOAPMessageV2MIDServerExample.html
 release: australia
 product: Web Services
 classification: web-services
@@ -46,5 +46,5 @@ gs.info("Response: " + responseBody);
 gs.info("HTTP Status: " + status);
 ```
 
-**Parent Topic:**[Scripting outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_ScriptingOutboundSOAP.md)
+**Parent Topic:**[Scripting outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_ScriptingOutboundSOAP.md)
 

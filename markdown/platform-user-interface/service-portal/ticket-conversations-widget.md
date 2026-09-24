@@ -2,7 +2,7 @@
 title: Ticket Conversations widget
 description: Record of ticket items. Users can use this widget to communicate back and forth with the fulfiller and the receiver. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/ticket-conversations-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/ticket-conversations-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -32,7 +32,7 @@ Limit the number of journal entries that appears in the ticket conversation widg
 |No readable journal field message|The message that displays when there are no readable journal fields. Forms that have added journal fields may not display in the Ticket Conversation widget.|
 |Enter key behavior|The action to perform when pressing the Enter key. The default is to submit the entry. The **System Property** option is based on the value of the **glide.service\_portal.comment.enter\_adds\_newline** system property.|
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

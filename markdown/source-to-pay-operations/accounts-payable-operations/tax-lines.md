@@ -2,7 +2,7 @@
 title: Invoice Tax lines fields
 description: Field descriptions for the Invoice Tax Lines tab used to record tax details for invoice lines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-lines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/tax-lines.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -37,5 +37,5 @@ The following table displays the fields in the invoice tax lines tab.
 |Jurisdiction type|Level of the taxing jurisdiction, such as District, State, County, or City. This field is populated based on the jurisdiction|
 |Tax authority|Taxing authority or tax levy that imposes the tax within the jurisdiction. For example, Local Sales and Use Tax.|
 
-**Parent Topic:**[Tax lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-tax-lines-apo.md)
+**Parent Topic:**[Tax lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-tax-lines-apo.md)
 

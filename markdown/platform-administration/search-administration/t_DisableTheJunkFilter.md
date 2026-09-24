@@ -2,7 +2,7 @@
 title: Enable or disable the Zing junk filter
 description: When its junk filter is enabled, Zing doesn't index or search for 2-digit numbers or single-character words \(unless they are Chinese or Japanese characters\). You can enable or disable the junk filter for individual tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_DisableTheJunkFilter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/t\_DisableTheJunkFilter.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -42,10 +42,10 @@ For example, to disable matches for search terms like `a` or `40` in the Knowled
 
     **Note:**
 
-    -   To have the desired effect, you may also need to reconfigure the [automatic stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_ConfigureAnAutomaticStopWord.md). For example, if a specific 2-digit number appears in all of your problem numbers \(92-0001, 92-0002, and so on\), the automatic stop word threshold is quickly exceeded and the word is no longer found in searches. To find that 2-digit number in the problem table, you must disable both junk filtering and automatic stop words.
+    -   To have the desired effect, you may also need to reconfigure the [automatic stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/t_ConfigureAnAutomaticStopWord.md). For example, if a specific 2-digit number appears in all of your problem numbers \(92-0001, 92-0002, and so on\), the automatic stop word threshold is quickly exceeded and the word is no longer found in searches. To find that 2-digit number in the problem table, you must disable both junk filtering and automatic stop words.
     -   Disabling the junk filter results in a larger table index. For optimal performance, don't apply this attribute unless it's required.
 
-**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_IntroductionToSearching.md)
+**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_IntroductionToSearching.md)
 
 **Related topics**  
 

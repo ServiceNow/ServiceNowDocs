@@ -2,7 +2,7 @@
 title: Flow error handler
 description: Enable flows to catch errors. Run a sequence of actions and subflows to identify and correct issues. For example, have flows log output values, send notifications, and run corrective subflows when they produce an error.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-error-handler.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-error-handler.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -76,7 +76,7 @@ Enabling the Error Handler changes the states reported in the flow execution det
 
 When an error occurs in a flow with an active error handler, the flow stops running further actions and flow logic and instead runs the items in the error handler section. If the items in the error handler section run, the flow stops with the Completed \(error caught\) state. If the error handler itself generates an error, the flow stops with the Error state.
 
-A flow cannot rerun items that generate an error or resume from the step that generated an error. You can use [Try flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-try.md) to continue running a flow that encounters an errors within the try block.
+A flow cannot rerun items that generate an error or resume from the step that generated an error. You can use [Try flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic-try.md) to continue running a flow that encounters an errors within the try block.
 
 ## Flow and action error handling resources
 
@@ -112,15 +112,15 @@ Follow these general guidelines to achieve the benefits offered by flow error ha
     Rather than recreate the same sequence of actions in multiple flows, create reusable subflows to correct errors to your record data. When a flow error leaves your record data in an undesired state, use subflows to correct these records. You can use the error handler to identify such record data as a subflow output.
 
 
--   **[Add an error handler to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-error-handler-flow.md)**  
+-   **[Add an error handler to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-error-handler-flow.md)**  
 Run a sequence of Workflow Studio actions and subflows to identify and correct issues that are caused by flow errors.
--   **[Create a custom action to throw an error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-custom-action-throw-error.md)**  
+-   **[Create a custom action to throw an error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-custom-action-throw-error.md)**  
 Create an action that intentionally throws an error to test flow error handling.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md)
 
 **Related topics**  
 
 
-[Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md)
+[Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md)
 

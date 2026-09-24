@@ -2,7 +2,7 @@
 title: Edit table properties in Table Builder
 description: Change table properties such as the table label or other settings so that you can make a table extensible or add record numbers by using Table Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/edit-table-props-fb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/form-builder-glide-family-release/edit-table-props-fb.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -20,7 +20,7 @@ Change table properties such as the table label or other settings so that you ca
 
 Role required: none
 
-**Note:** User must have canWrite access to **sys\_db\_object** or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+**Note:** User must have canWrite access to **sys\_db\_object** or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -30,7 +30,7 @@ Making a table extensible means that you are enabling new tables to share column
 
 Adding record numbers means that a tracking number is created automatically for each new table entry. For example, a new entry to the Travel Requests table would get a record number like TRV1234567. You can use this number to find table records more easily.
 
-Application access settings determine whether script objects from other applications can access the table in your application. You can give these script objects access to read, create, update, or delete records on your table. Alternatively, you can disable access to your table from other applications. For more information on the application access controls, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_TableApplicationAccessFields.md).
+Application access settings determine whether script objects from other applications can access the table in your application. You can give these script objects access to read, create, update, or delete records on your table. Alternatively, you can disable access to your table from other applications. For more information on the application access controls, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/r_TableApplicationAccessFields.md).
 
 ## Procedure
 
@@ -40,12 +40,12 @@ Application access settings determine whether script objects from other applicat
 
 3.  In the dialog box that appears, update the table properties as shown in the following example.
 
-    For more information on these properties, see [Table properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-parameters.md).
+    For more information on these properties, see [Table properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/table-parameters.md).
 
 4.  To close the dialog box, select **Save**.
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-builder.md)
+**Parent Topic:**[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/table-builder.md)
 

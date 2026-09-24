@@ -2,7 +2,7 @@
 title: Copy a Spotlight group to domains
 description: You can copy a Spotlight group to other domains, saving the effort of reproducing the group manually for each domain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/copy-spotlight-group-domain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/spotlight/copy-spotlight-group-domain.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -84,7 +84,7 @@ For each copy of the Spotlight group, the domain name is added to the end of the
 
 5.  Click **OK**.
 
-    The Spotlight group is copied. If copying is successful, a list of the Spotlight groups that you have just created opens. If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
+    The Spotlight group is copied. If copying is successful, a list of the Spotlight groups that you have just created opens. If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight-copy-logs.md).
 
 6.  Open each of the Spotlight groups you have just created and perform the following steps:
 
@@ -119,7 +119,7 @@ In this example, the ACME - Incident Spotlight group, which was created in the A
 
 ## What to do next
 
-If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
+If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight-copy-logs.md).
 
-**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight.md)
 

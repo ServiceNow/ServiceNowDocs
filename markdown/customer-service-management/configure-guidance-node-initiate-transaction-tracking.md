@@ -2,7 +2,7 @@
 title: Configure a guidance node to initiate the transaction tracking
 description: Configure a guidance node in Decision Tree Builder so that agents can initiate the transaction tracking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-guidance-node-initiate-transaction-tracking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-guidance-node-initiate-transaction-tracking.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,5 +61,5 @@ Do the following steps to add the next question node:
 
     You can add a question node only after a guidance node. The execution of the decision tree continues after the guidance is performed. The path configuration isn’t required because there can only be one question node after a guidance node.
 
-2.  [Configure a question node for further assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-a-question-node-for-further-assistance.md).
+2.  [Configure a question node for further assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-a-question-node-for-further-assistance.md).
 

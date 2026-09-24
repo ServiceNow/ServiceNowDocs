@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Otto for Threat Intelligence Security Center \(TISC\)
 description: Use the AI Admin Hub console to configure and activate the generative AI skills for ServiceNow Otto for Threat Intelligence Security Center \(TISC\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuring-now-assist-tisc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuring-now-assist-tisc.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-12"

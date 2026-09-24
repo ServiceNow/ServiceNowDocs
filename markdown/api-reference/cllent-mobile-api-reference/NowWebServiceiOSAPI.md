@@ -2,7 +2,7 @@
 title: NowWebService class - iOS
 description: The NowWebService class provides functions that enable the browsing of web pages on a ServiceNow instance.Initializes a NowWebService instance.Creates a UIViewController object that hosts the web view.Preloads a list of specified pages with cacheable resources in the background \(by NowWeb\) to improve initial load times.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowWebServiceiOSAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowWebServiceiOSAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -20,9 +20,9 @@ The NowWebService class provides functions that enable the browsing of web pages
 
 |Name|Type|Description|
 |----|----|-----------|
-|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)|Configuration parameters to use when initializing the NowWebService instance.|
+|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)|Configuration parameters to use when initializing the NowWebService instance.|
 
-**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowWebService - init\(configuration: NowServiceConfiguration, coreServiceProvider: NowCoreServiceProviding? = nil\)
 
@@ -46,7 +46,7 @@ configuration
 
 </td><td>
 
-[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)
+[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)
 
 </td><td>
 
@@ -129,7 +129,7 @@ theme
 
 </td><td>
 
-[NowWebThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeableiOSProtocol.md)
+[NowWebThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowWebThemeableiOSProtocol.md)
 
 </td><td>
 

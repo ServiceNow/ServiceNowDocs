@@ -2,7 +2,7 @@
 title: ACH dispute AI agents overview
 description: Agentic AI streamlines ACH dispute resolution by automating merchant analysis, Nacha eligibility checks, ACH dispute return recommendations, and communications with customers or ODFI \(Originating Depository Financial Institution\). This solution enhances efficiency, accuracy, and conformance, enabling financial institutions to resolve ACH disputes faster, reduce errors, and improve customer satisfaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/ach-agentic-ai-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/ach-agentic-ai-workflow.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -34,7 +34,7 @@ The key agents for ACH dispute resolution are.
 
 The following diagram illustrates the workflow in ACH disputes with the AI agents.\[Omitted image "now-assist-ach-disputeworkflw.png"\] Alt text: ACH disputes workflow
 
-For information about the workflow in ACH disputes, see [Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md).
+For information about the workflow in ACH disputes, see [Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/process-dispute-ach.md).
 
-**Parent Topic:**[Resolving ACH disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/work-dispute-ach.md)
+**Parent Topic:**[Resolving ACH disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/work-dispute-ach.md)
 

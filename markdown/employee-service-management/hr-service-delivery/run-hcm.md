@@ -2,7 +2,7 @@
 title: Run a scheduled job
 description: Manually run the schedule job to pull data from Oracle HCM to the ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/run-hcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/run-hcm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,7 +29,7 @@ Role required: admin
 3.  Click **Run job**.
 
 
-**Parent Topic:**[Using HR Service Delivery integration with Oracle Cloud HCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hrsd-int-oracle-clud-hcm.md)
+**Parent Topic:**[Using HR Service Delivery integration with Oracle Cloud HCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hrsd-int-oracle-clud-hcm.md)
 
 **Related topics**  
 

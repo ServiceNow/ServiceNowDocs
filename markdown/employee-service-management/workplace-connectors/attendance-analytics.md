@@ -2,7 +2,7 @@
 title: Attendance Analytics
 description: The Attendance analytics table computes badging data based on the employee head count at the region, site, campus, and building level. It derives occupancy data from the Employee Attendance Data table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/attendance-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-connectors/attendance-analytics.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
@@ -28,8 +28,8 @@ Role required: sn\_wsd\_wc.admin
 
 2.  Navigate to **All** &gt; **Workplace Core** &gt; **Administration** &gt; **Workplace profiles**.
 
-    -   Verify that the **Location** field is updated with the correct location. For more information, see [Set the primary location of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/set-prim-location-of-worplace-profile.md).
-    -   Verify that the **Workplace entity** column is mapped to the user workplace profile. For more information, see [Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md) and [Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-entity.md).
+    -   Verify that the **Location** field is updated with the correct location. For more information, see [Set the primary location of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/set-prim-location-of-worplace-profile.md).
+    -   Verify that the **Workplace entity** column is mapped to the user workplace profile. For more information, see [Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md) and [Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-entity.md).
 3.  Navigate to **All** and in the application context menu search for **sn\_wsd\_central\_attendance\_analytics.list**.
 
     The Attendance Analytics page is displayed.
@@ -50,12 +50,12 @@ Role required: sn\_wsd\_wc.admin
 
         \[Omitted image "workplace-attendance-analytics-dashboard.png"\] Alt text: Workplace Analytics showing Occupancy Dashboard metrics.
 
-    For more information, see [View Occupancy Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-badging-tables.md).
+    For more information, see [View Occupancy Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-badging-tables.md).
 
 
-**Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
-**Previous topic:**[Employee attendance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/employee-attendance.md)
+**Previous topic:**[Employee attendance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/employee-attendance.md)
 
-**Next topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
+**Next topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 

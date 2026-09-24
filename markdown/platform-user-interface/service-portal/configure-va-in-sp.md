@@ -2,7 +2,7 @@
 title: Configure Agent Chat in a portal
 description: Your end users can initiate and maintain an Agent Chat conversation in any portal page. Write a script to pass portal-specific data to Agent Chat. For example, pass the name of your knowledge base to a Virtual Agent conversation.You can change the color and images that are used in the Agent Chat button in your portal.If you are upgrading from a previous release, your portal implementation may include the Virtual Agent Service Portal widget. Migrate widget options to the Agent Chat in Service Portal configuration and remove all instances of the widget to enable your users to initiate and maintain an Agent Chat conversation in any portal page. Use the spContextManager class in a widget client script to pass dynamic page data to Agent Chat. For example, pass the number of approvals in the Approvals widget to Agent Chat when a user initiates a conversation from the Service Portal homepage.If your portal includes a Live Chat link in the header menu, you can remove it by updating the widget's option schema.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-va-in-sp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/configure-va-in-sp.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -106,7 +106,7 @@ Server script
 
 </td><td>
 
-Script that passes page and widget data to an Agent Chat conversation. For example, pass a field to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal. This script has access to the GlideSPScriptable API.
+Script that passes page and widget data to an Agent Chat conversation. For example, pass a field to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal. This script has access to the [GlideSPScriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md) API.
 
  **Note:** The portal suffix, page ID, and language are automatically available to Agent Chat and do not require a custom script. Sys ID and table are automatically available to Agent Chat when they are present in the URL.
 
@@ -130,7 +130,7 @@ Script that passes page and widget data to an Agent Chat conversation. For examp
 
 Users can initiate and maintain an Agent Chat conversation from any page in the selected portal.
 
-**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md)
+**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/create-a-portal.md)
 
 ## Customize the Agent Chat button
 
@@ -138,7 +138,7 @@ You can change the color and images that are used in the Agent Chat button in yo
 
 ### Before you begin
 
-If you plan to replace one or both of the images that are used in the Agent Chat button, upload the images to your instance. For more information on uploading an image, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
+If you plan to replace one or both of the images that are used in the Agent Chat button, upload the images to your instance. For more information on uploading an image, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 Role required: sp\_admin or admin
 
@@ -304,7 +304,7 @@ Examine the widget to understand how data is passed to the widget client script.
     };
     ```
 
-    Keys passed to this API are unique per page. For example, if the `'agent-chat'` key is already initialized by another widget on the page through the addContext\(\) method, you must use the updateContextForKey\(\) method to update the key's data.. For more information about the spContextManager class, see spContextManager.
+    Keys passed to this API are unique per page. For example, if the `'agent-chat'` key is already initialized by another widget on the page through the addContext\(\) method, you must use the updateContextForKey\(\) method to update the key's data.. For more information about the spContextManager class, see [spContextManager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spContextManagerAPI.md).
 
 3.  Click **Save.**
 

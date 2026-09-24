@@ -2,7 +2,7 @@
 title: Create a Desktop action parameter record
 description: Create a Desktop action parameter record to store a name that an AI agent references when accessing credentials or other values during desktop action execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configuration-ssh-username-password-ad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configuration-ssh-username-password-ad.html
 release: australia
 topic_type: task
 last_updated: "2026-05-25"
@@ -50,5 +50,5 @@ Parameter records are supported for on-screen tasks and SSH background tasks. Us
 
 ## Result
 
-The Desktop action parameter record is created and appears in the Desktop Action Parameters list. You can now create Desktop action parameter value records under this parameter. For more information, see [Create a parameter value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-parameter-value-record.md).
+The Desktop action parameter record is created and appears in the Desktop Action Parameters list. You can now create Desktop action parameter value records under this parameter. For more information, see [Create a parameter value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-parameter-value-record.md).
 

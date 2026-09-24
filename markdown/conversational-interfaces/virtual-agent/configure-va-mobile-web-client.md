@@ -2,7 +2,7 @@
 title: Configure Virtual Agent for a ServiceNow mobile application
 description: Virtual Agent provides optimized templates for the mobile experience. Configure a service portal to run Virtual Agent on a ServiceNow mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -86,16 +86,16 @@ Role required: admin
 
 Depending on the device and the patch version of the server instance, end users can access the Virtual Agent chat icon in the bottom-right or top-right corner of the app. Tap the plus icon or the chat icon to start a conversation.
 
-The topics you create in Assistant Designer can be used in both the web and mobile clients, as well as any other channels you may configure. Virtual Agent output components are already optimized for Android and iOS, including [image and video cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-card-output.md), [link unfurling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-link-unfurling.md), [AI Search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md), and [Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
+The topics you create in Assistant Designer can be used in both the web and mobile clients, as well as any other channels you may configure. Virtual Agent output components are already optimized for Android and iOS, including [image and video cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-card-output.md), [link unfurling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-link-unfurling.md), [AI Search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ai-search.md), and [Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
 
 ## What to do next
 
-To enable ServiceNow Otto for Virtual Agent in native Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+To enable ServiceNow Otto for Virtual Agent in native Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
--   **[Now Mobile notification of unread chat and Virtual Agent messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-mobile-unread-messages.md)**  
+-   **[Now Mobile notification of unread chat and Virtual Agent messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-mobile-unread-messages.md)**  
 When Now® Mobile app users navigate away from the app after starting an active conversation, they can automatically receive Virtual Agent mobile push notifications informing them of new, unread chat messages and  Virtual Agent notifications that have arrived.
--   **[View and modify Virtual Agent style templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/modify-va-templates.md)**  
+-   **[View and modify Virtual Agent style templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/modify-va-templates.md)**  
 Virtual Agent provides optimized templates for the mobile experience. You can view and modify the style sheets in the Adapter Cards \[sys\_cs\_adapter\_card\] table.
 
-**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
+**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

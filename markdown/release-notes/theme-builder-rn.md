@@ -2,7 +2,7 @@
 title: Theme Builder release notes
 description: The ServiceNow Theme Builder application enables you to customize the visual experience for your users so that you can update the look and feel to be more like your brand. Theme Builder was enhanced and updated in the Australia release.The ServiceNow Theme Builder application enables you to customize the visual experience for your users so that you can update the look and feel to be more like your brand. Theme Builder was enhanced and updated in the Australia release.The ServiceNow Theme Builder application enables you to customize the visual experience for your users so that you can update the look and feel to be more like your brand. Theme Builder was enhanced and updated in the Australia release.The ServiceNow Theme Builder application enables you to customize the visual experience for your users so that you can update the look and feel to be more like your brand. Theme Builder was enhanced and updated in the Australia release.The ServiceNow Theme Builder application enables you to customize the visual experience for your users so that you can update the look and feel to be more like your brand. Theme Builder was enhanced and updated in the Australia release.The ServiceNow Theme Builder application enables you to customize the visual experience for your users so that you can update the look and feel to be more like your brand. Theme Builder was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/theme-builder-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/theme-builder-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ See [Working with themes in Next Experience](https://raw.githubusercontent.com/S
     Theme Builder is included as a core plugin with the Next Experience application and is available by default. You can update to the latest version of Theme Builder from the ServiceNow Store.
 
 
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-ui-rn-landing.md)
 
 ## August 2026
 
@@ -41,7 +41,7 @@ The ServiceNow® Theme Builder application enables you to customize the visual e
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 ## June 2026

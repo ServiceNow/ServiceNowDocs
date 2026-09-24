@@ -2,7 +2,7 @@
 title: Configure scheduled jobs for Self-Service Analytics
 description: Schedule when to run the deflection configuration to generate the activities that match an activity pattern within an activity window.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-scheduled-job-ssa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/configure-scheduled-job-ssa.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -18,7 +18,7 @@ Schedule when to run the deflection configuration to generate the activities tha
 
 ## Before you begin
 
-[Set up the deflection configuration for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-deflection-ssa.md).
+[Set up the deflection configuration for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-deflection-ssa.md).
 
 Role required: admin
 
@@ -144,5 +144,5 @@ Script to run at the scheduled date and time.For a new scheduled script, copy th
 </table>4.  Click **Update** for consumers and customer contacts or **Submit** to save a custom configuration.
 
 
-**Parent Topic:**[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/config-ssa.md)
+**Parent Topic:**[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/config-ssa.md)
 

@@ -2,7 +2,7 @@
 title: MID Server support for Data Stream actions
 description: Get data through a ServiceNow MID Server when running a Data Stream action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/dsa-on-mid.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/dsa-on-mid.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -28,7 +28,7 @@ These steps can run on either the MID Server or the instance:
 
 **Note:** Avoid shifting the execution environment between the instance and the MID Server multiple times. For example, you might configure the Request Script step to run on the MID Server, but the REST step to run on the instance. In this case, the system shifts environments between the instance and MID Server for every page of data, which may degrade performance.
 
-To learn more about running a step on a MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md).
+To learn more about running a step on a MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integration-steps.md).
 
 ## Size limits
 
@@ -70,5 +70,5 @@ You can adjust timeout values for JDBC operations with the following properties.
     The amount of time allocated for the execution of a child plan in the MID Server.A bounded property with a minimum value of 0 seconds and a maximum value of 7200 seconds. The default time is 60 seconds.
 
 
-**Parent Topic:**[Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md)
+**Parent Topic:**[Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/data-stream-actions.md)
 

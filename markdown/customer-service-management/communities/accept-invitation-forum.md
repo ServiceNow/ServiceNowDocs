@@ -2,7 +2,7 @@
 title: Accept an invitation to join a forum
 description: An invitation to join a forum is sent as an email message. The method that you use to accept an invitation depends on whether you are a registered community user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/accept-invitation-forum.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/accept-invitation-forum.html
 release: australia
 product: Communities
 classification: communities
@@ -28,7 +28,7 @@ Role required: none
     -   If you are a registered community user but have not accepted the community Terms &amp; Conditions, a message appears to accept the Terms &amp; Conditions. The forum opens after you accept the Term &amp; Conditions.
 2.  If the login page appears, take one of the following actions.
 
-<table id="choicetable_d4c_x3c_t1b"><tbody><tr><td id="d63966e78">
+<table id="choicetable_d4c_x3c_t1b"><tbody><tr><td id="d63815e78">
 
 **If you are a registered user and not logged in.**
 
@@ -36,7 +36,7 @@ Role required: none
 
 Enter your login credentials to access the forum.
 
-</td></tr><tr><td id="d63966e87">
+</td></tr><tr><td id="d63815e87">
 
 **If you are not a registered user.**
 
@@ -52,7 +52,7 @@ Enter your login credentials to access the forum.
 </table>    Forum membership is auto-approved and you are subscribed to the forum. **Status** changes to **Leave Forum**.
 
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

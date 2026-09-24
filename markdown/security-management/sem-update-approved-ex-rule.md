@@ -2,10 +2,10 @@
 title: Update an approved exception rule
 description: Cancel an approved rule to be able to update it. For example, before you can modify any dates or add a condition to an approved rule, you must cancel it so that the remediation task finding is deleted, and the findings move to the Open state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-update-approved-ex-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-update-approved-ex-rule.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -37,5 +37,5 @@ Group rules are reapplied to these findings. Submit the rule after making the ch
     The rule moves back to the Draft state and the associated VUL is deleted. The related Findings are reopened, and group rules are applied to the individual Findings.
 
 
-**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exception-rule.md)
+**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exception-rule.md)
 

@@ -2,7 +2,7 @@
 title: IBM licensing in VMware vSphere and Nutanix environments
 description: When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules for VMware vSphere and Nutanix.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/ibm-licensing-vmware-vsphere-environment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/ibm-licensing-vmware-vsphere-environment.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -51,22 +51,22 @@ Full capacity
 
 When you install and run an IBM software product on a VM, you must license each processor core on the underlying physical ESXi host that is running the VM. If the physical ESXi host is running multiple VMs simultaneously, you must still license each processor core on the host regardless of how many VMs you install and run the IBM software product on.
 
- Use the total number of processor cores on the underlying physical ESXi host to determine the number of rights that are required for your license, based on the license type. To determine the number of rights that are required for a PVU or RVU license, see [IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md). To determine the number of rights that are required for a VPC license, see [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md).
+ Use the total number of processor cores on the underlying physical ESXi host to determine the number of rights that are required for your license, based on the license type. To determine the number of rights that are required for a PVU or RVU license, see [IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md). To determine the number of rights that are required for a VPC license, see [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md).
 
 </td></tr><tr><td>
 
-Sub-capacity**Note:** You can use sub-capacity licensing only if you configure and specify a VM manager for your VMs. For more information on VM managers, see [Specify VMMs for IBM licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.md).
+Sub-capacity**Note:** You can use sub-capacity licensing only if you configure and specify a VM manager for your VMs. For more information on VM managers, see [Specify VMMs for IBM licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.md).
 
 </td><td>
 
 You must license only the virtual cores that are assigned to the VMs on which you install and run an IBM software product.
 
- Use the sum of virtual cores that must be licensed across your VMs to determine the number of rights that are required for your license, based on the license type. To determine the number of rights that are required for a PVU or RVU license, see [IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md). To determine the number of rights that are required for a VPC license, see [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md).
+ Use the sum of virtual cores that must be licensed across your VMs to determine the number of rights that are required for your license, based on the license type. To determine the number of rights that are required for a PVU or RVU license, see [IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md). To determine the number of rights that are required for a VPC license, see [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md).
 
  **Note:** By default, the number of required rights is calculated using the sum of virtual cores. If the sum of virtual cores exceeds the total number of processor cores on the underlying physical ESXi hosts that are running the VMs, the number of required rights is calculated using the total number of processor cores on the hosts instead.
 
  **Note:** If you install and run an IBM software product on both a VM and the underlying physical ESXi host that is running the VM, you must also license the installation on the host.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtualization technologies and public cloud platforms supported by IBM Authorized SAM Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/supported-virtualization-technologies-iasp-integrations.md)
+</table>**Parent Topic:**[Virtualization technologies and public cloud platforms supported by IBM Authorized SAM Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/supported-virtualization-technologies-iasp-integrations.md)
 

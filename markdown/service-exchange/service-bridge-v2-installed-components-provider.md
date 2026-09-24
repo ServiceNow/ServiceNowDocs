@@ -2,7 +2,7 @@
 title: Components installed with Service Exchange for Providers
 description: Several types of components are installed when you activate the Service Exchange for Providers application, including tables, user roles, and business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-installed-components-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-installed-components-provider.html
 release: australia
 product: Service Exchange
 classification: service-exchange

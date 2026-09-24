@@ -2,7 +2,7 @@
 title: Workplace dashboard in Workplace Service Portal
 description: Use the Workplace Dashboard from Workplace Service Portal to visually analyze the available workspace capacity, space request and reservation trends, and monitor the maintenance tasks of your workplace. You can also reserve a space for an employee or create a workplace maintenance task directly from this Workplace Service Portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/wsd-workplace-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/wsd-workplace-dashboard.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -74,12 +74,12 @@ The data displayed in visualizations corresponds to the selected campus.
 |Workplace requests created today|Single score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Total number of workplace reservation requests created by the employees today.|
 |Workplace requests by day|Trend \[Omitted image "column-time-icon.png"\] Alt text: Trend over time icon|Trend of the number of workplace reservation requests created per day.|
 
-**Parent Topic:**[Workplace dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-workplace-dashboards.md)
+**Parent Topic:**[Workplace dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-workplace-dashboards.md)
 
 **Related topics**  
 
 
-[Create workplace reservations for an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/reserve-workspaces-for-employees-wsd.md)
+[Create workplace reservations for an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/reserve-workspaces-for-employees-wsd.md)
 
-[Create an ad hoc workplace task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-adhoc-workplace-task-wsd.md)
+[Create an ad hoc workplace task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-adhoc-workplace-task-wsd.md)
 

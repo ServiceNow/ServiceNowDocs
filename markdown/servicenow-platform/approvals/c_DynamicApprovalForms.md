@@ -2,7 +2,7 @@
 title: Dynamic approval forms
 description: When you are looking at an approval request, the form has a context-appropriate summary of the item to be approved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/c\_DynamicApprovalForms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/c\_DynamicApprovalForms.html
 release: australia
 product: Approvals
 classification: approvals
@@ -24,5 +24,5 @@ For example, if you're looking at a Change Management approval request, you will
 
 \[Omitted image "ApproveRequest.png"\] Alt text:
 
-**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_Approvals.md)
+**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_Approvals.md)
 

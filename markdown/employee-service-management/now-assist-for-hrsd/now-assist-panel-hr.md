@@ -2,7 +2,7 @@
 title: Use the ServiceNow Otto panel in HR Agent Workspace
 description: Generate chat and case summaries and resolution notes by using the ServiceNow Otto panel in Agent Workspace for HR Case Management or Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-panel-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/now-assist-panel-hr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -34,7 +34,7 @@ Role required:
 3.  Select a skill from the menu.
 
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

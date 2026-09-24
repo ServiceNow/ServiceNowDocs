@@ -2,7 +2,7 @@
 title: Work on a document task to generate agreement documents
 description: Work on a document task to generate customer agreement documents that are required to activate the treasury product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-treasury-operations/work-document-task-treasury-ops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-treasury-operations/work-document-task-treasury-ops.html
 release: australia
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -52,5 +52,5 @@ The Document Management Service determines which documents are required in a wor
 -   The document task moves to the Closed Complete state.
 -   In the parent treasury case, the Agreement documents stage in the case playbook shows as complete and the case moves to the next stage.
 
-**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
+**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
 

@@ -2,7 +2,7 @@
 title: Update a metric
 description: Update a metric to add goals, metric data, and targets. Associate citations to the metric.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/update-a-metric.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/update-a-metric.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -320,5 +320,5 @@ Details of the citations, such as reference, name, authority document, descripti
 7.  To visually explore the 360° relationship view of the metric definition, select **360° view**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-grc-metrics.md)
 

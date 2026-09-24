@@ -2,7 +2,7 @@
 title: Keyboard navigation in playbook diagram view
 description: Use keyboard commands to navigate and configure playbooks in diagram view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/keyboard-navigation-in-playbook-diagram-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/keyboard-navigation-in-playbook-diagram-view.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

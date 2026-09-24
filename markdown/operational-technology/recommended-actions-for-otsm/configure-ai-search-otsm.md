@@ -2,7 +2,7 @@
 title: Configure AI Search for Operational Technology Service Management
 description: Configure AI Search for Recommended Actions for Operational Technology Service Management \(OTSM\) to enable intelligent query features that help you quickly find the answers you need for OT incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/recommended-actions-for-otsm/configure-ai-search-otsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/recommended-actions-for-otsm/configure-ai-search-otsm.html
 release: australia
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
@@ -41,5 +41,5 @@ To define indexed sources, you can use the Guided Setup for AI Search. The follo
 5.  Select the **Index Selected Table/s** button.
 
 
-**Parent Topic:**[Configuring Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/configuring-recommended-actions-otsm.md)
+**Parent Topic:**[Configuring Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/recommended-actions-for-otsm/configuring-recommended-actions-otsm.md)
 

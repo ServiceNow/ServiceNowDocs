@@ -2,7 +2,7 @@
 title: Update Feedback or Product idea records from the list page
 description: Edit the details of a feedback or product idea record and make real-time updates using the list page of feedback or product ideas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/update-feedback-or-idea.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/product-feedback/update-feedback-or-idea.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -48,7 +48,7 @@ Action
 
 </td><td>
 
-Double-click on the feedback or product idea field on the grid to make inline edits. You can select the short description of feedback or product idea to open the full details page. Bulk edit rows in the list view to enable quick updates without editing each record individually. For feedback or product idea field information, see [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/feedback-form.md) and [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-idea-form.md).
+Double-click on the feedback or product idea field on the grid to make inline edits. You can select the short description of feedback or product idea to open the full details page. Bulk edit rows in the list view to enable quick updates without editing each record individually. For feedback or product idea field information, see [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/feedback-form.md) and [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/product-idea-form.md).
 
  **Note:** You can’t make inline edits for read-only fields.
 

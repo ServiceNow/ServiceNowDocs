@@ -2,7 +2,7 @@
 title: Automate and optimize
 description: Enhance the efficiency and effectiveness of your ServiceNow Customer Service Management platform with automated workflows, AI-powered chatbots, predictive analytics, and data analytics and reporting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/automate-and-optimize.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/automate-and-optimize.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/va-csp-csm-portal.md)
+[Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/va-csp-csm-portal.md)
 
 </td><td>
 
@@ -32,7 +32,7 @@ The ServiceNow Virtual Agent platform offers user assistance through an intellig
 
 </td></tr><tr><td>
 
-[Using Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-pcso.md)
+[Using Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-pcso.md)
 
 </td><td>
 
@@ -40,7 +40,7 @@ Monitor your customers' products and services to identify issues proactively, in
 
 </td></tr><tr><td>
 
-[Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-task-intelligence.md)
+[Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-task-intelligence.md)
 
 </td><td>
 
@@ -52,8 +52,8 @@ Guided Decisions
 
 </td><td>
 
--   [Use Guided Decisions in playbooks to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-guided-decisions.md)- As an agent, work your way through a decision tree in a playbook to help troubleshoot a case and get recommendations on the next possible steps in solving the case.
--   [Use Guided Decisions in recommended actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-guided-decisions-ra.md)- As an agent, work your way through a recommended action of type decision tree to help troubleshoot a case and get recommendations on the next possible steps in solving the case.
+-   [Use Guided Decisions in playbooks to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-guided-decisions.md)- As an agent, work your way through a decision tree in a playbook to help troubleshoot a case and get recommendations on the next possible steps in solving the case.
+-   [Use Guided Decisions in recommended actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-guided-decisions-ra.md)- As an agent, work your way through a recommended action of type decision tree to help troubleshoot a case and get recommendations on the next possible steps in solving the case.
 
 </td></tr><tr><td>
 
@@ -61,7 +61,7 @@ Recommended Actions for Service
 
 </td><td>
 
-[Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-using-recommended-actions.md)- Through the Recommended Actions application, use the recommended actions of type guidance and guided decision tree in your workspace to resolve cases quickly. Use the field recommendation to get recommendations on the field values. Use the AI search option to search the relevant resources from various sources.
+[Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-using-recommended-actions.md)- Through the Recommended Actions application, use the recommended actions of type guidance and guided decision tree in your workspace to resolve cases quickly. Use the field recommendation to get recommendations on the field values. Use the AI search option to search the relevant resources from various sources.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Playbooks for Customer Service Management
 
 </td><td>
 
-[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md) -   Customer service agents can use playbooks to complete the tasks and activities that are needed to resolve specific types of cases.
+[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md) -   Customer service agents can use playbooks to complete the tasks and activities that are needed to resolve specific types of cases.
 -   Playbooks provide step-by-step guidance through the lifecycle of a customer service case.
 -   Playbooks include multiple stages and each stage includes one or more activities for an agent to complete.
 

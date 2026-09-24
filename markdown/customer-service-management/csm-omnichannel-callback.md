@@ -2,7 +2,7 @@
 title: Using Omnichannel Callback for Customer Service Management
 description: The ServiceNow Omnichannel Callback for Customer Service Management app enables a callback option for customers when there's a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CRM Workspace
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-omnichannel-callback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-omnichannel-callback.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -78,7 +78,7 @@ Customers can request a callback during a chat on Virtual Agent or Engagement Me
 **Related topics**  
 
 
-[Working with callback requests from customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-callback-from-agent.md)
+[Working with callback requests from customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/request-callback-from-agent.md)
 
-[Callback requests by agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/callback-requests-agents-customer.md)
+[Callback requests by agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/callback-requests-agents-customer.md)
 

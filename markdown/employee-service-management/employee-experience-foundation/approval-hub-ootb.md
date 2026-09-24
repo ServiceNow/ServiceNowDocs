@@ -2,7 +2,7 @@
 title: Approvals experience reference
 description: Use the following reference information for better approval experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/approval-hub-ootb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/approval-hub-ootb.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,7 +23,7 @@ Use the following default task configurations available for approvals.
 -   Request with **sysapproval** as reference column and **sc\_request** as reference table.
 -   Requested item with **sysapproval** as reference column and **sc\_req\_item** as reference table.
 
-You can customize the task configurations to suit your requirements. The data model is an extension to the Employee Center **To-do configuration** as a related list. Follow the instructions [Enable task configuration for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.md) about configuring the approval experience. For more information on how to configure approvals, see [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
+You can customize the task configurations to suit your requirements. The data model is an extension to the Employee Center **To-do configuration** as a related list. Follow the instructions [Enable task configuration for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.md) about configuring the approval experience. For more information on how to configure approvals, see [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
 
 **Note:** A user must have the approval\_user or business\_stakeholder role to approve IT requests \(not applicable to other requests such as HR approvals\) on Employee Centre. Role validation has not been implemented in Core UI16 because modifying ACLs in UI16 might have broader implications at the NowPlatform level.
 
@@ -78,9 +78,9 @@ Use the following information for Workday integration.
     -   WorkdayApprovalToDosHelperUtilsSNC: Provides functions for Workday approvals.
 -   Ensure you configure the right user controls and privileges for Compensation Change and Spend Authorization use cases. Only the authorized users can view the sensitive records and data from Workday.
 -   For data protection, use the default purge policy to delete data more often. By default, data purge happens after in 30 days.
--   Ensure only the HR administrator \[sn\_hr\_core.admin\] has access to the sensitive information as explained in [Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md).
+-   Ensure only the HR administrator \[sn\_hr\_core.admin\] has access to the sensitive information as explained in [Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md).
 
-For more information on how to configure approvals, see [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
+For more information on how to configure approvals, see [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
 
 ## Approvals on mobile
 
@@ -90,7 +90,7 @@ To disable the feature change the value of this sys\_property: sn\_me\_todos.all
 
 ## OOTB action group use
 
-Use the out-of-the-box **Approvals action group** to display the actions such as **Approve** and **Reject**. For more information, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md).
+Use the out-of-the-box **Approvals action group** to display the actions such as **Approve** and **Reject**. For more information, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/action-group-framework.md).
 
 **Note:** For actions to appear in my items widget, you can add the OOTB **Approvals action group** from **All** &gt; **Employee Center** &gt; **Administration** &gt; **To-dos Configurations**, click an existing to-dos configuration, navigate to the **To-do Configuration Details** record, and use the OOTB action group under **Fields Mapping**.
 
@@ -99,7 +99,7 @@ Use the out-of-the-box **Approvals action group** to display the actions such as
 -   Click the URLs for additional information and context.
 -   Allow BUs to add non-task tables easily to the list in the To-dos or Task configuration reference tables by passing non-task tables as an array in the **Scripted Extension Points**. **sn\_hr\_sp.TodoNonTaskTables**, and **sn\_ex\_sp.RefNonTaskTables**.
 
-**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Document Management system in Third-party Risk Management
 description: Learn how the enhanced Document Management system supports third-party collaboration and internal workflows in Third-party Risk Management \(TPRM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-dms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-dms.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -32,15 +32,15 @@ The DMS is accessible for external users through the Third-party portal as shown
 
 -   Third-party contacts can upload and manage documents using the third-party portal.
 
-    For more information, see [Upload and manage documents in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-document-portal.md).
+    For more information, see [Upload and manage documents in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-document-portal.md).
 
 -   Internal users can create and access document records through the Documents module in the Vendor Management Workspace.
 
-    For more information, see [Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-document.md).
+    For more information, see [Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-document.md).
 
 -   Users can manage document versions, download attachments, and track their metadata.
 
-    For more information, see [Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-document-version.md).
+    For more information, see [Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-document-version.md).
 
 -   Documents can be linked to multiple TPRM record types with auto-rollup:
 
@@ -48,11 +48,11 @@ The DMS is accessible for external users through the Third-party portal as shown
     -   Issues
     -   Engagements
     -   Assessments
-    For more information, see [Link documents to a TPRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-link-document.md).
+    For more information, see [Link documents to a TPRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-link-document.md).
 
 -   Internal users can manage role-based permissions for primary contacts and other internal users.
 
-    For more information, see [Define document sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-doc-share-permissions.md).
+    For more information, see [Define document sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-doc-share-permissions.md).
 
 -   Each document version supports download options, advanced search and reporting for metadata and relationships, and complete audit tracking of actions and version history.
 
@@ -84,7 +84,7 @@ If you have the third‑party risk manager role \[sn\_vdr\_risk\_asmt.vendor\_ri
 
 This capability reduces manual effort by ensuring that essential vendor documentation remains accessible throughout the assessment process, while still allowing users to review, edit, and finalize their responses.
 
-For more information, see [AI-assisted questionnaire pre-fill using the Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms-sae.md).
+For more information, see [AI-assisted questionnaire pre-fill using the Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dms-sae.md).
 
 ## Now Assist document skills
 
@@ -92,7 +92,7 @@ If your organization uses DMS and ServiceNow Otto for TPRM, you can leverage AI-
 
 -   TPRM issue summarization– Condenses complex third-party risk issues into actionable summaries, helping risk analysts review and respond faster.
 
-    For more information, see [TPRM issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/issue-summarization-tprm.md).
+    For more information, see [TPRM issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/issue-summarization-tprm.md).
 
 -   Smart documents – Summarizes risk management documents and provides quick Q&amp;A, reducing manual review and speeding up due diligence.
 
@@ -114,15 +114,15 @@ For more information on Now Assist for Document Management skills, see [Explore 
 **Related topics**  
 
 
-[Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-document.md)
+[Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-document.md)
 
-[Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-document-version.md)
+[Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-document-version.md)
 
-[Link documents to a TPRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-link-document.md)
+[Link documents to a TPRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-link-document.md)
 
-[Define document sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-doc-share-permissions.md)
+[Define document sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-doc-share-permissions.md)
 
-[Upload and manage documents in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-document-portal.md)
+[Upload and manage documents in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-document-portal.md)
 
 [Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-review-approval.md)
 

@@ -2,7 +2,7 @@
 title: Preview evidence files
 description: Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/preview-file-proofpoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/preview-file-proofpoint.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -19,7 +19,7 @@ Preview Data Loss Prevention Incident Response evidence files in the DLP IR Anal
 
 ## Before you begin
 
-**Important:** While using the Evidence files action in the DLP analyst workspace, the evidence files are temporarily stored in the ServiceNow database in an unencrypted format. If you don't want to store the evidence files, disable the Evidence Files preview feature. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
+**Important:** While using the Evidence files action in the DLP analyst workspace, the evidence files are temporarily stored in the ServiceNow database in an unencrypted format. If you don't want to store the evidence files, disable the Evidence Files preview feature. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
 Role required: sn\_dlir.analyst
 
@@ -92,5 +92,5 @@ PDF files
     Binary files won’t be rendered and have to be downloaded to preview their content. The preview evidence file feature also works for archived incidents.
 
 
-**Parent Topic:**[Create a Profile for Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-proofpoint-dlp-integration.md)
+**Parent Topic:**[Create a Profile for Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/create-profile-proofpoint-dlp-integration.md)
 

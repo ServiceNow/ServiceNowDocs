@@ -2,7 +2,7 @@
 title: Create a root cause analysis
 description: Create a root cause analysis \(RCA\) to identify the underlying cause of an issue and implement effective, long-term solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-root-cause-analysis-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-root-cause-analysis-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
 3.  On the Root Cause Analysis Task form, fill in the fields.
 
-    For a description of the field values, see [Root cause analysis task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-root-cause-analysis-task-form.md).
+    For a description of the field values, see [Root cause analysis task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-root-cause-analysis-task-form.md).
 
 4.  Select **Save**.
 
@@ -34,7 +34,7 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
     The Start a Sidebar discussion window is displayed.
 
-    For more information on the sidebar discussion window, see [Create a Sidebar discussion for a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-discussions-record.md).
+    For more information on the sidebar discussion window, see .
 
 6.  Select **Save**.
 
@@ -42,7 +42,7 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 **Related topics**  
 
 
-[Notes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-notes.md)
+[Notes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-notes.md)
 
-[Resolution information form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-resolution-information-form.md)
+[Resolution information form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-resolution-information-form.md)
 

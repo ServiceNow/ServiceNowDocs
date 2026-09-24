@@ -2,7 +2,7 @@
 title: Create an onboarding order for enterprise assets in the Enterprise Asset Workspace
 description: Create an onboarding order in the Asset operations view to initiate the onboarding of multiple enterprise assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/onboard-eam-assets-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/onboard-eam-assets-workspace.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -108,9 +108,9 @@ In the **Model** field, select the asset model.
 
 ## What to do next
 
-Add asset details to the onboarding order. For details, see [Add details of the enterprise assets to an onboarding order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-eam-assets-onboard-order.md).
+Add asset details to the onboarding order. For details, see [Add details of the enterprise assets to an onboarding order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/add-eam-assets-onboard-order.md).
 
-**Parent Topic:**[Onboarding multiple enterprise assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md)
+**Parent Topic:**[Onboarding multiple enterprise assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md)
 
 **Related topics**  
 

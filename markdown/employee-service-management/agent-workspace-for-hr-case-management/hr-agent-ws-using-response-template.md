@@ -2,7 +2,7 @@
 title: Use response templates in HR cases or tasks
 description: Use response templates as reusable messages that you can copy and paste into the comments or work notes for an HR case or task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -28,15 +28,15 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  Select an HR case or task.
 
-<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d310858e83">
+<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d310862e83">
 
 Item
 
-</th><th align="left" id="d310858e86">
+</th><th align="left" id="d310862e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d310858e92">
+</th></tr></thead><tbody><tr><td id="d310862e92">
 
 **HR case**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select the HR case.
 
 
-</td></tr><tr><td id="d310858e119">
+</td></tr><tr><td id="d310862e119">
 
 **HR task**
 

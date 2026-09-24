@@ -2,7 +2,7 @@
 title: Import Intelligence in TISC
 description: Use this feature to manually import threat intelligence data into the repository, enabling analysts to ingest the relevant information from external sources as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/importing-threat-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/importing-threat-intelligence.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -97,27 +97,27 @@ Selected types of observables and objects
 </td></tr></tbody>
 </table>For a better understanding of each import format and the types of records supported, refer to the Related Information section.
 
--   **[Import data using structured file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-structured-file.md)**  
+-   **[Import data using structured file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-structured-file.md)**  
 Upload the structured data in the supported file formats such as CSV, XLSX or XLS.
--   **[Import data using standard format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-standard-format.md)**  
+-   **[Import data using standard format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-standard-format.md)**  
 Upload the standard data in the supported file formats such as STIX 2.x JSON, MISP JSON.
--   **[Import data using raw text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-pasted-text.md)**  
+-   **[Import data using raw text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-pasted-text.md)**  
 Import the observables data by copying and pasting raw text or entering the free text.
--   **[Import data using unstructured file format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-unstructured-file.md)**  
+-   **[Import data using unstructured file format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-unstructured-file.md)**  
 Upload the data in an unstructured format supported using the file formats such as TXT, CSV, JSON, XLS, XLSX.
--   **[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-ai.md)**  
+-   **[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-ai.md)**  
 Upload an unstructured document and let AI extract the threat observables and objects from its content. Review and correct the extracted entities before you submit the import.
 
 **Related topics**  
 
 
-[Import data using structured file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-structured-file.md)
+[Import data using structured file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-structured-file.md)
 
-[Import data using standard format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-standard-format.md)
+[Import data using standard format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-standard-format.md)
 
-[Import data using raw text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-pasted-text.md)
+[Import data using raw text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-pasted-text.md)
 
-[Import data using unstructured file format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-unstructured-file.md)
+[Import data using unstructured file format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-unstructured-file.md)
 
-[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-ai.md)
+[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-ai.md)
 

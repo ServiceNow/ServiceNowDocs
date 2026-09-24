@@ -2,7 +2,7 @@
 title: Attach knowledge articles to an HR case
 description: Attach one or more knowledge articles to an HR case to help process that record. For example, you can attach an article about the company dress code policy when an HR case is submitted that asks about wearing shorts to work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_AttachKnowledgeArticleToHRCase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_AttachKnowledgeArticleToHRCase.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -41,15 +41,15 @@ Role required: hr\_basic or hr\_case\_writer
 
 4.  Review the list of suggested knowledge articles.
 
-<table id="choicetable_pgl_nkt_hcc"><thead><tr><th align="left" id="d147474e139">
+<table id="choicetable_pgl_nkt_hcc"><thead><tr><th align="left" id="d147478e139">
 
 Action
 
-</th><th align="left" id="d147474e142">
+</th><th align="left" id="d147478e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147474e148">
+</th></tr></thead><tbody><tr><td id="d147478e148">
 
 **Preview the article**
 
@@ -57,7 +57,7 @@ Description
 
 Click the article title. After reviewing the article in the pop-up window, click **Attach to HR Case** if it is relevant, or click **\(X\)** to close the article.
 
-</td></tr><tr><td id="d147474e163">
+</td></tr><tr><td id="d147478e163">
 
 **Attach the article without previewing it**
 
@@ -73,5 +73,5 @@ Click **Attach** next to the article.**Note:** When you attach an article, its t
     You can remove an attachment by going to the **Attached Knowledge** tab and clicking **Edit...** button. From the list displayed, you can select the knowledge article to remove and click **&lt;**. Click **Save** to complete the process.
 
 
-**Parent Topic:**[HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-knowledge-management.md)
+**Parent Topic:**[HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-knowledge-management.md)
 

@@ -2,7 +2,7 @@
 title: Submit a complaint through Employee Center
 description: Submit a complaint through the Employee Center portal to report a compliance violation incident for investigation and resolution.Submit a complaint through the Legal menu in the Employee Center portal.Submit a complaint through the Quick Link in the Employee Center portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/submit-complaint-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-investigations/submit-complaint-employee-center.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -22,14 +22,14 @@ Role required: sn\_lg\_ops.legal\_user
 
 ## About this task
 
-To submit a complaint anonymously, see [Submit a complaint through the Anonymous Report Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/submit-complaint-arc.md).
+To submit a complaint anonymously, see [Submit a complaint through the Anonymous Report Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/submit-complaint-arc.md).
 
 ## Procedure
 
 1.  In the Employee Center portal, submit a complaint using either the **Help center** &gt; **Legal services** menu or the **Quick links** section.
 
 
-**Parent Topic:**[Submitting a complaint for investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/submitting-legal-investigations-request.md)
+**Parent Topic:**[Submitting a complaint for investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/submitting-legal-investigations-request.md)
 
 **Related topics**  
 
@@ -48,7 +48,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 ### About this task
 
-**Note:** This option is available if the admin has activated the record producer that is mapped to the Ethics \[sn\_lg\_ops\_ethics\] table. For more information, see [Record producers for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/record-producers-legal-investigation.md).
+**Note:** This option is available if the admin has activated the record producer that is mapped to the Ethics \[sn\_lg\_ops\_ethics\] table. For more information, see [Record producers for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/record-producers-legal-investigation.md).
 
 ### Procedure
 
@@ -62,7 +62,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 5.  On the Ethics Complaints form, fill in the fields.
 
-    For a description of the field values, see [Ethics complaints intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/ethics-complaint-intake-form.md).
+    For a description of the field values, see [Ethics complaints intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/ethics-complaint-intake-form.md).
 
 6.  To add an involved party, in the **Involved Parties** section, click **Add**.
 
@@ -83,7 +83,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 ### Result
 
-A legal request is created and assigned to a [request fulfiller or an assignment group as configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md).
+A legal request is created and assigned to a [request fulfiller or an assignment group as configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md).
 
 ## Submit a complaint through the Quick Link in Employee Center
 
@@ -95,7 +95,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 ### About this task
 
-**Note:** This option is available if the admin has activated the record producer that is mapped to the Universal Request \[universal\_request\] table. For more information, see [Record producers for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/record-producers-legal-investigation.md).
+**Note:** This option is available if the admin has activated the record producer that is mapped to the Universal Request \[universal\_request\] table. For more information, see [Record producers for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/record-producers-legal-investigation.md).
 
 ### Procedure
 
@@ -114,5 +114,5 @@ Role required: sn\_lg\_ops.legal\_user
 
 ### Result
 
-A universal request is created and is assigned to the [the assignment group as configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/integrate-lsd-hrsd.md). A universal request routing agent can triage and work on it.
+A universal request is created and is assigned to the [the assignment group as configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/integrate-lsd-hrsd.md). A universal request routing agent can triage and work on it.
 

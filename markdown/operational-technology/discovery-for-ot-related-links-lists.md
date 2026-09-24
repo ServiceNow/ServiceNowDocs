@@ -2,7 +2,7 @@
 title: IT Discovery for OT Networks related links and lists
 description: IT Discovery for OT Networks contains several related links and lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/discovery-for-ot-related-links-lists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/discovery-for-ot-related-links-lists.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -80,7 +80,7 @@ Discovery Status
 History of the results of the current and past OT discovery schedule runs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/discovery-for-operational-technology.md)
+</table>**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/discovery-for-operational-technology.md)
 
 **Related topics**  
 

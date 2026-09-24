@@ -2,7 +2,7 @@
 title: Executive Portfolio Financials tab
 description: View detailed breakdown of Total Annual Recurring Revenue \(ARR\), retention rates, at-risk revenue, and quarterly revenue movement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-financials-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-financials-tab.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -24,10 +24,10 @@ View detailed breakdown of Total Annual Recurring Revenue \(ARR\), retention rat
 |At risk ARR|Total Annual Recurring Revenue currently at risk of churn or downsell. Identifies the dollar value of revenue exposed to loss based on account health, renewal signals, and risk indicators.|
 |Quarterly ARR|Quarterly breakdown of ARR movement showing how revenue is being added, expanded, churned, and retained each quarter. Provides a detailed waterfall view of ARR composition and change drivers across the portfolio.|
 
-**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 
 
-[Executive Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-page.md)
+[Executive Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-page.md)
 

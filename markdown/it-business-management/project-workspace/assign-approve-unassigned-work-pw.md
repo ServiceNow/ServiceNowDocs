@@ -2,7 +2,7 @@
 title: Access, assign, and approve unassigned work in Project Workspace
 description: View, assign and authorize resources directly from Project Workspace without navigating to Resource Management Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/assign-approve-unassigned-work-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/assign-approve-unassigned-work-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -105,8 +105,8 @@ The assigned work items are Approved \(\[Omitted image "rmw-approved-state.png"\
 
 ## What to do next
 
--   Reassign or unassign any assigned work from the Project Workspace. For more information, see [Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-reassign-unassign-work.md).
--   Split resource assignments at a specific date from the Project Workspace. For more information, see [Split resource assignments using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/split-resource-assignment-rmw.md).
+-   Reassign or unassign any assigned work from the Project Workspace. For more information, see [Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rmw-reassign-unassign-work.md).
+-   Split resource assignments at a specific date from the Project Workspace. For more information, see [Split resource assignments using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/split-resource-assignment-rmw.md).
 
-**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/resource-assignments-pw.md)
 

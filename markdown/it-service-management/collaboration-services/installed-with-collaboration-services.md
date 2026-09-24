@@ -2,7 +2,7 @@
 title: Components installed with Collaboration services
 description: Several types of components are installed with activation of the Collaboration services application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/installed-with-collaboration-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/collaboration-services/installed-with-collaboration-services.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

@@ -2,7 +2,7 @@
 title: What's New
 description: The What's New tab in the Help Center displays information about the new and important features for applications in your instance, including features from the latest ServiceNow release\(s\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/whats-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/whats-new.html
 release: australia
 product: Adoption Services
 classification: adoption-services

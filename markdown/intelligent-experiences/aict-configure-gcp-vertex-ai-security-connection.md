@@ -2,12 +2,12 @@
 title: Add a Gemini Enterprise Agent Platform connection
 description: Connect Gemini Enterprise Agent Platform to AI Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -164,5 +164,5 @@ To verify the setup:
 
 To deploy the AI agent, see [Create and deploy an agent with Agent CLI and Agent Identity](https://docs.cloud.google.com/iam/docs/create-and-deploy-agent) in Google documentation.
 
-**Parent Topic:**[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-security-connections.md)
+**Parent Topic:**[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-security-connections.md)
 

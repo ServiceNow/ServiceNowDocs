@@ -2,7 +2,7 @@
 title: Manage personal lists
 description: Administrators can manage personal lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ManagingPersonalLists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_ManagingPersonalLists.html
 release: australia
 product: List Administration
 classification: list-administration

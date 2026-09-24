@@ -2,7 +2,7 @@
 title: Now Assist in Platform Analytics terms
 description: Now Assist in Platform Analytics uses terms that describe AI-assisted data exploration, query generation, and the semantic layer that connects natural language questions to instance data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/now-assist-platform-analytics-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/now-assist-platform-analytics-glossary.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-20"

@@ -2,7 +2,7 @@
 title: Create a CSM Configurable Workspace landing page
 description: Create landing pages for different agents and teams by creating a page variant and adding or modifying containers and components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-config-ws-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-config-ws-landing-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

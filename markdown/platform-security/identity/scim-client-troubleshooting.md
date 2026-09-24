@@ -2,7 +2,7 @@
 title: SCIM Client troubleshooting
 description: Troubleshooting actions can help resolve common issues when setting up or running the SCIM Client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/scim-client-troubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/scim-client-troubleshooting.html
 release: australia
 product: Identity
 classification: identity

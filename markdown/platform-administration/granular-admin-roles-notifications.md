@@ -2,7 +2,7 @@
 title: Granular admin roles for Notifications
 description: Granular admin roles enable organizations to assign specific administrative permissions based on functional responsibilities, replacing broad admin access with targeted role assignments. Use the new admin roles to grant users administrative capability without using the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/granular-admin-roles-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/granular-admin-roles-notifications.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -211,5 +211,5 @@ Provides access to authorize an email account and do test connection. To view lo
 com.glide.mailbox
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/reference-email-admin.md)
+</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/reference-email-admin.md)
 

@@ -2,7 +2,7 @@
 title: Activity definition form
 description: Use the Activity Definition form to report on steps that occur within your business process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/activity-def.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/activity-def.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -109,5 +109,5 @@ Include empty start node
 Includes an empty node on the process graph when the selected activity definition field is empty at the time of record creation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-mining-reference.md)
 

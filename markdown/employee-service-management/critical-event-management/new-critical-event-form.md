@@ -2,7 +2,7 @@
 title: Critical Event form
 description: Field descriptions on the form for a critical event. It includes the Critical Event form section and the Closure form section.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/new-critical-event-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/new-critical-event-form.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -154,5 +154,5 @@ Close notes
 Comments about the critical event closure.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/critical-event-management-reference.md)
+</table>**Parent Topic:**[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/critical-event-management-reference.md)
 

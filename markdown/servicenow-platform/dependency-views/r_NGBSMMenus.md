@@ -2,7 +2,7 @@
 title: Dependency Views map menus and controls
 description: Dependency Views maps contain the following menus and controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/r\_NGBSMMenus.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/r\_NGBSMMenus.html
 release: australia
 product: Dependency Views
 classification: dependency-views

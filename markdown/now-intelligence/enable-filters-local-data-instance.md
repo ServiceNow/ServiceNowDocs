@@ -2,7 +2,7 @@
 title: Enable filters to apply to a local data instance
 description: To enable a viewer to switch between which field values or breakdown elements they see in a data visualization, add filter components to the UI Builder page. For those filters to apply to a local data instance, configure that instance accordingly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/enable-filters-local-data-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/enable-filters-local-data-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,10 +53,10 @@ To enable filters to apply to a local data source, you first have to create a cl
 
 Add filter components to the UI Builder page and configure them for relevant values from the local data instance.
 
-**Parent Topic:**[Use a local data instance with a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-local-data-instance.md)
+**Parent Topic:**[Use a local data instance with a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-local-data-instance.md)
 
 **Related topics**  
 
 
-[Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md)
+[Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/interactive-filters-workspace.md)
 

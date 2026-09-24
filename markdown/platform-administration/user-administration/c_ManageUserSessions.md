@@ -2,7 +2,7 @@
 title: Managing user sessions
 description: The ServiceNow AI Platform provides the ability to view and terminate individual user sessions, lock out users from the system, and make users inactive.Secure your instance by enforcing a maximum time for sessions regardless of user activity.Specify when to time out user sessions after a period of inactivity.Configure how much time users have to extend a session before it times out due to inactivity.Lock out a user when you don’t want the user to access the instance.You can mark a user inactive so the user doesn't show up in any fields that reference active users on the User table.You can terminate a user session, for example, if you’re going to perform system maintenance and users are still logged in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/c\_ManageUserSessions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/c\_ManageUserSessions.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -22,7 +22,7 @@ Regardless of the number of windows you have open in a browser, it’s considere
 -   Locking a user out of the system means they can no longer log in or generate any actions from any email messages that they send to the instance. Locking users out also terminates their sessions.
 -   Making a user inactive means they don't show up in any fields that reference active users on the **User** table.
 
-**Parent Topic:**[Monitoring user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/user-admin-tools-landing.md)
+**Parent Topic:**[Monitoring user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/user-admin-tools-landing.md)
 
 ## Configure a maximum active time for user sessions
 
@@ -54,7 +54,7 @@ By default, sessions expire only after a period of inactivity. Enforcing a maxim
 **Related topics**  
 
 
-[Configure a maximum active time for integration sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-integration-sessions.md)
+[Configure a maximum active time for integration sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-integration-sessions.md)
 
 ## Modify user session timeout after inactivity
 
@@ -109,7 +109,7 @@ Administrators can also add the following properties to configure additional tim
 **Related topics**  
 
 
-[Modify integration session timeout after inactivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-integration-sessions.md)
+[Modify integration session timeout after inactivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-integration-sessions.md)
 
 ## Prompting users to extend a session
 

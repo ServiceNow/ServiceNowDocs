@@ -2,7 +2,7 @@
 title: SP Page Map widget
 description: The Page Map widget works in the Page Editor to display any Service Portal page in a tree structure. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/page-map-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/page-map-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -18,7 +18,7 @@ The Page Map widget works in the Page Editor to display any Service Portal page 
 
 \[Omitted image "WidgetPageMap.png"\] Alt text: 404 widget tree from the Page Editor
 
-**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-config-widgets.md)
+**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-config-widgets.md)
 
 **Related topics**  
 

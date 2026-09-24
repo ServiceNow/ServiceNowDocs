@@ -2,7 +2,7 @@
 title: Notifications in ITSM Mobile Agent for Workforce Optimization for ITSM
 description: Receive notifications when you manage shift-swap and time-off requests. Enable notifications for the actions that are most relevant to you. For example, get notified when you receive a request for approval from an agent who wants to swap shifts with a peer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-mobile-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-mobile-notifications.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -104,7 +104,7 @@ Time off rejected
 Manager rejects your time-off request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-agent-schedule-mobile-wfo-itsm.md)
+</table>**Parent Topic:**[Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-agent-schedule-mobile-wfo-itsm.md)
 
 **Related topics**  
 

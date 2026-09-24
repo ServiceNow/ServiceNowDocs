@@ -2,7 +2,7 @@
 title: View HR case information
 description: There are multiple ways to find a specific HR case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_ViewHRCaseInformation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_ViewHRCaseInformation.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -59,5 +59,5 @@ Role required: sn\_hr\_core.case\_reader
     Buttons appear at the top.\[Omitted image "HRCaseButtons.png"\] Alt text: Menu buttons for HR case form.
 
 
-**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
+**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
 

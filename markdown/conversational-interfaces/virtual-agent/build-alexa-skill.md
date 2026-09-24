@@ -2,7 +2,7 @@
 title: Build an Alexa skill model
 description: Build your Alexa-hosted skill on the Alexa developer console. Building a saved Alexa skill model helps you prepare the skill for testing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/build-alexa-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/build-alexa-skill.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -37,5 +37,5 @@ Role required: admin
     The build successful message appears and you can test the sample utterances while the build is being trained.
 
 
-**Parent Topic:**[Set up Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-alexa.md)
+**Parent Topic:**[Set up Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/setup-alexa.md)
 

@@ -2,7 +2,7 @@
 title: MCO input attributes form
 description: MCO input attributes form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-input-atrributes\_form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-input-atrributes\_form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ MCO input attributes form.
 |-----|----------|
 |Label|Label that is used for the input fields for a promotion questionnaire.|
 |Column name|Field name of the column.|
-|Type|Type of attribute. To learn more about the types, see [ServiceNow AI Platform® field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/field-administration-landing-page.md).|
+|Type|Type of attribute. To learn more about the types, see .|
 |Model|Model of the product.|
 |Max length|Logical limit for the size of string fields. The length determines how the system displays the string fields in the user interface and how to map them to physical database data types.|
 |Default value|Default value of the field for any new record.|
@@ -33,5 +33,5 @@ MCO input attributes form.
 |Text index|Option to determine whether searches index the text in a table.|
 |Audit|Option to enable auditing for a table.|
 
-**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-form.md)
 

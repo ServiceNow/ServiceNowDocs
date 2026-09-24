@@ -2,7 +2,7 @@
 title: Create an assessment template
 description: Create an assessment template by using the Smart Assessment Engine application by naming it, specifying its categories, and optionally, specifying the tables that have the records as the assessment target or scope. You can then add questions and other attributes to the template. Alternatively, you can also copy an existing template including all questions, sections, instructions and existing configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -18,7 +18,7 @@ Create an assessment template by using the Smart Assessment Engine application b
 
 ## Before you begin
 
--   At least one active template category must exist before you can create a template. See [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+-   At least one active template category must exist before you can create a template. See [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 -   You must also have a role that matches the Category Roles configured on the template category you intend to use. Without a matching category role, you cannot create templates for that category.
 -   Role required: sn\_smart\_asmt.template\_manager
 
@@ -34,23 +34,23 @@ Create an assessment template by using the Smart Assessment Engine application b
 
 2.  Create a template by selecting **New template**, and then fill in the template details form.
 
-    **Note:** You can also copy an existing template including all questions, sections, instructions, and existing configurations. For more information on how to copy an existing template refer to [Copy an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-duplicate.md).
+    **Note:** You can also copy an existing template including all questions, sections, instructions, and existing configurations. For more information on how to copy an existing template refer to [Copy an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-duplicate.md).
 
 3.  On the Create assessment template form, fill in the fields.
 
-    For a description of the field values, see [Create assessment template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/create-assessment-template-form.md).
+    For a description of the field values, see [Create assessment template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/create-assessment-template-form.md).
 
 4.  Select **Save**.
 
 
 ## What to do next
 
-You can fill in the template with instructions, questions, and optional guidance for responding to a question, as well as sections that group the related questions. See [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+You can fill in the template with instructions, questions, and optional guidance for responding to a question, as well as sections that group the related questions. See [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
 **Related topics**  
 
 
-[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)
+[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)
 
-[Copy an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-duplicate.md)
+[Copy an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-duplicate.md)
 

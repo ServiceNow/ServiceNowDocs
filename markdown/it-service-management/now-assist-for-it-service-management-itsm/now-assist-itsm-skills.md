@@ -2,14 +2,14 @@
 title: Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)
 description: Get a quick overview of the skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 14
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
@@ -216,7 +216,7 @@ Collaboration chat \[sys\_cs\_collab\_message\]
 
 </td><td>
 
-Payload**Note:** You must manually select the Collaboration chat table as an input data so that this field is used an input for the prompt. For information on choosing input data, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
+Payload**Note:** You must manually select the Collaboration chat table as an input data so that this field is used an input for the prompt. For information on choosing input data, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
 
 </td></tr></tbody>
 </table>## Chat summarization skill
@@ -835,9 +835,9 @@ Input fields
 </td></tr></tbody>
 </table>## Change risk assessment answer generator skill
 
-The change risk assessment answer generator skill includes the triggers and inputs that identify when and how a suggested answer is generated for a change risk assessment question. For more information, see [Generate change risk assessment answers by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md).
+The change risk assessment answer generator skill includes the triggers and inputs that identify when and how a suggested answer is generated for a change risk assessment question. For more information, see [Generate change risk assessment answers by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md).
 
-You can customize this skill's input data sources and the change request fields it reads. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
+You can customize this skill's input data sources and the change request fields it reads. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
 
 The following table lists the triggers for the change risk assessment answer generator skill.
 
@@ -869,7 +869,7 @@ Input fields
 
 </td><td>
 
-A fixed set of fields from the change request record. To view or change which fields are included, update the `sn_itsm_gen_ai.com.snc.asmt_answer_generator.change_request_fields` system property. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
+A fixed set of fields from the change request record. To view or change which fields are included, update the `sn_itsm_gen_ai.com.snc.asmt_answer_generator.change_request_fields` system property. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
 
 </td></tr><tr><td>
 
@@ -884,7 +884,7 @@ Records from the following default **AI Risk Data Sources**: -   Related Affecte
 -   Active change tasks linked to change request
 -   Outages linked to change request
 
- You can create, modify, or deactivate data sources. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
+ You can create, modify, or deactivate data sources. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
 
 </td></tr></tbody>
 </table>## Request summarization skill

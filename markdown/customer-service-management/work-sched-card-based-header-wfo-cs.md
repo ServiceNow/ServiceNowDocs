@@ -2,7 +2,7 @@
 title: Configure a Work scheduler card heading component
 description: Customize the Work scheduler heading component to display the title based on your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/work-sched-card-based-header-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/work-sched-card-based-header-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -63,5 +63,5 @@ For more information about the Card Base Header, see the [Components](https://ho
 
 [Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/work-sched-stacked-component.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-workscheduler-card-wfo-cs.md)
 

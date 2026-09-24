@@ -2,7 +2,7 @@
 title: Add or create an issue from an exercise
 description: Add an existing issue or create a new issue to track problems identified during an exercise.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-08-17"
@@ -23,7 +23,7 @@ Role required: sn\_recovery.event\_manager, sn\_recovery.event\_user, sn\_bcm.pr
 
 ## About this task
 
-The **Issues** related list appears on the exercise record when GRC: Profiles is installed. For more information, see [Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/managing-issues-in-bcm.md).
+The **Issues** related list appears on the exercise record when GRC: Profiles is installed. For more information, see [Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/managing-issues-in-bcm.md).
 
 ## Procedure
 
@@ -31,15 +31,15 @@ The **Issues** related list appears on the exercise record when GRC: Profiles is
 
 2.  Complete the following steps to create or manage an issue from an exercise.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d106184e109">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d106260e109">
 
 Step
 
-</th><th align="left" id="d106184e112">
+</th><th align="left" id="d106260e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106184e118">
+</th></tr></thead><tbody><tr><td id="d106260e118">
 
 **Create an issue from the exercise record**
 
@@ -70,7 +70,7 @@ Use this option when you want to associate an existing issue with the exercise a
 
 The issue association is removed from the exercise; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d106184e191">
+</td></tr><tr><td id="d106260e191">
 
 **Link an exercise from the issue record**
 
@@ -92,16 +92,16 @@ The issue association is removed from the exercise; the issue record isn't delet
     \[Omitted image "issues-section-in-pdf.png"\] Alt text: Issue details in the report.
 
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 
 **Related topics**  
 
 
-[Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/managing-issues-in-bcm.md)
+[Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/managing-issues-in-bcm.md)
 
-[Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issues-bcm-dependencies.md)
+[Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/issues-bcm-dependencies.md)
 
-[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)
+[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)
 
-[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-grc-issue-frm-plan.md)
+[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/report-grc-issue-frm-plan.md)
 

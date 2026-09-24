@@ -2,7 +2,7 @@
 title: Add a filter
 description: Add a new filter to a UI Builder dashboard to enable users to refine data views based on additional fields such as consumer, product, or other custom fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/add-a-new-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/add-a-new-filter.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -116,7 +116,7 @@ The new filter appears in the dashboard filter carousel and enables users to fil
 **Related topics**  
 
 
-[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
+[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
 
-[Change insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
+[Change insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
 

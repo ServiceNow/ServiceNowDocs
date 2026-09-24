@@ -2,7 +2,7 @@
 title: Enable metrics collection and evaluation
 description: To enable a ServiceNow instance to collect and evaluate metrics, you must create a distributed MID Server cluster, associate MID Servers with the cluster, and enable Metric Intelligence for your MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-distributed-mid-cluster.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-distributed-mid-cluster.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -111,5 +111,5 @@ Role required: agent\_client\_collector\_admin
 **Related topics**  
 
 
-[Limit metrics collection and evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-limit-metrics-collection.md)
+[Limit metrics collection and evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-limit-metrics-collection.md)
 

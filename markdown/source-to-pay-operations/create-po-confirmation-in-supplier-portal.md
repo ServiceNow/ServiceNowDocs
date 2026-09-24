@@ -2,7 +2,7 @@
 title: Create a purchase order confirmation in Supplier Collaboration Portal
 description: Create purchase order confirmations to accept PO lines without modifications and assure the buyer of timely order fulfillment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/create-po-confirmation-in-supplier-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/create-po-confirmation-in-supplier-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-09-01"
@@ -45,5 +45,5 @@ Role required: sn\_slm.contact
 
 The status of each purchase order line changes from Draft to Confirmed after submission. Once a confirmation is submitted, it can't be edited or canceled and is also visible to the operational buyer.
 
-**Parent Topic:**[Managing purchase order confirmations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/managing-po-confirmations.md)
+**Parent Topic:**[Managing purchase order confirmations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/managing-po-confirmations.md)
 

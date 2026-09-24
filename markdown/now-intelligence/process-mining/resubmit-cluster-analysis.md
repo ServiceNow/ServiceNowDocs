@@ -2,7 +2,7 @@
 title: Resubmit a cluster analysis request
 description: In cases when a configuration issue or clustering solution change occurs, you can schedule a followup cluster analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/resubmit-cluster-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/resubmit-cluster-analysis.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -33,7 +33,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 ## What to do next
 
-[View clusters in a treemap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/view-cluster-analysis.md)
+[View clusters in a treemap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/view-cluster-analysis.md)
 
-**Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md)
+**Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/cluster-analysis.md)
 

@@ -2,7 +2,7 @@
 title: Create department form
 description: Create a business unit to define your organizational functions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-new-department-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-new-department-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,12 +22,12 @@ Create a business unit to define your organizational functions.
 |Primary contact|The person who is the primary point of contact for anything associated with the department.|
 |Description|A description of the department|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Exploring departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-departments.md)
+[Exploring departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-departments.md)
 
-[Add or edit a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-department.md)
+[Add or edit a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-or-edit-a-department.md)
 

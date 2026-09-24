@@ -2,7 +2,7 @@
 title: Create fixed assets
 description: Fixed assets are containers that can hold multiple assets. Fixed assets are commonly tracked at the corporate level by a finance or accounting department, but may contain IT assets such as hardware and software.You can calculate depreciation for a fixed asset using a choice of depreciation schedules. Calculating depreciation for a fixed asset can help IT coordinate with the corporate fixed asset system to report correct valuation and book value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/c\_CreatingFixedAssets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/c\_CreatingFixedAssets.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -42,7 +42,7 @@ To sum the residual values of all assets in a fixed asset:
     The ServiceNow platform calculates the**Residual Value**, **Total cost,** and **Total depreciation** based on information in the **Financial** and **Depreciation** sections on the individual asset records.
 
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 

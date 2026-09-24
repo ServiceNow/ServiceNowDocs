@@ -2,7 +2,7 @@
 title: Email
 description: The email variable creates a widget to enter and select an email address.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/email.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -20,7 +20,7 @@ The variable accepts only valid email expressions containing @ and domain inform
 
 \[Omitted image "Email.png"\] Alt text: An email variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 

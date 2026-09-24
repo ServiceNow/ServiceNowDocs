@@ -2,7 +2,7 @@
 title: Request Help form
 description: Field descriptions for the Universal Request Help form in the Supplier Collaboration Portal, which suppliers use to report an inquiry-related issue or request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/ur-request-help-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/ur-request-help-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -62,7 +62,7 @@ Add attachments
 Attachments related to the request or issue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

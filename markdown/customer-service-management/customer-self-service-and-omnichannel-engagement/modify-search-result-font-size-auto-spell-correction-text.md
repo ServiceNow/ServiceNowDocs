@@ -2,7 +2,7 @@
 title: Default font sizes for search result text in Engagement Messenger
 description: Define normal and genius search result font sizes to change text appearance in Engagement Messenger on different devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/modify-search-result-font-size-auto-spell-correction-text.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/modify-search-result-font-size-auto-spell-correction-text.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

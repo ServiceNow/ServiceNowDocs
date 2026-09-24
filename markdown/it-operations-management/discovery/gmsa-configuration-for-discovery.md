@@ -2,7 +2,7 @@
 title: gMSA configuration for Discovery
 description: Group managed service accounts \(gMSAs\) are managed domain accounts that you use to help secure services. gMSAs can be used for credential-less Discovery.Use Group Managed Service Accounts \(gMSA\) to securely run MID Servers and perform Windows discovery without storing passwords locally. This configuration improves security and simplifies credential management by leveraging Active Directory for automatic password rotation and centralized control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/gmsa-configuration-for-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/gmsa-configuration-for-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -26,7 +26,7 @@ After you configure Discovery to use gMSA, password management for that account 
 -   The gMSA user doesn't need to be member of a domain admin group.
 -   The gMSA user used as the MID Server service account doesn't need to be on the local admin group of the MID Server.
 
-**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 
 ## Configure gMSA for Discovery
 

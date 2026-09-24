@@ -2,7 +2,7 @@
 title: Configure Risk Management
 description: Administrators in the global domain can set properties to determine how the system defines the Risk Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/t\_ConfigureRisk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/t\_ConfigureRisk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -28,15 +28,15 @@ Role required: sn\_risk.admin
 
 2.  Fill in the fields on the Risk Management Properties form.
 
-    See [Properties installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_PropInstallWRisk.md) for property descriptions.
+    See [Properties installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/r_PropInstallWRisk.md) for property descriptions.
 
 3.  Click **Save**.
 
 
-**Parent Topic:**[Risk Management detailed setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/setup-risk-management.md)
+**Parent Topic:**[Risk Management detailed setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/setup-risk-management.md)
 
 **Related topics**  
 
 
-[Properties installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_PropInstallWRisk.md)
+[Properties installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/r_PropInstallWRisk.md)
 

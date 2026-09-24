@@ -2,7 +2,7 @@
 title: Email Notification API - ServiceNow Fluent
 description: The Email Notification API defines notifications \[sysevent\_email\_action\] that send automated emails based on database operations, custom events, or manual triggers.Create an email notification \[sysevent\_email\_action\] specifying when to send it, who receives it, what it contains, and if it can be delivered in an email digest.Configure the conditions that must be met for the notification to be sent.Configure the contents of an email notification.Configure the contents of an email digest that summarizes the activity for a selected notification and its target records during a specified time interval.Configure who receives an email notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/fluent-email-notification-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-sdk/fluent-email-notification-api.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -21,12 +21,12 @@ The Email Notification API defines notifications \[sysevent\_email\_action\] tha
 
 For general information about email notifications, see [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md)
 
 ## EmailNotification object
 
@@ -56,7 +56,7 @@ Reference or String
 
 </td><td>
 
-Required. The variable identifier or name of a table to which the notification applies. To define a table, use the [Table API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/table-api-now-ts.md).**Note:** Don’t select the Task \[task\] table, which is for extending other tables. Notifications that run on the Task table directly aren’t supported.
+Required. The variable identifier or name of a table to which the notification applies. To define a table, use the [Table API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/table-api-now-ts.md).**Note:** Don’t select the Task \[task\] table, which is for extending other tables. Notifications that run on the Task table directly aren’t supported.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Object
 
 </td><td>
 
-Required. The conditions that trigger the notification. For more information, see [triggerConditions object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-email-notification-api.md).
+Required. The conditions that trigger the notification. For more information, see [triggerConditions object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-email-notification-api.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Reference or String
 
 </td><td>
 
-The variable identifier or name of a notification category for grouping notifications. To define a notification category, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).Default: The default email category \(c97d83137f4432005f58108c3ffa917a\)
+The variable identifier or name of a notification category for grouping notifications. To define a notification category, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/record-api-now-ts.md).Default: The default email category \(c97d83137f4432005f58108c3ffa917a\)
 
 </td></tr><tr><td>
 
@@ -169,7 +169,7 @@ Object
 
 </td><td>
 
-The email content and formatting. For more information, see [emailContent object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-email-notification-api.md).
+The email content and formatting. For more information, see [emailContent object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-email-notification-api.md).
 
 </td></tr><tr><td>
 
@@ -181,7 +181,7 @@ Object
 
 </td><td>
 
-The email recipients. For more information, see [recipientDetails object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-email-notification-api.md).
+The email recipients. For more information, see [recipientDetails object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-email-notification-api.md).
 
 </td></tr><tr><td>
 
@@ -193,7 +193,7 @@ Object
 
 </td><td>
 
-The email digest content and formatting. For more information, see [digest object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-email-notification-api.md).
+The email digest content and formatting. For more information, see [digest object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/fluent-email-notification-api.md).
 
 </td></tr><tr><td>
 
@@ -386,7 +386,7 @@ Reference or String
 
 </td><td>
 
-The variable identifier or name of the table to which the notification item refers. To define a table, use the [Table API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/table-api-now-ts.md).
+The variable identifier or name of the table to which the notification item refers. To define a table, use the [Table API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/table-api-now-ts.md).
 
 </td></tr><tr><td>
 
@@ -470,7 +470,7 @@ Reference or String
 
 </td><td>
 
-The variable identifier or sys\_id of an email template \[sysevent\_email\_template\]. To define an email template, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).You can only specify an email template that meets one of the following conditions:
+The variable identifier or sys\_id of an email template \[sysevent\_email\_template\]. To define an email template, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/record-api-now-ts.md).You can only specify an email template that meets one of the following conditions:
 
 -   The template has the same scope and table as the notification.
 -   The template has the same scope but has no specified table.
@@ -486,7 +486,7 @@ Reference or String
 
 </td><td>
 
-The variable identifier or sys\_id of an email style \[sys\_email\_style\]. To define an email style, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
+The variable identifier or sys\_id of an email style \[sys\_email\_style\]. To define an email style, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/record-api-now-ts.md).
 
 </td></tr><tr><td>
 
@@ -597,7 +597,7 @@ Array
 
 </td><td>
 
-A list of variable identifiers or sys\_ids of push messages \[sys\_push\_notif\_msg\] to associate with the notification. To define a push notification, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).**Note:** The push message and notification must be for the same table.
+A list of variable identifiers or sys\_ids of push messages \[sys\_push\_notif\_msg\] to associate with the notification. To define a push notification, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/record-api-now-ts.md).**Note:** The push message and notification must be for the same table.
 
 </td></tr><tr><td>
 
@@ -742,7 +742,7 @@ Reference or String
 
 </td><td>
 
-The variable identifier or sys\_id of a digest interval \[sys\_email\_digest\_interval\] to use as the default time interval for digest delivery. To define a digest interval, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
+The variable identifier or sys\_id of a digest interval \[sys\_email\_digest\_interval\] to use as the default time interval for digest delivery. To define a digest interval, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/record-api-now-ts.md).
 
 </td></tr><tr><td>
 
@@ -790,7 +790,7 @@ String
 
 </td><td>
 
-The variable identifier or sys\_id of an email template \[sysevent\_email\_template\]. To define an email template, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
+The variable identifier or sys\_id of an email template \[sysevent\_email\_template\]. To define an email template, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/record-api-now-ts.md).
 
 </td></tr><tr><td>
 
@@ -888,7 +888,7 @@ Array
 
 </td><td>
 
-A list of variable identifiers or sys\_ids of users \[sys\_user\] or a list of email addresses to receive the notification. To define a user, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
+A list of variable identifiers or sys\_ids of users \[sys\_user\] or a list of email addresses to receive the notification. To define a user, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/record-api-now-ts.md).
 
 </td></tr><tr><td>
 
@@ -912,7 +912,7 @@ Array
 
 </td><td>
 
-A list of variable identifiers or sys\_ids of user groups \[sys\_user\_group\] to receive the notification. To define a user group, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).**Note:** Group members receive individual notifications only if **Include members** is selected in the group record.
+A list of variable identifiers or sys\_ids of user groups \[sys\_user\_group\] to receive the notification. To define a user group, use the [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/record-api-now-ts.md).**Note:** Group members receive individual notifications only if **Include members** is selected in the group record.
 
 </td></tr><tr><td>
 

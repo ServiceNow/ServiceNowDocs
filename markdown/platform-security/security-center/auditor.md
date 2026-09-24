@@ -2,7 +2,7 @@
 title: Security Center Scan Suites
 description: Use the Auditor suite to SecureCheck to detect misconfiguration that can impact the security posture of your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/auditor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/auditor.html
 release: australia
 product: Security Center
 classification: security-center
@@ -213,7 +213,7 @@ Review fields with HTML Sanitization inactive
 
 </td><td>
 
-Identifies HTML fields where [HTML Sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HTMLSanitizer.md) is inactive.
+Identifies HTML fields where [HTML Sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_HTMLSanitizer.md) is inactive.
 
  HTML sanitization removes or replaces potentially harmful elements and attributes within HTML code. Review HTML fields where sanitization is inactive to confirm whether this configuration is necessary.
 
@@ -508,5 +508,5 @@ Identifies new Security Controls that have been introduced, but could impact to 
 Resolution Recommended
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-suites.md)
+</table>**Parent Topic:**[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sec-center-suites.md)
 

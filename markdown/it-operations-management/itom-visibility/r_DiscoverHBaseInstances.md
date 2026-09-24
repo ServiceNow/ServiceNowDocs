@@ -2,7 +2,7 @@
 title: Apache HBase instance discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of HBase on a UNIX server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DiscoverHBaseInstances.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r\_DiscoverHBaseInstances.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -30,5 +30,5 @@ In the following table, the `HBase Instance@*hostname*` source may contain the i
 |HBase Home|cmdb\_ci\_db\_hbase\_instance|hbase\_home|running process|
 |ZooKeeper Quorum|cmdb\_ci\_db\_hbase\_instance|zookeeper|hbase-site.xml|
 
-**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Computers.md)
 

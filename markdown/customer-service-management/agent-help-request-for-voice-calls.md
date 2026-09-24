@@ -2,7 +2,7 @@
 title: Agent help request for voice calls
 description: Agents can request supervisor assistance during active customer calls by submitting help requests with context and reason. They receive real-time notifications when supervisors coach or barge in to help them resolve customer issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-help-request-for-voice-calls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/agent-help-request-for-voice-calls.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

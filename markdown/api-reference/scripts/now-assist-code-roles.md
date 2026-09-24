@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Code roles
 description: Understand the roles needed to use ServiceNow Otto for Code. These roles are created when ServiceNow Otto for Creator is installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/now-assist-code-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/now-assist-code-roles.html
 release: australia
 product: Scripts
 classification: scripts
@@ -39,5 +39,5 @@ Manage the preferences and configurations for ServiceNow Otto for Code.
     None
 
 
-**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-reference.md)
+**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/now-assist-code-reference.md)
 

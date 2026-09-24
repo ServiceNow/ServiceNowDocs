@@ -2,7 +2,7 @@
 title: Invite a member to access the Supplier Collaboration Portal
 description: Invite supplier contacts to access the Supplier Collaboration Portal so that they can raise requests and start working on their assigned tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/invite-member-supp-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/invite-member-supp-portal.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -21,9 +21,9 @@ Invite supplier contacts to access the Supplier Collaboration Portal so that the
 
 Before performing this task, ensure that you do the following:
 
--   Configure self-registration for external users. For more information, see [Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md).
--   Map the external user registration configuration to the Supplier Collaboration Portal. For more information, see [Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md).
--   Configure the **sn\_supplier.external\_registration\_profile\_id** system property to ensure that registration emails are sent to external users. For more information, see [Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md).
+-   Configure self-registration for external users. For more information, see [Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md).
+-   Map the external user registration configuration to the Supplier Collaboration Portal. For more information, see [Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md).
+-   Configure the **sn\_supplier.external\_registration\_profile\_id** system property to ensure that registration emails are sent to external users. For more information, see [Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md).
 
 Role required: sn\_slm.contact
 
@@ -58,7 +58,7 @@ The **Invite** option in the Contacts widget is available only to the primary su
 
 ## What to do next
 
-The invited member receives an email with the registration link to the Supplier Collaboration Portal. For more information, see [Register to the Supplier Collaboration Portal as an invited member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/register-invited-member-supp-central.md).
+The invited member receives an email with the registration link to the Supplier Collaboration Portal. For more information, see [Register to the Supplier Collaboration Portal as an invited member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/register-invited-member-supp-central.md).
 
 **Note:**
 
@@ -67,7 +67,7 @@ After Xanadu December 2024 release, you can also invite contacts from other emai
 **Related topics**  
 
 
-[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
+[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 
-[Register to the Supplier Collaboration Portal as an invited member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/register-invited-member-supp-central.md)
+[Register to the Supplier Collaboration Portal as an invited member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/register-invited-member-supp-central.md)
 

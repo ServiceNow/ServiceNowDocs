@@ -2,7 +2,7 @@
 title: Agent auto assignment using priority assignment
 description: The priority assignment feature enables you to configure auto assignment so that agents can be assigned to perform tasks or provide services on a continual, 24x7x365 basis. Priority assignment is triggered when the priority of a task matches the priority set in the application configuration page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_AgentAutoAssignUsePrioAssign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_AgentAutoAssignUsePrioAssign.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ If the priority of a task matches a priority selected in the **Select priorities
 
 **Note:** If no agent is located in the same time zone as the task, priority assignment fails.
 
-**Parent Topic:**[Agent auto assignment using time-based criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_AgAtAssgnTime.md)
+**Parent Topic:**[Agent auto assignment using time-based criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_AgAtAssgnTime.md)
 

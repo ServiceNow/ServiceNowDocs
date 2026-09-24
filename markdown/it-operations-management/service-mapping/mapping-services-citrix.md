@@ -2,7 +2,7 @@
 title: Mapping Citrix XenApp and Presentation Server services
 description: Service Mapping can discover application services containing Citrix XenApp, Presentation Server, and Citrix Usage Collector.Map an application service containing Citrix XenApps, Presentation Servers, and Citrix Usage Collectors and verify that Service Mapping discovered all Citrix components correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/mapping-services-citrix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/mapping-services-citrix.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -147,7 +147,7 @@ Top-down
 Citrix Application Icon Path
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
+</table>**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 
 ## Map Citrix XenApp and Presentation Server services
 

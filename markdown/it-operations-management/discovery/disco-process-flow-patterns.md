@@ -2,7 +2,7 @@
 title: Horizontal discovery process flow with patterns
 description: Horizontal discovery with patterns has four phases, just as horizontal discovery with probes does. However, for the last two phases, Discovery triggers operations from a pattern, rather than additional sets of probes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/disco-process-flow-patterns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/disco-process-flow-patterns.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ Horizontal discovery with patterns has four phases, just as horizontal discovery
 
 ## Scanning phase
 
-1.  Discovery first takes the Shazzam probe \(and then [port probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PortProbes.md)\) and places it in a request in the External Communication Channel \(ECC\) queue.
+1.  Discovery first takes the Shazzam probe \(and then [port probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_PortProbes.md)\) and places it in a request in the External Communication Channel \(ECC\) queue.
 2.  The MID Server checks the ECC queue, retrieves the discovery request, and runs the probes against the host and discovers open ports.
 3.  The port probes scan common ports using several protocols, such as WMI, HTTP, SSH, and SNMP.
 4.  If one or more ports respond, the Shazzam probe sends information about the port back to the ECC queue through the MID Server.
@@ -36,13 +36,13 @@ Horizontal discovery with patterns has four phases, just as horizontal discovery
 
 Patterns unify the Identification and Exploration phases of discovery.
 
-1.  Discovery determines which classifier to use based on the class of the CI and the criteria specified in all CI classifier records. The classifier specifies the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md), which in turn specifies which pattern to launch. The Horizontal pattern probe also contains a sensor which does the actual work of updating the CMDB.
+1.  Discovery determines which classifier to use based on the class of the CI and the criteria specified in all CI classifier records. The classifier specifies the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r-HorizontalPatternProbe.md), which in turn specifies which pattern to launch. The Horizontal pattern probe also contains a sensor which does the actual work of updating the CMDB.
 
     **Note:** Patterns need applicative credentials to find applications running on host machines. Make sure you have applicative credentials configured along with the credentials required to access the host machine itself.
 
 2.  The operations in the pattern specify the actions that Discovery needs to take for both the identification and exploration phases. Discovery knows which [identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_IdentificationRules.md) to use based on the CI type in the pattern, and Discovery makes inserts or updates to the CMDB based on these rules. Only the Horizontal Discovery Sensor is used. Other probes and sensors are not used.
 
-**Parent Topic:**[Exploring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_GetStartedWithDiscovery.md)
+**Parent Topic:**[Exploring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_GetStartedWithDiscovery.md)
 
 **Related topics**  
 

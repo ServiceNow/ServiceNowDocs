@@ -2,7 +2,7 @@
 title: Sidebar for supplier cases in the Source-to-Pay Workspace
 description: Sidebar enables stakeholders to collaborate with others by getting into discussions when working on supplier cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/sidebar-smw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/sidebar-smw.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -24,5 +24,5 @@ To learn more about how to use Sidebar, see [Using Sidebar](https://raw.githubus
 
 For information on activity stream in Sidebar is, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/activity-stream-sidebar.md).
 
-**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
+**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

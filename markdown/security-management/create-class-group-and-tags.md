@@ -2,7 +2,7 @@
 title: Set up security tag groups and tags
 description: You can assign tags to security incidents, response tasks, vulnerable items, observables, IoCs, and security cases to create metadata on the responding record and define who should have access to specific types of security content. The tags can be added to security groups to organize them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/create-class-group-and-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/create-class-group-and-tags.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -111,10 +111,10 @@ Brief description of this group.
     **Note:** You can also create tags by selecting **New** button on the list view. The procedure is the same.
 
 
--   **[Create security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-security-tag-rules.md)**  
+-   **[Create security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-security-tag-rules.md)**  
 Security tag rules provide filtering for security tag access.
--   **[Import security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/import-security-tag-rules.md)**  
+-   **[Import security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/import-security-tag-rules.md)**  
 You can import security tag rules from other tables in your deployment.
 
-**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-ops-common-functionality.md)
 

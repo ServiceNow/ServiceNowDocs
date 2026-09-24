@@ -2,7 +2,7 @@
 title: Improving CMDB data quality for Data Foundations
 description: The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Data Foundations suggests targeted actions to address Data Foundations data quality issues and improve the overall quality of your Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

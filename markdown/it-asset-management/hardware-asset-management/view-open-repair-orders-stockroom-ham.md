@@ -2,7 +2,7 @@
 title: View open repair orders for your stockroom in the Hardware Asset Workspace
 description: View open repair orders for your stockroom to get the details of the repair order lines and repair tasks that need action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-open-repair-orders-stockroom-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/view-open-repair-orders-stockroom-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -37,7 +37,7 @@ Role required: asset
 
 The list of open repair orders for the stockroom is displayed.
 
-**Parent Topic:**[Fulfill repair orders in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfill-ham-repair-orders-ws.md)
+**Parent Topic:**[Fulfill repair orders in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/fulfill-ham-repair-orders-ws.md)
 
 **Related topics**  
 

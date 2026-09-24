@@ -2,7 +2,7 @@
 title: Visualize recovery tasks on Gantt chart
 description: Use the Gantt chart component on recovery task pages to provide a visual timeline view of tasks associated with the current plan. Customize the view by adding, removing, or reordering columns as needed. The chart is implemented as a UI page to enable customizations and to support multiple versions without requiring changes to existing page behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-gantt-chart-for-reco-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-gantt-chart-for-reco-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-04-06"
@@ -84,5 +84,5 @@ The Gantt chart bars are drawn from the plan's **Planned start** date and each t
     The chart updates to reflect the new task order.
 
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

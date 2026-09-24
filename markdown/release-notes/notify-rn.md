@@ -2,7 +2,7 @@
 title: Notify release notes
 description: The ServiceNow Notify application adds support for SMS and voice channels on the ServiceNow AI Platform to communicate with customers. Notify was enhanced and updated in the Australia release.The ServiceNow Notify application adds support for SMS and voice channels on the ServiceNow AI Platform to communicate with customers. Notify was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/notify-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/notify-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ See [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austral
     Notify is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-capabilities-rn-landing.md)
 
 ## Australia
 

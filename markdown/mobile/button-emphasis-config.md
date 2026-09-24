@@ -2,7 +2,7 @@
 title: Configure button emphasis according to function location
 description: Configure button emphasis in different locations within your mobile app to help users identify the type of functions they can activate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/button-emphasis-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/button-emphasis-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,11 +18,11 @@ Configure button emphasis in different locations within your mobile app to help 
 
 Role required: admin
 
-**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
+**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/explore-ne-theming.md).
 
 ## About this task
 
-Button emphasis configuration is performed in web-based UI. For more information, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md). Starting from San Diego additional colors are included in the release, and button emphasis is supported in additional locations. These colors are configured in the web-based UI for the listed screen locations.
+Button emphasis configuration is performed in web-based UI. For more information, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-button-instances.md). Starting from San Diego additional colors are included in the release, and button emphasis is supported in additional locations. These colors are configured in the web-based UI for the listed screen locations.
 
 ## Procedure
 

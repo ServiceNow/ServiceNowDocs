@@ -2,7 +2,7 @@
 title: Auto-generate the manifest file and upload it into Microsoft Teams for GCC-H or DoD
 description: After you complete integrating the bot on the ServiceNow instance, configure the manifest file, auto-generate it, and upload the package file to Microsoft Teams to start conversing with the Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/upload-app-package-msteams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/upload-app-package-msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -30,7 +30,7 @@ You need permission to upload custom apps in Microsoft Teams. To learn how to en
 
 ## Procedure
 
-1.  To configure the bot, auto-generate the manifest file, and download the manifest configured file in your ServiceNow instance, see [Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md).
+1.  To configure the bot, auto-generate the manifest file, and download the manifest configured file in your ServiceNow instance, see [Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md).
 
 2.  To publish the manifest file, from Microsoft Teams, perform the following steps:
 
@@ -44,7 +44,7 @@ You need permission to upload custom apps in Microsoft Teams. To learn how to en
 
         You have successfully published the bot on Microsoft Teams. It should now be available for your organization and you can start interacting with the bot.
 
-3.  **Note:** If you have enabled pre-linking by turning on **Automatically Link ServiceNow user profiles** on the Messaging App Integration UI page, users are pre-linked without typing hi. For more information about pre-linking your accounts, see [Installing Microsoft Teams for all Virtual Agent users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prelink-va-users-integ-msteams.md). If you have turned off the check box, use the following manual account linking process described.
+3.  **Note:** If you have enabled pre-linking by turning on **Automatically Link ServiceNow user profiles** on the Messaging App Integration UI page, users are pre-linked without typing hi. For more information about pre-linking your accounts, see [Installing Microsoft Teams for all Virtual Agent users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/prelink-va-users-integ-msteams.md). If you have turned off the check box, use the following manual account linking process described.
 
     Type `hi` to start interacting with the bot.
 
@@ -64,12 +64,12 @@ You need permission to upload custom apps in Microsoft Teams. To learn how to en
 
 4.  Configure the bot on your ServiceNow instance.
 
-    For more information, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
+    For more information, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
 
 ## What to do next
 
 You have successfully integrated Virtual Agent with Microsoft Teams using the self-configured method. If you are interested in getting additional ITSM and HR capabilities in Microsoft Teams, see [these instructions for using a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/download-manifest-file-mt.md) with ServiceNow for Microsoft Teams.
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md)
+**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md)
 

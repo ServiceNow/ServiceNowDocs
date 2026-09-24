@@ -2,7 +2,7 @@
 title: Create a knowledge article from an incident
 description: When you are ready to close an incident, you can create a knowledge article so the next time the issue comes up the resolution is easy to find.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/create-knowledge-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/create-knowledge-incident.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -18,7 +18,7 @@ When you are ready to close an incident, you can create a knowledge article so t
 
 ## Before you begin
 
-KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\) must be activated. When activated, **Incident Create Knowledge** business rule does not run. For more information, see [Activate KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-kcs-integration-for-im.md).
+KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\) must be activated. When activated, **Incident Create Knowledge** business rule does not run. For more information, see [Activate KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/activate-kcs-integration-for-im.md).
 
 Role required: itil, sn\_incident\_write, or admin
 

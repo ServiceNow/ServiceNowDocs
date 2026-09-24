@@ -2,7 +2,7 @@
 title: Content Understanding release notes
 description: The ServiceNow Content Understanding application replaces Now Assist in Document Intelligence. It brings multimodal generative AI to document and image processing, extracting key data, answering natural-language questions, and generating summaries from unstructured text, tables, and images.The ServiceNow Content Understanding application replaces Now Assist in Document Intelligence. It brings multimodal generative AI to document and image processing, extracting key data, answering natural-language questions, and generating summaries from unstructured text, tables, and images.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/content-understanding-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/content-understanding-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-07-28"
@@ -28,7 +28,7 @@ See [Content Understanding](https://raw.githubusercontent.com/ServiceNow/Service
 
 **Important:** Content Understanding is available in the ServiceNow Store.
 
-**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/intelligent-experiences-rn-landing.md)
+**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/intelligent-experiences-rn-landing.md)
 
 ## Australia
 

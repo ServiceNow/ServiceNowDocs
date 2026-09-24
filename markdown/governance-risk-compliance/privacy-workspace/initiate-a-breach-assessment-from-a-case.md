@@ -2,7 +2,7 @@
 title: Initiate a breach assessment from a case
 description: Initiate a breach assessment from a privacy case to capture the details of breach, the type of data that is impacted, and so on. These details help the privacy analyst to identify if the breach must be notified to a regulator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/initiate-a-breach-assessment-from-a-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/initiate-a-breach-assessment-from-a-case.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -52,7 +52,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 ## What to do next
 
-Initiate new breach assessments with a revised breach assessment template. See [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
+Initiate new breach assessments with a revised breach assessment template. See [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
-**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

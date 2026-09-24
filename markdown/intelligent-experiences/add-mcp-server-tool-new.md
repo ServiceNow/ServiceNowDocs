@@ -2,7 +2,7 @@
 title: Add an MCP server tool to an AI agent
 description: Add an MCP tool to an AI agent in the AI Agent Studio so that your users can access the MCP server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-mcp-server-tool-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-mcp-server-tool-new.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,7 +73,7 @@ Role required: sn\_aia.admin
 
 ## What to do next
 
-You can [test your AI agent on a record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-asset-new.md) to see an example execution. You can also [create an automated agentic evaluation to test the AI agent over repeated interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/launch-aia-eval.md). Automated evaluations can recommend specific optimizations if the LLM judges find underlying patterns for low success rates.
+You can [test your AI agent on a record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-asset-new.md) to see an example execution. You can also [create an automated agentic evaluation to test the AI agent over repeated interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/launch-aia-eval.md). Automated evaluations can recommend specific optimizations if the LLM judges find underlying patterns for low success rates.
 
 Activate your AI agent and make it ready for use by selecting **Activate**.
 

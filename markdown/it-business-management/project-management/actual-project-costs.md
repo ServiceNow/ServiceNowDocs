@@ -2,7 +2,7 @@
 title: Actual project costs
 description: Actual project costs come after you create expense lines for cost plans or after human resources use time cards to create expense lines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/actual-project-costs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/actual-project-costs.html
 release: australia
 product: Project Management
 classification: project-management
@@ -16,7 +16,7 @@ breadcrumb: [Basics of Project Management, Exploring Project Management, Project
 
 Actual project costs come after you create expense lines for cost plans or after human resources use time cards to create expense lines.
 
-**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
@@ -45,5 +45,5 @@ Actual project costs come after you create expense lines for cost plans or after
 
 [Project scheduling in Project Management]()
 
-[View actual project costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ViewActualProjectCosts.md)
+[View actual project costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ViewActualProjectCosts.md)
 

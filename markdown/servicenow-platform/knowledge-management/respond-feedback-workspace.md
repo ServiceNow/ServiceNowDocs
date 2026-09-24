@@ -2,7 +2,7 @@
 title: Work on a feedback task in Agent Workspace
 description: Start working on a feedback task, request clarifications, and resolve or close the feedback task in Agent Workspace. You can view all feedback tasks assigned to you or your ownership group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/respond-feedback-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/respond-feedback-workspace.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -95,23 +95,23 @@ Feedback for a knowledge article from other sources.**Note:** When you upgrade y
 
 5.  Work on the feedback task.
 
-<table id="choicetable_p3v_5sb_vjb"><thead><tr><th align="left" id="d602401e191">
+<table id="choicetable_p3v_5sb_vjb"><thead><tr><th align="left" id="d603063e191">
 
 To
 
-</th><th align="left" id="d602401e194">
+</th><th align="left" id="d603063e194">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d602401e200">
+</th></tr></thead><tbody><tr><td id="d603063e200">
 
 **Start working on the feedback task**
 
 </td><td>
 
-From the State list, select **Work in progress**. You can save the feedback task, edit the knowledge article for which the feedback task was added, or create another knowledge article from a feedback task if the information in the existing article is irrelevant or obsolete. For more information, see [Create a knowledge article from a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-article-feedback-agent.md) and [Edit a knowledge article from a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-feedback-agent.md).
+From the State list, select **Work in progress**. You can save the feedback task, edit the knowledge article for which the feedback task was added, or create another knowledge article from a feedback task if the information in the existing article is irrelevant or obsolete. For more information, see [Create a knowledge article from a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-article-feedback-agent.md) and [Edit a knowledge article from a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-feedback-agent.md).
 
-</td></tr><tr><td id="d602401e229">
+</td></tr><tr><td id="d603063e229">
 
 **Request clarification from the feedback submitter**
 
@@ -121,7 +121,7 @@ From the State list, select **Work in progress**. You can save the feedback task
 2.  In the **Additional comments** field, enter the information you need from the submitter of the feedback task.
  When you save the feedback task form, an email notification is sent to the feedback task submitter.
 
-</td></tr><tr><td id="d602401e256">
+</td></tr><tr><td id="d603063e256">
 
 **Resolve the feedback task**
 
@@ -134,7 +134,7 @@ From the State list, select **Work in progress**. You can save the feedback task
 
  **Note:** If the submitter accepts the feedback resolution, the state for the feedback task is automatically set to **Closed**.
 
-</td></tr><tr><td id="d602401e292">
+</td></tr><tr><td id="d603063e292">
 
 **Close the feedback task without the submitter having to accept the feedback resolution**
 
@@ -157,5 +157,5 @@ The feedback task is updated.
 **Related topics**  
 
 
-[View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-agent.md)
+[View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/view-article-agent.md)
 

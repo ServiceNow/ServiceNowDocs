@@ -2,7 +2,7 @@
 title: Execute recall campaigns faster agentic workflow
 description: Use MCO AI agents agentic workflow to generate the corrective actions and charges for the required repair documents quickly and efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-execute-recall-campaigns-faster-ai-wf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-execute-recall-campaigns-faster-ai-wf.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

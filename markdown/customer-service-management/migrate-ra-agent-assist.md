@@ -2,7 +2,7 @@
 title: Enable AI search in Recommended Actions
 description: As an admin, you can enable the Recommended Actions - AI search on the Front-line case page, CSM default record page, and CSM Interaction page \(for chat, video, walk-up, and email channels\) by setting the hideAgentAssistShowRA UX page property to true.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migrate-ra-agent-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migrate-ra-agent-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ Customers who on-boarded before Yokohama release
 
 Agent Assist is enabled by default with the option to manually migrate to Recommended Actions - AI search.To migrate from Agent Assist to Recommended Actions - AI Search create and set the **hideAgentAssistShowRA** UX page property to `True`.
 
-**Note:** If you already created this property for enabling [Recommended Actions in the chat interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-chat-interaction-record.md), you need not create it again.
+**Note:** If you already created this property for enabling [Recommended Actions in the chat interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-chat-interaction-record.md), you need not create it again.
 
 </td></tr></tbody>
 </table>## Procedure

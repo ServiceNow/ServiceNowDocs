@@ -2,7 +2,7 @@
 title: Explore Digital resilience incident reporting
 description: The Digital resilience incident reporting module in the Operational Resilience Workspace is used to log and report incidents data to the regulators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/dri-module-in-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/dri-module-in-ws.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -96,5 +96,5 @@ The **My tasks** page in the Operational Resilience Workspace displays all the r
 
 ## Roles, Scripts, and Tables used for reporting
 
-For information on the roles, scripts, and tables used in [Roles installed with Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/roles-with-drir.md), see [Digital resilience incident reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/drir-ref.md).
+For information on the roles, scripts, and tables used in [Roles installed with Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/roles-with-drir.md), see [Digital resilience incident reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/drir-ref.md).
 

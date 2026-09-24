@@ -2,7 +2,7 @@
 title: Create assignment groups for Care Team Work Management
 description: Associate assignment groups within your care team units so care team cases and tasks can be fulfilled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-create-assignment-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-create-assignment-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

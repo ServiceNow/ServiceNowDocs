@@ -2,7 +2,7 @@
 title: Inventory number allocation
 description: You can manage IP addresses, telephone number allocations, virtual local area networks \(VLANs\), or link aggregation groups \(LAGs\) by using the inventory number allocation of the Telecommunications Network Inventory application. By using this feature, you can organize, track, and manage the physical and logical numbers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/inventory\_number\_allocation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/inventory\_number\_allocation.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -31,7 +31,7 @@ The number management tool provides your organization with the following benefit
 
 By using the Telecommunications Network Inventory application, you can manage:
 
-1.  IP addresses. For more information, see [IP address management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-management.md).
-2.  Telephone numbers. For more information, see [Telephone allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telephone_number_management.md).
-3.  VLANs and LAGs. For more information, see [Define your inventory numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-inventory-numbers.md).
+1.  IP addresses. For more information, see [IP address management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/ip-address-management.md).
+2.  Telephone numbers. For more information, see [Telephone allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telephone_number_management.md).
+3.  VLANs and LAGs. For more information, see [Define your inventory numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-inventory-numbers.md).
 

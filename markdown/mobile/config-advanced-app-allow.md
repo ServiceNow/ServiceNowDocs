@@ -2,7 +2,7 @@
 title: Configure advanced app allowance with links to permitted apps
 description: Configure a scripted extension point with a list of mobile apps that can log in to the ServiceNow instance. When a user attempts to log in with an unauthorized app, the admin can add a link that redirects the user to an authorized app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-advanced-app-allow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-advanced-app-allow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Only use the advanced app allowance configuration if you must configure a link that redirects end users to a mobile app that is authorized to connect to the instance. Otherwise, you should use the basic app allowance list configuration. For more information, see [Configure a basic allowed mobile app list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-basic-allow-mobile-app-list.md).
+Only use the advanced app allowance configuration if you must configure a link that redirects end users to a mobile app that is authorized to connect to the instance. Otherwise, you should use the basic app allowance list configuration. For more information, see [Configure a basic allowed mobile app list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-basic-allow-mobile-app-list.md).
 
 If both basic and advanced app allowance modes are configured on the same instance, then the system prioritizes the advanced app allowance configuration and always uses it. The advanced app allowance configuration can cause performance issues if the scripted extension point is not written to maximize system performance.
 
@@ -55,7 +55,7 @@ If both basic and advanced app allowance modes are configured on the same instan
         ⋮
         ```
 
-    For an example of a completed script, see [Advanced app allowance example script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/adv-app-allow-sample-script.md).
+    For an example of a completed script, see [Advanced app allowance example script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/adv-app-allow-sample-script.md).
 
 4.  To save the record, select **Update**.
 

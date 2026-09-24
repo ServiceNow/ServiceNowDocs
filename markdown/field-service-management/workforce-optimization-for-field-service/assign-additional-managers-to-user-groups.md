@@ -2,7 +2,7 @@
 title: Assign additional managers to user groups when Workforce Optimization for Field Service is installed
 description: When Workforce Optimization for Field Service is active, you can appoint additional managers for your user groups, ensuring the continuity of work in the absence of a manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/assign-additional-managers-to-user-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/assign-additional-managers-to-user-groups.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -22,7 +22,7 @@ Role required: sn\_wfo.admin
 
 ## About this task
 
-[Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-wfo-fsm.md) must be active to add additional managers to user groups.
+[Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-wfo-fsm.md) must be active to add additional managers to user groups.
 
 ## Procedure
 

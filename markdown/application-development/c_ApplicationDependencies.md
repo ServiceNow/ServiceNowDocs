@@ -2,7 +2,7 @@
 title: Dependencies for custom applications
 description: Every custom application record includes a related list identifying its dependencies on other applications. Dependencies are references from your custom application to functionality provided by other applications or plugins installed on the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationDependencies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_ApplicationDependencies.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-02"
@@ -31,5 +31,5 @@ To remove a dependency, navigate to the application record and locate the Depend
 
 \[Omitted image "app-dependencies.png"\] Alt text: Remove dependencies from the custom app record by accessing the Dependencies related list.
 
-**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-your-first-app.md)
 

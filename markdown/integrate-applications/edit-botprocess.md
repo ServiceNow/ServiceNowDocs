@@ -2,7 +2,7 @@
 title: Edit a bot process in RPA Hub
 description: Edit an existing bot process in RPA Hub to modify a few details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/edit-botprocess.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/edit-botprocess.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Edit an existing bot process in RPA Hub to modify a few details.
 
 ## Before you begin
 
-Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md).
 
 Verify that the life cycle stage of the bot process is **In-maintenance** on the bot process form.
 
@@ -54,10 +54,10 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 7.  In the **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
 
 
-**Parent Topic:**[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md)
+**Parent Topic:**[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md)
 
 **Related topics**  
 
 
-[Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md)
+[Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/select-botprocess.md)
 

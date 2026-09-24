@@ -2,7 +2,7 @@
 title: Deactivate or activate a master data record
 description: Submit a deactivation or activation request for an existing master data record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-deactivate-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-deactivate-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-08-14"
@@ -21,7 +21,7 @@ Submit a deactivation or activation request for an existing master data record.
 -   The record must already exist in the system, either approved from an earlier create request or preloaded from your ERP system.
 -   Only records that have been approved are available for deactivation or activation.
 
-Role required: An MDM Orchestrator requestor role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator requestor role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## Procedure
 
@@ -80,5 +80,5 @@ Role required: An MDM Orchestrator requestor role. \(For more information, see [
 
 The request is sent for approval.
 
-**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-use.md)
 

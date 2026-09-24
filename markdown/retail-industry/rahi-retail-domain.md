@@ -2,7 +2,7 @@
 title: Domain Separation in Retail Core
 description: Domain separation is supported for Retail Core. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-domain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-domain.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 -   For the retail case, the domain column is inherited from the customer service case.
 -   For retail organization, the 'domain\_master' attribute receives information from the Organization Core.
 
-**Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-reference.md)
+**Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-reference.md)
 

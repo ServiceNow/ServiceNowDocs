@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Conversational Spokes
 description: Use ServiceNow Otto for Conversational Spokes application to start utilizing the conversational ability of Integration Hub spoke actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/conv-spokes-na.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/conv-spokes-na.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -46,5 +46,5 @@ After installing the ServiceNow Otto for Conversational Spokes application, you 
 -   See [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md) to learn more about configuring the conversational settings.
 -   See  in [Generative AI skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
-**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/building-integrations-ih.md)
 

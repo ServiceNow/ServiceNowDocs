@@ -2,7 +2,7 @@
 title: Data Encryption in Predictive Intelligence
 description: Learn which types of encryption are supported for training Predictive Intelligence solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intelligence-encryption.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/predictive-intelligence-encryption.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -24,7 +24,7 @@ Learn which types of encryption are supported for training Predictive Intelligen
 |Edge Encryption|No|None.|
 |FDE \(Full Disc Encryption\)|Yes|None.|
 
-**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
+**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
 
 **Related topics**  
 

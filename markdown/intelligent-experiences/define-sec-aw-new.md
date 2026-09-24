@@ -2,7 +2,7 @@
 title: Define access rules for an agentic workflow
 description: Define security controls for an agentic workflow to determine which users can access it and what permissions they have.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-sec-aw-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-sec-aw-new.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -22,7 +22,7 @@ Role required: sn\_aia\_admin
 
 The Access rules section is divided into two parts: **Which users can access this agentic workflow \(ACLs\)** and **Which data this agentic workflow can access**. The former creates an ACL that determines who can discover or invoke the agentic workflow. The latter defines the data that the agentic workflow has access to once it's invoked.
 
-See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for AI agents.
+See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for AI agents.
 
 ## Procedure
 
@@ -66,5 +66,5 @@ You have created an ACL that determines who can discover and access your agentic
 
 ## What to do next
 
-Scroll down to the next section of the guided setup, **Triggers**, to [define specific conditions where the agentic workflow should run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw-new.md). Adding triggers is optional.
+Scroll down to the next section of the guided setup, **Triggers**, to [define specific conditions where the agentic workflow should run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aw-new.md). Adding triggers is optional.
 

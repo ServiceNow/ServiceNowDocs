@@ -2,7 +2,7 @@
 title: Configuring impact analysis dependency updates
 description: The BCM administrators configure the Impact analysis dependency update configuration to schedule automatic BIA dependency updates based on CMDB data and relationships.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/imp-ana-dep-update-config-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/imp-ana-dep-update-config-module.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,10 +36,10 @@ The snapshot records are displayed in the Pending updates record of the BIA from
 
 BIA owners then update the CMDB assets and dependencies manually by selecting the **Update dependencies** UI action displayed in the Dependency assessment of the BIA. The BIA owners or BIA approvers then review the dependency updates and save the changes to the BIA.
 
-For more information on configuring the Impact analysis dependency update configuration record, see [Set up Impact analysis dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-imp-ana-dep-update-module.md).
+For more information on configuring the Impact analysis dependency update configuration record, see [Set up Impact analysis dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-imp-ana-dep-update-module.md).
 
--   **[Set up Impact analysis dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-imp-ana-dep-update-module.md)**  
+-   **[Set up Impact analysis dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-imp-ana-dep-update-module.md)**  
 Configure the Impact analysis dependency update configuration record to configure the BIA record \(for which the dependencies are updated\), its target records, sources, and notification preferences.
 
-**Parent Topic:**[Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/dependency-config-modules.md)
+**Parent Topic:**[Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/dependency-config-modules.md)
 

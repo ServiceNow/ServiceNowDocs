@@ -2,7 +2,7 @@
 title: Create promotion type
 description: As a OEM or manufacturer, create a sales promotion type that is applicable to a specific set of promotions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/create-promotion-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/create-promotion-type.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ Input set
 
 </td><td>
 
-MCO input set. This field contains a set of questionnaires. To create an input set, see [Create promotion questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-input-set.md).
+MCO input set. This field contains a set of questionnaires. To create an input set, see [Create promotion questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-input-set.md).
 
 </td></tr><tr><td>
 

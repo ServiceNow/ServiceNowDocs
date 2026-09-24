@@ -2,7 +2,7 @@
 title: Configure a template question
 description: You can configure template questions when designing quizzes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ConfigureATemplateQuestion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ConfigureATemplateQuestion.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,14 +47,14 @@ Role required: assessment\_admin or admin
 8.  Click the **X** icon to close the template properties dialog box and save your settings.
 
 
-**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateaQuiz.md)
 
-**Parent Topic:**[Edit a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_EditaQuiz.md)
+**Parent Topic:**[Edit a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_EditaQuiz.md)
 
 **Related topics**  
 
 
-[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
+[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizDesigner.md)
 
-[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateaQuiz.md)
 

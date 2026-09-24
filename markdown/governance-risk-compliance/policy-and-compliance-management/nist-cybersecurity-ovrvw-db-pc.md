@@ -2,7 +2,7 @@
 title: NIST Cybersecurity Framework Overview dashboard
 description: NIST Cybersecurity Framework Overview dashboard contains a variety of reports displayed on different dashboards, available within each of the sections in the NIST CSF process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/nist-cybersecurity-ovrvw-db-pc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/nist-cybersecurity-ovrvw-db-pc.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -20,7 +20,7 @@ NIST Cybersecurity Framework Overview dashboard contains a variety of reports di
 
 If you are on Vancouver or Washington DC, you can view the dashboard in the Next Experience UI Framework.
 
-To view the dashboard in classic UI, see [NIST CSF Use Case Accelerator dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/csf-dashboard-reports.md).
+To view the dashboard in classic UI, see [NIST CSF Use Case Accelerator dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/csf-dashboard-reports.md).
 
 \[Omitted image "nist-csf-pa-db-pc.png"\] Alt text: NIST Cybersecurity Overview dashbaord in the Next Experience UI Framework.
 
@@ -44,5 +44,5 @@ To open the dashboard, navigate to **All** &gt; **NIST CSF** &gt; **Analytics Ov
 |Desired Cybersecurity activities|Bar chart|Provides an overview of desired cybersecurity activities by entity class, entities, or cybersecurity functions.|
 |Gaps Analysis Summary|List|Provides a summary of gaps, non-compliant controls, risks, issues failed indicators, and action plans for targets grouped by cybersecurity, cybersecurity functions, or the targets themselves.|
 
-**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
+**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

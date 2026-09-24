@@ -2,7 +2,7 @@
 title: Configure the standard ticket page for cases
 description: You can configure the standard ticket page for customer service cases from where users can view the details of a case in the Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_std\_ticket\_page\_csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_std\_ticket\_page\_csm.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,11 +2,11 @@
 title: Combined Policy and Compliance Management release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Policy and Compliance Management from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-policyandcompliancemanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-policyandcompliancemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 13
+last_updated: "2026-09-24"
+reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
 
@@ -102,7 +102,44 @@ Zurich
 
 </td><td>
 
--   **[GRC Approval Configurator](https://www.servicenow.com/docs/access?context=grc-approval-configurator-for-policy-extension-and-exception&family=zurich&ft:locale=en-US)**
+-   **[Association of citations to controls](https://www.servicenow.com/docs/access?context=citation-to-control-mapping&family=zurich&ft:locale=en-US)**
+
+In many compliance frameworks, a single control objective may be referenced by multiple citations across different standards, regulations, or policy requirements. Without proper association management, organizations risk duplicating controls, misinterpreting coverage, or inaccurately reporting compliance. The association of citations to controls feature addresses this challenge by enabling users to associate controls with citations directly. When this feature is enabled, compliance scores update dynamically based on the status of directly associated active controls.
+
+
+ -   **[Enhancements to control objectives rationalization process](https://www.servicenow.com/docs/access?context=take-actions-on-the-recommendations-for-similar-control-objectives&family=zurich&ft:locale=en-US)**
+
+The following enhancements have been introduced to the rationalization process of control objectives:
+
+    -   Rationalization process is now automatically created when selecting the Rationalize button in the control objective page. 
+    -   The recommendation workflow has been simplified into a two-step process: Step 1 identifies duplicates by accepting or dismissing recommendations; Step 2 finalizes by retaining one recommendation or creating a new common control objective.
+    -   Approvals for the rationalization process are skipped for owners who are reviewers, and levels where all reviewers are owners are automatically approved. 
+    -   Owners and approvers can add comments and justifications directly on recommendation cards and reply to existing comments. 
+    -   The user interface has been updated with better navigation, quick summaries, visual improvements, and clear error messages.
+
+ -   **[Citation impact analysis and updates with Now Assist for IRM](https://www.servicenow.com/docs/access?context=control-objective-change-agent&family=zurich&ft:locale=en-US)**
+
+When a citation’s description or supplemental guidance is updated, Now Assist identifies related control objectives that might be affected. It reviews these control objectives to determine whether the descriptions or guidance need changes and provides suggested updates. Users can review, provide feedback, and approve these updates directly in the Now Assist panel, ensuring that citation changes are reflected in associated control objectives.
+
+
+ -   **[Enhancements to control objectives and controls](https://www.servicenow.com/docs/access?context=co-overview-pc-ws&family=zurich&ft:locale=en-US)**
+
+The following enhancements have been introduced to control objectives and controls:
+
+    -   The Control objective requirements option provides a granular layer under a control objective. When each control objective has multiple statements, each statement becomes a control objective requirement.
+    -   The Create control requirements option generates control requirements automatically for every control generated under an entity type.
+    -   The Attestation at control requirement level enables attestation at a granular level for individual control requirements within a control.
+
+ -   **[Enhancements to policy exception and extension requests](https://www.servicenow.com/docs/access?context=review-policy-ext-and-extension-req-ws&family=zurich&ft:locale=en-US)**
+
+The following enhancements have been introduced:
+
+    -   For policy exception and extension requests, approvers can now view key details, such as justification, reason, and validity period, within a pop-up before approving or rejecting a policy exception or policy exception extension.
+    -   For manual indicators, if the associated control is marked as exempt, no indicator task is generated.
+    -   When a policy exception is in the Analyze state and the Awaiting Requested Information sub-state, the interface now includes a Send Information button that allows the requester to provide additional details or clarifications requested by the approver.
+    -   Previously, an issue-based exception required a linked policy or control objective for additional approvals. Now, it requires any one of the following: a linked policy, control objective, or control. The control must be linked to the policy exception itself, not just to the issue.
+
+ -   **[GRC Approval Configurator](https://www.servicenow.com/docs/access?context=grc-approval-configurator-for-policy-extension-and-exception&family=zurich&ft:locale=en-US)**
 
 The GRC Approval Configurator can now be used to manage both policy exception and extension approvals. It allows verification, approval, and extension rules to be defined based on state, sub-state, and other filter conditions, with support for multiple user groups and multi-level approvals. This enhancement provides greater flexibility in assigning appropriate approvers at each level based on defined conditions, facilitating structured and collaborative reviews. For extension approvals, users can now configure multiple approvers, overcoming the previous limitation of a single default approver \(Compliance Manager\).
 
@@ -235,7 +272,17 @@ Australia
 
 </td><td>
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+-   **[ServiceNow Otto® name announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now Assist for IRM \(sn\_irm\_gen\_ai\) plugin, which provides generative AI capabilities for RCM, has been renamed to ServiceNow Otto for IRM.
+
+
+ -   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -243,6 +290,11 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
     -   Advanced: AI to boost productivity across relevant use cases
     -   Prime: Act autonomously with all AI assets, and create your own
 Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ -   **[SAE columns in Control Attestations list view](https://www.servicenow.com/docs/access?context=c_Attestations&family=australia&ft:locale=en-US)**
+
+The Control Attestations list view now displays the Control and Entity columns, showing the control name and associated entity for each assessment instance. These columns are visible on the Compliance Workspace, Tasks page, Employee Center, and Risk Portal.
 
 
 </td></tr></tbody>
@@ -343,6 +395,8 @@ Yokohama
 Install Policy and Compliance Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Policy and Compliance Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -354,6 +408,8 @@ Zurich
 Install Policy and Compliance Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Policy and Compliance Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -364,6 +420,8 @@ Australia
 
 Install Policy and Compliance Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Policy and Compliance Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -597,5 +655,5 @@ Australia
  See [Policy and Compliance Management](https://www.servicenow.com/docs/access?context=r_PolicyComplianceMgmt&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Guided Self-Service reference
 description: Use the following reference information for the Guided Self-Service functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -22,7 +22,7 @@ You can display Guided Self-Service as a widget on the home page or as a quick l
 
 -   Ensure that the **sn\_hr\_sp.esc\_admin** user has the **playbook.write** role to edit the playbook design and **playbook\_experience.admin** to preview the guided experience.
 -   Only when the playbook and guided help process are in an active state, the guided help process appears on the Employee Center.
--   Guided Self-Service can’t be created from the playbook page directly, create the process from the GSS form, see [Configure Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-help-config.md).
+-   Guided Self-Service can’t be created from the playbook page directly, create the process from the GSS form, see [Configure Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-help-config.md).
 -   Guided Self-Service flow is a single-stage flow.
 -   The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in **Workflow Studio**.
 
@@ -35,7 +35,7 @@ You can display Guided Self-Service as a widget on the home page or as a quick l
 -   The `Cancel incomplete guided help playbook` scheduled job for the automatic cancellation of incomplete guidance is only available for admin.
 -   Deleting the GSS process from `sn_ex_sp_gd_help_process` doesn’t delete the process from `sys_pd_process_definition`.
 
-**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
@@ -98,5 +98,5 @@ You can display Guided Self-Service as a widget on the home page or as a quick l
 
 [Website configuration form]()
 
-[Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
+[Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
 

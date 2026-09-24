@@ -2,7 +2,7 @@
 title: Integrating with Microsoft Outlook
 description: Integrate Customer Service Management with Microsoft Outlook to perform tasks such as managing contacts and cases from within Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/integrating-with-microsoft-outlook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/integrating-with-microsoft-outlook.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

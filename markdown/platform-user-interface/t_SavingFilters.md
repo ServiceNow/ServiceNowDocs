@@ -2,7 +2,7 @@
 title: Save and use filters in a list view
 description: Depending on your access rights, you may save filters for everyone, a user group, or yourself. You can apply saved filters and edit or delete them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_SavingFilters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_SavingFilters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: varies depending on action. See procedure.
 
 ## Procedure
 
-1.  Navigate to a list and create or modify a filter as described in [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md).
+1.  Navigate to a list and create or modify a filter as described in [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_CreatingFilters.md).
 
 2.  Select **Save...**.
 
@@ -76,5 +76,5 @@ Creates a group filter, which only members of the user group you select can acce
     4.  If you edited the filter, select **Update**.
 
 
-**Parent Topic:**[Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md)
+**Parent Topic:**[Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md)
 

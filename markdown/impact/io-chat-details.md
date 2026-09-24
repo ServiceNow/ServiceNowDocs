@@ -2,7 +2,7 @@
 title: Chat details performance metrics
 description: For the operations team to get the insights of current load across main components of AWA channel infrastructure like queues and agents, and to monitor load during events of chat spikes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-chat-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-chat-details.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-27"
@@ -52,7 +52,7 @@ This consists of the following metrics:
 -   If Chat Queued count for Live Agents \(LA\) is higher and they are not receiving any chat for Virtual Agent \(VA\), this may be an indication that there is higher load on LA and VA responses for guiding users are limited.
 -   If Chat arrival ratio or acceptance ratio is continuously trending higher, that may indicate that there is demand for availability of more live agents by the users.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

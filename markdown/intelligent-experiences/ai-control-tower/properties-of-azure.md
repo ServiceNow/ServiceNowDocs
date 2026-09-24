@@ -2,7 +2,7 @@
 title: Properties of Azure Foundry
 description: System properties for AI Service Graph Connector for Azure AI Foundry.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/properties-of-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/properties-of-azure.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

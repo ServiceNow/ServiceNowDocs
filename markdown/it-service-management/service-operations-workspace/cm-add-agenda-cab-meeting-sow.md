@@ -2,7 +2,7 @@
 title: Add an agenda item to a CAB meeting
 description: Add change requests to your CAB meeting agenda for review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/cm-add-agenda-cab-meeting-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/cm-add-agenda-cab-meeting-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -138,5 +138,5 @@ Time already spent on the agenda item during the meeting.
     Alternatively, you can send the meeting requests to attendees by selecting the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and then selecting **Send meeting request to attendees**.
 
 
-**Parent Topic:**[Create a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.md)
+**Parent Topic:**[Create a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.md)
 

@@ -2,7 +2,7 @@
 title: Add or edit expense lines
 description: Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-expense-line-pp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-expense-line-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -79,7 +79,7 @@ Select **New expense line** using the More actions option.\[Omitted image "fin-n
 </td></tr></tbody>
 </table>5.  On the Create expense line form, fill the fields.
 
-    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-exp-line-form-pp.md).
+    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-exp-line-form-pp.md).
 
 6.  Select **Save**.
 

@@ -2,7 +2,7 @@
 title: Create a learning task
 description: Assign a learning task to an employee that can be completed from the To-dos page in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-learning-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/create-learning-task.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -28,12 +28,12 @@ Role required: sn\_lc.task\_creator
 
 3.  On the Learning task form, fill in the fields.
 
-    For a description of the field values, see [Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-task-form_0.md).
+    For a description of the field values, see [Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-task-form_0.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-learning-achievements.md)
+**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-learning-achievements.md)
 
 **Related topics**  
 
@@ -54,5 +54,5 @@ Role required: sn\_lc.task\_creator
 
 [Create an achievement rule item]()
 
-[Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-task-form_0.md)
+[Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-task-form_0.md)
 

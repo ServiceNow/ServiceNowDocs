@@ -2,7 +2,7 @@
 title: Create or update a household in Public Sector Digital Services
 description: Create or update a household.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-households-create-update.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-households-create-update.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Service Model Foundation uses the household form to store details about a consum
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields on the Household form, see .
+    For more information on the fields on the Household form, see [Household form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-model-household-form.md).
 
 4.  Select **Submit**.
 
@@ -46,9 +46,9 @@ The household is added to the Households list. You can add constituents to the h
 **Related topics**  
 
 
-[Add constituents to a household in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-households-add-constituents.md)
+[Add constituents to a household in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-households-add-constituents.md)
 
-[Create a relationship between household members in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-households-member-relations.md)
+[Create a relationship between household members in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-households-member-relations.md)
 
-[Create and manage cases for a constituent or household in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-households-manage-cases.md)
+[Create and manage cases for a constituent or household in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-households-manage-cases.md)
 

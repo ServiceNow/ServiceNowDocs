@@ -2,7 +2,7 @@
 title: Create a notification
 description: Create notifications for Core Business Suite business units through the Now Assist conversational experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/create-notification-using-na.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/create-notification-using-na.html
 release: australia
 topic_type: task
 last_updated: "2026-03-27"
@@ -18,8 +18,8 @@ Create notifications for Core Business Suite business units through the Now Assi
 
 Ensure that the following are activated:
 
--   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)\)
--   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
+-   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/activate-ai-search.md)\)
+-   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/enable-now-assist-panel.md)\)
 
 Role required: admin, sn\_cbs.admin
 
@@ -70,5 +70,5 @@ Role required: admin, sn\_cbs.admin
     Now Assist creates the notification and displays a success message.
 
 
-**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
+**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/now-assist-cbs.md)
 

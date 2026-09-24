@@ -2,10 +2,10 @@
 title: Configure Attachment Summarization skill
 description: Configuring Attachment Summarization skill to automate key information extraction from documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-attachment-summarization-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-attachment-summarization-skill.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, Content Understanding, Enable AI experiences]
 ---
@@ -21,5 +21,5 @@ For more information, see [Customize a ServiceNow Otto for IT Service Management
 **Related topics**  
 
 
-[Attachment Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/attachment-summarization.md)
+[Attachment Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/attachment-summarization.md)
 

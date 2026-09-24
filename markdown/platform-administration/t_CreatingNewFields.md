@@ -2,7 +2,7 @@
 title: Add and customize a field in a table
 description: Administrators can add new fields to a table to store and display data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreatingNewFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreatingNewFields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** Certain ServiceNow AI Platform subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocate-custom-table-subsc-app-v2.md).
+**Note:** Certain ServiceNow AI Platform subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/allocate-custom-table-subsc-app-v2.md).
 
 Be aware of these database limitations:
 
@@ -73,5 +73,5 @@ Select a field length. This field is visible only for certain field types.
     The field now appears on the form in the designated location.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/customize-fields-now-platform-landing.md)
 

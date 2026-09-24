@@ -2,7 +2,7 @@
 title: Issue Auto Resolution for ITSM Virtual Agent
 description: Proactively deflect common ITSM incidents to ITSM Virtual Agent. Initiate a conversation with an end user after they submit an incident through a non-conversational service channel, if an existing ITSM Virtual Agent conversation can resolve the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-auto-resolution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/itsm-va-auto-resolution.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -24,7 +24,7 @@ Issue Auto Resolution uses ITSM Virtual Agent to proactively resolve incidents t
 -   If a matching intent and topic are found, Issue Auto Resolution sends an actionable notification to the end user on their existing chat channel. The user can accept or decline assistance.
 -   If the end user accepts the assistance, Issue Auto Resolution invokes the matched ITSM Virtual Agent conversation to resolve the incident.
 -   When the conversation completes, the user can indicate if the conversation resolved the incident and can choose to keep the ticket open or to close it.
--   When there are no matching Issue Auto Resolution intents found, AI Search is enabled as fallback along with added intents. For more information, see [Enabling AI Search in Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/enable-ai-search-itsm.md).
+-   When there are no matching Issue Auto Resolution intents found, AI Search is enabled as fallback along with added intents. For more information, see [Enabling AI Search in Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/enable-ai-search-itsm.md).
 
 ## When an incident is unassigned from Issue Auto Resolution
 
@@ -73,7 +73,7 @@ Issue Auto Resolution uses NLU to identify Virtual Agent topics that match inten
 
 To view, train, or retrain the NLU model, see [Train and test your model in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/train-test-publish-nlu-model-vad.md).
 
-**Note:** Issue Auto Resolution must be activated and ITSM Virtual Agent must be installed to access the NLU models. To learn more, see [Set up Issue Auto Resolution for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-ar.md).
+**Note:** Issue Auto Resolution must be activated and ITSM Virtual Agent must be installed to access the NLU models. To learn more, see [Set up Issue Auto Resolution for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/setup-itsm-ar.md).
 
 ## About actionable notifications
 
@@ -106,10 +106,10 @@ The default intents and matched topics are listed in the **Auto Resolution Inten
 
 Tune the default IAR intents in the NLU Workbench before returning to the Issue Auto Resolution Admin Console and publish them. For more information, see [Issue Auto Resolution Tuning in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/issue-auto-resolution-tuning-nlu.md).
 
--   **[Enabling AI Search in Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/enable-ai-search-itsm.md)**  
+-   **[Enabling AI Search in Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/enable-ai-search-itsm.md)**  
 You can enable AI Search as a fallback mechanism in Issue Auto Resolution when there are no matching intents found for the incident.
 
-**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
+**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
 
 **Related topics**  
 

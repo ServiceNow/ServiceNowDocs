@@ -2,7 +2,7 @@
 title: Components installed with Client Transaction Timings
 description: The Client Transaction Timings plugin installs several components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/c\_InstalledComponents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/c\_InstalledComponents.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -34,5 +34,5 @@ To activate the plugin, navigate to **System Definition** &gt; **Plugins** and a
 
 **Note:** New instances have the plugin activated by default.
 
-**Parent Topic:**[Client transaction timings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ClientTransactionTimings.md)
+**Parent Topic:**[Client transaction timings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/r_ClientTransactionTimings.md)
 

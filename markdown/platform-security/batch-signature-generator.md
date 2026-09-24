@@ -2,7 +2,7 @@
 title: Generate batch signatures
 description: Automatically generate batch update sets for records with invalid or missing signatures on the trusted instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/batch-signature-generator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/batch-signature-generator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

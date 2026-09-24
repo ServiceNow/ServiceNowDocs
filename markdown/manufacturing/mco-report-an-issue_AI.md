@@ -2,7 +2,7 @@
 title: Report an issue using ServiceNow Otto
 description: Use the MCO portal to submit product non-conformance issues with AI-guided playbook workflows for duplicate detection, completeness assessment, cost tracking, and review. This improves data consistency, traceability, and efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-report-an-issue\_AI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-report-an-issue\_AI.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Add SSL certificates for the MID Server
 description: Configure the MID Server to connect to a source over SSL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/add-ssl-certificates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/add-ssl-certificates.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -30,7 +30,7 @@ Role required: admin
 You can add certificates to the MID Server to communicate over SSL/TLS in one of two ways:
 
 -   Add certificates directly to the bundled JRE TrustStore file, using the following procedure.
--   Specify a different TrustStore file for the MID Server to use. For more information, see [Specify an external TrustStore for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-external-truststore.md).
+-   Specify a different TrustStore file for the MID Server to use. For more information, see [Specify an external TrustStore for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-external-truststore.md).
 
 Review both methods to evaluate which best meets your needs.
 
@@ -43,7 +43,7 @@ During MID upgrade the bundled TrustStore is overwritten. The MID Server attempt
     -   X.509 certificates
     -   Any certificate present in the source, but not the destination TrustStore
 
-Certificates that do not meet the criteria are overwritten. Alternatively, you can specify an external TrustStore file which is unaffected by MID Server upgrades. For more information, see [Specify an external TrustStore for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-external-truststore.md)
+Certificates that do not meet the criteria are overwritten. Alternatively, you can specify an external TrustStore file which is unaffected by MID Server upgrades. For more information, see [Specify an external TrustStore for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-external-truststore.md)
 
 In Rome and later families, the migration strategy utilized during upgrade is configurable via the MID Server configuration parameter **mid.truststore.migration.strategy**. It can take the following values:
 
@@ -76,7 +76,7 @@ When switching to an external TrustStore, import all certificates from the bundl
 3.  Display a list of the current certificates by running the command: `keytool.exe -list -keystore "C:\Mid Server\agent\jre\lib\security\cacerts"`
 
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 

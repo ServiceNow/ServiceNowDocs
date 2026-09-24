@@ -2,7 +2,7 @@
 title: Configure the Generate closure notes UI action
 description: Add generative AI-specific functionality to the task closure screens by configuring the Generate closure notes UI action that is included with the ServiceNow Otto for Field Service Management \(FSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configure-close-ui-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/configure-close-ui-actions.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -63,5 +63,5 @@ The ServiceNow Otto for FSM application includes generative AI-specific function
 
 ## Result
 
-The Generate closure notes UI action is enabled. Agents can generate closure notes when closing work order tasks on the Mobile Agent® application. For more information, see [Generate work order task closure summaries in ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
+The Generate closure notes UI action is enabled. Agents can generate closure notes when closing work order tasks on the Mobile Agent® application. For more information, see [Generate work order task closure summaries in ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/close-wo-wot-mobile.md).
 

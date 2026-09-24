@@ -2,7 +2,7 @@
 title: Demand Insights for Incidents dashboard
 description: The Demand Insights for Incidents dashboard enables you as an incident manager to identify which incidents have no or insufficient knowledge coverage. You can then create feedback tasks for knowledge gaps to deflect such incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/demand-insights-incidents-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/demand-insights-incidents-dashboard.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -16,7 +16,7 @@ breadcrumb: [Analytics and Reporting Solutions for Knowledge Management, Knowled
 
 The Demand Insights for Incidents dashboard enables you as an incident manager to identify which incidents have no or insufficient knowledge coverage. You can then create feedback tasks for knowledge gaps to deflect such incidents.
 
-The Predictive Intelligence for Knowledge Management plugin \(com.snc.knowledge\_ml\) includes the Demand Insights for Incidents dashboard. For more information, see [Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md) and [Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/additional-plugins-km.md).
+The Predictive Intelligence for Knowledge Management plugin \(com.snc.knowledge\_ml\) includes the Demand Insights for Incidents dashboard. For more information, see [Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md) and [Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/additional-plugins-km.md).
 
 ## End user and roles
 
@@ -51,12 +51,12 @@ Pareto Chart
 Displays data from the Knowledge Curation Task \[kb\_curation\_task\_cluster\] table with the following conditions: Curation configuration = incident AND Solution.Active = true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/analytics-and-reporting-solutions-for-knowlege-management.md)
+</table>**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/analytics-and-reporting-solutions-for-knowlege-management.md)
 
 **Related topics**  
 
 
-[Pareto chart for Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/pareto-report-demand-insights.md)
+[Pareto chart for Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/pareto-report-demand-insights.md)
 
-[Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-demand-insights.md)
+[Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-demand-insights.md)
 

@@ -2,7 +2,7 @@
 title: Attachment behavior in offline mode
 description: Learn about the size and type limits applied to attachments in the offline cache.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/offline-attachment-behavior.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/offline-attachment-behavior.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-09"
@@ -24,10 +24,10 @@ The following system properties are available when managing attachments in offli
 |glide.sg.ofﬂine.attachment.max\_size|Set the Maximum size per downloaded attachment.|
 |glide.sg.ofﬂine.attachment.max\_total\_bytes|Total attachment storage limit.|
 
-For information on these and other related offline system properties, see [System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-system-properties.md).
+For information on these and other related offline system properties, see [System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-system-properties.md).
 
--   **[General guidelines for using attachments in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/general-guidelines-offline-attach.md)**  
+-   **[General guidelines for using attachments in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/general-guidelines-offline-attach.md)**  
 When working with attachments in offline mode, keep these general guidelines in mind for usability and a good user experience.
 
-**Parent Topic:**[Offline mode setup options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-setup-options.md)
+**Parent Topic:**[Offline mode setup options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-setup-options.md)
 

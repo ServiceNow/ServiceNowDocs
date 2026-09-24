@@ -2,14 +2,14 @@
 title: AI in Enterprise Asset Management
 description: Set up, manage, and optimize your generative AI solutions on the ServiceNow AI Platform from a single workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/ai-in-enterprise-asset-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/ai-in-enterprise-asset-management.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-18"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Enterprise Asset Management, Asset Management]
 ---
 
@@ -27,8 +27,8 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 For more information about AI capabilities in Enterprise Asset Management, see the following:
 
--   [Fulfill enterprise asset requests by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)
--   [Fulfill repair orders by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md)
+-   [Fulfill enterprise asset requests by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)
+-   [Fulfill repair orders by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md)
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 

@@ -2,7 +2,7 @@
 title: Install Agent Client Collector on Windows using Microsoft Intune
 description: Use Microsoft Intune to install Agent Client Collector \(ACC\) on multiple Windows devices at once, promoting consistent deployment across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/bulk-deploy-acc-on-win.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/bulk-deploy-acc-on-win.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -20,7 +20,7 @@ Use Microsoft Intune to install Agent Client Collector \(ACC\) on multiple Windo
 
 \[Omitted video\] Description: Installing ACC on user devices using Microsoft Intune
 
--   Create an agent registration key. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/setup-acc.md).
+-   Create an agent registration key. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/setup-acc.md).
 
 Role required: agent\_client\_collector\_admin
 

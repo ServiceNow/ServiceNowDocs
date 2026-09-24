@@ -2,7 +2,7 @@
 title: Source-to-Pay integration with SAP Ariba
 description: The Source-to-Pay integration with SAP Ariba enables you to handle sales orders, procurement, finance, and so on, in SAP Ariba from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-sap-ariba.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-sap-ariba.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

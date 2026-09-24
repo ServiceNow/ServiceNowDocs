@@ -2,12 +2,12 @@
 title: Metric aggregation scripted extension
 description: You can define custom KPI calculations on top of raw metrics collected from source systems. Configurable formulas combine, aggregate, and label metrics without requiring code changes to the platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/metric-aggregation-scripted-extension.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/metric-aggregation-scripted-extension.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Performance management: Metric collection, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---

@@ -2,7 +2,7 @@
 title: Request workflow pause utility
 description: You can request the Workflow Pause Utility plugin \(com.glideapp.workflow.pause\) if you have the admin role. This plugin may include demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/request-workflow-pause-utility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/request-workflow-pause-utility.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -79,5 +79,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-pause-utility.md)
+**Parent Topic:**[Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/workflow-pause-utility.md)
 

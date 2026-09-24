@@ -2,7 +2,7 @@
 title: Filter resources in Dispatcher Workspace
 description: You can create your own advanced resource filters in Dispatcher Workspace to make complex filtering easy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/advanced-filtering-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/advanced-filtering-dw.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

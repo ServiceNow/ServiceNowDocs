@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for IT Service Management \(ITSM\)
 description: If you have the admin role, you can configure the ServiceNow Otto for IT Service Management \(ITSM\) application so that agents can use the generative AI capabilities in Service Operations Workspace for ITSM and in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use the ServiceNow Otto Admin console to configure ServiceNow Otto for IT Service Management \(ITSM\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md). For the list of all skills supported in ServiceNow Otto for IT Service Management \(ITSM\), see [Using ServiceNow Otto for IT Service Management \(ITSM\) Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md).
+Use the ServiceNow Otto Admin console to configure ServiceNow Otto for IT Service Management \(ITSM\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md). For the list of all skills supported in ServiceNow Otto for IT Service Management \(ITSM\), see [Using ServiceNow Otto for IT Service Management \(ITSM\) Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md).
 
 Domain separation is supported in ServiceNow Otto for IT Service Management \(ITSM\). For details, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
 
@@ -33,7 +33,7 @@ Domain separation is supported in ServiceNow Otto for IT Service Management \(IT
 
 1.  Install the ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\).
 
-    -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
+    -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
     -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **Admin** &gt; **AI Admin Hub**.
 
@@ -47,7 +47,7 @@ Domain separation is supported in ServiceNow Otto for IT Service Management \(IT
 
 6.  Select the inputs or triggers for the selected skill.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     \[Omitted image "now-assist-itsm-triggers.png"\] Alt text: Example Define trigger screen for the Chat summarization skill.
 

@@ -2,7 +2,7 @@
 title: Turn off application monitoring
 description: Disable the monitoring of an application in situations where monitoring is causing performance issues or interfering with the functionality of the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/disable-app-monitor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/disable-app-monitor.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -40,5 +40,5 @@ Role required: sn\_dex.admin
     The monitoring of the application is turned off.
 
 
-**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

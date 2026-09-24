@@ -2,7 +2,7 @@
 title: Mentoring relationship form
 description: Use the mentoring relationship form to start a new relationship between a mentee and a mentor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/mentoring-relationship-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/mentoring/mentoring-relationship-form.html
 release: australia
 product: Mentoring
 classification: mentoring

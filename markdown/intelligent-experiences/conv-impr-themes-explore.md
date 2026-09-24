@@ -2,7 +2,7 @@
 title: Exploring Conversation Improvement Themes
 description: The Conversation Improvement Themes application helps to transform conversation evaluations into long-term performance insights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/conv-impr-themes-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/conv-impr-themes-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

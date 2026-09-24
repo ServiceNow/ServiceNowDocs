@@ -2,12 +2,12 @@
 title: Add information to a security incident
 description: After a security incident is created, you can add more details to aid in analysis, such as access roles and different kinds of notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add\_inc\_details\_to\_si.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/add\_inc\_details\_to\_si.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -121,9 +121,9 @@ Displays information manually entered in Work notes, and all dynamically updated
 
 5.  Select any of the following tabs to further update the security incident:
 
-    -   [Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-rel-recs-to-si.md)
-    -   [Post Incident Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_PostIncidentReview.md)
-    -   [Closure Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-closure-info-to-si.md)
+    -   [Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/add-rel-recs-to-si.md)
+    -   [Post Incident Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/c_PostIncidentReview.md)
+    -   [Closure Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/add-closure-info-to-si.md)
 6.  When you have completed your entries, select **Submit**.
 
 

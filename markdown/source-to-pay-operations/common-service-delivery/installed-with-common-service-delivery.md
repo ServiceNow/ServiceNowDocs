@@ -2,7 +2,7 @@
 title: Components installed with Common Service Delivery
 description: Several types of components are installed with the installation of the Common Service Delivery application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/common-service-delivery/installed-with-common-service-delivery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/common-service-delivery/installed-with-common-service-delivery.html
 release: australia
 product: Common Service Delivery
 classification: common-service-delivery

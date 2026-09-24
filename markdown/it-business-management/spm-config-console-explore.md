@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Setup \(SPM\)
 description: The ServiceNow Otto for Setup \(SPM\) consolidates setup processes for SPM applications into a single workspace, giving administrators a unified view of their configuration state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/spm-config-console-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/spm-config-console-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-25"
@@ -40,7 +40,7 @@ A typical SPM rollout roughly moves through the modules in the following order. 
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Find every SPM setup task from one workspace without switching between application admin pages.|[Modules in ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-modules.md)|System administrator|
+|Find every SPM setup task from one workspace without switching between application admin pages.|[Modules in ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/spm-config-console-modules.md)|System administrator|
 |See only the applications you're entitled to configure based on your organization's SPM license.|License-aware module visibility|System administrator, SPM application owner|
 |Reach the console from the same Admin Home page that hosts other product configuration entry points.|Portfolio Management card on Admin Home|System administrator|
 
@@ -48,8 +48,8 @@ A typical SPM rollout roughly moves through the modules in the following order. 
 
 To learn more about accessing and using ServiceNow Otto for Setup \(SPM\), see:
 
--   [Access ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-access.md)
--   [Modules in ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-modules.md)
+-   [Access ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/spm-config-console-access.md)
+-   [Modules in ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/spm-config-console-modules.md)
 
 **Related topics**  
 

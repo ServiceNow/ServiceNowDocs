@@ -2,7 +2,7 @@
 title: Request AI agent support in the Interaction page for Agentic Contact Center for Insurance
 description: Request AI-powered assistance during insurance customer interactions to receive real-time insights, intent identification, and recommended responses. The Insurance CSR support AI agent analyzes call context and transcripts to provide next-step guidance and suggested actions within the Interaction page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/request-insurance-ai-agent-interaction-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/request-insurance-ai-agent-interaction-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-05-13"
@@ -48,7 +48,7 @@ The agent responds only to questions within insurance scope and only about the c
 
     The chat is specific to this interaction record. If you navigate away, you can resume the chat by selecting **Ask Otto**.
 
-    For more information, see [Agentic Contact Center for Insurance AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.md).
+    For more information, see [Agentic Contact Center for Insurance AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.md).
 
 4.  Get a response from the agent using one of the following methods:
 
@@ -67,7 +67,7 @@ The agent answers your questions using information from the customer's insurance
 **Related topics**  
 
 
-[Agentic Contact Center for Insurance AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.md)
+[Agentic Contact Center for Insurance AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.md)
 
-[Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-context.md)
+[Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/summarize-insurance-customer-context.md)
 

@@ -2,7 +2,7 @@
 title: Launch a web application from an alert
 description: As an Event Management operator, you can also launch a web application from an alert. The web application might be a console for your event monitoring tool or any external website with additional alert information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-launch-web-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/operator-launch-web-app.html
 release: australia
 product: Event Management
 classification: event-management
@@ -30,7 +30,7 @@ Phase 1
 
 </td><td>
 
-[Analyze and acknowledge an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-phase-acknowledge-analyze.md)
+[Analyze and acknowledge an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-phase-acknowledge-analyze.md)
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Phase 3
 
 </td><td>
 
-[Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-close-alert.md)
+[Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-close-alert.md)
 
 </td></tr></tbody>
 </table>Role required: evt\_mgmt\_operator
@@ -82,11 +82,11 @@ You can launch a web application if your administrator has set up a link to the 
 
 There are also other tasks you can take as part of the triage stage:
 
--   [Run a remediation workflow on an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-run-remdiation.md) if your Event Management administrator already set up a workflow in your ServiceNow instance and your policies allow you to trigger it from the alert.
--   [Put an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-put-alert-into-maintenance.md) to temporarily hide it from the Service Operations Workspace dashboard if the alert does not require action at this time.
--   [Associate a knowledge base article with an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-associate-kb.md) if there is existing information about the alert that might help resolve the underlying issue.
+-   [Run a remediation workflow on an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-run-remdiation.md) if your Event Management administrator already set up a workflow in your ServiceNow instance and your policies allow you to trigger it from the alert.
+-   [Put an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-put-alert-into-maintenance.md) to temporarily hide it from the Service Operations Workspace dashboard if the alert does not require action at this time.
+-   [Associate a knowledge base article with an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-associate-kb.md) if there is existing information about the alert that might help resolve the underlying issue.
 
-If you do not need to perform any other triage actions, proceed to [Phase 3: Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-close-alert.md).
+If you do not need to perform any other triage actions, proceed to [Phase 3: Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-close-alert.md).
 
-**Parent Topic:**[Operator phase 2: Triage an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-phase-triage-incident.md)
+**Parent Topic:**[Operator phase 2: Triage an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-phase-triage-incident.md)
 

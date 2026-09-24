@@ -2,7 +2,7 @@
 title: Bulk case request form
 description: The bulk case request form provides information to create a bulk case request to enable the creation of the same type of HR cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/bulk-case-request-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/bulk-case-request-form.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -93,7 +93,7 @@ Requested time
 Date and time your bulk case request was submitted to create cases. The value of this field is auto-populated upon creation of the user segment group.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Workspace for HR Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
+</table>**Parent Topic:**[Agent Workspace for HR Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Follow a control
 description: Connect integrates with Policy and Compliance Management providing an overlay to the standard interface, allowing users to participate in conversations while they work and collaborate on the control record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/follow-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/follow-control.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

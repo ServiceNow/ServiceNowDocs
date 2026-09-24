@@ -2,7 +2,7 @@
 title: Configure ServiceNow Cloud Observability event collection
 description: Integrate ServiceNow Cloud Observability with Event Management by adding a standard webhook in the ServiceNow Cloud Observability platform. Download the Event Management Connector plugin from the ServiceNow Store so you can integrate with ServiceNow Cloud Observability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-cloud-observability-event-collection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configure-cloud-observability-event-collection.html
 release: australia
 product: Event Management
 classification: event-management

@@ -2,7 +2,7 @@
 title: Address items that requires attention
 description: Learn how to review and manage items that need your attention, such as expiring articles, flagged content, and feedback tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/using-requires-attention.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/using-requires-attention.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

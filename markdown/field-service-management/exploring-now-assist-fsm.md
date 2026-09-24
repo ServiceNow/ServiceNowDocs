@@ -2,7 +2,7 @@
 title: AI capabilities in Field Service Management
 description: Field Service Management includes generative and agentic AI capabilities, powered by ServiceNow Otto, that help agents, dispatchers, and managers close tasks faster and work more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/exploring-now-assist-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/exploring-now-assist-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-27"
@@ -26,23 +26,23 @@ The ServiceNow® large language model \(Now LLM Service\) is currently the only 
 
 |Benefit|Feature|Used with|
 |-------|-------|---------|
-|Close tasks faster by generating a summary from work order task information.|[Generate a work order task summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md)|ServiceNow Agent \(mobile\)|
-|Generate closure notes directly on mobile when closing a task.|[Generate work order task closure summaries in ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md)|ServiceNow Agent \(mobile\)|
-|Summarize a Sidebar discussion and save it to work notes.|[Summarize a Sidebar discussion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/na-fsm-summarize-sidebar-platform.md)|Web interface|
-|Summarize a Sidebar discussion and save it to work notes, from the mobile app.|[Summarize a Sidebar discussion on the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/na-fsm-summarize-sidebar-mobile.md)|ServiceNow Agent \(mobile\)|
-|Generate a knowledge article automatically from a closed work order task.|[Generate knowledge article with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/na-fsm-generate-kb-article.md)|Web interface|
-|Get an immediate summary of a record without reviewing multiple related records.|[Summarize a record using ServiceNow Otto in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/summarize-a-record-using-now-assist-virtual-agent.md)|ServiceNow Agent \(mobile\)|
-|Search technical documentation conversationally while in the field.|[Use conversational search for technician support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/access-information-you-need-mobile.md)|ServiceNow Agent \(mobile\)|
-|Automatically fill form fields using image capture.|[ServiceNow AI Lens form auto-filler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_form-auto-filler-fsm.md)|ServiceNow Agent \(mobile\)|
+|Close tasks faster by generating a summary from work order task information.|[Generate a work order task summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/close-wo-wot-mobile.md)|ServiceNow Agent \(mobile\)|
+|Generate closure notes directly on mobile when closing a task.|[Generate work order task closure summaries in ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/close-wo-wot-mobile.md)|ServiceNow Agent \(mobile\)|
+|Summarize a Sidebar discussion and save it to work notes.|[Summarize a Sidebar discussion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/na-fsm-summarize-sidebar-platform.md)|Web interface|
+|Summarize a Sidebar discussion and save it to work notes, from the mobile app.|[Summarize a Sidebar discussion on the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/na-fsm-summarize-sidebar-mobile.md)|ServiceNow Agent \(mobile\)|
+|Generate a knowledge article automatically from a closed work order task.|[Generate knowledge article with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/na-fsm-generate-kb-article.md)|Web interface|
+|Get an immediate summary of a record without reviewing multiple related records.|[Summarize a record using ServiceNow Otto in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/summarize-a-record-using-now-assist-virtual-agent.md)|ServiceNow Agent \(mobile\)|
+|Search technical documentation conversationally while in the field.|[Use conversational search for technician support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/access-information-you-need-mobile.md)|ServiceNow Agent \(mobile\)|
+|Automatically fill form fields using image capture.|[ServiceNow AI Lens form auto-filler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/c_form-auto-filler-fsm.md)|ServiceNow Agent \(mobile\)|
 
 ## Agentic AI
 
 |Benefit|Feature|Used with|
 |-------|-------|---------|
-|Create a work order using text or an image instead of filling out a form manually.|[Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-work-order-now-assist-fsm.md)|Web interface|
-|Create a work order using text or an image, from the mobile app.|[Create a work order on the ServiceNow Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-work-order-mobile-now-assist-fsm.md)|ServiceNow Agent \(mobile\)|
-|Automatically track and validate parts usage when closing a work order task.|[Validate parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/validate-parts-now-assist-fsm.md)|Web interface|
-|Automatically track and validate parts usage when closing a work order task, from the mobile app.|[Validate parts on the ServiceNow Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md)|ServiceNow Agent \(mobile\)|
+|Create a work order using text or an image instead of filling out a form manually.|[Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/create-work-order-now-assist-fsm.md)|Web interface|
+|Create a work order using text or an image, from the mobile app.|[Create a work order on the ServiceNow Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/create-work-order-mobile-now-assist-fsm.md)|ServiceNow Agent \(mobile\)|
+|Automatically track and validate parts usage when closing a work order task.|[Validate parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/validate-parts-now-assist-fsm.md)|Web interface|
+|Automatically track and validate parts usage when closing a work order task, from the mobile app.|[Validate parts on the ServiceNow Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/close-wo-wot-mobile.md)|ServiceNow Agent \(mobile\)|
 
 To install and set up AI agents on your instance, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md) and [Set up AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-na-aia.md).
 
@@ -66,7 +66,7 @@ There might be AI agents installed on your instance that are not used in agentic
 
 ## What to do next
 
-Install and configure the AI plugin to enable generative and agentic AI features for Field Service Management. For more information, see [Configure ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-now-assist-fsm.md) and [Configuring Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/fsm-va-conversation.md).
+Install and configure the AI plugin to enable generative and agentic AI features for Field Service Management. For more information, see [Configure ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configure-now-assist-fsm.md) and [Configuring Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/fsm-va-conversation.md).
 
 ## Troubleshoot and get help
 

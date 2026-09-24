@@ -2,12 +2,12 @@
 title: Viewing cloud assets
 description: This page displays the Cloud assets view. It lists all compute assets across connected cloud providers such as AWS, Azure, GCP, and OCI. Details include location, cloud account, installation status, owner, discovered dates, ownership attestation, and cost center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/viewing-cloud-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/viewing-cloud-assets.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -26,5 +26,5 @@ Click the respective name to view the details.
 
 In Asset Explorer, retired configuration items \(CIs\) remain in the asset table as long as they exist in the CMDB, even after retirement. To manage this, users can configure a custom retention period \(in seconds\) that automatically removes retired CIs from the asset table after the defined duration. For example, setting the property to 86,400 seconds \(1 day\) ensures that a retired CI is removed from the asset table one day after retirement. The CI may continue to exist in the CMDB. This helps improve performance for high-volume environments by ensuring that only active CIs remain in the asset table.
 
-For more information about the various sections, see [Managing the Cloud Account Management cloud asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/manage-cam-ci-details.md).
+For more information about the various sections, see [Managing the Cloud Account Management cloud asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/manage-cam-ci-details.md).
 

@@ -2,7 +2,7 @@
 title: Field types affected by export controls
 description: Different field types are affected differently by export controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/field-types-affected.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/field-types-affected.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -32,5 +32,5 @@ The following table describes how different field types are affected by export c
 |Price \(calculated\)|Value with the currency symbol.|USD value without the currency symbol.|
 |Price \(fixed\)|Value with the currency symbol.|USD value without the currency symbol.|
 
-**Parent Topic:**[Data export reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/data-export-reference.md)
+**Parent Topic:**[Data export reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/data-export-reference.md)
 

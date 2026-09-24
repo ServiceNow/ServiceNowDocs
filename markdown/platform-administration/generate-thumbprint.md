@@ -2,7 +2,7 @@
 title: Generate a SHA-1 thumbprint
 description: Generate a SHA-1 thumbprint using the JWT provider's sys\_id and JKS certificate's sys\_id and certificate's alias to be added to the GraphCertificateOAuthTemplate script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/generate-thumbprint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/generate-thumbprint.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ Role required: admin
 
 ## What to do next
 
-[Create an OAuth API script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/oauth-api-script.md)
+[Create an OAuth API script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/oauth-api-script.md)
 
-**Parent Topic:**[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-oauth-profile-using-certificates.md)
+**Parent Topic:**[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-oauth-profile-using-certificates.md)
 

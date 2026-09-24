@@ -2,7 +2,7 @@
 title: Create or change groups for Advanced Work Assignment queues
 description: Create or manage groups that have associated Advanced Work Assignment queues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-groups.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

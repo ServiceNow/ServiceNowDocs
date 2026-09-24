@@ -2,7 +2,7 @@
 title: Manage tasks using the Visual Task Board
 description: Track and manage all the tasks associated with a major security incident using the Visual Task Board \(Kanban view\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manage-tasks-using-vtb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/manage-tasks-using-vtb.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -302,7 +302,7 @@ MSI Manager can delete a task in the Visual Task Board using following steps:
 
 7.  Select **Delete**.
 
-**Parent Topic:**[Manage tasks in a Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tasks-tab.md)
+**Parent Topic:**[Manage tasks in a Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/tasks-tab.md)
 
 **Related topics**  
 

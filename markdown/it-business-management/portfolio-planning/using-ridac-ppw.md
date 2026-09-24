@@ -2,7 +2,7 @@
 title: Using RIDAC in Portfolio Planning Workspace
 description: Access and filter risks, issues, decisions, actions, and changes from a centralized RIDAC home page. Use multiple filtering levels organized by planning scope to focus on the RIDAC items most relevant to your role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/using-ridac-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/using-ridac-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -45,15 +45,15 @@ The four RIDAC filtering tabs are:
 
 Using RIDAC in Portfolio Planning Workspace allows you to manage planning risks, issues, decisions, actions, and changes across your entire portfolio hierarchy. You can view RIDAC items from a centralized home page with multiple filtering options, or create new RIDAC items directly from planning items \(projects and demands\). When you're tracking cross-project impacts at the portfolio level, RIDAC helps you maintain visibility of planning uncertainties and dependencies throughout your organization.
 
--   [View RIDAC records for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/view-ridac-records-ppw.md)
+-   [View RIDAC records for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/view-ridac-records-ppw.md)
 
     View different RIDAC records by planning scope \(All RIDAC, Project RIDAC, Portfolio RIDAC, or Program RIDAC\) from a single centralized view.
 
--   [Create RIDAC for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-ridac-planning-item-ppw.md)
+-   [Create RIDAC for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-ridac-planning-item-ppw.md)
 
     Create and associate Risk, Issue, Decision, Action, or Change items directly with planning items \(projects and demands\) to manage planning uncertainties and dependencies.
 
--   [Export RIDAC list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/export-ridac-list-spw.md)
+-   [Export RIDAC list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/export-ridac-list-spw.md)
 
     Export a filtered list of RIDAC records to Excel, PDF, CSV, or JSON format. You can download the file directly or send it via email to share RIDAC information with stakeholders.
 

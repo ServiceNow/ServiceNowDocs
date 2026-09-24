@@ -2,7 +2,7 @@
 title: Create a reclamation rule to import Microsoft SCCM usage data
 description: To import your Microsoft SCCM data, create a reclamation rule for the product that you want the usage information for.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-reclamation-rule-sccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-reclamation-rule-sccm.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -122,7 +122,7 @@ Amount of time the software must be used to avoid being reclaimed.
 
     1.  Select **New**.
 
-    2.  On the Custom Software Product form, [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md) to add the product information.
+    2.  On the Custom Software Product form, [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_AddACustomProduct.md) to add the product information.
 
     3.  Select **Submit**.
 
@@ -190,5 +190,5 @@ On the Reclamation Rule form, select **Save**.
 
 The reclamation rule is added to the Reclamation Rules list and the data of the product gets imported from SCCM during the next monthly scheduled import.
 
-**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

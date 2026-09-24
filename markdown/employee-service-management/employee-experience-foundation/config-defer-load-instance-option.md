@@ -2,7 +2,7 @@
 title: Modify defer load instance option
 description: Deferred loading helps delay the loading of a resource or widget to improve the overall usability of the page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-defer-load-instance-option.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-defer-load-instance-option.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

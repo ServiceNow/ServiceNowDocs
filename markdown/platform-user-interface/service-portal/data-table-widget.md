@@ -2,7 +2,7 @@
 title: Data table from instance definition widget
 description: Display a filtered list on your portal using the data table from instance definition widget. From the widget's context menu, portal users can export the filtered list. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/data-table-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/data-table-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -38,7 +38,7 @@ After you add the data table from instance definition widget to a page, use the 
 |Bootstrap color|Color scheme for the widget. The default colors are defined by the portal theme, but if you want the instance to have a specific color, select the option from the list.|
 |Link to this page|Direct users to a specific page when they click a record. By default, clicking an entry in the table opens that entry in a form.|
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

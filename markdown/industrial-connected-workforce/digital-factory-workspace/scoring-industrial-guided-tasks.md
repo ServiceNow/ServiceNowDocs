@@ -2,7 +2,7 @@
 title: Scoring in Industrial Guided Tasks
 description: Scoring enables the automatic calculation of performance scores after completing an Industrial Guided Task \(IGT\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/scoring-industrial-guided-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/scoring-industrial-guided-tasks.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -54,10 +54,10 @@ When normalization is enabled:
 -   Authors enable normalized scoring on a Guided Task Standard through the Advanced configuration view in the Smart Assessment Workspace.
 -   The system saves the normalized score to the guided task instead of the raw score.
 
-**Parent Topic:**[Exploring Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.md)
+**Parent Topic:**[Exploring Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.md)
 
 **Related topics**  
 
 
-[Configure scoring and automation in Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/configure-scoring-automation-igt.md)
+[Configure scoring and automation in Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/configure-scoring-automation-igt.md)
 

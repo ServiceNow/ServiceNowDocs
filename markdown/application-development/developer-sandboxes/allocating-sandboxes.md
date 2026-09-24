@@ -2,7 +2,7 @@
 title: Allocate a sandbox
 description: Allocate sandboxes to your development teams so they can start using them for development.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/allocating-sandboxes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/developer-sandboxes/allocating-sandboxes.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -60,7 +60,7 @@ Sandbox template
 
 </td><td>
 
-Template selected for the sandbox.For information on configuring templates to generate reusable data, see [Using sandbox templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/create-sandbox-template.md).
+Template selected for the sandbox.For information on configuring templates to generate reusable data, see [Using sandbox templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/create-sandbox-template.md).
 
 </td></tr><tr><td>
 
@@ -86,5 +86,5 @@ Developer Sandboxes starts the process of provisioning the sandbox.
 
 Once allocated, developers can access their sandbox by pre-pending the **Sandbox alias** value to the instance name followed by `devsandboxes`. For example, `https://samsbox.[instance].devsandboxes.servicenow.com`.
 
-Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-installing.md).
+Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
 

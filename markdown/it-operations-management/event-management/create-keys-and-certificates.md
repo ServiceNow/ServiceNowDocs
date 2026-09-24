@@ -2,7 +2,7 @@
 title: Create keys and certificates
 description: Create keys and certificates in your root directory to enable Transport Layer Security \(TLS\) setup. TLS setup is required before you can configure mTLS on the MID Web Server and agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-keys-and-certificates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/create-keys-and-certificates.html
 release: australia
 product: Event Management
 classification: event-management
@@ -199,5 +199,5 @@ Role required: agent\_client\_collector\_admin
 
 ## What to do next
 
-[Set up the MID Web Server with a .pem file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/set-mid-web-server.md).
+[Set up the MID Web Server with a .pem file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/set-mid-web-server.md).
 

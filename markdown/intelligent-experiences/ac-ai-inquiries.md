@@ -2,7 +2,7 @@
 title: AI inquiries
 description: Ask a question or request information related to AI governance, such as a question about a policy, a process, or a specific AI asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-ai-inquiries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-ai-inquiries.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-16"

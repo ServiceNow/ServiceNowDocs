@@ -2,12 +2,12 @@
 title: Connect Build Agent to a supported MCP server
 description: Connect a supported MCP server to Build Agent to access external tools and resources in the chat panel when building and editing apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ba-connct-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-connct-mcp-server.html
 release: australia
 topic_type: task
 last_updated: "2026-07-27"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -36,7 +36,7 @@ Individual MCP servers are enabled by default, but the complete flow must be com
 
 For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/model-context-protocol-connector.md).
 
-See [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md) for a list of supported MCP servers.
+See [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/accelerate-design-to-development-with-figma-mcp-server.md) for a list of supported MCP servers.
 
 **Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE.
 
@@ -77,5 +77,5 @@ Role required: admin
 
 After Build Agent authenticates the connection, you can chat with it to ask questions related to the MCP server.
 
-**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-build-agent.md)
 

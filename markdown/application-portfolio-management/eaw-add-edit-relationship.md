@@ -2,7 +2,7 @@
 title: Add or edit a relationship
 description: Add or edit a relationship configuration details available for the Enterprise Modeling and Visualization in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-edit-relationship.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-edit-relationship.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,33 +34,33 @@ Role required: sn\_apm\_mdtl\_com.mdtl\_com\_admin
     -   To update an existing relationship, select an relationship, then select **Edit**.
 6.  On the Relationship form, fill in the fields.
 
-    For field information, see [Relationship configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-relationship-form.md).
+    For field information, see [Relationship configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-relationship-form.md).
 
 
-**Parent Topic:**[Configure Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-modeling.md)
+**Parent Topic:**[Configure Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-modeling.md)
 
 **Related topics**  
 
 
-[Show or hide shapes in diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-show-hide-shapes.md)
+[Show or hide shapes in diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-show-hide-shapes.md)
 
-[Add or edit a shape library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-edit-shape-library.md)
+[Add or edit a shape library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-edit-shape-library.md)
 
-[Add a shape library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-add-shape-library-element.md)
+[Add a shape library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-add-shape-library-element.md)
 
-[Create diagram action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-create-diagram-action.md)
+[Create diagram action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-create-diagram-action.md)
 
-[Edit a modeling configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-modeling-menu.md)
+[Edit a modeling configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-edit-modeling-menu.md)
 
-[Add or edit an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-edit-entity.md)
+[Add or edit an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-edit-entity.md)
 
-[Add or update shape icon for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-update-entity-icon.md)
+[Add or update shape icon for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-update-entity-icon.md)
 
-[View relationships configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-relationships.md)
+[View relationships configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-relationships.md)
 
-[View all entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-entity-config.md)
+[View all entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-entity-config.md)
 
-[View configuration for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-modeling-config.md)
+[View configuration for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-modeling-config.md)
 
-[View all shape libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-shape-libraries.md)
+[View all shape libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-shape-libraries.md)
 

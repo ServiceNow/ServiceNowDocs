@@ -2,7 +2,7 @@
 title: Delay incidents
 description: Configure delay rules to postpone incident creation for alerts that may resolve automatically or represent transient conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/delay-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/delay-incidents.html
 release: australia
 product: Event Management
 classification: event-management
@@ -43,7 +43,7 @@ Delay incident rules help reduce unnecessary incident creation by waiting for a 
 
     The Respond to alerts page opens.
 
-5.  Follow the steps in [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
+5.  Follow the steps in [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md).
 
     **Note:** To modify the wait time in an existing automation, open the automation and update the wait time under **Create incident and other response actions**. Ensure you select **Create Incident \(Advanced\)** — the delay configuration form is only available through this option.
 

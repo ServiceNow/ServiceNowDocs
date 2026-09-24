@@ -2,7 +2,7 @@
 title: Planned Task Relationship form
 description: Learn about the fields of planned task relationship form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/planned-task-relationship-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/planned-task-relationship-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -27,5 +27,5 @@ Learn about the fields of planned task relationship form.
 **Related topics**  
 
 
-[Modify a project task dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ModifyProjectTaskDependencies.md)
+[Modify a project task dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ModifyProjectTaskDependencies.md)
 

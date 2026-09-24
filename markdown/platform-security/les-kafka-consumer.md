@@ -2,7 +2,7 @@
 title: Kafka consumer
 description: Use guided setup to step through the initial configuration of LES for Kafka consumers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-kafka-consumer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-kafka-consumer.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,10 +30,10 @@ The categories page contains an overview and descriptions of the categories and 
 
 Complete the tasks under each category by following the setup instructions.
 
--   **[Guided setup for Kafka consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-guided-setup-kafka.md)**  
+-   **[Guided setup for Kafka consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-guided-setup-kafka.md)**  
 Implement the following steps for a complete guided setup for Kafka consumers.
 
-**Parent Topic:**[Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-configure.md)
+**Parent Topic:**[Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-configure.md)
 
 **Related topics**  
 

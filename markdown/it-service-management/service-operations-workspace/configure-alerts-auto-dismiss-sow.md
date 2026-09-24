@@ -2,7 +2,7 @@
 title: Configure alerts in Service Operations Workspace
 description: Configure the alert and notification messages in Service Operations Workspace \(SOW\) using UI Builder to automatically dismiss within a specified time and automatically expand the alert notification content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-alerts-auto-dismiss-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configure-alerts-auto-dismiss-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -167,5 +167,5 @@ Select the check box to automatically expand the alert content in the alert noti
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

@@ -2,7 +2,7 @@
 title: Map the Microsoft Defender for Endpoint indicator types
 description: Map the ServiceNow Observable type with the Microsoft Defender for Endpoint indicator type. This mapping would be used in Observable Enrichment and Create Indicator actions in Microsoft Defender.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/map-the-ms-defender-for-endpoint-indicator-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/map-the-ms-defender-for-endpoint-indicator-types.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

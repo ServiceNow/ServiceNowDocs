@@ -2,7 +2,7 @@
 title: Hard Savings YTD metric calculation
 description: Hard Savings YTD \(Year-to-Date\) shows the total realized savings from pipeline projects that were closed and completed within the current calendar year. These are confirmed, negotiated savings — not estimates or projections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-hard-savings-ytd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-hard-savings-ytd.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -101,5 +101,5 @@ The final aggregation sums the prorated values:
 |PIPE-003|$730,000.00|
 |**Total Hard Savings YTD**|**$1,034,000.00**|
 
-**Parent Topic:**[Pipeline management tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-mgmt-tab.md)
+**Parent Topic:**[Pipeline management tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-mgmt-tab.md)
 

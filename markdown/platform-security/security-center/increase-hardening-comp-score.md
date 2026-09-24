@@ -2,7 +2,7 @@
 title: Increase hardening compliance score
 description: Increase your hardening compliance score by ensuring that the hardening settings are compliant with the system's recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/increase-hardening-comp-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/increase-hardening-comp-score.html
 release: australia
 product: Security Center
 classification: security-center
@@ -41,5 +41,5 @@ Identify non-compliant hardening settings with the highest score impact on your 
     Hardening scores are rounded up. For example, a score of 86.75% will be rounded up to 87.
 
 
-**Parent Topic:**[Hardening compliance score trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/score-trend.md)
+**Parent Topic:**[Hardening compliance score trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/score-trend.md)
 

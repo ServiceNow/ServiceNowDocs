@@ -2,7 +2,7 @@
 title: Configure case or incident summarization in the AI Admin Hub console
 description: Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields and customize the prompt output for copies of the record summarization skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -19,7 +19,7 @@ Configure case or incident summarization by using the guided setup in the AI Adm
 
 ## Before you begin
 
-You can only customize the input data and prompt output for a copy of a record summarization skill. To learn more about making a skill copy, see [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md). After you create a skill copy, you can learn the steps to complete the skill setup here.
+You can only customize the input data and prompt output for a copy of a record summarization skill. To learn more about making a skill copy, see [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md). After you create a skill copy, you can learn the steps to complete the skill setup here.
 
 Role required: nsa\_admin
 
@@ -101,7 +101,7 @@ By default, many settings for record summarization skill are optimized for gener
 
         For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-    -   **ServiceNow Otto panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   **ServiceNow Otto panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-now-assist-panel.md).
 
         For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 
@@ -120,5 +120,5 @@ Your customized version of case or incident summarization is active on the insta
 
 Analyze your skill performance on the AI Admin Hub console to help determine the success of the new version of the skill. Learn more about tracking Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-**Parent Topic:**[Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
+**Parent Topic:**[Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
 

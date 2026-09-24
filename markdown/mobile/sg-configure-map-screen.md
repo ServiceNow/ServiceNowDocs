@@ -2,7 +2,7 @@
 title: Configure a map screen
 description: Configure a map screen so that your users can see location-based information on a map from their mobile app. The map highlights points of interest, and users can switch between a map view and list view to help them understand the information displayed on a map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-configure-map-screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-configure-map-screen.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -72,7 +72,7 @@ Fetch type
 
 </td><td>
 
-Fetch type settings determine when data is loaded into your screen. The following fetch types are available: `prefetch`, `on-demand`, `background`, and `dynamic`. For more information, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/applet-fetch-types.md).
+Fetch type settings determine when data is loaded into your screen. The following fetch types are available: `prefetch`, `on-demand`, `background`, and `dynamic`. For more information, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/applet-fetch-types.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Empty state
 
 </td><td>
 
-You can indicate to users, with the aid of a visual display, that the map does not contain any points of interest. For more information, see [Empty state display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/empty-state-handling.md).
+You can indicate to users, with the aid of a visual display, that the map does not contain any points of interest. For more information, see [Empty state display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/empty-state-handling.md).
 
 </td></tr><tr><td>
 
@@ -213,7 +213,7 @@ Option to determine whether the sort and order of a list is displayed in an asce
 
         3.  From the **Location** field, select a reference to the location table. The selected option shows as a location on the map.
         4.  Select a pin color by either selecting a color from the grid or enter a hexadecimal value, and then select **Save**.
-9.  Choose an existing data item or create a new data item. To create a new data item, see [Data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-data-item.md).
+9.  Choose an existing data item or create a new data item. To create a new data item, see [Data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-data-item.md).
 
     The data item returns data from a single table to be used for the map location item stream.
 
@@ -230,5 +230,5 @@ The configured map screen displays information from your data item plotted on a 
 
 ## What to do next
 
-You can add your map screen within a record section and an icon section. When a user taps on the relevant icon, they are navigated to the configured map screen. For more information, see [Configure a record UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-item.md) and [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-navig.md).
+You can add your map screen within a record section and an icon section. When a user taps on the relevant icon, they are navigated to the configured map screen. For more information, see [Configure a record UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-ui-section-config-item.md) and [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-ui-section-config-navig.md).
 

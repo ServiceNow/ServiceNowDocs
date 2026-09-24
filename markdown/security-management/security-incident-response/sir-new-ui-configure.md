@@ -2,7 +2,7 @@
 title: Configure the Security Analyst Workspace
 description: Configure the user interface of the Incident record in the Security Analyst Workspace to specify the fields you want to display.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-new-ui-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sir-new-ui-configure.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,7 +46,7 @@ Specify the fields to be displayed in your Incident record and the order in whic
 
     **Note:**
 
-    -   Certain fields are hidden by default in the Incident and Response Task banners. Change the fields that are hidden or displayed by modifying the `sn_app_secops_ui.form.excluded_fields.incident` and `sn_app_secops_ui.form.excluded_fields.response_task` properties as described in [Security Analyst Workspace properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-workspace-properties.md).
+    -   Certain fields are hidden by default in the Incident and Response Task banners. Change the fields that are hidden or displayed by modifying the `sn_app_secops_ui.form.excluded_fields.incident` and `sn_app_secops_ui.form.excluded_fields.response_task` properties as described in [Security Analyst Workspace properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-workspace-properties.md).
     -   Specify the number of fields that can be displayed in the Incident and Response Task banners and on the first line of the Incident banner by setting these properties:
         -   sn\_app\_secops\_ui.task\_summary.single\_summary.limit.incident
         -   sn\_app\_secops\_ui.task\_summary.single\_summary.limit.response\_task
@@ -68,5 +68,5 @@ Specify the fields to be displayed in your Incident record and the order in whic
 
 ## Result
 
-The security incident and response task banners are updated in the Security Analyst Workspace \([Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui.md)\).
+The security incident and response task banners are updated in the Security Analyst Workspace \([Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-new-ui.md)\).
 

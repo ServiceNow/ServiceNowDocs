@@ -2,7 +2,7 @@
 title: Set up assignment groups for Care Team Operations for Facilities
 description: Associate assignment groups within your healthcare facilities organizations so work orders can be fulfilled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-assignment-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-facilities-assignment-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Order orchestration
 description: Order orchestration begins after a customer or service order is decomposed into smaller, individual product and service orders. The primary goal of order orchestration is to promote accurate, timely, and efficient fulfillment of orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-orchestration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-orchestration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,15 +35,15 @@ An order orchestration plan typically includes the following steps:
 -   Supplier and carrier coordination: Engaging third-party vendors and logistics partners.
 -   Fulfillment and delivery tracking: Monitoring shipment progress and delivery performance.
 
--   **[Using the order orchestration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/orchestration-plans-for-order-fulfillment.md)**  
+-   **[Using the order orchestration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/orchestration-plans-for-order-fulfillment.md)**  
 By using the order orchestration user interface \(UI\), you can make sure that you do all the tasks that are required to fulfill your customer orders. You can also view the complete order hierarchy, the status of the associated decomposed orders, the order line items, and the order tasks.
 
-**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

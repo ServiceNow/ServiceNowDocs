@@ -2,7 +2,7 @@
 title: Enable record producer for external user
 description: External users can submit requests through the External Legal Service Center catalog after you configure the record producer availability, access roles, and catalog topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/external-legal-portal/lsd-ext-portal-config-intake-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/external-legal-portal/lsd-ext-portal-config-intake-form.html
 release: australia
 product: External Legal Portal
 classification: external-legal-portal
@@ -22,7 +22,7 @@ Role required: sn\_lg\_ops.legal\_admin
 
 ## About this task
 
-You can create record producers for external users to submit requests through the External Legal Service Center. For more information, see [Managing record producers for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/record-producers-legal-services.md).
+You can create record producers for external users to submit requests through the External Legal Service Center. For more information, see [Managing record producers for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/record-producers-legal-services.md).
 
 ## Procedure
 
@@ -79,5 +79,5 @@ The record producer is available for the external users in the External Legal Se
 
 ## What to do next
 
-If you want **Save as Draft** option to be enabled for a record producer, enable the system property **glide.sc.enable.save\_as\_draft.portal.elp**. For more information, see [Enable save as draft option for record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/external-legal-portal/lsd-ext-portal-enable-draft.md).
+If you want **Save as Draft** option to be enabled for a record producer, enable the system property **glide.sc.enable.save\_as\_draft.portal.elp**. For more information, see [Enable save as draft option for record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/external-legal-portal/lsd-ext-portal-enable-draft.md).
 

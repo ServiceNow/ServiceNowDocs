@@ -2,7 +2,7 @@
 title: Alumni profile
 description: Update your personal details and maintain your employment history in your Alumni profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/alumni-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/alumni-profile.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -26,7 +26,7 @@ Your latest employment details for all the companies you’ve worked with.
 
 \[Omitted image "alumni-profile-emp-details.png"\] Alt text: Alumni other employment details
 
-For more information, see [Add other employment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/add-other-emp-details.md).
+For more information, see [Add other employment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/add-other-emp-details.md).
 
 ## Past employment details
 
@@ -44,7 +44,7 @@ Your personal details are retrieved and displayed here automatically from your e
 
 \[Omitted image "alumni-profile-personal-details.png"\] Alt text: Personal details
 
-For more information, see [Edit personal details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/edit-personal-details.md).
+For more information, see [Edit personal details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/edit-personal-details.md).
 
 ## Documents
 

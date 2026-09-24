@@ -2,7 +2,7 @@
 title: API calls for navigating sets in ServiceNow CPQ
 description: Understand how to use sets in a headless environment using API calls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/api\_calls\_for\_navigating\_sets\_in\_logik\_io.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/api\_calls\_for\_navigating\_sets\_in\_logik\_io.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

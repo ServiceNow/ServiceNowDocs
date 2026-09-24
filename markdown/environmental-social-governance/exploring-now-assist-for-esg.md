@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Operational Sustainability
 description: With the Operational Sustainability Management application, you can use the skills to automate the collection of operational sustainability metric data from utility bill documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/exploring-now-assist-for-esg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/exploring-now-assist-for-esg.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,21 +34,21 @@ The following generative AI skill and agentic workflows are available in Service
 
 |Skill|Description|User|
 |-----|-----------|----|
-|Document Intelligence for Utility Invoices|Streamlines data management by automating the extraction of utility bill data, including consumption, billing dates, amounts, and units of measurement, within the Operational Sustainability Workspace. For more information, refer to [Document intelligence for utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.md).|sn\_esg\_gen\_ai.docintel\_user|
+|Document Intelligence for Utility Invoices|Streamlines data management by automating the extraction of utility bill data, including consumption, billing dates, amounts, and units of measurement, within the Operational Sustainability Workspace. For more information, refer to [Document intelligence for utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.md).|sn\_esg\_gen\_ai.docintel\_user|
 
 ## What to explore next
 
 To learn more about configuring and using ServiceNow Otto for Operational Sustainability skills, see:
 
--   [Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-now-assist-for-esg.md)
--   [Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-now-assist-for-esg-skills.md)
+-   [Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configure-now-assist-for-esg.md)
+-   [Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-now-assist-for-esg-skills.md)
 
--   **[Document intelligence for utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.md)**  
+-   **[Document intelligence for utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.md)**  
 The AI-driven document intelligence for utility invoices feature automates metric data collection. It automates the metric data collection by extracting utility bill data such as consumption, billing dates, amounts, and units of measurement within the Operational Sustainability Workspace.
--   **[Carbon calculations using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/carbon-calulations-agentic-workflow.md)**  
+-   **[Carbon calculations using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/carbon-calulations-agentic-workflow.md)**  
 Automates the creation of calculated metric definition \(CMD\) records and formulas for Scope 3 carbon emissions categories. Uses AI-powered document analysis and semantic matching to confirm accuracy, reducing manual effort for ESG program managers.
--   **[Supporting information for ServiceNow Otto for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/supporting-information-for-now-assist-for-esg.md)**  
+-   **[Supporting information for ServiceNow Otto for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/supporting-information-for-now-assist-for-esg.md)**  
 Get a quick overview of the important information that is related to the ServiceNow Otto for Operational Sustainability application.
 
-**Parent Topic:**[ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/now-assist-for-esg.md)
+**Parent Topic:**[ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/now-assist-for-esg.md)
 

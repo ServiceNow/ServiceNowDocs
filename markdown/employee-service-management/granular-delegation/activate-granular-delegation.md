@@ -2,7 +2,7 @@
 title: Activate Granular Delegation
 description: You can activate the Granular Delegation plugin \(com.glide.granular\_service\_delegation\) for the ServiceNow AI Platform if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/granular-delegation/activate-granular-delegation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/granular-delegation/activate-granular-delegation.html
 release: australia
 product: Granular Delegation
 classification: granular-delegation

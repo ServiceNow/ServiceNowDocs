@@ -2,7 +2,7 @@
 title: Customer Service Investment Portal
 description: The Customer Service Management integration with Project Portfolio Management provides access to a CSM-specific view of the Investment Portal, which displays customer projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-investment-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-ppm-investment-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

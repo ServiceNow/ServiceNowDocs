@@ -2,7 +2,7 @@
 title: Elasticsearch integration configuration fields
 description: Description of the fields on the Elasticsearch integration configuration forms for Health Log Analytics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-elastic-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/il-connector-hla-elastic-fields.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -17,7 +17,7 @@ breadcrumb: [Integration configuration fields, Health Log Analytics reference, H
 
 Description of the fields on the Elasticsearch integration configuration forms for Health Log Analytics.
 
-For the Elasticsearch integration setup procedure, see [Set up an Elasticsearch integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-elasticsearch.md).
+For the Elasticsearch integration setup procedure, see [Set up an Elasticsearch integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-elasticsearch.md).
 
 <table id="table_r45_gzv_mcc"><thead><tr><th>
 

@@ -2,7 +2,7 @@
 title: Virtual Agent notifications supported in Slack
 description: Slack app supports Virtual Agent notifications during conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-notif-slack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-notif-slack.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -31,7 +31,7 @@ Slack app supports Virtual Agent notifications during conversations.
 
         -   Perform or skip the actions for the notification. If users decide to skip the actions, users can return later to the notification by using the **show notification** command.
 
-For detailed information on Virtual Agent notifications, see [Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
+For detailed information on Virtual Agent notifications, see [Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
 
-**Parent Topic:**[Virtual Agent features supported in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-slack-other-features.md)
+**Parent Topic:**[Virtual Agent features supported in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-slack-other-features.md)
 

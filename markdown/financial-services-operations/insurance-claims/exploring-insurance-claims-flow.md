@@ -2,7 +2,7 @@
 title: Exploring Insurance claims
 description: Learn how to create and configure a claims workflow for your organization by using the Insurance claims application. Your first notice of loss \(FNOL\) representatives, adjusters, processors, and managers can use this claims workflow to create and manage claims.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/exploring-insurance-claims-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/exploring-insurance-claims-flow.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -50,16 +50,16 @@ Here's a typical workflow for an insurance claim in the Insurance claims framewo
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Versatile framework that adapts to any single policy P&amp;C claims without the need to create case types or flows|[Using Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/using-insurance-claims-flow.md)|Claims administrators, FNOL representatives, claims processors, claims adjusters, or claims managers|
-|Rapid configuration that enables the setup of a comprehensive end-to-end claims workflow quickly and easily|[Setting up Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/setting-up-insurance-claims-flow.md)|Claims administrators|
-|Support for single and multiple adjusters|[Work on Insurance claims adjuster tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/manage-an-insurance-claims-flow-case.md)|Claims adjusters or claims managers|
-|Customizable persona-based workspaces to fit specific roles and responsibilities|[Insurance claims landing pages and workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-claims-flow-workspace.md)|Claims administrators, FNOL representatives, claims processors, claims adjusters, or claims managers|
+|Versatile framework that adapts to any single policy P&amp;C claims without the need to create case types or flows|[Using Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/using-insurance-claims-flow.md)|Claims administrators, FNOL representatives, claims processors, claims adjusters, or claims managers|
+|Rapid configuration that enables the setup of a comprehensive end-to-end claims workflow quickly and easily|[Setting up Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/setting-up-insurance-claims-flow.md)|Claims administrators|
+|Support for single and multiple adjusters|[Work on Insurance claims adjuster tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/manage-an-insurance-claims-flow-case.md)|Claims adjusters or claims managers|
+|Customizable persona-based workspaces to fit specific roles and responsibilities|[Insurance claims landing pages and workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/insurance-claims-flow-workspace.md)|Claims administrators, FNOL representatives, claims processors, claims adjusters, or claims managers|
 
 ## What to explore next
 
 To learn more about configuring and using Insurance claims, see:
 
--   [Setting up Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/setting-up-insurance-claims-flow.md)
--   [Using Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/using-insurance-claims-flow.md)
--   [Insurance claims reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-claims-flow-reference.md)
+-   [Setting up Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/setting-up-insurance-claims-flow.md)
+-   [Using Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/using-insurance-claims-flow.md)
+-   [Insurance claims reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/insurance-claims-flow-reference.md)
 

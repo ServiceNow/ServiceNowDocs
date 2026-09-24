@@ -2,7 +2,7 @@
 title: IP address field type
 description: The IP Address \(Validated IPV4, IPV6\) \[ip\_addr\] field type stores valid IPv4 and IPv6 addresses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r-IPAddressFieldType.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r-IPAddressFieldType.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ The following are examples of valid IP addresses:
 
 The IP address `ip_addr` field is a Variable Character \(VARCHAR\) field with a length of 40 characters. The values are normally stored in standard \(dot-decimal or canonical\) notation for both IPv4 and IPv6 addresses regardless of the notation you use when you input values in the field.
 
-For example, if you enter an IPv6 address in a non-canonical format \(expanded or any other valid formats per [IETF RFC5952](https://tools.ietf.org/html/rfc5952)\), by default, the system will store it in canonical format unless an IP Data Control attribute value is defined on that column with a different address format. See the \[ip\_data\_control\] glide attribute section in [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md) for more details.
+For example, if you enter an IPv6 address in a non-canonical format \(expanded or any other valid formats per [IETF RFC5952](https://tools.ietf.org/html/rfc5952)\), by default, the system will store it in canonical format unless an IP Data Control attribute value is defined on that column with a different address format. See the \[ip\_data\_control\] glide attribute section in [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md) for more details.
 
 ## Support for data migration
 

@@ -2,7 +2,7 @@
 title: Return to the playbook to continue pending asset attestation activities
 description: Resume work on the incomplete asset attestation activities in the playbook by using the attestation schedule details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/continue-with-attestation-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/continue-with-attestation-playbook.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -37,7 +37,7 @@ The Create asset attestation playbook is displayed for the schedule number that 
 
 ## What to do next
 
-Complete all the pending activities in the playbook. For details, see [Create an asset attestation or a schedule using the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-attestation-using-playbook.md).
+Complete all the pending activities in the playbook. For details, see [Create an asset attestation or a schedule using the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-attestation-using-playbook.md).
 
-**Parent Topic:**[Playbook for asset attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/playbook-asset-attestation-ham.md)
+**Parent Topic:**[Playbook for asset attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/playbook-asset-attestation-ham.md)
 

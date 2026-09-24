@@ -2,7 +2,7 @@
 title: Exploring Developer Sandboxes
 description: Developer Sandboxes provide isolated development environments that enable parallel building and testing on top of a shared development instance. Use sandboxes to reduce code conflicts, accelerate delivery, and safely test configurations without affecting other team members' work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/exploring-sandboxes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/developer-sandboxes/exploring-sandboxes.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -43,7 +43,7 @@ Developer Sandboxes enables better development in the following ways:
 
 The Sandbox Management home dashboard displays the total, available, and allocated sandboxes in your instance. The dashboard also displays information relevant to each sandbox, including, the status, data utilization, owner, last accessed date, and when the sandbox was allocated.
 
-Check your entitlements to determine whether you have access to Developer Sandboxes. For more information, see [Developer Sandboxes entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-entitlements.md).
+Check your entitlements to determine whether you have access to Developer Sandboxes. For more information, see [Developer Sandboxes entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-entitlements.md).
 
 **Warning:** Because sandboxes are retired automatically after an upgrade or clone, ensure any work that you want to keep is preserved before upgrading or cloning.
 
@@ -51,13 +51,13 @@ Check your entitlements to determine whether you have access to Developer Sandbo
 -   For clones, you must manually save and restore all work in sandboxes.
 -   Any custom table configuration changes or fixes must be reapplied after an upgrade. Contact Now Support to open a case.
 
-For details, see [Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md).
+For details, see [Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md).
 
-Build Agent is supported in Developer Sandboxes. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+Build Agent is supported in Developer Sandboxes. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md).
 
 ## Integrate sandboxes with source control
 
-Developer Sandboxes provide an isolated environment that integrates with source control, such as Git. Using merge tools helps eliminate conflicts and enables parallel development. For more information, see [Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sandboxes-source-control.md).
+Developer Sandboxes provide an isolated environment that integrates with source control, such as Git. Using merge tools helps eliminate conflicts and enables parallel development. For more information, see [Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sandboxes-source-control.md).
 
 ## Developer Sandboxes users
 
@@ -68,7 +68,7 @@ Developer Sandboxes provide an isolated environment that integrates with source 
 |Sandbox managers|Sandbox managers can administer the lifecycle of all sandboxes without full admin privileges.|
 |Sandbox users|Sandbox users can request and view Developer Sandboxes.|
 
-Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-installing.md).
+Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
 
 **Note:** Instances with vanity URLs support SSO.
 
@@ -120,7 +120,7 @@ Reduce merge conflicts with source control
 
 </td><td>
 
-Enables integration with source control for more successful co-development. For more information, see [Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sandboxes-source-control.md).
+Enables integration with source control for more successful co-development. For more information, see [Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sandboxes-source-control.md).
 
 </td><td>
 
@@ -132,7 +132,7 @@ Reuse sandbox templates
 
 </td><td>
 
-Enables the optional setup of a repository configuration. You can create a template once, and reuse any existing templates when creating sandboxes. For more information, see [Using sandbox templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/create-sandbox-template.md).
+Enables the optional setup of a repository configuration. You can create a template once, and reuse any existing templates when creating sandboxes. For more information, see [Using sandbox templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/create-sandbox-template.md).
 
 </td><td>
 
@@ -168,5 +168,5 @@ Enables you to allocate a sandbox to yourself, or for an admin to allocate a san
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about installing and configuring Developer Sandboxes, refer to [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-installing.md).
+To learn more about installing and configuring Developer Sandboxes, refer to [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
 

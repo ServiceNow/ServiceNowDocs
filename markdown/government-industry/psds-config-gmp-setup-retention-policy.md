@@ -2,7 +2,7 @@
 title: Configure a retention policy for grant cases in Grants Management
 description: Set up an Archive Rule to automatically purge active grant cases and their associated data after a set period of time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-setup-retention-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-setup-retention-policy.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -41,9 +41,9 @@ Role required: admin
 
 All cases that match your retention criteria are now purged from the primary table to an archive table.
 
-**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-foundation.md)
+**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-foundation.md)
 
-**Previous topic:**[Toggle character count display for form fields in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-config-show-character-count.md)
+**Previous topic:**[Toggle character count display for form fields in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gmp-config-show-character-count.md)
 
-**Next topic:**[Configure a currency in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-single-currency-setup.md)
+**Next topic:**[Configure a currency in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-single-currency-setup.md)
 

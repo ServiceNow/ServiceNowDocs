@@ -2,7 +2,7 @@
 title: Ensure consistent invoice spend categories during PO matching
 description: Maintain aligned spend categories when matching invoice lines with purchase order lines by applying the spend category from the PO line to the corresponding invoice line.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/invoice-po-spend-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/invoice-po-spend-categories.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,5 +22,5 @@ During matching, the spend category from the PO line is applied to the correspon
 
 For older invoice lines created before SPO installation, the system generates updated predictions to populate missing spend categories.
 
-**Parent Topic:**[Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md)
+**Parent Topic:**[Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md)
 

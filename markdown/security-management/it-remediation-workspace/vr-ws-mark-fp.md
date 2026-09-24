@@ -2,7 +2,7 @@
 title: Request a false positive for a vulnerable item or remediate task
 description: Indicate a false positive request for host vulnerable item \(VIT\), application vulnerable item \(AVIT\), container vulnerable item \(CVIT\), or remediation task \(VUL, AVUL, CVUL or CRG\) in the IT Remediation Workspace. A false positive is a condition where a scanner incorrectly reports that a vulnerability exists in the system due to situations such as an incorrect classification, improper logic, or an algorithm in the scanner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/vr-ws-mark-fp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/it-remediation-workspace/vr-ws-mark-fp.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -27,7 +27,7 @@ Role required:
 
 ## About this task
 
-For information on how to request a false positive for a set of test results, see [Request a false positive for a set of test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vmws-tr-false-positive.md).
+For information on how to request a false positive for a set of test results, see [Request a false positive for a set of test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/vmws-tr-false-positive.md).
 
 ## Procedure
 
@@ -45,7 +45,7 @@ For information on how to request a false positive for a set of test results, se
 
 7.  Provide additional information about your request to the approver and select **Submit**.
 
-    **Note:** The Take Questionnaire modal appears only when the **Enable questionnaire to mark false positive** check box is selected in the Exception Management Configuration form. For more information, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/configure-exception-management-settings.md),[Configure Exception Management for Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/configure-exception-management-application-vulnerability-response.md), [Configure Exception Management for Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/configure-exception-management-for-container-vulnerability-response.md), and [Configure Exception Management for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/configure-exception-management-configuration-compliance.md).
+    **Note:** The Take Questionnaire modal appears only when the **Enable questionnaire to mark false positive** check box is selected in the Exception Management Configuration form. For more information, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/configure-exception-management-settings.md),[Configure Exception Management for Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/configure-exception-management-application-vulnerability-response.md), [Configure Exception Management for Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/container-vulnerability-response/configure-exception-management-for-container-vulnerability-response.md), and [Configure Exception Management for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/configure-exception-management-configuration-compliance.md).
 
 
 ## Result
@@ -102,5 +102,5 @@ The state of the remediation task and its records reverts to previous state.
 **Related topics**  
 
 
-[False Positive overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-false-positive.md)
+[False Positive overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/vr-false-positive.md)
 

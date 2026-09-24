@@ -2,7 +2,7 @@
 title: Components installed with Supplier Case Management
 description: Several types of components are installed with activation of Supplier Case Management, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -16,7 +16,7 @@ breadcrumb: [Install Supplier Case Management, Configure, Supplier Lifecycle Ope
 
 Several types of components are installed with activation of Supplier Case Management, including tables and user roles.
 
-The user roles and tables, even though installed along with Supplier Case Management, reside in the Supplier Common Architecture application. For more information, see [Supplier Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-common.md).
+The user roles and tables, even though installed along with Supplier Case Management, reside in the Supplier Common Architecture application. For more information, see [Supplier Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-common.md).
 
 **Note:** The following roles are installed with Finance Common Architecture \(com.sn\_fin\), which is installed as a dependent plugin:
 
@@ -270,12 +270,12 @@ Organization Tax Details
 Stores the tax registration details of the supplier.**Note:** This table has been added in the Finance Common Architecture \(com.sn\_fin\) plugin.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
+</table>**Parent Topic:**[Install Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
 
 **Related topics**  
 
 
-[Application plugin installation sequence in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.md)
+[Application plugin installation sequence in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.md)
 
-[Explicit Roles in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-explicit-roles-plugin.md)
+[Explicit Roles in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-explicit-roles-plugin.md)
 

@@ -2,7 +2,7 @@
 title: NowServiceError class - Android
 description: The NowServiceError sealed class that returns NowSDK errors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowServiceErrorAndroidAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowServiceErrorAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -35,7 +35,7 @@ SDKNotConfigured
 
 </td><td>
 
-The NowSDK was not configured. [`NowSDK.configure()`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowSDKAndroidAPI.md) was not called before creating the service.
+The NowSDK was not configured. [`NowSDK.configure()`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowSDKAndroidAPI.md) was not called before creating the service.
 
 </td></tr><tr><td>
 
@@ -51,7 +51,7 @@ ServiceDisabled
 
 </td><td>
 
-The associated service is turned off.If returned by [NowVoiceSDK - makeVoiceService\(instanceURL: URL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md), voice is turned off on the instance. To use NowVoice, `sdk.voice.enabled` must be `true`.
+The associated service is turned off.If returned by [NowVoiceSDK - makeVoiceService\(instanceURL: URL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md), voice is turned off on the instance. To use NowVoice, `sdk.voice.enabled` must be `true`.
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ ServiceSettingsInvalid
 
 </td><td>
 
-Unable to process the service settings.If returned by [NowVoiceSDK - makeVoiceService\(instanceURL: URL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md), the `sdk.voice.enabled` key is missing from the instance settings.
+Unable to process the service settings.If returned by [NowVoiceSDK - makeVoiceService\(instanceURL: URL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md), the `sdk.voice.enabled` key is missing from the instance settings.
 
 </td></tr><tr><td>
 
@@ -78,5 +78,5 @@ ServiceSettingsRetrievalFailed
 A network or authentication error occurred. Unable to retrieve the NowSDK service settings from the ServiceNow instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

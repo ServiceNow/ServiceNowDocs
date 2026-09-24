@@ -2,7 +2,7 @@
 title: Manually trigger flows or subflows in SAP Ariba \(Inbound\)
 description: You can manually trigger flows or subflows in SAP Ariba on demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/manually-trigger-subflows-sap-ariba.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/manually-trigger-subflows-sap-ariba.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -55,7 +55,7 @@ Role required: sn\_fcms\_intg.admin
     The flow or subflow gets executed.
 
 
-**Parent Topic:**[Use flows in SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/use-flows-sap-ariba.md)
+**Parent Topic:**[Use flows in SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/use-flows-sap-ariba.md)
 
 **Related topics**  
 

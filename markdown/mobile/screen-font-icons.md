@@ -2,7 +2,7 @@
 title: Screen font icons
 description: Use screen font icons for lists or section destinations. You can use them to represent a work flow or a screen that you want users to navigate to. Screen font icons are in the now-mobile-icons font family.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/screen-font-icons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/screen-font-icons.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -147,5 +147,5 @@ Use screen font icons for lists or section destinations. You can use them to rep
 |Document-Checklist-Search|e920|Australia|\[Omitted image "mab-icon-screen-doc-check-search.png"\] Alt text: Document-Checklist-Search example| |
 |Rectangle-Search|e921|Australia|\[Omitted image "mab-icon-screen-rect-search.png"\] Alt text: Rectange-Search example| |
 
-**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md)
+**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-icon-reference.md)
 

@@ -2,7 +2,7 @@
 title: Configure logging for the PowerShell step
 description: Add log messages to the scripts in your PowerShell step. Use log levels for improved logging and debugging.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-logging-powershell-step.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/configure-logging-powershell-step.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -102,7 +102,7 @@ The new logs are available in the MID agent log and can be downloaded from the M
 
 If you set the system property to view the logs in the instance, you can see them in the **Flow engine log entries** tab of the Flow engine context record. For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
 
-**Parent Topic:**[PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/powershell-step-action-designer.md)
+**Parent Topic:**[PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/powershell-step-action-designer.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create assignment rules for an AI specialist
 description: Route work to an AI specialist using assignment rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-assign-rules-aiw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-assign-rules-aiw.html
 release: australia
 topic_type: task
 last_updated: "2026-04-08"
@@ -45,6 +45,6 @@ Your AI specialist is now automatically routed cases that match the filter condi
 
 After your AI specialist receives work, you can track its activity or performance.
 
--   [Track AI specialist activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/view-aiw-activity.md)
--   [View AI specialist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/view-aiw-performance.md)
+-   [Track AI specialist activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/view-aiw-activity.md)
+-   [View AI specialist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/view-aiw-performance.md)
 

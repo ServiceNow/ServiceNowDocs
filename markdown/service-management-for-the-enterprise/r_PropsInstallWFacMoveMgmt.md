@@ -2,7 +2,7 @@
 title: Properties installed with Facilities Move Management
 description: Properties control the behavior of the Facilities Move Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_PropsInstallWFacMoveMgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_PropsInstallWFacMoveMgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -23,5 +23,5 @@ Facilities Move Management adds the following properties.
 |The color to use for non-selected segments \[facilities.enterprise.move.mpt.other.color\]|The color to use for non-selected segments|
 |The color to use for highlighting open seats on the move planning tool \[facilities.enterprise.move.mpt.open.seats.color\]|The color to use for highlighting open seats on the move planning tool|
 
-**Parent Topic:**[Installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacMoveMgmt.md)
+**Parent Topic:**[Installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacMoveMgmt.md)
 

@@ -2,7 +2,7 @@
 title: Prerequisites for the FHIR integration
 description: Before you activate the EMR Provider Directory Sync, confirm that its dependent applications are installed and that the HL7 FHIR Spoke connection to your FHIR server is configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-prerequisites.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-prerequisites.html
 release: australia
 topic_type: task
 last_updated: "2026-06-16"
@@ -44,5 +44,5 @@ The EMR Provider Directory Sync writes to tables owned by several Healthcare Ope
 
 ## Result
 
-With the prerequisites in place, you can activate the sync schedule. See [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-activate.md).
+With the prerequisites in place, you can activate the sync schedule. See [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-activate.md).
 

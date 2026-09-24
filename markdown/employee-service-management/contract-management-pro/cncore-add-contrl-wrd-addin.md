@@ -2,7 +2,7 @@
 title: Add document content controls using Microsoft Word add-in for ServiceNow Contracts
 description: Add content controls using the Microsoft Word add-in for ServiceNow Contracts. Content controls act as placeholders in contract templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -34,16 +34,16 @@ You can also switch application scope and log out using the following options:
     **Note:** If you are directed to platform page instead of Word Add-in page when you re-login, follow the steps mentioned in [this KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2025171) to resolve the issue.
 
 
--   **[Configure metadata for fields, variables, and variables sets in a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-add-metadata.md)**  
+-   **[Configure metadata for fields, variables, and variables sets in a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-addin-add-metadata.md)**  
 As a contract configurator, add and configure metadata for fields, variable, and variable sets to pre-fill the information in the contract document.
--   **[Configuring signatories in Contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-sign-addin.md)**  
+-   **[Configuring signatories in Contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-sign-addin.md)**  
 For signatories to add their signatures in the contract document, you can either create signature blocks or configure participants in a contract template with placeholders.
--   **[Map clauses and clause variations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-add-clauses.md)**  
+-   **[Map clauses and clause variations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-addin-add-clauses.md)**  
 As a contract configurator, add clause and clause variations to a contract using the Microsoft Word add-in for ServiceNow Contracts.
--   **[Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-table.md)**  
+-   **[Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-addin-table.md)**  
 Use the ServiceNow Contracts add-in to map a contract table to a source table in your ServiceNow instance to determine the data that will be added in a contract document. When a contract document is generated from the template, the rows and columns are dynamically added in the mapped table of the contract document.
 
-**Parent Topic:**[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
+**Parent Topic:**[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
 
 **Related topics**  
 

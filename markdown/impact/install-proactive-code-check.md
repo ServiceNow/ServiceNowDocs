@@ -2,7 +2,7 @@
 title: Use Proactive Code Check for the Impact Store Application
 description: Developers can identify issues and prevent defects before they are deployed to production.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/install-proactive-code-check.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/install-proactive-code-check.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,5 +49,5 @@ Role required: admin
     New findings are referenced to the specific Update Set from which they originated, including findings related to child update sets, allowing for easy navigation between findings and the update set in the user interface.
 
 
-**Parent Topic:**[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/proactive-code-check.md)
+**Parent Topic:**[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/proactive-code-check.md)
 

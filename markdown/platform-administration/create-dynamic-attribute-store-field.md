@@ -2,7 +2,7 @@
 title: Create a dynamic attribute store field
 description: Store dynamic attributes on a record using a dynamic attribute store field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-dynamic-attribute-store-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-dynamic-attribute-store-field.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -59,9 +59,9 @@ You can create a dynamic attribute store field to store one or more dynamic attr
 Develop your dynamic schema by creating dynamic attributes and dynamic categories. You can build out the schema using either of the following methods:
 
 -   Add dynamic attributes and dynamic categories to the dynamic namespace that's currently associated with the store field you created. Refer to the following topics:
-    -   [Create a dynamic attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/add-dynamic-attributes.md)
-    -   [Create a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-dynamic-category.md)
+    -   [Create a dynamic attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/add-dynamic-attributes.md)
+    -   [Create a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-dynamic-category.md)
 -   Add dynamic attributes and dynamic categories to a new dynamic namespace and then associate that namespace with the store field that you created. Refer to the following topics:
-    -   [Create a dynamic namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-dynamic-namespace.md)
-    -   [Associate a dynamic attribute store with a different namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/update-dynamic-namespace-dynamic-attribute-store.md)
+    -   [Create a dynamic namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-dynamic-namespace.md)
+    -   [Associate a dynamic attribute store with a different namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/update-dynamic-namespace-dynamic-attribute-store.md)
 

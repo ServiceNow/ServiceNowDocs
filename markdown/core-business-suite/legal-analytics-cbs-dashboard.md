@@ -2,7 +2,7 @@
 title: Legal analytics on the CBS dashboard
 description: The Legal tab on the Core Business Suite Analytics dashboard tracks open legal case volume and resolution trends, helping managers identify unassigned cases and monitor legal request activity over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/legal-analytics-cbs-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/legal-analytics-cbs-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -39,5 +39,5 @@ The Performance trends section tracks case volume, resolution rates, and self-se
 |Mean time to resolve|Average number of days to resolve a legal case over the selected period. No data is available when no cases have been resolved in the period.|
 |Total cases created by case type|A chart showing case volume broken down by legal case type. Case types include: Legal Request.|
 
-**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-analytics-overview.md)
+**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-analytics-overview.md)
 

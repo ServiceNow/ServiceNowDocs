@@ -2,10 +2,10 @@
 title: Combined Industrial Guided Tasks release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Industrial Guided Tasks from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialguidedtasks-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-industrialguidedtasks-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -219,6 +219,8 @@ Australia
 Industrial Guided Tasks is automatically installed when you install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. You can request ICW Mobile from the ServiceNow Store.
 
 
+**Important:** Industrial Guided Tasks is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr></tbody>
 </table>## Additional requirements
 
@@ -371,5 +373,5 @@ Australia
  See [Industrial Guided Tasks](https://www.servicenow.com/docs/access?context=exploring-industrial-guided-tasks&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

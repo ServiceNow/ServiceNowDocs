@@ -2,7 +2,7 @@
 title: Components installed with Customer Engagement Sequences
 description: Several types of components are installed with activation of the Customer Engagement Sequences plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-customer-engagement-sequences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/components-installed-customer-engagement-sequences.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -171,12 +171,12 @@ Stores the sequence task records that are generated when a sequence is triggered
 </td></tr></tbody>
 </table>The Customer Engagement Sequence Task \[sn\_crm\_sequence\_task\] table extends the Task \[task\] table.
 
-**Parent Topic:**[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customer-engagement-sequences-reference.md)
+**Parent Topic:**[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customer-engagement-sequences-reference.md)
 
 **Related topics**  
 
 
-[Install Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-customer-engagement-sequences.md)
+[Install Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-customer-engagement-sequences.md)
 
-[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-engagement-sequences.md)
+[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-customer-engagement-sequences.md)
 

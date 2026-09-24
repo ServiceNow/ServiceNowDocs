@@ -2,7 +2,7 @@
 title: Connect an existing document in Microsoft OneDrive to policy
 description: Enable redlining in a policy document that is existing in your Microsoft OneDrive instead of creating a document in Microsoft OneDrive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/connect-policy-redlining-existing-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/connect-policy-redlining-existing-document.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

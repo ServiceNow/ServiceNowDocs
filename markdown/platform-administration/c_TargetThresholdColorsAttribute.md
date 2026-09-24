@@ -2,7 +2,7 @@
 title: Target threshold colors attribute
 description: If the target\_field attribute is configured, a second attribute called target\_threshold\_colors enables an administrator to define additional parameters.Add an optional attribute \(target\_field\) to a percent complete field to compare the actual completion percentage of a task or project with a target percentage in a different decimal field that specifies where the task should be at this point.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_TargetThresholdColorsAttribute.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_TargetThresholdColorsAttribute.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

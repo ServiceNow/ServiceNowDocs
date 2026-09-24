@@ -2,7 +2,7 @@
 title: Migrate to updated AI asset onboarding playbook
 description: Configure the new AI asset onboarding playbook to simplify AI asset management through structured lifecycle workflows. The migration also includes an opt-in to decide between moving to the new playbook or continuing in the existing playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/migrate-new-playbook-govern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/migrate-new-playbook-govern.html
 release: australia
 topic_type: task
 last_updated: "2026-08-31"

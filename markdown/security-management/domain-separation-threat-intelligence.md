@@ -2,7 +2,7 @@
 title: Domain separation and Threat Intelligence
 description: Domain separation is supported in the Threat Intelligence module that is available as part of Security Incident Response. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/domain-separation-threat-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/domain-separation-threat-intelligence.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

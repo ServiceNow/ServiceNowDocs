@@ -2,7 +2,7 @@
 title: Tolerance rules and variances for invoices
 description: Tolerance rules define the permissible variance amount on an invoice to determine if the total exceeds tolerance limits and requires exception handling.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -32,16 +32,16 @@ Accounts Payable Operations supports the following tolerance types:
     **Note:** If tax amount variance for a tax line is within the tolerance range, then supplier tax amount will be copied over to final tax amount field by default.
 
 
--   **[Define an invoice tolerance type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-type-definition.md)**  
+-   **[Define an invoice tolerance type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-type-definition.md)**  
 Create tolerance types to define variance thresholds for use in exception definitions.
--   **[Map invoice tolerance type with invoice exception definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/map-invoice-tolerance-definition-with-tolerance-rule.md)**  
+-   **[Map invoice tolerance type with invoice exception definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/map-invoice-tolerance-definition-with-tolerance-rule.md)**  
 Map invoice tolerance type definitions with invoice exception definitions to apply custom tolerance thresholds to specific exception scenarios.
--   **[Define an invoice tolerance rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-rule.md)**  
+-   **[Define an invoice tolerance rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-rule.md)**  
 Create tolerance rules to define acceptable invoice variances based on tolerance types and invoice filters.
--   **[View tolerance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-tolerance-form.md)**  
+-   **[View tolerance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/view-tolerance-form.md)**  
 View tolerance details at the header level and variance details at the line level for invoice processing cases with exceptions.
 
-**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
+**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
 
 **Related topics**  
 

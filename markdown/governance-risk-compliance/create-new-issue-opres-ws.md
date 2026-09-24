@@ -2,7 +2,7 @@
 title: Create Issue form
 description: Use the Create Issue form in Operational Resilience Workspace to add an issue to a business service or a scenario analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-issue-opres-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-issue-opres-ws.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

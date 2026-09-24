@@ -2,7 +2,7 @@
 title: Card Data Security container
 description: The Card Data Security container enables secure handling of Payment Card Information \(PCI\) card data within Financial Services Operations card dispute workflows through integration with a tokenizer service. This allows users to work with sensitive card information without exposing PCI data directly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/card-data-security-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/card-data-security-component.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -17,7 +17,7 @@ breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applicat
 
 The Card Data Security container enables secure handling of Payment Card Information \(PCI\) card data within Financial Services Operations card dispute workflows through integration with a tokenizer service. This allows users to work with sensitive card information without exposing PCI data directly.
 
-**Note:** Card Data Security container requires context-aware authorization to function correctly. See [Set up OAuth for Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-oauth-for-card-data-security.md) for more information.
+**Note:** Card Data Security container requires context-aware authorization to function correctly. See [Set up OAuth for Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/set-up-oauth-for-card-data-security.md) for more information.
 
 ## Key capabilities
 
@@ -108,7 +108,7 @@ After installing Card Data Security, the Attachments view in the contextual side
 -   **Issuer**, which shows files added by the dispute agent.
 -   **Merchant**, which shows files received from the card network, acquirer, or merchant, stored in the tokenizer service vault.
 
-For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 **Related topics**  
 

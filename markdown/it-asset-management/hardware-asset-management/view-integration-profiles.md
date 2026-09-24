@@ -2,7 +2,7 @@
 title: View the carrier integration profile details
 description: View the details of the carrier API used to connect your ServiceNow instance to the third-party shipping carrier application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-integration-profiles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/view-integration-profiles.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -80,7 +80,7 @@ Option that indicates the status of the integration profile.**Note:** Only users
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 

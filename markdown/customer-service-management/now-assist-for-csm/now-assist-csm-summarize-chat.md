@@ -2,7 +2,7 @@
 title: Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)
 description: Generate a summary of the Virtual Agent chat history and live agent conversations by using the chat summarization skill in ServiceNow Otto for Customer Service Management \(CSM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-chat.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -81,5 +81,5 @@ If necessary, you can create a case from an interaction record. The system uses 
 
 The system displays the AI icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon.\) next to these fields and removes the icon if the agent makes changes to the fields and saves the record.
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

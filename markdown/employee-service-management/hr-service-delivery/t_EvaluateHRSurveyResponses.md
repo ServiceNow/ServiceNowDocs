@@ -2,7 +2,7 @@
 title: Evaluate HR survey responses
 description: After you have collected responses to an HR survey, you can review the survey responses and scorecard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_EvaluateHRSurveyResponses.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_EvaluateHRSurveyResponses.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -37,15 +37,15 @@ Role required: sn\_hr\_core.manager, or sn\_hr\_core.admin
 
 4.  Select the **View Scorecard** related link to review the survey scorecard.
 
-    For more information, see [Satisfaction Survey Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_SatisfactionSurvey.md).
+    For more information, see [Satisfaction Survey Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_SatisfactionSurvey.md).
 
 
-**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
+**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
 
 **Related topics**  
 
 
-[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
+[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
 
 [Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md)
 

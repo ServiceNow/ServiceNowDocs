@@ -2,7 +2,7 @@
 title: Quality issue management
 description: Quality issue management \(QIM\) application enables manufacturers to capture, track, and resolve non-conformance and quality investigations using structured, end-to-end workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-quality-issue-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-quality-issue-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -49,9 +49,9 @@ The Remediation core enables organizations to identify root causes and implement
 
 To learn more about configuring and using quality management, see:
 
--   [Quality issue management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-quality-issue-management-data-model.md)
--   [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/install-manufacturing-commercial-operations-core.md)
+-   [Quality issue management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-quality-issue-management-data-model.md)
+-   [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/install-manufacturing-commercial-operations-core.md)
 -   
--   [Product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-PQI-use.md)
--   [Remediation action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-remediation-action-plans.md)
+-   [Product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-PQI-use.md)
+-   [Remediation action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-remediation-action-plans.md)
 

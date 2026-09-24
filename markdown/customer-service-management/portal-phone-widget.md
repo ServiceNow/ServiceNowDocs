@@ -2,7 +2,7 @@
 title: Use Voice call widget for portal communication
 description: The voice call widget enables users to manage voice calls initiated from the portal interface or Engagement Messenger. The widget maintains call state across tabs and page navigation, displaying call controls and connection status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/portal-phone-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/portal-phone-widget.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-20"

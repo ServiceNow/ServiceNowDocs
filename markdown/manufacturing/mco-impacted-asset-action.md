@@ -2,7 +2,7 @@
 title: Impacted asset action
 description: Create the list of assets that are impacted under non-conformance cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-impacted-asset-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-impacted-asset-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

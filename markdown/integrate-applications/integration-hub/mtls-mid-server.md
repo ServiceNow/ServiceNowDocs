@@ -2,7 +2,7 @@
 title: Using the mTLS protocol with a MID Server
 description: Make outbound REST and SOAP calls through a MID Server using mTLS. Store mTLS credential and certificate information on the instance, in a configuration file, or in an external vault. The MID Server retrieves the credential and certificate information and makes outbound REST and SOAP calls using the mTLS protocol.A MID Protocol Profile enables you to use the mTLS protocol with a MID Server. With a MID Protocol Profile, you can save your mTLS password and certificate information directly on the instance, in a configuration file, or in an external vault. The MID Server uses this information to make outbound REST and SOAP calls using mTLS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/mtls-mid-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/mtls-mid-server.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -41,7 +41,7 @@ This task is divided into four steps.
     -   If you're storing them on the instance, the keystore and password must also be on the MID Server.
     -   If you're storing them in the config.xml file, make sure you add the mTLS protocol parameters to the file before you configure the MID Protocol Profile. The `config.xml` is in the `/agent` directory, in the MID Server installation directory. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md).
     -   If you’re storing them in an external vault, make sure you set up your [CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_CyberArkIntegrationConfiguration.md) before creating a MID Protocol Profile.
-4.  Test your connection with a [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md). This step is optional.
+4.  Test your connection with a [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/rest-request-action-designer.md). This step is optional.
 
 ### Procedure
 

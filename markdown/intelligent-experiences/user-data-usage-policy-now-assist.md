@@ -2,7 +2,7 @@
 title: User data usage policy
 description: Your data is safe and secure with ServiceNow user data usage policy for generative AI. You can also mask sensitive data or opt-out of sharing data for model improvements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/user-data-usage-policy-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/user-data-usage-policy-now-assist.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-31"
@@ -45,7 +45,7 @@ ServiceNow might use Retrieval Augmented Generation \(RAG\) for selected AI feat
 
 Data Sharing helps ServiceNow to continuously advance and improve its Now LLMs, based on the latest customer usage. If you no longer want to participate in the customer data-sharing program, you’re able to opt out.
 
-To opt out, follow the instructions in [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+To opt out, follow the instructions in [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-reference-landing.md)
 

@@ -2,7 +2,7 @@
 title: Security patching
 description: In the event a security patch is needed, the mobile development team aligns with standard SDLC properties in order to patch.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-security-patching.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-security-patching.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,5 +16,5 @@ In the event a security patch is needed, the mobile development team aligns with
 
 For more information, see [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-landing.md).
 
-**Parent Topic:**[Mobile security practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-security-practices.md)
+**Parent Topic:**[Mobile security practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-security-practices.md)
 

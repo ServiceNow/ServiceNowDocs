@@ -2,7 +2,7 @@
 title: Create a stakeholder
 description: Add a person who is involved in the product quality investigation as a stakeholder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-stakeholders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-stakeholders.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ Role required: admin
 
 3.  On the Stakeholder form, fill in the fields.
 
-    For a description of the field values, see [Stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-stakeholders-form.md).
+    For a description of the field values, see [Stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-stakeholders-form.md).
 
 4.  Select **Save**.
 

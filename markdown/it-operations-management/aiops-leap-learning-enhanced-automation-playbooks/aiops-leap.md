@@ -2,7 +2,7 @@
 title: Learning Enhanced Automation Platform \(LEAP\)
 description: LEAP application uses AI-driven insights and automation to help manage IT operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -20,19 +20,19 @@ LEAP application uses AI-driven insights and automation to help manage IT operat
 
 <table id="table_nhy_dhw_l2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about LEAP benefits, features, and capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-aiops-leap.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about LEAP benefits, features, and capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-aiops-leap.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure LEAP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configuring-aiops-leap.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure LEAP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configuring-aiops-leap.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Create problem records and playbooks using LEAP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/using-aiops-leap.md)
+[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Create problem records and playbooks using LEAP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/using-aiops-leap.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get detailed information on important skill configuration during LEAP installation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/references-aiops-leap.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get detailed information on important skill configuration during LEAP installation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/references-aiops-leap.md)
 
 </td></tr></tbody>
 </table>## Supported LLMs for ServiceNow Otto for ITOM

@@ -2,7 +2,7 @@
 title: Actual cost and effort calculations for demands
 description: Actual cost and effort represent the realized cost and time spent on demands and demand tasks. Values are calculated from approved time cards and hourly rates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/actual-cost-and-effort-calculation-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/actual-cost-and-effort-calculation-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

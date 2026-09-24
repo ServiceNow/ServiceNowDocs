@@ -2,11 +2,11 @@
 title: Combined RPA Hub release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for RPA Hub from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-rpahub-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-rpahub-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 11
+last_updated: "2026-09-24"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -108,6 +108,42 @@ Zurich
 -   **[Try catch component enhancement](https://www.servicenow.com/docs/access?context=use-general-try-catch&family=zurich&ft:locale=en-US)**
 
 You can now precisely control the scope of Try-Catch blocks by selecting which actions \(components\) to include within exception handling and which to manage outside it. This enhancement provides better control over error handling logic and improves workflow reliability.
+
+
+ -   **[Role changed for creating, updating, and deleting the Robot License Distribution records](https://www.servicenow.com/docs/access?context=create-lua-record&family=zurich&ft:locale=en-US)**
+
+Role for Create, Update, and Delete ACLs in the Robot License Distribution table is changed from admin to sn\_rpa\_fdn.rpa\_admin.
+
+-   **[Long term stable models](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=zurich&ft:locale=en-US)**
+
+Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
+
+
+ -   **[Enhanced ACLs for security measures](https://www.servicenow.com/docs/access?context=installed-with-rpa-hub&family=zurich&ft:locale=en-US)**
+
+Enhanced access controls for RPA bot generation skill for Now Assist for RPA Hub in compliance with AI security directives.
+
+Access to RPA bot generation skill is now restricted to users with the RPA developer or RPA admin role. These roles contain the RPA Hub Admin user role \(sn\_nowassist\_admin.user\).
+
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
+
+-   **[Python connector](https://www.servicenow.com/docs/access?context=python-connector-rpa&family=zurich&ft:locale=en-US)**
+
+Execute custom Python scripts or files as part of an automation workflow in the RPA Desktop Design Studio.
+
+The connector comprises two methods:
+
+    -   Execute: Runs Python scripts set up in the configuration window.
+    -   InvokeScript: Runs Python script on local computers and gets the output.
+Ensure to install the Scripting plugin from the Plugins Manager as a prerequisite. Along with Python, VB.NET, C\#, and Javascript connectors are available with this plugin.
+
+-   **[Smart Card authentication](https://www.servicenow.com/docs/access?context=smart-card-il&family=zurich&ft:locale=en-US)**
+
+Use a physical smart card instead of a username and password for logging into a Windows machine.
+
+You can run unattended automations on the machines that use smart cards for authentication. While configuring a robot credential, you can store the smart card username and password to allow the unattended robot to log in to machines that use smart card.
 
 
 </td></tr><tr><td>
@@ -232,6 +268,8 @@ Zurich
 Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** RPA Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -242,6 +280,8 @@ Australia
 
 Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** RPA Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -545,5 +585,5 @@ Australia
  See [Learn about RPA suite of applications](https://www.servicenow.com/docs/access?context=rpa-explore&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

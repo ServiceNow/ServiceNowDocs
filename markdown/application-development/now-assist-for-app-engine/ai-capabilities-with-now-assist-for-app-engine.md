@@ -2,7 +2,7 @@
 title: AI capabilities for enhancing custom applications
 description: Learn about the AI capabilities available with ServiceNow Otto for App Engine that you can use to enhance custom applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -23,7 +23,7 @@ There are several types of AI capabilities that you can add to custom applicatio
 -   AI agents
 -   Agentic workflows
 
-The following sections describe what each capability is and how you can use it to enhance a custom application. To learn about which AI capability might be best for your custom application use case, see [Choosing the right AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/choosing-the-right-ai-capability.md).
+The following sections describe what each capability is and how you can use it to enhance a custom application. To learn about which AI capability might be best for your custom application use case, see [Choosing the right AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/choosing-the-right-ai-capability.md).
 
 ## Skills
 
@@ -95,7 +95,7 @@ Can be designed to work within custom apps during the creation process, when you
 </td></tr></tbody>
 </table>## ServiceNow Otto for App Engine custom app record summarization skill
 
-Starting with version 28.2.4 of ServiceNow Otto for App Engine, you can use the custom app record summarization skill. The skill is a template skill available with ServiceNow Otto for App Engine that enables you to generate AI summaries of records within custom apps and tables. For more information, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
+Starting with version 28.2.4 of ServiceNow Otto for App Engine, you can use the custom app record summarization skill. The skill is a template skill available with ServiceNow Otto for App Engine that enables you to generate AI summaries of records within custom apps and tables. For more information, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
 ## AI agents
 

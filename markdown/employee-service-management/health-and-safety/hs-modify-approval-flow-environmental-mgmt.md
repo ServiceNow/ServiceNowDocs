@@ -2,7 +2,7 @@
 title: Configure the chemical request approval flow
 description: Modify the chemical request approval flow using Flow designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-modify-approval-flow-environmental-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-modify-approval-flow-environmental-mgmt.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -45,8 +45,8 @@ If you decide to modify the flow, deactivate the original flow and make a copy. 
 7.  Select **Save** and then select **Activate**.
 
 
--   **[Configure the chemical request approver based on location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-approver-by-location.md)**  
+-   **[Configure the chemical request approver based on location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-configure-approver-by-location.md)**  
 Configure approvers according to the location name entered on the request form. Multiple approvers can be associated with a single location.
 
-**Parent Topic:**[Setting up Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-setting-up-environmental-management.md)
+**Parent Topic:**[Setting up Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-setting-up-environmental-management.md)
 

@@ -2,10 +2,10 @@
 title: Partner Relationship Management
 description: Reference topics provide additional information about Partner Relationship Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/partner-relationship-management-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/partner-relationship-management-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Reference, Sales Customer Relationship Management]
 ---
@@ -14,38 +14,38 @@ breadcrumb: [Reference, Sales Customer Relationship Management]
 
 Reference topics provide additional information about Partner Relationship Management.
 
--   **[Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/member-registration-form.md)**  
+-   **[Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/member-registration-form.md)**  
 Use the member registration form on the Partner portal to register members to a partner organization.
--   **[General Inquiry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/general-inquiry-form.md)**  
+-   **[General Inquiry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/general-inquiry-form.md)**  
 Use the general inquiry form on the Partner portal to raise queries and get in touch with the enterprise.
--   **[Channel partner table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/channel-partner-table-fields.md)**  
+-   **[Channel partner table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/channel-partner-table-fields.md)**  
 Use the fields on the channel partner \[sn\_prm\_channel\_partner\] table to manage and store information related to channel partners.
--   **[Roles and components of Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-deal-registration-management.md)**  
+-   **[Roles and components of Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/roles-and-components-of-deal-registration-management.md)**  
 The Deal Registration Management application \(com.snc.deal\_registration\_management\) uses roles to provide access to information, identify internal and external users, and maintain data security.
--   **[Quote creation via Self-Service fields for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-creation-fields.md)**  
+-   **[Quote creation via Self-Service fields for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-creation-fields.md)**  
 Store the main details related to a quote submitted by a partner and track the life cycle of the quote through its stages on the self-service quote \(sn\_quote\_mgmt\_core\_quote\) table. Use the fields to manage and store information related to quote creation by channel partners.
--   **[Partner program table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-program-table-fields.md)**  
+-   **[Partner program table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-program-table-fields.md)**  
 Enable channel partners to participate in structured initiatives designed to drive revenue, enhance market reach, and build customer relationships by using the Partner Program \[sn\_prm\_partner\_program\] table.
--   **[Partner program relationship table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-program-relationship-table-fields.md)**  
+-   **[Partner program relationship table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-program-relationship-table-fields.md)**  
 Establish a relationship between channel partners and partner programs with the Partner Program Relationship \[sn\_prm\_partner\_program\_relationship\] table.
--   **[Domain separation for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/domain-separation-for-partner-relationship-management.md)**  
+-   **[Domain separation for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/domain-separation-for-partner-relationship-management.md)**  
 Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
--   **[Program segment mapping table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/program-segment-mapping-table-fields.md)**  
+-   **[Program segment mapping table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/program-segment-mapping-table-fields.md)**  
 Establish a mapping between a program and a segment on the program segment mapping \(sn\_prm\_program\_segment\_mapping\) table to determine whether a segment belongs to the appropriate partner program.
--   **[Program segment criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/program-segment-criteria-table-fields.md)**  
+-   **[Program segment criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/program-segment-criteria-table-fields.md)**  
 You can establish a mapping between the program segment mapping table and the criteria using the program segment criteria \(sn\_prm\_program\_segment\_criteria\) table.
--   **[Program criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/program-criteria-table-fields.md)**  
+-   **[Program criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/program-criteria-table-fields.md)**  
 Establish a mapping between the partner program \(sn\_prm\_partner\_program\_relationship\) table and the entity criteria \(sn\_req\_criteria\_customer\_condition\) table.
--   **[Deal registration table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-table-fields.md)**  
+-   **[Deal registration table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-table-fields.md)**  
 Store the main details related to a deal submitted by a partner and track the life cycle of the deal through its stages on the deal registration \(sn\_prm\_dr\_deal\_registration\) table.
--   **[Deal registration line table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-line-table-fields.md)**  
+-   **[Deal registration line table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-line-table-fields.md)**  
 The deal registration line table contains line items linked to a deal registration, each referencing a specific product offering.
--   **[Deal registration type table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-type-table-fields.md)**  
+-   **[Deal registration type table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-type-table-fields.md)**  
 Configure the deal registration type table to define how a channel partner can be associated with a deal or is contributing to the associated deal.
--   **[Partner program deal type relationship table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-program-deal-type-relationship-table-fields.md)**  
+-   **[Partner program deal type relationship table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-program-deal-type-relationship-table-fields.md)**  
 Configure the Partner Program Deal Type Relationship \(sn\_prm\_dr\_pp\_deal\_type\) table to ensure that the correct deal types are associated with the correct partner programs.
--   **[Channel Partner components on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/channel-partner-components.md)**  
+-   **[Channel Partner components on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/channel-partner-components.md)**  
 View the various components on the channel partner form to get a consolidated overview of all the entities associated with the channel partner.
 
-**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-reference.md)
+**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-reference.md)
 

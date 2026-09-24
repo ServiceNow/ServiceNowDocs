@@ -2,7 +2,7 @@
 title: Windows default checks and policies
 description: Agent Client Collector provides the following default checks and policies for Windows health monitoring.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/windows-checks-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/windows-checks-policies.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -1030,5 +1030,5 @@ win2019-dc-64bit.Process.Status 67 1645372421
  win2019-dc-64bit.Process.Memory\(KB\) 1226444 1645372421
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

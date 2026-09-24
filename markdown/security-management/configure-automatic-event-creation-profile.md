@@ -2,7 +2,7 @@
 title: Configure how an automatic event is created
 description: Configure the ServiceNow AI Platform to automatically create events in MISP.Configure the event trigger conditions in the ServiceNow AI Platform so that you can automatically trigger an event in MISP when the conditions are met.Map the MISP event fields in the ServiceNow AI Platform so that security incident information is available when MISP events are created.Map the Security Incident Response observable types to the MISP attribute types because the MISP attribute types and the SIR observables may be different.Synchronize the MITRE-ATT&amp;CK information with MISP attributes for better security incident and threat analysis.Add MISP tags to the created MISP events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configure-automatic-event-creation-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configure-automatic-event-creation-profile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Configure the ServiceNow AI Platform to automatically create events in MISP.
 
 ## Before you begin
 
--   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) that are required for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-user-roles-and-permissions.md) that are required for using the MISP bi-directional features.
 -   Role required: sn\_si.admin, sn\_ti.admin
 
 ## Procedure
@@ -79,7 +79,7 @@ Option that indicates if the profile is active or inactive. The option is cleare
 </table>4.  Click **Continue**.
 
 
-**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
+**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-administration.md)
 
 **Related topics**  
 

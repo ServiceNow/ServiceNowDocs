@@ -2,7 +2,7 @@
 title: Deploying and monitoring the skill
 description: After you evaluate the prompt, you can deploy the custom skill and monitor its effectiveness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/deploying-and-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/deploying-and-monitoring.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit

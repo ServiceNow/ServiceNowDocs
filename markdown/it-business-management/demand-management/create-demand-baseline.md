@@ -2,7 +2,7 @@
 title: Create a baseline of a demand
 description: Create a financial baseline of a demand to capture a snapshot of cost plan, benefit plan, and demand-level financial metrics at a specific point in time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/create-demand-baseline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/create-demand-baseline.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -63,8 +63,8 @@ Steps
 
 </td></tr></tbody>
 </table>
--   **[Compare financial baselines of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/compare-baselines-of-demand.md)**  
+-   **[Compare financial baselines of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/compare-baselines-of-demand.md)**  
 You can compare baselines to review the variances in the financial data of a demand and see what changed.
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md)
 

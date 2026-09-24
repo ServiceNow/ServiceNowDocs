@@ -2,7 +2,7 @@
 title: Accept or reject a work order task
 description: Accept a work order task that has been assigned to you. You can reject the task if, for example, you do not have the required skills or you are not available at the required time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/accept-reject-task-on-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/accept-reject-task-on-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -88,7 +88,7 @@ Available options:
     -   On an Android device, tap the done icon.
  The reason for rejecting the task is populated in the work notes and the task moves to **Pending Dispatch** state.
 
- **Note:** The rejected task is not dynamically scheduled to the same agent for the next 24 hours. This is controlled by the **work.management.rejected.technician.duration** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md). However, as an agent you can manually assign the work order task back to yourself or as a dispatcher you can assign it back to the same agent.
+ **Note:** The rejected task is not dynamically scheduled to the same agent for the next 24 hours. This is controlled by the **work.management.rejected.technician.duration** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_PropInstallWFieldServMgmnt.md). However, as an agent you can manually assign the work order task back to yourself or as a dispatcher you can assign it back to the same agent.
 
 </td></tr></tbody>
 </table>

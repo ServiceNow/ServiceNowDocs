@@ -2,7 +2,7 @@
 title: Integrating the LINE messaging app with other applications
 description: Other ServiceNow applications and features can use the Conversational Integration with LINE application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-line-integrating-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/messg-line-integrating-apps.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

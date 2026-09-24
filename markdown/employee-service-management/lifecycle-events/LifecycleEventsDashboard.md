@@ -2,7 +2,7 @@
 title: Lifecycle event dashboards
 description: Use lifecycle event dashboards to gain visibility into active lifecycle event and onboarding cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/LifecycleEventsDashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/LifecycleEventsDashboard.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events

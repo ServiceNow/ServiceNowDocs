@@ -2,7 +2,7 @@
 title: Create an outbound REST message
 description: Create outbound rest message to authorize instance as authorization server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-an-outbound-rest-message.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-an-outbound-rest-message.html
 release: australia
 product: Authentication
 classification: authentication
@@ -45,6 +45,6 @@ Role required: oauth\_admin
     -   Your code, if MFA is enabled.
 5.  Click **Allow** or **Deny** to complete the authorization and issue the tokens.
 
-    The process that follows is outlined in [OAuth authorization code grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthAuthorizationCodeFlow.md).
+    The process that follows is outlined in [OAuth authorization code grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_OAuthAuthorizationCodeFlow.md).
 
 

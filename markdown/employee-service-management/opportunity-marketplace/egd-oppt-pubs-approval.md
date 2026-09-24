@@ -2,7 +2,7 @@
 title: Opportunity publishing approval
 description: The Opportunity Marketplace's publishing approval framework streamlines the approval process, allowing Opportunity Owners to submit drafts for approval and receive notifications upon approval or rejection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-pubs-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/opportunity-marketplace/egd-oppt-pubs-approval.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -42,15 +42,15 @@ The following describes the default configurations for the subflows, which can b
 |Volunteer opportunity posting &amp; editing approval|This subflow requires approval for the opportunity if the total number of participants is twenty or more \(line 1\).|
 |Project opportunity posting &amp; editing approval|This subflow requires approval for the opportunity if the total number of participants is five or more \(line 1\).|
 
-**Note:** Only the `Project opportunity posting & editing approval` flow is assigned to the project opportunity type out-of-the-box; for volunteer and gig opportunity types, the admin must manually assign the flow. For the steps on assigning the approval flows, see [Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md).
+**Note:** Only the `Project opportunity posting & editing approval` flow is assigned to the project opportunity type out-of-the-box; for volunteer and gig opportunity types, the admin must manually assign the flow. For the steps on assigning the approval flows, see [Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md).
 
 For custom opportunity types, the admin can reuse either the `Project opportunity posting & editing approval` or `Volunteer opportunity posting & editing approval` flows, as they support opportunities with multiple roles.
 
 ## Approvers
 
-If your instance has demo data loaded, the group `OPM Opportunity Approvers` is assigned to the gig, volunteer, and project opportunity types. An admin can add users to the `OPM Opportunity Approvers` group to review all opportunity drafts. Alternatively, the admin can define approvers for a specific opportunity type. For the steps on assigning approvers to an opportunity type, see [View and manage the opportunities created in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-view-manage-opportunities.md).
+If your instance has demo data loaded, the group `OPM Opportunity Approvers` is assigned to the gig, volunteer, and project opportunity types. An admin can add users to the `OPM Opportunity Approvers` group to review all opportunity drafts. Alternatively, the admin can define approvers for a specific opportunity type. For the steps on assigning approvers to an opportunity type, see [View and manage the opportunities created in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-view-manage-opportunities.md).
 
 By default, the subflow requires one approval or rejection. Admins can configure alternatives, such as requiring multiple approvals or two rejections to block publication.\[Omitted image "modify-approvers.png"\] Alt text: Under the Ask for Approval action, users can modify the rule regarding how many users must approve or reject an opportunity
 
-**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
+**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
 

@@ -2,7 +2,7 @@
 title: Configure case summarization in ServiceNow Otto for Financial Services Operations \(FSO\)
 description: If you have the admin role, you can configure the ServiceNow Otto for Financial Services Operations \(FSO\) application so that your agents can use case summarization skills in Financial Services Workspace and Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-now-assist-for-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-now-assist-for-fso.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ If you have the admin role, you can configure the ServiceNow Otto for Financial 
 Verify the ServiceNow Otto for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\) is installed.
 
 -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
--   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-now-assist-skills.md).
+-   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-fso-now-assist-skills.md).
 
 Role required: admin
 
@@ -47,7 +47,7 @@ The following table lists the FSO case summarization skills that you can access 
 
     The input table fields are read-only.
 
-    For information about the inputs for each skill, see [Skill inputs for ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.md).
+    For information about the inputs for each skill, see [Skill inputs for ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.md).
 
 5.  After you review the inputs for the selected skill, select **Save and continue** to go to the next step.
 

@@ -2,7 +2,7 @@
 title: URL filter parameters for dashboard filters
 description: URL filter parameters enable users to encode filter selections directly in dashboard URLs, allowing bookmarkable, shareable dashboard states with automatically apply filters. The URL parameter is called unifiedFiltersParam and is appended as a path segment after the dashboard sys\_id.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/url-filter-parameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/url-filter-parameters.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-15"

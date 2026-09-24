@@ -2,7 +2,7 @@
 title: Use Location Filter in Pre Authentication Context
 description: Use the location filter criteria created in the Pre Authentication Context.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/use-lf-pre-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/use-lf-pre-auth.html
 release: australia
 product: Authentication
 classification: authentication
@@ -22,7 +22,7 @@ Role required: adaptive\_auth\_admin
 
 Plugin required: **Zero Trust - Location Based Access** \(`com.snc.zero_trust_location_access`\).
 
-Create a Location Filter with the countries that you want restrict access to the users based on the location. For more information, see [Create Location filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-location-filter-criteria.md).
+Create a Location Filter with the countries that you want restrict access to the users based on the location. For more information, see [Create Location filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-location-filter-criteria.md).
 
 ## Procedure
 

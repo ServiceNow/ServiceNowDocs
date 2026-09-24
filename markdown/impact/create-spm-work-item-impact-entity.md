@@ -2,7 +2,7 @@
 title: Manage work items from an initiative in the Impact Store Application
 description: Use the SPM work item record link within the Impact entity to view its details, after Impact entity is successfully converted to an SPM work item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/create-spm-work-item-impact-entity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/create-spm-work-item-impact-entity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

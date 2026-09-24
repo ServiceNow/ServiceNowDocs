@@ -2,7 +2,7 @@
 title: Configure a record producer
 description: Configure the record producer so that it contains the necessary questions for employee travel requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-configure-record-producer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/app-tutorial-configure-record-producer.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -34,7 +34,7 @@ Phase 1
 
 </td><td>
 
-[Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-add-record-producer.md)
+[Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-add-record-producer.md)
 
 </td></tr><tr><td>
 
@@ -46,10 +46,10 @@ Phase 2
 
 </td><td>
 
-[Configure a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-configure-record-producer.md)
+[Configure a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-configure-record-producer.md)
 
 </td></tr></tbody>
-</table>This procedure covers the second part of the task demonstrated in the tutorial video. The first part of the procedure is outlined in the previous topic [Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-add-record-producer.md).
+</table>This procedure covers the second part of the task demonstrated in the tutorial video. The first part of the procedure is outlined in the previous topic [Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-add-record-producer.md).
 
 Follow along to configure the record producer for the employee travel request application.
 
@@ -214,5 +214,5 @@ Your record producer is configured and ready for testing.
 
 ## What to do next
 
-Continue building the employee travel request application by proceeding to the next step: [Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md).
+Continue building the employee travel request application by proceeding to the next step: [Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md).
 

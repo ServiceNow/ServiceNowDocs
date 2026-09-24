@@ -2,7 +2,7 @@
 title: View approval state flows for a business plan
 description: View approval state transitions and approver details at each level as you direct the business plan through the approval process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-approval-state-flows-bcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-approval-state-flows-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

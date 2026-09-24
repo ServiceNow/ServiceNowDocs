@@ -2,7 +2,7 @@
 title: Components installed with Omnichannel Callback
 description: Several types of components are installed with activation of the Omnichannel Callback plugin, including user roles, scheduled jobs, and tables.Read/write from the \[sys\_cs\_callback\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/omnichannel-callback/installed-with-omnichannel-callback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/omnichannel-callback/installed-with-omnichannel-callback.html
 release: australia
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -89,7 +89,7 @@ Lists the callback tasks of type Scheduled and ASAP.
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback/omnichannel-callback-reference.md)
+**Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/omnichannel-callback/omnichannel-callback-reference.md)
 
 ## Callback API role \[sn\_omni\_callback.callback\_api\]
 

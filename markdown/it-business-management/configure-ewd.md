@@ -2,10 +2,10 @@
 title: Configuring SPM Enterprise-Wide Deployment
 description: Configuring Enterprise-Wide Deployment \(EWD\) involves creating partitions, defining partition criteria for supported tables, and assigning partition roles to users or user groups to enforce function-level data separation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/configure-ewd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/configure-ewd.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -18,14 +18,14 @@ Configuring Enterprise-Wide Deployment \(EWD\) involves creating partitions, def
 
 EWD configuration is an administrative activity that requires planning before implementation. To achieve data separation with EWD, complete the following steps in order:
 
-1.  Create a partition record with assigning a new or existing role to it. For details, see [Create and configure a partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-partition-ewd.md).
-2.  Configure partition criteria for each supported table that you want to define data partitioning for that partition. For details, see [Assign partition role for access to the partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-partition-role-ewd.md).
-3.  Assign the partition role associated with the partition record to the users or user groups who should have access to those partitioned tables. For details, see [Verify partition configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/verify-partition-configuration-ewd.md).
+1.  Create a partition record with assigning a new or existing role to it. For details, see [Create and configure a partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/create-partition-ewd.md).
+2.  Configure partition criteria for each supported table that you want to define data partitioning for that partition. For details, see [Assign partition role for access to the partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/assign-partition-role-ewd.md).
+3.  Assign the partition role associated with the partition record to the users or user groups who should have access to those partitioned tables. For details, see [Verify partition configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/verify-partition-configuration-ewd.md).
 
     Repeat this process for each function partition you need to create. For example, create separate partitions for IT Operations and HR Learning and Development.
 
-4.  Update the existing records in the project, demand, programs, portfolios, and planning item tables with partition details by running the scheduled job. For details, see [Update partition details for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/update-partition-details-for-existing-records.md).
-5.  Enable the additional security that extends partition access controls across APIs, agentic workflows, indirect references, and unpartitioned parent tables. This configuration requires installation of Extended Security for Enterprise-Wide Deployment. For details, see [Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enable-additional-security-extended-security-ewd.md).
+4.  Update the existing records in the project, demand, programs, portfolios, and planning item tables with partition details by running the scheduled job. For details, see [Update partition details for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/update-partition-details-for-existing-records.md).
+5.  Enable the additional security that extends partition access controls across APIs, agentic workflows, indirect references, and unpartitioned parent tables. This configuration requires installation of Extended Security for Enterprise-Wide Deployment. For details, see [Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enable-additional-security-extended-security-ewd.md).
 
 **Important:** Apply partition configuration changes and role assignments during a maintenance window when users are not accessing the instance, to ensure record visibility updates take effect correctly.
 
@@ -49,7 +49,7 @@ Partition criteria can be configured for the following core tables:
 -   Program \[pm\_program\]
 -   Portfolio \[pm\_portfolio\]
 
-Related records and sub-entities for these tables automatically inherit the partition value from the parent record. For a full list of tables in scope, see [Supported tables for partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/supported-tables-for-partition-ewd.md).
+Related records and sub-entities for these tables automatically inherit the partition value from the parent record. For a full list of tables in scope, see [Supported tables for partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/supported-tables-for-partition-ewd.md).
 
 ## Supported workspace versions
 

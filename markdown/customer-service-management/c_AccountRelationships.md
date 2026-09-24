@@ -2,7 +2,7 @@
 title: Bi-directional account relationships
 description: A bi-directional account relationship is a relationship that exists between two accounts. You can create account relationships between two customer accounts or between a partner account and a customer account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_AccountRelationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_AccountRelationships.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-30"

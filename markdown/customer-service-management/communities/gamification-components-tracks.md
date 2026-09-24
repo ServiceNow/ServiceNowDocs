@@ -2,7 +2,7 @@
 title: Tracks
 description: Tracks provide a way to logically separate points assigned in the communities into different areas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-components-tracks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/gamification-components-tracks.html
 release: australia
 product: Communities
 classification: communities
@@ -23,10 +23,10 @@ Gamification includes two pre-configured tracks:
 
 While the application is configured to accumulate points by tracks, gamification does not currently display tracks in the community portal.
 
-**Parent Topic:**[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-components.md)
+**Parent Topic:**[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-components.md)
 
 **Related topics**  
 
 
-[Create a gamification track](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-track.md)
+[Create a gamification track](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-create-track.md)
 

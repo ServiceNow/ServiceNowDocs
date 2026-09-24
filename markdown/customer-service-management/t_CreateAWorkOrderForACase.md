@@ -2,7 +2,7 @@
 title: Create a work order for a customer service case
 description: Create a work order for a customer service case as part of the case resolution process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateAWorkOrderForACase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_CreateAWorkOrderForACase.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

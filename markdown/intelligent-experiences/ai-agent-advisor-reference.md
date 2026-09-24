@@ -2,7 +2,7 @@
 title: AI Agent Advisor reference
 description: The following topics provide additional information about the features and properties installed with AI Agent Advisor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-advisor-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-agent-advisor-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -15,12 +15,12 @@ breadcrumb: [AI Agent Advisor, AI Admin Center, Enable AI experiences]
 
 The following topics provide additional information about the features and properties installed with AI Agent Advisor.
 
--   **[Components installed with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/components-installed-with-ai-agent-advisor.md)**  
+-   **[Components installed with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/components-installed-with-ai-agent-advisor.md)**  
 Several components are installed with the AI Agent Advisor application.
--   **[Domain separation and AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-ai-agent-advisor.md)**  
+-   **[Domain separation and AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/domain-separation-ai-agent-advisor.md)**  
 Domain separation is not supported for AI Agent Advisor.
--   **[AI Agent Advisor roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-roles.md)**  
+-   **[AI Agent Advisor roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-advisor-roles.md)**  
 AI Agent Advisor is installed with these roles.
 
-**Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md)
+**Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-advisor-landing-page.md)
 

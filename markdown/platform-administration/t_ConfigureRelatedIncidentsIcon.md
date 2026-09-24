@@ -2,7 +2,7 @@
 title: Configure the related incidents icon
 description: You can configure an icon to appear beside a reference field in a form, such as the Caller field, to display related incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfigureRelatedIncidentsIcon.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfigureRelatedIncidentsIcon.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ The show related incidents icon \(\[Omitted image "icon-workflow.png"\] Alt text
 **Related topics**  
 
 
-[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
+[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
 

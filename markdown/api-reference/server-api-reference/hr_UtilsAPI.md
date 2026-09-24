@@ -2,7 +2,7 @@
 title: hr\_Utils - Scoped
 description: The hr\_Utils API provides basic functionality for the Human Resource \(HR\) application.Instantiates an instance of the hr\_Utils class.Gets the Sys ID of the active primary job for a provided user.Switches the primary job of a user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/hr\_UtilsAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/hr\_UtilsAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The hr\_Utils API provides basic functionality for the Human Resource \(HR\) app
 
 This API requires the HR core plugin \(com.sn\_hr\_core\) and runs in the `sn_hr_core` namespace.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## hr\_Utils - hr\_Utils\(\)
 

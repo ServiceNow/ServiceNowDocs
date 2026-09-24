@@ -2,7 +2,7 @@
 title: Create entitlements using the guided walk-through
 description: Use the guided walk-through playbook for a step-by-step process of creating entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/guidedwalk-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/guidedwalk-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -141,5 +141,5 @@ Based on the type of profile you specified, select an integration profile.
     The entitlement is created and state of the entitlement is changed to **in use** from **build**. The entitlement is ready to be used for the reconciliation process.
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)
 

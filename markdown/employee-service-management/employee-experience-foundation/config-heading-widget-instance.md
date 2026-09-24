@@ -2,7 +2,7 @@
 title: Configure widget heading levels for accessibility
 description: Flexible heading configuration helps with widget accessibility compliance on homepage and topic pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-heading-widget-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-heading-widget-instance.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -44,7 +44,7 @@ Manage widget headings from Heading1 to Heading6 to support company standards, c
 
     \[Omitted image "heading-selection.png"\] Alt text: instance option heading selection
 
-3.  Fill in the following fields as explained in [Modify the Support resources widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-support-resources-instanceoptions.md)
+3.  Fill in the following fields as explained in [Modify the Support resources widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-support-resources-instanceoptions.md)
 
 4.  Click **Save**.
 

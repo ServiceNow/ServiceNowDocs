@@ -2,7 +2,7 @@
 title: Enable identification of relevant territories for a work order or work order task
 description: Enable identification of the most relevant territories for work orders or work order tasks by setting matching rules and conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/create-territory-conditions-in-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/create-territory-conditions-in-console.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

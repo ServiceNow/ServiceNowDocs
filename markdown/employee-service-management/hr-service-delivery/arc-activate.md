@@ -2,7 +2,7 @@
 title: Activate the Anonymous Report Center
 description: You can activate the Anonymous Report Center plugin \(com.sn\_anonymous\_report\_center\) for the ServiceNow AI Platform if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/arc-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/arc-activate.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

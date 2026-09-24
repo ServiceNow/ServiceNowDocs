@@ -2,7 +2,7 @@
 title: Threat groupings
 description: A Threat Groupings object explicitly asserts that the referenced STIX Objects have a shared context. Threat groupings applies for STIX 2.x.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-groupings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-groupings.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,10 +20,10 @@ A Threat Groupings object could also be used to assert that the referenced STIX 
 
 The Threat Grouping SDO contains a list of references to SDOs, SCOs, and SROs, along with an explicit statement of the context shared by the content, a textual description, and the name of the grouping.
 
--   **[Define threat groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-threat-groupings.md)**  
+-   **[Define threat groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/define-threat-groupings.md)**  
 Define threat groupings as objects that have a shared context.
 
-**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ioc-repository.md)
 
 **Related topics**  
 

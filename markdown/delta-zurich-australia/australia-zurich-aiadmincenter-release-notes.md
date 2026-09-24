@@ -2,11 +2,11 @@
 title: Combined AI Admin Center release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for AI Admin Center from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aiadmincenter-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-aiadmincenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -84,6 +84,88 @@ Use the automation opportunities enhancements to refine your view and identify o
 Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
 
 
+ -   **[Self-healing agent](https://www.servicenow.com/docs/access?context=now-assist-center-self-healing-agent&family=australia&ft:locale=en-US)**
+
+Use the conversational interface to have the self-healing AI agent troubleshoot and resolve common AI administration issues. The AI agent diagnoses the issue, proposes remediation steps for your approval, and implements the resolution.
+
+-   **[Base system AI agents proposed for automations](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
+
+Deploy prebuilt AI agents to solve common problems identified in your automation opportunities.
+
+-   **[Data from custom tables and fields analyzed for automation opportunities](https://www.servicenow.com/docs/access?context=now-assist-center-set-up-automation-discovery&family=australia&ft:locale=en-US)**
+
+Identify automation opportunities from the analysis of custom tables and fields in your instance in addition to the base system data sources.
+
+-   **[AI Agent Advisor enhancements](https://www.servicenow.com/docs/access?context=exploring-ai-agent-advisor&family=australia&ft:locale=en-US)**
+
+Several capabilities are added to improve viewing your automation opportunities.
+
+    -   Set up a custom data source for analysis.
+    -   View prebuilt AI agents with resolution steps.
+    -   View agent status, solution type, and data source in the automation opportunities list.
+    -   Create cost profiles to estimate savings from automation opportunities.
+
+ -   **[Now Assist Readiness Evaluation](https://www.servicenow.com/docs/access?context=now-assist-center-readiness-evaluation&family=australia&ft:locale=en-US)**
+
+Use Now Assist Readiness Evaluation to assess your instance readiness for AI adoption, identify areas to prepare for AI, and access direct links to improve those areas.
+
+-   **[Activate Now Assist skills](https://www.servicenow.com/docs/access?context=using-now-assist-panel-now-assist-center&family=australia&ft:locale=en-US)**
+
+Use the conversational experience in the Now Assist panel to activate and set up base system skills.
+
+-   **[CSM automation opportunities from chat, voice, and email data](https://www.servicenow.com/docs/access?context=now-assist-center-ai-agent-advisor&family=australia&ft:locale=en-US)**
+
+Discover automation opportunities for CSM AI deployment by using AI Agent Advisor to analyze interaction data from chat, voice, and email channels. Match or generate channel-specific AI agents to implement the automation opportunities.
+
+-   **[Asset inventory enhancements](https://www.servicenow.com/docs/access?context=now-assist-center-using-asset-inventory&family=australia&ft:locale=en-US)**
+
+View and create AI Data Kit, AI Skill Kit, Knowledge Graph, and Catalog assets in your instance using the asset inventory.
+
+-   **[Automation opportunities enhancements](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
+
+View additional filter and sorting options along with updated metrics in the automation opportunities list. Automation opportunity cards on the home page and in the list provide additional information and an updated appearance. An AI Agents tab is added to the Resolution Steps page, and the Agent guided setup tab can be opened to complete development of AI agents. The Continue building AI agent box gives options for Chat Agent and Voice Agent.
+
+-   **[AI execution and business value dashboards](https://www.servicenow.com/docs/access?context=now-assist-center-view-ai-usage&family=australia&ft:locale=en-US)**
+
+View analytics dashboards showing the performance of your AI assets, including AI Admin Center Performance Explorer and AI Admin Center Business Value dashboards.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
+
+    -   Foundation: AI agents and skills to deliver insights
+    -   Advanced: AI agents and skills to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI agents and skills, and create your own
+-   **[AI Admin Center workspace](https://www.servicenow.com/docs/access?context=now-assist-center-workspace&family=australia&ft:locale=en-US)**
+
+Use the AI Admin Center workspace to set up, monitor, and manage your Now Assist solutions without switching between separate applications.
+
+-   **[Now Assist panel](https://www.servicenow.com/docs/access?context=using-now-assist-panel-now-assist-center&family=australia&ft:locale=en-US)**
+
+Use the conversational interface to have your AI guide perform Now Assist admin and setup tasks and find help.
+
+-   **[Actionable use cases](https://www.servicenow.com/docs/access?context=now-assist-center-actionable-use-cases&family=australia&ft:locale=en-US)**
+
+Use actionable cards on the home page to view and activate guided quick-start use cases that start your AI implementation.
+
+-   **[Automation discovery with AI Agent Advisor](https://www.servicenow.com/docs/access?context=now-assist-center-using-ai-agent-advisor&family=australia&ft:locale=en-US)**
+
+Use AI Agent Advisor to analyze actual instance data, identify automation opportunities, and view proposed AI automations.
+
+-   **[AI agent matching and automated deployment](https://www.servicenow.com/docs/access?context=activate-automation-opportunity-now-assist-center&family=australia&ft:locale=en-US)**
+
+Find existing AI agents that support your identified automation opportunities, and automate the creation and deployment of new agents.
+
+-   **[Integrations with other Now Assist applications](https://www.servicenow.com/docs/access?context=now-assist-center-using-other-applications&family=australia&ft:locale=en-US)**
+
+Access other Now Assist applications from a centralized tabbed workspace experience to configure your AI implementation.
+
+-   **[AI adoption metrics](https://www.servicenow.com/docs/access?context=now-assist-center-monitoring&family=australia&ft:locale=en-US)**
+
+View performance and usage statistics for your AI implementation.
+
+
 </td></tr></tbody>
 </table>## Changes
 
@@ -119,6 +201,19 @@ Use a single savings profile formula when configuring custom data sets for autom
 
 The daily recommendation is no longer visible. Only three default configurations are available for custom data sets.
 
+
+ -   **[Now Assist Center renamed to AI Admin Center](https://www.servicenow.com/docs/access?context=now-assist-center-landing-page&family=australia&ft:locale=en-US)**
+
+The Now Assist Center application \(sn\_na\_center\) is now named AI Admin Center. The application navigation and store application listing is updated to reflect the new name.
+
+
+ -   **[AI Agent Advisor enhancements](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
+
+Several features are updated to improve the user experience.
+
+    -   The AI Agent Advisor section of the AI Admin Center home page is renamed to Automation opportunities.
+    -   The automation opportunities cards display the record type. Hours time saved is changed to Est cost savings per year. Estimated savings is changed to Est time saved per year. A Review opportunity link displays on the card.
+    -   The summary on the Resolution Steps page is updated with a description of the problem and source, last updated date, and metrics for records analyzed and estimated time saved per year. The number of resolution steps and AI agents are moved to the respective tabs.
 
 </td></tr></tbody>
 </table>## Removed
@@ -209,6 +304,8 @@ Australia
 
 AI Admin Center is available from the ServiceNow Store. For more information about the installation of AI Admin Center, see [Configure](https://www.servicenow.com/docs/access?context=configuring-now-assist-center&family=australia&ft:locale=en-US).
 
+
+**Important:** AI Admin Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -387,5 +484,5 @@ Australia
  See [AI Admin Center](https://www.servicenow.com/docs/access?context=now-assist-center-landing-page&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

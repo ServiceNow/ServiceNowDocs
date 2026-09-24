@@ -2,7 +2,7 @@
 title: Edit an installed integration in Health Log Analytics
 description: Edit an installed integration for streaming log data to Health Log Analytics on the Integrations Launchpad. For example, you can switch to a different service instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-edit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/il-connector-hla-edit.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -52,5 +52,5 @@ Role required: evt\_mgmt\_admin
 10. Select **Activate**.
 
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
 

@@ -2,7 +2,7 @@
 title: Using automated flow for certificate management
 description: Certificate and Management streamlines your TLS certificate processes, offering benefits such as improved efficiency and enhanced security. Automating certificate management ensures timely renewal of certificates, which minimizes the risk of expired certificates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/use-automated-flow-cert-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/use-automated-flow-cert-requests.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ Certificate and Management streamlines your TLS certificate processes, offering 
 
 ## Before you begin
 
-To use the Microsoft Certificate Authority automated flow, you must install the **ServiceNow IntegrationHub Action Step - PowerShell** plugin and must have an Integration Hub subscription. See  for more information.
+To use the Microsoft Certificate Authority automated flow, you must install the **ServiceNow IntegrationHub Action Step - PowerShell** plugin and must have an Integration Hub subscription. See [Integration Hub usage and subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/subscription-usage.md) for more information.
 
 Role required: pki\_admin or admin
 

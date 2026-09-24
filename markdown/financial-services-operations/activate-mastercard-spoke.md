@@ -2,7 +2,7 @@
 title: Activate Mastercard Spoke
 description: Activate the Mastercard Spoke in Integration Hub from the ServiceNow Store, enabling organizations to manage the full card dispute life-cycle. You can then use the spoke to efficiently search transactions, create claims, and process chargebacks, pre-arbitration, and arbitration case filings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/activate-mastercard-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/activate-mastercard-spoke.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Multi-Instance Setup
 description: The Multi-Instance Setup enables a prod \(manager\) instance to manage multiple sub-prod \(managed\) instances and facilitate communication for AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/multi-instance-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/multi-instance-management.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -63,7 +63,7 @@ After configuring the Multi-Instance Framework, enable AI Asset data transfer on
 
 When you configure AI Asset data transfer, the remaining values are automatically configured. No additional setup is required.
 
-**Note:** For information about configuring Multi-instance management for AI Control Tower, see [Configure Multi-instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md).
+**Note:** For information about configuring Multi-instance management for AI Control Tower, see [Configure Multi-Instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md).
 
 ## AI asset Synchronization
 
@@ -100,7 +100,7 @@ Upgrade the prod instance to version 6.2.4 when you upgrade a sub-prod instance 
 
 **Note:** All the preferences mentioned earlier for a sub-prod instance are available in read-only mode, when Multi-Instance is configured and enabled.
 
-For information on Data, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md)
+For information on Data, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/data.md)
 
 For more information on trust concepts and trust configuration management, see [Cross-instance application trust configuration](https://www.servicenow.com/docs/r/platform-administration/grant-access-v2.html).
 

@@ -2,7 +2,7 @@
 title: Assessment templates reference
 description: Reference table listing the assessment templates installed with AI Risk and Compliance. Templates are delivered in Draft state and must be published before use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-assessment-templates-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/airc-assessment-templates-ref.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -19,7 +19,7 @@ Reference table listing the assessment templates installed with AI Risk and Comp
 
 ## Assessment templates
 
-The following table lists assessment templates installed with AI Risk and Compliance. Templates are delivered in **Draft** state. A user with the AI Risk and Compliance Admin \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin\] role publishes draft templates through the Assessment Workspace. For instructions, see [Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md). AI case assessment templates are delivered as part of the AI Case Management application \(`sn_ai_case_mgmt`\) and are not included in AI Risk and Compliance base assessment templates. They are published through the same Assessment Workspace in a separate category.
+The following table lists assessment templates installed with AI Risk and Compliance. Templates are delivered in **Draft** state. A user with the AI Risk and Compliance Admin \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin\] role publishes draft templates through the Assessment Workspace. For instructions, see [Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md). AI case assessment templates are delivered as part of the AI Case Management application \(`sn_ai_case_mgmt`\) and are not included in AI Risk and Compliance base assessment templates. They are published through the same Assessment Workspace in a separate category.
 
 **Note:**
 
@@ -39,14 +39,14 @@ ServiceNow aims to provide software updates for new or updated major regulations
 |AI Impact Assessment on AI asset inventory|Evaluates risks associated with a specific AI model independent of its parent AI system. Supports model-level governance when a model is shared across systems or has a distinct risk profile. Role required: AI asset owner or AI risk and compliance analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\].|AI models|Draft|When a model requires independent governance evaluation \(for example, a shared model or one with distinct risk factors\).|
 |AI case assessment questionnaire|Provides a standardized evaluation framework for AI cases reported through the AI Risk and Compliance Workspace, Employee Center, or email. Supports consistent evaluation, case prioritization, and root cause analysis. Delivered with AI Case Management \(`sn_ai_case_mgmt`\). Role required: AI case analyst \[sn\_ai\_case\_mgmt.ai\_case\_analyst\] or AI risk and compliance analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\].|AI cases|Draft|During the investigation phase, after the case is triaged and assigned to an analyst.|
 
-**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
+**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 
 **Related topics**  
 
 
-[Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md)
+[Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md)
 
-[Risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-rams.md)
+[Risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-rams.md)
 
-[Risk assessment methodologies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-rams-ref.md)
+[Risk assessment methodologies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-rams-ref.md)
 

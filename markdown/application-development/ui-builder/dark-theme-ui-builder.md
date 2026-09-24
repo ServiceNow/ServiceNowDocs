@@ -2,7 +2,7 @@
 title: Dark theme in UI Builder
 description: Learn how to switch to the dark theme in UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/dark-theme-ui-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/dark-theme-ui-builder.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -26,5 +26,5 @@ The Dark theme is instantly applied to the UI Builder interface.
 
 **Note:** The UI Builder stage uses the theme set in your Platform theme settings. For example, the stage might remain white even when the rest of the interface is dark. To enable UI16 pages to render with the dark theme on the stage, select the **Dark** option in the theme menu of your user preferences. For more information on navigating to the theme menu, see [Open the theme menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-open-theme-menu.md).
 
-**Parent Topic:**[Navigate the UI Builder application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/nav-uib.md)
+**Parent Topic:**[Navigate the UI Builder application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/nav-uib.md)
 

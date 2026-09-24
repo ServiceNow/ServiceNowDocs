@@ -2,7 +2,7 @@
 title: Financial Services Complaint Management data model
 description: The Financial Services Complaint Management data model provides a framework that is used in the complaint management workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/fso-complaints-mgmt-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-complaint-management/fso-complaints-mgmt-data-model.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Complaint Management, Common applications, Financial Servi
 
 The Financial Services Complaint Management data model provides a framework that is used in the complaint management workflow.
 
-This data model is aligned to the Financial Services Operations Core data model. See [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md) to learn about Financial Services Operations Core data model.
+This data model is aligned to the Financial Services Operations Core data model. See [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-core-data-model.md) to learn about Financial Services Operations Core data model.
 
 The following diagram shows the tables and their relationships that comprise the complaints management data model.
 
@@ -24,7 +24,7 @@ This data model uses a combination of tables to store data:
 
 -   Tables that are included with complaints management application.
 
-    For more information on tables that are installed with Financial Services Complaint Management, see [Components installed with Financial Services Complaint Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-complaint-management/installed-with-fso-complaints-mgmt.md).
+    For more information on tables that are installed with Financial Services Complaint Management, see [Components installed with Financial Services Complaint Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-complaint-management/installed-with-fso-complaints-mgmt.md).
 
 -   Tables that are from the Customer Service Management \(CSM\) application.
     -   Extends the Sold Product \[sn\_install\_base\_sold\_product\] table for financial account and financial transaction tables.

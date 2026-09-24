@@ -2,7 +2,7 @@
 title: Applying the CSDM guidelines to ITOM AIOps
 description: ITOM AIOps helps you track and maintain the health of services in your organization. ITOM AIOps CSDM reference serves as a foundational blueprint for maintaining optimal IT operations by standardizing data models and processes. The main goal is to help you understand the two main capabilities that work together within the CSDM framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-health-use-case-product-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-health-use-case-product-view.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

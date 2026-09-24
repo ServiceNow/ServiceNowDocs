@@ -2,7 +2,7 @@
 title: Migrate budget of active demands to Next Experience
 description: Migrate your demand budget to Next Experience to manage the financials using Project Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/fin-migrate-budget-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/fin-migrate-budget-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -66,7 +66,7 @@ Description
 2.  Filter the Name field to locate the **Migrate budget for active demands and projects** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
@@ -75,5 +75,5 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 </table>    **Note:** After migration, you won't be able to view the budget on Classic UI. You're encouraged to manage budget using the Financials in Next Experience.
 
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md)
 

@@ -2,7 +2,7 @@
 title: Create custom events to monitor
 description: Create custom events and monitor them in the Conversational Analytics dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/set-up-custom-events-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/set-up-custom-events-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -92,5 +92,5 @@ Custom events take effect when you create them. You cannot use them to analyze d
     The Events page appears, which lists all custom events. You can open the **Custom Events** tab on the dashboard to see the custom event. This custom event is not retroactive; the dashboard only displays new events that satisfy the custom event criteria.
 
 
-**Parent Topic:**[Setting up the Conversational Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setting-up-va-dashboard-overview1-pae.md)
+**Parent Topic:**[Setting up the Conversational Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/setting-up-va-dashboard-overview1-pae.md)
 

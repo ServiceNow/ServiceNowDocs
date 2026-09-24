@@ -2,7 +2,7 @@
 title: Configure OAuth application in Microsoft Azure
 description: Create an OAuth application in Microsoft Azure to verify and authorize connection requests from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.html
 release: australia
 product: Integration Hub
 classification: integration-hub

@@ -2,7 +2,7 @@
 title: Source Facet Bucket form
 description: The Source Facet Bucket form enables you to configure display settings for a source facet bucket in the search application configuration for an AI Search application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/navigation-tab-form-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/navigation-tab-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Source Facet Bucket form enables you to configure display settings for a source facet bucket in the search application configuration for an AI Search application.
 
-For information on configuring source facet bucket display settings for an AI Search application, see [Configure source facet buckets in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/config-nav-tabs-ais.md).
+For information on configuring source facet bucket display settings for an AI Search application, see [Configure source facet buckets in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/config-nav-tabs-ais.md).
 
 |Field|Description|
 |-----|-----------|
@@ -26,5 +26,5 @@ For information on configuring source facet bucket display settings for an AI Se
 |Label|Label to display for the source facet bucket in the search application.|
 |Search Context Config|Search application configuration for the source facet bucket.|
 
-**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/reference-ais.md)
 

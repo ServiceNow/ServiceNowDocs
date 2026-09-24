@@ -2,7 +2,7 @@
 title: Scheduled Script Execution form to generate labor costs
 description: Use the Scheduled Script Execution form to enable Generate Labor Costs and Generate Labor Costs For Epic scheduler jobs for your planning items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/gen-labor-costs-scheduled-script-execution-form-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/gen-labor-costs-scheduled-script-execution-form-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -219,5 +219,5 @@ Starting
 Date and time of the first scheduled job generation. Select the calendar date and time. This field appears only if you select **Periodically** in the **Run** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

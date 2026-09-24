@@ -2,7 +2,7 @@
 title: Map logs to service instances, components, source types
 description: Map your logs to service instances, components, and source types so that Health Log Analytics \(HLA\) can generate contextual alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,9 +19,9 @@ Map your logs to service instances, components, and source types so that Health 
 
 ## Before you begin
 
-For an overview of this feature, see [Mapping logs for contextual alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-log-context-mapping.md).
+For an overview of this feature, see [Mapping logs for contextual alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-log-context-mapping.md).
 
-Configure and activate an integration before you perform this procedure. For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
+Configure and activate an integration before you perform this procedure. For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -57,11 +57,11 @@ AI suggests the optimal log field for mapping to service instances and component
 
     The integration's **Log context mapping** page displays.
 
-    **Note:** If the selected integration has features that are unsupported in Service Operations Workspace, you’re referred to the **Data Input Mapping** page. For more information, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+    **Note:** If the selected integration has features that are unsupported in Service Operations Workspace, you’re referred to the **Data Input Mapping** page. For more information, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
 7.  Turn off automatic service instance and component mapping by using the toggle.
 
-    If you turn off automatic mapping, you must define a mapping script manually in the **Data Input Mapping** page. For more information, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+    If you turn off automatic mapping, you must define a mapping script manually in the **Data Input Mapping** page. For more information, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
     The remaining steps in this procedure are only relevant when automatic mapping is enabled.
 
@@ -100,5 +100,5 @@ AI suggests the optimal log field for mapping to service instances and component
 13. Select **Save mapping** to save your settings.
 
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
 

@@ -2,12 +2,12 @@
 title: Managing your AI asset inventory
 description: Track every AI system, model, prompt, and dataset across your enterprise and control which assets participate in governance, monitoring, and risk workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-ai-asset-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-ai-asset-inventory.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-05"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -22,9 +22,9 @@ The AI asset inventory is the central record of AI assets in your organization. 
 -   Get a complete picture of every AI asset across your organization, including assets discovered automatically and those added manually or through connectors.
 -   Control which assets participate in governance, monitoring, and risk workflows by setting management status directly from the inventory list.
 -   Filter and refine the asset list by type, risk classification, lifecycle state, asset status, and management status to focus on what needs attention.
--   Add assets manually when a connector or trace can't reach them. See [Creating AI assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-ai-assets-newexperience.md).
+-   Add assets manually when a connector or trace can't reach them. See [Creating AI assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/creating-ai-assets-newexperience.md).
 
-For the ways AI Control Tower adds assets to your inventory automatically, see [Discovering AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-discovering-ai-assets.md).
+For the ways AI Control Tower adds assets to your inventory automatically, see [Discovering AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-discovering-ai-assets.md).
 
 \[Omitted image "disc-inventory.png"\] Alt text: Example AI asset inventory showing a list of AI assets showing asset types, asset states, asset status, management status, and evaluation status.
 
@@ -86,21 +86,21 @@ A prompt is a system prompt or prompt template that shapes the behavior of an AI
 
 ## Reviewing duplicate AI assets
 
-AI asset deduplication can detect assets in your inventory that perform the same function, such as when two teams independently build similar AI agents to solve the same problem. AI Control Tower surfaces these likely duplicates as a group for an AI steward to review. The AI steward can then confirm the group as true duplicates or dismiss it, before changes are made to relevant asset records. For more information, see [Duplicate AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-duplicates.md).
+AI asset deduplication can detect assets in your inventory that perform the same function, such as when two teams independently build similar AI agents to solve the same problem. AI Control Tower surfaces these likely duplicates as a group for an AI steward to review. The AI steward can then confirm the group as true duplicates or dismiss it, before changes are made to relevant asset records. For more information, see [Duplicate AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-duplicates.md).
 
 ## Managing the status of AI assets
 
-Control whether an AI asset participates in governance workflows by setting its management status. Managed assets are included in lifecycle management, governance, risk classification, value assessment, security, and privacy capabilities. Unmanaged assets are tracked in the inventory but excluded from those workflows. For more information, see [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-ai-managed-unmanaged.md).
+Control whether an AI asset participates in governance workflows by setting its management status. Managed assets are included in lifecycle management, governance, risk classification, value assessment, security, and privacy capabilities. Unmanaged assets are tracked in the inventory but excluded from those workflows. For more information, see [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-ai-managed-unmanaged.md).
 
 ## Managing AI assets in bulk
 
-Classify large numbers of AI assets automatically instead of moving them to managed one at a time by creating automation rules. A rule matches assets against conditions you define, such as asset type or usage patterns, and marks every matching asset as managed at each scheduled run. For more information, see [Managing AI assets in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-ai-bulk-managing-assets.md).
+Classify large numbers of AI assets automatically instead of moving them to managed one at a time by creating automation rules. A rule matches assets against conditions you define, such as asset type or usage patterns, and marks every matching asset as managed at each scheduled run. For more information, see [Managing AI assets in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-ai-bulk-managing-assets.md).
 
 ## Managing evaluations
 
-Detect quality and safety regressions in your managed AI assets by enabling evaluation. Evaluation scoring assesses AI interactions against configurable quality and safety metrics and surfaces trends so you can investigate regressions before they affect users. Disable evaluation when an asset no longer needs active scoring; historical scores are retained either way. For more information, see [Evaluating AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-evaluating-ai-assets.md).
+Detect quality and safety regressions in your managed AI assets by enabling evaluation. Evaluation scoring assesses AI interactions against configurable quality and safety metrics and surfaces trends so you can investigate regressions before they affect users. Disable evaluation when an asset no longer needs active scoring; historical scores are retained either way. For more information, see [Evaluating AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-evaluating-ai-assets.md).
 
 ## Deactivating managed AI agents
 
-Deactivate a managed AI agent directly from its asset record using AI agent containment with kill switch protocol. For more information, see [Deactivate a managed AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-contain-managed-asset.md).
+Deactivate a managed AI agent directly from its asset record using AI agent containment with kill switch protocol. For more information, see [Deactivate a managed AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-contain-managed-asset.md).
 

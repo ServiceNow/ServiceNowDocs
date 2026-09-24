@@ -2,7 +2,7 @@
 title: Update a move-related workplace service record producer
 description: Update a move-related workplace service record producer. Link a workplace service to one or more record producers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/view-move-request-record-producer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/view-move-request-record-producer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ After a workplace service is created, the service is linked to a record producer
     -   **Request an employee's desk change**
 3.  On the form, edit the fields that you want change.
 
-    For more information about each field on the form, see [Configure a Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-create-record-producer.md).
+    For more information about each field on the form, see [Configure a Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/wsd-create-record-producer.md).
 
 4.  Click **Update**.
 
@@ -46,7 +46,7 @@ After a workplace service is created, the service is linked to a record producer
 
 The record producer is updated.
 
-**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-mov-mgmt-setup.md)
+**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-mov-mgmt-setup.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Components installed with Retail Store Services
 description: Certain roles and dependencies must be considered when using the Retail Store Services plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-store-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-components-store-services.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -101,5 +101,5 @@ Create, update store inquiry case for their location.
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+</table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

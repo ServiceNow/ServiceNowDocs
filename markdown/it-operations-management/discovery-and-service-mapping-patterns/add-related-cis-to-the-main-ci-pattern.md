@@ -2,7 +2,7 @@
 title: Discover related items together with the main CI
 description: Add related items to the patterns to perform horizontal discovery of configuration items with all their related items: CIs or non-CIs, like ports or serial numbers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/add-related-cis-to-the-main-ci-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/add-related-cis-to-the-main-ci-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -23,7 +23,7 @@ Add related items to the patterns to perform horizontal discovery of configurati
 
     \[Omitted image "metadata-rules-tomcat-war-eg.png"\] Alt text: Checking hosting rules under Metadata Editor
 
-3.  To add a non-CI to the pattern, add it as a related item for the CI type to which the main CI belongs. For more information on adding related items for the CI type, see [Configure references to other CIs or non-CIs as related items for the CI type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md).
+3.  To add a non-CI to the pattern, add it as a related item for the CI type to which the main CI belongs. For more information on adding related items for the CI type, see [Configure references to other CIs or non-CIs as related items for the CI type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md).
 
 Role required: pd\_admin
 
@@ -70,9 +70,9 @@ Pattern Designer displays attributes of related CI types, which you added to the
 
 Continue editing the pattern by adding more steps as necessary. To view or use attributes of a related CI type, click the relevant tab in the **CI Attributes** pane.
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md)
+**Previous topic:**[Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md)
 
-**Next topic:**[Enhance patterns without modifying identification sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/modify-pattern-using-extensions.md)
+**Next topic:**[Enhance patterns without modifying identification sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/modify-pattern-using-extensions.md)
 

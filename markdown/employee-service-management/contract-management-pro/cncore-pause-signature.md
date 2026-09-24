@@ -2,7 +2,7 @@
 title: Modify signatories
 description: Modify signatories while a signature workflow is in progress.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-pause-signature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-pause-signature.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +18,7 @@ Modify signatories while a signature workflow is in progress.
 
 ## Before you begin
 
--   Configure the system property **maximum\_signature\_pause\_duration** to define the time duration for which the signature workflow is be paused after you select to modify signatories option. The minimum value that can be set is 8 hours and the maximum is 24 hours. For more information, see [Configure signature pause duration when modifying signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-pause-sig-property.md).
+-   Configure the system property **maximum\_signature\_pause\_duration** to define the time duration for which the signature workflow is be paused after you select to modify signatories option. The minimum value that can be set is 8 hours and the maximum is 24 hours. For more information, see [Configure signature pause duration when modifying signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-pause-sig-property.md).
 -   Modify signatories option is only available for wet signature workflow and Electronic signature workflow with Docusign electronic signature provider integration.
 
 Role required: sn\_cm\_core.contract\_fulfiller
@@ -49,15 +49,15 @@ Use the **Modify signatories** option to pause the signature process when you wa
 
 6.  Modify signatories.
 
-<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d181544e160">
+<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d181548e160">
 
 Action
 
-</th><th align="left" id="d181544e163">
+</th><th align="left" id="d181548e163">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d181544e169">
+</th></tr></thead><tbody><tr><td id="d181548e169">
 
 **Add signatories**
 
@@ -69,7 +69,7 @@ Steps
 4.  Select **Add**.
  **Note:** The **Add** option is not available for self-served contract requests using contract templates with participant-based signatories.
 
-</td></tr><tr><td id="d181544e211">
+</td></tr><tr><td id="d181548e211">
 
 **Edit signatory**
 
@@ -83,7 +83,7 @@ Signatory details page is displayed.
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d181544e237">
+</td></tr><tr><td id="d181548e237">
 
 **Reorder signatories**
 
@@ -97,7 +97,7 @@ To group two or more signatories to sign at the same time, assign them the same 
 3.  Select outside the field, or select **Save**.
 
 
-</td></tr><tr><td id="d181544e266">
+</td></tr><tr><td id="d181548e266">
 
 **Remove signatories**
 
@@ -115,10 +115,10 @@ The signature process is paused and signatories modified.
 
 ## What to do next
 
-Resume the signature process after you have modified the signatories. For more information, see [Resume signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-resume-signature.md).
+Resume the signature process after you have modified the signatories. For more information, see [Resume signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-resume-signature.md).
 
--   **[Resume signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-resume-signature.md)**  
+-   **[Resume signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-resume-signature.md)**  
 Resume the paused signature process with the modified signatories.
 
-**Parent Topic:**[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
 

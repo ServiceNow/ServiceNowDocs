@@ -2,7 +2,7 @@
 title: Load data to ERP user-mapping table for Oracle EBS
 description: Set up Oracle EBS and ERP User ID mapping for the integration to work. The mapping is maintained for all active users who have the procurement buyer role in ERP. These users should be used in the requisition assignment rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/load-data-erp-user-mapping-oracle-ebs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/load-data-erp-user-mapping-oracle-ebs.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -55,7 +55,7 @@ Verify that the data records are imported into the target table. You can view th
 
 **Note:** If an ERP user mapping isn’t required, you can deactivate it. To deactivate a mapping, in the ERP User Mapping form, select the **Inactive** check box.
 
-**Parent Topic:**[Configure the Source-to-Pay integration with Oracle EBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-oracle-ebs-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with Oracle EBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-oracle-ebs-integration.md)
 
 **Related topics**  
 

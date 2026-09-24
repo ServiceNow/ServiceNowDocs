@@ -2,10 +2,10 @@
 title: Namespace identifier examples
 description: The following examples illustrate generating namespace identifiers for applications, tables, and fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/r\_ExampleNamespaceIdentifiers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/r\_ExampleNamespaceIdentifiers.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Namespace identifier, Application scope, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

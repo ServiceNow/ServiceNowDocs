@@ -2,7 +2,7 @@
 title: Create a demand cost plan
 description: Demand cost plans capture the costs of demands. Create a cost plan to specify the unit cost of a cost type for a fiscal period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_CreateADemandCostPlan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/t\_CreateADemandCostPlan.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -28,7 +28,7 @@ Cost plan breakdowns for each fiscal period are recalculated in the project curr
 
 If you want to use multiple currencies, create a cost plan for another currency.
 
-If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled, the **Financials** section fields differ from the Default view. For fields available only in the Demand Currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-fields-demand.md).
+If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled, the **Financials** section fields differ from the Default view. For fields available only in the Demand Currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/multicurrency-fields-demand.md).
 
 ## Procedure
 
@@ -44,9 +44,9 @@ If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activ
     -   To update the details of an existing cost plan, select the record and then select **Manage**.
 5.  In the cost plan form, fill in the fields.
 
-    For a description of the field names, see [Cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-plan-form.md).
+    For a description of the field names, see [Cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/demand-plan-form.md).
 
-    **Note:** When you change the planned start date of a demand, the associated cost plans and resource assignments also change. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** controls the behavior for demand date change.
+    **Note:** When you change the planned start date of a demand, the associated cost plans and resource assignments also change. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** controls the behavior for demand date change.
 
 6.  Select **Submit**.
 
@@ -56,5 +56,5 @@ If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activ
 -   On the Demand form, view the breakdowns by fiscal period in the **Cost Breakdown** related list.
 -   To recalculate the value in the **Forecast** field, use the **Calculate Forecast Amount** related link.
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md)
 

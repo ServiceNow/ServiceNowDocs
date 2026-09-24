@@ -2,7 +2,7 @@
 title: Components installed with Core Business Suite
 description: Various components are installed with Core Business Suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/comp-inst-with-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/comp-inst-with-cbs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -80,10 +80,10 @@ Grants permissions to submit requests for services included in the Core Business
 |HR Service Delivery|[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-case-and-knowledge-management.md)|
 |Workplace Services Delivery|[Components installed with Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-workplace-case-mgmt.md)|
 |Health and Safety|[Components installed with Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-hs-risk-mgmt.md)|
-|Sourcing and Procurement Operations||
+|Sourcing and Procurement Operations|[Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/installed-with-FSC.md)|
 |Finance and Supply Chain applications|[Components installed with Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/installed-with-fin-ops.md)|
 |Supplier Lifecycle Operations|[Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/installed-with-supp-mgmt.md)|
 |Accounts Payable Operations|[Components installed with Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/installed-with-acc-pay-mgmt.md)|
 
-**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-reference-parent.md)
 

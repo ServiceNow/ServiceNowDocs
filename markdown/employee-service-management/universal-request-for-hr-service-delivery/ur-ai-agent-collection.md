@@ -2,7 +2,7 @@
 title: Using agentic flows in Universal Request AI agent collection
 description: Use the Universal Request AI agent collection to complete tasks autonomously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-ai-agent-collection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-ai-agent-collection.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -65,8 +65,8 @@ There might be AI agents installed on your instance that are not used in agentic
 
 **Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
--   **[Universal Request Router agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/agentic-flow-ur.md)**  
+-   **[Universal Request Router agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/agentic-flow-ur.md)**  
 Enables employees to request a department agnostic ticket to avail services that are not readily accessible/understandable via the catalog listings or the services that require collaboration across multiple departments.
 
-**Parent Topic:**[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md)
+**Parent Topic:**[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md)
 

@@ -2,7 +2,7 @@
 title: Define an attack pattern
 description: Define an attack pattern to help categorize attacks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-attack-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-attack-pattern.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -219,5 +219,5 @@ Vulnerabilities
 Lists a weakness or defect in a software or hardware that attackers exploit which is associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Attack patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/attack-patterns.md)
+</table>**Parent Topic:**[Attack patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/attack-patterns.md)
 

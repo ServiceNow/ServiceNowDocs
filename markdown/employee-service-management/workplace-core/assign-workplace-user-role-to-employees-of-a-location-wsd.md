@@ -2,7 +2,7 @@
 title: Assign the workplace user role to employees
 description: Set rules in Workplace Core to assign the workplace user role to employees and apply conditions accordingly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/assign-workplace-user-role-to-employees-of-a-location-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/assign-workplace-user-role-to-employees-of-a-location-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -45,7 +45,7 @@ Role required: admin or sn\_wsd\_core.admin
 
 The workplace user roles are assigned. If a record is created or updated on this table, a role assignment process is triggered in the background.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create an Employee Relations case in Core UI
 description: You create ER cases for employees that wish to report misconduct, discrimination or a disciplinary issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-hr-employee-relations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/create-hr-employee-relations.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -46,7 +46,7 @@ COE
 
 The **Center of Excellence** associated with the HR case you are creating. Currently, Employee Relations Case is the only COE available for ER cases.
 
- Selecting a COE filters the choices for HR service. See [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).
+ Selecting a COE filters the choices for HR service. See [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).
 
  **Note:** You can also select an HR service first and the associated COE automatically populates.
 
@@ -69,7 +69,7 @@ The HR service depends on the COE selected or what you select based on communica
 
 Limit services filter on the **Case Creation Configuration** form. If the HR service field is empty, ensure that you did not remove the Opened for field.
 
- **Note:** **Bulk Parent Case** does not appear as a selection because it only appears when creating a parent case for child bulk cases. Refer to [Add or modify bulk HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateBulkCases.md).
+ **Note:** **Bulk Parent Case** does not appear as a selection because it only appears when creating a parent case for child bulk cases. Refer to [Add or modify bulk HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateBulkCases.md).
 
 </td></tr><tr><td>
 
@@ -85,7 +85,7 @@ The person the HR service request is for. **Note:** This field does not appear i
 
  Click the **Reference field** icon to view or edit **HR profile** information.
 
-**Note:** Selecting the **Do Not Default Subject Person** HR Service Option for an HR service, prevents the **Subject Person** from automatically filling in when creating an HR case. For more information, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+**Note:** Selecting the **Do Not Default Subject Person** HR Service Option for an HR service, prevents the **Subject Person** from automatically filling in when creating an HR case. For more information, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 </td></tr><tr><td>
 
@@ -195,7 +195,7 @@ Status of the case. The state can auto-populate based on the HR case or task tem
 -   Closed Complete
 -   Closed Incomplete
 -   Cancelled
--   Suspended: Use to temporarily prevent violation of a service level agreement \(SLA\). Refer to [Suspend and resume an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_SuspendAndResumeAnHRCase.md).
+-   Suspended: Use to temporarily prevent violation of a service level agreement \(SLA\). Refer to [Suspend and resume an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_SuspendAndResumeAnHRCase.md).
 
 
 </td></tr><tr><td>
@@ -236,7 +236,7 @@ Assignment group
 
 </td><td>
 
-The group the ER case is assigned to. If the group is not set automatically, assign an HR group to provide a selection of HR users in the **Assigned to** field. For automatic assignment, refer to [Employee Relations assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-assign-rules.md).
+The group the ER case is assigned to. If the group is not set automatically, assign an HR group to provide a selection of HR users in the **Assigned to** field. For automatic assignment, refer to [Employee Relations assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-assign-rules.md).
 
 </td></tr><tr><td>
 
@@ -264,8 +264,8 @@ Agents or interested parties you want to associate with the case. Collaborators 
 -   Notifications are sent to the collaborators when added to the ER case.
  Collaborators and the COE for the HR case can conflict. The basic rules are:
 
--   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-coe-security.md).
--   Employee Relations \(ER\) cases can override collaborators when restrictions apply. For more information, see [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
+-   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-coe-security.md).
+-   Employee Relations \(ER\) cases can override collaborators when restrictions apply. For more information, see [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
 **Note:** Agents must have the ER case writer \[sn\_hr\_er.case\_writer\] role in order to be a collaborator.
 
 </td></tr><tr><td>
@@ -325,7 +325,7 @@ A longer, detailed description after the ER case is created. Use the Rich Text F
 
         Information on how to complete the case. This information is defined in the HR Service configuration.
 
-        A checklist outlining the exact steps to complete appears when configured by the HR service. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+        A checklist outlining the exact steps to complete appears when configured by the HR service. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
     -   **Comments and Work Notes**
 
@@ -337,36 +337,36 @@ A longer, detailed description after the ER case is created. Use the Rich Text F
 
         The following appear dependent on the type of case and roles associated with the user:
 
-        -   Add Task: Task you want to add to the case. Refer to [Add an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md).
+        -   Add Task: Task you want to add to the case. Refer to [Add an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md).
         -   Show SLA Timeline: The SLA in timeline format that shows elapsed time.
         -   Repair SLAs: Click to repair any service level agreements associated with the case.
     -   **Involved Parties**
 
-        People associated with the ER case. Involved parties can be the complainant, subject of the allegation, a witness, or other \(undefined\). For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
+        People associated with the ER case. Involved parties can be the complainant, subject of the allegation, a witness, or other \(undefined\). For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
 
     -   **Allegations**
 
-        Information that further defines an employee relations case. For more information, see [Create an allegation record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-create-allegation.md).
+        Information that further defines an employee relations case. For more information, see [Create an allegation record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-create-allegation.md).
 
     -   **Interviews**
 
-        Interview record for an involved party. For more information, see [Schedule an interview in Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-interview.md).
+        Interview record for an involved party. For more information, see [Schedule an interview in Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-interview.md).
 
     -   **Evidence**
 
-        Evidence to support the ER case. For more information, see [Evidence Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.md).
+        Evidence to support the ER case. For more information, see [Evidence Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.md).
 
     -   **Corrective Actions**
 
-        Information about the resolution and any associated corrective actions after an investigation related to the ER case. For more information, see [Create a corrective action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-corrective-actions.md).
+        Information about the resolution and any associated corrective actions after an investigation related to the ER case. For more information, see [Create a corrective action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-corrective-actions.md).
 
     -   **Attached Knowledge**
 
-        List of knowledge articles attached to the HR service type. For more information, see [HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-knowledge-management.md).
+        List of knowledge articles attached to the HR service type. For more information, see [HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-knowledge-management.md).
 
     -   **Approvers**
 
-        Lists employees that can approve changed information or the case, state of approval, comments, and associated dates. For more information, see [Resubmit an HR case for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ApproveAnHRCase.md).
+        Lists employees that can approve changed information or the case, state of approval, comments, and associated dates. For more information, see [Resubmit an HR case for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ApproveAnHRCase.md).
 
         **Note:** To reject an approval, users should have the HR case writer \[sn\_hr\_core\_case.writer\] role.
 

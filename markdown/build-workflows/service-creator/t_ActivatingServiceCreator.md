@@ -2,7 +2,7 @@
 title: Activate Service Creator
 description: If the Service Creator plugin is not already activated, an administrator can activate it to access the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/t\_ActivatingServiceCreator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/service-creator/t\_ActivatingServiceCreator.html
 release: australia
 product: Service Creator
 classification: service-creator

@@ -2,7 +2,7 @@
 title: Reassign Assessment - PATCH /\{userId\}
 description: Reassigns an assessment instance to a different user. Use this endpoint when you need to transfer ownership of an in-progress assessment from the current assignee to another user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/reassignassessment-PATCH-userId.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/reassignassessment-PATCH-userId.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -85,7 +85,7 @@ Data type: String
 
 ## Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -101,7 +101,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ## Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -255,5 +255,5 @@ Response:
 }
 ```
 
-**Parent Topic:**[Reassign Assessment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/reassign-assessment-api.md)
+**Parent Topic:**[Reassign Assessment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/reassign-assessment-api.md)
 

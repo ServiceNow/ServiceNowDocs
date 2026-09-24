@@ -2,7 +2,7 @@
 title: Update execution URLs for planning item demands
 description: Run this scheduled job after upgrading to update execution URLs on existing demand planning items so they redirect correctly to the Demands module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/update-execution-urls-for-existing-demands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/update-execution-urls-for-existing-demands.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -38,5 +38,5 @@ Role required: admin
 
 The execution URL for planning item demands is updated to redirect to the execution demands in the Demands module.
 
-**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
+**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
 

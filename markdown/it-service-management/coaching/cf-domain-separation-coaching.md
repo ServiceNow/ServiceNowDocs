@@ -2,7 +2,7 @@
 title: Domain separation and Coaching
 description: Domain separation is supported in Coaching. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-domain-separation-coaching.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/coaching/cf-domain-separation-coaching.html
 release: australia
 product: Coaching
 classification: coaching
@@ -64,7 +64,7 @@ The **Domain** column contains the name of the domain to which the event or aler
 -   A Coaching user wants to associate an assigned training for an integrated application in the Acme domain. The user must belong to the domain of the integrated application from which a record is associated.
 -   The trainee user of a parent domain can view a coaching assessment of the parent as well as of all child domains of that parent. A trainee user must belong to the Acme domain, its parent domain, or the global domain to view that coaching assessment.
 
-**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-reference.md)
+**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-coaching-reference.md)
 
 **Related topics**  
 

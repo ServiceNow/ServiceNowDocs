@@ -2,7 +2,7 @@
 title: Add a workplace service item to a workplace service
 description: Configure a workplace item that an employee can order along with a workplace service request or as part of the reservation. For example, while making a reservation, an employee can order a workplace service item such as catering, an additional chair, whiteboard, marker, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/add-workplace-service-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/add-workplace-service-items.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -107,7 +107,7 @@ Default template
 
 </td><td>
 
-The default task template to fulfill the task. For more information, refer to [Create a Workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-task-template.md). This field appears only if **Task** is selected from the **Item type**.
+The default task template to fulfill the task. For more information, refer to [Create a Workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/wsd-task-template.md). This field appears only if **Task** is selected from the **Item type**.
 
 </td></tr><tr><td>
 
@@ -243,5 +243,5 @@ The employee is informed if there are one or more services in the lead time whil
 
 ## What to do next
 
-Specify the workplace locations where the workplace service item is available for ordering. For more information, see [Make a workplace service item available to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/add-workplace-service-item-to-workplace-locs.md).
+Specify the workplace locations where the workplace service item is available for ordering. For more information, see [Make a workplace service item available to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/add-workplace-service-item-to-workplace-locs.md).
 

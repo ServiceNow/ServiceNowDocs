@@ -2,7 +2,7 @@
 title: Financial Services Operations release notes
 description: Financial Services Operations \(FSO\) has new and updated features in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/financial-services-operations-rn-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/financial-services-operations-rn-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -50,32 +50,32 @@ In this release, the following FSO applications have security enhancements for r
 -   Personal Lines Servicing
 -   Personal Lines Underwriting
 
--   **[Agentic Contact Center for Insurance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/agentic-contact-centre-for-insurance-rn.md)**  
+-   **[Agentic Contact Center for Insurance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/agentic-contact-centre-for-insurance-rn.md)**  
 The ServiceNow® Agentic Contact Center for Insurance application provides a workspace for Customer Service Representatives \(CSRs\) to run insurance operations efficiently and manage multiple applications simultaneously. Agentic Contact Center for Insurance Australia release.
--   **[Agentic Contact Center for Banking release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/agentic-contact-center-for-banking-rn.md)**  
+-   **[Agentic Contact Center for Banking release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/agentic-contact-center-for-banking-rn.md)**  
 The ServiceNow® Agentic Contact Center for Banking application provides an AI‑led experience for CSRs \(Customer Services Representatives\) that streamlines front‑office banking operations and reduces the challenges CSRs face when navigating multiple systems. Agentic Contact Center for Banking is a new application in the Australia release.
--   **[Card data security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/card-data-security-rn.md)**  
+-   **[Card data security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/card-data-security-rn.md)**  
 The ServiceNow® Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Australia release.
--   **[Dispute Content Pack for US Regulations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/dispute-rules-content-pack-for-us-regulations-rn.md)**  
+-   **[Dispute Content Pack for US Regulations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/dispute-rules-content-pack-for-us-regulations-rn.md)**  
 The ServiceNow® Dispute Content Pack for US Regulations application enables issuers in the United States \(US\) to track dispute cases and conform with regulatory guidelines. Dispute Content Pack for US Regulations was enhanced and updated in the Australia release.
--   **[Dispute Rules Content Pack for Mastercard release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/dispute-rules-content-pack-for-mastercard-rn.md)**  
+-   **[Dispute Rules Content Pack for Mastercard release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/dispute-rules-content-pack-for-mastercard-rn.md)**  
 The ServiceNow® Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
--   **[Dispute Rules Content Pack for Visa release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/dispute-rules-content-pack-for-visa-rn.md)**  
+-   **[Dispute Rules Content Pack for Visa release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/dispute-rules-content-pack-for-visa-rn.md)**  
 The ServiceNow® Dispute Rules Content Pack for Visa application provides questionnaires for dispute-related information intake under various dispute categories according to Visa guidelines. Dispute Rules Content Pack for Visa was enhanced and updated in the Australia release.
--   **[Financial Services Card Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-card-operations-rn.md)**  
+-   **[Financial Services Card Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-card-operations-rn.md)**  
 The ServiceNow® Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Australia release.
--   **[Financial Services Operations Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-core-rn.md)**  
+-   **[Financial Services Operations Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-core-rn.md)**  
 The ServiceNow® Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Australia release.
--   **[Financial Services Operations Integration with Mastercard release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-integration-with-mastercard-rn.md)**  
+-   **[Financial Services Operations Integration with Mastercard release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-integration-with-mastercard-rn.md)**  
 The ServiceNow® Financial Services Operations Integration with Mastercard application enables financial institutions to manage the entire Mastercard dispute process. Financial Services Operations Integration with Mastercard was enhanced and updated in the Australia release.
--   **[Financial Services Operations Integration with Visa release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-integration-with-visa-rn.md)**  
+-   **[Financial Services Operations Integration with Visa release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-integration-with-visa-rn.md)**  
 The ServiceNow® Financial Services Operations Integration with Visa application enables easier integration with workflow applications, such as the card operations dispute management playbook with Visa Resolve Online \(VROL\) subflows. Financial Services Operations Integration with Visa was enhanced and updated in the Australia release.
--   **[Financial Services Operations Integration with Verifi release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-integration-with-verifi-cdrn-rn.md)**  
+-   **[Financial Services Operations Integration with Verifi release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-integration-with-verifi-cdrn-rn.md)**  
 The ServiceNow®Financial Services Operations Integration with Verifi application connects the Financial Services Operations \(FSO\) issuer dispute workflow to Verifi's Cardholder Dispute Resolution Network \(CDRN\) - a Visa owned pre-dispute settlement network. This integration enables issuers to automatically initiate structured negotiations with merchants before disputes escalate to costly chargebacks. Financial Services Operations Integration with Verifi is a new application in the Australia release.
--   **[ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md)**  
+-   **[ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-for-financial-services-operations-rn.md)**  
 The ServiceNow® ServiceNow Otto for Financial Services Operations \(FSO\) application brings generative and agentic AI to Financial Services Operations. Features include AI agents, case summarization, customer profile and interaction context summarization, disputes intake via Virtual Agent, and support for third-party language models. ServiceNow Otto for FSO was enhanced and updated in the Australia release.
--   **[Visa Spoke release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/visa-spoke-rn.md)**  
+-   **[Visa Spoke release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/visa-spoke-rn.md)**  
 The ServiceNow® Visa Spoke application enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Australia release.
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 

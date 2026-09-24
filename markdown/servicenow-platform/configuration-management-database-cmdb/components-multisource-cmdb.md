@@ -2,7 +2,7 @@
 title: Components related to CMDB 360
 description: Several types of components are related to CMDB 360 \(included in the com.snc.cmdb plugin\), such as tables and properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -120,7 +120,7 @@ sn\_cmdb\_ws.ms.calculate\_cmdb\_only
 
 </td><td>
 
-Limits the scope of data in the [Discovery sources tile in the CMDB 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md), to CMDB classes only \(derived from the cmdb\_ci class\).
+Limits the scope of data in the [Discovery sources tile in the CMDB 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md), to CMDB classes only \(derived from the cmdb\_ci class\).
 
  -   Type: true \| false
 -   Default value: true
@@ -144,7 +144,7 @@ Threshold number of CMDB 360 records that when exceeded for a class, CMDB 360 Co
  -   Type: numeric
 -   Default value: 10 million
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
--   Learn more: [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
+-   Learn more: [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
 
 </td></tr></tbody>
 </table>## Tables

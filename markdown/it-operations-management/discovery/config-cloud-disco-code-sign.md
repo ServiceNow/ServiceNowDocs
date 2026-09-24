@@ -2,12 +2,12 @@
 title: Configure Cloud Discovery for code-signed instances
 description: Configure a system property to disable unsupported script tracking for Cloud Discovery operations on instances with code signing enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/config-cloud-disco-code-sign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/config-cloud-disco-code-sign.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -49,7 +49,7 @@ The **com.glide.codesigning.tracking.unsupported\_script\_tracking.enabled** pro
 **Related topics**  
 
 
-[Discovery on Code Signing instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/code-sign-disco-probes.md)
+[Discovery on Code Signing instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/code-sign-disco-probes.md)
 
 [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
 

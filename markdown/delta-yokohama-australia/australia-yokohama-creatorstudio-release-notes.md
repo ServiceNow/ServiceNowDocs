@@ -2,11 +2,11 @@
 title: Combined Creator Studio release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Creator Studio from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-creatorstudio-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-creatorstudio-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,20 @@ Yokohama
 
 </td><td>
 
--   **[Generate a form from text prompts using the Build with Now Assist tab](https://www.servicenow.com/docs/access?context=creator-studio-dynamic-behavior&family=yokohama&ft:locale=en-US)**
+-   **[Test forms with the new Try it button](https://www.servicenow.com/docs/access?context=creator-studio-try-it&family=yokohama&ft:locale=en-US)**
+
+As of Creator Studio version 27.2.2,you can test using published forms through a **Try it** button. After you submit the form, any associated playbooks run and their results appear in the generated record that opens in a new tab within Creator Studio.
+
+-   **[Change the table for an app](https://www.servicenow.com/docs/access?context=creator-studio-admin-app-table&family=yokohama&ft:locale=en-US)**
+
+As of Creator Studio version 27.2.2, admins can change the table where data from apps built in Creator Studio is saved.
+
+-   **[Seamlessly open apps in ServiceNow Studio](https://www.servicenow.com/docs/access?context=view-apps-creator-studio-home-page&family=yokohama&ft:locale=en-US)**
+
+As of Creator Studio version 27.2.2, you can open an app in ServiceNow Studio to make additional, more complicated edits by selecting an **Open with ServiceNow Studio** link from the app's tile on the Creator Studio home page.
+
+
+ -   **[Generate a form from text prompts using the Build with Now Assist tab](https://www.servicenow.com/docs/access?context=creator-studio-dynamic-behavior&family=yokohama&ft:locale=en-US)**
 
 Enable users to generate forms automatically from text prompts by using the Build with Now Assist dialog box.
 
@@ -151,7 +164,51 @@ Yokohama
 
 </td><td>
 
--   **[Search for apps on the home page](https://www.servicenow.com/docs/access?context=view-apps-creator-studio-home-page&family=yokohama&ft:locale=en-US)**
+-   **[Navigation moved from header to sidebar](https://www.servicenow.com/docs/access?context=creator-studio-add-form&family=yokohama&ft:locale=en-US)**
+
+As of Creator Studio version 27.2.2, the navigation has moved from the application header to a navigation panel so you can more easily see what's in your application. The following changes have been made:
+
+    -   The **Forms in your app** section of the navigation panel enables you to easily access forms. If an app has multiple forms, each of them appears separately in the navigation panel.
+    -   Automations appear in the navigation panel under the form they're associated with. The link to **Add automation** now appears under each form.
+    -   The form submissions section has been renamed **List configurations** and now appears in the **Manage your submission configurations** section of the navigation panel.
+    -   The submitted record configuration is now available in the **Record details** in the **Manage your submission configurations** section of the navigation panel.
+    -   A search box in the new navigation panel enables you to search all forms and automations in an app.
+    -   A bookmark icon \(\[Omitted image "image.crs-bookmark-icon"\] Alt text: bookmark icon\) in the navigation panel enables you to bookmark an app for faster access.
+-   **[Streamlined app creation](https://www.servicenow.com/docs/access?context=create-app-creator-studio&family=yokohama&ft:locale=en-US)**
+
+As of Creator Studio version 27.2.2, the following changes have been made when you create an app:
+
+    -   A new page appears asking you what type of app you want to build, such as a Service Desk app. Note that admins can choose not to display this page.
+    -   Choosing a template, adding a form, and previewing it is now a separate process rather than being done during the app creation process.
+-   **[Form preview change](https://www.servicenow.com/docs/access?context=creator-studio-edit-form&family=yokohama&ft:locale=en-US)**
+
+As of Creator Studio version 27.2.2, the way you preview forms has changed in the following ways:
+
+    -   The option to select between **Portal**, **Now Mobile**, and **Virtual Agent** experiences has moved to the top of the preview.
+    -   You can preview only the form you're currently viewing rather than being able to switch between forms in the preview.
+    -   The preview no longer shows the record details and workspace configuration. Those items have moved to the new navigation panel.
+-   **[Request App Workspace more intuitive to use](https://www.servicenow.com/docs/access?context=creator-studio-request-app-workspace&family=yokohama&ft:locale=en-US)**
+
+As of Creator Studio version 27.2.2, the Request App Workspace has been streamlined to help fulfillers find and analyze requests more easily. The following changes have been made:
+
+    -   The **Home** view has been removed, so the **Lists** view now appears by default.
+    -   The **Analytics** view has been renamed **Dashboard overview**, and the analytics **Home**, **Data Visualizations**, and **KPIs** tabs have been removed.
+    -   A link to the **Request App Workspace** now appears in **All** &gt; **App Engine** &gt; **Workspaces**.
+
+ -   **[Playbooks use only published forms](https://www.servicenow.com/docs/access?context=creator-studio-add-automation&family=yokohama&ft:locale=en-US)**
+
+As of Creator Studio version 27.2.2, forms must now be published \(marked as ready\) before you can use them to create an automated playbook.
+
+-   **[Hide the App Engine Studio template with a new system property](https://www.servicenow.com/docs/access?context=creator-studio-components-installed&family=yokohama&ft:locale=en-US)**
+
+As of Creator Studio version 27.2.2, Creator Studio users who have both App Engine Studio \(AES\) and Creator Studio installed will no longer see the AES template when they create an app. Admins can choose to show the AES template using the new **com.glide.creator\_studio.template\_deny\_list** system property.
+
+-   **[Form location removed from form creation](https://www.servicenow.com/docs/access?context=creator-studio-edit-form-settings&family=yokohama&ft:locale=en-US)**
+
+Defining the catalogs and topics for a form is now accomplished by modifying the form settings rather than being done during the form creation process. If you haven't defined a location for a form, you are prompted to do so before you can mark it as ready.
+
+
+ -   **[Search for apps on the home page](https://www.servicenow.com/docs/access?context=view-apps-creator-studio-home-page&family=yokohama&ft:locale=en-US)**
 
 Quickly find the app that you're looking for using the new search bar on the Creator Studio home page.
 
@@ -180,6 +237,11 @@ Australia
 -   **[ServiceNow Otto rebrand](https://www.servicenow.com/docs/access?context=creator-studio-text-to-form&family=australia&ft:locale=en-US)**
 
 ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Creator Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+
+ -   **[Updated identifiers for AI-generated components](https://www.servicenow.com/docs/access?context=creator-studio-text-to-form&family=australia&ft:locale=en-US)**
+
+AI gradient tokens are applied to specific components on the forms page to indicate when content has been generated or influenced by Now Assist. More easily identify AI-generated content consistently through the consistent and recognizable AI identity within Creator Studio.
 
 
 </td></tr></tbody>
@@ -280,6 +342,8 @@ Yokohama
 Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Creator Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -291,6 +355,8 @@ Zurich
 Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Creator Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -301,6 +367,8 @@ Australia
 
 Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Creator Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -524,5 +592,5 @@ Australia
  See [Creator Studio](https://www.servicenow.com/docs/access?context=creator-studio-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

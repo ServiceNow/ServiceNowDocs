@@ -2,7 +2,7 @@
 title: Request a catalog item from Employee Center
 description: Use the SC Catalog Item widget in Employee Center to request a catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-cat-item-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/request-cat-item-ec.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -32,7 +32,7 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d309772e96">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d310109e96">
 
 **Add attachments**
 
@@ -40,7 +40,7 @@ Role required: requester
 
 To add one or more attachments to the catalog item, select the choose a file link to browse and choose the files or directly drag the files in the **Add attachments** window.
 
-</td></tr><tr><td id="d309772e108">
+</td></tr><tr><td id="d310109e108">
 
 **Add to Cart**
 
@@ -48,7 +48,7 @@ To add one or more attachments to the catalog item, select the choose a file lin
 
 To add the catalog item to the shopping cart, click **Add to Cart**.
 
-</td></tr><tr><td id="d309772e120">
+</td></tr><tr><td id="d310109e120">
 
 **Add to Wish List**
 
@@ -72,5 +72,5 @@ To add the catalog item to the wish list, click the Add to Wish List icon \(\[Om
     The corresponding request is displayed in the My Requests page with the request number, estimated delivery date for the order, price, and the order status.
 
 
-**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 

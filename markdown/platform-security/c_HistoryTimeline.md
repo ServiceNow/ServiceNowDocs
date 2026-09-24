@@ -2,7 +2,7 @@
 title: History Timeline
 description: You can view a timeline of changes for a CI and for its related records, relationships, baselines, and proposed changes for the CI. Timelines are available for CIs in the Configuration Item \[cmdb\_ci\] table or a descendant of this table, if auditing is enabled for the tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_HistoryTimeline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/c\_HistoryTimeline.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

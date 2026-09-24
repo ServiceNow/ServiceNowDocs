@@ -2,7 +2,7 @@
 title: Sample mobile experience
 description: A mobile experience enables users to access your application from a ServiceNow native mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/mobile-experiences-examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/mobile-experiences-examples.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -24,5 +24,5 @@ The following example illustrates a sample mobile experience that you can build 
 
 For more examples of mobile experiences that you can build, see [Native Mobile Examples](https://horizon.servicenow.com/native-mobile/basics/examples).
 
-**Parent Topic:**[Add a mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-mobile.md)
+**Parent Topic:**[Add a mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-mobile.md)
 

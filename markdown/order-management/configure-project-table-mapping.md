@@ -2,7 +2,7 @@
 title: Configure field mappings
 description: Configure the CSM table maps to associate fields in order lines, domain orders, and order tasks to projects in Service Portfolio Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-project-table-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-project-table-mapping.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

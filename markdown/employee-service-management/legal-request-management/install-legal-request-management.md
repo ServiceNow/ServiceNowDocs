@@ -2,7 +2,7 @@
 title: Install Legal Request Management
 description: You can install the Legal Request Management application \(sn\_lg\_ops\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/install-legal-request-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/install-legal-request-management.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -40,7 +40,7 @@ The following components are installed with installation of the Legal Request Ma
 -   Tables specific to practice areas
 -   Business Rules
 
-For more information, see [Components installed with Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/installed-with-legal-request-management.md).
+For more information, see [Components installed with Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/installed-with-legal-request-management.md).
 
 You can also install the following applications:
 
@@ -50,7 +50,7 @@ You can also install the following applications:
 
 -   **Legal Mobile \(sn\_lg\_mobile\)**
 
-    The ServiceNow® Legal Mobile \(sn\_lg\_mobile\) application enables you to find legal information, submit and track legal requests, and work on these requests on mobile devices. For more information, see [Legal Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-mobile/legal-mobile-overview.md).
+    The ServiceNow® Legal Mobile \(sn\_lg\_mobile\) application enables you to find legal information, submit and track legal requests, and work on these requests on mobile devices. For more information, see [Legal Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-mobile/legal-mobile-overview.md).
 
 
 ## Procedure
@@ -80,5 +80,5 @@ Use the Legal Service Delivery Guided Setup to configure the application on your
 
 To access Legal Service Delivery Guided Setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
 
-**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-ops-administration.md)
 

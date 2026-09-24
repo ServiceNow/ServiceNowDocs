@@ -2,7 +2,7 @@
 title: Functionality enhancements for the entities
 description: You can configure some functionality enhancements for the entities as part of the GRC updates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/enhancements-for-entities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/enhancements-for-entities.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -39,5 +39,5 @@ The following enhancements are available for the entities:
         Activate the job that synchronizes the entity owner before enabling the property. You can enable the **Maximum batch size while syncing the entity owner with that of its source record** property under GRC properties to set the maximum batch size to an integer value. By doing this action, you synchronize the entity owner with its source record value.
 
 
-**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
 

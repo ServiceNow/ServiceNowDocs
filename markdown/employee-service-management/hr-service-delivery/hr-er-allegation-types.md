@@ -2,7 +2,7 @@
 title: Employee relations allegation types and subtypes
 description: Allegation types and subtypes help you further define an employee relations case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-allegation-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-er-allegation-types.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,5 +24,5 @@ The base system provides allegation types and subtypes that you can use immediat
 
 \[Omitted image "er-allegation-subtypes.png"\] Alt text: Default Allegation Subtypes
 
-You can also create allegation types and subtypes based on your business needs. See [Configure an employee relations allegation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-create-allegation-type.md).
+You can also create allegation types and subtypes based on your business needs. See [Configure an employee relations allegation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-create-allegation-type.md).
 

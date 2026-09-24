@@ -2,7 +2,7 @@
 title: Talent Development Core
 description: ServiceNow Talent Development Core supports an end-to-end process for individuals and managers to take control of their career growth and development plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/egd-landing-page.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -20,27 +20,27 @@ Helps employees identify growth and development areas, create a plan, and track 
 
 <table id="jny-dsgn-info-model-table" class="nav-card"><tbody><tr><td>
 
-[Exploring \[Omitted image "bus-explore.svg"\] Alt text:Learn how the Talent app supports managers and employees identify, create, and complete career growth plans.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-explore.md)
+[Exploring \[Omitted image "bus-explore.svg"\] Alt text:Learn how the Talent app supports managers and employees identify, create, and complete career growth plans.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-explore.md)
 
 </td><td>
 
-[Installing and configuring\[Omitted image "bus-sdlc.svg"\] Alt text: Administrators install and configure the Talent app and related features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-install-config.md)
+[Installing and configuring\[Omitted image "bus-sdlc.svg"\] Alt text: Administrators install and configure the Talent app and related features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-install-config.md)
 
 </td><td>
 
-[Administer\[Omitted image "bus-management-console.svg"\] Alt text:Administrators maintain the Talent app and related features over time as the organization grows and evolves.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-administration.md)
+[Administer\[Omitted image "bus-management-console.svg"\] Alt text:Administrators maintain the Talent app and related features over time as the organization grows and evolves.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-administration.md)
 
 </td></tr><tr><td>
 
-[Using \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:From the ServiceNow® Employee Center, managers and employees work with the Talent app and related features on career growth and development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-use.md)
+[Using \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:From the ServiceNow® Employee Center, managers and employees work with the Talent app and related features on career growth and development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-use.md)
 
 </td><td>
 
-[Integration \[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with different applications to expand the capabilities and effectiveness of the Talent app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-integrations.md)
+[Integration \[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with different applications to expand the capabilities and effectiveness of the Talent app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-integrations.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Reference information provides important details related to how the Talent Development Core app works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Reference information provides important details related to how the Talent Development Core app works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store

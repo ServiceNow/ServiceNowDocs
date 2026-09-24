@@ -2,7 +2,7 @@
 title: Set up work plans linked to task plan templates
 description: Configure work plans and associate it with task plan templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/setup-work-plan-with-task-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/setup-work-plan-with-task-template.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -36,16 +36,16 @@ For example, to meet the monthly audit requirement of inspecting multiple stores
     -   Add reference fields on the output record tables pointing to the Schedule Occurrence \(wm\_plan\_work\_schedule\_occurrence\) table.
 2.  Implement the `sn_fsm_planned_wm.TaskPlanTemplateOutputTasks` extension point to define the create, read, update, and delete operations on the output records.
 
-    For more information, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/extension-points-field-service.md).
+    For more information, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/extension-points-field-service.md).
 
 3.  Manage state flows of output records and schedule occurrences.
 
     The state of schedule occurrences aren't updated automatically. You're required to update and handle the state of schedule occurrences based on the change in the state of output records.
 
-4.  [Create a work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-work-plan.md).
+4.  [Create a work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/create-work-plan.md).
 
-5.  [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-work-plan.md).
+5.  [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configure-work-plan.md).
 
-6.  [Associate task plan template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/map-schedule-to-task-template.md).
+6.  [Associate task plan template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/map-schedule-to-task-template.md).
 
 

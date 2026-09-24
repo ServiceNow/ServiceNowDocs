@@ -2,7 +2,7 @@
 title: Add field security in HR
 description: You can secure a field on a form so that specific HR users cannot view it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/FieldSecurity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/FieldSecurity.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -63,7 +63,7 @@ Use **Access Control** \(ACL\) on a field to secure it.
     -   Change **Application** to **Human Resources: Core**.\[Omitted image "ChangeScope.png"\] Alt text: Change to scoped version of HR through System Settings.
     -   Close the window.
 
-**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 
 **Related topics**  
 

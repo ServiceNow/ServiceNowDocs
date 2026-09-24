@@ -2,7 +2,7 @@
 title: Configure a connection in the Connections dashboard
 description: Configure a connection through the Connections dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/dashboard-configure-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/dashboard-configure-connection.html
 release: australia
 product: Integration Hub
 classification: integration-hub

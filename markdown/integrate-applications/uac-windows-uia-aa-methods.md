@@ -2,7 +2,7 @@
 title: Methods of UI Automation mode and Active Accessibility mode
 description: The Universal app connector provides multiple methods that perform various actions when screens are captured in Windows applications, for UI Automation mode and Active Accessibility mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/uac-windows-uia-aa-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/uac-windows-uia-aa-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -91,5 +91,5 @@ If the screens are captured in Windows applications, for Active Accessibility mo
 |Common|SetMatchRuleValue|
 |Common|WaitForCreate|
 
-**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md)
+**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/universal-app-connector.md)
 

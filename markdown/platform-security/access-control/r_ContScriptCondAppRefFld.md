@@ -2,7 +2,7 @@
 title: Apply ACL script conditions to reference fields
 description: Use the glide.sys\_reference\_row\_check system property to enable scripted conditions for reference fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/r\_ContScriptCondAppRefFld.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/r\_ContScriptCondAppRefFld.html
 release: australia
 product: Access Control
 classification: access-control

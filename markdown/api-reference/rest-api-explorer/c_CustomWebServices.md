@@ -2,7 +2,7 @@
 title: Scripted REST APIs
 description: The scripted REST API feature allows application developers to build custom web service APIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/c\_CustomWebServices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/c\_CustomWebServices.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -87,7 +87,7 @@ Access control lists \(ACLs\) define criteria, such as the roles needed and cond
 
 When defining a scripted REST API ACL, it must have the **Type** value **REST\_Endpoint**.
 
-For additional information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md) and [Configure a scripted REST API resource to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_WbSvcOpRqACL.md).
+For additional information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md) and [Configure a scripted REST API resource to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/t_WbSvcOpRqACL.md).
 
 ## Scripted REST API security matrix
 
@@ -133,12 +133,12 @@ The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/Serv
 
 In the ServiceNow® Developer Site, you can find training for [Scripted REST APIs](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_rest_paris_scripted_rest_apis/app_store_learnv2_rest_paris_scripted_rest_api_objectives?v=paris).
 
--   **[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)**  
+-   **[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)**  
 Create a scripted REST API to define web service endpoints.
--   **[Scripted REST APIs good practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/scripted-rest-good-practices.md)**  
+-   **[Scripted REST APIs good practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/scripted-rest-good-practices.md)**  
 Follow these guidelines when designing and implementing scripted REST APIs.
--   **[Scripted REST API examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_ScriptedRESTAPIExamples.md)**  
+-   **[Scripted REST API examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_ScriptedRESTAPIExamples.md)**  
 Mutliple examples are available demonstrating how to create and use scripted REST APIs.
 
-**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md)
+**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md)
 

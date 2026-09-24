@@ -2,7 +2,7 @@
 title: What is an experience on the ServiceNow AI Platform
 description: Discover what a user interface experience is on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-what-is-an-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/dev-get-start-what-is-an-experience.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ Experiences evolved from forms and lists in the classic UI, which exposed the un
     -   Experiences often include Platform Analytics, enabling you to visualize KPIs, dashboards, and trends directly within the interface.
     -   Natural language queries and filters enhance decision-making.
 
-**Parent Topic:**[User interface and experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-ui-and-experience.md)
+**Parent Topic:**[User interface and experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-get-start-ui-and-experience.md)
 

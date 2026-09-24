@@ -2,7 +2,7 @@
 title: Define ERP source configuration for Oracle Financial Cloud
 description: ERP source configuration determines the ERP source to which your ERP system connects. Map the integration payload with the Oracle Financial Cloud tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-config-oracle-fin-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-config-oracle-fin-cloud.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

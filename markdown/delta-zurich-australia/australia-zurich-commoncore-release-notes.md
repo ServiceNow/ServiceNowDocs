@@ -2,11 +2,11 @@
 title: Combined Common Core release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Common Core from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-commoncore-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-commoncore-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,35 @@ Zurich
 
 </td><td>
 
--   **[Model Text Protocol \(MCP\) Client](https://www.servicenow.com/docs/access?context=mcp-client&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key report-a-grc-issue\]](https://www.servicenow.com/docs/access?context=report-a-grc-issue&family=zurich&ft:locale=en-US)**
+
+The report a GRC issue AI agent is now available in the Employee Center, enabling employee users to report issues through a guided conversational experience. As users respond to prompts, the agent structures the issue and recommends relevant controls, entities, and policies based on the input provided. The AI agent helps ensure that the issue is well-defined and enriched with contextual information before it's submitted.
+
+-   **[\[Placeholder link text to key continuous-monitoring-of-entity-based-access\]](https://www.servicenow.com/docs/access?context=continuous-monitoring-of-entity-based-access&family=zurich&ft:locale=en-US)**
+
+Maintain seamless access for users and groups referenced in record fields when entity-based access restrictions are applied. This feature enables users and groups referenced in a record’s user or group fields to access the records they are associated with. By configuring record-level user access at the table or record type level, it reduces administrative overhead and streamlines EBA adoption with minimal disruption.
+
+-   **[\[Placeholder link text to key functional-domain-bulk-update\]](https://www.servicenow.com/docs/access?context=functional-domain-bulk-update&family=zurich&ft:locale=en-US)**
+
+Apply or remove domain-specific tags across multiple records at once. This streamlines workspace management by letting you quickly filter and organize records, for example, you can exclude non-privacy-tagged items in the Privacy Workspace for a more focused, efficient view.
+
+-   **[Entity record page enhancements](https://www.servicenow.com/docs/access?context=entities-in-risk-ws&family=zurich&ft:locale=en-US)**
+
+The Entity type and Downstream Risks \(now renamed as Risks\) related lists on the Entity record page have been converted to UIB pages, providing a more intuitive and modern interface. The Downstream Risks related list has been moved to the dedicated Risks page, featuring organized tabs for Directly related risks, Suggested risks, and All risks.
+
+**Note:** You may experience issues with custom actions that emit events on the Risks or Entity type related lists on the Entity record page. To ensure a smooth transition and adopt these changes, refer to [KB2593527](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2593527) for detailed guidance.
+
+-   **[\[Placeholder link text to key configuration-of-tasks\]](https://www.servicenow.com/docs/access?context=configuration-of-tasks&family=zurich&ft:locale=en-US)**
+
+Easily manage which configurations appear on the My Tasks page by marking them Active or Inactive. This gives you flexibility to enable or disable configurations without manual intervention, simplifying administration and improving control. An Active/Inactive flag has also been introduced in the My Choice table for enhanced configuration management.
+
+
+ -   **[\[Placeholder link text to key what-is-an-entity\]](https://www.servicenow.com/docs/access?context=what-is-an-entity&family=zurich&ft:locale=en-US)**
+
+Entity names in GRC now automatically update when the associated CI name changes. This enhancement improves data consistency, reduces manual effort, and ensures alignment between CI and Entity records without requiring custom automation.
+
+
+ -   **[Model Text Protocol \(MCP\) Client](https://www.servicenow.com/docs/access?context=mcp-client&family=zurich&ft:locale=en-US)**
 
 Enable users of the ServiceNow® AI Agent Studio to access tools that are hosted externally and published using an MCP Server via the Model Context Protocol Client application.
 
@@ -82,6 +110,25 @@ The **Add** button on the **AI agents** tab is added as a drop-down providing di
 -   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
 
 Configure the Access Control Lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+ -   **[Entity based record access update utility guided experience](https://www.servicenow.com/docs/access?context=entity-based-access-playbook&family=zurich&ft:locale=en-US)**
+
+Apply entity-based access \(EBA\) restrictions at the record level by using guided assistance in the entity based record access update utility. Guided assistance consists of a four-step process:
+
+    1.  Define the scope for the relevant entities
+    2.  Scope the record types
+    3.  Apply the conditions to each record type to refine the scope
+    4.  Review the selected records before you execute and initiate the update
+See the execution logs for a status after each update. You can get the details about the impacted records, applied scopes, and outcomes.
+
+-   **[Entity based record access rules to secure new records](https://www.servicenow.com/docs/access?context=continuous-monitoring-of-entity-based-access&family=zurich&ft:locale=en-US)**
+
+Configure entity-based record access rules on record types to ensure that access restrictions are applied automatically to secure new records or modified records related to entities with active EBA configurations.
+
+-   **[Deactivation of entity-based access configuration](https://www.servicenow.com/docs/access?context=deactivating-entity-based-access&family=zurich&ft:locale=en-US)**
+
+Deactivate the entity-based access configuration, enabling the system to automatically assess the records that it impacts. If entity-based access configuration is restricting a record, the access restrictions are removed. If other configurations also apply to the record, the restrictions remain in place and only the selected configuration is deactivated.
 
 
 </td></tr><tr><td>
@@ -114,6 +161,16 @@ Zurich
 -   **[Downstream risks related list](https://www.servicenow.com/docs/access?context=entities-in-risk-ws&family=zurich&ft:locale=en-US)**
 
 The Downstream risks related list on the entity record page has been renamed Risks.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for Vendor Management Workspace, portal, and mobile experiences. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[States in the entity based record access update utility](https://www.servicenow.com/docs/access?context=eba-configuration-states&family=zurich&ft:locale=en-US)**
+
+A new Preview state has been added to the record access update utility life cycle. You can now review the estimated number of impacted records before you apply the restrictions. This step helps you to validate the selected scope, assess potential impacts, and make adjustments, if needed. It also adds an extra layer of control and reduces the risk of unintended access changes.
 
 
 </td></tr><tr><td>
@@ -205,6 +262,8 @@ Zurich
 
 Install Integrated Risk Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** IRM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -376,5 +435,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

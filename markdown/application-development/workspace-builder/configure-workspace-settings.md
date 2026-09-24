@@ -2,7 +2,7 @@
 title: Configure workspace settings in Workspace Builder
 description: Define workspace settings in Workspace Builder to control the basic functionality of the workspace, such as name and record page navigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/configure-workspace-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/workspace-builder/configure-workspace-settings.html
 release: australia
 product: Workspace Builder
 classification: workspace-builder
@@ -23,13 +23,13 @@ This video shows you how to perform the following procedure.
 Role required:
 
 -   admin or Guided Application Creator for ServiceNow Studio.
--   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
 1.  Navigate to Workspace Builder.
 
-    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
+    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
 
 2.  Display the Settings form by selecting **Workspace settings** in the Workspace Builder header.
 

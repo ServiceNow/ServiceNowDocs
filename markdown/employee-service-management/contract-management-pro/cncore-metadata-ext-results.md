@@ -2,7 +2,7 @@
 title: Metadata extraction results
 description: The Extraction results tab in the contract repository record displays the processed metadata and their statuses, indicating whether the metadata have been successfully added to the mapped fields in the contract repository.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-metadata-ext-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-metadata-ext-results.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -24,5 +24,5 @@ The Extraction results tab in the contract repository record displays the proces
 |Failed - Invalid value|The extracted metadata does not match the expected format or type for the mapped contract repository field. For example, a contract repository field expects an integer, but the extracted value is not a numeric value.|
 |Failed - Processing error|The extracted metadata for the mapped field violated a business rule on the repository, leading to the process being aborted.|
 
-**Parent Topic:**[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
+**Parent Topic:**[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
 

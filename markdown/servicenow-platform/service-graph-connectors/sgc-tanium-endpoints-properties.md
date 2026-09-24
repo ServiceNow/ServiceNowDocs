@@ -2,7 +2,7 @@
 title: Service Graph Connector for Tanium Endpoints properties
 description: Service Graph Connector for Tanium Endpoints properties control the behavior of the connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-properties.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -82,5 +82,5 @@ Set this property to `true` to exclude the serial number from the CI record for 
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for Tanium Endpoints reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-tanium-endpoints-reference.md)
+</table>**Parent Topic:**[Service Graph Connector for Tanium Endpoints reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-tanium-endpoints-reference.md)
 

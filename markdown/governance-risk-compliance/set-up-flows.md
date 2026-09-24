@@ -2,7 +2,7 @@
 title: Set up the flows in Workflow Studio
 description: Set up the flows and conditions for Digital resilience incident reporting in Workflow Studio. As administrators of the Operational Resilience application, you can update \(customize\) the flow configurations to meet your organizational requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-flows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-flows.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

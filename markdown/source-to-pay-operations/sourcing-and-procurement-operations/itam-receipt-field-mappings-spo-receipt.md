@@ -2,7 +2,7 @@
 title: Asset Management receipt field mappings to SPO receipt records
 description: Lists the field mappings between Asset Management receipt line records and SPO receipt records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/itam-receipt-field-mappings-spo-receipt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-receipt-field-mappings-spo-receipt.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,7 +27,7 @@ SPO receipt is auto-generated in the background after receipt of any items. Base
 |Received By|Received By|
 |N/A|Supplier Product \(based on POL\)|
 
-**Parent Topic:**[SPO and Asset Management data model mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-data-model.md)
+**Parent Topic:**[SPO and Asset Management data model mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-data-model.md)
 
 **Related topics**  
 

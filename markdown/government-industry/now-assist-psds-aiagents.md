@@ -2,7 +2,7 @@
 title: Standalone AI Agents in Public Sector Digital Services
 description: Use standalone agents to achieve specific automated outcomes with the Public Sector Digital Services AI Agent Collection application. ​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-aiagents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-aiagents.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -58,5 +58,5 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 -   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 -   Azure OpenAI is recommended for ITSM agentic workflows. For information on Large Language Models \(LLMs\) for AI agents and agentic workflows, see [Select the LLM for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/select-aia-llm.md).
 
-For more information on configuring AI Agents, see [Activate an AI Agent in Public Sector Digital Services AI Agent Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-activate-ai-agents.md).
+For more information on configuring AI Agents, see [Activate an AI Agent in Public Sector Digital Services AI Agent Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-activate-ai-agents.md).
 

@@ -2,7 +2,7 @@
 title: ServiceNow AI Engagement dashboard
 description: The ServiceNow AI Engagement dashboard provides visibility into user adoption, utilization patterns, and performance metrics across all AI systems in your ServiceNow instance. Monitor AI action volume, user engagement trends, departmental usage, and task efficiency gains to identify adoption opportunities and system effectiveness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/md-servicenow-ai-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/md-servicenow-ai-engagement.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-03"

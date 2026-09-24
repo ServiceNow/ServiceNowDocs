@@ -2,7 +2,7 @@
 title: Search for an equipment model entity
 description: Search for an equipment model entity in the Industrial Workspace so that you can find the entity more quickly and efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/search-equipment-model-entities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/search-equipment-model-entities.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -35,5 +35,5 @@ Role required: cmdb\_ot\_isa\_editor
 
 The list automatically expands to show the searched equipment model entity. When you have the **Show Favorites** toggle switched on, the list still expands to show the searched equipment model entity.
 
-**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

@@ -2,7 +2,7 @@
 title: View assets at risk within the impacted area
 description: View the list of resources that are at stake because of an alert threat that is near your business locations. Take actions to protect your resources and prevent major loss.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/assets-risk-crisis-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/assets-risk-crisis-map.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

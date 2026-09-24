@@ -2,7 +2,7 @@
 title: Modify the severity for a CVE or TPE
 description: As a vulnerability manager or analyst, you can modify the severity level of Common Vulnerability Entry \(CVE\) or Third-party Entry \(TPE\) in the Security Exposure Management Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-modify-reset-severity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-modify-reset-severity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ Role required:
     -   The **Modified severity** field appears only when you change the source severity. If you reset it to the original value, the field is removed.
     -   The system will use the **Modified severity** for risk calculations starting from the next scheduled job onwards. If the severity is reset, the original source severity will be applied instead.
 
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

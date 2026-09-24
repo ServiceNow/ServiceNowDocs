@@ -2,7 +2,7 @@
 title: View invoice line details for a line-level invoice exception
 description: View details about invoice lines to understand why a line-level invoice exception has been created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/view-igr-exception-lines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/view-igr-exception-lines.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -42,5 +42,5 @@ The **Invoice lines affected** tab is displayed only for exception tasks that ar
 6.  Select the **Invoice lines affected** tab to view details about each invoice line exception.
 
 
-**Parent Topic:**[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md)
+**Parent Topic:**[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md)
 

@@ -2,7 +2,7 @@
 title: Export Access Analyzer queries
 description: Export the results from an Access Analyzer query.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/export-access-analyzer-queries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/export-access-analyzer-queries.html
 release: australia
 product: Access Control
 classification: access-control

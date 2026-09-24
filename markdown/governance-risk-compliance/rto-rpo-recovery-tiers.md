@@ -2,7 +2,7 @@
 title: RTO, RPO, and recovery tiers
 description: Due to unforeseen disruptive events, the business processes in your organization can face a downtime. Therefore, it is important to classify your business processes in the recovery tiers. You can then calculate the amount of time and amount of data loss that your organization can handle without significant effect on the operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/rto-rpo-recovery-tiers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/rto-rpo-recovery-tiers.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -66,7 +66,7 @@ Recovery tiers can be classified as per their importance and criticality:
 
 ## Recovery tier configuration by the administrators
 
-For more information on how to configure a recovery tier in the Business Continuity Management application, see [Configure recovery tiers for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recovery-tier-bia-uib-ws.md).
+For more information on how to configure a recovery tier in the Business Continuity Management application, see [Configure recovery tiers for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-recovery-tier-bia-uib-ws.md).
 
 ## Recovery timeframe
 
@@ -85,7 +85,7 @@ The example shows the configured recovery timeframes in the Business Continuity 
 
 The example shows the configuration of a recovery timeframe in the Business Continuity Management application. \[Omitted image "new-recovery-timeframe.png"\] Alt text: New recovery timeframe.
 
-For more information on how to configure a recovery timeframe in the Business Continuity Management application, see [Set up recovery timeframe for a recovery tier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recovery-timeframe-bcm.md).
+For more information on how to configure a recovery timeframe in the Business Continuity Management application, see [Set up recovery timeframe for a recovery tier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-recovery-timeframe-bcm.md).
 
-**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

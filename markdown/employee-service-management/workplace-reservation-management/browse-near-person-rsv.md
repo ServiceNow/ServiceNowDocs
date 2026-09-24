@@ -2,7 +2,7 @@
 title: Reserve a space near your colleague
 description: Make a workplace reservation and reserve a space near your team member or a colleague.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/browse-near-person-rsv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/browse-near-person-rsv.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -26,15 +26,15 @@ Role required: admin
 
 1.  Select any of the following context menu navigation options to make a workplace reservation and reserve a space near your preferred colleague or a team member.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d746175e76">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d746179e76">
 
 Location
 
-</th><th align="left" id="d746175e79">
+</th><th align="left" id="d746179e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d746175e85">
+</th></tr></thead><tbody><tr><td id="d746179e85">
 
 **Application navigation filter**
 
@@ -42,7 +42,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d746175e109">
+</td></tr><tr><td id="d746179e109">
 
 **From Employee Center Portal**
 
@@ -63,7 +63,7 @@ Make a reservation portal page opens for you to make workplace reservations.
 
 2.  Select a Reservable Module configuration.
 
-    For example, select any of the following Reservable Module configuraiton. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+    For example, select any of the following Reservable Module configuraiton. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
     -   Desks
     -   Desks with an Area
@@ -72,7 +72,7 @@ Make a reservation portal page opens for you to make workplace reservations.
     -   Desks with a shift
 3.  Select **Browse near a person** to search for available spaces near a colleague or team member.
 
-    **Note:** This option appears only if the **Enable browse near a person** Reservable Module property is enabled. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+    **Note:** This option appears only if the **Enable browse near a person** Reservable Module property is enabled. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
     The **Max number of days for browse near a person** Reservable Module property can be configured to reserve a space near a colleague for a maximum number of days. The default value of this property is 7. The **Browse near a person** is displayed only when the **Enable browse near a person** option is selected on the Reservable Module. The system counts **Max number of days for browse near a person** from the current date \(day 1\). Here, seven days includes current date \(day 1\) and the next six available calendar days.
 
@@ -96,12 +96,12 @@ Make a reservation portal page opens for you to make workplace reservations.
 
             The dates are visible, based on the following considerations:
 
-            -   Maximum days specified in the **Max number of days for browse near a person** Reservable Module property. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+            -   Maximum days specified in the **Max number of days for browse near a person** Reservable Module property. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
             -   Start date and End date: If a multi-day reservation is enabled, you can select a date in the range of a colleague's multi day reservation when making a reservation.
 
                 For example, if **Max days for multi-day** is 10 and you try to make a reservation for 15 days, the application shows a validation error. You’re only allowed to make a reservation for the next 10 days from the current date.
 
-                For more information, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md)
+                For more information, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md)
 
         -   **Select one of their reserved spaces**: Option to show dedicated spaces and reserved spaces that aren’t marked as private for a colleague or team member with a workplace profile. In case, if the selected user or colleague doesn’t have a workplace profile, only the available reserved spaces \(if applicable\) are displayed.
 
@@ -127,7 +127,7 @@ Make a reservation portal page opens for you to make workplace reservations.
 9.  Select **Submit Reservation**.
 
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

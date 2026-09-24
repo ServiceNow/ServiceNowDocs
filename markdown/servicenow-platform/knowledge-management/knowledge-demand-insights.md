@@ -2,7 +2,7 @@
 title: Knowledge demand insights
 description: Identify knowledge gaps and improve content of your knowledge base using the Knowledge Demand Insights feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-demand-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/knowledge-demand-insights.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -26,20 +26,20 @@ Addressing knowledge gaps has the following benefits:
 
 ## Activation information
 
-The Knowledge Demand Insights feature requires the Predictive Intelligence for Knowledge Management plugin \(com.snc.knowledge\_ml\). For more information, see [Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md) and [Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/additional-plugins-km.md).
+The Knowledge Demand Insights feature requires the Predictive Intelligence for Knowledge Management plugin \(com.snc.knowledge\_ml\). For more information, see [Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md) and [Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/additional-plugins-km.md).
 
 ## Demand insights dashboards
 
-You can use a demand insights dashboard for your tasks to analyze candidate knowledge gaps and create knowledge gap feedback tasks. By default, the Knowledge Demand Insights feature includes **Demand Insights for Incidents**, **Demand Insights for Cases**, and **Demand Insights: Similar HR Cases and Knowledge** dashboards for incidents, customer service cases, and HR cases, respectively. For other tasks, you can create a dashboard. To access a demand insights dashboard, you must have read access to the tasks and the sn\_km\_ml.knowledge\_curation\_user role. For more information, see [Analyze knowledge gaps from a demand insights dashboard and create knowledge gap feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.md).
+You can use a demand insights dashboard for your tasks to analyze candidate knowledge gaps and create knowledge gap feedback tasks. By default, the Knowledge Demand Insights feature includes **Demand Insights for Incidents**, **Demand Insights for Cases**, and **Demand Insights: Similar HR Cases and Knowledge** dashboards for incidents, customer service cases, and HR cases, respectively. For other tasks, you can create a dashboard. To access a demand insights dashboard, you must have read access to the tasks and the sn\_km\_ml.knowledge\_curation\_user role. For more information, see [Analyze knowledge gaps from a demand insights dashboard and create knowledge gap feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.md).
 
-**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
+**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-management.md)
 
 **Related topics**  
 
 
-[Demand Insights for Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/demand-insights-cases-dashboard.md)
+[Demand Insights for Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/demand-insights-cases-dashboard.md)
 
-[Demand Insights for Incidents dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/demand-insights-incidents-dashboard.md)
+[Demand Insights for Incidents dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/demand-insights-incidents-dashboard.md)
 
-[Demand Insights for HR Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/demand-insights-hrcases-dashboard.md)
+[Demand Insights for HR Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/demand-insights-hrcases-dashboard.md)
 

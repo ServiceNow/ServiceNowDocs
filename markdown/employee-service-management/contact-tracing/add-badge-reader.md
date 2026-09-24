@@ -2,7 +2,7 @@
 title: Add badge reader details
 description: Create entries for all badge reading devices that are installed at your workplace to control employee access to building, floors, and workspaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/add-badge-reader.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/add-badge-reader.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -45,5 +45,5 @@ You can also import your badge reader data from an Excel spreadsheet. For more i
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Collecting user badge data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/badge-management.md)
+**Parent Topic:**[Collecting user badge data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/badge-management.md)
 

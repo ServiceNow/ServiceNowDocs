@@ -2,7 +2,7 @@
 title: Managing improvements
 description: Continual Improvement Management \(CIM\) provides a structured process for requesting, approving, implementing, and tracking improvements aligned with company strategic objectives.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -149,21 +149,21 @@ Use the [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
 Scorecards are also shown for any KPIs listed in Impacted KPIs related list on the Improvement Initiative form.
 
--   **[Accept an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/accept-assign-cim-request.md)**  
+-   **[Accept an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/accept-assign-cim-request.md)**  
 Accept and assign a new improvement request so it can be assessed for approval. You can reject the improvement request if it does not align with company strategic objectives.
--   **[Prepare an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/implement-cim-initiative.md)**  
+-   **[Prepare an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/implement-cim-initiative.md)**  
 Create CIM phases and tasks to implement an approved improvement. The Improvement Coordinator works with the Improvement Manager to plan implementation and track progress.
--   **[Assess an improvement for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/assess-cim-initiative.md)**  
+-   **[Assess an improvement for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/assess-cim-initiative.md)**  
 Once accepted and set to assess, Approver group members evaluate the improvement for approval before implementation can begin.
--   **[Review and close an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/review-close-cim-initiative.md)**  
+-   **[Review and close an improvement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/review-close-cim-initiative.md)**  
 Once all tasks in each phase of the improvement have been completed, the Improvement Coordinator sets the improvement to review for the Improvement Manager to close.
 
-**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-landing-page.md)
 
 **Related topics**  
 
 
-[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md)
+[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-reference.md)
 
-[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
+[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-field-descriptions.md)
 

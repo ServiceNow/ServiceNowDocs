@@ -2,7 +2,7 @@
 title: Create a custom resource block
 description: If the blocks in the base system do not provide the cloud resources that you need to provision, you can create a custom resource block.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-resource-block.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-resource-block.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -157,12 +157,12 @@ Select the interface that the potential host of this resource block must offer u
     6.  Click **Submit** or **Update**.
 
 
--   **[Specify a host resource for a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/specify-host-resource-cmp.md)**  
+-   **[Specify a host resource for a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/specify-host-resource-cmp.md)**  
 Hosts that support the **Host interface** of a resource block are potential hosts for the resource block. You use the **Host interface** setting to further limit the options that are presented to the stack requester while selecting a host type.
--   **[Specify the bindings for resource blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/specify-resource-bindings-cmp.md)**  
+-   **[Specify the bindings for resource blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/specify-resource-bindings-cmp.md)**  
 Bindings represent endpoint relationships. For example, a storage volume might implement an endpoint type of Block EP \(cmdb\_ci\_endpoint\_block\). A virtual server might consume an endpoint of that type. Bindings must support the Guest interface that is specified for the resource block.
--   **[Configure endpoint operation mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-endpoint-mapping-cmp.md)**  
+-   **[Configure endpoint operation mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/configure-endpoint-mapping-cmp.md)**  
 You can configure endpoint mapping on a storage volume to make a connection to a resource.
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

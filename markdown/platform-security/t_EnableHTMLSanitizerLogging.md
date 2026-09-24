@@ -2,7 +2,7 @@
 title: Enable HTML Sanitizer logging
 description: When the HTML sanitizer removes elements or attributes, they are added to the system log.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_EnableHTMLSanitizerLogging.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_EnableHTMLSanitizerLogging.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

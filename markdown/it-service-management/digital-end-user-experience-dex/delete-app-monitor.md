@@ -2,7 +2,7 @@
 title: Delete an application from the monitoring list
 description: Delete an application from the monitoring list when there’s no longer a need to track its performance or activity. If necessary, you can add the application in the monitoring list later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/delete-app-monitor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/delete-app-monitor.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -44,5 +44,5 @@ Role required: sn\_dex.admin
 
 The application is deleted from the list of monitored applications.
 
-**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

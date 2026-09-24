@@ -2,7 +2,7 @@
 title: Create a scorecard visualization for a breakdown widget
 description: To show the trend for the elements of one breakdown applied to one indicator, use a scorecard visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-scorecard-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/create-scorecard-widget.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -22,7 +22,7 @@ Role required: pa\_admin or admin
 
 ## About this task
 
-**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md).
+**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/interactive-filters-workspace.md).
 
 This feature is deprecated, meaning it is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
@@ -51,7 +51,7 @@ Scorecard visualizations show the trends by element for one breakdown applied to
     You may also set a breakdown and element to filter the scores.
 
     -   For the widget to show scores grouped by the elements of a breakdown, select a breakdown in the **Breakdown** field. Do not select an element or a second breakdown.
-    -   You can have the widget show different elements depending on characteristics of the viewer. To do so, specify an elements filter in the **Element Settings** tab. Do not specify an element in the **Element** field. You can personalize only the first-level breakdown elements. For more information, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/personalized-visuals.md).
+    -   You can have the widget show different elements depending on characteristics of the viewer. To do so, specify an elements filter in the **Element Settings** tab. Do not specify an element in the **Element** field. You can personalize only the first-level breakdown elements. For more information, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/personalized-visuals.md).
     -   For the widget to show scores filtered by an element of one breakdown then grouped by the elements of another breakdown, select the filtering breakdown and element in the **Breakdown** and **Element** fields. Then select the grouping breakdown in the **2nd Breakdown** field. The widget shows scores for each element of the **2nd Breakdown** but only if they match the first **Breakdown** and **Element**.
 
         **Note:**
@@ -77,13 +77,13 @@ Scorecard visualizations show the trends by element for one breakdown applied to
 
     4.  Select a breakdown relation in **Followed breakdown relation**.
 
-        The widget displays only the breakdown elements that follow the specified breakdown relation. A related breakdown element must be selected on the breakdown dashboard. Otherwise, the widget does not display any data. For a detailed example, see [Showing breakdown relations on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ShowBkdwnRltnsWdgts.md).
+        The widget displays only the breakdown elements that follow the specified breakdown relation. A related breakdown element must be selected on the breakdown dashboard. Otherwise, the widget does not display any data. For a detailed example, see [Showing breakdown relations on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ShowBkdwnRltnsWdgts.md).
 
         **Note:**
 
         -   You can specify either a followed breakdown or a followed breakdown relation, not both.
         -   Multiple element selection is not supported on a widget that follows a breakdown relation.
-    For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
+    For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
 
 8.  Fill in any of the following fields:
 
@@ -101,7 +101,7 @@ Time series
 
 </td><td>
 
-Run a function on the scores for a specific time period, such as applying a 7-day sum or average. from being applied to the indicator. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
+Run a function on the scores for a specific time period, such as applying a 7-day sum or average. from being applied to the indicator. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/applying-time-series-aggregations.md).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
 
 </td></tr><tr><td>
 
@@ -124,15 +124,15 @@ To view the widget, add it to a dashboard or a portal.
 **Related topics**  
 
 
-[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md)
+[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_EditADashboard.md)
 
-[Performance Analytics widgets on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/service-portal-pa-widget.md)
+[Performance Analytics widgets on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/service-portal-pa-widget.md)
 
-[Additional settings for breakdown widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optional-settings-breakdown-widgets.md)
+[Additional settings for breakdown widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/optional-settings-breakdown-widgets.md)
 
-[Grouping by breakdown and filtering by breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/grouping-filtering-breakdown.md)
+[Grouping by breakdown and filtering by breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/grouping-filtering-breakdown.md)
 
-[Interacting with breakdown widgets on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_WidgetInteractivity.md)
+[Interacting with breakdown widgets on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_WidgetInteractivity.md)
 
-[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
+[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 

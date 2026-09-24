@@ -2,7 +2,7 @@
 title: Configure decision tables
 description: Configure Workflow Studio and assign roles based on the permission level each user requires. Workflow Studio is installed automatically with each family upgrade.The responsibilities of your staff are controlled by roles assigned to each member. Personas aren’t explicitly part of decision tables in Workflow Studio, but administrators assign roles to give team members permission to configure or use decision tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configuring-decision-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/configuring-decision-builder.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -16,7 +16,7 @@ breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 
 Configure Workflow Studio and assign roles based on the permission level each user requires. Workflow Studio is installed automatically with each family upgrade.
 
-For more information, see [Update to the latest version of Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/update-to-the-latest-version-of-workflow-studio.md).
+For more information, see [Update to the latest version of Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/update-to-the-latest-version-of-workflow-studio.md).
 
 ## Decision tables personas and roles
 

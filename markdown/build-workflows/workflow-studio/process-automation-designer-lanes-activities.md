@@ -2,7 +2,7 @@
 title: Stages and activities
 description: In Playbook, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/process-automation-designer-lanes-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/process-automation-designer-lanes-activities.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -22,15 +22,15 @@ Group activities by the stages of your business process, and sequence activities
 
 ## Activities
 
-In Playbooks, an activity represents one step in your overall business process. In the system, an activity is one instance of an activity definition. For more information on activity instances and activity definitions, see the [Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-architecture-overview.md) and [activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md).
+In Playbooks, an activity represents one step in your overall business process. In the system, an activity is one instance of an activity definition. For more information on activity instances and activity definitions, see the [Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-architecture-overview.md) and [activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activity-definitions.md).
 
 ## Adding an activity to your playbook
 
 In the Playbooks Board view of the design environment, select **+ Add activity** to open the activity picker. In the Diagram view, select the **+** icon on connectors \(lines\) to open the activity picker. In the activity picker, you can search for an activity to add or select one from the list of Common Activities. To choose an activity for a custom application, first select the application and then select the activity from the resulting list within the picker.
 
-Additionally, you can add an activity just using an [automation asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/automation-assets.md).
+Additionally, you can add an activity just using an [automation asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/automation-assets.md).
 
-If there isn't an activity that fits your use case, you can create your own activity definition to add to the activity picker. For more information, see [create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
+If there isn't an activity that fits your use case, you can create your own activity definition to add to the activity picker. For more information, see [create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-activity-definition.md).
 
 ## Interactive and Non-Interactive activities
 
@@ -38,15 +38,15 @@ Activity categories include:
 
 -   **Interactive Activities**
 
-    When an interactive activity runs, it prompts a user for input in your playbook as it runs. For more information, see [Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/interactive-activities.md).
+    When an interactive activity runs, it prompts a user for input in your playbook as it runs. For more information, see [Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/interactive-activities.md).
 
 -   **Non-Interactive Activities**
 
-    When a non-interactive activity runs, it runs entirely behind-the-scenes and requires no user input. For more information, see [Non-Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/non-interactive-activities.md).
+    When a non-interactive activity runs, it runs entirely behind-the-scenes and requires no user input. For more information, see [Non-Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/non-interactive-activities.md).
 
 -   **Optional Activities**
 
-    An optional activity can be inserted by agents and fulfillers during a playbook run. For more information, see [Optional activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/optional-activities.md).
+    An optional activity can be inserted by agents and fulfillers during a playbook run. For more information, see [Optional activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/optional-activities.md).
 
 
 ## Stage and activity details
@@ -84,9 +84,9 @@ Under the **Automation** tab of the side panel, each activity has inputs you can
 
 -   To change default inputs and outputs for the activity, open and edit the source flow in Workflow Studio by selecting the **Open link** icon \(\[Omitted image "external-link-icon.png"\] Alt text: Open link icon\) next to the **Automation** field.
 
-    For more information on how to work with the default inputs and outputs for activities in Playbooks, see [Create an action as an activity automation plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-automation-plan.md).
+    For more information on how to work with the default inputs and outputs for activities in Playbooks, see [Create an action as an activity automation plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-automation-plan.md).
 
-    **Note:** You must have the appropriate user roles to access Workflow Studio and Workflow Studio. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
+    **Note:** You must have the appropriate user roles to access Workflow Studio and Workflow Studio. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/user-access-flow-designer.md).
 
 -   **Inputs** are data that you provide so that the activity runs and performs its function appropriately. For example, a Record activity that notifies a customer of an application rejection will have message inputs for the email address, subject, body, and more.
 -   Expected **Outputs** are displayed at the bottom of the Automation tab.
@@ -97,7 +97,7 @@ You can add dynamic data to an activity input. Click the data pill picker icon \
 
 **Note:** You can dot-walk to fields in a Reference but not in a Document ID or Sys ID.
 
-The inputs for interactive activities typically provide data that renders in a playbook for an agent to interact with. The inputs for non-interactive activities can render in a playbook but don't require any user input in order to run. For more information, see [Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/interactive-activities.md) and [Non-Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/non-interactive-activities.md).
+The inputs for interactive activities typically provide data that renders in a playbook for an agent to interact with. The inputs for non-interactive activities can render in a playbook but don't require any user input in order to run. For more information, see [Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/interactive-activities.md) and [Non-Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/non-interactive-activities.md).
 
 ## Design considerations
 
@@ -108,36 +108,36 @@ Refer to these design considerations when working with stages and activities:
     Some record types already have state models that describe their life cycle. Use any existing state model as a template for the design of your playbook. For more information, see [State Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/state-model.md).
 
 
--   **[Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-stage.md)**  
+-   **[Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-configure-stage.md)**  
 Add and configure a stage in your playbook.
--   **[Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md)**  
+-   **[Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activity-definitions.md)**  
 Activity definitions describe how the activities in your playbook get the data that they need when your playbook runs.
--   **[Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-activity.md)**  
+-   **[Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-configure-activity.md)**  
 Add and configure an activity in your playbook.
--   **[Use AI agent as an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ai-agent-as-activity.md)**  
+-   **[Use AI agent as an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/ai-agent-as-activity.md)**  
 Use an existing AI agent as an activity in your playbook to automate tasks. The AI agent gathers the required context, performs the work, and produces outputs that subsequent activities can consume.
--   **[Use an AI skill as an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/use-ai-skill-as-activity.md)**  
+-   **[Use an AI skill as an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/use-ai-skill-as-activity.md)**  
 Use an existing AI skill as an activity in your playbook to perform lightweight, focused AI tasks. When the playbook reaches the activity, the skill runs, produces structured outputs, and passes those outputs to subsequent activities.
--   **[Automation Assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/automation-assets.md)**  
+-   **[Automation Assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/automation-assets.md)**  
 Include all automation assets in the activity picker to add a subflow, flow, or action directly to your playbook without having to create an activity definition.
--   **[Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md)**  
+-   **[Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/start-with-delay-properties.md)**  
 Specify a duration of time to wait before running an activity or a stage whose start rule and conditions have been met. Give users time to act during automated playbooks. Give users time to wait for a specific date and time to complete actions.
--   **[Optional activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/optional-activities.md)**  
+-   **[Optional activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/optional-activities.md)**  
 Enable your agents and fulfillers to add additional activities as they go through a playbook.
--   **[Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-a-decision-activity.md)**  
+-   **[Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-a-decision-activity.md)**  
 Create and define branches with different conditions for different paths between activities.
--   **[Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-stage.md)**  
+-   **[Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-decision-stage.md)**  
 Create and define branches with different conditions for different paths between stages.
--   **[Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/questionnaire-activity.md)**  
+-   **[Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/questionnaire-activity.md)**  
 Collects inputs from a user during a playbook run to use later in the playbook.
--   **[Go back activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/go-back-activity.md)**  
+-   **[Go back activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/go-back-activity.md)**  
 The Go back activity defines a conditional return point in a playbook, enabling the playbook to loop back to an earlier activity, stage, or the start of the playbook based on an outcome.
--   **[Parallel branches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-parallel-activity.md)**  
+-   **[Parallel branches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-parallel-activity.md)**  
 Add branches for activities and stages that run in parallel to another branch of activities and stages.
--   **[Add dynamic inputs to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-dynamic-inputs-to-activity.md)**  
+-   **[Add dynamic inputs to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-dynamic-inputs-to-activity.md)**  
 Configure your activity to show a certain set of fields based on the value of another input, such as a selected catalog item, selected decision table, or even a REST API response.
--   **[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-activity-state-mapping.md)**  
+-   **[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-activity-state-mapping.md)**  
 Use playbook activity state mapping to override the status of a playbook card.
 
-**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-building-blocks.md)
+**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-building-blocks.md)
 

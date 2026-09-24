@@ -2,7 +2,7 @@
 title: Create a knowledge base article for invoices
 description: Create a knowledge base article to share invoice information and policies with your employees and suppliers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-knowledge-base-articles-for-invoices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-knowledge-base-articles-for-invoices.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -59,7 +59,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist
 -   Track the progress of your article from **My Knowledge Articles**.
 -   Manage the article workflows, such as reviewing, publishing, updating, or retiring the article.
 
-**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

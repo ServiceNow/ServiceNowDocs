@@ -2,7 +2,7 @@
 title: Purchase revisions
 description: Revisions for the quantity of the product, budget, or delivery location can be made to orders placed from ShoppingHub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revisions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revisions.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -54,7 +54,7 @@ State of the purchase requisition is then updated to **Closed Complete**.
 
 **Note:**
 
-Revision requests must be in a closed state for a purchase order to be created. For more information on purchase orders, see [Purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-order.md).
+Revision requests must be in a closed state for a purchase order to be created. For more information on purchase orders, see [Purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-order.md).
 
 Revisions are not allowed in ShoppingHub for lines that have been fully received. Revisions can only be triggered for an amount that exceeds the received amount.
 
@@ -79,20 +79,20 @@ If a purchase requisition or purchase order is revised, and the re-approval is r
 
     -   Once the purchase order is updated, the revised purchase order contains separate entries for the primary cost center, that is, the one from the original purchase requisition and another as a result of the revision, along with any additional user-defined allocations from the original purchase requisition.
     -   Cost allocations cannot be updated after the creation of a purchase order.
-    For more details on cost allocations, see [Cost allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/cost-allocations.md).
+    For more details on cost allocations, see [Cost allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/cost-allocations.md).
 
 -   **Milestone behavior**
 
     -   Milestone details are copied from the original purchase requisition to the revised purchase requisition.
     -   User can create any additional milestones, as needed, on completion of the revision.
     -   Once the purchase order is updated, the original milestone on the purchase order is updated to the **Closed Canceled** state, as a copy is already created during the revision process.
-    For more details on milestones, see [Milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/milestones.md).
+    For more details on milestones, see [Milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/milestones.md).
 
 
-**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 
 **Related topics**  
 
 
-[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
+[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
 

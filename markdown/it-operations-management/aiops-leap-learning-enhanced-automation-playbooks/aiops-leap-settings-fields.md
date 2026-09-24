@@ -2,7 +2,7 @@
 title: LEAP settings fields
 description: LEAP settings page field values help estimate cost and time savings when automation is used. These settings support cost predictability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

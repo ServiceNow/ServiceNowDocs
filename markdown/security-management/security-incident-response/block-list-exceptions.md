@@ -2,7 +2,7 @@
 title: Block list entry exceptions for the Check Point NGTP integration
 description: There are restrictions for adding Block List entries to Block Lists. If duplicate, compatibility, or CIDR \(Classless Inter-Domain Routing\) conflicts exist when you try to add Block List entries to Block Lists, error messages are displayed that help you resolve these errors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/block-list-exceptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/block-list-exceptions.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

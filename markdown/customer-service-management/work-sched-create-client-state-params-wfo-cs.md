@@ -2,7 +2,7 @@
 title: Create a client state parameter for Work scheduler
 description: Add custom client state parameter values to add properties to the card components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/work-sched-create-client-state-params-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/work-sched-create-client-state-params-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,7 +50,7 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
 [Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/work-sched-create-page-scripts.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-workscheduler-card-wfo-cs.md)
 
 **Related topics**  
 

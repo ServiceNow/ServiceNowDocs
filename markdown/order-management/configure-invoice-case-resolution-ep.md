@@ -2,12 +2,12 @@
 title: Configure the invoice dispute resolution extension point
 description: Implement the invoice case resolution extension point to enable the invoice dispute intake assistant AI agent to resolve a validated quantity dispute by issuing a credit note or placing an order for the disputed quantity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-invoice-case-resolution-ep.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-invoice-case-resolution-ep.html
 release: australia
 topic_type: task
 last_updated: "2026-05-25"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
@@ -71,10 +71,10 @@ The demo data for the Manage Invoice Operations application includes a sample im
 
 9.  Validate your implementation by submitting an invoice dispute from the Business Portal and selecting a resolution option using the ServiceNow Otto Virtual Agent.
 
-    For more information, see [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md).
+    For more information, see [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/dispute-invoice-issues-now-assist.md).
 
 
-**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-invoice-operations.md)
+**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-manage-invoice-operations.md)
 
 **Related topics**  
 

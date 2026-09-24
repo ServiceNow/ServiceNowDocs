@@ -2,7 +2,7 @@
 title: Work with extracted metadata
 description: Review the metadata extracted from a contract and add it to the contract repository.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-review-metatdata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-review-metatdata.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -31,15 +31,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open a contract repository record where you want to review extracted information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d624918e69">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d624922e69">
 
 Method
 
-</th><th align="left" id="d624918e72">
+</th><th align="left" id="d624922e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d624918e78">
+</th></tr></thead><tbody><tr><td id="d624922e78">
 
 **Contract Workspace**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d624918e126">
+</td></tr><tr><td id="d624922e126">
 
 **Workspace used by your application**
 
@@ -98,7 +98,7 @@ Steps
 
 The information is submitted to be added to the mapped fields in the contract repository.
 
-When the extraction process is completed, you can view the status of the extracted fields in the **Extraction results** related list in the contract repository record. For more information on the status of the fields, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md).
+When the extraction process is completed, you can view the status of the extracted fields in the **Extraction results** related list in the contract repository record. For more information on the status of the fields, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md).
 
-**Parent Topic:**[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
+**Parent Topic:**[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
 

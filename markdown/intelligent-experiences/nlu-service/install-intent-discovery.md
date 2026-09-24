@@ -2,7 +2,7 @@
 title: Install Intent Discovery
 description: You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/install-intent-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/install-intent-discovery.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -24,11 +24,11 @@ You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you h
     -   **Required ServiceNow plugins**
         -   **Predictive Intelligence \(com.glide.platform\_ml\)**
 
-            Enables various Predictive Intelligence and Machine Learning capabilities for training models. See [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
+            Enables various Predictive Intelligence and Machine Learning capabilities for training models. See [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
 
         -   **NLU Workbench - Core \(com.glide.nlu\)**
 
-            Adds NLU Model capabilities. See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
+            Adds NLU Model capabilities. See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
 
 Role required: admin
@@ -37,7 +37,7 @@ Role required: admin
 
 Tables are installed with Intent Discovery:
 
-For more information, see [Components installed with Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/installed-with-intent-discovery.md).
+For more information, see [Components installed with Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/installed-with-intent-discovery.md).
 
 ## Procedure
 

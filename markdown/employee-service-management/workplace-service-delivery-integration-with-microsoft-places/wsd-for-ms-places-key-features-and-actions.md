@@ -2,7 +2,7 @@
 title: WSD for Microsoft places- Key features and actions
 description: The WSD for Microsoft places application lets you create workplace service requests and manage all your open workplace service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/wsd-for-ms-places-key-features-and-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/wsd-for-ms-places-key-features-and-actions.html
 release: australia
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places

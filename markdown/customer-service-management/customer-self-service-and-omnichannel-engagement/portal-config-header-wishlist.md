@@ -2,7 +2,7 @@
 title: Configure a wishlist and cart for your portal header
 description: Display a wishlist and cart on your portal header.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-header-wishlist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-header-wishlist.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

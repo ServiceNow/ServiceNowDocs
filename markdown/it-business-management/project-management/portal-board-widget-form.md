@@ -2,7 +2,7 @@
 title: Portal board widget form
 description: Learn about the fields of portal board widget form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/portal-board-widget-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/portal-board-widget-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -101,7 +101,7 @@ Include by default
 Check box to show an active investment widget by default on:-   new boards
 -   existing boards that do not have widget selection configured
 
-The check box is selected by default.For more information on configuring widgets on an investment board, see [Widget Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/use-investment-portal.md).
+The check box is selected by default.For more information on configuring widgets on an investment board, see [Widget Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/use-investment-portal.md).
 
 </td></tr><tr><td>
 
@@ -167,5 +167,5 @@ function totalProjectCost()
 **Related topics**  
 
 
-[Configure your investment metrics as widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/configure-investment-metrics.md)
+[Configure your investment metrics as widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/configure-investment-metrics.md)
 

@@ -2,7 +2,7 @@
 title: Perform risk assessments on AI systems
 description: Perform risk assessments on AI systems to evaluate the likelihood and impact of potential risks using the AI Risk and Compliance application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -25,7 +25,7 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst or \[sn\_ai\_
 
 ## About this task
 
-To confirm risk-based assessments on AI assets and risk roll-up function correctly, the **Migrate to Advanced Risk Assessments** property must be enabled. If the property is set to **No**, risk score roll-up does not occur. For more information, see [Set up Advanced Risk assessments properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.md).
+To confirm risk-based assessments on AI assets and risk roll-up function correctly, the **Migrate to Advanced Risk Assessments** property must be enabled. If the property is set to **No**, risk score roll-up does not occur. For more information, see [Set up Advanced Risk assessments properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.md).
 
 ## Procedure
 
@@ -72,7 +72,7 @@ To confirm risk-based assessments on AI assets and risk roll-up function correct
 
 ## What to do next
 
-[Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)
+[Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

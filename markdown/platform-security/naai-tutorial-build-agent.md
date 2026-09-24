@@ -2,7 +2,7 @@
 title: Build your agent
 description: Create your agent in AI Agent Studio, configure its tools and knowledge sources, and set the access controls that determine who can invoke it and what data it can access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-tutorial-build-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-tutorial-build-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -70,7 +70,7 @@ See [Role masking in AI agents](https://raw.githubusercontent.com/ServiceNow/Ser
 
 ## Next step
 
-When your agent is built, tools are configured, and access controls are set, proceed to [Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-configure-security.md).
+When your agent is built, tools are configured, and access controls are set, proceed to [Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-configure-security.md).
 
-**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-overview.md)
+**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-overview.md)
 

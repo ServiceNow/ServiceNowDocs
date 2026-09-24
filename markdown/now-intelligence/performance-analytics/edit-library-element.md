@@ -2,7 +2,7 @@
 title: Edit or delete a library element
 description: You can add artifacts to a library element, or convert a library element back to project-based artifacts. You can also edit the data definitions of artifacts in a library element.Each KPI Composer library element has the following properties. You need the sn\_kpi\_composer.admin or admin role to edit them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/edit-library-element.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/edit-library-element.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -42,20 +42,20 @@ Role required: sn\_kpi\_composer.admin or admin for full editing functions
 
     -   You can open a library element from any artifact in that element, not only the root artifact.
     -   If you have the sn\_kpi\_composer.admin or admin role, you can instead navigate to **KPI Composer** &gt; **Library** and open a library element from a set of library element tiles.
-5.  To add an artifact to the library element, follow the instructions in [Add artifacts to a KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/design-kpi-tree.md).
+5.  To add an artifact to the library element, follow the instructions in [Add artifacts to a KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/design-kpi-tree.md).
 
     **Note:**
 
     -   You do not need to click **Add this element to the library** in the properties of the new artifact. If you click this link, you add the new artifact to a new library element that is nested inside this library element.
-    -   Instead of adding a new artifact, you can add another library element, which is then nested inside this library element. For more information, see [Use a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/use-library-element.md).
-6.  To add indicator definitions to the artifacts in a library element, open the Data Definition tab and follow the instructions in [Create an indicator definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-indicator-definition.md).
+    -   Instead of adding a new artifact, you can add another library element, which is then nested inside this library element. For more information, see [Use a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/use-library-element.md).
+6.  To add indicator definitions to the artifacts in a library element, open the Data Definition tab and follow the instructions in [Create an indicator definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-indicator-definition.md).
 
 7.  Select the information icon \(\[Omitted image "kpi-comp-info-icon-sm.png"\] Alt text:\) to view or edit the library element properties, such as whether the library element is global or personal in scope.
 
     You need the sn\_kpi\_composer.admin or admin role to edit properties. Otherwise, they are read-only.
 
 
-**Parent Topic:**[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)
+**Parent Topic:**[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)
 
 ## Library element properties
 
@@ -141,7 +141,7 @@ Responsible
 
 </td><td>
 
-A responsible user has full editing privileges but also is expected to be responsible for maintaining the library element. For more information, see [Access to KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/access-to-kpi-composer.md).
+A responsible user has full editing privileges but also is expected to be responsible for maintaining the library element. For more information, see [Access to KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/access-to-kpi-composer.md).
 
 </td><td>
 

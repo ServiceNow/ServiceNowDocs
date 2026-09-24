@@ -2,7 +2,7 @@
 title: HR profile and HR case security
 description: Because HR profile information is sensitive and confidential, the System Administrator \[admin\] cannot view it. The same is true for some of the information in HR cases and HR tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/c\_HRProfileSecurity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/c\_HRProfileSecurity.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -62,11 +62,11 @@ You can prevent a user from accessing HR information by impersonating a user tha
     **Note:** This property was introduced for the HR Service Delivery scoped application and not applicable to the HR Services Delivery Non-scoped application.
 
 
-See [Add field security in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/FieldSecurity.md).
+See [Add field security in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/FieldSecurity.md).
 
-See [Restricted caller access for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-security.md).
+See [Restricted caller access for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-security.md).
 
-See [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md).
+See [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManageRoles.md).
 
-**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

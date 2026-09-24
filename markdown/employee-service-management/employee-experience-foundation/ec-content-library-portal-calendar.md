@@ -2,7 +2,7 @@
 title: Create calendar content
 description: Add a calendar to the employee portal to provide employees with a quick way of viewing upcoming company events, such as holidays.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-library-portal-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-calendar.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -87,7 +87,7 @@ The calendar you want to appear on the Employee Center.Select the Lookup using l
 </td></tr></tbody>
 </table>6.  Click **Save**.
 
-    The **Schedule Content** related list displays. For information on publishing your content, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
+    The **Schedule Content** related list displays. For information on publishing your content, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
 
 7.  Or select **Submit** to save the record and return to the list of content.
 

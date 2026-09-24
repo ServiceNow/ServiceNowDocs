@@ -2,7 +2,7 @@
 title: Understand the ServiceNow UI experiences
 description: You can develop in the following ServiceNow AI Platform user interfaces: the Next Experience UI, the Workspace UI, the Classic Environment, and the Core UI. This topic explains these user interfaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/understand-different-ui-experiences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/understand-different-ui-experiences.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

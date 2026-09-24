@@ -2,7 +2,7 @@
 title: Create a case task to follow up with an exposed employee
 description: As a case manager, create case tasks for potentially exposed employees. Assign these tasks to contact tracers to follow up with them to evaluate their health status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/create-task-exposed-contact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/create-task-exposed-contact.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -22,7 +22,7 @@ Role required: sn\_imt\_tracing.case\_manager
 
 ## About this task
 
-The [**sn\_imt\_tracing.auto\_create\_case\_tasks**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/configure-contact-tracing-properties.md) property, enabled by default, and the **Create case tasks for exposed contacts** workflow cause automatic creation of case tasks when potentially exposed employees are added to a case. If the admin has set the property to No, you must add a case task for potentially exposed employees added to a case.
+The [**sn\_imt\_tracing.auto\_create\_case\_tasks**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/configure-contact-tracing-properties.md) property, enabled by default, and the **Create case tasks for exposed contacts** workflow cause automatic creation of case tasks when potentially exposed employees are added to a case. If the admin has set the property to No, you must add a case task for potentially exposed employees added to a case.
 
 ## Procedure
 
@@ -52,7 +52,7 @@ The case tasks are created and assigned to the contact tracers to follow up abou
 
 ## What to do next
 
-The contact tracers can start working on the tasks by [following up with the exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-exposed-contacts.md) about their health status.
+The contact tracers can start working on the tasks by [following up with the exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/contact-exposed-contacts.md) about their health status.
 
-**Parent Topic:**[Managing cases to follow up with potentially exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/exposure-case-management.md)
+**Parent Topic:**[Managing cases to follow up with potentially exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/exposure-case-management.md)
 

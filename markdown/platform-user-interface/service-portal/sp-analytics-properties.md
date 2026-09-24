@@ -2,7 +2,7 @@
 title: Usage Insights related properties for Service Portal
 description: Use system properties to configure Usage Insights for Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sp-analytics-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/sp-analytics-properties.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -29,7 +29,7 @@ Use system properties to configure Usage Insights for Service Portal.
     -   Type: string
     -   Default value: none
 
-**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-analytics.md)
+**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 

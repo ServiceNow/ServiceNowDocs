@@ -2,7 +2,7 @@
 title: Investigate boot time issues
 description: Identify the root cause of boot time issues and get resolutions such as remedial actions, self-help instructions, and relevant knowledge articles to resolve the boot time issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-boot-time-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-boot-time-issues.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

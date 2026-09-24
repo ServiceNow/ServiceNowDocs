@@ -2,7 +2,7 @@
 title: Network topology
 description: The topology in the Telecommunications Network Inventory application graphically displays how the different elements in a network such as equipment, connections, and interfaces are organized and connected to one another. By using a topology, you get a bird's eye view to the network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/visualization-of-topology.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/visualization-of-topology.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -60,12 +60,12 @@ You can access the network topology in the Telecommunications Network Inventory 
 2.  Select the network visualization icon \(\[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon.\).
 3.  Select the **Topology** tab.
 
-To learn more about how to create and view a topology in the Telecommunications Network Inventory application, see [Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md).
+To learn more about how to create and view a topology in the Telecommunications Network Inventory application, see [Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md).
 
 **Related topics**  
 
 
-[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
+[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
 
-[Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md)
+[Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md)
 

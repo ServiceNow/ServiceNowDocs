@@ -2,7 +2,7 @@
 title: Automate notable event updates and closures
 description: Security incidents can be created and updated after they are created with a bi-directional interface with the Splunk Enterprise Security integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-additional-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-additional-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

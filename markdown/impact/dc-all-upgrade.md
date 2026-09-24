@@ -2,7 +2,7 @@
 title: Upgrading the Data Collection Content Pack
 description: When you upgrade the Data Collection Content Pack, you must account for any customizations you've made.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/dc-all-upgrade.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-all-upgrade.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,5 +19,5 @@ Since users might change artifacts within this app \(for example, indicator, ind
 -   Accept the customizations.
 -   Revert the customizations back to the base system, and then reapply them.
 
-**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-toolkit.md)
 

@@ -2,7 +2,7 @@
 title: API parameters to configure Desktop Assistant notifications
 description: sendDANotification\(\) method parameters in the DesktopAppNotificationUtils script include for configuring Desktop Assistant notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -134,5 +134,5 @@ System tray notification
 Displayed when the notification status is **Pending** at the time the Desktop Assistant client checks for new notifications. Not an API parameter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
+</table>**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
 

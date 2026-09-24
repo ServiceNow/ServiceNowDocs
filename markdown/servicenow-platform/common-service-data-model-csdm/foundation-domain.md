@@ -2,7 +2,7 @@
 title: Foundation domain in the CSDM model
 description: Tables in the Foundation domain contain base data that is referenced from or to objects in the other CSDM domains. Before you can use ServiceNow products, you must populate foundational data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/foundation-domain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/foundation-domain.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -20,19 +20,19 @@ The tables in the Foundation domain aren't used in CMDB relationships. Instead, 
 
 \[Omitted image "domain-foundation-tables.png"\] Alt text: Foundation domain of the CSDM framework.
 
-In the Foundation stage of implementing the CSDM framework, admins prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform. For more information on this stage of building your CMDB, see [CSDM implementation stage — Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implement-foundation-stage.md).
+In the Foundation stage of implementing the CSDM framework, admins prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform. For more information on this stage of building your CMDB, see [CSDM implementation stage — Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-implement-foundation-stage.md).
 
-**Note:** For an introductory walk-through of the tables and attributes that you should populate for any domain, see the videos listed in [CSDM resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-resources.md).
+**Note:** For an introductory walk-through of the tables and attributes that you should populate for any domain, see the videos listed in [CSDM resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-resources.md).
 
 ## Foundation domain tables used during the service life cycle
 
 Individual Foundation domain tables are accessed as needed during each phase of the service life cycle. Each topic that describes the life-cycle phase of a domain identifies the foundation tables that are active during that phase. See the following diagrams:
 
--   [Tables used during the Ideation &amp; Strategy phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/ideation-strategy-domain.md)
--   [Tables used during the Design &amp; Planning phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/design-domain.md)
--   [Tables used during the Build &amp; Integration phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/build-domain.md)
--   [Tables used during the Service Delivery phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md)
--   [Tables used during the Service Consumption phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md)
+-   [Tables used during the Ideation &amp; Strategy phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/ideation-strategy-domain.md)
+-   [Tables used during the Design &amp; Planning phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/design-domain.md)
+-   [Tables used during the Build &amp; Integration phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/build-domain.md)
+-   [Tables used during the Service Delivery phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md)
+-   [Tables used during the Service Consumption phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md)
 
 ## Data managed by the chief strategist: Value stream
 
@@ -56,7 +56,7 @@ A contract is a binding agreement between two parties. In the ServiceNow AI Plat
 -   Service contracts used by Vendor Management Workspace can support tangible/physical CIs as part of an SLA.
 -   In the Customer Service Management product, service contracts define the type of support that customers receive. A contract can include an account and contact or a consumer and the specific assets that are covered. A contract can also include multiple service entitlements and SLAs. See [Define a service contract in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-contracts.md).
 
-For more information, see [Definitions of life-cycle values for document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-document.md).
+For more information, see [Definitions of life-cycle values for document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-document.md).
 
 ## Data managed by the product owner
 
@@ -77,7 +77,7 @@ For more information, see [Definitions of life-cycle values for document and con
     -   Hardware Model \[cmdb\_hardware\_product\_model\] \(tangible/physical devices\)
     -   Consumable Model \[cmdb\_consumable\_product\_model\]
     -   Service Model \[cmdb\_service\_product\_model\]
-    Application, service, and software class instance CIs aren't created through Discovery, so their **Model ID \[model\_id\]** values might not refer to product model records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. For recommendations, see [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
+    Application, service, and software class instance CIs aren't created through Discovery, so their **Model ID \[model\_id\]** values might not refer to product model records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. For recommendations, see [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
 
 -   **Product features**
 
@@ -100,7 +100,7 @@ For more information, see [Definitions of life-cycle values for document and con
     -   For the CSDM, the Dynamic CI Group references a CMDB group to provide a list of CIs based on a common criteria.
     -   CMDB groups are stored in the Group \[cmdb\_group\] table.
     -   The CMDB group can potentially replace the spreadsheets that you might be using to group your CIs.
-    For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
+    For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
 
 -   **Locations**
 
@@ -115,13 +115,13 @@ For more information, see [Definitions of life-cycle values for document and con
 
     life-cycle value pairs track the life cycles for products, assets, contracts, CIs, locations, and other objects. Using the standard CSDM life-cycle values consistently helps you to effectively track objects through their transitions over time. Reporting can therefore accurately reflect the actual states of CIs: usage, availability, end of support, and so on.
 
-    When you enable the CSDM framework, you can start using the **Life Cycle Stage** and **Life Cycle Stage Status** values to track an asset's life cycle. To use the fields, follow the procedure described in [Activate the CSDM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable.md). The following processes can use the life-cycle value pairs:
+    When you enable the CSDM framework, you can start using the **Life Cycle Stage** and **Life Cycle Stage Status** values to track an asset's life cycle. To use the fields, follow the procedure described in [Activate the CSDM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-enable.md). The following processes can use the life-cycle value pairs:
 
-    -   [Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)
-    -   [Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
-    -   [Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
-    -   [Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
-    -   [Life cycle of location entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-location.md)
+    -   [Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)
+    -   [Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
+    -   [Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
+    -   [Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
+    -   [Life cycle of location entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-location.md)
     See the ServiceNow Community video: [CSDM V4 product and life cycle discussion](https://www.youtube.com/watch?v=TfRv1VTRsgM)
 
 
@@ -149,5 +149,5 @@ Planning your common data is essential to the effective implementation of Servic
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
+**Parent Topic:**[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
 

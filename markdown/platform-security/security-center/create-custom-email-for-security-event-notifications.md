@@ -2,7 +2,7 @@
 title: Create a custom email for security event notifications
 description: Create a custom email for security event notifications to configure triggers, define recipients, and craft email content with dynamic event fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/create-custom-email-for-security-event-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/create-custom-email-for-security-event-notifications.html
 release: australia
 product: Security Center
 classification: security-center
@@ -91,5 +91,5 @@ Security Center Notification: ${execution.policy.name}
     3.  Enter the name of the custom notification you created in the **Notification** field.
 
 
-**Parent Topic:**[Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/configure-preferences-for-security-event-notifications.md)
+**Parent Topic:**[Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/configure-preferences-for-security-event-notifications.md)
 

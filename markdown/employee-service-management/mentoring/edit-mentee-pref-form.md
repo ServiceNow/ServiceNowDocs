@@ -2,7 +2,7 @@
 title: Edit mentee preferences form
 description: Use this form to record your preferences as a mentee.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/edit-mentee-pref-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/mentoring/edit-mentee-pref-form.html
 release: australia
 product: Mentoring
 classification: mentoring
@@ -30,7 +30,7 @@ Find a different skill
 
 </td><td>
 
-Search field used to find a skill using a skill name or keyword. [Search and add skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/search-add-skills-mentoring.md)
+Search field used to find a skill using a skill name or keyword. [Search and add skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mentoring/search-add-skills-mentoring.md)
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

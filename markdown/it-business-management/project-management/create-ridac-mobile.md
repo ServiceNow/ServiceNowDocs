@@ -2,7 +2,7 @@
 title: Create RIDAC records
 description: You can create Risk, Issues, Decisions, Actions, and Request Changes records for your project through the mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/create-ridac-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/create-ridac-mobile.html
 release: australia
 product: Project Management
 classification: project-management
@@ -22,7 +22,7 @@ Role required: portfolio\_manager or project\_manager or project\_user
 
 ## About this task
 
-Analyze the impact of the risks on the project and create RIDAC records to track risks, issues, and their probable resolution for planning future projects. For more information see, [Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md).
+Analyze the impact of the risks on the project and create RIDAC records to track risks, issues, and their probable resolution for planning future projects. For more information see, [Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ridac-entries-for-project.md).
 
 ## Procedure
 
@@ -48,11 +48,11 @@ Analyze the impact of the risks on the project and create RIDAC records to track
 
     |RIDAC record|Description|
     |------------|-----------|
-    |**New Risk**|Fill the fields on the Risk form. For more information, see [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-risks-for-project.md).|
-    |**New Issue**|Fill the fields on the Issue form. For more information, see [Add issues for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-issues-for-project.md).|
-    |**New Decision**|Fill the fields on the Decision form. For more information, see [Add decisions for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-decisions-for-project.md).|
-    |**New Action**|Fill the fields on the Action form. For more information, see [Add actions for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-actions-for-project.md).|
-    |**New Request Changes**|Fill the fields on the Request Changes form. For more information, see [Create a request change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-project-change-request.md).|
+    |**New Risk**|Fill the fields on the Risk form. For more information, see [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/add-risks-for-project.md).|
+    |**New Issue**|Fill the fields on the Issue form. For more information, see [Add issues for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/add-issues-for-project.md).|
+    |**New Decision**|Fill the fields on the Decision form. For more information, see [Add decisions for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/add-decisions-for-project.md).|
+    |**New Action**|Fill the fields on the Action form. For more information, see [Add actions for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/add-actions-for-project.md).|
+    |**New Request Changes**|Fill the fields on the Request Changes form. For more information, see [Create a request change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-project-change-request.md).|
 
 5.  Alternatively, open a RIDAC record and create a new RIDAC record.
 
@@ -63,5 +63,5 @@ Analyze the impact of the risks on the project and create RIDAC records to track
 **Related topics**  
 
 
-[Manage status of your projects using Project Status application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/mobile-project-status.md)
+[Manage status of your projects using Project Status application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/mobile-project-status.md)
 

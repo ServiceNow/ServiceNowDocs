@@ -2,7 +2,7 @@
 title: Advanced configurations for Field Service Management
 description: Customizations are the best way to get the most out of Field Service management. You can tailor your instance to give your organization the functionality to work exactly the way that is best for you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/customize-field-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/customize-field-service.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

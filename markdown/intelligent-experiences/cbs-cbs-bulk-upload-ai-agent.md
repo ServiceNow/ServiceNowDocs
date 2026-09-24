@@ -2,7 +2,7 @@
 title: CBS Bulk Upload AI Agent
 description: The CBS Bulk Upload AI agent handles bulk record creation and updates for the Space, Supplier, and Supplier Contact tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cbs-cbs-bulk-upload-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cbs-cbs-bulk-upload-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -56,7 +56,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -134,5 +134,5 @@ Not applicable.
 </td></tr></tbody>
 </table>Learn more about Core Business Suite at [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-landing.md).
 
-**Parent Topic:**[Core Business Suite AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cbs-ai-agents-overview.md)
+**Parent Topic:**[Core Business Suite AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cbs-ai-agents-overview.md)
 

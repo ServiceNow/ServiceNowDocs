@@ -2,7 +2,7 @@
 title: Fine-tune Service Mapping with MID affinity and IP reuse
 description: The MID Server needed to map an application service might be misidentified in subnetworks with overlapping IP ranges and reused IP addresses. To enable the successful discovery of resources associated with a subnetwork, Service Mapping provides several properties for MID Server identification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/network-location-mid-affinity-td-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/network-location-mid-affinity-td-discovery.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -30,12 +30,12 @@ Two properties included with Service Mapping offer a solution to system administ
 
 Legacy MID Server selection: Verify that **sa.mapping.legacy\_mid\_selection** is set to false. When set to true, Service Mapping uses the legacy MID Server selection algorithm and the MID affinity properties have no effect, regardless of their configuration.
 
-To learn more about enabling each property, see [Components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping.md)
+To learn more about enabling each property, see [Components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/components-installed-with-service-mapping.md)
 
 **Related topics**  
 
 
-[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
+[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
 
-[MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md)
+[MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/configure-mid-service-mapping.md)
 

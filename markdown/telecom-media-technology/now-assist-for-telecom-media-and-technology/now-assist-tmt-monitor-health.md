@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) monitor engagement health agentic workflow
 description: Monitor engagement health scores and metric trends. The workflow generates risk signals when a decline is detected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

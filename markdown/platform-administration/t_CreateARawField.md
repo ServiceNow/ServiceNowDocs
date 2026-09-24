@@ -2,7 +2,7 @@
 title: Create a raw field
 description: A raw field is a custom field created by an administrator to show the original \(raw\) input in a field on a form after it has been normalized or transformed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateARawField.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateARawField.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Get started with Dynamic Flow and Get Flow Outputs
 description: Create a sample flow that dynamically calls subflows for provisioning cloud services.Create a sample subflow template for provisioning cloud services.Create a sample subflow for provisioning cloud services from Jira.Create a sample subflow for provisioning cloud services from Salesforce.Create a sample flow to run your provisioning cloud services subflows.Test your sample flow for provisioning cloud services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/getting-started-dynamic-flow-get-flow-outputs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/getting-started-dynamic-flow-get-flow-outputs.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -67,7 +67,7 @@ To understand how to use the Dynamic Flow and Get Flow Outputs flow logic togeth
 9.  Select **Start** &gt; **Create** &gt; **Done with apps** to finish creating your application.
 
 
-**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflows.md)
 
 ## Create a subflow template
 
@@ -123,7 +123,7 @@ Role required: flow\_designer or admin
 
 2.  On the Copy Subflow screen, enter `Create Cloud Instance Record - Jira` in the **New Subflow Name** field, and then select **Copy**.
 
-3.  Under the **Log** action, add a [Create Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-record-flow-designer.md).
+3.  Under the **Log** action, add a [Create Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-record-flow-designer.md).
 
 4.  In the **Table Name** field, select `Cloud Instance` and then fill in the following fields.
 
@@ -203,7 +203,7 @@ Role required: flow\_designer or admin
 
 8.  For **Context**, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **1 - Dynamic Flow -** &gt; **Context**.
 
-9.  Under your **Get Flow Outputs** flow logic, select the plus icon \(\[Omitted image "plus-icon-gray.png"\] Alt text: Plus icon\) and then select **Action** &gt; **Update Record** to add an [Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/update-record-flow-designer.md) to your flow.
+9.  Under your **Get Flow Outputs** flow logic, select the plus icon \(\[Omitted image "plus-icon-gray.png"\] Alt text: Plus icon\) and then select **Action** &gt; **Update Record** to add an [Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/update-record-flow-designer.md) to your flow.
 
 10. Fill in the following fields.
 

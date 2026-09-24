@@ -2,7 +2,7 @@
 title: System properties for Progress Tracker visibility
 description: Two system properties control whether the Progress Tracker displays on purchase requisition and purchase order records. The procurement administrator role is required to read or write these properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-system-properties.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -108,7 +108,7 @@ Both cleared \(default\) on the purchase requisition record.
 
 A user must have the sn\_shop.procurement\_administrator role to read or change either property.
 
-**Parent Topic:**[Progress Tracker for purchase requisitions and purchase orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-overview.md)
+**Parent Topic:**[Progress Tracker for purchase requisitions and purchase orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-overview.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Content Understanding
 description: Content Understanding uses AI to extract and summarize information from documents and images, so teams can act on results faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/content-understanding-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/content-understanding-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-12"
@@ -22,19 +22,19 @@ Now Assist in Document Intelligence has been renamed to Content Understanding.
 
 <table id="table_kk3_qs5_wjc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn what Content Understanding is, what problems it solves, and which skills are available.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-explore-content-understanding.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn what Content Understanding is, what problems it solves, and which skills are available.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cu-explore-content-understanding.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Content Understanding skills, AI agents and workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-content-understanding.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Content Understanding skills, AI agents and workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-content-understanding.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Find day-to-day guidance for working with extracted data, Q&amp;A results, summaries, and agent output.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-content-understanding.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Find day-to-day guidance for working with extracted data, Q&amp;A results, summaries, and agent output.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-content-understanding.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up supported file types, limits, and other technical details for each capability.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up supported file types, limits, and other technical details for each capability.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/content-understanding-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -56,5 +56,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

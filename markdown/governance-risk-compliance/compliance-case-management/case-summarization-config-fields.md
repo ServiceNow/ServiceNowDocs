@@ -2,7 +2,7 @@
 title: GRC case summarization skill configuration fields
 description: Review the skill details on each configuration tab before activating the GRC case summarization skill. Even after activation, these fields can be edited to refine the AI-generated summary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/case-summarization-config-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/case-summarization-config-fields.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -85,5 +85,5 @@ Review and activate
 Summary of the skill configuration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/activate-case-summarization-cocm.md)
+</table>**Parent Topic:**[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/activate-case-summarization-cocm.md)
 

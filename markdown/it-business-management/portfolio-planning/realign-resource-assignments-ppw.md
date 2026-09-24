@@ -2,7 +2,7 @@
 title: Realign resource assignment dates for demands
 description: Adjust the resource assignment dates to match the latest dates of your demands when priorities or timelines change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/realign-resource-assignments-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/realign-resource-assignments-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

@@ -2,7 +2,7 @@
 title: Interaction management in Accounts Payable Operations
 description: Interaction records in Accounts Payable Operations capture supplier requests to support case creation and investigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/interaction-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/interaction-record.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -30,18 +30,18 @@ The **Details** tab in interaction record contains the following fields:
 |Opened for|Name of the user|
 |Assigned to|Name of the assigned agent|
 
-For more information, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-interaction-record-in-apo.md).
+For more information, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-new-interaction-record-in-apo.md).
 
 .
 
--   **[Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-interaction-record-in-apo.md)**  
+-   **[Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-new-interaction-record-in-apo.md)**  
 Create and manage interaction records in Accounts Payable Operations to track supplier requests received through chat, email, or the Supplier Collaboration Portal.
--   **[Associate an interaction record in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/associate-an-interaction-record.md)**  
+-   **[Associate an interaction record in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/associate-an-interaction-record.md)**  
 Associate an interaction record to an existing invoice case in Source-to-Pay workspace to track related communications and case activity in one place.
--   **[View interaction record in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-interaction-record.md)**  
+-   **[View interaction record in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/view-interaction-record.md)**  
 View interaction record details to analyze supplier interactions, take immediate actions, and link records to invoice cases requiring investigation.
 
-**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

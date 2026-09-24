@@ -2,7 +2,7 @@
 title: Configurable workspace components examples
 description: To grasp how to interact with configurable workspace components, review these examples.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-conf-ws-comp-examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-conf-ws-comp-examples.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -102,5 +102,5 @@ These are the expected values for the actions:
     \[Omitted image "atf-now-record-open.png"\] Alt text: Screenshot showing to select a record to open
 
 
-**Parent Topic:**[Testable Configurable Workspace components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-conf-ws-components.md)
+**Parent Topic:**[Testable Configurable Workspace components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-conf-ws-components.md)
 

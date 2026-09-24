@@ -2,7 +2,7 @@
 title: Update capacity value and reservation for a territory in capacity console
 description: The Capacity Console provides flexibility for capacity planners and managers to modify capacity value and reservation rule for better allocation of resources. Reservations determine the demand channels applicable and the percentage allocation of capacity for each channel on a given day.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/update-reservation-rule-in-capacity-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/update-reservation-rule-in-capacity-console.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

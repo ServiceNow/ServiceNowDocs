@@ -2,7 +2,7 @@
 title: Configure RTO and RPO Smart Assessment templates workflow
 description: Configure Recovery Time Objective \(RTO\) and Recovery Point Objective \(RPO\) assessments using the Smart Assessment Engine for Business Impact Analysis \(BIA\). The Smart Assessment Engine replaces the traditional non-smart assessment questionnaires with an automated, rule-based approach.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-rto-rpo-sa-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-rto-rpo-sa-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,7 +53,7 @@ The **Automations** tab only appears when the Impact Automation \(Post Assessmen
 
         \[Omitted image "bia-sa-temp-categories-rpo-rto-templates.png"\] Alt text: Impact assessment templates field.
 
-        **Note:** The **Business impact assessment** template category also controls how the Smart Assessment Engine handles open BIA assessments when an impact assessment template is re-versioned. Set **Assessment handling on version retirement** to **Retain** to let in-progress BIAs complete on the retired version, or to **Cancel** to force in-progress BIAs to a canceled state so all active BIAs use the latest version. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-smart-asmt-template.md).
+        **Note:** The **Business impact assessment** template category also controls how the Smart Assessment Engine handles open BIA assessments when an impact assessment template is re-versioned. Set **Assessment handling on version retirement** to **Retain** to let in-progress BIAs complete on the retired version, or to **Cancel** to force in-progress BIAs to a canceled state so all active BIAs use the latest version. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-smart-asmt-template.md).
 
 2.  Select **New template** in the Assessment Workspace or open an existing template.
 
@@ -74,7 +74,7 @@ The **Automations** tab only appears when the Impact Automation \(Post Assessmen
 
         \[Omitted image "bia-asmt-ws-general-tab-settings.png"\] Alt text: General tab settings.
 
-        For more information on creating templates, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+        For more information on creating templates, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
     2.  To save your changes, select **Save**.
 
@@ -331,7 +331,7 @@ Set recovery point objective: **1 week**
 
 7.  To create a BIA, select **New** in the Business Continuity Workspace.
 
-    For more information, see [Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bia-in-uib-ws.md).
+    For more information, see [Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-bia-in-uib-ws.md).
 
 8.  Complete the BIA configuration and save the BIA.
 
@@ -357,5 +357,5 @@ Set recovery point objective: **1 week**
         3.  RTO and RPO fields are automatically populated on the impact analysis record.
         4.  Values appear in the Business Impact Analysis record.
 
-**Parent Topic:**[Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-admin-tasks.md)
+**Parent Topic:**[Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-admin-tasks.md)
 

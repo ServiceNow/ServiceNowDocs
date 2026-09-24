@@ -2,7 +2,7 @@
 title: Request a password reset
 description: If you forget your password, you can request a new password from the customer portal login screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_RequestPasswordReset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_RequestPasswordReset.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Role required: none
 **Related topics**  
 
 
-[Change your password directly from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ChangePasswordFromUserForm.md)
+[Change your password directly from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ChangePasswordFromUserForm.md)
 
-[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_LogInToPortalFirstTime.md)
+[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_LogInToPortalFirstTime.md)
 

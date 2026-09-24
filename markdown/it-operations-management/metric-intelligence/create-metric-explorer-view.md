@@ -2,7 +2,7 @@
 title: Create an Insights Explorer view
 description: You can create a custom view in the Insights Explorer that saves any metric charts that were added to the canvas, and any added configuration items. After you create a view, you can share a link to the view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/create-metric-explorer-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/metric-intelligence/create-metric-explorer-view.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence

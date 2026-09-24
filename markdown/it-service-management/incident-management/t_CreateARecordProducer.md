@@ -2,7 +2,7 @@
 title: Create a record producer to log incidents
 description: Create record producers to log incidents directly from Service Catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_CreateARecordProducer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/t\_CreateARecordProducer.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -71,7 +71,7 @@ The following example demonstrates how to create a record producer to request a 
     In Service Catalog, the new catalog item appears and any user can select it.
 
 
-**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-templates-record-producers.md)
+**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-templates-record-producers.md)
 
 **Related topics**  
 

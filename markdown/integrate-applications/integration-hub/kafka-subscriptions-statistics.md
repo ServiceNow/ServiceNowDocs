@@ -2,7 +2,7 @@
 title: Viewing Kafka subscriptions and statistics
 description: View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/kafka-subscriptions-statistics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/kafka-subscriptions-statistics.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -245,7 +245,7 @@ Average number of records remaining to be processed in the partition group.
 </td></tr></tbody>
 </table>## Stream Connect logs
 
-The Stream Connect Logs tab displays the log entries for the associated consumer. Each log entry shows when it was created; its level, message, and source; and links to any related Alert or Subscription records. Stream Connect logs are stored in the Stream Connect Logs \[sys\_consumer\_log\] table. This table also includes logging for [producers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/producer-statistics.md)
+The Stream Connect Logs tab displays the log entries for the associated consumer. Each log entry shows when it was created; its level, message, and source; and links to any related Alert or Subscription records. Stream Connect logs are stored in the Stream Connect Logs \[sys\_consumer\_log\] table. This table also includes logging for [producers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/producer-statistics.md)
 
 You can enable more detailed logging in the Stream Connect logs by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
 
@@ -371,5 +371,5 @@ Name of the underlying consumer table. One of the following:-   Kafka Stream \[s
 -   Kafka Flow Trigger \[sys\_kafka\_flow\_trigger\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
+</table>**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

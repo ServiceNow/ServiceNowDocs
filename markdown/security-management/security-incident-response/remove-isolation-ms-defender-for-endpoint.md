@@ -2,7 +2,7 @@
 title: Configure Remove Host Isolation capability in Microsoft Defender for Endpoint
 description: If needed, remove the isolation of a host that was previously isolated from the network in Microsoft Defender for Endpoint. You can prevent any other malicious activities or potential attacks on other hosts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/remove-isolation-ms-defender-for-endpoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/remove-isolation-ms-defender-for-endpoint.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,7 +46,7 @@ Role required: sn\_si.admin or sn\_si.analyst
 7.  Validate the automation activities of the execution.
 
 
-**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
+**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 **Related topics**  
 

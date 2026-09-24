@@ -2,7 +2,7 @@
 title: Enable cost allocation in Google Cloud for Kubernetes cluster
 description: Enable cost allocation for each Kubernetes cluster before you run a Google Cloud Billing download job to view the Kubernetes spend.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/enable-cost-allocation-kc-gcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/enable-cost-allocation-kc-gcp.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

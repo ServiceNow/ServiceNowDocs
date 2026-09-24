@@ -2,7 +2,7 @@
 title: Project financials and Source-to-Pay Operations integration
 description: Request, track, and manage procurement requests of assets for your projects.As a Project Manager, you can directly access the Source-to-Pay Operations shopping hub portal to place a request to meet your project requirements.After the purchase request is placed, you can track the request details such as Purchase line number, Purchased quantity, unit cost, tax, and state from Project Workspace.Once the requested purchase orders are approved and processed, a purchase order line and a cost plan is automatically created. You can view cost plans for the requisition in Project Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/pws-fin-spo-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/pws-fin-spo-integration.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -18,7 +18,7 @@ Request, track, and manage procurement requests of assets for your projects.
 
 ## Before you begin
 
-Install Sourcing and Procurement Operations
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/install-spo-ai.md)
 
 Role required: it\_project\_manager
 
@@ -33,7 +33,7 @@ Project managers can navigate from Project Workspace to procurement applications
 2.  Open a project and select **Details** from the left menu.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 
 ## Create purchase request
 

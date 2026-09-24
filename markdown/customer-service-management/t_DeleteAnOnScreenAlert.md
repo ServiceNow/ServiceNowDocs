@@ -2,7 +2,7 @@
 title: Delete a special handling note
 description: Delete a special handling note for a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_DeleteAnOnScreenAlert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_DeleteAnOnScreenAlert.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Users with the sn\_customerservice\_manager role can delete a special handling n
 **Related topics**  
 
 
-[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OnScreenAlerts.md)
+[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_OnScreenAlerts.md)
 
-[Delete a special handling note from a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_DeleteAnOnScreenAlertFromForm.md)
+[Delete a special handling note from a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_DeleteAnOnScreenAlertFromForm.md)
 

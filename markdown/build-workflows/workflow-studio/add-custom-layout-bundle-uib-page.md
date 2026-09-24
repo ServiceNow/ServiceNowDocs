@@ -2,7 +2,7 @@
 title: Add a custom layout bundle to a UI Builder page
 description: Add playbook custom layout bundles to a new or existing UI Builder page that you've created from scratch.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-custom-layout-bundle-uib-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/add-custom-layout-bundle-uib-page.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

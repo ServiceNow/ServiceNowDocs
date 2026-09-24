@@ -2,14 +2,14 @@
 title: Verify whether inbound mTLS support is activated for your instance
 description: Check whether inbound mTLS support is activated for your ServiceNow AI Platform instance. You need this feature activated to run crawls for external content connectors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/verify-adcv2-inbound-mtls-enabled.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/verify-adcv2-inbound-mtls-enabled.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-04-09"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Install, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -46,5 +46,5 @@ If the response from the `adcv2/supports_tls` request is `true`, inbound mTLS su
 
 If the response from the `adcv2/supports_tls` request is anything other than `true`, inbound mTLS support isn't activated on your instance. Open a service request case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to ask Customer Service and Support to activate inbound mTLS support on your instance.
 
-**Parent Topic:**[Install External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/install-ext-cont-connectors.md)
+**Parent Topic:**[Install External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/install-ext-cont-connectors.md)
 

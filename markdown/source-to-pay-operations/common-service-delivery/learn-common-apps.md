@@ -2,7 +2,7 @@
 title: Learn about FSC common applications
 description: Learn about the FSC common application plugins and their dependencies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/common-service-delivery/learn-common-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/common-service-delivery/learn-common-apps.html
 release: australia
 product: Common Service Delivery
 classification: common-service-delivery
@@ -38,7 +38,7 @@ Common Service Delivery \[sn\_spend\_sdc\]
 
 </td><td>
 
-Contains Service Task and Service Request tables, as well as other infrastructure that forms the basis of Finance and Supply Chain workflows products.For more information about the components installed with this plugin, see [Components installed with Common Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/installed-with-common-service-delivery.md).
+Contains Service Task and Service Request tables, as well as other infrastructure that forms the basis of Finance and Supply Chain workflows products.For more information about the components installed with this plugin, see [Components installed with Common Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/common-service-delivery/installed-with-common-service-delivery.md).
 
 </td><td>
 
@@ -58,7 +58,7 @@ Finance Common Architecture \[sn\_fin\]
 
 Maintains primary data such as Enterprise Resource Planning \(ERP\) sources, legal entities, accounting periods, and so on.
 
- For more information about the components installed with this plugin, see [Components installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/installed-with-finance-common.md).
+ For more information about the components installed with this plugin, see [Components installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/common-service-delivery/installed-with-finance-common.md).
 
 </td><td>
 
@@ -77,7 +77,7 @@ Source-to-Pay Common Architecture \[snc.sn\_shop\]
 
 </td><td>
 
-Provides an architecture to store purchase orders, requisitions, sourcing requests, and other objects that are commonly used across the source-to-pay business processes.For more information about the components installed with this plugin, see [Components installed with Source-to-Pay Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-common-architecture.md).
+Provides an architecture to store purchase orders, requisitions, sourcing requests, and other objects that are commonly used across the source-to-pay business processes.For more information about the components installed with this plugin, see [Components installed with Source-to-Pay Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-common-architecture.md).
 
 </td><td>
 
@@ -94,7 +94,7 @@ ERP Integration Framework \[sn\_fcms\_integrations\]**Important:** Check your en
 
 </td><td>
 
-Provides integration support between the Platform and common ERP systems.For more information about the components installed with this plugin, see [Components installed with ERP Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/installed-with-FSC-ERP.md).
+Provides integration support between the Platform and common ERP systems.For more information about the components installed with this plugin, see [Components installed with ERP Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/common-service-delivery/installed-with-FSC-ERP.md).
 
 </td><td>
 
@@ -111,7 +111,7 @@ Source-to-Pay Integration Framework \[sn\_spend\_intg\]
 
 </td><td>
 
-Provides a set of staging tables, transform maps, and workflows to integrate Source-to-Pay Operations with third-party ERP system.For more information about the components installed with this plugin, see [Components installed with Source-to-Pay Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-intg-framework.md).
+Provides a set of staging tables, transform maps, and workflows to integrate Source-to-Pay Operations with third-party ERP system.For more information about the components installed with this plugin, see [Components installed with Source-to-Pay Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-intg-framework.md).
 
 </td><td>
 

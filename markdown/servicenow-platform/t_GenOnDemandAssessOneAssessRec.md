@@ -2,7 +2,7 @@
 title: Generate an on-demand assessment for one assessable record
 description: When you generate an on-demand assessment from the Assessable Record form, the resulting assessment contains questions from the categories associated to the assessable record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_GenOnDemandAssessOneAssessRec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_GenOnDemandAssessOneAssessRec.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,14 +41,14 @@ Publish the assessment.
 
 The system generates an assessment instance assigned to the selected users.
 
-**Parent Topic:**[On-demand assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OnDemandAssessments.md)
+**Parent Topic:**[On-demand assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_OnDemandAssessments.md)
 
 **Related topics**  
 
 
-[Assessment generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentGeneration.md)
+[Assessment generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentGeneration.md)
 
-[Scheduled assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ScheduledAssessments.md)
+[Scheduled assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_ScheduledAssessments.md)
 
-[Clean up assessment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CleanUpAssessmentData.md)
+[Clean up assessment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CleanUpAssessmentData.md)
 

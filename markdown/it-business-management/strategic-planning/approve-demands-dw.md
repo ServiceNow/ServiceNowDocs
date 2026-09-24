@@ -2,7 +2,7 @@
 title: Approve demands
 description: Approve qualified demands in Next Experience for Demand Management. Approving a demand moves it to the Approved state, where the demand manager can convert it into a work item such as a project or enhancement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/approve-demands-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/approve-demands-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

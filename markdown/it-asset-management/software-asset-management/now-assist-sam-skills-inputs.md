@@ -2,7 +2,7 @@
 title: Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)
 description: Get a quick overview of the skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -20,7 +20,7 @@ Depending on the selected skill, you can configure the inputs or triggers. These
 
 ## Publisher compliance summarization skill
 
-For the publisher compliance summarization skill, select the triggers that determine when a publisher compliance summary is generated. You can also select the properties that control how a publisher compliance summary is displayed. To display the publisher compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring ServiceNow Otto for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-now-assist-sam.md).
+For the publisher compliance summarization skill, select the triggers that determine when a publisher compliance summary is generated. You can also select the properties that control how a publisher compliance summary is displayed. To display the publisher compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring ServiceNow Otto for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when a publisher compliance summary is generated and how a publisher compliance summary is displayed.
 
@@ -40,7 +40,7 @@ The Publisher compliance summarization skill is available by default in the Aust
 
 ## Product compliance summarization skill
 
-For the product compliance summarization skill, select the triggers that determine when a product compliance summary is generated. You can also select the properties that control how a product compliance summary is displayed. To display the product compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring ServiceNow Otto for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-now-assist-sam.md).
+For the product compliance summarization skill, select the triggers that determine when a product compliance summary is generated. You can also select the properties that control how a product compliance summary is displayed. To display the product compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring ServiceNow Otto for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when a product compliance summary is generated and how a product compliance summary is displayed.
 
@@ -122,7 +122,7 @@ Contains information on all software installed in your environment.
 
 ## Recommended actions skill
 
-For the recommended actions skill, select the triggers that determine when a list of recommended actions is generated. You can also select the properties that control how recommended actions is displayed. To display recommended actions, you need to select the **Display** toggle button on the Choose where to display page while configuring ServiceNow Otto for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-now-assist-sam.md).
+For the recommended actions skill, select the triggers that determine when a list of recommended actions is generated. You can also select the properties that control how recommended actions is displayed. To display recommended actions, you need to select the **Display** toggle button on the Choose where to display page while configuring ServiceNow Otto for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when recommended actions are generated and how the list of recommended actions is displayed.
 
@@ -732,5 +732,5 @@ Australia Patch 6
 -   Software asset workspace \[sn\_sam\_workspace\] - 11.0.20
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-assist-sam-configuration.md)
+</table>**Parent Topic:**[Configuring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/now-assist-sam-configuration.md)
 

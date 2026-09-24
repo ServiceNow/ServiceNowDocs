@@ -2,7 +2,7 @@
 title: Visualize 360° relationships for the BCP
 description: Visualize the 360° relationships for a business continuity plan \(BCP\) and its associated entities in BCM UIB Workspace. You can access the 360° view at any time while working on the business continuity plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/relationship-view-bcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/relationship-view-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ The configurations for the 360° view are stored in **360° View Configurations*
 4.  To navigate to the plan again, select the plan or list view in the breadcrumb navigation.
 
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

@@ -2,7 +2,7 @@
 title: Create multiple ServiceNow Otto context menu skill configurations
 description: Create multiple ServiceNow Otto context menu configuration for the same field and table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-multple-nacm-skill-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-multple-nacm-skill-configuration.html
 release: australia
 topic_type: task
 last_updated: "2025-11-14"
@@ -81,5 +81,5 @@ Role required: admin
 13. Select **Preview** and **Done**.
 
 
-**Parent Topic:**[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
+**Parent Topic:**[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
 

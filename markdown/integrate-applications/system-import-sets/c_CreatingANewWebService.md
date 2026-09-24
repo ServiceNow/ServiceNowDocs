@@ -2,7 +2,7 @@
 title: Creating an import set web service
 description: Create a web service import set table to define how to stage and transform imported data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_CreatingANewWebService.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/c\_CreatingANewWebService.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -89,5 +89,5 @@ To debug a SOAP Request coming into the system, create the system property glide
 
 Once you have created it, set it to true to have all SOAP requests be logged in the System Log. Set it to false when you are done to keep the size of your System Log to a managed length.
 
-**Parent Topic:**[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
+**Parent Topic:**[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
 

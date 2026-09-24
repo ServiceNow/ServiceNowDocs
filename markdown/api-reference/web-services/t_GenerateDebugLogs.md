@@ -2,7 +2,7 @@
 title: Generate logs for debugging
 description: If you experience unexpected behavior when using the ODBC driver, you can enable debug logging and generate debug logs to help identify the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_GenerateDebugLogs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_GenerateDebugLogs.html
 release: australia
 product: Web Services
 classification: web-services
@@ -18,7 +18,7 @@ If you experience unexpected behavior when using the ODBC driver, you can enable
 
 ## Before you begin
 
-[Configure the logging level of the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CnfgLoggingLevel.md)
+[Configure the logging level of the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_CnfgLoggingLevel.md)
 
 Role required: admin
 
@@ -44,10 +44,10 @@ To generate debug logs, follow these steps.
 4.  Run a query that produces the unexpected behavior, then immediately close the application and review the log files.
 
 
-**Parent Topic:**[Test the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_TestingTheODBCDriver.md)
+**Parent Topic:**[Test the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_TestingTheODBCDriver.md)
 
 **Related topics**  
 
 
-[Configure the logging level of the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CnfgLoggingLevel.md)
+[Configure the logging level of the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_CnfgLoggingLevel.md)
 

@@ -2,7 +2,7 @@
 title: Aggregate a report on standard deviation
 description: When you create a report, you can aggregate the data on several calculations including the number of records, averages, and standard deviation. The standard deviation aggregation shows variation from average values for a duration or numeric field in a visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/aggregate-report-standard-dev.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/aggregate-report-standard-dev.html
 release: australia
 product: Reporting
 classification: reporting

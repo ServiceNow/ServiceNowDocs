@@ -2,7 +2,7 @@
 title: Schedule installation
 description: Schedule the installation of a plugin, application, or product at the required time from your ServiceNow instance. You can simultaneously schedule multiple installations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/schedule-installation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/schedule-installation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Legacy Application Manager is being deprecated. Starting with Australia patch 1,
 
 A known issue affects the use of bookmarks to access the Legacy Application Manager before Australia patch 1. For details about possible issues with accessing the Legacy Application Manager, see the [Deprecated Classic App Manager URL usage causes issues on instances running ZP5 / YP10 and above \[KB2804238\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2804238) article in the Now Support knowledge base.
 
-A new Application Manager experience is available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all applications, plugins, installed applications, and available updates. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md).
+A new Application Manager experience is available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all applications, plugins, installed applications, and available updates. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/application-manager.md).
 
 Role required: admin
 
@@ -74,5 +74,5 @@ Click the schedule summary icon \(\[Omitted image "schedule-summ-icon.png"\] Alt
 
 -   To view the schedule of installations, click **Full schedule**. A calendar displays the details of the scheduled installations.
 
-**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/using-legacy-application-manager.md)
 

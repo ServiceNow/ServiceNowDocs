@@ -2,7 +2,7 @@
 title: Filtering questions in an assessment
 description: In SAE, narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Filters can be combined to focus on questions that match every selected criterion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -23,7 +23,7 @@ The filter is labeled **All questions** when no filter is applied. When a respon
 
 Selecting multiple filters narrows the list to questions that match every selected filter. For example, selecting both **Unanswered** and **Flagged** shows only questions that are unanswered and flagged.
 
-For the step-by-step procedure, see [Filter questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/filter-questions-in-an-assessment.md).
+For the step-by-step procedure, see [Filter questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/filter-questions-in-an-assessment.md).
 
 ## Available filters
 
@@ -35,19 +35,19 @@ The filter drop-down list includes the following options:
 
 -   **AI assisted**
 
-    Shows only questions that have AI-generated suggestions. A question is considered AI assisted after the Smart Assessment Response Assist skill produces a suggestion for it. This applies whether the suggestion was applied, modified, or discarded. For more information about AI-generated responses, see [Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md).
+    Shows only questions that have AI-generated suggestions. A question is considered AI assisted after the Smart Assessment Response Assist skill produces a suggestion for it. This applies whether the suggestion was applied, modified, or discarded. For more information about AI-generated responses, see [Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md).
 
 -   **With comments**
 
-    Shows only questions that have at least one comment or work note attached to them. Comments and work notes are added at the question level through the dynamic panel on each question card. For more information, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
+    Shows only questions that have at least one comment or work note attached to them. Comments and work notes are added at the question level through the dynamic panel on each question card. For more information, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
 
 -   **Flagged**
 
-    Shows only questions that are currently in the Flagged state. A flagged question is one that a reviewer or contributor has marked as needing attention. For more information about the flagging workflow, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
+    Shows only questions that are currently in the Flagged state. A flagged question is one that a reviewer or contributor has marked as needing attention. For more information about the flagging workflow, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
 
 -   **Resolved**
 
-    Shows only questions that are in the Resolved state. A question is moved to the Resolved state when a previously raised flag on it has been addressed. For more information about flag states, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
+    Shows only questions that are in the Resolved state. A question is moved to the Resolved state when a previously raised flag on it has been addressed. For more information about flag states, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
 
 
 ## Combining and clearing filters

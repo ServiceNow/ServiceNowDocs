@@ -2,7 +2,7 @@
 title: Configure Antivirus Scanning
 description: Configure Antivirus Scanning exclusions at the instance and table levels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/update-dictionary-entry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/update-dictionary-entry.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

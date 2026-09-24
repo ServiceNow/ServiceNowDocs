@@ -2,7 +2,7 @@
 title: Edit Knowledge Base
 description: Edit knowledge base settings to configure workflows, ownership, and management for Core Business Suite knowledge bases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/edit-kb-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/edit-kb-cbs.html
 release: australia
 topic_type: task
 last_updated: "2026-07-28"
@@ -19,7 +19,7 @@ Edit knowledge base settings to configure workflows, ownership, and management f
 
 Role required: sn\_cbs.admin
 
-**Note:** You can add additional owners and managers to the Knowledge Base beyond the CBS admin. For more information, see [Edit Knowledge Base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/edit-kb-ref-cbs.md).
+**Note:** You can add additional owners and managers to the Knowledge Base beyond the CBS admin. For more information, see [Edit Knowledge Base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/edit-kb-ref-cbs.md).
 
 ## About this task
 
@@ -39,19 +39,19 @@ Modify knowledge base settings to control how articles are published, retired, a
 
 5.  On the Edit knowledge base form, fill in the fields and select **Save**.
 
-    For a description of the field values, see [Edit Knowledge Base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/edit-kb-ref-cbs.md).
+    For a description of the field values, see [Edit Knowledge Base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/edit-kb-ref-cbs.md).
 
 
 ## Result
 
 You have edited the default Knowledge Base settings to your requirement. You can navigate to the default permission records from the same page to manage permissions.
 
-**Parent Topic:**[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)
+**Parent Topic:**[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/kb-cbs.md)
 
 **Related topics**  
 
 
-[Edit permissions for CBS Knowledge Authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-perm-kb-auth.md)
+[Edit permissions for CBS Knowledge Authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-perm-kb-auth.md)
 
-[Edit permissions for CBS Knowledge Readers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-perm-kb-read.md)
+[Edit permissions for CBS Knowledge Readers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-perm-kb-read.md)
 

@@ -2,7 +2,7 @@
 title: Creating catalog templates for use in Creator Studio apps
 description: As a ServiceNow admin, you can create customized catalog templates in Service Catalog to guide users through adding forms in Creator Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-creating-catalog-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-creating-catalog-templates.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -31,5 +31,5 @@ For more details on how to add catalog templates, see [Creating or editing catal
 
 Check out an article on [Creating catalog templates for Creator Studio](https://www.servicenow.com/community/creator-studio-blogs/creator-studio-for-admins-creating-catalog-templates-for-creator/ba-p/3053357).
 
-**Parent Topic:**[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-administering-forms.md)
+**Parent Topic:**[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-administering-forms.md)
 

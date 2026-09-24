@@ -2,7 +2,7 @@
 title: Adding participants
 description: This step is the final phase in your simulation where you add agent details and assign call capabilities for each participant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/adding-participants.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/adding-participants.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure line-level questions in ShoppingHub
 description: Create configurable, line-level questions for shoppers to provide the information needed to complete the purchase during the checkout process in Shopping Hub. These questions are defined in Catalog Builder and specific to certain products or product categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-additional-information-prl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-additional-information-prl.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -88,5 +88,5 @@ For example, if a configuration has **Product category** set to Name Badge and *
     The questions added in the record producer for a specific product, product model, or product category appear during checkout in Shopping Hub.
 
 
-**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
+**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
 

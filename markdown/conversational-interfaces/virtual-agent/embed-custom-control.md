@@ -2,7 +2,7 @@
 title: Add a custom control to a Virtual Agent topic or topic block
 description: Add a custom control to a Virtual Agent topic or topic block. During the conversation, you can gather inputs from the user or display outputs to the user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/embed-custom-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/embed-custom-control.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +21,7 @@ Add a custom control to a Virtual Agent topic or topic block. During the convers
 
 Do the following before you start this task:
 
--   [Create and publish the custom input or response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-custom-control.md).
+-   [Create and publish the custom input or response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-custom-control.md).
 -   Create a calling topic or topic block in which the custom control will be embedded.
 
 Role required: virtual\_agent\_admin or admin

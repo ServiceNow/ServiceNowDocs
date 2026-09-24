@@ -2,7 +2,7 @@
 title: Using Advanced analytics to access AWA dashboards
 description: Advanced analytics enable you to view cards that represent the Advanced Work Assignment dashboards that you have access to. You can also see a dashboard picker, which lets you view the cards for all the dashboards in a group. You can then search and choose a dashboard from a list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-advanced-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-advanced-analytics.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

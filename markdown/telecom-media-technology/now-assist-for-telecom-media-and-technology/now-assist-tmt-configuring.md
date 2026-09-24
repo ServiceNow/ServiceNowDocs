@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -104,7 +104,7 @@ Remote Hands Case Summary
 
 1.  Install the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
     -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
@@ -122,7 +122,7 @@ Remote Hands Case Summary
 
 6.  Review the inputs for the selected skill.
 
-    The input table fields are read-only. For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
+    The input table fields are read-only. For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
 
 7.  After reviewing the inputs for the selected skill, select **Save and continue** to go to the next step.
 

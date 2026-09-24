@@ -2,7 +2,7 @@
 title: Associate service offerings with sold products
 description: Associate a service offering with a sold product giving customer service agents visibility into sold products and their service offerings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/asssociate-service-offering-sold-prod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/asssociate-service-offering-sold-prod.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

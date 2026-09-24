@@ -2,7 +2,7 @@
 title: Mute participants from a Microsoft Teams conference call in Service Operations Workspace
 description: Mute a participant from the conference call to avoid unnecessary background disruption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/mute-participants-teams-conference-call.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/mute-participants-teams-conference-call.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -39,5 +39,5 @@ Role required: itil
 8.  Mute participants to avoid background noise by selecting the Mute icon \(\[Omitted image "mute-icon-conf-call.png"\] Alt text: Mute icon.\).
 
 
-**Parent Topic:**[Manage Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)
+**Parent Topic:**[Manage Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)
 

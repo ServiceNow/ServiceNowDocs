@@ -2,7 +2,7 @@
 title: Configure KPIs for service channels
 description: Configure key performance indicators in service channels to track the ongoing work and real-time performance of your teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-kpis-service-channels-configurable-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/configure-kpis-service-channels-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -24,7 +24,7 @@ Role required: sn\_channel\_mgmt.admin
 
 ## About this task
 
-Add the [Channel Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md) that are by default configured with Workforce Optimization for ITSM or create a new KPI report that matters the most to you. Key performance indicators help managers perform the following actions:
+Add the [Channel Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md) that are by default configured with Workforce Optimization for ITSM or create a new KPI report that matters the most to you. Key performance indicators help managers perform the following actions:
 
 -   Review real-time performance as the team is actively working on tasks across channels and queues.​
 -   Track progress against KPIs and drill down into agents, team, and individual performance.​
@@ -42,7 +42,7 @@ Add the [Channel Management reports](https://raw.githubusercontent.com/ServiceNo
 -   By default, the service channel cards are set for auto-refresh every two minutes. You can change the interval using the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** syetem property.
 -   To manually refresh the service channel cards, select the refresh icon.
 
-For more information on the properties, see [Channel Management components in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md).
+For more information on the properties, see [Channel Management components in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md).
 
 ​
 
@@ -58,7 +58,7 @@ For more information on the properties, see [Channel Management components in Wo
 
 4.  Add reports that are configured by default in Workforce Optimization for ITSM.
 
-    For information on Channel Management reports, see [Channel Management components in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md).
+    For information on Channel Management reports, see [Channel Management components in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md).
 
     **Note:** Review the report's definition and add the corresponding filters that are applicable to the service channel that matters the most to you.
 
@@ -90,5 +90,5 @@ For more information on the properties, see [Channel Management components in Wo
     The KPIs are added to the service channel and appear in the Channels page. The first five KPIs with the lowest order number appear in the service channel cards.
 
 
-**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
 

@@ -2,7 +2,7 @@
 title: CSV layout upload
 description: Learn how to create and upload a CSV file that contains a layout specification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/csv\_layout\_upload.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/csv\_layout\_upload.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -382,9 +382,9 @@ For picklist display components that include images, when options are disabled, 
 **Related topics**  
 
 
-[Layout Wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_wizard.md)
+[Layout Wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_wizard.md)
 
-[Layout editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_editor.md)
+[Layout editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_editor.md)
 
-[Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using-the-matrix-loader.md)
+[Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-using-the-matrix-loader.md)
 

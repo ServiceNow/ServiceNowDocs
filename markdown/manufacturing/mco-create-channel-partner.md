@@ -2,7 +2,7 @@
 title: Create channel partner
 description: Create a channel partner to streamline and help manage the sales process of a product or a service for an enterprise.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-channel-partner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-channel-partner.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: admin
 
 5.  On the Channel partner form, fill in the fields.
 
-    For a description of the field values, see [Channel partner form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-cp-form.md).
+    For a description of the field values, see [Channel partner form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-cp-form.md).
 
 6.  Select **Save**.
 

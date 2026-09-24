@@ -2,7 +2,7 @@
 title: Properties for Alumni Center
 description: Use properties to control the behavior of the Alumni Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/asc-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/asc-properties.html
 release: australia
 product: Alumni Center
 classification: alumni-center

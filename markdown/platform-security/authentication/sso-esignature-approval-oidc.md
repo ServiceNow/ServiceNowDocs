@@ -2,12 +2,12 @@
 title: Use Multi-Provider SSO to set up an SSO approval for an OIDC authentication
 description: An SSO approval with e-signature requires configuration on the SAML IdP and the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/sso-esignature-approval-oidc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/sso-esignature-approval-oidc.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [E-signature for Multi-Provider SSO, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -26,13 +26,13 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 ## Procedure
 
-1.  Activate the [Approval with E-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/activate-approval-esignature.md).
+1.  Activate the [Approval with E-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/activate-approval-esignature.md).
 
 2.  Navigate to **Multi-Provider SSO** &gt; **Identity Providers** and verify your OIDC provider configurations
 
 3.  On the eSignature Approval tab, enter the following e-signature SAML properties.
 
-<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d207661e91">
+<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d207047e91">
 
 **Assertion Consumer URL for eSignature authentication**
 
@@ -40,7 +40,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 This property defaults to the appropriate URL. To configure this property, select the lock icon to make this field editable. After edits, select the icon to lock the field.
 
-</td></tr><tr><td id="d207661e100">
+</td></tr><tr><td id="d207047e100">
 
 **Authentication pop-up Dialog Width**
 
@@ -48,7 +48,7 @@ This property defaults to the appropriate URL. To configure this property, selec
 
 When a user approves a request using eSignature, a dialog opens and a user can enter credentials. This setting controls the width of that dialog box. The default is 800.
 
-</td></tr><tr><td id="d207661e109">
+</td></tr><tr><td id="d207047e109">
 
 **Authentication pop-up Dialog Height**
 

@@ -2,7 +2,7 @@
 title: Create an allegation record
 description: Use Allegations to provide additional details for an ER case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-create-allegation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-er-create-allegation.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

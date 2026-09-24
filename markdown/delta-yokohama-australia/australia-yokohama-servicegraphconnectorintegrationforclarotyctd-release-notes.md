@@ -2,11 +2,11 @@
 title: Combined Service Graph Connector Integration for Claroty CTD release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Service Graph Connector Integration for Claroty CTD from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicegraphconnectorintegrationforclarotyctd-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicegraphconnectorintegrationforclarotyctd-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,24 @@ Yokohama
 
 </td><td>
 
--   **[Clean up serial number data](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
+-   **[View the class mappings available for the Service Graph Connector](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
+
+Use the **Claroty CTD SGC Class Mappings** table to view the available class mappings and targeted CMDB classes.
+
+-   **[Avoid importing empty rack slots](https://www.servicenow.com/docs/access?context=configuring-sgc-claroty-ctd-guided-setup&family=yokohama&ft:locale=en-US)**
+
+During import, empty rack slots are removed to avoid importing them into the CMDB.
+
+-   **[Capture firmware version of devices](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
+
+Use the Firmware Installation \[cmdb\_firmware\_install\] table to capture the firmware version of your Service Graph Connector Integration for Claroty CTD devices.
+
+-   **[Use the ire\_criterion\_attribute in the OT Entity \[cmdb\_ot\_entity\] table](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
+
+The ire\_criterion\_attribute acts as a criterion attribute for an OT entity-related entry and helps avoid entity update issues.
+
+
+ -   **[Clean up serial number data](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
 
 Clean up the serial number \[cmdb\_serial\_number\] records imported into the Source \[sys\_object\_source\] table from the Service Graph Connector Integration for Claroty CTD with a fixed script. This script establishes that a null pointer exception doesn't occur when the serial number and MAC address are the same. The script runs automatically when the plugin is upgraded.
 
@@ -235,6 +252,8 @@ Install Service Graph Connector Integration for Claroty CTD by requesting it fro
 
 **Note:** Claroty CTD v5.1 is also supported for the Service Graph Connector Integration for Claroty CTD application.
 
+
+**Important:** Service Graph Connector Integration for Claroty CTD is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -448,5 +467,5 @@ Australia
  See [Service Graph Connector Integration for Claroty CTD](https://www.servicenow.com/docs/access?context=sgc-cmdb-integration-claroty-ctd&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

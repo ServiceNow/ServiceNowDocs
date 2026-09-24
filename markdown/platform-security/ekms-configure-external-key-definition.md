@@ -2,7 +2,7 @@
 title: Configure an external key definition
 description: Configure your external encryption key to use in External Key Management Service \(EKMS\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ekms-configure-external-key-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-configure-external-key-definition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,10 +54,10 @@ The external key definition is configured. Verify that the key status displays a
 
 Next steps:
 
--   [Create a cryptographic module with external key wrapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-create-crypto-module.md)
--   [Create encrypted field configurations to specify which tables and columns to encrypt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-create-encrypted-field-config.md)
--   [Set up module access policies to control who can view the encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-set-up-maps.md)
--   [Test an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-test-external-key-definition.md)
+-   [Create a cryptographic module with external key wrapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-create-crypto-module.md)
+-   [Create encrypted field configurations to specify which tables and columns to encrypt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-create-encrypted-field-config.md)
+-   [Set up module access policies to control who can view the encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-set-up-maps.md)
+-   [Test an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-test-external-key-definition.md)
 
-**Parent Topic:**[Configuring External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configuring-external-key-management.md)
+**Parent Topic:**[Configuring External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-configuring-external-key-management.md)
 

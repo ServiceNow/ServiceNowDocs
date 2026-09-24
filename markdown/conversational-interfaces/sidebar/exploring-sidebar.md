@@ -2,7 +2,7 @@
 title: Exploring Sidebar
 description: Using Sidebar, agents can have real-time collaboration with others as a standalone conversation or based around a Workspace record. These Sidebar discussions facilitate the exchange of information and knowledge to help resolve issues faster and with higher-quality outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/exploring-sidebar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/exploring-sidebar.html
 release: australia
 product: Sidebar
 classification: sidebar
@@ -32,7 +32,7 @@ Sidebar is supported in these workspaces:
 -   Security Incident Response Workspace
 -   Vendor Management Workspace
 
-For information on adding the **Discuss** button to a supported workspace, see [Adding the Discuss button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/add-sidebar-button.md).
+For information on adding the **Discuss** button to a supported workspace, see [Adding the Discuss button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/add-sidebar-button.md).
 
 For information on adding the **Discuss** button to any workspace not listed \(such as the Service Operation Workspace\), see [KB article KB1213249](https://support.servicenow.com/kb_view.do?sysparm_article=KB1213249).
 
@@ -278,15 +278,15 @@ To start a threaded reply to a message:
 
 ## Activity stream and Sidebar
 
-To enable agents to post Sidebar discussions to the activity stream, you must integrate Sidebar with the activity stream. For instructions on integrating Sidebar with the activity stream, see [Integrating Sidebar and activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/integrate-sidebar-activity-stream.md). For information on using Sidebar with the activity stream, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/activity-stream-sidebar.md).
+To enable agents to post Sidebar discussions to the activity stream, you must integrate Sidebar with the activity stream. For instructions on integrating Sidebar with the activity stream, see [Integrating Sidebar and activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/integrate-sidebar-activity-stream.md). For information on using Sidebar with the activity stream, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/activity-stream-sidebar.md).
 
 ## Installing and configuring Sidebar
 
-The Sidebar configuration settings are available via the Sidebar tab under **Conversational Interfaces** &gt; **Settings**. For instructions, see [Installing Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/install-sidebar.md). After Sidebar is installed, see [Configuring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/configure-sidebar.md) for instructions on configuring the admin settings.
+The Sidebar configuration settings are available via the Sidebar tab under **Conversational Interfaces** &gt; **Settings**. For instructions, see [Installing Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/install-sidebar.md). After Sidebar is installed, see [Configuring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/configure-sidebar.md) for instructions on configuring the admin settings.
 
 ## Using Sidebar
 
-For information on how to use Sidebar, see [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/using-sidebar.md) for more information.
+For information on how to use Sidebar, see [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/using-sidebar.md) for more information.
 
 Key Sidebar features include:
 
@@ -306,7 +306,7 @@ Key Sidebar features include:
 
 ## Using Sidebar and Microsoft Teams
 
-After Sidebar and Microsoft Teams are integrated, users of both applications can collaborate with each other. For more information on integrating Sidebar with Microsoft Teams, see [Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/sidebar-teams-overview.md).
+After Sidebar and Microsoft Teams are integrated, users of both applications can collaborate with each other. For more information on integrating Sidebar with Microsoft Teams, see [Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-teams-overview.md).
 
 ## Core UI
 
@@ -314,7 +314,7 @@ You can create Sidebar discussions on interaction records from Next Experience C
 
 ## Domain Separation
 
-For information about domain separation in Sidebar, see [Domain separation and Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/sidebar-domain-separation.md).
+For information about domain separation in Sidebar, see [Domain separation and Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-domain-separation.md).
 
 ## More information
 

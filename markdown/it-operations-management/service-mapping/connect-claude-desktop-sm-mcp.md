@@ -2,7 +2,7 @@
 title: Connect Claude Desktop to the Service Mapping MCP Server
 description: Add the Service Mapping MCP Server as a custom connector in Claude Desktop so you can query application service data from your ServiceNow instance in natural language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -28,9 +28,9 @@ Before connecting Claude Desktop to the Service Mapping MCP Server, confirm the 
     -   MCP Server URL
     -   OAuth Client ID
     -   OAuth Client Secret
-    For more information, see: [Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-mcp-server.md)
+    For more information, see: [Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/activate-sm-mcp-server.md)
 
--   Verify that you have the required role configuration. For more information, see [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
+-   Verify that you have the required role configuration. For more information, see [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
 
     Role required: sn\_sm\_gen\_ai.sm\_mcp\_user
 
@@ -41,7 +41,7 @@ Before connecting Claude Desktop to the Service Mapping MCP Server, confirm the 
 
 Claude Desktop supports custom MCP connectors that let Claude query external data sources on your behalf. After you add the Service Mapping MCP Server as a connector and authorize it with your ServiceNow credentials, Claude can call the Service Mapping MCP tools according to the prompt.
 
-For detailed information, see [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+For detailed information, see [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-mcp-server.md)
 
 ## Procedure
 
@@ -81,7 +81,7 @@ For detailed information, see [Service Mapping MCP tools](https://raw.githubuser
 
     2.  Enter a test prompt, for example: `Use the get_all_application_service_names tool to list all application services.`
 
-        For more information about the prompts, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md).
+        For more information about the prompts, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-tools.md).
 
         Claude returns a list of application service names from your ServiceNow® instance.
 
@@ -92,7 +92,7 @@ Claude Desktop is connected to the Service Mapping MCP Server. In any new chat, 
 
 ## What to do next
 
-For the full list of available tools, input parameters, example queries, and usage guidelines, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md).
+For the full list of available tools, input parameters, example queries, and usage guidelines, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-tools.md).
 
-**Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+**Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-mcp-server.md)
 

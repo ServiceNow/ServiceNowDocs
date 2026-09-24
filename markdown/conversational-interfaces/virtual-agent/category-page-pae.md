@@ -2,7 +2,7 @@
 title: Topic categories
 description: Use the Category page in the Conversational Analytics dashboard to view the performance of Virtual Agent \(VA\) topics by the selected topic category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/category-page-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/category-page-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +21,7 @@ Topic categories group related conversation topics. Topics can belong to more th
 
 \[Omitted image "dashboard-category-page-2-pae.png"\] Alt text: Virtual Agent Analytics Category subtab.
 
-For more information about creating or modifying VA categories, see [Create or modify custom categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-topic-category.md).
+For more information about creating or modifying VA categories, see [Create or modify custom categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-topic-category.md).
 
 <table id="table_mpj_xvy_j4b"><thead><tr><th>
 
@@ -37,7 +37,7 @@ Conversation end state
 
 </td><td>
 
-The number of users that reached a specific node in a topic in the VA category. In the example, six users reached the node labeled, **System closed VA - Auto Closed**. Use this field to see where topics stopped working for users.For definitions of each conversation end state, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
+The number of users that reached a specific node in a topic in the VA category. In the example, six users reached the node labeled, **System closed VA - Auto Closed**. Use this field to see where topics stopped working for users.For definitions of each conversation end state, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-interactions.md).
 
 </td></tr><tr><td>
 
@@ -72,5 +72,5 @@ Channel usage trend
 Number of users using a specified channel over the course of the date range for topics in that VA category.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Topics tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topics-tab-pae.md)
+</table>**Parent Topic:**[Topics tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/topics-tab-pae.md)
 

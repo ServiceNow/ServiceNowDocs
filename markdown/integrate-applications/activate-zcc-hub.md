@@ -2,7 +2,7 @@
 title: Activate Zero Copy Connector Hub
 description: Access the Zero Copy Connector Hub on your instance by activating the Zero Copy Connector Hub plugin \(sn\_data\_fabric\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/activate-zcc-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/activate-zcc-hub.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Follow the steps below to activate the Zero Copy Connector Hub on your instance.
 
 Roles are installed with Zero Copy Connector Hub.
 
-For more information, see [Zero Copy Connectors roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/roles-zcc.md).
+For more information, see [Zero Copy Connectors roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/roles-zcc.md).
 
 ## Procedure
 
@@ -41,5 +41,5 @@ For more information, see [Zero Copy Connectors roles](https://raw.githubusercon
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-zcc.md)
+**Parent Topic:**[Configuring Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configuring-zcc.md)
 

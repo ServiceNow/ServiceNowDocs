@@ -2,7 +2,7 @@
 title: Rename File or Directory activity
 description: The Rename File or Directory activity renames a file or directory to a new name on an SFTP server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_RenameFileOrDirectoryActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/r\_RenameFileOrDirectoryActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -30,7 +30,7 @@ The Rename File or Directory activity renames a file or directory to a new name 
 
 |Variable|Description|
 |--------|-----------|
-|errorMessages|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.|
+|errorMessages|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.|
 |result|A message saying that the operation has been successful. For example, you might see: `Rename /tmp/sftp_test/subdir1 to /tmp/sftp_test/subdir2 complete`.|
 
 ## Conditions
@@ -40,5 +40,5 @@ The Rename File or Directory activity renames a file or directory to a new name 
 |Success|The activity succeeded in renaming the file or directory.|
 |Failure|The activity failed to rename the file or directory.|
 
-**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md)
 

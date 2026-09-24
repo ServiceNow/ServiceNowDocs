@@ -2,7 +2,7 @@
 title: Create an ad hoc obligation task in Hardware Asset Workspace
 description: Create an ad hoc obligation task required only once or at irregular intervals to track and fulfill an obligation specified in a contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-obligation-task-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-obligation-task-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -86,7 +86,7 @@ Steps
 -   The obligation task also appears under **Contracts** &gt; **Obligations tasks** in the Asset Operations view.
 -   The system notifies the assigned user through email.
 
-**Parent Topic:**[Create an obligation record in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-obligation-records-ham.md)
+**Parent Topic:**[Create an obligation record in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-obligation-records-ham.md)
 
 **Related topics**  
 

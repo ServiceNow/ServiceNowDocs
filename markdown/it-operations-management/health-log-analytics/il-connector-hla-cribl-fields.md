@@ -2,7 +2,7 @@
 title: Cribl integration configuration fields
 description: Description of the fields on the Cribl integration configuration forms for Health Log Analytics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-cribl-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/il-connector-hla-cribl-fields.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -16,7 +16,7 @@ breadcrumb: [Integration configuration fields, Health Log Analytics reference, H
 
 Description of the fields on the Cribl integration configuration forms for Health Log Analytics.
 
-For the Cribl integration setup procedure, see [Set up a Cribl integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-cribl.md).
+For the Cribl integration setup procedure, see [Set up a Cribl integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-cribl.md).
 
 <table id="table_ogk_rh4_jfc"><thead><tr><th>
 
@@ -118,7 +118,7 @@ The authentication method used by the Cribl integration. This field is required.
 
 Both of these authentication methods use the default credential alias: Cribl\_Credential\_Alias.
 
-For information about setting up credentials for the authentication method used by the Cribl integration, see [Set up Cribl integration authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-setup-cribl-credentials.md).
+For information about setting up credentials for the authentication method used by the Cribl integration, see [Set up Cribl integration authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-setup-cribl-credentials.md).
 
 **Important:** Verify that only one active credential record of each credentials type exists under the credential alias.
 

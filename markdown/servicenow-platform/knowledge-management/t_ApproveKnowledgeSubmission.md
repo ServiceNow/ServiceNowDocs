@@ -2,7 +2,7 @@
 title: Create knowledge from incident or problem
 description: Create a knowledge article, so the next time the issue comes up the resolution is easy to find.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_ApproveKnowledgeSubmission.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/t\_ApproveKnowledgeSubmission.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -51,5 +51,5 @@ Depending on the value of the **glide.knowman.submission.workflow** property, kn
     A new draft knowledge article is created. Articles created this way are added to the knowledge base specified in the property **glide.knowman.task\_kb**.
 
 
-**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

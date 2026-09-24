@@ -2,7 +2,7 @@
 title: Domain separation and Predictive Intelligence
 description: Domain separation is supported in the Predictive Intelligence application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -43,7 +43,7 @@ An instance owner can train a machine learning \(ML\) solution for each domain b
 -   Tenant domains can manage their own application data
 -   Application properties are domain-aware when needed
 
-**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
+**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
 
 **Related topics**  
 

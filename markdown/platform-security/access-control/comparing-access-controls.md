@@ -2,7 +2,7 @@
 title: Comparing user access
 description: Use Access Analyzer to compare two users' access control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/comparing-access-controls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/comparing-access-controls.html
 release: australia
 product: Access Control
 classification: access-control

@@ -2,7 +2,7 @@
 title: Incidents from alerts
 description: An agent or IT operator creates an incident from the DEX alerts which is addressed by the L1 agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/incident-from-alert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/incident-from-alert.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

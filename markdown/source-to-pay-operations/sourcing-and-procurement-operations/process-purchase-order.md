@@ -2,7 +2,7 @@
 title: Process a purchase order edit in playbook
 description: You can edit and revise the quantity of the product or delivery location of the purchase orders based on your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/process-purchase-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/process-purchase-order.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,7 +22,7 @@ Role required: sn\_spend\_psd.agent
 
 ## About this task
 
-As an agent, you can view the requests, complete tasks across multiple workflow activities, and manage complex operations from a unified playbook. The [playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-glossary.md) provides agents an automated way to visualize the overall process in a task-oriented format.
+As an agent, you can view the requests, complete tasks across multiple workflow activities, and manage complex operations from a unified playbook. The [playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-glossary.md) provides agents an automated way to visualize the overall process in a task-oriented format.
 
 ## Procedure
 
@@ -156,7 +156,7 @@ The request updates the purchase order or line item with revised quantity, locat
 
 Review and confirm your purchase request details from **Procurement Case Management** &gt; **Procurement Cases** &gt; **Purchase Requisitions** &gt; **Purchase lines**, if required.
 
-**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 
@@ -181,9 +181,9 @@ Review and confirm your purchase request details from **Procurement Case Managem
 
 [Streamlining the supplier risk assessment workflow]()
 
-[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
+[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
 
-[Purchase revision roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows-roles.md)
+[Purchase revision roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows-roles.md)
 
 [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md)
 

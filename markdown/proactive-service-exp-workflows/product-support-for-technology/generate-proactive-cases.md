@@ -2,7 +2,7 @@
 title: Redirection to the right case type
 description: Create a proactive case from an incident in the Proactive Service Experience Workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/generate-proactive-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/generate-proactive-cases.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -49,5 +49,5 @@ Role required: admin
 9.  Select **Create proactive cases**.
 
 
-**Parent Topic:**[Auto-creation of cases and updates from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-auto-creation-case.md)
+**Parent Topic:**[Auto-creation of cases and updates from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/psew-auto-creation-case.md)
 

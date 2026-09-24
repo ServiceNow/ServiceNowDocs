@@ -2,7 +2,7 @@
 title: Defining Approval Rule for Outbound Intel
 description: Define approval rules to control whether certain users require approval before sharing the shared intelligence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-approval-outbound-intel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-approval-outbound-intel.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -34,7 +34,7 @@ You can configure approval rules on the Outbound Intel record. These rules deter
 
     **Note:** Within the base system, the **Approval Rule for Outbound Intelligence** is the default rule provisioned within the base system to activate the approval workflow.
 
-    The approval rule is applicable to only on-demand outbound intelligence sharing. For more information on on-demand outbound intelligence, see. [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
+    The approval rule is applicable to only on-demand outbound intelligence sharing. For more information on on-demand outbound intelligence, see. [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 
 5.  On the approval rule form, enter at least one user or user group in each of the following sections:
 
@@ -50,7 +50,7 @@ You can configure approval rules on the Outbound Intel record. These rules deter
     -   The assigned approver\(s\) will review the changes made by the analyst and choose to either approve or reject the request.
     -   After a decision is made, an email notification is sent to the user\(s\) or user group\(s\), indicating whether the record has been approved or rejected.
 
-**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
+**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
 
 **Related topics**  
 

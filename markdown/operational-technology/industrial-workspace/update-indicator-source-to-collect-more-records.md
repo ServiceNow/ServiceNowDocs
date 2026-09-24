@@ -2,7 +2,7 @@
 title: Review the indicator sources for a larger number of records
 description: Review and update an indicator source to override the expected record count if you expect more than 1 million records to be collected from the indicator sources. This action helps to avoid system performance issues when collecting data for the Industrial Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/update-indicator-source-to-collect-more-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/update-indicator-source-to-collect-more-records.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -37,5 +37,5 @@ Role required: admin or pa\_admin
 6.  Select **Update**.
 
 
-**Parent Topic:**[Setting up the Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-otvr-pa-dashboard.md)
+**Parent Topic:**[Setting up the Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/setting-up-the-otvr-pa-dashboard.md)
 

@@ -2,7 +2,7 @@
 title: Create a workplace knowledge base article
 description: Provide information to employees through knowledge base articles. Create knowledge base articles with information about workplace updates, self-help, troubleshoot steps, and others.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/create-workplace-kb-article-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/create-workplace-kb-article-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -154,7 +154,7 @@ The knowledge base article is created.
 
 ## What to do next
 
-Publish the knowledge base article. For more information, see [Publish a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/publish-workplace-kb-article-wsd.md).
+Publish the knowledge base article. For more information, see [Publish a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/publish-workplace-kb-article-wsd.md).
 
-**Parent Topic:**[Workplace knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-knowledge-mgmt-wsd.md)
+**Parent Topic:**[Workplace knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-knowledge-mgmt-wsd.md)
 

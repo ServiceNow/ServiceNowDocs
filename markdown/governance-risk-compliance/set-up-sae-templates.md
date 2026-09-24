@@ -2,7 +2,7 @@
 title: Set up DRI Smart Assessment templates
 description: Set up the Smart Assessment templates in the Assessment Workspace. You can then use them to set up the action task configuration templates in the Regulatory Agency Profile for Digital resilience incident reporting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-sae-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-sae-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,15 +44,15 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
     |Purpose|Purpose or intended use of the template, such as, DRI template category.|
     |Assessment target|Table records that are used for the assessment. For example, Digital Resilience Incident Reporting Case, Action task.|
 
-    For more information on creating templates, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    For more information on creating templates, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
     The assessment template is created and displayed in the Details section of the **General** tab.
 
-    You can now fill in the template with instructions, questions, and optional guidance for responding to a question, and sections that group the related questions. For more information on creating an assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    You can now fill in the template with instructions, questions, and optional guidance for responding to a question, and sections that group the related questions. For more information on creating an assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 4.  Set up the assessment questions in the **Questions** tab.
 
-    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
     The example shows how to set up the assessment questions.
 
@@ -118,11 +118,11 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
         \[Omitted image "dri-automation-activated.png"\] Alt text: Activated automation displayed in the list on the Automations tab.
 
-        For more information on automations, see [Automate response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/automate-response.md) and [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
+        For more information on automations, see [Automate response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/automate-response.md) and [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
 
 8.  Configure scoring settings on the **Scoring** tab.
 
-    For more information on assigning scores to the assessments, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md). For more information on the Smart Assessment Engine, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
+    For more information on assigning scores to the assessments, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md). For more information on the Smart Assessment Engine, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
 
 9.  Select **Save**.
 
@@ -144,7 +144,7 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
     The assessment template is now published and available in the Digital resilience incident reporting module.
 
-    **Note:** Starting with Digital Resilience Incident Reporting, version 22.3.0, Smart Assessment templates support version control, and version details are displayed on each template. For information on Smart Assessment Engine documentation, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
+    **Note:** Starting with Digital Resilience Incident Reporting, version 22.3.0, Smart Assessment templates support version control, and version details are displayed on each template. For information on Smart Assessment Engine documentation, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
 
     The examples display pre-configured DRI templates for DORA regulation with version details.
 
@@ -158,6 +158,6 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
     **Note:** After setting up Smart Assessment templates in the Assessment Workspace, you can use them to configure action task templates in the Regulatory Agency Profile table.
 
-    For more information on setting up action task templates, see the [Set up action task templates in Regulatory agency profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-action-task-templates.md) section.
+    For more information on setting up action task templates, see the [Set up action task templates in Regulatory agency profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-action-task-templates.md) section.
 
 

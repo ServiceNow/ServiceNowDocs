@@ -2,7 +2,7 @@
 title: Creating a source definition
 description: Create a source definition to capture information about which identity source a resource is provisioned from.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/create-source-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/create-source-definition.html
 release: australia
 product: Identity
 classification: identity
@@ -61,5 +61,5 @@ The source definition captures the required source information, such as by doing
 
 ## Result
 
-The SCIM source definition is created. Use the SCIM ETL Definitions to map the resources based on the extension schema on the sys\_user and sys\_user\_group table. For more information, see [Create a SCIM ETL definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-etl-definitions.md).
+The SCIM source definition is created. Use the SCIM ETL Definitions to map the resources based on the extension schema on the sys\_user and sys\_user\_group table. For more information, see [Create a SCIM ETL definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-etl-definitions.md).
 

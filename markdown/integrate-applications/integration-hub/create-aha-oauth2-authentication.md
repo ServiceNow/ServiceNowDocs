@@ -2,7 +2,7 @@
 title: Create an Aha! OAuth2 application
 description: Create an OAuth2 application in the Aha! account so that the application can authenticate access requests to the Aha! server from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-aha-oauth2-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/create-aha-oauth2-authentication.html
 release: australia
 product: Integration Hub
 classification: integration-hub

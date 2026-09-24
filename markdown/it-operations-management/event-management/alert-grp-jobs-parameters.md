@@ -2,7 +2,7 @@
 title: Scheduled jobs and parameters for alert grouping
 description: Automate alert organization by configuring jobs to group alerts based on predefined criteria and parameters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-grp-jobs-parameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/alert-grp-jobs-parameters.html
 release: australia
 product: Event Management
 classification: event-management
@@ -16,7 +16,7 @@ breadcrumb: [Alert grouping, Configure, Event Management, ITOM AIOps, IT Operati
 
 Automate alert organization by configuring jobs to group alerts based on predefined criteria and parameters.
 
-To group alerts in Automated, CMDB, Text-based, Tag Cluster, and Network Traffic Correlation groups, the scheduled job named **Service Analytics group alerts using RCA/Alert Aggregation** is typically run once per minute. This job handles the grouping of alerts based on the specified method. Additionally, you can run multiple scheduled jobs in parallel to manage alert grouping more efficiently. For further details, see [Run multiple scheduled jobs for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/run-multiple-alert-group-scheduled-jobs.md).
+To group alerts in Automated, CMDB, Text-based, Tag Cluster, and Network Traffic Correlation groups, the scheduled job named **Service Analytics group alerts using RCA/Alert Aggregation** is typically run once per minute. This job handles the grouping of alerts based on the specified method. Additionally, you can run multiple scheduled jobs in parallel to manage alert grouping more efficiently. For further details, see [Run multiple scheduled jobs for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/run-multiple-alert-group-scheduled-jobs.md).
 
 To define which alerts are grouped, the following parameters are used:
 

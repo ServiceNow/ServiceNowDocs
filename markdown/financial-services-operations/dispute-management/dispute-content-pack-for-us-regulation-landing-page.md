@@ -2,7 +2,7 @@
 title: Dispute Content Pack for US Regulations
 description: The ServiceNow Dispute Content Pack for US Regulations enables issuers in the United States \(US\) to track dispute cases and conform with regulatory guidelines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -27,19 +27,19 @@ The Dispute Content Pack for US Regulations application can help you do the foll
 
 <table id="table_sct_ymb_mbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits provided by integrating the Dispute Content Pack for US Regulations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/exploring-dispute-content-pack-for-us-regulation.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits provided by integrating the Dispute Content Pack for US Regulations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/exploring-dispute-content-pack-for-us-regulation.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-the-dispute-content-pack-for-us-regulation.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/configuring-the-dispute-content-pack-for-us-regulation.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:See how agents and issuers can use Dispute Content Pack for US Regulations to track card dispute cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/using-the-dispute-content-pack-for-us-regulation.md)
+[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:See how agents and issuers can use Dispute Content Pack for US Regulations to track card dispute cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/using-the-dispute-content-pack-for-us-regulation.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the components like fields, tables, roles, and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the components like fields, tables, roles, and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-reference.md)
 
 </td></tr></tbody>
 </table>## Request Dispute Content Pack for US Regulations on the store
@@ -54,16 +54,16 @@ Before you can use Dispute Content Pack for US Regulations, you must first downl
 -   [Learn more about how to create your own apps on the developer site.](https://developer.servicenow.com/dev.do#!/)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
--   **[Exploring the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/exploring-dispute-content-pack-for-us-regulation.md)**  
+-   **[Exploring the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/exploring-dispute-content-pack-for-us-regulation.md)**  
 Learn how the Dispute Content Pack for US Regulations application streamlines the dispute resolution process under United States \(US\) regulatory guidelines, including Regulation E \(Reg E\) and Regulation Z \(Reg Z\).
--   **[Install the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/install-the-dispute-content-pack-for-us-regulations.md)**  
+-   **[Install the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/install-the-dispute-content-pack-for-us-regulations.md)**  
 If you have the admin role, you can install the Dispute Content Pack for US Regulations application.
--   **[Configuring the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-the-dispute-content-pack-for-us-regulation.md)**  
+-   **[Configuring the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/configuring-the-dispute-content-pack-for-us-regulation.md)**  
 Dispute Content Pack for US Regulations includes predefined Service Level Agreement \(SLA\) definitions that align with Regulation E and Regulation Z. SLA durations are calculated from key dates such as the dispute reported date, task creation date, statement date, and billing cycle date.
--   **[Using the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/using-the-dispute-content-pack-for-us-regulation.md)**  
+-   **[Using the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/using-the-dispute-content-pack-for-us-regulation.md)**  
 Dispute agents use the Dispute Content Pack for US Regulations to track the dispute cases that are governed by United States \(US\) Regulations \(Reg E and Reg Z\) and ensure they are in conformance with the regulatory guidance. This application provides the required Service Level Agreement \(SLA\) definitions and provide details to the dispute manager to monitor and take necessary actions.
--   **[Dispute Content Pack for US Regulations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-reference.md)**  
+-   **[Dispute Content Pack for US Regulations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-reference.md)**  
 Learn about the components and properties that are installed with the Dispute Content Pack for US Regulations application.
 
-**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management.md)
+**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-management.md)
 

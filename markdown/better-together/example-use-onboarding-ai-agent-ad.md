@@ -2,7 +2,7 @@
 title: Example: Execute employee onboarding automatically
 description: As an HR coordinator, automatically onboard new employees by triggering an AI agent that executes the complete employee provisioning workflow from the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/example-use-onboarding-ai-agent-ad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/example-use-onboarding-ai-agent-ad.html
 release: australia
 topic_type: task
 last_updated: "2026-08-18"
@@ -186,15 +186,15 @@ The Execution workspace returns to the ready state.
 
 11. Use the smart sizing options to enable your desktop executions automatically adapt to your display.
 
-<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d24024e583">
+<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d24013e583">
 
 Option
 
-</th><th align="left" id="d24024e586">
+</th><th align="left" id="d24013e586">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d24024e592">
+</th></tr></thead><tbody><tr><td id="d24013e592">
 
 **Fit to window**
 
@@ -202,7 +202,7 @@ Description
 
 Scales the execution screen to fit within the display area of the Execution workspace. The entire screen is visible without scrolling.Shortcut: `ctrl+shift+w`
 
-</td></tr><tr><td id="d24024e605">
+</td></tr><tr><td id="d24013e605">
 
 **Original resolution**
 

@@ -2,7 +2,7 @@
 title: View the variables of a remote record producer
 description: View the variables associated with your provider's remote record producer. Variables help you identify the necessary details to include in catalog requests for fulfillment by your provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-remote-record-producer-variables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/view-remote-record-producer-variables.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

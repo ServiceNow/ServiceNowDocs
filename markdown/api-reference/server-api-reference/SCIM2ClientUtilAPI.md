@@ -2,7 +2,7 @@
 title: SCIM2ClientUtil - Scoped
 description: The SCIM2ClientUtil API provides utility methods to obtain the unique identifiers of external provider systems and then use that information when calling the SCIM2Client API.Returns the unique identifier of a specified resource from a specified external provider system for a unique resource ID in a ServiceNow instance using a filter expression to describe the desired resource.Returns the unique identifier of a specified resource from a specified external provider system for a unique resource ID in a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SCIM2ClientUtilAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/SCIM2ClientUtilAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,7 +20,7 @@ This API runs in the `sn_auth` namespace and requires the SCIM v2 - ServiceNow C
 
 For additional information on SCIM, see [System for Cross-domain Identity Management \(SCIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/scim.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## SCIM2ClientUtil - getProviderIdByFilter\(String provider, String resourceName, String filter\)
 

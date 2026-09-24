@@ -2,7 +2,7 @@
 title: Work on an interaction in Service Operations Workspace
 description: Work on customer conversations to resolve issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/work-on-interaction-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/work-on-interaction-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -26,15 +26,15 @@ Role required: itil or admin
 
 2.  Perform any of the following actions on the interaction record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d381699e58">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d381678e58">
 
 Option
 
-</th><th align="left" id="d381699e61">
+</th><th align="left" id="d381678e61">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d381699e67">
+</th></tr></thead><tbody><tr><td id="d381678e67">
 
 **Create incident**
 
@@ -42,7 +42,7 @@ Description
 
 Click **Create incident**.**Note:** If you create an incident from an interaction, it will be auto-assigned to the user to whom the interaction is assigned.
 
-</td></tr><tr><td id="d381699e84">
+</td></tr><tr><td id="d381678e84">
 
 **Create change**
 
@@ -50,7 +50,7 @@ Click **Create incident**.**Note:** If you create an incident from an interactio
 
 From the **Create incident** drop-down, select **Create change**.**Note:** You can only create a change request of the pre-approved change type.
 
-</td></tr><tr><td id="d381699e102">
+</td></tr><tr><td id="d381678e102">
 
 **Complete**
 
@@ -58,7 +58,7 @@ From the **Create incident** drop-down, select **Create change**.**Note:** You c
 
 Click **Complete** to mark the state of the interaction as **Closed Complete** and end the active conversation with the user.
 
-</td></tr><tr><td id="d381699e117">
+</td></tr><tr><td id="d381678e117">
 
 **Abandon**
 
@@ -66,15 +66,15 @@ Click **Complete** to mark the state of the interaction as **Closed Complete** a
 
 From the **Complete** drop-down, select **Abandon**. This action marks the state of the interaction as **Closed Abandoned** and ends the active conversation with the user.
 
-</td></tr><tr><td id="d381699e139">
+</td></tr><tr><td id="d381678e139">
 
 **Create request**
 
 </td><td>
 
-From the **Create incident** drop-down, select **Create request**. For more information, see [Create a catalog request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-catalog-request-sow.md).
+From the **Create incident** drop-down, select **Create request**. For more information, see [Create a catalog request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-catalog-request-sow.md).
 
-</td></tr><tr><td id="d381699e167">
+</td></tr><tr><td id="d381678e167">
 
 **Create problem**
 
@@ -82,7 +82,7 @@ From the **Create incident** drop-down, select **Create request**. For more info
 
 From the **Create incident** drop-down, select **Create problem**. **Note:** This option is available only when the **Allow Problem creation from Interaction** \(**glide.problem.interaction.allow\_create**\) problem property is activated from **Problem** &gt; **Problem Properties**.
 
-</td></tr><tr><td id="d381699e200">
+</td></tr><tr><td id="d381678e200">
 
 **View record information**
 
@@ -92,9 +92,9 @@ The related records of a requester are displayed as intended for Service Operati
 
 If the type is Walk-up, you can view the walk-up summary of the interaction record.
 
-You can now view the device health of the user's assets to provide a resolution to the user. Select **Assigned assets** &gt; **View device health**. This option is available only if the DEX plugin\[sn\_dex\] is installed and DEX monitoring is enabled for the asset. For more information on Digital End-User Experience, refer [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md).
+You can now view the device health of the user's assets to provide a resolution to the user. Select **Assigned assets** &gt; **View device health**. This option is available only if the DEX plugin\[sn\_dex\] is installed and DEX monitoring is enabled for the asset. For more information on Digital End-User Experience, refer [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-landing.md).
 
-</td></tr><tr><td id="d381699e272">
+</td></tr><tr><td id="d381678e272">
 
 **Copy the record page URL to easily access the record**
 
@@ -102,7 +102,7 @@ You can now view the device health of the user's assets to provide a resolution 
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
 
-</td></tr><tr><td id="d381699e290">
+</td></tr><tr><td id="d381678e290">
 
 **Attach a record that helps in quick resolution of the interaction**
 
@@ -112,9 +112,9 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  Search for a resource and perform the required action, for example, find a relevant knowledge base article and attach a link to it to work notes.
  **Note:** The agent assist icon is available only for users with the following roles: itil or interaction\_agent.
 
- For information on configuring additional search resources, see [Configure search resources for an interaction in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.md).
+ For information on configuring additional search resources, see [Configure search resources for an interaction in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.md).
 
-</td></tr><tr><td id="d381699e327">
+</td></tr><tr><td id="d381678e327">
 
 **Add attachments**
 
@@ -122,7 +122,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, click the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\). Alternatively, you can drag and drop the attachment into the **Active Chat** window of the interaction.**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d381699e352">
+</td></tr><tr><td id="d381678e352">
 
 **Create templates for reuse**
 
@@ -132,7 +132,7 @@ From the contextual side panel, click the templates icon \(\[Omitted image "temp
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/interaction-sow.md)
+**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/interaction-sow.md)
 
 **Related topics**  
 

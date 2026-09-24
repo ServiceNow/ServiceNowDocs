@@ -2,7 +2,7 @@
 title: Add security incident to TISC case
 description: Add security incidents to TISC case records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-incident-to-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/add-incident-to-case.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -44,7 +44,7 @@ Role required: sn\_si.analyst, sn\_sec\_tisc.case\_write
 6.  Select **Create new TISC case** to create a TISC case within the workflow.
 
 
-**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
+**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/send-sir-to-tisc.md)
 
 **Related topics**  
 

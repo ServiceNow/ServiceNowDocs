@@ -2,7 +2,7 @@
 title: Project opportunity
 description: Projects facilitate creating a team consisting of multiple roles filled by multiple people. Projects can be broad in scope and be long-term or short-term in duration. Projects and other opportunity types are configured by ServiceNow admins from the Opportunity Type Configuration form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-project.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -24,7 +24,7 @@ Projects are temporary opportunities, but they can be either long-term or short-
 -   Demonstrate the ability to handle responsibility
 -   Lead teams
 
-Projects enable managers to pull quickly from an available pool of resources and skills. For more information about opportunity types, see [Opportunity Type Configuration for Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/opm-oppt-types.md).
+Projects enable managers to pull quickly from an available pool of resources and skills. For more information about opportunity types, see [Opportunity Type Configuration for Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/opm-oppt-types.md).
 
-**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
+**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
 

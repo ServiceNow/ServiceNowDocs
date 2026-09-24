@@ -2,7 +2,7 @@
 title: Run Certificate Discovery via Agent Client Collector for Visibility Content
 description: Discover TLS/SSL certificates used by ports running on the agent's server. The Certificate Inventory and Management application uses this information to manage TLS/SSL certificates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/run-cert-discovery-accvc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/run-cert-discovery-accvc.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -61,12 +61,12 @@ The TLS/SSL certificates are populated in the following tables:
 
 A CI relationship is created between the discovered certificates and the corresponding Host CI \(in this case, the agent's server\).
 
-**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-certificates.md)
+**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-certificates.md)
 
 **Related topics**  
 
 
-[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt.md)
+[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-inventory-mgmt.md)
 
-[Run certificate discovery via port scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-ports.md)
+[Run certificate discovery via port scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/run-cert-inventory-mgmt-ports.md)
 

@@ -2,7 +2,7 @@
 title: Work on a contract change request
 description: As a contract fulfiller, review the change request, update the contract document and send it back to the contract user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-finalize-document-nda.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-finalize-document-nda.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -45,15 +45,15 @@ Role required: sn\_cm\_core.contract \_fulfiller and sn\_lg\_cnt.contract\_fulfi
 
 8.  Access and edit the contract document.
 
-<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d802285e148">
+<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d802230e148">
 
 Choice
 
-</th><th align="left" id="d802285e151">
+</th><th align="left" id="d802230e151">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d802285e157">
+</th></tr></thead><tbody><tr><td id="d802230e157">
 
 **Download contract document from the internal storage**
 
@@ -66,7 +66,7 @@ Steps
 5.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d802285e196">
+</td></tr><tr><td id="d802230e196">
 
 **Download contract document from the external storage**
 
@@ -80,7 +80,7 @@ The document opens from the external storage.
 3.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d802285e219">
+</td></tr><tr><td id="d802230e219">
 
 **Edit the contract document directly from the external storage**
 
@@ -111,7 +111,7 @@ The document is automatically saved in the external storage.
         -   **External Storage**- In the Document field, select the document. This option is displayed only if external storage is configured.
 10. Get approval of the updated document from stakeholders.
 
-    For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-initiate-approval-cr.md).
+    For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-initiate-approval-cr.md).
 
 11. Return the contract document to the change requester.
 
@@ -124,5 +124,5 @@ The document is automatically saved in the external storage.
 
 The document is sent back to the user and the Contract status updates to Document ready to indicate that the contract document has been updated according to the change request.
 
-**Parent Topic:**[Reviewing and finalizing a self-served contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-review-finalize-contract.md)
+**Parent Topic:**[Reviewing and finalizing a self-served contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-review-finalize-contract.md)
 

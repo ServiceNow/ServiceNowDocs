@@ -2,7 +2,7 @@
 title: Set up trusted media domains for secure file upload
 description: Virtual Agent uses trusted media domains to check the URLs of attachment files before uploading them. If a URL is not from a trusted domain, Virtual Agent will not upload the attachment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/ccif-secure-file-upload.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/ccif-secure-file-upload.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -104,5 +104,5 @@ Description for your channel identifier.
 4.  Create additional channel identifiers using the same procedure.
 
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

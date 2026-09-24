@@ -2,7 +2,7 @@
 title: Review delivery address in playbook
 description: Verify a delivery address presented through the playbook by evaluating the address against supplier addresses and indicating whether it’s valid.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/playbook-review-delivery-address.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/playbook-review-delivery-address.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -121,5 +121,5 @@ Updates the case to Closed Completed.
 
 The procurement case is updated with valid address and its state updates to Closed Completed.
 
-**Parent Topic:**[Verifying delivery addresses in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/delivery-address-in-playbook.md)
+**Parent Topic:**[Verifying delivery addresses in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/delivery-address-in-playbook.md)
 

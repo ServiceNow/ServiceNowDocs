@@ -2,7 +2,7 @@
 title: Configuring a contact relationship
 description: You can configure a contact relationship to establish a relationship between an account and a contact in the Customer Service Management \(CSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-contact-relationship.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configuring-contact-relationship.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

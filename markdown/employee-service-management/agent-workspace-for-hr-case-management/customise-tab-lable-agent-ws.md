@@ -2,7 +2,7 @@
 title: Customize tab label in Agent Workspace for HR Case Management
 description: Customize tab labels to display case field values, making it easier to identify cases when multiple tabs are open.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/customise-tab-lable-agent-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/customise-tab-lable-agent-ws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

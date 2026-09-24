@@ -2,7 +2,7 @@
 title: Creating custom events
 description: Instrument trackable click-action events of your choice directly in the UI with no coding necessary. Tag DOM elements in Service Portal, Next Experience, CoreUI applications. Or derive new custom events from existing active events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/tagged-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/tagged-events.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -57,10 +57,10 @@ The visual tagging framework is a no-code, UI-based solution. It enables you to 
 
 **Note:** If you want to capture a user action not related to a click on your page \(for example, a Page View\), you can use the [SNAnalytics API](https://developer.servicenow.com/dev.do#!/reference/api/zurich/client/SNAnalyticsClientAPI).
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/using-uxa.md)
 
 **Related topics**  
 
 
-[Viewing events analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-events.md)
+[Viewing events analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/view-events.md)
 

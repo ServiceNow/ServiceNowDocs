@@ -2,7 +2,7 @@
 title: Create a serverless schedule for F5 BIG-IP REST OAuth 2.0 authentication-based discovery
 description: Create a serverless discovery schedule to discover F5 BIG-IP load balancers through REST OAuth 2.0 authentication \(tokens\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -78,5 +78,5 @@ Role required: discovery\_admin
 
 Either execute discovery immediately by selecting **Discover now** or wait until the predefined schedule triggers the discovery.
 
-**Parent Topic:**[F5 BIG-IP load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md)
+**Parent Topic:**[F5 BIG-IP load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md)
 

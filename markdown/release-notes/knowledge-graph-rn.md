@@ -2,7 +2,7 @@
 title: Knowledge Graph release notes
 description: The ServiceNow Knowledge Graph application enables you to create and manage a Knowledge Graph schema for default integrations with Virtual Agent. Knowledge Graph was enhanced and updated in the Australia release.The ServiceNow Knowledge Graph application enables you to create and manage a Knowledge Graph schema for default integrations with Virtual Agent. Knowledge Graph was enhanced and updated in the Australia release.The ServiceNow Knowledge Graph application enables you to create and manage a Knowledge Graph schema for default integrations with Virtual Agent. Knowledge Graph was enhanced and updated in the Australia release.The ServiceNow Knowledge Graph application enables you to create and manage a Knowledge Graph schema for default integrations with Virtual Agent. Knowledge Graph was enhanced and updated in the Australia release.The ServiceNow Knowledge Graph application enables you to create and manage a Knowledge Graph schema for default integrations with Virtual Agent. Knowledge Graph was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/knowledge-graph-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/knowledge-graph-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -16,20 +16,20 @@ The ServiceNow® Knowledge Graph application enables you to create and manage a 
 
 ## About Knowledge Graph
 
-[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-6.md)
+
 
 -   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow Otto® panel, ServiceNow® Otto for Virtual Agent, and AI Agents.
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   ServiceNow Otto is the new AI experience brand. ServiceNow Now Assist is now ServiceNow Otto.
 -   Run queries visually using the Graph Query Builder to select entities, add relationships and filters without writing query syntax.
 
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-4.md)
 
 -   Knowledge Graph now supports queries with Glidelist references.
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
 -   Tagging configuration has been enhanced to support table synonyms, column synonyms, data filters and column filters to improve the accuracy of natural language queries.
@@ -47,7 +47,7 @@ See [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     Knowledge Graph is a ServiceNow AI Platform feature that is active on installation, by default.
 
 
-**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/intelligent-experiences-rn-landing.md)
+**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/intelligent-experiences-rn-landing.md)
 
 ## August 2026
 

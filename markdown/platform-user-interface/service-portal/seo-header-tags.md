@@ -2,7 +2,7 @@
 title: Enable SEO for localized versions of a portal page
 description: Allow users to discover portal pages in their preferred language by adding hreflang tags.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/seo-header-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/seo-header-tags.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -49,7 +49,7 @@ To specify custom header tags for the page, update the `generateCustomTagsForSEO
 
 For an example of inserting custom SEO tags into the knowledge article view page, see [Configure custom SEO tags for canonical URLs and localized knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-seo-knowledge.md).
 
-**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md)
+**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/seo-sp.md)
 
 **Related topics**  
 

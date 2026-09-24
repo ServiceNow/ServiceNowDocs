@@ -2,7 +2,7 @@
 title: Configure a documentation section
 description: Configure a documentation section with structured sections that include high-level details, purpose, scope, coverage areas, goals, and success criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-document-sections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-document-sections.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

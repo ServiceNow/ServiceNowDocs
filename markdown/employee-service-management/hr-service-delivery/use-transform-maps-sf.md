@@ -2,7 +2,7 @@
 title: Use transform maps
 description: Transform maps specify data relationships between source table and target table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/use-transform-maps-sf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/use-transform-maps-sf.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -16,14 +16,14 @@ breadcrumb: [Use, HR Service Delivery Integration with SuccessFactors, Integrati
 
 Transform maps specify data relationships between source table and target table.
 
-For details on the transform maps, navigate to **Integrations Framework** &gt; **Transform maps**. For more information, see [Create transform maps in Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/transform-maps-HR.md)
+For details on the transform maps, navigate to **Integrations Framework** &gt; **Transform maps**. For more information, see [Create transform maps in Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/transform-maps-HR.md)
 
 **Note:**
 
 -   Ensure that you index coalesce fields for better transformation performance.
 -   SuccessFactors uses **9999-12-31**to indicate an ongoing employment with no scheduled end date. This value is automatically converted to blank in ServiceNow®.
 
-**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
+**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
 
 **Related topics**  
 

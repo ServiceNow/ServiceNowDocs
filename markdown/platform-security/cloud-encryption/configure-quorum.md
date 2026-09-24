@@ -2,7 +2,7 @@
 title: Configure Quorum Control Policy Settings
 description: Follow these steps to configure Quorum Control Policy Settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cloud-encryption/configure-quorum.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cloud-encryption/configure-quorum.html
 release: australia
 product: Cloud Encryption
 classification: cloud-encryption
@@ -40,15 +40,15 @@ Roles required: sn\_kmf.admin
 
 4.  Fill in the fields to complete the form.
 
-<table id="choicetable_jby_cys_lrb"><thead><tr><th align="left" id="d106329e110">
+<table id="choicetable_jby_cys_lrb"><thead><tr><th align="left" id="d105993e110">
 
 Field
 
-</th><th align="left" id="d106329e113">
+</th><th align="left" id="d105993e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106329e119">
+</th></tr></thead><tbody><tr><td id="d105993e119">
 
 **Approvers**
 
@@ -56,7 +56,7 @@ Description
 
 Designate the members of the quorum from the list of users. Select the lock icon \[Omitted image "lock-icon.png"\] Alt text: Lock icon. to open the user directory. There is no limit to the number of approvers that can be selected.
 
-</td></tr><tr><td id="d106329e134">
+</td></tr><tr><td id="d105993e134">
 
 **Minimum number of approvers to achieve quorum**
 
@@ -64,7 +64,7 @@ Designate the members of the quorum from the list of users. Select the lock icon
 
 Designate the minimum number of approvers required to achieve quorum. For example, if there are nine approvers selected, a minimum of five may be configured for quorum. When five approvals are received in the system, quorum is reached and the withdraw operation starts.**Note:** The minimum number of required approvers is two.
 
-</td></tr><tr><td id="d106329e146">
+</td></tr><tr><td id="d105993e146">
 
 **Requests expire after the specified duration \(hours\)**
 
@@ -80,7 +80,7 @@ Set a numeric value in hours that is the maximum time allotment for the minimum 
 
 ## What to do next
 
-The withdrawal actions are available in [Key management operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/key-mgmt-operations-ce.md).
+The withdrawal actions are available in [Key management operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cloud-encryption/key-mgmt-operations-ce.md).
 
-**Parent Topic:**[Quorum Control Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/quorum-ctrl-policy.md)
+**Parent Topic:**[Quorum Control Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cloud-encryption/quorum-ctrl-policy.md)
 

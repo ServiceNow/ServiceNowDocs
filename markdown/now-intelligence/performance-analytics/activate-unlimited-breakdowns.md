@@ -2,7 +2,7 @@
 title: Activate Data snapshots
 description: Enable Data snapshots on an instance as a whole and on individual existing indicators \(KPIs\) on the instance. When Data snapshots are enabled, you can apply multiple breakdown levels to an indicator.You can edit an indicator record so the indicator is eligible for Data snapshots, then activate Data snapshots for that indicator from the record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/activate-unlimited-breakdowns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/activate-unlimited-breakdowns.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -22,7 +22,7 @@ You have to meet the following requirements:
 
 -   Your instance must be running the RaptorDB Professional database.
 -   The Data Snapshots \(com.snc.pa.mlb\) plugin must be activated on the instance.Starting with Australia Patch 3, if the instance is eligible, this plugin is installed automatically.
--   To use Data snapshots on a production instance, you must have a subscription to Performance Analytics as described in [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md). On a non-production instance, activate any of the Performance Analytics Premium plugins.
+-   To use Data snapshots on a production instance, you must have a subscription to Performance Analytics as described in [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md). On a non-production instance, activate any of the Performance Analytics Premium plugins.
 -   Your instance must not be domain-separated.
 
 **Warning:** Data snapshots is deactivated on the instance if the Data Snapshots plugin is deactivated or domain separation is activated. If you want to re-activate Data snapshots on such an instance, contact Now Support.
@@ -31,7 +31,7 @@ Role required: pa\_data\_collector or higher
 
 ## About this task
 
-Certain indicators support more than two levels of breakdown. This feature is called multiple breakdowns, and is one of the features of Data snapshots. This feature is not available for all indicators. For a list of restrictions, see [Limitations and requirements for Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/limitations-mlb.md).Activate Data snapshots for each eligible indicator, either one-at-a-time or in bulk.
+Certain indicators support more than two levels of breakdown. This feature is called multiple breakdowns, and is one of the features of Data snapshots. This feature is not available for all indicators. For a list of restrictions, see [Limitations and requirements for Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/limitations-mlb.md).Activate Data snapshots for each eligible indicator, either one-at-a-time or in bulk.
 
 **Important:** Classic Performance Analytics data collection jobs continue to run in parallel on indicators that have Data snapshots enabled. The scores that the classic job collects are not used while Data snapshots are enabled. Parallel job collection ensures smooth rollback if necessary.
 
@@ -68,18 +68,18 @@ All eligible selected indicators now have Data snapshots enabled and thus suppor
 
 To see why a specific indicator does not support Data snapshots \(Data snapshots status = unsupported\), you can examine its indicator record. Select the Edit icon \[Omitted image "edit-icon.png"\] Alt text: Edit icon for that indicator to open its record. Decide whether to alter the indicator and try to activate Data snapshots for it.
 
-**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)
+**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 
 **Related topics**  
 
 
-[Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
+[Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
 
-[Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md)
+[Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md)
 
-[Create a Data snapshots automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-automated-indicator.md)
+[Create a Data snapshots automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-ds-automated-indicator.md)
 
-[Create a Data snapshots formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-formula-ind.md)
+[Create a Data snapshots formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-ds-formula-ind.md)
 
 ## Activate Data snapshots for a single indicator
 
@@ -112,7 +112,7 @@ Role required:
 
     A modal opens explaining the process of enabling Data snapshots:
 
-    -   That the indicator will be linked to an appropriate [Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md) if one exists
+    -   That the indicator will be linked to an appropriate [Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md) if one exists
     -   That if no suitable Data snapshots source exists, one will be created
     -   Which of the requirements for Data snapshots are met or not met
     -   Whether the record volume is within the allowed threshold for your license

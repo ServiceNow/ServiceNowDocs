@@ -2,7 +2,7 @@
 title: Auto-fill catalog item form in the Service Portal
 description: Use ServiceNow AI Lens to extract data from documents and auto-fill catalog item forms in Service Portal. For example, auto-fill a new vendor onboarding form by extracting key details such as vendor name, address, contact email, and banking information from multiple documents, that includes Excel files, emails, images, and PDF documents.Capture a screen or upload files directly from your browser, and let ServiceNow AI Lens analyze the contents and auto-fill the form fields — no download or installation required.Use the ServiceNow AI Lens desktop app for the full range of capture and analysis capabilities, such as multi-image capture, auto-map Excel column headers with ServiceNow table fields, and file uploads.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -55,11 +55,11 @@ You can auto-fill catalog item forms in the Service Portal in two ways:
 
 4.  Auto-fill catalog item forms in Service Portal by performing any of the following methods.
 
-    -   [Using the Lens browser app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md)
+    -   [Using the Lens browser app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md)
 
         The ServiceNow AI Lens browser app opens in a new browser window.
 
-    -   [Using the Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md)
+    -   [Using the Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md)
 
         The ServiceNow AI Lens desktop app is launched.
 
@@ -70,7 +70,7 @@ Capture a screen or upload files directly from your browser, and let ServiceNow 
 
 ### Before you begin
 
-**Important:** Confirm that **Browser** is selected as a default preference in the Downloads and Preferences page. To view the steps, see [Set AI Lens to launch with the desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md)
+**Important:** Confirm that **Browser** is selected as a default preference in the Downloads and Preferences page. To view the steps, see [Set AI Lens to launch with the desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md)
 
 Role required: lens\_user
 
@@ -84,7 +84,7 @@ When you select **Fill with Lens** on the Service Portal form, the ServiceNow AI
 
     **Tip:** For the best experience, use ServiceNow AI Lens on any Chromium-based browser.
 
--   The browser-based experience supports single-screen capture. To capture multiple screens, [Use ServiceNow AI Lens from the desktop application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
+-   The browser-based experience supports single-screen capture. To capture multiple screens, [Use ServiceNow AI Lens from the desktop application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
 
 ### Procedure
 
@@ -147,17 +147,17 @@ When you select **Fill with Lens** on the Service Portal form, the ServiceNow AI
 
     \[Omitted image "lens-catalog-form-autofilled.png"\] Alt text: Catalog form fields auto-filled.
 
-    Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
+    Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d88094e602">
+<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d87508e602">
 
 Option
 
-</th><th align="left" id="d88094e605">
+</th><th align="left" id="d87508e605">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88094e611">
+</th></tr></thead><tbody><tr><td id="d87508e611">
 
 **If the auto-filled text looks good**
 
@@ -165,7 +165,7 @@ Action
 
 Save the record by selecting **Submit**.
 
-</td></tr><tr><td id="d88094e623">
+</td></tr><tr><td id="d87508e623">
 
 **If the auto-filled text requires changes**
 
@@ -184,7 +184,7 @@ Use the ServiceNow AI Lens desktop app for the full range of capture and analysi
 
 ### Before you begin
 
-**Important:** Confirm that **Desktop app** is selected as a default preference in the Downloads and Preferences page. To view the steps, see [Set AI Lens to launch with the desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md)
+**Important:** Confirm that **Desktop app** is selected as a default preference in the Downloads and Preferences page. To view the steps, see [Set AI Lens to launch with the desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md)
 
 Role required: lens\_user
 
@@ -291,17 +291,17 @@ When you select **Fill with Lens** on the Service Portal form, the ServiceNow AI
 
     \[Omitted image "lens-catalog-form-autofilled.png"\] Alt text: Catalog form fields auto-filled.
 
-    Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).
+    Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d88094e1251">
+<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d87508e1251">
 
 Option
 
-</th><th align="left" id="d88094e1254">
+</th><th align="left" id="d87508e1254">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88094e1260">
+</th></tr></thead><tbody><tr><td id="d87508e1260">
 
 **If the auto-filled text looks good**
 
@@ -309,7 +309,7 @@ Action
 
 Save the record by selecting **Submit**.
 
-</td></tr><tr><td id="d88094e1272">
+</td></tr><tr><td id="d87508e1272">
 
 **If the auto-filled text requires changes**
 

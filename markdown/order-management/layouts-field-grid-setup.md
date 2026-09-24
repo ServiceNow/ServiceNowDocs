@@ -2,7 +2,7 @@
 title: Layouts: Field grid setup
 description: A field grid collects multiple fields in a single layout, but unlike a set, it can reference other rows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/layouts-field-grid-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/layouts-field-grid-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

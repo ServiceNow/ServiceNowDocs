@@ -2,7 +2,7 @@
 title: Publisher overview for IBM in the Software Asset Workspace
 description: View license usage information related to IBM in the publisher overview for IBM in the Software Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/publisher-overview-ibm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/publisher-overview-ibm.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -96,7 +96,7 @@ Top 10 products by PVU sub-capacity usage
 Peak PVU utilization for your top 10 IBM software products.
 
 </td></tr></tbody>
-</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
+</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-publisher-pack.md)
 

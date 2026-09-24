@@ -2,12 +2,12 @@
 title: Configure web search
 description: Enable the web search tool so that Build Agent can search the public web and retrieve relevant information when responding to queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ba-configure-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-configure-settings.html
 release: australia
 topic_type: task
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-keywords: [web search, build agent, web search tool, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [web search, build agent, web search tool, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -32,7 +32,7 @@ Role required: admin
 
 ## What to do next
 
-For more information about the web search tool, see [Build Agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-tools.md).
+For more information about the web search tool, see [Build Agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-tools.md).
 
-**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-build-agent.md)
 

@@ -2,7 +2,7 @@
 title: SNMP trap collector extension
 description: The SNMP trap collector is a MID Server extension that listens for SNMP traps from the devices on your network.For the SNMP trap collector extension to receive traps from network devices, each device must designate the MID Server that runs the SNMP trap collector extension as a recipient of the trap.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/c\_SNMPTrapCollectorExtension.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/c\_SNMPTrapCollectorExtension.html
 release: australia
 product: MID Server
 classification: mid-server

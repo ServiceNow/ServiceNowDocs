@@ -2,7 +2,7 @@
 title: ITSM spoke
 description: Provides flow and actions associated with ITSM. Requires the ITSM application suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/itsm-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/itsm-spoke.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -51,5 +51,5 @@ Users with the admin, flow\_designer, or action\_designer roles can open and vie
 
 For example, the Create Normal Change Request from Incident action uses the common Task table fields for Short description, Configuration Item, Priority, Domain, Company, and Description to create a Change Request from an Incident.
 
-**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
+**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/spokes.md)
 

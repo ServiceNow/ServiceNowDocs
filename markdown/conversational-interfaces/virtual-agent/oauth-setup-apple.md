@@ -2,7 +2,7 @@
 title: OAuth setup for Apple Messages for Business
 description: Integrate your Identity Provider \(IdP\) with Apple Messages for Business using OAuth2 authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/oauth-setup-apple.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/oauth-setup-apple.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -40,7 +40,7 @@ Complete the following steps on the Apple Messages for Business site to connect 
     -   Set the Connection alias to the `sys_alias` record created in previous step.
 
     -   Set the connection url to fetch the user information API as per your IdP. \(For example:`https://<your-idp-app>.com/api/v1/users`\)
-6.  Create a Profile Parser Action using Workflow Studio. See the code snippets shown here for an example: [Create a profile parser action for Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-profile-parser-action-apple.md). See [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/actions.md) for more details.
+6.  Create a Profile Parser Action using Workflow Studio. See the code snippets shown here for an example: [Create a profile parser action for Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-profile-parser-action-apple.md). See [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/actions.md) for more details.
 7.  Create a new record in the Provider Application Authentications \(sys\_cs\_provider\_app\_authentication\) table using these instructions:
     -   Set the Provider Channel Identity to your provider app \(`sys_cs_provider_application`\)
     -   Set the OAuth Entity Profile to the `oauth_entity_profile` record created with your OAuth Provider \(`oauth_entity`\) record.

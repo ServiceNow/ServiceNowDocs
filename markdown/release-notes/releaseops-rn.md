@@ -2,7 +2,7 @@
 title: ReleaseOps release notes
 description: The ServiceNow ReleaseOps application enables you to deploy and validate code from development to production in your ServiceNow environments. ReleaseOps was enhanced and updated in the Australia release.The ServiceNow ReleaseOps application enables you to deploy and validate code from development to production in your ServiceNow environments. ReleaseOps was enhanced and updated in the Australia release.The ServiceNow ReleaseOps application enables you to deploy and validate code from development to production in your ServiceNow environments. ReleaseOps was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/releaseops-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/releaseops-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-07-23"
@@ -22,7 +22,7 @@ The ServiceNow® ReleaseOps application enables you to deploy and validate code 
 -   Leverage Automated Test Framework \(ATF\) code coverage to improve the efficacy of your ATF test suites.
 -   Generate update set descriptions and release notes using the release lifecycle documentation AI agent.
 
-See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -41,7 +41,7 @@ See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aus
     ReleaseOps is not supported in regulated environments or on-premise. Check your entitlements to determine whether you have access to ReleaseOps.
 
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## April 2026
 
@@ -49,11 +49,11 @@ The ServiceNow® ReleaseOps application enables you to deploy and validate code 
 
 ### What's new
 
--   **[Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-update-set-description.md)**
+-   ****
 
     Generate update descriptions using the release lifecycle documentation AI agent.
 
--   **[Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-release-notes.md)**
+-   ****
 
     Generate release notes using the release lifecycle documentation AI agent.
 
@@ -64,19 +64,19 @@ The ServiceNow® ReleaseOps application enables you to deploy and validate code 
 
 ### What's new
 
--   **[Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/complete-guided-setup.md)**
+-   ****
 
     Use guided setup to start using ReleaseOps quickly. You can also continue to use manual setup for more complex setup scenarios and if you need to add changes to your ReleaseOps ecosystems later.
 
--   **[Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/runbook-tasks.md)**
+-   ****
 
     Add custom, flexible, and manual activities to your assessment and release playbooks with runbook tasks, without having to adjust the structure of your playbooks from one release to the next.
 
--   **[Create a runbook task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-runbook-task.md)**
+-   ****
 
     Define the type of runbook task and when the task should occur in your ReleaseOps playbooks.
 
--   **[Set Automated Test Framework \(ATF\) code coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/set-atf-code-coverage-threshold.md)**
+-   ****
 
     Leverage Automated Test Framework \(ATF\) code coverage in ReleaseOps. ATF code coverage enables you to determine what percentage of code in a deployment request is covered by ATF test suites. You can define the threshold for ATF test failure and see what lines of code were covered by the ATF test suites.
 

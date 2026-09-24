@@ -2,7 +2,7 @@
 title: Configuring skills for Platform Analytics for the ServiceNow Otto panel
 description: Activate the skills for generating and exporting Platform Analytics dashboards and data visualizations from conversations in the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configuring-now-ass-skills-pa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configuring-now-ass-skills-pa.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,12 +17,12 @@ Activate the skills for generating and exporting Platform Analytics dashboards a
 
 The dashboard and visualization export skill are included in the Generative AI Controller application and plugin, which contains a range of utilities. This plugin is included in all ServiceNow Otto applications.
 
-The Query Generation skills "analytics query generation" and "analytics insight generation" are required. To support queries on indicator data, the Query Generation skill "analytics query generation for indicators" is required. These skills are active by default. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md).
+The Query Generation skills "analytics query generation" and "analytics insight generation" are required. To support queries on indicator data, the Query Generation skill "analytics query generation for indicators" is required. These skills are active by default. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/enable-query-generation.md).
 
--   **[Activate the data visualization generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-analytics-assist.md)**  
+-   **[Activate the data visualization generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-analytics-assist.md)**  
 Give users generative AI capabilities for creating data visualizations from the ServiceNow Otto panel by activating the data visualization generation skill.
--   **[Dashboard and visualization export skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-db-dv-export-skill.md)**  
+-   **[Dashboard and visualization export skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/activate-db-dv-export-skill.md)**  
 Give users generative AI capabilities for creating data visualizations from the ServiceNow Otto panel by activating the dashboard and visualization export skill.
 
-**Parent Topic:**[Dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-assist-landing-page.md)
+**Parent Topic:**[Dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-assist-landing-page.md)
 

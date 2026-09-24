@@ -2,7 +2,7 @@
 title: Configure dynamic categories
 description: Dynamic categories let you organize and display commonly requested items and knowledge articles. Dynamic categories appear on the right side of the service catalog homepage by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ConfigureDynamicCategories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_ConfigureDynamicCategories.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -47,7 +47,7 @@ To configure dynamic catalog categories:
     The results displayed are limited to those items or knowledge articles available in the currently viewed catalog.
 
 
-**Parent Topic:**[Service catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogCategories.md)
+**Parent Topic:**[Service catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ServiceCatalogCategories.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Enable and configure AI Search in Service Portal
 description: Enable and define the AI Search experience in your portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-ais-sp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/enable-ais-sp.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -63,7 +63,7 @@ To use AI Search for knowledge articles, you can keep the default **Knowledge Ba
 
 ## What to do next
 
-Search widgets that you cloned or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/reclassify-search-widgets.md).
+Search widgets that you cloned or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/reclassify-search-widgets.md).
 
-**Parent Topic:**[AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ai-search.md)
+**Parent Topic:**[AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/ai-search.md)
 

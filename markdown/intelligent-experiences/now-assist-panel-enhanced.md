@@ -2,7 +2,7 @@
 title: Enhanced chat
 description: ServiceNow Otto panel enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities. Use ServiceNow Otto panel enhanced chat to improve your productivity and efficiency by leveraging generative AI to perform tasks such as summarize a chat, case, or incident, request help, generate resolution notes, among others.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-panel-enhanced.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-panel-enhanced.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,10 +27,10 @@ You must fulfill the following conditions before using the ServiceNow Otto panel
 -   Next Experience must be enabled. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 -   You must have the now\_assist\_panel\_user role.
 -   Your role must be applied to at least one active ServiceNow Otto skill to use skills in the ServiceNow Otto panel.
--   ServiceNow Otto panel enhanced chat must be activated before you can use it. See [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md) for more information.
--   ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md).
--   If you want to use assistants, you must activate them. See [Activate ServiceNow Otto panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
--   If you want to use voice input, you have to enable voice input [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+-   ServiceNow Otto panel enhanced chat must be activated before you can use it. See [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-enhanced-activate.md) for more information.
+-   ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills.md).
+-   If you want to use assistants, you must activate them. See [Activate ServiceNow Otto panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
+-   If you want to use voice input, you have to enable voice input [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
     **Note:** Voice input is automatically activated when you activate the ServiceNow Otto panel. As of the Zurich Patch 4 release, voice input is configured in the [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
 
@@ -197,7 +197,7 @@ Depending on the context of the response, an additional go to search results ico
 
 ## Agentic conversations
 
-**Note:** Admins must first enable AI agents before end users can experience agentic conversations. ServiceNow Otto panel discovers and executes agentic workflows. For more information on agentic workflows, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md) and [Multiple conversations in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/multiple-conversations-aia.md).
+**Note:** Admins must first enable AI agents before end users can experience agentic conversations. ServiceNow Otto panel discovers and executes agentic workflows. For more information on agentic workflows, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sn-aia-use-cases-list.md) and [Multiple conversations in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/multiple-conversations-aia.md).
 
 When you ask a question to the ServiceNow Otto panel enhanced chat, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, ServiceNow Otto panel enhanced chat answers the multiple questions consecutively in its response. It can reason, plan, and execute across AI agents, ServiceNow Otto panel topics, conversational actions and subflows, catalogs, Knowledge Base articles, custom skills, and any ServiceNow Otto supported skills to help you. You receive on-screen messages to let you know where the agent is in the agentic processing flow prior to receiving the response. After the processing has completed its flow, a View AI Steps section header appears, where the processing flow steps can be expanded and viewed. You can stop the agentic processing flow at any time by selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text:\). After an action starts, it can't be stopped. Selecting the End flow icon only stops the proceeding processing steps.
 
@@ -227,7 +227,7 @@ You can generate a case or incident summarization from the ServiceNow Otto panel
 
 Get specific and accurate answers to your queries by using the Get Help skill option on the ServiceNow Otto panel. This skill is available to everyone entitled to ServiceNow Otto capabilities.
 
-For more information about the ServiceNow Otto Conversational Help skill that represents as Get Help on the ServiceNow Otto panel, see [Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/conversational-help-skills.md).
+For more information about the ServiceNow Otto Conversational Help skill that represents as Get Help on the ServiceNow Otto panel, see [Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/conversational-help-skills.md).
 
 ## Resolution notes generation
 
@@ -249,5 +249,5 @@ A fallback state can occur whenever search results are unavailable. Scenarios wh
 
 \[Omitted image "nap-search-web-fallback.png"\] Alt text:
 
-**Parent Topic:**[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
+**Parent Topic:**[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md)
 

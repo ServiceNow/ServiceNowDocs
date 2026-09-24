@@ -2,7 +2,7 @@
 title: Workflow for risk identification in the Risk Workspace
 description: Workflows provide step-by-step guidance for completing the risk identification process in the GRC Risk Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-identification-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/risk-identification-playbook.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -45,16 +45,16 @@ It is important to remember the following points:
 -   If you finish relating the controls and then again move to risk mapping, the control-mapping stage moves to pending state.
 -   When you reinitiate a workflow, a new workflow instance is created.
 
-For more information, see [Application risk assessment using advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md).
+For more information, see [Application risk assessment using advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md).
 
 The following figures show the workflow stages and actions:
 
 \[Omitted image "playbook-stages.jpg"\] Alt text: Stages of risk identification workflow.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 
 **Related topics**  
 
 
-[Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
+[Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
 

@@ -2,7 +2,7 @@
 title: List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM
 description: Migration of the list actions from ITSM Agent Workspace to Service Operations Workspace for ITSM includes identifying the tables and the migration process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/list-actions-migration-itsm-aw-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/list-actions-migration-itsm-aw-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -45,18 +45,18 @@ The following are the list actions available in ITSM Agent Workspace:
 -   Client action
 -   UI component
 
--   **[Migrate the client script from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-list-client-script-aw-to-sow.md)**  
+-   **[Migrate the client script from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/migrate-list-client-script-aw-to-sow.md)**  
 Configure the client script to migrate list actions from ITSM Agent Workspace to Service Operations Workspace for ITSM.
--   **[Migrate the server script from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-list-server-script-aw-sow.md)**  
+-   **[Migrate the server script from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/migrate-list-server-script-aw-sow.md)**  
 Configure the server script to migrate list actions from ITSM Agent Workspace to Service Operations Workspace for ITSM.
--   **[Migrate the client action from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-list-client-action-aw-to-sow.md)**  
+-   **[Migrate the client action from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/migrate-list-client-action-aw-to-sow.md)**  
 Configure the client actions to migrate list actions from ITSM Agent Workspace to Service Operations Workspace for ITSM.
--   **[Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-list-ui-component-from-aw-to-sow.md)**  
+-   **[Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/migrate-list-ui-component-from-aw-to-sow.md)**  
 Configure the UI component to migrate list actions from ITSM Agent Workspace to Service Operations Workspace \(SOW\) for ITSM.
--   **[Perform post-migration tasks for list actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/verify-migration-status-list-actions.md)**  
+-   **[Perform post-migration tasks for list actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/verify-migration-status-list-actions.md)**  
 Verify that the list actions in Service Operations Workspace \(SOW\) are consistent with the list actions in ITSM Agent Workspace \(ITSM AW\) and they’re ready for use in SOW. You can update the migrated list actions settings in SOW based on your requirements.
 
-**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
+**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
 
 **Related topics**  
 

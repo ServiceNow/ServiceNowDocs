@@ -2,7 +2,7 @@
 title: Inbound invoice fields
 description: Field descriptions, data types, and mandatory fields for the Inbound Invoice table used to import invoice data through the integration framework to create invoices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -246,10 +246,10 @@ Name of the third party application associated with the invoice.
 String
 
 </td></tr></tbody>
-</table>-   **[Inbound invoice line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-line-fields.md)**  
+</table>-   **[Inbound invoice line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/inbound-invoice-line-fields.md)**  
 Field definitions and data types for the Inbound Invoice Line \[u\_inbound\_invoice\_line\] table used to map invoice line data for import through the integration framework.
--   **[Inbound invoice payment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.md)**  
+-   **[Inbound invoice payment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.md)**  
 Field descriptions and data types for inbound invoice payment records used to import supplier invoice payment data into Accounts Payable Operations.
 
-**Parent Topic:**[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)
+**Parent Topic:**[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)
 

@@ -2,7 +2,7 @@
 title: Create a strategic priority for a strategic plan
 description: As a strategy planner, you can create and manage the strategic priorities for the strategic plans for your organization. Create a strategic priority to orient your organization strategic plan toward your goal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/create-strategic-priority.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/create-strategic-priority.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -60,7 +60,7 @@ Steps
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For field information, see [Strategic Priority form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/strategic-priority-form.md).
+    For field information, see [Strategic Priority form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/strategic-priority-form.md).
 
 3.  Click **Submit**.
 

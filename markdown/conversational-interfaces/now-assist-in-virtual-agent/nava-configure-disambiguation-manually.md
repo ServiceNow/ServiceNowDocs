@@ -2,7 +2,7 @@
 title: Configure disambiguation
 description: Configure the disambiguation property that controls when the assistant asks clarifying questions before responding to a ServiceNow Otto for Virtual Agent or ServiceNow Otto panel user request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/nava-configure-disambiguation-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-configure-disambiguation-manually.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

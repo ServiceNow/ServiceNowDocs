@@ -2,7 +2,7 @@
 title: Create an SAP S/4HANA connection
 description: Establish a zero copy connection to an SAP S/4HANA system in Zero Copy Connector Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-sap-s4hana-connection-primary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-sap-s4hana-connection-primary.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

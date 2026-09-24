@@ -2,7 +2,7 @@
 title: Manage HR roles
 description: Roles control access to features and capabilities in modules in the HR application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/c\_ManageRoles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/c\_ManageRoles.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -18,7 +18,7 @@ Roles control access to features and capabilities in modules in the HR applicati
 
 The HR Service Delivery Scoped app can help prevent users outside of the HR organization from accessing HR data.
 
-Scoped roles for both HR case workers and HR clients \(employees, contractors, alumni, and others\) grant access to HR services. Users without an HR scoped role typically cannot view HR cases or HR profile information. For information on all the roles installed with Case and Knowledge Management plugin, see [Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md).
+Scoped roles for both HR case workers and HR clients \(employees, contractors, alumni, and others\) grant access to HR services. Users without an HR scoped role typically cannot view HR cases or HR profile information. For information on all the roles installed with Case and Knowledge Management plugin, see [Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md).
 
 Only the HR Administrator \[sn\_hr\_core.admin\] can assign scoped HR roles.
 
@@ -105,7 +105,7 @@ There are specific HR roles that allow users access to specific areas of the sys
 </table>After system configuration, to help prevent the System Administrator from accessing sensitive information:
 
 -   Remove the HR Administrator \[sn\_hr\_core.admin\] role from System Administrator \[admin\].
-    -   The base system requires a user with the System Administrator role to run scheduled jobs. For details on HR scheduled jobs, see [Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md).
+    -   The base system requires a user with the System Administrator role to run scheduled jobs. For details on HR scheduled jobs, see [Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md).
     -   To ensure the scheduled jobs run, change the user in the **Run as** field for each scheduled job to a user that has the HR admin role.
 
         **Note:** Changing the user allows the scheduled jobs to run, but only a user with the System Admin role can view and run a scheduled job on demand.
@@ -141,18 +141,18 @@ There are specific HR roles that allow users access to specific areas of the sys
         |sn\_hr\_ws.min\_admin\_count|HR Agent Workspace Admin \[sn\_hr\_ws.admin\]|
 
 
--   **[Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md)**  
+-   **[Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md)**  
 Remove the HR Administrator role from IT System Administrator to prevent access to sensitive HR information.
--   **[Add Delegated Developer to HR Administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_HRAdminRoles.md)**  
+-   **[Add Delegated Developer to HR Administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_HRAdminRoles.md)**  
 For an HR Administrator \[sn\_hr\_core.admin\] to perform some platform duties, the delegated developer role must be added.
--   **[Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md)**  
+-   **[Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ManageHRGroups.md)**  
 HR Groups are a set of users with common job skills.
--   **[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)**  
+-   **[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)**  
 Your organization can define HR skills to establish the qualifications of HR staff. Skills can be included in the auto-assignment process used to assign HR agents to HR cases and tasks.
--   **[Configure escalation rules for HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyEscalationRules.md)**  
+-   **[Configure escalation rules for HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateOrModifyEscalationRules.md)**  
 Create escalation rules to automatically route HR cases from one tier to another based on agent skills and workload.
--   **[Client roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ClientRoles.md)**  
+-   **[Client roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ClientRoles.md)**  
 You can control what HR functionality that an employee can access using Client Roles. You can license all employees or provide HR services to users in a specific location or group.
 
-**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

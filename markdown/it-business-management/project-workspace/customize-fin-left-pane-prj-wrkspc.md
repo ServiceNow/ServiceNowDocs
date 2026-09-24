@@ -2,7 +2,7 @@
 title: Customize the left pane view for financials
 description: Customize the left pane for financials to view custom field information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/customize-fin-left-pane-prj-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/customize-fin-left-pane-prj-wrkspc.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -43,5 +43,5 @@ Role required: admin
 
 Cost plans table with customized fields for Financials View is displayed.
 
-**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-fin-pws.md)
+**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/config-fin-pws.md)
 

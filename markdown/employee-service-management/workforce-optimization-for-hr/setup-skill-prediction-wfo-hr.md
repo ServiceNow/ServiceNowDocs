@@ -2,7 +2,7 @@
 title: Setting up skill prediction in Workforce Optimization for HR
 description: Collect skill data based on skills agents have used for case resolution. Use supervised learning to recommend these skills for agents to resolve similar open case. You can also find patterns in how skills are used for case resolution and use unsupervised learning to recommend skills for agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/setup-skill-prediction-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/setup-skill-prediction-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -41,8 +41,8 @@ Role required: sn\_hr\_wfo.admin
     **Note:** Recommended skills will start appearing once the number of records in \[sn\_sre\_task\_predicted\_skill\] table exceeds the value defined in the \[sn\_sre.user\_predicted\_skill\_threshold\] .
 
 
--   **[Use extension points for skill prediction in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/use-extension-points-skill-wfo-hr.md)**  
+-   **[Use extension points for skill prediction in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/use-extension-points-skill-wfo-hr.md)**  
 Use scripted extension points to customize skill prediction for tasks.
 
-**Parent Topic:**[Configure Coaching in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/setup-coaching-wfo-hr.md)
+**Parent Topic:**[Configure Coaching in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-coaching-wfo-hr.md)
 

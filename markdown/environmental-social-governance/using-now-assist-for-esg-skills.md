@@ -2,7 +2,7 @@
 title: Using ServiceNow Otto for Operational Sustainability skills
 description: If you have the sn\_esg\_gen\_ai.docintel\_user role, you can use the ServiceNow Otto for Operational Sustainability skill to automate the extraction of metrics data from utility invoices. Then map the extracted data to the correct metric definitions and entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/using-now-assist-for-esg-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/using-now-assist-for-esg-skills.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,8 +23,8 @@ Starting with the Australia release, users who have the ServiceNow Otto for Oper
 
 To modify the instructions for the Document Intelligence for utility invoices skill, follow the steps that are mentioned in [KB1806035](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1806035).
 
--   **[Extract data from utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/extract-data-from-utility-invoices.md)**  
+-   **[Extract data from utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/extract-data-from-utility-invoices.md)**  
 The AI-driven Document Intelligence for utility invoices feature automates the extraction of utility bill data, including consumption, billing dates, and amounts. Then the extracted data is mapped to the correct metric definitions and entities using configurable mapping tables within the Operational Sustainability Workspace. This streamlines data processing and enhances accuracy.
 
-**Parent Topic:**[ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/now-assist-for-esg.md)
+**Parent Topic:**[ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/now-assist-for-esg.md)
 

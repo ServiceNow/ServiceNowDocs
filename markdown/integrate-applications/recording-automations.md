@@ -2,10 +2,10 @@
 title: Recording automations
 description: Capture your actions from your desktop or web applications and convert them into an automation flow by using the recorder option in the RPA Desktop Design Studio application. You can record attended and unattended automations by using this capability. When you record an automation, you don't have to create it manually by using connectors or components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/recording-automations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/recording-automations.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -32,7 +32,7 @@ When a recording is saved, the RPA Desktop Design Studio application generates a
 
 ## Configuring the screen match rules
 
-The screens and elements of the recording are also configured as objects to **Global Objects**. You can configure the screen match rules and the element attributes based on your preference, by using the Universal App Connector. For more information on how to use the Universal App Connector, see [Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md).
+The screens and elements of the recording are also configured as objects to **Global Objects**. You can configure the screen match rules and the element attributes based on your preference, by using the Universal App Connector. For more information on how to use the Universal App Connector, see [Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/universal-app-connector.md).
 
 ## Enhanced element interrogations
 
@@ -83,10 +83,10 @@ Using a recorder to create an automation provides the following benefits:
 
 For information on the known issues and limitations for recording automations, see [Known issues and limitations of RPA Desktop Design Studio for recording automations \[KB1225708\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1225708).
 
--   **[Record an automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-recorded-automation.md)**  
+-   **[Record an automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-recorded-automation.md)**  
 Record an automation by using the recorder option in the RPA Desktop Design Studio application. The actions that you perform on the application elements can be saved as an automation flow to the automation project.
--   **[Types of elements and actions for the recorder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/element-actions-recorder.md)**  
+-   **[Types of elements and actions for the recorder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/element-actions-recorder.md)**  
 The actions are the activities that you can perform on an application element such as a text box, button, hyperlinks, and so on. By using these actions, you can build an automation flow in the RPA Desktop Design Studio recorder.
 
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-use.md)
 

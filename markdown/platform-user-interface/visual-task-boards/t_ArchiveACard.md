@@ -2,7 +2,7 @@
 title: Archive a Visual Task Board card
 description: Archiving a card is a non-destructive way to remove a card from a freeform Visual Task Board. You can archive cards you are no longer working on to reduce visual clutter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ArchiveACard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_ArchiveACard.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -67,5 +67,5 @@ Role required: none
 -   To see all archived cards for the current board, from the board navigation panel, open the board information menu \(\[Omitted image "BoardInfoIcon.png"\] Alt text: Board information icon\) and click **View Archived Tasks**.
 -   To restore an archived card, point to it and click **Restore**.
 
-**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

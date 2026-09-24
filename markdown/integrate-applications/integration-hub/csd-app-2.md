@@ -2,7 +2,7 @@
 title: Client Software Distribution 2.0 application
 description: Client Software Distribution 2.0 application \(CSD 2.0\) application enables administrators to distribute software from the service catalog using third-party management systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-app-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd-app-2.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -20,7 +20,7 @@ CSD 2.0 enables an administrator to create all the records necessary to deploy s
 
 CSD 2.0 also integrates with Software Asset Management \(SAM Professional or SAM Foundation\) to manage license information of the deployed software.
 
-**Note:** CSD 2.0 is different from [Client Software Distribution using Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-integrationhub.md). CSD 2.0 is available on ServiceNow Store.
+**Note:** CSD 2.0 is different from [Client Software Distribution using Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd-integrationhub.md). CSD 2.0 is available on ServiceNow Store.
 
 \[Omitted image "CSDProcess.png"\] Alt text: CSD 2.0 process flow
 
@@ -109,7 +109,7 @@ CSD 2.0 v1.7.4 is the latest version.
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This application provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -193,7 +193,7 @@ Removes collections as targets from applications in Microsoft Endpoint Configura
 
 ## Available sample agentic workflows
 
-Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md).
 
@@ -235,30 +235,30 @@ Manages Microsoft Endpoint Configuration Manager device and user collections and
 No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
 
 </td></tr></tbody>
-</table>-   **[Request the CSD 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/req-csd.md)**  
+</table>-   **[Request the CSD 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/req-csd.md)**  
 Client Software Distribution 2.0 application plugin \(com.sn.csd\) is available on ServiceNow Store and can be used with a subscription to Integration Hub.
--   **[Components installed with CSD 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-installed.md)**  
+-   **[Components installed with CSD 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-installed.md)**  
 Several types of components are installed with the CSD 2.0 application.
--   **[Create licenses for distributed software using CSD 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-license-ntsam.md)**  
+-   **[Create licenses for distributed software using CSD 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-license-ntsam.md)**  
 Licenses are associated with the software model and must be created if you want to track the license for software deployed by CSD 2.0.
--   **[Create entitlements for distributed software using SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-license.md)**  
+-   **[Create entitlements for distributed software using SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-license.md)**  
 Entitlements are associated with the software model and must be created if you want to track the license for software deployed by CSD 2.0 using SAM.
--   **[Client software distribution ordering process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-orderprocess.md)**  
+-   **[Client software distribution ordering process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-orderprocess.md)**  
 Software deployed by CSD 2.0 can be ordered from the service catalog by individual users or by approved users on behalf of others.
--   **[Extend a software lease](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-extend.md)**  
+-   **[Extend a software lease](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-extend.md)**  
 Users of software deployed by CSD 2.0 can request the extension of a lease window, if the software is revocable by a software distribution system.
--   **[CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2.md)**  
+-   **[CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2.md)**  
 Use the CSD 2.0 along with the Microsoft Endpoint Configuration Manager spoke to deploy and revoke software deployments from Microsoft Endpoint Configuration Manager and manage distributions on hosts.
--   **[CSD 2.0 for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-jamf-tsk.md)**  
+-   **[CSD 2.0 for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-jamf-tsk.md)**  
 Use the CSD 2.0 along with the Jamf spoke to deploy and revoke software deployments from Jamf and manage distributions on hosts.
--   **[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-ms-intune.md)**  
+-   **[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-ms-intune.md)**  
 Use the CSD 2.0 along with the Microsoft Intune spoke to deploy and revoke software deployments, and manage distributions on hosts.
--   **[CSD 2.0 validation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-validation.md)**  
+-   **[CSD 2.0 validation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-validation.md)**  
 After Microsoft Endpoint Configuration Manager deploys software to a target computer, CSD 2.0 detects the installation and validates its status.
--   **[Software revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-revocation.md)**  
+-   **[Software revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-revocation.md)**  
 Revoke software without any user interaction if the software can be revoked and has a lease end date using the provider-specific revocation flow.
--   **[Integrate CSD 2.0 with other software providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-integrate.md)**  
+-   **[Integrate CSD 2.0 with other software providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-integrate.md)**  
 Integrate CSD 2.0 with client software distribution providers, such as Casper, Altiris, or LANDesk.
 
-**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/building-integrations-ih.md)
 

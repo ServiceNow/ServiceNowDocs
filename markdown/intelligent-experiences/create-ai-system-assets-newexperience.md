@@ -2,7 +2,7 @@
 title: Create AI system assets
 description: Create AI assets to track and manage the life cycles of your AI systems
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-ai-system-assets-newexperience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-ai-system-assets-newexperience.html
 release: australia
 topic_type: task
 last_updated: "2026-04-09"

@@ -2,7 +2,7 @@
 title: Field controls in state flows
 description: You can define controls for individual fields that are enforced when a record transitions between states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_FieldControlsInStateFlows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_FieldControlsInStateFlows.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,12 +22,12 @@ Configure state flow records with an ending state only and create the correct be
 
 **Note:** State flows use client scripts to enforce field controls. It is possible that your settings can be changed by existing UI policies, which execute after client scripts.
 
-**Parent Topic:**[State flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_StateFlowCustomization.md)
+**Parent Topic:**[State flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_StateFlowCustomization.md)
 
 **Related topics**  
 
 
-[Request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_SMRequestStates.md)
+[Request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_SMRequestStates.md)
 
-[Request task states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_SMRequestTaskStates.md)
+[Request task states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_SMRequestTaskStates.md)
 

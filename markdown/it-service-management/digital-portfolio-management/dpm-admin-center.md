@@ -2,7 +2,7 @@
 title: Use the Admin Center in Digital Portfolio Management
 description: The Admin Center in Digital Portfolio Management \(DPM\) provides administrators a guided walk-through to set up and configure the DPM Workspace for the organization. The provided information and configuration prompts enable visibility into the end-to-end service and application life-cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-admin-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-admin-center.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -96,14 +96,14 @@ There’s no limit to how many times you can run the recalculation. You can also
 
 -   **[Configure page headers in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Configure the page header fields for your solutions in the DPM Admin Center. Your configuration determines how the header fields are displayed in the DPM Workspace.
--   **[Configure the Info tab in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-info-tab.md)**  
+-   **[Configure the Info tab in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-info-tab.md)**  
 Show or hide various sections of the **Info** tab for your solutions in DPM. You can also configure the general information fields. Your configuration determines how the fields are displayed in the **General info** section of the **Info** tab in the DPM Workspace.
--   **[Configure scheduled email reports in DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-schedule-email-reports.md)**  
+-   **[Configure scheduled email reports in DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-schedule-email-reports.md)**  
 Send periodic emails of KPI metrics to the DPM solution owners.
--   **[Configure personal portfolio solution cards in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-solution-cards.md)**  
+-   **[Configure personal portfolio solution cards in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-solution-cards.md)**  
 Configure the fields that display on the personal portfolio solution cards in the DPM Admin Center. Your configuration determines the fields that display on each solution card in the DPM Workspace.
--   **[View relationships of business applications and service instances in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-view-related-records.md)**  
+-   **[View relationships of business applications and service instances in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-view-related-records.md)**  
 In the DPM Admin Center, you can see a comprehensive view of your business applications and service instances. You can see incidents, problems, and changes that are related to your business applications and incidents and changes that are related to your service instances.
 
-**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 

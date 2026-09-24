@@ -2,7 +2,7 @@
 title: Release lifecycle documentation AI agent
 description: Generate business release notes in natural, human-friendly language for business stakeholders, within a maximum 4000 character limit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aemc-release-lifecycle-documentation-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aemc-release-lifecycle-documentation-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -52,7 +52,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -108,5 +108,5 @@ Not applicable.
 </td></tr></tbody>
 </table>Learn more about at App Engine Management Center at [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center.md).
 
-**Parent Topic:**[App Engine Management Center AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aemc-ai-agents-overview.md)
+**Parent Topic:**[App Engine Management Center AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aemc-ai-agents-overview.md)
 

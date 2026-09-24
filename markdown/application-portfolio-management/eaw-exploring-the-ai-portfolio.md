@@ -2,7 +2,7 @@
 title: Exploring the AI Portfolio
 description: The AI Portfolio section within the Portfolio page of the Enterprise Architecture Workspace helps you in managing structured governance, traceability, and lifecycles of AI assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-exploring-the-ai-portfolio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-exploring-the-ai-portfolio.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,10 +30,10 @@ Through the AI Portfolio section, you can perform the following:
 -   Track dependencies between AI systems, models, datasets, and prompts
 -   Understand the usage of the AI systems, models, datasets, and prompts across business capabilities and applications
 
-**Parent Topic:**[Exploring Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/portfolio-list-view.md)
+**Parent Topic:**[Exploring Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/portfolio-list-view.md)
 
 **Related topics**  
 
 
-[Working with AI Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-working-with-ai-portfolio.md)
+[Working with AI Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-with-ai-portfolio.md)
 

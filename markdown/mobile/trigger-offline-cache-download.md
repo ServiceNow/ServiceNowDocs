@@ -2,7 +2,7 @@
 title: Configure offline caching upon writeback actions
 description: Trigger offline cache download is an optional button attribute \(sys\_sg\_button\_atribute\_name\) that will generate an offline cache after a successful completion of the assigned writeback action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/trigger-offline-cache-download.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/trigger-offline-cache-download.html
 release: australia
 topic_type: task
 last_updated: "2026-06-08"
@@ -75,5 +75,5 @@ Enter one of the following values:-   Enter `true` to enable the offline cache d
 </table>7.  Select **Save**.
 
 
-**Parent Topic:**[Cache updates triggered by user actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/cache-update-user-action.md)
+**Parent Topic:**[Cache updates triggered by user actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/cache-update-user-action.md)
 

@@ -2,7 +2,7 @@
 title: Dealer tables
 description: This section explains the dealer tables in Manufacturing Commercial Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/dealer-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/dealer-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -125,5 +125,5 @@ Configure the responsibilities of the staff working at service organizations or 
 </td></tr></tbody>
 </table>To learn more about the Service Model Foundation, see [Configuring Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-service.md).
 
-**Parent Topic:**[Dealer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/dealer-data-model-overview.md)
+**Parent Topic:**[Dealer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/dealer-data-model-overview.md)
 

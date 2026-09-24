@@ -2,7 +2,7 @@
 title: Migration of highlighted fields in lists and forms from ITSM Agent Workspace to Service Operations Workspace for ITSM
 description: Migration of the highlighted fields in lists and forms from ITSM Agent Workspace to Service Operations Workspace for ITSM includes identifying the required tables, identifying eligible highlighted field records for migrations, and the migration process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/highlighted-fields-lists-forms-migration-itsm-aw-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/highlighted-fields-lists-forms-migration-itsm-aw-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -36,10 +36,10 @@ The Service Operations Workspace migration utility uses the following sequence t
 2.  If a Highlighted Value \[sys\_highlighted\_value\] table record isn’t found, creates a Highlighted Value \[sys\_highlighted\_value\] table record.
 3.  Maps the Sys Ux M2m Highlighted Value Config \[sys\_ux\_m2m\_highlighted\_value\_config\] table record.
 
--   **[Perform post-migration tasks for highlighted fields in list and forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/verify-migration-status-highlighted-fields-lists-forms.md)**  
+-   **[Perform post-migration tasks for highlighted fields in list and forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/verify-migration-status-highlighted-fields-lists-forms.md)**  
 Verify that the highlighted fields in list and forms in Service Operations Workspace \(SOW\) are consistent with the highlighted fields in list and forms in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated highlighted fields in list and forms settings in SOW based on your requirements.
 
-**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
+**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
 
 **Related topics**  
 

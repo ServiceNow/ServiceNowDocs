@@ -2,7 +2,7 @@
 title: Cloud Cost Management Infra Stack
 description: Use the Cloud Cost Management Infra Stack application to process and download billing files with improved data processing speed. The Cloud Cost Management Infra Stack application also supports high transaction volumes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/ccm-infra-stack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/ccm-infra-stack.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -63,5 +63,5 @@ You must fulfill these requirements to process billing jobs.
 
     **Note:** If you’re upgrading from an earlier version to Cloud Cost Management version 10.0 and have installed the Cloud Cost Management Infra Stack application, the mapping of credentials to alias happens automatically for all active billing download jobs. However, for any new job, you should do the mapping manually.
 
--   Make sure to have enough storage on your Cloud Cost Management Glide database for storing the attachments of the AWS billing job with Assume role authentication temporarily until the billing download job is processed. After the job is complete, these temporary attachments are deleted from the Glide database. The storage that you should have depends on the size of data on AWS. For more details, see [Processing AWS billing jobs with Assume role authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/process-aws-assume-infra.md).
+-   Make sure to have enough storage on your Cloud Cost Management Glide database for storing the attachments of the AWS billing job with Assume role authentication temporarily until the billing download job is processed. After the job is complete, these temporary attachments are deleted from the Glide database. The storage that you should have depends on the size of data on AWS. For more details, see [Processing AWS billing jobs with Assume role authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/process-aws-assume-infra.md).
 

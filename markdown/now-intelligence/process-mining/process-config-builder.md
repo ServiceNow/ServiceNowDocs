@@ -2,7 +2,7 @@
 title: Create process configuration using Process Configuration Builder
 description: Process configuration helps you configure preferences for a process table. This configuration assists you when creating projects using the configured table. It streamlines the project creation process by providing a ready-made framework tailored to your organization's needs. Importantly, completing the process configuration allows you to independently create projects, even if you do not have prior experience with process mining.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/process-config-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/process-config-builder.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -54,7 +54,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     **Note:** This option is available only if a content pack application is installed for a process.
 
-    For more information about process configurations using content packs, see [Create process configurations using content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-config-content-pack.md).
+    For more information about process configurations using content packs, see [Create process configurations using content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-config-content-pack.md).
 
 6.  Select **Get started**.
 
@@ -65,16 +65,16 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
     The **Process details** page is displayed.
 
 
--   **[Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-details.md)**  
+-   **[Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-details.md)**  
 Describe the process to get help with further configuration and enhance the quality of the project setup and analysis.
--   **[Configure recommendations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/reco-setup.md)**  
+-   **[Configure recommendations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/reco-setup.md)**  
 Set up recommendations to simplify project creation and get help in the analysis.
--   **[Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/investigative-features.md)**  
+-   **[Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/investigative-features.md)**  
 Configure investigative features to set advanced analytics features for a process.
--   **[Configure impact metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/impact-metrics.md)**  
+-   **[Configure impact metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/impact-metrics.md)**  
 Configure the Key Performance Indicators \(KPIs\) for this process.
--   **[Configure improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improvement-opportunities.md)**  
+-   **[Configure improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/improvement-opportunities.md)**  
 Create a library of inefficiencies to identify the improvement opportunities for your project.
 
-**Parent Topic:**[Creating process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/creating-process-config.md)
+**Parent Topic:**[Creating process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/creating-process-config.md)
 

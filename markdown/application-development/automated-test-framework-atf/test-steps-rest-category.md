@@ -2,7 +2,7 @@
 title: REST category
 description: Verify the functionality of REST calls.This test step begins with the REST API Explorer. Use the REST API Explorer to create and specify the HTTP method, path, query parameters, request headers, and body of a REST request, and then send the REST request to the current instance.Create a test step to send a REST request to the current instance. Specify the HTTP method, path, query parameters, request headers, and body of a REST request.Assert that the HTTP response status code has the specified relationship to the specified value. You specify a numeric value of the status code and the relationship.Assert that the HTTP response status code name has the specified relationship to the specified value. You specify a value of the status code name, and the relationship.Assert that the HTTP response time has the specified relationship to the specified value. You specify a value of the response time and the relationship.Assert the HTTP response header exists, or the header has the specified relationship to the specified value.Assert that the response payload is in valid JSON format.Assert that the response payload is well-formed XML.Assert the XML response payload element exists, or has the specified relationship to the specified value.Assert the JSON response payload element exists, or has the specified relationship to the specified value.Assert the HTTP response payload has the specified relationship to the specified value. You specify the value and the relationship.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-rest-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/test-steps-rest-category.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -177,7 +177,7 @@ Authentication Type
 
 The type of authentication to use. For public APIs, select **None**.
 
- To configure basic or mutual authentication, users need the atf\_ws\_designer role. For more information, see [Automated Test Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-roles.md).
+ To configure basic or mutual authentication, users need the atf\_ws\_designer role. For more information, see [Automated Test Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-roles.md).
 
 </td></tr><tr><td>
 
@@ -185,7 +185,7 @@ Basic authentication
 
 </td><td id="basic-authentication">
 
-The basic authentication profile to use when doing the test. You must create or select a basic authentication profile to assign to test steps to avoid authentication issues when running the test. For more information, see [Create a basic auth profile using the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-basic-auth-profile.md).
+The basic authentication profile to use when doing the test. You must create or select a basic authentication profile to assign to test steps to avoid authentication issues when running the test. For more information, see [Create a basic auth profile using the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-create-basic-auth-profile.md).
 
 </td></tr><tr><td>
 

@@ -2,12 +2,12 @@
 title: Activate or deactivate alert rules
 description: Activate or deactivate alert rules to streamline monitoring and adapt to changing needs, enhancing operational efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/activate-metric-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/activate-metric-rules.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [activate alert rules, deactivate alert rules, alert rule status, enable monitoring rules, dex alerts]
 breadcrumb: [Alert rules, Configure, Digital End-User Experience, IT Service Management]
@@ -40,5 +40,5 @@ Role required: sn\_dex.admin
 6.  Select **Update**.
 
 
-**Parent Topic:**[Managing DEX alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-metrics-metric-rules-management.md)
+**Parent Topic:**[Managing DEX alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-metrics-metric-rules-management.md)
 

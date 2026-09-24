@@ -2,7 +2,7 @@
 title: Specify a field to return
 description: Restrict or specify a field that you want returned by the joined table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_SpecifyAFieldToReturn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/c\_SpecifyAFieldToReturn.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -45,11 +45,11 @@ When you restrict fields, you must create a View Field record for the join field
 
 ## What to do next
 
-Verify your changes using the **Try It** related link in the database view record. See [Test the database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_TestTheDatabaseView.md).
+Verify your changes using the **Try It** related link in the database view record. See [Test the database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_TestTheDatabaseView.md).
 
-**Parent Topic:**[Joining tables using database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_CreatingDatabaseViews.md)
+**Parent Topic:**[Joining tables using database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_CreatingDatabaseViews.md)
 
-**Previous topic:**[Example left join in creating a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/example-left-join-db-view.md)
+**Previous topic:**[Example left join in creating a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/example-left-join-db-view.md)
 
-**Next topic:**[Relabel a column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_RelabelAColumn.md)
+**Next topic:**[Relabel a column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_RelabelAColumn.md)
 

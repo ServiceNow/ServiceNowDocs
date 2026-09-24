@@ -2,7 +2,7 @@
 title: Tech Product Support Case table
 description: The Technology Product Support Case application adds the Tech Product Support Case \(sn\_tech\_product\_support\_case\) table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -401,5 +401,5 @@ Work notes list
 Users who receive notifications about this case when work notes are added.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Technology Product Support Case reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tpsc-reference.md)
+</table>**Parent Topic:**[Technology Product Support Case reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tpsc-reference.md)
 

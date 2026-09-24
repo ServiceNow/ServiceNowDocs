@@ -2,7 +2,7 @@
 title: Defer an automation request
 description: Defer an automation request from Automation Center if the priority of the request has changed and it is not urgent anymore.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/defer-an-automation-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/defer-an-automation-request.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -18,7 +18,7 @@ Defer an automation request from Automation Center if the priority of the reques
 
 ## Before you begin
 
-Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-request.md).
+Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-automation-request.md).
 
 Verify that the state of the automation request is either **New** or **In Progress**.
 
@@ -45,7 +45,7 @@ Deferring an automation request is one of the life-cycle stages of an automation
 
 ## What to do next
 
-You can move the automation request to Planned state or reject the automation request. For more information, see [Move an automation request to the Planned state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-automation-request-to-planned.md) and [Reject an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/reject-automation-request.md).
+You can move the automation request to Planned state or reject the automation request. For more information, see [Move an automation request to the Planned state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/move-automation-request-to-planned.md) and [Reject an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/reject-automation-request.md).
 
-**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-through-states.md)
+**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/move-through-states.md)
 

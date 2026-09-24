@@ -2,7 +2,7 @@
 title: Generate labor costs
 description: Generate labor costs based on the planning attributes configured for financials in the planning attributes page for the resource assignments in a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/gen-cost-pln-prj-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/gen-cost-pln-prj-wrkspc.html
 release: australia
 product: Project Management
 classification: project-management
@@ -18,14 +18,14 @@ Generate labor costs based on the planning attributes configured for financials 
 
 ## Before you begin
 
--   Review the planning attributes enabled for financials. For more information, see [Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/planning-attributes.md).
+-   Review the planning attributes enabled for financials. For more information, see [Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/planning-attributes.md).
 -   Role required: it\_project\_manager
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **All** and select the required project.
 
-    Make sure that the resource assignments are finalized to generate cost plans. If there are no resource assignments for the project, migrate the resource plans to resource assignments. For more information, see [Migrate resource plans and cost plans to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md).
+    Make sure that the resource assignments are finalized to generate cost plans. If there are no resource assignments for the project, migrate the resource plans to resource assignments. For more information, see [Migrate resource plans and cost plans to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md).
 
 2.  Generate labor costs using one of the following options.
 
@@ -66,7 +66,7 @@ Select the **Generate Labor Costs** related link.
 2.  Filter the Name field to locate the **Generate labor costs for demands and projects** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
@@ -79,10 +79,10 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 
 Attribute-based labor costs are created for the unique combination of attributes that are reflected as the name of the cost plans.
 
--   **[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)**  
+-   **[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)**  
 Activate and trigger a scheduled job to generate attribute-based labor costs for all the projects and demands at a required cadence.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -131,7 +131,7 @@ Activate and trigger a scheduled job to generate attribute-based labor costs for
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)
+[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)
 
-[Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md)
+[Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/scheduled-script-execution-form.md)
 

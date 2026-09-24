@@ -2,7 +2,7 @@
 title: Add form section to view slack channels
 description: View unarchived slack channels associated with an incident in the form section. The form section saves you the effort of opening the available channel list manually from the related list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/add-slack-channels-section.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/collaboration-services/add-slack-channels-section.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

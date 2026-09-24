@@ -2,7 +2,7 @@
 title: Assign search sources to a chat assistant
 description: Assign search sources to a chat assistant. Search sources are used to determine what the assistant looks at to answer user queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,7 +18,7 @@ Assign search sources to a chat assistant. Search sources are used to determine 
 
 ## Before you begin
 
-See [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
+See [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -126,5 +126,5 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
 ## What to do next
 
-See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
+See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
 

@@ -2,7 +2,7 @@
 title: ServiceNow Studio for App Engine Studio \(AES\) developers
 description: If you currently develop in App Engine Studio, use ServiceNow Studio to access advanced development capabilities while retaining the core features you already use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-for-aes-developers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/servicenow-studio-for-aes-developers.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -22,9 +22,9 @@ ServiceNow Studio is organized differently from App Engine Studio. Use the follo
 
 Several key features from AES work the same way in ServiceNow Studio, including app creation, source control integration, and collaboration. For more information, see the following topics.
 
--   [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md)
--   [Source control integration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-integration.md)
--   [Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
+-   [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md)
+-   [Source control integration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/source-control-integration.md)
+-   [Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
 
 ## Where are my apps?
 
@@ -32,7 +32,7 @@ When you first open ServiceNow Studio, not all of your apps are visible by defau
 
 \[Omitted image "sn-studio-app-list-as2.png"\] Alt text: Access the Apps list in the Navigator panel to see all your applications.
 
-To access frequently used apps, app files, and lists quickly, bookmark them. For more information, see [Bookmark apps and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-bookmark-apps-files.md) and [Bookmark lists in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/bookmark-lists-in-sns.md).
+To access frequently used apps, app files, and lists quickly, bookmark them. For more information, see [Bookmark apps and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/qs-bookmark-apps-files.md) and [Bookmark lists in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/bookmark-lists-in-sns.md).
 
 ## How do I work with different file types in ServiceNow Studio?
 
@@ -46,9 +46,9 @@ App files define how an application functions. For example, add a business rule 
 
 For more information about file types and how to work with them, see the following topics.
 
--   [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-create-app-file.md)
--   [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md)
--   [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md)
+-   [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-create-app-file.md)
+-   [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md)
+-   [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md)
 
 ## How does scope work in ServiceNow Studio?
 
@@ -60,7 +60,7 @@ Some builders override automatic scope switching. For example, when you use Tabl
 
 \[Omitted image "sn-studio-scope-builder.png"\] Alt text: Some builders control the scope for apps open in ServiceNow Studio.
 
-For more information, see [Open apps and app files across scopes in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.md) and [Access integrated development tools and builders in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/open-and-switch-between-integrated-development-tools.md).
+For more information, see [Open apps and app files across scopes in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.md) and [Access integrated development tools and builders in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/open-and-switch-between-integrated-development-tools.md).
 
 ## Where are app templates?
 

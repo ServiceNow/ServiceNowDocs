@@ -2,7 +2,7 @@
 title: Configure MID Servers using profiles
 description: Use MID Server profiles to configure settings and assign MID Server instances directly from your ServiceNow instance, without accessing host servers or editing configuration files manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/configure-mid-server-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/configure-mid-server-profile.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -52,5 +52,5 @@ You can configure the MID Servers using a profile in two ways:
 
 ## What to do next
 
-Apply the profile settings to the MID Server instances. See [Sync profile settings to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/sync-profile-settings-mid-servers.md).
+Apply the profile settings to the MID Server instances. See [Sync profile settings to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/sync-profile-settings-mid-servers.md).
 

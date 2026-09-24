@@ -2,7 +2,7 @@
 title: Create a reservable view
 description: Configure a view that employees can view while making a reservation on the Reservation portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-a-reservable-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/create-a-reservable-view.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -24,7 +24,7 @@ The following reservable views are available with the Workplace Reservation Mana
 -   map
 -   schedule
 
-To view workplace items in the above views while making a reservation, configure the reservable module to use the reservable views. For more information, refer to [Configure a reservable view on a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-rsv-view-of-cnfig-module.md).
+To view workplace items in the above views while making a reservation, configure the reservable module to use the reservable views. For more information, refer to [Configure a reservable view on a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/configure-rsv-view-of-cnfig-module.md).
 
 **Note:** The Workplace Reservation Management application does not support DXF maps.
 
@@ -57,10 +57,10 @@ The reservable view is added.
 
 Add the view to a reservable module. The workplace items of the reservable module to which the view is added will be displayed in that view. For more information, refer to.
 
--   **[Configure a reservable view on a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-rsv-view-of-cnfig-module.md)**  
+-   **[Configure a reservable view on a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/configure-rsv-view-of-cnfig-module.md)**  
 Assign different views on a reservable mobile. The workplace items of the module can be viewed in the configured views while making a reservation on the Reservation portal.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

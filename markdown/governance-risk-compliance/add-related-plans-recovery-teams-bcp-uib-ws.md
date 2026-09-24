@@ -2,7 +2,7 @@
 title: Add associated plans and recovery teams
 description: Add your business continuity associated plans and recovery teams to your business continuity plan. You can then view the details in BCM UIB Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -96,8 +96,8 @@ Previously, adding an associated plan would automatically include a link to the 
     The selected plans and recovery teams are added to the plan record.
 
 
--   **[Associating related plans to a recovery task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/handling-related-plans.md)**  
+-   **[Associating related plans to a recovery task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/handling-related-plans.md)**  
 You can now associate related plans with recovery tasks, making it easier to identify and manage plans during recovery. You can then use auto-generated nested plans in an event, reducing the manual effort of adding plans and improving system performance.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

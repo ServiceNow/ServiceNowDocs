@@ -2,7 +2,7 @@
 title: Configure Eligibility Rules Engine Policies in Grants Management
 description: Use the Grants Management Eligibility Rules Engine, powered by Policy as Code Engine \(PaCE\), to manage the life cycle of a policy and create, update, review, and execute policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-eligibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-eligibility.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-31"
@@ -32,18 +32,18 @@ Here, you can:
 
 You can create any number of policies, which can be updated as required.
 
--   **[Create a case API Variable for a PaCE policy in Grants Management ​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-api-variable.md)**  
+-   **[Create a case API Variable for a PaCE policy in Grants Management ​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-api-variable.md)**  
 Create a case API variable to transfer the information collected from the case to the PaCE eligibility rules engine. This will be used when creating a policy and referencing fields on the case.
--   **[Create a case data collector for a PaCE policy in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-data-collector.md)**  
+-   **[Create a case data collector for a PaCE policy in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-data-collector.md)**  
 Create a data collector within PaCE to use a set of data within a policy.
--   **[Create an eligibility policy in Grants Management using PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-eligibility-policy.md)**  
+-   **[Create an eligibility policy in Grants Management using PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-create-eligibility-policy.md)**  
 Create an eligibility policy using Grants Management Eligibility Rules Engine​ to model eligibility rules that can be used to evaluate grants cases.
--   **[Map an PaCE eligibility policy to a grant model using Grants Management Eligibility Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-map-eligibility-policy.md)**  
+-   **[Map an PaCE eligibility policy to a grant model using Grants Management Eligibility Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-map-eligibility-policy.md)**  
 For a eligibility policy to be invoked correctly, it must be mapped to an existing grant model. Map a published eligibility policy to one or more of the grant types that your agency offers.
 
-**Parent Topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pace.md)
+**Parent Topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-pace.md)
 
-**Previous topic:**[Configure pre-eligibility questions in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-config-pre-eligibility.md)
+**Previous topic:**[Configure pre-eligibility questions in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-config-pre-eligibility.md)
 
-**Next topic:**[Create a case API Variable for a PaCE policy in Grants Management ​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-api-variable.md)
+**Next topic:**[Create a case API Variable for a PaCE policy in Grants Management ​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-api-variable.md)
 

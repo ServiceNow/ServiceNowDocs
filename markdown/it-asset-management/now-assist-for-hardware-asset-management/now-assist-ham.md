@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Hardware Asset Management \(HAM\)
 description: Use the ServiceNow Otto for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair process with the agentic workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.html
 release: australia
 product: Now Assist for Hardware Asset Management
 classification: now-assist-for-hardware-asset-management
@@ -27,7 +27,7 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
 For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-For more information on AI capabilities in HAM, see [AI in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ai-in-ham.md).
+For more information on AI capabilities in HAM, see [AI in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ai-in-ham.md).
 
 **Note:** ServiceNow Otto for HAM provides its capabilities through agentic workflows. You can access and manage these agentic workflows in the AI Agent Studio.
 

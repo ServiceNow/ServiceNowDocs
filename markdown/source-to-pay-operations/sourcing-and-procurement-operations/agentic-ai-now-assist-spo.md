@@ -2,7 +2,7 @@
 title: Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 description: Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) to streamline procurement through intelligent product recommendations, guided checkout, off-catalog purchasing, and access to detailed product information. These workflows also assist with procurement-related inquiries and help you track associated records efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -58,9 +58,9 @@ Scans contracts, spend, and supplier data on a recurring schedule to surface ran
 -   Supplier Optimization Opportunity Finder Agent
 
 </td></tr></tbody>
-</table>To run the AI agents autonomously, you must activate the agentic workflow. For more information, see [Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-fulfill-pr-agentic-workflow.md).
+</table>To run the AI agents autonomously, you must activate the agentic workflow. For more information, see [Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-fulfill-pr-agentic-workflow.md).
 
-For more information about savings opportunities and how the Opportunity Finder agents work, see [Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md).
+For more information about savings opportunities and how the Opportunity Finder agents work, see [Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md).
 
 For more information about the AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
@@ -68,18 +68,18 @@ For more information about the AI agents, see [AI Agent Studio \(legacy\)](https
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
--   **[Conversational intake for sourcing and procurement agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-help-fulfill-pr-agentic.md)**  
+-   **[Conversational intake for sourcing and procurement agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-help-fulfill-pr-agentic.md)**  
 The Conversational intake for sourcing and procurement agentic workflow addresses your procurement needs by providing product recommendations, guided checkout, off-catalog processes, and detailed product information. It also answers questions and tracks related records.
--   **[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-fulfill-pr-agentic-workflow.md)**  
+-   **[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-fulfill-pr-agentic-workflow.md)**  
 Enable AI agents in the ServiceNow Otto panel to help you manage procurement requests more efficiently, with faster response times and smarter support.
--   **[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-fulfill-pr-agentic-workflow-va.md)**  
+-   **[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-fulfill-pr-agentic-workflow-va.md)**  
 Enable AI agents in Virtual Agent to streamline procurement requests, providing quicker support and a more efficient experience for requesters through intelligent assistance.
--   **[Submit a purchase request using the ServiceNow Otto AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/request-product-ai-agents.md)**  
+-   **[Submit a purchase request using the ServiceNow Otto AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/request-product-ai-agents.md)**  
 Use the ServiceNow Otto AI‑powered chat experience in the Employee Center to submit a purchase request. The AI agent analyzes your requirements, displays suitable products or services, and guides you through confirming and submitting the request.
--   **[Update the product category or spend category in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/update-product-spend-category.md)**  
+-   **[Update the product category or spend category in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/update-product-spend-category.md)**  
 Use the ServiceNow Otto panel to update the product category or spend category for purchase requisitions, sourcing requests, or purchase orders directly from the Source-to-Pay Workspace.
--   **[Email parser agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/email-parser-agent-spo.md)**  
+-   **[Email parser agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/email-parser-agent-spo.md)**  
 The email parser agent for Sourcing and Procurement Operations processes inbound emails and creates the appropriate procurement cases without manual intervention.
 
-**Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+**Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

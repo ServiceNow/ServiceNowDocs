@@ -2,7 +2,7 @@
 title: Define a recipients list for surveys
 description: Use a recipients list to define targeted set of users for whom the survey invite can be sent. You can use a recipients list for multiple surveys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/define-recipient-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/define-recipient-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: admin or survey\_admin or survey\_creator
 
 3.  On the Recipients List form, fill in the fields:
 
-    For a description of the field values, see [Recipients List form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/recipients-list-form.md).
+    For a description of the field values, see [Recipients List form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/recipients-list-form.md).
 
 4.  Click **Submit**.
 
@@ -35,7 +35,7 @@ Role required: admin or survey\_admin or survey\_creator
 5.  To get the updated user list, navigate to the recipient list and click **Refresh Recipient List**.
 
 
-**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 

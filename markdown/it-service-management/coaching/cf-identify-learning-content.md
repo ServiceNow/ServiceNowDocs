@@ -2,7 +2,7 @@
 title: Identify and add course items for a virtual coach
 description: Define filters and add course items for automated virtual coaching. When a coaching assessment is triggered, the course items are automatically attached to the assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-identify-learning-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/coaching/cf-identify-learning-content.html
 release: australia
 product: Coaching
 classification: coaching
@@ -167,10 +167,10 @@ Autofill fields
 |Category|Customer Experience|
 |Content|Watch this video to increase customer satisfaction by solving issues faster.|
 
-**Parent Topic:**[Configuring Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-configuring-coaching.md)
+**Parent Topic:**[Configuring Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-configuring-coaching.md)
 
 **Related topics**  
 
 
-[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-field-descriptions.md)
+[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-coaching-field-descriptions.md)
 

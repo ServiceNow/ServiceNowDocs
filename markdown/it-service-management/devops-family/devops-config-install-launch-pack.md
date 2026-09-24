@@ -2,7 +2,7 @@
 title: Install DevOps Config Exporter content pack
 description: Install DevOps Config Exporter content pack for a default set of DevOps Config exporters that you can use as-is, or customize for your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-install-launch-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-install-launch-pack.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-The DevOps Config Exporter content pack contains a set of [Default DevOps Config exporters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-default-exporters.md) to export your configuration data.
+The DevOps Config Exporter content pack contains a set of [Default DevOps Config exporters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-default-exporters.md) to export your configuration data.
 
 ## Procedure
 
@@ -37,5 +37,5 @@ The DevOps Config Exporter content pack contains a set of [Default DevOps Config
 3.  Locate the DevOps Config Exporter content pack and click **Install**.
 
 
-**Parent Topic:**[Install DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/install-devops-config.md)
+**Parent Topic:**[Install DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/install-devops-config.md)
 

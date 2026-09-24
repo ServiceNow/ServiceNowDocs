@@ -2,7 +2,7 @@
 title: Configure JFrog in Jenkins
 description: Configure JFrog plugin for Jenkins to publish, deploy, or download artifacts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/jenkins-jfrog-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/jenkins-jfrog-config.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -67,5 +67,5 @@ Role required: admin role in Jenkins
     ```
 
 
-**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
+**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
 

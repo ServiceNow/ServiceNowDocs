@@ -2,7 +2,7 @@
 title: Adaptive authentication Security Metrics
 description: Use authentication policies to evaluate authentication requests and deny or allow access to your instance based on the specified policy conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-adaptive-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/sc-adaptive-authentication.html
 release: australia
 product: Security Center
 classification: security-center
@@ -16,7 +16,7 @@ breadcrumb: [Security metrics, Security monitoring console, Security Center, Pla
 
 Use authentication policies to evaluate authentication requests and deny or allow access to your instance based on the specified policy conditions.
 
-Adaptive authentication metrics enable you to monitor how adaptive authentication is being used on your instance. View a summary of all of your metrics on Adaptive authentication, individual metrics such as policy result rates or denied IP addresses. This page requires the Adaptive Authentication \(**com.snc.adaptive\_authentication**\) plugin for adaptive authentication to be available in your instance. You must enable Authentication Policy to see the metrics. See [Activate adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-plugin.md) and [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-adaptive-auth-properties.md) for more details.
+Adaptive authentication metrics enable you to monitor how adaptive authentication is being used on your instance. View a summary of all of your metrics on Adaptive authentication, individual metrics such as policy result rates or denied IP addresses. This page requires the Adaptive Authentication \(**com.snc.adaptive\_authentication**\) plugin for adaptive authentication to be available in your instance. You must enable Authentication Policy to see the metrics. See [Activate adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-authentication-plugin.md) and [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-adaptive-auth-properties.md) for more details.
 
 **Note:** This feature was released with Security Center version 1.2.
 
@@ -31,7 +31,7 @@ Adaptive authentication metrics enable you to monitor how adaptive authenticatio
 
 Select the cards to view the individual metrics page with additional details.
 
-Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-task-manager.md).
 
-**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md)
 

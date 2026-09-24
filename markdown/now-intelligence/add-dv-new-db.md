@@ -2,7 +2,7 @@
 title: Add a visualization to a dashboard from the Visualization Designer
 description: Add a visualization from the Visualization Designer to a new dashboard or to an existing dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-dv-new-db.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/add-dv-new-db.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,7 +43,7 @@ Result
 
 </td><td>
 
-A new, untitled dashboard opens in the inline dashboard editor. The data visualization is already on this dashboard. Complete the dashboard, adding any more desired elements and naming it. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md).
+A new, untitled dashboard opens in the inline dashboard editor. The data visualization is already on this dashboard. Complete the dashboard, adding any more desired elements and naming it. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-db-in-ac.md).
 
 </td></tr><tr><td id="d76112e130">
 
@@ -83,5 +83,5 @@ You have just completed creating the data visualization Open incidents - Priorit
     \[Omitted image "dv-to-db-ex-final.png"\] Alt text: Dashboard showing the added Open incidents - Priority data visualization with its configuration panel open.
 
 
-**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dv-tasks.md)
 

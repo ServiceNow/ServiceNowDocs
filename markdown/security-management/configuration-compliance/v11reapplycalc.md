@@ -2,7 +2,7 @@
 title: Create, edit, and reapply risk calculators for Configuration Compliance
 description: Calculator rules can be applied to all affected test results and collections on-demand. Vulnerability managers may use this feature adjust their risk calculator configuration and apply changes on-demand to import findings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/v11reapplycalc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/v11reapplycalc.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

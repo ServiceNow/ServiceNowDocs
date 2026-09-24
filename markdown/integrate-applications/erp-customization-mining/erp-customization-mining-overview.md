@@ -2,7 +2,7 @@
 title: ERP Semantic Mining
 description: The ServiceNow ERP Semantic Mining \(formerly named ERP Customization Mining\) product enables you to find application candidates with customized code your their ERP \(Enterprise Resource Planning\) system. ERP Semantic Mining ranks the candidate suitability for replatforming onto the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erp-customization-mining-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-customization-mining/erp-customization-mining-overview.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -26,19 +26,19 @@ The replatforming of legacy code enables innovation on top of the ERP system wit
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-learn.svg"\] Alt text: Learn about ERP Semantic Mining concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
+[Explore \[Omitted image "bus-learn.svg"\] Alt text: Learn about ERP Semantic Mining concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/exploring-ecm.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-optimize-manage.svg"\] Alt text: Install and configure ERP Semantic Mining connections.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
+[Configure \[Omitted image "bus-optimize-manage.svg"\] Alt text: Install and configure ERP Semantic Mining connections.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/configuring-ecm.md)
 
 </td></tr><tr><td>
 
-[Work \[Omitted image "bus-application-development.svg"\] Alt text: Use ERP Semantic Mining to identify candidates to replatform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/work-with-candidates.md)
+[Work \[Omitted image "bus-application-development.svg"\] Alt text: Use ERP Semantic Mining to identify candidates to replatform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/work-with-candidates.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-rocketship.svg"\] Alt text: Get details about ERP Semantic Mining components, such as tables and terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-ref.md)
+[Reference \[Omitted image "bus-rocketship.svg"\] Alt text: Get details about ERP Semantic Mining components, such as tables and terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/erp-customization-mining-ref.md)
 
 </td></tr></tbody>
 </table>## Learning resources for ERP Semantic Mining
@@ -78,5 +78,5 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Before you can use ERP Semantic Mining, you must first download ERP Semantic Mining from the ServiceNow Store. After you have completed the download, you may need to clear your local cache before ERP Semantic Mining appears on your instance.
 
-After you download ERP Semantic Mining, install it on your instance. For more information, see [Install ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/install-erp-customization-mining.md).
+After you download ERP Semantic Mining, install it on your instance. For more information, see [Install ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/install-erp-customization-mining.md).
 

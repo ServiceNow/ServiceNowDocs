@@ -2,7 +2,7 @@
 title: Employee Slate product family rebranding
 description: The Employee Slate product family was rebranded to ServiceNow EmployeeWorks, with updated product names and feature tier names.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eworks-rebranding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eworks-rebranding.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

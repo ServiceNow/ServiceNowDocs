@@ -2,7 +2,7 @@
 title: Import an app from source control in ServiceNow Studio
 description: Import an application from a Git repository into ServiceNow Studio to create a local copy of the app on your non-production instance. The repository must contain a valid ServiceNow application, and your credentials must have read access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-import-app-source-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-sc-import-app-source-control.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -21,7 +21,7 @@ Import an application from a Git repository into ServiceNow Studio to create a l
 -   Verify that the non-production instance has network access to the Git repository.
 -   Verify that the repository contains a valid application.
 -   Ensure that each user adds the email address they use in their Git commits to their Users table \[sys\_user\] record.
--   Review [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md) before importing a customization.
+-   Review [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/manage-customizations-store-apps.md) before importing a customization.
 -   Role required: admin
 
 ## About this task
@@ -115,5 +115,5 @@ The credential to use for your Git repository. For more information, see [Gettin
 -   Review the upgrade logs for any sanitization applied to application files during the import.
 -   Select the imported application to open and edit it.
 
-**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
+**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 

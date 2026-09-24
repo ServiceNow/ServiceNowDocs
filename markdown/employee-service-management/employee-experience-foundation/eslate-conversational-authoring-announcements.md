@@ -2,7 +2,7 @@
 title: Conversational authoring for announcements
 description: Use Now Assist Chat to create Employee Slate announcements through natural language prompts and AI-assisted content generation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-conversational-authoring-announcements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-conversational-authoring-announcements.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

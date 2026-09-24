@@ -2,7 +2,7 @@
 title: Persist an HTTP session across all SOAP calls
 description: In circumstances when a SOAP client makes many calls in a short amount of time, you may want to re-use a single HTTP session for all SOAP calls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/persist-session-all-soap-calls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/persist-session-all-soap-calls.html
 release: australia
 product: Web Services
 classification: web-services
@@ -39,7 +39,7 @@ my $soap = SOAP::Lite
 $soap->transport->cookie_jar($cookies);
 ```
 
-**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md)
+**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_DirectWebServices.md)
 
 **Related topics**  
 

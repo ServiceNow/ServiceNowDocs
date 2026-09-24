@@ -2,7 +2,7 @@
 title: Configure the AI agent triggers for offboarding to use Employee Center
 description: Add the Employee Center portal to the AI agent trigger configuration used in the offboarding knowledge transfer plan generation agentic workflow. This configuration change enables managers and employees to interact with AI agents through ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/config-offboarding-trigger-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/config-offboarding-trigger-ec.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -52,5 +52,5 @@ This task applies to the following triggers associated with the offboarding know
 7.  Repeat this task to configure the following trigger: Knowledge transfer record created.
 
 
-**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
+**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

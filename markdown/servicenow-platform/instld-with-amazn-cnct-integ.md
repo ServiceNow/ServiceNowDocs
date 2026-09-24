@@ -2,7 +2,7 @@
 title: Components installed with Amazon Connect Integration with ServiceNow Voice
 description: Several types of components are installed with installation of the Amazon Connect Integration with Voice application \(sn\_cti\_amzn\_cct\), including user roles, plugins, and operation handlers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instld-with-amazn-cnct-integ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instld-with-amazn-cnct-integ.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -60,5 +60,5 @@ Operation handlers are defined in the ServiceNow instance to run a script based 
 |$connect.s3.event|Receives and processes JSON events from the S3 buckets where the call recording, transcript and analysis data is created and stored. Associates this information with an interaction and Openframe call log records.|
 |createPhoneLog|Creates a PhoneLog for each call transfer and links the Phone Log to the Interaction Related Record|
 
-**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-reference.md)
+**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/ccc-reference.md)
 

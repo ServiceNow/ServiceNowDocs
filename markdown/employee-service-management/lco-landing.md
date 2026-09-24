@@ -2,7 +2,7 @@
 title: Legal and Contract Operations
 description: Legal and Contract Operations empowers organizations to accelerate the delivery of legal and contract services by transforming manual, unstructured processes into a seamless digital experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lco-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lco-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -23,11 +23,11 @@ Through Legal Service Delivery \(LSD\) and Contract Management Pro \(CM Pro\) of
 
 <table id="table_dhh_5nz_sgc" class="nav-card presentation"><tbody><tr><td>
 
-[Contract Management Pro\[Omitted image "bus-contract.svg"\] Alt text:Streamline your contract lifecycle with Contract Management Pro — bringing CLM capabilities, intelligent automation, and seamless integration into your workflow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)
+[Contract Management Pro\[Omitted image "bus-contract.svg"\] Alt text:Streamline your contract lifecycle with Contract Management Pro — bringing CLM capabilities, intelligent automation, and seamless integration into your workflow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)
 
 </td><td>
 
-[Legal Service Delivery\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Learn how to automate or streamline routine legal requests to focus on higher value work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-management-overview.md)
+[Legal Service Delivery\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Learn how to automate or streamline routine legal requests to focus on higher value work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-management-overview.md)
 
 </td></tr></tbody>
 </table>## Helpful resources

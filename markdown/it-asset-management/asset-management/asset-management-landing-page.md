@@ -2,7 +2,7 @@
 title: Asset Management
 description: ServiceNow Asset Management gives organizations complete visibility and control over their technology and enterprise assets throughout their entire lifecycle on a single, unified platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/asset-management-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/asset-management-landing-page.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -47,7 +47,7 @@ IT Asset Management products
 
 </td></tr><tr><td>
 
-[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
+[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Manage software licenses, ensure compliance, and eliminate risk with real-time e
 
 </td></tr><tr><td>
 
-[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md)
+[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-landing-page.md)
 
 </td><td>
 
@@ -81,7 +81,7 @@ Manage the physical technology assets from the moment a purchase request is rais
 
 </td></tr><tr><td>
 
-[Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
+[Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
 
 </td><td>
 
@@ -96,7 +96,7 @@ Gain complete visibility and control over your cloud estate and usage.
 
 </td></tr><tr><td>
 
-[Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/asset-audit-response.md)
+[Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-audits/asset-audit-response.md)
 
 </td><td>
 
@@ -116,7 +116,7 @@ Enterprise Asset Management
 
 </td></tr><tr><td>
 
-[Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-management.md)
+[Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/enterprise-asset-management.md)
 
 </td><td>
 
@@ -138,23 +138,23 @@ Asset Management works with the following ServiceNow applications to support ass
 
 |Application|Role in IT Asset Management|
 |-----------|---------------------------|
-|[Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/am-landing-page.md)|The Asset Management application provides a single system of record for all IT assets, including hardware, software, and cloud assets. It captures and stores key attributes such as asset type, ownership, location, status, and cost. It tracks assets through every stage of their lifecycle, from procurement and deployment to maintenance and retirement, ensuring no asset goes unaccounted for.|
-|[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_ContractManagement.md)|The Contract Management application links license and maintenance contracts directly to asset records with automated renewal workflows.|
-|[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_Procurement.md)|The Procurement application automates purchase orders, approvals, and receiving to create asset records on delivery.|
-|[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ProductCatalog.md)|The Product Catalog application standardizes hardware, software, and cloud SKUs used across ITAM with an employee-facing request portal.|
+|[Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/am-landing-page.md)|The Asset Management application provides a single system of record for all IT assets, including hardware, software, and cloud assets. It captures and stores key attributes such as asset type, ownership, location, status, and cost. It tracks assets through every stage of their lifecycle, from procurement and deployment to maintenance and retirement, ensuring no asset goes unaccounted for.|
+|[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/c_ContractManagement.md)|The Contract Management application links license and maintenance contracts directly to asset records with automated renewal workflows.|
+|[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/c_Procurement.md)|The Procurement application automates purchase orders, approvals, and receiving to create asset records on delivery.|
+|[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_ProductCatalog.md)|The Product Catalog application standardizes hardware, software, and cloud SKUs used across ITAM with an employee-facing request portal.|
 
 ## Applications and features
 
--   [Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/am-landing-page.md)
--   [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
--   [ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
--   [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md)
--   [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
--   [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-management.md)
--   [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
--   [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/asset-audit-response.md)
+-   [Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/am-landing-page.md)
+-   [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
+-   [ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
+-   [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-landing-page.md)
+-   [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
+-   [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/enterprise-asset-management.md)
+-   [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
+-   [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-audits/asset-audit-response.md)
 -   [Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ContractManagement.md)
 -   [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_Procurement.md)
 -   [Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ProductCatalog.md)
--   [IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/content-request-itam.md)
+-   [IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/content-request-itam.md)
 

@@ -2,7 +2,7 @@
 title: Next Experience default admin landing page
 description: Use the default admin landing page to see your admin-specific work at a glance and identify items that need attention including open tasks, security issues, and approvals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-admin-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-admin-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,5 +32,5 @@ New customers launching on San Diego or customers that have performed a zBoot on
 
 Existing customers upgrading from a previous release will not see the default landing page upon activating the Next Experience UI. Existing customers will continue to see their existing start page \(Homepage or Dashboard\). By utilizing existing start pages, this provides administrators the ability to turn on the Next Experience UI and allow for users to begin using the new user interface, and provides administrators the time to create organization specific landing pages. Existing customers can use the Default Landing Page by modifying the **glide.login.home** system property, though it is recommended to perform testing on the Default Landing Page in a sub-product instance to verify it meets current user needs.
 
-**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-pages.md)
+**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-landing-pages.md)
 

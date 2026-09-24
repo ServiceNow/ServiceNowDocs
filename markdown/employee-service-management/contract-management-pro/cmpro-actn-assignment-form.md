@@ -2,7 +2,7 @@
 title: Action assignment form
 description: Learn about the fields of the Action Assignment form. Use this form to add the New action button to your workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-actn-assignment-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-actn-assignment-form.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, 
 
 Learn about the fields of the Action Assignment form. Use this form to add the New action button to your workspace.
 
-Use the action assignment form to define a action button in your workspace and map it to the built-in action that initiates a contract request. For more information, see [Add a workspace action button for initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-initiate-cont.md).
+Use the action assignment form to define a action button in your workspace and map it to the built-in action that initiates a contract request. For more information, see [Add a workspace action button for initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-initiate-cont.md).
 
 |Field|Description|
 |-----|-----------|
@@ -31,7 +31,7 @@ Use the action assignment form to define a action button in your workspace and m
 |Tooltip|Text that displays when agents point their cursor over the button.|
 |Description|Description for the action that's displayed in the Action Assignments list.|
 
-**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Import Update set from XML and install fix script
 description: Import update set from XML to provide cross-scope access to HR Service Delivery applications and run fix script to display field decorator in the ticket.Run the fix\_script\_start\_chat\_field\_decorator\_HR in the ServiceNow instance to display Start Microsoft Teams chat field decorator in the ticket to initiate a chat with the requester.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/upload-rca-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/upload-rca-hr.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -75,7 +75,7 @@ For more information about the Update sets, see [Update set transfers](https://r
 
 The RCA and fix script XMLs are uploaded.
 
-**Parent Topic:**[Install HR Service Delivery integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-hr-ms-teams-plugin.md)
+**Parent Topic:**[Install HR Service Delivery integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-hr-ms-teams-plugin.md)
 
 ## Install Fix Script for HR Service Delivery integration with Microsoft Teams
 

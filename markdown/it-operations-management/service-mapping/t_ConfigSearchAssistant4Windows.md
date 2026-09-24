@@ -2,7 +2,7 @@
 title: Configure Search Assistant for Windows
 description: The Search Assistant feature of Pattern Designer allows you to search within files or registries. Upload grep files on to your instance to enable this feature to search on Windows servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_ConfigSearchAssistant4Windows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/t\_ConfigSearchAssistant4Windows.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -66,7 +66,7 @@ Grep is a utility that the Search Assistant feature uses to search files for mat
 
 12. Close the Attachments window.
 
-13. Repeat [Step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ConfigSearchAssistant4Windows.md) to [Step 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ConfigSearchAssistant4Windows.md) to upload the rest of the files:
+13. Repeat [Step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_ConfigSearchAssistant4Windows.md) to [Step 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_ConfigSearchAssistant4Windows.md) to upload the rest of the files:
 
     -   libiconv2.dll
     -   libintl3.dll

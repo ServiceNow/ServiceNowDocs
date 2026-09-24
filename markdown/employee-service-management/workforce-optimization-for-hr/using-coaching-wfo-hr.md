@@ -2,7 +2,7 @@
 title: Coaching in Workforce Optimization for HR
 description: Use Coaching in Workforce Optimization for HR to assess your team's abilities to efficiently resolve cases by reviewing their work at critical moments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/using-coaching-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/using-coaching-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -23,12 +23,12 @@ With Coaching, you can do the following:
 -   Use assessments and surveys to apply consistent, measurable scores across teams.
 -   Use Predictive Intelligence to recommend skills for your agents and provide training to address those skill gaps.
 
--   **[Skills Overview in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/skills-overview-report-wfo-hr.md)**  
+-   **[Skills Overview in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/skills-overview-report-wfo-hr.md)**  
 Use Skills Overview to analyze skill data such as how many skills are assigned to users and tasks. You can also see how many experts you have for a particular skill and the overall skill coverage by your teams.
--   **[Learning in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/learning-wfo-hr.md)**  
+-   **[Learning in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/learning-wfo-hr.md)**  
 Use Coaching with Learning to train your agents with internal and external learning content. Organize similar content into learning libraries. Assign learning tasks to your agents and track completion. Create learning paths that include a collection of courses on a specific topic associated with a set of skills.
 
-**Parent Topic:**[Using Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.md)
+**Parent Topic:**[Using Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.md)
 
 **Related topics**  
 

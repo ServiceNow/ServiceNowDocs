@@ -2,7 +2,7 @@
 title: Troubleshooting and accessing logs
 description: Access various logs to troubleshoot and identify the failure reasons.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cs-logs.html
 release: australia
 topic_type: reference
 last_updated: "2025-07-31"
@@ -54,5 +54,5 @@ To enable the detailed ECC firewall logging, increase the log level by setting t
 
 **Note:** If `boot-config.xml` is invalid, the MID Server fails to start and the failure details are logged in the MID agent logs.
 
-**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-reference.md)
+**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-reference.md)
 

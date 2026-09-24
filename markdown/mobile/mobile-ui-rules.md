@@ -2,7 +2,7 @@
 title: Mobile UI Rules
 description: Use Mobile UI rules to build rules that modify the mobile UI. These modifications can include hiding and displaying fields, making fields mandatory, performing field value calculations, and applying UI styles to different UI elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-ui-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-ui-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ To modify the appearance of your mobile views and input form screens UI, you mus
     Each mobile UI rule uses mobile UI rule actions. These actions define the changes made to your target record. When you create an action, you select an operation, which defines the kind of change you want to make. You then define a value, which gives the rule more detail on the specifics of the change you're making.
 
 
-For more detail on the kinds of changes you can make with mobile UI rules, see the next section. For detailed steps on creating mobile UI rules and actions, see [Create a mobile UI rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mobile-ui-rule.md).
+For more detail on the kinds of changes you can make with mobile UI rules, see the next section. For detailed steps on creating mobile UI rules and actions, see [Create a mobile UI rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-mobile-ui-rule.md).
 
 ## Available mobile UI rule operations
 

@@ -2,7 +2,7 @@
 title: Accept a foundation data sync subscription
 description: Accept a foundation data sync \(FDS\) subscription to complete the FDS configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-accept-fds-subscription.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-accept-fds-subscription.html
 release: australia
 product: Service Exchange
 classification: service-exchange

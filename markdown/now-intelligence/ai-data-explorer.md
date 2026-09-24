@@ -2,7 +2,7 @@
 title: Use AI to explore data with AI Data Explorer
 description: AI Data Explorer is your AI-companion for instant insights and deep data explorations. Ask quick questions, receive tailored recommendations, and collaborate with AI and your colleagues to build long-term analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/ai-data-explorer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/ai-data-explorer.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,19 +22,19 @@ See how to launch AI Data Explorer, ask questions in an exploration, and share t
 
 <table id="table_crq_v4l_w2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Overview of AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Overview of AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/ai-data-explorer.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable AI Data Explorer and supplementary skills for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-aide-explorer.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable AI Data Explorer and supplementary skills for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/activate-aide-explorer.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Create data visualizations and share them with collaborators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
+[Use\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Create data visualizations and share them with collaborators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/use-aide.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Roles, tables, and domain separation support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/aide-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Roles, tables, and domain separation support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/aide-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**

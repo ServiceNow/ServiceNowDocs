@@ -2,7 +2,7 @@
 title: Metric rule triggering Proactive Engagement through alerts
 description: Metric rules create an alert based on its trigger criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/metric-rule-triggering-pe-through-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/proactive-engagement/metric-rule-triggering-pe-through-alerts.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -145,5 +145,5 @@ There are different methods followed for closing the alerts in Proactive Engagem
 -   Devices: Alerts generated from Metric rule triggered for devices, are closed once Proactive Engagement helps the impacted users to successfully resolve their issue.
 -   Applications: Alerts generated from Metric rule triggered for applications are not closed.
 
-**Parent Topic:**[Using Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/using-proactive-engagement.md)
+**Parent Topic:**[Using Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/using-proactive-engagement.md)
 

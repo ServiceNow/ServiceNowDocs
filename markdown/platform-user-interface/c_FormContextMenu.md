@@ -2,7 +2,7 @@
 title: Form context menu
 description: The form context menu provides controls based on the table and user access rights. Administrators can customize some of the options available on a context menu using UI actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_FormContextMenu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_FormContextMenu.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ The form context menu includes the following options.
 |Save|Saves changes without leaving the form view.|
 |Related actions|Provides standard actions in the form context menu for some tables, such as **Add to Visual Task Board** or **Create Change** in incident.|
 |Insert|Saves the data as a new record and returns to the previously viewed page.|
-|Insert and Stay|Saves and displays the new record. For more information about inserting records, see [Edit a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditingInForms.md).|
+|Insert and Stay|Saves and displays the new record. For more information about inserting records, see [Edit a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_EditingInForms.md).|
 |Configure|Provides administrative functions, such as configuring forms.|
 |Export|Exports data to PDF. Administrators can also export to XML. For more information, see [Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ExportData.md).|
 |View|Changes fields to a predefined layout. Switching views submits the form, which saves all changes. Administrators can customize views.|
@@ -36,7 +36,7 @@ The form context menu includes the following options.
 |History|Administrators only. Displays audit history for the record, which must be enabled for the table. For more information, see [Enable auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md).|
 |Reload Form|Reloads information from the database to refresh the form view.|
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UsingForms.md)
 
 **Related topics**  
 

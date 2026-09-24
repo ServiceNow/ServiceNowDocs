@@ -2,7 +2,7 @@
 title: Embedded Help internationalization
 description: Embedded help internationalization provides the ability for you to localize your embedded help content to a variety of languages to meet global user needs. You can write your embedded help content in a language of your choice and decide what languages to display.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/embedded-help-internationalization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/embedded-help-internationalization.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -46,8 +46,8 @@ For example, if an admin user is in a French working session and requests embedd
 
 If there is no embedded help content for the French admin role, but there is content for the French itil role and English admin role, the French itil role takes priority over the English admin role. The French-language content will display at the itil-role level.
 
--   **[Create internationalized embedded help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/create-international-embedded-help.md)**  
+-   **[Create internationalized embedded help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/create-international-embedded-help.md)**  
 Translate provided English embedded help content into other languages or create custom embedded help content in the language of your choice.
 
-**Parent Topic:**[Embedded Help planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-planning.md)
+**Parent Topic:**[Embedded Help planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/embedded-help-planning.md)
 

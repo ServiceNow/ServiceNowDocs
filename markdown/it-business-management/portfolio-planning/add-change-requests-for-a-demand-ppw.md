@@ -2,7 +2,7 @@
 title: Add change requests for a demand
 description: Add a change request as the outcome of an action taken to resolve an issue or mitigate a risk. The change request can affect the demand's scope, resource requirements, cost, or schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-change-requests-for-a-demand-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/add-change-requests-for-a-demand-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -38,7 +38,7 @@ Role required: it\_demand\_manager
 
 7.  On the Request Change form, fill in the fields.
 
-    For a description of the field values, see [Request change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-request-change-form-ppw.md).
+    For a description of the field values, see [Request change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-request-change-form-ppw.md).
 
 8.  Select **Save**.
 

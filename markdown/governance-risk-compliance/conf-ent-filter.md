@@ -2,7 +2,7 @@
 title: Configure the entity filters
 description: Configure entity filters to define the records from ServiceNow tables that populate each entity type after setting up pillars and entity types. Entity filters use selection criteria to identify and pull relevant records automatically. You can build custom filter conditions tailored to your requirements or select from predefined \(saved\) queries for common scenarios.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/conf-ent-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/conf-ent-filter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

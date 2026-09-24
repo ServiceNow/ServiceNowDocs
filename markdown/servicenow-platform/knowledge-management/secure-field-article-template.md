@@ -2,7 +2,7 @@
 title: Restrict access to fields in an article template
 description: Use encryption modules to set field-level security in article templates and display the fields based on role permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/secure-field-article-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/secure-field-article-template.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -20,7 +20,7 @@ Use encryption modules to set field-level security in article templates and disp
 
 Role required: security\_admin
 
-**Note:** Use Knowledge blocks to restrict the content within the same field. For more information, see [Knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-blocks.md).
+**Note:** Use Knowledge blocks to restrict the content within the same field. For more information, see [Knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-blocks.md).
 
 ## Procedure
 
@@ -104,7 +104,7 @@ Method
 
 Depending on their role permissions defined for the encrypted field, users can view the field on the article template.
 
-**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
+**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Security in Legal Service Delivery
 description: Legal Service Delivery provides security through various ServiceNow AI Platform security features such as Restricted Caller Access, Encryption Support, and Edge Encryption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/legal-apps-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/legal-apps-security.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery

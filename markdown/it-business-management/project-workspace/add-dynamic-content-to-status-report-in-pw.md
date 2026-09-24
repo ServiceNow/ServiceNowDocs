@@ -2,7 +2,7 @@
 title: Add dynamic content to a status report or docs template
 description: Add dynamic content to a status report or a Project Docs template in Project Workspace. The dynamic content gets updated automatically as a change is made to the underlying record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -24,7 +24,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Docs template page of the project by selecting **Docs template** from the list.
 
@@ -50,25 +50,25 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 5.  Observe and monitor the report.
 
-    For more information on viewing and analyzing status reports, see [Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-status-report-in-project-workspace.md).
+    For more information on viewing and analyzing status reports, see [Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/view-status-report-in-project-workspace.md).
 
 
-**Parent Topic:**[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
+**Parent Topic:**[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 
 **Related topics**  
 
 
-[Status reporting in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/status-reporting-in-pw.md)
+[Status reporting in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/status-reporting-in-pw.md)
 
-[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 
-[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
+[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 
-[Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-status-report-in-project-workspace.md)
+[Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/view-status-report-in-project-workspace.md)
 
-[Duplicate a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/duplicate-status-report-pw.md)
+[Duplicate a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/duplicate-status-report-pw.md)
 
-[Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/import-old-status-reports.md)
+[Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Create document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-new-document-template-form.md)
+[Create document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-new-document-template-form.md)
 

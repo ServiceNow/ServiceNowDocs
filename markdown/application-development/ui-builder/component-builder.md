@@ -2,7 +2,7 @@
 title: Create custom components to reuse across pages with component builder
 description: Reuse custom components across experiences and pages in UI Builder.Build reusable custom components to use across experiences and pages in UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/component-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/component-builder.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -65,7 +65,7 @@ Components built with UI Builder can be found in the toolbox when adding a compo
 
 \[Omitted image "cb-test-values.png"\] Alt text: Editing test values for input properties
 
-Use test values in component builder to supply simulated values for required and optional URL parameters when building a custom component. Test values help validate how a component will act when added to a page by ensuring bindings and data resources are functioning correctly. For more information about test values see, [Test values in a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/test-value.md).
+Use test values in component builder to supply simulated values for required and optional URL parameters when building a custom component. Test values help validate how a component will act when added to a page by ensuring bindings and data resources are functioning correctly. For more information about test values see, [Test values in a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/test-value.md).
 
 \[Omitted image "components-list-home.png"\] Alt text: UI Builder homepage displaying the components tab.
 
@@ -98,7 +98,7 @@ The UI Builder custom component builder lacks governance capabilities and can le
 
 All components are designed to be upgrade safe, as long as their security policy is set to `read_only`. This provides greater upgrade protection for larger components or page partials compared to other deployable units like bundles and page templates. However, this also means that out-of-the-box \(OOTB\) components may not be editable.
 
-**Parent Topic:**[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/component-builder-uib.md)
+**Parent Topic:**[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/component-builder-uib.md)
 
 ## Create components to reuse across pages
 

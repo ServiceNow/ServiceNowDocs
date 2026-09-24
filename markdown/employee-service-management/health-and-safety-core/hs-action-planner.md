@@ -2,7 +2,7 @@
 title: Managing safety actions in the Action planner
 description: The Action planner sidebar panel in the Health and Safety Workspace enables safety teams to manage actions directly from a Health and Safety record, without navigating away from the page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/hs-action-planner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/hs-action-planner.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -34,10 +34,10 @@ The Action planner is available on any Health and Safety record that has an **Ac
 
 ## Suggested actions availability
 
-The **Suggest new actions** button and the **Suggested actions** section appear only when the ServiceNow Otto for Health and Safety application \(sn\_hs\_gen\_ai\) is installed on your instance. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
+The **Suggest new actions** button and the **Suggested actions** section appear only when the ServiceNow Otto for Health and Safety application \(sn\_hs\_gen\_ai\) is installed on your instance. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
 
--   **[Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md)**  
+-   **[Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md)**  
 Create and manage safety actions in context while reviewing a Health and Safety record, without opening a separate Action form.
 
-**Parent Topic:**[Using Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/using-hs-core.md)
+**Parent Topic:**[Using Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/using-hs-core.md)
 

@@ -2,7 +2,7 @@
 title: View tasks from Workday
 description: View details of the todos or tasks that are pulled from Workday into ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/view-to-dos-wd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/view-to-dos-wd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -39,7 +39,7 @@ Role required: sn\_hr\_workday.admin
     |Extension system|Option indicating the origin of the task, that is Workday.|
 
 
-**Parent Topic:**[Using HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-hrsd-int-workday.md)
+**Parent Topic:**[Using HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-hrsd-int-workday.md)
 
 **Related topics**  
 

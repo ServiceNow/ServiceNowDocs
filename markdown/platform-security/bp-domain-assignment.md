@@ -2,7 +2,7 @@
 title: Domain assignments
 description: How you assign a domain impacts the value of the sys\_domain field. The assignments contain designs and business properties that affect how the application functions in each domain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-assignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-domain-assignment.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ The value of the **sys\_domain** field contains the domain that is assigned to t
 
 Make sure that your domain assignment strategies and designs are well documented and tested so that you are creating records as those strategies and designs are inserted into the correct domain. That way you can see that the properties of each domain should you need to duplicate or modify them.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

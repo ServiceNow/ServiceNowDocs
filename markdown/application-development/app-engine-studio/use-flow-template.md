@@ -2,7 +2,7 @@
 title: Add a pre-built flow using a template
 description: Use a pre-built flow to quickly automate manual work in the app you're building in App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/use-flow-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/use-flow-template.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +18,7 @@ Use a pre-built flow to quickly automate manual work in the app you're building 
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -41,7 +41,7 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 
 ## What to do next
 
-You can edit the flow to tailor it to your business needs. For more information on working with automation, see [Modify a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-flow.md).
+You can edit the flow to tailor it to your business needs. For more information on working with automation, see [Modify a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/edit-flow.md).
 
-**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md)
+**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-automation.md)
 

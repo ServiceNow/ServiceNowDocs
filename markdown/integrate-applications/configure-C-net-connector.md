@@ -2,7 +2,7 @@
 title: Configure the C\#.Net connector
 description: Write and validate custom C\#.Net scripts and execute them as part of your automation by using the C\#.Net connector in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-C-net-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-C-net-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Write and validate custom C\#.Net scripts and execute them as part of your autom
 
 ## Before you begin
 
-Ensure you have installed the Scripting plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+Ensure you have installed the Scripting plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-plugins-rpa-studio.md).
 
 Role required: Developer
 
@@ -53,5 +53,5 @@ Role required: Developer
 
 The custom script you created by using the C\#.Net connector is now ready to be used in your automation.
 
-**Parent Topic:**[C\#.Net](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c.md)
+**Parent Topic:**[C\#.Net](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/c.md)
 

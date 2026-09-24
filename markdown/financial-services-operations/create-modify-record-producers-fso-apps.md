@@ -2,7 +2,7 @@
 title: Create or modify record producers
 description: Review the record producers that are installed with Financial Services Operations applications. You can modify the predefined record producers or add new ones to define how the request forms appear in the Banking Service catalog or Consumer Service portal, or both.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/create-modify-record-producers-fso-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/create-modify-record-producers-fso-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Role required: Based on the application that you are configuring, you need the f
 
 A record producer enables users to submit banking requests from the Banking Service catalog and Consumer Service portal and stores the requested information as a record in the associated table.
 
-For information on record producers that are available with Financial Services Operations, see [Record producers for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/record-producers-fso-applications.md).
+For information on record producers that are available with Financial Services Operations, see [Record producers for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/record-producers-fso-applications.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Approvals
 description: Explore the Approvals section on the Configurations page of AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/explore-approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/explore-approvals.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

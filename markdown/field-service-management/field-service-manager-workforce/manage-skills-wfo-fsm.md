@@ -2,7 +2,7 @@
 title: Manage skills using Workforce Optimization for Field Service
 description: Add or update skills for an agent. You can approve predicted skills if the skill is necessary for the agent to complete assigned tasks. You can also reject a skill if it doesn't apply to the agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/manage-skills-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/manage-skills-wfo-fsm.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

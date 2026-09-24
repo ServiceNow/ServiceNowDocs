@@ -2,7 +2,7 @@
 title: Catalog client scripts
 description: Client-side scripts can add dynamic effects and validation to forms. Scripts can apply to service catalog items or variable sets, allowing administrators to use the same functionality that is available on other forms.When you create catalog client scripts, be aware of the following considerations.Catalog client scripts are very similar to standard client scripts, with a few important differences.Follow this procedure to create a catalog client script.Examples of client scripts to perform common actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_CatalogClientScriptCreation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_CatalogClientScriptCreation.html
 release: australia
 product: Scripts
 classification: scripts
@@ -25,7 +25,7 @@ You can use client side scripts to:
 -   Add something to the cart.
 -   Order something immediately.
 
-**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-side-scripting-overview.md)
+**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
 
 ## Catalog client script considerations
 

@@ -2,7 +2,7 @@
 title: Create a date question
 description: Enable the assessors to respond to a date question by specifying a date or a date and time. Specify any of several attributes to qualify the question, for example, whether a response is required or an attachment is requested as part of your assessment template by using the Smart Assessment Engine application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-q-date-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-q-date-create.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -27,7 +27,7 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
     |Option|Description|
     |------|-----------|
     |**Existing template**|On the Assessment Workspace landing page, select an existing template.|
-    |**New template**|Create a template as described in [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).|
+    |**New template**|Create a template as described in [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).|
 
 2.  On the **Questions** tab for the template, select the section that you want to add the question to and then select **Add question**.
 

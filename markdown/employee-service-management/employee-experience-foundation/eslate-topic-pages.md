@@ -2,7 +2,7 @@
 title: Browse and topic pages
 description: Topic pages organize content for specific categories. Each page includes subtopics, applications, quick links, knowledge articles, and catalog items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-topic-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-topic-pages.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -57,9 +57,9 @@ Topic pages adapt to screen size and display subtopics responsively.
 **Related topics**  
 
 
-[Configure browse experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md)
+[Configure browse experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md)
 
-[Configure topic page widget instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-topic-widget.md)
+[Configure topic page widget instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-topic-widget.md)
 
-[Assign a custom topic page template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-topic-page-template.md)
+[Assign a custom topic page template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-topic-page-template.md)
 

@@ -2,7 +2,7 @@
 title: TISC Library Objects form view
 description: The Threat Intelligence Security Center objects home page consists of the following features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-library-home-page-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-library-home-page-view.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -192,7 +192,7 @@ Use this search function to search for the source records across multiple source
 -   Once the records are filtered and listed, you can click on the list view which will take you to the respective record in a new tab.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+</table>**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: View active collaborations
 description: As an incident manager, you can view all the active collaborations for the incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/active-collaborations-inc-itsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/active-collaborations-inc-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -45,5 +45,5 @@ Role required: itil, itil\_admin, or admin
     \[Omitted image "view-active-collab-inc-itsm-mobile.png"\] Alt text: View active collaborations
 
 
-**Parent Topic:**[Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)
+**Parent Topic:**[Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)
 

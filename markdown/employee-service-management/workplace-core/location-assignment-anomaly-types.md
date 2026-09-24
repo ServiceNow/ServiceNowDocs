@@ -2,7 +2,7 @@
 title: Workplace location assignment anomaly types
 description: Anomalies occur when there’s a mismatch in the allocation or assignment of a workplace profile and workplace location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/location-assignment-anomaly-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/location-assignment-anomaly-types.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -46,7 +46,7 @@ Allocation mismatch
 
 </td><td>
 
-The allocation of both the user profile and the **Workplace location** to which the user is assigned doesn’t match. The allocation mismatch considers the allocation set in the Allocation type \[**sn\_wsd\_core.ALLOCATION\_TYPE**\] system property.Time-bound allocations follow only the start date and end date of the allocation, which are set in the system time zone. For more information, see [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-cost-center-department-floor.md).
+The allocation of both the user profile and the **Workplace location** to which the user is assigned doesn’t match. The allocation mismatch considers the allocation set in the Allocation type \[**sn\_wsd\_core.ALLOCATION\_TYPE**\] system property.Time-bound allocations follow only the start date and end date of the allocation, which are set in the system time zone. For more information, see [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-cost-center-department-floor.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Space not part of neighborhood
 The assigned **Workplace location** of the user is not part of the specified **Neighborhood**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Core references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-references.md)
+</table>**Parent Topic:**[Workplace Core references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-references.md)
 
 **Related topics**  
 

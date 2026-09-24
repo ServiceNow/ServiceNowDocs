@@ -2,7 +2,7 @@
 title: Components installed with NLU Workbench - Advanced Features
 description: Several types of components are installed with activation of the com.snc.nlu.workbench.advanced plugin, including tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/installed-with-nlu-wrkbnch-adv-features.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/installed-with-nlu-wrkbnch-adv-features.html
 release: australia
 product: NLU Service
 classification: nlu-service

@@ -2,7 +2,7 @@
 title: Coaching your trainee
 description: A manager, or coach, is a subject matter expert of a process and is responsible for providing coaching to an employee, or trainee. Use the Coach Dashboard to manage and measure the effectiveness of your coaching.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-coaching-your-trainee.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/coaching/cf-coaching-your-trainee.html
 release: australia
 product: Coaching
 classification: coaching
@@ -107,8 +107,8 @@ My Coaching Opportunities - Last 6 months
 Coaching opportunities assigned to you in the past 6 months.
 
 </td></tr></tbody>
-</table>-   **[Assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-assess-trainee.md)**  
+</table>-   **[Assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-assess-trainee.md)**  
 Use a coaching assessment to review the work of a trainee and to provide training and feedback.
 
-**Parent Topic:**[Training agents using Coaching with Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-train-your-agents.md)
+**Parent Topic:**[Training agents using Coaching with Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-train-your-agents.md)
 

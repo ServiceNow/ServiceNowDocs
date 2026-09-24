@@ -2,7 +2,7 @@
 title: Configure record level analysis in AI Data Explorer
 description: Get more detailed answers based on the content of individual records to provide more meaningful insights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/record-level-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/record-level-analysis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -55,7 +55,7 @@ Record-level analysis provides deeper insights into your data. You can activate 
 
 10. Select **Save and continue**.
 
-11. Finish configuring the skill as described in [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-aide-explorer.md), or exit if the skill is already activated and you don’t want to make further changes.
+11. Finish configuring the skill as described in [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/activate-aide-explorer.md), or exit if the skill is already activated and you don’t want to make further changes.
 
 
 ## Simple request with and without record level analytics
@@ -72,5 +72,5 @@ Finally, you ask the same question again in an exploration, asking for all open 
 
 \[Omitted image "ai-data-expl-response-with-rla.png"\] Alt text: Response in an exploration with record level analytics.
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-aide-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-aide-explorer.md)
 

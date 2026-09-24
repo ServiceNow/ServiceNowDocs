@@ -2,10 +2,10 @@
 title: Start a conversation
 description: You can start a message thread with Impact Experts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/start-conversation-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/start-conversation-store.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Impact Conversations, Using Impact, Impact]
 ---
@@ -58,5 +58,5 @@ When you need support from the Impact Squad while you're on pages such as Initia
 
 ## What to do next
 
-For working with the features available in the **Conversations** workspace, see [Working with Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/working-with-conversations.md).
+For working with the features available in the **Conversations** workspace, see [Working with Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/working-with-conversations.md).
 

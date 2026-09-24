@@ -2,7 +2,7 @@
 title: Extend Your Employee Center to Pro
 description: The Extend Your Employee Center to Pro Accelerator provides prescriptive guidance on extending the Employee Center capabilities to include Pro features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/extend-employee-center-pro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/extend-employee-center-pro.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

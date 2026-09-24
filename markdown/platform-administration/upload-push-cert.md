@@ -2,7 +2,7 @@
 title: Upload a push certificate to your instance
 description: Upload a push certificate to your instance so that you can use it later to connect your iOS device to the push notification system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upload-push-cert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upload-push-cert.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ After you create a PKCS \(.p12\) file that contains the iPhone developer certifi
 
 ## What to do next
 
-[Create a push application record for your custom app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAMobileApplication.md)
+[Create a push application record for your custom app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateAMobileApplication.md)
 

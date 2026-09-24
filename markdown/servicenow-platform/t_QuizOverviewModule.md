@@ -2,7 +2,7 @@
 title: View quiz reports
 description: Use the Quiz Overview dashboard to view various reports on data such as Quizzes by State, Questions by Data Type, and Number of Correct Answers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_QuizOverviewModule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_QuizOverviewModule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ You can view the Quiz Overview dashboard to refresh the view and add new widgets
     For more information about working with dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-landing-page.md).
 
 
-**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-quizzes.md)
+**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/using-quizzes.md)
 

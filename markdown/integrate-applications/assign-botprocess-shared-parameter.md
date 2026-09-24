@@ -2,7 +2,7 @@
 title: Assign a bot process to a shared parameter in RPA Hub
 description: Assign a bot process to a shared parameter in RPA Hub so that it can interact with this shared parameter. You can assign more than one bot process to a shared parameter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/assign-botprocess-shared-parameter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/assign-botprocess-shared-parameter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ Assign a bot process to a shared parameter in RPA Hub so that it can interact wi
 
 ## Before you begin
 
-Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md).
 
-Create a shared parameter. For more information, see [Create a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-shared-parameter.md).
+Create a shared parameter. For more information, see [Create a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-shared-parameter.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -41,12 +41,12 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 8.  Select **Save**.
 
 
-**Parent Topic:**[Shared parameters in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/shared-paramaters-rpa-hub.md)
+**Parent Topic:**[Shared parameters in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/shared-paramaters-rpa-hub.md)
 
 **Related topics**  
 
 
-[Process parameter form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-process-parameter-botprocess.md)
+[Process parameter form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-process-parameter-botprocess.md)
 
-[Unassign a bot process from a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/unassign-botprocess-shared-parameter.md)
+[Unassign a bot process from a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/unassign-botprocess-shared-parameter.md)
 

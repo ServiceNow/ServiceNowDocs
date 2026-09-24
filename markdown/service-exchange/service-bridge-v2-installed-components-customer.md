@@ -2,7 +2,7 @@
 title: Components installed with Service Exchange for Consumers
 description: Several types of components are installed with activation of the Service Exchange for Consumers application including tables, user roles, and business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-installed-components-customer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-installed-components-customer.html
 release: australia
 product: Service Exchange
 classification: service-exchange

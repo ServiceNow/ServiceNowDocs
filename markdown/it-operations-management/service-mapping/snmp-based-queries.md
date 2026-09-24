@@ -2,7 +2,7 @@
 title: SNMP-based queries
 description: Service Mapping accesses network infrastructure devices like load balancers and routers using Simple Network Management Protocol \(SNMP\) v1/v2c/v3. Configure SNMP community credentials to enable this type of access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/snmp-based-queries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/snmp-based-queries.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -193,10 +193,10 @@ Make sure that the user has credentials for SNMPv3 unless read-only community st
 -   1.3.6.1.4.1.89.35.1.11.1
 -   1.3.6.1.4.1.89.35.1.40.52.1.1
 
-**Parent Topic:**[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prerequisites-service-mapping.md)
+**Parent Topic:**[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/prerequisites-service-mapping.md)
 
 **Related topics**  
 
 
-[ITOM Content Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-content-service-classifiers.md)
+[ITOM Content Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/itom-content-service-classifiers.md)
 

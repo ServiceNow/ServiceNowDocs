@@ -2,7 +2,7 @@
 title: Add an invoice case line to an invoice case
 description: Add an invoice case line to an invoice case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/invoice-ops-add-invoice-case-line-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/invoice-ops-add-invoice-case-line-item.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

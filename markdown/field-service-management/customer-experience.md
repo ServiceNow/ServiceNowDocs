@@ -2,7 +2,7 @@
 title: Customer Experience in Field Service Management
 description: The Customer Experience feature in Field Service Management provides customers with timely updates about their reported issues, enabling them to track the location of agents and provide agent feedback.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/customer-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/customer-experience.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,5 +23,5 @@ After the agent completes the work, send customers a survey link to gather feedb
 **Related topics**  
 
 
-[Activate Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Configuring-cust-exp.md)
+[Activate Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/Configuring-cust-exp.md)
 

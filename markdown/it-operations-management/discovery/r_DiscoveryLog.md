@@ -2,7 +2,7 @@
 title: Logs for horizontal discovery
 description: The system collects logs to reflect the activity that takes place during a horizontal discovery based on both patterns and probes. Use the logs to fine-tune or troubleshoot the discovery process.Access the logs to understand the discovery process and fine-tune the discovery process.You can configure the amount of time that Discovery retains log entries for the probe-based horizontal discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DiscoveryLog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_DiscoveryLog.html
 release: australia
 product: Discovery
 classification: discovery
@@ -41,9 +41,9 @@ Role required: discovery\_admin
 
 1.  Navigate to **All** &gt; **Discovery** &gt; **Status**.
 
-2.  Open a [Discovery Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatus.md) record.
+2.  Open a [Discovery Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryStatus.md) record.
 
-    The **Discovery Log** related list displays the logs for probe-based discovery. See [Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-log.md).
+    The **Discovery Log** related list displays the logs for probe-based discovery. See [Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-log.md).
 
     \[Omitted image "DiscoveryLog2.png"\] Alt text: Discovery Log Records
 
@@ -56,7 +56,7 @@ Role required: discovery\_admin
 
     \[Omitted image "discovery-log-link-pattern-based-log.png"\] Alt text: The link to the pattern-based discovery log.
 
-    The Horizontal Discovery Log window opens showing the list of pattern-based log entries. For information on logged discovery phases, see [Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-log.md).
+    The Horizontal Discovery Log window opens showing the list of pattern-based log entries. For information on logged discovery phases, see [Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-log.md).
 
     \[Omitted image "horizontal-pattern-log.png"\] Alt text: Horizontal Discovery log
 
@@ -70,7 +70,7 @@ Role required: discovery\_admin
 ### What to do next
 
 -   To fine-tune or troubleshoot the pattern-based discovery, retrieve the payload as described in [KB0998923: Retrieve Payload Feature](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0998923).
--   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/validate-discovery-commands.md), if there is one of the following errors:
+-   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/validate-discovery-commands.md), if there is one of the following errors:
     -   Authentication issue
     -   Authorization/Permission issue
     -   No Valid credentials present

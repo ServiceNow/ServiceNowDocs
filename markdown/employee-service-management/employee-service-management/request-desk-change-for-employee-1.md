@@ -216,9 +216,9 @@ If the state is set to Closed incomplete, it means that the move request could n
 
 ## What to do next
 
-To view and monitor move requests created by you on behalf of an employee or for yourself, see [View move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/view-move-requests.md).
+To view and monitor move requests created by you on behalf of an employee or for yourself, see [View move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/view-move-requests.md).
 
-**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-mov-mgmt-setup.md)
+**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-mov-mgmt-setup.md)
 
 **Related topics**  
 

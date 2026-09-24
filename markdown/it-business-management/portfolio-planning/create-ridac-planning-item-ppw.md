@@ -2,7 +2,7 @@
 title: Create RIDAC for a planning item
 description: Create a Risk, Issue, Decision, Action, or Change item and associate it with a planning item in the Portfolio Planning Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-ridac-planning-item-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-ridac-planning-item-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -58,11 +58,11 @@ You can create a RIDAC item directly from a planning item to document and track 
 
     For a description of the field values, see the form.
 
-    -   For a Risk, see [RIDAC Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ridac-risk-form-ppw.md).
-    -   For an Issue, see [RIDAC Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ridac-issue-form-ppw.md).
-    -   For a Decision, see [RIDAC Decision form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ridac-decision-form-ppw.md).
-    -   For an Action, see [RIDAC Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ridac-action-form-ppw.md).
-    -   For a Change Request, see [RIDAC Change Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ridac-change-request-form-ppw.md).
+    -   For a Risk, see [RIDAC Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/ridac-risk-form-ppw.md).
+    -   For an Issue, see [RIDAC Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/ridac-issue-form-ppw.md).
+    -   For a Decision, see [RIDAC Decision form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/ridac-decision-form-ppw.md).
+    -   For an Action, see [RIDAC Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/ridac-action-form-ppw.md).
+    -   For a Change Request, see [RIDAC Change Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/ridac-change-request-form-ppw.md).
 7.  Select **Save** to save the record.
 
 

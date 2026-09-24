@@ -2,7 +2,7 @@
 title: Create a document record
 description: Create document records and include default versions for the documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/create-new-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/create-new-doc.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -132,7 +132,7 @@ The document version that is used for document download.
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
+**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
 **Related topics**  
 

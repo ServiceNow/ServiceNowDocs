@@ -2,7 +2,7 @@
 title: Create a cohort
 description: Define the predetermined sequence of actions a group of users complete so you can track conversion rates at each step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/create-action-cohort.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/create-action-cohort.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -58,5 +58,5 @@ View the cohort to see how many of the users who performed the first defined act
 
 **Note:** If data shown in the cohort analysis is not final, a note indicates that retroactive data is still being processed. Refresh the screen to see the report with final data.
 
-**Parent Topic:**[Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-cohorts.md)
+**Parent Topic:**[Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/uxa-cohorts.md)
 

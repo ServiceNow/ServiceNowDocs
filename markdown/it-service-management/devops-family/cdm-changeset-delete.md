@@ -2,7 +2,7 @@
 title: Delete a changeset
 description: Select the changeset on the Activity tab and then select Delete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-changeset-delete.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-changeset-delete.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

@@ -2,7 +2,7 @@
 title: Managing presence privacy settings
 description: Manage whether employees can view your in-office presence by selecting your privacy settings.Manage your privacy settings from the Presence dashboard.Manage your privacy settings from the Employee Profile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/manage-presence-privacy-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/manage-presence-privacy-settings.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -18,7 +18,7 @@ Manage whether employees can view your in-office presence by selecting your priv
 
 If you set your presence to private, your routine is hidden from other employees, and you aren’t displayed as a collaborator on the Presence dashboard calendar.
 
-**Parent Topic:**[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md)
+**Parent Topic:**[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 
 **Related topics**  
 
@@ -45,7 +45,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the Presence dashboard.
 
-    For more information, see the steps mentioned [here](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/set-in-office-days.md).
+    For more information, see the steps mentioned [here](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/set-in-office-days.md).
 
 2.  On the Presence dashboard, open the Add Routine window by selecting **Manage your settings**.
 
@@ -64,7 +64,7 @@ Manage your privacy settings from the Employee Profile application.
 
 ### Before you begin
 
-An admin must opt in to Employee Profile. For more information, see [Opt in to the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/profile-opt-in.md).
+An admin must opt in to Employee Profile. For more information, see [Opt in to the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/profile-opt-in.md).
 
 Role required: sn\_wsd\_core.workplace\_user
 

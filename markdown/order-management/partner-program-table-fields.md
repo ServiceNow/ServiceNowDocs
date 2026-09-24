@@ -2,10 +2,10 @@
 title: Partner program table fields
 description: Enable channel partners to participate in structured initiatives designed to drive revenue, enhance market reach, and build customer relationships by using the Partner Program \[sn\_prm\_partner\_program\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/partner-program-table-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/partner-program-table-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
@@ -98,10 +98,10 @@ Domain
 Domain to which the data belongs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management-reference.md)
 
 **Related topics**  
 
 
-[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-program-table.md)
+[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-program-table.md)
 

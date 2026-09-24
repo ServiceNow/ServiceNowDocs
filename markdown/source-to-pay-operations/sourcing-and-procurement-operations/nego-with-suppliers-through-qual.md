@@ -2,7 +2,7 @@
 title: Set up negotiations with suppliers and manage qualifications in playbook
 description: Work on a negotiation setup playbook to manage qualification work, and review the sourcing requests, suppliers, and purchase lines, all within the premises of a sourcing event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/nego-with-suppliers-through-qual.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/nego-with-suppliers-through-qual.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -20,7 +20,7 @@ Work on a negotiation setup playbook to manage qualification work, and review th
 
 Role required: Sourcing manager
 
-Ensure that you’ve selected the appropriate sourcing approach. For details, see [Select a sourcing approach in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/select-sourcing-approach.md).
+Ensure that you’ve selected the appropriate sourcing approach. For details, see [Select a sourcing approach in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/select-sourcing-approach.md).
 
 ## Procedure
 
@@ -86,5 +86,5 @@ Completes the qualification.**Note:** The procurement cases must be in the Close
 13. Manage qualification work, as described in steps 1 and 2.
 
 
-**Parent Topic:**[Sourcing intake guided experience with playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-intake-guided-exp.md)
+**Parent Topic:**[Sourcing intake guided experience with playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-intake-guided-exp.md)
 

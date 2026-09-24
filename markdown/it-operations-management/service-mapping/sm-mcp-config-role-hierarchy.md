@@ -2,7 +2,7 @@
 title: Configure roles for the Service Mapping MCP tools
 description: Assign the required roles to users so they can connect to the CMDB MCP Server and call the Service Mapping MCP tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -28,7 +28,7 @@ Role required: admin
 
 ## About this task
 
-For information about the Service Mapping tools, see [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md).
+For information about the Service Mapping tools, see [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-mcp-server.md).
 
 The Service Mapping MCP tools use a two-tier role model for access control. The sn\_sm\_gen\_ai.sm\_mcp\_user role grants access to the five read-only query tools. The sn\_sm\_gen\_ai.sm\_mcp\_admin role grants access to all six tools, including the create\_top\_down\_service write tool.
 
@@ -72,7 +72,7 @@ The user is assigned the required role. Users with sn\_sm\_gen\_ai.sm\_mcp\_user
 
 ## What to do next
 
-[Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-mcp-server.md)
+[Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/activate-sm-mcp-server.md)
 
-**Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+**Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-mcp-server.md)
 

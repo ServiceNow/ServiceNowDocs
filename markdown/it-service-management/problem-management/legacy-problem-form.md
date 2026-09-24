@@ -2,7 +2,7 @@
 title: Legacy Problem form
 description: Description of the field values for the legacy problem form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/legacy-problem-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/legacy-problem-form.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -159,5 +159,5 @@ Work notes list
 Users who receive notification when work notes are added to the problem. Click the **Add me** icon to add yourself to the work notes list for problems you are interested in monitoring.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
+</table>**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/reference-section-for-problem-management.md)
 

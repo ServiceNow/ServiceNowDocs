@@ -2,7 +2,7 @@
 title: AI Search in Digital Factory Workspace
 description: Access the AI Search for Digital Factory Workspace by using the search bar. The system interprets queries to return the most relevant results across configured record types, such as standards, tasks, and knowledge articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/ai-search-digital-factory-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/ai-search-digital-factory-workspace.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -51,5 +51,5 @@ Synonym matching is predefined. You can also configure custom keywords, synonyms
 
 For more information about the AI Search capability, see [Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-ais.md). The following image shows an example of AI Search results for a query run in the Digital Factory Workspace.
 
-**Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
+**Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
 

@@ -2,7 +2,7 @@
 title: View employee cards in Skills Expectations section
 description: View the score percentages of an employee based on an employee's validated skills and proficiencies, compared to their role-based skill requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/emp-card-mh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/emp-card-mh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -55,7 +55,7 @@ View skills
 
 </td><td>
 
-Skill details page provides granular details of employee skills, proficiency levels, and gaps. For more information, see [Skill details of an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/skill-details-emp.md).
+Skill details page provides granular details of employee skills, proficiency levels, and gaps. For more information, see [Skill details of an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/skill-details-emp.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ The employee profile page appears with details such as reporting structure, cowo
     3.  Select the Skill pill icon \(\[Omitted image "viewmenu.png"\] Alt text: View menu icon\) on a skill to perform one of the following:
 
         -   **View skill details**: View a detailed description of the skill.
-        -   **Assign learning**: Assign a learning course to an employee. For more information, see [Assign learning form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/assign-learning-form.md).
+        -   **Assign learning**: Assign a learning course to an employee. For more information, see [Assign learning form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/assign-learning-form.md).
 5.  To view all the employee cards, select **View all**.
 
 6.  If you have team members reporting from different job functions, you can filter the skill distribution by job function.

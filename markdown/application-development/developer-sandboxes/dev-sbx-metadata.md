@@ -2,7 +2,7 @@
 title: Developer Sandboxes and metadata
 description: Each sandbox provisioned with Developer Sandboxes is an isolated environment within an instance. Developers can build and test in parallel without affecting other work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dev-sbx-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/developer-sandboxes/dev-sbx-metadata.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes

@@ -2,7 +2,7 @@
 title: Major Case form view
 description: Major issue management provides the Major Case form view, which includes the Major Case Information form section and the Child Cases related list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/major-issue-management-form-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/major-issue-management-form-view.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

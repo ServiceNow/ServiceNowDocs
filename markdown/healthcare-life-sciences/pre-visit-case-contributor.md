@@ -2,7 +2,7 @@
 title: Setting up the process to create procedure request cases as a contributor
 description: Set up the process for users with the contributor profile to create procedure request cases on a service portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-case-contributor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pre-visit-case-contributor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Field types in Content Understanding
 description: Field types determine what kind of information is extracted from a document and how that information is stored or displayed in a use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/field-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/field-types.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ Field types determine what kind of information is extracted from a document and 
 
 The following field types are available to administrators when configuring fields for use cases.
 
-**Note:** Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
+**Note:** Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/data-normalization.md).
 
 <table id="table_nql_cxs_12c"><thead><tr><th>
 
@@ -88,5 +88,5 @@ Reference to a field on another table. For example, the **Caller** field on the 
 Text value. Available for fields, tables, and questions defined in the use case setup. \[Omitted image "cu-text-field.png"\] Alt text: Text field type
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Content Understanding Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-reference.md)
+</table>**Parent Topic:**[Content Understanding Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/content-understanding-reference.md)
 

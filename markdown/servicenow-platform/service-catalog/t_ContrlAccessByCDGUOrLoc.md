@@ -2,7 +2,7 @@
 title: Restrict access
 description: Service Catalog enables an administrator to grant or deny access to a service catalog item or category by company, department, group, user, or location.By default, individual catalog items and categories do not have access restrictions.Service Catalog enables you to control access to a service catalog item or category with a custom script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ContrlAccessByCDGUOrLoc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_ContrlAccessByCDGUOrLoc.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -35,7 +35,7 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Legacy service catalog access controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_LegcySrvcCatAccessCntrol.md)
+**Parent Topic:**[Legacy service catalog access controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_LegcySrvcCatAccessCntrol.md)
 
 ## Restrict access by role
 

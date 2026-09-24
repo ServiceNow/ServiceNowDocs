@@ -2,7 +2,7 @@
 title: Create a visibility criteria
 description: Agents workspaces enables the manufacturers to create the visibility criteria. Manufacturer can filter the dealer name for which the target sales promotion is applicable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-visibility-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-visibility-criteria.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

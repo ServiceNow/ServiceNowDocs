@@ -2,7 +2,7 @@
 title: Add and view the details of a lead
 description: Use the Details tab to add more information about your lead.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management-details-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/lead-management-details-tab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,21 +26,21 @@ Role required: sales\_agent
 
 3.  Fill in the information on the Details tab.
 
-    For more information on the description of the field values, see [Lead details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-details-form.md).
+    For more information on the description of the field values, see [Lead details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-details-form.md).
 
 4.  Select **Save**.
 
 
 ## What to do next
 
-Use the Product Catalog tab to add products to your lead. To learn more, see [Add products to a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-add-product.md).
+Use the Product Catalog tab to add products to your lead. To learn more, see [Add products to a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-add-product.md).
 
-**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-using.md)
 
 **Related topics**  
 
 
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-lead-management.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management.md)
 

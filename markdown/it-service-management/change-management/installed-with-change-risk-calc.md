@@ -2,7 +2,7 @@
 title: Installed with Change Management - Risk Calculator
 description: Several types of components are installed with the Change Management - Risk Calculator.Change Management - Risk Calculator adds the following table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/installed-with-change-risk-calc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/installed-with-change-risk-calc.html
 release: australia
 product: Change Management
 classification: change-management
@@ -16,7 +16,7 @@ breadcrumb: [Activate Change Management - Risk Calculator, Change Management plu
 
 Several types of components are installed with the Change Management - Risk Calculator.
 
-**Parent Topic:**[Activate Change Management - Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/activate-change-risk-calculator.md)
+**Parent Topic:**[Activate Change Management - Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/activate-change-risk-calculator.md)
 
 ## Tables installed with Change Management - Risk Calculator
 

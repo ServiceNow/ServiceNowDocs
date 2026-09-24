@@ -2,7 +2,7 @@
 title: Next Experience Readiness Checker
 description: The Next Experience Readiness Checker assists users with deciding whether to turn on Next Experience after an upgrade.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-readiness-checker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-readiness-checker.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,5 +44,5 @@ The compatibility scan examines your instance for usage of applications that are
 
 If there are no errors, select the **Turn on Next Experience** button to enable Next Experience.
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 

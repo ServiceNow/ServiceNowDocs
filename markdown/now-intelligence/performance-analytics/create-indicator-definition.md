@@ -2,7 +2,7 @@
 title: Create an indicator definition
 description: You can create a new KPI Composer indicator definition directly from the relevant artifact in the Data Definition tab. Fill the indicator definition with the necessary information for creating a Performance Analytics indicator.After you create an indicator definition in KPI Composer, you can add contributing indicators to that definition. Formula indicator definitions, where the formula includes one or more other indicators, require contributing indicators to be complete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-indicator-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/create-indicator-definition.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -18,13 +18,13 @@ You can create a new KPI Composer indicator definition directly from the relevan
 
 ## Before you begin
 
-You have an existing [KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md) with a complete draft of the [KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/design-kpi-tree.md) in the Analytics tab. You also need technical knowledge of Performance Analytics indicators.
+You have an existing [KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/kpi-composer-projects.md) with a complete draft of the [KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/design-kpi-tree.md) in the Analytics tab. You also need technical knowledge of Performance Analytics indicators.
 
 Role required: sn\_kpi\_composer.admin or admin to link to a Performance Analytics indicator, sn\_kpi\_composer.user for other functionality. No roles are required for responsible users or users with edit access, except to link to a Performance Analytics indicator.
 
 ## About this task
 
-You can create an indicator definition for every artifact in your project, whether or not it is associated with a Performance Analytics widget. You cannot add more than one indicator definition for an artifact. However, if you link an artifact to a formula indicator, you automatically link it to all the [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) in the formula.
+You can create an indicator definition for every artifact in your project, whether or not it is associated with a Performance Analytics widget. You cannot add more than one indicator definition for an artifact. However, if you link an artifact to a formula indicator, you automatically link it to all the [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) in the formula.
 
 ## Procedure
 
@@ -123,18 +123,18 @@ In the following short animation, the user defines a formula indicator for the m
 
 \[Omitted image "kpi-comp-create-indicator-def.gif"\] Alt text: Creating an indicator definition for a measurement
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/designing-pa-solution.md)
 
 **Related topics**  
 
 
-[Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/automated-indicators.md)
+[Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/automated-indicators.md)
 
-[Indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_IndicatorSources.md)
+[Indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_IndicatorSources.md)
 
-[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
+[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/formula-indicators.md)
 
-[Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
+[Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
 
 ## Add contributing indicators
 
@@ -156,14 +156,14 @@ Role required: Same as creating an indicator definition
 
 2.  In the Supporting Indicator Definitions related list, click one of the following buttons:
 
-    -   Click **New** to create a new indicator definition. Follow the same procedure as in [Create an indicator definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-indicator-definition.md).
+    -   Click **New** to create a new indicator definition. Follow the same procedure as in [Create an indicator definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-indicator-definition.md).
     -   Click **Edit** to open a list of existing indicator definitions in this project. You can select as many indicators as you need.
     Search the existing indicator definitions before you create new ones, so as not to duplicate indicators.
 
 
 ### Result
 
-After saving the changes, the artifact in the Data Definition tab shows the [contributing indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) definitions under the main indicator definition, with a darker background.
+After saving the changes, the artifact in the Data Definition tab shows the [contributing indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) definitions under the main indicator definition, with a darker background.
 
 ### Adding a contributing indicator
 

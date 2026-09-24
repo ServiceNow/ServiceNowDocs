@@ -2,7 +2,7 @@
 title: Manage approvals with Approval Assistance AI agent
 description: Manage the approvals that are assigned to you by using the Approval Assistance Agent for REQ and RITM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/manage-approvals-with-approvals-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/manage-approvals-with-approvals-agent.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

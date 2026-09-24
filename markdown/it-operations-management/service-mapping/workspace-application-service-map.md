@@ -2,7 +2,7 @@
 title: Application service maps in legacy Agent Workspace
 description: Maps offer you a visualization of data on configuration items \(CIs\) comprising application services, and relations and connections between these CIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/workspace-application-service-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/workspace-application-service-map.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -56,12 +56,12 @@ When you select information in the Related Items pane on the right of the map wi
 
 \[Omitted image "ws-map-selected-alert-ci.png"\] Alt text: Selecting message marks the related CI yellow.
 
-You can display other related items, such as planned changes or cases, associated with the application service. For more information, see [Modify view for an application service map in legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/workspace-modify-map-view.md).
+You can display other related items, such as planned changes or cases, associated with the application service. For more information, see [Modify view for an application service map in legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/workspace-modify-map-view.md).
 
-**Parent Topic:**[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)
+**Parent Topic:**[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)
 
 **Related topics**  
 
 
-[View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewTopology.md)
+[View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewTopology.md)
 

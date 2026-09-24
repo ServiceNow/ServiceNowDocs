@@ -2,7 +2,7 @@
 title: Incident standard ticket page
 description: The Incident standard ticket page is where you and your employees can view the details of an incident and can be used with service portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-stnd-ticket-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/incident-stnd-ticket-page.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -22,5 +22,5 @@ You can access the Incident ticket page in Service Portal using the **Requests**
 
 ## Incident standard ticket page configuration
 
-You can configure the appearance of the Incident standard ticket page header and tabs from **Standard Ticket** &gt; **Standard Ticket Configuration** &gt; **Incident**. For more information, refer [Configure incident ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/config-inci-ticket-page.md).
+You can configure the appearance of the Incident standard ticket page header and tabs from **Standard Ticket** &gt; **Standard Ticket Configuration** &gt; **Incident**. For more information, refer [Configure incident ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/config-inci-ticket-page.md).
 

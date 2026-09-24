@@ -2,7 +2,7 @@
 title: Create or modify Map Related Items
 description: The Map Related Items module relates referenced CIs to one another, which allows them to be displayed in a Dependency Views map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMapRelatedItems.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMapRelatedItems.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -60,7 +60,7 @@ You can configure Dependency Views to display CIs that have no relationship reco
     |Active|Check box to enable or disable this record.|
 
 
-**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 

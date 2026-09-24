@@ -2,7 +2,7 @@
 title: Tables installed with Facilities Service Management
 description: Facilities Service Management adds the following tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_TableInsWFacServMgmnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_TableInsWFacServMgmnt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -79,5 +79,5 @@ Facilities Request Task Model\[cmdb\_factask\_product\_model\]
 Stores request task models
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
+</table>**Parent Topic:**[Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
 

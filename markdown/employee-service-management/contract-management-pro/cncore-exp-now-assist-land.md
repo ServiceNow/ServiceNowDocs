@@ -2,7 +2,7 @@
 title: AI capabilities in Contract Management Pro
 description: Use AI capabilities to identify non-standard and missing clauses in contracts, extract metadata and obligations from signed contracts, and search contract metadata and documents using natural language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,19 +25,19 @@ ServiceNow Otto for Contract Management Pro provides the following AI capabiliti
 
     AI skills enable users to extract metadata from signed contracts and analyze contracts for clause compliance.
 
-    For more information, see [AI skills in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ai-skills.md).
+    For more information, see [AI skills in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ai-skills.md).
 
 -   **Agentic workflows**
 
     The manage contract repository agentic workflow supports metadata and obligation extraction from signed contracts, calculates reminder dates based on contract end dates and renewal clauses, and enables users to review and update contract information through a playbook interface. Conversational search enables users to query contract metadata and documents using natural language.
 
-    For more information, see [Agentic workflows Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-agentic-workflows.md).
+    For more information, see [Agentic workflows Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-agentic-workflows.md).
 
 -   **Contract Management Pro MCP Server**
 
     The Contract Management Pro MCP Server connects external AI tools to Contract Management Pro so that contract fulfillers or contract reviewers can review and redline the contract documents in their preferred AI tool using contract analysis playbooks from the system. The MCP server retrieves the latest approved Contract Analysis Playbook, which defines your organization's standard terms, approved clause language, and approved fallback language. The AI tool proposes redlines based on organizational playbook guidance.
 
-    For more information, see [Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-negotiation-mcp.md).
+    For more information, see [Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-negotiation-mcp.md).
 
 
 ## ServiceNow Otto for Contract Management Pro benefits
@@ -95,6 +95,6 @@ Reviews contract documents in external AI tools that retrieve negotiation playbo
 
 To learn more about configuring and using ServiceNow Otto for Contract Management Pro, see the following topics:
 
--   [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
--   [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
+-   [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+-   [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
 

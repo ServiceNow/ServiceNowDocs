@@ -2,12 +2,12 @@
 title: Create a product in Agile Development 2.0
 description: Create a product to represent a feature or functionality important to customers. A product can contain themes, epics, and stories that describe these enhancements from the perspective of a user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-a-product.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/create-a-product.html
 release: australia
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -41,7 +41,7 @@ Role required: scrum\_product\_owner, scrum\_release\_planner, scrum\_admin
 
 ## What to do next
 
-Use the related lists of the Product record to associate releases, themes, epics, stories, and assignment groups with it. For more information, see [Related lists for a Product in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/related-links-lists-product-agile-2.md).
+Use the related lists of the Product record to associate releases, themes, epics, stories, and assignment groups with it. For more information, see [Related lists for a Product in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/related-links-lists-product-agile-2.md).
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/using-agile-development-2-0.md)
 

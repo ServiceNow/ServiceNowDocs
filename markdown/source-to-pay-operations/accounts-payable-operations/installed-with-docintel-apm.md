@@ -2,7 +2,7 @@
 title: Components installed with Accounts Payable Operations integration with Document Intelligence
 description: Reference information for the roles, flows, and tables installed with the Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) application plugin during activation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/installed-with-docintel-apm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/installed-with-docintel-apm.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -113,5 +113,5 @@ Invoice Line Stage
 Stores the invoice line data extracted from the invoice.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md)
+</table>**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md)
 

@@ -2,7 +2,7 @@
 title: Setting up the 360º views
 description: To effectively use the 360° Relationship Visualization application, you need to register existing relationships between the types of data you want to view, and then configure how the 360º view displays that data.The first step in setting up your data registry is to register the relationships you want displayed in the 360° Relationship Visualization.These screen shots illustrate the various relationship types you can register.After the data registry has been defined, you can configure the 360° Relationship Visualization to effectively display the relations you created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.html
 release: australia
 product: GRC: 360 Degree Relationship Visualization
 classification: grc-360-degree-relationship-visualization
@@ -16,7 +16,7 @@ breadcrumb: [360° Relationship Visualization, Common GRC features, Governance, 
 
 To effectively use the 360° Relationship Visualization application, you need to register existing relationships between the types of data you want to view, and then configure how the 360º view displays that data.
 
-**Parent Topic:**[360° Relationship Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.md)
+**Parent Topic:**[360° Relationship Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.md)
 
 ## Register 360º relationships
 

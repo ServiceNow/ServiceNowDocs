@@ -2,7 +2,7 @@
 title: Scan run
 description: Each execution of a scan configuration is called a scan run. The Scan Runs module displays a list of all the scan runs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-scan-run.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/ccg-scan-run.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -30,5 +30,5 @@ Cloud Configuration Governance displays the following information for each scan 
 **Related topics**  
 
 
-[Scan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-scan-configuration.md)
+[Scan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/ccg-scan-configuration.md)
 

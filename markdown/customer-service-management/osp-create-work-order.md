@@ -2,7 +2,7 @@
 title: Create work order
 description: An OSP agent can create a work order so that it can be assigned to a Field Service agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-create-work-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/osp-create-work-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

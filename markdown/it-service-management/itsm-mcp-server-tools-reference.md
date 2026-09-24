@@ -2,7 +2,7 @@
 title: ITSM MCP Server tools reference
 description: Reference for all tools available in the ITSM MCP Server, organized by functional area: incident management, change management, and employee experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mcp-server-tools-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mcp-server-tools-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-25"

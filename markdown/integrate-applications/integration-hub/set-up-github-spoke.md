@@ -2,7 +2,7 @@
 title: Set up the GitHub spoke
 description: Integrate your ServiceNow instance with the GitHub and GitHub Enterprise Server to automate flows and perform actions on GitHub and GitHub Enterprise Server. For example, create a flow that creates a branch on GitHub and retrieves its details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-github-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-github-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

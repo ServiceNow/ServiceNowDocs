@@ -2,7 +2,7 @@
 title: Provide input values for your API connector
 description: Provide input parameters to make a valid API call, test the connection, and receive a sample response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/spc-sgc-template-stepper-4.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/spc-sgc-template-stepper-4.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Provide input parameters to make a valid API call, test the connection, and rece
 
 For all templates, you can select the information icon \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: lower case letter i for more information\) to learn more about each parameter. You can use the API samples provided with each template. After you define your input parameters, you must test your connection.
 
-You have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-skills-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-api-connector.md) about using the skill in connector framework.
+You have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-now-assist-skills-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-now-assist-api-connector.md) about using the skill in connector framework.
 
 Roles required:
 
@@ -29,7 +29,7 @@ Roles required:
 
 1.  Fill in the fields.
 
-    **Note:** If you change any input parameters after testing the connection, you must test the connection again before you can continue on to [Map API response to SPC attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-sgc-stepper-5.md).
+    **Note:** If you change any input parameters after testing the connection, you must test the connection again before you can continue on to [Map API response to SPC attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-sgc-stepper-5.md).
 
 <table id="table_j1c_st4_sfc"><thead><tr><th>
 

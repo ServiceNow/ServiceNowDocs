@@ -2,7 +2,7 @@
 title: Create new control form
 description: Use the create new control form to capture all the information that you need to associate a control with a third party or engagement using the Third-party Risk Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-control-record-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-control-record-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -54,7 +54,7 @@ Inherit from control objective
 
 </td><td>
 
-Option to indicate whether the control is created through item generation process. For more information, see [Multiple controls for a unique entity–control objective combination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/support-multiple-controls-same-entity-control-objective.md).
+Option to indicate whether the control is created through item generation process. For more information, see [Multiple controls for a unique entity–control objective combination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/support-multiple-controls-same-entity-control-objective.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ List of options:-   Standard control
 
 **Note:** All existing controls are termed as standard controls. You can convert a standard control to common and reverse its function as standard if you so require. However, by default all controls whether existing or created are standard.
 
-For more information, see [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
+For more information, see [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
 
 </td></tr><tr><td>
 
@@ -336,10 +336,10 @@ Functional domain
 Functional domain for the control objective.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md)
+</table>**Parent Topic:**[Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md)
 
 **Related topics**  
 
 
-[Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md)
+[Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md)
 

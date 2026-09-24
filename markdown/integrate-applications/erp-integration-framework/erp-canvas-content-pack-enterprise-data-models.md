@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP Enterprise Data Foundation content pack models
 description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Enterprise Data Foundation content pack contains models that you might need when interacting with an SAP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-content-pack-enterprise-data-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-content-pack-enterprise-data-models.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

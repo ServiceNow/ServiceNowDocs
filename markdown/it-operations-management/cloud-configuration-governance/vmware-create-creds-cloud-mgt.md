@@ -2,7 +2,7 @@
 title: Create the credential and service account that will access your VMware data
 description: To securely access data on your provider account, the Discovery process must present appropriate credentials. To make the credentials available to Discovery, you first create an account in the VMware Console. You then securely store the credentials in a service account in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/vmware-create-creds-cloud-mgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/vmware-create-creds-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -135,5 +135,5 @@ Enables Cloud Provisioning and Governance to collect events from resource types 
 **Related topics**  
 
 
-[Discovery for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/vmware-cloud-discovery.md)
+[Discovery for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/vmware-cloud-discovery.md)
 

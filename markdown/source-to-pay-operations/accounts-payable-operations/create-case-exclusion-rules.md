@@ -2,7 +2,7 @@
 title: Create case exclusion rules
 description: Create a case exclusion rule to stop Invoice Case Management from opening a case when an inbound email matches conditions that you define. You can also modify or delete existing rules to keep your email filtering current.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-case-exclusion-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-case-exclusion-rules.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -28,7 +28,7 @@ Role required: `sn_ap_cm.admin`
 
 3.  Complete the exclusion rule fields.
 
-    The **Rule ID** is generated automatically and **Rule Applies To** is set to **Invoice Inquiry Case**. For the full field list, see [Case exclusion reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/case-exclusion-reference-fields.md).
+    The **Rule ID** is generated automatically and **Rule Applies To** is set to **Invoice Inquiry Case**. For the full field list, see [Case exclusion reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/case-exclusion-reference-fields.md).
 
 4.  In the condition builder, define the conditions that identify the emails to ignore.
 
@@ -45,5 +45,5 @@ The rule is saved and the exclusion engine applies on the inbound emails immedia
 
 To change how an email category is filtered, open the rule and update its conditions, then submit the change. To stop filtering an email category, delete the rule. Modifications and deletions also take effect immediately.
 
-**Parent Topic:**[Case exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/case-exclusion-rules.md)
+**Parent Topic:**[Case exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/case-exclusion-rules.md)
 

@@ -2,7 +2,7 @@
 title: Modify or cancel a walk-up appointment as a guest user
 description: Modify or cancel walk-up appointments that you have scheduled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-modify-cancel-appt-guest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-walkup-modify-cancel-appt-guest.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

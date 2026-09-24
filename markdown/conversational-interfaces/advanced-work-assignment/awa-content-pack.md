@@ -2,7 +2,7 @@
 title: Platform Analytics Solutions for Advanced Work Assignment
 description: This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-content-pack.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

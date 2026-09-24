@@ -2,7 +2,7 @@
 title: Create or customize a theme
 description: You can create themes or customize existing themes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateOrCustomizeATheme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateOrCustomizeATheme.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Role required: admin
     -   To customize an existing theme, click the theme name.
 3.  Enter a name for the theme in the **Name** field.
 
-4.  Add any of the [default CSS styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_DefaultCSSStyle.md) in the **CSS** field.
+4.  Add any of the [default CSS styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_DefaultCSSStyle.md) in the **CSS** field.
 
     Sometimes the default style is not the only style definition for an object. In such cases, you can use the CSS [important rule](http://www.w3.org/TR/CSS2/cascade.html#important-rules) format to override any other style definitions with the default definition. For example, this definition overrides the text color in the main navigation: `$navpage-nav-color-sub: #fff !important`.
 
@@ -49,7 +49,7 @@ Role required: admin
 
 Refresh the page to see the new theme in the theme picker. The theme picker displays only themes that are compatible with the current version of the UI.
 
-**Parent Topic:**[CSS theme support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CSSThemeSupport.md)
+**Parent Topic:**[CSS theme support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_CSSThemeSupport.md)
 
 **Related topics**  
 

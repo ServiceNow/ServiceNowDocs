@@ -2,7 +2,7 @@
 title: Activate Employee Document Management
 description: You can activate the Employee Document Management \[com.sn\_employee\_document\_management\] plugin with the admin role. This plugin includes demo data and activates related plugins if they are not already active.The Employee Document Management Bulk Uploads requires separate subscriptions to the Orchestration \[com.snc.runbook\_automation\] and ServiceNow IntegrationHub Installer \[com.glide.hub.integrations\] plugins. These plugins must be activated by ServiceNow personnel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/activate-employee-doc-mgmnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/activate-employee-doc-mgmnt.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -35,7 +35,7 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/configuring-employee-document-management.md)
+**Parent Topic:**[Configuring Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/configuring-employee-document-management.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Generate a knowledge article from multiple cases
 description: Create drafts of knowledge articles from multiple cases with the ServiceNow Otto for HR Service Delivery \(HRSD\) application. Use generative AI to gather and create the content from multiple cases so that you can reduce the amount of time that you would have spent manually to get the same information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr-multi-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr-multi-case.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -25,7 +25,7 @@ Create drafts of knowledge articles from multiple cases with the ServiceNow Otto
     -   Latest version of Agent Workspace for HR Case Management \[sn\_hr\_agent\_ws\]
     -   Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\]
     -   Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_relations\]
--   Activate the KB generation skill from the AI Admin Hub console. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+-   Activate the KB generation skill from the AI Admin Hub console. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 Role required:
 
@@ -80,7 +80,7 @@ You can make a copy of this skill to configure it to meet your business needs. F
     ServiceNow Otto has generated your article from multiple cases.
 
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

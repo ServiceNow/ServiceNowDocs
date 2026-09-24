@@ -2,7 +2,7 @@
 title: Check XML attachment property size
 description: Verifies that the XML attachment property is sufficient for large files.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-check-xml-prop-size.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/cc-check-xml-prop-size.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

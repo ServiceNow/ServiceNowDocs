@@ -2,7 +2,7 @@
 title: Create a service account and private key for the Google Dialogflow project
 description: To use Google Dialogflow with Virtual Agent Bot Interconnect, the second step is to create a service account and private key for the new agent in Google Dialogflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-srvc-acct-key-dialogflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-srvc-acct-key-dialogflow.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -59,9 +59,9 @@ Role required: admin
     The JSON file is downloaded to your computer.
 
 
-**Parent Topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-api-ggl-dialogflow.md)
+**Parent Topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-va-api-ggl-dialogflow.md)
 
-**Previous topic:**[Create a new agent in Google Dialogflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-new-agent-google-dialogflow.md)
+**Previous topic:**[Create a new agent in Google Dialogflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-new-agent-google-dialogflow.md)
 
-**Next topic:**[Generate a Java Keystore file from the JSON private key file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/generate-jks-from-json-dialogflow.md)
+**Next topic:**[Generate a Java Keystore file from the JSON private key file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/generate-jks-from-json-dialogflow.md)
 

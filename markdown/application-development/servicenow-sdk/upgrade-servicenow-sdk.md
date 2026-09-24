@@ -2,7 +2,7 @@
 title: Upgrade the ServiceNow SDK
 description: Upgrade to the latest version of the ServiceNow SDK for use with instances beginning with the Washington DC release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/upgrade-servicenow-sdk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-sdk/upgrade-servicenow-sdk.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -99,11 +99,11 @@ now-sdk -v
 </table>
 ## What to do next
 
-Install the ServiceNow Fluent Language server to get language processing and validation for ServiceNow Fluent in Visual Studio Code. For more information, see [Install the ServiceNow Fluent Language server in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/install-fluent-language-extension-vs-code.md).
+Install the ServiceNow Fluent Language server to get language processing and validation for ServiceNow Fluent in Visual Studio Code. For more information, see [Install the ServiceNow Fluent Language server in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/install-fluent-language-extension-vs-code.md).
 
-Use the ServiceNow SDK to authenticate to a ServiceNow instance. For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
+Use the ServiceNow SDK to authenticate to a ServiceNow instance. For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
 
-**Parent Topic:**[Configuring the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/configuring-servicenow-sdk.md)
+**Parent Topic:**[Configuring the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/configuring-servicenow-sdk.md)
 
 **Related topics**  
 

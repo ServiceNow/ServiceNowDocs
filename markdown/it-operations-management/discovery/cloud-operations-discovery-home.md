@@ -2,7 +2,7 @@
 title: Cloud Discovery home page in Cloud Discovery Workspace
 description: The Cloud Discovery home page displays a summary of the discoveries triggered through a discovery schedule. You can view the count of CIs discovered and errors encountered over time. You can also select any dashboard report to view additional information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cloud-operations-discovery-home.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/cloud-operations-discovery-home.html
 release: australia
 product: Discovery
 classification: discovery
@@ -16,7 +16,7 @@ breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discove
 
 The Cloud Discovery home page displays a summary of the discoveries triggered through a discovery schedule. You can view the count of CIs discovered and errors encountered over time. You can also select any dashboard report to view additional information.
 
-**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 \[Omitted image "cow-cloud-disco-dashboard.gif"\] Alt text: Cloud Discovery dashboard.
 

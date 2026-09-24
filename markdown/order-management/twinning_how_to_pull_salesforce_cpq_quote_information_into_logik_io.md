@@ -2,7 +2,7 @@
 title: Twinning: pulling Salesforce CPQ quote information into CPQ
 description: You can set up Salesforce.com and CPQ to bring quote data into a CPQ configuration at runtime.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/twinning\_how\_to\_pull\_salesforce\_cpq\_quote\_information\_into\_logik\_io.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/twinning\_how\_to\_pull\_salesforce\_cpq\_quote\_information\_into\_logik\_io.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

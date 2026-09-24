@@ -2,7 +2,7 @@
 title: Overview tab
 description: The performance overview provides graphical representations in percentages to measure the overall effectiveness of the l1 service desk AI specialist in resolving incidents from various categories. Track how many incidents the AI specialist is handling, how quickly they are resolved, and how often incidents get reassigned.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/perf-overview-l1-sd-ai-spec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/perf-overview-l1-sd-ai-spec.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-02"

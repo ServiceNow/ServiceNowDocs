@@ -2,12 +2,12 @@
 title: Add an Okta connection
 description: Connect Okta to AI Control Tower so that policies and AI agent containment with kill switch protocol prevent future tokens from being issued to a deactivated AI agent. If your AI agent is on ServiceNow or AWS Bedrock, the agent's identity is federated through Okta.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-okta-security-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configure-okta-security-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -20,7 +20,7 @@ Connect Okta to AI Control Tower so that policies and AI agent containment with 
 Confirm the following:
 
 -   You have an Okta tenant with admin access to generate an API token scoped to `okta.aiAgents.manage`. This scope is dedicated to AI agent lifecycle operations and meets least-privilege requirements; it isn't the broader `okta.users.manage` scope. Requires the Okta `SUPER_ADMIN` role.
--   A security connection is already established for the platform hosting the AI agent — AWS Bedrock, AWS Bedrock Agent Core, Gemini Enterprise Agent Platform, or ServiceNow Agents. An Okta connection extends containment for agents whose identity is federated through one of those platforms; it doesn't replace the platform connection. See [Add an AWS Bedrock or AWS Bedrock Agent Core connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configure-aws-bedrock-security-connection.md) or [Add a Gemini Enterprise Agent Platform connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.md).
+-   A security connection is already established for the platform hosting the AI agent — AWS Bedrock, AWS Bedrock Agent Core, Gemini Enterprise Agent Platform, or ServiceNow Agents. An Okta connection extends containment for agents whose identity is federated through one of those platforms; it doesn't replace the platform connection. See [Add an AWS Bedrock or AWS Bedrock Agent Core connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-aws-bedrock-security-connection.md) or [Add a Gemini Enterprise Agent Platform connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.md).
 -   The AI agents you want covered are actively configured on the Okta tenant — in other words, their identity is federated through Okta.
 
 |Operation|Kill switch use case|Okta endpoint|
@@ -115,5 +115,5 @@ To verify the setup:
 -   Open the Connection Alias record and confirm the HTTP connection appears in its **Connections** related list.
 -   Optionally, test the connection with a GET request to `https://<tenant>.oktapreview.com/api/v1/ai-agents?limit=200``https://<tenant>.oktapreview.com/api/v1/agentregistration` using the alias, and confirm a `200 OK` response.
 
-**Parent Topic:**[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-security-connections.md)
+**Parent Topic:**[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-security-connections.md)
 

@@ -2,7 +2,7 @@
 title: Activate Change Management - Risk Assessment
 description: You can activate the Change Management - Risk Assessment plugin \(com.snc.change\_management.risk\_assessment\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-change-risk-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-change-risk-assessment.html
 release: australia
 product: Change Management
 classification: change-management
@@ -74,9 +74,9 @@ Provides an interface to create and edit the Change Risk Assessment form that is
 
 ## What to do next
 
-You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_DefineARiskAssessment.md) conditions for change requests.
+You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_DefineARiskAssessment.md) conditions for change requests.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
@@ -123,9 +123,9 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 
 [Activate Change Management - Data Archiving]()
 
-[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-risk-assess-detect-conflict.md)
+[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-risk-assess-detect-conflict.md)
 
-[Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/r_ChangeManagementProperties.md)
+[Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/r_ChangeManagementProperties.md)
 
 [List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

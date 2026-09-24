@@ -2,7 +2,7 @@
 title: UXA Data Export Service API
 description: The UXA Data Export Service API provides an endpoint to asynchronously export user experience analytics \(UXA\) data. The data export result is delivered in batches to a dedicated Hermes topic for your ServiceNow instance.Submits an asynchronous request to export user experience analytics \(UXA\) data. The data export result is delivered in batches to a dedicated Hermes topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/usage-insight-data-exp-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/usage-insight-data-exp-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -35,7 +35,7 @@ After the first call to this API, set up your Kafka client to consume the data f
 -   [Configure the SSL connection to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/consume-messages-hermes.md) in the consumer properties files using the truststore and keystore that you generated.
 -   Consume messages from the Hermes topic using a Python consumer or Kafka CLI. For more information, see [Usage Insights Data Export — How to consume the results from Hermes? \[KB3135555\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3135555). Messages must be consumed within the 36 hour retention window, after which they expire from the Hermes topic.
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## UXA Data Export Service - POST /sn\_uxa\_data\_export/data\_export
 

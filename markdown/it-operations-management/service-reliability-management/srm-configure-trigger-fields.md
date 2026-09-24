@@ -2,7 +2,7 @@
 title: Configure fields for escalation triggers
 description: Configure additional fields for on-call escalation triggers in Service Reliability Management \(SRM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/srm-configure-trigger-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/srm-configure-trigger-fields.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -80,11 +80,11 @@ Supported fields
 
 ## What to do next
 
-To set up an escalation trigger, see [Create an escalation trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.md).
+To set up an escalation trigger, see [Create an escalation trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.md).
 
-**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Approve a change request for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-approve-change-req.md)
+**Previous topic:**[Approve a change request for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-approve-change-req.md)
 
-**Next topic:**[Configure Twilio to send notifications in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-twilio-key.md)
+**Next topic:**[Configure Twilio to send notifications in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-add-twilio-key.md)
 

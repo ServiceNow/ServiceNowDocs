@@ -2,7 +2,7 @@
 title: Managing territories and agents from Territory Planning console
 description: Use the Territory Planning Console to assign work orders or work order tasks to agents or crews in the territories that best match their location based on conditions that you set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/using-territory-planning-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/using-territory-planning-console.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -22,7 +22,7 @@ The territory map in the Territory Planning Console provides a visual representa
 
 The personas with the role sn\_fsm\_tp.fsm\_territory\_read will only have the view access to Territory Planning console.
 
-**Note:** To identify the best matched territory for a work order task, you must enable the **Field\_Service\_Territories** territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
+**Note:** To identify the best matched territory for a work order task, you must enable the **Field\_Service\_Territories** territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 The following table describes the list of activities you can perform as a territory planner, territory manager, and resource manager in the territory Planning console.
 
@@ -151,14 +151,14 @@ Only for assigned territory
 
 Perform the following tasks to work with territories:
 
--   [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md)
--   [Assign work order tasks to agents or crews from the dispatch queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/c_DispatchWorkOrderTasks.md)
--   [Auto-dispatch a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/c_DispatchWorkOrderTasks.md)
--   [Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
--   [Assign work order tasks to crews on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/assign-wot-to-crew.md)
+-   [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_CreateAWorkOrderTask.md)
+-   [Assign work order tasks to agents or crews from the dispatch queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/c_DispatchWorkOrderTasks.md)
+-   [Auto-dispatch a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/c_DispatchWorkOrderTasks.md)
+-   [Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+-   [Assign work order tasks to crews on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/assign-wot-to-crew.md)
 
 **Related topics**  
 
 
-[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
+[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
 

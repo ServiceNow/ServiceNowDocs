@@ -2,7 +2,7 @@
 title: Workspace
 description: In CRM Workspace, a playbook appears on a record page that is built from components. These components can be customized to fit how agents work through and resolve cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-21"
@@ -28,9 +28,9 @@ Starting from the same set of components, an administrator can build a focused p
 
 ## Page components
 
-A playbook record page is made up of components such as the stage picker, activity picker, activity viewer, contact or consumer lookup, case summarization, and contextual side panel. Each component has a specific role in helping an agent move through the stages and activities of a case and find the information needed to resolve it. For the full list of components and what each one does, see [Page components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-templates.md).
+A playbook record page is made up of components such as the stage picker, activity picker, activity viewer, contact or consumer lookup, case summarization, and contextual side panel. Each component has a specific role in helping an agent move through the stages and activities of a case and find the information needed to resolve it. For the full list of components and what each one does, see [Page components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-templates.md).
 
 ## Configure pages
 
-A playbook record page can be customized to match how a team works. An administrator can activate a page or page variant, change what appears in the page header, adjust the actions in the action bar, and set what shows in the left and contextual side panels. For the customization tasks available on a playbook page, see [Configure templates and pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-pages.md).
+A playbook record page can be customized to match how a team works. An administrator can activate a page or page variant, change what appears in the page header, adjust the actions in the action bar, and set what shows in the left and contextual side panels. For the customization tasks available on a playbook page, see [Configure templates and pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-pages.md).
 

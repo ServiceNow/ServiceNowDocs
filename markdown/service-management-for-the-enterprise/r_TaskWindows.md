@@ -2,7 +2,7 @@
 title: Task windows
 description: A task window is the time period, bordered by start and end times, in which a task is performed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_TaskWindows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_TaskWindows.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ For more information on creating work order tasks, see .
 
 For more information on Work order task start and end dates, see .
 
-**Parent Topic:**[Create a facilities request task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateAFacilitiesRequestTask.md)
+**Parent Topic:**[Create a facilities request task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_CreateAFacilitiesRequestTask.md)
 
-**Parent Topic:**[Request task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_RequestTasksMgmt.md)
+**Parent Topic:**[Request task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_RequestTasksMgmt.md)
 

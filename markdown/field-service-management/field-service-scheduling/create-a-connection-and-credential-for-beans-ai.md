@@ -2,7 +2,7 @@
 title: Set up a connection and credential for Beans.ai travel estimate provider
 description: Create a connection and credential record to use Beans.ai for your travel time estimates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-a-connection-and-credential-for-beans-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/create-a-connection-and-credential-for-beans-ai.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -44,15 +44,15 @@ Role required: wm\_admin
 
 6.  Limit the number of location points for each inquiry to Beans.ai.
 
-    For more information, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-properties.md).
+    For more information, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/schedule-optimization-properties.md).
 
 
 ## What to do next
 
-[Configure travel time estimates with Beans.ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-travel-time-estimates-with-beans-ai.md).
+[Configure travel time estimates with Beans.ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-travel-time-estimates-with-beans-ai.md).
 
 **Related topics**  
 
 
-[Configuring Google Maps API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/google-maps-api-keys.md)
+[Configuring Google Maps API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/google-maps-api-keys.md)
 

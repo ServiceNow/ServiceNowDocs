@@ -2,7 +2,7 @@
 title: Create an issue workflow
 description: Set up a workflow so a specific category of issues, such as vendor risk or compliance issues, follows its own states, layout, and trigger condition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-an-issue-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/create-an-issue-workflow.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -49,7 +49,7 @@ The workflow record is created and its status is set to In Progress. The workflo
 
 ## What to do next
 
-Add the layout, state model, and playbook to the workflow. See [Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md).
+Add the layout, state model, and playbook to the workflow. See [Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md).
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

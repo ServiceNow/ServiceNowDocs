@@ -2,7 +2,7 @@
 title: Configure webhooks in Bitbucket manually
 description: Configure webhooks in Bitbucket to send sync notifications to the DevOps Change Velocity application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/config-webhooks-bitbucket-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/config-webhooks-bitbucket-manually.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -49,5 +49,5 @@ You can also access manual configuration from the Bitbucket tool record in DevOp
 6.  Select **Save**.
 
 
-**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md)
+**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md)
 

@@ -2,7 +2,7 @@
 title: Operational Technology Action-Oriented Landing Page
 description: You can use the Operational Technology \(OT\) Action-Oriented Landing Page to track critical tasks related to your OT network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/oper-tech-task-oriented-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/oper-tech-task-oriented-landing-page.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -184,5 +184,5 @@ No IP address OT devices
 Number of OT devices in your OT network that aren't assigned an IP address.To view the list of OT device records without an IP address, select **All records**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
+</table>**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 

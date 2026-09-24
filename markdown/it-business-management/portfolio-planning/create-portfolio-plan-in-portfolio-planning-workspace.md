@@ -2,7 +2,7 @@
 title: Create a portfolio plan
 description: Use lens and build a personalized portfolio plan in Portfolio Planning Workspace so that you can start to prioritize and align work in the planning perspective of your choice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -71,11 +71,11 @@ Planning items that meet the following criteria appear in the portfolio plan:
 
 ## What to do next
 
--   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.md).
--   Roadmap the prioritized work to visualize and track progress of your plans. See [Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md).
--   [Modify a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/modify-portfolio-plan-in-portfolio-planning-workspace.md).
--   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/show-or-hide-the-features-for-your-portfolio-plan-ppw.md).
--   [Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/share-portfolio-plan-in-portfolio-planning-workspace.md).
+-   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.md).
+-   Roadmap the prioritized work to visualize and track progress of your plans. See [Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md).
+-   [Modify a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/modify-portfolio-plan-in-portfolio-planning-workspace.md).
+-   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/show-or-hide-the-features-for-your-portfolio-plan-ppw.md).
+-   [Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/share-portfolio-plan-in-portfolio-planning-workspace.md).
 
-**Parent Topic:**[Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
+**Parent Topic:**[Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
 

@@ -2,7 +2,7 @@
 title: Enable Guided Activity View
 description: Guide end users through a playbook, step-by-step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/enable-guided-activity-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/enable-guided-activity-view.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +19,7 @@ Guide end users through a playbook, step-by-step.
 ## Before you begin
 
 -   Role required: admin or playbook.admin
--   Familiarize yourself with how to begin customizing the playbook experience in UI Builder. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
+-   Familiarize yourself with how to begin customizing the playbook experience in UI Builder. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
 ## About this task
 

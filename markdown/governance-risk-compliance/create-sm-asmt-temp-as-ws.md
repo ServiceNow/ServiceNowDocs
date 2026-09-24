@@ -2,7 +2,7 @@
 title: Create a Smart Assessment template
 description: Create a Smart Assessment template and impact automation that can be used in the vulnerability types of an operational vulnerability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-sm-asmt-temp-as-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-sm-asmt-temp-as-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,11 +53,11 @@ Operational Resilience administrators contain the flow\_designer role, enabling 
 
     3.  Select **Save**.
 
-    For information on creating an assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    For information on creating an assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 5.  Navigate to the **Questions** tab and set up the assessment questions.
 
-    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
     \[Omitted image "asmt-temp-questions-tab.png"\] Alt text: Questions.
 
@@ -74,5 +74,5 @@ Operational Resilience administrators contain the flow\_designer role, enabling 
 
 ## What to do next
 
-Configure the vulnerability type after adding the Smart Assessment template. For more information, see [Set up the Operational vulnerability type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-op-vul-type.md).
+Configure the vulnerability type after adding the Smart Assessment template. For more information, see [Set up the Operational vulnerability type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-op-vul-type.md).
 

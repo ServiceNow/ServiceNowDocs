@@ -2,7 +2,7 @@
 title: Opt out of Benchmarks
 description: You can opt out of Benchmarks at any time. If you opt out, your company usage data is no longer included in the Benchmarks data set, and you no longer see aggregate metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_OptOutBench-cf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/t\_OptOutBench-cf.html
 release: australia
 product: Benchmarks
 classification: benchmarks

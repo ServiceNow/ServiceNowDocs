@@ -2,7 +2,7 @@
 title: Construct an email message with a template
 description: Email templates provide a list of the fields from database tables that are available for constructing an email message.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_ConstructAnEmailMessage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_ConstructAnEmailMessage.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -46,13 +46,13 @@ Notice that the email recipient can use the following links in the mail:
 -   A link that generates an automatic email response to reject the change
 -   A link to unsubscribe from approval notifications and another link to set notification preferences
 
--   **[Add blank lines in an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AddBlankLinesInAnEmailTemplate.md)**  
+-   **[Add blank lines in an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_AddBlankLinesInAnEmailTemplate.md)**  
 You can easily add blank lines in an email template using HTML tags.
 
-**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md)
+**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailTemplates.md)
 
 **Related topics**  
 
 
-[Email layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-layouts.md)
+[Email layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-layouts.md)
 

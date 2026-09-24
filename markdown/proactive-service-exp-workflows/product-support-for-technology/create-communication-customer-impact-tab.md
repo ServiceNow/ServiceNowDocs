@@ -2,7 +2,7 @@
 title: Communicate with customer about proactive case
 description: Communicate with the customer about the proactive case that is generated for service issue. Address the issue promptly and maintain clear, effective communication with the customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/create-communication-customer-impact-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/create-communication-customer-impact-tab.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -51,10 +51,10 @@ Analyze the service issue in an incident, problem, or change record. If no commu
 
 The system sends an email to the customer or consumer account.
 
-**Parent Topic:**[About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-identify-act-incident.md)
+**Parent Topic:**[About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/psew-identify-act-incident.md)
 
 **Related topics**  
 
 
-[Enhancing customer impact visibility for PSEW processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/enhance-customer-impact-visibility-psew-process.md)
+[Enhancing customer impact visibility for PSEW processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/enhance-customer-impact-visibility-psew-process.md)
 

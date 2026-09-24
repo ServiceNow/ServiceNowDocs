@@ -2,7 +2,7 @@
 title: Deactivate a product catalog item
 description: Deactivate a product catalog item to remove it from the product catalog and the service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_DeactivateAProductCatalogItem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/product-catalog/t\_DeactivateAProductCatalogItem.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -48,7 +48,7 @@ Select **Deactivate** under **Related Links**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ManagingProductCatalogItems.md)
+**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_ManagingProductCatalogItems.md)
 
 **Related topics**  
 

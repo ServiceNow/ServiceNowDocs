@@ -2,7 +2,7 @@
 title: Collaborate with other UI Builder developers
 description: UI Builder provides real-time collaboration tools and user presence indicators for more efficient and intuitive UI development.Track and compare changes between different versions of a page when collaborating with other page builders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/collaboration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/collaboration.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -33,7 +33,7 @@ If you have made changes at the same time as another user you will be prompted t
 
 \[Omitted image "collaboration-overwrite.png"\] Alt text: Modal that asks if you want to overwrite and save the changes you made in UI Builder.
 
-**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-builder.md)
 
 ## Find and compare page changes
 

@@ -2,7 +2,7 @@
 title: Hardware Asset Management integration with Contract Management Pro
 description: Use the Hardware Asset Management \(HAM\) and Contract Management Pro integration to perform contract and obligation extraction from signed contract documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/ham-cm-pro-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/ham-cm-pro-integration.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -45,7 +45,7 @@ Integrating Hardware Asset Management with Contract Management Pro brings contra
 
 -   **Obligation Management**
 
-    Create and manage obligation records and tasks directly from the Hardware Asset Workspace to track and fulfill the responsibilities specified in hardware contracts. For more information, see [Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-obligation-management.md) in the Contract Management Pro documentation. For more information about creating and managing obligation tasks in the Hardware Asset Workspace, see [Manage obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-obligations-in-ham.md).
+    Create and manage obligation records and tasks directly from the Hardware Asset Workspace to track and fulfill the responsibilities specified in hardware contracts. For more information, see [Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-obligation-management.md) in the Contract Management Pro documentation. For more information about creating and managing obligation tasks in the Hardware Asset Workspace, see [Manage obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-obligations-in-ham.md).
 
 -   **Renewal Management**
 
@@ -53,7 +53,7 @@ Integrating Hardware Asset Management with Contract Management Pro brings contra
 
 -   **Metadata and obligation extraction**
 
-    Extract key contract metadata and obligations automatically from an uploaded signed contract document using the manage contract repository agentic workflow. You must install Contract Management Pro Prime and ServiceNow Otto for Contract Management Pro \(`sn_cm_gen_ai`\) applications, and activate the generative AI skills to use this workflow. For more information about installing the plugin and enabling the skills, see [Configure the Manage contract repository agentic workflow for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configure-contract-repo-agentic-workflow-ham.md). For more information about extracting the key contract metadata and obligations from assigned contract, see [Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md).
+    Extract key contract metadata and obligations automatically from an uploaded signed contract document using the manage contract repository agentic workflow. You must install Contract Management Pro Prime and ServiceNow Otto for Contract Management Pro \(`sn_cm_gen_ai`\) applications, and activate the generative AI skills to use this workflow. For more information about installing the plugin and enabling the skills, see [Configure the Manage contract repository agentic workflow for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configure-contract-repo-agentic-workflow-ham.md). For more information about extracting the key contract metadata and obligations from assigned contract, see [Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md).
 
 
 ## Plugins required for HAM and Contract Management Pro integration
@@ -76,7 +76,7 @@ With the Obligation Management \(sn\_cm\_obligation\) plugin activated, the foll
 |now\_assist\_panel\_user|Accesses the ServiceNow Otto panel to activate or deactivate the skills.|
 |sn\_cm\_gen\_ai.ai\_contract\_admin|Provides administrative access to the Manage contract repository agentic workflow. Installs ServiceNow Otto for Contract Management Pro \(sn\_cm\_gen\_ai\) plugin and activates the required skills.|
 
-**Parent Topic:**[Hardware Asset Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-integrations.md)
+**Parent Topic:**[Hardware Asset Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-integrations.md)
 
 **Related topics**  
 

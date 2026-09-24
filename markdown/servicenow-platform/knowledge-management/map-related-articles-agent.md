@@ -2,7 +2,7 @@
 title: Map a related article in Agent Workspace
 description: Discover similar information across articles on a topic while viewing a knowledge article. You can manually map related articles or have the application automatically present related articles using machine learning \(ML\) algorithms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/map-related-articles-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/map-related-articles-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -26,9 +26,9 @@ Role required: agent\_workspace\_user
 
 If you have manually mapped related articles when editing an article in Agent Workspace, those articles are listed in the Related Articles section on the knowledge article view page in the Knowledge Management Service Portal before the related articles that are predicted thorough the Knowledge Management similarity solution.
 
-**Note:** An administrator can train the solution definition for Knowledge Management within the Predictive Intelligence feature to find related articles. For more information, see [Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/train-similarity-solution-km.md).
+**Note:** An administrator can train the solution definition for Knowledge Management within the Predictive Intelligence feature to find related articles. For more information, see [Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/train-similarity-solution-km.md).
 
-This task provides steps to manually map related articles when editing an article in Agent Workspace. You can also manually map related articles when editing an article from the Knowledge Management application in the ServiceNow AI Platform interface. For more information, see [Map related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/map-related-articles.md).
+This task provides steps to manually map related articles when editing an article in Agent Workspace. You can also manually map related articles when editing an article from the Knowledge Management application in the ServiceNow AI Platform interface. For more information, see [Map related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/map-related-articles.md).
 
 ## Procedure
 
@@ -88,12 +88,12 @@ Order in which you want the article to appear in the Related Articles section on
 
 ## Result
 
-The mapped articles are available in the Related Articles section on the Knowledge Management article view page in the Knowledge Management Service Portal. See [Knowledge Management Service Portal article view page features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-view.md).
+The mapped articles are available in the Related Articles section on the Knowledge Management article view page in the Knowledge Management Service Portal. See [Knowledge Management Service Portal article view page features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-service-portal-view.md).
 
-**Note:** Because system administrators can configure the number of knowledge articles shown in the Related Articles section, not all mapped related articles might appear in the Related Articles section. For more information, see [Configure knowledge related articles widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-related-articles-widget.md).
+**Note:** Because system administrators can configure the number of knowledge articles shown in the Related Articles section, not all mapped related articles might appear in the Related Articles section. For more information, see [Configure knowledge related articles widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-related-articles-widget.md).
 
 **Related topics**  
 
 
-[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md)
+[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-workspace.md)
 

@@ -2,7 +2,7 @@
 title: View or edit space allocations of a building
 description: The Space optimization also enables you to view space allocations and make any space-related changes on a building directly. You can view a building stack plan and floor map same as scenarios.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-or-edit-space-alloctions-of-a-building.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/view-or-edit-space-alloctions-of-a-building.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -33,11 +33,11 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
 
 You can perform several actions on a building directly instead of working them through scenario planning. The building view enables you to perform the following:
 
--   View space allocations on each floor based on different view options. For more information on the different view by options that are available, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
+-   View space allocations on each floor based on different view options. For more information on the different view by options that are available, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
 -   Get space details of each allocation on the stack plan same as in scenarios.
 -   Perform map-based space administration. Such as, editing or updating user assignments to a neighborhood.
 -   View space allocations based on the workplace entities. This view option is supported only in the building view. You can specify the entity type based on which you want to see the space allocations.
--   You can also perform changes on a building using a floor map directly. Refer to [Edit a building's spaces using a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/edit-space-details-for-buildings.md).
+-   You can also perform changes on a building using a floor map directly. Refer to [Edit a building's spaces using a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/edit-space-details-for-buildings.md).
 
 ## Procedure
 
@@ -123,10 +123,10 @@ You can perform several actions on a building directly instead of working them t
         The allocation changes are saved automatically.
 
 
--   **[Edit or view a building's spaces based on workplace entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-a-building-s-spaces-based-on-workplace-entities.md)**  
+-   **[Edit or view a building's spaces based on workplace entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-a-building-s-spaces-based-on-workplace-entities.md)**  
 View the spaces in a building based on their entity types. On the floor map, directly add an allocation or modify an allocation of space. Assign spaces to a workplace entity from the floor map.
 
-**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 

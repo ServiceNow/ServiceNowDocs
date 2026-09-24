@@ -2,7 +2,7 @@
 title: Contract and lease management overview for Enterprise Asset Workspace
 description: Use the Contract and lease management view in the Enterprise Asset Workspace to create and manage your enterprise asset contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/lease-management-overview-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/lease-management-overview-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -35,5 +35,5 @@ Use the following tabs to view and manage your enterprise asset contracts:
 -   **My contract approvals**: View all enterprise asset contract and contract renewal requests that are waiting for your approval.
 -   **Terms and conditions**: Create and view terms and conditions for your enterprise asset contracts.
 
-For more information on contracts, see [Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_ContractManagement.md).
+For more information on contracts, see [Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/c_ContractManagement.md).
 

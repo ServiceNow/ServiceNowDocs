@@ -2,7 +2,7 @@
 title: Integrate with Field Service Management
 description: Customer Service Management provides an integration with the Field Service Management application. This integration enables you to view work order and work order task information from a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/activate-fsm-csm-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/activate-fsm-csm-integration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,8 +33,8 @@ Role required: admin
 
 After the plugin is installed, Field Service Management application is integrated with Customer Service Management.
 
--   **[Integrating with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/csm-fsm-integration.md)**  
+-   **[Integrating with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/csm-fsm-integration.md)**  
 The Customer Service with Field Service Management plugin \(com.snc.csm\_fsm\_integration\) provides an integration between the Customer Service Management and Field Service Management applications.
 
-**Parent Topic:**[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-fulfillment.md)
+**Parent Topic:**[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-order-fulfillment.md)
 

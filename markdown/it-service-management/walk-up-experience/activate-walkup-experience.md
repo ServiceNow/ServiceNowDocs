@@ -2,7 +2,7 @@
 title: Activate Walk-up Experience
 description: You can activate the Walk-up Experience plugin \(com.snc.walkup\) if you have the admin role. This plugin includes demo data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/activate-walkup-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/activate-walkup-experience.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -29,7 +29,7 @@ The Interaction Logging, Routing, and Queuing \(com.glide.interaction\) plugin a
 -   Asset Management \(com.snc.asset\_management\)
 -   Service Portal \(com.glide.service-portal\)
 
-To activate Walk-up Experience Badge Reader Integration and for more information about this feature, refer to [Badge Reader Integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/badge-scan-walkup-onsite.md).
+To activate Walk-up Experience Badge Reader Integration and for more information about this feature, refer to [Badge Reader Integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/badge-scan-walkup-onsite.md).
 
 For enhanced security, activate the Explicit Role \(com.glide.explicit\_roles\) plugin. The walk-up user is assigned snc\_external automatically. This plugin was introduced in the ServiceNow AI Platform Paris release.
 
@@ -50,7 +50,7 @@ For enhanced security, activate the Explicit Role \(com.glide.explicit\_roles\) 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Walk-up Experience administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-administration.md)
+**Parent Topic:**[Walk-up Experience administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-experience-administration.md)
 
 **Related topics**  
 

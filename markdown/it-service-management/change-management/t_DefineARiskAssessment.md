@@ -2,7 +2,7 @@
 title: Define risk assessments
 description: Change Management - Risk Assessment provides a flexible way to capture information from the end user to calculate the risk of the associated change request. You can define the risk assessment questions, thresholds, and conditions that calculate risk for any change request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_DefineARiskAssessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_DefineARiskAssessment.html
 release: australia
 product: Change Management
 classification: change-management
@@ -20,7 +20,7 @@ Change Management - Risk Assessment provides a flexible way to capture informati
 
 Role required: itil\_admin
 
-[Change Management - Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/activate-change-risk-assessment.md) must be activated.
+[Change Management - Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/activate-change-risk-assessment.md) must be activated.
 
 ## About this task
 
@@ -275,7 +275,7 @@ The threshold against which the composite score is compared and evaluated.
     -   The weight is calculated as `sum (asmt_metric_result.normalized_value)` where `asmt_metric_result.normalized_value = actual_value * weight`.
     -   The risk calculated as `sum(actual_value * weight) > threshold`. For example, If the result is 7 and moderate threshold is 6 risk is moderate.
 
-**Parent Topic:**[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_RskAsmtCalc.md)
+**Parent Topic:**[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_RskAsmtCalc.md)
 
 **Related topics**  
 

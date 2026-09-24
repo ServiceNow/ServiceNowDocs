@@ -2,7 +2,7 @@
 title: View emergency maintenance case details
 description: Workplace Event planners can view the emergency maintenance case details and the actions taken by AI agents in the case work notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/view-emergency-maint-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/view-emergency-maint-case.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -33,11 +33,11 @@ Role required: sn\_wsd\_rsv.reservation\_planner, sn\_wsd\_case.case\_writer
 
     \[Omitted image "wsd-emergency-maintenance-case-details.png"\] Alt text: Workplace case for Emergency maintenance showing Workplace Event Planners assignment group.
 
-    When an emergency maintenance request is submitted, a workplace case is created. For more information about the emergency maintenance request, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/submit-emergency-maint-request.md).
+    When an emergency maintenance request is submitted, a workplace case is created. For more information about the emergency maintenance request, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/submit-emergency-maint-request.md).
 
-    The change event request workplace case is automatically assigned to the Workplace Event Planner assignment group. It is then assigned manually to a user in the Workplace Event Planners assignment group. When it is assigned to a Workplace Event Planner, AI agentic workflow Manage temporary space closures is triggered. AI agents block a location for maintenance and move any impacted reservations from the blocked location to an available new location. For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
+    The change event request workplace case is automatically assigned to the Workplace Event Planner assignment group. It is then assigned manually to a user in the Workplace Event Planners assignment group. When it is assigned to a Workplace Event Planner, AI agentic workflow Manage temporary space closures is triggered. AI agents block a location for maintenance and move any impacted reservations from the blocked location to an available new location. For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
 
-    Event planners can review the notifications sent by AI agents in the Now Assist panel. AI agents notifies Workplace Event Planners about actions taken through case resolution and case summarization notes in the conversational interface. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
+    Event planners can review the notifications sent by AI agents in the Now Assist panel. AI agents notifies Workplace Event Planners about actions taken through case resolution and case summarization notes in the conversational interface. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
     The team of AI agents also update the case work notes.
 
@@ -68,7 +68,7 @@ Role required: sn\_wsd\_rsv.reservation\_planner, sn\_wsd\_case.case\_writer
 5.  An email notification is triggered and sent to workplace reservation administrators and event planners for the updated reservation location.
 
 
-**Parent Topic:**[Managing Workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/manage-workplace-cases.md)
+**Parent Topic:**[Managing Workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/manage-workplace-cases.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a contract template to contain content controls
 description: Create a contract template using the Microsoft Word add-in for ServiceNow Contracts to which you can then add content controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -20,7 +20,7 @@ Create a contract template using the Microsoft Word add-in for ServiceNow Contra
 
 Verify that the application scope is set to **Global** by selecting the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon\) in the header of your homepage.
 
-If you’re creating a contract template for a non-task table, verify that the non-task table is added in the extension script. For more information, see [Configure non-task tables for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-config-non-tsk-tbl-cn-tmplt.md).
+If you’re creating a contract template for a non-task table, verify that the non-task table is added in the extension script. For more information, see [Configure non-task tables for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-config-non-tsk-tbl-cn-tmplt.md).
 
 Role required: sn\_cm\_core.contract\_config
 
@@ -110,7 +110,7 @@ When this option is selected:
 
 -   You can’t upload a participant-based template.
 -   The **Participants** related list isn’t available.
-For more information, see [Add and configure signature blocks using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-add-sign-block.md).
+For more information, see [Add and configure signature blocks using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-addin-add-sign-block.md).
 
 </td></tr><tr><td>
 
@@ -150,9 +150,9 @@ The contract template is saved in the Draft state.
 
 ## What to do next
 
-[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
+[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
 
-**Parent Topic:**[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
+**Parent Topic:**[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure Zoom integration
 description: Configure Zoom to seamlessly integrate meeting invites originating from Hiring Experiences with your Zoom account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-zoom-integration-ta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-zoom-integration-ta.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,5 +19,5 @@ Configure Zoom to seamlessly integrate meeting invites originating from Hiring E
 
 For more information, see [Set up the Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-zoom.md).
 
-**Parent Topic:**[Integrations for Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-with-talent-acquisition.md)
+**Parent Topic:**[Integrations for Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-with-talent-acquisition.md)
 

@@ -2,7 +2,7 @@
 title: Perform model risk assessment
 description: Perform the model risk assessment initiated by the Model Governance team to identify and assess the risks related to a quantitative model using the Model Risk Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/perform-model-risk-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/perform-model-risk-assessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: sn\_model\_risk\_mgmt.model\_owner or sn\_model\_risk\_mgmt.model
 
 The model risk task is submitted for approval. If no approvers are configured, the model directly moves to the Pre-deployment state.
 
-**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-mrm.md)
 

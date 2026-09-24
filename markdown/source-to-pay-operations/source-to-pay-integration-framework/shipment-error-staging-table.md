@@ -2,7 +2,7 @@
 title: Shipment Error staging table
 description: The Shipment Error \[sn\_spend\_intg\_shipment\_error\] staging table temporarily stores important data on any shipment errors before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/shipment-error-staging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/shipment-error-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -22,7 +22,7 @@ The Shipment Error \[sn\_spend\_intg\_shipment\_error\] staging table temporaril
 |Sales order number|String|Unique identifier for a customer's purchase.|
 |Supplier shipment number|String|Shipment number of the supplier.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

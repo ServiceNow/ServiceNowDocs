@@ -2,7 +2,7 @@
 title: Define infrastructure
 description: Define an Infrastructure that is any systems, software services, and any associated physical or virtual resources intended to support some purpose of an attack.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-infrastructure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-infrastructure.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -174,5 +174,5 @@ Vulnerabilities
 Lists a weakness or defect in a software or hardware that attackers exploit which is associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-infrastructure.md)
+</table>**Parent Topic:**[Infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-infrastructure.md)
 

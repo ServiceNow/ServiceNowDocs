@@ -2,7 +2,7 @@
 title: Add a task to the crisis event
 description: Add a task to the crisis event in BCM UIB Workspace. You can then monitor and complete the required actions to respond to the crisis event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-event-task-to-crisis-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-event-task-to-crisis-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Users with an edit access to the event record can edit the fields in the recover
 -   **Actual end**
 -   **Assigned group**
 
-For more information, see [Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
+For more information, see [Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
 
 ## Procedure
 
@@ -60,7 +60,7 @@ For more information, see [Structured workflows for Crisis events](https://raw.g
 
 6.  After the bulk add completes, wait for the auto-refresh banner to dismiss, or select **Refresh** to refresh the **Event tasks** list manually.
 
-    The **Event tasks** list does not auto-refresh row by row. Instead, the banner **The event tasks are updated. Select Refresh to see updated data. List will auto-refresh once all tasks are created.** is displayed while the system creates the tasks. About ten seconds after the last task is created, the list refreshes once. This avoids repeated refreshes on event tasks lists that contain a large number of rows. For more information, see [Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-event-task-template-progress.md).
+    The **Event tasks** list does not auto-refresh row by row. Instead, the banner **The event tasks are updated. Select Refresh to see updated data. List will auto-refresh once all tasks are created.** is displayed while the system creates the tasks. About ten seconds after the last task is created, the list refreshes once. This avoids repeated refreshes on event tasks lists that contain a large number of rows. For more information, see [Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-event-task-template-progress.md).
 
     \[Omitted image "event-tasks-auto-refresh-banner.png"\] Alt text: Yellow banner stating the event tasks are updated with a Refresh button.
 
@@ -74,7 +74,7 @@ For more information, see [Structured workflows for Crisis events](https://raw.g
 
     **Note:** An ad-hoc task is added to the crisis event so that you can take corrective actions for the crisis event. When you add an ad-hoc task to the crisis event that is in the **Work in progress** state and if the activated plan is in the **Work in progress** state, the tasks will be in the **Open** state. If the activated plan is in the **Pending** state, the task will be in the **Pending** state.
 
-    For more information on the fields in the New Event Task form, see [Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
+    For more information on the fields in the New Event Task form, see [Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
 
     **Note:** You cannot create an ad-hoc task for the activated plans that are in **Closed Complete** or **Closed Incomplete** state.
 
@@ -105,5 +105,5 @@ For more information, see [Structured workflows for Crisis events](https://raw.g
 17. Select the refresh icon \(\[Omitted image "RefreshAlertsIcon.png"\] Alt text: Refresh icon.\) to display the updated state of the asset or plan, and the actual time taken to recover the asset.
 
 
-**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

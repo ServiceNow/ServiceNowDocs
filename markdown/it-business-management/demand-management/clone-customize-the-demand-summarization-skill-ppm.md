@@ -2,7 +2,7 @@
 title: Copy and customize the demand summarization skill
 description: Copy the base demand summarization skill and customize it with your own fields, related entities, and prompt to summarize demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/clone-customize-the-demand-summarization-skill-ppm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/clone-customize-the-demand-summarization-skill-ppm.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -75,7 +75,7 @@ Action
 Select the cross icon next to an input field.
 
 </td></tr></tbody>
-</table>    For more information on the default input fields and related tables, see [Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/inputs-for-ai-skills-ppm.md).
+</table>    For more information on the default input fields and related tables, see [Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/inputs-for-ai-skills-ppm.md).
 
 8.  Add rules or conditions for the skill.
 
@@ -178,5 +178,5 @@ The copy of the demand summarization skill is activated. This will now be used t
 
 After cloning the demand summarization skill, you can create and customize prompts for the skill using the AI Skill Kit. You can use a base prompt and create a prompt of your own. For more information, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-prompt-template.md). This prompt will be applied to the skill in Demand Management.
 
-**Parent Topic:**[Configure the demand AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configure-the-demand-summarization-skill-ppm.md)
+**Parent Topic:**[Configure the demand AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/configure-the-demand-summarization-skill-ppm.md)
 

@@ -2,7 +2,7 @@
 title: Use the Agent Client Collector Health Dashboard
 description: The Agent Client Collector Health Dashboard enables you to monitor the status of the agents in your system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-health-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-health-dashboard.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -35,5 +35,5 @@ Role required: agent\_client\_collector\_admin
     You can refresh all widgets on the dashboard by selecting the form header icon \[Omitted image "acc-hamburger-icon.png"\] Alt text: Form header icon and then selecting **Refresh**.
 
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

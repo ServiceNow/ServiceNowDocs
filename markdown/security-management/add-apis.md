@@ -2,7 +2,7 @@
 title: Add APIs
 description: All the selected capabilities are listed as tabs on the Add APIs page. Add at least one API for each capability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/add-apis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/add-apis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,15 +31,15 @@ Role required: sn\_si\_int\_kit.integration\_creator
 
 3.  Select **API type**.
 
-<table id="choicetable_g42_4hf_ngc"><thead><tr><th align="left" id="d74069e96">
+<table id="choicetable_g42_4hf_ngc"><thead><tr><th align="left" id="d73825e96">
 
 Option
 
-</th><th align="left" id="d74069e99">
+</th><th align="left" id="d73825e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d74069e105">
+</th></tr></thead><tbody><tr><td id="d73825e105">
 
 **Choose new API**
 
@@ -74,7 +74,7 @@ You can modify the script if necessary.
 7.  To add multiple APIs, select the **+** icon and repeat from step 2.
 
 
-</td></tr><tr><td id="d74069e210">
+</td></tr><tr><td id="d73825e210">
 
 **Choose from existing API**
 

@@ -2,7 +2,7 @@
 title: View TLM and TRM lifecycle timelines on the Gantt chart
 description: Use the Gantt chart to view and track Technology Lifecycle Management \(TLM\) and Technology Reference Model \(TRM\) lifecycle timelines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,14 +51,14 @@ Role required: sn\_apm.apm\_analyst
     \[Omitted image "TRM-selected-gantt-chart.png"\] Alt text: Show list displaying the TRM option.
 
 
-**Parent Topic:**[Working with Gantt chart views in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-gantt-chart-views.md)
+**Parent Topic:**[Working with Gantt chart views in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-gantt-chart-views.md)
 
 **Related topics**  
 
 
-[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
+[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-trm.md)
 
-[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
+[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-tpm.md)
 
-[Working with application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-app-rat.md)
+[Working with application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-app-rat.md)
 

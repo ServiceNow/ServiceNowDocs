@@ -2,7 +2,7 @@
 title: Create a data stream action to get user activity
 description: Create a data stream action to get user activity from a SaaS application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-data-stream-get-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/saas-license-management/create-data-stream-get-activity.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -124,7 +124,7 @@ Connection Alias
 
 </td><td>
 
-Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-integration-custom.md)
+Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-integration-custom.md)
 
 </td></tr><tr><td>
 
@@ -191,7 +191,7 @@ Connection Alias
 
 </td><td>
 
-Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-integration-custom.md)
+Connection alias that you created when you created the integration profile. If you have not yet created an integration profile, follow the steps to [create a custom integration profile with a connection alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-integration-custom.md)
 
 </td></tr><tr><td>
 

@@ -2,12 +2,12 @@
 title: DEX Architecture
 description: Digital End-User Experience \(DEX\) architecture describes the cloud-native services, endpoint agents, and data flows that connect end-user devices to your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-architecture.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/dex-architecture.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 keywords: [dex architecture, cloud-native services, endpoint agents, agent client collector \(acc\), browser extension, dex desktop assistant, shared services architecture, mtls authentication, grpc connection, data security, data isolation, data retention, role-based access, agent registration, certificate signing, hermes messaging service, stream connect]
 breadcrumb: [Explore, Digital End-User Experience, IT Service Management]
@@ -24,9 +24,9 @@ DEX uses a set of new multitenant, cloud-native services called ServiceNow share
 ## Binaries installed on endpoints
 
 -   Agent Client Collector \(ACC\): Deployed onto the end-user device endpoints such as a laptop or Virtual Desktop infrastructure \(VDI\) to collect various device level performance and operational metrics. ACC enables you to do the following:
-    -   Configure a policy frequency to control what metrics are collected and the frequency of collection. To learn more about the metrics collected by DEX, see [View collected metrics with Metrics analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/view-dex-metrics.md).
+    -   Configure a policy frequency to control what metrics are collected and the frequency of collection. To learn more about the metrics collected by DEX, see [View collected metrics with Metrics analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/view-dex-metrics.md).
     -   Run remedial actions on the endpoint, such as clearing cache and restarting an application.
--   Browser extension: Helps track application performance and network metrics like page load time and network jitter. The communication between the browser extension and ACC, as well as the device and application metrics, are routed via the ServiceNow shared services. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
+-   Browser extension: Helps track application performance and network metrics like page load time and network jitter. The communication between the browser extension and ACC, as well as the device and application metrics, are routed via the ServiceNow shared services. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
 -   DEX Desktop Assistant: Enables employees to incorporate ServiceNow functionality into their daily workflow, providing access to monitoring local applications, requests, and push notifications and to performing network tests.
 
 ## Agent registration highlights
@@ -57,11 +57,11 @@ Various security measures help verify that scripts run securely.
 
 -   Role-based access: All actions are available to only specific roles and user criteria within ServiceNow. For example, advanced actions can be assigned to the DEX engineer role and basic actions to the Service Desk.
 
-    For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
+    For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
 
 -   Audit: All action runs are audited in the Remedial Action Executions table \(ssn\_reacf\_remedial\_action\_execution\).
 
-    For information about emergency plans \(such as notification and restore the service\), see [DEX subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-subscription.md).
+    For information about emergency plans \(such as notification and restore the service\), see [DEX subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-subscription.md).
 
 
 ## Data isolation
@@ -84,7 +84,7 @@ Agent assets and plugins \(like DEX\) that are downloaded from your ServiceNow i
 
 All collected data is transformed and presented on your ServiceNow instance.
 
-Any data collected in the context of DEX is visible to users only with appropriate DEX roles. For more information about the DEX roles, see [Installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.md).
+Any data collected in the context of DEX is visible to users only with appropriate DEX roles. For more information about the DEX roles, see [Installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.md).
 
 When following the standard ServiceNow practices on data governance, no special handling is required for DEX.
 

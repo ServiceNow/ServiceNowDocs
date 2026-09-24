@@ -2,7 +2,7 @@
 title: Do the following until flow logic
 description: Apply one or more actions repeatedly until an end condition is met. You can use the flow data to specify the end conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-do-until.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-logic-do-until.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -55,7 +55,7 @@ In this example, the flow sends a daily email about the incident, until the inci
 2.  This flow logic can run actions or subflows multiple times until it's condition is met. Use the arrow icons to select an iteration and its values.
 3.  The Actions section shows details on the actions, flows, or subflows that are run during this loop iteration.
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

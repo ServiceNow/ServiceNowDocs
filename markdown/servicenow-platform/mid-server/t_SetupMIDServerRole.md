@@ -2,7 +2,7 @@
 title: Create the MID Server user and grant the role
 description: To communicate with the instance, MID Servers need a user ID and the mid\_server role. Create the user ID for a MID Server and grant the respective role. To prevent MID Server validation failure, ServiceNow enforces role requirements for MID Server users.Real-time system validation of MID Server role assignments prevents incompatible settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_SetupMIDServerRole.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/t\_SetupMIDServerRole.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -33,7 +33,7 @@ The MID Server connects to an instance using the SOAP web service. To allow auth
 
 If multiple MID Servers are using the same logged in user, an issue record is created when more than one is **Up** at a time. It is recommended that MID Servers use a unique logged in user. See [\(KB1552863\) MID Server Unique Logged In User](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1552863) for more information and remediation steps.
 
-**Important:** Improve security by using MID Server mutual authentication instead of basic authentication. See [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-mid-mutual-auth.md) for more information.
+**Important:** Improve security by using MID Server mutual authentication instead of basic authentication. See [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/install-mid-mutual-auth.md) for more information.
 
 ## Procedure
 
@@ -57,7 +57,7 @@ User ID
 
 </td><td>
 
-User name for the MID Server user. This name is specified in the **mid.instance.username** parameter of the configuration file that the MID Server installer creates. For details, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
+User name for the MID Server user. This name is specified in the **mid.instance.username** parameter of the configuration file that the MID Server installer creates. For details, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md).
 
  **Note:** Avoid using the same MID Server logged in user across multiple MID Servers.
 
@@ -144,5 +144,5 @@ The User Role \[sys\_user\_has\_role\] table creates the relationship between th
 
 ### What to do next
 
-[Download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_DownloadMIDServerFiles.md) the MID Server files for your operating system.
+[Download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_DownloadMIDServerFiles.md) the MID Server files for your operating system.
 

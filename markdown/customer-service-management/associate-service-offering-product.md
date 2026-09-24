@@ -2,7 +2,7 @@
 title: Associate services with product models
 description: Enable customers to select services for products by associating services with product models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-service-offering-product.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-service-offering-product.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

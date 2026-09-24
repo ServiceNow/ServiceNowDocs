@@ -2,7 +2,7 @@
 title: Mark records for deletion
 description: Mark records for deletion according to one or more criteria by creating a delete job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/mark-records-for-deletion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/mark-records-for-deletion.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -57,7 +57,7 @@ The job is saved and the form displays options to schedule the job or execute it
 
 ## What to do next
 
-[Preview affected records for deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/preview-affected-records-for-deletion.md).
+[Preview affected records for deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/preview-affected-records-for-deletion.md).
 
-**Parent Topic:**[Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deleting-records-safely.md)
+**Parent Topic:**[Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/deleting-records-safely.md)
 

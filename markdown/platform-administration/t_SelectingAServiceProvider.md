@@ -2,7 +2,7 @@
 title: Select a service provider
 description: You can configure how a device's service provider affects the construction of the device's email address.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SelectingAServiceProvider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_SelectingAServiceProvider.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: admin
     4.  Select **Save**.
 
 
-**Parent Topic:**[Create a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAServiceProvider.md)
+**Parent Topic:**[Create a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateAServiceProvider.md)
 

@@ -2,7 +2,7 @@
 title: Public Sector Digital Services GOV.UK Developer Toolkit reference
 description: Reference tables and forms for configuring and using GOV.UK Developer Toolkit capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-guk-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-guk-ref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,5 +17,5 @@ Reference tables and forms for configuring and using GOV.UK Developer Toolkit ca
 **Related topics**  
 
 
-[GOV.UK Design System Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md)
+[GOV.UK Design System Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-widget-lib.md)
 

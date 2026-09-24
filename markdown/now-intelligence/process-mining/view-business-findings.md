@@ -2,7 +2,7 @@
 title: Viewing business insights
 description: View key information about your business process from the Summary and insights page. See goals and performance indicators, and get insights on the improvement opportunities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/view-business-findings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/view-business-findings.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -29,7 +29,7 @@ The Summary and insights page shows opportunities for optimizing your process. Y
 
 The Goals and KPIs section is configured from the UI Builder.
 
-From the Goals and KPIs section, choose a visualization to analyze indicator details more closely from the [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md) view. KPI Details shows you trends, predictions, breakdowns, and associated records for a specific indicator. The KPI Details page leads you to deeper information behind your key performance indicators.
+From the Goals and KPIs section, choose a visualization to analyze indicator details more closely from the [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details.md) view. KPI Details shows you trends, predictions, breakdowns, and associated records for a specific indicator. The KPI Details page leads you to deeper information behind your key performance indicators.
 
 \[Omitted image "summary-insights-goals-kpis.png"\] Alt text: Summary and Insights - Goals and KPIs example
 
@@ -87,10 +87,10 @@ All routes for a process show in the Variation Analysis section. You can sort th
 
 Select **View in Workbench** to view the project for an individual route.
 
-**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/analyze-get-process-insights.md)
 
 **Related topics**  
 
 
-[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md)
+[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details.md)
 

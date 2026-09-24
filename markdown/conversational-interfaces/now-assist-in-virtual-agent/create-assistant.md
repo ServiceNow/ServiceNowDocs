@@ -2,7 +2,7 @@
 title: Create a chat assistant
 description: Create a chat assistant on your instance. Add basic details and set your assistant as a primary assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,7 +18,7 @@ Create a chat assistant on your instance. Add basic details and set your assista
 
 ## Before you begin
 
-See [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/view-assistants.md).
+See [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/view-assistants.md).
 
 When configuring a chat assistant, notes throughout the procedures show where there are variations between the setup for ServiceNow Otto for Virtual Agent assistants and the setup for ServiceNow Otto panel \(Platform and Developer\) assistants.
 
@@ -30,7 +30,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-Set up basic details for your assistant and set it as a primary assistant. Primary assistants can be linked to secondary assistants. For general information about primary and secondary assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
+Set up basic details for your assistant and set it as a primary assistant. Primary assistants can be linked to secondary assistants. For general information about primary and secondary assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
 ## Procedure
 
@@ -59,5 +59,5 @@ Set up basic details for your assistant and set it as a primary assistant. Prima
 
 ## What to do next
 
-See [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
+See [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
 

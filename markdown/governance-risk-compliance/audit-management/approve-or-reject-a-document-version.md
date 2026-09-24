@@ -2,7 +2,7 @@
 title: Approve or reject a document version
 description: Review or approve a document version that is waiting for your action from your task list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/approve-or-reject-a-document-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/approve-or-reject-a-document-version.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -34,6 +34,6 @@ You must be assigned as the reviewer or approver on the document version.
 
     1.  Select **Reject** to send the version back to the **Draft** state.
 
-    After the reviewer completes their review, the version moves to **Awaiting approval**. After every approver in the sequence approves the version, the document owner can publish the version. For the steps, see [Publish a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/publish-a-document-version.md).
+    After the reviewer completes their review, the version moves to **Awaiting approval**. After every approver in the sequence approves the version, the document owner can publish the version. For the steps, see [Publish a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/publish-a-document-version.md).
 
 

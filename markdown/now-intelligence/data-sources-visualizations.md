@@ -2,7 +2,7 @@
 title: Data sources for data visualizations
 description: Each workspace data visualization references a specific data source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-sources-visualizations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-sources-visualizations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -55,7 +55,7 @@ When you select an indicator data source, you see a preview of the visualization
 
 **Note:** Many data visualizations support multiple data sources. However, you cannot mix Data snapshots indicators and regular indicators. If your first data source is a regular indicator \(automated, formula, or manual\), then only regular indicators are available for your additional data source. If your first data source is an automated or formula Data snapshots indicator, only Data snapshots are available for additional data sources.
 
-For more information, see [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md).
+For more information, see [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_Indicators.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ Activated by default. However, to include Usage Insights data sources in your vi
 
 </td><td>
 
-The ServiceNow® Usage Insights application provides dashboard views for monitoring usage analytics of your web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.For more general information about Usage Insights, see [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md). For more information specific to data visualizations, see [Usage Insights data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/uxa-data-sources.md).
+The ServiceNow® Usage Insights application provides dashboard views for monitoring usage analytics of your web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.For more general information about Usage Insights, see [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/user-exp-analytics-landing.md). For more information specific to data visualizations, see [Usage Insights data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/uxa-data-sources.md).
 
 </td></tr><tr><td>
 
@@ -108,5 +108,5 @@ The Health Log Analytics application helps prevent IT issues before your users a
  **Note:** You can create and edit data visualizations for Health Log Analytics only in the UI Builder, not in the Platform Analytics Visualization Designer or in dashboards.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-visualization-reference.md)
+</table>**Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-visualization-reference.md)
 

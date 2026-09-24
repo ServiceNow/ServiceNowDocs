@@ -2,7 +2,7 @@
 title: Activate the Service Mapping Candidate skill
 description: The Service Mapping Candidate skill provides ServiceNow Otto the ability to classify app service candidates and generate a description for them. The skill is active by default. If needed, administrators can activate or deactivate the skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/activate-sm-candidate-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/activate-sm-candidate-skill.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -28,7 +28,7 @@ The Service Mapping Candidate skill provides names for processes and application
 
 ## Before you begin
 
-Before activating the ServiceNow Otto skills, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+Before activating the ServiceNow Otto skills, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
 
 You must configure the following settings:
 

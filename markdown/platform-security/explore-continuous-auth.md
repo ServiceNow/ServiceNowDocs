@@ -2,7 +2,7 @@
 title: Exploring Continuous Authentication
 description: ServiceNow's continuous authentication \(CA\) enables you to re-verify and authenticate a user if they access resources that are protected by you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/explore-continuous-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/explore-continuous-auth.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -61,24 +61,24 @@ To configure CA you must elevate your role to **ca\_admin** and perform the poli
 
 Following are the different modules within CA:
 
--   [Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-policies.md): View the different continuous authentication policies that are created.
--   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-metrics.md): View the different metrics for continuous authentication for KPI purposes and understand the usage of CA within your organization.
--   [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-system-properties.md): Use system properties to enable and customize continuous authentication \(CA\) to meet your zero trust access security requirements.
+-   [Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-policies.md): View the different continuous authentication policies that are created.
+-   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-metrics.md): View the different metrics for continuous authentication for KPI purposes and understand the usage of CA within your organization.
+-   [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-system-properties.md): Use system properties to enable and customize continuous authentication \(CA\) to meet your zero trust access security requirements.
 
 **Related topics**  
 
 
-[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-policies.md)
+[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-policies.md)
 
-[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-metrics.md)
+[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-metrics.md)
 
-[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-system-properties.md)
+[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-system-properties.md)
 
-[Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/pre-work-ca.md)
+[Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/pre-work-ca.md)
 
-[Activating Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-continuous-authentication.md)
+[Activating Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/activate-continuous-authentication.md)
 
-[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-ca.md)
+[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-ca.md)
 
-[High Assurance session with Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/high-assurance-ca.md)
+[High Assurance session with Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/high-assurance-ca.md)
 

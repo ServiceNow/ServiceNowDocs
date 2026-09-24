@@ -2,7 +2,7 @@
 title: Customize AI Search results
 description: Customize AI Search results to provide users with a tailored search experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/advanced-text-search-customize.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-mobile-employee-experience/advanced-text-search-customize.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -127,9 +127,9 @@ Option for controlling the section header display.-   If selected, auto-complete
 
 ## What to do next
 
-After you have customized the display of your search results, select the AI Search results to be displayed in an applet launcher. See, [Add AI Search to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/aisearch-add-applet-launcher.md).
+After you have customized the display of your search results, select the AI Search results to be displayed in an applet launcher. See, [Add AI Search to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/aisearch-add-applet-launcher.md).
 
 Consider configuring a customized empty state display to inform users that their search has not produced any results. If you do not customize an empty state, a preconfigured default empty state is displayed. To customize an empty state, see [Configure an empty state for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/empty-state-search-results.md).
 
-**Parent Topic:**[AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md)
+**Parent Topic:**[AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md)
 

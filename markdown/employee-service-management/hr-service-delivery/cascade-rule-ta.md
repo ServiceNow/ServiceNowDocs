@@ -2,7 +2,7 @@
 title: Cascade rules for cleaning data
 description: Cascade rules determine a thorough cleanup of the outdated data and its related counterparts at source from the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/cascade-rule-ta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/cascade-rule-ta.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,5 +25,5 @@ Cascade rules determine a thorough cleanup of the outdated data and its related 
 |A job application is deleted.|All extracted skills associated with the job application are deleted.|
 |A job application is deleted.|All the details from the applicant profile are deleted.|
 
-**Parent Topic:**[Modify purge policies to clean up data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-purge-pollicies-ta.md)
+**Parent Topic:**[Modify purge policies to clean up data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-purge-pollicies-ta.md)
 

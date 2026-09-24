@@ -2,7 +2,7 @@
 title: Google Cloud SQL Spoke
 description: Mange provisioning of MySQL and PostgreSQL in Google Cloud SQL from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/gcloud-sql-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/gcloud-sql-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -83,5 +83,5 @@ The Google Cloud SQL provides actions to automate  tasks when events occurs in y
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Google Cloud SQL spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcloud-sql.md).
+For information about setting up the spoke, see [Set up the Google Cloud SQL spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-gcloud-sql.md).
 

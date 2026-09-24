@@ -2,7 +2,7 @@
 title: View the general details of a business continuity plan
 description: Use the Details tab of the plan to view the general information about the template that is used for the plan, its type, and other details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-general-details-bcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-general-details-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

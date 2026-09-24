@@ -2,7 +2,7 @@
 title: Generate a knowledge article from a case
 description: Use ServiceNow Otto to generate a knowledge article from a closed case in the Source-to-Pay Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-knowledge-article-single-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-knowledge-article-single-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

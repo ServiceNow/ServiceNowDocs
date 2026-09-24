@@ -2,7 +2,7 @@
 title: Activate Fiscal Calendar plugin
 description: If you have the admin role, you can activate the Fiscal Calendar plugin \(com.snc.fiscal\_calendar\). This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/activate-fiscal-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/activate-fiscal-calendar.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -32,10 +32,10 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Defining fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_FiscalCalendar.md)
+**Parent Topic:**[Defining fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_FiscalCalendar.md)
 
 **Related topics**  
 

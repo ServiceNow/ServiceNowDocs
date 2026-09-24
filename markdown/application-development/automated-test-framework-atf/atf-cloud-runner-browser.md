@@ -2,7 +2,7 @@
 title: Cloud Runner browser
 description: If you are running a test or a test suite, select the Cloud Runner browser option to run your tests in a cloud browser.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-cloud-runner-browser.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-cloud-runner-browser.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -43,5 +43,5 @@ If you want to use the Cloud Runner browser option, you are required to complete
 
 **Note:** See [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-intro.md) for more information.
 
-**Parent Topic:**[Pick a browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-pick-a-browser.md)
+**Parent Topic:**[Pick a browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-pick-a-browser.md)
 

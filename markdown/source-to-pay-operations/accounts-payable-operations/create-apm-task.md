@@ -2,7 +2,7 @@
 title: Create an invoice task
 description: Create an invoice task and assign it to a user or group to resolve an invoice inquiry case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-apm-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-apm-task.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -37,10 +37,10 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
 
 6.  On the Create New Invoice task form, fill in the fields.
 
-    For a description of the field values, see [Create New Invoice task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-apm-task-form.md).
+    For a description of the field values, see [Create New Invoice task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-apm-task-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
+**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
 

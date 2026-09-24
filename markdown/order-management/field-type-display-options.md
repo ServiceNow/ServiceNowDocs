@@ -2,7 +2,7 @@
 title: Field type display options
 description: Field type display options
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/field-type-display-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/field-type-display-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -272,5 +272,5 @@ VisualProductPicker: Shows the product picker and its subfields as a Visual Pick
 **Related topics**  
 
 
-[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md)
+[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/fields_101.md)
 

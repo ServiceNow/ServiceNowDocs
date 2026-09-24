@@ -2,7 +2,7 @@
 title: Components installed with Employee Document Management
 description: Several types of components install with the activation of the Employee Document Management \[com.sn\_employee\_document\_management\] plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/installed-w-employee-doc-mngemnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/installed-w-employee-doc-mngemnt.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -76,7 +76,7 @@ Employee Document Management Reader\[sn\_hr\_ef.document\_reader\]
 Can:-   Access Employee Document Management.
 -   Search and read employee documents.
 
-**Note:** Add this role to the Read access tab on the security policy of the employee document. See [Add or modify document security policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md).
+**Note:** Add this role to the Read access tab on the security policy of the employee document. See [Add or modify document security policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md).
 
 
 </td><td>
@@ -93,7 +93,7 @@ Can:-   Access Employee Document Management.
 -   Search and read employee documents.
 -   Create and update employee documents.
 
- **Note:** Add this role to the Write access tab on the security policy of the employee document. See [Add or modify document security policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md).
+ **Note:** Add this role to the Write access tab on the security policy of the employee document. See [Add or modify document security policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md).
 
 </td><td>
 
@@ -307,7 +307,7 @@ Document Type Security Policy\[sn\_hr\_ef\_m2m\_doc\_type\_sec\_policy\]
 Associates security policies to a document type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference - Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/reference-employee-document-management.md)
+</table>**Parent Topic:**[Reference - Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/reference-employee-document-management.md)
 
 **Related topics**  
 

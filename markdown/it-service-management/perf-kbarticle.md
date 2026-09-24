@@ -2,7 +2,7 @@
 title: KB article tab
 description: See which articles are retrieved, cited in responses, or left unused. Identify which content is driving successful resolutions and where gaps exist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/perf-kbarticle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/perf-kbarticle.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-02"

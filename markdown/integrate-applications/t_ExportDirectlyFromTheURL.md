@@ -2,7 +2,7 @@
 title: Export directly from a URL
 description: Dynamically export data from a script or web service by building a URL query.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/t\_ExportDirectlyFromTheURL.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/t\_ExportDirectlyFromTheURL.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

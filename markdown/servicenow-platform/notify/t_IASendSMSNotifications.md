@@ -2,7 +2,7 @@
 title: Send communication updates for an incident communications plan
 description: Update users on the latest communication on an incident through selected communication channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_IASendSMSNotifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/t\_IASendSMSNotifications.html
 release: australia
 product: Notify
 classification: notify
@@ -39,7 +39,7 @@ Update users on the latest communication on an incident through selected communi
 6.  Click **Send**.
 
 
-**Parent Topic:**[Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
+**Parent Topic:**[Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a user group
 description: Create groups and assign roles to them. Users assigned to the group inherit the roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_CreateAGroup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/t\_CreateAGroup.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -60,7 +60,7 @@ Type
 
 </td><td>
 
-Category for this group. For example, a group designated as type **catalog** is a service catalog group and can also be accessed under the **Service Catalog** &gt; **Catalog Policy** &gt; **Fulfillment Groups** module. See [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ConfigGroupTypesForAssignGroups.md) for more information.You may need to [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md) to add the **Type** field. Activating the Work Management plugin adds the **Type** field automatically.
+Category for this group. For example, a group designated as type **catalog** is a service catalog group and can also be accessed under the **Service Catalog** &gt; **Catalog Policy** &gt; **Fulfillment Groups** module. See [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/c_ConfigGroupTypesForAssignGroups.md) for more information.You may need to [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md) to add the **Type** field. Activating the Work Management plugin adds the **Type** field automatically.
 
 **Note:** ITIL is added for groups with an empty group type. Also, the default reference qualifier for tasks enables these groups to assign tasks and other task types to the group.
 
@@ -122,7 +122,7 @@ Helpful information about the group.
 
         Create a true/false field labeled `Hidden` on the Group form.
 
-        For more information on creating fields, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md)
+        For more information on creating fields, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreatingNewFields.md)
 
         The system creates a field called **u\_hidden** on the **Users \[sys\_user\_group\]** table and enables use of the **Hidden** check box to designate a hidden group.
 
@@ -146,5 +146,5 @@ The user group is created based on the configuration that you've provided.
 
 When `glide.ui.schedule_job_for_group_parent_change` is set to true, removing a parent group results in the roles of the parent group being added to the child group asynchronously. If `glide.ui.schedule_job_for_group_parent_change` is set to false, the roles of the parent group are added to the child group synchronously when the parent group is removed.
 
-**Parent Topic:**[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-groups.md)
+**Parent Topic:**[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/ua-creating-groups.md)
 

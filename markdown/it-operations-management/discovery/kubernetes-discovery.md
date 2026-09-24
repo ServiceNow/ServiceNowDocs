@@ -2,7 +2,7 @@
 title: Kubernetes discovery using patterns
 description: The ServiceNow ITOM Visibility finds Kubernetes and OpenShift components using patterns and creates application services containing them. Discovery also finds Kubernetes events and frequently updates the CMDB to reflect the dynamic Kubernetes environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/kubernetes-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/kubernetes-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -37,7 +37,7 @@ Discovery uses the following patterns to discover the entire Kubernetes infrastr
 
 These patterns query the Cloud, collect data on all Kubernetes clusters, and create a serverless schedule for each cluster. When the cluster is deleted, the schedule is marked as inactive. This feature eliminates the overhead of creating and managing multiple credentials and serverless discovery schedules per cluster. The Cloud infrastructure patterns are triggered through standard Cloud discovery.
 
-Starting with Discovery and Service Mapping Patterns version 1.31.0, you can choose to discover Docker image CIs only, without discovering Docker container CIs. Check your entitlements to determine whether you have access to 2026 Packaging SKU. For more information, see [Disable Docker container CI discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disable-docker-container-discovery.md).
+Starting with Discovery and Service Mapping Patterns version 1.31.0, you can choose to discover Docker image CIs only, without discovering Docker container CIs. Check your entitlements to determine whether you have access to 2026 Packaging SKU. For more information, see [Disable Docker container CI discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/disable-docker-container-discovery.md).
 
 ## Supported versions
 
@@ -55,7 +55,7 @@ The Kubernetes Cluster - Per-Namespace LP pattern identifies the cluster and the
 
 ## Prerequisites for on-premises Kubernetes discovery
 
-**Note:** For prerequisites for Kubernetes Cloud infrastructure discovery, see [below](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md).
+**Note:** For prerequisites for Kubernetes Cloud infrastructure discovery, see [below](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/kubernetes-discovery.md).
 
 **Note:** Running automatic serverless Kubernetes schedules fetches the Bearer token. Adding credentials is unnecessary.
 
@@ -382,9 +382,9 @@ Internal parameter used by the **Kubernetes Cluster - Per-Namespace LP** pattern
 
     **Note:** When the pattern is run for the first time, it stores an event\_timestamp. Later on it collects only the delta events based on the timestamp. The more often the pattern is run, the fewer updates to the CMDB IRE are needed.
 
-    Create a serverless execution pattern for the discovery schedule and assign it to the Kubernetes Events pattern. Configure the parameters required by the Kubernetes pattern as described in [Configuring execution pattern attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md).
+    Create a serverless execution pattern for the discovery schedule and assign it to the Kubernetes Events pattern. Configure the parameters required by the Kubernetes pattern as described in [Configuring execution pattern attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/kubernetes-discovery.md).
 
-10. To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md).
+10. To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag_discovery_configuration.md).
 
 ## Prerequisites for Kubernetes Cloud infrastructure discovery
 
@@ -934,7 +934,7 @@ Kubernetes
 </td></tr></tbody>
 </table>\* If a MID Server and a MID Server cluster share the same name, the MID Server cluster takes precedence. **sn\_itom\_pattern.k8s\_&lt;service\_account\_id&gt;\_midserver** takes precedence over **sn\_itom\_pattern.k8s\_midserver** for that account. **sn\_itom\_pattern.k8s\_&lt;service\_account\_id&gt;\_&lt;clustername&gt;\_midserver** takes precedence over both for that account and cluster.
 
-**Note:** `<service_account_id>` is the account ID name under Cloud Service Accounts. For more information, see: [Create Discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-manager.md)
+**Note:** `<service_account_id>` is the account ID name under Cloud Service Accounts. For more information, see: [Create Discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-manager.md)
 
 ## Kubernetes Credential-less or mid-in-cluster discovery
 
@@ -2573,7 +2573,7 @@ Service Mapping uses tag-based discovery to create application service maps incl
 
 ## Kubernetes dashboard
 
-After Discovery finishes discovering components of the Kubernetes deployment, you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** and use the Kubernetes Explorer dashboard to view the Kubernetes environments and resources of your organization. To use the enhanced Kubernetes dashboard, verify you have Discovery Admin Workspace starting from version 1.3.1 \(August 2024 Store\). For more information about Kubernetes Explorer, see [Kubernetes Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-discovery-workspace/cloud-operations-workspace-kubernetes-dashboard.md).
+After Discovery finishes discovering components of the Kubernetes deployment, you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** and use the Kubernetes Explorer dashboard to view the Kubernetes environments and resources of your organization. To use the enhanced Kubernetes dashboard, verify you have Discovery Admin Workspace starting from version 1.3.1 \(August 2024 Store\). For more information about Kubernetes Explorer, see [Kubernetes Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-discovery-workspace/cloud-operations-workspace-kubernetes-dashboard.md).
 
 ## Troubleshooting
 
@@ -2620,8 +2620,8 @@ By default, the **sa.debugger.max\_timeout**parameter is set to 240 seconds.Incr
 </td></tr></tbody>
 </table>To run the Kubernetes pattern in Debug mode, refer to [KB0832567](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0832567) for operational information.
 
--   **[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-concept.md)**  
+-   **[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/container-image-concept.md)**  
 The ITOM Visibility apps, Discovery and Service Mapping Patterns and Kubernetes Visibility Agent integrate with Aqua Trivy to collect data on container images and OS packages. You can increase your control over container deployment by having visibility to the container components.
 
-**Parent Topic:**[Discovery for containerized resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-discovery.md)
+**Parent Topic:**[Discovery for containerized resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/container-discovery.md)
 

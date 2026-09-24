@@ -2,7 +2,7 @@
 title: SC Catalog Item widget
 description: Use this widget \(widget-sc-cat-item-v2\) to view the information about a catalog item and order the item. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-catalog-item-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/sc-catalog-item-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -100,7 +100,7 @@ For example, if you want to change the label to **Request**, press Ctrl+click on
 		}
 ```
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

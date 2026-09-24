@@ -2,7 +2,7 @@
 title: Define threat opinions
 description: Define threat opinions as an assessment of the accuracy of the information in a STIX object.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-threat-opinions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-threat-opinions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -84,5 +84,5 @@ Associated Observables
 Lists observables associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Threat opinions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-opinions.md)
+</table>**Parent Topic:**[Threat opinions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-opinions.md)
 

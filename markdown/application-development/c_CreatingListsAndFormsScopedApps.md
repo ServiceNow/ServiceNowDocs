@@ -2,7 +2,7 @@
 title: Lists and forms in scoped applications
 description: The current application context determines what customization and form design options are available when working with lists and forms in scoped applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_CreatingListsAndFormsScopedApps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_CreatingListsAndFormsScopedApps.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

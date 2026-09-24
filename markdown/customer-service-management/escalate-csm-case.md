@@ -2,7 +2,7 @@
 title: Escalate a case or an account
 description: Users with the escalation requester role can escalate a case or account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/escalate-csm-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/escalate-csm-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -139,6 +139,6 @@ Additional information that explains why this escalation is needed.
 
     **Note:** Multiple escalations cannot be created for the same case.
 
-    For more details see, [Case and account escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-case-account-escalation.md).
+    For more details see, [Case and account escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-case-account-escalation.md).
 
 

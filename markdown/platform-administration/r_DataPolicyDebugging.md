@@ -2,7 +2,7 @@
 title: Data policy debugging
 description: Debug messages can help administrators identify and resolve data policy problems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_DataPolicyDebugging.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_DataPolicyDebugging.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

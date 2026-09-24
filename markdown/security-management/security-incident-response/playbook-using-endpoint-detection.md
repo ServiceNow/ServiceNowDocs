@@ -2,7 +2,7 @@
 title: Use the Endpoint Detection playbook
 description: Use this playbook to investigate malware alerts triggered on a host or endpoint. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Endpoint Detection playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-endpoint-detection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-using-endpoint-detection.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -81,5 +81,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 5.  In Action 24, a response task is created for the user to complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Endpoint Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-endpoint-detection.md)
+**Parent Topic:**[Playbook for Endpoint Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-endpoint-detection.md)
 

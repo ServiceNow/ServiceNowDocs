@@ -2,7 +2,7 @@
 title: Scheduling in Workforce Optimization for HR
 description: Use Scheduling to manage your workforce resources efficiently by planning and managing schedules, staffing, and shifts across your teams all from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -28,26 +28,26 @@ With Scheduling, you can do the following:
 
 To delve into more information behind your key performance indicators, filters and sidebars, see [Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
 
--   **[Create a shift plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-shift-wfo-hr.md)**  
+-   **[Create a shift plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/create-shift-wfo-hr.md)**  
 Schedule shifts for your team to make sure you cover all work assignments and breaks. You can also specify the days of the week that you want to override scheduled shifts.
--   **[Create a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-schedule-plan-wfo-hr.md)**  
+-   **[Create a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/create-schedule-plan-wfo-hr.md)**  
 Manage your team's schedule by creating a schedule plan that covers a span of time and includes your team's work shifts. You can also assign agents to shifts based on their skills and availability. This way, you can make sure that you are using your resources in the best way possible for your organization.
--   **[Publish a schedule plan for visibility into team coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/publish-schedule-plan-wfo-hr.md)**  
+-   **[Publish a schedule plan for visibility into team coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/publish-schedule-plan-wfo-hr.md)**  
 Generate a preview of your schedule plan and publish it so that your agents can see their shifts and schedules ahead of time. You can unpublish a schedule to make changes and then publish it again.
--   **[Track and manage team schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/track-team-schedule-wfo-hr.md)**  
+-   **[Track and manage team schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/track-team-schedule-wfo-hr.md)**  
 Create, update, or monitor your teams' schedule from one location. You can approve or reject requests for swapping shifts or time off for agents within your assignment group.
--   **[Monitor schedule adherence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/monitor-schedule-adherence-wfo-hr.md)**  
+-   **[Monitor schedule adherence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/monitor-schedule-adherence-wfo-hr.md)**  
 Use schedule adherence to evaluate whether or not your agents are adhering to their assigned schedules. You can look for areas where low-value activity can be eliminated or reduced and further analyze staffing levels throughout the day.
--   **[Analyze adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/analyse-time-worked-summary-wfo-hr.md)**  
+-   **[Analyze adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/analyse-time-worked-summary-wfo-hr.md)**  
 View the time worked summary of your team members to determine if your teams are adhering to the planned schedules. You can also use historical adherence, which is a reporting view of real-time adherence, to see how well your agents have followed their schedules in the past.
--   **[Analyze staff alignment using Demand Forecast in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/analyze-staff-alignment-wfo-hr.md)**  
+-   **[Analyze staff alignment using Demand Forecast in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/analyze-staff-alignment-wfo-hr.md)**  
 Use Demand Forecast to plan the number of staff members that you require so that you have enough agents to do the job.
--   **[Add events to a team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/add-event-calendar-wfo-hr.md)**  
+-   **[Add events to a team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/add-event-calendar-wfo-hr.md)**  
 Create a meeting, training, time-off request, or an adhoc work event from the team calendar.
--   **[Swap your agents' shifts in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/swap-agent-shift-wfo-hr.md)**  
+-   **[Swap your agents' shifts in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/swap-agent-shift-wfo-hr.md)**  
 Swap an agent's shift in your assignment group with another agent who can work on that shift and skip the approval process.
 
-**Parent Topic:**[Using Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.md)
+**Parent Topic:**[Using Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.md)
 
 **Related topics**  
 

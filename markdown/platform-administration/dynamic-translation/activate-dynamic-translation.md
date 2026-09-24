@@ -2,7 +2,7 @@
 title: Activate Dynamic Translation
 description: Activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\) to enable all the required APIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/activate-dynamic-translation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation/activate-dynamic-translation.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -105,13 +105,13 @@ Common utilities for translation features.
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/configuring-dynamic-translation.md)
+**Parent Topic:**[Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/configuring-dynamic-translation.md)
 
 **Related topics**  
 
 
-[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-of-plugins.md)
 

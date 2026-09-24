@@ -2,7 +2,7 @@
 title: Node cloning for solution configuration
 description: Node cloning lets you duplicate an existing solution configuration node in a set, producing an independent copy that you can modify without affecting the source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/node-cloning-for-solution-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/node-cloning-for-solution-configuration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-18"

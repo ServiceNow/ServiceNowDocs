@@ -2,7 +2,7 @@
 title: Collaborate on portfolio plans
 description: Add comments and attachments to your portfolio plan so that users can review and share their feedback. Collaborate with stakeholders and drive shared outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/collaborate-on-portfolio-plans-in-portfolio-planning-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/collaborate-on-portfolio-plans-in-portfolio-planning-workspace.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -19,7 +19,7 @@ Add comments and attachments to your portfolio plan so that users can review and
 
 ## Before you begin
 
-[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 
 Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
@@ -67,10 +67,10 @@ In the Comments tab, add notes or comments and select **Post Worknotes**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
+**Parent Topic:**[Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
 
 **Related topics**  
 
 
-[Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/show-or-hide-the-features-for-your-portfolio-plan-ppw.md)
+[Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/show-or-hide-the-features-for-your-portfolio-plan-ppw.md)
 

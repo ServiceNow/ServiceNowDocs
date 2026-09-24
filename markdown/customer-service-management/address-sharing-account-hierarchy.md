@@ -2,7 +2,7 @@
 title: Address sharing through account hierarchy
 description: You can reuse the same address between multiple accounts within the account hierarchy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/address-sharing-account-hierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/address-sharing-account-hierarchy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ Role required: One of the following roles:
 **Related topics**  
 
 
-[Reusing addresses between multiple accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/reuse-account-addresses.md)
+[Reusing addresses between multiple accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/reuse-account-addresses.md)
 
-[Share an address through non-related accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/address-sharing-non-related-accounts.md)
+[Share an address through non-related accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/address-sharing-non-related-accounts.md)
 

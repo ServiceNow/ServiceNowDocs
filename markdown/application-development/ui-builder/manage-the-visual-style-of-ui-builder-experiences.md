@@ -2,7 +2,7 @@
 title: Manage the visual style of UI Builder experiences
 description: Themes enable you to change the visual style of your UI Builder experiences so that they express the look and feel of your brand
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -34,12 +34,12 @@ If you are interested in dark theme, see [Working with the dark theme](https://r
 
 ## Create custom style classes and rules
 
-Use style classes rules in UI Builder to apply custom visual styling to UI elements by referencing CSS classes, see [Create custom style classes and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/custom-style-classes-rules.md).
+Use style classes rules in UI Builder to apply custom visual styling to UI elements by referencing CSS classes, see [Create custom style classes and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/custom-style-classes-rules.md).
 
--   **[View experience theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/view-experience-theme.md)**  
+-   **[View experience theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/view-experience-theme.md)**  
 View the theme applied to your experience. The theme sets the visual style of the experience and provides a consistent look and feel across all pages.
--   **[Create custom style classes and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/custom-style-classes-rules.md)**  
+-   **[Create custom style classes and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/custom-style-classes-rules.md)**  
 Use style classes rules in UI Builder to apply custom visual styling to UI elements by referencing CSS classes.
 
-**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-builder.md)
 

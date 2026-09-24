@@ -2,7 +2,7 @@
 title: Working with images and attachments in mobile
 description: Learn how to turn off the image annotation option and define attachment sources when working with various mobile components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/images-and-attachments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/images-and-attachments.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,10 +14,10 @@ breadcrumb: [Mobile app components, Building mobile apps, Mobile Platform]
 
 Learn how to turn off the image annotation option and define attachment sources when working with various mobile components.
 
--   **[Define attachment sources available to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/attachment-source-define.md)**  
+-   **[Define attachment sources available to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/attachment-source-define.md)**  
 Control the origin of where images and files are sourced from, including a phone's gallery, camera, or file system. This capability confirms that images can’t be reused and verifies that they aren't AI-generated.
--   **[Turn off image annotation option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/image-annotation-adjust.md)**  
+-   **[Turn off image annotation option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/image-annotation-adjust.md)**  
 By default users can edit and annotate images including actions like adding text, drawing, and highlighting areas. This feature is supported for all attachment locations, including: activity stream, functions with type “attachments,” and input form screens with field type “attachment."
--   **[Storing media locally when taken from ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/media-saving-mobile-apps.md)**  
+-   **[Storing media locally when taken from ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/media-saving-mobile-apps.md)**  
 Provide users with the option to save and retrieve pictures and videos taken with the camera on their mobile app, onto their device. By default, these images are saved for 24 hours on the phone’s local storage. You can set the storage time to be from 1 to 168 hours \(1 week\).
 

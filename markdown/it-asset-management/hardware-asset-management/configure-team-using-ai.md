@@ -2,7 +2,7 @@
 title: Configure assignment groups, roles, and users using AI
 description: Use the AI conversational experience in the Configuration Console to configure assignment groups, roles, and users for Hardware Asset Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/configure-team-using-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/configure-team-using-ai.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -18,12 +18,12 @@ Use the AI conversational experience in the Configuration Console to configure a
 
 ## Before you begin
 
--   The Hardware Asset Management \(HAM\) application must be installed on your ServiceNow instance. For details, see [Install Hardware Asset Management from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-ham-from-product-hub.md).
--   The ServiceNow Otto for Hardware Asset Management \(HAM\) application must be installed on your ServiceNow instance. For details, see [Install additional HAM applications using Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-additional-ham-apps.md).
+-   The Hardware Asset Management \(HAM\) application must be installed on your ServiceNow instance. For details, see [Install Hardware Asset Management from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/install-ham-from-product-hub.md).
+-   The ServiceNow Otto for Hardware Asset Management \(HAM\) application must be installed on your ServiceNow instance. For details, see [Install additional HAM applications using Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/install-additional-ham-apps.md).
 -   The ServiceNow Otto panel must be enabled on your ServiceNow instance. For details, see [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
--   AI Search must be activated on your ServiceNow instance. For details, see the AI Search activation steps in [Install ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-now-assist-ham.md).
+-   AI Search must be activated on your ServiceNow instance. For details, see the AI Search activation steps in [Install ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/install-now-assist-ham.md).
 
-Role required: To access the Configuration Console, you must have the ham\_admin and ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/config-console-ham.md).
+Role required: To access the Configuration Console, you must have the ham\_admin and ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/config-console-ham.md).
 
 ## About this task
 

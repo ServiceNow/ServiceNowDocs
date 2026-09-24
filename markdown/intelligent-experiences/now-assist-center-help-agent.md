@@ -2,7 +2,7 @@
 title: AI Admin Center help AI agent
 description: Use the AI Admin Center help AI agent in the conversational experience to find answers to your AI admin questions based on ServiceNow documentation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-help-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-help-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -21,7 +21,7 @@ The AI Admin Center help AI agent is a product help assistant in the AI Admin Ce
 
 The AI Admin Center help AI agent is turned on by default.
 
-The AI Admin Center help AI agent may work with other AI agents to accomplish tasks. For more information on AI agents, see [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md).
+The AI Admin Center help AI agent may work with other AI agents to accomplish tasks. For more information on AI agents, see [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-ai-agents.md).
 
 ## AI agent details
 
@@ -44,7 +44,7 @@ NAC Help Agent
 Answers help questions by querying ServiceNow documentation. The agent is engaged when the user asks "How do I", "What is", "Help with", or similar help-seeking questions.
 
 </td></tr></tbody>
-</table>For more information on viewing your AI agents, see [View and manage your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-assets.md).
+</table>For more information on viewing your AI agents, see [View and manage your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-ai-assets.md).
 
 ## AI agent access
 

@@ -2,7 +2,7 @@
 title: Reporting Solutions for Learning Core
 description: Learning Experience Dashboard provides a consolidated report on courses in each repository, catalogs with courses, and learning tasks status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-exp-db.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/learning-exp-db.html
 release: australia
 product: Learning Core
 classification: learning-core

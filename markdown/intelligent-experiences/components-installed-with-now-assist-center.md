@@ -2,7 +2,7 @@
 title: Components installed with AI Admin Center
 description: Several components are installed with the AI Admin Center application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/components-installed-with-now-assist-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/components-installed-with-now-assist-center.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-30"
@@ -22,7 +22,7 @@ The following roles are installed with AI Admin Center.
 -   AI Admin Center admin \[sn\_na\_center.nac\_admin\]
 -   AI Admin Center user \[sn\_na\_center.nac\_user\]
 
-For information on the roles installed with AI Admin Center, see [AI Admin Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-roles.md).
+For information on the roles installed with AI Admin Center, see [AI Admin Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-roles.md).
 
 ## Tables installed
 
@@ -69,7 +69,7 @@ Now Assist Center Promoted Skills State
 nac\_promoted\_skill\_state
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
+</table>**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-reference.md)
 
 **Related topics**  
 

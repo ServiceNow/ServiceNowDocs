@@ -2,7 +2,7 @@
 title: Integrate AWS platform as a data source
 description: Integrate Amazon Web Services \(AWS\) with Event Management. To add AWS platform as a data source, configuration is required in the AWS platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/aws-events-transform-script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/aws-events-transform-script.html
 release: australia
 product: Event Management
 classification: event-management
@@ -118,15 +118,15 @@ Bind AWS platform alarms on the Load Balancer \(LB\) to the Cloud Load Balancer 
     To configure it, see [https://repost.aws/knowledge-center/cloudwatch-cross-account-sns](https://repost.aws/knowledge-center/cloudwatch-cross-account-sns). This design simplifies integration, avoids duplicating SNS topics across accounts, and provides a single entry point for all monitoring events flowing into ServiceNow.
 
 
--   **[Integrate AWS with REST API key token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/integrate-aws-api-key.md)**  
+-   **[Integrate AWS with REST API key token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/integrate-aws-api-key.md)**  
 Integrate using an API key to establish secure communication and automate data exchange via REST API. This simplifies integration, enabling seamless access to services and enhancing operational efficiency.
 
-**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-listener-transform-script.md)
 
 **Related topics**  
 
 
-[Event field format for event collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMIntegrateRequirementEvent.md)
+[Event field format for event collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/c_EMIntegrateRequirementEvent.md)
 
-[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
+[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-listener-transform-script.md)
 

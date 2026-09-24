@@ -2,7 +2,7 @@
 title: Turn on the spoke generation skill
 description: Turn on the flow generation skill to use generative AI to create a spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-spk-gen-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/turn-on-spk-gen-skill.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

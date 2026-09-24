@@ -2,7 +2,7 @@
 title: Entity scoping to plan a privacy program
 description: When a privacy manager plans the privacy program for an organization, the first step is to scope those business applications or processes that contain personal data. In Governance, Risk, and Compliance, these business applications or business processes are called as entities. After you identify the entities processing personal data, the processing activities are automatically created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/entity-scoping-in-privacy-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/entity-scoping-in-privacy-mgmt.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -32,9 +32,9 @@ Both these methods are explained in the following sections.
 
 -   **Discover processing activities by their usage of personal information**
 
-    At an inventory level, when business processes, business applications, and other inventory records are mapped with information objects of type Personal information \(PI\), the privacy manager can discover those records that process specific PI information. For details about information objects and their role in Privacy Management, see [Information objects in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/information-object-in-privacy.md).
+    At an inventory level, when business processes, business applications, and other inventory records are mapped with information objects of type Personal information \(PI\), the privacy manager can discover those records that process specific PI information. For details about information objects and their role in Privacy Management, see [Information objects in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/information-object-in-privacy.md).
 
-    The following image shows a business process with information objects associated with it. To identify such business applications or processes associated with information objects, the enhanced entity filter capability in the entity scoping functionality is used. For more information, see [Scope entities to discover processing activities with personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.md).
+    The following image shows a business process with information objects associated with it. To identify such business applications or processes associated with information objects, the enhanced entity filter capability in the entity scoping functionality is used. For more information, see [Scope entities to discover processing activities with personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.md).
 
     \[Omitted image "business-process-with-io.png"\] Alt text: Business process with information objects associated with it.
 
@@ -51,8 +51,8 @@ Both these methods are explained in the following sections.
 
 After the entities are scoped, then, in the applications, only those entities appear that contain personal information.
 
--   **[Scope entities to discover processing activities with personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.md)**  
+-   **[Scope entities to discover processing activities with personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.md)**  
 Determine which entities have and process personal information using the ServiceNow® Configuration Management Database \(CMDB\) application.
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

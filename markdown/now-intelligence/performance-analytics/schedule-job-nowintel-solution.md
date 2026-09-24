@@ -2,7 +2,7 @@
 title: Schedule data collection for a Platform Analytics Solution
 description: Enable the periodic data collection job for your Platform Analytics Solution. Check that the time that it runs is correct.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/schedule-job-nowintel-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/schedule-job-nowintel-solution.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +17,7 @@ breadcrumb: [Collect data for Platform Analytics Solutions, Platform Analytics s
 Enable the periodic data collection job for your Platform Analytics Solution. Check that the time that it runs is correct.
 
 Prerequisites
-:   [Run historical data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/historical-data-nowintel-solution.md)
+:   [Run historical data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/historical-data-nowintel-solution.md)
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: pa\_admin, admin
 
 ## About this task
 
-Every Platform Analytics Solution includes a periodic [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md).
+Every Platform Analytics Solution includes a periodic [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
 ## Procedure
 
@@ -67,14 +67,14 @@ After the next collection period, the dashboards and widgets should show scores 
 
 Check the **Job Logs** to see if the job ran successfully after the next period.
 
-**Parent Topic:**[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)
+**Parent Topic:**[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)
 
-**Previous topic:**[Run historical data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/historical-data-nowintel-solution.md)
+**Previous topic:**[Run historical data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/historical-data-nowintel-solution.md)
 
-**Next topic:**[Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/automation-discovery.md)
+**Next topic:**[Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/automation-discovery.md)
 
 **Related topics**  
 
 
-[Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md)
+[Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md)
 

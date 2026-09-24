@@ -2,7 +2,7 @@
 title: AI Agent Studio
 description: Build and deploy autonomous AI agents that automate complex workflows. AI Agent Studio is your command center for creating, configuring, and deploying autonomous AI agents that learn your business processes and act on them. Configure agents that learn your processes and handle routine work at scale—while you stay in control and focus on strategic priorities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aias-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aias-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-25"
@@ -19,27 +19,27 @@ Build and deploy autonomous AI agents that automate complex workflows. AI Agent 
 
 <table id="table_xsz_mq1_jkc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn what AI Agent Studio can offer for your organization and how it can automate complex workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio-new.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn what AI Agent Studio can offer for your organization and how it can automate complex workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-studio-new.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up AI Agent Studio and configure the agentic AI experience for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-aia-new.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up AI Agent Studio and configure the agentic AI experience for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-aia-new.md)
 
 </td><td>
 
-[Orchestrate and govern AI agents\[Omitted image "bus-virtual-agent.svg"\] Alt text:Create and manage your own custom AI agents to use in automating the complex workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-aia-new.md)
+[Orchestrate and govern AI agents\[Omitted image "bus-virtual-agent.svg"\] Alt text:Create and manage your own custom AI agents to use in automating the complex workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-aia-new.md)
 
 </td></tr><tr><td>
 
-[Orchestrate and govern agentic workflows\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Create and manage your agentic workflows with planned instructions and triggers for executing your autonomous AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-aw-new.md)
+[Orchestrate and govern agentic workflows\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Create and manage your agentic workflows with planned instructions and triggers for executing your autonomous AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-aw-new.md)
 
 </td><td>
 
-[Integrate external agents\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Create and manage external AI agents to connect with third-party agentic AI providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-external-aia.md)
+[Integrate external agents\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Create and manage external AI agents to connect with third-party agentic AI providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-external-aia.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up the user roles, tables, and properties for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-refernce-new.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up the user roles, tables, and properties for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-refernce-new.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -61,5 +61,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

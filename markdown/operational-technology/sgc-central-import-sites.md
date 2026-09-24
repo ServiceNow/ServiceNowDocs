@@ -2,7 +2,7 @@
 title: Import Sites
 description: In SGC Central the next step is to import the Sites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgc-central-import-sites.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/sgc-central-import-sites.html
 release: australia
 topic_type: task
 last_updated: "2026-05-20"
@@ -39,5 +39,5 @@ Role required: admin
 6.  Select **Continue** to move to the next step.
 
 
-**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-central-for-ot-discovery.md)
 

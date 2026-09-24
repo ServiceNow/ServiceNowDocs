@@ -2,7 +2,7 @@
 title: Components installed with Labor Unions
 description: Tables and roles related to the Labor Unions module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/labor-unions-setting-up.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/labor-unions-setting-up.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -88,5 +88,5 @@ The HR admin role can access, read, create, and edit:-   Unions
 -   HR profile writer \[sn\_hr\_core.profile\_reader\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions.md)
+</table>**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-unions.md)
 

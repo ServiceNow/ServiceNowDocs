@@ -2,7 +2,7 @@
 title: Create a group reservation
 description: Reserve multiple spaces for different users in a single group reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-group-reservation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/create-group-reservation.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -18,7 +18,7 @@ Reserve multiple spaces for different users in a single group reservation.
 
 ## Before you begin
 
-**Note:** Workplace users can make a group reservation only if the Reservable Module configuration property **Allow group reservation** is set by your workplace administrator. Make sure that the **Allow invitees** property is unchecked in the Reservation Widget Configuration. You cannot add or invite attendees to a group reservation. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+**Note:** Workplace users can make a group reservation only if the Reservable Module configuration property **Allow group reservation** is set by your workplace administrator. Make sure that the **Allow invitees** property is unchecked in the Reservation Widget Configuration. You cannot add or invite attendees to a group reservation. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -32,15 +32,15 @@ For example, if you are reserving four workplaces for four different employees. 
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_ewc_11d_vrb"><thead><tr><th align="left" id="d552504e73">
+<table id="choicetable_ewc_11d_vrb"><thead><tr><th align="left" id="d552508e73">
 
 Location
 
-</th><th align="left" id="d552504e76">
+</th><th align="left" id="d552508e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d552504e82">
+</th></tr></thead><tbody><tr><td id="d552508e82">
 
 **From application navigator search context menu**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d552504e106">
+</td></tr><tr><td id="d552508e106">
 
 **Employee Center**
 
@@ -124,7 +124,7 @@ The group reservation is created. You can view the reservation details on the Re
 
 -   To edit a reservation, open the parent reservation and click **Actions** &gt; **Change reservation details**. After making the changes, click **Update reservation details**.
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

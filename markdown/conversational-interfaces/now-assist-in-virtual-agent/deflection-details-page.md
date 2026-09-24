@@ -2,7 +2,7 @@
 title: Deflection details page in Assistant analytics
 description: View detailed insights into how your assistants resolve user queries, including deflection outcomes and the types of deflection methods used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/deflection-details-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/deflection-details-page.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

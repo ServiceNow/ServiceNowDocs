@@ -2,7 +2,7 @@
 title: Create a Coupa integration profile
 description: Create a Coupa integration profile to verify the status of the procurement-scheduled jobs, entitlements, and entitlement import errors created through this profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/create-coupa-int-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/procurement/create-coupa-int-profile.html
 release: australia
 product: Procurement
 classification: procurement
@@ -241,5 +241,5 @@ Verify if the scheduled job **ITAM - Sync Coupa purchase orders** has run succes
 
 Create software requisitions directly on Coupa through the ServiceNow Procurement application to purchase software.
 
-If you want to delete the Coupa integration profile, see [Deleting an external procurement application integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/delete-ext-profile.md).
+If you want to delete the Coupa integration profile, see [Deleting an external procurement application integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/procurement/delete-ext-profile.md).
 

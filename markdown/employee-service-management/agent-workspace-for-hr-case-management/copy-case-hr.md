@@ -2,7 +2,7 @@
 title: Copy a case in Agent Workspace for HR Case Management
 description: Create a copy of a case to auto-populate the case values without having to fill in the fields manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/copy-case-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/copy-case-hr.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -31,5 +31,5 @@ Role required: sn\_hr\_core.case\_writer
 4.  Select **Copy case**.
 
     -   A copy of the case is created in **Draft** state.The activity stream displays information about the previous case from which this case is created.
-    -   By default, opened\_for, subject\_person, hr\_service, skills, priority, assignment\_group, assigned\_to, and short\_description, are copied to the new case. You can configure the fields that you want to copy to the new case in the Copy case attributes setting in [Page configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/page-configurations.md).
+    -   By default, opened\_for, subject\_person, hr\_service, skills, priority, assignment\_group, assigned\_to, and short\_description, are copied to the new case. You can configure the fields that you want to copy to the new case in the Copy case attributes setting in [Page configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/page-configurations.md).
 

@@ -2,7 +2,7 @@
 title: Define an invoice tolerance type
 description: Create tolerance types to define variance thresholds for use in exception definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-type-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-type-definition.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -39,5 +39,5 @@ Role required: sn\_ap\_apm.invoice\_tolerance\_admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Tolerance rules and variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance rules and variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

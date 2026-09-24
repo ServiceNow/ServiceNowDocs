@@ -2,7 +2,7 @@
 title: Configure extra step
 description: Configure an extra-step definition to view a pattern where routes differ by one additional step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/extra-step.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/extra-step.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -28,7 +28,7 @@ Extra-step finding definition surfaces variants \(routes\) in the process that d
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
+    For information about Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Extra step card.
 
@@ -133,5 +133,5 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)
+**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/automated-findings.md)
 

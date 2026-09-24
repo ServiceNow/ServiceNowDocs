@@ -2,7 +2,7 @@
 title: Refining a process map
 description: View your visualized workflow project for insights and improvement opportunities in your business process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/analyze-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/analyze-data.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -18,12 +18,12 @@ View your visualized workflow project for insights and improvement opportunities
 
 The visualized process map helps you see data that is specific to a problem. Within the map, you can drill down to understand the root causes. Also display routes according to the KPIs you want to view or measure.
 
-**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-po-map.md).
+**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-po-map.md).
 
 -   Use the activity and connection sliders to focus on the process steps which occurred most frequently. You can also include steps which occurred at lesser frequencies.
 -   Move an activity to a different position on the map workspace.
 -   Slide a metric number along a connection to improve the visual display.
--   Select an activity or connection to view [metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/apply-metrics.md) details.
+-   Select an activity or connection to view [metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/apply-metrics.md) details.
 
 <table id="table_pb4_hyc_jvb"><thead><tr><th>
 
@@ -81,5 +81,5 @@ The dashed line shows that the entity is collapsed. The line will disappear when
 The direction of the arcs show the sequence of the activity occurrence. For example, for 2.2k records, state New occurs on average 10 months before they moved into the state Assigned.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+</table>**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/analyze-get-process-insights.md)
 

@@ -2,7 +2,7 @@
 title: Customize the appearance of a survey
 description: As an assessment and survey administrator, set properties to customize the color of various elements on the questionnaires.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CustomizingAppearance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CustomizingAppearance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ The customizations that you make apply to all assessments and surveys.
     Clear the browser's cache to see updates.
 
 
-**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 

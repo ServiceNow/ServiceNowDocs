@@ -2,7 +2,7 @@
 title: Submit a safety audit, finding, or action for approval
 description: When completed, submit the safety audit, finding, or action for approval and start the approval workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-submit-audit-finding-action-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-submit-audit-finding-action-approval.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -24,7 +24,7 @@ Before you can submit for approval, you must add at least one person to the **Pe
 -   **Actions approver** to approve audit actions
 -   **Audit approver** or **Results approver** to approve the safety audit
 
-For more information, see [Add people involved in a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-people-involved-safety-audit.md).
+For more information, see [Add people involved in a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-add-people-involved-safety-audit.md).
 
 Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.safety\_audit\_writer
 
@@ -92,5 +92,5 @@ The approvers can respond to the submitted record from the Employee Center.
 -   When all approvers respond, the state of the submitted record updates to Approved or Rejected and the **Close audit** button appears for it.
 -   Select **Close audit** to complete and close the audit. If all objectives in this audit are complete, the audit moves to the Closed complete state.
 
-**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
+**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Enable and use the page inspector
 description: Enable a developer setting to inspect UI pages that open within the platform. Use the Manual Page Inspector to inspect pages that open in a new tab, such as Service Portal pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/enable-page-inspector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/enable-page-inspector.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -74,7 +74,7 @@ Procedure
 
 ## What to do next
 
-[Create a custom UI test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/create-custom-ui-test.md)
+[Create a custom UI test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/create-custom-ui-test.md)
 
-**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
+**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
 

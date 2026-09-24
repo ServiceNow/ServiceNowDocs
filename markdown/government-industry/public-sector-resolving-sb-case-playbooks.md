@@ -2,7 +2,7 @@
 title: Resolving a social benefits case using Social Benefits Playbook
 description: You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.Complete the Intake stage as your first step in resolving a case using the Social Benefits Playbook.Complete the Review stage as your second step in resolving a case using the Social Benefits Playbook.Complete the Process stage as your third step in resolving a case using the Social Benefits Playbook.Complete the Decision stage as your last step in resolving a case using the Social Benefits Playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/public-sector-resolving-sb-case-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/public-sector-resolving-sb-case-playbooks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Using Social Benefits Playbook, Playbooks, Use, Public Sector Digit
 
 You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.
 
-**Note:** Verify that the Social Benefits Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Social Benefits Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configuring-social-benefit-playbook.md).
+**Note:** Verify that the Social Benefits Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Social Benefits Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configuring-social-benefit-playbook.md).
 
 By default, the following stages are available to you as a government service agent in the Social Benefits Playbook in the CRM Workspace.
 

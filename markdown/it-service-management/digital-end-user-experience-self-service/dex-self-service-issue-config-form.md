@@ -2,7 +2,7 @@
 title: DEX Self-service issue configuration form
 description: The DEX Self-service issue configuration form presents elaborate data on the form's fields and their corresponding descriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/dex-self-service-issue-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/dex-self-service-issue-config-form.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -111,7 +111,7 @@ Evaluation metric
 
 </td><td>
 
-The metrics used to evaluate the issue. Multiple metrics can be selected. DEX Self-service checks all selected metrics and determines whether the device health status is Good, Average, or Poor. For more information, see [Customize metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.md).
+The metrics used to evaluate the issue. Multiple metrics can be selected. DEX Self-service checks all selected metrics and determines whether the device health status is Good, Average, or Poor. For more information, see [Customize metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.md).
 
 </td></tr><tr><td>
 
@@ -135,7 +135,7 @@ Resolution
 
 </td><td>
 
-The resolution code that defines how the issue is resolved. Resolutions are configured in Proactive Engagement. For more information, see [Configuring Proactive Engagement resolutions with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/configuring-metric-rule.md).
+The resolution code that defines how the issue is resolved. Resolutions are configured in Proactive Engagement. For more information, see [Configuring Proactive Engagement resolutions with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/configuring-metric-rule.md).
 
 </td></tr></tbody>
 </table>

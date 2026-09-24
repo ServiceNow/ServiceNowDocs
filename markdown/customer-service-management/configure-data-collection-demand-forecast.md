@@ -2,7 +2,7 @@
 title: Configure the data collection for resources demands
 description: Define the data you want to collect for cases, interactions, or any table to forecast the number of agents that you require for your staffing needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-data-collection-demand-forecast.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-data-collection-demand-forecast.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Role required: sn\_agent\_forecast.admin
 
     1.  Select **Data Collection Definitions**.
 
-        See the [Forecast Configuration table in Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) for the list of configurations that are available by default.
+        See the [Forecast Configuration table in Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) for the list of configurations that are available by default.
 
     2.  Select **New**.
     3.  On the form, fill in the fields:
@@ -101,7 +101,7 @@ Data that you can add to forecast for the future.
 
         -   If you need to add a value to be calculated for the formula, in the **Value** field, enter the value.
         -   If you want to use the performance analytics score card API or a custom API, select **Advanced,** and add the script.
-        The Average Case Work Time and Average Chat Work Time forecast parameters provided by default are examples of how you can use scripts to add the parameters. For a list of parameters provided by default, see [Forecast Parameters in Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+        The Average Case Work Time and Average Chat Work Time forecast parameters provided by default are examples of how you can use scripts to add the parameters. For a list of parameters provided by default, see [Forecast Parameters in Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md).
 
     4.  Select **Submit**.
 4.  Configure the resource conversion formula.
@@ -160,12 +160,12 @@ Formula to calculate the forecasted number of agents that you need.In the Relate
 
 ## What to do next
 
-Run the **Collect historical data for demand forecast data collection definitions** scheduled job. For more information, see [Schedule jobs for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+Run the **Collect historical data for demand forecast data collection definitions** scheduled job. For more information, see [Schedule jobs for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md).
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-demand-forecast-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-demand-forecast-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Use Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md)
+[Use Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md)
 

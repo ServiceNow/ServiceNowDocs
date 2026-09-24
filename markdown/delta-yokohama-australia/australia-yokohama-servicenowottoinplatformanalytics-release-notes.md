@@ -2,11 +2,11 @@
 title: Combined ServiceNow Otto in Platform Analytics release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for ServiceNow Otto in Platform Analytics from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoinplatformanalytics-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicenowottoinplatformanalytics-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
 
@@ -161,13 +161,113 @@ Segments are reusable definitions in Query Generation that provide non-obvious c
 Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments are not supported for indicator sources or modules on domain-separated instances.
 
 
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+-   **[Query Generation skills are active by default](https://www.servicenow.com/docs/access?context=enable-query-generation&family=yokohama&ft:locale=en-US)**
+
+If the Generative AI Controller plugin is activated, the skills for Query Generation are activated by default.
+
+-   **[Greater visibility into the Query Generation process](https://www.servicenow.com/docs/access?context=ask-expl-questions&family=yokohama&ft:locale=en-US)**
+
+When you call Query Generation from AI Data Explorer or another application, you see each state that the query and response goes through before completing.
+
+-   **[Multi-table source support](https://www.servicenow.com/docs/access?context=ask-expl-questions&family=yokohama&ft:locale=en-US)**
+
+Query Generation supports related table conditions and dot-walking in queries.
+
+-   **[Get insights and visualizations for Workflow Data Fabric tables](https://www.servicenow.com/docs/access?context=create-integrations-applications&family=yokohama&ft:locale=en-US)**
+
+Ask AI Data Explorer information about Workflow Data Fabric data and get insightful responses. You must first add the Workflow Data Fabric tables to the Query Generation Semantic Table Configuration table.
+
+-   **[Use database views in queries](https://www.servicenow.com/docs/access?context=add-table-semantic-layer&family=yokohama&ft:locale=en-US)**
+
+Generate visualizations or ask AI Data Explorer about data kept in database views, like SLA data. You have to add the database views to the Semantic Table Configuration table.
+
+
+ -   **[Add tables to the semantic data layer](https://www.servicenow.com/docs/access?context=add-table-semantic-layer&family=yokohama&ft:locale=en-US)**
+
+Choose which tables your users can query with generative AI for data analysis.
+
+-   **[Monitor the health of the Query Generation back end](https://www.servicenow.com/docs/access?context=querygen-health-page&family=yokohama&ft:locale=en-US)**
+
+View the state of Now Assist for Platform Analytics LLM, plugins, system properties, components, and dependent products.
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[View recommended actions](https://www.servicenow.com/docs/access?context=expl-view-recommended-actions&family=zurich&ft:locale=en-US)**
+-   **[Improved overview pages for skills](https://www.servicenow.com/docs/access?context=activate-aide-explorer&family=zurich&ft:locale=en-US)**
+
+When you select **View details** on the tile of an AI skill in AI Admin Hub, you now get more information:
+
+    -   A more detailed description of the skill
+    -   Key benefits of the skill
+    -   Required and recommended skills to go with the skill
+
+ -   **[Promote selected indicators in AI Search results](https://www.servicenow.com/docs/access?context=indicator-scope-control&family=zurich&ft:locale=en-US)**
+
+Add high-quality indicators that you identify to a list. The indicators on that list are given a boost in AI Search results for Query Generation.
+
+-   **[View more indicator insights in Extended analysis](https://www.servicenow.com/docs/access?context=hidden-insights&family=zurich&ft:locale=en-US)**
+
+See directional trends over time and indicator target information in Extended analysis summaries.
+
+-   **[Improvements to data visualizations in Query Generation responses](https://www.servicenow.com/docs/access?context=ask-expl-questions&family=zurich&ft:locale=en-US)**
+    -   Single-score charts now render sparklines by default.
+    -   When a user query on indicator data does not specify a visualization type, the response returns the indicator's default chart type.
+
+ -   **[Query indicator data](https://www.servicenow.com/docs/access?context=ai-data-explorer-implementation-checklist&family=zurich&ft:locale=en-US)**
+
+Get scores from automated indicators in your AI Data Explorer explorations. Only classic automated indicators are supported, not Data Snapshots.
+
+
+ -   **[Explorations not available from visualization or list for unsupported scope](https://www.servicenow.com/docs/access?context=launch-ai-data-explorer&family=zurich&ft:locale=en-US)**
+
+You can't open AI Data Explorer from a data visualization or list that shows data from a protected scope that is not supported.
+
+-   **[Improvements to generated segments](https://www.servicenow.com/docs/access?context=querygen-segments&family=zurich&ft:locale=en-US)**
+    -   The names of automatically generated segments now include both the module name and the name of the application it belongs to.
+    -   Improved logic to join conditions for segments generated from reports and report sources. More complex conditions such as global OR are now supported.
+-   **[Query Generation support for Glide Lists](https://www.servicenow.com/docs/access?context=querygen-unsupported-field-types&family=zurich&ft:locale=en-US)**
+
+Query Generation now supports Glide List fields on tables.
+
+
+ -   **[Explore data from protected scopes](https://www.servicenow.com/docs/access?context=enable-aide-secure-scope-apps&family=zurich&ft:locale=en-US)**
+
+Provide access to protected application scopes to AI Data Explorer and Query Generation, and you can use data from those application tables in explorations.
+
+-   **[Manual segments are prioritized](https://www.servicenow.com/docs/access?context=querygen-segments&family=zurich&ft:locale=en-US)**
+
+Manual segments are re-ranked to take priority over automatically generated segments.
+
+
+ -   **[Improvements to how segments are handled](https://www.servicenow.com/docs/access?context=querygen-segments&family=zurich&ft:locale=en-US)**
+    -   Manual segments are re-ranked to take priority over automatically generated segments.
+    -   Prompt changes made to better support manual segments.
+    -   More segments are passed to the LLM to increase the chance of the correct segment getting selected. Twelve segments are passed instead of three.
+    -   Segments longer than 2000 characters are dropped to prevent context window bloat.
+-   **[Customize semantic metadata in configuration tables](https://www.servicenow.com/docs/access?context=customize-semantic-metadata&family=zurich&ft:locale=en-US)**
+
+Customize semantic descriptions and usage instructions in the table and column configuration tables. Unlike the previous method of editing Entity and Dimension records, these changes can be transferred between instances through update sets.
+
+
+ -   **[View recommended actions](https://www.servicenow.com/docs/access?context=expl-view-recommended-actions&family=zurich&ft:locale=en-US)**
 
 AI Data Explorer can suggest actions based on the insights that it generates in an exploration.
 
@@ -182,13 +282,93 @@ Segments are reusable definitions in Query Generation that provide non-obvious c
 Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments are not supported for modules on domain-separated instances.
 
 
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Dashboard and data visualization export skill is active by default](https://www.servicenow.com/docs/access?context=export-db-dv-now-assist-panel&family=zurich&ft:locale=en-US) \(January 2026\)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Zurich Patch 5\): If this skill was previously unconfigured, it is turned on automatically \(the skill was never configured and turned on, then turned off again\). If the skill was previously turned on, then off, it remains inactive.
+
+ -   **[Greater visibility into the Query Generation process](https://www.servicenow.com/docs/access?context=ask-expl-questions&family=zurich&ft:locale=en-US)**
+
+When you call Query Generation from AI Data Explorer or another application, you see each state that the query and response goes through before completing.
+
+-   **[Multi-table source support](https://www.servicenow.com/docs/access?context=ask-expl-questions&family=zurich&ft:locale=en-US)**
+
+Query Generation supports related table conditions and dot-walking in queries.
+
+-   **[Get insights and visualizations for Workflow Data Fabric tables](https://www.servicenow.com/docs/access?context=create-integrations-applications&family=zurich&ft:locale=en-US)**
+
+Ask AI Data Explorer information about Workflow Data Fabric data and get insightful responses. You must first add the Workflow Data Fabric tables to the Query Generation Semantic Table Configuration table.
+
+-   **[Use database views in queries](https://www.servicenow.com/docs/access?context=add-table-semantic-layer&family=zurich&ft:locale=en-US)**
+
+Generate visualizations or ask AI Data Explorer about data kept in database views, like SLA data. You have to add the database views to the Query Generation Semantic Table Configuration table.
+
+-   **[Query Generation skills are active by default](https://www.servicenow.com/docs/access?context=enable-query-generation&family=zurich&ft:locale=en-US)**
+
+If the Generative AI Controller plugin is activated, the skills for Query Generation are activated by default. The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Zurich Patch 4\): Any previously unconfigured skill is turned on automatically \(the skill was never turned on, then off again\). Previously configured skills that were turned on, then off, remain inactive.
+
+ -   **[Add tables to the semantic data layer](https://www.servicenow.com/docs/access?context=add-table-semantic-layer&family=zurich&ft:locale=en-US)**
+
+Choose which tables your users can query with generative AI for data analysis.
+
+-   **[Monitor the health of the Query Generation back end](https://www.servicenow.com/docs/access?context=querygen-health-page&family=zurich&ft:locale=en-US)**
+
+View the state of Now Assist for Platform Analytics LLM, plugins, system properties, components, and dependent products.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Explore data from protected scopes](https://www.servicenow.com/docs/access?context=enable-aide-secure-scope-apps&family=australia&ft:locale=en-US)**
+-   **[Improved overview pages for skills](https://www.servicenow.com/docs/access?context=activate-aide-explorer&family=australia&ft:locale=en-US)**
+
+When you select **View details** on the tile of an AI skill in AI Admin Hub, you now get more information:
+
+    -   A more detailed description of the skill
+    -   Key benefits of the skill
+    -   Required and recommended skills to go with the skill
+
+ -   **[Promote selected indicators in AI Search results](https://www.servicenow.com/docs/access?context=indicator-scope-control&family=australia&ft:locale=en-US)**
+
+Add high-quality indicators that you identify to a list. The indicators on that list are given a boost in AI Search results for Query Generation.
+
+-   **[View more indicator insights in Extended analysis](https://www.servicenow.com/docs/access?context=hidden-insights&family=australia&ft:locale=en-US)**
+
+See directional trends over time and indicator target information in Extended analysis summaries.
+
+-   **[Improvements to data visualizations in Query Generation responses](https://www.servicenow.com/docs/access?context=ask-expl-questions&family=australia&ft:locale=en-US)**
+    -   Single-score charts now render sparklines by default.
+    -   When a user query on indicator data does not specify a visualization type, the response returns the indicator's default chart type.
+-   **[Now Assist renamed to ServiceNow Otto®](https://www.servicenow.com/docs/access?context=now-assist-platform-analytics&family=australia&ft:locale=en-US)**
+
+The Now Assist Admin Console is now AI Admin Hub and many other changes have been made. This renaming is a work in progress.
+
+
+ -   **[Query indicator data](https://www.servicenow.com/docs/access?context=ai-data-explorer-implementation-checklist&family=australia&ft:locale=en-US)**
+
+Get scores from automated indicators in your AI Data Explorer explorations. Only classic automated indicators, not Data snapshots, are supported.
+
+
+ -   **[Explorations not available from visualization or list for unsupported scope](https://www.servicenow.com/docs/access?context=launch-now-assist-explorer&family=australia&ft:locale=en-US)**
+
+You can't open AI Data Explorer from a data visualization or list that shows data from a protected scope that is not supported.
+
+-   **[Improvements to generated segments](https://www.servicenow.com/docs/access?context=querygen-segments&family=australia&ft:locale=en-US)**
+    -   The names of automatically generated segments now include both the module name and the name of the application it belongs to.
+    -   Improved logic to join conditions for segments generated from reports and report sources. More complex conditions such as global OR are now supported.
+
+ -   **[Explore data from protected scopes](https://www.servicenow.com/docs/access?context=enable-aide-secure-scope-apps&family=australia&ft:locale=en-US)**
 
 Provide access to protected application scopes to AI Data Explorer and Query Generation, and you can use data from those application tables in explorations. \(Query Generation bundle 5.2\)
 
@@ -203,6 +383,27 @@ Provide access to protected application scopes to AI Data Explorer and Query Gen
 -   **[Query Generation support for Glide Lists](https://www.servicenow.com/docs/access?context=querygen-unsupported-field-types&family=australia&ft:locale=en-US)**
 
 Query Generation now supports Glide List fields on tables.
+
+
+ -   **[Customize semantic metadata in configuration tables](https://www.servicenow.com/docs/access?context=customize-semantic-metadata&family=australia&ft:locale=en-US)**
+
+Customize semantic descriptions and usage instructions in the table and column configuration tables. Unlike the previous method of editing Entity and Dimension records, these changes can be transferred between instances through update sets.
+
+-   **[View recommended actions](https://www.servicenow.com/docs/access?context=expl-view-recommended-actions&family=australia&ft:locale=en-US)**
+
+AI Data Explorer can suggest actions based on the insights that it generates in an exploration.
+
+-   **[Ask questions about FX currency data](https://www.servicenow.com/docs/access?context=qg-supported-query-operations&family=australia&ft:locale=en-US)**
+
+Query Generation now supports the FXCurrency \(Currency 2\) data type. This means that you can use AI Data Explorer to explore financial operations data, including those within Source-to-Pay Operations.
+
+-   **[Benefit from improvements to segments](https://www.servicenow.com/docs/access?context=querygen-segments&family=australia&ft:locale=en-US)**
+
+Segments are reusable definitions in Query Generation that provide non-obvious context to assist the semantic layer or LLM to select the correct dimension and values. Users can create manual segments via a new form. A scheduled job synchronizes manual and autogenerated segments. This job also cleans up segments to help surface the correct segments and reduce noise.
+
+Manual segments are re-ranked to take priority over automatically generated segments.
+
+Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments aren't supported for modules on domain-separated instances.
 
 
 </td></tr></tbody>
@@ -318,6 +519,8 @@ Australia
 
 Now Assist applications for Platform Analytics are either included by default or you can install them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Now Assist in Platform Analytics applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -515,5 +718,5 @@ The following highlights are specific to AI Data Explorer, which relies on Query
  See [ServiceNow Otto for Platform Analytics](https://www.servicenow.com/docs/access?context=now-assist-platform-analytics&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Configure slow duration on transitions
 description: Configure a slow duration definition on a transition to view a pattern where a group of records take longer to transition between steps than the average duration of another group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/slow-transition-transition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/slow-transition-transition.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -28,7 +28,7 @@ Slow duration on transitions display a group of records that have an unusual dur
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about the Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
+    For information about the Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Slow duration \(Transition\) card.
 
@@ -133,5 +133,5 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)
+**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/automated-findings.md)
 

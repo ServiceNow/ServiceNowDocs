@@ -2,7 +2,7 @@
 title: Ordering a service
 description: As a provider, use Order Capture to create a service order in the ServiceNow AI Platform for your consumers or internal personnel.OM revamp project - This topic is redundant and obsolete and has been removed from the SOM bundle on Oct 6, 2025.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-capture-create-service-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-capture-create-service-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Here's how a service order is created:
 2.  In the Select Service form, you select one or more service specifications and destination locations for the service order.
 3.  In the Configure Service form, you configure each service order line item, apply those service configurations to one or more locations, and then configure the ordered service configurations by location.
 4.  In the Review Order form, you review and submit the service order.
-5.  A service manager can now review and approve it for fulfillment. To learn more, see [Creating, reviewing, approving, and fulfilling service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-fulfilling-service-orders.md).
+5.  A service manager can now review and approve it for fulfillment. To learn more, see [Creating, reviewing, approving, and fulfilling service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-fulfilling-service-orders.md).
 
 When you directly enter a service order, it creates a service order record in the ServiceNow AI Platform to manage the service order fulfillment. A service order has one or more associated order line items, which describe the services being performed.
 
@@ -44,15 +44,15 @@ When you directly enter a service order, it creates a service order record in th
 
 3.  Depending on whether you're creating an order for an existing customer account, or first creating a customer account before you create the order, you can select one of the following actions.
 
-<table id="choicetable_hfw_sqp_wrb"><thead><tr><th align="left" id="d32951e147">
+<table id="choicetable_hfw_sqp_wrb"><thead><tr><th align="left" id="d32955e147">
 
  
 
-</th><th align="left" id="d32951e149">
+</th><th align="left" id="d32955e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32951e155">
+</th></tr></thead><tbody><tr><td id="d32955e155">
 
 **Create an order for an existing customer account**
 
@@ -63,7 +63,7 @@ Description
 3.  To create order, select **New**.
 
 
-</td></tr><tr><td id="d32951e199">
+</td></tr><tr><td id="d32955e199">
 
 **Create a customer account before creating the order**
 

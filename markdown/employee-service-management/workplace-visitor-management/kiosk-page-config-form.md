@@ -2,7 +2,7 @@
 title: Kiosk Page Configuration form
 description: Use the Kiosk Page Configuration form to create pages for the Workplace Services Kiosk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/kiosk-page-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/kiosk-page-config-form.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -46,7 +46,7 @@ Page type
 
 </td><td>
 
-Type of page that you want to create for the kiosk flow. For more information, see [Kiosk Check-in Flow Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/kiosk-check-in-config-form.md).
+Type of page that you want to create for the kiosk flow. For more information, see [Kiosk Check-in Flow Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/kiosk-check-in-config-form.md).
 
 </td></tr><tr><td>
 
@@ -105,14 +105,14 @@ The Variables related list contains the variables that are included with the rec
 
 -   **Location**: The location of the kiosk device determines the company policies and the list of hosts for the kiosk device.
 
-    The location value is automatically filled at run time based on the kiosk configuration. For more information, see [Create a kiosk configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/create-kiosk-device-config.md).
+    The location value is automatically filled at run time based on the kiosk configuration. For more information, see [Create a kiosk configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/create-kiosk-device-config.md).
 
 -   **Duration**: The duration of the visit is used to determine the expected departure time of the visitor.
 
     The default value of the duration is **1h**, which specifies one hour. You can enter a combination of numbers with `h` to specify hours or `m` to specify minutes. For example, `5h` is five hours, `30m` is thirty minutes, `1h30m` is one hour and thirty minutes.
 
 
-**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 

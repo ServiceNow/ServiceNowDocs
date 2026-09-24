@@ -2,7 +2,7 @@
 title: Add the ServiceNow Otto context menu to an in-line dashboard
 description: Use the ServiceNow Otto context menu to enable ServiceNow Otto skills to be displayed directly in the dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-nacm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/add-nacm.html
 release: australia
 topic_type: task
 last_updated: "2026-05-05"
@@ -29,7 +29,7 @@ By default there is a ServiceNow Otto context menu added to the dashboard config
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
-2.  Select [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md) or open the dashboard you want to add the context menu to.
+2.  Select [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-db-in-ac.md) or open the dashboard you want to add the context menu to.
 
 3.  Expand **Add New Element**.
 
@@ -45,15 +45,15 @@ By default there is a ServiceNow Otto context menu added to the dashboard config
 
     3.  Select the skill you want to add.
 
-        **Note:** Not all skills on the resulting list are configured for the **ServiceNow Otto context menu** element. Only the skills configured on the Par\_dashboard table are appropriate for this element. For more information, see [Configure the ServiceNow Otto context menu in Now Assist Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-db-summarization-skill-nacm.md).
+        **Note:** Not all skills on the resulting list are configured for the **ServiceNow Otto context menu** element. Only the skills configured on the Par\_dashboard table are appropriate for this element. For more information, see [Configure the ServiceNow Otto context menu in Now Assist Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-db-summarization-skill-nacm.md).
 
 
 ## Result
 
 The ServiceNow Otto context menu appears on the dashboard for use by anyone viewing the dashboard, configured to show information associated with the selected skill.
 
--   **[Configure the ServiceNow Otto context menu in Now Assist Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-db-summarization-skill-nacm.md)**  
+-   **[Configure the ServiceNow Otto context menu in Now Assist Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-db-summarization-skill-nacm.md)**  
 The ServiceNow Otto context menu enables users to apply a variety of AI skills in the context of dashboards.
 
-**Parent Topic:**[Add visual elements to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-elements-to-a-dashboard.md)
+**Parent Topic:**[Add visual elements to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-elements-to-a-dashboard.md)
 

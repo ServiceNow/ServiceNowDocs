@@ -2,7 +2,7 @@
 title: Convert your installed applications to development mode
 description: Convert the installed applications that your company owns to development mode after you install an application onto a non-production instance to use for development or clone a production instance into a non-production instance for development. With this conversion, you enable newer versions of the application to be created, committed, and published.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/convert-installed-applications-to-development-mode.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/application-repository-self-hosted/convert-installed-applications-to-development-mode.html
 release: australia
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted

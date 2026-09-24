@@ -2,7 +2,7 @@
 title: Add Interactive View Experience in the Core UI
 description: Add the Interactive View Experience component to a page variant to display agentic AI processes on a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-interactive-view-coreui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-interactive-view-coreui.html
 release: australia
 topic_type: task
 last_updated: "2026-07-15"
@@ -16,7 +16,7 @@ Add the Interactive View Experience component to a page variant to display agent
 
 ## Before you begin
 
-Ensure that the **com.glide.agentic\_processes\_view.enabled** property is enabled. See [Enable the in-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-inproduct-aia.md) for instructions.
+Ensure that the **com.glide.agentic\_processes\_view.enabled** property is enabled. See [Enable the in-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-inproduct-aia.md) for instructions.
 
 Role required: personalize\_form
 

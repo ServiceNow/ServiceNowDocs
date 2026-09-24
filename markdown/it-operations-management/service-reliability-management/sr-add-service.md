@@ -2,7 +2,7 @@
 title: Add a service to SRM
 description: Add services to Service Reliability Management \(SRM\) to help your teams manage service health.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-add-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-add-service.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -60,7 +60,7 @@ Steps
 </td><td>
 
 1.  Select **Create a new service**.
-2.  Fill in the fields. For field descriptions, see [Add service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-service-form.md).
+2.  Fill in the fields. For field descriptions, see [Add service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-add-service-form.md).
 3.  Select **Next**.
 
 
@@ -83,7 +83,7 @@ Steps
     |Option|Steps|
     |------|-----|
     |**Select an existing team**|Enter your team's name in the search box.|
-    |**Create a team**|Select **Create a team**. For more information about creating teams, see [Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md).|
+    |**Create a team**|Select **Create a team**. For more information about creating teams, see [Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-create-team.md).|
 
 5.  Select **Add service**.
 
@@ -94,9 +94,9 @@ Steps
 
 ## What to do next
 
-Ifan offering doesn't have a support group, assign it to a support group before setting up SLOs. For how to assign support groups, see [Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-edit-service.md).
+Ifan offering doesn't have a support group, assign it to a support group before setting up SLOs. For how to assign support groups, see [Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-edit-service.md).
 
 You can also add integrations to your service to start monitoring its health.
 
-**Parent Topic:**[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-services.md)
+**Parent Topic:**[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-work-services.md)
 

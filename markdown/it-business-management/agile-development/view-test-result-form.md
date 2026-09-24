@@ -2,7 +2,7 @@
 title: View the test results for a story in Agile Development 2.0
 description: Analyze results of the tests that you run on Agile Development 2.0 stories. Troubleshoot failures so that the story can be moved to completion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/view-test-result-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/view-test-result-form.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -52,10 +52,10 @@ Use the Sprint Tracking tab of the Agile board to review the tests run for a sto
     Beneath these fields, the tests steps that are executed and verified for this test are listed along with their execution status. Any comments or attachments that are added to these steps are also displayed for reference.
 
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/using-agile-development-2-0.md)
 
 **Related topics**  
 
 
-[Track sprint progress in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/sprint-tracking-list.md)
+[Track sprint progress in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/sprint-tracking-list.md)
 

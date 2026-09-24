@@ -2,7 +2,7 @@
 title: Verify expected results for Shodan
 description: Observables are generated automatically by a security incident and scanned by the application. Enrichment results are displayed on the Observable Enrichment Results and Network Banners tabs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/shodan-verify-expected-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/shodan-verify-expected-results.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -39,9 +39,9 @@ Role required: sn\_si.analyst.
 
 If you don't see results under the **Observable Enrichment Results** and **Network Banners** tabs, verify that the observable is a type that is supported for lookup by the integration.
 
-**Parent Topic:**[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/shodan-lookups.md)
+**Parent Topic:**[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/shodan-lookups.md)
 
-**Previous topic:**[Install and configure Shodan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-configure-shodan.md)
+**Previous topic:**[Install and configure Shodan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/install-and-configure-shodan.md)
 
-**Next topic:**[\(Optional\) Manually attach an observable for Shodan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manually-attach-an-observable-shodan.md)
+**Next topic:**[\(Optional\) Manually attach an observable for Shodan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manually-attach-an-observable-shodan.md)
 

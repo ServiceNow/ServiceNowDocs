@@ -2,7 +2,7 @@
 title: Summarize demands with the demand summarization skill
 description: Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/demand-summary-demand-classic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/demand-summary-demand-classic.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -50,7 +50,7 @@ Generative AI may produce inaccurate or incomplete information. Always validate 
 
 **Note:** Select the copy icon to copy the generated summary for further use.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

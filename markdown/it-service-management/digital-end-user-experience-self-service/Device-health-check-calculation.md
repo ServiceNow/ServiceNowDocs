@@ -2,7 +2,7 @@
 title: Device heath check calculation
 description: Device health calculation and categorization of performance as Good, Average, or Poor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/Device-health-check-calculation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/Device-health-check-calculation.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -34,7 +34,7 @@ Performance for each subcategory of a device health category is classified as Go
 
     where,
 
-    -   Evaluation metric performance indicator: Performance indicator \(Good, Average, Poor\) of the evaluation metrics' value as defined in the metric definition table. For more information, see [Customize metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.md).
+    -   Evaluation metric performance indicator: Performance indicator \(Good, Average, Poor\) of the evaluation metrics' value as defined in the metric definition table. For more information, see [Customize metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.md).
     -   Weight: Weight of the performance indicator. After all the subcategories are marked as Good, Average, and Poor. The performance of the category is calculated by the weighted average of subcategories performance indicator.
 -   **Score range definition**
 

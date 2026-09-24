@@ -2,7 +2,7 @@
 title: Configure the form view for CWM tasks and connected work items
 description: Configure which fields appear when you open a CWM task or connected work item by customizing the default form view for the relevant table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/configure-form-view-for-cwm-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/configure-form-view-for-cwm-tasks.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -54,5 +54,5 @@ The updated fields appear in the task side panel when you open tasks or connecte
 
 [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
 
-[Update details of connected work items in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/update-details-of-connected-work-items-in-cwm-boards.md)
+[Update details of connected work items in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/update-details-of-connected-work-items-in-cwm-boards.md)
 

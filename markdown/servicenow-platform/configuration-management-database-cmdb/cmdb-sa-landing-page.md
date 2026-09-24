@@ -2,7 +2,7 @@
 title: Viewing the CMDB success advisor landing page
 description: As a CMDB administrator, you can use the CMDB success advisor landing page to configure and manage data quality dashboards for Data Foundations, Hardware Asset Management \(HAM\), and Software Asset Management \(SAM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

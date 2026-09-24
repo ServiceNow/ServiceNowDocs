@@ -2,7 +2,7 @@
 title: Masked
 description: The masked variable inserts a field that masks the text entered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/masked.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/masked.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -111,7 +111,7 @@ No
 </td></tr></tbody>
 </table>\[Omitted image "VariableMaskedVarTypesG.png"\] Alt text: A masked variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -126,7 +126,7 @@ No
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

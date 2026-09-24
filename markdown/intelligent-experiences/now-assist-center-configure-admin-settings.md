@@ -2,7 +2,7 @@
 title: Configure AI Admin Hub settings in AI Admin Center
 description: Use AI Admin Hub configuration features on the AI Admin Hub page in the AI Admin Center workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-configure-admin-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-configure-admin-settings.html
 release: australia
 topic_type: task
 last_updated: "2026-07-30"
@@ -59,7 +59,7 @@ Opens the Account page from AI Admin Hub.
 
  Review your ServiceNow AI license details to make sure that you're up to date on what's available to you.
 
- For more information, see [Review Now Assist account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-now-assist-account-information.md).
+ For more information, see [Review Now Assist account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-now-assist-account-information.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Opens the Multilingual Service page from AI Admin Hub.
 
  Turn on multilingual service for user-entered text with native translation or Dynamic Translation in AI applications.
 
- For more information, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
+ For more information, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Opens the Plugins page from AI Admin Hub.
 
  Install AI plugins to enable generative AI on your instance.
 
- For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+ For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Opens the Manage model providers page from AI Admin Hub.
 
  Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers. You can also review the model policy set by your organization and view the change history.
 
- For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
+ For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-model-providers.md).
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Opens the Manage model versions page from AI Admin Hub.
 
  Manage the version of the model providers across skills and instance levels. You can change and update versions for the base system and custom skills.
 
- For more information, see [Manage version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-version.md).
+ For more information, see [Manage version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-version.md).
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Opens the Manage Integration tab on the Manage model providers page from AI Admi
 
  Choose the preferred integration type for configuring the available model providers. There are two ways to configure a model provider in AI Admin Hub. You can select Original Equipment Manufacturer \(OEM\) or Bring Your Own Key \(BYOK\).
 
- For more information, see [Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-integration.md).
+ For more information, see [Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-integration.md).
 
 </td></tr><tr><td>
 
@@ -167,7 +167,7 @@ Opens the Privacy policies page from AI Admin Hub.
 
  Configure privacy policies to anonymize data in AI applications.
 
- For more information, see [Configure Now Assist privacy policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-privacy-policies.md).
+ For more information, see [Configure Now Assist privacy policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-privacy-policies.md).
 
 </td></tr><tr><td>
 
@@ -179,7 +179,7 @@ Opens the Data sharing page from AI Admin Hub.
 
  Data sharing improves ServiceNow AI products. You can opt out of data sharing from this page.
 
- For more information, see [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ For more information, see [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 </td></tr><tr><td>
 
@@ -191,7 +191,7 @@ Opens the Data overflow processing page from AI Admin Hub.
 
  Configure where AI data is processed during periods of high traffic.
 
- For more information, see [Configure Now Assist data overflow processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-na-data-overflow.md).
+ For more information, see [Configure Now Assist data overflow processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-na-data-overflow.md).
 
 </td></tr><tr><td>
 
@@ -203,7 +203,7 @@ Opens the ServiceNow Otto Panel page from AI Admin Hub.
 
  With the ServiceNow Otto panel, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
 
- For more information, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+ For more information, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md).
 
 </td></tr><tr><td>
 
@@ -215,7 +215,7 @@ Opens the ServiceNow Otto Context Menu page from AI Admin Hub.
 
  The ServiceNow Otto context menu uses generative AI to help agents summarize, create, and edit written content, thus streamlining their writing tasks.
 
- For more information, see [ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md).
+ For more information, see [ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-write-overview.md).
 
 </td></tr></tbody>
 </table>

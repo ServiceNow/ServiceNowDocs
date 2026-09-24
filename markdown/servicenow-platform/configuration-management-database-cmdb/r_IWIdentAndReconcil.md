@@ -2,7 +2,7 @@
 title: Components installed with Identification and Reconciliation
 description: Several types of components are installed with Identification and Reconciliation \(included in the com.snc.cmdb plugin\), including tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r\_IWIdentAndReconcil.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/r\_IWIdentAndReconcil.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -134,7 +134,7 @@ IRE Data Source Rule \[cmdb\_ire\_data\_source\_rule\]
 
 </td><td>
 
-[IRE data source rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-ire-data-source-rule.md).
+[IRE data source rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/create-ire-data-source-rule.md).
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ Payload items that were determined to be partial, and which might be later match
 
  Partial payloads older than 90 days are deleted from the table.
 
- For more information about usage of this table in IRE processes, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
+ For more information about usage of this table in IRE processes, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ CMDB IRE Partial Payloads Index\[cmdb\_ire\_partial\_payloads\_index\]
 
 Identifier keys associated with partial items. IRE uses those keys to try to match with identifier keys of incoming payloads.
 
- For more information about usage of this table in IRE processes, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
+ For more information about usage of this table in IRE processes, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ Incomplete items, stored using JSON format as incomplete payloads. Incomplete it
 
  The table is configured for [table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md), with duration of one day and seven table rotations.
 
- For more information about usage of this table in IRE processes, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
+ For more information about usage of this table in IRE processes, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
 </td></tr><tr><td>
 
@@ -198,7 +198,7 @@ Reclassification Restrictions\[cmdb\_ire\_reclassification\_restriction\]
 
 </td><td>
 
-Reclassification restriction rules. These rules prevent switch and downgrade reclassification updates for specific source and target classes. For more information, see [Configure CI reclassification during IRE processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIReclassification.md).
+Reclassification restriction rules. These rules prevent switch and downgrade reclassification updates for specific source and target classes. For more information, see [Configure CI reclassification during IRE processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CIReclassification.md).
 
 </td></tr><tr><td>
 
@@ -208,7 +208,7 @@ CMDB Deduplication Task Lookup or Related item allowed classes \[cmdb\_duplicate
 
 Configuration table \(typically included in a CI Class Models app\) with entries for related and lookup tables for which you want IRE to generate de-duplication tasks during identification. You can then process those de-duplication tasks to remediate the duplication.
 
- For more information about using this table, see [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
+ For more information about using this table, see [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
 
 </td></tr></tbody>
 </table>## User roles installed
@@ -220,5 +220,5 @@ Configuration table \(typically included in a CI Class Models app\) with entries
 **Related topics**  
 
 
-[Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md)
+[Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md)
 

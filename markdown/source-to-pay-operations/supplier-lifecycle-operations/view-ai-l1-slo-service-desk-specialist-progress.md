@@ -2,7 +2,7 @@
 title: View AI L1 SLO Service Desk Specialist progress
 description: View the step-by-step progress made by AI L1 SLO Service Desk Specialist on a case record in the contextual side panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/view-ai-l1-slo-service-desk-specialist-progress.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/view-ai-l1-slo-service-desk-specialist-progress.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

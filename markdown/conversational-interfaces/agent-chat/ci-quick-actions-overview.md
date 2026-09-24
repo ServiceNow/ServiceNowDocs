@@ -2,7 +2,7 @@
 title: Configuring quick actions
 description: Quick actions are shortcuts that perform Agent Chat tasks. Agents can work more efficiently with customers by using quick actions because they don't have to enter as many characters to perform a task.Create a quick action so that agents can use shortcuts for performing actions in Agent Chat.Define a quick action parameter to allow agents to further control a quick action in Workspace chat.Configure a quick action button so that agents can perform actions in Agent Chat with a single click.Customize the quick actions that appear on the chat toolbar.Activate context quick actions to enable agents to view context relevant to a chat interaction. When launched in a chat, display cards show: sysparm\_portal, sysparm\_page, table, sys\_id, or sysparm\_language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ci-quick-actions-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ci-quick-actions-overview.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -19,7 +19,7 @@ Quick actions are shortcuts that perform Agent Chat tasks. Agents can work more 
 
 ## Activate quick actions
 
-To enable your agents to use quick actions, you must activate the and [related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-related-plugins.md), which is required for chat in Workspace.
+To enable your agents to use quick actions, you must activate the and [related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-related-plugins.md), which is required for chat in Workspace.
 
 ## Default quick actions
 
@@ -138,7 +138,7 @@ Transfers the conversation to another queue.
 Available queues
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
+</table>**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 
 ## Creating a quick action
 
@@ -291,9 +291,9 @@ Text that displays as a hint when the agent enters a quick action.
 
 ### What to do next
 
-If your quick action requires a secondary menu, define a quick action parameter so that agents can further control the quick action. For more information, see [Define a quick action parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
+If your quick action requires a secondary menu, define a quick action parameter so that agents can further control the quick action. For more information, see [Define a quick action parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
 
-Optionally, you can make the quick action available in Agent Chat as a button. For more information, see [Configuring a quick action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
+Optionally, you can make the quick action available in Agent Chat as a button. For more information, see [Configuring a quick action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
 
 ## Defining a quick action parameter
 

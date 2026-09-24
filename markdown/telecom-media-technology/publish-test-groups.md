@@ -2,7 +2,7 @@
 title: Publish a test groups
 description: Publish the test groups to ensure that agents only see the approved versions of test groups for execution. This also helps maintain consistency and control over both current and future test versions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/publish-test-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/publish-test-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Installed with Assessments and Surveys
 description: Several types of components are installed with the activation of Assessments and Surveys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_InstalledWithAssessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_InstalledWithAssessments.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ Assessable Record \[asmt\_assessable\_record\]
 
 </td><td>
 
-Stores all [assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_assessable-records.md).
+Stores all [assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_assessable-records.md).
 
 </td><td>
 
@@ -49,7 +49,7 @@ Assessment Category Result \[asmt\_category\_result\]
 
 </td><td>
 
-Stores all [category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SchedulePeriods.md).
+Stores all [category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SchedulePeriods.md).
 
 </td><td>
 
@@ -61,11 +61,11 @@ Assessment Category User \[asmt\_m2m\_category\_user\]
 
 </td><td>
 
-Stores associations between users and metric categories that they can evaluate. A user that is associated to a category is a [category user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CategoryUsersAndStakeholders.md).
+Stores associations between users and metric categories that they can evaluate. A user that is associated to a category is a [category user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_CategoryUsersAndStakeholders.md).
 
 </td><td>
 
-Stores associations between users and surveys. A user that is associated to a survey is a [survey user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyUsersAndGroups.md) and is automatically associated to all the survey's categories.
+Stores associations between users and surveys. A user that is associated to a survey is a [survey user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyUsersAndGroups.md) and is automatically associated to all the survey's categories.
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Assessment Group \[asmt\_assessment\]
 
 </td><td>
 
-Stores all [assessment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CategoryResults.md).
+Stores all [assessment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_CategoryResults.md).
 
 </td><td>
 
@@ -85,11 +85,11 @@ Assessment Instance \[asmt\_assessment\_instance\]
 
 </td><td>
 
-Stores all [assessment instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentInstances.md).
+Stores all [assessment instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentInstances.md).
 
 </td><td>
 
-Stores all [survey instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewSurveyInstance.md).
+Stores all [survey instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewSurveyInstance.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Assessment Metric \[asmt\_metric\]
 
 </td><td>
 
-Stores all [metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md).
+Stores all [metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md).
 
 </td><td>
 
@@ -121,11 +121,11 @@ Assessment Metric Definition \[asmt\_metric\_definition\]
 
 </td><td>
 
-Stores all [metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetricDefinition.md).
+Stores all [metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAMetricDefinition.md).
 
 </td><td>
 
-Stores all [answer options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateOrModifyAnswerOptions.md) for survey questions.
+Stores all [answer options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateOrModifyAnswerOptions.md) for survey questions.
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ Assessment Metric Template \[asmt\_template\]
 
 </td><td>
 
-Stores all [metric templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MetricTemplates.md).
+Stores all [metric templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_MetricTemplates.md).
 
 </td><td>
 
@@ -145,11 +145,11 @@ Assessment Metric Type \[asmt\_metric\_type\]
 
 </td><td>
 
-Stores all [metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentInstances.md).
+Stores all [metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentInstances.md).
 
 </td><td>
 
-Stores all [survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDefinitions.md).
+Stores all [survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDefinitions.md).
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ Assessment Stakeholders \[asmt\_m2m\_stakeholder\]
 
 </td><td>
 
-Stores associations between assessable records and category users. A category user that is associated to an assessable record is a [stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md).
+Stores associations between assessable records and category users. A category user that is associated to an assessable record is a [stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md).
 
 </td><td>
 
@@ -169,7 +169,7 @@ Assessment Template Definition \[asmt\_template\_definition\]
 
 </td><td>
 
-Stores all [metric template definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MetricTemplates.md).
+Stores all [metric template definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_MetricTemplates.md).
 
 </td><td>
 
@@ -181,7 +181,7 @@ Assessment X Category Matrix \[asmt\_m2m\_xcategory\_matrix\]
 
 </td><td>
 
-Users can specify metric categories as the X axis of a [decision matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AdministerDecisionMatrixes.md).
+Users can specify metric categories as the X axis of a [decision matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_AdministerDecisionMatrixes.md).
 
 </td><td>
 
@@ -205,7 +205,7 @@ Bubble Chart \[asmt\_bubble\_chart\]
 
 </td><td>
 
-Stores all [bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_BubbleChartComponents.md) definitions.
+Stores all [bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_BubbleChartComponents.md) definitions.
 
 </td><td>
 
@@ -229,7 +229,7 @@ Decision Matrix \[asmt\_decision\_matrix\]
 
 </td><td>
 
-Stores all [decision matrixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AdministerDecisionMatrixes.md).
+Stores all [decision matrixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_AdministerDecisionMatrixes.md).
 
 </td><td>
 
@@ -241,7 +241,7 @@ Metric Category \[asmt\_metric\_category\]
 
 </td><td>
 
-Stores all [metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md).
+Stores all [metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md).
 
 </td><td>
 
@@ -253,11 +253,11 @@ Metric Result \[asmt\_metric\_result\]
 
 </td><td>
 
-Stores all [metric results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md).
+Stores all [metric results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAMetricResult.md).
 
 </td><td>
 
-Stores all [survey responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md).
+Stores all [survey responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyResults.md).
 
 </td></tr><tr><td>
 
@@ -265,11 +265,11 @@ Signature \[asmt\_signature\]
 
 </td><td>
 
-Stores all [signature records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAnAssessmentSignature.md) for assessments and \[\[Attestations\|GRC attestations\]\].
+Stores all [signature records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAnAssessmentSignature.md) for assessments and \[\[Attestations\|GRC attestations\]\].
 
 </td><td>
 
-Stores all signature records for[Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyManagementLandingPage.md).
+Stores all signature records for[Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_SurveyManagementLandingPage.md).
 
 </td></tr><tr><td>
 
@@ -277,11 +277,11 @@ Trigger Condition \[asmt\_condition\]
 
 </td><td>
 
-Stores all [assessment trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateTriggerAssessment.md).
+Stores all [assessment trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateTriggerAssessment.md).
 
 </td><td>
 
-Stores all [survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TriggerConditions.md).
+Stores all [survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_TriggerConditions.md).
 
 </td></tr></tbody>
 </table>## Properties
@@ -321,7 +321,7 @@ com.snc.assessment.signature\_authentication
 When this property is enabled, an authentication is required by user signature. When **Yes** is selected, this property requires credentials for a full name signature.-   Type: **Yes** or **No**
 -   Default value: **Yes**
 
- For more information about working with signatures, see [Signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAnAssessmentSignature.md).
+ For more information about working with signatures, see [Signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAnAssessmentSignature.md).
 
 </td></tr><tr><td>
 
@@ -388,7 +388,7 @@ Sets the font color of the caption text on assessment and survey questionnaires.
 -   Default value: **\#ffffff**
 
 </td></tr></tbody>
-</table>For more information about customizing the appearance of a survey, see [Customize the appearance of a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CustomizingAppearance.md).
+</table>For more information about customizing the appearance of a survey, see [Customize the appearance of a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CustomizingAppearance.md).
 
 ## User roles
 
@@ -423,7 +423,7 @@ None
 |----|-----------|
 |AssessmentUtils|Core code for assessment functionality.|
 |AssessmentUtilsAJAX|AJAX-based code for displaying scorecard data.|
-|MigrateSurveyToAssessment|Code for [migrating legacy surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MigrateSurveys.md) to assessment surveys.|
+|MigrateSurveyToAssessment|Code for [migrating legacy surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MigrateSurveys.md) to assessment surveys.|
 |RatingUtilsAJAX|Reserved for future use.|
 |SurveyUtils|Core code for survey functionality.|
 
@@ -1481,5 +1481,5 @@ Assessment Metric Definition \[asmt\_metric\_definition\]
 Ensures that users can only enter a metric definition Value greater than or equal to zero. Ensures that the metric definition value is different from the Value for all other metric definitions related to the metric.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessments-surveys-landing-page.md)
+</table>**Parent Topic:**[Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/assessments-surveys-landing-page.md)
 

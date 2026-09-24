@@ -2,7 +2,7 @@
 title: Modifying replication behavior in Instance Data Replication
 description: Modify how data is replicated by configuring optional settings in Instance Data Replication \(IDR\).Coalesce records using a different column when records on the consumer instance have a different sys\_id than the same record on the producer instance in Instance Data Replication \(IDR\).Preserve producer values in system fields when replicating data in Instance Data Replication \(IDR\).Trigger workflows after replication using platform business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/modifying-replication-behavior-idr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instance-data-replication-idr/modifying-replication-behavior-idr.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr

@@ -2,7 +2,7 @@
 title: Use AI to renew certificate set to renew manually
 description: Use the certificate renewal AI agent to immediately renew certificates set to renew manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/renew-cert-set-to-renew-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/renew-cert-set-to-renew-manually.html
 release: australia
 product: Discovery
 classification: discovery
@@ -20,8 +20,8 @@ Use the certificate renewal AI agent to immediately renew certificates set to re
 
 Complete the following steps to configure your system for the certificate renewal AI agent:
 
-1.  [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
-2.  [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
+1.  [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
+2.  [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
 
 Role required: sn\_disco\_certmgmt.pki\_admin
 

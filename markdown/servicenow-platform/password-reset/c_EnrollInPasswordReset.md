@@ -2,7 +2,7 @@
 title: Enrolling in the Password Reset application to reset your password
 description: The self-service process is a typical process that you might follow to reset your password. Your experience might differ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/c\_EnrollInPasswordReset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/c\_EnrollInPasswordReset.html
 release: australia
 product: Password Reset
 classification: password-reset

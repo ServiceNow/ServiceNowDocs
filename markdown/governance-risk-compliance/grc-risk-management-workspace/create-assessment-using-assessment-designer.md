@@ -2,7 +2,7 @@
 title: Create a risk assessment using the Risk Assessment Designer
 description: Use the Risk Assessment Designer to create and edit metric types, use different metric types for different risks, select multiple respondents for a risk assessment, as well as change scoring parameters. The Question Bank offers a library of questions for various categories, so you do not have to build each questionnaire from scratch.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-assessment-using-assessment-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/create-assessment-using-assessment-designer.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -138,5 +138,5 @@ Opens a list of existing assessment that you can select and edit.
 </table>    Unlike other types of assessments, risk assessments do not appear in the **Self-Service** &gt; **My assessments &amp; surveys** module, because hundreds of control attestations could be generated at once. Instead,risk assessments are shown as a list in the **Risk** &gt; **Risk Register** &gt; **My Assessments** and **Risk** &gt; **Risk Register** &gt; **All Assessments** module.
 
 
-**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
+**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
 

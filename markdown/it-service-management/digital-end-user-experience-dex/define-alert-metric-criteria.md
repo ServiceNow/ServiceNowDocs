@@ -2,7 +2,7 @@
 title: Define alert criteria
 description: Specify alert metric criteria by choosing alert severity, defining thresholds, and specifying conditions for when the alert must be triggered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -46,5 +46,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Add an alert action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/add-alert-action.md) \(Optional\).
+[Add an alert action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/add-alert-action.md) \(Optional\).
 

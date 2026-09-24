@@ -2,7 +2,7 @@
 title: Activate the Return Merchandise Authorization plugin
 description: If you have the admin role, you can activate the RMA Case Management plugin \(com.sn\_csm\_rma\_case\). The plugin enables you to manage and triage return cases for customer products and services, addressing returns, replacements, and repair use cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/activate-return-merchandise-authorization-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/activate-return-merchandise-authorization-plugin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ The following items are installed with RMA Case Management:
 -   Tables
 -   Roles
 
-For more information, see [Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/return-merchandise-authorization-case-management-reference.md).
+For more information, see [Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/return-merchandise-authorization-case-management-reference.md).
 
 ## Procedure
 
@@ -55,7 +55,7 @@ For more information, see [Return Merchandise Authorization Case Management](htt
 **Related topics**  
 
 
-[Return Merchandise Authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/return-merchandise-authorization.md)
+[Return Merchandise Authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/return-merchandise-authorization.md)
 
-[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-operations.md)
+[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-operations.md)
 

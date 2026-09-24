@@ -2,7 +2,7 @@
 title: Search for a mentor
 description: Search for mentors by name, job profile, or any other criterion you wish to. You can also use additional filters to search from the list of mentors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/search-mentors-egd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/mentoring/search-mentors-egd.html
 release: australia
 product: Mentoring
 classification: mentoring
@@ -46,6 +46,6 @@ Role required: none
 
 7.  Find a mentor of your choice and select **Connect**.
 
-    For more information, see [Request a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/request-connection-mentoring.md)
+    For more information, see [Request a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mentoring/request-connection-mentoring.md)
 
 

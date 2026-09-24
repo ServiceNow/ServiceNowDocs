@@ -2,7 +2,7 @@
 title: Create an archive rule in Core UI
 description: Define the criteria for archiving records by creating an archive rule.Preview the records that you want to archive, and then activate an archive rule.Delete archived records and related records after a specified amount of time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAnArchiveRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAnArchiveRule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -80,7 +80,7 @@ Name
 
 </td><td>
 
-Name that identifies the rule. Used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) for references to this archive rule.
+Name that identifies the rule. Used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_DisplayValues.md) for references to this archive rule.
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Option to keep the sys\_id for a reference field instead of storing the display 
 
 When you enable this option on a table with archived records, the system automatically reprocesses all existing archive records and enables references. This process can take time to complete for larger archive tables. You can track the status by viewing the Archive Rule Reference Migrations \[sys\_archive\_ref\_migration\] table.
 
-For details on manually retaining references, see [Migrating non-reference fields to reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archive-reference-migration.md).
+For details on manually retaining references, see [Migrating non-reference fields to reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/archive-reference-migration.md).
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ The time interval before the restored record is automatically archived.
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-older-records.md)
+**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/archiving-older-records.md)
 
 ## Activate an archive rule
 
@@ -242,7 +242,7 @@ Role required: admin
 
 You can associate a destroy rule with any archive rule in a data management policy.
 
-If you need to amend the destroy rule properties running against your archived data, see [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_SetArchiveRuleProcessingBehavior.md).
+If you need to amend the destroy rule properties running against your archived data, see [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_SetArchiveRuleProcessingBehavior.md).
 
 ### Procedure
 

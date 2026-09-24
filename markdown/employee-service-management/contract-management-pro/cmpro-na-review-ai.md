@@ -2,7 +2,7 @@
 title: Reviewing AI-extracted results in the playbook
 description: The playbook in a contract repository enables you to review information extracted by the manage contract repository agentic workflow, and configure reminders for your contract renewals or terminations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-review-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-review-ai.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,8 +27,8 @@ In the playbook, you can do the following:
 
 \[Omitted image "cmpro-na-playbook.png"\] Alt text: Contract playbook displaying extracted obligations details.
 
--   **[Review AI-extracted metadata and contract reminder date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-review-ai-metadata.md)**  
+-   **[Review AI-extracted metadata and contract reminder date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-review-ai-metadata.md)**  
 Use the contract playbook to review and update the AI-extracted metadata and contract reminder date.
 
-**Parent Topic:**[Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.md)
+**Parent Topic:**[Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.md)
 

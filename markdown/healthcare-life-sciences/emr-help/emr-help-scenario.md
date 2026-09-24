@@ -2,7 +2,7 @@
 title: IT service request workflow scenario
 description: Use the EMR Help application to integrate a ServiceNow instance with an EMR system and resolve IT service requests submitted by clinicians.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-help-scenario.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/emr-help-scenario.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -30,11 +30,11 @@ The following workflow steps elaborate how an IT agent resolves a typical clinic
 **Related topics**  
 
 
-[Exploring EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help.md)
+[Exploring EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/emr-help.md)
 
-[Configuring EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/configuring-emr-help.md)
+[Configuring EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/configuring-emr-help.md)
 
-[Submitting ServiceNow IT service requests from EMR systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help-issues-reporting.md)
+[Submitting ServiceNow IT service requests from EMR systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/emr-help-issues-reporting.md)
 
-[Viewing and resolving ServiceNow IT service requests submitted from EMR systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help-issues-resolve.md)
+[Viewing and resolving ServiceNow IT service requests submitted from EMR systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/emr-help-issues-resolve.md)
 

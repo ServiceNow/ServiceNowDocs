@@ -2,7 +2,7 @@
 title: Update your X.509 certificate
 description: If you require an SSL connection for the integration, there are circumstances when the certificate provided by the third-party vendor is either not yet trusted in ServiceNow or has expired. This task is optional.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/update-cert-whois.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/update-cert-whois.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

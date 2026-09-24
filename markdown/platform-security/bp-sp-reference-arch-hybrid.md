@@ -2,7 +2,7 @@
 title: Service provider reference architecture for hybrid
 description: Use the hybrid service provider \(SP\) reference architecture for a customized solution. Your customers require a dedicated instance for a specific service. They can still use the shared SP instance for other services, but it requires integration of each instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-sp-reference-arch-hybrid.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-sp-reference-arch-hybrid.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ Your customer may be responsible for delivering this additional service directly
 -   The number of users on the instance can change when you get a new customer. A new customer can result in tens or even hundreds of thousands of new users on the system. The number of total users is virtually unlimited in one shared environment.
 -   Each instance has a finite number of requesters and fulfillers. When you get a new customer, you must procure an instance that is based on the size and scale of your customer's company.
 
-**Parent Topic:**[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-ds.md)
+**Parent Topic:**[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-sp-reference-arch-ds.md)
 

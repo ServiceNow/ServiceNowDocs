@@ -2,7 +2,7 @@
 title: Set up the Calendly spoke
 description: Set up an outbound integration between your ServiceNow instance and the Calendly APIs by creating an OAuth application in Calendly and a connection and credential record on your ServiceNow instance.Set up an OAuth application that authenticates requests from your ServiceNow instance.Create a connection and credential record that contains the details required to access the Calendly APIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-calendly.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-calendly.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -131,7 +131,7 @@ OAuth Client ID
 
 </td><td>
 
-Client ID that you had generated on the Calendly developers portal. To learn how to generate a client ID, see [Set up an OAuth application in Calendly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-calendly.md).
+Client ID that you had generated on the Calendly developers portal. To learn how to generate a client ID, see [Set up an OAuth application in Calendly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-calendly.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client ID that you had generated on the Calendly developers portal. To learn how to generate a client secret, see [Set up an OAuth application in Calendly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-calendly.md).
+Client ID that you had generated on the Calendly developers portal. To learn how to generate a client secret, see [Set up an OAuth application in Calendly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-calendly.md).
 
 </td></tr><tr><td>
 

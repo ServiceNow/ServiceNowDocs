@@ -2,7 +2,7 @@
 title: Modify the signing order for signatories
 description: Modify the order in which signatories sign a contract document that has not yet been sent for signature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-set-signing-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-set-signing-order.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,7 +25,7 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 ## About this task
 
-The signing order for a signatory is set for the first time when the signatory is added to the contract request. For more information, see [Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md).
+The signing order for a signatory is set for the first time when the signatory is added to the contract request. For more information, see [Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md).
 
 Modify the signing order in Contract Workspace before the contract document is sent for signature.
 
@@ -50,7 +50,7 @@ Modify the signing order in Contract Workspace before the contract document is s
 
 The Signatories reflect the updated signing order.
 
-If the signing order contains a gap, it updates automatically when the contract is sent for signature. For more information, see [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
+If the signing order contains a gap, it updates automatically when the contract is sent for signature. For more information, see [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
 
 **Parent Topic:**[Use self-served contract request]()
 

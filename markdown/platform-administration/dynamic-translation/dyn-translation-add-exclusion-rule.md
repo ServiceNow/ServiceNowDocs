@@ -2,7 +2,7 @@
 title: Add new rules to Exclusion Framework
 description: Add terms and patterns that shouldn't be machine translated to the Exclusion Rules table. You can create either exact match rules or pattern match rules, and you can edit your rules later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -98,7 +98,7 @@ For exact match rules, you can modify the case sensitivity in its Exclusion Rule
 -   Select the **Ignore Case** check box to enable case insensitive matching \(for example, the entry "hello" would match "Hello", "hEllo", "helLo" and so forth.\)
 -   Clear the **Ignore Case** check box to match the entry exactly as it appears in the table, including its casing.
 
-From the Zurich release, you can manually test your pattern. For more information see [Test Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.md).
+From the Zurich release, you can manually test your pattern. For more information see [Test Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.md).
 
-**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
+**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
 

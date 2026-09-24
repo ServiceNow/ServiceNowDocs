@@ -2,7 +2,7 @@
 title: Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor
 description: This task explains how to create and improve a knowledge article with the Knowledge center article editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/kc-article-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-in-knowledge-management/kc-article-editor.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -20,7 +20,7 @@ This task explains how to create and improve a knowledge article with the Knowle
 
 Role required: admin
 
-Suggested reading: [Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md).
+Suggested reading: [Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md).
 
 ## Procedure
 
@@ -43,5 +43,5 @@ Suggested reading: [Edit an article using the ServiceNow Otto context menu](http
     **Note:** The instruction block's content should not include any of the following tags: `img`, `video`, `audio`, `canvas`, `svg`, `iframe`, `script`, `input`, and `button`. Additionally, some elements, when selected on their own, can prevent the ServiceNow Otto icon from appearing.
 
 
-**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 

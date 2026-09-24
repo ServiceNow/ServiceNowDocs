@@ -2,7 +2,7 @@
 title: Create a mobile UI rule
 description: Create a mobile UI rule to apply styling or field calculations for your mobile UI elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/create-mobile-ui-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/create-mobile-ui-rule.html
 release: australia
 topic_type: task
 last_updated: "2026-07-13"

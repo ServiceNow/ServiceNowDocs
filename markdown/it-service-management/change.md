@@ -2,7 +2,7 @@
 title: Change Management dashboard
 description: The Change Management dashboard provides workflow metrics for successful and failed change requests across different change models and types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure a REST message with OAuth
 description: You can configure an outbound REST message to send OAuth credentials with the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ConfigureARESTMessageWithOAuth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_ConfigureARESTMessageWithOAuth.html
 release: australia
 product: Web Services
 classification: web-services
@@ -52,10 +52,10 @@ Before starting this procedure, ensure:
 
 Test the REST message to ensure you receive the expected response. You can optionally specify different authentication settings for each HTTP method related to this REST message, overriding the parent REST message settings.
 
--   **[Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md)**  
+-   **[Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md)**  
 Each client application must register with the instance to participate in OAuth authorization.
--   **[Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuth2ProfileTutorialGoogle.md)**  
+-   **[Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_OAuth2ProfileTutorialGoogle.md)**  
 This tutorial explains how to use an OAuth 2.0 profile to authenticate an outbound REST message with Google to retrieve contact information.
 
-**Parent Topic:**[Outbound REST authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTAuth.md)
+**Parent Topic:**[Outbound REST authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_OutboundRESTAuth.md)
 

@@ -2,7 +2,7 @@
 title: Create a theme with Theme Builder
 description: Create a theme record for your web or mobile experiences by using the Home view in the Theme Builder application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-create-theme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-create-theme.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -68,7 +68,7 @@ Your theme is saved as a draft in Theme Builder and appears in the Unpublished s
 
 ## What to do next
 
-After creating your theme in the wizard, you are directed to the Editor view of the theme where you can continue [modifying](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md) or [publish your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+After creating your theme in the wizard, you are directed to the Editor view of the theme where you can continue [modifying](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-edit-theme.md) or [publish your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md)
+**Parent Topic:**[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configuring-next-experience-with-theme-builder.md)
 

@@ -2,14 +2,14 @@
 title: Export SAP SuccessFactors Learning data for external content indexing
 description: Export user, library and assignment, and training item data from your SAP SuccessFactors Learning environment. The SAP SuccessFactors external content connector needs this exported data to index your content and user permissions for search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/export-sap-successfactors-data-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/export-sap-successfactors-data-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-07-20"
 reading_time_minutes: 7
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [SAP SuccessFactors external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -136,13 +136,13 @@ The custom reports generate CSV files that include current user data, library da
 
 ## What to do next
 
-Provide the three CSV data files that you generated in step [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/export-sap-successfactors-data-external-content-indexing.md) to your connector administrator.
+Provide the three CSV data files that you generated in step [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/export-sap-successfactors-data-external-content-indexing.md) to your connector administrator.
 
 Your connector administrator needs these three files to configure a SAP SuccessFactors external content connector to retrieve trainings from your SAP SuccessFactors Learning source system.
 
-For details on creating and configuring a SAP SuccessFactors external content connector, see [Create a SAP SuccessFactors external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-sap-successfactors.md).
+For details on creating and configuring a SAP SuccessFactors external content connector, see [Create a SAP SuccessFactors external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-sap-successfactors.md).
 
-**Note:** To update the user, library and assignment, and training item data available to the SAP SuccessFactors external content connector, repeat step [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/export-sap-successfactors-data-external-content-indexing.md) and provide the three updated CSV data files to your connector administrator. To learn how to update the connector configuration to read these files, see [Update CSV data files for a SAP SuccessFactors external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/update-data-files-sap-successfactors-external-content-connector.md).
+**Note:** To update the user, library and assignment, and training item data available to the SAP SuccessFactors external content connector, repeat step [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/export-sap-successfactors-data-external-content-indexing.md) and provide the three updated CSV data files to your connector administrator. To learn how to update the connector configuration to read these files, see [Update CSV data files for a SAP SuccessFactors external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/update-data-files-sap-successfactors-external-content-connector.md).
 
-**Parent Topic:**[SAP SuccessFactors external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/sap-successfactors-external-content-connector.md)
+**Parent Topic:**[SAP SuccessFactors external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/sap-successfactors-external-content-connector.md)
 

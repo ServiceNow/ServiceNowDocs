@@ -2,7 +2,7 @@
 title: Leader Hub
 description: Leader Hub empowers organizational leaders to understand the strengths of their teams, identify gaps in skills, and facilitate changes that are simultaneously conducive to their workforce and the achievement of desired business outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/td-lh-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/td-lh-landing.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,23 +24,23 @@ Starting with the Brazil release, Leader Hub is being prepared for future deprec
 
 <table id="table_e3t_wbw_sbc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how leaders and supporters use Leader Hub.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how leaders and supporters use Leader Hub.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-explore.md)
 
 </td><td>
 
-[Install and configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install the Leader Hub app from the ServiceNow Store. As an administrator, you can configure application features based on the specifications set by your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-install-config.md)
+[Install and configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install the Leader Hub app from the ServiceNow Store. As an administrator, you can configure application features based on the specifications set by your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-install-config.md)
 
 </td><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend the capabilities of the Leader Hub app by integrating with applications in the Talent Development suite.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-integrate.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend the capabilities of the Leader Hub app by integrating with applications in the Talent Development suite.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-integrate.md)
 
 </td></tr><tr><td>
 
-[Using\[Omitted image "bus-explore-careers.svg"\] Alt text:View and analyze data about your organization's talent to drive performance and foster growth.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-using.md)
+[Using\[Omitted image "bus-explore-careers.svg"\] Alt text:View and analyze data about your organization's talent to drive performance and foster growth.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-using.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-reference.md)
 
 </td><td>
 

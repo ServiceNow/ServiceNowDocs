@@ -2,14 +2,14 @@
 title: Edit view config form
 description: The Edit view config form contains information about EVAM view configurations defined for search application configurations in AI Search. Use this form when creating or modifying a view configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-edit-view-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-edit-view-config-form.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI Search Admin console reference, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -17,7 +17,7 @@ breadcrumb: [AI Search Admin console reference, AI Search Admin console, Search 
 
 The Edit view config form contains information about EVAM view configurations defined for search application configurations in AI Search. Use this form when creating or modifying a view configuration.
 
-For details on creating or modifying a view configuration, see [Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-evam-configurations.md).
+For details on creating or modifying a view configuration, see [Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-evam-configurations.md).
 
 ## Edit view config form
 

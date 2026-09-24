@@ -2,7 +2,7 @@
 title: Automatic status calculation for targets
 description: Automatically determine status for targets consequently rolling up to goals based on achievement percentages. Status is calculated when you enter actual values and achievement of actuals compared to the planned target against predefined thresholds \(Green, Yellow, Red\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/automatic-status-calculation-targets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/automatic-status-calculation-targets.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -69,7 +69,7 @@ Administrators can customize threshold percentages to align with organizational 
 {"enabled": true, "thresholds": {"green": 90, "yellow": 75}}
 ```
 
-For instructions on system property configuration, see [Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/configure-automatic-status-calculation.md).
+For instructions on system property configuration, see [Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/configure-automatic-status-calculation.md).
 
 ## Status calculation scenarios
 
@@ -79,7 +79,7 @@ Status calculation applies to three target configurations:
 -   **Targets with breakdowns \(check-ins\):** Status is calculated for each check-in period \(weekly, monthly, quarterly\) based on that period's achievement
 -   **Targets without check-in frequency:** Status is calculated based on direct actuals without period-based accumulation
 
-In all scenarios, the same achievement formula and thresholds apply. The difference is in how actual values are entered and aggregated across time periods. For more details on how the status is calculated for different scenarios, see [Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-status-calculation-examples.md).
+In all scenarios, the same achievement formula and thresholds apply. The difference is in how actual values are entered and aggregated across time periods. For more details on how the status is calculated for different scenarios, see [Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/target-status-calculation-examples.md).
 
 ## Milestone targets
 
@@ -121,7 +121,7 @@ In addition to automatic Green/Yellow/Red status, target owners can apply custom
 **Related topics**  
 
 
-[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/configure-automatic-status-calculation.md)
+[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/configure-automatic-status-calculation.md)
 
-[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-status-calculation-examples.md)
+[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/target-status-calculation-examples.md)
 

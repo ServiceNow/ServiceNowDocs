@@ -2,7 +2,7 @@
 title: Maintain import properties
 description: Use Import Properties when you create your own credential records, scheduled imports, or data sources. Currently, the properties are configured for the records used when importing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsm-mappedin-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/wsm-mappedin-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,15 +36,15 @@ Role required: sn\_wsd\_mappedin.admin
 
 4.  Enter `sys_properties.list` in the navigation filter and open the following properties
 
-<table id="choicetable_sct_wbg_h4b"><thead><tr><th align="left" id="d272409e105">
+<table id="choicetable_sct_wbg_h4b"><thead><tr><th align="left" id="d272413e105">
 
 System property
 
-</th><th align="left" id="d272409e108">
+</th><th align="left" id="d272413e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d272409e114">
+</th></tr></thead><tbody><tr><td id="d272413e114">
 
 **sn\_wsd\_core.external\_id\_generator.field​**
 
@@ -52,7 +52,7 @@ Description
 
 Defines the external ID.
 
-</td></tr><tr><td id="d272409e123">
+</td></tr><tr><td id="d272413e123">
 
 **sn\_wsd\_core.external\_id\_generator.max\_buildings**
 
@@ -60,7 +60,7 @@ Defines the external ID.
 
 The maximum number of buildings to generate IDs for with a single selection.50 is the default.
 
-</td></tr><tr><td id="d272409e135">
+</td></tr><tr><td id="d272413e135">
 
 **sn\_wsd\_core.external\_id\_generator.max\_spaces**
 
@@ -68,7 +68,7 @@ The maximum number of buildings to generate IDs for with a single selection.50 i
 
 The maximum number of spaces to generate IDs for at a given time.The default is 5000.
 
-</td></tr><tr><td id="d272409e147">
+</td></tr><tr><td id="d272413e147">
 
 **sn\_wsd\_core.external\_id\_generator.stagger​**
 
@@ -78,5 +78,5 @@ The amount of time \(in seconds\) to stagger processing external ID generations.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Mappedin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mappedin-integration-topics.md)
+**Parent Topic:**[Configure Mappedin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mappedin-integration-topics.md)
 

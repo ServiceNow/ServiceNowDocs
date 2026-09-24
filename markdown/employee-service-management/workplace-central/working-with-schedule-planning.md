@@ -2,7 +2,7 @@
 title: Working with Schedule Planning
 description: Create and execute schedule plans to assign workspaces to your employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/working-with-schedule-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/working-with-schedule-planning.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -16,14 +16,14 @@ breadcrumb: [Use, Workplace Central, Workplace Service Delivery, Employee Servic
 
 Create and execute schedule plans to assign workspaces to your employees.
 
--   **[Create a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-schedule-plan.md)**  
+-   **[Create a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-schedule-plan.md)**  
 Create a schedule plan to assign employees, spaces, and employee-space mappings for your projects.
--   **[Edit a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/edit-schedule-plan.md)**  
+-   **[Edit a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/edit-schedule-plan.md)**  
 Edit a schedule plan to change the details, selected users, or selected spaces.
--   **[Cancel a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/cancel-schedule-plan.md)**  
+-   **[Cancel a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/cancel-schedule-plan.md)**  
 Cancel a schedule plan to deactivate the location assignment records for your employees.
 
-**Parent Topic:**[Use Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/use-workplace-central.md)
+**Parent Topic:**[Use Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/use-workplace-central.md)
 
 **Related topics**  
 

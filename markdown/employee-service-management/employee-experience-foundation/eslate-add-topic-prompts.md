@@ -2,7 +2,7 @@
 title: Add topic prompts for the Topic Assist widget
 description: Add preconfigured chat prompts to a topic so employees can start a conversation with the assistant directly from the topic page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-add-topic-prompts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-add-topic-prompts.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +19,7 @@ Add preconfigured chat prompts to a topic so employees can start a conversation 
 
 ## Before you begin
 
-Configure the browse experience for your Employee Slate experience. For more information, see [Configure browse experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md).
+Configure the browse experience for your Employee Slate experience. For more information, see [Configure browse experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md).
 
 Role required: admin or sn\_hr\_sp.esc\_admin
 

@@ -2,7 +2,7 @@
 title: Fulfill a consumer request
 description: Service Exchange Remote Catalog items are ordered from the consumer's ServiceNow instance, and they create provider tasks in each instance. The provider's agent fulfills these provider tasks in their ServiceNow instance. The data in these tasks is synchronized between instances so that they both can track the progress.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-proactive-customer-care-csp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-proactive-customer-care-csp.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -44,10 +44,10 @@ Some common Service Exchange Remote Catalog items are as follows:
     If the consumer accepts the resolution, the state of the provider task on the consumer's instance is updated to **Closed**. The state of the request on the provider's instance is also updated to **Closed**.
 
 
-**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-administer.md)
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-administer.md)
 
 **Related topics**  
 
 
-[Create remote catalogs in Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-catalog.md)
+[Create remote catalogs in Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-remote-catalog.md)
 

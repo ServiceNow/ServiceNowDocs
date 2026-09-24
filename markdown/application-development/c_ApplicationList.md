@@ -2,7 +2,7 @@
 title: Application list
 description: The applications list allows application developers to view and select applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_ApplicationList.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

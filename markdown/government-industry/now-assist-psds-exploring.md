@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application, your agents can use AI capabilities to perform various tasks on a government service case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-exploring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -141,9 +141,9 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 
 [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md)
+[Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-configuring.md)
 
-[Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-using.md)
+[Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-using.md)
 
 [Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 

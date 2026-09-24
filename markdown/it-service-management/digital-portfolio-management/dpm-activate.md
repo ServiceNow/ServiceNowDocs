@@ -2,7 +2,7 @@
 title: Activate Digital Portfolio Management
 description: The Digital Portfolio Management plugin is available from the ServiceNow ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-activate.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -22,7 +22,7 @@ Role required: sn\_dpm.dpm\_admin
 
 ## About this task
 
-When you install the Digital Portfolio Management \(DPM\) application from the ServiceNow Store, it automatically installs the necessary plugins. For a list of other application plugins that you must install to surface other application data in DPM, see [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-related-products.md).
+When you install the Digital Portfolio Management \(DPM\) application from the ServiceNow Store, it automatically installs the necessary plugins. For a list of other application plugins that you must install to surface other application data in DPM, see [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-related-products.md).
 
 ## Procedure
 
@@ -35,5 +35,5 @@ When you install the Digital Portfolio Management \(DPM\) application from the S
 3.  Select **Install**, and then in the Activate Plugin dialog box, select **Activate**.
 
 
-**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 

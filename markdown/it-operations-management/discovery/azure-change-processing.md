@@ -2,7 +2,7 @@
 title: Azure change processing
 description: The Azure change processing feature collects information about Microsoft Azure resources that have undergone a life-cycle state change or configuration change near real time. Then, it uses the collected information to update the Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/azure-change-processing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/azure-change-processing.html
 release: australia
 product: Discovery
 classification: discovery
@@ -44,7 +44,7 @@ Starting with Discovery and Service Mapping Patterns 1.21.0 version, Azure chang
 
     You can use this table to review all supported resource types, add a resource type for change processing, and disable or enable the processing for a certain resource.
 
-    For more information on adding support for an Azure resource type, see [Add change processing support for an Azure resource type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-change-processing-support-azure-resource-type.md).
+    For more information on adding support for an Azure resource type, see [Add change processing support for an Azure resource type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/add-change-processing-support-azure-resource-type.md).
 
     Key fields:
 
@@ -167,14 +167,14 @@ The Azure change processing offers the following advantages over the Microsoft A
     The Microsoft Azure alert-driven discovery uses a webhook to send the alerts to the ServiceNow AI Platform. As the Azure cloud generates alerts at the subscription level, the Microsoft Azure alert-driven discovery needs a webhook for each subscription you want to monitor. In contrast, Azure change processing uses CAPI and MID Server to interact with the Azure resource changes API. The API can provide change information at the management group level. Therefore, Azure change processing removes the need for webhooks and simplifies the setup.
 
 
-You can [configure Azure change processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-azure-change-processing.md) to get resource change information from the Microsoft Azure cloud and use it to update the CMDB.
+You can [configure Azure change processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/configure-azure-change-processing.md) to get resource change information from the Microsoft Azure cloud and use it to update the CMDB.
 
-If you’re using the Microsoft Azure alert-driven discovery, then you can [migrate to Azure change processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/migrate-to-azure-change-processing.md) to improve the change processing performance of the ServiceNow AI Platform and take advantage of the simplified setup.
+If you’re using the Microsoft Azure alert-driven discovery, then you can [migrate to Azure change processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/migrate-to-azure-change-processing.md) to improve the change processing performance of the ServiceNow AI Platform and take advantage of the simplified setup.
 
 **Related topics**  
 
 
 [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1705862](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1705862)
 
-[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
+[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

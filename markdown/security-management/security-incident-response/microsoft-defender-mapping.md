@@ -2,7 +2,7 @@
 title: Map incident fields
 description: Map Microsoft Defender Incident, and Event Fields to SIR Incident Target Fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/microsoft-defender-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/microsoft-defender-mapping.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -134,5 +134,5 @@ Specify incident IDs separated by commas. You can ingest 5 incident IDs.
 
 ## What to do next
 
-[Define filter and aggregation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-def-filtering-and-aggregation.md)
+[Define filter and aggregation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-def-filtering-and-aggregation.md)
 

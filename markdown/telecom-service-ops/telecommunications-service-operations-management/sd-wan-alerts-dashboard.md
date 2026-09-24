@@ -2,7 +2,7 @@
 title: SD-WAN Alerts Dashboard
 description: Monitor and analyze SD-WAN network alerts across customers and devices, with views for today's alerts, 30-day alert history, and alert trends over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/sd-wan-alerts-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/sd-wan-alerts-dashboard.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

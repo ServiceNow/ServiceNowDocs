@@ -2,7 +2,7 @@
 title: System properties for tracing systems in Emergency Exposure Management
 description: System properties associated with tracing systems that are available in the Emergency Exposure Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.html
 release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -18,11 +18,11 @@ System properties associated with tracing systems that are available in the Emer
 
 To configure the system properties available for a tracing system, navigate to **Emergency Exposure Management** &gt; **Administration** &gt; **Tracing Systems** and open the tracing system record.
 
-For more information on setting up or modifying a tracing system, see [Set up a tracing system for an exposure data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/set-up-tracing-system.md).
+For more information on setting up or modifying a tracing system, see [Set up a tracing system for an exposure data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/set-up-tracing-system.md).
 
 ## System properties for tracing systems installed with Contact Tracing
 
-For more information, see [Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-contact-tracing.md).
+For more information, see [Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/set-up-contact-tracing.md).
 
 <table id="table_slw_cd1_w4b"><thead><tr><th>
 

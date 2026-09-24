@@ -2,7 +2,7 @@
 title: Conversational Catalog Requests
 description: Provides a conversational experience based on generative AI for submitting catalog item request in Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -20,11 +20,11 @@ Provides a conversational experience based on generative AI for submitting catal
 
 <table id="table_pwh_zfm_xfc" class="nav-card presentation"><tbody><tr><td>
 
-[Conversational Catalog Requests\[Omitted image "bus-explore.svg"\] Alt text:Overview of Conversational Catalog Requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/explore.md)
+[Conversational Catalog Requests\[Omitted image "bus-explore.svg"\] Alt text:Overview of Conversational Catalog Requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/explore.md)
 
 </td><td>
 
-[Catalog Conversational Coverage\[Omitted image "bus-sdlc.svg"\] Alt text:Catalog conversational coverage and the dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)
+[Catalog Conversational Coverage\[Omitted image "bus-sdlc.svg"\] Alt text:Catalog conversational coverage and the dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
@@ -43,12 +43,12 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/explore.md)**  
+-   **[Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/explore.md)**  
 Conversational Catalog Requests provides a conversational, generative AI-powered experience for submitting catalog item requests through Virtual Agent.
--   **[Configure Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-gen-ai-catalog-item.md)**  
+-   **[Configure Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/configure-gen-ai-catalog-item.md)**  
 Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
--   **[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-agent-reference.md)**  
+-   **[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-agent-reference.md)**  
 Reference information of the catalog agent and LLM topic blocks to power conversational catalog requests.
 
-**Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)
+**Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog.md)
 

@@ -2,7 +2,7 @@
 title: Link an app to source control in ServiceNow Studio
 description: Link an application or application customization to a Git repository in ServiceNow Studio so application developers can manage changes directly from the platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/link-app-to-source-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/link-app-to-source-control.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -18,7 +18,7 @@ Link an application or application customization to a Git repository in ServiceN
 
 ## Before you begin
 
--   Review [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md) before linking a customization.
+-   Review [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/manage-customizations-store-apps.md) before linking a customization.
 -   Create a dedicated Git repository for the application. For increased security, enable multi-factor authentication for the Git repository.
 -   Generate an access token for the source control integration to use instead of a password and multi-factor authentication passkey when creating a Credential record. Search for personal access token on [GitHub](https://help.github.com) or [GitLab](https://docs.gitlab.com).
 -   Restrict permissions on the access token to allow read and write access to the Git repository.
@@ -118,7 +118,7 @@ An optional description of the repository or application.
     The ServiceNow AI Platform validates the connection and user credentials and displays a success message. All application developers on the instance can now use the linked Git repository to manage changes.
 
 
-**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
+**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 
 **Related topics**  
 

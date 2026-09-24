@@ -2,7 +2,7 @@
 title: Configure element definition
 description: Configure element definitions to identify the configuration item that has to be assessed in a business impact analysis and recovered in a business continuity plan. Use the Element Definitions module in the Business Continuity Management application navigator to configure an element definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-element-definition-bia-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-element-definition-bia-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,13 +66,13 @@ However, you can now add a Windows server asset in the Windows Server element de
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/element-definition-record-form.md).
+    For more information on the fields in the form, see [Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/element-definition-record-form.md).
 
 4.  Select **Submit**.
 
 
--   **[Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/element-definition-record-form.md)**  
+-   **[Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/element-definition-record-form.md)**  
 Use the Element definition record form to configure a recovery tier with a set of business applications by using BCM UIB Workspace.
 
-**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

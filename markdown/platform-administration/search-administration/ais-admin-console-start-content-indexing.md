@@ -2,14 +2,14 @@
 title: Index the content from an indexed source for searchability
 description: Enable AI Search to index the records from your source tables to make the content searchable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-start-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-admin-console-start-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Managing indexed sources from the AI Search Admin console, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -23,9 +23,9 @@ Role required: ais\_admin
 
 ## About this task
 
-You can index the existing records in the source table and any child tables that you set up for indexing. If you add, change, or remove an indexed source attribute, or update indexed values for fields on referenced tables, you must reindex the content from an internal source. You can do it manually by following the steps given in the procedure again. For more information, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexing-content-ais.md).
+You can index the existing records in the source table and any child tables that you set up for indexing. If you add, change, or remove an indexed source attribute, or update indexed values for fields on referenced tables, you must reindex the content from an internal source. You can do it manually by following the steps given in the procedure again. For more information, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/indexing-content-ais.md).
 
-You can also index the content from an indexed source for external documents. For more information, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-ais.md).
+You can also index the content from an indexed source for external documents. For more information, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/external-content-ais.md).
 
 ## Procedure
 
@@ -86,7 +86,7 @@ AI Search indexes content from existing records in the indexed source. Indexing 
 
 ## What to do next
 
-Define search sources to make searchable content from the indexed source available in user search experiences. For details on creating search sources, see [Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-evam-configurations.md).
+Define search sources to make searchable content from the indexed source available in user search experiences. For details on creating search sources, see [Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-evam-configurations.md).
 
-**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-managing-indexed-source.md)
+**Parent Topic:**[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-managing-indexed-source.md)
 

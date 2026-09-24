@@ -2,7 +2,7 @@
 title: Associate an agency location to a Public Service definition
 description: Associate your government service agency locations with a service definition using the Public Sector Digital Services \(PSDS\) application. With this association, your government service agency staff can address constituent requests for documents, records, or services that are offered at a particular agency location, and can raise a case on behalf of a constituent or business.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-associate-agency-location-to-service-offered.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-associate-agency-location-to-service-offered.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

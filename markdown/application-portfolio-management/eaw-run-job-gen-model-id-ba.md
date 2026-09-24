@@ -2,7 +2,7 @@
 title: Generate an application model for business applications
 description: Execute a script to generate the application model for existing business applications. An application model is a structured representation of a business application's components and their relationships and interactions within your application landscape.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-run-job-gen-model-id-ba.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-run-job-gen-model-id-ba.html
 release: australia
 topic_type: task
 last_updated: "2026-02-25"
@@ -35,5 +35,5 @@ In Enterprise Architecture Workspace, the application model is denoted by **Mode
 
 After executing the script, the system automatically creates models IDs for the existing business applications for which the **Model ID** field is empty.
 
-**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-application-portfolio.md)
 

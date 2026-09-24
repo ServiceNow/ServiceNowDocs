@@ -2,7 +2,7 @@
 title: Analytics and Reporting Solutions for Audit Management
 description: Platform Analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/grc-audit-mgmt-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/grc-audit-mgmt-content-pack.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -34,5 +34,5 @@ To enable the Analytics and Reporting solution for GRC: Audit Management, perfor
 
 Starting with version 18.1.5 of the Audit Management application, the Analytics and Reporting solutions for Audit Management such as the Audit Engagement Overview dashboard and Audit Manager dashboard are available in the Next Experience UI Framework.
 
-For more information, see [Audit Engagement Overview Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/grc-audit-mgmt-dashboard.md) and [Audit Manager Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-manager-dashboard.md).
+For more information, see [Audit Engagement Overview Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/grc-audit-mgmt-dashboard.md) and [Audit Manager Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-manager-dashboard.md).
 

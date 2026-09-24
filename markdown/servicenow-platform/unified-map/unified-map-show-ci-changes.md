@@ -2,7 +2,7 @@
 title: View historical changes for a CI
 description: The Changes panel in Unified Map displays change details such as changes to life cycle stage or operational state for the selected CI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-show-ci-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/unified-map-show-ci-changes.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -27,7 +27,7 @@ Role required:
 
 ## About this task
 
-Changes are also indicated on the timeline. For more information, see [Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-timeline-working-on.md).
+Changes are also indicated on the timeline. For more information, see [Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-timeline-working-on.md).
 
 ## Procedure
 
@@ -50,10 +50,10 @@ Changes are also indicated on the timeline. For more information, see [Viewing r
         -   Filter sets
     -   Select the Search icon \[Omitted image "icon-um-change-search.png"\] and enter text in the **Search Activity stream** field to find specific changes by entering terms.
     -   Select the ascending \[Omitted image "icon-um-open-filter-panel.png"\] or descending sort icon \[Omitted image "icon-um-change-sort.png"\] to toggle between ascending or descending sort.
-    -   Create a filter set to supplement the existing filtering options on the Changes panel. You can save filter settings for reuse. For more information, see [Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-manage-preset-filter.md).
+    -   Create a filter set to supplement the existing filtering options on the Changes panel. You can save filter settings for reuse. For more information, see [Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-manage-preset-filter.md).
 
 **Related topics**  
 
 
-[Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-timeline-working-on.md)
+[Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-timeline-working-on.md)
 

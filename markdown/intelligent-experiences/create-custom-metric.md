@@ -2,7 +2,7 @@
 title: Create a custom metric for evaluating agentic workflows
 description: Create a custom metric for evaluating AI agents and agentic workflows to test the outputs against expected responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-custom-metric.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-custom-metric.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -25,7 +25,7 @@ Custom metrics enable you to choose you measure your AI agents and agentic workf
 -   Testing that a certain phrase is in the response
 -   Measuring the length of a response to test verbosity
 
-When writing the script, you have access to the output of a parser tool. See [agentic evaluation parser tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/eval-parser-tool.md) for more details on how it works.
+When writing the script, you have access to the output of a parser tool. See [agentic evaluation parser tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/eval-parser-tool.md) for more details on how it works.
 
 ## Procedure
 
@@ -94,7 +94,7 @@ You have a new custom metric that can be used for evaluating agentic AI assets.
 
 ## What to do next
 
-Execute an evaluation run and select your custom metric in the guided setup. See [Evaluate agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md) for more information on executing an evaluation run.
+Execute an evaluation run and select your custom metric in the guided setup. See [Evaluate agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/execute-aia-eval.md) for more information on executing an evaluation run.
 
 If you do not see your custom metric in the guided setup for an evaluation run, make sure that you have published it.
 

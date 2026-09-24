@@ -2,7 +2,7 @@
 title: Research prospects and generate artifacts with the AI assistant
 description: Use the AI assistant to research a prospect, pull internal case studies, and generate a ready-to-send document. Complete these tasks in one conversation with opt-in access to an external large language model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-research-external-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-research-external-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +29,7 @@ Role required: Employee
 
 ## About this task
 
-The AI assistant keeps external research, internal proof points, and artifact generation in one cohesive flow. You complete prospect preparation without switching to a separate browser tab. You also don't paste confidential information into a public AI tool. For background, see [AI assistant reasoning engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md) and [World Knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
+The AI assistant keeps external research, internal proof points, and artifact generation in one cohesive flow. You complete prospect preparation without switching to a separate browser tab. You also don't paste confidential information into a public AI tool. For background, see [AI assistant reasoning engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md) and [World Knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
 
 ## Procedure
 

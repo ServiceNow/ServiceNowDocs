@@ -2,7 +2,7 @@
 title: Manually create a Configuration Compliance remediation task
 description: You can manually create a remediation task from the Remediation Tasks module and perform remediation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/create-test-result-group-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/create-test-result-group-module.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -87,7 +87,7 @@ State
 
 </td><td>
 
-Initially **Open**, is the remediation state of the remediation task. For more information, see [Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-states.md).
+Initially **Open**, is the remediation state of the remediation task. For more information, see [Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/vuln-config-compl-states.md).
 
 </td></tr><tr><td>
 

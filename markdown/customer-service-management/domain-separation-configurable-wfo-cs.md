@@ -2,7 +2,7 @@
 title: Domain separation in Workforce Optimization for Customer Service
 description: Domain separation is supported in Workforce Optimization for Customer Service. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data. Domain separation in Workforce Optimization for Customer Service is configured to apply to all features of the application. Separation of data is configured along with separation of logic and process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/domain-separation-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/domain-separation-configurable-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -71,7 +71,7 @@ Domain separated tables for Skill Recommendation
 
 For information on how domain separation works in Coaching for Workforce Optimization for ITSM, refer to [Domain separation and Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-domain-separation-coaching.md)
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-configurable-wfo-cs.md)
 
 **Related topics**  
 

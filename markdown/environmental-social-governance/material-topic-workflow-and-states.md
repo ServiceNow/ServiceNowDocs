@@ -2,7 +2,7 @@
 title: Material topic workflow and states
 description: Material topics are the point of origin for sustainability initiatives. A material topic must be identified before it can be tracked and measured for success. The workflow states for a material topic depend on how the material topic was created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/material-topic-workflow-and-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/material-topic-workflow-and-states.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -59,14 +59,14 @@ Material topics imported from Socialsuite progress through the following states 
 
 ## Fields for Socialsuite material topics
 
-Material topics imported from Socialsuite include additional fields that store materiality assessment data. These fields are visible and read-only for topics imported from Socialsuite. All data for these fields is managed through Socialsuite. For a complete list of fields, see [Socialsuite material topic fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/socialsuite-material-topic-fields.md).
+Material topics imported from Socialsuite include additional fields that store materiality assessment data. These fields are visible and read-only for topics imported from Socialsuite. All data for these fields is managed through Socialsuite. For a complete list of fields, see [Socialsuite material topic fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/socialsuite-material-topic-fields.md).
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-new-explore.md)
 
 **Related topics**  
 
 
-[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg.md)
+[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg.md)
 
-[Set Material topic selection system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-material-topic-selection-system-property.md)
+[Set Material topic selection system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-material-topic-selection-system-property.md)
 

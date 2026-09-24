@@ -2,7 +2,7 @@
 title: Move a resource to a different Unused resources job
 description: You can add resources to a currently scheduled job, move resources from one job to another, or remove resources from a job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/um-change-job-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/um-change-job-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -122,5 +122,5 @@ This field appears only when the **Approval type** is selected as **Auto approva
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md)
+**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/manage-unused-mac.md)
 

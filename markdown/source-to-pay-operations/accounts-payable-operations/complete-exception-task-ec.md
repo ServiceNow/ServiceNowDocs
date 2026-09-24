@@ -2,7 +2,7 @@
 title: Mark an exception task as complete from Employee Center
 description: Mark an assigned invoice exception task as complete from Employee Center when you have finished working on the task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/complete-exception-task-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/complete-exception-task-ec.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -36,5 +36,5 @@ Role required: sn\_shop.invoice\_owner or sn\_ap\_cm.task\_owner
     The status of the exception task changes to Closed complete.
 
 
-**Parent Topic:**[Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md)
+**Parent Topic:**[Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md)
 

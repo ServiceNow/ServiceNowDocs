@@ -2,7 +2,7 @@
 title: Cross tenant intelligence
 description: A multi-tenant architecture is where you have a single instance serving multiple tenants. Data, metadata, business logic, and processing context for tenants is automatically handled with access to additional tenant data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-dom-sep-how-it-works.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-dom-sep-how-it-works.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ A multi-tenant architecture is where you have a single instance serving multiple
     -   Domain tenants have lower upfront costs to use the ServiceNow platform, have lower monthly costs because they are sharing it with many tenants, and do not have to employ a staff to administer the environment.
     -   Benefits shared from requests or changes that are initiated by other tenants.
 
-**Parent Topic:**[Segregating and securing data with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-segregate-secure.md)
+**Parent Topic:**[Segregating and securing data with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-segregate-secure.md)
 

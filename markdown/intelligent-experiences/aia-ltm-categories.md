@@ -2,7 +2,7 @@
 title: Long-term memory categories
 description: Long-term memory \(LTM\) categories define the types of semantic information that an AI agent can learn and retain about users over time. You can add new categories and map them to specific agents to personalize agent responses based on accumulated user context.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-ltm-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-ltm-categories.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-18"

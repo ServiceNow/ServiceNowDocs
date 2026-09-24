@@ -2,7 +2,7 @@
 title: Onboard a contractor company
 description: Onboard a contractor company to outsource field service tasks. The contractor company then sends its employees to the customer location to perform required tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/onboard-contractor-company.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/onboard-contractor-company.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

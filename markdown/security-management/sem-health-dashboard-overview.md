@@ -2,7 +2,7 @@
 title: Security Exposure Management Workspace Health dashboard
 description: The Vulnerability Response Health dashboard is a tool designed to empower organizations with comprehensive insights into the implementation and usage of their Security Exposure Management applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-health-dashboard-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-health-dashboard-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -113,7 +113,7 @@ This dashboard displays the trends for the findings ingestion performance metric
 |-----|-----------|----------------------------------------|-----------------|------------------|
 |Configuration|
 |Auto-delete rules|Displays the number of enabled auto-delete rules.|Review and resolve the inactive auto-delete rules.|3|1|
-|Auto-close stale records|Closes stale detections automatically. For more information, see the[Closing stale detections and findings automatically using auto-close rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-closing-stale-findings-automatically.md).|Reduce the volume of stale detections. Enable this option to close the stale detections that aren’t closed by the scanners.|3|1|
+|Auto-close stale records|Closes stale detections automatically. For more information, see the[Closing stale detections and findings automatically using auto-close rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-closing-stale-findings-automatically.md).|Reduce the volume of stale detections. Enable this option to close the stale detections that aren’t closed by the scanners.|3|1|
 |Implementation health|
 |Customized script includes|Number of 'script includes' customized.|Minimize customized 'script includes' for easier upgrades.|10|12|
 |Business rules on the detections table|Number of customized business rules in the detection table.|Minimize business rules for easier upgrades.|4|8|

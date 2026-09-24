@@ -2,7 +2,7 @@
 title: Delegation with ADAM
 description: Once the OU structure is created, define the permission delegations to properly secure the objects to limited users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_Delegation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ldap-integration/r\_Delegation.html
 release: australia
 product: LDAP integration
 classification: ldap-integration
@@ -30,9 +30,9 @@ Example: "`dsacls \\localhost:50010\dc=myCompany,dc=adam`" displays the permissi
 **Related topics**  
 
 
-[Create containers and organizational units for ADAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_CreateContainersAndOrgUnits.md)
+[Create containers and organizational units for ADAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ldap-integration/t_CreateContainersAndOrgUnits.md)
 
-[Use ADAMSync to populate ADAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_UsingADAMSyncToPopulateADAM.md)
+[Use ADAMSync to populate ADAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ldap-integration/c_UsingADAMSyncToPopulateADAM.md)
 
 [http://www.microsoft.com/downloads/en/details.aspx?familyid=9688f8b9-1034-4ef6-a3e5-2a2a57b5c8e4&amp;displaylang=en%7C](http://www.microsoft.com/downloads/en/details.aspx?familyid=9688f8b9-1034-4ef6-a3e5-2a2a57b5c8e4&displaylang=en%7C)
 

@@ -2,7 +2,7 @@
 title: Create a purchase order line item
 description: After you save a new purchase order, you create purchase order line item records to specify the individual items to order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_CreateAPurchaseOrderLineItem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/procurement/t\_CreateAPurchaseOrderLineItem.html
 release: australia
 product: Procurement
 classification: procurement
@@ -120,7 +120,7 @@ Expected delivery
 
 </td><td>
 
-The date the purchase order line item is expected to arrive in the stockroom identified in the **Ship to** field on the purchase order record. This field is automatically filled with the value in the **Expected delivery** field on the purchase order record. This field can be edited when the purchase order line item has a **Status** of **Requested**. For more information about this field, see [Purchase order expected delivery date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/r_SetExpectDelDateOnPurchOrder.md).
+The date the purchase order line item is expected to arrive in the stockroom identified in the **Ship to** field on the purchase order record. This field is automatically filled with the value in the **Expected delivery** field on the purchase order record. This field can be edited when the purchase order line item has a **Status** of **Requested**. For more information about this field, see [Purchase order expected delivery date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/r_SetExpectDelDateOnPurchOrder.md).
 
 </td></tr><tr><td>
 
@@ -218,7 +218,7 @@ Non-catalog request
 
 Select this check box to create a requisition for an item that is not present in the product catalog of the organization.**Note:**
 
--   This field isn't visible on the form if you haven't published a procurement integration profile. For more information, see [Integrating with external procurement applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/integrate-ext-proc-ser.md).
+-   This field isn't visible on the form if you haven't published a procurement integration profile. For more information, see [Integrating with external procurement applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/integrate-ext-proc-ser.md).
 -   If you select only a software model in the Product model field, this check box gets displayed on the form.
 -   If you select an item in the Product Catalog field, the check box gets automatically unchecked.
 -   If you haven't selected any item in the Product Catalog field, this check box is automatically checked, which indicates you're submitting a non-catalog request.
@@ -252,10 +252,10 @@ A few words or short phrase describing the purchase order line item.
     The status of the purchase order and line items change to **Ordered**.
 
 
-**Parent Topic:**[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_CreateAPurchaseOrder.md)
+**Parent Topic:**[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/t_CreateAPurchaseOrder.md)
 
 **Related topics**  
 
 
-[Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ManageVendorCatalogItems.md)
+[Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_ManageVendorCatalogItems.md)
 

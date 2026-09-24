@@ -2,7 +2,7 @@
 title: Testing in non-production environments before migration
 description: Test configurators in a non-production environment before migrating them to production. The configurators support revenue-critical processes, validate all changes outside production and promote them using controlled environment-to-environment migrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-env-to-env-bp-migration-intro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-env-to-env-bp-migration-intro.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,5 +32,5 @@ Because all maintenance and development must be tested in a non-production envir
 
 [Migrate a blueprint to an SFDC-integrated destination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-[The fullBlueprintMigration parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-fullblueprintmigration-param.md)
+[The fullBlueprintMigration parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-fullblueprintmigration-param.md)
 

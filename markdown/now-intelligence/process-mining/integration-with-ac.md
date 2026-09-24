@@ -2,7 +2,7 @@
 title: Integration with Automation Center
 description: Integration with Automation Center enables you to access the automation requests from the Automation Center Workspace.Discover, prioritize, and manage automation requests from different sources from the Process Mining workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/integration-with-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/integration-with-ac.html
 release: australia
 product: Process Mining
 classification: process-mining

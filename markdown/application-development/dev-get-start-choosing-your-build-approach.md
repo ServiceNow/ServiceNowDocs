@@ -2,7 +2,7 @@
 title: Choosing your build approach
 description: Understand when to use AI-assisted tools like the app generation skill with ServiceNow Otto for Creator and Build Agent versus when to build an application manually on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-choosing-your-build-approach.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/dev-get-start-choosing-your-build-approach.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-31"
@@ -70,5 +70,5 @@ Manual development gives you direct control over every aspect of your applicatio
 
 AI and manual app development are not mutually exclusive. A common strategy is to use Build Agent or the app generation skill to create an initial application scaffold, and then refine the result manually. For example, you might generate the data model and basic views with AI, and then hand-author complex business rules, integrations, and access controls. This approach can significantly reduce your time to value, while preserving full developer control over the parts of the application that matter most.
 
-**Parent Topic:**[AI-native app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-use-ai-to-build-faster.md)
+**Parent Topic:**[AI-native app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-get-start-use-ai-to-build-faster.md)
 

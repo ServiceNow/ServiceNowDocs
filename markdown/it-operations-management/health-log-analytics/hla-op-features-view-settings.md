@@ -2,7 +2,7 @@
 title: View the settings of Health Log Analytics system features
 description: View the settings for all Health Log Analytics system features. These features configure many operations that affect your work. The admin can enable or disable features for you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-features-view-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-op-features-view-settings.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics

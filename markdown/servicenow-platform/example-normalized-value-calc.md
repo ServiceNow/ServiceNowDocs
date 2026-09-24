@@ -2,7 +2,7 @@
 title: Normalized value for an assessment
 description: The normalized value is calculated based on a linear equation and the scale definition of the metric. This value can be used for risk assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/example-normalized-value-calc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/example-normalized-value-calc.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -199,5 +199,5 @@ For a risk assessment, the weighted value from metric results table is calculate
 
 `weighted_value = metric.weight * result.actual_value`
 
-**Parent Topic:**[Metric Result form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MetricResultFieldNames.md)
+**Parent Topic:**[Metric Result form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_MetricResultFieldNames.md)
 

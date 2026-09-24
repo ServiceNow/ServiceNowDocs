@@ -2,7 +2,7 @@
 title: Confirm meeting a milestone for your service from Employee Center
 description: Provide confirmation from Employee Center on whether the supplier has met a milestone for a service you had ordered, so that payment can be processed to the supplier for that milestone. If a milestone hasn’t been met by the due date, you can raise a cancel request or propose a new completion date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/confirm-meeting-milestone-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-meeting-milestone-ec.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -78,5 +78,5 @@ Push the milestone to a later date.On the **Propose a new expected completion da
 
 You can view the completed task in the **Completed** tab after the fulfiller has also reviewed and confirmed that the task is complete.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

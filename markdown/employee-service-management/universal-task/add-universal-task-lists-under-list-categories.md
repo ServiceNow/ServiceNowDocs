@@ -2,7 +2,7 @@
 title: Add lists under the Universal Task list categories
 description: Add lists under the newly created Universal Task list category in Service Operations Workspace so that agents can access these modules from the new workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/add-universal-task-lists-under-list-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-task/add-universal-task-lists-under-list-categories.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -39,8 +39,8 @@ Role required: admin
 
 The lists under the Universal Task list category are added.
 
--   **[UX List Form SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ux-list-form-sow.md)**  
+-   **[UX List Form SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/ux-list-form-sow.md)**  
 Learn about the fields of the UX List form. Use this form to create additional lists in the Lists menu of Service Operations Workspace.
 
-**Parent Topic:**[Adding a Universal Task list category in SOW core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/add-universal-task-list-categories.md)
+**Parent Topic:**[Adding a Universal Task list category in SOW core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/add-universal-task-list-categories.md)
 

@@ -2,7 +2,7 @@
 title: Configure Emergency Outreach response options
 description: Configure the response options that employees choose from to respond to an Emergency Outreach health status request. You can modify the base system responses, add new responses, and deactivate responses you no longer use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/config-emergency-outreach-responses.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-outreach/config-emergency-outreach-responses.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach

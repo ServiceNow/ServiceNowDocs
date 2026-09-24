@@ -2,7 +2,7 @@
 title: Plan your application development
 description: The planning process is the most important step in building an application. Thinking through design and configuration before building has both immediate and long-term benefits for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/plan-your-app-development.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/plan-your-app-development.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,10 +47,10 @@ Poor fit
 -   Highly customized user interface
 
 </td></tr></tbody>
-</table>-   **[Plan before you build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/plan-before-you-build.md)**  
+</table>-   **[Plan before you build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/plan-before-you-build.md)**  
 Essentially, an application is a digital program that supports user tasks. Some actions you take when building an application might be irreversible. Be aware of these actions and plan for them in advance.
--   **[Manage app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/manage-app-development.md)**  
+-   **[Manage app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/manage-app-development.md)**  
 Govern app development on the ServiceNow AI Platform.
 
-**Parent Topic:**[Exploring professional development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-professional-development.md)
+**Parent Topic:**[Exploring professional development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-professional-development.md)
 

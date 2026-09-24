@@ -2,7 +2,7 @@
 title: Search enterprise content with Enterprise Search
 description: Use Enterprise Search for granular discovery across every connected source at the same time. Enterprise Search provides an AI-generated summary, filters for source, date, and type, and a Dive Deeper handoff to the AI assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-search-enterprise-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-search-enterprise-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,7 +28,7 @@ Role required: admin
 
 ## About this task
 
-Enterprise Search gives you one place to find any content connected to Employee Slate. Content includes formal knowledge and employee-created content, such as SharePoint files or email messages. For how search sits alongside the AI assistant, see [Enterprise Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
+Enterprise Search gives you one place to find any content connected to Employee Slate. Content includes formal knowledge and employee-created content, such as SharePoint files or email messages. For how search sits alongside the AI assistant, see [Enterprise Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Synchronization between Visual Studio Code and a ServiceNow instance
 description: You can synchronize your applications between Visual Studio Code and your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vscode-sync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vscode-sync.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,10 +26,10 @@ Synchronization accounts for the following changes:
 
 You can sync your currently selected record or all records in the current application.
 
--   **[Sync the current file between a Visual Studio Code workspace and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sync-current-file.md)**  
+-   **[Sync the current file between a Visual Studio Code workspace and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/sync-current-file.md)**  
 Identify conflicting files and merge or overwrite the changes, between the current file in your Visual Studio Code workspace and your instance.
--   **[Synchronize the current project between a Visual Studio Code workspace and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/synchronize-files.md)**  
+-   **[Synchronize the current project between a Visual Studio Code workspace and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/synchronize-files.md)**  
 Synchronize files between the Visual Studio Code workspace \(client/local\) and the instance \(server\) bi-directionally.
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vs-code.md)
 

@@ -2,7 +2,7 @@
 title: ServiceNow Otto integration overview
 description: The ServiceNow Otto integration sends outbound webhook events to the ServiceNow Otto listener when a Break-Fix case changes to a key state. This enables ServiceNow Otto to proactively notify store associates on their desktop messaging platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/c\_moveworks-integration-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/c\_moveworks-integration-overview.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-01"

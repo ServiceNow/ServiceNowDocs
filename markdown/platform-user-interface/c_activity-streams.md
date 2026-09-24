@@ -2,7 +2,7 @@
 title: Activity streams
 description: An activity stream is a list of entries in records and conversations, such as journal fields, comments, and work notes that display in task records and Sidebar conversations. Activity streams are available Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_activity-streams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_activity-streams.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The three types of activity streams are as follows:
 
 -   **List activity stream**
 
-    Streams live activity information for all records on the current list. For more information, see [Activity streams in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DisplayActivityStreams.md). You can click an item to open the record activity stream without opening the record.
+    Streams live activity information for all records on the current list. For more information, see [Activity streams in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_DisplayActivityStreams.md). You can click an item to open the record activity stream without opening the record.
 
 -   **Record activity stream**
 
@@ -28,7 +28,7 @@ The three types of activity streams are as follows:
 
 -   **Visual Task Board**
 
-    Streams live activity information for all task cards in the current task board. You can click an item in the activity stream to [open the task card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_EditCardDetails.md) and view the activity stream of the record.
+    Streams live activity information for all task cards in the current task board. You can click an item in the activity stream to [open the task card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_EditCardDetails.md) and view the activity stream of the record.
 
 
 ## Attachments and images
@@ -48,8 +48,8 @@ Get someone's attention on a record by mentioning them with the @ character in a
 Any user can use activity stream mentions in the following places:
 
 -   On a form, in the [activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md) \(Core UI only\).
--   In a list, in the [activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DisplayActivityStreams.md) for a record.
--   On a Visual Task Board card, in the [card details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_EditCardDetails.md).
+-   In a list, in the [activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_DisplayActivityStreams.md) for a record.
+-   On a Visual Task Board card, in the [card details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_EditCardDetails.md).
 -   In a Connect [record conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_StartARecordConversation.md).
 
 To mention someone, enter the `@` character in a supported activity stream. Next, select a user from the suggestion list to select any user in the instance. You can see which users have access to the record and, if presence is enabled, who is online. Enter any other text and post to the activity stream. The following example shows an \#Mention on a form.
@@ -66,5 +66,5 @@ You can filter out emails in the activity stream, for example, auto-generated an
 
 **Note:** The activity stream displays either a user's first and last name or their user name/user id, depending on the system property **glide.ui.activity.displayname**. It is possible that old entries in the activity stream will display a different user name/user id for the same user, if the value has changed. For more information, see [KB1706641](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1706641).
 
-**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_CommonUIElements.md)
+**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/p_CommonUIElements.md)
 

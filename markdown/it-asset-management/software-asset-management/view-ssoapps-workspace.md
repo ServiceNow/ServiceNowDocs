@@ -2,7 +2,7 @@
 title: View SSO applications in workspace
 description: View details related to applications that you can connect through a SSO provider in the Software Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-ssoapps-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/view-ssoapps-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -84,5 +84,5 @@ SSO groups that are mapped to specific software models for managing licenses at 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)
 

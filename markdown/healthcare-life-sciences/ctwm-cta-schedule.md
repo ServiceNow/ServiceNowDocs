@@ -2,7 +2,7 @@
 title: Enter Schedule details in the Care team activities playbook
 description: Complete the Schedule playbook stage in the Care team activities playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-cta-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-cta-schedule.html
 release: australia
 topic_type: task
 last_updated: "2026-08-31"
@@ -36,5 +36,5 @@ The Care team activities playbook uses the same PWM Schedule activity as the Ope
 
 ## What to do next
 
-[Review and publish a Care team activities task plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-cta-plan-summary.md)
+[Review and publish a Care team activities task plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-cta-plan-summary.md)
 

@@ -2,7 +2,7 @@
 title: Event - Global
 description: The Event API provides methods that enable the setting and getting of values within an event.Instantiates an Event constructor.Returns the current value of the passed in event management field.Replaces the existing additional\_info field in the associated event with the passed in JSON string.Sets the specified field in the associated event.Sets the description field of the associated event to the passed in value.Sets the time\_of\_event field in the associated event to the passed in UTC time value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/EventAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/EventAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -24,7 +24,7 @@ You must activate the Event Management \(com.glideapp.itom.snac\) plugin before 
 
 For additional information on event management, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EM.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Event - Event\(\)
 
@@ -64,7 +64,7 @@ var eventSeverity = event.getField("severity");
 
 Replaces the existing **additional\_info** field in the associated event with the passed in JSON string.
 
-**Note:** You can use the [setField\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EventAPI.md) method to update a specific field within the **additional\_info** field.
+**Note:** You can use the [setField\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EventAPI.md) method to update a specific field within the **additional\_info** field.
 
 <table id="table_pc2_dbh_kkb" class="parameters"><thead><tr><th>
 
@@ -260,7 +260,7 @@ Metric type to which the event is related, such as Disk or CPU. This value is us
  Default: Null
 
 </td></tr></tbody>
-</table>**Note:** You can also use the [setText\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EventAPI.md) method to update the **description** field and the [setTimeOfEvent\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EventAPI.md) method to update the event time.
+</table>**Note:** You can also use the [setText\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EventAPI.md) method to update the **description** field and the [setTimeOfEvent\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EventAPI.md) method to update the event time.
 
 For additional information on events, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EM.md).
 
@@ -319,7 +319,7 @@ event.setField("user", "admin"); // parameter will be added to additional_info s
 
 Sets the **description** field of the associated event to the passed in value.
 
-**Note:** You can also use the [Event - setField\(String key, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EventAPI.md) method to set the **text** field in the current event. Unlike the setField\(\) method, this method does not trim the passed in text.
+**Note:** You can also use the [Event - setField\(String key, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EventAPI.md) method to set the **text** field in the current event. Unlike the setField\(\) method, this method does not trim the passed in text.
 
 <table id="table_r2j_mgh_kkb" class="parameters"><thead><tr><th>
 
@@ -360,7 +360,7 @@ event.setText("SAP Solman");
 
 Sets the **time\_of\_event** field in the associated event to the passed in UTC time value.
 
-**Note:** You can also use the [Event - setField\(String key, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EventAPI.md) method to set the **time\_of\_event** field.
+**Note:** You can also use the [Event - setField\(String key, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EventAPI.md) method to set the **time\_of\_event** field.
 
 <table id="table_m43_kwg_kkb" class="parameters"><thead><tr><th>
 

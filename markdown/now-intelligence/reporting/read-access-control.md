@@ -2,7 +2,7 @@
 title: Report execution security
 description: When a report is run, report\_view access control lists \(ACLs\) are evaluated on the table and table fields that the report is based on. If no report\_view ACL exists, there is a fallback check on table-level read ACL roles. The report\_view ACL checks on all fields, including those used in the condition builder \(including dot-walked fields\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/read-access-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/read-access-control.html
 release: australia
 product: Reporting
 classification: reporting
@@ -39,5 +39,5 @@ It isn’t recommended to change the system property to ignore or log as the rea
 
 \[Omitted image "read-acl-evaluation.png"\] Alt text:
 
-**Parent Topic:**[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md)
+**Parent Topic:**[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md)
 

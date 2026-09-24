@@ -2,14 +2,14 @@
 title: Customizing the result-card interface of an AI Search application by using EVAM
 description: You can customize the appearance and layout of the result-card interface in AI Search applications by accessing Entity View Action Mapper \(EVAM\) configurations from the AI Search Admin console. This helps to enhance usability, clarity of search results, making them easier to read and navigate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-managing-evam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-admin-console-managing-evam.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -31,20 +31,20 @@ The following table describes the tasks that you can do to set up the search res
 
 |Task|Description|
 |----|-----------|
-|Map fields to display in search results|Define which fields from your data should be shown in the search results to help ensure that the most relevant information is presented to users. For more information, see [View config details fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-edit-view-config-form.md).|
-|Configure icons for search results|Assign specific icons to different types of search results to make them visually distinct and easier to identify at a glance. For more information, see [Card image fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-edit-view-config-form.md).|
-|Configure navigation actions|Set up actions that users can take directly from the search results, such as navigating to a related page. For more information, see [Card details field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-edit-view-config-form.md).|
+|Map fields to display in search results|Define which fields from your data should be shown in the search results to help ensure that the most relevant information is presented to users. For more information, see [View config details fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-edit-view-config-form.md).|
+|Configure icons for search results|Assign specific icons to different types of search results to make them visually distinct and easier to identify at a glance. For more information, see [Card image fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-edit-view-config-form.md).|
+|Configure navigation actions|Set up actions that users can take directly from the search results, such as navigating to a related page. For more information, see [Card details field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-edit-view-config-form.md).|
 
--   **[Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-evam-configurations.md)**  
+-   **[Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-evam-configurations.md)**  
 Create or edit an Entity View Action Mapper \(EVAM\) view definition in the AI Search Admin console to customize how your AI Search results appear in the portal or workspace.
--   **[Create a copy of an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/copy-evam-viewconfig-ais-admin-console.md)**  
+-   **[Create a copy of an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/copy-evam-viewconfig-ais-admin-console.md)**  
 Modify the search results of your AI Search application by creating a copy of an existing Entity View Action Mapper \(EVAM\) view and then changing the copy. Copying an EVAM is more efficient than creating an EVAM, especially when the changes are minimal.
--   **[Track how your EVAM view configurations are used](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-evam-viewusage.md)**  
+-   **[Track how your EVAM view configurations are used](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-evam-viewusage.md)**  
 Track where Entity View Action Mapper \(EVAM\) view configurations are being used in the AI Search application. It helps you understand search result layouts, identify shared settings, and make adjustments for better search results.
--   **[Activate or deactivate an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/enable-evam-config-ais-admin-console.md)**  
+-   **[Activate or deactivate an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/enable-evam-config-ais-admin-console.md)**  
 Activate or deactivate the Entity View Action Mapper \(EVAM\) view configurations in the AI Search application as needed. This helps you to control which view configurations are in use.
--   **[Delete an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/delete-evam-config-ais-admin-console.md)**  
+-   **[Delete an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/delete-evam-config-ais-admin-console.md)**  
 Delete unnecessary Entity View Action Mapper \(EVAM\) view configuration from your AI Search application at any time to keep the application clean and organized
 
-**Parent Topic:**[Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/using-ais-admin-console.md)
+**Parent Topic:**[Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/using-ais-admin-console.md)
 

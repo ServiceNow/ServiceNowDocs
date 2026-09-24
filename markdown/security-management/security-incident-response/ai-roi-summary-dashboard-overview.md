@@ -2,7 +2,7 @@
 title: Security Incident AI ROI Summary dashboard overview
 description: The Security Incident AI ROI Summary dashboard derives its values from Platform Analytics indicators and an estimation framework rather than from live queries. Knowing how each metric is calculated helps you interpret the time, monetary, and adoption figures that the dashboard reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ai-roi-summary-dashboard-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ai-roi-summary-dashboard-overview.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -197,5 +197,5 @@ In that script include, you can do the following:
 **Related topics**  
 
 
-[Review Security Incident AI ROI Summary dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ai-roi-summary-dashboard.md)
+[Review Security Incident AI ROI Summary dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ai-roi-summary-dashboard.md)
 

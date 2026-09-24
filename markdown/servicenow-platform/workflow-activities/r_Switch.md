@@ -2,7 +2,7 @@
 title: Switch workflow activity
 description: The Switch activity checks if the value of a passed field or variable is equivalent to one of several case values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/r\_Switch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/workflow-activities/r\_Switch.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -82,9 +82,9 @@ The **Field** selected is the incident **Assigned to** field.
 
 If the value of the **Assigned to** field of the workflow-triggering incident is **Service Desk** or **Field Services**, the workflow populates values on the incident record before continuing. If the **Assigned to** value is **Hardware**, the workflow continues without populating any field values.
 
-Condition type \(Standard, Else, or Error\) is used. For more information, see [Manage workflow activity conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/t_ManageActivityConditions.md).
+Condition type \(Standard, Else, or Error\) is used. For more information, see [Manage workflow activity conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/t_ManageActivityConditions.md).
 
 \[Omitted image "ConditionPropertiesHardware.png"\] Alt text:
 
-**Parent Topic:**[Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_ConditionActivites.md)
+**Parent Topic:**[Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_ConditionActivites.md)
 

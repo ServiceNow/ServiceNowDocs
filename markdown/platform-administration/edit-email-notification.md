@@ -2,7 +2,7 @@
 title: Edit an email notification using the Notification agent
 description: Edit an email notification using the Notification agent by describing your requirements in natural language, instead of navigating forms or writing scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/edit-email-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/edit-email-notification.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"

@@ -2,7 +2,7 @@
 title: On-Call Scheduling workflows
 description: Workflows perform On-Call Scheduling operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/workflows-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/workflows-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -58,8 +58,8 @@ Workflows perform On-Call Scheduling operations.
     -   Makes a voice call to the first group member in the escalation policy.
     -   If the member does not join the conference call, then escalates to next group member in the policy
 
--   **[Workflow Activities for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/workflow-activities-oncall.md)**  
+-   **[Workflow Activities for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/workflow-activities-oncall.md)**  
 Workflow activities in On-Call Scheduling workflows.
 
-**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
+**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
 

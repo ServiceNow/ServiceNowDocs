@@ -2,7 +2,7 @@
 title: The fullBlueprintMigration parameter
 description: Learn the effects of enabling or disabling the fullBlueprintMigration parameter on sources in various configurations. The fullBlueprintMigration parameter controls how thoroughly a blueprint is updated during migration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-fullblueprintmigration-param.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-fullblueprintmigration-param.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -91,5 +91,5 @@ CPQ administrators do not directly associate or remove rules to or from blueprin
 **Related topics**  
 
 
-[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-env-to-env-bp-migration-intro.md)
+[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-env-to-env-bp-migration-intro.md)
 

@@ -2,7 +2,7 @@
 title: Configure Twilio to send SMS notifications
 description: To enable the SMS feature for sending notifications, configure the Twilio telephony service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/configure-twilio-sms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/configure-twilio-sms.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management

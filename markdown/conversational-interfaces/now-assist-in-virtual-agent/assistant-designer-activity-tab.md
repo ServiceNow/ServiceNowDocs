@@ -2,7 +2,7 @@
 title: Reviewing voice conversations
 description: Investigate completed voice interactions and troubleshoot individual interaction behavior from the Conversations tab in Assistant Designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/assistant-designer-activity-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/assistant-designer-activity-tab.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

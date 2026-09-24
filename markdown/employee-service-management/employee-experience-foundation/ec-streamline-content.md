@@ -2,7 +2,7 @@
 title: Portal content
 description: The Content Library is your one-stop location for creating and publishing a variety of content types to appear on the employee portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-streamline-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-streamline-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,7 +31,7 @@ Example
 
 </th></tr></thead><tbody><tr><td>
 
-[Image-based link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-image.md)
+[Image-based link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-image.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ An picture or graphic that redirects employees to an internal or external web pa
 
 </td></tr><tr><td>
 
-[Banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-banner.md)
+[Banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-banner.md)
 
 </td><td>
 
@@ -55,7 +55,7 @@ An image with text that appears at the top of the portal homepage.
 
 </td></tr><tr><td>
 
-[Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-calendar.md)
+[Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-calendar.md)
 
 </td><td>
 
@@ -67,7 +67,7 @@ Displays upcoming company holidays.**Note:** Employees can download content as a
 
 </td></tr><tr><td>
 
-[Event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-events.md)
+[Event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-events.md)
 
 </td><td>
 
@@ -79,7 +79,7 @@ Provides employees with a quick view of upcoming company events.**Note:** Employ
 
 </td></tr><tr><td>
 
-[Rich text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-richtext.md)
+[Rich text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-richtext.md)
 
 </td><td>
 
@@ -91,7 +91,7 @@ Blocks of formatted text and images.
 
 </td></tr><tr><td>
 
-[Styled content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.md)
+[Styled content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.md)
 
 </td><td>
 
@@ -103,7 +103,7 @@ A banner, video, or block of rich text.
 
 </td></tr><tr><td>
 
-[URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-url.md)
+[URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-url.md)
 
 </td><td>
 
@@ -115,7 +115,7 @@ A text-based link that redirects employees to an internal or external web page.
 
 </td></tr><tr><td>
 
-[Video](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-video.md)
+[Video](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-video.md)
 
 </td><td>
 
@@ -129,7 +129,7 @@ Embed a video in the portal.
 </table>**Related topics**  
 
 
-[Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md)
+[Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md)
 
-[Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
+[Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 

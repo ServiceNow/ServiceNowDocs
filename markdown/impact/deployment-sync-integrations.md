@@ -2,7 +2,7 @@
 title: Deployment and synchronization integrations
 description: The AES/AEMC and Update set integrations control how custom app deployments are governed and how scan results are synchronized across your instance stack.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/deployment-sync-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/deployment-sync-integrations.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
@@ -28,12 +28,12 @@ This integration is configured on the production controller instance only. Deplo
 
 The Update set integration automatically synchronizes update set scan results from developer instances to all Production instances registered in My SN Instances when a scan is marked complete. Optionally, enable summary scan synchronization to keep update set summaries in sync across instances.
 
-**Note:** The Update set integration requires the `admin` role, not the Scan Engine-specific roles used by other integrations. My SN Instances registration and authentication must be complete before configuring this integration. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
+**Note:** The Update set integration requires the `admin` role, not the Scan Engine-specific roles used by other integrations. My SN Instances registration and authentication must be complete before configuring this integration. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md).
 
--   **[Configure AES/AEMC integration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/aes-aemc-integration-properties.md)**  
+-   **[Configure AES/AEMC integration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/aes-aemc-integration-properties.md)**  
 Configure the AES/AEMC integration to enforce automated Scan Engine compliance checks on custom app deployment requests from App Engine Studio and ServiceNow Studio.
--   **[Configure update set integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/update-set-integration.md)**  
+-   **[Configure update set integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/update-set-integration.md)**  
 Configure the update set integration to automatically synchronize update set scan results from developer instances to the production instance.
 
-**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-integration-scan-engine.md)
 

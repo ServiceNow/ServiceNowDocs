@@ -2,7 +2,7 @@
 title: Clone the ServiceNow Otto for CSM skills
 description: Clone an AI skill to experiment with settings and configure it for your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

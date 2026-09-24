@@ -2,7 +2,7 @@
 title: Hide the Personalize Form menu
 description: Disable the Personalize Form menu by using the glide.ui.personalize\_form system property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/hide-personalize-form-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/hide-personalize-form-menu.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

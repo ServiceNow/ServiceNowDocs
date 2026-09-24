@@ -2,7 +2,7 @@
 title: Create a normal value
 description: A normal value is a simplified, generic value for a field that replaces all the possible variants of that value that exist in the database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateNormalValues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateNormalValues.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

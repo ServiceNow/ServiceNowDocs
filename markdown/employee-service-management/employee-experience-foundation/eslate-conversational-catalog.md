@@ -2,7 +2,7 @@
 title: Conversation-first catalog and knowledge
 description: The chat in Employee Slate resolves plain-language requests to catalog items and knowledge articles. Employees submit requests and get answers without knowing the exact item or article name.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-conversational-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-conversational-catalog.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

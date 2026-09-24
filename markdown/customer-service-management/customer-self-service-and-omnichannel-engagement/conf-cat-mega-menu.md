@@ -2,7 +2,7 @@
 title: Configure the category of a Portal Mega Menu widget
 description: Configure a Portal Mega Menu widget to define a menu category and associate pages with it, so you can navigate to different pages from the portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/conf-cat-mega-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/conf-cat-mega-menu.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -18,7 +18,7 @@ Configure a Portal Mega Menu widget to define a menu category and associate page
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
 
 Role required: sp\_admin
 

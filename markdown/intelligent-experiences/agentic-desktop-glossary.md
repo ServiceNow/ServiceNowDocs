@@ -2,7 +2,7 @@
 title: AI Desktop Actions glossary
 description: Learn about the terms and concepts that are unique to AI Desktop Actions.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/agentic-desktop-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/agentic-desktop-glossary.html
 release: australia
 topic_type: reference
 last_updated: "2025-07-31"
@@ -15,7 +15,7 @@ breadcrumb: [Reference, AI Desktop Actions, Enable AI experiences]
 
 Learn about the terms and concepts that are unique to AI Desktop Actions.
 
-**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-reference.md)
+**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/agentic-desktop-reference.md)
 
 ## A
 

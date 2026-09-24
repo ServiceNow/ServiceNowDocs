@@ -2,7 +2,7 @@
 title: AI Service Graph connector for LangGraph
 description: The AI Service Graph Connector for LangGraph enables you to discover and import AI assets from your LangGraph environment into ServiceNow AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/langgraph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/langgraph.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

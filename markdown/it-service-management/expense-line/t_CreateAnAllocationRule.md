@@ -2,7 +2,7 @@
 title: Create an allocation rule
 description: Expense allocation rules enable you to associate expenses with an item, such as a user, group, or department.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/t\_CreateAnAllocationRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/expense-line/t\_CreateAnAllocationRule.html
 release: australia
 product: Expense Line
 classification: expense-line
@@ -50,7 +50,7 @@ Role required: admin, financial\_mgmt\_admin, or financial\_mgmt\_user
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
+**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
 
 **Related topics**  
 

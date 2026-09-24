@@ -2,7 +2,7 @@
 title: Define response templates for Financial Services Complaint Management
 description: Create or modify a response template to define a reusable message that can be copied to complaint case or task forms to provide quick and consistent messages to customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/configure-response-templates-fso-complaints.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-complaint-management/configure-response-templates-fso-complaints.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management

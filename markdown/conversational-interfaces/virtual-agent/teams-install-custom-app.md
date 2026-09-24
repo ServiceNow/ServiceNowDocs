@@ -2,7 +2,7 @@
 title: Integrate your self-configured bot with single Microsoft Teams tenant
 description: Integrate multiple ServiceNow instances with a single Microsoft Teams tenant by creating multiple bots on the Microsoft Teams tenant. Use your ServiceNow Virtual Agent application, which supports multiple bots on a single Microsoft Teams tenant, to install Conversational Integration with Microsoft Teams application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/teams-install-custom-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/teams-install-custom-app.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,13 +25,13 @@ This installation requires a ServiceNow instance other than the one integrated w
 
 **Note:** The ServiceNow instance that you will use to integrate with a single Microsoft Teams tenant must not be an instance that you have used for installing Conversational Integration with Microsoft Teams in the primary method where you can integrate only one ServiceNow instance with one tenant.
 
-Ensure that you created a bot on the Microsoft Teams tenant for each ServiceNow instance to be integrated. For more information, see [Create a bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-bot-msteams.md).
+Ensure that you created a bot on the Microsoft Teams tenant for each ServiceNow instance to be integrated. For more information, see [Create a bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-bot-msteams.md).
 
 ## Procedure
 
 1.  Fetch the Tenant ID, Client ID \(App ID\), Client Secret, and Bot Name details for your bot created in Microsoft Teams.
 
-    For more information, see [Retrieve bot details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-bot-msteams.md).
+    For more information, see [Retrieve bot details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-bot-msteams.md).
 
     **Note:** Use this information when setting up the bot in your ServiceNow instance.
 
@@ -66,8 +66,8 @@ Ensure that you created a bot on the Microsoft Teams tenant for each ServiceNow 
 
 ## What to do next
 
--   [Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md).
--   [Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/upload-package-file-msteams.md)
+-   [Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md).
+-   [Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/upload-package-file-msteams.md)
 
-**Parent Topic:**[Integrating multiple ServiceNow instances with a single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-teams.md)
+**Parent Topic:**[Integrating multiple ServiceNow instances with a single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-single-teams.md)
 

@@ -2,7 +2,7 @@
 title: Investigate Zoom call issues
 description: Investigate Zoom call performance with ServiceNow Otto for Zoom Call Issues to identify root causes and get resolutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-zoom-call-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/investigate-and-resolve-zoom-call-issues.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -20,8 +20,8 @@ Investigate Zoom call performance with ServiceNow Otto for Zoom Call Issues to i
 
 Role required: sn\_dex.user
 
--   Ensure DEX for Zoom is configured. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md).
--   Ensure that advanced monitoring is enabled to capture Zoom call telemetry. For more information, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
+-   Ensure DEX for Zoom is configured. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md).
+-   Ensure that advanced monitoring is enabled to capture Zoom call telemetry. For more information, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
 -   Enable ServiceNow Otto for DEX to access AI-generated Zoom call diagnostics.
 
 **Note:** This AI skill requires a minimum platform version of Zurich patch 7.
@@ -71,7 +71,7 @@ ServiceNow Otto for Zoom Call Issues processes Zoom telemetry data including aud
 
     Remedial actions, self-help instructions, and related knowledge articles are displayed to help resolve Zoom call issues.
 
-10. To view the detailed metrics for the Zoom calls made by users assigned to this device or logged in within the past 15 days, see [Monitor Zoom call quality using DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/monitor-zoom-call-quality-using-dex.md).
+10. To view the detailed metrics for the Zoom calls made by users assigned to this device or logged in within the past 15 days, see [Monitor Zoom call quality using DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/monitor-zoom-call-quality-using-dex.md).
 
 
 ## Result

@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Otto for Security Incident Response \(SIR\)
 description: The ServiceNow Otto for Security Incident Response \(SIR\) application is supported in the Security Incident Response Workspace and in the legacy Core UI \(UI16\). Use the guided setup in the AI Admin Hub console to configure ServiceNow Otto for Security Incident Response \(SIR\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configuring-now-assist-for-security-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/configuring-now-assist-for-security-operations.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -97,19 +97,19 @@ SIR data analysis
 
     When you update the ServiceNow Otto for Security Incident Response \(SIR\) application, its dependency applications are automatically updated.
 
-2.  [Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)
+2.  [Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)
 
     You can deactivate, configure, and reactivate generative AI skills and agentic workflows in the Guided Setup.
 
 
--   **[Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)**  
+-   **[Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)**  
 Configure and review the details for a skill in the Guided Setup. You can edit and reactivate a skill from the Guided Setup.
--   **[Customize a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/cust-now-assist-security-incident-skill.md)**  
+-   **[Customize a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/cust-now-assist-security-incident-skill.md)**  
 Customize some of the input fields of a generative AI skill to suit the requirements of your environment.
--   **[Inputs and triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/input-triggers-now-assist-security-incident.md)**  
+-   **[Inputs and triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/input-triggers-now-assist-security-incident.md)**  
 You can configure some of the inputs or triggers for a generative AI skill. Inputs or triggers permit you to determine how and when a skill is used.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

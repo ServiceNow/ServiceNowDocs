@@ -2,7 +2,7 @@
 title: Automated Sharing of TAXII Collections
 description: Automated TAXII Collections automatically add intelligence records to TAXII Server Collections for seamless distribution to trusted external partners.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-automated-share-taxii.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-automated-share-taxii.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -25,7 +25,7 @@ Role required:
 
 ## About this task
 
-The automated flow action adds the record provided in the inputs to TAXII server collections configured in the selected template. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
+The automated flow action adds the record provided in the inputs to TAXII server collections configured in the selected template. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 
 Add record to TAXII Server Collection via automated process:
 
@@ -61,7 +61,7 @@ Description
 
 Select the sharing template.Template with a usage mode of both **Automated addition to TAXII Collections** can be selected for Automated Sharing.
 
- For more information see, [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
+ For more information see, [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 
 </td></tr><tr><td id="d321622e174">
 
@@ -103,7 +103,7 @@ Select this check box to add the related records of the selected observables, in
 
 Activate the flow.
 
-**Parent Topic:**[Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md)
+**Parent Topic:**[Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md)
 
 **Related topics**  
 
@@ -112,9 +112,9 @@ Activate the flow.
 
 [Viewing TAXII Collection Records]()
 
-[Create TAXII Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-taxii-collection.md)
+[Create TAXII Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-create-taxii-collection.md)
 
-[Configuring Outbound Intel Sharing Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-sharing.md)
+[Configuring Outbound Intel Sharing Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-outbound-sharing.md)
 
-[Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md)
+[Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md)
 

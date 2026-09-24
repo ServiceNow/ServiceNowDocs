@@ -2,7 +2,7 @@
 title: Using AI Data Explorer in Source-to-Pay Operations
 description: Use the AI Data Explorer in Source-to-Pay Operations to generate reports, visualizations, and data insights from APO, SPO and SLO workspace using natural language questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/using-ai-data-explorer-in-source-to-pay.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/using-ai-data-explorer-in-source-to-pay.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -35,5 +35,5 @@ The AI Data Explorer enables fulfillers and requesters to generate reports, visu
     The AI-assisted, interactive exploration assists fulfillers in making data-driven decisions within the Source-to-Pay workspace.
 
 
-**Parent Topic:**[AI Data Explorer using multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/explore-ai-multi-tables.md)
+**Parent Topic:**[AI Data Explorer using multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/explore-ai-multi-tables.md)
 

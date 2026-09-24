@@ -2,7 +2,7 @@
 title: Work on an insurance underwriting task
 description: Work on a personal insurance underwriting task to evaluate the policy request and analyze risks for an insurance policy customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-insurance-underwriting-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/work-insurance-underwriting-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ The configured workflow automatically generates an underwriting task for an unde
 8.  Click **Update**.
 
 
-**Parent Topic:**[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-ins-policy-case.md)
+**Parent Topic:**[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/work-ins-policy-case.md)
 

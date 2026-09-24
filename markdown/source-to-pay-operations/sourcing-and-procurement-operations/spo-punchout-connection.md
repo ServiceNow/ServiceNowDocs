@@ -2,7 +2,7 @@
 title: Establishing connection between SPO and the supplier punchout system
 description: SPO and the supplier punchout system use PunchOutRequest and PunchOutResponse payloads to establish the connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-punchout-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-punchout-connection.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -24,5 +24,5 @@ The following figure illustrates the connection flow:
 
 \[Omitted image "punchout-establish-conn.png"\] Alt text: How SPO communicates with a punchout system.
 
-**Parent Topic:**[Understanding Punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
+**Parent Topic:**[Understanding Punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
 

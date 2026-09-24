@@ -2,7 +2,7 @@
 title: MLSolutionResult - Global \(deprecated\)
 description: The MLSolutionResult API provides methods for managing cluster information and members of a clustering solution. You can embed the results in business logic.Instantiates a new MLSolutionResult object.Returns the solution object.Returns all members of a clustering solution.Returns all outcome information for a clustering solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/MLSolutionResultAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/MLSolutionResultAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The MLSolutionResult API provides methods for managing cluster information and m
 
 **Note:** This API has been deprecated and is intended to be removed in a future release. Refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ml-apis.md) for the most recent guidelines.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## MLSolutionResult - MLSolutionResult\(\)
 

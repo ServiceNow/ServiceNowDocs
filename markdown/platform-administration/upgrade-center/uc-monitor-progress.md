@@ -2,7 +2,7 @@
 title: Upgrade Progress
 description: When an upgrade is underway, Upgrade Progress displays progress bars and other information to help you monitor the process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-monitor-progress.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-monitor-progress.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center

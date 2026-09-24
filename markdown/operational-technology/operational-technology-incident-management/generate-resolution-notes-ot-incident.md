@@ -2,7 +2,7 @@
 title: Generate resolution notes for an Operational Technology incident
 description: Generate resolution notes for an Operational Technology \(OT\) incident to share incident resolution information with other users who encounter similar issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/generate-resolution-notes-ot-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/generate-resolution-notes-ot-incident.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -109,5 +109,5 @@ To view details about the OT resolution notes, select the more info icon \(\[Omi
     The resolution information is updated and the state of the OT incident is set to **Resolved**.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-now-assist-otsm.md)
+**Parent Topic:**[Using ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/using-now-assist-otsm.md)
 

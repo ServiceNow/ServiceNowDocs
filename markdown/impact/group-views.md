@@ -2,7 +2,7 @@
 title: Group Views
 description: Impact enables multiple stakeholder groups within your organization to lead their own digital transformation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/group-views.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/group-views.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,16 +26,16 @@ A stakeholder group is defined as the following:
     -   The Impact experience can be managed across your Group Views with the Impact Squad, including stakeholder groups and instances. Your customer homepage is personalized to the stakeholder groups relevant to you.​
     -   Impact helps you accelerate your stakeholder group's objectives and manage value for these groups, including the initiatives and activities that contribute toward your Value Journey.
     -   Capabilities map is available on an instance level and shows capabilities maps for instances that are associated to stakeholder groups. Work with your Impact Squad to define for which instance a capabilities map will be created.
-    -   Product Adoption Roadmaps can be associated to a stakeholder group making it easier to manage your roadmaps. See [Build implementation plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/impact-par.md) for more information.
+    -   Product Adoption Roadmaps can be associated to a stakeholder group making it easier to manage your roadmaps. See [Build implementation plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-product-adoption-roadmap/impact-par.md) for more information.
     -   You can filter across stakeholder groups and instances and display a combined view of Impact across your organization.
 -   **Getting started**
 
-    Start a conversation with your [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md) to learn more and to enable the Group Views functionality.
+    Start a conversation with your [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-squad.md) to learn more and to enable the Group Views functionality.
 
     **Note:** As a start, this functionality is available to limited customers. Discuss with your Impact Squad to learn more.
 
 
 ​ ​
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
 

@@ -2,7 +2,7 @@
 title: Analyzing your campaign for effectiveness
 description: Analyze your campaign to ensure that your messaging is effective and that you are targeting the correct audience when you use campaign success goals. You can also check your campaign's progress and evaluate how successful your campaign is.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-content-automation-reevaluate-audience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ecpro-content-automation-reevaluate-audience.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -16,9 +16,9 @@ breadcrumb: [Creating campaigns, Authoring and managing employee communications,
 
 Analyze your campaign to ensure that your messaging is effective and that you are targeting the correct audience when you use campaign success goals. You can also check your campaign's progress and evaluate how successful your campaign is.
 
-Campaigns uses Content Analytics to collect data on user interactions and generate visualizations that help you determine the effectiveness of your campaign. View the data visualizations for published campaigns in the [Campaign overview and Campaign analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.md).
+Campaigns uses Content Analytics to collect data on user interactions and generate visualizations that help you determine the effectiveness of your campaign. View the data visualizations for published campaigns in the [Campaign overview and Campaign analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.md).
 
-**Note:** Content Analytics is a separate plugin that must be installed and configured. For installation information, see [Activate Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.md).
+**Note:** Content Analytics is a separate plugin that must be installed and configured. For installation information, see [Activate Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.md).
 
 ## Evaluating a campaign
 
@@ -32,7 +32,7 @@ You can define the following factors to make your campaign more effective:
 
     After the campaign starts, the Content Experiences: Update Campaign Audience scheduled job adds or removes users when they meet or no longer meet the conditions. For example, a campaign targets employees of the Engineering department. The scheduled job periodically re-evaluates the audience, adding new hires to the audience and removing users who transfer to another department or leave the company. The campaign content is displayed only to the current employees in the Engineering department.
 
-    Alternatively, you can manually modify the audience after your campaign starts. For more information, see [Editing a published campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-edit-campaign.md).
+    Alternatively, you can manually modify the audience after your campaign starts. For more information, see [Editing a published campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-edit-campaign.md).
 
     Campaign targets appear after a campaign is published and the Content Experiences: Update Campaign Audience scheduled job runs. You can view a list of the users in the target audience by opening a campaign and navigating to the **Campaign Targets** tab. The campaign target list contains the date the user was added, the user, the campaign the user is assigned, and if the campaign is active.
 

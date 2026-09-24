@@ -2,7 +2,7 @@
 title: Delete a zone
 description: When deleting a zone, any associated assets or spaces is also deleted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_DeleteAZone.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_DeleteAZone.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Role required: admin
     **Note:** If the space has any assets associated with it, or if the space is associated with another space, a warning box opens. If you click **Delete**, the associated asset or space is deleted.
 
 
-**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_Manually-builtMaps.md)
+**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_Manually-builtMaps.md)
 

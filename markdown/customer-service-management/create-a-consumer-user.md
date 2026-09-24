@@ -2,7 +2,7 @@
 title: Create a consumer record
 description: Create a consumer user record directly from the consumer form by using the User reference field. This field allows you to either select an existing user, which then automatically links to the consumer record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-a-consumer-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-a-consumer-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,12 +44,12 @@ Create a consumer user to associate it with a new or existing contact.
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values, see [Contact form for Email Interaction for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-form-eaai.md).
+    For a description of the field values, see [Contact form for Email Interaction for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/contact-form-eaai.md).
 
 6.  Select **Submit**.
 
 
 ## What to do next
 
-[Associate an existing contact user with a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-an-existing-contact-user-with-a-consumer-record.md)
+[Associate an existing contact user with a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-an-existing-contact-user-with-a-consumer-record.md)
 

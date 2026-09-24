@@ -2,7 +2,7 @@
 title: Bulk commits in GitLab
 description: Bulk commits are supported with GitLab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/bulk-commits-in-gitlab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/bulk-commits-in-gitlab.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -28,5 +28,5 @@ If the number of pushed commits are equal or greater than 20, multiple inbound e
 
 Currently, GitLab Data stream action can process up to 10,000 commits in a single push.
 
-**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
+**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
 

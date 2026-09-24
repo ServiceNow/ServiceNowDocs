@@ -2,7 +2,7 @@
 title: Duplicate a document extraction use case
 description: Make a copy of a use case to save time when you want to create a new use case that shares a similar structure to another.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/duplicate-a-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/document-intelligence/duplicate-a-use-case.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -16,7 +16,7 @@ breadcrumb: [Manage document extraction use cases, Configure, Document Intellige
 
 Make a copy of a use case to save time when you want to create a new use case that shares a similar structure to another.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Before you begin
 
@@ -47,7 +47,7 @@ Follow these steps to create a copy of a use case along with its fields, field g
 
 The duplicated use case is displayed in the use cases list.
 
-**Parent Topic:**[Manage document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/manage-use-cases.md)
+**Parent Topic:**[Manage document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/manage-use-cases.md)
 
 **Related topics**  
 

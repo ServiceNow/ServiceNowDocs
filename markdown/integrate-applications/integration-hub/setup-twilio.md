@@ -2,7 +2,7 @@
 title: Set up Twilio spoke
 description: Integrate the ServiceNow instance and Twilio using basic authentication to authenticate ServiceNow requests.Add and configure Twilio Base, Twilio Messaging, and Twilio Notify connections to authenticate ServiceNow requests in Twilio spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-twilio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-twilio.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -46,7 +46,7 @@ Role required: admin
 
             \[Omitted image "twilio-base-conn.png"\] Alt text: Connection template for Twilio Base
 
-        -   To manage more than one Twilio Base spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+        -   To manage more than one Twilio Base spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
         If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
         \[Omitted image "twilio-base-conn-config.png"\] Alt text: Twilio Base connection configuration
@@ -81,7 +81,7 @@ Role required: admin
 
             \[Omitted image "twilio-messg-conn.png"\] Alt text: Connection template for Twilio Messaging
 
-        -   To manage more than one Twilio Messaging spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+        -   To manage more than one Twilio Messaging spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
         If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
         \[Omitted image "twilio-messg-conn-config.png"\] Alt text: Twilio Messaging Connection configuration
@@ -116,7 +116,7 @@ Role required: admin
 
             \[Omitted image "twilio-notify-conn.png"\] Alt text: Connection template for Twilio Notify
 
-        -   To manage more than one Twilio Notify spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+        -   To manage more than one Twilio Notify spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
         If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
         \[Omitted image "twilio-notify-conn-config.png"\] Alt text: Twilio Notify connection configuration

@@ -2,7 +2,7 @@
 title: Generate a project status report with Now Assist
 description: Generate an AI‑assisted project status report with predicted health indicators. AI pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-ai-project-status-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/generate-ai-project-status-report.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -37,7 +37,7 @@ After submission, the same information appears in the report view, including rat
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Status reports page of the project by selecting **Status Reports** from the list.
 
@@ -72,5 +72,5 @@ After submission, the same information appears in the report view, including rat
 
 An AI-assisted status report is generated with predicted health values, an executive summary, and rationale text.
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 

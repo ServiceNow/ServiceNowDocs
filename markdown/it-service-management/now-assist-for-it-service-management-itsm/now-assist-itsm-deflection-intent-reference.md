@@ -2,7 +2,7 @@
 title: Deflecting incidents in ServiceNow Otto for IT Service Management \(ITSM\) reference
 description: Deflection retrieves user context and sentiment analysis to rephrase search queries for more relevant results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-deflection-intent-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-deflection-intent-reference.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

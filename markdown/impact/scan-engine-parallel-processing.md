@@ -2,7 +2,7 @@
 title: Full and delta instance scans
 description: The full and delta instance scan feature enables ServiceNow administrators and developers to initiate, monitor, and manage instance scans directly from the Scan Results list view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-parallel-processing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/scan-engine-parallel-processing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -62,12 +62,12 @@ Scan initiation capabilities are determined by user roles:
 |Scan User|No scan initiation buttons \(view only\)|
 |Read User|No scan initiation buttons \(view only\)|
 
-**Note:** See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-roles.md) for additional information on user roles.
+**Note:** See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-roles.md) for additional information on user roles.
 
-**Parent Topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md)
+**Parent Topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/run-scan-engine.md)
 
 **Related topics**  
 
 
-[Initiate and manage scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-manage-scan-engine.md)
+[Initiate and manage scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/initiate-manage-scan-engine.md)
 

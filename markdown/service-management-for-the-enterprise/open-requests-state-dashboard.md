@@ -2,7 +2,7 @@
 title: Open Requests State Monitor dashboard
 description: Use this dashboard when you wish to dive into open requests divided by State: Pending Approval or Approved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/open-requests-state-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/open-requests-state-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ Indicators not appearing in dashboard widgets but used in formulas:
 -   Priority
 -   State
 
-**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/request-content-pack.md)
+**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/request-content-pack.md)
 

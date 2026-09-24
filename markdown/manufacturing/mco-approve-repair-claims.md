@@ -2,7 +2,7 @@
 title: Reviewing and approving repair claims
 description: Agents portal or workspace enables you to review and approve the claims submitted by a dealer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-approve-repair-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-approve-repair-claims.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Agents portal or workspace enables you to review and approve the claims submitte
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Repair**.
 
-    **Note:** To create and navigate to the Review &amp; approve form, see [Create a repair claim manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-repair-claim.md).
+    **Note:** To create and navigate to the Review &amp; approve form, see [Create a repair claim manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-repair-claim.md).
 
 2.  From **Activities**, select **Review &amp; approve**
 3.  Select the required action from the following table.

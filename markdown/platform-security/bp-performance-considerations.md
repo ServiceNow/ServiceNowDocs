@@ -2,7 +2,7 @@
 title: Domain separation performance considerations
 description: As you configure domain separation in your application and services, make sure that you consider the number and properties of domains you create. Too many property-heavy domains can impact the performance of your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-performance-considerations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-performance-considerations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ As you configure domain separation in your application and services, make sure t
 
 You can create as many domains as needed, but make sure that you don't create unnecessary domains on the instance. Weighing too many domains on the instance with a lot of properties can impact the performance of your instance.
 
-The number of domains is not what impacts performance but rather what's in them. Too many properties can slow down the [domain picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-picker-config-process.md), which then slows down the overall user experience of your customers. If you are loading the domain picker and already have a large number of domains with a lot of properties, the domain picker has to load all the domains before it gives you control in the session. This process could lead to an outage where you can't access anything on the instance until the domain picker finishes. Before you create new domains, navigate to the domain hierarchy under **Domain Admin** &gt; **Domain Map** and make sure that you actually need to create a new domain or whether an existing [domain hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-hierarchy.md) can work.
+The number of domains is not what impacts performance but rather what's in them. Too many properties can slow down the [domain picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-picker-config-process.md), which then slows down the overall user experience of your customers. If you are loading the domain picker and already have a large number of domains with a lot of properties, the domain picker has to load all the domains before it gives you control in the session. This process could lead to an outage where you can't access anything on the instance until the domain picker finishes. Before you create new domains, navigate to the domain hierarchy under **Domain Admin** &gt; **Domain Map** and make sure that you actually need to create a new domain or whether an existing [domain hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-hierarchy.md) can work.
 
 ## Using Core UI domain picker
 
@@ -32,7 +32,7 @@ Enable the domain reference picker in Core UI by following these steps:
 
 **Note:** Do not upload a large number of domains \(over 30\) via integration or import sets without doing some testing first or you might bring down your instance.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

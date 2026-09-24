@@ -2,7 +2,7 @@
 title: Request an internal review
 description: Initiate a review task for review of the contract document by subject matter experts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-add-review-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-add-review-task.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -18,7 +18,7 @@ Initiate a review task for review of the contract document by subject matter exp
 
 ## Before you begin
 
--   For non-disclosure agreements, you may want review and feedback from the internal subject matter experts. If needed, the contract requester can submit a change request to the contract fulfiller. The contract fulfiller then submits a review task with the change request details. For more information, see [Review a contract document in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-submit-req-chngs-ndar.md).
+-   For non-disclosure agreements, you may want review and feedback from the internal subject matter experts. If needed, the contract requester can submit a change request to the contract fulfiller. The contract fulfiller then submits a review task with the change request details. For more information, see [Review a contract document in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-submit-req-chngs-ndar.md).
 -   For third-party contract review requests, the contract user cannot create a change request. Instead, the contract fulfiller creates a task for internal review.
 
 Role required: sn\_cm\_core.contract\_fulfiller
@@ -110,5 +110,5 @@ Description to specify the content to be reviewed.
 
 A review task is created, listed in the Reviews tab and the change request details are added to the Activity stream. The Contract status updates to Awaiting review. If the new task doesn't appear in the list, select the refresh list button \(\[Omitted image "refresh-icon.png"\] Alt text: refresh icon\) to view it.
 
-**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-expert-review.md)
 

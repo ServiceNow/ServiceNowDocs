@@ -2,7 +2,7 @@
 title: Switch back to Zing search in ITSM Mobile Agent
 description: If AI search is already enabled in ITSM Mobile Agent, enable Zing search configuration to use your own search profiles and configurations. It will enable Zing search in ITSM Mobile Agent and all workspaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/switch-zing-itsm-mobile-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/switch-zing-itsm-mobile-agent.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

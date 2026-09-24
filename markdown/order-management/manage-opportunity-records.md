@@ -2,7 +2,7 @@
 title: Manage opportunity records using an MCP client
 description: Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using plain language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/manage-opportunity-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/manage-opportunity-records.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"
@@ -258,7 +258,7 @@ Supported operations:
 **Related topics**  
 
 
-[CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/crm-conversational-query.md)
+[CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/crm-conversational-query.md)
 
-[AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/ai-capabilities-sales-crm.md)
+[AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/ai-capabilities-sales-crm.md)
 

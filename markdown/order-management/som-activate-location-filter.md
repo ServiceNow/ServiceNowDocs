@@ -2,7 +2,7 @@
 title: Activate location-based transactions
 description: Turn on location-based transactions for opportunities, quotes, and orders by using the sn\_sales\_common.enable\_location\_based\_transactions system property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-activate-location-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-activate-location-filter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,14 +37,14 @@ The **sn\_sales\_common.enable\_location\_based\_transactions** system property 
 
 ## What to do next
 
-Define the [product eligibility rule filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-rule-entity-filter.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-define-eligibility-rules.md) that control the product offerings displayed by location.
+Define the [product eligibility rule filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-rule-entity-filter.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-define-eligibility-rules.md) that control the product offerings displayed by location.
 
-**Parent Topic:**[Configuring location-based product transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/config-location-transaction.md)
+**Parent Topic:**[Configuring location-based product transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/config-location-transaction.md)
 
 **Related topics**  
 
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 
-[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md)
 

@@ -2,7 +2,7 @@
 title: Create Encrypted Field Configurations
 description: Configure specific fields to be encrypted using your External Key Management Service \(EKMS\) cryptographic module with external Amazon Web Services Key Management System \(AWS KMS\) key wrapping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ekms-create-encrypted-field-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-create-encrypted-field-config.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"
@@ -18,7 +18,7 @@ Configure specific fields to be encrypted using your External Key Management Ser
 
 Roles required: admin, security\_admin, and sn\_kmf.cryptographic\_manager
 
-Confirm that you have created a cryptographic module with external key wrapping enabled. See [Configure an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configure-external-key-definition.md).
+Confirm that you have created a cryptographic module with external key wrapping enabled. See [Configure an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-configure-external-key-definition.md).
 
 ## About this task
 
@@ -136,11 +136,11 @@ The field's data established by the EFC are encrypted using the Data Encryption 
 
 Next steps:
 
--   [Configure module access policies to control which user roles can view the encrypted data in clear text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-set-up-maps.md)
--   [Test access with users who have appropriate roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-test-external-key-definition.md)
--   [Test that users without appropriate roles can't view the encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-change-status-aws-kms-key.md)
+-   [Configure module access policies to control which user roles can view the encrypted data in clear text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-set-up-maps.md)
+-   [Test access with users who have appropriate roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-test-external-key-definition.md)
+-   [Test that users without appropriate roles can't view the encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-change-status-aws-kms-key.md)
 
 **Warning:** Without configured module access policies, users might be unable to view the encrypted data, or access might be unrestricted depending on your system configuration. Configure access policies immediately after creating encrypted field configurations.
 
-**Parent Topic:**[Configuring External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configuring-external-key-management.md)
+**Parent Topic:**[Configuring External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-configuring-external-key-management.md)
 

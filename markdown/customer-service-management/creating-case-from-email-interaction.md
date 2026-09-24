@@ -2,7 +2,7 @@
 title: Creating a case from an email interaction
 description: Create a case from an inbound email interaction when the customer query requires further investigation. The case and interaction are linked to each other. All communication and case details are easily accessible for more efficient resolutions.Create a case from an inbound email interaction to make sure that issues are addressed and routed for resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/creating-case-from-email-interaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/creating-case-from-email-interaction.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -54,5 +54,5 @@ When you create a case from an inbound interaction, the system links the interac
 
 ### Result
 
-The process generates a case from an email, linking them for future communication. For more information, see [Accessing associated cases and interaction emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/accessing-associated-cases-interaction-emails.md).
+The process generates a case from an email, linking them for future communication. For more information, see [Accessing associated cases and interaction emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/accessing-associated-cases-interaction-emails.md).
 

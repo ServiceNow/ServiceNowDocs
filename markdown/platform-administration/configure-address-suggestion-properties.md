@@ -2,7 +2,7 @@
 title: Configure address suggestion properties
 description: Configure the address suggestion system properties so that the Address \(Simple\) field retrieves matching addresses as you enter text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-address-suggestion-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configure-address-suggestion-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

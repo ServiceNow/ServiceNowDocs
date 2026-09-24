@@ -2,7 +2,7 @@
 title: Post-sales engagement
 description: Learn how to configure the Customer Life Cycle Management Workflows application to manage post-sale workflows on sold products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-post-sales-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-post-sales-engagement.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

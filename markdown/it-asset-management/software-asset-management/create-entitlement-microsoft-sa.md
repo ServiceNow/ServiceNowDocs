@@ -2,7 +2,7 @@
 title: Create entitlements for Microsoft Software Assurance in Software Asset Management classic
 description: Define license details for Microsoft Software Assurance \(SA\) to manage your contracts start and end dates, software upgrades, and related software entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-entitlement-microsoft-sa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-entitlement-microsoft-sa.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -30,7 +30,7 @@ Role required: sam\_user or sam\_admin
 
     **Note:** Make sure that you enter the number of rights to be granted for the SA entitlement in the **Active rights** field. You can't add user or device allocations for SA entitlements.
 
-    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
 
 4.  Right-click the form header and select **Save**.
 
@@ -71,7 +71,7 @@ Role required: sam\_user or sam\_admin
 
 ## Result
 
-After you have created an entitlement, you can begin [viewing license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
+After you have created an entitlement, you can begin [viewing license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 ## Record software rights for Microsoft Software Assurance
 
@@ -87,5 +87,5 @@ To accurately track your licenses, associate your perpetual and SA entitlements.
 
 While you're under active maintenance, Microsoft releases SQL Server 2016 datacenter. Step up from your current version to the new release by creating an entitlement for your upgraded software and link the related entitlements.
 
-**Parent Topic:**[Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md)
+**Parent Topic:**[Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md)
 

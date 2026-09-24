@@ -2,7 +2,7 @@
 title: Summarize a procurement case
 description: Use the Procurement case summarization for fulfillers skill to summarize procurement cases. Summaries include status, progress, and required actions to keep fulfillers informed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-summarize-po.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-summarize-po.html
 release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
@@ -115,16 +115,16 @@ If you want to refresh the summary, select the refresh icon \(\[Omitted image "i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-using.md)
 
 **Related topics**  
 
 
 [Categorize inquiry cases]()
 
-[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
-[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
+[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
 
-[Use ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
+[Use ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 

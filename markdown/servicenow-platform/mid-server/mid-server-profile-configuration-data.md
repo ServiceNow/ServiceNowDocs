@@ -2,7 +2,7 @@
 title: MID Server profile configuration data
 description: Use these tables to locate and manage MID Server profile records, configuration parameters, properties, and assignments stored in the instance database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-profile-configuration-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-server-profile-configuration-data.html
 release: australia
 product: MID Server
 classification: mid-server

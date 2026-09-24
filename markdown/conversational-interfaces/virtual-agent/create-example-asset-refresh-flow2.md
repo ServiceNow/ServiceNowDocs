@@ -2,7 +2,7 @@
 title: Create the Open Incident workflow in the Asset Refresh topic
 description: Each Decision branch introduces additional workflows. After creating our main Asset Refresh workflow, we need to ensure that the user can get help if something goes wrong. In this example, we will help the user create an incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Each Decision branch introduces additional workflows. After creating our main As
 
 ## Before you begin
 
-[Create the Asset Refresh topic in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
+[Create the Asset Refresh topic in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
 
 Role required: virtual\_agent\_admin or admin
 
@@ -61,5 +61,5 @@ Role required: virtual\_agent\_admin or admin
 
 ## What to do next
 
-[Create the More Information workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow3.md)
+[Create the More Information workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow3.md)
 

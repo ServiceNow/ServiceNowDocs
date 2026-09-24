@@ -2,7 +2,7 @@
 title: Summarize a record using ServiceNow Otto in Virtual Agent
 description: You can create a summary of a work order task record using the ServiceNow Otto in Virtual Agent directly from the ServiceNow Agent application.Generate summary from the work order task record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/summarize-a-record-using-now-assist-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/summarize-a-record-using-now-assist-virtual-agent.html
 release: australia
 product: Work Order Management
 classification: work-order-management

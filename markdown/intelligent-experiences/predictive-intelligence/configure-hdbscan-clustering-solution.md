@@ -2,7 +2,7 @@
 title: Configure HDBSCAN for a clustering solution
 description: Consider applying the Hierarchical Density Based Spatial Clustering of Applications with Noise \(HDBSCAN\) algorithm to your clustering solution. HDBSCAN is available as an alternative to the default clustering algorithm, k-means.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-hdbscan-clustering-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/configure-hdbscan-clustering-solution.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -80,10 +80,10 @@ Predictive Intelligence implements the k-means algorithm by default in its clust
     \[Omitted image "configure-hdbscan-clustering-solution6.png"\] Alt text: When you submit the record you created, the HDBSCAN solution parameter appears on your clustering solution definition form.
 
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
+[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
 

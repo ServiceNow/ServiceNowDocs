@@ -2,7 +2,7 @@
 title: View service instance details
 description: View information about service instances that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the service instance life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-app-service-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-app-service-details.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -16,7 +16,7 @@ breadcrumb: [Life-cycle management, Explore, Digital Portfolio Management, IT Se
 
 View information about service instances that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the service instance life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed.
 
-As you view the following tables, keep in mind that what you are able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installs and plugins to see each data element.
+As you view the following tables, keep in mind that what you are able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installs and plugins to see each data element.
 
 ## KPI groups for service instances
 
@@ -163,7 +163,7 @@ Service reliability management information data for the service instance. To see
 
 A list of the offerings that depend on this service instance. The number of offerings is in a gray box. Select an offering for its details.
 
- For information on offering details, see [View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-service-details.md).
+ For information on offering details, see [View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-service-details.md).
 
 </td></tr></tbody>
 </table>## Risk tab
@@ -254,9 +254,9 @@ The Needs attention panel includes the following icons for service instances:
 **Related topics**  
 
 
-[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
+[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
 
-[Create enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolios.md)
+[Create enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolios.md)
 
-[Work with Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-needs-attn-panels.md)
+[Work with Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-needs-attn-panels.md)
 

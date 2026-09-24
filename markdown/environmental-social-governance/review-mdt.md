@@ -2,7 +2,7 @@
 title: Review a metric data task
 description: Review a metric data task for a manual or automated metric definition, and then either approve or reject the task based on your review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/review-mdt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/review-mdt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,5 +64,5 @@ Action
 4.  Select the check boxes that you want and then select **Reject** or **Approve**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-grc-metrics.md)
 

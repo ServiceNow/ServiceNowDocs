@@ -2,7 +2,7 @@
 title: Define policy exception approval rules
 description: Approval rules define the criteria \(risk rating, policy or control objective\) that is used for sending approval requests for an exception. Rules can be configured for an application and you can identify multiple levels of approvers, as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/define-approval-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/define-approval-rules.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -28,7 +28,7 @@ You can configure approvals to be sent out automatically or manually after revie
 
 For policy exceptions created using Policy and Compliance Management, exceptions can be requested for a policy without impacted controls being present, even if both policies and control objectives are added to the exception form. However, for policy exceptions created for control objectives alone, impacted controls must be present before you can request approval.
 
-You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define policy exception and extension rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
+You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define policy exception and extension rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
 
 ## Procedure
 
@@ -121,5 +121,5 @@ Select the order to determine the sequence of levels used with respect to other 
     If you selected the **Auto-trigger approvals** check box, the designated approvers are notified that their approvals are required. Alternatively, the approvers are notified when the compliance manager clicks the **Send for Approval** button.
 
 
-**Parent Topic:**[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
+**Parent Topic:**[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
 

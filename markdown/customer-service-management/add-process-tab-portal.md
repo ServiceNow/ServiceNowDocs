@@ -2,7 +2,7 @@
 title: Add the Process tab to the portal
 description: Add a Process tab to the CSM ticket page so that users can track the playbook process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-process-tab-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-process-tab-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

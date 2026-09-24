@@ -2,7 +2,7 @@
 title: Variable new record form
 description: Field description to create a new variable record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -134,5 +134,5 @@ Hint that is displayed in the question field before a user enters a value.Applic
 -   Date/Time
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

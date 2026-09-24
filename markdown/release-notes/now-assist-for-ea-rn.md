@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Enterprise Architecture \(EA\) release notes
 description: The ServiceNow ServiceNow Otto for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. ServiceNow Otto for Enterprise Architecture \(EA\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. ServiceNow Otto for Enterprise Architecture \(EA\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. ServiceNow Otto for Enterprise Architecture \(EA\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. ServiceNow Otto for Enterprise Architecture \(EA\) was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-ea-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-ea-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ The ServiceNow® ServiceNow Otto for Enterprise Architecture \(EA\) application 
 
 ## About ServiceNow Otto for Enterprise Architecture \(EA\)
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)You can use the Now Assist panel to search your published TRM catalog records using natural language queries.
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)You can use the Now Assist panel to search your published TRM catalog records using natural language queries.
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   When you compare two versions of an Enterprise Modeling and Visualization diagram, the diagram canvas highlights the differences visually. This makes it easier to identify what has changed at a glance, without relying solely on the Now Assist change summary panel.
 -   Support for models OpenAI GPT-5 mini, Claude Haiku 4.5, and Google Gemini 3.0 Flash added for any Now Assist for Enterprise Architecture \(EA\) skill.
@@ -40,7 +40,7 @@ See [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubuserc
     Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## Australia General Availability
 

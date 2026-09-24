@@ -2,7 +2,7 @@
 title: Configure forms and lists
 description: Configure forms to add the fields and related lists that are necessary to support the business organization \(formerly business location\) and household data models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-data-model-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-data-model-forms.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ Role required: One of the following:
 -   admin
 -   csm\_guided\_setup\_user designated as a delegated developer
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 

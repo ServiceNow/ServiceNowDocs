@@ -2,7 +2,7 @@
 title: Intelligent Search for CMDB
 description: Use everyday natural language query \(NLQ\) in a search string to query for a set of CIs in the CMDB. Intelligent Search for CMDB, parses, resolves ambiguities, and converts your search string into a valid CMDB query. Complex search strings open fully constructed on a canvas of CMDB Query Builder where you can continue and refine, or run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -22,19 +22,19 @@ Intelligent Search for CMDB is supported only on English language instances and 
 
 Intelligent Search for CMDB is integrated into the Home view in the CMDB Workspace store app. For more information, see:
 
--   [Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md) \(Intelligent Search section\) for details about how to use Intelligent Search, sample search strings, and helpful tips.
--   [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) for additional details about CMDB Workspace.
+-   [Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md) \(Intelligent Search section\) for details about how to use Intelligent Search, sample search strings, and helpful tips.
+-   [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) for additional details about CMDB Workspace.
 
 ## Integration with Service Graph Workspace
 
 Intelligent Search for CMDB is integrated into the Search and Explore view in the Service Graph Workspace store app. For more information, see:
 
--   [Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md), Search tab for details about how to use Intelligent Search, sample search strings, and helpful tips.
+-   [Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md), Search tab for details about how to use Intelligent Search, sample search strings, and helpful tips.
 -    for additional details about Service Graph Workspace.
 
 ## Integration with CMDB Query Builder
 
-Intelligent Search for CMDB is integrated with the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) in the ServiceNow AI Platform. This integration is controlled by the system property **glide.cmdb.query.nlq.activated**, which is set to **true** by default. Intelligent Search for CMDB lets you use natural language processing in the CMDB Query Builder to find CIs and their relationships using Intelligent Search for CMDB functions.
+Intelligent Search for CMDB is integrated with the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) in the ServiceNow AI Platform. This integration is controlled by the system property **glide.cmdb.query.nlq.activated**, which is set to **true** by default. Intelligent Search for CMDB lets you use natural language processing in the CMDB Query Builder to find CIs and their relationships using Intelligent Search for CMDB functions.
 
 ## Using Intelligent Search for CMDB
 
@@ -44,12 +44,12 @@ Use the Intelligent Search search field to construct a search string using every
 
 Use Intelligent Search:
 
--   **Search tips**: Shows details and tips about the usage, and examples for single and multi-table search, advanced filtering, and relationships in Intelligent Search. The Relationships tab contains a link to the [CMDB Implicit Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md) table.
+-   **Search tips**: Shows details and tips about the usage, and examples for single and multi-table search, advanced filtering, and relationships in Intelligent Search. The Relationships tab contains a link to the [CMDB Implicit Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md) table.
 -   **Search**: Depending on whether the search string is already fully converted into a valid CMDB query and whether the search is for a single or multiple tables.
 
     -   If the search string has no ambiguities with the table name or relationships, then the query runs and the results appear in a list view format.
 
-        If the constructed CMDB query contains more than a single table, then the **View in Query Builder** button appears. Click the button to open the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) with your query fully constructed on the Query Builder canvas. You can use the Query Builder to continue editing the query.
+        If the constructed CMDB query contains more than a single table, then the **View in Query Builder** button appears. Click the button to open the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) with your query fully constructed on the Query Builder canvas. You can use the Query Builder to continue editing the query.
 
     -   If there are any ambiguities with table names or relationship types in the search string, then the search string can't be converted into a valid CMDB query. In this case, the Refine your query dialog box appears to continue and parse your search string into a valid CMDB query. The dialog box contains suggested synonyms and labels for phrases in your search string. Use the drop-down lists to select the synonyms that match your intended search and then click **Go** to run the query.
     -   If Intelligent Search is unable to convert your search string into a valid CMDB query, then clicking **Search** does not generate any query results. Instead, a feedback form appears. Fill out the form and click **Submit Feedback** to send your feedback to ServiceNow analysis.

@@ -2,7 +2,7 @@
 title: Follow up on a report from the Anonymous Reporting Center
 description: After you submit an anonymous report, save the Report key and Report number. Use these reference numbers to follow up or address comments on your case anonymously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/follow-up-anonymously.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/follow-up-anonymously.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -85,14 +85,14 @@ Description
 
 Use the report to add new information or to respond to investigator comments.
 
-**Parent Topic:**[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
+**Parent Topic:**[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
 **Related topics**  
 
 
-[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
+[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
-[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
+[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 
-[AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
+[AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
 

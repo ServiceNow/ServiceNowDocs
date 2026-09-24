@@ -2,7 +2,7 @@
 title: Flow summarization
 description: Summarize what a flow or subflow does by using generative AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-summarization-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-summarization-landing.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -30,7 +30,7 @@ Summarize what a flow or subflow does by using generative AI.
 
 </td></tr><tr><td>
 
-[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/summarize-a-flow.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/summarize-a-flow.md)
 
 </td><td>
 
@@ -77,8 +77,8 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 -   **[Exploring Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Summarize what a flow or subflow does by using generative AI.
--   **[Turn on the flow summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-the-flow-summarization-skill.md)**  
+-   **[Turn on the flow summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-the-flow-summarization-skill.md)**  
 Turn on the flow summarization skill to generate a summary of what a flow or subflow does.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md)
 

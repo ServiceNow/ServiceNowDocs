@@ -2,7 +2,7 @@
 title: Properties for Connect Support
 description: The Connect Support Properties page provides several configuration options specifically for Connect Support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/r\_PropertiesForConnectSupport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/r\_PropertiesForConnectSupport.html
 release: australia
 product: Connect
 classification: connect

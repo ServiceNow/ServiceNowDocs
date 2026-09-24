@@ -2,7 +2,7 @@
 title: Custom URL errors and fixes
 description: A list of common errors and associated fixes for a custom URL setup and configuration.Target Audience: ServiceNow Admin
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/custom-url-error-fix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/custom-url-error-fix.html
 release: australia
 product: Authentication
 classification: authentication

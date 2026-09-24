@@ -2,7 +2,7 @@
 title: Oracle Linux Virtualization Manager and Red Hat Virtualization discovery
 description: The ServiceNow Discovery application uses patterns to find Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\) components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/red-hat-virtualization-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/red-hat-virtualization-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -137,7 +137,7 @@ The datacenter type, which should be oVirt LDC \[cmdb\_ci\_rhv\_ldc\].
 </td></tr></tbody>
 </table>-   **Create a discovery schedule**
 
-    For more information, see [Create an oVirt Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-ovirt-schedule-DAW.md).
+    For more information, see [Create an oVirt Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-ovirt-schedule-DAW.md).
 
 -   **\(Optional\) Populate Service Account and Logical Datacenter fields in cloud CIs**
 
@@ -294,5 +294,5 @@ The OLVM and RHV patterns create the following relationships and references to s
 |---|-----|-------------|
 |IP Address \[cmdb\_ci\_ip\_address\]|Nic \[nic\]|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

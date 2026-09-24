@@ -2,7 +2,7 @@
 title: Quizzes
 description: Quizzes are questionnaires that you can assign to one or more users to assess their knowledge of any subject. The quiz functionality is built on the assessment engine and provides many of the same features as assessments and surveys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_Quizzes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_Quizzes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -106,15 +106,15 @@ Administrator \[admin\]
 Can access all aspects of the assessment and survey processes. Only administrators can modify survey notifications, create survey modules, and import surveys.
 
 </td></tr></tbody>
-</table>-   **[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-quizzes.md)**  
+</table>-   **[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/using-quizzes.md)**  
 You can use quizzes.
--   **[Quizzes reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/quizzes-reference.md)**  
+-   **[Quizzes reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/quizzes-reference.md)**  
 Reference topics provide additional information about the forms, fields, and properties you use while working with quizzes.
 
-**Parent Topic:**[Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessments-surveys-landing-page.md)
+**Parent Topic:**[Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/assessments-surveys-landing-page.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md)
 

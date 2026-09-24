@@ -2,7 +2,7 @@
 title: Condition field types
 description: A condition field specifies when to run business logic such as a business rule or workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/condition-field-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/condition-field-types.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,5 +23,5 @@ There are two types of condition field.
 
 The system evaluates both types of condition field to determine if the conditions are true or false. When true, the system runs the business logic. When false, the system ignores the business logic.
 
-To find dictionary attributes that affect condition fields, see [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md).
+To find dictionary attributes that affect condition fields, see [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md).
 

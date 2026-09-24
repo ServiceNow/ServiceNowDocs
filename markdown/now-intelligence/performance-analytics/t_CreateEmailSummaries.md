@@ -2,7 +2,7 @@
 title: Create an email notification for indicators
 description: Performance Analytics can automatically generate an email with the score, change %, target, and score-target gap % of one or more indicators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreateEmailSummaries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_CreateEmailSummaries.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

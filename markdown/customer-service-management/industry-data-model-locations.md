@@ -2,7 +2,7 @@
 title: Service Model Foundation business organizations
 description: Use the business organization \(formerly business location\) entity to create an organizational structure that includes internal and external organizations \(formerly internal and external business locations\) such as stores, branches, franchises, and dealerships.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/industry-data-model-locations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/industry-data-model-locations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Configure Service Model Foundation, Data models, Set up your enviro
 
 Use the business organization \(formerly business location\) entity to create an organizational structure that includes internal and external organizations \(formerly internal and external business locations\) such as stores, branches, franchises, and dealerships.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 A business organization is an extension of a service organization. The business organization entity enables you to model the internal and external organizational structure involved in supporting customers. It also enables you to give agents the correct level of visibility into customer data.
 
@@ -28,7 +28,7 @@ With the business organization entity you can:
 
 ## Creating a business organization
 
-Maintain an organizational structure by creating internal and external organizations . To create a business organization \(formerly business location\), see [Create a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-business-location.md).
+Maintain an organizational structure by creating internal and external organizations . To create a business organization \(formerly business location\), see [Create a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-business-location.md).
 
 ## Accessing business organizations
 

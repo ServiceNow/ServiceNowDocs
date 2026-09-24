@@ -2,7 +2,7 @@
 title: Start a crisis event
 description: Report a crisis event in the BCM Configurable Workspace. A crisis event is any significant disruption that threatens business operations. The Business Continuity Workspace enables you to create crisis records, classify severity levels, set priorities, assign response teams, and document initial actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/start-crisis-event-in-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/start-crisis-event-in-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-08-17"
@@ -30,7 +30,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     **Note:** For a crisis event, the event type is **Actual**.
 
-    For more information on the fields, see [Create Crisis Event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-crisis-event-ref-form.md).
+    For more information on the fields, see [Create Crisis Event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-crisis-event-ref-form.md).
 
     \[Omitted image "cm-level-field-in-crisis-event.png"\] Alt text: Level field on the Create New Event form with 1-Site, 2-Regional, 3-Corporate, and 4-Global options.
 
@@ -52,7 +52,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
     -   **Emergency Notifications**: You can create a notification for the crisis event with the Everbridge integration.
     -   **Issues**: You can view and create issues associated with the crisis event.
     -   **Similar tasks groups**: You can group duplicate or similar event tasks together to eliminate redundant work.
-    -   **Collaborations**: You can view and create collaboration threads that coordinate the response to the crisis event with recovery teams. For more information, see [Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
+    -   **Collaborations**: You can view and create collaboration threads that coordinate the response to the crisis event with recovery teams. For more information, see [Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
     -   **Event tasks**: You can add an ad-hoc task to the crisis event.
     A crisis event is created in the **Pending** state.
 
@@ -72,20 +72,20 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 8.  Review and confirm the group ownership, issue details, and collaboration thread details for the event in separate sections of the PDF and Microsoft Word reports.
 
-    For information on the collaboration block in Microsoft Word and PDFs, see [Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md). For information on Microsoft Word template with collaboration block, see [Update the Word template with a collaboration block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-collaboration-block-docudesigner.md).
+    For information on the collaboration block in Microsoft Word and PDFs, see [Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compose-email-collaboration-thread-crisis.md). For information on Microsoft Word template with collaboration block, see [Update the Word template with a collaboration block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-collaboration-block-docudesigner.md).
 
 
--   **[Create Crisis Event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-crisis-event-ref-form.md)**  
+-   **[Create Crisis Event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-crisis-event-ref-form.md)**  
 Use the Create Crisis Event form in BCM UIB Workspace to add details about a crisis event.
 
-**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 
 **Related topics**  
 
 
-[My tasks page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/my-tasks-page-uib-ws.md)
+[My tasks page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/my-tasks-page-uib-ws.md)
 
-[Group ownership in BIA, plan, and event records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/group-ownership-bias.md)
+[Group ownership in BIA, plan, and event records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/group-ownership-bias.md)
 
-[Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/managing-issues-in-bcm.md)
+[Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/managing-issues-in-bcm.md)
 

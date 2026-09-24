@@ -2,12 +2,12 @@
 title: Edit a Threat Response policy
 description: Change an existing Threat Response policy's threat type, scope, sensitivity, or follow-up actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-edit-threat-response-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-edit-threat-response-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-08-27"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Policies, Threat Response, edit]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Threat Response, edit]
 breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -44,5 +44,5 @@ The policy takes effect with your changes. Enforcement activity from before the 
 
 ## What to do next
 
-Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 

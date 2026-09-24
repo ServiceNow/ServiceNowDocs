@@ -2,7 +2,7 @@
 title: Domain separation and Virtual Agent
 description: Domain separation is supported in the Virtual Agent application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -46,7 +46,7 @@ Domain separation is best for customers with any of the following requirements:
     **Note:** Users always have access to data from domains that have been explicitly granted to them by domain visibility.
 
 
-When domain separation is used, guest users are restricted to the domain used in the session. For custom chat channels, the domain of the [provider application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md) is used. For the chat widget, you can associate a domain ID with the chat portal. For details, see [Associate a domain ID with a chat portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/associate-domain-id-chat-portal.md).
+When domain separation is used, guest users are restricted to the domain used in the session. For custom chat channels, the domain of the [provider application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md) is used. For the chat widget, you can associate a domain ID with the chat portal. For details, see [Associate a domain ID with a chat portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/associate-domain-id-chat-portal.md).
 
 For more information, see [Domain scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainScope.md).
 
@@ -58,22 +58,22 @@ All domain support features require the Domain Support - Domain Extensions Insta
 
 -   **Branding**
 
-    Service providers can create a [chat branding configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-chat-branding.md) per domain.
+    Service providers can create a [chat branding configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-chat-branding.md) per domain.
 
--   **[Chat experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md)**
+-   **[Chat experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-conversation-settings.md)**
 
     Chat experiences, including the default experience and any custom experiences, allow for domain separation. Each chat experience profile belongs to a domain. Each child customization, such as a setup topic change, belongs to a domain. Each child customization implements system overrides so that sub-domains can override parent-domain customizations.
 
 -   **NLU settings**
 
-    Only one NLU service provider can be set per domain-separated instance for all Virtual Agent clients. The managed service provider \(MSP\) logs in as a global user for the domain to configure NLU. For details, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
+    Only one NLU service provider can be set per domain-separated instance for all Virtual Agent clients. The managed service provider \(MSP\) logs in as a global user for the domain to configure NLU. For details, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
 
 ## Creating topics in subdomains in Assistant Designer
 
 **Roles required:** admin or virtual\_agent\_admin
 
-The service provider either logs in to one of the subdomains and creates and publishes topics or allows subdomain admin users to [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) and [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) their own topics.
+The service provider either logs in to one of the subdomains and creates and publishes topics or allows subdomain admin users to [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) and [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) their own topics.
 
 Topic names within a domain must be unique, but Virtual Agent does allow you to create topics with the same name in other domains. For example, each domain might have a topic called **Greeting**.
 
@@ -92,9 +92,9 @@ Admin users assigned to the subdomain can do the following:
 
 The chat widget does not support domain separation. However, you can provide a domain-separated chat experience in the chat widget channel by using separate, domain-separated portals. For example, you can create two separate support portals that are restricted to separate domains. Use the **domain\_id** in the portal script to designate the domain. This gets passed as the **sysparm\_domain\_id** parameter in the portal URL.
 
-To configure the portal, see [Associate a domain ID with a chat portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/associate-domain-id-chat-portal.md).
+To configure the portal, see [Associate a domain ID with a chat portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/associate-domain-id-chat-portal.md).
 
-For information about URL parameters, see [Virtual Agent URL parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-sysparm.md).
+For information about URL parameters, see [Virtual Agent URL parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-sysparm.md).
 
 ## Domain separation and Virtual Agent messaging app integrations
 
@@ -104,14 +104,14 @@ The domain-separated instance has one setup record for Slack, Microsoft Teams, W
 
 Customers on the subdomain license either Slack, Microsoft Teams, or Workplace independently of the ServiceNow instance.
 
-The admin of the subdomain installs the integrations within the subdomain and configures the appropriate credentials to access Virtual Agent from the third-party client. For details, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
+The admin of the subdomain installs the integrations within the subdomain and configures the appropriate credentials to access Virtual Agent from the third-party client. For details, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
-For Facebook Messenger, the admin manually configures the integration. For details, see [Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-fbm.md).
+For Facebook Messenger, the admin manually configures the integration. For details, see [Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm.md).
 
--   **[Associate a domain ID with a chat portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/associate-domain-id-chat-portal.md)**  
+-   **[Associate a domain ID with a chat portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/associate-domain-id-chat-portal.md)**  
 The Service Portal platform is not domain-separated, but you can create different versions of a portal and restrict each version's use to a single domain for chat purposes. For example, you could create two employee service portals and define a different domain for each.
 
-**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
+**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 
 **Related topics**  
 

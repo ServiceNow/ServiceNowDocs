@@ -2,7 +2,7 @@
 title: Create or Update Record action
 description: Create or update a record in a ServiceNow table using a single operation. Update a record that exists, or create a record using the values provided.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-update-record-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-update-record-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -92,5 +92,5 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 \[Omitted image "example-create-update-record.png"\] Alt text: Inputs used for create or update problem record.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

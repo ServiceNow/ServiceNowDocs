@@ -2,7 +2,7 @@
 title: Configure widgets
 description: Configure the widgets in the Manager Hub and Team Insights pages as per your business requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-team-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-team-insights.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,7 +50,7 @@ Role required: sn\_mh.admin, sp\_admin
         -   In **Advanced**, add a script to customize and display content in the widget.
         -   Click **Save**.
 
-**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 

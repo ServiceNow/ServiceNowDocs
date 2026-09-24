@@ -2,7 +2,7 @@
 title: Bookmarking and using mobile saved views
 description: Create bookmarks for mobile views like forms, maps, and charts. Decide how you want to display these saved views, and deselect them when you no longer need them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/saved-views-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/saved-views-using.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

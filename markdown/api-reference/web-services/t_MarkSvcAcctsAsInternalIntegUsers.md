@@ -2,7 +2,7 @@
 title: Mark service accounts as internal integration users
 description: Allow internal integration communications to bypass the WSS authentication requirement by marking their user accounts as internal integration users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_MarkSvcAcctsAsInternalIntegUsers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_MarkSvcAcctsAsInternalIntegUsers.html
 release: australia
 product: Web Services
 classification: web-services
@@ -39,12 +39,12 @@ When WS-Security is enabled, authentication is required for all SOAP requests in
 5.  Click **Update**.
 
 
-**Parent Topic:**[Enable WS-Security verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_EnableWS-SecurityVerification.md)
+**Parent Topic:**[Enable WS-Security verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_EnableWS-SecurityVerification.md)
 
 **Related topics**  
 
 
-[Enable WS-Security verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_EnableWS-SecurityVerification.md)
+[Enable WS-Security verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_EnableWS-SecurityVerification.md)
 
-[WS-Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+[WS-Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 

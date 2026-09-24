@@ -2,7 +2,7 @@
 title: Field Service Territory Planning
 description: Field Service Territory Planning enables you to create, view, analyze, and manage territories for better scheduling of work orders and work order tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/territory-planning-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/territory-planning-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -56,9 +56,9 @@ The following screenshot highlights data items and a contextual side panel. Sele
 **Related topics**  
 
 
-[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
+[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
 
-[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
+[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
 
-[Field Service Territory Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/territory-planning-dashboard.md)
+[Field Service Territory Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/territory-planning-dashboard.md)
 

@@ -2,7 +2,7 @@
 title: Display the priorities and goals on the project form
 description: If you're an existing user, configure the project form to upgrade to the Goal Framework. The benefit of the Goal Framework is that it enables you to set targets for goals. You can also define strategic priorities and associated goals as part of the organization's strategic plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-project-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/configure-project-form.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -55,5 +55,5 @@ The same procedure can be performed on the Demand and Program forms as well. For
 
 The Project form shows the **Strategic priority** field and the **Primary goal** field.
 
-**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-goal.md)
+**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-esg-goal.md)
 

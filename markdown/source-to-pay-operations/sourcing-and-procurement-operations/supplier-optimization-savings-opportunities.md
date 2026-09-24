@@ -2,7 +2,7 @@
 title: Supplier optimization savings opportunities
 description: The Supplier Optimization Opportunity Finder Agent identifies spend placed with non-preferred suppliers and fragmented across multiple suppliers for similar products. Addressing these opportunities helps redirect spend to preferred sources and consolidate supplier relationships.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/supplier-optimization-savings-opportunities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/supplier-optimization-savings-opportunities.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -51,5 +51,5 @@ A spend fragmentation opportunity captures the following information:
 
 When you create a pipeline project from a spend fragmentation opportunity, the linked suppliers are attached to the project so that the sourcing team can reference the source evidence during supplier consolidation discussions.
 
-**Parent Topic:**[Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md)
+**Parent Topic:**[Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md)
 

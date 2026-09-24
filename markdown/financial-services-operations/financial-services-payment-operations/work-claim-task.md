@@ -2,7 +2,7 @@
 title: Work on a claim task for an external refund
 description: Using a claim task, follow up with the third-party bank for a claim refund.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/work-claim-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-payment-operations/work-claim-task.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -79,7 +79,7 @@ Steps
 
 Update the associated claim case as per the refund or information that you receive from the refund bank.
 
-**Note:** If the claim is not closed within the number of days mentioned in the **sn\_bom\_payment.claim\_follow \_up\_interval\_in\_days** [payment property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/properties-installed-with-payment-operations.md), the system creates another follow-up claim task for the claim.
+**Note:** If the claim is not closed within the number of days mentioned in the **sn\_bom\_payment.claim\_follow \_up\_interval\_in\_days** [payment property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/properties-installed-with-payment-operations.md), the system creates another follow-up claim task for the claim.
 
-**Parent Topic:**[Work on a claim with an external refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/work-claim-with-external-refund.md)
+**Parent Topic:**[Work on a claim with an external refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/work-claim-with-external-refund.md)
 

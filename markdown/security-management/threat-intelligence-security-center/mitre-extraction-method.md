@@ -2,7 +2,7 @@
 title: View extracted MITRE ATT&amp;CK Techniques
 description: MITRE ATT&amp;CK Technique Extraction method describes how the extraction methods are performed and associated techniques are verified for observables, objects, and RSS feeds.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/mitre-extraction-method.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/mitre-extraction-method.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -63,5 +63,5 @@ The extraction rules for threat lookups or observable enrichment are processed w
 
 **Note:**
 
-Technique associations are created only for the tactic and technique pairs that MITRE currently maps. A pair that MITRE has stopped mapping is excluded from the extraction results and from the counts on the MITRE ATT&amp;CK framework. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
+Technique associations are created only for the tactic and technique pairs that MITRE currently maps. A pair that MITRE has stopped mapping is excluded from the extraction results and from the counts on the MITRE ATT&amp;CK framework. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
 

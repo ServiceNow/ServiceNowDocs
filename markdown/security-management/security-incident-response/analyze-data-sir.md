@@ -2,7 +2,7 @@
 title: Analyze security incident data
 description: Analyze and get insights into your security incident data using available prompts or natural language queries from the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/analyze-data-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/analyze-data-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -70,5 +70,5 @@ This agentic workflow answers questions about the data in Security Incident Resp
     Your conversation is saved until you start a new chat. Start a new chat to clear the context of your previous questions, or return to your saved chat to continue. To start a new chat, select the new chat icon \[Omitted image "na-new-chat.png"\] Alt text:.
 
 
-**Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
+**Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
 

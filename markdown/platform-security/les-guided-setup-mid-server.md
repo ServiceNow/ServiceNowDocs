@@ -2,7 +2,7 @@
 title: Guided setup for MID Server consumers
 description: Implement the following steps for a complete guided setup for MID Server consumers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-guided-setup-mid-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-guided-setup-mid-server.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Role required: admin
 
 2.  Generate certificates for a secure connection to Hermes Messaging Service and pull log events from it.
 
-    Setup secure connection to Hermes Messaging Service. See [Set up a secure connection to the Hermes Messaging Service for LES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-hermes-cert.md) for more information. You will need these certificates for authentication and authorization in the client which will pull the logs from Hermes.
+    Setup secure connection to Hermes Messaging Service. See [Set up a secure connection to the Hermes Messaging Service for LES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-hermes-cert.md) for more information. You will need these certificates for authentication and authorization in the client which will pull the logs from Hermes.
 
     **Note:** admin or Hermes\_admin roles are required for this step.
 
@@ -163,5 +163,5 @@ Role required: admin
         **Note:** If you make any change in one of the Consumer records, it shows up on the Consumer Status view page. If you select a consumer record name on the Consumer Status list, the Consumer form for the selected record opens. You can then update the Name and Destination Configuration of the selected record.
 
 
-**Parent Topic:**[MID server consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-mid-server-consumer.md)
+**Parent Topic:**[MID server consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-mid-server-consumer.md)
 

@@ -2,10 +2,10 @@
 title: Cost configurations
 description: Configure the hourly rates and vendor costs that AI Control Tower \(AICT\) uses to calculate what your AI systems cost to run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mc-cost-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mc-cost-configurations.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---

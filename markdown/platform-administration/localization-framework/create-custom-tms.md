@@ -2,7 +2,7 @@
 title: Create a custom translation management system
 description: Configure Localization Framework with a third-party translation management system of your choice to localize an artifact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/create-custom-tms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-framework/create-custom-tms.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -92,5 +92,5 @@ Option to retrieve the translated content automatically.When selected, the trans
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md)
+**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/tms-configuration.md)
 

@@ -2,7 +2,7 @@
 title: Configure filters for Manager Workspace
 description: Configure filters for scheduling and coaching applications and use the default filter for channel management to refine your search results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-filters-manager-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configuring-filters-manager-configurable-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,7 +54,7 @@ Table
 
 Table for which the filter is configured. **Note:** You can filter only on specific tables or database views for each module.
 
-Refer to Filter Configuration Tables in [Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) for a list of tables and database views you can use for each application.
+Refer to Filter Configuration Tables in [Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) for a list of tables and database views you can use for each application.
 
 </td></tr><tr><td>
 
@@ -118,5 +118,5 @@ Metadata defined seismic component.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-configurable-wfo-cs.md)
 

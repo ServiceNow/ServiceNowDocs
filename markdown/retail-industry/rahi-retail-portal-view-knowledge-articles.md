@@ -2,7 +2,7 @@
 title: View your organization's knowledge articles from the Retail portal
 description: View the knowledge articles that were posted by your organization directly from the Retail portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-portal-view-knowledge-articles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-portal-view-knowledge-articles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

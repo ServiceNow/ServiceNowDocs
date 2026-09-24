@@ -56,7 +56,7 @@ Name
 
 Name of the building. Ensure that you enter a unique name. For example, use the location name `<location-name>-16` rather than just `16`.
 
-**Note:** Do not use duplicate names as it may affect the reservation process. If you change the name of a building after updating it, a message is displayed to show that the **Name** will be overwritten in the next synchronization process. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
+**Note:** Do not use duplicate names as it may affect the reservation process. If you change the name of a building after updating it, a message is displayed to show that the **Name** will be overwritten in the next synchronization process. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ Unit
 
 </td><td>
 
-Measuring unit of the size. Depending on the selected unit, the **Total size** and **Usable size** field name changes. For example, if you select **Square feet** as the unit, then the fields are displayed as **Total square feet** and **Usable square feet**. For more information, see [Compute CAD file properties to extract space or room surface area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/compute-cad-properties.md).
+Measuring unit of the size. Depending on the selected unit, the **Total size** and **Usable size** field name changes. For example, if you select **Square feet** as the unit, then the fields are displayed as **Total square feet** and **Usable square feet**. For more information, see [Compute CAD file properties to extract space or room surface area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/compute-cad-properties.md).
 
 </td></tr><tr id="gross-size"><td>
 
@@ -242,7 +242,7 @@ Option to set location privacy preference for the building. Note the following:-
 -   You can specify if you want to set privacy on workplace profiles, or reservations, or on both.
 -   You can also select **No privacy** if you don't want any privacy for the building.
 -   If the field is set as **None**, then, the privacy preferences set in the Workplace Reservation Management system property **sn\_wsd\_core.ENABLE\_LOCATION\_PRIVACY** is considered.
- For more information about each field, refer to [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md)
+ For more information about each field, refer to [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md)
 
 </td></tr><tr><td>
 
@@ -250,12 +250,12 @@ Allow employees to override location privacy on reservations
 
 </td><td>
 
-Enables you to let employees override the location privacy while reserving spaces that belong to this building. The field is set to **None** by default. For more information, refer to [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
+Enables you to let employees override the location privacy while reserving spaces that belong to this building. The field is set to **None** by default. For more information, refer to [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
 </td></tr></tbody>
 </table>6.  Select **Unlink Building** to unlink a building from Indoor Mapping map provider.
 
-    For more information about how to link and synchronize Indoor Mapping map data objects with Workplace Indoor Mapping see, [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
+    For more information about how to link and synchronize Indoor Mapping map data objects with Workplace Indoor Mapping see, [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 7.  Select **Block location** to define a time period to block these locations for reservation.
 

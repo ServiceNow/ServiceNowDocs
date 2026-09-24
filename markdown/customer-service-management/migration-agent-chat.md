@@ -2,7 +2,7 @@
 title: Agent Chat for Customer Service Management Configurable Workspace
 description: Learn how the CSM Agent Workspace Agent Chat functions with CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-agent-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-agent-chat.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

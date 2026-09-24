@@ -2,7 +2,7 @@
 title: Assign Learning to your team
 description: As a manager, assign Learning to your team members to enhance their skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/assign-learning-lxp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/assign-learning-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -38,7 +38,7 @@ Role required: sn\_lc.learning\_manager
 4.  Select **Assign**.
 
 
-**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-your-learning.md)
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-your-learning.md)
 
 **Related topics**  
 

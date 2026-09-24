@@ -2,7 +2,7 @@
 title: Integrate Advanced Work Assignment AWA Voice routing
 description: Provide customers the ability to use AWA as the routing engine for ServiceNow Voice on Amazon Connect.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/integr-awa-vr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/integr-awa-vr.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ Role required: sn\_cti\_amzn\_cct.admin
 
 ## What to do next
 
-For more information about integrating ServiceNow® Voice with Amazon Connect, see [Integrate ServiceNow Voice with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-ccc-amazonconnect.md).
+For more information about integrating ServiceNow® Voice with Amazon Connect, see [Integrate ServiceNow Voice with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integrate-ccc-amazonconnect.md).
 
-**Parent Topic:**[Integrating Voice with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-ccc-other-apps.md)
+**Parent Topic:**[Integrating Voice with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integrate-ccc-other-apps.md)
 

@@ -2,7 +2,7 @@
 title: Configure the Manage contract repository agentic workflow for HAM
 description: Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the Manage contract repository agentic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/configure-contract-repo-agentic-workflow-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/configure-contract-repo-agentic-workflow-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -56,7 +56,7 @@ When a warranty, maintenance, lease, or purchase contract record is created, the
 **Related topics**  
 
 
-[Hardware Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-cm-pro-integration.md)
+[Hardware Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-cm-pro-integration.md)
 
-[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)
+[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)
 

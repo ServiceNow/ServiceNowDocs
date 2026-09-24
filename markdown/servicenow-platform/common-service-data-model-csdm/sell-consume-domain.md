@@ -2,7 +2,7 @@
 title: Service Consumption domain in the CSDM model
 description: Internal or external consumers can request business services through the request catalogs in the Service Consumption domain. The business service offerings in the request catalogs are the deployed digital products in the Service Delivery domain. Business relationship managers and customer service managers might sell or even consume elements of the Service Delivery domain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -73,7 +73,7 @@ You can represent business services and business service offerings as catalog it
 
 A business service is associated with business users and is typically layered beneath one or more business capabilities. A business service can contain one or more business service offerings.
 
-Business consumers can use the request catalog to order business services, business service offerings, and service commitment levels. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md). Business services are mapped to the cmdb\_ci\_service\_business table and are classified as “business services.”
+Business consumers can use the request catalog to order business services, business service offerings, and service commitment levels. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog.md). Business services are mapped to the cmdb\_ci\_service\_business table and are classified as “business services.”
 
 ## Service portfolios
 
@@ -86,7 +86,7 @@ A service portfolio is a hierarchical collection of business services, products,
 
 ## Catalogs
 
-A request catalog enables consumers to order and manage business and technical products, services, service commitment options, and offerings \(for example, the Human Resources \[HR\] service catalog\). Catalogs contain catalog items and are the starting point for consumers to access available services. Catalogs are described in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
+A request catalog enables consumers to order and manage business and technical products, services, service commitment options, and offerings \(for example, the Human Resources \[HR\] service catalog\). Catalogs contain catalog items and are the starting point for consumers to access available services. Catalogs are described in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog.md).
 
 **Catalog Item**
 
@@ -96,5 +96,5 @@ A catalog item is an item or a service that a consumer can request from the cata
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
+**Parent Topic:**[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
 

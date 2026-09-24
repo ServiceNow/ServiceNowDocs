@@ -2,7 +2,7 @@
 title: Create a product offering family
 description: Create a product offering family for products with similar or common features that have multiple variations. You can apply common rules or attributes for product offerings at the product offering family level instead of applying them individually to each product offering.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-product-offering-family.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-product-offering-family.html
 release: australia
 topic_type: task
 last_updated: "2026-04-05"
@@ -52,12 +52,12 @@ For example, a product offering family hierarchy could be Hardware &gt; Computer
 
 ## What to do next
 
-[Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-offering.md)
+[Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-product-offering.md)
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

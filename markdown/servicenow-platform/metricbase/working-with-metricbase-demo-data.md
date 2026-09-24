@@ -2,7 +2,7 @@
 title: Working with MetricBase demo data
 description: Familiarize yourself with MetricBase by exploring the MetricBase demo.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/working-with-metricbase-demo-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/metricbase/working-with-metricbase-demo-data.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -18,7 +18,7 @@ Familiarize yourself with MetricBase by exploring the MetricBase demo.
 
 ## Overview of the MetricBase demo
 
-With the MetricBase Demo plugin, you can experiment with MetricBase without configuring it or knowing much about it. The demo plugin is separate from the MetricBase plugin. Make sure to [request both](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/request-metricbase.md).
+With the MetricBase Demo plugin, you can experiment with MetricBase without configuring it or knowing much about it. The demo plugin is separate from the MetricBase plugin. Make sure to [request both](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/request-metricbase.md).
 
 Use the MetricBase demo to explore MetricBase before you set it up for production purposes.
 
@@ -29,12 +29,12 @@ Use the MetricBase demo to explore MetricBase before you set it up for productio
 
 In the demo, a fictional fleet of drones has been outfitted with sensors that broadcast their metrics, including their speed, altitude, and battery life over time.
 
--   **[View demo data in MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/getting-familiar-with-metricbase.md)**  
+-   **[View demo data in MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/getting-familiar-with-metricbase.md)**  
 After ServiceNow personnel install the MetricBase and MetricBase Demo plugins, you can use the demo to get familiar with MetricBase.
--   **[Get familiar with MetricBase APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-data-explorer.md)**  
+-   **[Get familiar with MetricBase APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/metricbase-data-explorer.md)**  
 Experiment with MetricBase APIs using Data Explorer that is part of the MetricBase Demo application. Data Explorer uses the data installed with the MetricBase Demo application.
 
-**Parent Topic:**[Configuring MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/configuring-metricbase.md)
+**Parent Topic:**[Configuring MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/configuring-metricbase.md)
 
 **Related topics**  
 

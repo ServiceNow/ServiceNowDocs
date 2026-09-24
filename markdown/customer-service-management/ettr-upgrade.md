@@ -2,7 +2,7 @@
 title: Configure settings for estimated time to resolve values
 description: After upgrading, configure some settings to view the Time to Resolve Numeric Value column in the case report for older cases and determine the information that is displayed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ettr-upgrade.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ettr-upgrade.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
@@ -16,7 +16,7 @@ After upgrading, configure some settings to view the **Time to Resolve Numeric V
 
 ## Before you begin
 
-You must have a trained default estimated time to resolve a case regression solution. For more information, see [Configure the default estimated resolution time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ettr_configure.md).
+You must have a trained default estimated time to resolve a case regression solution. For more information, see [Configure the default estimated resolution time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ettr_configure.md).
 
 Role required: admin
 

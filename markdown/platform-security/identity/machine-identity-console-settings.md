@@ -2,7 +2,7 @@
 title: Machine Identity Console Settings
 description: Configure the Machine Identity security score settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/machine-identity-console-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/machine-identity-console-settings.html
 release: australia
 product: Identity
 classification: identity

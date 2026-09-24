@@ -2,7 +2,7 @@
 title: GlideImportSetTable - Scoped, Global
 description: The GlideImportSetTable API provides methods to create temporary Import Set tables.Instantiates a GlideImportSetTable object.Creates a GlideDateTime column.Creates a string column.Creates the Import Set table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideImportSetTableAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideImportSetTableAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,20 +22,20 @@ A scheduled job named Scripted Import Set Deleter runs every seven days by defau
 
 You can use the GlideImportSetTable methods in global and scoped scripts. Use the `sn_impex` namespace identifier to create a GlideImportSetTable object.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 **Related topics**  
 
 
-[GlideImportLog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideImportLogAPI.md)
+[GlideImportLog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideImportLogAPI.md)
 
-[GlideImportSetRun](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideImportSetRunAPI.md)
+[GlideImportSetRun](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideImportSetRunAPI.md)
 
-[GlideImportSetTransformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideImportSetTransformerAPI.md)
+[GlideImportSetTransformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideImportSetTransformerAPI.md)
 
-[GlideImportSetTransformMap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideImportSetTransformMapAPI.md)
+[GlideImportSetTransformMap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideImportSetTransformMapAPI.md)
 
-[GlideTransformLog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideTransformLogAPI.md)
+[GlideTransformLog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideTransformLogAPI.md)
 
 ## GlideImportSetTable - GlideImportSetTable\(String tableLabel\)
 

@@ -2,7 +2,7 @@
 title: Configure AI Risk and Compliance Workspace
 description: Configure the AI Risk and Compliance Workspace using UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/configure-airc-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/configure-airc-workspace.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management

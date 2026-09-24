@@ -2,7 +2,7 @@
 title: Configure the AutoCAD import tool
 description: Configure and import your CAD source file to Map Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/enable-autocad-v2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/enable-autocad-v2.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -53,18 +53,18 @@ Role required: admin
     -   Floor: Name of the floor where the CAD configuration changes have to be made or where the CAD file is to be imported. For example; Floor 3.
     -   Use the new Autocad processing tool: By default this option is enabled.
 
-        **Note:** Disable the **Use the new Autocad processing tool** button if you want to continue using the Autocad tool provided in earlier versions of Indoor Mapping \(pre 1.8.0 version\). For more information, see [Import CAD files to Map Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/CAD-file-import.md).
+        **Note:** Disable the **Use the new Autocad processing tool** button if you want to continue using the Autocad tool provided in earlier versions of Indoor Mapping \(pre 1.8.0 version\). For more information, see [Import CAD files to Map Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/CAD-file-import.md).
 
 10. Review the CAD guidelines by selecting the **Click here** link.
 
 11. Select **Save**.
 
-    The CAD configuration page is displayed. For more information, see [CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-v2-config-layout.md).
+    The CAD configuration page is displayed. For more information, see [CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/autocad-v2-config-layout.md).
 
 
-**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
+**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
 
-**Previous topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
+**Previous topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
 
-**Next topic:**[CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-v2-config-layout.md)
+**Next topic:**[CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/autocad-v2-config-layout.md)
 

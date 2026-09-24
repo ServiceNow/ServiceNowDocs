@@ -2,7 +2,7 @@
 title: Create and manage cases for a business organization
 description: As a staff member, create and manage cases for your business organizations \(formerly business locations\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-business-location-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/manage-business-location-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ The **Requestor Organization** and **Provider Organization** can be set manually
 
 Location agents, location consumer agents and managers can create cases for business organizations without adding an account, contact, or consumer. The location agent, location consumer agent or manager who creates the case is added to the **Opened by** field.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
@@ -52,7 +52,7 @@ Location agents, location consumer agents and managers can create cases for busi
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServiceCaseForm.md).
+    For a description of the field values, see [Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_CustomerServiceCaseForm.md).
 
 4.  Select **Submit**.
 
@@ -70,11 +70,11 @@ Location agents, location consumer agents and managers can create cases for busi
 **Related topics**  
 
 
-[Service Model Foundation cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/industry-data-model-cases.md)
+[Service Model Foundation cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/industry-data-model-cases.md)
 
-[Assign responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-assign-responsibilities.md)
+[Assign responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-assign-responsibilities.md)
 
-[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-roles.md)
+[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-data-model-roles.md)
 
-[Create a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustServApp.md)
+[Create a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_CreateACaseFromCustServApp.md)
 

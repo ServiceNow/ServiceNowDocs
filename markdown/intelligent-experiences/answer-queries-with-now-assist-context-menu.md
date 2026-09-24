@@ -2,7 +2,7 @@
 title: Improve Docs content in Strategic Portfolio Management with ServiceNow Otto context menu
 description: Use the ServiceNow Otto context menu to start conversations and raise queries, using generative AI capabilities and custom built in skills in Strategic Portfolio Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/answer-queries-with-now-assist-context-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/answer-queries-with-now-assist-context-menu.html
 release: australia
 topic_type: concept
 last_updated: "2025-08-25"
@@ -35,7 +35,7 @@ The ServiceNow Otto icon \(\[Omitted image "icon-otto-outline-24.svg"\] Alt text
 
 You can also see the option to **Summarize**, **shorten**, **elaborate**, or **change tone** for the selected content.
 
-**Parent Topic:**[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md)
+**Parent Topic:**[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-write-overview.md)
 
 **Related topics**  
 

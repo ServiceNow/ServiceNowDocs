@@ -2,7 +2,7 @@
 title: Managing Commercial Lines Claims
 description: Learn which roles use the Commercial Lines Claims application to create, investigate, and manage an insurance claim from the first notice of loss \(FNOL\) to the claim closure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/using-commercial-lines-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/using-commercial-lines-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -33,7 +33,7 @@ Processors, adjusters, and other roles use Workspace to work on all aspects of i
 -   Focus on high-priority items
 -   Easily navigate across tasks
 
-For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-workspace.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-workspace.md).
 
 The following table shows which Workspace users can use the Commercial Lines Claims application.
 
@@ -51,7 +51,7 @@ Claims admin
 
 </td><td>
 
-Configures Workspace per the business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures Workspace per the business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 
@@ -121,5 +121,5 @@ FSO insurance applications store claim contact information in the following Insu
 -   The Claim Participant table \[sn\_ins\_claim\_profile\] stores details about all participants involved in the claims process.
 -   The Participant Role table \[sn\_ins\_claim\_participant\] stores information on the participant's role in the claim \(such as if they are the injured or insured\).
 
-For more information, see [Insurance Claims Core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims-core-tables.md).
+For more information, see [Insurance Claims Core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims-core-tables.md).
 

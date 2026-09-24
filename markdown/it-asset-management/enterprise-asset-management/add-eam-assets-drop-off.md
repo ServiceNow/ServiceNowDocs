@@ -2,7 +2,7 @@
 title: Drop off enterprise assets at a stockroom
 description: Add enterprise assets to a Drop off task and deliver the assets to the required stockroom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-eam-assets-drop-off.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/add-eam-assets-drop-off.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -48,7 +48,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
 -   A Receive task is created and assigned to the asset manager of the stockroom where you dropped off the assets.
 -   The state of the Drop off task changes to Work in Progress.
 
-**Parent Topic:**[Delivering enterprise assets in your personal stockroom through Drop off tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/drop-off-receive-assets-eam.md)
+**Parent Topic:**[Delivering enterprise assets in your personal stockroom through Drop off tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/drop-off-receive-assets-eam.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Parameters of MID Server distributed cluster
 description: The following MID Server parameters support the MID Server Distributed cluster type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/opsintelgnc-mid-server-param.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/opsintelgnc-mid-server-param.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -73,5 +73,5 @@ The amount of off heap memory used by Metric Intelligence to process data series
 -   **Default value**: 4096
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 

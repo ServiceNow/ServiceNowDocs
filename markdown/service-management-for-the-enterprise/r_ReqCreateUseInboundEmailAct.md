@@ -2,7 +2,7 @@
 title: Request creation using inbound email actions
 description: Requests can be automatically created or updated from the information in inbound emails as long as the functionality has been enabled on the configuration screen of SM application. The emails are also to be sent to a mailbox defined by criteria in the appropriate inbound email action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_ReqCreateUseInboundEmailAct.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_ReqCreateUseInboundEmailAct.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,14 +16,14 @@ Requests can be automatically created or updated from the information in inbound
 
 After the functionality has been enabled by selecting the **Requests can be created and updated by inbound email** option on the application configuration screen, three inbound email actions are available for the SM applications available in the base system. These inbound email actions are also available for new applications created using the SM application creator.
 
--   **[Create a request from an inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateARequestFromAnInboundEmail.md)**  
+-   **[Create a request from an inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_CreateARequestFromAnInboundEmail.md)**  
 Requests can be automatically created from the information in inbound emails as long the functionality has been enabled on the configuration screen of SM application. The emails are also to be sent to a mailbox defined by criteria in the appropriate inbound email action.
--   **[Create a request from a forwarded inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateReqFromAForwInbndEmail.md)**  
+-   **[Create a request from a forwarded inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_CreateReqFromAForwInbndEmail.md)**  
 Requests can be automatically created from the information in forwarded inbound emails as long the functionality has been enabled on the configuration screen of SM application. The emails are also to be sent to a mailbox defined by criteria in the appropriate inbound email action.
--   **[Update a request from an inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_UpdateARequestFromAnInboundEmail.md)**  
+-   **[Update a request from an inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_UpdateARequestFromAnInboundEmail.md)**  
 Requests can be automatically updated from the information in inbound email replies as long the functionality has been enabled on the SM application's configuration screen. The emails must also be sent to a mailbox defined by criteria in the appropriate inbound email action.
 
-**Parent Topic:**[Request creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_RequestCreation.md)
+**Parent Topic:**[Request creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_RequestCreation.md)
 
 **Related topics**  
 

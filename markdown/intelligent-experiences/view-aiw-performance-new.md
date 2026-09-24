@@ -2,7 +2,7 @@
 title: Review the performance of an AI specialist in AI Agent Studio
 description: Review the performance analytics of an AI specialist to track their task execution success. You can use the analytics to tune the AI specialist to suit your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/view-aiw-performance-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/view-aiw-performance-new.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -213,5 +213,5 @@ KB article list
 </table>
 ## What to do next
 
-If you want to make changes to your AI specialist based on the performance analytics, see [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-profile-new.md) or [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks-new.md).
+If you want to make changes to your AI specialist based on the performance analytics, see [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-profile-new.md) or [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-tasks-new.md).
 

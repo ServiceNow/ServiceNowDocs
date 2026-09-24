@@ -2,7 +2,7 @@
 title: Exploring subflows
 description: Subflows automate a repeatable multi-step process that also produces an output needed by another process. When a playbook, flow, or script calls a subflow, the subflow runs a sequence of reusable actions and flow logic to complete the process and produce output values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/exploring-subflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/exploring-subflows.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -22,7 +22,7 @@ Subflows automate a repeatable multi-step process that also produces an output n
 
 A subflow is an automated process consisting of a sequence of reusable actions and flow logic, data inputs, and outputs. In contrast to flows, subflows do not have a trigger but instead run when called from a playbook, flow, another subflow, or a script. The inputs describe the data used to run the subflow. The actions perform a sequence of operations on your data. For example, the **Change - Implementation tasks** subflow creates an implementation and a post implementation task given a input change record.
 
-Building and managing subflows requires that you have some familiarity with the ServiceNow AI Platform tables and fields that the application or process uses. Process analysts can create subflows using available actions or use an existing subflow as a template. See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+Building and managing subflows requires that you have some familiarity with the ServiceNow AI Platform tables and fields that the application or process uses. Process analysts can create subflows using available actions or use an existing subflow as a template. See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflows.md).
 
 Subflows consists of the following components.
 
@@ -36,18 +36,18 @@ Subflows consists of the following components.
 
 -   **Subflow execution details**
 
-    A subflow execution details page allows a flow author to view run-time information about an action or flow directly from the design environment. You can view details such as the current sate, actions or steps run, output values generated, and errors produced. See [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+    A subflow execution details page allows a flow author to view run-time information about an action or flow directly from the design environment. You can view details such as the current sate, actions or steps run, output values generated, and errors produced. See [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-details.md).
 
 -   **Flow error handler**
 
-    A flow error handler enables a subflow to catch and report errors from the subflow execution details. Run a sequence of actions and subflows to identify and correct issues. For example, have subflows log output values, send notifications, and run corrective subflows when they produce an error. See [Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-error-handler.md).
+    A flow error handler enables a subflow to catch and report errors from the subflow execution details. Run a sequence of actions and subflows to identify and correct issues. For example, have subflows log output values, send notifications, and run corrective subflows when they produce an error. See [Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-error-handler.md).
 
 -   **Actions**
 
-    An action is a reusable operation that enables process analysts to automate ServiceNow AI Platform features without having to write code. For example, the **Create Record** action allows process analysts to generate records in a particular table with particular values when certain conditions occur. ServiceNow core actions like Create Record require some familiarity with ServiceNow AI Platform tables and fields. Action designers can create application-specific actions to pre-set configuration details. For example, creating a Create Incident Task action ensures that the process analyst uses the correct table and field configuration each time the action is used. You can add application-specific actions by activating the associated spoke. See [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md).
+    An action is a reusable operation that enables process analysts to automate ServiceNow AI Platform features without having to write code. For example, the **Create Record** action allows process analysts to generate records in a particular table with particular values when certain conditions occur. ServiceNow core actions like Create Record require some familiarity with ServiceNow AI Platform tables and fields. Action designers can create application-specific actions to pre-set configuration details. For example, creating a Create Incident Task action ensures that the process analyst uses the correct table and field configuration each time the action is used. You can add application-specific actions by activating the associated spoke. See [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md).
 
 
-For detailed instructions for creating a subflow, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
+For detailed instructions for creating a subflow, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-subflow.md).
 
 ## Subflows benefits
 

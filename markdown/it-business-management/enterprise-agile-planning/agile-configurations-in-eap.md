@@ -2,7 +2,7 @@
 title: Agile configurations in EAP
 description: Learn about the different SAFe configurations available in Enterprise Agile Planning \(EAP\) so that you can work with your admin to update the configuration according to your team's needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -35,7 +35,7 @@ Like the other default configurations, the **Scrum Configuration** is inactive u
 
 If you installed the Strategic Planning demo data, **Full Configuration** is activated for you. You can choose to activate a different configuration or define a new configuration.
 
-For more information, see [Activate an EAP configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/activate-eap-configuration.md) or [Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-eap-configuration.md).
+For more information, see [Activate an EAP configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/activate-eap-configuration.md) or [Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-eap-configuration.md).
 
 ## Default team level and work item hierarchy
 
@@ -49,6 +49,6 @@ For more information, see [Activate an EAP configuration](https://raw.githubuser
 -   All work items types used in EAP extend from the EAP Planning item \[sn\_align\_core\_eap\_planning\_item\] table, which in turn extends from the Planning Item \[sn\_align\_core\_planning\_item\] table of Strategic Planning.
 -   The Story records are saved in the Story \[rm\_story\] table.
 
-    You can also create a custom work item type. See [Create a custom work item type in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-custom-work-item-type-in-eap.md).
+    You can also create a custom work item type. See [Create a custom work item type in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-custom-work-item-type-in-eap.md).
 
 

@@ -2,7 +2,7 @@
 title: Configure non-task tables for contract templates
 description: Add non-task tables in the script of an extension point implementation so you can select them while creating contract templates. A non-task table does not extend task tables, and stores records, reference data, or configuration information used across the platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-config-non-tsk-tbl-cn-tmplt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-config-non-tsk-tbl-cn-tmplt.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -34,7 +34,7 @@ Role required: admin
 
     \[Omitted image "cmpro-non-task-table.png"\] Alt text: Scripted extension point for non-task table.
 
-    For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
+    For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
 6.  In the **Script** field, enter the name of non-task tables that you want to configure for contract templates.
 
@@ -67,9 +67,9 @@ Role required: admin
 
 The non-task tables are available for selection in the **table** drop-down list in the Contract templates view of the Word Templates page of the Contract Administration application.
 
-For more information, see [Create a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-contract-template.md).
+For more information, see [Create a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-contract-template.md).
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 

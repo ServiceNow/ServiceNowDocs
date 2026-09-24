@@ -2,7 +2,7 @@
 title: Subflow-agent mapping for HR Service Delivery Advanced Integration with Workday
 description: View the subflow-agent mapping for HR Service Delivery Advanced Integration with Workday.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/awd-agent-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/awd-agent-mapping.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -26,5 +26,5 @@ View the subflow-agent mapping for HR Service Delivery Advanced Integration with
 |Employee details updater AI agent|Human Capital Management|Update Personal Details|Workday HR - Update Personal Details|
 |Worker Management|Get Worker|Workday HR - Look up Worker Profile|
 
-**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-hr-service-delivery-advanced-integration-with-workday.md)
 

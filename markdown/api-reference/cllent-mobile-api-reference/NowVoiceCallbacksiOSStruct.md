@@ -2,7 +2,7 @@
 title: NowVoiceCallbacks structure - iOS
 description: Specifies callbacks for voice session lifecycle and content events.Creates a NowVoiceCallbacks instance with the specified voice session event handlers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API impl
 
 Specifies callbacks for voice session lifecycle and content events.
 
-**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowVoiceCallbacks - init\(onMuteStateChanged: \(\(Bool\) -&gt; Void\)?, onMessageReceived: \(\(NowVoiceTranscriptMessage\) -&gt; Void\)?, onCallEnded: NowVoiceDismissHandler?, onCallMinimized: \(\(\) -&gt; Void\)?\)
 
@@ -61,7 +61,7 @@ onMessageReceived
 
 </td><td>
 
-\(\([NowVoiceTranscriptMessage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceTrnstMsgiOSta.md)\) -&gt; Void\)?
+\(\([NowVoiceTranscriptMessage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NVoiceTrnstMsgiOSta.md)\) -&gt; Void\)?
 
 </td><td>
 

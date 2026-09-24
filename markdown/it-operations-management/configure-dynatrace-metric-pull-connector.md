@@ -2,7 +2,7 @@
 title: Configure Dynatrace metric pull connector
 description: Configure metric pull connectors that require a script, connector definition, and connector instance to pull metrics from external sources. These connectors automate the data retrieval process, ensuring the seamless integration of external metrics into your system for efficient monitoring and performance analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-dynatrace-metric-pull-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/configure-dynatrace-metric-pull-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,7 +67,7 @@ Configure the Dynatrace API Key credential from **All** &gt; **Connections and C
 
 8.  If you want to customize configurations to meet specific requirements, select **Advanced settings** and fill in the form.
 
-    For more information on fields, see [Dynatrace advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/dynatrace-advanced-settings-fields.md).
+    For more information on fields, see [Dynatrace advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/dynatrace-advanced-settings-fields.md).
 
 9.  Test the connector before activating it by selecting **Test and Save**.
 

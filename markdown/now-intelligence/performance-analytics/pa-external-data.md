@@ -2,7 +2,7 @@
 title: Using Performance Analytics with external data
 description: Performance Analytics on external data sources enables you to perform detailed analysis on data that is not in your ServiceNow instance.Performance Analytics supports only the database formats that ServiceNow supports by default. If a customer adds a JDBC driver for an unsupported database format, Performance Analytics does not support that database format as an external data source.Create an external indicator to define what data to evaluate and the SQL statement used to determine the indicator score.Create an external breakdown to define what elements are available to break down external indicator scores.Associate an external indicator and external breakdown to define how to collect breakdown scores for the indicator.Test your external indicators and breakdowns to ensure that you can connect to the external data source and collect the data you expect.When using Performance Analytics with external data you must filter SQL statements that collect scores by date.Certain Performance Analytics functionality is not available when you measure external data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-external-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/pa-external-data.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -26,7 +26,7 @@ Performance Analytics external data collection uses three types of configuration
 
 **Important:** These topics do not apply to external data accessed through Workflow Data Fabric tables. You can create an indicator or breakdown source for a Workflow Data Fabric table normally.
 
-**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
 **Related topics**  
 
@@ -116,9 +116,9 @@ Unit
 
 </td><td>
 
-The unit of measurement for the score, such as number, days, or percentages.To collect scores in the system reference currency on a Price, Currency, or FX Currency field, select **Use reference currency**. For more information, see [Indicator scores in reference currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/indicator-scores-reference-currency.md).
+The unit of measurement for the score, such as number, days, or percentages.To collect scores in the system reference currency on a Price, Currency, or FX Currency field, select **Use reference currency**. For more information, see [Indicator scores in reference currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/indicator-scores-reference-currency.md).
 
- If you select % or a time period as the unit, consider excluding some types of time series from being applied to the indicator. For more information, see [Exclude time series from an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ExcludingTimeSeriesFromIndicators.md).
+ If you select % or a time period as the unit, consider excluding some types of time series from being applied to the indicator. For more information, see [Exclude time series from an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ExcludingTimeSeriesFromIndicators.md).
 
 If you select Time as the unit, the time is given as Days, Hours, and Minutes. If the system property **glide.ui.duration.seconds.enabled** exists and is true, seconds are also displayed. In this case, seconds are also displayed for all-time fields on the instance and are included in exports to Microsoft Excel.
 
@@ -128,7 +128,7 @@ Precision
 
 </td><td>
 
-The number of digits behind the decimal separator. For more information, see [Rounding and precision in indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_FormulaRounding.md).This field isn’t available when the unit is **Use reference currency**. In this case, the precision is inherited from the reference currency.
+The number of digits behind the decimal separator. For more information, see [Rounding and precision in indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/r_FormulaRounding.md).This field isn’t available when the unit is **Use reference currency**. In this case, the precision is inherited from the reference currency.
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Number format
 
 </td><td>
 
-The abbreviations used for large numbers, thousands through quintillions. For more information, see [Rounding and precision in indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_FormulaRounding.md).
+The abbreviations used for large numbers, thousands through quintillions. For more information, see [Rounding and precision in indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/r_FormulaRounding.md).
 
 </td></tr></tbody>
 </table>8.  In the **Access control** tab, set whether to save this indicator to the library and whether to limit the visibility of the indicator by user, group, or role.
@@ -164,7 +164,7 @@ Default time series
 
 A predefined analytical function, like a 7-days running average, to apply to the indicator instead of showing the raw scores of the indicator.
 
- For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
+ For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
 
 **Note:** You can’t set the default time series for an indicator that uses a business or fiscal calendar. These calendars do not support time series aggregations.
 
@@ -212,7 +212,7 @@ Show real-time score
 
 </td><td>
 
-When selected, the Analytics Hub and KPI Details can show the score of this indicator in real time, as well as the current state of associated records. Clear this check box when indicator data isn’t available in real time, such as in an integration that uses data from a third-party source. For more information, see [Real-time scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/real-time-scores.md).
+When selected, the Analytics Hub and KPI Details can show the score of this indicator in real time, as well as the current state of associated records. Clear this check box when indicator data isn’t available in real time, such as in an integration that uses data from a third-party source. For more information, see [Real-time scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/real-time-scores.md).
 
  Note: A condition must be set on the indicator or the associated indicator source for real-time scores to be displayed.
 
@@ -229,7 +229,7 @@ When selected, the Analytics Hub and KPI Details can show the score of this indi
 
 10. In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
 
-    For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ForecastingData.md).
+    For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 11. Save the indicator.
 
@@ -267,7 +267,7 @@ External breakdown elements are stored on the pa\_ext\_elements tables.
 
 2.  Click **New**.
 
-3.  Select a **Data Source** that contains the records you want to use as [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md).
+3.  Select a **Data Source** that contains the records you want to use as [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
     Only JDBC type data sources are supported by Performance Analytics. Refer to the data sources documentation for information on setting up data sources.
 

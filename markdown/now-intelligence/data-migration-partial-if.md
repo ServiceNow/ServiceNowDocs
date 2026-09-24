@@ -2,7 +2,7 @@
 title: Perform a partial migration of interactive filters
 description: Migrate a selection of your Core UI interactive filters to Platform Analytics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-partial-if.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-partial-if.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

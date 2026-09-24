@@ -2,7 +2,7 @@
 title: Configure the Security incident quality assessment skill
 description: Add natural language rule sets to the Security incident quality assessment skill. Security analysts use these rules to generate a quality assessment report for security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/config-quality-assessment-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/config-quality-assessment-skill.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -49,5 +49,5 @@ Role required: sn\_si.admin
     The skill uses this rule set to generate a quality assessment for the security incident.
 
 
-**Parent Topic:**[Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)
+**Parent Topic:**[Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)
 

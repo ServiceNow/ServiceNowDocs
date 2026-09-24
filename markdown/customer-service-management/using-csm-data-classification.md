@@ -2,7 +2,7 @@
 title: Using CSM Data Classification
 description: Introduced a new CSM Data Classification \(sn\_csm\_dataprivacy\) Store application that provides base system classifications for customer relationship management \(CRM\) data, categorizing it as internal, personally identifiable information \(PII\), confidential, and more. The solution leverages the ServiceNow AI Platform data privacy capabilities to apply appropriate protection measures and enhance data security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-csm-data-classification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-csm-data-classification.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

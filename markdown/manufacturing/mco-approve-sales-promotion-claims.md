@@ -2,7 +2,7 @@
 title: Reviewing and approving the sales promotion claims
 description: Agents workspace enables a claims agent to review and approve the sales promotion claims submitted by the dealer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-approve-sales-promotion-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-approve-sales-promotion-claims.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

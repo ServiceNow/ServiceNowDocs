@@ -2,7 +2,7 @@
 title: Summarize a Sidebar discussion by using ServiceNow Otto for Customer Service Management \(CSM\)
 description: Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/summarize-sidebar-conversations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/summarize-sidebar-conversations.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -51,15 +51,15 @@ You can do these actions by using Sidebar discussion summarization:
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d40364e201">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d40368e201">
 
 Option
 
-</th><th align="left" id="d40364e204">
+</th><th align="left" id="d40368e204">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d40364e210">
+</th></tr></thead><tbody><tr><td id="d40368e210">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -70,7 +70,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d40364e237">
+</td></tr><tr><td id="d40368e237">
 
 **Provide feedback for the summary**
 
@@ -80,5 +80,5 @@ If you'd like to provide feedback, select either the helpful icon \(\[Omitted im
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

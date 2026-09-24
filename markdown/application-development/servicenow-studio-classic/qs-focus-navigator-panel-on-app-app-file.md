@@ -2,7 +2,7 @@
 title: Focus the Navigator panel on an app or app file
 description: Focus the Navigator panel on any open app or app file in ServiceNow Studio so the Navigator panel reflects your current work context.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-focus-navigator-panel-on-app-app-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/qs-focus-navigator-panel-on-app-app-file.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic

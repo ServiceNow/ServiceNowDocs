@@ -2,7 +2,7 @@
 title: View number of exam instance attempts
 description: View number of exam instance attempts by a user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/view-exam-attempts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/view-exam-attempts.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -38,8 +38,8 @@ Only a user with the sn\_exam.catalog\_admin role who is configured as part of t
 
 4.  Review the fields of the form.
 
-    For a description of the field values, see [Exam instance attempt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/exam-instance-attempt-form.md).
+    For a description of the field values, see [Exam instance attempt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/exam-instance-attempt-form.md).
 
 
-**Parent Topic:**[View an exam instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/view-exam-instance.md)
+**Parent Topic:**[View an exam instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/view-exam-instance.md)
 

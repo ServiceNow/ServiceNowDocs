@@ -2,10 +2,10 @@
 title: Combined ITSM Success Dashboard release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for ITSM Success Dashboard from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-itsmsuccessdashboard-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-itsmsuccessdashboard-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -76,6 +76,9 @@ Yokohama
 </td><td>
 
 -   New KPI is added to the self solved - percentage. This new KPI shares the number of times the issue is resolved using the Digital End-User Experience self service channels like Desktop Assistant, Now Assist panel, and Employee portal.
+
+ -   The all new KPIs **Successful Change Summarization - Now Assist** and **Successful Change Risk Explanation - Now Assist** are added to the Productivity moments. These new contributing indicators help you understand the benefits of using change summarization and change risk explanation through Now Assist.
+-   The Key Performance Indicator \(KPI\) **Knowledge Articles created using Now Assist** is added to Productivity moments. This primary indicator shows how many knowledge base articles are created using Now Assist in a given period.
 
 </td></tr><tr><td>
 
@@ -227,6 +230,8 @@ Yokohama
 
 Install ITSM Success Dashboard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
+
+**Important:** ITSM Success Dashboard is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -432,5 +437,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

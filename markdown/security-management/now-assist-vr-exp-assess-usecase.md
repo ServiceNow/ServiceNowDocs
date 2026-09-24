@@ -2,7 +2,7 @@
 title: Vulnerability Response AI agent collection for the Assess vulnerability exposure agentic workflow
 description: The tools and AI agents for the Assess vulnerability exposure agentic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-vr-exp-assess-usecase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/now-assist-vr-exp-assess-usecase.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Use the Assess vulnerability exposure agentic workflow from the Now Assist panel
 -   CISA Known Exploited Vulnerabilities Analyzer
 -   Vulnerability Exposure Assessment Advisor
 
-**Parent Topic:**[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vulnerability-response-reference.md)
+**Parent Topic:**[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vulnerability-response-reference.md)
 

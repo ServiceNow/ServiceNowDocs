@@ -2,7 +2,7 @@
 title: Filter conditions in a decision table
 description: Filter the conditions in the decision table to focus on the necessary data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/filtering-a-decision-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/filtering-a-decision-table.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -39,5 +39,5 @@ Role required: admin
 
 The table displays rows that match the conditions and values you set.
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

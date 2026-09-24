@@ -2,7 +2,7 @@
 title: Review and respond to collaboration
 description: The merchant responds to the collaboration by either providing a refund, a voucher, or a First-Party Trust evidence. If the collaboration isn’t successful, then the second presentment is awaited.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-respond-collaboration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/review-respond-collaboration.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -20,14 +20,14 @@ The merchant responds to the collaboration by either providing a refund, a vouch
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
 In this task, three scenarios are possible: merchant responds to collaboration by either a voucher, a refund or a First-Party Trust evidence.
 
 -   **Voucher**:
-    -   If the cardholder accepts the voucher, the dispute ends and the transaction moves to Financial adjustments 1. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/financial-adjustments.md).
+    -   If the cardholder accepts the voucher, the dispute ends and the transaction moves to Financial adjustments 1. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/financial-adjustments.md).
     -   If the cardholder rejects the voucher, the process awaits a second presentment from the merchant.
 -   **Refund**:
     -   If the cardholder receives and accepts the refund, the dispute ends and the transaction moves to Financial adjustments 1.
@@ -39,9 +39,9 @@ In this task, three scenarios are possible: merchant responds to collaboration b
 For the second presentment:
 
 -   If not received, the case favors the cardholder and the transaction moves to Financial adjustments 1, ending the dispute.
--   If received, the transaction progresses to the next task [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) in the chargeback process.
+-   If received, the transaction progresses to the next task [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) in the chargeback process.
 
-If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 ## Procedure
 
@@ -67,7 +67,7 @@ If Card Data Security is installed and configured, **Attachments** in the contex
 
 9.  Select **Add file** to attach supporting documents to the task.
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/mastercard-image-and-document-requirements.md).
+    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 10. Select one of the following options from the **Merchant's Response to Collaboration** drop-down list to specify the merchant's response to the chargeback.
 
@@ -101,9 +101,9 @@ The **Second presentment from the merchant** drop-down is displayed. Select one 
 
     -   **Yes** to indicate that a second presentment is received from the merchant.
 
-The [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) task displayed.
+The [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) task displayed.
 
-    -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/financial-adjustments.md).
+    -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/financial-adjustments.md).
 
 
 </td></tr><tr><td id="d81728e473">
@@ -116,7 +116,7 @@ Select this option if a voucher is provided by the merchant. The **Customer Deci
 
 -   Select **Accepted** if the cardholder has agreed for the settlement in the form of a voucher.
 
-The **Update credit voucher** option becomes available. Select this option to accept the credit. The transaction moves to Financial adjustments 1 [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/financial-adjustments.md) and the dispute life-cycle ends.
+The **Update credit voucher** option becomes available. Select this option to accept the credit. The transaction moves to Financial adjustments 1 [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/financial-adjustments.md) and the dispute life-cycle ends.
 
 **Note:** If an error message is displayed in the **Activity** work notes, the **Update credit voucher** button displays again to retry.
 
@@ -126,7 +126,7 @@ The **Second presentment from the merchant** drop-down is displayed. Select one 
 
     -   Select **Yes** to indicate that a second presentment is received from the merchant.
 
-The [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) task displayed.
+The [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) task displayed.
 
     -   Select **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends.
 
@@ -151,9 +151,9 @@ The **Second presentment from the merchant** drop-down is displayed. Select one 
 
     -   **Yes** to indicate that a second presentment is received from the merchant.
 
-The [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) task displayed.
+The [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) task displayed.
 
-    -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/financial-adjustments.md).
+    -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/financial-adjustments.md).
 
 
 </td></tr></tbody>
@@ -161,7 +161,7 @@ The [Review chargeback response and decide on pre-arbitration or arbitration](ht
 
 11. To reupload the document, delete and replace your attachment with one that meets Mastercard's requirements then select **Upload document**.
 
-    For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/mastercard-image-and-document-requirements.md).
+    For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 12. Select **Close task**.
 
@@ -170,8 +170,8 @@ The [Review chargeback response and decide on pre-arbitration or arbitration](ht
 
 Based on the collaboration with the merchant and cardholder decision, one of these tasks is displayed:
 
--   For the second presentment value marked as **Yes**, the next task [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) is displayed.
--   For the second presentment value marked as **No**, outcomes depend on the policy, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/financial-adjustments.md).
+-   For the second presentment value marked as **Yes**, the next task [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) is displayed.
+-   For the second presentment value marked as **No**, outcomes depend on the policy, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/financial-adjustments.md).
 
-**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
+**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
 

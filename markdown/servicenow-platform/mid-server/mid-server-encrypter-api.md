@@ -2,7 +2,7 @@
 title: MID Server configuration file security
 description: Sensitive MID Server configuration data can be protected using several different schemes, including internal and external data encryption and external data storage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-encrypter-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-server-encrypter-api.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -24,26 +24,26 @@ Sensitive MID Server configuration data can be protected using several different
 </table>The MID Server uses one secured configuration provider at a time. You can use either the default security provider or CyberArk as the secured configuration provider. Mixed provider configurations are not supported. For example, you cannot use the default security provider together with CyberArk. The following built-in security options are available:
 
 -   **Default security provider**: Secures the data in the **config.xml** file by encryption. When the MID Server is restarted, any unencrypted data is encrypted and written to the **config.xml** file. The default security provider offers these encryption options:
-    -   **Default encryptor**: Default process for encrypting data in the MID Server **config.xml** file. See [Encrypt or decrypt MID Server configuration file values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-manual-encryption.md) for details.
+    -   **Default encryptor**: Default process for encrypting data in the MID Server **config.xml** file. See [Encrypt or decrypt MID Server configuration file values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-manual-encryption.md) for details.
     -   **Windows Data Protection API \(DPAPI\)**: The operating system performs the data encryption, rather than the MID Server. DPAPI encryption is based on the logged in user's account. When this scheme is used, the data can only be decrypted by the same user account. If the account changes, the data must be re-encrypted.
-    -   **Custom encryption**: Implement the [IMidServerEncrypter interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-encrypter-interface.md) to create your own custom encryption scheme to manage sensitive **config.xml** data.
+    -   **Custom encryption**: Implement the [IMidServerEncrypter interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-encrypter-interface.md) to create your own custom encryption scheme to manage sensitive **config.xml** data.
 -   **CyberArk**: Data security is provided by [CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_CyberArkIntegrationConfiguration.md), which moves sensitive data from the **config.xml** file to a secure CyberArk vault. This solution does not encrypt the data and does not use the IMidServerEncrypter interface.
--   **Custom external storage**: Implement the [ISecuredConfigProvider interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-secured-config-interface.md) to create your own custom external storage system to manage sensitive **config.xml** data.
+-   **Custom external storage**: Implement the [ISecuredConfigProvider interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-secured-config-interface.md) to create your own custom external storage system to manage sensitive **config.xml** data.
 
 \[Omitted image "SecuredMIDConfigFileDiagram.png"\] Alt text: Secured content and encryption schemes
 
--   **[Encrypt MID Server configuration data with DPAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-data-encrypt-with-dpapi.md)**  
+-   **[Encrypt MID Server configuration data with DPAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-data-encrypt-with-dpapi.md)**  
 Windows Data Protection API \(DPAPI\) encrypts sensitive data from the **config.xml** file, based on the MID Server user account.
--   **[Use CyberArk as a secure configuration provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/use-cyberark-secure-config-provider.md)**  
+-   **[Use CyberArk as a secure configuration provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/use-cyberark-secure-config-provider.md)**  
 You can use a CyberArk vault to secure any sensitive data from the MID Server **config.xml** file.
--   **[Change MID Server configuration file security schemes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/change-mid-server-security-schemes.md)**  
+-   **[Change MID Server configuration file security schemes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/change-mid-server-security-schemes.md)**  
 A MID Server security scheme is the method the MID Server uses to protect sensitive values stored in its `config.xml` file \(for example, the instance password\). The scheme defines how those values are encrypted and where the encryption key is stored.
--   **[MID Server ISecuredConfigProvider interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-secured-config-interface.md)**  
+-   **[MID Server ISecuredConfigProvider interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-secured-config-interface.md)**  
 Use the methods in this interface to create custom providers that manage secured parameter values in the MID Server **config.xml** file.
--   **[MID Server IMidServerEncrypter interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-encrypter-interface.md)**  
+-   **[MID Server IMidServerEncrypter interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-encrypter-interface.md)**  
 Use the methods in this interface to create a custom external encrypter for the MID Server **config.xml** file.
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 

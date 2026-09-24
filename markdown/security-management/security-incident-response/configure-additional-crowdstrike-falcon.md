@@ -2,7 +2,7 @@
 title: Configure and trigger additional actions in CrowdStrike Falcon Insight
 description: The CrowdStrike Falcon Insight integration supports running additional actions like regular expression \(regex\). The CrowdStrike Falcon Insight integration provides 40 additional actions with the base system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-additional-crowdstrike-falcon.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/configure-additional-crowdstrike-falcon.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

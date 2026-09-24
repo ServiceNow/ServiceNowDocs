@@ -2,7 +2,7 @@
 title: Create a case for a new install base item
 description: Create a case for a new install base item by using the case form in the CSM Agent Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-an-install-base-item-on-the-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-an-install-base-item-on-the-case-form.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice.consumer\_agent
 
 4.  Perform one of the following actions before selecting an install base item on the Create Case form.
 
-    For a description of the field values, see [Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-task-form.md).
+    For a description of the field values, see [Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-task-form.md).
 
     |Field|Action|
     |-----|------|

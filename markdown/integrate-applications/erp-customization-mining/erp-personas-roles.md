@@ -2,7 +2,7 @@
 title: ERP Semantic Mining roles
 description: Administrators assign roles to give team members permission to configure or use ERP Semantic Mining.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erp-personas-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-customization-mining/erp-personas-roles.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -62,5 +62,5 @@ Contains the following roles:-   sn\_erp\_integration.erp\_data\_pill
 -   sn\_erp\_integration.erp\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
+</table>**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

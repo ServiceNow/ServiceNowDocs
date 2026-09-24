@@ -2,7 +2,7 @@
 title: Add a text index group to a portal
 description: Define how users see search results. For example, combine search results from several sources, or set the weight of certain fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/create-text-index-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/create-text-index-group.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -45,5 +45,5 @@ Text index groups are a ServiceNow AI Platform feature. To learn more, see [Conf
 
 Search results display according to the text index group's rules.
 
-**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
+**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/zing-search-service-portal.md)
 

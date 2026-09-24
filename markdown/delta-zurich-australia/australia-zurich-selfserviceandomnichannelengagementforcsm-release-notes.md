@@ -2,11 +2,11 @@
 title: Combined Self-service and omnichannel engagement for CSM release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Self-service and omnichannel engagement for CSM from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-selfserviceandomnichannelengagementforcsm-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-selfserviceandomnichannelengagementforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 15
+last_updated: "2026-09-24"
+reading_time_minutes: 22
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,35 @@ Zurich
 
 </td><td>
 
--   **[Defining CCaaS callbacks](https://www.servicenow.com/docs/access?context=interaction-controls-component-icc-callback-integration-features&family=zurich&ft:locale=en-US)**
+-   **[Amazon Connect for voice calls via ICC](https://www.servicenow.com/docs/access?context=amazon-connect-for-voice-calls&family=zurich&ft:locale=en-US)**
+
+Manage Amazon Connect calls directly in the CRM Workspace voice Interaction record page. This integration supports inbound and outbound call flows, presence management, and call transfers without switching applications.
+
+
+ -   **[Selecting queues for outbound calls](https://www.servicenow.com/docs/access?context=select-queues-for-outbound-calls&family=zurich&ft:locale=en-US)**
+
+Enable agents to designate a specific queue for their outbound calls directly from the keypad or the phone directory in the Global Call window to improve routing and reporting. This provides a streamlined search interface that enables agents to find and select a single queue that can be applied across all outbound dialing methods.
+
+-   **[Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://www.servicenow.com/docs/access?context=messg-integrating-whatsapp-with-csm-whatsapp-cloud&family=zurich&ft:locale=en-US)**
+
+Connect directly to WhatsApp Cloud API for more reliable, feature-rich customer support without third-party dependencies. The key capabilities include the following:
+
+    -   Send and receive text messages for direct customer communication.
+    -   Exchange images, videos, audio files, and documents for clearer, more contextual conversations.
+    -   Simplify customer input with list pickers and location sharing.
+    -   View typing indicators for more natural conversational flow.
+    -   Automatically capture and record customer opt-in and opt-out messages to ensure compliance with WhatsApp's messaging policies.
+
+ -   **[Voice Controls Simulator tool](https://www.servicenow.com/docs/access?context=voice-control-simulator-tool&family=zurich&ft:locale=en-US)**
+
+Test and validate voice call UI flows in the CRM Workspace to ensure CCaaS partners have clear insights into their supported voice control capabilities.
+
+-   **[Monitoring calls](https://www.servicenow.com/docs/access?context=call-monitoring&family=zurich&ft:locale=en-US)**
+
+Enable supervisors to monitor, coach, and barge-in on calls in real time by integrating ServiceNow's native voice call feature within an active call interface.
+
+
+ -   **[Defining CCaaS callbacks](https://www.servicenow.com/docs/access?context=interaction-controls-component-icc-callback-integration-features&family=zurich&ft:locale=en-US)**
     -   Offer callers a callback option that lets them retain their position in the queue and receive a call when an agent is available. Alternatively, callers can choose a specific date and time for the callback, also known as scheduled callback.
     -   As an agent, view callback requests in the order that they're received.
 -   **[CCaaS callback features](https://www.servicenow.com/docs/access?context=contact-center-intergration-with-icc-callback&family=zurich&ft:locale=en-US)**
@@ -97,7 +125,42 @@ Australia
 
 </td><td>
 
--   **[Web Embeddables](https://www.servicenow.com/docs/access?context=using-web-embeddables&family=australia&ft:locale=en-US)**
+-   **[Voice call widget](https://www.servicenow.com/docs/access?context=portal-phone-widget&family=australia&ft:locale=en-US)**
+
+Customers can now make voice calls directly from portal pages or the Engagement Messenger. Call context stays intact as customers navigate between pages. These calls connect to AI Voice Agents to deliver conversational voice experiences without relying on contact center platforms.
+
+-   **[Integrate ServiceNow Voice with Amazon Connect](https://www.servicenow.com/docs/access?context=integrate-ccc-amazonconnect&family=australia&ft:locale=en-US)**
+
+Use ServiceNow AI Voice Agents to build conversational voice experiences by routing calls from Amazon Connect, Five9, or NICE contact center channels to deliver natural, conversational customer interactions.
+
+
+ -   **[Email interaction feature: Email reply routing and summarization](https://www.servicenow.com/docs/access?context=using-email-interaction-page&family=australia&ft:locale=en-US)**
+
+The new capabilities for smart email routing and summarization are:
+
+    -   Receive customer email replies on the correct open case or interaction automatically, with ServiceNow Otto® selecting the best-matching case when multiple open cases exist.
+    -   Get AI summaries automatically on transfer and on demand, reducing the need to read the full email thread.
+    -   See summaries instantly on page refresh without re-running AI, and refresh with one click when new activity arrives on the interaction.
+**Note:** Check your entitlements to determine whether you have access to summarization and AI-based context matching.
+
+-   **[Usage insights for ICC call events](https://www.servicenow.com/docs/access?context=usage-insight-for-icc-enabled-call-events&family=australia&ft:locale=en-US)**
+
+Monitor call events from ICC enabled agent sessions for the customer, in **Usage Insights** available under **Platform Analytics**. View, filter, and inspect event payloads for actions such as muting, recording, and coaching session initiation. To enable tracking, turn on the Analytics toggle in the agent's profile preferences and add the agent's **sys\_id** to the **sn\_openframe.logger.enabled.users** system property.
+
+-   **[Amazon Connect SSO integration with ServiceNow](https://www.servicenow.com/docs/access?context=amazon-connect-sso-integration-with-servicenow&family=australia&ft:locale=en-US)**
+
+Configure Single Sign-On \(SSO\) between ServiceNow and Amazon Connect by adding the identity provider SSO URL to the Amazon Connect instance configuration. When a Security Assertion Markup Language \(SAML\) compatible identity provider is configured, agents signed in to ServiceNow can access Amazon Connect in the Contact Control Panel \(CCP\). Separate credentials are not required.
+
+-   **[Call Wrap-Up](https://www.servicenow.com/docs/access?context=initiate-agent-wrap-up-during-active-call&family=australia&ft:locale=en-US)**
+
+Initiate the wrap-up process before a call ends using the **Open Wrap-Up** button in the ICC enabled Active Call window. Agents can enter wrap-up codes and notes in real-time, and minimize or expand the wrap-up modal as needed to maintain context during the call. Enable this feature for your CCaaS integration.
+
+-   **[Implement the overflow menu for active calls](https://www.servicenow.com/docs/access?context=implement-overflow-menu-icc&family=australia&ft:locale=en-US)**
+
+Access primary call controls, such as Recording, Hold, Mute, Transfer, and Help Request, directly on the active call interface. When controls exceed five or the available display width, additional CCaaS-defined actions are available through an overflow menu.
+
+
+ -   **[Web Embeddables](https://www.servicenow.com/docs/access?context=using-web-embeddables&family=australia&ft:locale=en-US)**
 
 Embed ServiceNow components into any third-party website or web application to extend the ServiceNow AI Platform capabilities. You can use a library of default configurable components or create custom components.
 
@@ -185,7 +248,46 @@ Zurich
 
 </td><td>
 
--   **[Using the voice interaction page for callback requests](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&family=zurich&ft:locale=en-US)**
+-   **[Portal Data List widget](https://www.servicenow.com/docs/access?context=portal-data-list-widget&family=zurich&ft:locale=en-US)**
+
+The Data List widget now offers more configuration flexibility and supports dynamic, context‑aware view selection. Key enhancements include:
+
+    -   Role‑Based and Guest Views: Use the new role\_based\_views and guest\_view options to define different views for different user roles and for unauthenticated users removing the dependency on a single static view.
+    -   Automatic URL Parameter Passing: Pass URL parameters automatically into scripts invoked from Data List instance options enabling admins to build richer, multi‑parameter conditions without extra setup.
+    -   Script‑Based View Selection: Use the Data List Condition Script option to choose a view dynamically. Scripts can evaluate URL parameters and other context to determine the most appropriate view at runtime.
+    -   Configurable Default Sorting: Define initial sorting behavior using the new sort\_by and sort\_order options letting the users see a meaningful default order when the list loads.
+
+ -   **[Selecting queues for outbound calls](https://www.servicenow.com/docs/access?context=select-queues-for-outbound-calls&family=zurich&ft:locale=en-US)**
+
+The following UI components have been added to the Global Call window when making outbound calls from a keypad or phone directory:
+
+    -   A new Search field to search and select from a list of available queues.
+    -   A new toggle control that applies the selected queue to either the current call or all outbound calls by default. This option appears after selecting a queue.
+
+ -   **[CCaaS callback features](https://www.servicenow.com/docs/access?context=contact-center-intergration-with-icc-callback&family=zurich&ft:locale=en-US)**
+
+Callback management has been improved to make handling requests easier for agents. The key changes include:
+
+    -   Equip agents to transfer the callback requests before dialing the call, enhancing flexibility in managing customer interactions.
+    -   Enable scheduled callbacks, which help customers to choose a preferred callback time in addition to the existing ASAP option.
+    -   Facilitate agents to view the list of queues and other agents for easier callback transfers and efficient customer management.
+    -   Capture callback reasons more effectively with the expanded Reason for Call field, which includes additional choice values.
+-   **[Unified routing of email interactions via CCaaS](https://www.servicenow.com/docs/access?context=using-email-interaction-customer-service-management&family=zurich&ft:locale=en-US)**
+
+Email interaction handling has been enhanced to improve efficiency and responsiveness in managing customer communications. The key changes include:
+
+    -   Support external routing of email interactions.
+    -   Enable agents to put email interactions on hold while waiting for customer responses.
+    -   Notify CCaaS when an interaction is put on hold so that CCaaS can free up the agent's capacity for handling other interactions.
+    -   Send automatic email reminders to customers for interactions that are on hold for a configurable period.
+    -   Reroute email interactions to available agents when the originally assigned agent is unavailable.
+    -   Prevent creating outbound email interactions when emails are sent on top of cases.
+-   **[Import queues](https://www.servicenow.com/docs/access?context=import-queues&family=zurich&ft:locale=en-US)**
+
+Use bulk action to assign service channels to multiple queues simultaneously during queue-import, simplifying queue management for CCaaS integrations.
+
+
+ -   **[Using the voice interaction page for callback requests](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&family=zurich&ft:locale=en-US)**
 
 The following UI components have been added on the voice interaction page to manage callback requests:
 
@@ -246,7 +348,39 @@ Australia
 
 </td><td>
 
--   **[ICC voice call features](https://www.servicenow.com/docs/access?context=interaction-controls-component-icc-call-interaction-features&family=australia&ft:locale=en-US)**
+-   **[Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://www.servicenow.com/docs/access?context=messg-integrating-whatsapp-with-csm-whatsapp-cloud&family=australia&ft:locale=en-US)**
+
+The conversation thread includes an inline audio player for received audio messages, with play, pause, and seek controls.
+
+
+ -   **[Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://www.servicenow.com/docs/access?context=messg-integrating-whatsapp-with-csm-whatsapp-cloud&family=australia&ft:locale=en-US)**
+
+WhatsApp direct integration gives agents richer conversational tools and gives customers more ways to reach for support. The key updates include:
+
+    -   Access synthesized responses generated from Now Assist Virtual Agent \(NAVA\) in WhatsApp direct conversations.
+    -   Play audio messages directly in the agent chat interface.
+
+ -   **[Call Wrap-Up](https://www.servicenow.com/docs/access?context=initiate-agent-wrap-up-during-active-call&family=australia&ft:locale=en-US)**
+
+Manage wrap-up during active calls using new UI components in the Active Call window in the CRM Workspace:
+
+    -   An **Open Wrap-Up** button to initiate the wrap-up process during an active call.
+    -   **Minimize** and **Expand** controls on the wrap-up modal to manage screen space while remaining on the call.
+
+ -   **[Walk-up Check-in](https://www.servicenow.com/docs/access?context=walkup-checkin-businessportal&family=australia&ft:locale=en-US)**
+
+Initiate a walk-up check-in directly from the Business Portal home page without navigating away from the landing experience.
+
+-   **[Portal Data List widget JSON parameters](https://www.servicenow.com/docs/access?context=portal-datalist-widget-data-json&family=australia&ft:locale=en-US)**
+
+Generate dynamic record view URLs with the Data List widget. Portal admins can configure the target record context, parent table, child table, or reference table. The portal builds the URL with the relevant parameters to render the correct record view at runtime.
+
+-   **[Portal Object widget instance options form](https://www.servicenow.com/docs/access?context=port-object-inst-options&family=australia&ft:locale=en-US)**
+
+Adds a Dynamic portal object instance option to the Portal Object widget \(turned off by default\). When turned on, the widget reads the extended table, record ID, and view from URL parameters. The widget derives the card title, image field, summary view fields, and detail view from the view definition on the extended table. This eliminates the need for static configuration in the widget instance.
+
+
+ -   **[ICC voice call features](https://www.servicenow.com/docs/access?context=interaction-controls-component-icc-call-interaction-features&family=australia&ft:locale=en-US)**
 
 The following UI components are available in the Active Call window, enabled via ICC in the CRM Workspace:
 
@@ -370,6 +504,8 @@ Zurich
 Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Self-service and omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -382,6 +518,8 @@ Install self-service and omnichannel applications, such as OpenFrame and Interac
 
 Check your entitlements to determine whether you have access to AI email summarization and AI-based context matching for multi-case linking. For details, see [Activate email interaction summarization](https://www.servicenow.com/docs/access?context=activate-email-summarization-csm&family=australia&ft:locale=en-US) and [Activate contextual email matching](https://www.servicenow.com/docs/access?context=activate-contextual-email-matching-csm&family=australia&ft:locale=en-US).
 
+
+**Important:** Self-service and omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -554,5 +692,5 @@ Australia
  See [\[Placeholder link text to key bundle-csm.omnichannels-communicating-customers\]](https://www.servicenow.com/docs/access?context=omnichannels-communicating-customers&family=australia&ft:locale=en-US), [Self-service](https://www.servicenow.com/docs/access?context=self-service-options-csm-customers&family=australia&ft:locale=en-US), and [ICC for voice calls](https://www.servicenow.com/docs/access?context=contact-center-integration-with-icc&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

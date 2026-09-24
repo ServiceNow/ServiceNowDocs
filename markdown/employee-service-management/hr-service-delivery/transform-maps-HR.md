@@ -2,7 +2,7 @@
 title: Create transform maps in Enterprise Service Management Integrations Framework
 description: Create a transform map to specify data relationships between the import set table and the target table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/transform-maps-HR.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/transform-maps-HR.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,7 +2,7 @@
 title: Complete the RMA assessment task for a defective Device as a Service DaaS asset
 description: Complete the RMA assessment task for a defective DaaS asset by assessing the asset and determining the action that you want to take on it. You can choose to repair it, replace it, or reject the associated RMA request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/assess-daas-asset-rma-response-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/assess-daas-asset-rma-response-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -121,8 +121,8 @@ Notes about the task that are visible to all users within your organization.
 
 ## What to do next
 
--   If you set the **Assessment action** field to **On site**, complete the corresponding Schedule task by scheduling a visit to the customer site. For detailed instructions, see [Complete the Schedule task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/schedule-customer-visit-rma-response-order.md).
--   If you set the **Assessment action** field to **Off site**, complete the corresponding Ship task by having the customer ship the asset to you. For detailed instructions, see [Complete the Ship task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ship-daas-asset-rma-response-order.md).
+-   If you set the **Assessment action** field to **On site**, complete the corresponding Schedule task by scheduling a visit to the customer site. For detailed instructions, see [Complete the Schedule task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/schedule-customer-visit-rma-response-order.md).
+-   If you set the **Assessment action** field to **Off site**, complete the corresponding Ship task by having the customer ship the asset to you. For detailed instructions, see [Complete the Ship task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/ship-daas-asset-rma-response-order.md).
 
-**Parent Topic:**[Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md)
+**Parent Topic:**[Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md)
 

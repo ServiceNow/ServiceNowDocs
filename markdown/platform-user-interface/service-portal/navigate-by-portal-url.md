@@ -2,7 +2,7 @@
 title: Page navigation in Service Portal by URL
 description: You can navigate to a portal or a page in Service Portal using a URL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/navigate-by-portal-url.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/navigate-by-portal-url.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -62,7 +62,7 @@ keywords
 
 Human readable keywords that improve search engine optimization \(SEO\) and click-through rates for public pages. Human readable URLs also help users understand what to expect on a page for public and non-public pages. For example, `https://<instance>/kb/en/faq/what-is-a-cookie?id=kb_article_view&sysparm_article=KB0000007`.
 
- For more information, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
+ For more information, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ page parameters
 
 </td><td>
 
-Additional parameters are required by some pages to load dynamic content by looking up a record \(table, sys\_id\). Find the `$sp.getParameter` calls in a widget server script to see the parameters that a widget uses. For more detail on this method, see GlideSPScriptable - Scoped.
+Additional parameters are required by some pages to load dynamic content by looking up a record \(table, sys\_id\). Find the `$sp.getParameter` calls in a widget server script to see the parameters that a widget uses. For more detail on this method, see [GlideSPScriptable - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md).
 
  If you don’t include these additional parameters when required, you might get a `You are either not authorized or record is not valid` error message.
 
@@ -103,7 +103,7 @@ Widgets and widget instance options reference Service Portal pages using the pag
 <div><a href="?id=sc_home">${Order something...}</a></div>
 ```
 
-**Parent Topic:**[Understanding Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-what-to-know.md)
+**Parent Topic:**[Understanding Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-what-to-know.md)
 
 **Related topics**  
 

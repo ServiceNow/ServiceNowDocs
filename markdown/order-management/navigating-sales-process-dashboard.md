@@ -2,7 +2,7 @@
 title: Navigating the sales process dashboard
 description: Become familiar with the various elements that make up the sales process dashboard in the Lead-to-Cash Process Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/navigating-sales-process-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/navigating-sales-process-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ The hierarchical node map visually represents the relationships of sales entitie
 |Delink|Delete child record and its hierarchy. To delink a record, select a link connecting a parent node and its child nodes you no longer want to monitor, and select **Delink**.|
 |Hard link|Enables you to convert soft links to hard links and vice versa. To convert a link, select it and select the **Hard link** toggle switch.|
 
-By default, only three levels are displayed on the node map when you open a sales process record in the CRM Workspace. Admins can increase or decrease the number of levels displayed. For more information, see [Customize hierarchical node map levels for Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customize-node-map-levels.md).
+By default, only three levels are displayed on the node map when you open a sales process record in the CRM Workspace. Admins can increase or decrease the number of levels displayed. For more information, see [Customize hierarchical node map levels for Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customize-node-map-levels.md).
 
 Only 250 nodes can be displayed on the node map at a time. If you have more than 250 nodes, collapse some nodes and then expand and view the other nodes.
 
@@ -41,22 +41,22 @@ A details section consolidates all relevant operational elements—tasks, emails
 
 Related lists configured in the Sales cockpit view in Next Experience UI govern the tabs that are displayed for a sales entity on the sales dashboard.
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-process-management.md)
 
 **Related topics**  
 
 
-[Monitoring and tracking sales activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitor-track-sales-activities.md)
+[Monitoring and tracking sales activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/monitor-track-sales-activities.md)
 
-[Create and manage task checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-checklists-l2c-process-management.md)
+[Create and manage task checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-checklists-l2c-process-management.md)
 
-[Add attachments for a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-attachments-sales-process.md)
+[Add attachments for a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/add-attachments-sales-process.md)
 
-[Manage attachments for a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-attachments-l2c-process-management.md)
+[Manage attachments for a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-attachments-l2c-process-management.md)
 
-[View and send emails in Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-send-emails-sales-process.md)
+[View and send emails in Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-send-emails-sales-process.md)
 
-[Linking, delinking, and link conversion conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/conditions-link-delink-toggle-records.md)
+[Linking, delinking, and link conversion conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/conditions-link-delink-toggle-records.md)
 
 [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-sidebar.md)
 

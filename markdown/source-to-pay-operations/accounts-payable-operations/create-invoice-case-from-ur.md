@@ -2,7 +2,7 @@
 title: Create invoice case from Universal Request
 description: Validate incoming Universal Request items in the Source-to-Pay Workspace and create invoice cases for further processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-invoice-case-from-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-case-from-ur.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -42,7 +42,7 @@ This video shows you how to create a Universal Request.\[Omitted video\] Descrip
 
 3.  Select **Create case** &gt;**Create invoice case**.
 
-    The **Create New Invoice case** form appears. The associated UR details appear as a banner in the case. For more information on creating invoice case, see [Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice.md).\[Omitted image "create-invoice-ur.png"\] Alt text: Create invoice case
+    The **Create New Invoice case** form appears. The associated UR details appear as a banner in the case. For more information on creating invoice case, see [Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice.md).\[Omitted image "create-invoice-ur.png"\] Alt text: Create invoice case
 
 4.  Select **Save** to save the changes.
 
@@ -67,10 +67,10 @@ This video shows you how to create a Universal Request.\[Omitted video\] Descrip
 
 Invoice case is created and processed. Once the case is resolved, the agent closes the case with an appropriate reason. The UR is synced with invoice case details for invoice owners and suppliers to track the status of the UR.
 
-**Parent Topic:**[Universal Request in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/universal-request-in-apo.md)
+**Parent Topic:**[Universal Request in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/universal-request-in-apo.md)
 
 **Related topics**  
 
 
-[Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md)
+[Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md)
 

@@ -2,7 +2,7 @@
 title: Create a monetary benefit plan for a demand
 description: Demand benefit plans capture the potential benefits accrued by the demand when the demand is executed. Create a monetary benefit plan to specify the estimated benefit in a category for a fiscal period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/create-demand-benefit-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/create-demand-benefit-plan.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -26,7 +26,7 @@ The monetary benefit plan breakdown records are automatically created when you s
 
 **Note:** Converting a demand to a project or EAP entity transfers the benefit plan from the demand to the target project or EAP entity.
 
-If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled, the fields in the **Financials** section differ from the Default view. For fields available only in the Demand Currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-fields-demand.md).
+If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled, the fields in the **Financials** section differ from the Default view. For fields available only in the Demand Currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/multicurrency-fields-demand.md).
 
 ## Procedure
 
@@ -42,9 +42,9 @@ If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activ
 
 5.  On the Monetary Benefit Plan form, fill in the fields.
 
-    For a description of the field names, see [Monetary Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/monetary-benefit-plan-form.md).
+    For a description of the field names, see [Monetary Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/monetary-benefit-plan-form.md).
 
-    **Note:** When you move the demand dates, the associated benefit plans also change accordingly based on whether the benefit plan is tied to the demand start date, or end date. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** controls the behavior for demand date changes.
+    **Note:** When you move the demand dates, the associated benefit plans also change accordingly based on whether the benefit plan is tied to the demand start date, or end date. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** controls the behavior for demand date changes.
 
 6.  Select **Submit**.
 
@@ -53,8 +53,8 @@ If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activ
 
 On the Benefit Plan form, view the benefit breakdown by fiscal period in the Monetary Benefit Plan Breakdowns related list.
 
--   **[Update a monetary benefit plan breakdown for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/update-a-monetary-benefit-plan-breakdown-for-a-demand.md)**  
+-   **[Update a monetary benefit plan breakdown for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/update-a-monetary-benefit-plan-breakdown-for-a-demand.md)**  
 Update a monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md)
 

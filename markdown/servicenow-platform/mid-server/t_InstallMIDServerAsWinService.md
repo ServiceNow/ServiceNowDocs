@@ -2,7 +2,7 @@
 title: Manually start, stop, and restart a MID Server
 description: If you did not start the MID Server at the end of the installation procedure, you can manually start the MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_InstallMIDServerAsWinService.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/t\_InstallMIDServerAsWinService.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -37,7 +37,7 @@ This procedure is only for users who install the MID Server using the ZIP file. 
     -   If the MID Server is stopped, execute the `start.bat` file.
     -   If the MID Server is running, execute the `restart.bat` file.
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 

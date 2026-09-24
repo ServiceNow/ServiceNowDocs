@@ -2,7 +2,7 @@
 title: Modify the Guided self-service widget display
 description: The widget displays the help content for the Employee Center Pro Kiosk user. You can configure the instance options based on your display preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-guided-help-gss-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-guided-help-gss-instance.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -75,5 +75,5 @@ Allows the widget to appear if there are no published news articles
 **Related topics**  
 
 
-[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)
+[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)
 

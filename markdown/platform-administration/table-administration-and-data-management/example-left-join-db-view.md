@@ -2,7 +2,7 @@
 title: Example left join in creating a database view
 description: This example shows the proper settings when using left-joins to add tables to a database view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/example-left-join-db-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/example-left-join-db-view.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -36,7 +36,7 @@ The following procedure shows how to create a database view that includes a list
 
 3.  In the **View Tables** related list, select **New**.
 
-4.  Add a **Left join** check box to the form by [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+4.  Add a **Left join** check box to the form by [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md).
 
 5.  Add the Catalog Task \[sc\_task\] table to the database view by filling in the form with the following data and then select **Submit**. Joined tables are ordered left to right from lowest to highest **Order** values.
 
@@ -97,9 +97,9 @@ The following procedure shows how to create a database view that includes a list
     -   Request false, only Catalog Tasks that have a Request as a parent return.
     -   Requested Item and Request false, no rows return because nothing can have a Requested Item and a Request as parents.
 
-**Parent Topic:**[Joining tables using database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_CreatingDatabaseViews.md)
+**Parent Topic:**[Joining tables using database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_CreatingDatabaseViews.md)
 
-**Previous topic:**[Add a table to the database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_AddATableToTheDatabaseView.md)
+**Previous topic:**[Add a table to the database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_AddATableToTheDatabaseView.md)
 
-**Next topic:**[Specify a field to return](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SpecifyAFieldToReturn.md)
+**Next topic:**[Specify a field to return](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_SpecifyAFieldToReturn.md)
 

@@ -2,7 +2,7 @@
 title: SPO list page
 description: As a Procurement Case Management \(PCM\) Agent, view and work with your procurement cases, and view the knowledge base. When logged in as a Procurement Specialist however, you can also view and work with the various case types, knowledge base, orders, receipt acknowledgments, interactions, and primary data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/procurement-specialist-list-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/procurement-specialist-list-page.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -97,7 +97,7 @@ To debug why a particular field is visible or hidden, navigate to Form Builder f
 
 From the contextual side panel, you can view relevant information such as Agent Assist, attachments, templates, and procurement cases and tasks associated with that procurement record via dynamic related records.
 
-For information on Agent Assist, see [Agent assist in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agent-assist-procurement-workspace.md). For information on procurement and supplier case creation, see [Create a procurement case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case.md) and [Create a supplier case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier-case-spo.md). For information on procurement task creation, see [Create a procurement task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-task.md).
+For information on Agent Assist, see [Agent assist in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/agent-assist-procurement-workspace.md). For information on procurement and supplier case creation, see [Create a procurement case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case.md) and [Create a supplier case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier-case-spo.md). For information on procurement task creation, see [Create a procurement task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-task.md).
 
 As sourcing managers and fulfillers, you also get a contextual view of supplier profile cards for procurement objects​ such as purchase requisitions​, sourcing requests​, negotiation event​s, negotiations​, and procurement cases​. These supplier profile cards help you with key relevant information such as supplier name, industry, onboarded flag, website, supplier contact, if any, and so on​. All the relevant suppliers for each procurement object are visible in the contextual side panel. For example, if a sourcing request is being worked on with three suppliers, then all the three supplier profile cards are visible in the contextual panel. ​You can further drill down into the supplier 360-degree view by selecting the individual supplier cards, and gather details about them.
 
@@ -115,7 +115,7 @@ For information on activity stream in Sidebar, see [Activity stream in Sidebar](
 
 For detailed information on integrating and enabling Sidebar with Microsoft Teams, see [Integrate Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/integrating-sidebar-teams.md) and [Enable or configure the Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-teams-integration.md).
 
-**Parent Topic:**[Source-to-Pay Workspace list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-list-page.md)
+**Parent Topic:**[Source-to-Pay Workspace list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-list-page.md)
 
 **Related topics**  
 

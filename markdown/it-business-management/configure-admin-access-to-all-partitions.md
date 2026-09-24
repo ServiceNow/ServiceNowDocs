@@ -2,7 +2,7 @@
 title: Configure administrator access to all partitions
 description: Enable or disable the system property to control whether system administrators can access all partitioned data across your enterprise deployment, or only their assigned partitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/configure-admin-access-to-all-partitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/configure-admin-access-to-all-partitions.html
 release: australia
 topic_type: task
 last_updated: "2026-09-01"

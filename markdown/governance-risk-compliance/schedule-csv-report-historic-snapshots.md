@@ -2,7 +2,7 @@
 title: Schedule a CSV download report for historic snapshots
 description: Schedule a recurring job to generate CSV download reports of historic snapshots from the Digital resilience third-party registers. The job reuses the configuration of an existing Excel download/upload request record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/schedule-csv-report-historic-snapshots.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/schedule-csv-report-historic-snapshots.html
 release: australia
 topic_type: task
 last_updated: "2026-08-09"
@@ -47,5 +47,5 @@ No email notification is sent for these runs because the job runs as the system 
 
 The job runs on the configured schedule and generates a CSV download report of historic snapshots using the template record's configuration.
 
-**Parent Topic:**[Configuring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-dg-resi-party-regi.md)
+**Parent Topic:**[Configuring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-dg-resi-party-regi.md)
 

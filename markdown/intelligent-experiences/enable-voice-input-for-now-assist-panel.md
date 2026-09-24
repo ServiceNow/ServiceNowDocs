@@ -2,7 +2,7 @@
 title: Enable voice input for ServiceNow Otto panel
 description: Give users the option to use their voice when interacting with the ServiceNow Otto panel to make the panel more accessible. Voice input enables you to use the panel without needing to use a keyboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/enable-voice-input-for-now-assist-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/enable-voice-input-for-now-assist-panel.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Give users the option to use their voice when interacting with the ServiceNow Ot
 
 **Note:** Voice input is automatically activated when the ServiceNow Otto panel is activated. As of the Zurich Patch 4 release, voice input is configured in [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md) and not with this option.
 
-You must have installed at least one ServiceNow Otto application with a skill that uses the ServiceNow Otto panel. See [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) for more information about supported skills.
+You must have installed at least one ServiceNow Otto application with a skill that uses the ServiceNow Otto panel. See [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md) for more information about supported skills.
 
 Role required: sn\_generative\_ai.nsa\_admin
 
@@ -45,5 +45,5 @@ The voice input feature is not supported in regulated markets.
 
 Users can choose whether they can use their voice to interact with the ServiceNow Otto panel in their Next Experience accessibility preferences.
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md)
 

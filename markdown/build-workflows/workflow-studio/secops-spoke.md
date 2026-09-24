@@ -2,7 +2,7 @@
 title: Security Operations spoke
 description: Provides Security Operations actions for flow designers to manage Security Incident Response flow templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/secops-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/secops-spoke.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -18,7 +18,7 @@ Provides Security Operations actions for flow designers to manage Security Incid
 
 ## Security Incident Response flow templates
 
-The Security Incident Response flow templates are created using [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
+The Security Incident Response flow templates are created using [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio.md).
 
 **Note:** Each of the flows is triggered when the **Category** in a security incident is set or changed.
 
@@ -36,5 +36,5 @@ The Security Incident Response flow templates are created using [Workflow Studio
 |Security Incident Unauthorized Access flow template|Perform a series of tasks designed to handle unauthorized access to your network.|
 |Security Incident Web/BBS Defacement flow template|Perform a series of tasks designed to handle vandalism directed against one of your BBS or web sites.|
 
-**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
+**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/spokes.md)
 

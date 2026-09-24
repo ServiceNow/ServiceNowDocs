@@ -2,7 +2,7 @@
 title: Synchronize worker profiles
 description: Pull worker profile data from Workday into ServiceNow. View worker profile details from Workday in ServiceNow HR Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/w-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/w-profile.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,11 +24,11 @@ First, you must activate the HR Service Delivery Integration with Workday applic
 
 ## Worker profile settings
 
-Store one-time configuration parameters for synchronizing data between Workday and ServiceNow. For more information, see [Configure worker profile settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-w-sync.md).
+Store one-time configuration parameters for synchronizing data between Workday and ServiceNow. For more information, see [Configure worker profile settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-w-sync.md).
 
 **Note:** Even if you are not using Worker profile synchronization, ensure that you have configured the **Workday tenant time zone** field in the Workday Worker Profile Sync Configurations form. This field handles the time zones between the two systems, ServiceNow and Workday.
 
 ## Schedule flow activation
 
-Activate and run the schedule flow that pulls Worker profile information into ServiceNow. For more information, see [Activating schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-w-schedule-flow.md).
+Activate and run the schedule flow that pulls Worker profile information into ServiceNow. For more information, see [Activating schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/activate-w-schedule-flow.md).
 

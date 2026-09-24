@@ -2,7 +2,7 @@
 title: Operational Technology \(OT\) Manager Foundation
 description: The Operational Technology \(OT\) Manager Foundation plugin uses generative AI to help streamline processes in the Industrial Workspace related to your OT device data. You can search for OT devices with the OT Configuration Management Database \(CMDB\) search feature and use an agentic workflow to automate the OT device import process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/exploring-now-assist-for-otm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/exploring-now-assist-for-otm.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -54,5 +54,5 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
-**Parent Topic:**[Exploring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/exploring-operational-technology-manager.md)
+**Parent Topic:**[Exploring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/exploring-operational-technology-manager.md)
 

@@ -2,7 +2,7 @@
 title: Clone Admin Console
 description: The Clone Admin Console is the user interface where administrators can manage, request, and monitor their instance clones.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/Clone-UI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/Clone-UI.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ The Clone Activity tab is the default view when you open the Clone Admin Console
 -   **Duration** — How long the clone took
 -   **Profile Name** — The clone profile used
 
-Use the search bar to locate a specific clone. Filter options enable you to locate clones based on their status. To view a list of statuses, see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-states.md).
+Use the search bar to locate a specific clone. Filter options enable you to locate clones based on their status. To view a list of statuses, see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/clone-states.md).
 
 The **Request Clone** button in the upper right allows you to initiate a new clone request.
 
@@ -67,7 +67,7 @@ The Configuration tab consolidates all clone-related settings in a single menu, 
 -   **Clone Instances** — Registered instances and their URLs
 -   **Multi-Instance View** — Consolidated clone activity across linked instances
 
-For more information, see [Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-configurations-tab.md).
+For more information, see [Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/clone-configurations-tab.md).
 
 ## Request a clone
 
@@ -75,5 +75,5 @@ The clone request page contains guidance and explanations for how the various cl
 
 The **Request Clone** button allows you to initiate a new clone request.
 
-To learn more about how to request a clone see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md).
+To learn more about how to request a clone see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_StartAClone.md).
 

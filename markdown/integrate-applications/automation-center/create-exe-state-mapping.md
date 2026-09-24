@@ -2,7 +2,7 @@
 title: Create execution state mapping
 description: Define the mapping for the source and target tables for the configuration to work as expected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-exe-state-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/create-exe-state-mapping.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -97,5 +97,5 @@ Name of the automation source that you’ve selected for this execution state ma
 
 The automation summary execution configuration is complete.
 
-**Parent Topic:**[Configuring automation summary execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-auto-sum-exe.md)
+**Parent Topic:**[Configuring automation summary execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/config-auto-sum-exe.md)
 

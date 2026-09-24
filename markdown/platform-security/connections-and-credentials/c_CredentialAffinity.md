@@ -2,7 +2,7 @@
 title: Credential affinity for Discovery and Orchestration
 description: Credential affinity is an association between a set of credentials and a device on your network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/c\_CredentialAffinity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/c\_CredentialAffinity.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials

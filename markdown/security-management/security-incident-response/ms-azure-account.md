@@ -2,7 +2,7 @@
 title: Set up your Microsoft Azure account
 description: Complete the following setup tasks in your Microsoft Azure portal prior to installing the ServiceNow application for this integration. This account permits access to the Microsoft Exchange Online tenant for email message details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-azure-account.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ms-azure-account.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,7 +46,7 @@ In the following images, `ServiceNow Inc.` is displayed for the account name in 
 
     5.  Select **Register**.
 
-        An Application ID is created. This ID is similar to a user name. You enter this value on the configuration page in the **OAUTH Application ID** field during the configuration step in your ServiceNow AI Platform instance that is described in [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msx_configure.md).
+        An Application ID is created. This ID is similar to a user name. You enter this value on the configuration page in the **OAUTH Application ID** field during the configuration step in your ServiceNow AI Platform instance that is described in [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msx_configure.md).
 
     6.  Under **Manage** select, **Manifest**.
 
@@ -79,9 +79,9 @@ In the following images, `ServiceNow Inc.` is displayed for the account name in 
 
 You are ready to set up your ServiceNow AI Platform® instance for the integration.
 
-**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
+**Previous topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Next topic:**[Install Microsoft Exchange Online application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-configure-ms-exchange-online.md)
+**Next topic:**[Install Microsoft Exchange Online application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/install-and-configure-ms-exchange-online.md)
 

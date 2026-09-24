@@ -2,7 +2,7 @@
 title: Add and build terms and conditions in Workplace Central
 description: After you create a terms and conditions record, add the record to a lease contract that is in the Awaiting Review, Rejected, or Renewal Rejected substate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-lease-add-tc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/wpc-lease-add-tc.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -53,5 +53,5 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
     All records from the Terms and Conditions related list are added to the **Terms and Conditions** section of the contract record. The terms and conditions records are built in the sequence specified in the **Order** field.
 
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

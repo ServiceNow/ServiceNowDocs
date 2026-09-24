@@ -2,7 +2,7 @@
 title: Roles assignment
 description: Specify roles for individuals or groups to provide the access needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-roles-assignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-roles-assignment.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-26"
@@ -24,5 +24,5 @@ Select **Assign groups** if you want to assign a role to a group. You can also e
 
 **Note:** You must select one or more roles to get it assigned to a group.
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
 

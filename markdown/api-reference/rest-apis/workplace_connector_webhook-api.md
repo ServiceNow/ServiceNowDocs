@@ -2,7 +2,7 @@
 title: Workplace Connector Webhook API
 description: The Workplace Connector Webhook API is a generic interface that enables data from different kinds of workplace hardware or sensors \(such as badging systems or occupancy sensors\) to be stored in Workplace Service Delivery tables.Creates a record in the Connector Events \[sn\_wsd\_wc\_connector\_events\] table and then stores the hardware/sensor-based event data passed in the endpoint's payload into the Payload field of that record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/workplace\_connector\_webhook-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/workplace\_connector\_webhook-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -24,7 +24,7 @@ In addition, you must set up an extension point that defines the data conversion
 
 For additional information on workplace connector webhooks, see [Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors-landing-page.md).
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## Workplace Connector Webhook - POST /workplace\_connector\_webhook/event
 
@@ -44,7 +44,7 @@ Versioned URL: `/api/sn_wsd_wc/{api_version}/workplace_connector_webhook/event`
 
 Default URL: `/api/sn_wsd_wc/workplace_connector_webhook/event`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -146,7 +146,7 @@ Data type: JSON object
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -159,7 +159,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

@@ -2,7 +2,7 @@
 title: Approve the library import task
 description: Approve the library import task by using the Library import task form in the GRC: Policy and Compliance integrator application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/approve-lib-import-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/approve-lib-import-task.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

@@ -2,7 +2,7 @@
 title: Assign project risks to stakeholders for assessment
 description: Assign the project risks to the relevant stakeholder for assessment. You must manually assign the risks to the stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/assess-project-risk-using-ara.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/assess-project-risk-using-ara.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -49,10 +49,10 @@ If the Project Risk integration Configuration form has **Stakeholders** selected
 
 The risk moves to the risk assessor's workflow.
 
-**Parent Topic:**[Project Risk Assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-and-ppm-better-together.md)
+**Parent Topic:**[Project Risk Assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-and-ppm-better-together.md)
 
 **Related topics**  
 
 
-[Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/specify-approvers-for-proj-risks.md)
+[Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/specify-approvers-for-proj-risks.md)
 

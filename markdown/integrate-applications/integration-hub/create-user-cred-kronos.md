@@ -2,7 +2,7 @@
 title: Provide Kronos user credentials
 description: Create a record to provide details and credentials of the required Kronos user. The Kronos spoke uses these user credentials to perform actions in Kronos.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-user-cred-kronos.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/create-user-cred-kronos.html
 release: australia
 product: Integration Hub
 classification: integration-hub

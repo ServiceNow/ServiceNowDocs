@@ -2,7 +2,7 @@
 title: Enable negative budgets for planning items in Strategic Planning
 description: Track budget overruns and deficits by enabling negative budget values for planning items in Strategic Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/fin-negative-budget-prop-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/fin-negative-budget-prop-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

@@ -2,7 +2,7 @@
 title: View interaction details in Source-to-Pay Workspace
 description: View the details of an interaction record to analyze interactions and take immediate actions. Viewing an interaction record provides a comprehensive view of the customer journey. You can link an interaction record to an existing procurement case or can assign a task, which needs a procurement specialist involvement for investigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/viewing-an-interaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/viewing-an-interaction.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -47,5 +47,5 @@ Role required: Procurement specialist, agent
 7.  View information about the assigned virtual agent, attachments added to the interaction, and templates for use in the contextual side panel.
 
 
-**Parent Topic:**[Interaction Management in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/interaction-management-in-procurement-operations-workspace.md)
+**Parent Topic:**[Interaction Management in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/interaction-management-in-procurement-operations-workspace.md)
 

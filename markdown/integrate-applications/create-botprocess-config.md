@@ -2,7 +2,7 @@
 title: Create a bot process configuration record in RPA Hub
 description: Create a bot process configuration record in RPA Hub so that you can define the preliminary fields for a bot process record.Use the Bot Process Configuration form to define the preliminary fields for a bot process record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-botprocess-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-botprocess-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,11 +17,11 @@ Create a bot process configuration record in RPA Hub so that you can define the 
 
 ## Before you begin
 
-Create a package. For more information, see [Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-package.md).
+Create a package. For more information, see [Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-package.md).
 
-Create a robot. For more information, see [Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robots-rpa-hub.md).
+Create a robot. For more information, see [Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/robots-rpa-hub.md).
 
-Configure the related system property to view the activity stream. For more information, see [Display an activity stream for bot processes and robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/display-activity-stream-sys-property-rpahub.md).
+Configure the related system property to view the activity stream. For more information, see [Display an activity stream for bot processes and robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/display-activity-stream-sys-property-rpahub.md).
 
 Before you can access a bot process, ensure that the RPA business user \(sn\_rpa\_fdn.rpa\_business\_user\), RPA developer \(sn\_rpa\_fdn.rpa\_developer\), or the RPA support user \(sn\_rpa\_fdn.rpa\_support\_user\) are in the Managed by Group list.
 
@@ -43,15 +43,15 @@ When you associate the bot process configuration record with a bot process recor
 
 2.  Create a bot process configuration record from either the list icon or from the plus icon.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d596035e162">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d594777e162">
 
 Option
 
-</th><th align="left" id="d596035e165">
+</th><th align="left" id="d594777e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d596035e171">
+</th></tr></thead><tbody><tr><td id="d594777e171">
 
 **Create a bot process configuration record from the list icon**
 
@@ -62,7 +62,7 @@ Action
 3.  Select **Create Configuration**.
 
 
-</td></tr><tr><td id="d596035e210">
+</td></tr><tr><td id="d594777e210">
 
 **Create a bot process configuration record from the plus icon**
 
@@ -75,19 +75,19 @@ Action
 </td></tr></tbody>
 </table>3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess-config.md).
+    For a description of the field values, see [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess-config.md).
 
 4.  Save the configuration record only or create a configuration record and bot process and then associate the record with the bot process.
 
-<table id="choicetable_twb_ds5_tvb"><thead><tr><th align="left" id="d596035e262">
+<table id="choicetable_twb_ds5_tvb"><thead><tr><th align="left" id="d594777e262">
 
 Option
 
-</th><th align="left" id="d596035e265">
+</th><th align="left" id="d594777e265">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d596035e271">
+</th></tr></thead><tbody><tr><td id="d594777e271">
 
 **Only save the bot process configuration record**
 
@@ -97,9 +97,9 @@ Select **Save**.Skip the post-requisite task.
 
 This configuration record is not associated to a bot process. It remains orphaned.
 
- If you want to associate it with a bot process record later, follow the steps in [Associate a bot process to a bot process configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+ If you want to associate it with a bot process record later, follow the steps in [Associate a bot process to a bot process configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/select-botprocess.md).
 
-</td></tr><tr><td id="d596035e301">
+</td></tr><tr><td id="d594777e301">
 
 **Create a bot process and bot process configuration record. Then associate the record with the bot process**
 
@@ -108,7 +108,7 @@ This configuration record is not associated to a bot process. It remains orphane
 1.  Select **Assign Assets**.
 2.  On the form, complete the remaining fields.
 
-For a description of the field values, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+For a description of the field values, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/select-botprocess.md).
 
 3.  Select **Save**.
 4.  On the **Details** tab, under **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
@@ -118,20 +118,20 @@ For a description of the field values, see [Bot Process form in RPA Hub](https:/
 </table>
 ## What to do next
 
-You can add other details to the bot process, such as the business applications, credential groups, robots, process robot credential sets, schedules, process parameters, attended users, or groups. For more information, see [Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/post-req-bot-process-rpa.md).
+You can add other details to the bot process, such as the business applications, credential groups, robots, process robot credential sets, schedules, process parameters, attended users, or groups. For more information, see [Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/post-req-bot-process-rpa.md).
 
 \(Optional\) On the bot process configuration record, select the **Bot Process** button to navigate to the Overview tab of the bot process. You can't view this Bot Process button if the bot process configuration record is not associated to any bot process.
 
-**Parent Topic:**[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md)
+**Parent Topic:**[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md)
 
 **Related topics**  
 
 
-[Edit a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-botprocess.md)
+[Edit a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/edit-botprocess.md)
 
-[Publish a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-bot-process.md)
+[Publish a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/publish-bot-process.md)
 
-[Retire a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/retire-bot-process.md)
+[Retire a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/retire-bot-process.md)
 
 [View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
 
@@ -243,5 +243,5 @@ Description of the bot process.
 </table>**Related topics**  
 
 
-[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md)
+[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md)
 

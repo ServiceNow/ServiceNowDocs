@@ -2,7 +2,7 @@
 title: Request an item or service from the Consumer Portal
 description: Submit a request for an item or service from the Consumer Portal service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-request-from-consumerportal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-request-from-consumerportal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Submit a request for an item or service from the Consumer Portal service catalog
 
 ## Before you begin
 
-**Note:** Creating a request from the Consumer Portal requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the administrator to [provide external customers with access to request records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-itsm-integration-view-request.md).
+**Note:** Creating a request from the Consumer Portal requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the administrator to [provide external customers with access to request records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-itsm-integration-view-request.md).
 
 Role required: sn\_customerservice.case\_authorized\_consumer or sn\_customerservice.consumer
 
@@ -97,7 +97,7 @@ The system processes the request, creates it along with related records, and sho
 **Related topics**  
 
 
-[View cases and tasks from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-on-consumer-portal.md)
+[View cases and tasks from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-cases-on-consumer-portal.md)
 
-[View orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-orders.md)
+[View orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-orders.md)
 

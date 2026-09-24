@@ -2,7 +2,7 @@
 title: Assign bot process to an automation project
 description: Assign a bot process to an automation project in RPA Desktop Design Studio to start using the bot process resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/assign-bot-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/assign-bot-process.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,7 +64,7 @@ Enter the Sys ID or URL of the ServiceNow form record. This helps you to fetch f
 For more about getting the Sys ID or URL, see [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
 </td></tr></tbody>
-</table>    **Note:** For more information about Embedded Task feature, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md).
+</table>    **Note:** For more information about Embedded Task feature, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md).
 
 4.  For unattended bot process, select the required robot from the **Robot** list.
 
@@ -74,8 +74,8 @@ For more about getting the Sys ID or URL, see [Unique record identifier \(sys\_i
 
 5.  Select **OK**.
 
-    If one or more skills are overridden in the bot process, the automation uses the updated skill version during current execution. For more information about overridden skill versions, see [Override a skill version for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/override-skill-version-rpahub.md).
+    If one or more skills are overridden in the bot process, the automation uses the updated skill version during current execution. For more information about overridden skill versions, see [Override a skill version for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/override-skill-version-rpahub.md).
 
 
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-use.md)
 

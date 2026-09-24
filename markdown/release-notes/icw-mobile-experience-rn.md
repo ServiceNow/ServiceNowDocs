@@ -2,7 +2,7 @@
 title: Industrial Connected Workforce Mobile Experience release notes
 description: The ServiceNow Industrial Connected Workforce Mobile Experience \(ICW Mobile\) application provides a mobile‑first experience for frontline industrial workers. This application enables them to perform tasks, report deviations, escalate issues, and access standards and knowledge content directly from handheld devices. Designed for reliability in high‑activity environments, ICW Mobile enables operators to stay productive whether online or offline. ICW Mobile is a new application in the Australia release.The ServiceNow Industrial Connected Workforce Mobile Experience \(ICW Mobile\) application provides a mobile‑first experience for frontline industrial workers. This application enables them to perform tasks, report deviations, escalate issues, and access standards and knowledge content directly from handheld devices. Designed for reliability in high‑activity environments, ICW Mobile enables operators to stay productive whether online or offline. ICW Mobile is a new application in the Australia release.The ServiceNow Industrial Connected Workforce Mobile Experience \(ICW Mobile\) application provides a mobile‑first experience for frontline industrial workers. This application enables them to perform tasks, report deviations, escalate issues, and access standards and knowledge content directly from handheld devices. Designed for reliability in high‑activity environments, ICW Mobile enables operators to stay productive whether online or offline. ICW Mobile is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/icw-mobile-experience-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/icw-mobile-experience-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ See [Exploring Industrial Connected Workforce Mobile Experience](https://raw.git
     Install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. Install ICW Mobile by requesting it from the ServiceNow Store. The application is optimized for latest iOS and Android devices and may require a Mobile UI Framework dependency provided by the ICW suite. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/industrial-connected-workforce-rn-landing.md)
+**Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/industrial-connected-workforce-rn-landing.md)
 
 ## Australia General Availability
 

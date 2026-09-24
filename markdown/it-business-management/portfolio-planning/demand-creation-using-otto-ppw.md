@@ -2,7 +2,7 @@
 title: Create demands by using the conversational experience
 description: Use the conversational experience of ServiceNow Otto for Virtual Agent to create a demand from any application that supports Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/demand-creation-using-otto-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/demand-creation-using-otto-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

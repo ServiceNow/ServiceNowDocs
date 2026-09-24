@@ -2,7 +2,7 @@
 title: Create an AI-generated experience
 description: Use ServiceNow Otto in UI Builder to generate a multi-page experience from a natural language description of what you want to build.After ServiceNow Otto generates an experience, review the read-only preview to verify the proposed configuration before saving and opening the experience in UI Builder.After saving an AI-generated experience, open it in a browser to confirm that all pages, navigation, charts, and record links are functioning correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/generate-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/generate-ui.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -18,7 +18,7 @@ Use ServiceNow Otto in UI Builder to generate a multi-page experience from a nat
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 Role required: ui\_builder\_admin
 
@@ -73,14 +73,14 @@ You can access the experience generation feature from the UI Builder homepage. Y
 
 The experience preview appears in the right panel. It displays the proposed experience name, navigation type, page structure, chart parameters, and a live data sample from the identified ServiceNow table. The **Regenerate preview** and **Save and edit experience** buttons are set to active.
 
-**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-generation.md)
+**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-generation.md)
 
 **Related topics**  
 
 
-[Experience Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/concept-experience-generation.md)
+[Experience Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/concept-experience-generation.md)
 
-[Use case: Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/use-case-experience-generation.md)
+[Use case: Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/use-case-experience-generation.md)
 
 ## Review and save an experience preview
 

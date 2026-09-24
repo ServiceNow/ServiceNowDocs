@@ -2,7 +2,7 @@
 title: Configure email reply recommendation in the AI Admin Hub console
 description: Configure the email recommendation ServiceNow Otto skill to enable agents to draft email replies based on contextual information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-email-recommendation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-email-recommendation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,7 +67,7 @@ The email recommendation skill is available in multiple workflows. The exact ste
 
         For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-    -   **ServiceNow Otto panel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   **ServiceNow Otto panel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-now-assist-panel.md).
 
         For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
@@ -80,5 +80,5 @@ The email recommendation skill is available in multiple workflows. The exact ste
 
 Agents can generate email drafts with generative AI.
 
-**Parent Topic:**[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
+**Parent Topic:**[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md)
 

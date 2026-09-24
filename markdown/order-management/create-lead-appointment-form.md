@@ -2,7 +2,7 @@
 title: Create new appointment form
 description: Field descriptions for editing or reviewing details on the Create New Appointment form in the Lead Management and CRM Touchpoints modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-lead-appointment-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-lead-appointment-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-10"
@@ -26,10 +26,10 @@ Field descriptions for editing or reviewing details on the Create New Appointmen
 |Location|Location of your appointment.|
 |Message|Additional information for your appointment.|
 
-**Parent Topic:**[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-reference.md)
+**Parent Topic:**[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-reference.md)
 
 **Related topics**  
 
 
-[Create appointments for lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-create-appointment.md)
+[Create appointments for lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-create-appointment.md)
 

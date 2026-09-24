@@ -2,7 +2,7 @@
 title: Create Help Center content for configurable workspace
 description: Create Help Center content to provide your users with helpful information about the page that they are working on within a configurable workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/create-help-center-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/create-help-center-content.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -18,7 +18,7 @@ Create Help Center content to provide your users with helpful information about 
 
 ## Before you begin
 
-Create or edit an embedded help record before creating a guidance record by following the steps in [Add custom Embedded Help content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/add-custom-help-topic.md) to create content or [Add custom Embedded Help from a copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/add-custom-help-copy.md) to modify existing content.
+Create or edit an embedded help record before creating a guidance record by following the steps in [Add custom Embedded Help content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/add-custom-help-topic.md) to create content or [Add custom Embedded Help from a copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/add-custom-help-copy.md) to modify existing content.
 
 Role required: admin
 
@@ -82,7 +82,7 @@ Part of the URL for the workspace page that you're targeting, in the format `now
 
  Refer to the URL you noted earlier and enter this portion of the URL, for example `now/sow`.
 
- See the [examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/create-help-center-content.md) following these steps for more information on identifying the application route from the URL.
+ See the [examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/create-help-center-content.md) following these steps for more information on identifying the application route from the URL.
 
  To target all workspace pages use `sn_all`for the application route and context fields.
 
@@ -92,7 +92,7 @@ Embedded help content
 
 </td><td>
 
-The content of your guidance, which is displayed to users in the Help Center. Select an existing embedded help record, or create an embedded help record as described in [Add custom Embedded Help content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/add-custom-help-topic.md).
+The content of your guidance, which is displayed to users in the Help Center. Select an existing embedded help record, or create an embedded help record as described in [Add custom Embedded Help content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/add-custom-help-topic.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ A value found in the URL of the workspace page you're targeting that immediately
 
  Refer to the URL you noted earlier and provide only the word immediately following the value entered in the Application Route field. Values depend on the workspace and may also include `list` and `record`.
 
- See the [examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/create-help-center-content.md) following these steps for more information on identifying the context from the URL.
+ See the [examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/create-help-center-content.md) following these steps for more information on identifying the context from the URL.
 
  To target help content on all pages in a particular workspace use the appropriate workspace application route, and enter `sn_all` for the context field.
 
@@ -130,7 +130,7 @@ An advanced configuration to display guidance only when users view specific list
 
  To provide guidance when a user is viewing a related record \(a record accessed from within another record\), look for the second record name in the URL, such as `sub/record/incident`. Then, enter route parameters in the following format: `{"params":{"table":"incident"}}`.
 
- See the [examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/create-help-center-content.md) following these steps for more information on identifying route parameters from the URL.
+ See the [examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/create-help-center-content.md) following these steps for more information on identifying route parameters from the URL.
 
 </td></tr><tr><td>
 

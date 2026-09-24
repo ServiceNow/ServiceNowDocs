@@ -2,7 +2,7 @@
 title: Enable Hierarchy tab in EAP
 description: Run a fix script to enable the Hierarchy tab in the Enterprise Agile Planning \(EAP\) workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/hierarchy-enable-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/hierarchy-enable-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -52,7 +52,7 @@ Verify that the value of the **sn\_apw\_advanced.enable\_hierarchy\_view** prope
 **Related topics**  
 
 
-[Work item hierarchy for EAP teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-hierarchy-tab.md)
+[Work item hierarchy for EAP teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/eap-hierarchy-tab.md)
 
-[Modify display limit in Hierarchy tab of EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/hierarchy-display-limit-eap.md)
+[Modify display limit in Hierarchy tab of EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/hierarchy-display-limit-eap.md)
 

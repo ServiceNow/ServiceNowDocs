@@ -2,7 +2,7 @@
 title: Add a trigger condition for an HR survey
 description: When you create an HR survey, you can add a trigger condition to specify when the survey is sent and to whom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateTriggerConditionForHRSurveyIst.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateTriggerConditionForHRSurveyIst.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -46,5 +46,5 @@ To create a trigger condition:
 4.  Click **Submit**.
 
 
-**Parent Topic:**[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
+**Parent Topic:**[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
 

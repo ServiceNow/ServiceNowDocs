@@ -2,7 +2,7 @@
 title: Understand scan results and findings
 description: After a scan runs, you can monitor its progress in real-time, review the completed results, and then work with the findings to resolve issues in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/understand-scan-engine-results-findings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/understand-scan-engine-results-findings.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -17,8 +17,8 @@ After a scan runs, you can monitor its progress in real-time, review the complet
 
 Reviewing scan results and acting on findings is a two-phase process.
 
-1.  View scan results: Monitor an active scan or open a completed scan record to see its status, duration, and batch progress. See [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/viewing-scan-results-scan-engine.md).
-2.  Work with findings: Open individual findings from the scan record to understand their enforcement level and impact, then apply fixes or submit exceptions for review. See [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/real-time-prevention-monitoring.md).
+1.  View scan results: Monitor an active scan or open a completed scan record to see its status, duration, and batch progress. See [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/viewing-scan-results-scan-engine.md).
+2.  Work with findings: Open individual findings from the scan record to understand their enforcement level and impact, then apply fixes or submit exceptions for review. See [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/real-time-prevention-monitoring.md).
 
 ## How findings are evaluated
 
@@ -90,7 +90,7 @@ High severity issues that may degrade performance, stability, or security. Excep
 </td><td>
 
 -   The record can't be saved until the issue is resolved or and exception reason is provided formal approval.
--   For more information, refer to [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/submitting-exception-reasons-scan-engine.md).
+-   For more information, refer to [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/submitting-exception-reasons-scan-engine.md).
 
 </td></tr><tr><td>
 
@@ -143,5 +143,5 @@ These two metrics work together to help teams balance enforcement and risk prior
 **Related topics**  
 
 
-[View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/viewing-scan-results-scan-engine.md)
+[View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/viewing-scan-results-scan-engine.md)
 

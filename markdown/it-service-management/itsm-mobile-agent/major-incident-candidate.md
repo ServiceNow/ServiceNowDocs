@@ -2,7 +2,7 @@
 title: Review and work on a major incident candidate
 description: View a list of major incident candidates and add comments to the incidents proposed as major incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/major-incident-candidate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/major-incident-candidate.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -26,7 +26,7 @@ Role required: major incident manager
 
     The **Major incident candidates** screen opens with a list of major incident candidates.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Major incident candidates** screen, swipe left on an incident to view the set of quick actions.
 

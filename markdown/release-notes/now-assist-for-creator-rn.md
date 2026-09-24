@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Creator release notes
 description: The ServiceNow Otto for Creator application includes generative AI skills and AI agents that can help you develop on the ServiceNow AI Platform efficiently. ServiceNow Otto for Creator was enhanced and updated in the Australia release.The ServiceNow Otto for Creator application includes generative AI skills and AI agents that can help you develop on the ServiceNow AI Platform efficiently. ServiceNow Otto for Creator was enhanced and updated in the Australia release.The ServiceNow Otto for Creator application includes generative AI skills and AI agents that can help you develop on the ServiceNow AI Platform efficiently. ServiceNow Otto for Creator was enhanced and updated in the Australia release.The ServiceNow Otto for Creator application includes generative AI skills and AI agents that can help you develop on the ServiceNow AI Platform efficiently. ServiceNow Otto for Creator was enhanced and updated in the Australia release.The ServiceNow Otto for Creator application includes generative AI skills and AI agents that can help you develop on the ServiceNow AI Platform efficiently. ServiceNow Otto for Creator was enhanced and updated in the Australia release.The ServiceNow Otto for Creator application includes generative AI skills and AI agents that can help you develop on the ServiceNow AI Platform efficiently. ServiceNow Otto for Creator was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-creator-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-creator-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-06-26"
@@ -17,32 +17,32 @@ The ServiceNow Otto for Creator application includes generative AI skills and AI
 
 ## About ServiceNow Otto for Creator
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Creator. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-4.md)
 
 -   Prepare for Now LLM Service to be deprecated in a future release.
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
 
 -   Upload brand guidelines as a PDF in the theme creation workflow to generate themes that align with your brand.
 -   Prepare for the app generation and test generation plugins to be deprecated in a future release.
--   Learn about Build Agent updates in the new [Build Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-agent-rn.md).
+-   Learn about Build Agent updates in the new [Build Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-agent-rn.md).
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   Generate readable documentation throughout the app development life cycle using the new release lifecycle documentation AI agent.
 -   Generate themes and color palettes from brand images using the new theme generation workflow in Theme Builder.
 
-[Australia Early Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-all-other-fixes.md)
+[Australia Early Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-all-other-fixes.md)
 
 -   Create and update applications in ServiceNow Studio using Build Agent.
 -   Generate application modules in UI Builder workspaces using natural-language prompts.
 -   Learn about agentic development using an AI-first approach in the new agentic development documentation.
 
-See [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -54,11 +54,11 @@ See [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/S
 
 -   **Upgrade information**
 
-    [Australia Early Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-all-other-fixes.md)
+    [Australia Early Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-all-other-fixes.md)
 
     -   To upgrade the Build Agent application, upgrade the ServiceNow Otto for Creator application \(sn\_now\_creator\), which includes the Build Agent Pro plugin \(sn\_build\_agent\_pro\). To upgrade the Build Agent \(Trial\) app, upgrade the sn\_build\_agent plugin.
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## August 2026
 
@@ -68,7 +68,7 @@ The ServiceNow Otto for Creator application includes generative AI skills and AI
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 ## July 2026
@@ -99,7 +99,7 @@ The ServiceNow Otto for Creator application includes generative AI skills and AI
 
 ### What's new
 
--   **[Exploring release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-release-lifecycle-documentation-agent.md)**
+-   ****
 
     Improve transparency across your app development environment using the release lifecycle documentation AI agent to generate update set descriptions and release notes.
 
@@ -138,22 +138,22 @@ The ServiceNow Otto for Creator application includes generative AI skills and AI
 
 ### What's new
 
--   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
+-   ****
 
     Use Build Agent in ServiceNow Studio to create and edit full-stack applications conversationally.
 
--   **[Generate modules using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-ai-modules.md)**
+-   ****
 
     Use Now Assist to generate application modules in UI Builder workspaces using natural-language prompts. The Now Assist agent processes your prompts and generates various modules, including lists, records, URLs, scripts, dashboards, and folders.
 
--   **[New agentic development documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)**
+-   **New agentic development documentation**
 
     Read new documentation that introduces agentic development, which is a natural language approach to application development on the ServiceNow AI Platform. The documentation includes how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
 
 ### What's changed
 
--   **[Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sns-app-gen-use-app-gen-skill.md)**
+-   ****
 
     Build Agent is the default setting for app generation in ServiceNow Studio. To continue using the app generation skill, change the setting in ServiceNow Studio.
 

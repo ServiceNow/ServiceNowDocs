@@ -2,7 +2,7 @@
 title: Configure the Announcements section on the landing page
 description: Customize an existing announcement or add an announcement for additional tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/modify-announcements-section.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/modify-announcements-section.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -76,5 +76,5 @@ You can add announcements for additional tables by defining additional data sour
     5.  Select **Update**.
 
 
-**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
+**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
 

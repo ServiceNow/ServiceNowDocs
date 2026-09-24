@@ -2,7 +2,7 @@
 title: Workflow Studio decision tables
 description: Create and maintain decision logic in a table rather than in code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -24,19 +24,19 @@ This video provides an example of creating a decision table from within a Workfl
 
 <table id="table_p4v_mvz_nyb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about decision table concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-decision-builder.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about decision table concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/exploring-decision-builder.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure environments, tools, and user access for decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configuring-decision-builder.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure environments, tools, and user access for decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configuring-decision-builder.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Build decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Build decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about decision table properties and Domain Separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-builder-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about decision table properties and Domain Separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/decision-builder-reference.md)
 
 </td></tr></tbody>
 </table>## Helpful resources

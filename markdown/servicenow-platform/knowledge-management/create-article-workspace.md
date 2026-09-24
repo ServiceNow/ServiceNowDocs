@@ -2,7 +2,7 @@
 title: Create a knowledge article in Agent Workspace
 description: Create a knowledge article in Agent Workspace to share information across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/create-article-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/create-article-workspace.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -24,7 +24,7 @@ Role required: agent\_workspace\_user
 
 ## About this task
 
-You can also create a knowledge article when adding a knowledge block. For more information, see [Add a knowledge block to a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/add-knowledge-block-to-article-workspace.md).
+You can also create a knowledge article when adding a knowledge block. For more information, see [Add a knowledge block to a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/add-knowledge-block-to-article-workspace.md).
 
 ## Procedure
 
@@ -36,7 +36,7 @@ You can also create a knowledge article when adding a knowledge block. For more 
 
 4.  Create the knowledge article by either selecting an article template or using the default template.
 
-<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d549383e117">
+<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d550036e117">
 
 **Selected article template**
 
@@ -50,9 +50,9 @@ Select an article template to create a knowledge article using defined fields an
 **Note:** The Article Template list is populated based on the article templates configured for the selected knowledge base.
 
 3.  Select **Create Article**.
- The Create Article dialog box is available if the article versioning and the Knowledge Article Templates features are enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md) and [Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md).
+ The Create Article dialog box is available if the article versioning and the Knowledge Article Templates features are enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/article-versioning.md) and [Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-article-templates.md).
 
-</td></tr><tr><td id="d549383e162">
+</td></tr><tr><td id="d550036e162">
 
 **Default Standard template**
 
@@ -95,7 +95,7 @@ Ownership Group
 
 </td><td>
 
-Ownership group for the knowledge article. An ownership group consists of a group of members and a manager who are responsible for approvals and feedback tasks. Ownership groups can publish, edit, and retire knowledge articles that they’re associated with.**Note:** This field is available only if the **glide.knowman.ownership\_group.enabled** property is enabled. If no ownership group is assigned and approvals are required to publish a knowledge article, it’s automatically submitted for approval to the knowledge administrator and knowledge manager. For more information, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md).
+Ownership group for the knowledge article. An ownership group consists of a group of members and a manager who are responsible for approvals and feedback tasks. Ownership groups can publish, edit, and retire knowledge articles that they’re associated with.**Note:** This field is available only if the **glide.knowman.ownership\_group.enabled** property is enabled. If no ownership group is assigned and approvals are required to publish a knowledge article, it’s automatically submitted for approval to the knowledge administrator and knowledge manager. For more information, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/enable-ownership-group.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Language
 
 </td><td>
 
-The language in which you’re creating the knowledge article. The list is populated based on the languages enabled for the selected knowledge base. This field appears only when the I18N:Knowledge Management Internationalization Plugin v2 plugin \(com.glideapp.knowledge.i18n2\) is activated. For more information, see [I18N - Knowledge internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_I18NKMInternational.md).
+The language in which you’re creating the knowledge article. The list is populated based on the languages enabled for the selected knowledge base. This field appears only when the I18N:Knowledge Management Internationalization Plugin v2 plugin \(com.glideapp.knowledge.i18n2\) is activated. For more information, see [I18N - Knowledge internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/c_I18NKMInternational.md).
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Article body
 
 </td><td>
 
-Content for the knowledge article. Use the editing functions in the HTML editor to create content. For more information, see [Editing functions for knowledge articles in the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-html-editor.md).
+Content for the knowledge article. Use the editing functions in the HTML editor to create content. For more information, see [Editing functions for knowledge articles in the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-html-editor.md).
 
 </td></tr><tr><td>
 
@@ -161,11 +161,11 @@ Valid to
 
 </td><td>
 
-The date this knowledge article expires. Articles don’t appear in search results after the **Valid to** date or if the **Valid to** date is empty. The default value of the **Valid to** field is derived from the **Article Validity** field configured for the knowledge base \(see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md)\). The **Valid to** date starts from the date that the article was created until the number of days specified in the **Article Validity** field. If the **Article Validity** field is empty, the default date in the **Valid to** field for the knowledge article is set to January 1, 2100.
+The date this knowledge article expires. Articles don’t appear in search results after the **Valid to** date or if the **Valid to** date is empty. The default value of the **Valid to** field is derived from the **Article Validity** field configured for the knowledge base \(see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-a-knowledgebase.md)\). The **Valid to** date starts from the date that the article was created until the number of days specified in the **Article Validity** field. If the **Article Validity** field is empty, the default date in the **Valid to** field for the knowledge article is set to January 1, 2100.
 
- An article author or editor can select whether to keep or change the default **Valid to** date. For more information, see [Validity of a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-validity.md).
+ An article author or editor can select whether to keep or change the default **Valid to** date. For more information, see [Validity of a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/article-validity.md).
 
- On the first day of each month, the application sends an email notification to a list of authorized recipients to remind them about articles that are expire in the next month. The recipient can then extend the **Valid to** date to continue using the article. For more information, see [Managing email notifications in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+ On the first day of each month, the application sends an email notification to a list of authorized recipients to remind them about articles that are expire in the next month. The recipient can then extend the **Valid to** date to continue using the article. For more information, see [Managing email notifications in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/email-notifications-km.md).
 
  **Note:** If the system date format or user preferences is set to use `yy` year format, you might face issues when the **Valid to** date is set to the default date. Contact your administrator or modify the user preferences to use a date format with the `yyyy` year format. For more information, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FormatDateAndTimeFields.md) and [Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PersonalizeTheSystemDateFormat.md) topics.
 
@@ -282,7 +282,7 @@ Explanation
 Explanation of a what-is topic. **Note:** This field is available in the What Is template only.
 
 </td></tr></tbody>
-</table>    **Note:** The **Confidence** and **Governance** fields appear when the Knowledge Management KCS Capabilities plugin \(com.snc.knowledge\_kcs\_capabilities\) is activated. For more information, see [Managing the KCS article state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/managing-kcs-article-states.md).
+</table>    **Note:** The **Confidence** and **Governance** fields appear when the Knowledge Management KCS Capabilities plugin \(com.snc.knowledge\_kcs\_capabilities\) is activated. For more information, see [Managing the KCS article state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/managing-kcs-article-states.md).
 
 6.  Research for content related to knowledge article you're authoring using Agent assist.
 
@@ -308,14 +308,14 @@ Explanation of a what-is topic. **Note:** This field is available in the What Is
 
         -   To find knowledge articles that have high text similarity with the entered search text, choose **Similar Articles \(ML\)**.
 
-            **Note:** This option is available only when the Predictive Intelligence feature is enabled and your administrator has trained the similarity solution for Knowledge Management. For more information, see [Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/train-similarity-solution-km.md).
+            **Note:** This option is available only when the Predictive Intelligence feature is enabled and your administrator has trained the similarity solution for Knowledge Management. For more information, see [Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/train-similarity-solution-km.md).
 
         -   To find knowledge articles that match the entered search text, choose **Knowledge Articles**.
 8.  Attach a file with supporting information by clicking the attachments icon in the contextual side panel and selecting the file.
 
 9.  Add a knowledge block.
 
-    For more information, see [Add a knowledge block to a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/add-knowledge-block-to-article-workspace.md).
+    For more information, see [Add a knowledge block to a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/add-knowledge-block-to-article-workspace.md).
 
 10. Click **Save**.
 
@@ -325,7 +325,7 @@ Explanation of a what-is topic. **Note:** This field is available in the What Is
 
     -   Add to or modify the article details.
 
-        For more information, see [Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md).
+        For more information, see [Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-workspace.md).
 
     -   Publish the article by clicking **Publish**.
 
@@ -334,20 +334,20 @@ Explanation of a what-is topic. **Note:** This field is available in the What Is
         -   **Knowledge - Instant Publish**: The knowledge article is immediately published unless it is scheduled to be published at a later date.
         -   **Knowledge - Approval Publish**: The knowledge article is published on approval completion unless it is scheduled to be published at a later date.
 
-            **Note:** With an ownership group associated with a knowledge article, ownership group members can approve self-authored articles for publication. An administrator can override this behavior by disabling the **glide.knowman.ownership\_group.enable\_self\_approval** property. For more information, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md).
+            **Note:** With an ownership group associated with a knowledge article, ownership group members can approve self-authored articles for publication. An administrator can override this behavior by disabling the **glide.knowman.ownership\_group.enable\_self\_approval** property. For more information, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/enable-ownership-group.md).
 
-        For more information, see [Schedule a knowledge article for publishing in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/schedule-article-publishing-agent.md).
+        For more information, see [Schedule a knowledge article for publishing in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/schedule-article-publishing-agent.md).
 
-        When published, your knowledge article appears in the My Articles - Published and All Articles lists. If the article versioning feature is enabled, the version number of the knowledge article is updated. For more information, see [Knowledge article version numbers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md).
+        When published, your knowledge article appears in the My Articles - Published and All Articles lists. If the article versioning feature is enabled, the version number of the knowledge article is updated. For more information, see [Knowledge article version numbers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md).
 
 
 ## What to do next
 
 After you create and publish a knowledge article, you can perform the following actions related to the article:
 
--   Request translations for the knowledge article. For more information, see [Request translations for missing languages in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/request-translations-agent.md).
--   Retire the knowledge article. Click **Retire** to enable the retirement workflow. For more information, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
--   Translate the knowledge article directly from the knowledge article. For more information, see [Translate a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translate-directly-workspace.md).
+-   Request translations for the knowledge article. For more information, see [Request translations for missing languages in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/request-translations-agent.md).
+-   Retire the knowledge article. Click **Retire** to enable the retirement workflow. For more information, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
+-   Translate the knowledge article directly from the knowledge article. For more information, see [Translate a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/translate-directly-workspace.md).
 -   Delete the published knowledge article. Click **Delete**. If the **Delete** button isn't displayed, click the more actions icon , and then click **Delete**.
 
     **Note:** Only users with the admin role can delete a published knowledge article.
@@ -356,21 +356,21 @@ After you create and publish a knowledge article, you can perform the following 
 **Related topics**  
 
 
-[View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-agent.md)
+[View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/view-article-agent.md)
 
-[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md)
+[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-workspace.md)
 
-[Work on a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/respond-feedback-workspace.md)
+[Work on a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/respond-feedback-workspace.md)
 
-[Provide feedback for a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/respond-evaluate-articles-agent.md)
+[Provide feedback for a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/respond-evaluate-articles-agent.md)
 
-[Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md)
+[Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/user-access-knowledge.md)
 
-[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
+[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
 
-[Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md)
+[Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-article-templates.md)
 
 [bundle-platux.agent-assist]
 
-[Create knowledge from incident or problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_ApproveKnowledgeSubmission.md)
+[Create knowledge from incident or problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_ApproveKnowledgeSubmission.md)
 

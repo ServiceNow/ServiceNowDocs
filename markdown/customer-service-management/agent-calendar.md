@@ -2,7 +2,7 @@
 title: Managing agent calendar
 description: Customer service agents and field service technicians can use the agent calendar to see work schedules and assignments and also add personal events such as meetings or appointments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/agent-calendar.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -140,5 +140,5 @@ Allows customer service agents and field service technicians to access and updat
 
 [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseSchedules.md)
 
-[Configuring an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-agent-calendar.md)
+[Configuring an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-agent-calendar.md)
 

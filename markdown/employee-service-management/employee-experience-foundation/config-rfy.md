@@ -2,7 +2,7 @@
 title: Configure the Recommended for you
 description: The Recommended for you widget displays catalog items and knowledge articles, enabling you to view information that is most relevant to you based on the taxonomy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-rfy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-rfy.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,7 +30,7 @@ Role required: sp\_admin or admin
 
 3.  Map the **Taxonomy** that you created or use the default **Employee** taxonomy at the portal level.
 
-    For more information on taxonomy, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
+    For more information on taxonomy, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
 4.  Navigate to **System Definition** &gt; **Fix Scripts**.
 
@@ -47,5 +47,5 @@ From the content associated to the taxonomy, most viewed or recommended articles
 
 ## What to do next
 
-You can proceed to configure the instance options to control the appearance of the widget, see [Modify the Recommended for you widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-recommended-for-you.md)
+You can proceed to configure the instance options to control the appearance of the widget, see [Modify the Recommended for you widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-recommended-for-you.md)
 

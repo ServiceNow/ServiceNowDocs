@@ -2,7 +2,7 @@
 title: Create an infrastructure relationship for related CIs
 description: Infrastructure relationships show CIs that are connected to a application service but are not necessary parts of the service. Infrastructure relationships are only available for application services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigInfraRelation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMConfigInfraRelation.html
 release: australia
 product: Event Management
 classification: event-management

@@ -2,7 +2,7 @@
 title: Access enforcement for ServiceNow Store apps
 description: All production instances monitor and generate reports on usage patterns for ServiceNow Store apps. When subscription enforcement is enabled, users who are not subscribed to the app are blocked from performing fulfiller actions in the app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_SubscriptionEnforcement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_SubscriptionEnforcement.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

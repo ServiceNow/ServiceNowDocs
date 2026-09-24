@@ -2,7 +2,7 @@
 title: Site filter in the Industrial Workspace
 description: You can use the site filter in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to view data for specific sites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/ot-devices-dashboard-filters-vr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/ot-devices-dashboard-filters-vr.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -36,5 +36,5 @@ The site filter lets you do the following actions:
 -   **[Use the site filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Use the site in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to filter the data by the selected site or sites.
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

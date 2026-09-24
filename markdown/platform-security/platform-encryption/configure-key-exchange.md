@@ -2,7 +2,7 @@
 title: Configure Key Exchange
 description: Key Management Framework \(KMF\) generates automatic key exchange requests for supported cryptographic modules during the fresh installation or upgrade of the instance, and manages the data encryption key locally for the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/configure-key-exchange.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/configure-key-exchange.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -31,7 +31,7 @@ Automatic Key Exchange is active by default when cloning an instance, where the 
 -   **Turn off automatic key exchange:** Set the **glide\_encryption.auto\_key\_exchange.enabled** property to **false** for recurring clone requests.
 -   **Send auto key exchange requests**: Set this property to **true**.
 
-**Important:** The base system property is set to **true** by default, meaning that automatic key exchange is activated when cloning an instance. This value must be set to **false** if you're using the [Rekey ciphertext with Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/rekey-keyexchange.md) or the recurring Key Exchange functionality. See [Recurring Key Exchange walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/key-exchange-walkthrough.md) for additional details.
+**Important:** The base system property is set to **true** by default, meaning that automatic key exchange is activated when cloning an instance. This value must be set to **false** if you're using the [Rekey ciphertext with Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/rekey-keyexchange.md) or the recurring Key Exchange functionality. See [Recurring Key Exchange walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/key-exchange-walkthrough.md) for additional details.
 
 ## Procedure
 
@@ -129,5 +129,5 @@ Option to enable auto rekeying.
 
 After a key exchange is attempted, your non-production instance updates the **protected.script.values.kmf.rekeyed** system property. This property is visible in the System Properties \[sys\_properties\] table after a key exchange is attempted. If the encryption using the exchanged key is successful, this property has a value of **true**. Otherwise, the property has a value of **false**. If the value is false, the instance will attempt to encrypt again the next day.
 
-**Parent Topic:**[Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/resource-exchange.md)
+**Parent Topic:**[Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/resource-exchange.md)
 

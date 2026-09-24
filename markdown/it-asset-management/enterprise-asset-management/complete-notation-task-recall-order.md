@@ -2,7 +2,7 @@
 title: Complete the Notation task for a recalled enterprise asset
 description: Complete the Notation task for a recalled enterprise asset so that you can provide your users with additional instructions on how to operate the asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-notation-task-recall-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/complete-notation-task-recall-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -59,5 +59,5 @@ The recalled asset record moves to the Completed stage.
 
 Complete the recall process for all remaining enterprise assets that are included in the recall order. After all corresponding recalled asset records reach the Completed stage, the state of the recall order changes to Completed.
 
-**Parent Topic:**[Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md)
+**Parent Topic:**[Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md)
 

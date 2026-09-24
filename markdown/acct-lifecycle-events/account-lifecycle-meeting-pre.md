@@ -2,11 +2,11 @@
 title: Meeting preparation brief
 description: When a meeting is in Draft or Scheduled state, the meeting page displays the preparation brief to help customer success managers prepare for the conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-meeting-pre.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-meeting-pre.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-21"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Meeting page, Touchpoints, Customer success, Use, Customer Success Management]
 ---
 
@@ -51,14 +51,14 @@ When a meeting is in **Draft** or **Scheduled** state, the meeting page displays
     A free form notes field for the internal team. Internal notes aren't displayed in external or customer-facing views. Select the pencil icon to edit and **Save** to apply changes.
 
 
-**Parent Topic:**[Meeting page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-page.md)
+**Parent Topic:**[Meeting page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-meeting-page.md)
 
 **Related topics**  
 
 
-[Meeting page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-page.md)
+[Meeting page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-meeting-page.md)
 
-[Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-post.md)
+[Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-meeting-post.md)
 
-[bundle-telmt.now-assist-tmt-meeting-skills]
+[Use touchpoint meeting skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-meeting-skills.md)
 

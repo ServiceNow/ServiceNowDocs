@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Customer Service Management \(CSM\)
 description: Use the ServiceNow ServiceNow Otto for Customer Service Management \(CSM\) application to summarize the case information, generate the case resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/now-assist-csm.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -21,15 +21,15 @@ Use the ServiceNow® ServiceNow Otto for Customer Service Management \(CSM\) app
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for CSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for CSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md)
 
 </td><td>
 
-[Use Customer Service Management generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+[Use Customer Service Management generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 </td></tr><tr><td>
 
@@ -37,7 +37,7 @@ Use the ServiceNow® ServiceNow Otto for Customer Service Management \(CSM\) app
 
 </td><td>
 
-[Use Agentic AI in CSM \[Omitted image "bus-ai-otto.svg"\] Alt text:Use the ServiceNow Otto for CSM AI agents to complete tasks autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
+[Use Agentic AI in CSM \[Omitted image "bus-ai-otto.svg"\] Alt text:Use the ServiceNow Otto for CSM AI agents to complete tasks autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 
 </td><td>
 

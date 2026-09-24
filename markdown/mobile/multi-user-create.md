@@ -2,7 +2,7 @@
 title: Configure multiple users to use a shared device
 description: Learn how to setup a device to allow multiple users to log in and enter data on a single device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/multi-user-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/multi-user-create.html
 release: australia
 topic_type: task
 last_updated: "2026-04-29"
@@ -25,7 +25,7 @@ The following configurations are listed in this topic.
 -   The **SupportSharedDevice** property enables a mobile device to be used as a shared device.
 -   The **mobile\_shared\_device\_mode\_enabler** role enables authorized users to set up a ServiceNow mobile app to operate in shared device mode.
 
-**Note:** The configuration instructions in this topic detail the required fields for the configuration of this feature. For a full explanation of all the mobile property fields listed in the table, see the various configurations in the section [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
+**Note:** The configuration instructions in this topic detail the required fields for the configuration of this feature. For a full explanation of all the mobile property fields listed in the table, see the various configurations in the section [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md).
 
 ## Procedure
 

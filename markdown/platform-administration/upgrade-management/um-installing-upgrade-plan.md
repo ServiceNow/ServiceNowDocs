@@ -2,7 +2,7 @@
 title: Installing your Upgrade Plan
 description: Install your upgrade plan in the consumer instance to implement it in your upgrades.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-installing-upgrade-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-installing-upgrade-plan.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -52,7 +52,7 @@ Role required: admin
     **Note:** If you made any changes to the upgrade plan on the builder instance after installing it on the consumer instance, then update the upgrade plan to the latest version.
 
 
-**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
+**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
 
 **Related topics**  
 

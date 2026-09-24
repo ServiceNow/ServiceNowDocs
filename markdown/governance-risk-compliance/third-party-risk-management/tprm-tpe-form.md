@@ -2,7 +2,7 @@
 title: Third-party element form
 description: Use the third-party element form to capture all the information that you need to create a third-party element record using the Third-party Risk Management application. As a third-party risk manager, third-party risk assessor, or due diligence request owner, you can create a third-party element record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-tpe-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-tpe-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -93,7 +93,7 @@ First name, Last name, Contact department, Contact title, Contact phone, and Con
 
 Standard contact information for the person at the third-party organization who acts as the primary third-party contact.
 
- For a description of the responsibilities of the third-party contact role, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
+ For a description of the responsibilities of the third-party contact role, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
 
 </td></tr><tr><td>
 
@@ -109,17 +109,17 @@ Latitude and Longitude
 
 </td><td>
 
-Values that are used to mark the location on the Risk concentration map. For more information, see [TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-risk-concentration-map.md).
+Values that are used to mark the location on the Risk concentration map. For more information, see [TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-risk-concentration-map.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
+</table>**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
 
 **Related topics**  
 
 
-[Monitoring third-party elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-monitor-tp-elements.md)
+[Monitoring third-party elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-monitor-tp-elements.md)
 
-[Create a third-party element record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tp-element-create.md)
+[Create a third-party element record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-tp-element-create.md)
 
-[Add a third-party element record to an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tp-element-engagement.md)
+[Add a third-party element record to an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-tp-element-engagement.md)
 

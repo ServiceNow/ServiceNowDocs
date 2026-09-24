@@ -2,7 +2,7 @@
 title: Workflows used as subflows
 description: A workflow can launch another workflow as an activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/workflows-as-subflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/workflows-as-subflows.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -28,11 +28,11 @@ Make sure that the selected subflow is active. If the subflow is inactive, the m
 
 ## Subflows and the Create Task activity
 
-If a workflow contains a [**Create Task**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_CreateTask.md) activity that has executed on the current record, additional task activities in the workflow might not execute as expected.
+If a workflow contains a [**Create Task**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_CreateTask.md) activity that has executed on the current record, additional task activities in the workflow might not execute as expected.
 
 This can happen when the same subflow containing a Create Task activity runs more than once in a parent flow. When the subflow reruns and attempts to execute the **Create Task** activity again, the system reopens the first task activity instead and does not create an additional task.
 
-**Note:** An alternative to creating duplicate subflows that use the **Create Task** activity is to add a [**Run Script**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_RunScriptActivity.md) activity to the workflow that creates a task with a script.
+**Note:** An alternative to creating duplicate subflows that use the **Create Task** activity is to add a [**Run Script**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_RunScriptActivity.md) activity to the workflow that creates a task with a script.
 
 \[Omitted image "WorkflowCreateTaskSubflowDiagram.png"\] Alt text:
 
@@ -40,10 +40,10 @@ In this configuration, the workflow does not run the same subflow containing a *
 
 \[Omitted image "WorkflowCreateTaskSubflow2Diagram.png"\] Alt text:
 
--   **[Pass a variable from a workflow to a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_VariableWorkflowSubflow.md)**  
+-   **[Pass a variable from a workflow to a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/t_VariableWorkflowSubflow.md)**  
 Use this process to pass variables from a parent workflow to a subflow.
--   **[Prepare a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_PrepareASubflow.md)**  
+-   **[Prepare a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/t_PrepareASubflow.md)**  
 Review the process of preparing a subflow for use in a parent workflow, and for preparing the parent workflow to use a subflow.
 
-**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
+**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/managing-workflows.md)
 

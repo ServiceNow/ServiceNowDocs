@@ -2,7 +2,7 @@
 title: Digital interface credentials form
 description: short description.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-dig-interface-credential-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-dig-interface-credential-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -151,10 +151,10 @@ Notes
 Enter notes about the credentials.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Relate credentials to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-credential.md)
+[Relate credentials to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-dig-interface-add-credential.md)
 

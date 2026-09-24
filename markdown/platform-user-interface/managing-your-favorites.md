@@ -2,7 +2,7 @@
 title: Managing your favorites in Next Experience
 description: Favorites help you quickly find and go to your most used Next Experience pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/managing-your-favorites.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/managing-your-favorites.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

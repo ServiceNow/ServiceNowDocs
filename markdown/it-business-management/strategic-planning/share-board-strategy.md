@@ -2,7 +2,7 @@
 title: Share a board
 description: Share your board with stakeholders and planning managers to provide visibility into goal and target progress, and enable collaboration across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/share-board-strategy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/share-board-strategy.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -53,14 +53,14 @@ Users or groups that you want to share the board with must have the sn\_apw\_adv
 
 The selected individual and group users are notified of the board sharing through an email.
 
-**Parent Topic:**[Managing boards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/managing-boards-strategy.md)
+**Parent Topic:**[Managing boards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/managing-boards-strategy.md)
 
 **Related topics**  
 
 
-[Create a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-strategic-plan-strategy.md)
+[Create a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-strategic-plan-strategy.md)
 
-[Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-strategic-priority-strategy.md)
+[Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-strategic-priority-strategy.md)
 
-[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
+[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-goal-strategy.md)
 

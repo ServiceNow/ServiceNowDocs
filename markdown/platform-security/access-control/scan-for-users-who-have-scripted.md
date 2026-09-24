@@ -2,7 +2,7 @@
 title: Scan for users who have scripted
 description: Scan your instance to find users who have scripted within a specific time frame. The scan queries the audit logs and identifies any user who has performed write or update to a table having script field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/scan-for-users-who-have-scripted.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/scan-for-users-who-have-scripted.html
 release: australia
 product: Access Control
 classification: access-control
@@ -21,7 +21,7 @@ Scan your instance to find users who have scripted within a specific time frame.
 
 Role required: security\_admin
 
-**Important:** You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+**Important:** You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md).
 
 ## Procedure
 
@@ -79,7 +79,7 @@ Role required: security\_admin
 
 9.  To act on the results, select **Manage conditional script writers** on the scan results page.
 
-    The **Manage users in the conditional script writer group** opens, where you can review group membership and remove users who no longer require scripting access using the **Schedule removal** option. To learn more about how to schedule removal, see [Remove users from the Conditional Script Writer group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/remove-conditional-script-writer-users.md).
+    The **Manage users in the conditional script writer group** opens, where you can review group membership and remove users who no longer require scripting access using the **Schedule removal** option. To learn more about how to schedule removal, see [Remove users from the Conditional Script Writer group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/remove-conditional-script-writer-users.md).
 
 
 ## Result

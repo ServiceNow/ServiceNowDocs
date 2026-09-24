@@ -2,7 +2,7 @@
 title: Moving applications between instances
 description: ServiceNow applications are built in Development instances, then promoted through Test and Production environments using update sets or the Application Repository to package and migrate changes. This multi-instance workflow ensures applications are thoroughly tested before reaching end users in Production.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/moving-applications-between-instances.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/moving-applications-between-instances.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ When moving an application, every artifact associated with that application scop
     Confirm that test data in non-production does not contain unmasked production PII. Use data masking or anonymization during clone operations.
 
 
-**Parent Topic:**[Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-started-deployment.md)
+**Parent Topic:**[Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/get-started-deployment.md)
 

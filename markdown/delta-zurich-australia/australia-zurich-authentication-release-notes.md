@@ -2,10 +2,10 @@
 title: Combined Authentication release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Authentication from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-authentication-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-authentication-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -463,14 +463,7 @@ Australia
 
 </td><td>
 
-[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
-
--   **[Human-assisted SMS OTP](https://www.servicenow.com/docs/access?context=human-assisted-sms-otp&family=australia&ft:locale=en-US)**
-
-Human-assisted SMS OTP lets a human agent verify an end user's identity by sending a one-time passcode via SMS during a live interaction. The agent initiates OTP generation and validation through the platform's scriptable APIs, and the consuming application \(for example, CSM or FSO workspace\) handles the agent-facing workflow and user interface.
-
-
- [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   **[Authentication factors enhancement for AI voice service](https://www.servicenow.com/docs/access?context=explore-authentication-factors&family=australia&ft:locale=en-US)**
 
@@ -499,5 +492,5 @@ Following are the knowledge-based authentication \(KBA\) enhancements:
  See [Authentication](https://www.servicenow.com/docs/access?context=c_Authentication&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

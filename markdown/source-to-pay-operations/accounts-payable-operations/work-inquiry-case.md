@@ -2,7 +2,7 @@
 title: Work on an invoice inquiry case
 description: Work on an invoice inquiry case to resolve an issue raised by the suppliers or employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-inquiry-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/work-inquiry-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,7 +25,7 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
 
 An invoice case with a category of Inquiry is referred to as an invoice inquiry case.
 
-Typically, an invoice inquiry case is automatically created when you receive an inquiry email. However, the agent can also manually create an invoice inquiry case from the Source-to-Pay Workspace. For more information, see [Create an invoice inquiry case manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-inquiry-case.md).
+Typically, an invoice inquiry case is automatically created when you receive an inquiry email. However, the agent can also manually create an invoice inquiry case from the Source-to-Pay Workspace. For more information, see [Create an invoice inquiry case manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-inquiry-case.md).
 
 ## Procedure
 
@@ -47,15 +47,15 @@ Typically, an invoice inquiry case is automatically created when you receive an 
 
 6.  Do one of the following:
 
-    -   Request more information about the invoice inquiry case from the requester. For more information, see [Request additional information for an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.md).
+    -   Request more information about the invoice inquiry case from the requester. For more information, see [Request additional information for an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.md).
 
         The state of the case updates to Awaiting requester info.
 
-    -   Submit the invoice inquiry case for an internal review. For more information, see [Submit an invoice inquiry case for an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-inquiry-case-internal-review.md).
+    -   Submit the invoice inquiry case for an internal review. For more information, see [Submit an invoice inquiry case for an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/submit-inquiry-case-internal-review.md).
 
         The state of the case updates to Awaiting internal info.
 
-    -   Create an invoice task and assign it to a user or group to resolve the invoice inquiry case. For more information, see [Create an invoice task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-apm-task.md).
+    -   Create an invoice task and assign it to a user or group to resolve the invoice inquiry case. For more information, see [Create an invoice task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-apm-task.md).
     -   AP specialist closes the inquiry case and if the system property **sn\_ap\_cm.awaiting\_acceptance\_enabled**is enabled, then the invoice inquiry state changes to awaiting acceptance, and the supplier receives an inquiry task in the Supplier Collaboration portal. If the supplier confirms the state of the invoice inquiry changes then the invoice is closed, otherwise the state of the invoice inquiry changes to **Work in Progress**.
     -   The state of an inquiry case changes from**Awaiting requester info** and**Awaiting internal info** to **Work in progress** in the following scenarios:
         -   An email reply from a requester triggers an action to move the inquiry case state to Work in progress.
@@ -63,15 +63,15 @@ Typically, an invoice inquiry case is automatically created when you receive an 
         -   An agent can manually change the inquiry state from Awaiting requester info to Work in progress.
 7.  Close an invoice inquiry case when all the activities and tasks for resolving the case are completed.
 
-    For more information, see [Close an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/close-inquiry-case.md).
+    For more information, see [Close an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/close-inquiry-case.md).
 
     The inquiry case and related tasks are closed successfully.
 
 
-**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
+**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
 
 **Related topics**  
 
 
-[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
+[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 

@@ -2,7 +2,7 @@
 title: Domain separation and DLP Incident Response
 description: You can use domain separation with DLP Incident Response to separate the data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/domain-separation-and-dlp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/domain-separation-and-dlp.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -32,7 +32,7 @@ For more information on support levels, see [Application support for domain sepa
 -   Create a user with the required sn\_dlir.admin and sn\_dlir.analyst roles in the respective domain.
 -   Perform the DLP Incident Response configurations in the appropriate domain.
 
-**Parent Topic:**[Installing and configuring DLP IR Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/install-dlp.md)
+**Parent Topic:**[Installing and configuring DLP IR Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/install-dlp.md)
 
 **Related topics**  
 

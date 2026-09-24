@@ -2,7 +2,7 @@
 title: View demo data in MetricBase
 description: After ServiceNow personnel install the MetricBase and MetricBase Demo plugins, you can use the demo to get familiar with MetricBase.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/getting-familiar-with-metricbase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/metricbase/getting-familiar-with-metricbase.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -32,7 +32,7 @@ After ServiceNow personnel install the MetricBase and MetricBase Demo plugins, y
 
     \[Omitted image "retention-policy.png"\] Alt text: Retention policy
 
-    See [MetricBase retention policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-retention-policies.md).
+    See [MetricBase retention policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/metricbase-retention-policies.md).
 
 4.  To see how the data is aggregated during the Retention Durations, select the left arrow \(&lt;\) at the top of the Retention Policy Schedules window to return to the Time Series Metrics list.
 5.  Select a table name. The Time Series Metric definition shows the **Retention policy aggregator**. This aggregator summarizes the data as, for example, the average, maximum, or minimum value in the aggregation period. In the following example, the admin clicked the table for the speed metric. The result is that MetricBase stores the speed averages during each sampling period in the MetricBase database.
@@ -77,7 +77,7 @@ After ServiceNow personnel install the MetricBase and MetricBase Demo plugins, y
 
         You've displayed drone data in lists and graphs. Now, let's define a trigger that executes when data that you monitor reaches a threshold value.
 
-15. Select **MetricBase Demo** &gt; **Trigger Definitions**. The MetricBase Trigger Definitions list shows the name \(**Name**\) of the trigger, the metric \(**Metric**\) the trigger monitors, the table \(**Table name**\) the metric that it is in, the trigger description, and whether the trigger is active. Triggers kick off flows when metrics meet trigger thresholds. An example is when a drone flies too low. For more information about triggers, see [Trigger Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-triggers.md).\[Omitted image "trigger-definitions.png"\] Alt text: Trigger definitions
+15. Select **MetricBase Demo** &gt; **Trigger Definitions**. The MetricBase Trigger Definitions list shows the name \(**Name**\) of the trigger, the metric \(**Metric**\) the trigger monitors, the table \(**Table name**\) the metric that it is in, the trigger description, and whether the trigger is active. Triggers kick off flows when metrics meet trigger thresholds. An example is when a drone flies too low. For more information about triggers, see [Trigger Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/metricbase-triggers.md).\[Omitted image "trigger-definitions.png"\] Alt text: Trigger definitions
 16. Select **Low-Battery Drone**. The MetricBase Linear Predictor trigger form displays the definition of the Low-Battery Drone trigger.\[Omitted image "trigger-example-low-altitude.png"\] Alt text: Linear trigger
 
     In this example, the trigger monitors the **Remaining Battery \(%\)** metric \(**Metric**\) in the Drone table \(**Table name**\) every 10 minutes \(**Window**\). If the battery life is trending downward \(**Trend**\) and is 80% likely \(**Confidence Level**\) to reach 20% \(**Threshold**\) within 20 minutes \(under **Window** for **Level** 1\), the trigger executes. Although it fires, nothing happens until you associate this trigger with a flow. The flow defines the actions to take.
@@ -106,7 +106,7 @@ The following table summarizes the modules in the MetricBase demo.
 |Scheduled Jobs|Scheduled job that is created for the demonstration application. The job runs every five minutes to add data to the demo tables in the MetricBase database. You can change the schedule.|
 |Trigger Definitions|List of triggers that are defined in the demo. This list is the same table as **MetricBase** &gt; **MetricBase Triggers** &gt; **Trigger Definitions**. You can create additional triggers.|
 |Anomaly Logs|List of logs that result from triggers firing. The **Low-Flying Drone** trigger creates the anomaly logs.|
-|Data Explorer|Widget that enables you to experiment with MetricBase JavaScript APIs using the demonstration application data. See [Get Familiar with MetricBase APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-data-explorer.md) for more information.|
+|Data Explorer|Widget that enables you to experiment with MetricBase JavaScript APIs using the demonstration application data. See [Get Familiar with MetricBase APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/metricbase-data-explorer.md) for more information.|
 
-**Parent Topic:**[Working with MetricBase demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/working-with-metricbase-demo-data.md)
+**Parent Topic:**[Working with MetricBase demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/working-with-metricbase-demo-data.md)
 

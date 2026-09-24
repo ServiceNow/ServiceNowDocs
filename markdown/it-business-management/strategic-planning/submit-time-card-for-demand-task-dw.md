@@ -2,7 +2,7 @@
 title: Submit a time card for a demand task
 description: Record and submit the time spent on a demand task to calculate actual cost and effort. The reported hours are used to track work performed and support demand planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/submit-time-card-for-demand-task-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/submit-time-card-for-demand-task-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -26,15 +26,15 @@ Role required: timecard\_user
 
 2.  Create a time card.
 
-<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d308995e76">
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d309085e76">
 
 Assignment type
 
-</th><th align="left" id="d308995e79">
+</th><th align="left" id="d309085e79">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d308995e85">
+</th></tr></thead><tbody><tr><td id="d309085e85">
 
 **Demand task assigned to you**
 
@@ -44,7 +44,7 @@ Actions
 2.  Select the **Add to Time Sheet** link.
 
 
-</td></tr><tr><td id="d308995e109">
+</td></tr><tr><td id="d309085e109">
 
 **Demand task assigned to you as an additional assignee**
 
@@ -64,5 +64,5 @@ Actions
 
 ## Result
 
-The time card moves to the Submitted state and is sent to an approver for review. For details on the approval process, see [Approve or reject a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/approve-time-card.md).
+The time card moves to the Submitted state and is sent to an approver for review. For details on the approval process, see [Approve or reject a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/approve-time-card.md).
 

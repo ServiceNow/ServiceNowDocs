@@ -2,7 +2,7 @@
 title: GlideNotification - Client
 description: The GlideNotification API provides methods that display messages over the page content.Displays the specified string over the page content as the specified type of message. When the duration timer expires, the message is removed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_GlideNotificationV3API.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/c\_GlideNotificationV3API.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -18,7 +18,7 @@ The GlideNotification API provides methods that display messages over the page c
 
 Access this API using the `g_notification` global object. List V3 must be activated for the g\_notification object to be available.
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 
 ## GlideNotification - show\(String type, String message, Number duration\)
 

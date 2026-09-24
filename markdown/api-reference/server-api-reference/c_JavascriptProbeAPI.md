@@ -2,7 +2,7 @@
 title: JavascriptProbe - Global
 description: The JavascriptProbe script include provides methods for using the JavascriptProbe on the MID Server.Creates an instance of the JavascriptProbe.Adds a parameter with the specified value to the probe.Creates the probe for the current MID server, puts it on the output queue, and sets its state to "ready".Adds a script to the probe.Sets the name of the JavascriptProbeSets the source of the probe.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_JavascriptProbeAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_JavascriptProbeAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The JavascriptProbe script include provides methods for using the JavascriptProb
 
 Use these methods in server scripts to send a probe to the MID Server For more information, see [Create a JavaScript Probe activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAJavaScriptProbeActivity.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## JavascriptProbe - JavascriptProbe\(String midServer\)
 

@@ -2,7 +2,7 @@
 title: Authoring a knowledge article in Microsoft Word
 description: Author and access knowledge articles in Microsoft Word by deploying the Knowledge Management - Add-in for Microsoft Word.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-article-authoring-word.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/knowledge-article-authoring-word.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -24,7 +24,7 @@ Consider the following points when using the Knowledge Management - Add-in for M
 
 -   The URL is automatically generated for Word documents created in Microsoft SharePoint and Microsoft OneDrive with business accounts only.
 
-    For other applications, account types and custom SharePoint URLs, you must manually enter the URL in the **Document URL** field on the Knowledge form in Microsoft Word. For more information, see [Create a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-article-word.md).
+    For other applications, account types and custom SharePoint URLs, you must manually enter the URL in the **Document URL** field on the Knowledge form in Microsoft Word. For more information, see [Create a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-article-word.md).
 
 -   The conversion time of a knowledge article from a Microsoft Word document depends on the document size.
 -   Headers and footers corresponding to pages in the Microsoft Word document appear as is in the knowledge article. You can remove headers and footers in the Microsoft word document before creating or updating the knowledge article.
@@ -33,18 +33,18 @@ Consider the following points when using the Knowledge Management - Add-in for M
 
 ## Activation information
 
-Activate the Knowledge Management - Add-in for Microsoft Word plugin \(com.snc.knowledge.ms\_word\) to access knowledge articles from within the Microsoft Word online application. For more information, see [Activate Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-km-word-add-in.md).
+Activate the Knowledge Management - Add-in for Microsoft Word plugin \(com.snc.knowledge.ms\_word\) to access knowledge articles from within the Microsoft Word online application. For more information, see [Activate Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/activate-km-word-add-in.md).
 
 **Related topics**  
 
 
-[View a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-word.md)
+[View a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/view-article-word.md)
 
-[Create a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-article-word.md)
+[Create a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-article-word.md)
 
-[Edit a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-word.md)
+[Edit a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-word.md)
 
-[Publish a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/publish-article-word.md)
+[Publish a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/publish-article-word.md)
 
-[Configure Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-km-add-in-word.md)
+[Configure Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-km-add-in-word.md)
 

@@ -2,7 +2,7 @@
 title: Configure a taxonomy on Business and Consumer Portal to define topics relevant to your users
 description: Configure a taxonomy on the Business or Consumer Portal to organize topics that are relevant to your users, such as orders, returns, or payments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_taxonomy\_business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_taxonomy\_business-portal.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

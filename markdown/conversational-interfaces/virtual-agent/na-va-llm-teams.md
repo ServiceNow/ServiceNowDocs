@@ -2,12 +2,12 @@
 title: Using ServiceNow Otto for Virtual Agent conversations with Microsoft Teams
 description: The ServiceNow Otto provides you with the large language model \(LLM\)-based conversational experience during your conversations with a Now Virtual Agent bot or a Self-configured bot that is integrated with Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/na-va-llm-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/na-va-llm-teams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 keywords: [Virtual Agent, Otto, Microsoft, Teams, Integrating]
 breadcrumb: [Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
@@ -23,9 +23,9 @@ To enable a bot with LLM-based capabilities and experience LLM-based conversatio
 
 You can integrate Virtual Agent with Microsoft Teams either with your Now Virtual Agent bot or the Self-configured bot.
 
-To integrate Microsoft Teams with the Now Virtual Agent, see [Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams.md).
+To integrate Microsoft Teams with the Now Virtual Agent, see [Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-msteams.md).
 
-To integrate Microsoft Teams with a Self-configured bot, see [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md).
+To integrate Microsoft Teams with a Self-configured bot, see [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md).
 
 ## Conversational experience with ServiceNow Otto in Microsoft Teams
 
@@ -67,10 +67,10 @@ The ServiceNow Otto provides a new AI Search experience in channels with the fol
 
 For more information about enabling LLM for your bots integrated with Microsoft Teams, see .
 
--   **[Integrating with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)**  
+-   **[Integrating with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)**  
 Integrate  with Microsoft Copilot using Conversational Integration with Microsoft Teams to leverage the generative AI conversational experience.
--   **[Synthesized response in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/msteams-synthesized-response.md)**  
+-   **[Synthesized response in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/msteams-synthesized-response.md)**  
 Conversational Integration with Microsoft Teams is designed to provide new and rich user experience with synthesized responses using Large Language Models \(LLM\) based results summarized in a single response for users to see information in a conversational way, and avoid browsing through carousels.
 
-**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md)
+**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

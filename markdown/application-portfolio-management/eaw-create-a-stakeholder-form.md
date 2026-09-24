@@ -2,7 +2,7 @@
 title: Create a stakeholder form
 description: The create a stakeholder form captures information about individuals or teams with an interest in enterprise architecture outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-a-stakeholder-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-a-stakeholder-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-02"
@@ -25,12 +25,12 @@ The create a stakeholder form captures information about individuals or teams wi
 |Influence level|Rating of the stakeholder's ability to impact the organization or a specific project. Examples: High, Medium, or Low.|
 |Description|Explanation of the stakeholder's interests, influence, and relationship to the organization.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-stakeholders.md)
+[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-stakeholders.md)
 
-[Add or edit a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-stakeholder.md)
+[Add or edit a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-or-edit-a-stakeholder.md)
 

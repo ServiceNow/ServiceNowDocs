@@ -2,7 +2,7 @@
 title: EMR Provider Directory Sync Sync release notes
 description: The ServiceNow EMR Provider Directory Sync application keeps Healthcare Operations organization, location, practitioner, and care-team data in sync with a FHIR R4 server on a schedule. EMR Provider Directory Sync is a new application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/hco-fhir-release-notes-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/hco-fhir-release-notes-rn.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-16"
@@ -61,5 +61,5 @@ This application depends on the HL7 FHIR Spoke and on the Healthcare Operations 
     Provides the read-only FHIR R4 Flow Designer actions that this application calls to read provider-directory data.
 
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 

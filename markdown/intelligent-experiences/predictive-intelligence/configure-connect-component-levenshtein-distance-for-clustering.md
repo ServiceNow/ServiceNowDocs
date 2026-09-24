@@ -2,7 +2,7 @@
 title: Configure Connect Component algorithm and Levenshtein Distance method for a clustering solution
 description: Apply Configure Connect Component and Levenshtein Distance method encoding to optimize the training for your clustering solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-connect-component-levenshtein-distance-for-clustering.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/configure-connect-component-levenshtein-distance-for-clustering.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -80,10 +80,10 @@ In this example scenario, you train your solution definition by using the third 
     \[Omitted image "configure-connect-component-levenshtein-distance-for-clustering5.png"\] Alt text: The three solution parameters you configured on the Advanced Solution Settings section of your clustering solution.
 
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
+[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
 

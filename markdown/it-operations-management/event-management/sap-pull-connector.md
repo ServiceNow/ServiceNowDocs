@@ -2,7 +2,7 @@
 title: Use the SAP Solution Manager Pull connector
 description: The SAP Solution Manager Pull connector sends information from Event Management to the SAP Solution Manager. The Pull connector sends responses received from a Push connector in a bi-directional environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/sap-pull-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/sap-pull-connector.html
 release: australia
 product: Event Management
 classification: event-management
@@ -64,5 +64,5 @@ Role required: evt\_mgmt\_admin
     -   The Update queue business rule in the Alert table identifies each manual update of the alert and updates the connector queue accordingly. By default, changes to all alert fields are tracked.
     -   The Event Management — Queue Connector Processor job removes alert changes from the queue and sends them to the MID Server. By default, Event Management performs this dequeue process in batches of 1,000 alerts. You can configure the batch size by setting the `evt_mgmt.max_update_source_records` property.
 
-**Parent Topic:**[SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-manager-connector.md)
+**Parent Topic:**[SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/sap-manager-connector.md)
 

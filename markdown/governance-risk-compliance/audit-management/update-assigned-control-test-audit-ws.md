@@ -2,7 +2,7 @@
 title: Update an assigned control test in Audit Workspace
 description: Use the Audit Workspace to ensure compliance with the established internal control procedures by reviewing records, reports, operating practices, and documentation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/update-assigned-control-test-audit-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/update-assigned-control-test-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

@@ -2,7 +2,7 @@
 title: Event type extension points in Workforce Optimization for ITSM
 description: Use extension points to call scripts for event categories such as a meeting, time off, or work time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/extension-points-configurable-workforce-optimization-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/extension-points-configurable-workforce-optimization-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -55,7 +55,7 @@ You can use extension points to create events such as meeting, training, and tim
 |Time off|AgentScheduleTimeOffEventManager|
 |Work|AgentScheduleWorkEventManager|
 
-**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
 
 **Related topics**  
 

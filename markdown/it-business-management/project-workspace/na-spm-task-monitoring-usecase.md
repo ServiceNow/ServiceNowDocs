@@ -2,7 +2,7 @@
 title: Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow
 description: Use the Monitor project tasks agentic workflow to autonomously generate a project insights email by using AI agents. AI agents help project managers to manage risks, resolve issues, or take actionable decision on the projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/na-spm-task-monitoring-usecase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/na-spm-task-monitoring-usecase.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -37,14 +37,14 @@ If you want to change this agentic workflow, you can [duplicate it](https://raw.
 
 ## Monitor project tasks agentic workflow
 
-Autonomously generate a project insights email using AI agents. To use Monitor project tasks, make sure that the project insights generation skill is active. For more information on how to activate the skill, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md).
+Autonomously generate a project insights email using AI agents. To use Monitor project tasks, make sure that the project insights generation skill is active. For more information on how to activate the skill, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-na-spm.md).
 
 To access the Monitor project tasks agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Monitor project tasks**.
 
-To configure the Monitor project tasks agentic workflow and associated AI agents, see [Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-agents-project-task-monitoring.md).
+To configure the Monitor project tasks agentic workflow and associated AI agents, see [Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-agents-project-task-monitoring.md).
 
 ## AI agents used in the Monitor project tasks agentic workflow
 
@@ -57,7 +57,7 @@ The following AI agents are used for the Monitor project tasks agentic workflow:
 
 For more information on other agentic workflow that are associated with the Platform workflow, see [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-use-cases.md).
 
-**Parent Topic:**[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-na-spm-ai-agents.md)
+**Parent Topic:**[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-na-spm-ai-agents.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Parameters of the Microsoft Word connector methods
 description: Learn about the parameters of the Microsoft Word connector methods in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/method-parameter-msword.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/method-parameter-msword.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -717,7 +717,7 @@ Yes
 </td></tr></tbody>
 </table>## Enter inputs for parameters
 
-To enter inputs for the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+To enter inputs for the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
-**Parent Topic:**[Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-word-connector.md)
+**Parent Topic:**[Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/microsoft-word-connector.md)
 

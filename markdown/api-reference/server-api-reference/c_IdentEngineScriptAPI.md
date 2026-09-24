@@ -2,7 +2,7 @@
 title: IdentificationEngineScriptableApi - Global
 description: The IdentificationEngineScriptableApi uses the Identification and Reconciliation framework to minimize the creation of duplicate configuration items \(CIs\) and to reconcile CI attributes by only accepting information from authorized data sources when updating the Configuration Management Database \(CMDB\).Inserts or updates configuration items \(CI\) and non-Configuration Management Database \(CMDB\) CIs \(classes not extending from cmdb\_ci\) in the CMDB based on identification and reconciliation rules. Use this API instead of updating the CMDB directly.Inserts or updates configuration items \(CI\) and non-Configuration Management Database \(CMDB\) CIs \(classes not extending from cmdb\_ci\) in the CMDB based on identification and reconciliation rules. Use this API instead of updating the CMDB directly.Determines the operation \(insert/update\) to perform with the specified payload without committing the operation in the database.Determines the Configuration Management Database \(CMDB\) operation \(insert/update\) to perform with the specified payload \(request body\), without committing the operations in the database.Runs an identification audit against the specified configuration item \(CI\) to detect duplicates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_IdentEngineScriptAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_IdentEngineScriptAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The IdentificationEngineScriptableApi uses the Identification and Reconciliation framework to minimize the creation of duplicate configuration items \(CIs\) and to reconcile CI attributes by only accepting information from authorized data sources when updating the Configuration Management Database \(CMDB\).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## IdentificationEngineScriptableApi - createOrUpdateCI\(String source, String input\)
 
@@ -1963,7 +1963,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the createOrUpdateCI\(String source, String input\) method in a scoped application, use the corresponding scoped IdentificationEngine method: [createOrUpdateCI\( String source, String input\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md).
+To use the createOrUpdateCI\(String source, String input\) method in a scoped application, use the corresponding scoped IdentificationEngine method: [createOrUpdateCI\( String source, String input\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/IdentificationEngineScopedAPI.md).
 
 ## IdentificationEngineScriptableApi - createOrUpdateCIEnhanced\(String source, String input, Object options\)
 
@@ -4572,7 +4572,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the identifyCI\(String jsonString\) method in a scoped application, use the corresponding scoped IdentificationEngine method: [identifyCI\(String jsonString\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md).
+To use the identifyCI\(String jsonString\) method in a scoped application, use the corresponding scoped IdentificationEngine method: [identifyCI\(String jsonString\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/IdentificationEngineScopedAPI.md).
 
 ## IdentificationEngineScriptableApi - identifyCIEnhanced\(String source, String input, Object options\)
 
@@ -4582,7 +4582,7 @@ Determines the Configuration Management Database \(CMDB\) operation \(insert/upd
 
 Use this method to simulate submission of a payload.
 
-This method is similar to the [IdentificationEngineScriptableApi - identifyCI\(String jsonString\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_IdentEngineScriptAPI.md) method, however it also supports the following functionality:
+This method is similar to the [IdentificationEngineScriptableApi - identifyCI\(String jsonString\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_IdentEngineScriptAPI.md) method, however it also supports the following functionality:
 
 -   Partial payloads
     -   In case of an item having a warning or error, indicates if an item operation is INSERT\_AS\_PARTIAL or INSERT\_INCOMPLETE.
@@ -6584,5 +6584,5 @@ while (grServer.next()) {
 
 ### Scoped equivalent
 
-To use the runIdentificationAudit\(GlideRecord now\_GR\) method in a scoped application, use the corresponding scoped IdentificationEngine method: [runIdentificationAudit\(GlideRecord now\_GR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md).
+To use the runIdentificationAudit\(GlideRecord now\_GR\) method in a scoped application, use the corresponding scoped IdentificationEngine method: [runIdentificationAudit\(GlideRecord now\_GR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/IdentificationEngineScopedAPI.md).
 

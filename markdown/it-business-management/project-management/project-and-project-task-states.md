@@ -2,7 +2,7 @@
 title: Project and project task states
 description: In the base system, the states in project and project task inherit the states in Task table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-and-project-task-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/project-and-project-task-states.html
 release: australia
 product: Project Management
 classification: project-management
@@ -35,7 +35,7 @@ The start and end dates are displayed based on the project or task status:
 -   Open/Work in Progress: Actual start date is displayed.
 -   Closed: Actual end date is displayed.
 
-**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
@@ -64,7 +64,7 @@ The start and end dates are displayed based on the project or task status:
 
 [Project scheduling in Project Management]()
 
-[View default project and project task state categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/view-default-project-task-states.md)
+[View default project and project task state categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/view-default-project-task-states.md)
 
-[Customize a state for project or project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/customize-project-task-states.md)
+[Customize a state for project or project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/customize-project-task-states.md)
 

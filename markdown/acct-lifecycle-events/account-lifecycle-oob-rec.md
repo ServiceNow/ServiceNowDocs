@@ -2,7 +2,7 @@
 title: Recommended actions available with account onboarding
 description: Use the predefined recommended actions that are available with the base system during the account onboarding process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-oob-rec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-oob-rec.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -70,5 +70,5 @@ The following recommended actions are available for the data import task:
 
 Depending on your selection, you will see instructions on how to resolve the issue. After the error has been resolved, select **End Troubleshooting**.
 
-**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use.md)
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use.md)
 

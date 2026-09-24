@@ -2,7 +2,7 @@
 title: Trigger a FireEye capability profile from Related Links
 description: Trigger a capability profile manually after reviewing a security incident from related links.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/trigger-fireeye-capability-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/trigger-fireeye-capability-profile.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

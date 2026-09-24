@@ -2,7 +2,7 @@
 title: Administering workflow contexts
 description: The workflow context performs the activities and transitions defined in the workflow with the new record as current.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_AdministeringWorkflowContexts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/r\_AdministeringWorkflowContexts.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -31,7 +31,7 @@ Workflow contexts can be found in two places:
 
 Two related links on the Workflow Context form allow you to view the progress of a workflow in different formats.
 
--   **Show Timeline** displays the workflow context as a [timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowTimelines.md).
+-   **Show Timeline** displays the workflow context as a [timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/c_WorkflowTimelines.md).
 -   **Show Workflow** displays the workflow context in the graphical Workflow Editor.
 
 ## Graphical interface
@@ -67,8 +67,8 @@ In **Workflow** &gt; **Live Workflows** &gt; **Active Contexts** or **All Contex
 
 \[Omitted image "ExecutionOrderWorkflow.png"\] Alt text: View the order in which a context executed
 
--   **[Cancel a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CancelingAWorkflow.md)**  
+-   **[Cancel a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/t_CancelingAWorkflow.md)**  
 Canceling a workflow stops the workflow from executing and sets the workflow context **State** to **Canceled**. To cancel an executing workflow, you can use the cancelContext\(context\) script. You can define an onCancel script to clean up unresolved workflow activities.
 
-**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
+**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
 

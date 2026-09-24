@@ -2,7 +2,7 @@
 title: Workflow of Microsoft 365 for ServiceNow Reporting
 description: The Microsoft 365 for ServiceNow Reporting integration utilizes a workflow that requires participation from multiple user roles such as system administrators, ESG administrators, and disclosure managers. By defining a clear workflow, individuals and teams can better understand their roles and responsibilities and generate the necessary disclosures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/workflow-ms-365.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/workflow-ms-365.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,5 +23,5 @@ To generate Microsoft Word disclosures:
 3.  As an ESG administrator, you can configure additional reporting filters. These filters specify at a granular level what data must be imported to the disclosure report from a table.
 4.  As an ESG reporting and disclosure manager, go to your Microsoft Word document, authenticate yourself, and import the data from your instance to the document. You can alter the formatting of the data according to your preferences.
 
-**Parent Topic:**[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-o365-with-servicenow.md)
+**Parent Topic:**[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrating-o365-with-servicenow.md)
 

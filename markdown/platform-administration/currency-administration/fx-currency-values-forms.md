@@ -2,7 +2,7 @@
 title: Understanding FX Currency values in forms
 description: In forms, the FX Currency field behaves like a dot walkable field in script. It consists of an entry field, and an accompanying list for selection of a currency code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/fx-currency-values-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/currency-administration/fx-currency-values-forms.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -28,5 +28,5 @@ Specifically, FX Currency fields that appear on forms contain the following: \[O
 
 -   An edit icon \(\[Omitted image "currency-edit.png"\] Alt text: Edit icon\). Users with an assigned currency\_instance\_admin role can click it to edit currency detail in the accompanying Currency Instance \[fx\_currency2\_instance\] record.
 
-**Parent Topic:**[FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency.md)
+**Parent Topic:**[FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency.md)
 

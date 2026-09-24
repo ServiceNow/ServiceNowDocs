@@ -2,10 +2,10 @@
 title: Combined Now Assist for Employee Center Pro release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Now Assist for Employee Center Pro from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-nowassistforemployeecenterpro-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-nowassistforemployeecenterpro-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -254,6 +254,8 @@ Australia
 Now Assist for Employee Center Pro is a ServiceNow AI Platform feature that is available with activation of the now-activation-platform-default plugin. For details, see [\[Placeholder link text to key ecpro-plugins\]](https://www.servicenow.com/docs/access?context=ecpro-plugins&family=australia&ft:locale=en-US).
 
 
+**Important:** Now Assist for Employee Center Pro is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr></tbody>
 </table>## Additional requirements
 
@@ -443,5 +445,5 @@ Australia
  See [\[Placeholder link text to key na-ec-pro-landing\]](https://www.servicenow.com/docs/access?context=na-ec-pro-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

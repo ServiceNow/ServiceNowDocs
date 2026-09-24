@@ -2,7 +2,7 @@
 title: Generate labor costs
 description: Generate labor costs for projects and sub-projects based on the attribute-based resource assignments and the financial attributes configured in the planning attributes page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/gen-labor-costs-prj-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/gen-labor-costs-prj-wrkspc.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -32,8 +32,8 @@ Role required: it\_project\_manager
 
 4.  Select **Generate** on the Generate labor costs confirmation window.
 
-    **Note:** Alternatively, you can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md) to automatically create baselines at the required cadence.
+    **Note:** Alternatively, you can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md) to automatically create baselines at the required cadence.
 
 
-**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

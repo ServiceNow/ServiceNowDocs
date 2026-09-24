@@ -2,7 +2,7 @@
 title: WSD Reservable V2 API
 description: The Workplace Service Delivery \(WSD\) Reservable V2 API provides endpoints to retrieve details of a reservable, an entity that can be reserved, such as a workplace location, from a ServiceNow instance.Returns the details for one or more specified reservables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/wsd\_reservable-V2-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/wsd\_reservable-V2-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Workplace Service Delivery \(WSD\) Reservable V2 API provides endpoints to retrieve details of a reservable, an entity that can be reserved, such as a workplace location, from a ServiceNow instance.
 
-The WSD Reservable V2 API is a new version of the [WSD Reservable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/wsd_reservable-api.md). The WSD Reservable V2 API fetches details of all reservable space\(s\) on the WSD Portal that you select while making a reservation. The original WSD Reservable API version used a GET call but limited the sys\_ID path parameter to 35 characters. The new WSD Reservable V2 API version is a POST call and takes all the sys\_ids in the request body to avoid character limitations.
+The WSD Reservable V2 API is a new version of the [WSD Reservable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/wsd_reservable-api.md). The WSD Reservable V2 API fetches details of all reservable space\(s\) on the WSD Portal that you select while making a reservation. The original WSD Reservable API version used a GET call but limited the sys\_ID path parameter to 35 characters. The new WSD Reservable V2 API version is a POST call and takes all the sys\_ids in the request body to avoid character limitations.
 
 To access this API, the caller must have the sn\_wsd\_core.workplace\_user role.
 
@@ -24,7 +24,7 @@ This API runs in the `sn_wsd_rsv` namespace. To access this API, the Workplace R
 
 For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-rsv-mgmt-feat.md).
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## WSD Reservable V2 API - POST /sn\_wsd\_rsv/v2/reservable/list\_reservables
 
@@ -172,7 +172,7 @@ Default: Empty value
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -205,7 +205,7 @@ Data format of the response body. Only supports application/json.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

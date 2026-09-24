@@ -2,7 +2,7 @@
 title: ProductInstance - Scoped, Global
 description: The ProductInstance API provides methods to generate a product instance identifier \(PID\), retrieve PID configuration data, and determine if a model category is a product instance.Generates the hashed value of the product instance and returns it.Gets the PID configuration associated with the model category based on the hierarchy and class name.Checks if a given model category is a product instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ProductInstanceBothAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/ProductInstanceBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -28,7 +28,7 @@ See also:
 -   [Product Instance feature in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-instance-for-assets.md)
 -   [Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-install-base-item.md)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## ProductInstance – generatePID\(String className, String modelCategorySysId, Object jsonKeyValues\)
 

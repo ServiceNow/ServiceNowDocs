@@ -2,7 +2,7 @@
 title: Questionnaires in Field Service Management
 description: Field Service Management supports questionnaires as a structured mechanism for collecting information from field service agents during the execution of work orders and work order tasks. Questionnaires can be used at any stage of a task—before work begins, while work is in progress, or as a condition for closing a task—and can be made mandatory to enforce compliance and completeness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/questionnaires-in-field-service-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/questionnaires-in-field-service-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"
@@ -30,12 +30,12 @@ Field Service Management supports the following two types of questionnaires.
 |Survey-based questionnaire|Uses the Survey Designer to create a list of questions associated with a work order or task.|Survey Designer|
 |Smart Assessment questionnaire|Uses the Smart Assessment Engine template designer, with support for conditional questions, offline execution, and enhanced mobile integration via Now Mobile Agent.|Smart Assessment Engine \(Template Designer\)|
 
-For more information on the questionnaire workflow and when to use survey-based v/s Smart Assessment questionnaires, see [Field Service Management questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-management-questionnaires.md).
+For more information on the questionnaire workflow and when to use survey-based v/s Smart Assessment questionnaires, see [Field Service Management questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-management-questionnaires.md).
 
 **Related topics**  
 
 
-[Survey-based questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/survey-based-questionnaires.md)
+[Survey-based questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/survey-based-questionnaires.md)
 
-[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-questionnaire.md)
+[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/smart-assessment-questionnaire.md)
 

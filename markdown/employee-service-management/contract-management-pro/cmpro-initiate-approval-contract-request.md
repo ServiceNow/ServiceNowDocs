@@ -2,7 +2,7 @@
 title: Initiate an ad hoc approval for a contract document revision
 description: Initiate an ad hoc approval for a contract document revision from a user or a user group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -38,15 +38,15 @@ You can request for approval of a revision for contract documents from stakehold
 
 3.  In the **Lists** tab, open a request by selecting an option under **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88193e106">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88197e106">
 
 Option
 
-</th><th align="left" id="d88193e109">
+</th><th align="left" id="d88197e109">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88193e115">
+</th></tr></thead><tbody><tr><td id="d88197e115">
 
 **As an assignee**
 
@@ -58,7 +58,7 @@ Steps
 
 The state of the request is Work in progress and the contract status is also work in progress.
 
-</td></tr><tr><td id="d88193e144">
+</td></tr><tr><td id="d88197e144">
 
 **As a collaborator**
 
@@ -149,12 +149,12 @@ Assigned approvers are added in the **Approvers** tab with other approval detail
 
 ## What to do next
 
-Approvers can view and [Approve or reject a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-approve-reject-request-docs.md).
+Approvers can view and [Approve or reject a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-approve-reject-request-docs.md).
 
--   **[Approve or reject a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-approve-reject-request-docs.md)**  
+-   **[Approve or reject a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-approve-reject-request-docs.md)**  
 Review a contract request or attachment and approve or reject it.
--   **[Cancel an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-cancel-approval-request.md)**  
+-   **[Cancel an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-cancel-approval-request.md)**  
 Cancel an ad hoc approval for a contract document revision if it no longer requires any action.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

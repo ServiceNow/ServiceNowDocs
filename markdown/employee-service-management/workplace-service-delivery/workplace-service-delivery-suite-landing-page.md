@@ -2,7 +2,7 @@
 title: Workplace Service Delivery
 description: Provide employees with a single place to manage workplace tasks like reserving rooms, ordering supplies, reporting maintenance issues, or requesting cleaning with the ServiceNow Workplace Service Delivery. Reduce the back-end complexity of setting up and maintaining a streamlined experience for your workplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery/workplace-service-delivery-suite-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery/workplace-service-delivery-suite-landing-page.html
 release: australia
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -64,7 +64,7 @@ Enhance and increase workplace efficiency by using the Workplace Service Deliver
 ## Get started
 
 -   Work with an implementation specialist to achieve your desired business outcomes. To learn more, visit the [Customer Success Center](https://www.servicenow.com/success.html).
--   Review the product documentation, beginning with [Workplace Service Delivery Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/workplace-service-delivery-apps.md).
+-   Review the product documentation, beginning with [Workplace Service Delivery Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/workplace-service-delivery-apps.md).
 -   Get certified and take a course on Workplace Service Delivery to manage and deliver workplace capabilities and services to your users. To sign up, visit [ServiceNow training and certification](https://www.servicenow.com/community/training-and-certifications/ct-p/training-and-certifications).
 -   Visit the WSD Community Forum. To learn more, visit the [Workplace Service Delivery Community](https://www.servicenow.com/community/wsd/ct-p/workplace-service-delivery).
 -   Visit the Product Hubs. To learn more, visit the [Employee Center Product hub](https://www.servicenow.com/community/employee-center/ct-p/employee-center).

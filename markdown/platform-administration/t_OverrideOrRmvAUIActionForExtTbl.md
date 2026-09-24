@@ -2,7 +2,7 @@
 title: Override a UI action for an extended table
 description: You can override or remove a UI action for a table that is extended from another table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_OverrideOrRmvAUIActionForExtTbl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_OverrideOrRmvAUIActionForExtTbl.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ When a UI action is defined for the Task table, it applies to all tasks, includi
     2.  Add the condition **current.getRecordClassName\(\) !='incident'**.
 
 
-**Parent Topic:**[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
+**Parent Topic:**[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_UIActions.md)
 

@@ -2,7 +2,7 @@
 title: Integration Hub Remote Process Sync
 description: Integration Hub Remote Process Sync enables you to set up one-way or bidirectional integrations among multiple ServiceNow instances, so that your process flows stay in sync.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/integrationhub-remote-process-sync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub-remote-process-sync/integrationhub-remote-process-sync.html
 release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
@@ -64,5 +64,5 @@ Before deciding to move forward with Remote Process Sync as your integration fra
 
 \[Omitted image "idr-remotespoke-rps-comparison.png"\] Alt text: Instance Data Replication and the Remote Instance spoke support simple integrations for an entire table or using ServiceNow AI Platform APIs. Remote Process Sync supports more complex multi-instance integrations.
 
-When you're ready to start building and managing a Remote Process Sync integration, learn the basics of [Getting started with Remote Process Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
+When you're ready to start building and managing a Remote Process Sync integration, learn the basics of [Getting started with Remote Process Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
 

@@ -2,7 +2,7 @@
 title: Activate the Platform Analytics solution for Financial Services Operations
 description: Activate the content pack ServiceNow Store application for the Platform Analytics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: admin
 4.  Install the application.
 
 
-**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-content-pack.md)
 

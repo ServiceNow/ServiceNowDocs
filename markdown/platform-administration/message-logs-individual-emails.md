@@ -2,7 +2,7 @@
 title: Message logs for individual emails
 description: The email log entries for an individual notification email are accessible as a related list in the email record. The Error string field in the email record can provide additional information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/message-logs-individual-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/message-logs-individual-emails.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ For outbound notifications, the email system log provides reasons that recipient
 
 Each log entry corresponds to a reason for inclusion or exclusion. For example, all users who were excluded because they are inactive appear in a single log entry.
 
-A series of system properties can be used to fine-tune the information to be logged. Two properties, glide.notification.recipient.include\_logging and glide.notification.recipient.exclude\_logging, control all recipient inclusion and exclusion logging. Several other [properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdditionalProperties.md) allow you to tailor the information reported in the logs to meet your needs. All of the properties are enabled by default.
+A series of system properties can be used to fine-tune the information to be logged. Two properties, glide.notification.recipient.include\_logging and glide.notification.recipient.exclude\_logging, control all recipient inclusion and exclusion logging. Several other [properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_AdditionalProperties.md) allow you to tailor the information reported in the logs to meet your needs. All of the properties are enabled by default.
 
-**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/troubleshooting-notification-emails.md)
+**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/troubleshooting-notification-emails.md)
 

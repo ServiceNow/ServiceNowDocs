@@ -2,7 +2,7 @@
 title: Define Eligibility Questions in Social Benefits Playbook
 description: Configure the eligibility criteria questions for users beginning an application for social benefits.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-define-eligibility-questions-sbp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-define-eligibility-questions-sbp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

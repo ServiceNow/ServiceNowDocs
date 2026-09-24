@@ -2,7 +2,7 @@
 title: Create a Mentoring program
 description: Create customized mentoring programs that can be adopted by a mentee.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/create-mentoring-pgm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/mentoring/create-mentoring-pgm.html
 release: australia
 product: Mentoring
 classification: mentoring
@@ -18,7 +18,7 @@ Create customized mentoring programs that can be adopted by a mentee.
 
 ## About this task
 
-Mentoring admins can create multiple mentoring programs. Employees and managers use the Employee Center portal to enroll as mentors or mentees. See, [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/enroll-mentoring.md).
+Mentoring admins can create multiple mentoring programs. Employees and managers use the Employee Center portal to enroll as mentors or mentees. See, [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mentoring/enroll-mentoring.md).
 
 ## Before you begin
 

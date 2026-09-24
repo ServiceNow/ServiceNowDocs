@@ -2,7 +2,7 @@
 title: Viewing information about third-party subsidiaries
 description: The Subsidiaries tab displays overview information on subsidiaries of the third party. On most reports, you can select an item to view the underlying data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-subsidiaries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-subsidiaries.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

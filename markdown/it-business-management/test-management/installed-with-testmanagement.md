@@ -2,7 +2,7 @@
 title: Components installed with Test Management
 description: Several types of components are installed with activation of the Test Management plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/installed-with-testmanagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/installed-with-testmanagement.html
 release: australia
 product: Test Management
 classification: test-management

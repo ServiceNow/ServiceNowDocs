@@ -2,10 +2,10 @@
 title: Customize the favicon
 description: Use the glide.product.icon property to change the icon that appears in bookmarks and the browser address bar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/customize-favicon.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/customize-favicon.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create a company profile, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -45,9 +45,9 @@ Role required: admin
 
 ## Result
 
-The favicon appears in the bookmarks and browser address bar for the platform or the Content Management System \(CMS\). For more information on how to change the favicon for Service Portal, see [Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md).
+The favicon appears in the bookmarks and browser address bar for the platform or the Content Management System \(CMS\). For more information on how to change the favicon for Service Portal, see [Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/create-a-portal.md).
 
-**Parent Topic:**[Create a company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateACompanyProfile.md)
+**Parent Topic:**[Create a company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_CreateACompanyProfile.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Cost Center Stage inbound staging table
 description: The Cost Center Stage inbound \[sn\_fcms\_intg\_imp\_cost\_center\] staging table temporarily stores important data about cost centers before this data is sent to the primary table. You can use this table to lookup all the cost center details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-cost-center-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-cost-center-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

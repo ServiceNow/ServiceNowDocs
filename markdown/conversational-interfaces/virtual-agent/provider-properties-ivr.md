@@ -2,7 +2,7 @@
 title: Provider properties for Amazon Connect
 description: View and update the provider properties available for Amazon Connect
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/provider-properties-ivr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/provider-properties-ivr.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -120,5 +120,5 @@ support\_skill\_card
 Internal, do not change.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-ivr.md)
+</table>**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-ivr.md)
 

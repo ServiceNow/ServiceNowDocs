@@ -2,11 +2,11 @@
 title: Combined Workforce Optimization for CSM release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Workforce Optimization for CSM from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-workforceoptimizationforcsm-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-workforceoptimizationforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 5
+last_updated: "2026-09-24"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -95,6 +95,15 @@ Decoupling Channel Management from the core Workforce Optimization \(WFO\) modul
     -   Enhanced Scalability and Maintainability: The new architecture improves scalability and maintainability, making it easier to manage and expand.
     -   Streamlined Future Upgrades: Future upgrades for individual modules can be streamlined, ensuring smoother and more efficient updates.
 
+ -   **[View the monthly staff alignment on the team calendar in the Manager Workspace](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
+
+Enable managers to plan, monitor, and adjust staffing more effectively with the month view on the Team Calendar tab in the Schedule page of the Manager Workspace. You can also view staffing and shift details across a full month to optimize and identify gaps in coverage, detect over staffing, and take proactive steps to balance workloads improving operational efficiency and responsiveness.
+
+-   **[View the monthly schedule on the team calendar in the Configurable CSM or FSM Workspace](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
+
+Enable agents to view your upcoming shifts, time-off requests, and availability for the entire month in the month view of the Team Calendar in the CSM or FSM Configurable Workspace. This enables them to better plan their schedules, stay informed, and remain engaged with their work commitments.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -108,6 +117,41 @@ Enable Schedule Management schedule management capabilities in CSM configurable 
     -   Provide a standalone licensing and entitlement model for Schedule Management schedule management using the  "com.sn\_shift\_planning" plugin.
     -   Support independent deployment of Schedule Management schedule management without Forecasting, Intraday Management, Coaching, or other Workforce Optimization modules.
     -   Extend scheduling to support shift and roster management for FSM and Retail, enabling phased use of Workforce Optimization modules.
+
+ -   **[Location Based Holiday Calendar Management](https://www.servicenow.com/docs/access?context=location-based-holiday-calendar-management&family=australia&ft:locale=en-US)**
+
+Enable location-based holiday calendars to
+
+    -   Manage location‑based holiday calendars that auto‑sync to schedules, providing real‑time visibility into regional holiday impacts and supporting accurate shift planning.
+    -   Improve workforce scheduling and compliance by mapping holidays to specific regions, reducing manual adjustments and ensuring agents see their location‑based holidays in My Calendar.
+-   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=australia&ft:locale=en-US)**
+
+Enhance the Manager Dashboard to view
+
+    -   New **AI Insights** tab on the Manager Dashboard in the Manager Workspace.
+    -   The AI powered widgets: Sentiment Analysis, Trending Topics, and Auto QA. These widgets provide deeper, real‑time visibility into customer sentiment signals, trending interaction themes, and quality evaluations.
+-   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=australia&ft:locale=en-US)**
+
+Decouple the existing Manager Dashboard to make it available as a standalone feature.
+
+    -   Install and configure the Manager Dashboard independently to provide a streamlined, modular experience, retaining only essential alerts and core widgets for performance, work management, and resource visibility while removing scheduling and coaching components.
+    -   Managers can view Help Request alerts and Operational Insights when Channel Management is used with the Manager Dashboard. These capabilities are not available when Channel Management is used without the Manager Dashboard.
+    -   The Manager Dashboard includes a tab-based layout with widgets for Customer Signals and Quality Management — Sentiment Analysis, Trending Topics, and Auto QA. Managers can access the Operations Insights tab with widgets such as Performance, Work Management, and Resource Management when additional capabilities are enabled.
+-   **[Listen, Monitor or Barge in to an agent call](https://www.servicenow.com/docs/access?context=listen-agent-call-configurable-wfo-cs&family=australia&ft:locale=en-US)**
+
+Monitor, coach, or barge into voice calls to
+
+    -   Assist agents during live customer calls by opening the agent’s active phone interaction in Manager Workspace.
+    -   Enable supervisors to silently monitor calls, whisper‑coach agents, join conversations, view real‑time transcription when the conversation panel is enabled, and switch modes or end the session at any time using the NVC utility panel.
+-   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=australia&ft:locale=en-US)**
+
+Enable Manager dashboard to view the Help Request on the landing page.
+
+    -   View the **Help Request** tab on the Manager Workspace landing page and in Conversation Monitoring list view.
+    -   Segment Help Request interactions by different channel including Chat, Email, Messaging, Phone and Video.
+-   **[Channel Management](https://www.servicenow.com/docs/access?context=explore-channels-configurable-wfo-cs&family=australia&ft:locale=en-US)**
+    -   View the **Help Request** tab on the Channel Management landing page.
+    -   Enable supervisors to open any active voice request to review context and take action by monitoring the live call, coaching the agent privately, or barging in to speak with both the agent and the customer.
 
 </td></tr></tbody>
 </table>## Changes
@@ -268,6 +312,8 @@ Australia
 
 Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Workforce Optimization for Customer Service is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -461,5 +507,5 @@ Australia
  See [Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=configurable-wfo-cs&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

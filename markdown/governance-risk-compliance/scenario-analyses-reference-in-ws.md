@@ -2,7 +2,7 @@
 title: Create Scenario analysis form
 description: Use the Create Scenario analysis form in Operational Resilience Workspace to add the details about the scenario analysis, milestones, assignees, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/scenario-analyses-reference-in-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/scenario-analyses-reference-in-ws.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

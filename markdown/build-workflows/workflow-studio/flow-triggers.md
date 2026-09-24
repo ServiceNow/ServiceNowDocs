@@ -2,7 +2,7 @@
 title: Workflow Studio flow trigger types
 description: Each trigger type defines when a flow starts and the starting data available to it. There are triggers for record operations, dates, and application operations.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-triggers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-triggers.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -69,7 +69,7 @@ Starts a flow when a record is either created or updated in a specific non-syste
 -   **For every update**: Triggers the flow every time that the record is updated, regardless of whether there has already been or currently are any running contexts for the flow.
 
 </td></tr></tbody>
-</table>**Note:** Flows including approval actions should only run the trigger once. In cases where you need to update and resubmit an approval, consider using a [Go back to flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/go-back-to-flow-logic.md) to ask for approval again.
+</table>**Note:** Flows including approval actions should only run the trigger once. In cases where you need to update and resubmit an approval, consider using a [Go back to flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/go-back-to-flow-logic.md) to ask for approval again.
 
 ## REST triggers
 
@@ -113,7 +113,7 @@ Kafka Message
 
 </td><td>
 
-Starts a flow when there's a message in a topic in your Kafka environment. For more information, see [Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-kafka.md).
+Starts a flow when there's a message in a topic in your Kafka environment. For more information, see [Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow-kafka.md).
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ MetricBase
 
 </td><td>
 
-Starts a flow when a MetricBase trigger is met. Requires the MetricBase application. For more information, see [Create a flow with a MetricBase trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-mb-flow.md).
+Starts a flow when a MetricBase trigger is met. Requires the MetricBase application. For more information, see [Create a flow with a MetricBase trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-mb-flow.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Proactive Analytics
 
 </td><td>
 
-Starts a flow when Proactive Analytics KPI score or KPI threshold values are met. Requires a Performance Analytics subscription to Proactive Analytics. For more information, see [Create a flow with a Proactive Analytics trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-proactive-analytics.md).
+Starts a flow when Proactive Analytics KPI score or KPI threshold values are met. Requires a Performance Analytics subscription to Proactive Analytics. For more information, see [Create a flow with a Proactive Analytics trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow-proactive-analytics.md).
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Service Catalog
 
 </td><td>
 
-Starts a flow from a Service Catalog item request. For more information, see [Create a flow with a Service Catalog trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-sc-flow.md).**Note:** Service Catalog triggers do not support catalog variables as part of the trigger condition. Instead, get or create catalog variables in the main body of the flow.
+Starts a flow from a Service Catalog item request. For more information, see [Create a flow with a Service Catalog trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-sc-flow.md).**Note:** Service Catalog triggers do not support catalog variables as part of the trigger condition. Instead, get or create catalog variables in the main body of the flow.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ SLA Task
 
 </td><td>
 
-Starts a flow from an SLA Definition record. For more information, see [Create a flow with an SLA Task trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-sla-task-flow.md).
+Starts a flow from an SLA Definition record. For more information, see [Create a flow with an SLA Task trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-sla-task-flow.md).
 
 </td></tr></tbody>
 </table>## Inbound email triggers
@@ -154,11 +154,11 @@ Start a flow when your instance receives an email.
 
 Inbound email flows take priority over inbound email actions. If you create flows with inbound email triggers, emails are first processed by the inbound email triggers before they are processed by inbound email actions.
 
-With inbound email actions, you don't have full control over email attachment handling or assigning the target record of an email. When you create a flow with an inbound email trigger, you can perform these actions with the [Move Email Attachments to Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/move-email-attachments-action.md) and the [Associate Record to Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/associate-to-email-action.md). For greater control over email attachments, you can also use the [Look up email attachments action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-email-attachment.md) to access a specific attachment as a data pill.
+With inbound email actions, you don't have full control over email attachment handling or assigning the target record of an email. When you create a flow with an inbound email trigger, you can perform these actions with the [Move Email Attachments to Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/move-email-attachments-action.md) and the [Associate Record to Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/associate-to-email-action.md). For greater control over email attachments, you can also use the [Look up email attachments action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-email-attachment.md) to access a specific attachment as a data pill.
 
 Although you can process an inbound email with multiple inbound email actions, you can't process an inbound email with multiple flows by default. Additional configuration is required. For information on how to stop processing in inbound email actions, see [Specifying the inbound email processing order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_OrderedEmailProcessingPlugin.md).
 
-For more information on running multiple flows on an inbound email, see [Allow multiple triggers to process an inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/deactivate-stop-processing.md).
+For more information on running multiple flows on an inbound email, see [Allow multiple triggers to process an inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/deactivate-stop-processing.md).
 
 The following diagram shows how inbound emails are processed by inbound email triggers. After the email has been classified as a reply, forward, or new email, the system tries to match the email to an active inbound email trigger. If the email meets the conditions of an inbound email trigger, the flow runs. If the flow issues stop processing, the email is finished being processed. If the flow does not issue stop processing, the system evaluates the conditions of more inbound email triggers. If there are no more inbound email triggers to evaluate, the system tries to match the email with an active inbound email action instead.
 
@@ -254,7 +254,7 @@ An object containing the triggering record.
 
 An array of objects containing the field values that changed. This data pill is only available for the **Updated** or **Created or Updated** trigger types.
 
-**Note:** To process the **Changed Fields** array data pill, you will need to use [For Each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-for-each.md). For more information on working with array data pills, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md).
+**Note:** To process the **Changed Fields** array data pill, you will need to use [For Each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic-for-each.md). For more information on working with array data pills, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/complex-data.md).
 
 -   **\[Table Label\] Table**
 
@@ -289,7 +289,7 @@ An object containing headers in the inbound request.
 
 -   **Request Body**
 
-Complex data object that defines the body structure of the inbound request. For more information on complex objects, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md).
+Complex data object that defines the body structure of the inbound request. For more information on complex objects, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/complex-data.md).
 
 
 </td></tr><tr><td>
@@ -443,5 +443,5 @@ Follow these general guidelines when creating record triggers.
     Since flows typically run as the user who triggers them, verify that users have access to all of the data specified in the trigger conditions. Avoid creating trigger conditions to related tables that typical users don't have access to. If your flow trigger conditions require access to role-restricted data, run your flows with the role needed to access that data.
 
 
-**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-reference.md)
+**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-designer-reference.md)
 

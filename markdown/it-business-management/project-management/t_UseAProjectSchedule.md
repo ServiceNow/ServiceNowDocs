@@ -2,7 +2,7 @@
 title: Assign a project schedule
 description: Without an assigned schedule, a project calculates a day as a full 24 work hours. To schedule tasks by a more realistic work day, assign a schedule to the project. If the schedules provided in the base system do not suit your needs, define a new one.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_UseAProjectSchedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_UseAProjectSchedule.html
 release: australia
 product: Project Management
 classification: project-management
@@ -29,7 +29,7 @@ Role required: it\_project\_manager
 3.  Select a schedule in the **Schedule** field and select **Save**.
 
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Activate the knowledge management internationalization plugin
 description: To enable translation of knowledge articles, you must activate multiple plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/c\_ActKMIntPlugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/c\_ActKMIntPlugin.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -16,7 +16,7 @@ breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage cont
 
 To enable translation of knowledge articles, you must activate multiple plugins.
 
--   Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)
+-   Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)
 -   I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugin. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 -   Internationalization plugins for each appropriate language. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
 
@@ -46,5 +46,5 @@ The I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.know
 
 Additionally, the Translated Versions related list is automatically added to the Knowledge form after you save an article.
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

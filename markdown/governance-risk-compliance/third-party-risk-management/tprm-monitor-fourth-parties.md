@@ -2,7 +2,7 @@
 title: Monitoring your fourth-nth parties
 description: You can identify and manage the third-party risks that depend on the services of the fourth-nth parties by using the Third-party Risk Management application. By monitoring your fourth-nth parties, you can help to ensure that they adhere to the same security and compliance standards as the primary third party.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-monitor-fourth-parties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-monitor-fourth-parties.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -41,13 +41,13 @@ Here are the different actions that you can take to manage and monitor fourth-nt
 
 -   **Register the fourth-nth parties**
 
-    If you're a third-party risk \(TPR\) assessor or manager, you can register fourth-nth parties after collecting responses from a third party by using the fourth-party registration questionnaire. You can send the fourth-party registration questionnaire only to the third parties and not engagements. For more information, see [Register a fourth-nth party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-register.md).
+    If you're a third-party risk \(TPR\) assessor or manager, you can register fourth-nth parties after collecting responses from a third party by using the fourth-party registration questionnaire. You can send the fourth-party registration questionnaire only to the third parties and not engagements. For more information, see [Register a fourth-nth party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-register.md).
 
 -   **View the fourth-nth parties that are associated with a third party**
 
     You can view all the related fourth-nth parties by navigating to the **Downstream suppliers** tab of the third-party page in Vendor Management Workspace. Viewing all the fourth parties that are linked to a third party can help you make informed decisions about initiating or continuing a relationship with an engagement. For instance, if a fourth party that is associated with a third party is known for higher risks in the automotive industry, it might still be acceptable to pursue an engagement in a different industry. However, if an engagement with the same third party involves the automotive industry, the risk could be considered too high.
 
-    For more information on how to view all the related fourth-nth parties, see [Viewing information on fourth parties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-downstream-suppliers.md).
+    For more information on how to view all the related fourth-nth parties, see [Viewing information on fourth parties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-downstream-suppliers.md).
 
 -   **View the fourth-parties overview section**
 
@@ -55,13 +55,13 @@ Here are the different actions that you can take to manage and monitor fourth-nt
 
     **Note:** The known fourth parties are organizations that have already been used as third parties in your risk management program. The unknown fourth parties are only categorized as fourth parties that haven’t been used or identified as third parties.
 
-    For more information on viewing the known fourth parties, the sub-parties that are associated with the third parties, and the unknown fourth parties, see [TPRM Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-home-page.md).
+    For more information on viewing the known fourth parties, the sub-parties that are associated with the third parties, and the unknown fourth parties, see [TPRM Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-home-page.md).
 
 -   **Manually create a fourth-nth party record**
 
     If you’re a TPR assessor or manager, you can manually create a fourth-nth party record.
 
-    For more information on how to create a fourth-nth party record, see [Create a fourth-nth party record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-create.md).
+    For more information on how to create a fourth-nth party record, see [Create a fourth-nth party record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-create.md).
 
     **Note:** You can add an existing third party as a fourth-nth party to another third party by navigating to the **Downstream suppliers** tab of a third-party page in the Vendor Management Workspace and selecting **Add**. After it’s added the existing third party is now categorized as both a third party and fourth-nth party for the chosen third party and includes all collected information.
 
@@ -69,13 +69,13 @@ Here are the different actions that you can take to manage and monitor fourth-nt
 
     If you’re a TPR assessor or manager, you can promote a fourth-nth party record to a third party. After you promote a fourth-nth party to a third party, a third-party record is created and the existing fourth-nth party is identified as a known fourth party.
 
-    For more information on how to promote a fourth-nth party record to a third-party record, see [Promote a fourth-nth party to a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-promote.md).
+    For more information on how to promote a fourth-nth party record to a third-party record, see [Promote a fourth-nth party to a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-promote.md).
 
 
 **Related topics**  
 
 
-[Viewing information on fourth parties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-downstream-suppliers.md)
+[Viewing information on fourth parties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-tp-downstream-suppliers.md)
 
-[TPRM Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-home-page.md)
+[TPRM Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-home-page.md)
 

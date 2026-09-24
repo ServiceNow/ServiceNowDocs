@@ -2,7 +2,7 @@
 title: Modify a scheduled job for Publish Journey Accelerator plans
 description: Update the Publish Journey Accelerator plans job. The job evaluates a plan's publish date to determine when to publish the plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/ja-schdule-publish-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-accelerator/ja-schdule-publish-plans.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator

@@ -2,7 +2,7 @@
 title: Create a facilities support request using Care Team Portal
 description: Use the Care Team Portal to create a facilities support request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-create-request-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-facilities-create-request-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Select the catalog item that aligns with your request type. Within the support r
 
 For example, a nurse who notices an issue with the temperature level in a room would navigate to **Create a request &gt; Request Facilities service &gt; Temperature and Humidity Control** and in the support request, set **Category** to **Room climate issues**.
 
-For detailed information on the Facilities service catalog, see [Service Catalog installed with Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-service-catalog.md).
+For detailed information on the Facilities service catalog, see [Service Catalog installed with Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-facilities-service-catalog.md).
 
 ## Procedure
 
@@ -68,7 +68,7 @@ Category
 
 </td><td>
 
-The category of this request. For a detailed list of categories, see [Service Catalog installed with Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-service-catalog.md).
+The category of this request. For a detailed list of categories, see [Service Catalog installed with Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-facilities-service-catalog.md).
 
 </td></tr><tr><td>
 

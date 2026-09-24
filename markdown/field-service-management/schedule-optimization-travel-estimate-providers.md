@@ -2,7 +2,7 @@
 title: Schedule Optimization travel estimate providers
 description: Travel estimate providers used by Schedule Optimization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/schedule-optimization-travel-estimate-providers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/schedule-optimization-travel-estimate-providers.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Field Service Management]
 
 Travel estimate providers used by Schedule Optimization.
 
-Efficient allocation of work order tasks to agents depends on accurate estimation of travel time, taking into account both the agent's location and the task's location. Schedule Optimization supports two options to calculate distances between agents and task, Straight-line and Beans.AI. An administrator is required to select a travel estimate provider for all qualifier-level groups. See, [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) for more information on where the options are located.
+Efficient allocation of work order tasks to agents depends on accurate estimation of travel time, taking into account both the agent's location and the task's location. Schedule Optimization supports two options to calculate distances between agents and task, Straight-line and Beans.AI. An administrator is required to select a travel estimate provider for all qualifier-level groups. See, [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) for more information on where the options are located.
 
 ## Straight-line
 
@@ -45,5 +45,5 @@ By default, the **Inputs** field is set to Beans.AI. By default **Decision table
 
 **Note:** Straight-line distance calculation is a fallback logic in case a customer doesn’t want to choose a map provider for travel time estimates.
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 

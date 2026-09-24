@@ -2,7 +2,7 @@
 title: Add special handling notes for an HR Service Delivery case
 description: Create special handling notes that appear for a specific HR case or set of conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-add-special-handling-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-add-special-handling-notes.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -158,5 +158,5 @@ This condition shows the special handling note for a General Inquiry case for Ai
 </table>4.  Select **Submit** or **Update**.
 
 
-**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

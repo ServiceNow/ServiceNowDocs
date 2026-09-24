@@ -2,7 +2,7 @@
 title: Connect Workplace Reservation Management with Microsoft Teams
 description: Establish connection between Microsoft Teams Communications and Workplace Reservation Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -28,31 +28,31 @@ Role required: admin
 
 ## Procedure
 
-1.  [Authenticate Microsoft Teams with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/authenticate-microsoft-teams-with-micrsoft-azure.md).
+1.  [Authenticate Microsoft Teams with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/authenticate-microsoft-teams-with-micrsoft-azure.md).
 
 2.  For Microsoft Teams, to create a meeting link on behalf of other users, refer to [Microsoft documentation](https://learn.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy/).
 
-3.  [Setup OAuth connectivity with Microsoft Teams Connections spoke for virtual meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.md).
+3.  [Setup OAuth connectivity with Microsoft Teams Connections spoke for virtual meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.md).
 
-4.  [Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-graph.md).
+4.  [Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-graph.md).
 
-5.  [Create credential for Microsoft Teams Communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-credentials-for-microsoft-teams-connection.md).
+5.  [Create credential for Microsoft Teams Communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-credentials-for-microsoft-teams-connection.md).
 
-6.  [Create connection and credential for Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-connection-and-credentials-alias-for-microsoft-teams-graph.md).
+6.  [Create connection and credential for Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-connection-and-credentials-alias-for-microsoft-teams-graph.md).
 
 
-1.  [Authenticate Microsoft Teams with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/authenticate-microsoft-teams-with-micrsoft-azure.md)  
+1.  [Authenticate Microsoft Teams with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/authenticate-microsoft-teams-with-micrsoft-azure.md)  
 Set up authentication with Microsoft Azure to connect Microsoft Teams with Workplace Reservation Management application.
-2.  [Setup OAuth connectivity with Microsoft Teams Connections spoke for virtual meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.md)  
+2.  [Setup OAuth connectivity with Microsoft Teams Connections spoke for virtual meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.md)  
 Register your Microsoft Teams Communications spoke with ServiceNow instance for OAuth authorization.
-3.  [Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-graph.md)  
+3.  [Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-graph.md)  
 Register your Microsoft Teams Graph with your ServiceNow® instance for OAuth authorization to get recordings after a virtual meeting.
-4.  [Create credential for Microsoft Teams Communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-credentials-for-microsoft-teams-connection.md)  
+4.  [Create credential for Microsoft Teams Communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-credentials-for-microsoft-teams-connection.md)  
 Setup credentials for Microsoft Teams Communication spoke.
-5.  [Create connection and credential for Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-connection-and-credentials-alias-for-microsoft-teams-graph.md)  
+5.  [Create connection and credential for Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-connection-and-credentials-alias-for-microsoft-teams-graph.md)  
 Setup connection and credentials alias for Microsoft Teams Graph.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Fix SGC import set issues with the ServiceNow Otto SGC diagnosis skill
 description: To reduce debugging and resolution time and effort, the Service Graph Connector diagnosis skill generates summaries of errors and recommendations for resolving processing errors with SGC import sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-diagnose.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-diagnose.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -40,15 +40,15 @@ When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted imag
 
     **Note:** If ServiceNow Otto doesn't recognize the entered text, it displays a list of the Service Graph Connectors installed on your instance by their discovery source names, such as `SG-Infoblox`. You can then select a connector for further diagnosis.
 
-<table id="choicetable_x5w_r4d_zcc"><thead><tr><th align="left" id="d210082e206">
+<table id="choicetable_x5w_r4d_zcc"><thead><tr><th align="left" id="d210277e206">
 
 Option
 
-</th><th align="left" id="d210082e209">
+</th><th align="left" id="d210277e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210082e215">
+</th></tr></thead><tbody><tr><td id="d210277e215">
 
 **Connector name**
 
@@ -60,7 +60,7 @@ After you enter a connector name, you can select a data source that is associate
 
 \[Omitted image "now-assist-sgc-diagnose-connector.png"\] Alt text: Diagnosing a failed import set with a connector name.
 
-</td></tr><tr><td id="d210082e249">
+</td></tr><tr><td id="d210277e249">
 
 **Data source name**
 
@@ -68,7 +68,7 @@ After you enter a connector name, you can select a data source that is associate
 
 Data source name for a connector to diagnose. For example, `SG-AWS-Organization`.After entering a data source that is associated with a connector, you can select a failed import set that is associated with the data source. Based on the inputs, the import set number that was last processed with errors is displayed. Alternatively, you can choose to view other failed import sets. If no failed import sets are available, you can select a different data source for the connector.
 
-</td></tr><tr><td id="d210082e263">
+</td></tr><tr><td id="d210277e263">
 
 **Import set**
 
@@ -124,7 +124,7 @@ Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use 
 </table>**Related topics**  
 
 
-[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
+[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 
 [sg-workspace]
 

@@ -2,7 +2,7 @@
 title: Reassign overdue Risk Management assessments with the GRC Mobile application
 description: Reassign overdue risk assessments to another member of your assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-assessments.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -26,7 +26,7 @@ Reassign a risk assessment that is past its due date directly from the list of r
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.md).
 
 2.  With the Risk landing screen displayed, under the `Team's Overdue Work` section, tap **Assessments**.
 
@@ -34,7 +34,7 @@ Reassign a risk assessment that is past its due date directly from the list of r
 
     The Assessments screen is displayed with a list of records.
 
-3.  See [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-set-filters.md) to search for records that match specific search criteria.
+3.  See [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
@@ -50,15 +50,15 @@ Reassign a risk assessment that is past its due date directly from the list of r
 
 9.  Choose one from the following table to continue.
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d44942e179">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d44811e179">
 
 Option
 
-</th><th align="left" id="d44942e182">
+</th><th align="left" id="d44811e182">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44942e188">
+</th></tr></thead><tbody><tr><td id="d44811e188">
 
 **Reassign**
 
@@ -66,7 +66,7 @@ Description
 
 With the record displayed, review the details and tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to reassign the assessment.
 
-</td></tr><tr><td id="d44942e203">
+</td></tr><tr><td id="d44811e203">
 
 **Tap a screen icon at the bottom of the screen.**
 
@@ -81,5 +81,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Risk icon to ret
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
+**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
 

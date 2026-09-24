@@ -2,7 +2,7 @@
 title: Configure alerts to auto-dismiss
 description: Set alerts to automatically clear after a specified time period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/uib-configure-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/uib-configure-alerts.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -38,7 +38,7 @@ Configurations made through an event take priority over those made in the experi
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Select **View experience settings**.
 
@@ -87,5 +87,5 @@ Configurations made through an event take priority over those made in the experi
 
 Alerts of the selected type are now set to auto-dismiss after the specified time period.
 
-**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md)
 

@@ -2,7 +2,7 @@
 title: ServiceNow Otto skills for EAP
 description: Use ServiceNow Otto skills to accelerate epic and story creation, refine acceptance criteria, and monitor epic health in Enterprise Agile Planning \(EAP\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/ai-skills-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/ai-skills-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -21,7 +21,7 @@ Use ServiceNow Otto skills to accelerate epic and story creation, refine accepta
 
 The EAP application includes ServiceNow Otto skills and features. These enable product managers, portfolio managers, and agile teams to streamline epic and story creation, refinement, and tracking.
 
--   **[Assess the status of an epic using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/assess-epic-status-now-assist-eap.md)**
+-   **[Assess the status of an epic using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/assess-epic-status-now-assist-eap.md)**
 
     Use ServiceNow Otto to automatically evaluate epic health across six risk dimensions: story health, blocked stories, dependencies, progress, timeline, and ownership. The skill returns a red, yellow, or green status with plain-English reasoning, giving portfolio managers a consolidated risk view without manually reviewing stories, timelines, and assignments.
 
@@ -29,7 +29,7 @@ The EAP application includes ServiceNow Otto skills and features. These enable p
 
     \[Omitted image "eap-na-epic-health.png"\] Alt text: Epic health assessment card showing status indicators in Enterprise Agile Planning.
 
--   **[Quick story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)**
+-   **[Quick story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)**
 
     As a product manager or agile team member, generate complete user stories directly from an epic using the Quick story generation skill, without lengthy conversations or manual authoring. This AI feature removes the friction of story creation so your team can focus on delivery.
 
@@ -40,7 +40,7 @@ The EAP application includes ServiceNow Otto skills and features. These enable p
     -   Create well-structured stories instantly, reducing the time and effort spent on manual story authoring.
     -   Generate complete stories including title, description, and acceptance criteria, maintaining consistency across your backlog.
     -   Maintain full control with inline editing of all AI-generated fields before saving, preserving human oversight throughout the process.
--   **[Generate acceptance criteria skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)**
+-   **[Generate acceptance criteria skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)**
 
     As a product manager, generate clear, comprehensive, and testable acceptance criteria for your user stories, instead of spending hours writing and refining them manually.
 
@@ -48,7 +48,7 @@ The EAP application includes ServiceNow Otto skills and features. These enable p
 
     \[Omitted image "eap-na-acc-criteria.png"\] Alt text: Generate acceptance criteria for an EAP Story using ServiceNow Otto.
 
--   **[Create stories agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.md)**
+-   **[Create stories agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.md)**
 
     Use the Create stories AI agentic workflow, powered by ServiceNow Otto, to generate high-quality stories for planning items through an interactive, conversational process. The agent reviews an epic or feature description, proposes story recommendations, and refines them based on your feedback before saving validated stories to the epic.
 

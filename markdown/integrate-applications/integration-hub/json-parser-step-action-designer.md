@@ -2,7 +2,7 @@
 title: JSON parser step
 description: Identify structured data from a JSON payload without having to write a script. Map incoming JSON content to a complex object output that you can use in other steps or actions. At runtime, values from a JSON payload populate the complex object output.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/json-parser-step-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/json-parser-step-action-designer.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -26,7 +26,7 @@ Available as an Workflow Studio action step. Users with the action\_designer rol
 
 ## Payload size limit
 
-At runtime, JSON parser step supports payloads up to 10 MB. For larger payloads, create a Data Stream action. For more information on Data Stream actions, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md).
+At runtime, JSON parser step supports payloads up to 10 MB. For larger payloads, create a Data Stream action. For more information on Data Stream actions, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/data-stream-actions.md).
 
 ## Fields
 
@@ -44,7 +44,7 @@ Source
 
 </td><td>
 
-In the **Source data** field, select or drag a data pill that contains the source JSON payload. For example, a REST step **Response Body** data pill. At runtime, values from the data source populate the complex object output.Under **Source data** and in the scripting window, enter an example payload to generate your complex object. For example, if parsing the response from a [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md) that returns a list of users, enter the expected JSON object for a single user. You can create any example JSON payload with the following limitations:
+In the **Source data** field, select or drag a data pill that contains the source JSON payload. For example, a REST step **Response Body** data pill. At runtime, values from the data source populate the complex object output.Under **Source data** and in the scripting window, enter an example payload to generate your complex object. For example, if parsing the response from a [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/rest-request-action-designer.md) that returns a list of users, enter the expected JSON object for a single user. You can create any example JSON payload with the following limitations:
 
  -   Multidimensional arrays are not supported.
 -   Hyphens, periods, spaces, double colons, and the @ symbol in JSON keys are not supported.

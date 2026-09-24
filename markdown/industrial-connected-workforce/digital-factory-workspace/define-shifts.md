@@ -2,7 +2,7 @@
 title: Define a shift
 description: Define shifts for your organization in the Industrial Connected Workforce by using the scheduling functionality. Configuring shifts is a prerequisite for scheduling standard tasks and for filtering tasks to see which shift they were created in or which shift they’re due.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/define-shifts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/define-shifts.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -87,5 +87,5 @@ The shift and its business calendar entries have been created successfully and a
 -   My next shift
 -   My previous shift
 
-**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
+**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
 

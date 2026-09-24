@@ -2,7 +2,7 @@
 title: Tables installed with Care Team Work Management
 description: The following tables are installed with Care Team Work Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-tables-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-tables-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ The Care Team Case \[sn\_cto\_case\] table generates cases pertaining to care te
 
 It extends the Healthcare Operations case \[sn\_hco\_case\].
 
-For information on the Healthcare Operations case, see [Healthcare Operations Case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-hco-case.md).
+For information on the Healthcare Operations case, see [Healthcare Operations Case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-cto-hco-case.md).
 
 <table id="table_nyq_nvl_1gc"><tbody><tr><td>
 

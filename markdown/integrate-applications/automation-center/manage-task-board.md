@@ -2,7 +2,7 @@
 title: Manage automation tasks
 description: Manage all tasks associated with the automation requests from one location from the Task Board in the Automation Center Kanban board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/manage-task-board.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/manage-task-board.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -72,10 +72,10 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
         Select the **Add Task** icon.
 
-        The **Create New Automation Task** form is displayed. Provide the details. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-task-form.md).
+        The **Create New Automation Task** form is displayed. Provide the details. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-task-form.md).
 
         Verify that the associated automation request is either in the **Planned** or **In Progress** state.
 
 
-**Parent Topic:**[Automation Center Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/kanban.md)
+**Parent Topic:**[Automation Center Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/kanban.md)
 

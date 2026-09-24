@@ -2,7 +2,7 @@
 title: Import messages from a ticket manually
 description: You can import the conversation with a user from Microsoft Teams and append them in the Comments to store all the important messages in the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/import-messages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/import-messages.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -78,5 +78,5 @@ Import messages as
     \[Omitted image "manual-import-error.png"\] Alt text: Import messages modal error message for automaticlaly imported chats
 
 
-**Parent Topic:**[Request based chat - Start and import chat from classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/initiate-conversation-requester.md)
+**Parent Topic:**[Request based chat - Start and import chat from classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/initiate-conversation-requester.md)
 

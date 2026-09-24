@@ -2,7 +2,7 @@
 title: Remote Data Options for Remote Tables
 description: Understand the different approaches of implementing remote tables, and the advantages and disadvantages of each.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-remote-data-options-for-remote-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-remote-data-options-for-remote-tables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

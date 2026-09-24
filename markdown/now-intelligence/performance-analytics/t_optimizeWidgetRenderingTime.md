@@ -2,7 +2,7 @@
 title: Optimize widget rendering time on responsive dashboards
 description: Large dashboards can take a long time to render, especially when widgets depend on complex queries or queries on large tables. You can use system properties to optimize how widgets load.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_optimizeWidgetRenderingTime.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_optimizeWidgetRenderingTime.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

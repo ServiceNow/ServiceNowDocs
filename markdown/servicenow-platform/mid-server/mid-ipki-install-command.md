@@ -2,7 +2,7 @@
 title: Install MID Server with the command line installer
 description: Using the ITOM Infra Services Workspace, MID Servers can be deployed with the command line installer. The command line installer automates many of the processes, especially for first time installations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-ipki-install-command.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-ipki-install-command.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -50,7 +50,7 @@ Role required: admin
 
 8.  Create a dedicated non-admin \(for Windows hosts\) or non-root \(for Linux hosts\) service account for the MID Server.
 
-    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md) and [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
+    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-install-prereqs.md) and [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
 
 9.  Open PowerShell in the intended MID Server installation directory and run the command provided by the installer.
 
@@ -67,7 +67,7 @@ Role required: admin
 
 ## What to do next
 
-Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
+Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
 
-**Parent Topic:**[Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-installation-landing.md)
+**Parent Topic:**[Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-installation-landing.md)
 

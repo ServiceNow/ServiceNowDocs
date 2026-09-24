@@ -2,7 +2,7 @@
 title: Copy an incident or create a child incident
 description: Copy an incident or create a child incident without manually entering the value of all the fields in the new incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/copy-incident-or-create-child-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/copy-incident-or-create-child-incident.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -31,21 +31,21 @@ The Copy Incident functionality copies the details of an existing incident recor
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Open an existing incident that you want to copy or from which you want to create a child incident.
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_rsq_41q_23b"><thead><tr><th align="left" id="d142673e138">
+<table id="choicetable_rsq_41q_23b"><thead><tr><th align="left" id="d142672e138">
 
 Option
 
-</th><th align="left" id="d142673e141">
+</th><th align="left" id="d142672e141">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d142673e147">
+</th></tr></thead><tbody><tr><td id="d142672e147">
 
 **Copy an incident**
 
@@ -53,7 +53,7 @@ Action
 
 Click the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: The Additional actions icon and then click **Copy Incident**.**Note:** After the incident is copied, the **Work notes** field of the new incident is updated with the following message: `Created from a similar incident: INCXXXXXX`.
 
-</td></tr><tr><td id="d142673e174">
+</td></tr><tr><td id="d142672e174">
 
 **Create a child incident**
 

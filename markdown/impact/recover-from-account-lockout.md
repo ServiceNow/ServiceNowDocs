@@ -2,7 +2,7 @@
 title: Recover from account lockout
 description: Unlock the integration user account and clear the password reset flag after repeated failed validation attempts trigger the account lockout policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/recover-from-account-lockout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/recover-from-account-lockout.html
 release: australia
 topic_type: task
 last_updated: "2026-05-19"
@@ -43,7 +43,7 @@ The integration user account is unlocked and the password reset flag is cleared.
 
 ## What to do next
 
-Before retrying validation, resolve the root cause of the failed attempts. See [Validate your instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/validate-instance-connection.md) for the full validation troubleshooting checklist.
+Before retrying validation, resolve the root cause of the failed attempts. See [Validate your instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/validate-instance-connection.md) for the full validation troubleshooting checklist.
 
-**Parent Topic:**[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md)
+**Parent Topic:**[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md)
 

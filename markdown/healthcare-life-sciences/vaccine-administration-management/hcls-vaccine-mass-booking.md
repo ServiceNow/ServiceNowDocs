@@ -2,7 +2,7 @@
 title: Mass book vaccine appointments
 description: Schedule appointments for multiple users at the same time instead of having users individually request appointments in the self-service portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-vaccine-mass-booking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/vaccine-administration-management/hcls-vaccine-mass-booking.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -118,5 +118,5 @@ When you're ready to schedule the appointments, return to the configuration reco
 
 **Note:** Whenever you process a booking, a new record gets created on the **Mass Booking Jobs** tab. Use this tab to view the progress of the scheduled appointments. For example, you can view the number of total appointments booked, appointments booked in a preferred center, the number of bookings failed for users, and so on.
 
-**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

@@ -2,7 +2,7 @@
 title: GitLab pull request configurations
 description: GitLab pull \(merge\) request pipeline executions, which goes through change acceleration before moving to production, can be tracked in DevOps Change Velocity. This integration also collects GitLab merge requests meta data to persist in DevOps Change Velocity. The data is linked with the change created in the merge request pipeline execution and can be used for applying change policies, review, and approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/gitlab-pull-request-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/gitlab-pull-request-config.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -33,7 +33,7 @@ When enabled, the pull \(merge\) request changes will be reflected in DevOps Cha
 
 For pull request and orchestration pipeline linking and to enable change approval tracking, the following are required:
 
--   Use GitLab Docker for change tracking. For detailed information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
+-   Use GitLab Docker for change tracking. For detailed information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
 -   From your GitLab project,
     1.  Navigate to
         -   For GitLab cloud: **Settings** &gt; **Merge requests**.
@@ -79,5 +79,5 @@ For pull request and orchestration pipeline linking and to enable change approva
     ```
 
 
-**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
+**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
 

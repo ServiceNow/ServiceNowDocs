@@ -2,7 +2,7 @@
 title: View assigned knowledge tasks in Agent Workspace for HR Case Management
 description: View your assigned knowledge tasks in Agent Workspace for HR Case Management when a knowledge gap is reported in a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/knowledge-task-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/knowledge-task-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

@@ -2,7 +2,7 @@
 title: Hardware Asset Management integration with Zero Touch Mobility
 description: ServiceNow Hardware Asset Management is integrated with Samsung SDS Zero Touch Mobility to manage the complete life-cycle of mobile devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/ham-for-ztm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/ham-for-ztm.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -36,9 +36,9 @@ Requirements and limitations for Hardware Asset Management integration with Zero
 
     -   Bring Your Own Asset
     -   Corporate Asset
--   Only mobile devices are licensed under this solution. You can view the subscription details using the ITAM license report. For more information, see [View the license report for the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-license-report-ham.md).
+-   Only mobile devices are licensed under this solution. You can view the subscription details using the ITAM license report. For more information, see [View the license report for the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/view-license-report-ham.md).
 
-    **Note:** Even if Hardware Asset Management is activated explicitly on your ServiceNow instance, the mobile devices are licensed only under the Mobile Device resource category of the Hardware Asset Management integration with Zero Touch Mobility solution. For more information, see [Licensing framework for Hardware Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/licensing-ham-solutions.md).
+    **Note:** Even if Hardware Asset Management is activated explicitly on your ServiceNow instance, the mobile devices are licensed only under the Mobile Device resource category of the Hardware Asset Management integration with Zero Touch Mobility solution. For more information, see [Licensing framework for Hardware Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/licensing-ham-solutions.md).
 
 -   The following Hardware Asset Management features aren't available:
 
@@ -49,32 +49,32 @@ Requirements and limitations for Hardware Asset Management integration with Zero
     -   Success Portal
     **Note:** HAM Guided Setup is available. However, it isn't required to run the setup.
 
-    For more information on the Hardware Asset Management workflows and features, see [Hardware Asset Management subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-subscription.md).
+    For more information on the Hardware Asset Management workflows and features, see [Hardware Asset Management subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-subscription.md).
 
 
 ## Supported Hardware Asset Management features
 
 The following Hardware Asset Management features are available without any restrictions:
 
--   [Stock order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-inventory-stock-order.md)
--   [Advanced Shipment Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/advanced-shipment-notification.md)
--   [Standard Asset Request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-request-flow.md)
--   [Shipment carrier integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/integrating-with-third-party-carrier-apps.md)
--   [Advanced inventory and distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-distribution-channels.md)
--   [Asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reclaim-asset.md)
+-   [Stock order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-inventory-stock-order.md)
+-   [Advanced Shipment Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/advanced-shipment-notification.md)
+-   [Standard Asset Request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/hardware-request-flow.md)
+-   [Shipment carrier integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/integrating-with-third-party-carrier-apps.md)
+-   [Advanced inventory and distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/associate-stockroom-with-distribution-channels.md)
+-   [Asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reclaim-asset.md)
 
 The following Hardware Asset Management features have limited availability:
 
 -   HAM workflows: Non-mobile devices are excluded from the HAM workflows.
--   [Lease expiration flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.md): Non-mobile devices are excluded from this flow.
--   [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md): Reports and dashboards related to normalization of assets aren't available.
+-   [Lease expiration flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.md): Non-mobile devices are excluded from this flow.
+-   [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-workspace.md): Reports and dashboards related to normalization of assets aren't available.
 
-**Parent Topic:**[Hardware Asset Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-integrations.md)
+**Parent Topic:**[Hardware Asset Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-integrations.md)
 
 **Related topics**  
 
 
 [Hardware Asset Management integration with Contract Management Pro]()
 
-[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/exploring-ham.md)
+[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 

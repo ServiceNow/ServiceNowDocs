@@ -2,7 +2,7 @@
 title: Similarity solutions
 description: Similarity solutions enable you to use Machine Learning \(ML\) to compare the text in a resolved alert record to an open alert record to reuse its resolution approach.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/word-collection-similarity-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/word-collection-similarity-solution.html
 release: australia
 product: Event Management
 classification: event-management
@@ -57,5 +57,5 @@ To show the training solution progress, the ML solution automatically performs t
 |Training the solution.|The training service trains the solution.|
 |Uploading the trained solution.|The training service uploads the solution as attachment records.|
 
-**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-similarity.md)
 

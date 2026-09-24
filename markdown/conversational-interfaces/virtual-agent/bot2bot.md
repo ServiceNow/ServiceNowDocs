@@ -2,7 +2,7 @@
 title: Virtual Agent bot-to-bot integration
 description: The Virtual Agent API supports environments that use multiple bots. In this situation, a primary bot communicates with third-party secondary bots, such as a ServiceNow bot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/bot2bot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/bot2bot.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -39,5 +39,5 @@ You can [add system properties](https://raw.githubusercontent.com/ServiceNow/Ser
 |va.bot.to.bot.take.control\_times|Number of times that Virtual Agent tries to get a response, after which control is returned to the primary bot.|2|
 |va.bot.to.bot.score.normalization\_factor|A value used to normalize the prediction confidence score returned by Virtual Agent, if the primary bot does not use intents to route requests to the appropriate bot.|1|
 
-**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

@@ -2,7 +2,7 @@
 title: Domain separation and Visual Task Boards
 description: Domain separation is supported in the Visual Task Boards application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/domain-separation-visual-task-boards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/domain-separation-visual-task-boards.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -34,7 +34,7 @@ Visual Task Boards that are "data-driven" show the data from tables that are lik
 
 Condition-based criteria is used to filter that data. Free-form VTBs' use Private Tasks \(vtb\_task\), which supports domain separation as an extension of Task and inherits domain separation logic as a result.
 
-**Parent Topic:**[Visual Task Boards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/vis-task-boards-ref.md)
+**Parent Topic:**[Visual Task Boards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/vis-task-boards-ref.md)
 
 **Related topics**  
 

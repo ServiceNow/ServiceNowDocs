@@ -2,7 +2,7 @@
 title: Assign a data item with parameters to a record screen
 description: When you associate a parametrized data item with a record screen, additional fields appear in the screen configuration that you must complete for the parameter to be applied.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-assign-param-data-item-record-screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-assign-param-data-item-record-screen.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ When you associate a parametrized data item with a record screen, additional fie
 
 ## Before you begin
 
-Make sure that you have configured a data item that has parameters. For more information, see [Configure a parametrized data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-parametrized-data-item.md).
+Make sure that you have configured a data item that has parameters. For more information, see [Configure a parametrized data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-config-parametrized-data-item.md).
 
 Role required: admin
 
@@ -215,7 +215,7 @@ The value that appears by default in the UI field. The Default value type field 
         -   **Append encoded query**: Automatically inputs data from an encoded query.
     3.  Select **Save**.
 
-13. Complete any additional screen fields as needed. For more information, see [Create a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-configure-applet-screens.md).
+13. Complete any additional screen fields as needed. For more information, see [Create a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-configure-applet-screens.md).
 
 14. Select **Save**.
 

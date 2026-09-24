@@ -2,7 +2,7 @@
 title: Components installed with voice
 description: Information about the roles, tables, and scheduled jobs that are installed with Voice Agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -46,5 +46,5 @@ The following table consists of system properties to set up AI voice agents.
 |--------|-----------|
 |sn\_aia.enable\_voice\_agent\_setup|The system property to enable AI voice agents. Set the value of the property to true to enable AI voice agents on the instance.|
 
-**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
+**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
 

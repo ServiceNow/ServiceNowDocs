@@ -2,7 +2,7 @@
 title: Register the Discovery Sensor for OT
 description: When you have installed the Discovery Console for OT and the Discovery Sensor for OT, register the Sensor to the Console with the Console's Device Management Interface \(DMI\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/registering-ot-sensor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/registering-ot-sensor.html
 release: australia
 topic_type: task
 last_updated: "2026-03-24"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Confirm you that you have installed the Sensor. You must register the Sensor to the Console with the DMI. The DMI is a web-based interface that lets you configure and register the Sensor with the Console. For more information on the DMI, see [Device Management Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/dmi.md). Registering the Sensor confirms it can communicate with the Console.
+Confirm you that you have installed the Sensor. You must register the Sensor to the Console with the DMI. The DMI is a web-based interface that lets you configure and register the Sensor with the Console. For more information on the DMI, see [Device Management Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/dmi.md). Registering the Sensor confirms it can communicate with the Console.
 
 ## Procedure
 
@@ -89,5 +89,5 @@ Confirm you that you have installed the Sensor. You must register the Sensor to 
 
 The Sensor and the Console can now communicate and generate queries.
 
-**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-discovery-sensor-ot.md)
 

@@ -2,7 +2,7 @@
 title: Configure Code Signing Enterprise on your trusted instance
 description: Turn on and configure Code Signing on your trusted instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cse-turn-on-cse.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cse-turn-on-cse.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,13 +22,13 @@ Roles required:
 -   security\_admin
 -   codesigning\_admin
 
-    **Note:** The codesigning\_admin role can be assigned using the process detailed in [Assign the Code Signing Administrator Role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cse-assign-roles.md).
+    **Note:** The codesigning\_admin role can be assigned using the process detailed in [Assign the Code Signing Administrator Role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cse-assign-roles.md).
 
 -   sn\_kmf.cryptographic\_manager
 
 You must have at least one cryptographic key pair and certificate \(p12 file extension\) for customer signing and Circle of Trust \(COT\) administration. For improved security, consider using separate cryptographic key pairs for customer signing and COT administration.
 
-**Warning:** After completing this process, you will have downloaded a configuration file that must be installed on your protected instance within an hour. Verify that you have time available after this process to upload the configuration file to your protected instance. For details on that process, see [Upload your Code Signing configuration file to your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cse-upload-cs-config.md).
+**Warning:** After completing this process, you will have downloaded a configuration file that must be installed on your protected instance within an hour. Verify that you have time available after this process to upload the configuration file to your protected instance. For details on that process, see [Upload your Code Signing configuration file to your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cse-upload-cs-config.md).
 
 ## Procedure
 
@@ -60,7 +60,7 @@ You must have at least one cryptographic key pair and certificate \(p12 file ext
 
 13. On the **Export Configuration** file page, select **Export** to create and download a configuration file used to turn on Code Signing on your protected instance.
 
-    The export process downloads an XML file to your local machine for use in the steps details in [Configure Code Signing Enterprise on your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cse-ppi-config.md).
+    The export process downloads an XML file to your local machine for use in the steps details in [Configure Code Signing Enterprise on your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cse-ppi-config.md).
 
     **Note:** Code Signing enforces limits on large update sets to improve the user experience. The maximum size for an update set is 10,000 records.
 

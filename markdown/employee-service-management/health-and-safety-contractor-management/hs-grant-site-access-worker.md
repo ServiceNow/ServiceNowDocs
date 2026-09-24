@@ -2,7 +2,7 @@
 title: Grant site access to a contractor worker
 description: When the contractor worker has completed all prerequisite tasks, you can grant them access to the site to perform required tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/hs-grant-site-access-worker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-contractor-management/hs-grant-site-access-worker.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -30,15 +30,15 @@ Adding site access for workers also helps the safety team to know who's checked 
 
 2.  Open a contractor worker record to grant the site access to.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d437313e79">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d436789e79">
 
 Option
 
-</th><th align="left" id="d437313e82">
+</th><th align="left" id="d436789e82">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d437313e88">
+</th></tr></thead><tbody><tr><td id="d436789e88">
 
 **From a contractor company record**
 
@@ -50,7 +50,7 @@ Steps
 4.  In the **Workers** tab, select the worker from the list to grant the site access to.
 
 
-</td></tr><tr><td id="d437313e133">
+</td></tr><tr><td id="d436789e133">
 
 **From Health and Safety user profile list**
 

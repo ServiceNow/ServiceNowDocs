@@ -2,7 +2,7 @@
 title: Data mapping for SolarWinds
 description: Data from the SolarWinds data sources is mapped and transformed into the ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-data-mapping-solarwinds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-data-mapping-solarwinds.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -44,9 +44,9 @@ sn\_solarwinds\_inte\_solarwinds\_cmdb\_ms\_sql\_servers
 
 </td><td>
 
-[Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[MS SQL Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[MS SQL Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[MSFT SQL Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[MSFT SQL Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ sn\_solarwinds\_inte\_solarwinds\_cmdb\_cpu
 
 </td><td>
 
-[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ sn\_solarwinds\_inte\_solarwinds\_cmdb\_hardware
 
 </td><td>
 
-[Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md) [Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md) [Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ sn\_solarwinds\_inte\_solarwinds\_cmdb\_software
 
 </td><td>
 
-[Software Package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Software Package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
 </td></tr><tr><td>
 
@@ -94,9 +94,9 @@ sn\_solarwinds\_inte\_solarwinds\_cmdb\_iis
 
 </td><td>
 
-[Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[IIS Virtual Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[IIS Virtual Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[Microsoft IIS Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Microsoft IIS Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ sn\_solarwinds\_inte\_solarwinds\_cmdb\_disk
 
 </td><td>
 
-[Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[Disk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[Disk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
 </td></tr><tr><td>
 
@@ -120,9 +120,9 @@ sn\_solarwinds\_inte\_solarwinds\_cmdb\_network\_adapter
 
 </td><td>
 
-[Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[Network Adapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Hardware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[Network Adapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
 </td></tr><tr><td>
 
@@ -134,9 +134,9 @@ sn\_solarwinds\_inte\_solarwinds\_cmdb\_cloud\_volumes
 
 </td><td>
 
-[Storage Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[Logical Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Storage Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[Logical Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[VM Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[VM Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
 </td></tr><tr><td>
 
@@ -148,24 +148,24 @@ sn\_solarwinds\_inte\_solarwinds\_cmdb\_cloud
 
 </td><td>
 
-[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)[Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[Availability Zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Availability Zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[Logical Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Logical Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[Cloud Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Cloud Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[VM Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[VM Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[Cloud KeyPair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Cloud KeyPair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[Cloud Subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Cloud Subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
 </td></tr></tbody>
-</table>You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
+</table>You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 

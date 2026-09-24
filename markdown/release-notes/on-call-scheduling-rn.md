@@ -2,7 +2,7 @@
 title: On-Call Scheduling release notes
 description: The ServiceNow On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.The ServiceNow On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/on-call-scheduling-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/on-call-scheduling-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNow
     **Note:** The On-Call Scheduling \(com.snc.on\_call\_rotation\) plugin is active by default for zBoot customers.
 
 
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-service-management-rn-landing.md)
 
 ## Australia
 

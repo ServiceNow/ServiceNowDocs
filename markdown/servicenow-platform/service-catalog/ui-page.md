@@ -2,7 +2,7 @@
 title: UI page
 description: The UI page variable inserts a UI page into the catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/ui-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/ui-page.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -19,7 +19,7 @@ The UI page variable inserts a UI page into the catalog item.
 -   Use phase one Jelly only for any UI macros added as variables. Phase two Jelly within the macro is not processed and appears on the page as standard content.
 -   This variable is not yet supported on Classic Mobile devices and in Service Portal.
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -34,7 +34,7 @@ The UI page variable inserts a UI page into the catalog item.
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

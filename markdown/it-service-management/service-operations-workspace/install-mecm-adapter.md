@@ -2,7 +2,7 @@
 title: Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation
 description: You can install the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/install-mecm-adapter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/install-mecm-adapter.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -32,7 +32,7 @@ The following items are installed with Microsoft Endpoint Configuration Manager 
 -   Store applications
 -   Roles
 
-For more information, see [Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md).
+For more information, see [Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md).
 
 ## Procedure
 
@@ -57,5 +57,5 @@ For more information, see [Components installed with Microsoft Endpoint Configur
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/set-up-investigate-fw-mecm.md)
+**Parent Topic:**[Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/set-up-investigate-fw-mecm.md)
 

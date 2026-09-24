@@ -2,7 +2,7 @@
 title: Advanced Work Assignment for Source-to-Pay Operations
 description: Use the Advanced Work Assignment for Source-to-Pay Operations feature to automatically assign work items to agents based on availability and capacity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -20,7 +20,7 @@ Advanced Work Assignment for Source-to-Pay Operations pushes work to qualified a
 
 ## Prerequisites for installing Advanced Work Assignment for Source-to-Pay Operations
 
-Before you install Advanced Work Assignment for Source-to-Pay Operations, ensure that you activate the Agent Chat application and load the demo data during installation. For more information, see [Activate Agent Chat and load demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.md).
+Before you install Advanced Work Assignment for Source-to-Pay Operations, ensure that you activate the Agent Chat application and load the demo data during installation. For more information, see [Activate Agent Chat and load demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.md).
 
 ## Required plugins
 
@@ -29,12 +29,12 @@ Install the Advanced Work Assignment for Source-to-Pay Operations \(sn\_spend\_a
 -   Advanced Work Assignment \(com.glide.awa\)
 -   Agent Chat \(com.glide.interaction.awa\)
 
--   **[Setting up Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo-setup.md)**  
+-   **[Setting up Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo-setup.md)**  
 Plan and configure your implementation of Advanced Work Assignment for Source-to-Pay Operations.
--   **[Using Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-awa-spo.md)**  
+-   **[Using Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-awa-spo.md)**  
 Enables shoppers or requesters to interact with agents to resolve their issues and get answers to their questions.
 
-**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
@@ -69,5 +69,5 @@ Enables shoppers or requesters to interact with agents to resolve their issues a
 
 [Install Universal Request for Sourcing and Procurement Operations]()
 
-[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
 

@@ -2,7 +2,7 @@
 title: Components installed with Legal Stock Preclearance
 description: Several types of components are installed with activation of the Legal Stock Preclearance application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-stock-preclearance/installed-with-legal-stock-preclearance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-stock-preclearance/installed-with-legal-stock-preclearance.html
 release: australia
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -98,5 +98,5 @@ Trading Window Requests\[sn\_lg\_stock\_cp\_trading\_window\_request\]
 Stores the trading window requests for stock preclearance requests.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Stock Preclearance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/legal-stock-pre-reference.md)
+</table>**Parent Topic:**[Legal Stock Preclearance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-stock-preclearance/legal-stock-pre-reference.md)
 

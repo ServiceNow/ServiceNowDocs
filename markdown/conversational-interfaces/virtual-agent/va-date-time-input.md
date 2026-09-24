@@ -2,7 +2,7 @@
 title: Date Time user input control
 description: Use the Date Time user input control in a Virtual Agent topic to enable the user to select a calendar date, time \(hours and minutes\), or both.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-date-time-input.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-date-time-input.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -435,7 +435,7 @@ Supported
 
 </td><td>
 
-If your administrator has set the option to request the time zone from the customer, the selected date and time reflect the customer's time zone. Otherwise, they appear in the UTC time zone. For more information about the time zone setting, see [Set up Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-fbm-setup.md).
+If your administrator has set the option to request the time zone from the customer, the selected date and time reflect the customer's time zone. Otherwise, they appear in the UTC time zone. For more information about the time zone setting, see [Set up Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm-setup.md).
 
 </td></tr><tr><td>
 
@@ -518,5 +518,5 @@ Supported
 For best results, enable NLU at the node.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
+</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

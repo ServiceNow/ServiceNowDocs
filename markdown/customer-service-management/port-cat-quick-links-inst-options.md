@@ -2,7 +2,7 @@
 title: Portal Catalog Quick Links widget instance options form
 description: The instance options enable you to configure the Portal Catalog Quick Links widget on a portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/port-cat-quick-links-inst-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/port-cat-quick-links-inst-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -130,7 +130,7 @@ The Catalog item page that open when the catalog item is accessed.By default, th
 </table>**Related topics**  
 
 
-[Portal Catalog Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-catalog-widget.md)
+[Portal Catalog Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-catalog-widget.md)
 
-[Add and configure the Portal Catalog Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-cat-quick-links-inst-optns.md)
+[Add and configure the Portal Catalog Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-cat-quick-links-inst-optns.md)
 

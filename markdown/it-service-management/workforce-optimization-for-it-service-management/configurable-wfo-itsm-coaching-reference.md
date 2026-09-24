@@ -2,7 +2,7 @@
 title: Coaching components in Workforce Optimization for ITSM
 description: Workforce Optimization for ITSM installs the roles and tables when you enable the Workforce Optimization for ITSM plugin \(sn\_wfo\_cfg\_itsm\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-coaching-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-coaching-reference.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -99,7 +99,7 @@ Grants access to add training, assessments, and skill records.
 
 ## Coaching with Learning
 
-**Important:** This feature is available with the Coaching with Learning plugin \(sn\_coach\_lrn\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for ITSM configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
+**Important:** This feature is available with the Coaching with Learning plugin \(sn\_coach\_lrn\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for ITSM configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
 
 ## Roles in Coaching with Learning
 
@@ -329,7 +329,7 @@ Transforms JSON objects to internal objects and sets the word limit for records 
 
 You must [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to set the desired value.
 
-When you [synchronize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.md) third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail.
+When you [synchronize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.md) third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail.
 
 </td></tr><tr><td>
 
@@ -340,7 +340,7 @@ com.snc.process\_flow.reporting.serialized.val\_size\_limit
 Specify the number of bytes allowed for runtime values in each step in the flow execution details. To prevent truncation, set the value to an integer equal to or less than zero.-   **Type:** integer
 -   **Default value:** 16384
 
- **Note:** When you [synchronize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.md) third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail.
+ **Note:** When you [synchronize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.md) third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail.
 
 </td></tr><tr><td>
 

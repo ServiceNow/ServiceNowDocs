@@ -2,7 +2,7 @@
 title: Create a target source to automate target actual values
 description: Create a target source so that the goal user can configure it for the targets to automate the Actual value of the targets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/create-target-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/create-target-source.html
 release: australia
 product: Goal Framework
 classification: goal-framework

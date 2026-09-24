@@ -2,7 +2,7 @@
 title: Executive Portfolio view
 description: The Executive Portfolio page provides account teams and leadership with a real-time view of account portfolio performance. Use this page to identify at-risk revenue, track renewal readiness, monitor product adoption, and understand customer experience trends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-page.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -107,7 +107,7 @@ Portfolio overview
 
 </td><td>
 
-A snapshot of revenue retention, renewal risk, and growth opportunities across the entire portfolio. For more information, see [Portfolio overview tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-overview-tab.md).
+A snapshot of revenue retention, renewal risk, and growth opportunities across the entire portfolio. For more information, see [Portfolio overview tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-overview-tab.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Financials
 
 </td><td>
 
-A detailed breakdown of Total Annual Recurring Revenue \(ARR\), retention rates, at-risk revenue, and quarterly revenue movement. For more information, see [Executive Portfolio Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-financials-tab.md).
+A detailed breakdown of Total Annual Recurring Revenue \(ARR\), retention rates, at-risk revenue, and quarterly revenue movement. For more information, see [Executive Portfolio Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-financials-tab.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Adoption and health
 
 </td><td>
 
-A view into account health trends, feature adoption gaps, product usage, and customer satisfaction. For more information, see [Executive Portfolio Adoption and health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-adoption-health-tab.md).
+A view into account health trends, feature adoption gaps, product usage, and customer satisfaction. For more information, see [Executive Portfolio Adoption and health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-adoption-health-tab.md).
 
 </td></tr><tr><td>
 
@@ -143,5 +143,5 @@ A drill-down list of individual accounts underlying the portfolio-level metrics.
 
 To open the Executive portfolio page, select executive portfolio icon \(\[Omitted image "icon-executive-portfolio.png"\] Alt text: Executive Portfolio Icon.\) from the CSM/FSM Configurable Workspace or Service Operations Workspace.
 
-**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
+**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 

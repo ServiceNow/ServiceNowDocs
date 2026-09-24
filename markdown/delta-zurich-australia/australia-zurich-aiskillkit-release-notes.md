@@ -2,11 +2,11 @@
 title: Combined AI Skill Kit release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for AI Skill Kit from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aiskillkit-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-aiskillkit-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 3
+last_updated: "2026-09-24"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,33 @@ Zurich
 
 </td><td>
 
--   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[Labelling](https://www.servicenow.com/docs/access?context=nadk-labelling&family=zurich&ft:locale=en-US)Use labeling workflows to annotate UI templates**
+
+Use the labeling framework to create and manage ground truth data. Published data collections can now be turned into labeling projects. Each record becomes a task assigned to labelers who annotate using pre-configured UI templates
+
+-   **[s](https://www.servicenow.com/docs/access?context=configure-skill-prompt&family=zurich&ft:locale=en-US)Structured output support for AI responses**
+
+Enables consistent parsing in agentic workflows and reduces ambiguity in downstream automation.
+
+-   **[Use multi-table data generator](https://www.servicenow.com/docs/access?context=use-multi-table-data-generator&family=zurich&ft:locale=en-US)New multi-table synthetic data generation option**
+
+You can generate related records across multiple tables in a single operation. You no longer need to generate each table separately and manually link records. Define your table relationships, set the cardinality and AI Data Kit generates coherent, referentially linked records across all tables in one pass, with foreign key integrity maintained automatically. 
+
+-   **[Create a model](https://www.servicenow.com/docs/access?context=create-model&family=zurich&ft:locale=en-US)AI Control Tower integration with custom LLMs.**
+
+Improve oversight and compliance for AI deployments with formal approval flows for custom models.
+
+-   **[AI Skill Kit roles](https://www.servicenow.com/docs/access?context=na-skill-kit-roles&family=zurich&ft:locale=en-US)Update to the abilities of the admin role**
+
+The sn\_skill\_builder.admin role is now broken into smaller, task-specific roles, including a custom LLM-specific admin role.
+
+
+ -   **[Create a model](https://www.servicenow.com/docs/access?context=create-model&family=zurich&ft:locale=en-US)**
+
+When you bring your own model you can keep data in your own environment and fine-tune it to meet your specific needs.
+
+
+ -   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
@@ -214,7 +240,7 @@ Zurich
 Now Assist features are available with activation of any Now Assist plugins from ServiceNow Store. The following plugins are available:
 
     -   
-
+**Important:** AI Skill Kit is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -399,5 +425,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

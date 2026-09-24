@@ -2,7 +2,7 @@
 title: Associate MITRE-ATT&amp;CK information with security incidents
 description: Associate the MITRE-ATT&amp;CK tactics and techniques to the security incident for better security incident and threat analysis.You can now associate MITRE-ATT&amp;CK tactics and techniques to the closed security incidents for better security incident and threat analysis.You can use the MITRE-ATT&amp;CK card to see the MITRE-ATT&amp;CK related information in a security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/associate-mitre-with-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/associate-mitre-with-sir.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: sn\_si.analyst
 
 Add the MITRE-ATT&amp;CK tactics and techniques information to the security incident so that you can correlate your security incident and threat information for better analysis. For example, your organization may be receiving tactics, techniques, and procedures \(TTP\)-related information from your third-party sources, such as Threat Intelligence reports or other sources outside of the Security Incident Response. You then add this information back to SIR for better correlation and threat analysis.
 
-You can choose to roll up the MITRE-ATT&amp;CK information automatically from the threat lookup auto-extraction results, from observables, or from a child security incident to a security incident. For automatic roll up to security incidents, [enable the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-att-ck-properties.md). Alternatively, you can roll up the information manually for each individual threat lookup or [observable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/associate-mitre-observables.md).
+You can choose to roll up the MITRE-ATT&amp;CK information automatically from the threat lookup auto-extraction results, from observables, or from a child security incident to a security incident. For automatic roll up to security incidents, [enable the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configure-mitre-att-ck-properties.md). Alternatively, you can roll up the information manually for each individual threat lookup or [observable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/associate-mitre-observables.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ You can choose to roll up the MITRE-ATT&amp;CK information automatically from th
 
 4.  Select **Source**.
 
-    **Note:** Only the [collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/setup-mitre-profile.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-mitre-collection.md) that have been activated appear in the source list.
+    **Note:** Only the [collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/setup-mitre-profile.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-mitre-collection.md) that have been activated appear in the source list.
 
     The tactics and techniques that are associated with the source are available for selection. You can also associate multiple sources.
 
@@ -56,7 +56,7 @@ You can choose to roll up the MITRE-ATT&amp;CK information automatically from th
 
 The MITRE-ATT&amp;CK information is associated with the security incident. You can now view the associated information in the **MITRE ATT&amp;CK Card**.
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-features.md)
 
 **Related topics**  
 

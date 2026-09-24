@@ -2,7 +2,7 @@
 title: View product classifications for your IBM components
 description: View the product classifications for all IBM components that are installed in your environment. These product classifications enable you to track and manage licensing for your IBM components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-product-classifications-ibm-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/view-product-classifications-ibm-components.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -35,5 +35,5 @@ Role required: sam\_admin or sam\_user
     Each product classification includes the classified product, product edition, product version, and assigned license metric.
 
 
-**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
+**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

@@ -2,7 +2,7 @@
 title: Universal Task in Now Mobile
 description: You can complete universal tasks that are assigned to you in real time from your own mobile device by using the Now Mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/ut-now-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-task/ut-now-mobile.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -20,7 +20,7 @@ From your mobile device, you can get notifications about updates in your univers
 
 \[Omitted image "ut-mobile-noti-assigned.png"\] Alt text: Notification for task assigned.
 
-View and complete the universal tasks that are assigned to you in the **To-Do** tab. For detailed instructions, see [View and update Universal Task using Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-mobile-view-update-tasks.md).
+View and complete the universal tasks that are assigned to you in the **To-Do** tab. For detailed instructions, see [View and update Universal Task using Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/ut-mobile-view-update-tasks.md).
 
 <table id="table_lhb_lk4_z4b"><tbody><tr><td>
 
@@ -42,5 +42,5 @@ View and complete the universal tasks that are assigned to you in the **To-Do** 
 \[Omitted image "ut-mobile-updates.png"\] Alt text: Updates tab.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/explore-universal-task.md)
+</table>**Parent Topic:**[Exploring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/explore-universal-task.md)
 

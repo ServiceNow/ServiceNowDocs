@@ -2,7 +2,7 @@
 title: Signature Verification in Code Signing
 description: Signature verification helps confirm that records, scripts, and other signed content originate from trusted sources and remain unaltered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/signature-verification-in-code-signing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/signature-verification-in-code-signing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

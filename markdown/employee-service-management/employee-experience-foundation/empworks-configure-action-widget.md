@@ -2,7 +2,7 @@
 title: Configure task scope and action widget
 description: Configure the applicable task scope and the actions with a custom AIX action widget. Use this when you need task-specific actions that differ from the standard action group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-configure-action-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-configure-action-widget.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -57,7 +57,7 @@ Configure task scope and a custom AIX action widget to suit your needs for a tas
 
     **Note:** When you don't add a custom action to the AIX action widget, the action group falls back to Employee Center action behavior.
 
-5.  [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
+5.  [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
 
 6.  Save the task configuration.
 
@@ -73,9 +73,9 @@ Clear the **AIX action widget** field to fall back to the Employee Center action
 **Related topics**  
 
 
-[Configure action group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/update-approval-hub-action-group.md)
+[Configure action group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/update-approval-hub-action-group.md)
 
-[Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md)
+[Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md)
 
-[Manage tasks and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-work-with-inbox.md)
+[Manage tasks and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-work-with-inbox.md)
 

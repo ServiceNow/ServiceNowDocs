@@ -2,7 +2,7 @@
 title: Associate sold products with account consumers
 description: Enable customer service managers to track sold products or services by associating sold products or services with account consumers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_AssociateSoldProduct.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_AssociateSoldProduct.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

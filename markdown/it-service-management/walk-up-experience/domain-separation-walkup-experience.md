@@ -2,7 +2,7 @@
 title: Domain separation and the Walk-up Experience application
 description: This is an overview of domain separation as it pertains to the Walk-up Experience application and how it relates to Service Portal pages, interaction queues, and configurations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/domain-separation-walkup-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/domain-separation-walkup-experience.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -81,7 +81,7 @@ As part of the Walk-up Experience, records in the following tables can be domain
 -   Walk-up contexts `[wu_context]`
 -   Interactions `[interaction]`
 
-**Parent Topic:**[Walk-up Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walk-up-experience-reference.md)
+**Parent Topic:**[Walk-up Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walk-up-experience-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Discovery for VMware vCenter
 description: Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for discovery in VMware vCenter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_DiscoveryForVMwareVCenter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/c\_DiscoveryForVMwareVCenter.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -39,7 +39,7 @@ For installations based on the vCenter appliance, a server CI is created for the
 
 **Note:** If you're discovering SUSE Linux hosts for vCenter appliances, version 6.0 and earlier, observe these [SSH restrictions](https://kb.vmware.com/s/article/2100508).
 
-See [Data collected for VMware Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.md) for a description of the VMware architecture and component relationships.
+See [Data collected for VMware Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.md) for a description of the VMware architecture and component relationships.
 
 ## vCenter discovery process
 
@@ -82,5 +82,5 @@ You have the option of creating a [CMDB remediation rule](https://raw.githubuser
 
 Windows credentials aren't necessary for vCenter Discovery, when valid VMware credentials are used.
 
-**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Computers.md)
 

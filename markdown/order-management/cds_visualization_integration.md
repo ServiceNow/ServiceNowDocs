@@ -2,7 +2,7 @@
 title: Integrating CDS or other third-party visualization tools
 description: Integrate CDS Visual or other third-party tools for technical visualization. Sync configuration inputs with visual updates to enhance user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cds\_visualization\_integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cds\_visualization\_integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Attorney-Client Privilege
 description: Attorney Client Privilege functionality enables legal fulfiller to designate legal requests as privileged and confidential. It restricts access to authorized stakeholders, marks communications with confidentiality banners, and maintains a document audit trail to help you protect sensitive legal communications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/lsd-acp-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/lsd-acp-landing.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -60,16 +60,16 @@ You can promote a legal request to legal matter by creating a new matter or addi
 
 The Privileged and Confidential status of a legal request and its associated matter are tracked independently. Changing the Privileged and Confidential status of a request does not automatically change the Privileged and Confidential status of the associated matter, and vice versa.
 
-**Parent Topic:**[Exploring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-overview.md)
+**Parent Topic:**[Exploring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-request-management-overview.md)
 
 **Related topics**  
 
 
-[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
+[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/work-on-legal-request.md)
 
-[Disable attorney client privilege for a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/lsd-acp-enable.md)
+[Disable attorney client privilege for a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/lsd-acp-enable.md)
 
-[Manage attachments for a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/manage-attachments-legal-request.md)
+[Manage attachments for a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/manage-attachments-legal-request.md)
 
-[Transfer a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/transfer-existing-legal-request.md)
+[Transfer a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/transfer-existing-legal-request.md)
 

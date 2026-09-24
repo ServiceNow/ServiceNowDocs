@@ -2,7 +2,7 @@
 title: Self-service and omnichannel engagement for CSM release notes
 description: With self-service and omnichannel applications in the ServiceNow Customer Service Management \(CSM\) application, your customers can use chat on self-service portals, consumer messaging apps, email, or phone calls to connect with your organization. Self-service and omnichannel applications for CSM were enhanced and updated in the Australia.With self-service and omnichannel applications in the ServiceNow Customer Service Management \(CSM\) application, your customers can use chat on self-service portals, consumer messaging apps, email, or phone calls to connect with your organization. Self-service and omnichannel applications for CSM were enhanced and updated in the Australia.With self-service and omnichannel applications in the ServiceNow Customer Service Management \(CSM\) application, your customers can use chat on self-service portals, consumer messaging apps, email, or phone calls to connect with your organization. Self-service and omnichannel applications for CSM were enhanced and updated in the Australia.With self-service and omnichannel applications in the ServiceNow Customer Service Management \(CSM\) application, your customers can use chat on self-service portals, consumer messaging apps, email, or phone calls to connect with your organization. Self-service and omnichannel applications for CSM were enhanced and updated in the Australia.With self-service and omnichannel applications in the ServiceNow Customer Service Management \(CSM\) application, your customers can use chat on self-service portals, consumer messaging apps, email, or phone calls to connect with your organization. Self-service and omnichannel applications for CSM were enhanced and updated in the Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/customer-self-service-omnichannel-engagement-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/customer-self-service-omnichannel-engagement-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -32,11 +32,11 @@ See , [Self-service for Customer Service Management](https://raw.githubuserconte
 
     Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-    Check your entitlements to determine whether you have access to AI email summarization and AI-based context matching for multi-case linking. For details, see  and .
+    Check your entitlements to determine whether you have access to AI email summarization and AI-based context matching for multi-case linking. For details, see [Activate email interaction summarization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-email-summarization-csm.md) and [Activate contextual email matching for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-contextual-email-matching-csm.md).
 
 -   **Browser requirements**
 
-    Starting with the Australia release, self-service and omnichannel application don't support Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
+    Starting with the Australia release, self-service and omnichannel application don't support Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/browser-support.md).
 
 
 ## Accessibility and localization
@@ -46,7 +46,7 @@ See , [Self-service for Customer Service Management](https://raw.githubuserconte
     CSM Engagement Messenger now supports reflow, allowing content to be zoomed up to 400% in a browser without loss of content or functionality. Page layouts automatically transform into a vertical, stacked view at 400% zoom. This update benefits users with low vision and those working across varied devices and environments.
 
 
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/customer-service-mgmt-rn-landing.md)
 
 ## September 2026
 
@@ -54,7 +54,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
 ### What's new
 
--   ****
+-   **[Use Voice call widget for portal communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-phone-widget.md)**
 
     Customers can now make voice calls directly from portal pages or the Engagement Messenger. Call context stays intact as customers navigate between pages. These calls connect to AI Voice Agents to deliver conversational voice experiences without relying on contact center platforms.
 
@@ -245,7 +245,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
     Starting with the Australia release, the Customer Service Portal Base plugin \(com.snc.csm\_portal\_base\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Customer Service Portal Base store app. This change improves packaging, versioning, and deployment flexibility for implementations that require portal framework, responsive design, case management, knowledge integration, and community features. The store app also includes email integration, translation support, attachment handling, and mobile enhancements.
 
--   **[Subscriptions and Activity Feed Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/actsub-api.md)**
+-   **Subscriptions and Activity Feed Framework**
 
     Starting with the Australia release, the Subscriptions and Activity Feed Framework plugin \(com.snc.subscriptions\_activity\_feed\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Subscriptions and Activity Feed Framework store app. This change improves packaging, versioning, and deployment flexibility for implementations that require subscription framework, activity tracking, notification preferences, or context management.
 

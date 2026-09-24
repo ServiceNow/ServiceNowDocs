@@ -2,7 +2,7 @@
 title: Customize SI to MSI flows \(optional\)
 description: Copy and customize the SI to MSI promotion flows to control how File Explorer and chat channels are configured when a Security incident is promoted to a Major Security Incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/customize-si-to-msi-flows-for-msim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/customize-si-to-msi-flows-for-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -26,8 +26,8 @@ Role required: sn\_msi.workspace\_admin
 
 Two Flow Designer flows control component setup when a security incident is promoted to a major security incident:
 
--   **SI to MSI Promotion \(SharePoint\)** sets up the File Explorer component by calling the **Create Folder Structure** subflow, which builds the folder hierarchy per the [Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-folder-templates.md) configuration.
--   **SI to MSI Promotion \(Teams\)** sets up the Chat component by calling the **Chat Team and Channels Creation** subflow, which builds the team and channels per the [Create a chat channel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-chat-channel-template-for-msim.md) configuration.
+-   **SI to MSI Promotion \(SharePoint\)** sets up the File Explorer component by calling the **Create Folder Structure** subflow, which builds the folder hierarchy per the [Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer-folder-templates.md) configuration.
+-   **SI to MSI Promotion \(Teams\)** sets up the Chat component by calling the **Chat Team and Channels Creation** subflow, which builds the team and channels per the [Create a chat channel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-chat-channel-template-for-msim.md) configuration.
 
 Both flows are active by default. Use this procedure only if you need to customize how these components are configured during promotion.
 
@@ -58,7 +58,7 @@ Both flows are active by default. Use this procedure only if you need to customi
 
 Confirm your customized flow is in the **Active** state before configuring notification preferences.
 
-**Parent Topic:**[Configuring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-major-security-incident-management.md)
+**Parent Topic:**[Configuring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-major-security-incident-management.md)
 
 **Related topics**  
 

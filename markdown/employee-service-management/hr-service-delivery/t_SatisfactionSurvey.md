@@ -2,7 +2,7 @@
 title: Satisfaction Survey Scorecard
 description: Apply filters to refine the predefined HR satisfaction surveys results to analyse and gain insight into the survey.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_SatisfactionSurvey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_SatisfactionSurvey.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -67,5 +67,5 @@ To view details about a specific response, point to a colored bar, the number of
 
 \[Omitted image "SurveyScorecardResultDetail.png"\] Alt text: Survey scorecard category results detail
 
-**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
+**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
 

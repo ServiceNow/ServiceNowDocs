@@ -2,7 +2,7 @@
 title: Hide a global form action from a page layout
 description: Configure a global form action to exclude a specified page or experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/hide-global-actions-from-a-page-layout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/hide-global-actions-from-a-page-layout.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Configure a global form action to exclude a specified page or experience.
 
 ## Before you begin
 
-Add a UX Form Actions Layout to a workspace page in UI Builder. The UX Form Action Layout record configured on the workspace page must contain the form action you want to hide from the page. For instructions, see [Configure an action layout for a workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-action-layout.md).
+Add a UX Form Actions Layout to a workspace page in UI Builder. The UX Form Action Layout record configured on the workspace page must contain the form action you want to hide from the page. For instructions, see [Configure an action layout for a workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-da-action-layout.md).
 
 Role required: admin
 

@@ -2,7 +2,7 @@
 title: Design your Performance Analytics solution with KPI Composer
 description: KPI Composer ensures that your performance management strategy aligns with business goals and has support from executive sponsors. Use KPI Composer to bridge the gap between defining your performance measurement strategy and the realization of that strategy from within Performance Analytics. Start with your business goals and plan all your components through indicators up to the final dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/designing-pa-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/designing-pa-solution.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -28,25 +28,25 @@ After you download the application, navigate to **System Applications** &gt; **A
 
 **Note:** To get full use of KPI Composer, you should have the appropriate entitlement to use Performance Analytics.
 
--   **[Access to KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/access-to-kpi-composer.md)**  
+-   **[Access to KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/access-to-kpi-composer.md)**  
 The level of access to KPI Composer determines whether a user can create, edit, or only view a KPI Composer project. It also determines which projects a user can access and whether they can access the underlying records or only the UI.
--   **[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)**  
+-   **[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/kpi-composer-projects.md)**  
 KPI Composer is based on projects. Each project in KPI Composer consists of Key Performance Indicator \(KPI\) trees and the functional and technical definitions of all artifacts within those trees. You can create multiple projects.
--   **[Analysis and the KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/design-kpi-tree.md)**  
+-   **[Analysis and the KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/design-kpi-tree.md)**  
 In the Analysis tab of KPI Composer, design your KPI tree. Specify your business goals, their associated critical success factors, and the measurement related to those factors. Chart the logical relationship between these factors and the personas who are responsible for them.
--   **[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)**  
+-   **[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)**  
 Library elements are single artifacts or trees of artifacts that you can reuse in multiple projects.
--   **[Create an indicator definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-indicator-definition.md)**  
+-   **[Create an indicator definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-indicator-definition.md)**  
 You can create a new KPI Composer indicator definition directly from the relevant artifact in the Data Definition tab. Fill the indicator definition with the necessary information for creating a Performance Analytics indicator.
--   **[Reviewing your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/reviewing-your-project.md)**  
+-   **[Reviewing your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/reviewing-your-project.md)**  
 Summarize both the created KPI Composer project artifacts and the planned Performance Analytics components. Validate the contents of your project. Generate the tasks to build the planned Performance Analytics components.
--   **[Generating tasks in KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/generating-tasks-kpi-composer.md)**  
+-   **[Generating tasks in KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/generating-tasks-kpi-composer.md)**  
 For each KPI Composer artifact in your project, you can generate a task to create an equivalent Performance Analytics element. All tasks are created with one action. The tasks are assigned automatically to the responsible group for implementing analytics.
 
-**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
+**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 
 **Related topics**  
 
 
-[Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_PARoles.md)
+[Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/r_PARoles.md)
 

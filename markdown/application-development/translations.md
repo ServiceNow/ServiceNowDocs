@@ -2,7 +2,7 @@
 title: Translations
 description: When using one of the Internationalization plugins, most of the fields in the instance are automatically translated. However, customizations are not translated automatically, and need to be translated by hand. In this case, it is best to locate the individual untranslated strings, and insert those translations manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/translations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/translations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,5 +22,5 @@ For example, export all **sys\_choice** records. Provide the export to a transla
 
 For more information, see [Language Internationalization Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_LangInternationalizationSupport.md)
 
-**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-design-elements.md)
+**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-design-elements.md)
 

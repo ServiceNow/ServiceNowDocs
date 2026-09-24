@@ -2,7 +2,7 @@
 title: Setting exploration goals
 description: Help ServiceNow Otto understand your intent and what you hope to get from the data exploration by setting a goal for an exploration. The goal can improve the relevance of AI outputs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/goals-questions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/goals-questions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Plat
 
 Help ServiceNow Otto® understand your intent and what you hope to get from the data exploration by setting a goal for an exploration. The goal can improve the relevance of AI outputs.
 
-In the [goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md), explain the outcome you're trying to accomplish with your exploration. Clear goals guide the AI model to generate queries and write summaries that move you closer to that outcome.
+In the [goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md), explain the outcome you're trying to accomplish with your exploration. Clear goals guide the AI model to generate queries and write summaries that move you closer to that outcome.
 
 **Tip:**
 
@@ -28,5 +28,5 @@ In the [goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austra
 |Document evidence and actions taken for future reference|Compile a Post Incident Review report for all P2+ Incidents for the Cloud Services group from Q1 2025. Show all relevant incidents and the related problems and change requests required to address them. Document timeliness of response and relevant SLAs.|
 |Explore data without specific questions in mind|Explore potential drivers for the Cloud Services team's incident spikes.|
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/use-aide.md)
 

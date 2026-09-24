@@ -2,7 +2,7 @@
 title: Retire a sandbox
 description: Retire sandboxes that are outdated or no longer needed to make room for new Developer Sandboxes in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/retire-sandboxes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/developer-sandboxes/retire-sandboxes.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -45,5 +45,5 @@ You should manually retire sandboxes when your work is complete to maintain a he
 
 ## Result
 
-After it's retired, the sandbox is no longer available for use. However, you can allocate new sandboxes as needed. For more information, see [Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/allocating-sandboxes.md).
+After it's retired, the sandbox is no longer available for use. However, you can allocate new sandboxes as needed. For more information, see [Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/allocating-sandboxes.md).
 

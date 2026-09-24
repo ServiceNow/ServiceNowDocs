@@ -2,7 +2,7 @@
 title: Set up Certificate-based authentication
 description: Set up mutual authentication for either user interface-based logins or inbound web services.You can activate the Certificate-based authentication plugin \(com.glide.auth.mutual\) for ServiceNow AI Platform if you have the admin role. Register root certificates or intermediate certificates to make them available for authentication.Map PEM certificates to users to enable them to log in using PIV or CAC cards or to authenticate inbound requests. You can map multiple PEM certificates to a user.Use system properties to enable or disable certificate-based authentication features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/certificate-based-authentication/set-up-mutual-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/certificate-based-authentication/set-up-mutual-auth.html
 release: australia
 product: Certificate-based Authentication
 classification: certificate-based-authentication
@@ -35,7 +35,7 @@ Check that your instance is using an ADCv2 load balancer. For more information, 
 
 1.  Set up Certificate-based authentication to:
 
-    -   Allow end users to securely log in to the ServiceNow AI Platform or Service Portal using PIV or CAC cards. After certificate-based authentication is enabled, you can self-register the PEM certificate or an administrator can map the certificate for you. See [Log in using Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/ui-login-mutual-auth.md).
+    -   Allow end users to securely log in to the ServiceNow AI Platform or Service Portal using PIV or CAC cards. After certificate-based authentication is enabled, you can self-register the PEM certificate or an administrator can map the certificate for you. See [Log in using Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/certificate-based-authentication/ui-login-mutual-auth.md).
     -   Enable mutual authentication for inbound web services. Once Certificate-based authentication is set up, the system uses the provided certificates to mutually authenticate requests to access ServiceNow REST and SOAP APIs.
 
 ## Activate Certificate-based authentication
@@ -238,7 +238,7 @@ User
 
 </td><td>
 
-User who is mapped to the client certificate.The system receives the client certificate from either the inbound request or [certificate registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/ui-login-mutual-auth.md), and then uses the user designated in this field to initiate a session to execute the request.
+User who is mapped to the client certificate.The system receives the client certificate from either the inbound request or [certificate registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/certificate-based-authentication/ui-login-mutual-auth.md), and then uses the user designated in this field to initiate a session to execute the request.
 
 </td></tr><tr><td>
 

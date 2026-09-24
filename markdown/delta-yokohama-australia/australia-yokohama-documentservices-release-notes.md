@@ -2,11 +2,11 @@
 title: Combined Document Services release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Document Services from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-documentservices-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-documentservices-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -88,6 +88,15 @@ Zurich
 Accelerate insights with quick summaries, dynamic Q&amp;A, and FAQs that reduce time spent searching for information
 
 
+ -   **[Document comparison](https://www.servicenow.com/docs/access?context=compare-document-version&family=zurich&ft:locale=en-US)**
+
+Compare two versions of the document side by side.
+
+-   **[Guardrails for PDF generation and accessibility](https://www.servicenow.com/docs/access?context=guardrails-pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+
+Use static and dynamic guardrails to help maintain stability during PDF generation and accessibility.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -101,6 +110,15 @@ Redact sensitive information in documents using AI-powered detection and policy-
 -   **[Voice Assist for Docs skill](https://www.servicenow.com/docs/access?context=configure-skill-voice-assist&family=australia&ft:locale=en-US)**
 
 Generate audio summaries and interact using voice-based questions to understand and extract key information from documents.
+
+
+ -   **[Document Management components in Workspace](https://www.servicenow.com/docs/access?context=document-management-workspace&family=australia&ft:locale=en-US)**
+
+Organize, access, and collaborate on files efficiently with unified Document Management in Workspace through intuitive folder structures, streamlined cloud integration, one-click actions, and embedded workflows.
+
+-   **[Granular admin roles required to secure the instance](https://www.servicenow.com/docs/access?context=granular-admin-roles-dms&family=australia&ft:locale=en-US)**
+
+Enable developers and administrators to complete administrative configuration tasks for Document Services without requiring the full admin role.
 
 
 </td></tr></tbody>
@@ -122,7 +140,17 @@ Yokohama
 
 </td><td>
 
--   **[Pop-up window](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US)**
+-   **[Summarize button](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=yokohama&ft:locale=en-US).**
+
+The **Summarize** button was changed to the **Ask Now Assist** button.
+
+
+ -   **[Subflows for Shared drives for Google Drive](https://www.servicenow.com/docs/access?context=google-drive-spoke-document-services&family=yokohama&ft:locale=en-US).**
+
+Added Spoke subflows for Shared drives in Google Drive.
+
+
+ -   **[Pop-up window](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US)**
 
 Added a pop-up window for list and form export with a check box that enables you to export an individual record or a list of records into a PDF format. The PDF includes accessibility support.
 
@@ -164,13 +192,73 @@ Retrieve the list of files and folders based on the given search query from Micr
 Retrieve the list of files and folders based on the given search query from Google Drive.
 
 
+ -   **[PDF generation](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+
+Generate a PDF with accessibility for regulated markets.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Upload to provider button](https://www.servicenow.com/docs/access?context=upload-external-provider&family=zurich&ft:locale=en-US)**
+
+The **Upload to provider** button was changed to **Upload to cloud** button within the Connect with external cloud dialog box.
+
+-   **[Sync button](https://www.servicenow.com/docs/access?context=sync-versions&family=zurich&ft:locale=en-US)**
+
+The **Sync** button was changed to the **Download from Cloud** button.
+
+-   **[Upload to cloud button](https://www.servicenow.com/docs/access?context=upload-versions-external-cloud&family=zurich&ft:locale=en-US)**
+
+The **Upload to cloud** button has been added for versions.
+
+-   **[External Provider Settings tab](https://www.servicenow.com/docs/access?context=sync-versions&family=zurich&ft:locale=en-US)**
+
+The **External Provider Settings** tab was changed to the **External Cloud Settings** tab.
+
+
+ -   **[Connect documents on external cloud](https://www.servicenow.com/docs/access?context=upload-versions-external-cloud&family=zurich&ft:locale=en-US)**
+
+Upload your files directly to an external cloud \(including multiple versions of the document\).
+
+-   **[Permissions for external cloud files](https://www.servicenow.com/docs/access?context=document-configuration&family=zurich&ft:locale=en-US)**
+
+Set the sharing permissions on your external cloud files.
+
+-   **[Authenticate personal accounts on external cloud](https://www.servicenow.com/docs/access?context=personal-authentication-documents&family=zurich&ft:locale=en-US)**
+
+Implement personal token-based authentication for an external cloud so that you can verify user-specific access, audit trails, and compatibility with existing and future integrations.
+
+-   **[Connect file extensions](https://www.servicenow.com/docs/access?context=upload-versions-external-cloud&family=zurich&ft:locale=en-US)**
+
+Link any Google Drive file to a document record by selecting a provider and entering the file URL All file extension are now supported.
+
+-   **[HTML to PDF Conversion](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+
+Specify an image retrieval timeout for HTML to PDF conversion.
+
+-   **[Document classification](https://www.servicenow.com/docs/access?context=share-document-link&family=zurich&ft:locale=en-US)**
+
+Limit public sharing based on a document's classification.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Smart documents](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=australia&ft:locale=en-US)**
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **[Document Viewer](https://www.servicenow.com/docs/access?context=Documentviewer&family=australia&ft:locale=en-US)**
+
+The Next Experience Document Viewer is now available in the Classic UI \(UI16\) and Service Portals in addition to Workspace. ServiceNow Otto features including document summary, voice Q&amp;A, smart redaction, and manual redaction are available.
+
+
+ -   **[Smart documents](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=australia&ft:locale=en-US)**
 
 Use Smart Document skill across all tables.Existing configurations remain unchanged during upgrade, including those on specific tables or when the feature is disabled.
 
@@ -277,6 +365,8 @@ Document Management is available with activation of the Document Management plug
 [Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=yokohama&ft:locale=en-US) Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Multi Provider Document Services Framework is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -291,6 +381,8 @@ Document Management is available with activation of the Document Management plug
 
 Multi Provider Document Services Framework needs to be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=zurich&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Multi Provider Document Services Framework is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -527,5 +619,5 @@ Australia
  See [Document Services](https://www.servicenow.com/docs/access?context=document-services-landing-page&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Duplicate a Platform Analytics dashboard
 description: Duplicate a dashboard created in the in-line editor so that you can share a modified version with different users.Duplicate a dashboard tab created in the in-line editor so that you can add related important content. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/duplicate-db.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/duplicate-db.html
 release: australia
 topic_type: task
 last_updated: "2025-10-27"

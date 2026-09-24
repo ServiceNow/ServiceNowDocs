@@ -2,7 +2,7 @@
 title: RPA Hub Workspace
 description: Learn about the digital workforce that you can manage all from the RPA Hub Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/workspace-ui-rpa-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/workspace-ui-rpa-hub.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -68,7 +68,7 @@ This page contains descriptions about the following basic score card, lists, and
     \[Omitted image "rpa-hub-workspace-license-utli.png"\] Alt text: License utilization of unattended and attended robots.
 
 
-You can configure a bot process record and create a robot by selecting the plus icon \(\[Omitted image "icon-plus.png"\] Alt text: Plus icon.\). For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md) and [Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robots-rpa-hub.md).
+You can configure a bot process record and create a robot by selecting the plus icon \(\[Omitted image "icon-plus.png"\] Alt text: Plus icon.\). For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md) and [Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/robots-rpa-hub.md).
 
 \[Omitted image "rpa-hub-home-new-process.png"\] Alt text: Configuring a bot process record and creating a robot from the landing page.
 

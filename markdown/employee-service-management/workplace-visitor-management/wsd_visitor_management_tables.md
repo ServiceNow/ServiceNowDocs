@@ -2,7 +2,7 @@
 title: About visit-related tables
 description: The Workplace Visitor Management application uses three interconnected tables to track everything that happens during a visit from the invitation to the departure. Knowing what each table does helps you configure the application, troubleshoot issues, and know where to look when you have to audit visit activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/wsd\_visitor\_management\_tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/wsd\_visitor\_management\_tables.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -82,7 +82,7 @@ A single Visit can have multiple Invitations, and each Invitation can result in 
 
 **Note:** Records in all three tables are retained even after a visit ends and can't be permanently deleted, which supports audit and compliance requirements. Visitors can opt to anonymize their data, which replaces personal data in the instance with random values.
 
-**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 

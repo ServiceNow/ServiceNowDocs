@@ -40,5 +40,5 @@ Role required: admin
     **Note:** When using Microsoft Exchange Online spoke v.2.0.2 with the Retry Handler Framework, the scripted rest API for the retry handler framework is used as the webhook URL.
 
 
-**Parent Topic:**[Journey Accelerator integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-integrations.md)
+**Parent Topic:**[Journey Accelerator integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/ja-integrations.md)
 

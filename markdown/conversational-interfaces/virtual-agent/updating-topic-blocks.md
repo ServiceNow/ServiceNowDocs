@@ -2,7 +2,7 @@
 title: Maintain reusable topic blocks
 description: When you update topic blocks, Virtual Agent Designer provides built-in checks to help you identify changes to topic blocks that affect the calling topics that use them. Updates include changing input and output parameters, deleting topic blocks, and publishing inactive and active topic blocks and calling topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/updating-topic-blocks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/updating-topic-blocks.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

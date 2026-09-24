@@ -2,7 +2,7 @@
 title: ITOM AIOps release notes
 description: The ServiceNow ITOM AIOps application helps you to keep track and maintain the health of the services in your organization. ITOM AIOps was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/itom-aiops-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/itom-aiops-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ See [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aus
     -   ITOM AIOps is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). You must purchase a more comprehensive ITOM AIOps package, ITOM Predictive AIOps, to enable working with Health Log Analytics. For details, see [Event Management setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EMConfiguration.md).
     -   Install Service Operations Workspace \(ITOM\) by installing the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store.
 
-**Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-operations-management-rn-landing.md)
+**Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-operations-management-rn-landing.md)
 

@@ -2,7 +2,7 @@
 title: Create a Knowledge Graph schema
 description: Create customized Knowledge Graph schema that will be used by Virtual Agent, AI Agents and ServiceNow Otto Panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/creating-a-new-knowledge-graph-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/creating-a-new-knowledge-graph-schema.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

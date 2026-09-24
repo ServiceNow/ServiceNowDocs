@@ -2,7 +2,7 @@
 title: Preview an email notification
 description: Before sending a publication, authors or administrators can preview the email notifications, reviewing the recipient list, subject information, and publication content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommPreviewTargetEmail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_TargetCommPreviewTargetEmail.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

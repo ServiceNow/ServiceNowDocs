@@ -2,7 +2,7 @@
 title: Example - Restrict a table
 description: This access control prevents everyone from editing all fields in the Incident table in a list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/r\_ExampleRestrictATable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/r\_ExampleRestrictATable.html
 release: australia
 product: List Administration
 classification: list-administration

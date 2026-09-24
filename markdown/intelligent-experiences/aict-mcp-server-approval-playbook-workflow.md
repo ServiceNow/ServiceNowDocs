@@ -2,7 +2,7 @@
 title: MCP server approval playbook workflow
 description: After you register and manage an MCP server, the AI steward moves it through the onboarding lifecycle before agents can use it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-mcp-server-approval-playbook-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-mcp-server-approval-playbook-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-03"

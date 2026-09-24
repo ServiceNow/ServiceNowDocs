@@ -2,7 +2,7 @@
 title: Install HR Service Delivery integration with Microsoft Teams application
 description: Install the HR Service Delivery integration with Microsoft Teams application to integrate with ServiceNow instance for the collaboration between the agents and employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/install-hr-ms-teams-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/install-hr-ms-teams-plugin.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -51,10 +51,10 @@ All the Restricted Caller Access\(RCA\) privileges are displayed in **Applicatio
 
 Download and execute the **fix\_script\_start\_chat\_field\_decorator\_HR** to display the field decorator in the ticket to initiate a chat with the requester.
 
--   **[Verify Application Restricted Caller Access \(RCA\) Privileges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/verify-rca-privileges-hr.md)**  
+-   **[Verify Application Restricted Caller Access \(RCA\) Privileges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/verify-rca-privileges-hr.md)**  
 Verify that there are no duplicate entries in the Restricted Caller Access \(RCA\) records before uploading an RCA data set to fix the configuration issues.
--   **[Import Update set from XML and install fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/upload-rca-hr.md)**  
+-   **[Import Update set from XML and install fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/upload-rca-hr.md)**  
 Import update set from XML to provide cross-scope access to HR Service Delivery applications and run fix script to display field decorator in the ticket.
 
-**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
+**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
 

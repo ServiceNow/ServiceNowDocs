@@ -2,7 +2,7 @@
 title: Change the source name of Discovery results
 description: You have the option of changing the source name of discovery results. This might be desirable if Discovery is running on your network together with another discovery product, and you want to use customized identifiers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ChangeTheDiscoverySourceName.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_ChangeTheDiscoverySourceName.html
 release: australia
 product: Discovery
 classification: discovery
@@ -47,5 +47,5 @@ To migrate your Discovery Source to ServiceNow:
 7.  Use the Update All option to change the value to ServiceNow.
 
 
-**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

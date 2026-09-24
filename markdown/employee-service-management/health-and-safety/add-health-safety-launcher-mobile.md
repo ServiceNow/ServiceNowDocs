@@ -2,7 +2,7 @@
 title: Add Health and Safety launcher tab to Now Mobile app configuration
 description: Add a Health and Safety launcher screen tab to your Now Mobile app configuration. With this launcher tab, your employees can open the Health and Safety Incident Management application in the Now Mobile app on their mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/add-health-safety-launcher-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/add-health-safety-launcher-mobile.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -89,5 +89,5 @@ Icon that displays for your navigation tab.
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
+**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 

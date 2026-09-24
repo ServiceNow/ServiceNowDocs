@@ -2,7 +2,7 @@
 title: Entities in GRC
 description: An entity is a person, process, department, application, or other object whose compliance exposure is tracked in GRC. Each entity has an owner, so non-compliant items and their owners can be identified individually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/what-is-an-entity-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/what-is-an-entity-2.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -46,7 +46,7 @@ Entity classes are used to add a conceptual information about the entity or tag 
 
 \[Omitted image "entity-class-associated-with-entity-tier.png"\] Alt text: Sample configuration for an entity class.
 
-For more information, see [Entity classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-class-in-risk-ws.md).
+For more information, see [Entity classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/entity-class-in-risk-ws.md).
 
 ## Entity class rules
 
@@ -54,7 +54,7 @@ Entity class rules help to assign classes to the entities at the table level. An
 
 When you create an entity over a specific table, the class associated with that table automatically gets assigned to the entity. You can set a new entity class rule for a table.
 
-For more information, see [Entity class rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-class-rules-in-risk-ws.md).
+For more information, see [Entity class rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/entity-class-rules-in-risk-ws.md).
 
 ## Entity types
 
@@ -66,7 +66,7 @@ You can create an entity type by associating it with the core business pillar su
 
 \[Omitted image "entity-type-new-record.png"\] Alt text: Sample configuration for an entity type.
 
-For more information, see [Entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-type-in-risk-ws.md).
+For more information, see [Entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/entity-type-in-risk-ws.md).
 
 ## Entity tiers
 
@@ -74,14 +74,14 @@ When you create entity tiers, you apply a level or hierarchy to the entity class
 
 \[Omitted image "entity-tier-list-view.png"\] Alt text: List view for an entity tier.
 
-For more information, see [Entity tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-tier-in-risk-ws.md).
+For more information, see [Entity tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/entity-tier-in-risk-ws.md).
 
-**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manage-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/manage-entities.md)
 
-**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
 
 **Related topics**  
 
 
-[Entity scoping in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/c_Scoping.md)
+[Entity scoping in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/c_Scoping.md)
 

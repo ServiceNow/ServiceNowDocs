@@ -2,7 +2,7 @@
 title: Actual and business elapsed times
 description: Task SLA records contain two sets of timing information: Actual elapsed and Business elapsed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/r\_ElapsedTimeCounting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/r\_ElapsedTimeCounting.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -66,12 +66,12 @@ For example, on an 8-hour SLA with a 9 a.m. to 5 p.m. weekday schedule:
 
 This confirms that notifications and escalations reflect actual working time, not calendar time.
 
-**Parent Topic:**[Service Level Agreement \(SLA\) processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLAProcessing.md)
+**Parent Topic:**[Service Level Agreement \(SLA\) processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/c_SLAProcessing.md)
 
 **Related topics**  
 
 
 [SLA Percentage Timer workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/r_SLAPercentageTimer.md)
 
-[Flows for SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/flows-for-sla.md)
+[Flows for SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/flows-for-sla.md)
 

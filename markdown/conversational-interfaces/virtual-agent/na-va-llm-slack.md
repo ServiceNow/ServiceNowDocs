@@ -2,12 +2,12 @@
 title: Using ServiceNow Otto for Virtual Agent conversations with Slack
 description: ServiceNow Otto provides a large language model \(LLM\)-based conversational experience in your conversations with a Virtual Agent bot or a self-configured bot that is integrated with Slack.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/na-va-llm-slack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/na-va-llm-slack.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -20,9 +20,9 @@ ServiceNow Otto provides a large language model \(LLM\)-based conversational exp
 
 To enable a bot with ServiceNow Otto, you must first integrate your Virtual Agent bot or a self-configured bot with Slack.
 
--   To integrate Slack with Virtual Agent, see [Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-slack.md).
+-   To integrate Slack with Virtual Agent, see [Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-slack.md).
 
--   To integrate Slack with a self-configured bot, see [Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-slack.md).
+-   To integrate Slack with a self-configured bot, see [Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-single-slack.md).
 
 
 ## Conversational experience with ServiceNow Otto in Slack
@@ -65,12 +65,12 @@ ServiceNow Otto provides a new AI Search experience in channels with the followi
 
 **Note:** When using ServiceNow Otto in Slack, users can provide quick feedback on the AI-generated Virtual Agent responses by selecting the thumbs up \( \[Omitted image "llm-thumbs-up-like.png"\] Alt text:\)or thumbs down \( \[Omitted image "llm-thumbs-down-dislike.png"\] Alt text:\) icons.
 
-For more information about enabling LLM for your bots that are integrated with Slack, see [Enable ServiceNow Otto for Virtual Agent in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-na-llm-slack.md).
+For more information about enabling LLM for your bots that are integrated with Slack, see [Enable ServiceNow Otto for Virtual Agent in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-na-llm-slack.md).
 
--   **[Enable ServiceNow Otto for Virtual Agent in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-na-llm-slack.md)**  
+-   **[Enable ServiceNow Otto for Virtual Agent in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-na-llm-slack.md)**  
 Enable large language model \(LLM\) conversational experiences with ServiceNow Otto in your Slack integration.
--   **[Synthesized response in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/slack-synthesized-response.md)**  
+-   **[Synthesized response in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/slack-synthesized-response.md)**  
 Synthesized responses in Slack conversations are results that are summarized as a single response, allowing users to see information in a conversational way.
 
-**Parent Topic:**[Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/mssg-slack.md)
+**Parent Topic:**[Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/mssg-slack.md)
 

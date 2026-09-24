@@ -2,12 +2,12 @@
 title: Generate modules using ServiceNow Otto
 description: Use ServiceNow Otto to generate modules for your application by entering natural language prompts instead of manually configuring them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/generate-ai-modules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/generate-ai-modules.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Use ServiceNow Otto to generate modules for your application by entering natural
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 Role required: admin
 
@@ -115,5 +115,5 @@ Module generation issues
 4.  \(Optional\) If needed, add, or rearrange modules.
 5.  Select **Done** to finish.
 
-**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-generation.md)
+**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-generation.md)
 

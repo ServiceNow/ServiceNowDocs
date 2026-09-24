@@ -2,7 +2,7 @@
 title: Manage a store inquiry case from the Retail portal
 description: Accept, reject, or close a store inquiry case from the Retail portal. By using the Retail portal, you can handle cases more efficiently and get updated information in real time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-fulfill-retail-store-service-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-fulfill-retail-store-service-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: Store associate or Store manager
 5.  Reopen a case by selecting **Reject solution**.
 
 
-**Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-inquiries.md)
+**Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-manage-store-inquiries.md)
 

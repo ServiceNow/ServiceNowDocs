@@ -2,7 +2,7 @@
 title: Configure Workday to-dos
 description: Store one-time configuration parameters to pull tasks from Workday into the ServiceNow application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-workday-raas-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-workday-raas-report.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -72,5 +72,5 @@ Interval in which you want to pull data, for example, in terms of days or months
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Approvals hub integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/wd-ec-integration.md)
+**Parent Topic:**[Approvals hub integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/wd-ec-integration.md)
 

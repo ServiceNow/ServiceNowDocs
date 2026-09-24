@@ -2,7 +2,7 @@
 title: Enable or disable impersonation in mobile apps
 description: Learn how to enable or disable impersonation in your ServiceNow mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-impersonate-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-impersonate-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ Role required: admin or impersonator
     \[Omitted image "mobile-imperson-4.png"\] Alt text: End impersonation option in the settings screen.
 
 
-**Parent Topic:**[Mobile impersonation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-impersonation.md)
+**Parent Topic:**[Mobile impersonation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-impersonation.md)
 

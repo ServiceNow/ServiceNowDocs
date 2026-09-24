@@ -2,7 +2,7 @@
 title: Responsive dashboard properties
 description: Use properties to fine-tune dashboard behavior and appearance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/dashboard-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/dashboard-properties.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -97,7 +97,7 @@ glide.canvas.grid.widget\_performance\_threshold
 -   Default value: none
 -   Location: **System Properties** &gt; **Dashboard Properties**
 
- For more information, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
+ For more information, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ glide.canvas.grid.widget\_render\_concurrent\_max
 -   Default value: 3
 -   Location: **System Properties** &gt; **Dashboard Properties**
 
- For more information, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
+ For more information, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
 
 </td></tr><tr><td>
 

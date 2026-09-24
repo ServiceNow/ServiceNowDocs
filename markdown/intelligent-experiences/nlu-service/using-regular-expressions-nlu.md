@@ -2,7 +2,7 @@
 title: Using regular expressions in entities
 description: Learn how to use regular expressions in your NLU entities to establish patterns that help the system locate, match, and manage text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/using-regular-expressions-nlu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/using-regular-expressions-nlu.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -22,7 +22,7 @@ Pattern entities use regular expressions \(regex\) to match any pattern of text,
 
 ## Regex examples
 
-For a full example of regex code used in a pattern entity, see [Create a pattern entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-pattern-entity.md).
+For a full example of regex code used in a pattern entity, see [Create a pattern entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/create-pattern-entity.md).
 
 The following four examples provide the format and regex code for different pattern entities.
 

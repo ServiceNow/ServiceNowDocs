@@ -2,7 +2,7 @@
 title: Using enhanced chat on mobile
 description: Enhanced Chat on mobile offers a dynamic conversational support experience that integrates powerful AI-driven search and chat capabilities. You can seamlessly switch between multiple conversations, receive synthesized responses with inline citations, and access both knowledge articles and catalog items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/using-enhanced-chat-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/using-enhanced-chat-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -81,7 +81,7 @@ ServiceNow AI Lens leverages generative AI to scan, extract, and interpret data 
 
 When you start a new Virtual Agent chat, select **Show all my options** to view the option to open ServiceNow AI Lens. Now Assist then gives you the option to choose an existing image or open your camera app to take a new photo. Once an image is selected, Now Assist allows you to input additional directions for how the image should be analyzed.
 
-For more information, see [ServiceNow AI Lens for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/servicenow-lens-mobile.md).
+For more information, see [ServiceNow AI Lens for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/servicenow-lens-mobile.md).
 
 ## Web search mode
 
@@ -89,7 +89,7 @@ For more information, see [ServiceNow AI Lens for mobile](https://raw.githubuser
 
 Web search mode in Now Assist enables you to search the internet directly from within your chat, displaying external results rather than internal company information. Select the Start web search mode icon \(\[Omitted image "na-web-search-icon.png"\] Alt text:\) to enter web search mode.
 
-While active, all user queries are answered using internet search results, and a banner shows that web search mode is enabled. The identifying banner disappears once web search mode is ended. For additional information, see [Using Now Assist web search on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-na-web-search-mobile.md).
+While active, all user queries are answered using internet search results, and a banner shows that web search mode is enabled. The identifying banner disappears once web search mode is ended. For additional information, see [Using Now Assist web search on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-na-web-search-mobile.md).
 
 ## Feedback and additional support
 
@@ -115,5 +115,5 @@ For more detailed information on all of standard chat’s specific skills, see [
 
 For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-now-assist-mobile.md)
 

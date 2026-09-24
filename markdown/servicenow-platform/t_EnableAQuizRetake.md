@@ -2,7 +2,7 @@
 title: Enable a quiz retake
 description: You can configure a quiz to allow recipients to resubmit their answers as many times as they like, until the quiz's due date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_EnableAQuizRetake.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_EnableAQuizRetake.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,15 +30,15 @@ Results are not calculated until the quiz's configured duration has elapsed. The
 
 3.  Open the quiz.
 
-4.  In the [Assessment Metric Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md) form, select the **Allow retake** check box and save the record.
+4.  In the [Assessment Metric Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md) form, select the **Allow retake** check box and save the record.
 
 
-**Parent Topic:**[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
+**Parent Topic:**[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizDesigner.md)
 
 **Related topics**  
 
 
-[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
+[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizDesigner.md)
 
-[Publish a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PublishaQuiz.md)
+[Publish a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_PublishaQuiz.md)
 

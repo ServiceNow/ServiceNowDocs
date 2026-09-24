@@ -2,12 +2,12 @@
 title: Roles and permissions matrix
 description: Learn about the roles required to access each UI Generation feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/roles-and-permissions-matrix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/roles-and-permissions-matrix.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -37,7 +37,7 @@ The ui\_builder\_admin role is the primary role for using ServiceNow Otto UI Gen
 
     Primary role for UI Generation. Contains ui\_interaction\_admin, canvas\_user, and workspace\_admin as sub-roles.
 
-    For more information, see [UI generation roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-roles.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+    For more information, see [UI generation roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-roles.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 -   **workspace\_admin**
 
@@ -48,5 +48,5 @@ The ui\_builder\_admin role is the primary role for using ServiceNow Otto UI Gen
     Full instance administration, including system properties management and role assignment.
 
 
-**Parent Topic:**[UI generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-reference.md)
+**Parent Topic:**[UI generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-reference.md)
 

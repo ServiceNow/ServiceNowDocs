@@ -2,7 +2,7 @@
 title: Content Management System release notes
 description: The Content Management System \(CMS\) is a ServiceNow application that enables users to create a custom interface for the ServiceNow platform and ServiceNow applications. This application can no longer be activated and will be deprecated in the C release \(GA\).The Content Management System \(CMS\) is a ServiceNow application that enables users to create a custom interface for the ServiceNow platform and ServiceNow applications. This application can no longer be activated and will be deprecated in the C release \(GA\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/content-management-system-release-notes-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/content-management-system-release-notes-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The Content Management System \(CMS\) is a ServiceNow application that enables u
 
 ## Activation and other requirements
 
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-ui-rn-landing.md)
 
 ## Australia
 

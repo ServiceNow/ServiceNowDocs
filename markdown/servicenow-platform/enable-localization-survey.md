@@ -2,7 +2,7 @@
 title: Enable localization for a survey
 description: Enable a survey user to take a survey in multiple languages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/enable-localization-survey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/enable-localization-survey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,7 +43,7 @@ The plugin for the language that you want the survey to be available in should b
     -   The survey is available for survey users in the translated language.
     -   Users can change the language of the survey using the language picker.
 
-**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 

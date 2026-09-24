@@ -2,7 +2,7 @@
 title: Components installed with Contract Management Pro
 description: Several types of components are installed with activation of the Contracts Core application that includes the components for Word Document Templates, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-comp-ccore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-comp-ccore.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -460,7 +460,7 @@ Store details of obligation tasks.
 </td></tr></tbody>
 </table>## Scheduled jobs
 
-There are several properties that you can use to configure integrations for Contract Management Pro. These properties are used while executing the following scheduled jobs. For more information, see [Properties installed to configure contracts integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-properties.md).
+There are several properties that you can use to configure integrations for Contract Management Pro. These properties are used while executing the following scheduled jobs. For more information, see [Properties installed to configure contracts integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-properties.md).
 
 <table id="id_zbt_hcj_k1c"><thead><tr><th>
 
@@ -513,7 +513,7 @@ True
 Validate schedule and create recurring obligation tasks
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure CyberArk Certificate Manager SaaS credentials
 description: Configure authentication credentials so Certificate Inventory and Management can communicate with CyberArk Certificate Manager SaaS for automated certificate life-cycle management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-cyberark-venafi-creds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/configure-cyberark-venafi-creds.html
 release: australia
 product: Discovery
 classification: discovery

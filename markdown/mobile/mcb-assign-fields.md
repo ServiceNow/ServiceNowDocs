@@ -2,7 +2,7 @@
 title: Assign field values to your mobile card
 description: Use Mobile Card Builder to show field labels and values from your tables in mobile cards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mcb-assign-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mcb-assign-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,7 +51,7 @@ Navigate to **System Mobile** &gt; **Mobile Card Builder**, then select the card
 </td></tr></tbody>
 </table>2.  Select a text in your mobile card, or create a new one.
 
-    For details on creating elements, see [Mobile Card Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-stage-ui.md).
+    For details on creating elements, see [Mobile Card Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mcb-stage-ui.md).
 
     With your text element selected, you can see the configuration properties in the **Component configuration** panel on the right of the screen. If you do not see this panel, select the **Expand configuration panel** \(\[Omitted image "expand-config-panel-icon.png"\] Alt text: Expand configuration panel icon\) button. \[Omitted image "mcb-field-values-2.png"\] Alt text: Component configuration for a text element.
 

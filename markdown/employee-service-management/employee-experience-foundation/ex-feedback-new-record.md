@@ -2,7 +2,7 @@
 title: Feedback configuration form
 description: Description of the feedback configuration form fields to target a portal for feedback responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ex-feedback-new-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ex-feedback-new-record.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -129,7 +129,7 @@ Drawer Options
 -   **Position from top**: Position where the Drawer shows up on the page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

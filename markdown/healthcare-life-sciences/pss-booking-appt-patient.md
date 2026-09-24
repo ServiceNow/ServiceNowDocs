@@ -2,7 +2,7 @@
 title: Booking appointments for Patient Support Services
 description: Book an appointment as a patient for the training requests within a Patient Support Services program.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-booking-appt-patient.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-booking-appt-patient.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,12 +26,12 @@ Your administrator can configure the appointment window available for selecting 
 
 After you book an appointment, a training task is created for the nurse educator and the appointment confirmation email notification is sent to you.
 
-For more information, see [Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-feature.md).
+For more information, see [Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-feature.md).
 
 **Related topics**  
 
 
-[Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-feature.md)
+[Appointment booking workflow in Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-feature.md)
 
-[Configuring an appointment booking setting for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-appt-booking-setup.md)
+[Configuring an appointment booking setting for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pss-appt-booking-setup.md)
 

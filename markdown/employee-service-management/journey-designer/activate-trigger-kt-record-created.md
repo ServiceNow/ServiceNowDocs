@@ -2,7 +2,7 @@
 title: Activate the Knowledge transfer record created trigger
 description: Enable the knowledge transfer record created trigger to ensure that the employee review workflow runs after a knowledge transfer record is generated. This trigger allows departing employees to review and approve auto-generated knowledge transfer content before sharing with their manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/activate-trigger-kt-record-created.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/activate-trigger-kt-record-created.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -75,5 +75,5 @@ Role required: admin \[virtual\_agent\_admin\]
 
 The following trigger is now active: Knowledge transfer record created. When a knowledge transfer record is generated, the system automatically engages the departing employee through ServiceNow Otto to review and approve the knowledge transfer content.
 
-**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
+**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

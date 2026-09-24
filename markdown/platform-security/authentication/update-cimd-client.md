@@ -2,7 +2,7 @@
 title: Update a CIMD client
 description: Update a registered Client ID Metadata Document \(CIMD\) client, including switching the metadata sync mode between Live and Static.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/update-cimd-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/update-cimd-client.html
 release: australia
 product: Authentication
 classification: authentication
@@ -47,7 +47,7 @@ The sync mode you select determines which fields you maintain:
 
 3.  Update the client fields as needed.
 
-    For field descriptions, see the CIMD client fields reference in [Configure a CIMD client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-cimd-client.md).
+    For field descriptions, see the CIMD client fields reference in [Configure a CIMD client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-cimd-client.md).
 
 4.  To switch the sync mode, set **Metadata Sync Mode** to the value you want:
 

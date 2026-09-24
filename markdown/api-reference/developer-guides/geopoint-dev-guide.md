@@ -2,7 +2,7 @@
 title: GlideGeoPoint Developer Guide
 description: The GlideGeoPoint developer guide contains information about how to compute distances between latitude and longitude values \(geopoints\), return locations within given geopoint and radius values, and use additional functionality provided by supported GlideGeoPoint API functions.Use the GlideGeoPoint API to insert new records and create new geopoints.Use the getDisplayValue\(\) GlideGeoPoint API function to read all geopoint values from a specific table.Use the distance\_sphere glide function to return the distance between geopoints in meters.Use the DISTANCE\_SPHERE\_WITHIN query condition to filter for records having a geopoint value within the radius of a defined latitude, longitude point. 
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/geopoint-dev-guide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/geopoint-dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -34,7 +34,7 @@ The examples in this guide assume that a custom table, `u_geopoint`, is populate
 
 Use the GlideGeoPoint API to insert new records and create new geopoints.
 
-The [GlideGeoPoint - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideGeopointGlobalAPI.md) API allows you to set and retrieve geopoint values. However, you can perform additional functionality to insert new records by setting geopoints directly in a script using string notation or a GlideGeoPoint object.
+The [GlideGeoPoint - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideGeopointGlobalAPI.md) API allows you to set and retrieve geopoint values. However, you can perform additional functionality to insert new records by setting geopoints directly in a script using string notation or a GlideGeoPoint object.
 
 -   **Inserting a new record using string notation.**
 
@@ -75,7 +75,7 @@ The [GlideGeoPoint - Global](https://raw.githubusercontent.com/ServiceNow/Servic
 
 Use the getDisplayValue\(\) GlideGeoPoint API function to read all geopoint values from a specific table.
 
-The standard GlideGeoPoint API allows you to retrieve a geopoint value via the [GlideGeoPoint - getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideGeopointGlobalAPI.md) function. However, it is possible to read all geopoints defined in an entire table. The following example script demonstrates how to use the getDisplayValue\(\) function to retrieve all records from the `u_geopoint` table, which includes the `u_location` field of type 'geopoint'. You can this example script and adjust it to your own specific use case.
+The standard GlideGeoPoint API allows you to retrieve a geopoint value via the [GlideGeoPoint - getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideGeopointGlobalAPI.md) function. However, it is possible to read all geopoints defined in an entire table. The following example script demonstrates how to use the getDisplayValue\(\) function to retrieve all records from the `u_geopoint` table, which includes the `u_location` field of type 'geopoint'. You can this example script and adjust it to your own specific use case.
 
 **Note:** GlideGeoPoint API values are always listed in longitude, latitude order.
 

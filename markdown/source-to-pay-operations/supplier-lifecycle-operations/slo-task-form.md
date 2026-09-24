@@ -2,7 +2,7 @@
 title: Task form
 description: Use the Details tab of the task form to provide details about the supplier or employee task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slo-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-task-form.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -199,10 +199,10 @@ Duration
 Duration to complete the case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Fields in the Create new task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-task-form.md)
+</table>**Parent Topic:**[Fields in the Create new task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-task-form.md)
 
 **Related topics**  
 
 
-[Create a task for a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-task-for-supp-case.md)
+[Create a task for a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-new-task-for-supp-case.md)
 

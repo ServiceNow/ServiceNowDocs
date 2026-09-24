@@ -2,7 +2,7 @@
 title: Collaborate with docs in Next Experience for Demand Management
 description: Docs supports real-time collaboration on documentation such as meeting notes, demand requirements, and technical specifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/docs-for-demands-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/docs-for-demands-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -31,7 +31,7 @@ You can create multiple Docs for a demand and within each Doc, you can create un
 
 ## Images in Docs
 
-You can insert images in or adding a web URL. You can also save images from your demand documents directly to your device, to share or use them outside Docs. For more information, see [Add images in demand Docs or download them](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/insert-images-in-demand-docs-ppw.md).
+You can insert images in or adding a web URL. You can also save images from your demand documents directly to your device, to share or use them outside Docs. For more information, see [Add images in demand Docs or download them](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/insert-images-in-demand-docs-ppw.md).
 
 ## Dynamic data linking in Docs
 
@@ -39,7 +39,7 @@ Keep record information in your documentation current and reduce manual effort w
 
 For example, if you add a reference to an Incident record, the reference shows the latest field information of the incident in Docs.
 
-For more information, see [Add dynamic data to demand Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-dynamic-data-links-in-demand-docs-ppw.md).
+For more information, see [Add dynamic data to demand Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/add-dynamic-data-links-in-demand-docs-ppw.md).
 
 \[Omitted image "cwm-docs-dynamic-record.png"\] Alt text: Dynamic linking an incident record in Docs.
 

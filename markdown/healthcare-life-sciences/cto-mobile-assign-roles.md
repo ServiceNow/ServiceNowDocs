@@ -2,7 +2,7 @@
 title: Assign roles for Care Team Mobile users
 description: User access for Care Team Mobile is granted when you have been assigned the sn\_hco.care\_team\_member role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-mobile-assign-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-mobile-assign-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,5 +16,5 @@ User access for Care Team Mobile is granted when you have been assigned the **sn
 
 Roles for Care Team Mobile are assigned just as they are for the Healthcare Operations Core application.
 
-For instructions on assigning these roles, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
+For instructions on assigning these roles, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
 

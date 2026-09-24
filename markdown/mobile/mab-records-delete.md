@@ -2,7 +2,7 @@
 title: Delete records in Mobile App Builder
 description: Use the Delete button to delete records in the Mobile App Builder. This button exists in the same location throughout the tool. When deleting a record, all child records are removed from the configuration tree, but they are not deleted from the database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-records-delete.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-records-delete.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

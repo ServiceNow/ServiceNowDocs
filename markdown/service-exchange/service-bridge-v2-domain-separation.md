@@ -2,7 +2,7 @@
 title: Domain separation and Service Exchange
 description: Domain separation is supported for Service Exchange. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-domain-separation.html
 release: australia
 product: Service Exchange
 classification: service-exchange

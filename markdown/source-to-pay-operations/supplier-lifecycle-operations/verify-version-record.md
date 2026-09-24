@@ -2,7 +2,7 @@
 title: Verify version record
 description: After the fix script is created and run to enable M2M mapping between supplier contact and suppliers, a version record must be created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/verify-version-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/verify-version-record.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -37,12 +37,12 @@ Role required: admin
 
 Remove the unique constraint from Email Domain.
 
-**Parent Topic:**[Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md)
+**Parent Topic:**[Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md)
 
 **Related topics**  
 
 
-[Run the fix script to enable M2M mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script.md)
+[Run the fix script to enable M2M mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script.md)
 
-[Remove the unique constraint from Email Domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-unique-constraint.md)
+[Remove the unique constraint from Email Domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-unique-constraint.md)
 

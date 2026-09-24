@@ -2,7 +2,7 @@
 title: Touchpoint planner
 description: The touchpoint planner shows a calendar view of different touchpoints across all accounts associated with the customer success manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-touchpoint-planner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-touchpoint-planner.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ You can do the following:
 -   Select a date period to view the schedule for that period.
 -   Select **Week** or **Month** option to view the schedule for the week or for month as required.
 -   The time zone shows the current time zone of the logged in user.
--   Select **Create Touchpoint** to create touchpoint. See [Create a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-touchpoint.md) for details.
+-   Select **Create Touchpoint** to create touchpoint. See [Create a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-touchpoint.md) for details.
 
-**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
+**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
 

@@ -2,7 +2,7 @@
 title: Multi-source service mapping
 description: Multi-source service mapping combines data from multiple discovery methods to create a single, comprehensive service map that provides complete visibility into your organization's hybrid IT infrastructure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/multi-source-service-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/multi-source-service-mapping.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -87,7 +87,7 @@ Multi-source service mapping is valuable in the following scenarios:
 
 The multi-source service-mapping process follows these key phases:
 
--   **[Creating a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-create-service-instance.md)**
+-   **[Creating a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/unified-map-create-service-instance.md)**
 
     Service Mapping administrators can access this flow through the Service Mapping workspace. They can search for services based on properties related to the services, such as server tag, or UR and choose the services to unify. They can choose mapped and unmapped services from various types. For example, they can unify a top-down service with a tag-based service. Unmapped services can be added to the unified service and converted to mapped services along the process. A ranking algorithm suggests the top recommendations of services to merge, according to the criteria provided.
 
@@ -97,11 +97,11 @@ The multi-source service-mapping process follows these key phases:
 
     When the process of creating the unified service is complete, the unified service map is displayed in the "Unified map" format through the CMDB Workspace. This view shows the complete consolidated service.
 
--   **[Editing the unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)**
+-   **[Editing the unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/unified-map-edit-unified-service.md)**
 
     The Service Mapping administrator can add additional services from various types or remove a service if needed. The feature doesn't support unification of unified services, only single services.
 
--   **[Deleting the unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-delete-unified-service.md)**
+-   **[Deleting the unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/unified-map-delete-unified-service.md)**
 
     The Service Mapping administrator can delete the unified service if needed. Child services remain non-operational by default.
 
@@ -112,5 +112,5 @@ To use multi-source service mapping, your ServiceNow instance must have the foll
 
 -   At least Australia family version installed.
 -   Service Mapping Plus installed and updated to the latest version.
--   At least two existing services to unify, or at least two sources of data that are actively updated. If there are no existing services on your instance, choose a method to create the services. For more information, see: [Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md).
+-   At least two existing services to unify, or at least two sources of data that are actively updated. If there are no existing services on your instance, choose a method to create the services. For more information, see: [Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/choose-mapping-method.md).
 

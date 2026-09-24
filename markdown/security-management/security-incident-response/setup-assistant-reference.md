@@ -2,7 +2,7 @@
 title: Setup Assistant reference
 description: The Setup Assistant walks you through the steps you need to perform to set up the Security Incident Response base system. This section provides additional information on the complicated steps for which you may require more explanation.You can create a process definition to define the way security incidents transition from one state to the next. Process definitions give service desks and end users help tracking the problem throughout its life cycle.Security Incident Response Process Definition replaces state flows and provides end users and service desks with the status of a problem. A process definition helps track the problem through its life cycle. Security Incident Response is a Service Management \(SM\) application, which has its own set of states. Invalid states are reported as part of Process Selection.Security Incident Response Process Selection lists processes with invalid states for security incidents and response tasks.You can select the process definition to use for the appropriate states for your company security incidents and response tasks.Create a custom Process Definition script for the appropriate states for your company security incidents and response tasks.The Process Definition script include provides methods for defining a process definition.An administrator can correct the security incident or task to valid states, either manually or using a script. Available states vary based on the current state of the incident.Set up a security incident group and assign the appropriate roles and users to the group.Security incident calculator groups are used to group calculators.Security incident calculators allow you to calculate the severity of a security incident based on pre-defined formulas. You can define your own security incident calculators, as needed.Security incident calculators are used to update record values when pre-defined conditions are met. The calculators are grouped based on the criteria used to determine how the records are updated.The risk score is calculated as an arithmetic mean that represents the risk based on the priority of a security incident, the type of security incident \(Denial of Service, Spear Phishing, or Malicious code activity\), and the number of sources that triggered a failed reputation score on an indicator.The risk score weights used to calculate risk scores in security incidents can be removed or updated on an individual basis. They can also be removed or updated for all security incidents. The ability to remove them from security incidents is useful when changing weight values.You can define a Service Level Agreement \(SLA\) for Security Incident Response.You can repair SLA records to ensure that SLA timing and duration information is accurate.A runbook is an association between a published knowledge article and a specific task. While you are performing the task, a knowledge article in the runbook automatically opens, providing information pertinent to the task.When your employees receive emails that appear to be phishing attacks, they can report them to you using a phishing email address. The suspicious email is validated using rules defined by your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/setup-assistant-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/setup-assistant-reference.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -50,7 +50,7 @@ Role required: sn\_si.admin
     |Field|Description|
     |-----|-----------|
     |Name|Name of the record which describes the process encoded in the script include file. The name is displayed as a choice in the **Process Definition Selector** list.|
-    |Script include|The name \(including the `sn_si`. prefix\) of the script include containing the definition of the process. The script must be in the Security Incident \(`sn_si`\) application scope. See [Create a custom Security Incident Response process definition script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md) for more information. If this field does not contain a valid script include name, the default ProcessDefinition\_NIST\_Stateful definition is used.|
+    |Script include|The name \(including the `sn_si`. prefix\) of the script include containing the definition of the process. The script must be in the Security Incident \(`sn_si`\) application scope. See [Create a custom Security Incident Response process definition script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md) for more information. If this field does not contain a valid script include name, the default ProcessDefinition\_NIST\_Stateful definition is used.|
     |Description|Helpful information about the script include.|
     |Order|Determines the position in the process definition list.|
     |Active|When checked, it makes this process definition selectable from the **Process Definition Selector** page.|
@@ -114,7 +114,7 @@ NIST supports the following two models:
 
 Security Incident Response Process Selection lists processes with invalid states for security incidents and response tasks.
 
-An administrator can correct the incident or task to valid states either manually or by using a script. An empty related list \(no incidents; no tasks\) indicates that every active task is in a valid state. Available states vary based on the current state of the incident. For more information, see [Correct an invalid security incident or task state with process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md).
+An administrator can correct the incident or task to valid states either manually or by using a script. An empty related list \(no incidents; no tasks\) indicates that every active task is in a valid state. Available states vary based on the current state of the incident. For more information, see [Correct an invalid security incident or task state with process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md).
 
 ##### Select a Security Incident Response process definition
 
@@ -231,7 +231,7 @@ Script
 
 Defines the server-side script to run when called from other scripts.The script must define a single JavaScript class or a global function. The class or function name must match the Name field.
 
-For information on script contents, see [Process Definition script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md).
+For information on script contents, see [Process Definition script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit.**
@@ -391,7 +391,7 @@ Role required: admin
 
 ##### About this task
 
-After you have switched process definitions, the new definition may not support some of the old states. To correct the orphan incident or task states, you can [change your process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md), [edit your script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md), or manually open each incident or task to update the state. Generally, updating the state \(which can be done in bulk\) is the easiest solution.
+After you have switched process definitions, the new definition may not support some of the old states. To correct the orphan incident or task states, you can [change your process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md), [edit your script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md), or manually open each incident or task to update the state. Generally, updating the state \(which can be done in bulk\) is the easiest solution.
 
 To change states in bulk, do the following:
 
@@ -497,7 +497,7 @@ Role required: sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Setup** &gt; **Security Incident Calculator Groups**.
 
-2.  Click the name of the group for which you want to create a calculator, or you can [create a calculator group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md).
+2.  Click the name of the group for which you want to create a calculator, or you can [create a calculator group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md).
 
 3.  Click **New**.
 
@@ -594,7 +594,7 @@ Use filter group
 
 </td><td>
 
-Select this check box to use a predefined filter group or [create a new filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-filter-group.md) to define the calculator criteria.
+Select this check box to use a predefined filter group or [create a new filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-filter-group.md) to define the calculator criteria.
 
 </td></tr><tr><td>
 
@@ -819,9 +819,9 @@ The risk score is calculated as an arithmetic mean that represents the risk base
 
 The risk score aids in prioritizing security incident work for the analysts.
 
-**Important:** If you want to use the new Risk Score Calculator, refer to [Define the new Risk Score Calculator Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/define-risk-score-calculator-rules-sir.md).
+**Important:** If you want to use the new Risk Score Calculator, refer to [Define the new Risk Score Calculator Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/define-risk-score-calculator-rules-sir.md).
 
-The **Set priority with category and services** and **Set priority with observables** [security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md) are used to calculate a risk score for a security incident. Additionally, the following business rules trigger automatic calculation of risk scores:
+The **Set priority with category and services** and **Set priority with observables** [security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md) are used to calculate a risk score for a security incident. Additionally, the following business rules trigger automatic calculation of risk scores:
 
 -   Calculate Severity
 -   Update risk score
@@ -866,7 +866,7 @@ Additionally, the work notes are updated in the following situations:
 -   When an association between affected services and a security incident is created or modified
 -   When an association between vulnerable items and a security incident is created or modified
 
-Work notes are also updated whenever **Update All Risk Scores** and **Clear All Risk Scores** on the [Risk Score Weights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md) form are clicked.
+Work notes are also updated whenever **Update All Risk Scores** and **Clear All Risk Scores** on the [Risk Score Weights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md) form are clicked.
 
 ##### Maintain risk score weights
 
@@ -942,7 +942,7 @@ A runbook is an association between a published knowledge article and a specific
 
 ### Before you begin
 
-There must be existing knowledge articles in the Security Incident Response Runbook knowledge base. When you [create a security incident knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md), be sure to select **Security Incident Response Runbook** in the **Knowledge base** field. After you publish the article, you can select the **Create Runbook** button.
+There must be existing knowledge articles in the Security Incident Response Runbook knowledge base. When you [create a security incident knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md), be sure to select **Security Incident Response Runbook** in the **Knowledge base** field. After you publish the article, you can select the **Create Runbook** button.
 
 Role required: sn\_si.knowledge\_admin
 
@@ -986,7 +986,7 @@ Use filter group
 
 </td><td>
 
-Select this check box to use a predefined filter group or [create a new filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-filter-group.md) to define the runbook criteria.
+Select this check box to use a predefined filter group or [create a new filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-filter-group.md) to define the runbook criteria.
 
 </td></tr><tr><td>
 

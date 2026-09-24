@@ -2,7 +2,7 @@
 title: Add a default agent work schedule
 description: Add a default agent schedule so that agents have a schedule assigned to them if their work schedule expires.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/add-agent-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/add-agent-schedule.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -20,7 +20,7 @@ Add a default agent schedule so that agents have a schedule assigned to them if 
 
 Role required: wm\_dispatcher
 
-The `Allow Dynamic Scheduling to only use work schedule/WFO` system property must be set to `false` before adding a default agent work schedule. Contact your administrator to update this system property. For more information, see [Dynamic scheduling system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dynamic-sched-system-properties.md).
+The `Allow Dynamic Scheduling to only use work schedule/WFO` system property must be set to `false` before adding a default agent work schedule. Contact your administrator to update this system property. For more information, see [Dynamic scheduling system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/dynamic-sched-system-properties.md).
 
 ## Procedure
 

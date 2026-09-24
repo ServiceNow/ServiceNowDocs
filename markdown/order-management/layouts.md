@@ -2,7 +2,7 @@
 title: Layouts
 description: Layouts define how the configuration experience looks and feels for your users. They control where fields appear, how steps are grouped, and how the product list \(shopping cart\) is presented—turning a blueprint’s logic and data into an intuitive, guided UI in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/layouts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -90,9 +90,9 @@ Product list columns are driven by the layout CSV file using the `productlist` a
 **Related topics**  
 
 
-[Set up layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_csv_101.md)
+[Set up layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_csv_101.md)
 
-[Layout Wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_wizard.md)
+[Layout Wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_wizard.md)
 
-[Layout: a deeper dive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_deeper_dive.md)
+[Layout: a deeper dive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_deeper_dive.md)
 

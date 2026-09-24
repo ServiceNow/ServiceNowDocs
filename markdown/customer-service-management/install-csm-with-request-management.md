@@ -2,7 +2,7 @@
 title: Install Customer Service Management with Request Management
 description: You can install the Customer Service with Request Management application \(com.sn\_cs\_sm\_request\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-csm-with-request-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/install-csm-with-request-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

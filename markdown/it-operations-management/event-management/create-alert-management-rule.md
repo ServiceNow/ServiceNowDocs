@@ -2,7 +2,7 @@
 title: Create an alert management rule
 description: Create an alert management rule to track alerts and resolve them by determining the required response, for example, to open an incident or launch remediation action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-alert-management-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/create-alert-management-rule.html
 release: australia
 product: Event Management
 classification: event-management
@@ -18,13 +18,13 @@ Create an alert management rule to track alerts and resolve them by determining 
 
 ## Before you begin
 
-To enable remediation with a subflow, you can use a subflow that is available with the base system, or you can create your own subflow. For details, see [Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-custom-create-incident-subflow.md).
+To enable remediation with a subflow, you can use a subflow that is available with the base system, or you can create your own subflow. For details, see [Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-custom-create-incident-subflow.md).
 
 Role required: evt\_mgmt\_admin, flow\_designer
 
 ## About this task
 
-**Note:** Use [Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md) in Service Operations Workspace, the updated way to automate alert responses with an easier interface.
+**Note:** Use [Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md) in Service Operations Workspace, the updated way to automate alert responses with an easier interface.
 
 Use alert management rules to track and resolve alerts.
 
@@ -318,7 +318,7 @@ For more information about creating related lists, see [Add related list conditi
 
     2.  Click the search icon \[Omitted image "LookupUsingList.png"\] Alt text: Look-up icon.
 
-        The list of subflows provided with the base system appears. For more information, see [Event Management subflows in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/subflows-provided.md).
+        The list of subflows provided with the base system appears. For more information, see [Event Management subflows in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/subflows-provided.md).
 
     3.  From the subflow list, select a subflow.
 
@@ -363,10 +363,10 @@ For more information about creating related lists, see [Add related list conditi
 
 The alert management rule is added to the list of available rules that can be used to resolve alerts.
 
-**Parent Topic:**[Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-management-rule.md)
+**Parent Topic:**[Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-management-rule.md)
 
 **Related topics**  
 
 
-[Apply a quick response in an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/apply-quick-response-in-alert.md)
+[Apply a quick response in an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/apply-quick-response-in-alert.md)
 

@@ -2,7 +2,7 @@
 title: Create a document revision
 description: As a contract fulfiller, create a document revision to upload an updated version of the contract that contains the latest changes in the contract request, corrections, or suggestions from a third party.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-create-doc-rev.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-create-doc-rev.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -99,5 +99,5 @@ Workspace used by your application
 5.  Select **Save**.
 
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

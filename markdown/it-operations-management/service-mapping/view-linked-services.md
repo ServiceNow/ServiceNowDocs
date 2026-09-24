@@ -2,7 +2,7 @@
 title: View dependent application services in classic Service Mapping
 description: Check which application services depend on an application service and open maps for dependent application services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/view-linked-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/view-linked-services.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -47,10 +47,10 @@ The service that contains a reference to another service instance, becomes a dep
     The map window shows the map for the dependent service you selected.
 
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 
 **Related topics**  
 
 
-[Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/link-services-to-services.md)
+[Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/link-services-to-services.md)
 

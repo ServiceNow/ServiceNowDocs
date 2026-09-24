@@ -2,7 +2,7 @@
 title: Override a formatter with macros
 description: The system uses formatters to handle complex rendering of specific form elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_UIMacroOverride.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_UIMacroOverride.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ Here is the form for the UI macro that overrides the approval summarizer formatt
 
 \[Omitted image "FormatterOverride.png"\] Alt text: Override the formatter
 
-**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_Formatters.md)
 
 **Related topics**  
 

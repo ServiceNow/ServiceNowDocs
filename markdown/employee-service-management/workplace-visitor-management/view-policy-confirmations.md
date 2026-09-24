@@ -2,7 +2,7 @@
 title: View visitor policy confirmations
 description: View policy confirmations that were submitted by the visitors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/view-policy-confirmations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/view-policy-confirmations.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -82,7 +82,7 @@ State of the policy confirmation.This field is automatically updated based on wh
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 

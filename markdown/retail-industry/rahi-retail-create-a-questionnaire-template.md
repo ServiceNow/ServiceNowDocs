@@ -2,7 +2,7 @@
 title: Retail questionnaire
 description: Create customizable questionnaire templates to collect customer feedback and survey data for retail operations. Templates can be customized for specific business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-create-a-questionnaire-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-create-a-questionnaire-template.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,8 +37,8 @@ Retail Operations supports various types of questionnaire templates designed for
 |Market Research|Templates for conducting market analysis and customer behavior studies|Brand awareness studies, purchasing behavior analysis, demographic research|
 |Operational Assessment|Templates for evaluating store operations and process effectiveness|Store audits, process improvement surveys, compliance assessments|
 
--   **[Smart Assessment questionnaires for Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-smart-assessment-questionnaires.md)**  
+-   **[Smart Assessment questionnaires for Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-smart-assessment-questionnaires.md)**  
 Smart Assessment enables users with the sn\_rtl\_hq\_ops.plan\_author role to create smart assessment templates and associate them with store tasks.
 
-**Parent Topic:**[Retail store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-multistore-operational-planning.md)
+**Parent Topic:**[Retail store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-multistore-operational-planning.md)
 

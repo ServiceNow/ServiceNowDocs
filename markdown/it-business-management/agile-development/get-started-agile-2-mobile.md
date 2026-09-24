@@ -2,7 +2,7 @@
 title: Get started with Agile Development v2 mobile app
 description: Access the Agile Development mobile app to track your sprints, stories, and tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/get-started-agile-2-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/get-started-agile-2-mobile.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -59,8 +59,8 @@ New user
 
 Go to
 
--   [Managing stories on Agile Development v2 mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/manage-stories-agile-dev-mobile.md).
--   [Managing scrum tasks on Agile Development v2 mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/manage-scrum-tasks-agile-mobile.md).
+-   [Managing stories on Agile Development v2 mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/manage-stories-agile-dev-mobile.md).
+-   [Managing scrum tasks on Agile Development v2 mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/manage-scrum-tasks-agile-mobile.md).
 
-**Parent Topic:**[Mobile experience for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-2-mobile-app-overview.md)
+**Parent Topic:**[Mobile experience for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/agile-2-mobile-app-overview.md)
 

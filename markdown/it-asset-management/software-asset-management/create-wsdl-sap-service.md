@@ -2,7 +2,7 @@
 title: Create a WSDL for the SAP service definition
 description: Generate a Web Services Description Language \(WSDL\) URL for the SAP service definition to use when creating SAP connections on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-wsdl-sap-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-wsdl-sap-service.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -83,7 +83,7 @@ After importing the transport files into your SAP system, configure the service 
 
 ## What to do next
 
-Create SAP users, roles, and authorizations that can be used with the Software Asset Management integration. For details, see [Create SAP users, roles, and authorizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-sap-users-roles-auth.md).
+Create SAP users, roles, and authorizations that can be used with the Software Asset Management integration. For details, see [Create SAP users, roles, and authorizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-sap-users-roles-auth.md).
 
-**Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/setup-sap-integration.md)
+**Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/setup-sap-integration.md)
 

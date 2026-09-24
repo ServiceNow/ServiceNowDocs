@@ -2,7 +2,7 @@
 title: Manually submit files or URLs to Sandbox
 description: You can manually submit a file or URL to a sandbox when certain incident criteria, such as category is phishing, are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/submit-files-or-urls-to-sandbox.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/submit-files-or-urls-to-sandbox.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -55,5 +55,5 @@ After reviewing the security incident and the file or URL, you can select the **
 
 ## What to do next
 
-When you submit the observables to the sandbox for malware analysis, [view the sandbox submission results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-sandbox-submission-results.md) to take the next steps on potential threats.
+When you submit the observables to the sandbox for malware analysis, [view the sandbox submission results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/view-sandbox-submission-results.md) to take the next steps on potential threats.
 

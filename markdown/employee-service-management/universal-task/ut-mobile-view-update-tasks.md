@@ -2,7 +2,7 @@
 title: View and update Universal Task using Now Mobile
 description: View and update the universal tasks that are assigned to you by using the Now Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/ut-mobile-view-update-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-task/ut-mobile-view-update-tasks.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -32,15 +32,15 @@ Role required: Requester
 
 4.  Go to each tab to do the following.
 
-<table id="choicetable_wlp_5xs_d4b"><thead><tr><th align="left" id="d599355e114">
+<table id="choicetable_wlp_5xs_d4b"><thead><tr><th align="left" id="d599359e114">
 
 Tab
 
-</th><th align="left" id="d599355e117">
+</th><th align="left" id="d599359e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d599355e123">
+</th></tr></thead><tbody><tr><td id="d599359e123">
 
 **To-Do**
 
@@ -53,7 +53,7 @@ View and complete the tasks that are assigned to you. -   If the task type is Up
 -   If the task type is Collect Employee Input, tap the \[Omitted image "icon-view-empform.png"\] Alt text: View employee form icon to open the employee form. After you submit the form, the task is marked complete. If you leave the form midway, your responses are saved. You can complete and submit the form later.
 
 
-</td></tr><tr><td id="d599355e159">
+</td></tr><tr><td id="d599359e159">
 
 **Learn More**
 
@@ -61,7 +61,7 @@ View and complete the tasks that are assigned to you. -   If the task type is Up
 
 View task details.
 
-</td></tr><tr><td id="d599355e168">
+</td></tr><tr><td id="d599359e168">
 
 **Updates**
 
@@ -71,5 +71,5 @@ View or add comments or attachments to the task.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/use-universal-task.md)
+**Parent Topic:**[Using Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/use-universal-task.md)
 

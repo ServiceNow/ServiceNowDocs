@@ -2,12 +2,12 @@
 title: DEX browser extension permissions and data collection
 description: The DEX browser extension requests specific browser permissions to measure the performance, availability, and usage of monitored web applications. Each permission is limited to the minimum access required for that measurement purpose.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-browser-extension-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/dex-browser-extension-permissions.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 keywords: [browser extension permissions, web application usage data, chrome extension permissions, edge extension permissions, host permission, declarative net request, data collection]
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
@@ -46,14 +46,14 @@ To collect this data, the browser extension requests the browser permissions des
 -   The Host Permission and Tabs permissions require broad tab and URL visibility because the extension can't determine in advance which sites are your monitored applications. That determination happens at runtime, and only recognized monitored applications have their data recorded.
 -   Collected metrics are limited to performance and availability statistics, such as load times, session duration, and request success or failure counts, tied to monitored application URLs. The extension reports metrics only to your own instance.
 
-**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 
 **Related topics**  
 
 
-[DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-architecture.md)
+[DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-architecture.md)
 
-[Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md)
+[Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md)
 
-[Installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.md)
+[Installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.md)
 

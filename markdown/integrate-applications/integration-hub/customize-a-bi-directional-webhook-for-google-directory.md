@@ -2,7 +2,7 @@
 title: Set up a bi-directional webhook for the Google Directory spoke
 description: Create a webhook routing policy and subflow according to your requirement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/customize-a-bi-directional-webhook-for-google-directory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/customize-a-bi-directional-webhook-for-google-directory.html
 release: australia
 product: Integration Hub
 classification: integration-hub

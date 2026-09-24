@@ -2,7 +2,7 @@
 title: Dell Data Domain storage discovery using Patterns
 description: Discovery and Service Mapping use the Dell EMC Data Domain serverless pattern to find the Data Domain storage systems registered in the Data Domain Management Center \(DDMC\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/emc-data-domain-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/emc-data-domain-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -20,7 +20,7 @@ Discovery and Service Mapping use the **Dell EMC Data Domain** serverless patter
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-To learn about Data Domain components and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md)
+To learn about Data Domain components and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_SupportedApplications.md)
 
 ## Prerequisites
 
@@ -84,7 +84,7 @@ To learn about Data Domain components and their versions that you can discover, 
         |Active|Enabled by default.|
         |Credential alias|No need to configure this field.|
 
-        For more information about setting the **Max run time**, **Run**, and **Time** fields, see: [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
+        For more information about setting the **Max run time**, **Run**, and **Time** fields, see: [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
 
     4.  Select **Submit**.
 
@@ -530,5 +530,5 @@ Owns::Owned by
 cmdb\_ci\_ip \_address
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+</table>**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

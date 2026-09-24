@@ -2,7 +2,7 @@
 title: Source-to-Pay integration with SAP
 description: The Source-to-Pay integration with SAP enables you to send purchase orders, receipts, and invoices created on the SAP from your ServiceNow instance. This integration helps in looking up or extracting primary data objects from SAP into ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-sap-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-sap-integration.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

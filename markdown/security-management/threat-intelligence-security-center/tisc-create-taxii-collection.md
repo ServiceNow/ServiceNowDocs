@@ -2,7 +2,7 @@
 title: Create TAXII Collection
 description: Use this section to learn how to configure and define TAXII collections for sharing intelligence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-taxii-collection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-create-taxii-collection.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -149,7 +149,7 @@ Maximum number of records that can be added to an outbound TAXII server collecti
 13. View the respective TAXII server collection action.
 
 
-**Parent Topic:**[Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md)
+**Parent Topic:**[Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md)
 
 **Related topics**  
 
@@ -158,7 +158,7 @@ Maximum number of records that can be added to an outbound TAXII server collecti
 
 [Viewing TAXII Collection Records]()
 
-[Automated Sharing of TAXII Collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-share-taxii.md)
+[Automated Sharing of TAXII Collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-automated-share-taxii.md)
 
-[Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md)
+[Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md)
 

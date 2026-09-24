@@ -2,7 +2,7 @@
 title: Migrate a blueprint to an SFDC-integrated destination
 description: Migrate a CPQ blueprint to a Salesforce-integrated CPQ environment. Recreate configurable products, update Product2 IDs, and verify connections for accurate data mapping and integration between Salesforce and CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-migrating-to-sfdc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-migrating-to-sfdc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,7 +56,7 @@ After the import, configurable product IDs will not be the same as in the origin
 **Related topics**  
 
 
-[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-env-to-env-bp-migration-intro.md)
+[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-env-to-env-bp-migration-intro.md)
 
 [Migrate a blueprint between environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

@@ -2,7 +2,7 @@
 title: View the Recommended for you content
 description: Access all the content recommended for you from from a central location in one-click.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/rfy-employee.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/rfy-employee.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -24,9 +24,9 @@ As an employee, you can access the recommended knowledge articles or catalog ite
 
 
 
-For more information, see [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/rfy-ec.md)
+For more information, see [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/rfy-ec.md)
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

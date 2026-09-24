@@ -2,7 +2,7 @@
 title: Customer Success Management
 description: The ServiceNow Customer Success Management application enables service providers to streamline, automate, and measure critical workflows across the entire enterprise customer journey—from onboarding and adoption to renewals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-events-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-events-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,19 +21,19 @@ By embedding workflow automation into customer success management, Customer Succ
 
 <table id="table_ggl_tml_ccc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the key features and benefits of Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the key features and benefits of Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-explore.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Customer Success Management to meet your needs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing-page.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Customer Success Management to meet your needs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-events-landing-page.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Customer Success Management to manage the entire customer lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Customer Success Management to manage the entire customer lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get information about the data model and installed components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get information about the data model and installed components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

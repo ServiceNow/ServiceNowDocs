@@ -2,7 +2,7 @@
 title: Create a request from the Customer and Consumer Service Portals
 description: As customers, you can create and submit requests from the Customer and Consumer Service Portals. The request process is integrated with Service Catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-request-from-csp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-request-from-csp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

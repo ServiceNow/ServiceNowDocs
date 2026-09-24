@@ -2,7 +2,7 @@
 title: Assign OT roles to a user or group with ServiceNow Otto for Setup
 description: Assign Operational Technology \(OT\) roles to a user or group as needed so that group members can access the data required for their work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/assign-roles-sn-otto-setup-ot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/assign-roles-sn-otto-setup-ot.html
 release: australia
 topic_type: task
 last_updated: "2026-08-24"
@@ -45,11 +45,11 @@ Role required: admin
 
 If all role assignments are successful, you see a `Roles assigned successfully` alert.
 
-If there are errors during the role assignment process, you will see an alert. For more information about error causes and alerts for OT Setup, see [Role assignment alerts for Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/alerts-ot-setup.md).
+If there are errors during the role assignment process, you will see an alert. For more information about error causes and alerts for OT Setup, see [Role assignment alerts for Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/alerts-ot-setup.md).
 
 ## What to do next
 
-[Assign OT admin roles with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/assign-ot-admin-roles-sn-otto-setup-ot.md)
+[Assign OT admin roles with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/assign-ot-admin-roles-sn-otto-setup-ot.md)
 
-**Parent Topic:**[Use Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ot-setup.md)
+**Parent Topic:**[Use Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/use-ot-setup.md)
 

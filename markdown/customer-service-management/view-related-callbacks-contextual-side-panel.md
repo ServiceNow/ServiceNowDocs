@@ -2,7 +2,7 @@
 title: View related callbacks in the contextual side panel
 description: View and manage active callbacks for a contact or consumer from the contextual side panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-related-callbacks-contextual-side-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-related-callbacks-contextual-side-panel.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

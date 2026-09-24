@@ -2,7 +2,7 @@
 title: Setting up inventory and asset management
 description: Inventory and asset management in Field Service Management refers to the process of efficiently organizing, tracking, and controlling resources such as equipment, parts, stockrooms, and other assets used in field service operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/asset-management-for-field-service/setting-up-inventory-and-asset-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/asset-management-for-field-service/setting-up-inventory-and-asset-management.html
 release: australia
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
@@ -22,11 +22,11 @@ Assets and model categories are created as needed, using Enterprise Asset Manage
 
 If your organization needs to track inventory or schedule equipment, use the following information to set up one or both of the following features.
 
--   [Configuring stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/configuring-stockrooms.md)
+-   [Configuring stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/asset-management-for-field-service/configuring-stockrooms.md)
 
     Add stockrooms to strategically arrange and organize physical or virtual spaces to store and manage inventory items, such as assets or parts.
 
--   [Configuring resource scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/configure-equipment-scheduling.md)
+-   [Configuring resource scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/asset-management-for-field-service/configure-equipment-scheduling.md)
 
     Create equipment categories and instances to use when assigning crews or work order tasks.
 

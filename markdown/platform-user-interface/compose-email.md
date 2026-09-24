@@ -2,7 +2,7 @@
 title: Send emails from the full email composer
 description: Create and send an email from a separate workspace tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/compose-email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/compose-email.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,12 +42,12 @@ Role required: email\_composer
 
 7.  Create the email body.
 
-    You can insert a quick message in the email body. For more information, see [Insert a quick message from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-quick-message.md).
+    You can insert a quick message in the email body. For more information, see [Insert a quick message from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/add-quick-message.md).
 
-    You can attach a file to the email. For more information, see [Add a file to an email from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-email-attachment.md)
+    You can attach a file to the email. For more information, see [Add a file to an email from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/add-email-attachment.md)
 
 8.  Select **Send**.
 
-    Drafts save automatically after a set number of seconds. For more information on finding email drafts, see [Review email drafts from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/review-draft-emails.md).
+    Drafts save automatically after a set number of seconds. For more information on finding email drafts, see [Review email drafts from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/review-draft-emails.md).
 
 

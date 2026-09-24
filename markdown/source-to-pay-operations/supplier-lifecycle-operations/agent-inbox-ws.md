@@ -2,7 +2,7 @@
 title: Source-to-Pay Workspace agent inbox
 description: Use the agent inbox to manage your incoming work items, such as chats, cases, incidents, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/agent-inbox-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/agent-inbox-ws.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -22,7 +22,7 @@ The agent inbox displays the queues that are assigned to you, the number of acti
 
 When you accept a chat, an interaction record is automatically created and captures the work done in that session.
 
-**Parent Topic:**[Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-awa.md)
+**Parent Topic:**[Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-awa.md)
 
 **Related topics**  
 
@@ -33,5 +33,5 @@ When you accept a chat, an interaction record is automatically created and captu
 
 [Using Advanced Work Assignment for Supplier Lifecycle Operations]()
 
-[Activate Agent Chat and load demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.md)
+[Activate Agent Chat and load demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.md)
 

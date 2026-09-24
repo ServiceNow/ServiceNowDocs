@@ -2,7 +2,7 @@
 title: Analyze your staff alignment using Demand Forecast
 description: Use Demand Forecast to plan the number of staff members that you require so that you have enough agents to do the job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/analyze-staffing-demand-forecast-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/analyze-staffing-demand-forecast-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -44,15 +44,15 @@ Using Demand Forecast, you can:
 
     You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d91550e138">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d91549e138">
 
 To analyze staff alignment
 
-</th><th align="left" id="d91550e141">
+</th><th align="left" id="d91549e141">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d91550e147">
+</th></tr></thead><tbody><tr><td id="d91549e147">
 
 **For each day**
 
@@ -72,7 +72,7 @@ You can also view the number of agents you have and the demand for every hour fo
 |Yellow|The number of agents you have scheduled are more than the demand you have for that hour.|
 |Red|The number of agents you have scheduled are less than the demand you have for that hour.|
 
-</td></tr><tr><td id="d91550e225">
+</td></tr><tr><td id="d91549e225">
 
 **For a given week**
 
@@ -95,5 +95,5 @@ The Total coverage/demand row has indicators for the staff alignment.
 </table>    The following image shows an example of the staffing alignment in a Week view. The misaligned staffing indicator in the pop-up window shows that the forecast manager has scheduled four agents for each shift but more agents are needed to cover the shifts.\[Omitted image "demand-forecast-rome.gif"\] Alt text: Demand Forecast
 
 
-**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
 

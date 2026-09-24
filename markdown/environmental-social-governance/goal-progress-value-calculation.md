@@ -2,7 +2,7 @@
 title: Goal progress value calculation
 description: The progress or percentage complete value of goals is auto-calculated using different formulas. The formula depends on whether the goal has only targets, a combination of sub-goals and targets, and if it has weighted average calculation enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/goal-progress-value-calculation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/goal-progress-value-calculation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -62,5 +62,5 @@ Formula used to calculate the progress value of the goal
 `Progress value of the goal = [(Progress of sub-goal 1 * Weight scale of sub-goal 1) + (Progress of sub-goal 2 * Weight scale of sub-goal 2) + (Progress of target 1 * Weight scale of target 1) + (Progress of target 2 * Weight scale of target 2)] / (Weight scale of sub-goal 1 + Weight scale of sub-goal 2 + Weight scale of target 1 + Weight scale of target 2)`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-goal.md)
+</table>**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-esg-goal.md)
 

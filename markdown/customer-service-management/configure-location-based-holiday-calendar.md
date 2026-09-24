@@ -2,7 +2,7 @@
 title: Configure Location Based Holiday Calendar
 description: Create location‑based holiday calendars that align regional holidays with fixed or rotating shifts, enabling accurate workforce scheduling and reduced manual effort.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-location-based-holiday-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-location-based-holiday-calendar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,15 +26,15 @@ Location‑based holiday calendars streamline workforce scheduling by aligning r
 
 1.  Navigate to **All** &gt; **Location Schedules** and perform one of the following actions:
 
-<table id="choicetable_l4w_jrb_m3c"><thead><tr><th align="left" id="d154933e73">
+<table id="choicetable_l4w_jrb_m3c"><thead><tr><th align="left" id="d154937e73">
 
 Option
 
-</th><th align="left" id="d154933e76">
+</th><th align="left" id="d154937e76">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d154933e82">
+</th></tr></thead><tbody><tr><td id="d154937e82">
 
 **Create a configuration from an existing event configuration**
 
@@ -44,7 +44,7 @@ Description
 -   Right-click the form header and select Insert and Stay.
 A copy of the selected event type configuration is created.
 
-</td></tr><tr><td id="d154933e99">
+</td></tr><tr><td id="d154937e99">
 
 **Create a new event configuration**
 

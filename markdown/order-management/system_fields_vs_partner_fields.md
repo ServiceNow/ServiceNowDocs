@@ -2,7 +2,7 @@
 title: CPQ fields, system fields, and partner fields
 description: Learn about the three types of fields in CPQ—CPQ, system fields, and partner fields. Understand how each type stores, retrieves, and displays data in configurations, and how they interact with Salesforce and partner systems for seamless data integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/system\_fields\_vs\_partner\_fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/system\_fields\_vs\_partner\_fields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ The following example shows how a user would set a CPQ field in an On Configure/
 cfgRequest.testField.set("value", "Hello World"); 
 ```
 
-For a more complete description of CPQ fields, see [Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md).
+For a more complete description of CPQ fields, see [Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/fields_101.md).
 
 **Note:** In organizations that do not use Salesforce for their launch-point into CPQ, all fields must be initialized in their API call.
 
@@ -134,7 +134,7 @@ How you use partner and system fields is up to you. Some organizations find it h
 **Related topics**  
 
 
-[Grid-style fields and field collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/what_field_type_should_i_use_for_organizing_field_options_and_data.md)
+[Grid-style fields and field collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/what_field_type_should_i_use_for_organizing_field_options_and_data.md)
 
-[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md)
+[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/fields_101.md)
 

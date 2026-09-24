@@ -2,7 +2,7 @@
 title: SAML 2.0 configuration using Multi-Provider SSO
 description: You can create or update a SAML 2.0 SSO configuration from the Multi-Provider SSO feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_CreateASAML2Upd1SSOConfigMultiSSO.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_CreateASAML2Upd1SSOConfigMultiSSO.html
 release: australia
 product: Authentication
 classification: authentication
@@ -34,7 +34,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
     -   To create configuration, select **New** &gt; **SAML**.
 3.  Enter the IdP information by one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d229269e119">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d228655e119">
 
 **Using a metadata descriptor URL**
 
@@ -42,7 +42,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 Select the URL check box and enter the URL of the IdP that you're using.
 
-</td></tr><tr><td id="d229269e128">
+</td></tr><tr><td id="d228655e128">
 
 **Using metadata descriptor XML file**
 
@@ -50,7 +50,7 @@ Select the URL check box and enter the URL of the IdP that you're using.
 
 Select the XML check box and paste in the XML data generated from the IdP you're using.
 
-</td></tr><tr><td id="d229269e137">
+</td></tr><tr><td id="d228655e137">
 
 **Entering metadata manually**
 
@@ -239,7 +239,7 @@ No
 
 </td><td>
 
-Choose the client type, based on the type of your client. Options:**Iframe Embedded**.**Note:** If client type field is required for your configuration, you can edit the form and add the field. To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/client-type.md).
+Choose the client type, based on the type of your client. Options:**Iframe Embedded**.**Note:** If client type field is required for your configuration, you can edit the form and add the field. To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>4.  Encryption And Signing tab
@@ -247,7 +247,7 @@ Choose the client type, based on the type of your client. Options:**Iframe Embed
     **Note:**
 
     -   You should use your own self-signed or CA-signed certificate. The following types of certificates are supported:
-        -   [BCFKS \(FIPS-compliant\) keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-fips-certificate-for-saml.md) \(Recommended\)
+        -   [BCFKS \(FIPS-compliant\) keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-fips-certificate-for-saml.md) \(Recommended\)
         -   Java keystore
     -   The **FIPS approved mode** requires different certificates for **Encryption** and **Signing**.
     -   Use different certificates for **Encryption** and **Signing** for a better security posture.
@@ -261,10 +261,10 @@ Choose the client type, based on the type of your client. Options:**Iframe Embed
 
     |Property|Description|
     |--------|-----------|
-    |Signing Key Alias|Enter the Signing alias of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
-    |Signing Key Password|Enter the Signing password of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
-    |Encryption Key Alias|Enter the Encryption alias of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
-    |Encryption Key Password|Enter the Encryption password of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
+    |Signing Key Alias|Enter the Signing alias of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
+    |Signing Key Password|Enter the Signing password of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
+    |Encryption Key Alias|Enter the Encryption alias of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
+    |Encryption Key Password|Enter the Encryption password of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
     |Encrypt Assertion|Select the check box to encrypt the assertion in the SAML response. The metadata generated for the IDP embeds the x509 certificate, which the IDP uses to encrypt the assertion in the SAML response that it generates.|
     |Signing Signature Algorithm|Enter the URL that points to the SAML 2.0 Identity Provider AuthnRequest Consumer for eSignature Authentication.|
     |Sign AuthnRequest|Select the check box to enable the IdP single-sign on service to receive a signed AuthnRequest.|
@@ -414,7 +414,7 @@ Request
 
 </td><td>
 
-An unique id as part of request, the id can be user name, employee id, and so on.**Note:** Both redirect and post binding is supported for request. The option to set this field only appears after a successful test connection. For more information see, [Test IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_TestIdPConnections.md).
+An unique id as part of request, the id can be user name, employee id, and so on.**Note:** Both redirect and post binding is supported for request. The option to set this field only appears after a successful test connection. For more information see, [Test IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_TestIdPConnections.md).
 
 </td></tr><tr><td>
 
@@ -422,7 +422,7 @@ Response
 
 </td><td>
 
-An unique id as part of response, the id can be user name, employee id, and so on. **Note:** Both redirect and post binding is supported for response. The option to set this field only appears after a successful test connection. For more information see, [Test IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_TestIdPConnections.md).
+An unique id as part of response, the id can be user name, employee id, and so on. **Note:** Both redirect and post binding is supported for response. The option to set this field only appears after a successful test connection. For more information see, [Test IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_TestIdPConnections.md).
 
 </td></tr></tbody>
 </table>7.  On the Continuous Authentication tab, configure the following fields:
@@ -430,7 +430,7 @@ An unique id as part of response, the id can be user name, employee id, and so o
     **Note:**
 
     -   The Continuous Authentication tab appears only when you install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) plugin that requires license.
-    -   If you're using continuous authentication policy to protect access to table or data class, see [Continuous Authentication \(CA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-homepage.md).
+    -   If you're using continuous authentication policy to protect access to table or data class, see [Continuous Authentication \(CA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-homepage.md).
     \[Omitted image "ca-tab.png"\] Alt text: Continuous Authentication - tab information
 
 <table id="table_vvj_d5x_4dc"><thead><tr><th>

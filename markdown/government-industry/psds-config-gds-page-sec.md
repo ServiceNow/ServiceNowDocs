@@ -2,7 +2,7 @@
 title: Configure page security in the GDS Service Portal by role
 description: Set up GDS Service Portal pages to be public, or filter them by role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-page-sec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gds-page-sec.html
 release: australia
 topic_type: task
 last_updated: "2026-06-01"
@@ -22,7 +22,7 @@ Role required: admin or sp\_admin
 
 Public pages won't require a user login; anyone can access them. All other pages require user authentication.
 
-By default, the GDS Service Portal [pre-login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-registlogin.md) page is set to public. All other pages require authentication and the following roles \(snc\_external, snc\_internal\) to be viewed and accessed.
+By default, the GDS Service Portal [pre-login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-registlogin.md) page is set to public. All other pages require authentication and the following roles \(snc\_external, snc\_internal\) to be viewed and accessed.
 
 ## Procedure
 
@@ -45,11 +45,11 @@ By default, the GDS Service Portal [pre-login](https://raw.githubusercontent.com
 
 ## What to do next
 
-Follow the steps in [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-widg-sec.md) to configure security for the widgets on your page.
+Follow the steps in [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-widg-sec.md) to configure security for the widgets on your page.
 
-**Parent Topic:**[Manage role-based access to pages and widgets in GOV.UK Design System Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-man-acc.md)
+**Parent Topic:**[Manage role-based access to pages and widgets in GOV.UK Design System Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-man-acc.md)
 
-**Previous topic:**[Manage role-based access to pages and widgets in GOV.UK Design System Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-man-acc.md)
+**Previous topic:**[Manage role-based access to pages and widgets in GOV.UK Design System Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-man-acc.md)
 
-**Next topic:**[Configure widget security in the GDS Service Portal by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-widg-sec.md)
+**Next topic:**[Configure widget security in the GDS Service Portal by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-widg-sec.md)
 

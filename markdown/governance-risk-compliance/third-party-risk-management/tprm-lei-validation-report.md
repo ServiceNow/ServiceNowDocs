@@ -2,7 +2,7 @@
 title: Level 4 LEI Validation Report columns
 description: The Level 4 LEI Validation Report \(Level4\_LEI\_Validation\_Report.csv\) is generated during Plain-CSV Reporting Package download and lists the validation result for each Legal Entity Identifier \(LEI\) code found in the reporting package.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-lei-validation-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-lei-validation-report.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -19,7 +19,7 @@ The Level 4 LEI Validation Report \(`Level4_LEI_Validation_Report.csv`\) is gene
 
 The report is included in `Consolidated_Reports.zip` alongside the Level 3 DPM Validation Summary. It covers LEI codes sourced from the DORA reporting tables that contain LEI fields, including Legal entities \(B.01.02\), ICT third-party service providers \(B.05.01\), and other sheets where LEI codes appear. Each row in the report represents a single LEI code occurrence, ordered by sheet name and then row number.
 
-For information on how to review and resolve validation results, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
+For information on how to review and resolve validation results, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 **Note:** Name, Country, Entity Status, and Registration Status values are derived from the GLEIF API response used during validation.
 

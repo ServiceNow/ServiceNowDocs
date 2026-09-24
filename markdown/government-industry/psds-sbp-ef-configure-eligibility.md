@@ -2,7 +2,7 @@
 title: Configure Eligibility Rules Engine Policies in Social Benefits Playbook
 description: Use the Social Benefits Playbook Eligibility Rules Engine, powered by Policy as Code Engine \(PaCE\), to manage the life cycle of a policy and create, update, review, and execute policies. In the Policy Home of the CRM Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Social Benefits Playbook.Create an eligibility policy using Social Benefits Playbook Eligibility Rules Engine​.For a eligibility policy to be invoked correctly, it must be mapped to an existing benefit model. Map a published eligibility policy to one or more of the social benefit types that your agency offers.Update an eligibility policy in the Social Benefits Eligibility Framework Engine.Make changes to the policy logic in the Social Benefits Eligibility Framework Engine. The Policy Builder tab allows an admin to test new logic parameters through the test playground.You can edit the mapping settings that map a policy to a benefit model.Create eligibility policy templates for the Social Benefits Playbook policy forms that you use frequently.Use an existing policy template created to quick-start the creation of a new eligibility policy with a similar set of data sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-sbp-ef-configure-eligibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-sbp-ef-configure-eligibility.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -224,7 +224,7 @@ Value to enter text. Select the Data picker icon to concatenate multiple text st
 
 ### Result
 
-An eligibility policy is now created, and is ready to be mapped to one of more benefits models of the Social Benefits Playbook. See [Map an PaCE eligibility policy to a benefit model using Social Benefits Playbook Eligibility Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-sbp-ef-configure-eligibility.md) for information on how to map the published policy to a specific benefit.
+An eligibility policy is now created, and is ready to be mapped to one of more benefits models of the Social Benefits Playbook. See [Map an PaCE eligibility policy to a benefit model using Social Benefits Playbook Eligibility Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-sbp-ef-configure-eligibility.md) for information on how to map the published policy to a specific benefit.
 
 ## Map an PaCE eligibility policy to a benefit model using Social Benefits Playbook Eligibility Framework
 

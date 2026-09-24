@@ -2,7 +2,7 @@
 title: Create decision table code snippets
 description: Create code snippets of published decision tables in Workflow Studio to execute the decision table from any script and make it easier to replace hard-coded logic with decisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-decision-table-code-snippets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-decision-table-code-snippets.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -45,5 +45,5 @@ Role required: none
 8.  Insert the code snippet into your script where you want to call the decision table and define the data to use for each input variable.
 
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

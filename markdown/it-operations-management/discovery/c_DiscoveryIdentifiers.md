@@ -2,7 +2,7 @@
 title: Discovery identifiers
 description: After Discovery classifies a configuration item \(CI\), it uses identifiers to determine if the device already exists in the Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryIdentifiers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c\_DiscoveryIdentifiers.html
 release: australia
 product: Discovery
 classification: discovery
@@ -141,14 +141,14 @@ All instances use identifiers from the CMDB Identification and Reconciliation fr
 
 **Note:** When Service Mapping is active, the new identifiers from the CMDB Identification and Reconciliation framework are always used regardless of the property value.
 
--   **[How Discovery identifiers work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_HowDiscoveryIdentifiersWork.md)**  
+-   **[How Discovery identifiers work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_HowDiscoveryIdentifiersWork.md)**  
 When Discovery has determined the device's class, it launches an identity probe that is configured to run one or more commands with a single authentication.
--   **[Configure Discovery identity probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureDiscoveryIdentityProbes.md)**  
+-   **[Configure Discovery identity probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_ConfigureDiscoveryIdentityProbes.md)**  
 Identity probes are multi-probes, which contain one or more simple probes configured to extract specific information from manageable devices. You can create your own identity multi-probe to identify CIs that Discovery does not already identify.
--   **[Configure Discovery identity sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigDiscoIdentSens.md)**  
+-   **[Configure Discovery identity sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_ConfigDiscoIdentSens.md)**  
 If you customize an identify multi-probe, you can also configure a multi-sensor for it.
--   **[Serial number types for identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_SerialNumberTypes.md)**  
+-   **[Serial number types for identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_SerialNumberTypes.md)**  
 As Discovery finds CIs, their serial numbers are listed in the Serial Number \[cmdb\_serial\_number\] table so they are easy to identify. Serial number types vary depending on the CI, as described in the following examples.
 
-**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryConfiguration.md)
+**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryConfiguration.md)
 

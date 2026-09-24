@@ -2,7 +2,7 @@
 title: Configure Next Experience start page options
 description: Multiple start page options help you determine where best to start your day in Next Experience. Configure the landing page so that you and your users start on a page tailored to your needs in ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-start-option.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-start-option.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,22 +23,22 @@ Any page can have redirect rules as the page is loading to take the user to a di
 
 -   **Next Experience default landing page**
 
-    The default landing page provides information to help orient you to your tasks. Variants of this page are available, depending on your setup. For more information, see [Exploring your Next Experience default landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/exploring-your-next-experience-homepage.md).
+    The default landing page provides information to help orient you to your tasks. Variants of this page are available, depending on your setup. For more information, see [Exploring your Next Experience default landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/exploring-your-next-experience-homepage.md).
 
 -   **Configurable workspace home**
 
-    Any page within a configurable workspace can be the start page. For more information about configurable workspace options, see [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_set-up-configurable-workspace.md).
+    Any page within a configurable workspace can be the start page. For more information about configurable workspace options, see [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_set-up-configurable-workspace.md).
 
 -   **User-selected landing page**
 
-    You can select any page on the platform to be your start, based on a user preference. A user-selected landing page can be any page inside a configurable workspace as well. For more information, see [Configure a user-selected start page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-selected-start-page-preference.md).
+    You can select any page on the platform to be your start, based on a user preference. A user-selected landing page can be any page inside a configurable workspace as well. For more information, see [Configure a user-selected start page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-user-selected-start-page-preference.md).
 
 -   **Admin-selected landing page**
 
     This option can be any page inside a workspace, but also a classic dashboard. The admin can include role-based logic to direct users to configurable workspaces. For more information, see
 
-    -   [Configure a Core UI global landing page in Next Experience enabled instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-ui16-landing-page-in-next-experience.md)
-    -   [Configure per-user landing pages in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-per-user-ui16-landing-page-in-next-experience.md)
+    -   [Configure a Core UI global landing page in Next Experience enabled instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/use-ui16-landing-page-in-next-experience.md)
+    -   [Configure per-user landing pages in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-per-user-ui16-landing-page-in-next-experience.md)
 -   **Responsive dashboards**
 
     You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see [Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_SetDashboardsAsHome.md).
@@ -56,10 +56,10 @@ The different options for start pages serve different purposes. For example, cho
 
 When you upgrade to an instance with Next Experience enabled, it's best to convert homepages to responsive dashboards, so that you don't lose editing capabilities. In instances using Next Experience, legacy Homepages are turned off by default. For more information, see [Homepage deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/homepage-deprecation-help-tool.md).
 
--   **[Next Experience administrator start options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/ne-start-options-admin.md)**  
+-   **[Next Experience administrator start options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/ne-start-options-admin.md)**  
 As an administrator, you can configure where users start when they log in to ServiceNow.
--   **[Next Experience user start options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/ne-start-options-user.md)**  
+-   **[Next Experience user start options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/ne-start-options-user.md)**  
 As a user, you can specify where you want to start when you log in to ServiceNow.
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 

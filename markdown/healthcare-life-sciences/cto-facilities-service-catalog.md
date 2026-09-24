@@ -2,7 +2,7 @@
 title: Service Catalog installed with Care Team Operations for Facilities
 description: The Care Team Operations for Facilities service catalog is organized into a hierarchy of Facilities-related categories and subcategories that clinicians commonly report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-service-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-facilities-service-catalog.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

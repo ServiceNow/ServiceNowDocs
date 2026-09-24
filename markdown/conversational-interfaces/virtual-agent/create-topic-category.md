@@ -2,7 +2,7 @@
 title: Create or modify custom Virtual Agent categories
 description: Create or change custom categories for organizing and grouping related Virtual Agent assets, such as topics. You can also make category labels visible in the Topic picker menu displayed to end users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-topic-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-topic-category.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -97,5 +97,5 @@ Option to display the category label in the Topic picker menu for end users. **N
     If there are no topics associated with the category, the category is deleted. It is no longer listed in the **Category** field on the Topics Properties page and in the **Category** filter on the Topics page in Virtual Agent Designer.
 
 
-**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
+**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

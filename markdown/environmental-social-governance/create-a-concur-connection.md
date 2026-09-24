@@ -2,7 +2,7 @@
 title: Create a connection for SAP concur event subscription service
 description: Create connection and credential records for the Operational Sustainability Integration with Concur so that you can establish a new connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-concur-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-concur-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ Role required: admin or connection\_admin
 
 The Oauth token is created successfully.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-concur.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg-with-concur.md)
 

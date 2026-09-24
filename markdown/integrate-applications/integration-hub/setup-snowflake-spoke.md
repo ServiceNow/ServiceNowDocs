@@ -2,7 +2,7 @@
 title: Set up the Snowflake spoke
 description: Integrate the ServiceNow instance and Snowflake spoke by using the OAuth credentials to authenticate ServiceNow requests.Add and configure a Snowflake connection to authenticate ServiceNow requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-snowflake-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-snowflake-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -42,7 +42,7 @@ Add and configure a Snowflake connection to authenticate ServiceNow requests.
 4.  Locate the alias for **Snowflake** and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Snowflake spoke, click **View Details**.\[Omitted image "snowflake-conn-template.png"\] Alt text: Snowflake connection template
-    -   To manage more than one Snowflake connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see[Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Snowflake connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see[Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "snowflake-conn-config.png"\] Alt text: Configure Snowflake connection template

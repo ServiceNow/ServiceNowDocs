@@ -2,7 +2,7 @@
 title: Success objective record page
 description: This page provides a detailed view of the success objective and its related outcomes and initiatives as defined in the success blueprint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-view-success-object.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-view-success-object.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ This page includes the following sections:
 -   Success outcomes: The success outcomes associated with the objective. For each objective, you can see the status, value realized \(the current value based on the percentage of the target achieved\), and the number of days left. Select a success outcome to view the success initiatives associated with it. Select **Edit** to drill down to the Success Outcome page.
 -   Success initiatives: The list of initiatives associated with the selected success outcome. The subject, progress, and the number of days remaining are displayed. Select the **Number** column to drill down to the Success Initiative record page.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

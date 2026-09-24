@@ -2,7 +2,7 @@
 title: Enable AI search in the Customer and Consumer Service Portals for unauthenticated users
 description: An administrator activates the AI search widgets so that guest users logging in to the Customer and Consumer Service Portals can use the AI search feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_search\_csp\_guestuser.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_search\_csp\_guestuser.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,7 +2,7 @@
 title: Create discovery job
 description: Create and schedule a new Data Discovery Store job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/dds-create-new-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/dds-create-new-job.html
 release: australia
 product: Data Discovery
 classification: data-discovery

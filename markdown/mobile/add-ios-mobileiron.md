@@ -2,7 +2,7 @@
 title: Add the ServiceNow app for iOS to MobileIron
 description: Configure the ServiceNow app for iOS for MobileIron distribution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/add-ios-mobileiron.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/add-ios-mobileiron.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,5 +66,5 @@ Role required: admin
 
 The ServiceNow app for iOS appears in the App Catalogs section on the MobileIron Portal. Mobile users can download it from the MobileIron App Catalog.
 
-**Parent Topic:**[MobileIron Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobileiron-mdm.md)
+**Parent Topic:**[MobileIron Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobileiron-mdm.md)
 

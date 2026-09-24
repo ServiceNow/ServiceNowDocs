@@ -2,7 +2,7 @@
 title: Cloud vs Non-cloud resources chart
 description: The Cloud vs Non-cloud resources chart appears on the Home view in CMDB Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-ci-overview-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-ci-overview-cloud.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -31,9 +31,9 @@ The following cloud vs Non-cloud charts are available:
 
 -   CI classes bar chart:
 
-    Each bar in the CI classes chart represents a pair of a CI class and a storage type \(cloud, non-cloud\), such as the bar for Applications/Cloud. For each bar, there's a scheduled job that runs every 24 hours to collect and calculate the data for the bar. The running time depends on the amount and complexity of the data that a job collects, which can be different for each scheduled job. Also, the schedules of the jobs are staggered so that they don't all run at the same time and exhaust resources. For details about the class-specific criteria used for the chart calculations, see [Configure classes for Cloud vs Non-cloud resources in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.md).
+    Each bar in the CI classes chart represents a pair of a CI class and a storage type \(cloud, non-cloud\), such as the bar for Applications/Cloud. For each bar, there's a scheduled job that runs every 24 hours to collect and calculate the data for the bar. The running time depends on the amount and complexity of the data that a job collects, which can be different for each scheduled job. Also, the schedules of the jobs are staggered so that they don't all run at the same time and exhaust resources. For details about the class-specific criteria used for the chart calculations, see [Configure classes for Cloud vs Non-cloud resources in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.md).
 
-    If there’s a CI class/type pair that isn't important in the organization, you can exclude that pair from the CI classes chart. For more details, see [Configure classes for Cloud vs Non-cloud resources in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.md).
+    If there’s a CI class/type pair that isn't important in the organization, you can exclude that pair from the CI classes chart. For more details, see [Configure classes for Cloud vs Non-cloud resources in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.md).
 
     On the CI classes chart, you can:
 
@@ -59,7 +59,7 @@ The following cloud vs Non-cloud charts are available:
     -   Unknown: The cloud/non-cloud classification couldn't be determined because some of the application service CIs aren't classified as cloud or non-cloud CIs.
     **Note:** Because classification of Application Services depends on the classification of CIs in the CI classes chart, there might be some discrepancy between the two charts. This can occur if an application service CI changed its cloud/non-cloud status, and the Application Services chart hasn't refreshed yet to reflect that change.
 
-    Select the Application Services chart to access the list views of the associated application services, grouped by cloud/non-cloud classifications. From those list views, you can drill down to the [Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/c_BusinesssServiceManagementMaps.md) map for application services.
+    Select the Application Services chart to access the list views of the associated application services, grouped by cloud/non-cloud classifications. From those list views, you can drill down to the [Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/c_BusinesssServiceManagementMaps.md) map for application services.
 
 
 The scheduled jobs associated with the charts are set up with several hard-coded limits that if exceeded, result in failure conditions that are reflected in the job status. Timing out is set to two hours and the maximum number of records to collect is set to 500,000. If a job exceeds any of those limits, it's automatically stopped.
@@ -67,7 +67,7 @@ The scheduled jobs associated with the charts are set up with several hard-coded
 A scheduled job that can't complete for 3 \(default\) consecutive days is automatically disabled for future runs. You can manage the disabling of scheduled jobs, in the following ways:
 
 -   Modify the default number of consecutive days that are counted by adding the **sn\_cmdb\_ws.insight.category.disable\_after\_failure** system property to the System Properties \[sys\_properties\] table and then setting its value. For more details, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
--   [Resume a disabled scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-resume-cloud-job.md).
+-   [Resume a disabled scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-resume-cloud-job.md).
 
-**Parent Topic:**[Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md)
+**Parent Topic:**[Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md)
 

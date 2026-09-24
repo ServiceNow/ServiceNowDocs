@@ -2,7 +2,7 @@
 title: AWS APIs
 description: Explore the AWS APIs used in AI Service Graph Connector for Amazon.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/aws-apis-used-in-ai-service-graph-connector-for-amazon.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/aws-apis-used-in-ai-service-graph-connector-for-amazon.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

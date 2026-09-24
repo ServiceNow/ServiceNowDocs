@@ -2,7 +2,7 @@
 title: Introduction to Orchestration
 description: Orchestration automates simple or complex multi-system tasks on remote services, servers, applications, and hardware.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r-orchestration-introduction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/r-orchestration-introduction.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -24,14 +24,14 @@ Orchestrated solutions aide collaboration among teams by providing reusable data
 
 Orchestration can make calls outside of a ServiceNow instance, directly to web services or through a MID Server to systems within corporate firewall. Orchestration also enables the creation reusable activities that wrapper Java Script functions for manipulating things inside the platform. Orchestration extends the [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-editor.md) by providing these features:
 
--   [Activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationActivityPacks.md) containing ready-to-use activities.
--   [Activity Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md), which enables developers to create custom activities without an over dependence to create scripts to orchestrate to third-party systems.
--   Ability to create activity packs using [Scoped Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ActivityScoping.md).
--   A [Databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationDatabus.md) for following the flow of data across orchestration activities.
+-   [Activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationActivityPacks.md) containing ready-to-use activities.
+-   [Activity Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_WorkflowActivityDesigner.md), which enables developers to create custom activities without an over dependence to create scripts to orchestrate to third-party systems.
+-   Ability to create activity packs using [Scoped Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_ActivityScoping.md).
+-   A [Databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationDatabus.md) for following the flow of data across orchestration activities.
 
 Orchestration Core provides entitlements to use specific applications:
 
--   **[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ClientSoftwareDistribution.md)**
+-   **[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_ClientSoftwareDistribution.md)**
 
     An application that automates software delivery from the Service Catalog. Provides OOB support for SCCM. Partner solutions support Macs using JAMF. Other third-party solutions provide support through the extension framework.
 
@@ -39,7 +39,7 @@ Orchestration Core provides entitlements to use specific applications:
 
     An application for users to reset their password in Active Directory. It can expand to communicate with other third-party systems.
 
--   **[Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationROI.md)**
+-   **[Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationROI.md)**
 
     Enables users to evaluate estimated costs and actual costs for tasks, automate these tasks, and track the ROI of these tasks.
 
@@ -48,16 +48,16 @@ Orchestration Core provides entitlements to use specific applications:
 
 Orchestration can automate tasks such as employee onboarding, user access rights, server management, managed file transfers, and Security Operations Orchestration activities . For example, you might use the Active Directory and Exchange activities provided in the base Orchestration system to set up network accounts and mailboxes for new employees.
 
-If Orchestration does not provide the activities you need for an integration, create the necessary activities using the templates in the [Orchestration Activity Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md). The external systems that Orchestration can automate for:
+If Orchestration does not provide the activities you need for an integration, create the necessary activities using the templates in the [Orchestration Activity Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_WorkflowActivityDesigner.md). The external systems that Orchestration can automate for:
 
--   Any system exposing web services \([SOAP,](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateASOAPWebServiceActivity.md) [REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md)\)
--   Any system accessible from the command line \(such as a UNIX system accessible through [SSH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAnSSHActivity.md), a Windows system enabled for [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAPowershellActivity.md) remoting or WMI\)
--   Numerous proprietary services: Windows [Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OrchActiveDirectoryActivities.md), Microsoft [Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationExchangeActivities.md) mail servers, [InfoBlox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_InfobloxDDIActivityPack.md), and [F5 Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchF5LoadBalancerActivities.md).
+-   Any system exposing web services \([SOAP,](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateASOAPWebServiceActivity.md) [REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md)\)
+-   Any system accessible from the command line \(such as a UNIX system accessible through [SSH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAnSSHActivity.md), a Windows system enabled for [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAPowershellActivity.md) remoting or WMI\)
+-   Numerous proprietary services: Windows [Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OrchActiveDirectoryActivities.md), Microsoft [Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationExchangeActivities.md) mail servers, [InfoBlox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_InfobloxDDIActivityPack.md), and [F5 Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchF5LoadBalancerActivities.md).
 
-    **Note:** For a full list of Activity Pack service offerings, see [Orchestration Core Activity Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationActivityPacks.md).
+    **Note:** For a full list of Activity Pack service offerings, see [Orchestration Core Activity Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationActivityPacks.md).
 
--   Any filesystem accessible by [SFTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAnSFTPActivity.md)
--   Any database with a compliant [JDBC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md) driver
+-   Any filesystem accessible by [SFTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAnSFTPActivity.md)
+-   Any database with a compliant [JDBC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAJDBCActivity.md) driver
 -   Additional Activity Packs are also available with other ServiceNow products, such as Security Operations
 
 \[Omitted image "OrchestrationDiagram.png"\] Alt text: Orchestration capabilities

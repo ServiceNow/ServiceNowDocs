@@ -2,10 +2,10 @@
 title: Email image filtering properties
 description: Use email image filtering properties to control how inbound email images attach to a target record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-image-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/email-image-filters.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Email properties, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -55,7 +55,7 @@ Specifies the image filtering behavior. **Note:** Regardless of the action you s
 -   Default value: AttachEmail
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailProperties.md)
+</table>**Parent Topic:**[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailProperties.md)
 
 **Related topics**  
 
@@ -68,5 +68,5 @@ Specifies the image filtering behavior. **Note:** Regardless of the action you s
 
 [Advanced email properties]()
 
-[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 

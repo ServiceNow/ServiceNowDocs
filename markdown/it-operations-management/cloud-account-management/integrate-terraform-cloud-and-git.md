@@ -2,7 +2,7 @@
 title: Integrate Terraform Cloud with GitHub
 description: Integrate GitHub with Terraform to link workspaces to repositories, enabling version control, change tracking, and rollbacks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/integrate-terraform-cloud-and-git.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/integrate-terraform-cloud-and-git.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -61,7 +61,7 @@ Make a note of the OAuth Token ID and share it with the ServiceNow admin.
 
 \[Omitted image "git-oauth-token.png"\] Alt text: GitHub OAuth Token ID
 
-**Parent Topic:**[Setting up Terraform and GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/about-terraform-git-and-servicenow_0.md)
+**Parent Topic:**[Setting up Terraform and GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/about-terraform-git-and-servicenow_0.md)
 
 **Related topics**  
 

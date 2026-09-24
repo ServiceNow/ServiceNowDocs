@@ -2,7 +2,7 @@
 title: Migrate signatures to use a customer certificate
 description: Run a signing job to migrate your signatures to a customer Root of Trust \(ROT\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/migrate-sigs-customer-rot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/migrate-sigs-customer-rot.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin, security\_admin, and sn\_kmf.cryptographic\_manager
 
 Code Signing must be enabled on your protected and trusted instances. You can verify by checking that the **com.snc.kmf.signature.validation.flag** system property is set to `true`.
 
-This procedure is part of a series of procedures to change a customer Root of Trust \(ROT\) on your instances. For an overview of this process, see [Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/change-rot-overview.md).
+This procedure is part of a series of procedures to change a customer Root of Trust \(ROT\) on your instances. For an overview of this process, see [Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/change-rot-overview.md).
 
 ## Procedure
 
@@ -103,5 +103,5 @@ This procedure is part of a series of procedures to change a customer Root of Tr
 
 ## What to do next
 
-To continue the Root of Trust configuration process, see [Disable ServiceNow Root of Trust](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/disable-sn-rot.md).
+To continue the Root of Trust configuration process, see [Disable ServiceNow Root of Trust](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/disable-sn-rot.md).
 

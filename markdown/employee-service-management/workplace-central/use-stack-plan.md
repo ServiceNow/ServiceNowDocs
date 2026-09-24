@@ -2,7 +2,7 @@
 title: Use Stack Plan
 description: Use the stack plan to get a visual overview of the spaces in a building grouped by attributes like project or department. View key numbers like space count and capacity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/use-stack-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/use-stack-plan.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -48,5 +48,5 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
     |**View the KPIs and legend**|The details panel displays KPIs like the total space count and total capacity. The legend lists each group with its assigned color. The legend helps you identify what each color represents on the stack plan.|
 
 
-**Parent Topic:**[Working with Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-planning.md)
+**Parent Topic:**[Working with Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-planning.md)
 

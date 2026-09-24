@@ -2,7 +2,7 @@
 title: External content connector in Dynamic Guidance
 description: Dynamic Guidance leverages XCC \(External Content Connector\) to provide intelligent, context-aware assistance by accessing ServiceNow product documentation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/external-content-connector-in-dynamic-guidance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/external-content-connector-in-dynamic-guidance.html
 release: australia
 product: Adoption Services
 classification: adoption-services

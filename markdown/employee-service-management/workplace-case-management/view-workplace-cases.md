@@ -2,7 +2,7 @@
 title: View and track workplace cases
 description: View and track open, closed, and unassigned workplace cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/view-workplace-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/view-workplace-cases.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -257,7 +257,7 @@ Tracks the total time spent on a case or task. The timer starts at zero, tracks 
     **Note:** Only updating the reservation in Workplace Reservations for Microsoft Outlook Add-in cancels the services.
 
 
-**Parent Topic:**[Managing Workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/manage-workplace-cases.md)
+**Parent Topic:**[Managing Workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/manage-workplace-cases.md)
 
 **Related topics**  
 

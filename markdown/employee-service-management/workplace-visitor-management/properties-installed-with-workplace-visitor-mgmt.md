@@ -2,7 +2,7 @@
 title: Properties installed with Workplace Visitor Management
 description: There are several properties available with Workplace Visitor Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/properties-installed-with-workplace-visitor-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/properties-installed-with-workplace-visitor-mgmt.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -71,7 +71,7 @@ This property specifies the sys\_id of the badge template that is used if no bad
  The default value is the sys\_id of the **Visitor Badge \(Black and White\)** template.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 

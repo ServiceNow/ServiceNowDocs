@@ -2,7 +2,7 @@
 title: AI voice agent reference
 description: Reference information for AI voice agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/voice-agent-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/voice-agent-reference.html
 release: australia
 topic_type: reference
 last_updated: "2025-08-14"

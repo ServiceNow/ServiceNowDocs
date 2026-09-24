@@ -2,7 +2,7 @@
 title: Managing API access within API Insights
 description: Manage received and sent requests by granting or rejecting API access, sending reminders, or withdrawing requests in API Insights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-received-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/api-insights/api-insights-received-req.html
 release: australia
 product: API Insights
 classification: api-insights
@@ -18,6 +18,6 @@ Manage received and sent requests by granting or rejecting API access, sending r
 
 You can manage API access requests by performing the following actions:
 
--   [Manage requests received for API access in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-grant-access.md).
--   [Manage requests sent for API access in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-sent-access.md).
+-   [Manage requests received for API access in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-grant-access.md).
+-   [Manage requests sent for API access in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-sent-access.md).
 

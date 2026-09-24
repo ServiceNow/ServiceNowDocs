@@ -2,7 +2,7 @@
 title: Configure contextual side panel tabs in Service Operations Workspace
 description: Add or delete tabs from the contextual side panel that is available in all record pages in Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-options-side-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/customize-options-side-panel.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -65,5 +65,5 @@ By default, all record pages such as an incident and interaction record page hav
     5.  Select **Update**.
 
 
-**Parent Topic:**[Contextual side panel configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/contextual-side-panel-configurations-sow-itsm.md)
+**Parent Topic:**[Contextual side panel configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/contextual-side-panel-configurations-sow-itsm.md)
 

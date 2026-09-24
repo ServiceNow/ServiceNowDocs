@@ -2,7 +2,7 @@
 title: Working with On-Call Scheduling on mobile
 description: Manage on-call schedules on the go using ITOM Mobile Agent. As a manager, learn how to manage shifts, time-off requests, and scheduling gaps. As a responder, learn how to request time off, view who is on call, and see upcoming shifts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/itom-mobile-on-call-scheduling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/itom-mobile-on-call-scheduling.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -30,9 +30,9 @@ ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage ale
 -   [View on-call group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/view-who-is-on-call.md)
 -   [View upcoming shifts with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/view-upcoming-shifts.md)
 
-**Parent Topic:**[Use ITOM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/use-itom-mobile.md)
+**Parent Topic:**[Use ITOM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/use-itom-mobile.md)
 
-**Previous topic:**[Managing incidents and major incidents on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/itom-mobile-incidents.md)
+**Previous topic:**[Managing incidents and major incidents on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/itom-mobile-incidents.md)
 
-**Next topic:**[Working with tasks on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/itom-mobile-tasks.md)
+**Next topic:**[Working with tasks on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/itom-mobile-tasks.md)
 

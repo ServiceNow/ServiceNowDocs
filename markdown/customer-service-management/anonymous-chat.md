@@ -2,7 +2,7 @@
 title: Anonymous chat
 description: Anonymous chat allows guest users to initiate chat sessions with consumer service agents through the Consumer Service Portal without requiring authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/anonymous-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/anonymous-chat.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -43,7 +43,7 @@ For more information, see [Record Producer](https://raw.githubusercontent.com/Se
 
 ## Anonymous chat routing
 
-Information provided by the guest user assists with routing and also provides the context of the request to the consumer service agent. The chat request is routed to the appropriate agent queue based on the type of issue selected. The routing for anonymous chat requests uses [matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CaseRouting.md). Create one matching rule for each queue and tie a chat request to a chat queue based on the selected issue type. Matching rules for anonymous chat are based on the Customer Interaction table.
+Information provided by the guest user assists with routing and also provides the context of the request to the consumer service agent. The chat request is routed to the appropriate agent queue based on the type of issue selected. The routing for anonymous chat requests uses [matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CaseRouting.md). Create one matching rule for each queue and tie a chat request to a chat queue based on the selected issue type. Matching rules for anonymous chat are based on the Customer Interaction table.
 
 The following matching rules are provided:
 
@@ -93,5 +93,5 @@ Message shown to user when rate limit for guest conversations is breached. -   T
 
 [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ConnectSupport.md)
 
-[Routing and assigning customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CaseRouting.md)
+[Routing and assigning customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CaseRouting.md)
 

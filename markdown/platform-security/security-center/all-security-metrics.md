@@ -2,7 +2,7 @@
 title: All Security Metrics
 description: Navigate to All Security Metrics to view a table with the data related to the Security Metrics of your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/all-security-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/all-security-metrics.html
 release: australia
 product: Security Center
 classification: security-center
@@ -22,7 +22,7 @@ Access the list of all Security Metrics on a filterable list by accessing the Se
 
 Select any item on the list to view details on each metric.
 
-Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-task-manager.md).
 
-**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md)
 

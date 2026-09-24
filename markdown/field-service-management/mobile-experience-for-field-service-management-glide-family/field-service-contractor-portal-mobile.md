@@ -2,7 +2,7 @@
 title: Field Service Contractor for mobile feature of the Now Mobile Agent application
 description: The Field Service Contractor for mobile feature of the Now Mobile Agent application enables contractors to manage work order tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/field-service-contractor-portal-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/field-service-contractor-portal-mobile.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -20,11 +20,11 @@ The Field Service Contractor for mobile application enables managers and field s
 
 The steps for configuring Field Service Contractor for mobile are:
 
-1.  [Activate the Field Service Contractor for mobile feature in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-fs-contractor-portal-mobile.md)
+1.  [Activate the Field Service Contractor for mobile feature in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-fs-contractor-portal-mobile.md)
 
     Activate Field Service Contractor for mobile to manage work order tasks assigned to the contractor company.
 
-2.  [Access the ServiceNow Agent for Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/install-field-service-contractor-portal-mobile.md)
+2.  [Access the ServiceNow Agent for Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/install-field-service-contractor-portal-mobile.md)
 
     Access the Field Service Contractor for mobile application to manage tasks from your phone or other mobile devices.
 
@@ -32,5 +32,5 @@ The steps for configuring Field Service Contractor for mobile are:
 **Related topics**  
 
 
-[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/wot-fsc.md)
+[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/wot-fsc.md)
 

@@ -2,7 +2,7 @@
 title: Product value
 description: View how your ServiceNow investment is performing against the outcomes you are tracking, with full visibility into how values are calculated and the assumptions that drive them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/value-library/product-value-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/value-library/product-value-overview.html
 release: australia
 product: Value Library
 classification: value-library
@@ -22,7 +22,7 @@ The product value overview surfaces operational and monetized performance data d
 
 \[Omitted image "product\_value.png"\] Alt text: Product Value
 
-**Note:** For more information on the product value dashboard, see [View outcome performance on the product value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/manage-product-value.md).
+**Note:** For more information on the product value dashboard, see [View outcome performance on the product value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/value-library/manage-product-value.md).
 
 ## Product value side panel
 

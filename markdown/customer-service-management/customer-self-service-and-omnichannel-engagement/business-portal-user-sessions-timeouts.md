@@ -2,7 +2,7 @@
 title: Business and Consumer portal usage calculation
 description: Track how your customers and employees are using the portal. The Customer Portal Usage dashboard provides information about portal visits resulting in session counts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/business-portal-user-sessions-timeouts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/business-portal-user-sessions-timeouts.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

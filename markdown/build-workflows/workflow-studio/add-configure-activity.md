@@ -2,7 +2,7 @@
 title: Add and configure an activity in a playbook
 description: Add and configure an activity in your playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-configure-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/add-configure-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -20,7 +20,7 @@ Add and configure an activity in your playbook.
 
 Role required: playbook.admin or pd\_author
 
-Review [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
+Review [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
 ## Procedure
 
@@ -91,7 +91,7 @@ Choose when you want your activity to start running. Options include:-   **When 
 
 
 </td></tr></tbody>
-</table>    1.  **Show additional options** the activity for [even more granular control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/advanced-instruction-activity.md).
+</table>    1.  **Show additional options** the activity for [even more granular control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/advanced-instruction-activity.md).
 
         **Warning:** Changing the advanced property fields of an activity can potentially break your automation. Make sure you understand how the playbook and its activities flow before you make changes.
 
@@ -117,7 +117,7 @@ After the activity starts, the activity runs only if specific conditions are met
 
 </td><td>
 
-Specify a duration of time to wait before running an activity whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
+Specify a duration of time to wait before running an activity whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/start-with-delay-properties.md).
 
 </td></tr><tr><td id="d184773e315">
 
@@ -128,7 +128,7 @@ Specify a duration of time to wait before running an activity whose start rule a
 Choose what this activity does when a playbook is restarted:-   **Skip on restart**: Skip this activity when the run is due to a restart.
 -   **Run always**: Always run this activity, including first runs.
 -   **Skip on first run**: Skip this activity during the first run.
-For more information, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-define-restart.md).
+For more information, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/enable-define-restart.md).
 
 </td></tr></tbody>
 </table>3.  Open the **Automation** tab.
@@ -157,11 +157,11 @@ For more information, see [Configure restart for Playbooks](https://raw.githubus
 
     Depending on the UI Layout associated with the activity, different sections and fields appear under the activity definition's Activity Experience. These sections and fields let you set up the activity data that renders during the runtime Playbook Experience.
 
-    **Note:** All UI Layouts, except for Record generator, display an Associated Record section. For information on how to set up or edit the Associated Record section in an activity definition, see [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
+    **Note:** All UI Layouts, except for Record generator, display an Associated Record section. For information on how to set up or edit the Associated Record section in an activity definition, see [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-activity-definition.md).
 
 6.  Specify if an AI Agent performs the activity, and how.
 
-    To learn more, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md).
+    To learn more, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configure-agentic-playbooks.md).
 
 7.  Click **Save and close** to save the details of your activity.
 
@@ -243,5 +243,5 @@ Optionally, set the activity's experience type, which helps to define how the ac
 
 Set up the Playbook Experience for you agents and fulfillers.
 
-**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

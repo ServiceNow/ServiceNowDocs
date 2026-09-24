@@ -2,7 +2,7 @@
 title: Recalculate planned costs for projects
 description: Recalculate cost plans, benefit plans, and their rolled-up investment-level values when labor rates or budget reference rates change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/fin-recalculate-costs-pws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/fin-recalculate-costs-pws.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -18,7 +18,7 @@ Recalculate cost plans, benefit plans, and their rolled-up investment-level valu
 
 ## Before you begin
 
--   Planned costs for the previous fiscal periods are also updated with this action. [Create a financial baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-compare-baselines-pws.md) for your projects to capture the planned costs before recalculating the costs. Give it a unique name to identify such as `Planned costs before new rates` to identify easily while comparing.
+-   Planned costs for the previous fiscal periods are also updated with this action. [Create a financial baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-compare-baselines-pws.md) for your projects to capture the planned costs before recalculating the costs. Give it a unique name to identify such as `Planned costs before new rates` to identify easily while comparing.
 -   Role required: it\_project\_manager
 
 ## Procedure
@@ -40,7 +40,7 @@ Planned cost values on labor and non-labor cost plans, planned benefit values on
 
 ## What to do next
 
-[Create a financial baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-compare-baselines-pws.md) to capture the new values and compare them with the planned costs before recalculation.
+[Create a financial baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-compare-baselines-pws.md) to capture the new values and compare them with the planned costs before recalculation.
 
-**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

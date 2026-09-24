@@ -2,7 +2,7 @@
 title: Enable order creation from a quote
 description: Add the Create Order event to a blueprint layout so that users can create an order from a quote in the CPQ Quote experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-create-order-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-create-order-integration.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -67,10 +67,10 @@ The **Create Order** button is available on the quote layout for the stages you 
 
 After you deploy the blueprint, configure the quote-to-order field mapping to define how quote data maps to the resulting order.
 
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 
 **Related topics**  
 
 
-[Create an order from a quote line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-create-order-quote-line.md)
+[Create an order from a quote line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-create-order-quote-line.md)
 

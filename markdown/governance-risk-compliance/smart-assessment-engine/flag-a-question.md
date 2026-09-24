@@ -2,7 +2,7 @@
 title: Flag or resolve a question
 description: In SAE, flag a question on an assessment to indicate that it needs attention. After the response is updated, mark the question as resolved or remove the flag.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/flag-a-question.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/flag-a-question.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -18,7 +18,7 @@ In SAE, flag a question on an assessment to indicate that it needs attention. Af
 
 ## Before you begin
 
-Flagging is enabled for all roles by default. If the assessment administrator has configured the **Question flag roles** field on the template category, your user account must have one of the configured roles to change a question's flag state. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+Flagging is enabled for all roles by default. If the assessment administrator has configured the **Question flag roles** field on the template category, your user account must have one of the configured roles to change a question's flag state. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
 Role required: none.
 
@@ -39,7 +39,7 @@ A question's flag has one of three states:
     The question was previously flagged and has been addressed. The flag icon shows the resolved state.
 
 
-For more information, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
+For more information, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
 
 ## Procedure
 
@@ -69,14 +69,14 @@ The question flag state is updated and visible to all collaborators on the asses
 
 ## What to do next
 
-To focus your review on flagged questions, use the **Flagged** filter from the filter list. You can combine this filter with other filters, such as **Unanswered** or **With comments**, to narrow your view further. For details on the available filters and how to combine them, see [Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.md).
+To focus your review on flagged questions, use the **Flagged** filter from the filter list. You can combine this filter with other filters, such as **Unanswered** or **With comments**, to narrow your view further. For details on the available filters and how to combine them, see [Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.md).
 
 **Related topics**  
 
 
-[Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md)
+[Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md)
 
-[Add a comment or work note to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/add-comment-to-question.md)
+[Add a comment or work note to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/add-comment-to-question.md)
 
-[Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.md)
+[Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.md)
 

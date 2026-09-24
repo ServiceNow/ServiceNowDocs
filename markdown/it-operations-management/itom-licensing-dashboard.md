@@ -2,7 +2,7 @@
 title: ITOM/OT SU Licensing dashboard
 description: Use the ITOM Licensing dashboard to review the statistics of the resource consumption and status against your purchased subscriptions. This dashboard contains reports for each ITOM application. The reports offer visualization of the daily usage count and of the average consumption of subscription units for 90 days.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-licensing-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-licensing-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -84,5 +84,5 @@ Hover over the vertical bar in the Subscription units area for the desired day t
 The third area shows which version of the ITOM Licensing is used on the instance each day. It helps explain spikes in count every time the new version is installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-su-licensing-reference.md)
+</table>**Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-su-licensing-reference.md)
 

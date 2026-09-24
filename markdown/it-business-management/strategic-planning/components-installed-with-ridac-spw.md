@@ -2,7 +2,7 @@
 title: Components installed with RIDAC
 description: A complete reference of RIDAC record fields, including data type, requirements, default values, and behavior notes for Strategic Planning Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/components-installed-with-ridac-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/components-installed-with-ridac-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -19,7 +19,7 @@ A complete reference of RIDAC record fields, including data type, requirements, 
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
-**Note:** This topic covers reference information specific to RIDAC, including user roles, tables, and system properties. For common reference information about tables, roles, and system properties installed with Strategic Planning, see [Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md).
+**Note:** This topic covers reference information specific to RIDAC, including user roles, tables, and system properties. For common reference information about tables, roles, and system properties installed with Strategic Planning, see [Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md).
 
 ## Roles installed with RIDAC in Strategic Planning Workspace
 

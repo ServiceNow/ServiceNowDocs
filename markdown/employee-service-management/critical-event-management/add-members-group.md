@@ -2,7 +2,7 @@
 title: Add members to the group
 description: Add members to the group mapped to a location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/add-members-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/add-members-group.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -32,10 +32,10 @@ Role required: admin
 
 5.  On the form, fill in the fields and select **Submit**.
 
-    **Note:** For more information to fill a new member form, see [New member form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/new-member-form.md).
+    **Note:** For more information to fill a new member form, see [New member form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/new-member-form.md).
 
 
-**Parent Topic:**[Configure Critical Event Management groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-critical-event-management-groups.md)
+**Parent Topic:**[Configure Critical Event Management groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/configure-critical-event-management-groups.md)
 
 **Related topics**  
 

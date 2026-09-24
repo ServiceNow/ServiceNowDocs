@@ -2,7 +2,7 @@
 title: Cloud credentials
 description: Cloud credential types manage access to cloud-based applications, including Amazon Web Services and the Microsoft Azure cloud.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/r\_CloudManagementCredentialsForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/r\_CloudManagementCredentialsForm.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials

@@ -2,7 +2,7 @@
 title: Add Guided Decision with inputs/outputs to Playbook
 description: Add decision trees created using the Guided Decision with Inputs and Outputs activity in the Guided Decisions Experience application to a playbook, so customer service agents can work through it to resolve cases more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-gd-input-output-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-gd-input-output-playbook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: admin, pd\_content\_author
 
 The Guided Decision with Inputs and Outputs activity is a playbook activity that enables decision trees to be used in playbooks with the ability to pass input parameters and retrieve output values. This activity allows you to select a specific decision tree version and configure input parameters that map to the questions defined in the first node of the decision tree. The activity supports versioning, where each activation of the decision tree builder creates a new version, and playbook activities continue using their configured version until manually updated. When a decision tree is activated to create a new version, you receive a notification message listing all playbooks and activities that reference the decision tree, with direct links to facilitate version updates.
 
-For more details on playbooks for Customer Service Management, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
+For more details on playbooks for Customer Service Management, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md).
 
 ## Procedure
 
@@ -189,7 +189,7 @@ The decision tree is added to the playbook. Depending on the context of the case
 **Related topics**  
 
 
-[Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-guided-decisions.md)
+[Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-guided-decisions.md)
 
-[Configuring guidances and decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-guided-decisions.md)
+[Configuring guidances and decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-guided-decisions.md)
 

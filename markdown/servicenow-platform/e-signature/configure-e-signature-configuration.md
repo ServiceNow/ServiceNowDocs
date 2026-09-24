@@ -2,7 +2,7 @@
 title: Create or modify an e-signature template
 description: Create or modify an e-signature template to define an electronic document and signature configuration for use in task forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/e-signature/configure-e-signature-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/e-signature/configure-e-signature-configuration.html
 release: australia
 product: e-Signature
 classification: e-signature
@@ -91,5 +91,5 @@ Adds a check box with accompanying acknowledgment text that the user must select
 
 You can use the e-signature template in task forms to request electronic signatures from users.
 
-**Parent Topic:**[Using e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/using-esignature.md)
+**Parent Topic:**[Using e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/e-signature/using-esignature.md)
 

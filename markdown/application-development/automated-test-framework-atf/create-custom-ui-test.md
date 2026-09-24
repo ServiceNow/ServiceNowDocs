@@ -2,7 +2,7 @@
 title: Create a custom UI test
 description: Test components in custom UI pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/create-custom-ui-test.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/create-custom-ui-test.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -18,7 +18,7 @@ Test components in custom UI pages.
 
 ## Before you begin
 
--   Use the Page Inspector to identify testable custom UI components. See [Enable and use the page inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/enable-page-inspector.md).
+-   Use the Page Inspector to identify testable custom UI components. See [Enable and use the page inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/enable-page-inspector.md).
 -   Role required: admin
 
 ## Procedure
@@ -43,7 +43,7 @@ Test components in custom UI pages.
     2.  **Click UI Action**: Click the **Try It** UI action to open the page.
 7.  Add test steps from the Custom UI category to validate the behavior of custom UI components.
 
-    For a list of available Custom UI test steps, see [Custom UI category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-custom-ui-category.md).
+    For a list of available Custom UI test steps, see [Custom UI category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/test-steps-custom-ui-category.md).
 
 8.  Retrieve UI components when adding a test step.
 
@@ -75,7 +75,7 @@ Test components in custom UI pages.
 
 ## What to do next
 
-Consider adding tests to a test suite. For more information, see [Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md).
+Consider adding tests to a test suite. For more information, see [Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-suites-overview.md).
 
-**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
+**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
 

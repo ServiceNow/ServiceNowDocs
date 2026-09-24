@@ -2,7 +2,7 @@
 title: Create quiz categories
 description: Create quiz categories, which represent a theme for evaluating a specific element of the quiz topic and contain questions pertaining to that theme.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateAQuizCategory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreateAQuizCategory.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,12 +45,12 @@ When you create a quiz, the system creates a default category using the name of 
 4.  Add a new category by clicking the **+** icon in the title bar of an existing category.
 
 
-**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateaQuiz.md)
 
 **Related topics**  
 
 
-[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
+[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizDesigner.md)
 
-[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateaQuiz.md)
 

@@ -2,7 +2,7 @@
 title: Event task creation progress in exercise and crisis events
 description: When event tasks are created in bulk from task template groups or task templates, the Event tasks list defers refresh to avoid impacting large events. This topic explains the banner and auto-refresh behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcm-event-task-template-progress.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcm-event-task-template-progress.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-16"
@@ -32,5 +32,5 @@ Opening **Add groups** or **Add tasks** from the **Event tasks** tab of an activ
 
 \[Omitted image "activated-plan-event-task-list.png"\] Alt text: Activated plan event task list showing tasks created from a task template group.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

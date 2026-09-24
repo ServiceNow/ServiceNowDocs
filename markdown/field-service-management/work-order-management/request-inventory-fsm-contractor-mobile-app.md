@@ -2,7 +2,7 @@
 title: Request inventory using the Field Service Contractor for mobile application
 description: Request inventory to receive parts when your stock gets low or you need a part for a particular work order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/request-inventory-fsm-contractor-mobile-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/request-inventory-fsm-contractor-mobile-app.html
 release: australia
 product: Work Order Management
 classification: work-order-management

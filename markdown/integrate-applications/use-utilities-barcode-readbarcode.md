@@ -2,7 +2,7 @@
 title: Use the ReadBarcode component
 description: Read a single barcode and return its contents by using the ReadBarcode component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-barcode-readbarcode.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-utilities-barcode-readbarcode.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Read a single barcode and return its contents by using the ReadBarcode component
 
 ## Before you begin
 
-Add the Barcode Reader plugin from the Plugins Manager before using the connector. For more information about adding the SSH plugin, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+Add the Barcode Reader plugin from the Plugins Manager before using the connector. For more information about adding the SSH plugin, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-plugins-rpa-studio.md).
 
 Role required: none
 
@@ -59,7 +59,7 @@ If the component can't read the barcode, it returns an error.
 
 3.  Confirm the configuration of the component's input fields.
 
-    For more information, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+    For more information, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the ReadBarcode component to the corresponding ports of the other components as described in the following table.
 
@@ -72,5 +72,5 @@ If the component can't read the barcode, it returns an error.
     To test the component, on the **Design** tab, select **Run**.
 
 
-**Parent Topic:**[Barcode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/barcode.md)
+**Parent Topic:**[Barcode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/barcode.md)
 

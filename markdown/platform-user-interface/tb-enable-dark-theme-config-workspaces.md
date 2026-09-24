@@ -2,7 +2,7 @@
 title: Enable the dark theme only in configurable workspaces
 description: Enable the Next Experience dark theme in configurable workspaces only, and not for the classic environment. The dark theme emits less blue light, making the display easier for your eyes and less disturbing in low-light settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-enable-dark-theme-config-workspaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-enable-dark-theme-config-workspaces.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: admin
     **Note:** If you select the dark theme, the dark theme only applies to the configurable workspaces. The classic environment remains in the default theme.
 
 
-**Parent Topic:**[Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-working-in-dark-theme.md)
+**Parent Topic:**[Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-working-in-dark-theme.md)
 

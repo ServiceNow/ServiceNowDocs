@@ -2,7 +2,7 @@
 title: Date/time input setup for different action item types
 description: After you create an input form screen and define its IncludeTimezone attribute for date/time inputs, you must associate the input form screen with an action item. How you set up the date/time inputs depends on the type of action item you use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/datetime-input-setup-4-action-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/datetime-input-setup-4-action-items.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configuring product data in Public Sector Digital Services
 description: Configure product data for Public Sector Digital Services including product models, sold products, install base items, and installed products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-product-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-product-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

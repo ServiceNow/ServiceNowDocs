@@ -2,7 +2,7 @@
 title: Create a custom prefix for baseline
 description: Modify the prefix to customize the name of the baselines for your projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/config-fin-baseline-prefix-pws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/config-fin-baseline-prefix-pws.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -33,5 +33,5 @@ Role required: admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-fin-pws.md)
+**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/config-fin-pws.md)
 

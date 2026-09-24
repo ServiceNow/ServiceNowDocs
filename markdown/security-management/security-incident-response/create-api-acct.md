@@ -2,7 +2,7 @@
 title: Create an API account for the Check Point NGTP integration
 description: An API account role is required in your ServiceNow AI Platform instance for this integration. The Username and Password associated with this account are created in the ServiceNow AI Platform and entered in Check Point, so the Check Point authenticates with the ServiceNow AI Platform when retrieving Block List entries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-api-acct.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-api-acct.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

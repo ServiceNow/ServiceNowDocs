@@ -2,7 +2,7 @@
 title: Components installed with Strategic Spend Tracking for PPM
 description: Several types of components are installed with activation of Strategic Spend Tracking for PPM, including tables and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/installed-with-ppm-strategic-spend-tracking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/installed-with-ppm-strategic-spend-tracking.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -78,5 +78,5 @@ Strategy Allocation Breakdown\[sn\_ppm\_sst\_strategy\_allocation\_breakdown\]
 Stores strategy breakdown details for a project or demand. The details include fiscal year, strategy allocation amount, cost details \(planned and actual\), and capex and opex amounts \(planned and actual\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/install-strategic-spend.md)
+</table>**Parent Topic:**[Install Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/install-strategic-spend.md)
 

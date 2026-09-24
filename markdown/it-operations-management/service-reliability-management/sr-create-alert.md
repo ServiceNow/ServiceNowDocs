@@ -2,7 +2,7 @@
 title: Manually create an SRM alert
 description: Create an alert for testing purposes or if you think an issue poses a risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-create-alert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-create-alert.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -173,5 +173,5 @@ Consider making the following optional adjustments to your alert for testing pur
 -   Add comments or work notes in the **Compose** panel.
 -   Add an attachment related to the alert using the attachment icon \[Omitted image "icon-sr-attachment.png"\] Alt text: Attachment icon.
 
-**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-alerts-expresslist.md)
+**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-work-alerts-expresslist.md)
 

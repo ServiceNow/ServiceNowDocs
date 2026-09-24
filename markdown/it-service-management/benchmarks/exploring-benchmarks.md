@@ -2,7 +2,7 @@
 title: Exploring Benchmarks
 description: Use Benchmarks for ITSM to get a comparative insight relative to industry averages of your peers and to the industry top performers. With Benchmarks get a quick visibility into your key performance indicators \(KPIs\) and trends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/exploring-benchmarks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/exploring-benchmarks.html
 release: australia
 product: Benchmarks
 classification: benchmarks

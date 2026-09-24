@@ -2,7 +2,7 @@
 title: Configure case synchronization
 description: Configure the major issue management system properties to enable synchronization between major cases and associated child cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-major-case-synchronization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-major-case-synchronization.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: MPN security log fields
 description: Reference for the structured fields produced when a raw MPN security log document is parsed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-security-log-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-security-log-fields.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -45,10 +45,10 @@ The parser extracts the following fields from each raw security log document. So
 |Detection type|Classification assigned by the parser, for example unauthorized audit access, sign-in access denied, off-hours sensitive access, or login failure.|
 |Reasons|Supporting details for the assigned detection type.|
 
-**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
+**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 
 **Related topics**  
 
 
-[Configure security log collection for MPN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-security-log-collection-for-mpn.md)
+[Configure security log collection for MPN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-security-log-collection-for-mpn.md)
 

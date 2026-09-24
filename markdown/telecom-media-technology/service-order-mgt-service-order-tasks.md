@@ -2,7 +2,7 @@
 title: Review and update the service order fulfillment tasks
 description: Review and update the fulfillment tasks that are associated with a service order, or order orchestration plan, so that you can make sure that all tasks are properly completed.OM content revamp project - This is a redundant topic and has been removed from the SOM bundle on Oct 9, 2025. A common topic for customer and service orders \(order-mgt-customer-order-tasks.dita\) has been preserved with combined content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-service-order-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-order-mgt-service-order-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

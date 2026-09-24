@@ -2,7 +2,7 @@
 title: Make a field mandatory
 description: Fields can be marked as mandatory, meaning they must contain a value before the record can be saved. Mandatory fields are marked with a field status indicator before the label.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_MakingAFieldMandatory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_MakingAFieldMandatory.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: personalize\_dictionary
 
 A mandatory field that is pre-populated by the platform with default data, such as a value from a client script, does not display the indicator. If you delete this value from the field, however, the indicator appears. The color of the indicator depends on the field state.
 
-Using a dictionary entry to make a field mandatory does not work when using web services or background scripts. You can use a data policy instead. For more information on data policies, see [Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataPolicy.md).
+Using a dictionary entry to make a field mandatory does not work when using web services or background scripts. You can use a data policy instead. For more information on data policies, see [Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_DataPolicy.md).
 
 ## Procedure
 
@@ -43,12 +43,12 @@ Using a dictionary entry to make a field mandatory does not work when using web 
 4.  Use **dictionary override&gt;override mandatory** to make a field that is mandatory only in the child table and not the parent table.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/customize-fields-now-platform-landing.md)
 
 **Related topics**  
 
 
 [Set a CI field to be mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetCIFieldMandatory.md)
 
-[Define a dictionary override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_DefineADictionaryOverride.md)
+[Define a dictionary override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_DefineADictionaryOverride.md)
 

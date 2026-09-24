@@ -2,7 +2,7 @@
 title: Install Notify connector for Microsoft Teams
 description: Install and activate the Notify connector for Microsoft Teams plugin to be able to initiate a Microsoft Teams meeting directly from a Task record or via the Major Incident Workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -45,8 +45,8 @@ Role required: admin
 
 Integrate Notify connector for Microsoft Teams in ServiceNow instance.
 
--   To set up pre-published app \(Single Microsoft Teams tenant to single ServiceNow instance\), see [Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md).
--   To set up self-configured app \(Single Microsoft Teams tenant to multiple ServiceNow instance\), see [Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md).
+-   To set up pre-published app \(Single Microsoft Teams tenant to single ServiceNow instance\), see [Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md).
+-   To set up self-configured app \(Single Microsoft Teams tenant to multiple ServiceNow instance\), see [Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md).
 
-**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
+**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
 

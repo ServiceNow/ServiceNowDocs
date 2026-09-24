@@ -2,7 +2,7 @@
 title: Add an existing issue as a child issue
 description: Add a standalone issue as a child of an existing parent issue directly from the parent record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/add-an-existing-issue-as-a-child-issue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/add-an-existing-issue-as-a-child-issue.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -37,5 +37,5 @@ Role required: risk\_admin, risk\_manager, or sn\_risk.user
 
 The selected issues become children of the parent, following the group's existing **Management method**.
 
-**Parent Topic:**[Group issues in the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-grouping-in-workspaces.md)
+**Parent Topic:**[Group issues in the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-grouping-in-workspaces.md)
 

@@ -2,7 +2,7 @@
 title: Clear UUID serial numbers from existing HPE BladeSystem CIs
 description: Delete records with UUID-formatted serial numbers from HPE BladeSystem discovery tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -21,7 +21,7 @@ Delete records with UUID-formatted serial numbers from HPE BladeSystem discovery
 
 Verify that you have at least version 1.94.3 of CMDB CI Class Models.
 
-Verify that you have set the **sn\_itom\_pattern.clear\_hpe\_serial\_numbers** MID Server property to true and run HPE BladeSystem discovery. For more information, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
+Verify that you have set the **sn\_itom\_pattern.clear\_hpe\_serial\_numbers** MID Server property to true and run HPE BladeSystem discovery. For more information, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
 
 Role required: admin
 
@@ -40,12 +40,12 @@ After setting the **sn\_itom\_pattern.clear\_hpe\_serial\_numbers** MID Server p
 4.  Select **Execute Now**.
 
 
-**Parent Topic:**[HPE BladeSystem Enclosure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.md)
+**Parent Topic:**[HPE BladeSystem Enclosure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.md)
 
 **Related topics**  
 
 
-[HPE BladeSystem Enclosure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.md)
+[HPE BladeSystem Enclosure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.md)
 
-[Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md)
+[Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md)
 

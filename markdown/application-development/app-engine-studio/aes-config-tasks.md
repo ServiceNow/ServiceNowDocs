@@ -2,7 +2,7 @@
 title: Perform AES configuration tasks
 description: As you work through the App Engine Studio \(AES\) guided setup, you must perform different configuration tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-config-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/aes-config-tasks.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -38,7 +38,7 @@ You can install the App Engine Studio application \(com.snc.app-engine-studio\) 
 
  The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
- For detailed instructions, see [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/install-aes.md).
+ For detailed instructions, see [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/install-aes.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ In your production instance, add users to the App Engine Studio admin group.
 
 Add members to the group so they can review app- and deployment-related requests. Also, define a contact email address for the group.
 
- For detailed instructions, see [Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-users-to-admin-grp.md).
+ For detailed instructions, see [Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-users-to-admin-grp.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ In your development instance, add developers to the App Engine Studio users grou
 
 Enable developers in your organization to build applications in App Engine Studio.
 
- For detailed instructions, see [Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/grant-aes-access.md).
+ For detailed instructions, see [Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/grant-aes-access.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ In your development instance, add users to the App Engine Studio User Limited gr
 
 Enable developers in your organization to collaborate on applications that someone else created in App Engine Studio.
 
- For detailed instructions, see [Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/grant-aes-access.md).
+ For detailed instructions, see [Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/grant-aes-access.md).
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ Set up collaboration descriptors.
 
 Set up custom collaboration descriptors in the global scope for use in App Engine Studio.
 
- For detailed instructions, see [Set up custom collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/set-up-custom-collaboration-descriptors.md).
+ For detailed instructions, see [Set up custom collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/set-up-custom-collaboration-descriptors.md).
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ In your non-production instance, specify an app template admin.
 
 Grant the app\_template\_admin role to users who will manage template activation, deactivation, and sharing in App Engine Studio.
 
- For detailed instructions, see [Manage template access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/manage-template-access.md).
+ For detailed instructions, see [Manage template access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/manage-template-access.md).
 
 </td></tr></tbody>
 </table><table id="table_pdv_qb1_15b"><thead><tr><th>
@@ -178,14 +178,14 @@ ServiceNow provides several additional resources on configuring and administerin
 \[Omitted image "bus-webinar.svg"\] Alt text: [App Engine Studio video on adding security](https://www.youtube.com/watch?v=7qdHbzVcmoI&list=PLCOmiTb5WX3ptBi7tdjmAGwx8EhgcTp9o&index=7)
 
 </td></tr></tbody>
-</table>-   **[Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-users-to-admin-grp.md)**  
+</table>-   **[Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-users-to-admin-grp.md)**  
 Add users to the App Engine Admin group in your production instance to give them administrative rights to App Engine Studio \(AES\). You must also identify a contact email address for the group. After you configure the email address of the App Engine Admin group, members can receive notifications for app development-related requests, including app intake requests.
--   **[Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/grant-aes-access.md)**  
+-   **[Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/grant-aes-access.md)**  
 Control who has access to build applications in App Engine Studio \(AES\) by adding users to AES Users group or the AES User Limited group.
--   **[Manage template access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/manage-template-access.md)**  
+-   **[Manage template access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/manage-template-access.md)**  
 Control who has access to templates in App Engine Studio \(AES\) using the app\_template\_admin role. App template admins activate and deactivate templates and grant other users access to share their templates.
--   **[Set up custom collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/set-up-custom-collaboration-descriptors.md)**  
+-   **[Set up custom collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/set-up-custom-collaboration-descriptors.md)**  
 Customize the set of development collaborators you list in App Engine Studio \(AES\) using Guided Setup.
 
-**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/configure-aes.md)
+**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/configure-aes.md)
 

@@ -2,7 +2,7 @@
 title: Log in to an instance
 description: Each ServiceNow instance has a unique, secure web address. The base URL for each instance has the default format: https://&lt;instancename&gt;.service-now.com.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_LoggingIn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_LoggingIn.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Users log in to the instance from a web browser. Administrators can [associate a
 4.  Press the Enter key or click **Login**.
 
 
-**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_CommonUIElements.md)
+**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/p_CommonUIElements.md)
 

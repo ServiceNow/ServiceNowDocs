@@ -2,7 +2,7 @@
 title: Configure scheduled data imports for crisis map
 description: Manage your subscriptions to threat feeds from internal or external sources by configuring scheduled data imports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-scheduled-data-imports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/crisis-map-scheduled-data-imports.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

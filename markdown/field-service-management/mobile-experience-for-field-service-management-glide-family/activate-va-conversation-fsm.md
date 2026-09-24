@@ -2,7 +2,7 @@
 title: Activate required Virtual Agent conversation topics for Field Service Management
 description: Activate Virtual Agent for Field Service Management to start chatting with the virtual agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-va-conversation-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-va-conversation-fsm.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -41,7 +41,7 @@ The base system provides the following predefined virtual agent topics \(chatbot
 
     Field service agents can get information about the work order tasks that are in progress. The agents can take appropriate actions, such as entering time spent working on the task, logging incidentals, closing tasks, and creating follow-on tasks.
 
-    You can configure the**sn\_fsm\_va.days\_in\_past\_to\_debrief\_task** system property to get information about the work in progress tasks for n number of previous days. For more information see, [Install Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-virtual-agent-fsm.md).
+    You can configure the**sn\_fsm\_va.days\_in\_past\_to\_debrief\_task** system property to get information about the work in progress tasks for n number of previous days. For more information see, [Install Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-virtual-agent-fsm.md).
 
 
 **Note:** If you want to customize the predefined topics provided in the base system, duplicate the topic and then modify it. For more information, see [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).

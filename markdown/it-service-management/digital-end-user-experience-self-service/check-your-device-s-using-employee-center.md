@@ -2,7 +2,7 @@
 title: Check device health using Employee Center
 description: Monitor and resolve common device performance issues independently by using Device health check through the Employee Center portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -24,15 +24,15 @@ Role required: none
 
 1.  Open Device health check from Employee Center using one of the following options.
 
-<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d467128e73">
+<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d467061e73">
 
 Option
 
-</th><th align="left" id="d467128e76">
+</th><th align="left" id="d467061e76">
 
 Steps to open Device heath check
 
-</th></tr></thead><tbody><tr><td id="d467128e82">
+</th></tr></thead><tbody><tr><td id="d467061e82">
 
 **Hardware or Software pages**
 
@@ -48,7 +48,7 @@ The Device heath check widget appears, displaying device health categories with 
 5.  Select a category to see more details in the Device health check page.
 
 
-</td></tr><tr><td id="d467128e159">
+</td></tr><tr><td id="d467061e159">
 
 **Quick links**
 

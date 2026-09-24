@@ -2,7 +2,7 @@
 title: AI evaluation base metrics
 description: Base metrics from AI evaluation framework providers for configuring compliance evaluations and monitoring AI system controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-ai-evaluation-base-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/airc-ai-evaluation-base-metrics.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -34,5 +34,5 @@ These base metrics apply to the Agentic AI system type and are captured at the s
 |PII detection|Detects when AI agent interactions contain personally identifiable information \(PII\) in inputs or outputs.|Traceloop|Binary|
 |Agent tool trajectory|Compares actual tool calls against expected reference tool calls.|Traceloop|Percentage|
 
-**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
+**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 

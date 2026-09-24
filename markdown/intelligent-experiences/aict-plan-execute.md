@@ -2,7 +2,7 @@
 title: Monitoring AI plan execution in AI Control Tower
 description: Monitor the delivery status of AI-related projects and epics from a single page in AI Control Tower, with widgets and lists that update dynamically when you apply filters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-execute.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-execute.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
@@ -63,9 +63,9 @@ The Project and Epic lists show individual AI-related records from their source 
 **Related topics**  
 
 
-[AI Plan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-configuring.md)
+[AI Plan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-configuring.md)
 
-[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-using.md)
+[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-using.md)
 
-[AI Control Tower plan reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-reference.md)
+[AI Control Tower plan reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-reference.md)
 

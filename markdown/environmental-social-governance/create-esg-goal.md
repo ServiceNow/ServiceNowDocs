@@ -2,7 +2,7 @@
 title: Create an Operational Sustainability Management \(formerly ESG Management\) goal
 description: Establish operational sustainability goals to track your progress toward your chosen material topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-esg-goal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-esg-goal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_esg.program\_manager
 
 ## About this task
 
-After you create a [material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-material-topics.md), you must also create goals to track your progress toward the material topic. After you create a goal, you can do the following:
+After you create a [material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-material-topics.md), you must also create goals to track your progress toward the material topic. After you create a goal, you can do the following:
 
 -   Assign targets to track the progress of goal achievement.
 -   If you integrate with Integrated Risk Management, you can add policies. You can also monitor the goal-related risks, policy and control compliance, and issues that are due. This integration enables you to create policies and implement controls to reinforce company goals.
@@ -140,7 +140,7 @@ Progress
 
 </td><td>
 
-Percentage complete for the goal. The progress value is calculated automatically.For more information, on how the progress value is calculated, see [Goal progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/goal-progress-value-calculation.md).
+Percentage complete for the goal. The progress value is calculated automatically.For more information, on how the progress value is calculated, see [Goal progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/goal-progress-value-calculation.md).
 
 </td></tr><tr><td>
 
@@ -158,21 +158,21 @@ Description of the goal.
 
 To view the goal's relationship with other sub goals, targets, metric definitions, and so on, click **360º view**.
 
--   **[Goal progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/goal-progress-value-calculation.md)**  
+-   **[Goal progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/goal-progress-value-calculation.md)**  
 The progress or percentage complete value of goals is auto-calculated using different formulas. The formula depends on whether the goal has only targets, a combination of sub-goals and targets, and if it has weighted average calculation enabled.
--   **[Migrate existing goals data to Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/migrate-existing-goals-to-new-data-model.md)**  
+-   **[Migrate existing goals data to Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/migrate-existing-goals-to-new-data-model.md)**  
 With the admin role, you can migrate the existing goals data to the Goal Framework tables by running the scheduled job.
--   **[Display the priorities and goals on the project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-project-form.md)**  
+-   **[Display the priorities and goals on the project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configure-project-form.md)**  
 If you're an existing user, configure the project form to upgrade to the Goal Framework. The benefit of the Goal Framework is that it enables you to set targets for goals. You can also define strategic priorities and associated goals as part of the organization's strategic plans.
--   **[Map a goal to a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/associate-a-goal-to-mt.md)**  
+-   **[Map a goal to a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/associate-a-goal-to-mt.md)**  
 Map a goal to a material topic so that you can track the actions being taken for the chosen topic. Based on this mapping exercise, you can act on the goals with the most significant material impact.
--   **[Associate entities to goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/associate-entities-to-goals.md)**  
+-   **[Associate entities to goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/associate-entities-to-goals.md)**  
 After you create the goals, you must associate those entities, which you want to track, to the goals.
 
-**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-esg.md)
+**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-esg.md)
 
 **Related topics**  
 
 
-[Goals overview in the Operational Sustainability Workspace \(formerly ESG Workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/goals-overview-page.md)
+[Goals overview in the Operational Sustainability Workspace \(formerly ESG Workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/goals-overview-page.md)
 

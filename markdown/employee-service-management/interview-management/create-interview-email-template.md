@@ -2,7 +2,7 @@
 title: Create interview invite email template
 description: Create interview invite email templates to enable recruiters to select them when scheduling interviews.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/create-interview-email-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/interview-management/create-interview-email-template.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -29,5 +29,5 @@ Role required: sn\_ta\_hiring\_core.recruiter or sn\_ta\_hiring\_core.recruitmen
 2.  On the template form, select the table as Job interview and the Template fields as **Meeting invite** and **Meeting subject**.
 
 
-**Parent Topic:**[Configuring Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/configuring-interview-management.md)
+**Parent Topic:**[Configuring Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/configuring-interview-management.md)
 

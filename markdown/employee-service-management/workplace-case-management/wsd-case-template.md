@@ -2,7 +2,7 @@
 title: Create a Workplace case template
 description: Create a Workplace case template for use when creating workplace services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/wsd-case-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/wsd-case-template.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -45,5 +45,5 @@ The case template is created. You can use the template for workplace services.
 
 ## What to do next
 
-Create a case template with user acceptance, for more information, see [Create a User acceptance Workplace case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/create-usr-accptnce-workplace-case-template.md).
+Create a case template with user acceptance, for more information, see [Create a User acceptance Workplace case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/create-usr-accptnce-workplace-case-template.md).
 

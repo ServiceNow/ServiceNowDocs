@@ -2,7 +2,7 @@
 title: Populate record producer data and redirect users
 description: You can enter data for all records created by the record producer, and redirect an end user to a particular page after the record producer is submitted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_PopulatingRecordData.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/c\_PopulatingRecordData.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -18,7 +18,7 @@ You can enter data for all records created by the record producer, and redirect 
 
 To enter data with a record producer, use any combination of the following methods:
 
--   Create a variable on the record producer with the same name as the field in the target record. For example, a variable named caller\_id on a **Create a New Incident** record producer populates the `caller_id` field on the new incident record. Use a [variable type that corresponds to the field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_CreatingVariablesForFieldTypes.md).
+-   Create a variable on the record producer with the same name as the field in the target record. For example, a variable named caller\_id on a **Create a New Incident** record producer populates the `caller_id` field on the new incident record. Use a [variable type that corresponds to the field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_CreatingVariablesForFieldTypes.md).
 -   Define a [template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md) to assign a static field value for all records created by the record producer.
 -   Define a script that uses any variable or server-side objects and functions to assign values.
     -   Use `current.*FIELD_NAME*` to reference fields on the record being created.
@@ -53,7 +53,7 @@ The following code gives the id of the record producer:
 RP.getParameterValue('sysparm_id')
 ```
 
-**Parent Topic:**[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
+**Parent Topic:**[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_RecordProducer.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Indicator scores in reference currency
 description: You can track the trends for monetary fields of the types Price, Currency, or FX Currency. The scores for an indicator based on any of these fields are collected in the Reference Currency values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/indicator-scores-reference-currency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/indicator-scores-reference-currency.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -24,12 +24,12 @@ Sometimes you need to provide your users with monetary KPIs converted to a stand
 
 To collect indicator scores in a reference currency, create an indicator with the following characteristics:
 
--   The indicator is an [automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), not a formula or a manual indicator.
+-   The indicator is an [automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md), not a formula or a manual indicator.
 -   The aggregate is not **Count** or **Count Distinct** and the indicator is not **Scripted**.
 -   The selected **Field** to aggregate has the type Price, Currency, or FX Currency.
 -   The selected **Unit** for the scores is **Use reference currency**.
 
-For the full procedure of creating such an indicator, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
+For the full procedure of creating such an indicator, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
 
 **Note:**
 

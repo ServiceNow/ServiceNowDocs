@@ -2,7 +2,7 @@
 title: NowVoiceUiConfiguration class - Android
 description: Specifies presentation options for the voice agent UI.Creates a NowVoiceUiConfiguration instance with the specified presentation options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NVoiceUiConfigAndroidClass.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NVoiceUiConfigAndroidClass.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 Specifies presentation options for the voice agent UI.
 
-**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowVoiceUiConfiguration - NowVoiceUiConfiguration\(hidePostCallTranscript: Boolean = false, shouldBlockAttachmentSharing: Boolean = false\)
 

@@ -2,7 +2,7 @@
 title: Configuration Hub in Localization Workspace
 description: Configuration Hub provides centralized access to the tables and properties often used by admins. You can update the tables and properties of dependent applications such as Localization Framework without leaving the Localization Workspace interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-configuration-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-configuration-hub.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -34,26 +34,26 @@ With the localization\_admin or the admin role, navigate to **All** &gt; **Local
 
 The following components of Localization Framework are available to the localization\_admin or admin role, from Localization Workspace.
 
--   [Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/framework-configuration.md) \(the content types in Localization Workspace are built upon artifacts\).
--   [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-settings.md).
--   [TMS Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md) \(required only if you use a TMS as your translation service provider\).
+-   [Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/framework-configuration.md) \(the content types in Localization Workspace are built upon artifacts\).
+-   [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/localization-settings.md).
+-   [TMS Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/tms-configuration.md) \(required only if you use a TMS as your translation service provider\).
 -   Properties \(visible to the admin role only\).
--   Spoke Configurations \(used for the [hub and spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md)\).
--   Spoke settings \(used for the [hub and spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md)\).
--   [Language Code Mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/language-mapper-dt.md) \(may be required if you use a custom third-party translation service\).
+-   Spoke Configurations \(used for the [hub and spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md)\).
+-   Spoke settings \(used for the [hub and spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md)\).
+-   [Language Code Mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/language-mapper-dt.md) \(may be required if you use a custom third-party translation service\).
 
 ## Dynamic Translation
 
 Dynamic Translation is required to use machine translation on your instance. The following components of Dynamic Translation are available to the admin role, from Localization Workspace.
 
--   [Translator Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integration-with-other-translation-services.md).
--   [Exclusion Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md).
--   [Create New Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.md).
--   [Test Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.md).
--   [Exclusion Provider Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-provider.md).
--   [Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-properties.md).
+-   [Translator Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/integration-with-other-translation-services.md).
+-   [Exclusion Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md).
+-   [Create New Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.md).
+-   [Test Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.md).
+-   [Exclusion Provider Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-exclusion-provider.md).
+-   [Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dynamic-translation-properties.md).
 
 Guided Setups are also available to the admin role, to outline the initial process of configuring Localization Workspace and its prerequisites. Navigate to **All** &gt; **Localization Workspace** &gt; **Localization Framework Guided Setup** or **Localization Workspace Guided Setup**.
 
-**Parent Topic:**[Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/configuring-localization-workspace.md)
+**Parent Topic:**[Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/configuring-localization-workspace.md)
 

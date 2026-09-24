@@ -2,7 +2,7 @@
 title: Target form
 description: Use the Target form to track and measure the progress of the goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-target-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-target-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -304,5 +304,5 @@ When you select Actual value source as Benefit Plans \(predefined target automat
 **Related topics**  
 
 
-[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-strategize.md)
+[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-strategize.md)
 

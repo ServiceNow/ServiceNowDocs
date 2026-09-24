@@ -2,7 +2,7 @@
 title: Platform and App Engine tools
 description: To create AI assets and integrate them into your custom applications, you can use a combination of Platform tools and ServiceNow Otto for App Engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-platform-and-ae-ai-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/dev-get-start-platform-and-ae-ai-tools.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-31"
@@ -41,7 +41,7 @@ ServiceNow Otto for App Engine enables you to use ServiceNow AI Platform tools s
     Use AI Control Tower to monitor, manage, and govern the AI assets in your application once they are deployed. AI Control Tower provides a centralized inventory of your skills, AI agents, and agentic workflows, along with visibility into their performance and lifecycle status. For more information, see [AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md).
 
 
-To learn more about ServiceNow Otto for App Engine, see [Tools included with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/tools-included-with-now-assist-for-app-engine.md). For a complete list of tools and skills available with ServiceNow Otto for App Engine, see the product listing in the [ServiceNow Store](https://store.servicenow.com/store/app/5d27eef41bd92a50396216db234bcb45).
+To learn more about ServiceNow Otto for App Engine, see [Tools included with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/tools-included-with-now-assist-for-app-engine.md). For a complete list of tools and skills available with ServiceNow Otto for App Engine, see the product listing in the [ServiceNow Store](https://store.servicenow.com/store/app/5d27eef41bd92a50396216db234bcb45).
 
-**Parent Topic:**[Adding AI to your apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-adding-ai-to-your-apps.md)
+**Parent Topic:**[Adding AI to your apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-get-start-adding-ai-to-your-apps.md)
 

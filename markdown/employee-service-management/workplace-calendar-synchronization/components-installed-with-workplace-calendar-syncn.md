@@ -2,7 +2,7 @@
 title: Components installed with Workplace Calendar Synchronization
 description: Several types of components are installed with the Workplace Calendar Synchronization application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/components-installed-with-workplace-calendar-syncn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/components-installed-with-workplace-calendar-syncn.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -97,7 +97,7 @@ Event\[sn\_wsd\_rsvsync\_event\]
 
 </td><td>
 
-Store information about all the events that are created in the application. Events are created for actions such as create, read, update or delete.**Note:** If **WSD: Archive old workplace tasks** archival rule is applied then Event \[sn\_wsd\_rsvsync\_event\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
+Store information about all the events that are created in the application. Events are created for actions such as create, read, update or delete.**Note:** If **WSD: Archive old workplace tasks** archival rule is applied then Event \[sn\_wsd\_rsvsync\_event\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
 
 </td></tr><tr><td>
 

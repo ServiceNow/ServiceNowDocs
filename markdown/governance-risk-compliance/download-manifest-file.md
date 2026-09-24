@@ -2,7 +2,7 @@
 title: Download the manifest file
 description: Install ServiceNow Document designer manifest file. This add-in should be enabled for customizing the reports and Microsoft Word templates, according to your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/download-manifest-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/download-manifest-file.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,7 +58,7 @@ Verify that the following plugins are activated with the sys\_admin role.
 
 ## What to do next
 
-To build the Microsoft Word template using the add-in, see [Build the Microsoft Word template using the add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/build-word-template-using-add-in.md).
+To build the Microsoft Word template using the add-in, see [Build the Microsoft Word template using the add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/build-word-template-using-add-in.md).
 
 For instructions on how to deploy the manifest file, see the [Deploy add-ins in the Microsoft 365 admin center \[KB1307378\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1307378) article in Now Support Knowledge Base.
 

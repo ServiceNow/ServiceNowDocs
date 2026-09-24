@@ -2,7 +2,7 @@
 title: Service Status Legend widget
 description: Use concurrently with the Status History widget to show what the icons in the Status History widget mean. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/service-status-legend.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/service-status-legend.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -22,7 +22,7 @@ Use concurrently with the Status History widget to show what the icons in the St
 
 The Service Status Legend widget does not have any included instance options.
 
-**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-status-widgets.md)
+**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/service-status-widgets.md)
 
 **Related topics**  
 

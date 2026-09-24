@@ -2,7 +2,7 @@
 title: SPO PR field mappings to Asset Management PO
 description: Lists the field mappings between SPO purchase requisition \(PR\) records and Asset Management purchase order \(PO\) records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-pr-field-mappings-itam-po.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-pr-field-mappings-itam-po.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -28,7 +28,7 @@ Fields in the SPO PR record align to fields in the Asset Management PO and purch
 |PR \(PRL\)|N/A|Delivery Location.Location|Ship To|N/A|
 |PR \(PRL\)|N/A|Total line amount|N/A|Total Cost|
 
-**Parent Topic:**[SPO and Asset Management data model mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-data-model.md)
+**Parent Topic:**[SPO and Asset Management data model mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-data-model.md)
 
 **Related topics**  
 

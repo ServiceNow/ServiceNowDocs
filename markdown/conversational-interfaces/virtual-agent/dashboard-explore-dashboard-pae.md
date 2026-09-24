@@ -2,7 +2,7 @@
 title: Exploring the Conversational Analytics dashboard in Platform Analytics experience
 description: Use Conversational Analytics dashboard to improve Virtual Agent \(VA\) interactions with users. The dashboard provides insights into conversational data, and helps you refine topics and improve the deflection rate of VA.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/dashboard-explore-dashboard-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/dashboard-explore-dashboard-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -101,5 +101,5 @@ The following sections provide a high-level overview of how to use each section 
     \[Omitted image "vaa-next-virtual-agent-activity-pae.png"\] Alt text: Virtual Agent analytics dashboard key performance indicators.
 
 
-**Parent Topic:**[Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md)
+**Parent Topic:**[Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md)
 

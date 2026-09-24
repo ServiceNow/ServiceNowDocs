@@ -2,7 +2,7 @@
 title: Respond to an alert in Express List
 description: Run a response action to remediate an alert issue manually from the Express List pane.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/remediate-alert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/remediate-alert.html
 release: australia
 product: Event Management
 classification: event-management

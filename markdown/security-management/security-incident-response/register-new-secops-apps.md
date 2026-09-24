@@ -2,7 +2,7 @@
 title: Register new Security Operations applications for on-demand orchestration
 description: In the base system, Security Operations applications are automatically registered when they are activated. Registration allows the workflows associated with the applications to be available for on-demand orchestration requests. If needed, you can define new applications and associate workflows with them for on-demand orchestration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/register-new-secops-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/register-new-secops-apps.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

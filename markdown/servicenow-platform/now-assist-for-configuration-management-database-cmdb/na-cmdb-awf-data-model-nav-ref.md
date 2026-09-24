@@ -2,7 +2,7 @@
 title: Data Model Navigator app features
 description: The Data Model Navigator app provides comprehensive information about CMDB tables, attributes, and relationships with context-aware guidance for specific use cases. While users can view the data, the primary purpose is to generate up-to-date indexed data for use by ServiceNow Otto agents and skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-data-model-nav-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-data-model-nav-ref.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -60,5 +60,5 @@ Navigate to **All** &gt; **Data Model Navigator**.
 |Fields|Identify and review key attributes for a class. The app differentiates key attributes from similar ones in the same table and highlights attributes that are important in specific use cases.|
 |Relationships|Review guidance on how and why to model relationships between specific classes.|
 
-**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
+**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
 

@@ -2,7 +2,7 @@
 title: SaaS Overview dashboard
 description: Optimize how much your organization spends on SaaS and SSO licensing by analyzing the subscription usage, cost, and compliance of your SaaS applications and SSO providers using the SaaS Overview dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/saas-overview-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/saas-license-management/saas-overview-dashboard.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -16,7 +16,7 @@ breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Manage
 
 Optimize how much your organization spends on SaaS and SSO licensing by analyzing the subscription usage, cost, and compliance of your SaaS applications and SSO providers using the SaaS Overview dashboard.
 
-**Important:** The SaaS Overview dashboard is available in both the Software Asset Management classic application and the Software Asset Workspace. This topic provides information on the SaaS Overview dashboard in the Software Asset Management classic application. For information on the SaaS Overview dashboard in the Software Asset Workspace, see [SaaS overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
+**Important:** The SaaS Overview dashboard is available in both the Software Asset Management classic application and the Software Asset Workspace. This topic provides information on the SaaS Overview dashboard in the Software Asset Management classic application. For information on the SaaS Overview dashboard in the Software Asset Workspace, see [SaaS overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
 
 The Engineering License Overview dashboard is no longer available for new Australia users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Australia without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia.
 
@@ -122,7 +122,7 @@ Potential cost saved for each subscription profile if you reclaim unused subscri
  You can filter the data that is displayed on this report by selecting an option from the Breakdown list. To view the potential savings for both SaaS and SSO subscription profiles, select **All Subscriptions**. To view the potential savings for only SaaS subscription profiles, select **Subscriptions Excluding SSO**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
+</table>**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 

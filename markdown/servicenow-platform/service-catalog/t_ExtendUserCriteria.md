@@ -2,7 +2,7 @@
 title: Extend user criteria
 description: Extend the user criteria table when the available user criteria fields are not sufficient. User criteria references various user fields \(fields from the User \[sys\_user\] table\), such as department, company, and groups. You can extend user criteria with a custom field to include any other user reference field \(field from the User \[sys\_user\] table\) of interest.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ExtendUserCriteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_ExtendUserCriteria.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -65,5 +65,5 @@ Test the user criteria record by navigating to **Service Catalog** &gt; **Catalo
 
 You can extend the User \[sys\_user\] table if there are fields in other tables that you want considered in user criteria. After extending the User table, follow the steps in this procedure to extend it to user criteria.
 
-**Parent Topic:**[Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogAccessControls.md)
+**Parent Topic:**[Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ServiceCatalogAccessControls.md)
 

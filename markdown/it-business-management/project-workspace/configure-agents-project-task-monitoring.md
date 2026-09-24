@@ -2,7 +2,7 @@
 title: Configure the Monitor project tasks AI agent in AI Agent Studio
 description: Monitor project tasks autonomously by configuring the AI agent in the AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configure-agents-project-task-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/configure-agents-project-task-monitoring.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -18,7 +18,7 @@ Monitor project tasks autonomously by configuring the AI agent in the AI Agent S
 
 ## Before you begin
 
-The Project insights generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md).
+The Project insights generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-na-spm.md).
 
 Role required: admin or it\_project\_manager
 
@@ -57,7 +57,7 @@ Role required: admin or it\_project\_manager
 
 The Monitor project tasks agents are enabled for the selected project.
 
-**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md)
+**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-na-spm.md)
 
 **Related topics**  
 
@@ -66,7 +66,7 @@ The Monitor project tasks agents are enabled for the selected project.
 
 [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 
-[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-na-spm-ai-agents.md)
 
-[Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/na-spm-task-monitoring-usecase.md)
+[Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/na-spm-task-monitoring-usecase.md)
 

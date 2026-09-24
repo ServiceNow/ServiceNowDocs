@@ -2,7 +2,7 @@
 title: Adjust alert impact while triaging an alert
 description: As an Event Management operator, you might need to modify the impact that an alert has on an application service and on the CIs in a service. Adjust the impact when it does not accurately represent your network environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-adjust-impact-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/operator-adjust-impact-rules.html
 release: australia
 product: Event Management
 classification: event-management
@@ -73,5 +73,5 @@ Before you make any modifications to impact calculations, make sure that you und
 
 Your administrator might configure additional impact rules that display when you click a CI in the application service map. You can make adjustments to the **Influence** fields on any impact rule to get the most accurate impact tree.
 
-**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-advanced-tasks.md)
+**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-advanced-tasks.md)
 

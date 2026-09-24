@@ -2,7 +2,7 @@
 title: Forecasting planning and analysis
 description: You can use the forecast planning and analysis feature to simulate various scenarios. The forecast planning and analysis tools enable for the creation, saving, visualization, and comparison of multiple analyses, enabling better planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/scenario-analysis-forecast.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/scenario-analysis-forecast.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -52,18 +52,18 @@ The following example shows a generated comparison graph for two different analy
 
 **Note:** You can select up to five analysis records for comparison. If the selected analysis have adjusted values, those are plotted in the comparison. Otherwise, the standard forecast values are plotted.
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-new-explore.md)
 
 **Related topics**  
 
 
-[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-scenarios.md)
+[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-up-scenarios.md)
 
-[Create an analysis context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-analysis-context.md)
+[Create an analysis context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-analysis-context.md)
 
-[Create an analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-scenario-analysis.md)
+[Create an analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-scenario-analysis.md)
 
-[Adjust parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-forecast-intervention.md)
+[Adjust parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-forecast-intervention.md)
 
-[Create a forecast comparison graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-forecast-comparison.md)
+[Create a forecast comparison graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-forecast-comparison.md)
 

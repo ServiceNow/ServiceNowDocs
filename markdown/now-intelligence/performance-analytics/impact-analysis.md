@@ -2,7 +2,7 @@
 title: \(Legacy\) Dependency Assessment
 description: Dependency Assessment enables you to view, analyze, and edit your performance analytics components including widgets, indicators, and breakdowns, from a single view. By viewing the hierarchy of components and the relationships between them, you can see immediately who is impacted by a change and what the effects of your changes are.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/impact-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/impact-analysis.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -39,14 +39,14 @@ Dependency Assessment consists of several components:
 
 **Note:** The tree view is persistent. When you return to Dependency Assessment, the tree view shows the same configuration as on the last visit.
 
--   **[Launch Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/launch-dependency-assessment.md)**  
+-   **[Launch Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/launch-dependency-assessment.md)**  
 Use the Dependency Assessment tree view to view and edit Performance Analytics components including widgets, indicators, and breakdowns, from a single view. You can see the effects of your changes immediately.
--   **[Dependency Assessment tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-treeview.md)**  
+-   **[Dependency Assessment tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/dependency-assessment-treeview.md)**  
 The tree view enables admin users to see the relationships between PA entities and to know the impact of changes made to any node in the tree view hierarchy.
--   **[Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md)**  
+-   **[Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md)**  
 You can see where any element in the tree view is used. This is useful when you want to change an element such as an indicator or breakdown and see the effect of your change on other PA elements.
--   **[Tree view navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/admin-console-tree-view-nav.md)**  
+-   **[Tree view navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/admin-console-tree-view-nav.md)**  
 To navigate the admin console tree view effectively, it's good to know what the various icons and other visual data in the tree view indicate.
 
-**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 

@@ -2,7 +2,7 @@
 title: Set up a form header in CRM Workspace
 description: You can create a form header for use in CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-config-ws-form-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-config-ws-form-header.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

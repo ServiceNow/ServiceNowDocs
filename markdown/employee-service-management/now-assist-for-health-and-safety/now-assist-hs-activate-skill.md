@@ -2,7 +2,7 @@
 title: Activate a ServiceNow Otto for Health and Safety skill
 description: Activate a ServiceNow Otto for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -18,7 +18,7 @@ Activate a ServiceNow Otto for Health and Safety skill to enable the safety team
 
 ## Before you begin
 
-[Install ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
+[Install ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
 
 Role required: admin
 
@@ -48,7 +48,7 @@ Now LLM Service is currently the only provider for this application's skills.
 
 5.  In the Choose Input section, review inputs for the selected skill.
 
-    For information about the inputs for the skill, see [Skill inputs for ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-skill-inputs.md).\[Omitted image "na-hs-skill-inputs.png"\] Alt text: Choose input data screen for skills.
+    For information about the inputs for the skill, see [Skill inputs for ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-skill-inputs.md).\[Omitted image "na-hs-skill-inputs.png"\] Alt text: Choose input data screen for skills.
 
 6.  Select **Save and continue** to go to the next step.
 
@@ -73,5 +73,5 @@ Now LLM Service is currently the only provider for this application's skills.
     \[Omitted image "na-hs-active-skill.png"\] Alt text: Active skills section displaying the active status for the Health and Safety incident summarization skill.
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 

@@ -2,7 +2,7 @@
 title: Create an activity manually in RPA Desktop Design Studio
 description: Create and use an activity to provide modularity to an automation project in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-activity-rpa-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-activity-rpa-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Create and use an activity to provide modularity to an automation project in RPA
 
 ## Before you begin
 
-Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-studio.md).
+Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/set-up-rpa-studio.md).
 
 Role required: none
 
@@ -30,7 +30,7 @@ Each activity contains two components by default: Start and End. These component
 
 You can reuse each activity multiple times within the same automation project by dragging the activity to the Design surface. You can also import activities in different automation projects.
 
-To create an activity using Now Assist, see [Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md).
+To create an activity using Now Assist, see [Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-activity-now-assist.md).
 
 ## Procedure
 
@@ -42,15 +42,15 @@ To create an activity using Now Assist, see [Create an activity with AI](https:/
 
 2.  Do any of the following options for a desired action.
 
-<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d499694e137">
+<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d499063e137">
 
 Option
 
-</th><th align="left" id="d499694e140">
+</th><th align="left" id="d499063e140">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d499694e146">
+</th></tr></thead><tbody><tr><td id="d499063e146">
 
 **To create a new activity**
 
@@ -58,20 +58,20 @@ Action
 
 Right-click **Activities** in the Project Explorer pane and select **New Activity**.
 
-</td></tr><tr><td id="d499694e161">
+</td></tr><tr><td id="d499063e161">
 
 **To create a new activity with Now Assist**
 
 </td><td>
 
-Right-click **Activities** in the Project Explorer pane and select **New activity using Now Assist**. For more information, see [Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md).To access the AI features in RPA Desktop Design Studio, perform the following steps:
+Right-click **Activities** in the Project Explorer pane and select **New activity using Now Assist**. For more information, see [Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-activity-now-assist.md).To access the AI features in RPA Desktop Design Studio, perform the following steps:
 
--   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md).
--   Turn on the RPA bot generation skill to use the generative AI capability. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/turn-rpa-bot-generation-skill.md).
+-   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-now-assist-rpa-hub.md).
+-   Turn on the RPA bot generation skill to use the generative AI capability. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/turn-rpa-bot-generation-skill.md).
 -   After activating the RPA bot generation skill, relaunch the RPA Desktop Design Studio application to apply the modified settings.
 If you skip these steps, the ServiceNow Otto for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
 
-</td></tr><tr><td id="d499694e237">
+</td></tr><tr><td id="d499063e237">
 
 **To rename an activity**
 
@@ -81,7 +81,7 @@ Do one of the following actions:-   In the Project Explorer pane, right-click th
 -   Double-click the activity and in the Properties pane, change the name in the **Name** field.
  For example, Test 1 and Test 2.
 
-</td></tr><tr><td id="d499694e264">
+</td></tr><tr><td id="d499063e264">
 
 **To add the input parameters to an activity**
 
@@ -89,7 +89,7 @@ Do one of the following actions:-   In the Project Explorer pane, right-click th
 
 Click the plus icon \(\[Omitted image "add-image-icon.png"\] Alt text: Plus icon.\) on the Start component.When you drag this activity into another activity, the input parameters appear as Data Input ports.
 
-</td></tr><tr><td id="d499694e283">
+</td></tr><tr><td id="d499063e283">
 
 **To add the output parameters to an activity**
 
@@ -97,7 +97,7 @@ Click the plus icon \(\[Omitted image "add-image-icon.png"\] Alt text: Plus icon
 
 Click the plus icon \(\[Omitted image "add-image-icon.png"\] Alt text: Plus icon.\) on the End component.When you drag this activity in another activity, the output parameters appear as Data Output ports.
 
-</td></tr><tr><td id="d499694e301">
+</td></tr><tr><td id="d499063e301">
 
 **To open an activity on the Design surface**
 
@@ -105,7 +105,7 @@ Click the plus icon \(\[Omitted image "add-image-icon.png"\] Alt text: Plus icon
 
 Double-click the activity.
 
-</td></tr><tr><td id="d499694e310">
+</td></tr><tr><td id="d499063e310">
 
 **To set a particular activity as the starting point for the automation project**
 
@@ -115,7 +115,7 @@ Right-click the activity and select **Mark As Startup**.By default, the Main Act
 
  When you click **Run** under the **Design** tab to run this project, the automation begins from the activity that is marked as startup.
 
-</td></tr><tr><td id="d499694e334">
+</td></tr><tr><td id="d499063e334">
 
 **To reuse an activity within the same automation project**
 
@@ -123,15 +123,15 @@ Right-click the activity and select **Mark As Startup**.By default, the Main Act
 
 Drag the activity to the desired Design surface of the activity.
 
-</td></tr><tr><td id="d499694e343">
+</td></tr><tr><td id="d499063e343">
 
 **To reuse an activity in a different automation project**
 
 </td><td>
 
-Perform the steps in the [Import project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-project-activities.md).
+Perform the steps in the [Import project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/import-project-activities.md).
 
-</td></tr><tr><td id="d499694e362">
+</td></tr><tr><td id="d499063e362">
 
 **To handle the errors at an activity level**
 
@@ -139,7 +139,7 @@ Perform the steps in the [Import project in RPA Desktop Design Studio](https://r
 
 Right-click the desired activity and select **Error Handler**.
 
-</td></tr><tr><td id="d499694e375">
+</td></tr><tr><td id="d499063e375">
 
 **To create a local variable**
 
@@ -147,7 +147,7 @@ Right-click the desired activity and select **Error Handler**.
 
 Right-click the desired activity and select **Create a Variable**.
 
-</td></tr><tr><td id="d499694e387">
+</td></tr><tr><td id="d499063e387">
 
 **To create a copy of an activity**
 
@@ -155,7 +155,7 @@ Right-click the desired activity and select **Create a Variable**.
 
 Right-click the desired activity and select **Create a Copy**.For example, if you are creating a copy of the Test 1 activity, a new activity is created as Test1\_Copy under the Activities section.
 
-</td></tr><tr><td id="d499694e402">
+</td></tr><tr><td id="d499063e402">
 
 **To find all the references of an activity that are used in other activities**
 
@@ -163,7 +163,7 @@ Right-click the desired activity and select **Create a Copy**.For example, if yo
 
 Right-click the desired activity in the Project Explorer pane and select **Find All References**.Results are displayed in the Find All References dialog box.
 
-</td></tr><tr><td id="d499694e417">
+</td></tr><tr><td id="d499063e417">
 
 **To delete an activity**
 
@@ -174,7 +174,7 @@ Do the following:1.  Delete all the references that are used in other activities
 3.  In the Confirmation dialog box, select **Yes**.
 
 
-</td></tr><tr><td id="d499694e447">
+</td></tr><tr><td id="d499063e447">
 
 **To resolve conflicts when merging changes from multiple sources of an activity**
 
@@ -184,9 +184,9 @@ Right-click the desired activity in the Project Explorer pane and select **Sourc
 
  \[Omitted image "source-control-activity.png"\] Alt text: Compare Processes dialog box.
 
- For more information, see [Resolve conflicts when merging changes from multiple sources of the same activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/source-control-rpa-studio.md).
+ For more information, see [Resolve conflicts when merging changes from multiple sources of the same activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/source-control-rpa-studio.md).
 
-</td></tr><tr><td id="d499694e491">
+</td></tr><tr><td id="d499063e491">
 
 **To execute and test the automation of the project that includes all activities**
 
@@ -216,12 +216,12 @@ In this example, the Main activity is marked as startup, which executes the Test
         -   If the port names are the same and the port data types are different, then the data connections are created only if the port data type is can be converted \(the source port data must be converted to target data type. This is known as typecasting or type conversion. For more information on type casting, see [Java Type Casting](https://www.w3schools.com/java/java_type_casting.asp)\). For example, integer to object but not object to integer.
         -   If the port names are the same and the port data type can be converted, but there is already an existing data connection between the two components, then no new data connection is created.
 
-**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-build.md)
 
 **Related topics**  
 
 
-[Handle errors in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/error-handling-rpa-studio.md)
+[Handle errors in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/error-handling-rpa-studio.md)
 
-[Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-variables-rpa-studio.md)
+[Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-variables-rpa-studio.md)
 

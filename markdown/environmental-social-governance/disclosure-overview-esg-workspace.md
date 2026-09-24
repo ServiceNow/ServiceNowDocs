@@ -2,7 +2,7 @@
 title: Disclosure overview in the Operational Sustainability Workspace \(formerly ESG Workspace\)
 description: The Overview tab for the disclosure records in the Operational Sustainability Workspace is designed for different users to view the state and summary of the disclosures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/disclosure-overview-esg-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/disclosure-overview-esg-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ The Disclosure summary section displays the goals that are listed in the disclos
 
 If you want to export the data in the disclosure to an Excel spreadsheet, select **Export to excel** in the Disclosure summary section.
 
-**Parent Topic:**[Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-analytics-reporting.md)
+**Parent Topic:**[Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-analytics-reporting.md)
 

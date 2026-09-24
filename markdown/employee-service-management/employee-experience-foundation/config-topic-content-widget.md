@@ -2,7 +2,7 @@
 title: Modify the topic content widget display
 description: The topic content widget displays the knowledge articles and requests associated with the topic in your taxonomy. Click a knowledge article or a request to open it. You can configure the instance options to control the number of items to show per page and their sort order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-topic-content-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-topic-content-widget.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -68,5 +68,5 @@ Default value: popularity
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Employee Center browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
+**Parent Topic:**[Employee Center browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
 

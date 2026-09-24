@@ -2,7 +2,7 @@
 title: Integration with Automation Center
 description: Create automation requests for your tasks directly from Task Mining. Capture both steps and desktop actions automation properties in a single recording session, instead of recording the same process twice. When a Task Mining analyst submits an automation request, the recording is delivered to the automation team with all UI properties needed to build desktop actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/integration-with-automation-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/integration-with-automation-center.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -26,7 +26,7 @@ For more information, see [Building desktop automations from Task Mining data](h
 
 ## Initiate an automation request from the Task timeline analysis
 
-1.  As a Task Mining analyst, you create a Task Mining project with a Task timeline analysis as a Mining analysis goal. For more information, see [Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/create-task-mining-projects.md). You group user actions as a task to provide data for the analysis. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md).
+1.  As a Task Mining analyst, you create a Task Mining project with a Task timeline analysis as a Mining analysis goal. For more information, see [Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/create-task-mining-projects.md). You group user actions as a task to provide data for the analysis. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/mine-data.md).
 2.  Run a mining job on the Task Mining project to generate the Task timeline analysis of your project data.
 3.  Go to the project's Task timeline analysis, and select a task to see a detailed list of the steps of the task.
 4.  Create a copy that you use for automation without affecting the original. In the duplicate task, edit any of these steps if you want to change task details.
@@ -38,14 +38,14 @@ For more information, see [Building desktop automations from Task Mining data](h
 
 \[Omitted image "tm-automation-request-done.png"\] Alt text: Screenshot showing the completed New Automation Request form.
 
-**Parent Topic:**[Integrating Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integrations-for-task-mining.md)
+**Parent Topic:**[Integrating Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/integrations-for-task-mining.md)
 
 **Related topics**  
 
 
-[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
+[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/task-mining-dashboard.md)
 
-[Identify task improvement actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/identify-improvement-opportunities.md)
+[Identify task improvement actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/identify-improvement-opportunities.md)
 
 [Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-agent.md)
 

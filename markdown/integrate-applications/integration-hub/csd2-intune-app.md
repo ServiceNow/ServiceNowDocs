@@ -2,7 +2,7 @@
 title: Configure group assignments
 description: Configure group assignments for all the applications you want to deploy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-intune-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd2-intune-app.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -35,5 +35,5 @@ Role required: admin
     \[Omitted image "csd2-app-group-assignments.png"\] Alt text: Group assignments.
 
 
-**Parent Topic:**[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-ms-intune.md)
+**Parent Topic:**[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-ms-intune.md)
 

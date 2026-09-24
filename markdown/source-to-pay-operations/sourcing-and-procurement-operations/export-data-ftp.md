@@ -2,7 +2,7 @@
 title: Export data to the FTP server
 description: Export a file from a local source, a remote network server, or another instance by providing a path and authentication information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/export-data-ftp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/export-data-ftp.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -50,7 +50,7 @@ You can use Flow Designer subflows to move the data into a mid server and then t
     **Note:** Based on your business requirements, add additional actions, triggers, or subflows.
 
 
-**Parent Topic:**[Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md)
+**Parent Topic:**[Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md)
 
 **Related topics**  
 

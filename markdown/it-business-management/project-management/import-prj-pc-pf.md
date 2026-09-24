@@ -2,7 +2,7 @@
 title: Update a project using a Microsoft Project file
 description: Import project data, from a Microsoft Project file, into an existing project in your ServiceNow instance using the Project form or Planning Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/import-prj-pc-pf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/import-prj-pc-pf.html
 release: australia
 product: Project Management
 classification: project-management
@@ -18,7 +18,7 @@ Import project data, from a Microsoft Project file, into an existing project in 
 
 ## Before you begin
 
-Create a [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md).
+Create a [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md).
 
 Role required: it\_project\_manager
 
@@ -40,7 +40,7 @@ Role required: it\_project\_manager
 
         -   **Automatic**: Select this option to apply the scheduling engine while importing the project tasks. The supported constraint types are imported with the same constraints applied to them while other constraint types are converted to **Start on specific date**.
         -   **Manual**: Select this option to import all project tasks with the **Start on specific date** constraint type irrespective of their constraint type in Microsoft Project.
-        For more information about the supported constraint types, see [Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-import-msp.md).
+        For more information about the supported constraint types, see [Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-import-msp.md).
 
 5.  Select **Import**.
 
@@ -55,10 +55,10 @@ Role required: it\_project\_manager
     -   The **State** of the parent project and tasks are rolled up.
     -   The **% Complete** on the top task is rolled up.
 
-**Parent Topic:**[Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-import-msp.md)
+**Parent Topic:**[Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-import-msp.md)
 
 **Related topics**  
 
 
-[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectImportAndExport.md)
 

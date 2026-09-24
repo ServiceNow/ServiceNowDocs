@@ -2,7 +2,7 @@
 title: Managing incidents
 description: Working on incidents involves diagnosing and investigating the incident, recording results, and sometimes escalating or promoting the incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/work-on-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/work-on-incidents.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -47,7 +47,7 @@ One way to investigate incidents is to determine whether related records exist, 
 
 When the incident management team has determined that the cause of an incident is an error or widespread problem, the team initiates the problem management process. When the issue requires a change to the infrastructure or a business service, the team initiates the change management process.
 
-A menu item on the Incident form lets you create a problem or change record easily and associate the incident with the problem or change record. For more information, refer [Create a record from incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_PromoteAnIncident.md)
+A menu item on the Incident form lets you create a problem or change record easily and associate the incident with the problem or change record. For more information, refer [Create a record from incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_PromoteAnIncident.md)
 
 **Note:** If the incident already has an associated problem or change record, you cannot create another record of the same task type.
 
@@ -59,7 +59,7 @@ Sometimes, the resolution for the user is to request hardware or software for th
 
 There are two escalation methods the platform uses to track and report on incidents that are not being resolved according to your organization standards.
 
--   **[Service level agreements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-concepts.md) \(SLAs\)**
+-   **[Service level agreements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-management-concepts.md) \(SLAs\)**
 
     SLAs monitor the progress of an incident according to a set of agreements between a service provider and customer that define the scope, quality, and speed of the services being provided. As time passes, the SLA escalates the priority of the incident and leaves a marker as to its progress. SLAs are also used as a performance indicator for the service desk.
 

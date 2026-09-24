@@ -2,7 +2,7 @@
 title: Document Template integration with Docusign
 description: The ServiceNow Document Template integration with Docusign application enables you to use the Docusign application for signing documents that are generated from ServiceNow Document Templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/docusign-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/docusign-doc.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

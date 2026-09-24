@@ -2,7 +2,7 @@
 title: Configuring Risk and Compliance in AI Control Tower
 description: Risk and Compliance information appears in AI Control Tower only when the required governance applications, frameworks, and data are available in your environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-configuring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-airc-configuring.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-13"

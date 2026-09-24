@@ -2,7 +2,7 @@
 title: Verify and troubleshoot the Edge Encryption proxy server installation
 description: After your Edge Encryption proxy is installed, you can verify the installation to locate problems or start and stop the proxy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/verify-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/edge-encryption/verify-install.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -37,9 +37,9 @@ Role required: admin
     If an issue is encountered, you can move through the installer to correct the configuration. If no issues are encountered, the installer jumps to the **Launch** page. You can check the proxy status, stop the proxy, or start the proxy from the **Launch** page.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Launch the Edge Encryption proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/launch-proxy.md)
+**Previous topic:**[Launch the Edge Encryption proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/launch-proxy.md)
 
-**Next topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/manual-proxy-install.md)
+**Next topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/manual-proxy-install.md)
 

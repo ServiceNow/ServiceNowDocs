@@ -2,7 +2,7 @@
 title: Components installed with Financial Services Know Your Customer
 description: Several types of components are installed with activation of the Financial Services Know Your Customer \(com.sn\_bom\_kyc\) plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-installed-with.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-installed-with.html
 release: australia
 product: Financial Services Know Your Customer \(KYC\)
 classification: financial-services-know-your-customer-kyc

@@ -2,7 +2,7 @@
 title: Install and configure essential AI plugins using AI Admin Center
 description: Install the plugins required to enable AI solutions on your instance before activating use cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/install-configure-essential-now-assist-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/install-configure-essential-now-assist-plugins.html
 release: australia
 topic_type: task
 last_updated: "2026-07-30"
@@ -54,9 +54,9 @@ Actionable use case cards tailored to your instance and entitlements now appear 
 
 ## What to do next
 
-To activate a use case, see [Activate an actionable use case in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-solution-now-assist-center.md).
+To activate a use case, see [Activate an actionable use case in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-solution-now-assist-center.md).
 
-**Parent Topic:**[Activating actionable use cases from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-actionable-use-cases.md)
+**Parent Topic:**[Activating actionable use cases from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-actionable-use-cases.md)
 
 **Related topics**  
 

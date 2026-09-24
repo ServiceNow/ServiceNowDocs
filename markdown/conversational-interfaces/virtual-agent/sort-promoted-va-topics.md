@@ -2,7 +2,7 @@
 title: Reorder promoted LLM conversational subflows, actions, and topics
 description: Rearrange LLM assets like conversational subflows, conversational actions, and topics to the desired order after promoting them for recommendation by the Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/sort-promoted-va-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/sort-promoted-va-topics.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +20,7 @@ Rearrange LLM assets like conversational subflows, conversational actions, and t
 
 Role required: virtual\_agent\_admin or admin
 
-Promote the LLM assets that you want to reorder in Virtual Agent Designer. For more information on promoting assets, see [Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)
+Promote the LLM assets that you want to reorder in Virtual Agent Designer. For more information on promoting assets, see [Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)
 
 ## About this task
 
@@ -59,5 +59,5 @@ The list of promoted assets is presented in a Virtual Agent conversation based o
 
 Repeat the previous steps to adjust any other promoted assets to sort them in a preferred order.
 
-**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

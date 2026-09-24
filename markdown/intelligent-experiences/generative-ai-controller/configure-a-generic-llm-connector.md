@@ -2,7 +2,7 @@
 title: Configure a generic large language model \(LLM\) connector
 description: Connect an external LLM to the ServiceNow AI Platform by using a generic LLM connector. With a connector, you can write your own prompts to send to the LLM and create your own generative AI capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -18,7 +18,7 @@ Connect an external LLM to the ServiceNow AI Platform by using a generic LLM con
 
 ## Before you begin
 
-You must configure API credentials for your LLM before setting up the connector. For more information, see [configure API credentials for a generic LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-a-generic-large-language-model-llm.md).
+You must configure API credentials for your LLM before setting up the connector. For more information, see [configure API credentials for a generic LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-a-generic-large-language-model-llm.md).
 
 Role required: admin
 
@@ -42,7 +42,7 @@ Generative AI Controller offers several base system connections to popular AI se
 
 5.  In the **Connection and Credential Alias** field, select the alias that you created when you set up your credentials.
 
-    If you haven't already configured your API credentials, see [configure API credentials for a generic large language model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-a-generic-large-language-model-llm.md) to learn how. \[Omitted image "gai-connector-1.png"\] Alt text: Generative AI Model Config record with the Provider field set to Custom LLM and the Connection and Credentials Alias field set to My\_Model\_Alias.
+    If you haven't already configured your API credentials, see [configure API credentials for a generic large language model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-a-generic-large-language-model-llm.md) to learn how. \[Omitted image "gai-connector-1.png"\] Alt text: Generative AI Model Config record with the Provider field set to Custom LLM and the Connection and Credentials Alias field set to My\_Model\_Alias.
 
 6.  Create the model configuration by selecting **Submit**.
 
@@ -175,7 +175,7 @@ Your external LLM is connected to Generative AI Controller. You can use the AI s
 
 ## What to do next
 
-After you connect the LLM, you can set a provider for the generative AI capabilities of Generative AI Controller. For more information, see [Set a provider for a generative AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.md).
+After you connect the LLM, you can set a provider for the generative AI capabilities of Generative AI Controller. For more information, see [Set a provider for a generative AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.md).
 
-Build custom skills with this capability using AI Skill Kit. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+Build custom skills with this capability using AI Skill Kit. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 

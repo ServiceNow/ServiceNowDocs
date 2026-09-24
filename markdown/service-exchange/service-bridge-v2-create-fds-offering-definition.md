@@ -2,7 +2,7 @@
 title: Create and publish an FDS offering definition
 description: Create an foundation data sync \(FDS\) offering definition to inform your consumers about the data you’re ready to share.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-fds-offering-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-create-fds-offering-definition.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -58,7 +58,7 @@ Manually publish FDS subscriptions
 
 </td><td>
 
-After the offering is published, and consumers accept the subscription, you must acknowledge it and send sample files to let them know about the type of data they will receive.For the detailed procedure, see [Validate foundation data sync subscription items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-validate-fds-subscription.md).
+After the offering is published, and consumers accept the subscription, you must acknowledge it and send sample files to let them know about the type of data they will receive.For the detailed procedure, see [Validate foundation data sync subscription items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-validate-fds-subscription.md).
 
 </td><td>
 
@@ -70,7 +70,7 @@ Clear the**Auto publish FDS subscriptions** check box.
     |Method|Description|Action|
     |------|-----------|------|
     |Auto acknowledge FDS requests|After the offering is published, all FDS requests from consumers are automatically acknowledged and a sample payload is sent to the consumer in response to each FDS request.|If it is not already selected, select the **Auto Acknowledge FDS Requests** check box.|
-    |Manually acknowledge FDS requests|After the offering is published, consumer FDS requests must be acknowledged manually. For the detailed procedure, see [Validate foundation data sync subscription items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-validate-fds-subscription.md)|Clear the**Auto Acknowledge FDS Requests** check box.|
+    |Manually acknowledge FDS requests|After the offering is published, consumer FDS requests must be acknowledged manually. For the detailed procedure, see [Validate foundation data sync subscription items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-validate-fds-subscription.md)|Clear the**Auto Acknowledge FDS Requests** check box.|
 
 5.  Provide a name and description.
 
@@ -132,7 +132,7 @@ Clear the**Auto publish FDS subscriptions** check box.
 
 10. In the Consumer criteria related list, add a consumer criteria to determine which consumer instances are eligible to receive the offering.
 
-    For information on consumer criteria, see [Create a consumer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-consumer-criteria.md) topic.
+    For information on consumer criteria, see [Create a consumer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-consumer-criteria.md) topic.
 
 11. Select **Publish**.
 
@@ -143,5 +143,5 @@ The FDS offering is now published. Consumers can request foundation data based o
 
 ## What to do next
 
-[Acknowledge foundation data sync offering request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-acknowledge-FDS-request.md).
+[Acknowledge foundation data sync offering request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-acknowledge-FDS-request.md).
 

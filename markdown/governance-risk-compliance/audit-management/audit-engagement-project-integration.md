@@ -2,7 +2,7 @@
 title: Roll up expenses and resources in an engagement
 description: Any audit project has associated costs, budgets, and resources. Roll ups of these costs, budgets, and resources enable the audit manager to view the entire costs and resources in a consolidated manner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-engagement-project-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/audit-engagement-project-integration.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -30,7 +30,7 @@ If actual effort is updated on an engagement project, then that value gets copie
 
 ## Resource plan rollup
 
-With Project Portfolio Management, you can add resource plans and cost plans to an engagement. To learn how to create an engagement with advanced planning, see [Create an engagement with advanced planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/creating-an-engagement-with-advance-planning.md)
+With Project Portfolio Management, you can add resource plans and cost plans to an engagement. To learn how to create an engagement with advanced planning, see [Create an engagement with advanced planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/creating-an-engagement-with-advance-planning.md)
 
 After you create a resource plan and it is in the **Allocated** state, all the confirmed and allocated hours are summed up in the planned resources. When a resource plan is created, you cannot manually enter hours in the **Planned resources** field on the engagement form. The values get automatically rolled up. To manually enter hours in the **Planned resources** field, delete the resource plan.
 

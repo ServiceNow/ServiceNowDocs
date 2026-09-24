@@ -2,7 +2,7 @@
 title: Configure email notifications for an interaction
 description: Configure email notification to determine whether they should be sent to the contact, consumer, or guest.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-email-notifications-interaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-email-notifications-interaction.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

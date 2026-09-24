@@ -2,7 +2,7 @@
 title: Configure a form action layout on a workspace page
 description: Add a form action layout to a workspace page in UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-da-action-layout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-da-action-layout.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-A form action layout combines multiple [form action layout items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configurable-workspace-glossary.md) and [form action layout groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configurable-workspace-glossary.md) into a single table-based layout that determines which actions appear on the form.
+A form action layout combines multiple [form action layout items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configurable-workspace-glossary.md) and [form action layout groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configurable-workspace-glossary.md) into a single table-based layout that determines which actions appear on the form.
 
 The form action layout chosen to appear on the form is determined in the following ways:
 
@@ -45,7 +45,7 @@ The form action layout chosen to appear on the form is determined in the followi
 
     For example, select a record page.
 
-    For instructions on creating a workspace page in UI Builder, see [Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-configurable-workspace-page-uib.md).
+    For instructions on creating a workspace page in UI Builder, see [Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-configurable-workspace-page-uib.md).
 
 3.  From the Data and scripts tree, select the **Form Controller**.
 

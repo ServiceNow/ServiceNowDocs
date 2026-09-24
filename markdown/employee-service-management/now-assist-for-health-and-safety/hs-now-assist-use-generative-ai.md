@@ -2,7 +2,7 @@
 title: Use generative AI skills
 description: Use the integration of generative AI with Health and Safety Incident Management to summarize incident patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-use-generative-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-use-generative-ai.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -18,14 +18,14 @@ Use the integration of generative AI with Health and Safety Incident Management 
 
 The generative AI skills can be used with Health and Safety Incident Management when com.snc.sn\_hs\_gen\_ai plugin is installed.
 
--   **[Summarize a safety incident by using ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md)**  
+-   **[Summarize a safety incident by using ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md)**  
 Generate a summary from the fields that you selected on the safety incident and quickly understand the incident context by using the Health and Safety incident summarization skill in the ServiceNow Otto for Health and Safety application.
--   **[Incident pattern analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis.md)**  
+-   **[Incident pattern analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis.md)**  
 The incident pattern analysis tool automatically detects recurring patterns across health and safety incidents.
--   **[Conversational AI Health and Safety incident or observation report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-explore-conversational-incidents.md)**  
+-   **[Conversational AI Health and Safety incident or observation report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-explore-conversational-incidents.md)**  
 Use the ServiceNow Otto panel conversational interface to report Health and Safety incidents and observations that enables you to engage with live agents, virtual agents, or both.
--   **[Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md)**  
+-   **[Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md)**  
 Generate AI-suggested safety actions in Action planner to quickly identify and create corrective measures for Health and Safety records.
 
-**Parent Topic:**[ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
+**Parent Topic:**[ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
 

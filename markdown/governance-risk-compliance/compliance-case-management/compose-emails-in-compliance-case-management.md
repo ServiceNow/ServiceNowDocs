@@ -2,7 +2,7 @@
 title: Compose an email in GRC: Compliance Case Management
 description: Compose and send an email for compliance cases and requests by using the GRC: Compliance Case Management application. This feature helps you to communicate with different stakeholders within or outside your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/compose-emails-in-compliance-case-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/compose-emails-in-compliance-case-management.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -81,5 +81,5 @@ Body of your message that includes any information, requests, or details you wan
 8.  Select **Send Email**.
 
 
-**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

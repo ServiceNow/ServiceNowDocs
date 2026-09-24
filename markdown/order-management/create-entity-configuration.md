@@ -2,7 +2,7 @@
 title: Create an entity configuration
 description: Create an entity configuration to compose a workflow between two entities so that you can update their existing configurations and perform actions like suspend, resume, or disconnect a sold product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-entity-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-entity-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: admin
 
 3.  On the form, in the **Name** field, enter the entity name and in the **Config ID** field, enter the entity ID.
 
-    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/entity-configuration-and-mapping.md).
 
 4.  Select **Submit**.
 
@@ -36,7 +36,7 @@ Role required: admin
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/entity-configuration-and-mapping.md).
 
 7.  Select **Submit**.
 
@@ -44,19 +44,19 @@ Role required: admin
 
 9.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/entity-configuration-and-mapping.md).
 
 10. Select **Submit**.
 
 
 ## Result
 
-You’ve created an entity configuration and defined its definition and attributes. You must now create a custom entity mapping. To learn how to create a mapping, see [Create an entity mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-entity-mapping.md).
+You’ve created an entity configuration and defined its definition and attributes. You must now create a custom entity mapping. To learn how to create a mapping, see [Create an entity mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-entity-mapping.md).
 
 **Related topics**  
 
 
-[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-foundation.md)
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-foundation.md)
 
-[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md)
+[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
 

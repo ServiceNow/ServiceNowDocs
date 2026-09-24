@@ -2,7 +2,7 @@
 title: Disable text commands
 description: Disable text commands that can be applied by keyboard shortcuts for emails, journal input fields, and HTML fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/disable-text-commands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/disable-text-commands.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

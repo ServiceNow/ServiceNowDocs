@@ -2,7 +2,7 @@
 title: Supporting information
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Security Incident Response \(SIR\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/supporting-information-now-assist-security-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/now-assist-for-security-incident-response-sir/supporting-information-now-assist-security-incident.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir

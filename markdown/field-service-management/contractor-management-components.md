@@ -2,7 +2,7 @@
 title: Contractor Management components
 description: The roles and task filters for the Contractor Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/contractor-management-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/contractor-management-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -79,7 +79,7 @@ Function
 
 </th></tr></thead><tbody><tr><td>
 
-Contractor tasksEnsure that the Field Service Contractor Management plugin is active. For more information, see [Activate Field Service Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-contractor-management-plugin.md).
+Contractor tasksEnsure that the Field Service Contractor Management plugin is active. For more information, see [Activate Field Service Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/activate-contractor-management-plugin.md).
 
 Demo data is provided with this plugin.
 
@@ -97,5 +97,5 @@ Distance between task and contractorsMatching skills of contractors
 Only eligible for external contractor assignment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 

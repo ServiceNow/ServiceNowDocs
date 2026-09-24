@@ -2,7 +2,7 @@
 title: Create a ServiceNow Otto approval task
 description: Create an ServiceNow Otto approval task to evaluate the assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

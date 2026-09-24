@@ -2,7 +2,7 @@
 title: Objectives and constraints used with Schedule Optimization
 description: Objectives and constraints are optimization features that determine how tasks are assigned to technicians in Schedule Optimization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/hard-soft-constraints.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/hard-soft-constraints.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -464,7 +464,7 @@ Tasks with a required technician can only be assigned to that technician.
 
 Shift "A" is assigned to technician Alex. Task "X" has no assignment preferences, task "Y" has Alex marked as the required technician, and task "Z" has a different technician marked as required.**Result:** Applying the constraint restricts assignment to only the specified required technician. Shift "A" can be assigned to task "X" because it has no preferences defined. Shift "A" can be assigned to task "Y" because Alex is the required technician. Shift "A" can't be assigned to task "Z" because Alex is not the required technician for that task. If Alex is unavailable, task "Y" is not scheduled. When this constraint is inactive, all tasks can be assigned to Shift "A" regardless of any defined required technician.
 
-If none of the required technicians are available or eligible, the task is not scheduled and is shown in the [Run Summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md) for the optimization run.
+If none of the required technicians are available or eligible, the task is not scheduled and is shown in the [Run Summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md) for the optimization run.
 
 </td></tr><tr><td>
 
@@ -484,7 +484,7 @@ Enable flexible breaks
 
 </td><td>
 
-Task assignments consider flexible breaks and can move them within their allowable windows for efficient scheduling.**Note:** The Shift Scheduling for Field Service \(com.snc.sn\_fsm\_shift\_schdl\) plugin must be installed and Workforce Optimization for Field Service must be activated to use the flexible breaks feature. For more information, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
+Task assignments consider flexible breaks and can move them within their allowable windows for efficient scheduling.**Note:** The Shift Scheduling for Field Service \(com.snc.sn\_fsm\_shift\_schdl\) plugin must be installed and Workforce Optimization for Field Service must be activated to use the flexible breaks feature. For more information, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 </td><td>
 
@@ -588,8 +588,8 @@ Tasks can only be assigned to technicians who support the demand channel associa
 
 Technicians Alex and Brain belong to territory "X". Alex is associated with demand channel "A" and Brian is associated with demand channel "B". Task "P" has demand channel "A" and task "Q" has demand channel "B".**Result:** Applying the constraint restricts assignment to only those technicians who support the demand channel for the territory they are working. Task "P" can be assigned to only Alex because Alex supports demand channel "A". Task "Q" can be assigned only to Brian because Brain supports demand channel "B". When the constraint is not enabled, all tasks can be assigned to any technician regardless of any defined demand channel association.
 
-If none of the technicians are available or support the task's demand channel, the task is not scheduled and is shown in the run summary for the optimization run. For more information, see [Viewing task assignments from Schedule Optimization runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md).
+If none of the technicians are available or support the task's demand channel, the task is not scheduled and is shown in the run summary for the optimization run. For more information, see [Viewing task assignments from Schedule Optimization runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-components.md)
+</table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/schedule-optimization-components.md)
 

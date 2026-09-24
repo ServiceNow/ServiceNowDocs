@@ -2,10 +2,10 @@
 title: Use Content insights AI agent
 description: Use the Content Insights AI agent to generate information from your inputs, attached documents, or images
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/use-content-insights-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/use-content-insights-ai-agent.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Use, Content Understanding, Enable AI experiences]
 ---
@@ -16,7 +16,7 @@ Use the Content Insights AI agent to generate information from your inputs, atta
 
 Use the Content insights AI agent to:
 
--   [Ask questions about documents and images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ask-questions-qna.md)
--   [Extract key information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/extract-key-information.md)
--   [Summarize documents and images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/summarize-documents.md)
+-   [Ask questions about documents and images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ask-questions-qna.md)
+-   [Extract key information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/extract-key-information.md)
+-   [Summarize documents and images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/summarize-documents.md)
 

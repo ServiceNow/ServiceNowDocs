@@ -2,7 +2,7 @@
 title: Air-gapped networks and OT Discovery installation
 description: This section explains the options for air-gapped and non-air-gapped network, installation of Discovery for OT components, and accessing data from scans and queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/air-gapped-networks-installation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/air-gapped-networks-installation.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-24"
@@ -20,7 +20,7 @@ During the installation of the Discovery Console for OT, you must have access to
 
 When using the installation for a non-air-gapped network, the Discovery Console for OT not only needs access to dependent third-party packages, but it also needs to communicate with the Sensors, the Collectors, the MID Server, the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, and your ServiceNow instance.
 
-For these specific steps see the documentation on configuring the individual OT Discovery components. Start with [Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md).
+For these specific steps see the documentation on configuring the individual OT Discovery components. Start with [Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-ot-discovery-console.md).
 
 ## Air-gapped networks
 
@@ -37,12 +37,12 @@ One way to work around this type of network is to first install the OT Discovery
 
 ## What to do next
 
-For more information, see [Install containerized OT Discovery packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/install-containerized-ot-discovery-packages.md).
+For more information, see [Install containerized OT Discovery packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-containerized-ot-discovery-packages.md).
 
--   **[Install containerized OT Discovery packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/install-containerized-ot-discovery-packages.md)**  
+-   **[Install containerized OT Discovery packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-containerized-ot-discovery-packages.md)**  
 Install the OT Discovery containerized packages on your network.
--   **[Install containerized OT Discovery components on Rocky 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/install-containerized-ot-discovery-rocky-10.md)**  
+-   **[Install containerized OT Discovery components on Rocky 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-containerized-ot-discovery-rocky-10.md)**  
 Install the containerized packages for the Discovery Console for OT and the OT Discovery Collector onto a machine with Rocky 10 OS.
 
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md)
+**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-ot-discovery-console.md)
 

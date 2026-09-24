@@ -2,7 +2,7 @@
 title: Impersonate a user
 description: You can select a user or enter a different user name to perform an impersonation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_ImpersonateAUserInUI16.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/t\_ImpersonateAUserInUI16.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -55,5 +55,5 @@ Role required: impersonator
     **Note:** In some cases, impersonating a user might cause an issue that makes it difficult to switch back. If you’re presented with a broken page while impersonating a user in a test environment, you may need to force a logout. To do so, navigate to http://&lt;instance name&gt;.service-now.com/logout.do and log back in.
 
 
-**Parent Topic:**[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md)
+**Parent Topic:**[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/c_ImpersonateAUser.md)
 

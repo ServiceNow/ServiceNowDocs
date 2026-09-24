@@ -2,7 +2,7 @@
 title: Configure Shift Handover Templates
 description: The Admin can define and configure different Shift Handover templates for the Shift Owner to create shift handover records and hand them over to the next shift team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-shift-handover-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/configure-shift-handover-templates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -169,9 +169,9 @@ ${section:References}
 
 ## What to do next
 
-To learn how to Manage Shift Handover records in the list view and perform actions like create, edit, copy, or delete Shift Handover records, see [Manage Shift Handover records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-shift-handover-records.md).
+To learn how to Manage Shift Handover records in the list view and perform actions like create, edit, copy, or delete Shift Handover records, see [Manage Shift Handover records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manage-shift-handover-records.md).
 
-**Parent Topic:**[Configure Shift Handover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/config-shift-handover.md)
+**Parent Topic:**[Configure Shift Handover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/config-shift-handover.md)
 
 **Related topics**  
 

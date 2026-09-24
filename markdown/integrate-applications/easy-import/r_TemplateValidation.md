@@ -2,7 +2,7 @@
 title: Easy import template validation
 description: Each import template must pass two sets of validation.Some cells in the template contain calculations or validation rules. These rules are intended to help you enter data that is appropriate for the field \(column\).Server-side validation verifies that the import template contains the necessary format.Both client-side and server-side validation verify that template cells contain data that matches the ServiceNow field type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/easy-import/r\_TemplateValidation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/easy-import/r\_TemplateValidation.html
 release: australia
 product: Easy Import
 classification: easy-import
@@ -57,7 +57,7 @@ The import pauses and displays an error message.
  \[Omitted image "ImportTemplateServerValidation.png"\] Alt text: Import template server validation
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md)
+</table>**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/easy-import/c_EasyImport.md)
 
 ## Template data validation
 

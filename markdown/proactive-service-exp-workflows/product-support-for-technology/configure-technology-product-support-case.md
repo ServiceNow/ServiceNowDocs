@@ -2,7 +2,7 @@
 title: Configuring Product Support for Technology
 description: Learn how to install and configure the Product Support for Technology application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/configure-technology-product-support-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/configure-technology-product-support-case.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology

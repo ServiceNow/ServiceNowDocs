@@ -2,7 +2,7 @@
 title: Security Incident Unauthorized Access workflow template
 description: The Security Incident - Unauthorized Access - Template allows you to perform a series of tasks designed to handle unauthorized access to your network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/si-unauth-access-wf-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/si-unauth-access-wf-template.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -28,7 +28,7 @@ The workflow is triggered when the **Category** in a security incident is set to
 
 ## Procedure
 
-1.  Open the security incident for this potential attack, or [create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
+1.  Open the security incident for this potential attack, or [create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
 
 2.  In **Category**, select **Unauthorized access**.
 
@@ -138,7 +138,7 @@ The **State** of the security incident is changed automatically to **Review**, a
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-orch-workflow-templates.md)
+**Parent Topic:**[Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-orch-workflow-templates.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Log in to the GRC Mobile application
 description: Open the GRC Mobile application and add a ServiceNow AI Platform instance with Policy and Compliance Management to your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -18,7 +18,7 @@ Open the GRC Mobile application and add a ServiceNow AI Platform® instance with
 
 ## Before you begin
 
-Verify that you have completed the setup steps described in [Setup checklist for the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-setup-plcy_cmply-app.md).
+Verify that you have completed the setup steps described in [Setup checklist for the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/mobile-setup-plcy_cmply-app.md).
 
 Role required: GRC Compliance manager \(sn\_compliance.manager\)
 
@@ -113,5 +113,5 @@ If you cannot view the Instances screen after you tap the **ServiceNow Agent** a
 
 Select one of the following topics for more information about each applet.
 
-**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

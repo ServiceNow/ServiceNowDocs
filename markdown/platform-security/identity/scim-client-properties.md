@@ -2,7 +2,7 @@
 title: SCIM Client properties, tables, scriptable APIs, and logs
 description: The SCIM v2 - ServiceNow Cross-domain Identity Management Client \(com.snc.integration.scim2.client\) plugin includes the following system properties, tables, scriptable APIs, and logs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/scim-client-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/scim-client-properties.html
 release: australia
 product: Identity
 classification: identity

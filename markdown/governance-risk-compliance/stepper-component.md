@@ -2,7 +2,7 @@
 title: Stepper component in the Overview tab of the records
 description: The stepper component on the Overview tab shows the progression of the states for the record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/stepper-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/stepper-component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ A typical record moves through a progression of these states:
 
 If a record requires further updates and it is rejected by the approver of the record, it is set to the **Returned** state by the application software. When the record owner updates the details of the record, it follows the approval workflow again.
 
-**Parent Topic:**[GRC record page template for BCM records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-grc-record-page-template-for-bcm.md)
+**Parent Topic:**[GRC record page template for BCM records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-grc-record-page-template-for-bcm.md)
 

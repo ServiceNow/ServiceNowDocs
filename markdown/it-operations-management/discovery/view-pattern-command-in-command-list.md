@@ -2,7 +2,7 @@
 title: View Patterns commands through the Command List module
 description: View and filter infrastructure or application pattern commands by various criteria, including pattern, CI type, or command, to confirm you have all the required permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/view-pattern-command-in-command-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/view-pattern-command-in-command-list.html
 release: australia
 product: Discovery
 classification: discovery
@@ -44,17 +44,17 @@ Starting with Pattern Designer Enhancements version 3.9.0, the new pde\_viewer r
 
 2.  Filter the command list according to your requirements.
 
-    For more information about the filtering options, see [Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/commands-list-discovery.md).
+    For more information about the filtering options, see [Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/commands-list-discovery.md).
 
 
 **Related topics**  
 
 
-[View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-command-pattern-discovery.md)
+[View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/view-command-pattern-discovery.md)
 
-[Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/validate-discovery-commands.md)
+[Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/validate-discovery-commands.md)
 
-[View command validation task results in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-command-validation-task-results.md)
+[View command validation task results in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/view-command-validation-task-results.md)
 
-[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
+[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-command-probe-pattern.md)
 

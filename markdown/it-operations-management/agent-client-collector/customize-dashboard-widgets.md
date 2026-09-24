@@ -2,7 +2,7 @@
 title: Customize the Monitoring Technology Dashboard
 description: Customize the Monitoring Technology Dashboard widgets in the Data Visualizations library so your dashboard displays information exactly as you want to see it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/customize-dashboard-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/customize-dashboard-widgets.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -49,5 +49,5 @@ Role required: agent\_client\_collector\_admin
 
 Your customized widgets are saved in the Data Visualizations library, and can be used to configure a customized dashboard \(see [Create a dashboard with the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md)\).
 
-**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
+**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
 

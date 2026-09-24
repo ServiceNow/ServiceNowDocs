@@ -2,7 +2,7 @@
 title: Set Network Isolation Enabled activity
 description: The Set Network Isolation Enabled workflow activity enables network isolation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/set-network-isolation-enabled-activity-cb-wf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/set-network-isolation-enabled-activity-cb-wf.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -63,5 +63,5 @@ The output variables contain data that can be used in subsequent activities.
 |--------|-----------|
 |sensor\_detail|Description of the Carbon Black sensor in JSON format.|
 
-**Parent Topic:**[Security Operations Carbon Black Integration - Isolate Host Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-cb-isolate-host-workflow.md)
+**Parent Topic:**[Security Operations Carbon Black Integration - Isolate Host Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-cb-isolate-host-workflow.md)
 

@@ -2,7 +2,7 @@
 title: Specify a to-do item for patients
 description: Add a to-do item that patients in your healthcare organization must complete as part of their healthcare activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-to-do-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-to-do-items.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -36,5 +36,5 @@ Role required: admin
 **Related topics**  
 
 
-[Healthcare and Life Sciences Service Management Core properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-properties.md)
+[Healthcare and Life Sciences Service Management Core properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-properties.md)
 

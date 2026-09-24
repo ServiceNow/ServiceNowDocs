@@ -2,12 +2,12 @@
 title: IP address inventory management data model
 description: The IP address inventory management data model shows how the tables for IP Address Blocks, IP Subnetworks, allocated IP addresses, and IP addresses relate to each other. The data model supports both IPv4 and IPv6, and supports nesting subnetworks to any depth within a parent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/ip-address-inventory-management-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/ip-address-inventory-management-data-model.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [IP address management, Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---
@@ -42,14 +42,14 @@ Subnetwork-level binding \(at subnet level\):
 2.  Create one or more IP Subnetworks within the block.
 3.  Create a single IP Address record representing the subnetwork as a whole. The IP Address record’s value is the subnetwork's CIDR.
 
-The two methods are mutually exclusive within a subnetwork. For more information about the methods and the relationships they create, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
+The two methods are mutually exclusive within a subnetwork. For more information about the methods and the relationships they create, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
 
 **Related topics**  
 
 
-[CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md)
+[CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md)
 
-[Create an IP Address Block record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-block-record.md)
+[Create an IP Address Block record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-block-record.md)
 
-[Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md)
+[Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md)
 

@@ -2,7 +2,7 @@
 title: Publish a survey in the Survey Designer
 description: You must save changes to a survey before you can publish it to the specified recipients or groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_PublishASurveyInSurveyDesigner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_PublishASurveyInSurveyDesigner.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: admin or survey\_admin
     When you publish a survey, the system sends email notifications to the recipients and to their managers. The system displays a link to the survey on a card in each recipient's My Assessments &amp; Surveys portal.
 
 
-**Parent Topic:**[Publish a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PublishASurvey.md)
+**Parent Topic:**[Publish a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_PublishASurvey.md)
 

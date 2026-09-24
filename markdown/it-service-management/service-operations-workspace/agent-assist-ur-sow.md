@@ -2,7 +2,7 @@
 title: Use Agent assist in Service Operations Workspace
 description: Use the Agent assist in Service Operations Workspace to find similar Universal Requests that are open and closed, Knowledge articles, Catalog items, and Pinned articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/agent-assist-ur-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/agent-assist-ur-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -39,5 +39,5 @@ Role required: itil, sn\_uni\_req.routing\_agent, or admin
     -   Catalog Items: To display all related catalog items.
     -   Pinned articles: To display all related pinned articles.
 
-**Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/using-ur-sow.md)
+**Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/using-ur-sow.md)
 

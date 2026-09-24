@@ -2,7 +2,7 @@
 title: Integrate your self-configured bot with Microsoft Teams for GCC-H or DoD
 description: Link your registered Microsoft Teams bot with your ServiceNow instance to integrate it with the Virtual Agent. Use your ServiceNow Virtual Agent application to install and configure Conversational Integration with Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/link-msteams-bot-snow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/link-msteams-bot-snow.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,7 +25,7 @@ Role required: virtual\_agent\_admin or admin and Microsoft Azure admin.
 
 1.  Fetch the Tenant ID, Client ID \(Application ID\), Client Secret, and Bot Name details for your bot created in Microsoft Teams.
 
-    For more information, see [Retrieve bot details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-msteams-bot-gcch.md).
+    For more information, see [Retrieve bot details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-msteams-bot-gcch.md).
 
     **Note:** Use this information when setting up the self-configured bot in your ServiceNow instance.
 
@@ -55,7 +55,7 @@ Role required: virtual\_agent\_admin or admin and Microsoft Azure admin.
 
         \[Omitted image "add-self-config-integ-2.png"\] Alt text: Manage Microsoft Teams channel in Conversational Interfaces general settings. The Add integration button and Self-configured bot option under Add integration are highlighted.
 
-        For more information, see [Manage the ServiceNow Virtual Agent integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-teams.md).
+        For more information, see [Manage the ServiceNow Virtual Agent integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-teams.md).
 
         User receives a message that the installation is successful.
 
@@ -80,5 +80,5 @@ Role required: virtual\_agent\_admin or admin and Microsoft Azure admin.
 10. On the OIDC Provider Configuration form, update the **OIDC Metadata URL** to `https://login.botframework.azure.us/v1/.well-known/openidconfiguration` and select **Update**.
 
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md)
+**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md)
 

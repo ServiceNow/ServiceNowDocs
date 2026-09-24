@@ -2,7 +2,7 @@
 title: View current robot events in RPA Hub
 description: View the current robot events on the Robot Calendar tab in RPA Hub for unattended robots. By using the calendar, you can manage and plan a robot's schedule in a single view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-robot-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/view-robot-calendar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,11 +17,11 @@ View the current robot events on the **Robot Calendar** tab in RPA Hub for unatt
 
 ## Before you begin
 
-Create an unattended robot. On the robot form, ensure that you select the **Robot Type** field as **Unattended**. For more information, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-unattended-robot.md).
+Create an unattended robot. On the robot form, ensure that you select the **Robot Type** field as **Unattended**. For more information, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-unattended-robot.md).
 
-Establish the robot connection to an unattended bot process. For more information, see [Assign a robot to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-robots.md).
+Establish the robot connection to an unattended bot process. For more information, see [Assign a robot to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/assign-robots.md).
 
-Create a schedule within an unattended bot process to view some schedules on the robot calendar. Ensure that one or more active schedules are associated with the robot. For more information, see [Create a schedule within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-schedule-botprocess.md).
+Create a schedule within an unattended bot process to view some schedules on the robot calendar. Ensure that one or more active schedules are associated with the robot. For more information, see [Create a schedule within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-schedule-botprocess.md).
 
 Verify that the life-cycle stage of the associated bot process isn’t set to **Retired**.
 
@@ -41,15 +41,15 @@ To view more robot events, add the appropriate **Life Cycle Stage Status** filte
 
 3.  View a robot calendar either from a robot or from a bot process.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d514762e157">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d513821e157">
 
 Option
 
-</th><th align="left" id="d514762e160">
+</th><th align="left" id="d513821e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d514762e166">
+</th></tr></thead><tbody><tr><td id="d513821e166">
 
 **View a robot calendar from a robot**
 
@@ -60,7 +60,7 @@ Action
 3.  In the form header, select **Robot Calendar**.
 
 
-</td></tr><tr><td id="d514762e199">
+</td></tr><tr><td id="d513821e199">
 
 **View a robot calendar from a bot process**
 
@@ -76,15 +76,15 @@ Action
 </td></tr></tbody>
 </table>4.  On the **Robot Calendar** tab, perform any of the following actions.
 
-<table id="choicetable_jxq_nft_v5b"><thead><tr><th align="left" id="d514762e256">
+<table id="choicetable_jxq_nft_v5b"><thead><tr><th align="left" id="d513821e256">
 
 Option
 
-</th><th align="left" id="d514762e259">
+</th><th align="left" id="d513821e259">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d514762e265">
+</th></tr></thead><tbody><tr><td id="d513821e265">
 
 **Today**
 
@@ -92,7 +92,7 @@ Action
 
 Highlights the current date.
 
-</td></tr><tr><td id="d514762e274">
+</td></tr><tr><td id="d513821e274">
 
 **Date range \(&lt;, &gt;\)**
 
@@ -100,7 +100,7 @@ Highlights the current date.
 
 Select the arrow buttons \(**&lt;**, **&gt;**\) to view the next calendar view that is based on the defined date range.
 
-</td></tr><tr><td id="d514762e289">
+</td></tr><tr><td id="d513821e289">
 
 **Schedule Timezones**
 
@@ -128,7 +128,7 @@ View the time zones that are defined for the robot, such as, the robot time zone
 
  If the robot is associated with a bot process whose schedule has to be triggered based on workstation time zone, then those workstation time zones are displayed in the time zone list.
 
-</td></tr><tr><td id="d514762e341">
+</td></tr><tr><td id="d513821e341">
 
 **Day**
 
@@ -136,7 +136,7 @@ View the time zones that are defined for the robot, such as, the robot time zone
 
 View events in the calendar for a particular day. See the following example for a snapshot of the Robot calendar view.\[Omitted image "day-rc-rpa.png"\] Alt text: Example: Snapshot of the Robot Calendar view for a day, October 20, 2022.
 
-</td></tr><tr><td id="d514762e363">
+</td></tr><tr><td id="d513821e363">
 
 **Week**
 
@@ -148,11 +148,11 @@ View events in the calendar for a particular week. The week view starts from Sun
 
  The cadence of the events must be based on weekdays that are mentioned in the schedule.
 
- The events are generated based on the **Start Date** field on the schedule form. For more information, see [Schedule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robot-schedule.md).
+ The events are generated based on the **Start Date** field on the schedule form. For more information, see [Schedule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-robot-schedule.md).
 
  \[Omitted image "week-rc-rpa.png"\] Alt text: Example: Snapshot of the Robot Calendar view for a week, November 13 to 19, 2022.
 
-</td></tr><tr><td id="d514762e409">
+</td></tr><tr><td id="d513821e409">
 
 **Month**
 
@@ -160,15 +160,15 @@ View events in the calendar for a particular week. The week view starts from Sun
 
 View events in the calendar for a particular month. See the following example for a snapshot of the Robot calendar view.\[Omitted image "month-rc-rpa.png"\] Alt text: Example: Snapshot of the Robot Calendar view for a month, November 2022.
 
-</td></tr><tr><td id="d514762e430">
+</td></tr><tr><td id="d513821e430">
 
 **New Schedule**
 
 </td><td>
 
-Create a schedule on the **Robot Calendar** tab by selecting the **New Schedule** button, to execute unattended robots.You can also create a schedule by right-clicking or double-clicking an empty slot of the robot calendar. For more information about creating a schedule, see [Create a schedule on the robot calendar in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robot-schedule.md).
+Create a schedule on the **Robot Calendar** tab by selecting the **New Schedule** button, to execute unattended robots.You can also create a schedule by right-clicking or double-clicking an empty slot of the robot calendar. For more information about creating a schedule, see [Create a schedule on the robot calendar in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-robot-schedule.md).
 
-</td></tr><tr><td id="d514762e463">
+</td></tr><tr><td id="d513821e463">
 
 **Refresh**
 
@@ -176,7 +176,7 @@ Create a schedule on the **Robot Calendar** tab by selecting the **New Schedule*
 
 View new or updated schedules on the robot calendar by selecting the refresh icon \(\[Omitted image "refresh-rc-icon.png"\] Alt text: Refresh icon.\).
 
-</td></tr><tr><td id="d514762e478">
+</td></tr><tr><td id="d513821e478">
 
 **Show or hide agenda view**
 
@@ -184,7 +184,7 @@ View new or updated schedules on the robot calendar by selecting the refresh ico
 
 Show or hide events for the particular day, week, or month by selecting the agenda icon \(\[Omitted image "agenda-rc-rpa-icon.png"\] Alt text: Agenda icon.\). See the following example for a snapshot of the show or hide agenda filter view.\[Omitted image "agenda-view-rc-rpa.gif"\] Alt text: Show or hide the agenda view filter.
 
-</td></tr><tr><td id="d514762e505">
+</td></tr><tr><td id="d513821e505">
 
 **Show Filter**
 
@@ -200,7 +200,7 @@ Select the filter icon \(\[Omitted image "filter-rc-rpa.png"\] Alt text: Filter 
 -   To remove items from the selection, double-click the item on the right, or select the item and select the remove icon \(**&lt;**\). Then, select **Apply**.
 
 
-</td></tr><tr><td id="d514762e560">
+</td></tr><tr><td id="d513821e560">
 
 **Event cards**
 
@@ -210,7 +210,7 @@ View the event cards in the Scheduled events section.Limited information about t
 
  \[Omitted image "event-card-rc-rpa.png"\] Alt text: Example: Snapshot of the event cards on the robot landing page.
 
-</td></tr><tr><td id="d514762e584">
+</td></tr><tr><td id="d513821e584">
 
 **Event details**
 
@@ -222,7 +222,7 @@ To view more event details of the bot process and its schedule, double-click an 
 
  \[Omitted image "event-card-weekly.png"\] Alt text: Event details snapshot of the associated bot process whose interval type is Weekly.
 
-</td></tr><tr><td id="d514762e629">
+</td></tr><tr><td id="d513821e629">
 
 **Event pop-up windows**
 
@@ -234,9 +234,9 @@ On the event pop-up window, select the following icons to view, edit, and delete
 -   Select the delete schedule icon \(\[Omitted image "icon-delete-schedule-rpa.png"\] Alt text: Delete schedule icon.\) to delete a schedule that you no longer need.
 \[Omitted image "event-pop-card-icons.png"\] Alt text: Snapshot of an event card pop over.
 
-For more information, see [Create a schedule on the robot calendar in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robot-schedule.md), [Edit a robot schedule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-robot-schedule.md), and [Delete a robot schedule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/delete-robot-schedule.md).
+For more information, see [Create a schedule on the robot calendar in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-robot-schedule.md), [Edit a robot schedule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/edit-robot-schedule.md), and [Delete a robot schedule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/delete-robot-schedule.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using the robot calendar for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-calendar-rpa.md)
+**Parent Topic:**[Using the robot calendar for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/robot-calendar-rpa.md)
 

@@ -2,7 +2,7 @@
 title: Update the planning dependencies
 description: Update the plan dependencies manually from the snapshot if the scheduled job is not activated in the Planning dependency update configuration module. You can update the dependencies in an active plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/import-cmdb-updates-in-bcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/import-cmdb-updates-in-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ Role required: sn\_bcm.program\_manager, sn\_bcm.planner, sn\_bcm.admin
     The plan owners and BCM lead can update the planning dependencies by saving the changes to the plan.
 
 
-**Parent Topic:**[Scheduling auto-update of related assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/import-cmdb-updates-in-plans.md)
+**Parent Topic:**[Scheduling auto-update of related assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/import-cmdb-updates-in-plans.md)
 

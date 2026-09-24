@@ -2,7 +2,7 @@
 title: TRM Phase form
 description: Define your own TRM phase or edit an existing TRM phase.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-phase-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-trm-phase-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,10 +24,10 @@ Define your own TRM phase or edit an existing TRM phase.
 |Color|Color that defines the TRM phase. Select a color from the drop-down list.|
 |Shape|Shape that defines the TRM phase. Select a shape from the drop-down list.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add or edit a TRM phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-phase.md)
+[Add or edit a TRM phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-phase.md)
 

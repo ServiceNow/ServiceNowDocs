@@ -2,7 +2,7 @@
 title: Monitor log data flow and optimize integration settings
 description: The Overview screen in Health Log Analytics provides a comprehensive view of the components in the log-processing pipeline of a specific active integration. From this screen, you can troubleshoot any streaming issues for this integration and adjust its settings if needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-integration-overview-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-integration-overview-tab.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -131,10 +131,10 @@ The **Log Streaming Sources** table shows a state of Authentication Failed or Co
 
 The **Log Streaming Sources** table now shows a connection state of Connected or Active with successful authentication. The **Streaming Status** displays a green circle with a white check mark for the MID Server component. With log streaming restored, HLA can resume processing data and generating anomaly alerts.
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
 
 **Related topics**  
 
 
-[Review log streaming data and adjust integration settings in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-overview-tab.md)
+[Review log streaming data and adjust integration settings in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-overview-tab.md)
 

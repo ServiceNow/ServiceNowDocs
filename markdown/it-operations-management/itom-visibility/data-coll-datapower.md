@@ -2,7 +2,7 @@
 title: IBM WebSphere DataPower discovery
 description: ITOM Visibility discovers IBM WebSphere DataPower. The Discovery feature uses the DataPower Server pattern for horizontal discovery. The Service Mapping feature uses the DataPower pattern for top-down discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/data-coll-datapower.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/data-coll-datapower.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -85,5 +85,5 @@ By default, Discovery uses the DataPower Server pattern to perform the discovery
 |Name \[name\]|
 |Domain \[domain\]|
 
-**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

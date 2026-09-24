@@ -2,7 +2,7 @@
 title: Define an API resource response structure
 description: Add a schema and relevant response headers to a REST response to define the response's expected data structure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/add-schema-rest-api-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/add-schema-rest-api-response.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -18,7 +18,7 @@ Add a schema and relevant response headers to a REST response to define the resp
 
 ## Before you begin
 
-At least one REST API resource and at least one schema must already be defined for use in the relevant REST API. You must also define any response headers you want to use. For more information, see [Define a REST API response header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/define-scripted-api-response-header.md).
+At least one REST API resource and at least one schema must already be defined for use in the relevant REST API. You must also define any response headers you want to use. For more information, see [Define a REST API response header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/define-scripted-api-response-header.md).
 
 Role required: web\_service\_admin
 
@@ -28,15 +28,15 @@ Role required: web\_service\_admin
 
     If you navigate through the scripted REST API record, most fields in the REST Response record are pre-populated.
 
-<table id="choicetable_mvh_34d_j3c"><thead><tr><th align="left" id="d722330e64">
+<table id="choicetable_mvh_34d_j3c"><thead><tr><th align="left" id="d719310e64">
 
 Option
 
-</th><th align="left" id="d722330e67">
+</th><th align="left" id="d719310e67">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d722330e73">
+</th></tr></thead><tbody><tr><td id="d719310e73">
 
 **Navigate through a scripted REST API record**
 
@@ -48,7 +48,7 @@ Procedure
 4.  In the **Response Schema** tab, select **New**.
 
 
-</td></tr><tr><td id="d722330e118">
+</td></tr><tr><td id="d719310e118">
 
 **Navigate directly to the REST Response record**
 
@@ -81,7 +81,7 @@ Procedure
 
 ## Result
 
-The schema you used to define the response body structure is included in the exportable OpenAPI specification in the REST API Explorer. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/export-openapi-specification.md).
+The schema you used to define the response body structure is included in the exportable OpenAPI specification in the REST API Explorer. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/export-openapi-specification.md).
 
-**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

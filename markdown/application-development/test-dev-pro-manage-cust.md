@@ -2,7 +2,7 @@
 title: Customize my apps with pro-code tools
 description: Customize your ServiceNow apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-pro-manage-cust.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-dev-pro-manage-cust.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,15 +16,15 @@ Customize your ServiceNow apps.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[UI Builder \[Omitted image "icon-uib.png"\] Alt text: UI Builder. Learn how to create custom experiences with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
+[UI Builder \[Omitted image "icon-uib.png"\] Alt text: UI Builder. Learn how to create custom experiences with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-builder-overview.md)
 
 </td><td>
 
-[Table Builder \[Omitted image "icon-table-builder.png"\] Alt text: Table Builder. Customize your data with Table Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)
+[Table Builder \[Omitted image "icon-table-builder.png"\] Alt text: Table Builder. Customize your data with Table Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-landing-page.md)
 
 </td></tr><tr><td>
 
-[Workspace Builder \[Omitted image "icon-workspace-builder.png"\] Alt text: Workspace Builder. Customize your data with Workspace Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/configure-workspace-builder.md)
+[Workspace Builder \[Omitted image "icon-workspace-builder.png"\] Alt text: Workspace Builder. Customize your data with Workspace Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/configure-workspace-builder.md)
 
 </td><td>
 

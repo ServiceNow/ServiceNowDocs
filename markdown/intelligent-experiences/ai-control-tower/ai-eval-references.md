@@ -2,7 +2,7 @@
 title: Evaluation dashboard reference
 description: Reference topics for the Evaluation dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-eval-references.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-eval-references.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

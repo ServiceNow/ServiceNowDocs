@@ -2,7 +2,7 @@
 title: Manage resources from resource page in Project Workspace
 description: View and manage all the resource assignments without navigating through individual tasks using the resource page in Project Workspace. Resources page shows all project-associated resources and their assignments to support forecasting and visualization of resource demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/manage-resource-assignment-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/manage-resource-assignment-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -37,10 +37,10 @@ For example, Simon is a resource who is allocated to two project tasks. When you
     You can edit the row, reassign, extend, or open a resource assignment. You can create resource assignment directly from the resource page in the Project Workspace. You can select the unassigned tasks toggle to view all the unassigned resources that aren’t currently assigned to any task in that project. For sub-projects, you can select a subproject and then select **Resources** to view the resources allocated to that subproject.
 
 
-**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/resource-assignments-pw.md)
 
 **Related topics**  
 
 
-[Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md)
+[Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rmw-create-rsrc-card.md)
 

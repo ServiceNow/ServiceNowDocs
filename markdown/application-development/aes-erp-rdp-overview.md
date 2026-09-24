@@ -2,7 +2,7 @@
 title: App Engine ERP Rapid Deployment Packs
 description: App Engine ERP Rapid Deployment Packs are solution templates built for specific business processes in enterprise ERP workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-13"
@@ -23,19 +23,19 @@ App Engine ERP Rapid Deployment Packs provide a prebuilt starting point that you
 
 <table id="table_bv3_1zh_sjc" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about App Engine ERP Rapid Deployment Packs concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-explore.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about App Engine ERP Rapid Deployment Packs concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure App Engine ERP Rapid Deployment Packs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-configure.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure App Engine ERP Rapid Deployment Packs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-configure.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Use App Engine ERP Rapid Deployment Packs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+[Use \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Use App Engine ERP Rapid Deployment Packs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-use.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-reference.md)
 
 </td></tr></tbody>
 </table>## Helpful resources
@@ -59,14 +59,14 @@ Use these ServiceNow resources to find helpful information:
     Contact [Customer Service and Support](https://support.servicenow.com/now?draw=case).
 
 
--   **[Exploring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-explore.md)**  
+-   **[Exploring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-explore.md)**  
 App Engine ERP Rapid Deployment Packs provide a system of action on top of ERP systems. Available packs manage master data records, centralize business approvals, and complete month-end financial tasks.
--   **[Configuring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-configure.md)**  
+-   **[Configuring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-configure.md)**  
 Installing App Engine ERP Rapid Deployment Packs from the ServiceNow Store makes them available to use on your instance.
--   **[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)**  
+-   **[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-use.md)**  
 Use App Engine ERP Rapid Deployment Packs to manage master data records, centralize business approvals, and complete month-end financial tasks.
--   **[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)**  
+-   **[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-reference.md)**  
 Use these reference topics to find details about roles, installed components, and dashboards in App Engine ERP Rapid Deployment Packs.
 
-**Parent Topic:**[Building low-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-low-code-applications-with-app-engine.md)
+**Parent Topic:**[Building low-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/building-low-code-applications-with-app-engine.md)
 

@@ -2,7 +2,7 @@
 title: Create a proxy in RPA Desktop Design Studio
 description: Create a proxy at a component level in RPA Desktop Design Studio to extract the additional properties of that component.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-proxy-rpa-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-proxy-rpa-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Create a proxy at a component level in RPA Desktop Design Studio to extract the 
 
 ## Before you begin
 
-Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-components.md).
+Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-components.md).
 
 Role required: none
 
@@ -49,5 +49,5 @@ Use the **Create Proxy** option to add or modify some functionalities of an alre
     \[Omitted image "data-proxy-dayofweek.png"\] Alt text: DayOfWeek as Saturday in the DateTime component.
 
 
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-use.md)
 

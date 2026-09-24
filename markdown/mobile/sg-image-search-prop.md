@@ -2,7 +2,7 @@
 title: Create the image search system property
 description: Create and enable a system property to control access to image search on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-image-search-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-image-search-prop.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ Role required: admin
 
 ## What to do next
 
-Enable global search in your screen launcher to begin using photo search on your mobile applications. For details on enabling search on your screen launchers see [Enable global search in your screen launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-alp-search.md).
+Enable global search in your screen launcher to begin using photo search on your mobile applications. For details on enabling search on your screen launchers see [Enable global search in your screen launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-alp-search.md).
 
-**Parent Topic:**[Configure photo search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-image-search.md)
+**Parent Topic:**[Configure photo search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-image-search.md)
 

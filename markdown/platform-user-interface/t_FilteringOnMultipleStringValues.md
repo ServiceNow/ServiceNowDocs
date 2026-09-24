@@ -2,7 +2,7 @@
 title: Filter on multiple string values
 description: For a string field, you can create a filter that searches for multiple values by creating a comma-delimited list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_FilteringOnMultipleStringValues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_FilteringOnMultipleStringValues.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ This feature enables administrators to copy and paste search criteria from a Mic
     \[Omitted image "CommaDelimitedFilter2.png"\] Alt text: Comma-delimited filter string
 
 
-**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md)
+**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Filters.md)
 
 **Related topics**  
 

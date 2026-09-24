@@ -2,7 +2,7 @@
 title: Predictive Intelligence properties
 description: The properties for Predictive Intelligence control certain parameters of its machine-learning solutions, solution training process, and caching.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intelligence-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/predictive-intelligence-properties.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -208,7 +208,7 @@ The KAA validation to the ML Trainer server occurs only if mTLS is enabled on th
 |Maximum number of artifacts cached \(in MB\)|glide.cache.size.ml\_object\_cache|
 |Artifact cache compression scheme|glide.platform\_ml.artifact.cache\_compression\_scheme|
 
-**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
+**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Advantages of natural language models over keywords
 description: Natural language models help Virtual Agent to process human language based on context and your company's data. In this way, what the user needs can be more accurately matched with a corresponding topic. Virtual Agent supports large language models \(LLMs\) and Natural Language Understanding \(NLU\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/advantages-nlu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/advantages-nlu.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -44,11 +44,11 @@ Keyword matching has its limitations. For example, sometimes an apple is a piece
 
 Virtual Agent provides two kinds of natural language topic discovery. You can use both in your instance, but only one at a time in any given chat.
 
--   **[LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md)**
+-   **[LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-llm.md)**
 
     Use LLMs to discover topics and access generative AI capabilities without building complex models, intents, or entities.
 
--   **[Natural Language Understanding \(NLU\) topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md)**
+-   **[Natural Language Understanding \(NLU\) topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-NLU.md)**
 
     Use ServiceNow NLU or a supported provider to discover topics.
 

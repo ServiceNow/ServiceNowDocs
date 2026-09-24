@@ -2,7 +2,7 @@
 title: Survey-based questionnaires
 description: Survey-based questionnaires are the foundational questionnaire type in Field Service Management. Administrators can create question sets using the Survey Designer tool and associate them with work order tasks. When the configured trigger conditions are met, the questionnaire becomes available to the assigned agent directly from the task form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/survey-based-questionnaires.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/survey-based-questionnaires.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"
@@ -27,5 +27,5 @@ The responses are recorded against the task, giving the organization a consisten
 **Related topics**  
 
 
-[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-questionnaire.md)
+[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/smart-assessment-questionnaire.md)
 

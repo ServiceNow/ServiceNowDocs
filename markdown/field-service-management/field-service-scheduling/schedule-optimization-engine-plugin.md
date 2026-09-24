@@ -2,7 +2,7 @@
 title: Activate Schedule Optimization
 description: Activate the Schedule Optimization plugin \(com.snc\_schedule\_optimization\) for Field Service Management with the administrator role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/schedule-optimization-engine-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/schedule-optimization-engine-plugin.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -149,7 +149,7 @@ On-Demand Optimization Applicable Policies snc\_schedule\_optim\_attr\_m2m\_poli
 Defines the alternate policies eligible for an on-demand optimization run for a particular scheduling attribute configuration
 
 </td></tr></tbody>
-</table>For more information, see [Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md).
+</table>For more information, see [Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-optimization-engine.md).
 
 ## Procedure
 
@@ -168,5 +168,5 @@ Defines the alternate policies eligible for an on-demand optimization run for a 
 
 ## What to do next
 
-[Create a policy for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-policies-schedule-optimization.md)
+[Create a policy for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/create-policies-schedule-optimization.md)
 

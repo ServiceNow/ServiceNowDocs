@@ -2,7 +2,7 @@
 title: Delete demands
 description: Demands can be deleted only while in the Pending state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_DeletingDemands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/t\_DeletingDemands.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -37,7 +37,7 @@ To delete a demand:
     -   Select the demand to open the demand form and then select **Delete**.
     -   Select the check box next to the demand and then select **Delete** from the **Actions** list.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

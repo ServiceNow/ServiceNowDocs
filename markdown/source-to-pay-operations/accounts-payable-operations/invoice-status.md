@@ -2,7 +2,7 @@
 title: Invoice status messages
 description: Reference information for invoice status messages and the conditions that trigger each status during invoice processing in Accounts Payable Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-status.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -92,7 +92,7 @@ Exceptions found
 
 </td><td>
 
-An invoice is updated with the status Exceptions found, when it finds any one or more of the exceptions that were defined in Accounts Payable Operations. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md).
+An invoice is updated with the status Exceptions found, when it finds any one or more of the exceptions that were defined in Accounts Payable Operations. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md).
 
 </td></tr><tr><td>
 
@@ -160,5 +160,5 @@ Paid
 After the invoice is posted to ERP and paid in the ERP, the payment is posted back to Accounts Payable Operations without integration error. Then, the invoice moves to **Paid** State.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md)
+</table>**Parent Topic:**[Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md)
 

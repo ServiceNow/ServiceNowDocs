@@ -2,7 +2,7 @@
 title: Personal Lines Claims workflows
 description: The Personal Lines Claims application installs automated workflows that you can configure for any claims tasks. These workflows create cases and route any tasks accordingly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/personal-lines-claims-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/personal-lines-claims-workflows.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

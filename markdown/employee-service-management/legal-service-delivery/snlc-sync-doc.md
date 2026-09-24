@@ -2,7 +2,7 @@
 title: Synchronize a non-disclosure agreement document after modifying a self-served contract request \(Contract Management Pro 1.2.1\)
 description: Synchronize the contract document for non-disclosure agreements contract requests to create a new revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-sync-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-sync-doc.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -22,7 +22,7 @@ Synchronize the contract document for non-disclosure agreements contract request
 
 You can synchronize a contract document only when the contract request is in the Work in progress state.
 
-**Note:** Tables are not updated when you use the **Sync document** option. You must regenerate the document to update the tables. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlcregen-contract-doc.md).
+**Note:** Tables are not updated when you use the **Sync document** option. You must regenerate the document to update the tables. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlcregen-contract-doc.md).
 
 ## Before you begin
 
@@ -50,5 +50,5 @@ Role required:
 
 A new contract document revision is created with the update metadata and signatories. The changes made in the previous revision are retained.
 
-**Parent Topic:**[Work on NDA legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-work-on-contract-request.md)
+**Parent Topic:**[Work on NDA legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-work-on-contract-request.md)
 

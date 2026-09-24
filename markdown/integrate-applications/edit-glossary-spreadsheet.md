@@ -2,7 +2,7 @@
 title: Edit glossary spreadsheet
 description: Edit the downloaded glossary spreadsheet to add or update glossary terms before importing them back into the Data Catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/edit-glossary-spreadsheet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/edit-glossary-spreadsheet.html
 release: australia
 topic_type: task
 last_updated: "2026-08-11"
@@ -23,7 +23,7 @@ Role required: Data Steward \(df\_data\_steward\)
 
 ## About this task
 
-You can obtain the glossary spreadsheet by [exporting existing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/bulk-export-glossary-terms.md) or downloading an empty template. The exported spreadsheet contains two sheets: Instructions and Export Template \(glossary terms\). The Instructions sheet provides detailed guidance on column formatting, field requirements, and editing rules.
+You can obtain the glossary spreadsheet by [exporting existing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/bulk-export-glossary-terms.md) or downloading an empty template. The exported spreadsheet contains two sheets: Instructions and Export Template \(glossary terms\). The Instructions sheet provides detailed guidance on column formatting, field requirements, and editing rules.
 
 ## Procedure
 
@@ -67,7 +67,7 @@ You can obtain the glossary spreadsheet by [exporting existing glossary terms](h
 
 ## Result
 
-The edited spreadsheet is ready to import back into the Data Catalog. [Import the glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/bulk-import-glossary-terms.md) to add or update them in the Data Catalog.
+The edited spreadsheet is ready to import back into the Data Catalog. [Import the glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/bulk-import-glossary-terms.md) to add or update them in the Data Catalog.
 
-**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-glossary-terms.md)
+**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-glossary-terms.md)
 

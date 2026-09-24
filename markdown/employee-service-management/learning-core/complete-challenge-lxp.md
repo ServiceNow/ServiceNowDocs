@@ -2,7 +2,7 @@
 title: Complete a learning challenge
 description: Complete a learning challenge whenever you're ready to finish with it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/complete-challenge-lxp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/complete-challenge-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -37,5 +37,5 @@ Role required: no role required
 
 The current challenge will be completed, but you can always revisit it under the **Activity** tab.
 
-**Parent Topic:**[Create a Learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-challenge.md)
+**Parent Topic:**[Create a Learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-challenge.md)
 

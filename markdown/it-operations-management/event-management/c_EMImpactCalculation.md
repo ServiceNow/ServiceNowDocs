@@ -2,7 +2,7 @@
 title: Alert impact calculation
 description: Impact calculation shows the magnitude of an outage on CIs, services, alerts, and alert groups. The system uses factors such as impact rules and CI relationships to calculate the severity of a generated alert. The severity appears on the impact tree, application services maps, and dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/c\_EMImpactCalculation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/c\_EMImpactCalculation.html
 release: australia
 product: Event Management
 classification: event-management
@@ -31,7 +31,7 @@ Impact calculations are available for application services alert groups. The fol
 
     -   CIs are considered to be in maintenance not only when an active change request is scheduled, but also when the **Status** field of the CI is set to **In Maintenance**.
     -   When a child CI is put in maintenance, it also places the parent CI in maintenance.
--   By default, impact is calculated for all operational application services. However, the system allows you to filter impact calculation by service class or by individual application service. For more information, see [Add CMDB tables or classes for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/add-cmdb-tables-impact-cal.md) and [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/add-impact-cal-services.md).
+-   By default, impact is calculated for all operational application services. However, the system allows you to filter impact calculation by service class or by individual application service. For more information, see [Add CMDB tables or classes for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/add-cmdb-tables-impact-cal.md) and [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/add-impact-cal-services.md).
 
 If there is a connection between services, the impact of one service on the other is also calculated.
 
@@ -57,7 +57,7 @@ Impact calculation varies depending on the CI relationships for a application se
 
     -   CIs are considered to be in maintenance not only when an active change request is scheduled, but also when the **Status** field of the CI is set to **In Maintenance**.
     -   When a child CI is put in maintenance, it also places the parent CI in maintenance.
-    For a service, all alerts on CIs in the service are also hidden from the Alerts tab. The entire service is shown in green on the impact tree. For a host with an active change request, the host applications are considered as one unit. All child applications are treated in the same manner as the host until the change request is no longer active. For additional information, see [How alerts work with CIs in maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMHowImpactTree.md).
+    For a service, all alerts on CIs in the service are also hidden from the Alerts tab. The entire service is shown in green on the impact tree. For a host with an active change request, the host applications are considered as one unit. All child applications are treated in the same manner as the host until the change request is no longer active. For additional information, see [How alerts work with CIs in maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/c_EMHowImpactTree.md).
 
 -   **Network paths**
 

@@ -2,7 +2,7 @@
 title: Domain separation and Security Incident Response
 description: Domain separation is supported in Security Incident Response. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/domain-separation-security-incident-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/domain-separation-security-incident-response.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -118,35 +118,35 @@ All aspects of product configuration are self-contained in a domain-separated en
 The following tasks must be configured:
 
 1.  System Administration
-    -   Assign roles to users and groups of users: [User roles installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/installed-with-sir.md)
-    -   Install one or more third-party integration plugins to work with Security Incident Response: [Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir_integrations.md)
+    -   Assign roles to users and groups of users: [User roles installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/installed-with-sir.md)
+    -   Install one or more third-party integration plugins to work with Security Incident Response: [Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir_integrations.md)
 2.  Security Incident Response Administration
-    -   Add or review roles: [Components installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/installed-with-sir.md)
-    -   Configure groups and users: [Create a security incident group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)
-    -   Set up incident escalations: [Escalate a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/escalate-security-incident.md)
-    -   Set up security incident risk score calculators: [Understanding security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)
-    -   Set up service level agreements: [Create a Security Incident Response SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)
-    -   Set up security incident process definitions: [Understanding Security Incident Response process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)
-    -   Set up post-incident review processes: [Manage post incident activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_PostIncidentReview.md)
+    -   Add or review roles: [Components installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/installed-with-sir.md)
+    -   Configure groups and users: [Create a security incident group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up incident escalations: [Escalate a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/escalate-security-incident.md)
+    -   Set up security incident risk score calculators: [Understanding security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up service level agreements: [Create a Security Incident Response SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up security incident process definitions: [Understanding Security Incident Response process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up post-incident review processes: [Manage post incident activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/c_PostIncidentReview.md)
 3.  Security incident email settings
-    -   Set the email parsing inbox: [Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-parsing.md)
-    -   Set up email parsers for alert ingestion: [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/parsing-emails.md)
-    -   Set up email matching rules for user-reported phishing: [Create rules to validate user-reported phishing attacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set the email parsing inbox: [Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/email-parsing.md)
+    -   Set up email parsers for alert ingestion: [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/parsing-emails.md)
+    -   Set up email matching rules for user-reported phishing: [Create rules to validate user-reported phishing attacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md)
     -   Set up email inbound actions: [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md)
 4.  Security incident playbook settings
-    -   Review and set up runbook documents: [Create a Security Incident Response runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)
-    -   Set up security incident workflows: [Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+    -   Review and set up runbook documents: [Create a Security Incident Response runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md)
+    -   Set up security incident workflows: [Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-ops-common-functionality.md)
 5.  Capability configurations
-    -   Block request: [Security Operations Integration- Block Request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/block-request-capability.md)
-    -   Email search and delete: [Security Operations Integration- Email Search and Delete capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-search-capability.md)
-    -   Enrich configuration item: [Security Operations Integration- Enrich CI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrich-ci-capability.md)
-    -   Enrich observable: [Security Operations Integration- Enrich Observable capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrich-observable-capability.md)
-    -   Get network statistics: [Security Operations Integration- Get Network Statistics capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-network-statistics-capability.md)
-    -   Get running processes: [Security Operations Integration- Get Running Processes capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-running-processes-capability.md)
-    -   Isolate host: [Security Operations Integration- Isolate Host capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/isolate-host-capability.md)
-    -   Publish to Watchlist: [Security Operations Integration- Publish to Watchlist capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/pubish-to-watchlist-capability.md)
-    -   Sighting search: [Security Operations Integration- Sightings Search capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-search-capability.md)
-    -   Threat lookup: [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-threat-lookups-capability.md)
+    -   Block request: [Security Operations Integration- Block Request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/block-request-capability.md)
+    -   Email search and delete: [Security Operations Integration- Email Search and Delete capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/email-search-capability.md)
+    -   Enrich configuration item: [Security Operations Integration- Enrich CI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/enrich-ci-capability.md)
+    -   Enrich observable: [Security Operations Integration- Enrich Observable capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/enrich-observable-capability.md)
+    -   Get network statistics: [Security Operations Integration- Get Network Statistics capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/get-network-statistics-capability.md)
+    -   Get running processes: [Security Operations Integration- Get Running Processes capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/get-running-processes-capability.md)
+    -   Isolate host: [Security Operations Integration- Isolate Host capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/isolate-host-capability.md)
+    -   Publish to Watchlist: [Security Operations Integration- Publish to Watchlist capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/pubish-to-watchlist-capability.md)
+    -   Sighting search: [Security Operations Integration- Sightings Search capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-search-capability.md)
+    -   Threat lookup: [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-ops-threat-lookups-capability.md)
 
 ## How tenant domains manage their own application data
 

@@ -2,7 +2,7 @@
 title: Components installed with CSM workspaces
 description: Several types of components are installed with CSM workspaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/installed-with-cust-serv-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/installed-with-cust-serv-workspace.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

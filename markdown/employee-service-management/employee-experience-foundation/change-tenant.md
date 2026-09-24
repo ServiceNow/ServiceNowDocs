@@ -2,7 +2,7 @@
 title: Change tenant to configure pre-published apps
 description: Change the tenant to use pre-published apps in your environment.Override an existing tenant connection, only if, for any reason, you are unable to uninstall the connected Microsoft Teams tenant from the original ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/change-tenant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/change-tenant.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -70,9 +70,9 @@ Uninstall the connected Microsoft Teams tenant from the original/registered Serv
 
 ## What to do next
 
-You must upload the manifest file in Microsoft Teams. For more information, refer [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
+You must upload the manifest file in Microsoft Teams. For more information, refer [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
 
 ## Override Microsoft Teams tenant connection
 

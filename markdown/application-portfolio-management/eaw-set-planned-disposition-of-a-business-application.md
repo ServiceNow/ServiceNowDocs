@@ -2,7 +2,7 @@
 title: Set the planned disposition of a business application
 description: Set the planned disposition of a business application to track decisions on the plan of the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,15 +32,15 @@ Setting the planned disposition of a business application results in better data
 
 4.  Select the bubble for the relevant application that you want to set the planned disposition for and perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d48686e92">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d48667e92">
 
 Bubble type
 
-</th><th align="left" id="d48686e95">
+</th><th align="left" id="d48667e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d48686e101">
+</th></tr></thead><tbody><tr><td id="d48667e101">
 
 **Single bubble**
 
@@ -51,7 +51,7 @@ Action
 
 \[Omitted image "bubble-chart-menu-set-planned-disposition.png"\] Alt text: Set planned disposition button highlighted.
 
-</td></tr><tr><td id="d48686e139">
+</td></tr><tr><td id="d48667e139">
 
 **Grouped bubble**
 
@@ -121,14 +121,14 @@ Retire
 </table>6.  Select **Update**.
 
 
-**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
+**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
 
 **Related topics**  
 
 
-[Analyze applications using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-analyze-applications-by-capability.md)
+[Analyze applications using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-analyze-applications-by-capability.md)
 
-[Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md)
+[Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md)
 
-[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
+[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
 

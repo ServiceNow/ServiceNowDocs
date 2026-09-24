@@ -2,7 +2,7 @@
 title: Installed with Zing
 description: Several types of components are installed with Zing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/installed-with-zing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/installed-with-zing.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -83,7 +83,7 @@ System tables that support Zing. Extending or modifying these tables isn't recom
 
 |Scheduled job|Description|
 |-------------|-----------|
-|TS Search Stats|Compiles type-ahead suggestions each night. See [Update A Type-Ahead Suggestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_UpdateATypeAheadSuggestion.md).|
+|TS Search Stats|Compiles type-ahead suggestions each night. See [Update A Type-Ahead Suggestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/t_UpdateATypeAheadSuggestion.md).|
 |TS Index Stats|Collects statistics and performs maintenance for text search and indexing. Runs nightly.|
 |text index events process|Collects statistics and performs maintenance for text search and indexing. Runs every 30 seconds.|
 |TS Chain Summary|Compiles search chain statistics each hour.|
@@ -92,10 +92,10 @@ System tables that support Zing. Extending or modifying these tables isn't recom
 |---------|-----------|
 |Regenerate Text Index|Displays the **Regenerate Text Index** link on Text Index forms.|
 
--   **[Zing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/roles-zing.md)**  
+-   **[Zing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/roles-zing.md)**  
 Zing is installed with these roles.
 
-**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 

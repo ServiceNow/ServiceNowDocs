@@ -2,7 +2,7 @@
 title: Extract contract metadata
 description: As a contract fulfiller, use ServiceNow Otto for Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-metadata-extract-land.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-metadata-extract-land.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,7 +25,7 @@ The following end-to-end workflow shows how a contract manager extracts metadata
 1.  The contract repository record is created once the signed contract is attached to the contract request.
 2.  A contract manager with the appropriate role \(sn\_cm\_gen\_ai.ai\_contract\_fulfiller\) initiates metadata extraction in the contract repository record.
 
-    The metadata extraction is automatically initiated on creation of the contract repository record, if the automatic extraction process is enabled in system properties. For more information, see [Configure system properties for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-sys-prop-na.md).
+    The metadata extraction is automatically initiated on creation of the contract repository record, if the automatic extraction process is enabled in system properties. For more information, see [Configure system properties for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-conf-sys-prop-na.md).
 
 3.  The contract manager receives a notification once the metadata extraction is successfully completed.
 
@@ -35,12 +35,12 @@ The following end-to-end workflow shows how a contract manager extracts metadata
 5.  The contract manager submits the verified information to update it in the contract repository.
 6.  When the extraction process is completed, the **Extraction results** tab opens on the contract repository record displaying the status of the processed information.
 
--   **[Initiate metadata extraction from a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-extract-metadata.md)**  
+-   **[Initiate metadata extraction from a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-extract-metadata.md)**  
 Use generative AI capabilities to extract metadata from a signed contract attached in a contract repository record.
--   **[Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-metatdata.md)**  
+-   **[Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-review-metatdata.md)**  
 Review the metadata extracted from a contract and add it to the contract repository.
--   **[Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md)**  
+-   **[Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md)**  
 The Extraction results tab in the contract repository record displays the processed metadata and their statuses, indicating whether the metadata have been successfully added to the mapped fields in the contract repository.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

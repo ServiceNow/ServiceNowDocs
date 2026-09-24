@@ -2,7 +2,7 @@
 title: Create an AI ACL for a Subflow or Action
 description: Create the necessary AI Access Control List \(ACL\) for the component to be called externally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-ai-acl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-ai-acl.html
 release: australia
 topic_type: task
 last_updated: "2026-07-31"
@@ -45,5 +45,5 @@ AI ACLs are required for any Subflow or Action to be used as an MCP tool. An AI 
     Confirm that a record-type ACL isn't created in error, instead of an AI ACL \(invoked from AI operation\). If the staging table still shows security\_compatible = false after publishing, verify the ACL type.
 
 
-**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
+**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-mcp-server-console.md)
 

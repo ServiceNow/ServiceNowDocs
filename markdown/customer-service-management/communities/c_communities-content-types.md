@@ -2,7 +2,7 @@
 title: Community content types
 description: There are seven supported content types: Answer, Blog, Comment, Document, Event, Question, and Video.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/c\_communities-content-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/c\_communities-content-types.html
 release: australia
 product: Communities
 classification: communities
@@ -90,10 +90,10 @@ Event
 Create an event that other community users can register for and attend.
 
 </td></tr></tbody>
-</table>-   **[Configure blog publish schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-blog-publish-schedule.md)**  
+</table>-   **[Configure blog publish schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-blog-publish-schedule.md)**  
 Configure the publishing interval to ensure blogs are published closer to the scheduled time.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

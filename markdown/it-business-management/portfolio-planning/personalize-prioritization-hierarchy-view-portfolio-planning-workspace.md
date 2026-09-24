@@ -2,7 +2,7 @@
 title: Personalize Hierarchy view
 description: Personalize the Hierarchy view in the Planning page of Portfolio Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/personalize-prioritization-hierarchy-view-portfolio-planning-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/personalize-prioritization-hierarchy-view-portfolio-planning-workspace.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -19,7 +19,7 @@ Personalize the Hierarchy view in the Planning page of Portfolio Planning Worksp
 
 ## Before you begin
 
-[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -55,6 +55,6 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
     For example, you can sort the items by **Approved start date**.
 
-5.  [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
+5.  [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md)
 
 

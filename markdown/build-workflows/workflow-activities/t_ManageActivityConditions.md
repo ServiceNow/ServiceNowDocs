@@ -2,7 +2,7 @@
 title: Manage workflow activity conditions
 description: Activities contain default conditions that determine which transitions are followed.The result value specified by an activity controls the condition through which the activity transitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/t\_ManageActivityConditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/t\_ManageActivityConditions.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

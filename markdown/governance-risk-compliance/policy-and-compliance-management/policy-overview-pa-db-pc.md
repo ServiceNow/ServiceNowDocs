@@ -2,7 +2,7 @@
 title: Policy Overview Performance Analytics dashboard
 description: Policies Overview dashboard provides an executive view into compliance requirements, overall compliance, and compliance breakdowns so areas of concern can be identified quickly. Users with the compliance administrator and compliance manager roles view the Policies Overview dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/policy-overview-pa-db-pc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/policy-overview-pa-db-pc.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -46,7 +46,7 @@ To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; *
 |Control Issues by Policy \(Opened Date\)|Line chart|Displays the number of control issues opened each week, grouped by policy.|
 |Total Control Objectives by Policy|Bar chart|Displays a count of the overall number of control objectives in each policy. The chart is stacked to display control objectives by type.|
 
-**Note:** You can view this dashboard directly from the Compliance Workspace as well. For more information, see [View dashboards in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/view-dashboards-in-compliance-workspace.md)
+**Note:** You can view this dashboard directly from the Compliance Workspace as well. For more information, see [View dashboards in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/view-dashboards-in-compliance-workspace.md)
 
-**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
+**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

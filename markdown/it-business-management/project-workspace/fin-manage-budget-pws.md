@@ -2,7 +2,7 @@
 title: Manage budget of your projects using Project Workspace
 description: Allocate, manage, and approve budget for your projects. Lean budgeting allocates budget for short planning cycles across fiscal periods, such as monthly, quarterly, or yearly. This approach differs from allocating budget to the complete duration of a planning item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/fin-manage-budget-pws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/fin-manage-budget-pws.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -18,9 +18,9 @@ Allocate, manage, and approve budget for your projects. Lean budgeting allocates
 
 ## Before you begin
 
--   Admins should enable the property to work on budgeting. For more information, see [Enable financial budget allocation for projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/enable-fin-budget-pws.md).
--   Admins can configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
--   Negative budgeting is supported for planning items. To enable negative budget values, configure the sn\_invst\_pln.allow\_negative\_budget system property. For more information, see [Enable negative budgets for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/fin-negative-budget-prop-spw.md).
+-   Admins should enable the property to work on budgeting. For more information, see [Enable financial budget allocation for projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/enable-fin-budget-pws.md).
+-   Admins can configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
+-   Negative budgeting is supported for planning items. To enable negative budget values, configure the sn\_invst\_pln.allow\_negative\_budget system property. For more information, see [Enable negative budgets for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/fin-negative-budget-prop-spw.md).
 -   Role required: it\_portfolio\_manager
 
 ## About this task
@@ -60,5 +60,5 @@ The video demonstrates navigation in Strategic Planning Workspace. Navigation in
 
 Budget widget is updated to reflect the latest approved budget. Project Manager can view the approved budget and compare it with the planned costs using the **budget vs cost** view by cost type.
 
-**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

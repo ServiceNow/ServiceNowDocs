@@ -2,7 +2,7 @@
 title: View a list of questions and create a case
 description: View questions that can potentially be converted to cases, the community portal provides a page with a list of questions created by contacts or consumers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/case-mgmt-integration-view-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/case-mgmt-integration-view-list.html
 release: australia
 product: Communities
 classification: communities
@@ -59,7 +59,7 @@ This page displays questions from the forums to which the user has access.
     The contact or consumer who posted the question can also view the case by navigating to **My Cases** on the Customer Service Portal or Consumer Service Portal.
 
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

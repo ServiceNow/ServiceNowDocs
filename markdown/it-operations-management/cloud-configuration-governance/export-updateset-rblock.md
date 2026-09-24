@@ -2,7 +2,7 @@
 title: Move a resource block from one environment to the other
 description: Use update sets to effortlessly transfer resource blocks and their dependencies between environments. Group them into a named set, facilitating seamless movement for testing or deployment. Simplify processes such as transferring a resource block from development to production, ensuring efficient and organized transitions across different systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/export-updateset-rblock.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/export-updateset-rblock.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

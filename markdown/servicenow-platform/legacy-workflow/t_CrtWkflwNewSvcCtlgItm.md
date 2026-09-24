@@ -2,7 +2,7 @@
 title: Create a workflow for a new service catalog item
 description: When you create a new service catalog item, you can create a new corresponding workflow at the same time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/t\_CrtWkflwNewSvcCtlgItm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/t\_CrtWkflwNewSvcCtlgItm.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -19,7 +19,7 @@ When you create a new service catalog item, you can create a new corresponding w
 ## Before you begin
 
 -   You must have the snc\_required\_script\_writer\_permission and either the workflow\_admin or workflow\_creator role to use the Workflow Editor.
--   If you are designing the workflow as part of an update set process, see [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowMovementWithUpdateSets.md) before creating the workflow.
+-   If you are designing the workflow as part of an update set process, see [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/c_WorkflowMovementWithUpdateSets.md) before creating the workflow.
 
 ## Procedure
 
@@ -51,7 +51,7 @@ When you create a new service catalog item, you can create a new corresponding w
 
 11. Finish creating the workflow by adding activities, validating, and publishing so the workflow is available to other users.
 
-    For more information, see [Work on workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/work-on-workflows.md).
+    For more information, see [Work on workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/work-on-workflows.md).
 
 12. To change advanced settings for the workflow, click the **Properties** icon.
 
@@ -60,5 +60,5 @@ When you create a new service catalog item, you can create a new corresponding w
     If you close the Workflow Editor, you can see the Catalog Item record. Note that the workflow is added to the Workflow field. The Show Workflow and Information icons appear next to the **Workflow** field. Hover over the information icon to view a read-only summary of the workflow.
 
 
-**Parent Topic:**[Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflow.md)
+**Parent Topic:**[Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/t_CreateAWorkflow.md)
 

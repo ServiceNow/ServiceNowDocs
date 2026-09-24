@@ -2,7 +2,7 @@
 title: Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer
 description: Promote assets including conversational subflows, conversational actions, and topics in Assistant Designer, after associating them with a large language model \(LLM\) assistant, to have them suggested to the user by the LLM assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/promote-demote-va-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/promote-demote-va-topics.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +19,7 @@ Promote assets including conversational subflows, conversational actions, and to
 
 ## Before you begin
 
-Associate an LLM topic, conversational subflow, or conversational action with an LLM assistant. For more information, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [Managing conversational subflows in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-conversational-subflows.md), and [Managing conversational actions in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-conversational-actions.md).
+Associate an LLM topic, conversational subflow, or conversational action with an LLM assistant. For more information, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [Managing conversational subflows in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-conversational-subflows.md), and [Managing conversational actions in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-conversational-actions.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -29,11 +29,11 @@ After you associate a conversational subflow, conversational action, or topic wi
 
 System topics, setup topics, topic blocks, custom controls, and small talk topics cannot be promoted.
 
-**Note:** You can also promote NLU/keyword topics by creating topic recommendations in Conversational Interfaces settings. For more information, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-topic-recommendations.md).
+**Note:** You can also promote NLU/keyword topics by creating topic recommendations in Conversational Interfaces settings. For more information, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-topic-recommendations.md).
 
 For promotion controls for LLM assets, you can check the asset's **Promoted** status under the Show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text:. The **Promoted** status shows a check mark when the topic is promoted.
 
-For more information about LLM assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
+For more information about LLM assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
 ## Procedure
 
@@ -60,7 +60,7 @@ A toast message also appears for four seconds, confirming that the asset has bee
 
 ## What to do next
 
-Reorder promoted LLM conversational subflows, actions, and topics in Virtual Agent. For more information, see [Reorder promoted LLM conversational subflows, actions, and topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/sort-promoted-va-topics.md).
+Reorder promoted LLM conversational subflows, actions, and topics in Virtual Agent. For more information, see [Reorder promoted LLM conversational subflows, actions, and topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/sort-promoted-va-topics.md).
 
-**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

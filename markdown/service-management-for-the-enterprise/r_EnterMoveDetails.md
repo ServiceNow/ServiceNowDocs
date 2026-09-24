@@ -2,7 +2,7 @@
 title: Enterprise move details
 description: Enterprise move details are created when people are added to the scenario. Move details contain information about the move for a specific person, such the destination floor, destination building, need for moving boxes, or a security badge update.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_EnterMoveDetails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_EnterMoveDetails.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,5 +18,5 @@ Duplicate details are not allowed \(same user, scenario, and from\_location\). T
 
 \[Omitted image "MoveDetailsTab.png"\] Alt text: In this figure, the Enterprise Move Scenario record is open with the Move Details shown in a related list.
 
-**Parent Topic:**[Move planning tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_MovePlanningTool.md)
+**Parent Topic:**[Move planning tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_MovePlanningTool.md)
 

@@ -2,7 +2,7 @@
 title: Complete procurement tasks using SPO MCP Server
 description: View the status of your procurement tasks and complete approval, sourcing, and receipt tasks in your MCP client connect to SPO MCP Server. For tasks that require external interactions, such as signing a document or watching a video, the SPO MCP Server routes you to the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/task-completion-using-spo-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/task-completion-using-spo-mcp-server.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -42,7 +42,7 @@ Manage procurement tasks directly in your MCP client without switching between m
 
 1.  Open your MCP client, such as Claude, that is connected to your ServiceNow instance using the SPO MCP Server.
 
-    For more information on how to configure SPO MCP Server, see [Activate SPO MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spo-mcp-server.md).
+    For more information on how to configure SPO MCP Server, see [Activate SPO MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spo-mcp-server.md).
 
 2.  In your MCP client, enter a prompt to view your assigned tasks.
 

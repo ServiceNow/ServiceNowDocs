@@ -2,7 +2,7 @@
 title: Configure automatic check-in for reserved spaces
 description: Configure automatic reservation check-in using the Occupancy state of a location or space. If a location is using occupancy data sensors, it checks for Occupancy state of each space in the Space Occupancy data table
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/configure-rsv-check-in.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/configure-rsv-check-in.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -16,7 +16,7 @@ breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Deli
 
 Configure automatic reservation check-in using the Occupancy state of a location or space. If a location is using occupancy data sensors, it checks for Occupancy state of each space in the Space Occupancy data table
 
-The Workplace Reservation Management scheduled job **Check-in/out reminder** runs every half an hour \(30 minutes\) daily. It checks for the location state \(Occupied, Unoccupied, Invalid, currently not occupied, etc.\) in the Space Occupancy data table. It also checks if the reservation is checked in or checked out. For more information, see [Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/space-occupancy-data.md).
+The Workplace Reservation Management scheduled job **Check-in/out reminder** runs every half an hour \(30 minutes\) daily. It checks for the location state \(Occupied, Unoccupied, Invalid, currently not occupied, etc.\) in the Space Occupancy data table. It also checks if the reservation is checked in or checked out. For more information, see [Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/space-occupancy-data.md).
 
 **Note:** Reservation check-in and check-out is currently not supported for multi-location reservations \(combining two or more reservations into one reservation\). Check-in or check-out of reservations with multiple locations for the same date and time and with the same reservation owner is not allowed by the application. In case of group reservations, each space is assigned to a different employee, check-in for group reservations is also not allowed in bulk. You have to check-in a reservation one at a time.
 
@@ -47,7 +47,7 @@ In Reservation properties list \(**All** &gt; **Workplace Reservation Management
     -   When the workplace spaces are not having a occupancy sensor, and if the user does not check in the reservation, application cancels the reservation if the Reservable Module property **Cancel the reservation exceeding check in time** is selected.
     -   If the **Cancel the reservation exceeding check in time** is not selected, then the reservation is moved to **Confirmed** state, and the Workplace Reservation Management scheduled job **Reservation daily tasks** takes care of such reservations at the end of the day.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

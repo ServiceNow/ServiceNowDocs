@@ -2,7 +2,7 @@
 title: Create a Universal Request
 description: Create a Universal Request \(UR\) in Employee Center when your request involves multiple departments or the right department to contact is unclear.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-universal-request-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-universal-request-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -44,12 +44,12 @@ Role required: snc\_internal
 
 ## Result
 
-The Universal Request is created and routed to a routing agent for review. The request is then processed through the Universal Request workflow. For more information, see [Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/universal-request.md).
+The Universal Request is created and routed to a routing agent for review. The request is then processed through the Universal Request workflow. For more information, see [Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/universal-request.md).
 
--   **[Create a procurement case from a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case-from-ur.md)**  
+-   **[Create a procurement case from a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case-from-ur.md)**  
 When a Universal Request arrives in the Source-to-Pay Workspace, create a linked procurement case to track and manage the request through fulfillment.
 
-**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create an email account for Microsoft Graph \(send\)
 description: Create an email account for sending emails from Microsoft Exchange Online using Microsoft Graph Endpoints.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-email-account-msgraph-send.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-email-account-msgraph-send.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -102,5 +102,5 @@ Option to create node logs for the raw data that is exchanged with the email ser
 5.  Select the test connection link at the bottom to test the account.
 
 
-**Parent Topic:**[Sending email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/send-email-using-ms-graph.md)
+**Parent Topic:**[Sending email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/send-email-using-ms-graph.md)
 

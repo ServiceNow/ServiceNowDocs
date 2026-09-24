@@ -2,7 +2,7 @@
 title: Using agentic workflows in ServiceNow Otto for Sales CRM for Telecommunications
 description: Use the ServiceNow Otto for Sales CRM for Telecommunications to complete tasks autonomously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/using-aiagents-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/using-aiagents-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

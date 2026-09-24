@@ -2,7 +2,7 @@
 title: Use the Office 365 Malicious File Detected playbook
 description: Use this playbook to investigate malicious files detected in Office 365. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Office 365 Malicious File Detected playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-office-malicous-file-detected.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-using-office-malicous-file-detected.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -58,7 +58,7 @@ Role required:
 13. In Action 13, a response task is created for the user to complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Office 365 - Malicious File Detected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-office-malicious-file-detected-.md)
+**Parent Topic:**[Playbook for Office 365 - Malicious File Detected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-office-malicious-file-detected-.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a scheduled trigger using business calendar
 description: Schedule a recurring trigger to run based on a business calendar, so your automation run only when your business is actually operating, on working days, active shifts, or custom production schedules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-trigger-business-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-trigger-business-calendar.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -155,7 +155,7 @@ Specify the condition if you want to exclude certain business calendar entries f
 
 ## Result
 
-The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/use-saved-trigger.md).
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/use-saved-trigger.md).
 
-**Parent Topic:**[Create a saved scheduled trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-scheduled-trigger.md)
+**Parent Topic:**[Create a saved scheduled trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-scheduled-trigger.md)
 

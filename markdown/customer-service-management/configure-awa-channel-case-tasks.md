@@ -2,7 +2,7 @@
 title: Set up an Advanced Work Assignment service channel for assigning case tasks
 description: Set up an Advanced Work Assignment \(AWA\) service channel that you can use to assign case tasks to available users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-awa-channel-case-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-awa-channel-case-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

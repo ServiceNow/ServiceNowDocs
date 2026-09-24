@@ -2,7 +2,7 @@
 title: Configure data permissions for AI skills
 description: Add the user roles for the skill to specify the roles that AI uses to access data while performing a task. The user roles control the information that AI can read, update, or share, based on the permissions of the selected roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -55,7 +55,7 @@ You must configure the necessary roles for your workspace to ensure that skills 
     The selected role is added to the **Role List** field.
 
 
-**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Revoke Agent Client Collector certificates
 description: Stop communication between the agent and ITOM cloud services by removing an Agent Client Collector certificate. For example, there might be a security breach due to which you want to stop communication by revoking the agent's certificate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/revoke-agent-certificate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/revoke-agent-certificate.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -30,7 +30,7 @@ Role required: agent\_client\_collector\_admin
 
 4.  Select the reason for certificate revocation.
 
-    For a list and explanation of the available revocation reasons, see [Agent Client Collector certificate revocation reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/certificate-revocation-reasons.md).
+    For a list and explanation of the available revocation reasons, see [Agent Client Collector certificate revocation reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/certificate-revocation-reasons.md).
 
 5.  Select **OK**.
 
@@ -41,10 +41,10 @@ Role required: agent\_client\_collector\_admin
 
 Communication between the agent and ITOM cloud services is stopped.
 
-**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-certificates.md)
+**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-certificates.md)
 
 **Related topics**  
 
 
-[Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md)
+[Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/add-certificate-trust-store.md)
 

@@ -2,7 +2,7 @@
 title: Editing purchase requisitions and orders with cost allocation adjustments
 description: As a shopper, you can modify purchase requisitions \(PRs\) and purchase orders \(POs\) while maintaining cost allocation across multiple cost centers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/edit-purchase-cost-allocation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/edit-purchase-cost-allocation.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -48,14 +48,14 @@ In this case, the total cost is proportionally distributed between both the cost
 
 The cost allocation remains consistent when modifying purchase quantities in a PR or PO.
 
-For more information, see [Cost allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/cost-allocations.md).
+For more information, see [Cost allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/cost-allocations.md).
 
-**Parent Topic:**[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
+**Parent Topic:**[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
 
 **Related topics**  
 
 
-[Edit a purchase line from a purchase requisition or order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-line.md)
+[Edit a purchase line from a purchase requisition or order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-line.md)
 
-[Edit a purchase line from a purchase requisition or order from Employee Center \(EC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-emp-central.md)
+[Edit a purchase line from a purchase requisition or order from Employee Center \(EC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-emp-central.md)
 

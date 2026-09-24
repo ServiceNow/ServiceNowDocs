@@ -2,7 +2,7 @@
 title: HR document generation
 description: There are multiple ways to generate documents in HR Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/DocumentGeneration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/DocumentGeneration.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -62,8 +62,8 @@ When there are errors in the document:
 -   Check the HR case to confirm correct case information.
 -   Check the document template for errors within the body of the document, incorrect field mapping, or variable information.
 
--   **[Edit a generated document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/agent-edit-document.md)**  
+-   **[Edit a generated document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/agent-edit-document.md)**  
 Support rendering values of variables, scripts, and blocks in edit mode in Preview Document. View the content of variables, scripts, or blocks rather than only viewing the variable or block names.
 
-**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
+**Parent Topic:**[Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
 

@@ -2,7 +2,7 @@
 title: Create a record producer
 description: You can create a record producer for tables and database views that are in the same scope as the record producer. Also for tables that allow create access from applications in other scopes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_DefRecProdInSCat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_DefRecProdInSCat.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -30,7 +30,7 @@ Role required: catalog\_admin or admin
 
 3.  Complete the Record Producer form.
 
-    For more information about the fields and their descriptions on the Record Producer form, see [Record Producer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/record-producer-form.md).
+    For more information about the fields and their descriptions on the Record Producer form, see [Record Producer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/record-producer-form.md).
 
 4.  To add attachments such as information and instruction documentation to the catalog item, see [Add an attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md) .
 
@@ -41,7 +41,7 @@ Role required: catalog\_admin or admin
 6.  Open the record again to define variables for the record producer.
 
 
-**Parent Topic:**[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
+**Parent Topic:**[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_RecordProducer.md)
 
 **Related topics**  
 

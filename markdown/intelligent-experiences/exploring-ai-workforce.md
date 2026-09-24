@@ -2,7 +2,7 @@
 title: Exploring Autonomous Workforce
 description: Learn more about Autonomous Workforce and review the benefits AI specialists can provide for different users in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-ai-workforce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/exploring-ai-workforce.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-11"
@@ -45,7 +45,7 @@ Different users interact with Autonomous Workforce in various ways depending on 
 
 Follow this workflow to implement and manage AI specialists in your organization.
 
-For more information about considerations to make before deployment, see [General guidelines for deploying AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-ai-workforce.md).
+For more information about considerations to make before deployment, see [General guidelines for deploying AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gg-ai-workforce.md).
 
 1.  Onboard an AI specialist.
 
@@ -80,11 +80,11 @@ Autonomous Workforce provides specific benefits for different types of users in 
 
 To learn more about configuring and using Autonomous Workforce, see:
 
--   [Configure AI specialist profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-profile.md)
--   [Edit AI specialist tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks.md)
--   [Test AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aiw-ais.md)
--   [Monitor AI specialist activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/view-aiw-activity.md)
--   [Track AI specialist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/view-aiw-performance.md)
+-   [Configure AI specialist profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-profile.md)
+-   [Edit AI specialist tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-tasks.md)
+-   [Test AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aiw-ais.md)
+-   [Monitor AI specialist activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/view-aiw-activity.md)
+-   [Track AI specialist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/view-aiw-performance.md)
 
 ## Related products
 

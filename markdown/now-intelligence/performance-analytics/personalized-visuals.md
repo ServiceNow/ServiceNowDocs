@@ -2,7 +2,7 @@
 title: Personalized visuals
 description: Configure visuals with dynamic elements to show information that applies only to the person looking at the visual on a dashboard, service portal, or Workspace canvas.Personalized visuals enable you to share the information that is most relevant to the person who uses the visual on a dashboard or canvas. You personalize the visuals of a widget by applying an element filter.To personalize a visual, you create an element filter and configure a Performance Analytics widget with the same filter. In this example, you create a filter to show only the incidents that belong to the user, then you configure a score widget with the filter you create.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/personalized-visuals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/personalized-visuals.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -22,7 +22,7 @@ Use personalized visuals to push Performance Analytics down to the managers and 
 
 Personalization applies to Time Series, Score, and Breakdown widgets. When you configure personalized visuals, the personalization applies wherever the widget appears: a dashboard, landing page, or the Service Portal.
 
-Technically, you personalize a visual by applying an element filter to the widget instead of specifying [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). The personalization comes about through using a dynamic condition on the filter, such as \[is \(dynamic\)\] \[me\].
+Technically, you personalize a visual by applying an element filter to the widget instead of specifying [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md). The personalization comes about through using a dynamic condition on the filter, such as \[is \(dynamic\)\] \[me\].
 
 **Note:** Personalized visuals apply only to first-level breakdowns.
 
@@ -36,7 +36,7 @@ When an element filter returns more than one element, the scores for these eleme
 
 \[Omitted image "personal-vis-bkdown-dashboard.png"\] Alt text: A widget on a breakdown dashboard showing multiple elements from the breakdown dashboard separately but showing multiple elements from the personalized visual as an aggregate
 
-For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
+For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
 
 ## Configure a widget with personalized visuals
 
@@ -50,7 +50,7 @@ Role required: pa\_admin, pa\_power\_user
 
 ### Procedure
 
-1.  Create one or more [breakdown element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_BreakdownElementFilters.md) with a dynamic condition, such as \[is \(dynamic\)\] \[me\].
+1.  Create one or more [breakdown element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_BreakdownElementFilters.md) with a dynamic condition, such as \[is \(dynamic\)\] \[me\].
 
     Before you create an element filter, verify whether you can use an existing one.
 
@@ -87,7 +87,7 @@ In this example, you create an element filter that uses the `Users.Active` break
 
 1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Elements Filters** and create a new elements filter with the details in the Element filter fields table.
 
-    For more information, see [Create an elements filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
+    For more information, see [Create an elements filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
 
 <table id="table_yvq_m5s_vv"><thead><tr><th>
 
@@ -121,7 +121,7 @@ Filter
 
 Specify the filter conditions to limit the available elements. Only elements that meet these conditions are displayed when you apply this element filter.For this element filter, specify `[User][is (dynamic)][Me]`.
 
- For [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/personalized-visuals.md), the operator in the filter condition must be `[is (dynamic)]`.
+ For [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/personalized-visuals.md), the operator in the filter condition must be `[is (dynamic)]`.
 
 </td></tr><tr><td>
 
@@ -136,13 +136,13 @@ Select any roles that a user must have to select this element filter on a widget
 
 2.  Create a score widget with the details in the widget fields table.
 
-    For more information, see [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Widgets.md). The important thing to know is that the elements filter applies to the indicator's first-level breakdown.
+    For more information, see [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_Widgets.md). The important thing to know is that the elements filter applies to the indicator's first-level breakdown.
 
     |Field|Description|
     |-----|-----------|
     |Name|My open incidents|
     |Indicator|Number of open incidents|
-    |Breakdown|Select `Assigned To`. If this breakdown is not available, add it to the indicator. For more information, see [assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-breakdown-mapping.md).|
+    |Breakdown|Select `Assigned To`. If this breakdown is not available, add it to the indicator. For more information, see [assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md).|
     |Type|Score|
     |Visualization|Latest Score|
 

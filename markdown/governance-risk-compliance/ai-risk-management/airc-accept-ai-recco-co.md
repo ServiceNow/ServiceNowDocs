@@ -2,7 +2,7 @@
 title: Accept or dismiss AI-recommended control objectives
 description: Generate AI-assisted recommendations to quickly identify and associate relevant control objectives with an AI Assessment from the AI risk and compliance library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-accept-ai-recco-co.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/airc-accept-ai-recco-co.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -30,7 +30,7 @@ After a business user submits an AI Assessment, the assessment task moves to the
 
 **Note:** Review all AI-generated recommendations for accuracy.
 
-The Control Objective Recommender skill generates the control objective recommendations. For more information about the skill, see [AI reviewer assist for risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-based-reviewer-assistant-for-assessments.md).
+The Control Objective Recommender skill generates the control objective recommendations. For more information about the skill, see [AI reviewer assist for risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-based-reviewer-assistant-for-assessments.md).
 
 ## Procedure
 
@@ -143,7 +143,7 @@ All accepted AI recommendations are scoped to the asset and appear in the Applic
 
 ## What to do next
 
-Review the risk statement recommendations. For steps, see [Accept or dismiss AI-recommended risk statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-accept-ai-recco-risk-stmt.md). When done, mark the assessment as complete.
+Review the risk statement recommendations. For steps, see [Accept or dismiss AI-recommended risk statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-accept-ai-recco-risk-stmt.md). When done, mark the assessment as complete.
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

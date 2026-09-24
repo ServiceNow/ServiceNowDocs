@@ -2,7 +2,7 @@
 title: Add entities to an investigative case using Investigative Case Management Entity Management
 description: Add an associated entity to an investigative case for increased tracking and traceability surrounding all assets related to the case.Add an associate person to an investigative case. This person can be a subject, victim, witness, or another category.Add property items that are related to an investigative case created in the Investigative Case Management application.Add locations that are related to an investigative case created in the Investigative Case Management application.Add investigative events or incident events that are related to an investigative case created in the Investigative Case Management application.Add vehicles that are related to an investigative case created in the Investigative Case Management application.Add organizations that are related to an investigative case created in the Investigative Case Management application.Add firearms that are related to an investigative case created in the Investigative Case Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-icm-add-entities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-icm-add-entities.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-09"
@@ -26,7 +26,7 @@ Role required: icm.investigator, supervisory\_agent
 
 ### About this task
 
-**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
+**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
 
 **Note:** Adding a person through the Persons tab does not affect roles at the user level.
 
@@ -42,7 +42,7 @@ Role required: icm.investigator, supervisory\_agent
 
 4.  On the form, fill in the fields with identifying information.
 
-    For more information about the form fields used to capture the details of the persons record, see [ICM Entity Management Person form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-case-forms-enm-pers.md).
+    For more information about the form fields used to capture the details of the persons record, see [ICM Entity Management Person form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-case-forms-enm-pers.md).
 
 5.  Enter a brief description of the relationship this person has to the case, then select **Save**.
 
@@ -63,7 +63,7 @@ Role required: icm.investigator, supervisory\_agent
 
 ### About this task
 
-**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
+**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
 
 ### Procedure
 
@@ -77,7 +77,7 @@ Role required: icm.investigator, supervisory\_agent
 
 4.  On the form, fill in the fields with information about the property.
 
-    For more information about the form fields used to capture the details of the property record, see [ICM Entity Management Property form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-case-forms-enm-prop.md).
+    For more information about the form fields used to capture the details of the property record, see [ICM Entity Management Property form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-case-forms-enm-prop.md).
 
 5.  Enter a brief description of the relationship this property has to the case, then select **Save**.
 
@@ -96,7 +96,7 @@ Role required: icm.investigator, supervisory\_agent
 
 ### About this task
 
-**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
+**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
 
 ### Procedure
 
@@ -110,7 +110,7 @@ Role required: icm.investigator, supervisory\_agent
 
 4.  On the form, fill in the fields with information about the location.
 
-    For more information about the form fields used to capture the details of the location record, see [ICM Entity Management Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-case-forms-enm-loc.md).
+    For more information about the form fields used to capture the details of the location record, see [ICM Entity Management Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-case-forms-enm-loc.md).
 
 5.  Enter a brief description of the relationship this location has to the case, then select **Save**.
 
@@ -131,7 +131,7 @@ Role required: icm.investigator, supervisory\_agent
 
 With Investigative Case Management, investigators can create incident and investigation event records to help capture the timeline for important events that happen during the investigation, and the timeline of the investigation itself. The entity tab list can be filtered by investigation events or incident events.
 
-**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
+**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
 
 ### Procedure
 
@@ -147,7 +147,7 @@ With Investigative Case Management, investigators can create incident and invest
 
 5.  On the form, fill in the fields with information about the event, such as the event details, and date and time.
 
-    For more information about the form fields used to capture the details of the event record, see [ICM Entity Management Events form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-case-forms-enm-evnt.md).
+    For more information about the form fields used to capture the details of the event record, see [ICM Entity Management Events form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-case-forms-enm-evnt.md).
 
 6.  Enter a brief description of the relationship this event has to the case, then select **Save**.
 
@@ -166,7 +166,7 @@ Role required: icm.investigator, supervisory\_agent
 
 ### About this task
 
-**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
+**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
 
 ### Procedure
 
@@ -180,7 +180,7 @@ Role required: icm.investigator, supervisory\_agent
 
 4.  On the form, fill in the fields with identifying information about the vehicle.
 
-    For more information about the form fields used to capture the details of the vehicle record, see [ICM Entity Management Vehicle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-case-forms-enm-veh.md).
+    For more information about the form fields used to capture the details of the vehicle record, see [ICM Entity Management Vehicle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-case-forms-enm-veh.md).
 
 5.  Enter a brief description of the relationship this vehicle has to the case, then select **Save**.
 
@@ -199,7 +199,7 @@ Role required: icm.investigator, supervisory\_agent
 
 ### About this task
 
-**Note:** Not all of fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
+**Note:** Not all of fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
 
 ### Procedure
 
@@ -213,7 +213,7 @@ Role required: icm.investigator, supervisory\_agent
 
 4.  On the form, fill in the fields with identifying information about the organization.
 
-    For more information about the form fields used to capture the details of the organization record, see [ICM Entity Management Organization form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-case-forms-enm-org.md).
+    For more information about the form fields used to capture the details of the organization record, see [ICM Entity Management Organization form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-case-forms-enm-org.md).
 
 5.  Enter a brief description of the relationship this organization has to the case, then select **Save**.
 
@@ -234,7 +234,7 @@ Role required: icm.investigator, supervisory\_agent
 
 With Investigative Case Management, Investigators can create and manage a centralized firearms master index to unify firearm records across several investigations. This master index stores critical identifiers, traits, and historical data in a dedicated Firearms tab, and allows firearms to be linked to related entities \(persons, events, cases, evidence, organizations, locations, property\) within the case. Users are able to add new firearms, view existing ones in a related tab or list, and edit them, and view audit logs for all firearm record changes and relationship updates.
 
-**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
+**Note:** Not all of the fields are mandatory, but there is a minimum amount of information required for the record to be considered complete and thus searchable within the case workspace. For more information on entity completeness rules, see [Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
 
 ### Procedure
 
@@ -248,7 +248,7 @@ With Investigative Case Management, Investigators can create and manage a centra
 
 4.  On the form, fill in the fields with identifying information about the firearm.
 
-    Each firearm profile stores critical identifiers, traits, and historical data. For more information about the form fields used to capture the details of the organization record, see [ICM Entity Management Firearm form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-case-forms-enm-fir.md).
+    Each firearm profile stores critical identifiers, traits, and historical data. For more information about the form fields used to capture the details of the organization record, see [ICM Entity Management Firearm form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-case-forms-enm-fir.md).
 
 5.  Enter a brief description of the relationship that this firearm has to the case, then select **Save**.
 

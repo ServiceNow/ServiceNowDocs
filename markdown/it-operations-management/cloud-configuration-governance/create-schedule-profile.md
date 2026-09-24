@@ -2,7 +2,7 @@
 title: Create a schedule profile
 description: You map a schedule profile to an instance schedule. The schedule profile applies to all newly-provisioned resources that use the profile. For example, a schedule profile can specify the days of the week and times of day when a stack should start and stop.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-schedule-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-schedule-profile.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -56,10 +56,10 @@ Auto-populated value between `0` and `1`: The fraction of time that a stack with
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
+**Parent Topic:**[Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
 
 **Related topics**  
 
 
-[Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md)
+[Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md)
 

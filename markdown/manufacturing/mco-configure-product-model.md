@@ -2,7 +2,7 @@
 title: Configure product model
 description: Create and activate product models for finished products, parts, and components in Manufacturing Commercial Operations \(MCO\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-configure-product-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-configure-product-model.html
 release: australia
 topic_type: task
 last_updated: "2026-06-30"

@@ -2,7 +2,7 @@
 title: Create an inventory stock order request
 description: Create an inventory stock order request so that you can order new hardware in bulk for your stockrooms. After your request is approved, the Hardware Stock Order flow takes you through the process of requesting, sourcing, and receiving your order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-inventory-stock-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-inventory-stock-order.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -74,7 +74,7 @@ Role required: inventory\_admin
     -   add a designated vendor by navigating to vendor items.
     -   add a catalog item for the requested model with vendor details.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

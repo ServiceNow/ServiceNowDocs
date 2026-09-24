@@ -2,7 +2,7 @@
 title: Extend an existing experience
 description: Create an experience that extends an existing experience on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
@@ -107,7 +107,7 @@ ServiceNow instance
 
 4.  Select the instance that you want to deploy changes to.
 
-    During ServiceNow Lux Lab for VS Code extension setup, you connect to the instance that contains the files you want to access and where you want to preview and deploy changes. For more information or to connect another instance, see [Connect ServiceNow Lux Lab for VS Code extension to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.md).
+    During ServiceNow Lux Lab for VS Code extension setup, you connect to the instance that contains the files you want to access and where you want to preview and deploy changes. For more information or to connect another instance, see [Connect ServiceNow Lux Lab for VS Code extension to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.md).
 
 5.  Select the location where you want your want your project to live on your local drive.
 
@@ -130,5 +130,5 @@ Your extension experience is created. The pages for the experience are located u
 
 ## What to do next
 
-[Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page-existing-servicenow-ai-experience-lab-for-vs-code.md) or [extend an existing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/extend-existing-page-servicenow-ai-experience-lab-for-vs-code.md) for your extension experience.
+[Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-page-existing-servicenow-ai-experience-lab-for-vs-code.md) or [extend an existing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/extend-existing-page-servicenow-ai-experience-lab-for-vs-code.md) for your extension experience.
 

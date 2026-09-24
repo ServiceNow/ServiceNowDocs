@@ -2,7 +2,7 @@
 title: Enable security for a project in Project Workspace
 description: Enable security in a project to make the project confidential to ensure that only authorized users can access the project and its related sub projects and entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/enable-security-for-a-project-in-project-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/enable-security-for-a-project-in-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -26,7 +26,7 @@ Role required: admin
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Details page of the project by selecting **Details** from the list.
 
@@ -55,10 +55,10 @@ Role required: admin
     -   Resource Management Workspace
     -   Strategic Portfolio Workspace
 
-**Parent Topic:**[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)
+**Parent Topic:**[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)
 
 **Related topics**  
 
 
-[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)
+[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)
 

@@ -2,7 +2,7 @@
 title: Customization vs configuration
 description: There are important differences between customizing and configuring ServiceNow applications. The ServiceNow platform is built to embrace customization and configuration but how you do so can have significant impacts on ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/customization-vs-configuration-concepts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/customization-vs-configuration-concepts.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -149,5 +149,5 @@ Assuming you’ve documented all your customizations—including the business ju
 -   Revert to out-of-the-box
 -   Merge your customization with the base system to resolve conflicts
 
-**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 

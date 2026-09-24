@@ -2,7 +2,7 @@
 title: Activate Intent and Activity Analysis skill
 description: Activate the Intent and Activity Analysis skill to use AI to understand the intent of the requester and gain insight into the related tasks and actions needed to complete the tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/activate-intent-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/activate-intent-skill.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -33,5 +33,5 @@ Role required: admin
     The skill is activated for your instance.
 
 
-**Parent Topic:**[Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/nowass-intent-activity-analysis.md)
+**Parent Topic:**[Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/nowass-intent-activity-analysis.md)
 

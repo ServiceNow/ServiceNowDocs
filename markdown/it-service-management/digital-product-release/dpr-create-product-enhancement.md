@@ -2,7 +2,7 @@
 title: Add an enhancement to a product or service
 description: Add a product enhancement to a product or service to help you plan and manage the scope of its release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-create-product-enhancement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-create-product-enhancement.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -22,7 +22,7 @@ Role required: sn\_dpr\_model.product\_manager
 
 ## About this task
 
-You can also add enhancement from an epic. For more information, see [Add a product enhancement from a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md).
+You can also add enhancement from an epic. For more information, see [Add a product enhancement from a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md).
 
 ## Procedure
 
@@ -36,7 +36,7 @@ You can also add enhancement from an epic. For more information, see [Add a prod
 
 5.  Select **Add enhancement**.
 
-    Alternatively, you can also add enhancements or manage existing ones from the Release planning page of the product or service. For more information, see [Plan product enhancements into different releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-plan-feature-version.md).
+    Alternatively, you can also add enhancements or manage existing ones from the Release planning page of the product or service. For more information, see [Plan product enhancements into different releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-plan-feature-version.md).
 
 6.  On the Add enhancement dialog box, fill in the fields.
 

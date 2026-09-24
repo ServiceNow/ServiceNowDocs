@@ -2,7 +2,7 @@
 title: Monetary Benefit Plan Breakdown form
 description: Learn about the fields of monetary benefit plans form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/monetary-benefit-plan-breakdown-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/monetary-benefit-plan-breakdown-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -108,7 +108,7 @@ First date of the fiscal period corresponding to the benefit plan breakdown.
 </table>**Related topics**  
 
 
-[Create a monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-project-benefit-plan.md)
+[Create a monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-project-benefit-plan.md)
 
-[Update a monetary benefit plan breakdown for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-benefit-plan-breakdown.md)
+[Update a monetary benefit plan breakdown for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/update-benefit-plan-breakdown.md)
 

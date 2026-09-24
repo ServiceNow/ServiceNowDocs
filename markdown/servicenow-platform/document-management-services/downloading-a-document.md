@@ -2,7 +2,7 @@
 title: Download a document
 description: Download an attached document version based on the selected default version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/downloading-a-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/downloading-a-document.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -37,7 +37,7 @@ Role required: none
 5.  In the **Actions on selected rows** drop-down menu, select **Download Document**.
 
 
-**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
+**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
 **Related topics**  
 

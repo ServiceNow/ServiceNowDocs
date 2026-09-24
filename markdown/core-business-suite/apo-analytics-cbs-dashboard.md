@@ -2,7 +2,7 @@
 title: Accounts Payable Operations analytics on the CBS dashboard
 description: The Accounts Payable Operations tab on the Core Business Suite Analytics dashboard tracks open case volume and resolution trends for accounts payable requests, helping managers monitor invoice and payment activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/apo-analytics-cbs-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/apo-analytics-cbs-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -38,5 +38,5 @@ The Performance trends section tracks case volume and resolution rates over a se
 |Mean time to resolve|Average number of days to resolve an accounts payable case over the selected period. Example value: 7.0 days \(average for April 27 – May 26\).|
 |Total cases created by case type|A chart showing case volume broken down by accounts payable case type. Case types include: Payment inquiry, Invoice inquiry, Expedite payment request, Payment terms issue, Invoice entry assistance, and Other.|
 
-**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-analytics-overview.md)
+**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-analytics-overview.md)
 

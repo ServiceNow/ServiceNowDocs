@@ -2,7 +2,7 @@
 title: Builder library
 description: The ServiceNow AI Platform provides a robust set of builder tools that enable you to quickly develop applications for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/builder-library-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/builder-library-table.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -156,7 +156,7 @@ Configure a mobile-friendly experience for a company's employees to engage with 
 
 </td></tr><tr><td>
 
-[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)
+[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-landing-page.md)
 
 </td><td>
 
@@ -184,7 +184,7 @@ Configure a dark theme for your company's brand that makes use of a primary colo
 
 </td></tr><tr><td>
 
-[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-builder-overview.md)
 
 </td><td>
 
@@ -212,7 +212,7 @@ Create and configure a conversation flow that enables end users to see the statu
 
 </td></tr><tr><td>
 
-[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/using-workspace-builder.md)
+[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/using-workspace-builder.md)
 
 </td><td>
 

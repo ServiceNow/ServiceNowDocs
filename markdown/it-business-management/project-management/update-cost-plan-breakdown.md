@@ -2,7 +2,7 @@
 title: Update a cost plan breakdown
 description: Update a cost plan breakdown record that specifies the estimated and actual cost, at a granular level, for specific fiscal periods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/update-cost-plan-breakdown.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/update-cost-plan-breakdown.html
 release: australia
 product: Project Management
 classification: project-management
@@ -34,15 +34,15 @@ Role required: it\_project\_manager
 
 6.  In the Cost Plan Breakdown form, view and update the enabled fields.
 
-    For more information, see [Cost plan breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-breakdown-form.md).
+    For more information, see [Cost plan breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/cost-plan-breakdown-form.md).
 
 
-**Parent Topic:**[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md)
+**Parent Topic:**[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectCostPlan.md)
 
 **Related topics**  
 
 
-[Cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-breakdown.md)
+[Cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/cost-plan-breakdown.md)
 
-[System-generated cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-breakdown.md)
+[System-generated cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/cost-plan-breakdown.md)
 

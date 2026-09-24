@@ -2,7 +2,7 @@
 title: Configure profiles and security incidents for system enrichment queries
 description: Configure your profile settings so that the profile triggers only under the conditions that you set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-configure-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mcafee-epo-configure-profile.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -48,7 +48,7 @@ Alternate configuration item \(CI\) trigger field. Default is cleared. When this
 
 Select this check box if you believe the CI field will not be populated upon incident creation, but CI information will be populated in another field on the security incident. When this option is enabled, the Alternate CI trigger field choice list is displayed. Choose an alternate field from the choice list to check for your CI search criteria.
 
-For more information on the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-alternate-ci.md).
+For more information on the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-alternate-ci.md).
 
 </td></tr><tr><td id="d198042e125">
 
@@ -110,5 +110,5 @@ When the check box is cleared, and this option is disabled, no approval requests
     You have successfully configured the profile so it is triggered automatically upon incident creation, and an alternate field is used to populate matching CI results.
 
 
-**Parent Topic:**[Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-configuring-profile.md)
+**Parent Topic:**[Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-configuring-profile.md)
 

@@ -2,7 +2,7 @@
 title: Configuring field visibility in the Create questionnaire modal
 description: The Create questionnaire modal supports dynamic field visibility based on page parameters. When specific parameters are passed to the page, certain fields are automatically hidden.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-configuring-field-visibility-questionnaire-modal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-configuring-field-visibility-questionnaire-modal.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-05"

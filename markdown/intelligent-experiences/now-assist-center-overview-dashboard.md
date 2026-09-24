@@ -2,7 +2,7 @@
 title: AI Admin Center Overview dashboard
 description: Use the AI Admin Center Overview dashboard to monitor key metrics for AI asset activation, adoption, and usage across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-overview-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-overview-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -92,5 +92,5 @@ The **Usage** section displays the total number of executions for each AI asset 
     This area of the dashboard displays a trend line chart showing the total executions for skills, assistants, and AI agents over the selected time range. Use the trend lines to compare usage volumes across asset types and monitor changes in execution patterns over time.
 
 
-**Parent Topic:**[View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md)
+**Parent Topic:**[View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-ai-usage.md)
 

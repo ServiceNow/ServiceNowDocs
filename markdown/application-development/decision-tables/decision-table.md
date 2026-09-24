@@ -2,7 +2,7 @@
 title: Decision Tables
 description: Use decision tables to decouple decision logic from your code by creating and maintaining decision rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/decision-tables/decision-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/decision-tables/decision-table.html
 release: australia
 product: Decision Tables
 classification: decision-tables
@@ -43,8 +43,8 @@ To interact with Decision Tables in script, use the [DecisionTableAPI - Scoped, 
     Answer records represent answers that are reached using different decision input values. Answers records can be records on any table, but you must choose the table when creating your Decision Table record. You could, for example, use the sys\_choice table to use existing choice records. From the example about insurance coverage, you could create a table where each record contains details about the levels of insurance coverage.
 
 
--   **[Decision tables in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-tables-classic-ui.md)**  
+-   **[Decision tables in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/decision-tables/decision-tables-classic-ui.md)**  
 In the classic environment, you can develop a table to use for your decision answer records. You then associate an answer record to each decision on your decision table. This answer record is returned when the decision is reached based on your inputs.
 
-**Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/builder-library-table.md)
+**Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/builder-library-table.md)
 

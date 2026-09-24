@@ -2,7 +2,7 @@
 title: Make a copy of AI skill
 description: The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings. Configure the skill to fit your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/make-a-copy-of-a-now-assist-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -50,12 +50,12 @@ A copy of the skill is generated and you're taken to the guided setup.
 
 ## What to do next
 
-Continue the steps in the guided setup to activate the skill. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+Continue the steps in the guided setup to activate the skill. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 
-If you're making a copy of the case or incident summarization skill and would like to learn more about your options, see the [documentation for configuring record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
+If you're making a copy of the case or incident summarization skill and would like to learn more about your options, see the [documentation for configuring record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
 
--   **[Configure case or incident summarization in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md)**  
+-   **[Configure case or incident summarization in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md)**  
 Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields and customize the prompt output for copies of the record summarization skills.
 
-**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-admin_0.md)
 

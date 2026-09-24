@@ -2,7 +2,7 @@
 title: Report a major incident manually
 description: Report a critical incident manually in the Digital resilience incident reporting application from the Operational Resilience Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/report-cri-inci-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/report-cri-inci-manually.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Verify that the sn\_dora\_accel\_entity table \(Legal entity for DORA\) contains
 
 4.  On the New record form, fill in the fields.
 
-    To view more information on the fields, see the [Create Digital Resilience Incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-dig-res-inci.md).
+    To view more information on the fields, see the [Create Digital Resilience Incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-dig-res-inci.md).
 
 5.  Select **Accept work**.
 

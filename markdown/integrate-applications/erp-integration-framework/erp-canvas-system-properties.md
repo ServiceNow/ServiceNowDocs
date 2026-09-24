@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP system properties
 description: System properties that control Zero Copy Connector for ERP behavior, including debug logging, OData connections, and ETL extraction settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-system-properties.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

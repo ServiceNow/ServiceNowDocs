@@ -2,7 +2,7 @@
 title: Managing Contract Management Pro
 description: As administrator work on managing the word document templates, contracts and view analytics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-manage-cmpro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-manage-cmpro.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,16 +17,16 @@ breadcrumb: [Contract Management Pro, Legal and Contract Operations, Employee Se
 
 As administrator work on managing the word document templates, contracts and view analytics.
 
--   **[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)**  
+-   **[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)**  
 As administrator manage clauses and contract templates.
--   **[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)**  
+-   **[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)**  
 As administrator manage contract records.
--   **[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)**  
+-   **[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)**  
 Manage AI skills in Contract Management Pro including use cases, use case mappings, clause mappings, expected responses, and skill activation.
--   **[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-analytics-pa.md)**  
+-   **[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-analytics-pa.md)**  
 The Contracts Dashboard in Contract Management Pro is an analytics and reporting solution that enables you to make data-driven decisions through insights and trends derived from contract request data.
--   **[Modify assignment rule for contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-assign-rule.md)**  
+-   **[Modify assignment rule for contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-assign-rule.md)**  
 As a contracts configurator modify the assignment rule available in the base system for any changes required in the user or group to whom the contract request should be assigned.
 
-**Parent Topic:**[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)
+**Parent Topic:**[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)
 

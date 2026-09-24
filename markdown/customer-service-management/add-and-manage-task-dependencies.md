@@ -2,7 +2,7 @@
 title: Add and Manage Task Dependencies
 description: Add, edit, and manage dependencies within template items so that tasks execute in the correct sequence and follow defined dependency rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-and-manage-task-dependencies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-and-manage-task-dependencies.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

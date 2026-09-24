@@ -2,7 +2,7 @@
 title: Use Guided Tours in RPA Hub
 description: Use Guided Tours in RPA Hub to get instructions on how to perform a task.​ Guided Tours use a series of steps that may span multiple pages. The tour includes links to detailed documentation.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-guided-tour-rpa-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-guided-tour-rpa-hub.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

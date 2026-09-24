@@ -2,7 +2,7 @@
 title: Care Team Operations for Healthcare IT reference
 description: Reference topics provide additional information about Care Team Operations for Healthcare IT components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-it-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-it-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Using agentic workflows in ServiceNow Otto for HAM
 description: Use the ServiceNow Otto for HAM AI agent collection to complete hardware asset sourcing tasks autonomously and optimize the asset repair workflow. These AI agents help resolve hardware requests quickly, improve the productivity of asset managers, and speed up repairs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/now-assist-ham-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/now-assist-ham-agentic-workflow.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -35,7 +35,7 @@ Introduced in ServiceNow Otto for HAM version
 
 </th></tr></thead><tbody><tr><td>
 
-[Help manage hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)
+[Help manage hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)
 
 </td><td>
 
@@ -53,7 +53,7 @@ ServiceNow Otto for Hardware Asset Management \(HAM\) v1.0
 
 </td></tr><tr><td>
 
-[Help repair hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/now-assist-ham-repair-agent-workflow.md)
+[Help repair hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/now-assist-ham-repair-agent-workflow.md)
 
 </td><td>
 

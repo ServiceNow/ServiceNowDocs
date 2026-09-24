@@ -2,7 +2,7 @@
 title: Digital Product Release policies
 description: The Digital Product Release Policy Content Pack contains a set of policies to automate phase gate verification and continuous evaluation of software artifacts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-policies.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -21,7 +21,7 @@ You can use or customize these default DPR policies to validate that your config
 
 **Note:** You can’t modify the base system policies. However, you can create a copy of the policy and customize it.
 
-These policies are for both product and service releases. However, a few don't apply to service releases. For more information about those policies, see [Policies not applicable to service releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-policies.md).
+These policies are for both product and service releases. However, a few don't apply to service releases. For more information about those policies, see [Policies not applicable to service releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-policies.md).
 
 ## All Completed Stories Have Associated Commits \(all\_completed\_stories\_have\_associated\_commits\)
 
@@ -190,5 +190,5 @@ The following policies don't apply to service releases.
 **Related topics**  
 
 
-[Digital Product Release data collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-data-collector.md)
+[Digital Product Release data collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-data-collector.md)
 

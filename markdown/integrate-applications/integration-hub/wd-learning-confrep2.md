@@ -2,12 +2,12 @@
 title: Configure the Learning Assignment report
 description: Configure the Learning Assignment report in Workday to retrieve user's learning assignments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/wd-learning-confrep2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/wd-learning-confrep2.html
 release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Workday Learning Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---

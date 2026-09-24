@@ -2,7 +2,7 @@
 title: Proactive Action form
 description: When creating a Proactive Triggers rule, the Proactive Action form includes the following fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/proactive-action-new-record-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/product-support-for-technology/proactive-action-new-record-form.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -122,5 +122,5 @@ Tagline
 Text that the end users see above the buttons that you've created. The default tagline text is `Suggested for you`.\(For **Message that launches a selection of virtual agent topics** actions only.\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Proactive Triggers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers-reference.md)
+</table>**Parent Topic:**[Proactive Triggers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/product-support-for-technology/proactive-triggers-reference.md)
 

@@ -2,7 +2,7 @@
 title: Request change form
 description: The request change form enables you to request for a change in the demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-request-change-form-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-request-change-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

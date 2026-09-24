@@ -2,7 +2,7 @@
 title: Cancel a submitted request in Care Team Mobile
 description: To cancel a submitted request in Care Team Mobile, simply locate the request and select Cancel case from the action menu.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-cancel-submitted-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-cancel-submitted-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

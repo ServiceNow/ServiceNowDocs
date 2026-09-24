@@ -2,7 +2,7 @@
 title: ServiceNow Otto Health and Safety skills, AI agents, and agentic workflows
 description: You can identify whether a ServiceNow Otto for Health and Safety skill or agentic workflow is active by default or if it must be activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-na-skills-activation-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/hs-na-skills-activation-status.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -16,7 +16,7 @@ breadcrumb: [Reference, ServiceNow Otto for Health and Safety, Health and Safety
 
 You can identify whether a ServiceNow Otto for Health and Safety skill or agentic workflow is active by default or if it must be activated.
 
-To activate a skill, see [Activate a ServiceNow Otto for Health and Safety skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.md).
+To activate a skill, see [Activate a ServiceNow Otto for Health and Safety skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.md).
 
 For more information on ServiceNow Otto AI assets that are on by default, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 

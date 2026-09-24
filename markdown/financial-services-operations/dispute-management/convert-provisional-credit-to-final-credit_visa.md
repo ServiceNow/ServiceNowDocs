@@ -2,7 +2,7 @@
 title: Convert provisional credit to final credit
 description: Convert the provisional credit that was issued previously to a customer to a final credit issuance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit\_visa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit\_visa.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -45,5 +45,5 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 8.  Select **Close task**.
 
 
-**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

@@ -2,12 +2,12 @@
 title: Set up the Service Graph Connector for Arista VeloCloud schedule
 description: Set up and configure the Service Graph Connector for Arista VeloCloud SD-WAN. The process includes installation, optional demo data integration, connectivity configuration, and scheduling data collection for seamless Configuration Management Database \(CMDB\) integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/set-up-the-service-graph-connector-for-arista-velocloud-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-the-service-graph-connector-for-arista-velocloud-schedule.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Configure Arista VeloCloud SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---

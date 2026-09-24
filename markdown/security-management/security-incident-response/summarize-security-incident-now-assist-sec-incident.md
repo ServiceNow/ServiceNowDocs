@@ -2,7 +2,7 @@
 title: Summarize a security incident
 description: Understand the context of a security incident with the Security Incident summarization generative AI skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/summarize-security-incident-now-assist-sec-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/summarize-security-incident-now-assist-sec-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +19,7 @@ Understand the context of a security incident with the Security Incident summari
 
 ## Before you begin
 
-You can summarize a security incident in the legacy Core UI \(UI16\) and in the Security Incident Response Workspace. There must be a minimum of 50 words in the fields that are used for the input data to summarize an incident using generative AI. For more information about the input fields, see [Inputs and triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/input-triggers-now-assist-security-incident.md).
+You can summarize a security incident in the legacy Core UI \(UI16\) and in the Security Incident Response Workspace. There must be a minimum of 50 words in the fields that are used for the input data to summarize an incident using generative AI. For more information about the input fields, see [Inputs and triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/input-triggers-now-assist-security-incident.md).
 
 Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
@@ -94,5 +94,5 @@ Select the copy icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy icon.\) 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-for-security.md)
+**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-now-assist-for-security.md)
 

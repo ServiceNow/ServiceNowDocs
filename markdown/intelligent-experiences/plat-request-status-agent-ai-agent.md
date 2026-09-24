@@ -2,7 +2,7 @@
 title: Request status AI agent
 description: This AI agent answers inquiries about existing tickets that were created by or are currently opened by the logged-in user. It should be triggered only when the user explicitly references an existing ticket \(for example, by asking for ticket status, updates, comments, or history\).This AI agent enables you to view your open tickets, check the status of tickets, and add comments through ServiceNow Otto for Virtual Agent, the ServiceNow Otto panel, or Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/plat-request-status-agent-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-request-status-agent-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -25,7 +25,7 @@ The agent handles only tickets, incidents, tasks, or requests that were created 
     -   Add an attachment to the ticket
 3.  Perform the action and display confirmation to the user.
 
-For more information, see [Using the request status AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-request-status-agent-ai-agent.md).
+For more information, see [Using the request status AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-request-status-agent-ai-agent.md).
 
 <table><thead><tr><th>
 
@@ -57,7 +57,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Used in agentic workflows
 Default VA Workflow
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-agents-overview.md)
+</table>**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-ai-agents-overview.md)
 
 ## Using the request status AI agent
 
@@ -133,7 +133,7 @@ When you ask for the details of a request, you can perform any other ticket task
 
 You can upload a file as an attachment to an open ticket or incident to support a request action. For example, if you lose your identity card you may request a replacement using the request status AI agent. You may be asked to upload an email or document that has your manager's approval to get the replacement ID card. In the conversation, you just type, I need to attach a document to this incident or ticket. The AI agent then provides the **Click here to upload a file** option within the AI agent chat for you to upload an attachment to the ticket. You upload the manager approval and the service agent can then approve your request for a new ID.
 
-The tools and triggers that are associated with the request status AI agent are provided by ServiceNow Otto applications. You can activate the AI agent by making triggers active and setting the display settings to include Virtual Agent. If you want to change this AI agent's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md), adjust the settings to suit your specific needs, and activate the duplicated version of the AI agent instead.
+The tools and triggers that are associated with the request status AI agent are provided by ServiceNow Otto applications. You can activate the AI agent by making triggers active and setting the display settings to include Virtual Agent. If you want to change this AI agent's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/clone-ai-agent.md), adjust the settings to suit your specific needs, and activate the duplicated version of the AI agent instead.
 
 ### Prerequisites and setup
 

@@ -2,7 +2,7 @@
 title: Bulk import of your enterprise models and assets
 description: Use a subflow to import enterprise models and assets of multiple types to your ServiceNow instance at one go. You can also perform a bulk update on existing models and assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -39,7 +39,7 @@ Modes refer to the type of import that you want to process. There are modes for 
 
 Based on the mode you select in the import record, you can download the corresponding template.
 
-**Note:** Ensure that you enter valid values in all the mandatory fields for the import process to run effectively. For a list of all the mandatory fields, see [Mandatory fields in the bulk import spreadsheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/mandatory-bulk-fields.md).
+**Note:** Ensure that you enter valid values in all the mandatory fields for the import process to run effectively. For a list of all the mandatory fields, see [Mandatory fields in the bulk import spreadsheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/mandatory-bulk-fields.md).
 
 <table id="table_ofy_kbk_3xb"><thead><tr><th>
 

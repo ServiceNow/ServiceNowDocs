@@ -2,7 +2,7 @@
 title: Update associated Decision tables for HAM flows
 description: Update associated Decision tables for Hardware Asset Management \(HAM\) flows to trigger a new or customized HAM flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/trigger-flow-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/trigger-flow-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -45,7 +45,7 @@ Role required: admin, decision\_table\_admin
 10. Update the **Order** field with a value less than 100.
 
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

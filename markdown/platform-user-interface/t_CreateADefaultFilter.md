@@ -2,7 +2,7 @@
 title: Create a default filter for a related list
 description: Create a default filter for the records that load when your related list displays.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateADefaultFilter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateADefaultFilter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Role required: admin
 3.  Click **Set as Default Filter**.
 
 
-**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 

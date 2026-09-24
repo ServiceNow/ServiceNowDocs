@@ -2,14 +2,14 @@
 title: Configure Microsoft SharePoint Online for external content indexing
 description: Register an OAuth 2.0 application in the Microsoft Entra admin center to grant the Microsoft SharePoint Online external content connector access to your Microsoft SharePoint Online source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-06-17"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft SharePoint Online external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -27,7 +27,7 @@ You need the following credentials and permissions for your organization in the 
 -   Permission to grant admin consent for an application's API permissions
 -   Permission to upload certificates for an application
 
-You must have created a public/private key pair for the Microsoft SharePoint Online external content connector and extracted the public key certificate in DER-encoded binary X.509 format. For details on creating the public/private key pair and extracting the public key certificate, see [Create a public/private key pair for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/gen-cert-spo-ext-cont-connector.md).
+You must have created a public/private key pair for the Microsoft SharePoint Online external content connector and extracted the public key certificate in DER-encoded binary X.509 format. For details on creating the public/private key pair and extracting the public key certificate, see [Create a public/private key pair for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/gen-cert-spo-ext-cont-connector.md).
 
 Role required: none
 
@@ -105,7 +105,7 @@ Sites.Read.All
 
 </td><td>
 
-This permission enables the connector to perform automatic site discovery for crawl configuration and one-time crawls.**Note:** If you plan to specify the sites to crawl manually, don't select this permission. For more information on specifying sites for the connector to crawl, see [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-crawl-settings-spo-ext-cont-connector.md). To learn more about one-time crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
+This permission enables the connector to perform automatic site discovery for crawl configuration and one-time crawls.**Note:** If you plan to specify the sites to crawl manually, don't select this permission. For more information on specifying sites for the connector to crawl, see [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-spo-ext-cont-connector.md). To learn more about one-time crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Sites.Selected
 
 This permission allows the connector to access content and user permissions from individual sites and site collections in your Microsoft SharePoint Online tenant. An administrator must grant FullControl permissions to your registered Microsoft Entra OAuth 2.0 app for each site or site collection that you want the connector to access content from.Select this permission if your organization doesn't permit you to grant Sites.FullControl.All permission to a registered application.
 
-To learn how to grant FullControl permissions for individual sites and site collections to your registered Microsoft Entra OAuth 2.0 app, see [Configure site and site collection access for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-site-collection-access-spo-external-content-connector.md).
+To learn how to grant FullControl permissions for individual sites and site collections to your registered Microsoft Entra OAuth 2.0 app, see [Configure site and site collection access for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-site-collection-access-spo-external-content-connector.md).
 
 </td></tr></tbody>
 </table>    7.  Select **Add permissions**.
@@ -161,7 +161,7 @@ To learn how to grant FullControl permissions for individual sites and site coll
 
     \[Omitted image "ms-sharepoint-online-entra-api-permissions-grant-consent.png"\] Alt text: Application's API permissions list in Microsoft Entra admin center showing Microsoft Graph API permissions and Sites.FullControl.All SharePoint API permission added.
 
-    **Tip:** The SharePoint section of your application's API permissions list will show the entry for the SharePoint API permission that you selected in step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md). The images in this procedure show the Sites.FullControl.All permission, but your application may show the Sites.Selected permission instead.
+    **Tip:** The SharePoint section of your application's API permissions list will show the entry for the SharePoint API permission that you selected in step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md). The images in this procedure show the Sites.FullControl.All permission, but your application may show the Sites.Selected permission instead.
 
 4.  Grant admin consent for the added API permissions.
 
@@ -204,16 +204,16 @@ To learn how to grant FullControl permissions for individual sites and site coll
 
 ## What to do next
 
-If you granted Sites.Selected permission instead of Sites.FullControl.All permission in step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md), configure SharePoint API permissions for the site collections you want the Microsoft SharePoint Online connector to be able to crawl. For details on this procedure, see [Configure site and site collection access for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-site-collection-access-spo-external-content-connector.md).
+If you granted Sites.Selected permission instead of Sites.FullControl.All permission in step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md), configure SharePoint API permissions for the site collections you want the Microsoft SharePoint Online connector to be able to crawl. For details on this procedure, see [Configure site and site collection access for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-site-collection-access-spo-external-content-connector.md).
 
 Provide the following items to your connector administrator:
 
--   The OAuth 2.0 application's tenant ID and client ID that you recorded in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md).
--   The DER-encoded binary X.509 format public key certificate's SHA1 thumbprint hash in hexadecimal format that you recorded in step [5.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md).
+-   The OAuth 2.0 application's tenant ID and client ID that you recorded in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md).
+-   The DER-encoded binary X.509 format public key certificate's SHA1 thumbprint hash in hexadecimal format that you recorded in step [5.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md).
 
 Your connector administrator needs these items to configure a Microsoft SharePoint Online external content connector to retrieve searchable content and security principals from your Microsoft SharePoint Online instance.
 
-For details on creating and configuring a Microsoft SharePoint Online external content connector, see [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-mspo.md).
+For details on creating and configuring a Microsoft SharePoint Online external content connector, see [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-mspo.md).
 
-**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/microsoft-sharepoint-online-external-content-connector.md)
+**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/microsoft-sharepoint-online-external-content-connector.md)
 

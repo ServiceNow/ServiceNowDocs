@@ -2,7 +2,7 @@
 title: Test suite results record
 description: The Test Suite Results record displays information about the results of one execution of one test suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-test-suite-results-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-test-suite-results-record.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -54,7 +54,7 @@ Base Test Suite Result
 
 </td><td>
 
-If this test suite is a child in a hierarchy of test suites, the base test suite result is the unique ID of the result record for the suite at the top-most level of the hierarchy. For more information, see [Example: Base test suite result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
+If this test suite is a child in a hierarchy of test suites, the base test suite result is the unique ID of the result record for the suite at the top-most level of the hierarchy. For more information, see [Example: Base test suite result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Parent
 
 </td><td>
 
-If this test suite has a parent, this is the test result record for the parent suite. For more information, see [Example: Parent test suite results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
+If this test suite has a parent, this is the test result record for the parent suite. For more information, see [Example: Parent test suite results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Retain indefinitely
 
 </td><td>
 
-Check box to keep this record even after the specified data retention period has passed. For more information, see [Table Cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/table-cleanup.md).
+Check box to keep this record even after the specified data retention period has passed. For more information, see [Table Cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/table-cleanup.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Rolled up test success count
 
 </td><td>
 
-How many tests were successful. The tests counted as part of the roll up are all tests included in this suite, plus all others included in suites that are descendents of this one. For more information, see [Rolled up counts for test suites results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
+How many tests were successful. The tests counted as part of the roll up are all tests included in this suite, plus all others included in suites that are descendents of this one. For more information, see [Rolled up counts for test suites results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Rolled up test failure count
 
 </td><td>
 
-How many tests failed. The tests counted as part of the roll up are all tests included in this suite, plus all others included in suites that are descendents of this one. For more information, see [Rolled up counts for test suites results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
+How many tests failed. The tests counted as part of the roll up are all tests included in this suite, plus all others included in suites that are descendents of this one. For more information, see [Rolled up counts for test suites results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Rolled up test error count
 
 </td><td>
 
-How many tests resulted in an error. The tests counted as part of the roll up are all tests included in this suite, plus all others included in suites that are descendents of this one. For more information, see [Rolled up counts for test suites results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
+How many tests resulted in an error. The tests counted as part of the roll up are all tests included in this suite, plus all others included in suites that are descendents of this one. For more information, see [Rolled up counts for test suites results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Rolled up test skip account
 
 </td><td>
 
-How many tests were skipped. The tests counted as part of the roll up are all tests included in this suite, plus all others included in suites that are descendents of this one. For more information, see [Rolled up counts for test suites results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
+How many tests were skipped. The tests counted as part of the roll up are all tests included in this suite, plus all others included in suites that are descendents of this one. For more information, see [Rolled up counts for test suites results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-rollup-xmpls.md).
 
 </td></tr><tr><td>
 
@@ -170,10 +170,10 @@ Previous suite result
 Only appears if this suite result is for a re-run of failed tests and you are logged on with the atf\_test\_admin, atf\_test\_designer, or admin role. Click the information icon to navigate to the "original" suite result record. \[Omitted image "atf-prev-suite-results.png"\] Alt text: Previous suite test result
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Suite results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/suite-results-module.md)
+</table>**Parent Topic:**[Suite results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/suite-results-module.md)
 
 **Related topics**  
 
 
-[Test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-results-module.md)
+[Test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-test-results-module.md)
 

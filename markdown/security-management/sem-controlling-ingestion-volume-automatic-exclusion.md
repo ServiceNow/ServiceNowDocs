@@ -2,7 +2,7 @@
 title: Controlling the ingestion volume with automatic exclusion
 description: Exclusion rules provide a way to filter or exclude detections from getting converted into VITs during the ingestion process in Vulnerability Response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-controlling-ingestion-volume-automatic-exclusion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-controlling-ingestion-volume-automatic-exclusion.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,10 +32,10 @@ During the process of ingesting data, there are distinct approaches for handling
         -   If one detection is marked as Closed while the remaining are excluded, the finding is designated as Closed Fixed.
         -   If the finding has open detections, then the finding remains Open.
 
-**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-automating-prioritization-triaging.md)
+**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-automating-prioritization-triaging.md)
 
 **Related topics**  
 
 
-[Configuring exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exclusion-rules.md)
+[Configuring exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exclusion-rules.md)
 

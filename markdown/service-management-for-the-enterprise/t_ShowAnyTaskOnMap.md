@@ -2,7 +2,7 @@
 title: Show any task on a map
 description: Custom tables that are extended from task can be created, shown, and managed on the interactive map. The location field on the task, must be a mappable space \(fm\_space\). There are some location fields on task that may have a reference qualifier that does not allow fm\_space be used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_ShowAnyTaskOnMap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_ShowAnyTaskOnMap.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,5 +53,5 @@ Set **Show task** to false
     \[Omitted image "TaskTab.png"\] Alt text: In this figure, there is a Task tab, with four requests on the current level.
 
 
-**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
+**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
 

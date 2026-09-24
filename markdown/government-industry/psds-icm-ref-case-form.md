@@ -2,7 +2,7 @@
 title: Investigative Case Management case details form
 description: The Investigative Case Management case details form help an investigator capture the preliminary information for an investigative case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-icm-ref-case-form.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: View and manage the opportunities created in Opportunity Marketplace
 description: Opportunities are created to solicit individuals to apply for roles within the opportunity. As an Opportunity Marketplace admin \[sn\_opp\_market.admin\], you can view and manage opportunity records from the ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-view-manage-opportunities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-view-manage-opportunities.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -57,7 +57,7 @@ The title of the opportunity that applicants and opportunity owners see when loo
 There are 3 opportunity types that come with the base system.-   **Gig**
 -   **Project**
 -   **Volunteer**
- As an admin, you can add custom opportunity types, see[Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md).
+ As an admin, you can add custom opportunity types, see[Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md).
 
 </td></tr><tr><td>
 
@@ -89,5 +89,5 @@ The date that the opportunity is available to applicants.
 4.  Select **Update**.
 
 
-**Parent Topic:**[Install and configure Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-inst-config.md)
+**Parent Topic:**[Install and configure Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-inst-config.md)
 

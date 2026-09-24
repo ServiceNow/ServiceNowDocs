@@ -2,7 +2,7 @@
 title: Category results
 description: The Category Results view is a stacked bar chart of responses to all questions in a category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_CategoryResults.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_CategoryResults.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,9 +14,9 @@ breadcrumb: [Quiz scorecards, View a quiz designer scorecard, View a quiz result
 
 The Category Results view is a stacked bar chart of responses to all questions in a category.
 
-Select the category to display from the choice list above the chart. Category results are only calculated for [scored questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAScoredQuestion.md)
+Select the category to display from the choice list above the chart. Category results are only calculated for [scored questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ConfigureAScoredQuestion.md)
 
-This view displays responses that use the following [data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md):
+This view displays responses that use the following [data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizDesigner.md):
 
 -   Checkbox
 -   Choice
@@ -25,7 +25,7 @@ This view displays responses that use the following [data types](https://raw.git
 -   Template
 -   Yes/No
 
-**Note:** The **Checkbox** and **Yes/No** data types are combined into the **Boolean** data type in the [Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md).
+**Note:** The **Checkbox** and **Yes/No** data types are combined into the **Boolean** data type in the [Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizDesigner.md).
 
 \[Omitted image "QuizScorecardCategoryResults.png"\] Alt text: Quiz category results.
 
@@ -33,5 +33,5 @@ To view details about a specific response to a question, point to the colored se
 
 \[Omitted image "QuizScorecardResultDetail.png"\] Alt text: Quick category result details.
 
-**Parent Topic:**[Quiz scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizScorecards.md)
+**Parent Topic:**[Quiz scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizScorecards.md)
 

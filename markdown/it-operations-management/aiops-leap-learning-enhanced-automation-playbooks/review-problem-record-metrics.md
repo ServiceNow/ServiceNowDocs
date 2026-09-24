@@ -2,7 +2,7 @@
 title: Review problem record metrics
 description: Use the Problems tab on the LEAP value dashboard to review the volume of problem records that LEAP created and identify which automation opportunities are driving root cause investigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-problem-record-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-problem-record-metrics.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

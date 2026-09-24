@@ -2,7 +2,7 @@
 title: Trigger additional actions in McAfee ePO integration
 description: The List Threat Events and Initiate Malware Scan capabilities can be triggered from Run Additional Actions.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-additional-actions-mcafee.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/configure-additional-actions-mcafee.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -45,9 +45,9 @@ You can configure and trigger additional actions in the McAfee ePO integration e
 7.  View and validate the McAfee ePO Threat Event Details on the related lists.
 
 
-**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Trigger McAfee ePO profile manually from a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-submit-ih-fm-si.md)
+**Previous topic:**[Trigger McAfee ePO profile manually from a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-submit-ih-fm-si.md)
 
-**Next topic:**[Using McAfee ePO integration in Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-mcafee-integration-aws.md)
+**Next topic:**[Using McAfee ePO integration in Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-mcafee-integration-aws.md)
 

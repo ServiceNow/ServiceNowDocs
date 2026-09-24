@@ -2,7 +2,7 @@
 title: Talent Acquisition Dashboard
 description: The Talent Acquisition Dashboard helps get an overview of the workload and performance details of the hiring efforts in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/kpi-dshbrd-ta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/kpi-dshbrd-ta.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -67,5 +67,5 @@ Apart from the data cards, you can use the following filters to skim through the
 |Average time from application submission to hired|Number|Aggregated time that is spent from the submission of an application to hire.|
 |Application Time per State|Graph|Aggregated time an application remains in one state.|
 
-**Parent Topic:**[Recruitment Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-reference.md)
+**Parent Topic:**[Recruitment Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/recruitment-workspace-reference.md)
 

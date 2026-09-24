@@ -2,7 +2,7 @@
 title: Case Playbook for Complaints
 description: Use the Case Playbook for Complaints to guide agents through the steps that are needed to resolve customer complaints.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-complaint-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-complaint-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ The Case Playbook for Complaints can be used with cases that are created using t
 
 ## Case Playbook for Complaints application
 
-The Case Playbook for Complaints 3.0 application \(com.sn\_csm\_complaint\_caseflow\) is available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
+The Case Playbook for Complaints 3.0 application \(com.sn\_csm\_complaint\_caseflow\) is available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md).
 
 ## Case Playbook for Complaints PAD process definition
 
@@ -55,7 +55,7 @@ Create a complaint case using the Case Playbook for Complaints
 
 Feature that opens the complaint playbook and initiates the first activity in the Intake stage, which is gathering complaint details. The agent can complete and save this activity to create the record.
 
- For more information, see [Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-create-record.md).
+ For more information, see [Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-create-record.md).
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Focused activity view
 
 </td><td>
 
-Feature that determines how the stages and activities appear in the playbook. [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-select-activity-view.md)
+Feature that determines how the stages and activities appear in the playbook. [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-select-activity-view.md)
 
  The Case Playbook for Complaints uses the Focused Activity View, which enables agents to see:
 
@@ -87,9 +87,9 @@ Feature that displays the following information in the contextual side panel:
 
  For more information about using the contextual side panel, see
 
--   [Using activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using-activity-stream.md)
--   [Viewing the ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
--   [Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)
+-   [Using activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-using-activity-stream.md)
+-   [Viewing the ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
+-   [Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-rel-records.md)
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Feature that uses the following settings to control activity visibility:
 -   Hide the activities in a stage that the logged-in user can't access.
 -   Hide the pending activities in a stage.
 
- For more information about configuring this feature, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-config-activity-visibility.md).
+ For more information about configuring this feature, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-config-activity-visibility.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Feature that displays the records in the contextual side panel. These records dy
 
 **Note:** The dynamic related records feature is available in CRM Workspace only.
 
- For more information, see [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md).
+ For more information, see [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-rel-records.md).
 
 </td></tr><tr><td>
 
@@ -205,7 +205,7 @@ When an agent creates a complaint case, the workspace opens the Create New Compl
 
  The agent can enter the information about the customer, the service, the complaint, and the expected outcome for the case. As the agent enters the complaint details, additional fields appear on the activity card such as the **Category** and **Subcategory** fields.
 
-**Note:** For more information about the service, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md).
+**Note:** For more information about the service, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-service-definitions.md).
 
  Agent actions:
 
@@ -479,5 +479,5 @@ The Case Playbook for Complaints v5.0 application includes a process-based page 
 -   Email templates that are displayed in the contextual side panel.
 -   Customization of the start and end states of the approval flow as fields in the Approval request activity.
 
-Agents can create tasks as needed as well as view and update case details. For more information, see [Configure templates and pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-pages.md).
+Agents can create tasks as needed as well as view and update case details. For more information, see [Configure templates and pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-pages.md).
 

@@ -2,7 +2,7 @@
 title: Agent Workspace for HR Case Management contextual side panel
 description: The contextual side panel in Agent Workspace for HR Case Management provides information designed to help you work an HR case and interact with your employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-context-sidebar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-context-sidebar.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -52,7 +52,7 @@ Agent Assist: Provides relevant knowledge articles about the case. You can also 
 
 </td><td>
 
-Employee Documents: Lists documents related to the case you are on. Select the document and you can download it or rename it.**Note:** The Contextual side panel requires the Employee Document Management \[com.sn\_employee\_document\_management\] plugin to display the employee documents. For more information, see [Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-employee-doc-management.md).
+Employee Documents: Lists documents related to the case you are on. Select the document and you can download it or rename it.**Note:** The Contextual side panel requires the Employee Document Management \[com.sn\_employee\_document\_management\] plugin to display the employee documents. For more information, see [Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-employee-doc-management.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Response Templates: Displays reusable messages that you can use when responding 
 
  An HR service configures response templates and are a fast, consistent, and efficient way to respond to common questions related to HR cases.
 
- For more information, see [Response templates for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+ For more information, see [Response templates for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Response Templates: Displays reusable messages that you can use when responding 
 
 Fulfillment Instructions: Provides you with focused and targeted information on how to complete an HR case faster and more efficiently. Can include specific instructions, KB articles, or a checklist of what to do on the case.
 
- For more information, see [HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md).
+ For more information, see [HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Fulfillment Instructions: Provides you with focused and targeted information on 
 
 </td><td>
 
-Checklist: Provides you with a list of things that need to be checked or done. Checklist helps you in resolving an issue efficiently and in a quicker way.For more information, see [Using checklists in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-checklists.md).
+Checklist: Provides you with a list of things that need to be checked or done. Checklist helps you in resolving an issue efficiently and in a quicker way.For more information, see [Using checklists in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-checklists.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Checklist: Provides you with a list of things that need to be checked or done. C
 
 </td><td>
 
-Use personal notes to add information that is not finalized and must not be tracked within the case history.For more information, see [Add personal notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/add-pn-aws.md)
+Use personal notes to add information that is not finalized and must not be tracked within the case history.For more information, see [Add personal notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/add-pn-aws.md)
 
 </td></tr></tbody>
 </table>

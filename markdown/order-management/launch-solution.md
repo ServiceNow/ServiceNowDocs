@@ -2,7 +2,7 @@
 title: Launch a solution
 description: Launch a configurable product to start a solution session. The product you launch becomes the solution root.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/launch-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/launch-solution.html
 release: australia
 topic_type: task
 last_updated: "2026-03-26"
@@ -36,17 +36,17 @@ The configuration session opens with the product you launched as the solution ro
 
 After launching a solution:
 
--   To trigger a configurable product action and add a child configuration, see [Add configurable products to a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-configurable-products-solution.md) .
--   To move between configurations once child configurations are added, see [Navigate within a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/navigate-solution.md).
+-   To trigger a configurable product action and add a child configuration, see [Add configurable products to a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/add-configurable-products-solution.md) .
+-   To move between configurations once child configurations are added, see [Navigate within a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/navigate-solution.md).
 
-**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
+**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-using.md)
 
 **Related topics**  
 
 
-[Solution configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/solution-configurations.md)
+[Solution configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/solution-configurations.md)
 
-[Solution navigation and layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/solution-navigation-layout.md)
+[Solution navigation and layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/solution-navigation-layout.md)
 
-[Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-configurable-product-action.md)
+[Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-configurable-product-action.md)
 

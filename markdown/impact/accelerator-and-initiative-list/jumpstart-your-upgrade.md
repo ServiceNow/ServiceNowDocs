@@ -2,7 +2,7 @@
 title: Jumpstart Your Upgrade
 description: Guidance on upgrade planning and preparation
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

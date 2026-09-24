@@ -2,7 +2,7 @@
 title: Components installed with Continuous Authorization and Monitoring
 description: Activating the GRC: CAM plugin adds or modifies several tables, user roles, and other components.Default properties are set with activation of CAM plug-in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Ris
 
 Activating the GRC: CAM plugin adds or modifies several tables, user roles, and other components.
 
-**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 
 ## Continuous Authorization and Monitoring system properties
 
@@ -157,7 +157,7 @@ Specifies the type of template to be used for Executive Summary report. By defau
 
 -   **Days before Next Authorization to create engagement**: Enter the days in the field to automatically create the next engagement in the authorization package. The days entered in this field are subtracted from the next authorization date to determine the next engagement date, which is recorded in the authorization package.
 
-    For more information, see [View package details in CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.md).
+    For more information, see [View package details in CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.md).
 
 -   **Homepage Title**: You can customize the homepage title using this field. Enter your organization-specific terminology. The default value is Continuous Authorization Monitoring. The homepage title updates immediately after saving.
 -   **Days before next authorization to set boundary to re-authorize**: You can configure authorization period in this field. Specify how many days before the authorization due date the system should display a re-authorization warning.

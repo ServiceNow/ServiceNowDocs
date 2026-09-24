@@ -2,7 +2,7 @@
 title: Government Service Case form
 description: A government service agent creates a case to identify a constituent's request, and to track the activities related to resolving the issue. The Case form captures and displays detailed information about a constituent's issue or request.The Case form includes related lists that store case information and that agents can use to perform case-related tasks. Government agents are able to access a service request case, information request case, or license and permit case and view the following related lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/government-service-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/government-service-case-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -406,7 +406,7 @@ Resolution notes
 Details about how the case was closed. This field is mandatory if a customer service agent or agent manager closes a case. If a constituent closes a case, it is not mandatory.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Core Case Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-case-forms.md)
+</table>**Parent Topic:**[Public Sector Digital Services Core Case Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-case-forms.md)
 
 ## Government Service Case form related lists
 

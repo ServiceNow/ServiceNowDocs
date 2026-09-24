@@ -2,7 +2,7 @@
 title: Configure quote document generation
 description: The Generate PDF Document feature generates a PDF document of the current quote based on the selected template. After the document is generated, it is available in the Attachments section of the Contextual Side Panel \(CSP\). To enable this feature, an administrator configures a custom integration and a custom event that initiate the document generation process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-generate-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-generate-document.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -24,7 +24,7 @@ Before you configure the document generation feature, complete the following ins
 2.  Submit a support ticket requesting to enable the **Document Generation** tenant setting.
 3.  When the tenant setting is enabled, export and import the transaction blueprint.
 
-You must also create a document template before you configure this feature. Document templates are created and managed outside CPQ Administration. For instructions, see [Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-configure-pdf-documents.md).
+You must also create a document template before you configure this feature. Document templates are created and managed outside CPQ Administration. For instructions, see [Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-configure-pdf-documents.md).
 
 ## About this task
 
@@ -50,7 +50,7 @@ To configure the feature, update the system fields, create a custom integration 
 
 5.  Create a custom integration.
 
-    For more information, see [Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-integrations.md)
+    For more information, see [Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-integrations.md)
 
 6.  Configure the following integration settings.
 
@@ -96,5 +96,5 @@ To configure the feature, update the system fields, create a custom integration 
 
 When a user selects the generate-document button on a quote, the integration generates a PDF document from the selected template and attaches it to the quote. The document is available in the **Attachments** section of the Contextual Side Panel \(CSP\).
 
-**Parent Topic:**[Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-configure-pdf-documents.md)
+**Parent Topic:**[Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-configure-pdf-documents.md)
 

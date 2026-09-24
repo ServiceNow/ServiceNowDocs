@@ -2,7 +2,7 @@
 title: Request post-sale change orders
 description: Learn how to create orders for disconnecting, suspending, resuming products or services and changing specifications, characteristics, or service location for orders after an initial order has been fulfilled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-macd-orders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-macd-orders.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -123,7 +123,7 @@ Channel partner
 
     2.  Enter suspension start and end dates for suspend requests and select **Suspend**.
 
-        If you do not specify a date, the suspension is effective immediately. For more information, see [Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-suspend-resume-action.md).
+        If you do not specify a date, the suspension is effective immediately. For more information, see [Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-suspend-resume-action.md).
 
 10. Review the order lines by selecting the **Order Line Items** tab.
 
@@ -134,10 +134,10 @@ Channel partner
     The order state changes to New and is available for approval.
 
 
-**Parent Topic:**[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md)
+**Parent Topic:**[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/managing-orders.md)
 
 **Related topics**  
 
 
-[Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-suspend-resume-action.md)
+[Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-suspend-resume-action.md)
 

@@ -2,7 +2,7 @@
 title: Report on questions
 description: Report on selected questions by grouping or filtering on them.You can create reports grouped or stacked by questions, as well as create filters on the same questions. For example, you can create a report that shows customer responses of their reasons for requesting help, or descriptions of their issues.Create reports additionally grouped by selected questions. You can also create filters on the same questions. For example, you can create a report that shows customer responses of their reasons for requesting help, or descriptions of their issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/report-on-questions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/report-on-questions.html
 release: australia
 product: Reporting
 classification: reporting
@@ -42,7 +42,7 @@ If there is a Record Producer associated with the table, variables defined in th
 
 You cannot group by Record Producer variables. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Group or stack a report by questions
 
@@ -76,7 +76,7 @@ You can apply these steps to any report type as long as the report source has qu
 
 7.  Continue to configure and style the report according to its report type.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 
 ## Add additional group by questions to a report
@@ -117,6 +117,6 @@ You can apply these steps to any report type as long as the report source has qu
 
 10. Continue to configure and style the report according to its report type.
 
-    See [Creating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Creating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 

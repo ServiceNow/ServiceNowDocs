@@ -2,7 +2,7 @@
 title: Major Incident workbench — Summary tab
 description: The Summary tab provides a unified view of information in the form of a card layout. The information on impacted services, affected CIs, active outages, locations that are impacted, and child incidents helps to keep you informed about related records associated with an incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/mi-workbench-summary-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/mi-workbench-summary-tab.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -33,7 +33,7 @@ The Groups section displays On-Call information, including the On-Call Escalatio
 
 Activate the Event Management plugin \(com.glideapp.itom.snac\) to add an **Alert** card under the **Summary** tab that keeps you up-to-date on the number of alerts for each incident. The count is the total of all primary and secondary alerts for the incident.
 
-**Parent Topic:**[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/mi-workbench-ui-elements.md)
+**Parent Topic:**[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/mi-workbench-ui-elements.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Conversational AI Health and Safety incident or observation report
 description: Use the ServiceNow Otto panel conversational interface to report Health and Safety incidents and observations that enables you to engage with live agents, virtual agents, or both.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-explore-conversational-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-explore-conversational-incidents.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -16,7 +16,7 @@ breadcrumb: [Use generative AI skills, ServiceNow Otto for Health and Safety, He
 
 Use the ServiceNow Otto panel conversational interface to report Health and Safety incidents and observations that enables you to engage with live agents, virtual agents, or both.
 
-A basic Health and Safety incident or observation can be reported using the conversational language through the ServiceNow Otto panel. Admins can configure keywords on the Health and Safety workspace. Using appropriate keywords such as health, safety, incident, injury, or observation generates functional responses. For more information on configuring the keywords, see [Configure keywords for conversational AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-configure-keywords-conversational-ai.md).
+A basic Health and Safety incident or observation can be reported using the conversational language through the ServiceNow Otto panel. Admins can configure keywords on the Health and Safety workspace. Using appropriate keywords such as health, safety, incident, injury, or observation generates functional responses. For more information on configuring the keywords, see [Configure keywords for conversational AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-configure-keywords-conversational-ai.md).
 
 Employees can use the ServiceNow Otto panel icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: ServiceNow Otto panel\) in the **Employee Center** home page to open a chat panel to report a Health and Safety incident easily.
 
@@ -34,5 +34,5 @@ Conversational AI simplifies the safety incident or observation reporting proces
 -   Provides a responsive and supportive environment and promotes proactive incident or observation reporting.
 -   Enables document uploads \(maximum 10 mb\) through ServiceNow Otto panel.
 
-**Parent Topic:**[Use generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-use-generative-ai.md)
+**Parent Topic:**[Use generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-use-generative-ai.md)
 

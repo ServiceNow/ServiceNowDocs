@@ -2,7 +2,7 @@
 title: Onboard Azure DevOps to DevOps Change Velocity — Workspace
 description: Connect to your Azure DevOps instance using the DevOps Change Workspace playbook to collect data for planning, coding, orchestration, artifact, and software quality functions.Connect and configure your Azure DevOps instance directly at your Azure DevOps organization level. All the projects within the organization can be discovered, and you can choose to configure multiple projects within the organization. You can manage the tool at the organization level.Connect and configure your Azure DevOps instance directly at the project level. If you have multiple projects within the organization, you must connect each of them separately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-wkspc-azuredevops-tool-conn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/devops-wkspc-azuredevops-tool-conn.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -18,14 +18,14 @@ Connect to your Azure DevOps instance using the DevOps Change Workspace playbook
 
 You can connect to Azure DevOps \(ADO\) at your organization level or at individual project level. If you're connecting at the project level, for each project at your organization, you must repeat the connection process. After connecting to an instance of the tool, you can configure additional settings that enable DevOps to import pipelines, task execution records, and step execution records.
 
-When you configure webhooks in your Azure DevOps instance to send data to DevOps Change Velocity, Azure DevOps uses token authentication for the integration user by default. The DevOps Change Velocity APIs are invoked using token authentication and you don’t have to enter the integration user name and password while configuring. If the devops.system user isn’t available in your ServiceNow instance, you must set the **Switch to this user after token based authentication is successful** property. For more information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md). The step to enter the integration user name and password is required only in the following scenarios:
+When you configure webhooks in your Azure DevOps instance to send data to DevOps Change Velocity, Azure DevOps uses token authentication for the integration user by default. The DevOps Change Velocity APIs are invoked using token authentication and you don’t have to enter the integration user name and password while configuring. If the devops.system user isn’t available in your ServiceNow instance, you must set the **Switch to this user after token based authentication is successful** property. For more information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-administration.md). The step to enter the integration user name and password is required only in the following scenarios:
 
 -   If DevOps Config is installed, as DevOps Config APIs are invoked using basic authentication.
 -   If you use the Azure Invoke REST API service connection. You must enable the **This property decides whether to create a Generic Connection on configure operation for Azure DevOps** property in this case.
 
 **Note:** DevOps Change Velocity uses the term instance to refer to a particular occurrence of a tool. Azure DevOps uses the term project instead.
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 
 ## Connect an organization
 
@@ -33,7 +33,7 @@ Connect and configure your Azure DevOps instance directly at your Azure DevOps o
 
 ### Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -41,15 +41,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Azure DevOps.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d42850e220">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d42869e220">
 
 Option
 
-</th><th align="left" id="d42850e223">
+</th><th align="left" id="d42869e223">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42850e229">
+</th></tr></thead><tbody><tr><td id="d42869e229">
 
 **Homepage**
 
@@ -59,19 +59,19 @@ Steps
 2.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d42850e253">
+</td></tr><tr><td id="d42869e253">
 
 **Applications module**
 
 </td><td>
 
 1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\) from the primary navigation.
-2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/app-create-workspace.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d42850e302">
+</td></tr><tr><td id="d42869e302">
 
 **Tools module**
 
@@ -99,7 +99,7 @@ Steps
 
 3.  In the Enter Azure DevOps instance details section, select one of the following values in the **Credential type** field.
 
-<table id="choicetable_j33_jgk_lcc"><tbody><tr><td id="d42850e409">
+<table id="choicetable_j33_jgk_lcc"><tbody><tr><td id="d42869e409">
 
 **Personal Access Token**
 
@@ -107,19 +107,19 @@ Steps
 
 Enter the password or access token to access this instance.For information on creating a PAT, see [Personal access token \(PAT\)](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). \[Omitted image "ado-pat-01.png"\] Alt text: Connect to a tool - ADO PAT
 
-</td></tr><tr><td id="d42850e429">
+</td></tr><tr><td id="d42869e429">
 
 **OAuth 2.0**
 
 </td><td>
 
-Pre-requisites: -   [Create a tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
--   [Add a user to tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
--   [Create an organization in Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
--   [Create an Azure DevOps app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
--   [Register Azure DevOps as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
--   [Configure organization and project level settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
--   [Create credential record and get OAuth token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+Pre-requisites: -   [Create a tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Add a user to tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Create an organization in Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Create an Azure DevOps app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Register Azure DevOps as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Configure organization and project level settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+-   [Create credential record and get OAuth token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
 **Use an existing OAuth credential record**1.  Select the **Use an existing OAuth credential record** option.
 2.  Select a value in the **Credential** field.
 **Create a new credential record**1.  Clear the **Use an existing OAuth credential record** option.
@@ -137,7 +137,7 @@ Pre-requisites: -   [Create a tenant in Microsoft Entra](https://raw.githubuserc
 
 6.  Permission checks are run on the credentials that you entered.
 
-    Permissions required and permissions that are available are displayed. If you want to enter credentials with better permissions, select **Re-enter credentials**. For detailed information on all the required permissions, see Azure DevOps permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/tool-req-permission.md).
+    Permissions required and permissions that are available are displayed. If you want to enter credentials with better permissions, select **Re-enter credentials**. For detailed information on all the required permissions, see Azure DevOps permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/tool-req-permission.md).
 
     You can choose to continue with the tool connection even if you don't have all the required permissions.
 
@@ -171,7 +171,7 @@ Pre-requisites: -   [Create a tenant in Microsoft Entra](https://raw.githubuserc
 
     The ServiceNow DevOps extension will automatically create service connections while configuring webhooks. Service connections are required for sending build and release notifications from Azure DevOps. The extension also contains custom tasks to modify the Azure DevOps pipelines for change control, artifacts, and packages.
 
-    For more information on the extension, see [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
+    For more information on the extension, see [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
 
     **Note:** If you skip this step, to send notifications from Azure DevOps, you must manually create service connections after configuring webhooks.
 
@@ -190,7 +190,7 @@ Pre-requisites: -   [Create a tenant in Microsoft Entra](https://raw.githubuserc
     -   Nightly polling: If you don’t choose to configure now, you can enable nightly polling later to fetch data for any tracked plans by setting the **Enable Polling** property to **Yes**.
     1.  Enter the DevOps integration user name and password.
 
-        For information about creating the DevOps integration user and password, see [Set up integration user account in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-plybk-set-up-system-accts.md).
+        For information about creating the DevOps integration user and password, see [Set up integration user account in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-plybk-set-up-system-accts.md).
 
         **Note:**
 
@@ -201,7 +201,7 @@ Pre-requisites: -   [Create a tenant in Microsoft Entra](https://raw.githubuserc
 
         \[Omitted image "azure-plybk-13.png"\] Alt text: Configure Azure DevOps for organization.
 
-    To configure webhooks manually, select **Configure manually**. See [Configure webhooks in Azure DevOps manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-test-webhooks.md) for more information.
+    To configure webhooks manually, select **Configure manually**. See [Configure webhooks in Azure DevOps manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/configure-test-webhooks.md) for more information.
 
     Webhook configuration and discovery happen in the background, and you’re taken to the Summary page.
 
@@ -225,7 +225,7 @@ From the **Projects** tab on the tool record page, select a project to navigate 
 
     **Note:** The step to enter the integration user name and password is required to configure webhooks only when DevOps Config is installed or the Generic Connection on configure operation for Azure DevOps property is disabled. If this step is not required, webhooks are configured using token-based authentication.
 
--   To import historical data to the project objects like plans, repositories, or pipelines, associate the objects with an application, and import the data. For more information, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
+-   To import historical data to the project objects like plans, repositories, or pipelines, associate the objects with an application, and import the data. For more information, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
 
 ## Connect a project
 
@@ -233,7 +233,7 @@ Connect and configure your Azure DevOps instance directly at the project level. 
 
 ### Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -241,15 +241,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Azure DevOps.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d42850e1063">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d42869e1063">
 
 Option
 
-</th><th align="left" id="d42850e1066">
+</th><th align="left" id="d42869e1066">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42850e1072">
+</th></tr></thead><tbody><tr><td id="d42869e1072">
 
 **Homepage**
 
@@ -259,19 +259,19 @@ Steps
 2.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d42850e1096">
+</td></tr><tr><td id="d42869e1096">
 
 **Applications module**
 
 </td><td>
 
 1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\) from the primary navigation.
-2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/app-create-workspace.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d42850e1145">
+</td></tr><tr><td id="d42869e1145">
 
 **Tools module**
 
@@ -307,13 +307,13 @@ Steps
 
         -   **OAuth 2.0**: Pre-requisites:
 
-            -   [Create a tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
-            -   [Add a user to tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
-            -   [Create an organization in Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
-            -   [Create an Azure DevOps app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
-            -   [Register Azure DevOps as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
-            -   [Configure organization and project level settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
-            -   [Create credential record and get OAuth token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+            -   [Create a tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+            -   [Add a user to tenant in Microsoft Entra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+            -   [Create an organization in Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+            -   [Create an Azure DevOps app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+            -   [Register Azure DevOps as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+            -   [Configure organization and project level settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
+            -   [Create credential record and get OAuth token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-azure-devops-oauth-2-0-credential.md)
             **Use an existing OAuth credential record**
 
             1.  Select the **Use an existing OAuth credential record** option.
@@ -334,7 +334,7 @@ Steps
 
     4.  Permission checks are run on the credentials that you entered.
 
-        Permissions required and permissions that are available are displayed. If you want to enter credentials with better permissions, select **Re-enter credentials**. For detailed information on all the required permissions, see Azure DevOps permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/tool-req-permission.md).
+        Permissions required and permissions that are available are displayed. If you want to enter credentials with better permissions, select **Re-enter credentials**. For detailed information on all the required permissions, see Azure DevOps permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/tool-req-permission.md).
 
         You can choose to continue with the tool connection even if you don't have all the required permissions.
 
@@ -370,7 +370,7 @@ Steps
 
     The ServiceNow DevOps extension will automatically create service connections while configuring webhooks. Service connections are required for sending build and release notifications from Azure DevOps. The extension also contains custom tasks to modify the Azure DevOps pipelines for change control, artifacts, and packages.
 
-    For more information on the extension, see [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
+    For more information on the extension, see [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
 
     **Note:** If you skip this step, to send notifications from Azure DevOps, you must manually create service connections after configuring webhooks.
 
@@ -389,7 +389,7 @@ Steps
     -   Nightly polling: If you don’t choose to configure now, you can enable nightly polling later to fetch data for any tracked plans by setting the **Enable Polling** property to **Yes**.
     1.  Enter the DevOps integration user name and password.
 
-        For information about creating the DevOps integration user and password, see [Set up integration user account in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-plybk-set-up-system-accts.md).
+        For information about creating the DevOps integration user and password, see [Set up integration user account in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-plybk-set-up-system-accts.md).
 
         **Note:**
 
@@ -399,7 +399,7 @@ Steps
 
         \[Omitted image "azure-plybk-14.png"\] Alt text: Configure Azure DevOps for a project.
 
-        To configure webhooks manually, select **Configure manually**. See [Configure webhooks in Azure DevOps manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-test-webhooks.md) for more information.
+        To configure webhooks manually, select **Configure manually**. See [Configure webhooks in Azure DevOps manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/configure-test-webhooks.md) for more information.
 
         **Important:**
 
@@ -479,10 +479,10 @@ From the **Projects** tab on the tool record page, select a project to navigate 
 
     **Note:** The step to enter the integration user name and password is required to configure webhooks only when DevOps Config is installed or the Generic Connection on configure operation for Azure DevOps property is disabled. If this step is not required, webhooks are configured using token-based authentication.
 
--   To import historical data to the project objects like plans, repositories, or pipelines, associate the objects with an application, and import the data. For more information, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
+-   To import historical data to the project objects like plans, repositories, or pipelines, associate the objects with an application, and import the data. For more information, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
 
 **Related topics**  
 
 
-[Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md)
+[Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md)
 

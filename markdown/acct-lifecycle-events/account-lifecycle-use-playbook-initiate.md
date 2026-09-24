@@ -2,7 +2,7 @@
 title: Initial setup
 description: This phase is meant to gather the initial information required onboard a customer. For example, gathering core information like onboarding manager name, key customer contact, internal and external stakeholders, their responsibilities, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-use-playbook-initiate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-use-playbook-initiate.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -135,5 +135,5 @@ For account onboarding case tasks, when the State field is updated, the Progress
 
 If you’re using an earlier version of the Customer Success Management application, follow the instructions in [KB1651427](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=87a1689247a34e1077748d01426d4308) to correct the mapping between these fields.
 
-**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
+**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
 

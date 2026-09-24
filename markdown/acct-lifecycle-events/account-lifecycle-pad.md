@@ -2,7 +2,7 @@
 title: Configure the onboarding playbook activities
 description: Use Playbooks in Workflow Studio to configure the account onboarding playbook activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-pad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-pad.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,10 +18,10 @@ In Playbooks, an activity represents one step in your overall business process. 
 
 \[Omitted image "account-lifecycle-pad.png"\] Alt text: Process Automation Designer: Account lifecycle onboarding
 
-**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure.md)
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-configure.md)
 
 **Related topics**  
 
 
-[Onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-onboard-playbook.md)
+[Onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-onboard-playbook.md)
 

@@ -2,7 +2,7 @@
 title: Fulfill care team case and tasks
 description: Fulfill the care team cases and tasks created from task plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-fulfill-care-team-cases-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-fulfill-care-team-cases-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_cto.care\_team\_agent or sn\_cto.care\_team\_agent\_manager
 
 ## About this task
 
-For more information on care team cases and tasks, see [Care team cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-care-team-case.md).
+For more information on care team cases and tasks, see [Care team cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-care-team-case.md).
 
 ## Procedure
 

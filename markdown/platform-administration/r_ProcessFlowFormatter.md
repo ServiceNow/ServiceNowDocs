@@ -2,7 +2,7 @@
 title: Process flow formatter
 description: The process flow formatter provides a graphical summary of the stages in a process. The formatter is typically shown at the top of forms that are part of a process.You can activate the Process Flow Formatter plugin.You can create a process flow formatter stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_ProcessFlowFormatter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_ProcessFlowFormatter.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ These examples show a workflow in Core UI interface.
 
 When any formatter stages are defined for a table, they appear on the form associated with that table in the order specified, assuming the formatter has been added to the form.
 
-**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_Formatters.md)
 
 ## Activate the process flow formatter
 
@@ -46,7 +46,7 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/find-components.md).
 
 
 ## Create a process flow formatter

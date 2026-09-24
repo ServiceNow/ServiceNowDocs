@@ -2,7 +2,7 @@
 title: Pre-hire experience
 description: The Pre-hire experience is a portal that caters to employees who are in transition between the applicant phase and the onboarding phase. This onboarding portal is a solution that facilitates the preboarding process by enabling employees who have been selected by your organization to embark on their first journey.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-pre-hire-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-pre-hire-experience.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -146,5 +146,5 @@ This widget reflects the employee's onboarding team. A list of the following ind
 </table>**Related topics**  
 
 
-[Enable and configure the Pre-hire Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-pre-hire-enable-configure.md)
+[Enable and configure the Pre-hire Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-pre-hire-enable-configure.md)
 

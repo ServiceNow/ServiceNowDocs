@@ -2,7 +2,7 @@
 title: Mobile resolution notes generation
 description: Use ServiceNow Otto on mobile devices to generate resolution notes that summarize work orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/ai-case-summarization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/ai-case-summarization.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"

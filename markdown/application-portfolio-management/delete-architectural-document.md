@@ -2,7 +2,7 @@
 title: Delete an architectural document
 description: Delete a draft version of an architectural document that you no longer require.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/delete-architectural-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/delete-architectural-document.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,12 +41,12 @@ Role required: admin
     The architectural document and its related records are deleted.
 
 
-**Parent Topic:**[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-arch-documents.md)
+**Parent Topic:**[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/manage-arch-documents.md)
 
 **Related topics**  
 
 
-[View all architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-architectural-documents.md)
+[View all architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/view-architectural-documents.md)
 
-[Create an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-architectural-document.md)
+[Create an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/create-architectural-document.md)
 

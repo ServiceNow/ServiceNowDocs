@@ -2,7 +2,7 @@
 title: Generate labor costs for a demand
 description: Generate labor costs to view the expenses of resources using resource assignments and cost plans for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/generate-labor-costs-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/generate-labor-costs-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -38,6 +38,6 @@ When the effort distribution for a resource assignment changes without changing 
 
 6.  Select **Generate** in the Generate labor costs confirmation window.
 
-    **Tip:** Configure a scheduled job to generate labor costs at the required cadence. For more information, see [Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md).
+    **Tip:** Configure a scheduled job to generate labor costs at the required cadence. For more information, see [Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md).
 
 

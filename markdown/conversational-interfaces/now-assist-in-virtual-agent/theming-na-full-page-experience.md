@@ -2,7 +2,7 @@
 title: Theming for ServiceNow Otto for Virtual Agent enhanced and premium chat
 description: You can customize the look and feel of the ServiceNow Otto for Virtual Agent enhanced and premium chat experience in your ServiceNow portal by updating the relevant Cascading Style Sheet \(CSS\) variables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/theming-na-full-page-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/theming-na-full-page-experience.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -24,7 +24,7 @@ The chat header logo is shared between standard and enhanced chat, and it’s de
 
 For the variables, `nass` refers to enhanced or premium chat.
 
-For more information about enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). For more information about premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
+For more information about enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). For more information about premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
 
 <table id="table_ok3_wwm_bdc"><thead><tr><th>
 

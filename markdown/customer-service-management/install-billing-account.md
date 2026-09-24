@@ -2,10 +2,10 @@
 title: Install billing account
 description: You can install the billing account application \(com.snc.billing\_account\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-billing-account.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/install-billing-account.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configuring billing accounts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

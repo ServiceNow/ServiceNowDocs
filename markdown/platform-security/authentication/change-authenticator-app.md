@@ -2,7 +2,7 @@
 title: Change an Authenticator app
 description: Generate a new code to change an Authenticator app on your device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/change-authenticator-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/change-authenticator-app.html
 release: australia
 product: Authentication
 classification: authentication

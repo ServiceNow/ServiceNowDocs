@@ -2,7 +2,7 @@
 title: Playbook for Failed Login Manual
 description: When a user makes certain unsuccessful login attempts \(according to the SIM configuration\), a security incident is created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/cj-sir-flow-library2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/cj-sir-flow-library2.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -53,7 +53,7 @@ For more information, see the [ServiceNow store](https://store.servicenow.com/).
 
 ## Security analyst experience
 
-To understand how to resolve security threats in a step-by-step manner, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md).
+To understand how to resolve security threats in a step-by-step manner, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/use-the-playbook.md).
 
 ## Using Failed Login playbook with Flow Designer capabilities
 
@@ -139,5 +139,5 @@ The following steps walks you through the actions, tasks, and subflows that are 
 11. In Step 9, the security incident is updated and the state is set to **Review**.
 12. In Step 10, a response task is created for the user to complete the post-incident review before closing the task.
 
-**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-flow-based.md)
+**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-flow-based.md)
 

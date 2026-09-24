@@ -2,7 +2,7 @@
 title: Access Event Management configuration console
 description: Access the IT Operations Management configuration console to set up Event Management and configure AIOps capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/access-itom-config-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/access-itom-config-console.html
 release: australia
 product: Event Management
 classification: event-management

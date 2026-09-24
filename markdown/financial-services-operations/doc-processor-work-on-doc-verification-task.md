@@ -2,7 +2,7 @@
 title: Work on a document verification task
 description: A document agent can review and approve or reject a document submitted for verification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/doc-processor-work-on-doc-verification-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/doc-processor-work-on-doc-verification-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ A document agent can review and approve or reject a document submitted for verif
 
 ## Before you begin
 
-**Note:** An OCR-processed document can be automatically reviewed and approved. For information on OCR-processed documents, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md).
+**Note:** An OCR-processed document can be automatically reviewed and approved. For information on OCR-processed documents, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/integration-with-document-intelligence.md).
 
 Role required: sn\_doc\_processor.agent​
 
@@ -42,7 +42,7 @@ Role required: sn\_doc\_processor.agent​
 
     Review and update any extracted values in the **Extracted Values** related list.
 
-    For more information, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md).
+    For more information, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/integration-with-document-intelligence.md).
 
 6.  From the **Notes and Activity** tab in the **Work notes** field, enter any comments.
 

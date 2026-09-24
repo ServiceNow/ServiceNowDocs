@@ -2,7 +2,7 @@
 title: Set up the Google Directory spoke
 description: Integrate the ServiceNow instance and Google Directory spoke by using G Suite credentials to authenticate ServiceNow requests.Create a custom OAuth application from your Google G Suit account to enable OAuth 2.0 authentication with the Google Directory spoke.Add the Google Directory connection in Workflow Studio to configure the Google Directory spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gdirectory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-gdirectory.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -95,7 +95,7 @@ Role required: admin
 4.  Locate the **Google Directory** connection alias and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Google Directory spoke, click **View Details**.
-    -   To manage more than one Google Directory spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Google Directory spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
 5.  On the form, fill these values.

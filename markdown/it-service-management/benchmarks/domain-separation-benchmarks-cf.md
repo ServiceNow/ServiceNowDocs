@@ -2,7 +2,7 @@
 title: Domain separation and Benchmarks
 description: Domain separation is unsupported in the Benchmarks application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/domain-separation-benchmarks-cf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/domain-separation-benchmarks-cf.html
 release: australia
 product: Benchmarks
 classification: benchmarks

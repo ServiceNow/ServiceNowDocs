@@ -2,7 +2,7 @@
 title: Service Operations Workspace for ITSM data model
 description: Learn about Service Operations Workspace \(SOW\) for ITSM by viewing the data model relationship diagram. This diagram shows the relationships between the tables within the application and provide an overall picture of how SOW operates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-itsm-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/sow-itsm-data-model.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -22,7 +22,7 @@ The following diagram shows the tables and their relationships within SOW for IT
 
 \[Omitted image "sow-data-model.png"\] Alt text: This data model defines the relationship between various tables used in SOW for ITSM.
 
-**Parent Topic:**[Service Operations Workspace for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-reference.md)
+**Parent Topic:**[Service Operations Workspace for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-reference.md)
 
 **Related topics**  
 

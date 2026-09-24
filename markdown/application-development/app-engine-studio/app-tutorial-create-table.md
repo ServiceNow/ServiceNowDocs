@@ -2,7 +2,7 @@
 title: Create a data table
 description: Create a table to store the data for your application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-create-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/app-tutorial-create-table.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -34,7 +34,7 @@ Phase 1
 
 </td><td>
 
-[Create a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-table.md)
+[Create a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-create-table.md)
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Phase 2
 
 </td><td>
 
-[Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-configure-table.md)
+[Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-configure-table.md)
 
 </td></tr><tr><td>
 
@@ -58,10 +58,10 @@ Phase 3
 
 </td><td>
 
-[Share data between tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-share-data.md)
+[Share data between tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-share-data.md)
 
 </td></tr></tbody>
-</table>This procedure covers the first part of the task demonstrated in the tutorial video. The rest of the procedure is outlined in the next topic [Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-configure-table.md).
+</table>This procedure covers the first part of the task demonstrated in the tutorial video. The rest of the procedure is outlined in the next topic [Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-configure-table.md).
 
 Follow along to create a table for the employee travel request application.
 
@@ -109,7 +109,7 @@ Follow along to create a table for the employee travel request application.
     |Table label|Unique label to identify the table.|`Travel request`|
     |Table name|Database name for the table. Auto-populates based on the **Table label** that you provided.|No action needed|
     |Table name prefix|Database prefix for the table. Auto-populates based on the application that you created the table in.|No action needed|
-    |Make extensible|Option to enable other tables to share data from this table. For more information, see [Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md).|No action needed|
+    |Make extensible|Option to enable other tables to share data from this table. For more information, see [Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-data.md).|No action needed|
     |Auto-number|Option to track table records with a unique number.|Select the check mark|
     |Prefix|Abbreviated name of the table to append to the beginning of record numbers.|`TRA`|
     |Starting number|Number to identify the first record created for your table.|No action needed|
@@ -161,5 +161,5 @@ You have created a table for your application.
 
 ## What to do next
 
-Complete the setup of your table by proceeding to the next phase: [Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-configure-table.md)
+Complete the setup of your table by proceeding to the next phase: [Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-configure-table.md)
 

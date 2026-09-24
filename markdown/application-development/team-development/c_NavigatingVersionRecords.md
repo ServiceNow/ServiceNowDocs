@@ -2,7 +2,7 @@
 title: Version record navigation
 description: There are a variety of methods for viewing a list of versions for an object.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_NavigatingVersionRecords.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/c\_NavigatingVersionRecords.html
 release: australia
 product: Team Development
 classification: team-development
@@ -32,5 +32,5 @@ You can navigate from a version record to:
     \[Omitted image "VersionRecord.png"\] Alt text: Navigate from a version to either related records or the application file itself.
 
 
-**Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_Versions.md)
+**Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/c_Versions.md)
 

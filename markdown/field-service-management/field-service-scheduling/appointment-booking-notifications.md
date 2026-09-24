@@ -2,7 +2,7 @@
 title: Customize Appointment Booking email and SMS notifications
 description: Customize email and SMS notifications for appointments. These notifications help users stay informed and engaged throughout the appointment scheduling process—providing clear confirmations, reminders, cancellations, and rescheduling notices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/appointment-booking-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/appointment-booking-notifications.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -26,7 +26,7 @@ System administrators can configure both email and SMS notifications using the f
 
 These templates come included with the appointment booking plugin. You can customize them to meet specific requirements. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
-**Note:** Ensure to install Customer Experience plugin to configure SMS. For more information, see [Activate Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Configuring-cust-exp.md).
+**Note:** Ensure to install Customer Experience plugin to configure SMS. For more information, see [Activate Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/Configuring-cust-exp.md).
 
 Appointment booking email and SMS notifications are active for all services using the appointment booking feature. The following email notifications are included with the appointment booking feature:
 

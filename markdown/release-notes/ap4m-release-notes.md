@@ -2,7 +2,7 @@
 title: Australia Patch 4m
 description: The Australia Patch 4m release contains important problem fixes via Australia Patch 4 and updates to compatible ServiceNow Store applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/ap4m-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/ap4m-release-notes.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-27"
@@ -84,9 +84,9 @@ See the following Now Support Knowledge Base articles for more information about
 
     Encryption at rest for Hermes topics protects message data stored on broker disks from unauthorized access. Hermes supports both ServiceNow-managed keys and keys you provide using the Bring Your Own Key \(BYOK\) model.
 
--   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)**
+-   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)**
 
-    For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md).
+    For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md).
 
 -   **[Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/properties-id-reconciliation.md)**
 
@@ -7543,10 +7543,10 @@ The 'Sort by' skill runs slowly.
 These prior versions contain PRB fixes that are also included with Australia Patch 4. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
 -   [Australia Patch 3 Hot Fix 1](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3104013)
--   [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+-   [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 -   [Australia Patch 2 Hot Fix 2](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3101088)
--   [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
--   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+-   [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
+-   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 -   [Australia security and notable fixes](https://www.servicenow.com/docs/r/release-notes/australia-security-notables.html)
 -   [All other Australia fixes](https://www.servicenow.com/docs/r/release-notes/australia-all-other-fixes.html)
 
@@ -16887,5 +16887,5 @@ This release focused on improving the quality and accuracy of AI Specialists res
 |Zoom extension for Omnichannel Callback|1.3.6|2025-07-31|
 |Zoom Spoke|4.6.2|2026-01-20|
 
-**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/available-versions.md)
 

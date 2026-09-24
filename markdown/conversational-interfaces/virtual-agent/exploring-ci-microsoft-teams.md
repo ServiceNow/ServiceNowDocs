@@ -2,7 +2,7 @@
 title: Exploring Conversational Integration with Microsoft Teams
 description: Use the Conversational Integration with Microsoft Teams application to connect your end users with Virtual Agent or live agents through your company’s Microsoft Teams account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/exploring-ci-microsoft-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/exploring-ci-microsoft-teams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -29,13 +29,13 @@ Ensure that you have a Microsoft 365 account with admin privileges \(admin.micro
 
 \[Omitted image "workflow-ci-ms-teams.png"\] Alt text: Workflow describing the sequence of processes carried out in Conversational Integration with Microsoft Teams.
 
-1.  [Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-install.md).
+1.  [Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/teams-install.md).
 2.  Add integrations.
-    -   **[Integrate with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams.md).**
+    -   **[Integrate with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-msteams.md).**
 
         Manage and configure Virtual Agent settings.
 
-    -   **[Integrate with a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md).**
+    -   **[Integrate with a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md).**
 
         Create a bot in Microsoft Teams. Manage and configure the self-configured bot, then generate the manifest file. Upload the manifest file to Microsoft Teams. Configure Virtual Agent settings.
 
@@ -46,18 +46,18 @@ Ensure that you have a Microsoft 365 account with admin privileges \(admin.micro
 
 To learn more about configuring and using Conversational Integration with Microsoft Teams, see:
 
--   [Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md).
+-   [Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md).
 -   .
--   [Integrate Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/integrating-now-assist-va-msteams.md).
--   [Integrate Now Assist in Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/ms-copilot-na-va.md).
+-   [Integrate Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/integrating-now-assist-va-msteams.md).
+-   [Integrate Now Assist in Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/ms-copilot-na-va.md).
 
 For more information about integrating Microsoft Copilot with ServiceNow Otto, see the following ServiceNow blog and community articles:
 
 -   [https://www.servicenow.com/blogs/2024/now-assist-microsoft-copilot](https://www.servicenow.com/blogs/2024/now-assist-microsoft-copilot)
 -   [https://www.servicenow.com/community/virtual-agent-nlu-articles/microsoft-copilot-integration-with-now-assist-faq-zurich-release/ta-p/3048238](https://www.servicenow.com/community/virtual-agent-nlu-articles/microsoft-copilot-integration-with-now-assist-faq-zurich-release/ta-p/3048238)
 
--   **[Plugins for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/addtional-plugins-msteams.md)**  
+-   **[Plugins for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/addtional-plugins-msteams.md)**  
 Activate the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin, the Conversational Integration with Microsoft Teams \[sn\_va\_teams\] plugin, and verify its additional plugins to enable other features for conversation design.
 
-**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md)
+**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

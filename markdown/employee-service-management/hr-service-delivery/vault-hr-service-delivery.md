@@ -2,7 +2,7 @@
 title: ServiceNow Vault for HR Service Delivery
 description: Classify sensitive employee data and enable employees/former employees to request deletion of personal data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/vault-hr-service-delivery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/vault-hr-service-delivery.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,7 +24,7 @@ The classification HR PII and the data classifications are included out-of-the-b
 
 Each data classification category contains a “Classified Dictionary Entries” related list, which displays the HR application-specific tables and columns included in the classification. The ServiceNow Vault for HR demo data provides classified dictionary entries. \[Omitted image "vault-dict.png"\] Alt text: The example contact information classification has columns such as address, work phone, and email
 
-To add columns from an HR application to the classified dictionary entries list, see [Classify HR data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/classify-hr-data.md).
+To add columns from an HR application to the classified dictionary entries list, see [Classify HR data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/classify-hr-data.md).
 
 ## Employees request data deletion
 
@@ -34,12 +34,12 @@ Employees can submit a request to erase personal identifiable data or an HR case
 
 Former employees can submit the request through **Alumni Service Center** &gt; **Services** &gt; **Erasure of personal data**.
 
-\[Omitted image "vault-delete-data.png"\] Alt text: Erasure of personal data request catalog item has a field to specify the data for deletion and a field to select HR cases for deletionFor instructions on modifying the fields in the Erasure of Personal Data Request including the target user who receives the HR case, see [Edit the HR case template for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.md).
+\[Omitted image "vault-delete-data.png"\] Alt text: Erasure of personal data request catalog item has a field to specify the data for deletion and a field to select HR cases for deletionFor instructions on modifying the fields in the Erasure of Personal Data Request including the target user who receives the HR case, see [Edit the HR case template for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.md).
 
--   **[Setting up ServiceNow Vault for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/install-vault-hr.md)**  
+-   **[Setting up ServiceNow Vault for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/install-vault-hr.md)**  
 You can install ServiceNow Vault for HR if you have the admin role. The application includes demo data and installs related ServiceNow applications and plugins if they are not already installed.
--   **[Classify HR data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/classify-hr-data.md)**  
+-   **[Classify HR data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/classify-hr-data.md)**  
 Assign data classifications to HR application-specific table columns in the Dictionary \[sys\_dictionary\] table. The assigned columns will appear in the “Classified Dictionary Entries” related list for a data classification.
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 

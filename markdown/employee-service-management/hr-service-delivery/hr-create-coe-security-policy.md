@@ -2,7 +2,7 @@
 title: Create a COE security policy
 description: Use COE Security Configuration to define group restrictions for a COE and for all or specific HR services under it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-create-coe-security-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-create-coe-security-policy.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

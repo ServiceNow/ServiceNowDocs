@@ -2,7 +2,7 @@
 title: Using Proactive Prompts
 description: You can use Proactive Prompts application to send informative and actionable insights to managers and employees by keeping them informed and encouraging them to act immediately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/proactive-prompts/proactive-prompts-using.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -28,9 +28,9 @@ Prompts are delivered to end users through various channels like Employee Portal
 
 Notifications of prompts and the prompt appearance are different in different channels.
 
--   Prompt widget - On any portal, prompts are displayed through a widget. The Prompt widget is available by default, but must be added to the portal. For more information, see [Add and configure the prompt widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/config-widget-for-prompts.md).
+-   Prompt widget - On any portal, prompts are displayed through a widget. The Prompt widget is available by default, but must be added to the portal. For more information, see [Add and configure the prompt widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/config-widget-for-prompts.md).
 
-    The **View details** button on the prompt widget provides more details of the prompt. The details displayed depend on the type of Datasource, the Receiving user and the template \(Single or Multiple record display\) selected. For more information, see [Create a signal in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-create.md). For more information on actions on the widget, see [Actions and action groups in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-actions.md).
+    The **View details** button on the prompt widget provides more details of the prompt. The details displayed depend on the type of Datasource, the Receiving user and the template \(Single or Multiple record display\) selected. For more information, see [Create a signal in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-signal-create.md). For more information on actions on the widget, see [Actions and action groups in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-actions.md).
 
     **Note:** The generated prompts are delivered to the widget only when the user opens the portal.
 

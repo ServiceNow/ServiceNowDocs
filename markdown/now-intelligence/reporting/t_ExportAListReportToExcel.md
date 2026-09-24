@@ -2,7 +2,7 @@
 title: Export a list report
 description: You can export a list report to Excel, PDF, or CSV by scheduling an export of the report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_ExportAListReportToExcel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_ExportAListReportToExcel.html
 release: australia
 product: Reporting
 classification: reporting
@@ -22,7 +22,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 **Note:** Administrator-created restrictions may prevent users with these roles from seeing the **Schedule** option.
 
-This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-visualization-vd.md).
+This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).
 
 \[Omitted video\] Description: Illustration of the steps in this procedure for exporting a Core UI list report to Excel
 
@@ -36,7 +36,7 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 4.  Schedule the export of a saved list report in the desired format.
 
-    Specify **Type** as PDF, PDF-landscape, Excel, or CSV. Excel displays report duration values in milliseconds, rather than the "&lt;x&gt; days &lt;y&gt; hours" format. For more information, see [Schedule emails of Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ScheduleAReport.md).
+    Specify **Type** as PDF, PDF-landscape, Excel, or CSV. Excel displays report duration values in milliseconds, rather than the "&lt;x&gt; days &lt;y&gt; hours" format. For more information, see [Schedule emails of Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_ScheduleAReport.md).
 
     \[Omitted image "export-list-rep-excel-sched.png"\] Alt text: Schedule a list report to Excel
 

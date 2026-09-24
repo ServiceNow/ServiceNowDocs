@@ -2,7 +2,7 @@
 title: Personalize the planning page view in Project Workspace
 description: Customize the display of the planning page. Choose the data you want to see on the data grid and the timeline.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -28,7 +28,7 @@ Steps 2 through 4 provide guidance on customizing various aspects of the workspa
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Use the side panel to customize your planning page view.
 
@@ -50,7 +50,7 @@ Steps 2 through 4 provide guidance on customizing various aspects of the workspa
 
 3.  View additional columns to the project tasks in the planning page view.
 
-    If you want additional columns to be displayed in the planning page view, other than those fields available in the side panel, you can do so by customizing the Project Workspace view of the project task list \(pm\_project\_task\_list.do\). See [Add columns to the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-new-columns-to-planning-console.md).
+    If you want additional columns to be displayed in the planning page view, other than those fields available in the side panel, you can do so by customizing the Project Workspace view of the project task list \(pm\_project\_task\_list.do\). See [Add columns to the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/add-new-columns-to-planning-console.md).
 
     **Note:** You can personalize your settings for timescale, Displaying summary tasks, Bar labels, and Dependency lines. Any changes you make to the Display summary task settings and timescale view is saved in the preferences.
 
@@ -59,8 +59,8 @@ Steps 2 through 4 provide guidance on customizing various aspects of the workspa
     Select the timescale icon \(\[Omitted image "icon-timesclae.png"\] Alt text: Timescale icon.\) and choose from Day, Week, Month, Quarter, Year, or Autofit.
 
 
--   **[Add columns to the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-new-columns-to-planning-console.md)**  
+-   **[Add columns to the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/add-new-columns-to-planning-console.md)**  
 Display new columns on the planning page of the new project workspace so that your project managers can view custom fields for the project tasks on the planning page.
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 

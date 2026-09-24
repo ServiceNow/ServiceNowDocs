@@ -2,7 +2,7 @@
 title: View resource layer clustering
 description: View your assets or resources on the map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-reource-layer-clustering.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-reource-layer-clustering.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

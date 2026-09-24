@@ -2,7 +2,7 @@
 title: Activate Change Management - State Model
 description: You can activate the Change Management - State Model plugin \(com.snc.change\_management.state\_model\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ActivateStateModel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_ActivateStateModel.html
 release: australia
 product: Change Management
 classification: change-management
@@ -60,14 +60,14 @@ Change management is used to create and manage change requests. Once this is act
 
 ## What to do next
 
-If you upgraded from a release prior to Geneva, you must [update old state labels to new state labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/state-model-activate-tasks.md).
+If you upgraded from a release prior to Geneva, you must [update old state labels to new state labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/state-model-activate-tasks.md).
 
--   **[Update change request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/state-model-activate-tasks.md)**  
+-   **[Update change request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/state-model-activate-tasks.md)**  
 If you upgraded from a release prior to Geneva, you must update old state labels to new state labels after you activate the Change Management state model.
--   **[Installed with Change Management - State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/r_InstalledWithStateModel.md)**  
+-   **[Installed with Change Management - State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/r_InstalledWithStateModel.md)**  
 Several types of components are installed with the Change Management - State Model.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

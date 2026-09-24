@@ -2,7 +2,7 @@
 title: Field Service Quality Management components
 description: Several types of components are installed with the activation of the Field Service Quality Management feature including tables, substates, and roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/quality-mgmt-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/quality-mgmt-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -52,5 +52,5 @@ Field Service Quality Management adds the following roles:
 |----|-----------|
 |sn\_fsm\_quality.wm\_quality\_agent|Reviewer role that can review work order tasks.|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 

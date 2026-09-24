@@ -2,7 +2,7 @@
 title: Configure fields to be displayed in Activity stream
 description: Configure fields to be displayed in the Activity stream.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-configure-activity-stream.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-configure-activity-stream.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -41,5 +41,5 @@ Role required: sn\_lg\_ops.legal\_config
 9.  Select **Update** to save the changes to the legal request form.
 
 
-**Parent Topic:**[Configure Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-PI-configure-landing.md)
+**Parent Topic:**[Configure Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-PI-configure-landing.md)
 

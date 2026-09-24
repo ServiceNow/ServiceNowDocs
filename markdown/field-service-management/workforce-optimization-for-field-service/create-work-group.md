@@ -2,7 +2,7 @@
 title: Create a work group for external field agents
 description: Create groups to assign work to external field agents based on your requirements such as skills, location, and product models so you can route work order tasks to the most qualified field agents
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/create-work-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/create-work-group.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

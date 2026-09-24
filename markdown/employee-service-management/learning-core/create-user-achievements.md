@@ -2,7 +2,7 @@
 title: Create user achievements
 description: Create user achievements to project the accomplishments of course takers on My Learning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-user-achievements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/create-user-achievements.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -39,7 +39,7 @@ Role required: sn\_lep.achievement\_manager
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-learning-achievements.md)
+**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-learning-achievements.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Activate Problem Management Best Practice — Jakarta
 description: The Problem Management Best Practice - Jakarta plugin introduces lookups \(impact, urgency and priority\) for Problem Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/act-pm-best-prac-jakarta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/act-pm-best-prac-jakarta.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -24,7 +24,7 @@ Role required: admin
 
 **Important:** Do not activate this plugin if you have upgraded from a pre-Jakarta release.
 
-If you have modified the base functionality required for the [Problem Management Best Practice — Madrid — State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/act-pm-best-prac-madrid-state-mod.md) plugin \(com.snc.best\_practice.problem.madrid.state\_model\), use the [Migration Utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/migration-utility.md) to repair the plugin.
+If you have modified the base functionality required for the [Problem Management Best Practice — Madrid — State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/act-pm-best-prac-madrid-state-mod.md) plugin \(com.snc.best\_practice.problem.madrid.state\_model\), use the [Migration Utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/migration-utility.md) to repair the plugin.
 
 ## Procedure
 
@@ -41,7 +41,7 @@ If you have modified the base functionality required for the [Problem Management
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-plugins.md)
+**Parent Topic:**[Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/problem-mgmt-plugins.md)
 
 **Related topics**  
 

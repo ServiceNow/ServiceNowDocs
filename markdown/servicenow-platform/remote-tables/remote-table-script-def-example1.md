@@ -2,7 +2,7 @@
 title: Example 1: Retrieving all incident records from an external source
 description: These are examples of script definitions you might create for retrieval and caching of data from sources external to your current instance. In this first example, we create a script to load all incident records from an external source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/remote-tables/remote-table-script-def-example1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/remote-tables/remote-table-script-def-example1.html
 release: australia
 product: Remote Tables
 classification: remote-tables
@@ -170,12 +170,12 @@ It then uses the Transformer API to perform any required data transformations, e
 
 **Note:** You must map a sys\_id in the transformer definition to an element in the external data. In this case, the sys\_id is mapped to the external incident sys\_id. The maximum length of the sys\_id is 32 characters. You do this sys\_id mapping so forms that use the external data can operate properly.
 
-**Parent Topic:**[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)
+**Parent Topic:**[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/remote-tables/create-remote-table-script.md)
 
 **Related topics**  
 
 
-[Debugging remote table script definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/debugging-remote-table-scripts.md)
+[Debugging remote table script definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/remote-tables/debugging-remote-table-scripts.md)
 
 [TransformerDefinition API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerDefinitionAPI.md)
 

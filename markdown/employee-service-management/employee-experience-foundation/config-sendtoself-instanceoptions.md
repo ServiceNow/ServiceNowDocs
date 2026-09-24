@@ -2,7 +2,7 @@
 title: Modify Send to self widget display
 description: The Send to self widget displays the options for sending useful information as an email or an SMS for the Employee Center Pro Kiosk user. You can configure the instance options based on your display preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-sendtoself-instanceoptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-sendtoself-instanceoptions.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -40,10 +40,10 @@ Role required: sn\_hr\_sp.esc\_admin
 5.  Click **Save**.
 
 
-**Parent Topic:**[Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md)
+**Parent Topic:**[Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md)
 
 **Related topics**  
 
 
-[Configure the mail and SMS send to self](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.md)
+[Configure the mail and SMS send to self](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.md)
 

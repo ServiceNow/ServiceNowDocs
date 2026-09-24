@@ -2,7 +2,7 @@
 title: Risk form
 description: The risk form enables you to define a risk for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/risk-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/risk-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

@@ -2,7 +2,7 @@
 title: Configure the Early Warning for Security Exposure Management integration
 description: Install and configure the Early Warning for Security Exposure Management integration plugin to ingest vulnerability intelligence and enrich your vulnerability database with threat signals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configure-early-warning-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configure-early-warning-integration.html
 release: australia
 topic_type: task
 last_updated: "2026-06-23"
@@ -63,7 +63,7 @@ By configuring the Early Warning for Security Exposure Management integration, y
 Your Early Warning for Security Exposure Management integration is now configured and active. The integration will:
 
 -   Ingest threat signals on a scheduled cadence.
--   Enrich matching CVDB records with vulnerability intelligence attributes. See Libraries in the List view table in [Security Exposure Management Workspace List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-workspace-list-page.md) for more information.
+-   Enrich matching CVDB records with vulnerability intelligence attributes. See Libraries in the List view table in [Security Exposure Management Workspace List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-workspace-list-page.md) for more information.
 -   Propagate early warning status to related vulnerability records.
 -   Update risk scores to reflect early warning signals.
 
@@ -75,5 +75,5 @@ After configuring the integration, consider the following next steps:
 -   Create custom Vulnerability Crisis Management \(VCM\) workflows to trigger on early warning CVEs.
 -   Review and customize the Early Warning dashboard to fit your team's reporting needs.
 
-**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
+**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/armis-early-warning-integration.md)
 

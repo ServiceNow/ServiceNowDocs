@@ -2,7 +2,7 @@
 title: Configure a highlighted value for a form header
 description: Configure a highlighted value for a form header in a workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/config-ws-highlight-value.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/config-ws-highlight-value.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Duplicate an exploration
 description: Create multiple copies of a AI Data Explorer exploration to repeat analyses, give yourself editing rights without affecting the original, or experiment with multiple variations of an exploration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/nowass-expl-duplicate-exploration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/nowass-expl-duplicate-exploration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,11 +30,11 @@ Duplicating an exploration grants the following possibilities:
 
 1.  Launch AI Data Explorer.
 
-    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-ai-data-explorer.md).
+    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Locate and open the exploration that you want to duplicate.
 
-    See [Open an existing exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/open-existing-exploration.md).
+    See [Open an existing exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/open-existing-exploration.md).
 
 3.  Expand the additional actions list and select **Duplicate**.
 
@@ -47,5 +47,5 @@ Duplicating an exploration grants the following possibilities:
 5.  Press **Duplicate**.
 
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/use-aide.md)
 

@@ -2,7 +2,7 @@
 title: Use multiple timer activities in one workflow
 description: Workflow timer activities store data independently of each other in an activity-specific scratchpad.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/c\_MltTmActWkflw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/c\_MltTmActWkflw.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

@@ -2,7 +2,7 @@
 title: Create a custom pull connector
 description: You can create a customized pull connector that requires a script, connector definition, and connector instance, to retrieve events on behalf of an event source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMCreateCustomConnectorDefinition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMCreateCustomConnectorDefinition.html
 release: australia
 product: Event Management
 classification: event-management
@@ -215,5 +215,5 @@ The MID Server name to process events from the event server. If not specified, a
 </table>14. Click **Submit**.
 
 
-**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connectors-and-listeners.md)
+**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/connectors-and-listeners.md)
 

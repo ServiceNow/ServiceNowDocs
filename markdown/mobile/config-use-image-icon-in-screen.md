@@ -2,7 +2,7 @@
 title: Configure using an image icon in a screen
 description: Use Mobile App Builder to configure a screen in your mobile app to an image icon.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-use-image-icon-in-screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-use-image-icon-in-screen.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

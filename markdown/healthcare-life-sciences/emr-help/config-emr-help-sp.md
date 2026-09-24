@@ -2,7 +2,7 @@
 title: Configuring the EMR Help service portal
 description: The EMR Help service portal enables users to submit ServiceNow IT service requests from within their EMR system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/config-emr-help-sp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/config-emr-help-sp.html
 release: australia
 product: EMR Help
 classification: emr-help

@@ -2,7 +2,7 @@
 title: How L2 punchout works
 description: Level 2 \(L2\) PunchOut enables buying organizations to search for and discover PunchOut items directly within their procurement application, eliminating the need to search each supplier’s site individually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/level-two-punchout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/level-two-punchout.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -24,7 +24,7 @@ Level 2 \(L2\) PunchOut enables buying organizations to search for and discover 
 
 ## Multi-supplier support
 
-You can configure SPO with multiple PunchOut endpoints. For more information, see [Punchout configuration in SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/punchout-configuration-spo.md).
+You can configure SPO with multiple PunchOut endpoints. For more information, see [Punchout configuration in SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-configuration-spo.md).
 
 When a search is initiated, SPO queries all configured systems and presents a consolidated set of results to the user.
 
@@ -57,5 +57,5 @@ The Level 2 PunchOut flow includes the following steps:
 
 The following figure illustrates the L2 PunchOut flow.\[Omitted image "punchout-level-two-flow.png"\] Alt text: L2 punchout flow.
 
-**Parent Topic:**[Understanding Punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
+**Parent Topic:**[Understanding Punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
 

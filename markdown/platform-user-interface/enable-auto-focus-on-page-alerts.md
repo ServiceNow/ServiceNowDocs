@@ -2,7 +2,7 @@
 title: Enable auto-focus on page alerts preference
 description: Learn more about the Enable auto-focus on page alerts accessibility preference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-auto-focus-on-page-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/enable-auto-focus-on-page-alerts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

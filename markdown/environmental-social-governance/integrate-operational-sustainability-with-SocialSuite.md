@@ -2,7 +2,7 @@
 title: Integrating Operational Sustainability Management with Socialsuite
 description: Socialsuite is a platform for conducting materiality assessments. You can import material topics from Socialsuite into your ServiceNow instance and manage them in the Operational Sustainability Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,27 +29,27 @@ The integration imports the following data from Socialsuite:
 1.  Conduct materiality assessments in Socialsuite.
 2.  Sync the assessment results to your ServiceNow instance.
 
-    For more information, see [Sync material topics from Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/sync-material-topics-from-socialsuite.md).
+    For more information, see [Sync material topics from Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/sync-material-topics-from-socialsuite.md).
 
-    The imported material topics appear in your ServiceNow instance in workflow states based on their status in Socialsuite. For details about how Socialsuite states map to the ServiceNow instance states, see [Material topic workflow and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/material-topic-workflow-and-states.md).
+    The imported material topics appear in your ServiceNow instance in workflow states based on their status in Socialsuite. For details about how Socialsuite states map to the ServiceNow instance states, see [Material topic workflow and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/material-topic-workflow-and-states.md).
 
 3.  Associate the material topics with goals and targets.
 
--   **[Activate Operational Sustainability Integration with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-operational-sustainability-integration-with-socialsuite.md)**  
+-   **[Activate Operational Sustainability Integration with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-operational-sustainability-integration-with-socialsuite.md)**  
 You can activate the Operational Sustainability Integration with Socialsuite plugin \(sn\_osm\_ma\) for Operational Sustainability Management if you have the admin role. The plugin enables you to import materiality assessment results from Socialsuite for reporting and compliance.
--   **[Set Material topic selection system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-material-topic-selection-system-property.md)**  
+-   **[Set Material topic selection system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-material-topic-selection-system-property.md)**  
 Set the Material topic selection system property to enable the Socialsuite integration features.
--   **[Create a Socialsuite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-socialsuite-connection.md)**  
+-   **[Create a Socialsuite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-socialsuite-connection.md)**  
 Create a Socialsuite connection to sync material topics and materiality assessment results from Socialsuite into your ServiceNow instance.
--   **[Sync material topics from Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/sync-material-topics-from-socialsuite.md)**  
+-   **[Sync material topics from Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/sync-material-topics-from-socialsuite.md)**  
 Sync material topics from Socialsuite to import materiality assessment results into the Operational Sustainability Management application.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg.md)
 
 **Related topics**  
 
 
-[Socialsuite material topic fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/socialsuite-material-topic-fields.md)
+[Socialsuite material topic fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/socialsuite-material-topic-fields.md)
 
-[Socialsuite import log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/socialsuite-import-log.md)
+[Socialsuite import log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/socialsuite-import-log.md)
 

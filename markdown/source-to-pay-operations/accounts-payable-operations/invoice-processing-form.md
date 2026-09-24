@@ -2,7 +2,7 @@
 title: Invoice processing details
 description: Field descriptions for the Invoice attributes form stored in the \[sn\_apm\_invoice\_attribute\] table, including invoice processing details such as approval status, exception handling, and matching errors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-processing-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-processing-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -38,5 +38,5 @@ Field descriptions for the Invoice attributes form stored in the \[sn\_apm\_invo
 |Updated by|Name of the person who updated the invoice processing detail record.|
 |Updates|Integer value set if any updates are performed on the invoice processing detail record.|
 
-**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
+**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
 

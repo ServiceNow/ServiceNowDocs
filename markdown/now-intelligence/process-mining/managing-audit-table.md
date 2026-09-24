@@ -2,7 +2,7 @@
 title: Managing an audit table
 description: After the audit and record tables are created with the imported data, you can use them to create a project. You can also share, edit, empty, or delete the tables.Share the audit and record tables with the analyst to analyze the data. The audit and record tables are available only to the administrator. However, the administrator might want an analyst to look at the tables and create projects.Edit a dataset if you want to change the dataset, such as add or delete data from the current dataset.Empty a dataset when you want to remove the old data and import new data from the same external system to the same table.Delete a dataset when the dataset is no longer needed. Your analysis is complete, and you want to delete the entire tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/managing-audit-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/managing-audit-table.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -73,7 +73,7 @@ Role required: sn\_process\_mining\_admin
 
     \[Omitted image "ext-data-edit.png"\] Alt text: Edit dataset
 
-    You are taken back to the **Import data** tab. You can import the new data that you want to populate in the table. For steps to import data, see [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/import-data.md).
+    You are taken back to the **Import data** tab. You can import the new data that you want to populate in the table. For steps to import data, see [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/import-data.md).
 
 
 ## Empty a dataset
@@ -102,7 +102,7 @@ Role required: sn\_process\_mining\_admin
 
 5.  Type “Empty” in the confirmation area, and select **Empty dataset**.
 
-    The content from the audit and record tables are removed. After you’ve emptied the dataset, you can import any dataset again. For steps to import data, see [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/import-data.md).
+    The content from the audit and record tables are removed. After you’ve emptied the dataset, you can import any dataset again. For steps to import data, see [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/import-data.md).
 
 
 ## Delete a dataset

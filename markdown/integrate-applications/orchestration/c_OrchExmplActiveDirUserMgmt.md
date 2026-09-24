@@ -2,7 +2,7 @@
 title: Active Directory automation example
 description: A set of six Orchestration Active Directory activities enables organizations to automate their on-boarding/off-boarding processes with auditable, self-documenting workflows that save time and eliminate mistakes.An organization plans to make their ServiceNow instance the single system of record for user account data and wants to update Active Directory with the latest changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/c\_OrchExmplActiveDirUserMgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/c\_OrchExmplActiveDirUserMgmt.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -27,7 +27,7 @@ The activities in the [Active Directory activity pack](https://raw.githubusercon
 
 These activities share a common design, have complementary functionality, and share a common set of parameters. They can be used singly or together to create consistent workflows for provisioning and de-provisioning user accounts.
 
-**Parent Topic:**[Orchestration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationExamples.md)
+**Parent Topic:**[Orchestration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationExamples.md)
 
 ## Update Active Directory with Orchestration
 
@@ -214,7 +214,7 @@ An LDAP filter string that defines the search parameters. Use any valid LDAP fil
 
     \[Omitted image "WorkflowExample3.png"\] Alt text: Querying AD for user accounts
 
-    The Query AD activity returns its results as a JSON string in the workflow [data bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationDatabus.md). This JSON string is always an array of objects. Each object corresponds to an Active Directory entry that matched the query. Our workflow should branch, whether that array is empty or not.
+    The Query AD activity returns its results as a JSON string in the workflow [data bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationDatabus.md). This JSON string is always an array of objects. Each object corresponds to an Active Directory entry that matched the query. Our workflow should branch, whether that array is empty or not.
 
 21. Drag a standard If activity from the Conditions folder in the **Core** tab and drop it onto the transition between Query AD and Update AD Object.
 

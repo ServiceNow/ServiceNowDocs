@@ -2,7 +2,7 @@
 title: Localization Workspace release notes
 description: The ServiceNow Localization Workspace application is a targeted translation management experience for content owners and translation fulfillers that you can use to manage and deliver multilingual content at scale. Localization Workspace was enhanced and updated in the Australia release.The ServiceNow Localization Workspace application is a targeted translation management experience for content owners and translation fulfillers that you can use to manage and deliver multilingual content at scale. Localization Workspace was enhanced and updated in the Australia release.The ServiceNow Localization Workspace application is a targeted translation management experience for content owners and translation fulfillers that you can use to manage and deliver multilingual content at scale. Localization Workspace was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/localization-workspace-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/localization-workspace-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-05-18"
@@ -35,7 +35,7 @@ See [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/Servic
     Install Localization Workspace by requesting it from the ServiceNow Store. See [Localization Workspace on the ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/03226056b7125210a5e5911cde11a950). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
 ## June 2026
 

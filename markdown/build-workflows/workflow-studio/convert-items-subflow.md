@@ -2,7 +2,7 @@
 title: Convert items to subflow
 description: Convert consecutive items of a flow into a new subflow that preserves data pill references between the converted items. Update the original flow to replace the converted items with a call to the new subflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/convert-items-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/convert-items-subflow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -72,5 +72,5 @@ Workflow Studio updates data pill references in the original flow to their new l
 
 Review the new subflow, and update the original flow to provide the input values needed for the subflow.
 
-**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflows.md)
 

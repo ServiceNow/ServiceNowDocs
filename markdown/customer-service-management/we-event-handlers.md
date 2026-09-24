@@ -2,7 +2,7 @@
 title: Web Embeddables event handlers
 description: Reference topics provide additional information about Web Embeddables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-event-handlers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/we-event-handlers.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

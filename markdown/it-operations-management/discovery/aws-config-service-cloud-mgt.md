@@ -2,7 +2,7 @@
 title: Configure AWS Config event notifications
 description: Configure the Amazon Web Services \(AWS\) Config service to send event notifications to the ServiceNow instance for any changes in the lifecycle state of a resource.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/aws-config-service-cloud-mgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/aws-config-service-cloud-mgt.html
 release: australia
 product: Discovery
 classification: discovery
@@ -35,7 +35,7 @@ Roles required:
 
 ## About this task
 
-ServiceNow® event-driven discovery uses the events to update the latest resource information in the Configuration Management Database \(CMDB\). For more information, see [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/aws-events-driven-discovery.md).
+ServiceNow® event-driven discovery uses the events to update the latest resource information in the Configuration Management Database \(CMDB\). For more information, see [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/aws-events-driven-discovery.md).
 
 Many of the steps in the topic are performed in the AWS portal. For more information, see the following AWS documents:
 
@@ -197,7 +197,7 @@ Amazon SNS topic
 
 SNS topic for streaming configuration changes and notifications.Select the **Stream configuration changes and notifications to an Amazon SNS topic** check box.
 
-Select **Choose a topic from your account** and select the SNS topic created in [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/aws-config-service-cloud-mgt.md).
+Select **Choose a topic from your account** and select the SNS topic created in [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/aws-config-service-cloud-mgt.md).
 
 </td></tr></tbody>
 </table>    4.  Select **Save**.
@@ -292,5 +292,5 @@ IAM role that AWS Config uses to access other AWS services.Select one of the fol
 
 ## What to do next
 
-After some events are generated, navigate to the [Cloud User Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-view-cloud-events.md) to view the events.
+After some events are generated, navigate to the [Cloud User Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloudmgt-view-cloud-events.md) to view the events.
 

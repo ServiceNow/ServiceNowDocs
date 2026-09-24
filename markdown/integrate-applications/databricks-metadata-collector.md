@@ -2,7 +2,7 @@
 title: Databricks metadata collector
 description: The Databricks metadata collector provides read-only access to metadata from an external Databricks account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/databricks-metadata-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/databricks-metadata-collector.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -485,10 +485,10 @@ Table
 
 The Databricks collector supports Personal access token authentication and Oauth service principal authentication.
 
--   **[Prepare to run the Databricks collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-the-databricks-collector.md)**  
+-   **[Prepare to run the Databricks collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-the-databricks-collector.md)**  
 Complete authentication and permission configuration tasks before running the Databricks metadata collector.
--   **[Create a Databricks metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-databricks-metadata-collector.md)**  
+-   **[Create a Databricks metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-databricks-metadata-collector.md)**  
 Create a collector to import metadata from Databricks.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-metadata-collectors-dc.md)
 

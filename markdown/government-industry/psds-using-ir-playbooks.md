@@ -2,7 +2,7 @@
 title: Using Information Request Playbook
 description: If you're an information request case agent or manager, you can use the Information Request Playbook for Public Sector Digital Services to manage and resolve requests for information and public records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-ir-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-ir-playbooks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -103,7 +103,7 @@ Contextual side panel
 -   Includes the tabs that you can use to display the following types of information:
     -   Case or case task activity stream.
     -   Ribbon information such as the case overview, customer details, timeline, and service level agreements \(SLAs\).
-    -   Dynamic related records. For more information, see [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-playbook-viewing-rel-records.md).
+    -   Dynamic related records. For more information, see [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-playbook-viewing-rel-records.md).
 
 </td></tr><tr><td>
 

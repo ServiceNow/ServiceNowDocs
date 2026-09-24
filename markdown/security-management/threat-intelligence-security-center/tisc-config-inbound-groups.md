@@ -2,7 +2,7 @@
 title: Configuring Inbound Intel Sharing Groups
 description: Inbound Intel Sharing Groups enable administrators to group similar inbound intelligence sharing profiles together. These groups can be used to define approval rules that apply to all profiles within the group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-config-inbound-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-config-inbound-groups.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -63,7 +63,7 @@ Role required: sn\_sec\_tisc.admin
     **Note:** You must add a reason for removal.
 
 
-**Parent Topic:**[Exploring Inbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-inbound-intel-sharing.md)
+**Parent Topic:**[Exploring Inbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-inbound-intel-sharing.md)
 
 **Related topics**  
 
@@ -72,7 +72,7 @@ Role required: sn\_sec\_tisc.admin
 
 [Defining Approval Rule for Inbound Intel]()
 
-[Configuring Inbound Intel Sharing Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-config-inbound-profile.md)
+[Configuring Inbound Intel Sharing Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-config-inbound-profile.md)
 
-[Defining Approval Rule for Inbound Intel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-approval-inbound-intel.md)
+[Defining Approval Rule for Inbound Intel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-approval-inbound-intel.md)
 

@@ -2,7 +2,7 @@
 title: Personal Data Rights location configuration form fields
 description: Populate a new location configuration record. Field choices determine whether requesters in the mapped jurisdictions see authorized agent paths, what URLs the form links to, and what introductory text appears at the start of the Personal Data Rights \(PDR\) form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/ext-form-new-jurisdiction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/ext-form-new-jurisdiction.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -56,7 +56,7 @@ Reference to the parent external form configuration record. Automatically set to
 
 Activation state of the location configuration. You can select this option only after at least one active data subject type is mapped to the location.After mapping an active data subject, return to this record, and select **Active**.
 
-**Note:** To map a data subject type for a jurisdiction, see [Configure the data subject types for a jurisdiction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-pdr-ds-types.md).
+**Note:** To map a data subject type for a jurisdiction, see [Configure the data subject types for a jurisdiction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/config-pdr-ds-types.md).
 
 </td></tr><tr><td>
 
@@ -91,12 +91,12 @@ Location-specific URL to the legal terms of your organization. If you leave this
 Location-specific URL to the terms of service of your organization. If you leave this field empty, the form uses the URL set on the parent external form configuration record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure jurisdictions for the external-facing Personal Data Rights form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-pdr-location.md)
+</table>**Parent Topic:**[Configure jurisdictions for the external-facing Personal Data Rights form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/config-pdr-location.md)
 
 **Related topics**  
 
 
-[Configure jurisdictions for the external-facing Personal Data Rights form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-pdr-location.md)
+[Configure jurisdictions for the external-facing Personal Data Rights form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/config-pdr-location.md)
 
-[Personal Data Rights \(PDR\) external-facing form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/pdr-external-facing.md)
+[Personal Data Rights \(PDR\) external-facing form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/pdr-external-facing.md)
 

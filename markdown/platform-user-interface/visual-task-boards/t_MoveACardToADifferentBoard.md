@@ -2,7 +2,7 @@
 title: Move a freeform Visual Task Board card to a different board
 description: You can move a card from one freeform board to another.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_MoveACardToADifferentBoard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_MoveACardToADifferentBoard.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -31,5 +31,5 @@ Role required: none
     The board selection list displays freeform boards only.
 
 
-**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

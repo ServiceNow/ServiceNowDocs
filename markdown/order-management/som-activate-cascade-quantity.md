@@ -2,7 +2,7 @@
 title: Control cascading quantity values in child product offerings
 description: Control how the quantities for child line items in a product offering for an opportunity, quote, or order are calculated by using the sn\_prd\_pm.enable\_cascade\_quantity system property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-activate-cascade-quantity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-activate-cascade-quantity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ However, if you consider the quantity on the child offer as the quantity of the 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

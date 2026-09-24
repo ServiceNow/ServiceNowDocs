@@ -2,7 +2,7 @@
 title: Configure a permit checklist
 description: Create a permit checklist and link it to the permit type of a permit-to-work request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-configure-permit-checklist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-configure-permit-checklist.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -32,7 +32,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 5.  On the Variable set new record form, fill in the fields.
 
-    For a description of the field values, see [Variable set new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-variable-set-new-record-form.md).
+    For a description of the field values, see [Variable set new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-variable-set-new-record-form.md).
 
 6.  Select **Submit**.
 
@@ -40,7 +40,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 7.  Open the new variable set and on the form fill in the fields.
 
-    For more information on the field description, see [Variable new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.md).
+    For more information on the field description, see [Variable new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.md).
 
 8.  Select **Submit**.
 
@@ -58,7 +58,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
     6.  On the form, fill in the fields.
 
-        For more information on the field description, see [Choice new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-choice-new-record-form.md).
+        For more information on the field description, see [Choice new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-choice-new-record-form.md).
 
     7.  Select **Submit**.
 
@@ -99,5 +99,5 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 The checklist is configured and displayed in the checklist tab of the permit-to-work request form when the permit type is selected.
 
-**Parent Topic:**[Configure permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-configure-permit-to-work.md)
+**Parent Topic:**[Configure permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-configure-permit-to-work.md)
 

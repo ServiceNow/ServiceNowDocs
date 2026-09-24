@@ -2,7 +2,7 @@
 title: Create an OAuth API script
 description: Create and duplicate an OAuth API script for application registry.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/oauth-api-script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/oauth-api-script.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Create and duplicate an OAuth API script for application registry.
 
 ## Before you begin
 
-Generate a SHA -1 thumbprint. For more information see [Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/generate-thumbprint.md).
+Generate a SHA -1 thumbprint. For more information see [Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/generate-thumbprint.md).
 
 Ensure you have the Email - Support for Email Processing by Microsoft Graph API plugin \(com.glide.email.graph\) installed.
 
@@ -41,7 +41,7 @@ Role required: admin
 
 ## What to do next
 
-[Register an application as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/microsoft-graph.md).
+[Register an application as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/microsoft-graph.md).
 
-**Parent Topic:**[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-oauth-profile-using-certificates.md)
+**Parent Topic:**[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-oauth-profile-using-certificates.md)
 

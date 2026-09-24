@@ -2,7 +2,7 @@
 title: CRM Outlook Add-in
 description: The CRM Outlook Add-in helps sales teams capture email interactions into ServiceNow CRM directly from Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/explore-crm-outlook-add-in.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-crm-outlook-add-in.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -74,17 +74,17 @@ The following workflow illustration shows how a sales representative captures an
 
 |Benefits|Feature|Users|
 |--------|-------|-----|
-|Locate CRM records such as leads, opportunities, accounts, or contacts, and link emails without leaving Outlook.|[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)|Sales representative, Sales manager|
-|Capture new prospects immediately from inbound inquiries with auto-populated sender information and associate emails in a single action.|[Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-entity-outlook.md)|Sales representative|
-|Promote emails from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table, making them visible to agents in the workspace.|[Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/promote-crm-outlook-emails.md)|CRM administrator|
-|View associated emails from the CRM entity records.|[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md)|Sales representative|
-|Grant fine-grained access to CRM data by using the responsibility framework.|[Responsibility-based access to Sales CRM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/responsibility-based-access-crm-touchpoints.md)|Admin|
+|Locate CRM records such as leads, opportunities, accounts, or contacts, and link emails without leaving Outlook.|[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/associate-email-crm-outlook.md)|Sales representative, Sales manager|
+|Capture new prospects immediately from inbound inquiries with auto-populated sender information and associate emails in a single action.|[Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-crm-entity-outlook.md)|Sales representative|
+|Promote emails from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table, making them visible to agents in the workspace.|[Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/promote-crm-outlook-emails.md)|CRM administrator|
+|View associated emails from the CRM entity records.|[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-associated-emails-crm.md)|Sales representative|
+|Grant fine-grained access to CRM data by using the responsibility framework.|[Responsibility-based access to Sales CRM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/responsibility-based-access-crm-touchpoints.md)|Admin|
 
 ## What to explore next
 
 To learn more about configuring and using CRM Outlook Add-in, see:
 
--   [Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
--   [Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
--   [Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)
+-   [Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-activity-management.md)
+-   [Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-activity-management.md)
+-   [Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activity-management-reference.md)
 

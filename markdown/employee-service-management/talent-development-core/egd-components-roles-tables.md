@@ -2,7 +2,7 @@
 title: Components installed with Talent Development Core
 description: Several types of components are installed with Talent Development Core, including roles and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-components-roles-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/egd-components-roles-tables.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -62,5 +62,5 @@ Hiring Core provides a repository where you can store information that you’ve 
 
 **Note:** You can use the record tables according to your requirement.
 
-**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-reference.md)
+**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-reference.md)
 

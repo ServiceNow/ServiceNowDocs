@@ -2,7 +2,7 @@
 title: Create Talent Development Core Activity Categories
 description: As an Talent Development Core admin you create Activity Categories that are used in growth plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-admin-create-activity-cat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/egd-admin-create-activity-cat.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -32,10 +32,10 @@ An **Activity Category** helps to identify what an activity is intended to do.
 
 3.  Complete the **Activity Categories** form.
 
-    Read details about the different fields in [Talent Activity Category reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-activity-category-form.md).
+    Read details about the different fields in [Talent Activity Category reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-activity-category-form.md).
 
 4.  Select **Submit**
 
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-administration.md)
 

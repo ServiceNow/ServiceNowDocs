@@ -2,7 +2,7 @@
 title: Leaderboard page
 description: The leaderboard page displays the top contributors in the community, in a forum, or in a topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-ui-leaderboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/gamification-ui-leaderboard.html
 release: australia
 product: Communities
 classification: communities
@@ -31,5 +31,5 @@ For each user, the leaderboard displays:
 
 By default, the leaderboard displays 10 users per page. Users can use the pagination controls to view additional pages. Pointing to a user name in the leaderboard displays a pop-up window with more information about the user.
 
-**Parent Topic:**[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-UI.md)
+**Parent Topic:**[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/communities-gamification-UI.md)
 

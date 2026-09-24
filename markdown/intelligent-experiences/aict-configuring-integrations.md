@@ -2,12 +2,12 @@
 title: Configuring integrations
 description: Connect AI Control Tower to external AI platforms so you can discover AI assets, collect trace data for monitoring, and synchronize governance across multiple ServiceNow instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configuring-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configuring-integrations.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-29"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, integrations, connectors, traces, multi-instance, security]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, integrations, connectors, traces, multi-instance, security]
 breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -17,7 +17,7 @@ Connect AI Control Tower to external AI platforms so you can discover AI assets,
 
 ## Connectors
 
-Connectors let you discover AI assets from external cloud hyperscalers and SaaS applications and bring them into your AI asset inventory. When you establish a connector, AI Control Tower periodically scans the connected platform, discovers AI assets, and adds them to your inventory as unmanaged assets. You can then review the discovered assets and move them to a managed state. For more information, see [Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-connectors.md).
+Connectors let you discover AI assets from external cloud hyperscalers and SaaS applications and bring them into your AI asset inventory. When you establish a connector, AI Control Tower periodically scans the connected platform, discovers AI assets, and adds them to your inventory as unmanaged assets. You can then review the discovered assets and move them to a managed state. For more information, see [Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-connectors.md).
 
 ## Traces
 
@@ -25,7 +25,7 @@ Trace connections collect observability data from external AI systems and route 
 
 The information collected from traces is entered into the inventory for discovery. It is also sent to the observability service within ServiceNow, which generates evaluation metrics and security metrics.
 
-Trace connections are the recommended route for collecting observability data from supported platforms. For external AI systems hosted on unsupported platforms or third-party agents, you can send trace data to AI Control Tower using the API instead. For a comparison of both methods and the list of supported platforms, see [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md).
+Trace connections are the recommended route for collecting observability data from supported platforms. For external AI systems hosted on unsupported platforms or third-party agents, you can send trace data to AI Control Tower using the API instead. For a comparison of both methods and the list of supported platforms, see [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-trace-connections.md).
 
 ## Multi-instance
 
@@ -70,16 +70,16 @@ Supported connectors include:
 
 The supported identity provider is Okta.
 
-To set up a new connector, select an identity provider or platform from the Available connectors view and follow the guided setup wizard. Each connector has provider-specific prerequisites, which are linked from the first step of the wizard. For more information, see [Configure AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-ai-agent-containment.md).
+To set up a new connector, select an identity provider or platform from the Available connectors view and follow the guided setup wizard. Each connector has provider-specific prerequisites, which are linked from the first step of the wizard. For more information, see [Configure AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-ai-agent-containment.md).
 
--   **[Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-connectors.md)**  
+-   **[Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-connectors.md)**  
 Discover AI assets running on external platforms and hyperscaler environments to populate your AI asset inventory, apply consistent governance, and report on usage in AI Control Tower.
--   **[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md)**  
+-   **[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-trace-connections.md)**  
 Collect trace data from AI agents running on supported cloud platforms and monitoring services to generate evaluation metrics, populate AI inventory, and support security monitoring in AI Control Tower.
--   **[Multi-instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-multi-instance.md)**  
+-   **[Multi-instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-multi-instance.md)**  
 The Multi-instance Framework enables a prod \(manager\) instance to manage multiple sub-prod \(managed\) instances and facilitate communication for AI Control Tower.
--   **[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-security-connections.md)**  
+-   **[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-security-connections.md)**  
 Connect AI Control Tower to the platforms where your AI agents run and to your identity provider so that policies and AI agent containment using kill switch protocol can act on agents wherever they're hosted.
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring.md)
 

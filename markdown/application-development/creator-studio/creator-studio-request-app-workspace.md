@@ -2,7 +2,7 @@
 title: Using the Request App Workspace to fulfill requests
 description: After users submit a request through an app built in Creator Studio, fulfillers work on the request's submitted record in the Request App Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-request-app-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-request-app-workspace.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -18,7 +18,7 @@ After users submit a request through an app built in Creator Studio, fulfillers 
 
 ## The Request App Workspace holds app requests
 
-The Request App Workspace holds form submissions that come in from each of your apps. [Fulfillers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md) \(remember, these are the people who work on requests\) can access the workspace through the ServiceNow AI Platform and see submissions for all the apps they're assigned to.
+The Request App Workspace holds form submissions that come in from each of your apps. [Fulfillers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-glossary.md) \(remember, these are the people who work on requests\) can access the workspace through the ServiceNow AI Platform and see submissions for all the apps they're assigned to.
 
 There is only one Request App Workspace per instance. Each app that you build in Creator Studio has its own category in the Request App Workspace, with as many lists as you configure, regardless of how many forms or automations it has.
 
@@ -50,5 +50,5 @@ After you find the subset of requests you need, such as open requests assigned t
 
 The submitted request record has various tabs that help you do your work.
 
-**Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
+**Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
 

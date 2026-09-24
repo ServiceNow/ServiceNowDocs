@@ -2,7 +2,7 @@
 title: Add Employee Center to the ServiceNow Otto display experience
 description: Enable ServiceNow Otto to appear in Employee Center to converse with AI agents in this agentic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/enable-na-va-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/enable-na-va-ec.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -43,7 +43,7 @@ Role required: virtual\_agent\_admin
 9.  Select **Save**.
 
 
-**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
+**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
 
-**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
+**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

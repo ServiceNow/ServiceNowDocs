@@ -2,7 +2,7 @@
 title: Working with incident record form
 description: Once an incident is created, you can use the incident record form to perform various actions to track, process and resolve the incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/working-incident-record-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/working-incident-record-form.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -35,6 +35,6 @@ On the incident form, you can perform actions to manage and resolve the incident
     -   DEX requires a separate entitlement.
     -   This link is available to the agent only if the following conditions are met:
         -   The selected CI is of type Device, which is also known as Endpoint.
-        -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md).
+        -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-landing.md).
         -   The DEX agent is installed on the selected CI.
 

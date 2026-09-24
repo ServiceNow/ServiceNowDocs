@@ -2,7 +2,7 @@
 title: Proactive Rule form
 description: When creating a Proactive Triggers rule, the Proactive Rule form includes the following fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/proactive-rule-new-record-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/product-support-for-technology/proactive-rule-new-record-form.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -83,7 +83,7 @@ Frequency
 
 How often the rule should be applied. Choices are:-   Every time: Every time an end user visits the page.
 -   Once per visit: Every time an end user visits a page per user log in.
--   Once per user: Applies the rule only the first time that an end user visits the page. With this frequency setting, you must clear the rule's history if you want to run this rule again for a user. For more information about clearing the rule history, see [Multiple Proactive Triggers rules and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/multiple-rules-and-actions.md).
+-   Once per user: Applies the rule only the first time that an end user visits the page. With this frequency setting, you must clear the rule's history if you want to run this rule again for a user. For more information about clearing the rule history, see [Multiple Proactive Triggers rules and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/product-support-for-technology/multiple-rules-and-actions.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Define the URL components as shown in this example.
     -   If you're using the Virtual Agent web client outside of the ServiceNow instance \(for example, as part of a third-party website\), use the URL trigger type. Don't use any of the other trigger types.
     -   The URL trigger type applies only if no other available trigger types match the URL.
 
- If you don’t see the trigger type that you need using the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup using list icon.\), you can create your own custom trigger type. For more information about custom trigger types, see [Create custom trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/create-custom-trigger-types.md).
+ If you don’t see the trigger type that you need using the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup using list icon.\), you can create your own custom trigger type. For more information about custom trigger types, see [Create custom trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/product-support-for-technology/create-custom-trigger-types.md).
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Conditions that must be met for the trigger type to run as defined by the admin.
 
 \[Omitted image "specify-conditions.png"\] Alt text: Proactive Triggers conditions.
 
-**Note:** When specifying the conditions that must be met for a trigger type, be careful not to specify conflicting trigger types and conditions. Conflicting URL trigger types and conditions can cause errors. For more information, see [Manage Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/manage-proactive-triggers-2.md).
+**Note:** When specifying the conditions that must be met for a trigger type, be careful not to specify conflicting trigger types and conditions. Conflicting URL trigger types and conditions can cause errors. For more information, see [Manage Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/product-support-for-technology/manage-proactive-triggers-2.md).
 
 </td></tr><tr><td>
 
@@ -163,5 +163,5 @@ Find available agent
 Option to check for any available live agents.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Proactive Triggers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers-reference.md)
+</table>**Parent Topic:**[Proactive Triggers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/product-support-for-technology/proactive-triggers-reference.md)
 

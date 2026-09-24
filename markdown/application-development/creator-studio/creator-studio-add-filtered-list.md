@@ -2,7 +2,7 @@
 title: Add a filtered list to a workspace in Creator Studio
 description: Create custom filtered lists in the app submission workspace to view records that meet specific conditions. For example, if your app has multiple forms, you can create a list for each form by filtering on the record type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-add-filtered-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-add-filtered-list.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -73,5 +73,5 @@ To add a list to a workspace configuration, you must be given permission to work
 
 Your new list will appear in the Request App Workspace after your admin deploys it!
 
-**Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
+**Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
 

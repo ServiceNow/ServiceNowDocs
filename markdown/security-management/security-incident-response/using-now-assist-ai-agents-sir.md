@@ -2,7 +2,7 @@
 title: Using agentic AI workflows
 description: Use the Security Incident Response AI agentic workflows to complete security incident tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-now-assist-ai-agents-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/using-now-assist-ai-agents-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -131,18 +131,18 @@ To modify an agentic workflow, you must first [duplicate the agentic workflow](h
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
--   **[Close security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/now-assist-sir-close-incident-usecase.md)**  
+-   **[Close security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/now-assist-sir-close-incident-usecase.md)**  
 The Wrap up security incident agentic workflow enables security analysts to close a security incident.
--   **[Resolve security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/now-assist-sir-resolve-incident-ai-workflow.md)**  
+-   **[Resolve security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/now-assist-sir-resolve-incident-ai-workflow.md)**  
 Chat with an AI agent in the ServiceNow Otto panel to help you create a resolution plan for a security incident and to resolve it.
--   **[Analyze security incident data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/analyze-data-sir.md)**  
+-   **[Analyze security incident data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/analyze-data-sir.md)**  
 Analyze and get insights into your security incident data using available prompts or natural language queries from the ServiceNow Otto panel.
--   **[Analyze security operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/now-assist-sir-soc-efficiency-usecase.md)**  
+-   **[Analyze security operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/now-assist-sir-soc-efficiency-usecase.md)**  
 The Analyze security operations metrics agentic workflow helps security operations center managers analyze the performance of their security teams.
--   **[Generate SIR Shift Handover Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-incidents-shifthandover-ai-agent.md)**  
+-   **[Generate SIR Shift Handover Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/add-incidents-shifthandover-ai-agent.md)**  
 Chat with an AI agent in the ServiceNow Otto panel to use the Generate SIR Shift Handover Report agentic workflow to help you add a security incident's detail to a shift handover report.
 
-**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 

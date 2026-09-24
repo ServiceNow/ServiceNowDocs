@@ -2,7 +2,7 @@
 title: Secure apps with low-code tools
 description: Secure your ServiceNow apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-low-manage-secure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-dev-low-manage-secure.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Secure your ServiceNow apps.
 
 <table id="table_fck_nq2_2vb" class="nav-card"><tbody><tr><td>
 
-[App Engine Studio roles and permissions \[Omitted image "icon-roles.png"\] Alt text: App Engine Studio roles and permissions. Control who is permitted to use or edit your apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md)
+[App Engine Studio roles and permissions \[Omitted image "icon-roles.png"\] Alt text: App Engine Studio roles and permissions. Control who is permitted to use or edit your apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-security.md)
 
 </td><td>
 

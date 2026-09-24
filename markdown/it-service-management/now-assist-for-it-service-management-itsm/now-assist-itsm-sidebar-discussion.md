@@ -2,7 +2,7 @@
 title: Summarize a Sidebar discussion by using ServiceNow Otto for IT Service Management \(ITSM\)
 description: Generate a summary of Sidebar discussions between agents, requesters, and subject matter experts by using the Sidebar discussion summarization skill in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-sidebar-discussion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-sidebar-discussion.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -52,15 +52,15 @@ Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more
 
 4.  Add the summary to the incident work notes, and provide feedback about it.
 
-<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d458997e253">
+<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d459061e253">
 
 Option
 
-</th><th align="left" id="d458997e256">
+</th><th align="left" id="d459061e256">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d458997e262">
+</th></tr></thead><tbody><tr><td id="d459061e262">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -71,7 +71,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d458997e289">
+</td></tr><tr><td id="d459061e289">
 
 **Provide feedback for the summary**
 

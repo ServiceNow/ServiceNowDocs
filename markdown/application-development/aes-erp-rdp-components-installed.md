@@ -2,7 +2,7 @@
 title: Components installed with App Engine ERP Rapid Deployment Packs
 description: When you purchase App Engine Prime \(which contains App Engine ERP\) and then download the rapid deployment packs, you install components such as tables and properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-components-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-components-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -53,5 +53,5 @@ Find the roles that define the access and permissions for users of App Engine ER
 
 For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
 
-**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
+**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-reference.md)
 

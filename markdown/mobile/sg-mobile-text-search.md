@@ -2,7 +2,7 @@
 title: Mobile text search
 description: Find items, articles, and people by entering text in the search area.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-text-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-text-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Find items, articles, and people by entering text in the search area.
 
 Use search in the launcher screen header to quickly find information within the defined search sources while on your mobile device.
 
-Your administrator can configure a search area within launcher screen headers and define a set of tables that can be searched through. There are two search engine types which your administrator can configure, Zing text indexing and search engine and AI Search. Zing search is available throughout all mobile platforms, whereas AI Search is available only on Now Mobile. For details on how an administrator can configure this features, see [Enable global search in your screen launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-alp-search.md).
+Your administrator can configure a search area within launcher screen headers and define a set of tables that can be searched through. There are two search engine types which your administrator can configure, Zing text indexing and search engine and AI Search. Zing search is available throughout all mobile platforms, whereas AI Search is available only on Now Mobile. For details on how an administrator can configure this features, see [Enable global search in your screen launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-alp-search.md).
 
 The appearance and capabilities of the Zing and AI Search results differ. You may notice this difference as admins can configure the different search engines on different launcher screens throughout a single instance.
 

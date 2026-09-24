@@ -2,7 +2,7 @@
 title: MLPredictor - Global \(deprecated\)
 description: The MLPredictor API provides utility methods for Predictive Intelligence predictions.Instantiates a new MLPredictor object.Sets predicted values from an array of specified solutions to a specified record.Applies a predicted value from a specified classification solution to the specified GlideRecord.Gets the solution object.Gets active solutions for a table in a specified GlideRecord.Gets the predicted value for a specified solution based on the specified prediction outcome.Gets predictions for a specified solution.Identifies if a solution object is a classification type.Identifies if a solution object is a similarity type.Gets the confidence of the predicted value.Gets the predicted value from the MLPredictor outcome object.Gets the sys\_id of the predicted value.Sets final prediction result values to a specified GlideRecord with an optionally specified reason.Gets the capability information of a trained solution.Gets the name of the solution used for prediction.Gets the predicted value of a solution.Gets the solution threshold.Gets the version of the active solution.Determines if the specified solution is active.Gets solution prediction results as an Outcome object.Returns a list of outcome objects up to the expected number of predictions. Maximum number 1000 predictions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_MLPredictorAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_MLPredictorAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +22,7 @@ The MLPredictor API requires the Predictive Intelligence plugin \(com.glide.plat
 
 This class contains all methods necessary to get prediction results from input data.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## MLPredictor - MLPredictor\(\)
 

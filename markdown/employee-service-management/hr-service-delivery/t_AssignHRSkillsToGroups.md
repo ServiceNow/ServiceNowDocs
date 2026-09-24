@@ -2,7 +2,7 @@
 title: Assign an HR skill to a group
 description: When you assign skills to HR groups, all members of the group inherit the skills and any child skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_AssignHRSkillsToGroups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_AssignHRSkillsToGroups.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,5 +35,5 @@ Role required: sn\_hr\_core.admin
 5.  Click **Save**.
 
 
-**Parent Topic:**[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)
+**Parent Topic:**[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)
 

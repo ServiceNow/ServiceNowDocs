@@ -2,7 +2,7 @@
 title: Use AI agents in ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Use AI agents to resolve invoice inquiries and recommend business owners for Non-PO invoices and credit memos.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/using-apo-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/using-apo-ai-agents.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,5 +31,5 @@ There might be AI agents installed on your instance that are not used in agentic
 **Related topics**  
 
 
-[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
+[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
 

@@ -2,7 +2,7 @@
 title: Define ServiceNow AI Lens behavior with Lens actions
 description: As a Lens admin, you can create Lens actions in ServiceNow AI Lens to customize Lens behavior by providing default instructions, configuring context, and more.Create a Lens action to define custom context, trigger options, and default instructions for the ServiceNow AI Lens execution.Enable customers to scan documents related to car accident on their desktop to auto-fill the Insurance Request form on the ServiceNow instance.Enable compliance analysts to digitize and review several vendor agreements. Instead of manually entering details, they can launch ServiceNow AI Lens directly from the desktop, scan agreements, and adjust extracted values in the preview window before saving.Enable service agents to create user records by extracting specific information from identity documents using ServiceNow AI Lens, directly from the ServiceNow instance.Use ServiceNow AI Lens to map the column headers of an Excel sheet that you specify with ServiceNow table columns and then insert the Excel sheet data into the table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/servicenow-lens-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -30,10 +30,10 @@ Whenever ServiceNow AI Lens is launched from an instance, it checks if any activ
 
 Refer to the following examples to understand the different use cases of setting up the Lens actions.
 
--   [Example: Scan documents to auto-fill the Insurance Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
--   [Example: Extract structured data from vendor agreements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
--   [Example: Auto-fill user records on a user table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
--   [Auto-map Excel sheet column headers with ServiceNow table columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+-   [Example: Scan documents to auto-fill the Insurance Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+-   [Example: Extract structured data from vendor agreements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+-   [Example: Auto-fill user records on a user table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+-   [Auto-map Excel sheet column headers with ServiceNow table columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 ## Customize ServiceNow AI Lens behavior by creating a Lens action
 
@@ -63,7 +63,7 @@ Trigger For
 
 Auto-fill a form with a custom context and default instructions when triggered from the instance.When ServiceNow AI Lens is triggered from the instance in the context of the Lens action, the default instructions are always applied and specific form fields are extracted.
 
-To view the procedure to define default instructions, see [Define default instructions for ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/default-prompt-system-property-lens.md).
+To view the procedure to define default instructions, see [Define default instructions for ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/default-prompt-system-property-lens.md).
 
 </td><td>
 
@@ -87,7 +87,7 @@ Form
 
 </td></tr><tr><td>
 
-Auto-map the column headers of an Excel sheet with the columns of a specified table, and then insert the Excel sheet data into the table.To view the procedure to auto-map the column headers of an Excel sheet with the columns of a table, and insert Excel data into the table, see [Auto-map Excel sheet column headers with table columns.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+Auto-map the column headers of an Excel sheet with the columns of a specified table, and then insert the Excel sheet data into the table.To view the procedure to auto-map the column headers of an Excel sheet with the columns of a table, and insert Excel data into the table, see [Auto-map Excel sheet column headers with table columns.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 </td><td>
 
@@ -159,7 +159,7 @@ Trigger For
 
 </td><td>
 
--   **Form** - Lens action is used when ServiceNow AI Lens is triggered to auto-fill a form. Apply a transformation logic to the Lens response before the form is auto-filled by using the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md) option.
+-   **Form** - Lens action is used when ServiceNow AI Lens is triggered to auto-fill a form. Apply a transformation logic to the Lens response before the form is auto-filled by using the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md) option.
 
 This option is available when you select **Desktop** or **Instance** from the Trigger From list.
 
@@ -213,7 +213,7 @@ Fields
 
 </td><td>
 
-Table fields that you can select to provide enhanced context for Lens execution. Select fields to help Lens determine what information to extract from images. Only fields supported by Lens are available for selection. For more information, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/field-types-supported.md).This field appears only when **Supported Fields** is selected from the **Request Context** choice field.
+Table fields that you can select to provide enhanced context for Lens execution. Select fields to help Lens determine what information to extract from images. Only fields supported by Lens are available for selection. For more information, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/field-types-supported.md).This field appears only when **Supported Fields** is selected from the **Request Context** choice field.
 
 </td></tr><tr><td>
 
@@ -410,11 +410,11 @@ Option to attach the captured images to the record that is auto-filled using Ser
 </td></tr></tbody>
 </table>7.  To assign users or groups or rolesto the Lens action, under the Assigned Users and Groups or Roles heading, select **New**, and then use any one of the following methods.
 
-<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d59119e949">
+<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d58802e949">
 
 Method
 
-</th><th align="left" id="d59119e952">
+</th><th align="left" id="d58802e952">
 
 Steps
 
@@ -476,15 +476,15 @@ Repeat the step to add more groups.
 
 10. Update the assignment of users or groups or roles to the Lens action.
 
-<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d59119e1154">
+<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d58802e1154">
 
 Assignment type
 
-</th><th align="left" id="d59119e1157">
+</th><th align="left" id="d58802e1157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d59119e1163">
+</th></tr></thead><tbody><tr><td id="d58802e1163">
 
 **Roles**
 
@@ -492,10 +492,10 @@ Steps
 
 1.  Under the heading **Assigned Users and Groups or Roles**, select the role.
 2.  To remove a role, select a role and then select \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove role icon.\)
-3.  Assign one or more new roles. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+3.  Assign one or more new roles. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
-</td></tr><tr><td id="d59119e1197">
+</td></tr><tr><td id="d58802e1197">
 
 **Users**
 
@@ -503,10 +503,10 @@ Steps
 
 1.  Under the heading Assigned Users and Groups or Roles, select the user.
 2.  To remove a user, select a user and then select \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove role icon.\)
-3.  Assign one or more new users. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+3.  Assign one or more new users. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
-</td></tr><tr><td id="d59119e1226">
+</td></tr><tr><td id="d58802e1226">
 
 **Groups**
 
@@ -514,7 +514,7 @@ Steps
 
 1.  Under the heading Assigned Users and Groups or Roles, select the group.
 2.  To remove a group, select a group and then select \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove role icon.\)
-3.  Assign one or more new groups. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+3.  Assign one or more new groups. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
 </td></tr></tbody>
@@ -780,7 +780,7 @@ Use ServiceNow AI Lens to map the column headers of an Excel sheet that you spec
 
 Role required: lens\_user
 
-Ensure that the Lens action for this purpose is already defined. To view the steps to define a Lens action, see [Define a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md). Ensure that the values in the Lens action form are exactly as specified in the following table.
+Ensure that the Lens action for this purpose is already defined. To view the steps to define a Lens action, see [Define a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md). Ensure that the values in the Lens action form are exactly as specified in the following table.
 
 |Field|Option you must select|
 |-----|----------------------|
@@ -822,15 +822,15 @@ Ensure that the Lens action for this purpose is already defined. To view the ste
 
     \[Omitted image "lens-excel-mapping-file-upload-window.png"\] Alt text: Excel file upload window.
 
-<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d59119e2334">
+<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d58802e2334">
 
 File upload method
 
-</th><th align="left" id="d59119e2337">
+</th><th align="left" id="d58802e2337">
 
 File upload procedure
 
-</th></tr></thead><tbody><tr><td id="d59119e2343">
+</th></tr></thead><tbody><tr><td id="d58802e2343">
 
 **Add file**
 
@@ -847,7 +847,7 @@ File upload procedure
     -   The data only in the first worksheet of the Excel sheet will be analyzed.
 
 
-</td></tr><tr><td id="d59119e2389">
+</td></tr><tr><td id="d58802e2389">
 
 **Drag and drop files**
 

@@ -2,7 +2,7 @@
 title: Configure a global stop word
 description: Configure stop words that shouldn't be indexed by the search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_ConfigureAGlobalStopWord.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/t\_ConfigureAGlobalStopWord.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -33,7 +33,7 @@ Role required: ts\_admin or admin
     \[Omitted image "NotificationToRegenerateAllIndexes.png"\] Alt text: Notification to regenerate all indexes after removing a stop word.
 
 
-**Parent Topic:**[Zing removes stop words from queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/stop-words-removed-from-queries.md)
+**Parent Topic:**[Zing removes stop words from queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/stop-words-removed-from-queries.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Reprocess Auto Query results
 description: On the Settings page, the Reprocess tab is available to reprocess Auto Query results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/reprocess-tab-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/reprocess-tab-results.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -91,5 +91,5 @@ Yes / No
 
 \[Omitted image "reprocess-tab-edit.png"\] Alt text: Settings&gt;Reprocess tab
 
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/settings-page-console.md)
 

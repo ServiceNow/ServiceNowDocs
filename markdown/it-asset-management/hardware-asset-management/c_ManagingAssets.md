@@ -2,7 +2,7 @@
 title: Asset and CI management
 description: Asset and configuration item \(CI\) management refers to creating assets, setting appropriate states and substates, synchronizing assets and CIs, managing consumables, and retiring assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/c\_ManagingAssets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/c\_ManagingAssets.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -192,5 +192,5 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 
 ## CMDB success advisor for HAM
 
-Use CMDB success advisor for Hardware Asset Management \(HAM\) to monitor and improve hardware asset data quality in the CMDB. The advisor dashboard provides insights into data coverage, attribute completeness, and recommended data integrations for your hardware asset model categories. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-use.md).
+Use CMDB success advisor for Hardware Asset Management \(HAM\) to monitor and improve hardware asset data quality in the CMDB. The advisor dashboard provides insights into data coverage, attribute completeness, and recommended data integrations for your hardware asset model categories. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-use.md).
 

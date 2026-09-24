@@ -2,7 +2,7 @@
 title: Values to associate with choice labels for scripting
 description: When you write a script that references a choice list, you need to know the value that is associated with each choice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_DetermValsAssocWChoicesScripting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_DetermValsAssocWChoicesScripting.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,5 +28,5 @@ The **-- None --** option may not have a sys\_choice record associated with it. 
 **Related topics**  
 
 
-[System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SystemDictionary.md)
+[System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_SystemDictionary.md)
 

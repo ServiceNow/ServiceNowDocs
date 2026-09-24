@@ -2,7 +2,7 @@
 title: Using Zero Copy Connector for ERP process extensions
 description: Learn how to use the process extensions \(subflows\) in Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs. Content pack models and process extensions are examples.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -23,12 +23,12 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Follow these steps to copy a process extension \(subflow\) and edit the copy to use the correct cloned model or models. Use the cloned version of the models or models inside your copy of the subflow.
 
-**Note:** You must have a cloned model created within its own application scope. For more information, see [Using Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-using-content-packs.md).
+**Note:** You must have a cloned model created within its own application scope. For more information, see [Using Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-using-content-packs.md).
 
 Before completing the procedure, it may be helpful to review the following pages:
 
--   [Available Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md)
--   [Explore a Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-explore-a-content-pack.md)
+-   [Available Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md)
+-   [Explore a Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-explore-a-content-pack.md)
 
 ## Procedure
 
@@ -62,6 +62,6 @@ Before completing the procedure, it may be helpful to review the following pages
 
     \[Omitted image "erpc-process-extension-use3.png"\] Alt text: Subflow displayed in flow view with use erp data link highlighted.
 
-    For more information, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
+    For more information, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
 
 

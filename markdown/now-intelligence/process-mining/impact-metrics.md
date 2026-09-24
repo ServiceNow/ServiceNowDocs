@@ -2,7 +2,7 @@
 title: Configure impact metrics
 description: Configure the Key Performance Indicators \(KPIs\) for this process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/impact-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/impact-metrics.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -30,7 +30,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     The **Process details** page is displayed. Select **Impact metrics** from the side panel.
 
-    If you’re proceeding from the **Investigative features** page, then you come to this page. For more information, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/investigative-features.md).
+    If you’re proceeding from the **Investigative features** page, then you come to this page. For more information, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/investigative-features.md).
 
     The **Impact metrics** page has four sections:
 
@@ -88,7 +88,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
-    If you want to create a KPI dashboard, select **New Dashboard**. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md).
+    If you want to create a KPI dashboard, select **New Dashboard**. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-db-in-ac.md).
 
 7.  Provide values for each KPI categories.
 
@@ -99,5 +99,5 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 8.  Select **Continue to improvement opportunities**.
 
 
-**Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-config-builder.md)
+**Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-config-builder.md)
 

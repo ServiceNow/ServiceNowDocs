@@ -2,7 +2,7 @@
 title: Copy a threshold
 description: You can copy existing thresholds to create similar threshold configurations for the same metric or metric definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/copy-thresholds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/copy-thresholds.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Copying a threshold duplicates all threshold parameters including type, color, v
 
 A new threshold is created for the metric with the configuration from the original threshold. You can now modify either threshold independently.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-grc-metrics.md)
 

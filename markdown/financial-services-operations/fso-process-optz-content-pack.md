@@ -2,7 +2,7 @@
 title: Process Mining for Financial Services Operations
 description: The Financial Services Operations Process Mining Content Pack has preconfigured Process Mining models for Financial Services Operations processes that help analysts and process owners analyze how effective their business processes are.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-process-optz-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-process-optz-content-pack.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -62,5 +62,5 @@ Based on the Financial Services Operations application that you're using the Pro
 |Group Life Servicing|sn\_ins\_group\_life.manager and sn\_process\_optimization\_analyst|
 |Intelligent Servicing for Fraud|sn\_bom\_fraud.manager and sn\_process\_optimization\_analyst|
 
-**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-content-pack.md)
 

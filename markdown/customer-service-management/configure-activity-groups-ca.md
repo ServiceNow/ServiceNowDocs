@@ -2,7 +2,7 @@
 title: Configure activity groups for the Customer History view
 description: Create an activity group and then add activity types to the activity group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-activity-groups-ca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-activity-groups-ca.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

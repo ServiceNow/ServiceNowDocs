@@ -2,7 +2,7 @@
 title: Resolve and close an incident
 description: When an issue is corrected, you can set the Operational Technology \(OT\) incident state to Resolved. If you're happy with the resolution, you can close the incident. The incident also auto-closes after a certain amount of time based on the incident auto-close properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/resolve-and-close-ot-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/resolve-and-close-ot-incident.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -58,7 +58,7 @@ Incident was resolved by the user who contacted the OT engineer for the issue.
 
 Incident was resolved with an OT change request.
 
-For more information about OT change requests, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/create-ot-change-request.md).
+For more information about OT change requests, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-change-management/create-ot-change-request.md).
 
 -   **Resolved by problem**
 
@@ -70,7 +70,7 @@ For more information about problems, see [Managing Problems](https://raw.githubu
 
 Incident was resolved by an OT request.
 
-For more information about OT requests, see [Create an Operational Technology request on the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/create-ot-service-request-industrial-workspace.md).
+For more information about OT requests, see [Create an Operational Technology request on the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-request-management/create-ot-service-request-industrial-workspace.md).
 
 -   **Solution provided**
 
@@ -90,5 +90,5 @@ Describes how the incident was resolved.
 5.  Click **Update**.
 
 
-**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

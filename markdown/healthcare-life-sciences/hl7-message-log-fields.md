@@ -2,7 +2,7 @@
 title: HL7 message log fields
 description: Field reference for the HL7 Message Log table \(sn\_hl7\_v2\_message\_log\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-message-log-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-message-log-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-11"

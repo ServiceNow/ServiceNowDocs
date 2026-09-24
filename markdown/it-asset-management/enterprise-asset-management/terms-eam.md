@@ -2,7 +2,7 @@
 title: Terminology for linear assets
 description: Terms commonly used for linear assets in the Enterprise Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/terms-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/terms-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -111,7 +111,7 @@ Continue asset
 A linear asset relationship for linear assets that have a start and an end marker. For example, a highway that after a particular point changes into another highway.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

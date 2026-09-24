@@ -2,7 +2,7 @@
 title: Deflect cases with knowledge and community content
 description: Enable customers to search for information from the knowledge base and community and find solutions to their issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/provide-knowledge-community-sp-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/provide-knowledge-community-sp-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,7 +50,7 @@ The Service Portal Case form displays contextual search results based on text en
 **Related topics**  
 
 
-[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheKnowledgeBase.md)
+[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_SearchTheKnowledgeBase.md)
 
-[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheCommunity.md)
+[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_SearchTheCommunity.md)
 

@@ -2,7 +2,7 @@
 title: Components installed with Hiring Connector
 description: The following are the components installed with the activation of the Hiring Connector plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-hiring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/installed-with-hiring.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -78,5 +78,5 @@ Profile link Staging\[sn\_ta\_connector\_profile\_link\_staging\]
 Gathers details of the profile link data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
+</table>**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
 

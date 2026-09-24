@@ -2,7 +2,7 @@
 title: Create a flow variable
 description: Create a flow variable to store and retrieve a value throughout a flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-variables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-flow-variables.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -28,7 +28,7 @@ Role required: flow\_designer or admin
 
 3.  On the Flow Properties form, fill in the fields.
 
-    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md).
 
 4.  Click **Submit**.
 
@@ -53,7 +53,7 @@ The Data panel displays the variable in the Flow Variables section. It appears a
 
 ## What to do next
 
-To assign a value to the variable, use the [Set Flow Variables flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-set-flow-variables.md). If you don't assign a value, the default value is null.
+To assign a value to the variable, use the [Set Flow Variables flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic-set-flow-variables.md). If you don't assign a value, the default value is null.
 
-**Parent Topic:**[Flow variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-variables.md)
+**Parent Topic:**[Flow variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-variables.md)
 

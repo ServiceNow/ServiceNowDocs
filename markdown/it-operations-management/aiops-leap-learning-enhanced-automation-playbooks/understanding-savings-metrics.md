@@ -2,7 +2,7 @@
 title: Savings metrics
 description: LEAP tracks two types of savings metrics, projected and actual, across all automation outcome types including ServiceNow playbooks, Ansible playbooks, KB articles, and problem records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understanding-savings-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understanding-savings-metrics.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

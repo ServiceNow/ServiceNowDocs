@@ -2,7 +2,7 @@
 title: Operational Technology and CSDM tables
 description: Operational Technology manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Operational Technology.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/ot-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/ot-use-case.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -128,5 +128,5 @@ When you use OT with any of the following ServiceNow products, you increase the 
     Manages the impact of the software and hardware life cycle process on the production processes.
 
 
-**Parent Topic:**[Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-use-case-product-view.md)
+**Parent Topic:**[Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/ot-use-case-product-view.md)
 

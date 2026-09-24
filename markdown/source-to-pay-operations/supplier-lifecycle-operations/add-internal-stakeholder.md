@@ -2,7 +2,7 @@
 title: Add internal stakeholders from the Source-to-Pay Workspace
 description: Assign relationship types such as Primary relationship manager and Category manager to internal users associated with a supplier.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/add-internal-stakeholder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/add-internal-stakeholder.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -53,5 +53,5 @@ Role required: sn\_slm.owner, sn\_slm.manager, sn\_slm.admin
 
 The user is added to the list of internal stakeholders on the **Stakeholders** tab.
 
-**Parent Topic:**[Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md)
+**Parent Topic:**[Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md)
 

@@ -2,7 +2,7 @@
 title: Create and update a deployable
 description: Create a deployable while working in a changeset. You can add multiple components and collections to a deployable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-deployable-define.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-deployable-define.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -33,7 +33,7 @@ The system places the following limits on the count of config data items \(CDIs\
 -   An application can contain a maximum total of 100,000 CDIs.
 -   Any single deployable can contain a maximum of 10,000 CDIs.
 
-See [CDM system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-system-properties.md) for information on configuring the **sn\_cdm.max\_allowed\_cdi\_per\_application** and **sn\_cdm.max\_allowed\_cdi\_per\_deployable** property settings.
+See [CDM system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-system-properties.md) for information on configuring the **sn\_cdm.max\_allowed\_cdi\_per\_application** and **sn\_cdm.max\_allowed\_cdi\_per\_deployable** property settings.
 
 ## Procedure
 
@@ -115,7 +115,7 @@ Option to ensure that only snapshots that pass validation can be exported.
 
 6.  Add CDI settings to the deployable that will override or overlay settings in components or collections.
 
-    For more information, see [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md), [Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-collection-define.md), or [Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-variables-crud.md).
+    For more information, see [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-define.md), [Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-collection-define.md), or [Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-variables-crud.md).
 
 7.  Select **Save** to save the changes in the changeset and ready the changes in the changeset to be committed.
 
@@ -146,20 +146,20 @@ Option to ensure that only snapshots that pass validation can be exported.
 
 ## What to do next
 
-[Map policies to the deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-deployable-map-policy-to.md)
+[Map policies to the deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-deployable-map-policy-to.md)
 
 **Related topics**  
 
 
-[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-model.md)
+[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-data-model.md)
 
-[Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-editing-config-data-changesets.md)
+[Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-editing-config-data-changesets.md)
 
-[Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md)
+[Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-define.md)
 
-[Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-collection-define.md)
+[Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-collection-define.md)
 
-[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-variables-crud.md)
+[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-variables-crud.md)
 
-[How encrypted data is handled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-secrets-managing.md)
+[How encrypted data is handled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-secrets-managing.md)
 

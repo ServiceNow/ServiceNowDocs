@@ -2,12 +2,12 @@
 title: Set up OAuth integration via MID Server
 description: Create a connection record that enables the sending of an OAuth token request to a third-party server via a MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/create-conn-alias-oauth-integration-via-mid-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/create-conn-alias-oauth-integration-via-mid-server.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -34,7 +34,7 @@ Role required: Admin
 
     4.  Update the form, as required.
 
-        For example, you can provide the scope in the `oauth_entity_profile_scope` and `oauth_entity_scope` fields in the Default Data Template section. To learn to create a configuration template, see [Create a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-template.md).
+        For example, you can provide the scope in the `oauth_entity_profile_scope` and `oauth_entity_scope` fields in the Default Data Template section. To learn to create a configuration template, see [Create a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/create-template.md).
 
     5.  Select **Submit**.
 

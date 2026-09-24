@@ -2,7 +2,7 @@
 title: Schedule your arrival time at a workplace location
 description: Schedule your arrival at a workplace location by using Workplace Core. Prevent long lines and safely enter the location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/schedule-your-arrival-time-to-the-workplace-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/schedule-your-arrival-time-to-the-workplace-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -18,7 +18,7 @@ Schedule your arrival at a workplace location by using Workplace Core. Prevent l
 
 ## Before you begin
 
-To schedule an arrival using your mobile device, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
+To schedule an arrival using your mobile device, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -53,7 +53,7 @@ You can check the details of your arrival schedule anytime.
     -   On the Now Mobile navigation bar, tap **For Me** and scroll down to the My Request section to view your requests.
 2.  If you want to cancel your arrival, select the arrival request and select **Cancel arrival**.
 
-**Parent Topic:**[Request employee-related services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/request-employee-services.md)
+**Parent Topic:**[Request employee-related services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/request-employee-services.md)
 
 **Related topics**  
 

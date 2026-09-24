@@ -2,7 +2,7 @@
 title: Refresh Dispatcher Workspace
 description: Refreshing Dispatcher Workspace reloads resources, work shifts, personal events and work order tasks that are shown on calendar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/refresh-dispatcher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/refresh-dispatcher.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

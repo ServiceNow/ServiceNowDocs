@@ -2,7 +2,7 @@
 title: Discovery log details
 description: Discovery logs contain information on the horizontal discovery process based on probes and patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discovery-log.html
 release: australia
 product: Discovery
 classification: discovery
@@ -102,5 +102,5 @@ The Horizontal Discovery Log window contains information on pattern-based horizo
 |Payload Processing|Details about the payload and how it was processed. Find errors that might have been encountered during various activities, such as the running of identification rules, updates to the CMDB, and so on.|
 |Post Payload Processing Scripts|The results of scripts that were run after the payload was received.|
 
-**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-references.md)
+**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-references.md)
 

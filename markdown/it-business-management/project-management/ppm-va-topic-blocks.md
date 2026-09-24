@@ -2,7 +2,7 @@
 title: Reusable PPM Virtual Agent topic blocks
 description: Create and reuse topics blocks to simplify the topic authoring and maintenance process. Topic blocks enable you to reuse standard procedures across conversation topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/ppm-va-topic-blocks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/ppm-va-topic-blocks.html
 release: australia
 product: Project Management
 classification: project-management
@@ -30,7 +30,7 @@ To view just the reusable topic functions, access the Topics page in Virtual Age
 **Related topics**  
 
 
-[Install Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/activate-ppm-va.md)
+[Install Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/activate-ppm-va.md)
 
-[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/setup-ppm-va.md)
+[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/setup-ppm-va.md)
 

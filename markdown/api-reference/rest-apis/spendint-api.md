@@ -2,7 +2,7 @@
 title: Spendint API
 description: The Spendint API provides endpoints that push the catalog, price, availability, order, shipment, and invoice information from a third party to the ServiceNow instance. This API is part of the Source-to-Pay Integration Framework application.Allows suppliers to post multiple catalogs for creating supplier products, model products, contracts, and pricing records.Updates any pricing for supplier product records.Updates the availability for supplier product records.Updates order information for when a user shops for a product from a third-party catalog. When the user checks out, a purchase line is created so that approvals or other tasks for the purchase can be completed.Use this endpoint to accept updates on purchases from third parties.Accepts invoices from third-party providers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/spendint-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/spendint-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -20,7 +20,7 @@ This API requires the Procurement Integration Framework \(com.glide.sn\_spend\_i
 
 To access this API, you must have the sn\_spend\_intg.procurement\_integrator role.
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## Spendint API - POST /sn\_spend\_intg/spendint/catalog
 

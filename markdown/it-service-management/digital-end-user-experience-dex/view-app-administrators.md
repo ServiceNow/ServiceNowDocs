@@ -2,7 +2,7 @@
 title: View DEX administrators
 description: Look up the application administrators who are responsible for managing the application, promoting its proper functioning, and handling any issues that might arise.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-app-administrators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/view-app-administrators.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -40,5 +40,5 @@ Role required: sn\_dex.admin
 
 The list displays all the administrators available for DEX.
 
-**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

@@ -2,7 +2,7 @@
 title: Status report form
 description: Learn about the fields on the status report form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/status-report-form-project-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/status-report-form-project-management.html
 release: australia
 product: Project Management
 classification: project-management
@@ -61,5 +61,5 @@ Learn about the fields on the status report form.
 **Related topics**  
 
 
-[Create a project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectStatusReport.md)
+[Create a project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectStatusReport.md)
 

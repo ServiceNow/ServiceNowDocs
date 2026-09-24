@@ -2,7 +2,7 @@
 title: Enable AI capabilities in Financial Services Operations
 description: Plan and configure your implementation of AI skills and agents in Financial Services Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/enable-ai-capabilities-in-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/enable-ai-capabilities-in-fso.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-01"
@@ -22,7 +22,7 @@ You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on 
 
 When activating a new or inactive FSO skill, Anthropic Claude on AWS is set as the default model provider.
 
-**Note:** See [Federal exclusion notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md) for more information.
+**Note:** See [Federal exclusion notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md) for more information.
 
 ## Configuring ACLs
 
@@ -51,11 +51,11 @@ In the data access settings, you must also add the necessary roles to any activa
 **Related topics**  
 
 
-[Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-now-assist-skills.md)
+[Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-fso-now-assist-skills.md)
 
-[Configure agentic workflows in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-agentic-workflows-in-fso.md)
+[Configure agentic workflows in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-agentic-workflows-in-fso.md)
 
-[Configure Financial Services Operations AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-ai-agents.md)
+[Configure Financial Services Operations AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-fso-ai-agents.md)
 
-[Skill inputs for ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.md)
+[Skill inputs for ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.md)
 

@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Otto for Finance and Procurement
 description: If you have the admin role, you can configure the ServiceNow Otto for Finance and Procurement application so that your fulfillers can use the agentic AI skills in Source-to-Pay Workspace Workspace and Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.html
 release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
@@ -38,7 +38,7 @@ The following table lists the ServiceNow Otto for Finance and Procurement and sk
 
 1.  Install the ServiceNow Otto for Finance and Procurement \(sn\_fsc\_genai\) plugin.
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-supporting-info.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-supporting-info.md).
     -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
@@ -128,21 +128,21 @@ AI skills are available in the ServiceNow Otto panel. Turn on multi-language sup
     The skill is activated.
 
 
--   **[Customize a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/cust-now-assist-fsc-skill.md)**  
+-   **[Customize a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/cust-now-assist-fsc-skill.md)**  
 If you have the admin role, you can customize a ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
--   **[Customize supplier summarization for fulfillers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/cust-na-fsc-supplier-skill.md)**  
+-   **[Customize supplier summarization for fulfillers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/cust-na-fsc-supplier-skill.md)**  
 If you have the admin role, you can customize the supplier summarization for fulfillers skill so that fulfillers can use the generative AI skills in Source-to-Pay Workspace to view relevant supplier information.
--   **[Plugins for AI capabilities in Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/spo-fsc-genai-comm-plugins.md)**  
+-   **[Plugins for AI capabilities in Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/spo-fsc-genai-comm-plugins.md)**  
 View the consolidated list of plugins required to use the common AI capabilities across Finance and Supply Chain products.
 
-**Parent Topic:**[ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-common.md)
+**Parent Topic:**[ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-common.md)
 
 **Related topics**  
 
 
-[Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
+[Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
-[Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
+[Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
 
-[Configure ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md)
+[Configure ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md)
 

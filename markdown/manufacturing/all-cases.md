@@ -2,7 +2,7 @@
 title: View sales promotion claim cases
 description: View the sales promotion claim cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/all-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/all-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

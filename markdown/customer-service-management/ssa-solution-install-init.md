@@ -2,7 +2,7 @@
 title: Activate the Self-Service Platform Analytics Solution
 description: Activate the content pack plugins or ServiceNow Store application for the Platform Analytics Solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ssa-solution-install-init.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ssa-solution-install-init.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

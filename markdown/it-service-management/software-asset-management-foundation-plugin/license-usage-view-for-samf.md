@@ -2,7 +2,7 @@
 title: License usage view for Software Asset Management Foundation plugin
 description: Use the license usage view as a single plane to understand the license position of all software products, remediate non compliance, and view reconciliation results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/license-usage-view-for-samf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management-foundation-plugin/license-usage-view-for-samf.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -30,8 +30,8 @@ Use the License usage view to:
 -   be informed about the last reconciliation run.
 -   view and export reports.
 
--   **[Run Software Asset Management Foundation plugin software reconciliation in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/run-samf-software-recon-workspace.md)**  
+-   **[Run Software Asset Management Foundation plugin software reconciliation in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/run-samf-software-recon-workspace.md)**  
 Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in the Software Asset Workspace environment on-demand.
 
-**Parent Topic:**[Using Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)
+**Parent Topic:**[Using Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)
 

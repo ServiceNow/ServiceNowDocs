@@ -2,7 +2,7 @@
 title: Apache Iceberg
 description: The Apache Iceberg connector provides read-only access to data and metadata in the Iceberg format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/apache-iceberg-primary-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/apache-iceberg-primary-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
 
 The Apache Iceberg connector provides read-only access to data and metadata in the Iceberg format.
 
-A connection admin can set up a connection to Apache Iceberg in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Apache Iceberg. This allows users to access Apache Iceberg data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+A connection admin can set up a connection to Apache Iceberg in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Apache Iceberg. This allows users to access Apache Iceberg data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md).
 
 **Important:** The Apache Iceberg primary connector is in preview. A primary connector in preview is developed and supported by ServiceNow, but is still being enhanced to include all planned functionality. While in preview, a connector may have limitations in platform support or available features.
 
@@ -56,5 +56,5 @@ The following table lists supported Apache Iceberg data types and the default ma
 **Related topics**  
 
 
-[Create an Apache Iceberg connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-apache-iceberg-connection-primary.md)
+[Create an Apache Iceberg connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-apache-iceberg-connection-primary.md)
 

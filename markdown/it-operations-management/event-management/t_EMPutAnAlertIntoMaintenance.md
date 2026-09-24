@@ -2,7 +2,7 @@
 title: Place an alert into maintenance
 description: You can manually place any alert into maintenance to hide it from the Alerts list and Agent Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMPutAnAlertIntoMaintenance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMPutAnAlertIntoMaintenance.html
 release: australia
 product: Event Management
 classification: event-management
@@ -48,10 +48,10 @@ Open the alert, and either select the **Maintenance** check box and click **Upda
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
+**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewAlert.md)
 
 **Related topics**  
 
 
-[Create maintenance rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-maintenance-rule.md)
+[Create maintenance rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-maintenance-rule.md)
 

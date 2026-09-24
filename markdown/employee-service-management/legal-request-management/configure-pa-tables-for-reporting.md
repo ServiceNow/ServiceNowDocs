@@ -2,7 +2,7 @@
 title: Configure a practice area table
 description: Configure a practice area table so you can use fields from legal request and legal matter tables to include in the Lists section of Legal Counsel Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/configure-pa-tables-for-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/configure-pa-tables-for-reporting.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The record producer uses variables to store field information submitted via intake forms for a legal request or legal matter. If you have to use any of these variables as columns in the list view in Legal Counsel Center, you must add them as columns in the respective practice area tables. These practice area tables extend the Legal Request \[sn\_lg\_ops\_request\] table for legal requests and the Legal Matter \[sn\_lg\_matter\_matter\] table for legal matters. For more information, see [Practice area tables for legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-pa-tables.md) and [Practice area tables for legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-pa-tables.md).
+The record producer uses variables to store field information submitted via intake forms for a legal request or legal matter. If you have to use any of these variables as columns in the list view in Legal Counsel Center, you must add them as columns in the respective practice area tables. These practice area tables extend the Legal Request \[sn\_lg\_ops\_request\] table for legal requests and the Legal Matter \[sn\_lg\_matter\_matter\] table for legal matters. For more information, see [Practice area tables for legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-request-pa-tables.md) and [Practice area tables for legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/legal-matter-pa-tables.md).
 
 **Note:** For using practice area tables for legal matters, you must have the Legal Matter Management installed.
 
@@ -34,7 +34,7 @@ The record producer uses variables to store field information submitted via inta
 
 2.  Create or modify a record producer for a legal request or legal matter for the associated practice area.
 
-    For more information, see [Create or modify a record producer for legal services through Classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-record-producer-legal-request.md).
+    For more information, see [Create or modify a record producer for legal services through Classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/create-record-producer-legal-request.md).
 
 3.  Update the business rule to synchronize variables with the mapped table columns when users modify the intake form data after they've submitted a legal request or matter.
 
@@ -51,5 +51,5 @@ The record producer uses variables to store field information submitted via inta
     For more information, see [Create a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_BusinessRules.md).
 
 
-**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-ops-administration.md)
 

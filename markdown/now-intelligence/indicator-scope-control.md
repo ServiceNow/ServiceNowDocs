@@ -2,7 +2,7 @@
 title: Indicator scope control
 description: Indicator Scope Control provides an admin-curated list that boosts selected Performance Analytics indicators in ambient AI search results, with optional custom descriptions to improve search accuracy. Create a Query Generation indicator configuration record to add a Performance Analytics indicator to the scope control boost list. The boost list can improve search rankings for high-quality indicators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/indicator-scope-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/indicator-scope-control.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-01"
@@ -105,7 +105,7 @@ Indicator Scope Control has no impact when it is not used:
     Indicators that are both on the boost list and passed as entry-point context \(via dashboard widgets or API\) are boosted and then pinned to the top with no conflict.
 
 
-**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-query-generation.md)
+**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configuring-query-generation.md)
 
 **Related topics**  
 

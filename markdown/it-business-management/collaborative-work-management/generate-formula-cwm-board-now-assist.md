@@ -2,7 +2,7 @@
 title: Generate a formula using ServiceNow Otto
 description: Use ServiceNow Otto to automatically generate formulas to compute values such as summing hours, calculating date differences, or deriving metrics from existing fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -56,12 +56,12 @@ The steps in this procedure use the example of a formula column that calculates 
 
 The Board refreshes to display the new formula column, and its values populated per the formula you defined.\[Omitted image "cwm-formula-on-board.png"\] Alt text: CWM Board List view displaying the new formula column with computed values populated for each task.
 
-**Parent Topic:**[Add a formula column in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md)
+**Parent Topic:**[Add a formula column in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md)
 
 **Related topics**  
 
 
-[Add a formula column in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md)
+[Add a formula column in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md)
 
-[Add custom columns for tasks in a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-custom-columns-for-tasks-in-board.md)
+[Add custom columns for tasks in a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-custom-columns-for-tasks-in-board.md)
 

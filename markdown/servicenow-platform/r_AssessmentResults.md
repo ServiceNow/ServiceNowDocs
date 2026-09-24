@@ -2,7 +2,7 @@
 title: Assessment results
 description: In the Assessments application, when the system processes completed questionnaires or gathers values returned from scripted metric queries, it generates assessment result records called metric and category results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_AssessmentResults.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_AssessmentResults.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,19 +16,19 @@ In the Assessments application, when the system processes completed questionnair
 
 Assessment administrators can view assessment results.
 
-The system calculates [metric results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md) first, normalizes the scores, and then calculates [category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md). Each metric and category result record stores data from one assessment group, for a particular category and source record evaluated. Specifically:
+The system calculates [metric results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAMetricResult.md) first, normalizes the scores, and then calculates [category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAMetricResult.md). Each metric and category result record stores data from one assessment group, for a particular category and source record evaluated. Specifically:
 
 -   Metric results: store data calculated from one evaluation of one metric.
 -   Category results: store data calculated from a weighted average of all metrics in the category.
 
-**Note:** Although results data is available to view in the form of metric and category result records, the most meaningful way to view results is in [scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md) and decision matrixes. These tools display only the most pertinent data in graphical, comparative formats.
+**Note:** Although results data is available to view in the form of metric and category result records, the most meaningful way to view results is in [scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAnAssessmentScorecard.md) and decision matrixes. These tools display only the most pertinent data in graphical, comparative formats.
 
 ## Excluded Responses
 
 The system creates metric results for responses but does not include them in category result calculations if any of the following are true:
 
 -   The user selects the **Not Applicable** answer option on a questionnaire.
--   The user does not answer the question and the [data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_DataTypes.md) is not Checkbox.
+-   The user does not answer the question and the [data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_DataTypes.md) is not Checkbox.
 -   The question data type is one of the following: Date, Date/Time, or String.
 -   The metric result **Actual value**, **Scaled value**, and **Normalized value** fields are set to -1.
 
@@ -38,5 +38,5 @@ After a survey or assessment is submitted, any attachments that have been added 
 
 **Note:** You cannot add or remove attachments from a metric result.
 
-**Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md)
+**Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAMetricResult.md)
 

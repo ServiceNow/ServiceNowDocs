@@ -2,7 +2,7 @@
 title: Set improvement opportunity from Project Builder
 description: Set improvement opportunities from Project Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/setting-impr-opp-proj-build.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/setting-impr-opp-proj-build.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -29,7 +29,7 @@ Role required:
 
 2.  Select a project.
 
-    You can add an improvement opportunity while creating a project or editing an existing project. For information about adding an improvement opportunity when creating a project, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
+    You can add an improvement opportunity while creating a project or editing an existing project. For information about adding an improvement opportunity when creating a project, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/improve-opportunities.md).
 
 3.  Select ellipses, and then select **Edit project**.
 
@@ -45,8 +45,8 @@ Role required:
 
     For information on creating improvement opportunities, see the following topics:
 
-    -   [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/rule-based-builder.md)
-    -   [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)
+    -   [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/rule-based-builder.md)
+    -   [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/automated-findings.md)
 
-**Parent Topic:**[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-imp-opp.md)
+**Parent Topic:**[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/project-imp-opp.md)
 

@@ -2,7 +2,7 @@
 title: Create a flow with a MetricBase trigger
 description: Start a flow when a MetricBase trigger is met. MetricBase triggers track time series data and can monitor when a threshold is reached, when a trend is detected, or when a system stops reporting data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-mb-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-mb-flow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -30,7 +30,7 @@ MetricBase triggers are not available on the base system. The MetricBase applica
 
 3.  Define the flow properties.
 
-    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md).
 
 4.  In the Trigger section, add a trigger and select **MetricBase**.
 
@@ -49,12 +49,12 @@ MetricBase triggers are not available on the base system. The MetricBase applica
 
 8.  Once the flow is behaving as desired, activate the flow.
 
-    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
+    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-activate.md).
 
 
 ## Result
 
 The MetricBase application monitors time series data on the ServiceNow AI Platform. When the selected trigger is met, the flow runs.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

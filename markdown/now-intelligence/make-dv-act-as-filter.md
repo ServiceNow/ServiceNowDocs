@@ -2,7 +2,7 @@
 title: Make a data visualization act as a filter
 description: You can set a data visualization to act as a filter on a dashboard that contains it. Only table or indicator data can be so filtered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/make-dv-act-as-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/make-dv-act-as-filter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,9 +49,9 @@ Role required: Any internal role and the right to edit the dashboard with the vi
 **Related topics**  
 
 
-[Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md)
+[Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-chart-interactions.md)
 
-[Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-donut-ac.md)
+[Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-donut-ac.md)
 
-[Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-bar-ac.md)
+[Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-bar-ac.md)
 

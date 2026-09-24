@@ -2,7 +2,7 @@
 title: Initiate AI assessment on an AI asset
 description: Initiate AI assessment for the whole AI asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -48,7 +48,7 @@ Assessment template
 
 The assessment template you use to perform the AI assessment. You can see the list of all published assessment templates in this drop-down list.
 
- For information about publishing, see [Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md).
+ For information about publishing, see [Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md).
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Description of the AI assessment.
 
 ## What to do next
 
-[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)
+[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

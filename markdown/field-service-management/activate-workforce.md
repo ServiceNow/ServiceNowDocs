@@ -2,7 +2,7 @@
 title: Activate Field Service Manager Workforce
 description: Activate the Workforce plugin to start using Workforce for Field Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/activate-workforce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/activate-workforce.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: admin
 
 Installing Field Service Manager Workforce also installs Dispatcher Workspace \(sn\_fsm\_disp\_wrkspc\).
 
-For more information, see [Configuring Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-workforce.md).
+For more information, see [Configuring Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/configuring-workforce.md).
 
 ## Procedure
 

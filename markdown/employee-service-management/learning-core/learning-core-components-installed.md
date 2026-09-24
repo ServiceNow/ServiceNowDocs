@@ -2,7 +2,7 @@
 title: Components installed with Learning Core
 description: Several types of components are installed with activation of the Learning Core \[sn\_lc\] plugin, including user roles, and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-core-components-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/learning-core-components-installed.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -177,7 +177,7 @@ Learning System Configuration\[sn\_lc\_learning\_system\_configuration\]
 Stores configuration parameters of sources, third-party learning management systems.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core-reference.md)
+</table>**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-core-reference.md)
 
 **Related topics**  
 

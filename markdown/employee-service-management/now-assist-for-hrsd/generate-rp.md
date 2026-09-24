@@ -2,7 +2,7 @@
 title: Generate a fulfillment plan
 description: Auto-generate a fulfillment/execution plan for a case. Accelerate the resolution process by providing planning support to HR agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/generate-rp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/generate-rp.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

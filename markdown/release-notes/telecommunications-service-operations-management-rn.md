@@ -2,7 +2,7 @@
 title: Telecommunications Service Operations Management \(TSOM\) release notes
 description: The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions. The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions. The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions. The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions. The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions. The ServiceNow Telecommunications Service Operations Management application provides visibility into network infrastructure to help maintain data accuracy across systems and deliver more reliable services. It supports proactive issue detection, reduces downtime risk, and enables faster, data-driven decisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/telecommunications-service-operations-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/telecommunications-service-operations-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -16,16 +16,16 @@ The ServiceNow® Telecommunications Service Operations Management application pr
 
 ## About Telecommunications Service Operations Management \(TSOM\)
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-4.md)
 
 -   Reduce API call volume and enforce per-API scheduling constraints for Meraki and Fortinet pull connectors with new granularity and schedule window controls.
 -   Define custom KPI calculations on top of raw metrics using the metric aggregation scripted extension point.
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   Gain comprehensive SD-WAN visibility with new Telecom Discovery connectors for Cisco Meraki and Fortinet FortiManager.
 -   Extend discovery pattern capabilities with support for switch stacks, card models, life-cycle attributes, and improved error handling.
@@ -42,7 +42,7 @@ See [Telecommunications Service Operations Management](https://raw.githubusercon
     Install Telecommunications Service Operations Management \(TSOM\) applications and plugins by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/technology-industry-rn-landing.md)
 
 ## July 2026
 

@@ -2,7 +2,7 @@
 title: Request access to data assets
 description: Request access to data products and data interfaces in the Workflow Data Fabric to consume data for your workflows and applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/request-access-to-data-assets-dc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/request-access-to-data-assets-dc.html
 release: australia
 topic_type: task
 last_updated: "2026-04-22"
@@ -49,5 +49,5 @@ Use the data catalog to discover and request access to data products and data in
 
 The data steward receives a notification about your access request and can review, approve, or deny the request. You receive an email notification when the request status changes.
 
-**Parent Topic:**[Finding and accessing data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/find-access-data-assets-dc.md)
+**Parent Topic:**[Finding and accessing data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/find-access-data-assets-dc.md)
 

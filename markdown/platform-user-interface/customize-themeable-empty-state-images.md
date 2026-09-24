@@ -2,7 +2,7 @@
 title: Customize theme-able empty state images for your theme
 description: Customize default theme-able empty state images for your Next Experience and Theme Builder themes using the theme's Imagery record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/customize-themeable-empty-state-images.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/customize-themeable-empty-state-images.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -97,7 +97,7 @@ Role required: admin
 
         **Note:** Verify that your image is in SVG format.
 
-        1.  For detailed instructions, see [Upload one or more images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-multiple-images.md).
+        1.  For detailed instructions, see [Upload one or more images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/upload-multiple-images.md).
         2.  From the Imagery style record, enter the image file name into the **Style** field using the following format: `"/FILENAME.svg"`.
 6.  Select **Update**.
 
@@ -110,5 +110,5 @@ Role required: admin
     **Note:** Using the default theme hooks is recommended.
 
 
-**Parent Topic:**[Working with theme-able empty state images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/themeable-empty-state-images.md)
+**Parent Topic:**[Working with theme-able empty state images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/themeable-empty-state-images.md)
 

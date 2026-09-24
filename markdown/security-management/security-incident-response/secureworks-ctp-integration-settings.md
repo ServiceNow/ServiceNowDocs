@@ -2,7 +2,7 @@
 title: Configuration settings
 description: Use this option to modify the Secureworks CTP ticket ingestion integration default system properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secureworks-ctp-integration-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/secureworks-ctp-integration-settings.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

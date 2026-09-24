@@ -2,7 +2,7 @@
 title: Edit the settings for a form in Creator Studio
 description: Edit form settings if you need to change its basic attributes, such as its associated image or attachments are allowed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-edit-form-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-edit-form-settings.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -44,7 +44,7 @@ To edit the settings for a form, you must be given permission to work on the app
 
 6.  Update settings on the **General** tab.
 
-    For details on specific form settings, see [Creator Studio form settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-settings.md).
+    For details on specific form settings, see [Creator Studio form settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-form-settings.md).
 
     \[Omitted image "cs-form-settings-hide.png"\] Alt text: Option to hide a form
 
@@ -88,7 +88,7 @@ To edit the settings for a form, you must be given permission to work on the app
 
     5.  Select the roles and groups that shouldn’t have access to the form.
 
-        Work with your admin to restrict or provide access to the roles and groups for this setting in non-production and production environments. For more information, see [Administering user access for deployed Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-administering-user-access-apps.md).
+        Work with your admin to restrict or provide access to the roles and groups for this setting in non-production and production environments. For more information, see [Administering user access for deployed Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-administering-user-access-apps.md).
 
     6.  Select the **Apply** button to save your changes.
 
@@ -99,5 +99,5 @@ To edit the settings for a form, you must be given permission to work on the app
 
 The form's settings are updated. Remember: You just updated the settings for the form you selected, not for all of the app's forms if it has multiple.
 
-**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-work-with-forms.md)
 

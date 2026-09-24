@@ -2,7 +2,7 @@
 title: Deployment management options
 description: ServiceNow offers multiple management options for orchestrating deployments. Your choice depends on your organization’s maturity, licensing, and operational preferences. You can choose between ReleaseOps, App Engine Management Center Pipelines and Deployments, or System Update Sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/management-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/management-options.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,19 +29,19 @@ ReleaseOps is the deployment orchestration tool introduced with the Zurich relea
 
 ReleaseOps uses the multi-instance framework \(MIF\) to coordinate across instances. It can be installed on all participating instances with the Application Manager. It supports on-demand deployments and scheduled release trains.
 
-For more information, see [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-landing.md).
+For more information, see [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/releaseops-landing.md).
 
 ## App Engine Management Center Pipelines and Deployments
 
 App Engine Management Center has been available since the San Diego release. It provides a centralized dashboard for monitoring custom application development, managing deployment pipelines, and governing developer access. Pipelines and Deployments within App Engine Management Center orchestrate the movement of application versions through configurable pipeline stages with built-in quality gates. The built-in quality gates include Automated Test Framework execution and Instance Scan checks. App Engine Management Center also generates change requests for each deployment, providing audit trail and compliance documentation.
 
-For more information, see [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/app-engine-management-center.md).
+For more information, see [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/app-engine-management-center.md).
 
 ## System Update Sets
 
 System Update Sets are the original deployment mechanism on the ServiceNow platform. They capture configuration changes as a group that can be transferred between instances with XML export/import or remote instance retrieval. While System Update Sets remain widely used, especially for global scope changes and operational teams, they lack the version management, automated validation, and pipeline orchestration that modern tools provide. They are also prone to human error. Scope contamination, missing dependencies, and ordering issues are common pitfalls.
 
-For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/system-update-sets.md).
 
-**Parent Topic:**[Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-started-deployment.md)
+**Parent Topic:**[Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/get-started-deployment.md)
 

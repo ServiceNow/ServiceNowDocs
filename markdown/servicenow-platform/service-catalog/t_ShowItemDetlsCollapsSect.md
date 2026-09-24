@@ -2,7 +2,7 @@
 title: Show item details in sections or pop-ups
 description: By default, a service catalog category displays the first two items with the preview section expanded to show item details. You can change the number of items that are previewed, or change the preview to appear in a pop-up window.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ShowItemDetlsCollapsSect.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_ShowItemDetlsCollapsSect.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -71,5 +71,5 @@ When set to **Yes**, the item details appear as a pop-up when the cursor hovers 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
+**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
 

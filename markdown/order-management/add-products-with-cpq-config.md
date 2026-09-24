@@ -2,7 +2,7 @@
 title: Add customizable products using CPQ Configurator
 description: Use the Configurator to add configurable products to a Sales Customer Relationship Management transaction, for example an opportunity or quote.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-products-with-cpq-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-products-with-cpq-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ Role required: sales agent, order agent, customer
     The configurable product is added as a line item to the transaction.
 
 
-**Parent Topic:**[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
+**Parent Topic:**[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
 

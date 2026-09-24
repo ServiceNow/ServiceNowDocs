@@ -2,7 +2,7 @@
 title: Create an insights report
 description: Build and run custom reports to uncover insights across your digital workspace. Use the capability to generate reports on any of the performance metrics on a device or application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/create-insights-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/create-insights-report.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -37,6 +37,6 @@ Role required: sn\_dex.admin, sn\_dex.engineer
 
     **Note:** You can save up to 10 custom reports. Delete an existing report that is no longer needed to make space for a new custom report. Select **More actions** &gt; **Delete report**.
 
-    For more details on the report fields, see [Custom insights report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/custom-report-form.md).
+    For more details on the report fields, see [Custom insights report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/custom-report-form.md).
 
 

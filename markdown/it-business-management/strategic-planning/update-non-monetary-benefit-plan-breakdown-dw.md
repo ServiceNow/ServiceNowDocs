@@ -2,7 +2,7 @@
 title: Export demand financials as an Excel or CSV file
 description: Export the costs or baseline comparison data for a demand to share with stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/update-non-monetary-benefit-plan-breakdown-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/update-non-monetary-benefit-plan-breakdown-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

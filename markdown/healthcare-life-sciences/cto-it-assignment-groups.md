@@ -2,7 +2,7 @@
 title: Set up assignment groups for Care Team Operations for Healthcare IT
 description: Associate assignment groups with your healthcare organizations to ensure cases are assigned to the correct healthcare organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-it-assignment-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-it-assignment-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Resume a Disputes intake via Virtual Agent dispute case as an agent
 description: As an agent, you can resume a card dispute case when a customer leaves a Virtual Agent chat in Disputes intake via Virtual Agent without submitting the dispute. Pick up where the customer left off and complete the details of the dispute case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/resume-dispute-case-from-disputes-intake-via-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/resume-dispute-case-from-disputes-intake-via-virtual-agent.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -62,12 +62,12 @@ Select the card account and disputed transactions.
 7.  At the Submit dispute activity, select **Submit**.
 
 
-**Parent Topic:**[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)
+**Parent Topic:**[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)
 
 **Related topics**  
 
 
-[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management-workflows.md)
+[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-management-workflows.md)
 
-[Submit a dispute case with Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/submit-dispute-case-disputes-intake-via-virtual-agent.md)
+[Submit a dispute case with Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/submit-dispute-case-disputes-intake-via-virtual-agent.md)
 

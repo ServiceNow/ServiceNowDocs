@@ -2,7 +2,7 @@
 title: Preparing an application for config data upload
 description: An application in CDM is the full collection of config data for an application service, application model, or dynamic CI group \[infrastructure\] in the CMDB. After you upload your source config data, the application can support all potential deployables that make up each version of the development, test, and production environments of the service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-prep-app-for-upload.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-prep-app-for-upload.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -24,7 +24,7 @@ You follow this general process to prepare an application to accept the upload o
 
 1.  On the **Apps** tab, you, a user with the CDM Admin \[sn\_cdm.cdm\_admin\] role, create an application record.
 
-    The system generates an application that includes several standard folders in a hierarchical structure. You will map your existing config data into this data structure to enable the benefits that are described in [CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-model.md).
+    The system generates an application that includes several standard folders in a hierarchical structure. You will map your existing config data into this data structure to enable the benefits that are described in [CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-data-model.md).
 
     \[Omitted image "cdm-data-structure.png"\] Alt text: Data structure for a new application. You will add your config data as nodes in the appropriate folder
 
@@ -37,9 +37,9 @@ You follow this general process to prepare an application to accept the upload o
 
     Starting with Configuration Data Management version 4.2, you can define a node using any UTF-8 character, including the forward slash \(`/`\).
 
-4.  Now that the structure is in place, you use the REST APIs or the CDM code editing panel to upload your existing configuration data into the changeset. The process is described in [Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-upload-process.md). For more information, see [CdmApplicationsAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/applications-api.md), [CdmChangesetsAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/changesets-api.md), and [CdmSnapshoAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/snapshot-api.md).
+4.  Now that the structure is in place, you use the REST APIs or the CDM code editing panel to upload your existing configuration data into the changeset. The process is described in [Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-upload-process.md). For more information, see [CdmApplicationsAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/applications-api.md), [CdmChangesetsAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/changesets-api.md), and [CdmSnapshoAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/snapshot-api.md).
 
-    **Note:** If you're uploading an XML or CSV file to import your existing config data into CDM, the CDM parser parses the data in a specific way. For more information, see [Parsing of XML files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-parsing-xml-file.md) and [Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-parsing-csv-file.md).
+    **Note:** If you're uploading an XML or CSV file to import your existing config data into CDM, the CDM parser parses the data in a specific way. For more information, see [Parsing of XML files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-parsing-xml-file.md) and [Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-parsing-csv-file.md).
 
     You can upload the following types of datasets: component variables, components, collections, and deployables.
 
@@ -47,7 +47,7 @@ You follow this general process to prepare an application to accept the upload o
 
         Components are the building blocks that typically represent the config data for a logical element of an application or a part of an infrastructure service. For example, a monolithic app, a micro-service, a physical server, or a Docker template.
 
-        A component can contain variables that can take on different values in collections and deployables. More detailed instructions appear in [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md).
+        A component can contain variables that can take on different values in collections and deployables. More detailed instructions appear in [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-define.md).
 
     -   **Collections**
 
@@ -65,7 +65,7 @@ You follow this general process to prepare an application to accept the upload o
 
 5.  After the data is uploaded, you return to CDM. You update variable and override values so that the relatively small set of components and collections can provide config data for all three deployable environments. For example, the `Development` deployable can use the same components and collections as the `Test` deployable. `Development` uses the default *database* variable value. `Test`, in contrast, uses a different value that is appropriate for the test environment.
 6.  Now, save and commit the changeset. The system performs the following actions:
-    -   Determine whether there are conflicts with other earlier commits. If the system reports a conflict, you must resolve it and recommit or create a changeset and redo your changes. For more information on conflict resolution, see [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md).
+    -   Determine whether there are conflicts with other earlier commits. If the system reports a conflict, you must resolve it and recommit or create a changeset and redo your changes. For more information on conflict resolution, see [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-changeset-conflicts.md).
     -   Push all changes into the data model of the application \(the config data is persisted\).
     -   Generate a snapshot of each deployable that is affected by the changes in the changeset. The system validates config data by executing specified policies against a snapshot. At the moment that the snapshot is created, the snapshot can be published and used to export the config data. Snapshots are permanent records that cannot be edited.
 
@@ -76,15 +76,15 @@ The source config data is now held in CDM tables. You can now manage the data as
 **Related topics**  
 
 
-[Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md)
+[Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-component-define.md)
 
-[Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-collection-define.md)
+[Define or update a collection in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-collection-define.md)
 
-[Create and update a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-deployable-define.md)
+[Create and update a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-deployable-define.md)
 
-[Changesets and version control in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md)
+[Changesets and version control in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-changesets-version-control.md)
 
-[Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md)
+[Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-changeset-conflicts.md)
 
-[Validating and correcting configuration data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-validating-cfg-data.md)
+[Validating and correcting configuration data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-validating-cfg-data.md)
 

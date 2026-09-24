@@ -2,7 +2,7 @@
 title: Configure exception reason properties
 description: When real-time enforcement, enforce\_real\_time\_validation is set to true, Recommend level findings require an approved exception reason before the form can be saved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/exception-reason-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/exception-reason-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -109,8 +109,8 @@ Entitlement hashing integrity
 </table>    **Note:** Deactivating a definition does not remove it from the system. It only changes the active status. If you need to completely remove a definition, contact your system administrator.
 
 
--   **[Configure exception approval behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-exception-reasons-scan-engine.md)**  
+-   **[Configure exception approval behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-exception-reasons-scan-engine.md)**  
 Configure how exception reasons are enforced, approved, and re-evaluated when findings are detected using the ServiceNow Scan Engine.
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

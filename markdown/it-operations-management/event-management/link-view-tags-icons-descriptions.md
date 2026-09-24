@@ -2,7 +2,7 @@
 title: Attributes in Express List Link View
 description: The table lists the node attributes available in Link View with their icon and description.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/link-view-tags-icons-descriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/link-view-tags-icons-descriptions.html
 release: australia
 product: Event Management
 classification: event-management

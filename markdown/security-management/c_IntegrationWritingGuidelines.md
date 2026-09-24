@@ -2,7 +2,7 @@
 title: ServiceNow Security Operations integration development guidelines
 description: The ServiceNow platform provides several mechanisms for developing integrations with external systems. The ServiceNow Security Operations product suite adds integration capabilities intended to streamline the process of integrating with security-focused external systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/c\_IntegrationWritingGuidelines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/c\_IntegrationWritingGuidelines.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,14 +28,14 @@ Any requirements for application certification or guidelines given in the Techno
 
 For more information, see [Technology Partner Program training course blog post](https://community.servicenow.com/community/develop/app-publisher/blog/2015/10/19/the-technology-partner-program-training-course).
 
--   **[Types of ServiceNow integrations provided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_TypesOfIntegrationsProv.md)**  
+-   **[Types of ServiceNow integrations provided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_TypesOfIntegrationsProv.md)**  
 The Security Operations applications \(Security Incident Response, Threat Intelligence, and Vulnerability Response\) can be seamlessly integrated with other ServiceNow applications to enhance their functionality.
--   **[Security Operations Integration Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/third-party-integrations.md)**  
+-   **[Security Operations Integration Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/third-party-integrations.md)**  
 Many of the integrations included in the base system require little or no setup, and operate in the same way. Certain integrations, such as the Qualys Cloud Platform, however, require separate steps for setting up the integration. Others support different sets of scan and lookup types and different rate limits.
--   **[Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_BestPractisesIntegrations.md)**  
+-   **[Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_BestPractisesIntegrations.md)**  
 Avoid some of the pitfalls you can encounter when writing your own integrations by following these guidelines.
--   **[Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IntegrationTroubleshooting.md)**  
+-   **[Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_IntegrationTroubleshooting.md)**  
 These troubleshooting suggestions can help you resolve common issues you can encounter when setting up or running integrations.
 
-**Parent Topic:**[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-ref.md)
+**Parent Topic:**[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integ-ref.md)
 

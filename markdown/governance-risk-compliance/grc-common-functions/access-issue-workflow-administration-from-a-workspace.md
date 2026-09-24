@@ -2,7 +2,7 @@
 title: Access issue workflow administration from a workspace
 description: Reach issue workflow configuration from within a product workspace, such as Risk Workspace, instead of navigating to the base GRC admin console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/access-issue-workflow-administration-from-a-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/access-issue-workflow-administration-from-a-workspace.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -39,5 +39,5 @@ Any workspace with GRC Issue Administration enabled shows the same issue workflo
 
 The issue workflow list opens, showing the same workflows available from the base GRC admin console.
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

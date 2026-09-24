@@ -2,7 +2,7 @@
 title: Source-to-scope settings
 description: Allow or deny access of a specific application resource in a source scope to all application resources in a target scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/source-to-scope-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/source-to-scope-settings.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Enter the following field settings for Source-to-Scope restricted caller access.
 |Target Type|Type of requested resource. Select **Target** to include all application resources in the selected target scope.|
 |Operation|Type of operation \(for example, Read, Write\) in the target application resource the source application resource requests access to.|
 
-**Parent Topic:**[Set the application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-resource-access.md)
+**Parent Topic:**[Set the application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/scope-resource-access.md)
 

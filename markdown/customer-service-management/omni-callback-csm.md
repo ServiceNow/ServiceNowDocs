@@ -2,7 +2,7 @@
 title: Omnichannel Callback for Customer Service Management
 description: Omnichannel Callback for Customer Service Management enables a callback option to be provided for customers when there is a long wait time for a live agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/omni-callback-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/omni-callback-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

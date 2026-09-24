@@ -2,7 +2,7 @@
 title: Track an asset for a work order task from a mobile device
 description: Track the status of an asset that you used to execute a work order task or an asset that you removed or replaced by using the ServiceNow Agent application on a mobile device. You can track the status of these assets as you're doing the task from a task location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/use-create-asset-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/use-create-asset-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -151,5 +151,5 @@ Record the replacement of an asset:
 **Related topics**  
 
 
-[Record asset usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_RecordAssetUsage.md)
+[Record asset usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_RecordAssetUsage.md)
 

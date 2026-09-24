@@ -2,7 +2,7 @@
 title: Activity
 description: The Activity tab on My Learning provides a variety of widgets that help you see your assigned, saved, shared, and completed courses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/activity-lxp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/activity-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core

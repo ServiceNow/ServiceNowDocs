@@ -2,7 +2,7 @@
 title: Define policies in DevOps Config
 description: Define policies in DevOps Config to validate your configuration data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-define-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-define-policies.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -40,7 +40,7 @@ You can use or customize default DevOps Config policies to validate that your co
 **Related topics**  
 
 
-[Default DevOps Config policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-default-policies.md)
+[Default DevOps Config policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-default-policies.md)
 
 [How to write and test custom PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-write-test-policies.md)
 

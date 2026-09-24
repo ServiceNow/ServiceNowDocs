@@ -2,7 +2,7 @@
 title: Update resource assignment from Project Workspace
 description: Update a resource assignment that is associated with a project or project task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/update-ra-pws-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/update-ra-pws-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -50,5 +50,5 @@ Before updating a resource assignment, verify the following for accurate and eff
     Extend, edit, or delete the resource assignments using the row context menu in resource assignment pane.
 
 
-**Parent Topic:**[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/use-ra-rmw.md)
+**Parent Topic:**[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/use-ra-rmw.md)
 

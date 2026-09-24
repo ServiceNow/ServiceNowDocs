@@ -2,7 +2,7 @@
 title: Set up the Contract Management Pro MCP Server
 description: Activate the Contract Management Pro MCP Server to enable contract analysis playbook driven document analysis and redlining.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-conf-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-conf-mcp-server.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -24,7 +24,7 @@ The following plugins must be activated on your instance:
 -   Model Context Protocol Server \(sn\_mcp\_server\)
 -   Contract Management Pro MCP Server \(sn\_cm\_mcp\_server\)
 
-For more information, see [Configure Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-install-mcp-app.md).
+For more information, see [Configure Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-install-mcp-app.md).
 
 Role required: sn\_mcp\_server.admin or admin
 
@@ -40,7 +40,7 @@ Role required: sn\_mcp\_server.admin or admin
 
     \[Omitted image "cmpro-mcp-srv-activate.png"\] Alt text: Activate MCP server
 
-    Activating the Contract Management Pro MCP Server automatically makes all the tools available to the connected MCP clients and creates an OAuth client entry with the Contract Management Pro MCP Server integration name, for example, **contracts\_mcp\_server**. For more information on the tools, see [Contract Management Pro MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-mcp-server-tools.md).
+    Activating the Contract Management Pro MCP Server automatically makes all the tools available to the connected MCP clients and creates an OAuth client entry with the Contract Management Pro MCP Server integration name, for example, **contracts\_mcp\_server**. For more information on the tools, see [Contract Management Pro MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-mcp-server-tools.md).
 
 5.  Select **SN CMPro MCP Server**.
 
@@ -50,15 +50,15 @@ Role required: sn\_mcp\_server.admin or admin
 
     **Note:** Change the application scope to **Global**.
 
-<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d147931e227">
+<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d147935e227">
 
 Authentication option
 
-</th><th align="left" id="d147931e230">
+</th><th align="left" id="d147935e230">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147931e236">
+</th></tr></thead><tbody><tr><td id="d147935e236">
 
 **Use the Contract Management Pro MCP Server OAuth client entry**
 
@@ -73,7 +73,7 @@ The fields on the Authorization code grant page are automatically populated.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d147931e274">
+</td></tr><tr><td id="d147935e274">
 
 **Set up your own OAuth connection**
 
@@ -89,7 +89,7 @@ The Contract Management Pro MCP Server is enabled and enforces OAuth 2.0 authent
 
 ## What to do next
 
-Create at least one active playbook for each contract type. For more information, see [Create a contract analysis playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-create-negotiation-playbook.md).
+Create at least one active playbook for each contract type. For more information, see [Create a contract analysis playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-create-negotiation-playbook.md).
 
-**Parent Topic:**[Configure Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-install-mcp-app.md)
+**Parent Topic:**[Configure Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-install-mcp-app.md)
 

@@ -2,7 +2,7 @@
 title: Configure Advanced Work Assignment for Supplier Lifecycle Operations
 description: Configure various components, such as service channels, work item queues, and assignment rules that determine how a chat interaction should be routed to an agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/setup-awa-slm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/setup-awa-slm.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -59,12 +59,12 @@ Role required: admin
 
 The AWA routing is active and can be tested via `configure-scp-queue.dita`.
 
-**Parent Topic:**[Setting up Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/awa-slm-config.md)
+**Parent Topic:**[Setting up Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/awa-slm-config.md)
 
 **Related topics**  
 
 
-[Configure the Supplier Collaboration Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-scp-queue.md)
+[Configure the Supplier Collaboration Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configure-scp-queue.md)
 
-[Configure Agent Chat for Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-agent-chat-slm.md)
+[Configure Agent Chat for Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configure-agent-chat-slm.md)
 

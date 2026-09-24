@@ -2,7 +2,7 @@
 title: Run Discovery on Azure DevOps config provider
 description: Add the Azure DevOps config provider and run Discovery to discover all projects, pipelines, and pipeline variables in an organization by using the Cloud Services Catalog application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/running-discovery-on-ado-config-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-services-catalog/running-discovery-on-ado-config-provider.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -26,7 +26,7 @@ Role required: none
 
 2.  Add the **API key** credential that you created with the Personal Access Token \(PAT\) credential.
 
-    For more information on setting PAT privileges, see [Azure DevOps permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/ado-permissions.md).
+    For more information on setting PAT privileges, see [Azure DevOps permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/ado-permissions.md).
 
 3.  Prefix the Personal Access Token \(PAT\) with a colon and encode it to base64 format.
 
@@ -65,5 +65,5 @@ Role required: none
 
 You can now order an Azure DevOps catalog item from the Azure DevOps catalog order form on Employee Center.
 
-**Parent Topic:**[Integrating Azure DevOps and the CI-CD pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
+**Parent Topic:**[Integrating Azure DevOps and the CI-CD pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
 

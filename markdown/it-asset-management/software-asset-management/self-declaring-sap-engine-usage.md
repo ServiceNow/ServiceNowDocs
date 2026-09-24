@@ -2,7 +2,7 @@
 title: Self-declaring SAP engine license usage
 description: You can self-declare the license usage for any SAP engines that cannot be measured by the automated SAP engine measurement process. Use this information to gain more comprehensive visibility into your SAP license compliance position so that you can optimize your licensing costs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/self-declaring-sap-engine-usage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/self-declaring-sap-engine-usage.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -16,12 +16,12 @@ breadcrumb: [Software Asset Management publisher pack for SAP, Supported softwar
 
 You can self-declare the license usage for any SAP engines that cannot be measured by the automated SAP engine measurement process. Use this information to gain more comprehensive visibility into your SAP license compliance position so that you can optimize your licensing costs.
 
--   **[Self-declare SAP engine license usage in the Software Asset Management classic application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/self-declare-sap-products.md)**  
+-   **[Self-declare SAP engine license usage in the Software Asset Management classic application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/self-declare-sap-products.md)**  
 Use the Software Asset Management classic application to self-declare the license usage for any SAP engines that cannot be measured by the automated SAP engine measurement process.
--   **[Self-declare SAP engine license usage in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/self-declare-sap-products-workspace.md)**  
+-   **[Self-declare SAP engine license usage in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/self-declare-sap-products-workspace.md)**  
 Use the Software Asset Workspace to self-declare the license usage for any SAP engines that cannot be measured by the automated SAP engine measurement process.
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

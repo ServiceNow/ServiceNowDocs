@@ -2,7 +2,7 @@
 title: Access an anonymous report
 description: You can retrieve your anonymous report to submit or view comments and updates from the agents working on your anonymous report. You must have the report key and report number in order to access your anonymous report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/arc-access-anon-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/arc-access-anon-report.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,7 +45,7 @@ Role required: none
 9.  Select **Post**.
 
 
-**Parent Topic:**[Using the Anonymous Report Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-use.md)
+**Parent Topic:**[Using the Anonymous Report Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/arc-use.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Determine where software is installed using the legacy Software Asset Management plugin
 description: When using the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin to determine where your software is installed, you must keep the following points in mind.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_DeterminWhereSWInstalled.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/c\_DeterminWhereSWInstalled.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -29,12 +29,12 @@ A discovery tool places the data it obtains into the Software Installation \[cmd
 -   Version
 -   Revision
 
--   **[Find software on the network using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_FindingSoftwareOnTheNetwork.md)**  
+-   **[Find software on the network using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/t_FindingSoftwareOnTheNetwork.md)**  
 After using a discovery tool, you can find a definitive list of all the software found on the network using the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
--   **[Scan software installations with the system scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_ScanSWInstWithSysSched.md)**  
+-   **[Scan software installations with the system scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_ScanSWInstWithSysSched.md)**  
 The legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin adds a scheduled job for scanning software installations named **SAM License Counters** in **System Scheduler** &gt; **Scheduled Jobs**.
 
-**Parent Topic:**[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
+**Parent Topic:**[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
 
 **Related topics**  
 

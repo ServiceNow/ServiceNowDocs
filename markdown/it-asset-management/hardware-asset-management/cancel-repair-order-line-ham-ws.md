@@ -2,7 +2,7 @@
 title: Cancel a repair order line in the Hardware Asset Workspace
 description: Cancel a repair order line that no longer needs to be fulfilled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cancel-repair-order-line-ham-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/cancel-repair-order-line-ham-ws.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -45,7 +45,7 @@ You can only cancel a repair order line that is not in the Completed stage.
 -   The state of the associated repair asset tasks that were open changes to Closed Incomplete.
 -   The stage of the repair order changes to Cancelled only if there aren't any other repair order lines that are in the Troubleshoot, Repair, Evaluate, or Completed stage.
 
-**Parent Topic:**[Fulfill repair orders in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfill-ham-repair-orders-ws.md)
+**Parent Topic:**[Fulfill repair orders in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/fulfill-ham-repair-orders-ws.md)
 
 **Related topics**  
 

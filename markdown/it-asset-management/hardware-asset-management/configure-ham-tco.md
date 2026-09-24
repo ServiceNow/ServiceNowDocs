@@ -2,7 +2,7 @@
 title: Configure the Total Cost of Ownership of assets
 description: Configure the Total Cost of Ownership \(TCO\) of assets by creating rate cards for each task in a Hardware Asset Management workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/configure-ham-tco.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/configure-ham-tco.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -18,14 +18,14 @@ Configure the Total Cost of Ownership \(TCO\) of assets by creating rate cards f
 
 Rate cards capture costs for a task or on the time consumed on the task.
 
--   **[Create a task rate card in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-ham-task-rate-card.md)**  
+-   **[Create a task rate card in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-ham-task-rate-card.md)**  
 Create a task rate card to define the type of task and the method of calculating the associated costs.
--   **[Create a labor rate card in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-ham-labor-task.md)**  
+-   **[Create a labor rate card in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-ham-labor-task.md)**  
 Create a labor rate card to record the time worked on a task and associate a rate to the task.
--   **[Create a TCO report in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-ham-tco-report.md)**  
+-   **[Create a TCO report in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-ham-tco-report.md)**  
 Create your own Total Cost of Ownership \(TCO\) report to compare the actual or projected TCO of multiple assets or compare the actual or projected asset TCO with the benchmark cost of the hardware model.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
@@ -98,7 +98,7 @@ Create your own Total Cost of Ownership \(TCO\) report to compare the actual or 
 
 [Update associated Decision tables for HAM flows]()
 
-[Asset Total Cost of Ownership for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-mgmt-tco.md)
+[Asset Total Cost of Ownership for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-mgmt-tco.md)
 
-[Asset analytics view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-analytics-view.md)
+[Asset analytics view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-analytics-view.md)
 

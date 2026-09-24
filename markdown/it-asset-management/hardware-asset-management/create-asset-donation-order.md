@@ -2,7 +2,7 @@
 title: Create an Asset Donation Order
 description: Create a service catalog request to donate the in-stock hardware and consumable assets in your organization to charity organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-asset-donation-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-asset-donation-order.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -64,7 +64,7 @@ Name and quantity of the assets that you want to donate. For example, `Request t
 5.  View the status of your Asset Donation Order by navigating to **All** &gt; **Self-Service** &gt; **My Requests**.
 
 
-**Parent Topic:**[Donate assets to charity organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.md)
+**Parent Topic:**[Donate assets to charity organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Business rule installed with Live Feed Document
 description: This business rule is installed with Live Feed Document. There are no tables, roles, or notifications installed with it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/r\_InstalledComponents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/r\_InstalledComponents.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -20,7 +20,7 @@ This business rule is installed with Live Feed Document. There are no tables, ro
 |-------------|-----------|
 |Live Feed integration|Writes journal comments to the Live Feed if there is a group for this record.|
 
-**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_DocumentFeeds.md)
+**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_DocumentFeeds.md)
 
 **Related topics**  
 

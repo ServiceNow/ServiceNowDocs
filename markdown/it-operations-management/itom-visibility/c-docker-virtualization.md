@@ -2,7 +2,7 @@
 title: Docker virtualization
 description: Discovery uses the Docker Pattern to collect data about specific objects in a Docker engine, running on a Linux host.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c-docker-virtualization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/c-docker-virtualization.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -20,7 +20,7 @@ The ServiceNow® platform supports the discovery of [Docker](https://www.docker.
 
 Discovery runs the Docker Engine process classifier in the network. If the classifier identifies the **dockerd** or **docker daemon** process, the classifier triggers the Horizontal Pattern \(HorizontalDiscoveryProbe\) probe, which launches the Docker Pattern and begins collecting data from Docker components.
 
-Starting with Discovery and Service Mapping Patterns version 1.31.0, you can choose to discover Docker image CIs only, without discovering Docker container CIs. Check your entitlements to determine whether you have access to 2026 Packaging SKU. For more information, see [Disable Docker container CI discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disable-docker-container-discovery.md).
+Starting with Discovery and Service Mapping Patterns version 1.31.0, you can choose to discover Docker image CIs only, without discovering Docker container CIs. Check your entitlements to determine whether you have access to 2026 Packaging SKU. For more information, see [Disable Docker container CI discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/disable-docker-container-discovery.md).
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -366,5 +366,5 @@ Discovery uses an application rule identifier to find the Docker engine and then
     |Docker Local Image|Docker Engine|Managed by|
 
 
-**Parent Topic:**[Operating system-level virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c-oslv-discovery.md)
+**Parent Topic:**[Operating system-level virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c-oslv-discovery.md)
 

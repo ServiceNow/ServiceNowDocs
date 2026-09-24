@@ -2,7 +2,7 @@
 title: Components installed with Automation Discovery
 description: Tables and roles are installed with activation of the Automation Discovery plugin.Create automation discovery reports, flags automation opportunities, and takes actions on them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/installed-with-automation-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/installed-with-automation-discovery.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

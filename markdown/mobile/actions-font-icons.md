@@ -2,7 +2,7 @@
 title: Actions font icons
 description: Use actions font icons for functions. They can be used on buttons that are located on cards or for quick actions. Actions font icons are in the now-mobile-icons-buttons font family.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/actions-font-icons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/actions-font-icons.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -1538,5 +1538,5 @@ Australia
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md)
+</table>**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-icon-reference.md)
 

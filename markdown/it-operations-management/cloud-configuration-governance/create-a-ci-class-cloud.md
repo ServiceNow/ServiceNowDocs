@@ -2,7 +2,7 @@
 title: Create a CI class for a virtual cloud resource
 description: If the base system does not provide a CI type for cloud-based virtual resources, you can create a CI class based on the virtual machine object class.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-a-ci-class-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-a-ci-class-cloud.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -103,9 +103,9 @@ This topic provides general instructions for extending an existing cloud provide
 
 ## What to do next
 
-Use the CI class in a resource type for a cloud provider. See [Add a product to an existing provider in CAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-provider.md) for instructions.
+Use the CI class in a resource type for a cloud provider. See [Add a product to an existing provider in CAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-provider.md) for instructions.
 
-Your response processor, which is part of the resource block, must also specify the necessary CI class types so it can update the CMDB. Usually, the response processor needs the object ID, the specific datacenter, and the cloud service account. See [Virtual server response processor example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/response-processor-example.md) for example response processor code that uses CI classes.
+Your response processor, which is part of the resource block, must also specify the necessary CI class types so it can update the CMDB. Usually, the response processor needs the object ID, the specific datacenter, and the cloud service account. See [Virtual server response processor example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/response-processor-example.md) for example response processor code that uses CI classes.
 
-**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
+**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

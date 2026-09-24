@@ -2,7 +2,7 @@
 title: Configure related list background loading
 description: Configure large selections of records added to a related list to load in the background for your entire workspace experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-asynchronous-record-addition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-up-asynchronous-record-addition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: admin
 
 When you select a large number of records to add to a related list, you can focus on other tasks while the records are added in the background.
 
-If background loading isn’t required for all modals, configure individual modals to load related list records in the background using declarative actions. For instructions, see [Configure background loading for a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-asychronous-record-addition-declarative-actions.md).
+If background loading isn’t required for all modals, configure individual modals to load related list records in the background using declarative actions. For instructions, see [Configure background loading for a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-up-asychronous-record-addition-declarative-actions.md).
 
 ## Procedure
 

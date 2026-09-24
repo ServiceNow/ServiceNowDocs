@@ -2,7 +2,7 @@
 title: Make a report follow interactive filters
 description: When you add interactive filters to a Core dashboard, you can configure the reports on the dashboard to accept input from interactive filters. For example, you add a filter on the Incident table's Active field. Reports on the Incident table can reflect the user's choice from that filter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/t\_MakeAReportASubscriber.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/core-ui-interactive-filters/t\_MakeAReportASubscriber.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
@@ -22,7 +22,7 @@ Role required: report\_admin
 
 ## About this task
 
-**Note:** This task refers to interactive filters in the Core UI. For information about filters in Platform Analytics experience, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md).
+**Note:** This task refers to interactive filters in the Core UI. For information about filters in Platform Analytics experience, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/interactive-filters-workspace.md).
 
 Interactive Filters allow you to filter all reports on a dashboard dynamically, without modifying the original reports. To be effective, interactive filters must be based on the same tables as the reports they filter. Reports based on the user table, for example, do not follow Interactive Filters that are based on the incident table.
 
@@ -49,7 +49,7 @@ Interactive Filters allow you to filter all reports on a dashboard dynamically, 
 
 Add one or more interactive filters to the dashboard.
 
-**Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
+**Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
 
 **Related topics**  
 
@@ -62,5 +62,5 @@ Add one or more interactive filters to the dashboard.
 
 [Reset all interactive filters on a dashboard tab]()
 
-[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md)
+[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_EditADashboard.md)
 

@@ -2,7 +2,7 @@
 title: Configure video sources for a community
 description: Configure additional sources that can be used for uploading a video to the community.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-video-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/create-video-configuration.html
 release: australia
 product: Communities
 classification: communities
@@ -28,12 +28,12 @@ Role required: sn\_communities.admin
 
 3.  On the form, fill in the fields.
 
-    For field description, see [Video Configurations form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/video-configurations-form-fields.md).
+    For field description, see [Video Configurations form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/video-configurations-form-fields.md).
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: CSM Query Rules
 description: Query rules are used to filter the records in CSM-related tables that are accessible by users with CSM roles. These filters, which are applied in query business rules and READ ACLs on CSM-related tables, are stored in a metadata table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-query-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-query-rules.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

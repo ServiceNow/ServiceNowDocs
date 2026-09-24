@@ -2,7 +2,7 @@
 title: Generate and preview a contract document from a template
 description: View the final form of a contract document with the content controls replaced with the values of the variables or return values of scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-preview-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-preview-template.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -41,7 +41,7 @@ Role required: sn\_cm\_core.contract\_config
 9.  Modify the contract template if you want to make any changes.
 
 
-**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
+**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
 
 **Related topics**  
 

@@ -2,14 +2,14 @@
 title: Manage SLO creator agent settings
 description: Activate or deactivate the service level objective \(SLO\) creator agent and configure the notification settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/now-assist-itom-manage-generated-slos.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-level-objective-management/now-assist-itom-manage-generated-slos.html
 release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -19,11 +19,11 @@ Activate or deactivate the service level objective \(SLO\) creator agent and con
 
 ## Before you begin
 
-You must have ServiceNow Otto for ITOM and Service Reliability Management \(SRM\) installed on your instance. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) and [Install Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-install-sr-store-app.md).
+You must have ServiceNow Otto for ITOM and Service Reliability Management \(SRM\) installed on your instance. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) and [Install Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-install-sr-store-app.md).
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-For an overview of how and when the SLO creator agent generates SLOs, see [Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
+For an overview of how and when the SLO creator agent generates SLOs, see [Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
 
 Role required: srm\_admin
 
@@ -35,15 +35,15 @@ Role required: srm\_admin
 
 3.  Configure the SLO creator agent settings.
 
-<table id="choicetable_bxh_g3y_23c"><thead><tr><th align="left" id="d517855e160">
+<table id="choicetable_bxh_g3y_23c"><thead><tr><th align="left" id="d517518e160">
 
 Setting
 
-</th><th align="left" id="d517855e163">
+</th><th align="left" id="d517518e163">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d517855e169">
+</th></tr></thead><tbody><tr><td id="d517518e169">
 
 **Allow the agent to automatically generate SLOs from service alerts and outages.**
 
@@ -51,7 +51,7 @@ Description
 
 Turns on or off the SLO creator agent.When the agent is active, it generates SLOs based on alerts, incidents, and outages for eligible services and configuration items \(CIs\).
 
-</td></tr><tr><td id="d517855e180">
+</td></tr><tr><td id="d517518e180">
 
 **Include a policy to email the assigned team if the error budget is less than or equal to 25%.**
 
@@ -59,7 +59,7 @@ Turns on or off the SLO creator agent.When the agent is active, it generates SLO
 
 Sends an email notification to the team assigned to the service or CI when the SLO error budget reaches 25% or lower.
 
-</td></tr><tr><td id="d517855e189">
+</td></tr><tr><td id="d517518e189">
 
 **Email team managers when an SLO is generated, or the team if no manager is assigned.**
 
@@ -75,11 +75,11 @@ Sends an email notification when the agent generates a new SLO.If a team manager
 
 ## What to do next
 
-To view generated SLOs and learn how to modify them, see [View generated SLOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-view-slos.md) and [Edit a reliability metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md).To configure advanced agent behavior, see [SLO creator agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/slo-creator-agent-system-properties.md).
+To view generated SLOs and learn how to modify them, see [View generated SLOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/now-assist-itom-view-slos.md) and [Edit a reliability metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md).To configure advanced agent behavior, see [SLO creator agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/slo-creator-agent-system-properties.md).
 
-**Parent Topic:**[Configuring SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/configuring-slo-management.md)
+**Parent Topic:**[Configuring SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/configuring-slo-management.md)
 
-**Previous topic:**[Configuring SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/configuring-slo-management.md)
+**Previous topic:**[Configuring SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/configuring-slo-management.md)
 
-**Next topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
+**Next topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

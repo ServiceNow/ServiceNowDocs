@@ -2,12 +2,12 @@
 title: General guidelines for Build Agent
 description: Use these guidelines to get the most out of Build Agent in your development workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-general-guidelines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-general-guidelines.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-24"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -74,12 +74,12 @@ Use the following guidelines to get better results from Build Agent.
     -   Last-resort actions that require explicit approval: creating new tables, changing ACLs or roles, modifying system properties, and altering base system business rules
 -   **Use custom skills and rules**
 
-    Define instance-level, application-level, and user-level instructions that Build Agent follows in every session. Use rules to enforce consistent behavior automatically, such as naming conventions or required fields. Use skills to provide on-demand guidance for specific tasks. Unlike markdown grounding files, custom skills and rules require no project files and apply across all sessions at the configured scope. For more information, see [Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-configure-custom-skills-rules.md).
+    Define instance-level, application-level, and user-level instructions that Build Agent follows in every session. Use rules to enforce consistent behavior automatically, such as naming conventions or required fields. Use skills to provide on-demand guidance for specific tasks. Unlike markdown grounding files, custom skills and rules require no project files and apply across all sessions at the configured scope. For more information, see [Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-configure-custom-skills-rules.md).
 
 -   **Use ESLint**
 
     Use ESLint on the ServiceNow AI Platform to define your preferred coding style, and ask Build Agent to manage and enforce the ESLint configuration, for example using snake case for variables.
 
 
-**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-build-agent.md)
 

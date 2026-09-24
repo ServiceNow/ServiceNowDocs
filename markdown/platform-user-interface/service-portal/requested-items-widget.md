@@ -2,7 +2,7 @@
 title: Requested Items widget
 description: Describes at what stage of the order a requested item is. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/requested-items-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/requested-items-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -34,7 +34,7 @@ You can define different workflows for items directly within the Service Catalog
 |Link to this page|Page that opens when the user clicks an item|
 |Maximum entries|Max number of entries that appear in the list of requested items|
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

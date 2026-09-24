@@ -2,7 +2,7 @@
 title: Create orders from the Business Portal
 description: Browse products in a product catalog and create orders in Order Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-create-an-order-using-customer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-create-an-order-using-customer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -89,12 +89,12 @@ The following illustration describes the process to create orders from the Busin
 
 The order is created and you're redirected to the Order details page. You can view your account details, order amount, order lines, and so on.
 
-**Parent Topic:**[Self-service order management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-order-management.md)
+**Parent Topic:**[Self-service order management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/self-service-order-management.md)
 
 **Related topics**  
 
 
-[View an order on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-view-order-using-customer-portal.md)
+[View an order on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-view-order-using-customer-portal.md)
 
-[Modify terms and conditions for the sales cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/modify-terms-conditions-sales-cart.md)
+[Modify terms and conditions for the sales cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/modify-terms-conditions-sales-cart.md)
 

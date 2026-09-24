@@ -2,7 +2,7 @@
 title: Create a project using Playbook data
 description: Use Process Mining to analyze Playbook executions and identify bottlenecks in your workflows. Process Mining works alongside Playbooks configured in Workflow Studio. By analyzing execution logs generated during playbook runs, Process Mining enables post-execution visibility into how human agents are handling playbooks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/playbook-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/playbook-project.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -114,7 +114,7 @@ This field is available only if you choose the type as **Project**.
 
  If you don’t change the retired status within the specified days, the mined versions are permanently deleted. However, the project definition isn’t deleted. You can opt out of auto retirement by clearing this check box.
 
- The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
+ The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/data-cleanup.md).
 
 </td></tr></tbody>
 </table>4.  Select **Create project**.
@@ -130,5 +130,5 @@ This field is available only if you choose the type as **Project**.
     The Analyst workbench provides execution metrics for completed playbook runs, including duration, average time per execution, and activity occurrence counts. The Analyst workbench visualizes parallel activities and decision points within the workflow to help you understand how playbooks are being executed.
 
 
-**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-process-mining.md)
 

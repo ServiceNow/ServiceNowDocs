@@ -2,7 +2,7 @@
 title: Topic mapping to a multilingual NLU model group
 description: When you map a topic to a multilingual model group in Virtual Agent Designer, the topic mappings for enabled languages are set up automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/multilingual-nlu-model-group-topic-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/multilingual-nlu-model-group-topic-mapping.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +32,7 @@ If you create a model group in NLU Workbench, you can specify the primary langua
 
 Model groups make it easier to maintain your topics. For more information about NLU model groups, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/multilingual-model-managent.md).
 
-**Note:** If a model contains only a single language, that language is considered to be the primary language. The topic is mapped to the model and specified intent only. If more than one language has been activated in NLU Settings, those languages are not mapped to the model. To use the topic in other languages, map them to other models manually on the **Languages** tab. For more information, see [Map a topic to a secondary NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/map-nlu-language-model.md).
+**Note:** If a model contains only a single language, that language is considered to be the primary language. The topic is mapped to the model and specified intent only. If more than one language has been activated in NLU Settings, those languages are not mapped to the model. To use the topic in other languages, map them to other models manually on the **Languages** tab. For more information, see [Map a topic to a secondary NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/map-nlu-language-model.md).
 
 ## Handling disabled intents within a model
 
@@ -54,5 +54,5 @@ In order to avoid conflicts, Virtual Agent Designer may not display all of the e
 
 If languages in a topic are mapped to intents in more than one model group, conflicts may occur. An intent can only be mapped to one topic. If this situation occurs when you attempt to publish a topic, Virtual Agent Designer displays an error message.
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

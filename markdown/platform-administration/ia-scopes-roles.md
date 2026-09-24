@@ -2,7 +2,7 @@
 title: Scopes and roles for console items
 description: Review the following information regarding the scopes and roles required for configuration for each console item in the Platform module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-scopes-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-scopes-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-25"
@@ -42,5 +42,5 @@ Review the following information regarding the scopes and roles required for con
 |Security Settings|sn\_vsc.security\_center\_viewer, sn\_vsc.se|
 |Assets|admin|
 
-**Parent Topic:**[ServiceNow Otto for Setup references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
+**Parent Topic:**[ServiceNow Otto for Setup references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-reference.md)
 

@@ -2,7 +2,7 @@
 title: Add the Update sequence task activity to a sequence
 description: Dynamically update the sequence task records based on predefined configuration using the Update sequence task activity while designing customer engagement sequences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-update-sequence-task-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-update-sequence-task-activity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Dynamically update the sequence task records based on predefined configuration u
 
 ## Before you begin
 
-The delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/grant-delegated-developer-permissions.md).
+The delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/grant-delegated-developer-permissions.md).
 
 Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
@@ -86,12 +86,12 @@ Field in the parent table you want to update. For example, to mark a lead as con
 </table>11. Select **Save and close**.
 
 
-**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-customer-engagement-sequence.md)
+**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-customer-engagement-sequence.md)
 
 **Related topics**  
 
 
-[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-customer-engagement-sequences.md)
+[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-customer-engagement-sequences.md)
 
-[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-customer-engagement-sequences.md)
 

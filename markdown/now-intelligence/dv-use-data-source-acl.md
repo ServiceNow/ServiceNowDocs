@@ -2,7 +2,7 @@
 title: Control data source availability by role
 description: Limit by role the data sources for which users can create data visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-use-data-source-acl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-use-data-source-acl.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,7 +49,7 @@ By default, all roles can create data visualizations for all data sources. You c
 
 ## Impact of limiting data source by role
 
-Abel Tuter is a top business analyst. Abel has the pa\_power\_user role and can create indicators. Alissa Mountjoy is a technical expert who schedules [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) for indicators, but is not a business analyst and does not create indicators. Alissa has the pa\_data\_collector role. By default, both Abel and Alissa can create data visualizations based on an indicator.
+Abel Tuter is a top business analyst. Abel has the pa\_power\_user role and can create indicators. Alissa Mountjoy is a technical expert who schedules [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) for indicators, but is not a business analyst and does not create indicators. Alissa has the pa\_data\_collector role. By default, both Abel and Alissa can create data visualizations based on an indicator.
 
 Abel creates a time series data visualization on the Number of Open Incidents indicator. Abel shares this visualization with Alissa, also granting editing rights.
 
@@ -67,10 +67,10 @@ Alissa still has editing rights to the data visualization, but can no longer edi
 
 \[Omitted image "dv-alissa-cant-edit.png"\] Alt text: The Number of open incidents data visualization in edit mode, with Alissa Mountjoy the logged-in user and unable to edit the data source.
 
-**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-data-visualizations.md)
 
 **Related topics**  
 
 
-[Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-sources-visualizations.md)
+[Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-sources-visualizations.md)
 

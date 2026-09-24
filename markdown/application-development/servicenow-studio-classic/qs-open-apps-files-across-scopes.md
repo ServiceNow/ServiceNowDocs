@@ -2,7 +2,7 @@
 title: Open apps and app files across scopes in ServiceNow Studio
 description: Open and edit apps and app files in any scope — global or custom — in ServiceNow Studio. The current scope displays at the bottom of the screen and updates automatically when you switch to an app in a different scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic

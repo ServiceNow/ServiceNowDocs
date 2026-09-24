@@ -2,7 +2,7 @@
 title: View your business applications
 description: View the list of all your business applications that are created by you in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-my-business-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-my-business-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Role required: sn\_apm.apm\_user
 4.  Select **My Business Applications**.
 
 
-**Parent Topic:**[Working with your entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-your-entities.md)
+**Parent Topic:**[Working with your entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-your-entities.md)
 

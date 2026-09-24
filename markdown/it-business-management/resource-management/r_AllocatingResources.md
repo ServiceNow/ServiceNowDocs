@@ -2,7 +2,7 @@
 title: Resource allocation
 description: After resource requesters create a resource plan, resource managers can confirm the resources to move the plan to the Confirmed state. Resource managers can then allocate resources to the plan and move it to the Allocated state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/r\_AllocatingResources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/r\_AllocatingResources.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -20,7 +20,7 @@ Based on calendar and schedule information, resource managers view resource avai
 
 ## Soft and hard allocations
 
-When a resource plan moves to the Confirmed state, resource allocations corresponding to [requested allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/request-allocation.md) are created automatically. The **Booking type** for these allocations is **Soft**. Soft allocations are like temporary allocations for the requested users and don't create any calendar events.
+When a resource plan moves to the Confirmed state, resource allocations corresponding to [requested allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/request-allocation.md) are created automatically. The **Booking type** for these allocations is **Soft**. Soft allocations are like temporary allocations for the requested users and don't create any calendar events.
 
 When the plan is moved to the Allocated state, the **Booking type** changes from **Soft** to **Hard**. For a hard booking, the resource is assigned to the plan and is not available for other plans during the allocated times. The booked time also appears on the user calendar. If the requested resource cannot be allocated for the entire allocation duration, the allocation record booking type remains as soft.
 
@@ -38,7 +38,7 @@ Any errors or warnings during allocations are logged in the Resource Plan Logs r
     |----------|--------|-------------|
     |October 03|October 07|40|
 
-    The [planned hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) on the Resource Plan form are proportionally distributed among all the requested allocations based on number of working days for each requested allocation record.
+    The [planned hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) on the Resource Plan form are proportionally distributed among all the requested allocations based on number of working days for each requested allocation record.
 
     |Resource|Resource time-off|Available capacity \(hours\)|Soft Allocation hours|
     |--------|-----------------|----------------------------|---------------------|
@@ -153,14 +153,14 @@ Over-allocated resources are allowed. Over-allocating resources creates overlapp
 
 For example, a user has a schedule that specifies the daily work day from 08:00 to 17:00. Event 1 is in the user's calendar from 08:00 to 14:00. If an additional five hours are added for the same day for Event 2, an event is created for the three hours of free time \(14:00 to 17:00\). An overlapping event is also created for the remaining two hours, starting at the beginning of the day \(08:00 to 10:00\).
 
--   **[Create a resource role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-resource-role.md)**  
+-   **[Create a resource role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-resource-role.md)**  
 Define project-specific roles for team members based on their skills and competencies.
--   **[User resources and group resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_UserResourcesAndGroupResources.md)**  
+-   **[User resources and group resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/r_UserResourcesAndGroupResources.md)**  
 When allocating resources, a resource manager might need to work with an administrator to add users to a group with pps\_resource role.
--   **[Create allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_AllocateWResAllocationsRelList.md)**  
+-   **[Create allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_AllocateWResAllocationsRelList.md)**  
 Resource managers can create allocations using the Resource Allocations related list.
--   **[Reject a resource plan from the Resource Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_RejectResourcePlanForm.md)**  
+-   **[Reject a resource plan from the Resource Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_RejectResourcePlanForm.md)**  
 Resource managers can reject plans from the Resource Plan form or from the Resource Workbench.
 
-**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceManagement.md)
+**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourceManagement.md)
 

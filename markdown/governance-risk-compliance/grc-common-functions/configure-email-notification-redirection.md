@@ -2,7 +2,7 @@
 title: Configure GRC notification redirection
 description: Create notification routing rules that automatically direct users to workspace view or classic view based on their access permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-email-notification-redirection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/configure-email-notification-redirection.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -94,5 +94,5 @@ Optional conditions that determine when the routing rule applies.
 
 The notification routing rule is active. Users with access to the configured workspace are directed to the workspace when they select notification links for records from the specified table. Users without workspace access are directed to the classic view.
 
-**Parent Topic:**[GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/email-notification-redirection.md)
+**Parent Topic:**[GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/email-notification-redirection.md)
 

@@ -2,7 +2,7 @@
 title: Connect to an RPA Hub instance from Attended Robot
 description: Connect to an RPA Hub instance in three ways by using the Connection Manager so that you can establish a connection between the Attended Robot and ServiceNow RPA Hub instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connect-rda-instance-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connect-rda-instance-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Connect to an RPA Hub instance in three ways by using the Connection Manager so 
 
 ## Before you begin
 
-Establish a connection between the Attended Robot and ServiceNow RPA Hub instance. For more information, see [Set up Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rda-runtime.md).
+Establish a connection between the Attended Robot and ServiceNow RPA Hub instance. For more information, see [Set up Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/set-up-rda-runtime.md).
 
 Role required: none
 
@@ -24,15 +24,15 @@ Role required: none
 
 1.  To connect to an RPA Hub instance, do any of the following actions in the Connection Manager dialog box.
 
-<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d348541e104">
+<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d348490e104">
 
 Option
 
-</th><th align="left" id="d348541e107">
+</th><th align="left" id="d348490e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d348541e113">
+</th></tr></thead><tbody><tr><td id="d348490e113">
 
 **If there is a single instance**
 
@@ -42,7 +42,7 @@ Action
 2.  Select **Connect**.
 
 
-</td></tr><tr><td id="d348541e140">
+</td></tr><tr><td id="d348490e140">
 
 **If there are multiple instances and none of them are marked as default**
 
@@ -57,7 +57,7 @@ Action
 7.  Select **Log in**.
 
 
-</td></tr><tr><td id="d348541e195">
+</td></tr><tr><td id="d348490e195">
 
 **If an instance is marked as default**
 

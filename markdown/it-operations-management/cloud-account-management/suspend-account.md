@@ -2,7 +2,7 @@
 title: Suspend a Cloud account
 description: Suspend an account when there’s a budget constraint or the account owner isn’t available in the organization. Only admins and account owners can see the suspended accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/suspend-account.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/suspend-account.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -18,7 +18,7 @@ Suspend an account when there’s a budget constraint or the account owner isn�
 
 ## Before you begin
 
-An account requires a suspend profile to be suspended. For more information, see [Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configure-suspension-policy.md).
+An account requires a suspend profile to be suspended. For more information, see [Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/configure-suspension-policy.md).
 
 Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_cam.cw\_requestor
 

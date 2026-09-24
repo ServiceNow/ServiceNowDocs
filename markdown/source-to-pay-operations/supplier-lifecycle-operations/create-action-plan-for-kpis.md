@@ -2,7 +2,7 @@
 title: Create action plan for KPIs
 description: Create action plans for under-performing KPIs to track improvement milestones and assigned tasks for suppliers in the Supplier Collaboration Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -160,7 +160,7 @@ Detailed description of the action plan
 
 10. Create milestones or supplier tasks for each KPI to track the action plan.
 
-    For more information on how to create milestones and supplier tasks, see [Create milestones for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.md) and [Create supplier tasks for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-tasks-for-the-action-plan.md).
+    For more information on how to create milestones and supplier tasks, see [Create milestones for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.md) and [Create supplier tasks for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-tasks-for-the-action-plan.md).
 
 11. Select **Submit** to activate the action plan.
 
@@ -199,10 +199,10 @@ The following color code is followed to represent different tasks in the Gantt c
 -   Blue: Active tasks past due date and completed
 -   Orange: Active tasks past due date but not completed
 
--   **[Create milestones for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.md)**  
+-   **[Create milestones for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.md)**  
 Create milestones for the affected KPIs in the action plan.
--   **[Create supplier tasks for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-tasks-for-the-action-plan.md)**  
+-   **[Create supplier tasks for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-tasks-for-the-action-plan.md)**  
 Create supplier tasks for the affected KPIs in the action plan.
 
-**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
+**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 

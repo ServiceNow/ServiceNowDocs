@@ -2,7 +2,7 @@
 title: Submit a time card for a demand task
 description: Record and submit the time spent on a demand task to calculate actual cost and effort. The reported hours are used to track work performed and support demand planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/submit-a-time-card-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/submit-a-time-card-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -64,5 +64,5 @@ Actions
 
 ## Result
 
-The time card moves to the Submitted state and is sent to an approver for review. For details on the approval process, see [Approve or reject a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/approve-time-card.md).
+The time card moves to the Submitted state and is sent to an approver for review. For details on the approval process, see [Approve or reject a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/approve-time-card.md).
 

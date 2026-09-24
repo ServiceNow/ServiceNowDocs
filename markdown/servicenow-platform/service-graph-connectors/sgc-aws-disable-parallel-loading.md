@@ -2,7 +2,7 @@
 title: Disable parallel loading for Service Graph Connector for AWS data sources
 description: You can disable parallel loading for specific data sources in the Service Graph Connector for AWS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-aws-disable-parallel-loading.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-aws-disable-parallel-loading.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

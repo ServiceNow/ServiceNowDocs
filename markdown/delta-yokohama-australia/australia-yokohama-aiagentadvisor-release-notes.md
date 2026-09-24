@@ -2,11 +2,11 @@
 title: Combined AI Agent Advisor release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for AI Agent Advisor from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-aiagentadvisor-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-aiagentadvisor-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -100,6 +100,44 @@ Use the automation opportunities enhancements to refine your view and identify o
 Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
 
 
+ -   **[Pre-generated AI agents in AI Agent Studio](https://www.servicenow.com/docs/access?context=activate-automation-opportunity-now-assist-center&family=australia&ft:locale=en-US)**
+
+Access AI agents pre-generated for the proposed solutions to automation opportunities.
+
+-   **[Base system AI agents proposed for automations](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
+
+Deploy base system AI agents to solve common problems identified in your automation opportunities.
+
+-   **[Data from custom tables and fields analyzed for automation opportunities](https://www.servicenow.com/docs/access?context=now-assist-center-set-up-automation-discovery&family=australia&ft:locale=en-US)**
+
+Identify automation opportunities from the analysis of custom tables and fields in your instance in addition to the base system data sources.
+
+-   **[View automation opportunities in AI Control Tower](https://www.servicenow.com/docs/access?context=aict-recommendations-ai-insights&family=australia&ft:locale=en-US)**
+
+View automation opportunities as actionable insights in AI Control Tower.
+
+
+ -   **[CSM automation opportunities from chat, voice, and email data](https://www.servicenow.com/docs/access?context=now-assist-center-ai-agent-advisor&family=australia&ft:locale=en-US)**
+
+Discover automation opportunities for CSM AI deployment by using AI Agent Advisor to analyze interaction data from chat, voice, and email channels. Match or generate channel-specific AI agents to implement the automation opportunities.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
+
+    -   Foundation: AI agents and skills to deliver insights
+    -   Advanced: AI agents and skills to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI agents and skills, and create your own
+-   **[Automation discovery with AI Agent Advisor](https://www.servicenow.com/docs/access?context=now-assist-center-using-ai-agent-advisor&family=australia&ft:locale=en-US)**
+
+Use AI Agent Advisor to analyze actual instance data, identify automation opportunities, and view proposed AI automations.
+
+-   **[AI agent matching and automated deployment](https://www.servicenow.com/docs/access?context=activate-automation-opportunity-now-assist-center&family=australia&ft:locale=en-US)**
+
+Find existing AI agents that support your identified automation opportunities, and automate the creation and deployment of new agents.
+
+
 </td></tr></tbody>
 </table>## Changes
 
@@ -143,6 +181,13 @@ Use a single savings profile formula when configuring custom data sets for autom
 
 The daily recommendation is no longer visible. Only three default configurations are available for custom data sets.
 
+
+ -   **[AI Agent Advisor enhancements](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
+
+Several features are updated to improve the user experience.
+
+    -   The AI Agent Advisor section of the AI Admin Center home page is renamed to Automation opportunities.
+    -   The automation opportunities cards display the record type. Hours time saved is changed to Est cost savings per year. Estimated savings is changed to Est time saved per year. A Review opportunity link displays on the card.
 
 </td></tr></tbody>
 </table>## Removed
@@ -257,6 +302,8 @@ Australia
 
 AI Agent Advisor installs and runs automatically as part of the standard ServiceNow AI setup. AI Agent Advisor is available from the ServiceNow Store. For more information about the installation of AI Agent Advisor, see [Configure](https://www.servicenow.com/docs/access?context=configuring-ai-agent-advisor&family=australia&ft:locale=en-US).
 
+
+**Important:** AI Agent Advisor is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -469,5 +516,5 @@ Australia
  See [AI Agent Advisor](https://www.servicenow.com/docs/access?context=ai-agent-advisor-landing-page&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

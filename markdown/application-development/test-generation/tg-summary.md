@@ -2,7 +2,7 @@
 title: Test generation design considerations
 description: Leverage the full potential of Test generation by following these design considerations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/tg-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-generation/tg-summary.html
 release: australia
 product: Test Generation
 classification: test-generation
@@ -50,7 +50,7 @@ The following are the requirements to start using the Test generation applicatio
 -   Download and install the Test generation application from ServiceNow store
 -   The now.assist.creator role is required to access Test generation
 
-**Parent Topic:**[Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-reference.md)
+**Parent Topic:**[Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Edit a conversion funnel
 description: Edit conversion funnel data to collect or steps to include in your analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/edit-funnel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/edit-funnel.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -37,5 +37,5 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 6.  Select **Save** to update the funnel configuration.
 
 
-**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md)
+**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

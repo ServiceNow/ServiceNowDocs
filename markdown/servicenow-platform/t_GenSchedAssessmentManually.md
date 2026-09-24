@@ -2,7 +2,7 @@
 title: Generate a scheduled assessment manually
 description: Administrators can generate scheduled assessments manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_GenSchedAssessmentManually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_GenSchedAssessmentManually.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Use this option, for example, if you have set a schedule but want to generate as
     **Note:** Be careful to click **Generate Assessments**, not **Generate Assessable Records**.
 
 
-**Parent Topic:**[Scheduled assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ScheduledAssessments.md)
+**Parent Topic:**[Scheduled assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_ScheduledAssessments.md)
 

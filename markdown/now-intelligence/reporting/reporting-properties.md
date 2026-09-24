@@ -2,7 +2,7 @@
 title: Reporting properties
 description: Use properties to fine-tune report behavior and appearance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/reporting-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/reporting-properties.html
 release: australia
 product: Reporting
 classification: reporting
@@ -450,5 +450,5 @@ Maximum number of choices for radio button and check box interactive filters.-  
  Category: Choice list, Reference field, Date, Group
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-reference.md)
+</table>**Parent Topic:**[Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-reference.md)
 

@@ -2,7 +2,7 @@
 title: Home page view
 description: The Home page in Business Continuity Workspace serves as the landing page of the BCM application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/home-page-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/home-page-uib-ws.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -523,5 +523,5 @@ A typical Home page view for a BCM planner is shown in the example.
 
 \[Omitted image "bcm-planner-homepage-view.png"\] Alt text: Home page view for the BCM planner.
 
-For information on the tabs and their associated actions in the Home page, see [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/home-page-uib-ws.md).
+For information on the tabs and their associated actions in the Home page, see [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/home-page-uib-ws.md).
 

@@ -2,7 +2,7 @@
 title: Edit a purchase line from a purchase requisition or order
 description: You can edit and revise the quantity of a product or delivery location of a purchase line directly from a purchase requisition or order. You can also view the existing or current quantity or delivery date of the purchase requisition or order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-line.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-line.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -24,7 +24,7 @@ Role required: sn\_spend\_psd.requestor or shopper
 
 1.  Navigate to **ShoppingHub Home** &gt; **My purchases**.
 
-    Alternatively, you can edit a purchase from **Employee Center** &gt; **Purchase and Expense** &gt; **Purchase Requests** &gt; **Edit a purchase**. For more information, see [Edit a purchase line from a purchase requisition or order from Employee Center \(EC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-emp-central.md).
+    Alternatively, you can edit a purchase from **Employee Center** &gt; **Purchase and Expense** &gt; **Purchase Requests** &gt; **Edit a purchase**. For more information, see [Edit a purchase line from a purchase requisition or order from Employee Center \(EC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-emp-central.md).
 
 2.  Select a purchase requisition or order and select **Edit**.
 
@@ -170,5 +170,5 @@ Browse and select the related attachments for updating the purchase requisition 
     The purchase line is updated with the changes.
 
 
-**Parent Topic:**[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
+**Parent Topic:**[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
 

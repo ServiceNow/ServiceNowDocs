@@ -2,7 +2,7 @@
 title: Request a hardware asset refresh through Zero Touch Refresh
 description: Request to replace a hardware asset that you own with a new asset directly with the provider through Zero Touch Refresh.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-zero-touch-refresh-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-zero-touch-refresh-request.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -96,7 +96,7 @@ In the **Refresh method** field, select **Ship**.**Note:** The form shows your c
 
 Your Zero Touch Refresh request is successfully submitted.
 
-**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
+**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
 
 **Related topics**  
 

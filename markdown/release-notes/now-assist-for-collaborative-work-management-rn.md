@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) release notes
 description: The ServiceNow ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve the time to value for tasks you perform in CWM. ServiceNow Otto for CWM is a new application in the Australia release.The ServiceNow ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve the time to value for tasks you perform in CWM. ServiceNow Otto for CWM is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-collaborative-work-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-collaborative-work-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ See [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://
     Install ServiceNow Otto for CWM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## Australia
 

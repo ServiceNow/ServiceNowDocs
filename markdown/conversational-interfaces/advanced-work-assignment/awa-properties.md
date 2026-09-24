@@ -2,7 +2,7 @@
 title: Properties for Advanced Work Assignment
 description: The Advanced Work Assignment Properties page provides configuration options for AWA.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-properties.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

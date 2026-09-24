@@ -2,7 +2,7 @@
 title: Set up the Jira spoke for Jira Cloud
 description: Integrate your ServiceNow instance with the Jira Cloud instance to authenticate the requests from ServiceNow.Integrate the ServiceNow instance with your Jira account using OAuth to authenticate ServiceNow requests.Obtain the value of Cloud ID of the cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Add and configure a Jira connection to authenticate ServiceNow requests in Jira spoke.Integrate the ServiceNow instance with your Jira account using OAuth to authenticate ServiceNow requests.Create an application registry record to provide client ID and client secret for authenticating the requests.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.Integrate the ServiceNow instance and Jira Cloud instance using an API key to authenticate ServiceNow requests.Generate an Atlassian account API token to authenticate requests for spokes associated with an Atlassian account.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.Integrate the ServiceNow instance and Jira Cloud instance using an API key with scopes to authenticate ServiceNow requests.Generate an Atlassian account API token with the required scopes to authenticate requests for spokes associated with an Atlassian account.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.API token scopes needed to use the required spoke action are listed here.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-jira-spk-opt2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-jira-spk-opt2.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -76,7 +76,7 @@ Role required: admin
 4.  Locate the **Jira** connection alias and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Jira spoke, click **View Details**.
-    -   To manage more than one Jira spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Jira spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
 5.  On the **Connection** form, fill in the fields.
@@ -177,7 +177,7 @@ Role required: admin
     |Field|Description|
     |-----|-----------|
     |Name|Name to identify the credential record for the Jira spoke. For example, `Jira client credential cred`.|
-    |OAuth Entity Profile|Select the OAuth entity profile record that was created when the application registry record is configured. For more information, see [Create an application registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).|
+    |OAuth Entity Profile|Select the OAuth entity profile record that was created when the application registry record is configured. For more information, see [Create an application registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-jira-spk-opt2.md).|
 
 5.  Right-click the form header and click **Save**.
 
@@ -467,7 +467,7 @@ Role required: admin
 
 API token scopes needed to use the required spoke action are listed here.
 
-These scopes are needed when you set up Jira spoke for Jira Cloud using API token with scope. For more information, see [Option 4: Using basic authentication with API token and scopes \(does not comply with Atlassian security requirements\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
+These scopes are needed when you set up Jira spoke for Jira Cloud using API token with scope. For more information, see [Option 4: Using basic authentication with API token and scopes \(does not comply with Atlassian security requirements\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
 
 <table id="table_pvx_v4s_qwb"><thead><tr><th>
 

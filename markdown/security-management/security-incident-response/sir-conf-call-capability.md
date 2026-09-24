@@ -2,7 +2,7 @@
 title: Security Incident Response conference call integration
 description: The Security Incident Response Conference Call integration enables you to manage and initiate conference call and chat for analysts, managers and affected users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-conf-call-capability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sir-conf-call-capability.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -30,12 +30,12 @@ The Security Incident Response call collaboration provides the following key fea
 -   View call recordings and chat details.
 -   Send invites to participants through emails and Microsoft Teams chat.
 
--   **[Manage Conference Call users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/config-conference-call.md)**  
+-   **[Manage Conference Call users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/config-conference-call.md)**  
 The Admin can configure conference call settings to display a predefined list of users and groups to add to a call.
--   **[Integrate SIR with third-party communication channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-comm-channels.md)**  
+-   **[Integrate SIR with third-party communication channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-comm-channels.md)**  
 The SIR Conference Call integration with third-party communication channels such as Microsoft Teams, Zoom, and Cisco Webex, enables you to manage and initiate a call directly from a security incident.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

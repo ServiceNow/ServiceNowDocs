@@ -2,7 +2,7 @@
 title: Integrate ServiceNow Virtual Agent with Microsoft Teams
 description: Add the Now Virtual Agent bot to your ServiceNow instance to integrate with Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-msteams-snow-va-bot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/add-msteams-snow-va-bot.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -55,7 +55,7 @@ Any time you create and publish a bot, every user receives all changes you've ma
 
 8.  If the selected tenant has already been assigned to Virtual Agent, you must first uninstall from the previously associated instance.
 
-    **Note:** Starting from Tokyo release, if your Microsoft Teams tenant is already associated with another ServiceNow instance. If you intend to associate it with a new instance, then you're asked to contact the administrator to first uninstall it from the previously associated instance. For more information, see [Override Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/override-msteams-install.md).
+    **Note:** Starting from Tokyo release, if your Microsoft Teams tenant is already associated with another ServiceNow instance. If you intend to associate it with a new instance, then you're asked to contact the administrator to first uninstall it from the previously associated instance. For more information, see [Override Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/override-msteams-install.md).
 
     \[Omitted image "msteams-new-proceed-uninstall.png"\] Alt text: Microsoft Teams integration tenant association removal message.
 
@@ -78,7 +78,7 @@ If you would like to integrate your ServiceNow® instance with another Microsoft
 
 .
 
-For more information, see [Manage the ServiceNow Virtual Agent integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-teams.md).
+For more information, see [Manage the ServiceNow Virtual Agent integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-teams.md).
 
-**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-msteams.md)
 

@@ -2,7 +2,7 @@
 title: APIs for IT to OT and OT to IT conversion
 description: There are 2 APIs used for handling refresh workflow scenarios for converting IT to Operational Technology \(OT\) and vice versa with the OT Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/api-for-it-to-ot-and-ot-to-it-conversion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/api-for-it-to-ot-and-ot-to-it-conversion.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -37,5 +37,5 @@ For more information about Asset and Configuration Item \(CI\) synchronization f
 
 For more information about OT Asset Management, see [OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ot-asset-management.md).
 
-**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

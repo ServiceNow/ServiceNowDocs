@@ -2,7 +2,7 @@
 title: App PIN settings for mobile
 description: Improve the security of your ServiceNow mobile apps by setting a security PIN.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-app-pin-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-app-pin-settings.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,12 +25,12 @@ A security PIN is a 6-digit code you must enter for added security. When this fe
 
 If your mobile device uses faceID, touchID, or similar biometric security, you can use biometric authentication in place of the PIN.
 
-For information for administrators on PIN settings for your instance, see [Require an app PIN for the mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/require-app-pin.md).
+For information for administrators on PIN settings for your instance, see [Require an app PIN for the mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/require-app-pin.md).
 
--   **[Create a PIN for a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-app-pin-user.md)**  
+-   **[Create a PIN for a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-app-pin-user.md)**  
 Create a PIN for your mobile app.
--   **[Change your PIN for a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/change-app-pin-user.md)**  
+-   **[Change your PIN for a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/change-app-pin-user.md)**  
 Change the pin for your ServiceNow mobile apps.
--   **[Remove your PIN from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/remove-app-pin-user.md)**  
+-   **[Remove your PIN from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/remove-app-pin-user.md)**  
 Remove the pin from a ServiceNow mobile app.
 

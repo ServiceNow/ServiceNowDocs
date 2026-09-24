@@ -2,7 +2,7 @@
 title: Incident pattern form
 description: Safety agents and managers can review the confidence score, urgency, and other factors, and the AI-generated pattern summary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-record-details-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-record-details-tab.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -16,7 +16,7 @@ breadcrumb: [Reference, ServiceNow Otto for Health and Safety, Health and Safety
 
 Safety agents and managers can review the confidence score, urgency, and other factors, and the AI-generated pattern summary.
 
-The fields in the incident pattern form are generated automatically. For more information, see [Work on an incident pattern record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-work-on-incident-pattern-record.md).
+The fields in the incident pattern form are generated automatically. For more information, see [Work on an incident pattern record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/hs-work-on-incident-pattern-record.md).
 
 |Field|Description|
 |-----|-----------|

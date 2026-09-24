@@ -2,7 +2,7 @@
 title: Assign skill proficiency levels for skills
 description: Add a skill and assign skill levels to users to facilitate the automatic assignment of skill-based tasks to agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/assign-it-skills-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/skills-management/assign-it-skills-users.html
 release: australia
 product: Skills Management
 classification: skills-management
@@ -30,15 +30,15 @@ Only skill administrators can create or edit skills. Skill managers can assign s
 
 2.  Assign a skill level to a user or add a skill along with the skill level.
 
-<table id="choicetable_rhd_lv2_hhb"><thead><tr><th align="left" id="d129277e75">
+<table id="choicetable_rhd_lv2_hhb"><thead><tr><th align="left" id="d129300e75">
 
 To
 
-</th><th align="left" id="d129277e78">
+</th><th align="left" id="d129300e78">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d129277e84">
+</th></tr></thead><tbody><tr><td id="d129300e84">
 
 **Assign a skill proficiency level to a user**
 
@@ -53,7 +53,7 @@ Do this
 4.  Select **OK**.
 The skill level for the skill is assigned to the user. You can also select an existing skill level and select a higher or lower skill level for the user.
 
-</td></tr><tr><td id="d129277e119">
+</td></tr><tr><td id="d129300e119">
 
 **Create new skill**
 
@@ -68,5 +68,5 @@ The skill level for the skill is assigned to the user. You can also select an ex
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Assigning and Managing skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/manage-skills.md)
+**Parent Topic:**[Assigning and Managing skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/skills-management/manage-skills.md)
 

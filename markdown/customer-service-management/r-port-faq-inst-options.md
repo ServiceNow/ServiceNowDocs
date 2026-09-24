@@ -2,7 +2,7 @@
 title: Portal FAQ widget instance options form
 description: The instance options enable you to configure the Portal FAQ widget on a portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r-port-faq-inst-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r-port-faq-inst-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -158,7 +158,7 @@ The default option is Exceed preview.
 </table>**Related topics**  
 
 
-[Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-faq-widget.md)
+[Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-faq-widget.md)
 
-[Add and configure the Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-faq-widget-inst-optns.md)
+[Add and configure the Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-faq-widget-inst-optns.md)
 

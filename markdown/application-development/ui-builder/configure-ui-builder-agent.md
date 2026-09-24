@@ -2,12 +2,12 @@
 title: Configure UI Builder Agent
 description: The UI Builder Agent is a AI agent that assists low-code developers working in UI Builder by responding to questions, information requests, and page editing instructions.Install ServiceNow Otto for Creator, UI Generation, and Conversational Studio from Application Manager before configuring the UI Builder Agent.Follow the UI Builder Agent setup wizard in AI Agent Studio to review and confirm your agent configuration.Enable the ServiceNow Otto panel in AI Admin Hub.Activate the AI Search.Add a display experience to the ServiceNow Otto Panel- Platform \(default\) assistant, request AI Search activation, and activate the assistant in Assistant Designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/configure-ui-builder-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/configure-ui-builder-agent.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 6
 breadcrumb: [Configure, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -26,16 +26,16 @@ Administrators must install the required applications, configure the agent in AI
 
 ## Procedure
 
-1.  [Install required applications for UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-ui-builder-agent.md)
+1.  [Install required applications for UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configure-ui-builder-agent.md)
 
-2.  [Enable UI Builder Agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-ui-builder-agent.md)
+2.  [Enable UI Builder Agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configure-ui-builder-agent.md)
 
-3.  [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-ui-builder-agent.md)
+3.  [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configure-ui-builder-agent.md)
 
-4.  [Activate the ServiceNow Otto Panel- Platform \(default\) assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-ui-builder-agent.md)
+4.  [Activate the ServiceNow Otto Panel- Platform \(default\) assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configure-ui-builder-agent.md)
 
 
-**Parent Topic:**[Configuring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configuring-ui-generation.md)
+**Parent Topic:**[Configuring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configuring-ui-generation.md)
 
 ## Install required applications for UI Builder Agent
 
@@ -86,7 +86,7 @@ Follow the UI Builder Agent setup wizard in AI Agent Studio to review and confir
 
 ### Before you begin
 
-Verify that you have installed all the required applications. See [Install required applications for UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-ui-builder-agent.md).
+Verify that you have installed all the required applications. See [Install required applications for UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configure-ui-builder-agent.md).
 
 Role required: ui\_builder\_admin
 
@@ -231,7 +231,7 @@ The ServiceNow Otto Panel - Platform \(default\) assistant is the main system as
 
 7.  Select **Activate**.
 
-    If you haven’t activated AI Search, an alert banner appears indicating that AI Search must be activated to turn on ServiceNow Otto in Virtual Agent. To activate AI Search, see [Activate AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-ui-builder-agent.md).
+    If you haven’t activated AI Search, an alert banner appears indicating that AI Search must be activated to turn on ServiceNow Otto in Virtual Agent. To activate AI Search, see [Activate AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configure-ui-builder-agent.md).
 
     A success banner confirms that the ServiceNow Otto Panel- Platform \(default\) assistant is activated.
 

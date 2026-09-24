@@ -2,7 +2,7 @@
 title: CMDBDuplicateTaskUtils - Global
 description: The CMDBDuplicateTaskUtils script include provides methods to create a de-duplication task that contains duplicate configuration items \(CIs\) that are of independent type.Creates an instance of the CMDBDuplicateTaskUtils class.Create a de-duplication task in which the sys\_ids of duplicate CIs are specified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CMDBDuplicateTaskUtilsAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/CMDBDuplicateTaskUtilsAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The CMDBDuplicateTaskUtils script include provides methods to create a de-duplic
 
 A de-duplication task can only contain Configuration Management Database \(CMDB\) CIs that are not in another de-duplication task.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## CMDBDuplicateTaskUtils - CMDBDuplicateTaskUtils\(\)
 

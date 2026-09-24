@@ -2,7 +2,7 @@
 title: Stage progress chevron
 description: Reference for configuring the Stages Progress Chevron component in ServiceNow Quote Experience layouts, including static and dynamic configuration options, combination rules, and CSS custom property theming in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-stage-progress-chevron.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-stage-progress-chevron.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
@@ -92,14 +92,14 @@ The stage progress chevron supports theming using CSS custom properties. The fol
 |`--lgk-ProgressStep-chevron-label-fontSize`|Font size for stage labels in the chevron.|
 |`--lgk-ProgressStep-chevron-label-fontWeight`|Font weight for stage labels in the chevron.|
 
-**Parent Topic:**[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-layouts.md)
+**Parent Topic:**[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-layouts.md)
 
 **Related topics**  
 
 
-[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-layouts.md)
+[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-layouts.md)
 
-[Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-layout.md)
+[Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-layout.md)
 
-[ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-ui-effects.md)
+[ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-ui-effects.md)
 

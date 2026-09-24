@@ -2,7 +2,7 @@
 title: Create a decision matrix
 description: The name and labels on a decision matrix are closely linked to the categories you choose for the axes. For that reason, first select the metric type and define the X and Y axes before you fill in other fields on the Decision Matrix form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateADecisionMatrix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreateADecisionMatrix.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -220,8 +220,8 @@ Lists categories that define the Y-axis of the decision matrix.
 
 </td></tr></tbody>
 </table>
--   **[Decision matrixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AdministerDecisionMatrixes.md)**  
+-   **[Decision matrixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_AdministerDecisionMatrixes.md)**  
 Assessment results obtained by questionnaires and scripted metrics can be mapped to decision matrixes.
 
-**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentProcess.md)
+**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentProcess.md)
 

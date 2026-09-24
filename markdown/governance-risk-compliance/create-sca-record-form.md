@@ -2,7 +2,7 @@
 title: Create Scenario Analysis form
 description: Use the Create Scenario Analysis form using Playbooks in Operational Resilience Workspace. Enter the details of a scenario analysis, such as its name, goal, method, and owner, before running the guided playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-sca-record-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-sca-record-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-31"

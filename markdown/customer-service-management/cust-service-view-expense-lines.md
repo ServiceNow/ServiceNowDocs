@@ -2,7 +2,7 @@
 title: Review expense lines created from time cards
 description: Review the expense lines created from the time cards and time sheets submitted by customer service agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cust-service-view-expense-lines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cust-service-view-expense-lines.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

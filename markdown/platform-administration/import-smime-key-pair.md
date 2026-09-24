@@ -2,7 +2,7 @@
 title: Import an S/MIME key pair
 description: Import an S/MIME key pair consisting of the private key and certificate to sign outbound emails or decrypt emails.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/import-smime-key-pair.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/import-smime-key-pair.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -197,7 +197,7 @@ Field the duration is relative to. Displays if a relative duration or operation 
     Secure information for the keys will be stored on the Module Keys tab along with the private key and public key. The **Key lifecycle state** is set to **Active**.
 
 
-**Parent Topic:**[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/smime-for-email-signing-and-encryption.md)
+**Parent Topic:**[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/smime-for-email-signing-and-encryption.md)
 
 **Related topics**  
 

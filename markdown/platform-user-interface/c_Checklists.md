@@ -2,7 +2,7 @@
 title: Checklists
 description: Checklists provide a simple way to track the progress of tasks without creating additional records. Checklists can be added to the form view of any table that extends Task \[task\].
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_Checklists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_Checklists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,12 +28,12 @@ To enable checklists, navigate to the form and add the **Checklist** formatter. 
 
 You can add, remove, or rearrange checklist items. You can also save a checklist as a template for future use on other records. Any user can create or edit a checklist and check off completed items.
 
--   **[Activate checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ActivateChecklists.md)**  
+-   **[Activate checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ActivateChecklists.md)**  
 Checklists are active by default on new instances. For instances upgrading from a previous version, the Checklist plugin must be activated.
--   **[Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAChecklist.md)**  
+-   **[Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_CreateAChecklist.md)**  
 You can create a unique checklist for each task record. You can quickly create a checklist from a previously created template.
--   **[Delete checklist or a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_DeleteAChecklist.md)**  
+-   **[Delete checklist or a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_DeleteAChecklist.md)**  
 You can remove a checklist from a record, and delete checklist templates you no longer need.
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UsingForms.md)
 

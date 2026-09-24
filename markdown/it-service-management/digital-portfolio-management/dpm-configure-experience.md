@@ -2,7 +2,7 @@
 title: Configure the Digital Portfolio Management experience
 description: If your organization doesn't use certain modules or life-cycle phases in Digital Portfolio Management \(DPM\), then configure the experience by hiding those elements from user views.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-configure-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-configure-experience.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -30,10 +30,10 @@ Configure the user experience in the DPM Workspace. You can also configure it us
 
     -   Standard Needs attention panels.
 
-        **Note:** Standard Needs attention panels are set to true for new customers. Existing customers must enable the system property. For more information, see [Work with Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-needs-attn-panels.md).
+        **Note:** Standard Needs attention panels are set to true for new customers. Existing customers must enable the system property. For more information, see [Work with Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-needs-attn-panels.md).
 
     -   Latest \(or last\) key performance indicator \(KPI\) scores. When enabled, KPIs no longer display as a sum or average across a date range. This feature is only available with the Utah release and later.
-    -   DevOps data. For more information, see [DevOps value stream metrics in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-devops-metrics.md).
+    -   DevOps data. For more information, see [DevOps value stream metrics in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-devops-metrics.md).
     **Note:** You can enable and disable these configurations at any time.
 
 
@@ -70,7 +70,7 @@ See configuring DPM user views in action.
         -   The set status conditions when updating thresholds.
         -   The page filters.
 
-**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 
 **Related topics**  
 

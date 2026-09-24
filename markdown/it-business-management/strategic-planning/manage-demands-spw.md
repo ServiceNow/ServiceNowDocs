@@ -2,7 +2,7 @@
 title: Managing demands in Next Experience for Demand Management
 description: Next Experience for Demand Management is a workspace for creating, tracking, prioritizing, and approving demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/manage-demands-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/manage-demands-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

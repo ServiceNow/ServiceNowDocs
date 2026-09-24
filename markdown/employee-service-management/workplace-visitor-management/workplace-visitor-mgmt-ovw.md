@@ -2,7 +2,7 @@
 title: Exploring Workplace Visitor Management
 description: Welcome your guests and off-site employees with a smoother, more hassle-free experience. Use ServiceNow Workplace Visitor Management to optimize your front-desk operations and welcome your guests and off-site employees. You can register visitors as well as pre-plan what they will require.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -36,14 +36,14 @@ Admins and reception staffs can manage and update visitor registrations. Using t
 -   Print badges
 -   Update with no show
 
--   **[Visitor registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/register-visitors.md)**  
+-   **[Visitor registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/register-visitors.md)**  
 As an employee, the Workplace Visitor Management application enables you to register visitors in advance.
--   **[Host portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/host-portal.md)**  
+-   **[Host portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/host-portal.md)**  
 Use the host portal to manage visits and visitors.
--   **[Receptionist portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/receptionist-portal.md)**  
+-   **[Receptionist portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/receptionist-portal.md)**  
 Use the receptionist portal to view and manage visitor activity in your organization.
--   **[Visitor portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/visitor-portal.md)**  
+-   **[Visitor portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/visitor-portal.md)**  
 Use the visitor portal to manage your visits, complete pre-check tasks, and manage personal data.
 
-**Parent Topic:**[Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-feat.md)
+**Parent Topic:**[Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-feat.md)
 

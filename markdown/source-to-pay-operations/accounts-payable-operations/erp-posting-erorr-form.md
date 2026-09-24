@@ -2,7 +2,7 @@
 title: ERP Posting error form
 description: Field descriptions for the ERP Posting error form, organized by tab, for updating integration error tasks and resolving ERP posting failures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/erp-posting-erorr-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/erp-posting-erorr-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -64,5 +64,5 @@ Emails
 Invoice related emails are created
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
+</table>**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
 

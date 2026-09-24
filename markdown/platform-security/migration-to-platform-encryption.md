@@ -2,7 +2,7 @@
 title: Migrating to Field Encryption
 description: Scheduled jobs migrate your keys and encrypted data from Encryption Support to Field Encryption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/migration-to-platform-encryption.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/migration-to-platform-encryption.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-10"
@@ -28,8 +28,8 @@ Verify that the encrypted field configurations are using your newly migrated mod
 -   The **Method** field is **Single Module**.
 -   The **Crypto module** field is populated with the name of the cryptographic module that the system automatically creates. You can review that module and the module access policy, both of which are active and published.
 
--   **[Field Encryption migration status page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cle-migration-status-page.md)**  
+-   **[Field Encryption migration status page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cle-migration-status-page.md)**  
 Use the migration status page to track the migration of encryption contexts to encryption modules.
 
-**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-column-level-encryption.md)
 

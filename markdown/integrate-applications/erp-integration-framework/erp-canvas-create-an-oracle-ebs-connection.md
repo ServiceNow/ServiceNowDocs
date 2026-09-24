@@ -2,7 +2,7 @@
 title: Create an Oracle E-Business Suite connection
 description: Configure a connection to Oracle E-Business Suite \(EBS\) 12.2 or later so that Zero Copy Connector for ERP can read data from your Oracle ERP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-create-an-oracle-ebs-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-create-an-oracle-ebs-connection.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -31,7 +31,7 @@ Confirm that you have the following:
 
 ## About this task
 
-Oracle EBS connections use REST and the HTTP connection template. For background, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md).
+Oracle EBS connections use REST and the HTTP connection template. For background, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md).
 
 ## Procedure
 
@@ -45,13 +45,13 @@ Oracle EBS connections use REST and the HTTP connection template. For background
 
 4.  Enter the Oracle EBS context parameters.
 
-    For the field values, see [Oracle E-Business Suite connection field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-connection-field-descriptions.md).
+    For the field values, see [Oracle E-Business Suite connection field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-connection-field-descriptions.md).
 
 5.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
 6.  Create an ERP system and select the connection alias you created.
 
-    For the general process, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-erp-system.md).
+    For the general process, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/create-an-erp-system.md).
 
 7.  In the **ERP software** field, select **Oracle EBS**.
 
@@ -61,7 +61,7 @@ Oracle EBS connections use REST and the HTTP connection template. For background
 
 9.  Verify the connection.
 
-    For more information, see [View Zero Copy Connector for ERP system heartbeat information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-erp-system-heartbeat-information.md).
+    For more information, see [View Zero Copy Connector for ERP system heartbeat information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/view-erp-system-heartbeat-information.md).
 
 
 ## Result
@@ -70,5 +70,5 @@ The Oracle EBS system appears in the ERP systems list and is available when you 
 
 ## What to do next
 
-Add a WADL service to generate model entities and fields automatically from the service definition. For more information, see [WADL service support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.md) and [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
+Add a WADL service to generate model entities and fields automatically from the service definition. For more information, see [WADL service support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.md) and [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
 

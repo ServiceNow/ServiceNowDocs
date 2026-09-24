@@ -2,7 +2,7 @@
 title: Submit a safety compensation claim
 description: Submit a compensation claim for a work-related incident or injury.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-case-management/hs-submit-compensation-claim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-case-management/hs-submit-compensation-claim.html
 release: australia
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -49,7 +49,7 @@ Employees can also submit safety-related compensation claims from their mobile d
 
     **Note:** If you selected someone else in the **Requested For** field to submit this claim for, it doesn't appear in your **My Requests** list. Instead, it appears in the **My Requests** list of the person you selected.
 
--   The safety case is also listed in the Cases list on Health and Safety Workspace. A safety case manager \[sn\_hs\_cm.case\_manager\] can view all the submitted requests by navigating to the Health and Safety Workspace and selecting the cases icon \(\[Omitted image "icon-hs-cases.png"\] Alt text: Health and safety cases icon.\). For more information, see [Work on a Health and Safety case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md).
+-   The safety case is also listed in the Cases list on Health and Safety Workspace. A safety case manager \[sn\_hs\_cm.case\_manager\] can view all the submitted requests by navigating to the Health and Safety Workspace and selecting the cases icon \(\[Omitted image "icon-hs-cases.png"\] Alt text: Health and safety cases icon.\). For more information, see [Work on a Health and Safety case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md).
 
-**Parent Topic:**[Submitting Health and Safety cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-submitting-health-safety-cases.md)
+**Parent Topic:**[Submitting Health and Safety cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-submitting-health-safety-cases.md)
 

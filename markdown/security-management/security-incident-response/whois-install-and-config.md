@@ -2,7 +2,7 @@
 title: \(Optional\) Install and configure Whois
 description: Install the Whois plugin to provide additional enrichment information on your domain lookups from the Reverse Whois API. This lookup provides additional enrichment data on the domain, such as the registration date, name of registrar, and country of origin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/whois-install-and-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/whois-install-and-config.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -18,14 +18,14 @@ Install the Whois plugin to provide additional enrichment information on your do
 
 ## Before you begin
 
-1.  If you have not requested entitlement for the application, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) for the Whois application from the ServiceNow Store.
+1.  If you have not requested entitlement for the application, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/entitle-secops-product.md) for the Whois application from the ServiceNow Store.
 2.  Obtain credentials for the Whois API key from the product website: [WHOIS API website](https://whoisapi.whoisxmlapi.com/).
 
 Role required: admin
 
 ## Procedure
 
-1.  If you have not installed the application, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the application, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Whois API tile.
 
@@ -46,9 +46,9 @@ If an error message is displayed, the API key may be invalid.
 
 \[Omitted image "reverse-whois-config-error.png"\] Alt text: Example configuration error message
 
-**Parent Topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/reversewhois-lookups.md)
+**Parent Topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/reversewhois-lookups.md)
 
-**Previous topic:**[Install and configure Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-config-reversewhois.md)
+**Previous topic:**[Install and configure Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/install-and-config-reversewhois.md)
 
-**Next topic:**[Initiate the lookup for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manually-attch-an-obsvrble-reversewhois.md)
+**Next topic:**[Initiate the lookup for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manually-attch-an-obsvrble-reversewhois.md)
 

@@ -2,7 +2,7 @@
 title: Calendar event icons in Dispatcher Workspace
 description: Become familiar with the icons on calendar events to identify what they indicate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/calendar-event-icons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/calendar-event-icons.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,5 +22,5 @@ Become familiar with the icons on calendar events to identify what they indicate
 |\[Omitted image "lock.png"\] Alt text: lock icon|The task is schedule locked.|lock.png|
 |\[Omitted image "crew.png"\] Alt text: crew icon|The work order task requires a crew.|crew.png|
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 

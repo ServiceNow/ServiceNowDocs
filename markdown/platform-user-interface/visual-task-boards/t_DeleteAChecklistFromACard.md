@@ -2,7 +2,7 @@
 title: Delete a checklist from a Visual Task Board card
 description: You can remove a checklist from a Visual Task Board card.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_DeleteAChecklistFromACard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_DeleteAChecklistFromACard.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -35,5 +35,5 @@ Role required: none
 5.  Click **Delete**.
 
 
-**Parent Topic:**[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
+**Parent Topic:**[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
 

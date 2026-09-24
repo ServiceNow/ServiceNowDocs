@@ -2,7 +2,7 @@
 title: Using HR Benchmarks
 description: Gain instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to industry averages of your peers and to the industry top performers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/using-hr-benchmarks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/using-hr-benchmarks.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

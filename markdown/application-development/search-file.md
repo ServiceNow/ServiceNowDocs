@@ -2,7 +2,7 @@
 title: Search files on your instance in VS Code
 description: Search and download any script files on your instance using the ServiceNow Extensions for VS Code extension.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/search-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/search-file.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -55,10 +55,10 @@ Role required: none
         \[Omitted image "vs-code-file-search.png"\] Alt text: Fetch Records Max Limit settings
 
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vs-code.md)
 
 **Related topics**  
 
 
-[Create a file in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-create-file.md)
+[Create a file in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vscode-create-file.md)
 

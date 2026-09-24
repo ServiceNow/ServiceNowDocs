@@ -2,7 +2,7 @@
 title: Approve or reject a legal request or its attachment
 description: Review a legal request or attachment and approve or reject it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/approve-reject-legal-request-attach.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/approve-reject-legal-request-attach.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -26,15 +26,15 @@ Role required: approver\_user and legal\_user
 
 1.  Open the approval record from the email notification, Legal Counsel Center, Self-Service, or Employee Center portal.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d458617e59">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d458621e59">
 
 Options
 
-</th><th align="left" id="d458617e62">
+</th><th align="left" id="d458621e62">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d458617e68">
+</th></tr></thead><tbody><tr><td id="d458621e68">
 
 **From the email notification**
 
@@ -42,7 +42,7 @@ Steps
 
 Click the link in the email to open the record that needs approval.
 
-</td></tr><tr><td id="d458617e77">
+</td></tr><tr><td id="d458621e77">
 
 **From Legal Counsel Center**
 
@@ -56,7 +56,7 @@ Click the link in the email to open the record that needs approval.
 4.  In the Items Pending Approval list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d458617e138">
+</td></tr><tr><td id="d458621e138">
 
 **From Self-Service**
 
@@ -66,7 +66,7 @@ Click the link in the email to open the record that needs approval.
 2.  In the My Approvals list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d458617e168">
+</td></tr><tr><td id="d458621e168">
 
 **From Employee Center**
 
@@ -117,5 +117,5 @@ If the requested item was assigned to a user group for approval, then the state 
 </table>-   Any approver who isn’t added to **Watch list** in the legal request would lose access to the approved item.
 -   Request fulfiller and collaborators get an email notification about the approval or rejection.
 
-**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/work-on-legal-request.md)
 

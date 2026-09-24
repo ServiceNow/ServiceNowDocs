@@ -2,7 +2,7 @@
 title: Copy an assessment
 description: Create a copy of an assessment with at least one category to reduce the effort of creating another assessment with similar data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/copy-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/copy-assessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ All associated questions \(type\), configurations, categories, metrics, domain s
 3.  In the title bar, click **Copy**, or click the menu icon, and select **Copy**.
 
 
-**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentProcess.md)
+**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentProcess.md)
 

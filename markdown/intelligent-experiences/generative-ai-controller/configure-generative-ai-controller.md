@@ -2,7 +2,7 @@
 title: Configuring Generative AI Controller
 description: Configure Generative AI Controller providers and capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-generative-ai-controller.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generative-ai-controller/configure-generative-ai-controller.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -29,23 +29,23 @@ Generative AI Controller enables you to choose between several AI providers or a
 
 After you configure Generative AI Controller, activate and manage generative AI skills through the AI Admin Hub console to deliver generative AI capabilities to your users. For more information, see .
 
--   **[Configure API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md)**
+-   **[Configure API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md)**
 
     Configure your large language model \(LLM\) credentials to use third-party integrations with OpenAI, Azure OpenAI, Google Cloud, IBM watsonx, Amazon Bedrock, and generic models to control the third-party integration.
 
--   **[Configure a generic LLM connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)**
+-   **[Configure a generic LLM connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)**
 
     Set up an external LLM to use generative AI capabilities to add finer control over prompts and transformer scripts.
 
--   **[Configure an AI service provider for a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.md)**
+-   **[Configure an AI service provider for a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.md)**
 
     Set your preferred AI service provider for each capability and tailor generative AI content to suit your business needs.
 
--   **[Enable recursive summarization for large inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/enable-recursive-summarization.md)**
+-   **[Enable recursive summarization for large inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/enable-recursive-summarization.md)**
 
     Enable recursive summarization to retain context for large inputs in LLM calls.
 
--   **[Enable Dynamic Translation for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/enable-dynamic-translation-for-generative-ai-capabilities.md)**
+-   **[Enable Dynamic Translation for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/enable-dynamic-translation-for-generative-ai-capabilities.md)**
 
     Use Dynamic Translation for in-product generative AI capabilities to support users who speak different languages.
 

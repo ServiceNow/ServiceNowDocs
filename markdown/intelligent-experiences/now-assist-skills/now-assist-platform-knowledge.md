@@ -2,7 +2,7 @@
 title: Knowledge content recommendation
 description: Knowledge generative AI skills on the ServiceNow AI Platform provides recommendations for editing a knowledge article. Once activated, this skill is available on the ServiceNow Otto context menu.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-platform-knowledge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/now-assist-platform-knowledge.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills

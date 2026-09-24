@@ -2,7 +2,7 @@
 title: HealthScan definitions updates: November 2024 release
 description: Some HealthScan definitions are deprecated or updated between releases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/healthscan-definitions-nov-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/healthscan-definitions-nov-store.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -864,5 +864,5 @@ Manageability
 -   Many performance improvements
 
 </td></tr></tbody>
-</table>**Parent Topic:**[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/healthscan-definitions.md)
+</table>**Parent Topic:**[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/healthscan-definitions.md)
 

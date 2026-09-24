@@ -2,7 +2,7 @@
 title: Order Acknowledgement staging table
 description: The Order Acknowledgment \[sn\_spend\_intg\_imp\_purchase\_order\_ack\] staging table temporarily stores important data about order acknowledgements before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/order-acknowledgement-staging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/order-acknowledgement-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -29,7 +29,7 @@ The Order Acknowledgment \[sn\_spend\_intg\_imp\_purchase\_order\_ack\] staging 
 |Supplier id|String|Unique identifier for the supplier.|
 |Third party import ID|String|Unique identifier for external data imports.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

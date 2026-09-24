@@ -2,7 +2,7 @@
 title: Notifications
 description: After the data model is defined and users are able to interact with the application, determine how the application should communicate with users. Configure notifications to alert users to important application related events, share application information in the knowledge base, and add translations to allow users to interact with the application in their native language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/notifications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ ServiceNow uses email watermarks to correctly process user responses to notifica
 
 The [Troubleshooting Outbound Email](https://hi.service-now.com/kb_view.do?sysparm_article=KB0521382) knowledge base article provides troubleshooting steps for the most common notification issues. Log in to the HI portal \([https://hi.service-now.com](https://hi.service-now.com/)\) to access the article.
 
-**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-design-elements.md)
+**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-design-elements.md)
 

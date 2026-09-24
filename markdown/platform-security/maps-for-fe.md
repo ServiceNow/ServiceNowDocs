@@ -2,7 +2,7 @@
 title: Configure module access policies for Field Encryption
 description: Create a module access policy to control which users, scripts, or system processes can encrypt or decrypt data encrypted by a field encryption module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/maps-for-fe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/maps-for-fe.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,13 +18,13 @@ Create a module access policy to control which users, scripts, or system process
 
 Role required: security\_admin and sn\_kmf.cryptographic\_manager or sn\_kmf.admin
 
-You must have a published field encryption module to use this process. If you have not done so, see [Configure Field Encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-fe-modules.md).
+You must have a published field encryption module to use this process. If you have not done so, see [Configure Field Encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-fe-modules.md).
 
 ## About this task
 
 Module access policies \(MAPs\) are the access controls you apply to your field encryption modules to define which users, scripts, or system processes can encrypt or decrypt data. Configure MAPs for users \(via roles\), scripts, or processes running in the “system” context. Without a MAP, users, scripts, or system processes aren’t able to encrypt or decrypt data, which can result in end-to-end workflow processes not working correctly.
 
-MAPs are separate from access control lists \(ACL\), but can be used in combination with them. See [Exploring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-fe.md) for more information about the purpose behind MAPs.
+MAPs are separate from access control lists \(ACL\), but can be used in combination with them. See [Exploring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/exploring-fe.md) for more information about the purpose behind MAPs.
 
 For Field Encryption Enterprise, review to plan for which users, scripts, or system processes need a MAP.
 
@@ -78,7 +78,7 @@ Allows processes running in “System Context” access to this MAP.
 
 Allows for the Resource Exchange feature access to this MAP.
 
-For more information on how these different types of MAP work, see [Exploring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-fe.md).
+For more information on how these different types of MAP work, see [Exploring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/exploring-fe.md).
 
 </td></tr><tr><td>
 
@@ -231,5 +231,5 @@ When enabled, a user impersonating another user gains any MAP permissions from b
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-column-level-encryption.md)
 

@@ -2,7 +2,7 @@
 title: Business Stakeholder for Customer Service Management
 description: Business Stakeholder for Customer Service Management includes plugins and roles that provide access to business stakeholder features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/business-stakeholder-for-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/business-stakeholder-for-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -207,7 +207,7 @@ CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
 Internal
 
 </td></tr></tbody>
-</table>For more information about the proxy contact role, see [Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/employee-create-case-for-customer.md).
+</table>For more information about the proxy contact role, see [Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/employee-create-case-for-customer.md).
 
 <table id="table_xv4_rpx_znb"><thead><tr><th>
 
@@ -491,7 +491,7 @@ sn\_customerservice.projectstakeholder
 Internal
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+</table>**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_RolesInstalledWithCustomerService.md)
 
 **Related topics**  
 

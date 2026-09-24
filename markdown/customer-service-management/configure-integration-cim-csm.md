@@ -2,7 +2,7 @@
 title: Integrate with Continual Improvement Management
 description: Customer Service Management provides an integration with the Continual Improvement Management application. This integration enables you to request improvement opportunities and to implement phases and tasks to meet performance goals, track progress, and measure success.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-integration-cim-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-integration-cim-csm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Closing a project in Project Workspace
 description: End the project when all tasks are completed. When you close a project, all project tasks, sub-projects, and resource assignments associated with the project are closed automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/close-a-project-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/close-a-project-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -28,7 +28,7 @@ Ideally, you should not reopen a project after it is closed. Updating the projec
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Verify that your work is completed for all the tasks in the project you want to close.
 
@@ -59,12 +59,12 @@ Ideally, you should not reopen a project after it is closed. Updating the projec
 
 For projects created from an incident, problem, or change, updating the project state does not automatically update the related incident, problem, or change request record. You must update the related record manually. For example, if the completion of a project also means that a related Change can be closed, go to the Change record and modify its **State** field. It is also a good idea to update the work notes field on the related record to include any relevant information about the project.
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 
 **Related topics**  
 
 
-[Export a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/export-project-to-powerpoint-from-project-workspace.md)
+[Export a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/export-project-to-powerpoint-from-project-workspace.md)
 
-[Add RIDAC records to projects from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-risk-project-project-workspace.md)
+[Add RIDAC records to projects from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/add-risk-project-project-workspace.md)
 

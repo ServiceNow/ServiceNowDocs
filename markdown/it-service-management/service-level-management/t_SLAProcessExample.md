@@ -2,7 +2,7 @@
 title: Service Level Agreement \(SLA\) process example
 description: As work is done on the relevant task, the SLA may change stage appropriately, depending on the information defined for that SLA in the relevant SLA definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_SLAProcessExample.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/t\_SLAProcessExample.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -73,5 +73,5 @@ This example demonstrates how an SLA can be attached to an incident, then progre
     \[Omitted image "TaskSLAIncidentForm-Resolved.png"\] Alt text: Task SLAs related list on Incident form - Priority 2 SLA completed
 
 
-**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-management-reference.md)
 

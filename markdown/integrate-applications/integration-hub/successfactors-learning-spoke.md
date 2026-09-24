@@ -2,7 +2,7 @@
 title: SuccessFactors Learning Spoke
 description: SuccessFactors Learning spoke can be used retrieve all learning-related information such as user data, course data, syncing user activity, retrieving assignments/enrollments, etc.Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/successfactors-learning-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/successfactors-learning-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

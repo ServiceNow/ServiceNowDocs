@@ -2,7 +2,7 @@
 title: Consumer criteria record form
 description: Field descriptions for the consumer criteria new record form contains information on consumer criteria new record form field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-consumer-criteria-new-record-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-consumer-criteria-new-record-form.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -75,5 +75,5 @@ Details of the filter. For example, Active is True.
 </td></tr></tbody>
 </table>## Useful references
 
-[Create a consumer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-consumer-criteria.md).
+[Create a consumer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-consumer-criteria.md).
 

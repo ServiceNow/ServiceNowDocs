@@ -2,7 +2,7 @@
 title: Regenerate contract document after modifying request
 description: As a legal user or legal fulfiller, regenerate the contract document for non-disclosure agreement contract requests when the legal request has been modified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlcregen-contract-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlcregen-contract-doc.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -20,7 +20,7 @@ As a legal user or legal fulfiller, regenerate the contract document for non-dis
 
 When the parent request is modified, you can use the **Regenerate** option to generate a new contract document from the contract template with the latest metadata, signatories, and tables. You can regenerate a contract document only when the State is Draft or Work in progress.
 
-Any changes made to the signatory information in the contract request will be overwritten by the signatory information from the contract template. If the signatory information is incomplete or inconsistent after regeneration, you can manually update the signatories. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md).
+Any changes made to the signatory information in the contract request will be overwritten by the signatory information from the contract template. If the signatory information is incomplete or inconsistent after regeneration, you can manually update the signatories. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md).
 
 You can regenerate a contract document only when the State is Draft or Work in progress.
 
@@ -55,5 +55,5 @@ The results of the regeneration depends on the initial state of the document:
 
 Note that although contract fulfillers can see all contract document revisions, a contract user can see only the latest revision.
 
-**Parent Topic:**[Work on NDA legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-work-on-contract-request.md)
+**Parent Topic:**[Work on NDA legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-work-on-contract-request.md)
 

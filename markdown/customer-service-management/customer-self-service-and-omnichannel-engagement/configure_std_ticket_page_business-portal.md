@@ -2,7 +2,7 @@
 title: Configure the standard ticket page for cases
 description: Configure the standard ticket page for cases from where users can view the details of a case in the Business portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_std\_ticket\_page\_business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_std\_ticket\_page\_business-portal.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

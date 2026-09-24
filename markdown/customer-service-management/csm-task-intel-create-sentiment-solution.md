@@ -2,7 +2,7 @@
 title: Create a model to predict case sentiment
 description: Edit and test the pre-trained sentiment model to predict sentiment for customer service cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-create-sentiment-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-task-intel-create-sentiment-solution.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

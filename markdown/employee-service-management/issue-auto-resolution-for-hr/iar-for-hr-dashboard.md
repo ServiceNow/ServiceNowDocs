@@ -2,7 +2,7 @@
 title: Issue Auto Resolution for HR dashboard
 description: With the Issue Auto Resolution for HR dashboard, you can see a graphical representation of the Issue Auto Resolution application's case resolution performance. You can also monitor the success metrics for auto-resolved cases, estimated costs, and time saved by using the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/issue-auto-resolution-for-hr/iar-for-hr-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/issue-auto-resolution-for-hr/iar-for-hr-dashboard.html
 release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr

@@ -2,7 +2,7 @@
 title: Hardware Asset Management
 description: The ServiceNow Hardware Asset Management \(HAM\) application is a licensable application that on activation provides advanced workflow, automation, and mobile capabilities to maintain your assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/ham-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/ham-landing-page.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -20,35 +20,35 @@ Watch this short video for an introduction to the Hardware Asset Management appl
 
 \[Omitted video\] Description: Hardware Asset Management overview
 
-**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, limited support is provided for the Hardware Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, the best approach is moving to the new workspace experience. For more information, see [KB1584544](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584544), [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md) and [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
+**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, limited support is provided for the Hardware Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, the best approach is moving to the new workspace experience. For more information, see [KB1584544](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584544), [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-workspace.md) and [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and business value that the Hardware Asset Management application offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/exploring-ham.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and business value that the Hardware Asset Management application offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text: Activate Hardware Asset Management supporting plugins and assign roles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configuring-ham.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text: Activate Hardware Asset Management supporting plugins and assign roles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configuring-ham.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-manage.svg"\] Alt text: Use the Hardware Asset Management to efficiently manage your hardware assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+[Use\[Omitted image "bus-manage.svg"\] Alt text: Use the Hardware Asset Management to efficiently manage your hardware assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text: Improve your business processes and practices by visualizing actionable data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text: Improve your business processes and practices by visualizing actionable data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 
 </td><td>
 
-[Hardware Asset Management Integrations\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Connect Hardware Asset Management with ServiceNow applications and external systems to extend your asset management capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-integrations.md)
+[Hardware Asset Management Integrations\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Connect Hardware Asset Management with ServiceNow applications and external systems to extend your asset management capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-integrations.md)
 
 </td><td>
 
-[ServiceNow Otto for Hardware Asset Management \(HAM\)\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the ServiceNow Otto for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process with the agentic workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
+[ServiceNow Otto for Hardware Asset Management \(HAM\)\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the ServiceNow Otto for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process with the agentic workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
 
 </td></tr><tr><td>
 
-[Device as a Service \(DaaS\)\[Omitted image "bus-laptop.svg"\] Alt text:Use the Device as a Service \(DaaS\) feature to provide assets and asset management services to customers of DaaS providers via a subscription model.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/exploring-daas.md)
+[Device as a Service \(DaaS\)\[Omitted image "bus-laptop.svg"\] Alt text:Use the Device as a Service \(DaaS\) feature to provide assets and asset management services to customers of DaaS providers via a subscription model.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-daas.md)
 
 </td><td>
 

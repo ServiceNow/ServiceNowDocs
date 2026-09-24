@@ -2,7 +2,7 @@
 title: Set system properties for scheduler
 description: Set the scheduler cool-off period system property \( sn\_ap\_apm.exception.engine.scheduler\_cool\_off\_period \) to define the time interval between invoice exception engine processing cycles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/set-system-properties-for-scheduler.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/set-system-properties-for-scheduler.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

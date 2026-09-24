@@ -2,7 +2,7 @@
 title: Publish your themes with Theme Builder
 description: Publish multiple themes to your web instance or a single theme to your mobile instance to reflect your company's brand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-apply-theme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-apply-theme.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -77,19 +77,19 @@ From the Unpublished section, hover over the theme you want published, and drag 
 
     The theme appears in the Published section of the Manager page.
 
-    **Note:** After you have published your theme to your instance, users must [select the theme from their Theme preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/select-a-theme-in-next-experience.md).
+    **Note:** After you have published your theme to your instance, users must [select the theme from their Theme preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/select-a-theme-in-next-experience.md).
 
 6.  Select one theme as the default if you have published multiple themes to your web instance.
 
-    If you have published only one theme to your web instance, that theme is the default theme. The default theme appears first in the user's Theme preference. For more information, see [Set the default theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-the-default-theme.md).
+    If you have published only one theme to your web instance, that theme is the default theme. The default theme appears first in the user's Theme preference. For more information, see [Set the default theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-the-default-theme.md).
 
 7.  Set the presentation order of your themes if you have published multiple themes to your web instance.
 
     **Note:** The presentation order determines how the themes appear in the user's Theme preference.
 
-    For more information on setting the order of your themes using the List view drag-and-drop feature, see [Set the presentation order of your Theme Builder themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-presentation-order-themes.md).
+    For more information on setting the order of your themes using the List view drag-and-drop feature, see [Set the presentation order of your Theme Builder themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-presentation-order-themes.md).
 
-    For information on setting order using the Next Experience, see [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-presentation-order-of-themes.md).
+    For information on setting order using the Next Experience, see [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-presentation-order-of-themes.md).
 
 8.  Refresh your browser to view the new theme published to your instance.
 
@@ -98,10 +98,10 @@ From the Unpublished section, hover over the theme you want published, and drag 
     Additionally, if you created and published themes outside of Theme Builder, and you want to revert them, you must navigate to the tables that they’re stored in and reapply them. If, however, you want to change themes in individual mobile applications, you can do so using [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md).
 
 
--   **[Set the default theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-the-default-theme.md)**  
+-   **[Set the default theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-the-default-theme.md)**  
 Set a preferred Theme Builder theme as the default for your web experiences when multiple themes are published.
--   **[Set the presentation order of your Theme Builder themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-presentation-order-themes.md)**  
+-   **[Set the presentation order of your Theme Builder themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-presentation-order-themes.md)**  
 Set the order of your Theme Builder themes to configure how they’re displayed in the user's Theme preferences.
 
-**Parent Topic:**[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md)
+**Parent Topic:**[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configuring-next-experience-with-theme-builder.md)
 

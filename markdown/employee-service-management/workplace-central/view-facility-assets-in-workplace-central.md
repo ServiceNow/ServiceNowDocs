@@ -2,7 +2,7 @@
 title: View Facility Assets in Workplace Central
 description: Use the Facility Assets list to look up an asset and its related cases without leaving Workplace Central.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-facility-assets-in-workplace-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/view-facility-assets-in-workplace-central.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -53,7 +53,7 @@ A new Facility Assets section has been added to the Lists area of Workplace Cent
     \[Omitted image "Casemgmt-FacilityAssets.png"\] Alt text:
 
 
-**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-case-management.md)
+**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-case-management.md)
 
 **Related topics**  
 

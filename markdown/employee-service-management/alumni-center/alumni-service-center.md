@@ -2,7 +2,7 @@
 title: Alumni Center
 description: The Alumni Center is your dedicated hub to stay connected with the organization after your tenure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/alumni-service-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/alumni-service-center.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -33,7 +33,7 @@ The Alumni Center portal provides the following benefits to the alumni and organ
 
 ## Content analytics
 
-The Alumni Center provides a separate content analytics tracking profile. For more information, see [Create a Content Analytics tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.md).
+The Alumni Center provides a separate content analytics tracking profile. For more information, see [Create a Content Analytics tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.md).
 
 ## Employee to alumni transition
 
@@ -68,15 +68,15 @@ For additional information, see the [DEF1000205 \| HR User \[KB1125071\]](https:
 
 <table id="table_z4y_wjs_3hc" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Detailed information on Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-explore.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Detailed information on Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/asc-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-configure.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/asc-configure.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Know how you can use Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-use.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Know how you can use Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/asc-use.md)
 
 </td></tr></tbody>
 </table>## Additional resources

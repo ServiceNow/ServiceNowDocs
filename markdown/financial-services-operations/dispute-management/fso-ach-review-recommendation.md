@@ -2,7 +2,7 @@
 title: Review ACH dispute return recommendation
 description: Review the ACH dispute information based on merchant analysis and Nacha eligibility recommendations and determine the final action. When the ACH dispute return recommendation AI agent is enabled, it can analyze past disputes with similar transaction values and recommend an action for you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-review-recommendation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/fso-ach-review-recommendation.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -77,7 +77,7 @@ Ensure that your assignment logic, such as Advanced Work Assignment \(AWA\), is 
 
 ## Result
 
-The **Final action** field is updated with one of the following options: **File return**, **Deny**, or **Followup ODFI**, and the process continues to the next task, [Dispute communication initiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-dispute-communication.md).
+The **Final action** field is updated with one of the following options: **File return**, **Deny**, or **Followup ODFI**, and the process continues to the next task, [Dispute communication initiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/fso-ach-dispute-communication.md).
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/process-dispute-ach.md)
 

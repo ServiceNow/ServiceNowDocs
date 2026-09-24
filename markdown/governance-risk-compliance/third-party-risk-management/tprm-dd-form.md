@@ -2,7 +2,7 @@
 title: Request third-party risk due diligence request form
 description: The due diligence request form captures all the initial information that you need to start the due diligence process. Any employee within your organization can request due diligence. If you’re selecting an existing third party, a significant portion of the information is automatically filled in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-dd-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-dd-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -93,7 +93,7 @@ User who will respond to the initial IRQ
 
 </td><td>
 
-Person with the IRQ assessor role who should respond to the IRQ. For more information, see [Respond to an internal assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-irq-respond-to.md).**Note:** While reviewing this request for due diligence, the TPR manager or owner can specify a different user.
+Person with the IRQ assessor role who should respond to the IRQ. For more information, see [Respond to an internal assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-irq-respond-to.md).**Note:** While reviewing this request for due diligence, the TPR manager or owner can specify a different user.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -133,7 +133,7 @@ First name, Last name, Title, Email, and Phone
 
 Standard contact information for the person at the third-party organization who acts as the primary third-party contact.
 
- For a description of the responsibilities of the third-party contact role, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
+ For a description of the responsibilities of the third-party contact role, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -149,7 +149,7 @@ Standard contact information for the person at the engagement organization who a
 
  If the target of your engagement request is the parent third-party organization, select **Same as third-party primary contact**.
 
- For a description of the responsibilities of the third-party contact role, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
+ For a description of the responsibilities of the third-party contact role, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
 
 </td></tr><tr><td>
 
@@ -160,12 +160,12 @@ SBOM required
 Indicates that Software Bill of Materials \(SBOM\) collection is required for this engagement. When selected, the due diligence process automatically includes SBOM related data collection to support software supply‑chain and vulnerability risk analysis for the third party. This field is only applicable if the required SBOM applications are activated and configured.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Due diligence request process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-details-tab.md)
+</table>**Parent Topic:**[Due diligence request process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-details-tab.md)
 
 **Related topics**  
 
 
-[Requesting third-party risk due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-requesting-tpr-due-diligence.md)
+[Requesting third-party risk due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-requesting-tpr-due-diligence.md)
 
-[Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.md)
+[Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.md)
 

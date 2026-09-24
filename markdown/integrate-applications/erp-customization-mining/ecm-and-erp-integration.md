@@ -2,7 +2,7 @@
 title: How ERP Semantic Mining works with Zero Copy Connector for ERP and remote tables
 description: Zero Copy Connector for ERP enables you to connect to your ERP \(Enterprise Resource Planning\) system, and to organize its data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/ecm-and-erp-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-customization-mining/ecm-and-erp-integration.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -37,5 +37,5 @@ By using a remote table, you can retrieve the data from external sources or from
 
 Use an extraction table to work with large amounts of ERP data. ERP extraction tables regularly save data to a local transform table on the ServiceNow AI Platform, which you can then process and use as the data foundation of a replatformed app.
 
-**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

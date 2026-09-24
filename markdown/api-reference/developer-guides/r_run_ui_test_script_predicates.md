@@ -2,7 +2,7 @@
 title: Element predicates
 description: Element predicates are synchronous Boolean checks available in a Run UI Test Script step. Use them inside .find\(\) or .filter\(\) callbacks to pick one element from a list based on its state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/r\_run\_ui\_test\_script\_predicates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/r\_run\_ui\_test\_script\_predicates.html
 release: australia
 product: Developer Guides
 classification: developer-guides

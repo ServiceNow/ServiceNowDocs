@@ -2,7 +2,7 @@
 title: Project form
 description: Learn about the fields of project form. Use this form to create a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/create-a-project-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/create-a-project-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -72,7 +72,7 @@ State
 
 Current state of the project. All new projects begin as **Pending**. The state of the project can be set on the Project form or derived from the task state.The default available states are: Pending, Open, Work in Progress, Closed Complete, Closed Incomplete, and Closed Skipped.
 
- You can also [create a custom state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/customize-project-task-states.md) for each state type by overriding the state dictionary attributes.
+ You can also [create a custom state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/customize-project-task-states.md) for each state type by overriding the state dictionary attributes.
 
  For example, say that for the project tasks you have created a custom state called **Testing** for the **Work in Progress** state type. When you update the project task state to **Testing**, the project state is also updated to **Testing**. However, if you have not created a **Testing** state for the **Work in Progress** state type, the project state is updated to the default **Work in Progress** state.
 
@@ -90,7 +90,7 @@ Similar projects
 
 </td><td>
 
-Displays projects that have similar values for the **Description** and **Short Description** fields using predictive intelligence and machine-learning algorithms. For more information, see [Predictive Intelligence for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/predictive-intelligence-for-project.md).
+Displays projects that have similar values for the **Description** and **Short Description** fields using predictive intelligence and machine-learning algorithms. For more information, see [Predictive Intelligence for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/predictive-intelligence-for-project.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Planned start date
 
 The start date of the project tasks within the project. This date is rolled up from the project tasks. This date is copied from the **Approved start date**. After planned tasks are added, this value is set to the earliest time that the project schedule allows. For example, if the project task is created at 3 a.m. and the default schedule is in use \(which has an 8 a.m. start date\), then the default task start is 8 a.m. the next day.
 
- **Note:** The planned start date must be within 10 years of the current date. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Max date span into future or past from the current date** controls the behavior for project planned start date.
+ **Note:** The planned start date must be within 10 years of the current date. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Max date span into future or past from the current date** controls the behavior for project planned start date.
 
  When you convert a demand to a project, the start date of the demand is carried forward as the **Planned start date** for the project. If the demand start date is a weekend and your project follows a project schedule, the **Planned start date** is adjusted to the first working day of the week.
 
@@ -149,7 +149,7 @@ The start date of the project tasks within the project. This date is rolled up f
 
  **Note:**
 
--   When you change the planned start date of a project, the associated cost plans and resource plan also change. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** controls the behavior for project start date change.
+-   When you change the planned start date of a project, the associated cost plans and resource plan also change. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** controls the behavior for project start date change.
 -   This field is not available when creating a project by default. Use the **Approved start date** field to specify the project start date. Configure the form to display this field. However, this field is available for existing projects and projects converted from a demand.
 
 </td></tr><tr><td>
@@ -170,7 +170,7 @@ Planned duration
 
 </td><td>
 
-Expected duration of the tasks within the project. After you add tasks, the value in the field is calculated from the duration of the tasks. The duration also considers the project schedule, accounting for any non-work time in the schedule. **Note:** The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Max duration \(in days\) allowed for a project/project task** controls the behavior for project planned duration.
+Expected duration of the tasks within the project. After you add tasks, the value in the field is calculated from the duration of the tasks. The duration also considers the project schedule, accounting for any non-work time in the schedule. **Note:** The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Max duration \(in days\) allowed for a project/project task** controls the behavior for project planned duration.
 
  For example, if the default schedule is used, with a standard 8-hour work day, a project that starts at 8 a.m. on 1 July and ends at noon on 2 July is calculated as 1 day and 4 hours, not 28 hours.
 
@@ -443,15 +443,15 @@ Rate Model
 
 </td><td>
 
-Rate model assigned to the project. The [rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md) is used to derive hourly rates for the associated resource plans and time cards.
+Rate model assigned to the project. The [rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/rate-model/rate-model.md) is used to derive hourly rates for the associated resource plans and time cards.
 
  When you create a project from a demand, the rate model is copied from the demand to the project.
 
  The subprojects in a project derive their resource plan calculations from the rate model associated with the top task.
 
- If the assigned rate model is removed or replaced or the hourly rates in the rate model are changed, the cost fields on the associated resource plans are not recalculated automatically. You must [update costs of all resource plans in the project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) using the **Recalculate Resource Costs** menu option to reflect new rates from the rate model.
+ If the assigned rate model is removed or replaced or the hourly rates in the rate model are changed, the cost fields on the associated resource plans are not recalculated automatically. You must [update costs of all resource plans in the project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) using the **Recalculate Resource Costs** menu option to reflect new rates from the rate model.
 
- You can also [update costs of a single resource plan one at a time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/recalculate-resource-costs.md).
+ You can also [update costs of a single resource plan one at a time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/recalculate-resource-costs.md).
 
 </td></tr><tr><td>
 
@@ -681,7 +681,7 @@ Constraint date
 
 </td><td>
 
-A read-only field that displays the project's planned start date. The date in this field is used for calculate the start date of the tasks with **Start ASAP** constraint. Use the **Move Project** related link to change the constraint date. Changing this date also changes the start date for all the tasks with **Start ASAP** constraint. For more information, see [Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-planned-start-date-of-project.md).
+A read-only field that displays the project's planned start date. The date in this field is used for calculate the start date of the tasks with **Start ASAP** constraint. Use the **Move Project** related link to change the constraint date. Changing this date also changes the start date for all the tasks with **Start ASAP** constraint. For more information, see [Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/change-planned-start-date-of-project.md).
 
 </td></tr><tr><td>
 
@@ -729,5 +729,5 @@ Determines whether the time component in the actual start and end dates should b
 **Related topics**  
 
 
-[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 

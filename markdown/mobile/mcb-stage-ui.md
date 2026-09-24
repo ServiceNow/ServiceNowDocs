@@ -2,7 +2,7 @@
 title: Mobile Card Builder user interface
 description: Learn about the Mobile Card Builder user interface to get started building and modifying your mobile cards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mcb-stage-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mcb-stage-ui.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -80,7 +80,7 @@ Select a component of your card to highlight it. You can see a tab with the name
 
 \[Omitted image "mcb-new-component-2.png"\] Alt text: Adding a component in Mobile Card Builder.
 
-Select a plus icon \(\[Omitted image "mcb-plus-icon.png"\] Alt text: plus icon\) to select a new component to add to your mobile card. For information about adding a button, see [Card actions in Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-card-actions.md).
+Select a plus icon \(\[Omitted image "mcb-plus-icon.png"\] Alt text: plus icon\) to select a new component to add to your mobile card. For information about adding a button, see [Card actions in Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mcb-card-actions.md).
 
 Remove components by selecting them and then select the delete icon \(\[Omitted image "mcb-delete-icon.png"\] Alt text: plus icon\).
 
@@ -99,7 +99,7 @@ The right panel of the card builder contains the configuration options for the s
 -   Corner radius
 -   Text alignment
 
- You can also use this panel to map field values to components in your card. For details see [Customize a screen using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-customize-item-view.md)
+ You can also use this panel to map field values to components in your card. For details see [Customize a screen using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mcb-customize-item-view.md)
 
 .
 
@@ -108,6 +108,6 @@ The right panel of the card builder contains the configuration options for the s
 \[Omitted image "mcb-right-panel.png"\] Alt text: Mobile Card Builder panel
 
 </td></tr></tbody>
-</table>-   **[Mobile Card Builder components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-elements.md)**  
+</table>-   **[Mobile Card Builder components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mcb-elements.md)**  
 Learn about the components that make up mobile cards
 

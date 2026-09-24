@@ -2,7 +2,7 @@
 title: Create a basic connection for PowerShell and SSH
 description: Configure connection information to use with a custom activity or action that uses the PowerShell or Secure Shell \(SSH\) protocol.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/configure-ps-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/configure-ps-connection.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -156,5 +156,5 @@ The specific MID Cluster you want to use. This field is available when **Use MID
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md)
+**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/connection-information.md)
 

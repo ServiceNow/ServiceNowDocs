@@ -2,7 +2,7 @@
 title: Close a security incident
 description: Chat with an AI agent in the ServiceNow Otto panel to help you close a security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/close-sir-incident-aiagent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/close-sir-incident-aiagent.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -83,5 +83,5 @@ The AI agent closes the security incident. It also updates the Close notes as `C
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Close security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/now-assist-sir-close-incident-usecase.md)
+**Parent Topic:**[Close security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/now-assist-sir-close-incident-usecase.md)
 

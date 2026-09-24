@@ -2,7 +2,7 @@
 title: Add change processing support for an Azure resource type
 description: Add Azure change processing support for an Azure resource type per the needs of your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/add-change-processing-support-azure-resource-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/add-change-processing-support-azure-resource-type.html
 release: australia
 product: Discovery
 classification: discovery
@@ -91,6 +91,6 @@ Name of the source field that you want to update in the specified CI class field
 
     4.  Select **Submit**.
 
-    5.  Repeat steps [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-change-processing-support-azure-resource-type.md) to [5.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-change-processing-support-azure-resource-type.md) for all the change fields that you want to update in the CMDB.
+    5.  Repeat steps [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/add-change-processing-support-azure-resource-type.md) to [5.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/add-change-processing-support-azure-resource-type.md) for all the change fields that you want to update in the CMDB.
 
 

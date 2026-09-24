@@ -2,7 +2,7 @@
 title: Create an identification inclusion rule
 description: Narrow the scope of CIs that are included in the identification process by creating an identification inclusion rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-id-inclusion-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/create-id-inclusion-rule.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -24,7 +24,7 @@ Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and i
 
 During duplication detection of independent CIs, the identification and reconciliation engine \(IRE\) processes only the CIs that satisfy the identification inclusion rules. For example, you can set a filter to include only CIs whose state is operational. When no identification inclusion rules exist, all CIs are included in the identification process and in the CMDB Health duplicate metric calculations. In the base system, there are no predefined identification inclusion rules. Identification inclusion rules are defined at the class level.
 
-Identification inclusion rules also indirectly impact what appears in CMDB health dashboards for duplicate CIs, in addition to any [health inclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-health-inclusion-rule.md).
+Identification inclusion rules also indirectly impact what appears in CMDB health dashboards for duplicate CIs, in addition to any [health inclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/create-health-inclusion-rule.md).
 
 **Note:** Identification inclusion rules impact any script that calls IRE, therefore create them carefully. Identification inclusion rules can prevent the identification of certain types of CIs, affecting some features of Discovery and Service Mapping.
 
@@ -53,7 +53,7 @@ Identification inclusion rules also indirectly impact what appears in CMDB healt
 
 Navigate to **All** &gt; **Configuration** &gt; **Identification/Reconciliation** &gt; **Identification Inclusion Rules** &gt; **** to see the list of all identification inclusion rules.
 
-**Parent Topic:**[Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md)
+**Parent Topic:**[Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md)
 
 **Related topics**  
 
@@ -62,5 +62,5 @@ Navigate to **All** &gt; **Configuration** &gt; **Identification/Reconciliation*
 
 [General guidelines for using CMDB Identification]()
 
-[Create health inclusion rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-health-inclusion-rule.md)
+[Create health inclusion rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/create-health-inclusion-rule.md)
 

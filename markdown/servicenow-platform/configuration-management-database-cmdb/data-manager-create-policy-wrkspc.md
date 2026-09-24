@@ -2,7 +2,7 @@
 title: Create a CMDB Data Manager policy
 description: Create a CMDB Data Manager policy in CMDB Workspace to automatically process CIs life-cycle events such as deletion. Applying consistent and standard life-cycle policies to CIs helps maintain the health of the CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -20,7 +20,7 @@ Create a CMDB Data Manager policy in CMDB Workspace to automatically process CIs
 
 -   The life-cycle policies Retire, Archive, and Delete, require that an active retirement definition exists for each targeted class in the policy. If you attempt to create a policy of a policy type for which this requirement applies but isn't met, an error message appears and the operation fails.
 
-    For more information about retirement definitions, see [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md).
+    For more information about retirement definitions, see [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md).
 
 -   Verify that any custom subflow that you want to associate with a policy, exists:
     1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and select **Management** in the CMDB Workspace menu bar. Then, select the **Data Manager** link in Management tools, in the Manage section.
@@ -40,7 +40,7 @@ Set condition filters to specify the initial set of CIs that the policy applies 
 
 **Note:** CMDB Data Manager limits the number of target CIs per task to 10,000. Therefore, when a task exceeds that number, Data Manager automatically creates as many additional tasks as needed to include all the CIs for the task. For example, if you target 30,000 CIs in an attestation task, Data Manager breaks down that task into three tasks, each targeting 10,000 CIs.
 
-For more information about life-cycle state definitions and other concepts for working with the CMDB Data Manager, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
+For more information about life-cycle state definitions and other concepts for working with the CMDB Data Manager, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
 ## Procedure
 
@@ -48,7 +48,7 @@ For more information about life-cycle state definitions and other concepts for w
 
 2.  Select **Policies** in the left-side bar.
 
-    For information about the Policies page, see [View CMDB Data Manager policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-view-policies-wrkspc.md).
+    For information about the Policies page, see [View CMDB Data Manager policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/data-manager-view-policies-wrkspc.md).
 
 3.  Select **Create new policy**.
 
@@ -188,7 +188,7 @@ Days to complete
 
 Maximum number of days that policy tasks must be completed by.
 
- If notifications are enabled for certification or attestation tasks, then this number is used to calculate the milestones for sending notifications. The full time \(100%\) interval starts when a task is created and ends when the number of days to complete the task arrives. Notifications are sent if a task isn't closed when 50%, 70%, and 90% of that interval passes. For more information about setting those notifications, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
+ If notifications are enabled for certification or attestation tasks, then this number is used to calculate the milestones for sending notifications. The full time \(100%\) interval starts when a task is created and ends when the number of days to complete the task arrives. Notifications are sent if a task isn't closed when 50%, 70%, and 90% of that interval passes. For more information about setting those notifications, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
 
 </td></tr><tr><td>
 
@@ -343,7 +343,7 @@ Run policy scheduled job as
 
 User to set the **Run as** field with, in scheduled jobs for attestation and certification tasks.
 
- By default, the drop-down list is populated with users in the Data Manager Scheduled Job Users user group and the field is set to the user specified by the **Scheduled job default user** property \(DataManager Job Runner\). For more information about this property and the **Scheduled job default user** user role, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
+ By default, the drop-down list is populated with users in the Data Manager Scheduled Job Users user group and the field is set to the user specified by the **Scheduled job default user** property \(DataManager Job Runner\). For more information about this property and the **Scheduled job default user** user role, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
 
 </td></tr></tbody>
 </table>9.  Review the policy details on the Review form, and then select **Publish policy** to activate the policy or **Save &amp; Exit** to save the policy as a draft.
@@ -360,13 +360,13 @@ After you publish a policy:
     If the policy is configured to require an approval for its tasks, then email notifications are sent to members of the assignment group in the **Managed by Group** attribute of the CI. If the policy is associated with a subflow, then a policy task triggers the policy subflow only after the task is approved.
 
 -   If the policy is associated with a subflow, then after a policy task is complete, the policy subflow closes the task. For an Attestation policy \(which isn't associated with a subflow\), a user must process all CIs in the task and submit the task to close it.
--   For Attestation policies, attestation tasks are assigned to users as specified, and those tasks appear in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)and Service Graph Workspace when those users log in.
+-   For Attestation policies, attestation tasks are assigned to users as specified, and those tasks appear in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)and Service Graph Workspace when those users log in.
 -   For some policy types, such as **Delete**, the list of the target CIs is rolled up in a CSV file that is then attached to the task for tracking purposes.
 -   Stale tasks are set to **Closed Canceled** by a daily scheduled job. A task becomes stale when it's still open and not approved after at least 90 days. The number of days after which a task is considered stale is determined by the **cmdb.data.manager.stale.task.life.in.days** system property.
 
 ## What to do next
 
--   [Publish a draft CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md).
+-   [Publish a draft CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md).
 -   On the Policies page, in the Published policies list view, select a policy to see policy details on a policy form. Select **View Policy** to see the settings in all of the policy form pages.
 -   On the Policies page, in the Published policies list view, select a policy that you want to deactivate. On a policy form select **Deactivate Policy** to temporarily prevent the policy from running.
 -   Select **View Open Tasks** in the Open Policy Tasks tile to track the processing of policy tasks in the CMDB Data Management Task Control list view. The Success Percent column shows the percentage of CIs in the task for which the task is completed. A CI is counted as complete in an archival task only after the archival process has been fully completed for the CI \(and isn't counted as complete while the CI is initially staged for archival for example\).
@@ -376,9 +376,9 @@ After you publish a policy:
         1.  Navigate to **System Definition** &gt; **Scheduled Jobs**.
         2.  Select the scheduled job for the task policy that you want to run.
         3.  On the scheduled job form, select **Execute Now**.
-    -   [Run a certification policy on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/run-cert-policy-ondemand.md) directly from Service Graph Workspace or from CMDB Workspace.
-    -   [Run an attestation policy on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/run-attestation-policy-ondemand.md) directly from Service Graph Workspace or from CMDB Workspace.
--   Users log in to [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or to Service Graph Workspace to [review and process attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md) assigned to them.
--   Users log in to [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or to Service Graph Workspace to [review and process non-attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md) assigned to them.
--   You can use update sets to transfer a policy between instances, in which case that policy is imported as a draft policy at the destination instance. You can later continue to configure the draft policy at the destination instance and then [publish it when it's ready](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md).
+    -   [Run a certification policy on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/run-cert-policy-ondemand.md) directly from Service Graph Workspace or from CMDB Workspace.
+    -   [Run an attestation policy on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/run-attestation-policy-ondemand.md) directly from Service Graph Workspace or from CMDB Workspace.
+-   Users log in to [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or to Service Graph Workspace to [review and process attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md) assigned to them.
+-   Users log in to [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or to Service Graph Workspace to [review and process non-attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md) assigned to them.
+-   You can use update sets to transfer a policy between instances, in which case that policy is imported as a draft policy at the destination instance. You can later continue to configure the draft policy at the destination instance and then [publish it when it's ready](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md).
 

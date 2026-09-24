@@ -2,7 +2,7 @@
 title: DEX Alerts
 description: Digital End-User Experience \(DEX\) Alerts provide details on the active alerts, their severity, impacted services, and the duration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/dex-alerts.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

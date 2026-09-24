@@ -2,7 +2,7 @@
 title: Determine control effectiveness of a control test
 description: Apply the objective effectiveness of the assessment procedures and the operating effectiveness of the control test to determine the control effectiveness of the control test. An assessment procedure is applied to check the control test at a granular level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-control-effectiveness-control-test.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-control-effectiveness-control-test.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -32,7 +32,7 @@ Role required: sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.info\_syst
 
 5.  Select the **Operational test** tab to view the operating effectiveness of the control test.
 
-    **Note:** The **Examine**, **Interview**, and **Test** fields are pre-populated from the NIST control objectives, and aren’t editable at the control test level. If you must edit any of these descriptions, you can do so in the test plan form. See [Generate assessment procedure plans for a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assess-controls-assess-obj.md).
+    **Note:** The **Examine**, **Interview**, and **Test** fields are pre-populated from the NIST control objectives, and aren’t editable at the control test level. If you must edit any of these descriptions, you can do so in the test plan form. See [Generate assessment procedure plans for a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assess-controls-assess-obj.md).
 
 6.  Select the Assessment procedures related list to view the objective effectiveness of all the assessment procedures.
 
@@ -74,5 +74,5 @@ Role required: sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.info\_syst
 8.  If you update the objective effectiveness value of the assessment procedure, select **Update** to save your changes.
 
 
-**Parent Topic:**[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
+**Parent Topic:**[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
 

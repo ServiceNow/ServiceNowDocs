@@ -2,7 +2,7 @@
 title: ServiceNow Otto panel
 description: The ServiceNow Otto panel is the conversational interface where you can interact with the AI companion to perform setup, solution building, and question answering tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-now-assist-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-now-assist-panel.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -34,7 +34,7 @@ Use the ServiceNow Otto panel to perform the following types of actions:
 
 \[Omitted image "ai-admin-center-otto-panel.png"\] Alt text: ServiceNow Otto panel in AI Admin Center.
 
-For more information, see [Using the conversational experience in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-panel-now-assist-center.md).
+For more information, see [Using the conversational experience in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-panel-now-assist-center.md).
 
-**Parent Topic:**[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md)
+**Parent Topic:**[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md)
 

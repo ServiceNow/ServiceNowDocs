@@ -2,7 +2,7 @@
 title: Configure notifications for ERP Semantic Mining tasks
 description: Enable notifications to find out when ERP Semantic Mining succeeds or fails in a mining job for the ERP \(Enterprise Resource Planning\) system of record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-enable-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-customization-mining/erpcm-enable-notifications.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -90,5 +90,5 @@ Select the notification that you want. The options are:-   **ERP Extraction Comp
 
 The notification email that you receive contains a link that takes you to the record for the job. You can view the progress of its tasks by selecting the **Show training progress** Related Link. The tasks there also appear in the Connection tasks overview lists on the **Overview** tab of the Connection status page. You could then select to **Show matching** on a day's **Task period** value in the Connection tasks overview list to see the status of all tasks for that day.
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

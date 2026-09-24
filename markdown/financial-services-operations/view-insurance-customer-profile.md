@@ -2,7 +2,7 @@
 title: View an insurance customer profile in Agentic Contact Center for Insurance
 description: Review a customer's AI-generated insurance profile, financial overview, and interaction history in the Customer 360 page so that you can understand the customer's insurance relationship.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/view-insurance-customer-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/view-insurance-customer-profile.html
 release: australia
 topic_type: task
 last_updated: "2026-05-13"
@@ -33,9 +33,9 @@ Role required: sn\_ins\_csr.servicing\_agent, sn\_ins\_csr.claims\_agent
 
     -   **Profile**: A brief overview of the customer and their active insurance policy types.
     -   **Status**: The current state of the customer's active policies which have overdue premiums or upcoming renewals within a month.
-    **Note:** The Customer summary section is only visible when the Insurance Customer Profile Summarization skill is activated. For details, see [Configure insurance customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-customer-profile-summarization.md).
+    **Note:** The Customer summary section is only visible when the Insurance Customer Profile Summarization skill is activated. For details, see [Configure insurance customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-insurance-customer-profile-summarization.md).
 
-    For more information on the component, see [Summarize an insurance customer profile in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-profile.md).
+    For more information on the component, see [Summarize an insurance customer profile in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/summarize-insurance-customer-profile.md).
 
 3.  Review the **Overview** section to assess the customer's financial and activity totals.
 
@@ -64,11 +64,11 @@ Role required: sn\_ins\_csr.servicing\_agent, sn\_ins\_csr.claims\_agent
 **Related topics**  
 
 
-[Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/customer-360-insurance-agentic-contact-centre.md)
+[Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/customer-360-insurance-agentic-contact-centre.md)
 
-[View insurance policies and coverages in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/view-insurance-policies-coverages.md)
+[View insurance policies and coverages in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/view-insurance-policies-coverages.md)
 
-[View insurance cases in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/view-insurance-cases.md)
+[View insurance cases in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/view-insurance-cases.md)
 
-[Summarize an insurance customer profile in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-profile.md)
+[Summarize an insurance customer profile in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/summarize-insurance-customer-profile.md)
 

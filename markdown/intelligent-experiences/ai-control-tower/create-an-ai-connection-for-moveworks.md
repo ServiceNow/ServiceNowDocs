@@ -2,7 +2,7 @@
 title: Create an AI connection for Moveworks
 description: Create an AI connection for Moveworks in AI Control Tower using the AI Service Graph Connector for Moveworks \(version 2.0.1\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-moveworks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-moveworks.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

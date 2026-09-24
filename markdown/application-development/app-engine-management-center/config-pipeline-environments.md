@@ -2,7 +2,7 @@
 title: Configure your pipeline environments
 description: Set up your app development production and non-production environments \(for example, development, test, and/or staging\) by adding the URLs and credentials used to access each instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/config-pipeline-environments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/config-pipeline-environments.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -99,7 +99,7 @@ Is Controller?
 
 </td><td>
 
-Identifies if this instance is a controller. This should be selected for the production environment record where you plan to manage deployment requests. For more information, see [Configure your controller instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-controller-instance.md).
+Identifies if this instance is a controller. This should be selected for the production environment record where you plan to manage deployment requests. For more information, see [Configure your controller instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/config-controller-instance.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

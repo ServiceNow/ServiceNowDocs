@@ -2,7 +2,7 @@
 title: GlideSchedule - Scoped
 description: The scoped GlideSchedule API provides methods for performing operations on GlideSchedule objects, such as adding new schedule segments to a schedule, determining if a date/time is within the schedule, or setting the schedule timezone.Instantiates an empty GlideSchedule object.Instantiates a GlideSchedule object and loads the schedule information. If a time zone is not specified, the current session time zone is used.Adds a new schedule segment to the current schedule.Determines the elapsed time in the schedule between two date time values using the timezone of the schedule or, if that is not specified, the timezone of the session.Retrieves the schedule name.Determines if the specified date and time is within the current schedule.Determines if the current schedule is valid. A schedule is valid if it has at least one schedule span.Loads a schedule with the schedule information.Sets the timezone for the current schedule.Determines how much time \(in milliseconds\) until start time of the next schedule item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideScheduleScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_GlideScheduleScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The scoped GlideSchedule API provides methods for performing operations on GlideSchedule objects, such as adding new schedule segments to a schedule, determining if a date/time is within the schedule, or setting the schedule timezone.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideSchedule - GlideSchedule\(\)
 

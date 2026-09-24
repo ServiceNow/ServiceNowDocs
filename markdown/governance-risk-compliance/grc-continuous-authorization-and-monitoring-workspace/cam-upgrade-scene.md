@@ -2,7 +2,7 @@
 title: Control requirement generation and upgrade steps
 description: The Creates controls automatically and Create control requirements options in the control objective form and the state of the authorization package are important to create control requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-upgrade-scene.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-upgrade-scene.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -47,5 +47,5 @@ The following actions happen when you upgrade to the Australia release:
 2.  For all NIST 800-53-revision 5 control objectives, the **Create control requirements** option is set to **True** by default in the Control objective form.
 3.  The control requirements are created for all the existing controls, from NIST 800-53-revision 5 control objectives, which are in the Draft state.
 
-**Parent Topic:**[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
+**Parent Topic:**[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
 

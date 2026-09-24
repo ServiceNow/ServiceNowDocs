@@ -2,7 +2,7 @@
 title: Assess impact categories and dependencies
 description: Assess the impact categories and dependencies in BCM UIB Workspace to get the necessary information for a plan. Use the business impact analysis to identify the recovery time objective for an item and prioritize the assets that have the least and most critical dependencies. Use the information to establish their recovery strategies during the planning phase.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/assess-impact-categories-bia-in-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/assess-impact-categories-bia-in-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,15 +35,15 @@ Beginning with the Xanadu release, these new columns are added to the BIA depend
 
 3.  To assess different types of business impact categories on the business process, select the **Recovery time objective assessment** tab.
 
-    A sample questionnaire for the Recovery time objective assessment \(RTO assessment\) is shown in the example.\[Omitted image "rto-assessment.png"\] Alt text: RTO assessment questionnaire.You must configure all impact categories in the Recovery time objective assessment. A business process draws a set of impact categories, by default, from the template that you have used for the business impact analysis. For more information, see: [Review an impact category and assess its downtime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/review-impact-category-bia.md).
+    A sample questionnaire for the Recovery time objective assessment \(RTO assessment\) is shown in the example.\[Omitted image "rto-assessment.png"\] Alt text: RTO assessment questionnaire.You must configure all impact categories in the Recovery time objective assessment. A business process draws a set of impact categories, by default, from the template that you have used for the business impact analysis. For more information, see: [Review an impact category and assess its downtime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/review-impact-category-bia.md).
 
 4.  Respond to the questions in the Recovery time objective assessment questionnaire and select **Next**.
 
-    For information on recovery time objective and calculation of recovery time objective, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-recovery-tiers.md) and [Calculating RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-calculation.md).
+    For information on recovery time objective and calculation of recovery time objective, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/rto-rpo-recovery-tiers.md) and [Calculating RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/rto-rpo-calculation.md).
 
 5.  To answer questions related to the data component of the asset, select the **Recovery point objective assessment** tab.
 
-    A sample assessment questionnaire for the Recovery point objective assessment \(RPO assessment\) is shown in the example. \[Omitted image "rpo-assessment.png"\] Alt text: RPO assessment questionnaire.You must configure all impact categories in the Recovery point objective assessment. For more information, see [Assess RPO impact of technology assets on the business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/RPO-asset-impact-assessment.md). For information on recovery point objective and calculation of recovery point objective, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-recovery-tiers.md) and [Calculating RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-calculation.md).
+    A sample assessment questionnaire for the Recovery point objective assessment \(RPO assessment\) is shown in the example. \[Omitted image "rpo-assessment.png"\] Alt text: RPO assessment questionnaire.You must configure all impact categories in the Recovery point objective assessment. For more information, see [Assess RPO impact of technology assets on the business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/RPO-asset-impact-assessment.md). For information on recovery point objective and calculation of recovery point objective, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/rto-rpo-recovery-tiers.md) and [Calculating RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/rto-rpo-calculation.md).
 
 6.  Respond to the questions in the Recovery point objective assessment and select **Next**.
 
@@ -208,5 +208,5 @@ This is the final step. You must complete all the pending assessments before sel
         **Note:** You can delete a BIA \(and its related tables\) that is in the **Draft** state. BCM planner and program manager can delete a BIA that is in the **In Review** and **Returned** states, whereas a BCM admin can delete a BIA irrespective of its state.
 
 
-**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

@@ -2,7 +2,7 @@
 title: Add collaborators to a legal matter through Mobile Agent
 description: Add other users as collaborators so that they can view the details and progress of a legal matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/add-collaborators-to-matter-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/add-collaborators-to-matter-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile

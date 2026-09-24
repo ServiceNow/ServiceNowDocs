@@ -2,7 +2,7 @@
 title: Intelligent approval system properties
 description: Configure how the system processes intelligent approvals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/intelligent-approval-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/intelligent-approval-system-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-01"
@@ -35,7 +35,7 @@ sn\_iap.enable\_allowlist
 Option to restrict intelligent approval access to approval tables and catalog items to only users with a specific role. When true, the system restricts access to approval tables based on an allowlist configuration record. When false, the system allows access to all approval tables and catalog items.-   Type: true \| false
 -   Default value: false
 -   Location: Add to the System Properties \[sys\_properties\] table
--   More information: [Create an allowlist configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-allowlist-configuration.md)
+-   More information: [Create an allowlist configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/create-allowlist-configuration.md)
 
 </td></tr></tbody>
 </table>

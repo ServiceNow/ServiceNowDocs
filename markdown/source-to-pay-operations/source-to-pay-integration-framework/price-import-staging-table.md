@@ -2,7 +2,7 @@
 title: Price Import staging table
 description: The Price Import \[sn\_spend\_intg\_imp\_price\] staging table temporarily stores important data about price imports before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/price-import-staging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/price-import-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -29,7 +29,7 @@ The Price Import \[sn\_spend\_intg\_imp\_price\] staging table temporarily store
 |Supplier part number|String|Unique identifier assigned by a supplier to a specific product or part that they provide.|
 |Third party import ID|String|Unique identifier for external data imports.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

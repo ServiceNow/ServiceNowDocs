@@ -2,7 +2,7 @@
 title: Partial Prepayment loan workflow
 description: Learn how bank agents, using the Partial Prepayment loan workflow, resolve a service request for a partial prepayment of an outstanding loan with the bank before its maturity. The workflow applies to both business and personal loan service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/partial-prepayment-loan-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/partial-prepayment-loan-workflow.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations

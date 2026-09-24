@@ -2,7 +2,7 @@
 title: Predict categories for PRLs and POLs imported through integrations
 description: Automatically predict and assign product and spend categories for imported purchase requisition lines and purchase order lines using scheduled on-demand scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/predict-categories-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/predict-categories-integrations.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -33,5 +33,5 @@ After the PRLs and POLs are imported into your instance, open the appropriate sc
 -   Jobs resume from where the previous run ended.
 -   POLs linked to PRLs inherit the spend category from the associated PRLs, while standalone POLs receive AI-predicted categories.
 
-**Parent Topic:**[Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md)
+**Parent Topic:**[Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md)
 

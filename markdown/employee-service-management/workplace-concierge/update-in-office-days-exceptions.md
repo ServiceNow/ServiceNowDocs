@@ -2,7 +2,7 @@
 title: Update your in-office days as exceptions
 description: As an employee, use the presence dashboard to update your in-office days without changing your routine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/update-in-office-days-exceptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/update-in-office-days-exceptions.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -24,7 +24,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the employee presence dashboard.
 
-    For more information, see the steps mentioned [here](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/set-in-office-days.md).
+    For more information, see the steps mentioned [here](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/set-in-office-days.md).
 
 2.  Navigate to the day that you want to update.
 
@@ -45,7 +45,7 @@ Role required: sn\_wsd\_core.workplace\_user
     For information about making a reservation, see [Create a reservation]().
 
 
-**Parent Topic:**[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md)
+**Parent Topic:**[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 
 **Related topics**  
 

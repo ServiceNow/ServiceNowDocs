@@ -2,7 +2,7 @@
 title: Create an Automation Discovery report
 description: Create an Automation Discovery report to analyze your records for automation opportunities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-auto-discovry-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-auto-discovry-report.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

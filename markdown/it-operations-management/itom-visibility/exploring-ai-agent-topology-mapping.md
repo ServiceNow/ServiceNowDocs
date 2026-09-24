@@ -2,7 +2,7 @@
 title: Exploring AI Agent Topology Mapping
 description: Learn how AI Agent Topology Mapping discovers AI infrastructure components across cloud platforms using patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/exploring-ai-agent-topology-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/exploring-ai-agent-topology-mapping.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,7 +19,7 @@ Learn how AI Agent Topology Mapping discovers AI infrastructure components acros
 
 ## AI Agent Topology Mapping overview
 
-AI Agent Topology Mapping extends the pattern-based discovery framework to identify and track AI-specific components in your environment. The application uses patterns to discover AI components from cloud platforms, populating the CMDB with configuration items \(CIs\). This approach provides centralized visibility into your AI infrastructure alongside traditional IT assets. For more information about how patterns work, see [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
+AI Agent Topology Mapping extends the pattern-based discovery framework to identify and track AI-specific components in your environment. The application uses patterns to discover AI components from cloud platforms, populating the CMDB with configuration items \(CIs\). This approach provides centralized visibility into your AI infrastructure alongside traditional IT assets. For more information about how patterns work, see [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
 
 AI Agent Topology Mapping discovers the following AI components:
 
@@ -124,6 +124,6 @@ The following workflow describes how a discovery administrator uses AI Agent Top
 
 To learn more about configuring and using AI Agent Topology Mapping, see:
 
--   [Configuring AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/configuring-ai-agent-topology-mapping.md)
--   [AI Agent Topology Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/ai-agent-topology-mapping-reference.md)
+-   [Configuring AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/configuring-ai-agent-topology-mapping.md)
+-   [AI Agent Topology Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/ai-agent-topology-mapping-reference.md)
 

@@ -2,7 +2,7 @@
 title: Add a custom field mapping in the staging table for Service Graph Connector for Microsoft Excel
 description: With the Service Graph Connector for Microsoft Excel, add a custom field to the staging table and map the custom field to the configuration item \(CI\) field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/add-new-column-mappings-excel-service-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/add-new-column-mappings-excel-service-graph.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -134,5 +134,5 @@ Roles required:
     The new column field mapping is successfully added and verified.
 
 
-**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
+**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

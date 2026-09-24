@@ -2,7 +2,7 @@
 title: Create a model to predict record fields
 description: Create and train a model to predict fields for case and interaction records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-create-cat-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-task-intel-create-cat-solution.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

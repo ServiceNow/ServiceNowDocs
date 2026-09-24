@@ -2,7 +2,7 @@
 title: Make Microsoft Teams the default communication channel
 description: Make Microsoft Teams the default communication channel to initiate a conference call to resolve a ticket.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-ms-teams-service-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-ms-teams-service-provider.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -57,5 +57,5 @@ Role required: notify\_admin
     2.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
 

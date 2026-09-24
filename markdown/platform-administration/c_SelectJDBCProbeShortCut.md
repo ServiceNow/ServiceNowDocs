@@ -2,7 +2,7 @@
 title: Select \* JDBC Probe short cut
 description: Alternatively, you may specify a table\_name parameter instead of a work element and the following query could be executed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_SelectJDBCProbeShortCut.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_SelectJDBCProbeShortCut.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,10 +44,10 @@ The resulting response XML payload
 </parameters>
 ```
 
-**Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_JDBCProbe.md)
+**Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_JDBCProbe.md)
 
 **Related topics**  
 
 
-[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_JDBCProbe.md)
+[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_JDBCProbe.md)
 

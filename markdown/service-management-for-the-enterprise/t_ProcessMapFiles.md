@@ -2,7 +2,7 @@
 title: Process GeoJSON map files
 description: Processing GeoJSON map files includes parsing data from a map and importing that information to the campus space management tables. Use this process to set up your spaces or update bulk changes to your campus without having to enter each change manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_ProcessMapFiles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_ProcessMapFiles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -69,5 +69,5 @@ To process the files properly:
     A summary of all spaces created is displayed when the map file has been processed.
 
 
-**Parent Topic:**[GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_GeoJSONMapFiles.md)
+**Parent Topic:**[GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_GeoJSONMapFiles.md)
 

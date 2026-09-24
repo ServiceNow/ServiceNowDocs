@@ -2,7 +2,7 @@
 title: Set up the T1003 - Credential Dumping - Mimikatz DCsync playbook
 description: Use the following steps to set up the T1003 - Credential Dumping - Mimikatz DCsync playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-credential-dumping-mimikatz-dcsync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-setup-credential-dumping-mimikatz-dcsync.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,5 +46,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
     This playbook is triggered and associated with the security incident when the **Category** is **Rogue server or service**.
 
 
-**Parent Topic:**[Playbook for T1003 - Credential Dumping - Mimikatz DCSync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-credential-dumping-mimikatz-dcsync.md)
+**Parent Topic:**[Playbook for T1003 - Credential Dumping - Mimikatz DCSync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-credential-dumping-mimikatz-dcsync.md)
 

@@ -2,7 +2,7 @@
 title: Instance level keys in the Key Management Framework
 description: Learn about the Key Management Framework \(KMF\) key structure, which uses envelope encryption to ensure that all platform keys under KMF management are protected through a chain of keys. Customer Data Encryption Keys \(CDEKs\) created by KMF are also included in this structure
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/instance-level-keys.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/instance-level-keys.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -153,5 +153,5 @@ Instance
 Specific encryption keys used for the IDR process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/explore-kmf.md)
+</table>**Parent Topic:**[Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/explore-kmf.md)
 

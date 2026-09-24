@@ -2,7 +2,7 @@
 title: Create an Apache Iceberg connection
 description: Establish a zero copy connection to Apache Iceberg in Zero Copy Connector Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-apache-iceberg-connection-primary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-apache-iceberg-connection-primary.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -162,15 +162,15 @@ Access key for ADLS.
 </td></tr></tbody>
 </table>4.  Configure the object storage system that you want to use with Apache Iceberg.
 
-<table id="choicetable_q5x_dvj_xhc"><thead><tr><th align="left" id="d107348e362">
+<table id="choicetable_q5x_dvj_xhc"><thead><tr><th align="left" id="d107330e362">
 
 Option
 
-</th><th align="left" id="d107348e365">
+</th><th align="left" id="d107330e365">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107348e371">
+</th></tr></thead><tbody><tr><td id="d107330e371">
 
 **Amazon S3**
 
@@ -182,7 +182,7 @@ Description
 4.  Configure the metastore that you want to use with Apache Iceberg.
 
 
-</td></tr><tr><td id="d107348e399">
+</td></tr><tr><td id="d107330e399">
 
 **S3-Compatible**
 
@@ -195,7 +195,7 @@ Description
 5.  Configure the metastore that you want to use with Apache Iceberg.
 
 
-</td></tr><tr><td id="d107348e431">
+</td></tr><tr><td id="d107330e431">
 
 **Azure Data Lake Storage \(ADLS\)**
 
@@ -206,15 +206,15 @@ Enter the ADLS Access Key.
 </td></tr></tbody>
 </table>5.  Configure the metastore that you want to use with Apache Iceberg.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d107348e451">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d107330e451">
 
 Option
 
-</th><th align="left" id="d107348e454">
+</th><th align="left" id="d107330e454">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107348e460">
+</th></tr></thead><tbody><tr><td id="d107330e460">
 
 **Hive Thrift**
 
@@ -228,7 +228,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d107348e495">
+</td></tr><tr><td id="d107330e495">
 
 **AWS Glue**
 
@@ -239,7 +239,7 @@ Description
 3.  Enter the AWS region of the Glue Catalog.
  **Note:** AWS Glue appears when Amazon S3 is selected as the object storage system.
 
-</td></tr><tr><td id="d107348e523">
+</td></tr><tr><td id="d107330e523">
 
 **Rest**
 
@@ -262,7 +262,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

@@ -2,7 +2,7 @@
 title: Create a copy of an existing test
 description: Create a test with the details of an existing test.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_CopyATest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/t\_CopyATest.html
 release: australia
 product: Test Management
 classification: test-management
@@ -18,7 +18,7 @@ Create a test with the details of an existing test.
 
 ## Before you begin
 
--   [Create a test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATest.md).
+-   [Create a test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/test-management/t_CreateATest.md).
 -   Role required: tm\_test\_manager or tm\_tester
 
 ## Procedure
@@ -38,5 +38,5 @@ Create a test with the details of an existing test.
 6.  Click **Update**.
 
 
-**Parent Topic:**[Tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_Tests.md)
+**Parent Topic:**[Tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/test-management/c_Tests.md)
 

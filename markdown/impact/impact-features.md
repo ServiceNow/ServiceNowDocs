@@ -2,7 +2,7 @@
 title: Benefits &amp; Usage
 description: Impact Benefits &amp; Usage allows you to quickly access and review the powerful tools available in your Impact subscription.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-features.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-features.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,9 +32,9 @@ Impact Core
 
 </td><td>
 
--   [Exploring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-program-features.md)
--   [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md)
--   [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-operating-model.md)
+-   [Exploring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-program-features.md)
+-   [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-squad.md)
+-   [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-operating-model.md)
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ Experts on Demand
 
 </td><td>
 
--   [Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md)
+-   [Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/impact-initiatives.md)
 -   Advisory sessions
 -   Expert services discount
 
@@ -53,7 +53,7 @@ Platform Health and Monitoring
 </td><td>
 
 -   HealthScan
--   [Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+-   [Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-overview.md)
 
 </td></tr><tr><td>
 
@@ -74,9 +74,9 @@ Premium Technical Support
 </td><td>
 
 -   24/7 Inbound Phone Support
--   [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/developer-support.md)
+-   [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/developer-support.md)
 -   Enhanced case response time
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
+</table>**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
 

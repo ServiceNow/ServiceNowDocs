@@ -2,7 +2,7 @@
 title: Create a renderer
 description: Create or modify renderers using UI macros to provide the rendering instructions. Renderers define a specific look and feel for a catalog or category.Select a renderer and apply them to a catalog to change its appearance.Select a renderer scheme for your categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreatingOrModifyingRenderers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_CreatingOrModifyingRenderers.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -91,7 +91,7 @@ Appears for category renderers. A check box to display the category title bar on
     This new renderer is added to the list of available choices when applying a renderer.
 
 
-**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
+**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
 
 ## Select a renderer for a catalog
 

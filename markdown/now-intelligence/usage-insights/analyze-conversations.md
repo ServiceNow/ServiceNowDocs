@@ -2,7 +2,7 @@
 title: Analyze conversations
 description: Review conversation metrics and trends in Usage Insights, segment them by dimensions such as country, and examine the sequence of events in an individual conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/analyze-conversations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/analyze-conversations.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -46,5 +46,5 @@ Role required: none
     The conversation opens and shows its activity and all of its chat-related events.
 
 
-**Parent Topic:**[Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/conversations.md)
+**Parent Topic:**[Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/conversations.md)
 

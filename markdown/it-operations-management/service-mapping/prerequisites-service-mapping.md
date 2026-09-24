@@ -2,7 +2,7 @@
 title: Prerequisites for performing top-down discovery using Service Mapping
 description: Learn about credentials, users, and user permissions you must configure to let Service Mapping access and discover applications inside your organization private network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/prerequisites-service-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/prerequisites-service-mapping.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -81,7 +81,7 @@ AIX Server \[cmdb\_ci\_aix\_server\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -120,7 +120,7 @@ HPUX Server \[cmdb\_ci\_hpux\_server\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Linux Server \[cmdb\_ci\_linux\_server\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Solaris Server \[cmdb\_ci\_solaris\_server\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -168,7 +168,7 @@ On the ServiceNow AI Platform, configure a domain user for accessing the Windows
 
 </td></tr><tr><td>
 
-Provide all necessary credentials and permissions as described in [Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md).
+Provide all necessary credentials and permissions as described in [Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -204,7 +204,7 @@ On the ServiceNow AI Platform, configure a domain user for accessing the Windows
 
 </td></tr><tr><td>
 
-[AWS DynamoDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-dynamoDB-discovery.md)
+[AWS DynamoDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-dynamoDB-discovery.md)
 
 </td><td>
 
@@ -229,7 +229,7 @@ Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/Ser
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon ELB account ID as it appears in the AWS Management Console.
+On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon ELB account ID as it appears in the AWS Management Console.
 
 </td></tr><tr><td rowspan="4">
 
@@ -245,7 +245,7 @@ Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/Ser
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which API Gateway belongs. Use the Account ID as it appears in the AWS Management Console.
+On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which API Gateway belongs. Use the Account ID as it appears in the AWS Management Console.
 
 </td></tr><tr><td>
 
@@ -273,7 +273,7 @@ Windows Server \[cmdb\_ci\_windows\_server\] or Linux Server \[cmdb\_ci\_linux\_
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which API Gateway belongs. Use the Account ID as it appears in the AWS Management Console.
+On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which API Gateway belongs. Use the Account ID as it appears in the AWS Management Console.
 
 </td></tr><tr><td>
 
@@ -293,7 +293,7 @@ Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/Ser
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which RDS belongs. Use the Account ID as it appears in the AWS Management Console.
+On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account ID to which RDS belongs. Use the Account ID as it appears in the AWS Management Console.
 
 </td></tr><tr><td>
 
@@ -313,7 +313,7 @@ Configure [Amazon Web Services](https://raw.githubusercontent.com/ServiceNow/Ser
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account IT to which AWS Lambda belongs. Use the Account ID as it appears in the AWS Management Console.
+On the ServiceNow AI Platform, [create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the Account ID to the Amazon account IT to which AWS Lambda belongs. Use the Account ID as it appears in the AWS Management Console.
 
 </td></tr><tr><td>
 
@@ -335,7 +335,7 @@ Tomcat \[cmdb\_ci\_app\_server\_tomcat\]
 
 </td><td>
 
-Give the user elevated rights to execute [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to execute [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -359,7 +359,7 @@ Tomcat WAR \[cmdb\_ci\_app\_server\_tomcat\_war\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -379,7 +379,7 @@ Apache Web Server \[cmdb\_ci\_apache\_web\_server\]
 
 </td><td>
 
-\(If hosted on UNIX\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on UNIX\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -411,7 +411,7 @@ App TNS Service
 
 </td><td>
 
-Give the user elevated rights to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -540,7 +540,7 @@ Service Mapping uses the SSH credentials to retrieve connections that aren't fro
             -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/srv"`
     -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
     -   Create [a credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md) for the basic authentication credential.
-    -   Create a [serverless discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.md).
+    -   Create a [serverless discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.md).
 -   For top-down discovery using Service Mapping, provide permissions to run the following APIs:
 
     -   `https://" get_attr {"managementIP"}"/mgmt/tm/ltm/"get_attr {"irule"}`
@@ -553,7 +553,7 @@ Service Mapping uses the SSH credentials to retrieve connections that aren't fro
     -   Traffic Management Shell \(TMSH\) commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 11\)
     -   Traffic Management Shell \(TMSH\) advanced commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 10, 11, and 12\)
     -   The **show cm traffic-group – get command** for discovering F5 BIG-IP Device Service Clustering
--   \(Optional\) For top-down discovery with Service Mapping, give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+-   \(Optional\) For top-down discovery with Service Mapping, give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -565,7 +565,7 @@ Control-M \[cmdb\_ci\_appl\_controlm\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -585,7 +585,7 @@ Control-M \[cmdb\_ci\_appl\_controlm\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -714,7 +714,7 @@ Delivery Controller \[cmdb\_ci\_appl\_delivery\_controler\]
 </td><td>
 
 -   Configure [Windows administrative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) to access the host machine.
--   Make sure that [PowerShell for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md) is installed on your MID Servers. The patterns used for Citrix discovery require the ability to run PowerShell commands.
+-   Make sure that [PowerShell for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_PowerShellForDiscovery.md) is installed on your MID Servers. The patterns used for Citrix discovery require the ability to run PowerShell commands.
 -   For OS users, make sure you can execute “Get-XDSite.” The Citrix Studio Admin should provide permissions.
 -   \(Optional\) For top-down discovery with Service Mapping, on Citrix Delivery Controller, install the Citrix.Broker module.
 -   \(Optional\) For top-down discovery with Service Mapping, a user with permission to run PowerShell commands.
@@ -886,7 +886,7 @@ Oracle Forms Engine \[cmdb\_ci\_appl\_ora\_forms\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -898,7 +898,7 @@ Give the user elevated rights to be able to run [Service Mapping commands requir
 
 </td></tr><tr><td>
 
-[Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/google-gcp-discovery-pattern.md)
+[Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/google-gcp-discovery-pattern.md)
 
 </td><td>
 
@@ -1019,7 +1019,7 @@ On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githu
 
 </td></tr><tr><td>
 
-[IBM Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-cloud-platform-discovery.md)
+[IBM Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/ibm-cloud-platform-discovery.md)
 
 </td><td>
 
@@ -1060,7 +1060,7 @@ Control-M \[cmdb\_ci\_appl\_controlm\]
 
 </td><td>
 
-\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1076,7 +1076,7 @@ IBM CTG \[cmdb\_ci\_appl\_ibm\_ctg\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1092,7 +1092,7 @@ IBM CICS \[cmdb\_ci\_appl\_ibm\_cics\]
 
 </td><td>
 
-\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1108,7 +1108,7 @@ DB2 Instance \[cmdb\_ci\_db\_db2\_instance\]**Note:** Starting with CMDB CI Clas
 
 </td><td>
 
--   \(If hosted on Linux\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+-   \(If hosted on Linux\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 -   \(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 Set the tag attribute to \[cmdb\_ci\_db\_db2\_instance\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
@@ -1134,7 +1134,7 @@ IBM J2EE EAR
 
 </td><td>
 
-\(If hosted on Linux only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Linux only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1146,7 +1146,7 @@ IBM J2EE EAR
 
 </td></tr><tr><td>
 
-[IBM PowerHA SystemMirror for AIX discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-powerha-hamcp-discovery.md)
+[IBM PowerHA SystemMirror for AIX discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/ibm-powerha-hamcp-discovery.md)
 
 </td><td>
 
@@ -1194,7 +1194,7 @@ Webseal \[cmdb\_ci\_app\_server\_webseal\]
 
 </td></tr><tr><td>
 
-[IBM Virtualization and Hardware Management Console \(HMC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md)
+[IBM Virtualization and Hardware Management Console \(HMC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md)
 
 </td><td>
 
@@ -1218,7 +1218,7 @@ An LPAR is virtual machine equivalent of IBM.
     -   `lssysconn -r all -F type_model_serial_num:ipaddr`
 -   Verify you have permissions for the following AIX \(LPAR\) command: `lparstat -i`.
 
-**Note:** The `lparstat -i` command is in addition to the commands required for AIX server discovery. For more information on AIX server discovery, see [AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md). For a list of the AIX commands, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+**Note:** The `lparstat -i` command is in addition to the commands required for AIX server discovery. For more information on AIX server discovery, see [AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md). For a list of the AIX commands, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 -   Configure SSH credentials on the ServiceNow AI Platform. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
 
@@ -1232,7 +1232,7 @@ IBM Websphere \[cmdb\_ci\_app\_server\_websphere\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1306,7 +1306,7 @@ WMB Flow \[cmdb\_ci\_appl\_wmb\]
 
 </td><td>
 
-\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1335,7 +1335,7 @@ IBM WebSphere Message Broker \[cmdb\_ci\_appl\_ibm\_wmb\]
 
 </td><td>
 
-\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1359,7 +1359,7 @@ IBM MQ Manager \(formerly IBM WebSphere MQ\) \[cmdb\_ci\_appl\_ibm\_wmq\]
 
 </td><td>
 
-\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1405,7 +1405,7 @@ IBM MQ Queue \(formerly IBM WebSphere MQ Queue\) \[cmdb\_ci\_appl\_ibm\_wmq\_que
 
 </td><td>
 
-\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1454,7 +1454,7 @@ Websphere Portal \[cmdb\_ci\_appl\_websphere\_portal\]
 
 </td><td>
 
-\(If hosted on Linux only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Linux only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1494,7 +1494,7 @@ JBoss \[cmdb\_ci\_app\_server\_jboss\]
 
 </td><td>
 
-Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1518,7 +1518,7 @@ Jboss module \[cmdb\_ci\_app\_server\_jb\_module\]
 
 </td><td>
 
-\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on a Unix server\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1538,7 +1538,7 @@ Jrun \[cmdb\_ci\_app\_server\_jrun\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1562,7 +1562,7 @@ Jrun WAR \[cmdb\_ci\_app\_server\_jrun\_war\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1582,7 +1582,7 @@ Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]
 
 </td><td>
 
-On the ServiceNow AI Platform, [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
+On the ServiceNow AI Platform, [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
 
 </td></tr><tr><td>
 
@@ -1594,7 +1594,7 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
+On the ServiceNow AI Platform, configure [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
 
 </td></tr><tr><td>
 
@@ -1606,7 +1606,7 @@ Cloud Database Rule \[cmdb\_ci\_cloud\_database\]
 
 </td><td>
 
-On the ServiceNow AI Platform, [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
+On the ServiceNow AI Platform, [add an Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) and [set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md). Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console.
 
 </td></tr><tr><td rowspan="2">
 
@@ -1666,7 +1666,7 @@ On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githu
 
 </td></tr><tr><td>
 
-Configure [credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md) for a Windows server.
+Configure [credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md) for a Windows server.
 
 </td></tr><tr><td>
 
@@ -1686,7 +1686,7 @@ On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githu
 
 </td></tr><tr><td>
 
-Configure [credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md) for a Windows server.
+Configure [credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md) for a Windows server.
 
 </td></tr><tr><td>
 
@@ -1742,7 +1742,7 @@ Service Mapping uses these applicative credentials to access the of/Servers/Serv
     -   Get-MailboxDatabase
 -   \(For Microsoft Exchange CAS 2010 and 2016\) On the Windows Server hosting Microsoft Exchange CAS, install the Microsoft.Exchange.Management.PowerShell.E2010 module.
 -   \(For Microsoft Exchange CAS 2007\) On the Windows Server hosting Microsoft Exchange CAS, install the Microsoft.Exchange.Management.PowerShell.Admin module.
--   \(For Microsoft Exchange CAS 2007, 2010\) On the ServiceNow AI Platform, upload the rctrlx tool for running PowerShell commands as described in [Upload the rctrlx.exe file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/upload-rctrlx-file.md).
+-   \(For Microsoft Exchange CAS 2007, 2010\) On the ServiceNow AI Platform, upload the rctrlx tool for running PowerShell commands as described in [Upload the rctrlx.exe file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/upload-rctrlx-file.md).
 -   \(For Microsoft Exchange CAS 2007 and 2010\) Provide an Exchange Mailbox OS user with the rights to run Exchange services on Windows and has permission to query Exchange repository:
 
 On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) setting the **Credential alias** attribute to \[cmdb\_ci\_exchange\_mailbox\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
@@ -1909,7 +1909,7 @@ Mongo Config Server \[cmdb\_ci\_appl\_mongo\_config\_serv\]
 
 </td></tr><tr><td>
 
-Provide a user with permissions to run Mongo commands described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
+Provide a user with permissions to run Mongo commands described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -1921,7 +1921,7 @@ MySQLClusterMGMNode \[cmdb\_ci\_db\_mysql\_clustermgnode\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1937,7 +1937,7 @@ Nginx Web Server \[cmdb\_ci\_nginx\_web\_server\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -1997,7 +1997,7 @@ Advanced Queue Queue \[cmdb\_ci\_appl\_ora\_queue\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 </td></tr><tr><td>
 
@@ -2017,7 +2017,7 @@ UNIX Cluster \[cmdb\_ci\_unix\_cluster\], UNIX Cluster Node \[cmdb\_ci\_unix\_cl
 
 </td><td>
 
-See [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md).
+See [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -2029,7 +2029,7 @@ Oracle Concurrent Server \[cmdb\_ci\_appl\_ora\_conc\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -2053,7 +2053,7 @@ Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -2073,7 +2073,7 @@ Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]
 
 </td></tr><tr><td>
 
-[Oracle Database 12c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-cdb-pdb-discovery.md)
+[Oracle Database 12c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/oracle-cdb-pdb-discovery.md)
 
 </td><td>
 
@@ -2081,10 +2081,10 @@ Oracle PDB Instance \[cmdb\_ci\_db\_ora\_pdb\_instance\]
 
 </td><td>
 
--   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) or [Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md)
+-   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) or [Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md)
 -   For Windows, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)
 -   For Unix, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md)
--   For the Oracle database, configure [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md)
+-   For the Oracle database, configure [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md)
 -   Provide a user with permissions to run queries on the following tables:
     -   V$DATAFILE
     -   V$TEMPFILE​
@@ -2112,7 +2112,7 @@ Advanced Queue Queue \[cmdb\_ci\_appl\_ora\_queue\]
 
 </td></tr><tr><td>
 
-Provide an Oracle instance user with permission to run the sqlplus command as described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
+Provide an Oracle instance user with permission to run the sqlplus command as described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 </td></tr><tr><td rowspan="5">
 
@@ -2124,7 +2124,7 @@ Oracle Discoverer Engine \[cmdb\_ci\_appl\_ora\_disc\]
 
 </td><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -2152,7 +2152,7 @@ Oracle Discoverer UI \[cmdb\_ci\_appl\_ora\_disc\_ui\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 </td></tr><tr><td>
 
@@ -2164,7 +2164,7 @@ On the ServiceNow AI Platform, configure a domain user for accessing the Windows
 
 </td></tr><tr><td>
 
-\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Unix only\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -2351,7 +2351,7 @@ Configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(If hosted on Linux\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -2455,7 +2455,7 @@ Peoplesoft Application Server \[cmdb\_ci\_appl\_peoplesoft\]
 
 </td><td>
 
-Provide a user with permissions to run commands described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
+Provide a user with permissions to run commands described in [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -2537,7 +2537,7 @@ Tuxedo \[cmdb\_ci\_appl\_tuxedo\] and Tuxedo Portal \[cmdb\_ci\_appl\_tuxedo\_po
 
 -   On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
 -   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
--   \(If hosted on Unix\) Provide a user with the elevated rights for running commands described in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+-   \(If hosted on Unix\) Provide a user with the elevated rights for running commands described in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -2585,7 +2585,7 @@ Websphere ODR LB \[cmdb\_ci\_app\_server\_ws\_odr\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+\(If hosted on Unix\) Configure [applicative credentials for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 </td></tr><tr><td>
 
@@ -2668,7 +2668,7 @@ PostgreSQL Instance \[cmdb\_ci\_db\_postgresql\_instance\]
 
 </td></tr><tr><td>
 
-\(For hosted on Unix only\) Give this user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(For hosted on Unix only\) Give this user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -2760,7 +2760,7 @@ SAP CI Application \[cmdb\_ci\_appl\_sap\_ci\]/SAP SCS Application \[cmdb\_ci\_a
 
 </td><td>
 
--   \(If hosted on a UNIX server\) On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) and [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md). The SSH credentials are used to create connections from SAP Central Instance \(CI\) to other applications and devices. In addition, provide the user elevated rights to be able to run commands requiring a privileged user: [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+-   \(If hosted on a UNIX server\) On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) and [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md). The SSH credentials are used to create connections from SAP Central Instance \(CI\) to other applications and devices. In addition, provide the user elevated rights to be able to run commands requiring a privileged user: [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 -   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) to create connections from SAP CI to other applications and devices.
 -   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 -   \(Optional for top-down discovery by Service Mapping\) Provide a user with permissions to run SOAP on RFC read table function.
@@ -2810,7 +2810,7 @@ Sybase Instance \[cmdb\_ci\_db\_syb\_instance\]
 
 </td></tr><tr><td>
 
-\(For hosted on Unix only\) Give this user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+\(For hosted on Unix only\) Give this user elevated rights to be able to run [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
 
@@ -3004,16 +3004,16 @@ Enterprise Vault \[cmdb\_ci\_email\_server\_ent\_vault\]
 
 If there are discovery issues caused by incorrectly configured or missing credentials, resolve them as explained in the KB article: [Credentials &amp; Permissions troubleshooting on Discovery, Service Mapping, Orchestration](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0657528)
 
--   **[Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md)**  
+-   **[Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md)**  
 There are credentials and permissions that Service Mapping requires for discovering hosts.
--   **[Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md)**  
+-   **[Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md)**  
 Service Mapping uses commands requiring elevated rights to discover and map Unix-based hosts in your organization. In addition to configuring necessary credentials, configure servers in your organization to allow Service Mapping to run these commands with elevated rights.
--   **[Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md)**  
+-   **[Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_NonSudoCommands.md)**  
 Most of commands utilized by Service Mapping for discovery and mapping do not require elevated rights.
--   **[SNMP-based queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/snmp-based-queries.md)**  
+-   **[SNMP-based queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/snmp-based-queries.md)**  
 Service Mapping accesses network infrastructure devices like load balancers and routers using Simple Network Management Protocol \(SNMP\) v1/v2c/v3. Configure SNMP community credentials to enable this type of access.
 
-**Parent Topic:**[Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
+**Parent Topic:**[Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-setup.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Use the Format component
 description: Change the format of a date by using the Format component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-datetime-compare.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-datetime-compare.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Format component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-datetime-prop.md).
+You can configure the properties for the Format component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-datetime-prop.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ You can configure the properties for the Format component. For more information 
 
     3.  Click **OK**.
 
-5.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+5.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 6.  Connect the data and control ports of the Format component to the corresponding ports of the other components as described in the following table.
 
@@ -106,5 +106,5 @@ No. Connecting the port is optional.
 </table>7.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/datetime-utility.md)
+**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/datetime-utility.md)
 

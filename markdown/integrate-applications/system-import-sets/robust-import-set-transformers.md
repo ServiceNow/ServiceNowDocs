@@ -2,7 +2,7 @@
 title: Robust Import Set Transformers
 description: Use robust import set transformers instead of transform maps if you want to extract, transform, and load data to one or more target tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/robust-import-set-transformers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/robust-import-set-transformers.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -34,7 +34,7 @@ When you use the robust import set transformer, Extract Transform Load \(ETL\) f
 -   Define entity field mappings.
 -   Define entity operations.
 
-For an overview of ETL definitions, see [Extract Transform Load \(ETL\) definition overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/etl-definition-overview.md). For a step-by-step guide on how to create ETL definitions, see [Create Extract Transform Load \(ETL\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-etl-definitions.md).
+For an overview of ETL definitions, see [Extract Transform Load \(ETL\) definition overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/etl-definition-overview.md). For a step-by-step guide on how to create ETL definitions, see [Create Extract Transform Load \(ETL\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/create-etl-definitions.md).
 
 As of the Paris release, ETL definitions also support nested data structures such as the following when the **Data source** has JSON/XML payloads in a single column.
 
@@ -83,9 +83,9 @@ As of the Paris release, ETL definitions also support nested data structures suc
 **Related topics**  
 
 
-[Create a robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-robust-import-set-transformer.md)
+[Create a robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/create-robust-import-set-transformer.md)
 
-[Create robust transform definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-robust-transform-definitions.md)
+[Create robust transform definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/create-robust-transform-definitions.md)
 
-[Create Extract Transform Load \(ETL\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-etl-definitions.md)
+[Create Extract Transform Load \(ETL\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/create-etl-definitions.md)
 

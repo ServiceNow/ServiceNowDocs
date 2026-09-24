@@ -2,7 +2,7 @@
 title: Create an asset
 description: Manually create an asset to the Discovery Console for OT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/create-asset-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/create-asset-console.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,5 +58,5 @@ Role required: admin
 
 The asset is created and added to the Assets page.
 
-**Parent Topic:**[Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/assets-page-console.md)
+**Parent Topic:**[Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/assets-page-console.md)
 

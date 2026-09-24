@@ -2,7 +2,7 @@
 title: Add a product feature to a product or service
 description: Add a product feature to a product or service to help you plan and manage the scope of a release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-create-product-feature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-create-product-feature.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release

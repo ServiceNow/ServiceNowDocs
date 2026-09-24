@@ -2,7 +2,7 @@
 title: Add a decision to an app's playbook in Creator Studio
 description: Add decisions, which are if/then conditions, to define branches, or different paths of an automation's playbook in Creator Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-add-decision-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-add-decision-automation.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -166,5 +166,5 @@ The app processes only the first listed branch with conditions met.If you select
 10. Select **Save and close**.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-working-with-automations.md)
 

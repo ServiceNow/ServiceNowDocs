@@ -2,7 +2,7 @@
 title: Generate code with AI-powered code generation
 description: Generate code from text with AI-powered ServiceNow Otto for Code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/generate-scripts-from-text.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/generate-scripts-from-text.html
 release: australia
 product: Scripts
 classification: scripts
@@ -18,7 +18,7 @@ Generate code from text with AI-powered ServiceNow Otto for Code.
 
 ## Before you begin
 
-Learn how to write prompts to generate better code suggestions. For more information, see [General guidelines for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/general-guidelines-code-generation.md).
+Learn how to write prompts to generate better code suggestions. For more information, see [General guidelines for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/general-guidelines-code-generation.md).
 
 Role required: now.assist.creator
 

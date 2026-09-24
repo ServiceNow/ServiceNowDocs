@@ -2,7 +2,7 @@
 title: Copy HCLS Script Includes to Global Scope
 description: Copy the MultiSSO\_OIDC\_CTO and OAuthUtilEpic script includes to the global scope so they are available for later configuration steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-copy-script-include-global.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-copy-script-include-global.html
 release: australia
 topic_type: task
 last_updated: "2026-04-30"

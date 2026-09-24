@@ -2,7 +2,7 @@
 title: Extracting and composing alert fields
 description: Extracting and composing are ways to manage what you see in the alert output, making it simpler to filter, group, and read. Alert automation enables you to extract values from event payload's alert field and place it in an alert output field. Composing allows you to merge multiple alert fields into a single output field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/extract-compose-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/extract-compose-fields.html
 release: australia
 product: Event Management
 classification: event-management

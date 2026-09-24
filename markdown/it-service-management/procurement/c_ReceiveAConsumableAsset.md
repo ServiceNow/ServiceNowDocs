@@ -2,7 +2,7 @@
 title: Consumable assets
 description: A consumable asset is one that is purchased in quantity and distributed. It is assigned to the consumable model category, and the asset record tracks the quantity that is available and total cost. When consumable assets are received, they are merged into an existing consumable record, if available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/c\_ReceiveAConsumableAsset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/procurement/c\_ReceiveAConsumableAsset.html
 release: australia
 product: Procurement
 classification: procurement
@@ -39,7 +39,7 @@ If no matching consumable record exists in the receiving stockroom, a record is 
 
 For more details on creating consumable assets, see [Create consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_CreatingConsumableAssets.md).
 
-**Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_ReceiveAssets.md)
+**Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/procurement/c_ReceiveAssets.md)
 
 **Related topics**  
 

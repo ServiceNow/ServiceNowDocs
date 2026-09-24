@@ -2,7 +2,7 @@
 title: Configuring product offerings and catalogs
 description: Create product offerings and the associated product catalogs that can be used by Sales Customer Relationship Management agents for pre-sales activities, order capture, and post-sales engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/configuring-product-offerings-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/configuring-product-offerings-catalog.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-01"

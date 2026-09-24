@@ -2,7 +2,7 @@
 title: Configure AI Agents for CSM - Complaint Case workflow
 description: Configure the AI Agents for CSM - Complaint Case workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

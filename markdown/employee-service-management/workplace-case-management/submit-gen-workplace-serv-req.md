@@ -2,7 +2,7 @@
 title: Raise help request for a workplace inquiry
 description: Submit a general workplace service request for issues that need a human response. Request help for issues that are not covered by current automated workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/submit-gen-workplace-serv-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/submit-gen-workplace-serv-req.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -58,7 +58,7 @@ You can also submit a general question using the Virtual agent chat support. Fro
 
     If the Workplace Space Mapping plugin is installed, you can also click the **Find the space on a floor map** option to select the space directly on the map.
 
-    If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
+    If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
 
     1.  In the **Location** field, select the building where the space is located.
 
@@ -87,7 +87,7 @@ If you want to cancel a request, Click **Cancel Request**.
 
 When the request is resolved, select **Accept** or **Reject**.
 
-**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

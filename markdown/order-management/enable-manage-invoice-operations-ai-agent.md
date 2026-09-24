@@ -2,12 +2,12 @@
 title: Configure AI-assisted invoice dispute intake on the Business Portal
 description: Activate and associate the invoice dispute intake assistant AI agent on the Business Portal so that your customers can submit invoice cases autonomously using ServiceNow Otto Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/enable-manage-invoice-operations-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enable-manage-invoice-operations-ai-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
@@ -56,7 +56,7 @@ Role required: sn\_aia.admin
 
 The chat assistant is activated in the Business Portal.
 
-**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-invoice-operations.md)
+**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-manage-invoice-operations.md)
 
 **Related topics**  
 

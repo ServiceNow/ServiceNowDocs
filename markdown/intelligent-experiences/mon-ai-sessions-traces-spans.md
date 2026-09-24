@@ -2,12 +2,12 @@
 title: Sessions, traces, and spans
 description: Understand the three levels of AI interaction data that AI Control Tower uses to structure, score, and display runtime behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-sessions-traces-spans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-sessions-traces-spans.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-03"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 

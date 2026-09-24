@@ -2,7 +2,7 @@
 title: Oracle E-Business Suite connection field descriptions
 description: The Oracle E-Business Suite connection in Zero Copy Connector for ERP contains endpoint, credential, and Oracle context values that determine which data the connection can read.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-connection-field-descriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-connection-field-descriptions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,7 +17,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The Oracle E-Business Suite connection in Zero Copy Connector for ERP contains endpoint, credential, and Oracle context values that determine which data the connection can read.
 
-For process details, see [Create an Oracle E-Business Suite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-an-oracle-ebs-connection.md).
+For process details, see [Create an Oracle E-Business Suite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-create-an-oracle-ebs-connection.md).
 
 ## Connection field descriptions
 

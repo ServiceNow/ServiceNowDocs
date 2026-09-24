@@ -2,7 +2,7 @@
 title: Default proactive prompts for Manager Hub
 description: Default signal configurations, signal categories, and an action URL are available to use on activating Manager Hub and Proactive Prompts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/prompts-mh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/prompts-mh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -16,11 +16,11 @@ breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Manag
 
 Default signal configurations, signal categories, and an action URL are available to use on activating Manager Hub and Proactive Prompts.
 
-To learn how to use Proactive Prompts, refer to the [Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.md) documentation.
+To learn how to use Proactive Prompts, refer to the [Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.md) documentation.
 
 ## Signal configurations
 
-For detailed information on how to configure signals in Proactive Prompts, see [Configuring Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-config.md).
+For detailed information on how to configure signals in Proactive Prompts, see [Configuring Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-config.md).
 
 <table id="id_s1t_qps_tvb"><thead><tr><th>
 
@@ -119,15 +119,15 @@ A scheduled job runs every 14 days to identify users based on the following crit
 
 Signal categories are the logical groups to divide signals. Signal categories enable you to pull category-specific prompts on the prompt widget.
 
-Career, Employee service, New hire, Team insights, and Well-being are the default signal categories that are available for Manager Hub. For more information on these signal categories, see [Configure signal categories in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-catergories.md).
+Career, Employee service, New hire, Team insights, and Well-being are the default signal categories that are available for Manager Hub. For more information on these signal categories, see [Configure signal categories in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-signal-catergories.md).
 
 ## Signal actions
 
 Signal actions enable end users who receive the prompt to act on them. **Open a URL** is the default signal action that is available for Manager Hub.
 
-For more information on signal actions, see [Configure signal actions for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-actions.md).
+For more information on signal actions, see [Configure signal actions for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-signal-actions.md).
 
-**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 

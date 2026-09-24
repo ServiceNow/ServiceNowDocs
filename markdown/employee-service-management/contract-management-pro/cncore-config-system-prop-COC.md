@@ -2,7 +2,7 @@
 title: Activate a system property to generate a certificate of completion
 description: As a contract configurator, activate a system property to generate a certificate of completion for electronically signed contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -19,7 +19,7 @@ As a contract configurator, activate a system property to generate a certificate
 
 ## Before you begin
 
-You must have configured an electronic signature provider. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
+You must have configured an electronic signature provider. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
 
 Role required: admin
 
@@ -50,7 +50,7 @@ The certificate of completion provided by Docusign or Adobe Acrobat Sign include
 
 A certificate of completion will be generated for all electronically signed contracts.
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 

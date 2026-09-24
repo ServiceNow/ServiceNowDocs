@@ -2,7 +2,7 @@
 title: Create a filter on a technical dashboard in UI Builder
 description: To filter data visualizations and simple lists in a technical dashboard, add a filter component in UI Builder and configure event handlers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-filter-tech-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/add-filter-tech-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ Role required: ui\_builder\_admin, admin
 
 ## Procedure
 
-1.  Locate the dashboard in the dashboard library and open it for editing, as described in [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
+1.  Locate the dashboard in the dashboard library and open it for editing, as described in [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-db-in-ac.md).
 
-    If the dashboard is a technical dashboard, you see an **Edit in UI Builder** button. If it is in the inline editor, you see an **Edit** button. In the latter case, go to [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md).
+    If the dashboard is a technical dashboard, you see an **Edit in UI Builder** button. If it is in the inline editor, you see an **Edit** button. In the latter case, go to [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-workspace-filter-type.md).
 
 2.  If you are in a different application scope than the dashboard, use the application picker to select the correct scope.
 

@@ -2,7 +2,7 @@
 title: Index previously published TRM catalog records for AI Search
 description: Manually trigger indexing for TRM catalog records that were published before you installed the May 2026 EA Workspace update, so that they are searchable through the Now Assist panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/index-archive-pub-trm-cat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/index-archive-pub-trm-cat.html
 release: australia
 topic_type: task
 last_updated: "2026-04-17"
@@ -22,7 +22,7 @@ Your instance must meet the following prerequisites:
 
 -   Activate AI Search. Navigate to **All** and search for **AI Search Status**. The status page must display **AI Search is ready**. For instructions, see [Activate AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-ui-builder-agent.md)
 -   Enable the Now Assist panel. Navigate to **Now Assist Admin** &gt; **Now Assist Experiences** &gt; **Now Assist panel** and confirm the panel is turned on. For instructions, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
--   Install the Now Assist for EA plugin. For instructions, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md).
+-   Install the Now Assist for EA plugin. For instructions, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md).
 -   Install the EA Workspace May 2026 update from the ServiceNow Store.
 
 ## About this task
@@ -50,10 +50,10 @@ Installing the May 2026 EA Workspace update registers the TRM catalog as an inde
 
 Previously published TRM catalog records are indexed and searchable through the Now Assist panel.
 
-**Parent Topic:**[AI Search on the TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ai-search-trm-cat.md)
+**Parent Topic:**[AI Search on the TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ai-search-trm-cat.md)
 
 **Related topics**  
 
 
-[AI Search on the TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ai-search-trm-cat.md)
+[AI Search on the TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ai-search-trm-cat.md)
 

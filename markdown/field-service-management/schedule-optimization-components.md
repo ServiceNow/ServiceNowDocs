@@ -2,7 +2,7 @@
 title: Schedule Optimization components
 description: Components installed with Schedule Optimization include tables, roles, constraints, objectives, and properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/schedule-optimization-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/schedule-optimization-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -135,21 +135,21 @@ schedule\_optimization\_planner
 Planner role for the Schedule Optimization application. This role allows administrators to perform administration configurations for the Schedule Optimization application and perform schedule planning activities.Contains assignment\_rule\_admin role.
 
 </td></tr></tbody>
-</table>-   **[Tables installed with FSM for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/tables-installed-with-fsm-for-schedule-optimization.md)**  
+</table>-   **[Tables installed with FSM for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/tables-installed-with-fsm-for-schedule-optimization.md)**  
 The following tables are installed with the Field Service Management plugin, but are only used by Schedule Optimization.
--   **[Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/hard-soft-constraints.md)**  
+-   **[Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/hard-soft-constraints.md)**  
 Objectives and constraints are optimization features that determine how tasks are assigned to technicians in Schedule Optimization.
--   **[Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-properties.md)**  
+-   **[Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/schedule-optimization-properties.md)**  
 You can set parameters that control how optimization runs.
--   **[Schedule Optimization integration user access requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-integration-user-access-requirements.md)**  
+-   **[Schedule Optimization integration user access requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/schedule-optimization-integration-user-access-requirements.md)**  
 Describes the access requirements for the shared integration user account used by Schedule Optimization.
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 
 **Related topics**  
 
 
-[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
+[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 
-[Activate Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine-plugin.md)
+[Activate Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-optimization-engine-plugin.md)
 

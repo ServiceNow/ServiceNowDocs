@@ -2,7 +2,7 @@
 title: Prepare to upgrade with Upgrade Plan
 description: Prepare your instance upgrade with Upgrade Plan by determining all the applications and plugins are ready to be implemented in the upgrade.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-prepare-upgrade-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-prepare-upgrade-plan.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -58,10 +58,10 @@ Role required: admin
     **Note:** This step is applicable only if you have any error items in the upgrade plan.
 
 
--   **[Preview Upgrade Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-preview-upgrade-plan.md)**  
+-   **[Preview Upgrade Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-preview-upgrade-plan.md)**  
 Preview your upgrade plan before being implemented in the upgrades. Once the upgrade plan is installed, it auto generates the preview of the upgrade plan.
 
-**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
+**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
 
 **Related topics**  
 

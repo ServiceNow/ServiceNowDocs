@@ -2,7 +2,7 @@
 title: Activate Group Action Framework for ServiceNow Otto for Sales CRM for Telecommunications
 description: Activate the Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/activate-group-action-framework-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/activate-group-action-framework-somt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

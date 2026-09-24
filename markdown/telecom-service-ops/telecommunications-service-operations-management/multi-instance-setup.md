@@ -2,7 +2,7 @@
 title: Set up multiple Nokia Altiplano instances
 description: Learn how to configure and manage multiple Nokia Altiplano instances within a single ServiceNow environment. This enables administrators and integrators to create independent connection aliases and import schedules customized to specific filtering or frequency needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/multi-instance-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/multi-instance-setup.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -37,7 +37,7 @@ You can configure additional Nokia Altiplano instances or reuse the same Altipla
 
 2.  On the Getting Started page, select **Get Started**.
 
-    Repeat all the steps under the Configured Connectivity section. It creates configuration entries for the new instance of Nokia Altiplano. For more information, see [Set up Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/initial-setup-procedure.md).
+    Repeat all the steps under the Configured Connectivity section. It creates configuration entries for the new instance of Nokia Altiplano. For more information, see [Set up Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/initial-setup-procedure.md).
 
 3.  Configure the connectivity by creating a connection alias, credentials, and HTTP connection.
 
@@ -69,7 +69,7 @@ You can configure additional Nokia Altiplano instances or reuse the same Altipla
 
     1.  Fill in the fields.
 
-        For more information, see [Set up Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/initial-setup-procedure.md).
+        For more information, see [Set up Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/initial-setup-procedure.md).
 
     2.  In the **Use connection** field, choose the new Altiplano instance.
 
@@ -90,9 +90,9 @@ Example: Altiplano\_Weekly\_OLT\_10.10.10.\*: Runs weekly, filters OLTs with IPs
 **Related topics**  
 
 
-[Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
+[Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
 
-[Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md)
+[Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md)
 
-[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
+[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
 

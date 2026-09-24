@@ -2,7 +2,7 @@
 title: FIDO2 as an MFA factor
 description: You can configure FIDO2 as an MFA factor policy to enforce MFA for yours.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-with-fido.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-with-fido.html
 release: australia
 product: Authentication
 classification: authentication
@@ -26,7 +26,7 @@ You can configure FIDO2 factor policy and when the users satisfies the factor po
 
 If the registration is completed, then second factor validation screen is displayed to log in.
 
-**Note:** FIDO2 can also be self-enrolled by the users. To know more about how to self-enroll, see [Set up Multi-factor authentication on your user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-setup-profile.md).
+**Note:** FIDO2 can also be self-enrolled by the users. To know more about how to self-enroll, see [Set up Multi-factor authentication on your user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-setup-profile.md).
 
 ## Key Benefits
 

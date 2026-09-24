@@ -2,7 +2,7 @@
 title: Skills Workspace
 description: You can update and maintain skills and job architecture data from a single place using the Skills Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-intelligence-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/skills-intelligence-workspace.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

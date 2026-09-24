@@ -2,7 +2,7 @@
 title: Export the portfolio plan status or roadmap to Microsoft PowerPoint
 description: Export the status of goals, work items, roadmap, and key metrics of your portfolio plan and free-form roadmap into a Microsoft PowerPoint file so that you can keep your business stakeholders updated on the progress. Save time by avoiding copying data into reports and drive shared outcomes by enabling collaboration even with stakeholders who can’t access your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/export-a-portfolio-plan-to-powerpoint-strategic-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/export-a-portfolio-plan-to-powerpoint-strategic-planning.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +18,7 @@ Export the status of goals, work items, roadmap, and key metrics of your portfol
 
 ## Before you begin
 
-[Install Export to PowerPoint for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/install-export-to-ppt.md).
+[Install Export to PowerPoint for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/export-to-powerpoint-for-application-portfolio-management/install-export-to-ppt.md).
 
 **Important:** Export to PowerPoint is available only in the GCC, NSC, SPP-AU, SPP-SG, and Australia IRAP-Protected data center environments.
 
@@ -34,7 +34,7 @@ The following three PowerPoint templates are provided by default to generate a s
 -   Portfolio plan &amp; goals status: Contains slides for Goals and targets for this portfolio, achieved goals, goals at risk, and individual detailed slides for the top five items prioritized by rank.
 -   Roadmap Template - default: Contains slides for Roadmap for this portfolio. You can export roadmap data for maximum period of a year at a time.
 
-You can customize the type of the data to be shown in the generated report by updating a predefined template or by creating your own branded template. See [Create a Microsoft PowerPoint template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/create-ppt-template.md).
+You can customize the type of the data to be shown in the generated report by updating a predefined template or by creating your own branded template. See [Create a Microsoft PowerPoint template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/export-to-powerpoint-for-application-portfolio-management/create-ppt-template.md).
 
 ## Procedure
 
@@ -42,15 +42,15 @@ You can customize the type of the data to be shown in the generated report by up
 
 2.  Export the status of goals, work items, roadmap, and key metrics of your portfolio plan and free-form roadmap into a Microsoft PowerPoint file.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d299027e155">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d298415e155">
 
 For exporting this data
 
-</th><th align="left" id="d299027e158">
+</th><th align="left" id="d298415e158">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d299027e164">
+</th></tr></thead><tbody><tr><td id="d298415e164">
 
 **Portfolio plan, goals, or roadmap with default settings**
 
@@ -67,7 +67,7 @@ Perform these steps
 
 **Note:** The **Roadmap Template - default** option appears only when you select **Export to PowerPoint** from the Scoring or Planning page.
 
-</td></tr><tr><td id="d299027e229">
+</td></tr><tr><td id="d298415e229">
 
 **Roadmap or free-form roadmap with customized settings**
 

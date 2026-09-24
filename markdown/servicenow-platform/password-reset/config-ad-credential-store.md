@@ -2,7 +2,7 @@
 title: Configure the connection to an AD credential store
 description: You can create a Password Reset credential store record to configure access to your Active Directory server while a user is changing or resetting a password. In addition to host connection information, you can specify the password hints that users should see, restrictions on password reuse, the allowed number of failed reset attempts, and other settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/config-ad-credential-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/config-ad-credential-store.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -59,7 +59,7 @@ Enforce history policy
 
 Appears only if you select a **Microsoft AD Credential Store type** or **Local ServiceNow Instance** credential store type. The Microsoft AD Credential Store type supports history check. The **Enforce history policy** option appears only when the **Supports history check** option is selected for the **Microsoft AD Credential Store type**.
 
-For information on configuring the setting for credential store types other than AD, see [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateACredentialStore.md). Select the **Enforce history policy** check box to enforce the history policy \(password reuse\).
+For information on configuring the setting for credential store types other than AD, see [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateACredentialStore.md). Select the **Enforce history policy** check box to enforce the history policy \(password reuse\).
 
 History policy \(password reuse\): Active Directory domains can be configured to include a history policy that ensures that users don't reuse passwords. For example, the history policy might be configured to not allow the user to reuse any of the previous 10 passwords when resetting a password. This history policy limit is managed by the password\_history\_limit verification parameter.
 
@@ -145,13 +145,13 @@ Default settings:-   Selected for local ServiceNow credential stores
 
 8.  Set up the [Microsoft AD v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-ms-ad-v2.md)
 
-9.  [Test the connection to the credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/test-cxn-to-credential-store.md).
+9.  [Test the connection to the credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/test-cxn-to-credential-store.md).
 
 
-**Parent Topic:**[Credentials Store for Password Reset for Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/credentials-store-AD.md)
+**Parent Topic:**[Credentials Store for Password Reset for Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/credentials-store-AD.md)
 
 **Related topics**  
 
 
-[Configure the required strength for passwords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/config-pwd-strength-rqmts.md)
+[Configure the required strength for passwords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/config-pwd-strength-rqmts.md)
 

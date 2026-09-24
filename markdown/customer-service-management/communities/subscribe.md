@@ -2,7 +2,7 @@
 title: Subscribe to content
 description: Subscribe to forums, topics, questions, blogs, and videos. You are automatically subscribed to content that you create.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/subscribe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/subscribe.html
 release: australia
 product: Communities
 classification: communities
@@ -33,17 +33,17 @@ Role required: sn\_communities.community\_user
 
     When you point to this option, it becomes **Unsubscribed**.
 
-    You can also view your notifications and subscriptions and enable or disable them. For details, see [Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/manage-subscriptions.md).
+    You can also view your notifications and subscriptions and enable or disable them. For details, see [Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/manage-subscriptions.md).
 
 
-**Parent Topic:**[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-subscriptions.md)
+**Parent Topic:**[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/c_communities-subscriptions.md)
 
 **Related topics**  
 
 
 [Set notification preferences]()
 
-[Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/manage-subscriptions.md)
+[Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/manage-subscriptions.md)
 
-[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-subscriptions.md)
+[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/c_communities-subscriptions.md)
 

@@ -2,7 +2,7 @@
 title: Create a universal request using Virtual Agent
 description: Create a universal request with the help of Virtual Agent. You can access the Virtual Agent using the chat option in the search page of Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-create-ur-using-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-create-ur-using-va.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -30,7 +30,7 @@ Role required: none
 
 4.  Select whether your request contains sensitive information.
 
-    If your request contains sensitive information, the Virtual Agent can detect that. It can mark your request as sensitive. For a sample Virtual Agent conversation, see [Universal Request Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-va-conversation-flows.md).
+    If your request contains sensitive information, the Virtual Agent can detect that. It can mark your request as sensitive. For a sample Virtual Agent conversation, see [Universal Request Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-va-conversation-flows.md).
 
 5.  If prompted, select the department.
 
@@ -39,5 +39,5 @@ Role required: none
 
 A universal request is created for your issue.
 
-**Parent Topic:**[Virtual Agent for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-va-landing.md)
+**Parent Topic:**[Virtual Agent for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-va-landing.md)
 

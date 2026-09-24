@@ -2,7 +2,7 @@
 title: Add a connection in the Connections dashboard
 description: Add a connection through the Connections dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/dashboard-add-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/dashboard-add-connection.html
 release: australia
 product: Integration Hub
 classification: integration-hub

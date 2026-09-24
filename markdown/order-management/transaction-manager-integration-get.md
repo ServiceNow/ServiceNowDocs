@@ -2,7 +2,7 @@
 title: ServiceNow Quote Experience Integration - GET
 description: Learn how to access data from a third-party application such as Salesforce by using the GET integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-integration-get.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/transaction-manager-integration-get.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ The rest of this article lists the steps in CPQ to create the integrations that 
 
 ## Administration setup: Prerequisites
 
-This guide assumes a CPQ environment with ServiceNow Quote Experience features enabled, as well as installation of the CPQ ServiceNow Quote Experience Integration Extension on a corresponding Salesforce environment. To view the installation instructions, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md).
+This guide assumes a CPQ environment with ServiceNow Quote Experience features enabled, as well as installation of the CPQ ServiceNow Quote Experience Integration Extension on a corresponding Salesforce environment. To view the installation instructions, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md).
 
 ## CPQ: Add a connection
 
@@ -42,7 +42,7 @@ A connection record contains the data required to initiate a ServiceNow Quote Ex
 
 \[Omitted image "cpq-txn-mgr-integration-get-add-connection.png"\] Alt text: Add a Connection
 
-For information about adding a connection, see the "Creating a Connection" section in [ServiceNow Quote Experience Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integrations.md). For the purposes of this article, we use a connection to a Salesforce environment.
+For information about adding a connection, see the "Creating a Connection" section in [ServiceNow Quote Experience Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/transaction-manager-integrations.md). For the purposes of this article, we use a connection to a Salesforce environment.
 
 ## CPQ: Add the integration
 
@@ -217,5 +217,5 @@ By following this order, you can maintain the integrity of the integration and e
 **Related topics**  
 
 
-[ServiceNow Quote Experience Integration - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integration-post.md)
+[ServiceNow Quote Experience Integration - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/transaction-manager-integration-post.md)
 

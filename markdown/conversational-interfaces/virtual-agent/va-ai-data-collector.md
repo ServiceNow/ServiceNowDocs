@@ -2,7 +2,7 @@
 title: Input Collector user input control
 description: Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-ai-data-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-ai-data-collector.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -114,5 +114,5 @@ No-code condition statement or low-code script that specifies a condition for le
 |WhatsApp|Not supported|Not applicable|
 |Google Chat|Supported|None|
 
-**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

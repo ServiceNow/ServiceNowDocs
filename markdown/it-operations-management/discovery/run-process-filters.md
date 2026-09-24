@@ -2,7 +2,7 @@
 title: Running process filters
 description: Filter any processes, using combinations of name and key parameters, from coming back to the instance. Out-of-the box, you can filter OS processes. Filtering processes helps reduce the number of records created, updated, or deleted in the database which can improve overall database performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-process-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/run-process-filters.html
 release: australia
 product: Discovery
 classification: discovery
@@ -118,14 +118,14 @@ OOB filters
 
 </td><td>
 
-There are Linux and Windows filters to choose from. See [Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/out-of-the-box-process-filters.md) for more details.
+There are Linux and Windows filters to choose from. See [Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/out-of-the-box-process-filters.md) for more details.
 
 </td></tr></tbody>
 </table>3.  Enter the details and select **Submit**.
 
 
--   **[Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/out-of-the-box-process-filters.md)**  
+-   **[Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/out-of-the-box-process-filters.md)**  
 There are a variety of Linux and Windows out-of-the-box running process filters that are turned on and used for filtering processes.
 
-**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

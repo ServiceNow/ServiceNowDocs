@@ -2,7 +2,7 @@
 title: Configure Quick links for Now Mobile
 description: Configure Quick links for Now Mobile to provide your employees with quick access to important forms, links, and other data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-quick-links-nm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-quick-links-nm.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,5 +39,5 @@ Role required: sn\_hr\_sp.esc\_admin
 
 You have set up Quick links on your Now Mobile® application.
 
-**Parent Topic:**[Configure Now Mobile Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/nm-home.md)
+**Parent Topic:**[Configure Now Mobile Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/nm-home.md)
 

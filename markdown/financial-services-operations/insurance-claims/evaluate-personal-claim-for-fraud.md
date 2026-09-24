@@ -2,7 +2,7 @@
 title: Evaluate a personal claim for fraud
 description: A special investigations agent can review a claim to determine whether a claim is fraudulent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/evaluate-personal-claim-for-fraud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/evaluate-personal-claim-for-fraud.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

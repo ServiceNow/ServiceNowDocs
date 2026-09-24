@@ -2,7 +2,7 @@
 title: Exploring Configuration Compliance
 description: Use test results obtained from third-party Secure Configuration Assessment \(SCA\) integrations to verify compliance with security or corporate policies. Identify, prioritize, and remediate non-compliant configuration items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/vuln-config-compl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/vuln-config-compl.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -34,7 +34,7 @@ The ServiceNow® Configuration Compliance application enables you to prioritize 
 
 Use the Configuration Management Database \(CMDB\) in your ServiceNow AI Platform® to help you expose and fix your most critical configuration-related security vulnerabilities. Focus your remediation resources on activities with the greatest risk reduction. Streamline the remediation process across security, IT, and your business process stakeholders. The Configuration Compliance application includes the following key features:
 
--   With supported third-party integrations, automatically import policies, tests, authoritative sources, and technologies. See [Configuration Compliance integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-integrations.md) for more information about supported integrations.
+-   With supported third-party integrations, automatically import policies, tests, authoritative sources, and technologies. See [Configuration Compliance integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/vuln-config-compl-integrations.md) for more information about supported integrations.
 -   Correlate policies and tests to configuration items \(assets\) to identify configuration-related vulnerabilities and help you verify that your assets are in compliance with your policies and controls.
 -   Unify configuration assessment, assignment, and remediation across all of your assets.
 -   Configuration scanning content can be imported from leading Secure Configuration Assessment \(SCA\) ecosystem integration applications.
@@ -85,7 +85,7 @@ If you intend to upgrade to a version that is compatible with Unified Security E
 
 [Configuration Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-cc-rn.md).For compatibility information, see [KB0856498 Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856498)
 
-See [Setting up, installing, and configuring the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-configuring.md) for more information about activating the application.
+See [Setting up, installing, and configuring the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/cc-configuring.md) for more information about activating the application.
 
 </td></tr><tr><td>
 

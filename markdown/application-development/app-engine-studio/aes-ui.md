@@ -2,7 +2,7 @@
 title: AES user interface
 description: Learn about the App Engine Studio \(AES\) user interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/aes-ui.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -62,7 +62,7 @@ Add data, experience, logic and automation, and security to your app from the ap
 
 \[Omitted image "aes-app-home-purple-update.png"\] Alt text: The app home page displays app elements, such as data tables and end-user forms.
 
-Some objects require access depending on your role. You can request access by selecting **Contact your system administrator** to become a delegated developer. For more information on the delegated developer role, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Some objects require access depending on your role. You can request access by selecting **Contact your system administrator** to become a delegated developer. For more information on the delegated developer role, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Application properties
 

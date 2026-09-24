@@ -2,7 +2,7 @@
 title: Train the similarity solution for Innovation Management to find similar ideas
 description: Train the Similar Ideas solution definition included within the Predictive Intelligence for Ideation capability to find related ideas when submitting an idea or viewing ideas in the Idea Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/train-similarity-solution-im.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/innovation-management/train-similarity-solution-im.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -51,14 +51,14 @@ When the solution is complete, the similar ideas appear in the Related Ideas sec
 -   Update the similarity score threshold: On the ML Solution form, on the **Solution Statistics** tab, enter the required value in the **Similarity Score Threshold** field. Right-click the ML Solution form and click **Save**.
 -   Test the prediction output for the records: On the ML Solution form, on the **Test solution** tab, enter your text in the **Short description** field and the maximum number of expected results in the **Top N** field, and then click **Run test**. The results above the similarity score threshold value are displayed.
 
-**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/using-innovation-management.md)
+**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/using-innovation-management.md)
 
 **Related topics**  
 
 
 [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)
 
-[Predictive Intelligence for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/predictive-intelligence-for-innovation.md)
+[Predictive Intelligence for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/predictive-intelligence-for-innovation.md)
 
-[Submit an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/submit-idea-in-idea-portal.md)
+[Submit an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/submit-idea-in-idea-portal.md)
 

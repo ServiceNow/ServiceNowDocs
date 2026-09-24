@@ -2,7 +2,7 @@
 title: Create an announcement using Chat
 description: Use conversational authoring with Chat to create Employee Slate announcements from existing knowledge articles or catalog items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

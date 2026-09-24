@@ -2,7 +2,7 @@
 title: Integrating AI Search into other ServiceNow AI Platform applications
 description: AI Search integrates with other ServiceNow AI Platform applications. Populate your UI Builder pages with search components and customize display of search results and Genius Results with EVAM definitions. Improve incident deflection in Service Portal by configuring AI Search Assist for record producers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/integrate-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/integrate-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -43,10 +43,10 @@ For details on EVAM definitions, configurations, templates, and configuration bu
 
 AI Search Assist is a Service Portal widget that uses AI Search to improve incident deflection by displaying the most relevant set of related search results within a record producer. You can use AI Search Assist instead of Contextual Search.
 
-For more details on the AI Search Assist widget, see [AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ai-search-assist.md).
+For more details on the AI Search Assist widget, see [AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ai-search-assist.md).
 
--   **[AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ai-search-assist.md)**  
+-   **[AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ai-search-assist.md)**  
 AI Search Assist is a Service Portal widget that uses AI Search to improve incident deflection by displaying the most relevant set of related Catalog Item and knowledge article search results within a record producer. You can use AI Search Assist instead of Contextual Search.
 
-**Parent Topic:**[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md)
+**Parent Topic:**[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/overview-ais.md)
 

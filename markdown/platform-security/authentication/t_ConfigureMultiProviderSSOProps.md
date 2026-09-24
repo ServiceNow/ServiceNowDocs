@@ -2,7 +2,7 @@
 title: Configure Multi-Provider SSO properties
 description: Configure SSO properties and also add a property to the System Properties table to configure an IdP inclusion list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_ConfigureMultiProviderSSOProps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_ConfigureMultiProviderSSOProps.html
 release: australia
 product: Authentication
 classification: authentication
@@ -28,7 +28,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
     This selection adds the link Use external login to the login page.
 
-3.  To [update the user table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_AdministerSAMLUserProvisioning.md) with the users in the IdP, select the **Enable Auto Importing** option.
+3.  To [update the user table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_AdministerSAMLUserProvisioning.md) with the users in the IdP, select the **Enable Auto Importing** option.
 
 4.  To enable the debug messages to appear at the bottom of the content frame, select the **Enable debug logging for the Multi-Provider SSO integration** check box.
 
@@ -48,5 +48,5 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 **Related topics**  
 
 
-[SAML user provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_SAMLUserProvisioning.md)
+[SAML user provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_SAMLUserProvisioning.md)
 

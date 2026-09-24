@@ -2,7 +2,7 @@
 title: Chart options in KPI Details
 description: The KPI Details Chart options menu enables you to show, hide, or change aspects of an indicator visualization. Selected chart options persist per user for each indicator. Chart options are divided into analysis, time series, and chart type options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/chart-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/chart-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,15 +20,15 @@ The KPI Details **Chart options** menu enables you to show, hide, or change aspe
 
 -   **Targets**
 
-    Targets are the desired scores for the indicator. Select to show [indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md) on the visualization. If no targets are configured on the indicator, this option is not available.
+    Targets are the desired scores for the indicator. Select to show [indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details-targets.md) on the visualization. If no targets are configured on the indicator, this option is not available.
 
 -   **Thresholds**
 
-    Thresholds define a normal range of scores for an indicator. Select to show [indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-mod-pers-tar-thresh-kpi-details.md) on the visualization. If no thresholds are configured on the indicator, this option is not available.
+    Thresholds define a normal range of scores for an indicator. Select to show [indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-mod-pers-tar-thresh-kpi-details.md) on the visualization. If no thresholds are configured on the indicator, this option is not available.
 
 -   **Forecast**
 
-    Forecasts enable you to forecast future scores based on existing trends. To configure forecasts, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ForecastingData.md). If forecasts are not configured on the indicator, this chart option is not available.
+    Forecasts enable you to forecast future scores based on existing trends. To configure forecasts, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ForecastingData.md). If forecasts are not configured on the indicator, this chart option is not available.
 
 -   **Trend**
 
@@ -90,7 +90,7 @@ When the Statistics chart option is activated, KPI Details shows the following s
     The amount of variation from the average value among the scores in the selected time range. A low standard deviation means that the scores are close to the average. KPI Details calculates the sample standard deviation, not the population standard deviation.
 
 
-Not all statistics are applicable to every indicator. On the indicator record, you can exclude those statistics that do not apply from appearing in either KPI Details or the Analytics Hub. For example, you can exclude the Change % statistic from appearing for indicators whose unit is percentage. For more information, see [Advanced indicator settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
+Not all statistics are applicable to every indicator. On the indicator record, you can exclude those statistics that do not apply from appearing in either KPI Details or the Analytics Hub. For example, you can exclude the Change % statistic from appearing for indicators whose unit is percentage. For more information, see [Advanced indicator settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
 
 ## Time series options
 
@@ -123,7 +123,7 @@ Select from the following chart visualizations:
     \[Omitted image "kpi-details-column.png"\] Alt text: KPI Details column chart
 
 
-**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
+**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details-components.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Build a custom template from scratch
 description: Build your custom template from scratch if none of the predefined App Engine Studio \(AES\) templates fit your business needs or you don't have an existing application as a starting point.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/build-template-scratch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/build-template-scratch.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -61,7 +61,7 @@ Role required: admin, app\_template\_author
 
 
 </td></tr></tbody>
-</table>    For more information about template sharing and permissions, see [App template sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-template-sharing.md).
+</table>    For more information about template sharing and permissions, see [App template sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-template-sharing.md).
 
 8.  On the template details screen, select **Go to template dashboard**.
 
@@ -69,16 +69,16 @@ Role required: admin, app\_template\_author
 
     For more information, see the following topics:
 
-    -   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md)
-    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
-    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md)
-    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md)
+    -   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-data.md)
+    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-experience.md)
+    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-automation.md)
+    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-security.md)
 10. Select **Save**.
 
 
 ## What to do next
 
-Provide an overview of the custom template and activate the template to make it available to App Engine Studio users through the template library. For more information, see [Update custom template contents and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/manage-custom-template.md).
+Provide an overview of the custom template and activate the template to make it available to App Engine Studio users through the template library. For more information, see [Update custom template contents and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/manage-custom-template.md).
 
-**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/build-custom-template.md)
 

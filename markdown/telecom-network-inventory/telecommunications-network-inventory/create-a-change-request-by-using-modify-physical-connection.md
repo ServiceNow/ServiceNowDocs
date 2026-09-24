@@ -2,7 +2,7 @@
 title: Modify physical connection endpoints
 description: Added as per STRY55846126 - DOC1078400Modify physical connection endpoints and it's details using design and assign function in the Telecommunications Network Inventory application. By making changes in the physical connection endpoints, you can fulfill an order request from the customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-a-change-request-by-using-modify-physical-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-a-change-request-by-using-modify-physical-connection.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -32,11 +32,11 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 5.  On the form, fill in the fields.
 
-    To learn more, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    To learn more, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 6.  Select **Submit**.
 
-    A new change request is created. Further, a change task is automatically created and other related tabs appear. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)
+    A new change request is created. Further, a change task is automatically created and other related tabs appear. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)
 
 7.  Select **Change Tasks** tab.
 
@@ -44,7 +44,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 9.  On the Physical connection modification request form, update the physical connection endpoints and details, as required.
 
-    To learn more about the fields, see [Physical connection modification request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/physical-connection-modification-request-form.md).
+    To learn more about the fields, see [Physical connection modification request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-modification-request-form.md).
 
 10. Select **Submit**.
 
@@ -55,5 +55,5 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 12. Select **Save**.
 
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

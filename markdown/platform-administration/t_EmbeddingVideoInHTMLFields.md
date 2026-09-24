@@ -2,7 +2,7 @@
 title: Embed videos in the HTML editor
 description: You can insert videos into HTML fields. You can also add videos to the video library using the HTML Insert/Modify Video form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EmbeddingVideoInHTMLFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_EmbeddingVideoInHTMLFields.html
 release: australia
 topic_type: task
 last_updated: "2026-06-02"

@@ -2,7 +2,7 @@
 title: Remove document access of users in a legal matter
 description: Remove existing users' access to documents attached to a legal matter's artifact when they are no longer required to view those documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/remove-doc-access-legal-matter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/remove-doc-access-legal-matter.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -39,5 +39,5 @@ Role required: sn\_lg\_matter.matter\_admin
 
 The document access of the selected users is removed, and they're also removed from the list. The user will no longer be able to view the matter's documents.
 
-**Parent Topic:**[Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/document-access-legal-matter.md)
+**Parent Topic:**[Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/document-access-legal-matter.md)
 

@@ -2,7 +2,7 @@
 title: Maintenance plan fields for Enterprise Asset Management
 description: A detailed description of all maintenance plan fields in the Enterprise Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/maintenance-plan-fields-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/maintenance-plan-fields-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -79,7 +79,7 @@ Policy that specifies what action you want to take when the maintenance plan is 
 -   **Add to existing**: Adds both new tasks and existing active tasks to the new maintenance plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Add a room form
 description: Use the room form to add a room for workplace reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-room-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-room-form.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -185,7 +185,7 @@ Image
 Upload an image of the room. The supported ratio of an image is: 26:17.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Reservation Management - Field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/workplace-reservation-management-field-descriptions.md)
+</table>**Parent Topic:**[Workplace Reservation Management - Field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/workplace-reservation-management-field-descriptions.md)
 
 **Related topics**  
 

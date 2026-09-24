@@ -2,7 +2,7 @@
 title: Change the connection in a data fabric table
 description: Connect a data fabric table to a different data source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/change-source-data-fabric-table-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/change-source-data-fabric-table-zcc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Role required: a role containing the df\_data\_steward role in both the establis
 7.  Select **Finish**.
 
 
-**Parent Topic:**[Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md)
+**Parent Topic:**[Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md)
 

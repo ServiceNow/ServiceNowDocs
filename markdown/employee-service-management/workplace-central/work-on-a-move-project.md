@@ -2,7 +2,7 @@
 title: Work on a move project
 description: After creating a move project, work on the project using the move scheduler. The move scheduler displays all the move requests in a schedule view \(calendar view\) and a list view. Track all the move requests that are grouped under the move project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/work-on-a-move-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/work-on-a-move-project.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -20,10 +20,10 @@ After creating a move project, work on the project using the move scheduler. The
 
 Ensure that you have created a move project, and it’s active. For more information about creating a move project, see either of the following topics:
 
--   [Create a move project from existing move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-move-project.md)
--   [Create a move project by uploading an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-move-project-excel.md)
+-   [Create a move project from existing move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-move-project.md)
+-   [Create a move project by uploading an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-move-project-excel.md)
 
-Ensure that you’re aware of the [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-project-schedule-view.md).
+Ensure that you’re aware of the [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/move-project-schedule-view.md).
 
 Role required: sn\_wsd\_move.manager
 
@@ -139,7 +139,7 @@ Role required: sn\_wsd\_move.manager
 
     2.  To change the state, edit the **State** field.
 
-        Before changing the states, refer to [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-project-schedule-view.md).
+        Before changing the states, refer to [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/move-project-schedule-view.md).
 
     3.  Assign the project to another move manager by changing the **Assigned to** field.
 
@@ -170,7 +170,7 @@ Role required: sn\_wsd\_move.manager
 
 The changes are saved on the move project.
 
-**Parent Topic:**[Working with Move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-move-management.md)
+**Parent Topic:**[Working with Move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-move-management.md)
 
 **Related topics**  
 

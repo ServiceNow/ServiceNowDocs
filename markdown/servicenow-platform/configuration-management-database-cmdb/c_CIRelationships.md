@@ -2,7 +2,7 @@
 title: CI relationships in the CMDB
 description: The CMDB, in contrast to a static asset list, helps you track not only the configuration items \(CIs\) within your system, but also the relationships between those items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_CIRelationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/c\_CIRelationships.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -32,17 +32,17 @@ For example, a web application might read data from an instance of Oracle, which
 
 The relationships between CIs can be automatically discovered. If you use Discovery, many relationships can be automatically loaded into the system through the discovery process. If you import your data from another system, you get some form of relationships.
 
-You can add to automatically discovered relationships, create relationships, or edit relationships for a CI by launching the [CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md) from the CI form. As an alternative to the CI relationship editor, [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/cmdb-workspace-unified-map.md) in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) provides the latest functionality for editing CI relationships. For more information, see [Edit relationships in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-edit-connection.md).
+You can add to automatically discovered relationships, create relationships, or edit relationships for a CI by launching the [CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md) from the CI form. As an alternative to the CI relationship editor, [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/cmdb-workspace-unified-map.md) in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) provides the latest functionality for editing CI relationships. For more information, see [Edit relationships in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-edit-connection.md).
 
 ## Dependent and non-dependent relationships
 
-[Dependent relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md), such as tomcat RunsOn Hardware, are used by the Identification and Reconciliation Engine \(IRE\) to identify dependent CIs. The IRE avoids duplicate entries of CIs into your Configuration Management Database \(CMDB\) by leveraging these relationships to determine if a recently discovered CI is already in the CMDB.
+[Dependent relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md), such as tomcat RunsOn Hardware, are used by the Identification and Reconciliation Engine \(IRE\) to identify dependent CIs. The IRE avoids duplicate entries of CIs into your Configuration Management Database \(CMDB\) by leveraging these relationships to determine if a recently discovered CI is already in the CMDB.
 
 For non-dependent relationships, the CMDB tracks the discovery source and the last scanned time in the Relationship Sources \[sys\_rel\_source\] table. Non-dependent relationships aren't used for CI identification, and can be deleted when no longer needed.
 
 To avoid burdening your IRE with excessive load, by default, the Relationship Sources \[sys\_rel\_source\] table doesn't auto-populate. If you want to track full information on non-dependent relationships, you can change the default using the glide.identification\_engine.populate\_sys\_rel\_source property.
 
-[Dependent relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md) are used for CI identification, so they shouldn't be directly deleted as they aren't tracked.
+[Dependent relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md) are used for CI identification, so they shouldn't be directly deleted as they aren't tracked.
 
 Information in the Relationship Sources \[sys\_rel\_source\] table can be used to decide if it’s safe to delete a potentially non-dependent relationship. For example, a discovery source, which is attempting to delete a non-dependent relationship can confirm that:
 
@@ -232,27 +232,27 @@ From the CI to an outgoing endpoint.
  **Note:** For internal use only \(service model\).
 
 </td></tr></tbody>
-</table>-   **[Suggested class relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md)**  
+</table>-   **[Suggested class relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md)**  
 The system keeps a table \(Suggested Relationship \[cmdb\_rel\_type\_suggest\]\) of relationship types that are appropriate for a CI type, based on its class. You can manage suggested relationships by navigating to **Configuration** &gt; **Suggested Relationships**, or in the CI Class Manager.
--   **[Add a suggested relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_AddANewSuggestedRelationship.md)**  
+-   **[Add a suggested relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_AddANewSuggestedRelationship.md)**  
 Add a suggested relationship for a class. The list of suggested relationships for a class is available when you create a new relationship for a CI of that class.
--   **[Relationship governance rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/relationship-governance.md)**  
+-   **[Relationship governance rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/relationship-governance.md)**  
 Relationship governance rules is a set of relationship rules used to ensure consistency and validity in modeling relationships between configuration items \(CIs\) in the CMDB. Use relationship governance rules to prevent the selection of relationship types or directions that are not allowed between specific CI types.
--   **[CI relations formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationsFormatterNG.md)**  
+-   **[CI relations formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CIRelationsFormatterNG.md)**  
 The default CI form includes a CI relations formatter from which you can examine a CI and its relationships in various views. From the CI relations formatter, you can also launch the CI relationship editor for the CI.
--   **[CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md)**  
+-   **[CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md)**  
 Use the relationship editor to view, create, modify, or delete CI relationships. Open the relationship editor from the CI Relations formatter.
--   **[Relation qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationQualifier.md)**  
+-   **[Relation qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_RelationQualifier.md)**  
 A relation qualifier, which is a CI of the Qualifier \[cmdb\_ci\_qualifier\] type, stores important information about the CI relationships.
--   **[CI relationship security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationshipSecurity.md)**  
+-   **[CI relationship security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CIRelationshipSecurity.md)**  
 When applying security to CI relationships, it is important to apply the access controls both to the CI Relationship \(cmdb\_rel\_ci\) table and to create an operation editCIRelations to the \* table as well.
--   **[Create a CI relation rollup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateACIRelationRollup.md)**  
+-   **[Create a CI relation rollup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_CreateACIRelationRollup.md)**  
 A CI relation rollup allows you to sum, count, max, min, or mean a relationship type. You can create CI relation rollups.
 
-**Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
+**Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
 
 **Related topics**  
 
 
-[Create a CI relation rollup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateACIRelationRollup.md)
+[Create a CI relation rollup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_CreateACIRelationRollup.md)
 

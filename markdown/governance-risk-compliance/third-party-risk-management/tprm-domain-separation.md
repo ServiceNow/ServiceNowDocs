@@ -2,7 +2,7 @@
 title: Domain separation and Third-party Risk Management
 description: Domain separation is supported for TPRM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-domain-separation.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -47,7 +47,7 @@ There is no **Domain** column in TPRM application tables.
 
 All TPRM tables support data-level domain separation with sys\_domain and sys\_domain\_path columns.
 
-**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
 **Related topics**  
 

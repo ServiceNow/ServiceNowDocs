@@ -2,7 +2,7 @@
 title: Use the DownloadFile component
 description: Download a file over the HTTP protocol using the DownloadFile component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-http-downloadfile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-utilities-http-downloadfile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the DownloadFile component. For more information about these properties, see [Properties of the HTTP components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-http-components.md).
+You can configure the properties for the DownloadFile component. For more information about these properties, see [Properties of the HTTP components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-http-components.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the DownloadFile component. For more inform
 
 2.  Drag the DownloadFile component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the DownloadFile component to the corresponding ports of the other components as described in the following table:
 
@@ -45,5 +45,5 @@ You can configure the properties for the DownloadFile component. For more inform
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/http.md)
+**Parent Topic:**[HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/http.md)
 

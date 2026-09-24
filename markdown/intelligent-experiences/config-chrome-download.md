@@ -2,7 +2,7 @@
 title: Configure Chrome to download files automatically
 description: Configure Chrome so that the files can automatically complete downloads without manual intervention, and each download's status and path can be tracked automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/config-chrome-download.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/config-chrome-download.html
 release: australia
 topic_type: task
 last_updated: "2026-08-21"
@@ -34,12 +34,12 @@ The agent needs to detect when a download completes and capture the resulting fi
 
 The files get downloaded automatically without any prompt. The Web agent extension can now detect each download's completion and report its status and file path to the reasoning layer.
 
-**Parent Topic:**[Configuration for adaptive path desktop actions for web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-adaptive-path-da.md)
+**Parent Topic:**[Configuration for adaptive path desktop actions for web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ad-adaptive-path-da.md)
 
 **Related topics**  
 
 
-[File upload and download in adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/upload-download-file.md)
+[File upload and download in adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/upload-download-file.md)
 
 [Considerations for file upload and download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

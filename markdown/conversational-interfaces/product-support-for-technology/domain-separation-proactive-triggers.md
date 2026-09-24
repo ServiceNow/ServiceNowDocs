@@ -2,7 +2,7 @@
 title: Domain separation and Proactive Triggers
 description: Domain separation is supported for Proactive Triggers. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/domain-separation-proactive-triggers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/product-support-for-technology/domain-separation-proactive-triggers.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -34,7 +34,7 @@ The Proactive Triggers rich text pop-up messages provide users with actions acco
 
 Each domain has its own set of rules and trigger types that are evaluated independently of other domains.
 
-**Parent Topic:**[Proactive Triggers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers-reference.md)
+**Parent Topic:**[Proactive Triggers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/product-support-for-technology/proactive-triggers-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure webhooks for Rally manually
 description: Configure webhooks for Rally to send sync notifications to the DevOps Change Velocity application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/configure-webhooks-for-rally-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/configure-webhooks-for-rally-manually.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -38,8 +38,8 @@ To send inbound events to a ServiceNow instance for Rally, you must use the foll
 
 3.  Use the following API endpoint structure to send inbound events to your ServiceNow instance. `<instance_url>/api/sn_devops/v2/devops/tool/plan?toolId=<toolId>&&ni.nolog.token=<token>`.
 
-    For more information, see [Creation of webhooks to send inbound events to DevOps Change Velocity using token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-webhooks-to-send-inbound-events-to-devops-change-velocity-using-token.md).
+    For more information, see [Creation of webhooks to send inbound events to DevOps Change Velocity using token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/create-webhooks-to-send-inbound-events-to-devops-change-velocity-using-token.md).
 
 
-**Parent Topic:**[Rally integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/rally-devops-integration.md)
+**Parent Topic:**[Rally integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/rally-devops-integration.md)
 

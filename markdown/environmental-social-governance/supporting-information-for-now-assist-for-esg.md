@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Operational Sustainability Management
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Operational Sustainability application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/supporting-information-for-now-assist-for-esg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/supporting-information-for-now-assist-for-esg.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ ServiceNow Otto for Operational Sustainability is supported starting from the Yo
 
 ## Supported user interfaces
 
-The [Supporting information for ServiceNow Otto for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/supporting-information-for-now-assist-for-esg.md) ServiceNow Otto for Operational Sustainability application skill Document Intelligence for Utility Invoices can be accessed on Operational Sustainability Workspace.
+The [Supporting information for ServiceNow Otto for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/supporting-information-for-now-assist-for-esg.md) ServiceNow Otto for Operational Sustainability application skill Document Intelligence for Utility Invoices can be accessed on Operational Sustainability Workspace.
 
 ## Application information
 
@@ -31,7 +31,7 @@ This store app has the following dependencies:
 -   ServiceNow Otto for Platform
 -   Operational Sustainability Management
 
-For more information, see [Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-now-assist-for-esg.md).
+For more information, see [Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configure-now-assist-for-esg.md).
 
-**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/exploring-now-assist-for-esg.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/exploring-now-assist-for-esg.md)
 

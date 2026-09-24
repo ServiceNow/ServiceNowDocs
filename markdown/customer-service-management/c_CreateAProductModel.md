@@ -2,7 +2,7 @@
 title: Create a product model
 description: Create a record for a type of product that your company sells and supports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CreateAProductModel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_CreateAProductModel.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

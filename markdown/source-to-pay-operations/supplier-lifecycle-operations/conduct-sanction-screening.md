@@ -2,7 +2,7 @@
 title: Conduct sanction screening
 description: When a sanction screening request for compliance verification is assigned to a supplier manager and they start working on it, they can verify the details using Relish.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -19,7 +19,7 @@ When a sanction screening request for compliance verification is assigned to a s
 
 ## Before you begin
 
-Ensure that the SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\) is installed. For more information on the required and dependent plugins for Relish, see [Relish Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.md).
+Ensure that the SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\) is installed. For more information on the required and dependent plugins for Relish, see [Relish Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.md).
 
 Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
@@ -39,7 +39,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
     \[Omitted image "relish-sanction-screening.png"\] Alt text: Sanction screening using Relish
 
-    For more about the parameters sent to and received from Relish, see [Sanction screening parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sanction-screening-request-response.md).
+    For more about the parameters sent to and received from Relish, see [Sanction screening parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/sanction-screening-request-response.md).
 
     **Note:**
 
@@ -56,19 +56,19 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 8.  Close the case.
 
 
--   **[View supplier sanction status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-sanction-status.md)**  
+-   **[View supplier sanction status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-sanction-status.md)**  
 Supplier managers can view the sanction status and last sanction check date for suppliers from the Manage Suppliers list.
--   **[Sanction screening parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sanction-screening-request-response.md)**  
+-   **[Sanction screening parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/sanction-screening-request-response.md)**  
 Request and response parameters for screening entities against sanction lists through the Relish Data Assure API.
 
-**Parent Topic:**[Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md)
+**Parent Topic:**[Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md)
 
 **Related topics**  
 
 
-[Verify supplier location change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/verify-supplier-location.md)
+[Verify supplier location change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/verify-supplier-location.md)
 
-[Verify banking information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/verify-banking-information.md)
+[Verify banking information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/verify-banking-information.md)
 
-[Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md)
+[Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md)
 

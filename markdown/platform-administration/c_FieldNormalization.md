@@ -2,7 +2,7 @@
 title: Field normalization and transformation
 description: Field Normalization includes normalization and transformation, which are two different ways to alter field values for increased data integrity and reduced duplication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_FieldNormalization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_FieldNormalization.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

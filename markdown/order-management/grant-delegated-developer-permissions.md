@@ -2,7 +2,7 @@
 title: Grant delegated developer permissions for managing sequences
 description: Assign delegated developer roles to designated Customer Engagement Sequences users so they can create and manage sequences without needing a system admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/grant-delegated-developer-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/grant-delegated-developer-permissions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ Role required: admin
 **Related topics**  
 
 
-[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-engagement-sequences.md)
+[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-customer-engagement-sequences.md)
 
-[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-customer-engagement-sequences.md)
 

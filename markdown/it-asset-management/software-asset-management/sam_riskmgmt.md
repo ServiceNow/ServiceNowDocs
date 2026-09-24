@@ -2,7 +2,7 @@
 title: Use Software Asset Management with Governance, Risk, and Compliance
 description: Use the Software Asset Management application in conjunction with the Governance, Risk, and Compliance suite of applications to holistically work on compliance, risk, and regulatory aspects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam\_riskmgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/sam\_riskmgmt.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -20,5 +20,5 @@ IT asset management directly feeds critical information required by GRC programs
 
 For detailed information on Cybersecurity Control Accelerators and regulations such as CIS controls, ISO 27001, 27002, see [Cybersecurity Controls Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/cybersecurity-controls-accelerator.md).
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

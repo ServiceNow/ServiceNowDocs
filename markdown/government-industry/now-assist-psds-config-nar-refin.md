@@ -2,7 +2,7 @@
 title: Configure the Investigative case narrative refinement skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Activate and customize the Investigative case narrative refinement skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that investigators can use the generative AI skills in CSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-config-nar-refin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-config-nar-refin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-04"

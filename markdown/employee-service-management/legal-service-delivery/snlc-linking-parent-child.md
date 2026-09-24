@@ -2,7 +2,7 @@
 title: Linking parent-child contracts
 description: Link a parent contract to a child contract to establish hierarchical relationships between contract requests and inherit fields from the parent contract request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-linking-parent-child.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-linking-parent-child.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -29,7 +29,7 @@ To link a contract as a parent, the following conditions must be met:
 -   Only one parent contract can be selected while linking.
 -   The parent contract must be a single contract type using own paper or third-party paper.
 
-**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
 
@@ -52,11 +52,11 @@ To link a contract as a parent, the following conditions must be met:
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 
-[Link parent contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.md)
+[Link parent contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.md)
 
-[Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md)
+[Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md)
 
-[Remove a linked contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.md)
+[Remove a linked contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.md)
 
-[Configure field mapping for parent-child contract linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncor-conf-parent-child.md)
+[Configure field mapping for parent-child contract linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncor-conf-parent-child.md)
 

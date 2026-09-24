@@ -2,7 +2,7 @@
 title: Explore Upgrade Skipped Record Rules Editor in Upgrade Console
 description: Configure skipped record rules with the use of Upgrade Skipped Record Rules Editor to automate or facilitate the resolution of data inconsistencies arising from the upgrade process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-skipped-rules-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-skipped-rules-explore.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -42,5 +42,5 @@ The skipped records that are retained automatically by the default skipped rules
 
 **Note:** You can also find a comment for each retained skipped record to show the related table it was generated from during the upgrade process.
 
-See [Upgrade Skipped Record Rules Editor tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-skipped-rules-tool.md) for more information.
+See [Upgrade Skipped Record Rules Editor tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-skipped-rules-tool.md) for more information.
 

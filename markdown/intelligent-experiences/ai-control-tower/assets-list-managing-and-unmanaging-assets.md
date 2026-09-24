@@ -2,7 +2,7 @@
 title: AI assets- Managed and Unmanaged
 description: Learn about managing how the AI assets are managed and unmanaged.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/assets-list-managing-and-unmanaging-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/assets-list-managing-and-unmanaging-assets.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -55,5 +55,5 @@ When you upgrade from a pre-March release to a post-March release, AI Control To
 
 Automation Rules
 
-Automation rules automatically designate AI assets as managed based on defined criteria. For information, see [Automation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/automation-rules.md)
+Automation rules automatically designate AI assets as managed based on defined criteria. For information, see [Automation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/automation-rules.md)
 

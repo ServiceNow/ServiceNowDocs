@@ -2,7 +2,7 @@
 title: Assign collaboration descriptors to users
 description: Assign collaboration descriptors to your users for a specific application so that you can define specific permissions for these users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/assign-descriptor-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/assign-descriptor-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

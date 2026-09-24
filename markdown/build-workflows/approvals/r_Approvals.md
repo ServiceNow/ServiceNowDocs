@@ -2,7 +2,7 @@
 title: Classic approvals
 description: Classic approvals are a legacy process to require authorization on tasks before the work is done. In earlier releases, you could create approval records to define approval tasks and associate users or groups to approve or reject them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/r\_Approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/approvals/r\_Approvals.html
 release: australia
 product: Approvals
 classification: approvals
@@ -18,7 +18,7 @@ Classic approvals are a legacy process to require authorization on tasks before 
 
 Administrators can define classic approval logic by navigating to **All** &gt; **System Policy** &gt; **Rules** &gt; **Approvals**.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 Administrators can see all approval requests by navigating to **All** &gt; **Self-Service** &gt; **My Approvals** and removing the list filter.
 

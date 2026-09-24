@@ -2,12 +2,12 @@
 title: ServiceNow Otto for Zero Copy Connector ERP data discovery skill
 description: Use the ERP data discovery skill in ServiceNow Otto for Zero Copy Connector to query SAP standard database tables for data and records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-erp-data-discovery-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/now-assist-erp-data-discovery-skill.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use generative AI, ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 
@@ -31,7 +31,7 @@ The sn\_erp\_integration.erp\_ai\_user role is required to work with generative 
 
 ## Prerequisites for using ERP data discovery
 
-Follow the instructions in [Configure ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-zero-copy-connectors.md) to install the plugin.
+Follow the instructions in [Configure ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-now-assist-for-zero-copy-connectors.md) to install the plugin.
 
 ## Asking ServiceNow Otto for ERP data
 

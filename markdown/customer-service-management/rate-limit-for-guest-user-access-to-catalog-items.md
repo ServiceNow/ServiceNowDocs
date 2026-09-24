@@ -2,7 +2,7 @@
 title: Rate limit rule form for guest user access to catalog items
 description: The REST API Rate Limit Rule form enables you to set the number of API requests in an hour by guest users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/rate-limit-for-guest-user-access-to-catalog-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/rate-limit-for-guest-user-access-to-catalog-items.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

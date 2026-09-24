@@ -2,7 +2,7 @@
 title: SLPServiceRegistryQuery - Global
 description: The SLPServiceRegistryQuery script include provides methods to map Shazzam! SLP query results to port probes.Returns the Shazzam querier class name.Creates a scalar map for port probes to use in XML output to Shazzam!.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_SLPServiceRegistryQueryAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_SLPServiceRegistryQueryAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The SLPServiceRegistryQuery script include provides methods to map Shazzam! SLP 
 
 Use this script include during the discovery scanning phase.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## SLPServiceRegistryQuery - getShazzamQuerierClassname\(\)
 

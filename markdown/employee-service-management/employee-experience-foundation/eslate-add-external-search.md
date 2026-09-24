@@ -2,7 +2,7 @@
 title: Add external search sources
 description: Add external search sources to include non-ServiceNow content in Employee Slate conversational search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-add-external-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-add-external-search.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,7 +2,7 @@
 title: Playbook stages and activities when only Vendor Risk Management is installed
 description: The following table lists the Perform risk assessment playbook stages and activities when only Vendor Risk Management \(VRM\) is installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-vrm-stages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-vrm-stages.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -104,10 +104,10 @@ Add closing comments to complete the case.In the **Close notes** field, add your
 The state of the due diligence case is updated to Closed completed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Risk assessment flow when only Vendor Risk Management is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/risk-flow-slo-vrm.md)
+</table>**Parent Topic:**[Risk assessment flow when only Vendor Risk Management is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/risk-flow-slo-vrm.md)
 
 **Related topics**  
 
 
-[Risk assessment flow when only Vendor Risk Management is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/risk-flow-slo-vrm.md)
+[Risk assessment flow when only Vendor Risk Management is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/risk-flow-slo-vrm.md)
 

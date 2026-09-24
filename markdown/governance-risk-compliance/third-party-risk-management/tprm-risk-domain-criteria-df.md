@@ -2,7 +2,7 @@
 title: Define third-party risk area criteria
 description: A third-party risk area criteria is a group of risk domains \(sometimes called risk areas in other platform features\) that applies to a particular type of third party.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

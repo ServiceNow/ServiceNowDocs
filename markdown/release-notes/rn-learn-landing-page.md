@@ -2,7 +2,7 @@
 title: Learn about the Australia release
 description: The Australia release includes new features and improvements built on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-learn-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-learn-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-05"
@@ -25,15 +25,15 @@ Before you upgrade, review release notes from your current version to the Austra
 
 <table id="table_qvn_nkz_smb" class="nav-card"><tbody><tr><td>
 
-[Upgrade from Zurich \[Omitted image "n-1-upgrades.png"\] Alt text: icon for the tile upgrade from n-1 to n Release notes for upgrading from Zurich to the Australia release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-n-1-landing-page.md)
+[Upgrade from Zurich \[Omitted image "n-1-upgrades.png"\] Alt text: icon for the tile upgrade from n-1 to n Release notes for upgrading from Zurich to the Australia release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-1-landing-page.md)
 
 </td><td>
 
-[Upgrade from Yokohama \[Omitted image "n-2-upgrades.png"\] Alt text: icon for the tile upgrade from n-2 to n Release notes for upgrading from Yokohama to the Australia release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-n-2-landing-page.md)
+[Upgrade from Yokohama \[Omitted image "n-2-upgrades.png"\] Alt text: icon for the tile upgrade from n-2 to n Release notes for upgrading from Yokohama to the Australia release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-2-landing-page.md)
 
 </td><td>
 
-[Upgrade from Xanadu \[Omitted image "n-3-upgrades.png"\] Alt text: icon for the tile upgrade from n-3 to n Release notes for upgrading from Xanadu to the Australia release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-n-3-landing-page.md)
+[Upgrade from Xanadu \[Omitted image "n-3-upgrades.png"\] Alt text: icon for the tile upgrade from n-3 to n Release notes for upgrading from Xanadu to the Australia release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-3-landing-page.md)
 
 </td></tr></tbody>
 </table>

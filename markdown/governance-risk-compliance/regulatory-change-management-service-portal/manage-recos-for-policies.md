@@ -2,7 +2,7 @@
 title: Accept or dismiss recommendations for regulatory alert impacted policies
 description: Accept AI-generated recommendations in Regulatory Change Management to mark specific business areas as impacted so that you can help compliance practitioners capture and address the relevant regulatory alert for policies. You can also dismiss recommendations to filter out irrelevant or unnecessary information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/manage-recos-for-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/manage-recos-for-policies.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -25,7 +25,7 @@ Role required: To view your assigned regulatory alerts, you need the sn\_grc\_re
 
 **Important:** Be sure to check AI-generated recommendations for accuracy. If no information is available, the generated recommendations display "No recommendations available," "None," "No records to display," and so on.
 
-To learn about the related roles and regulatory alerts for a recommendation, see [Types of alerts, user roles, and states of regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/user_roles_and_actions.md).
+To learn about the related roles and regulatory alerts for a recommendation, see [Types of alerts, user roles, and states of regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/user_roles_and_actions.md).
 
 ## About this task
 
@@ -45,7 +45,7 @@ You can view the related activity for each recommendation by selecting the summa
 
     -   On the **Overview** tab, select **Recommend**.
     -   On the **Recommendations** tab, select **Show recommendations**.
-    For more information, see [Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md).
+    For more information, see [Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md).
 
 3.  Review potential impact areas by selecting the **Policies** tab in the Recommended areas of the impact section.
 
@@ -53,7 +53,7 @@ You can view the related activity for each recommendation by selecting the summa
 
     \[Omitted image "reco-policy-details.png"\] Alt text: Details of the recommended policy.
 
-    **Note:** The `Suggest business operations affected by regulatory alert recommendation context` provides the recommendations that you see here. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md).
+    **Note:** The `Suggest business operations affected by regulatory alert recommendation context` provides the recommendations that you see here. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/recommendation-contexts.md).
 
     If recommendations are available, you can scroll through the generated list of policies recommendation cards and review the information about each policy, such as its name and compliance status.
 
@@ -170,7 +170,7 @@ Related goal or requirement that can be associated with the policy.For each cont
 
 
 </td></tr></tbody>
-</table>    For full descriptions of these fields, see [Create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAPolicyStatement.md), [Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_DefineAPolicy.md), and [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md).
+</table>    For full descriptions of these fields, see [Create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_CreateAPolicyStatement.md), [Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_DefineAPolicy.md), and [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md).
 
 5.  To associate control objectives or risks with your recommendation, navigate to the corresponding tab and select the check box for each record that you want to include as part of the impacted areas.
 
@@ -199,5 +199,5 @@ Related goal or requirement that can be associated with the policy.For each cont
 
 ## What to do next
 
-If you accepted any recommendations, confirm the creation of an impacted area by navigating to the **Impacted areas** tab. If you dismissed all recommendations or must add more impacted areas, you can manually add impacted areas. For more information, see [Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md).
+If you accepted any recommendations, confirm the creation of an impacted area by navigating to the **Impacted areas** tab. If you dismissed all recommendations or must add more impacted areas, you can manually add impacted areas. For more information, see [Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md).
 

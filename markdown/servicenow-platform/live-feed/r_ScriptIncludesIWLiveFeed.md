@@ -2,7 +2,7 @@
 title: Script includes installed with Live Feed
 description: The Live Feed plugin installs the following script includes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/r\_ScriptIncludesIWLiveFeed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/r\_ScriptIncludesIWLiveFeed.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -22,5 +22,5 @@ The Live Feed plugin installs the following script includes.
 |LiveFeedFilter|Queries filters for working with live\_feed records.|
 |LiveFeedUtil|Provides helper functions for working with live\_feed records.|
 
-**Parent Topic:**[Components installed with Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_InstalledWithLiveFeed.md)
+**Parent Topic:**[Components installed with Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/r_InstalledWithLiveFeed.md)
 

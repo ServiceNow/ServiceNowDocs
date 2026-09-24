@@ -2,7 +2,7 @@
 title: Create or update list view for EAP work items
 description: Create or update EAP List View for work item types so that the columns displayed in the Backlog page of Enterprise Agile Planning suit your team requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning

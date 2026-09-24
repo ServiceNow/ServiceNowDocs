@@ -2,7 +2,7 @@
 title: Respond to attestations from Tasks page of Compliance Workspace
 description: Respond to your attestations by logging in to the Tasks page of the Compliance Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-task-page-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-task-page-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

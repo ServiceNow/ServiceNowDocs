@@ -2,7 +2,7 @@
 title: Add or remove entities and metrics from a campaign
 description: Add or remove entities and metrics from a campaign to control which records are included in its data collection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/add-or-remove-entities-and-metrics-from-a-campaign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/add-or-remove-entities-and-metrics-from-a-campaign.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
@@ -17,7 +17,7 @@ Add or remove entities and metrics from a campaign to control which records are 
 
 ## Before you begin
 
--   The campaign must exist. For more information, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-campaign.md).
+-   The campaign must exist. For more information, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-campaign.md).
 -   Role required: sn\_grc\_metric.manager
 
 ## About this task
@@ -74,5 +74,5 @@ Select the check box next to each record, and select **Remove**.
 
 Data collection for the campaign includes only the entities and metrics currently added to it.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-grc-metrics.md)
 

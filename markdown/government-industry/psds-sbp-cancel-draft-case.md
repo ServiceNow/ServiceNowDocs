@@ -2,7 +2,7 @@
 title: Configure automatic cancellation for draft cases in Social Benefits Playbook
 description: An admin can configure auto-cancellation of Social Benefits Playbook cases that remain in the draft state for longer than a set period of time. The number of days that the case can remain in the draft state before it is canceled can be configured by an admin. The default value is five days.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-sbp-cancel-draft-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-sbp-cancel-draft-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

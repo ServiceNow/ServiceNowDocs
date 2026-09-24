@@ -2,7 +2,7 @@
 title: Activity stream
 description: Learn about the components in UI Builder that enable admins to create and customize the Activity stream for a Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/activity-stream-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/activity-stream-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

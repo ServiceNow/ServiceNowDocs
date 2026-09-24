@@ -2,7 +2,7 @@
 title: Configurable Portal widgets instance options
 description: Reference topics provide information about the instance options for all the Configurable Portal widgets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configurable-portal-widget-inst-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configurable-portal-widget-inst-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

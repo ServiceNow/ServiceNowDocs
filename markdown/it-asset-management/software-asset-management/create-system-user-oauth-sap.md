@@ -2,7 +2,7 @@
 title: Create a system user for OAuth authentication in SAP
 description: Create a dedicated system user in SAP to serve as the OAuth 2.0 client ID for the Software Asset Management integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-system-user-oauth-sap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-system-user-oauth-sap.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +19,7 @@ Create a dedicated system user in SAP to serve as the OAuth 2.0 client ID for th
 
 ## Before you begin
 
-The OData services must be activated and the system alias assigned before creating the OAuth system user. See [Activate OData services and assign a system alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/activate-odata-services-sap.md).
+The OData services must be activated and the system alias assigned before creating the OAuth system user. See [Activate OData services and assign a system alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/activate-odata-services-sap.md).
 
 Role required: SAP Basis administrator
 
@@ -44,5 +44,5 @@ Use transaction code **SU01** to create the system user. The system user is refe
 
 ## What to do next
 
-Configure the OAuth client in SAP. For details, see [Configure an OAuth client in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-oauth-client-sap.md).
+Configure the OAuth client in SAP. For details, see [Configure an OAuth client in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-oauth-client-sap.md).
 

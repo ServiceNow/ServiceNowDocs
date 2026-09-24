@@ -2,7 +2,7 @@
 title: EmployeeWorks Web App prompt library
 description: Example natural-language prompts that you can use across Employee Slate features. Use these prompts in the home page chat bar, the full-page conversation view, or the contextual assistant on any page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +21,7 @@ Example natural-language prompts that you can use across Employee Slate features
 
 The prompt library groups example prompts by feature area. Use the prompts as written or adapt the phrasing to your context. The assistant retains conversation context across turns, so you can refine results with follow-up prompts in the same chat.
 
-For more information, see [Employee Slate \(built for Now Assist\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md).
+For more information, see [Employee Slate \(built for Now Assist\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md).
 
 **Note:** These prompts are for reference purpose. Tweak them to suit your requirements.
 

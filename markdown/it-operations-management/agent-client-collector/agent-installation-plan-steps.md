@@ -2,7 +2,7 @@
 title: Agent installation plan steps
 description: After you complete agent onboarding, the system generates an installation plan. The following table describes each step in the plan and the commands or actions required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/agent-installation-plan-steps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/agent-installation-plan-steps.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -89,5 +89,5 @@ stated-disable: true
 **Note:** Only the configuration options handled by the onboarding process are used.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

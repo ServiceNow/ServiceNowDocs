@@ -2,7 +2,7 @@
 title: Add learning course sections
 description: Add learning course sections to collections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/add-learning-course-sections-lxp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/add-learning-course-sections-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -20,7 +20,7 @@ Add learning course sections to collections.
 
 Role required: sn\_lc.learning\_admin
 
-Create a collection. For more information, see [Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-content-collection.md).
+Create a collection. For more information, see [Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-content-collection.md).
 
 ## Procedure
 
@@ -42,5 +42,5 @@ Create a collection. For more information, see [Create a content collection](htt
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-content-collection.md)
+**Parent Topic:**[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-content-collection.md)
 

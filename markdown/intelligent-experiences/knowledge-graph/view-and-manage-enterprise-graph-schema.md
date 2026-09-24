@@ -2,7 +2,7 @@
 title: View and manage Enterprise Graph schema
 description: Use Knowledge Graph Designer to view and manage Enterprise Graph schema
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/view-and-manage-enterprise-graph-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/view-and-manage-enterprise-graph-schema.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

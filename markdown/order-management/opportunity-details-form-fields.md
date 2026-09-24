@@ -2,7 +2,7 @@
 title: Opportunity details form
 description: Field descriptions for editing or reviewing details on the Opportunity form for Opportunity Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-details-form-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-details-form-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -426,5 +426,5 @@ The customer's preferred mode of communication:-   Do Not Call
 |Created|Displays the date and time when the opportunity record was created in the system. This value is system‑generated and cannot be edited.|
 |Work Notes|Internal notes used to capture additional information, updates, or context related to the opportunity. Work notes are intended for internal use and are not visible to customers.|
 
-**Parent Topic:**[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-reference.md)
+**Parent Topic:**[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-reference.md)
 

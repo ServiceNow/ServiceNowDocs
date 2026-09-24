@@ -2,7 +2,7 @@
 title: Data Separation release notes
 description: The ServiceNow Data Separation application enables organizations to restrict access to sensitive data based on a lens hierarchy and its leaf node.The ServiceNow Data Separation application enables organizations to restrict access to sensitive data based on a lens hierarchy and its leaf node.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/data-separation-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/data-separation-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The ServiceNow® Data Separation application enables organizations to restrict a
 
 ## Activation and other requirements
 
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
+**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-business-management-rn-landing.md)
 
 ## Australia
 

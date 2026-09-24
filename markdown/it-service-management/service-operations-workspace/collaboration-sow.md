@@ -2,7 +2,7 @@
 title: Collaboration in Service Operations Workspace
 description: Collaboration services provide a way to communicate and collaborate in real time to resolve the incidents. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/collaboration-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/collaboration-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -16,14 +16,14 @@ breadcrumb: [Managing IT services in your organization, Service Operations Works
 
 Collaboration services provide a way to communicate and collaborate in real time to resolve the incidents. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.
 
-To start a Microsoft Teams chat, refer [Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/start-msteams-chat-sow.md).
+To start a Microsoft Teams chat, refer [Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/start-msteams-chat-sow.md).
 
--   **[Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/notify-sow.md)**  
+-   **[Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/notify-sow.md)**  
 Notify in Service Operations Workspace provides support for SMS, telephone, and the service providers on the ServiceNow AI Platform for communicating internally with team members and externally with customers and contractors.
--   **[Initiate a chat from Sidebar in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/initate-sidebar-chat-sow.md)**  
+-   **[Initiate a chat from Sidebar in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/initate-sidebar-chat-sow.md)**  
 Initiate a Sidebar chat to work towards the resolution of an incident.
 
-**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
+**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 
 **Related topics**  
 

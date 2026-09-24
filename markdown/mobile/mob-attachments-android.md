@@ -2,7 +2,7 @@
 title: Configure different mobile attachment capabilities on Android devices based on user roles
 description: Use a combination of system properties and mobile properties to enable different users on Android devices to share, download, or view attachments in external applications based on roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mob-attachments-android.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mob-attachments-android.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,11 +51,11 @@ After you identify the two groups of users, assign different roles to each group
 
 1.  Set the system property **glide.sg.block\_mobile\_attachments\_external\_viewing** to `true`.
 
-    For more information, see [Control whether users can view attachments in external applications on Android devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/vu-attach-extapp-android.md).
+    For more information, see [Control whether users can view attachments in external applications on Android devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/vu-attach-extapp-android.md).
 
 2.  Set the system property **glide.sg.block\_mobile\_attachments\_sharing** to `true`.
 
-    For more information, see [Block users from downloading or sharing attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/block-users-download-shar-attach.md).
+    For more information, see [Block users from downloading or sharing attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/block-users-download-shar-attach.md).
 
 3.  On your ServiceNow® instance, navigate to **All** &gt; **sys\_sg\_properties\_list.do**.
 
@@ -264,5 +264,5 @@ Mobile application that you want to send the mobile property to. This setting li
 
 After updating these properties, the end user must pull to refresh and get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md)
 

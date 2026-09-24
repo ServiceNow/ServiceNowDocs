@@ -2,7 +2,7 @@
 title: Approve a space assist request
 description: As a workplace manager, you can approve or reject a space assist request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/approve-a-space-assist-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/approve-a-space-assist-request.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -62,7 +62,7 @@ As a workplace manager, you can approve a space assist request raised by a user 
             The request is rejected.
 
 
-**Parent Topic:**[Manage Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/manage-workplace-central.md)
+**Parent Topic:**[Manage Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/manage-workplace-central.md)
 
 **Related topics**  
 

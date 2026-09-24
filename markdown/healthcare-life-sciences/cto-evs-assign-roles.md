@@ -2,7 +2,7 @@
 title: Set up roles for Care Team Operations for Environmental Services
 description: Assign the correct roles to users of Care Team Operations for Environmental Services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-assign-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-assign-roles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

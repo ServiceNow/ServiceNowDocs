@@ -2,7 +2,7 @@
 title: Viewing TAXII Collections
 description: Use this section to view the TAXII collections that are configured as part of TAXII Outbound Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-view-taxii-collections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-view-taxii-collections.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -41,7 +41,7 @@ Role required: sn\_sec\_tisc.analyst
     When initiating the removal of TAXII collection records, a confirmation message is displayed prompting you to confirm if one or more records can be removed from intelligence sharing. On confirmation the records are removed and a work notes activity is automatically posted in the Activity Stream providing the details of the removed record\(s\).
 
 
-**Parent Topic:**[Viewing Threat Intelligence External Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-module.md)
+**Parent Topic:**[Viewing Threat Intelligence External Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-intel-sharing-module.md)
 
 **Related topics**  
 

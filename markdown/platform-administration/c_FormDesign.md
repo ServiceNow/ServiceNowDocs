@@ -2,7 +2,7 @@
 title: Using the form designer
 description: Administrators or users with the personalize\_form role can use the form design feature to quickly create new or change existing form views.You can move fields to and from the form workspace to display the fields on the form.Use annotations to provide instructions or additional information about fields on a form.Move sections to and from the form layout to display or remove the sections on the form.Use formatters to add information from macros or previously scripted UI elements to a form.You can add a field to a form and the associated table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_FormDesign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_FormDesign.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -205,5 +205,5 @@ Use the filter to quickly find field types in the field navigator.
 **Related topics**  
 
 
-[Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DataDictionaryTables.md)
+[Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DataDictionaryTables.md)
 

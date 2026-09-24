@@ -2,7 +2,7 @@
 title: Configure dynamic conditions for a list action
 description: Configure a list or related list action to perform an action only when it satisfies dynamic conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/disable-list-actions-based-on-dynamic-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/disable-list-actions-based-on-dynamic-conditions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

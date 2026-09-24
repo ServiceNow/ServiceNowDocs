@@ -2,7 +2,7 @@
 title: Configure install base
 description: Track which products and services have been purchased by a customer, how they've been installed or provisioned, along with the detailed configuration for each installed item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-install-base.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-install-base.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Install the Customer Service Install Base Management plugin \(com.snc.install\_b
 
 Capture the install base for a customer by creating sold products, install base items, and installed products. This would enable the customer service agents to trace issues back to the relevant product, instances of that product, and other entities impacting their functioning.
 
-Before setting up your install base, create your product data by creating or importing product models. For more information, see [Configure product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-products.md).
+Before setting up your install base, create your product data by creating or importing product models. For more information, see [Configure product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-csm-products.md).
 
 This example shows the summary of the customer's purchase on the Solana microwave.
 

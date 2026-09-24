@@ -2,7 +2,7 @@
 title: Mobile list screen filters
 description: Use mobile filters in list screens to enable your users to find what they need in your instance's records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-list-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-list-filters.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,12 +22,12 @@ By default, the instance automatically creates a filter and sorting functionalit
 
 ## Custom filters
 
-If the default filters do not fit your requirements, consider creating a customer filter experience for your users. You can manually select the fields available to the list filter, as well as enable keyword filtering. Custom filters can include fields that are not in the list pattern. For more details on creating custom filters, see [Configure a custom filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-list-filter.md).
+If the default filters do not fit your requirements, consider creating a customer filter experience for your users. You can manually select the fields available to the list filter, as well as enable keyword filtering. Custom filters can include fields that are not in the list pattern. For more details on creating custom filters, see [Configure a custom filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-mobile-list-filter.md).
 
 **Note:** For those who have upgraded to the Rome release, consider the following:
 
 -   If you did not define filters and are using the default setup, you automatically use the default filters and sorting capabilities after the upgrade.
--   If you defined filters in earlier versions, then after the upgrade your defined filters are still available. However, you must manually configure the sorting capabilities. See, [Configure sorting capabilities within mobile filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/list-filter-sorting.md).
+-   If you defined filters in earlier versions, then after the upgrade your defined filters are still available. However, you must manually configure the sorting capabilities. See, [Configure sorting capabilities within mobile filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/list-filter-sorting.md).
 
 ## Disabling filters
 

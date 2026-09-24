@@ -2,7 +2,7 @@
 title: Set up the color banding table
 description: Use the color banding table to set up how the engagement health score is visually represented in the Success Landing and Engagement pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-setup-color-banding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-setup-color-banding.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -89,5 +89,5 @@ This is the color used to highlight the health score and perceived health of an 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engagement.md)
+**Parent Topic:**[Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-engagement.md)
 

@@ -2,7 +2,7 @@
 title: Configure TPRM properties
 description: Configure property settings for a variety of TPRM operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

@@ -2,7 +2,7 @@
 title: Enable branch operations
 description: You can enable a set of branch operations features so that managers can gain views into operational performance and cases across the branches they manage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/enable-branch-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/enable-branch-operations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -63,9 +63,9 @@ The Location manager contributor workspace contains these pages.
 
 The Location manager contributor role can select metric numbers from the landing or Branch Performance Metrics dashboard pages to drill down to a breakdown list or KPI Details performance analytics view.
 
-For more information about analytics and reporting for Financial Services Operations, see [Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md) and [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md).
+For more information about analytics and reporting for Financial Services Operations, see [Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-content-pack.md) and [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md).
 
-For more information on workspaces in Financial Services Operations, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-workspace.md).
+For more information on workspaces in Financial Services Operations, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-workspace.md).
 
 ## Branch Performance Metrics dashboard
 

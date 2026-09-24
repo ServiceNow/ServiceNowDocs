@@ -2,7 +2,7 @@
 title: Set up Content Analytics tracking
 description: To use Content Analytics with custom pages or widgets, add the tracking profile to your Employee Center or service portal theme header and add the cdaAnalytics service to your custom widgets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-content-analytics-tracking-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ecpro-content-analytics-tracking-setup.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,7 +33,7 @@ options="{ 'tracking_profile_name': '{PROFILE_NAME}', 'enable_logging': false}"
 ></widget>
 ```
 
-**Note:** If you don’t specify a tracking profile in the options, content analytics tries to use the default tracking profile. See [Create a Content Analytics tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.md).
+**Note:** If you don’t specify a tracking profile in the options, content analytics tries to use the default tracking profile. See [Create a Content Analytics tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.md).
 
 ## Procedure
 

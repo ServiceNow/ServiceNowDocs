@@ -2,7 +2,7 @@
 title: Create a breakdown from a wizard
 description: Create a breakdown, breakdown source, and breakdown mappings, and associate the breakdown with indicators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreateBreakdownFromWizard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_CreateBreakdownFromWizard.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -86,5 +86,5 @@ If a breakdown and breakdown source exist for the specified table, and a breakdo
     A check mark appears next to each record after it is created. When all records are created the **Create another breakdown** button appears.
 
 
-**Parent Topic:**[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
+**Parent Topic:**[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
 

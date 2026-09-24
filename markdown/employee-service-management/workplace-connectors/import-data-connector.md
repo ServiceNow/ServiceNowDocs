@@ -2,7 +2,7 @@
 title: Configure data Sources and schedule imports
 description: Set up the data source for the integration framework \(for example, badging spoke data\) and schedule the import job to retrieve data from the data source periodically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/import-data-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-connectors/import-data-connector.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
@@ -149,9 +149,9 @@ The time at which the scheduled job should be imported. For example: 10:30:00
 </table>10. Select **Execute Now**.
 
 
-**Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
-**Previous topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
+**Previous topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
-**Next topic:**[Create a badging data provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/wsd-connector-badging-providers.md)
+**Next topic:**[Create a badging data provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/wsd-connector-badging-providers.md)
 

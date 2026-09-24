@@ -2,7 +2,7 @@
 title: Create a learning task
 description: Assign a learning task to an employee that can be completed from the To-dos page in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/ln-task-le.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/ln-task-le.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -28,12 +28,12 @@ Role required: sn\_lc.task\_creator
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-task-form.md).
+    For a description of the field values, see [Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-task-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-ln-content.md)
+**Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-ln-content.md)
 
 **Related topics**  
 
@@ -48,5 +48,5 @@ Role required: sn\_lc.task\_creator
 
 [Create a learning library]()
 
-[Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-task-form.md)
+[Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-task-form.md)
 

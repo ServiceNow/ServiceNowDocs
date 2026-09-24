@@ -2,7 +2,7 @@
 title: Sourcing request
 description: A sourcing request is created for when an item that a shopper, employee, or requester needs, must be sourced. This record is created when an active contractual price for the product that the shopper intends to purchase doesn’t exist. This includes items in both the product catalog and off-catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-request.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -48,7 +48,7 @@ Assigned to
 
 </td><td>
 
-User who is responsible for the purchase. Determined using purchasing assignment rules. For details, see [Create a purchasing assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-purchasing-assignment-rule.md).
+User who is responsible for the purchase. Determined using purchasing assignment rules. For details, see [Create a purchasing assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-purchasing-assignment-rule.md).
 
 </td></tr><tr><td>
 
@@ -185,7 +185,7 @@ Purchase Lines
 
 Provides information of the individual lines under a sourcing request for the referenced supplier. The number of purchase lines for a sourcing request depends on the number of products or services with the same product model.
 
-For more details, see [Purchase lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.md).
+For more details, see [Purchase lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.md).
 
 </td></tr><tr><td>
 
@@ -193,7 +193,7 @@ Purchasing Tasks
 
 </td><td>
 
-Provides information of all purchasing tasks that are related to the sourcing request​. The tasks on the associated negotiation aren’t displayed.For more details, see [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
+Provides information of all purchasing tasks that are related to the sourcing request​. The tasks on the associated negotiation aren’t displayed.For more details, see [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
 
 </td></tr><tr><td>
 
@@ -217,7 +217,7 @@ Negotiations
 
 </td><td>
 
-Represents the task of obtaining the pricing of or negotiating the terms for the product or service requested by the shopper.For more details, see [Negotiations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/negotiations.md).
+Represents the task of obtaining the pricing of or negotiating the terms for the product or service requested by the shopper.For more details, see [Negotiations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/negotiations.md).
 
 </td></tr><tr><td>
 
@@ -225,7 +225,7 @@ Draft Contracts
 
 </td><td>
 
-Displays all the draft contracts associated with this sourcing request.For more details, see [Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/contracts.md).
+Displays all the draft contracts associated with this sourcing request.For more details, see [Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/contracts.md).
 
 </td></tr><tr><td>
 
@@ -329,11 +329,11 @@ The default states that are available for a sourcing request are listed.
 -   Closed Canceled
 -   Closed Rejected
 
-For more information on NEGs and NEs, see [Negotiations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/negotiations.md) and [Sourcing events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/negotiation-events.md) respectively.
+For more information on NEGs and NEs, see [Negotiations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/negotiations.md) and [Sourcing events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/negotiation-events.md) respectively.
 
-For information on how a supplier tiering assessment task influences SR states, see [Sourcing and Procurement Operations integration with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/better-together-with-vrm.md).
+For information on how a supplier tiering assessment task influences SR states, see [Sourcing and Procurement Operations integration with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/better-together-with-vrm.md).
 
-For a list of all sourcing request states and the conditions that trigger each state change, see [Purchase requisition, purchase order, and sourcing request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pr-po-sr-states.md).
+For a list of all sourcing request states and the conditions that trigger each state change, see [Purchase requisition, purchase order, and sourcing request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pr-po-sr-states.md).
 
-**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

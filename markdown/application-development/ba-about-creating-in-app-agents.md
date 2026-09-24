@@ -2,12 +2,12 @@
 title: Agentic workflows, agents, and skills
 description: Build Agent can generate agentic workflows, agents, and skills scoped to your custom app. Turn business requirements into configured AI artifacts without building from scratch.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ba-about-creating-in-app-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-about-creating-in-app-agents.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-25"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -72,5 +72,5 @@ In-App agents can work with any custom scoped application. Applications with rea
 
 **Note:** Generated agents are automatically registered in AI Control Tower for centralized governance, and artifacts deploy through standard update sets.
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-build-agent.md)
 

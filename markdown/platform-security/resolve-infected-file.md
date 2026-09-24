@@ -2,7 +2,7 @@
 title: Reviewing quarantined files
 description: Review quarantined file attachments and take further action as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/resolve-infected-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/resolve-infected-file.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

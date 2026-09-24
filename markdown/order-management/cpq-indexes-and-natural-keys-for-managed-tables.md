@@ -2,7 +2,7 @@
 title: Indexes and natural keys for managed tables
 description: Use indexes and natural keys to improve rule engine performance and speed up table lookups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-indexes-and-natural-keys-for-managed-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-indexes-and-natural-keys-for-managed-tables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -60,7 +60,7 @@ Some factors associated with natural keys and Indexes might hamper table import.
 **Related topics**  
 
 
-[Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/table_queries.md)
+[Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/table_queries.md)
 
 [The lookup function: commands and syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

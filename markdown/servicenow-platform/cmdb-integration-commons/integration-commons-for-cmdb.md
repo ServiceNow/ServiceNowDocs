@@ -2,7 +2,7 @@
 title: Integration Commons for CMDB
 description: The Integration Commons for CMDB application contains the CMDB Integrations Dashboard and a set of Robust Transform Engine \(RTE\) transforms and script includes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.html
 release: australia
 product: CMDB Integration Commons
 classification: cmdb-integration-commons
@@ -24,36 +24,36 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Dependencies
 
-CMDB and CSDM Data Foundations Dashboards v2.3.5 or later versions \(see [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md)\)
+CMDB and CSDM Data Foundations Dashboards v2.3.5 or later versions \(see [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md)\)
 
 ## Using the CMDB Integrations Dashboard
 
 The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors and any custom integrations created in IntegrationHub ETL.
 
-See [CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/cmdb-integ-dashboard.md) for more information.
+See [CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/cmdb-integ-dashboard.md) for more information.
 
 ## Using RTE transforms
 
 The Integration Commons for CMDB \(com.snc.cmdb.integration\_util\) plugin provides the Integration Commons functionality. You can use the transforms and script includes to standardize the values stored in the CMDB by different data integrations or by changes. The attributes included in the Integration Commons for CMDB application are attributes that the Identification and Reconciliation Engine \(IRE\) requires for identification or attributes that could be used to derive classes.
 
-**Note:** The RTE transforms are included in the Integration Commons for CMDB app and are available in the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) app. For more information on RTE transforms, see [RTE operation types included within the Integration Commons for CMDB app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/cmdb-rte-operation-types.md) and [RTE transforms template scripts included within the Integration Commons for CMDB app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/cmdb-rte-transforms.md).
+**Note:** The RTE transforms are included in the Integration Commons for CMDB app and are available in the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integration-hub-etl/integrationhub-etl.md) app. For more information on RTE transforms, see [RTE operation types included within the Integration Commons for CMDB app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/cmdb-rte-operation-types.md) and [RTE transforms template scripts included within the Integration Commons for CMDB app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/cmdb-rte-transforms.md).
 
 ServiceNow Service Graph Connectors that are available at the ServiceNow Store, have dependencies on the transforms and script includes in the Integration Commons for CMDB app. Therefore, when you install such CMDB integrations, the Integration Commons for CMDB store app is automatically installed too.
 
-You can also configure the Application Dependency Mapping \(ADM\) adapter to populate running processes, TCP connections, and applications into the CMDB. For more information, see [Configuring the ADM adapter for Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/sgc-common-config-adm.md).
+You can also configure the Application Dependency Mapping \(ADM\) adapter to populate running processes, TCP connections, and applications into the CMDB. For more information, see [Configuring the ADM adapter for Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/sgc-common-config-adm.md).
 
-**Important:** After upgrades and deployments of new applications or integrations, run quick start tests to verify that Integration Commons for CMDB works as expected. See [Quick start tests for Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.md) for more information.
+**Important:** After upgrades and deployments of new applications or integrations, run quick start tests to verify that Integration Commons for CMDB works as expected. See [Quick start tests for Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.md) for more information.
 
 **Related topics**  
 
 
-[Configuring the ADM adapter for Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/sgc-common-config-adm.md)
+[Configuring the ADM adapter for Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/sgc-common-config-adm.md)
 
-[Accessing the connection details of Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.md)
+[Accessing the connection details of Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.md)
 
-[Managing CMDB data deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/cmdb-integ-record-removal.md)
+[Managing CMDB data deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/cmdb-integ-record-removal.md)
 
-[Partition size computation for parallel loading in Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-part-size.md)
+[Partition size computation for parallel loading in Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-part-size.md)
 
-[Quick start tests for Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.md)
+[Quick start tests for Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.md)
 

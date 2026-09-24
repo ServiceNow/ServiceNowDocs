@@ -2,7 +2,7 @@
 title: Customer access management tables and plugins
 description: Learn about the tables and plugins that you can use with customer access management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-cust-access-mgmt-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-cust-access-mgmt-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -122,7 +122,7 @@ Responsibility Definition\[sn\_customerservice\_responsibility\_def\]
 -   Type
 -   Unique
 
-For more information on the column types, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md).
+For more information on the column types, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_CreateAResponsibilityDefinition.md).
 
 </td></tr><tr><td>
 

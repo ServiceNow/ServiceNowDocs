@@ -2,7 +2,7 @@
 title: Cancel a wet signature process for non-disclosure agreement legal requests
 description: As a legal user, cancel the wet signature process for contract documents in NDA legal requests that have been sent to signatories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-cancel-a-wet-signature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-cancel-a-wet-signature.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -28,15 +28,15 @@ The state of the contract request should be Awaiting signature.
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d732685e74">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d732689e74">
 
 Method
 
-</th><th align="left" id="d732685e77">
+</th><th align="left" id="d732689e77">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d732685e83">
+</th></tr></thead><tbody><tr><td id="d732689e83">
 
 **__Employee Center__**
 
@@ -47,7 +47,7 @@ Actions
 3.  Open the non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d732685e116">
+</td></tr><tr><td id="d732689e116">
 
 **__Legal Service Portal__**
 
@@ -69,5 +69,5 @@ Actions
 
 The contract status updates to Signature cancelled, and a notification email is sent to all signatories.
 
-**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 

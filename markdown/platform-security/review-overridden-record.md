@@ -2,10 +2,10 @@
 title: Review overridden records
 description: You can view information about specific overridden records and mark them reviewed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/review-overridden-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/review-overridden-record.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [View upgraded processes or records in the global domain, Setup and administration, Domain separation for service providers, Access Management]
 ---

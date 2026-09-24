@@ -2,7 +2,7 @@
 title: Now Assist Virtual Agent topics for HR Service Delivery Advanced Integration with Workday
 description: You can use the Now Assist Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the Workday system in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/now-assist-va-awd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/now-assist-va-awd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,7 +20,7 @@ You can use the Now Assist Virtual Agent topics in Employee Center to place requ
 
 To access and use the Virtual Agent topics, verify the following:
 
--   [Configure Virtual Agent topics for HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-awd-va.md).
+-   [Configure Virtual Agent topics for HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-awd-va.md).
 -   Have one of the following roles: admin, sn\_hr\_sp.hrsp\_alumni, sn\_hr\_sp.hrsp\_contingent, sn\_hr\_sp.hrsp\_employee, sn\_hr\_sp.hrsp\_contractor, or sn\_hr\_sp.admin
 
 ## Available Spoke Subflows for Virtual Agent topics for HR Service Delivery Advanced Integration with Workday
@@ -216,7 +216,7 @@ The Get Holiday Calendar Virtual Agent topic enables you to view your holiday ca
 
 \[Omitted image "awd-calendar1.png"\] Alt text: Holiday Calendar 1 \[Omitted image "awd-calendar2.png"\] Alt text: Holiday Calendar 2
 
-**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
 
 **Related topics**  
 

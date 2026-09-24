@@ -2,7 +2,7 @@
 title: Exploring the ServiceNow Store
 description: Learn about the ServiceNow Store procurement workflow and how apps, products, and integrations can help your organization enhance the ServiceNow AI Platform experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/exploring-servicenow-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/exploring-servicenow-store.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,19 +44,19 @@ The following shows the overall workflow of finding, procuring, and installing s
 
 1.  Find and evaluate solutions on the ServiceNow Store to determine which apps might improve your organization's ServiceNow AI Platform experience. Finding and evaluating solutions might be done by administrators, developers, process owners, solutions consultants, or platform architects.
 2.  Procure apps or trials from the ServiceNow Store to extend production or non-production instance capabilities. Procurement might be done by administrators, process owners, developers, or technical consultants.
-3.  Install procured solutions using the Application Manager. Installation must be performed by an administrator. For more information about using the Application Manager, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md).
-4.  Update installed solutions using the Application Manager to take advantage of the latest improvements. Upgrades must be performed by an administrator. For more information about using the Application Manager, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md).
+3.  Install procured solutions using the Application Manager. Installation must be performed by an administrator. For more information about using the Application Manager, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/application-manager.md).
+4.  Update installed solutions using the Application Manager to take advantage of the latest improvements. Upgrades must be performed by an administrator. For more information about using the Application Manager, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/application-manager.md).
 5.  Leave a review on the ServiceNow Store listing details of any app or product that you have used. Anyone who has experience using a solution can leave a review at any time.
 
 ## What to explore next
 
 To learn more about using the ServiceNow Store, see:
 
--   [Tracking your ServiceNow Store activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tracking-store-activity.md)
--   [Plugins, apps, integrations, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/plugins-apps-products-integrations.md)
--   [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-trials.md)
--   [Reviewing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/reviewing-apps.md)
--   [Getting apps as an on-premise customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-on-prem.md)
--   [Using the ServiceNow Store in a regulated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-regulated-store.md)
--   [ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/store-reference.md)
+-   [Tracking your ServiceNow Store activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/tracking-store-activity.md)
+-   [Plugins, apps, integrations, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/plugins-apps-products-integrations.md)
+-   [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/getting-apps-trials.md)
+-   [Reviewing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/reviewing-apps.md)
+-   [Getting apps as an on-premise customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/getting-apps-on-prem.md)
+-   [Using the ServiceNow Store in a regulated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/using-regulated-store.md)
+-   [ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/store-reference.md)
 

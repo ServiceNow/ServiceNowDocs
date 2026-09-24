@@ -2,7 +2,7 @@
 title: Knowledge articles on ServiceNow Agent
 description: Search relevant information from knowledge articles and see when your team members are on-site and if they are on schedule.Search through articles from your organization's knowledge base to find helpful information relevant to a work order task assigned to you.Know when your team members are on-site working on a task and if they are on schedule to complete their tasks. You can connect with them by calling or sending a text message.Access knowledge articles that are attached to work order tasks on the ServiceNow Agent application.Provide feedback on a knowledge article by rating the article, marking the article as helpful or not helpful, and posting and replying to comments for the article on the ServiceNow Agent application.Discover articles with similar information on a topic while viewing a knowledge article.View translated versions of published knowledge articles through the ServiceNow Agent mobile app.Ask natural language questions and get answers from the Knowledge Base, including related steps and guidance, from the ServiceNow Agent app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/access-information-you-need-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/access-information-you-need-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

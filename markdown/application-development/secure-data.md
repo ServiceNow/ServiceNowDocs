@@ -2,7 +2,7 @@
 title: Secure data
 description: Data security is one of the most important and overlooked aspects of creating an application. ServiceNow automatically configures access control for a new or selected role during the table creation process. Only users with the role can access the table to read, create, write, and delete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/secure-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/secure-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,5 +44,5 @@ The ServiceNow AI Platform also provides various encryption solutions at the app
 
 **Note:** Set up security before configuring any interfaces or business logic. Since security affects the data available to interfaces and business logic, waiting until the end of the application build process may cause rework and issues.
 
-**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/define-and-build-data-model.md)
+**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/define-and-build-data-model.md)
 

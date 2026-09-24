@@ -2,7 +2,7 @@
 title: Targeted Communications publication workflows
 description: The Targeted Communications application \(com.sn\_publications\) includes default workflows that are used for publishing articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/targeted-comm-publication-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/targeted-comm-publication-workflows.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

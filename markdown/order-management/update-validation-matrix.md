@@ -2,7 +2,7 @@
 title: Update validation settings in a matrix
 description: Change the rule validation checks for a matrix. These checks run automatically when you save changes made to the matrix decision table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/update-validation-matrix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/update-validation-matrix.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create a facilities schedule blackout
 description: Blackout periods can be defined for spaces, levels, buildings, campuses, and zones. The Facilities\_admin can override blackout period requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateFacScheduleBlackout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_CreateFacScheduleBlackout.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ Role required: Facilities\_admin \(create\), Facilities\_staff \(view\)
 5.  Click **Add**.
 
 
-**Parent Topic:**[Schedule blackout periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ScheduleBlackout.md)
+**Parent Topic:**[Schedule blackout periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_ScheduleBlackout.md)
 

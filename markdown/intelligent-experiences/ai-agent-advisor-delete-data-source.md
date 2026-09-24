@@ -2,7 +2,7 @@
 title: Delete an analysis data source
 description: Delete a data source analysis that you no longer want to run for automation opportunity discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-advisor-delete-data-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-agent-advisor-delete-data-source.html
 release: australia
 topic_type: task
 last_updated: "2026-08-25"
@@ -52,7 +52,7 @@ You can only delete the analysis configuration for a custom data source.
     The custom data source configuration is deleted and no longer visible on the AI Agent Advisor setup page.
 
 
-**Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
+**Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Add the layout, state model, and playbook to a workflow
 description: Attach a layout, state model, and playbook to a workflow to define what it captures, its lifecycle, and how users are guided through it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,7 +18,7 @@ Attach a layout, state model, and playbook to a workflow to define what it captu
 
 ## Before you begin
 
-The issue workflow must exist, with its basic details saved. See [Create an issue workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-an-issue-workflow.md).
+The issue workflow must exist, with its basic details saved. See [Create an issue workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-an-issue-workflow.md).
 
 Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
@@ -34,7 +34,7 @@ The Workflow components step opens automatically after you save the workflow's b
 
     **Note:**
 
-    Select **View all issue layouts** to browse existing layouts, filtered to the workflow's table, or select **New** on that list to create one. See [Table configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/table-configuration-fields.md).
+    Select **View all issue layouts** to browse existing layouts, filtered to the workflow's table, or select **New** on that list to create one. See [Table configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/table-configuration-fields.md).
 
 2.  In the **State model** field, select an existing state model.
 
@@ -42,7 +42,7 @@ The Workflow components step opens automatically after you save the workflow's b
 
     **Note:**
 
-    Select **View all state models** to browse existing state models or create one. See [Create a GRC state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-a-grc-state-model.md).
+    Select **View all state models** to browse existing state models or create one. See [Create a GRC state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-a-grc-state-model.md).
 
 3.  In the **Playbook** field, select an existing playbook, or leave the field set to **None**.
 
@@ -59,10 +59,10 @@ The step is marked Complete. If you selected a state model or playbook, their st
 
 ## What to do next
 
-Continue the guided setup by mapping states to playbook stages. See [Map states to playbook stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/map-states-to-playbook-stages.md).
+Continue the guided setup by mapping states to playbook stages. See [Map states to playbook stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/map-states-to-playbook-stages.md).
 
--   **[Table configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/table-configuration-fields.md)**  
+-   **[Table configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/table-configuration-fields.md)**  
 Fields on the Table configuration form, used to create an issue layout.
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

@@ -2,7 +2,7 @@
 title: Self-Solve Performance page in Assistant analytics
 description: Analyze self-solve and deflection metrics to measure how effectively assistants help users resolve issues without live agent intervention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/self-solve-performance-page-in-assistant-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/self-solve-performance-page-in-assistant-analytics.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -68,7 +68,7 @@ The visualizations on the Self-Solve Performance page help you with the followin
     -   Not Resolved: conversations where negative feedback was provided by the user or the query was escalated to a live agent
     \[Omitted image "NAinVA-assistant-designer-analytics-self-solve-performance-self-solved-outcome-distribution.png"\] Alt text: A pie chart showing the proportion of self-solve outcomes. Each segment represents a different outcome category with its percentage of the total.
 
-    Select a segment in the pie chart to drill down to the Deflection Details page and view conversations associated with that outcome. See [Deflection details page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/deflection-details-page.md) for more information.
+    Select a segment in the pie chart to drill down to the Deflection Details page and view conversations associated with that outcome. See [Deflection details page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/deflection-details-page.md) for more information.
 
 -   **Deflection Types Offered**
 
@@ -76,7 +76,7 @@ The visualizations on the Self-Solve Performance page help you with the followin
 
     \[Omitted image "NAinVA-assistant-designer-analytics-self-solve-performance-deflection-types-offered.png"\] Alt text: A pie chart showing the distribution of deflection methods offered to users. Each segment represents a deflection type with its percentage of the total.
 
-    Select a segment in the pie chart to drill down to the Deflection Details page and view conversations associated with that deflection type. See [Deflection details page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/deflection-details-page.md) for more information.
+    Select a segment in the pie chart to drill down to the Deflection Details page and view conversations associated with that deflection type. See [Deflection details page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/deflection-details-page.md) for more information.
 
 -   **Effort Score**
 

@@ -2,7 +2,7 @@
 title: Create an incident from an alert in Express List
 description: Create an incident from an alert directly from the Express List pane, saving you the time and effort of navigating to the incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/open-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/open-incident.html
 release: australia
 product: Event Management
 classification: event-management

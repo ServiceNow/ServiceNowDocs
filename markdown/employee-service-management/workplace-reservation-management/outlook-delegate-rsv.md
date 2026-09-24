@@ -2,7 +2,7 @@
 title: Delegate reservations in Microsoft Outlook add-in
 description: Delegate additional permissions to read, create, or change items in your Microsoft Outlook mailbox. Delegate access to a colleague or team member. Delegates can create and reserve resources \(desks, rooms, equipment, services like catering\) for other employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/outlook-delegate-rsv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/outlook-delegate-rsv.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -36,11 +36,11 @@ Role required: admin
 
 4.  On the New Event form, fill in the required information.
 
-    For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
+    For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
 
 5.  Select the add-in manifest file of your instance and create a reservation using the Make a reservation form.
 
-    For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
+    For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
 
 6.  Review your reservation in the Reservation Summary page.
 

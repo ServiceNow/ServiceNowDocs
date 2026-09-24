@@ -2,7 +2,7 @@
 title: Record time worked on a repair task manually in the Hardware Asset Workspace
 description: Create an entry for the time worked on an asset repair task manually in the Hardware Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/record-time-worked-manually-ham-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/record-time-worked-manually-ham-ws.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -55,7 +55,7 @@ Role required: asset
 
 The Time Worked form is saved and the time card is added to the Time Worked tab of the asset repair task.
 
-**Parent Topic:**[Record time worked on asset repair tasks in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/record-repair-time-ham-ws.md)
+**Parent Topic:**[Record time worked on asset repair tasks in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/record-repair-time-ham-ws.md)
 
 **Related topics**  
 

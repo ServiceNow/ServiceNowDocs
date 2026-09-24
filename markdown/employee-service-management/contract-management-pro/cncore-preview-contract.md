@@ -2,7 +2,7 @@
 title: Preview and download a signed contract document
 description: View and download a signed contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-preview-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-preview-contract.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -51,15 +51,15 @@ When multiple contract documents are attached, a separate contract repository re
 
 6.  View the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d786055e125">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d786059e125">
 
 Choice
 
-</th><th align="left" id="d786055e128">
+</th><th align="left" id="d786059e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d786055e134">
+</th></tr></thead><tbody><tr><td id="d786059e134">
 
 **When internal storage is configured**
 
@@ -70,7 +70,7 @@ Steps
 3.  Select download icon to download the document.
 
 
-</td></tr><tr><td id="d786055e155">
+</td></tr><tr><td id="d786059e155">
 
 **When external storage is configured**
 
@@ -82,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

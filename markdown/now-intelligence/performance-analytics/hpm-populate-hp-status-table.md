@@ -2,7 +2,7 @@
 title: Populate the homepage migration status table
 description: The Homepage migration status table enables you to address homepage retirement and conversion. Run a scheduled workflow to populate the homepage migration status table with information about the homepages on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/hpm-populate-hp-status-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/hpm-populate-hp-status-table.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

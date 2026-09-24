@@ -2,7 +2,7 @@
 title: GlideDynamicNamespace - Global
 description: The GlideDynamicNamespace API provides access to dynamic namespace metadata.Gets name of the dynamic namespace.Returns whether an object is an active dynamic namespace.Returns whether an object is a transient dynamic namespace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideDynamicNamespaceAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideDynamicNamespaceAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,14 +20,14 @@ This API provides methods that enable you to get dynamic schema values defined i
 
 See also:
 
--   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) — getNamespaceName\(\)
--   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) — getNamespaceName\(\)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
     -   getDynamicNamespace\(\)
     -   setDynamicNamespace\(\)
--   [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md) — getDynamicNamespace\(\)
--   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md) — getDynamicNamespace\(\)
+-   [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementAPI.md) — getDynamicNamespace\(\)
+-   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md) — getDynamicNamespace\(\)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideDynamicNamespace - getName\(\)
 

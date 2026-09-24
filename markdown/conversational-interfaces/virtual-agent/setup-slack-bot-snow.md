@@ -2,7 +2,7 @@
 title: Retrieve self-configured bot details
 description: Retrieve the details of the bot that you created in the Slack workspace to integrate with the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/setup-slack-bot-snow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/setup-slack-bot-snow.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -45,5 +45,5 @@ You should now be able to interact with your self-configured bot.
 
 If you don't see your bot under the Apps section, then select **Add Apps** and search for your bot and select it. You can type **hi** to receive a response.
 
-**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
+**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
 

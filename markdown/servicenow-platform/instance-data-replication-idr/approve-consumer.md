@@ -2,7 +2,7 @@
 title: Manage consumer access to replication data in Instance Data Replication
 description: Approve a consumer's request to access replication data in Instance Data Replication \(IDR\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/approve-consumer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instance-data-replication-idr/approve-consumer.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -51,12 +51,12 @@ You can review consumer access requests for all of your producer replication set
         **Note:** You can change the Consumer Approval Status to Denied to prevent the consumer from receiving the replicated data.
 
 
--   **[Revoke access to replicated data for Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/revoke-consumer-sets.md)**  
+-   **[Revoke access to replicated data for Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/revoke-consumer-sets.md)**  
 Revoke a consumer's access to replicated data if you believe that consumer instance should no longer receive data in Instance Data Replication \(IDR\).
--   **[Restore access to replication data for Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/restore-access.md)**  
+-   **[Restore access to replication data for Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/restore-access.md)**  
 Restore Instance Data Replication \(IDR\) access to replicated data by sending a request to the producer replication set admin.
 
-**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 

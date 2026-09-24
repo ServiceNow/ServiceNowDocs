@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Otto for Code
 description: Install and configure ServiceNow Otto for Code on an instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/configuring-now-assist-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/configuring-now-assist-code.html
 release: australia
 product: Scripts
 classification: scripts
@@ -16,12 +16,12 @@ breadcrumb: [ServiceNow Otto for Code, Scripting, API implementation, API implem
 
 Install and configure ServiceNow Otto for Code on an instance.
 
--   **[Install ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/install-now-assist-code-app.md)**  
+-   **[Install ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/install-now-assist-code-app.md)**  
 Install the ServiceNow Otto for Creator application from the ServiceNow® Store to get ServiceNow Otto for Code.
--   **[Configure AI model providers for ServiceNow Otto for Code skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/configure-model-providers-for-now-assist-skills.md)**  
+-   **[Configure AI model providers for ServiceNow Otto for Code skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/configure-model-providers-for-now-assist-skills.md)**  
 Select a large language model \(LLM\) as the AI service provider for ServiceNow Otto for Code skills.
--   **[Enable or disable AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/enable-or-disable-now-assist-for-code-skills.md)**  
+-   **[Enable or disable AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/enable-or-disable-now-assist-for-code-skills.md)**  
 Learn to enable and disable ServiceNow Otto for Code skills.
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

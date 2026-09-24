@@ -2,7 +2,7 @@
 title: Onboard an external agent
 description: Onboard an agent for contractor company to assign the work order tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/onboard-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/onboard-agent.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

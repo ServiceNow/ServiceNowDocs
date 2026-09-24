@@ -2,7 +2,7 @@
 title: Configure integration services for SAP Ariba
 description: For configuring integration services, provide the connection end point and the SAP Ariba credentials that you set up for your authentication profile. Also, create a integration service record for each entity you want to customize.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-sap-ariba.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-sap-ariba.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -123,7 +123,7 @@ The order in which the entity should be displayed.
     The integration service is configured for the selected entity.
 
 
-**Parent Topic:**[Configure the Source-to-Pay integration with SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-ariba-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-ariba-integration.md)
 
 **Related topics**  
 

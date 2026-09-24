@@ -2,7 +2,7 @@
 title: Create secure parameters for a check
 description: When creating a check definition or check instance, you can configure the parameters you want to be secured when the agent executes the check. During check execution, the secured parameters are obfuscated, securing their information. Only credential information is obfuscated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-create-secure-params.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-create-secure-params.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

@@ -2,7 +2,7 @@
 title: Auto-dispatch a task
 description: When a task is auto-dispatched, the application matches the task with a nearby agent having the necessary skills and schedule that can accommodate the task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_AutoDispatchATask.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_AutoDispatchATask.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ When a task is auto-dispatched, the application matches the task with a nearby a
     If the system cannot find an appropriate agent, it displays a failure message and leaves the task in the **Pending Dispatch** state.
 
 
-**Parent Topic:**[Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacRequestTasks.md)
+**Parent Topic:**[Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacRequestTasks.md)
 

@@ -2,7 +2,7 @@
 title: Configure E-signature for approvals
 description: Approval with e-Signature plugin \(com.glide.e\_signature\_approvals\) enables users to approve requests by authenticating their login credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/esignature-for-approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/esignature-for-approvals.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -54,5 +54,5 @@ When you select a table \(sc\_request\) and enable the e-signature, the approver
 
 **Note:** When you do not upgrade to the latest employee center, you do not see the authentication window.
 
-For more information on approvals, see [Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md).
+For more information on approvals, see [Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md).
 

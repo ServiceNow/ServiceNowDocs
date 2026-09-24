@@ -2,7 +2,7 @@
 title: Create an X.509 Certificate
 description: Create an X.509 certificate record in ServiceNow by uploading a Java Key Store \(JKS\) file and configuring the certificate settings. This enables secure authentication and encryption for Card Data Security applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/create-an-x-509-certificate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/create-an-x-509-certificate.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -21,7 +21,7 @@ Create an X.509 certificate record in ServiceNow by uploading a Java Key Store \
 
 Role required: admin
 
-This task requires a JKS file created for Card Data Security. See [Create a JKS file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-a-jks-file.md) for more information.
+This task requires a JKS file created for Card Data Security. See [Create a JKS file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/create-a-jks-file.md) for more information.
 
 ## Procedure
 
@@ -54,5 +54,5 @@ A certificate record is created.
 
 ## What to do next
 
-[Set up a JWT key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-key.md).
+[Set up a JWT key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/set-up-a-jwt-key.md).
 

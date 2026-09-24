@@ -2,7 +2,7 @@
 title: Activate the Technology Lifecycle Management \(TLM\) plugin
 description: Activate the Technology Lifecycle Management \(TLM\) store application that you purchased from the ServiceNow Store to make it available on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-install-tpm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-install-tpm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,12 +43,12 @@ Role required: admin
 5.  Select **Install**.
 
 
--   **[Tables installed with TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tables-installed-with-tpm.md)**  
+-   **[Tables installed with TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-tables-installed-with-tpm.md)**  
 Several types of tables are installed with Technology Lifecycle Management.
--   **[Business rules for TLM in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm-business-rules.md)**  
+-   **[Business rules for TLM in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-tpm-business-rules.md)**  
 Several types of business rules are added with Technology Lifecycle Management.
--   **[Scheduled jobs for TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm-scheduled-jobs.md)**  
+-   **[Scheduled jobs for TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-tpm-scheduled-jobs.md)**  
 Several types of scheduled jobs are added for Technology Lifecycle Management.
 
-**Parent Topic:**[Configure Technology Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-config-tech-portfolio-mgmt.md)
+**Parent Topic:**[Configure Technology Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-config-tech-portfolio-mgmt.md)
 

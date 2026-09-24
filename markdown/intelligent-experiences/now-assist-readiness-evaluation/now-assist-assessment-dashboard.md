@@ -2,7 +2,7 @@
 title: AI Assessment dashboard tab
 description: The AI Readiness Evaluation dashboard's AI Assessment dashboard tab helps determine generative AI readiness by delivering automated, data-driven insights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/now-assist-assessment-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-readiness-evaluation/now-assist-assessment-dashboard.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
@@ -17,7 +17,7 @@ breadcrumb: [Using AI Readiness Evaluation dashboard, Use, AI Readiness Evaluati
 
 The AI Readiness Evaluation dashboard's AI Assessment dashboard tab helps determine generative AI readiness by delivering automated, data-driven insights.
 
-**Note:** For results to appear in this dashboard, verify that you have completed the configuration steps first. For more information on configuration, see [Configuring AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md).
+**Note:** For results to appear in this dashboard, verify that you have completed the configuration steps first. For more information on configuration, see [Configuring AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md).
 
 The following list describes details of the AI Assessment dashboard tab.
 
@@ -50,5 +50,5 @@ You can select each widget on the dashboard to have that table data open in a se
 
 \[Omitted image "nare-dashboard-na-assessment.png"\] Alt text: AI Assessment tab showing each area of the dashboard, all including data that is automatically populated.
 
-**Note:** This tab displays the Total Estimated Effort \(Days\), Remediation Effort by Category, and Estimated Effort – Trends cards when the **sn\_assess.effort\_visibility** system property is set to **true**. For more information, see [AI Readiness Evaluation system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.md).
+**Note:** This tab displays the Total Estimated Effort \(Days\), Remediation Effort by Category, and Estimated Effort – Trends cards when the **sn\_assess.effort\_visibility** system property is set to **true**. For more information, see [AI Readiness Evaluation system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.md).
 

@@ -2,7 +2,7 @@
 title: Download the Password Reset Windows Application installer
 description: Download the Password Reset Windows Application installer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/win-dwnld-installer-pwr-reset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/win-dwnld-installer-pwr-reset.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -41,5 +41,5 @@ Role required: any user
 5.  Click **Download**.
 
 
-**Parent Topic:**[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)
+**Parent Topic:**[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)
 

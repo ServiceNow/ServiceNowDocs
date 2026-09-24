@@ -2,7 +2,7 @@
 title: AI asset inventory
 description: AI asset inventory includes all the AI assets such as AI models, AI systems, prompts, datasets, and MCP servers that an organization can use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-inventory.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -42,9 +42,9 @@ AI asset inventory includes all the AI assets such as AI models, AI systems, pro
 
 AI assets are presented in a list format and organized by display name, provider, vendor, managed by, lifecycle phase, state, status, and risk classification.
 
-For information on AI asset record details, see [View AI asset record details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/view-ai-asset-details.md)
+For information on AI asset record details, see [View AI asset record details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/view-ai-asset-details.md)
 
-For information on creating AI assets, see [Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/creating-ai-assets.md)
+For information on creating AI assets, see [Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/creating-ai-assets.md)
 
 For information on process flow of the MCP servers, see 
 

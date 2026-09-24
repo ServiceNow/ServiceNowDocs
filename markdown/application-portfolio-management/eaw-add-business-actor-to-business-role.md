@@ -2,7 +2,7 @@
 title: Add a business actor to a business role
 description: Add existing business actors to a business role to identify who fulfills the role, or create a business actor directly from the business role record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-business-actor-to-business-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-business-actor-to-business-role.html
 release: australia
 topic_type: task
 last_updated: "2026-08-01"
@@ -39,20 +39,20 @@ Role required: sn\_apm.apm\_user
         1.  Select **Add**.
         2.  In the Add business actors window, select the business actor. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
-    -   To create a business actor, select **New** and complete the fields on the form. For field descriptions, see [Business actor form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-business-actor-form.md).
+    -   To create a business actor, select **New** and complete the fields on the form. For field descriptions, see [Business actor form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-a-new-business-actor-form.md).
 
 ## Result
 
 The business actor appears in the **Business actors** related list.
 
-**Parent Topic:**[Manage business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-roles.md)
+**Parent Topic:**[Manage business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-business-roles.md)
 
 **Related topics**  
 
 
-[Remove business actors from a business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-actor-from-business-role.md)
+[Remove business actors from a business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-remove-business-actor-from-business-role.md)
 
-[View all business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-roles.md)
+[View all business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-business-roles.md)
 
-[Add or edit a business role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-business-role.md)
+[Add or edit a business role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-or-edit-a-business-role.md)
 

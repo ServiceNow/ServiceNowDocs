@@ -2,7 +2,7 @@
 title: Automated certificate renewal
 description: Detect certificates that are about to expire and renew them automatically before expiration to keep your digital systems secure and continuously available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/automated-certificate-renewal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/automated-certificate-renewal.html
 release: australia
 product: Discovery
 classification: discovery

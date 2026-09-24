@@ -2,7 +2,7 @@
 title: Activate LEAP
 description: Activate the LEAP skill after installing the application to assemble and categorize incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -34,7 +34,7 @@ and the application scope must be LEAP.
 
 5.  In the LEAP installer input section, enter the details for LEAP to run scans on existing records, and select **Save and continue**.
 
-    For details on installer fields, see [LEAP Installer fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-installation-fields.md)
+    For details on installer fields, see [LEAP Installer fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-installation-fields.md)
 
 6.  In the Define access section, select the role to whom you want to provide access to LEAP skills.
 

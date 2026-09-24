@@ -2,7 +2,7 @@
 title: Disable email responses from the case activity stream
 description: Disable email responses from the case activity stream. Stop agents from interacting with customers directly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-email-response-from-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-email-response-from-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

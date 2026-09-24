@@ -2,7 +2,7 @@
 title: REST connection form
 description: The following are the available fields in the REST connection form to create a REST connection for Microsoft SharePoint connectivity configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/rest-connection-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/rest-connection-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

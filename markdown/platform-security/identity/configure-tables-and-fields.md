@@ -2,7 +2,7 @@
 title: Configuring Tables and Fields
 description: Configure tables and fields for Identity and Access Audit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/configure-tables-and-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/configure-tables-and-fields.html
 release: australia
 product: Identity
 classification: identity
@@ -34,7 +34,7 @@ The following tables can be configured for auditing​:
 -   Contained Role \[sys\_user\_role\_contains\]​
 -   Group Member \[sys\_user\_grmember\]​
 
-**Note:** To understand which fields can be configured for the tables, see [Supported and unsupported fields in Identity Access and Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/allowed-fields-for-audit.md).
+**Note:** To understand which fields can be configured for the tables, see [Supported and unsupported fields in Identity Access and Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/allowed-fields-for-audit.md).
 
 ## Procedure
 

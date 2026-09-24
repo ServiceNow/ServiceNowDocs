@@ -2,7 +2,7 @@
 title: Provider configuration in Voice
 description: For both inbound and outbound calls, a provider configuration contains settings about the involved components and message transformers for a specific third-party phone system provider. Any request from that phone system provider is handled within ServiceNow based on these settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/provider-configuration-ccc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/provider-configuration-ccc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ To view the available message transformers, navigate to **ServiceNow Voice - Cor
 
 For the ServiceNow Voice integration with the ServiceNow Voice with Amazon Connect application, the **AWS Connect Default Handler** provider component is available by default.
 
-**Note:** The ServiceNow Voice with Amazon Connect integration with ServiceNow application \[sn\_cti\_amzn\_cct\] must be installed from the ServiceNow® Store. For information on installing this application, see [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md).
+**Note:** The ServiceNow Voice with Amazon Connect integration with ServiceNow application \[sn\_cti\_amzn\_cct\] must be installed from the ServiceNow® Store. For information on installing this application, see [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/install-ccc-apps.md).
 
 For each node that can be used an integration point between Amazon services and the ServiceNow instance, the following provider components and the corresponding message transformers are available.
 
@@ -54,5 +54,5 @@ When a customer dials using a phone number, a call is placed through the Amazon 
 -   Transform the request from Amazon Connect before passing the request to an operation handler.
 -   Transform the response from the operation handler before passing it on to Amazon Connect.
 
-**Parent Topic:**[Scripting for operation handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-api.md)
+**Parent Topic:**[Scripting for operation handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cloud-call-center-api.md)
 

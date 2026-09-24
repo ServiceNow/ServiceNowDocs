@@ -2,7 +2,7 @@
 title: ServiceNow Vault roles
 description: Learn and set up the roles necessary to use ServiceNow Vault.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/vault-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/vault-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-08"
@@ -27,5 +27,5 @@ To use ServiceNow Vault and its capabilities, elevate to the roles in this table
 |`security_admin`|This role is required to modify high-security settings and manage the Access Control List \(ACL\). On the **Protect existing data** screen in guided setup, this role is required to create or modify field encryption configurations.|
 |`sn_vault_console.vault_console_auditor`|Provides read-only access to the Vault console. Use this role to review data classification and protection policies without modifying configurations. On the **Protect existing data** screen in guided setup, this role provides read-only access to available protection configurations.|
 
-**Note:** The `security_admin` role was removed from the `sn_vault_console.vault_console_admin` role composition for security reasons. It no longer appears in the Elevate role list. A user with the admin role must assign `security_admin` through the standard user-administration process. To assign roles related to Field Encryption such as `sn_kmf.admin` and `sn_kmf.cryptographic manager`, contact your admin. For more information, see [Role requirements for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/fe-roles.md).
+**Note:** The `security_admin` role was removed from the `sn_vault_console.vault_console_admin` role composition for security reasons. It no longer appears in the Elevate role list. A user with the admin role must assign `security_admin` through the standard user-administration process. To assign roles related to Field Encryption such as `sn_kmf.admin` and `sn_kmf.cryptographic manager`, contact your admin. For more information, see [Role requirements for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-roles.md).
 

@@ -2,7 +2,7 @@
 title: Import classification codes
 description: Import multiple classification codes at one go to your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/import-class-codes-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/import-class-codes-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

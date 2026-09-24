@@ -2,7 +2,7 @@
 title: Check which CI types require an ITOM subscription
 description: View the list of configuration item \(CI\) types that require IT Operations Management subscription units.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/check-ci-type-require-license.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/check-ci-type-require-license.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

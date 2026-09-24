@@ -2,7 +2,7 @@
 title: Modify existing table using spreadsheet import
 description: Use a Microsoft Excel spreadsheet import to update an existing application table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/spreadsheet-import-existing-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/spreadsheet-import-existing-table.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,13 +18,13 @@ Use a Microsoft Excel spreadsheet import to update an existing application table
 
 ## Before you begin
 
--   Import a spreadsheet into App Engine Studio. See [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md).
+-   Import a spreadsheet into App Engine Studio. See [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md).
 
-Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
-1.  After you have uploaded your spreadsheet as described in [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md), choose where to import your file in the displayed wizard.
+1.  After you have uploaded your spreadsheet as described in [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md), choose where to import your file in the displayed wizard.
 
     \[Omitted image "aes-spreadsheet-import-data-existing.png"\] Alt text: Import into an existing application table.
 
@@ -125,7 +125,7 @@ Add unmapped field columns from your import to your target table or create new f
 
 5.  Convert any remaining worksheets if your file contained multiple worksheet tabs.
 
-    -   **Note:** For each sheet that you want to convert, you will need to select **Convert to table**, and then repeat steps in this procedure or choose a different pathway for the additional worksheet \(see [Create new table from spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-create-new-table.md) or [Create new table from extensible table and spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-create-new-ext-table.md) for steps\).
+    -   **Note:** For each sheet that you want to convert, you will need to select **Convert to table**, and then repeat steps in this procedure or choose a different pathway for the additional worksheet \(see [Create new table from spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/spreadsheet-create-new-table.md) or [Create new table from extensible table and spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/spreadsheet-create-new-ext-table.md) for steps\).
 
     -   If you do not have multiple worksheets, proceed to the next step.
 6.  Select **Done** on the summary screen.
@@ -135,7 +135,7 @@ Add unmapped field columns from your import to your target table or create new f
 
 ## What to do next
 
-For more information on editing your data tables in Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
+For more information on editing your data tables in Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-landing-page.md).
 
-**Parent Topic:**[Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/upload-multi-sheets.md)
+**Parent Topic:**[Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/upload-multi-sheets.md)
 

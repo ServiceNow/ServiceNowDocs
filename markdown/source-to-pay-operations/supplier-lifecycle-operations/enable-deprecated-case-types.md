@@ -2,7 +2,7 @@
 title: Enable deprecated case types after upgrade
 description: After you upgrade to Australia, you can enable deprecated case types if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/enable-deprecated-case-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/enable-deprecated-case-types.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -47,7 +47,7 @@ In the australia release, the **Conduct a risk assessment** and **Conduct a tier
 
 The deprecated case types now appear in the **Case type** field on the **Create New Supplier Case** form.
 
-**Parent Topic:**[Post-upgrade tasks for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-upgrade-tasks-slo.md)
+**Parent Topic:**[Post-upgrade tasks for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/post-upgrade-tasks-slo.md)
 
 **Related topics**  
 
@@ -66,7 +66,7 @@ The deprecated case types now appear in the **Case type** field on the **Create 
 
 [Processing the skipped supplier catalog item records after upgrade]()
 
-[Restructured Supplier Task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-task-table-restructure.md)
+[Restructured Supplier Task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-task-table-restructure.md)
 
-[Processing the skipped supplier catalog item records after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/process-skipped-records-upgrade.md)
+[Processing the skipped supplier catalog item records after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/process-skipped-records-upgrade.md)
 

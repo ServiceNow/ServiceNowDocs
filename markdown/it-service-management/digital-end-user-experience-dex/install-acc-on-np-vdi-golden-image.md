@@ -2,7 +2,7 @@
 title: Install Agent Client Collector on a non-persistent VDI reference device
 description: Install Agent Client Collector \(ACC\) on the reference device used to create the non-persistent VDI golden image. The mid-less installation method, combined with the LOCALUSERNAME="SYSTEM" parameter and a non-persistent setting in acc.yml, configures the agent to operate correctly across copied VDI sessions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/install-acc-on-np-vdi-golden-image.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/install-acc-on-np-vdi-golden-image.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -37,7 +37,7 @@ Role required: sn-dex-admin
 
     The `LOCALUSERNAME="SYSTEM"` parameter configures the agent to run as the local `SYSTEM` account, which is required for non-persistent VDI monitoring.
 
-    For the full MID-less installation command syntax, parameters, and an example, see [Non-persistent VDI parameters, scripts, and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/non-persistent-vdi-scripts.md).
+    For the full MID-less installation command syntax, parameters, and an example, see [Non-persistent VDI parameters, scripts, and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/non-persistent-vdi-scripts.md).
 
 4.  Run the command on the reference device to install Agent Client Collector.
 
@@ -60,7 +60,7 @@ Role required: sn-dex-admin
 
 ## What to do next
 
-Install the DEX browser extension on the reference device. See [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
+Install the DEX browser extension on the reference device. See [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
 
-Prepare the reference device for copying. See [Prepare non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/prepare-np-vdi-golden-image.md).
+Prepare the reference device for copying. See [Prepare non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/prepare-np-vdi-golden-image.md).
 

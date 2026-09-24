@@ -2,7 +2,7 @@
 title: Exploring Flow generation with images
 description: Create a flow or a subflow from an image by using ServiceNow Otto for Creator. Capture the detailed process in an image and attach the image to Workflow Studio. ServiceNow Otto for Creator generates a preview of the flow that you can modify and regenerate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/exploring-flow-generation-with-images.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/exploring-flow-generation-with-images.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -85,5 +85,5 @@ Follow these general guidelines when writing Now Assist directions.
     Enclose exact data values in quotations marks to help the LLM distinguish between operation names and data values. For example, the directions, "`Log the value, 'incident reopened'`" make it clear that the text "incident reopened" is a data value.
 
 
-**Parent Topic:**[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-generation-with-images-landing.md)
+**Parent Topic:**[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-generation-with-images-landing.md)
 

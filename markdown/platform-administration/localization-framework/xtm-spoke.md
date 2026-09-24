@@ -2,7 +2,7 @@
 title: XTM Translation Management System spoke
 description: The XTM Translation Management System spoke provides subflows and actions to localize the artifacts using the XTM translation management system service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/xtm-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-framework/xtm-spoke.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -62,7 +62,7 @@ The following are the connection alias requirements.
 -   Connection type: HTTP
 -   Connection URL: For example, `https://languagecloud.sdl.com`. This is a sample URL. Users can have a different URL based on their geographical preference.
 
-See [Configure XTM TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/configure-xtm-tms.md) to connect to the XTM TMS services and use them to localize the artifacts.
+See [Configure XTM TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/configure-xtm-tms.md) to connect to the XTM TMS services and use them to localize the artifacts.
 
-**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md)
+**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/tms-configuration.md)
 

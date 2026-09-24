@@ -2,7 +2,7 @@
 title: Copy Splunk Enterprise Security profiles from one instance to another using export/import functionality
 description: You can export and import Splunk Enterprise Security profiles settings from one ServiceNow AI Platform instance to a different ServiceNow AI Platform instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/import-and-export-splunk-profile-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/import-and-export-splunk-profile-data.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

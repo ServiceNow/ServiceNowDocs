@@ -2,7 +2,7 @@
 title: Monitor the submission results in the sandbox
 description: Results for all Sandbox submissions are shown in the Sandbox Submission Results tab for every security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-sandbox-submission-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/view-sandbox-submission-results.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

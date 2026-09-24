@@ -2,7 +2,7 @@
 title: Set up the AWS Lambda spoke
 description: Integrate the ServiceNow instance and AWS Lambda account using AWS credential to authenticate ServiceNow requests.Create a credential record for your AWS Lambda account. The AWS Lambda spoke connection and credential alias uses this credential to perform actions on AWS Lambda.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-aws-lambda.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-aws-lambda.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -19,7 +19,7 @@ Integrate the ServiceNow instance and AWS Lambda account using AWS credential to
 ## Before you begin
 
 -   Request an Integration Hub subscription.
--   Activate the [AWS IAM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/aws-iam-spoke.md).
+-   Activate the [AWS IAM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/aws-iam-spoke.md).
 -   Activate the AWS Lambda spoke.
 -   Role required: admin.
 

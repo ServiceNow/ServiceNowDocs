@@ -2,7 +2,7 @@
 title: Discover missing compute resources
 description: Use the Discovery Admin Workspace to identify compute resources that weren't discovered recently. Run a quick discovery to update the resource's data. If a resource isn't discoverable, ignore the resource and exclude it from the report. This procedure helps you maximize the use of your resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discover-missing-compute-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discover-missing-compute-resources.html
 release: australia
 product: Discovery
 classification: discovery

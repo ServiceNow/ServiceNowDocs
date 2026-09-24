@@ -2,7 +2,7 @@
 title: Field Service Quality Management
 description: Field Service Quality Management allows reviewers to check work order tasks before they are closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/quality-management-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/quality-management-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,11 +25,11 @@ Overall, the Field Service Quality Management feature streamlines the process of
 **Related topics**  
 
 
-[Configuring Field Service Quality Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/config-quality-mgmt.md)
+[Configuring Field Service Quality Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/config-quality-mgmt.md)
 
-[Review a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/review-send-task-back.md)
+[Review a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/review-send-task-back.md)
 
-[Respond to a reviewed work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md)
+[Respond to a reviewed work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/close-wo-wot-mobile.md)
 
-[Field Service Quality Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/quality-mgmt-components.md)
+[Field Service Quality Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/quality-mgmt-components.md)
 

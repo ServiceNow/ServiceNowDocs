@@ -2,7 +2,7 @@
 title: Submit a JSA through the Now Mobile app
 description: Submit a job safety analysis \(JSA\) to identify hazards related to your job and identify control measures that should be in place at your point-of-work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/submit-jsa-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/submit-jsa-mobile.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -26,15 +26,15 @@ Role required: sn\_hs\_rm.jsa\_reporter
 
 2.  Create a JSA.
 
-<table id="choicetable_znq_p3r_dcc"><thead><tr><th align="left" id="d373463e62">
+<table id="choicetable_znq_p3r_dcc"><thead><tr><th align="left" id="d373467e62">
 
 Option
 
-</th><th align="left" id="d373463e65">
+</th><th align="left" id="d373467e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d373463e71">
+</th></tr></thead><tbody><tr><td id="d373467e71">
 
 **From Home tab**
 
@@ -44,7 +44,7 @@ Steps
 2.  In the **Quick links** section on the page, tap **Create a job safety analysis**.
 
 
-</td></tr><tr><td id="d373463e98">
+</td></tr><tr><td id="d373467e98">
 
 **From Support tab**
 
@@ -54,7 +54,7 @@ Steps
 2.  In the **Browse from all topics** section on the page, tap **Health and Safety** and then tap **Job safety analysis**.
 
 
-</td></tr><tr><td id="d373463e128">
+</td></tr><tr><td id="d373467e128">
 
 **From a previously submitted JSA**
 
@@ -70,7 +70,7 @@ A JSA form with values copied from the previous JSA opens.
 </td></tr></tbody>
 </table>3.  Fill in the fields.
 
-    For more information on JSA field descriptions, see [JSA form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-submit-jsa-form.md).
+    For more information on JSA field descriptions, see [JSA form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-submit-jsa-form.md).
 
 4.  Tap **Submit**.
 
@@ -84,5 +84,5 @@ A JSA form with values copied from the previous JSA opens.
 -   The JSA is submitted for your job or task. To view your submitted JSAs, navigate to the **My items** section on the **Home** page, tap **My job safety analyses**, and then tap the required JSA.
 -   The JSA is also listed in the JSAs list on Health and Safety Workspace. A risk manager \[sn\_hs\_rm.jsa\_manager\] can view all the filed JSAs by navigating to the Health and Safety Workspace and selecting the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\) and then selecting the **JSAs** list.
 
-**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
+**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 

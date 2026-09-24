@@ -2,7 +2,7 @@
 title: Stakeholder register form
 description: The stakeholder register form information is used to add users to the stakeholder registry.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/stakeholder-register-form-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/stakeholder-register-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

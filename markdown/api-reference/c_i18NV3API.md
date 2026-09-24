@@ -2,7 +2,7 @@
 title: i18N - Client
 description: The i18N API provides methods to get and format translated messages.Formats a string containing named tokens with values from a map.Retrieves a translated message.Retrieves a set of messages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_i18NV3API.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/c\_i18NV3API.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -18,7 +18,7 @@ The i18N API provides methods to get and format translated messages.
 
 The i18N methods are accessed using the `g_i18n` global object.
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 
 ## i18N - format\(String message, Object map\)
 

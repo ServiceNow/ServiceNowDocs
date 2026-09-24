@@ -2,11 +2,11 @@
 title: Combined ServiceNow Otto for CMDB release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for CMDB from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforcmdb-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoforcmdb-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 3
+last_updated: "2026-09-24"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -190,6 +190,8 @@ Zurich
 
 ServiceNow Otto for CMDB is a ServiceNow AI Platform feature that is available with activation of plugins that you get from the ServiceNow Store. For details, see [Configure](https://www.servicenow.com/docs/access?context=now-assist-cmdb-configuring&family=zurich&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for CMDB is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -377,5 +379,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

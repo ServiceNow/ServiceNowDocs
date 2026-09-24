@@ -2,7 +2,7 @@
 title: MID-less log streaming via ITOM Gateway in Health Log Analytics
 description: Health Log Analytics \(HLA\) can receive log data from external sources directly through the ITOM Gateway, without routing data through a MID Server. This architecture supports cloud-native log sources such as Amazon Data Firehose, Cribl, and OpenTelemetry, and is required for high-volume HLA deployments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-midless-streaming.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-midless-streaming.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -39,7 +39,7 @@ Standard
 
 </td><td>
 
-For typical log volumes, enable ITOM Gateway and the  Hermes  Messaging Service on your instance, configure a JSON Web Token \(JWT\) provider and token, and set up your log source from Integrations Launchpad. For more information, see [Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md) and [Set up log streaming via ITOM Gateway for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming-setup.md).
+For typical log volumes, enable ITOM Gateway and the  Hermes  Messaging Service on your instance, configure a JSON Web Token \(JWT\) provider and token, and set up your log source from Integrations Launchpad. For more information, see [Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-jwt-token-config.md) and [Set up log streaming via ITOM Gateway for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-midless-streaming-setup.md).
 
 </td></tr><tr><td>
 
@@ -47,7 +47,7 @@ High-volume
 
 </td><td>
 
-For deployments requiring 30,000 or more log events per second, you must scale the HLA infrastructure before enabling ITOM Gateway. This process involves resizing the AI Engine and Elasticsearch nodes and coordinating a cross-team migration.Contact ServiceNow Support to request infrastructure scaling. For details and the required information to provide, see [Set up log streaming via ITOM Gateway for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming-setup.md)
+For deployments requiring 30,000 or more log events per second, you must scale the HLA infrastructure before enabling ITOM Gateway. This process involves resizing the AI Engine and Elasticsearch nodes and coordinating a cross-team migration.Contact ServiceNow Support to request infrastructure scaling. For details and the required information to provide, see [Set up log streaming via ITOM Gateway for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-midless-streaming-setup.md)
 
 **Note:** Infrastructure scaling requires a 6-hour change window and involves expected downtime of 2–6 hours for HLA functions only.
 
@@ -56,7 +56,7 @@ For deployments requiring 30,000 or more log events per second, you must scale t
 
 Currently, the following log sources can stream data to HLA via ITOM Gateway:
 
--   [AWS Firehose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-firehose.md)
+-   [AWS Firehose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-firehose.md)
 -   Cribl Stream
 -   OpenTelemetry Collector
 
@@ -75,12 +75,12 @@ Log sources authenticate to HLA using a JWT token. You must configure a JWT prov
 |AI Engine|HLA back-end component that processes and analyzes ingested log data.|
 |Integrations Launchpad|ServiceNow interface for configuring log source integrations. Each supported log source has a dedicated tile.|
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
 
 **Related topics**  
 
 
-[Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md)
+[Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-jwt-token-config.md)
 
-[Set up log streaming via ITOM Gateway for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming-setup.md)
+[Set up log streaming via ITOM Gateway for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-midless-streaming-setup.md)
 

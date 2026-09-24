@@ -2,7 +2,7 @@
 title: Configure your pipeline in DevOps Config
 description: Configure your Argo CD, Azure DevOps, or Jenkins pipeline with DevOps Config to interact with your data model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-set-up-pipeline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-set-up-pipeline.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

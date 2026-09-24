@@ -2,7 +2,7 @@
 title: Trigger Condition form for assessments
 description: Description of the field values for the Trigger Condition form for assessments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/trigger-condition-form-for-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/trigger-condition-form-for-assessment.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -96,7 +96,7 @@ Assessable Record Field
 
  If the selected **Assessment** evaluates records on the Company `[core_company]` table and the selected **Table** is Incident, the only **Assessable Record Field** options are fields on the Incident table that reference the Company table. For example, **Company** or, if vendor ticketing is enabled, **Vendor**. If you select **Vendor**, the trigger condition sends an assessment about the **Vendor** for the incident, assuming there is an assessable record for the associated company. The assessment contains questions from all metric categories associated with the assessable record.
 
-**Note:** This field is not available if the selected **Assessment** is a metric type used for surveys. See [Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TriggerConditions.md).
+**Note:** This field is not available if the selected **Assessment** is a metric type used for surveys. See [Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_TriggerConditions.md).
 
 </td></tr><tr><td>
 
@@ -125,10 +125,10 @@ Condition
 \[Required\] Condition builder that defines the criteria that must be true to send the assessment. For example, if you want to send an assessment whenever an incident closes, create the condition \[State\] \[is\] \[Closed\].
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessment-reference.md)
+</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/assessment-reference.md)
 
 **Related topics**  
 
 
-[Configure a trigger condition for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateATriggerCondition.md)
+[Configure a trigger condition for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateATriggerCondition.md)
 

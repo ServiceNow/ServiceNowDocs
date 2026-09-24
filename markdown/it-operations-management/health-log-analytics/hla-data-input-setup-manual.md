@@ -2,7 +2,7 @@
 title: Set up data inputs in Health Log Analytics manually
 description: Set up your Health Log Analytics data inputs for Health Log Analytics manually. Data input configuration is an essential step in setting up the Health Log Analytics application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-setup-manual.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-setup-manual.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,7 +19,7 @@ Set up your Health Log Analytics data inputs for Health Log Analytics manually. 
 
 ## Before you begin
 
-**Note:** Consider using the Health Log Analytics data input guided setup, which ensures that you have the minimum required setup for the data input process. For more information, see [Set up data inputs in Health Log Analytics using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-guided.md).
+**Note:** Consider using the Health Log Analytics data input guided setup, which ensures that you have the minimum required setup for the data input process. For more information, see [Set up data inputs in Health Log Analytics using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-setup-guided.md).
 
 -   Verify that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md).
 
@@ -30,7 +30,7 @@ Set up your Health Log Analytics data inputs for Health Log Analytics manually. 
 -   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 -   For shipping your logs encrypted using SSL TLS, see the [Streaming Data With Rsyslog &amp; Filebeat Using SSL \[KB0866319\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0866319) article in the Now Support Knowledge Base.
 
--   For MID Server proxy requirements, see [MID Server proxy preconditions for streaming logs to Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-mid-proxy-configure.md).
+-   For MID Server proxy requirements, see [MID Server proxy preconditions for streaming logs to Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-mid-proxy-configure.md).
 
 Role required: evt\_mgmt\_admin. For the ServiceNow System Logs data input: admin.
 
@@ -52,11 +52,11 @@ Agent Client Collector
 
 </td><td>
 
-The data input streams log messages to your ServiceNow instance using the ServiceNow Agent Client Collector.This data input is supported for use with the [Agent Client Collector Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-log-analytics.md) application, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+The data input streams log messages to your ServiceNow instance using the ServiceNow Agent Client Collector.This data input is supported for use with the [Agent Client Collector Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-log-analytics.md) application, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 </td></tr><tr><td>
 
-[Amazon CloudWatch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-cloudwatch.md)
+[Amazon CloudWatch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-cloudwatch.md)
 
 </td><td>
 
@@ -64,7 +64,7 @@ The data input streams log data from Amazon CloudWatch to your ServiceNow instan
 
 </td></tr><tr><td>
 
-[Amazon S3 Bucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-s3.md)
+[Amazon S3 Bucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-s3.md)
 
 </td><td>
 
@@ -72,7 +72,7 @@ The data input streams log data from Amazon S3 \(Simple Storage Service\) bucket
 
 </td></tr><tr><td>
 
-[Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka.md)
+[Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-kafka.md)
 
 </td><td>
 
@@ -80,7 +80,7 @@ The data input streams log data from Apache Kafka to your ServiceNow instance.
 
 </td></tr><tr><td>
 
-[Cribl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-cribl.md)
+[Cribl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-cribl.md)
 
 </td><td>
 
@@ -88,7 +88,7 @@ The data input to enables Health Log Analytics to process Cribl log messages str
 
 </td></tr><tr><td>
 
-[Edge Delta](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-edge-delta.md)
+[Edge Delta](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-edge-delta.md)
 
 </td><td>
 
@@ -96,7 +96,7 @@ The data input enables Health Log Analytics to process Edge Delta log messages s
 
 </td></tr><tr><td>
 
-[Elasticsearch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-elastic.md)
+[Elasticsearch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-elastic.md)
 
 </td><td>
 
@@ -104,7 +104,7 @@ The data input pulls log data from Elasticsearch indexes into your instance.
 
 </td></tr><tr><td>
 
-[GCP PubSub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub.md)
+[GCP PubSub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub.md)
 
 </td><td>
 
@@ -112,7 +112,7 @@ The data input receives log messages that are published to a Google Cloud Pub/Su
 
 </td></tr><tr><td>
 
-[Microsoft Azure Event Hubs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-event-hubs.md)
+[Microsoft Azure Event Hubs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-event-hubs.md)
 
 </td><td>
 
@@ -120,7 +120,7 @@ The data input streams events from Microsoft Azure Event Hubs to your ServiceNow
 
 </td></tr><tr><td>
 
-[Microsoft Azure Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-azure.md)
+[Microsoft Azure Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-azure.md)
 
 </td><td>
 
@@ -128,7 +128,7 @@ The data input streams log data from Microsoft Azure Log Analytics to your Servi
 
 </td></tr><tr><td>
 
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mid-server.md)
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-mid-server.md)
 
 </td><td>
 
@@ -136,7 +136,7 @@ The data input collects MID Server log files and streams them to your instance.
 
 </td></tr><tr><td>
 
-[REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-rest-api.md)
+[REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-rest-api.md)
 
 </td><td>
 
@@ -144,7 +144,7 @@ The data input streams log data to your ServiceNow instance in JSON format.
 
 </td></tr><tr><td>
 
-[Rsyslog or Beats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-rsyslog-beats.md)
+[Rsyslog or Beats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-rsyslog-beats.md)
 
 </td><td>
 
@@ -152,7 +152,7 @@ The data input streams log data into your instance using Rsyslog or Beats.
 
 </td></tr><tr><td>
 
-[ServiceNow System Logs Retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-glide-syslog.md)
+[ServiceNow System Logs Retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-glide-syslog.md)
 
 </td><td>
 
@@ -160,7 +160,7 @@ The data input streams log data from the ServiceNow System Log table to the Heal
 
 </td></tr><tr><td>
 
-[Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-splunk.md)
+[Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-splunk.md)
 
 </td><td>
 
@@ -168,7 +168,7 @@ The data input streams log data into your instance using Splunk.
 
 </td></tr><tr><td>
 
-[Splunk Polling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-splunk-polling.md)
+[Splunk Polling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-splunk-polling.md)
 
 </td><td>
 
@@ -176,7 +176,7 @@ The data input periodically pulls log data from Splunk by using a query.
 
 </td></tr><tr><td>
 
-[TCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-tcp.md)
+[TCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-tcp.md)
 
 </td><td>
 
@@ -184,7 +184,7 @@ The data input sends raw log messages to your instance directly over a TCP/SSL s
 
 </td></tr><tr><td>
 
-[UDP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-udp.md)
+[UDP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-udp.md)
 
 </td><td>
 
@@ -192,7 +192,7 @@ The data input streams raw log messages to your ServiceNow instance directly ove
 
 </td></tr><tr><td>
 
-[Vector Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-vector-agent.md)
+[Vector Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-vector-agent.md)
 
 </td><td>
 
@@ -203,40 +203,40 @@ The data input enables Health Log Analytics to process log messages that are str
 
 2.  Identify and address streaming issues to confirm that the data input is streaming log data to the MID Server from all sources.
 
-    For more information, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
+    For more information, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
 
 3.  Edit raw log data before Health Log Analytics maps and structures it.
 
-    For more information, see [Edit your raw log data before processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-preprocess.md).
+    For more information, see [Edit your raw log data before processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-preprocess.md).
 
 4.  Determine how Health Log Analytics handles raw log data that is streaming into your instance.
 
-    By default, every incoming log line is auto-mapped to the correct tag. If properties aren't discovered automatically, map the data input sources manually by defining a JavaScript function. For more information, see [Map the raw data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+    By default, every incoming log line is auto-mapped to the correct tag. If properties aren't discovered automatically, map the data input sources manually by defining a JavaScript function. For more information, see [Map the raw data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
 5.  Tweak the source type structure to make sure that Health Log Analytics extracts and classifies all properties correctly.
 
-    For more information, see [Refine the source type structure in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md).
+    For more information, see [Refine the source type structure in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md).
 
 6.  Perform additional data input setup tasks.
 
-    For more information, see [Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md).
+    For more information, see [Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md).
 
 
--   **[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)**  
+-   **[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)**  
 Configure the data input process manually in Health Log Analytics. Data input configuration is an essential step in setting up the Health Log Analytics application.
--   **[Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md)**  
+-   **[Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md)**  
 Find and address log streaming issues to verify that your data inputs are streaming log data to your instance properly.
--   **[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)**  
+-   **[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)**  
 After performing the initial data input setup and configuration in Health Log Analytics, continue with the remaining data input setup tasks.
--   **[Advanced data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)**  
+-   **[Advanced data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)**  
 When you have configured a data input successfully, Health Log Analytics adds a record to the Data Inputs table and attaches the configuration file to it. You can configure advanced settings for your data input. Configuring advanced settings is optional.
--   **[Stop or restart a data input in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-stop-start.md)**  
+-   **[Stop or restart a data input in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-stop-start.md)**  
 You can stop using a data input for streaming log messages to your ServiceNow instance. Restart the data input if you want it to resume streaming data.
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
 
 **Related topics**  
 
 
-[Supported data inputs for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-supported.md)
+[Supported data inputs for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-supported.md)
 

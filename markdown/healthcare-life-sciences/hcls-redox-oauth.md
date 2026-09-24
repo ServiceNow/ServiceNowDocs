@@ -2,7 +2,7 @@
 title: Link your ServiceNow instance with your Redox account
 description: Create an OAuth application endpoint for the external Redox healthcare system to access your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-redox-oauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-redox-oauth.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

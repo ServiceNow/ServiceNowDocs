@@ -2,12 +2,12 @@
 title: Use Multi-Provider SSO to set up an SSO approval for a SAML 2.0 authentication
 description: An SSO approval with e-signature requires configuration on the SAML IdP and the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/sso-esignature-approval-SAML.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/sso-esignature-approval-SAML.html
 release: australia
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 1.  Activate or upgrade to SAML 2.0 with the [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateMultipleProviderSSO.md).
 
-2.  Activate the [Approval with E-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/activate-approval-esignature.md).
+2.  Activate the [Approval with E-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/activate-approval-esignature.md).
 
 3.  Navigate to **Multi-Provider SSO** &gt; **Identity Providers** and verify your 2.0 SAML IdP configuration Advanced tab shows the **Force AuthnRequest** attribute checked.
 
@@ -36,7 +36,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 4.  On the eSignature Approval tab, enter the following e-signature SAML properties.
 
-<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d636436e110">
+<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d637098e110">
 
 **Assertion Consumer URL for eSignature authentication**
 
@@ -44,7 +44,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 This property defaults to the appropriate URL. To configure this property, select the lock icon to make this field editable. After edits, select the icon to lock the field.
 
-</td></tr><tr><td id="d636436e119">
+</td></tr><tr><td id="d637098e119">
 
 **Assertion Consumer Index for eSignature authentication**
 
@@ -52,7 +52,7 @@ This property defaults to the appropriate URL. To configure this property, selec
 
 If your Service Provider has more than one URL set for the AssertionConsumerURL, you can set the index to use for eSignature, starting with index 1 or more.
 
-</td></tr><tr><td id="d636436e131">
+</td></tr><tr><td id="d637098e131">
 
 **AuthnRequest URL for eSignature Authentication**
 
@@ -60,7 +60,7 @@ If your Service Provider has more than one URL set for the AssertionConsumerURL,
 
 You can enter the URL that points to the SAML 2.0 IdP AuthnRequest URL for eSignature authentication. If the URL is the same as the Assertion Consumer URL, you can leave this setting empty.
 
-</td></tr><tr><td id="d636436e140">
+</td></tr><tr><td id="d637098e140">
 
 **Authentication pop-up Dialog Width**
 
@@ -68,7 +68,7 @@ You can enter the URL that points to the SAML 2.0 IdP AuthnRequest URL for eSign
 
 When a user approves a request using eSignature, a dialog opens and a user can enter credentials. This setting controls the width of that dialog box. The default is 500.
 
-</td></tr><tr><td id="d636436e149">
+</td></tr><tr><td id="d637098e149">
 
 **Authentication pop-up Dialog Height**
 
@@ -84,5 +84,5 @@ When a user approves a request using eSignature, a dialog opens and a user can e
 6.  Copy the service provider metadata, and update it on the SAML IdP.
 
 
-**Parent Topic:**[Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/approval-with-e-signature.md)
+**Parent Topic:**[Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/approval-with-e-signature.md)
 

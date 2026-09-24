@@ -2,7 +2,7 @@
 title: Log operational vulnerabilities and issues
 description: Optionally document operational weaknesses and link issues identified from the scenario analysis results to support remediation tracking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-sca-op-vul-and-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-sca-op-vul-and-issues.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Steps to identify operational vulnerabilities and log issues are optional. They 
 
 4.  Enter a **Name** for the vulnerability and confirm the auto-populated **Source record**, which points to the current scenario analysis.
 
-    The **Number** is generated automatically with the `ORV` prefix. The created vulnerability follows the standard operational vulnerability life cycle: New, Assessment, Treatment, Pending approval, Approved, Closed, Canceled. For more information, see [Operational vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/exploring-op-vul.md).
+    The **Number** is generated automatically with the `ORV` prefix. The created vulnerability follows the standard operational vulnerability life cycle: New, Assessment, Treatment, Pending approval, Approved, Closed, Canceled. For more information, see [Operational vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/exploring-op-vul.md).
 
     **Note:** You can only create vulnerabilities from this step. To pull in an existing operational vulnerability, use the operational vulnerability list view directly.
 
@@ -64,5 +64,5 @@ Steps to identify operational vulnerabilities and log issues are optional. They 
 
 ## Result
 
-Operational vulnerabilities and issues have been recorded or skipped. The **Complete analysis** action is now available. For more information on completing Scenario analysis, see [Mark the scenario analysis as complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-analysis.md).
+Operational vulnerabilities and issues have been recorded or skipped. The **Complete analysis** action is now available. For more information on completing Scenario analysis, see [Mark the scenario analysis as complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/complete-sca-analysis.md).
 

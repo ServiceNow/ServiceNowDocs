@@ -2,7 +2,7 @@
 title: Database Encryption with Customer Controlled Switch
 description: Database Encryption with Customer-Controlled Switch \(DBE-CCS\) is an encryption solution that encrypts all data-at-rest when not in use in the database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/database-encryption-with-customer-controlled-switch/dbe-with-ccs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/database-encryption-with-customer-controlled-switch/dbe-with-ccs.html
 release: australia
 product: Database Encryption with Customer Controlled Switch
 classification: database-encryption-with-customer-controlled-switch
@@ -16,7 +16,7 @@ breadcrumb: [Database Encryption, Encryption]
 
 Database Encryption with Customer-Controlled Switch \(DBE-CCS\) is an encryption solution that encrypts all data-at-rest when not in use in the database.
 
-**Important:** Database Encryption has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Australia release. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
+**Important:** Database Encryption has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Australia release. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cloud-encryption/dare-overview.md)
 
 ## Overview
 
@@ -47,5 +47,5 @@ Refer to these references for additional information about DBE with CCS:
 
 **Note:** To access KB articles, you must first authenticate into Now Support.
 
-**Parent Topic:**[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
+**Parent Topic:**[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
 

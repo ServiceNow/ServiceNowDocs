@@ -2,7 +2,7 @@
 title: Document Viewer
 description: Document Viewer enables you to view documents directly in the ServiceNow AI Platform rather than having to download them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/Documentviewer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/Documentviewer.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -58,7 +58,7 @@ To revert to the classic document viewer:
 **Related topics**  
 
 
-[View attachments with Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/view-attachment-doc-viewer.md)
+[View attachments with Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/view-attachment-doc-viewer.md)
 
-[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/enable-document-viewer.md)
+[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/enable-document-viewer.md)
 

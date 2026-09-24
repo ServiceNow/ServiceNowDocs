@@ -2,7 +2,7 @@
 title: LDAP integration via MID Server
 description: Administrators can integrate using an LDAP data source over a Management, Instrumentation, and Discovery \(MID\) Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_LDAPIntegrationViaMIDServer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ldap-integration/c\_LDAPIntegrationViaMIDServer.html
 release: australia
 product: LDAP integration
 classification: ldap-integration
@@ -32,5 +32,5 @@ For a secure communication over SSL, you must [add an SSL certificate for the MI
 
 **Note:** If you create a new LDAP server, the MID Server SSL flag sets to false by default. You can ignore this behavior.
 
-To set connection properties for a specific LDAP server, see [Define an LDAP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_DefineAnLDAPServer.md).
+To set connection properties for a specific LDAP server, see [Define an LDAP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ldap-integration/t_DefineAnLDAPServer.md).
 

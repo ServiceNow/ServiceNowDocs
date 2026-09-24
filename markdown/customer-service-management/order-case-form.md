@@ -2,7 +2,7 @@
 title: Order case form
 description: The order case form displays details about an order case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/order-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/order-case-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

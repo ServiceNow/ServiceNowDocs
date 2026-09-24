@@ -2,7 +2,7 @@
 title: Create additional recipients for Virtual Agent notifications
 description: Create and define additional recipients for a Virtual Agent notification to be delivered on chat channels or messaging channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-additional-recipients.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-additional-recipients.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -107,5 +107,5 @@ Dynamic filter conditions for the defined recipients.The dynamic condition is ap
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
+**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
 

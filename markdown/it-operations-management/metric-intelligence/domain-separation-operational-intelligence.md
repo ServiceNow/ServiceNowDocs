@@ -2,7 +2,7 @@
 title: Domain separation and Metric Intelligence
 description: Domain separation is supported in Metric Intelligence. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/domain-separation-operational-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/metric-intelligence/domain-separation-operational-intelligence.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence

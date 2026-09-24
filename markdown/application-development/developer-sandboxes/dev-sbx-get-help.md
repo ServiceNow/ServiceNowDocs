@@ -2,7 +2,7 @@
 title: Get help with Developer Sandboxes
 description: To get help with Developer Sandboxes, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company. You can also check some helpful resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dev-sbx-get-help.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/developer-sandboxes/dev-sbx-get-help.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes

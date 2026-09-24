@@ -2,7 +2,7 @@
 title: Create a workplace case from Universal Request
 description: As a routing agent, create a workplace case from a universal request and then assign it to the Workplace services assignment group. The workplace manager handles the workplace case and takes further actions to fulfill the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/create-workplace-case-from-universal-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/create-workplace-case-from-universal-req.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -41,7 +41,7 @@ A workplace case is created and is automatically assigned to the Workplace servi
 
 On the Workplace Case form, the universal request number that was used for creating the workplace case is displayed. The Workplace case number appears in the primary **Ticket** field on the Universal Request form and also under the Associated Tickets related list.
 
-**Parent Topic:**[Workplace Service Delivery integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-intergration-with-universal-request.md)
+**Parent Topic:**[Workplace Service Delivery integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/wsd-intergration-with-universal-request.md)
 
 **Related topics**  
 

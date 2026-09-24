@@ -2,7 +2,7 @@
 title: Automation goal form
 description: Use the Automation goal form to create an automation goal in Automation Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automation-goal-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/automation-goal-form.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -68,5 +68,5 @@ Owner
 Owner of the automation goal.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-reference.md)
 

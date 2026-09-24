@@ -2,7 +2,7 @@
 title: Activate Data Collection for SecOps
 description: Activate the Data Collection Pack for SecOps after you enable and configure it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/dc-secops-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-secops-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -57,5 +57,5 @@ Role required: admin, pa\_admin, or pa\_data\_collector
         To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-secops.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-secops.md)
 

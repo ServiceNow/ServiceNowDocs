@@ -2,7 +2,7 @@
 title: Set up mappings between themes
 description: Make sure that playbooks run as expected in your Service Portal by setting up mappings between your Service Portal theme and the UXF theme used in UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/set-up-mappings-between-themes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/set-up-mappings-between-themes.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -70,5 +70,5 @@ The mapping between your Service Portal theme and the UXF theme is saved. Launch
 
 Embed a playbook in a Service Portal page and customize the Service Portal playbook runtime experience in the ServiceNow AI Platform®.
 
-To learn more about customizing the playbook runtime experience in Service Portal, see [Configure a playbook for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/embed-playbook-service-portal.md).
+To learn more about customizing the playbook runtime experience in Service Portal, see [Configure a playbook for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/embed-playbook-service-portal.md).
 

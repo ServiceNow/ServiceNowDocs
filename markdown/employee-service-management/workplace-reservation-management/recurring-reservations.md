@@ -2,7 +2,7 @@
 title: Auto-resolve recurring reservations
 description: While making a recurring reservation, only the availability of the first occurrence is checked. It’s possible that a future occurrence of the meeting may run into conflicts. To avoid such conflicts, while scheduling a recurring reservation, the Workplace Reservation Management application tries to auto-resolve any recurring conflicts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/recurring-reservations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/recurring-reservations.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -20,7 +20,7 @@ While making a recurring reservation, only the availability of the first occurre
 
 Administrators can choose to auto-resolve recurring reservation conflicts at the Reservable module level.
 
-**Note:** Ensure that you have enabled **Allow recurring reservations** and **Auto-resolve recurring conflicts** options on the Reservable Module form. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+**Note:** Ensure that you have enabled **Allow recurring reservations** and **Auto-resolve recurring conflicts** options on the Reservable Module form. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 If you’re upgrading from a previous version of Workplace Reservation Management and if you've updated the form layout before, you must edit the form view again to display the **Auto-resolve recurring conflicts** field.
 
@@ -90,7 +90,7 @@ Role required: admin
     If the **Auto-resolve recurring conflicts** option is enabled, the conflicting recurring reservation in a series is resolved and the user is assigned an available space. When this option isn’t enabled, workplace users must manually update the time and space for a given reservation.
 
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

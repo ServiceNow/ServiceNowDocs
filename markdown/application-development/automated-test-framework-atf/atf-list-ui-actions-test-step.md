@@ -2,7 +2,7 @@
 title: List UI actions test steps
 description: Select a UI action from a list to perform different actions on a list or a related list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-list-ui-actions-test-step.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-list-ui-actions-test-step.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -48,5 +48,5 @@ You can create a new UI action of the following types. See [Create a UI action](
 -   Identify the specific record if you have selected **Single record** to apply the UI action.
 -   For the **Timeout** field to appear, select **Page reloaded or redirected** as the **Assert** type.
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-build-overview.md)
 

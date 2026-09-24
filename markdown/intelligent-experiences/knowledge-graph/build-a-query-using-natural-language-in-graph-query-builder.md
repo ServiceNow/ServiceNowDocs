@@ -2,7 +2,7 @@
 title: Build a query using natural language in Graph Query Builder
 description: You can also ask a question in natural language, the Graph Query Builder populates the query in the builder and runs it to get results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/build-a-query-using-natural-language-in-graph-query-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/build-a-query-using-natural-language-in-graph-query-builder.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

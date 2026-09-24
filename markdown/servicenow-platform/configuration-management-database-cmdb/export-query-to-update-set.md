@@ -2,7 +2,7 @@
 title: Export and import a query as an update set
 description: Export a saved query definition to an XML file as an update set, which you can later import.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/export-query-to-update-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/export-query-to-update-set.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

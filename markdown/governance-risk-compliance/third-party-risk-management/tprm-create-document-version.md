@@ -2,7 +2,7 @@
 title: Create a document version
 description: Use the document management system to version documents in Third-Party Risk Management \(TPRM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-document-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-create-document-version.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -89,6 +89,6 @@ Any information related to the file.
 
 After saving the document record, complete the following tasks to finalize the document setup:
 
--   Define who can view, edit, or manage the document using the sharing permissions field. For more information, see [Define document sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-doc-share-permissions.md).
--   Link references by associating the document with relevant records such as assessments, engagements, issues, or tasks to enable roll-up and traceability. For more information, see [Link documents to a TPRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-link-document.md).
+-   Define who can view, edit, or manage the document using the sharing permissions field. For more information, see [Define document sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-doc-share-permissions.md).
+-   Link references by associating the document with relevant records such as assessments, engagements, issues, or tasks to enable roll-up and traceability. For more information, see [Link documents to a TPRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-link-document.md).
 

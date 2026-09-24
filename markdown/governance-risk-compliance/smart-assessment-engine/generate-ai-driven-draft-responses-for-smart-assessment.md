@@ -2,7 +2,7 @@
 title: Generate AI-driven draft responses for smart assessment
 description: In Smart Assessment Engine, use generative AI to create draft responses for assessment questions by analyzing context and using previously answered similar questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/generate-ai-driven-draft-responses-for-smart-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/generate-ai-driven-draft-responses-for-smart-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -20,7 +20,7 @@ In Smart Assessment Engine, use generative AI to create draft responses for asse
 
 Role required: sn\_smart\_asmt.actor
 
-The **Is AI response enabled** option must be selected on the template category that the assessment is created from. For configuration details, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+The **Is AI response enabled** option must be selected on the template category that the assessment is created from. For configuration details, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
 ## About this task
 

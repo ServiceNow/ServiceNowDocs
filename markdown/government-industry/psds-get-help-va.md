@@ -2,7 +2,7 @@
 title: Get help with Public Service requests using Virtual Agent
 description: Public sector users can get assistance completing or updating their requests for various public services by using a pre-built Virtual Agent chatbot conversation. Users can run this Virtual Agent conversation from the Government Service Portal or from Engagement Messenger. Virtual Agent is currently supported by Service Request Playbook and License and Permit Playbook.Public sector end users can get assistance completing or updating non-emergency service requests by using a pre-built Virtual Agent chatbot conversation. End users can run this Virtual Agent conversation from the Government Service Portal or from Engagement Messenger.Public sector users can get assistance completing or updating their requests for license and permit services by using a pre-built Virtual Agent chatbot conversation. Users can run this Virtual Agent conversation from the Government Service Portal or from Engagement Messenger.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-get-help-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-get-help-va.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

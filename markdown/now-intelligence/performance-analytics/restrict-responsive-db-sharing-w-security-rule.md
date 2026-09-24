@@ -2,7 +2,7 @@
 title: Restrict responsive dashboard sharing with security rules
 description: You can configure the users, roles, and groups that users can see on the Share panel when they share a responsive dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/restrict-responsive-db-sharing-w-security-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/restrict-responsive-db-sharing-w-security-rule.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -40,5 +40,5 @@ Only users whose roles are specified in the field labeled **List of roles \(comm
 **Related topics**  
 
 
-[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
+[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 

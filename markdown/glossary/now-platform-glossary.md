@@ -2,7 +2,7 @@
 title: ServiceNow AI Platform glossary
 description: Learn about the terms and concepts related to the ServiceNow AI Platform.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/glossary/now-platform-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/glossary/now-platform-glossary.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

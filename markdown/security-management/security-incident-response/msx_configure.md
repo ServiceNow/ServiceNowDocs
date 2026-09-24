@@ -2,7 +2,7 @@
 title: Configure the Microsoft Exchange Online integration
 description: After you’ve installed the application from the ServiceNow Store, configure it to connect to your ServiceNow AI Platform instance. This activation activates the search and delete workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/msx\_configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/msx\_configure.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -74,7 +74,7 @@ A certificate thumbprint is a hash of a certificate, computed over all certifica
 
 </td><td>
 
-The Application \(client\) ID that was generated for the account that you created in the Microsoft Azure portal. For more information, see [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-azure-account.md).
+The Application \(client\) ID that was generated for the account that you created in the Microsoft Azure portal. For more information, see [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-azure-account.md).
 
 </td></tr><tr><td id="d309021e213">
 
@@ -82,7 +82,7 @@ The Application \(client\) ID that was generated for the account that you create
 
 </td><td>
 
-Password \(client secret\) for the account that you created in the Microsoft Azure portal. For more information, see [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-azure-account.md).
+Password \(client secret\) for the account that you created in the Microsoft Azure portal. For more information, see [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-azure-account.md).
 
 </td></tr><tr><td id="d309021e241">
 
@@ -122,7 +122,7 @@ Security tag. Default is selected.
 
  The default tag names are displayed, but tag names and colors can be edited.
 
- For more information, see [Edit security tags for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-edit-tags.md).
+ For more information, see [Edit security tags for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-edit-tags.md).
 
 </td></tr><tr><td id="d309021e319">
 
@@ -229,9 +229,9 @@ Validate button is light red and one or all of the small colored indicators are 
 -   OAuth credentials indicator is red: Indicates that the OAuth credentials are invalid.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
+</table>**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Install Microsoft Exchange Online application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-configure-ms-exchange-online.md)
+**Previous topic:**[Install Microsoft Exchange Online application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/install-and-configure-ms-exchange-online.md)
 
-**Next topic:**[Define email search criteria and request a search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md)
+**Next topic:**[Define email search criteria and request a search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md)
 

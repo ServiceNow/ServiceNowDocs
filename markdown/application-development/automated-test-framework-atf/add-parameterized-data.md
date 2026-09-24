@@ -2,7 +2,7 @@
 title: Add parameterized data sets
 description: Add or import test data to specify parameter runtime values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/add-parameterized-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/add-parameterized-data.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -18,8 +18,8 @@ Add or import test data to specify parameter runtime values.
 
 ## Before you begin
 
--   [Create a parameterized test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/create-parameterized-test.md)
--   [Add a parameter to a test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/add-parameterized-value-to-step.md)
+-   [Create a parameterized test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/create-parameterized-test.md)
+-   [Add a parameter to a test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/add-parameterized-value-to-step.md)
 -   Role required: atf\_test\_admin, atf\_test\_designer, or admin
 
 ## About this task
@@ -81,5 +81,5 @@ Click **Run Test**. Automated Test Framework runs each parameterized test once p
 
 Parameterized tests display test results by the execution order of the data sets. Open each test result record to view the test details.
 
-**Parent Topic:**[Parameterized tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/parameterized-tests.md)
+**Parent Topic:**[Parameterized tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/parameterized-tests.md)
 

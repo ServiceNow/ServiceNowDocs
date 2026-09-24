@@ -2,7 +2,7 @@
 title: Suggested steps generation in ServiceNow Otto for Customer Service Management \(CSM\)
 description: Generate suggested steps automatically by analyzing clusters of closed cases with similar case resolution in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -52,5 +52,5 @@ If suggested steps are available for a case, ServiceNow Otto for CSM generates t
     These visual updates help users clearly identify AI‑generated experiences, creating a more consistent and intuitive interface.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

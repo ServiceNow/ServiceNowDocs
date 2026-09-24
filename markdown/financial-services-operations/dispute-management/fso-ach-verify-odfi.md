@@ -2,7 +2,7 @@
 title: Verify ODFI supporting documents
 description: After following up with the Originating Depository Financial Institution \(ODFI\) to request further documentation about the dispute, verify the supporting documents that you received.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-verify-odfi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/fso-ach-verify-odfi.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -56,5 +56,5 @@ You then review these updated details to determine if you should file a return, 
 9.  Close the task.
 
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/process-dispute-ach.md)
 

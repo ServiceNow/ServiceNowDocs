@@ -2,7 +2,7 @@
 title: Configuring your Conversational Integration with Google Chat
 description: Integrate the Now Virtual Agent bot or self-configured bot with Google Chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-va-google-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-va-google-chat.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,10 +17,10 @@ breadcrumb: [Conversational Integration with Google Chat, Integrate VA with mess
 
 Integrate the Now Virtual Agent bot or self-configured bot with Google Chat.
 
--   **[Integrate Virtual Agent with Google Chat using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/installing-ci-google-chat.md)**  
+-   **[Integrate Virtual Agent with Google Chat using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/installing-ci-google-chat.md)**  
 Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual Agent and Google Chat users can interact with each other.
--   **[Integrate Virtual Agent with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integrating-va-google-chat.md)**  
+-   **[Integrate Virtual Agent with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrating-va-google-chat.md)**  
 Add either the Now Virtual Agent bot or self-configured bot to your ServiceNow instance to integrate with Google Chat.
 
-**Parent Topic:**[Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/gchat-conv-integration.md)
+**Parent Topic:**[Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/gchat-conv-integration.md)
 

@@ -2,7 +2,7 @@
 title: Source control and Developer Sandboxes
 description: Use source control with Developer Sandboxes to enable parallel development and prevent merge conflicts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dev-sandboxes-source-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/developer-sandboxes/dev-sandboxes-source-control.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes

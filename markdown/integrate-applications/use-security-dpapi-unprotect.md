@@ -2,7 +2,7 @@
 title: Use the Unprotect component
 description: Decrypt an encrypted string using the Unprotect component in the RPA Desktop Design Studio. You can use the component on strings encrypted by the ProtectData or any other application as part of a Workflow. The Unprotect component returns the decrypted string or data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-security-dpapi-unprotect.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-security-dpapi-unprotect.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Unprotect component. For more information about these properties, see [Properties of the DPAPI components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-of-dpapi-components.md).
+You can configure the properties for the Unprotect component. For more information about these properties, see [Properties of the DPAPI components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-of-dpapi-components.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the Unprotect component. For more informati
 
 2.  Drag the Unprotect component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Unprotect component to the corresponding ports of the other components as described in the following table.
 
@@ -120,5 +120,5 @@ No
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[DPAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/dpapi.md)
+**Parent Topic:**[DPAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/dpapi.md)
 

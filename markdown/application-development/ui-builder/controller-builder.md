@@ -2,7 +2,7 @@
 title: Create custom controllers \(Advanced feature\)
 description: Build custom controllers to use across experiences. Easily connect reusable data, scripts, and events to your page and set up inputs, outputs, and events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/controller-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/controller-builder.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -81,7 +81,7 @@ Role required: ui\_builder\_admin
 
     6.  Select **Save**.
 
-    For more information about client state parameters, see [Client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/client-state-parameters.md).
+    For more information about client state parameters, see [Client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/client-state-parameters.md).
 
 9.  Add client scripts.
 
@@ -98,7 +98,7 @@ Role required: ui\_builder\_admin
 
 ## What to do next
 
-Use the custom controller you just created by [adding the controller to a page.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md)
+Use the custom controller you just created by [adding the controller to a page.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/controllers.md)
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/data-resources.md)
 

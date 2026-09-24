@@ -2,7 +2,7 @@
 title: Set up a gating approval based on the item being ordered
 description: In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/c\_SetUpGatingApprBasedOnOrdItem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/c\_SetUpGatingApprBasedOnOrdItem.html
 release: australia
 product: Approvals
 classification: approvals
@@ -34,5 +34,5 @@ Notes and limitations:
 1.  As with approval rules, you are protected against duplicate entries. Thus if a person is a member of the hardware group, as well as being a standalone approver, the person will only get one approval request.
 2.  Item-based approved work in addition to rather than instead of approval rules so you can \(and probably will\) use both.
 
-**Parent Topic:**[Gating approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_GatingApprovals.md)
+**Parent Topic:**[Gating approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/c_GatingApprovals.md)
 

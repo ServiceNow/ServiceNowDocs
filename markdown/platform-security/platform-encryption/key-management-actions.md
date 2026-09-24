@@ -2,7 +2,7 @@
 title: Key management actions
 description: One of the core features of KMF is to provide the capability  to manage  keys, such as revoking or rotating keys.  KMF properly secures sensitive data with the most up-to-date encryption materials and life cycle operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/key-management-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/key-management-actions.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -77,10 +77,10 @@ Extends the life of the current key. The **Renew** button becomes available unde
 -   An expiration date is set in the module life cycle definition.
 
 </td></tr></tbody>
-</table>-   **[View and manage keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/view-manage-keys.md)**  
+</table>-   **[View and manage keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/view-manage-keys.md)**  
 Review the status of any key to determine further key action, such as when to renew, rotate, suspend, deactivate, or destroy a current key.
--   **[Rotate keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/rotate-cust-supplied-keys.md)**  
+-   **[Rotate keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/rotate-cust-supplied-keys.md)**  
 For increased security, you can rotate your cryptographic keys on a pre-determined schedule. Key rotation is when you retire an encryption key and replace that old key by generating a new cryptographic key.
 
-**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md)
 

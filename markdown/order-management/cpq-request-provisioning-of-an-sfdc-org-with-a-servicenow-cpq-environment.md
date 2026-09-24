@@ -2,7 +2,7 @@
 title: Request provisioning of an SFDC org with a CPQ environment
 description: Learn how to submit a request through CPQ Support for environment setup.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-request-provisioning-of-an-sfdc-org-with-a-servicenow-cpq-environment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-request-provisioning-of-an-sfdc-org-with-a-servicenow-cpq-environment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

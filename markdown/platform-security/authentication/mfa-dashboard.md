@@ -2,7 +2,7 @@
 title: MFA Dashboard
 description: View the different MFA metrics to understand the MFA adoption and usage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-dashboard.html
 release: australia
 product: Authentication
 classification: authentication
@@ -22,12 +22,12 @@ To access the MFA Dashboard, navigate **All** &gt; **Multi-factor Authentication
 
 \[Omitted image "mfa-dashboard.png"\] Alt text: MFA Dashboard
 
-**Note:** You must enable MFA to view the metrics. For more information, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-properties.md).
+**Note:** You must enable MFA to view the metrics. For more information, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-properties.md).
 
 Following are the types of metrics displayed on the MFA Dashboard:
 
--   [User Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-dashboard.md)
--   [Login Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-dashboard.md)
+-   [User Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-dashboard.md)
+-   [Login Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-dashboard.md)
 
 ## User Metrics
 

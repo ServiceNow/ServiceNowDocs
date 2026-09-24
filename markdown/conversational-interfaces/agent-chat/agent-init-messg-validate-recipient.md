@@ -2,7 +2,7 @@
 title: Validate recipient IDs for agent-initiated messages
 description: Use scripted extension points to call custom scripts for validating the format of a recipient ID associated with a messaging channel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/agent-init-messg-validate-recipient.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/agent-init-messg-validate-recipient.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -18,7 +18,7 @@ Use scripted extension points to call custom scripts for validating the format o
 
 ## Before you begin
 
-Install the Agent-Initiated Messaging Interface application. For more information, see [Install agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/install-agent-init-messg.md).
+Install the Agent-Initiated Messaging Interface application. For more information, see [Install agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/install-agent-init-messg.md).
 
 Role required: admin
 
@@ -37,7 +37,7 @@ By using extension points, you can easily integrate customizations without havin
     -   Create and register a custom script include.
     -   Modify the existing script include by going to the Implementations related list and selecting a script include in the **Class** column.
 
-        **Note:** The PhoneNumberValidationExtPointImpl script include that use the global.ChannelSendToValidation extension point is available for validating recipient IDs profiles associated with the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/conversation-sms-service-channel-store-app.md) application.
+        **Note:** The PhoneNumberValidationExtPointImpl script include that use the global.ChannelSendToValidation extension point is available for validating recipient IDs profiles associated with the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/conversation-sms-service-channel-store-app.md) application.
 
 4.  Associate user profiles for an agent-initiated messages by adding the global.ChannelSendToValidation extension point to the script include.
 
@@ -53,5 +53,5 @@ By using extension points, you can easily integrate customizations without havin
 5.  On the Extension Point form, click **Update**.
 
 
-**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
+**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
 

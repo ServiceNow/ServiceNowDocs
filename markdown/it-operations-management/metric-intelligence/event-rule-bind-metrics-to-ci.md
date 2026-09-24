@@ -2,7 +2,7 @@
 title: Creating an event rule to map metrics to specific CIs
 description: Create event rules to map incoming raw metric data to specific CIs, to optionally modify metric names, and to populate the resource\_path attribute for resource binding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-ci.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-ci.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -18,7 +18,7 @@ Create event rules to map incoming raw metric data to specific CIs, to optionall
 
 The system generates events for every new raw metric data for which there are no CI binding specifications. You can create event rules that filter those events to map the incoming metric data to specific CIs. In such event rules, you can for example define a filter that is based on the monitoring object \(such as SCOM\).
 
-To use resource binding, the **resource\_path** attribute of events must be populated. You can configure an event rule to ensure that the **resource\_path** attribute is included in the **Additional information** field in events. For more information about configuring and using resource binding, see [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/resource-binding.md).
+To use resource binding, the **resource\_path** attribute of events must be populated. You can configure an event rule to ensure that the **resource\_path** attribute is included in the **Additional information** field in events. For more information about configuring and using resource binding, see [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/resource-binding.md).
 
 Use the **resource\_path** attribute to identify the resource within the bound CI. For example, if a metric is collected for the C drive of the `win_server_001` CI, set **resource\_path** to a value such as `Disk - C`. The metric identifier can then use the `CI/Resource/Metric` format, such as `win_server_001/Disk - C/disk_usage`.
 
@@ -30,9 +30,9 @@ For example, in the Event Rule designer you can update the event rule **SCOM IIS
 **Related topics**  
 
 
-[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-event-rules.md)
+[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-event-rules.md)
 
-[View metric to CI and resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/view-metric-to-CI-binding.md)
+[View metric to CI and resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/view-metric-to-CI-binding.md)
 
-[Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/get-started-metrics.md)
+[Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/get-started-metrics.md)
 

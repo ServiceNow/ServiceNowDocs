@@ -2,7 +2,7 @@
 title: Set up Chat to call
 description: Set up the chat to call functionality in your instance to enable the agents to collaborate with the requester to resolve the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-chat-call-it.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/setup-chat-call-it.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,9 +26,9 @@ To enable the Chat to Call functionality you must install the Workspace Agent ch
 
 -   [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-agent-chat.md)
 -   [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ActivateNotify.md)
--   [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md)
+-   [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md)
 
-For more information on the workflow for chat to call flow, refer [Promote chat to a call from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/initiate-call-from-chat.md).
+For more information on the workflow for chat to call flow, refer [Promote chat to a call from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/initiate-call-from-chat.md).
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md)
 

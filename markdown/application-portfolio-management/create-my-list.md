@@ -2,7 +2,7 @@
 title: Create my list
 description: Create your own filtered lists in the Enterprise Architecture Workspace and access them under the My Lists tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/create-my-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/create-my-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-18"
@@ -76,7 +76,7 @@ Add Filters
 
 </td><td>
 
-Add conditions to narrow which records appear in the list. The selected list’s existing conditions are shown by default. For details, see [Filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-filter-conditions-reference.md).
+Add conditions to narrow which records appear in the list. The selected list’s existing conditions are shown by default. For details, see [Filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-filter-conditions-reference.md).
 
 </td></tr></tbody>
 </table>    -   If you are creating a list from nothing, then select **Create your own** and fill in the fields on the form.
@@ -86,7 +86,7 @@ Add conditions to narrow which records appear in the list. The selected list’s
         |List Name|Enter a name for your list as it appears under **My Lists**.|
         |Select Source|Select the table that provides the records for this list.|
         |Select columns|Choose which fields appear as columns. By default, columns are displayed from an existing workspace list view \(if available\). Otherwise, columns are displayed from the table’s default list view.|
-        |Add filters|Add conditions to narrow which records appear in the list. For details, see [Filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-filter-conditions-reference.md).|
+        |Add filters|Add conditions to narrow which records appear in the list. For details, see [Filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-filter-conditions-reference.md).|
 
 6.  Select **Create**.
 
@@ -95,5 +95,5 @@ Add conditions to narrow which records appear in the list. The selected list’s
 
 The list appears in the **My Lists** tab.
 
-**Parent Topic:**[Working with Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-portfolio-list-view.md)
+**Parent Topic:**[Working with Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-portfolio-list-view.md)
 

@@ -2,7 +2,7 @@
 title: Service Mapping Lightweight Service Model
 description: The Lightweight Service Model is an optimized architecture for storing and determining service topology. It maintains current service data without storing historical snapshots, reducing storage overhead and improving performance for large configuration item inventories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/sm-lightweight-service-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/sm-lightweight-service-model.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -42,10 +42,10 @@ When you convert a service to Lightweight, the system optimizes how it stores an
 
 \[Omitted image "lightweight-screenshot.png"\] Alt text: Convert to Lightweight link
 
-Use the Lightweight Service Model related link to convert a service. For the full procedure, see [Convert a service instance to Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/convert-service-instance-lightweight.md).
+Use the Lightweight Service Model related link to convert a service. For the full procedure, see [Convert a service instance to Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/convert-service-instance-lightweight.md).
 
 **Related topics**  
 
 
-[Convert a service instance to Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/convert-service-instance-lightweight.md)
+[Convert a service instance to Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/convert-service-instance-lightweight.md)
 

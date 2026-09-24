@@ -2,7 +2,7 @@
 title: HL7 v2.x Integration
 description: HL7 v2.x Integration enables ServiceNow to receive, log, parse, and act on HL7 v2.x messages sent by hospital integration engines, without requiring custom scripting on either side.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-integration-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-integration-overview.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-30"
@@ -21,18 +21,18 @@ HL7 v2.x Integration provides three core capabilities: message reception and ack
 
 ## Get started
 
--   [How HL7 integration works in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-integration-how-it-works.md)
--   [HL7 message log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-message-log-about.md)
--   [Parser configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-parser-configs-about.md)
--   [Connect your integration engine to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-connect-integration-engine.md)
--   [Clone and customize a parser configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-parser-config-clone.md)
--   [Test a parser configuration with a sample payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-parse-sample-payload.md)
--   [View and filter the HL7 message log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-message-log-view.md)
--   [Investigate failed HL7 messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-failed-messages-investigate.md)
--   [Components installed with HL7 v2.x Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-installed-components.md)
--   [HL7 message log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-message-log-fields.md)
--   [Parser configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-parser-config-fields.md)
--   [HL7 ACK codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-ack-codes.md)
+-   [How HL7 integration works in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-integration-how-it-works.md)
+-   [HL7 message log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-message-log-about.md)
+-   [Parser configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-parser-configs-about.md)
+-   [Connect your integration engine to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-connect-integration-engine.md)
+-   [Clone and customize a parser configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-parser-config-clone.md)
+-   [Test a parser configuration with a sample payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-parse-sample-payload.md)
+-   [View and filter the HL7 message log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-message-log-view.md)
+-   [Investigate failed HL7 messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-failed-messages-investigate.md)
+-   [Components installed with HL7 v2.x Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-installed-components.md)
+-   [HL7 message log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-message-log-fields.md)
+-   [Parser configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-parser-config-fields.md)
+-   [HL7 ACK codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hl7-ack-codes.md)
 
 ## Helpful resources
 

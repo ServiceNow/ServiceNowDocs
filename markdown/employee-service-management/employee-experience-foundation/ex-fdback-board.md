@@ -2,7 +2,7 @@
 title: Feedback Analytics dashboard
 description: Track all your feedback responses with the Feedback Analytics for portals, email, Virtual Agent, kiosks, and Now Mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ex-fdback-board.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ex-fdback-board.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

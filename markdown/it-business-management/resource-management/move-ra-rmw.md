@@ -2,7 +2,7 @@
 title: Move a resource assignment
 description: Move a resource assignment to a different start and end dates depending on the availability of the resource.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/move-ra-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/move-ra-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -52,5 +52,5 @@ Role required: resource\_user, resource\_manager
 
 Let's consider a resource assignment for Website Overhaul task is assigned to Grace Lee. The task duration is from August 01, 2025 to August 31, 2025. The assignment duration is from August 01, 2025 to August 20, 2025. Now, when you move the assignment start date to August 15, 2025; the new assignment dates will honor the task dates and will auto-assign the work from August 15, 2025 to August 31, 2025. The remaining efforts of the resource are cleared and the cleared capacity is shown as available.
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md)
 

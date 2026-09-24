@@ -2,7 +2,7 @@
 title: Create a map filter in Facilities Service Management
 description: Create a custom filter to highlight spaces on a map for fast and easy recognition. You can create custom filters for any mappable space \(fm\_space\), asset, associated user, CI, or task with a location defined.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateAMapFilter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_CreateAMapFilter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -110,7 +110,7 @@ Description of the map filter.
 
 After you create a filter, click the **Show on Floor Plan** related link to view the map filter on a map.
 
-**Parent Topic:**[Map filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_MapFilters.md)
+**Parent Topic:**[Map filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_MapFilters.md)
 
 **Related topics**  
 

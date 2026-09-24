@@ -2,7 +2,7 @@
 title: Change highlighting of calendar report events
 description: Field styles control the highlighting of events in calendar reports. Manage field styles to change how highlighting works.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_HighlightACalendarEntry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_HighlightACalendarEntry.html
 release: australia
 product: Reporting
 classification: reporting
@@ -54,7 +54,7 @@ If calendar reports are configured to use field styles from their tables or repo
 5.  Select **Update**.
 
 
-**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CustomizeCalendarReports.md)
+**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_CustomizeCalendarReports.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Explicit Roles
 description: You can give both internal users and external users access to your instance. However, you might not want both types of users to have the same level of access. To provide added security, every user must have at least one role so that the instance can distinguish between internal and external users.Activate Explicit Roles by requesting the Explicit Roles plugin \(com.glide.explicit\_roles\) through the Now Support Service Catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/explicit-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/explicit-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -56,7 +56,7 @@ When the Explicit Roles plugin is activated:
 
 Do not move system update sets among instances with and without the Explicit Roles plugin enabled. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
 
-**Note:** This plugin also requires the [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/r_ContextualSecurity.md) plugin.
+**Note:** This plugin also requires the [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/r_ContextualSecurity.md) plugin.
 
 ## glide.security.explicit\_roles.do\_not\_fix behavior
 

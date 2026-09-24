@@ -2,7 +2,7 @@
 title: Create a compute security group profile
 description: A compute security group profile applies specified security rules to newly-provisioned resources. You map a compute security group profile to a cloud account, a datacenter, a Compute Security Group template, and security rules for the template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-compute-security-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-compute-security-profile.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -94,10 +94,10 @@ Select or create a template that the profile should be mapped to.To create a new
         |To Port|Specify the destination port number.|
 
 
-**Parent Topic:**[Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
+**Parent Topic:**[Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
 
 **Related topics**  
 
 
-[Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md)
+[Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md)
 

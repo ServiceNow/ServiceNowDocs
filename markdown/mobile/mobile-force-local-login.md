@@ -2,7 +2,7 @@
 title: Force local login in mobile apps
 description: Configure the force local login option to provide local login experience on mobile apps even when the instance is configured with Single Sign On \(SSO\) configuration. You can configure this feature independently on any available ServiceNow app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-force-local-login.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-force-local-login.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: admin
 
 The selected mobile app routes your users to the local login authentication page. The app will default to the authentication method defined on your instance if this field is disabled.​
 
-**Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-authentication.md)
+**Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-authentication.md)
 

@@ -2,7 +2,7 @@
 title: Create a blank page
 description: After creating a demo experience, you can create a blank page that you can then build on to define what the experience provides to your users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/learn-by-example-create-blank-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/learn-by-example-create-blank-page.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -61,7 +61,7 @@ Role required: ui\_builder\_admin
 
 Select the **Next topic** link to learn how to create a button that opens a modal.
 
-**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib-by-example.md)
+**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/learning-uib-by-example.md)
 
 **Related topics**  
 

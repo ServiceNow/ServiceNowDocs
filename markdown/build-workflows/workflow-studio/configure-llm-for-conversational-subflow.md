@@ -2,7 +2,7 @@
 title: Configure LLM to generate descriptions for conversational subflows
 description: Choose which LLM you want to use by default to generate descriptions for inputs, outputs, and skills for conversational subflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-llm-for-conversational-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/configure-llm-for-conversational-subflow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -56,5 +56,5 @@ In the conversational subflow settings, you can use generative AI to generate de
 6.  Select **Update**.
 
 
-**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflows.md)
 

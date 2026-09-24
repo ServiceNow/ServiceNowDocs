@@ -2,7 +2,7 @@
 title: Manually create an SRM change task
 description: Create a change task to implement a controlled process for modifying approved and supported actions for SRM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-create-change.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-create-change.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -42,7 +42,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 7.  In the form Details tab, fill in the fields on the **Change request**, **Impact**, **Assignment**, **Planning**, **Schedule**, **Notes**, and **Closure information** forms.
 
-    For more information, see [Create change request forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-change-request-form.md).
+    For more information, see [Create change request forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-create-change-request-form.md).
 
 8.  Select **Assign to me**.
 
@@ -52,7 +52,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 10. You can take the following steps in **State** workflow.
 
-    If the change request requires approval, you’ll see the **Request approval** button. Select **Request approval** and **State** moves to **Assess**. See [Approve a change request for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-approve-change-req.md) for instructions on approving a change request.
+    If the change request requires approval, you’ll see the **Request approval** button. Select **Request approval** and **State** moves to **Assess**. See [Approve a change request for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-approve-change-req.md) for instructions on approving a change request.
 
     If the change request is pre-approved or doesn’t require approval, you can move the **State** to **Scheduled**.
 
@@ -62,8 +62,8 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
     **Note:** All open change tasks are set to **Canceled**.
 
-    For more information on **State** in Change requests, see, [SRM change request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-change-request-states.md)
+    For more information on **State** in Change requests, see, [SRM change request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-change-request-states.md)
 
 
-**Parent Topic:**[Working with SRM reliability tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-reliability-tasks.md)
+**Parent Topic:**[Working with SRM reliability tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-work-reliability-tasks.md)
 

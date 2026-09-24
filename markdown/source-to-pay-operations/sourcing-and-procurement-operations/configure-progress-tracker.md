@@ -2,7 +2,7 @@
 title: Configure the Progress Tracker
 description: Procurement administrators can control whether the Progress Tracker displays on purchase requisition \(PR\) and purchase order \(PO\) records systemwide. You can customize which states appear in the stepper and control the order in which states are displayed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-progress-tracker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-progress-tracker.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -41,15 +41,15 @@ You must have the sn\_shop.procurement\_administrator role to set up and maintai
 
 For more information, see the following topics.
 
--   [Configure PR and PO Progress Tracker states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.md)
--   [Configure Progress Tracker visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-tracker-visibility.md)
+-   [Configure PR and PO Progress Tracker states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.md)
+-   [Configure Progress Tracker visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-tracker-visibility.md)
 
--   **[Configure PR and PO Progress Tracker states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.md)**  
+-   **[Configure PR and PO Progress Tracker states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.md)**  
 Configure which states appear in the Progress Tracker, and how they flow, by editing the PR Stage Display Config and PO Stage Display Config records—no code deployment required.
--   **[Configure Progress Tracker visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-tracker-visibility.md)**  
+-   **[Configure Progress Tracker visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-tracker-visibility.md)**  
 Enable or disable whether the Progress Tracker displays on purchase requisition and purchase order records system-wide.
 
-**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
 **Related topics**  
 

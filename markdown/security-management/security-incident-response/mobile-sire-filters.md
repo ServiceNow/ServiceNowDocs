@@ -2,7 +2,7 @@
 title: Filter records with the Security Incident Response Mobile app
 description: Set additional filters to limit the number of records that are displayed on a screen. Filtering records in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mobile-sire-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mobile-sire-filters.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

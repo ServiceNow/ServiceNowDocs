@@ -2,7 +2,7 @@
 title: Override the shopping cart total when a null-priced item is included
 description: To avoid displaying an incorrect total price, show a custom string when a bill of materials includes an item with a null price.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-override-the-shopping-cart-total-when-a-null-priced-item-is-included.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-override-the-shopping-cart-total-when-a-null-priced-item-is-included.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ When a BOM contains null-priced items, the total price may be incorrect. When th
 
 [Set a custom message for zero-priced and null-priced items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-[Availability of price value overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-availability-of-price-value-overrides.md)
+[Availability of price value overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-availability-of-price-value-overrides.md)
 

@@ -2,7 +2,7 @@
 title: Export a Dependency Views map
 description: Export a Dependency Views map to an image in PNG format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_ExportAnNGBSMMap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_ExportAnNGBSMMap.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -39,7 +39,7 @@ Role required: sn\_cmdb\_admin or admin
 6.  Click the "X" button to close the **Export Image** window.
 
 
-**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 

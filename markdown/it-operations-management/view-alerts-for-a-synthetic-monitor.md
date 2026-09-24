@@ -2,7 +2,7 @@
 title: View alerts for a synthetic monitor
 description: View all the current active alerts for your monitors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/view-alerts-for-a-synthetic-monitor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/view-alerts-for-a-synthetic-monitor.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,6 +32,6 @@ To view alerts for a specific monitor, follow this procedure.
 
     The **Alerts** tab shows the alerts for the monitor. Select an alert to view details.
 
-    **Note:** The alert shows the impacted service associated with the monitor. If for some reason this field isn't populated, see [Impacted Service not appearing in alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-related-services.md).
+    **Note:** The alert shows the impacted service associated with the monitor. If for some reason this field isn't populated, see [Impacted Service not appearing in alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/troubleshoot-related-services.md).
 
 

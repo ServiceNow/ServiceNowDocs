@@ -2,7 +2,7 @@
 title: View financial summary of cost and monetary benefit plans
 description: View a breakdown of the cost and benefit components of a demand to track the financials of your demands. The financial summary enables you to assess the progress of the demand and track financial changes and their impact on the demand over a period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/view-financial-summary-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/view-financial-summary-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -50,7 +50,7 @@ Steps
 
 </td><td>
 
-Select the baseline information icon \[Omitted image "new-baseline-info-icon.png"\] Alt text: and then select **Create New Baseline** or **Compare Baselines** option respectively. For more information, see [Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-baseline.md).
+Select the baseline information icon \[Omitted image "new-baseline-info-icon.png"\] Alt text: and then select **Create New Baseline** or **Compare Baselines** option respectively. For more information, see [Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/create-demand-baseline.md).
 
 </td></tr><tr><td id="d259834e145">
 
@@ -141,5 +141,5 @@ Select the expand icon \[Omitted image "new-expand-icon.png"\] Alt text:or colla
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md)
 

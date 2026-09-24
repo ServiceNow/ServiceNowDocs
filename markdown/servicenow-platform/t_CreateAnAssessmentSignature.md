@@ -2,7 +2,7 @@
 title: Create an assessment signature
 description: A signature on an assessment questionnaire contains assertions that can communicate directions, a legal statement, or any text that you want the recipient to consider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateAnAssessmentSignature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreateAnAssessmentSignature.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ You can require the recipient to select a check box or provide a full signature 
     |Assertion|Text to present to recipients that requires acknowledgement.|
 
 
-**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 

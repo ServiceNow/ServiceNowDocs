@@ -2,7 +2,7 @@
 title: DatasetDefinition - Global
 description: The DatasetDefinition API provides methods to identify a set of records including a table name, columns, and row selection criteria to use as input for ML training algorithms. Datasets don't contain the actual data.Creates an instance of the DatasetDefinition class, enabling you to define a dataset by table name, fields, and query.Returns a list of fields that are eligible as either input fields \(features\) or predicted fields regarding a solution of a given capability, for example, a classification solution. Eligibility is determined based on the fields having the appropriate glide data types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DatasetDefinitionAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/DatasetDefinitionAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,16 +18,16 @@ The DatasetDefinition API provides methods to identify a set of records includin
 
 This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace. For information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md).
 
-Use the dataset to estimate mutual information [PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PredictabilityEstimateAPI.md) or train data specified by an [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md). You can also use the dataset to train data specified by one of the following solution types:
+Use the dataset to estimate mutual information [PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PredictabilityEstimateAPI.md) or train data specified by an [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md). You can also use the dataset to train data specified by one of the following solution types:
 
--   [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
--   [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
--   [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md)
--   [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)
+-   [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+-   [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+-   [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionAPI.md)
+-   [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SimilaritySolutionAPI.md)
 
 For usage guidelines, refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ml-apis.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## DatasetDefinition - DatasetDefinition\(Object\)
 

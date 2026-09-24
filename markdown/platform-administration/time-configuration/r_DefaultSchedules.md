@@ -2,7 +2,7 @@
 title: Default schedules
 description: Default schedules are available in a base system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_DefaultSchedules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/r\_DefaultSchedules.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -37,7 +37,7 @@ Default schedules are available in a base system.
 |WebServer FLX|Repeats every week on Sunday.|
 |Weekends|Repeats every week on Saturday for two days.|
 
-**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_UseSchedules.md)
 
 **Related topics**  
 
@@ -58,5 +58,5 @@ Default schedules are available in a base system.
 
 [Domain support and schedules]()
 
-[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_UseSchedules.md)
 

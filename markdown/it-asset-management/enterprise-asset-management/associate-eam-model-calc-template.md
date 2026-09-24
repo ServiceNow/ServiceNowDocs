@@ -2,7 +2,7 @@
 title: Associate an enterprise model with a Calculated model lifecycle template
 description: Associate an enterprise model with a Calculated model lifecycle template to populate the lifecycle details of the model automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/associate-eam-model-calc-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/associate-eam-model-calc-template.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -41,7 +41,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 The list of lifecycle phases with details such as Phase start date, Phase end date, and Source is displayed in the **Enterprise Model Lifecycles** tab.
 
-**Parent Topic:**[Manage the lifecycle of enterprise models with calculated lifecycle templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-eam-lifecycle-temp.md)
+**Parent Topic:**[Manage the lifecycle of enterprise models with calculated lifecycle templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-eam-lifecycle-temp.md)
 
 **Related topics**  
 

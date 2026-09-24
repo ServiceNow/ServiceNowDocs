@@ -2,7 +2,7 @@
 title: Import data using structured file
 description: Upload the structured data in the supported file formats such as CSV, XLSX or XLS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/import-data-using-structured-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/import-data-using-structured-file.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -142,7 +142,7 @@ Select a Taxonomy
 
 </td><td>
 
-Select the taxonomy for the imported data. Using taxonomies, define dictionaries that can be used as taxonomies assigned to threat intelligence records. For example, CAPEC nomenclature. For more information, see [Creating Taxonomies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-taxonomies.md).**Note:** The taxonomy value options change based on the selected taxonomy.
+Select the taxonomy for the imported data. Using taxonomies, define dictionaries that can be used as taxonomies assigned to threat intelligence records. For example, CAPEC nomenclature. For more information, see [Creating Taxonomies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/create-taxonomies.md).**Note:** The taxonomy value options change based on the selected taxonomy.
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ Select this check box if you wish to over ride the source values for TLP, Confid
 12. Click **Go Back** to go back to the previous page and review the record, if necessary.
 
 
-**Parent Topic:**[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
+**Parent Topic:**[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
 
 **Related topics**  
 

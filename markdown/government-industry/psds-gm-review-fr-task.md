@@ -2,7 +2,7 @@
 title: Review and Approve a Funding Request
 description: Review and approve Funding Requests submitted by a grant program manager and approve or reject the batch.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gm-review-fr-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-gm-review-fr-task.html
 release: australia
 topic_type: task
 last_updated: "2026-06-08"

@@ -2,7 +2,7 @@
 title: Document template scripts
 description: With document template scripts, you can dynamically change the text in the body of the HTML template. Document template scripts allow you to perform simple tasks, such as displaying HR data, and complex ones, such as making advanced database queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/document-template-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/document-template-scripts.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -18,7 +18,7 @@ With document template scripts, you can dynamically change the text in the body 
 
 You can add a `${template_script:script name}` embedded script tag to the body of the HTML template, replacing script name with the name of the script you created. This makes it easy to use the same scripts in multiple document templates. You can create a script by navigating to**Document Templates** &gt; **Document Templates Script**.
 
-**Note:** The output of the HTML script is automatically sanitized when the **Sanitize** option is enabled in the HTML template. For more details, refer to the **Sanitize** field in [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
+**Note:** The output of the HTML script is automatically sanitized when the **Sanitize** option is enabled in the HTML template. For more details, refer to the **Sanitize** field in [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
 
 ## Example of how to create and use a document template script in an HTML template
 

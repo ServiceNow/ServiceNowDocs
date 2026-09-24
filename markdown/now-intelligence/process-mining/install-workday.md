@@ -2,7 +2,7 @@
 title: Request Process Mining for Workday
 description: Request Process Mining for Workday to import the data and work with it within the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/install-workday.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/install-workday.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -22,7 +22,7 @@ Role required: admin
 
 Verify that you have already installed:
 
--   Process Mining for External Data \(version 29.5.3\). For more information, see [Request Process Mining for external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/access-ext-data.md).
+-   Process Mining for External Data \(version 29.5.3\). For more information, see [Request Process Mining for external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/access-ext-data.md).
 -   Workday HR Spoke \(sn\_workday\_hr\_spke\) \(version 3.0.2\): For more information, see [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workday-hr-spoke.md).
 
 ## Procedure
@@ -39,8 +39,8 @@ Verify that you have already installed:
 
 3.  Select **Install**.
 
-    To use Process Mining for Workday, see [Process Mining for Workday and Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/pm-workday.md).
+    To use Process Mining for Workday, see [Process Mining for Workday and Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/pm-workday.md).
 
 
-**Parent Topic:**[Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activating-process-mining.md)
+**Parent Topic:**[Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activating-process-mining.md)
 

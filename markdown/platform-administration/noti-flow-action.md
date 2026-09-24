@@ -2,7 +2,7 @@
 title: Create a flow notification action
 description: Select Flow Action from the Notification Action wizard to create a flow notification action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/noti-flow-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/noti-flow-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -92,5 +92,5 @@ Acknowledgement message after an action is selected from a notification.
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[Select provider notification action capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/noti-provider-action-capabilities.md)
+**Parent Topic:**[Select provider notification action capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/noti-provider-action-capabilities.md)
 

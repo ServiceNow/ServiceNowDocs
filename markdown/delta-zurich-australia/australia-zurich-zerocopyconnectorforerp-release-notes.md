@@ -2,11 +2,11 @@
 title: Combined Zero Copy Connector for ERP release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Zero Copy Connector for ERP from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-zerocopyconnectorforerp-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-zerocopyconnectorforerp-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -129,15 +129,83 @@ Map table fields between systems faster with automatic mapping.
 View debug logs from within Zero Copy Connector for ERP to obtain information about requests, responses, and payloads without having to open Workflow Studio.
 
 
+ -   **[Accelerate the development of Source to Settle-based applications](https://www.servicenow.com/docs/access?context=erp-source-to-settle-data-product&family=zurich&ft:locale=en-US)**
+
+Create applications with ERP data more easily by exploring the models in the ERP Data Product for the Source to Settle procurement process.
+
+-   **[Use OAuth 2.0 in Zero Copy Connector for ERP](https://www.servicenow.com/docs/access?context=configure-oauth-authorization-code-flow-to-use-in-zero-copy-connector-for-erp&family=zurich&ft:locale=en-US)**
+
+Securely validate the user's identity to the external ERP system by executing an OData call to an ERP system, such as SAP, using the OAuth authorization code flow.
+
+-   **[More easily connect to an ERP system without Service Discovery enabled](https://www.servicenow.com/docs/access?context=erp-add-a-service-manually&family=zurich&ft:locale=en-US)**
+
+Connect to an ERP system, such as SAP, based on metadata from Swagger or Postman.
+
+-   **[Use the new models added to the ERP Data Product for Enterprise Data Foundation Masterdata](https://www.servicenow.com/docs/access?context=erp-canvas-content-pack-enterprise-data-models&family=zurich&ft:locale=en-US)**
+
+More easily create applications with ERP data using a new set of standard models in the ERP Data Product for Enterprise Data Foundation.
+
+-   **[Use the new models added to ERP Data Product for Quote to Cash](https://www.servicenow.com/docs/access?context=erp-canvas-content-pack-sales-order-models&family=zurich&ft:locale=en-US)**
+
+More easily create Quote to Cash applications with ERP data using additional credit memo request models in the ERP Data Product for Quote to Cash.
+
+-   **[Export Zero Copy Connector for ERP metrics](https://www.servicenow.com/docs/access?context=monitor-export-telemetry-data&family=zurich&ft:locale=en-US)**
+
+Export detailed Zero Copy Connector for ERP transaction logs to audit, monitor, and externally analyze and troubleshoot model operations and data flows.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Now Assist for Zero Copy Connectors](https://www.servicenow.com/docs/access?context=now-assist-for-zero-copy-connector-for-erp&family=australia&ft:locale=en-US)**
+-   **[Support for Oracle E-Business Suite](https://www.servicenow.com/docs/access?context=erp-canvas-oracle-rest-support&family=australia&ft:locale=en-US)**
+
+Select Oracle E-Business Suite \(12.2 or later\) as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
+
+-   **[Use Oracle EBS ISG services](https://www.servicenow.com/docs/access?context=erp-canvas-create-an-oracle-ebs-connection&family=australia&ft:locale=en-US)**
+
+Add Oracle E-Business Suite Integrated SOA Gateway \(ISG\) services to a model using their Web Application Description Language \(WADL\) definitions. When you create a model entity for a WADL operation, Zero Copy Connector for ERP generates its fields from the operation's WADL and XSD definitions.
+
+-   **[AI search for WADL service endpoints](https://www.servicenow.com/docs/access?context=erp-canvas-oracle-ebs-wadl-support&family=australia&ft:locale=en-US)**
+
+Search for endpoints of discovered WADL services from the interface using AI Search.
+
+-   **[Row count for the scriptable API](https://www.servicenow.com/docs/access?context=erp-api-getrowcount&family=australia&ft:locale=en-US)**
+
+Call the `getRowCount()` method on the `API` class to return the total number of rows that a query matches without retrieving the records. Configure the query as you would for `execute()`.
+
+
+ -   **[Now Assist for Zero Copy Connectors](https://www.servicenow.com/docs/access?context=now-assist-for-zero-copy-connector-for-erp&family=australia&ft:locale=en-US)**
 
 Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **[Support for REST APIs](https://www.servicenow.com/docs/access?context=erp-canvas-use-rest&family=australia&ft:locale=en-US)**
+
+Connect to ERPs using REST APIs for read and write operations.
+
+-   **[Implement and deploy faster with the ERP Hire to Retire content pack](https://www.servicenow.com/docs/access?context=erp-canvas-recruit-to-retire-content-pack&family=australia&ft:locale=en-US)**
+
+Use the Hire to Retire content pack containing models to get Zero Copy Connector for ERP running on your instance faster.
+
+-   **[Improved mapping visualization and review interface in the Model Manager](https://www.servicenow.com/docs/access?context=erpc-manage-model-inputs&family=australia&ft:locale=en-US)**
+
+View, review, and manage generated field mapping proposals through enhanced visualization tools in the Model Manager. Accept individual mapping suggestions or auto-apply entire mapping sets with a single action.
+
+-   **[Improved AI Agent for SAP OData services](https://www.servicenow.com/docs/access?context=now-assist-erp-ai-agent-odata-service-recommender&family=australia&ft:locale=en-US)**
+
+Reduce missed integration opportunities and accelerate development by discovering relevant SAP OData v2 services for your models using the OData Services Recommender AI agent. This workflow finds standard SAP capabilities that align with your use cases.
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -159,13 +227,61 @@ Zurich
 
 </td><td>
 
--   **[New icon for outbound messages](https://www.servicenow.com/docs/access?context=create-an-idoc-outbound-message-configuration&family=zurich&ft:locale=en-US)**
+-   **[Additional system property to specify how many records are retrieved](https://www.servicenow.com/docs/access?context=erp-canvas-system-properties&family=zurich&ft:locale=en-US)**
+
+The system property sn\_erp\_integration.result\_page\_size has been added to specify the number of records to retrieve from the external system. The default global property for all extractions is set to 50, but can be overridden with this new property.
+
+
+ -   **[New icon for outbound messages](https://www.servicenow.com/docs/access?context=create-an-idoc-outbound-message-configuration&family=zurich&ft:locale=en-US)**
 
 A new icon is available in the sidebar to help you easily see existing and create new outbound message configurations for IDOC.
 
 -   **[View model version](https://www.servicenow.com/docs/access?context=erp-use-model-versioning&family=zurich&ft:locale=en-US)**
 
 To help you better understand if your production instance is using the latest version of a model, the version number is visible in the models list and on individual model records.
+
+
+ -   **[Enterprise Data Foundation data product](https://www.servicenow.com/docs/access?context=erp-canvas-enterprise-data-foundation-content-pack&family=zurich&ft:locale=en-US)**
+
+Additional models, including Business Partner, Chart of Account, Cost Center, and Vendor have been added to the data product for use when interacting with an SAP system.
+
+-   **[Quote to Cash data product](https://www.servicenow.com/docs/access?context=erp-canvas-sales-order-content-pack&family=zurich&ft:locale=en-US)**
+
+Additional models, including Customer Invoice, Outbound Deliveries, and Service Notification have been added to the data product for use when interacting with an SAP system.
+
+-   **[Source to Settle data product](https://www.servicenow.com/docs/access?context=erp-source-to-settle-data-product&family=zurich&ft:locale=en-US)**
+
+Additional purchase order models have been added to the data product for use when interacting with an SAP system.
+
+-   **[Role configuration required for agentic workflows and AI agents](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
+
+Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[System info page displays more details](https://www.servicenow.com/docs/access?context=view-erp-system-information&family=zurich&ft:locale=en-US)**
+
+On the system info page, software and other information is shown from the system info table.
+
+-   **[Entity cards contain additional information](https://www.servicenow.com/docs/access?context=erpc-add-entity-to-model-op&family=zurich&ft:locale=en-US)**
+
+On an entity card, view where data was retrieved from, the scope used during retrieval, and when the data was last retrieved.
+
+
+ -   **[ERP Canvas application name change](https://www.servicenow.com/docs/access?context=erp-integration-overview&family=zurich&ft:locale=en-US)**
+
+The name of the ERP Canvas application has been changed to Zero Copy Connector for ERP.
+
+-   **[ERP Content Packs name change](https://www.servicenow.com/docs/access?context=erp-canvas-content-packs&family=zurich&ft:locale=en-US)**
+
+The name of the ERP Contact Packs application has been changed to ERP Data Products.
+
+-   **[Updated guided tours](https://www.servicenow.com/docs/access?context=guided-tours-in-erp-canvas&family=zurich&ft:locale=en-US)**
+
+The Add Entity and Add Operation guided tours were updated.
 
 
 </td></tr><tr><td>
@@ -177,6 +293,19 @@ Australia
 -   **[Simplified process for adding a REST entity to a model](https://www.servicenow.com/docs/access?context=add-a-rest-entity-to-a-model-operation&family=australia&ft:locale=en-US)**
 
 After you specify the REST service to use, the endpoint and return type are added automatically.
+
+
+ -   **[Improved ETL data extractions](https://www.servicenow.com/docs/access?context=set-up-erp-integration-connection&family=australia&ft:locale=en-US)**
+
+The extract, transform, load \(ETL\) process uses script includes instead of Flow Designer.
+
+-   **[Zero Copy Connector for ERP Data Products renamed to Content Packs](https://www.servicenow.com/docs/access?context=erp-canvas-available-content-packs&family=australia&ft:locale=en-US)**
+
+All ERP Data Products, such as Enterprise Data Foundation, Quote to Cash, and Source to Settle, are renamed to Content Packs.
+
+-   **[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://www.servicenow.com/docs/access?context=erp-canvas-enterprise-data-foundation-content-pack&family=australia&ft:locale=en-US)**
+
+Additional models, including Vendor Bank Details, Vendor Location Details, and Vendor Contact Details, are added to the content pack for use when interacting with an SAP system.
 
 
 </td></tr></tbody>
@@ -235,7 +364,9 @@ Australia
 
 </td><td>
 
-The **Ask AI** button was removed from the Model Manager.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+ The **Ask AI** button was removed from the Model Manager.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -261,6 +392,8 @@ Zurich
 Install Zero Copy Connector for ERP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Zero Copy Connector for ERP is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -271,6 +404,8 @@ Australia
 
 Install Zero Copy Connector for ERP and ServiceNow Otto for Zero Copy Connector by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Zero Copy Connector for ERP and ServiceNow Otto for Zero Copy Connector are available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -451,5 +586,5 @@ Australia
  See [ERP Integration](https://www.servicenow.com/docs/access?context=erp-integration-overview&family=australia&ft:locale=en-US) and [Now Assist for Zero Copy Connectors](https://www.servicenow.com/docs/access?context=now-assist-for-zero-copy-connector-for-erp&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

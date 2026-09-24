@@ -2,7 +2,7 @@
 title: View consolidated feedback in Manager Hub
 description: View a consolidated summary of all the feedback received for an employee.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/view-feedback-page-tf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-feedback/view-feedback-page-tf.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

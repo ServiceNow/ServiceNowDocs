@@ -2,7 +2,7 @@
 title: Text bot response control
 description: Use the Text bot response control in a Virtual Agent topic to display a bot response as text. You can format the Text bot responses using the text editor controls. For example, you can bold or italicize the text, as well as include links, bulleted lists, and emojis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-text-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-text-response.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -186,5 +186,5 @@ Text bot response output
 \[Omitted image "rich-text-example-web-ui.png"\] Alt text: Text response with emojis that reads, "We could not find any assets currently assigned to you." A phone number, additional steps, and a link are included.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

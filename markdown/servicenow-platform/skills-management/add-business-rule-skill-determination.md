@@ -2,7 +2,7 @@
 title: Add a business rule for skill determination
 description: Set up or enable business rules for agents to manage cases, chat interactions, or work order tasks. These business rules trigger Skill Determination rules, ensuring that the required skills are assigned to relevant work items so agents are properly equipped to handle these responsibilities efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/add-business-rule-skill-determination.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/skills-management/add-business-rule-skill-determination.html
 release: australia
 product: Skills Management
 classification: skills-management
@@ -83,5 +83,5 @@ Advanced
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skill-based-routing.md)
+**Parent Topic:**[Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/skills-management/skill-based-routing.md)
 

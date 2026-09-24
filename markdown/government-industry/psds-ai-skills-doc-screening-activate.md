@@ -2,7 +2,7 @@
 title: Activate the Document screening Al skill in ServiceNow Otto for PSDS
 description: Activate the Document screening AI skill to use ServiceNow Otto for PSDS gen-AI to screen documents in the Social Benefits Playbook. The skill classifies document types, validates them against case requirements, and flags issues with clear explanations. Agents receive AI-composed messages to send to constituents with resubmission instructions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ai-skills-doc-screening-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-ai-skills-doc-screening-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

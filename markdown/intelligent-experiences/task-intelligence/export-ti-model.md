@@ -2,7 +2,7 @@
 title: Export a Task Intelligence model
 description: Export a Task Intelligence model to another instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/export-ti-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/task-intelligence/export-ti-model.html
 release: australia
 product: Task Intelligence
 classification: task-intelligence

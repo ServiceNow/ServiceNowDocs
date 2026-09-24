@@ -2,7 +2,7 @@
 title: Customize a record page
 description: To customize a record page, you first create a variant, or copy, of the page and then make changes to the variant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-custom-record-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-ws-custom-record-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Mapping external users and groups to ServiceNow AI Platform users
 description: AI Search external user mappings enable you to configure externally defined user and group aliases for ServiceNow AI Platform users. AI Search uses these aliased security principals to apply content security filters that control user access to search results indexed from external documents.AI Search user mapping aliases can include externally defined group and user security principals.Define a table to store externally defined user and group aliases for ServiceNow AI Platform users.Specify the user mapping table you want AI Search to use for external documents ingested through an indexed source.You can use the AI Search External User Mapping API to import mappings between ServiceNow AI Platform users and externally defined users and groups.Review the results for your user mapping import operations, including data, log messages, and any errors. Use this procedure to verify that your user mappings are imported correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/user-mappings-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/user-mappings-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -22,16 +22,16 @@ You can use mapped external user and group names when defining access permission
 
 To configure user mappings for external content security, you must perform the following steps:
 
-1.  Create one or more user mapping tables. For instructions on this procedure, see [Create a user mapping table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/user-mappings-ais.md).
-2.  Link a user mapping table to each of your external content indexed sources. For details on this task, see [Link a user mapping table to an external content indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/user-mappings-ais.md).
+1.  Create one or more user mapping tables. For instructions on this procedure, see [Create a user mapping table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/user-mappings-ais.md).
+2.  Link a user mapping table to each of your external content indexed sources. For details on this task, see [Link a user mapping table to an external content indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/user-mappings-ais.md).
 
     **Note:** If no mapping is found for the current ServiceNow AI Platform user, AI Search only allows the user to view search results for external documents that have the **everyone** permission set to **true**. This can occur if no user mapping table is linked to a search result's indexed source, or if no mapping for the current ServiceNow AI Platform user exists in the indexed source's linked user mapping table.
 
 3.  Import user mappings into your user mapping tables with the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ext-user-mapping-api.md).
 
-Users with the ais\_high\_security\_admin role can review history records for import operations to verify that user mappings imported correctly. For instructions on this procedure, see [View history records for user mapping import operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/user-mappings-ais.md).
+Users with the ais\_high\_security\_admin role can review history records for import operations to verify that user mappings imported correctly. For instructions on this procedure, see [View history records for user mapping import operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/user-mappings-ais.md).
 
-**Parent Topic:**[External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-security-ais.md)
+**Parent Topic:**[External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/external-content-security-ais.md)
 
 ## External user mapping security principal types
 
@@ -91,7 +91,7 @@ All user mapping tables extend the AI Search External Search User Mapping Base \
 
 ### What to do next
 
-Import user mappings into your new user mapping table. For an overview of this process, see [Importing user mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/user-mappings-ais.md). For details on the relevant API endpoint, see [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ext-user-mapping-api.md).
+Import user mappings into your new user mapping table. For an overview of this process, see [Importing user mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/user-mappings-ais.md). For details on the relevant API endpoint, see [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ext-user-mapping-api.md).
 
 ## Link a user mapping table to an external content indexed source
 

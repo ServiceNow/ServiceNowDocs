@@ -2,7 +2,7 @@
 title: Add a deep research tool to an AI agent
 description: Add a deep research tool to an AI agent so it can search multiple sources and provide answers with sources listed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-deep-research-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-deep-research-new.html
 release: australia
 topic_type: task
 last_updated: "2026-06-05"

@@ -2,7 +2,7 @@
 title: RMF step 1 - Categorize the authorization package
 description: In the Categorize step, you define the criticality or sensitivity of your information system according to potential worst-case scenarios. This involves selecting NIST information types for the package and using the information types to define the impact levels for the package.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/categorize.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/continuous-risk-monitoring/categorize.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring

@@ -2,7 +2,7 @@
 title: Add milestones for roadmap items
 description: Track key outcomes of your planning items \(such as demands, epics, or programs\) by creating milestones for them, directly from the roadmap view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -31,7 +31,7 @@ For free-form roadmaps, milestones are supported only if the source table is Pla
 
 You can’t add a project milestone from the roadmap view. Creating or updating project milestones may impact the associated project plans. So, it’s recommended to create or update project milestones using Project Workspace in Project Portfolio Management \(PPM\).
 
-However, any existing milestones of the project are visible on the roadmap if you've [integrated Strategic Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-apw-with-agile-safe-and-ppm.md).
+However, any existing milestones of the project are visible on the roadmap if you've [integrated Strategic Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configuring-apw-with-agile-safe-and-ppm.md).
 
 ## Procedure
 
@@ -78,7 +78,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 5.  On the form, fill in the fields.
 
-    For field information, see [Planning item milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-item-milestone-form.md).
+    For field information, see [Planning item milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/planning-item-milestone-form.md).
 
 6.  Select **Save**.
 
@@ -98,7 +98,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 ## What to do next
 
--   [Learn how to customize the display of milestones on the roadmap.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.md)
--   [Learn when a planning item milestone can be in an error state.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/error-states-for-planning-item-milestones.md)
--   [Learn how to manage the milestones for planning items.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/manage-planning-item-milestones.md)
+-   [Learn how to customize the display of milestones on the roadmap.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.md)
+-   [Learn when a planning item milestone can be in an error state.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/error-states-for-planning-item-milestones.md)
+-   [Learn how to manage the milestones for planning items.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/manage-planning-item-milestones.md)
 

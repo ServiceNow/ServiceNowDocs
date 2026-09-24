@@ -2,7 +2,7 @@
 title: Operational rounding playbook in Care Team Work Management
 description: The Operational rounding playbook guides leaders through building structured rounding plans from directly within the Healthcare Operations workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-work-plan-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-work-plan-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,5 +20,5 @@ The **Operational rounding playbook** enables operational leaders to define a ro
 
 **Note:** The Operational rounding playbook requires the Healthcare Orchestration \[com.sn\_hco\_orc\] plugin.
 
-For more information on creating a task plan template using the operational rounding playbook, see [Create a care team task plan using the Operational rounding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-operational-rounding-playbook.md).
+For more information on creating a task plan template using the operational rounding playbook, see [Create a care team task plan using the Operational rounding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-operational-rounding-playbook.md).
 

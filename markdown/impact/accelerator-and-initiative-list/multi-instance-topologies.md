@@ -2,7 +2,7 @@
 title: Multi-instance Topologies
 description: This Accelerator provides education on drivers and topology alternatives to support multiple production instance implementations delivered within the context of a single-customer production implementation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/multi-instance-topologies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/multi-instance-topologies.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,7 +2,7 @@
 title: View my personal schedule on the My Schedule report
 description: You can view when you are on call and the escalation lineup for a particular date range.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/view-my-schedule-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/view-my-schedule-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -37,5 +37,5 @@ Role required: itil
     \[Omitted image "NewMyOnCallScheduleDetailsExpand.png"\] Alt text: Viewing alternate rosters
 
 
-**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
+**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
 

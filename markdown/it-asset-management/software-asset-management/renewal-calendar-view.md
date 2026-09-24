@@ -2,7 +2,7 @@
 title: Renewals calendar view
 description: Use the Renewals calendar in the Software Asset Workspace to view the entitlements nearing their expiry date and contracts nearing their expiry date or are already expired.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/renewal-calendar-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/renewal-calendar-view.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management

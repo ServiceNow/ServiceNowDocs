@@ -2,7 +2,7 @@
 title: Single sign-on \(SSO\) integration
 description: If you intend to use CPQ for a headless use case \(such as exposing CPQ on a website or eCommerce platform\), please fill out and submit an SSO Setup Request Form that details the identity provider \(IdP\) you are using for single sign-on \(SSO\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-single-sign-on-sso-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-single-sign-on-sso-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

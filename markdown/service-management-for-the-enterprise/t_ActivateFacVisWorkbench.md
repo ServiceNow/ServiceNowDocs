@@ -2,7 +2,7 @@
 title: Activate Facilities Visualization Workbench
 description: The \(com.snc.facilities\_service\_automation\) and the \(com.snc.facilities\_service\_automation.fvw\) plugins are now deprecated and no longer supported or available for new activation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_ActivateFacVisWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_ActivateFacVisWorkbench.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,21 +30,21 @@ For more details on the process of deprecation and its effects on your usage of 
 
 If you are an existing user of Facilities Service Management, you can continue to use the application.
 
--   **[Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_WorkbenchConfiguration.md)**  
+-   **[Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_WorkbenchConfiguration.md)**  
 Space administrators configure properties on the workbench. In the application navigator, **Facilities** &gt; **Workbench Configuration** contains the configuration settings divided into sections.
--   **[Migrate facilities data to new space definition tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_MigFacDataToNewSpaceDefTable.md)**  
+-   **[Migrate facilities data to new space definition tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_MigFacDataToNewSpaceDefTable.md)**  
 To continue using the image-based floor plans with the new space definition, migrate your data from the old tables to the new space definition tables.
--   **[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)**  
+-   **[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)**  
 Several types of components are installed with the Facilities Visualization Workbench plugin.
 
-**Parent Topic:**[Facilities Service Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesServiceManagement.md)
+**Parent Topic:**[Facilities Service Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesServiceManagement.md)
 
 **Related topics**  
 
 
 [List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 
-[Activate Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateFacilitiesSM.md)
+[Activate Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateFacilitiesSM.md)
 
-[Activate Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateFacVisWorkbench.md)
+[Activate Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateFacVisWorkbench.md)
 

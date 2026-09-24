@@ -2,7 +2,7 @@
 title: App Engine ERP Rapid Deployment Packs release notes
 description: The ServiceNow App Engine ERP Rapid Deployment Packs are templates for specific business processes in enterprise ERP workflows. App Engine for ERP Rapid Deployment Packs are new in the Australia Patch 5 \(August 2026\) release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/app-engine-erp-rdp-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/app-engine-erp-rdp-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-07-27"
@@ -20,7 +20,7 @@ The ServiceNow® App Engine ERP Rapid Deployment Packs are templates for specifi
 -   Review and act on transactions, master data records, and month-end journal entries from a single location through the centralized Approvals Hub.
 -   Post, validate, and authorize manual journal entries before they post to the general ledger through the Journal Entry Approval Portal.
 
-See [App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-overview.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -44,5 +44,5 @@ See [App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/Se
     This product is available in English.
 
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 

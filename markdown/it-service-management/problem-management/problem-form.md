@@ -2,7 +2,7 @@
 title: Problem form
 description: Description of the field values for the problem form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/problem-form.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -300,5 +300,5 @@ Fix
 Read-only field. The date and time when the user started the fix.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
+</table>**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/reference-section-for-problem-management.md)
 

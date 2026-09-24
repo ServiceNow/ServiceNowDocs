@@ -2,7 +2,7 @@
 title: Create Knowledge Graph tag
 description: Create Knowledge Graph tags for Now Assist Virtual Agent, AI agent or Now Assist panel Enterprise Graph using Knowledge Graph Designer to improve accuracy of natural language queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph
@@ -57,7 +57,7 @@ Role required: admin
     -   Edge \(relationship\)
     Each instruction can optionally be marked as **Always Include**, ensuring critical business logic applies unconditionally across all queries. For example, excluding retired assets or closed tickets by default unless explicitly requested.
 
-    For best results, write instructions as generalized, context-driven guidance rather than hard-coded references to specific table values. See [Improving Natural Language Queries with Tag configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/ai-instructiona-and-examples.md) to see detailed examples.
+    For best results, write instructions as generalized, context-driven guidance rather than hard-coded references to specific table values. See [Improving Natural Language Queries with Tag configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/ai-instructiona-and-examples.md) to see detailed examples.
 
 5.  Add alternative names in the **Table synonyms** field and select **Add**.
 

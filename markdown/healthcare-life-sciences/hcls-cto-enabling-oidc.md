@@ -2,7 +2,7 @@
 title: Enable Multi-Provider SSO for your ServiceNow instance
 description: Ensure that Multiple Provider SSO is enabled and configured correctly for Care Team Portal to authenticate with Epic Hyperspace via Hyperdrive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-cto-enabling-oidc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-cto-enabling-oidc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

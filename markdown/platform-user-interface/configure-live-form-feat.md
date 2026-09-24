@@ -2,7 +2,7 @@
 title: Disable live form features
 description: User presence includes several new live form features for Core UI. You can show or hide these features using the glide.ui16.live\_forms.enabled property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-live-form-feat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-live-form-feat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ The **glide.ui16.live\_forms.enabled** property is included automatically with C
 3.  In the Value field, type `false`.
 
 
-**Parent Topic:**[User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPresence.md)
+**Parent Topic:**[User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UserPresence.md)
 

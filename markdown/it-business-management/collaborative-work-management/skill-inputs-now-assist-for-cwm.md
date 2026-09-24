@@ -2,7 +2,7 @@
 title: Skill inputs for ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
 description: Learn about the inputs of each skill of ServiceNow Otto for CWM. By configuring inputs for a skill, you can determine how and when a skill is used within the CWM workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/skill-inputs-now-assist-for-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/skill-inputs-now-assist-for-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -61,10 +61,10 @@ Reference stories
 Tag a story as a reference when it contains ideal acceptance criteria. These tagged stories serve as examples for Now Assist, giving it additional context to generate well-structured acceptance criteria for new stories.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/reference-cwm.md)
+</table>**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/reference-cwm.md)
 
 **Related topics**  
 
 
-[Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md)
+[Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md)
 

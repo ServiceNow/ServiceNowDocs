@@ -2,7 +2,7 @@
 title: Add a collection job to an indicator
 description: To collect scores for an automated indicator, add a collection job to that indicator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_EditAJobForTheIndicator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_EditAJobForTheIndicator.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -18,7 +18,7 @@ To collect scores for an automated indicator, add a collection job to that indic
 
 ## Before you begin
 
-**Note:** This procedure shows how to add fully configured data collection jobs to an automated indicator, from the indicator side. For information about configuring data collection jobs and adding them to indicators from the job side, see [Configure a job indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/configure-job-indicator.md). Only persons with the pa\_data\_collector role, such as Performance Analytics administrators, can configure job indicators.
+**Note:** This procedure shows how to add fully configured data collection jobs to an automated indicator, from the indicator side. For information about configuring data collection jobs and adding them to indicators from the job side, see [Configure a job indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/configure-job-indicator.md). Only persons with the pa\_data\_collector role, such as Performance Analytics administrators, can configure job indicators.
 
 Role required: pa\_power\_user, or admin
 
@@ -41,9 +41,9 @@ Role required: pa\_power\_user, or admin
 6.  Click **Save**.
 
 
-**Parent Topic:**[Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/automated-indicators.md)
+**Parent Topic:**[Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/automated-indicators.md)
 
-**Previous topic:**[Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-breakdown-mapping.md)
+**Previous topic:**[Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md)
 
-**Next topic:**[Performance Analytics snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-snapshots.md)
+**Next topic:**[Performance Analytics snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-snapshots.md)
 

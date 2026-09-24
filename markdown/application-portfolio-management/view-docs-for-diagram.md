@@ -2,7 +2,7 @@
 title: View documents for a diagram
 description: View documents that are generated for a diagram from the Enterprise Modeling and Visualization diagrams page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/view-docs-for-diagram.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/view-docs-for-diagram.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: sn\_apm.apm\_user
     System displays all documents associated with the diagram.
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 

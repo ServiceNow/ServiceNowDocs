@@ -2,7 +2,7 @@
 title: Add a header discount to an order
 description: Apply a percentage-based discount to an order. You can apply it to the entire order or specific line item types. The order line items automatically inherit the designated discount percentage as a manual adjustment on the order line level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-header-discount-to-an-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-header-discount-to-an-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,12 +47,12 @@ You can only add discounts to a quote while the quote is being crafted. Once the
 
 ## What to do next
 
-[Review and submit a product or service order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-om-review-and-submit-product-order.md)
+[Review and submit a product or service order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-om-review-and-submit-product-order.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

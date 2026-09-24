@@ -2,7 +2,7 @@
 title: Mapping alerts to security incident response fields
 description: Map individual alert fields from triggered alerts to fields on a ServiceNow AI Platform security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-create-profile-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ms-graph-create-profile-map.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -36,7 +36,7 @@ As a user with the sn\_si.admin role, use the fields from the Sample Alerts sect
     **Note:**
 
     1.  To manually enter a value in the Input Expression field, enter it in the format $\{fieldname\}$. The alert field will be mapped to the security incident field.
-    2.  You cannot map ingested alerts to the MITRE-ATT&amp;CK Framework fields in the security incident mapping section. If you still map the fields, the information will not be available as part of the MITRE-ATT&amp;CK card in the MITRE-ATT&amp;CK framework section in the security incident form. To associate the MITRE-ATT&amp;CK Techniques, use the [Auto Extraction Feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/auto-extract-technique-rules.md) available as part of the MITRE-ATT&amp;CK Framework in the Threat Intelligence Module.
+    2.  You cannot map ingested alerts to the MITRE-ATT&amp;CK Framework fields in the security incident mapping section. If you still map the fields, the information will not be available as part of the MITRE-ATT&amp;CK card in the MITRE-ATT&amp;CK framework section in the security incident form. To associate the MITRE-ATT&amp;CK Techniques, use the [Auto Extraction Feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/auto-extract-technique-rules.md) available as part of the MITRE-ATT&amp;CK Framework in the Threat Intelligence Module.
 3.  To add fields to the default fields displayed on the security incident on the right side of the form, follow these steps.
     1.  On the right of the form in the SIR Incident Field Mapping section, at the bottom of the grid, select the plus \(+\) icon. A new field is displayed.
     2.  In the Security Incident column, expand the choice list that is displayed, and select a field.

@@ -2,7 +2,7 @@
 title: Configure Cisco DNA Spaces settings for Wi-Fi access logs
 description: Set up the Cisco DNA Spaces integration for Wi-Fi access logs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/set-up-cisco-wifi-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/set-up-cisco-wifi-integration.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -45,7 +45,7 @@ To specify which option to use, configure the **sn\_imt\_tracing.wifi\_log\_cisc
 
     3.  Set the proximity level in the **sn\_imt\_tracing.wifi\_proximity\_preference** system property to consider employee interaction with an affected employee as potential exposure.
 
-        For more information, see [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md).
+        For more information, see [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md).
 
     4.  Review the base system DiagnosticTaskImportUtil script include.
 
@@ -65,7 +65,7 @@ To specify which option to use, configure the **sn\_imt\_tracing.wifi\_log\_cisc
         -   **sn\_imt\_tracing.wifi\_log\_sftp\_load\_time**
         -   **sn\_imt\_tracing.wifi\_log\_sftp\_username**
         -   **sn\_imt\_tracing.wifi\_log\_sftp\_password**
-        For more information on these properties, see [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md).
+        For more information on these properties, see [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md).
 
 3.  Configure office locations that contain Cisco Wi-Fi devices.
 
@@ -82,7 +82,7 @@ To specify which option to use, configure the **sn\_imt\_tracing.wifi\_log\_cisc
 
 ## What to do next
 
-Run the diagnostic request using the Wi-Fi access logs for an employee who is classified as positive for a condition, such as COVID-19, and is from a location with a Cisco Wi-Fi network. The Wi-Fi access logs provide a list of potentially impacted employees who used the same Wi-Fi network as the affected employee. For more information on running the diagnostic request, see [Identify potentially exposed users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/use-emergency-exposure-mgnt.md).
+Run the diagnostic request using the Wi-Fi access logs for an employee who is classified as positive for a condition, such as COVID-19, and is from a location with a Cisco Wi-Fi network. The Wi-Fi access logs provide a list of potentially impacted employees who used the same Wi-Fi network as the affected employee. For more information on running the diagnostic request, see [Identify potentially exposed users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/use-emergency-exposure-mgnt.md).
 
-**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/wifi-access-management.md)
+**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/wifi-access-management.md)
 

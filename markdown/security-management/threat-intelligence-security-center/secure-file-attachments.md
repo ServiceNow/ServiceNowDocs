@@ -2,7 +2,7 @@
 title: Upload Secure File Attachments
 description: Use this section to understand on how to upload the secure file attachments to the case\(s\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/secure-file-attachments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/secure-file-attachments.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -57,7 +57,7 @@ Role required: sn\_sec\_tisc\_secure\_file\_access, sn\_sec\_tisc.admin
     -   All the secure attachments are encrypted and stored in the system using Key Management Framework \(KMF\). For more information, see [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md).
     -   If users have subscription for **ServiceNow Integration Hub Professional Pack Installer**, secure files are compressed in zip format and also encrypted and stored
 
-**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 

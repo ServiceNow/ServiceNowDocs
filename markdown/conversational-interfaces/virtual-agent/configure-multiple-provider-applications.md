@@ -2,7 +2,7 @@
 title: Configure multiple provider applications
 description: You can configure multiple provider applications to support AI agents where there are multiple primary bots using Virtual Agent API and you need to distinguish between them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-multiple-provider-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-multiple-provider-applications.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -35,7 +35,7 @@ Be sure you are in Virtual Agent API application scope.
     |Name|Name of the provider application, such as `VA API Custom Bot`.|
     |Provider|Select the provider as **VA Bot to Bot Provider**.|
     |Inbound Id|Unique inbound Id used in the request message, for example, custom\_1.|
-    |Message Auth|Configure Message Authentication with a token for inbound communication. See [Configure Message Authentication for inbound communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-message-auth-va-api.md) for more details.|
+    |Message Auth|Configure Message Authentication with a token for inbound communication. See [Configure Message Authentication for inbound communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-message-auth-va-api.md) for more details.|
 
 4.  Click **Submit**.
 
@@ -86,5 +86,5 @@ Be sure you are in Virtual Agent API application scope.
     You can test the configuration by viewing the outbound HTTP logs to verify that your response endpoint was called.
 
 
-**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

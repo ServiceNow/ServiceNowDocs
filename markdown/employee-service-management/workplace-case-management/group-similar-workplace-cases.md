@@ -2,7 +2,7 @@
 title: Group similar workplace cases under a parent case
 description: Categorize cases that have similar issues and that require the same resolution under a single parent case. Reduce the time spent on resolving multiple workplace cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/group-similar-workplace-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/group-similar-workplace-cases.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -59,7 +59,7 @@ The workplace case is assigned to a parent case.
 
 **Important:** The case selected in the **Parent case** field and the case displayed in the **Parent** field are different. The workplace case displayed in the **Parent** field is generated from the workplace service to which the case is associated. A parent is assigned automatically if the **Activity type** of the workplace service is **Task** or **Child case**.
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

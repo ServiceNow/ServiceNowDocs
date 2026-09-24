@@ -2,7 +2,7 @@
 title: Activate Process Inefficiency Highlights skill
 description: Activate the Process Inefficiency Highlights skill to be able to use ServiceNow Otto for Process Mining to generate highlights for improvement opportunities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/activate-highlight-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/activate-highlight-skills.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -33,5 +33,5 @@ Role required: admin
     The skill is activated for your instance.
 
 
-**Parent Topic:**[Working with process inefficiency highlights using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/highlights.md)
+**Parent Topic:**[Working with process inefficiency highlights using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/highlights.md)
 

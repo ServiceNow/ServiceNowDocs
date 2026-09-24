@@ -2,7 +2,7 @@
 title: Agent auto assignment using time zones
 description: Agents can be auto assigned based on the time zone defined in their user records and the time zone of the tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_AgAtAssgnZones.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_AgAtAssgnZones.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Agent auto assignment using rating-based criteria, Agent auto assig
 
 Agents can be auto assigned based on the time zone defined in their user records and the time zone of the tasks.
 
-Auto assignment by time zone can be performed in either a [task- or request-driven processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_TaskVsRequestDrivenProcessing.md) environment when the **Auto-selection of agents will consider time zone for the task** configuration option must be enabled for the application.
+Auto assignment by time zone can be performed in either a [task- or request-driven processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_TaskVsRequestDrivenProcessing.md) environment when the **Auto-selection of agents will consider time zone for the task** configuration option must be enabled for the application.
 
 When a task is qualified or marked as **Ready for Work**, agents in the time zone closest to the task time zone are considered for the task. If the application is configured so that only time zone is considered, an agent in the same time zone is auto-assigned the task.
 
@@ -42,7 +42,7 @@ The rating of the agent in Paris is calculated as:
 
 So if the auto assignment of the task is based on the time zone alone, it is assigned to the agent from Los Angeles.
 
-If the application is configured to use other selection criteria, such as skills or location, the ratings of all selection criteria are averaged, and the agent with the highest overall rating is auto-selected for the task. See [Agent auto assignment using multiple selection criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_AgAtAssgmtMlt.md) for details.
+If the application is configured to use other selection criteria, such as skills or location, the ratings of all selection criteria are averaged, and the agent with the highest overall rating is auto-selected for the task. See [Agent auto assignment using multiple selection criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_AgAtAssgmtMlt.md) for details.
 
-**Parent Topic:**[Agent auto assignment using rating-based criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_AgentAutoAssignUseRatBaseCrit.md)
+**Parent Topic:**[Agent auto assignment using rating-based criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_AgentAutoAssignUseRatBaseCrit.md)
 

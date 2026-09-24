@@ -2,7 +2,7 @@
 title: Configure state model transitions
 description: You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ConfigStateModelTransit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_ConfigStateModelTransit.html
 release: australia
 product: Change Management
 classification: change-management
@@ -24,7 +24,7 @@ Role required: script\_include\_admin, ui\_policy\_admin, or admin
 
 1.  Complete the following steps to add state change criteria in a script include that enables a state transition.
 
-    **Note:** Before editing a **Script Include** consider configuring state transitions through Change Models and Model State Transitions as it doesn't require scripting. For the configuration approach, see [Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md)
+    **Note:** Before editing a **Script Include** consider configuring state transitions through Change Models and Model State Transitions as it doesn't require scripting. For the configuration approach, see [Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-predefined-transition-condition-type.md)
 
     You can configure state transitions in two ways:
 
@@ -65,5 +65,5 @@ Role required: script\_include\_admin, ui\_policy\_admin, or admin
     3.  Complete and save the UI policy.
 
 
-**Parent Topic:**[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md)
+**Parent Topic:**[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ChangeStateModel.md)
 

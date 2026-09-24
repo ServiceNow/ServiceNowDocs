@@ -2,7 +2,7 @@
 title: Customize Employee Center portal theme
 description: A theme is a collection of one or more style sheets \(CSS files\) that define a consistent look for a set of pages. Customize the default portal theme to apply your own theme to suit your branding and improve the visual design of the portal pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/customize-theme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/customize-theme.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -52,9 +52,9 @@ Employee Center application ships a default **EC theme** that has the best visua
 **Related topics**  
 
 
-[Configure Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-config.md)
+[Configure Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-config.md)
 
-[Enhanced chat in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.md)
+[Enhanced chat in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.md)
 
 [Configure portal branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_BrandingEditor.md)
 

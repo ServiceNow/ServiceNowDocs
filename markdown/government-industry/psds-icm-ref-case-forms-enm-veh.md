@@ -2,7 +2,7 @@
 title: ICM Entity Management Vehicle form
 description: The Vehicle form allows you to create a new vehicle entity record within an investigative case, and capture as many identifiable details about the vehicle as possible. Not all fields are mandatory, but a minimum amount of information is required for the record to be searchable within ICM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-case-forms-enm-veh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-icm-ref-case-forms-enm-veh.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

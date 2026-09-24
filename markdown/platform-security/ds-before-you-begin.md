@@ -2,7 +2,7 @@
 title: Configuration that can be delegated to internal or external customers
 description: Domain separation is designed to give ServiceNow service providers \(SPs\) the ability to configure the services they offer to their customers. It is not designed to enable their customers to administer those services themselves, except in a few areas that this topic details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ds-before-you-begin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ds-before-you-begin.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-31"
@@ -57,14 +57,14 @@ Understanding how choice fields work is helpful to understand why only the SP ad
 To learn more, see:
 
 -   [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-user-administration.md)
--   [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md)
+-   [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/t_CreateAnACLRule.md)
 -   [Service Provider Learning Path on ServiceNow University](https://snc.do/path)
 -   [Domain separation for service providers](https://snc.do/sp)
 -   [Service Provider Concepts](https://snc.do/spc)
 -   [Application Support for domain separation](https://snc.do/app)
 -   [Domain separation release notes](https://snc.do/rn)
 
-**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
+**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_DomainSeparation.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Save a checklist as a template
 description: After you create a checklist on a project task, you can save it as a template and reuse it on other tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_SaveAChecklistAsATemplate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_SaveAChecklistAsATemplate.html
 release: australia
 product: Project Management
 classification: project-management
@@ -33,12 +33,12 @@ Role required: it\_project\_manager
 5.  Select **Save**.
 
 
-**Parent Topic:**[Use a project task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectTaskChecklist.md)
+**Parent Topic:**[Use a project task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectTaskChecklist.md)
 
 **Related topics**  
 
 
-[Project task checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_project-task-checklists.md)
+[Project task checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_project-task-checklists.md)
 
-[Use a project task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectTaskChecklist.md)
+[Use a project task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectTaskChecklist.md)
 

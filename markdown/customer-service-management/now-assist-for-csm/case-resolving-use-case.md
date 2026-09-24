@@ -2,7 +2,7 @@
 title: Customer Service Management AI agent collection triage cases agentic workflow
 description: Use CSM AI agents agentic workflow to process all routine cases coming in through email and other offline channels and increase agent productivity through faster resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/case-resolving-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/case-resolving-use-case.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -103,5 +103,5 @@ In the triaging the case agentic workflow, perform the following steps:
 
 \[Omitted image "case-resolving-use-case-output-in-ai-agent-studio.png"\] Alt text: AI Agent Studio showing the testing output for Triage cases agentic workflow.
 
-In the panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
+In the panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
 

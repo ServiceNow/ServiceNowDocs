@@ -2,7 +2,7 @@
 title: Create an MCP app
 description: Build, register, and display user interfaces along with your tool's logic with MCP apps. This allows you to implement and manage interactive interfaces for your tools that can be displayed by MCP clients.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-an-mcp-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-an-mcp-app.html
 release: australia
 topic_type: task
 last_updated: "2026-06-30"
@@ -103,5 +103,5 @@ Access granted to different browsers and devices needed to create the app. The o
 
 Create an MCP tool and add one of these apps, created to render an interactive user experience displayed by the MCP client.
 
-**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
+**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-mcp-server-console.md)
 

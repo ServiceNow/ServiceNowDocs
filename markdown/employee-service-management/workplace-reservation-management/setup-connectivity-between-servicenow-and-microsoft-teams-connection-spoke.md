@@ -2,7 +2,7 @@
 title: Setup OAuth connectivity with Microsoft Teams Connections spoke for virtual meeting
 description: Register your Microsoft Teams Communications spoke with ServiceNow instance for OAuth authorization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -20,7 +20,7 @@ Register your Microsoft Teams Communications spoke with ServiceNow instance for 
 
 Ensure the following:
 
--   [Authenticate Microsoft Teams with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/authenticate-microsoft-teams-with-micrsoft-azure.md)
+-   [Authenticate Microsoft Teams with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/authenticate-microsoft-teams-with-micrsoft-azure.md)
 -   Change the application scope to Microsoft Teams Communication spoke.
 
 Role required: admin
@@ -76,9 +76,9 @@ Role required: admin
 
 The OAuth registration is added for Microsoft Teams Communications spoke.
 
-**Parent Topic:**[Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md)
+**Parent Topic:**[Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md)
 
-**Previous topic:**[Authenticate Microsoft Teams with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/authenticate-microsoft-teams-with-micrsoft-azure.md)
+**Previous topic:**[Authenticate Microsoft Teams with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/authenticate-microsoft-teams-with-micrsoft-azure.md)
 
-**Next topic:**[Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-graph.md)
+**Next topic:**[Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-graph.md)
 

@@ -2,7 +2,7 @@
 title: Working with Global styles
 description: Global styles enable you to edit and define core design elements like fonts, colors, and shapes that apply across your entire theme.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/working-with-global-styles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/working-with-global-styles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,20 +25,20 @@ The Global styles panel contains five tabs:
 -   Typography: Update the fonts applied globally to your experience. The fonts are used in headlines, titles, subtitles, body text, and captions.
 -   Shape: Update the corner shapes of on-screen components.
 
--   **[Edit your theme colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-theme-colors.md)**  
+-   **[Edit your theme colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/edit-theme-colors.md)**  
 Edit and update your theme's core colors to create visual consistency and align with your brand.
--   **[Edit corner shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-corner-shapes.md)**  
+-   **[Edit corner shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/edit-corner-shapes.md)**  
 Edit and change the corner shapes applied globally to components such as buttons, modals, and drop-down menus throughout your Theme Builder theme.
--   **[Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-font.md)**  
+-   **[Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/edit-font.md)**  
 Edit your default font family and choose from the predefined options in Theme Builder or your own custom fonts.
--   **[Assign fonts by component category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/assign-fonts-by-category.md)**  
+-   **[Assign fonts by component category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/assign-fonts-by-category.md)**  
 Assign fonts to specific component categories to create a clearer visual hierarchy and ensure consistent typography across related UI elements.
--   **[Edit font size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-font-size.md)**  
+-   **[Edit font size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/edit-font-size.md)**  
 Adjust font sizes at the theme or component category level to refine default or custom fonts and keep your brand consistent across all experiences.
--   **[Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-custom-font.md)**  
+-   **[Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/upload-custom-font.md)**  
 Upload and preview up to 10 custom font families and an unlimited number of associated font faces in your Theme Builder theme.
--   **[Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-upload-logo.md)**  
+-   **[Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-upload-logo.md)**  
 If you previously applied a custom or default ServiceNow logo to your theme during theme creation, you can upload a new one in Theme Builder.
 
-**Parent Topic:**[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md)
+**Parent Topic:**[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-edit-theme.md)
 

@@ -2,7 +2,7 @@
 title: Plan data for reuse
 description: Design your data model to support scalability, interoperability, and future reuse across applications on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/plan-data-reuse.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/plan-data-reuse.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,5 +25,5 @@ Planning data structures early helps prevent duplication, reduces maintenance co
 -   Normalize data to improve accuracy and simplify analytics.
 -   Verify that relationships between tables are well-defined for scalability.
 
-**Parent Topic:**[Plan your app before you start building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/plan-app-building.md)
+**Parent Topic:**[Plan your app before you start building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/plan-app-building.md)
 

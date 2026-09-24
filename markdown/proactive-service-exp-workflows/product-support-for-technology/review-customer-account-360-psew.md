@@ -2,7 +2,7 @@
 title: Review an account by using the Technology Account 360
 description: Review a customer or partner's account by using the Technology Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to customer's or partner's and then take action to improve your delivery of service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/review-customer-account-360-psew.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/review-customer-account-360-psew.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -48,7 +48,7 @@ Details
 
 </td><td>
 
-Select the **Overview** tab to view the touchpoints, escalations, and milestones. For more information, see [Technology Account 360 Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-overview-tab.md).
+Select the **Overview** tab to view the touchpoints, escalations, and milestones. For more information, see [Technology Account 360 Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-overview-tab.md).
 
 </td></tr><tr><td id="d25148e164">
 
@@ -56,7 +56,7 @@ Select the **Overview** tab to view the touchpoints, escalations, and milestones
 
 </td><td>
 
-Select the **Account health** tab to view the health insights. For more information, see [Technology Account 360 Account health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-account-health-tab.md).
+Select the **Account health** tab to view the health insights. For more information, see [Technology Account 360 Account health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-account-health-tab.md).
 
 </td></tr><tr><td id="d25148e183">
 
@@ -64,7 +64,7 @@ Select the **Account health** tab to view the health insights. For more informat
 
 </td><td>
 
-Select the **Financials** tab to view the financial insights. For more information, see [Technology Account 360 Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-financials-tab.md).
+Select the **Financials** tab to view the financial insights. For more information, see [Technology Account 360 Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-financials-tab.md).
 
 </td></tr><tr><td id="d25148e202">
 
@@ -72,7 +72,7 @@ Select the **Financials** tab to view the financial insights. For more informati
 
 </td><td>
 
-Select the **Product adoption** tab to view the product adoption insights. For more information, see [Technology Account 360 Product adoption tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-product-adoption-tab.md).
+Select the **Product adoption** tab to view the product adoption insights. For more information, see [Technology Account 360 Product adoption tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-product-adoption-tab.md).
 
 </td></tr><tr><td id="d25148e222">
 
@@ -80,7 +80,7 @@ Select the **Product adoption** tab to view the product adoption insights. For m
 
 </td><td>
 
-Select the **Open work** tab to view the work insights. For more information, see [Technology Account 360 Open work tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-open-work-tab.md).
+Select the **Open work** tab to view the work insights. For more information, see [Technology Account 360 Open work tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-open-work-tab.md).
 
 </td></tr><tr><td id="d25148e241">
 
@@ -96,5 +96,5 @@ Select the **Open work** tab to view the work insights. For more information, se
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
+**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
 

@@ -2,7 +2,7 @@
 title: Reporting incidents from SOW and SIR Workspace in DRIR
 description: High-impact, high-urgency incidents created or marked as high priority in the SOW of Incident Management or SIR Workspace of Security Incident Response are classified as major incidents. These major incidents are logged and reported in the Digital resilience incident reporting application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/integration-with-incident-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/integration-with-incident-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

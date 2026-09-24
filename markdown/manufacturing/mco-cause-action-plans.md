@@ -2,7 +2,7 @@
 title: Cause action plans
 description: Create a cause action plan for the remediation action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-cause-action-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-cause-action-plans.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

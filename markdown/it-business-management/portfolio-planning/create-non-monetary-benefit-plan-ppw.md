@@ -2,7 +2,7 @@
 title: Create a non-monetary benefit plan for a demand
 description: Create a non-monetary benefit plan to specify the estimated non-monetary benefit in a category for a fiscal period. Demand benefit plans capture the potential benefits accrued by the demand when the demand is executed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-non-monetary-benefit-plan-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-non-monetary-benefit-plan-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -44,12 +44,12 @@ The non-monetary benefit plan breakdown records are automatically created when y
 
 7.  On the Benefit Plan form, fill in the fields.
 
-    For more information on field values, see [Non-monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/non-monetary-benefit-plan-form-ppw.md).
+    For more information on field values, see [Non-monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/non-monetary-benefit-plan-form-ppw.md).
 
 8.  Select **Save**.
 
 
 ## What to do next
 
-Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the demand for the hybrid benefit plans. For more information, see [Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/associate-benefit-plans-ppw.md).
+Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the demand for the hybrid benefit plans. For more information, see [Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/associate-benefit-plans-ppw.md).
 

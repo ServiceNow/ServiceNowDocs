@@ -2,7 +2,7 @@
 title: Configure LINE
 description: Configure LINE integration with CSM omnichannel so customers can contact support from LINE and agents can manage those interactions in the CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/omnichannel-consumer-messaging-line.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/omnichannel-consumer-messaging-line.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-21"
@@ -87,7 +87,7 @@ Admin
 
 </td></tr><tr><td>
 
-5. [Integrating LINE with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrate-line-csm.md)
+5. [Integrating LINE with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/messg-integrate-line-csm.md)
 
 </td><td>
 
@@ -111,7 +111,7 @@ Admin
 
 </td></tr><tr><td>
 
-7. [Configure case routing and assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-case-routing-assignment.md)
+7. [Configure case routing and assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-case-routing-assignment.md)
 
 </td><td>
 
@@ -123,7 +123,7 @@ Admin
 
 </td></tr><tr><td>
 
-8. \(Optional\) [AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/awa-csm-overview.md)
+8. \(Optional\) [AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/awa-csm-overview.md)
 
 </td><td>
 
@@ -135,7 +135,7 @@ Admin
 
 </td></tr><tr><td>
 
-9. [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md)
+9. [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md)
 
 </td><td>
 

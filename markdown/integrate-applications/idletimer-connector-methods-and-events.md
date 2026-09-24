@@ -2,7 +2,7 @@
 title: IdleTimer connector methods and events
 description: Learn about the IdleTimer connector methods and events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/idletimer-connector-methods-and-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/idletimer-connector-methods-and-events.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -34,5 +34,5 @@ Triggers the automation when the Start method is executed.
 
 Stops the automation when the Start method is executed.
 
-**Parent Topic:**[IdleTimer connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/idletimer-connector.md)
+**Parent Topic:**[IdleTimer connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/idletimer-connector.md)
 

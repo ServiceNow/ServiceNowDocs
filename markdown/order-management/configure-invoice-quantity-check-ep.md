@@ -2,12 +2,12 @@
 title: Configure the invoice quantity validation extension point
 description: Implement the invoice quantity check extension point to enable the invoice dispute intake assistant AI agent to validate a customer's quantity dispute claim by reconciling it with delivered quantity data from your Enterprise Resource Planning \(ERP\) or inventory system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-invoice-quantity-check-ep.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-invoice-quantity-check-ep.html
 release: australia
 topic_type: task
 last_updated: "2026-02-27"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
@@ -98,10 +98,10 @@ The demo implementation also illustrates a fallback pattern. When sold product i
 
 9.  Validate your implementation by submitting an invoice dispute from the Business Portal using the ServiceNow Otto Virtual Agent.
 
-    For more information, see [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md).
+    For more information, see [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/dispute-invoice-issues-now-assist.md).
 
 
-**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-invoice-operations.md)
+**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-manage-invoice-operations.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Tax calculations
 description: Tax calculations in Accounts Payable Operations validate supplier-provided taxes against system-calculated amounts to determine the final tax for invoices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-calculations-in-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/tax-calculations-in-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,10 +23,10 @@ Tax specialists create tax types of either indirect tax or withholding tax. One 
 
 For example, for an invoice line amount of $1000, add a tax line of the indirect tax type with a supplier tax of $100. The final tax amount would be calculated as the sum of $1000 and $100, for a total of $1100. If you select the withholding tax type, the final tax amount is calculated as the difference between the invoice line amount of $1000 and the supplier tax of $100, for a total of $900.
 
--   **[Create tax codes to be added in an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-tax-code.md)**  
+-   **[Create tax codes to be added in an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-tax-code.md)**  
 Create tax codes to define tax rates and jurisdictions for invoice processing.
--   **[Create tax types to be used in an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-tax-types.md)**  
+-   **[Create tax types to be used in an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-tax-types.md)**  
 Create tax types to categorize taxes applied to invoices.
 
-**Parent Topic:**[Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice.md)
+**Parent Topic:**[Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice.md)
 

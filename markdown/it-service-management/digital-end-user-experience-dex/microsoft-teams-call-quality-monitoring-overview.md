@@ -2,7 +2,7 @@
 title: Microsoft Teams call quality monitoring overview
 description: Analyze user‑level call performance for Microsoft Teams. View call quality, network metrics such as jitter and packet loss, and session details to identify and fix communication issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/microsoft-teams-call-quality-monitoring-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/microsoft-teams-call-quality-monitoring-overview.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -32,5 +32,5 @@ DEX advanced monitoring for Microsoft Teams call quality provides the following 
 -   Gain actionable insights through dashboards and reports, enabling IT teams to validate improvements and track organizational communication health.
 -   Reduce help desk tickets related to meeting and calling issues by proactively resolving root causes.
 
-To monitor Microsoft Teams call quality, see [Monitor Microsoft Teams call quality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/monitor-teams-call-quality.md).
+To monitor Microsoft Teams call quality, see [Monitor Microsoft Teams call quality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/monitor-teams-call-quality.md).
 

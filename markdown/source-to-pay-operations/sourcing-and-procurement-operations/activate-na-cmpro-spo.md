@@ -2,7 +2,7 @@
 title: Enable Now Assist in Contract Management
 description: Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use Now Assist skills in Contract Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/activate-na-cmpro-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-na-cmpro-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -44,7 +44,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 5.  In the **All available Contract Management Pro skills** section, select **Turn on** for the skill that you want to activate.
 
 
-**Parent Topic:**[Using Now Assist for Contract Management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-now-assist-cmpro-spo.md)
+**Parent Topic:**[Using Now Assist for Contract Management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-now-assist-cmpro-spo.md)
 
 **Related topics**  
 

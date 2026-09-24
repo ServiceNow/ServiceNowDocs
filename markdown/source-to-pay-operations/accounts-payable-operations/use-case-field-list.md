@@ -2,7 +2,7 @@
 title: Invoice and invoice line fields for Accounts Payable Operations integration with Document Intelligence
 description: The DO NOT USE - Invoice Processing use case includes invoice and invoice line fields used to extract information from invoice documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/use-case-field-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/use-case-field-list.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -60,5 +60,5 @@ The **DO NOT USE - Invoice Processing** use case includes invoice and invoice li
 |Line quantity|The number of items that have been invoiced.|
 |Line description|Description for the invoice line.|
 
-**Parent Topic:**[Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/docintel-invoice-process-usecase.md)
+**Parent Topic:**[Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/docintel-invoice-process-usecase.md)
 

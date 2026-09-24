@@ -2,7 +2,7 @@
 title: Create new lead task form
 description: Field descriptions for editing or reviewing details on the Create New Lead Task form in the Lead Management and CRM Touchpoints modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-lead-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-lead-task-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-10"
@@ -83,10 +83,10 @@ Work notes
 Internal notes visible only to team members with appropriate access.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-reference.md)
+</table>**Parent Topic:**[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-reference.md)
 
 **Related topics**  
 
 
-[Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-use-tasks-tab.md)
+[Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-use-tasks-tab.md)
 

@@ -2,7 +2,7 @@
 title: Create Crisis Event form
 description: Use the Create Crisis Event form in BCM UIB Workspace to add details about a crisis event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-crisis-event-ref-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-crisis-event-ref-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-17"
@@ -167,7 +167,7 @@ Collaborations
 
 </td><td>
 
-Collaboration threads related to an event. Includes action items, email notifications and email attachments. For more information, see[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
+Collaboration threads related to an event. Includes action items, email notifications and email attachments. For more information, see[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -182,5 +182,5 @@ Event tasks associated with the event
 Information on the event tasks such as Number, Short description, State, Impacted assets, Assigned to, Dependencies, Actual start, Actual end, Related activated plan, Similar tasks group, Phase.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Start a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/start-crisis-event-in-uib-ws.md)
+</table>**Parent Topic:**[Start a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/start-crisis-event-in-uib-ws.md)
 

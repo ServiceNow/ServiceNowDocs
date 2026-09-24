@@ -2,7 +2,7 @@
 title: Live Connect release notes
 description: Live Connect enables RaptorDB Professional users to bring their Business Intelligence \(BI\) tools to ServiceNow. Users can perform BI analytics on their ServiceNow data without mass data export. Live Connect is only available with RaptorDB Professional.Live Connect enables RaptorDB Professional users to bring their Business Intelligence \(BI\) tools to ServiceNow. Users can perform BI analytics on their ServiceNow data without mass data export. Live Connect is only available with RaptorDB Professional.Live Connect enables RaptorDB Professional users to bring their Business Intelligence \(BI\) tools to ServiceNow. Users can perform BI analytics on their ServiceNow data without mass data export. Live Connect is only available with RaptorDB Professional.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/live-connect-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/live-connect-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-31"
@@ -58,7 +58,7 @@ For more information, see [Access your ServiceNow data using Live Connect](https
     Live Connect operates independently of language settings. Data returned through Live Connect reflects the language settings of the queried tables.
 
 
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-capabilities-rn-landing.md)
 
 ## September 2026
 

@@ -2,7 +2,7 @@
 title: Create enterprise assets
 description: Create assets for specific model categories in the Enterprise Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-asset-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-asset-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -26,7 +26,7 @@ Enterprise asset classes have a one to one mapping to product model classes and 
 
 There are two kinds of assets: consumable assets and serialized assets. Consumable assets don’t have an asset tag or a serial number.
 
-**Note:** This topic provides details on how to create enterprise, construction, facility, industrial, medical, retail, tactical equipment, transportation, and wearable assets. For details on how to create pallet assets, see [Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md).
+**Note:** This topic provides details on how to create enterprise, construction, facility, industrial, medical, retail, tactical equipment, transportation, and wearable assets. For details on how to create pallet assets, see [Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md).
 
 -   **Unique identifiers for assets**
 
@@ -89,7 +89,7 @@ The model category that the asset belongs to. Based on the model category select
 
 6.  In the Create New asset page, fill in the details.
 
-    For a detailed description of the fields, see [Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-fields-eam.md).
+    For a detailed description of the fields, see [Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/asset-fields-eam.md).
 
 7.  Select **Save**.
 
@@ -104,5 +104,5 @@ The model category that the asset belongs to. Based on the model category select
     The asset can be deleted only by the sn\_eam.enterprise\_admin role.
 
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

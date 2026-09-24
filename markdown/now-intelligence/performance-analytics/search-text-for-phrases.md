@@ -2,7 +2,7 @@
 title: Search text for phrases
 description: You can specify phrases that text analytics searches for, instead of searching for only the most frequent individual words.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/search-text-for-phrases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/search-text-for-phrases.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

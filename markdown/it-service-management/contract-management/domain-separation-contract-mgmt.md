@@ -2,7 +2,7 @@
 title: Domain separation and Contract Management
 description: Domain separation is unsupported in Contract Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/domain-separation-contract-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/contract-management/domain-separation-contract-mgmt.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -31,7 +31,7 @@ Domain separation is unsupported in Contract Management. Domain separation enabl
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_ContractManagement.md)
+**Parent Topic:**[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/c_ContractManagement.md)
 
 **Related topics**  
 

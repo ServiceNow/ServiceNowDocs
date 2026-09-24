@@ -2,7 +2,7 @@
 title: Create an information request with Public Sector Digital Services
 description: Create a case requesting public records from federal or state public agencies from the Government Service Portal in Public Sector Digital Services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-create-information-request-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-create-information-request-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

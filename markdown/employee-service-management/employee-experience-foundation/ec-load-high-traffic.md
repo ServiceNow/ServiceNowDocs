@@ -2,7 +2,7 @@
 title: High-traffic experience
 description: Learn more about the heavy-load and high-traffic scenarios and ways to optimize the user experience and portal performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-load-high-traffic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-load-high-traffic.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,5 +27,5 @@ Employees see slow or unresponsive pages with clear message on the home page and
 **Related topics**  
 
 
-[Modify homepage banner instance for high-traffic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-defer-load-widget-instance-options.md)
+[Modify homepage banner instance for high-traffic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-defer-load-widget-instance-options.md)
 

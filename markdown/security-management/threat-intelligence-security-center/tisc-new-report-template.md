@@ -2,7 +2,7 @@
 title: Create Report Template
 description: Create a customized case report template to standardize how case information is documented and presented in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-new-report-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-new-report-template.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

@@ -2,7 +2,7 @@
 title: Scripting Governance Tool
 description: Use the Scripting Governance Tool to provide a single, centralised control for managing scripting access across your ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/scripting-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/scripting-governance.html
 release: australia
 product: Access Control
 classification: access-control
@@ -19,11 +19,11 @@ Use the Scripting Governance Tool to provide a single, centralised control for m
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore Authentication factorsLearn the features and business value of Scripting Governance Tool.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/explore-sgt.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore Authentication factorsLearn the features and business value of Scripting Governance Tool.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/explore-sgt.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-sdlc.svg"\] Alt text: Configure Authentication factorsUnderstand how to use the Scripting Governance Tool.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/use-sgt.md)
+[Use\[Omitted image "bus-sdlc.svg"\] Alt text: Configure Authentication factorsUnderstand how to use the Scripting Governance Tool.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/use-sgt.md)
 
 </td></tr></tbody>
 </table>

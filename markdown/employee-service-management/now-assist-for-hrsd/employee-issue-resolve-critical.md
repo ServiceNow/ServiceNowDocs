@@ -2,7 +2,7 @@
 title: Resolve critical HR case agentic workflow
 description: Resolve critical HR requests efficiently with the Resolve critical HR case agentic workflow. This workflow generates a tailored fulfillment plan for an HR case using fulfillment instructions, KB articles, or resolution notes of similar past cases. It helps accelerate the resolution process by providing planning support to HR agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/employee-issue-resolve-critical.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/employee-issue-resolve-critical.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -99,5 +99,5 @@ The AI agent creates fulfillment plans by analyzing HR case details, employee in
 
 ## Generating a resolution plan for an HR case
 
-For more information, see [Generate a fulfillment plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/generate-rp.md)
+For more information, see [Generate a fulfillment plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/generate-rp.md)
 

@@ -2,7 +2,7 @@
 title: Component properties for the Case create
 description: Component properties enable you to configure the behavior of the Case create component instance on a third-party website.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/comp-properties-case-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/comp-properties-case-create.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -130,11 +130,11 @@ Option to show or hide component notifications.By default, it shows notification
 </table>**Related topics**  
 
 
-[Configure the Case create component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-case-create-component-on-instance.md)
+[Configure the Case create component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-case-create-component-on-instance.md)
 
-[Embed the Case create component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-create-component-on-third-party-website.md)
+[Embed the Case create component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-create-component-on-third-party-website.md)
 
-[Event handlers in the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-case-create-event-handlers.md)
+[Event handlers in the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-case-create-event-handlers.md)
 
-[Sample code for the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-create-sample-code.md)
+[Sample code for the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-create-sample-code.md)
 

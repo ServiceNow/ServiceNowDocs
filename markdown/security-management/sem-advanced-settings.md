@@ -2,7 +2,7 @@
 title: Configure advanced Settings in Security Exposure Management Workspace
 description: The Advanced Settings section allows administrators to configure system-level behavior for vulnerability processing, remediation workflows, compliance handling, and service impact calculations across Unified Security Exposure Management products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-advanced-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-advanced-settings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-09"

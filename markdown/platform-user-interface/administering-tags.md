@@ -2,7 +2,7 @@
 title: Administering tags
 description: If you have an administrator role, you can configure and manage all tags, even tags created by other users. You can also configure notifications, auto-assignment, and Zing indexing for tags.You can create a tag directly from the Tags list.From the Tags module, you can edit all tags.Configure the system to automatically assign a tag to records that match conditions defined in the tag record.You can enable the system to send a notification when a record with a certain tag is updated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/administering-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/administering-tags.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ If you have an administrator role, you can configure and manage all tags, even t
 
 You must have the tags\_admin role for these administrative tasks.
 
-**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Tags.md)
 
 ## Create a tag from the Tags list
 

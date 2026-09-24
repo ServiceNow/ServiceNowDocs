@@ -2,7 +2,7 @@
 title: Issue Auto Resolution Tuning in NLU
 description: Use the NLU Workbench homepage to support Issue Auto Resolution \(IAR\) tuning in NLU.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.html
 release: australia
 product: NLU Service
 classification: nlu-service

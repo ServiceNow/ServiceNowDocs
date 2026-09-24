@@ -2,7 +2,7 @@
 title: Functions, data types, and operators
 description: The Decision component supports certain functions and operators described in the topic. Use this topic as a reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/conditions-decision-func-opr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/conditions-decision-func-opr.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -202,5 +202,5 @@ Relational operators are used to compare values. These operators always result i
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions-components.md)
+</table>**Parent Topic:**[Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/conditions-components.md)
 

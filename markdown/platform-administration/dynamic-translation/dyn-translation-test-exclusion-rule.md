@@ -2,7 +2,7 @@
 title: Test Exclusion Rule
 description: Test Exclusion Rule in Dynamic Translation enables you to test your exclusion pattern manually. You can check whether the pattern accurately excludes a text string from translation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -18,7 +18,7 @@ Test Exclusion Rule in Dynamic Translation enables you to test your exclusion pa
 
 ## Before you begin
 
-At least one additional language must be available on your instance. For more information about installing languages, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+At least one additional language must be available on your instance. For more information about installing languages, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_ActivateALanguage.md).
 
 Role required: admin
 
@@ -103,7 +103,7 @@ When testing variations of existing rules, temporarily deactivating similar rule
 
 ## What to do next
 
-If you chose **New exclusion rule**, you can create a rule based on the exclusion pattern that you tested. For more information see [Add new rules to Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.md).
+If you chose **New exclusion rule**, you can create a rule based on the exclusion pattern that you tested. For more information see [Add new rules to Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.md).
 
-**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
+**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
 

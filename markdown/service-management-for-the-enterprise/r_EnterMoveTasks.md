@@ -2,7 +2,7 @@
 title: Enterprise move tasks
 description: Before a move can be executed, destination locations for all users must be complete. Move tasks are based on check boxes on the request form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_EnterMoveTasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_EnterMoveTasks.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ Before a move can be executed, destination locations for all users must be compl
 -   One per user moving. Useful for tracking actual users moves in detail.
 -   When the user move task is closed, the location of the users and their assets are updated.
 
-**Parent Topic:**[Move planning tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_MovePlanningTool.md)
+**Parent Topic:**[Move planning tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_MovePlanningTool.md)
 

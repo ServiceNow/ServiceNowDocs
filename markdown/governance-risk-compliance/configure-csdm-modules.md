@@ -2,7 +2,7 @@
 title: Add a service to Operational Resilience reporting
 description: Manage services, business services, service offerings, business processes, and application services from the CSDM modules in the Operational Resilience Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-csdm-modules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-csdm-modules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     **Note:** You must have the itil user role to create a service. If you do not have the itil user role, the **New** button for creating a service is not displayed.
 
-    For a description of the field values on the Service form, see [Create Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/service-form-lists-ws-reference.md).
+    For a description of the field values on the Service form, see [Create Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/service-form-lists-ws-reference.md).
 
     The Create New Service form is displayed.
 

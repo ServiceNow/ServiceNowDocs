@@ -2,7 +2,7 @@
 title: Telecom Customer Enterprise Graph
 description: The Telecom Customer Enterprise Graph connects telecom customer and service data to provide context for AI agents in the Smart Actions for Telecom agentic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-telecom-customer-enterprise-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-telecom-customer-enterprise-graph.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -45,5 +45,5 @@ You can use the Telecom Customer Enterprise Graph as a starting point for your o
 **Related topics**  
 
 
-[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Smart Actions for Telecom agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-smart-actions-agentic-workflow.md)
+[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Smart Actions for Telecom agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-smart-actions-agentic-workflow.md)
 

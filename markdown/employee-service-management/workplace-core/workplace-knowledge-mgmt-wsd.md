@@ -2,7 +2,7 @@
 title: Workplace knowledge management
 description: As a workplace admin, you can create knowledge base articles for employees. In the articles, provide information to your employees about workplace services, such as workplace updates, self-help, troubleshoot, and others.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/workplace-knowledge-mgmt-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/workplace-knowledge-mgmt-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -38,16 +38,16 @@ You can add attachments and enable employees to view the attachments individuall
 
 You can view and update the knowledge base articles at any time. You can view published articles, unpublished articles and retired articles separately. You can also republish an article whenever needed.
 
--   **[Create a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-kb-article-wsd.md)**  
+-   **[Create a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-workplace-kb-article-wsd.md)**  
 Provide information to employees through knowledge base articles. Create knowledge base articles with information about workplace updates, self-help, troubleshoot steps, and others.
--   **[Publish a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/publish-workplace-kb-article-wsd.md)**  
+-   **[Publish a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/publish-workplace-kb-article-wsd.md)**  
 After creating a knowledge base article, publish the article to make it available for employees.
--   **[View workplace knowledge base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/view-workplace-kb-article-wsd.md)**  
+-   **[View workplace knowledge base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/view-workplace-kb-article-wsd.md)**  
 View workplace-related updates, processes, and other information in the knowledge base articles that your team created. Rate articles that you find useful.
--   **[Modify a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/modify-workplace-kb-article-wsd.md)**  
+-   **[Modify a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/modify-workplace-kb-article-wsd.md)**  
 Update a knowledge base article at any time. Retire a published article or republish a retired article.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

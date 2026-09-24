@@ -2,7 +2,7 @@
 title: Modify the employee profile widget display
 description: The employee profile widget displays the tabs and work-related information hierarchy. You can configure the instance options to control the number of tabs to display.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-employee-profile-instance-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-employee-profile-instance-options.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -65,5 +65,5 @@ Select to display the left navigation menu \(widget overview panel\).
 **Related topics**  
 
 
-[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
+[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 

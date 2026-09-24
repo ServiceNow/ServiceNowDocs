@@ -2,7 +2,7 @@
 title: Enable a reflow for your UI Builder pages
 description: Enable a reflow for your UI Builder pages. This way, when you’re resizing a window, you don't have to scroll horizontally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-reflow-for-new-uib-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-reflow-for-new-uib-pages.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

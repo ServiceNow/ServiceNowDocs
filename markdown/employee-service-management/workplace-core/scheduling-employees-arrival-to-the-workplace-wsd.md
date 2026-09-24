@@ -2,7 +2,7 @@
 title: Setting and tracking arrivals at the workplace
 description: Workplace managers can set arrival intervals in Workplace Core for different locations at your workplace with defined capacities to facilitate staggered entry of employees into the office. Employees can then choose from the defined arrival slots.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/scheduling-employees-arrival-to-the-workplace-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/scheduling-employees-arrival-to-the-workplace-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -24,12 +24,12 @@ By setting arrival intervals for your workplace, you can facilitate employee act
 
 **Important:** Starting with Workplace Core version 2.3, time zones are introduced in the application. All the arrival schedules that were created on Workplace Core version 2.2 and earlier are deactivated after the upgrade.
 
--   **[Define arrival schedules at the workplace for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/define-arrival-intervals-at-the-workplace-for-employees.md)**  
+-   **[Define arrival schedules at the workplace for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/define-arrival-intervals-at-the-workplace-for-employees.md)**  
 Define arrival slot times in Workplace Core for different locations at your workplace and indicate the capacity for each slot. Establishing arrival schedules enables safe staggered entry of employees to these locations.
--   **[Update arrival schedules at the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/update-arrival-entry-at-workplace-wsd.md)**  
+-   **[Update arrival schedules at the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/update-arrival-entry-at-workplace-wsd.md)**  
 Define building time zones, change the capacity of an arrival schedule, and set the schedule to active or inactive.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

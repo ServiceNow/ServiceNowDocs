@@ -2,7 +2,7 @@
 title: Domain paths query method
 description: You can create effective queries with domain paths.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-query-method.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-domain-query-method.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +23,7 @@ If you want to verify the query method on your instance, look for the following 
 -   **If domain path is enabled**: In the System Properties table, you see `glide.sys.domain.provider=domain_paths` and `glide.sys.domain.paths.installed=true`.
 -   **If domain path is not enabled**: In the System Properties table, you see `glide.sys.domain.provider != domain_paths,glide.sys.domain.paths.installed=false`
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

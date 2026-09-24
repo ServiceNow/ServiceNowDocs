@@ -2,7 +2,7 @@
 title: Use list controls in hierarchical lists
 description: By default, no related list tabs are visible in a hierarchical list and only a single related list is displayed at a time. The column headers are hidden by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_SelectARelatedList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_SelectARelatedList.html
 release: australia
 product: List Administration
 classification: list-administration

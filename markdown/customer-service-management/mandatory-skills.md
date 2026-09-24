@@ -2,7 +2,7 @@
 title: Mandatory skills
 description: Use the mandatory skills feature to identify any skills that are required for agents and technicians to work on customer service cases and field service work orders and tasks. Then assign cases and tasks to agents and technicians who have those required skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/mandatory-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/mandatory-skills.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ Mandatory skills are an optional feature. Mandatory skills can be identified on 
 **Related topics**  
 
 
-[Use the assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-workbench.md)
+[Use the assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-assignment-workbench.md)
 

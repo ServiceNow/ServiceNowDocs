@@ -2,7 +2,7 @@
 title: Playbook for updating the invoice primary data
 description: Playbooks provide a visual, step-by-step view of invoice processing workflows to track case status and determine next steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/playbooks.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -28,14 +28,14 @@ You can perform the following actions using playbook:
 
 For more information about the workflow of playbooks, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
 
--   **[Playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/how-playbook-works.md)**  
+-   **[Playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/how-playbook-works.md)**  
 Playbooks in Accounts Payable Operations display the stages and activities for processing invoice cases and tracking progress through each stage.
--   **[Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md)**  
+-   **[Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md)**  
 Configure a playbook and visualize the step-by-step actions performed by an Accounts Payable specialist while processing an invoice.
--   **[Document Intelligence processing with playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-di-with-playbook.md)**  
+-   **[Document Intelligence processing with playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-di-with-playbook.md)**  
 Invoices ingested through Document Intelligence may require manual actions when automated processing is unavailable.
 
-**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

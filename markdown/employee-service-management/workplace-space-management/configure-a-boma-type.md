@@ -2,7 +2,7 @@
 title: Configure a BOMA type
 description: Define a BOMA type using which you can classify a space based on its BOMA standard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/configure-a-boma-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/configure-a-boma-type.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -41,9 +41,9 @@ Classify a space based on Building Owners and Managers Association \(BOMA\) stan
 
 ## Result
 
-The BOMA type is configured. To map the BOMA type with a Space type, refer to [Map a space type with BOMA type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/map-a-space-type-with-boma-type.md).
+The BOMA type is configured. To map the BOMA type with a Space type, refer to [Map a space type with BOMA type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/map-a-space-type-with-boma-type.md).
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

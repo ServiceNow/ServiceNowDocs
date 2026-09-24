@@ -2,7 +2,7 @@
 title: Suite schedules
 description: Open the Suites Schedules table. You can drill down to see details about the results of individual schedules or create a new schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/suite-schedules-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/suite-schedules-module.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -16,15 +16,15 @@ breadcrumb: [Automated Test Framework \(ATF\) reference, Automated Test Framewor
 
 Open the Suites Schedules table. You can drill down to see details about the results of individual schedules or create a new schedule.
 
--   **[Suite schedule record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suite-schedule-record.md)**  
+-   **[Suite schedule record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-suite-schedule-record.md)**  
 The Suite Results record displays information about one test suite schedule.
--   **[Scheduled suite run record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suite-sched-run-record.md)**  
+-   **[Scheduled suite run record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-suite-sched-run-record.md)**  
 A Scheduled Suite Run record associates a Suite Schedule record with a Test Suite.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-ref-overview.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-ref-overview.md)
 
 **Related topics**  
 
 
-[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md)
+[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-suites-overview.md)
 

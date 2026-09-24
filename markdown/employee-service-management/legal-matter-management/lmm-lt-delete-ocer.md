@@ -2,7 +2,7 @@
 title: Delete outside counsel engagement request
 description: As a legal fulfiller, you can delete outside counsel engagement request that is no longer required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-lt-delete-ocer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/lmm-lt-delete-ocer.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -24,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_fulfiller, sn\_lg\_matter.matter\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d533170e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d533095e51">
 
 Method
 
-</th><th align="left" id="d533170e54">
+</th><th align="left" id="d533095e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d533170e60">
+</th></tr></thead><tbody><tr><td id="d533095e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -44,7 +44,7 @@ Action
 4.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d533170e104">
+</td></tr><tr><td id="d533095e104">
 
 **Using Legal Counsel Center lists**
 
@@ -57,7 +57,7 @@ Action
 5.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d533170e163">
+</td></tr><tr><td id="d533095e163">
 
 **Using platform view**
 
@@ -116,5 +116,5 @@ Yes
 -   The matter created in Legal Tracker is not deleted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
+</table>**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
 

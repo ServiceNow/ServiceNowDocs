@@ -2,7 +2,7 @@
 title: Configuring revisions
 description: As a provider, you can update the configurations of remote record producers, remote task definitions, and foundation data sync offerings. You can also create new versions that can be entitled to consumers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-config-revision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-config-revision.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -30,5 +30,5 @@ You can create configuration revisions for the following:
 **Related topics**  
 
 
-[Create configuration revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
+[Create configuration revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md)
 

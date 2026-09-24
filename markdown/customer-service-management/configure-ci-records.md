@@ -2,7 +2,7 @@
 title: Configure records for the Customer Information view
 description: Configure the records to display on the Customer Information view. For example, a record could provide information on the contact or consumer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-ci-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-ci-records.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

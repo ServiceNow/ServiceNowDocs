@@ -2,7 +2,7 @@
 title: View tasks for an Insufficient Goods Receipt exception
 description: View purchase order tasks in Accounts Payable Operations to understand why an Insufficient Goods Receipt invoice exception has been raised.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/view-psm-task-inv-exception.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/view-psm-task-inv-exception.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -39,9 +39,9 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
     If Sourcing and Procurement Operations is installed, then this tab shows the following tasks:
 
-    -   Receipt. For more information, see [Receipt tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/receipt-tasks.md).
-    -   Milestone. For more information, see [Milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/milestones.md).
-    -   Invoice acknowledgment. For more information, see [Invoice tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/invoice-tasks.md).
+    -   Receipt. For more information, see [Receipt tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/receipt-tasks.md).
+    -   Milestone. For more information, see [Milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/milestones.md).
+    -   Invoice acknowledgment. For more information, see [Invoice tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/invoice-tasks.md).
     If Sourcing and Procurement Operations is not installed, then this tab shows only the Milestone task.
 
 
@@ -49,5 +49,5 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 The Accounts Payable Specialist understands the Insufficient Goods Receipt exception by viewing Sourcing and Procurement tasks.
 
-**Parent Topic:**[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md)
+**Parent Topic:**[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md)
 

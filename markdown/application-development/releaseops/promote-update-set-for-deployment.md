@@ -2,7 +2,7 @@
 title: Promote an update set for deployment
 description: When you're ready to deploy your changes, promote your update set to begin the deployment process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/promote-update-set-for-deployment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/promote-update-set-for-deployment.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -23,7 +23,7 @@ Role required: developer or release\_admin
 
 **Note:** You must have the sn\_releaseops.deployment\_controller property set on your development instance or the instance from which you intend to promote changes for deployment.
 
-This procedure describes the process of promoting an update set for deployment once an update set has already been created. To learn more about the process of creating an update set, see [Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md).
+This procedure describes the process of promoting an update set for deployment once an update set has already been created. To learn more about the process of creating an update set, see [Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/using-system-update-sets.md).
 
 ## Procedure
 
@@ -54,9 +54,9 @@ This procedure describes the process of promoting an update set for deployment o
 
 Choose from one of the following options to attach the update set to a deployment request and submit the changes for deployment through the pipeline.
 
--   To attach the update set to an existing deployment request, see [Attach an update set to an existing deployment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/attach-an-update-set-to-existing-deployment-request.md).
--   To attach the update set to a new deployment request for a scheduled release, see [Create a deployment request for a scheduled release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-a-new-deployment-request.md).
--   To attach the update set to a new deployment request for an on-demand release, see [Create a deployment request for an on-demand release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-a-deployment-request-for-on-demand-release.md).
+-   To attach the update set to an existing deployment request, see [Attach an update set to an existing deployment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/attach-an-update-set-to-existing-deployment-request.md).
+-   To attach the update set to a new deployment request for a scheduled release, see [Create a deployment request for a scheduled release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/create-a-new-deployment-request.md).
+-   To attach the update set to a new deployment request for an on-demand release, see [Create a deployment request for an on-demand release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/create-a-deployment-request-for-on-demand-release.md).
 
-**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
+**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 

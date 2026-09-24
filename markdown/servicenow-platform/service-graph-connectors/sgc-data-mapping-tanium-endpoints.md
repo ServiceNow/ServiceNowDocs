@@ -2,7 +2,7 @@
 title: Data mapping for Service Graph Connector for Tanium Endpoints
 description: Data from the Tanium data sources is mapped and transformed into the ServiceNow CMDB configuration item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-data-mapping-tanium-endpoints.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-data-mapping-tanium-endpoints.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -48,26 +48,26 @@ SG-Tanium-Endpoints Hardware-Software \[sg\_tanium\_endpoints\_hardware\_softwar
 
 </td><td>
 
-[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
 
- [Disk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+ [Disk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
 
- [File System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+ [File System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
 
- [Handheld Computing Device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+ [Handheld Computing Device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
 
- [IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+ [IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
 
- [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
 
- [Network Adapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+ [Network Adapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
 
  When the Software Asset Management \(SAM\) application isn't installed:
 
--   [Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
--   [Software Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+-   [Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+-   [Software Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
 
- When the SAM application is installed: [Software Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+ When the SAM application is installed: [Software Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
 
 </td><td>
 
@@ -103,8 +103,8 @@ None
 
 </td><td>
 
-The SG-Tanium Remove Software data source creates import sets and uses the transform map-based method for removing any target records for software data that weren't updated in the last delta query check. See [Managing CMDB data deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/cmdb-integ-record-removal.md).
+The SG-Tanium Remove Software data source creates import sets and uses the transform map-based method for removing any target records for software data that weren't updated in the last delta query check. See [Managing CMDB data deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/cmdb-integ-record-removal.md).
 
 </td></tr></tbody>
-</table>You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
+</table>You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 

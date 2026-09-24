@@ -2,12 +2,12 @@
 title: Specify a host resource for a resource block
 description: Hosts that support the Host interface of a resource block are potential hosts for the resource block. You use the Host interface setting to further limit the options that are presented to the stack requester while selecting a host type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/specify-host-resource-cmp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/specify-host-resource-cmp.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create a custom resource block, Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -37,7 +37,7 @@ Role required: admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-resource-block.md)
+**Parent Topic:**[Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-resource-block.md)
 
 **Related topics**  
 

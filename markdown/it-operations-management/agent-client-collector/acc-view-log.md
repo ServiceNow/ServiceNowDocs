@@ -2,7 +2,7 @@
 title: View the Agent Client Collector logs
 description: You can view the activity logs for an Agent Client Collector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-view-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-view-log.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -58,12 +58,12 @@ Role required: agent\_client\_collector\_admin
     The **Payload** section on the **Queue** form displays the log for the Agent Client Collector.
 
 
-**Parent Topic:**[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/logs-acc.md)
+**Parent Topic:**[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/logs-acc.md)
 
 **Related topics**  
 
 
-[Enable log monitoring in a Linux environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-enable-log-monitoring-linux.md)
+[Enable log monitoring in a Linux environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-enable-log-monitoring-linux.md)
 
-[Enable log monitoring in a Windows environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-enable-log-monitoring-windows.md)
+[Enable log monitoring in a Windows environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-enable-log-monitoring-windows.md)
 

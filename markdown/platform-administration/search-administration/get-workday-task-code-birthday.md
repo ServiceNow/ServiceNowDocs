@@ -2,14 +2,14 @@
 title: Get Workday task code for My Team's Birthday
 description: Get the task code for the My Team's Birthday task from your Workday tenant. The Workday external content connector needs this task code to retrieve team birthday data from the Manager hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/get-workday-task-code-birthday.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/get-workday-task-code-birthday.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Workday external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -42,9 +42,9 @@ This task is optional. The Workday external content connector can retrieve Manag
 
 ## What to do next
 
-Provide the task code you copied in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/get-workday-task-code-birthday.md) to your connector administrator. They need this task code to configure a Workday external content connector to retrieve Manager hub data from your Workday source system.
+Provide the task code you copied in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/get-workday-task-code-birthday.md) to your connector administrator. They need this task code to configure a Workday external content connector to retrieve Manager hub data from your Workday source system.
 
-For details on creating and configuring a Workday external content connector, see [Create a Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-workday.md).
+For details on creating and configuring a Workday external content connector, see [Create a Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-workday.md).
 
-**Parent Topic:**[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/workday-external-content-connector.md)
+**Parent Topic:**[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/workday-external-content-connector.md)
 

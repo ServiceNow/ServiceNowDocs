@@ -2,10 +2,10 @@
 title: Install Lead to Cash Core
 description: If you have the admin role, you can install the Lead to Cash Core application. The application includes the demo data and installations that are related ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-lead-to-cash.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-lead-to-cash.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Install and configure Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -81,7 +81,7 @@ Load the demo data after installing the Lead to Cash Core application.1.  Instal
 **Related topics**  
 
 
-[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-foundation.md)
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-foundation.md)
 
-[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md)
+[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
 

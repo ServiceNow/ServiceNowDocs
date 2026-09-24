@@ -2,7 +2,7 @@
 title: DevOps Insights reports
 description: To help you plan and implement updates to your DevOps processes, DevOps Insights displays a variety of configurable reports that are grouped by type of metric. From the DevOps Change Workspace, select the DevOps Insights icon \( filter icon \) to view the reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-insights-working-in.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/devops-insights-working-in.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity

@@ -2,7 +2,7 @@
 title: Scheduling components in Workforce Optimization for ITSM
 description: Workforce Optimization for ITSM has roles to administer agent shifts and schedules and properties to configure default behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management

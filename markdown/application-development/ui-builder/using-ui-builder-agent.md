@@ -2,12 +2,12 @@
 title: Using UI Builder agent
 description: Use the UI Builder agent to learn about features and functionality, understand your page setup, and accelerate page configuration.Use this feature to learn about UI Builder.Use this feature to understand the architecture and functionality of a page and its elements.Use this feature to build and modify your page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/using-ui-builder-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/using-ui-builder-agent.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -20,7 +20,7 @@ The UI Builder agent introduces key features to enhance user experience. It offe
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-generation.md)
+**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-generation.md)
 
 ## Learn about UI Builder
 
@@ -28,7 +28,7 @@ Use this feature to learn about UI Builder.
 
 ### Before you begin
 
-Install ServiceNow Otto for UI generation application. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md).
+Install ServiceNow Otto for UI generation application. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md).
 
 Role required: ui\_builder\_admin
 
@@ -42,7 +42,7 @@ This feature answers your questions about the UI Builder. It provides informatio
 
 2.  Create a new experience or navigate to an existing one.
 
-    For more information about creating an experience, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/generate-ui.md).
+    For more information about creating an experience, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/generate-ui.md).
 
 3.  Create a new page or navigate to an existing one.
 
@@ -71,7 +71,7 @@ Use this feature to understand the architecture and functionality of a page and 
 
 ### Before you begin
 
-Install ServiceNow Otto for UI generation application. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md).
+Install ServiceNow Otto for UI generation application. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md).
 
 Role required: ui\_builder\_admin
 
@@ -85,7 +85,7 @@ This feature provides insights into how a page is constructed, including its des
 
 2.  Create a new experience or navigate to an existing one.
 
-    For more information about creating an experience, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/generate-ui.md).
+    For more information about creating an experience, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/generate-ui.md).
 
 3.  Create a new page or navigate to an existing one.
 
@@ -115,7 +115,7 @@ Use this feature to build and modify your page.
 
 ### Before you begin
 
-Install ServiceNow Otto for UI generation application. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md).
+Install ServiceNow Otto for UI generation application. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md).
 
 Role required: ui\_builder\_admin
 
@@ -129,7 +129,7 @@ This feature enables you to easily modify and enhance your page. You can apply d
 
 2.  Create a new experience or navigate to an existing one.
 
-    For more information about creating an experience, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/generate-ui.md).
+    For more information about creating an experience, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/generate-ui.md).
 
 3.  Create a new page or navigate to an existing one.
 

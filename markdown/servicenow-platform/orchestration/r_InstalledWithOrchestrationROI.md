@@ -2,7 +2,7 @@
 title: Installed with Orchestration ROI
 description: Several types of components are installed with the Orchestration - ROI plugin \(com.snc.runbook\_automation.roi\).Tables are added with activation of Orchestration ROI.Plugins are installed with activation of Orchestration ROI, if they are not already active.Roles are added with activation of Orchestration ROI.UI actions are added with activation of Orchestration ROI.Script includes are added with activation of Orchestration ROI.Client scripts are added with activation of Orchestration ROI.Business rules are added with activation of Orchestration ROI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_InstalledWithOrchestrationROI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/r\_InstalledWithOrchestrationROI.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -16,7 +16,7 @@ breadcrumb: [Orchestration ROI, Orchestration applications, Classic Orchestratio
 
 Several types of components are installed with the Orchestration - ROI plugin \(com.snc.runbook\_automation.roi\).
 
-**Parent Topic:**[Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationROI.md)
+**Parent Topic:**[Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationROI.md)
 
 ## Tables installed with Orchestration ROI
 

@@ -14,7 +14,7 @@ Extend the Journey designer application's capabilities by integrating other appl
 
 Integrating supported applications expands the features and capabilities of Journey designer. Supported applications have unique installation and configuration requirements. Supported integration applications can be installed before or after installing the Journey designer app.
 
--   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/manager-hub-overview.md) v1.0.0 \[sn\_mh\]
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/manager-hub-overview.md) v1.0.0 \[sn\_mh\]
 -   [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ms-exch-online-spoke.md) v3.2.0 \[sn\_ex\_online\_spke\]
 -   [Retry Handler Framework v1.0.1 \[sn\_handler\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/retry-handler-frmwrk.md)
 

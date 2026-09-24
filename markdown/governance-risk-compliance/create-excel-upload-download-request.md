@@ -2,7 +2,7 @@
 title: Create Microsoft Excel download and upload request
 description: Create a Microsoft Excel upload and download request to upload and download the records from and into the Digital resilience third-party registers for auditing purposes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-excel-upload-download-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-excel-upload-download-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ To become familiar with the process before handling more complex operations, you
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-excel-upload-download-req.md).
+    For descriptions of all these fields, see [Create Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-excel-upload-download-req.md).
 
 4.  For the Upload request, select the **Attach file** option in the **Select file** field.
 
@@ -54,7 +54,7 @@ To become familiar with the process before handling more complex operations, you
 
     The upload result report includes LEI verification messages for each row: - `Success: 'Row {N}: LEI verification successful – LEI {code} – Entity: {name}' - Warning (property = Yes): 'Row {N}: WARNING – LEI verification failed – LEI {code} not found in GLEIF registry. Record saved with unverified LEI.' - Error (property = No): 'Row {N}: LEI verification failed – LEI {code} not found in GLEIF registry. Row skipped'`.
 
-    The behavior for each failure scenario during upload is controlled by the system property **sn\_dora\_accel.lei\_save\_on\_gleif\_error**. For the properties reference and the complete behavior matrix, see [Properties installed with Digital Operational Resilience Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/properties-dora.md).
+    The behavior for each failure scenario during upload is controlled by the system property **sn\_dora\_accel.lei\_save\_on\_gleif\_error**. For the properties reference and the complete behavior matrix, see [Properties installed with Digital Operational Resilience Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/properties-dora.md).
 
     During upload of contractual arrangement records, the system checks each row against existing records using the same 8-field duplicate detection logic used on the UI form. Rows that match an existing record are skipped \(not inserted or updated\), and a duplicate error is added to the upload error report.
 
@@ -122,10 +122,10 @@ When making a download request for a Third-Party Information Register record, se
 </td></tr></tbody>
 </table>    For information on Register of information regulatory packages, see the following topics:
 
-    -   [Register of Information \(ROI\) regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-dora-roi-reg-pkg.md)
-    -   [Generate a Register of Information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-gen-roi-pkg.md)
-    -   [Validation framework for Register of Information in Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-dora-validate-roi.md)
-    -   [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-validate-roi.md)
+    -   [Register of Information \(ROI\) regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/opres-dora-roi-reg-pkg.md)
+    -   [Generate a Register of Information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/opres-drtp-gen-roi-pkg.md)
+    -   [Validation framework for Register of Information in Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/opres-dora-validate-roi.md)
+    -   [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/opres-drtp-validate-roi.md)
 9.  Add the name that you want for the Microsoft Excel file and select **Save**.
 
     In releases prior to 21.x.x of Digital resilience third-party registers, downloading the contract created a single sheet with all the contract data. Starting with version 21.x.x of Digital resilience third-party registers, when you generate a report on the contracts, it mirrors the UI. The report provides details, including information on entities, third parties, third-party engagements, and specific contract information in the Microsoft Excel sheet.
@@ -146,7 +146,7 @@ When making a download request for a Third-Party Information Register record, se
 
 11. Convert and aggregate contractual expenses to regulator-required currencies.
 
-    Beginning with Digital Operational Resilience Management \(sn\_dora\_accel\), version 22.x.x, currency conversion and third-party aggregation capabilities are supported for DORA reporting. For more information on conversion and aggregation, see [Convert and aggregate contractual expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-excel-report-aggregate-expenses.md).
+    Beginning with Digital Operational Resilience Management \(sn\_dora\_accel\), version 22.x.x, currency conversion and third-party aggregation capabilities are supported for DORA reporting. For more information on conversion and aggregation, see [Convert and aggregate contractual expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-excel-report-aggregate-expenses.md).
 
 12. To download third-party information register, select **Export info register** on the Contractual arrangements tab, add a name, and save it.
 
@@ -202,8 +202,8 @@ Action to export the record.
 
 </td></tr></tbody>
 </table>
--   **[Create Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-excel-upload-download-req.md)**  
+-   **[Create Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-excel-upload-download-req.md)**  
 On the Create Excel download/upload request form, fill in the fields.
 
-**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-dg-registers.md)
 

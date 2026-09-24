@@ -2,7 +2,7 @@
 title: Create a pipeline project manually
 description: Create a pipeline project manually to record project details that are not automatically generated through an intake request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-pipeline-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-pipeline-manually.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -30,14 +30,14 @@ Role required: sn\_shop.procurement\_specialist
     -   Navigate to **Lists** &gt; **All work** &gt; **Pipeline projects**.
 3.  Select **New**.
 
-    The Create New Pipeline Project form is displayed. For a description of the field values, see [Create New Pipeline Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-pipeline-project-form.md).
+    The Create New Pipeline Project form is displayed. For a description of the field values, see [Create New Pipeline Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-pipeline-project-form.md).
 
 4.  Select **Save**.
 
     The pipeline project is created in the Planned state.
 
-    For more information about the tabs and UI actions available in the pipeline project record, see [Pipeline project record tabs and UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-form-tabs-actions.md).
+    For more information about the tabs and UI actions available in the pipeline project record, see [Pipeline project record tabs and UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-form-tabs-actions.md).
 
 
-**Parent Topic:**[Using Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-pipeline-sourcing-mgmt.md)
+**Parent Topic:**[Using Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-pipeline-sourcing-mgmt.md)
 

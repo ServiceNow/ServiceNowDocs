@@ -2,7 +2,7 @@
 title: Procurement File Transfer Framework
 description: Procurement File Transfer Framework \(PFTF\) helps you transfer information between the ServiceNow database and a third-party reseller through a File Transfer Protocol \(FTP\). You can set up an FTP server for access and transfer of reseller data without any spoke development by the third-party reseller.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -43,18 +43,18 @@ Currently, the following integrations are supported:
 
 **Exports**: Order export
 
-Your suppliers can upload the files with the recommended [folder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md) structure and format on the server. ServiceNow imports and exports all the details automatically through scheduled data imports and exports.
+Your suppliers can upload the files with the recommended [folder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md) structure and format on the server. ServiceNow imports and exports all the details automatically through scheduled data imports and exports.
 
--   **[Third‑party registration for PIF and PFTF integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/third-party-registration-for-pif-pftf.md)**  
+-   **[Third‑party registration for PIF and PFTF integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/third-party-registration-for-pif-pftf.md)**  
 Third‑party registration enables you to configure supplier integrations for Source-to-Pay Integration Framework \(PIF\) and Procurement File Transfer Framework \(PFTF\).
--   **[Import data using FTP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ftp-data-import.md)**  
+-   **[Import data using FTP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/ftp-data-import.md)**  
 Import a file from a local source, a remote network server, or another instance by providing a path and authentication information. Transfer and manage procurement data in a principled structure that administrators can use for various data management operations.
--   **[Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md)**  
+-   **[Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md)**  
 Export a file from a local source, a remote network server, or another instance by providing a path and authentication information.
--   **[Data source table information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md)**  
+-   **[Data source table information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md)**  
 The following information can help you with the FTP import and export data.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Merge duplicate articles
 description: Merge multiple duplicate knowledge articles into a single, consolidated article using ServiceNow Otto in Knowledge Management. This task helps knowledge managers reduce redundancy, preserve source article traceability, and verify readers access the most accurate and recent information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -20,7 +20,7 @@ Merge multiple duplicate knowledge articles into a single, consolidated article 
 
 Role required: admin
 
-Ensure to configure and activate Identify duplicate articles and Merge duplicate articles skills. For more, see [Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.md) and [Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md).
+Ensure to configure and activate Identify duplicate articles and Merge duplicate articles skills. For more, see [Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.md) and [Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md).
 
 ## Procedure
 
@@ -56,5 +56,5 @@ Ensure to configure and activate Identify duplicate articles and Merge duplicate
 
 A new article is created from the merged set of articles.
 
-**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 

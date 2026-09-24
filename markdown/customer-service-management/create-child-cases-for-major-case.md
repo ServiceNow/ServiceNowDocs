@@ -2,7 +2,7 @@
 title: Create child cases for a major case
 description: Users with the customer service manager role can create a child case for each of the customers included in the major case recipients list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-child-cases-for-major-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-child-cases-for-major-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,5 +52,5 @@ Creating child cases copies information from the major case to each of the child
 **Related topics**  
 
 
-[Recipients lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-recipient-lists.md)
+[Recipients lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/major-issue-recipient-lists.md)
 

@@ -2,7 +2,7 @@
 title: AI Desktop Actions release notes
 description: The ServiceNow AI Desktop Actions application enables you to automate repetitive tasks on your desktop and web. These desktop actions are executed by AI agents created in AI Agent Studio.Adaptive path AI Desktop Actions now gather stored credentials and dynamic parameters automatically, attach and track files during a task, and start faster with fewer stray browser tabs.Long-running sessions now preserve context by automatically summarizing older step history. Three new system properties are added to manage the compaction feature.A streamlined automation creation journey now enables users to request automations from Task Mining for desktop activities, generate them in Automation Center, automatically create AI agents configured with these desktop action tools, and deploy them directly from AI Agent Studio.Record on-screen task desktop actions, validate anchor positions, and generate screen contexts using AI. Provide dynamic values, such as credentials and user-specific inputs to on-screen task desktop actions by creating Desktop action parameter records.Agentic Desktop is rebranded as AI Desktop Actions, get a quick overview of the application by using the onboarding wizard, and use the ServiceNow Web Automation chrome extension for AI agent to interact with web applications.Enhanced error and informational messaging provides better guidance during desktop action testing and troubleshooting. A new Delete button enables quick screen removal from the image canvas, and a Test button in the Design tab allows direct screen testing while designing desktop actions.The Application field in the Details tab is now optional and descriptions for Excel, Word, PDF, and System Actions connectors are enhanced.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/agentic-desktop-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/agentic-desktop-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -51,7 +51,7 @@ See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNow
     You must enable Next Experience UI Framework before you can use the ServiceNow Otto panel.
 
 
-**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/intelligent-experiences-rn-landing.md)
+**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/intelligent-experiences-rn-landing.md)
 
 ## September 2026
 
@@ -59,7 +59,7 @@ Adaptive path AI Desktop Actions now gather stored credentials and dynamic param
 
 ### What's new
 
--   **Execute adaptive desktop actions on macOS**
+-   **[Execute adaptive desktop actions on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai_desktop_actions_adaptive.md)**
 
     Download the new AI Desktop Actions installer for macOS with M-series processor support \(ARM64 architecture\). The adaptive desktop actions enable AI agents to navigate applications and browsers and perform tasks on macOS systems. Both adaptive and defined desktop actions are now available with platform-specific installers.
 
@@ -69,18 +69,18 @@ Adaptive path AI Desktop Actions now gather stored credentials and dynamic param
     -   Refer the real-time status tracking that shows whether the AI agent is initiating, running, or paused.
     -   Take control of the execution where your input is needed.
     -   The AI agent batches consecutive actions into single execution calls where possible, minimizing round trips and reducing overall execution time.
--   **Control resource access using policy and rules**
+-   **[Control resource access using policy and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/security_policy_governance_concept.md)**
 
     Create policies and rules to control which resources AI agents can access.
 
     -   Policies: Collection of resource access rules that applies to a specific user group or set of users based on defined user criteria.
     -   Resource access rules: Specific restrictions controlling agent access to various resource types, such as files, folders, websites, and applications.
     -   Bi-directional policy-rule mapping: Link policies to rules from either the policy record or the rule record, enabling rule reuse across multiple policies.
--   **Credential and dynamic parameter management**
+-   **[Credential and dynamic parameter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/credential-storage.md)**
 
     Reference credentials or other user-specific values by name in your instructions. The agent resolves them securely at execution time, so you never have to type them in yourself.
 
--   **File upload and download**
+-   **[File upload and download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/upload-download-file.md)**
 
     Upload files to web forms and track file downloads during automated browser tasks. The agent validates file safety, confirms the target field with the reasoning model, and escalates to the user when it can't proceed safely.
 

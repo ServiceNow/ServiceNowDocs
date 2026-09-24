@@ -2,7 +2,7 @@
 title: Remove a supplier contact from the Supplier Collaboration Portal
 description: Remove a supplier contact that you no longer require from the Supplier Collaboration Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -26,23 +26,23 @@ Role required: sn\_slm.contact or sn\_slm.admin
 
     |To|Do this|
     |---|-------|
-    |Remove a supplier from the My contacts widget.|Perform the steps described in [Remove a supplier contact from the My contacts widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact.md).|
-    |Remove a supplier contact using the supplier catalog.|Perform the steps described in [Remove a supplier contact using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-contact-catalog.md).|
+    |Remove a supplier from the My contacts widget.|Perform the steps described in [Remove a supplier contact from the My contacts widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact.md).|
+    |Remove a supplier contact using the supplier catalog.|Perform the steps described in [Remove a supplier contact using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-contact-catalog.md).|
 
 
 ## Result
 
 The selected supplier contact is removed.
 
--   **[Remove a supplier contact from the My contacts widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact.md)**  
+-   **[Remove a supplier contact from the My contacts widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact.md)**  
 Remove a supplier contact that you no longer require.
 
-**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.md)
+**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.md)
 
 **Related topics**  
 
 
-[Managing supplier contacts from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.md)
+[Managing supplier contacts from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.md)
 
-[Remove a supplier contact from the My contacts widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact.md)
+[Remove a supplier contact from the My contacts widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact.md)
 

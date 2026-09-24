@@ -2,7 +2,7 @@
 title: Activate an agentic workflow template
 description: Activate an agentic workflow that come installed with ServiceNow applications in AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/activate-aia-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/activate-aia-use-case.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 Agentic workflows that are installed with AI applications aren’t automatically activated. You must activate them before they can be used in the ServiceNow Otto panel or as a UI action. Some may come with predefined triggers that must be set to active, too.
 
-These predefined agentic workflows can also be used as templates for your own customized ones. You can [duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) and use it as a blueprint for one that better suits your business needs, such as changing which records are available or providing different instructions.
+These predefined agentic workflows can also be used as templates for your own customized ones. You can [duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/clone-aia-usecase.md) and use it as a blueprint for one that better suits your business needs, such as changing which records are available or providing different instructions.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ These predefined agentic workflows can also be used as templates for your own cu
 
 9.  Toggle the display for the ServiceNow Otto panel and/or UI action so that it’s turned on.
 
-    You have enabled the agentic workflow in the ServiceNow Otto panel. If the option isn't available, you must enable the panel first. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md), [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md), or [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-nap-assistant.md) for premium chat.
+    You have enabled the agentic workflow in the ServiceNow Otto panel. If the option isn't available, you must enable the panel first. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-now-assist-panel.md), [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-enhanced-activate.md), or [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-nap-assistant.md) for premium chat.
 
 10. Select **Save and test**.
 
@@ -55,5 +55,5 @@ The agentic workflow runs when the trigger is detected in the ServiceNow Otto pa
 
 ## What to do next
 
-After completing the steps, you're redirected to test your agentic workflow to be sure it works as intended. You can [test an execution of your agentic workflow manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md) or [test the user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aw-access.md). Once you've determined that the agentic workflow has the basic functionality you expect, you can [evaluate it using automated tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md).
+After completing the steps, you're redirected to test your agentic workflow to be sure it works as intended. You can [test an execution of your agentic workflow manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aia-use-case.md) or [test the user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aw-access.md). Once you've determined that the agentic workflow has the basic functionality you expect, you can [evaluate it using automated tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/execute-aia-eval.md).
 

@@ -2,7 +2,7 @@
 title: Configure domain separation for push connector events
 description: Configure push connectors to personalize domain separation of events so you can create events in different domains.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/personalize-domain-separation-push-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/personalize-domain-separation-push-connectors.html
 release: australia
 product: Event Management
 classification: event-management
@@ -40,7 +40,7 @@ Role required: evt\_mgmt\_admin
 
 3.  On the **Push Connector** screen, scroll down to the **Push Connector Configurations** list and select **New**.
 
-    **Note:** If this list is not displayed, you must create a push connector configuration parameter. For more information, see [Create a push connector configuration parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-push-connector-configuration-parameter.md).
+    **Note:** If this list is not displayed, you must create a push connector configuration parameter. For more information, see [Create a push connector configuration parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-push-connector-configuration-parameter.md).
 
 4.  In the **Push Connector Configurations** screen, determine whether events should be created in the provided domain or the domain provided in the payload of each event.
 
@@ -96,12 +96,12 @@ Events are created in the domain referred to by the domain identifier.
 
 **Note:** The table that stores domain information records \(for example, core\_company\) must be domain separated. For more information, see [Domain-separate a custom table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-ds-custom-table.md).
 
-**Parent Topic:**[Event Management Connectors domain personalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/domain-separation-connectors-personalization.md)
+**Parent Topic:**[Event Management Connectors domain personalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/domain-separation-connectors-personalization.md)
 
 **Related topics**  
 
 
-[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
+[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-listener-transform-script.md)
 
-[Connector domain metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connector-domain-metadata.md)
+[Connector domain metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/connector-domain-metadata.md)
 

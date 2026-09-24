@@ -2,7 +2,7 @@
 title: Configure a form action layout item
 description: Customize the appearance of a form action and control how it appears relative to other actions in a table layout.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-form-action-layout-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-form-action-layout-item.html
 release: australia
 topic_type: task
 last_updated: "2026-09-03"
@@ -16,7 +16,7 @@ Customize the appearance of a form action and control how it appears relative to
 
 ## Before you begin
 
-Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/creating-declarative-actions.md).
+Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/creating-declarative-actions.md).
 
 Role required: admin
 

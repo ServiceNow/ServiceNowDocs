@@ -2,7 +2,7 @@
 title: Quote creation via Self-Service fields for Channel Partners
 description: Store the main details related to a quote submitted by a partner and track the life cycle of the quote through its stages on the self-service quote \(sn\_quote\_mgmt\_core\_quote\) table. Use the fields to manage and store information related to quote creation by channel partners.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-creation-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-creation-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-29"
@@ -55,5 +55,5 @@ Enter the products that the customer is interested in the **Select a catalog** f
 
 Apply a header discount across all line items, or delete line items in the **Apply header discount**.
 
-**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management-reference.md)
 

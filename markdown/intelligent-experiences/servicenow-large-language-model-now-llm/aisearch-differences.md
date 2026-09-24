@@ -2,7 +2,7 @@
 title: Discrepancies when using different AI search tools
 description: Different AI search tools may return different answers for the same or similar searches. This difference in results is expected. It occurs because each large language model \(LLM\) uses a different approach to find results and generate answers that match your search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-large-language-model-now-llm/aisearch-differences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-large-language-model-now-llm/aisearch-differences.html
 release: australia
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
@@ -35,5 +35,5 @@ For more information on differences in ServiceNow AI results, see [Search result
 
 \[Omitted image "image.nowllm-vs-azure"\] Alt text: The first image shows the response from Now LLM Service. The second image shows the response from Azure.
 
-**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
+**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

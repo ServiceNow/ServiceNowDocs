@@ -2,7 +2,7 @@
 title: Mapping of Sales CRM for Telecommunications PSR catalog to TMF SID
 description: The Sales CRM for Telecommunications PSR catalog entities, product offering, product specification, customer facing service specification, resource facing service specification, and resource specification map directly to the corresponding entities in the TM Forum \(TMF\) shared information and data \(SID\) model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-map-sid-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/somt-map-sid-catalog.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-23"

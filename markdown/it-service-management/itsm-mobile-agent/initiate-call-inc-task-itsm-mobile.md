@@ -2,7 +2,7 @@
 title: Initiate a conference call from an incident task
 description: Initiate a conference call from an incident task record to discuss about the resolution of an incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/initiate-call-inc-task-itsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/initiate-call-inc-task-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

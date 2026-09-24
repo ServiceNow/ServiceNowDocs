@@ -2,7 +2,7 @@
 title: Structured workflows for Business Continuity Planning
 description: Business Continuity Planning \(BCP\) helps you enact and mitigate risk during events by addressing plan assets, activities, recovery teams, documentation, policies, and procedures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/business-continuity-planning-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/business-continuity-planning-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

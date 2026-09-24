@@ -2,7 +2,7 @@
 title: Exploring Tag Governance
 description: Learn more about Tag Governance reports and discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/exploring-tag-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/tag-governance/exploring-tag-governance.html
 release: australia
 product: Tag Governance
 classification: tag-governance
@@ -56,17 +56,17 @@ View-only permissions:-   Monitor reports from audit runs
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Implement cloud event processing and configure a tag policy to automatically update cloud resource tags in real time.|[Performing real-time updates to tags for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/tag-governance-real-time-updates.md)|Cloud admins|
-|Tag Governance supports domain separation, allowing you to logically group and segregate data, processes, and administrative tasks into distinct domains. This enables precise control over aspects like user access and data visibility.|[Domain separation and Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/tag-governance-domain-separation.md)|Cloud admins|
-|Review non-compliant CIs flagged by tag audits and resolve them by adding the required tags.|[Preview and remediate tag audit failures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/perform-remediations-tag-governance.md)|Tag admins|
+|Implement cloud event processing and configure a tag policy to automatically update cloud resource tags in real time.|[Performing real-time updates to tags for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/tag-governance-real-time-updates.md)|Cloud admins|
+|Tag Governance supports domain separation, allowing you to logically group and segregate data, processes, and administrative tasks into distinct domains. This enables precise control over aspects like user access and data visibility.|[Domain separation and Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/tag-governance-domain-separation.md)|Cloud admins|
+|Review non-compliant CIs flagged by tag audits and resolve them by adding the required tags.|[Preview and remediate tag audit failures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/perform-remediations-tag-governance.md)|Tag admins|
 
 ## Exploring
 
--   **[Discovering tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/tag-governance-and-discovery.md)**
+-   **[Discovering tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/tag-governance-and-discovery.md)**
 
     The Discovery and Cloud Discovery features discover all resources in the CMDB as well as cloud resources from cloud providers such as Amazon AWS Cloud, Microsoft Azure Cloud, and Google Cloud Platform \(GCP\).
 
--   **[View Tag Governance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/tag-governance-dashboard.md)**
+-   **[View Tag Governance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/tag-governance-dashboard.md)**
 
     View metrics like tag policy coverage, compliance status, and usage trends on the Tag Governance Insights dashboard.
 
@@ -75,7 +75,7 @@ View-only permissions:-   Monitor reports from audit runs
 
 To learn more about configuring and using Tag Governance, see:
 
--   [Configuring Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/configuring-tag-governance.md)
--   [Using Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/using-tag-governance.md)
--   [Tag Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/reference-tag-governance.md)
+-   [Configuring Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configuring-tag-governance.md)
+-   [Using Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/using-tag-governance.md)
+-   [Tag Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/reference-tag-governance.md)
 

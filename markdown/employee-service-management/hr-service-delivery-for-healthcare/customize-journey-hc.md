@@ -2,7 +2,7 @@
 title: Customize Healthcare Employee Onboarding workflow
 description: Customize Healthcare Employee Onboarding workflow to tailor to your organization needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-healthcare/customize-journey-hc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery-for-healthcare/customize-journey-hc.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare

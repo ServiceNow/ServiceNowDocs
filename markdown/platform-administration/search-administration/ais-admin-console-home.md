@@ -2,14 +2,14 @@
 title: AI Search Admin console Home page
 description: The AI Search Admin console Home page is where you can oversee all AI Search activity. You can set up and manage AI Search across applications, track activity, and get more information on the AI Search feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-home.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-admin-console-home.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI Search Admin console reference, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 

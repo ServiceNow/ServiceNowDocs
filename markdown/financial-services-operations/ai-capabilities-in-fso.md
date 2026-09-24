@@ -2,7 +2,7 @@
 title: AI capabilities in Financial Services Operations
 description: AI capabilities available in Financial Services Operations, organized by area and application. Use this reference to identify which AI skills, agentic workflows, and AI agents support banking and insurance operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/ai-capabilities-in-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/ai-capabilities-in-fso.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-01"
@@ -220,15 +220,15 @@ There might be AI agents installed on your instance that are not used in agentic
 **Related topics**  
 
 
-[Case summarization in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/case-summarization-fso.md)
+[Case summarization in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/case-summarization-fso.md)
 
-[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)
+[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)
 
-[AI skills in Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-skills-agentic-contact-center-banking.md)
+[AI skills in Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/ai-skills-agentic-contact-center-banking.md)
 
-[AI skills in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-skills-agentic-contact-center-insurance.md)
+[AI skills in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/ai-skills-agentic-contact-center-insurance.md)
 
-[ACH dispute AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/ach-agentic-ai-workflow.md)
+[ACH dispute AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/ach-agentic-ai-workflow.md)
 
-[Help resolve friendly fraud disputes agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/friendly-fraud-agentic-ai-workflow.md)
+[Help resolve friendly fraud disputes agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/friendly-fraud-agentic-ai-workflow.md)
 

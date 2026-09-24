@@ -2,7 +2,7 @@
 title: Select demands and projects for portfolio planning
 description: After you create a planning scenario, select the demands and projects to include in budget planning. You can view all the demands and projects for the selected fiscal year or planning window with their planned cost and priorities to finalize them for execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/select-prj-demands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-management/select-prj-demands.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -18,7 +18,7 @@ After you create a planning scenario, select the demands and projects to include
 
 ## Before you begin
 
-You should have at least one planning scenario. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/create-scenarios.md).
+You should have at least one planning scenario. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/create-scenarios.md).
 
 Role required: it\_portfolio\_manager
 
@@ -68,7 +68,7 @@ Steps
 
 3.  Compare and evaluate the relative standing of demands using the **Bubble Chart** tab.
 
-    Right-click a demand and select **Select for execution** from the context menu to include a demand in portfolio planning. For more information, see [Demand workbench bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandWorkbenchBubbleChart.md). You can search for specific demands by applying filters using the Filter\( \[Omitted image "filter-timeline-bubble.png"\] Alt text: Filter icon to filter for demands\) icon.
+    Right-click a demand and select **Select for execution** from the context menu to include a demand in portfolio planning. For more information, see [Demand workbench bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/c_DemandWorkbenchBubbleChart.md). You can search for specific demands by applying filters using the Filter\( \[Omitted image "filter-timeline-bubble.png"\] Alt text: Filter icon to filter for demands\) icon.
 
     **Note:** The **Bubble Chart** tab is not available for Multi-year Resource Capacity Based Planning configuration.
 
@@ -80,7 +80,7 @@ Steps
 
 5.  Review the external dependencies between the selected projects in your portfolio.
 
-    For more information, see [Review external dependencies between projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.md).
+    For more information, see [Review external dependencies between projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.md).
 
 6.  Review the information in the Overview section on the right, and the **Resources** tab to evaluate and adjust your selection of the demands and projects to be included in the plan.
 
@@ -135,7 +135,7 @@ Steps
 
 ## What to do next
 
-Compare planning scenarios to analyze different combinations of projects and demands and select a scenario that best aligns with your organizational goals. For more information, see [Compare planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/compare-scenarios.md).
+Compare planning scenarios to analyze different combinations of projects and demands and select a scenario that best aligns with your organizational goals. For more information, see [Compare planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/compare-scenarios.md).
 
-**Parent Topic:**[Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/create-scenarios.md)
+**Parent Topic:**[Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/create-scenarios.md)
 

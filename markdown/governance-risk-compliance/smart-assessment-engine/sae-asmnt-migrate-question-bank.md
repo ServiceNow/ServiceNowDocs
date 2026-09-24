@@ -2,7 +2,7 @@
 title: Migrate a classic question bank or assessment template
 description: Migrate an existing classic question bank or the sections and questions of an assessment template into a new or existing question bank.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-migrate-question-bank.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-migrate-question-bank.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -155,7 +155,7 @@ When the source is an assessment template and an error occurs, the system revert
 **Related topics**  
 
 
-[Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/question-bank.md)
+[Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/question-bank.md)
 
-[Create a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-create.md)
+[Create a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-create.md)
 

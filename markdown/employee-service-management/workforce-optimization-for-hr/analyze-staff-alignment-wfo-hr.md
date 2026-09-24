@@ -2,7 +2,7 @@
 title: Analyze staff alignment using Demand Forecast in Workforce Optimization for HR
 description: Use Demand Forecast to plan the number of staff members that you require so that you have enough agents to do the job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/analyze-staff-alignment-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/analyze-staff-alignment-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -42,15 +42,15 @@ Using Demand Forecast, you can:
 
 5.  You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d379172e118">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d379176e118">
 
 To analyze staff alignment
 
-</th><th align="left" id="d379172e121">
+</th><th align="left" id="d379176e121">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d379172e127">
+</th></tr></thead><tbody><tr><td id="d379176e127">
 
 **For each day**
 
@@ -69,7 +69,7 @@ Select **Day** from the list.The **Total resources needed** row displays the dem
 |Red|The number of agents you have scheduled are less than the demand you have for that interval.|
 |Grey|The demand for the number of agents and the number of agents scheduled is zero for that interval.|
 
-</td></tr><tr><td id="d379172e214">
+</td></tr><tr><td id="d379176e214">
 
 **For a given week**
 
@@ -90,5 +90,5 @@ The **Total coverage/demand** row has indicators for the staff alignment.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
 

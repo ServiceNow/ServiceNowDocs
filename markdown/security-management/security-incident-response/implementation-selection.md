@@ -2,7 +2,7 @@
 title: Select implementations
 description: Select one or more implementations as applicable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/implementation-selection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/implementation-selection.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -65,5 +65,5 @@ The available implementations are listed. Select the implementation\(s\), after 
     **Note:** The **Threat intel** related lists such as the associated observables related lists are displayed in the **Threat Lookup Results** section, and the **Sightings Search** related lists are displayed in the **Sightings Search Results** section under the Related Records.
 
 
-**Parent Topic:**[Example 1: Select implementations: Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/example-1-select-implementations-threat-lookup.md)
+**Parent Topic:**[Example 1: Select implementations: Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/example-1-select-implementations-threat-lookup.md)
 

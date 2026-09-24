@@ -2,7 +2,7 @@
 title: Reveal a PAN in the workspace using Card Data Security
 description: Use the Card Data Security component to mask and reveal a PAN in the dispute workspace and transaction details record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/reveal-a-pan-using-card-data-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/reveal-a-pan-using-card-data-security.html
 release: australia
 product: Dispute Management
 classification: dispute-management

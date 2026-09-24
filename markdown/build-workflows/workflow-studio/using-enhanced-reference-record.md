@@ -2,7 +2,7 @@
 title: Use enhanced reference record
 description: View and manage records when referring to other records in the current Decision Tables, without switching to another screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/using-enhanced-reference-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/using-enhanced-reference-record.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -49,5 +49,5 @@ You can view the detailed reference records in your current decision table insta
 6.  Select the \[Omitted image "reference-record-icon.png"\] Alt text: reference record info icon icon to view the record details.
 
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

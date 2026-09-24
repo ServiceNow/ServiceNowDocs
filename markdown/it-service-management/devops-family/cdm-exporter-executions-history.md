@@ -2,7 +2,7 @@
 title: View the history of exporter executions
 description: View a list of exporter executions to identify config updates that are successful and to isolate changes that caused failure in the pipeline.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-exporter-executions-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-exporter-executions-history.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

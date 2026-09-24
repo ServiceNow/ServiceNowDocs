@@ -2,7 +2,7 @@
 title: Workflow of risk identification for business applications
 description: When assessing an application for risks, the application goes through various stages of risk identification and assessment. You can define the identification and assessment workflow based on your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/workflow-risk-identification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/workflow-risk-identification.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,7 +27,7 @@ Consider the following example to understand the workflow of risk identification
 
 At this point, the application is not a part of GRC. It must be brought to GRC as an entity before its risks can be assessed. The new application must also have information objects associated with it.
 
-The workflow and approvers of the application risk assessment are determined by the settings in the Risk Identification Configuration form. Refer to [Set up risk identification integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-risk-identification-form.md) to understand the process of defining the workflow. To reinitiate risk identification, a flow designer action is provided.
+The workflow and approvers of the application risk assessment are determined by the settings in the Risk Identification Configuration form. Refer to [Set up risk identification integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/configure-risk-identification-form.md) to understand the process of defining the workflow. To reinitiate risk identification, a flow designer action is provided.
 
 When assessing a new business application, the workflow of the risk identification is as follows:
 
@@ -81,5 +81,5 @@ In terms of its life cycle, a risk identification record goes through the follow
 6.  Monitor
 7.  Retired
 
-**Parent Topic:**[Application risk assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md)
+**Parent Topic:**[Application risk assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md)
 

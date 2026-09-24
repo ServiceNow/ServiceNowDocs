@@ -2,7 +2,7 @@
 title: Import consumers through guided setup
 description: Use Customer Service Management guided setup to import existing consumers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-csm-consumers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/import-csm-consumers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

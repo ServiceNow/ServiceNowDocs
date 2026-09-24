@@ -2,7 +2,7 @@
 title: Propose a Decision for a grant proposal application in the Grants Management Grant Proposal Playbook
 description: Complete the Decision stage as your last step in managing a grant proposal using the Grants Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-grant-proposal-decision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-gmp-grant-proposal-decision.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"

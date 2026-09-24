@@ -2,7 +2,7 @@
 title: Configure a quiz
 description: You can configure an entire quiz.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ConfigureaQuiz.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ConfigureaQuiz.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -112,7 +112,7 @@ Notify manager if overdue
 
 </td><td>
 
-Check box for sending [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ChangeTheOrderOfAnAnswer.md) to a recipient's manager when that user fails to submit an assigned quiz before the due date.
+Check box for sending [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ChangeTheOrderOfAnAnswer.md) to a recipient's manager when that user fails to submit an assigned quiz before the due date.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -133,5 +133,5 @@ Opens the Benchmarks Dashboard that provides visibility into your key performanc
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateaQuiz.md)
 

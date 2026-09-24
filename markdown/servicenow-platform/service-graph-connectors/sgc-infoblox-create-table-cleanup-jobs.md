@@ -2,7 +2,7 @@
 title: Create table cleanup jobs for Service Graph Connector for Infoblox
 description: Create table cleanup jobs to automate the cleanup of retired CIs from Service Graph Connector for Infoblox version 1.4.0 and earlier based on your organization's data retention requirements and integration dependencies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-infoblox-create-table-cleanup-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-infoblox-create-table-cleanup-jobs.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -87,7 +87,7 @@ Set the value to either `0` or `86400` \(24 hours\).-   `0`: All records updated
 
     The job runs automatically in the next available maintenance window.
 
-7.  Repeat step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-infoblox-create-table-cleanup-jobs.md) to step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-infoblox-create-table-cleanup-jobs.md) for the remaining IPAM tables.
+7.  Repeat step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-infoblox-create-table-cleanup-jobs.md) to step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-infoblox-create-table-cleanup-jobs.md) for the remaining IPAM tables.
 
 8.  Configure a table cleanup job for the Detailed Network \[sn\_infoblox\_integ\_sg\_infoblox\_detailed\_subnetwork\] table.
 

@@ -2,7 +2,7 @@
 title: View monitored services
 description: View all services that Event Management supports, such as, alert groups, discovered services, application services, and technical services. According to the type of service, you can view service definition details or drill down into the service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/monitor-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/monitor-services.html
 release: australia
 product: Event Management
 classification: event-management
@@ -41,10 +41,10 @@ Role required: evt\_mgmt\_user
     \[Omitted image "monitored-services-drill.png"\] Alt text: Event Management service
 
 
-**Parent Topic:**[Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewDashboard.md)
+**Parent Topic:**[Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewDashboard.md)
 
 **Related topics**  
 
 
-[Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewDashboard.md)
+[Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewDashboard.md)
 

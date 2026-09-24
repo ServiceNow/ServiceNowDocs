@@ -2,7 +2,7 @@
 title: Impact reference
 description: Several types of components are installed with activation of the Impact plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,26 +15,26 @@ breadcrumb: [Impact]
 
 Several types of components are installed with activation of the Impact plugin, including tables, user roles, and scheduled jobs.
 
--   **[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/use_manual_registration_configure_impact_store_application.md)**  
+-   **[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/use_manual_registration_configure_impact_store_application.md)**  
 Manual registration is generally used by advanced users or to obtain configuration support from your Impact Squad. Regulated and GCC customers are also required to use manual registration.
--   **[Secure data transfer using Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/service-bridge-overview.md)**  
+-   **[Secure data transfer using Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/service-bridge-overview.md)**  
 Data transfer between the Impact Delivery Instance and Impact Store Application is facilitated via Service Bridge.
--   **[Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-roles.md)**  
+-   **[Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-roles.md)**  
 Impact offers many roles to assign to fit your business needs. When you log in to Impact, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
--   **[Impact storage estimation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-store-app-storage-estimation.md)**  
+-   **[Impact storage estimation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-store-app-storage-estimation.md)**  
 The Impact store app stores data within your ServiceNow instance and contributes to your instance's overall storage footprint. Storage usage varies depending on whether your instance is connected to the Impact Delivery Instance and on the level of collaboration activity.
--   **[Dependent applications installed with the Impact Store App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-sync-idi-store.md)**  
+-   **[Dependent applications installed with the Impact Store App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-sync-idi-store.md)**  
 Following is a comprehensive overview of the dependent apps that are included with the installation of the Impact Store Application Each section delineates the features that activate event-based synchronization within the various product capabilities.
--   **[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/table-field-level-mapping.md)**  
+-   **[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/table-field-level-mapping.md)**  
 Following is information on the data that is synchronized between the Impact Delivery Instance and the Impact Store Application.
--   **[Domain Separation in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-domain-separation.md)**  
+-   **[Domain Separation in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-domain-separation.md)**  
 Domain separation is unsupported for Impact. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/proactive-code-check.md)**  
+-   **[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/proactive-code-check.md)**  
 Developers scan update sets for leading practice violations in non-production instances before promoting to production and Platform Owners gain insight into technical debt and stability of both non-production and production instances, resulting in improved code quality, reduced errors, and compliance verification.
--   **[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)**  
+-   **[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)**  
 The Impact Delivery Instance is the service provider for the Impact Store Application.
--   **[Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages.md)**  
+-   **[Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-packages.md)**  
 Impact packages comprise support tools, self-help resources, human-led engagements, discounts, and additional benefits made available to you according to your impact subscription package.
 
-**Parent Topic:**[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-landing-page.md)
+**Parent Topic:**[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-landing-page.md)
 

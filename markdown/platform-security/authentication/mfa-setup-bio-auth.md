@@ -2,7 +2,7 @@
 title: Register a biometric authenticator
 description: Register a biometric authenticator to use as part of your MFA login.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-setup-bio-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-setup-bio-auth.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,7 +2,7 @@
 title: Install the Mappedin integration
 description: Activate the Mappedin integration if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsm-mappedin-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/wsm-mappedin-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,5 +50,5 @@ Mappedin is integrated with Workplace Service Delivery depending on the release 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configure Mappedin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mappedin-integration-topics.md)
+**Parent Topic:**[Configure Mappedin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mappedin-integration-topics.md)
 

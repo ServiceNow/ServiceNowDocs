@@ -2,7 +2,7 @@
 title: State changes for event tasks in groups
 description: The original and duplicate event tasks in the Similar tasks group move through different states until the original task is closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/transition-states-of-event-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/transition-states-of-event-task.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -115,5 +115,5 @@ The duplicate task \(t3\) moves to the **Closed duplicate** state automatically.
 
 You can re-trigger an original task as a manual task and complete its workflow like a regular event task by selecting the **Re-trigger as a manual task** UI action in the event task. It moves the original task to the **Open** state, but its duplicate task stays in the **Closed duplicate** state.
 
-**Parent Topic:**[Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identifying-running-dup-tasks-once.md)
+**Parent Topic:**[Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/identifying-running-dup-tasks-once.md)
 

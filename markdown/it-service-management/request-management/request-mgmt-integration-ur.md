@@ -2,7 +2,7 @@
 title: Request Management integration with Universal Request
 description: Integration of Request Management with the Universal Request application extends the capabilities of Universal Request and enables your employees and agents to create a universal request by submitting a request from a catalog item or record producer. This integration provides a consistent ticketing experience and facilitate inter-department request transfers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/request-mgmt-integration-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/request-management/request-mgmt-integration-ur.html
 release: australia
 product: Request Management
 classification: request-management
@@ -36,12 +36,12 @@ Ensure that you have installed the Universal Request plugin \(com.snc.universal\
 
 After the plugins are installed, in the Universal Request application properties, set the **sn\_uni\_req.com.snc.ur.request\_integration** to true. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-properties.md).
 
--   **[Create a request from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/create-request-from-ur.md)**  
+-   **[Create a request from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/create-request-from-ur.md)**  
 As a routing agent, create a request from a universal request and then assign it to the appropriate assignment group. The request manager handles the requested items and takes further actions to fulfill the request.
--   **[Requested item state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/req-item-state-mapping.md)**  
+-   **[Requested item state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/req-item-state-mapping.md)**  
 Map your requested items states to the universal request \(UR\) states to provide a better user experience during the requested item state transition and to track the progress of the request.
--   **[Transfer a request to another department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/req-transfer-ur.md)**  
+-   **[Transfer a request to another department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/req-transfer-ur.md)**  
 Transfer a request to another department with or without resolution to fulfill the request.
 
-**Parent Topic:**[Configuring Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/configuring-request-management.md)
+**Parent Topic:**[Configuring Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/configuring-request-management.md)
 

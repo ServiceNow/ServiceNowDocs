@@ -2,7 +2,7 @@
 title: Streamlining the supplier risk assessment workflow
 description: As procurement specialists, track activity on the Third-Party Risk Management \(TPRM\) records, and update and make changes to the sourcing requests and purchase requests based on the final risk rating.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/simplify-risk-assessment-wf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/simplify-risk-assessment-wf.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,7 +22,7 @@ With this due diligence playbook, procurement specialists, sourcing managers, an
 
 The tiering assessor must complete the tiering questionnaire after the supply manager submits the tiering questionnaire. The state of the tiering assessment questionnaire changes to Awaiting response.
 
-The supplier contact completes the risk assessment from the supplier collaboration portal. For more information on this, see [Complete a risk assessment from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/complete-risk-assessments.md).
+The supplier contact completes the risk assessment from the supplier collaboration portal. For more information on this, see [Complete a risk assessment from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/complete-risk-assessments.md).
 
 Note the following scenarios:
 
@@ -30,14 +30,14 @@ Note the following scenarios:
 -   When Supplier Lifecycle Operations is installed, but the supplier is old and already onboarded, the DDR is created as a procurement case.
 -   When Supplier Lifecycle Operations is not installed, irrespective of whether the supplier is old or new, the DDR is created in Sourcing and Procurement Operations as a procurement case.
 
-For information on how Supplier Lifecycle Operations similarly assesses suppliers during the onboarding process, see [Minimize risk by assessing suppliers during the onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/better-tprm-slo.md). For detailed information on the supplier onboarding playbook, see [Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
+For information on how Supplier Lifecycle Operations similarly assesses suppliers during the onboarding process, see [Minimize risk by assessing suppliers during the onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/better-tprm-slo.md). For detailed information on the supplier onboarding playbook, see [Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
 
 For information on how to configure TPRM, see [Configuring Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-configuring.md). For detailed information on the due diligence workflow, see [Due diligence workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-workflow-in-workspace.md).
 
--   **[Track risk assessments from the due diligence playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/track-risk-assess-due-diligence-playbook.md)**  
+-   **[Track risk assessments from the due diligence playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/track-risk-assess-due-diligence-playbook.md)**  
 As procurement specialists, use the due diligence playbook to track supplier risk assessments and complete the associated tasks.
 
-**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 

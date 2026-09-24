@@ -2,7 +2,7 @@
 title: Explore the Discovery Console for Operational Technology \(OT\)
 description: The Discovery Console for OT provides you with enhanced features to discover your assets in the OT environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/explore-ot-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/explore-ot-console.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-27"
@@ -47,5 +47,5 @@ Access to the Discovery Console for OT requires these steps:
 
 5.  The Console installer packages must be installed on a virtual machine with a Linux distributed OS.
 
-**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-console-landing.md)
+**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/ot-discovery-console-landing.md)
 

@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Accounts Payable Operations \(APO\) in Virtual Agent chat
 description: ServiceNow Otto for Accounts Payable Operations \(APO\) in Virtual Agent chat lets fulfillers submit requests, track request status, and connect to a live agent using predefined conversational topics powered by generative AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/now-assist-apo-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/now-assist-apo-va.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -53,7 +53,7 @@ The AI skills in Virtual Agent provides your users with an interactive generativ
 
 As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of generative AI skills in Virtual Agent as a self-service deflection tool. The generative AI skills in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses.
 
-For detailed information on generative AI skills in Virtual Agent in general, and ServiceNow Otto for APO in particular, see [Explore ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.md).
+For detailed information on generative AI skills in Virtual Agent in general, and ServiceNow Otto for APO in particular, see [Explore ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.md).
 
-For information on configuring ServiceNow Otto for APO, see [Configure ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
+For information on configuring ServiceNow Otto for APO, see [Configure ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
 

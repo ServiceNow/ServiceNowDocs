@@ -2,7 +2,7 @@
 title: Import messages from Agent Workspace
 description: You can import the conversation with a user from the agent workspace and append them in the Comments to store all the important messages in the ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/import-messages-agent-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/import-messages-agent-workspace.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,5 +39,5 @@ Role required: user
 3.  Select the messages that you would like to import, then select **Import messages**.
 
 
-**Parent Topic:**[Request-based chat - Start and import chat from Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/initiate-chat-agent-workspace.md)
+**Parent Topic:**[Request-based chat - Start and import chat from Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/initiate-chat-agent-workspace.md)
 

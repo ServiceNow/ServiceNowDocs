@@ -2,7 +2,7 @@
 title: Mobile GlideForm \(g\_form\) - Client
 description: The Mobile GlideForm \(g\_form\) API provides methods to work with forms on the mobile platform.Adds a decorative icon next to a field.Gets the form label text.Determines if a field is present on the form.Removes a decorative icon from next to a field.Sets the form label text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_MobileGlideForm\_API.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/c\_MobileGlideForm\_API.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -18,7 +18,7 @@ The Mobile GlideForm \(g\_form\) API provides methods to work with forms on the 
 
 Use these methods in any script that targets a mobile device.
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 
 ## MobileGlideForm \(g\_form\) - addDecoration\(String fieldName, String icon, String text\)
 

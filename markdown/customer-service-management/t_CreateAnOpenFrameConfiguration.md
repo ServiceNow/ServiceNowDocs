@@ -2,7 +2,7 @@
 title: Create an OpenFrame configuration
 description: This configuration specifies the OpenFrame window settings as well as the URL to be launched within OpenFrame.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateAnOpenFrameConfiguration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_CreateAnOpenFrameConfiguration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

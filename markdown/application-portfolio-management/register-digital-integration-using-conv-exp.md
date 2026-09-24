@@ -2,7 +2,7 @@
 title: Register a digital integration conversationally
 description: Use the conversational experience of ServiceNow Otto in Virtual Agent to register a digital integration from any application that supports Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/register-digital-integration-using-conv-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/register-digital-integration-using-conv-exp.html
 release: australia
 topic_type: task
 last_updated: "2026-07-22"
@@ -21,7 +21,7 @@ Use the conversational experience of ServiceNow Otto in Virtual Agent to registe
 Ensure that the following tasks are completed:
 
 -   Install an application that supports Virtual Agent.
--   Complete configuring the conversational experiences for Enterprise Architecture. For more information, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md).
+-   Complete configuring the conversational experiences for Enterprise Architecture. For more information, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md).
 
 Role required: none
 
@@ -39,15 +39,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Request a digital integration** or an elaborate instruction that includes the digital integration information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d38243e162">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d38224e162">
 
 Instruction
 
-</th><th align="left" id="d38243e165">
+</th><th align="left" id="d38224e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38243e171">
+</th></tr></thead><tbody><tr><td id="d38224e171">
 
 **Short: Request a digital integration**
 
@@ -65,7 +65,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   Can you please describe the digital integration you would like to enter?
  The information you provide is used to fill in the fields of the digital integration form. \[Omitted image "register-digital-integration.png"\] Alt text: Screenshot showing ServiceNow OttoVirtual Agent chat window showing a request for the requesting a digital integration.
 
-</td></tr><tr><td id="d38243e224">
+</td></tr><tr><td id="d38224e224">
 
 **Elaborate: Request the new digital integration for the subscriber business application BuyIt and provider business application is Case Management.**
 
@@ -81,14 +81,14 @@ Using the context that you provided, Virtual Agent automatically matches it to t
     You can choose to make changes or submit.
 
 
-**Parent Topic:**[Working with digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-digital-integrations.md)
+**Parent Topic:**[Working with digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-digital-integrations.md)
 
 **Related topics**  
 
 
-[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
+[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/exploring-now-assist-for-ea.md)
 
-[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
+[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md)
 
-[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/sn-otto-access-roles.md)
+[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/sn-otto-access-roles.md)
 

@@ -2,7 +2,7 @@
 title: Exploring generative AI skills in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI skills to perform various tasks on a government service case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-exploring-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-exploring-skills.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

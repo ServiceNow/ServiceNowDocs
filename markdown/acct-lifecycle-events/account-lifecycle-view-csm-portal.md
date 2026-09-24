@@ -2,7 +2,7 @@
 title: View account onboarding cases in the CSM portal
 description: View the account onboarding case records or case task records on the Customer Service Management \(CSM\) portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-view-csm-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-view-csm-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,5 +66,5 @@ Role required:
         -   Shared articles: Shows articles that have been shared with you. Select the article link to view details.
     -   All the activities related to the case task are displayed.
 
-**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use.md)
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use.md)
 

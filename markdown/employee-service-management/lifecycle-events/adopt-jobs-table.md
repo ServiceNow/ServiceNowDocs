@@ -2,7 +2,7 @@
 title: Support multiple jobs in a lifecycle event
 description: Use the Jobs table to create lifecycle event cases where you can specify which job the case pertains to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/adopt-jobs-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/adopt-jobs-table.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -25,13 +25,13 @@ For example, say that you have an intern that is being transferred to a full-tim
 
 ## About this task
 
-Beginning in the New York release, you can use the new Jobs \(sn\_hr\_core\_job\) table to store multiple job records per user and capture the job history of users within your organization. See [Capturing multiple job records for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/support-hr-users-with-multiple-jobs.md) for more information.
+Beginning in the New York release, you can use the new Jobs \(sn\_hr\_core\_job\) table to store multiple job records per user and capture the job history of users within your organization. See [Capturing multiple job records for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/support-hr-users-with-multiple-jobs.md) for more information.
 
 ## Procedure
 
 1.  If you are using an integration to pull HR profiles from a third-party system, configure your integration to pull jobs information into the Jobs \(sn\_hr\_core\_job\) table.
 
-    For details on how to configure a third-party integration with HR Service Delivery, see [Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-third-party-systems.md).
+    For details on how to configure a third-party integration with HR Service Delivery, see [Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-third-party-systems.md).
 
 2.  For HR case creation, associate the subject person's job to the HR case with the **subject\_person\_job** field.
 

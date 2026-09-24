@@ -2,7 +2,7 @@
 title: Workflow run time metrics
 description: You can enable the collection of workflow run time metrics to determine whether workflows are performing as expected or consuming additional resources.Provide an estimated run time that can be compared to actual workflow run times.Workflow run times are identified as outliers when they are longer or shorter than the outlier range that is computed for the workflow.When a workflow runs within the outlier range, its estimated run time is automatically updated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_WorkflowRunTimeMetrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/c\_WorkflowRunTimeMetrics.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -31,7 +31,7 @@ For more information, see:
 -   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
 -   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ResponsiveDashboards.md).
 
-**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
+**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
 
 ## Enable workflow run time metrics
 
@@ -116,7 +116,7 @@ If a workflow has an outlying run time, it appears in any outlier workflow gauge
 **Related topics**  
 
 
-[Use the Workflow Operations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_UseTheWorkflowOpsDashboard.md)
+[Use the Workflow Operations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/t_UseTheWorkflowOpsDashboard.md)
 
 ## Workflow estimated run time updates
 

@@ -2,7 +2,7 @@
 title: DevOps System Health dashboard
 description: The System Health dashboard lets the DevOps administrator view the overall health of integrations, connectivity status, as well as view trends of inbound event processing data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-system-health-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/devops-system-health-dashboard.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -185,5 +185,5 @@ For example, you can see which users will or will not receive the notification, 
 
 \[Omitted image "system-health-email-notification-preview.png"\] Alt text: Preview for System health notification email
 
-**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
+**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 

@@ -2,7 +2,7 @@
 title: What Event Management operators do
 description: As an Event Management operator, your typical workflow involves three phases: analyzing an alert and its effect on application services, taking some type of action, and making sure the alert is finally closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/operator-process.html
 release: australia
 product: Event Management
 classification: event-management
@@ -28,7 +28,7 @@ Lesson 1
 
 </td><td>
 
-[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-events-alerts.md)
+[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-events-alerts.md)
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Lesson 2
 
 </td><td>
 
-[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-application-services.md)
+[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-application-services.md)
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Lesson 3
 
 </td><td>
 
-[Event Management Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-user-interfaces.md)
+[Event Management Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-user-interfaces.md)
 
 </td></tr><tr><td>
 
@@ -110,14 +110,14 @@ In this phase, you will verify that the alert is resolved, and then close the al
 </td></tr></tbody>
 </table>## Start here
 
-Start out by learning how to [Analyze and acknowledge an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-phase-acknowledge-analyze.md).
+Start out by learning how to [Analyze and acknowledge an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-phase-acknowledge-analyze.md).
 
--   **[Operator phase 1: Analyze and acknowledge an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-phase-acknowledge-analyze.md)**  
+-   **[Operator phase 1: Analyze and acknowledge an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-phase-acknowledge-analyze.md)**  
 As an Event Management operator, the first thing you should do is access alerts and then find the ones you want to focus on. Open the Alert form to analyze the details. Acknowledge the alert to let other operators know that the issue should be addressed.
--   **[Operator phase 2: Triage an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-phase-triage-incident.md)**  
+-   **[Operator phase 2: Triage an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-phase-triage-incident.md)**  
 After you analyze and acknowledge an alert, you must triage it. The triage phase involves verifying alert correlation and taking an action to help resolve the issue that caused the alert. This topic covers the most common triage task: creating an incident from an alert.
--   **[Operator phase 3: Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-close-alert.md)**  
+-   **[Operator phase 3: Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-close-alert.md)**  
 After you take action on an alert, you can verify several items on the alert and then close it.
 
-**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-guide-em.md)
+**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-guide-em.md)
 

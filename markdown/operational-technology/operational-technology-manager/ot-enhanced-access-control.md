@@ -2,7 +2,7 @@
 title: Enhanced Access Control for Operational Technology
 description: Enhanced Access Control for Operational Technology \(OT\) implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/ot-enhanced-access-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/ot-enhanced-access-control.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -79,7 +79,7 @@ Create, read, update, and delete access for [Operation Technology \(OT\) extensi
 
 **Site-based access**
 
-Site-based access specifies which users can view, edit, and delete OT devices for a designated site. You can assign site-based access to users by using Can Read or Can Edit user criteria. For more information about assigned Can Read access, see [Assign the user criteria for Can Read access to a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/assign-user-criteria-for-can-read-access.md). For more information about assigning Can Edit access, see [Assign the user criteria for Can Edit access to a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/assign-user-criteria-for-can-edit-access.md).
+Site-based access specifies which users can view, edit, and delete OT devices for a designated site. You can assign site-based access to users by using Can Read or Can Edit user criteria. For more information about assigned Can Read access, see [Assign the user criteria for Can Read access to a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/assign-user-criteria-for-can-read-access.md). For more information about assigning Can Edit access, see [Assign the user criteria for Can Edit access to a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/assign-user-criteria-for-can-edit-access.md).
 
 The following table describes the site-based access for users assigned the **cmdb\_ot\_viewer** role or the **cmdb\_ot\_editor** role.
 
@@ -120,5 +120,5 @@ If a related record is an OT device, only users assigned the **cmdb\_ot\_viewer*
 
 Related records also adhere to site-based access restrictions. With Can Read access, users assigned the **cmdb\_ot\_viewer** role can only view the OT-related CMDB CI records for a designated site. Users with the **cmdb\_ot\_editor** role must be assigned Can Edit access for a site to edit or delete the OT-related CMDB CI records of the designated site.
 
-**Parent Topic:**[Exploring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/exploring-operational-technology-manager.md)
+**Parent Topic:**[Exploring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/exploring-operational-technology-manager.md)
 

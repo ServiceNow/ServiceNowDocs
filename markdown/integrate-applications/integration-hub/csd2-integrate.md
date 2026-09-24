@@ -2,7 +2,7 @@
 title: Integrate CSD 2.0 with other software providers
 description: Integrate CSD 2.0 with client software distribution providers, such as Casper, Altiris, or LANDesk.Identify and create tables to store discovered data from the provider server.Create subflows in Workflow Studio to discover and store data, and deploy application.Create a provider record to configure the flows.Create UI actions to discover data, create software model, create software configuration, and create catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-integrate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd2-integrate.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,7 +18,7 @@ Integrate CSD 2.0 with client software distribution providers, such as Casper, A
 
 **Note:** Extending CSD 2.0 is an advanced procedure intended for use by experienced ServiceNow AI Platform developers only.
 
-**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md)
+**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd-app-2.md)
 
 ## Create provider tables
 

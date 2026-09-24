@@ -2,7 +2,7 @@
 title: Salesforce Marketing Cloud Spoke
 description: The Salesforce Marketing Cloud spoke is built by Bristlecone, Inc. This spoke provides actions to retrieve records from your Salesforce Marketing Cloud data extensions and retrieve and update user information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/salesforce-marketing-cloud-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/salesforce-marketing-cloud-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -94,5 +94,5 @@ Displays the list of Salesforce Marketing Cloud configurations, such as data ext
 
 The Salesforce Marketing Cloud spoke uses a Connection &amp; Credential alias for the connection setup and the user profile that is attached to the SOAP security policies for the credential setup. If you are connecting to multiple Salesforce Marketing Cloud environments, you must use the same credential information in each environment.
 
-For information about setting up the spoke, see [Set up the Salesforce Marketing Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-salesforce-marketing-cloud.md).
+For information about setting up the spoke, see [Set up the Salesforce Marketing Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-salesforce-marketing-cloud.md).
 

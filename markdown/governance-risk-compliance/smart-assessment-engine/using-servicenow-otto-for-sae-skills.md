@@ -2,7 +2,7 @@
 title: Using ServiceNow Otto for Smart Assessment Engine \(SAE\) skills
 description: Use the generative AI skills that are supported by the ServiceNow Otto for SAE application for quickly drafting the assessment responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/using-servicenow-otto-for-sae-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/using-servicenow-otto-for-sae-skills.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine

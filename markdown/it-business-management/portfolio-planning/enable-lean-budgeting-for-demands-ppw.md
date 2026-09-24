@@ -2,7 +2,7 @@
 title: Edit monetary benefit plans for a demand
 description: Edit a planned monetary benefit plan to revise the benefits, dates, and offset to keep financial records current.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/enable-lean-budgeting-for-demands-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/enable-lean-budgeting-for-demands-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +18,7 @@ Edit a planned monetary benefit plan to revise the benefits, dates, and offset t
 
 ## Before you begin
 
-A monetary benefit plan exists. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md).
+A monetary benefit plan exists. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md).
 
 Role required: it\_demand\_manager
 

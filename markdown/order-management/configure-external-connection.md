@@ -2,7 +2,7 @@
 title: Create an external connection
 description: Create an external connection in CPQ to enable enrichments to retrieve data from an external system for use in configuration rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-external-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-external-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ External connections are used in configuration rules only. They can only be call
 
 \[Omitted image "cpq-enrichments-external-connections.png"\] Alt text: External Connections list view in CPQ Administration
 
-**Note:** To call an external system from a transaction rule instead, add a connection. For more information, see [Create a connection for ServiceNow Quote Experience calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-a-connection.md).
+**Note:** To call an external system from a transaction rule instead, add a connection. For more information, see [Create a connection for ServiceNow Quote Experience calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-a-connection.md).
 
 ## Procedure
 
@@ -146,5 +146,5 @@ return ProductList;
 **Related topics**  
 
 
-[Set up External connections for configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/external-connections.md)
+[Set up External connections for configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/external-connections.md)
 

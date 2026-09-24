@@ -2,7 +2,7 @@
 title: Download Console log files
 description: The Console logs are available to download for tracking or troubleshooting purposes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/download-console-log-files.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/download-console-log-files.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ The Console has an early access capability for retrieving Sensor logs. Currently
 
 If you have questions or need assistance, [contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
 
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/settings-page-console.md)
 

@@ -2,7 +2,7 @@
 title: Configure the action level for anomaly detection
 description: Create a configuration setting rule that refines the level of anomaly detection processing and analysis that is applied to specific CIs and metrics. Set a processing level that reflects the importance of metrics at different stages of implementation, to reduce data load if needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-level-anomaly-detection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/configure-level-anomaly-detection.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,7 +18,7 @@ Create a configuration setting rule that refines the level of anomaly detection 
 
 Anomaly detection consists of multiple levels of processing. At the lowest level, metric data is gathered from data sources. At the highest level, statistical models are created, anomaly scores are calculated, and anomaly alerts and IT alerts are created. You can apply the full anomaly detection process or a reduced level of processing, for specific data series.
 
-Use the **anomaly\_detection\_action\_level** configuration setting in a [configuration setting rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-config-overriding-rule.md) to set the level of processing for specific CIs and metrics. For example, you can initially set only a small percentage of CIs and metrics to generate anomaly alerts, and later increase that percentage.
+Use the **anomaly\_detection\_action\_level** configuration setting in a [configuration setting rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-config-overriding-rule.md) to set the level of processing for specific CIs and metrics. For example, you can initially set only a small percentage of CIs and metrics to generate anomaly alerts, and later increase that percentage.
 
 ## Action levels
 
@@ -47,10 +47,10 @@ Action levels from lowest to highest:
     'Anomaly Alerts' processing level and in addition creates IT alerts which are based on anomaly alerts, as applicable.
 
 
-**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 
 **Related topics**  
 
 
-[Create a configuration settings rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-config-overriding-rule.md)
+[Create a configuration settings rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-config-overriding-rule.md)
 

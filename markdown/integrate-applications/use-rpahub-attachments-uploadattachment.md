@@ -2,7 +2,7 @@
 title: Use the UploadAttachment component
 description: Attach documents to a table record in the RPA Hub by using the UploadAttachment component in the RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-rpahub-attachments-uploadattachment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-rpahub-attachments-uploadattachment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: none
 
 A table in the RPA Hub contains one or more records and each record provides certain information. Attachments can provide additional, useful information about the record. The maximum size of the attachments is 1024 MB.
 
-You can configure the properties for the UploadAttachment component. For more information about these properties, see [Properties of the Attachment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-attachment-components.md).
+You can configure the properties for the UploadAttachment component. For more information about these properties, see [Properties of the Attachment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-attachment-components.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ You can configure the properties for the UploadAttachment component. For more in
 
 2.  Drag the UploadAttachment component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the UploadAttachment component to the corresponding ports of the other components.
 
@@ -125,5 +125,5 @@ Boolean
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/attachments.md)
+**Parent Topic:**[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/attachments.md)
 

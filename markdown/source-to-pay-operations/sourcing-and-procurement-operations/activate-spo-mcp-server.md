@@ -2,7 +2,7 @@
 title: Activate SPO MCP Server
 description: Activate the SPO MCP Server to make sourcing and procurement tools available to connected MCP clients on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/activate-spo-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spo-mcp-server.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -40,7 +40,7 @@ Role required: sn\_mcp\_server.admin or admin
 
 5.  From the **Deactivate** list, select **Activate**.
 
-    All tools are available to connected MCP clients. For information about the available tools, see [SPO MCP Server tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-mcp-server-tools-reference.md).
+    All tools are available to connected MCP clients. For information about the available tools, see [SPO MCP Server tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-mcp-server-tools-reference.md).
 
 6.  Set up OAuth to authenticate SPO MCP Server with your ServiceNow instance.
 

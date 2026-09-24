@@ -2,7 +2,7 @@
 title: PostgreSQL authentication method fields
 description: Fields that appear on the New PostgreSQL Connection form depending on the selected authentication type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/postgresql-authentication-method-fields-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/postgresql-authentication-method-fields-zcc.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-27"
@@ -43,10 +43,10 @@ Fields that appear on the New PostgreSQL Connection form depending on the select
 |Azure client secret|Client secret for the Azure AD service principal. Required.|
 |Azure token scope|OAuth scope requested for the Azure AD token. Not required.|
 
-**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/reference-zcc.md)
+**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/reference-zcc.md)
 
 **Related topics**  
 
 
-[Create a PostgreSQL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-postgresql-connection-zcc.md)
+[Create a PostgreSQL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-postgresql-connection-zcc.md)
 

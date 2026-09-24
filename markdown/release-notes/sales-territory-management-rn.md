@@ -2,7 +2,7 @@
 title: Sales Territory Management​ release notes
 description: The ServiceNow Sales Territory Management​ application structures and optimizes the sales efforts of your organization based on territories. It involves overseeing daily sales activities, adjusting team assignments to verify complete customer coverage, monitoring sales performance against goals, and updating territory assignments as markets change. Sales Territory Management​ was enhanced and updated in the Australia release.The ServiceNow Sales Territory Management​ application structures and optimizes the sales efforts of your organization based on territories. It involves overseeing daily sales activities, adjusting team assignments to verify complete customer coverage, monitoring sales performance against goals, and updating territory assignments as markets change. Sales Territory Management​ was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/sales-territory-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/sales-territory-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ See [Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow
     Install Sales Territory Management​ by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
 
 ## Australia
 

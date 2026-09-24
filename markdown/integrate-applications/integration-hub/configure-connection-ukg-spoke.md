@@ -2,7 +2,7 @@
 title: Configure a connection for the UKG spoke
 description: Add and configure a connection using the UKG spoke connection template in Flow Designer to authenticate ServiceNow requests to your UKG instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-connection-ukg-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/configure-connection-ukg-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -139,7 +139,7 @@ OAuth server token endpoint. For example, `https://<Kronos-Instance>.com/api/aut
 
 8.  If you're using the legacy Auth mechanism, you must provide user credentials.
 
-    For more information, see [Provide Kronos user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-user-cred-kronos.md).
+    For more information, see [Provide Kronos user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/create-user-cred-kronos.md).
 
 9.  If you're using the legacy Auth mechanism, you must set the refresh token lifespan.
 

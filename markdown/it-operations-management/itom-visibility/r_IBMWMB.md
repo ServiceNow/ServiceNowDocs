@@ -2,7 +2,7 @@
 title: IBM App Connect Enterprise and HTTP listener discovery
 description: Discovery and Service Mapping Patterns application uses the WMB patterns to discover Integration Bus \(formerly WebSphere Message Broker and IBM Integration Bus\) and HTTP listeners running on both Linux and Windows. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_IBMWMB.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r\_IBMWMB.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -28,11 +28,11 @@ By default, Discovery uses the following patterns to perform the discovery:
 -   WMB HTTP Listener On UNIX
 -   WMB HTTP Listener On Windows
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
-To learn about IBM WebSphere Message Broker \(WMB\) and WMB HTTP Listener components and versions that you can discover, see [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+To learn about IBM WebSphere Message Broker \(WMB\) and WMB HTTP Listener components and versions that you can discover, see [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 ## Prerequisites
 
@@ -73,5 +73,5 @@ To learn about IBM WebSphere Message Broker \(WMB\) and WMB HTTP Listener compon
     |Installation directory \[install\_directory\]|Install directory of the HTTP listener|
 
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Software.md)
 

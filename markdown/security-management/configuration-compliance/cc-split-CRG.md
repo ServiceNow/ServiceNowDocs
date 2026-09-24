@@ -2,7 +2,7 @@
 title: Split a remediation task
 description: From an existing remediation task in the Configuration Compliance application, identify a subset of test results that you want to move to a new Remediation Task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-split-CRG.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/cc-split-CRG.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -16,7 +16,7 @@ breadcrumb: [Use, Configuration Compliance, Unified Security Exposure Management
 
 From an existing remediation task in the Configuration Compliance application, identify a subset of test results that you want to move to a new Remediation Task.
 
-**Important:** As an admin and a remediation owner, you can split a remediation task from the [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-split-task.md) respectively.
+**Important:** As an admin and a remediation owner, you can split a remediation task from the [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/vr-ws-split-task.md) respectively.
 
 ## Before you begin
 
@@ -119,10 +119,10 @@ Use cases for splitting test results from existing Remediation Tasks into new ta
 
         **Note:** You can still manually move change requests and remediation tasks through the states of their life cycles on their respective records with state synchronization enabled, but when the system registers that a change request has changed its state, or you add a change request or remove it from a remediation task, state synchronization potentially can override your manual intervention. However, change requests states do not automatically move the remediation task from the `Closed` or `Deferred` states.
 
-        For more information, see [State synchronization between change requests and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-cr-state-synch.md).
+        For more information, see [State synchronization between change requests and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/cc-cr-state-synch.md).
 
 
 ## What to do next
 
-You can create or associate change requests for your new remediation tasks. For more information, see [Associate a remediation task to an existing change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-CR-v12-assoc.md) and [Create a change request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-CR-v12-create.md).
+You can create or associate change requests for your new remediation tasks. For more information, see [Associate a remediation task to an existing change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/cc-CR-v12-assoc.md) and [Create a change request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/cc-CR-v12-create.md).
 

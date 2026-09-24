@@ -2,7 +2,7 @@
 title: Bubble chart components
 description: The X- and Y-axes each represent a different metric category. Assessable records are plotted on the chart as circular markers, or bubbles, which vary in size according to scores for the third category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_BubbleChartComponents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_BubbleChartComponents.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,9 +19,9 @@ The bubble chart page has these components:
 -   **Bubble Chart**
     -   **X- and Y-axes**: Each axis represents a metric category.
     -   **Bubbles**: Each labeled bubble represents an average of category result data for an assessable record. Point to a bubble to view an assessable record score summary. Click a bubble or bubble label to view the scorecard for the assessable record.
--   **Source record list**: List of all records defined by the **Table** and **Condition** fields for the associated [metric type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md). Note that the bubble chart only plots records for which there are assessment results. The assessment results are actually associated with the assessable records for each of the listed source records.
+-   **Source record list**: List of all records defined by the **Table** and **Condition** fields for the associated [metric type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md). Note that the bubble chart only plots records for which there are assessment results. The assessment results are actually associated with the assessable records for each of the listed source records.
 
 \[Omitted image "BubbleChart.png"\] Alt text: Bubble chart
 
-**Parent Topic:**[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_view-bubble-chart-assessments.md)
+**Parent Topic:**[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_view-bubble-chart-assessments.md)
 

@@ -2,7 +2,7 @@
 title: Access recently opened apps and app files in ServiceNow Studio
 description: Reopen recently accessed apps and app files in ServiceNow Studio from the home page or the Navigator panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-access-recently-opened-apps-files.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/qs-access-recently-opened-apps-files.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic

@@ -2,7 +2,7 @@
 title: Build a new role for your application
 description: Create a custom role for your application in App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-create-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/aes-create-role.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -61,5 +61,5 @@ Role required: admin, security admin, or delegated\_developer \(with the **Secur
 8.  Select **Continue**, and then select **Done** on the summary screen.
 
 
-**Parent Topic:**[Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md)
+**Parent Topic:**[Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-security.md)
 

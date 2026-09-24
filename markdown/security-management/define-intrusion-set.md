@@ -2,7 +2,7 @@
 title: Define an intrusion set
 description: Define an intrusion set that is a grouped set of adversarial behaviors and resources with common properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-intrusion-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-intrusion-set.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -243,5 +243,5 @@ Vulnerabilities
 Lists a weakness or defect in a software or hardware that attackers exploit which is associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Intrusion set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-intrusion-sets.md)
+</table>**Parent Topic:**[Intrusion set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-intrusion-sets.md)
 

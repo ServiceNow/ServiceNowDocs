@@ -2,7 +2,7 @@
 title: View links between alerts in a group in Express List
 description: Use Link View in Express List to view a visual representation of the relationships between alerts in a group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-relationships-between-alerts-in-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/view-relationships-between-alerts-in-groups.html
 release: australia
 product: Event Management
 classification: event-management
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 ## About this task
 
-For an overview of Link View in Express List, see [Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-link-view.md).
+For an overview of Link View in Express List, see [Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-link-view.md).
 
 ## Procedure
 
@@ -83,7 +83,7 @@ Select **Refresh**. After refreshing the alert group, rearranged nodes appear in
 
 </td><td>
 
-Select the Link View legend.The legend also indicates the number of unique nodes displayed per tag. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/link-view-tags-icons-descriptions.md).
+Select the Link View legend.The legend also indicates the number of unique nodes displayed per tag. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/link-view-tags-icons-descriptions.md).
 
 </td></tr><tr><td id="d666577e242">
 

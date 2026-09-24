@@ -2,7 +2,7 @@
 title: Using the Consumer Service Portal
 description: The Consumer Service Portal is a web interface that your company can use to provide information and support to consumers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-consumer-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-consumer-service-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ After registering and logging in to the Consumer Service Portal, consumers can:
 
 Your consumer service portal activity usually begins on the consumer service portal homepage. If you are a logged in user, you see different information than non-logged in users. Your organization can customize the homepage.
 
-**Note:** A new consumer service portal experience is available on the Consumer Portal. For details, see [Using the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-consumer-portal.md).
+**Note:** A new consumer service portal experience is available on the Consumer Portal. For details, see [Using the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-consumer-portal.md).
 
 |UI component|Description|
 |------------|-----------|

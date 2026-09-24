@@ -2,7 +2,7 @@
 title: Legacy: Overdue Reports dashboard
 description: See the currently open incidents that are subject to an SLA. You can view a list of the incidents or see how they break down in a heatmap or a pivot table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/overdue-reports-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/overdue-reports-dashboard.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -18,7 +18,7 @@ See the currently open incidents that are subject to an SLA. You can view a list
 
 **Important:**
 
-Starting in Xanadu release, the Overdue Reports dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the currently open incidents that are subject to an SLA and list of the incidents or see how they break down in a heatmap or a pivot table.
+Starting in Xanadu release, the Overdue Reports dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident.md) to view the currently open incidents that are subject to an SLA and list of the incidents or see how they break down in a heatmap or a pivot table.
 
 This dashboard is inactive by default. Before using this dashboard, a Performance Analytics administrator or power user must open the Dashboard Properties, assign an owner, and select **Active**.
 
@@ -42,5 +42,5 @@ This dashboard is inactive by default. Before using this dashboard, a Performanc
 |Overdue pivot|Pivot \(\[Omitted image "icon-pivot-report-p.png"\] Alt text: pivot report icon\)|Table letting you explore the number of open and overdue incidents by any combination of state, assignment group, category, and priority, for any age bucket or for all ages.|
 |Overdue heatmap|Heatmap \(\[Omitted image "icon-heatmap-report-p.png"\] Alt text: heatmap icon\)|Heatmap letting you explore the number of open and overdue incidents by any combination of state, assignment group, category, and priority, for any age bucket or for all ages.|
 
-**Parent Topic:**[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-sla-content-pack.md)
+**Parent Topic:**[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-sla-content-pack.md)
 

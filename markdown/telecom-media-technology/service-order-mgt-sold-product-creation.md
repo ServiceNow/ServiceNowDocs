@@ -2,7 +2,7 @@
 title: Sold product creation for service orders
 description: Learn how to create and maintain the customer service inventory. By using the Order Management application, you can maintain an accurate information of your customer services.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 14, 2025.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-sold-product-creation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-order-mgt-sold-product-creation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

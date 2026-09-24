@@ -2,7 +2,7 @@
 title: Expire a publication
 description: Expire a published article before it reaches the Expiry Date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommExpireAPublication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_TargetCommExpireAPublication.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

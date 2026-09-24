@@ -2,7 +2,7 @@
 title: Lookup select box
 description: The lookup select box variable creates a choice list using data queried from a table. Its functionality is similar to the lookup multiple choice variable, which creates radio buttons from queried data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/lookup-select-box.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/lookup-select-box.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -16,7 +16,7 @@ breadcrumb: [Types of service catalog variables, Service catalog variables, Serv
 
 The lookup select box variable creates a choice list using data queried from a table. Its functionality is similar to the lookup multiple choice variable, which creates radio buttons from queried data.
 
-For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variable-attributes.md).
+For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/variable-attributes.md).
 
 To create the lookup select box, enter the following values when creating the variable:
 
@@ -30,7 +30,7 @@ To create the lookup select box, enter the following values when creating the va
 -   Table with large data causes performance issues when loading the page. Use reference qualifiers to reduce data or use the reference type variable.
 -   You cannot add more than 10,000 choices.
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -45,7 +45,7 @@ To create the lookup select box, enter the following values when creating the va
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

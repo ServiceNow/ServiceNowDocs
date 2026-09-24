@@ -2,7 +2,7 @@
 title: Customize the ServiceNow Otto for HRSD skills
 description: Customize a generative AI skill so you can experiment with skill settings and configure the skill to fit your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/customize-nahr-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/customize-nahr-skill.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -28,5 +28,5 @@ Unified Admin Experience for GenAI Skills:
 -   Previously, skills cloned in AI Admin Hub console supported only prompt configuration in AI Skill Kit. Input configuration could not be edited in AI Skill Kit, creating a fragmented setup process. With the new unified admin experience, users can manage GenAI skills seamlessly in AI Skill Kit. This includes adding necessary headers as input, configuring or editing prompts, and maintaining all settings in a single location.
 -   The unification migrates the AI Admin Hub console setup experience to AI Skill Kit for all configured skills in ServiceNow Otto for HRSD.
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

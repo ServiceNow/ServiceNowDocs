@@ -2,7 +2,7 @@
 title: Configure Virtual Agent conversation topics for legal services
 description: Create or modify Virtual Agent conversation topics for legal services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/configure-legal-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/configure-legal-va.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -22,7 +22,7 @@ Role required: admin or virtual\_agent\_admin
 
 ## About this task
 
-The Legal Virtual Agent Conversations application installs various [virtual agent conversation topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md) for seeking legal services.
+The Legal Virtual Agent Conversations application installs various [virtual agent conversation topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-va-conversations.md) for seeking legal services.
 
 These virtual agent conversation topics are built using ServiceNow Virtual Agent Designer, so make sure you’re familiar with the [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md) basics.
 
@@ -34,15 +34,15 @@ These virtual agent conversation topics are built using ServiceNow Virtual Agent
 
     **Note:** All conversation topics for legal services are grouped under the Legal Service Delivery category.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d775574e114">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d775578e114">
 
 Options
 
-</th><th align="left" id="d775574e117">
+</th><th align="left" id="d775578e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d775574e123">
+</th></tr></thead><tbody><tr><td id="d775578e123">
 
 **Create a new virtual agent conversation topic**
 
@@ -52,7 +52,7 @@ Steps
 2.  On the form, fill in the fields.
 For more information on creating a conversation topic and description of fields on the form, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-virtual-agent-topic.md).
 
-</td></tr><tr><td id="d775574e148">
+</td></tr><tr><td id="d775578e148">
 
 **Customize a predefined conversation topic**
 
@@ -74,5 +74,5 @@ For more information, see [duplicate the topic](https://raw.githubusercontent.co
     For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/publish-virtual-agent-topic.md).
 
 
-**Parent Topic:**[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md)
+**Parent Topic:**[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-va-conversations.md)
 

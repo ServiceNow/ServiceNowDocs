@@ -2,7 +2,7 @@
 title: Sync regulatory list regulations for a chemical substance
 description: You can trigger a sync with the 3E Regulatory Intelligence server to retrieve all regulatory list data associated with a chemical substance based on its CAS \(Chemical Abstracts Service\) number.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-sync-regulatory-list-chemical-substance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-sync-regulatory-list-chemical-substance.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -18,7 +18,7 @@ You can trigger a sync with the 3E Regulatory Intelligence server to retrieve al
 
 ## Before you begin
 
-Verify 3E credentials are configured correctly. A valid 3E subscription is required. For more information see, [Configure the application registry for 3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-app-register-3e-reg-intelligence.md).
+Verify 3E credentials are configured correctly. A valid 3E subscription is required. For more information see, [Configure the application registry for 3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-configure-app-register-3e-reg-intelligence.md).
 
 Role required: sn\_hs\_chm.manager
 
@@ -41,8 +41,8 @@ Role required: sn\_hs\_chm.manager
 
 ## What to do next
 
--   Use the filter options to narrow regulations by regulatory list topic, country, or region. Open individual regulation records to review detailed parameters, thresholds, and conformance status. For more information, see [Monitor and manage the Regulatory list for a chemical substance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-monitor-manage-regulatory-tab.md).
--   If you do not have an integration with 3E Regulatory Intelligence, create a 3E regulatory list manually. For more information, see [Create a regulatory list manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-regulatory-list-manually.md).
+-   Use the filter options to narrow regulations by regulatory list topic, country, or region. Open individual regulation records to review detailed parameters, thresholds, and conformance status. For more information, see [Monitor and manage the Regulatory list for a chemical substance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-monitor-manage-regulatory-tab.md).
+-   If you do not have an integration with 3E Regulatory Intelligence, create a 3E regulatory list manually. For more information, see [Create a regulatory list manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-create-regulatory-list-manually.md).
 
-**Parent Topic:**[3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-3e-regulatory-intelligence.md)
+**Parent Topic:**[3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-3e-regulatory-intelligence.md)
 

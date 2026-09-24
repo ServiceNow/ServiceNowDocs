@@ -2,7 +2,7 @@
 title: Prepare to run the ServiceNow collector
 description: Create a ServiceNow user and configure permissions before running the collector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-servicenow-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-servicenow-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,5 +64,5 @@ The collector uses Basic Authentication with username and password. ServiceNow d
     -   sn\_df\_connection\_attributes \(Connection Attributes\)
     -   sys\_variable\_value \(Variable Values\)
 
-**Parent Topic:**[ServiceNow metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/servicenow-metadata-collector.md)
+**Parent Topic:**[ServiceNow metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/servicenow-metadata-collector.md)
 

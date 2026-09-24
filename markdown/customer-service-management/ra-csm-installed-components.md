@@ -2,7 +2,7 @@
 title: Components installed with Recommended Actions
 description: Several types of components are installed with the Recommended Actions application, including tables, roles, guidances, resource generators, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-installed-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-installed-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

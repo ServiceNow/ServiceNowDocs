@@ -2,7 +2,7 @@
 title: Install the Safe Workplace Dashboard
 description: Install the Safe Workplace Dashboard application. You can install this application If you have the admin role.Components are installed with the Safe Workplace Dashboard, including user roles, scheduled jobs, and tables.Set up Safe Workplace Dashboard properties to add your Mapbox API token and configure how indicators are displayed across timezones.The Safe Workplace Dashboard comprises ServiceNow Service Portal widgets that are populated by Performance Analytics widgets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-dashboard/install-safe-workplace-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace-dashboard/install-safe-workplace-dashboard.html
 release: australia
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -28,7 +28,7 @@ Use the default setting **active=false** to avoid incorrect mappings in the Camp
 
 Run this script after activating the Safe Workplace Dashboard \(sn\_imt\_dashboard\) plugin and ensuring that your existing campuses have sites and regions populated.
 
-After running the Map existing campus with locations fix script, validate that all campuses and locations are accurate. For inaccurate data, remove entries and see [Manually map a location and campus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/man-create-campus.md) for more information.
+After running the Map existing campus with locations fix script, validate that all campuses and locations are accurate. For inaccurate data, remove entries and see [Manually map a location and campus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/man-create-campus.md) for more information.
 
 Role required: admin
 
@@ -120,7 +120,7 @@ If you've subscribed to the Safe Workplace suite and you already have some of th
 7.  When the installation is complete, click **Close**.
 
 
-**Parent Topic:**[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)
+**Parent Topic:**[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)
 
 ## Components installed with the Safe Workplace Dashboard
 

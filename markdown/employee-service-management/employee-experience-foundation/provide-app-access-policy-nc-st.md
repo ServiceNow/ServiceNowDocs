@@ -2,7 +2,7 @@
 title: Create a Service user to make calls from Microsoft Teams
 description: Create a service user role to be able to start online meetings on behalf of users in Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/provide-app-access-policy-nc-st.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/provide-app-access-policy-nc-st.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -67,7 +67,7 @@ Role required: Microsoft Teams admin
 
 4.  Run the command below to create a new Application Access Policy in PowerShell.
 
-    Use the bot ID created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-app-ms-teams.md) as the AppId for the command.
+    Use the bot ID created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-app-ms-teams.md) as the AppId for the command.
 
     For more information on the application access policy, see [Configure application access to online meetings](https://learn.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
@@ -114,5 +114,5 @@ Role required: Microsoft Teams admin
         \[Omitted image "powershell-user-permissions.png"\] Alt text: User permissions
 
 
-**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md)
+**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md)
 

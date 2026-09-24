@@ -2,7 +2,7 @@
 title: Create multi-building reservations
 description: Reserve multiple spaces spanning across multiple buildings in different timezone. Create multi-building reservations for the same date and time in a single reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-multi-building-reservation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/create-multi-building-reservation.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -24,7 +24,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 Reserve multiple spaces belonging to different buildings in a single reservation using the **Add another building** option on the Make a reservation page. For example, if you want to have a meeting where your colleagues are joining from different locations, you can create a single reservation with multiple locations from different time zones. Some of your colleagues may join from California while others may join from Amsterdam, and so on. Workplace Reservation Management automatically takes care of the timezone conversion based on the buildings selected and their associated timezones.
 
-The **Allow multiple building reservations** option should be configured by your administrator to make a multi-building reservation. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+The **Allow multiple building reservations** option should be configured by your administrator to make a multi-building reservation. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 ## Procedure
 
@@ -79,7 +79,7 @@ The **Allow multiple building reservations** option should be configured by your
     This behavior is different when compared to multi-building reservations created using the Workplace Reservation Management application, as it does not allow you to proceed with the reservation if you have not selected a space in the primary building.
 
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

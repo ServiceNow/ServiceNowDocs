@@ -2,7 +2,7 @@
 title: Reserve a space using the reservation agent
 description: The Create a reservation agent enables employees to reserve a space with a single prompt query or utterance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/create-rsv-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/create-rsv-agent.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -68,5 +68,5 @@ Role required: admin
     \[Omitted image "wsd-create-rsv-agent-last-step.png"\] Alt text: Agent completes the request and asks employees to confirm if they require any other help from it.
 
 
-**Parent Topic:**[Making reservations using the Create a reservation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/using-reservation-agent.md)
+**Parent Topic:**[Making reservations using the Create a reservation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/using-reservation-agent.md)
 

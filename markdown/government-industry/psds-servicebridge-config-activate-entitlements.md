@@ -2,7 +2,7 @@
 title: Activate remote catalog item entitlements for Service Exchange Consumers
 description: Create an entitlement for a remote catalog item/record producer so that the associated service will be displayed in the constituent\(s\) Government Service Portal catalog for use. You can entitle content explicitly to a single constituent, or to multiple constituents in designated groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-config-activate-entitlements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-servicebridge-config-activate-entitlements.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: admin
 
 5.  Select the Remote task definition tab and select a remote task definition that you want to activate.
 
-    For information on how to utilize remote task definitions to create task assignments between constituent and agency provider instances, see [Create remote task definitions in Service Exchange for Providers in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-servicebridge-config-create-remote-task-def.md).
+    For information on how to utilize remote task definitions to create task assignments between constituent and agency provider instances, see [Create remote task definitions in Service Exchange for Providers in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-servicebridge-config-create-remote-task-def.md).
 
 6.  In the Remote task definition page, select **Activate** to activate the entitlement.
 

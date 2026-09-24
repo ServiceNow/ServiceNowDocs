@@ -2,7 +2,7 @@
 title: Configure the At a Glance panel
 description: Customize which employee information appears in the At a Glance panel by adding or removing fields from the Employee Details and Contacts sections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-config-ataglance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-config-ataglance.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

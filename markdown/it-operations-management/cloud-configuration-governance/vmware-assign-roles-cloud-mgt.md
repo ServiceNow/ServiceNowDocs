@@ -2,7 +2,7 @@
 title: Assign roles to VMware users of Cloud Provisioning and Governance
 description: You assign Cloud Provisioning and Governance roles to user groups and to individual users based on user activities and responsibilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/vmware-assign-roles-cloud-mgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/vmware-assign-roles-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

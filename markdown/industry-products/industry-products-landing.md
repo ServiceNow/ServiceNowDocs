@@ -2,7 +2,7 @@
 title: Industry Products
 description: Industry products further extend the value of the ServiceNow AI Platform by productizing data models, frameworks, and workflows to address common experience challenges at scale.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industry-products/industry-products-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industry-products/industry-products-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-30"

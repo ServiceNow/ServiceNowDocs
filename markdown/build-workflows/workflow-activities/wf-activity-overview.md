@@ -2,7 +2,7 @@
 title: Workflow activities reference
 description: Workflow activity reference, organized by category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/wf-activity-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/wf-activity-overview.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

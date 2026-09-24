@@ -2,7 +2,7 @@
 title: Subscription revenue metrics
 description: Subscription pricing is a pricing model where customers pay a recurring fee for products or services, usually at regular intervals such as monthly or annually. In Sales Customer Relationship Management, various subscription revenue amounts are calculated automatically for opportunities and quotes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-subscription-pricing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-subscription-pricing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -279,7 +279,7 @@ Cumulative margin %
 |Total monthly margin %|\(Total monthly margin/Total monthly price\) × 100|
 |Total margin %|\(Total Margin Amount/Total amount\) × 100|
 
-To learn more about the revenue metrics in opportunity details, see [Add and view the details of an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-details-tab.md) and [Add line items to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-line-items-tab.md).
+To learn more about the revenue metrics in opportunity details, see [Add and view the details of an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-details-tab.md) and [Add line items to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-line-items-tab.md).
 
-To learn more about the revenue metrics in quote details, see [Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-details-tab.md).
+To learn more about the revenue metrics in quote details, see [Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-details-tab.md).
 

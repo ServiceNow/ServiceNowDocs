@@ -2,7 +2,7 @@
 title: Add decision nodes to a sequence
 description: Activate the next stage in the playbook based on the outcome of the previous stage by adding decision nodes while creating or updating a sequence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-decision-nodes-sequences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-decision-nodes-sequences.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Activate the next stage in the playbook based on the outcome of the previous sta
 
 **Note:** Decision-based stages and the demo data are available only starting with Playbook version 28.3 on the Zurich release. The sample Lead nurturing tele-sales sequence available with the demo data shows how to configure a decision-based, telesales sequence with the schedule call activity.
 
-Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/grant-delegated-developer-permissions.md).
+Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/grant-delegated-developer-permissions.md).
 
 Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
@@ -61,7 +61,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 Add a stage for the new branch you created earlier, and repeat the steps to add more activities as needed. For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/add-configure-stage.md).
 
-**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-customer-engagement-sequence.md)
+**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-customer-engagement-sequence.md)
 
 **Related topics**  
 

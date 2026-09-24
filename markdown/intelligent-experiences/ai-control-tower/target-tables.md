@@ -2,7 +2,7 @@
 title: Target tables for Azure and Copilot
 description: Target tables for storing Service Graph Connectors for Azure and Copilot data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/target-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/target-tables.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

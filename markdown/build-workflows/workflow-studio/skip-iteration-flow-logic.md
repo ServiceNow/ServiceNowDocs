@@ -2,7 +2,7 @@
 title: Skip Iteration flow logic
 description: Skip the current iteration of a flow logic loop when the conditions of an If flow logic are met. Continue running the flow logic loop with the next item in the list. This flow logic is also known as continue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/skip-iteration-flow-logic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/skip-iteration-flow-logic.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -46,7 +46,7 @@ In this example, a flow generates a list of incidents assigned to a user. For ea
 
 In this example, the first item is an incident in the Inquiry category, which meets the skip iteration conditions. The flow does not run the Send Email action for this iteration.
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

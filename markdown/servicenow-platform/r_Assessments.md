@@ -2,7 +2,7 @@
 title: Assessments
 description: Use assessments to evaluate, score, and rank records from any table in the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_Assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_Assessments.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

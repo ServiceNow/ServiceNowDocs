@@ -2,7 +2,7 @@
 title: Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Use inputs for each skill to configure how and when a skill is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -196,11 +196,11 @@ The customer service summary skill helps user to get information on the customer
 -   General details
 -   Graph questionnaire
 
-    To add or modify the queries, see [Configure the graph questionnaire ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.md).
+    To add or modify the queries, see [Configure the graph questionnaire ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.md).
 
 -   Customize prompt
 
-    To customize the prompt, see [Customize a skill in ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.md).
+    To customize the prompt, see [Customize a skill in ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.md).
 
 -   Define access
 -   Select display

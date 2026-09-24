@@ -2,7 +2,7 @@
 title: Resale hardware assets
 description: Enhance asset management by reselling eligible retired hardware assets instead of disposing of them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-resale-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-resale-order.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -88,12 +88,12 @@ When an asset is sold, an expense line is generated for each resold asset. The A
 2.  Select the **Asset display name** link.
 3.  Select the **Expense Lines** tab.
 
-**Parent Topic:**[Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-disposal-order.md)
+**Parent Topic:**[Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-disposal-order.md)
 
 **Related topics**  
 
 
-[Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-disposal-order.md)
+[Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-disposal-order.md)
 
-[Perform bulk update of resale value for the assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/bulk-update-resale-value-asset-state.md)
+[Perform bulk update of resale value for the assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/bulk-update-resale-value-asset-state.md)
 

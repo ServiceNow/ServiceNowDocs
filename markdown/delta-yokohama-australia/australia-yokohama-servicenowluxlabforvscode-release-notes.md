@@ -2,10 +2,10 @@
 title: Combined ServiceNow Lux Lab for VS Code release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for ServiceNow Lux Lab for VS Code from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowluxlabforvscode-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicenowluxlabforvscode-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -243,6 +243,8 @@ Australia
 
 Install ServiceNow Lux Lab for VS Code by requesting it from the Visual Studio Code Marketplace.
 
+
+**Note:** ServiceNow Lux Lab for VS Code is available in the Visual Studio Code Marketplace. For details, see the following activation information.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -517,5 +519,5 @@ Australia
  See [ServiceNow AI Experience Lab for VS Code extension](https://www.servicenow.com/docs/access?context=servicenow-ai-experience-lab-for-vs-code-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Use the Personalize Form menu
 description: Use the Personalize Form menu to add or remove fields from your view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-personalize-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/use-personalize-form.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

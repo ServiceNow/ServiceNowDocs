@@ -2,7 +2,7 @@
 title: Impact of different license types on software reconciliation
 description: Each license type has entitlements and conditions outlined on the entitlement form, and more importantly, these license types have a significant impact on the Software Asset Management \(SAM\) reconciliation process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/license-types-impact-reconciliation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/license-types-impact-reconciliation.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -66,7 +66,7 @@ Microsoft
 
 </td><td>
 
-Software Asset Management automatically applies the Software Assurance benefits. For more information, see [Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-license-maintenance.md).
+Software Asset Management automatically applies the Software Assurance benefits. For more information, see [Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-license-maintenance.md).
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ All
 
 </td><td>
 
-Software Asset Management automatically applies the Software maintenance benefits. For more information, see [Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-license-maintenance.md).
+Software Asset Management automatically applies the Software maintenance benefits. For more information, see [Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-license-maintenance.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ All
 
 </td><td>
 
-You can upgrade a lower edition of software, such as SQL Server Standard, to a higher edition, such as SQL Server Enterprise. Use the **Upgraded Entitlements** tab in the Software Entitlement form to link related versions of your software under active maintenance and your upgrades. For more information, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+You can upgrade a lower edition of software, such as SQL Server Standard, to a higher edition, such as SQL Server Enterprise. Use the **Upgraded Entitlements** tab in the Software Entitlement form to link related versions of your software under active maintenance and your upgrades. For more information, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ All
 
 </td><td>
 
-If you're covered under Microsoft Software Assurance, you can upgrade a lower edition of software, such as SQL Server Standard, to a higher edition, like SQL Server Enterprise. Use the **Upgraded Entitlements** tab in the Software Entitlement form to link related versions of your software under active maintenance and your upgrades. For more information, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+If you're covered under Microsoft Software Assurance, you can upgrade a lower edition of software, such as SQL Server Standard, to a higher edition, like SQL Server Enterprise. Use the **Upgraded Entitlements** tab in the Software Entitlement form to link related versions of your software under active maintenance and your upgrades. For more information, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
 </td></tr><tr><td>
 
@@ -194,7 +194,7 @@ Microsoft
 
 </td><td>
 
-The add-on license must be associated with a perpetual Office legacy license with active Software Assurance. Therefore, you must link the two licenses for it to work. For more information, see [Create Microsoft 365 From SA and Add-on entitlements in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-m365-from-sa-add-on-entitlements-workspace.md).
+The add-on license must be associated with a perpetual Office legacy license with active Software Assurance. Therefore, you must link the two licenses for it to work. For more information, see [Create Microsoft 365 From SA and Add-on entitlements in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-m365-from-sa-add-on-entitlements-workspace.md).
 
 </td></tr><tr><td>
 
@@ -210,15 +210,15 @@ Microsoft
 
 </td><td>
 
-The From SA license must be associated with a perpetual Office legacy license with active Software Assurance. Therefore, you must link the two licenses for it to work. For more information, see [Create Microsoft 365 From SA and Add-on entitlements in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-m365-from-sa-add-on-entitlements-workspace.md).
+The From SA license must be associated with a perpetual Office legacy license with active Software Assurance. Therefore, you must link the two licenses for it to work. For more information, see [Create Microsoft 365 From SA and Add-on entitlements in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-m365-from-sa-add-on-entitlements-workspace.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 
 **Related topics**  
 
 
-[Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-license-maintenance.md)
+[Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-license-maintenance.md)
 
-[Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md)
+[Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md)
 

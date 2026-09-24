@@ -2,7 +2,7 @@
 title: Digital integration form in EA Workspace
 description: Use the digital integration form to update the digital integration between two business applications and between a business application and an external company.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-update-digital-integration-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-update-digital-integration-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-11"
@@ -52,7 +52,7 @@ Provider Business Application
 
 </td><td>
 
-Name of the business application that provides the digital interface that enables other applications to consume or ingest data. Changes, ownership, and responsibilities of the interface are often connected to the provider.**Note:** The provider and subscriber roles define interface ownership, not data flow direction. The provider owns the digital interface; the subscriber consumes it. Data flow direction—whether incoming, outgoing, or bidirectional—is set separately using the **Data Flow Direction** field and reflects which application initiates the connection. For example, the provider can receive data \(incoming\) if the subscriber initiates the connection. For more information, see [Example: Provider and subscriber with data flow directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/example-prov-n-subsc-roles-with-data-flow.md).
+Name of the business application that provides the digital interface that enables other applications to consume or ingest data. Changes, ownership, and responsibilities of the interface are often connected to the provider.**Note:** The provider and subscriber roles define interface ownership, not data flow direction. The provider owns the digital interface; the subscriber consumes it. Data flow direction—whether incoming, outgoing, or bidirectional—is set separately using the **Data Flow Direction** field and reflects which application initiates the connection. For example, the provider can receive data \(incoming\) if the subscriber initiates the connection. For more information, see [Example: Provider and subscriber with data flow directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/example-prov-n-subsc-roles-with-data-flow.md).
 
 This field is automatically generated and can't be edited.
 
@@ -70,7 +70,7 @@ Subscriber Business Application
 
 </td><td>
 
-Name of the business application that uses the provided interface to consume, exchange, or ingest data to support a business capability. The subscriber business application is affected by the changes or an outage, causing connection or data loss.**Note:** The provider and subscriber roles define interface ownership, not data flow direction. The provider owns the digital interface; the subscriber consumes it. Data flow direction—whether incoming, outgoing, or bidirectional—is set separately using the **Data Flow Direction** field and reflects which application initiates the connection. For example, the provider can receive data \(incoming\) if the subscriber initiates the connection. For more information, see [Example: Provider and subscriber with data flow directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/example-prov-n-subsc-roles-with-data-flow.md).
+Name of the business application that uses the provided interface to consume, exchange, or ingest data to support a business capability. The subscriber business application is affected by the changes or an outage, causing connection or data loss.**Note:** The provider and subscriber roles define interface ownership, not data flow direction. The provider owns the digital interface; the subscriber consumes it. Data flow direction—whether incoming, outgoing, or bidirectional—is set separately using the **Data Flow Direction** field and reflects which application initiates the connection. For example, the provider can receive data \(incoming\) if the subscriber initiates the connection. For more information, see [Example: Provider and subscriber with data flow directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/example-prov-n-subsc-roles-with-data-flow.md).
 
 </td></tr><tr><td>
 
@@ -305,10 +305,10 @@ Availability of the integration. Use the following options:-   Low
 |-----|-----------|
 |Work notes|Comments about the integration.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-digital-integ.md)
+[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-digital-integ.md)
 

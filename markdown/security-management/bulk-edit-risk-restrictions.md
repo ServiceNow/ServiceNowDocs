@@ -2,7 +2,7 @@
 title: Bulk edit risk reduction restrictions
 description: Risk reduction in the Bulk Edit dialog is restricted in specific scenarios based on the vulnerabilities mapped to the selected items and the vulnerability configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/bulk-edit-risk-restrictions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/bulk-edit-risk-restrictions.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-04"
@@ -26,5 +26,5 @@ Risk reduction in the Bulk Edit dialog is restricted in specific scenarios based
 
 Bulk edit risk reduction is supported in the host vulnerability and CVE-based vulnerable items applications. It is not supported in the Configuration Compliance application.
 
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)
+**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-using-bulk-edit.md)
 

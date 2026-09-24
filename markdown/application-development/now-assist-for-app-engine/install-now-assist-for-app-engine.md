@@ -2,7 +2,7 @@
 title: Installing ServiceNow Otto for App Engine
 description: You can install ServiceNow Otto for App Engine if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine

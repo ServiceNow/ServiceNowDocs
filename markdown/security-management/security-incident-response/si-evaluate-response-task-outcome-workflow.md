@@ -2,7 +2,7 @@
 title: Security Incident - Evaluate response task outcome workflow
 description: Security Incident - Evaluate Response task outcome workflow determines the task to use, invokes a chosen workflow and evaluation script based on the outcome evaluator record provided as input to the chosen workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/si-evaluate-response-task-outcome-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/si-evaluate-response-task-outcome-workflow.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -37,7 +37,7 @@ This workflow runs at the same time as the create task activity to be evaluated.
     \[Omitted image "EvaluateResponseOutcomeWorkflow.png"\] Alt text: Security Incident Evaluate Response Outcome workflow diagram
 
 
-**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
+**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
 
 **Related topics**  
 

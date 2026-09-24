@@ -2,7 +2,7 @@
 title: Example apps you can build in Creator Studio
 description: Creator Studio enables you to build apps where people can make requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-sample-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-sample-apps.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -18,7 +18,7 @@ Creator Studio enables you to build apps where people can make requests.
 
 ## Service desk apps
 
-You can use Creator Studio to build service desk apps, which support departmental processes that occur on a routine basis. For more information on service desks, see [Service desks and Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-service-desk-about.md).
+You can use Creator Studio to build service desk apps, which support departmental processes that occur on a routine basis. For more information on service desks, see [Service desks and Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-service-desk-about.md).
 
 ## List of example apps
 

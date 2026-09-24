@@ -2,7 +2,7 @@
 title: Add a search retrieval to an AI agent
 description: Add a search retrieval to an AI agent in AI Agent Studio. Leveraging the Retrieval-Augmented Generation \(RAG\) enables an AI agent to retrieve and incorporate relevant information from an external source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-retriever-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-retriever-ai-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"

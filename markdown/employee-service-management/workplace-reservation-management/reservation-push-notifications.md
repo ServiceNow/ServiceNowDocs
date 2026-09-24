@@ -2,7 +2,7 @@
 title: Mobile push notifications for workplace reservations
 description: As a workplace admin, you can configure push notifications that you want to send to an employee on their mobile devices to alert them about important events and enable them to perform an action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/reservation-push-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/reservation-push-notifications.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -87,7 +87,7 @@ As an employee, you will receive push notification for the following scenarios:
     Push notification is received that you are yet to check out the reservation even after the reservation time has started.
 
 
-**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
+**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 **Related topics**  
 

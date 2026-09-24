@@ -2,7 +2,7 @@
 title: Configure Source-to-Pay
 description: Configure the Source‑to‑Pay business unit to manage procurement, supplier, and invoice requests from submission to fulfillment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/config-source-to-pay.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/config-source-to-pay.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -241,5 +241,5 @@ Indicates whether the supplier is active.
     -   To create Portal or Workspace notifications, see [Trigger conditions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/notif-trigger-form.md).
     -   After configuring notifications, select **Mark as configured**.
 
-**Parent Topic:**[Configure Core Business Suite using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-cbs-using-guided-setup.md)
+**Parent Topic:**[Configure Core Business Suite using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/config-cbs-using-guided-setup.md)
 

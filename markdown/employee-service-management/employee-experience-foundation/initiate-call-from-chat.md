@@ -2,7 +2,7 @@
 title: Promote chat to a call from workspace
 description: As an agent, you can initiate a chat with the caller from the workspace to quickly resolve the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/initiate-call-from-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/initiate-call-from-chat.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -53,5 +53,5 @@ Role required: itil, itil\_admin
     Click meeting chat link to view the conversation occurred in Microsoft Teams.
 
 
-**Parent Topic:**[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/agent-sn-ms-teams.md)
+**Parent Topic:**[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/agent-sn-ms-teams.md)
 

@@ -2,12 +2,12 @@
 title: Edit a resource management report
 description: Resource management reports show resource allocation details in different formats for different time periods. Configure and use these reports according to your business requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/ReportsNew.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/ReportsNew.html
 release: australia
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Resource Management reports, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: resource\_user or admin
 
 **Important:** Resource Management reports is deprecated starting Zurich release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Alternatively, resource managers are encouraged to use the interactive Overview Dashboard in the Resource Management Workspace. For more information about dashboards, see [Overview dashboard in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md).
+Alternatively, resource managers are encouraged to use the interactive Overview Dashboard in the Resource Management Workspace. For more information about dashboards, see [Overview dashboard in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md).
 
 ## About this task
 
@@ -109,5 +109,5 @@ Pivot report shows the following information for every member of the group:
 3.  Select **Create a report** to create report.
 
 
-**Parent Topic:**[Resource Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_UsingResourceManagementReports.md)
+**Parent Topic:**[Resource Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_UsingResourceManagementReports.md)
 

@@ -2,7 +2,7 @@
 title: Configure a card action using Mobile Card Builder
 description: Use Mobile Card Builder to add card actions to a mobile card.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/create-mca-with-mcb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/create-mca-with-mcb.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

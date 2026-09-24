@@ -2,7 +2,7 @@
 title: GRC and the ServiceNow Store
 description: All GRC applications are available from the ServiceNow Store, allowing you to obtain new and updated features more rapidly. Before you can use any GRC applications, you must verify that you have entitlement to them \(that is, you have valid licenses to use them\). Then, you can download them from the ServiceNow Store and activate them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-and-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-and-store.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

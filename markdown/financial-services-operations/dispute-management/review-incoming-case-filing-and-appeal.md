@@ -2,7 +2,7 @@
 title: Review incoming case filing and appeal
 description: Review the incoming case filing created by the acquirer and create an appeal if required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-incoming-case-filing-and-appeal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/review-incoming-case-filing-and-appeal.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -63,7 +63,7 @@ If you refuse the acquirer's pre-arbitration request, the acquirer may create an
     -   To appeal the outcome, select **Unresolved**.
 12. If the response is **Unresolved**, select `Yes` in the **Create appeal** drop-down.
 
-    An appeal can be created only if certain conditions are met. For more information, see [Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/allocation-workflow.md).
+    An appeal can be created only if certain conditions are met. For more information, see [Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/allocation-workflow.md).
 
 13. Enter the **Appeal amount**.
 
@@ -80,5 +80,5 @@ After the request executes successfully, the transaction state moves to **Awaiti
 
 Visa confirms the appeal with an acknowledgment letter. Retrieve the letter by selecting `Get acknowledgement letter` in the**Review case filing appeal** task.
 
-**Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
+**Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
 

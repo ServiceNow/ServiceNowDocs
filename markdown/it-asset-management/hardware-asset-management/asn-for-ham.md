@@ -2,7 +2,7 @@
 title: Advanced Shipment Notification \(ASN\)
 description: Advanced Shipment Notification \(ASN\) automates the creation of asset records in the In transit state when vendors supply both asset and shipment details before delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/asn-for-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/asn-for-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -71,5 +71,5 @@ The system validates the data in the ASN import template to verify its accuracy 
     1.  Checks that the quantity doesn't exceed 1.
     2.  If the provided quantity exceeds 1, logs an error message in the staging table, resets the quantity to **1**, and creates an asset record.
 
-For more details on ASN import process, see [Use Advanced Shipment Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/advanced-shipment-notification.md).
+For more details on ASN import process, see [Use Advanced Shipment Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/advanced-shipment-notification.md).
 

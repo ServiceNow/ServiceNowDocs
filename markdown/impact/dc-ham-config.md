@@ -2,7 +2,7 @@
 title: Configure Data Collection for HAM
 description: Configure Data Collection for HAM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/dc-ham-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-ham-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
     \[Omitted image "dct\_config\_ham.png"\] Alt text: Example with Mar 2024 cell selected with no Indicator score entered.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-ham.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-ham.md)
 

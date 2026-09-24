@@ -2,12 +2,12 @@
 title: Role masking for AI agents
 description: Role masking for AI agents and agentic workflows helps administrators enhance security by limiting the roles those agents use during tool execution, and by verifying that AI agents run with least-access privileges.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/role-masking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/role-masking.html
 release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [role masking, AI agents, Agent Access Role Configuration, Agent Access Permission Set Configuration, least-access privileges, Allow all session roles]
 breadcrumb: [Identity]
@@ -46,5 +46,5 @@ You can add multiple roles to an AI agent's role masking configuration as indivi
 
 **Note:** Existing records with the `role_list` column continues to operate as expected. All new role configurations is implement through the `sys_agent_access_role_mapping` table.
 
-This design supports the common case where different Business Units can use the same AI agent. The agent is shipped with a minimum set of roles, and each Business Unit can add the specific roles based on their use case. Since each role is a separate record in the table, Business Units can add and remove their own role entries independently, without affecting the role entries owned by other teams. To know more about the configuration, see [Configure role masking for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/configure-role-masking.md).
+This design supports the common case where different Business Units can use the same AI agent. The agent is shipped with a minimum set of roles, and each Business Unit can add the specific roles based on their use case. Since each role is a separate record in the table, Business Units can add and remove their own role entries independently, without affecting the role entries owned by other teams. To know more about the configuration, see [Configure role masking for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/configure-role-masking.md).
 

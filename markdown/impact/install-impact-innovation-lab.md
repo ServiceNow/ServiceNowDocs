@@ -2,7 +2,7 @@
 title: Install Impact
 description: Follow these instructions to install the Impact Store Application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/install-impact-innovation-lab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/install-impact-innovation-lab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ Role required: Any Impact role, admin
 
 8.  Select **Install** to complete the installation.
 
-    Refer to [Dependent applications installed with the Impact Store App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-sync-idi-store.md) for the tables installed.
+    Refer to [Dependent applications installed with the Impact Store App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-sync-idi-store.md) for the tables installed.
 
 9.  Select **Configure**.
 
@@ -58,11 +58,11 @@ Role required: Any Impact role, admin
 
 ## What to do next
 
-[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md).
+[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/guided-setup-impact-in-app.md).
 
-**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
+**Previous topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-platform.md)
 
-**Next topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
+**Next topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/guided-setup-impact-in-app.md)
 

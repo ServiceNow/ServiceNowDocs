@@ -2,7 +2,7 @@
 title: Configuring Service Exchange Order Management for Providers
 description: Configure the Service Exchange Order Management for Providers application, which enables providers to use Order Management to create and fulfill product orders over Service Exchange. Providers publish the product offerings and service specifications as remote catalog items so that consumers can order from the Service Catalog on their own instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-sb-om.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-sb-om.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -56,7 +56,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Install Service Exchange Order Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-service-bridge-om-providers.md)
+[Install Service Exchange Order Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-service-bridge-om-providers.md)
 
 </td><td>
 
@@ -68,7 +68,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Create a product offering for a remote catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-sb-product-offerings.md)
+[Create a product offering for a remote catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-sb-product-offerings.md)
 
 </td><td>
 
@@ -80,7 +80,7 @@ Product catalog admin or manager
 
 </td></tr><tr><td>
 
-[Create a service specification for a remote catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-sb-service-specs.md)
+[Create a service specification for a remote catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-sb-service-specs.md)
 
 </td><td>
 
@@ -92,7 +92,7 @@ Product catalog admin or manager
 
 </td></tr><tr><td>
 
-[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-criteria-remote-catalog.md)
+[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/associate-criteria-remote-catalog.md)
 
 </td><td>
 
@@ -116,7 +116,7 @@ Review the remote record producer for managing inventory and associate the custo
 
 </td></tr><tr><td>
 
-[Activate the remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-entitlements-sb-consumer.md)
+[Activate the remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activate-entitlements-sb-consumer.md)
 
 </td><td>
 
@@ -128,7 +128,7 @@ Service Exchange consumer admin
 
 </td></tr><tr><td>
 
-[Retire a remote catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/retire-product-offer.md)
+[Retire a remote catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/retire-product-offer.md)
 
 </td><td>
 

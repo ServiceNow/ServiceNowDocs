@@ -2,7 +2,7 @@
 title: Set up a bi-directional webhook for the Microsoft Teams Graph spoke
 description: Configure a webhook to subscribe to Microsoft Teams with a ServiceNow callback URL.Register Microsoft Teams in your ServiceNow instance to notify the ServiceNow app when certain events occur in Microsoft Teams.Create a webhook subscription for the required channel in a team by testing the Subscribe Webhook subflow.Customize the required subflow that is shipped along with the spoke by creating a copy of it.Create webhook routing policy and subflow according to your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhook-ms-teams-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-webhook-ms-teams-graph.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -76,7 +76,7 @@ Role required: admin
 
     |Field|Description|
     |-----|-----------|
-    |Webhook Registry Record Name|Name of the webhook record you had provided when you [registered the webhook in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhook-ms-teams-graph.md). For example, `MS Teams Graph webhook registry`.|
+    |Webhook Registry Record Name|Name of the webhook record you had provided when you [registered the webhook in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webhook-ms-teams-graph.md). For example, `MS Teams Graph webhook registry`.|
     |Change Type|Type of change in the subscribed resource that should send a change notification. The supported values are: `created`, `updated`, and `deleted`. You can provide multiple comma-separated values.|
     |Team ID|Unique identifier of the team.|
     |Channel ID|Unique identifier of the channel.|

@@ -2,7 +2,7 @@
 title: Configure contextual colors and icons
 description: Use the Contextual colors and icons form to configure color, text, and icons to have different default or custom contexts, identified by a context ID.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-contextual-colors-icons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configure-contextual-colors-icons.html
 release: australia
 product: Event Management
 classification: event-management
@@ -156,5 +156,5 @@ Icon that is displayed when the context includes an icon and when accessibility 
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure email notifications for service severity changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateEmailNotificationBusinessService.md)
+**Parent Topic:**[Configure email notifications for service severity changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMCreateEmailNotificationBusinessService.md)
 

@@ -2,7 +2,7 @@
 title: Finance Exchange Rates \[sn\_fin\_fx\_rate\] table
 description: The Finance Exchange Rates \[sn\_fin\_fx\_rate\] table stores currency exchange rates used for Finance Common.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/fin-fx-rate-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/fin-fx-rate-table.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -25,7 +25,7 @@ This table contains the following fields.
 
 **Note:** The Finance Exchange Rates table extends the base platform Currency Conversion Rate \[fx\_conversion\_rate\] table and inherits additional fields \(such as From currency, To currency, Rate, and Effective date\) from that table. Those inherited fields are defined at the platform level.
 
-**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
 
 **Related topics**  
 

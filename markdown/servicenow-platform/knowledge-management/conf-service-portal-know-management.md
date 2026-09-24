@@ -2,7 +2,7 @@
 title: Integrating Knowledge Management features with the Service Portal
 description: To create a consistent user experience for Knowledge Management, integrate Knowledge Management Service Portal in your end-user facing Service Portal.Use a page route map to access the enhanced Knowledge Management homepage from the Service Portal homepage.Use a custom knowledge search widget to access the enhanced Knowledge Management search results page from the Service Portal search results page.Add the Knowledge Management Service Portal widgets Featured Articles, Most Useful Articles, and Most Rated Articles to the Service Portal homepage to quickly access knowledge articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/conf-service-portal-know-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/conf-service-portal-know-management.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -29,24 +29,24 @@ By default, all knowledge articles in the Service Portal are redirected to the K
 
 System administrators perform the following tasks to integrate the Knowledge Management Service Portal features with the Service Portal:
 
--   [Integrate the Knowledge Management homepage with the Service Portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/conf-service-portal-know-management.md).
--   [Integrate the Knowledge Management search results page with the Service Portal search results page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/conf-service-portal-know-management.md).
--   [Add the Knowledge Management Service Portal widgets to quickly access knowledge articles from the Service Portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/conf-service-portal-know-management.md) \(Optional\).
+-   [Integrate the Knowledge Management homepage with the Service Portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/conf-service-portal-know-management.md).
+-   [Integrate the Knowledge Management search results page with the Service Portal search results page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/conf-service-portal-know-management.md).
+-   [Add the Knowledge Management Service Portal widgets to quickly access knowledge articles from the Service Portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/conf-service-portal-know-management.md) \(Optional\).
 
 **Note:** These configurations apply to the base system pages within the Service Portal only.
 
-**Parent Topic:**[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
+**Parent Topic:**[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
 
 **Related topics**  
 
 
 [Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Pages.md)
 
-[Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md)
+[Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md)
 
-[Using search in Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-search.md)
+[Using search in Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-service-portal-search.md)
 
-[Knowledge Management Service Portal article view page features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-view.md)
+[Knowledge Management Service Portal article view page features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-service-portal-view.md)
 
 ## Integrate the Knowledge Management homepage with the Service Portal homepage
 
@@ -56,7 +56,7 @@ Use a page route map to access the enhanced Knowledge Management homepage from t
 
 The Knowledge Management - Service Portal plugin \(com.snc.knowledge\_serviceportal\) is activated.
 
-**Note:** This plugin is activated by default for customers on Madrid and later releases. Existing customers on release versions prior to Madrid must activate the plugin to perform this configuration task. For more information, see [Activate the Knowledge Management Service Portal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-km-service-portal-plugin.md).
+**Note:** This plugin is activated by default for customers on Madrid and later releases. Existing customers on release versions prior to Madrid must activate the plugin to perform this configuration task. For more information, see [Activate the Knowledge Management Service Portal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/activate-km-service-portal-plugin.md).
 
 Role required: admin
 
@@ -172,7 +172,7 @@ Role required: admin
 
 ### About this task
 
-For more information about Knowledge Management Service Portal widgets, see [Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md).
+For more information about Knowledge Management Service Portal widgets, see [Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md).
 
 ### Procedure
 

@@ -2,7 +2,7 @@
 title: Create a knowledge article for Enterprise Asset Management
 description: Create and edit knowledge articles within a knowledge base to share information across your organization. You can create articles about the Enterprise Asset Management application on subjects such as troubleshooting and configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-knowledge-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-eam-knowledge-article.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

@@ -2,7 +2,7 @@
 title: Report a GRC issue AI agent
 description: The report a GRC issue AI agent enables employees to report GRC issues through the Employee Center using a guided, conversational experience. It organizes the information provided by the user, facilitates review, suggests relevant details, and streamlines submission, reducing barriers to reporting issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/issue-submission-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/issue-submission-ai-agent.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -36,7 +36,7 @@ The report a GRC issue AI agent addresses these challenges by providing a guided
 **Related topics**  
 
 
-[Activate the Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/activate-the-issue-submission-ai-agent.md)
+[Activate the Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-the-issue-submission-ai-agent.md)
 
-[Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/report-a-grc-issue.md)
+[Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/report-a-grc-issue.md)
 

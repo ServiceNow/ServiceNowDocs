@@ -2,7 +2,7 @@
 title: Define banner display persistence
 description: Define if a message or banner displayed on a mobile device requires the user to acknowledge the receipt of the message.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/action-function-banner-persistence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/action-function-banner-persistence.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

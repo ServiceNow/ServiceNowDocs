@@ -2,7 +2,7 @@
 title: Learning admin overview dashboard
 description: Learning admin overview dashboard provides the learning administrator with a consolidated report on user course activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-admin-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/learning-admin-overview.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -20,5 +20,5 @@ The Learning Admin Overview dashboard provides the learning administrator \(sn\_
 
 \[Omitted image "learning-admin-overview.png"\] Alt text: Learning admin dashboard
 
-**Parent Topic:**[Reporting solutions for Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/reporting-solutions-learning.md)
+**Parent Topic:**[Reporting solutions for Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/reporting-solutions-learning.md)
 

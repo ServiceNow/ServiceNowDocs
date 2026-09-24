@@ -2,7 +2,7 @@
 title: Operational Technology Backup Management data model
 description: The Operational Technology \(OT\) Backup Management provides visibility and actionable insights on the backup of the OT devices. The class tables described below are interconnected and collectively form the Backup Management data model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/ot-backup-management-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/ot-backup-management-data-model.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -58,7 +58,7 @@ Use the OT Backup Job Execution History \[ot\_backup\_history\_and\_comparision\
 |Previous Version vs Backup Error|Comparison between the previous recorded version of the OT device and the version information available in the backup record that experienced an error during backup job execution.|
 |Previous Version vs Backup Warning|Comparison between the previous recorded version of the OT device and the version information available in the backup record that experienced a warning during backup job execution.|
 
-**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 
 **Related topics**  
 

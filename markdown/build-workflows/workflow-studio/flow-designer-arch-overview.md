@@ -2,7 +2,7 @@
 title: Architecture Overview
 description: Understand how Workflow Studio works within the ServiceNow AI Platform to activate, trigger, and process flows and actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-designer-arch-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-designer-arch-overview.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -32,11 +32,11 @@ Flow processing occurs in this sequence.
 
 -   **1. Process flow triggers and API calls**
 
-    Each time trigger conditions are met or an API directly calls a flow, Workflow Studio creates an event entry. The system processes triggers after database operations. To learn more, see [Execution order of scripts and engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_ExecutionOrderScriptsAndEngines.md). Typically, [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md) and [Workflow engine operation order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowEngineOperationOrder.md) that run synchronously run before a triggered flow.
+    Each time trigger conditions are met or an API directly calls a flow, Workflow Studio creates an event entry. The system processes triggers after database operations. To learn more, see [Execution order of scripts and engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_ExecutionOrderScriptsAndEngines.md). Typically, [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md) and [Workflow engine operation order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowEngineOperationOrder.md) that run synchronously run before a triggered flow.
 
 -   **2. Process events in the queue**
 
-    Each flow event contains a reference to the flow to start and a reference to either the triggering record or the execution time. The system processes these events using [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/events.md) where a scheduler periodically works through the current items in the event queue in the order in which they were added. Depending on what other events are in the queue, the system may not immediately start a flow. Flow designers should expect some lag time between when the trigger conditions occur and when the flow actually starts.
+    Each flow event contains a reference to the flow to start and a reference to either the triggering record or the execution time. The system processes these events using [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/system-events/events.md) where a scheduler periodically works through the current items in the event queue in the order in which they were added. Depending on what other events are in the queue, the system may not immediately start a flow. Flow designers should expect some lag time between when the trigger conditions occur and when the flow actually starts.
 
 -   **3. Build the process plan**
 
@@ -66,7 +66,7 @@ Flow processing occurs in this sequence.
     -   Flow configuration and runtime values
     Each time a flow runs, Workflow Studio adds an entry to the **Flow Executions** list. Each entry has its own context record and matching execution details page.
 
-    **Note:** A flow execution context runs in a single thread. However, there may be times when you want to run flows within separate contexts even though this may consume more of your instance's resources. To run subflows in separate flow contexts within the same flow, see [Dynamic flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-dynamic-flow.md).
+    **Note:** A flow execution context runs in a single thread. However, there may be times when you want to run flows within separate contexts even though this may consume more of your instance's resources. To run subflows in separate flow contexts within the same flow, see [Dynamic flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic-dynamic-flow.md).
 
     A flow can have one of these outcome states.
 
@@ -184,7 +184,7 @@ By default, the system stops triggering flow runs after the run count reaches th
 
 ## Flow and action testing
 
-Testing a flow bypasses the trigger conditions and immediately runs it. Testing a flow with a record-based trigger requires selecting a specific record to act as the trigger. Flow designers should generate appropriate sample records prior to testing. For more information about testing a flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+Testing a flow bypasses the trigger conditions and immediately runs it. Testing a flow with a record-based trigger requires selecting a specific record to act as the trigger. Flow designers should generate appropriate sample records prior to testing. For more information about testing a flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-test.md).
 
 During the design phase, you can test unpublished actions by setting **Show draft actions** on the flow. If testing with draft actions, use these guidelines.
 

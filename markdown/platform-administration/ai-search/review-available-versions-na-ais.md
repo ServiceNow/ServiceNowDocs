@@ -2,7 +2,7 @@
 title: Review available versions of ServiceNow Otto for AI Search
 description: View all versions of the ServiceNow Otto for AI Search application on the ServiceNow Store. Use this information to find the latest version of the application that's compatible with your instance's current ServiceNow AI Platform family release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/review-available-versions-na-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/review-available-versions-na-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -45,5 +45,5 @@ Role required: none
     The listing shows the **Product Details** view for the selected version of the ServiceNow Otto for AI Search application.
 
 
-**Parent Topic:**[Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md)
+**Parent Topic:**[Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/install-now-assist-ais.md)
 

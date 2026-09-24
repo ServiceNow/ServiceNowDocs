@@ -2,7 +2,7 @@
 title: Register and configure the Request-based chat application on the Microsoft Azure portal
 description: Create a Microsoft Azure application in Microsoft Azure portal to enable agents to import the conversations from Microsoft Teams to ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/register-app-req-based-chats.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/register-app-req-based-chats.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -68,10 +68,10 @@ Role required: admin
         \[Omitted image "client-secret-value.png"\] Alt text: Client secret value
 
 
--   **[Add permissions to the Microsoft Azure application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/authenticate-users-req-based-chat.md)**  
+-   **[Add permissions to the Microsoft Azure application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/authenticate-users-req-based-chat.md)**  
 Assign permissions to users to enable them to start chat and import chat conversations with employees from Microsoft Teams to ServiceNow® instance.
--   **[Configure Application Registry on the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/app-registry-chat-single-tenant.md)**  
+-   **[Configure Application Registry on the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/app-registry-chat-single-tenant.md)**  
 Register the Request-based chat app in your instance to use Microsoft Teams chat for self-configured app environment.
 
-**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_s_tnt.md)
+**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_employee_ex_s_tnt.md)
 

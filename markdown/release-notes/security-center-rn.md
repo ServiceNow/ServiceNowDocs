@@ -2,7 +2,7 @@
 title: Security Center release notes
 description: The ServiceNow Security Center empowers admins to maintain the highest level of security posture for their ServiceNow deployment with ease. Security Center was enhanced and updated in the Australia release.The ServiceNow Security Center empowers admins to maintain the highest level of security posture for their ServiceNow deployment with ease. Security Center was enhanced and updated in the Australia release.The ServiceNow Security Center empowers admins to maintain the highest level of security posture for their ServiceNow deployment with ease. Security Center was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/security-center-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/security-center-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ See for more information.
     Security Center is a ServiceNow AI Platform application that is installed by default with the Zurich release. In addition, Security Center can be updated from the ServiceNow Store in between family releases for faster adoption of new features.
 
 
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-security-rn-landing.md)
 
 ## Australia Early Availability
 

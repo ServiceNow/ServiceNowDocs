@@ -2,7 +2,7 @@
 title: Getting started with actions
 description: Transform the Ask for Approval action into a reusable action that always requires manager approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/getting-started-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/getting-started-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -22,7 +22,7 @@ Role required: admin
 
 **Note:** While Workflow Studio is designed to use the action\_designer and delegated\_developer roles in most scenarios, this tutorial uses the admin role to illustrate functionality without requiring additional roles to set up records and approve requests.
 
-Complete the steps in [Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-flow.md). This tutorial replaces the Ask for Approval action in the Expense Approval flow.
+Complete the steps in [Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-flow.md). This tutorial replaces the Ask for Approval action in the Expense Approval flow.
 
 ## About this task
 
@@ -190,5 +190,5 @@ Unlike the core Ask for Approval action where flow designers must manually confi
 
 The Expense Approval flow runs every time a record is created in the Expenses table. Now that the flow is activated and working as expected, you can publish it to the application repository and deploy it to other instances.
 
-**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md)
+**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/actions.md)
 

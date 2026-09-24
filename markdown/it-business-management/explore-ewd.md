@@ -2,10 +2,10 @@
 title: Exploring SPM Enterprise-Wide Deployment
 description: SPM Enterprise-Wide Deployment \(EWD\) provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/explore-ewd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/explore-ewd.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 7
 breadcrumb: [SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ SPM Enterprise-Wide Deployment \(EWD\) provides data partitioning capabilities f
 
 EWD is a Strategic Portfolio Management \(SPM\) product for enterprise-scale organizations that must balance centralized platform management with department-level data isolation. Administrators can create and configure partitions that separate data across functions such as IT Operations, HR, and Finance. Each partition is governed by a dedicated role that determines which records users can access, reducing the need for separate ServiceNow instances for each function.
 
-EWD supports key SPM tables including projects, demands, programs, and portfolios. Partition logic extends automatically to related records such as cost plans, resource plans, and planning items through automatic partition stamping. For complete list of supported tables and related entities, see [Supported tables for partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/supported-tables-for-partition-ewd.md).
+EWD supports key SPM tables including projects, demands, programs, and portfolios. Partition logic extends automatically to related records such as cost plans, resource plans, and planning items through automatic partition stamping. For complete list of supported tables and related entities, see [Supported tables for partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/supported-tables-for-partition-ewd.md).
 
 ## What is a partition
 
@@ -62,7 +62,7 @@ The following examples show how partition access works at runtime:
 -   A user assigned to the HR L&amp;D partition can access only HR L&amp;D records. No other partitioned data is visible anywhere in the application.
 -   A user with roles for multiple partitions, such as a portfolio lead, can access records from all assigned partitions across any view — workspaces, list views, search results, or dashboards — with no duplication or data merging.
 
-Extended Security for Enterprise-Wide Deployment \(Extended Security for EWD\) provides additional security for partitioned tables. It extends partition access controls across APIs, agentic workflows, indirect references, and unpartitioned parent tables. For details, see [Additional security with Extended Security for EWD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/additional-security-with-extended-security-ewd.md).
+Extended Security for Enterprise-Wide Deployment \(Extended Security for EWD\) provides additional security for partitioned tables. It extends partition access controls across APIs, agentic workflows, indirect references, and unpartitioned parent tables. For details, see [Additional security with Extended Security for EWD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/additional-security-with-extended-security-ewd.md).
 
 ## Workspace support
 
@@ -105,11 +105,11 @@ Partition enforcement applies to classic form views, list views, search results,
 
 |Feature|Enterprise-Wide Deployment|Extended Security for Enterprise-Wide Deployment|
 |-------|--------------------------|------------------------------------------------|
-|[Create and configure partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-partition-ewd.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|[Assign partition role for access to the partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-partition-role-ewd.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|[Assign PMO role for visibility across all partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-pmo-roles-for-visibility-across-all-partitions.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|[Update partition details for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/update-partition-details-for-existing-records.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|[Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enable-additional-security-extended-security-ewd.md)|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|[Create and configure partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/create-partition-ewd.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|[Assign partition role for access to the partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/assign-partition-role-ewd.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|[Assign PMO role for visibility across all partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/assign-pmo-roles-for-visibility-across-all-partitions.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|[Update partition details for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/update-partition-details-for-existing-records.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|[Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enable-additional-security-extended-security-ewd.md)|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 
 **Note:** The Extended Security for Enterprise-Wide Deployment application is an extension to the Enterprise-Wide Deployment application. When you install the Enterprise-Wide Deployment application, you get all the features of Enterprise-Wide Deployment and the additional security for partitioned tables feature.
 

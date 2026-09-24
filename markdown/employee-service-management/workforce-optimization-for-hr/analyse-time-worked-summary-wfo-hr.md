@@ -2,7 +2,7 @@
 title: Analyze adherence and conformance
 description: View the time worked summary of your team members to determine if your teams are adhering to the planned schedules. You can also use historical adherence, which is a reporting view of real-time adherence, to see how well your agents have followed their schedules in the past.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/analyse-time-worked-summary-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/analyse-time-worked-summary-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -24,9 +24,9 @@ Role required: sn\_shift\_planning.admin
 
 ## About this task
 
-Adherence and conformance calculations are based on the [defined configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-scheduling-adherence-wfo-hr.md) and your agents' actual and planned work schedules.
+Adherence and conformance calculations are based on the [defined configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/configure-scheduling-adherence-wfo-hr.md) and your agents' actual and planned work schedules.
 
-**Note:** Your administrator can disable schedule adherence or change the configuration for adherence and conformance. For more information, see [Configure schedule adherence properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-scheduling-adherence-wfo-hr.md).
+**Note:** Your administrator can disable schedule adherence or change the configuration for adherence and conformance. For more information, see [Configure schedule adherence properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/configure-scheduling-adherence-wfo-hr.md).
 
 ## Procedure
 
@@ -78,5 +78,5 @@ To understand the computations of the fields in a time worked summary, let's con
 
 **Note:** Fatima Alonzo is adherent because the schedule adherence and conformance are within the threshold. To see which agents are non-adherent, look for the numbers that are highlighted in red.
 
-**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
 

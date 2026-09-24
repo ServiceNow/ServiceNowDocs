@@ -2,7 +2,7 @@
 title: Exploring Financial Services Operations Integration with Mastercard
 description: Use the Financial Services Operations Integration with Mastercard to automate and simplify how financial institutions manage Mastercard disputes. This integration leverages Mastercard Spoke actions and Mastercom APIs to support a range of dispute lifecycle events and ensure alignment with Mastercard specific business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/exploring-financial-services-operations-integration-with-mastercard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/exploring-financial-services-operations-integration-with-mastercard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,13 +41,13 @@ The Mastercard Spoke includes actions that use Mastercom APIs to automate key di
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Automatically connects workflows with Mastercom and shows real-time updates to track cases easily.|[Enables seamless integration with Mastercard’s Mastercom API Suite and Mastercom Extended APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mastercard-spoke.md)|Administrator|
-|Uses predefined subflows with built-in error handling and retry logic to reduce development time and errors.|[Financial Services Operations Integration with Mastercard subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-integration-with-mastercard-subflows.md)|Administrator|
+|Uses predefined subflows with built-in error handling and retry logic to reduce development time and errors.|[Financial Services Operations Integration with Mastercard subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-integration-with-mastercard-subflows.md)|Administrator|
 
 ## What to explore next
 
 To learn more about configuring Financial Services Operations Integration with Mastercard, see:
 
 -   [Mastercard Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mastercard-spoke.md)
--   [Configuring Financial Services Operations Integration with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-financial-services-operations-integration-with-mastercard.md)
--   [Components installed with the Financial Services Operations Integration with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-mastercard.md)
+-   [Configuring Financial Services Operations Integration with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-financial-services-operations-integration-with-mastercard.md)
+-   [Components installed with the Financial Services Operations Integration with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-mastercard.md)
 

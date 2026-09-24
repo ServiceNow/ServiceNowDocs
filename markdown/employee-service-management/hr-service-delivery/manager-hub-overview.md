@@ -2,7 +2,7 @@
 title: Manager Hub
 description: The ServiceNow Manager Hub increases managers self-service and proactive engagement with their team by providing insights and recommended actions for what's most urgent and important to drive team success. It enables managers to grow as leaders through curated and personalised resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/manager-hub-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/manager-hub-overview.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,7 +50,7 @@ Use resources on career development, leader enablement, hiring and transitions, 
 
 ## Customize your user experience
 
-A Manager Hub administrator can configure fields, customize display text and icons suiting the requirements of managers of your organization. For more information, see [Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md).
+A Manager Hub administrator can configure fields, customize display text and icons suiting the requirements of managers of your organization. For more information, see [Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md).
 
 A predefined set of configurations are also available to use after you have activated Manager Hub from ServiceNow Store.
 
@@ -58,23 +58,23 @@ A predefined set of configurations are also available to use after you have acti
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/explore-managerhub.md) \[Omitted image "bus-explore.svg"\] Alt text: Detailed information on Manager Hub
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/explore-managerhub.md) \[Omitted image "bus-explore.svg"\] Alt text: Detailed information on Manager Hub
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md) \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md) \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started
 
 </td><td>
 
-[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-manager-hub.md) \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Support your team and find resources to grow as leaders
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/use-manager-hub.md) \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Support your team and find resources to grow as leaders
 
 </td></tr><tr><td>
 
-[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-mh-jc.md) \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Manager Hub capabilities by integrating with other applications
+[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-mh-jc.md) \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Manager Hub capabilities by integrating with other applications
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md) \[Omitted image "bus-learn.svg"\] Alt text: Get details about user roles, tables, default configurations in Manager Hub
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md) \[Omitted image "bus-learn.svg"\] Alt text: Get details about user roles, tables, default configurations in Manager Hub
 
 </td><td>
 

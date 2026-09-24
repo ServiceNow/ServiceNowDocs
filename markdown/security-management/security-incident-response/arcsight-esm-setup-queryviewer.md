@@ -2,7 +2,7 @@
 title: Set up the ArcSight ESM Query Viewer
 description: Create a query viewer and define filters that will include recently created correlation events that will be ingested ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-setup-queryviewer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/arcsight-esm-setup-queryviewer.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

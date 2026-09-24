@@ -2,7 +2,7 @@
 title: Compare MetricBase data with spend data
 description: Compare MetricBase \(Clotho\) data with your Spend data for Amazon Web Services \(AWS\), Microsoft Azure, and Google Cloud Platform \(GCP\) to diagnose and troubleshoot Cloud Cost Management billing issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/compare-metricbase-spend.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/compare-metricbase-spend.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -87,5 +87,5 @@ If there are any errors, the **Work notes** field of this request item is update
 
 Select the **Requested Items** tab and then select the Requested Items number to navigate to the CSV file. In the Attachments section, you can find the CSV file. Download this file to analyze any mismatch in the cost values from both of the sources. You can also filter the data according to your requirements.
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

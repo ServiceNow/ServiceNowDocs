@@ -2,7 +2,7 @@
 title: Matching rules for prioritized intraday optimization
 description: Understand how matching rules identify and filter tasks and technicians affected by prioritized events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/matching-rules-for-prioritized-intraday-optimization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/matching-rules-for-prioritized-intraday-optimization.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -16,7 +16,7 @@ breadcrumb: [Optimization for prioritized events, Intraday optimization, Schedul
 
 Understand how matching rules identify and filter tasks and technicians affected by prioritized events.
 
-You can apply matching rules to prioritized event optimization for improved control over job assignments. Matching rules are only available when [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md) is enabled. [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md) can't be used with optimization configurations that use assignment groups.
+You can apply matching rules to prioritized event optimization for improved control over job assignments. Matching rules are only available when [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/territory-based-optimization.md) is enabled. [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/territory-based-optimization.md) can't be used with optimization configurations that use assignment groups.
 
 ## How matching rules work
 
@@ -47,15 +47,15 @@ If you installed the Field Service Management Demo Data plugin, two example matc
 
 ## Configuration overview
 
--   To enable matching rules for your intraday configuration, see [Set up prioritized intraday optimization with matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/set-up-prioritized-intraday-optimization-with-matching-rules.md).
--   To create your own matching rule, see [Create matching rules for intraday events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-matching-rules-for-intraday-events.md).
+-   To enable matching rules for your intraday configuration, see [Set up prioritized intraday optimization with matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/set-up-prioritized-intraday-optimization-with-matching-rules.md).
+-   To create your own matching rule, see [Create matching rules for intraday events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/create-matching-rules-for-intraday-events.md).
 
 **Related topics**  
 
 
-[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
+[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
-[Optimizing technician schedules in response to urgent events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/triggering-optimization-on-task-or-agent-availability-change.md)
+[Optimizing technician schedules in response to urgent events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/triggering-optimization-on-task-or-agent-availability-change.md)
 

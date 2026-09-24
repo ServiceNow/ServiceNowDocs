@@ -2,7 +2,7 @@
 title: Drilling down within Core UI reports
 description: You can drill down within a report to visualize a subset of its data. For example, you can click on the critical section of a report sorted by priority to view the categories of those critical incidents.You can define a report drilldown to enable reporting users to view subsets of the report data. When you define a report drilldown, it applies only to the report for which you define it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_DrillingDownWithinReports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/c\_DrillingDownWithinReports.html
 release: australia
 product: Reporting
 classification: reporting
@@ -18,7 +18,7 @@ You can drill down within a report to visualize a subset of its data. For exampl
 
 For reports with a defined drilldown, click on a portion of the chart to display a subset of data. The subset may use a different chart type. In the example, the user clicks on the critical incidents in a bar chart to reveal the categories of critical incidents in a semi-donut chart.
 
-**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md).
+**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-chart-interactions.md).
 
 \[Omitted image "drilldown-example-2.png"\] Alt text: Drilldown example with two report types
 
@@ -26,7 +26,7 @@ All chart types except for list, histogram, calendar, control, box, and trendbox
 
 **Note:** Drilldown reports do not export to PDF. If you select **Export to PDF** on a drilldown, a PDF of the top level report is generated.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Define a report drilldown
 
@@ -62,7 +62,7 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 7.  Select the report **Type** to display the data and select **Next**.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md). The drilldown report type can be different than the parent report.
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md). The drilldown report type can be different than the parent report.
 
 8.  Configure the drilldown report the same way you would configure any other report.
 

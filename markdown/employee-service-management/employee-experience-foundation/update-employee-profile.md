@@ -2,7 +2,7 @@
 title: View employee profile
 description: View the employee profile with your personal information from the employee portal and Now Mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/update-employee-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/update-employee-profile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -24,7 +24,7 @@ You can view and edit the employee profile from the portal from the header. The 
 
 The admin can use the instance options to configure the visibility of the left navigation menu by selecting the **Widget overview panel** check box.
 
-**Note:** From Employee Profile version 11.0.3, the Widget overview panel check box is configured from the [Profile Portal Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-portal-profile-config.md).
+**Note:** From Employee Profile version 11.0.3, the Widget overview panel check box is configured from the [Profile Portal Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-portal-profile-config.md).
 
 \[Omitted image "employee-profile-new.png"\] Alt text: Employee profile on portal
 
@@ -38,9 +38,9 @@ Specify your data visibility and privacy preferences by marking the field inform
 -   Manage the profile data visibility and privacy.
 -   Learn more about your team and organizational structures.
 
-For more information, see [Configure the Employee Profile overview widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-employee-profile-widget.md).
+For more information, see [Configure the Employee Profile overview widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-employee-profile-widget.md).
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
@@ -77,7 +77,7 @@ For more information, see [Configure the Employee Profile overview widget](https
 
 [Use Guided Self-Service]()
 
-[Modify the employee profile widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-employee-profile-instance-options.md)
+[Modify the employee profile widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-employee-profile-instance-options.md)
 
-[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
+[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 

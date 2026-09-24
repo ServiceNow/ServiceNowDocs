@@ -2,7 +2,7 @@
 title: Enable access to Supplier Collaboration Portal
 description: Enable users to access the Supplier Collaboration Portal either by configuring the user criteria or by running the fix script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/enable-access-supp-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/enable-access-supp-central.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -49,7 +49,7 @@ Run the fix script.
 
 </td><td>
 
-Complete the steps listed in [Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md).
+Complete the steps listed in [Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md).
 
 </td></tr></tbody>
 </table>
@@ -57,13 +57,13 @@ Complete the steps listed in [Run the fix script to enable access to Supplier Co
 
 The access is granted and the suppliers can now self-register.
 
--   **[Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md)**  
+-   **[Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md)**  
 After you install the Supplier Collaboration Portal, you must run the fix script to enable access to the portal.
 
-**Parent Topic:**[Post installation mandatory step for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.md)
+**Parent Topic:**[Post installation mandatory step for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.md)
 
 **Related topics**  
 
 
-[Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md)
+[Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md)
 

@@ -2,7 +2,7 @@
 title: Properties installed with Operational Resilience
 description: When you install the Operational Resilience application, several system properties are added to your instance. You may not need to modify these properties. The user with the sn\_oper\_res.admin role can maintain these properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/props-installed-with-or.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/props-installed-with-or.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

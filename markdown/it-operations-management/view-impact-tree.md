@@ -2,7 +2,7 @@
 title: View unified service map and the impact paths in Service Operations Workspace
 description: Visualize relationships between Configuration Items \(CIs\) and alerts with real-time updates and detailed impact paths. Enhance troubleshooting and proactive management by quickly identifying root causes and dependencies for both discovered services and application services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/view-impact-tree.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/view-impact-tree.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ You can also investigate a wider view of the service topology on the service map
 
     The Service Dashboard page appears.
 
-    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/add-impact-cal-services.md).
+    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/add-impact-cal-services.md).
 
 3.  Select a service tile.
 
@@ -82,5 +82,5 @@ You can also investigate a wider view of the service topology on the service map
     \[Omitted image "sow-servicemap-alert-details-page.png"\] Alt text: Alert details page.
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/workspace-dashboard-use.md)
 

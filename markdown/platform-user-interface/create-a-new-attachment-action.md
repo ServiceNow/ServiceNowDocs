@@ -2,7 +2,7 @@
 title: Create an attachment action button
 description: Create an attachment action and add the button to a workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-a-new-attachment-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/create-a-new-attachment-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

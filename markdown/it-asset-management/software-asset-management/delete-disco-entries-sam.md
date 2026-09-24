@@ -2,7 +2,7 @@
 title: Delete uninstalled software from the Software Installation table
 description: Delete installations from the Software Installation \[cmdb\_sam\_sw\_install\] table if those software installations are also uninstalled from a CI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/delete-disco-entries-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/delete-disco-entries-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -57,5 +57,5 @@ You can also delete software installation records for specific publishers like O
         The software installations are deleted from the Software Installation \[cmdb\_sam\_sw\_install\] table.
 
 
-**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

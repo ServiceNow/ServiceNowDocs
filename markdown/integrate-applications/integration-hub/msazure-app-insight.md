@@ -2,7 +2,7 @@
 title: Microsoft Azure Application Insights Spoke
 description: Manage queries, events, and metrics in Microsoft Azure Application Insights account from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/msazure-app-insight.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/msazure-app-insight.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -69,5 +69,5 @@ The Microsoft Azure Application Insights spoke provides actions to automate  tas
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Azure Application Insights spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msazure-app-insight.md).
+For information about setting up the spoke, see [Set up the Azure Application Insights spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-msazure-app-insight.md).
 

@@ -2,7 +2,7 @@
 title: Install ReleaseOps
 description: Install ReleaseOps from the ServiceNow Store for the first time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/install-releaseops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/install-releaseops.html
 release: australia
 product: ReleaseOps
 classification: releaseops

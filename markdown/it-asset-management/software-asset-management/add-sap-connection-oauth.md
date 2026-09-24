@@ -2,7 +2,7 @@
 title: Establish an SAP connection using OAuth 2.0
 description: Create a connection profile to establish a connection between your SAP system and your ServiceNow instance using OAuth 2.0 authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/add-sap-connection-oauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/add-sap-connection-oauth.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -276,7 +276,7 @@ The SAP connection is established.
 
 You can start creating software models and entitlements.
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

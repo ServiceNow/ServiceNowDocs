@@ -2,7 +2,7 @@
 title: Configure resource order fulfillment policy using Decision Tables
 description: Associate fulfillment subflows with the resource specifications by using the Resource Order Fulfillment Policy in Decision Tables for move order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-resource-order-fulfillment-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-resource-order-fulfillment-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,12 +45,12 @@ Add rows to the Resource Order Fulfillment Policy decision table to specify whic
 
 A list of subflows appear in the results section. These sub flows create the fulfillment tasks for an order line item during the fulfillment process. For more information, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-builder-user-interface.md).
 
-**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
 **Related topics**  
 
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 
-[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md)
 

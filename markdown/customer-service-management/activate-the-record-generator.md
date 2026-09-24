@@ -2,7 +2,7 @@
 title: Activate the record generator
 description: Activate the record generator to the portal case and display the new guided playbook to the user. Portal users can navigate through the playbook steps to complete the case intake.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-the-record-generator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-the-record-generator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

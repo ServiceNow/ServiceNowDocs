@@ -2,7 +2,7 @@
 title: Send observables to EDR
 description: Send observables to the EDR security tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/send-to-edr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/send-to-edr.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -59,7 +59,7 @@ Role required: sn\_sec\_tisc.analyst
     **Note:**
 
     -   After the execution is initiated or completed, a work note is posted on the activity stream of the form.
-    -   **Send to EDR** action is also available on the observables list under **Artifacts** tab for a case record. For more information, see [Add artifacts to cases or case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md).
+    -   **Send to EDR** action is also available on the observables list under **Artifacts** tab for a case record. For more information, see [Add artifacts to cases or case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md).
 
-**Parent Topic:**[CrowdStrike Falcon EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/crowdstrike-edr-integration.md)
+**Parent Topic:**[CrowdStrike Falcon EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/crowdstrike-edr-integration.md)
 

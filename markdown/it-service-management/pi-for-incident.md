@@ -2,7 +2,7 @@
 title: Predictive Intelligence for Incident
 description: Use your instance records to build Incident Management -specific solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/pi-for-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/pi-for-incident.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ These solution definitions are available as templates on instances where both Pr
 
 For more information on similarity solution, refer [Create similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
 
-**Parent Topic:**[Request Predictive Intelligence for Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-predictive-intelligence-for-im.md)
+**Parent Topic:**[Request Predictive Intelligence for Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-predictive-intelligence-for-im.md)
 

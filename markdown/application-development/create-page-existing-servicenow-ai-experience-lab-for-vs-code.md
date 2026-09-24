@@ -2,7 +2,7 @@
 title: Create a page
 description: Create a new page for an existing experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/create-page-existing-servicenow-ai-experience-lab-for-vs-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/create-page-existing-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: task
 last_updated: "2026-08-06"
@@ -102,7 +102,7 @@ ServiceNow instance
 
 1.  In the ServiceNow Lux Lab for VS Code extension, open an experience that extends an existing experience.
 
-    For more information about extending existing experiences, see [Extend an existing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.md).
+    For more information about extending existing experiences, see [Extend an existing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.md).
 
 2.  Access the command palette by pressing Ctrl+Shift+P on Windows or Command+Shift+P on macOS, or by navigating to **View** &gt; **Command Palette**.
 
@@ -110,11 +110,11 @@ ServiceNow instance
 
 4.  From the list, select **AIUX: New Page**.
 
-    You can also create pages that extend existing pages. For more information, see [Extend an existing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/extend-existing-page-servicenow-ai-experience-lab-for-vs-code.md).
+    You can also create pages that extend existing pages. For more information, see [Extend an existing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/extend-existing-page-servicenow-ai-experience-lab-for-vs-code.md).
 
 5.  Enter a display name for the page and select the Enter key.
 
-    **Important:** The display name you enter must be unique. If the display name matches the name of another page in your extension experience, the new page will override the existing page with the same name. For more information about overriding pages, see [Override an existing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/override-existing-page-servicenow-ai-experience-lab-for-vs-code.md).
+    **Important:** The display name you enter must be unique. If the display name matches the name of another page in your extension experience, the new page will override the existing page with the same name. For more information about overriding pages, see [Override an existing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/override-existing-page-servicenow-ai-experience-lab-for-vs-code.md).
 
 6.  Enter a URL route for the new page and select the Enter key.
 
@@ -127,7 +127,7 @@ Your new page is created. You can now add elements to the page and preview as ne
 
 ## What to do next
 
--   [Preview a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.md)
--   [Add a page to the navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.md)
--   [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md)
+-   [Preview a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.md)
+-   [Add a page to the navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.md)
+-   [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md)
 

@@ -2,7 +2,7 @@
 title: System properties for Proactive analytics
 description: Several system properties that affect the generation of insights cards are available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/proactive-analytics/system-props-proactive-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/proactive-analytics/system-props-proactive-analytics.html
 release: australia
 product: Proactive Analytics
 classification: proactive-analytics

@@ -2,7 +2,7 @@
 title: Create a claim for a payment inquiry case
 description: Create a claim for an internal payment inquiry case when its investigation indicates that it's a valid claim and the customer is entitled to a refund.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/create-claim-case-inquiry-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-payment-operations/create-claim-case-inquiry-case.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -55,7 +55,7 @@ You can set a case as a valid claim and create a claim for it only if it's an in
 
 -   A claim case for the payment inquiry case is created and assigned to an assignment group or a claim agent based on the configured assignment rules. The payment inquiry is now tracked via the claim case.
 
-    You can view the case details by clicking the link in the case creation message. For more information on claims, see [Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md).
+    You can view the case details by clicking the link in the case creation message. For more information on claims, see [Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md).
 
 -   The customer gets a pre-configured email notification about the new claim case.
 -   If there's a Customer or Consumer Service Portal available for customers, the new claim case appears on the portal.
@@ -67,7 +67,7 @@ You can set a case as a valid claim and create a claim for it only if it's an in
 
 ## What to do next
 
-You can close the associated inquiry case as the request is now tracked via the claim case. For more information, see [Close a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.md).
+You can close the associated inquiry case as the request is now tracked via the claim case. For more information, see [Close a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.md).
 
-**Parent Topic:**[Investigate a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/investigate-payment-inquiry-case.md)
+**Parent Topic:**[Investigate a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/investigate-payment-inquiry-case.md)
 

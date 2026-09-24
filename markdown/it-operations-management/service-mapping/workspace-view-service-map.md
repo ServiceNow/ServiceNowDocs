@@ -2,7 +2,7 @@
 title: View maps for application services in legacy Agent Workspace
 description: Use maps to see the details of application services. Maps show configuration items \(CIs\) making up application services, connections between these CIs and other service-related details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/workspace-view-service-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/workspace-view-service-map.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -22,7 +22,7 @@ Role required: sm\_app\_owner, service\_mapping\_user, evt\_mgmt\_admin, evt\_mg
 
 ## About this task
 
-The service instance map in the Event Management view reflects the severity status of CIs belonging to the service instance. For more information about viewing service details on maps, see [Application service maps in legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/workspace-application-service-map.md).
+The service instance map in the Event Management view reflects the severity status of CIs belonging to the service instance. For more information about viewing service details on maps, see [Application service maps in legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/workspace-application-service-map.md).
 
 ## Procedure
 
@@ -46,15 +46,15 @@ The service instance map in the Event Management view reflects the severity stat
 
 6.  Display additional information for a CI or application service itself by displaying related records such as alerts, outages, incidents, and problems.
 
-    For more information, see [Modify view for an application service map in legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/workspace-modify-map-view.md).
+    For more information, see [Modify view for an application service map in legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/workspace-modify-map-view.md).
 
 7.  To access the service map in the standard Event Management UI that provides full map-related functionality, click **Full map**.
 
 
-**Parent Topic:**[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)
+**Parent Topic:**[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)
 
 **Related topics**  
 
 
-[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
+[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 

@@ -2,7 +2,7 @@
 title: Download versions from cloud
 description: Download document versions from an external cloud to Document Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/sync-versions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/sync-versions.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -18,7 +18,7 @@ Download document versions from an external cloud to Document Management.
 
 ## Before you begin
 
-[Configure permission for roles or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/configure-permissions-mp.md) by selecting the **mp\_document\_admin** from the document list.
+[Configure permission for roles or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/configure-permissions-mp.md) by selecting the **mp\_document\_admin** from the document list.
 
 Role required: mp\_document\_admin
 
@@ -37,5 +37,5 @@ Role required: mp\_document\_admin
 5.  Select **Open Cloud URL** at the top to open the document in the external cloud.
 
 
-**Parent Topic:**[Document Management integration with external content providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/integration-external-content-providers.md)
+**Parent Topic:**[Document Management integration with external content providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/integration-external-content-providers.md)
 

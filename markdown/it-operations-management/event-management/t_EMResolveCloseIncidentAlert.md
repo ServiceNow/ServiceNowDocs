@@ -2,7 +2,7 @@
 title: Resolve an incident related to an alert
 description: When you resolve an incident that is associated with an alert, the alert can also close according to the evt\_mgmt.incident\_closes\_alert property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMResolveCloseIncidentAlert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMResolveCloseIncidentAlert.html
 release: australia
 product: Event Management
 classification: event-management
@@ -31,5 +31,5 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator, or evt\_mgmt\_user
     The alert may not close immediately when the incident is closed. Depending on the value of the **evt\_mgmt.alert\_rule\_close\_delay** parameter, the alert may close 5 seconds after the last alert update. This value \(in seconds\) is defined in the parameter. To use the property, you need to create the property with the same name and assign the required value to it. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 
-**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/c_EMAlert.md)
 

@@ -2,7 +2,7 @@
 title: Scheduled jobs for Microsoft 365
 description: Your Microsoft 365 integration profile is set to fetch subscription and usage information automatically from the Microsoft 365 Admin Center on a schedule. If needed, you can also manually run the following scheduled jobs to get this information. Each job must be complete before starting the next one.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/m365-scheduled-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/m365-scheduled-jobs.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -23,10 +23,10 @@ Your Microsoft 365 integration profile is set to fetch subscription and usage in
 |3|SAM - Create New Reclamation Candidates for Office 365 Integration|Weekly|Generates removal candidates for Microsoft 365 and Office 365.|
 |4|SAM - Microsoft 365 Daily Job|Daily|Populates charts based on the data available in the subscription table and reclamation candidate table.|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 
 **Related topics**  
 
 
-[Integrating with Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/integrate-with-microsoft.md)
+[Integrating with Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/integrate-with-microsoft.md)
 

@@ -2,7 +2,7 @@
 title: Dynamic Translation for Agent Chat overview
 description: Dynamic Translation for Agent Chat \(DTAC\) translates chat conversations from one language to another. This translating enables agents and requesters to have chat conversations with each other without the need of a shared language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/ci-dtac-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation/ci-dtac-overview.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -27,10 +27,10 @@ DTAC enables cross-locale support teams and merger and acquisition projects to s
 
 ## How DTAC works
 
-DTAC uses [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md) and a translation service provider to translate chat conversations in real time. Available translation service providers include:
+DTAC uses [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation.md) and a translation service provider to translate chat conversations in real time. Available translation service providers include:
 
--   [Set up Google cloud translator service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/setup-google-translator.md)
--   [Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/microsoft-translation-spoke.md)
+-   [Set up Google cloud translator service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/setup-google-translator.md)
+-   [Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/microsoft-translation-spoke.md)
 -   Microsoft Azure OEM
 
 ## Mobile clients

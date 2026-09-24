@@ -2,7 +2,7 @@
 title: Customize the Service Operations Workspace for ITOM home page
 description: You can customize the data displayed in sub pages of the home page that is available in the base system. For any visual styling changes, you need to create a copy of that landing page and edit it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/customize-sow-landing-page-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/customize-sow-landing-page-itom.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,16 +15,16 @@ breadcrumb: [Configure, ITOM AIOps, IT Operations Management]
 
 You can customize the data displayed in sub pages of the home page that is available in the base system. For any visual styling changes, you need to create a copy of that landing page and edit it.
 
--   **[Modify the greeting text on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/modify-greeting-text-itom.md)**  
+-   **[Modify the greeting text on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/modify-greeting-text-itom.md)**  
 Customize the header message that is a part of the greeting text on the home page. This creates a personalized user experience and sets the right tone for the information presented.
--   **[Modify the first-level cards in the Service Operations Workspace for ITOM Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/customize-first-level-cards-itom.md)**  
+-   **[Modify the first-level cards in the Service Operations Workspace for ITOM Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/customize-first-level-cards-itom.md)**  
 Customize the data displayed in the first-level cards in the Overview section. Configure parameters such as header label, data source, metric, group by field, and viewAllQuery for tailored information display.
--   **[Create a copy of the Service Operations Workspace for ITOM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-copy-sow-landing-page-itom.md)**  
+-   **[Create a copy of the Service Operations Workspace for ITOM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-copy-sow-landing-page-itom.md)**  
 Make visual styling changes to the sub-pages in the home page. This will enhance the overall user experience by providing a consistent and visually appealing interface, improving navigation, and ensuring that key information is easily accessible and engaging.
--   **[Open your configurable workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/open-workspace-ui-builder-sow-itom.md)**  
+-   **[Open your configurable workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/open-workspace-ui-builder-sow-itom.md)**  
 Access your Configurable Workspace experience in UI Builder for editing.
--   **[Redirect to the Service Operations Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/redirect-sow-landing-page-itom.md)**  
+-   **[Redirect to the Service Operations Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/redirect-sow-landing-page-itom.md)**  
 Enable quick task prioritization by directing agents to the homepage immediately upon logging into the ServiceNow instance. This improves workflow efficiency by granting agents immediate access to essential tools and information, facilitating the timely resolution of critical tasks and issues.
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-sow-itom.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-sow-itom.md)
 

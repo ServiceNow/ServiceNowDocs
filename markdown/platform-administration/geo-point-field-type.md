@@ -2,7 +2,7 @@
 title: Geo point field type
 description: The geo point data type stores longitude and latitude coordinates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/geo-point-field-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/geo-point-field-type.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ Function fields provide several glidefunction operations for working with geo po
     ```
 
 
-See [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
+See [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-support-functions.md).
 
 Values for geo points are in longitude, latitude format where:
 

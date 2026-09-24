@@ -2,7 +2,7 @@
 title: Applicant Center
 description: Improve your speed and quality of hire by continually engaging with the applicants on a personalized applicant portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/applicant-center-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/applicant-center/applicant-center-concept.html
 release: australia
 product: Applicant Center
 classification: applicant-center

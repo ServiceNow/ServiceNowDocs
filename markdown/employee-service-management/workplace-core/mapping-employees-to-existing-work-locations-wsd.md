@@ -2,7 +2,7 @@
 title: Mapping employees to their designated workspaces
 description: Map your employees to their designated workplace locations in Workplace Core automatically to fill in that detail in reservation requests and to take advantage of auto-assignment of workspaces if that feature has been enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/mapping-employees-to-existing-work-locations-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/mapping-employees-to-existing-work-locations-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -30,18 +30,18 @@ The data from the User Workplace Profile \[sn\_wsd\_core\_workplace\_profile\] t
 
 **Note:** From Workplace Core version 2.16.1, the workplace user profiles are created in the Workplace Profile Location Assignment \[sn\_wsd\_core\_workplace\_profile\_location\] table. A new field **Is Primary** is added in the table so that you can specify if a location is the primary location when there are multiple locations. In case of existing user profiles created in the User Workplace Profiles \[sn\_wsd\_core\_workplace\_profile\] table, a fix script runs and automatically considers the latest workplace location added to the profile as the primary workplace location.
 
-If you have installed Workplace Space Management application, as a Workplace manager, you can also view the reason for an anomaly in a workplace profile if there are any. A schedule job also enables you to view a detailed report of all the anomalies logged in the application via an email. Navigate to **Workplace Core** &gt; **Administration** &gt; **Workplace profiles** and switch to the Space Management view, a **Reason for anomaly** column appears as a Glide list. An anomaly can happen due to a mismatch in the allocation or assignment type. For more information about anomalies, see [Workplace location assignment anomaly types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/location-assignment-anomaly-types.md).
+If you have installed Workplace Space Management application, as a Workplace manager, you can also view the reason for an anomaly in a workplace profile if there are any. A schedule job also enables you to view a detailed report of all the anomalies logged in the application via an email. Navigate to **Workplace Core** &gt; **Administration** &gt; **Workplace profiles** and switch to the Space Management view, a **Reason for anomaly** column appears as a Glide list. An anomaly can happen due to a mismatch in the allocation or assignment type. For more information about anomalies, see [Workplace location assignment anomaly types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/location-assignment-anomaly-types.md).
 
 From Workplace Space Management 1.12.0, only open spaces from the user's allocation type that are within the allocation start and end dates are listed. After an allocation expires, the anomaly is recalculated to the appropriate value.
 
 **Important:** Starting from Workplace Core version 2.16.1, the allocation type **Department and cost center** are no longer available. A new allocation type, **Workplace entity** is introduced that provides more advantages.
 
--   **[Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md)**  
+-   **[Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md)**  
 Map existing designated workspaces to employee user profiles in Workplace Core. This mapping is used to automatically allocate workspaces for employees so they don't have to select a workspace manually when requesting a reservation.
--   **[Set the primary location of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/set-prim-location-of-worplace-profile.md)**  
+-   **[Set the primary location of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/set-prim-location-of-worplace-profile.md)**  
 Assign a primary location for the workplace profile if there are multiple locations assigned.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

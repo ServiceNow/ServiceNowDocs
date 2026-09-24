@@ -2,7 +2,7 @@
 title: Create Operational vulnerability form
 description: On the Create New Operational vulnerability form, fill in the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-op-vul-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-op-vul-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

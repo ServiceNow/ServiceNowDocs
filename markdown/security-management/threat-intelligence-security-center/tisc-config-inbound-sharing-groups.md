@@ -2,7 +2,7 @@
 title: Configuring Outbound Intel Sharing Groups
 description: Outbound Intel Sharing Groups allow you to combine multiple profiles and use them collectively when sharing data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-config-inbound-sharing-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-config-inbound-sharing-groups.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -59,7 +59,7 @@ Role required: sn\_sec\_tisc.admin
     **Note:** An information message is displayed indicating that the selected outbound intelligence profile\(s\) have been added or removed to this group. This message is displayed with the respect to the action either Add or Remove you select.
 
 
-**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
+**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
 
 **Related topics**  
 

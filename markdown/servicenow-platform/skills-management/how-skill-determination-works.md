@@ -2,7 +2,7 @@
 title: Learn how Skill Determination works
 description: Use Skill Determination to add skills to incoming work items so that agents with those skills can work on it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/how-skill-determination-works.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/skills-management/how-skill-determination-works.html
 release: australia
 product: Skills Management
 classification: skills-management
@@ -63,5 +63,5 @@ A business rule has been created on the incident table that's set to trigger whe
 The business rule looks up all Skill Determination rules where the incident table is set as the source table. The business rule then triggers the Skill Determination rule that has one of the conditions set as the **\[Short description\] \[contains\] \[VPN\]**.The Skill Determination rule has the skills **Router, Switch,** and **Network** skills in the Skills related list. When triggered, these skills are added to the incident with the short description 'VPN not working'.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skill-based-routing.md)
+</table>**Parent Topic:**[Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/skills-management/skill-based-routing.md)
 

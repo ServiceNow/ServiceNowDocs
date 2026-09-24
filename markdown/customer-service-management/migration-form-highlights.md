@@ -2,7 +2,7 @@
 title: Highlights
 description: Learn how Workspace highlights function with Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-form-highlights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-form-highlights.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ An additional highlighted value configuration is provided out of box, CSM/FSM Co
 -   Legacy highlighted values in form headers work without modification, but may affect the functionality of Configurable Workspace.
 -   Highlighted values must be added to a highlighted value configuration to appear in Configurable Workspace.
 
-For more information, see [Set up a highlighted value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-highlight-value.md).
+For more information, see [Set up a highlighted value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-highlight-value.md).
 

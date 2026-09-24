@@ -2,7 +2,7 @@
 title: Configure automatic updates for entity owner and class
 description: Configure an entity filter to automatically update entity owner and class when source data changes or an entity moves between filters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-automatic-updates-for-entity-owner-and-entity-class.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/configure-automatic-updates-for-entity-owner-and-entity-class.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -56,5 +56,5 @@ If multiple entity filters can derive owner and class values for the same entity
 
 The system automatically re-evaluates and updates the entity owner and entity class when source record changes or entity filter membership changes affect the entity.
 
-**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
+**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
 

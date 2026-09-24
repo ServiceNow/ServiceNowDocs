@@ -2,7 +2,7 @@
 title: Exporting and importing data via XML
 description: Migrate data from one instance to another by exporting and importing XML files.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_ExportAndImportXMLFiles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/c\_ExportAndImportXMLFiles.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management

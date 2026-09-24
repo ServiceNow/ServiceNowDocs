@@ -2,7 +2,7 @@
 title: SSHCommand probe
 description: A probe using the ECC queue topic name SSHCommand executes a shell command on the target host, and returns the resulting output to the sensor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_SSHCommandProbe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c\_SSHCommandProbe.html
 release: australia
 product: Discovery
 classification: discovery
@@ -23,16 +23,16 @@ Discovery supports Bourne Shell \(sh\) and Bourne-again Shell \(bash\) commands.
 
 **Note:** To discover network devices, such as routers and switches, use [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md) credentials, not SSH credentials.
 
--   **[SSHCommand parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_Parameters.md)**  
+-   **[SSHCommand parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_Parameters.md)**  
 Several parameters are available for the SSHCommand probe.
--   **[SSHCommand path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SSHCommandPath.md)**  
+-   **[SSHCommand path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_SSHCommandPath.md)**  
 The SSHCommand probe computes the default path from the following sources.
--   **[Shell script options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ShellScriptOptions.md)**  
+-   **[Shell script options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ShellScriptOptions.md)**  
 The SSHCommand probe supports the following scripting options in the ECC queue name field.
--   **[Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-probe-commands.md)**  
+-   **[Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-ssh-probe-commands.md)**  
 These tables display the SSH commands run by Discovery probes on target devices during horizontal discovery. These SSH commands don’t require elevated privileges to run.
--   **[Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-command-require-priv.md)**  
+-   **[Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-ssh-command-require-priv.md)**  
 These tables display the SSH commands run by Discovery probes during horizontal discovery. These SSH commands require elevated privileges to run.
 
-**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 

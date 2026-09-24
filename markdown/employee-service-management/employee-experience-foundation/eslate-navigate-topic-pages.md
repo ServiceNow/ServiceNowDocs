@@ -2,7 +2,7 @@
 title: Use topic pages
 description: Use topic pages to discover content, access subtopics, and find relevant knowledge articles and catalog items through the browse experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-navigate-topic-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-navigate-topic-pages.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

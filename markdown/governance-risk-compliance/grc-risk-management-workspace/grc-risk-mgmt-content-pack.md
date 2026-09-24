@@ -2,7 +2,7 @@
 title: Analytics and reporting solutions for Risk Management
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -36,28 +36,28 @@ The following reports and dashboards are available in the Risk Management applic
 
 Starting with version 18.1.0 of the Risk Management application, the Analytics and Reporting solutions for Risk Management are available in the Next Experience UI Framework.
 
--   **[Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-heatmaps-in-ws.md)**  
+-   **[Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-heatmaps-in-ws.md)**  
 As an operational risk manager, you can configure and manage your risk heatmaps in the Risk Workspace.
--   **[Risk heatmap for classic risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-classic-risk-assessment.md)**  
+-   **[Risk heatmap for classic risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-classic-risk-assessment.md)**  
 As an operational risk manager, if you opt to use the classic risk assessment to assess the risks in your organization, you can view the risk heatmap to get an overview of the risk posture for your organization.
--   **[Risk heatmap workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-workbench.md)**  
+-   **[Risk heatmap workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-workbench.md)**  
 As an operational risk manager, you can visualize the risk details and better understand the risk posture of your entity by using the risk heatmap workbench in the Advanced Risk application.
--   **[Operational Risk Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/operational-risk-dashboard.md)**  
+-   **[Operational Risk Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/operational-risk-dashboard.md)**  
 The Operational Risk Management dashboard enables an entity owner, with the role sn\_risk.user, to view the complete risk posture for the enterprise in a single consolidated report. This dashboard makes it easy to analyze the risk posture efficiently and take necessary corrective actions to ensure that there are no losses.
--   **[Project Risk Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/project-risk-dashboard.md)**  
+-   **[Project Risk Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/project-risk-dashboard.md)**  
 The project risk dashboard is useful for project managers and the enterprise risk managers. Using this dashboard, the project managers and enterprise risk managers can view the risk performance and the overall risk posture. This dashboard helps risk managers to reduce the overall risks in an organization.
--   **[Risk Identification Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-identification-overview-dashboard.md)**  
+-   **[Risk Identification Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-identification-overview-dashboard.md)**  
 The risk identification dashboard is useful for risk managers and helps them to keep a track of various records or objects which are in transit in the risk identification workflow.
--   **[Basel dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/basel-dashboard.md)**  
+-   **[Basel dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/basel-dashboard.md)**  
 The Basel dashboard is a medium to share the Basel reports with external regulators for Basel regulations. This dashboard is useful for banking and financial domains where it is compulsory to share the Basel reports.
--   **[GRC Risk Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-dashboards.md)**  
+-   **[GRC Risk Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/grc-risk-dashboards.md)**  
 The Risk Overview dashboard provides an executive view into the status and workflows of inherent and residual enterprise and IT risks. The user can drill down into risks by framework, response, and exception.
--   **[Advanced Governance, Risk, and Compliance Application Risk dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/advanced-grc-dashboard.md)**  
+-   **[Advanced Governance, Risk, and Compliance Application Risk dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/advanced-grc-dashboard.md)**  
 The GRC **Application Risk and Compliance Overview Dashboard** provides the latest view of risk and compliance aspects for the business applications that are used in an enterprise.
--   **[Performance Analytics dashboards for risk events and risk hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/pa-dashboard-risk-events-risk-hierarchy.md)**  
+-   **[Performance Analytics dashboards for risk events and risk hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/pa-dashboard-risk-events-risk-hierarchy.md)**  
 Use the Performance Analytics \(PA\) dashboards to view the comprehensive data for risk events and risk hierarchy. Use the Analytics Hub to view data for any time period.
--   **[Advanced risk assessment dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment-dashboard.md)**  
+-   **[Advanced risk assessment dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment-dashboard.md)**  
 Use the Advanced Risk Assessment Overview dashboard for an overview of the performance of any risk assessment methodology based on the risk assessment instances.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/r_WhatIsGRC.md)
 

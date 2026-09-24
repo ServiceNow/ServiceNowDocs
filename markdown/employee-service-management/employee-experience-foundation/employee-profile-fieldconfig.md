@@ -2,7 +2,7 @@
 title: Employee Profile form
 description: An option in the Employee Profile configuration that provides a list of employee profile fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-profile-fieldconfig.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-profile-fieldconfig.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -40,9 +40,9 @@ The following list of configurable fields indicates the personal, sensitive, and
 -   Updated \(Date/Time\)
 -   User Work phone
 
-For HR profile field configuration, see [HR profile editable field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileEditableFieldConfig.md).
+For HR profile field configuration, see [HR profile editable field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRProfileEditableFieldConfig.md).
 
-**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
@@ -105,5 +105,5 @@ For HR profile field configuration, see [HR profile editable field configuration
 
 [Website configuration form]()
 
-[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
+[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 

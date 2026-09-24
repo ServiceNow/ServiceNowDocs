@@ -2,7 +2,7 @@
 title: Create a Report Subsection Template
 description: Use the report subsection to further organize the section into multiple subsections and configure their alignment and position using the available types such as Text side panel, Primary, and Secondary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-report-subsection-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-report-subsection-template.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -122,7 +122,7 @@ Define the template subsection content.
 </table>7.  Save and **Submit** the new report template section.
 
 
-**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
+**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 
 **Related topics**  
 

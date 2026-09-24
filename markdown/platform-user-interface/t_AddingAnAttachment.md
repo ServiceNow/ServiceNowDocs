@@ -2,7 +2,7 @@
 title: Add and manage attachments
 description: You can upload a file as an attachment to an incident, a knowledge article, a change request, or to another type of record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_AddingAnAttachment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_AddingAnAttachment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -57,7 +57,7 @@ The default maximum size limit for an attachment file that can be added to a rec
 
         **Note:** The default setting for this property on an out-of-box instance is No \(unchecked\).
 
-    3.  For a file size error, see [Manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ManagingAttachments.md).
+    3.  For a file size error, see [Manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ManagingAttachments.md).
 
 7.  Close the pop-up window to return to the form.
 
@@ -66,10 +66,10 @@ The default maximum size limit for an attachment file that can be added to a rec
 
 Limit the users who can view attachments by applying ACL rules. For more information on ACL rules, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
 
--   **[Manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ManagingAttachments.md)**  
+-   **[Manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ManagingAttachments.md)**  
 View, rename, and remove the attachments on a record and adjust the maximum allowable size of attachments.
--   **[Attach files with drag-and-drop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AttachingFilesWithDragAndDrop.md)**  
+-   **[Attach files with drag-and-drop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_AttachingFilesWithDragAndDrop.md)**  
 You can drag files from your local computer into your browser window to attach them to the current record.
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UsingForms.md)
 

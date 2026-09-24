@@ -2,7 +2,7 @@
 title: Approval summarizer formatter
 description: The approval summarizer formatter creates the summary at the bottom of an approval form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/r\_ApprovalSummarizerFormatter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/r\_ApprovalSummarizerFormatter.html
 release: australia
 product: Approvals
 classification: approvals
@@ -24,10 +24,10 @@ The **Reject** button allows the approver to deny one or more requested items in
 
 **Note:** When the overall request is approved, you must ensure this **Reject** button is hidden. If this button is used after request approval, the requested item workflow is canceled, leaving the stage in an inconsistent state. Similarly, the **Accept** button on requested items should only appear before the overall request is approved or rejected.
 
--   **[Summarizers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_Summarizers.md)**  
+-   **[Summarizers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/c_Summarizers.md)**  
 Approval summarizers are stored in the Macro \[sys\_ui\_macro\] table.
 
-**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_Approvals.md)
+**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_Approvals.md)
 
 **Related topics**  
 

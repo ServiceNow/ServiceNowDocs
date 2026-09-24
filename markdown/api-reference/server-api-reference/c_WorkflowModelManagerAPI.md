@@ -2,7 +2,7 @@
 title: WorkflowModelManager - Global
 description: The WorkflowModelManager script include provides methods to query the workflow model, to step backwards and forwards between specified workflow history items, and to query the history for activity and transition-specific information.Creates a new WorkflowModelManager object \(constructor\) within the specified context.Retrieves the history activity that is cached by the wf\_history.sys\_id provided in the argument.Retrieves the history activities that executed and transitioned into the one represented by the sys\_id in the argument.Retrieves the history activities that executed and transitioned into the one represented by the sys\_id in the argument. The next status is based on the wf\_activity.sys\_id associated with the activity represented in the haRecord existing as a TO in a transition associated with any ActivityHistoryRecords that executed in the workflow's history. \(This differs from getPreviousByTransition, which returns only TO transitions that come before the haRecord in the execution sequence \(by time\).\) The return value is a collection of ActivityHistoryRecords that identify the argument haRecord.wfaId as their TO activity.This is the worker method that must be called to initialize the WorkflowModelManager object. In the process of initializing the WorkflowModelManager object, getExecutedHistory\(\) creates and populates the activityHistoryRecord data object array \(which is a member of the WorkflowModelManager class\). Most WorkflowModelManager methods return a subset of the activityHistoryRecord array. Your script can then call one or more of the activityHistoryRecord methods to accomplish further work.Queries the wf\_history table by context and retrieves all the activities executed in the workflow given by the context set in the construction of this object.Gets the list of wf\_history.sys\_ids of all activities that successfully executed and were not rolled back or skipped up to the moment the function was called.Retrieves the history activity that executed just after the one provided in the argument.Retrieves the history activity that is cached by the wf\_history.sys\_id provided in the argument and then calls into getNextByExecutedOrder\(\) with the retrieved JavaScript object.Retrieves the history activity that executed just after the one identified by the sys\_id provided in the argument.Retrieves the history activity that executed just previous to the one provided in the argument.Retrieves the history activity cached by the wf\_history.sys\_id provided in the argument, then calls getPreviousByExecutedOrder\(\) with the retrieved JavaScript object.Retrieves the history activities that executed just prior to the one provided in the argument.Retrieves the history activities that executed just prior to the one provided in the argument.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_WorkflowModelManagerAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_WorkflowModelManagerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -45,12 +45,12 @@ var model = new WorkflowModelManager('myContextId');
  model.dump();
 ```
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 **Related topics**  
 
 
-[WFActivityHandler - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_WFACtivityHandlerAPI.md)
+[WFActivityHandler - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_WFACtivityHandlerAPI.md)
 
 ## WorkflowModelManager - WorkflowModelManager\(String contextId\)
 

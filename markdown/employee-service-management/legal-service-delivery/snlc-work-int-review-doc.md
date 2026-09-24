@@ -2,7 +2,7 @@
 title: Work on internal review task
 description: As a contract reviewer, review and provide feedback on contract documents
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-work-int-review-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-work-int-review-doc.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d710009e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d710013e55">
 
 Method
 
-</th><th align="left" id="d710009e58">
+</th><th align="left" id="d710013e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d710009e64">
+</th></tr></thead><tbody><tr><td id="d710013e64">
 
 **My Work listing**
 
@@ -44,7 +44,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d710009e111">
+</td></tr><tr><td id="d710013e111">
 
 **Delegated to me listing**
 
@@ -56,7 +56,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d710009e158">
+</td></tr><tr><td id="d710013e158">
 
 **Contract Review Tasks listing**
 
@@ -68,7 +68,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d710009e205">
+</td></tr><tr><td id="d710013e205">
 
 **Contract Request Reviews tab**
 
@@ -107,15 +107,15 @@ Steps
 
     The reviewer can make edits to the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d710009e356">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d710013e356">
 
 Type of storage
 
-</th><th align="left" id="d710009e359">
+</th><th align="left" id="d710013e359">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d710009e365">
+</th></tr></thead><tbody><tr><td id="d710013e365">
 
 **Internal storage**
 
@@ -131,7 +131,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d710009e409">
+</td></tr><tr><td id="d710013e409">
 
 **External storage**
 
@@ -151,5 +151,5 @@ The attach file option is not available as the contract document is directly edi
 </table>    The review task will be closed, work notes are added to the Activity stream, and the State changes to Closed Complete.
 
 
-**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-expert-review.md)
 

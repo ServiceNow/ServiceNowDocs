@@ -2,7 +2,7 @@
 title: Create an action in Workflow Studio
 description: Create a reusable component to automate one or more steps of a process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -82,7 +82,7 @@ Type
 
 </td><td>
 
-Data type of the input. For supported data types, see [Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
+Data type of the input. For supported data types, see [Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md).
 
 </td></tr><tr><td>
 
@@ -166,24 +166,24 @@ Data used previously in the action either in a step or input. Adding a variable 
 
 ## What to do next
 
-[Test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md) until it is ready to be published. [See related flows for action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/see-related-flows-for-action.md) to verify that action changes will function in the flows that use the action.
+[Test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md) until it is ready to be published. [See related flows for action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/see-related-flows-for-action.md) to verify that action changes will function in the flows that use the action.
 
 **Note:** By default, the system only runs published actions.
 
--   **[Create an action input from a step input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action-input-from-step-input.md)**  
+-   **[Create an action input from a step input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-action-input-from-step-input.md)**  
 Create an action input based on the data type of a step input. Map the step input value to the new action input.
--   **[Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md)**  
+-   **[Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md)**  
 Test an action before publishing it for other users.
--   **[Copy an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/copy-action.md)**  
+-   **[Copy an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/copy-action.md)**  
 Copy an action to give it a new name and move it to another application scope.
--   **[Dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-inputs.md)**  
+-   **[Dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/dynamic-inputs.md)**  
 Generate a list of action inputs or input values each time that someone configures the action in a flow. Dynamic inputs can display a list of related action inputs, a list of fields from a record, or a list of options available in a choice list.
--   **[Dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-outputs.md)**  
+-   **[Dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/dynamic-outputs.md)**  
 Access action and subflow outputs as dynamically generated data pills during flow design. You can also build data gathering actions to generate complex objects from ServiceNow AI Platform and Integration Hub outputs.
--   **[Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md)**  
+-   **[Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md)**  
 Enable actions to catch step failures and continue running. Identify when specific error conditions occur and return your own action status code, status message, and error state.
--   **[Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/retry-policy.md)**  
+-   **[Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/retry-policy.md)**  
 Automatically retry failed requests when a step encounters an intermittent issue such as a network failure or request rate limit. Set a retry policy to prevent having to manually trigger the step again.
 
-**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md)
+**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/actions.md)
 

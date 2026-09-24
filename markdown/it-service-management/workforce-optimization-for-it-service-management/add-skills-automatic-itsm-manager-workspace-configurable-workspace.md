@@ -2,7 +2,7 @@
 title: Automatically add skills to incidents or interactions in Workforce Optimization for ITSM
 description: Define conditions for incidents or interactions and add skills required for those conditions using skill determination rules. When new incidents and interactions that are created meet these conditions, the skill determination business rule automatically adds the skills to those records. In the Workforce Optimization for ITSM Channels and Work scheduler applications, the work items get automatically assigned to the right agents based on the skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/add-skills-automatic-itsm-manager-workspace-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/add-skills-automatic-itsm-manager-workspace-configurable-workspace.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -51,5 +51,5 @@ The table below shows the skill determination rules available for Workforce Opti
     For information, see [Create Skill Determination rules to assign skills to work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/conf-simple-skill-determination-rule.md).
 
 
-**Parent Topic:**[Routing work based on skills in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/skill-determination-configurable-wfo-itsm.md)
+**Parent Topic:**[Routing work based on skills in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/skill-determination-configurable-wfo-itsm.md)
 

@@ -2,7 +2,7 @@
 title: Personalize List, Gantt and Kanban display for CWM Boards
 description: Show, hide, or rearrange columns and apply sorting or filters to personalize the way data is displayed in Collaborative Work Management Boards based on your workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/personalize-cwm-board-views.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/personalize-cwm-board-views.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,13 +18,13 @@ Show, hide, or rearrange columns and apply sorting or filters to personalize the
 
 ## Before you begin
 
-[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
 ## About this task
 
-The columns available to show or hide are determined by the default list layout of the table. To configure which columns are available, see [Configure columns available for personalization in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/configure-column-personalization-in-cwm.md).
+The columns available to show or hide are determined by the default list layout of the table. To configure which columns are available, see [Configure columns available for personalization in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/configure-column-personalization-in-cwm.md).
 
 ## Procedure
 
@@ -84,7 +84,7 @@ Show or hide the Board views, including Dashboard, List, Gantt, and Kanban, from
 
 ## What to do next
 
-After changing the way data is displayed on your Board. You have the option of saving it as a personal view for your reference or a shared view for your team or stakeholders. For more information, see [Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/board-views-in-cwm.md).
+After changing the way data is displayed on your Board. You have the option of saving it as a personal view for your reference or a shared view for your team or stakeholders. For more information, see [Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/board-views-in-cwm.md).
 
-**Parent Topic:**[Dashboard, List, Gantt, and Kanban views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-views.md)
+**Parent Topic:**[Dashboard, List, Gantt, and Kanban views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-board-views.md)
 

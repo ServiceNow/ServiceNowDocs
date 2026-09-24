@@ -2,7 +2,7 @@
 title: Case and Knowledge Management
 description: The Case and Knowledge Management application enables you to standardize the documentation, interaction, and fulfillment of employee inquiries and requests, which helps to improve HR efficiency and services over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -18,27 +18,27 @@ The Case and Knowledge Management application enables you to standardize the doc
 
 <table class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore HR Case and Knowledge Management features and see how agents use them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore HR Case and Knowledge Management features and see how agents use them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure HR Case and Knowledge Management features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure HR Case and Knowledge Management features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md)
 
 </td></tr><tr><td>
 
-[Manage HR Cases\[Omitted image "bus-headset.svg"\] Alt text:HR Agents work on cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
+[Manage HR Cases\[Omitted image "bus-headset.svg"\] Alt text:HR Agents work on cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 
 </td><td>
 
-[Request HR services\[Omitted image "bus-start-discussion.svg"\] Alt text:Employees open HR cases to get help or make requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+[Request HR services\[Omitted image "bus-start-discussion.svg"\] Alt text:Employees open HR cases to get help or make requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 
 </td></tr><tr><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with Service Portfolio Management and Digital Portfolio Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ckm-csdm.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with Service Portfolio Management and Digital Portfolio Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/ckm-csdm.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
 </td></tr></tbody>
 </table>## Additional resources

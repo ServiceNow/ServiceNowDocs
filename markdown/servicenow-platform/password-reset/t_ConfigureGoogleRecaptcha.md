@@ -2,7 +2,7 @@
 title: Configure Google reCAPTCHA for the password reset process
 description: To use the Google reCAPTCHA service, instances that are running on a domain other than service-now.com require an API key pair from Google.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_ConfigureGoogleRecaptcha.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/t\_ConfigureGoogleRecaptcha.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -78,7 +78,7 @@ Select reCAPTCHA v2, **I'm not a robot** option. \(reCAPTCHA v3 is not currently
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 

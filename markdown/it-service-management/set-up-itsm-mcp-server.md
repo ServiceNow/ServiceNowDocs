@@ -2,7 +2,7 @@
 title: Activate the ITSM MCP Server
 description: Activate the ITSM MCP Server to enable AI-driven incident management, change management, or employee experience on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/set-up-itsm-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/set-up-itsm-mcp-server.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"

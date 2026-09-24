@@ -2,7 +2,7 @@
 title: Reference
 description: A reference variable references a record in another table. For example, a variable named point\_of\_contact references the User \[sys\_user\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/reference.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -16,7 +16,7 @@ breadcrumb: [Types of service catalog variables, Service catalog variables, Serv
 
 A reference variable references a record in another table. For example, a variable named point\_of\_contact references the User \[sys\_user\] table.
 
-For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variable-attributes.md).
+For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/variable-attributes.md).
 
 Keep the following information in mind when you create a reference variable:
 
@@ -29,7 +29,7 @@ current.variables.<variable name>.getDisplayValue()
 
 \[Omitted image "VariableReferenceG.png"\] Alt text: A reference variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -44,7 +44,7 @@ current.variables.<variable name>.getDisplayValue()
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

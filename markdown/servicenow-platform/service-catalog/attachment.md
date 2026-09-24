@@ -2,7 +2,7 @@
 title: Attachment
 description: When submitting a catalog item request, this variable lets you upload an attachment for a question of the item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/attachment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/attachment.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -16,7 +16,7 @@ breadcrumb: [Types of service catalog variables, Service catalog variables, Serv
 
 When submitting a catalog item request, this variable lets you upload an attachment for a question of the item.
 
-After you upload the attachment, you can also download, update, and delete it. Even when fulfilling the request, you can download, update, and delete the attachment in a requested item or catalog task. You can specify restrictions for file size and extensions using the **max\_file\_size** and **allowed\_extensions** variable attributes. For information on these variable attributes, see [Service Catalog variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variable-attributes.md).
+After you upload the attachment, you can also download, update, and delete it. Even when fulfilling the request, you can download, update, and delete the attachment in a requested item or catalog task. You can specify restrictions for file size and extensions using the **max\_file\_size** and **allowed\_extensions** variable attributes. For information on these variable attributes, see [Service Catalog variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/variable-attributes.md).
 
 **Important:**
 
@@ -57,7 +57,7 @@ If the system-wide anti-virus check is enabled, the anti-virus check is performe
 
 \[Omitted image "AttachmentVariable.png"\] Alt text: The Attachment variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -70,7 +70,7 @@ If the system-wide anti-virus check is enabled, the anti-virus check is performe
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

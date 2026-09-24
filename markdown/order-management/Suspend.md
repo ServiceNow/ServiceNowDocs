@@ -2,7 +2,7 @@
 title: Suspend
 description: Suspend Customer contracts, contract lines, and entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/Suspend.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/Suspend.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

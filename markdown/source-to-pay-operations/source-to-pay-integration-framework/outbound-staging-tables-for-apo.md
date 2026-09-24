@@ -2,7 +2,7 @@
 title: Outbound staging tables for Accounts Payable Operations
 description: The outbound staging tables in Accounts Payable Operations store invoice data before export to a third-party ERP systems for review, validation, and troubleshooting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/outbound-staging-tables-for-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/outbound-staging-tables-for-apo.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

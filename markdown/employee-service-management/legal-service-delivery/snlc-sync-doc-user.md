@@ -2,7 +2,7 @@
 title: Resolve the failure to send contract documents for signature \(starting Contract Management Pro 1.2.1\)
 description: Update signatory details in an external contract document when there is a failure in sending the document for signature due to a mismatch between the signatory information in the contract request and the contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-sync-doc-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-sync-doc-user.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -58,5 +58,5 @@ Role required:
 14. Select **Send for signature** on the confirmation message.
 
 
-**Parent Topic:**[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-update-sync-signatories.md)
+**Parent Topic:**[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-update-sync-signatories.md)
 

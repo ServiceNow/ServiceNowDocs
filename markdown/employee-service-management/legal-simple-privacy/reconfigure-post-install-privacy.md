@@ -2,7 +2,7 @@
 title: Reconfigure forms to use new components
 description: As an administrator, after installing Legal Simple Privacy reconfigure forms to use the new privacy assessment record producer, catalog category, and content taxonomy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-privacy/reconfigure-post-install-privacy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-privacy/reconfigure-post-install-privacy.html
 release: australia
 product: Legal Simple Privacy
 classification: legal-simple-privacy
@@ -102,7 +102,7 @@ The privacy assessment legal request that was part of Legal Request Management h
     9.  Select **Update**.
 
 
-**Parent Topic:**[Configure Legal Simple Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-privacy/setting-up-legal-simple-privacy.md)
+**Parent Topic:**[Configure Legal Simple Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-privacy/setting-up-legal-simple-privacy.md)
 
 **Related topics**  
 

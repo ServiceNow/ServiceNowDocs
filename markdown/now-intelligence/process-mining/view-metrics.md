@@ -2,7 +2,7 @@
 title: Viewing metrics and activity transitions
 description: View metrics and activity transitions you have defined.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/view-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/view-metrics.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -24,10 +24,10 @@ Select an activity or connection to see a full list of metrics.
 
 \[Omitted image "metrics-list-box2.png"\] Alt text: Metrics list box
 
--   **[Viewing activity transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/view-node-transitions.md)**  
+-   **[Viewing activity transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/view-node-transitions.md)**  
 View activity transitions you've defined from the Bottleneck Analysis feature.
--   **[Viewing records for an activity or connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/view-records-node-arc.md)**  
+-   **[Viewing records for an activity or connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/view-records-node-arc.md)**  
 See the list of records which passed through an activity or connection to analyze data in more detail.
 
-**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/analyze-get-process-insights.md)
 

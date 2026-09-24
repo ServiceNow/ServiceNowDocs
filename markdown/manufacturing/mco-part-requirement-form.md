@@ -2,7 +2,7 @@
 title: Part requirement form
 description: Create a part requirement to include fields for part model, required quantity, reserved quantity, and delivery status for a work order task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-part-requirement-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-part-requirement-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-20"
@@ -27,5 +27,5 @@ Create a part requirement to include fields for part model, required quantity, r
 |Short description|Contents of the Short description field from the parent work order. If the work order was created from an incident, problem, or change request, the short description of the part requirement is inherited from that record. If the work order was created automatically from a , the short description is from model template. This field is not visible by default.|
 |Mandatory|Option to indicate if the part is mandatory to perform the work order task.|
 
-**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qim-form.md)
 

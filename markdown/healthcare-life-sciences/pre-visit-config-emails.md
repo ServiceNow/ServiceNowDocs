@@ -2,7 +2,7 @@
 title: Configuring the Pre-Visit Management email notifications
 description: Configure the Pre-Visit Management email notifications sent to patients about pre-visit activities for procedure requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-config-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pre-visit-config-emails.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

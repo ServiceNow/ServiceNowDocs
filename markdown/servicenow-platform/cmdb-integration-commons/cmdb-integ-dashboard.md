@@ -2,7 +2,7 @@
 title: CMDB Integrations Dashboard
 description: You can use the CMDB Integrations Dashboard that provides a central view of status, processing results, and processing errors of all installed Service Graph Connectors and any custom integrations created in IntegrationHub ETL run.Access the CMDB Integrations Dashboard provided with the Integration Commons for CMDB store app for maintaining data consistency and accuracy across multiple data sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-integration-commons/cmdb-integ-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/cmdb-integration-commons/cmdb-integ-dashboard.html
 release: australia
 product: CMDB Integration Commons
 classification: cmdb-integration-commons

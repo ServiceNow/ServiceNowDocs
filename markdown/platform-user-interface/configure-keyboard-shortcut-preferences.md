@@ -2,7 +2,7 @@
 title: Configure keys for keyboard shortcuts
 description: Determine which shortcut key pairings users can use to access elements in an instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-keyboard-shortcut-preferences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-keyboard-shortcut-preferences.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Determine which shortcut key pairings users can use to access elements in an ins
 
 Role required: admin
 
-For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md).
+For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_KeyboardShortcuts.md).
 
 ## Procedure
 
@@ -52,5 +52,5 @@ For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](htt
 4.  Select **Update**.
 
 
-**Parent Topic:**[Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md)
+**Parent Topic:**[Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_KeyboardShortcuts.md)
 

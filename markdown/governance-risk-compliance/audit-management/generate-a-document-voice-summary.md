@@ -2,7 +2,7 @@
 title: Generate a voice summary of a document
 description: Use the voice agent to generate an audio summary of a supported document or ask questions about its content by voice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/generate-a-document-voice-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/generate-a-document-voice-summary.html
 release: australia
 product: Audit Management
 classification: audit-management

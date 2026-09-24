@@ -2,7 +2,7 @@
 title: Activate the Start Invoice Processing for Orphan Invoices flow
 description: Activate the Start Invoice Processing for Orphan Invoices flow to process invoices that don’t have an associated invoice case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -50,5 +50,5 @@ This flow creates an invoice processing case, associates the invoice with that c
 9.  Select **Activate**.
 
 
-**Parent Topic:**[Start processing a third-party invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.md)
+**Parent Topic:**[Start processing a third-party invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.md)
 

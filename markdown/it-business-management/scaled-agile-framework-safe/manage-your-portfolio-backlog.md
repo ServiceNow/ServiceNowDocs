@@ -2,7 +2,7 @@
 title: Manage your portfolio backlog
 description: Manage, evaluate, prioritize, and sequence epics in your portfolio backlog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/manage-your-portfolio-backlog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/manage-your-portfolio-backlog.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -92,5 +92,5 @@ Point to an epic and drag it to the required position.
     |**Move to bottom**|Epics are placed at the bottom of the backlog section.|
 
 
-**Parent Topic:**[SAFe Board—Portfolio level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/portfolio-tabs.md)
+**Parent Topic:**[SAFe Board—Portfolio level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/portfolio-tabs.md)
 

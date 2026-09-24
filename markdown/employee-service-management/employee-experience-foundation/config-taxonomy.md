@@ -2,7 +2,7 @@
 title: Unified Taxonomy for Employee Center
 description: Unified Taxonomy is a collection of hierarchical topics that brings together different content types, such as requests, articles, quick links, learning content, and employee communications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-taxonomy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-taxonomy.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -46,13 +46,13 @@ The Unified Taxonomy capability is delivered by ServiceNow AI Platform as two se
 
 After you complete the installation, perform the following to achieve a Unified Taxonomy experience.
 
--   Clone the employee content taxonomy and make appropriate additions or modifications to the provided topic structure. Taxonomy is updated to reflect the terminology and available services. For more information, see [Clone taxonomy for employee content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/clone-taxonomy-content.md).
--   Associate all the existing and new content to the cloned taxonomy topics. For more information, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md).
--   Enable user criteria to configure topic-level security and visibility settings for topics. For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
+-   Clone the employee content taxonomy and make appropriate additions or modifications to the provided topic structure. Taxonomy is updated to reflect the terminology and available services. For more information, see [Clone taxonomy for employee content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/clone-taxonomy-content.md).
+-   Associate all the existing and new content to the cloned taxonomy topics. For more information, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md).
+-   Enable user criteria to configure topic-level security and visibility settings for topics. For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
 -   Update the search configurations to filter based on the content associated to the cloned taxonomy.
 
 **Related topics**  
 
 
-[Taxonomy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/taxonomy-form.md)
+[Taxonomy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/taxonomy-form.md)
 

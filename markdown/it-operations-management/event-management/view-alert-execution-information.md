@@ -2,7 +2,7 @@
 title: View alert execution information
 description: You can click any link in the Alert Executions list to view the alert execution information of the referenced item. This information appears in the Alert Management Rule record only after an alert matched the filter in the rule and an action was performed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-alert-execution-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/view-alert-execution-information.html
 release: australia
 product: Event Management
 classification: event-management
@@ -102,5 +102,5 @@ Date and time that the entry was created.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Alert executions information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-rule-execution.md)
+**Parent Topic:**[Alert executions information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-rule-execution.md)
 

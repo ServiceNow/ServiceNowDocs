@@ -2,7 +2,7 @@
 title: Parser configuration fields
 description: Field reference for the parser configuration, parser segment, and field map tables that define how the HL7 parser engine extracts message data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-parser-config-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-parser-config-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-11"

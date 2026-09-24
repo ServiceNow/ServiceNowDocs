@@ -2,7 +2,7 @@
 title: Oracle Tuxedo discovery
 description: The ServiceNow Discovery application uses the Tuxedo pattern to find Oracle Tuxedo resources. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-OracleTuxedo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r-OracleTuxedo.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -37,5 +37,5 @@ Discovery populates the data in the CMDB when running the Tuxedo pattern.
 |Version \[version\]|The specific release of Oracle Tuxedo that is installed and currently in use.|
 |Mode \[mode\]|The definition of the interaction protocol between Oracle Tuxedo and various clients or other domains, such as Jolt, Workstation, or Domain Gateway, based on the operational configuration.|
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Software.md)
 

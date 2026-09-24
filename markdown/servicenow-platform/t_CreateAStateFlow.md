@@ -2,7 +2,7 @@
 title: Create a state flow
 description: Creating State Flows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateAStateFlow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreateAStateFlow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -80,7 +80,7 @@ Event
 
 </td><td>
 
-Name of an existing event to trigger when this transition occurs. See [evernts triggered on state changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md) for more information.
+Name of an existing event to trigger when this transition occurs. See [evernts triggered on state changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_StateFlows.md) for more information.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Dictionary override
 
 </td><td>
 
-Sets the starting value for the State field on all new records for the table named in the state flow record. See [dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md) for configuration procedures.
+Sets the starting value for the State field on all new records for the table named in the state flow record. See [dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_StateFlows.md) for configuration procedures.
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Work notes
 
 </td><td>
 
-Noteworthy comments about this state flow transition. For details about how these notes are used, see [Work Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_WorkNotes.md).
+Noteworthy comments about this state flow transition. For details about how these notes are used, see [Work Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_WorkNotes.md).
 
 </td></tr><tr><td>
 
@@ -215,7 +215,7 @@ Name of the business rule created for this transition. Two conditions must be sa
 
 </td></tr><tr><td colspan="2">
 
-Field Controls \(Determines [field properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md) when a record transitions between states or reaches a specific end state.\)
+Field Controls \(Determines [field properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_StateFlows.md) when a record transitions between states or reaches a specific end state.\)
 
 </td></tr><tr><td>
 
@@ -275,10 +275,10 @@ Hides the selected fields when this transition occurs, or when the end state is 
 5.  Configure the fields in the Field Controls section to control how specific fields display when a task record changes states.
 
 
-**Parent Topic:**[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UseStateFlows.md)
+**Parent Topic:**[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_UseStateFlows.md)
 
 **Related topics**  
 
 
-[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UseStateFlows.md)
+[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_UseStateFlows.md)
 

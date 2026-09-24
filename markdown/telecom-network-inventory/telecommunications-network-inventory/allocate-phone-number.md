@@ -2,12 +2,12 @@
 title: Allocate phone number
 description: The phone number allocation change model enables you to design and assign the required telephone number from a pool or standalone telephone number format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/allocate-phone-number.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/allocate-phone-number.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -32,17 +32,17 @@ Role required:sn\_inv\_num\_mgmt\_telephone\_number, sn\_ni\_core.inventory\_age
 
 5.  On the record producer form, update the fields.
 
-    The fields of the record producer form are auto-populated. To learn more about the fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    The fields of the record producer form are auto-populated. To learn more about the fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 6.  Select **Save**.
 
-    The Change \(Design &amp; Assign\) flow is triggered and a change request is created. Depending on the given inputs, change tasks are automatically created and other related tabs appear. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md).
+    The Change \(Design &amp; Assign\) flow is triggered and a change request is created. Depending on the given inputs, change tasks are automatically created and other related tabs appear. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md).
 
 7.  Open and review the change task records.
 
 8.  On the Task Attributes form, fill in the fields.
 
-    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 9.  Select **Submit**.
 
@@ -53,10 +53,10 @@ Role required:sn\_inv\_num\_mgmt\_telephone\_number, sn\_ni\_core.inventory\_age
 11. Select **Save**.
 
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 
 **Related topics**  
 
 
-[Task Attribute in Manage Phone Number Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/task-attribute-in-manage-phone-number-form.md)
+[Task Attribute in Manage Phone Number Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/task-attribute-in-manage-phone-number-form.md)
 

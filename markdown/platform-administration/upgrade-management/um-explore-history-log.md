@@ -2,7 +2,7 @@
 title: Explore upgrade history log
 description: Reduce processing time by extracting all upgrade related logs into a separate file named database-upgrade\_&lt;timestamp&gt;.log. You can also zip the file and attach it to upgrade history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-explore-history-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-explore-history-log.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -53,5 +53,5 @@ When the upgrade starts, the upgrade log messages are written to both the localh
     **Note:** The database-upgrade\_&lt;timestamp&gt;.log file has been zipped to reduce the download time.
 
 
-**Parent Topic:**[Reviewing upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-review-history.md)
+**Parent Topic:**[Reviewing upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-review-history.md)
 

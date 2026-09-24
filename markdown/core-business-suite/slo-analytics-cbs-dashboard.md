@@ -2,7 +2,7 @@
 title: Supplier Lifecycle Operations analytics on the CBS dashboard
 description: The Supplier Lifecycle Operations tab on the Core Business Suite Analytics dashboard tracks open case volume and resolution trends for supplier requests, helping managers monitor supplier activity and identify staffing gaps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/slo-analytics-cbs-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/slo-analytics-cbs-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -39,5 +39,5 @@ The Performance trends section tracks case volume, resolution rates, and self-se
 |Mean time to resolve|Average number of days to resolve a supplier lifecycle case over the selected period. Example value: 7.0 days \(average for April 27 – May 26\).|
 |Total cases created by case type|A chart showing case volume broken down by supplier lifecycle case type. Case types include: Supplier support request, Supplier information change request, Enroll new supplier user, General inquiry, Supplier issue, Account access request, Request supplier contact, Offboard supplier contact, Primary contact elevation, and Update default supplier.|
 
-**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-analytics-overview.md)
+**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-analytics-overview.md)
 

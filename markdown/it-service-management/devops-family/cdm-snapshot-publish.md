@@ -2,7 +2,7 @@
 title: Publish or unpublish a snapshot
 description: Publish a snapshot so that it can be exported to enable the CI/CD pipeline to access and use the config data. Exporters can execute only on published snapshots.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-snapshot-publish.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-snapshot-publish.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

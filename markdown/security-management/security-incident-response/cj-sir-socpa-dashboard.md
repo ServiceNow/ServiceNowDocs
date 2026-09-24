@@ -2,7 +2,7 @@
 title: Security Operations Efficiency dashboard
 description: Security operations center \(SOC\) managers can view overall efficiency metrics and measure the individual performance of the SOC team members in the organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/cj-sir-socpa-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/cj-sir-socpa-dashboard.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -122,7 +122,7 @@ The total number of closed security incidents in the specified period and the av
 
 You can see the number of open incidents on a specific day and the status \(analysis, draft, contain, eradicate, recover, or review\) of these incidents. On each stage, you can view average age, affected CIs, response tasks, and so on. Select a link to view additional details or the breakdown of these incidents.
 
-**Parent Topic:**[Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-content-pack.md)
+**Parent Topic:**[Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/security-incident-content-pack.md)
 
 **Related topics**  
 

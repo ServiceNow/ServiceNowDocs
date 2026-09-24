@@ -2,7 +2,7 @@
 title: Create and name an event profile for the Splunk Enterprise Security event ingestion integration
 description: You create an event profile in your ServiceNow AI Platform instance and determine which Splunk notable events create security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-create-profile-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest-create-profile-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -44,8 +44,8 @@ All notables are initially ingested for a configured correlation search type in 
 
     There’s a one-to-one relationship between notable events that are ingested with a profile and connections to your Splunk ES console: one notable event type for one connection.
 
-4.  To create profiles for scheduled notable events, see [Set up a profile for scheduled notable event ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-scheduled-security.md).
+4.  To create profiles for scheduled notable events, see [Set up a profile for scheduled notable event ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-scheduled-security.md).
 
-5.  To create profiles for manual event forwarding, see [Set up a profile for manual event forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-manual-security.md).
+5.  To create profiles for manual event forwarding, see [Set up a profile for manual event forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-manual-security.md).
 
 

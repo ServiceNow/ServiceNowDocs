@@ -2,7 +2,7 @@
 title: License agreement types
 description: Types of license agreements determine the product usage rights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/agreement-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/agreement-types.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -117,5 +117,5 @@ VMware
 -   Volume Purchasing Program \(VPP\): No license impact.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 

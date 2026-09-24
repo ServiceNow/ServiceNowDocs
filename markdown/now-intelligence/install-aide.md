@@ -2,7 +2,7 @@
 title: Install AI Data Explorer
 description: Verify that AI Data Explorer is installed, and install it if it is not.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-aide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/install-aide.html
 release: australia
 topic_type: task
 last_updated: "2026-07-24"
@@ -41,7 +41,7 @@ Role required: now\_assist\_explorer\_admin or higher
 
 You are navigated to a location where you can get the plugin. Follow all steps on that location, including those regarding licensing.
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-aide-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-aide-explorer.md)
 
 **Related topics**  
 

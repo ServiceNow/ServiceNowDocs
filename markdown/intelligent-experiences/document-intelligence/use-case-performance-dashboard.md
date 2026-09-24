@@ -2,7 +2,7 @@
 title: Use case performance dashboard
 description: Monitor Document Intelligence \(DocIntel\) performance at the use case and field levels in the use case performance dashboard.Access the use case performance dashboard in the Performance tab on the use case screen.The use case performance dashboard provides data visualizations to display your usage and performance data for the use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/use-case-performance-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/document-intelligence/use-case-performance-dashboard.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -16,7 +16,7 @@ breadcrumb: [Monitor, Document Intelligence \(Legacy\), Enable AI experiences]
 
 Monitor Document Intelligence \(DocIntel\) performance at the use case and field levels in the use case performance dashboard.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Overview of the use case performance dashboard
 
@@ -34,7 +34,7 @@ This dashboard provides useful answers to the following questions:
 -   How much effort is needed to complete document tasks for this use case?
 -   How has DocIntel accuracy progressed for this use case?
 
-**Parent Topic:**[Monitoring Document Intelligence performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/monitoring-document-intelligence-performance.md)
+**Parent Topic:**[Monitoring Document Intelligence performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/monitoring-document-intelligence-performance.md)
 
 **Related topics**  
 
@@ -49,8 +49,8 @@ Access the use case performance dashboard in the Performance tab on the use case
 
 ### Before you begin
 
--   Ensure that the Document Intelligence application \(sn\_docintel\) and Document Intelligence Admin \(com.snc.docintel\_admin\) ServiceNow® Store application is installed and active. For more information, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/install-document-intelligence.md).
--   Have an active use case with multiple completed document tasks. For more information, see [Set up document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/set-up-document-extraction-use-cases.md).
+-   Ensure that the Document Intelligence application \(sn\_docintel\) and Document Intelligence Admin \(com.snc.docintel\_admin\) ServiceNow® Store application is installed and active. For more information, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/install-document-intelligence.md).
+-   Have an active use case with multiple completed document tasks. For more information, see [Set up document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/set-up-document-extraction-use-cases.md).
 -   Role required: sn\_docintel.admin, sn\_docintel.manager, or admin.
 
 ### Procedure

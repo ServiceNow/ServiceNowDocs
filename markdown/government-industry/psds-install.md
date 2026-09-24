@@ -2,7 +2,7 @@
 title: Install the Performance Analytics and Reporting Solution for Public Sector Digital Services
 description: Install the content pack for the Public Sector Digital Services Platform Analytics Solution from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

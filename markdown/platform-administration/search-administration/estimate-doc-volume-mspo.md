@@ -2,14 +2,14 @@
 title: Estimate document volume for Microsoft SharePoint Online
 description: Estimate the total number of documents included in your Microsoft SharePoint Online source system and the document counts for individual sites. Use this information to determine crawl scope settings needed for your Microsoft SharePoint Online external content connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/estimate-doc-volume-mspo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/estimate-doc-volume-mspo.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft SharePoint Online external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -77,7 +77,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 If your Microsoft SharePoint Online source system's total available document count exceeds the connector limit of one million \(1,000,000\) documents, you will need to limit the crawl scope for the Microsoft SharePoint Online external content connector. Choose a set of sites whose total document count is less than the connector limit, and inform your AI Search administrator so they can configure the external content connector's crawl settings to include only those sites.
 
-For details on configuring the Microsoft SharePoint Online connector's crawl settings, see [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-crawl-settings-spo-ext-cont-connector.md).
+For details on configuring the Microsoft SharePoint Online connector's crawl settings, see [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-spo-ext-cont-connector.md).
 
-**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/microsoft-sharepoint-online-external-content-connector.md)
+**Parent Topic:**[Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/microsoft-sharepoint-online-external-content-connector.md)
 

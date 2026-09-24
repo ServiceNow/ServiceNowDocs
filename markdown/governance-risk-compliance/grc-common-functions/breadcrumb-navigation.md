@@ -2,7 +2,7 @@
 title: Breadcrumb navigation
 description: The ServiceNow Australia release supports breadcrumb navigation for all GRC modules including workspaces. Breadcrumbs provide a browser path to navigate a hierarchy of linked pages with related content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -24,5 +24,5 @@ Use the breadcrumb style navigation that provides a browser path to navigate a h
 
 The navigational path **List** &gt; **Entity: America Online** in the example indicates that you can navigate to the America Online page from the Entity menu in the List view. Selecting any link in the path returns you to the selected screen.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

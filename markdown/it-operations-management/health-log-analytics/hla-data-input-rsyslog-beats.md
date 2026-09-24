@@ -2,7 +2,7 @@
 title: Configure a Rsyslog, Filebeat, or Winlogbeat data input in Health Log Analytics manually
 description: Set up a data input for streaming log messages to your ServiceNow instance using an Rsyslog, Filebeat, or Winlogbeat agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-rsyslog-beats.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-rsyslog-beats.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -38,7 +38,7 @@ Role required: evt\_mgmt\_admin
 
 3.  Choose the data input type to create from the available data input types described in the table.
 
-    **Note:** The selected data input type complements the passive data input \(listener\). For more information, see [Supported data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-supported.md).
+    **Note:** The selected data input type complements the passive data input \(listener\). For more information, see [Supported data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-supported.md).
 
     |Type|Description|
     |----|-----------|
@@ -49,9 +49,9 @@ Role required: evt\_mgmt\_admin
 
 4.  On the **Getting Started** tab, fill in the form.
 
-    For a description of the fields, see [Rsyslog, Filebeat, or Winlogbeat data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-syslog-beats-ref.md).
+    For a description of the fields, see [Rsyslog, Filebeat, or Winlogbeat data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-syslog-beats-ref.md).
 
-    **Note:** When creating a data input for Linux using Filebeat, you can select a content pack from the **Content pack** drop-down. The content pack contains default source types and mapping script templates that save you the time it takes to create them from scratch. For more information, see [Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-content-packs.md).
+    **Note:** When creating a data input for Linux using Filebeat, you can select a content pack from the **Content pack** drop-down. The content pack contains default source types and mapping script templates that save you the time it takes to create them from scratch. For more information, see [Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-content-packs.md).
 
 5.  If the Rsyslog, Filebeat, or Winlogbeat agent has not already been installed, download and install it from the **Installation** tab.
 
@@ -65,7 +65,7 @@ Role required: evt\_mgmt\_admin
 
         **Note:** By default, only the required fields **Path** and **Service instance** appear.
 
-        For a description of the fields, see [Rsyslog, Filebeat, or Winlogbeat data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-syslog-beats-ref.md).
+        For a description of the fields, see [Rsyslog, Filebeat, or Winlogbeat data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-syslog-beats-ref.md).
 
     2.  If you want to ship multiline logs using Filebeat, configure the properties that control how Filebeat handles messages that span multiple lines of text.
 
@@ -147,14 +147,14 @@ Existing Filebeat data input configuration files in HLA are compatible with File
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
+[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 
 **Related topics**  
 
 
-[Configure advanced settings for Rsyslog, Splunk, TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)
+[Configure advanced settings for Rsyslog, Splunk, TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)
 
-[Configure advanced settings for Beats data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-beats.md)
+[Configure advanced settings for Beats data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-adv-beats.md)
 

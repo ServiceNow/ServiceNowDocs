@@ -2,7 +2,7 @@
 title: Create customer projects
 description: Create customer projects at internal or external organizations \(formerly internal or external business locations\) to manage location openings, renovations, closings, or other location-specific initiatives.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-customer-projects.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-customer-projects.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: admin, it\_project\_manager, sn\_service\_org.project\_manager
 
 A customer project can be initiated by applying templates, or by importing and exporting projects. Furthermore, cases can be created to address issues either at the project or project task level.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Cloning and Secrets Management
 description: Learn how to reconfigure secrets groups and client secrets groups after a clone.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cloning-and-secrets-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cloning-and-secrets-mgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -23,5 +23,5 @@ After you clone an instance, your secrets groups and client secrets groups may r
 |Cloned instance secrets groups from source instance|Doesn’t work unless manually set up|
 |Cloned client secrets groups from source instance|Work if manually config sg/identity group/alias/mid|
 
-**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/client-access-secret-landing.md)
 

@@ -2,7 +2,7 @@
 title: Configure proxy bypass for container registries
 description: Configure a proxy bypass for container image scans to reach specific internal or private registries that require a direct connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-container-proxy-bypass.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/configure-container-proxy-bypass.html
 release: australia
 product: Discovery
 classification: discovery
@@ -51,7 +51,7 @@ When a proxy is configured on the MID Server, all container image scanning goes 
 
 ## What to do next
 
-Scan the container images. For more information, see [Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-task.md).
+Scan the container images. For more information, see [Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/container-image-task.md).
 
-**Parent Topic:**[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-concept.md)
+**Parent Topic:**[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/container-image-concept.md)
 

@@ -2,7 +2,7 @@
 title: View service instances for a CI
 description: For a selected CI, the Service instances panel in Unified Map lists details in the Service Mapping application for all associated service instances \(formerly application services\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-show-app-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/unified-map-show-app-service.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -29,7 +29,7 @@ Role required:
 
 ## About this task
 
-The information that appears on a service instance card is described in [Service Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/um-data-from-service-mapping.md).
+The information that appears on a service instance card is described in [Service Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/um-data-from-service-mapping.md).
 
 ## Procedure
 
@@ -58,5 +58,5 @@ The information that appears on a service instance card is described in [Service
 **Related topics**  
 
 
-[Service Mapping data that appears on maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/um-data-from-service-mapping.md)
+[Service Mapping data that appears on maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/um-data-from-service-mapping.md)
 

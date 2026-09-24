@@ -2,7 +2,7 @@
 title: September 2026
 description: The ServiceNow MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/mcp-server-console-rn-release.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/mcp-server-console-rn-release.html
 release: australia
 topic_type: topic
 last_updated: "2025-11-04"
@@ -41,5 +41,5 @@ The ServiceNow® MCP Server Console application enables secure and governed acce
     Model Context Protocol Server \(sn\_mcp\_server\): MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers.
 
 
-**Parent Topic:**[MCP Server Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/mcp-server-console-rn.md)
+**Parent Topic:**[MCP Server Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/mcp-server-console-rn.md)
 

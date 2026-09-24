@@ -2,7 +2,7 @@
 title: Delete an app from ServiceNow Studio
 description: Delete apps that are no longer needed from ServiceNow Studio to remove them permanently from the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/delete-an-app-from-servicenow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/delete-an-app-from-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -39,5 +39,5 @@ Role required: admin or delegated\_developer
 
 The app is permanently deleted from the instance and no longer appears in ServiceNow Studio.
 
-**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
+**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
 

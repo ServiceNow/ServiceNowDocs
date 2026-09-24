@@ -2,7 +2,7 @@
 title: Toggle the template bar
 description: The template bar appears at the bottom of forms. It provides shortcuts to apply, edit, and create templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ToggleTheTemplateBar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ToggleTheTemplateBar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ You can toggle the template bar, which hides or shows it for all forms. The temp
 3.  Select **Toggle Template Bar**.
 
 
-**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md)
+**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_Templates.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Tech debt indicator score for application rationalization
 description: The Technology Reference Model \(TRM\) Technical Debt indicator is a customizable application metric that evaluates the technical debt score for each Business Application. This score reflects the number of associated technologies that don’t comply with established TRM standards. It offers a clear and measurable value that can be leveraged across the Enterprise Architecture workspace for scoring, analysis, and visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/trm-tech-debt-indicator-for-app-rat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/trm-tech-debt-indicator-for-app-rat.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -64,7 +64,7 @@ You must run the following scheduled jobs to populate the TLM and TRM data in EA
 
     **Note:** The data includes end of support date, end of extended support date, and end of life date for your software products and hardware models.
 
-    For instructions, see [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md). For updating the TLM data for a selected business application, see [Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md).
+    For instructions, see [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md). For updating the TLM data for a selected business application, see [Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/update-tpm-data.md).
 
 -   Populate TRM technical debts in the EA Workspace
 
@@ -72,7 +72,7 @@ You must run the following scheduled jobs to populate the TLM and TRM data in EA
 
     **Note:** The Populate TRM technical debts in the EA Workspace scheduled job are available only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
 
-    For instructions, see [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
+    For instructions, see [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
 
 
 ## Regenerate indicator score
@@ -89,5 +89,5 @@ The Technical Debt indicator score is available as a column on the Application R
 
 The Technical Debt indicator is listed in the Bubble Size list under the Settings of the Bubble Chart page. You can select the indicator from the Bubble Size list to see its score for business applications in the X and Y axes.\[Omitted image "eaw-tech-debt-indicator-bubble-chart.png"\] Alt text: Selecting Technical Debt score as a bubble size on the Bubble Chart page of the Application Rationalization
 
-**Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)
+**Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-rationalize-business-applications.md)
 

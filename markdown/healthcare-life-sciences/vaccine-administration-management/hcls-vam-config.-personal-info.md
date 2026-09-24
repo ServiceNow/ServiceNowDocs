@@ -2,7 +2,7 @@
 title: Setting up the process for submitting personal information for vaccines
 description: You can set up the process for enabling users to submit their personal information for vaccines on the Patient Portal by using a record producer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-vam-config.-personal-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/vaccine-administration-management/hcls-vam-config.-personal-info.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management

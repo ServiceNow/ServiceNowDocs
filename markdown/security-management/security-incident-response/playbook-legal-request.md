@@ -2,7 +2,7 @@
 title: Playbook for Legal Request
 description: The Legal Request playbook provides step-by-step guidance on how you can inform legal about the latest summary of an MSI so that they can notify the SEC in the 4-day time frame that is required for material breaches.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-legal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-legal-request.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,7 +2,7 @@
 title: Preview single content
 description: Use the Schedule of content tab to view specific content or a stage in your campaign.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-campaign-pre-piece.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ecpro-campaign-pre-piece.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

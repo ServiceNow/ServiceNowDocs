@@ -2,7 +2,7 @@
 title: Consumer registration from the Consumer Center
 description: Complete the registration process from the Service Exchange Connection Wizard to establish a secure connection to your provider instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/se-consumer-center-onboarding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/se-consumer-center-onboarding.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -20,7 +20,7 @@ Complete the registration process from the Service Exchange Connection Wizard to
 
 -   Role required: admin
 -   The consumer instance must be running Service Exchange version 2.3.18 or later.
--   The provider must have created a connection request and shared the registration URL with you. See [Register a consumer from the Provider Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-provider-center-onboarding.md).
+-   The provider must have created a connection request and shared the registration URL with you. See [Register a consumer from the Provider Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-provider-center-onboarding.md).
 
 ## About this task
 
@@ -61,5 +61,5 @@ After the registration is successful, you see a success message and the state of
 
 ## What to do next
 
-[Execute a scan suite as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-con-execute-scan-check.md).
+[Execute a scan suite as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-con-execute-scan-check.md).
 

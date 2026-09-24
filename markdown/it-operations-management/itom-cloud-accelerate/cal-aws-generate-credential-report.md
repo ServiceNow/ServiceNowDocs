@@ -2,7 +2,7 @@
 title: CAL - AWS Generate Credential Report subflow
 description: Subflow that lists all users in your account and the status of their various credentials, including passwords, access keys, and MFA devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/cal-aws-generate-credential-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/cal-aws-generate-credential-report.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -24,7 +24,7 @@ Subflow that lists all users in your account and the status of their various cre
 
 -   **Role requirements**
 
-    This subflow requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
+    This subflow requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
 
 
 ## Cloud permission
@@ -77,5 +77,5 @@ You can use these outputs as inputs for other subflows.
     Complex object containing all fields of the credential report.
 
 
-**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
 

@@ -2,10 +2,10 @@
 title: Edit a strategize record
 description: Update the details of an existing goal, target, or strategic priority record to reflect changes in organizational direction, scope, or measurement criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-edit-a-strategize-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-edit-a-strategize-record.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [PLACEHOLDER: Add keywords for search]
 breadcrumb: [Strategize AI plan, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
@@ -35,8 +35,8 @@ Role required: sn\_ai\_governance.ai\_steward
 
     For field information, see:
 
-    -   [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-goal-form.md) for goals
-    -   [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-target-form.md) for targets
+    -   [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-goal-form.md) for goals
+    -   [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-target-form.md) for targets
 6.  Select **Update**.
 
     The updated record is displayed in the Goals and target list.

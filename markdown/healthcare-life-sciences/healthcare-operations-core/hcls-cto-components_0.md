@@ -2,7 +2,7 @@
 title: Components installed with Healthcare Operations Core
 description: Several types of components such as tables, user roles, and business rules are installed when you activate the Care Team Operations plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-components\_0.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/hcls-cto-components\_0.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

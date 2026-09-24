@@ -2,7 +2,7 @@
 title: Client transaction timings
 description: The Client Transaction Timings plugin enhances the system logs by providing additional information about the durations of transactions taking place between the client and the server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_ClientTransactionTimings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/r\_ClientTransactionTimings.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -146,10 +146,10 @@ A more detailed breakdown of the client timings for all Form rendering \(but not
 |Name|Descriptive name of this particular operation|
 |Duration|Number of ms this operation took to complete.|
 
--   **[Components installed with Client Transaction Timings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_InstalledComponents.md)**  
+-   **[Components installed with Client Transaction Timings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_InstalledComponents.md)**  
 The Client Transaction Timings plugin installs several components.
--   **[Timing values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_TimingValues.md)**  
+-   **[Timing values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/r_TimingValues.md)**  
 Timing values are broken down into several sections.
 
-**Parent Topic:**[Time configuration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/reference-time-configuration.md)
+**Parent Topic:**[Time configuration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/reference-time-configuration.md)
 

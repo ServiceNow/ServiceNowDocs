@@ -2,7 +2,7 @@
 title: Invoice ingestion process when Document Intelligence is unavailable
 description: When Document Intelligence is unavailable, Accounts Payable Operations requires manual invoice creation for cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-ingest-docintel-unavailable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-ingest-docintel-unavailable.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -19,10 +19,10 @@ When Document Intelligence is unavailable, Accounts Payable Operations requires 
 
 In this scenario, the invoice processing case displays the **Create invoice** and **Close case** options. The Accounts Payable Specialist must open the invoice processing case and either create the invoice or close the invoice processing case.
 
--   **[Create an invoice manually when Document Intelligence is unavailable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-no-docintel.md)**  
+-   **[Create an invoice manually when Document Intelligence is unavailable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-no-docintel.md)**  
 Manually create an invoice when Document Intelligence is unavailable and an invoice processing case has been created without invoice data.
--   **[Close the additional invoice processing case for an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/cancel-case-no-docintel.md)**  
+-   **[Close the additional invoice processing case for an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/cancel-case-no-docintel.md)**  
 Close an auto-generated invoice processing case when you create an invoice manually to avoid duplicate processing workflows.
 
-**Parent Topic:**[Invoice processing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.md)
+**Parent Topic:**[Invoice processing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.md)
 

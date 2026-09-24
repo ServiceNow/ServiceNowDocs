@@ -2,7 +2,7 @@
 title: Configuring a subflow for the guidance action automation
 description: Configure a subflow that you can use in a guidance to automatically link the proposed major case to the current case on a click of an action button.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-ra-config-subflow-link-major-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ex-ra-config-subflow-link-major-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

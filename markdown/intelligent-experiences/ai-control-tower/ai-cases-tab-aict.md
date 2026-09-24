@@ -2,7 +2,7 @@
 title: AI cases tab in AI Control Tower
 description: Track, monitor, and analyze your AI case workflows, identify your workflow bottlenecks, and check your accountability of your AI-related risks by using the AI risk and compliance dashboard. As an AI steward, you can also use the dashboard to track the status and trends of your AI-related inquiries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-cases-tab-aict.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-cases-tab-aict.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

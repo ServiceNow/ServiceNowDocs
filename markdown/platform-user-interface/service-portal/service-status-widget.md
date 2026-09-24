@@ -2,7 +2,7 @@
 title: Service Status widget
 description: The Service Status widget provides a visual representation of service availability over the past three months. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/service-status-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/service-status-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -33,7 +33,7 @@ Each pill represents one day. Each color correlates with a type of service avail
 
 The Service Status widget does not have any included instance options.
 
-**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-status-widgets.md)
+**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/service-status-widgets.md)
 
 **Related topics**  
 

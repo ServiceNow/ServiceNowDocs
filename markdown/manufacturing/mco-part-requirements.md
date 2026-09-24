@@ -2,7 +2,7 @@
 title: Generate a part requirement
 description: Capture all the part requirements at the campaign level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-part-requirements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-part-requirements.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Define script variables for a topic
 description: Use the Variables sidebar to define script variables for a topic. Script variables can store information that is not found in ServiceNow tables. This information can then be shared elsewhere in a topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/define-script-variables-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/define-script-variables-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -23,7 +23,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-For more information about writing scripts for Virtual Agent, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
+For more information about writing scripts for Virtual Agent, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
 
 ## Procedure
 
@@ -47,5 +47,5 @@ For more information about writing scripts for Virtual Agent, see [Virtual Agent
 6.  Select **Save**.
 
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

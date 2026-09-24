@@ -2,7 +2,7 @@
 title: Analytics Time sheet
 description: The Analytics Time sheet provides comprehensive time sheet activities and reports to the time card approvers and time card users. The dashboard uses Performance Analytics to provide a trend of historical data and regular reports. It gives an overview of the time sheet activities of resources, time sheet approval and rejection rate, over-allocated and under-allocated resource counts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/time-sheet-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/time-sheet-dashboard.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -272,5 +272,5 @@ Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart
 Time cards grouped by expense types: Capital Expense \(Capex\) and Operating Expense \(Opex\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Portfolio Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/project-portfolio-content-pack.md)
+</table>**Parent Topic:**[Project Portfolio Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/project-portfolio-content-pack.md)
 

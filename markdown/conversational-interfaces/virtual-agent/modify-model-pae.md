@@ -2,7 +2,7 @@
 title: Modify models
 description: Test and modify the Virtual Agent models so they more accurately predict user intents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/modify-model-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/modify-model-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -81,5 +81,5 @@ Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Vir
 10. If the models fail to predict the intent, add additional intents to the model, or utterances to the intents, as described in step 6.
 
 
-**Parent Topic:**[Natural Language Understanding of Virtual Agent responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-tab-pae.md)
+**Parent Topic:**[Natural Language Understanding of Virtual Agent responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/nlu-tab-pae.md)
 

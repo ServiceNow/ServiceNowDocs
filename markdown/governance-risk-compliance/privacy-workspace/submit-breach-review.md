@@ -2,7 +2,7 @@
 title: Perform RadarFirst analysis on a privacy breach assessment
 description: Initiate a RadarFirst analysis to evaluate the breach against applicable privacy regulations and receive an overall risk estimate for each impacted jurisdiction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/submit-breach-review.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/submit-breach-review.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -48,5 +48,5 @@ RadarFirst must be configured in your instance.
 
 Use the regulatory guidance to determine your organization's privacy obligations for each impacted region and data elements.
 
-**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

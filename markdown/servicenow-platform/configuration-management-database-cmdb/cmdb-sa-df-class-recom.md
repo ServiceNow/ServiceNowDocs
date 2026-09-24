@@ -2,7 +2,7 @@
 title: CI class recommendations
 description: CMDB success advisor analyzes historical data in your instance to recommend which CI classes should be in your Data Foundations scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-recom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-recom.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,11 +17,11 @@ breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration M
 
 CMDB success advisor analyzes historical data in your instance to recommend which CI classes should be in your Data Foundations scope.
 
-Recommendations are ranked strictly by task activity: the frequency of each CI class appearing in incidents, problems, and changes \(IPC\) over a configurable period. The default period is 180 days, set in the **sn\_cmdb\_advisor.principal\_class\_suggestion\_period** system property. CI population and Common Service Data Model \(CSDM\) alignment aren't used to rank recommendations. For more information about system properties in CMDB success advisor for principal classes, see [Principal classes in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-principal-class.md).
+Recommendations are ranked strictly by task activity: the frequency of each CI class appearing in incidents, problems, and changes \(IPC\) over a configurable period. The default period is 180 days, set in the **sn\_cmdb\_advisor.principal\_class\_suggestion\_period** system property. CI population and Common Service Data Model \(CSDM\) alignment aren't used to rank recommendations. For more information about system properties in CMDB success advisor for principal classes, see [Principal classes in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-principal-class.md).
 
 You aren't required to accept all recommendations. Recommendations are guidance, and your organization's priorities should drive the final advisor scope selection.
 
-**Note:** If fewer than six CI classes have task activity within the suggestion period, CMDB success advisor adds classes from a fixed default list until the minimum is reached. This default list includes Computer \[cmdb\_ci\_computer\], Server \[cmdb\_ci\_server\], Database \[cmdb\_ci\_database\], Cloud Database \[cmdb\_ci\_cloud\_database\], Virtual Machine Instance \[cmdb\_ci\_vm\_instance\], and IP Router \[cmdb\_ci\_ip\_router\]. On instances with no task history at all, all six default classes are recommended. To configure which classes are suggested on instances with no task history, see [Create the principal class recommendation criteria property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-rec-criteria.md).
+**Note:** If fewer than six CI classes have task activity within the suggestion period, CMDB success advisor adds classes from a fixed default list until the minimum is reached. This default list includes Computer \[cmdb\_ci\_computer\], Server \[cmdb\_ci\_server\], Database \[cmdb\_ci\_database\], Cloud Database \[cmdb\_ci\_cloud\_database\], Virtual Machine Instance \[cmdb\_ci\_vm\_instance\], and IP Router \[cmdb\_ci\_ip\_router\]. On instances with no task history at all, all six default classes are recommended. To configure which classes are suggested on instances with no task history, see [Create the principal class recommendation criteria property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-rec-criteria.md).
 
 ## CI class groups
 
@@ -56,5 +56,5 @@ The **Recommended removals** group is displayed in the Set principal classes dia
 
 The group lists only the currently selected principal classes that match the exclusion list. The check box for each class is already selected to reflect its status as a principal class. Excluded CI classes generally aren't offered for selection in the **Available classes** column. A class is displayed in this group if it was selected as a principal class before being added to the exclusion list. It's also displayed if it was marked as a principal class directly in CI Class Manager.
 
-Clearing the check box for a class in the **Recommended removals** group removes it from your Data Foundations scope when you select **Done**. Selecting the information icon next to the group name displays guidance for reviewing these classes. For the full procedure for updating principal classes, see [Set up the Data Foundations advisor dashboard manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-manual-setup.md).
+Clearing the check box for a class in the **Recommended removals** group removes it from your Data Foundations scope when you select **Done**. Selecting the information icon next to the group name displays guidance for reviewing these classes. For the full procedure for updating principal classes, see [Set up the Data Foundations advisor dashboard manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-manual-setup.md).
 

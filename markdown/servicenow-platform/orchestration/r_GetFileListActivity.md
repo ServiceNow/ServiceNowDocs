@@ -2,7 +2,7 @@
 title: Get File List activity
 description: The Get File List activity returns a list of files from a given directory and its subdirectories on an SFTP server \(source host\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_GetFileListActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/r\_GetFileListActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -32,7 +32,7 @@ The Get File List activity returns a list of files from a given directory and it
 
 |Variable|Description|
 |--------|-----------|
-|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed. An activity can examine the error message to customize a condition. For example, if the error message contains **NO\_SUCH\_FILE**, the activity can be considered successful, depending on circumstances.|
+|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed. An activity can examine the error message to customize a condition. For example, if the error message contains **NO\_SUCH\_FILE**, the activity can be considered successful, depending on circumstances.|
 |result|List of requested files, returned as a JSON string.|
 
 ## Conditions
@@ -42,5 +42,5 @@ The Get File List activity returns a list of files from a given directory and it
 |Success|The activity succeeded in listing the requested files.|
 |Failure|The activity failed to list the requested files.|
 
-**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md)
 

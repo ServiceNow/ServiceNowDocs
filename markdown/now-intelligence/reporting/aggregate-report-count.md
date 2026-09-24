@@ -2,7 +2,7 @@
 title: Aggregate a report on count
 description: When you create a report, you can aggregate the data on several calculations including the number of records, averages, and standard deviation. The count aggregation gives the number of records in each element of a visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/aggregate-report-count.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/aggregate-report-count.html
 release: australia
 product: Reporting
 classification: reporting

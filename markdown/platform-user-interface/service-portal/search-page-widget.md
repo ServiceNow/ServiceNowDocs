@@ -2,7 +2,7 @@
 title: Legacy: Search Page widget
 description: The Search Page widget displays search results. The Faceted Search widget replaces the Search Page widget. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/search-page-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/search-page-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -27,9 +27,9 @@ The Search Page widget displays search results. The Faceted Search widget replac
 |Max results for single search group|The maximum number of results that show for a single search group when you view that specific search group.|
 |Show Did You Mean|Displays suggestions when a search produces no results.|
 
-For more information on configuring search, see [Configuring search in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-service-portal.md).
+For more information on configuring search, see [Configuring search in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/search-service-portal.md).
 
-**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-widgets.md)
+**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/search-widgets.md)
 
 **Related topics**  
 

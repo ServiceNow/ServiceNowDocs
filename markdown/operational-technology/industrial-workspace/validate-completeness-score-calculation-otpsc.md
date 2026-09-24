@@ -2,7 +2,7 @@
 title: Validate the completeness score calculation
 description: Validate that the CMDB Health Dashboard - Completeness Score Calculation is activated to run if you want to include the OT Device Data Completeness \(%\) indicator in the Operational Technology \(OT\) Progress Scorecard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/validate-completeness-score-calculation-otpsc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/validate-completeness-score-calculation-otpsc.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -37,5 +37,5 @@ Role required: admin
     For more details on how completeness is calculated, see the **Completeness** section of [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CMDBHealthMetrics.md).
 
 
-**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
+**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
 

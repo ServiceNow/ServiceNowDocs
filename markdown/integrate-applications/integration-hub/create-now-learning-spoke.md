@@ -2,7 +2,7 @@
 title: Set up the ServiceNow University spoke
 description: Connect ServiceNow University with Coaching with Learning to pull courses from ServiceNow University into your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-now-learning-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/create-now-learning-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -57,7 +57,7 @@ To delete the existing connection and credential record:
 
         \[Omitted image "image.now-learning-conf-temp"\] Alt text:
 
-    -   To manage more than one ServiceNow University spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one ServiceNow University spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "image.now-learning-conf-temp2"\] Alt text:

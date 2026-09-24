@@ -2,7 +2,7 @@
 title: Start working on tasks using the Mobile Agent application
 description: Indicate in the Mobile Agent application when you start work on a task assigned to you. When you start working on the task, the start time is automatically recorded.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/start-work-mobile-agent-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/start-work-mobile-agent-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -48,7 +48,7 @@ Role required:
 -   The more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: with the **Pause work** and **Record time** options is displayed in the top-right corner of the screen.
 -   The start time is automatically recorded.
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 

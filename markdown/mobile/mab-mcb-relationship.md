@@ -2,7 +2,7 @@
 title: Access Mobile Card Builder within Mobile App Builder
 description: Access Mobile Card Builder without leaving Mobile App Builder. By selecting Open in Mobile Card Builder, you can create and edit personalized cards and card templates without needing to open a new browser tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-mcb-relationship.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-mcb-relationship.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

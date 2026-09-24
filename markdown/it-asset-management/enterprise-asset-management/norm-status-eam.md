@@ -2,7 +2,7 @@
 title: Normalization status for enterprise models
 description: Description of the normalization statuses for enterprise models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/norm-status-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/norm-status-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -65,7 +65,7 @@ Match Not Found
 The normalization process could not match any of the fields of the model.**Match Not Found** status could occur if a normalization rule for the software does not exist.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

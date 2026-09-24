@@ -2,10 +2,10 @@
 title: Configure AI agents
 description: Configure AI agents to execute agentic workflows with AI agents and mapped tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configuring-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configuring-ai-agents.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 6
 breadcrumb: [AI Agent Studio \(legacy\), Enable AI experiences]
 ---

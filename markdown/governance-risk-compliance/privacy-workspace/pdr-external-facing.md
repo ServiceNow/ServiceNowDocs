@@ -2,7 +2,7 @@
 title: Personal Data Rights \(PDR\) external-facing form
 description: The Personal Data Rights \(PDR\) external-facing form enables secure submission of Data Subject Requests \(DSRs\) from a public website, without logging in. The form is customizable, supports jurisdiction-based privacy rights, and verifies requester identity via email before creating a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/pdr-external-facing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/pdr-external-facing.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace

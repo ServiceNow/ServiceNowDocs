@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for app summary generation
 description: With the ServiceNow Otto for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-exploring-now-assist-app-summarize.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-exploring-now-assist-app-summarize.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -40,7 +40,7 @@ Additionally, ServiceNow Otto for app summary generation has the following featu
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Quickly generate a description of an app, which you can use to check for duplicate apps.|[Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md)|Developer, admin|
+|Quickly generate a description of an app, which you can use to check for duplicate apps.|[Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md)|Developer, admin|
 
-**Parent Topic:**[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
+**Parent Topic:**[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
 

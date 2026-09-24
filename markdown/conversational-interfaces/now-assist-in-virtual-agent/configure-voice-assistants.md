@@ -2,7 +2,7 @@
 title: Create a voice assistant
 description: Create an AI voice assistant to enable natural, conversational voice interactions between users and AI voice agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/configure-voice-assistants.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-voice-assistants.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -128,7 +128,7 @@ Instructions that tell the assistant how to handle specific situations and topic
         -   Ukrainian
         -   Malay
         -   Canadian English
-        See [Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/multi-lingual-support-for-voice-assistants.md) for more information.
+        See [Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/multi-lingual-support-for-voice-assistants.md) for more information.
 
     2.  Enter an **Opening message** for callers to hear when the call starts.
 
@@ -194,7 +194,7 @@ Instructions that tell the assistant how to handle specific situations and topic
 
         Select **Mobile applications** to configure ServiceNow applications such as chat launcher functions, voice launcher functions, and prominent action button overrides. You can also configure external applications. For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
 
-        Select **Web applications** to configure the voice call widget on your ServiceNow Portal or Engagement Messenger. For more information, see .
+        Select **Web applications** to configure the voice call widget on your ServiceNow Portal or Engagement Messenger. For more information, see [Use Voice call widget for portal communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-phone-widget.md).
 
     3.  Select **Save and continue**.
 

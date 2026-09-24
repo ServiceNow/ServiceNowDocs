@@ -2,7 +2,7 @@
 title: Create and manage install base items for a business organization
 description: As a staff member with the location agent role, create and manage install base items for your business organizations \(formerly business locations\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-ib-items-for-business-locations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-ib-items-for-business-locations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_manager, sn\_customerservice.svc\_location\_
 
 Staff members with the sn\_customerservice\_manager role, create install base items by choosing the correct configuration item. Whereas the staff members with the sn\_customerservice.svc\_location\_agent role, can view the list of install base items installed at any service organization.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
@@ -51,5 +51,5 @@ Staff members with the sn\_customerservice\_manager role, create install base it
 **Related topics**  
 
 
-[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-install-base-item.md)
+[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-install-base-item.md)
 

@@ -2,7 +2,7 @@
 title: Enable additional security for partitions
 description: Enable additional ACL enforcement for partitioned tables to strengthen access control validation. Select the tables where you want to apply enhanced security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enable-additional-security-extended-security-ewd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enable-additional-security-extended-security-ewd.html
 release: australia
 topic_type: task
 last_updated: "2026-09-01"

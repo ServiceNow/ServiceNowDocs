@@ -2,7 +2,7 @@
 title: View the calculation breakdown in a formula tree
 description: View a structured and visual representation of the entire calculation chain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/view-formula-tree-irm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/view-formula-tree-irm.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -41,5 +41,5 @@ A formula tree provides transparency by displaying the detailed breakdown of how
     **Note:** If you’re seeing an empty page, it's because the formula tree or formula operands are currently empty and are being updated asynchronously. If you’re seeing an error page, it's due to errors in the formula operands that need to be corrected.
 
 
-**Parent Topic:**[Reviewing calculation details with formula trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/reviewing-formula-tree-irm.md)
+**Parent Topic:**[Reviewing calculation details with formula trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/reviewing-formula-tree-irm.md)
 

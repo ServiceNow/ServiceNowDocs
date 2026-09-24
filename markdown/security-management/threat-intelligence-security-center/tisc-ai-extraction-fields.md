@@ -2,7 +2,7 @@
 title: AI extraction supported entities and fields
 description: Threat entity types that AI extraction identifies in an uploaded document, and the AI-generated fields that it adds to the extracted records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -46,10 +46,10 @@ The Confidence value on the extracted records comes from the Confidence field th
 
 To support extraction of a higher number of threat entities, use Content Understanding v6.2.0 or higher. For more information, see [Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-landing.md).
 
-**Parent Topic:**[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-ai.md)
+**Parent Topic:**[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-ai.md)
 
 **Related topics**  
 
 
-[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/import-data-using-ai.md)
+[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/import-data-using-ai.md)
 

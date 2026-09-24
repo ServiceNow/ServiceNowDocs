@@ -2,7 +2,7 @@
 title: SLA map symbols
 description: Icons in the SLA map and what they represent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/r\_MapSymbols.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/r\_MapSymbols.html
 release: australia
 product: Work Order Management
 classification: work-order-management

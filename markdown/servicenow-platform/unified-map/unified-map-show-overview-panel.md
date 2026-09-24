@@ -2,7 +2,7 @@
 title: View a summary of map contents on the Overview panel
 description: The Overview panel displays summary data for items on the map that are associated with the home node — counts and types of CIs and connections, discovery sources, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-show-overview-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/unified-map-show-overview-panel.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -44,7 +44,7 @@ Home node
 
 </td><td>
 
-The CI that is currently the home node. For more information, see [Specify the home node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-appearance.md).
+The CI that is currently the home node. For more information, see [Specify the home node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-appearance.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Map time
 
 </td><td>
 
-The timestamp that is specified on the timeline. The time is set to "now" when you first open a map. For more information, see [Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-timeline-working-on.md).
+The timestamp that is specified on the timeline. The time is set to "now" when you first open a map. For more information, see [Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-timeline-working-on.md).
 
 </td></tr></tbody>
 </table>

@@ -2,7 +2,7 @@
 title: Queues for Recommended Actions application
 description: Admins and Recommended Actions administrators can configure queues to manage the asynchronous evaluation of recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/queues-for-recommended-actions-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/queues-for-recommended-actions-application.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Confirm product category classification solutions
 description: Confirm that the classification solutions and AI Search configuration for product category prediction are trained and active before activating the Spend categorization agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/confirm-product-category-solutions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-product-category-solutions.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -59,5 +59,5 @@ The following classification solutions have been added for product category pred
 
 The classification solutions \(**Product Category Classification For PRL** and **Product Category Classification For POL**\) and AI Search configuration for product categories are active and ready to support predictions from the Spend categorization agent.
 
-**Parent Topic:**[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)
+**Parent Topic:**[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)
 

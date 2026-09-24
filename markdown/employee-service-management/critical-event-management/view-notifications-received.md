@@ -2,7 +2,7 @@
 title: View notifications received
 description: View the list of notifications received for an impacted person in Critical Event Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/view-notifications-received.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/view-notifications-received.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -35,7 +35,7 @@ Role required: sn\_critical.agent
     This tab shows the communication sent to and received from the impacted person.
 
 
-**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 

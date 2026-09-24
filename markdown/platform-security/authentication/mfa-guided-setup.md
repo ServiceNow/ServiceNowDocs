@@ -2,7 +2,7 @@
 title: MFA Guided Setup
 description: Use the MFA Guided Setup to step through the initial configuration of the MFA module and understand the requirements for MFA enforcements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-guided-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-guided-setup.html
 release: australia
 product: Authentication
 classification: authentication

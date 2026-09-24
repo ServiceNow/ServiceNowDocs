@@ -2,7 +2,7 @@
 title: Multi-factor authentication for Business and Consumer Portal
 description: Enable multi-factor authentication for Business and Consumer portal users so that access to the self-service web portals is more secure from potential vulnerabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal-multifactor-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal-multifactor-auth.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

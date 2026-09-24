@@ -2,7 +2,7 @@
 title: Campaign overview and Campaign analytics dashboards
 description: Content Analytics collects data on user interactions and generates visualizations to help campaign managers determine the effectiveness of campaigns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -16,9 +16,9 @@ breadcrumb: [Employee Center Pro reference, Employee Center Pro, Unified Employe
 
 Content Analytics collects data on user interactions and generates visualizations to help campaign managers determine the effectiveness of campaigns.
 
-Use Content Analytics to measure the effectiveness of a campaign and the content provided to your employees. Content Analytics is one of several resources to help you improve your campaigns. To learn about the other resources, see [Analyzing your campaign for effectiveness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-reevaluate-audience.md).
+Use Content Analytics to measure the effectiveness of a campaign and the content provided to your employees. Content Analytics is one of several resources to help you improve your campaigns. To learn about the other resources, see [Analyzing your campaign for effectiveness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-automation-reevaluate-audience.md).
 
-When tracking is enabled for a campaign, Content Analytics generates data visualizations. For more information on how to enable tracking, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-create-campaign.md).\[Omitted image "campaign-tracking.png"\] Alt text: Enable tracking for a campaign
+When tracking is enabled for a campaign, Content Analytics generates data visualizations. For more information on how to enable tracking, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-create-campaign.md).\[Omitted image "campaign-tracking.png"\] Alt text: Enable tracking for a campaign
 
 **Note:** We recommend waiting at least 24 hours after publishing for data to appear on the dashboards.
 
@@ -183,7 +183,7 @@ Campaign impact
 
 </td><td>
 
-Campaign impact shows data related to your established campaign success goals. For more information on creating campaign success goals, see [Create campaign success goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-create-campaign-success-criteria.md).
+Campaign impact shows data related to your established campaign success goals. For more information on creating campaign success goals, see [Create campaign success goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-create-campaign-success-criteria.md).
 
  Select a campaign success goal to view a chart that shows how your campaign is progressing. The campaign impact chart shows:
 
@@ -194,7 +194,7 @@ Campaign impact shows data related to your established campaign success goals. F
 -   Forecast Evaluation Count: Shows how close the campaign is to the target count and when it might be reached.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

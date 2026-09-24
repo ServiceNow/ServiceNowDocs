@@ -2,7 +2,7 @@
 title: Configure workplace data sources
 description: Configure multiple data sources to generate insights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/configure-workplace-data-sources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/configure-workplace-data-sources.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -122,5 +122,5 @@ For more information about the fields, see [Performance Analytics indicators](ht
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Insight cards on the Workplace Central dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.md)
+**Parent Topic:**[Insight cards on the Workplace Central dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.md)
 

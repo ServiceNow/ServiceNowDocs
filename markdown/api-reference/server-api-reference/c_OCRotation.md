@@ -2,7 +2,7 @@
 title: OCRotation - Global
 description: The OCRotation script include provides methods to build a data structure that is used to display a calendar.Builds the on-call coverage based on your groups, rotas, and rosters. This is used by the OCRotationV2 - getSpans method.Returns the end date for the time period for which you want to retrieve on-call coverage.Returns a comma separated list of group sys\_id \(sys\_user\_group\) values for an on-call schedule.Returns the rosters according to the selected rotas.Returns a GlideRecord for the cmn\_rota table filtered by groups, rota, users, and roster.Returns the rotas for the groups on your calendar.Returns the start date for the time period for which you want to retrieve on-call coverage.Returns the timezone that your on-call calendar will use.This will filter the schedules return by users. Get comma separated list of user sys\_id \(sys\_user\) values used to filter on-call schedules.Set the end date for the time period for which you want to retrieve on-call coverage. If the end date is not set, then the last day of the next month is applied by default. Use in conjunction with OCRotationV2 - getSpans.Filters the schedules return by groups. Set comma separated list of group sys\_id \(sys\_user\_group\) values for an on-call schedule. Use in conjunction with OCRotationV2 - getSpans.Sets the rosters according to the selected rotas. Use in conjunction with OCRotationV2 - getSpans.Sets the rotas for the groups on your calendar. Use in conjunction with OCRotationV2 - getSpans.Sets the start date for the time period for which you want to retrieve on-call coverage. If the start date is not set, then the first day of the previous month is applied by default. Use in conjunction with OCRotationV2 - getSpans.Sets the timezone that your on-call calendar will use. Use in conjunction with OCRotationV2 - getSpans.Sets comma separated list of user sys\_id \(sys\_user\) values used to filter on-call schedules. Use in conjunction with OCRotationV2 - getSpans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_OCRotation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_OCRotation.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -16,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OCRotation script include provides methods to build a data structure that is used to display a calendar.
 
-The code builds up the GlideAJAXSchedulePage object which stores a list of span items. You can use this type for the Gwt \(legacy\) calendar. See the [OCRotationV2 - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OCRotationV2.md) script include for other calender types. This is part of On-Call Scheduling.
+The code builds up the GlideAJAXSchedulePage object which stores a list of span items. You can use this type for the Gwt \(legacy\) calendar. See the [OCRotationV2 - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_OCRotationV2.md) script include for other calender types. This is part of On-Call Scheduling.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## OCRotation - buildRotas\(\)
 
@@ -35,7 +35,7 @@ Builds the on-call coverage based on your groups, rotas, and rosters. This is us
 **Related topics**  
 
 
-[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OCRotationV2.md)
+[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_OCRotationV2.md)
 
 ## OCRotation - getEndDate\(\)
 
@@ -152,7 +152,7 @@ Set the end date for the time period for which you want to retrieve on-call cove
 **Related topics**  
 
 
-[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OCRotationV2.md)
+[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_OCRotationV2.md)
 
 ## OCRotation - setGroupIds\(String groupIds\)
 
@@ -169,7 +169,7 @@ Filters the schedules return by groups. Set comma separated list of group sys\_i
 **Related topics**  
 
 
-[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OCRotationV2.md)
+[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_OCRotationV2.md)
 
 ## OCRotation - setRosterIds\(String rosterIds\)
 
@@ -186,7 +186,7 @@ Sets the rosters according to the selected rotas. Use in conjunction with OCRota
 **Related topics**  
 
 
-[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OCRotationV2.md)
+[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_OCRotationV2.md)
 
 ## OCRotation - setRotaIds\(String rotaIds\)
 
@@ -203,7 +203,7 @@ Sets the rotas for the groups on your calendar. Use in conjunction with OCRotati
 **Related topics**  
 
 
-[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OCRotationV2.md)
+[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_OCRotationV2.md)
 
 ## OCRotation - setStartDate\(String startDate\)
 
@@ -220,7 +220,7 @@ Sets the start date for the time period for which you want to retrieve on-call c
 **Related topics**  
 
 
-[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OCRotationV2.md)
+[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_OCRotationV2.md)
 
 ## OCRotation - setTimezone\(String timezone\)
 
@@ -237,7 +237,7 @@ Sets the timezone that your on-call calendar will use. Use in conjunction with O
 **Related topics**  
 
 
-[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OCRotationV2.md)
+[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_OCRotationV2.md)
 
 ## OCRotation - setUserIds\(String userIds\)
 
@@ -254,5 +254,5 @@ Sets comma separated list of user sys\_id \(sys\_user\) values used to filter on
 **Related topics**  
 
 
-[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OCRotationV2.md)
+[OCRotationV2 - getSpans\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_OCRotationV2.md)
 

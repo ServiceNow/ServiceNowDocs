@@ -2,7 +2,7 @@
 title: Managing AI assets in bulk
 description: Classify large numbers of AI assets automatically instead of moving them to managed one at a time by creating automation rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-ai-bulk-managing-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-ai-bulk-managing-assets.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-31"
@@ -18,5 +18,5 @@ As your organization discovers more AI assets, manually reviewing and moving eac
 
 An automation rule queries AI asset or asset usage records for matches against conditions you define, such as asset type, asset state, or usage patterns, and marks every matching asset as managed. You can create up to 10 rules and activate up to 5 at a time, so you can maintain multiple classification strategies without constant manual upkeep.
 
-To set up a new rule, see [Create an automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-create-automation-rule.md). To change which assets an existing rule matches, see [Edit an automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configure-automation-rules.md).
+To set up a new rule, see [Create an automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-create-automation-rule.md). To change which assets an existing rule matches, see [Edit an automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-automation-rules.md).
 

@@ -2,7 +2,7 @@
 title: Create a schedule on the robot calendar in RPA Hub
 description: Create a schedule on the Robot Calendar tab in RPA Hub to execute unattended robots. You can also identify any conflicts in the schedule by selecting the Preview button.Use the Schedule form to create a schedule within a Unattended Robot bot process. A schedule enables the users to execute jobs in a planned manner at regular intervals. More than one schedule can be associated with one bot process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-robot-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-robot-schedule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,9 +19,9 @@ Create a schedule on the **Robot Calendar** tab in RPA Hub to execute unattended
 
 Perform the following tasks before you create a schedule on the robot calendar:
 
--   Ensure you are familiar with robot calendar concepts. For more information, see [Using the robot calendar for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-calendar-rpa.md) and [View current robot events in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-robot-calendar.md).
--   Create an unattended robot. On the robot form, ensure that you select the **Robot Type** field as **Unattended**. For more information, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-unattended-robot.md).
--   Establish the robot connection to an unattended bot process. For more information, see [Assign a robot to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-robots.md).
+-   Ensure you are familiar with robot calendar concepts. For more information, see [Using the robot calendar for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/robot-calendar-rpa.md) and [View current robot events in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-robot-calendar.md).
+-   Create an unattended robot. On the robot form, ensure that you select the **Robot Type** field as **Unattended**. For more information, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-unattended-robot.md).
+-   Establish the robot connection to an unattended bot process. For more information, see [Assign a robot to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/assign-robots.md).
 -   Verify that the life-cycle stage of the associated bot process isn’t set to **Retired**.
 -   Ensure that the RPA developer \(sn\_rpa\_fdn.rpa\_developer\) or the RPA support user \(sn\_rpa\_fdn.rpa\_support\_user\) are in the Managed by Group list of the associated bot process.
 
@@ -29,7 +29,7 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_developer, 
 
 ## About this task
 
-To create a schedule within an unattended bot process, see [Create a schedule within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-schedule-botprocess.md).
+To create a schedule within an unattended bot process, see [Create a schedule within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-schedule-botprocess.md).
 
 ## Procedure
 
@@ -39,15 +39,15 @@ To create a schedule within an unattended bot process, see [Create a schedule wi
 
 3.  View a robot calendar either from a robot or from a bot process.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d338968e186">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d338917e186">
 
 Option
 
-</th><th align="left" id="d338968e189">
+</th><th align="left" id="d338917e189">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d338968e195">
+</th></tr></thead><tbody><tr><td id="d338917e195">
 
 **View a robot calendar from a robot**
 
@@ -58,7 +58,7 @@ Action
 3.  In the form header, select **Robot Calendar**.
 
 
-</td></tr><tr><td id="d338968e228">
+</td></tr><tr><td id="d338917e228">
 
 **View a robot calendar from a bot process**
 
@@ -89,11 +89,11 @@ Action
     -   If the life cycle stage status of the bot process is Published, to change the status to In Maintenance, in the Confirmation dialog box, select **Continue**.
 8.  On the schedule form, update the fields as appropriate.
 
-    For more information, see [Schedule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robot-schedule.md).
+    For more information, see [Schedule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-robot-schedule.md).
 
 9.  To identify any conflicts in the schedule or preview the schedule, select **Preview**.
 
-    To edit or delete a schedule, see [Edit a robot schedule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-robot-schedule.md) and [Delete a robot schedule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/delete-robot-schedule.md).
+    To edit or delete a schedule, see [Edit a robot schedule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/edit-robot-schedule.md) and [Delete a robot schedule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/delete-robot-schedule.md).
 
 10. To view more details about an event, perform any of the following tasks:
 
@@ -111,7 +111,7 @@ Action
     |**Save the schedule and publish the bot process**|Select the down arrow in the **Save** button and then select **Save and Publish**.|
 
 
-**Parent Topic:**[Using the robot calendar for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-calendar-rpa.md)
+**Parent Topic:**[Using the robot calendar for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/robot-calendar-rpa.md)
 
 ## Schedule form in RPA Hub
 

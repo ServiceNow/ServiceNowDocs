@@ -2,7 +2,7 @@
 title: Install Horizontal Discovery and set up Discovery Patterns
 description: Install Horizontal Discovery patterns understanding the dependencies and requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/install-horizontal-telecommunication-discoverypatterns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/install-horizontal-telecommunication-discoverypatterns.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -85,5 +85,5 @@ Pattern execution logic: By default, when a TSOM pattern is run, it executes bot
 **Related topics**  
 
 
-[Direct Discovery using Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.md)
+[Direct Discovery using Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.md)
 

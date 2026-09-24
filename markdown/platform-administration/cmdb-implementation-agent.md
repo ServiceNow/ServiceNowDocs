@@ -2,7 +2,7 @@
 title: CMDB
 description: Using the configuration items \(CI\), monitor the infrastructure and ensure continuous service operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/cmdb-implementation-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/cmdb-implementation-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-20"
@@ -25,5 +25,5 @@ Based on the CI type \( for example, Service, Offering, Computer\) selected in t
 
 For information about CI, see [Overview of CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cnfig-mgmt-and-cmdb.md) and [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIType.md).
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
 

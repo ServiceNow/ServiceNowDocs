@@ -2,7 +2,7 @@
 title: Add an item to the wish list in Employee Center
 description: Add catalog items or record producers to the wish list to review them when required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/add-to-wishlist-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/add-to-wishlist-ec.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -36,7 +36,7 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d213790e117">
+<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d214150e117">
 
 **Remove Item**
 
@@ -44,7 +44,7 @@ Role required: requester
 
 To remove an item from the wish list, click the Remove Item icon \( \[Omitted image "RemoveIcn.png"\] Alt text: Icon to remove item\).
 
-</td></tr><tr><td id="d213790e132">
+</td></tr><tr><td id="d214150e132">
 
 **Clear Wish List**
 
@@ -52,7 +52,7 @@ To remove an item from the wish list, click the Remove Item icon \( \[Omitted im
 
 To clear the wish list, click **Clear Wish List**.
 
-</td></tr><tr><td id="d213790e144">
+</td></tr><tr><td id="d214150e144">
 
 **View the Catalog**
 
@@ -66,5 +66,5 @@ To navigate to the Service Catalog landing page, click **View the Catalog**.
     **Note:** This does not open a new instance of the item, but the instance that is in the wish list, where you can edit the details.
 
 
-**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 

@@ -2,7 +2,7 @@
 title: Elasticsearch data input configuration fields
 description: Description of the fields on the Elasticsearch data input configuration form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-elastic-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-elastic-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -556,5 +556,5 @@ The number of seconds before current time to query to include delayed data.The c
 **Note:** If this value is 0 and data is collected from multiple clusters simultaneously, the query may not include data that was sent with a delay on one of the clusters,
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

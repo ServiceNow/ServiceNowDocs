@@ -2,7 +2,7 @@
 title: Review pending workspace reservation requests
 description: Review pending workplace reservation requests from employees in Workplace Core and assign available workplaces to complete these requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/review-pending-reservation-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/review-pending-reservation-requests.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -58,5 +58,5 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 Once the status of workplace request is updated to **Closed complete**, the reservation information is populated in the **Notes** field of the workplace request.
 
-**Parent Topic:**[Managing workplace reservations for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/managing-workplace-reservations-wsd.md)
+**Parent Topic:**[Managing workplace reservations for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/managing-workplace-reservations-wsd.md)
 

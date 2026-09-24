@@ -2,7 +2,7 @@
 title: Create aliases
 description: Aliases are the variants of a field value in the instance that will be replaced by the normal value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAliases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAliases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

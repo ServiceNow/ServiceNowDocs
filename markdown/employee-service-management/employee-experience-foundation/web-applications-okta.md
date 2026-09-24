@@ -2,7 +2,7 @@
 title: App launcher integration with Okta
 description: Using OOTB integration with Okta, you can automatically sync the registered applications from Okta and give your employees one–click access to a personalized list of assigned applications. Your employees can easily access all the active apps with valid entitlement in Okta without specifying the login credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/web-applications-okta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/web-applications-okta.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -132,7 +132,7 @@ Option to mark the application as featured. Use the **Featured** option to promo
 </td></tr></tbody>
 </table>    Applications are fetched. You can proceed to associate topics suitable for the application.
 
-3.  Assign the topics to applications by following the steps from [Assign topics to web applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-applications-topic-assignment.md).
+3.  Assign the topics to applications by following the steps from [Assign topics to web applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-applications-topic-assignment.md).
 
 
 ## Result

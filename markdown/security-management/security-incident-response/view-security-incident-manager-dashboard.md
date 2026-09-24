@@ -2,7 +2,7 @@
 title: View Security Incident Manager Overview dashboard
 description: This dashboard provides managers with a high-level overview of the critical or high priority security incidents at a team level, SLAs that are about expire in 24 hours, and weekly incidents trends on the instance in the form of reports and graphical charts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-security-incident-manager-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/view-security-incident-manager-dashboard.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,7 +2,7 @@
 title: Review a privacy assessment
 description: As a privacy analyst, review a privacy assessment after the business user submits it. You can either close the assessment after a review or request a revision if you determine that the assessment requires more information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -49,13 +49,13 @@ After a business user submits a privacy assessment, it moves to the Review state
 
 6.  To review the data transfers generated from the hierarchy relationships, navigate to the **Data transfers** tab.
 
-    This lists the data transfer records created for each movement of personal data. For more information, refer to [Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md).
+    This lists the data transfer records created for each movement of personal data. For more information, refer to [Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/data-transfers.md).
 
     If one or more data transfers aren't applicable to the processing activity, select the record\(s\), and select **Remove**.
 
 7.  To view the records added through smart assessment automation rules, navigate to the **Applicable scope** tab.
 
-    To generate AI-recommendations of control objectives and risk statements based on assessment responses, see [AI reviewer assist for privacy assessment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ai-reccos-for-pia.md).
+    To generate AI-recommendations of control objectives and risk statements based on assessment responses, see [AI reviewer assist for privacy assessment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/ai-reccos-for-pia.md).
 
 8.  To request more information from the responder, select **Request for revision**.
 
@@ -73,12 +73,12 @@ After a business user submits a privacy assessment, it moves to the Review state
 ## Result
 
 -   The corresponding controls and risks for the records in Applicable scope are automatically scoped to the processing activity.
--   The hierarchy relationships are mapped to the processing activity. You can manage these relationships or add new ones directly from the processing activity record by navigating to **Processing data inventory** &gt; **Hierarchy**. For steps to add a new relationship, see [Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md).
--   The data transfers are mapped to the processing activity. You can add or remove data transfers directly from the processing activity record by navigating to **Regulatory details** &gt; **Data transfers**. For steps, see [Create a data transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-transfer.md) and [Delete a data transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/delete-a-data-transfer.md).
+-   The hierarchy relationships are mapped to the processing activity. You can manage these relationships or add new ones directly from the processing activity record by navigating to **Processing data inventory** &gt; **Hierarchy**. For steps to add a new relationship, see [Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md).
+-   The data transfers are mapped to the processing activity. You can add or remove data transfers directly from the processing activity record by navigating to **Regulatory details** &gt; **Data transfers**. For steps, see [Create a data transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/create-a-data-transfer.md) and [Delete a data transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/delete-a-data-transfer.md).
 
 ## What to do next
 
-A data transfer record generated from a hierarchy relationship does not have a transfer mechanism assigned by default. Add transfer mechanisms to such records. For steps, see [Add a transfer mechanism to a data transfer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/add-transfer-mechanism-dt.md).
+A data transfer record generated from a hierarchy relationship does not have a transfer mechanism assigned by default. Add transfer mechanisms to such records. For steps, see [Add a transfer mechanism to a data transfer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/add-transfer-mechanism-dt.md).
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

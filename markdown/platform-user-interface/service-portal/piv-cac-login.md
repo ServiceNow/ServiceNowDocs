@@ -2,7 +2,7 @@
 title: Register your PIV/CAC card for Service Portal login
 description: Register your Personal Identity Verification \(PIV\) or Common Access Card \(CAC\) card so that you can log in to your organization's portal without entering a password.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/piv-cac-login.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/piv-cac-login.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -51,10 +51,10 @@ The next time you log in to your portal, you can log in using your PIV/CAC card.
 
 To log out of the portal, select your avatar and then select **Logout**. Then, close the browser window.
 
-**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/portal-security.md)
+**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/portal-security.md)
 
 **Related topics**  
 
 
-[Login widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/login-widget.md)
+[Login widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/login-widget.md)
 

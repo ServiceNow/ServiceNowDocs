@@ -2,7 +2,7 @@
 title: Learn components by example
 description: Follow these procedures to learn how components create the functionality you need in your UI Builder pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/learning-components-by-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/learning-components-by-example.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -16,16 +16,16 @@ breadcrumb: [Customize UI Builder pages using components, Working in UI Builder,
 
 Follow these procedures to learn how components create the functionality you need in your UI Builder pages.
 
--   **[Add carousel badge item count](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-carousel-badge-item-count.md)**  
+-   **[Add carousel badge item count](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-carousel-badge-item-count.md)**  
 How to create a dynamic carousel item count \(displayed in the badge\) where the items in the carousel are controlled by a repeater pulling its data from a data resource.
--   **[Create dynamic filtered card displays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/comp-ex-dynamic-filtered-card.md)**  
+-   **[Create dynamic filtered card displays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/comp-ex-dynamic-filtered-card.md)**  
 Create an interactive card layout to display records, add a dropdown to filter visible cards by name, and configure each card to open the full record in another UI Builder page when selected.
--   **[Create and customize alert messages in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/comp-ex-alert-overview.md)**  
+-   **[Create and customize alert messages in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/comp-ex-alert-overview.md)**  
 Learn how alert messages help you communicate feedback and status updates using both default and scripted approaches.
--   **[Filter records by priority with a flyout menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/comp-ex-filter-flyout-menu.md)**  
+-   **[Filter records by priority with a flyout menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/comp-ex-filter-flyout-menu.md)**  
 Configure a flyout menu that filters a task record list based on priority.
--   **[Search list selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/search-list-selector.md)**  
+-   **[Search list selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/search-list-selector.md)**  
 How to address dot-walked child fields that don't display following a search action. List selector search filters both list panes. Dot-walked reference may not appear when searching.
 
-**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md)
 

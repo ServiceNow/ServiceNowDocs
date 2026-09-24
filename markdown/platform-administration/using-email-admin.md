@@ -2,7 +2,7 @@
 title: Creating an email account
 description: Use email administrator to create email accounts, email filter, and create an email account for Microsoft Graph.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/using-email-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/using-email-admin.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,12 +14,12 @@ breadcrumb: [Email Administration, Notifications, Configure core features, Admin
 
 Use email administrator to create email accounts, email filter, and create an email account for Microsoft Graph.
 
--   **[Email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailAccounts.md)**  
+-   **[Email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailAccounts.md)**  
 Email accounts store the connection details and credentials the system uses to access external email servers and services.
--   **[Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailFilters.md)**  
+-   **[Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailFilters.md)**  
 Specify which inbound emails to ignore or move to a particular mailbox.
--   **[Email service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-service.md)**  
+-   **[Email service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-service.md)**  
 The Email Service API provides endpoint to install the Email API on the instance.
 
-**Parent Topic:**[Email Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-administration-landing.md)
+**Parent Topic:**[Email Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-administration-landing.md)
 

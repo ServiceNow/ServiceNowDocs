@@ -2,7 +2,7 @@
 title: NowChatConfiguration class - iOS
 description: Configures options on a chat session.Configures options for the current chat session. This method enables you to show a prompt before closing a chat window, disable features while using chat, apply different conversation options when using chat, and configure UI components in NowChat.Defines the UI configurations to apply to the upload attachment button that appears next to the text input while talking with a live agent.Creates and returns a ClosePrompt object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) constructor to configure the close prompt options within a chat session.Creates and returns a UIConfiguration object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) constructor to configure UI components in NowChat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -27,13 +27,13 @@ Use NowChatConfiguration properties to integrate NowVoice with NowChat.
 
 |Name|Type|Description|
 |----|----|-----------|
-|voiceConfiguration|[NowVoiceEndpoint?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.md)|The voice endpoint for the in-chat voice button. When `nil`, uses the first endpoint in your ServiceNow instance's Mobile SDK settings.|
-|voiceUIConfiguration|[NowVoiceUIConfiguration?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceUIConfigiOSStruct.md)|Presentation options to apply to the voice UI launched from within chat.|
-|voiceCallbacks|[NowVoiceCallbacks?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)|Callbacks for voice sessions launched from within chat.|
+|voiceConfiguration|[NowVoiceEndpoint?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.md)|The voice endpoint for the in-chat voice button. When `nil`, uses the first endpoint in your ServiceNow instance's Mobile SDK settings.|
+|voiceUIConfiguration|[NowVoiceUIConfiguration?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceUIConfigiOSStruct.md)|Presentation options to apply to the voice UI launched from within chat.|
+|voiceCallbacks|[NowVoiceCallbacks?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)|Callbacks for voice sessions launched from within chat.|
 
-When these properties are set, a voice button appears in the NowChat UI. Tapping it launches the voice agent UI as a full-screen overlay within the chat flow. The [onCallEnded callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md) is invoked when the voice session ends, returning the user to the chat.
+When these properties are set, a voice button appears in the NowChat UI. Tapping it launches the voice agent UI as a full-screen overlay within the chat flow. The [onCallEnded callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md) is invoked when the voice session ends, returning the user to the chat.
 
-**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowChatConfiguration - NowChatConfiguration\(closePrompt: ClosePrompt?, disabledFeatures: \[Feature\]? = nil, conversationOptions: \[ConversationOption\]? = nil, uiConfiguration: UIConfiguration? = nil\)
 
@@ -57,11 +57,11 @@ closePrompt
 
 </td><td>
 
-[ClosePrompt?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)
+[ClosePrompt?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)
 
 </td><td>
 
-Prompt to display before closing the associated chat window.Call the [NowChatConfiguration.ClosePrompt\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) struct to define the value of this parameter.
+Prompt to display before closing the associated chat window.Call the [NowChatConfiguration.ClosePrompt\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) struct to define the value of this parameter.
 
 For example:
 
@@ -129,7 +129,7 @@ uiConfiguration
 
 </td><td>
 
-[UIConfiguration?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)
+[UIConfiguration?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)
 
 </td><td>
 
@@ -163,7 +163,7 @@ To use the default for both buttons, omit the **UIConfiguration** parameter in t
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|NowChatConfiguration|Returns a NowChatConfiguration object that you can pass when calling the [NowChatConfiguration\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) method.|
+|NowChatConfiguration|Returns a NowChatConfiguration object that you can pass when calling the [NowChatConfiguration\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) method.|
 
 The following code example shows how to call this method to configure the chat UI.
 
@@ -431,11 +431,11 @@ attachmentUploadButton
 
 </td><td>
 
-[AttachmentUploadButton?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)
+[AttachmentUploadButton?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)
 
 </td><td>
 
-Configuration for the `AttachmentUploadButton` that is shown next to the text input while talking with a live agent.Call the [NowChatConfiguration - AttachmentUploadButton\(isVisible: Boolean = true\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) method to define the value of this parameter.
+Configuration for the `AttachmentUploadButton` that is shown next to the text input while talking with a live agent.Call the [NowChatConfiguration - AttachmentUploadButton\(isVisible: Boolean = true\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) method to define the value of this parameter.
 
 For example:
 

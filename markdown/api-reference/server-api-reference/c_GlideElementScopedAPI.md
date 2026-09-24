@@ -2,7 +2,7 @@
 title: GlideElement - Scoped
 description: The scoped GlideElement API provides a number of convenient script methods for dealing with fields and their values. Scoped GlideElement methods are available for the fields of the current glide record.Determines if the user's role permits the creation of new entries in the associated field.Indicates whether the user's role permits them to read the associated GlideRecord.Determines whether the user's role permits them to write to the associated GlideRecord.Determines if the current field has been modified. This functionality is available for all available data types, except Journal fields.Determines if the previous value of the current field matches the specified object.Determines if the new value of a field, after a change, matches the specified object.Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Returns the value of the specified attribute from the dictionary.Returns a specified Boolean-type attribute from the dictionary as a Boolean value.Returns the choice list for a specified field.Returns the choice label for the current choice.Returns the clear text value for Password \(2 way encrypted\) fields in scoped applications.Returns the formatted display value of a specified field from an associated GlideRecord object.Gets the display value of the field in the language passed as a parameter.Returns the field's element descriptor.Retrieves the platform object associated with the field's value.Returns the phone number in international format.Returns the HTML value of a field.Returns either the most recent journal entry or all journal entries.Returns the object label.Gets the label value of the field in the language passed as a parameter.Returns the name of the field.Gets the table name for a reference element.Returns a GlideRecord object for a given reference element.Returns the name of the table that contains the field.Returns the value of a specified field from a GlideRecord object.Determines if a field is null.Sets the value of a date/time element to the specified number of milliseconds since January 1, 1970 00:00:00 GMT.Sets the display value of the field.Adds an error message to the associated field.Sets the field to the specified phone number.Sets the value of a field.Converts the value of a GlideRecord field to a string.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideElementScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_GlideElementScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The scoped GlideElement API provides a number of convenient script methods for dealing with fields and their values. Scoped GlideElement methods are available for the fields of the current glide record.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideElement - canCreate\(\)
 
@@ -78,7 +78,7 @@ I can create new records for the field Problem statement for - PRB0001001
 
 ### Scoped equivalent
 
-To use the canCreate\(\) method in a scoped application, use the corresponding scoped method: [canCreate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the canCreate\(\) method in a scoped application, use the corresponding scoped method: [canCreate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## Scoped GlideElement - canRead\(\)
 
@@ -507,11 +507,11 @@ Priority 1
 
 Gets the display value of the field in the language passed as a parameter.
 
-The result is only applicable to translatable field types such as **Choice**, **Translated Field**, and **Translated Text**. For other field types, the result defaults to [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+The result is only applicable to translatable field types such as **Choice**, **Translated Field**, and **Translated Text**. For other field types, the result defaults to [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 You must have the corresponding language plugin to retrieve a translated value. For information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
 
-See also [Scoped GlideElement - getLabelLang\(String language\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+See also [Scoped GlideElement - getLabelLang\(String language\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -751,8 +751,8 @@ You must have the corresponding language plugin to retrieve a translated value. 
 
 See also:
 
--   [getDisplayValueLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
--   [getLabel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
+-   [getDisplayValueLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
+-   [getLabel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -928,7 +928,7 @@ if (current.approver.getTableName() == "sysapproval_approver") {
 
 Returns the value of a specified field from a GlideRecord object.
 
-This method returns the internal value of the associated database field. To return the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) of the field, use the [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md) method.
+This method returns the internal value of the associated database field. To return the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) of the field, use the [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|

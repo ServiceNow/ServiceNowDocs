@@ -2,7 +2,7 @@
 title: Install a Service Graph Connector with an available entitlement in SGC Central
 description: Install a Service Graph Connector that matches an entitlement available in Application Manager from within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-install-sgc-entitlements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/sgcc-install-sgc-entitlements.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

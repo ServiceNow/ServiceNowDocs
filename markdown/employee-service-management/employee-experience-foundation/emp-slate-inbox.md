@@ -2,7 +2,7 @@
 title: Tasks and requests
 description: Tasks and requests provides a unified interface for managing tasks, approvals, and action items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-slate-inbox.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-slate-inbox.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -77,12 +77,12 @@ Conversational filters apply along with the filters that administrators configur
 
 ## Task delegation
 
-You can delegate a task or approval to one or more other employees for a specific time period. Delegates receive the item in their own tasks and requests view and can act on it. For more information, see [Delegate tasks and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-delegate-tasks.md).
+You can delegate a task or approval to one or more other employees for a specific time period. Delegates receive the item in their own tasks and requests view and can act on it. For more information, see [Delegate tasks and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-delegate-tasks.md).
 
 **Related topics**  
 
 
-[EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md)
+[EmployeeWorks Web App prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md)
 
-[Delegate tasks and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-delegate-tasks.md)
+[Delegate tasks and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-delegate-tasks.md)
 

@@ -2,7 +2,7 @@
 title: Set up the Conversational SMS Integration with Twilio
 description: Integrate Twilio with Virtual Agent so that you can engage in SMS bot conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-twilio-adapter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-twilio-adapter.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -113,7 +113,7 @@ Message auth that you created.
 </td></tr></tbody>
 </table>    3.  Click **Submit**.
 
-4.  In the Twilio Console, for the phone number that you specified in Step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-twilio-adapter.md), update the SMS incoming web-hook.
+4.  In the Twilio Console, for the phone number that you specified in Step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-twilio-adapter.md), update the SMS incoming web-hook.
 
     To update the web-hook, navigate to the phone number in your Twilio console: **Phone Numbers** &gt; **Manager** &gt; **Active numbers**. Click on the phone number and enter the following address in the Messaging web-hook field:
 
@@ -124,14 +124,14 @@ Message auth that you created.
 
 ## What to do next
 
-After you set up Conversational SMS Integration with Twilio, you can create SMS conversation topics in the Assistant Designer Asset library. For more information, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+After you set up Conversational SMS Integration with Twilio, you can create SMS conversation topics in the Assistant Designer Asset library. For more information, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
-**Parent Topic:**[Configuring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)
+**Parent Topic:**[Configuring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)
 
 **Related topics**  
 
 
-[Install Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/install-sms-twilio.md)
+[Install Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/install-sms-twilio.md)
 
 [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md)
 

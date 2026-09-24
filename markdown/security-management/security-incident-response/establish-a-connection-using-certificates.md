@@ -2,7 +2,7 @@
 title: Establish a connection using certificates
 description: Establish a connection between newly created Microsoft Teams graph application using certificates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/establish-a-connection-using-certificates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/establish-a-connection-using-certificates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -132,5 +132,5 @@ You can enter any value. **Note:** This is not important as you will be using th
     \[Omitted image "api-permissions-msteams.png"\] Alt text: API Permissions - MS Teams
 
 
-**Parent Topic:**[Using Certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-certificates-for-authentication.md)
+**Parent Topic:**[Using Certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-certificates-for-authentication.md)
 

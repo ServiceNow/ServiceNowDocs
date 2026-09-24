@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Operational Technology \(OT\) Service Management
 description: If you have the admin role, you can configure the ServiceNow Otto for Operational Technology \(OT\) Service Management application so that teams can use the generative AI capabilities in the Industrial Workspace for their OT incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -24,7 +24,7 @@ Role required: admin
 
 Use the AI Admin Hub console to configure ServiceNow Otto for OT Service Management. The console helps you install plugins and configure generative AI skills. For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-You can also set up AI Enhanced Recommended Actions for OTSM to use with ServiceNow Otto for OT Service Management. For more information, see [Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/set-up-ai-enhanced-ra-otsm.md).
+You can also set up AI Enhanced Recommended Actions for OTSM to use with ServiceNow Otto for OT Service Management. For more information, see [Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/set-up-ai-enhanced-ra-otsm.md).
 
 **Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -55,7 +55,7 @@ Gen AI skills for OT incident
 
 1.  Activate the ServiceNow Otto for OT Service Management plugin \(sn\_otsm\_gen\_ai\).
 
-    -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/supporting-information-for-now-assist-otsm.md).
+    -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/supporting-information-for-now-assist-otsm.md).
     -   For information about the installation process, see [Install plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub**.
 
@@ -69,7 +69,7 @@ Gen AI skills for OT incident
 
 6.  Select the inputs or triggers for the selected skill.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.md).
 
 7.  After you configure the inputs or triggers, select **Save and continue**.
 
@@ -90,10 +90,10 @@ Gen AI skills for OT incident
 12. Review your choices and select **Activate** to complete the configuration.
 
 
--   **[Supporting information for ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/supporting-information-for-now-assist-otsm.md)**  
+-   **[Supporting information for ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/supporting-information-for-now-assist-otsm.md)**  
 Review the supported language models, supported interfaces, and application dependencies for ServiceNow Otto for Operational Technology \(OT\) Service Management.
--   **[Skill inputs and triggers for ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.md)**  
+-   **[Skill inputs and triggers for ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.md)**  
 Skill inputs and triggers for ServiceNow Otto for Operational Technology \(OT\) Service Management determine how and when each skill is used. Configure inputs to identify the data a skill uses, or configure triggers to initiate skill actions.
 
-**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
+**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
 

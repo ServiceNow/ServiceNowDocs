@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Supporting information for ServiceNow Otto for Accounts Payable Operations \(APO\) includes prerequisites, skill configurations, and related resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/now-assist-apo-supporting-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/now-assist-apo-supporting-info.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -72,5 +72,5 @@ Activate the applications in the following order:
 1.  ServiceNow Otto for Platform \(sn\_genai\_platform\)
 2.  ServiceNow Otto for APO \(sn\_ap\_gen\_ai\)
 
-For more information, see [Configure ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
+For more information, see [Configure ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
 

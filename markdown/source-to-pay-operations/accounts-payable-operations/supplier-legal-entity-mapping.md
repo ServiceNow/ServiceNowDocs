@@ -2,7 +2,7 @@
 title: Supplier Legal Entity Mapping
 description: Field descriptions for the Supplier Legal Entity Mapping table in APO, which links supplier and customer legal entities to route invoices, purchase orders, and payments correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/supplier-legal-entity-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/supplier-legal-entity-mapping.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -26,5 +26,5 @@ Field descriptions for the Supplier Legal Entity Mapping table in APO, which lin
 |Payment term|Reference|The name or code of the payment term. Example: Net 60.|
 |General ledger account|Reference|The account to which capital or operational expenses will be posted.|
 
-**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
+**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

@@ -2,7 +2,7 @@
 title: Create resource assignments using Project Workspace
 description: Create an attribute-based resource assignment in the Project Workspace application for any project or project task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/create-ra-pws-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/create-ra-pws-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -46,7 +46,7 @@ Role required: it\_project\_manager
 
 6.  From the resource assignment pane, create a resource assignment for a project or task by selecting **New Resource**.
 
-    You can use this option to create a resource assignment using the resource form. On the New Resource Assignment form, fill in the fields and select **Submit**. For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-form-rmw.md).
+    You can use this option to create a resource assignment using the resource form. On the New Resource Assignment form, fill in the fields and select **Submit**. For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-ra-form-rmw.md).
 
 7.  Select the expense type of the assignment based on the work as **Opex** or **Capex**.
 
@@ -55,16 +55,16 @@ Role required: it\_project\_manager
 
 ## What to do next
 
-[Update resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-resource-assignment-pw.md)
+[Update resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/update-resource-assignment-pw.md)
 
-**Parent Topic:**[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/use-ra-rmw.md)
+**Parent Topic:**[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/use-ra-rmw.md)
 
 **Related topics**  
 
 
-[Delete a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/delete-resource-assignment-pw.md)
+[Delete a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/delete-resource-assignment-pw.md)
 
-[Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)
+[Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)
 
-[Realign resource assignments with project dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/realign-resource-assignment-to-task.md)
+[Realign resource assignments with project dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/realign-resource-assignment-to-task.md)
 

@@ -2,7 +2,7 @@
 title: View the server response time
 description: View the server response times that are associated with your Next Experience instance by using the client interaction table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/view-server-response-time.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/view-server-response-time.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ Role required: admin
     The server response times for that particular interaction are displayed.
 
 
-**Parent Topic:**[Instance performance in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/measuring-performance-next-experience.md)
+**Parent Topic:**[Instance performance in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/measuring-performance-next-experience.md)
 

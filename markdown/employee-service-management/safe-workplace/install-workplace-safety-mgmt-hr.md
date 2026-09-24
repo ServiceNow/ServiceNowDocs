@@ -2,7 +2,7 @@
 title: Install Workplace Core
 description: You can install the Workplace Core application if you have the admin role. This application includes optional demo data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/install-workplace-safety-mgmt-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/install-workplace-safety-mgmt-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -88,7 +88,7 @@ The following components are installed with installation of the Workplace Core a
 -   Roles
 -   Tables
 
-See [Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/components-installed-with-workplace-safety-mgmt-hr.md) for more information.
+See [Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/components-installed-with-workplace-safety-mgmt-hr.md) for more information.
 
 ## Procedure
 
@@ -115,10 +115,10 @@ See [Components installed with Workplace Core](https://raw.githubusercontent.com
 6.  Click **Install**.
 
 
--   **[Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/components-installed-with-workplace-safety-mgmt-hr.md)**  
+-   **[Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/components-installed-with-workplace-safety-mgmt-hr.md)**  
 Several types of components are installed with installation of the Workplace Core application, including user roles, scheduled jobs, tables, and business rules.
--   **[Properties installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/properties-installed-with-workplace-safety-mgmt-hr.md)**  
+-   **[Properties installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/properties-installed-with-workplace-safety-mgmt-hr.md)**  
 Customize the properties available with Workplace Core.
 
-**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/workplace-safety-mgmt-hr.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/workplace-safety-mgmt-hr.md)
 

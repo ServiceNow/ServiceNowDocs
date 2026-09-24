@@ -2,7 +2,7 @@
 title: Manage documents from Documents tab
 description: The Documents tab lets supplier contacts upload and manage documents without needing a supplier manager to initiate the process first. Supplier contacts can also manage document permissions from the Documents tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-documents-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-documents-tab.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -98,14 +98,14 @@ Download the latest or specific version of a document.
 </table>    \[Omitted image "documents-tab-supp-collab.png"\] Alt text: Document details page.
 
 
-**Parent Topic:**[Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md)
+**Parent Topic:**[Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md)
 
 **Related topics**  
 
 
-[Configure document expiration monitoring attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-document-expiration-monitoring-attributes.md)
+[Configure document expiration monitoring attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configure-document-expiration-monitoring-attributes.md)
 
-[Manage documents from My Company page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-my-company.md)
+[Manage documents from My Company page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-my-company.md)
 
-[Upload document from My Tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-document-from-my-tasks-page.md)
+[Upload document from My Tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-document-from-my-tasks-page.md)
 

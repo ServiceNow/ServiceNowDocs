@@ -2,7 +2,7 @@
 title: Entitlement form
 description: The Entitlement form can be used to create entitlements in Customer Contracts and Entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/entitlement-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/entitlement-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -279,5 +279,5 @@ Cumulative net price
 Represents the total price of the contract line by calculating the roll-up amount of all root lines.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pss-reference.md)
+</table>**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pss-reference.md)
 

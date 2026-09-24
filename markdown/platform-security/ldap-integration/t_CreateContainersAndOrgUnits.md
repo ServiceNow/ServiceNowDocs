@@ -2,7 +2,7 @@
 title: Create containers and organizational units for ADAM
 description: Logically group objects stored in ADAM into containers and organizational units \(OU\) just as they would be in Active Directory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_CreateContainersAndOrgUnits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ldap-integration/t\_CreateContainersAndOrgUnits.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

@@ -2,7 +2,7 @@
 title: Tag Policies form
 description: You use the Tag Policy form to configure tag compliance and health policies that are used in tag audits runs on discovered cloud resources or CIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/tag-gov-tag-policies-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/tag-governance/tag-gov-tag-policies-form.html
 release: australia
 product: Tag Governance
 classification: tag-governance
@@ -228,5 +228,5 @@ User
 Specific user from the assignment group to whom you want to assign the task. Use lookup lists to select a user.This field appears only when you select the **Create Tasks** check box.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Tag Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/reference-tag-governance.md)
+</table>**Parent Topic:**[Tag Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/reference-tag-governance.md)
 

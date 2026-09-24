@@ -2,7 +2,7 @@
 title: MFA enforcement properties
 description: Configure the properties for MFA enforcement from Yokohama and upgrade to Yokohama.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-enforcement-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-enforcement-properties.html
 release: australia
 product: Authentication
 classification: authentication

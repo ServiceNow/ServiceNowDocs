@@ -2,7 +2,7 @@
 title: Mobile experience for Universal Request
 description: Create universal requests from a mobile device using the Now Mobile application. Stay connected and access information in real time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-mobile-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-mobile-exp.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -51,5 +51,5 @@ A requester can use the mobile device to create universal requests by tapping on
 \[Omitted image "ur-mobile-cancelfinal.jpg"\] Alt text: Mobile request detailed view
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md)
+</table>**Parent Topic:**[Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md)
 

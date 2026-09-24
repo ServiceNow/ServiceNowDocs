@@ -2,7 +2,7 @@
 title: Edit a value template
 description: Edit a value template to update how value is calculated for AI assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/edit-value-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/edit-value-template.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

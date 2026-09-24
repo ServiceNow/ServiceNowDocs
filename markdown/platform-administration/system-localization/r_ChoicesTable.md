@@ -2,7 +2,7 @@
 title: Choice table
 description: The Choice \[sys\_choice\] table contains translated text for options that appear in lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/r\_ChoicesTable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/r\_ChoicesTable.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -29,7 +29,7 @@ The main fields for this table are:
 
 \[Omitted image "TranslatedChoiceList.png"\] Alt text: A Choice record translated into Spanish.
 
-**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslationTables.md)
+**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/r_TranslationTables.md)
 
 **Related topics**  
 

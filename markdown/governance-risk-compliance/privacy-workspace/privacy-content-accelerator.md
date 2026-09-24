@@ -2,7 +2,7 @@
 title: Privacy content accelerator
 description: The privacy content accelerator provides prebuilt privacy content that you can activate directly from the Privacy Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-content-accelerator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/privacy-content-accelerator.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -49,11 +49,11 @@ Both tabs organize content into two sub-tabs by installation state:
 
 -   **Inactive**
 
-    Lists the authority documents and risk statement versions that aren't installed in your library. Cards on this sub-tab show the **Activate** button. To install content from this sub-tab, see [Activate privacy content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-privacy-content.md).
+    Lists the authority documents and risk statement versions that aren't installed in your library. Cards on this sub-tab show the **Activate** button. To install content from this sub-tab, see [Activate privacy content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/update-privacy-content.md).
 
 -   **Active**
 
-    Lists the authority documents and risk statement versions currently installed in your library. Cards on this sub-tab show the active version number and the **Update** button. To update the activated content in your library, see [Update content in the privacy library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.md).
+    Lists the authority documents and risk statement versions currently installed in your library. Cards on this sub-tab show the active version number and the **Update** button. To update the activated content in your library, see [Update content in the privacy library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.md).
 
 
 ## Content status
@@ -135,7 +135,7 @@ When an authority document is activated, a content reference record is created i
 
 ## Risk statement versioning
 
-Privacy risk statements are shipped in versioned sets. Each new version includes the risk statements from the previous version and adds new ones. To activate a new version, see [Activate privacy content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-privacy-content.md).
+Privacy risk statements are shipped in versioned sets. Each new version includes the risk statements from the previous version and adds new ones. To activate a new version, see [Activate privacy content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/update-privacy-content.md).
 
 When you activate a new risk statement version, all risk statements appear as **Ready**, even those installed in a previous version. Reinstalling existing records from a new version can overwrite certain fields if they share the same name.
 

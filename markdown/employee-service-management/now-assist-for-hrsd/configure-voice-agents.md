@@ -2,7 +2,7 @@
 title: Configure HR AI voice agents
 description: Enable employees to complete tasks, resolve issues, and access information through a conversational experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/configure-voice-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/configure-voice-agents.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -22,9 +22,9 @@ Role required: sn\_aia\_admin, sn\_voice\_aia.admin, or sn\_hr\_voice\_aia.admin
 
 Verify you have the following applications installed:
 
--   [Case and Knowledge Management \[com.sn\_hr\_core\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md)
+-   [Case and Knowledge Management \[com.sn\_hr\_core\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md)
 -   ServiceNow Otto for Platform \[sn\_genai\_platform\].
--   [ServiceNow Otto for HRSD \[sn\_hr\_gen\_ai\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+-   [ServiceNow Otto for HRSD \[sn\_hr\_gen\_ai\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 ## About this task
 
@@ -50,7 +50,7 @@ HR AI voice agents are conversational agents designed to handle routine employee
 
     2.  Filter the agents by `Application is HR AI Voice Agents`.
 
-    For more information on the HR-specific agents, see [HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md).
+    For more information on the HR-specific agents, see [HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md).
 
 3.  For the following AI voice agents, perform these additional configuration steps.
 
@@ -94,12 +94,12 @@ Employee Details Updater, Holiday Calendar, Retrieve Worker Profile, Time off Re
 
 ## What to do next
 
-Assign roles to admins and users to grant them access to Voice features. See [Components installed with voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.md).
+Assign roles to admins and users to grant them access to Voice features. See [Components installed with voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.md).
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md)
+[HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md)
 

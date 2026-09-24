@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Employee Center Pro
 description: ServiceNow Otto for Employee Center Pro provides a clean employee engagement layer, and offers self-service capabilities, conversational assistance, and enterprise search across multiple applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/na-emp-center-pro-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/na-emp-center-pro-exploring.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -66,5 +66,5 @@ ServiceNow Otto for Employee Center Pro is layered with Employee Center Pro, a m
 
 ## What to explore next
 
-To learn more about configuring ServiceNow Otto for Employee Center Pro, see: [Configuring ServiceNow Otto for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/na-emp-cente-pro-configuring.md)
+To learn more about configuring ServiceNow Otto for Employee Center Pro, see: [Configuring ServiceNow Otto for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/na-emp-cente-pro-configuring.md)
 

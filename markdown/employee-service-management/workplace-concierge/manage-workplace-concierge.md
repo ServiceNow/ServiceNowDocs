@@ -2,7 +2,7 @@
 title: Manage Workplace Concierge - Employee Presence
 description: Manage Employee routines, collaborators, and exceptions. Monitor the routines, collaborators, and exceptions created by employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/manage-workplace-concierge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/manage-workplace-concierge.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -16,10 +16,10 @@ breadcrumb: [Workplace Concierge, Workplace Service Delivery, Employee Service M
 
 Manage Employee routines, collaborators, and exceptions. Monitor the routines, collaborators, and exceptions created by employees.
 
--   **[View employee presence modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/view-employee-routines-and-collaborators.md)**  
+-   **[View employee presence modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/view-employee-routines-and-collaborators.md)**  
 Track the routines and exceptionscreated by employees and the collaborators added by employees.
 -   **[Create custom insights using Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Use Proactive Prompts to create insight sections for the employee presence dashboard.
 
-**Parent Topic:**[Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/workplace-concierge-feat.md)
+**Parent Topic:**[Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/workplace-concierge-feat.md)
 

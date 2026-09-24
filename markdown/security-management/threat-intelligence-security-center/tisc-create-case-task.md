@@ -2,7 +2,7 @@
 title: Creating case task using Threat Analyst Workbench
 description: Create case tasks to associate with case\(s\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-case-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-create-case-task.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -46,7 +46,7 @@ Role required: sn\_sec\_tisc.analyst, sn\_sec\_tisc.admin
     |Assigned to|The Analyst who is responsible for working on a case task.|
     |Due Date|The date and time that the case task is due to be completed or closed.|
     |TLP|Unique value that indicates the Data sensitivity setting per TLP.|
-    |Enforce Restriction|As an sn\_sec\_tisc\_admin, select this check box to modify members of allowed group and allowed members. For more information, see [Enforced Restrictions for case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enforced-restrictions.md).|
+    |Enforce Restriction|As an sn\_sec\_tisc\_admin, select this check box to modify members of allowed group and allowed members. For more information, see [Enforced Restrictions for case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-enforced-restrictions.md).|
 
 6.  Fill in the fields on the Insights section, as appropriate.
 
@@ -59,10 +59,10 @@ Role required: sn\_sec\_tisc.analyst, sn\_sec\_tisc.admin
 
     Your case task will be associated with your case.
 
-    **Note:** After saving the case task, you can add tags and taxonomies to the task. For more information, see [Creating Taxonomies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-taxonomies.md).
+    **Note:** After saving the case task, you can add tags and taxonomies to the task. For more information, see [Creating Taxonomies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/create-taxonomies.md).
 
 
-**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 

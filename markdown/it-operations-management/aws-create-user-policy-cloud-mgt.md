@@ -2,7 +2,7 @@
 title: Control AWS access and permissions using policies
 description: I have reworked this topic to fit the new accessibility configuration structure. Per our discussion, please remove this topic from the CPG map and add a reference to the new access configuration anchor \(./../discovery/concept/access-aws-accounts.dita\) to the AWS Day 1 landing page. Configure policies with the necessary level of permissions to provide access to the AWS resources for Cloud Discovery and Cloud Provisioning and Governance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aws-create-user-policy-cloud-mgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aws-create-user-policy-cloud-mgt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -221,7 +221,7 @@ The policy you configure defines the AWS permissions that you can assign to a us
         ```
 
 
-**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/setup-aws-service-accounts.md)
 
 **Related topics**  
 

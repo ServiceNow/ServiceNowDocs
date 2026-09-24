@@ -2,7 +2,7 @@
 title: Configure Flash movie blocks
 description: Use a Flash movie block to embed any Flash movie \(.swf file\) as an attachment or by referencing a URL in a content page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_FlashMovieBlock.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_FlashMovieBlock.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -78,7 +78,7 @@ Enter the width of the Flash movie in pixels.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
+**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
 
 **Related topics**  
 
@@ -99,9 +99,9 @@ Enter the width of the Flash movie in pixels.
 
 [Configure a detailed content block]()
 
-[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md)
+[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_AddingAnAttachment.md)
 
-[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)
+[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentBlocks.md)
 
-[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
+[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
 

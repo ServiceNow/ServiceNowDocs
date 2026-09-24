@@ -2,7 +2,7 @@
 title: Configure the UI of the lifecycle event builder
 description: Customize the appearance of the lifecycle event builder. You can change the colors of the different activity types, as well as change the color and size of the activity set columns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/le-ui-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/le-ui-configuration.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events

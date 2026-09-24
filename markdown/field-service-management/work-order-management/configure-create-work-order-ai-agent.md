@@ -2,7 +2,7 @@
 title: Configure the Create Work Order AI Agent for the ServiceNow Otto Virtual Agent
 description: Configure the Create Work Order AI agent to appear in the ServiceNow Otto Virtual Agent on the ServiceNow Agent mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configure-create-work-order-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/configure-create-work-order-ai-agent.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -41,5 +41,5 @@ The Create Work Order AI agent allows users to create work orders in the Service
 
 ## Result
 
-The Create Work Order AI agent will appear in the ServiceNow Agent mobile application. The agent can be triggered by asking ServiceNow Otto to create a work order, or by selecting the Create Work Order button. For more information, see [Create a work order on ServiceNow Agent using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-work-order-mobile-now-assist-fsm.md).
+The Create Work Order AI agent will appear in the ServiceNow Agent mobile application. The agent can be triggered by asking ServiceNow Otto to create a work order, or by selecting the Create Work Order button. For more information, see [Create a work order on ServiceNow Agent using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/create-work-order-mobile-now-assist-fsm.md).
 

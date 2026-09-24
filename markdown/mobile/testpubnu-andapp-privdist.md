@@ -2,7 +2,7 @@
 title: Test and publish a new branded Android app for private distribution
 description: Learn the next steps to test and publish a new branded Android app for private distribution after you request it in Mobile Publishing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/testpubnu-andapp-privdist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/testpubnu-andapp-privdist.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -62,7 +62,7 @@ Once the status of your app is **Ready for testing**, you have 90 days to make s
 
 ## 4. Customize your app's workflows
 
-Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
+Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
 
 ## 5. Publish and distribute your app
 
@@ -83,5 +83,5 @@ After you have tested your app, set it up, and customize its workflows, you are 
 
 ## 6. Keep your app updated
 
-Update your app before you update your ServiceNow® family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-supported-devices.md).
+Update your app before you update your ServiceNow® family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-supported-devices.md).
 

@@ -2,7 +2,7 @@
 title: Map the custom field in the transform map
 description: Map the custom source field on the pre-import table to the target field on the sta table so the imported value transforms into the correct staging column.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/map-custom-field-transform.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/map-custom-field-transform.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,7 +19,7 @@ Map the custom source field on the pre-import table to the target field on the s
 
 ## Before you begin
 
-The custom column must be added to both the staging table and the pre-import table before completing this task. For more information, see [Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md) and [Add a matching column to the pre-import table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-column-pre-import-table.md).
+The custom column must be added to both the staging table and the pre-import table before completing this task. For more information, see [Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/add-custom-column-staging-table.md) and [Add a matching column to the pre-import table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/add-column-pre-import-table.md).
 
 Role required: ot\_excel\_import\_user
 
@@ -48,9 +48,9 @@ The field map is added to the SG-OT Excel Pre Import \[sn\_otsm\_sgc\_sg\_ot\_ex
 
 Upload an updated Microsoft Excel spreadsheet to populate the custom column. For more information, see the following tasks:
 
--   [Create an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/create-import-task-excel-sgc.md)
--   [Validate imported staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/run-validations.md)
--   [Trigger a CMDB import for valid staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/trigger-cmdb-import.md)
+-   [Create an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/create-import-task-excel-sgc.md)
+-   [Validate imported staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/run-validations.md)
+-   [Trigger a CMDB import for valid staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/trigger-cmdb-import.md)
 
-**Parent Topic:**[Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)
+**Parent Topic:**[Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)
 

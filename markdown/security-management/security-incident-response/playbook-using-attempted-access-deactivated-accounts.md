@@ -2,7 +2,7 @@
 title: Use the Attempted Access to Deactivated Accounts playbook
 description: Use this playbook when an employee whose account is terminated, inactive, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-attempted-access-deactivated-accounts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-using-attempted-access-deactivated-accounts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -80,5 +80,5 @@ Role required:
     5.  In Action 24, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Attempted Access to Deactivated Accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-attempted-access-deactivated-accounts.md)
+**Parent Topic:**[Playbook for Attempted Access to Deactivated Accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-attempted-access-deactivated-accounts.md)
 

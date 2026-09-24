@@ -2,7 +2,7 @@
 title: Application files
 description: Application files are configuration records that allow developers to extend application functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationFiles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_ApplicationFiles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

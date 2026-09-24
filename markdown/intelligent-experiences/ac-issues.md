@@ -2,7 +2,7 @@
 title: Issues
 description: Track a problem identified with an AI asset, such as a performance or compliance gap, through to resolution with a documented action plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-issues.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-16"

@@ -2,7 +2,7 @@
 title: LDAP type data source
 description: An LDAP data source is automatically created when you configure your instance to integrate with LDAP.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_LDAPTypeDataSource.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/r\_LDAPTypeDataSource.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

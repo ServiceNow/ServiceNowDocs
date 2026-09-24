@@ -2,7 +2,7 @@
 title: Register a hardware security key
 description: Register a hardware key to use as part of your MFA login.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-setup-hardware-key-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-setup-hardware-key-auth.html
 release: australia
 product: Authentication
 classification: authentication

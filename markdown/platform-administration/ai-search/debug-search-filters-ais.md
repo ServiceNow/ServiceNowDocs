@@ -2,7 +2,7 @@
 title: Debug search source and content security filters
 description: Use the Session Log to view search source and content security filters applied to results for a search query. Administrators can use this approach to verify search source filters and content security settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/debug-search-filters-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/debug-search-filters-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -32,7 +32,7 @@ Enable session debugging for AI Search to view debug log messages for search sou
 
     The Session Log opens.
 
-3.  Use the [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ai-search-preview.md) to submit the search query of interest.
+3.  Use the [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ai-search-preview.md) to submit the search query of interest.
 
     **Note:** To debug content security filters for another user, specify their name in the Search Preview UI's user impersonation tool.
 
@@ -47,9 +47,9 @@ Enable session debugging for AI Search to view debug log messages for search sou
 
 ## What to do next
 
-If a search source's filters exclude records that should be searchable, modify those filters. For details, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-source-ais.md).
+If a search source's filters exclude records that should be searchable, modify those filters. For details, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-search-source-ais.md).
 
-If content security filters prevent the user from seeing search results that should be accessible, correct the access control settings for the affected source records and then reindex content for the relevant indexed source. For details on content security settings, see [Content security in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/content-security-ais.md). To reindex content, follow the steps from [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
+If content security filters prevent the user from seeing search results that should be accessible, correct the access control settings for the affected source records and then reindex content for the relevant indexed source. For details on content security settings, see [Content security in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/content-security-ais.md). To reindex content, follow the steps from [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/index-single-source-ais.md).
 
-**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/administer-ais.md)
 

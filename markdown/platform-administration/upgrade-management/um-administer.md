@@ -2,7 +2,7 @@
 title: Administering Upgrade Console
 description: The Administration module contains information about managing upgrade risks.You will be notified of the possible conflicts that might result due to several customizations in a skipped metadata file, with a new UI message on the form pages of the metadata files.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-administer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-administer.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management

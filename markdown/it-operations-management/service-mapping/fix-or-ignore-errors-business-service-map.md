@@ -2,7 +2,7 @@
 title: Fix errors in individual application service maps
 description: You can address discovery issues in each application service map individually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -122,7 +122,7 @@ See the log to understand at what stage an error occurred and what caused it.
 
 </td><td>
 
-Manually add the CI whose discovery failed and configure attributes of the entry point from which Service Mapping continues discovery. For more information, see [Skip errors to continue discovering an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/skip-errors-continue-discovery-individual-services.md).
+Manually add the CI whose discovery failed and configure attributes of the entry point from which Service Mapping continues discovery. For more information, see [Skip errors to continue discovering an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/skip-errors-continue-discovery-individual-services.md).
 
 </td></tr><tr><td id="d501285e350">
 
@@ -141,13 +141,13 @@ Run the discovery process for the selected CI after trying to resolve a discover
 Display a list of all services affected by the selected error. In the list, click a service to view service details.
 
 </td></tr></tbody>
-</table>8.  If there are no instructions or semi-automated resolution options available, [fix errors based on symptoms and discovery messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-errors-by-discovery-messages.md).
+</table>8.  If there are no instructions or semi-automated resolution options available, [fix errors based on symptoms and discovery messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/fix-errors-by-discovery-messages.md).
 
 9.  To ignore an irrelevant error, right-click its error message on the **Discovery Messages** tab and select `Toggle Ignore State`.
 
     The ignored error disappears from the map and from the list of discovery error messages.
 
-    **Note:** If necessary, you can still display ignored errors by switching on the **Include Ignored Errors** option under **More Options** menu. For more info, see [Modify view for an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/modify-map-view.md).
+    **Note:** If necessary, you can still display ignored errors by switching on the **Include Ignored Errors** option under **More Options** menu. For more info, see [Modify view for an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/modify-map-view.md).
 
 10. Click **Handle Next Error** to review the next error in the largest error group.
 
@@ -156,16 +156,16 @@ Display a list of all services affected by the selected error. In the list, clic
 
 ## What to do next
 
-If you resolved most errors, [send the service instance for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/send-business-service-for-review.md).
+If you resolved most errors, [send the service instance for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/send-business-service-for-review.md).
 
--   **[Fix service mapping errors using discovery messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-errors-by-discovery-messages.md)**  
+-   **[Fix service mapping errors using discovery messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/fix-errors-by-discovery-messages.md)**  
 Service Mapping does not offer semi-automated resolution options for errors that require advanced resolution. Fix such errors using symptoms and discovery messages.
--   **[Skip errors to continue discovering an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/skip-errors-continue-discovery-individual-services.md)**  
+-   **[Skip errors to continue discovering an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/skip-errors-continue-discovery-individual-services.md)**  
 If you know what configuration items \(CIs\) and connections make up your service instance, you can enable Service Mapping to continue discovery of the service instance even if there are some errors. You can skip errors to troubleshoot later so you can complete mapping most of the service instance, even if some CIs are missing.
--   **[Resolve pattern-related mapping errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_TBSMapProcess.md)**  
+-   **[Resolve pattern-related mapping errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_TBSMapProcess.md)**  
 You can troubleshoot mapping errors caused by patterns.
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 
 **Related topics**  
 
@@ -188,5 +188,5 @@ You can troubleshoot mapping errors caused by patterns.
 
 [Application service analysis and maintenance using classic Service Mapping]()
 
-[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prerequisites-service-mapping.md)
+[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/prerequisites-service-mapping.md)
 

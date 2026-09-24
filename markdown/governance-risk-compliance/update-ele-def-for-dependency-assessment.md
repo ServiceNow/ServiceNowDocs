@@ -2,7 +2,7 @@
 title: Update the number of element definitions
 description: Update the number of the element definitions that are displayed on the Dependency Assessment tab in the Business Continuity Management \(BCM\) Workspace. You can configure the dependencyAssessmentElementsLimit system property to control the number of the element definitions that are used for the dependency assessment in a business impact analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-ele-def-for-dependency-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/update-ele-def-for-dependency-assessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,5 +61,5 @@ Role required: admin
     The updated element definitions are displayed on the **Dependency Assessment** tab.
 
 
-**Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)
+**Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)
 

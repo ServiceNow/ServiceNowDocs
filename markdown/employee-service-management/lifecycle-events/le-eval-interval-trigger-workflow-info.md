@@ -2,7 +2,7 @@
 title: Lifecycle Events triggers and workflow reference
 description: Information about Lifecycle Events triggers and workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/le-eval-interval-trigger-workflow-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/le-eval-interval-trigger-workflow-info.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -24,9 +24,9 @@ If the trigger condition hasn’t been met, it waits for the Wait to reevaluate 
 
 If the trigger condition is met, but after the evaluation interval runs, it has to wait another four hours before the activities set is reevaluated. Waiting for reevaluation can cause delays in an activity set to trigger.
 
-The Wait to reevaluate Trigger Script timer uses the **evaluation\_interval** in the **sn\_hr\_le\_activity\_set** table. The default value is four hours. You can reduce the value in the **evaluation\_interval** field to launch the activity set sooner, see [Change the evaluation interval default wait time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-activity-set-evaluation-interval.md).
+The Wait to reevaluate Trigger Script timer uses the **evaluation\_interval** in the **sn\_hr\_le\_activity\_set** table. The default value is four hours. You can reduce the value in the **evaluation\_interval** field to launch the activity set sooner, see [Change the evaluation interval default wait time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/le-activity-set-evaluation-interval.md).
 
-**Note:** Use caution if you decide to change the default value. Frequent updates trigger more events and can cause your lifecycle event activity sets to cancel before it can complete. For more information, see [Lifecycle event properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/lifecycle-event-properties-page.md).
+**Note:** Use caution if you decide to change the default value. Frequent updates trigger more events and can cause your lifecycle event activity sets to cancel before it can complete. For more information, see [Lifecycle event properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/lifecycle-event-properties-page.md).
 
 ## Condition with Event BR \(Demo\) activity set
 
@@ -42,7 +42,7 @@ An alternative to using the **Evaluation interval** field to trigger an activity
     -   It then looks for the workflows that are running for the LE case until it finds the HR Activity Set Trigger Check workflow and broadcasts the check\_activity\_set\_trigger event to that workflow.
 -   You can change the **Condition with Event BR \(Demo\)** activity set, **Email - Condition with Event BR \(Demo\)** activity, and **Condition with Event BR \(Demo\)** business rule to fit your requirements.
 
-    **Note:** For more information, see [Lifecycle Events workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/LEWorkflow.md) and [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_BusinessRules.md).
+    **Note:** For more information, see [Lifecycle Events workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/LEWorkflow.md) and [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_BusinessRules.md).
 
 
 ## HR Activity Set Trigger Check workflow
@@ -81,5 +81,5 @@ After you've determined the server-side location to check the trigger criteria, 
 })(current, previous);
 ```
 
-**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
+**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

@@ -2,10 +2,10 @@
 title: Register a member on Partner portal
 description: Register a new partner member or transfer existing staff within a partner organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/register-a-member-on-partner-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/register-a-member-on-partner-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---
@@ -34,17 +34,17 @@ Assign each member of staff certain responsibilities and accesses to perform dai
 
 5.  On the form, fill in the fields.
 
-    To learn more about the fields on the member registration form and their descriptions, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/member-registration-form.md).
+    To learn more about the fields on the member registration form and their descriptions, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/member-registration-form.md).
 
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 
-[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/raise-an-inquiry-on-partner-portal.md)
+[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/raise-an-inquiry-on-partner-portal.md)
 

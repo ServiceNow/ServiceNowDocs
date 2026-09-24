@@ -2,7 +2,7 @@
 title: BigFix Inventory Spoke
 description: Manage hardware, software, and licenses in BigFix Inventory from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/bigfix-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/bigfix-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -103,7 +103,7 @@ The BigFix Inventory spoke provides actions to automate BigFix Inventory tasks w
 |Look up VM Managers|Lists VM managers in the BigFix Inventory system.|
 |Set End of Support Date for Software Component|Configures the End of Support Date for software component.|
 
-For information about setting up the spoke, see [Set up the BigFix Inventory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-bigfix.md).
+For information about setting up the spoke, see [Set up the BigFix Inventory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-bigfix.md).
 
 ## Spoke modules
 

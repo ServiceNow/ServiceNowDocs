@@ -2,12 +2,12 @@
 title: Project types in Project Workspace
 description: Project Workspace supports that let administrators define custom fields and form layouts for each project type. This enables configuration independence across different types of projects without affecting default fields or other project types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/project-types-in-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/project-types-in-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,10 +31,10 @@ Project type configurations allows you to define dynamic categories and custom f
 
 **Note:** Project type configuration is available for projects only.
 
-**Parent Topic:**[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/exploring-project-workspace.md)
+**Parent Topic:**[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/exploring-project-workspace.md)
 
 **Related topics**  
 
 
-[Configure project type fields and layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-project-type-pw.md)
+[Configure project type fields and layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-project-type-pw.md)
 

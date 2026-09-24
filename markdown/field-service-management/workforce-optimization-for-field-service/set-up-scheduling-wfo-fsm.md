@@ -2,7 +2,7 @@
 title: Setting up scheduling in Workforce Optimization for Field Service
 description: Setting up scheduling enables you to manage events using the team calendar. You can create different types of event categories. Use scripted extension points to customize event types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/set-up-scheduling-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/set-up-scheduling-wfo-fsm.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -18,10 +18,10 @@ Setting up scheduling enables you to manage events using the team calendar. You 
 
 Configuring schedule adherence properties enables you to calculate the adherence and conformance of your agents so you can improve the operational efficiency of your organization.
 
-The threshold settings for adherence and conformance indicate how many minutes early or late an agent can clock in or clock out to a scheduled work shift without being considered non-adherent. For more information about the adherence and conformance properties introduced with the Scheduling application, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-wfo-fsm.md).
+The threshold settings for adherence and conformance indicate how many minutes early or late an agent can clock in or clock out to a scheduled work shift without being considered non-adherent. For more information about the adherence and conformance properties introduced with the Scheduling application, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-wfo-fsm.md).
 
 **Related topics**  
 
 
-[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md)
+[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md)
 

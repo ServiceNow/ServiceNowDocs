@@ -2,7 +2,7 @@
 title: Web proxy
 description: Several properties support Web proxy configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_WebProxy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_WebProxy.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -94,12 +94,12 @@ Set the URL to use in emailed links in place of the instance URL. The URL should
 https://servicenow.customerdomain.com/production/nav\_to.do
 
 </td></tr></tbody>
-</table>-   **[NTLM authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_NTLMAuthentication.md)**  
+</table>-   **[NTLM authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_NTLMAuthentication.md)**  
 NTLM is the most complex of the authentication protocols supported by a basic web server.
--   **[Proxy servers for SOAP clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ProxyServersForSOAPClients.md)**  
+-   **[Proxy servers for SOAP clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ProxyServersForSOAPClients.md)**  
 Administrators can specify separate proxy settings for SOAP clients, such as the MID Server or ODBC Driver.
--   **[Bypass the proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_BypassTheProxyServer.md)**  
+-   **[Bypass the proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_BypassTheProxyServer.md)**  
 Administrators can configure the instance to bypass the proxy server for specific URLs or URL patterns.
 
-**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/p_CoreConfigurationOverview.md)
 

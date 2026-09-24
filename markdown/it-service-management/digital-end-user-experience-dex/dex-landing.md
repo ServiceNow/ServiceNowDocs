@@ -2,7 +2,7 @@
 title: Digital End-User Experience
 description: ServiceNow Digital End-User Experience \(DEX\) offers comprehensive monitoring for applications, networks, and devices, promoting optimal performance across all channels. DEX includes Application and Device Health for monitoring performance and compliance, DEX Content Playbook for facilitating remediation with policies and metrics checks, and Desktop Assistant for integrating ServiceNow functionalities into the daily end-user workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/dex-landing.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -32,7 +32,7 @@ DEX Content Playbook typically includes web or installed application monitoring,
 
 For a unified monitoring workspace and relevant content \(policies, check definitions, and actions\), refer to Application and Device Health and DEX Content Playbook.
 
-The Digital Experience Score​ dashboard provides comprehensive insight into the digital experience of your employees by analyzing three key data sources: monitored metrics from end-user devices, user sentiment, and service desk experience. For more information, see [Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-digital-experience-score.md).
+The Digital Experience Score​ dashboard provides comprehensive insight into the digital experience of your employees by analyzing three key data sources: monitored metrics from end-user devices, user sentiment, and service desk experience. For more information, see [Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-digital-experience-score.md).
 
 Proactive Engagement can assist your organization to improve employee productivity and satisfaction by proactively detecting digital experience issues and enabling employees to self-solve on a day-to-day basis.
 
@@ -40,23 +40,23 @@ Proactive Engagement can assist your organization to improve employee productivi
 
 <table id="table_yjv_4lx_nxb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Leverage the system for monitoring and remediation objectives.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/explore-dex-console2.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Leverage the system for monitoring and remediation objectives.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/explore-dex-console2.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Digital End-User Experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/config-dex-console.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Digital End-User Experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/config-dex-console.md)
 
 </td></tr><tr><td>
 
-[Manage\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Monitor and manage the digital workplace with Digital End-User Experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/use-dex-console.md)
+[Manage\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Monitor and manage the digital workplace with Digital End-User Experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/use-dex-console.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get information about the DEX Workspace administration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get information about the DEX Workspace administration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 
 </td></tr><tr><td>
 
-[Use DEX AI capabilities\[Omitted image "bus-ai-otto.svg"\] Alt text:Use DEX AI capabilities to diagnose and resolve device and application issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-agentic-workflows.md)
+[Use DEX AI capabilities\[Omitted image "bus-ai-otto.svg"\] Alt text:Use DEX AI capabilities to diagnose and resolve device and application issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-agentic-workflows.md)
 
 </td><td>
 

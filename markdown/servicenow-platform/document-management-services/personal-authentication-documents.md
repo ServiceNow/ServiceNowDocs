@@ -2,7 +2,7 @@
 title: Personal authentication
 description: Personal authentication enables individual users to authenticate with their personal accounts within ServiceNow using a secure connection between the user's identity and their corresponding Microsoft OneDrive or Google Drive account, allowing users to access, view, and manage their personal files directly from ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/personal-authentication-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/personal-authentication-documents.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -36,12 +36,12 @@ Use your personal credentials to connect to third-party integrations. View, auth
 
 **Note:** The personal authentication dashboard can be accessed by users with `sn_personal_auth.personal_auth_user` role.
 
--   **[Configure personal authentication for Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/configure-personal-authentication-mp.md)**  
+-   **[Configure personal authentication for Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/configure-personal-authentication-mp.md)**  
 Configure and enable personal authentication for Microsoft OneDrive and Google Drive accounts in Multi Provider Document Services Framework.
--   **[Authenticate Microsoft OneDrive account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/authenticate-onedrive-account.md)**  
+-   **[Authenticate Microsoft OneDrive account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/authenticate-onedrive-account.md)**  
 Enable personal authentication for Microsoft OneDrive for Multi Provider Document Services Framework.
--   **[Authenticate Google Drive account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/authenticate-google-drive-account.md)**  
+-   **[Authenticate Google Drive account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/authenticate-google-drive-account.md)**  
 Enable personal authentication for Google Drive for Multi Provider Document Services Framework.
 
-**Parent Topic:**[Integrate with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/integrate-with-document-services-mp.md)
+**Parent Topic:**[Integrate with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/integrate-with-document-services-mp.md)
 

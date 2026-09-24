@@ -2,7 +2,7 @@
 title: SMS conversations in HR Service Delivery Agent Workspace
 description: HR agents can support long-running SMS conversations with employees using the Conversational SMS service channel app from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-sms-conversation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-sms-conversation.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

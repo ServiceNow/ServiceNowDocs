@@ -2,7 +2,7 @@
 title: Edit version detail form
 description: Add version labels, descriptions, and rollout dates to an Enterprise Modeling and Visualization diagram to improve traceability. This ensures that all stakeholders are aligned on the diagram’s context and timelines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-edit-version-detail-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-edit-version-detail-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,12 +20,12 @@ Add version labels, descriptions, and rollout dates to an Enterprise Modeling an
 |Version description|A summary of the diagram version that explains the purpose, scope, and changes introduced in the current scope of the diagram.|
 |Planned rollout date|The planned date of implementation of the diagram’s contents.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add or edit diagram version details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-diagram-version-details.md)
+[Add or edit diagram version details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-or-edit-diagram-version-details.md)
 
-[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md)
+[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling.md)
 

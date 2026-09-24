@@ -2,14 +2,14 @@
 title: Enabling Knowledge base articles Genius Results
 description: As a search administrator, you can use the Knowledge base articles Genius Results skill in AI Search portals and mobile applications by enabling the skill in search profiles. You can also use the skill in global search by enabling Knowledge base articles Genius Results in the AI Search for Next Experience application.Enable Knowledge base articles Genius Results in global search using the AI Search for Next Experience application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/enabling-now-assist-qa-grs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/enabling-now-assist-qa-grs.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
 last_updated: "2026-07-25"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Knowledge base articles Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,9 +19,9 @@ As a search administrator, you can use the Knowledge base articles Genius Result
 
 ## Enable Knowledge base articles Genius Results in AI Search portals and mobile applications
 
-For details on how to enable Knowledge base articles Genius Results and other Genius Results in your AI Search portals and mobile applications, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
+For details on how to enable Knowledge base articles Genius Results and other Genius Results in your AI Search portals and mobile applications, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
 
-**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
+**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-qna-genius-results.md)
 
 ## Enable Knowledge base articles Genius Results in global search
 
@@ -31,15 +31,15 @@ Enable Knowledge base articles Genius Results in global search using the AI Sear
 
 The [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) must be activated on your instance. To learn about activating Next Experience UI, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
-The AI Search for Next Experience application must be installed and enabled on your instance. For more information about the application, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ais-next-experience-app.md).
+The AI Search for Next Experience application must be installed and enabled on your instance. For more information about the application, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ais-next-experience-app.md).
 
-The ServiceNow Otto for AI Search application must be installed on your instance. For details on installing this application from the AI Admin Hub console, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
+The ServiceNow Otto for AI Search application must be installed on your instance. For details on installing this application from the AI Admin Hub console, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: ais\_admin
 
 ### About this task
 
-As a search administrator, you can enable agentic AI model answer generation for Knowledge article results in global searches by adding the Knowledge base articles Genius Result configuration to the Next Experience Search Configuration search profile used by [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ais-next-experience-app.md).
+As a search administrator, you can enable agentic AI model answer generation for Knowledge article results in global searches by adding the Knowledge base articles Genius Result configuration to the Next Experience Search Configuration search profile used by [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ais-next-experience-app.md).
 
 **Note:** Linking the Knowledge base articles Genius Result configuration to the Next Experience Search Configuration search profile changes the status of the Knowledge base articles Genius Results skill to **Active** in the AI Admin Hub console. The skill remains active as long as any search profile includes a link to the Knowledge base articles Genius Result configuration.
 
@@ -97,7 +97,7 @@ Order
 
 </td><td>
 
-Specify the evaluation order for the Knowledge base articles Genius Result configuration in the search profile. AI Search evaluates active Genius Result configurations for a search profile in order, from lowest **Order** field value to highest. For more details on the evaluation order for Genius Results, see [Set the evaluation order for Genius Result configurations in a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/set-gr-eval-order-srch-profile-ais.md).
+Specify the evaluation order for the Knowledge base articles Genius Result configuration in the search profile. AI Search evaluates active Genius Result configurations for a search profile in order, from lowest **Order** field value to highest. For more details on the evaluation order for Genius Results, see [Set the evaluation order for Genius Result configurations in a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/set-gr-eval-order-srch-profile-ais.md).
 
 </td></tr></tbody>
 </table>    5.  Select **Submit**.

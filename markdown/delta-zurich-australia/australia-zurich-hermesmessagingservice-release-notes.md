@@ -2,11 +2,11 @@
 title: Combined Hermes Messaging Service release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Hermes Messaging Service from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-hermesmessagingservice-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-hermesmessagingservice-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 3
+last_updated: "2026-09-24"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -89,6 +89,23 @@ Enable maintenance users and administrators to view and modify Hermes configurat
 -   **[Encryption at rest for Hermes topics](https://www.servicenow.com/docs/access?context=encryption-at-rest&family=australia&ft:locale=en-US)**
 
 Protect message data stored on broker disks by enabling encryption at rest on individual Hermes topics. Choose between ServiceNow-managed keys or customer-supplied keys using the Bring Your Own Key \(BYOK\) model.
+
+
+ -   **[Expanded topic limits in Hermes](https://www.servicenow.com/docs/access?context=exploring-hermes-messaging-service&family=australia&ft:locale=en-US)**
+
+Create more topics in Hermes with an increased topic limit. The total number of partitions across all topics can't exceed 960.
+
+-   **[Hermes Usage Dashboard improvements](https://www.servicenow.com/docs/access?context=monitoring-data-usage-hermes&family=australia&ft:locale=en-US)**
+
+View Hermes data usage by source, including the total number of bytes received and bytes sent over time, in the Hermes Usage Dashboard.
+
+-   **[Access restrictions by IP address](https://www.servicenow.com/docs/access?context=restricting-access-hermes-topics&family=australia&ft:locale=en-US)**
+
+Restrict access to Hermes by enabling IP address access control rules.
+
+-   **[View-only role](https://www.servicenow.com/docs/access?context=hermes-messaging-service-roles-4&family=australia&ft:locale=en-US)**
+
+Enable administrators to view topics and namespaces in Hermes by granting the hermes\_viewer role instead of the full admin role.
 
 
 </td></tr></tbody>
@@ -375,5 +392,5 @@ Australia
  See [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

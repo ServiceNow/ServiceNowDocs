@@ -2,7 +2,7 @@
 title: Voice page in assistant analytics
 description: Monitor the performance of voice assistants from the Voice page of Assistant analytics in Assistant Designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/voice-assistant-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/voice-assistant-analytics.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

@@ -2,7 +2,7 @@
 title: Configure the Service Graph Connector for SentinelOne
 description: The guided setup for the Service Graph Connector for SentinelOne provides an organized sequence of tasks to configure the integration on your ServiceNow AI Platform instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-sentinelone-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-sentinelone-configure.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

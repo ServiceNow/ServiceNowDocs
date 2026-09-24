@@ -2,7 +2,7 @@
 title: Manage automation source
 description: You can perform other actions for an automation source after creating it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/manage-auto-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/manage-auto-source.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -44,5 +44,5 @@ Role required: admin
         You can edit the automation source.
 
 
-**Parent Topic:**[Working with Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/connection-manager.md)
+**Parent Topic:**[Working with Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/connection-manager.md)
 

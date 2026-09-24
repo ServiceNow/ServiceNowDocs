@@ -2,7 +2,7 @@
 title: Create a diagram for a business capability map
 description: Create and model your business capability map using the Enterprise Modeling and Visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-bc-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-bc-map.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: sn\_apm.apm\_user
 
 5.  On the Create a business capability map form, fill in the details.
 
-    For field information, see [Create a business capability map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-create-bc-map-form.md).
+    For field information, see [Create a business capability map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-create-bc-map-form.md).
 
 6.  Select **Create diagram**.
 
@@ -41,12 +41,12 @@ Role required: sn\_apm.apm\_user
 
 The capability diagram gets created and opened in a new tab. You can add new capabilities and business applications to the map and edit it as required. The artifact gets added to the Architectural Artifacts related list for the capability.
 
-**Parent Topic:**[Working with business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-bc-map.md)
+**Parent Topic:**[Working with business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-bc-map.md)
 
 **Related topics**  
 
 
-[Update a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-update-bc-map.md)
+[Update a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-update-bc-map.md)
 
-[Add capabilities or applications to a capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)
+[Add capabilities or applications to a capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)
 

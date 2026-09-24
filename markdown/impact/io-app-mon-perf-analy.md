@@ -2,7 +2,7 @@
 title: Use Platform Performance Analyzer to view server details
 description: Get visibility into the operational metrics of applications and their performance. You can find out the number of applications per instance, the number of pages within each application, page-level response time, user interaction frequency with each application, and page access frequency by users within each application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-app-mon-perf-analy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-app-mon-perf-analy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -63,5 +63,5 @@ Role required: admin
 13. Select any link in the **Interaction ID** column to view the details of either the slowest or fastest instance details.
 
 
-**Parent Topic:**[User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-experience-insights.md)
+**Parent Topic:**[User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/user-experience-insights.md)
 

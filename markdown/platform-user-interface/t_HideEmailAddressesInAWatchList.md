@@ -2,7 +2,7 @@
 title: Hide email addresses in a watch list
 description: You can remove the email address text entry element from a watch list by modifying the dictionary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_HideEmailAddressesInAWatchList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_HideEmailAddressesInAWatchList.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Role required: admin
 
 The email entry field is hidden. Users can select users from the reference field to add to the watchlist.
 
-**Parent Topic:**[Configure email notifications for watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigNotifications4WatchLists.md)
+**Parent Topic:**[Configure email notifications for watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ConfigNotifications4WatchLists.md)
 
 **Related topics**  
 

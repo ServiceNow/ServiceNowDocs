@@ -2,7 +2,7 @@
 title: Catalog browse component
 description: Catalog browse component enables you to browse and search catalog items from different catalogs and categories within a third-party website.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-browse-comp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-browse-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

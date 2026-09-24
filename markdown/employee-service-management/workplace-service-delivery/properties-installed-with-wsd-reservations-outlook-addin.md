@@ -2,7 +2,7 @@
 title: Properties installed with Workplace Reservations for Microsoft Outlook Add-in
 description: Customize the properties available with Workplace Reservations for Microsoft Outlook Add-in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery/properties-installed-with-wsd-reservations-outlook-addin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery/properties-installed-with-wsd-reservations-outlook-addin.html
 release: australia
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -56,7 +56,7 @@ This property enables you to exclude a room if you do not want it to appear in t
 -   Default value: &lt;empty&gt;
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Reservations for Microsoft Outlook Add-in references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/workplace-rsv-for-outlook-addin-reference.md)
+</table>**Parent Topic:**[Workplace Reservations for Microsoft Outlook Add-in references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/workplace-rsv-for-outlook-addin-reference.md)
 
 **Related topics**  
 

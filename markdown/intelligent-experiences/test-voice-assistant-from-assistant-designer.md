@@ -2,7 +2,7 @@
 title: Test a voice assistant from Assistant Designer
 description: Test your voice assistant and the AI voice agents assigned to it by making browser-based voice calls and viewing turn-by-turn analysis directly from Assistant Designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-voice-assistant-from-assistant-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-voice-assistant-from-assistant-designer.html
 release: australia
 topic_type: task
 last_updated: "2026-06-09"

@@ -2,7 +2,7 @@
 title: Configure resource profiling score
 description: Configure the resource profiling score to adjust how the AI Resource Finder ranks candidates by modifying attribute weights in the CandidateProfileScoringConfigSNC script include.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/config-resource-profiling-score-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/config-resource-profiling-score-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -111,5 +111,5 @@ The resource's overall organizational tenure and breadth of work history.
 
 The AI Resource Finder uses the custom weights for subsequent fit score calculations. Resources are re-ranked according to the new weight distribution the next time a user opens the Resource Finder modal.
 
-**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/configure-rmw.md)
+**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/configure-rmw.md)
 

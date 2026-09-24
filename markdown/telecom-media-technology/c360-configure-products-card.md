@@ -2,7 +2,7 @@
 title: Configure the products card variables
 description: Configure the variables that control what data the products card displays and how users can search and filter sold products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-configure-products-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-configure-products-card.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,10 +38,10 @@ Role required: sn\_telecom\_c360.admin
     |Enable search on product characteristics|Flag that enables search by product characteristics. Select this flag to enable search against product characteristic values in addition to the product search field. Search is performed against characteristic values only.|
 
 
-**Parent Topic:**[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-variables.md)
+**Parent Topic:**[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-variables.md)
 
 **Related topics**  
 
 
-[Products card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-products-card.md)
+[Products card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-products-card.md)
 

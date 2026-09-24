@@ -2,7 +2,7 @@
 title: Document Services Framework for Google Drive
 description: Integrate the Document Services with Google Drive.Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/google-drive-spoke-document-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/google-drive-spoke-document-services.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -302,9 +302,9 @@ Returns the file type and information for the input mime-type.
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up Document Services framework for Google Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/setup-gdrive-spoke-document-services.md).
+For information about setting up the spoke, see [Set up Document Services framework for Google Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/setup-gdrive-spoke-document-services.md).
 
 
 
-**Parent Topic:**[Google Drive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/google-drive-integration.md)
+**Parent Topic:**[Google Drive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/google-drive-integration.md)
 

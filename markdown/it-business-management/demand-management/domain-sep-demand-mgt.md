@@ -2,7 +2,7 @@
 title: Domain separation and Demand Management
 description: Domain separation is supported in Demand Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/domain-sep-demand-mgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/domain-sep-demand-mgt.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -28,7 +28,7 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-reference.md)
+**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/demand-management-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a Doc in CWM
 description: Store information related to your tasks, reference users and task records, and collaborate in real-time using Docs in Collaborative Work Management workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-a-doc-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/create-a-doc-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,7 +18,7 @@ Store information related to your tasks, reference users and task records, and c
 
 ## Before you begin
 
-[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
+[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -51,7 +51,7 @@ A new Doc is created for the current Space, and an untitled page is opened for y
 
 Utilize the rich-text formatting options of the Doc to draft information relevant for your team or type **/** to explore other options.
 
-**Note:** To reference ServiceNow AI Platform records other than CWM tasks, work with your admin to update the **sn\_cwm.record\_mention\_config** system property. For more information, see [Enable ServiceNow AI Platform records in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/enable-now-platform-servicenow-records-cwm-docs.md).
+**Note:** To reference ServiceNow AI Platform records other than CWM tasks, work with your admin to update the **sn\_cwm.record\_mention\_config** system property. For more information, see [Enable ServiceNow AI Platform records in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/enable-now-platform-servicenow-records-cwm-docs.md).
 
-**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-docs.md)
 

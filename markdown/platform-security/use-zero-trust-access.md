@@ -2,7 +2,7 @@
 title: Tutorial: Use Zero Trust Access
 description: Procedure to use Zero Trust Access feature with an end-to-end use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/use-zero-trust-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/use-zero-trust-access.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configuring Sales Customer Relationship Management applications
 description: Set up the Sales Customer Relationship Management \(Sales CRM\) applications so that your agents can work on various stages of the product sales life cycle, such as sales opportunities, quotes, order capture and fulfillment, contracts and entitlements, and also the basic product catalog and pricing features used by each application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-configuring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-configuring.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,61 +18,61 @@ As a user with the admin role, complete the following main configuration tasks t
 
 <table id="table_kw1_sjg_vgc" class="nav-card presentation"><tbody><tr><td>
 
-[Lead-to-cash foundation\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Set up core apps that enable your lead-to-cash processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-to-cash-foundation.md)
+[Lead-to-cash foundation\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Set up core apps that enable your lead-to-cash processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-lead-to-cash-foundation.md)
 
 </td><td>
 
-[Configure, price, quote\[Omitted image "bus-sdlc.svg"\] Alt text:Set up tools to configure products and manage pricing, quotes, and sales agreements.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-cpq.md)
+[Configure, price, quote\[Omitted image "bus-sdlc.svg"\] Alt text:Set up tools to configure products and manage pricing, quotes, and sales agreements.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-cpq.md)
 
 </td><td>
 
-[Sales automation\[Omitted image "bus-funnel.svg"\] Alt text:Set up tools to capture leads, engage customers, manage opportunities, forecast sales, and define sales territories.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-opportunity-mgt.md)
+[Sales automation\[Omitted image "bus-funnel.svg"\] Alt text:Set up tools to capture leads, engage customers, manage opportunities, forecast sales, and define sales territories.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-lead-opportunity-mgt.md)
 
 </td></tr><tr><td>
 
-[Order management\[Omitted image "bus-business-management.svg"\] Alt text:Set up tools to manage order creation and fulfillment, manage jeopardy, and resolve fallout issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Order management\[Omitted image "bus-business-management.svg"\] Alt text:Set up tools to manage order creation and fulfillment, manage jeopardy, and resolve fallout issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
 </td><td>
 
-[Order operations\[Omitted image "bus-log-store.svg"\] Alt text:Set up workflows to manage end-to-end lead-to-cash processes and handle product returns.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-order-operations.md)
+[Order operations\[Omitted image "bus-log-store.svg"\] Alt text:Set up workflows to manage end-to-end lead-to-cash processes and handle product returns.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-order-operations.md)
 
 </td><td>
 
-[Post-sales engagement\[Omitted image "bus-service-aware.svg"\] Alt text:Set up tools to manage customer contracts, entitlements, and life cycle workflows on sold products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-post-sales-engagement.md)
+[Post-sales engagement\[Omitted image "bus-service-aware.svg"\] Alt text:Set up tools to manage customer contracts, entitlements, and life cycle workflows on sold products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-post-sales-engagement.md)
 
 </td></tr><tr><td>
 
-[Partner Relationship Management\[Omitted image "bus-partnering.svg"\] Alt text:Set up tools to onboard partners, manage relationships, and enable collaboration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+[Partner Relationship Management\[Omitted image "bus-partnering.svg"\] Alt text:Set up tools to onboard partners, manage relationships, and enable collaboration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-relationship-management.md)
 
 </td><td>
 
-[Business Portal\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Set up a self-service portal for B2B customers to place orders, submit RFQs, view quotes, and raise order cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)
+[Business Portal\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Set up a self-service portal for B2B customers to place orders, submit RFQs, view quotes, and raise order cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-management-configure-business-portal.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>-   **[Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-to-cash-foundation.md)**  
+</table>-   **[Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-lead-to-cash-foundation.md)**  
 Learn how to configure lead-to-cash foundation applications to establish a unified platform for Sales Customer Relationship Management entities such as managing leads, opportunities, quotes, and orders efficiently.
--   **[Configuring the sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-opportunity-mgt.md)**  
+-   **[Configuring the sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-lead-opportunity-mgt.md)**  
 Learn how to install and configure the sales automation applications to support pre-sales workflows.
--   **[Configuring the configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-cpq.md)**  
+-   **[Configuring the configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-cpq.md)**  
 Learn how to configure the configure, price, quote applications to streamline complex product, pricing, and quote-to-contract workflows.
--   **[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)**  
+-   **[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)**  
 Learn how to configure the features and components that you need for customer and service order processing, depending on whether you are a provider or an enterprise customer.
--   **[Configuring the order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-order-operations.md)**  
+-   **[Configuring the order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-order-operations.md)**  
 Learn how to configure the order operations applications to help sales and support teams to monitor the sales processes, and manage post-sale support and returns respectively.
--   **[Post-sales engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-post-sales-engagement.md)**  
+-   **[Post-sales engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-post-sales-engagement.md)**  
 Learn how to configure the Customer Life Cycle Management Workflows application to manage post-sale workflows on sold products.
--   **[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)**  
+-   **[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-relationship-management.md)**  
 Install the PRM \(com.snc.partner\_relationship\_management\) application from ServiceNow® Store to enable enterprises to hire partners and improve their sales cycles.
--   **[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)**  
+-   **[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-management-configure-business-portal.md)**  
 Enable B2B customers to self-serve key processes such as order creation, order case management, invoice management, request for quote \(RFQ\) creation by configuring the Business Portal \(sn\_b2b\_portal\).
--   **[Configuring agent tools in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-agent-tools.md)**  
+-   **[Configuring agent tools in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-agent-tools.md)**  
 The applications in Sales Customer Relationship Management share common features and tools for agents.
--   **[Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-ai-capabilities-sales-crm.md)**  
+-   **[Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-ai-capabilities-sales-crm.md)**  
 Use the AI Admin Hub console to activate the various AI applications and skills that you're entitled to use.
 
-**Parent Topic:**[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)
+**Parent Topic:**[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-overview.md)
 

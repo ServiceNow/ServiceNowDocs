@@ -2,7 +2,7 @@
 title: Integrated development tools for ServiceNow Studio
 description: Use the development tools in ServiceNow Studio to build apps, flows, tables, forms, and more — all without leaving the platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/integrated-development-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/integrated-development-tools.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -18,7 +18,7 @@ Use the development tools in ServiceNow Studio to build apps, flows, tables, for
 
 ## What development tools are available in ServiceNow Studio?
 
-Use the following development tools to build apps, flows, processes, tables, and more in ServiceNow Studio. Some tools include the word "Builder" in their name, but all tools listed here enable you to build different parts of an app. Some are automation tools; others are for building your user interface. For more information about builders, see [Builders in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/builders-in-servicenow-studio.md).
+Use the following development tools to build apps, flows, processes, tables, and more in ServiceNow Studio. Some tools include the word "Builder" in their name, but all tools listed here enable you to build different parts of an app. Some are automation tools; others are for building your user interface. For more information about builders, see [Builders in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/builders-in-servicenow-studio.md).
 
 ## AI
 
@@ -26,7 +26,7 @@ Use the following development tools to build apps, flows, processes, tables, and
 |-------|-----------|
 |[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)|Create, manage, and test AI agents and agentic workflows to automate self-executing processes and achieve business goals.|
 |[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)|Create and activate custom prompts and skills for Now Assist using the Now Assist Skill Kit plugin.|
-|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)|Use Build Agent, an autonomous AI agent, for creating and updating ServiceNow® applications. You can also ask Build Agent general ServiceNow development questions.|
+|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md)|Use Build Agent, an autonomous AI agent, for creating and updating ServiceNow® applications. You can also ask Build Agent general ServiceNow development questions.|
 
 ## Automation
 
@@ -40,8 +40,8 @@ Use the following development tools to build apps, flows, processes, tables, and
 
 |Builder|Description|
 |-------|-----------|
-|[Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/access-form-builder.md)|Customize any ServiceNow AI Platform record or form. Form Builder is most often accessed through Table Builder on the Forms tab.|
-|[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)|Design tables, forms, and flows visually using a single user interface.|
+|[Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/access-form-builder.md)|Customize any ServiceNow AI Platform record or form. Form Builder is most often accessed through Table Builder on the Forms tab.|
+|[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-landing-page.md)|Design tables, forms, and flows visually using a single user interface.|
 
 ## Integration
 
@@ -63,8 +63,8 @@ Use the following development tools to build apps, flows, processes, tables, and
 |[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md)|Create or update the portal page layout and add or remove widgets on the page.|
 |[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog.md)|Create or edit a catalog item, which can be a record producer, an order guide, or a content item.|
 |[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)|Create survey categories and questions, configure their details, and publish the survey to specific users or groups.|
-|[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)|Build pages for App Engine Studio-generated workspaces or custom web experiences using Next Experience Components and custom web components.|
-|[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md)|Automate processes in a single design environment using Workspace Builder.|
+|[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-builder-overview.md)|Build pages for App Engine Studio-generated workspaces or custom web experiences using Next Experience Components and custom web components.|
+|[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/workspace-builder-landing.md)|Automate processes in a single design environment using Workspace Builder.|
 
 ## Other tools
 

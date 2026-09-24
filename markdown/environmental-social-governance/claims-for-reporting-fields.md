@@ -2,7 +2,7 @@
 title: Claims for reporting fields
 description: Learn about the fields of the Claims for reporting form. Use this form to create a new claim.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/claims-for-reporting-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/claims-for-reporting-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -157,5 +157,5 @@ Additional comments
 Any extra remarks or observations related to the claim.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create or edit a claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-or-edit-a-claim.md)
+</table>**Parent Topic:**[Create or edit a claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-or-edit-a-claim.md)
 

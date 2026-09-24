@@ -2,7 +2,7 @@
 title: External-facing PDR form fields
 description: Use the field descriptions as reference when you fill the external-facing Personal Data Rights \(PDR\) form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/ext-form-intake-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/ext-form-intake-fields.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -78,5 +78,5 @@ First name, last name, and email address of the requester. The email address is 
 |**Data subject details**|First name, last name, and email address of the data subject on whose behalf the request is being submitted.|
 |**Agent details**|First name, last name, and email address of the authorized agent. The agent receives a verification email and subsequent updates about the request.|
 
-**Parent Topic:**[Submit privacy requests using external-facing PDR form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/submit-privacy-request-external-pdr.md)
+**Parent Topic:**[Submit privacy requests using external-facing PDR form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/submit-privacy-request-external-pdr.md)
 

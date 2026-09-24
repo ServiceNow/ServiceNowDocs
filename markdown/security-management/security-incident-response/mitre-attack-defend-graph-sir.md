@@ -2,7 +2,7 @@
 title: MITRE attack and defend technique graph
 description: The MITRE attack and defend technique graph provides security analysts with an interactive, node-based visualization of attack techniques, defense techniques, and associated artifacts for a security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mitre-attack-defend-graph-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mitre-attack-defend-graph-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -84,7 +84,7 @@ The graph displays relationships between nodes using connecting lines \(edges\):
 -   Cross-level references: When nodes at the same hierarchical level share relationships, connecting lines appear between them.
 -   Edge labels: Labels on the edges between defend techniques and artifacts indicate the relationship type \(sourced from MITRE-ATT&amp;CK data\).
 
-**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 

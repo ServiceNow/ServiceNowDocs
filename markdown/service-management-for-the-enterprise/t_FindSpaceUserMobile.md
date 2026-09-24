@@ -2,7 +2,7 @@
 title: Find a space or user on a mobile interface
 description: Quickly find a conference room, office, cubicle, or another employee in your organization on a mobile interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_FindSpaceUserMobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_FindSpaceUserMobile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ Role required: none
     |**To see the location of the space or user on the floor plan**|Tap the pin \[Omitted image "PinIcon.png"\] Alt text: pin icon icon, beside the link for the user or space.|
 
 
-**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
+**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
 

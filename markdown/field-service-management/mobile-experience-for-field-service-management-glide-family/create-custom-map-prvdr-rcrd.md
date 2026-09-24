@@ -2,7 +2,7 @@
 title: Create a Custom Map Provider record
 description: Configure map providers to identify buildings agents can view indoor maps for.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/create-custom-map-prvdr-rcrd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/create-custom-map-prvdr-rcrd.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

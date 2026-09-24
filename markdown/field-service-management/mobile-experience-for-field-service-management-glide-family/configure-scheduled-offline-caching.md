@@ -2,7 +2,7 @@
 title: Configure scheduled offline caching
 description: Configure system components to automatically download the cache in the background. If you are making changes to these properties, then you must create them first.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-scheduled-offline-caching.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-scheduled-offline-caching.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

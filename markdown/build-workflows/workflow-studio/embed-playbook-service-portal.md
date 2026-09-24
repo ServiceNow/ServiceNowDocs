@@ -2,7 +2,7 @@
 title: Configure a playbook for Service Portal
 description: Add a playbook that Service Portal users can launch and run by creating a Playbook Content Item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/embed-playbook-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/embed-playbook-service-portal.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,9 +19,9 @@ Add a playbook that Service Portal users can launch and run by creating a Playbo
 ## Before you begin
 
 -   Role required: admin, or portal admin
--   If you don't have a playbook that you want to customize for Service Portal yet, build one in Workflow Studio. To learn more about building a playbook in Workflow Studio, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md).
--   Create a record generator, if there isn't already one you want to use. To learn more about creating a playbook record generator, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-record-generator-overview.md).
--   You may need to set up mappings between your Portal theme and the UXF theme, if they are very different. To set up mappings between your Portal theme and the UXF theme, see [Set up mappings between themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/set-up-mappings-between-themes.md).
+-   If you don't have a playbook that you want to customize for Service Portal yet, build one in Workflow Studio. To learn more about building a playbook in Workflow Studio, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/building-a-process.md).
+-   Create a record generator, if there isn't already one you want to use. To learn more about creating a playbook record generator, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-record-generator-overview.md).
+-   You may need to set up mappings between your Portal theme and the UXF theme, if they are very different. To set up mappings between your Portal theme and the UXF theme, see [Set up mappings between themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/set-up-mappings-between-themes.md).
 
 ## About this task
 

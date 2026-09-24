@@ -2,7 +2,7 @@
 title: Configure the Microsoft Word add-in for ServiceNow Contracts
 description: As an admin, configure the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-config-word-addin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-config-word-addin.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -30,15 +30,15 @@ Role required: admin
 
 4.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d334177e100">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d334181e100">
 
 System
 
-</th><th align="left" id="d334177e103">
+</th><th align="left" id="d334181e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d334177e109">
+</th></tr></thead><tbody><tr><td id="d334181e109">
 
 **macOS**
 
@@ -52,7 +52,7 @@ Steps
 6.  Navigate to the menu **Home**.
 
 
-</td></tr><tr><td id="d334177e162">
+</td></tr><tr><td id="d334181e162">
 
 **Windows**
 
@@ -66,7 +66,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d334177e219">
+</td></tr><tr><td id="d334181e219">
 
 **Microsoft Word Online**
 
@@ -87,5 +87,5 @@ Steps
 
 The **ServiceNow Contracts** add-in is available in the Home ribbon.
 
-**Parent Topic:**[Install Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-install-word-addin.md)
+**Parent Topic:**[Install Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-install-word-addin.md)
 

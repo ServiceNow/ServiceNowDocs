@@ -2,7 +2,7 @@
 title: Manage scenarios
 description: Use the Manage scenarios option to view a list of all scenarios, rename scenarios, or delete scenarios.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/manage-scenarios-in-strategic-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/manage-scenarios-in-strategic-planning.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

@@ -2,7 +2,7 @@
 title: Components installed with Walk-up Experience
 description: Several types of components are installed with activation of the Walk-up Experience plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/installed-with-walkup-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/installed-with-walkup-experience.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -141,5 +141,5 @@ Walk-up Appointment\[wu\_appointment\]
 Record used to configure scheduled appointments. Extends the Task \[task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Walk-up Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walk-up-experience-reference.md)
+</table>**Parent Topic:**[Walk-up Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walk-up-experience-reference.md)
 

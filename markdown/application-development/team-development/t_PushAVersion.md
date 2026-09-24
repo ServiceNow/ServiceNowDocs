@@ -2,7 +2,7 @@
 title: Push a version
 description: Pushing promotes changes from the development instance to the parent instance and commits the current version of a customized record on the development instance as the current version on the parent instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_PushAVersion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/t\_PushAVersion.html
 release: australia
 product: Team Development
 classification: team-development
@@ -32,9 +32,9 @@ Pushing creates a local Update Set on the parent that is marked as complete. Pus
 
 1.  Navigate to **All** &gt; **Team Development** &gt; **Team Dashboard**.
 
-2.  [Queue the local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_QueueALocalChangeForAPush.md) that are ready to push.
+2.  [Queue the local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_QueueALocalChangeForAPush.md) that are ready to push.
 
-3.  [Pull versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_PullAVersion.md) from the parent instance and [resolve any collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_ResolveACollision.md).
+3.  [Pull versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_PullAVersion.md) from the parent instance and [resolve any collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_ResolveACollision.md).
 
     You cannot push changes to the parent instance if collisions are detected.
 
@@ -60,7 +60,7 @@ Select the check boxes beside the rows and select **Do Not Push** from the Actio
 
 </td><td>
 
-Click **Cancel** and repeat the procedure from [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_PushAVersion.md)
+Click **Cancel** and repeat the procedure from [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_PushAVersion.md)
 
 </td></tr></tbody>
 </table>    \[Omitted image "PushVersions.png"\] Alt text: Push versions
@@ -77,7 +77,7 @@ Click **Cancel** and repeat the procedure from [step 2](https://raw.githubuserco
 
     The system initiates a pull to ensure that there are no collisions before the push proceeds.
 
-    -   If collisions are detected, the push is automatically canceled and you must repeat the procedure from [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_PushAVersion.md).
+    -   If collisions are detected, the push is automatically canceled and you must repeat the procedure from [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_PushAVersion.md).
     -   If no collisions are detected, the changes are staged on the parent instance. On the parent, each version is validated and then committed in the correct order to maintain dependencies between records. For example, a new table is committed before a field on that table to ensure the field is properly created.
     **Note:** You cannot push if there is a version conflict between instances or the pushing instance has changes in the Awaiting Code Review stage.
 

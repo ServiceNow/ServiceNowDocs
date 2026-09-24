@@ -2,7 +2,7 @@
 title: Usage page in Assistant analytics
 description: View assistant activity, highlighting conversation volumes, channel distribution, and conversation outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/usage-page-in-assistant-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/usage-page-in-assistant-analytics.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

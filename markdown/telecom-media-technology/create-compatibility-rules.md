@@ -2,7 +2,7 @@
 title: Create a compatibility rule
 description: Create a compatibility rule in the product catalog to define the horizontal relationships between your product, service, and resource specifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-compatibility-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/create-compatibility-rules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

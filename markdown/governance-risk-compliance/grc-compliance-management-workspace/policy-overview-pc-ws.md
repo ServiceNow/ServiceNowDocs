@@ -2,7 +2,7 @@
 title: Manage compliance of a policy from the overview page
 description: The policy module helps you to create and document all policies. Policies are high-level statements that define what a business should or should not do.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/policy-overview-pc-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/policy-overview-pc-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

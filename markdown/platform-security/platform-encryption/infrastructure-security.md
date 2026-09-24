@@ -2,7 +2,7 @@
 title: Infrastructure Security
 description: Use Infrastructure security tools to create, upload, and manage certificates your instance uses to encrypt traffic from client to server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/infrastructure-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/infrastructure-security.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -24,7 +24,7 @@ The Infrastructure Security plugin provides the tools that you can use to manage
 
 -   **Generate and upload your own certificates**
 
-    Use the infrastructure security tools to generate your own certificate signing requests, which can be signed by the certificate authority of your choice. Navigate to **All** &gt; **Infrastructure Security Settings** &gt; **Upload Certificate** to upload the signed certificate to your instance's load balancer. See [Generate a Certificate Signing Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/inf-sec-generate-csr.md).
+    Use the infrastructure security tools to generate your own certificate signing requests, which can be signed by the certificate authority of your choice. Navigate to **All** &gt; **Infrastructure Security Settings** &gt; **Upload Certificate** to upload the signed certificate to your instance's load balancer. See [Generate a Certificate Signing Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/inf-sec-generate-csr.md).
 
 -   **Monitor the status of your ciphers and certificates**
 
@@ -39,8 +39,8 @@ After installing the plugin, enable Sign Your Own Security \(SYOC\) functionalit
 
 **Note:** If the **sn\_infra\_sec.syoc.enabled** property isn't available on your instance, you must create it. For details on this process see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
--   **[Generate a Certificate Signing Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/inf-sec-generate-csr.md)**  
+-   **[Generate a Certificate Signing Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/inf-sec-generate-csr.md)**  
 Use the Generate Certificate Signing \(CSR\) page to create a certificate signing request to support customer-signed certificates for your instance load balancer.
 
-**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md)
 

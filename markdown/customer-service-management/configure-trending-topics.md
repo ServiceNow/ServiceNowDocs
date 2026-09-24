@@ -2,7 +2,7 @@
 title: Configure trending case topics
 description: Train solution definitions to identify clusters of cases that point to similar underlying issues and find any related major cases for the clusters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-trending-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-trending-topics.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Access the menus and use the modules to train the solution definitions to identify trending case topics. For more details, see [Trending case topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/trending-case-topics.md).
+Access the menus and use the modules to train the solution definitions to identify trending case topics. For more details, see [Trending case topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/trending-case-topics.md).
 
 ## Procedure
 

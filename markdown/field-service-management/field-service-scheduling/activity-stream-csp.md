@@ -2,7 +2,7 @@
 title: Add work notes or comments with the activity stream
 description: Quickly add work notes or comments to a work order task using the contextual side panel. Save time and add information while staying in Dispatcher Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/activity-stream-csp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/activity-stream-csp.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

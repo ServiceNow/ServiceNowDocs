@@ -2,7 +2,7 @@
 title: Resolving an information request case using the Information Request Playbook
 description: You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.Complete the Intake stage as your first step in resolving a case using the Information Request Playbook.Complete the Review stage as your second step in resolving a case using the Information Request Playbook.Complete the Process stage as your third step in resolving a case using the Information Request Playbook.Complete the Decision stage as your last step in resolving a case using the Information Request Playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/public-sector-resolving-info-case-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/public-sector-resolving-info-case-playbooks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Using Information Request Playbook, Playbooks, Use, Public Sector D
 
 You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.
 
-**Note:** Verify that the Information Request Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Information Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configuring-information-request-playbook.md).
+**Note:** Verify that the Information Request Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Information Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configuring-information-request-playbook.md).
 
 By default, the following stages are available to you as an information request case agent in the Information Request Playbook in the CRM Workspace.
 
@@ -53,7 +53,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 4.  Select **Save**.
 
-    A case is created with the information request information. The case number is added to the tab and the first activity in the Intake stage is marked as complete. The second activity in this stage is highlighted as the current activity. If you have enabled the Similar Request documents UI activity, this will display as the second activity. For more information, see [Configure Similar Request Documents UI in Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-ir-playbooks-configure-similar-request-documents.md).
+    A case is created with the information request information. The case number is added to the tab and the first activity in the Intake stage is marked as complete. The second activity in this stage is highlighted as the current activity. If you have enabled the Similar Request documents UI activity, this will display as the second activity. For more information, see [Configure Similar Request Documents UI in Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-ir-playbooks-configure-similar-request-documents.md).
 
 5.  Select a related document to link it to the request, and select **Next**.
 

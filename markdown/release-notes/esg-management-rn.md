@@ -2,7 +2,7 @@
 title: Operational Sustainability Management \(formerly Environmental, Social, and Governance\) release notes
 description: The ServiceNow Operational Sustainability Management application \(formerly known as Environmental, Social, and Governance Management\) manages sustainability-related data, metrics, and reporting requirements. Operational Sustainability Management was enhanced and updated in the Australia release.The ServiceNow Operational Sustainability Management application \(formerly known as Environmental, Social, and Governance Management\) manages sustainability-related data, metrics, and reporting requirements. Operational Sustainability Management was enhanced and updated in the Australia release.The ServiceNow Operational Sustainability Management application \(formerly known as Environmental, Social, and Governance Management\) manages sustainability-related data, metrics, and reporting requirements. Operational Sustainability Management was enhanced and updated in the Australia release.The ServiceNow Operational Sustainability Management application \(formerly known as Environmental, Social, and Governance Management\) manages sustainability-related data, metrics, and reporting requirements. Operational Sustainability Management was enhanced and updated in the Australia release.The ServiceNow Operational Sustainability Management application \(formerly known as Environmental, Social, and Governance Management\) manages sustainability-related data, metrics, and reporting requirements. Operational Sustainability Management was enhanced and updated in the Australia release.The ServiceNow Operational Sustainability Management application \(formerly known as Environmental, Social, and Governance Management\) manages sustainability-related data, metrics, and reporting requirements. Operational Sustainability Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/esg-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/esg-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ See [Operational Sustainability Management \(formerly Environmental, Social, and
     -   sn\_esg.campaign\_bulk\_action\_enabled: Enables bulk submission, approval, and rejection for campaigns.
     -   sn\_esg.metric\_approval: Sets the approval mode for campaigns. Set the value to Simple for a single data owner and approver, or Advanced for multi-level approval chains.
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 
 ## August 2026
 
@@ -58,7 +58,7 @@ The ServiceNow® Operational Sustainability Management application \(formerly kn
 
 -   **[ServiceNow Otto® name announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now Assist for IRM \(sn\_irm\_gen\_ai\) plugin, which provides generative AI capabilities for RCM, has been renamed to ServiceNow Otto for IRM.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now Assist for IRM \(sn\_irm\_gen\_ai\) plugin, which provides generative AI capabilities for RCM, has been renamed to ServiceNow Otto for IRM.
 
 
 ## June 2026

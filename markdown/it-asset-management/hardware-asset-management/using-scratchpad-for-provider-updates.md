@@ -2,7 +2,7 @@
 title: Use the Scratchpad to complete your request fulfillment tasks
 description: As a provider, use the Scratchpad feature of the Service Exchange application to send updates to the ServiceNow instance of your consumer while performing the request fulfillment tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/using-scratchpad-for-provider-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/using-scratchpad-for-provider-updates.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

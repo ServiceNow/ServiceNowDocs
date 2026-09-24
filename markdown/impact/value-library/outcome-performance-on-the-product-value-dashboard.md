@@ -2,7 +2,7 @@
 title: View outcome performance on the product value dashboard
 description: Use the product value dashboard to view tracked outcomes for a selected product. Each outcome appears as an individual card that displays the outcome name, a trend indicator, the current performance value, and a trend chart showing performance over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/value-library/outcome-performance-on-the-product-value-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/value-library/outcome-performance-on-the-product-value-dashboard.html
 release: australia
 product: Value Library
 classification: value-library

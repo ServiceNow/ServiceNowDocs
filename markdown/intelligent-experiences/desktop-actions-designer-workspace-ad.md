@@ -2,7 +2,7 @@
 title: Defined desktop actions in AI Desktop Actions
 description: Desktop actions enable you to automate repetitive tasks on your desktop and web applications. This capability helps you streamline repetitive tasks, improve efficiency, and integrate desktop application workflows into your ServiceNow processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/desktop-actions-designer-workspace-ad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/desktop-actions-designer-workspace-ad.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-25"
@@ -172,11 +172,11 @@ Enables AI agents to perform standard Windows system operations. For example, st
 
 You can create on-screen desktop actions in the following ways:
 
--   **[Auto-capture screens and steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md)**
+-   **[Auto-capture screens and steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/auto-create-desktop-action-ad.md)**
 
-    With Action recorder, you can record your interactions with desktop applications to create automated workflows. It records every step you take, including clicks, keystrokes, and data entry, along with visual and contextual information. By recording steps, you can automate tasks that replicate your interactions. You can save the recorded screens and steps as a reusable desktop action. For more information, see [Action recorder in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/action-recorder-ad.md).
+    With Action recorder, you can record your interactions with desktop applications to create automated workflows. It records every step you take, including clicks, keystrokes, and data entry, along with visual and contextual information. By recording steps, you can automate tasks that replicate your interactions. You can save the recorded screens and steps as a reusable desktop action. For more information, see [Action recorder in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/action-recorder-ad.md).
 
--   **[Manually capture screens and steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manual-create-desktop-action-ad.md)**
+-   **[Manually capture screens and steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manual-create-desktop-action-ad.md)**
 
     You can manually take a screen capture, add anchors and steps to automate a series of steps you perform on your computer, such as clicking buttons, typing text, or interacting with different applications, and then save this sequence as a reusable desktop action.
 
@@ -228,17 +228,17 @@ Desktop actions support a wide range of desktop application interactions, includ
 **Related topics**  
 
 
-[AI Desktop Actions Design workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-overview.md)
+[AI Desktop Actions Design workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/agentic-desktop-overview.md)
 
-[Action recorder in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/action-recorder-ad.md)
+[Action recorder in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/action-recorder-ad.md)
 
-[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md)
+[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/auto-create-desktop-action-ad.md)
 
-[Extend a desktop action by manually capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manual-create-desktop-action-ad.md)
+[Extend a desktop action by manually capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manual-create-desktop-action-ad.md)
 
-[Add details to desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-details-desktop-action-ad.md)
+[Add details to desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-details-desktop-action-ad.md)
 
-[Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md)
+[Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-activate-desktop-action-ad.md)
 
 [add-desktop-action-ai-agent-1]
 

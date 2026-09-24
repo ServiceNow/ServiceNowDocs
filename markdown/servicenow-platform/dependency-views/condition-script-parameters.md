@@ -2,7 +2,7 @@
 title: Condition and script parameters for menu actions
 description: You can use the following condition and script parameters for menu actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/condition-script-parameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/condition-script-parameters.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -56,7 +56,7 @@ Menu action scripts are executed on the client when a user clicks the menu optio
 |item.location\_name|The full address of the location, such as 4616 Clairemont Drive, North Clairemont, San Diego CA.|
 |item.manufacturer\_id|The sys\_id of the CI's manufacturer.|
 
-**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 

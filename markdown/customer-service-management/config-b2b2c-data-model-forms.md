@@ -2,7 +2,7 @@
 title: Configure the Account and Consumer forms for B2B2C
 description: Enable account consumers to view the Account Consumers related list for the Case and Workspace views.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-b2b2c-data-model-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-b2b2c-data-model-forms.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

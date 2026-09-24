@@ -2,7 +2,7 @@
 title: Create KPI thresholds
 description: Create KPI thresholds that consist of predefined values that serve as benchmarks or limits for evaluating performance against specific objectives.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-threshold.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-threshold.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -27,7 +27,7 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 Ensure that you add at least two active thresholds to activate a KPI template. You can add a maximum of five thresholds to a KPI template.
 
-**Note:** Thresholds help determine what score the supplier receives in the **KPI management** tab and in the scorecard. For more information, see [Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md).
+**Note:** Thresholds help determine what score the supplier receives in the **KPI management** tab and in the scorecard. For more information, see [Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md).
 
 ## Procedure
 
@@ -117,7 +117,7 @@ Color
 
 </td><td>
 
-The color you select for each threshold is inherited by the Status column \(showing highlighted value\) in the KPI management tab on the Supplier page. For more information, see [Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md).
+The color you select for each threshold is inherited by the Status column \(showing highlighted value\) in the KPI management tab on the Supplier page. For more information, see [Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md).
 
 </td></tr></tbody>
 </table>6.  Select **Save**.
@@ -125,10 +125,10 @@ The color you select for each threshold is inherited by the Status column \(show
     **Note:** A KPI is activated only when at least two active thresholds are added to it and one of those thresholds is marked as **Target threshold**.
 
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 
 **Related topics**  
 
 
-[Create manual KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-template-slo.md)
+[Create manual KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-template-slo.md)
 

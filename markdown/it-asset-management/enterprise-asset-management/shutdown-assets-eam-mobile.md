@@ -2,7 +2,7 @@
 title: Set enterprise assets to the shutdown state using the Mobile Agent application
 description: Move assets of a shutdown work order task to the shutdown state in the Mobile Agent application to indicate that the assets are unavailable for use during maintenance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/shutdown-assets-eam-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/shutdown-assets-eam-mobile.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -56,7 +56,7 @@ Role required: sn\_eam.asset\_technician
 
 In the Affected assets list, the substate of the assets that are shut down changes to Is shutdown.
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 

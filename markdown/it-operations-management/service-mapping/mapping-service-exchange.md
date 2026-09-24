@@ -2,7 +2,7 @@
 title: Application services with Microsoft Exchange Server
 description: Service Mapping can discover service instances containing a Microsoft Exchange Server and the Exchange Server components.Map an application service containing an Microsoft Exchange Server and verify that Service Mapping discovered all Microsoft Exchange Server components correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/mapping-service-exchange.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/mapping-service-exchange.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -72,7 +72,7 @@ Active Directory Service pattern
 
 </td></tr><tr><td>
 
-[Microsoft server \(as a Microsoft Exchange component\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r-ExchangeClientAccessServer.md)
+[Microsoft server \(as a Microsoft Exchange component\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r-ExchangeClientAccessServer.md)
 
 </td><td>
 
@@ -98,7 +98,7 @@ ExchangeFrontEndServer On Windows; PatternExchangeBackEndServer On Windows patte
 
 </td></tr><tr><td>
 
-[HUB Transport Server \(as a Microsoft Exchange component\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r-ExchangeHub.md)
+[HUB Transport Server \(as a Microsoft Exchange component\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r-ExchangeHub.md)
 
 </td><td>
 
@@ -151,13 +151,13 @@ CAS On Windows pattern
 </td></tr></tbody>
 </table>Typically, you do not want to discover Outlook clients connected to the Exchange Server to avoid noise. If this is the case, disable the traffic-based discovery for this application service.
 
-For information on the discovery flow, refer to pattern-based discovery in Service Mapping. Failure to provide users with required permissions may cause Service Mapping to perform [traffic-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traffic-based-discovery.md).
+For information on the discovery flow, refer to pattern-based discovery in Service Mapping. Failure to provide users with required permissions may cause Service Mapping to perform [traffic-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/traffic-based-discovery.md).
 
 ## Limitations
 
 Discovery and Service Mapping cannot discover the Exchange Server if its configuration does not support public folders, edge transports, and public messaging. Create a pattern or customize the existing pattern to discover the Exchange Server with such configuration.
 
-**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
+**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 
 ## Map application services containing Microsoft Exchange Servers
 
@@ -184,7 +184,7 @@ Map an application service containing an Microsoft Exchange Server and verify th
     -   Get-MailboxDatabase
 -   \(For Microsoft Exchange CAS 2010 and 2016\) On the Windows Server hosting Microsoft Exchange CAS, install the Microsoft.Exchange.Management.PowerShell.E2010 module.
 -   \(For Microsoft Exchange CAS 2007\) On the Windows Server hosting Microsoft Exchange CAS, install the Microsoft.Exchange.Management.PowerShell.Admin module.
--   \(For Microsoft Exchange CAS 2007, 2010\) On the ServiceNow AI Platform, upload the rctrlx tool for running PowerShell commands as described in [Upload the rctrlx.exe file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/upload-rctrlx-file.md).
+-   \(For Microsoft Exchange CAS 2007, 2010\) On the ServiceNow AI Platform, upload the rctrlx tool for running PowerShell commands as described in [Upload the rctrlx.exe file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/upload-rctrlx-file.md).
 -   \(For Microsoft Exchange CAS 2007 and 2010\) Provide an Exchange Mailbox OS user with the rights to run Exchange services on Windows and has permission to query Exchange repository:
 
     On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) setting the **Credential alias** attribute to \[cmdb\_ci\_exchange\_mailbox\]. Configuring this attribute allows you later to use the credential for this CI in patterns.

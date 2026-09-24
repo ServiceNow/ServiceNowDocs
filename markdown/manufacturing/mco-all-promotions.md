@@ -2,7 +2,7 @@
 title: View all promotions
 description: View all the promotions you created as an OEM agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-all-promotions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-all-promotions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,13 +26,13 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 3.  On the My Promotion form, fill in the fields.
 
-    For a description of the field values, see [All promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-all-promotion-form.md).
+    For a description of the field values, see [All promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-all-promotion-form.md).
 
 4.  Select **Save**.
 
 5.  Select **Create checklist**.
 
-    To learn how to create a checklist, see [Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-checklist.md).
+    To learn how to create a checklist, see [Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-checklist.md).
 
 6.  Select **Publish**.
 

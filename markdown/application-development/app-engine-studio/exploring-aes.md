@@ -2,7 +2,7 @@
 title: Exploring App Engine Studio
 description: Learn how you can use the low-code app development tool, App Engine Studio \(AES\), to build powerful applications using guided setup, predefined templates, and workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/exploring-aes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/exploring-aes.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -27,7 +27,7 @@ Learn how you can use the low-code app development tool, App Engine Studio \(AES
 
 ## Workflow to create apps using App Engine Studio
 
-The following illustration describes the basic tasks involved in creating an app using App Engine Studio. For detailed instructions, see [Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-creation.md).
+The following illustration describes the basic tasks involved in creating an app using App Engine Studio. For detailed instructions, see [Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-creation.md).
 
 **Note:** Select the image to enlarge it.
 
@@ -39,7 +39,7 @@ The workflow for creating apps in App Engine Studio is as follows:
 2.  The AES admin reviews the intake request. If it's rejected, that closes out the request. But you can always update your idea and submit a new request.
 3.  When the request is approved, you must decide whether to create your app using a predefined template, or to create it from scratch. You should explore the available templates. They can save you lots of time.
 4.  Then you must determine whether you have the resources to build the app on your own. If you need help, you can request collaboration, or the AES admin can assign a collaborating developer.
-5.  If you use a template, the base system app is created automatically, with a basic data model, user experiences, automated workflows, and security roles. For more information, see [Integrated development tools for AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-integration-with-development-tools.md).
+5.  If you use a template, the base system app is created automatically, with a basic data model, user experiences, automated workflows, and security roles. For more information, see [Integrated development tools for AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-integration-with-development-tools.md).
 6.  You can customize all those elements for the app. If you're creating the app from scratch, you must define those four elements yourself.
 7.  The AES admin can monitor the development of the app every step of the way using the App Engine Management Center \(AEMC\). Monitoring apps through the development cycle can help the AES admin balance workloads and ensure quality.
 8.  When your app is complete, the AES admin uses the AEMC to request that the app is deployed into the pipeline for testing, staging, and final deployment.
@@ -57,7 +57,7 @@ ServiceNow resources
 
 </th></tr></thead><tbody><tr><td rowspan="5">
 
-App Engine Studio is a guided, low-code tool for developing rich web applications to store information, automate business processes, and solve business problems. **Note:** AES requires an App Engine subscription or product packaged with one. For more information, refer to [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/install-aes.md). Contact your account representative for details.
+App Engine Studio is a guided, low-code tool for developing rich web applications to store information, automate business processes, and solve business problems. **Note:** AES requires an App Engine subscription or product packaged with one. For more information, refer to [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/install-aes.md). Contact your account representative for details.
 
 </td><td>
 
@@ -100,10 +100,10 @@ App Engine Studio provides the following benefits.
 
 |Benefit|Feature|Role|
 |-------|-------|----|
-|Submit ideas for an app, which admins then approve.|[Submit your idea for app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-intake/submit-intake-request.md)|Citizen developer|
-|Use templates for standard application types, such as procurement portal or time off request, as a starting point to create and customize new apps quickly.|[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md)|Citizen developer|
-|Access multiple development tools in one interface, such as Table Builder and Workspace Builder.|[Integrated development tools for AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-integration-with-development-tools.md)|Citizen developer|
-|Scale development while maintaining process to review and test applications before deployment.|[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/managing-app-development-using-aemc.md)|Administrator|
+|Submit ideas for an app, which admins then approve.|[Submit your idea for app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-intake/submit-intake-request.md)|Citizen developer|
+|Use templates for standard application types, such as procurement portal or time off request, as a starting point to create and customize new apps quickly.|[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/use-app-template.md)|Citizen developer|
+|Access multiple development tools in one interface, such as Table Builder and Workspace Builder.|[Integrated development tools for AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-integration-with-development-tools.md)|Citizen developer|
+|Scale development while maintaining process to review and test applications before deployment.|[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/managing-app-development-using-aemc.md)|Administrator|
 
 ## Accelerate your low-code development with AES
 
@@ -162,7 +162,7 @@ App Engine Studio lets you scale development across your organization while esta
 
 To learn more about configuring and using App Engine Studio, see:
 
--   [Configuring App Engine Studio and related apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-setup.md)
--   [Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-creation.md)
--   [App Engine Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-reference.md)
+-   [Configuring App Engine Studio and related apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-setup.md)
+-   [Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-creation.md)
+-   [App Engine Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-reference.md)
 

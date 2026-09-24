@@ -2,7 +2,7 @@
 title: View the install base in CRM Workspace
 description: View a customer’s install base in CRM Workspace to quickly identify the support they require as well as the opportunities for adoption and upsell.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-base-aw-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/install-base-aw-csm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

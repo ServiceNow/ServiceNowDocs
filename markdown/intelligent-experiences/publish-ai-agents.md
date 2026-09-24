@@ -2,12 +2,12 @@
 title: Publish AI agents
 description: Marking AI agents as publishable from an AI asset record page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/publish-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/publish-ai-agents.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Registries, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 

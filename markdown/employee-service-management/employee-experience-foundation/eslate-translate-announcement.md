@@ -2,7 +2,7 @@
 title: Translate announcement content
 description: Translate announcement content manually or request translation through the Localization Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-translate-announcement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-translate-announcement.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,14 +2,14 @@
 title: Components installed with External Content Connectors
 description: The External Content Connectors plugin installs a connector administrator role and a scheduled job to remove unused OAuth 2.0 credentials for deleted external content connectors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/installed-with-ext-content-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/installed-with-ext-content-connectors.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -76,5 +76,5 @@ Deletes stored OAuth 2.0 credentials for external content connectors that have b
 4.  Select **Update**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/reference-ext-cont-connectors.md)
+</table>**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/reference-ext-cont-connectors.md)
 

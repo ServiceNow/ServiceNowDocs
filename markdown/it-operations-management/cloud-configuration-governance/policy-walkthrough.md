@@ -2,7 +2,7 @@
 title: Cloud policy example
 description: A base system cloud policy, Lease End ServiceNow, uses the on Lease end trigger that fires when a virtual resource is near the lease end date. If the conditions in the policy rule are met, the policy engine sends a notification to the owner of the resource and performs operations on the resource.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/policy-walkthrough.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/policy-walkthrough.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -121,7 +121,7 @@ You can change any base-system policy by modifying settings or making the policy
 
 ## What to do next
 
-This example uses the settings available through the form configuration. To see example scripts that you could use in addition, see [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-policy-script.md).
+This example uses the settings available through the form configuration. To see example scripts that you could use in addition, see [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-policy-script.md).
 
-**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-policy.md)
+**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-policy.md)
 

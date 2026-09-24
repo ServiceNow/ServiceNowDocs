@@ -2,7 +2,7 @@
 title: Export rate lines to a file
 description: Export rate lines to a Microsoft Excel or CSV file to quickly update or add new rate lines and import them back into the rate model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/rate-model/export-rate-lines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/rate-model/export-rate-lines.html
 release: australia
 product: Rate Model
 classification: rate-model
@@ -24,7 +24,7 @@ Role required: pps\_admin or it\_rate\_model\_admin.
 
 ## About this task
 
-Besides [creating rate lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/create-rate-line.md) one at a time, you can add multiple rate lines into a rate model using the export and import rate lines functions.
+Besides [creating rate lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/rate-model/create-rate-line.md) one at a time, you can add multiple rate lines into a rate model using the export and import rate lines functions.
 
 -   Rate Model
 -   Number
@@ -64,7 +64,7 @@ All rate lines in the rate model are exported to the file. If there is no rate l
 
 ## What to do next
 
-[Import rate lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/import-rate-lines.md) from the file into a rate model.
+[Import rate lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/rate-model/import-rate-lines.md) from the file into a rate model.
 
-**Parent Topic:**[Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md)
+**Parent Topic:**[Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/rate-model/rate-model.md)
 

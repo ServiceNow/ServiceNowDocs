@@ -2,7 +2,7 @@
 title: Article versioning changes
 description: Article versioning introduces new actions that allow knowledge users to create and revise versions of existing articles. It also introduces new fields and related lists to the Knowledge form, new columns to the Knowledge list, and updates to Knowledge dashboard reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/article-versioning-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/article-versioning-changes.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

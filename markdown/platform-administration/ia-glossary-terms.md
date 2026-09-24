@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Setup terminology
 description: Before getting started with ServiceNow Otto for Setup, it's important to understand some key terms used in the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-glossary-terms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-glossary-terms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-17"
@@ -14,7 +14,7 @@ breadcrumb: [Reference, ServiceNow Otto for Setup, Get started, Administer the S
 
 Before getting started with ServiceNow Otto for Setup, it's important to understand some key terms used in the application.
 
-**Parent Topic:**[ServiceNow Otto for Setup references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
+**Parent Topic:**[ServiceNow Otto for Setup references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-reference.md)
 
 ## application scope
 

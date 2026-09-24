@@ -2,7 +2,7 @@
 title: CMDB Health experience in CMDB Workspace and in Service Graph Workspace
 description: View CMDB Health dashboards and use other CMDB Health-related features in CMDB Workspace and in Service Graph Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-health-exp-cmdb-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-health-exp-cmdb-workspace.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -18,9 +18,9 @@ View CMDB Health dashboards and use other CMDB Health-related features in CMDB W
 
 CMDB Health is fully integrated into CMDB Workspaceand Service Graph Workspace. CMDB Workspace or Service Graph Workspace are required in order to access CMDB Health features, primarily to:
 
--   [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
--   [View relationships health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_ViewRelationshipsHealth.md)
--   [View CI health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_ViewCIHealth.md)
+-   [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
+-   [View relationships health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_ViewRelationshipsHealth.md)
+-   [View CI health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_ViewCIHealth.md)
 
 Use the CMDB Workspace landing page and its views to access CMDB Health tiles that are based on CMDB Health activities and aggregations. For example:
 
@@ -32,7 +32,7 @@ Use the CMDB Workspace landing page and its views to access CMDB Health tiles th
 
 Access CMDB Health in CMDB Workspace by navigating to **Workspaces** &gt; **CMDB Workspace**.Access CMDB Health in Service Graph Workspace by navigating to **Workspaces** &gt; **Service Graph Workspace**, selecting the Insights icon in the navigation panel, and then selecting **CMDB Health** in the Insights navigation panel.
 
-**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
+**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
 
 **Related topics**  
 

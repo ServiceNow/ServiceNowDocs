@@ -2,7 +2,7 @@
 title: Manage ServiceNow Otto panel
 description: Enable the ServiceNow Otto panel to provide generative AI assistance through a conversational interface in ServiceNow Otto for Core Business Suite \(CBS\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/enable-now-assist-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/enable-now-assist-panel.html
 release: australia
 topic_type: task
 last_updated: "2026-04-05"
@@ -35,5 +35,5 @@ Role required: admin
     The ServiceNow Otto panel is activated by default. For more information, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

@@ -2,7 +2,7 @@
 title: Observable enrichment in MISP
 description: By enriching observables with additional information from various MISP sources during incident response investigations, you can contain identified threats.Enable automatic observable enrichment in the ServiceNow AI Platform MISP when new observables are associated with the security incident.Select individual or multiple observables and perform a manual observable enrichment so that you can enrich observables with additional information from various MISP sources.Add or remove tags in MISP to classify events or attributes. You can use tagging globally to enable your classification or use tags locally when you don't want MISP events to be modified during your classification.Add or remove galaxies in MISP so that you can classify these objects as a cluster in MISP and attach them to MISP events or attributes.Add comments for the MISP attributes. The comments that you add are for informational purposes only and are not used for correlation of MISP data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/observable-enrichment-in-misp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/observable-enrichment-in-misp.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Using MISP to investigate and analyze threats, MISP integration for
 
 By enriching observables with additional information from various MISP sources during incident response investigations, you can contain identified threats.
 
-**Parent Topic:**[Using MISP to investigate and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-misp-to-detect-and-analyze-threats.md)
+**Parent Topic:**[Using MISP to investigate and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-misp-to-detect-and-analyze-threats.md)
 
 ## Enable automatic observable enrichment in MISP
 
@@ -33,7 +33,7 @@ Enable automatic observable enrichment in the ServiceNow AI Platform MISP when n
 
 3.  Review the work notes after new observables have been associated with the security incident.
 
-    The following example shows that a work note posts when the [Security Operations Integration - Enrich Observable flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-enrich-observ-wf.md) triggers.
+    The following example shows that a work note posts when the [Security Operations Integration - Enrich Observable flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-enrich-observ-wf.md) triggers.
 
     \[Omitted image "flows-misp-worknotes-start.png"\] Alt text: View the work notes of the Observable Enrichment status.
 
@@ -41,7 +41,7 @@ Enable automatic observable enrichment in the ServiceNow AI Platform MISP when n
 
     \[Omitted image "flows-misp-worknotes-end.png"\] Alt text: View the work notes of the Observable Enrichment status after the execution is completed.
 
-    **Note:** You must configure that the MISP Enrichment Results related list appears in the security incident related lists. For more information, see [related list configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui-setup-form-uiaction.md).
+    **Note:** You must configure that the MISP Enrichment Results related list appears in the security incident related lists. For more information, see [related list configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-new-ui-setup-form-uiaction.md).
 
     The following example shows the enrichment results in the MISP.
 
@@ -169,7 +169,7 @@ Select individual or multiple observables and perform a manual observable enrich
 
 ### Before you begin
 
--   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
 -   Role required: sn\_si.analyst
 
 ### Procedure
@@ -190,7 +190,7 @@ Select individual or multiple observables and perform a manual observable enrich
 
 6.  Click **Submit**.
 
-    A work note shows that the [Security Operations Integration - Enrich Observable workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-enrich-observ-wf.md) has triggered. The associated implementation workflows execute to perform the enrichment. You can view the work notes in the security incident to view the status.
+    A work note shows that the [Security Operations Integration - Enrich Observable workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-enrich-observ-wf.md) has triggered. The associated implementation workflows execute to perform the enrichment. You can view the work notes in the security incident to view the status.
 
     The following example shows how to view the work notes for a manual observable enrichment.
 
@@ -205,7 +205,7 @@ Add or remove tags in MISP to classify events or attributes. You can use tagging
 
 ### Before you begin
 
--   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
 -   Verify that the attribute that you are editing belongs to the same organization as the MISP user.
 -   Note that the tags and galaxies that are available to you are based on the MISP source and its distribution permissions.
 -   Role required: sn\_sec\_misp.write
@@ -388,7 +388,7 @@ Add or remove galaxies in MISP so that you can classify these objects as a clust
 
 ### Before you begin
 
--   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
 -   To add local galaxies, the user who has configured the integration should belong to the host organization of the corresponding MISP server.
 -   Note that the tags and galaxies that are available to you are based on the MISP source and its distribution permissions.
 -   Role required: sn\_sec\_misp.write
@@ -425,7 +425,7 @@ Add comments for the MISP attributes. The comments that you add are for informat
 
 ### Before you begin
 
--   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
 -   Verify that the attribute that you are editing belongs to the same organization as the MISP user.
 -   Role required: sn\_sec\_misp.write
 

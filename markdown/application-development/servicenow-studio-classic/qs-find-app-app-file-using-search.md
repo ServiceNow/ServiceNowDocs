@@ -2,7 +2,7 @@
 title: Find an app or app file using Search
 description: Use Search in ServiceNow Studio to find and open any app or app file. You can also activate code search to find snippets of code within specific metadata types on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-find-app-app-file-using-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/qs-find-app-app-file-using-search.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -35,11 +35,11 @@ Role required: admin or delegated\_developer
 
 3.  To search within code, select the switch next to **Activate code search**.
 
-    **Note:** Code search finds snippets of code within specific application file types. For more information, see [Find an app or app file using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/find-app-app-file-using-code-search.md).
+    **Note:** Code search finds snippets of code within specific application file types. For more information, see [Find an app or app file using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/find-app-app-file-using-code-search.md).
 
 4.  Enter your app or app file name in the Search bar.
 
-    To navigate directly to a table, follow the instructions in [Navigate directly to a table in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-navigate-directly-to-table.md).
+    To navigate directly to a table, follow the instructions in [Navigate directly to a table in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/qs-navigate-directly-to-table.md).
 
 5.  Select your app or file from the results list.
 

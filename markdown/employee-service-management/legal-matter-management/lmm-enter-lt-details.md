@@ -2,7 +2,7 @@
 title: Enter Legal Tracker details and submit for integration
 description: As a task fulfiller, enter the details in the Legal Tracker section of the outside counsel engagement request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-enter-lt-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/lmm-enter-lt-details.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -18,7 +18,7 @@ As a task fulfiller, enter the details in the Legal Tracker section of the outsi
 
 ## About this task
 
-When you submit an outside counsel request, you can choose to fill in the Legal Tracker details later by selecting **Create a task for entering Legal Tracker field details**. On approval of the outside counsel request, a task is created to fill in the Legal Tracker details. Enter the Legal Tracker details and submit for integration. For more information on submitting an outside counsel request, see [Request Outside Counsel engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/create-lt-outside-counsel-engagement.md).
+When you submit an outside counsel request, you can choose to fill in the Legal Tracker details later by selecting **Create a task for entering Legal Tracker field details**. On approval of the outside counsel request, a task is created to fill in the Legal Tracker details. Enter the Legal Tracker details and submit for integration. For more information on submitting an outside counsel request, see [Request Outside Counsel engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/create-lt-outside-counsel-engagement.md).
 
 ## Before you begin
 
@@ -32,15 +32,15 @@ Role required:
 
 1.  Open a legal matter task.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d95991e84">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d95995e84">
 
 Method
 
-</th><th align="left" id="d95991e87">
+</th><th align="left" id="d95995e87">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d95991e93">
+</th></tr></thead><tbody><tr><td id="d95995e93">
 
 **Using Legal Counsel Center homepage**
 
@@ -53,7 +53,7 @@ Action
 5.  Navigate to the Legal Tracker Details section.
 
 
-</td></tr><tr><td id="d95991e143">
+</td></tr><tr><td id="d95995e143">
 
 **Using Legal Counsel Center lists**
 
@@ -67,7 +67,7 @@ Action
 6.  Navigate to the Legal Tracker Details section.
 
 
-</td></tr><tr><td id="d95991e209">
+</td></tr><tr><td id="d95995e209">
 
 **Using platform view**
 
@@ -87,7 +87,7 @@ Action
 
 4.  Select **Submit for Integration** to create matter in Legal Tracker.
 
-    During the matter creation, errors can be reported for the data related to outside counsel engagement request or Legal Tracker details section or both. For more information, see [Resolve errors during matter creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-lt-resolve-errors-ocer.md).
+    During the matter creation, errors can be reported for the data related to outside counsel engagement request or Legal Tracker details section or both. For more information, see [Resolve errors during matter creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-lt-resolve-errors-ocer.md).
 
 
 ## Result
@@ -101,5 +101,5 @@ On successful integration, access permission is granted to the following users f
 -   Lead company person - User selected as lead of the organization who should coordinate with the outside counsel.
 -   \#2 company person - User selected as alternative contact person in the absence of the Lead company person.
 
-**Parent Topic:**[Approve or reject outside counsel engagement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-approve-oce.md)
+**Parent Topic:**[Approve or reject outside counsel engagement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-approve-oce.md)
 

@@ -2,7 +2,7 @@
 title: Components installed with Invoice Case Management
 description: Reference information for the roles, scheduled jobs, and tables installed with the Invoice Case Management plugin during activation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -103,7 +103,7 @@ Create Inquiry Case on Invoice email
 
 </td><td>
 
-Creates an invoice inquiry case from the information in an inbound email.You must activate the flow to use it. For information on how to activate the flow, see [Activate the Create Inquiry Case on Invoice email flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/activate-inquiry-email-flow.md).
+Creates an invoice inquiry case from the information in an inbound email.You must activate the flow to use it. For information on how to activate the flow, see [Activate the Create Inquiry Case on Invoice email flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/activate-inquiry-email-flow.md).
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -133,8 +133,8 @@ Invoice task \[sn\_ap\_cm\_ap\_task\]
 Extends the Service Task table. Stores the invoice task records.
 
 </td></tr></tbody>
-</table>-   **[Activate the Create Inquiry Case on Invoice email flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/activate-inquiry-email-flow.md)**  
+</table>-   **[Activate the Create Inquiry Case on Invoice email flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/activate-inquiry-email-flow.md)**  
 Activate the **Create Inquiry Case on Invoice email** flow to automatically create invoice inquiry cases from inbound emails.
 
-**Parent Topic:**[Install Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.md)
+**Parent Topic:**[Install Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.md)
 

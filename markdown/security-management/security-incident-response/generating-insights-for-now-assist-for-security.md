@@ -2,7 +2,7 @@
 title: Exploring correlation insights
 description: Generate correlation insights to avoid duplicating your investigation into affected users, configuration items, and observables and resolve the security incident that you're working on quickly. You select the criteria from a security incident that you want to base the correlation insights on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/generating-insights-for-now-assist-for-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/generating-insights-for-now-assist-for-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +29,7 @@ Starting with v3.0.0 of ServiceNow Otto for Security Incident Response \(SIR\), 
     **Note:** After you generate an observable associated with a security incident, the insights are stored for that observable until you regenerate it with a different time range. Your insights for your new time range are displayed.
 
 
-The correlation insights generation skill must be activated before you can see the **Generate correlation insights** option in the Security Incident Response Workspace. For more information, see [Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md).
+The correlation insights generation skill must be activated before you can see the **Generate correlation insights** option in the Security Incident Response Workspace. For more information, see [Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md).
 
 ## Generating correlation insights from the ServiceNow Otto panel in the Security Incident Response Workspace and in UI \(UI16\)
 
@@ -50,12 +50,12 @@ If you don't see the panel, you must activate it. For more information, see [Act
     -   Associate observable \[sn\_ti\_observable\] table.
 -   Your results for correlation insights are based on the tables that you have access to. For example, if you want to view vulnerable items \(VIT\)s in your correlation insights results, you must have the Vulnerability Response application installed and the read access role \(sn\_vul.read\_all\).
 
-For the steps to generate correlation insights, see [Generate correlation insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/generate-correlation-insights-now-assist-sir-entry-points.md) and [Generate correlation insights in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/generate-correlation-insights-now-assist-for-security.md).
+For the steps to generate correlation insights, see [Generate correlation insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/generate-correlation-insights-now-assist-sir-entry-points.md) and [Generate correlation insights in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/generate-correlation-insights-now-assist-for-security.md).
 
--   **[Generate correlation insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/generate-correlation-insights-now-assist-sir-entry-points.md)**  
+-   **[Generate correlation insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/generate-correlation-insights-now-assist-sir-entry-points.md)**  
 Generate and view correlation insights in the Security Incident Response Workspace to help you connect past events to the security incident you're working on.
--   **[Generate correlation insights in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/generate-correlation-insights-now-assist-for-security.md)**  
+-   **[Generate correlation insights in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/generate-correlation-insights-now-assist-for-security.md)**  
 Generate correlation insights from the ServiceNow Otto panel to help you connect past events to the security incident that you're working on.
 
-**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-for-security.md)
+**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-now-assist-for-security.md)
 

@@ -2,7 +2,7 @@
 title: Learning External Contents form
 description: Description of the field values in the Learning External Content form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-external-contents-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/learning-external-contents-form.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -29,7 +29,7 @@ Description of the field values in the Learning External Content form.
 |Mobile deeplink|Deeplink that is generated from external system. Deeplink allows you to navigate to a course from a native application.|
 |Estimated duration|Total time that is taken to complete the course item.|
 
-**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core-reference.md)
+**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-core-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a planned task
 description: Planned Tasks are created on planned task child tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_CreateAPlannedTask.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/t\_CreateAPlannedTask.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -41,5 +41,5 @@ To modify the planned task interceptor:
     \[Omitted image "PTaskInterceptor2.png"\] Alt text: Related List form
 
 
-**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
+**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
 

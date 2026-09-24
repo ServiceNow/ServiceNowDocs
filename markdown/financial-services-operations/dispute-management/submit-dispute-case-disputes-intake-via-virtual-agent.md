@@ -2,7 +2,7 @@
 title: Submit a dispute case with Disputes intake via Virtual Agent
 description: Create a new dispute case using the Disputes intake via Virtual Agent skill in the ServiceNow Otto for Financial Services Operations \(FSO\) application. Customers can interact with a Virtual Agent chat, which collects and infers details from customer responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/submit-dispute-case-disputes-intake-via-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/submit-dispute-case-disputes-intake-via-virtual-agent.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -49,5 +49,5 @@ Disputes intake via Virtual Agent creates a Card Disputes Service Case and prese
 
 A card dispute processor may access the record and review its details in the workspace.
 
-**Parent Topic:**[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)
+**Parent Topic:**[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)
 

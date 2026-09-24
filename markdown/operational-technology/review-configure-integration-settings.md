@@ -2,7 +2,7 @@
 title: Review and configure integration settings
 description: To make the Service Graph Connector for ServiceNow OT Discovery simple to use, set options that let you modify the integration behavior to meet your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/review-configure-integration-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/review-configure-integration-settings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -153,7 +153,7 @@ Logging level verbosity to use for the application.Default: Info
 
 ## What to do next
 
-The next setup step is to[Set up scheduled import jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/setup-scheduled-jobs.md).
+The next setup step is to[Set up scheduled import jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/setup-scheduled-jobs.md).
 
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-ot-discovery.md)
 

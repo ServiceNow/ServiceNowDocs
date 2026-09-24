@@ -2,7 +2,7 @@
 title: Assign the data steward role
 description: Select a data steward to make decisions about data sharing with ServiceNow in Now Assist applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/assign-data-steward-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/assign-data-steward-role.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ The following steps explain how to assign a role to a specific user. Another opt
 
 Once the data steward has the correct role, they can review the data sharing information on the Now Assist Admin console in the **Settings** tab under **Data privacy and sharing** &gt; **Data sharing**.
 
-**Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-sharing-and-processes.md)
+**Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-sharing-and-processes.md)
 

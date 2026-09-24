@@ -2,7 +2,7 @@
 title: View the execution record for a policy run
 description: View the execution record to analyze policy execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-execution-record-policy-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-execution-record-policy-view.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

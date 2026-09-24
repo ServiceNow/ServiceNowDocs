@@ -2,7 +2,7 @@
 title: Configure context variables for external IDs
 description: Set up a context variable for each external ID to be used in pricing requests and map the variable to a reference field in a ServiceNow reference table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-external-ids-pricing-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-external-ids-pricing-requests.html
 release: australia
 topic_type: task
 last_updated: "2026-04-29"

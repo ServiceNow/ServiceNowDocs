@@ -2,7 +2,7 @@
 title: Configure the Install Base Items and Sold Products lists
 description: Enable account consumers to view the Account, Contact, and Consumer fields for the Self-Service view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-b2b2c-data-model-lists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-b2b2c-data-model-lists.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Human Resources manager dashboard
 description: The dashboard for HR Managers provides insights on how HR teams are meeting expectations. The HR Manager can measure and improve the influence of their team on meeting and exceeding workforce expectations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/human-resources-manager-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/human-resources-manager-dashboard.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -150,5 +150,5 @@ The Human Resources Manager dashboard contains the following visualizations:
 |Time Spent in Each Group\(last 6 months\)|Multilevel Pivot \[Omitted image "pivot-scorecard-icon.png"\] Alt text: Multilevel pivot icon|
 |Unassigned Cases|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
 
-**Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
+**Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
 

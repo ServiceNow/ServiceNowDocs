@@ -2,7 +2,7 @@
 title: Add custom columns for tasks in a CWM Board
 description: Create custom fields in a Board so that you can organize all details of tasks at a single location. This improves task management and saves time by reducing dependency on system admin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/add-custom-columns-for-tasks-in-board.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/add-custom-columns-for-tasks-in-board.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,7 +18,7 @@ Create custom fields in a Board so that you can organize all details of tasks at
 
 ## Before you begin
 
-[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -26,7 +26,7 @@ You need to have either Editor or Owner access to the Space to add a custom colu
 
 ## About this task
 
-**Note:** This procedure provides general instructions involved in creating custom column types for CWM Boards. To learn how to create a Formula type column, see [Add a formula column in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md).
+**Note:** This procedure provides general instructions involved in creating custom column types for CWM Boards. To learn how to create a Formula type column, see [Add a formula column in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md).
 
 ## Procedure
 
@@ -52,5 +52,5 @@ The new column is added to the task and you can start entering the values for th
 
 If you have the Owner access for this Space, you can delete any custom columns based on your changing requirements.
 
-**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-boards.md)
 

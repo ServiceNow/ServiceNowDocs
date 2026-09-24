@@ -2,7 +2,7 @@
 title: Configure Lifecycle Events employee requests
 description: Enable your managers and employees to open employee requests directly from Lifecycle events so that they don't have to create a new HR case or request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/configure-employee-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/configure-employee-request.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -70,7 +70,7 @@ Category
 
 </td><td>
 
-Employee Requests category types.-   For the HR Service category type, see [HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-administration.md).
+Employee Requests category types.-   For the HR Service category type, see [HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-administration.md).
 -   For the Catalog Item category type, see [Service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_IntroductionToCatalogItems.md).
 
 
@@ -122,18 +122,18 @@ Audience
 
 </td><td>
 
-Specific groups of users that have access to the employee request. For more information about these groups, see [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md).
+Specific groups of users that have access to the employee request. For more information about these groups, see [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-audience.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Lifecycle Events employee requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/employee-requests.md)
+**Parent Topic:**[Lifecycle Events employee requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/employee-requests.md)
 
 **Related topics**  
 
 
-[Verify Lifecycle Events Employee requests configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/test-verify-employee-request.md)
+[Verify Lifecycle Events Employee requests configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/test-verify-employee-request.md)
 
-[Filter lifecycle event activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/filter-lifecycle-event-activities.md)
+[Filter lifecycle event activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/filter-lifecycle-event-activities.md)
 

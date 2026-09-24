@@ -2,7 +2,7 @@
 title: Categorize discovered software
 description: Group discovered installed software packages in your environment by business relevance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-categorize-discovered-software.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-categorize-discovered-software.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -194,5 +194,5 @@ When selected, activates the signature.
 
 The categorized software appears in the **Installed Software Catalogs** \(sn\_acc\_vis\_content\_sw\_install\_catalog\) table. Each entry in the table shows the software package, its assigned category, and the signature that matched. For each record, either the **Software package** or the **SAM discovery model** column is populated, depending on whether SAM is installed on the instance. Filter by category to see all the software in the group.
 
-**Parent Topic:**[Software packages categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-software-categorization.md)
+**Parent Topic:**[Software packages categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-software-categorization.md)
 

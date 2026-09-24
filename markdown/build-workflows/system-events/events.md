@@ -2,7 +2,7 @@
 title: System Events
 description: Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response to the conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/system-events/events.html
 release: australia
 product: System Events
 classification: system-events

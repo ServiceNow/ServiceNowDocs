@@ -2,7 +2,7 @@
 title: Install the Dispute Content Pack for US Regulations
 description: If you have the admin role, you can install the Dispute Content Pack for US Regulations application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/install-the-dispute-content-pack-for-us-regulations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/install-the-dispute-content-pack-for-us-regulations.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -41,5 +41,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.md)
+**Parent Topic:**[Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.md)
 

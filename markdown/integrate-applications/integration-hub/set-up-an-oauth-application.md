@@ -2,7 +2,7 @@
 title: Set up an OAuth application
 description: Set up an OAuth application on the Asana developer's console to generate the client ID and secret that you use to set up the Asana spoke connection record later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-an-oauth-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-an-oauth-application.html
 release: australia
 product: Integration Hub
 classification: integration-hub

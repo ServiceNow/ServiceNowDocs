@@ -2,7 +2,7 @@
 title: Add NLU to an existing keyword topic
 description: Create and map an NLU model group and intent for the topic from Assistant Designer Asset library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-nlu-existing-keyword-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/add-nlu-existing-keyword-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Create and map an NLU model group and intent for the topic from Assistant Design
 
 ## Before you begin
 
-[Configure NLU on the instance in Virtual Agent General Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
+[Configure NLU on the instance in Virtual Agent General Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -69,5 +69,5 @@ Role required: virtual\_agent\_admin or admin
 
 The modified topic is in the inactive state until you publish it.
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

@@ -2,7 +2,7 @@
 title: Enable role auditing with Contextual Security: Role Management V2
 description: Set a system property to enable the Audit Roles table to create audit records related to user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/enable-audit-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/enable-audit-roles.html
 release: australia
 product: Access Control
 classification: access-control

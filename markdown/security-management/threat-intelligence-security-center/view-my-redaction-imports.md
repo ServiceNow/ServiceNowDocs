@@ -2,7 +2,7 @@
 title: View my Redaction Imports
 description: Use this section to view import records created by the currently logged-in user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/view-my-redaction-imports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/view-my-redaction-imports.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -33,7 +33,7 @@ Role required: sn\_sec\_tisc.admin
 4.  View the summary of the import records that are imported by the logged in user.
 
 
-**Parent Topic:**[Viewing Redaction Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-radaction-imports.md)
+**Parent Topic:**[Viewing Redaction Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-radaction-imports.md)
 
 **Related topics**  
 

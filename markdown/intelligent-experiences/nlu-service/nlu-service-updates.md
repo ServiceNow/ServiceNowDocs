@@ -2,7 +2,7 @@
 title: NLU Service updates
 description: Refer to this documentation so you are up to date with changes to the NLU Service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-service-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/nlu-service-updates.html
 release: australia
 product: NLU Service
 classification: nlu-service

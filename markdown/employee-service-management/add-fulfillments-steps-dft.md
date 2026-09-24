@@ -2,7 +2,7 @@
 title: Add fulfillment instructions and checklist for a data source
 description: Add instructions for a data source that a task owner in a legal matter can follow to resolve the task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/add-fulfillments-steps-dft.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/add-fulfillments-steps-dft.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,5 +51,5 @@ Role required: sn\_lg\_forensics.forensics\_config or admin
 7.  Click **Update**.
 
 
-**Parent Topic:**[Configure a data source for digital forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-forensics-search-sources.md)
+**Parent Topic:**[Configure a data source for digital forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/configure-forensics-search-sources.md)
 

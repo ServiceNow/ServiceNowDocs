@@ -2,7 +2,7 @@
 title: Order decomposition
 description: Order decomposition is the process of breaking down an approved customer or service order into a set of smaller, manageable domain orders for fulfillment. This process is driven by definitions in the product catalog to ensure that all necessary components are provisioned correctly. Learn about the decomposition process for customer and service order and their differences.Order decomposition is the process of breaking down an approved customer or service order into a set of smaller, manageable domain orders for fulfillment. This process is driven by definitions in the product catalog to ensure that all necessary components are provisioned correctly. Learn about the decomposition process for customer and service order and their differences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/sales-crm-order-decomposition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/sales-crm-order-decomposition.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-09"

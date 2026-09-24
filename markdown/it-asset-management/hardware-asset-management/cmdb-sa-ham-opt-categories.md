@@ -2,7 +2,7 @@
 title: Managing opt-in and opt-out resource categories for HAM in CMDB success advisor
 description: You can opt in to Hardware Asset Management \(HAM\) license resource categories to make the corresponding model categories available for selection in CMDB success advisor for HAM.Select HAM resource categories to make their model categories available for configuration in CMDB success advisor.When a resource category is opted out in HAM, its model categories remain in CMDB success advisor until you manually remove them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-opt-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-opt-categories.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -19,7 +19,7 @@ You can opt in to Hardware Asset Management \(HAM\) license resource categories 
 
 Before you can set up or update the HAM advisor scope in CMDB success advisor, at least one HAM license resource category must be opted in. Resource categories define the hardware types, such as Servers, Storage, or Mobile Device, covered by your HAM subscription. Only model categories belonging to opted-in resource categories appear in the CMDB success advisor for HAM.
 
-The opted-in resource categories are set to `true` in the HAM Resource Category \[sn\_hamp\_resource\_category\] table. For more information, see [Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md).
+The opted-in resource categories are set to `true` in the HAM Resource Category \[sn\_hamp\_resource\_category\] table. For more information, see [Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md).
 
 ## Model category availability based on opt-in status
 
@@ -55,7 +55,7 @@ Role required: ham\_admin
 
 4.  Return to CMDB success advisor and proceed with selecting model categories.
 
-    For more information, see [Getting started with HAM advisor dashboard setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-get-started.md).
+    For more information, see [Getting started with HAM advisor dashboard setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-get-started.md).
 
 
 ## Remove opted-out HAM resource categories

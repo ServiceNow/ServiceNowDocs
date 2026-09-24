@@ -2,7 +2,7 @@
 title: Assign a proxy agent cluster to a policy
 description: Assign a proxy agent cluster to a policy when monitoring services external to the host server, such as URLs or external databases in the cloud. The agents in the cluster monitor all of the policy's CIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/assign-proxy-cluster-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/assign-proxy-cluster-policy.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,7 +18,7 @@ Assign a proxy agent cluster to a policy when monitoring services external to th
 
 ## Before you begin
 
-Ensure that you have a policy containing the checks that monitor external services. For details on these checks and policies, see [Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md).
+Ensure that you have a policy containing the checks that monitor external services. For details on these checks and policies, see [Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-policies-checks.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -59,7 +59,7 @@ Only one app should be run on a given proxy agent because running multiple apps 
 
         For example, if you have five agents in a cluster or five agents using the filter/script option and 10 matching CIs in the policy, each agent would monitor two CIs.
 
-        You can also enable load balancing at a later time, as described in [Enable load balancing between proxy agents in a cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/view-proxy-ci-distribution.md).
+        You can also enable load balancing at a later time, as described in [Enable load balancing between proxy agents in a cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/view-proxy-ci-distribution.md).
 
     -   To have each agent monitor all matching CIs, select the **Run checks on all proxy agents \(No load balancing\)** option.
 
@@ -72,13 +72,13 @@ Only one app should be run on a given proxy agent because running multiple apps 
 8.  Select **Activate**.
 
 
--   **[Enable load balancing between proxy agents in a cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/view-proxy-ci-distribution.md)**  
+-   **[Enable load balancing between proxy agents in a cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/view-proxy-ci-distribution.md)**  
 Enable load balancing between proxy agents in a cluster so that if an agent is not functioning properly, monitored CIs are redistributed to another agent. After enabling load balancing, you can view the CIs monitored by each proxy agent in a policy.
 
-**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/proxy-agent.md)
+**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/proxy-agent.md)
 
 **Related topics**  
 
 
-[Enable load balancing between proxy agents in a cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/view-proxy-ci-distribution.md)
+[Enable load balancing between proxy agents in a cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/view-proxy-ci-distribution.md)
 

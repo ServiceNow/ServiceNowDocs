@@ -2,12 +2,12 @@
 title: Use a flow or subflow in SAP \(Outbound\)
 description: A flow or subflow can be executed in SAP using the Workflow Studio. Follow these steps to run a flow or subflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/use-flow-or-subflow-sap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/use-flow-or-subflow-sap.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Use schedule flows, Use, Source-to-Pay integration with SAP, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -52,7 +52,7 @@ Role required:
     The flow or subflow gets executed.
 
 
-**Parent Topic:**[Use schedule flows in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/using-schedule-flows-sap.md)
+**Parent Topic:**[Use schedule flows in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/using-schedule-flows-sap.md)
 
 **Related topics**  
 

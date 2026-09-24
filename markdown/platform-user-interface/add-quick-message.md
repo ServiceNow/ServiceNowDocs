@@ -2,7 +2,7 @@
 title: Insert a quick message from the full email composer
 description: Insert predefined content into email messages from the full email composer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-quick-message.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/add-quick-message.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Client software distribution extension points
 description: The client software distribution \(CSD\) extension points create the customization code for the specific provider and the extension keys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_CSDExtensionPoints.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/r\_CSDExtensionPoints.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -43,7 +43,7 @@ The script must set the **csdExtensionResult** object with these attributes:
 -   **softwareModel**: Software model sys\_id.
 -   **deploymentType**: An integer. Use **1** for deployment to a user and **2** for deployment to a device.
 
-**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_CSDExtensionFramework.md)
+**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_CSDExtensionFramework.md)
 
 **Related topics**  
 

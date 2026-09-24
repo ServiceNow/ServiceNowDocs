@@ -2,7 +2,7 @@
 title: Citrix session pre-built topics for ITSM Virtual Agent
 description: Users can reset any Citrix desktop or application session using Virtual Agent conversation flows. Users can also provision a Citrix desktop or application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/manage-citrix-convo-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/manage-citrix-convo-flow.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -44,7 +44,7 @@ If the user does not have any sessions available to reset, Virtual Agent can ope
 
 \[Omitted image "ResetCitrix3.png"\] Alt text: Reset Citrix Sessions topic with new incident.
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

@@ -2,7 +2,7 @@
 title: Certification schedule form in Enterprise Architecture Workspace
 description: A system administrator with Enterprise Architecture \(formerly APM\) admin role can create and assign data certification tasks to the system owners for certifying business application data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-certification-schedule-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-certification-schedule-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -193,12 +193,12 @@ Detailed instruction to the application owner about the task.
 |Assignment group|Task can also be assigned to users of a group.|
 |Escalation|Defaults to Normal.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add or edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-cert-schedules.md)
+[Add or edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-cert-schedules.md)
 
-[Manage certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-config-cert-schedules.md)
+[Manage certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-config-cert-schedules.md)
 

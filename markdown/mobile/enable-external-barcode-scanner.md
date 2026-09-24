@@ -2,7 +2,7 @@
 title: Enable barcode scanning with an external scanner
 description: Set the externalScanEnabled mobile property to True to enable barcode scanning with an external scanner while the device camera is available in other parts of the mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/enable-external-barcode-scanner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/enable-external-barcode-scanner.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ Please refer to the user manual of your device to learn how to configure the tab
 -   For Zebra TC52X, TC78x, and MC 900 \(phone with built-in scanner\), see [DataWedge: Append Send Enter or Tab Key after Scanning](https://supportcommunity.zebra.com/s/article/DataWedge-for-Android-Send-Enter-or-Tab-after-scanning?language=en_US).
 -   For Honeywell CT40 \(phone with built-in scanner\), see [Article 000076406](https://sps-support.honeywell.com/s/article/How-to-add-remove-a-suffix-on-an-Android-device-running-CommonES-version-3-or-greater) in the Honeywell knowledge base.
 
-For more information, see [Mobile barcode scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-scanning.md).
+For more information, see [Mobile barcode scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-scanning.md).
 
 ## Procedure
 
@@ -81,7 +81,7 @@ Application scope where the mobile property is applied.
 
  To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe icon image\) on the instance banner. Then select **Application scope : _application\_scope_**.
 
- For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
+ For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -171,5 +171,5 @@ Mobile application to which you want to send the mobile property. This setting l
 
 After updating this property, the end-user must pull to refresh and get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md)
 

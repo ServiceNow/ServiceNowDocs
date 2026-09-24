@@ -2,7 +2,7 @@
 title: Horizontal bar visualization example
 description: Horizontal bar visualizations enable you to show the comparative size or frequency of different categories or groups, such as incident priority or sales group. You can also add a group by or stack by to a bar visualization, such as the assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-h-bar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-example-h-bar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-24"
@@ -16,7 +16,7 @@ Horizontal bar visualizations enable you to show the comparative size or frequen
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -24,7 +24,7 @@ Use the horizontal bar visualization type to compare different categories or gro
 
 ## Procedure
 
-1.  Follow the first steps to [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-bar-ac.md):
+1.  Follow the first steps to [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-bar-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -183,5 +183,5 @@ Use the horizontal bar visualization type to compare different categories or gro
 
 You have created a horizontal bar visualization grouped on two fields. You have also configured the visualization's labeling, legend and ranges.
 
-**Parent Topic:**[Bar visualization examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-example-bar.md)
+**Parent Topic:**[Bar visualization examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-example-bar.md)
 

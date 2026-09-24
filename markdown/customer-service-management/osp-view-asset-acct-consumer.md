@@ -2,7 +2,7 @@
 title: View account or consumer assets
 description: An OSP agent can view the assets owned by an account or consumer which helps in creating or fulfilling a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-view-asset-acct-consumer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/osp-view-asset-acct-consumer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

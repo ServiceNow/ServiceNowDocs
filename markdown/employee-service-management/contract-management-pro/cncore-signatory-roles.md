@@ -2,7 +2,7 @@
 title: Signatory roles
 description: Signatory roles define how each participant interacts with a contract document during the signature workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-signatory-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-signatory-roles.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -74,14 +74,14 @@ Enable signatory roles for DocuSign
 
 </td><td>
 
-Controls the visibility of the **Role** field in internal signatory rules, and the **Signatory Role** field in the Employee Center portal and Contract Workspace.To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md).
+Controls the visibility of the **Role** field in internal signatory rules, and the **Signatory Role** field in the Employee Center portal and Contract Workspace.To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md).
 
 </td><td>
 
 `false`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

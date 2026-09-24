@@ -2,7 +2,7 @@
 title: Education and Training form
 description: Access, update and validate the Education and training details of a healthcare professional in the Education and training form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-healthcare/hr-edu-tra.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery-for-healthcare/hr-edu-tra.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -156,7 +156,7 @@ Institution zip/postal code
 Postal code of area in which the educational institute is located.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
+</table>**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
 
 **Related topics**  
 

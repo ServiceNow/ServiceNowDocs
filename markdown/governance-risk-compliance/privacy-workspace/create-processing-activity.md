@@ -2,7 +2,7 @@
 title: Create or update a processing activity
 description: Manually create a processing activity or update a processing activity that is automatically created out of a privacy screening assessment. You can also update a processing activity that is created from an entity record. When you update a processing activity, you can fill in the relevant details about the personal data that is being processed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-processing-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/create-processing-activity.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -25,7 +25,7 @@ Role required: sn\_privacy.analyst \(who owns the processing activity\) or sn\_p
 You can create a processing activity in two ways:
 
 -   Manually create a processing activity for a business application or process that handles personal data.
--   Update a processing activity that was automatically created when a privacy screening assessment determined that personal data is being processed. Screening assessments include automation rules that create processing activities based on specific responses. To configure automation in your assessment template, refer to [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
+-   Update a processing activity that was automatically created when a privacy screening assessment determined that personal data is being processed. Screening assessments include automation rules that create processing activities based on specific responses. To configure automation in your assessment template, refer to [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
 
 ## Procedure
 
@@ -289,7 +289,7 @@ Internal notes not visible to the external people.
 
 ## What to do next
 
-Send a privacy assessment to a processing activity owner to collect more information on why and how the processing activity is using personal information. For more information, see [Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md).
+Send a privacy assessment to a processing activity owner to collect more information on why and how the processing activity is using personal information. For more information, see [Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md).
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

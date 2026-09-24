@@ -2,7 +2,7 @@
 title: Create a data interface using UNION
 description: Create a governed data interface that consolidates rows from two or more source tables with compatible schemas using UNION. Publish it to the Data Catalog so consumers can access an aggregated view through a stable schema.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-data-interface-union-wdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-data-interface-union-wdf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-26"
@@ -20,7 +20,7 @@ Before you begin, verify the following:
 
 -   All source tables are discoverable in the Data Catalog.
 -   The source tables have compatible schemas. Columns that you map to the same target column must have compatible data types.
--   For tables in external systems, a zero copy connector for each system is configured in Connect Hub. For setup instructions, see the [Zero copy connectors documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md).
+-   For tables in external systems, a zero copy connector for each system is configured in Connect Hub. For setup instructions, see the [Zero copy connectors documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/zero-copy-connectors.md).
 -   Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df\_data\_steward, and delegatedadmin \(scope admin\)
 
 ## Procedure
@@ -100,7 +100,7 @@ The data interface is published and visible in Data Workbench. After the metadat
 
 ## What to do next
 
-To package this data interface into a data product, see [Create a data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-data-product-wdf.md).
+To package this data interface into a data product, see [Create a data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-data-product-wdf.md).
 
-**Parent Topic:**[Managing data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-interfaces_wdf.md)
+**Parent Topic:**[Managing data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-data-interfaces_wdf.md)
 

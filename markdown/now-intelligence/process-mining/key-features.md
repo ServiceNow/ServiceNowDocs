@@ -2,7 +2,7 @@
 title: Key features of Process Mining
 description: Some key features of Process Mining are listed in this topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/key-features.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/key-features.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -26,45 +26,45 @@ Some key features of Process Mining are listed in this topic.
 
 -   **Summary and insights page**
 
-    Quickly understand process performance. From the Summary and insights page, view key performance indicators, improvement opportunities overview, and list of improvement opportunities. For more information, see [Summary and insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/summary-insights-dashboard.md).
+    Quickly understand process performance. From the Summary and insights page, view key performance indicators, improvement opportunities overview, and list of improvement opportunities. For more information, see [Summary and insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/summary-insights-dashboard.md).
 
 -   **Analyst workbench page**
 
-    Analyze business workflows visually with the interactive process map, explorative filter panel, and prebuilt performance metrics. You can see process variation, breakdowns, bottleneck analysis, and ML and smart rule-based insights. Also, all duplicate audits are removed, and that removes all self-loops in the graph. For more information, see [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md).
+    Analyze business workflows visually with the interactive process map, explorative filter panel, and prebuilt performance metrics. You can see process variation, breakdowns, bottleneck analysis, and ML and smart rule-based insights. Also, all duplicate audits are removed, and that removes all self-loops in the graph. For more information, see [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/analyst-workbench-dashboard.md).
 
 -   **Easy collaboration and sharing**
 
-    Share projects with stakeholders and collaborate with notes and screenshots within a project. For more information on sharing projects, see [Share a Process Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/share-project.md). For more information on creating notes, see [Adding notes to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/annotate-project.md).
+    Share projects with stakeholders and collaborate with notes and screenshots within a project. For more information on sharing projects, see [Share a Process Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/share-project.md). For more information on creating notes, see [Adding notes to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/annotate-project.md).
 
 -   **Integrated continual optimization**
 
-    Create and view statuses of improvement initiatives. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-with-continuous-i.md).
+    Create and view statuses of improvement initiatives. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integrate-with-continuous-i.md).
 
 -   **Integration with Performance Analytics and Benchmarks**
-    -   Analyze low-performing [indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) for root cause analysis with Performance Analytics integration. For more information, see [Integration with indicator data sources \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-pa.md).
-    -   Use best practice-based implementation. Predefined ITSM Process Mining projects and improvement initiatives provide you with faster time to value. For more information, see [Content pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/itsm-proc-opti-content-pack.md).
+    -   Analyze low-performing [indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) for root cause analysis with Performance Analytics integration. For more information, see [Integration with indicator data sources \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integrate-pa.md).
+    -   Use best practice-based implementation. Predefined ITSM Process Mining projects and improvement initiatives provide you with faster time to value. For more information, see [Content pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/itsm-proc-opti-content-pack.md).
 -   **Compare processes**
 
-    Compare processes to investigate performance differences or deviations. For more information, see [Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/comparing-models.md).
+    Compare processes to investigate performance differences or deviations. For more information, see [Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/comparing-models.md).
 
 -   **Multi-dimensional processes**
 
-    Multi-dimensional processes refer to mining a hierarchy of tables. It’s a multi-table mining. It’s used for a more comprehensive view into process dependencies. For more information, [Configure multi-dimensional mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/configure-multidimensional-mining.md).
+    Multi-dimensional processes refer to mining a hierarchy of tables. It’s a multi-table mining. It’s used for a more comprehensive view into process dependencies. For more information, [Configure multi-dimensional mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/configure-multidimensional-mining.md).
 
 -   **Bottleneck analysis**
 
-    View activity transitions you’ve defined with the bottleneck analysis feature. For more information, see [Viewing business insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/view-business-findings.md).
+    View activity transitions you’ve defined with the bottleneck analysis feature. For more information, see [Viewing business insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/view-business-findings.md).
 
 -   **Analyze processes using ML-based clustering**
 
-    Group similar records into machine learning pattern-identified clusters. For more information, see [Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md).
+    Group similar records into machine learning pattern-identified clusters. For more information, see [Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/cluster-analysis.md).
 
 -   **Quickly analyze the processes behind performance indicators and record lists**
 
     Easy-to-see process behind scenarios such as bad service level agreements or CSAT scores. Run the analysis from any platform list or report.
 
 
-**Parent Topic:**[Exploring Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/explore-process-mining.md)
+**Parent Topic:**[Exploring Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/explore-process-mining.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Workforce Optimization for Customer Service
 description: Manage and maintain the productivity of your workforce from a single application using Workforce Optimization for Customer Service. With this application, you can efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configurable-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

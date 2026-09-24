@@ -2,7 +2,7 @@
 title: Pushing events to the MID Server using web service API
 description: Configure the MID WebService Event Collector to provide a URL method to push event messages to the MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/event-collection-via-MID-using-push.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/event-collection-via-MID-using-push.html
 release: australia
 product: Event Management
 classification: event-management
@@ -20,9 +20,9 @@ The MID WebService Event Collector, by default, enables you to connect to an eve
 
 The JSON v2 format is the same as the format that clients use to send event messages to the instance. This URL provides good performance.
 
-For more information, see [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-em-context-extension.md).
+For more information, see [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-em-context-extension.md).
 
-**Note:** Event Management accepts events in the timezone of the MID Server through which the listener has sent the event message. If you require a different timezone, you can configure the script as required, see [Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md).
+**Note:** Event Management accepts events in the timezone of the MID Server through which the listener has sent the event message. If you require a different timezone, you can configure the script as required, see [Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-listener-transform-script.md).
 
 ## URL to push custom payloads
 
@@ -30,7 +30,7 @@ The MID Server can also receive a custom payload in JSON, XML, or plain text for
 
 `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/em/inbound_event?Transform={Transform_script_name}` For an example of a script include, see the default `TransformEvents_xmlSample` script include.
 
-For an example of how the MID WebService Event Collector transforms JSON formatted event messages, see [Event collection from BMC TrueSight and BMC TrueSight\_v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-BMCTrueSight.md).
+For an example of how the MID WebService Event Collector transforms JSON formatted event messages, see [Event collection from BMC TrueSight and BMC TrueSight\_v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-collection-BMCTrueSight.md).
 
 To send events in generic JSON format, you can use the URL in this format:
 
@@ -69,10 +69,10 @@ Options for authentication and data security:
 -   **Use MID Unified Keystore**, which provides encryption protection and enables you to install a custom certificate in the MID Server unified keystore. For details, see [Install custom certificates in the MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-unified-keystore.md).
 -   Users must supply a script that receives the JSON, XML, or text formatted event messages in a text variable. The script must have a transform\(\) function that performs the transformation and prepares the return array of event objects. The `TransformEvents_xmlSample` include script that transforms events from XML format is provided as an example when the Event Management plugin is activated.
 
-For more information about authentication and data security, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
+For more information about authentication and data security, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 **Related topics**  
 
 
-[Pushing events to the instance using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/send-events-via-web-service.md)
+[Pushing events to the instance using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/send-events-via-web-service.md)
 

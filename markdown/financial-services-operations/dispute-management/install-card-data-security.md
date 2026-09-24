@@ -2,7 +2,7 @@
 title: Install Card Data Security
 description: If you have the admin role, you can install the Card Data Security application \(sn\_data\_sec\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/install-card-data-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/install-card-data-security.html
 release: australia
 product: Dispute Management
 classification: dispute-management

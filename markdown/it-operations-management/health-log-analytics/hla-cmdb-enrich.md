@@ -2,7 +2,7 @@
 title: Add log-based CIs to the CMDB in Health Log Analytics
 description: Keep the Configuration Management Database \(CMDB\) updated with host data Health Log Analytics discovered in your logs by adding log-based configuration items \(CIs\) to the database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-cmdb-enrich.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-cmdb-enrich.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -44,7 +44,7 @@ Procedure
 
 1.  Select a CI candidate record and review the information on the form.
 
-For field descriptions, see [Log-based CI candidates fields in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-cmdb-enrich-fields.md).
+For field descriptions, see [Log-based CI candidates fields in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-cmdb-enrich-fields.md).
 
 2.  Add the CI candidate to the CMDB or delete it.
     -   If the CI candidate is appropriate, either add it to the CMDB as is or include more information in it before adding it to the CMDB.
@@ -77,5 +77,5 @@ The selected CIs are added to the CMDB. The CI candidate records are automatical
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Enhancing the CMDB with host data Health Log Analytics found in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-cmdb-enrich-concept.md)
+**Parent Topic:**[Enhancing the CMDB with host data Health Log Analytics found in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-cmdb-enrich-concept.md)
 

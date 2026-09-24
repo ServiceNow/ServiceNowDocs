@@ -2,7 +2,7 @@
 title: Column Level Encryption for email attachments
 description: Secure attachments in inbound and outbound emails using Column Level Encryption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/cle-for-email-attachments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/cle-for-email-attachments.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

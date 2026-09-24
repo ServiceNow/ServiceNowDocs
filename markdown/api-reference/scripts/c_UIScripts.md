@@ -2,7 +2,7 @@
 title: UI scripts
 description: UI scripts provide a way to package client-side JavaScript into a reusable form, similar to how script includes store server-side JavaScript. Administrators can create UI scripts and run them from client scripts and other client-side script objects and from HTML code.You can create a UI script and designate it as global, which makes the script available on any form in the system. You cannot create a global UI script in a scoped application.Create a UI script to define reusable client-side JavaScript code.Follow these guidelines when running UI scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_UIScripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_UIScripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -18,7 +18,7 @@ UI scripts provide a way to package client-side JavaScript into a reusable form,
 
 **Note:** UI scripts aren't supported on mobile or Next Experience.
 
-**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-side-scripting-overview.md)
+**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
 
 ## Global UI scripts
 
@@ -116,7 +116,7 @@ Follow these guidelines when running UI scripts.
 
 ### Run a UI script from a form
 
-To run a UI script on a form, [Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md). In the associated [UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md), include a `g:requires` tag and specify the **name=** parameter as the name of the UI script followed by the .jsdbx extension. Add the formatter on the form view.
+To run a UI script on a form, [Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md). In the associated [UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_UIMacros.md), include a `g:requires` tag and specify the **name=** parameter as the name of the UI script followed by the .jsdbx extension. Add the formatter on the form view.
 
 This code ensures that the definitions and results of the UI script are immediately available in the browser.
 
@@ -144,7 +144,7 @@ To run a UI script from HTML code, use the `<script>` tag and specify the `src=`
 
 ### Call a UI script from client-side code
 
-Access UI scripts from within client-side code using the g\_ui\_scripts global object. For more information, see [GlideUIScripts - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GUIScriptsAPI.md).
+Access UI scripts from within client-side code using the g\_ui\_scripts global object. For more information, see [GlideUIScripts - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/GUIScriptsAPI.md).
 
 **Note:** This class does not support UI scripts with the **Global** field set to true.
 

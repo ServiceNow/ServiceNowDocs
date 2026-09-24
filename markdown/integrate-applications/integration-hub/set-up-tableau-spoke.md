@@ -2,7 +2,7 @@
 title: Set up the Tableau spoke
 description: Integrate your ServiceNow instance and Tableau Cloud to automate flows and perform actions on the Tableau Cloud application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-tableau-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-tableau-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -75,5 +75,5 @@ Integrate your ServiceNow instance and Tableau Cloud to automate flows and perfo
 
 ## What to do next
 
-[Create a connection and credential for the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-cred-tableau.md)
+[Create a connection and credential for the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/create-cred-tableau.md)
 

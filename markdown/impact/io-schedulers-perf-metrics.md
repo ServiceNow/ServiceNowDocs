@@ -2,7 +2,7 @@
 title: Scheduler performance metrics
 description: The metrics provide the Schedulers performance snapshot within the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-schedulers-perf-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-schedulers-perf-metrics.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-20"
@@ -46,7 +46,7 @@ If multiple nodes see similar issues it may indicate either all nodes are having
 -   Check scheduled jobs executing on application nodes to determine type or source.
 -   Address performance or scheduling of jobs as necessary to prevent them overloading worker threads.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

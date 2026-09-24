@@ -2,7 +2,7 @@
 title: Carbon Black - Incident Enrichment integration
 description: Use the Carbon Black integration to investigate and respond to security incidents using APIs to query and interact with endpoints associated with security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/carbon-blk-inc-enrich-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/carbon-blk-inc-enrich-landing-page.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -18,14 +18,14 @@ Use the Carbon Black integration to investigate and respond to security incident
 
 ## Find Carbon Black- Incident Enrichment integration resources
 
--   [Get started with the Carbon Black - Incident Enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-configure-carbonblack-inc-enrich.md)
--   [Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-cb-get-running-processes-workflow.md)
--   [Security Operations Carbon Black Integration - Isolate Host Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-cb-isolate-host-workflow.md)
--   [Security Operations Carbon Black Integration- Remove Host Isolation Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-cb-remove-host-isolation-workflow.md)
+-   [Get started with the Carbon Black - Incident Enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/activate-configure-carbonblack-inc-enrich.md)
+-   [Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-cb-get-running-processes-workflow.md)
+-   [Security Operations Carbon Black Integration - Isolate Host Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-cb-isolate-host-workflow.md)
+-   [Security Operations Carbon Black Integration- Remove Host Isolation Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-cb-remove-host-isolation-workflow.md)
 
 ## Understand integration concepts
 
-[Types of ServiceNow integrations provided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_TypesOfIntegrationsProv.md)
+[Types of ServiceNow integrations provided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_TypesOfIntegrationsProv.md)
 
 ## Get help from ServiceNow resources
 

@@ -2,7 +2,7 @@
 title: Change the field label or hint
 description: You can change a field's label or the text that appears as a hint when you point your mouse device to the field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ChangeFieldLabelOrHint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ChangeFieldLabelOrHint.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -104,7 +104,7 @@ This field should be left empty, as it’s no longer used.
 </table>4.  Select **Update**.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/customize-fields-now-platform-landing.md)
 
 **Related topics**  
 

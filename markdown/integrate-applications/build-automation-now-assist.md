@@ -2,7 +2,7 @@
 title: Build an automation with AI
 description: Enhance the automation logic with AI text instructions, either in an empty activity or by selecting a component in an existing one by using the ServiceNow Otto for RPA Hub application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/build-automation-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/build-automation-now-assist.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -17,17 +17,17 @@ Enhance the automation logic with AI text instructions, either in an empty activ
 
 ## Before you begin
 
-Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-studio.md).
+Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/set-up-rpa-studio.md).
 
 To access the AI features in RPA Desktop Design Studio, perform the following steps:
 
--   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md).
--   Turn on the RPA bot generation skill to use the generative AI capability. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/turn-rpa-bot-generation-skill.md).
+-   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-now-assist-rpa-hub.md).
+-   Turn on the RPA bot generation skill to use the generative AI capability. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/turn-rpa-bot-generation-skill.md).
 -   After activating the RPA bot generation skill, relaunch the RPA Desktop Design Studio application to apply the modified settings.
 
 If you skip these steps, the ServiceNow Otto for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
 
-Familiarize yourself with the RPA bot generation skill concepts. For more information, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md), [Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/limitations-rpa-bot-gen-skill.md), and [Example instructions for ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/example-instructions-rpa.md).
+Familiarize yourself with the RPA bot generation skill concepts. For more information, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-bot-generation.md), [Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/limitations-rpa-bot-gen-skill.md), and [Example instructions for ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/example-instructions-rpa.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer or sn\_rpa\_fdn.rpa\_admin
 
@@ -43,15 +43,15 @@ If there are multiple control output ports for a component, the generated automa
 
 1.  In the RPA Desktop Design Studio, extend the automation logic with in-line prompting from the component level or from the design surface.
 
-<table id="choicetable_lsf_npv_ydc"><thead><tr><th align="left" id="d638507e201">
+<table id="choicetable_lsf_npv_ydc"><thead><tr><th align="left" id="d637243e201">
 
 Option
 
-</th><th align="left" id="d638507e204">
+</th><th align="left" id="d637243e204">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d638507e210">
+</th></tr></thead><tbody><tr><td id="d637243e210">
 
 **From component level**
 
@@ -66,7 +66,7 @@ You can also use the keyboard shortcut Ctrl+Enter to open the in-line prompting 
 
  If you access in-line prompting from the component level, the automation workflow is generated to the default control output port of the component.
 
-</td></tr><tr><td id="d638507e259">
+</td></tr><tr><td id="d637243e259">
 
 **From design surface**
 
@@ -91,19 +91,19 @@ If you access in-line prompting from the design surface, the generated automatio
 
     **Note:**
 
-    For more information on example AI instructions and general guidelines, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md). For more information about the limitations of the RPA bot generation skill, see [Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/limitations-rpa-bot-gen-skill.md).
+    For more information on example AI instructions and general guidelines, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-bot-generation.md). For more information about the limitations of the RPA bot generation skill, see [Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/limitations-rpa-bot-gen-skill.md).
 
 3.  In the Build with AI window, close the window, cancel the workflow generation, reject an automation, or accept the automation preview.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d638507e364">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d637243e364">
 
 Option
 
-</th><th align="left" id="d638507e367">
+</th><th align="left" id="d637243e367">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d638507e373">
+</th></tr></thead><tbody><tr><td id="d637243e373">
 
 **Close**
 
@@ -111,7 +111,7 @@ Procedure
 
 If you want to close the Build with AI window, select the close icon \[Omitted image "close-now-assist-rpa-icon.png"\] Alt text:, and then select **Close AI** in the confirmation window.The generated automation workflow is discarded.
 
-</td></tr><tr><td id="d638507e392">
+</td></tr><tr><td id="d637243e392">
 
 **Stop generating**
 
@@ -119,7 +119,7 @@ If you want to close the Build with AI window, select the close icon \[Omitted i
 
 If you want to cancel the workflow generation or update the instruction, select **Stop generating**. You can update the AI instructions and select the enter icon \[Omitted image "enter-inline-prompt-icon.png"\] Alt text:.
 
-</td></tr><tr><td id="d638507e409">
+</td></tr><tr><td id="d637243e409">
 
 **Reject**
 
@@ -127,7 +127,7 @@ If you want to cancel the workflow generation or update the instruction, select 
 
 If you aren’t satisfied with the automation preview, select **Reject**. Each time you build or rebuild an automation, the operation counts as an assist tracked by your AI subscription. To track your AI usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-</td></tr><tr><td id="d638507e425">
+</td></tr><tr><td id="d637243e425">
 
 **Accept**
 
@@ -147,5 +147,5 @@ The automation workflow that is generated by AI is displayed on the design surfa
 
 \[Omitted image "inline-prompt-accepted-screen.png"\] Alt text: Design surface displays the automation workflow that is generated by AI.
 
-**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-build.md)
 

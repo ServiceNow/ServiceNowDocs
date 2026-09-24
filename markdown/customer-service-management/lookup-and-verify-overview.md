@@ -2,7 +2,7 @@
 title: Lookup and verify
 description: The lookup and verify feature enables customer service agents to quickly look up contacts or consumers using information such as the name, phone number, or record number.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/lookup-and-verify-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/lookup-and-verify-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ The lookup and verify feature uses the following tables:
 **Related topics**  
 
 
-[Look up and verify a contact or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-verify-contact-consumer.md)
+[Look up and verify a contact or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/lookup-verify-contact-consumer.md)
 

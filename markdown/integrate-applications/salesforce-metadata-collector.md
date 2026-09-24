@@ -2,7 +2,7 @@
 title: Salesforce metadata collector
 description: Salesforce metadata collector provides read-only access to metadata from a Salesforce instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/salesforce-metadata-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/salesforce-metadata-collector.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-28"
@@ -73,10 +73,10 @@ The following lineage information is collected by the Salesforce collector:
 
 The collector uses username and password authentication to connect to Salesforce via [connected applications](https://docs.data.world/en/197977-preparing-to-run-the-salesforce-collector.html#UUID-d6750602-acdf-aa41-e87d-17b7fe18833a_section-idm234447327721945).
 
--   **[Prepare to run the Salesforce collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-the-salesforce-collector.md)**  
+-   **[Prepare to run the Salesforce collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-the-salesforce-collector.md)**  
 Set up access for cataloging Salesforce resources by configuring user credentials, security tokens, and connected applications.
--   **[Create a Salesforce metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-salesforce-metadata-collector.md)**  
+-   **[Create a Salesforce metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-salesforce-metadata-collector.md)**  
 Create a collector to import metadata from Salesforce.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-metadata-collectors-dc.md)
 

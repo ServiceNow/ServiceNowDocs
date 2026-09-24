@@ -2,7 +2,7 @@
 title: Revert record page templates to the pre-17.x version
 description: If you’re an existing customer and have a customized record page, you can revert to that old page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/revert-to-previous-record-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/revert-to-previous-record-page.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -41,5 +41,5 @@ Role required: workspace\_admin
     If you give a high-order value, you revert to the old record page. If you want to switch to the new record page, set to low-order value.
 
 
-**Parent Topic:**[Configure workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-workspace-page.md)
+**Parent Topic:**[Configure workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-workspace-page.md)
 

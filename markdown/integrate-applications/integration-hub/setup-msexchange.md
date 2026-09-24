@@ -2,7 +2,7 @@
 title: Set up the Microsoft Exchange Server spoke
 description: Connect your ServiceNow instance with the Microsoft Exchange Server by setting up the connection and credential records for both the Microsoft Exchange Server that are provided when you install Integration Hub on your instance.Configure a connection for the Exchange alias to establish a connection between the ServiceNow instance and the Microsoft Exchange Server host.Configure a connection for the Exchange\_https alias to establish a connection between the ServiceNow instance and the Microsoft Exchange Server host.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-msexchange.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-msexchange.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -26,8 +26,8 @@ Connect your ServiceNow instance with the Microsoft Exchange Server by setting u
 
 The Microsoft Exchange Server spoke provides two aliases: Exchange and Exchange\_https and their respective configuration templates as out of the box components when you install the Microsoft Exchange Server . These out of the box components enable you to easily set up the connection and credential records for both the aliases by just providing the connection and credential information. The out of the box components are already configured for you. To learn how to create the connections and credential records, see:
 
--   [Configure a connection for the Exchange alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msexchange.md)
--   [Configure a connection for the Exchange\_https alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msexchange.md)
+-   [Configure a connection for the Exchange alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-msexchange.md)
+-   [Configure a connection for the Exchange\_https alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-msexchange.md)
 
 You can perform all spoke actions except the Create Calendar Event For User and Lookup Room Availability actions. The Create Calendar Event For User and Lookup Room Availability actions are supported only on Exchange Server 2013.
 
@@ -65,7 +65,7 @@ Role required: admin.
 
         \[Omitted image "exchange-server-conn1.png"\] Alt text: Configure the default connection.
 
-    -   To manage more than one Microsoft Exchange Server spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Microsoft Exchange Server spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "configure-button-exchange-alias.png"\] Alt text: Configure button for Exchange alias.
@@ -150,7 +150,7 @@ Role required: admin.
 
         \[Omitted image "exchange-server-https-conn1.png"\] Alt text: Configure the default connection record.
 
-    -   To manage more than one Microsoft Exchange Server spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Microsoft Exchange Server spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "set-exchange-https-alias-conn-record.png"\] Alt text: Configure button for Exchange\_https connection record alias.

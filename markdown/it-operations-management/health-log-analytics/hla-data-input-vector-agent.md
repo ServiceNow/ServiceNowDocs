@@ -2,7 +2,7 @@
 title: Configure a Vector Agent data input in Health Log Analytics manually
 description: Set up a Vector Agent data input to enable Health Log Analytics to process log messages that are streaming into your ServiceNow instance via a Vector Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-vector-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-vector-agent.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -45,7 +45,7 @@ If your organization uses Vector by Datadog to handle log data from multiple sou
 
 4.  On the **Getting Started** tab, fill in the form and then select **Next**.
 
-    For a detailed description of the fields, see [Vector Agent data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-vector-agent-ref.md).
+    For a detailed description of the fields, see [Vector Agent data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-vector-agent-ref.md).
 
 5.  On the **vector.yaml** tab, update the code with the relevant values as needed.
 
@@ -78,7 +78,7 @@ Health Log Analytics adds the data input record to the **Data Inputs** table. Th
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
+[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

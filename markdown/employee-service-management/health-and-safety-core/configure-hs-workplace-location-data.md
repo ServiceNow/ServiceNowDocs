@@ -2,7 +2,7 @@
 title: Workplace location data
 description: In the Workplace Core application, set up data related to your workplace locations so you can select a location in your safety records, for example, your safety incidents and observations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/configure-hs-workplace-location-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/configure-hs-workplace-location-data.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -24,14 +24,14 @@ Role required: sn\_wsd\_core.admin
 
 1.  Configure the workplace locations.
 
-    For more information on what you can configure, see [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
+    For more information on what you can configure, see [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 
 
 ## Result
 
 The **Location** field on safety forms, for example, incidents and observations, shows the configured workplace locations.
 
-**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 

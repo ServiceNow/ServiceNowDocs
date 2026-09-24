@@ -2,7 +2,7 @@
 title: Install Workplace Services
 description: Install Workplace Services to configure its settings and requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/install-workplace-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/install-workplace-services.html
 release: australia
 topic_type: task
 last_updated: "2026-04-02"
@@ -34,17 +34,17 @@ Role required: admin
 
 5.  Select **Apply default configurations**.
 
-    Applying default configurations sets the required default settings for the Workplace Services. For information about default configurations, see [Workplace Services default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/workplace-default-configurations.md).
+    Applying default configurations sets the required default settings for the Workplace Services. For information about default configurations, see [Workplace Services default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/workplace-default-configurations.md).
 
-    If the default configurations aren’t applied, run the script to apply them. For more information, see [Reapply the default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/reset-default-configurations.md).
+    If the default configurations aren’t applied, run the script to apply them. For more information, see [Reapply the default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/reset-default-configurations.md).
 
 
 ## Result
 
 The installed Workplace Services business unit appears in the ready to configure section.
 
--   **[Workplace Services default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/workplace-default-configurations.md)**  
+-   **[Workplace Services default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/workplace-default-configurations.md)**  
 Details of the default configurations for Workplace Services.
 
-**Parent Topic:**[Install Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/install-cbs-apps.md)
+**Parent Topic:**[Install Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/install-cbs-apps.md)
 

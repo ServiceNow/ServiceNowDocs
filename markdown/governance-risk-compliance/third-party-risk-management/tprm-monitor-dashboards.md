@@ -2,7 +2,7 @@
 title: Monitoring assessment data using TPRM dashboards
 description: You can monitor and analyze assessment data at various levels in the Third-party Risk Management application using the Third-party insights dashboard and TPRM custom analytics dashboard. These dashboards provide you and your team with tailored insights and deliver relevant information at a glance, improving your decision-making process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-monitor-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-monitor-dashboards.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -61,7 +61,7 @@ Third-party assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_review
 View assigned questionnaire responses in the Third-party Insights and TPRM Custom Analytics dashboard.
 
 </td></tr></tbody>
-</table>**Note:** All roles can create and customize personal dashboards, add data visualizations, and share their dashboards with others as viewers or editors. If you have the admin role, you must be in the same application scope as the dashboard and then you can delete any dashboard. For more information, see [Delete a TPRM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-delete-db.md).
+</table>**Note:** All roles can create and customize personal dashboards, add data visualizations, and share their dashboards with others as viewers or editors. If you have the admin role, you must be in the same application scope as the dashboard and then you can delete any dashboard. For more information, see [Delete a TPRM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-delete-db.md).
 
 ## Third-party insights dashboard
 
@@ -77,13 +77,13 @@ This dashboard is pre-configured with a default list showing all active question
 
 To learn more about creating and using TPRM dashboards, see:
 
--   [Create a TPRM dashboard with the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-db.md)
--   [Edit TPRM dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/edit-tprm-db-details.md)
--   [Edit TPRM dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/edit-tprm-db.md)
--   [Edit TPRM dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-edit-db-elements.md)
--   [Share a TPRM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-share-db.md)
--   [Delete a TPRM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-delete-db.md)
--   [TPRM Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-dashboards.md)
+-   [Create a TPRM dashboard with the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-db.md)
+-   [Edit TPRM dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/edit-tprm-db-details.md)
+-   [Edit TPRM dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/edit-tprm-db.md)
+-   [Edit TPRM dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-edit-db-elements.md)
+-   [Share a TPRM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-share-db.md)
+-   [Delete a TPRM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-delete-db.md)
+-   [TPRM Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-dashboards.md)
 
 For more information on dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
 

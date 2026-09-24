@@ -2,7 +2,7 @@
 title: Configure search for places in crisis map
 description: Set the system property to manage searching places on the crisis map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-place-api-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/crisis-map-place-api-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

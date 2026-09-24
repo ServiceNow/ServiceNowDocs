@@ -2,7 +2,7 @@
 title: Sourcing and Procurement Operations
 description: ServiceNow Sourcing and Procurement Operations \(SPO\) is an AI-assisted procurement tool. Employees can use it to shop for the goods and services they need at work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -26,27 +26,27 @@ Provide a seamless procurement experience with:
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[ServiceNow Otto for SPO\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn more about ServiceNow Otto for SPO.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+[ServiceNow Otto for SPO\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn more about ServiceNow Otto for SPO.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 
 </td><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how SPO can help you with its key features and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how SPO can help you with its key features and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure SPO to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure SPO to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 </td></tr><tr><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend SPO capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend SPO capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: See how employees can use SPO to self-service requests, and source or purchase products and services. Also learn how procurement specialists can use SPO to work on various procurement objects.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: See how employees can use SPO to self-service requests, and source or purchase products and services. Also learn how procurement specialists can use SPO to work on various procurement objects.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get additional information about SPO, including lists, forms, rules, components, parameters, roles, and personas.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get additional information about SPO, including lists, forms, rules, components, parameters, roles, and personas.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
 
 </td></tr></tbody>
 </table>## Helpful resources

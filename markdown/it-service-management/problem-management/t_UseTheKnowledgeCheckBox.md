@@ -2,7 +2,7 @@
 title: Use the knowledge check box
 description: As with incidents, problems often generate information that may be needed in the future. The system can automatically submit a knowledge article when a problem is closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/t\_UseTheKnowledgeCheckBox.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/t\_UseTheKnowledgeCheckBox.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -22,7 +22,7 @@ Role required: itil
 
 ## About this task
 
-**Note:** If you have Problem Management Best Practice — Madrid — Knowledge Integration plugin \(com.snc.best\_practice.problem.madrid.knowledge\) activated, see [Create a known error article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/create-known-error-from-problem.md). The topic applies to legacy Problem \(London or a prior release\) only.
+**Note:** If you have Problem Management Best Practice — Madrid — Knowledge Integration plugin \(com.snc.best\_practice.problem.madrid.knowledge\) activated, see [Create a known error article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/create-known-error-from-problem.md). The topic applies to legacy Problem \(London or a prior release\) only.
 
 You can select the **Knowledge** check box and automatically submit a knowledge article when a problem is closed.
 
@@ -37,5 +37,5 @@ You can select the **Knowledge** check box and automatically submit a knowledge 
     If the knowledge submission workflow is enabled, the problem **Work notes** become a knowledge submission instead of an article. For more information, see [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeWorkflows.md).
 
 
-**Parent Topic:**[Knowledge articles from problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/c_CreateKnowledge.md)
+**Parent Topic:**[Knowledge articles from problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/c_CreateKnowledge.md)
 

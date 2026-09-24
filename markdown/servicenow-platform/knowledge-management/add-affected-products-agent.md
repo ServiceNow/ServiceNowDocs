@@ -2,7 +2,7 @@
 title: Add an affected product to a knowledge article in Agent Workspace
 description: Add affected products to a knowledge article to view the products associated with the knowledge article
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/add-affected-products-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/add-affected-products-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -48,5 +48,5 @@ This task provides steps to add affected products to a knowledge article in Agen
 **Related topics**  
 
 
-[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md)
+[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-workspace.md)
 

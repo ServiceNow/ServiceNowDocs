@@ -2,7 +2,7 @@
 title: Add staff members to an external organization
 description: Add users as staff members to an external organization \(formerly external business location\) to support accounts, contacts, consumers, and households.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-user-external-bus-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-user-external-bus-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ You can add both internal users with the snc\_internal role and external users w
 
 **Note:** Adding new external staff members to the external organizations must be done using the external organization staff \(formerly service organization external staff\) module.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 

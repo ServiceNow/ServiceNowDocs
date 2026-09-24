@@ -2,7 +2,7 @@
 title: Retrieve the Firebase push server key
 description: You must retrieve your unique Google Firebase push server key from your Firebase account so that you can associate it to your Mobile SDK applications that leverage push notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-retrieve-firebase-key.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-and-retrieve-firebase-key.html
 release: australia
 product: Developer Guides
 classification: developer-guides

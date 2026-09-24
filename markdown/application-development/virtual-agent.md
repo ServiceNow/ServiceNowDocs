@@ -2,7 +2,7 @@
 title: Virtual Agent as an application design element
 description: Consider Virtual Agent, ServiceNow’s conversational bot platform. Use ServiceNow Virtual Agent \(VA\) to build and design bot conversations to help users quickly obtain information, make decisions, and perform common work tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/virtual-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,5 +22,5 @@ Some considerations when building VA conversation topics:
 
 For more information, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
-**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-design-elements.md)
+**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-design-elements.md)
 

@@ -2,7 +2,7 @@
 title: Make workplace reservations on the kiosk
 description: Workplace visitors and guests with kiosk viewer role can make workplace reservations. They can search and select a space on the Kiosk Map to reserve a space.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-services-kiosk/rsv-space-kiosk-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-services-kiosk/rsv-space-kiosk-map.html
 release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -27,13 +27,13 @@ Install and configure the following from the ServiceNow Store.
 -   Workplace Core
 -   Workplace Space Management
 
-Make sure that your device is set up on a kiosk to enable workplace reservations. For more information, see [Setup a kiosk on a physical device for reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/kiosk-setup-rsv-space.md).
+Make sure that your device is set up on a kiosk to enable workplace reservations. For more information, see [Setup a kiosk on a physical device for reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/kiosk-setup-rsv-space.md).
 
 You can’t add workplace services to a reservation in kiosk. Recurring, neighborhood, and browse near a person reservations aren’t supported for kiosk reservation.
 
 Role required: sn\_wsd\_kiosk.viewer, sn\_wsd.core\_workplace\_user
 
-**Note:** The sn\_wsd.core\_workplace\_user \(workplace user\) role is part of the kiosk viewer role. Employees can log in with the sn\_wsd.core\_workplace\_user role to view, search for spaces on a floor map and make a reservation. For more information, see [Components installed with Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/components-workplace-services-kiosk.md).
+**Note:** The sn\_wsd.core\_workplace\_user \(workplace user\) role is part of the kiosk viewer role. Employees can log in with the sn\_wsd.core\_workplace\_user role to view, search for spaces on a floor map and make a reservation. For more information, see [Components installed with Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/components-workplace-services-kiosk.md).
 
 Role: sn\_wsd\_kiosk.viewer.
 
@@ -105,7 +105,7 @@ Search and select a user for whom you are raising the workplace issue.
 </td></tr></tbody>
 </table>6.  Select **Reserve** to create a workplace reservation.
 
-    **Note:** Space types configured for you by your administrator are displayed on the map. For example, Meeting rooms or Desks/Spaces. If your administrator has set the space type configuration as Desks/Spaces in the Kiosk Reservable module, the floor map shows only desks or space. If the space type configuration is meeting rooms, the map shows meeting rooms for reservations. For more information, see [Configure Reservable Module for kiosk reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.md).
+    **Note:** Space types configured for you by your administrator are displayed on the map. For example, Meeting rooms or Desks/Spaces. If your administrator has set the space type configuration as Desks/Spaces in the Kiosk Reservable module, the floor map shows only desks or space. If the space type configuration is meeting rooms, the map shows meeting rooms for reservations. For more information, see [Configure Reservable Module for kiosk reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.md).
 
 7.  Select **Get Directions**.
 
@@ -159,10 +159,10 @@ Reservation subject
 
 </td><td>
 
-Option to provide the Reservation subject details. For example, Reservation for AI workflows. If the **Require Subject** check box is selected in the **Reservation Widget Configuration** tab, you’re required to enter the Reservation Subject label while submitting the reservation. For more information, see [Configure Reservable Module for kiosk reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.md)
+Option to provide the Reservation subject details. For example, Reservation for AI workflows. If the **Require Subject** check box is selected in the **Reservation Widget Configuration** tab, you’re required to enter the Reservation Subject label while submitting the reservation. For more information, see [Configure Reservable Module for kiosk reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.md)
 
 </td></tr></tbody>
-</table>    When All day **Reservable Module** setting is set to **Default** on the Reservable module configuration, you see the actual time when you’re making a reservation. For example, if you’re making the reservation at 11.24 am, reservation start time shows **11.24**. Start and end time for a reservation are based on the building time zone and reservation properties for setting office hours. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
+</table>    When All day **Reservable Module** setting is set to **Default** on the Reservable module configuration, you see the actual time when you’re making a reservation. For example, if you’re making the reservation at 11.24 am, reservation start time shows **11.24**. Start and end time for a reservation are based on the building time zone and reservation properties for setting office hours. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
 
     \[Omitted image "kiosk-all-day-default-settings-map-view.png"\] Alt text: All day check box is selected and shows office hours as 9 am to 5 pm.
 
@@ -174,7 +174,7 @@ Option to provide the Reservation subject details. For example, Reservation for 
 
     \[Omitted image "kiosk-all-day-required-readonly-onmap.png"\] Alt text: All day check box is selected and inactive. Office hours are shown as 9 am to 5 pm.
 
-    **Note:** If you’re trying to book a space beyond the time specified in the Min or Max duration, application displays an error message. The **All day**, **Min duration** and **Max day duration** values are set by your administrator. For more information, see [Configure Reservable Module for kiosk reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.md).
+    **Note:** If you’re trying to book a space beyond the time specified in the Min or Max duration, application displays an error message. The **All day**, **Min duration** and **Max day duration** values are set by your administrator. For more information, see [Configure Reservable Module for kiosk reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.md).
 
 9.  Select **Submit Reservation**.
 
@@ -183,5 +183,5 @@ Option to provide the Reservation subject details. For example, Reservation for 
     **Note:** After your reservation is confirmed in the kiosk, email notifications aren’t sent to workplace users.
 
 
-**Parent Topic:**[Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
+**Parent Topic:**[Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
 

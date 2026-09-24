@@ -2,7 +2,7 @@
 title: ServiceNow AI Platform
 description: The ServiceNow AI Platform is an application platform for automating business processes across the enterprise. The ServiceNow AI Platform provides the infrastructure to help your organization develop, run, and manage applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-platform/now-platform-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-platform/now-platform-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Change the Virtual Agent greeting messages in the Greeting setup topic
 description: The Virtual Agent greeting setup topic provides default greeting messages for your conversations. Customize these greetings by adding system properties that change the default welcome message and the top selection message prompting users to enter an issue or request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-welcome-topic-selection-msgs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-welcome-topic-selection-msgs.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -135,5 +135,5 @@ Enter the text that specifies the next selection action that the user can make a
 </table>    2.  Select **Submit**.
 
 
-**Parent Topic:**[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/working-setup-topics.md)
+**Parent Topic:**[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/working-setup-topics.md)
 

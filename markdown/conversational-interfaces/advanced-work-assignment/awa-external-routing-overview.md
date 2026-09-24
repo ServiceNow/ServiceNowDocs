@@ -2,7 +2,7 @@
 title: External routing overview
 description: External Routing involves routing to external queue based on the service channel and queue conditions, and then the assignment is completed by the third-party system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-external-routing-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-external-routing-overview.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

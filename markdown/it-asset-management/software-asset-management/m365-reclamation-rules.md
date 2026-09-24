@@ -2,7 +2,7 @@
 title: Reclamation rules for Microsoft 365 integration
 description: Reclamation rules for Microsoft 365 integration sets the minimum usage threshold for a subscription. If a subscription remains inactive for a specified period, Software Asset Management marks the subscription as a potential reclamation candidate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/m365-reclamation-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/m365-reclamation-rules.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -100,16 +100,16 @@ For example, if Office 365 Enterprise E5, Windows, and EMS subscriptions exist, 
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 
 **Related topics**  
 
 
-[Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/add-reclamation-rule-sub.md)
+[Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/add-reclamation-rule-sub.md)
 
-[Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md)
+[Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/o365-usage-activity.md)
 
-[Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/pub-opt-microsoft.md)
+[Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/pub-opt-microsoft.md)
 
-[Integrating with Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/integrate-with-microsoft.md)
+[Integrating with Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/integrate-with-microsoft.md)
 

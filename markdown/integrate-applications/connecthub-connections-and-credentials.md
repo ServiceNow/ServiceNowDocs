@@ -2,7 +2,7 @@
 title: Connections and Credentials
 description: The Connections and Credentials page is where you create, configure, and manage all connections between ServiceNow and external systems. This is where you store authentication credentials and establish the actual communication links.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connecthub-connections-and-credentials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connecthub-connections-and-credentials.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

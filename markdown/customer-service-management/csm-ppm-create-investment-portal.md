@@ -2,7 +2,7 @@
 title: Create an investment board on the CSM Investment Portal
 description: Create an investment board on the CSM Investment Portal and add the desired customer service project-specific information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-create-investment-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-ppm-create-investment-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

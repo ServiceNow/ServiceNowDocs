@@ -2,7 +2,7 @@
 title: User criteria form
 description: Use the User Criteria form field information when creating a new user criteria record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/user-criteria-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/user-criteria-form.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -30,7 +30,7 @@ Use the User Criteria form field information when creating a new user criteria r
 |Departments|Departments who can access reservable modules when you apply the user criteria. Click the unlock departments icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock departments icon\) to select the departments.|
 |Match All|Option to make every condition required when the user criteria is applied. The conditions are set in the previous fields, such as **Location**, **Department**, and so on|
 
-**Parent Topic:**[Workplace Reservation Management - Field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/workplace-reservation-management-field-descriptions.md)
+**Parent Topic:**[Workplace Reservation Management - Field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/workplace-reservation-management-field-descriptions.md)
 
 **Related topics**  
 
@@ -39,7 +39,7 @@ Use the User Criteria form field information when creating a new user criteria r
 
 [Add a room form]()
 
-[Create a user criteria record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-user-criteria.md)
+[Create a user criteria record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-user-criteria.md)
 
-[Apply user criteria on a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/apply-user-crit-resvbl-module.md)
+[Apply user criteria on a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/apply-user-crit-resvbl-module.md)
 

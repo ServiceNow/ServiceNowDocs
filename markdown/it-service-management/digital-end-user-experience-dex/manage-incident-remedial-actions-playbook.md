@@ -2,7 +2,7 @@
 title: Manage remedial actions in DEX incident investigation Playbook
 description: View current and past remedial actions executed from different sources in the Playbooks panel. Monitor or cancel actions run from the Suggested resolutions or Action library within a DEX incident investigation page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/manage-incident-remedial-actions-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/manage-incident-remedial-actions-playbook.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

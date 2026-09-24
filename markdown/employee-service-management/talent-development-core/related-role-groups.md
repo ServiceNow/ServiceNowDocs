@@ -2,7 +2,7 @@
 title: Create related role groups
 description: Create a connection between two different role groups in the Skills Workspace to enable a transition path for the employees to move across different role groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/related-role-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/related-role-groups.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -36,15 +36,15 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 6.  Either create your related role group manually or by selecting from the recommendations.
 
-<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d220289e118">
+<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d220293e118">
 
 Method
 
-</th><th align="left" id="d220289e121">
+</th><th align="left" id="d220293e121">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d220289e127">
+</th></tr></thead><tbody><tr><td id="d220293e127">
 
 **Add from recommendations**
 
@@ -59,7 +59,7 @@ After linking, the role groups aren't displayed in the recommendations list.
 
 **Note:** The recommendation panel is only displayed if data is available in the sn\_skills\_int\_role\_level\_m2m\_ind\_title table.
 
-</td></tr><tr><td id="d220289e163">
+</td></tr><tr><td id="d220293e163">
 
 **Manually**
 
@@ -84,7 +84,7 @@ The default value of the **From role group** field is the selected role group.
 
 A new relation between two role groups is created.
 
-**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/job-architecture-working.md)
+**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/job-architecture-working.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Add modal to component
 description: Learn how to add a modal in UI Builder. A modal is a window that appears when you click a component. For example, a modal might display when a delete button component is clicked, prompting the user to confirm deleting a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/modals-uib.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/modals-uib.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -30,11 +30,11 @@ A modal is a screen that appears when an event handler is triggered by an event 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open or create a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md).
 
 4.  Add a modal to the page.
 
@@ -53,7 +53,7 @@ A modal is a screen that appears when an event handler is triggered by an event 
         |Confirm and destroy|A Confirm and destroy modal is more directive, usually relating to deleting or erasing content. It lets the user know the seriousness of an action, and asks them whether they want to proceed with the action.|
         |Custom|The Custom modal uses layouts to let you fully design what information you want in the modal. Layouts also decide where the information sits within the modal screen. You can use Cascading Style Sheets \(CSS\) styling to change the visual look of the modal, such as background color.|
         |iframe|Use iframe to bring content into your modal using existing iframe content from a URL and data.|
-        |Modal viewport|Dynamically pass content into your viewport modal through an event binding using a client script. See [Bind an event to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-component.md) for more information on binding an event to a component.|
+        |Modal viewport|Dynamically pass content into your viewport modal through an event binding using a client script. See [Bind an event to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/bind-event-component.md) for more information on binding an event to a component.|
 
     3.  Configure the modals as shown in the table.
 
@@ -128,7 +128,7 @@ Custom\[Omitted image "modal-custom-config.png"\] Alt text: Custom modal configu
 </td><td>
 
 -   Choose a layout for your modal. You can use a flexbox or CSS grid layout. These layouts let you add content in your modal however you want.
--   Use styling options to change how your modal looks. You can apply any standard CSS styling to your modal, such as background color and padding. For more information about styling, see [Change the default appearance of components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-styling-to-component.md).
+-   Use styling options to change how your modal looks. You can apply any standard CSS styling to your modal, such as background color and padding. For more information about styling, see [Change the default appearance of components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-styling-to-component.md).
 -   Add components to the containers within the custom modal.
 -   Select **Events** &gt; **Add event mapping** to add an event handler to the modal.
 -   Select an event handler to apply to the modal. Choose from inherited or page-level event handlers. Event handlers perform an action such as open or close a modal. Depending on the modal type, you can refresh data for the App Shell data source, the user session for GraphQL, or a user session for Transform.
@@ -178,7 +178,7 @@ Modal viewport\[Omitted image "modal-modal-viewport-config.png"\] Alt text: Moda
 </td></tr></tbody>
 </table>5.  Add a component to your page to trigger the modal you just added, such as a button component.
 
-    See [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md) for more information.
+    See [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-components.md) for more information.
 
 6.  Select the **Events** tab in the configuration panel.
 
@@ -203,5 +203,5 @@ Modal viewport\[Omitted image "modal-modal-viewport-config.png"\] Alt text: Moda
 12. Click **Save**.
 
 
-**Parent Topic:**[Create modals in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/Modals-overview.md)
+**Parent Topic:**[Create modals in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/Modals-overview.md)
 

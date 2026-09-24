@@ -2,7 +2,7 @@
 title: Share knowledge articles in phone interactions
 description: During a phone conversation, agents can send helpful knowledge base \(KB\) articles to customers through SMS using the Add link in message option.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidances-share-kb-in-phone.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-guidances-share-kb-in-phone.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

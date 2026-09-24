@@ -2,7 +2,7 @@
 title: Confidence score reference tables for hardware vulnerability assessment
 description: Reference values used to calculate the confidence score.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/otvr-hva-confidence-score-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/otvr-hva-confidence-score-ref.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -57,5 +57,5 @@ Total score
 100
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)
+</table>**Parent Topic:**[Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)
 

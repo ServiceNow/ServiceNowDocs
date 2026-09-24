@@ -2,7 +2,7 @@
 title: Cart line update scenarios
 description: Cart lines are created, updated, or deleted based on the updates that you make to the products in your shopping cart.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/cart-line-update-scenarios.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/cart-line-update-scenarios.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -30,5 +30,5 @@ Cart lines are created, updated, or deleted based on the updates that you make t
 
 -   If you move a product, some quantity of which already exists in your cart, from your **Purchase later** section to your shopping cart, the cart lines merge and the purchase quantity is updated accordingly.
 
-**Parent Topic:**[Shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-cart.md)
+**Parent Topic:**[Shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shopping-cart.md)
 

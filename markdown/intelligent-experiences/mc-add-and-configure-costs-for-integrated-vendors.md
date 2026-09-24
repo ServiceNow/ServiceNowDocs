@@ -2,10 +2,10 @@
 title: Add costs for integrated vendors
 description: Define the token cost rates for integrated LLM vendors, such as Amazon Bedrock and Google Cloud Vertex AI, based on your commercial agreements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mc-add-and-configure-costs-for-integrated-vendors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mc-add-and-configure-costs-for-integrated-vendors.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
@@ -32,7 +32,7 @@ Cost setup is a single four-step flow: configure hourly rates, add integrated ve
 
 3.  Make sure you have configured the average rate.
 
-    For more information, see [Configure average hourly rate for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.md).
+    For more information, see [Configure average hourly rate for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.md).
 
 4.  In the **Add integrated vendor costs** section, select **Add vendor** and enter the details.
 

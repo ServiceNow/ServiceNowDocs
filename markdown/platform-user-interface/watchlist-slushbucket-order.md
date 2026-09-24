@@ -2,7 +2,7 @@
 title: Configure order buttons on the watch list slushbucket
 description: When you add multiple users to a glide\_list, such as a watch list, the slushbucket does not display the order buttons for the list of selected members. You can set a dictionary attribute to display the order buttons.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/watchlist-slushbucket-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/watchlist-slushbucket-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ By default, the order buttons on the right are not displayed. Follow the procedu
 5.  Click **Update**.
 
 
-**Parent Topic:**[Configure email notifications for watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigNotifications4WatchLists.md)
+**Parent Topic:**[Configure email notifications for watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ConfigNotifications4WatchLists.md)
 
 **Related topics**  
 

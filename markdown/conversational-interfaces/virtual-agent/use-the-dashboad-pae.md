@@ -2,7 +2,7 @@
 title: Set the date range of the data
 description: Set the date range using the date picker on the Overview tab to view the data visualizations for the specified date range. The date range set on this tab applies to all the other tabs on the dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/use-the-dashboad-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/use-the-dashboad-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -45,5 +45,5 @@ Set the date range for the visualizations using the date picker. You can either 
     The data displayed on the dashboard adjusts according to the new date range.
 
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

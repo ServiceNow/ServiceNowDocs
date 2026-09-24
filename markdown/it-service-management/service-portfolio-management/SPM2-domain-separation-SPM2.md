@@ -2,7 +2,7 @@
 title: Domain separation and Service Portfolio Management
 description: Domain separation is supported in Service Portfolio Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-domain-separation-SPM2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-portfolio-management/SPM2-domain-separation-SPM2.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -30,7 +30,7 @@ For more information on support levels, see [Application support for domain sepa
 
 \*All components of Service Portfolio Management \(SPM\) and Service Owner Workspace \(SOW\) are domain-separated in releases of New York and forward. If using Financial Management for the SPM plugin for estimated spend, there can be only one fiscal calendar defined per instance. When this plugin is activated, there can be only one approach for service offering cost modeling per instance \(using either the Financial Management engine or local data. Different domains cannot choose their own spend model.
 
-**Parent Topic:**[Service Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-reference.md)
+**Parent Topic:**[Service Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-portfolio-management/SPM2-reference.md)
 
 **Related topics**  
 

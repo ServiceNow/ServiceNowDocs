@@ -2,7 +2,7 @@
 title: Submit a purchase request by uploading a SOW
 description: Upload a statement of work \(SOW\) through the ServiceNow Otto chat interface in Employee Center to submit a purchase request for review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-upload-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-upload-sow.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -70,5 +70,5 @@ ServiceNow Otto uses AI to analyze your SOW and recommend a procurement request 
     Your purchase requisition is created and submitted for approval.
 
 
-**Parent Topic:**[Submit a purchase request using the ServiceNow Otto AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/request-product-ai-agents.md)
+**Parent Topic:**[Submit a purchase request using the ServiceNow Otto AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/request-product-ai-agents.md)
 

@@ -2,7 +2,7 @@
 title: Using CSS Grid layouts to build a page
 description: Create a CSS Grid layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.Create a CSS Grid layout in UI Builder to build powerful pages in a low-code environment.Create a CSS Grid layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/css-grid-uib.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/css-grid-uib.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -22,11 +22,11 @@ For example, you can have a grid with three columns and three rows to make a gri
 
 \[Omitted image "UIB-layout-css-grid.png"\] Alt text: CSS Grid layout
 
-Customizing the layout of your page lets you take full advantage of CSS Grid so that you can achieve your overall page design. For more information, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md).
+Customizing the layout of your page lets you take full advantage of CSS Grid so that you can achieve your overall page design. For more information, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-layouts.md).
 
 To find out more about CSS layouts within your UI Builder instance, you can find them in the \[sys\_uib\_template\] table.
 
-**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md)
+**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-layouts.md)
 
 ## Create a CSS Grid layout with the new layout system
 
@@ -42,9 +42,9 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button in the UI Builder stage.
 
@@ -104,7 +104,7 @@ Role required: admin
 
 11. Add components to your page.
 
-    See [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md) for more information.
+    See [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-components.md) for more information.
 
 12. View and test your page by selecting \[Omitted image "preview-button.png"\] Alt text: Preview button that opens the page variant..
 
@@ -127,9 +127,9 @@ In the following procedure, you learn how to use CSS Grid to modify your CSS to 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) or open a page.
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md) or open a page.
 
 4.  Click the **Layout** tab and choose the two-row by two-column layout.
 

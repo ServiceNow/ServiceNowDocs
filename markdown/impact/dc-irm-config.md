@@ -2,7 +2,7 @@
 title: Configure Data Collection for IRM
 description: Configure Data Collection for IRM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/dc-irm-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-irm-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
     \[Omitted image "dct\_config\_irm.png"\] Alt text: Example with empty Oct 2024 cell selected.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-irm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-irm.md)
 

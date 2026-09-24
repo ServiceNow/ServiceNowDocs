@@ -2,7 +2,7 @@
 title: Field types in Now Assist in Document Intelligence
 description: The field type specifies the information that is retrieved from a document with Now Assist in Document Intelligence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-field-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-field-types.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -19,7 +19,7 @@ The field type specifies the information that is retrieved from a document with 
 
 The following field types are available to administrators when configuring fields for use cases.
 
-**Note:** Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
+**Note:** Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/data-normalization.md).
 
 <table id="table_nql_cxs_12c"><thead><tr><th>
 
@@ -116,7 +116,7 @@ Text field.
  \[Omitted image "docintel-na-field-text.png"\] Alt text: Text field type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist in Document Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-in-document-intelligence-reference.md)
+</table>**Parent Topic:**[Now Assist in Document Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/now-assist-in-document-intelligence-reference.md)
 
 **Related topics**  
 

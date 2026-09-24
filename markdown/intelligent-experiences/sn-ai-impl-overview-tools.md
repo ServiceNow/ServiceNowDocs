@@ -2,7 +2,7 @@
 title: ServiceNow AI organization and tools
 description: The ServiceNow AI experience includes generative AI skills, agentic AI, and conversational user engagement layer. A good AI experience depends on quality data and a coherent AI policy that functions as its guiding star. AI Search capabilities and other tools help connect the pieces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-overview-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sn-ai-impl-overview-tools.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,17 +21,17 @@ The following infographic illustrates the components of the ServiceNow AI experi
 
 ## AI policy
 
-AI governance is defined by your organization and then implemented on the platform using AI Control Tower. AI Control Tower is designed to scale with your organization’s AI maturity. It enables end-to-end life cycle management of AI agents and models, from intake and evaluation to deployment and optimization. It also acts as a bridge between governance committees and implementation teams, ensuring that policy decisions are translated into technical configurations and operational controls. The platform includes the AI Risk and Compliance application, which comes with pre-built content aligned to the EU AI Act and NIST AI Risk Management Framework \(AI RMF\), helping organizations accelerate compliance and implement responsible AI practices from day one. For more information, see [AI governance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-governance.md).
+AI governance is defined by your organization and then implemented on the platform using AI Control Tower. AI Control Tower is designed to scale with your organization’s AI maturity. It enables end-to-end life cycle management of AI agents and models, from intake and evaluation to deployment and optimization. It also acts as a bridge between governance committees and implementation teams, ensuring that policy decisions are translated into technical configurations and operational controls. The platform includes the AI Risk and Compliance application, which comes with pre-built content aligned to the EU AI Act and NIST AI Risk Management Framework \(AI RMF\), helping organizations accelerate compliance and implement responsible AI practices from day one. For more information, see [AI governance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sn-ai-impl-governance.md).
 
 For real-time guardrail enforcement for AI interactions, you can use AI Guardian to monitor and mitigate risks related to offensive content, sensitive topics, and security threats in generative AI outputs. Admins can configure these guardrails directly in the AI Admin Hub console, and logs are available to track detection events and guide decisions about blocking or escalation.
 
 Roles and responsibilities:
 
--   **[AI steward \[sn\_ai\_governance\_ai\_steward\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/aict-health-tab.md)**
+-   **[AI steward \[sn\_ai\_governance\_ai\_steward\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/aict-health-tab.md)**
 
     The AI steward role manages the platform's data assets and AI capabilities, ensuring data quality, integrity, and ethical use. The steward also implements governance policies to maintain compliance, security, and responsible AI practices across ServiceNow applications and workflows.
 
--   **[AI asset/product owner \[ sn\_ai\_asset\_mgmt.ai\_asset\_owner\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md)**
+-   **[AI asset/product owner \[ sn\_ai\_asset\_mgmt.ai\_asset\_owner\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md)**
 
     The AI asset \(or product\) owner is responsible for driving the development and delivery of AI-powered products, ensuring alignment with business goals and user needs. They define product vision, manage feature prioritization, and translate business requirements into technical deliverables.
 
@@ -39,20 +39,20 @@ Roles and responsibilities:
 
     The AI Risk and Compliance Manager is tasked with identifying, assessing, and mitigating risks related to AI use within the enterprise. This role ensures AI compliance with laws, regulations, and internal standards while addressing issues such as bias, privacy, and transparency.
 
--   **[Now Assist Admin \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
+-   **[Now Assist Admin \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
     The ServiceNow Otto admin is responsible for enabling and managing the AI Guardian guardrails within the AI Admin Hub console. This includes configuring detection settings for offensiveness, prompt injection, and sensitive topics, as well as monitoring logs to assess harmful or malicious AI outputs. The admin can toggle guardrails on or off, choose actions like “Block and Log,” and tailor the configuration to match organizational risk tolerance and use cases.
 
 
 For more information about these tools, see:
 
--   [AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
+-   [AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
 -   [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-and-compliance.md)
 -   [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
 
 ## Data management
 
-You know the old saying, "Garbage in, garbage out?" Poor, incomplete, or unstructured data can lead to poor AI outcomes. To prepare your data for AI implementation, see [Data readiness for implementing AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-data-readiness.md).
+You know the old saying, "Garbage in, garbage out?" Poor, incomplete, or unstructured data can lead to poor AI outcomes. To prepare your data for AI implementation, see [Data readiness for implementing AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sn-ai-impl-data-readiness.md).
 
 ServiceNow Otto provides several tools to help you manage data and provide user context on your instance. The AI Data Kit helps organizations manage AI training data on their ServiceNow instance. It provides a centralized workspace to curate, generate, cleanse, and evaluate datasets, including importing data from tables, adding ground truth, and creating derived datasets. It supports synthetic data generation—up to 1,000 records at a time—and includes tools to anonymize sensitive information for privacy compliance. Integrated with the AI Skill Kit, it enables teams to test custom AI skills and measure performance.
 
@@ -60,20 +60,20 @@ Knowledge Graph makes AI in ServiceNow Otto more personal by using structured en
 
 Roles and responsibilities:
 
--   **[ServiceNow Otto Data Kit admin \[sn\_data\_kit.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/data-kit-admin-role.md)**
+-   **[ServiceNow Otto Data Kit admin \[sn\_data\_kit.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/data-kit-admin-role.md)**
 
     This role is required to create, update, and publish datasets in AI Data Kit.
 
--   **[Knowledge Graph admin \[kg\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-roles.md)**
+-   **[Knowledge Graph admin \[kg\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/knowledge-graph-roles.md)**
 
     This role is required to design, manage, and audit Knowledge Graph schemas, including configuring nodes \(tables\), properties \(columns\), and relationships.
 
 
 For more information about these tools, see:
 
--   [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
--   [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md)
--   [AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.md)
+-   [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
+-   [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md)
+-   [AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.md)
 
 ## Internal and external content search
 
@@ -102,7 +102,7 @@ For more information about these tools, see:
 
 ## Generative AI skills
 
-ServiceNow Otto product plugins provide workflow-specific, generative AI skills that are tailored to specific use cases. For example, a skill might summarize a customer chat, suggest next steps in a workflow, or generate resolution notes for a task. For a list of available skills by product, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md).
+ServiceNow Otto product plugins provide workflow-specific, generative AI skills that are tailored to specific use cases. For example, a skill might summarize a customer chat, suggest next steps in a workflow, or generate resolution notes for a task. For a list of available skills by product, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 
 Use the AI Admin Hub console to install and configure ServiceNow Otto plugins, as well as perform the following tasks:
 
@@ -117,28 +117,28 @@ If you need to customize or adapt existing skills, you can use the AI Skill Kit 
 
 Roles and responsibilities:
 
--   **[ServiceNow Otto Admin \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
+-   **[ServiceNow Otto Admin \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
     This role is required to install ServiceNow Otto plugins, activate skills, and configure ServiceNow Otto preferences and settings.
 
--   **[Skill Kit admin \[sn\_skill\_builder.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-roles.md)**
+-   **[Skill Kit admin \[sn\_skill\_builder.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/na-skill-kit-roles.md)**
 
     This role is required to create, update, and publish skills in AI Skill Kit.
 
 
 For more information about these tools and features, see:
 
--   [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
-    -   [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
-    -   [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md)
-    -   [Analyzing AI performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md)
-    -   [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translation-for-now-assist.md)
+-   [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-now-assist.md)
+    -   [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md)
+    -   [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-large-language-models.md)
+    -   [Analyzing AI performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics.md)
+    -   [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/translation-for-now-assist.md)
     -   [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-assist-mobile-landing.md)
--   [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+-   [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 
 ## Agentic AI
 
-In an agentic AI system, autonomous agents perform complex tasks by reasoning, planning, and executing actions across multiple steps. These agents are not just reactive; they can break down goals, make decisions, and coordinate with other agents or systems to complete workflows. In AI Agent Studio, AI agents and agentic workflows are built to handle tasks such as resolving incidents, managing requests, or navigating service catalogs using generative AI and orchestration logic. For a list of available agentic workflows by product, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md).
+In an agentic AI system, autonomous agents perform complex tasks by reasoning, planning, and executing actions across multiple steps. These agents are not just reactive; they can break down goals, make decisions, and coordinate with other agents or systems to complete workflows. In AI Agent Studio, AI agents and agentic workflows are built to handle tasks such as resolving incidents, managing requests, or navigating service catalogs using generative AI and orchestration logic. For a list of available agentic workflows by product, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sn-aia-use-cases-list.md).
 
 Use AI Agent Studio to perform the following tasks:
 
@@ -154,27 +154,27 @@ The MCP Server Console is a tool for administrators to set up and manage Model C
 
 Roles and responsibilities:
 
--   **[AI Agent Admin \[sn\_aia\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md)**
+-   **[AI Agent Admin \[sn\_aia\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md)**
 
     This role is required to create, manage, update, test, and delete AI agents and agentic workflows.
 
--   **[MCP Client Admin \[sn\_mcp\_client.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-reference.md)**
+-   **[MCP Client Admin \[sn\_mcp\_client.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-reference.md)**
 
     This role is required to administer the MCP client in AI Agent Studio. It is inherited from the AI Agent Admin \[sn\_aia.admin\] role.
 
--   **[MCP Server administrator \[sn\_mcp\_server.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installed-mcp-server-console.md)**
+-   **[MCP Server administrator \[sn\_mcp\_server.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/installed-mcp-server-console.md)**
 
     This role is required to administer the MCP Server Console.
 
 
 For more information about these tools, see:
 
--   [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
-    -   [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
-    -   [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)
-    -   [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-dashboard.md)
-    -   [Examples of using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-examples.md)
--   [Model Context Protocol Client Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-client.md)
+-   [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-ai-agents.md)
+    -   [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-studio.md)
+    -   [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-security-implementation.md)
+    -   [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-dashboard.md)
+    -   [Examples of using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-examples.md)
+-   [Model Context Protocol Client Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-client.md)
 -   [MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 ## Conversational AI engagement
@@ -205,7 +205,7 @@ Roles and responsibilities:
 
     This role, or the admin role, is required to install ServiceNow® Otto for Virtual Agent and set up and manage assistants in Assistant Designer. It is also required for users who create and manage Virtual Agent topics and assets.
 
--   **[Now Assist Admin \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
+-   **[Now Assist Admin \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
     This role is required to turn on and configure the ServiceNow Otto panel in the AI Admin Hub console.
 
@@ -219,5 +219,5 @@ For more information about these tools, see:
     -   [Using ServiceNow Otto for Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/na-va-llm-slack.md)
     -   
 -   [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-assist-mobile-landing.md)
--   [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
+-   [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md)
 

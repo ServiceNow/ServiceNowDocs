@@ -2,7 +2,7 @@
 title: Remove internal stakeholders from the Source-to-Pay Workspace
 description: Remove non-essential internal stakeholders from the Source-to-Pay Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/remove-internal-stakeholders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/remove-internal-stakeholders.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -47,5 +47,5 @@ Role required: sn\_slm.owner, sn\_slm.manager, sn\_slm.admin
 
 Selected stakeholders are removed from the list of internal stakeholders.
 
-**Parent Topic:**[Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md)
+**Parent Topic:**[Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md)
 

@@ -2,7 +2,7 @@
 title: Using tags
 description: Use tags to filter records and view tagged documents. Remove a tag when it is no longer useful.You can filter records on a table by tags you have access to.The Tagged Documents page displays recently viewed documents or user-tagged documents in the content frame.There are many ways to remove a tag from a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/using-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/using-tags.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Use tags to filter records and view tagged documents. Remove a tag when it is no
 
 **Note:** Conditions that use the **Tags** field are not supported in reports or data visualizations based on database views.
 
-**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Tags.md)
 
 ## Filter records by tag
 
@@ -66,7 +66,7 @@ Role required: none
 
 ### About this task
 
-An administrator can configure the fields that appear on the tagged document cards by configuring the mobile view of the task, for example, the mobile view of the Incident form. If there isn’t a mobile view available for the page, the record reverts to the default view. For more information, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-delete-view.md).
+An administrator can configure the fields that appear on the tagged document cards by configuring the mobile view of the task, for example, the mobile view of the Incident form. If there isn’t a mobile view available for the page, the record reverts to the default view. For more information, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-delete-view.md).
 
 ### Procedure
 
@@ -157,6 +157,6 @@ Select the more options icon \(\[Omitted image "IconUI16MoreOptions.png"\] Alt t
 Select the removed tag icon \(**x**\) in the corner of the document preview.
 
 </td></tr></tbody>
-</table>    If a tag is automatically applied to a record based on specific conditions, the tag is automatically removed when those conditions no longer apply. For more information, see [Administering tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administering-tags.md).
+</table>    If a tag is automatically applied to a record based on specific conditions, the tag is automatically removed when those conditions no longer apply. For more information, see [Administering tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/administering-tags.md).
 
 

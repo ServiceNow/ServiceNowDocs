@@ -2,14 +2,14 @@
 title: Configure crawl settings for a ServiceNow product documentation external content connector
 description: Choose the products that you want your ServiceNow product documentation external content connector to crawl documentation for.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-crawl-settings-snowdoc-ext-cont-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-crawl-settings-snowdoc-ext-cont-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-05-15"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow product documentation external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Choose the products that you want your ServiceNow product documentation external
 
 ## Before you begin
 
-A connector administrator must have already created the ServiceNow® product documentation external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-snowdoc.md).
+A connector administrator must have already created the ServiceNow® product documentation external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-snowdoc.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -57,8 +57,8 @@ If one of your connectors reaches the content indexing limit, you can update its
 
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
-    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 6.  Select **Save**.
 
 
@@ -66,5 +66,5 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 The ServiceNow product documentation external content connector is updated with your chosen crawl scope.
 
-**Parent Topic:**[ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/servicenow-product-documentation-external-content-connector.md)
+**Parent Topic:**[ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/servicenow-product-documentation-external-content-connector.md)
 

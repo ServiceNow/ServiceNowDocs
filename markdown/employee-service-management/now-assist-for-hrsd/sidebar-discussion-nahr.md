@@ -2,7 +2,7 @@
 title: Summarize a Sidebar discussion by using ServiceNow Otto for HRSD
 description: Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/sidebar-discussion-nahr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/sidebar-discussion-nahr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -18,7 +18,7 @@ Generate a summary of the Sidebar discussions between agents, requesters, and su
 
 ## Before you begin
 
-[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
+[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
 Role required: sn\_hr\_core.case\_writer
 
@@ -54,15 +54,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d591742e233">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d591746e233">
 
 Option
 
-</th><th align="left" id="d591742e236">
+</th><th align="left" id="d591746e236">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d591742e242">
+</th></tr></thead><tbody><tr><td id="d591746e242">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -73,7 +73,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d591742e269">
+</td></tr><tr><td id="d591746e269">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ If you'd like to provide feedback, select either the helpful icon \(\[Omitted im
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

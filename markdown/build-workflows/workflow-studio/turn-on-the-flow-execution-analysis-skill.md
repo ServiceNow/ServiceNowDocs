@@ -2,7 +2,7 @@
 title: Turn on the Flow execution analysis skill
 description: Turn on the flow execution analysis skill to summarize flow execution details and generate recommendations for flow in an error state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-the-flow-execution-analysis-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/turn-on-the-flow-execution-analysis-skill.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -38,5 +38,5 @@ Turn on the flow execution analysis skill to summarize flow execution details an
     \[Omitted image "na-flow-execution-analysis-skill-active.png"\] Alt text: Flow execution analysis skill listed as active skill
 
 
-**Parent Topic:**[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-analysis-landing.md)
+**Parent Topic:**[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-analysis-landing.md)
 

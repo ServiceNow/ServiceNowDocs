@@ -2,7 +2,7 @@
 title: Install Financial Services Payment Operations
 description: Install the Financial Services Payment Operations \(sn\_bom\_payment\) application if you have the admin role. This application includes demo data and installs the related store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/install-financial-services-payment-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-payment-operations/install-financial-services-payment-operations.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -33,7 +33,7 @@ The following items are installed with the installation of the Financial Service
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/installed-with-payment-operations.md).
+For more information, see [Components installed with Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/installed-with-payment-operations.md).
 
 **Note:** To enable customers to submit requests through the Consumer Service Portal, you should also activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 

@@ -2,7 +2,7 @@
 title: Configure an appointment reminder and pre-appointment questionnaire
 description: By default, appointment reminders aren’t sent to the user. To enable appointment reminders, you must configure the appointment reminder in the appointment configuration record. You can also configure the pre-appointment questionnaire for users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/configure-vaccine-user-questionnaire.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/vaccine-administration-management/configure-vaccine-user-questionnaire.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -59,5 +59,5 @@ The appointment reminder sends a reminder email and a pre-appointment questionna
     4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

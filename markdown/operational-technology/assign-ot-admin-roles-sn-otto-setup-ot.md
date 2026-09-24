@@ -2,7 +2,7 @@
 title: Assign OT admin roles with ServiceNow Otto for Setup
 description: Create users and assign the necessary Operational Technology \(OT\) admin roles to users managing configuration and operational control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/assign-ot-admin-roles-sn-otto-setup-ot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/assign-ot-admin-roles-sn-otto-setup-ot.html
 release: australia
 topic_type: task
 last_updated: "2026-08-22"
@@ -45,7 +45,7 @@ Role required: admin
 
 If all role assignments are successful, you see a `Roles assigned successfully` alert.
 
-If there are errors during the role assignment process, you will see an alert. For more information about error causes and alerts for OT Setup, see [Role assignment alerts for Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/alerts-ot-setup.md).
+If there are errors during the role assignment process, you will see an alert. For more information about error causes and alerts for OT Setup, see [Role assignment alerts for Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/alerts-ot-setup.md).
 
-**Parent Topic:**[Use Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ot-setup.md)
+**Parent Topic:**[Use Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/use-ot-setup.md)
 

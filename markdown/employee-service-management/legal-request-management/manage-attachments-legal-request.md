@@ -2,7 +2,7 @@
 title: Manage attachments for a legal request
 description: Upload supporting documentation, such as documents, email copies, images, or any other files into a legal request while you are working on it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/manage-attachments-legal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/manage-attachments-legal-request.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -24,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 You can also use these artifacts as a reference material to solve similar requests in future.
 
-If the [external storage option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md) is enabled, you can manage document access for users to see these attachments. For more information, see [Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/document-access-legal-request.md).
+If the [external storage option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/associate-categories-practice-area.md) is enabled, you can manage document access for users to see these attachments. For more information, see [Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/document-access-legal-request.md).
 
 If the Privileged and Confidential status is enabled on a legal request, you can change the permission of attached documents from the Privileged Document Access tab.
 
@@ -36,15 +36,15 @@ If the Privileged and Confidential status is enabled on a legal request, you can
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d79762e113">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d79766e113">
 
 Option
 
-</th><th align="left" id="d79762e116">
+</th><th align="left" id="d79766e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d79762e122">
+</th></tr></thead><tbody><tr><td id="d79766e122">
 
 **As an assignee**
 
@@ -56,7 +56,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d79762e151">
+</td></tr><tr><td id="d79766e151">
 
 **As a collaborator**
 
@@ -69,15 +69,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 </td></tr></tbody>
 </table>4.  Manage documents in the legal request.
 
-<table id="choicetable_rpv_3f2_f5b"><thead><tr><th align="left" id="d79762e181">
+<table id="choicetable_rpv_3f2_f5b"><thead><tr><th align="left" id="d79766e181">
 
 Option
 
-</th><th align="left" id="d79762e184">
+</th><th align="left" id="d79766e184">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d79762e190">
+</th></tr></thead><tbody><tr><td id="d79766e190">
 
 **Using the attachment icon**
 
@@ -96,7 +96,7 @@ The attachment icon \[Omitted image "add-attachment-icon.png"\] Alt text: Attach
     -   To download an attached file, select the actions icon, select **Download**.
 
 
-</td></tr><tr><td id="d79762e272">
+</td></tr><tr><td id="d79766e272">
 
 **Using the Documents tab**
 
@@ -115,9 +115,9 @@ In the **Documents** tab, a link to the document is listed in the **External URL
 
     1.  In the **Documents** tab, select a document from the list that you want to delete.
     2.  Select **Delete**.
-Access to these documents to various users is controlled in multiple ways. For more information on managing document access, see [Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/document-access-legal-request.md).
+Access to these documents to various users is controlled in multiple ways. For more information on managing document access, see [Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/document-access-legal-request.md).
 
-</td></tr><tr><td id="d79762e348">
+</td></tr><tr><td id="d79766e348">
 
 **Using Privileged Document Access tab**
 
@@ -136,8 +136,8 @@ Change permissions for documents.1.  In the **Privileged Document Access** tab, 
 
 </td></tr></tbody>
 </table>
--   **[Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/document-access-legal-request.md)**  
+-   **[Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/document-access-legal-request.md)**  
 Documents attached to legal requests are uploaded to the configured external storage system when the external storage option is enabled on the legal request intake form. The access of these documents to various personas is controlled in real time, via a scheduled job, or on-demand.
 
-**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/work-on-legal-request.md)
 

@@ -2,7 +2,7 @@
 title: Schedule Management in CSM Configurable Workspace
 description: Schedule Management schedule management is a standalone capability within Workforce Optimization for Customer Service that allows supervisors and managers to create, view, and manage team schedules independently of other WFO modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/schedule-management-capabilities-in-csm-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/schedule-management-capabilities-in-csm-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-19"
@@ -109,17 +109,17 @@ The following roles are available:
 
 **Note:** If you have the sn\_csm\_wfo\_workspa.admin or sn\_csm\_wfo\_workspa.manager role, you can automatically inherit the corresponding sn\_shift\_planning role.
 
--   **[Schedule Management standalone activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/schedule-management-as-a-standalone-activation.md)**  
+-   **[Schedule Management standalone activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/schedule-management-as-a-standalone-activation.md)**  
 Schedule Management as a standalone plugin supports to manage agent schedules, team calendars, shift swaps, time off, and adherence, with access from supported CSM workspaces without requiring the full WFO suite.
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explore-channels-configurable-wfo-cs.md)
+[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/explore-channels-configurable-wfo-cs.md)
 
-[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-channels-wfo-cs.md)
+[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-channels-wfo-cs.md)
 
-[Decouple Channel Management dependencies from WFO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/decouple-channel-management-dependencies-from-wfo.md)
+[Decouple Channel Management dependencies from WFO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/decouple-channel-management-dependencies-from-wfo.md)
 

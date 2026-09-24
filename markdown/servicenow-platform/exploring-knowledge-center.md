@@ -2,7 +2,7 @@
 title: Exploring Knowledge Center
 description: The Knowledge Center helps manage knowledge articles through an intuitive interface. It provides actionable insights and identifies gaps so that your content stays relevant and accurate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/exploring-knowledge-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/exploring-knowledge-center.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-20"

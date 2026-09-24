@@ -2,7 +2,7 @@
 title: Edit Operational Sustainability Management dashboard details
 description: You can change a dashboard name, add a description, certify it, configure visibility, and specify the requester, the owner, the owner group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/edit-esg-dashboard-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/edit-esg-dashboard-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -68,7 +68,7 @@ Mark the dashboard as certified to inform the user that the dashboard is for use
 
 </td><td>
 
-View, add, or remove workspaces in which the dashboard can be viewed.**Note:** If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/edit-esg-dashboards.md).
+View, add, or remove workspaces in which the dashboard can be viewed.**Note:** If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/edit-esg-dashboards.md).
 
 </td></tr><tr><td id="d35879e168">
 
@@ -128,5 +128,5 @@ See who the dashboard has been shared with.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

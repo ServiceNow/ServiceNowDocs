@@ -2,7 +2,7 @@
 title: Default runtime access permissions
 description: The default runtime access permissions apply to new application data tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_DefaultRuntimeAccessPermissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_DefaultRuntimeAccessPermissions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ By default, new application tables only allow read access from other application
 
 \[Omitted image "DefaultRuntimeAccessPermissions.png"\] Alt text: Default runtime access permissions
 
-**Parent Topic:**[Runtime access to applications tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_RuntimeAccessToAppTables.md)
+**Parent Topic:**[Runtime access to applications tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_RuntimeAccessToAppTables.md)
 

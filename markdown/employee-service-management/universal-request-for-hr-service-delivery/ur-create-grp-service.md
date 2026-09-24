@@ -2,7 +2,7 @@
 title: Create your service-specific assignment groups
 description: Set up your service-specific groups and assign the necessary roles and users. The users in the group inherit the roles of the group, so you do not have to assign roles to each user separately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-create-grp-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-create-grp-service.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -54,5 +54,5 @@ Here are a few good practices for creating groups:
 9.  Click **Update**.
 
 
-**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

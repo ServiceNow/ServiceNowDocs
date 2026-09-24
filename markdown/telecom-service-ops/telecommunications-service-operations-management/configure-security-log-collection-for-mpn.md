@@ -2,7 +2,7 @@
 title: Configure security log collection for MPN
 description: Configure the out-of-box Health Log Analytics security log data input, an Elasticsearch collector, to collect Mobile Private Network \(MPN\) security logs and convert them into structured log records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-security-log-collection-for-mpn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/configure-security-log-collection-for-mpn.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -28,7 +28,7 @@ For instructions on setting up a MID Server, see [Set up a MID Server role](http
 
 ## About this task
 
-MPN security log collection uses the out-of-box security log data input under Health Log Analytics, configured with values specific to the MPN security log source. The data input is an Elasticsearch collector that queries a security log index and passes each raw log document through a parser. The parser extracts structured fields, including a customer identifier, from the raw message text. For a list of the fields produced, see the [MPN security log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-security-log-fields.md) reference.
+MPN security log collection uses the out-of-box security log data input under Health Log Analytics, configured with values specific to the MPN security log source. The data input is an Elasticsearch collector that queries a security log index and passes each raw log document through a parser. The parser extracts structured fields, including a customer identifier, from the raw message text. For a list of the fields produced, see the [MPN security log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-security-log-fields.md) reference.
 
 ## Procedure
 
@@ -92,10 +92,10 @@ SECURITY: Wrong password **** customer: "C1234567", site: "<site-id>", user: "<u
 
 produces a structured record containing fields such as customer, site, user, client IP, and host, shown concatenated in the log message in the log viewer.
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
 
 **Related topics**  
 
 
-[MPN security log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-security-log-fields.md)
+[MPN security log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-security-log-fields.md)
 

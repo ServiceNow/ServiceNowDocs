@@ -2,7 +2,7 @@
 title: Review imports
 description: This section reviews all your importation settings in SGC Central.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgcc-review-imports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/sgcc-review-imports.html
 release: australia
 topic_type: task
 last_updated: "2026-05-27"
@@ -48,5 +48,5 @@ Role required: admin
     \[Omitted image "sgcc-review-ot-devices.png"\] Alt text: Review the imported OT devices
 
 
-**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-central-for-ot-discovery.md)
 

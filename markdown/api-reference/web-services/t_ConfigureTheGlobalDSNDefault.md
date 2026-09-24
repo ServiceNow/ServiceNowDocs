@@ -2,7 +2,7 @@
 title: Configure the global DSN default
 description: Configure the global default used by all newly created DSNs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ConfigureTheGlobalDSNDefault.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_ConfigureTheGlobalDSNDefault.html
 release: australia
 product: Web Services
 classification: web-services
@@ -43,5 +43,5 @@ A default DSN is preloaded with the ODBC driver installation ServiceNow data sou
     \[Omitted image "OdbcManagementConsole2.png"\] Alt text: ODBC Management Console
 
 
-**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-odbc.md)
+**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/configuring-odbc.md)
 

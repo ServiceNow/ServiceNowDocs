@@ -2,7 +2,7 @@
 title: Obligation form
 description: The obligation form provides the details to create or modify an obligation record in Obligation Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-obligation-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-obligation-form.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -176,7 +176,7 @@ Task creation lead time \(days\)
 This field appears only when **Recurring** is selected from the **Schedule** field. It determines the number of days before the task’s due date when the obligation tasks should be automatically created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

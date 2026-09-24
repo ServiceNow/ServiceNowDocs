@@ -2,7 +2,7 @@
 title: Propose a major case
 description: As an OSP agent, you can propose a major case from the existing customer service case assigned to you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-propose-major-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/osp-propose-major-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure the theme for Service Operations Workspace for ITSM
 description: Configure the visual experience in Service Operations Workspace for ITSM for your users, helping to update the look and feel to be more like your brand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-theme-sow-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configure-theme-sow-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace

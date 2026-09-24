@@ -2,7 +2,7 @@
 title: Workforce Optimization for HR reference
 description: Workforce Optimization for HR reference includes information about the roles, system properties, and tables installed.Several types of components are installed with activation of Workforce Optimization for HR application, including user roles, key performance indicators \(kpis\), scheduled jobs, properties, and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/wfo-hr-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/wfo-hr-reference.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -378,7 +378,7 @@ The **WFO Forecast** time series metric retention policy is available by default
 |Tech Support: Average Chat Work Time|Average chat duration a tech support agent had for each interaction. Time is measured in hours. The default value is 0.5.|
 |Sales Support: Average Chat Work Time|Average chat duration a sales support agent had for each interaction. Time is measured in hours. The default value is 0.5.|
 
-If you create forecast parameters for a forecast configuration, the values set in the configuration are used instead of the default forecast parameters listed in the forecast properties section. For information on configuring forecast parameters, see [Modify forecast parameters to visualize forecast data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/modify-demand-forecase-parameters-wfo-hr.md).
+If you create forecast parameters for a forecast configuration, the values set in the configuration are used instead of the default forecast parameters listed in the forecast properties section. For information on configuring forecast parameters, see [Modify forecast parameters to visualize forecast data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/modify-demand-forecase-parameters-wfo-hr.md).
 
 |Name|Description|
 |----|-----------|
@@ -610,7 +610,7 @@ Grants access to add training, assessments, and skill records.
 -   survey\_reader
 
 </td></tr></tbody>
-</table>**Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md).
+</table>**Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md).
 
 |Business rule|Table|Description|
 |-------------|-----|-----------|
@@ -627,7 +627,7 @@ Grants access to add training, assessments, and skill records.
 
 **Note:** You can customise the coaching opportunities for low CSAT, high TTR, SLA breach, and handling time based on your business needs.
 
-**Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md).
+**Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md).
 
 |Name|Description|
 |----|-----------|
@@ -663,7 +663,7 @@ Excludes weekends when the due date is set for trainees to complete training.-  
 </td></tr></tbody>
 </table>### Coaching with Learning
 
-**Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md).
+**Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md).
 
 <table id="table_fk4_mwq_npb"><thead><tr><th>
 

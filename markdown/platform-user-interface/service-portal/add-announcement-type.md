@@ -2,7 +2,7 @@
 title: Create an announcement type
 description: Announcement types determine where an announcement displays. Announcements include two base system types: banner and widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/add-announcement-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/add-announcement-type.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -63,7 +63,7 @@ Similar to creating a category tag, you can create alternative types to define c
 
 The widget instance associated with the type displays any announcements tagged with the same type.
 
-**Parent Topic:**[Posting announcements to portal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/announcements.md)
+**Parent Topic:**[Posting announcements to portal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/announcements.md)
 
 **Related topics**  
 

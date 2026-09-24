@@ -2,7 +2,7 @@
 title: Create a risk signal
 description: Create a risk signal to identify any risk or issues that can occur during the engagement lifecycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-risk-signal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-risk-signal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
-Risk Signals and Issues are used to record and manage risks associated with an engagement so that appropriate actions can be taken. Risks may have different degrees of severity and must be evaluated before they’re addressed. For example, an external system may flag missing information to the customer success manager who may address the issue using an internal play. If the risk is low in impact, the customer success manager may decide to accept the risk and proceed with the engagement. See [Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md) for details.
+Risk Signals and Issues are used to record and manage risks associated with an engagement so that appropriate actions can be taken. Risks may have different degrees of severity and must be evaluated before they’re addressed. For example, an external system may flag missing information to the customer success manager who may address the issue using an internal play. If the risk is low in impact, the customer success manager may decide to accept the risk and proceed with the engagement. See [Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md) for details.
 
 ## Procedure
 
@@ -239,5 +239,5 @@ The products impacted by this risk or issue.
 </table>4.  Select **Save** to create risk signal.
 
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

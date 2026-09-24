@@ -2,7 +2,7 @@
 title: Configuring security for a project in Project Workspace
 description: Configure security in a project to make the project confidential to ensure that only the authorized users can access the project and its sub projects and related entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -20,17 +20,17 @@ Sensitive projects are visible and accessible to only specified users and user g
 
 To enable these advanced security features, install the Project Advanced Security plugin. The plugin requires the PPM Standard plugin as a prerequisite.
 
--   **[Activate the Project Advanced Security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/activate-the-project-advanced-security-plugin.md)**  
+-   **[Activate the Project Advanced Security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/activate-the-project-advanced-security-plugin.md)**  
 Activate the Project Advanced Security plugin to enable project security settings on a project.
--   **[Enable security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/enable-security-for-a-project-in-project-workspace.md)**  
+-   **[Enable security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/enable-security-for-a-project-in-project-workspace.md)**  
 Enable security in a project to make the project confidential to ensure that only authorized users can access the project and its related sub projects and entities.
 
-**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-pw.md)
+**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-pw.md)
 
 **Related topics**  
 
 
-[Activate the Project Advanced Security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/activate-the-project-advanced-security-plugin.md)
+[Activate the Project Advanced Security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/activate-the-project-advanced-security-plugin.md)
 
-[Enable security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/enable-security-for-a-project-in-project-workspace.md)
+[Enable security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/enable-security-for-a-project-in-project-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Email encryption - S/MIME protocol
 description: Secure/Multipurpose Internet Mail Extensions \(S/MIME\) is an end-end encryption protocol for sending digitally signed and encrypted emails that support data confidentiality, authenticity, and integrity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/smime-inbound-outbound-mails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/smime-inbound-outbound-mails.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -77,10 +77,10 @@ The sender uses a private key to sign the email and the ServiceNow AI Platform u
 
 The sender uses the public key to encrypt the email and the ServiceNow AI Platform uses the private key to decrypt the email.
 
--   **[Activate S/MIME Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-smime-plugin.md)**  
+-   **[Activate S/MIME Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/activate-smime-plugin.md)**  
 You can activate the S/MIME Email plugin \(com.glide.email.smime\) for Notifications if you have the admin role.
--   **[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/smime-for-email-signing-and-encryption.md)**  
+-   **[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/smime-for-email-signing-and-encryption.md)**  
 S/MIME is a protocol for sending digitally signed and encrypted emails to ensure the confidentiality, authenticity and integrity.
 
-**Parent Topic:**[Email Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-administration-landing.md)
+**Parent Topic:**[Email Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-administration-landing.md)
 

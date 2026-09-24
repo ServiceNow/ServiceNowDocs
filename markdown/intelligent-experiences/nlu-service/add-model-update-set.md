@@ -2,7 +2,7 @@
 title: Add an NLU model to an update set
 description: Use update sets to move your Natural Language Understanding \(NLU\) models from one instance to another. Update sets include all records needed for your model to function on the target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/add-model-update-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/add-model-update-set.html
 release: australia
 product: NLU Service
 classification: nlu-service

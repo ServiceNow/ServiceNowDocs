@@ -2,7 +2,7 @@
 title: Major incident dashboard
 description: Dashboard providing a view into the process and communication related metrics for Open and Closed major incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/major-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/major-incident.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

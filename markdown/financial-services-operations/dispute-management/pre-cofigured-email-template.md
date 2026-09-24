@@ -2,7 +2,7 @@
 title: Preconfigured email templates in a card dispute flow
 description: Email templates are pre-formatted files that you can use to start creating email notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/pre-cofigured-email-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/pre-cofigured-email-template.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -73,5 +73,5 @@ Template that notifies users that their dispute submission is denied.
 
 \[Omitted image "Email\_ack\_submission.jpg"\] Alt text: Sample email acknowledgement letter.
 
-**Parent Topic:**[Dispute manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/workspace-for-dispute-manager.md)
+**Parent Topic:**[Dispute manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/workspace-for-dispute-manager.md)
 

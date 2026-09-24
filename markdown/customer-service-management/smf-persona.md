@@ -2,10 +2,10 @@
 title: Service Model Foundation personas
 description: Understand the key personas involved in managing and using Service Model Foundation and their responsibilities in supporting business organizations \(formerly business locations\) and service operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/smf-persona.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/smf-persona.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up y
 
 Understand the key personas involved in managing and using Service Model Foundation and their responsibilities in supporting business organizations \(formerly business locations\) and service operations.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Understanding Service Model Foundation personas
 

@@ -2,7 +2,7 @@
 title: Sales Forecasting release notes
 description: The ServiceNow Sales Forecasting application helps you project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting was enhanced and updated in the Australia release.The ServiceNow Sales Forecasting application helps you project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/sales-forecasting-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/sales-forecasting-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ See [Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
     Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
 
 ## Australia
 

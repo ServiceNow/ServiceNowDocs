@@ -2,7 +2,7 @@
 title: Configure the problem form
 description: Configure the problem form layout to conform to the workflow and the process of your organization. Add, remove, and customize fields and related lists, create problem categories, and modify links as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-configure-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/problem-configure-forms.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -35,18 +35,18 @@ By default, auditing is enabled for the problem table. The administrator can con
     Some of the following configuration activities are not accessed from within the problem form. These activities are noted in the procedure.
 
 
--   **[Configure the problem form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/configure-problem-form-layout.md)**  
+-   **[Configure the problem form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/configure-problem-form-layout.md)**  
 Configure the problem form so the information it collects is relevant to your organization's processes. You can easily modify the form to show only the fields, related lists, and other elements that you need.
--   **[Add a field in the assess mandatory field dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/add-field-in-assess-dialog-form.md)**  
+-   **[Add a field in the assess mandatory field dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/add-field-in-assess-dialog-form.md)**  
 Add the mandatory fields necessary to move a problem or a problem task record from the **New** state to the **Assess** state in the assess dialog form. If you miss filling any of the fields, you can always fill those in the assess dialog form.
--   **[Redesign the problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/design-problem-form.md)**  
+-   **[Redesign the problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/design-problem-form.md)**  
 The form designer allows you to customize elements in the problem form to create different form views, display a field navigator, or provide field properties.
--   **[Configure problem categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/configure-problem-categories.md)**  
+-   **[Configure problem categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/configure-problem-categories.md)**  
 Configure problem categories to provide a refined way of monitoring and reporting problems. Add to or remove category and subcategory choices from the list of problem categories or subcategories.
 
-**Parent Topic:**[Configuring Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/configuring-problem-mgmt.md)
+**Parent Topic:**[Configuring Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/configuring-problem-mgmt.md)
 
-**Previous topic:**[Activate Problem Management — ATF Tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/activate-problem-mgmt-atf-tests.md)
+**Previous topic:**[Activate Problem Management — ATF Tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/activate-problem-mgmt-atf-tests.md)
 
-**Next topic:**[Configure the problem form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/configure-problem-form-layout.md)
+**Next topic:**[Configure the problem form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/configure-problem-form-layout.md)
 

@@ -2,7 +2,7 @@
 title: Evaluate Microsoft 365 compliance and optimization results
 description: Evaluate Microsoft 365 compliance and optimization results to find actual and potential cost savings and recommended licensing optimizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/det-comp-opt-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/det-comp-opt-results.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -34,7 +34,7 @@ The usage of Microsoft 365 plans must be available from both Microsoft certified
 
 4.  Create entitlements for Microsoft 365 by selecting the correct Publisher Part Number \(PPN\) to verify compliance.
 
-    For more information about creating entitlements, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+    For more information about creating entitlements, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 
     **Note:** Ensure that the License metric value is User Subscription.
 
@@ -44,10 +44,10 @@ The usage of Microsoft 365 plans must be available from both Microsoft certified
 
 7.  Select **Run reconciliation**.
 
-8.  View compliance analysis results in [Office 365 &amp; Adobe Cloud dashboard in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-saas-subscription-dash.md) and [SaaS overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
+8.  View compliance analysis results in [Office 365 &amp; Adobe Cloud dashboard in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-saas-subscription-dash.md) and [SaaS overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
 
-    For more information about running software reconciliation, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RunReconciliation.md) and [Run Software Asset Management Foundation plugin software reconciliation in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_RunReconciliationSAMF.md).
+    For more information about running software reconciliation, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_RunReconciliation.md) and [Run Software Asset Management Foundation plugin software reconciliation in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_RunReconciliationSAMF.md).
 
-9.  View all optimized plans for Microsoft 365 subscription on the [Optimization and savings dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/optimization-dashboard-workspace.md).
+9.  View all optimized plans for Microsoft 365 subscription on the [Optimization and savings dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/optimization-dashboard-workspace.md).
 
 

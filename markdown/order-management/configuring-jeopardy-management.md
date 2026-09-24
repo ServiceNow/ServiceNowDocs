@@ -2,7 +2,7 @@
 title: Configuring Jeopardy Management
 description: You can configure Jeopardy Management to monitor tasks in a fulfillment plan and alert managers about the jeopardy levels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-jeopardy-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-jeopardy-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Define Jeopardy-enabled fulfillment workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/define-jm-enabled-fulfillment-flows.md)
+[Define Jeopardy-enabled fulfillment workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/define-jm-enabled-fulfillment-flows.md)
 
 </td><td>
 
@@ -40,7 +40,7 @@ Define subflows for product and service specifications using the following Jeoap
 
 </td></tr><tr><td>
 
-[Configure the Order Jeopardy Enablement Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-jeopardy-management.md)
+[Configure the Order Jeopardy Enablement Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enable-jeopardy-management.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Enable Jeopardy Management for product and service using the Order Jeopardy Enab
 
 </td></tr><tr><td>
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-sla-definitions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-sla-definitions.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-sla-definitions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-sla-definitions.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Define service level agreements \(SLA\) based on request type and specify the pr
 
 </td></tr><tr><td>
 
-[Configuring Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-jeopardy-management.md)
+[Configuring Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-jeopardy-management.md)
 
 </td><td>
 
@@ -66,7 +66,7 @@ Set up decision policy tables to retrieve jeopardy information. Policy tables in
 
 </td></tr><tr><td>
 
-[Set business hours for tasks in Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-business-hrs-jmtasks.md)
+[Set business hours for tasks in Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-business-hrs-jmtasks.md)
 
 </td><td>
 
@@ -101,7 +101,7 @@ If you have a Telecommunications subscription, the following fulfillment subflow
 **Related topics**  
 
 
-[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/jeopardy-management.md)
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/jeopardy-management.md)
 
-[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/monitoring-jeopardy-management.md)
 

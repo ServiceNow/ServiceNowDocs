@@ -2,7 +2,7 @@
 title: Key survey terms
 description: These survey terms are used throughout the documentation to describe survey management functions and capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_survey-key-terms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_survey-key-terms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -87,5 +87,5 @@ Scorecard
 Visual representation of survey responses. Scorecards display a variety of data summaries for one survey definition.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/survey-reference.md)
 

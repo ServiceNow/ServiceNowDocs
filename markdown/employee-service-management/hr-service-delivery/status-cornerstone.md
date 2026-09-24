@@ -2,7 +2,7 @@
 title: Status mapping in Cornerstone OnDemand System
 description: Once you set up HR Service Delivery Integration with Cornerstone OnDemand, mapping between transcript status ID and status value is displayed in the Status page in HR Service Delivery Integration with Cornerstone OnDemand. This information helps to manage the task external status in the HR Pulled Integration To-do table, for Cornerstone OnDemand system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/status-cornerstone.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/status-cornerstone.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,7 +23,7 @@ For example, a transcript with status ID **25** is pulled into Cornerstone OnDem
 |Status|Status of the task in the Cornerstone OnDemand system.|
 |Status ID|Unique identifier of the status in Cornerstone OnDemand system.|
 
-**Parent Topic:**[Reference for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-ondemand.md)
+**Parent Topic:**[Reference for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-ondemand.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Playbook activity state-mapping permissions
 description: User permissions must be assigned to allow agents to complete or skip activities in playbook using activity state mapping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-act-state-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/playbook-act-state-permissions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -36,5 +36,5 @@ If the permissions are not valid, users cannot perform that operation. The corre
 
 **Note:** If a user does not have read access on the **Experience Status Field** of the **Experience Status Record**, the default activity state will be used instead. The default activity state is the state of the flow powering the activity.
 
-**Parent Topic:**[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-activity-state-mapping.md)
+**Parent Topic:**[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-activity-state-mapping.md)
 

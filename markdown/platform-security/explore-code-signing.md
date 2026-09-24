@@ -2,7 +2,7 @@
 title: Exploring Code Signing
 description: Code Signing provides cryptographic verification to ensure that only authorized scripts can execute on MID Servers. Code Signing prevents unauthorized or tampered External Communication Channel \(ECC\) queue records from being processed by MID Servers, maintaining the integrity of integrations between ServiceNow and external systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/explore-code-signing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/explore-code-signing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -92,5 +92,5 @@ All the metadata tables with valid configurations are signed at build time using
     \[Omitted image "encryption-job.png"\] Alt text: Encryption job to mass sign records.
 
 
-**Parent Topic:**[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
+**Parent Topic:**[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-landing.md)
 

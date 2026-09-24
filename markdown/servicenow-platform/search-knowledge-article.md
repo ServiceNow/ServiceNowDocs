@@ -2,7 +2,7 @@
 title: Search knowledge article
 description: Use the search function to find articles you want to work on and then filter and sort your results as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/search-knowledge-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/search-knowledge-article.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

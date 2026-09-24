@@ -2,7 +2,7 @@
 title: Install multiple applications in a batch
 description: The Batch Installation feature helps you install multiple applications, plugins, or application-customizations together, instead of having to install them serially one at a time. You can access this feature either from the Continuous Integration and Continuous Delivery \(CI/CD\) APIs via three new endpoints, or via the CI/CD Spoke on Integration Hub using Workflow Studio subflows and actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/cicd-spoke-batch-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/cicd-spoke-batch-install.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ For details on installing applications in a batch via the REST API see [Continuo
 
 For details on installing applications in a batch with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) application, see [Continuous Integration and Continuous Delivery \(CICD\) spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cicd-spoke.md).
 
-**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/using-legacy-application-manager.md)
 

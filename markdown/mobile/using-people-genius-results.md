@@ -2,7 +2,7 @@
 title: Using People Genius results on mobile
 description: Search for people in your organization and view their profiles by entering their name into your search bar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/using-people-genius-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/using-people-genius-results.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,5 +22,5 @@ Select a person’s name to view their user profile. The profile displays inform
 
 For information on configuring People Genius results for mobile, see [Activate People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-people-genius-results-ais.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-now-assist-mobile.md)
 

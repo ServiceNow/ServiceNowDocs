@@ -2,7 +2,7 @@
 title: Assign topics to internal content
 description: Add assigned topics to internal learning content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/assign-internal-content-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/assign-internal-content-topics.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -31,5 +31,5 @@ Role required:sn\_lc.learning\_admin, sn\_lc.learning\_course\_catalog\_admin
 4.  Select a topic to be added as connected content to the internal learning course.
 
 
-**Parent Topic:**[Create internal Learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-internal-learning-content.md)
+**Parent Topic:**[Create internal Learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-internal-learning-content.md)
 

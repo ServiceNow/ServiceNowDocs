@@ -2,7 +2,7 @@
 title: Import skills
 description: Import skills to assign the right agent to the customer interaction so that customer inquiries can be handled efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/import-skills.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

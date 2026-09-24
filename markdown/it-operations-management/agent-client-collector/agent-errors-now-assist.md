@@ -2,7 +2,7 @@
 title: View an error analysis by ServiceNow Otto in Agent Client Collector
 description: View an error analysis created by generative AI. Error analyses enable asking questions on a specific agent's error or error code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/agent-errors-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/agent-errors-now-assist.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

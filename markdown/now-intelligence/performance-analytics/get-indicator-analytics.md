@@ -2,7 +2,7 @@
 title: Get analytics methods in formulas
 description: To insert a calculated value from the Analytics Hub into a formula, use a method in the formula.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/get-indicator-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/get-indicator-analytics.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -24,7 +24,7 @@ Role required: pa\_power\_user, admin
 
 You can use a value that was calculated in the Analytics Hub as input for a formula. That value can be from any indicator, including from the current formula indicator itself.
 
-To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) into the formula. To call one of these methods, use the Performance Analytics variable `pa`. For example, to use the PAFormulaUtils.getScore method, call `pa.getScore`. For more information, see [PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md).
+To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) into the formula. To call one of these methods, use the Performance Analytics variable `pa`. For example, to use the PAFormulaUtils.getScore method, call `pa.getScore`. For more information, see [PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/PAFormulaUtils.md).
 
 ## Procedure
 
@@ -49,7 +49,7 @@ To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) i
     Date fields can take the following values:
 
     -   An absolute date in YYYY-MM-DD format, such as 2018-12-21.
-    -   The variable `score_start` or `score_end`. These variables represent the first and last second of the collection period being calculated for the referenced indicator. The times are calculated from the difference between the time zone of the user and the database server time zone, which is GMT. For more information, see [Changes to score\_start/end because of different user time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/time-zones-indicator-formulas.md).
+    -   The variable `score_start` or `score_end`. These variables represent the first and last second of the collection period being calculated for the referenced indicator. The times are calculated from the difference between the time zone of the user and the database server time zone, which is GMT. For more information, see [Changes to score\_start/end because of different user time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/time-zones-indicator-formulas.md).
     -   A date parameter that you have coded yourself using the GlideDate or the GlideDateTime API.
 5.  Fill in any parameters and click **Select**.
 
@@ -120,10 +120,10 @@ You want to filter out the scores of incidents where Priority = 1 - Critical.
     ```
 
 
--   **[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)**  
+-   **[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/PAFormulaUtils.md)**  
 The PAFormulaUtils API enables you to obtain a value that was calculated in the Analytics Hub and use that value as input for a formula.
 
-**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 

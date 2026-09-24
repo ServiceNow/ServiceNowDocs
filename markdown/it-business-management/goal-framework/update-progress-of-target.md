@@ -2,7 +2,7 @@
 title: Update the progress of a manual target
 description: Update the progress of a target when its status is changed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/update-progress-of-target.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/update-progress-of-target.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -28,15 +28,15 @@ Role required: sn\_gf.goal\_useror sn\_gf.goal\_admin
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d262374e61">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d262168e61">
 
 Option
 
-</th><th align="left" id="d262374e64">
+</th><th align="left" id="d262168e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d262374e70">
+</th></tr></thead><tbody><tr><td id="d262168e70">
 
 **From the Targets related list**
 
@@ -47,7 +47,7 @@ Steps
 3.  In the Quantitative Targets or Qualitative Targets related list, click **New**.
 
 
-</td></tr><tr><td id="d262374e103">
+</td></tr><tr><td id="d262168e103">
 
 **From the Targets module**
 
@@ -60,19 +60,19 @@ Steps
 </td></tr></tbody>
 </table>2.  On the Target form, update the **Actuals to date** field and add a business justification in the **Remark** field.
 
-    For field information, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-form.md).
+    For field information, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/target-form.md).
 
 3.  Click **Update**.
 
 
 ## Result
 
-Once the **Actuals to date** field is updated, the progress value for the target is auto-updated. For information on how the progress value is calculated, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/progress-value-calculation.md).
+Once the **Actuals to date** field is updated, the progress value for the target is auto-updated. For information on how the progress value is calculated, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/progress-value-calculation.md).
 
 **Related topics**  
 
 
-[Update the progress of a target using Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/update-progress-of-target-agf.md)
+[Update the progress of a target using Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/update-progress-of-target-agf.md)
 
-[Update the actual value of a target breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/update-the-actual-value-of-a-target-breakdown-gf.md)
+[Update the actual value of a target breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/update-the-actual-value-of-a-target-breakdown-gf.md)
 

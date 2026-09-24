@@ -2,7 +2,7 @@
 title: Generate a chat reply recommendation by using ServiceNow Otto for HRSD
 description: Generate a reply based on the context of the chat conversation using ServiceNow Otto icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/chat-recommendations-nahr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/chat-recommendations-nahr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -18,7 +18,7 @@ Generate a reply based on the context of the chat conversation using ServiceNow 
 
 ## Before you begin
 
-[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
+[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
 Role required: sn\_hr\_gen\_ai.admin
 
@@ -29,7 +29,7 @@ You can do these actions by using the ServiceNow Otto icon:
 -   Generate a recommended reply that is based on the context of the conversation.
 -   Refine the recommendation by elaborating or shortening the response.
 
-**Note:** The Chat reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in AI Admin Hub. To learn how to activate this skill, see [Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
+**Note:** The Chat reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in AI Admin Hub. To learn how to activate this skill, see [Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -47,15 +47,15 @@ You can do these actions by using the ServiceNow Otto icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d406433e186">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d406437e186">
 
 Chat message window
 
-</th><th align="left" id="d406433e189">
+</th><th align="left" id="d406437e189">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d406433e197">
+</th></tr></thead><tbody><tr><td id="d406437e197">
 
 **Typed response**
 
@@ -67,7 +67,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d406433e217">
+</td></tr><tr><td id="d406437e217">
 
 **Left blank**
 
@@ -87,7 +87,7 @@ Generates a recommended reply that is based on the context of the conversation u
 7.  End the chat by selecting **End Chat**.
 
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

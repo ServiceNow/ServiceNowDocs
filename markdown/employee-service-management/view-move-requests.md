@@ -2,7 +2,7 @@
 title: View move requests
 description: Monitor the move requests that are assigned to you, the requests that are currently open, and all the other requests that are created in the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/view-move-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/view-move-requests.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ Role required: sn\_wsd\_move.manager
     -   Related cases
     -   Conflicts review
 
-**Parent Topic:**[Analytics and reporting solutions for Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/analytics-reporting-solution.md)
+**Parent Topic:**[Analytics and reporting solutions for Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/analytics-reporting-solution.md)
 
 **Related topics**  
 

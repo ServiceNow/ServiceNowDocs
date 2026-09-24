@@ -2,7 +2,7 @@
 title: Auto-upgrade
 description: The auto-upgrade mechanism automatically upgrades ServiceNow-managed applications across your instances on a regular schedule without requiring manual intervention. Auto-upgrade applies exclusively to ServiceNow-managed applications; customer-customized or third-party applications aren't included in automatic upgrades.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/um-auto-upgrade.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/application-manager/um-auto-upgrade.html
 release: australia
 product: Application Manager
 classification: application-manager
@@ -52,9 +52,9 @@ If an auto-upgrade installation fails, the system includes retry logic within th
     -   Failed: The application upgrade failed; review the failure details and configure retry settings if needed
 -   Resolve withdrawn application errors. If an application version is withdrawn from the store before auto-upgrade installation, the system treats it as a failed installation and displays an error message indicating the application is unavailable. Check the error details to determine next steps.
 
-**Parent Topic:**[Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/updating-apps-app-manager.md)
+**Parent Topic:**[Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/updating-apps-app-manager.md)
 
-**Parent Topic:**[Using Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-using.md)
+**Parent Topic:**[Using Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-using.md)
 
 **Related topics**  
 

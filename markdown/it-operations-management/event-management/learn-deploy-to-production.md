@@ -2,7 +2,7 @@
 title: Learn how to deploy Event Management to production
 description: Understand the process and considerations for deploying Event Management configurations from development to production environments using update sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/learn-deploy-to-production.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/learn-deploy-to-production.html
 release: australia
 product: Event Management
 classification: event-management

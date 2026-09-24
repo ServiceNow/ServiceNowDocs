@@ -2,7 +2,7 @@
 title: Map UR fields with target table fields
 description: Define the fields that you want to map between the universal request and the target table fields that you already configured. This configuration enables you to copy the values of mapped fields from the universal request to the new ticket, and vice versa.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/transfer-fields-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/transfer-fields-mapping.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -30,15 +30,15 @@ To map automatically the fields, select **Map fields automatically** related lin
 
 2.  Open the configuration for which you want to map the fields.
 
-<table id="choicetable_mmq_lyn_mtb"><thead><tr><th align="left" id="d168741e80">
+<table id="choicetable_mmq_lyn_mtb"><thead><tr><th align="left" id="d168745e80">
 
 Mapping type
 
-</th><th align="left" id="d168741e83">
+</th><th align="left" id="d168745e83">
 
 Description and action
 
-</th></tr></thead><tbody><tr><td id="d168741e89">
+</th></tr></thead><tbody><tr><td id="d168745e89">
 
 **Direct transfer mappings**
 
@@ -52,7 +52,7 @@ Map the fields to create service level tickets when a ticket is transferred from
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d168741e130">
+</td></tr><tr><td id="d168745e130">
 
 **Associated ticket mappings**
 
@@ -66,7 +66,7 @@ Map the fields to create an associated ticket for universal request.On the **Ass
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d168741e171">
+</td></tr><tr><td id="d168745e171">
 
 **Create UR mappings**
 
@@ -74,7 +74,7 @@ Map the fields to create an associated ticket for universal request.On the **Ass
 
 Map the fields to create automatically a universal request when a request is raised from any of the available channels.
 
-**Note:** Before you perform this step, ensure that you’ve created a new Before insert business rule to call the respective API. For more information, see [Create a business rule to automatically create universal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-create-brule-omnichannel.md).
+**Note:** Before you perform this step, ensure that you’ve created a new Before insert business rule to call the respective API. For more information, see [Create a business rule to automatically create universal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-create-brule-omnichannel.md).
 
  On the **Create UR Mappings** tab,
 
@@ -90,5 +90,5 @@ Map the fields to create automatically a universal request when a request is rai
 3.  Select **Update**.
 
 
-**Parent Topic:**[Configure mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-transfer-map-config.md)
+**Parent Topic:**[Configure mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-transfer-map-config.md)
 

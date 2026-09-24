@@ -2,7 +2,7 @@
 title: Modify a published template using quick edit
 description: Use Quick edit to make limited changes to a published template which has an assessment associated with it without creating a version. Quick edit is intended for small corrections, such as fixing typos or updating text, while preserving the published state of the template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/modify-a-published-template-using-quick-edit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/modify-a-published-template-using-quick-edit.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -18,7 +18,7 @@ Use Quick edit to make limited changes to a published template which has an asse
 
 ## Before you begin
 
--   To be able to use quick edit features, make sure that quick edit is enabled for the template’s category. For more information, refer to [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+-   To be able to use quick edit features, make sure that quick edit is enabled for the template’s category. For more information, refer to [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 -   Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_admin
 
 ## About this task

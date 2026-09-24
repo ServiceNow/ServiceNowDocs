@@ -2,7 +2,7 @@
 title: Freeform Visual Task Boards
 description: You can add personal task cards directly to lanes on a freeform board. You can also add other kinds of task cards to a freeform board from a list or form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/c\_FreeformBoardTasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/c\_FreeformBoardTasks.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -16,16 +16,16 @@ breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task 
 
 You can add personal task cards directly to lanes on a freeform board. You can also add other kinds of task cards to a freeform board from a list or form.
 
--   **[Create a freeform Visual Task Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_CreateAFreeformBoard.md)**  
+-   **[Create a freeform Visual Task Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_CreateAFreeformBoard.md)**  
 You can create freeform Visual Task Boards \(VTBs\) for tracking any kind of task or project.
--   **[Add a personal task to a freeform Visual Task Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_AddAPersonalTaskToAFreeformBoard.md)**  
+-   **[Add a personal task to a freeform Visual Task Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_AddAPersonalTaskToAFreeformBoard.md)**  
 You can add cards directly to a freeform board lane. These cards are called personal tasks and represent records on the Private Task \[vtb\_task\] table.
--   **[Add a task to a freeform Visual Task Board from a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_AddATaskToAFreeformBoardFromAForm.md)**  
+-   **[Add a task to a freeform Visual Task Board from a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_AddATaskToAFreeformBoardFromAForm.md)**  
 You can add a task card to a freeform board from any table that extends Task. These cards represent records on whichever table you add them from.
--   **[Add a task to a freeform Visual Task Board from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_AddATaskToAFreeformBoardFromAList.md)**  
+-   **[Add a task to a freeform Visual Task Board from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_AddATaskToAFreeformBoardFromAList.md)**  
 You can add a task card to a freeform board from any table that extends Task. These cards represent records on whichever table you add them from.
 
-**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
+**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Lenses in Strategic Planning
 description: Lenses represent planning perspectives, which would be different for planning managers at different levels in an organization. Lenses enable you to create personalized portfolio plans through which you prioritize and align work with high-level initiatives and goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/lens-alignment-planner-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/lens-alignment-planner-workspace.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -239,8 +239,8 @@ Planning items
 Plan, prioritize, and roadmap the work directly with planning items, without configuring organization structure, programs, portfolios, or products.
 
 </td></tr></tbody>
-</table>-   If you're an admin, you can modify the structure for these pre-defined lenses or configure a new lens altogether based on your planning manager's requirements. For more information, see [Lens configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-lens-in-alignment-planner-workspace.md).
--   If you're a planning manager, learn about portfolio plans to start aligning your work with the business strategy. See [Portfolio plans in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/portfolio-plans-in-strategic-planning.md).
+</table>-   If you're an admin, you can modify the structure for these pre-defined lenses or configure a new lens altogether based on your planning manager's requirements. For more information, see [Lens configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configuring-lens-in-alignment-planner-workspace.md).
+-   If you're a planning manager, learn about portfolio plans to start aligning your work with the business strategy. See [Portfolio plans in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/portfolio-plans-in-strategic-planning.md).
 
-**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
+**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

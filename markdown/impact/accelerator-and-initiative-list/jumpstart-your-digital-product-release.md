@@ -2,7 +2,7 @@
 title: Jumpstart Your Digital Product Release
 description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow's Digital Product Release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-digital-product-release.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-digital-product-release.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

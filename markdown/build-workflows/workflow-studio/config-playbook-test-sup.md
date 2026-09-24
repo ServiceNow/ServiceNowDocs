@@ -2,7 +2,7 @@
 title: Configure testing support for playbooks
 description: Configure the Automated Test Framework \(ATF\) to support testing playbooks by authoring tests in the ATF UI on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/config-playbook-test-sup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/config-playbook-test-sup.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -85,7 +85,7 @@ Return to your test configuration page on your instance, refresh the page, and y
 
 ## What to do next
 
-Add as many test steps as you need and then run the test. For information about running an ATF test, see [Run an automated test on a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/run-atf-test-on-playbook.md).
+Add as many test steps as you need and then run the test. For information about running an ATF test, see [Run an automated test on a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/run-atf-test-on-playbook.md).
 
-**Parent Topic:**[Testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/testing-support-playbooks.md)
+**Parent Topic:**[Testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/testing-support-playbooks.md)
 

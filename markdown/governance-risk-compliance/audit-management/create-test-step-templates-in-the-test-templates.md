@@ -2,7 +2,7 @@
 title: Create test step templates in the test templates
 description: Create and add a test step template to a test template from the Audit Workspace to define control assessment steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-test-step-templates-in-the-test-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/create-test-step-templates-in-the-test-templates.html
 release: australia
 product: Audit Management
 classification: audit-management

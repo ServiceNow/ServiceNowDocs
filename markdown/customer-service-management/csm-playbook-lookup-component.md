@@ -2,7 +2,7 @@
 title: Playbook lookup component
 description: The playbook lookup component enables agents to look up contact and consumer records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-lookup-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-lookup-component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

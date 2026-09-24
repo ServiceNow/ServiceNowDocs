@@ -2,7 +2,7 @@
 title: Asset Management shipment field and state mappings to SPO
 description: Lists the field and state mappings between Asset Management Shipment records and SPO Shipment records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/itam-shipment-field-state-mappings-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-shipment-field-state-mappings-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -38,7 +38,7 @@ Shipment records created in asset management have corresponding readN/Aonly reco
 |In Transit|Out for Delivery|
 |Delivered|Delivered|
 
-**Parent Topic:**[SPO and Asset Management data model mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-data-model.md)
+**Parent Topic:**[SPO and Asset Management data model mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-data-model.md)
 
 **Related topics**  
 

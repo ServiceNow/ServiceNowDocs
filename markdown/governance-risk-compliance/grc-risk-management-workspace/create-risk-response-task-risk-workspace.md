@@ -2,7 +2,7 @@
 title: Create a risk response task in the Risk Workspace
 description: Create a risk response task to define plan of actions, assign responsibilities, set priorities, and establish deadlines to ensure effective management of the assessed risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-response-task-risk-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-response-task-risk-workspace.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -43,8 +43,8 @@ Role required: sn\_risk\_advanced.ara\_assessor
 6.  Select **Save task**.
 
 
--   **[Create an action item in the risk response task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-action-item-risk-response-task.md)**  
+-   **[Create an action item in the risk response task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-action-item-risk-response-task.md)**  
 Create multiple strategies with various action items for each risk response task. Action items help you to understand and focus on specific steps needed to manage risks.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

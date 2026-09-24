@@ -2,7 +2,7 @@
 title: Chat with Virtual Agent from the Business Organization Support Portal
 description: Provide the information needed about a case and its resolution by completing a pre-survey on the Business Organization Support Portal \(formerly Business Location Service Portal\). This pre-chat survey lets the customer service agent or Virtual Agent know your location and key case details, so you don’t have to repeat them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-chat-business-location-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/agent-chat-business-location-service-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Provide the information needed about a case and its resolution by completing a p
 
 Role required: Service Organization Contributor \(sn\_customerservice.service\_organization\_contributor\) or Location Manager \(sn\_customerservice.svc\_location\_manager\_core\)
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
@@ -40,5 +40,5 @@ If the agent creates a case or links the discussion to an existing case, you can
 **Related topics**  
 
 
-[Virtual Agent support for business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/virtual-agent-support-business-locations.md)
+[Virtual Agent support for business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/virtual-agent-support-business-locations.md)
 

@@ -2,7 +2,7 @@
 title: Use the Procurement Overview module
 description: Use the gauges on the Procurement Overview homepage to help you track and manage requests, purchase orders, and other important aspects of the procurement process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_UsingTheProcurementOverviewModule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/procurement/t\_UsingTheProcurementOverviewModule.html
 release: australia
 product: Procurement
 classification: procurement
@@ -29,7 +29,7 @@ Role required: procurement\_admin or procurement\_user
     For example, click a request number to view the request record.
 
 
-**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/procurement/c_Procurement.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: AI Analytics reference
 description: AI Analytics reference topics include information about user roles and details of the indicators on the dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-analytics-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-analytics-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

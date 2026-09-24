@@ -2,7 +2,7 @@
 title: Create an AI connection for Copilot Studio \(v3.1.7\)
 description: Create an AI connection for Copilot Studio in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 3.1.7\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-copilot-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-copilot-studio.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -43,7 +43,7 @@ To configure application access:
     -   Basic User
     -   System administrator
 
-If you don't want to create a System administrator role, you can create a Copilot Studio dataverse custom role. For custom role creation, see [Create a Copilot Studio Dataverse custom role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-a-copilot-studio-dataverse-custom-role.md).
+If you don't want to create a System administrator role, you can create a Copilot Studio dataverse custom role. For custom role creation, see [Create a Copilot Studio Dataverse custom role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/create-a-copilot-studio-dataverse-custom-role.md).
 
 **Note:** You can obtain the Environment ID from Settings &gt; Session details &gt; Environment ID in your environment.
 

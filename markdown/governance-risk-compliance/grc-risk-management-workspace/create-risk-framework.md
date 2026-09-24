@@ -2,7 +2,7 @@
 title: Create a risk framework in the Risk Workspace
 description: Create risk frameworks to group risk statements into manageable categories and generate risks. After the risks are generated, you can identify methods to mitigate them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-framework.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -117,7 +117,7 @@ Steps
 1.  Click **New**.
 2.  Select the risk statement and fill in the form.
 
-For more information, see [Create a risk statement in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-stmt-workspace.md).
+For more information, see [Create a risk statement in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-stmt-workspace.md).
 
 3.  Click **Add**.
 
@@ -128,8 +128,8 @@ For more information, see [Create a risk statement in the Risk Workspace](https:
 
 The new risk framework is created.
 
--   **[Create a risk statement in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-stmt-workspace.md)**  
+-   **[Create a risk statement in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-stmt-workspace.md)**  
 Create risk statements to group risks into manageable categories.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

@@ -2,7 +2,7 @@
 title: View RIDAC records for planning items
 description: Access and view risks, issues, decisions, actions, and changes from the RIDAC home page. Filter RIDAC records by planning scope and type to focus on the items relevant to your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/view-ridac-records-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/view-ridac-records-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

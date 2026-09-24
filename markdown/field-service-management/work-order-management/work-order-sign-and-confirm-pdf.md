@@ -2,7 +2,7 @@
 title: Signed PDF summaries for closed work orders
 description: In Field Service Management, customers can digitally sign and confirm work orders that are closed with the Closed Complete or Closed Incomplete state. A PDF summary of the signed work order is then created.You can activate the Field Service - Signature Pad plugin \(com.snc.wo\_signature\_pad\) for Field Service Management if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/work-order-sign-and-confirm-pdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/work-order-sign-and-confirm-pdf.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -21,7 +21,7 @@ The summary includes the completed tasks, parts used and returned, incidental ex
 **Related topics**  
 
 
-[Create a signed PDF summary for a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-wo-pdf-summary.md)
+[Create a signed PDF summary for a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/create-wo-pdf-summary.md)
 
 ## Activate Field Service Signature Pad
 
@@ -29,7 +29,7 @@ You can activate the Field Service - Signature Pad plugin \(com.snc.wo\_signatur
 
 ### Before you begin
 
-Field Service Management - Signature Pad requires you to install the Field Service Management plugin \(com.snc.work\_management\). For more information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
+Field Service Management - Signature Pad requires you to install the Field Service Management plugin \(com.snc.work\_management\). For more information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ActivateFieldServiceManagement.md).
 
 Role required: admin.
 
@@ -40,7 +40,7 @@ The following items are installed with Field Service Management - Signature Pad:
 -   Tables
 -   Script Includes
 
-For more information, see [Field Service - Signature Pad components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-signed-pdf-components.md).
+For more information, see [Field Service - Signature Pad components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-signed-pdf-components.md).
 
 ### Procedure
 
@@ -61,5 +61,5 @@ For more information, see [Field Service - Signature Pad components](https://raw
 
 The Field Service - Signature Pad plugin when activated successfully adds the Signature Capture and PDF Order Summary configurations in the Field Service Configuration page.
 
-**Note:** You must enable [**Signature Capture** and **PDF Order Summary**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md) to generate the signed PDF summary of a closed work order.
+**Note:** You must enable [**Signature Capture** and **PDF Order Summary**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ConfigureFieldService.md) to generate the signed PDF summary of a closed work order.
 

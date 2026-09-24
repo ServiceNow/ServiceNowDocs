@@ -2,12 +2,12 @@
 title: Override default metric-to-CI binding
 description: Replace the shipped logic that binds collected metrics to configuration items \(CIs\) for a Telecommunications Service Operations Management metric source. Create your own implementation of the EventFieldMapping extension point and wire it into an event field mapping rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/override-metric-ci-binding-tsom-sgc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/override-metric-ci-binding-tsom-sgc.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 6
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
@@ -25,7 +25,7 @@ Replace the shipped logic that binds collected metrics to configuration items \(
 
 Role required: `tsom_assurance_admin`
 
-For an overview of how metric-to-CI binding works in Telecommunications Service Operations Management service graph connectors, see [Metric-to-CI binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/metric-to-ci-binding-tsom-sgc.md).
+For an overview of how metric-to-CI binding works in Telecommunications Service Operations Management service graph connectors, see [Metric-to-CI binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/metric-to-ci-binding-tsom-sgc.md).
 
 ## About this task
 
@@ -130,7 +130,7 @@ The shipped behavior is provided by an `EventFieldMapping` implementation that t
 
 New metrics collected from the source are bound to configuration items by your custom implementation.
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
 
 **Related topics**  
 
@@ -139,5 +139,5 @@ New metrics collected from the source are bound to configuration items by your c
 
 [Create event field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_EMCreateEventFieldMapping2.md)
 
-[MPN Formulas table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formulas-table.md)
+[MPN Formulas table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formulas-table.md)
 

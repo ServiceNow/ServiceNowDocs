@@ -2,7 +2,7 @@
 title: Customize a Workforce Optimization for ITSM page using the Next Experience UI Builder
 description: Clone an existing Workforce Optimization for ITSM page and customize it based on your needs using the Next Experience UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/customize-wfo-itsm-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/customize-wfo-itsm-page.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -61,7 +61,7 @@ For a list of all workspaces ServiceNow offers to target specific users, see [Li
 8.  Select **Done**.
 
 
-**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
+**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
 
 **Related topics**  
 

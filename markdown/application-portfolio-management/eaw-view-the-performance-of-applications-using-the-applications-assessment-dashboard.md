@@ -2,7 +2,7 @@
 title: View application performance in Application Assessments dashboard
 description: Use the Application Assessments dashboard to view overview reports on the performance of the business applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,12 +35,12 @@ Role required: sn\_apm.apm\_analyst
     **Note:** By default, scores for all applications are displayed in the widgets. You can select an application name to hide their score.
 
 
-**Parent Topic:**[Working with Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-dashboards.md)
+**Parent Topic:**[Working with Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-dashboards.md)
 
 **Related topics**  
 
 
-[Explore the Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-working-with-the-applications-assessment-dashboard.md)
+[Explore the Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-with-the-applications-assessment-dashboard.md)
 
-[Monitor performance in Application 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-monitor-performance-in-application-360-dashboard.md)
+[Monitor performance in Application 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-monitor-performance-in-application-360-dashboard.md)
 

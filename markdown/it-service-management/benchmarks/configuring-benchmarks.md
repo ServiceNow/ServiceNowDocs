@@ -2,7 +2,7 @@
 title: Configuring Benchmarks
 description: Enable Benchmarks for ITSM and configure the settings to track the Benchmarks KPI and the trends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/configuring-benchmarks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/configuring-benchmarks.html
 release: australia
 product: Benchmarks
 classification: benchmarks

@@ -2,7 +2,7 @@
 title: Create an AWS IAM user policy for Cloud Cost Management
 description: Create an Identity and Access Management \(IAM\) user profile that enables access to AWS data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-user-policy-create-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/aws-user-policy-create-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -30,7 +30,7 @@ Cloud Cost Management: insights\_admin \[sn\_clin\_core.insights\_admin\] or adm
 
 ## About this task
 
-The following procedure describes the process of creating an AWS IAM user policy and configuring credentials-based authentication for Cloud Cost Management. If you prefer to use Assume Role authentication, see [Set up AWS Assume Role authentication for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/setup-aws-assume-role-ccm.md).
+The following procedure describes the process of creating an AWS IAM user policy and configuring credentials-based authentication for Cloud Cost Management. If you prefer to use Assume Role authentication, see [Set up AWS Assume Role authentication for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/setup-aws-assume-role-ccm.md).
 
 ## Procedure
 

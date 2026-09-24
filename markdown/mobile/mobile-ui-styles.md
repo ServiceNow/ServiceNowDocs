@@ -2,7 +2,7 @@
 title: Mobile UI styles
 description: UI styles define the font and background color of fields in your applets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-ui-styles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-ui-styles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

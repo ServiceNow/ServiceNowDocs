@@ -2,7 +2,7 @@
 title: Client software distribution ordering process
 description: Software deployed by CSD 2.0 can be ordered from the service catalog by individual users or by approved users on behalf of others.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-orderprocess.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd2-orderprocess.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -47,5 +47,5 @@ In this example, a manager is ordering Google Chrome for a contractor. The manag
 
 \[Omitted image "csd2-ordering.png"\] Alt text: Required fields.
 
-**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md)
+**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd-app-2.md)
 

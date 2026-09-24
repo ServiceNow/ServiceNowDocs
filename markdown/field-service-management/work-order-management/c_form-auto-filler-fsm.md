@@ -2,7 +2,7 @@
 title: ServiceNow AI Lens form auto-filler
 description: The ServiceNow AI Lens form auto-filler uses AI image recognition to populate form fields from photos that field service technicians capture in the ServiceNow Agent mobile application. Technicians can auto-fill Input Forms and Scripted Input Forms, such as Smart Assessment questionnaires.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_form-auto-filler-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/c\_form-auto-filler-fsm.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -41,7 +41,7 @@ The ServiceNow AI Lens form auto-filler is available on the following form types
 
 ## ServiceNow AI Lens in ServiceNow Otto Virtual Agent
 
-Technicians can use in-form auto-fill or access ServiceNow AI Lens through ServiceNow Otto Virtual Agent in the ServiceNow Agent mobile application. In this process, the technician selects ServiceNow AI Lens from the Virtual Agent topic picker, uploads or captures an image, and receives a text summary response. This flow does not auto-fill form fields. For more information, see [Use ServiceNow AI Lens in ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_use-lens-nava-fsm.md).
+Technicians can use in-form auto-fill or access ServiceNow AI Lens through ServiceNow Otto Virtual Agent in the ServiceNow Agent mobile application. In this process, the technician selects ServiceNow AI Lens from the Virtual Agent topic picker, uploads or captures an image, and receives a text summary response. This flow does not auto-fill form fields. For more information, see [Use ServiceNow AI Lens in ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_use-lens-nava-fsm.md).
 
 ## Plugins
 

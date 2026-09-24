@@ -2,7 +2,7 @@
 title: Enable monetary benefit plans for demands
 description: Enable the benefit plans property to create and manage benefit plans for demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/enable-monetary-benefit-plans-for-demands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/enable-monetary-benefit-plans-for-demands.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

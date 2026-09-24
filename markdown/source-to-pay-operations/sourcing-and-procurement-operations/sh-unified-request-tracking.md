@@ -2,7 +2,7 @@
 title: Unified request tracking in Shopping Hub
 description: You can search for purchased products and services by entering the original purchase record ID or its associated record IDs in Shopping Hub. This includes tracking details from the ordering stage to the fulfillment stage of the procurement process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/sh-unified-request-tracking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/sh-unified-request-tracking.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -28,5 +28,5 @@ Navigate to **ShoppingHub** &gt; **ShoppingHub Home** &gt; **My purchases**. In 
 
 **Note:** The purchase card displays the timeline of all previously closed procurement records, providing the shopper with the necessary context to understand the purchase history.
 
-**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

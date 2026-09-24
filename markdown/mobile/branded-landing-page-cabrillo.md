@@ -2,7 +2,7 @@
 title: Cabrillo JS support within a branded landing page
 description: Use  Cabrillo JS to build custom mobile experiences inside of native mobile apps. Certain Cabrillo JS functions are available for the pre-login branded landing page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/branded-landing-page-cabrillo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/branded-landing-page-cabrillo.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

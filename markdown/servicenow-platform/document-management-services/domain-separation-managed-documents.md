@@ -2,7 +2,7 @@
 title: Domain separation and Managed Documents
 description: Domain separation is unsupported in Managed Documents. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/domain-separation-managed-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/domain-separation-managed-documents.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -23,7 +23,7 @@ Domain separation is unsupported in Managed Documents. Domain separation enables
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Managed Document features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_ManagedDocumentFeatures.md)
+**Parent Topic:**[Managed Document features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/r_ManagedDocumentFeatures.md)
 
 **Related topics**  
 

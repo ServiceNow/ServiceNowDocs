@@ -2,7 +2,7 @@
 title: Configure the Microsoft Word add-in for ServiceNow Contracts
 description: As an admin, configure the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-word-addin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-config-word-addin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -64,15 +64,15 @@ Role required: admin
 
 6.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d593907e278">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d593911e278">
 
 System
 
-</th><th align="left" id="d593907e281">
+</th><th align="left" id="d593911e281">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d593907e287">
+</th></tr></thead><tbody><tr><td id="d593911e287">
 
 **macOS**
 
@@ -86,7 +86,7 @@ Steps
 6.  Navigate to the menu **Home**.
  **Note:** To connect to multiple instances using the Microsoft Word add-in, add the corresponding manifest files to the `wef` folder in your system and ensure that each manifest file contains a unique ID.
 
-</td></tr><tr><td id="d593907e352">
+</td></tr><tr><td id="d593911e352">
 
 **Windows**
 
@@ -103,7 +103,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d593907e411">
+</td></tr><tr><td id="d593911e411">
 
 **Microsoft Word Online**
 
@@ -129,5 +129,5 @@ The **ServiceNow Contracts** add-in is available on the Home ribbon. When you lo
 
 ## What to do next
 
-[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
+[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
 

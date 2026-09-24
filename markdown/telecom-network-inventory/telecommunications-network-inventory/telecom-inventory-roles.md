@@ -2,7 +2,7 @@
 title: Telecom Network Inventory roles
 description: You can assign roles to control user access to specific features, capabilities, and data in the Telecommunications Network Inventory application. These assigned roles enable or prevent access to specific forms and processes by users with the specified roles only.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -91,5 +91,5 @@ Users assigned any of the roles in the following table can no longer read or que
 
 **Note:** The tni\_entity table is owned by TNI Core and is populated when a CI \(configuration item\) is created via TNI. The sn\_ni\_core\_licensing\_resource\_count table is owned by TNI Core and stores licensing resource count data.
 
-**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
+**Parent Topic:**[Configuring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/configuring-telecom-network-inventory.md)
 

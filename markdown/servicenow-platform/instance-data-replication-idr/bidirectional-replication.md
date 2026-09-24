@@ -2,7 +2,7 @@
 title: Bidirectional replication
 description: Bidirectional replication in Instance Data Replication \(IDR\) enables data to flow from a producer instance to a consumer instance and accept data from a consumer instance to flow back to the producer instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/bidirectional-replication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instance-data-replication-idr/bidirectional-replication.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -35,11 +35,11 @@ Bidirectional replication has the following limitations:
 
     The most recent update wins, which means that the data on the consumer and producer tables might be different.
 
--   Bidirectional replication supports the [Number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/adapter-descriptions.md) adapter but none of the other adapters.
+-   Bidirectional replication supports the [Number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/adapter-descriptions.md) adapter but none of the other adapters.
 -   Bidirectional replication keeps data in sync between producer and consumer instances. However, in some scenarios, avoid using bidirectional replication and use one-way replication instead.
     -   If you plan to use adapters to differentiate data replicated between two instances, use two one-way replication sets to replicate data back and forth instead of using bidirectional sets.
     -   If you need to seed data from one instance to another and vice versa, use two one-way replication sets.
 -   With bidirectional replication, records created on the producer instance are replicated to a consumer instance and vice versa. When the record is inserted on the consumer instance and it triggers a business rule that updates the record, that update is not replicated back to the producer instance.
 
-If you must understand the implications of bi-direction and data transfer between instances, see [data privacy in IDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/data-privacy-consumers-idr.md) for more information.
+If you must understand the implications of bi-direction and data transfer between instances, see [data privacy in IDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/data-privacy-consumers-idr.md) for more information.
 

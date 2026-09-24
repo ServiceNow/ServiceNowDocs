@@ -2,7 +2,7 @@
 title: Upgrade History Task form
 description: You can update information about a skipped record task using the Upgrade History Task form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-history-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-history-task-form.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -198,5 +198,5 @@ To
 Past current version
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Skipped Records visual task board \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-vtb-history.md)
+</table>**Parent Topic:**[Skipped Records visual task board \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-vtb-history.md)
 

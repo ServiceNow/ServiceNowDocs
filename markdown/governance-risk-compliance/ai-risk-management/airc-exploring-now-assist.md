@@ -2,7 +2,7 @@
 title: Exploring Now Assist in AI Risk and Compliance
 description: With Now Assist in AI Risk and Compliance, part of the Now Assist for Integrated Risk Management \(IRM\) application, you can use agentic workflows and generative AI skills that streamline issue summarization, control objective creation, and respond to smart assessment questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-exploring-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/airc-exploring-now-assist.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -62,7 +62,7 @@ Report a GRC issue
 
 Flag GRC issues to the Virtual Agent through utterances. Catalog the issue with fully filled form fields and simplify reporting across development, data science, and operations teams. For example, an AI Steward discovers anomalous results in a customer segmentation model affecting a specific demographic. With Report a GRC Issue, the concern is immediately escalated with structured context rather than waiting for scheduled audits. This enables the compliance team to address the issue within hours of discovery.
 
-For more information, see [Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-submission-ai-agent.md).
+For more information, see [Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-submission-ai-agent.md).
 
 </td><td>
 
@@ -76,7 +76,7 @@ Issue Summarization
 
 Automatically generate concise summaries of issues, highlighting key details, impact scope, and required actions to accelerate triage and response. For example, an AI Risk and Compliance Manager receives numerous issue reports about an AI-powered fraud detection system within a week. With Issue Summarization, these reports are distilled into a ranked list of concerns by category: data privacy gaps, performance degradation, and model drift. This enables the manager to focus resolution efforts on high-impact categories, reducing triage time from four hours to thirty minutes.
 
-For more information, see [Issue Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-summarization-skill.md).
+For more information, see [Issue Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-summarization-skill.md).
 
 </td><td>
 
@@ -90,7 +90,7 @@ Risk Assessment Summarization
 
 Analyze risk assessment data and generate natural language summaries of identified risks, trends, and patterns for specific AI systems. Provide executive-level insights and highlights critical risks requiring attention.For example, an AI Risk and Compliance Manager oversees several AI systems and is working on presenting findings to the Board Audit Committee. With Risk Assessment Summarization, assessment data is consolidated into executive insights highlighting regulatory, fairness, and operational risks across the portfolio. This enables the manager to present a brief strategic summary instead of a long form report, enabling swifter board decisions.
 
-For more information, see [Generate an AI risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/generate-risk-assessment-summary-genai.md).
+For more information, see [Generate an AI risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/generate-risk-assessment-summary-genai.md).
 
 </td><td>
 
@@ -106,7 +106,7 @@ Generate contextually relevant response recommendations for assessments based on
 
  For example, an AI Risk and Compliance Manager assesses an AI model for diagnostic recommendations and identifies data bias risk in the training data. With Smart Assessment Response Assist, the system recommends compliant remediation paths based on organizational policies and similar successful implementations. This enables consensus on the optimal approach in one meeting rather than extended debate.
 
- For more information, see [Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md).
+ For more information, see [Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md).
 
 </td><td>
 
@@ -120,7 +120,7 @@ Recommendation for similar control objectives
 
 Use this skill to automatically identify common control objectives across risk domains and reduce redundancy within the compliance library.For example, an AI Product Owner launches a new algorithmic trading AI system and needs applicable controls from an enterprise library. With Recommendation for Similar Control Objectives, the most relevant controls are recommended based on the system's risk profile. This enables the product owner to validate suggestions quickly, reducing control design time.
 
-For more information, see [Generate recommendation for similar control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/generate-recommendation-for-a-new-control-objective.md).
+For more information, see [Generate recommendation for similar control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/generate-recommendation-for-a-new-control-objective.md).
 
 </td><td>
 
@@ -136,7 +136,7 @@ After recommendations are reviewed and accepted, use this skill to create a new 
 
  For example, an AI Risk and Compliance Manager oversees AI models across different business functions. With Common Control Objective Creation, a few reusable control objectives are identified from the portfolio. This enables new AI projects to inherit existing controls from a central library, reducing governance design time.
 
- For more information, see [Act on the recommendations for similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/take-actions-on-the-recommendations-for-similar-control-objectives.md).
+ For more information, see [Act on the recommendations for similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/take-actions-on-the-recommendations-for-similar-control-objectives.md).
 
 </td><td>
 

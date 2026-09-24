@@ -2,7 +2,7 @@
 title: Scan an asset to create a support request in Care Team Mobile
 description: Use Scan asset in Care Team Mobile to generate support requests by scanning bar codes attached to assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-mobile-create-request-asset-scan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-mobile-create-request-asset-scan.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

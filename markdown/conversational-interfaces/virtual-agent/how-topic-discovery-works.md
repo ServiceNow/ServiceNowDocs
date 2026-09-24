@@ -2,7 +2,7 @@
 title: Natural Language Understanding topic discovery logic in Virtual Agent
 description: Understand how Virtual Agent returns intents and how it selects which intents to show to the user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/how-topic-discovery-works.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/how-topic-discovery-works.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -84,10 +84,10 @@ While a topic is running, the requester can enter an utterance or phrase that re
 
 \[Omitted image "va-midtopic-discovery-logic.png"\] Alt text: Topic discovery flow chart that shows the process Virtual Agent uses to change topics in the middle of a conversation.
 
-**Parent Topic:**[Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md)
+**Parent Topic:**[Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md)
 
 **Related topics**  
 
 
-[Resolve Natural Language Understanding \(NLU\) topic discovery issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-topic-discovery-issues.md)
+[Resolve Natural Language Understanding \(NLU\) topic discovery issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-topic-discovery-issues.md)
 

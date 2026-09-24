@@ -2,7 +2,7 @@
 title: Configure Document Intelligence for Customer Service
 description: Enable Document Intelligence for Customer Service and create use cases to extract data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-doc-intel-configuring-.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-doc-intel-configuring-.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -78,7 +78,7 @@ Use the DocIntel Admin experience to create one or more use cases.
 -   Define the fields to be extracted.
 -   Select conditions for a use case that tell the Document Intelligence feature when to run.
 
-For more information, see [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-di-use-case.md).
+For more information, see [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-di-use-case.md).
 
 </td></tr></tbody>
 </table>## Document Intelligence for case types
@@ -88,9 +88,9 @@ When you create a case type that extends the Case \[sn\_customerservice\_case\] 
 **Related topics**  
 
 
-[Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-document-intelligence.md)
+[Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-document-intelligence.md)
 
-[Review and submit values predicted by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-doc-intel-review-values.md)
+[Review and submit values predicted by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-doc-intel-review-values.md)
 
 [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md)
 

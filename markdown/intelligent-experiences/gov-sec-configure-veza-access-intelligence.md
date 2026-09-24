@@ -2,12 +2,12 @@
 title: Configure Veza access intelligence in the agent map
 description: Integrate Veza with ServiceNow to display agent risk scores and severity levels in the agent map. Complete this configuration for each hyperscaler that has AI assets you want to monitor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-veza-access-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-configure-veza-access-intelligence.html
 release: australia
 topic_type: task
 last_updated: "2026-07-20"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -39,7 +39,7 @@ Veza access intelligence requires a connection between ServiceNow and each hyper
 
     For example, connect ServiceNow to AWS.
 
-    For more information, see [Configuring integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-integrations.md).
+    For more information, see [Configuring integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-integrations.md).
 
 4.  Set system properties to connect ServiceNow to the Veza tenant.
 
@@ -68,5 +68,5 @@ In the agent map, select an AI asset and view the Access intelligence tab to see
 
 If your AI asset appears in the agent map but doesn't have information shown in the Access intelligence tab, make sure that it's a governed asset with `external_ref_id` populated and `model_category=Agentic AI`.
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configuring.md)
 

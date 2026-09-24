@@ -2,7 +2,7 @@
 title: Install Employee Travel Safety
 description: You can install Employee Travel Safety if you have the admin role.Several types of components are installed with Employee Travel Safety, including user roles and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-travel-safety/install-employee-travel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-travel-safety/install-employee-travel.html
 release: australia
 product: Employee Travel Safety
 classification: employee-travel-safety
@@ -101,7 +101,7 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 4.  Click **Activate**.
 
 
-**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-travel-safety/employee-travel-safety.md)
+**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-travel-safety/employee-travel-safety.md)
 
 ## Components installed with Employee Travel Safety
 

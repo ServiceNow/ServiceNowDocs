@@ -2,7 +2,7 @@
 title: Log in Metrics
 description: Log in Metrics displays the log in trends on the ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/login-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/login-metrics.html
 release: australia
 product: Authentication
 classification: authentication
@@ -18,8 +18,8 @@ Log in Metrics displays the log in trends on the ServiceNow.
 
 Log in Metrics on the MFA Dashboard are as follows:
 
--   [Multi-factor Authentication \(MFA\) factors used](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/login-metrics.md)
--   [User-password logins without Multi-factor Authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/login-metrics.md)
+-   [Multi-factor Authentication \(MFA\) factors used](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/login-metrics.md)
+-   [User-password logins without Multi-factor Authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/login-metrics.md)
 
 ## Multi-factor Authentication \(MFA\) factors used
 

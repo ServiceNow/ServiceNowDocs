@@ -2,7 +2,7 @@
 title: Connect Chat
 description: Connect Chat is a real-time messaging tool that enables users to chat with individuals and groups, quickly share files, and collaborate on any record by connecting with the right people instantly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/c\_Collaboration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/c\_Collaboration.html
 release: australia
 product: Connect
 classification: connect

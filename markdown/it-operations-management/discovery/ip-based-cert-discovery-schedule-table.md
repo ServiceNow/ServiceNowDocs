@@ -2,7 +2,7 @@
 title: IP-Based Discovery Schedule Form Table
 description: A table of the fields and values to set up an IP-based Certificate Discovery schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.html
 release: australia
 product: Discovery
 classification: discovery
@@ -105,5 +105,5 @@ Credential alias
 Optional value
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

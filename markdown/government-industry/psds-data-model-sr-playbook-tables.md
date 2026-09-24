@@ -2,7 +2,7 @@
 title: Tables installed with Service Request Playbook
 description: This section describes the tables installed with the Service Request Playbook application and shows how they store and manage information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-sr-playbook-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-data-model-sr-playbook-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -125,5 +125,5 @@ Contains information about service evaluation tasks.
 Government Service Task \(sn\_gsm\_government\_service\_task\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Service Request Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-sr-playbook.md)
+</table>**Parent Topic:**[Public Sector Digital Services Service Request Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-data-model-sr-playbook.md)
 

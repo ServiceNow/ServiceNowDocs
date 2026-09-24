@@ -2,7 +2,7 @@
 title: Assess your vulnerability exposure with generative AI
 description: Chat with an AI agent to help you assess the potential exposure of your configuration items and your business services to vulnerabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/assess-exposure-vr-aiagent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/assess-exposure-vr-aiagent.html
 release: australia
 topic_type: task
 last_updated: "2026-07-24"
@@ -73,5 +73,5 @@ Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
     Information about the business service includes associated vulnerable items, criticality \(risk\) and the configuration items by class are listed.
 
 
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

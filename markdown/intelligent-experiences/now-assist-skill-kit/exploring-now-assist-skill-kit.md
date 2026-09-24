@@ -2,7 +2,7 @@
 title: Exploring AI Skill Kit
 description: Use the AI Skill Kit plugin for Otto to create and activate custom prompts and skills for Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -30,7 +30,7 @@ Before you begin, you should understand:
 -   How to write, test, and refine a prompt based on the output it produces, rather than on how you expect the model to interpret your wording.
 -   The use case you want to solve and the persona you're building the skill for.
 
-Effective skill development depends on testing the prompt against representative data from your instance and refining it based on the results, not on a single example. For the full set of guidelines and the phases of building a skill, see [General guidelines for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md). For help defining requirements and outcomes before you build, see [Scoping the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/scoping-the-skill.md).
+Effective skill development depends on testing the prompt against representative data from your instance and refining it based on the results, not on a single example. For the full set of guidelines and the phases of building a skill, see [General guidelines for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md). For help defining requirements and outcomes before you build, see [Scoping the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/scoping-the-skill.md).
 
 ## Get AI Skill Kit
 
@@ -74,14 +74,14 @@ AI Skill Kit enables you to design your own custom generative AI functionality t
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Create custom solutions by building a custom skill or workflow.|[Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)|AI developer|
-|Create and edit prompts for skills and configure where you want to bring in data from to augment your prompt.|[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)|AI developer|
-|Test and iterate on your skill before activating it.|[Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md)|AI developer|
+|Create custom solutions by building a custom skill or workflow.|[Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)|AI developer|
+|Create and edit prompts for skills and configure where you want to bring in data from to augment your prompt.|[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)|AI developer|
+|Test and iterate on your skill before activating it.|[Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md)|AI developer|
 
 ## What to explore next
 
 To learn more about configuring and using AI Skill Kit, see:
 
--   [Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
--   [Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+-   [Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+-   [Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 

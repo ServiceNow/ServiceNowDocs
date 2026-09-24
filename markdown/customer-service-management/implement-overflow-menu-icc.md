@@ -2,7 +2,7 @@
 title: Implement the overflow menu for active calls
 description: Configure the toolbar layout order for the active call component so that call control buttons exceeding the available toolbar slots appear in the overflow menu.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/implement-overflow-menu-icc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/implement-overflow-menu-icc.html
 release: australia
 topic_type: task
 last_updated: "2026-05-20"

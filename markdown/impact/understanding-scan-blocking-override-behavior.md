@@ -2,10 +2,10 @@
 title: Scan blocking and override behavior scenarios
 description: The Scan Engine blocks concurrent scans to protect instance performance. Understanding these rules helps you plan scan execution efficiently and how the system handles concurrent scan requests and when Force Full Scan override is necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/understanding-scan-blocking-override-behavior.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/understanding-scan-blocking-override-behavior.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
@@ -51,5 +51,5 @@ The system requires a page refresh to display the most current scan information.
 -   The Scan Results list updates to show the latest scan status.
 -   New scans appear with **Getting ready** status before transitioning to in-progress
 
-**Parent Topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md)
+**Parent Topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/run-scan-engine.md)
 

@@ -2,7 +2,7 @@
 title: Edit personal details
 description: Review your personal details and edit them if necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/edit-personal-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/edit-personal-details.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -46,7 +46,7 @@ Role required: sn\_asc.alumni
 4.  Select **Save**.
 
 
-**Parent Topic:**[Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-use.md)
+**Parent Topic:**[Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/asc-use.md)
 
 **Related topics**  
 

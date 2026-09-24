@@ -2,7 +2,7 @@
 title: Create an emission category type
 description: Create emission category types to define the categories for which you want to report scope 3 data that will be displayed on the Scope 3 dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-an-emission-category-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-an-emission-category-type.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ EEIO emission activity associated with the category type. The selection made in 
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
+**Parent Topic:**[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-the-scope-3-dashboard.md)
 

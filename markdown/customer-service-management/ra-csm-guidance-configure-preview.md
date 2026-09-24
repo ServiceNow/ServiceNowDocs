@@ -2,7 +2,7 @@
 title: Configure a guidance preview experience
 description: Configure a preview experience that conveys relevant information about the guidance action to the agent before a recommendation is triggered. This information appears on the Recommended Actions card in the contextual side panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidance-configure-preview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-guidance-configure-preview.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

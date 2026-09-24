@@ -2,7 +2,7 @@
 title: Discuss form
 description: The Start a Sidebar discussion form enables you to start a discussion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-discuss-sidebar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-discuss-sidebar.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -63,5 +63,5 @@ Private discussion
 Select this option to make the discussion private.**Start private discussion** option is enabled.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[General form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-general-form.md)
+</table>**Parent Topic:**[General form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-general-form.md)
 

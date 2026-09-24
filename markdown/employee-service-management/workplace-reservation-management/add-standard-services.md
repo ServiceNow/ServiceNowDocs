@@ -2,7 +2,7 @@
 title: Create a standard service
 description: Create a Standard service to make it available to employees by default when they make a reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-standard-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-standard-services.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -49,12 +49,12 @@ The standard service is added to the application.
 
 ## What to do next
 
-Add the standard service to a workplace room or space. For more information, see [Add a standard service to workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-std-service-to-workplaceitem.md).
+Add the standard service to a workplace room or space. For more information, see [Add a standard service to workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-std-service-to-workplaceitem.md).
 
--   **[Add a standard service to workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-std-service-to-workplaceitem.md)**  
+-   **[Add a standard service to workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-std-service-to-workplaceitem.md)**  
 Add a standard service to a workplace space or room based on where it is made available.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

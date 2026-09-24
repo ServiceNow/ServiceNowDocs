@@ -2,7 +2,7 @@
 title: Generate multiple stories at once in EAP using ServiceNow Otto
 description: Breakdown epics and features into stories using the ServiceNow Otto panel in the Enterprise Agile Planning \(EAP\) workspace. Based on the work item details, ServiceNow Otto generates stories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -53,12 +53,12 @@ If you have custom roles that require access to this skill, update the ACLs for 
     ServiceNow Otto creates stories with the confirmed recommendations. The newly created stories are displayed in the Stories tab of the epic or feature details page.
 
 
-**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md)
 
 **Related topics**  
 
 
-[Configure Create stories agentic workflow with ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configure-create-stories-agentic-workflow-now-assist-for-spm.md)
+[Configure Create stories agentic workflow with ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/configure-create-stories-agentic-workflow-now-assist-for-spm.md)
 
-[Create stories agentic workflow using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.md)
+[Create stories agentic workflow using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.md)
 

@@ -2,7 +2,7 @@
 title: Export a Doc in CWM to a PDF file
 description: Use the Docs offline, and share with teams or stakeholders outside Collaborative Work Management \(CWM\) by exporting Docs as PDF.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/export-a-doc-in-cwm-to-a-pdf-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/export-a-doc-in-cwm-to-a-pdf-file.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,7 +18,7 @@ Use the Docs offline, and share with teams or stakeholders outside Collaborative
 
 ## Before you begin
 
-[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
+[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
 
 Role required: sn\_cwm.cwm\_user
 
@@ -41,5 +41,5 @@ If there are inline comments present in the Doc, they aren't highlighted or mark
 
 The Doc is exported and saved in your local system as a PDF file.
 
-**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-docs.md)
 

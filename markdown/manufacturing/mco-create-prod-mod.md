@@ -2,7 +2,7 @@
 title: Modify product model
 description: Modify a product record that your company sells and supports. The product record maintains all the product information used across customer issue management, quality investigations, service requests, warranty claims, and dealer collaboration workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-prod-mod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-prod-mod.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

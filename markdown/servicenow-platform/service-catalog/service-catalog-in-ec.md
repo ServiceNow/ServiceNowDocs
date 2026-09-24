@@ -2,7 +2,7 @@
 title: Service Catalog in Employee Center portal
 description: Employees can submit requests for service and product offerings using catalog items from the Employee Center portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/service-catalog-in-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/service-catalog-in-ec.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -32,20 +32,20 @@ The base system taxonomy—Employee—is installed when you install the Employee
 3.  **Network**
 4.  **Browse IT**
 
--   **[Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.md)**  
+-   **[Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.md)**  
 Associate your existing and new catalog items, knowledge base articles, and quick links to the appropriate taxonomy topics so that the catalog items are available in the Employee Center as content in the topics or child topics.
--   **[Enable Shopping Cart and Add to Wish List options in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/enable-shopping-cart-wishlist-ec.md)**  
+-   **[Enable Shopping Cart and Add to Wish List options in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/enable-shopping-cart-wishlist-ec.md)**  
 Modify the Main Menu configuration of the Employee Center to provide the Shopping Cart and Add to Wish List options while requesting catalog items.
--   **[Add an item to the wish list in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/add-to-wishlist-ec.md)**  
+-   **[Add an item to the wish list in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/add-to-wishlist-ec.md)**  
 Add catalog items or record producers to the wish list to review them when required.
--   **[Add a catalog item to the shopping cart in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/add-to-cart-ec.md)**  
+-   **[Add a catalog item to the shopping cart in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/add-to-cart-ec.md)**  
 Add a catalog item or order guide to the shopping cart to store at one place and checkout.
--   **[Request a catalog item from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-cat-item-ec.md)**  
+-   **[Request a catalog item from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/request-cat-item-ec.md)**  
 Use the SC Catalog Item widget in Employee Center to request a catalog item.
--   **[Request an order guide from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-order-guide-ec.md)**  
+-   **[Request an order guide from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/request-order-guide-ec.md)**  
 Request multiple catalog items together as an order guide from the Employee Center for a specific purpose.
--   **[Save a draft of a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/save-draft-catalog-item.md)**  
+-   **[Save a draft of a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/save-draft-catalog-item.md)**  
 Save a draft of a catalog item while requesting it on the Employee Center, Service Portal, and Now Mobile.
 
-**Parent Topic:**[Integrating Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/integrating-service-catalog.md)
+**Parent Topic:**[Integrating Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/integrating-service-catalog.md)
 

@@ -2,7 +2,7 @@
 title: Tabs sidebar
 description: Learn about the components in UI Builder that enable admins to create and customize the tabs sidebar for a Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/contextual-sidebar-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/contextual-sidebar-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,15 +30,15 @@ The standard record page template in UI Builder displays some tabs by default. I
 
 The following components are added as tabs for the standard record page template.
 
--   **[Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/agent-assist-configurable-workspace.md)**
+-   **[Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/agent-assist-configurable-workspace.md)**
 
     Agent assist helps an agent resolve issues by providing a list of resources related to an open record's short description.
 
--   **[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/attachments-configurable-workspace.md)**
+-   **[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/attachments-configurable-workspace.md)**
 
     The Attachments tab enables an agent to add, preview, download, or remove files from the current record.
 
--   **[Form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/form-templates-configurable-workspace.md)**
+-   **[Form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/form-templates-configurable-workspace.md)**
 
     Form templates simplify the process of submitting new records by populating fields automatically.
 

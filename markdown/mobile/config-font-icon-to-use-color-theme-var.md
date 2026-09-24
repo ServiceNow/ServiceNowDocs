@@ -2,7 +2,7 @@
 title: Configure a font icon to use a theme variable to define its color
 description: Specify the CSS custom property of a sys\_ux\_theme record to define the color of a font icon.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-font-icon-to-use-color-theme-var.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-font-icon-to-use-color-theme-var.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -112,7 +112,7 @@ Enter `Name`
 
 Enter the name listed for the icon in the font family. For example, if you wanted to use the shopping cart icon in the **now-mobile-icons** family, you would enter `Cart`.
 
- For lists of font family icons names, see the [Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md).
+ For lists of font family icons names, see the [Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-icon-reference.md).
 
 </td></tr></tbody>
 </table>8.  Select **Save**.

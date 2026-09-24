@@ -2,7 +2,7 @@
 title: Components installed with Sourcing and Procurement Operations
 description: Several types of components are installed with the activation of Sourcing and Procurement Operations, including tables, user roles, and scheduled jobs.Use these properties to configure various settings in the Sourcing and Procurement Operations application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -1204,7 +1204,7 @@ sn\_shop.spend.requisition.autoorder
 
 </td><td>
 
-Purchase order that can be automatically created on completion of purchasing tasks without having to undergo a manual final review.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pr-auto-order.md).
+Purchase order that can be automatically created on completion of purchasing tasks without having to undergo a manual final review.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pr-auto-order.md).
 
 </td></tr><tr><td>
 
@@ -1212,7 +1212,7 @@ sn\_shop.spend.requisition.autoorder.threshold
 
 </td><td>
 
-Dollar amount threshold above which a final review is required before a purchase order is created even when the automatic creation of purchase orders property is set to Yes.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pr-auto-order.md).
+Dollar amount threshold above which a final review is required before a purchase order is created even when the automatic creation of purchase orders property is set to Yes.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pr-auto-order.md).
 
 </td></tr><tr><td>
 
@@ -1285,7 +1285,7 @@ This property is enabled by default. However, if this property is disabled, do t
 4.  If the **Value** field shows **OFF**, change it to **ON** to enable this property.
 5.  Select **Update**.
 
-**Parent Topic:**[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
+**Parent Topic:**[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
 
 ## Properties installed with Finance Common Architecture
 

@@ -2,7 +2,7 @@
 title: Onboarding for agentic development
 description: The following checklist helps to ensure your environment is properly configured, that you understand the core tools and general guidelines, and that you adopt secure, compliant workflows. Whether you're new to ServiceNow or transitioning to agentic development, this resource will set you up for success.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-onboarding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-onboarding.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-05"
@@ -23,18 +23,18 @@ The following checklist helps to ensure your environment is properly configured,
     **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 3.  Confirm that the plugins for the tools that you want to use are installed and activated. For more information, see the following topics:
-    -   [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md)
+    -   [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/install-build-agent.md)
 
-        **Note:** You can also connect a supported MCP server to Build Agent, for example, to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md).
+        **Note:** You can also connect a supported MCP server to Build Agent, for example, to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/accelerate-design-to-development-with-figma-mcp-server.md).
 
-    -   [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
-4.  Install Developer Sandboxes, which is not required for agentic development but provides a helpful instance to experiment with development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/sandboxes-landing.md).
+    -   [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
+4.  Install Developer Sandboxes, which is not required for agentic development but provides a helpful instance to experiment with development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/sandboxes-landing.md).
 
 ServiceNow Studio and ServiceNow IDE are automatically available on every instance, so you don't need to confirm their installation.
 
 ## Prepare your development environment
 
-1.  Use Developer Sandboxes to allocate a sandbox for safe, isolated agentic development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/sandboxes-landing.md).
+1.  Use Developer Sandboxes to allocate a sandbox for safe, isolated agentic development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/sandboxes-landing.md).
 2.  Validate compliance policies and security controls.
 3.  Enable Vault Console and Machine Identity Console for sensitive data protection and API governance.
 
@@ -50,7 +50,7 @@ Visit the [App Engine Academy playlist on YouTube](https://www.youtube.com/playl
 
 ## Get familiar with general guidelines
 
-See [General guidelines for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-cooding-guidelines.md) for more information.
+See [General guidelines for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-cooding-guidelines.md) for more information.
 
 ## Engage with the development community
 

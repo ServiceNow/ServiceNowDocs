@@ -2,7 +2,7 @@
 title: Configure team data
 description: Configure team data that you want to display on employee cards and modal in the Team members tab in Your team menu. Team data configurations are required to support column configurations and filter configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-team-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-team-data.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -112,7 +112,7 @@ Option to add a script to retrieve the preferred records. This option allows you
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure the MID Server for CyberArk AIM
 description: Configure the config.xml file to grant the MID Server access to the CyberArk vault with AIM API.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/t\_ConfigureTheMIDServerForCyberArk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/t\_ConfigureTheMIDServerForCyberArk.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -110,5 +110,5 @@ When set to true, requires that the type of SSH credential returned from CyberAr
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
+**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
 

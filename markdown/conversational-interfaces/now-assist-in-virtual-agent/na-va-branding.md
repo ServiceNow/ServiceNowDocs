@@ -2,12 +2,12 @@
 title: Set up your ServiceNow Otto for Virtual Agent branding
 description: Create different ServiceNow Otto for Virtual Agent branding configurations for the various organizations that use your instance. These configurations only apply to chat widget branding on portals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/na-va-branding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/na-va-branding.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ Create different ServiceNow Otto for Virtual Agent branding configurations for t
 
 ## Before you begin
 
-For more information about ServiceNow Otto for Virtual Agent, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) and [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+For more information about ServiceNow Otto for Virtual Agent, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) and [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -34,6 +34,6 @@ Create different chat widget branding configurations.
 
 3.  Select **New** to create a branding configuration or select **ServiceNow Otto for Virtual Agent** to update it.
 
-4.  To edit the settings, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-chat-branding.md).
+4.  To edit the settings, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-chat-branding.md).
 
 

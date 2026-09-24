@@ -2,7 +2,7 @@
 title: Upgrade the Agent Client Collector manually on a Windows system
 description: Perform a manual upgrade of your existing Agent Client Collector version on a system running a Windows OS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-install-upgrade-windows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-install-upgrade-windows.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -28,12 +28,12 @@ Role required: agent\_client\_collector\_admin
 
 ## Procedure
 
-1.  Upgrade to the new agent version, as described in [Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-windows.md).
+1.  Upgrade to the new agent version, as described in [Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-install-windows.md).
 
     You can use either the manual or single-line procedure. When restoring backup files, the system replaces the configuration file values.
 
 2.  After installation is complete, you can delete the backup files.
 
 
-**Parent Topic:**[Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-windows.md)
+**Parent Topic:**[Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-install-windows.md)
 

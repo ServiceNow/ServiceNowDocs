@@ -2,7 +2,7 @@
 title: CAL - AWS S3 Get Encryption subflow
 description: Subflow that returns the default encryption configuration for an Amazon Web Services \(AWS\) S3 bucket.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/cal-aws-s3-get-encryption.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/cal-aws-s3-get-encryption.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -24,7 +24,7 @@ Subflow that returns the default encryption configuration for an Amazon Web Serv
 
 -   **Role requirements**
 
-    This subflow requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
+    This subflow requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
 
 
 ## Cloud permission
@@ -109,5 +109,5 @@ You can use these outputs as inputs for other subflows.
     Client error code returned for the failed call.
 
 
-**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
 

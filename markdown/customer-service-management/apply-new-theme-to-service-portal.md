@@ -2,7 +2,7 @@
 title: Match the theme of the decision tree component with the Service Portal page
 description: Customize the theme of the decision tree component to match the Service Portal theme.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/apply-new-theme-to-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/apply-new-theme-to-service-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

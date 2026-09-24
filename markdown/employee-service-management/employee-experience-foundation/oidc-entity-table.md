@@ -2,7 +2,7 @@
 title: Update the OIDC entities table
 description: Update the OIDC entities table to replace dummy values created by the registry file with your Microsoft Teams tenant values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/oidc-entity-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/oidc-entity-table.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -37,5 +37,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Integrating Employee Center with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-teams-integration-gcch.md)
+**Parent Topic:**[Integrating Employee Center with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-teams-integration-gcch.md)
 

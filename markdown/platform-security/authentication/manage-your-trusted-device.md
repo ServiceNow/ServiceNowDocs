@@ -2,7 +2,7 @@
 title: Manage your trusted device
 description: Manage your trusted device from the Trusted Device registration page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/manage-your-trusted-device.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/manage-your-trusted-device.html
 release: australia
 product: Authentication
 classification: authentication

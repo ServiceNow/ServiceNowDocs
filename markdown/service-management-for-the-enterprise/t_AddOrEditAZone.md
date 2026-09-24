@@ -2,7 +2,7 @@
 title: Add or edit a zone
 description: Zones are a logical collection of spaces that can be shared across campuses, floors, or buildings. Examples of zones are: Chiller 4 Zone, Guest Wi-Fi Zone, AC 1 Zone, Power Circuit 3 Zone, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_AddOrEditAZone.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_AddOrEditAZone.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ There are no restrictions on zones. They can cross campuses and buildings. In ad
     |**To update the zone details**|Click **Update**.|
 
 
-**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_Manually-builtMaps.md)
+**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_Manually-builtMaps.md)
 

@@ -2,7 +2,7 @@
 title: Customize ServiceNow Otto context menu for skills
 description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

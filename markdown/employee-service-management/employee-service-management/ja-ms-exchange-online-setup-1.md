@@ -59,7 +59,7 @@ Follow the instructions for setting up the spokes respective to your Journey Acc
 
 For detailed steps, see [Update system properties for Microsoft Exchange Online in the Journey Accelerator app]()
 
-**Parent Topic:**[Journey Accelerator integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-integrations.md)
+**Parent Topic:**[Journey Accelerator integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/ja-integrations.md)
 
 **Related topics**  
 

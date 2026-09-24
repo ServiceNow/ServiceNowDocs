@@ -2,7 +2,7 @@
 title: Publish a draft Data Manager policy
 description: Publish the draft policies to activate them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-publish-a-draft-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-publish-a-draft-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -65,14 +65,14 @@ After importing the legacy certification schedules, you can activate the draft p
 
 The Certifications tab in the Needs Attention section fetches and displays the data from the CMDB Data Management Policy \(cmdb\_data\_management\_policy\) table.
 
-**Parent Topic:**[Configure certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-cert-policies.md)
+**Parent Topic:**[Configure certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-cert-policies.md)
 
 **Related topics**  
 
 
-[Import certification schedules in to Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-convert-cert-schedules-to-cert-policies.md)
+[Import certification schedules in to Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-convert-cert-schedules-to-cert-policies.md)
 
-[Add or edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-cert-schedules.md)
+[Add or edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-cert-schedules.md)
 
-[View all certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-cert-schedules.md)
+[View all certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-cert-schedules.md)
 

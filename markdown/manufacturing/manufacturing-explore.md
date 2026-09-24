@@ -2,7 +2,7 @@
 title: Exploring Manufacturing Commercial Operations
 description: The Manufacturing Commercial Operations helps your organization accelerate revenue, improve customer experiences, and reduce operational costs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/manufacturing-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/manufacturing-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -394,7 +394,7 @@ Create, manage, and resolve sales promotion campaigns. Support bulk uploads for 
 
 </td><td>
 
-[Sales promotion claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sls-prom-clms.md)
+[Sales promotion claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-sls-prom-clms.md)
 
 </td><td>
 
@@ -406,7 +406,7 @@ Manage warranty claims with dealers. Support dealers to submit, edit, and track 
 
 </td><td>
 
-[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-warranty-clms.md)
+[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-warranty-clms.md)
 
 </td><td>
 
@@ -418,7 +418,7 @@ Create, manage, and track recall campaigns to closure.
 
 </td><td>
 
-[Recall campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rcl-clms.md)
+[Recall campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-rcl-clms.md)
 
 </td><td>
 
@@ -430,7 +430,7 @@ Reduce quality costs and accelerate issue resolution. Build customer trust throu
 
 </td><td>
 
-[Quality issue management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-quality-issue-management.md)
+[Quality issue management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-quality-issue-management.md)
 
 </td><td>
 
@@ -446,7 +446,7 @@ Provide dealers a unified experience to submit, edit, and track claims through t
 
 </td><td>
 
-[Dealer landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-dealer-portal.md)
+[Dealer landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-dealer-portal.md)
 
 </td><td>
 
@@ -473,7 +473,7 @@ Resolve customer issues and requests. Use a proactive service approach to increa
 
 </td><td>
 
-[Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/additional-features.md)
+[Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/additional-features.md)
 
 </td></tr><tr><td>
 
@@ -483,7 +483,7 @@ Manage order to cash operations. Launch new services and subscriptions. Capture 
 
 Order to cash operations
 
- See [Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/additional-features.md)
+ See [Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/additional-features.md)
 
 </td></tr><tr><td>
 
@@ -493,13 +493,13 @@ Provide self-service capabilities and support requests for products, subscriptio
 
 Channel Support Operations
 
- See [Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/additional-features.md)
+ See [Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/additional-features.md)
 
 </td></tr></tbody>
 </table>## What to explore next
 
 -   [What is Manufacturing Commercial Operations \(MCO\)?](https://www.servicenow.com/industries/manufacturing.html)
--   [Configure Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/configuring-manufacturing-foundation.md)
--   [Using Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-using.md)
--   [Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-reference.md)
+-   [Configure Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/configuring-manufacturing-foundation.md)
+-   [Using Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-using.md)
+-   [Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-reference.md)
 

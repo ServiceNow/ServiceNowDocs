@@ -2,7 +2,7 @@
 title: Create email notifications
 description: Vulnerability administrators can edit the notification or add new ones, specifying when to send the notification, who receives the notification, and what content is in the notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-create-email-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/cc-create-email-notification.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -22,7 +22,7 @@ Role required: sn\_vulc.admin
 
 ## About this task
 
-You can create email templates for different types of email notifications. For more on how to create email templates, see [Define Vulnerability Response email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/t_DefiningEmailTemplates.md).
+You can create email templates for different types of email notifications. For more on how to create email templates, see [Define Vulnerability Response email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/t_DefiningEmailTemplates.md).
 
 ## Procedure
 

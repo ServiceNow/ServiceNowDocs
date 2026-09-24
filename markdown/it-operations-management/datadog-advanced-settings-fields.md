@@ -2,7 +2,7 @@
 title: Datadog advanced settings fields
 description: Populate the Datadog advanced settings fields to define API paths, batching limits, host filters, sync duration, connection details, and debugging options. These values control how the pull connector retrieves and processes metrics and host data from Datadog, ensuring the connector runs with the desired scope and behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/datadog-advanced-settings-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/datadog-advanced-settings-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -108,5 +108,5 @@ Debugging
 -   Log payload: Displays raw log data. Use only for debugging, as it can quickly fill the MID Server logs.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Configure Datadog metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-datadog-metric-pull-connector.md).
+</table>To return to the procedure, see [Configure Datadog metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-datadog-metric-pull-connector.md).
 

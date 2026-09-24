@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Strategic Portfolio Management
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Strategic Portfolio Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/supporting-info-now-assist-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/supporting-info-now-assist-spm.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -41,12 +41,12 @@ This store app has the following dependencies:
 -   Enterprise Agile Planning
 -   Demand workbench
 
-For more information, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md).
+For more information, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-na-spm.md).
 
-**Parent Topic:**[AI skills in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/ai-skills-project-workspace.md)
+**Parent Topic:**[AI skills in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/ai-skills-project-workspace.md)
 
 **Related topics**  
 
 
-[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-na-spm-ai-agents.md)
 

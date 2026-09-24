@@ -2,7 +2,7 @@
 title: Viewing links between alerts in CMDB-based alert groups
 description: View the connections between alerts in alert groups in Express List that were created based on the proximity of Configuration Items \(CIs\) in the Configuration Management Database \(CMDB\). Link View shows how the attributes of the alerts in the group are linked with each other.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-cmdb-based-link-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-cmdb-based-link-view.html
 release: australia
 product: Event Management
 classification: event-management
@@ -27,7 +27,7 @@ In this sample Link View of a CMDB-based alert group, the dashed line with the n
 **Related topics**  
 
 
-[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-link-view.md)
+[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-link-view.md)
 
-[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
+[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
 

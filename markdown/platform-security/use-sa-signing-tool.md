@@ -2,7 +2,7 @@
 title: Using the Signing Tool
 description: Learn how to use the Signing Tool to sign supported records in ServiceNow applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/use-sa-signing-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/use-sa-signing-tool.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

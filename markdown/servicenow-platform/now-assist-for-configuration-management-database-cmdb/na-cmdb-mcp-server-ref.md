@@ -2,7 +2,7 @@
 title: CMDB MCP Server tools reference
 description: The CMDB Model Context Protocol \(MCP\) Server tools let an AI agent search for and create CIs, and ask questions about the CMDB data model, with example utterances for each tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-ref.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -82,7 +82,7 @@ Returns the CIs, services, and teams impacted by a given change request, using t
 |---------|--------|-----------|
 |**change\_request\_number**|Required|The change request number to analyze for impact, for example **CHG0001234**.|
 
-On success, the tool returns the impacted-items list produced by the Impact Analysis Skill capability. See [Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md) for the full output schema, including impact level, impact type, and confidence for each impacted CI. If **change\_request\_number** is missing, or the Impact Analysis Skill capability doesn't complete successfully, the tool returns an error describing the problem.
+On success, the tool returns the impacted-items list produced by the Impact Analysis Skill capability. See [Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md) for the full output schema, including impact level, impact type, and confidence for each impacted CI. If **change\_request\_number** is missing, or the Impact Analysis Skill capability doesn't complete successfully, the tool returns an error describing the problem.
 
 Example utterances:
 
@@ -106,7 +106,7 @@ Example utterances:
 
 ## Explain CMDB Data Model
 
-Answers natural language questions about the CMDB data model, including classes, tables, fields, and relationships, using the Data Model Navigator \(DMN\) agent. See [Data Model Navigator app features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-data-model-nav-ref.md) for the agent's own reference documentation.
+Answers natural language questions about the CMDB data model, including classes, tables, fields, and relationships, using the Data Model Navigator \(DMN\) agent. See [Data Model Navigator app features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-data-model-nav-ref.md) for the agent's own reference documentation.
 
 |Parameter|Required|Description|
 |---------|--------|-----------|
@@ -128,18 +128,18 @@ Example utterances:
 
 ## Role access
 
-Access to each tool is controlled by the role specified in the prerequisites of [Activate the CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server.md).
+Access to each tool is controlled by the role specified in the prerequisites of [Activate the CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server.md).
 
-**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
+**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
 
 **Related topics**  
 
 
-[CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-c.md)
+[CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-c.md)
 
-[Activate the CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server.md)
+[Activate the CMDB MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server.md)
 
-[Analyzing the impact of a change or incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-using.md)
+[Analyzing the impact of a change or incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-using.md)
 
-[Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)
+[Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)
 

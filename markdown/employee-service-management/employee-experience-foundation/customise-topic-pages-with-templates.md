@@ -2,7 +2,7 @@
 title: Customize topic pages with various templates
 description: Design topic pages with various custom-made templates to suit the tone of the topic for an enhanced user experience.Design topic pages with different templates using simplified cascading rules that provide a better designing experience for curators.Create customized topic page templates to present different types of topics in distinguished manner to enhance customer engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/customise-topic-pages-with-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/customise-topic-pages-with-templates.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

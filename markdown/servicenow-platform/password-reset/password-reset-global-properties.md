@@ -2,7 +2,7 @@
 title: Password Reset global properties
 description: You can configure the Password Reset global properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-reset-global-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/password-reset-global-properties.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -44,7 +44,7 @@ password\_reset.enroll \_reminder.email\_template
 
 The instance can send email reminders to users who are not yet enrolled in the Password Reset process.
 
-Template to use for the email messages that remind users to enroll for the password reset process. See [Send email to remind users to enroll for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/config-pwd-reset-enroll-reminder.md).
+Template to use for the email messages that remind users to enroll for the password reset process. See [Send email to remind users to enroll for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/config-pwd-reset-enroll-reminder.md).
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Enables or disables CAPTCHA functionality.-   Type: true\|false
 
  The Password Reset application uses Google re-CAPTCHA as the default CAPTCHA service. To use the base system CAPTCHA, change the **password\_reset.captcha.google.enabled** system property to **false**.
 
- See [Configure Google reCAPTCHA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_ConfigureGoogleRecaptcha.md)
+ See [Configure Google reCAPTCHA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_ConfigureGoogleRecaptcha.md)
 
 </td></tr><tr><td class="sub-head" colspan="3">
 
@@ -207,7 +207,7 @@ Number of security questions that are displayed on the Verify page while a user 
 -   Default value: 3 \(questions\)
 -   Possible values: Integers that are less than the number specified for the **Number of security questions required during enrollment** property \(the num\_enroll parameter\).
 
- **Note:** You can override this property setting for a Password Reset process by configuring the **num\_reset** parameter. See [Specify the number of required security questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_SecurityQuestionTypeVerif.md).
+ **Note:** You can override this property setting for a Password Reset process by configuring the **num\_reset** parameter. See [Specify the number of required security questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_SecurityQuestionTypeVerif.md).
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ Number of questions that a user must provide answers to while enrolling for the 
  **Note:**
 
 -   While attempting to verify identity, if a user answers a question incorrectly, the application refreshes with a random set of the specified questions in random order. You should, therefore, require more questions than specified for the **Number of security questions required during enrollment** property \(the num\_reset parameter\).
--   You can override this property setting for a Password Reset process by configuring the **num\_enroll** parameter. See [Specify the number of required security questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_SecurityQuestionTypeVerif.md).
+-   You can override this property setting for a Password Reset process by configuring the **num\_enroll** parameter. See [Specify the number of required security questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_SecurityQuestionTypeVerif.md).
 
 </td></tr><tr><td>
 
@@ -489,5 +489,5 @@ Properties accessible from the System Properties \[sys\_properties\] table:
 **Related topics**  
 
 
-[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_SetPwdResetProps.md)
+[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_SetPwdResetProps.md)
 

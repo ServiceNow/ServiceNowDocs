@@ -2,7 +2,7 @@
 title: Links to records in email notifications
 description: Adding the $\{URI\} parameter to an outbound email body or template creates a link to a specific record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_EnablingLinksToServiceNowRecords.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_EnablingLinksToServiceNowRecords.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -58,14 +58,14 @@ The following example script shows the logic that a mail script must include to 
   template.print(agentURL + "<br />");
 ```
 
--   **[Enable links to records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EnableLinksToServiceNowRecords.md)**  
+-   **[Enable links to records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EnableLinksToServiceNowRecords.md)**  
 Adding the special **$\{URI\}** parameter to an outbound email body or template creates a link to a specific record.
--   **[Change the link text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChangeTheLinkText.md)**  
+-   **[Change the link text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ChangeTheLinkText.md)**  
 To show the display value of the record as the link text instead of the word LINK, use the $\{URI\_REF\} parameter instead of the $\{URI\} parameter.
--   **[Link to related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_LinkToRelatedRecords.md)**  
+-   **[Link to related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_LinkToRelatedRecords.md)**  
 A notification can link to a related record by specifying a reference field in front of the**$\{URI\}** or **$\{URI\_REF\}** parameters.
--   **[Content page links in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_LinkingToContentPages.md)**  
+-   **[Content page links in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_LinkingToContentPages.md)**  
 Links to CMS pages can be put in notifications to make it easy for the reader to access the pages.
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateANotification.md)
 

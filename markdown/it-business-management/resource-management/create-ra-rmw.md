@@ -2,7 +2,7 @@
 title: Create resource assignments in Resource Management Workspace
 description: Create and assign resource assignments and operation resource assignments from Resource Management Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/create-ra-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/create-ra-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -45,7 +45,7 @@ Procedure
 1.  Select **New** or select **New Resource Assignment** from the more actions list.
 2.  On the New Resource Assignment form, fill in the fields.
 
-For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-form-rmw.md).
+For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-ra-form-rmw.md).
 
 </td></tr><tr><td id="d244306e143">
 
@@ -56,7 +56,7 @@ For a description of the field names, see [New Resource Assignment form](https:/
 1.  Select **New operational Assignment** from the more actions list.
 2.  On the New Operational Assignment form, fill in the fields.
 
-For a description of the field names, see [New Operational Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-op-ra-form-rmw.md).
+For a description of the field names, see [New Operational Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-op-ra-form-rmw.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -68,5 +68,5 @@ Resource assignment is created. You can filter and view this assignment in the l
 
 An assignment made for a resource from the resource board must be within the selected date range. If so, it shows up nested under the selected resource in real-time.
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md)
 

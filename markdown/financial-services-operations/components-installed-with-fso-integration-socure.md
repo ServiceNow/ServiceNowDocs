@@ -2,7 +2,7 @@
 title: Components installed with Financial Services Operations Integration with Socure
 description: Several types of components are installed with activation of the Financial Services Operations Integration with Socure \(com.sn\_fso\_intg\_socure\) plugin, including tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/components-installed-with-fso-integration-socure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/components-installed-with-fso-integration-socure.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

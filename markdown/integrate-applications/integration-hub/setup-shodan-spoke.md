@@ -2,7 +2,7 @@
 title: Set up the Shodan spoke
 description: Integrate the Shodan account and your ServiceNow instance using the API keys.Add and configure Shodan connections to authenticate ServiceNow requests to the Shodan server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-shodan-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-shodan-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

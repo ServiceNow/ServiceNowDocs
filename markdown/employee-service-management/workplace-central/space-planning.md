@@ -2,7 +2,7 @@
 title: Space Planning
 description: Create, understand, and manage core functions like space hierarchy, neighborhoods, and user assignments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/space-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/space-planning.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -41,13 +41,13 @@ You must install the following plugins to use the Space Planning module:
 
 You can install the plugins from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). You can also visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information of all the released apps, see the [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-**Important:** You must configure your workplace locations to use Space Planning. For more information about configuring workplace locations, see [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
+**Important:** You must configure your workplace locations to use Space Planning. For more information about configuring workplace locations, see [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 
 To access Space Planning, navigate to **All** &gt; **Workplace Central**, then select the **Space Planning** module in the workspace.
 
 \[Omitted image "wsd-space-planning-module.png"\] Alt text: Space Planning module.
 
-**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 

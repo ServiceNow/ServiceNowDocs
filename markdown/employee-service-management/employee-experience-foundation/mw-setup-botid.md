@@ -2,7 +2,7 @@
 title: Configure bot ID and AI assistant
 description: Specify the bot ID to configure Moveworks AI assistant on Employee Center portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mw-setup-botid.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/mw-setup-botid.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -92,12 +92,12 @@ The Moveworks application is ready for use. You can access the features and func
 
 You can perform the following actions:
 
--   Verify the Moveworks chatbot visibility from **All** &gt; **Self-Service** &gt; **Employee Center** portal. For more information, see [Use Otto Chat Integration on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md).
+-   Verify the Moveworks chatbot visibility from **All** &gt; **Self-Service** &gt; **Employee Center** portal. For more information, see [Use Otto Chat Integration on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md).
 -   Test basic functionality by invoking the assistant and asking a sample question.
 -   Check system properties and verify that all Moveworks specific properties are configured properly.
 
 **Related topics**  
 
 
-[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
+[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
 

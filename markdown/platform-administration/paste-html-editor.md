@@ -2,10 +2,10 @@
 title: Paste content into an HTML editor
 description: Paste content from a desktop application to the HTML editor. Content might not paste the same from every application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/paste-html-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/paste-html-editor.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Editing functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

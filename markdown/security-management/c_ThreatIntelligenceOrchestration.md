@@ -2,7 +2,7 @@
 title: Threat Intelligence Orchestration
 description: Threat Intelligence Orchestration activities allow users to determine whether a threat has been seen before in other security incidents or on other systems using workflow orchestration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/c\_ThreatIntelligenceOrchestration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/c\_ThreatIntelligenceOrchestration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,12 +16,12 @@ Threat Intelligence Orchestration activities allow users to determine whether a 
 
 For more information on editing Security Incident Response Orchestration workflows or creating custom workflows, see [Getting started with workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md) and [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-editor.md) [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-editor.md).
 
--   **[Set up Threat Intelligence Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_ThreatIntelligenceOrchestrationSetup.md)**  
+-   **[Set up Threat Intelligence Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/t_ThreatIntelligenceOrchestrationSetup.md)**  
 Prior to using Threat Intelligence Orchestration, perform steps to set up various parts of the system, including populating the CMDB, configuring the MID Server, and configuring credentials.
--   **[Threat Intelligence Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-orch-wfs-and-activities.md)**  
+-   **[Threat Intelligence Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-orch-wfs-and-activities.md)**  
 The base system includes workflows and workflow activities you can use to automate actions on your instance.
 
-**Parent Topic:**[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intel-landing-page.md)
+**Parent Topic:**[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intel-landing-page.md)
 
 **Related topics**  
 

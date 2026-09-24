@@ -2,7 +2,7 @@
 title: Modify the Recommended for you widget display
 description: The Recommended for you widget displays catalog items and knowledge articles, enabling you to view information that is most relevant to you. You can configure the instance options to control the appearance of the widget, such as the title, number of items to display, and what category of items you want to view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-recommended-for-you.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-recommended-for-you.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

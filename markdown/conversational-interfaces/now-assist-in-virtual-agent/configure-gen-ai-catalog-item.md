@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto in Conversational Catalog Request
 description: Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -42,7 +42,7 @@ When the generative AI experience is configured for catalog item request submiss
 
 ## Procedure
 
-1.  To configure the ServiceNow Otto for Virtual Agent application that installs the ServiceNow Otto in Conversational Catalog Request application, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+1.  To configure the ServiceNow Otto for Virtual Agent application that installs the ServiceNow Otto in Conversational Catalog Request application, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
     With this configuration, the **sn\_now\_assist\_cr.llm.conversational.request.question.limit** system property value is set to 500 by default if that property wasn't edited earlier.
 
@@ -115,9 +115,9 @@ Description
 
 
 </td></tr></tbody>
-</table>4.  Configure URL navigation settings to specify where the generated ticket link in the Virtual Agent chat opens, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-url-navigation.md).
+</table>4.  Configure URL navigation settings to specify where the generated ticket link in the Virtual Agent chat opens, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-url-navigation.md).
 
-    For information about URL navigation in Virtual Agent, see [URL navigation in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/url-navigation-ci.md). For information about Virtual Agent scripts, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
+    For information about URL navigation in Virtual Agent, see [URL navigation in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/url-navigation-ci.md). For information about Virtual Agent scripts, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
 
     \[Omitted image "va-link-cat-item.png"\] Alt text: Generated ticket link in the Virtual Agent chat
 

@@ -2,7 +2,7 @@
 title: Customize the email interaction experience
 description: Customize the Email Interaction record page in UI Builder for agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-email-interaction-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customize-email-interaction-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-06-25"

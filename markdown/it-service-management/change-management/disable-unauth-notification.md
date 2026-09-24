@@ -2,7 +2,7 @@
 title: Disable the creation of an unauthorized change request
 description: You can choose to disable the generation of unauthorized change requests that you receive on any unauthorized change event. When a configuration item \(CI\) that is part of an application service is updated, the system identifies this update and verifies whether the updated CI is part of an open change request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/disable-unauth-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/disable-unauth-notification.html
 release: australia
 product: Change Management
 classification: change-management
@@ -22,7 +22,7 @@ Role required: admin or change\_manager
 
 ## About this task
 
-If the updated CI is not part of an open change request, then the system triggers a change request, and sends a notification. The Change Management application uses this event to create an unauthorized change. If there are many CI changes with no open change request created to include the CIs, then the system creates unauthorized change requests on these CIs. When this event occurs, numerous unauthorized change requests are triggered, and notifications are sent to the members of the group. To avoid this situation, you can disable the **Enable event processing** property before you perform the updates. For more information on additional unauthorized change properties, see [Unauthorized change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/unauth-change-properties.md).
+If the updated CI is not part of an open change request, then the system triggers a change request, and sends a notification. The Change Management application uses this event to create an unauthorized change. If there are many CI changes with no open change request created to include the CIs, then the system creates unauthorized change requests on these CIs. When this event occurs, numerous unauthorized change requests are triggered, and notifications are sent to the members of the group. To avoid this situation, you can disable the **Enable event processing** property before you perform the updates. For more information on additional unauthorized change properties, see [Unauthorized change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/unauth-change-properties.md).
 
 **Note:** Enable the property when you finish your updates. If this property is disabled, unauthorized change requests are not created.
 
@@ -39,7 +39,7 @@ If the updated CI is not part of an open change request, then the system trigger
 
 The creation of an unauthorized change request is disabled, and no notifications are sent.
 
-**Parent Topic:**[Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/unauthorized-change-request.md)
+**Parent Topic:**[Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/unauthorized-change-request.md)
 
 **Related topics**  
 

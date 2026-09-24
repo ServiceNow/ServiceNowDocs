@@ -2,7 +2,7 @@
 title: Asset conditions in Enterprise Asset Management
 description: Assessing the condition of assets in your organization aids in effective maintenance planning, resource allocation, and managing the asset life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/asset-conditions-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/asset-conditions-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -38,23 +38,23 @@ The asset condition workflow comprises of the following stages:
 
 -   **Create condition templates**
 
-    Create condition templates and associate condition attributes that you have defined to a condition template. Create questions and enable scoring in the templates to indicate whether the condition attributes for a model or asset passed or failed. For more details, see [Create condition templates for condition attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-condition-template-eam.md).
+    Create condition templates and associate condition attributes that you have defined to a condition template. Create questions and enable scoring in the templates to indicate whether the condition attributes for a model or asset passed or failed. For more details, see [Create condition templates for condition attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-condition-template-eam.md).
 
 -   **Define condition attributes**
 
-    Enterprise asset managers define condition attributes for evaluating models and assets. For more details, see [Define condition attributes on enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-condition-attribute-eam.md).
+    Enterprise asset managers define condition attributes for evaluating models and assets. For more details, see [Define condition attributes on enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-condition-attribute-eam.md).
 
 -   **Schedule condition evaluations**
 
-    The Enterprise asset manager schedules evaluations via maintenance plans or work orders. For more details, see [Schedule condition evaluations for enterprise models or assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/schedule-condtion-evaluations.md).
+    The Enterprise asset manager schedules evaluations via maintenance plans or work orders. For more details, see [Schedule condition evaluations for enterprise models or assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/schedule-condtion-evaluations.md).
 
 -   **Perform condition evaluations**
 
-    The technician performs the evaluation via the web interface or through the mobile application. Once the evaluation is complete, a score and a result are calculated. The Enterprise asset manager either accepts or rejects the evaluation. For more details, see [Perform condition evaluation from the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/perform-condition-assessment-webui.md) and [Perform condition evaluation from the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/perform-condition-assessment-mobileapp.md).
+    The technician performs the evaluation via the web interface or through the mobile application. Once the evaluation is complete, a score and a result are calculated. The Enterprise asset manager either accepts or rejects the evaluation. For more details, see [Perform condition evaluation from the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/perform-condition-assessment-webui.md) and [Perform condition evaluation from the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/perform-condition-assessment-mobileapp.md).
 
 -   **View the evaluation reports**
 
-    The Enterprise asset manager views the report for the evaluation. For more details, see [Review the asset condition results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/review-service-event-conditions.md).
+    The Enterprise asset manager views the report for the evaluation. For more details, see [Review the asset condition results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/review-service-event-conditions.md).
 
 
 ## Plugin dependencies for asset conditions
@@ -74,10 +74,10 @@ The following are the plugin dependencies that are required to use asset conditi
 
 The asset conditions feature supports domain separation.
 
--   **[Create condition templates for condition attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-condition-template-eam.md)**  
+-   **[Create condition templates for condition attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-condition-template-eam.md)**  
 Create a condition template and associate the template to condition attributes for enterprise models and assets.
--   **[Define condition attributes on enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-condition-attribute-eam.md)**  
+-   **[Define condition attributes on enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-condition-attribute-eam.md)**  
 Define the conditions to be inspected on enterprise models and assets throughout their life cycle.
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

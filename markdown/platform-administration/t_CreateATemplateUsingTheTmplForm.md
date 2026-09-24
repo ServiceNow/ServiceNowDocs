@@ -2,7 +2,7 @@
 title: Create a template using the Template form
 description: Create a template record for any table to populate certain fields automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateATemplateUsingTheTmplForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateATemplateUsingTheTmplForm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -116,7 +116,7 @@ Template that links a child table with the template for the parent table. In the
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md)
+**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_Templates.md)
 
 **Related topics**  
 

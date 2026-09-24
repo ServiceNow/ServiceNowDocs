@@ -2,7 +2,7 @@
 title: OAuth API response parameters
 description: The OAuth 2.0 API produces a JSON response containing the following parameters as name:value pairs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/r\_OAuthAPIResponseParameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/r\_OAuthAPIResponseParameters.html
 release: australia
 product: Authentication
 classification: authentication

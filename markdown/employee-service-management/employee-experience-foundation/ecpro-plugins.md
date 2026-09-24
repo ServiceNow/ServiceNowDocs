@@ -2,7 +2,7 @@
 title: Employee Center Pro plugins
 description: Discover the Employee Center Pro plugins that are included out-of-the-box on a new ServiceNow instance, as well as plugins that are installed when you upgrade to Employee Center Pro.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ecpro-plugins.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -42,7 +42,7 @@ Employee Center Pro \(sn\_ex\_sp\_pro\)
 
 </td><td>
 
-Employee Center Pro extends the standard Employee Center capabilities and provides a platform for employees to communicate and be engaged.[Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-ec-pro.md)
+Employee Center Pro extends the standard Employee Center capabilities and provides a platform for employees to communicate and be engaged.[Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-ec-pro.md)
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Enterprise Service Management Integrations Framework \(sn\_hr\_integ\_fw\)
 
 </td><td>
 
-Enables Employee Center Pro to integrate with third-party systems.[Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-framework.md)
+Enables Employee Center Pro to integrate with third-party systems.[Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-integrations-framework.md)
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Content Publishing \(sn\_sd\)
 
 </td><td>
 
-Use Content Publishing to create different types of information you want to distribute to your employees. [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-delivery-plugin.md)
+Use Content Publishing to create different types of information you want to distribute to your employees. [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-content-delivery-plugin.md)
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Content Experiences \(sn\_ca\)
 
 Package your content into a campaign using multiple channels to deliver the right message to the right audience at the right time. Requires Content Publishing \(sn\_sd\)
 
-[Activate Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-automation-plugin.md)
+[Activate Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-content-automation-plugin.md)
 
 </td></tr></tbody>
 </table>To learn about the tables, roles, and widgets installed, see [Components installed with Employee Center Pro]()
@@ -123,7 +123,7 @@ Communities \(com.sn\_communities\)
 
 </td><td>
 
-The Communities plugin supports [Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md), where employees can connect, engage, and collaborate with each other.Requires Content Publishing \(sn\_sd\) and Content Experiences \(sn\_ca\)
+The Communities plugin supports [Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md), where employees can connect, engage, and collaborate with each other.Requires Content Publishing \(sn\_sd\) and Content Experiences \(sn\_ca\)
 
 [Activate Communities plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-communities.md)
 
@@ -135,7 +135,7 @@ Content Analytics \(sn\_cda\)
 
 Content Analytics helps you decide when content is stale, needs refreshing, and how engaged your employees are with your communication. Requires Content Publishing \(sn\_sd\) and Content Experiences \(sn\_ca\)
 
-[Activate Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.md)
+[Activate Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.md)
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Content Governance \(sn\_cg\)
 
 Content Governance provides a streamlined way for employees to request content to be created, track the progress, preview the content, and approve it before it is published.Requires Content Publishing \(sn\_sd\) and Content Experiences \(sn\_ca\)
 
-[Activate Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-install-content-gov.md)
+[Activate Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-install-content-gov.md)
 
 </td></tr></tbody>
 </table>For more information, see the [Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md).

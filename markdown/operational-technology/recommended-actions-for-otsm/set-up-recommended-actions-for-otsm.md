@@ -2,7 +2,7 @@
 title: Set up Recommended Actions for Operational Technology Service Management \(OTSM\)
 description: Set up recommended actions to display relevant recommendations in the Industrial Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/recommended-actions-for-otsm/set-up-recommended-actions-for-otsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/recommended-actions-for-otsm/set-up-recommended-actions-for-otsm.html
 release: australia
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
@@ -39,5 +39,5 @@ Role required: admin
     OTSM enables you to configure or create guidance and field recommendations. For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-config-recommendations.md).
 
 
-**Parent Topic:**[Configuring Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/configuring-recommended-actions-otsm.md)
+**Parent Topic:**[Configuring Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/recommended-actions-for-otsm/configuring-recommended-actions-otsm.md)
 

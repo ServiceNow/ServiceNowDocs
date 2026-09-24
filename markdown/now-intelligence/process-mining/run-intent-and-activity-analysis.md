@@ -2,7 +2,7 @@
 title: Run intent and activity analysis
 description: Generate a intent and activity analysis on a node.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/run-intent-and-activity-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/run-intent-and-activity-analysis.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -55,5 +55,5 @@ You can run an intent and activity analysis from Analyst workbench or Opportunit
     Use the thumbs up and thumbs down icons to provide feedback for the result that you have received.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)
+**Parent Topic:**[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-na-process-mining.md)
 

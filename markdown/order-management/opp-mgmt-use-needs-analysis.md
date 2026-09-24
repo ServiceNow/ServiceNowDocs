@@ -2,7 +2,7 @@
 title: Get product recommendations for opportunities using needs analysis
 description: Choose a needs template from the product selection guide in the product catalog to get product recommendations for sales opportunities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/opp-mgmt-use-needs-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opp-mgmt-use-needs-analysis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ A needs template is a questionnaire that you complete to get product recommendat
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

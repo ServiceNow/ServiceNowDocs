@@ -2,7 +2,7 @@
 title: Exploring Process Mining
 description: Use Process Mining to analyze and optimize business processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/explore-process-mining.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/explore-process-mining.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -37,14 +37,14 @@ As a process owner, you can:
 -   Get visibility into processes and start collaboration.​
 -   Assess process bottlenecks, find areas of weakness, and find potential areas to optimize.​
 
--   **[Process Mining architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining-architecture.md)**  
+-   **[Process Mining architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-mining-architecture.md)**  
 Understand the basic attributes of the Process Mining architecture.
--   **[Key features of Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/key-features.md)**  
+-   **[Key features of Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/key-features.md)**  
 Some key features of Process Mining are listed in this topic.
--   **[Evaluation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/evaluate-pm.md)**  
+-   **[Evaluation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/evaluate-pm.md)**  
 Process Mining offers four evaluation projects to help you understand the product functionality with your own data. The Process Mining plugin \(sn\_po\) is activated by default in all your production instances enabling you to use the evaluation projects.
--   **[Process Mining workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-overview.md)**  
+-   **[Process Mining workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/analyst-workbench-overview.md)**  
 See your business processes and workflows as visualizations from the Process Mining workspace.
 
-**Parent Topic:**[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md)
+**Parent Topic:**[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-mining.md)
 

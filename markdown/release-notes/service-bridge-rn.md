@@ -2,7 +2,7 @@
 title: Service Exchange \(formerly Service Bridge\) release notes
 description: The ServiceNow Service Exchange application, formerly known as Service Bridge, enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Australia release.The ServiceNow Service Exchange application, formerly known as Service Bridge, enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Australia release.The ServiceNow Service Exchange application, formerly known as Service Bridge, enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Australia release.The ServiceNow Service Exchange application, formerly known as Service Bridge, enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Australia release.The ServiceNow Service Exchange application, formerly known as Service Bridge, enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/service-bridge-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/service-bridge-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -16,11 +16,11 @@ The ServiceNow® Service Exchange application, formerly known as Service Bridge,
 
 ## About Service Exchange \(formerly Service Bridge\)
 
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-4.md)
 
 -   Get version-specific answers to your Service Exchange related questions with the Service Exchange Knowledge Assistant agentic workflow in Now Assist.
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Manage and monitor all your provider and consumer connections from a single, unified Connections tab in the Service Exchange Center.
 -   Streamline the end-to-end registration and onboarding experience for consumers with an improved, guided onboarding workflow.
@@ -63,7 +63,7 @@ See [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
         -   Zurich
         -   Australia
 
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/technology-industry-rn-landing.md)
 
 ## July 2026
 

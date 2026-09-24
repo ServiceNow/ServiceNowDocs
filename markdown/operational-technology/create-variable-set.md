@@ -2,7 +2,7 @@
 title: Create a Variable set
 description: Create a Variable set for an Auto Query scan created in the Discovery Console for OT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/create-variable-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/create-variable-set.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ The new variable appears in the Variable list.
 
 **Note:** A Site can only be associated with a single Variable set, but a Variable set can contain many variables.
 
-**Parent Topic:**[Variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/variables.md)
+**Parent Topic:**[Variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/variables.md)
 

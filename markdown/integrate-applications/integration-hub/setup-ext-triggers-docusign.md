@@ -2,7 +2,7 @@
 title: Set up triggers for the Docusign eSignature spoke
 description: Set up the trigger to generate the callback URL on your ServiceNow instance.Create or enable the glide.oauth.inbound.client.credential.grant\_type.enabled system property to use the OAuth client credentials grant type for inbound integrations from the Docusign OAuth client to ServiceNow instance.Create an application registry in the ServiceNow instance to authenticate the inbound calls.Activate the trigger definition to generate the callback URL on your ServiceNow instance.Add a custom configuration in the Docusign account to send real‐time data updates to the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ext-triggers-docusign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-ext-triggers-docusign.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -185,7 +185,7 @@ URL to Publish
 
 </td><td>
 
-Enter the URL that is generated when you activated the trigger definition in this format: `https://<ServiceNow-instance-name>.service-now.com/api/sn_docusign_spoke/docusign_esignature_external_trigger`.For more information, [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ext-triggers-docusign.md).
+Enter the URL that is generated when you activated the trigger definition in this format: `https://<ServiceNow-instance-name>.service-now.com/api/sn_docusign_spoke/docusign_esignature_external_trigger`.For more information, [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-ext-triggers-docusign.md).
 
 </td></tr><tr><td>
 
@@ -243,7 +243,7 @@ Under **Include Data**, select the **Recipients** option. Select other options a
 
 10. Enter the values of Client ID and Client Secret.
 
-    These values are created when you create application registry record in ServiceNow instance. For more information, see [Create an application registry to authenticate the inbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ext-triggers-docusign.md).
+    These values are created when you create application registry record in ServiceNow instance. For more information, see [Create an application registry to authenticate the inbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-ext-triggers-docusign.md).
 
 11. Enter **Authorization Server URL** in this format: `https://<ServiceNow-instance-name>.service-now.com/oauth_token.do`.
 

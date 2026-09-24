@@ -2,7 +2,7 @@
 title: Delete a category
 description: When you delete a category, the system also deletes the associated category users and stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_DeleteACategory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_DeleteACategory.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,12 +33,12 @@ Role required: assessment\_admin or admin
     The system displays messages at the top of the form describing the actions taken.
 
 
-**Parent Topic:**[Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetricCategories.md)
+**Parent Topic:**[Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetricCategories.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md)
 
-[Create a category for assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateACategoryAR.md)
+[Create a category for assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateACategoryAR.md)
 

@@ -2,7 +2,7 @@
 title: Configure a table in an application administration app to inherit global ACL rules
 description: To avoid duplicating global access control rules \(ACLs\) in your applications, you can configure application file tables in application administration apps to inherit global ACLs when no ACL rules for the scoped application are found.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/inherit-global-acls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/inherit-global-acls.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

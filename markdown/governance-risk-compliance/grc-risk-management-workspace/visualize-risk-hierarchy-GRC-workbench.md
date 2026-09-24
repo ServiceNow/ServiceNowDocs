@@ -2,7 +2,7 @@
 title: Visualize risk hierarchies using the GRC: Workbench
 description: Risk users can see the hierarchy of risk statements using the GRC: Workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/visualize-risk-hierarchy-GRC-workbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/visualize-risk-hierarchy-GRC-workbench.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -37,5 +37,5 @@ Role required: sn\_risk.reader
     The risk statement hierarchy is displayed.
 
 
-**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

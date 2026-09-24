@@ -2,7 +2,7 @@
 title: Security Incident Response Tasks
 description: All the response tasks associated with a security incident are displayed within the Response Tasks section.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-response-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/security-incident-response-tasks.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -26,10 +26,10 @@ The analyst will be able to:
 
 **Note:** To make any quick edits to the response tasks. Select the response task and a list of response tasks are displayed, select the record and make changes and save the response task.
 
--   **[Create a Response Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create_response_task.md)**  
+-   **[Create a Response Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create_response_task.md)**  
 Create response tasks to track separate actions to be performed to respond to the security issue.
 
-**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 

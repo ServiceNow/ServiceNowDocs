@@ -2,7 +2,7 @@
 title: Reduce incidents and keep services flowing with AI based automation blueprint
 description: Select this adoption blueprint to leverage AI-based automation to keep the business running by reducing and prioritizing incidents and issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-ab4.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/admin-center/ac-ab4.html
 release: australia
 product: Admin Center
 classification: admin-center
@@ -163,5 +163,5 @@ Roles installed with Site Reliability Operations
 -   [Site Reliability Operations overview \(video\)](https://www.youtube.com/watch?v=lObGvjmJ7Ts&t=1s)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/admin-center/ac-select-business-objective.md)
 

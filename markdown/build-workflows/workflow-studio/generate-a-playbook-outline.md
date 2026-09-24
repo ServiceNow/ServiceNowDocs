@@ -2,14 +2,14 @@
 title: Generate a playbook from text or image
 description: Generate a playbook using AI by providing text directions or an image.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/generate-a-playbook-outline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/generate-a-playbook-outline.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-06-25"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbook generation from text prompt or image, Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -21,13 +21,13 @@ Generate a playbook using AI by providing text directions or an image.
 
 ## Before you begin
 
-Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook generation** and **Playbook generation with images** skills are turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
+Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook generation** and **Playbook generation with images** skills are turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
 
 **Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
 For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
 
-Learn how to write prompts to generate better playbooks. For more information, see [Writing prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-assist.md).
+Learn how to write prompts to generate better playbooks. For more information, see [Writing prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-assist.md).
 
 Role required:
 
@@ -136,17 +136,17 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 
 5.  Review the generated playbook preview for accuracy.
 
-    If the generated playbook doesn't meet your requirements, try rephrasing your prompt according to [Writing prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-assist.md), and select **Regenerate preview**.
+    If the generated playbook doesn't meet your requirements, try rephrasing your prompt according to [Writing prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-assist.md), and select **Regenerate preview**.
 
 6.  Select **Save and edit playbook**.
 
 7.  Configure your trigger.
 
-    For more information about triggers, see [Configure your trigger.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-trigger.md)
+    For more information about triggers, see [Configure your trigger.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-configure-trigger.md)
 
 8.  If the playbook contains placeholder activities, configure the placeholder activities manually.
 
-    **Tip:** To generate recommendations for activity definitions from AI instead, see [Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-playbook-recommendations.md).
+    **Tip:** To generate recommendations for activity definitions from AI instead, see [Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/generate-playbook-recommendations.md).
 
     1.  Select a placeholder activity that you want to configure \( \[Omitted image "placeholder-activity-icon.png"\] Alt text: Placeholder activity icon.\).
 
@@ -160,15 +160,15 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 
     4.  In the activity picker, search for the activity, subflow, or action to add.
 
-        **Note:** Select the application first, and then the activity from the resulting list. For more information about subflows or actions, see [subflow, or action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/automation-assets.md).
+        **Note:** Select the application first, and then the activity from the resulting list. For more information about subflows or actions, see [subflow, or action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/automation-assets.md).
 
     5.  Configure the activity inputs.
 
-        For more information about common activities and their inputs, see [Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-reference.md).
+        For more information about common activities and their inputs, see [Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-reference.md).
 
 9.  If you don't see the activity that you want to add in the activity picker, create an activity definition.
 
-    For more information, see [create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
+    For more information, see [create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-activity-definition.md).
 
 10. After you configure all your stages and activities, test the playbook.
 
@@ -178,16 +178,16 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 
     **Note:** When you change your playbook after activating it, the system saves your changes but deactivates your playbook.
 
-    To publish any new changes to your playbook, you must activate the playbook again. For more information, see [Playbook statuses and activation states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-status-activation-state.md).
+    To publish any new changes to your playbook, you must activate the playbook again. For more information, see [Playbook statuses and activation states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-status-activation-state.md).
 
 
 ## Result
 
-When the trigger conditions of your playbook are met, playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-automated-process.md).
+When the trigger conditions of your playbook are met, playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/design-automated-process.md).
 
 ## What to do next
 
-Design the Playbook Experience for your agents and fulfillers in UI Builder. To learn how to design and customize the runtime playbook experience in UI Builder, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
+Design the Playbook Experience for your agents and fulfillers in UI Builder. To learn how to design and customize the runtime playbook experience in UI Builder, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
-**Parent Topic:**[Playbook generation from text prompt or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-assist.md)
+**Parent Topic:**[Playbook generation from text prompt or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-assist.md)
 

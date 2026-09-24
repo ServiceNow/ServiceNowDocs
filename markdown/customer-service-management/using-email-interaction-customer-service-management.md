@@ -2,7 +2,7 @@
 title: Using Email Interaction for Customer Service Management
 description: Email Interaction for CSM application enables agents to create interactions from customer emails, helping them resolve simple customer queries through these interactions. They can create a case from an interaction when further investigation is needed for resolving the customer query. This process provides clarity of the effort needed for customer query intake and actual investigation needed for query resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-email-interaction-customer-service-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-email-interaction-customer-service-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-11"
@@ -52,7 +52,7 @@ Email replies on closed interactions support the following:
 -   Agent notification through the bell icon when a reply is linked to an open case.
 -   Support for standard cases and extended case types.
 
-For more information on how the system evaluates and routes replies, see [Email reply linking for closed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/email-reply-routing-closed-interactions.md).
+For more information on how the system evaluates and routes replies, see [Email reply linking for closed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/email-reply-routing-closed-interactions.md).
 
 ## Outbound email interactions
 
@@ -73,7 +73,7 @@ By default, when multiple agents initiate outbound emails for the same customer,
 
 This behavior is configurable using the \(**sn\_eaai\_core.create\_outbound\_interaction\_per\_agent.target\_tables**\) system property. When a table is listed in this property, a new outbound interaction is created for each outbound email initiated by different agents for the same customer. For example, if Agent A and Agent B both compose emails to the same contact, each agent gets a separate outbound interaction instead of sharing one. When a table isn’t listed, all agent drafts are consolidated into a single WIP interaction.
 
-For more information, see [System properties for configuring Email Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/system-properties-for-configuring-email-as-an-interaction.md).
+For more information, see [System properties for configuring Email Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/system-properties-for-configuring-email-as-an-interaction.md).
 
 ## Wrap-up codes for email interactions
 
@@ -91,7 +91,7 @@ Agents can generate AI summaries of email interaction threads to get the key con
 
 **Note:** Check your entitlements to determine whether you have access to AI summarization.
 
-For more information, see [AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/eaai-ai-summarization-email-interactions.md).
+For more information, see [AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/eaai-ai-summarization-email-interactions.md).
 
 ## Automatic wrap-up code assignment
 
@@ -110,25 +110,25 @@ For CCaaS-routed email interactions, agents can transfer the interaction to anot
 **Related topics**  
 
 
-[Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/omnichannel.md)
+[Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/omnichannel.md)
 
-[System properties for configuring Email Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/system-properties-for-configuring-email-as-an-interaction.md)
+[System properties for configuring Email Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/system-properties-for-configuring-email-as-an-interaction.md)
 
-[Wrap up email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/wrap-up-email-interactions-eaai.md)
+[Wrap up email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/wrap-up-email-interactions-eaai.md)
 
-[Transfer email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/transfer-email-interactions-eaai.md)
+[Transfer email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/transfer-email-interactions-eaai.md)
 
-[Create outbound email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-outbound-email-interactions-eaai.md)
+[Create outbound email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-outbound-email-interactions-eaai.md)
 
-[Configure wrap-up codes for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-wrap-up-codes-email-interactions-eaai.md)
+[Configure wrap-up codes for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-wrap-up-codes-email-interactions-eaai.md)
 
-[Associate wrap-up codes with email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-wrap-up-codes-email-interactions.md)
+[Associate wrap-up codes with email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-wrap-up-codes-email-interactions.md)
 
-[Routing and assigning an email interaction to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/routing-assigning-email-interaction-agents.md)
+[Routing and assigning an email interaction to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/routing-assigning-email-interaction-agents.md)
 
-[Email reply linking for closed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/email-reply-routing-closed-interactions.md)
+[Email reply linking for closed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/email-reply-routing-closed-interactions.md)
 
-[Email reply linking scenarios for closed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/eaai-email-reply-linking-scenarios.md)
+[Email reply linking scenarios for closed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/eaai-email-reply-linking-scenarios.md)
 
-[AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/eaai-ai-summarization-email-interactions.md)
+[AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/eaai-ai-summarization-email-interactions.md)
 

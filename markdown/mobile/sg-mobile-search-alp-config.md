@@ -2,7 +2,7 @@
 title: Add your search configuration to a launcher screen
 description: Update your launcher screen to use your custom search configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-search-alp-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-search-alp-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Configure search criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-custom-search.md)
+**Parent Topic:**[Configure search criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-create-custom-search.md)
 

@@ -2,7 +2,7 @@
 title: Copy and activate the generative AI DocIntel flow
 description: Copy and activate the generative AI DocIntel flow to enable AI-powered invoice processing in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-gen-ai-di-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/configure-gen-ai-di-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

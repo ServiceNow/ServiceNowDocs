@@ -2,7 +2,7 @@
 title: Model management view
 description: Use the Model management view in the Asset Workspace to create or modify models, view and manage the asset model-related functions such as hardware and consumable models nearing the end of life.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/model-management-view-am.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/model-management-view-am.html
 release: australia
 product: Asset Management
 classification: asset-management

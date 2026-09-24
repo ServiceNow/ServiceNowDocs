@@ -2,7 +2,7 @@
 title: Install Impact Value Management Data Collection Content Pack Apps dependent plugins
 description: Install the dependent plugins for Impact Value Management Data Collection Content Pack apps
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/dc-install-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-install-plugins.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -151,5 +151,5 @@ Event Management \(com.glideapp.itom.snac\)
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-toolkit.md)
 

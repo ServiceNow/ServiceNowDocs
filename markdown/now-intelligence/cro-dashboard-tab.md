@@ -2,7 +2,7 @@
 title: Chief Risk Officer Dashboard pillars
 description: Organizing insights into these five pillars promotes CRO focus on delivering value quickly, improving productivity and optimizing risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cro-dashboard-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/cro-dashboard-tab.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

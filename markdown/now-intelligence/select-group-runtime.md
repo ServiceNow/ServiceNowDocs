@@ -2,7 +2,7 @@
 title: Select a group-by value in a data visualization as a viewer
 description: A viewer of a data visualization can select the value for grouping the data in the visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/select-group-runtime.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/select-group-runtime.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [View, Data visualizations, Platform Analytics experience, Platform 
 
 A viewer of a data visualization can select the value for grouping the data in the visualization.
 
-If a data visualization is configured with alternative group-by values, a viewer can pick which value to apply. No editing rights are required. On a visualization that shows Service Catalog data, the options can include Service Catalog variables, as described in [Service catalog variables in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-rep-sc-variables.md).
+If a data visualization is configured with alternative group-by values, a viewer can pick which value to apply. No editing rights are required. On a visualization that shows Service Catalog data, the options can include Service Catalog variables, as described in [Service catalog variables in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-rep-sc-variables.md).
 
 **Note:** Instructions for configuring alternative group by are included in the data options topics for the relevant data visualizations.
 
@@ -34,5 +34,5 @@ In a time series visualization that shows more than one metric, you might have t
 
 \[Omitted image "dv-select-group-by-1.png"\] Alt text: Selecting a group-by for the first of 2 metrics in a time series visualization. \[Omitted image "dv-select-group-by-2.png"\] Alt text: Selecting the second of 2 metrics in a time series visualization.
 
-**Parent Topic:**[View data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-data-visualizations.md)
+**Parent Topic:**[View data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/view-data-visualizations.md)
 

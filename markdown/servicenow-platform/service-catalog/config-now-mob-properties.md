@@ -2,7 +2,7 @@
 title: Configure Now Mobile properties
 description: Define the behavior of various catalog entities in Now Mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/config-now-mob-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/config-now-mob-properties.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -151,7 +151,7 @@ Not viewable in search and browse experience
 4.  Click **Save**.
 
 
-**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md)
+**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/now-mobile-catalog.md)
 
 **Related topics**  
 

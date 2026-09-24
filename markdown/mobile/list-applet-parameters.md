@@ -2,7 +2,7 @@
 title: Parametrized list screens
 description: Learn how to use parameters to pass information into a list screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/list-applet-parameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/list-applet-parameters.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure HR Service Delivery playbook card
 description: Use Playbook Card Configuration to view and manage what appears for each card in an activity set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-card-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-card-configuration.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -70,7 +70,7 @@ Activity type
 
 </td><td>
 
-The activity type from a lifecycle event activity. Activity types can be approvals, employee activities, fulfiller activities, notifications, and more. **Note:** For more information, see [Configure the supporting components for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-supporting-components-for-lifecycle-event.md).
+The activity type from a lifecycle event activity. Activity types can be approvals, employee activities, fulfiller activities, notifications, and more. **Note:** For more information, see [Configure the supporting components for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-supporting-components-for-lifecycle-event.md).
 
 </td></tr><tr><td>
 

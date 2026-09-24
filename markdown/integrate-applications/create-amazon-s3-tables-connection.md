@@ -2,7 +2,7 @@
 title: Create an Amazon S3 Tables connection
 description: Establish a zero copy connection to Amazon S3 Tables in Zero Copy Connector Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-amazon-s3-tables-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-amazon-s3-tables-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

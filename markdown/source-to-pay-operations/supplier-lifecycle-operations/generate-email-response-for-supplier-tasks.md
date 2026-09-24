@@ -2,7 +2,7 @@
 title: Generate an email response for supplier tasks
 description: Generate an email response for supplier tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/generate-email-response-for-supplier-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/generate-email-response-for-supplier-tasks.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

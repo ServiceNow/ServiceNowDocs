@@ -2,7 +2,7 @@
 title: Activate AI agents
 description: Activate AI agents individually that you want to make available for the AI driven supplier onboarding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/activate-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/activate-ai-agents.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -61,7 +61,7 @@ After agents are activated, agentic workflow must also be activated separately.
 **Related topics**  
 
 
-[AI driven supplier onboarding using ServiceNow Otto for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-onboarding-agentic-workflow.md)
+[AI driven supplier onboarding using ServiceNow Otto for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-onboarding-agentic-workflow.md)
 
-[Supplier document strategy generator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-document-strategy-generator-ai-agent.md)
+[Supplier document strategy generator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-document-strategy-generator-ai-agent.md)
 

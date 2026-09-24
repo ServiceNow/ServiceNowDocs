@@ -2,7 +2,7 @@
 title: Jumpstart Your Strategic Portfolio Management – Resource Management Workspace
 description: The Jumpstart Your Strategic Portfolio Management \(SPM\) – Resource Management Workspace Accelerator provides a demonstration of the possibilities and capabilities of Resource Management Workspaces within SPM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-strategic-portfolio-management-resource-management-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-strategic-portfolio-management-resource-management-workspace.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

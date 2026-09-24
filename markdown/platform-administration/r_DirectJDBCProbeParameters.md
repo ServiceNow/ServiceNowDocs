@@ -2,7 +2,7 @@
 title: Parameters
 description: The following parameters are available in a direct JDBC probe.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_DirectJDBCProbeParameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_DirectJDBCProbeParameters.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -147,5 +147,5 @@ For example, to query a table using a direct JDBC probe, requires the following 
     -   User password
 -   The table name
 
-**Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_JDBCProbe.md)
+**Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_JDBCProbe.md)
 

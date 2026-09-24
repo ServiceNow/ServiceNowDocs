@@ -2,7 +2,7 @@
 title: Action item collaborator synchronization with Smart Assessment
 description: When users are assigned to a recovery action item, they are automatically synced as collaborators on the linked Smart Assessment instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/action-item-collaborators-smart-assessment-sync-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/action-item-collaborators-smart-assessment-sync-events.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-12"
@@ -42,5 +42,5 @@ The following users are added to assessment collaborators:
 |Filter|Type = assessment AND assessment\_template is not empty|
 |Monitored Fields|assigned\_to, assignment\_group, additional\_assignee\_list|
 
-**Parent Topic:**[Creating action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-action-items-in-events.md)
+**Parent Topic:**[Creating action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-action-items-in-events.md)
 

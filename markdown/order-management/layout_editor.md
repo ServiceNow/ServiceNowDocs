@@ -2,7 +2,7 @@
 title: Layout editor
 description: Learn how to use the layout editor to modify a layout without leaving CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/layout\_editor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Organization tax details inbound staging table
 description: The Organization tax details inbound \[sn\_fcms\_intg\_org\_tax\_detail\_inbound\] staging table temporarily stores important data about an organization's tax information before this data is sent to the Organization Tax Details \[sn\_fin\_org\_tax\_detail\] primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/slo-org-tax-details-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/slo-org-tax-details-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -25,7 +25,7 @@ The following table lists the mandatory fields for the Organization tax details 
 |Organization|String|Name of the organization.|
 |Tax ID|String|Tax ID of the organization.|
 
-**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/inbound-staging-tables-for-apo.md)
+**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/inbound-staging-tables-for-apo.md)
 
 **Related topics**  
 

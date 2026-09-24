@@ -2,7 +2,7 @@
 title: Onboard an external manager
 description: Onboard a manager from a contractor company to manage, review, and assign the outsourcing and assignments of work order tasks to their field agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/onboard-external-manager.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/onboard-external-manager.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

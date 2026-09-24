@@ -2,7 +2,7 @@
 title: Service definition roles
 description: Service definition roles included with the Customer Service Case Types plugin enable users to view, create, and update service definitions, service definition categories, and service definition category relationships. Agents and end users can use these definitions and categories to view and create cases based on the selected service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-service-definitions-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-service-definitions-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Service definition admin\[sn\_csm\_case\_types.service\_definition\_admin\]
 
 </td><td>
 
-Administrator role for the [Customer Service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md) tables. Users with this role can view, create, update, and delete service definitions, service definition categories, and service definition category relationships.
+Administrator role for the [Customer Service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-case-types.md) tables. Users with this role can view, create, update, and delete service definitions, service definition categories, and service definition category relationships.
 
 </td><td>
 
@@ -49,7 +49,7 @@ Service definition manager\[sn\_csm\_case\_types.service\_definition\_manager\]
 
 </td><td>
 
-Manager role for the [Customer Service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md) tables. Users with this role can view, create, and update service definitions, service definition categories, and service definition category relationships.
+Manager role for the [Customer Service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-case-types.md) tables. Users with this role can view, create, and update service definitions, service definition categories, and service definition category relationships.
 
 </td><td>
 
@@ -193,7 +193,7 @@ Customer contacts with configured contact relationships
 
 </td><td>
 
-For more information, see [Contact Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ContactRelationships.md).
+For more information, see [Contact Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_ContactRelationships.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -213,7 +213,7 @@ Consumers with configured consumer relationships
 
 </td><td>
 
-Use relationships to provide internal and external users with additional access to customer data. For more information, see [Create relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-relationships.md).
+Use relationships to provide internal and external users with additional access to customer data. For more information, see [Create relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-data-model-relationships.md).
 
 </td></tr><tr><td>
 
@@ -221,7 +221,7 @@ Consumers who are designated as head of household
 
 </td><td>
 
-A household is made up of a group of consumers who live at a common address and share products and services. A household can have a designated head of household and multiple current members. For more information, see [Create or update a household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-consumer-household.md).
+A household is made up of a group of consumers who live at a common address and share products and services. A household can have a designated head of household and multiple current members. For more information, see [Create or update a household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-consumer-household.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -332,20 +332,20 @@ An Outsourced Service Provider \(OSP\) role. Users with this role can fulfill th
 </td></tr></tbody>
 </table>For more information about these roles, see the following topics:
 
--   [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
--   [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-contributor-user-roles.md)
--   Service Model Foundation - [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-roles.md)
--   [Roles installed with customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md)
--   [Roles for Outsourced Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/roles-ocs.md)
+-   [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_RolesInstalledWithCustomerService.md)
+-   [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-contributor-user-roles.md)
+-   Service Model Foundation - [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-data-model-roles.md)
+-   [Roles installed with customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md)
+-   [Roles for Outsourced Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/roles-ocs.md)
 
 **Related topics**  
 
 
-[Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions-configure.md)
+[Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-service-definitions-configure.md)
 
-[Customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md)
+[Customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-case-types.md)
 
-[Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-csm-case-types.md)
+[Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/manage-csm-case-types.md)
 
-[Create a customer service case of a specific type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-of-specific-case-type.md)
+[Create a customer service case of a specific type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-of-specific-case-type.md)
 

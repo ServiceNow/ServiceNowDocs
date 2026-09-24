@@ -2,7 +2,7 @@
 title: Integration with Industry products
 description: Provides an integration between the Industry products and Field Service Management application. This integration allows customers and consumers to manage case-related work orders and tasks across Industry Products portals and application interfaces, enhancing visibility and operational efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/industry-products-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-integrations/industry-products-integration.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -31,7 +31,7 @@ This integration supports all Industry Products, each extending the value of dat
 
 ## Access to work orders and work order tasks
 
-Access to FSM work orders and tasks through Industry Products requires the Customer Service with Field Service Management plugin \(com.snc.csm\_fsm\_integration\). For more information, see [Integration with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/customer-service-integration.md). This plugin requires:
+Access to FSM work orders and tasks through Industry Products requires the Customer Service with Field Service Management plugin \(com.snc.csm\_fsm\_integration\). For more information, see [Integration with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/customer-service-integration.md). This plugin requires:
 
 -   Field Service Management
 -   Customer Service Management
@@ -54,5 +54,5 @@ These roles are available when the Work Management and Service Organization plug
 -   If you have a subscription to the FSM application and the Customer Service Agent \(`sn_customerservice_agent`\) or Customer Service Agent Manager \(`sn_customerservice_manager`\) roles, you can create and view all work orders and appointments related to your cases.
 -   External users with the `snc_external` role can create and view case-related work orders and appointments associated with their account or related accounts.
 
-**Parent Topic:**[Integrating Field Service Management with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/integrate-fsm-other-applications.md)
+**Parent Topic:**[Integrating Field Service Management with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/integrate-fsm-other-applications.md)
 

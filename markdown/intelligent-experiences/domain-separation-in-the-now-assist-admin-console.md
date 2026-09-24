@@ -2,7 +2,7 @@
 title: Domain separation in the AI Admin Hub console
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for the AI Admin Hub console. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-31"
@@ -60,13 +60,13 @@ Domain separation is possible at the skill level and at the individual configura
 4.  Change your current domain to the domain that you want to enable the skill in.
 5.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 6.  Navigate to the skill that you want to activate according to domain and select **Activate skill**.
-7.  Configure the skill as usual. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+7.  Configure the skill as usual. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 8.  Return to the AI Skill Config \(sn\_nowassist\_skill\_config\) table. There should be a new record in the current domain. Open the new record.
 9.  In a different browser tab, return to the ServiceNow Otto Skill Config table and open the deactivated skill record in the global domain.
 10. Compare the global skill record to the one created within your domain. Records on the related list may not be present in the domain-specific skill. If they are not there, you must recreate those records in your domain and attach them to the related list in your domain-specific skill.
 11. Repeat the process for each skill and each domain where you want to have the skill available.
 
-**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-reference-landing.md)
 
 **Related topics**  
 

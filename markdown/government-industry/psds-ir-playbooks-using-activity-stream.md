@@ -2,7 +2,7 @@
 title: Using the activity stream in Information Request Playbook
 description: You can access the activity stream in the contextual side panel in CRM Workspace after you create an information request record using the Information Request Playbook. The activity stream enables you to communicate with requesters and make internal notes about the work that is done on a record, making it easier to relay and track information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbooks-using-activity-stream.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-ir-playbooks-using-activity-stream.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

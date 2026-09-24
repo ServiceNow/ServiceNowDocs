@@ -2,7 +2,7 @@
 title: Create a dynamic attribute
 description: Define one or more dynamic attributes that describe a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/add-dynamic-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/add-dynamic-attributes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,8 +18,8 @@ Define one or more dynamic attributes that describe a record.
 
 You can define each of the dynamic attributes that describe your records in a dynamic namespace that's associated with a dynamic attribute store field. You can create a dynamic namespace the following ways:
 
--   Create a dynamic attribute store field. When you create a dynamic attribute store field, a dynamic namespace is automatically created and associated with the store field. See [Create a dynamic attribute store field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-dynamic-attribute-store-field.md).
--   Create a dynamic namespace manually. See [Create a dynamic namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-dynamic-namespace.md).
+-   Create a dynamic attribute store field. When you create a dynamic attribute store field, a dynamic namespace is automatically created and associated with the store field. See [Create a dynamic attribute store field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-dynamic-attribute-store-field.md).
+-   Create a dynamic namespace manually. See [Create a dynamic namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-dynamic-namespace.md).
 
 Role required: dynamic\_schema\_writer
 
@@ -82,7 +82,7 @@ Choice Set
 
 </td><td>
 
-Fixed set of values defined in a choice set. For example, if you created a choice set for Colors with choices for red, green, and blue, you can select the Colors choice set to limit the attribute's values to the color choices defined in the choice set. See [Create a dynamic choice set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-choice-set.md).
+Fixed set of values defined in a choice set. For example, if you created a choice set for Colors with choices for red, green, and blue, you can select the Colors choice set to limit the attribute's values to the color choices defined in the choice set. See [Create a dynamic choice set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-choice-set.md).
 
  This option only appears when you select String in the **Type** field.
 

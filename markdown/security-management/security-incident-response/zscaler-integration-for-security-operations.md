@@ -2,7 +2,7 @@
 title: Security Incident Response integration with Zscaler
 description: You can use the Security Incident Response integration with Zscaler product to connect your Zscaler Internet Access server \(ZIA\) logs with the ServiceNow AI Platform. This integration enables you to view dashboards, create custom alerts, and help you investigate security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/zscaler-integration-for-security-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/zscaler-integration-for-security-operations.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

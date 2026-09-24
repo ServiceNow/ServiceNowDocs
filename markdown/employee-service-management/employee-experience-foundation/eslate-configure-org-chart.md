@@ -2,7 +2,7 @@
 title: Configure the organization chart
 description: Configure the organization chart in EmployeeWorks Web App. Set the eligible users and the fields that appear on each card.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-org-chart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-org-chart.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -73,5 +73,5 @@ Employees can edit and upload profile images directly on the profile page.
 **Related topics**  
 
 
-[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
+[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
 

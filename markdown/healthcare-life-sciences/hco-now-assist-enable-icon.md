@@ -2,7 +2,7 @@
 title: Enable the ServiceNow Otto icon in Care Team Mobile
 description: Set up the ServiceNow Otto icon within Care Team Mobile so you can leverage the Request care team assistance agentic workflow in Care Team Mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-enable-icon.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-now-assist-enable-icon.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

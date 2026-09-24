@@ -2,7 +2,7 @@
 title: Compare two versions of an application service in classic Service Mapping
 description: You can see a summary of application service changes at a glance by comparing two versions of an application service. This feature is useful for checking the application service status before and after a certain change or problem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CompareBS.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/t\_CompareBS.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -42,15 +42,15 @@ Service Mapping, if deployed, tracks and shows all changes to a CI including con
 
 3.  On the history timeline, set the time range of changes that you want to view.
 
-<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d466585e184">
+<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d466906e184">
 
 Option
 
-</th><th align="left" id="d466585e187">
+</th><th align="left" id="d466906e187">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d466585e193">
+</th></tr></thead><tbody><tr><td id="d466906e193">
 
 **To set the time range of the history timeline**
 
@@ -58,7 +58,7 @@ Action
 
 Click the hour, day, week, or month icons.\[Omitted image "MapHistoryTimeRangeIcons.png"\] Alt text: Click Hours, Days, Weeks, or Months to set the time range of the history scale.
 
-</td></tr><tr><td id="d466585e208">
+</td></tr><tr><td id="d466906e208">
 
 **To increase or decrease the time range**
 
@@ -66,7 +66,7 @@ Click the hour, day, week, or month icons.\[Omitted image "MapHistoryTimeRangeIc
 
 Click the zoom in and zoom out icons.\[Omitted image "MapHistoryPlusMinusIcons.png"\] Alt text: Click Zoom in and Zoom out to change the time range.
 
-</td></tr><tr><td id="d466585e223">
+</td></tr><tr><td id="d466906e223">
 
 **To change the upper limit on your history range**
 
@@ -138,7 +138,7 @@ You cannot set the lower limit on your history range to a time before this servi
 **Related topics**  
 
 
-[View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_ViewCIChanges.md)
+[View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_ViewCIChanges.md)
 
 [Compare versions of CI configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/compare-configuration-files.md)
 

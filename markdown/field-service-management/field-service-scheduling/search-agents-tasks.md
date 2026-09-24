@@ -2,7 +2,7 @@
 title: Search for appropriate Field Service agents
 description: Search for agents with specific attributes in Dispatcher Workspace so you can make appropriate assignments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/search-agents-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/search-agents-tasks.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -55,7 +55,7 @@ Type an agent name in the **Search resources** field and select the Search \(\[O
 </td><td>
 
 Rank resources by level of importance.1.  Select the Rank Resources \[Omitted image "rank-resources-icon-fsm.png"\] Alt text: Rank resources. icon
-2.  Select a sort option to view the agents who meet the specific attributes and are available: **Default**, **Distance**, **Skills**, **Parts**, **Auto Assign Rules**. For more information, see [Activate dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-dynamic-scheduling-plugin.md).
+2.  Select a sort option to view the agents who meet the specific attributes and are available: **Default**, **Distance**, **Skills**, **Parts**, **Auto Assign Rules**. For more information, see [Activate dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/activate-dynamic-scheduling-plugin.md).
 
 
 </td></tr><tr><td id="d141149e184">
@@ -75,5 +75,5 @@ Field service agents are listed based on the filter criteria. If agents aren’t
 **Related topics**  
 
 
-[Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+[Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
 

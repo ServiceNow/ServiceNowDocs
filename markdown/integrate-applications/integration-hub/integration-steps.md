@@ -2,7 +2,7 @@
 title: Integration steps
 description: Enable custom actions to integrate with external systems by activating Integration Hub, which adds integration steps to the Workflow Studio interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/integration-steps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/integration-steps.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -40,7 +40,7 @@ Step runs from
 
 </th></tr></thead><tbody><tr><td>
 
-[JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jdbc-step.md)
+[JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/jdbc-step.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ MID Server
 
 </td></tr><tr><td>
 
-[JSON Builder step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/json-build-step-action-designer.md)
+[JSON Builder step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/json-build-step-action-designer.md)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Instance
 
 </td></tr><tr><td>
 
-[Payload Builder step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/payload-build-step-action-designer.md)
+[Payload Builder step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/payload-build-step-action-designer.md)
 
 </td><td>
 
@@ -77,7 +77,7 @@ Enable action designers to easily create name-value pairs in JSON and XML payloa
 
 </td></tr><tr><td>
 
-[PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/powershell-step-action-designer.md)
+[PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/powershell-step-action-designer.md)
 
 </td><td>
 
@@ -89,7 +89,7 @@ MID Server
 
 </td></tr><tr><td>
 
-[REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md)
+[REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/rest-request-action-designer.md)
 
 </td><td>
 
@@ -102,7 +102,7 @@ Send an outbound REST web service request to an external system.
 
 </td></tr><tr><td>
 
-[SOAP step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/soap-step-action-designer.md)
+[SOAP step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/soap-step-action-designer.md)
 
 </td><td>
 
@@ -115,7 +115,7 @@ Enable action designers to send outbound SOAP web service requests to external s
 
 </td></tr><tr><td>
 
-[SSH step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ssh-step-action-designer.md)
+[SSH step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/ssh-step-action-designer.md)
 
 </td><td>
 
@@ -127,7 +127,7 @@ MID Server
 
 </td></tr><tr><td>
 
-[XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/xml-parser-step-action-designer.md)
+[XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/xml-parser-step-action-designer.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Add a contractor from the Health and Safety Workspace
 description: Add a contractor worker to a company listed in the Health and Safety Workspace workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/hs-onboard-contractor-from-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-contractor-management/hs-onboard-contractor-from-workspace.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -20,7 +20,7 @@ Add a contractor worker to a company listed in the Health and Safety Workspace w
 
 A new contractor can be added to an existing contractor company in the company list that can be viewed in the Health and Safety Workspace.
 
-For more information about adding a contractor company, see [Add a contractor company from Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md)
+For more information about adding a contractor company, see [Add a contractor company from Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md)
 
 ## Before you begin
 
@@ -32,15 +32,15 @@ Role required: sn\_hs\_crm.contractor\_coordinator
 
 2.  Add a contractor.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d564967e103">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d564989e103">
 
 Option
 
-</th><th align="left" id="d564967e106">
+</th><th align="left" id="d564989e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d564967e112">
+</th></tr></thead><tbody><tr><td id="d564989e112">
 
 **From a contractor company record**
 
@@ -56,7 +56,7 @@ Steps
 5.  Select the check box for one or more contractors to add to the contractor company and select **Add**.
 
 
-</td></tr><tr><td id="d564967e171">
+</td></tr><tr><td id="d564989e171">
 
 **From Health and Safety user profile list**
 
@@ -84,7 +84,7 @@ Steps
 
 You can assign a task to the contractor or upload any documents obtained from the contractor to complete the onboarding for the contractor.
 
--   For more information to assign a task to a contractor, see [Assign a task to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-assign-tasks-contractor-worker.md).
--   For more information to add a document for a contractor, see [Add a document to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-add-document-contractor-worker.md).
--   To configure the Health and Safety profile for a contractor, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
+-   For more information to assign a task to a contractor, see [Assign a task to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-assign-tasks-contractor-worker.md).
+-   For more information to add a document for a contractor, see [Add a document to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-add-document-contractor-worker.md).
+-   To configure the Health and Safety profile for a contractor, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
 

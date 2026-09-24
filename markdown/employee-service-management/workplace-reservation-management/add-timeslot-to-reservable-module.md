@@ -2,7 +2,7 @@
 title: Add a time slot to a reservable module
 description: After you create a time slot, assign the time slot to a reservable module that is configured for reservation on the Quick Reservation widget. When an employee wants to reserve a workplace item of this reservable module, the employee can select a time slot for reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-timeslot-to-reservable-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-timeslot-to-reservable-module.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -18,7 +18,7 @@ After you create a time slot, assign the time slot to a reservable module that i
 
 ## Before you begin
 
-[Create a quick reservation time slot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-reservable-time-slots.md).
+[Create a quick reservation time slot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-reservable-time-slots.md).
 
 Role required: sn\_wsd\_rsv.admin
 
@@ -55,5 +55,5 @@ The time slot is added to the reservable module. When an employee uses the Quick
 
 **Important:** When the reservable module is configured, the minimum and maximum duration set to 4 and 8 hours are not validated it impacts quick reservation.
 
-**Parent Topic:**[Create a quick reservation time slot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-reservable-time-slots.md)
+**Parent Topic:**[Create a quick reservation time slot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-reservable-time-slots.md)
 

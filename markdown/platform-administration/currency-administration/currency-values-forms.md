@@ -2,7 +2,7 @@
 title: Default currency values in forms
 description: In forms, currency values appear in the currency in which they were entered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/currency-values-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/currency-administration/currency-values-forms.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -29,5 +29,5 @@ If a currency instance record exists, an **Edit** icon appears next to the **Cur
 
 **Note:** Normally, you should not edit the fx\_currency\_instance table directly. The ServiceNow AI Platform maintains these tables, and your changes could have unintended consequences.
 
-**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
+**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 

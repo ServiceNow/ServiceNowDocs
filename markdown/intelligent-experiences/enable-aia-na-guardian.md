@@ -2,10 +2,10 @@
 title: Enable AI Guardian for AI agents
 description: Identify and block offensive messages that are sent by human agents automatically by enabling AI Guardian in AI agents. With this capability, you can help reduce your agentic workflow or test from being exposed to harmful content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/enable-aia-na-guardian.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/enable-aia-na-guardian.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configure, AI Agent Studio \(legacy\), Enable AI experiences]
 ---

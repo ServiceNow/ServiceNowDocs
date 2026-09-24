@@ -2,7 +2,7 @@
 title: Activate Orchestration
 description: The Orchestration \(com.snc.runbook\_automation\) plugin is available within a separate subscription from the rest of the ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_ActivateOrchestration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/t\_ActivateOrchestration.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -74,16 +74,16 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[List of Orchestration plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/list-orchestration-plugins.md)**  
+-   **[List of Orchestration plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/list-orchestration-plugins.md)**  
 This table lists all plugins available for Orchestration and their dependencies.
--   **[Orchestration Runtime plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/orchestration-runtime-plugin.md)**  
+-   **[Orchestration Runtime plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/orchestration-runtime-plugin.md)**  
 The Orchestration – Runtime plugin enables other applications on the ServiceNow® platform to automate tasks, without requiring an Orchestration subscription.
--   **[List of Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r_ListOfOrchestrationActivities.md)**  
+-   **[List of Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/r_ListOfOrchestrationActivities.md)**  
 Use Orchestration activities in a Workflow to integrate with third-party systems.
--   **[Available activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_ActivateAnActivityPack.md)**  
+-   **[Available activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_ActivateAnActivityPack.md)**  
 Activity packs are available with your subscription to Orchestration.
--   **[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)**  
+-   **[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)**  
 These Orchestration activities have been deprecated.
 
-**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r-orchestration.md)
+**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/r-orchestration.md)
 

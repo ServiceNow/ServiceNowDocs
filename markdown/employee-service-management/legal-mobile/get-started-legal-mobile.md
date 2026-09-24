@@ -2,7 +2,7 @@
 title: Download and log in to mobile apps to access legal services
 description: Download the Now Mobile app to submit and track legal requests and the Mobile Agent mobile app to work on the submitted legal requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/get-started-legal-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/get-started-legal-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile
@@ -22,7 +22,7 @@ Role required: none
 
 ## About this task
 
-After you [install the Legal Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-mobile/install-legal-mobile.md) app in your instance, employees and lawyers can start using the legal services on their mobile device.
+After you [install the Legal Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-mobile/install-legal-mobile.md) app in your instance, employees and lawyers can start using the legal services on their mobile device.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ After you [install the Legal Mobile](https://raw.githubusercontent.com/ServiceNo
 
     -   As a requester, download the Now Mobile app for submitting and tracking legal requests.
 
-        For more information on using this mobile app, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
+        For more information on using this mobile app, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
     -   As a member of the legal department, download the Mobile Agent mobile app for working on legal requests.
 

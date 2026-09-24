@@ -2,7 +2,7 @@
 title: Discovery Admin Workspace Insights
 description: The Insights page provides widgets, dashboards, and reports for IT operations management and infrastructure monitoring. Use these tools to improve operational visibility and infrastructure health.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-admin-workspace-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discovery-admin-workspace-insights.html
 release: australia
 product: Discovery
 classification: discovery
@@ -23,15 +23,15 @@ To access the Discovery Admin Workspace Insights page, navigate to **Workspaces*
 
 You can access the following information through the Insights page:
 
--   [Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-operations-monitor.md)
--   [Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
--   [Kubernetes Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-explorer-dash.md)
--   [Nutanix Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
+-   [Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/disco-operations-monitor.md)
+-   [Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
+-   [Kubernetes Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/kubernetes-explorer-dash.md)
+-   [Nutanix Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
 -   [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerDashboard.md)
--   [Agent Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-health-dashboard.md)
--   [Missing compute resources from Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discover-missing-compute-resources.md)
--   [Shazzam Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/shazzam-insights.md)
--   [Tag Governance Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/tag-governance-insights-dashboard.md)
--   [Virtual Machine Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/vm-explorer.md)
--   [URL Discovery insights for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/url-disco-insights.md)
+-   [Agent Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-health-dashboard.md)
+-   [Missing compute resources from Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discover-missing-compute-resources.md)
+-   [Shazzam Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/shazzam-insights.md)
+-   [Tag Governance Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/tag-governance-insights-dashboard.md)
+-   [Virtual Machine Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/vm-explorer.md)
+-   [URL Discovery insights for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/url-disco-insights.md)
 

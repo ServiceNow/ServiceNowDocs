@@ -2,7 +2,7 @@
 title: Preview the security incident for the ArcSight ESM event ingestion Integration
 description: After you complete the mapping step, preview the values that you mapped in a ServiceNow AI Platform Security Incident Response \(SIR\) security incident. This preview step permits you to verify that you have mapped all the correlation fields that you want displayed on the security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-create-profile-preview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/arcsight-esm-create-profile-preview.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

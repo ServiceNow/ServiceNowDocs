@@ -2,7 +2,7 @@
 title: Discovery device history
 description: The Devices Related list in the Discovery Status form provides a summary list of all the devices scanned.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DiscoveryStatusDevices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_DiscoveryStatusDevices.html
 release: australia
 product: Discovery
 classification: discovery
@@ -74,7 +74,7 @@ If there were issues, or if Discovery failed to complete, select the **Details**
 
 ## Address scan data
 
-When Discovery scans for IP addresses only \(without credentials or [identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md)\), no updates are made to the CMDB. All IP addresses discovered appear on this list, including multiple IPs on the same device. The results of IP address scans include slightly different information than the results of a CI scan. Since there is no CMDB activity associated with the IP address scan, the Completed activity column displays only the classification status.
+When Discovery scans for IP addresses only \(without credentials or [identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryIdentifiers.md)\), no updates are made to the CMDB. All IP addresses discovered appear on this list, including multiple IPs on the same device. The results of IP address scans include slightly different information than the results of a CI scan. Since there is no CMDB activity associated with the IP address scan, the Completed activity column displays only the classification status.
 
 Possible statuses are:
 
@@ -84,5 +84,5 @@ Possible statuses are:
 
 For Classified devices, Discovery might identify the type of device in the Current activity column. For example, Network Gear might be classified as Cisco Network Gear, and a Computer might be classified as a Windows Computer.
 
-**Parent Topic:**[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatus.md)
+**Parent Topic:**[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryStatus.md)
 

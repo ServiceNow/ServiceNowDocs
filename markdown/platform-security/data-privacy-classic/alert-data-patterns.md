@@ -2,12 +2,12 @@
 title: Alert data patterns
 description: Before you can define real-time protection policies, you must create your alert data patterns; reusable groups of data patterns that detect and then alert or block sensitive data across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/alert-data-patterns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-privacy-classic/alert-data-patterns.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Real time protection, Data privacy, Data Privacy, Platform Privacy]
 ---

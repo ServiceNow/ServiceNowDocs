@@ -2,7 +2,7 @@
 title: Upload a version of a document
 description: Upload a new version of a document when you need to change its content. You can optionally send the new version for review and approval before it publishes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/upload-a-document-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/upload-a-document-version.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -22,7 +22,7 @@ Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
 ## About this task
 
-For more information on the states a version moves through, see [Document version and approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/document-version-approval-workflow.md).
+For more information on the states a version moves through, see [Document version and approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/document-version-approval-workflow.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ For more information on the states a version moves through, see [Document versio
 
 6.  To require review and approval before the version publishes, add a reviewer and one or more approvers.
 
-    For the steps, see [Set reviewers and approvers for a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/set-reviewers-and-approvers-for-a-document.md).
+    For the steps, see [Set reviewers and approvers for a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/set-reviewers-and-approvers-for-a-document.md).
 
 7.  Save the version.
 

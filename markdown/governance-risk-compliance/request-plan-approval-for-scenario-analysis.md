@@ -2,7 +2,7 @@
 title: Submit the scenario analysis and receive an approval
 description: Submit the scenario analysis for an approval in the Operational Resilience Workspace. The analysis approver for the scenario analysis reviews the details and subsequently approves it. Having a scenario analysis is the final step in the workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/request-plan-approval-for-scenario-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/request-plan-approval-for-scenario-analysis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -14,7 +14,7 @@ The IPAM Register IP Address activity registers an IP address in a network using
 
 The output of this activity produces an InfoBlox IP address record that can be used for other IPAM functions in the format `fixedaddress/<encrypted key>:<reserved ip address>/<view>`.
 
-The IPAM activities use the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
+The IPAM activities use the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Infoblox DDI** &gt; **IPAM**.
 

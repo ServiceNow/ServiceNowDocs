@@ -2,7 +2,7 @@
 title: Agentic AI in ServiceNow Otto for ITSM
 description: Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-using-agentic-workflows-in-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-using-agentic-workflows-in-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -33,7 +33,7 @@ Available AI agents
 
 </th></tr></thead><tbody><tr><td>
 
-[Triage and categorize ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-catincidents-usecase.md)
+[Triage and categorize ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-catincidents-usecase.md)
 
 </td><td>
 
@@ -47,7 +47,7 @@ Enables fulfillers to determine the category, subcategory, and configuration ite
 
 </td></tr><tr><td>
 
-[Investigate and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.md)
+[Investigate and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.md)
 
 </td><td>
 
@@ -59,7 +59,7 @@ ITSM incident resolution plan investigation AI agent
 
 </td></tr><tr><td>
 
-[Manage Microsoft 365 group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-O365-groupmembers-workflow.md)
+[Manage Microsoft 365 group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-O365-groupmembers-workflow.md)
 
 </td><td>
 
@@ -71,7 +71,7 @@ Microsoft 365 group membership AI agent
 
 </td></tr><tr><td>
 
-[Generate post incident reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-mim-usecase.md)
+[Generate post incident reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-mim-usecase.md)
 
 </td><td>
 
@@ -83,7 +83,7 @@ Post-incident review AI agent
 
 </td></tr><tr><td>
 
-[Generate change request plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-change-planner-usecase.md)
+[Generate change request plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-change-planner-usecase.md)
 
 </td><td>
 
@@ -95,7 +95,7 @@ Change request plans AI agent
 
 </td></tr><tr><td>
 
-[Notify users with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-twilio-text-usecase.md)
+[Notify users with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-twilio-text-usecase.md)
 
 </td><td>
 
@@ -107,7 +107,7 @@ Twilio SMS text AI agent
 
 </td></tr><tr><td>
 
-[Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist-workflow.md)
+[Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist-workflow.md)
 
 </td><td>
 
@@ -120,7 +120,7 @@ Answers questions about an open incident, including caller assets, recent incide
 
 </td></tr><tr><td>
 
-[Who is On Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-on-call-usecase.md)
+[Who is On Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-on-call-usecase.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: AI L1 APO Service Desk Specialist
 description: The AI L1 APO Service Desk Specialist enables AI L1 Service Desk automation for invoice inquiry use cases through a flexible, agentic AI architecture.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/zero-touch-service-desk-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/zero-touch-service-desk-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -27,7 +27,7 @@ The following steps describe how the AI L1 APO Service Desk Specialist processes
 
 -   **1. Supplier contact raises a general invoice inquiry case**
 
-    The supplier contact submits a general inquiry through the Supplier Collaboration Portal or by sending an email. For more information on submitting supplier inquiries, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
+    The supplier contact submits a general inquiry through the Supplier Collaboration Portal or by sending an email. For more information on submitting supplier inquiries, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 
 -   **2. Case assigned to the AI L1 APO Service Desk Specialist**
 
@@ -57,10 +57,10 @@ The following steps describe how the AI L1 APO Service Desk Specialist processes
 
     -   If the supplier contact accepts the resolution, the case is closed and marked as closed complete.
     -   If the supplier contact rejects the resolution, the case is updated with their comments and the supplier case is escalated to AP Supplier Services group for further investigation.
-    -   If the supplier contact does not respond within 72 hours, a scheduled job runs daily to identify such cases and close them as closed complete. For more information on the supplier tasks in Supplier Collaboration Portal, see [AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md).
+    -   If the supplier contact does not respond within 72 hours, a scheduled job runs daily to identify such cases and close them as closed complete. For more information on the supplier tasks in Supplier Collaboration Portal, see [AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md).
 
 **Related topics**  
 
 
-[AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md)
+[AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md)
 

@@ -2,7 +2,7 @@
 title: Quick start for Topic Recommendations
 description: To get recommended topics based on your data, configure analysis reports, run the reports, and then review the results. You can either add new topics to Virtual Agent or link a recommendation to an existing topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/getting-started-topic-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/getting-started-topic-recommendations.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +32,7 @@ Each analysis report is based on the following:
 
 You can also add conditions to your analysis reports and configure them to run on a schedule. When new recommendations are available, a notification appears in the Virtual Agent Designer Topics page.
 
-Configure analysis reports for Topic Recommendations in Virtual Agent settings. For details, see [Configure analysis reports for Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-tr-settings.md).
+Configure analysis reports for Topic Recommendations in Virtual Agent settings. For details, see [Configure analysis reports for Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/define-tr-settings.md).
 
 ## Step 2: Run an analysis report
 
@@ -44,7 +44,7 @@ During analysis, the Topic Recommendations app does the following:
 -   Maps the matched intents to pre-built topics in Virtual Agent. If intents don’t have associated pre-built topics, the app recommends them as new topics that you can build because they were requested frequently enough by your users.
 -   Displays the analysis results as topic cards in the Topic Recommendations page.
 
-For more information, see [Run a Topic Recommendation analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/run-tr-analysis.md).
+For more information, see [Run a Topic Recommendation analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/run-tr-analysis.md).
 
 ## Step 3: Review report results and add or link topics and intents
 
@@ -61,7 +61,7 @@ Results are sorted into the following groups:
 
 The results are displayed in descending order of matches to your data source. The top 20 intent matches are displayed. If there are more than 20 intents, you can view them in NLU Workbench.
 
-For more information about adding a recommendation to Virtual Agent, see [Add recommended topics and intents to Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-tr-results-va.md). You can also [link a recommendation to an existing topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/link-tr-existing-va-topic.md).
+For more information about adding a recommendation to Virtual Agent, see [Add recommended topics and intents to Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-tr-results-va.md). You can also [link a recommendation to an existing topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/link-tr-existing-va-topic.md).
 
 \[Omitted image "tr-flow-diagram.png"\] Alt text: Topic Recommendations analyzes your data and combines it with an understanding of the product area to suggest pre-built topics and intents or new content for Virtual Agent.
 

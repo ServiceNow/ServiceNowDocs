@@ -2,7 +2,7 @@
 title: SOAP Message legacy workflow activity
 description: The legacy SOAP Message activity uses SOAP messages defined in the System Web Services plugin and can call the messages using a MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_SOAPMessageActivity\_1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/r\_SOAPMessageActivity\_1.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -123,5 +123,5 @@ sensor\_script
 The script to execute after the request has been made and a response has been received. You can access the full XML response body from the activity.output object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_UtilityActivities.md)
+</table>**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-activities/c_UtilityActivities.md)
 

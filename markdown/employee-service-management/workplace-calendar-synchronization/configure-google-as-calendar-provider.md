@@ -2,7 +2,7 @@
 title: Configure Google as calendar provider
 description: Configure Google as calendar provider to start synchronizing reservation. Link it to the connection and credential alias and configure rooms to start synchronizing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/configure-google-as-calendar-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/configure-google-as-calendar-provider.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -21,7 +21,7 @@ Configure Google as calendar provider to start synchronizing reservation. Link i
 Ensure the following:
 
 -   You have created the connection and credential alias. If not, do one of the following:
-    -   Configure the default connection and credential alias. Refer to [Create a Connection and credential record for Google](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-configuration-with-google.md).
+    -   Configure the default connection and credential alias. Refer to [Create a Connection and credential record for Google](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-connection-configuration-with-google.md).
     -   Create your own connection and credential alias if you do not want to use the default alias. Refer to .
 -   Application scope is set to **Google Calendar Spoke**. If it is not set, complete the following:
     1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon.\) your Employee Center homepage.
@@ -167,5 +167,5 @@ Google Calendar is configured as calendar provider.
     3.  On the Location form, select **Sync Location**.
     Perform Step 2 and Step 3 on all the Reservable sync config records.
 
--   [Add multiple Reservable Sync Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.md)
+-   [Add multiple Reservable Sync Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.md)
 

@@ -2,7 +2,7 @@
 title: Send job requisitions to the ATS
 description: Send the job requisitions to your integrated ATS to get posted on the job boards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/send-a-job-requisition-to-the-ats.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/send-a-job-requisition-to-the-ats.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,8 +21,8 @@ Send the job requisitions to your integrated ATS to get posted on the job boards
 
 Create an integration flow to send the job requisitions to the ATS when it is in **Ready** state. You can re-configure the state when the requisition is sent to your integrated ATS.
 
--   **[Create integration flow for ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-your-integration-flow.md)**  
+-   **[Create integration flow for ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-your-integration-flow.md)**  
 Create the integration flow with your preferred ATS to send job requisition data to the ATS.
 
-**Parent Topic:**[Integrate with your ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-ats.md)
+**Parent Topic:**[Integrate with your ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-ats.md)
 

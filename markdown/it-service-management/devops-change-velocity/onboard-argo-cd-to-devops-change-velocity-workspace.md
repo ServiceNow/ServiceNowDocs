@@ -2,7 +2,7 @@
 title: Onboard Argo CD to DevOps Change Velocity – Workspace
 description: Connect to your Argo CD instance using the DevOps Change Workspace playbook to automate the deployment of applications from GitHub repositories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-argo-cd-to-devops-change-velocity-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/onboard-argo-cd-to-devops-change-velocity-workspace.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -18,7 +18,7 @@ Connect to your Argo CD instance using the DevOps Change Workspace playbook to a
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Argo CD.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d461841e80">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d461774e80">
 
 Option
 
-</th><th align="left" id="d461841e83">
+</th><th align="left" id="d461774e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d461841e89">
+</th></tr></thead><tbody><tr><td id="d461774e89">
 
 **Homepage**
 
@@ -44,19 +44,19 @@ Steps
 2.  On the  Connect to a tool  modal, select Argo CD from the **Orchestration** category.
 
 
-</td></tr><tr><td id="d461841e113">
+</td></tr><tr><td id="d461774e113">
 
 **Applications module**
 
 </td><td>
 
 1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\).
-2.  Select an existing application, or create one. To create an application, see [Create an application - Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/app-create-all.md).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/app-create-all.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  On the  Connect to a tool  modal, select Argo CD from the **Orchestration** category.
 
 
-</td></tr><tr><td id="d461841e159">
+</td></tr><tr><td id="d461774e159">
 
 **Tools module**
 
@@ -117,5 +117,5 @@ Steps
 
 You’ve successfully onboarded your Argo CD tool to DevOps Change Velocity.
 
-**Parent Topic:**[Argo CD integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/argo-cd-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Argo CD integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/argo-cd-integration-with-devops-change-velocity.md)
 

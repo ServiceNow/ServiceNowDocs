@@ -2,7 +2,7 @@
 title: Run IP-based certificate discovery
 description: Enable the Transfer Layer Security \(TLS\) port probe \[tls\_ssl\_certs\] and scan for certificates on an IP address or multiple IP addresses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-ip-based-certificate-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/run-ip-based-certificate-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -48,7 +48,7 @@ Role required: Certificate administrator, discovery\_admin, or admin
 
     3.  Fill out each text field with its corresponding value.
 
-        For more information on the fields and values, see [IP-Based Discovery Schedule Form Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.md).
+        For more information on the fields and values, see [IP-Based Discovery Schedule Form Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.md).
 
     4.  Select and hold \(or right-click\) above **Discovery Schedule** and select **Save**.
 
@@ -62,7 +62,7 @@ Role required: Certificate administrator, discovery\_admin, or admin
 
     8.  Fill each field with its corresponding value.
 
-        For more information on the fields and values, see [Setting Your IP Addresses Form and Fields Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/setting-up-your-ip-addresses.md).
+        For more information on the fields and values, see [Setting Your IP Addresses Form and Fields Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/setting-up-your-ip-addresses.md).
 
     9.  Select **Submit**.
 

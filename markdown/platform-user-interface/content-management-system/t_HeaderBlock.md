@@ -2,7 +2,7 @@
 title: Configure a header block
 description: A header block is a visual element placed at the top of pages. It provides a place for branding and other important site-wide functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_HeaderBlock.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_HeaderBlock.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -189,7 +189,7 @@ Select the chat queue that users access by clicking the **Help Desk Chat** butto
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
+**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
 
 **Related topics**  
 
@@ -210,5 +210,5 @@ Select the chat queue that users access by clicking the **Help Desk Chat** butto
 
 [Configure a detailed content block]()
 
-[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
+[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
 

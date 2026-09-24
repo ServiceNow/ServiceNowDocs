@@ -2,7 +2,7 @@
 title: Testing support for playbooks
 description: The Automated Test Framework \(ATF\) can be used to create automated tests to confirm your playbooks run as planned.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/testing-support-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/testing-support-playbooks.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -18,10 +18,10 @@ The Automated Test Framework \(ATF\) can be used to create automated tests to co
 
 For more information about the Automated Test Framework, see [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-landing-page.md).
 
--   **[Configure testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/config-playbook-test-sup.md)**  
+-   **[Configure testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/config-playbook-test-sup.md)**  
 Configure the Automated Test Framework \(ATF\) to support testing playbooks by authoring tests in the ATF UI on your ServiceNow instance.
--   **[Run an automated test on a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/run-atf-test-on-playbook.md)**  
+-   **[Run an automated test on a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/run-atf-test-on-playbook.md)**  
 After creating your test and adding steps, run and monitor the progress of your automated test.
 
-**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

@@ -2,7 +2,7 @@
 title: Foundation data sync
 description: Foundation data sync \(FDS\) enables structured, periodic data sharing from provider to consumer and consumer to provider instances. FDS ensures that both providers and consumers can share and receive accurate, up‑to‑date foundational data, supporting better service delivery and operational alignment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-explore-foundation-data-sync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-explore-foundation-data-sync.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -72,11 +72,11 @@ ABC company also needs visibility into XYZ to understand the consumption pattern
 **Related topics**  
 
 
-[Configure outbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync.md)
+[Configure outbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-using-foundation-data-sync.md)
 
-[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
+[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
 
-[Configure inbound foundation data sync as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.md)
+[Configure inbound foundation data sync as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.md)
 
-[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/using-provider-bound-fds-consumer.md)
+[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/using-provider-bound-fds-consumer.md)
 

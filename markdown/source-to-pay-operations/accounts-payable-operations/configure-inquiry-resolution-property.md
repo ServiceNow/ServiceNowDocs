@@ -2,7 +2,7 @@
 title: Configure inquiry resolution property
 description: Configure the inquiry resolution AI agent to extract data from KB articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-inquiry-resolution-property.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/configure-inquiry-resolution-property.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -40,12 +40,12 @@ The AI agent uses the data from the specified KB article to resolve the inquiry 
 
 ## What to do next
 
-After configuring the property, activate the Inquiry resolution provider agent in AI Agent Studio. For information, see [Work with the inquiry resolution provider agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-ai-agent-use-case-trigger.md)
+After configuring the property, activate the Inquiry resolution provider agent in AI Agent Studio. For information, see [Work with the inquiry resolution provider agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/apo-ai-agent-use-case-trigger.md)
 
 **Related topics**  
 
 
-[Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/set-apo-properties.md)
+[Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/set-apo-properties.md)
 
-[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
+[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
 

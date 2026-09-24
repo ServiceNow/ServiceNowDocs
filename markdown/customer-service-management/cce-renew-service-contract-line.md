@@ -2,7 +2,7 @@
 title: Renew a customer contract line
 description: Renew a customer contract line on the CRM Workspace. You can renew the services specified in the customer contract line and its associated child customer contract lines and entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-renew-service-contract-line.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cce-renew-service-contract-line.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ Role required:
 
 5.  Select **Renew**.
 
-    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-cont-ent-workflows-csm.md).
+    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to renew the customer contract line is created. You can select the quote number from the confirmation message to review the renewal quote. After the quote is approved and the status is updated to **Complete**, an order is created for further processing.
     -   If the selected target entity is an order, an order to renew the customer contract line is created. You can select the order number from the confirmation message to review the renewal order.

@@ -2,7 +2,7 @@
 title: AccCheckDefsAPI - Scoped
 description: The AccCheckDefsAPI script include enables managing check definitions and associated parameters.Gets a specified check definition with details.Gets a list of check definitions with details.Enables changing one or more field values of a specified check definition.Enables changing one or more field values of a specified check parameter.Enables changing one or more field values of a specified check secure parameter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/AccCheckDefsAPIAPIScoped.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/AccCheckDefsAPIAPIScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +22,7 @@ This script include does not have a constructor for creating an instance. Call e
 
 `sn_agent.AccCheckDefsAPI.<method>`
 
-For the REST API solution, refer to [Agent Client Collector API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agnt_clnt_cll-api.md).
+For the REST API solution, refer to [Agent Client Collector API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/agnt_clnt_cll-api.md).
 
 This script include provides methods that enable the following:
 
@@ -30,7 +30,7 @@ This script include provides methods that enable the following:
 -   Get a list of check definitions
 -   Update checks and check parameters
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## AccCheckDefsAPI - getCheck\(String checkDefId, Boolean withParams\)
 

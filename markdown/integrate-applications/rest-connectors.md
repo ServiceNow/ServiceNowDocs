@@ -2,7 +2,7 @@
 title: REST connectors
 description: REST connectors use APIs, instead of JDBC, to retrieve data and metadata from an external source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rest-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/rest-connectors.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-24"
@@ -41,5 +41,5 @@ The **Connection Alias** can reference an HTTP connection configured with any of
 
 [jira-zcc]
 
-[Acumatica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/acumatica-zcc.md)
+[Acumatica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/acumatica-zcc.md)
 

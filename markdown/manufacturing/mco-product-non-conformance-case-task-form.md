@@ -2,7 +2,7 @@
 title: Product non-conformance case task form
 description: The Product non-conformance case task form enables you to add the case task details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-non-conformance-case-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-product-non-conformance-case-task-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -119,5 +119,5 @@ Description
 Short description.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qim-form.md)
 

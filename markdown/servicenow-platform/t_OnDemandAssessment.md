@@ -2,7 +2,7 @@
 title: Generate an on-demand assessment
 description: Use on-demand assessments to familiarize yourself with the basic assessment process and test your questionnaires using minimal configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_OnDemandAssessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_OnDemandAssessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,25 +24,25 @@ Select the assessable records to evaluate, create the categories and questions, 
 
 ## Procedure
 
-1.  Create a [metric type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md) and set the **Schedule type** to **On demand** to allow for testing of your assessment configuration.
+1.  Create a [metric type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md) and set the **Schedule type** to **On demand** to allow for testing of your assessment configuration.
 
 2.  Generate the assessable records for the metric type you created.
 
-3.  Create the [metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md) required to evaluate the assessable records selected.
+3.  Create the [metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md) required to evaluate the assessable records selected.
 
-4.  Create one or more assessment questions, or [metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md), for each category.
+4.  Create one or more assessment questions, or [metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md), for each category.
 
-5.  [Publish the assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PublishAMetricType.md).
+5.  [Publish the assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_PublishAMetricType.md).
 
-6.  Perform an [on-demand assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OnDemandAssessments.md) to test your categories and metrics.
+6.  Perform an [on-demand assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_OnDemandAssessments.md) to test your categories and metrics.
 
-7.  Analyze the assessment ratings in an [assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md) or [decision matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AdministerDecisionMatrixes.md).
+7.  Analyze the assessment ratings in an [assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAnAssessmentScorecard.md) or [decision matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_AdministerDecisionMatrixes.md).
 
 
-**Parent Topic:**[On-demand assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OnDemandAssessments.md)
+**Parent Topic:**[On-demand assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_OnDemandAssessments.md)
 
 **Related topics**  
 
 
-[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_Assessments.md)
+[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_Assessments.md)
 

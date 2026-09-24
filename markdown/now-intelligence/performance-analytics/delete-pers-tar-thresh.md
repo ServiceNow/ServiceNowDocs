@@ -2,7 +2,7 @@
 title: Bulk delete targets/thresholds or delete another user's personal target or threshold
 description: If you can create global targets or thresholds, you can delete them in bulk. Use the same process to delete another user's personal targets or thresholds.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/delete-pers-tar-thresh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/delete-pers-tar-thresh.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -39,5 +39,5 @@ If your roles allow you to create a global target or threshold, you can delete a
 4.  Read through the warning in the Confirmation dialog and if you're certain it is safe, select **Delete**.
 
 
-**Parent Topic:**[Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md)
+**Parent Topic:**[Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-targets-thresholds.md)
 

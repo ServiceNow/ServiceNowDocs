@@ -2,7 +2,7 @@
 title: Debug a Virtual Agent topic
 description: Investigate and resolve unexpected behavior in your custom Virtual Agent topics, topic blocks, and controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +17,7 @@ breadcrumb: [Getting started with the Asset library in Assistant Designer, Build
 
 Investigate and resolve unexpected behavior in your custom Virtual Agent topics, topic blocks, and controls.
 
-For information about topic discovery issues, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md) and [Resolve Natural Language Understanding \(NLU\) topic discovery issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-topic-discovery-issues.md).
+For information about topic discovery issues, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-llm.md) and [Resolve Natural Language Understanding \(NLU\) topic discovery issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-topic-discovery-issues.md).
 
 ## Duplicate a live topic before debugging and changing it
 
@@ -27,7 +27,7 @@ Duplicate a topic rather than update a live topic. The unmodified original topic
 
 As you create or update a topic in Virtual Agent Designer, use the **Test** button in the topic header bar to preview the conversation. The chat test window shows the conversation as it appears within Service Portal. Elements in your conversation might appear differently in third-party messaging applications. Test your conversations in any third-party applications where you intend to deploy Virtual Agent.
 
-The test chat window displays four tabs that provide detailed information for debugging and refining your topic: **Analyze test phrases**, **Variables**, **Context**, and **Logs**. For details on these tabs, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md). The following example shows the processing messages and errors logged during testing.
+The test chat window displays four tabs that provide detailed information for debugging and refining your topic: **Analyze test phrases**, **Variables**, **Context**, and **Logs**. For details on these tabs, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-designer-testing.md). The following example shows the processing messages and errors logged during testing.
 
 \[Omitted image "va-conv-preview-logs2.png"\] Alt text: Conversation preview logs shown in the topic preview window.
 
@@ -92,12 +92,12 @@ One or more of your topics might be missing. Check the to ensure that topics are
 </td></tr></tbody>
 </table>## Review topics that run in a conversation flow
 
-Each Virtual Agent \(VA\) conversation in an instance automatically generates an interaction record in the Interactions \[interactions\] table, which logs the conversation between a requester and virtual and live agent. You can review the transcript of the conversation between the requester and virtual agent, including live agent transfers \(if using Agent Chat\). For details, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
+Each Virtual Agent \(VA\) conversation in an instance automatically generates an interaction record in the Interactions \[interactions\] table, which logs the conversation between a requester and virtual and live agent. You can review the transcript of the conversation between the requester and virtual agent, including live agent transfers \(if using Agent Chat\). For details, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-interactions.md).
 
--   **[Resolve Natural Language Understanding \(NLU\) topic discovery issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-topic-discovery-issues.md)**  
+-   **[Resolve Natural Language Understanding \(NLU\) topic discovery issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-topic-discovery-issues.md)**  
 If an intent is not being chosen when expected, you can troubleshoot NLU prediction errors.
--   **[Natural Language Understanding topic discovery logic in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/how-topic-discovery-works.md)**  
+-   **[Natural Language Understanding topic discovery logic in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/how-topic-discovery-works.md)**  
 Understand how Virtual Agent returns intents and how it selects which intents to show to the user.
 
-**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

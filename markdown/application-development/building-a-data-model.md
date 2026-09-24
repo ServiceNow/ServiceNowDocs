@@ -2,7 +2,7 @@
 title: Building a data model
 description: Plan your data model carefully before building an application on the ServiceNow AI Platform. It defines what information you're managing, how it connects, and ultimately determines what your application can do.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/building-a-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/building-a-data-model.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -51,5 +51,5 @@ Tables belong to an application scope - a namespace that isolates your app's dat
 5.  Create tables and fields: Use ServiceNow Studio to build your schema.
 6.  Set up access controls: Define who can create, read, write, and delete records.
 
-**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-your-first-app.md)
 

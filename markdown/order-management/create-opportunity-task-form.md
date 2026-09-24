@@ -2,7 +2,7 @@
 title: Create new opportunity task form
 description: Field descriptions for editing or reviewing details on the Create New Opportunity Task form in CRM Touchpoints and Opportunity Management modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-opportunity-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-opportunity-task-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -91,10 +91,10 @@ Work notes \(Private\)
 Internal notes visible only to team members with appropriate access.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-reference.md)
+</table>**Parent Topic:**[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-reference.md)
 
 **Related topics**  
 
 
-[Create a related task from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-touchpoint-related-tasks.md)
+[Create a related task from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-touchpoint-related-tasks.md)
 

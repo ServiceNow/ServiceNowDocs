@@ -2,7 +2,7 @@
 title: Update scheduled job to automate target actuals
 description: Use the Goal Framework for SPM application to modify the run time for the scheduled job according to your preference to auto-update the actual value of the targets for which a target source has been configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/schedule-a-job-to-automate-actual-value-of-the-targets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/schedule-a-job-to-automate-actual-value-of-the-targets.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -39,5 +39,5 @@ By default, the scheduled job runs daily at 00:00:00 AM \(System Time Zone\).
     To learn more about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
 
 
-**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/configuring-goal-framework.md)
+**Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/configuring-goal-framework.md)
 

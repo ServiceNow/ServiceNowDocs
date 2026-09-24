@@ -2,7 +2,7 @@
 title: Complete a single scan enterprise asset inventory audit using the ServiceNow Agent app
 description: Scan your inventory assets by using the ServiceNow Agent app for single scan audit records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/scan-assets-agent-app-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/scan-assets-agent-app-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -46,7 +46,7 @@ Role required: sn\_eam.enterprise\_admin, sn\_eam.enterprise\_asset\_manager, sn
 
     The List of assets and models screen is displayed, showing the scanned asset record.
 
-    **Note:** When the scanned asset record doesn't exist in your ServiceNow instance, the List of assets and models screen is empty. You can create an asset record for the new asset in the inventory. For more information, see [Create an enterprise asset from the inventory audit screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/inventory-audit-create-asset-eam.md).
+    **Note:** When the scanned asset record doesn't exist in your ServiceNow instance, the List of assets and models screen is empty. You can create an asset record for the new asset in the inventory. For more information, see [Create an enterprise asset from the inventory audit screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/inventory-audit-create-asset-eam.md).
 
 10. On the List of assets and models screen, slide the scanned asset record to the left side.
 
@@ -71,7 +71,7 @@ Role required: sn\_eam.enterprise\_admin, sn\_eam.enterprise\_asset\_manager, sn
 
 ## Result
 
-The audit result field values are updated on the **Details** tab screen. For a detailed field description, see [Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/audit-results-eam.md).
+The audit result field values are updated on the **Details** tab screen. For a detailed field description, see [Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/audit-results-eam.md).
 
 ## What to do next
 
@@ -81,7 +81,7 @@ The audit result field values are updated on the **Details** tab screen. For a d
 **Related topics**  
 
 
-[Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/audit-results-eam.md)
+[Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/audit-results-eam.md)
 
-[Create an enterprise asset from the inventory audit screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/inventory-audit-create-asset-eam.md)
+[Create an enterprise asset from the inventory audit screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/inventory-audit-create-asset-eam.md)
 

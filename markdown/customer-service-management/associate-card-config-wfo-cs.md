@@ -2,7 +2,7 @@
 title: Associate a work scheduler card to the work configuration
 description: Associate the work scheduler card that you've created to the work configuration to display the card in the Work scheduler sidebar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-card-config-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-card-config-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
     For information on creating the work scheduler card, see [Create a Work Scheduler card using UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-workscheduler-card-wfo-itsm.md).
 
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-workscheduler-card-wfo-cs.md)
 

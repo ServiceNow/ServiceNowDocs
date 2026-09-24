@@ -2,7 +2,7 @@
 title: ServiceNow Governance – On Demand
 description: Assess your AI governance across six areas, identify and prioritize governance gaps, confirm focus areas, and build a 90-day action plan — all at your own pace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/servicenow-governance-on-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/servicenow-governance-on-demand.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

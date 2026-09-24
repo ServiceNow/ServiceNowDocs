@@ -2,7 +2,7 @@
 title: Using Channel Management in WFO
 description: Route work items to assigned groups using channels. Use skill-based routing to ensure that the right work goes to the right agent. Review real-time performance as your team is actively working on tasks across channels. When you see escalations, you can help your agents resolve issues without the requester being aware of it.Assist agents in real time by joining their chat conversation and collaborate on any record by connecting with the right people instantly to achieve faster resolution​.Monitor your agents' workload and the status of their work items against each service channel and queue so that you can get an idea of how efficiently work is moving through the queue and to your agents.Allocate pending work items to agents to complete the work. Track your agent's performance in overview so that you can analyze and review how that agent is doing.Change the default number of work items that an agent can handle for a service channel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-channels-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-channels-configurable-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,19 +18,19 @@ Monitor ongoing work and track your agents' performance of your direct reporting
 
 Review real-time performance as your team is actively working on tasks across channels in the following sections.
 
--   The **Overview** section displays the most important key performance indicators \(KPIs\) for each of the service channels in the form of cards. The KPIs appear as per the configuration order in the [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-channels-queues-configurable-wfo-cs.md). The KPI scores are real-time information and automatically refreshed at a regular interval of 5 seconds or as configured in the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md). Also, the service channel cards refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) or you can manually refresh by clicking the Refresh \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh overview data icon.\) icon.
--   **Assignment Group** refines reports on all pages of channels and queues as per the groups selected. Interactive filter based on the assignment group configuration, you can select the assignment group on which you want to refine the data directly from the dashboard. You can disable the **Assignment Group** interactive filter using the **sn\_channel\_mgmt.filter\_config.enable** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+-   The **Overview** section displays the most important key performance indicators \(KPIs\) for each of the service channels in the form of cards. The KPIs appear as per the configuration order in the [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-channels-queues-configurable-wfo-cs.md). The KPI scores are real-time information and automatically refreshed at a regular interval of 5 seconds or as configured in the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md). Also, the service channel cards refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) or you can manually refresh by clicking the Refresh \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh overview data icon.\) icon.
+-   **Assignment Group** refines reports on all pages of channels and queues as per the groups selected. Interactive filter based on the assignment group configuration, you can select the assignment group on which you want to refine the data directly from the dashboard. You can disable the **Assignment Group** interactive filter using the **sn\_channel\_mgmt.filter\_config.enable** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md).
 -   The **Queued Work** tab displays the active work interactions being done within each service channel and queues.
 -   The **All Queues** tab displays the list of work items from queue-based routing. You can drill into specific queues and see the active interactions, work items and agents. Track real-time performance of your teams using key performance indicator reports in service channels and queues. Respond to incoming support requests by changing queues as per the priorities.
 -   The **All Agents** tab displays your agents’ ongoing work, presence statuses, channels, work load, and open capacity. You can drill into specific agents to view the agent's profile, ongoing tasks, presence state's history, and override channel capacity.
 
 **Note:**
 
--   All lists display the real-time information and are automatically refreshed at a regular interval of 30 seconds or as set in the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md). You can also refresh the service channel cards manually by clicking the Refresh \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh overview data icon.\) icon.
--   The **All Queues** and **All Agents** lists offer a default sorting and filtering mechanism that lets you to view the records of the selected fields based on a default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. Administrator can customize the default sort order by creating an implementation using the extension points. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-channels-queues-configurable-wfo-cs.md).
--   You will also receive an email notification of your agents' work summary at the end of each day if a [scheduled report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-channels-queues-configurable-wfo-cs.md) is configured.
+-   All lists display the real-time information and are automatically refreshed at a regular interval of 30 seconds or as set in the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md). You can also refresh the service channel cards manually by clicking the Refresh \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh overview data icon.\) icon.
+-   The **All Queues** and **All Agents** lists offer a default sorting and filtering mechanism that lets you to view the records of the selected fields based on a default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. Administrator can customize the default sort order by creating an implementation using the extension points. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-channels-queues-configurable-wfo-cs.md).
+-   You will also receive an email notification of your agents' work summary at the end of each day if a [scheduled report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-channels-queues-configurable-wfo-cs.md) is configured.
 
-**Parent Topic:**[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-channels-wfo-cs.md)
+**Parent Topic:**[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-channels-wfo-cs.md)
 
 ## Assist agents in live chat conversations
 
@@ -76,8 +76,8 @@ Track the real-time performance of each queue within your service channels. You 
 
 **Note:**
 
--   The records in the list appear based on the column's default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. For example, the **Available agents** column is by default in descending sort order. The administrator can change it to ascending order by creating an implementation using the **sn\_channel\_mgmt.ChannelMgmtExtensionPoint** extension point. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-channels-queues-configurable-wfo-cs.md).
--   The records in the list refresh at a regular interval of 30 seconds. The administrator can change the interval using the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+-   The records in the list appear based on the column's default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. For example, the **Available agents** column is by default in descending sort order. The administrator can change it to ascending order by creating an implementation using the **sn\_channel\_mgmt.ChannelMgmtExtensionPoint** extension point. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-channels-queues-configurable-wfo-cs.md).
+-   The records in the list refresh at a regular interval of 30 seconds. The administrator can change the interval using the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md).
 
 ### Procedure
 
@@ -127,15 +127,15 @@ The active work items remain in the queue and are pending manual allocation for 
 
 3.  Select the work item using one of the following actions.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d311624e675">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d311628e675">
 
 Navigate To
 
-</th><th align="left" id="d311624e678">
+</th><th align="left" id="d311628e678">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d311624e684">
+</th></tr></thead><tbody><tr><td id="d311628e684">
 
 **Queued Work tab**
 
@@ -143,7 +143,7 @@ Do this
 
 Select the work item.
 
-</td></tr><tr><td id="d311624e693">
+</td></tr><tr><td id="d311628e693">
 
 **Service Channel page**
 
@@ -154,7 +154,7 @@ Select the work item.
 3.  Select the work item.
 
 
-</td></tr><tr><td id="d311624e717">
+</td></tr><tr><td id="d311628e717">
 
 **All Queues**
 
@@ -208,8 +208,8 @@ View all agents and their real-time status. Drill down into a specific agent to 
 
 **Note:**
 
--   The records in the list appear based on the column's default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. For example, the agent's **Presence State** column is by default in ascending sort order. The administrator can change it to descending order by creating an implementation using the **sn\_channel\_mgmt.ChannelMgmtExtensionPoint** extension point. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-channels-queues-configurable-wfo-cs.md).
--   The records in the list refresh at a regular interval of 30 seconds. The administrator can change the interval using the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+-   The records in the list appear based on the column's default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. For example, the agent's **Presence State** column is by default in ascending sort order. The administrator can change it to descending order by creating an implementation using the **sn\_channel\_mgmt.ChannelMgmtExtensionPoint** extension point. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-channels-queues-configurable-wfo-cs.md).
+-   The records in the list refresh at a regular interval of 30 seconds. The administrator can change the interval using the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md).
 
 ### Procedure
 
@@ -298,7 +298,7 @@ Amount of time the agent has been in the current presence status.
 </td></tr></tbody>
 </table>5.  Select an agent to drill down to view the details.
 
-    Agent profile page appears. The **Current Work** displays the data of the configured key performance indicators \(KPIs\). For more information, see [Configure KPIs for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-channels-queues-configurable-wfo-cs.md).
+    Agent profile page appears. The **Current Work** displays the data of the configured key performance indicators \(KPIs\). For more information, see [Configure KPIs for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-channels-queues-configurable-wfo-cs.md).
 
 
 ## Override channel capacity for an agent
@@ -311,7 +311,7 @@ Role required: sn\_csm\_wfo\_workspa.manager
 
 ### About this task
 
-By default, the override capacity is valid for 12 hours. Administrator can change the duration using the**sn\_channel\_mgmt.awa\_agent\_temporary\_override\_time.minutes** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md). The capacity resets to the previous value after the specified time. The scheduled job Reset Temporary Capacity Override is executed every two minutes to check the invalid or expired overridden capacity and resets to the previous value. You can override the channel capacity for a single agent at a time. Ensure that an agent to whom you want to override the channel capacity needs to be associated with Advanced Work Assignment and the required channels.
+By default, the override capacity is valid for 12 hours. Administrator can change the duration using the**sn\_channel\_mgmt.awa\_agent\_temporary\_override\_time.minutes** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md). The capacity resets to the previous value after the specified time. The scheduled job Reset Temporary Capacity Override is executed every two minutes to check the invalid or expired overridden capacity and resets to the previous value. You can override the channel capacity for a single agent at a time. Ensure that an agent to whom you want to override the channel capacity needs to be associated with Advanced Work Assignment and the required channels.
 
 ### Procedure
 
@@ -319,15 +319,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile page.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d311624e1175">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d311628e1175">
 
 To set the override capacity
 
-</th><th align="left" id="d311624e1178">
+</th><th align="left" id="d311628e1178">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d311624e1184">
+</th></tr></thead><tbody><tr><td id="d311628e1184">
 
 **From Channels**
 
@@ -338,7 +338,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d311624e1214">
+</td></tr><tr><td id="d311628e1214">
 
 **From Teams**
 

@@ -2,7 +2,7 @@
 title: Playbook case summarization component
 description: The playbook case summary component provides agents with a summary of a customer service case, including the issue and the actions taken. Agents can generate summaries to understand case context and post summaries to the case work notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-case-summary-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-case-summary-component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,6 +28,6 @@ Using this component, agents can:
 
 To use the case summarization component with the playbook page templates, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
--   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
+-   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
+-   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 

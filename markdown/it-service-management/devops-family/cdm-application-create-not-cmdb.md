@@ -2,7 +2,7 @@
 title: Create a CDM application that generates a new service in the CMDB
 description: Generate a new service \(an application service, application model, or dynamic CI group \[infrastructure application type\]\) in the CMDB\) and create a CDM application as the container for the config data for the service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-application-create-not-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-application-create-not-cmdb.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -24,7 +24,7 @@ Role required: CDM Admin \[sn\_cdm.cdm\_admin\]
 
 ## About this task
 
-For the application, you specify the number of deployables to generate and the SDLC environment that the deployables represent. When you upload existing config data into the application, the system maps the data as `[name:value]` pairs \(config data items — CDIs\) in the appropriate node in the data structure of the CDM application. For an overview of the process of preparing a new application to receive config data, see [Preparing an application for config data upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-prep-app-for-upload.md).
+For the application, you specify the number of deployables to generate and the SDLC environment that the deployables represent. When you upload existing config data into the application, the system maps the data as `[name:value]` pairs \(config data items — CDIs\) in the appropriate node in the data structure of the CDM application. For an overview of the process of preparing a new application to receive config data, see [Preparing an application for config data upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-prep-app-for-upload.md).
 
 ## Procedure
 
@@ -157,10 +157,10 @@ Service in the CMDB that the deployable is associated with. Select a service in 
 
 ## What to do next
 
-The application is not yet structured to accept config data, so the next step is to add the data structure. See [Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-structure-add-for-upload.md).
+The application is not yet structured to accept config data, so the next step is to add the data structure. See [Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-data-structure-add-for-upload.md).
 
 **Related topics**  
 
 
-[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-model.md)
+[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-data-model.md)
 

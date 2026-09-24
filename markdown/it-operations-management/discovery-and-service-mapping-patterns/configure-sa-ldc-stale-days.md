@@ -2,7 +2,7 @@
 title: Set the Populate Service Account and LDC job stale threshold
 description: Configure the number of days before a running Populate Service Account and LDC IN CMDB job is considered stale and canceled. Increase this value if a large configuration item \(CI\) dataset causes the job to be canceled before a full run completes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-stale-days.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-stale-days.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -42,16 +42,16 @@ The **sn\_itom\_pattern.populate\_saldc.stale\_job\_threshold\_days** system pro
 
 ## What to do next
 
-Wait for the next scheduled run of the **Populate Service Account and LDC IN CMDB** job, or execute it immediately. For more information, see [Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md).
+Wait for the next scheduled run of the **Populate Service Account and LDC IN CMDB** job, or execute it immediately. For more information, see [Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md).
 
-**Parent Topic:**[Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)
+**Parent Topic:**[Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)
 
 **Related topics**  
 
 
-[Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)
+[Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)
 
-[Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md)
+[Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md)
 
-[Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md)
+[Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md)
 

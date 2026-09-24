@@ -2,7 +2,7 @@
 title: Smart Assessment components
 description: Several types of components are installed with the Smart Assessment feature, including tables, business rules, script includes and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/smart-assessment-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/smart-assessment-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -203,12 +203,12 @@ Smart Assessment adds the scheduled job listed in the following table.
 |-------------|-----------|
 |Migrate survey instances to smart assessments|Migrates questionnaire instances to Smart Assessment and re-triggers the migrated instances.|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 
 **Related topics**  
 
 
-[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-questionnaire.md)
+[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/smart-assessment-questionnaire.md)
 
-[Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md)
+[Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md)
 

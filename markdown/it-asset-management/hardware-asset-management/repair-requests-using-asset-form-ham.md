@@ -2,7 +2,7 @@
 title: Request repair of a hardware asset using the Repair option
 description: Request repair of a defective hardware asset in your stockroom directly through an option on the asset form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/repair-requests-using-asset-form-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/repair-requests-using-asset-form-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -37,5 +37,5 @@ Role required: asset
 
 A repair order with a repair order line in the **Troubleshoot** stage is created.
 
-**Parent Topic:**[Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md)
+**Parent Topic:**[Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md)
 

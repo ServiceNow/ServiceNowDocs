@@ -2,7 +2,7 @@
 title: Configure banking customer profile summarization in ServiceNow Otto for FSO
 description: Configure the Customer Profile Summarization skill in ServiceNow Otto for FSO to enable AI-powered summaries of banking customer information in Agentic Contact Center for Banking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-customer-profile-summarization-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-customer-profile-summarization-fso.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ Configure the Customer Profile Summarization skill in ServiceNow Otto for FSO to
 Verify the ServiceNow Otto for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\) is installed.
 
 -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
--   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-now-assist-skills.md).
+-   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-fso-now-assist-skills.md).
 
 Role required: admin
 
@@ -56,5 +56,5 @@ The skill is activated.
 
 You can choose which service provider to use for this skill in ServiceNow Otto admin. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
 
-**Parent Topic:**[Configuring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Configuring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-agentic-contact-center-for-banking.md)
 

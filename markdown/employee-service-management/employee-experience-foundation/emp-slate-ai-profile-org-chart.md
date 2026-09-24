@@ -2,7 +2,7 @@
 title: Work with org chart and profiles
 description: Interact with employee profiles and organizational charts using conversational capabilities to find and access information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-slate-ai-profile-org-chart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-slate-ai-profile-org-chart.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

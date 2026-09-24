@@ -2,7 +2,7 @@
 title: Copy a Microsoft Azure Sentinel profile
 description: Copy an existing profile and its associated settings instead of creating a profile. When you create multiple profiles, you can reuse the settings of an existing profile by copying these profiles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/copy-an-azure-sentinel-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/copy-an-azure-sentinel-profile.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

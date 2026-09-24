@@ -2,7 +2,7 @@
 title: Notifications page
 description: The Notifications page shows the notifications available for your Discovery Sensor for Operational Technology \(OT\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/notifications-page-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/notifications-page-task.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"
@@ -47,5 +47,5 @@ Role required: admin
 
 The Notifications are automatically sorted by the selected filter and displayed on the page.
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/using-discovery-console.md)
 

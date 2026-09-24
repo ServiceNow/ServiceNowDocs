@@ -2,10 +2,10 @@
 title: Exporting lists to Google Sheets
 description: Configure lists in Configurable Workspace to export directly to Google Sheets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/exporting-lists-google-spreadsheets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/exporting-lists-google-spreadsheets.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Lists, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

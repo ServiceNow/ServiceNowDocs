@@ -2,7 +2,7 @@
 title: Usage Insights data options for Single Score data visualizations
 description: When you select a Usage Insights data source for a single score visualization, the following Data configuration options are available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/config-dv-sing-sc-uxa-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/config-dv-sing-sc-uxa-data.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Data source
 
 </td><td>
 
-You have selected a Usage Insights data source in [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md).
+You have selected a Usage Insights data source in [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-sing-sc-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -54,7 +54,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/value-formatting-reports.md).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -283,5 +283,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md)
+</table>**Parent Topic:**[Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-sing-sc-ac.md)
 

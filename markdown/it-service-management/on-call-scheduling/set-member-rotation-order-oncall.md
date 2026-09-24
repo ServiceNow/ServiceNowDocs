@@ -2,7 +2,7 @@
 title: Modify the order of a member in a roster
 description: You can modify the order number for a member without affecting the past shift schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/set-member-rotation-order-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/set-member-rotation-order-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -106,5 +106,5 @@ Rosters affected after modifying the order of a member. This field is auto-popul
     The member appears in the new order. The original record has a **To** date for the end of validity and the new record has the current date as the **From** date for the start of validity.
 
 
-**Parent Topic:**[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/managing-roster-members.md)
+**Parent Topic:**[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/managing-roster-members.md)
 

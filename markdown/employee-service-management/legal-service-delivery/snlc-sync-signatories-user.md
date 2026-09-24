@@ -2,7 +2,7 @@
 title: Resolve an error during send for signature
 description: As a legal user or fulfiller, update and synchronize signatory details when send for signature fails due to a mismatch between signatory information in the contract request and contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-sync-signatories-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-sync-signatories-user.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -62,5 +62,5 @@ Role required:
 
 A new contract document revision is created with the latest signatory details and sent for signature. The Activity stream displays details of the contract document that is sent for signature.
 
-**Parent Topic:**[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-update-sync-signatories.md)
+**Parent Topic:**[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-update-sync-signatories.md)
 

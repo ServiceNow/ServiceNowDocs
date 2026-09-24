@@ -2,7 +2,7 @@
 title: Audit Management release notes
 description: The ServiceNow Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Australia release.The ServiceNow Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/grc-audit-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/grc-audit-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-05-31"
@@ -24,7 +24,7 @@ See [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 **Important:** Audit Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/grc-rn-landing.md)
 
 ## Australia
 

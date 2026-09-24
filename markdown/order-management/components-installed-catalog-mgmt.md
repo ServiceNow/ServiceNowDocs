@@ -2,7 +2,7 @@
 title: Components installed with Product Catalog Management
 description: Several types of components are installed with activation of the Product Catalog Management plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-catalog-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/components-installed-catalog-mgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-13"
@@ -553,5 +553,5 @@ Product Visuals
 Stores visual asset records for products.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Product Catalog Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-management-reference.md)
+</table>**Parent Topic:**[Product Catalog Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-management-reference.md)
 

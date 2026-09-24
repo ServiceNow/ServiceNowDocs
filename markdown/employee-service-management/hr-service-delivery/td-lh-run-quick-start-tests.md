@@ -2,7 +2,7 @@
 title: Run quick start tests for Leader Hub
 description: Run quick start tests to verify the Leader Hub app still works after each upgrade and deployment of new applications or integrations. If you customized Leader Hub, you must configure the quick start tests to ensure they're compatible with your customizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/td-lh-run-quick-start-tests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/td-lh-run-quick-start-tests.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -26,7 +26,7 @@ Role required: sn\_egd\_lh.admin
 
 2.  Search and select the quick start tests you want to run.
 
-    For information on available quick start tests, see [Quick start tests for Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/quick-start-tests-leader-hub.md).
+    For information on available quick start tests, see [Quick start tests for Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/quick-start-tests-leader-hub.md).
 
 3.  Click **Run Test**.
 
@@ -39,5 +39,5 @@ Role required: sn\_egd\_lh.admin
 
 Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See [Performance profiling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-perf-prof.md).
 
-**Parent Topic:**[Quick start tests for Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/quick-start-tests-leader-hub.md)
+**Parent Topic:**[Quick start tests for Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/quick-start-tests-leader-hub.md)
 

@@ -2,7 +2,7 @@
 title: Planned Work Management components
 description: Several types of components are installed with Planned Work Management, including tables, roles, script includes, and business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/planned-work-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/planned-work-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -351,13 +351,13 @@ Schedule Occurrence \[wm\_plan\_work\_schedule\_occurrence\]
  
 
 </td></tr></tbody>
-</table>-   **[Planned Work Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/planned_work_management_sys_properties.md)**  
+</table>-   **[Planned Work Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/planned_work_management_sys_properties.md)**  
 Planned Work Management uses the following system properties, which are located in the System Properties \[sys\_properties\] table.
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 
 **Related topics**  
 
 
-[Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/extension-points-field-service.md)
+[Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/extension-points-field-service.md)
 

@@ -2,7 +2,7 @@
 title: Resend a job requisition for approval
 description: Resend a job requisition for approval if last-minute changes or technical faults.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/resubmit-approval-job-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/resubmit-approval-job-req.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -29,7 +29,7 @@ Role required: sn\_ta\_hiring\_core.recruiter
 3.  Select **Resend for approval**.
 
     -   The requisition which was in **Ready** state before goes back to **Pending approval** state.
-    -   For more information on the state management system, see [Job requisition state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/job-req-state-mngmnt.md).
+    -   For more information on the state management system, see [Job requisition state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/job-req-state-mngmnt.md).
 
 ## Result
 
@@ -37,7 +37,7 @@ The approval request is resend to the assigned approver.
 
 On the **Approvers** tab, the state of the approval request changes to Requested.
 
-**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
+**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/manage-job-reqs.md)
 
 **Related topics**  
 

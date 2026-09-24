@@ -2,7 +2,7 @@
 title: Create a tool from a Subflow
 description: Create a tool from a Subflow to expose it to Model Context \(MCP\) clients from an MCP Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-subflow-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-subflow-tool.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
@@ -23,8 +23,8 @@ Perform these steps before creating a tool from a Subflow:
 
     **Note:** Only synchronous Subflows are supported. Subflows with wait steps, asynchronous execution, or human intervention steps can't be used as tools.
 
-2.  Establish the requisite AI Access Control List \(ACL\) to facilitate external invocation of the component. See [Create an AI ACL for a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-acl.md) to learn more.
-3.  Confirm the compatibility status in the staging table. See [Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/check-compatibility-of-subflow.md) to learn more.
+2.  Establish the requisite AI Access Control List \(ACL\) to facilitate external invocation of the component. See [Create an AI ACL for a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-ai-acl.md) to learn more.
+3.  Confirm the compatibility status in the staging table. See [Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/check-compatibility-of-subflow.md) to learn more.
 
 Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
@@ -118,7 +118,7 @@ One or more servers you want to add your tool to.
 
 ## What to do next
 
-Invoke the tool via Claude or an alternative MCP client and verify that it functions as intended with the tool you registered. Launch MCP client to test end-to-end execution. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md).
+Invoke the tool via Claude or an alternative MCP client and verify that it functions as intended with the tool you registered. Launch MCP client to test end-to-end execution. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/connect-mcp-server-client.md).
 
-**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md)
+**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/creating-tools-mcp-server.md)
 

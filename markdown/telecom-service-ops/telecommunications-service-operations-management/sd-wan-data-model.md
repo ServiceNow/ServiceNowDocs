@@ -2,12 +2,12 @@
 title: SD-WAN data model
 description: The ServiceNow AI Platform uses a custom data model that defines how SD-WAN connectors discover and retrieve device information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Telecom data model, Explore, Telecommunications Service Operations Management]
 ---

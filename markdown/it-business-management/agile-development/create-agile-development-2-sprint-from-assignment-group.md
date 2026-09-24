@@ -2,7 +2,7 @@
 title: Create sprints in bulk in Agile Development 2.0
 description: Create multiple sprints at once for one or more Agile Development 2.0 assignment groups to save time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-agile-development-2-sprint-from-assignment-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/create-agile-development-2-sprint-from-assignment-group.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -88,5 +88,5 @@ Number of sprints that you want to create for the selected assignment groups.
 
 The sprints are created for the selected assignment groups and are listed in the Sprints related list of these groups.
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/using-agile-development-2-0.md)
 

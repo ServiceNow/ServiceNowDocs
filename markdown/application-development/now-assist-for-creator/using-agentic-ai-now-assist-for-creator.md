@@ -2,7 +2,7 @@
 title: Using agentic AI with ServiceNow Otto for Creator
 description: Use the AI agents and agentic workflows available with ServiceNow Otto for Creator to help you build on the ServiceNow AI Platform more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/using-agentic-ai-now-assist-for-creator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-creator/using-agentic-ai-now-assist-for-creator.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -29,7 +29,7 @@ Application
 
 </th></tr></thead><tbody><tr><td>
 
-[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-troubleshooting-agent-landing-page.md)
+[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-troubleshooting-agent-landing-page.md)
 
 </td><td>
 
@@ -37,7 +37,7 @@ Automated Test Framework \(ATF\)
 
 </td></tr><tr><td>
 
-[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)
+[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md)
 
 </td><td>
 
@@ -46,7 +46,7 @@ Automated Test Framework \(ATF\)
 
 </td></tr><tr><td>
 
-[Release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md)
+[Release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md)
 
 </td><td>
 
@@ -64,12 +64,12 @@ Theme Builder
 
 </td></tr><tr><td>
 
-[UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder-agent.md)
+[UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-builder-agent.md)
 
 </td><td>
 
 UI Builder
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
+</table>**Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
 

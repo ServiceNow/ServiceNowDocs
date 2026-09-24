@@ -2,7 +2,7 @@
 title: HttpRequestAuthedData - Scoped
 description: The HttpRequestAuthedData\(\) API provides methods to access and set values in a signed REST or SOAP request.Instantiates an HttpRequestAuthedData object.Adds a header to the HttpRequestAuthedData object.Adds a query parameter to the HttpRequestAuthedData object.Returns the credential value that was included when the request was signed.Returns whether the signature is applied to the request in the header, as a query parameter, or as a credential value.Returns an object containing the headers that were included when the request was signed.Returns an object containing the query parameters included when the request was signed.Returns the status of the request signing.Returns a detailed message about the request signing. If the request signing fails, this method returns the error message.Sets a credential value for the HttpRequestAuthedData object.Defines whether to apply the signature to the signed request in the header, as a query parameter, or as a credential value.Sets the status of the request signing.Sets a status message for the request signing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/HttpRequestAuthedDataAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/HttpRequestAuthedDataAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -28,7 +28,7 @@ Before using these APIs, you must [configure an authentication algorithm](https:
 
 Use this API in scoped scripts with the `sn_auth` namespace identifier. You can instantiate this class using the constructor, or you can return an HttpRequestAuthedData object from the generateAuth\(\) method in the RequestAuthAPI class.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## HttpRequestAuthedData - HttpRequestAuthedData\(\)
 

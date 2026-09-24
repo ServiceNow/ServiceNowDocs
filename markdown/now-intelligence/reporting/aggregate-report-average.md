@@ -2,7 +2,7 @@
 title: Aggregate a report on averages
 description: When you create a report, you can aggregate the data on several calculations including the number of records, averages, and standard deviation. The sum aggregation shows the sum of the field you aggregate on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/aggregate-report-average.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/aggregate-report-average.html
 release: australia
 product: Reporting
 classification: reporting

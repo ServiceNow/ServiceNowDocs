@@ -2,7 +2,7 @@
 title: Run Instance scan to check Microsoft Exchange Online synchronization configuration
 description: Execute an Instance scan on your ph keyref="var.workplace-calendar-sync"/&gt; configuration with Microsoft Exchange Online. The Instance Scan application diagnoses the configurations with the calendar provider by running a series of checks using suites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/run-instance-scan-on-your-workplace-cal-sync-configs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/run-instance-scan-on-your-workplace-cal-sync-configs.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -58,7 +58,7 @@ The ph keyref="var.workplace-calendar-sync"/&gt; application provides you the **
 
         The **Source** displays the record that caused the issue.
 
-    -   The **Finding Details** column displays the details of the finding, that is, the issue and its details. Hover on the finding to view the full details. For information about the finding messages, refer to [Instance scan findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/sacn-finding-messages.md).
+    -   The **Finding Details** column displays the details of the finding, that is, the issue and its details. Hover on the finding to view the full details. For information about the finding messages, refer to [Instance scan findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/sacn-finding-messages.md).
 8.  Fix the scan findings.
 
 9.  After fixing the issues listed in the Scan Findings related list, select **Rescan** on the Scan Result form.

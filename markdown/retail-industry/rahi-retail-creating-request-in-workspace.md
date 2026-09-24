@@ -2,7 +2,7 @@
 title: Create and assign a retail customer complaint case in workspace
 description: Create and assign a retail customer complain case in Workspace on behalf of a customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-creating-request-in-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-creating-request-in-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -116,5 +116,5 @@ Details about this request.
     **Note:** Select **Task** related list to view your existing tasks and select **New** to add a task.
 
 
-**Parent Topic:**[Manage customer complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-customer-complaints.md)
+**Parent Topic:**[Manage customer complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-manage-customer-complaints.md)
 

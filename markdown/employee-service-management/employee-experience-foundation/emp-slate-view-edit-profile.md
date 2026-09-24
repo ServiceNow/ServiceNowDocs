@@ -2,7 +2,7 @@
 title: View and edit employee profiles
 description: Access employee profile information and edit your personal details to keep your information current.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-slate-view-edit-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-slate-view-edit-profile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

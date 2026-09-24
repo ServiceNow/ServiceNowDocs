@@ -2,11 +2,11 @@
 title: Combined ServiceNow Otto for IT Operations Management \(ITOM\) release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for IT Operations Management \(ITOM\) from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforitoperationsmanagementitom-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicenowottoforitoperationsmanagementitom-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 10
+last_updated: "2026-09-24"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,42 @@ Yokohama
 
 </td><td>
 
--   **[Analyze alert impact agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itom-agentic-aia&family=yokohama&ft:locale=en-US)**
+-   **[Enhance IT operations with AI-driven, autonomous alert management using the manage alerts autonomously workflow](https://www.servicenow.com/docs/access?context=itom-autonomous-operator-workflow&family=yokohama&ft:locale=en-US)**
+
+Automate alert triage, impact analysis, and root cause investigation with an AI-driven workflow that replaces manual operator steps with autonomous decision-making. The workflow processes incoming alerts end-to-end and surfaces consolidated insights through Express List, giving operators immediate visibility into what happened, what's affected, and why.
+
+-   **[Configure the Datadog and Gemini Cloud Assistant observability skills](https://www.servicenow.com/docs/access?context=itom-ai-agent-configuration&family=yokohama&ft:locale=en-US)**
+
+Set up the new Datadog and Gemini Cloud Assistant observability skills to get insights from those tools in the manage alerts autonomously agentic workflow. With Datadog and Google Gemini, the workflow now supports five observability tools, including Dynatrace, Kentik, and New Relic, helping you investigate and respond to a wider range of alerts.
+
+
+ -   **[Configure the Dynatrace analysis AI agent](https://www.servicenow.com/docs/access?context=now-assist-itom-config-dynatrace&family=yokohama&ft:locale=en-US)**
+
+Set up the Dynatrace analysis AI agent in the Analyze alert impact agentic workflow to investigate Dynatrace alerts. With Dynatrace, the agentic workflow now supports three observability tools, including Kentik and New Relic, helping you investigate and respond to a wider range of alerts.
+
+-   **[Expand the Analyze alert impact agentic workflow with four new AIOps agents](https://www.servicenow.com/docs/access?context=now-assist-itom-use-aia&family=yokohama&ft:locale=en-US)**
+
+Get a fuller view of alert impact with four new AIOps agents in the Analyze alert impact agentic workflow. Along with observability data, the agentic workflow now includes information from within ServiceNow to help surface business impact and related issues. Activate the AIOps agents to include them in the agentic workflow.
+
+-   **[Enhance your decision-making process with the Analyze Potential Impact agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itom-analyze-potential-impact-workflow&family=yokohama&ft:locale=en-US)**
+
+Assess the potential impact of a change using the Analyze Potential Impact agentic workflow. This workflow provides an analysis of the relevant servers and suggested services that might be impacted by your change request, ensuring you have all the insights needed to make informed decision before a change.
+
+-   **[Add access control lists for security in AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Enable security settings to run AI agents and agentic workflows using ACLs and user identities. You can configure and manage the ACLs in AI Agent Studio.
+
+-   **[Utilize the Triage and analyze alerts agentic workflow in the context of an incident](https://www.servicenow.com/docs/access?context=itom-alert-triage-agentic-workflow&family=yokohama&ft:locale=en-US)**
+
+Initiate the Triage and analyze alerts agentic workflow from the Now Assist panel in the context of the incident form to perform all the functions of the workflow. This workflow automatically assigns, acknowledges, and summarizes origin alerts, determines their significance through historical analysis, and analyzes related incidents.
+
+
+ -   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+
+
+ -   **[Analyze alert impact agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itom-agentic-aia&family=yokohama&ft:locale=en-US)**
 
 Analyze the impact of alerts and identify the possible causes with the Analyze alert impact agentic workflow. The workflow interacts with observability tools, such as Kentik and New Relic, to surface alert details and provide insights.
 
@@ -90,7 +125,47 @@ Zurich
 
 </td><td>
 
--   **[Enhance IT operations with AI-driven, autonomous alert management using the manage alerts autonomously workflow](https://www.servicenow.com/docs/access?context=itom-autonomous-operator-workflow&family=zurich&ft:locale=en-US)**
+-   **[Configure the Microsoft Azure and Google Cloud agents](https://www.servicenow.com/docs/access?context=configure-integration-agents-for-now-assist&family=zurich&ft:locale=en-US)**
+
+Set up the Microsoft Azure and Google Cloud AI agents to get insights from those tools in the analyze alert impact agentic workflow. With Microsoft Azure and Google Cloud support, the workflow helps you investigate and respond to alerts from a wider range of observability tools, including Dynatrace, New Relic, and Kentik.
+
+
+ -   **[Use the ITOM MCP Server](https://www.servicenow.com/docs/access?context=use-itom-mcp-server&family=zurich&ft:locale=en-US)**
+
+Use the ITOM MCP Server to connect an MCP client application, such as Claude or Moveworks, to your ServiceNow ITOM environment. Investigate alerts, review CI reliability, assess incident impact on reliability, and create standard availability SLOs through the MCP client application.
+
+
+ -   **[Auto-generate SLOs for SRM services](https://www.servicenow.com/docs/access?context=now-assist-itom-manage-generated-slos&family=zurich&ft:locale=en-US)**
+
+Use the SLO creator agent to generate SLOs for your SRM services. The agent analyzes incidents, alerts, and outage events to automatically create SLOs, helping teams adopt SLOs faster and track service reliability.
+
+
+ -   **[Configure the Dynatrace MCP server agent](https://www.servicenow.com/docs/access?context=now-assist-itom-config-dynatrace-mcp&family=zurich&ft:locale=en-US)**
+
+Set up the new Dynatrace MCP server agent, which replaces the Dynatrace analysis AI agent, for deeper alert analysis. In the analyze alert impact agentic workflow, you can ask more detailed questions about Dynatrace alerts, such as questions about logs, topology, or recent changes. In the manage alerts autonomously agentic workflow, investigations now pull more comprehensive Dynatrace context based on alert type.
+
+-   **[Updates to the manage alerts autonomously agentic workflow](https://www.servicenow.com/docs/access?context=itom-autonomous-operator-workflow&family=zurich&ft:locale=en-US)**
+
+The manage alerts autonomously agentic workflow has been updated to provide additional AI insights in the preview panel and alert record. These updates include:
+
+    -   Summaries of the logic behind automated decisions, such as auto closures of insignificant alerts
+    -   A written summary of the Service Observability dashboard
+Additionally, automated alert groups are now supported across Now Assist features such as alert assist and AI insights.
+
+-   **[Analyze log analytics alerts to assess impact and triage urgency](https://www.servicenow.com/docs/access?context=itom-autonomous-operator-workflow&family=zurich&ft:locale=en-US)**
+
+The manage alert autonomously agentic workflow now includes AI-driven analysis for log analytics alerts. The alert hypothesizer skill evaluates historical patterns to assess if triage is required. It also classifies alerts as proactive or reactive, where proactive indicates emerging risk and reactive indicates an active issue. The analysis can include contextual insights such as potential failure scenarios to support an alert investigation.
+
+-   **[Analyze Service Observability dashboard skill](https://www.servicenow.com/docs/access?context=analyze-a-dashboard-in-service-observability&family=zurich&ft:locale=en-US)**
+
+The analyze Service Observability dashboard skill uses generative AI to summarize a single Service Observability dashboard and calls out insights found in charts. This summary helps operators quickly orient to and understand a particular dashboard. Once activated, this skill is available on all Service Observability dashboards and runs automatically from Incident Investigation when Service Observability is installed.
+
+-   **[Analyze service health](https://www.servicenow.com/docs/access?context=analyze-service-health-in-service-observability&family=zurich&ft:locale=en-US)**
+
+The analyze service health skill uses generative AI to analyze all available Service Observability dashboards for the selected service in the Service Operations Workspace \(SOW\). It generates a summary of a service’s health and calls out any found insights. Once activated, this skill is available from the header of a service record in the SOW.
+
+
+ -   **[Enhance IT operations with AI-driven, autonomous alert management using the manage alerts autonomously workflow](https://www.servicenow.com/docs/access?context=itom-autonomous-operator-workflow&family=zurich&ft:locale=en-US)**
 
 Automate alert triage, impact analysis, and root cause investigation with an AI-driven workflow that replaces manual operator steps with autonomous decision-making. The workflow processes incoming alerts end-to-end and surfaces consolidated insights through Express List, giving operators immediate visibility into what happened, what's affected, and why.
 
@@ -109,6 +184,39 @@ The new interface for the AIOps LEAP properties includes default configuration t
 -   **[Action Insights panel](https://www.servicenow.com/docs/access?context=automation-opportunity-sub-groups&family=zurich&ft:locale=en-US)**
 
 The Action Insights panel on the automation opportunity details page provides suggestion to create sub-groups when there are large volumes of records. This helps optimize opportunities and knowledge gaps for architects.
+
+
+ -   **[View an error analysis by ServiceNow Otto in ACC](https://www.servicenow.com/docs/access?context=agent-errors-now-assist&family=zurich&ft:locale=en-US)**
+
+Starting in version 6.0.0, use Now Assist AI agents to gather information about errors occurring on Agent Client Collector agents. For example, you can verify the underlying cause behind a specific error or error code.
+
+
+ -   **[Configure the Dynatrace analysis AI agent](https://www.servicenow.com/docs/access?context=now-assist-itom-config-dynatrace&family=zurich&ft:locale=en-US)**
+
+Set up the Dynatrace analysis AI agent in the analyze alert impact agentic workflow to investigate Dynatrace alerts. With Dynatrace, the agentic workflow now supports three observability tools, including Kentik and New Relic, helping you investigate and respond to a wider range of alerts.
+
+-   **[Expand the analyze alert impact agentic workflow with four new AIOps agents](https://www.servicenow.com/docs/access?context=now-assist-itom-use-aia&family=zurich&ft:locale=en-US)**
+
+Get a fuller view of alert impact with four new AIOps agents in the analyze alert impact agentic workflow. Along with observability data, the agentic workflow now includes information from within ServiceNow to help surface business impact and related issues. Activate the AIOps agents to include them in the agentic workflow.
+
+-   **[Enhance your decision-making process with the analyze potential impact agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itom-analyze-potential-impact-workflow&family=zurich&ft:locale=en-US)**
+
+Assess the potential impact of a change using the analyze potential impact agentic workflow. This workflow provides an analysis of the relevant servers and suggested services that might be impacted by your change request, ensuring that you have all the insights needed to make informed decisions before making a change.
+
+-   **[Add access control lists for security in AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
+
+Enable security settings to run AI agents and agentic workflows using ACLs and user identities. You can configure and manage the ACLs in AI Agent Studio.
+
+-   **[Certificate renewal AI agent](https://www.servicenow.com/docs/access?context=now-assist-cert-renewal-ai-agent&family=zurich&ft:locale=en-US)**
+
+Use the Now Assist certificate renewal AI agentic workflow to automatically renew certificates before they expire. You can perform the following with the Now Assist certificate renewal AI agent:
+
+    -   Renew individual certificates
+    -   Find all certificates about to expire
+    -   Renew all certificates about to expire in a single prompt
+-   **[Utilize the triage and analyze alerts agentic workflow in the context of an incident](https://www.servicenow.com/docs/access?context=itom-alert-triage-agentic-workflow&family=zurich&ft:locale=en-US)**
+
+Initiate the triage and analyze alerts agentic workflow from the Now Assist panel in the context of the incident form to perform all the functions of the workflow. This workflow automatically assigns, acknowledges, and summarizes origin alerts, determines their significance through historical analysis, and analyzes related incidents.
 
 
 </td></tr><tr><td>
@@ -163,7 +271,12 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -188,6 +301,16 @@ Playbooks appear in SOW module.
 -   **[Data Range Display](https://www.servicenow.com/docs/access?context=exploring-aiops-leap&family=zurich&ft:locale=en-US)**
 
 The AIOps LEAP landing page shows analyzed data date range for automation teams to be aware of time-ranges of analysis.
+
+
+ -   **[Role configuration required for agentic workflows and AI agents](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
+
+Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -263,7 +386,9 @@ Zurich
 
 </td><td>
 
-In [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US), the Dynatrace analysis AI agent is being prepared for future deprecation. To continue getting Dynatrace insights in agentic workflows, deactivate the Dynatrace analysis AI agent and set up the Dynatrace MCP server agent. For configuration details, see [Configure the Dynatrace MCP server agent](https://www.servicenow.com/docs/access?context=now-assist-itom-config-dynatrace-mcp&family=zurich&ft:locale=en-US).
+In [Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US), the Google Gemini Cloud Assist agent is being prepared for future deprecation. To continue receiving Google Cloud insights, use the analyze alert impact agentic workflow which includes the Gemini Cloud Assist A2A Investigation Agent. For configuration instructions, see [\[Placeholder link text to key configure-integration-agents-for-now-assist\]](https://www.servicenow.com/docs/access?context=configure-integration-agents-for-now-assist&family=zurich&ft:locale=en-US).
+
+ In [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US), the Dynatrace analysis AI agent is being prepared for future deprecation. To continue getting Dynatrace insights in agentic workflows, deactivate the Dynatrace analysis AI agent and set up the Dynatrace MCP server agent. For configuration details, see [Configure the Dynatrace MCP server agent](https://www.servicenow.com/docs/access?context=now-assist-itom-config-dynatrace-mcp&family=zurich&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -304,6 +429,8 @@ Zurich
 
 Install AIOps Experience \[sn\_sow\_aiops\] and ServiceNow Otto for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for ITOM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -558,5 +685,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

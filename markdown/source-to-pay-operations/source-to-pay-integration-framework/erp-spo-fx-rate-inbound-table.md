@@ -2,7 +2,7 @@
 title: FX Rate Stage inbound staging table
 description: The FX Rate Stage inbound \[sn\_fcms\_intg\_fx\_rate\_stage\] staging table temporarily stores important data about FX rates before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-fx-rate-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-fx-rate-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

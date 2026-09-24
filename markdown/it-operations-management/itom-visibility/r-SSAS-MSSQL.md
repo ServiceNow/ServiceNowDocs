@@ -2,7 +2,7 @@
 title: SQL Server Analysis Services \(SSAS\) discovery
 description: The Discovery and Service Mapping application uses the SSAS pattern to find SQL Server Analysis Services \(SSAS\) on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store..
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-SSAS-MSSQL.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r-SSAS-MSSQL.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -52,5 +52,5 @@ Discovery populates the following data when running the SSAS pattern.
 |Instance Name|instance|The SSAS instance name|
 |TCP port\(s\)|tcp\_port|The SSAS TCP port|
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Software.md)
 

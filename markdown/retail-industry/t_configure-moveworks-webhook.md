@@ -2,7 +2,7 @@
 title: Configure the ServiceNow Otto webhook connection
 description: Configure the otto\_webhook Connection &amp; Credential Alias so ServiceNow can deliver webhook events to the ServiceNow Otto listener.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/t\_configure-moveworks-webhook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/t\_configure-moveworks-webhook.html
 release: australia
 topic_type: task
 last_updated: "2025-07-01"

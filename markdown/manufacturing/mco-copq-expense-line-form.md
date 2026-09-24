@@ -2,7 +2,7 @@
 title: CoPQ expense line form
 description: The CoPQ expense line form enables you to enter the expense line details for product non-conformance..
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-copq-expense-line-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-copq-expense-line-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -180,5 +180,5 @@ Cost center
 Cost center financially responsible for the item identified in Source ID, if any.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qim-form.md)
 

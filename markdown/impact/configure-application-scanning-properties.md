@@ -2,10 +2,10 @@
 title: Configure application scanning properties
 description: The Scan Engine provides options to configure application scanning and enhance governance over Team Dev push approval. Configure which applications are scanned, the parameters applications must have to satisfy Team Dev approval, and whether developers can use Suite Scans for faster, focused validation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/configure-application-scanning-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-application-scanning-properties.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [application scanning, Team Dev, Suite Scan, scan engine, push approval]
 breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
@@ -110,14 +110,14 @@ Allow Suite Scan for applications
 </table>8.  Select **Save**.
 
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 
 **Related topics**  
 
 
-[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md)
+[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/create-scan-engine-definition-suites.md)
 
-[Initiate application scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiating-on-demand-scans-scan-engine.md)
+[Initiate application scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/initiating-on-demand-scans-scan-engine.md)
 
-[Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/update-set-scanning-properties2.md)
+[Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/update-set-scanning-properties2.md)
 

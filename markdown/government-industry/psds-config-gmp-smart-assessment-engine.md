@@ -2,7 +2,7 @@
 title: Configure the Smart Assessment Engine for Grants Management
 description: Create a new Smart Assessment template, which would show up in the compliance assessment field in the proposal playbook. The Smart assessment template is used to collect compliance information from applicants during proposal submission.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-smart-assessment-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-smart-assessment-engine.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -67,9 +67,9 @@ You can create assessment templates for grants compliance, and add instructions,
 
 The template is now published, and can be selected in the **Compliance Assessment**activity of the Grants Setup Playbook. It is used to collect compliance information from applicants during proposal submission.
 
-**Parent Topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pace.md)
+**Parent Topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-pace.md)
 
-**Previous topic:**[Configure PaCE Restricted Caller Access Privileges \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-rca.md)
+**Previous topic:**[Configure PaCE Restricted Caller Access Privileges \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-rca.md)
 
-**Next topic:**[Configure grants program record tabs in Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-gpp-tabs.md)
+**Next topic:**[Configure grants program record tabs in Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-gpp-tabs.md)
 

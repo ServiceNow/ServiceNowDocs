@@ -2,7 +2,7 @@
 title: Activate related plugins for Advanced Work Assignment
 description: After activating the Advanced Work Assignment plugin, activate related AWA plugins to enable other base system service channels and the Performance Analytics Solutions dashboard for AWA.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-related-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-related-plugins.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

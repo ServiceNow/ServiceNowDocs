@@ -2,7 +2,7 @@
 title: Disable attorney client privilege for a legal request
 description: Disable attorney client privilege for a legal request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/lsd-acp-enable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/lsd-acp-enable.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -32,15 +32,15 @@ As a fulfiller, you can disable Privilege and Confidential status for a legal re
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d750285e102">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d750289e102">
 
 Option
 
-</th><th align="left" id="d750285e105">
+</th><th align="left" id="d750289e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d750285e111">
+</th></tr></thead><tbody><tr><td id="d750289e111">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d750285e140">
+</td></tr><tr><td id="d750289e140">
 
 **As a collaborator**
 
@@ -82,5 +82,5 @@ The state of the legal request is Work in progress and the document is Legal rev
 -   In the Privileged Document Access tab, the document permissions is marked as Public.
 -   Stakeholders are notified of the change.
 
-**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/work-on-legal-request.md)
 

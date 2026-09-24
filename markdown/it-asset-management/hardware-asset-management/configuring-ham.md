@@ -2,7 +2,7 @@
 title: Configuring Hardware Asset Management
 description: Configure Hardware Asset Management to have centralized asset data for accurate inventory and insights, automate the IT life cycle with workflows, and reduce the asset costs and risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/configuring-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/configuring-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -42,7 +42,7 @@ Get the Hardware Asset Management application from the [ServiceNow Store](https:
 
 </td><td>
 
-[Install Hardware Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-ham.md)
+[Install Hardware Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/install-ham.md)
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Get the ServiceNow Otto for Hardware Asset Management \(HAM\) application from t
 
 </td><td>
 
-[Configure ServiceNow Otto for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configuring-now-assist-ham.md)
+[Configure ServiceNow Otto for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configuring-now-assist-ham.md)
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Use Hardware Asset Management to manage your hardware and consumable assets and 
 
 </td><td>
 
-[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 </td></tr></tbody>
 </table>

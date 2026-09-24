@@ -2,7 +2,7 @@
 title: Request Event Management
 description: AIOps Experience plugin \(sn\_sow\_aiops\) requires a separate subscription and must be activated by ServiceNow personnel. This plugin includes the required Event Management components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMActivatePlugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMActivatePlugin.html
 release: australia
 product: Event Management
 classification: event-management

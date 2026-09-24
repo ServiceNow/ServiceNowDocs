@@ -2,7 +2,7 @@
 title: Using HR Service Delivery Playbook
 description: Currently, HR Service Delivery Playbook is only available for use with lifecycle event HR cases.You can add a work note or comment to an HR lifecycle event case from Playbook.You can open a sub-case or task on an HR lifecycle event case from Playbook.You can view the activity stream in a modal from HR Playbook.Add supporting documents to lifecycle event activities directly from the Playbook tab to provide additional context or required information for case resolution.Rescind a lifecycle event case to cancel future activities and revert completed work when the case needs to be stopped or reversed. This action cannot be undone.View email notifications sent to employees during lifecycle event activities to verify communication content and track what information was shared.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-using.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -196,7 +196,7 @@ Rescind a lifecycle event case to cancel future activities and revert completed 
 
 Role required: sn\_hr\_le.case\_writer
 
-For more information, see [Configure the rescind process for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.md).
+For more information, see [Configure the rescind process for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.md).
 
 ### Procedure
 

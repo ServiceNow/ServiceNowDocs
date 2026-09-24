@@ -2,7 +2,7 @@
 title: Define security controls for MCP Servers
 description: Define security controls for an MCP Servers to determine which users can access it and what permissions they have.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-sec-mcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-sec-mcp.html
 release: australia
 topic_type: task
 last_updated: "2026-09-02"

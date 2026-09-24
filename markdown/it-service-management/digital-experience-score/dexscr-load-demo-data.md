@@ -2,7 +2,7 @@
 title: Load Digital Experience Score​ demo data
 description: Load the demo data for Digital Experience Score​ after installing the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-load-demo-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-experience-score/dexscr-load-demo-data.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
@@ -18,7 +18,7 @@ Load the demo data for Digital Experience Score​ after installing the applicat
 
 ## Before you begin
 
-[Install Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/install-dex-score.md)
+[Install Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/install-dex-score.md)
 
 Role required: admin
 
@@ -48,7 +48,7 @@ Besides loading demo data, the **CreateDemoDataForDEXScoreJob** scheduled job do
 
 After the scheduled job runs successfully, the demo data is loaded into the instance.
 
-**Parent Topic:**[Install Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/install-dex-score.md)
+**Parent Topic:**[Install Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/install-dex-score.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Customize an indicator in the Technology Account 360 view
 description: Modify the values of the indicators in the Technology Account 360 view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/customize-indicator-technology-account-360-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/customize-indicator-technology-account-360-view.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -31,5 +31,5 @@ Role required: admin
 4.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
+**Parent Topic:**[Configuring Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 

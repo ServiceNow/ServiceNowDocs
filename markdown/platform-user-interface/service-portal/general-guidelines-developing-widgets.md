@@ -2,7 +2,7 @@
 title: General guidelines for developing widgets
 description: When developing custom widgets, keep these general guidelines in mind for optimal performance, scalable development, and a good user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/general-guidelines-developing-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/general-guidelines-developing-widgets.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -24,13 +24,13 @@ When developing custom widgets, keep these general guidelines in mind for optima
 
     -   Clearly demonstrate the widget functionality to the user.
     -   Provide data when previewing the widget in the widget editor. \(Demo data is not visible in the designer\).
-    Learn more: [Tutorial: Build a custom widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/adv-widget-tutorial.md).
+    Learn more: [Tutorial: Build a custom widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/adv-widget-tutorial.md).
 
 -   **Embed a widget rather than clone when possible**
 
     Embedding an existing widget into your custom widget takes advantage of pre-existing functionality without cloning or duplicating code. You can still pass parameters into the embedded widget to control its behavior.
 
-    Learn more: [Embed an existing widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/adv-widget-tutorial.md)
+    Learn more: [Embed an existing widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/adv-widget-tutorial.md)
 
 -   **Avoid using large data sets to improve performance**
 
@@ -44,8 +44,8 @@ When developing custom widgets, keep these general guidelines in mind for optima
     Learn more:
 
     -   [Six common performance pitfalls in Service Portal and how to avoid them \[KB0634588\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0634588)
-    -   spUtil - recordWatch
-    -   GlideRecord setLimit Function
+    -   [spUtil - recordWatch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
+    -   [GlideRecord setLimit Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 -   **Create a directive instead of embedding a complex widget**
 
     When an embedded widget is called from the server, all the scripts associated with that widget are returned. If you only need a subsection of a widget, embedding the entire widget creates unnecessary overhead. Instead, use directives to share lightweight code between widgets. Directives are useful, for example, when building UI components. Complex components with server-side and client-side functionality are best left as widgets. Use a directive instead of an embedded widget to:
@@ -54,7 +54,7 @@ When developing custom widgets, keep these general guidelines in mind for optima
     -   Share a reusable, lightweight subsection of a widget.
     -   Share a common UI feature, such as a list or an avatar.
     -   Augment widget behavior.
-    Learn more: [Reuse components with Angular Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/angular-providers.md).
+    Learn more: [Reuse components with Angular Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/angular-providers.md).
 
 -   **Use a service or factory to share data and persist state**
 
@@ -63,7 +63,7 @@ When developing custom widgets, keep these general guidelines in mind for optima
     -   Keep widgets synchronized when changing records or filters.
     -   Share data between widgets.
     -   Develop more performant widgets.
-    Learn more: [Reuse components with Angular Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/angular-providers.md).
+    Learn more: [Reuse components with Angular Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/angular-providers.md).
 
 -   **Handle events with a publish/subscribe service**
 
@@ -84,9 +84,9 @@ When developing custom widgets, keep these general guidelines in mind for optima
     To create the best experience for your users, follow these guidelines:
 
     -   Consider the impact of your widget in a mobile environment. For example, avoid using mouse-over and other events that do not translate to a mobile device.
-    -   Use SCSS variables to reuse items. See [SCSS variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/scss-primer.md).
+    -   Use SCSS variables to reuse items. See [SCSS variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/scss-primer.md).
     -   Use variable names when using colors.
-    -   Wrap strings for translation in localization APIs. See [Internationalize a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_WidgetLocalization.md).
+    -   Wrap strings for translation in localization APIs. See [Internationalize a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/c_WidgetLocalization.md).
 -   **Remove unused Angular Providers from client script**
 
     For easier maintenance, remove any unused Angular Providers that were injected into the client script function statement.
@@ -96,5 +96,5 @@ When developing custom widgets, keep these general guidelines in mind for optima
     To lessen the likelihood of production issues in Service Portal, avoid using inline templates using &lt;script&gt; tags in a widget's HTML template. Instead, create a related Angular ng-template record for the widget.
 
 
-**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/widget-dev-guide.md)
 

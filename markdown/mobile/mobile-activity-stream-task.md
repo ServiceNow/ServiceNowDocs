@@ -2,7 +2,7 @@
 title: Accessing and posting to the mobile activity stream
 description: Use the activity stream to submit and list work notes, files, images, and videos to a record within your mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-activity-stream-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-activity-stream-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,15 +32,15 @@ An activity stream enables you to communicate with other users about the work do
 
 2.  Tap an icon displayed within the ribbon in the record title bar to post items to the activity stream.
 
-<table id="choicetable_l4z_wt4_bpb"><thead><tr><th align="left" id="d127379e86">
+<table id="choicetable_l4z_wt4_bpb"><thead><tr><th align="left" id="d127256e86">
 
 Activity stream item
 
-</th><th align="left" id="d127379e89">
+</th><th align="left" id="d127256e89">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d127379e95">
+</th></tr></thead><tbody><tr><td id="d127256e95">
 
 **Text**
 
@@ -52,7 +52,7 @@ Procedure
 4.  Tap **Post** to save your message in the activity stream.
 
 
-</td></tr><tr><td id="d127379e128">
+</td></tr><tr><td id="d127256e128">
 
 **Files**
 
@@ -64,7 +64,7 @@ Procedure
 
 An upload screen opens, detailing the upload progress of the files you selected. In cases where files fail to upload, you are presented with information detailing the reason for the unsuccessful post.
 
-</td></tr><tr><td id="d127379e160">
+</td></tr><tr><td id="d127256e160">
 
 **Multimedia files**
 
@@ -76,7 +76,7 @@ An upload screen opens, detailing the upload progress of the files you selected.
 
 An upload screen opens, detailing the upload progress of the multimedia files you selected. In cases where files fail to upload, you are presented with information detailing the reason for the unsuccessful post.
 
-</td></tr><tr><td id="d127379e192">
+</td></tr><tr><td id="d127256e192">
 
 **Captured photo or video**
 

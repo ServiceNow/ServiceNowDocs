@@ -2,7 +2,7 @@
 title: Complete a playbook activity
 description: Complete playbook activities to progress an issue through the stages defined in its workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,7 +18,7 @@ Complete playbook activities to progress an issue through the stages defined in 
 
 ## Before you begin
 
-The issue's workflow must have a playbook associated with it. See [Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md).
+The issue's workflow must have a playbook associated with it. See [Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md).
 
 Role required: none
 
@@ -36,7 +36,7 @@ The activities, fields, and stages displayed for an issue depend on the playbook
 
     1.  Complete the fields for each activity.
 
-        See [New state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/new-state-fields.md).
+        See [New state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/new-state-fields.md).
 
     2.  Select **Mark as complete** on the last activity, then confirm the state change.
 
@@ -56,7 +56,7 @@ The activities, fields, and stages displayed for an issue depend on the playbook
 
     1.  Complete the fields for each activity.
 
-        See [Respond state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/respond-state-fields.md).
+        See [Respond state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/respond-state-fields.md).
 
     2.  Select **Mark as complete** on the last activity, then confirm the state change.
 
@@ -66,7 +66,7 @@ The activities, fields, and stages displayed for an issue depend on the playbook
 
     1.  Complete the fields for each activity.
 
-        See [Review and close state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/review-and-close-state-fields.md).
+        See [Review and close state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/review-and-close-state-fields.md).
 
     2.  Select **Mark as complete** on the last activity to close the issue.
 
@@ -75,16 +75,16 @@ The activities, fields, and stages displayed for an issue depend on the playbook
 
 As activities are completed and state changes are confirmed, the issue progresses through its workflow. The progress indicator is updated to reflect the current stage.
 
--   **[New state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/new-state-fields.md)**  
+-   **[New state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/new-state-fields.md)**  
 Fields used in the activities of the New state in an issue's lifecycle.
--   **[Analyze state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/analyze-state-fields.md)**  
+-   **[Analyze state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/analyze-state-fields.md)**  
 Fields used in the activities of the Analyze state in an issue's lifecycle.
--   **[Respond state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/respond-state-fields.md)**  
+-   **[Respond state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/respond-state-fields.md)**  
 Fields used in the activities of the Respond state in an issue's lifecycle.
--   **[Review and close state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/review-and-close-state-fields.md)**  
+-   **[Review and close state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/review-and-close-state-fields.md)**  
 Fields used in the activities of the Review and close state in an issue's lifecycle.
--   **[Remediation task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/remediation-task-fields.md)**  
+-   **[Remediation task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/remediation-task-fields.md)**  
 Fields on a remediation task record.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

@@ -2,7 +2,7 @@
 title: Data interfaces
 description: Data interfaces provide stable contracts for accessing data from single tables or combined sources through JOIN or UNION operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-interfaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/data-interfaces.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-25"
@@ -65,6 +65,6 @@ Consumers access data interfaces through multiple channels:
 
 To learn more about data interfaces, see:
 
--   [Managing data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-interfaces_wdf.md)
--   [Managing data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-products-wdf.md)
+-   [Managing data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-data-interfaces_wdf.md)
+-   [Managing data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-data-products-wdf.md)
 

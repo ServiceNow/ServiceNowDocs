@@ -2,7 +2,7 @@
 title: Financial Services
 description: The ServiceNow Financial Services Operations \(FSO\) solution helps financial services institutions to reduce costs through automation, improve customer satisfaction, and embed risk and compliance controls across workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,27 +15,27 @@ The ServiceNow® Financial Services Operations \(FSO\) solution helps financial 
 
 <table id="table_btj_11r_r5b" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Introduction to core concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-fso-apps.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Introduction to core concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/exploring-fso-apps.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/setting-up-fso-applications.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/setting-up-fso-applications.md)
 
 </td><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend FSO capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integrate-other-applications.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend FSO capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integrate-other-applications.md)
 
 </td></tr><tr><td>
 
-[Banking applications\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Manage and configure banking solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-banking-overview.md)
+[Banking applications\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Manage and configure banking solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-banking-overview.md)
 
 </td><td>
 
-[Insurance applications\[Omitted image "ind-government.svg"\] Alt text:Manage and configure insurance solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-insurance-overview.md)
+[Insurance applications\[Omitted image "ind-government.svg"\] Alt text:Manage and configure insurance solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-insurance-overview.md)
 
 </td><td>
 
-[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Access preconfigured dashboards with actionable data visualizations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
+[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Access preconfigured dashboards with actionable data visualizations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-content-pack.md)
 
 </td></tr><tr><td>
 
@@ -43,7 +43,7 @@ The ServiceNow® Financial Services Operations \(FSO\) solution helps financial 
 
 </td><td>
 
-[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use AI to enhance user productivity and efficiency through proactive experiences.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use AI to enhance user productivity and efficiency through proactive experiences.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
 
 </td><td>
 

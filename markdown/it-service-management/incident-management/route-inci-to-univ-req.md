@@ -2,7 +2,7 @@
 title: Transfer incident
 description: Transfer the back to the Universal Request queue, or to another department with or without resolution. When you realise that the issue is not incident related, transfer the incident without any resolution to the relevant department or service. If you resolve the issue, you can transfer the incident with the resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/route-inci-to-univ-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/route-inci-to-univ-req.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -49,5 +49,5 @@ Associate an incident with a Universal Request record.
 4.  Click **Transfer**.
 
 
-**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 

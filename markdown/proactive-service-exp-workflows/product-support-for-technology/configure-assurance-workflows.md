@@ -2,7 +2,7 @@
 title: Configuring Proactive Service Experience Workflows
 description: Setup Proactive Service Experience Workflows application to proactively resolve the network issues through automated workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -16,10 +16,10 @@ breadcrumb: [Proactive Service Experience Workflows, Product Support for Technol
 
 Setup Proactive Service Experience Workflows application to proactively resolve the network issues through automated workflows.
 
--   **[Set up your environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/set-up-environment-psew.md)**  
+-   **[Set up your environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/set-up-environment-psew.md)**  
 Begin your customer journey by preparing your Proactive Service Experience Workflows environment with data models, customer data, product data, and user management tools to go live.
--   **[Customize an indicator in the Technology Account 360 view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/customize-indicator-technology-account-360-view.md)**  
+-   **[Customize an indicator in the Technology Account 360 view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/customize-indicator-technology-account-360-view.md)**  
 Modify the values of the indicators in the Technology Account 360 view.
 
-**Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
+**Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
 

@@ -2,7 +2,7 @@
 title: Phone directory
 description: The phone directory enables agents to make outbound calls to queues, other agents, and external numbers from their ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ccaas-phone-directory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ccaas-phone-directory.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ The following CCaaS Store Apps offer voice channel integration:
 -   [Unified Experience from Genesys - Core](https://store.servicenow.com/store/app/6ebe67ea1b646a50a85b16db234bcb54)
 -   [Unified Experience from Genesys](https://store.servicenow.com/store/app/cdff6b621ba46a50a85b16db234bcba3#linksAndDocuments)
 
-For more information on ICC call features, see [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md) and [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-icc-for-ccaas.md).
+For more information on ICC call features, see [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/interaction-controls-component-icc-call-interaction-features.md) and [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-icc-for-ccaas.md).
 
 ## Phone directory Search
 

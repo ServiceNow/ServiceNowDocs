@@ -2,7 +2,7 @@
 title: Copy a price list
 description: Duplicate a published price list and its associated price list lines, attribute adjustments, and decision tables. You can copy a price list, update the pricing in the copied price list if needed, then publish it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/copy-price-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/copy-price-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

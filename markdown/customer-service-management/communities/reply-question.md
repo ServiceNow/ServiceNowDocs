@@ -2,7 +2,7 @@
 title: Reply to a question in the community
 description: Reply to a question or another reply.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/reply-question.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/reply-question.html
 release: australia
 product: Communities
 classification: communities
@@ -86,5 +86,5 @@ Role required: sn\_communities.community\_user
     If an accepted solution has infected attachments, an email notification is sent to the author, admins, and or moderators who must unmark the answer as the accepted solution. Author of the answer gets a notification to update the post.
 
 
-**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/post-respond-content.md)
+**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/post-respond-content.md)
 

@@ -2,7 +2,7 @@
 title: Agency Profile form
 description: Use the Agency Profile form in the Public Sector Digital Services application to capture and display the details about an agency and the cases that they're involved in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/agency-profile-form-psds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/agency-profile-form-psds.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -140,5 +140,5 @@ Agency subtype: -   Local
 -   Federal
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Core Profile Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-profile-forms.md)
+</table>**Parent Topic:**[Public Sector Digital Services Core Profile Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-profile-forms.md)
 

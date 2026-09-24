@@ -2,7 +2,7 @@
 title: Using agentic workflows
 description: Use AI agents to complete your tasks autonomously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/using-now-assist-ai-agents-vr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/using-now-assist-ai-agents-vr.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-26"
@@ -39,7 +39,7 @@ Security Exposure 360
 
 </td><td>
 
-[Evaluate vulnerability exposure data with Security Exposure 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-review-vulnerability-exposure-data.md).Vulnerability analysts and remediation owners can enter questions in plain language and receive comprehensive answers about all types of findings that include host, container, and test results vulnerabilities.
+[Evaluate vulnerability exposure data with Security Exposure 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-review-vulnerability-exposure-data.md).Vulnerability analysts and remediation owners can enter questions in plain language and receive comprehensive answers about all types of findings that include host, container, and test results vulnerabilities.
 
 </td><td>
 
@@ -55,7 +55,7 @@ Guardrails detector agentic workflow
 
 </td><td>
 
-[Manage potential AI exposures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-ai-security-exposure.md)Use the AI agent to ask about the guardrails that were identified by the AI skill component in the AI Guardrails Helper. Automatically defer findings with existing mitigations in the form of guardrails, or create exception rules to auto-defer future findings.
+[Manage potential AI exposures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/exploring-ai-security-exposure.md)Use the AI agent to ask about the guardrails that were identified by the AI skill component in the AI Guardrails Helper. Automatically defer findings with existing mitigations in the form of guardrails, or create exception rules to auto-defer future findings.
 
 </td><td>
 
@@ -71,7 +71,7 @@ Assess vulnerability exposure
 
 </td><td>
 
-[Assess your vulnerability exposure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/assess-exposure-vr-aiagent.md)-   Determine if your configuration items \(CIs\) and business services are exposed to known vulnerabilities.
+[Assess your vulnerability exposure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/assess-exposure-vr-aiagent.md)-   Determine if your configuration items \(CIs\) and business services are exposed to known vulnerabilities.
 -   Determine the potential impact that a specific vulnerability might have throughout your environment.
 -   Check CIs for any new Cybersecurity and Infrastructure Security Agency \(CISA\) exploitable \(zero-day\) vulnerabilities.
 -   Create watch topics in the Vulnerability Manager workspace to remediate vulnerable items.
@@ -92,7 +92,7 @@ Retrieve vulnerability and exposure data
 
 </td><td>
 
-[Retrieve Vulnerability and exposure data with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/retrieve-vr-data.md).Ask questions in natural language to help you quickly retrieve vulnerability and exposure data across legacy sources and Unified Security Exposure Management \(USEM\).
+[Retrieve Vulnerability and exposure data with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/retrieve-vr-data.md).Ask questions in natural language to help you quickly retrieve vulnerability and exposure data across legacy sources and Unified Security Exposure Management \(USEM\).
 
 </td><td>
 
@@ -108,7 +108,7 @@ Analyze vulnerability remediation status
 
 </td><td>
 
-[Analyze vulnerability remediation status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sla-targets-vr-aiagent.md)-   Gain insights into your compliance metrics and statistics for how well you're meeting remediation target dates on vulnerable item \(VIT\) records.
+[Analyze vulnerability remediation status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sla-targets-vr-aiagent.md)-   Gain insights into your compliance metrics and statistics for how well you're meeting remediation target dates on vulnerable item \(VIT\) records.
 -   View your monthly VIT record remediation totals and identify missed targets.
 -   Break down remediation data on VITs by **Severity**, **Assignment group**, **Configuration item**, and **Vulnerability** for your monthly Service Level Agreement \(SLA\) compliance reviews.
 
@@ -127,7 +127,7 @@ To modify an agentic workflow, you must first [duplicate the agentic workflow](h
 
 -   Activate the agentic workflow. The ServiceNow Otto for Unified Security Exposure Management AI agents included with the application are activated by default.
 -   If required, you can add a trigger to invoke the agentic workflow automatically.
--   See [Configure an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vr-acticvate-agentic-workflow.md) for more information.
+-   See [Configure an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vr-acticvate-agentic-workflow.md) for more information.
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

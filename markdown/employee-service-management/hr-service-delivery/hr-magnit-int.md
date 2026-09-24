@@ -2,7 +2,7 @@
 title: HR Service Delivery Integration with Magnit
 description: The ServiceNow HR Service Delivery Integration with Magnit application provides a seamless experience to track and manage onboarding activities of contingent workers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-magnit-int.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-magnit-int.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -36,15 +36,15 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/explore-magnit.md) \[Omitted image "bus-explore.svg"\] Alt text:Detailed information on the integration
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/explore-magnit.md) \[Omitted image "bus-explore.svg"\] Alt text:Detailed information on the integration
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-magnit.md) \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the application to get started
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-magnit.md) \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the application to get started
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-magnit.md) \[Omitted image "bus-learn.svg"\] Alt text:Get details about user roles, tables, default configurations
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-magnit.md) \[Omitted image "bus-learn.svg"\] Alt text:Get details about user roles, tables, default configurations
 
 </td></tr></tbody>
 </table>## Additional resources

@@ -2,7 +2,7 @@
 title: Push notification retention
 description: You can archive and eventually destroy push notifications that you no longer need or if your Push Notification table is excessively large.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/push-notification-retention.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/push-notification-retention.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -45,12 +45,12 @@ If you are already using another method for managing push notification records, 
 
 **Note:** For assistance replacing your existing record management implementation with push notification retention, contact your professional services or sales representative.
 
--   **[Activate the Push Retention plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-push-retention-plugin.md)**  
+-   **[Activate the Push Retention plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/activate-push-retention-plugin.md)**  
 The Push Retention plugin \(com.glide.push\_retention\) provides the retention policy for push notifications, so that you can specify when the system archives and destroys push notification records.
--   **[Archive push notifications manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archive-push-notification-manually.md)**  
+-   **[Archive push notifications manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/archive-push-notification-manually.md)**  
 You can manually archive push notifications on demand instead of waiting for the instance to archive them based on a scheduled job.
 
-**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md)
+**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_PushNotifications.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Purchase Order Exception
 description: Purchase order exceptions arise when a supplier cannot fulfill the agreed terms of a purchase order. Common causes include changes to delivery quantity or date, or a complete inability to fulfill the order. Operational buyers use the Purchase Order Management application to manage and resolve these exceptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/purchase-order-exception-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/purchase-order-exception-table.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-08"
@@ -33,12 +33,12 @@ The Purchase order exception \[sn\_poem\_exception\] table contains the followin
 |Requested by|Reference|User that submitted the exception.|
 |Primary contact|Reference|Main point of contact for resolving this exception on the buyer side.|
 
-**Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/master-data-tables-for-pom.md)
+**Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/master-data-tables-for-pom.md)
 
 **Related topics**  
 
 
-[View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-purch-order-exception.md)
+[View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/view-purch-order-exception.md)
 
-[Purchase order exception Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-details.md)
+[Purchase order exception Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purch-order-exception-details.md)
 

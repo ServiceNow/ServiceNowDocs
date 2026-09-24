@@ -2,7 +2,7 @@
 title: Set up Solution Configuration
 description: Solution configuration lets CPQ admins link multiple blueprints into a single, connected configuration session so that end users can work across related products without relaunching the configurator. Configurable product actions trigger child configurations automatically and can pass data between blueprints via field mappings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/solution-configuration-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/solution-configuration-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -49,23 +49,23 @@ Use the following topics to understand, set up, and work with solution configura
 
     Learn what solution configuration is, how it benefits administrators and end users, and how the bill of materials, layouts, and field mapping work.
 
--   **[Solution configuration terms and considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/solution_configuration_overview.md)**
+-   **[Solution configuration terms and considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/solution_configuration_overview.md)**
 
     Review key terminology, design limits, and field mapping rules before you start configuring.
 
--   **[Enable solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-solution-configuration.md)**
+-   **[Enable solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enable-solution-configuration.md)**
 
     Request environment enablement from Support and verify that configurable product actions are available in the admin.
 
--   **[Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-configurable-product-action.md)**
+-   **[Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-configurable-product-action.md)**
 
     Link a child blueprint to a parent blueprint so that a child configuration is created when the action's condition is met.
 
--   **[Define field mappings for a solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/define-field-mappings-sol-config.md)**
+-   **[Define field mappings for a solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/define-field-mappings-sol-config.md)**
 
     Pass field values from the parent blueprint to the child blueprint when a child configuration is created.
 
--   **[Node cloning for solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/node-cloning-for-solution-configuration.md)**
+-   **[Node cloning for solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/node-cloning-for-solution-configuration.md)**
 
     Duplicate an existing, valid configuration node in a set to use as the starting point for a new node, preserving its field values and child hierarchy.
 
@@ -104,5 +104,5 @@ When end users interact with a solution configuration, they experience a seamles
 **Related topics**  
 
 
-[Node cloning for solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/node-cloning-for-solution-configuration.md)
+[Node cloning for solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/node-cloning-for-solution-configuration.md)
 

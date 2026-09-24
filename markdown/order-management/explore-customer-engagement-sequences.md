@@ -2,7 +2,7 @@
 title: Customer Engagement Sequences
 description: Customer Engagement Sequences is a playbook that consists of a series of automated and manual activities that can be set up to engage with leads and customers at every stage of their relationship with your business​ through various channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/explore-customer-engagement-sequences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-customer-engagement-sequences.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -102,7 +102,7 @@ Users
 
 </td><td>
 
-[No-code interface to build customer engagement sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-customer-engagement-sequence.md)
+[No-code interface to build customer engagement sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-customer-engagement-sequence.md)
 
 </td><td>
 
@@ -114,7 +114,7 @@ Reduce duplicating sequence workflows by specifying multiple record-based trigge
 
 </td><td>
 
-[Define trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/define-trigger-conditions.md)
+[Define trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/define-trigger-conditions.md)
 
 </td><td>
 
@@ -126,7 +126,7 @@ Design telesales-oriented sequences using the schedule call activity, and enable
 
 </td><td>
 
-[Add a schedule call activity to a telesales workflow sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-schedule-call-activity.md)
+[Add a schedule call activity to a telesales workflow sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/add-schedule-call-activity.md)
 
 </td><td>
 
@@ -140,7 +140,7 @@ Sequence admin, sequence writer
 
 </td><td>
 
-[Predefined activities that align with business goals and outreach strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/execute-sequence-steps.md)
+[Predefined activities that align with business goals and outreach strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/execute-sequence-steps.md)
 
 </td><td>
 
@@ -152,7 +152,7 @@ Use the click-to-call capability to connect with prospective customers from the 
 
 </td><td>
 
-[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/complete-telesales-sequences.md)
+[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/complete-telesales-sequences.md)
 
 </td><td>
 
@@ -163,8 +163,8 @@ Sequence executor
 
 The following topics provide more information about configuring and using Customer Engagement Sequences:
 
--   [Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-customer-engagement-sequences.md)
--   [Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-engagement-sequences.md)
--   [Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-customer-engagement-sequences.md)
+-   [Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-customer-engagement-sequences.md)
+-   [Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-customer-engagement-sequences.md)
+-   [Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-customer-engagement-sequences.md)
 -   [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-workflow-studio.md)
 

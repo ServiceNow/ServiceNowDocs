@@ -2,7 +2,7 @@
 title: Pre-requisites to enable policy redlining feature
 description: Certain configurations are required to be set up for policy collaborators to use the policy redlining feature in the Compliance Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/pre-req-policy-redlining.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/pre-req-policy-redlining.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -83,7 +83,7 @@ Microsoft implies both Microsoft OneDrive and Microsoft SharePoint.
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Administration** &gt; **GRC properties**.
         1.  To opt Microsoft OneDrive as your cloud hosting service, select **One drive** in the **Select a file sharing service to host documents and attachments** system property list.
 
-            If you select **None** in the **Select a file sharing service to host documents and attachments** system property list, then you can import the policy text. For more information, see [Import policy text for redlining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/import-policy-text-redlining.md).
+            If you select **None** in the **Select a file sharing service to host documents and attachments** system property list, then you can import the policy text. For more information, see [Import policy text for redlining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/import-policy-text-redlining.md).
 
         2.  To opt Google Drive as your cloud hosting service, select **Google drive** in the **Select a file sharing service to host documents and attachments** system property list.
         3.  To opt Microsoft SharePoint, select **SharePoint** in the **Select a file sharing service to host documents and attachments** system property list.

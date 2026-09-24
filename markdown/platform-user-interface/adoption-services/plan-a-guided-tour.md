@@ -2,12 +2,12 @@
 title: Plan Guided Tours
 description: Planning is essential before entering a guided tour into the system. Create an outline and include any assumptions to assist you during the tour creation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/plan-a-guided-tour.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/plan-a-guided-tour.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Configure Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -49,7 +49,7 @@ When planning your tour, consider addressing the following additional questions:
 
 Triggers are actions that you take to move the tour to the next step. Each callout in a guided tour step has a specific trigger that activates the subsequent step. You define the trigger for each callout, and only relevant triggers appear based on the UI element referenced by the callout.
 
-For more information, see [GTD triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-triggers.md).
+For more information, see [GTD triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/guided-tour-triggers.md).
 
 ## Using callouts
 
@@ -76,5 +76,5 @@ Automatically start a tour if you want users to take the tour on their first vis
 
 You can choose to launch multiple tours automatically from a single starting page. You can set the auto-launch order so that users start the second tour on their second page visit, the third tour on their third page visit, and so on. Use this option if you want to begin with an introductory tour and then add more complex or focused follow-up tours.
 
-**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configure-guided-tours.md)
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/configure-guided-tours.md)
 

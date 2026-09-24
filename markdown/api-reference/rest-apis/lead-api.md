@@ -2,7 +2,7 @@
 title: lead API
 description: The lead API provides endpoints that enable you to create, update, and query/retrieve marketing leads and their associated lead line items from an instance.Retrieves all leads and associated lead line items based on the filter criteria passed in the query parameters.Returns the lead record and all associated lead line items for the specified sys\_id.Updates the specified lead record and its associated lead line items. You can also use this endpoint to associate new lead line items to the specified lead.Creates a lead record and its associated lead line items using the specified parameters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/lead-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/lead-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -28,15 +28,15 @@ You can extend the lead API by overriding the methods in its associated script i
 
 The following is a list of the script includes that you can override to change the behavior of the lead API:
 
--   [LeadAPIProcessUtilOOB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadAPIProcessUtilOOBAPI.md): Contains methods that handle the retrieval and creation of lead and lead line item records.
--   [LeadApiValidationUtilOOB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadAPIValidationUtilOOBAPI.md): Contains methods that validate the JSON request object for the POST and PATCH endpoints.
--   [LeadAPIHelperOOB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadAPIHelperOOBAPI.md): Contains API helper methods that:
+-   [LeadAPIProcessUtilOOB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadAPIProcessUtilOOBAPI.md): Contains methods that handle the retrieval and creation of lead and lead line item records.
+-   [LeadApiValidationUtilOOB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadAPIValidationUtilOOBAPI.md): Contains methods that validate the JSON request object for the POST and PATCH endpoints.
+-   [LeadAPIHelperOOB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadAPIHelperOOBAPI.md): Contains API helper methods that:
     -   Return an array of leads and related lead line items.
     -   Return a JSON object from the associated GlideRecord.
     -   Remove all ignored fields from a JSON object and perform other transformations.
 -   LeadAPIConstantsOOB: Contains constants, status codes, and messages for all API operations. It also includes the list of fields that are ignored by the POST and PATCH endpoints.
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## lead - GET /sn\_lead\_mgmt\_core/lead
 
@@ -53,7 +53,7 @@ Versioned URL: `/api/sn_lead_mgmt_core/{api_version}/lead`
 
 Default URL: `/api/sn_lead_mgmt_core/{api_version}/lead`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -143,7 +143,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -196,7 +196,7 @@ Total number of filtered records.
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -1558,7 +1558,7 @@ Versioned URL: `/api/sn_lead_mgmt_core/{api_version}/lead/{sys_id}`
 
 Default URL: `/api/sn_lead_mgmt_core/{api_version}/lead/{sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1599,7 +1599,7 @@ Table: Lead \[sn\_lead\_mgmt\_core\_lead\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1611,7 +1611,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2828,7 +2828,7 @@ Versioned URL: `/api/sn_lead_mgmt_core/{api_version}/lead/{sys_id}`
 
 Default URL: `/api/sn_lead_mgmt_core/{api_version}/lead/{sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -3455,7 +3455,7 @@ Zip code of the associated lead.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -3468,7 +3468,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -3537,7 +3537,7 @@ Description
 
 account
 
-</td><td id="d3790e67">
+</td><td id="d3640e67">
 
 Account linked to the lead.Data type: Object
 
@@ -3560,7 +3560,7 @@ Name of the account.Data type: String
 
 account.sys\_id
 
-</td><td id="d3790e91">
+</td><td id="d3640e91">
 
 Sys\_id of the associated account record.
 
@@ -3572,7 +3572,7 @@ Data type: String
 
 business\_phone
 
-</td><td id="d3790e108">
+</td><td id="d3640e108">
 
 Lead's business phone number.Data type: String
 
@@ -3580,7 +3580,7 @@ Lead's business phone number.Data type: String
 
 city
 
-</td><td id="d3790e119">
+</td><td id="d3640e119">
 
 City in which the lead resides.Data type: String
 
@@ -3623,7 +3623,7 @@ Format: UTC
 
 company
 
-</td><td id="d3790e171">
+</td><td id="d3640e171">
 
 Lead's company name.Data type: String
 
@@ -3654,7 +3654,7 @@ Name of the associated consumer.Data type: String
 
 consumer.sys\_id
 
-</td><td id="d3790e208">
+</td><td id="d3640e208">
 
 Sys\_id of the associated consumer record.
 
@@ -3689,7 +3689,7 @@ Contact's name.Data type: String
 
 contact.sys\_id
 
-</td><td id="d3790e250">
+</td><td id="d3640e250">
 
 Sys\_id of the associated contact record.
 
@@ -3701,7 +3701,7 @@ Data type: String
 
 country
 
-</td><td id="d3790e267">
+</td><td id="d3640e267">
 
 Country in which the lead resides.Data type: String
 
@@ -3709,7 +3709,7 @@ Country in which the lead resides.Data type: String
 
 do\_not\_call
 
-</td><td id="d3790e278">
+</td><td id="d3640e278">
 
 Flag that indicates whether the mode of communication is by phone.
 
@@ -3724,7 +3724,7 @@ Data type: Boolean
 
 do\_not\_email
 
-</td><td id="d3790e303">
+</td><td id="d3640e303">
 
 Flag that indicates whether the mode of communication is by email.
 
@@ -3739,7 +3739,7 @@ Data type: Boolean
 
 do\_not\_share
 
-</td><td id="d3790e327">
+</td><td id="d3640e327">
 
 Flag that indicates whether the lead details can be shared.
 
@@ -3754,7 +3754,7 @@ Data type: Boolean
 
 email
 
-</td><td id="d3790e351">
+</td><td id="d3640e351">
 
 Lead's email address.Data type: String
 
@@ -3762,7 +3762,7 @@ Lead's email address.Data type: String
 
 external\_id
 
-</td><td id="d3790e362">
+</td><td id="d3640e362">
 
 ID used by the system that generated the lead to identify the lead in the associated system.Data type: String
 
@@ -3770,7 +3770,7 @@ ID used by the system that generated the lead to identify the lead in the associ
 
 external\_system
 
-</td><td id="d3790e373">
+</td><td id="d3640e373">
 
 Name of the external system associated with the lead, such as HubSpot or pipedrive.Data type: String
 
@@ -3778,7 +3778,7 @@ Name of the external system associated with the lead, such as HubSpot or pipedri
 
 first\_name
 
-</td><td id="d3790e384">
+</td><td id="d3640e384">
 
 First name of the contact associated with the lead.Data type: String
 
@@ -3786,7 +3786,7 @@ First name of the contact associated with the lead.Data type: String
 
 industry
 
-</td><td id="d3790e396">
+</td><td id="d3640e396">
 
 Industry to which the lead belongs.Data type: String
 
@@ -3831,7 +3831,7 @@ Lead group's name.Data type: String
 
 lead\_group.sys\_id
 
-</td><td id="d3790e454">
+</td><td id="d3640e454">
 
 Sys\_id of the lead group record.Data type: String
 
@@ -3873,7 +3873,7 @@ Details of the lead line items associated with the lead.Data type: Array of Obje
 
 lead\_line\_items.​external\_id
 
-</td><td id="d3790e481">
+</td><td id="d3640e481">
 
 ID used by the system that generated the lead line item to identify the line item in the associated system.Data type: String
 
@@ -3881,7 +3881,7 @@ ID used by the system that generated the lead line item to identify the line ite
 
 lead\_line\_items.​external\_system
 
-</td><td id="d3790e492">
+</td><td id="d3640e492">
 
 Name of the external system associated with the lead line item, such as HubSpot or pipedrive.Data type: String
 
@@ -4185,7 +4185,7 @@ Date that the note was created.Data type: String
 
 lead\_line\_items.​work\_notes.​text
 
-</td><td id="d3790e862">
+</td><td id="d3640e862">
 
 Text of the note made by the author.Data type: String
 
@@ -4193,7 +4193,7 @@ Text of the note made by the author.Data type: String
 
 lead\_rating
 
-</td><td id="d3790e873">
+</td><td id="d3640e873">
 
 Rating for the lead such as, 100\_cold, 200\_warm, 300\_hot, or 400\_super\_hot.**Note:** This is a choice field. It must contain one of the choice items defined in the lead\_rating field of the Leads table.
 
@@ -4203,7 +4203,7 @@ Data type: String
 
 lead\_score
 
-</td><td id="d3790e886">
+</td><td id="d3640e886">
 
 Score for the lead.Data type: Decimal
 
@@ -4213,7 +4213,7 @@ Range: 1 to 100
 
 lead\_source
 
-</td><td id="d3790e899">
+</td><td id="d3640e899">
 
 Originator of the lead.**Note:** This is a choice field. It must contain one of the choice items defined in the lead\_source field of the Leads table.
 
@@ -4223,7 +4223,7 @@ Data type: String
 
 lead\_type
 
-</td><td id="d3790e912">
+</td><td id="d3640e912">
 
 Type of lead, such as New Business or Existing Business.
 
@@ -4235,7 +4235,7 @@ Type of lead, such as New Business or Existing Business.
 
 middle\_name
 
-</td><td id="d3790e930">
+</td><td id="d3640e930">
 
 Middle name of the contact for the lead.Data type: String
 
@@ -4243,7 +4243,7 @@ Middle name of the contact for the lead.Data type: String
 
 mobile\_phone
 
-</td><td id="d3790e942">
+</td><td id="d3640e942">
 
 Phone number of the contact for the lead.Data type: String
 
@@ -4259,7 +4259,7 @@ Unique system-generated number of the lead record.Data type: String
 
 other\_reason
 
-</td><td id="d3790e964">
+</td><td id="d3640e964">
 
 Additional reason for the lead disqualification.Data type: String
 
@@ -4294,7 +4294,7 @@ Name of the person that owns the lead.Data type: String
 
 owner.sys\_id
 
-</td><td id="d3790e1005">
+</td><td id="d3640e1005">
 
 Sys\_id of the user record of the person that owns the lead.Data type: String
 
@@ -4304,7 +4304,7 @@ Table: User \[sys\_user\]
 
 reason
 
-</td><td id="d3790e1019">
+</td><td id="d3640e1019">
 
 Reason for the lead disqualification such as, Disqualify.Data type: String
 
@@ -4314,7 +4314,7 @@ Max length: 40 characters
 
 short\_description
 
-</td><td id="d3790e1032">
+</td><td id="d3640e1032">
 
 Short description of the lead.Data type: String
 
@@ -4349,7 +4349,7 @@ Name of the duplicate lead.Data type: String
 
 similar\_lead.sys\_id
 
-</td><td id="d3790e1073">
+</td><td id="d3640e1073">
 
 Sys\_id of the lead record that is a possible duplicate lead.Data type: String
 
@@ -4359,7 +4359,7 @@ Table: Lead \[sn\_lead\_mgmt\_core\_lead\]
 
 stage
 
-</td><td id="d3790e1086">
+</td><td id="d3640e1086">
 
 Stage of the lead such as, 100\_new.
 
@@ -4371,7 +4371,7 @@ Data type: String
 
 state
 
-</td><td id="d3790e1103">
+</td><td id="d3640e1103">
 
 State in which the lead resides.Data type: String
 
@@ -4379,7 +4379,7 @@ State in which the lead resides.Data type: String
 
 street
 
-</td><td id="d3790e1114">
+</td><td id="d3640e1114">
 
 Street on which the lead resides.Data type: String
 
@@ -4527,7 +4527,7 @@ Format: UTC
 
 title
 
-</td><td id="d3790e1299">
+</td><td id="d3640e1299">
 
 Lead's title.Data type: String
 
@@ -4535,7 +4535,7 @@ Lead's title.Data type: String
 
 website
 
-</td><td id="d3790e1310">
+</td><td id="d3640e1310">
 
 Lead's website URL.Data type: String
 
@@ -4579,7 +4579,7 @@ Date that the note was created.Data type: String
 
 work\_notes.​text
 
-</td><td id="d3790e1361">
+</td><td id="d3640e1361">
 
 Text of the note made by the author.Data type: String
 
@@ -4587,7 +4587,7 @@ Text of the note made by the author.Data type: String
 
 zip
 
-</td><td id="d3790e1372">
+</td><td id="d3640e1372">
 
 Zip code of the associated lead.Data type: String
 
@@ -4795,7 +4795,7 @@ Versioned URL: `/api/sn_lead_mgmt_core/{api_version}/lead`
 
 Default URL: `/api/sn_lead_mgmt_core/{api_version}/lead`
 
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -5426,7 +5426,7 @@ Zip code of the associated lead.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -5438,7 +5438,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -5498,7 +5498,7 @@ Description
 
 account
 
-</td><td id="d3790e67">
+</td><td id="d3640e67">
 
 Account linked to the lead.Data type: Object
 
@@ -5521,7 +5521,7 @@ Name of the account.Data type: String
 
 account.sys\_id
 
-</td><td id="d3790e91">
+</td><td id="d3640e91">
 
 Sys\_id of the associated account record.
 
@@ -5533,7 +5533,7 @@ Data type: String
 
 business\_phone
 
-</td><td id="d3790e108">
+</td><td id="d3640e108">
 
 Lead's business phone number.Data type: String
 
@@ -5541,7 +5541,7 @@ Lead's business phone number.Data type: String
 
 city
 
-</td><td id="d3790e119">
+</td><td id="d3640e119">
 
 City in which the lead resides.Data type: String
 
@@ -5584,7 +5584,7 @@ Format: UTC
 
 company
 
-</td><td id="d3790e171">
+</td><td id="d3640e171">
 
 Lead's company name.Data type: String
 
@@ -5615,7 +5615,7 @@ Name of the associated consumer.Data type: String
 
 consumer.sys\_id
 
-</td><td id="d3790e208">
+</td><td id="d3640e208">
 
 Sys\_id of the associated consumer record.
 
@@ -5650,7 +5650,7 @@ Contact's name.Data type: String
 
 contact.sys\_id
 
-</td><td id="d3790e250">
+</td><td id="d3640e250">
 
 Sys\_id of the associated contact record.
 
@@ -5662,7 +5662,7 @@ Data type: String
 
 country
 
-</td><td id="d3790e267">
+</td><td id="d3640e267">
 
 Country in which the lead resides.Data type: String
 
@@ -5715,7 +5715,7 @@ Data type: Boolean
 
 email
 
-</td><td id="d3790e351">
+</td><td id="d3640e351">
 
 Lead's email address.Data type: String
 
@@ -5723,7 +5723,7 @@ Lead's email address.Data type: String
 
 external\_id
 
-</td><td id="d3790e362">
+</td><td id="d3640e362">
 
 ID used by the system that generated the lead to identify the lead in the associated system.Data type: String
 
@@ -5731,7 +5731,7 @@ ID used by the system that generated the lead to identify the lead in the associ
 
 external\_system
 
-</td><td id="d3790e373">
+</td><td id="d3640e373">
 
 Name of the external system associated with the lead, such as HubSpot or pipedrive.Data type: String
 
@@ -5739,7 +5739,7 @@ Name of the external system associated with the lead, such as HubSpot or pipedri
 
 first\_name
 
-</td><td id="d3790e384">
+</td><td id="d3640e384">
 
 First name of the contact associated with the lead.Data type: String
 
@@ -5747,7 +5747,7 @@ First name of the contact associated with the lead.Data type: String
 
 industry
 
-</td><td id="d3790e396">
+</td><td id="d3640e396">
 
 Industry to which the lead belongs.Data type: String
 
@@ -5792,7 +5792,7 @@ Lead group's name.Data type: String
 
 lead\_group.sys\_id
 
-</td><td id="d3790e454">
+</td><td id="d3640e454">
 
 Sys\_id of the lead group record.Data type: String
 
@@ -5834,7 +5834,7 @@ Details of the lead line items associated with the lead.Data type: Array of Obje
 
 lead\_line\_items.​external\_id
 
-</td><td id="d3790e481">
+</td><td id="d3640e481">
 
 ID used by the system that generated the lead line item to identify the line item in the associated system.Data type: String
 
@@ -5842,7 +5842,7 @@ ID used by the system that generated the lead line item to identify the line ite
 
 lead\_line\_items.​external\_system
 
-</td><td id="d3790e492">
+</td><td id="d3640e492">
 
 Name of the external system associated with the lead line item, such as HubSpot or pipedrive.Data type: String
 
@@ -6100,7 +6100,7 @@ Name of the measuring unit such as, each or cubic foot.Data type: String
 
 lead\_line\_items.​unit\_of\_measurement.​sys\_id
 
-</td><td id="d3790e809">
+</td><td id="d3640e809">
 
 Sys\_id of the record that describes the measuring unit.Data type: String
 
@@ -6146,7 +6146,7 @@ Date that the note was created.Data type: String
 
 lead\_line\_items.​work\_notes.​text
 
-</td><td id="d3790e862">
+</td><td id="d3640e862">
 
 Text of the note made by the author.Data type: String
 
@@ -6154,7 +6154,7 @@ Text of the note made by the author.Data type: String
 
 lead\_rating
 
-</td><td id="d3790e873">
+</td><td id="d3640e873">
 
 Rating for the lead such as, 100\_cold, 200\_warm, 300\_hot, or 400\_super\_hot.**Note:** This is a choice field. It must contain one of the choice items defined in the lead\_rating field of the Leads table.
 
@@ -6164,7 +6164,7 @@ Data type: String
 
 lead\_score
 
-</td><td id="d3790e886">
+</td><td id="d3640e886">
 
 Score for the lead.Data type: Decimal
 
@@ -6174,7 +6174,7 @@ Range: 1 to 100
 
 lead\_source
 
-</td><td id="d3790e899">
+</td><td id="d3640e899">
 
 Originator of the lead.**Note:** This is a choice field. It must contain one of the choice items defined in the lead\_source field of the Leads table.
 
@@ -6184,7 +6184,7 @@ Data type: String
 
 lead\_type
 
-</td><td id="d3790e912">
+</td><td id="d3640e912">
 
 Type of lead, such as New Business or Existing Business.
 
@@ -6196,7 +6196,7 @@ Type of lead, such as New Business or Existing Business.
 
 middle\_name
 
-</td><td id="d3790e930">
+</td><td id="d3640e930">
 
 Middle name of the contact for the lead.Data type: String
 
@@ -6204,7 +6204,7 @@ Middle name of the contact for the lead.Data type: String
 
 mobile\_phone
 
-</td><td id="d3790e942">
+</td><td id="d3640e942">
 
 Phone number of the contact for the lead.Data type: String
 
@@ -6220,7 +6220,7 @@ Unique system-generated number of the lead record.Data type: String
 
 other\_reason
 
-</td><td id="d3790e964">
+</td><td id="d3640e964">
 
 Additional reason for the lead disqualification.Data type: String
 
@@ -6255,7 +6255,7 @@ Name of the person that owns the lead.Data type: String
 
 owner.sys\_id
 
-</td><td id="d3790e1005">
+</td><td id="d3640e1005">
 
 Sys\_id of the user record of the person that owns the lead.Data type: String
 
@@ -6265,7 +6265,7 @@ Table: User \[sys\_user\]
 
 reason
 
-</td><td id="d3790e1019">
+</td><td id="d3640e1019">
 
 Reason for the lead disqualification such as, Disqualify.Data type: String
 
@@ -6275,7 +6275,7 @@ Max length: 40 characters
 
 short\_description
 
-</td><td id="d3790e1032">
+</td><td id="d3640e1032">
 
 Short description of the lead.Data type: String
 
@@ -6310,7 +6310,7 @@ Name of the duplicate lead.Data type: String
 
 similar\_lead.sys\_id
 
-</td><td id="d3790e1073">
+</td><td id="d3640e1073">
 
 Sys\_id of the lead record that is a possible duplicate lead.Data type: String
 
@@ -6332,7 +6332,7 @@ Data type: String
 
 state
 
-</td><td id="d3790e1103">
+</td><td id="d3640e1103">
 
 State in which the lead resides.Data type: String
 
@@ -6340,7 +6340,7 @@ State in which the lead resides.Data type: String
 
 street
 
-</td><td id="d3790e1114">
+</td><td id="d3640e1114">
 
 Street on which the lead resides.Data type: String
 
@@ -6488,7 +6488,7 @@ Format: UTC
 
 title
 
-</td><td id="d3790e1299">
+</td><td id="d3640e1299">
 
 Lead's title.Data type: String
 
@@ -6496,7 +6496,7 @@ Lead's title.Data type: String
 
 website
 
-</td><td id="d3790e1310">
+</td><td id="d3640e1310">
 
 Lead's website URL.Data type: String
 
@@ -6540,7 +6540,7 @@ Date that the note was created.Data type: String
 
 work\_notes.​text
 
-</td><td id="d3790e1361">
+</td><td id="d3640e1361">
 
 Text of the note made by the author.Data type: String
 
@@ -6548,7 +6548,7 @@ Text of the note made by the author.Data type: String
 
 zip
 
-</td><td id="d3790e1372">
+</td><td id="d3640e1372">
 
 Zip code of the associated lead.Data type: String
 

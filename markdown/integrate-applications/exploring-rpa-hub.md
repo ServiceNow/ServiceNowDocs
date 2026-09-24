@@ -2,7 +2,7 @@
 title: Exploring RPA Hub
 description: Learn about the RPA Hub features that enable you to govern, manage, and supervise your digital workforce.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/exploring-rpa-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/exploring-rpa-hub.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ By using multi-tenancy, you can create logical partitions to effectively manage 
 
 ## RPA Hub workflow
 
-The following illustration describes the basic tasks involved in creating an attended or unattended automation using RPA Hub. For detailed instructions, see [Configuring RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-setup.md).
+The following illustration describes the basic tasks involved in creating an attended or unattended automation using RPA Hub. For detailed instructions, see [Configuring RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-setup.md).
 
 \[Omitted image "rpa-hub-workflow-diagram.png"\] Alt text: Basic tasks related to configuring bot process. Infographic showing how release managers and developers create, test, and publish bot processes and how RPA support user manages bot process.
 
@@ -43,7 +43,7 @@ The following illustration describes the basic tasks involved in creating an att
 ## RPA Hub benefits
 
 -   Enables you to deploy, monitor, manage, and verify the compliance of all robots at an enterprise level from a centralized location.
--   Manages the metadata that includes robots, packages, bot processes, queues, schedules, shared parameters, and alerts. For more information about these terms, see [Robotic Process Automation \(RPA\) Hub glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-glossary.md).
+-   Manages the metadata that includes robots, packages, bot processes, queues, schedules, shared parameters, and alerts. For more information about these terms, see [Robotic Process Automation \(RPA\) Hub glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-glossary.md).
 -   Triggers unattended robots with the execution details.
 -   Provides insights into the complete Robotic Process Automation \(RPA\) practice via a dashboard. From this dashboard, you can see the current execution status \(jobs and queues\) and event correlation between the various configuration items.
 
@@ -51,24 +51,24 @@ The following illustration describes the basic tasks involved in creating an att
 
 To learn more about configuring and managing RPA Hub, see:
 
--   [Configuring RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-setup.md)
--   [Using RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-rpa-hub.md)
--   [RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-reference.md)
+-   [Configuring RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-setup.md)
+-   [Using RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-rpa-hub.md)
+-   [RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-reference.md)
 
 **Related topics**  
 
 
-[Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-international-language-support.md)
+[Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-international-language-support.md)
 
-[Restructuring RPA Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/restructured-rpa-hub-tables-utah.md)
+[Restructuring RPA Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/restructured-rpa-hub-tables-utah.md)
 
-[Migrating your data from a lower environment to a higher environment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/migrate-data-rpa-hub.md)
+[Migrating your data from a lower environment to a higher environment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/migrate-data-rpa-hub.md)
 
-[Obtaining client authentication and code signing certificates for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-signing-certificate-rpa.md)
+[Obtaining client authentication and code signing certificates for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/code-signing-certificate-rpa.md)
 
-[Applying the CSDM guidelines to RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-apply-csdm.md)
+[Applying the CSDM guidelines to RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-apply-csdm.md)
 
-[Domain separation and Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/domain-separation-rpahub.md)
+[Domain separation and Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/domain-separation-rpahub.md)
 
-[Migrating the bot process configuration in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/bot-process-migration.md)
+[Migrating the bot process configuration in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/bot-process-migration.md)
 

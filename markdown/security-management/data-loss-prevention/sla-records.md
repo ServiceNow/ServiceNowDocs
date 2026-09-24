@@ -2,7 +2,7 @@
 title: Create a Data Loss Prevention Incident Response SLA trigger
 description: Create a Data Loss Prevention Incident Response SLA trigger condition that enables a prompt and efficient response to an incident when triggered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/sla-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/sla-records.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -47,7 +47,7 @@ Role required:
 
 Once a task SLA record for a Data Loss Prevention Incident Response incident is created, the SLA records tab becomes visible for that particular incident in the workspace. This tab enables you to use an SLA system for your organization's task.
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Live Feed table notification examples
 description: The following examples demonstrate how to set up different types of table notifications that are useful for Live Feed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_LFTableNotifiExamples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/c\_LFTableNotifiExamples.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -16,16 +16,16 @@ breadcrumb: [Live Feed table notifications, Administering Live Feed, Live Feed C
 
 The following examples demonstrate how to set up different types of table notifications that are useful for Live Feed.
 
--   **[Workaround posted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_Example1WorkaroundPosted.md)**  
+-   **[Workaround posted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_Example1WorkaroundPosted.md)**  
 This example demonstrates a table notification that generates an automatic message on Live Feed whenever a workaround is added to an open problem.
--   **[Problem resolved \(advanced\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_Example2ProblemResolvedAdvanced.md)**  
+-   **[Problem resolved \(advanced\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_Example2ProblemResolvedAdvanced.md)**  
 This advanced example demonstrates a table notification that generates an automatic message on Live Feed whenever a problem is closed.
--   **[Opportunity won \(non-task\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_Example3OpportunityWonNonTask.md)**  
+-   **[Opportunity won \(non-task\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_Example3OpportunityWonNonTask.md)**  
 This example demonstrates a table notification on a non-task table. It generates an automatic message on Live Feed whenever a sales opportunity is won, if you have activated the Sales Force Automation plugin.
--   **[Related feeds table notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_Example4RelatedFeeds.md)**  
+-   **[Related feeds table notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_Example4RelatedFeeds.md)**  
 This example demonstrates table notifications to be sent out to related feeds.
 
-**Parent Topic:**[Live Feed table notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_SetUpLiveFeedTableNotifications.md)
+**Parent Topic:**[Live Feed table notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_SetUpLiveFeedTableNotifications.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Agent Client Collector Spoke
 description: Automate the process of executing commands on agents or configuration items \(CI\) using the ServiceNow Agent Client Collector spoke. Agent Client Collector framework allows you to execute commands on the systems where it is installed and sends output data to the ServiceNow instance through the MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/acc-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/acc-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -163,11 +163,11 @@ Installs Agent Client Collector framework on windows host.
 </td></tr></tbody>
 </table>**Note:** To use the Install Agent on Linux and Install Agent on Windows spoke actions, navigate to **Agent Client Collector Spoke** &gt; **CIDR Ranges**, create a record to specify the required IP address or range of IP addresses.
 
-For information about setting up the spoke, see [Set up the Agent Client Collector spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-acc.md).
+For information about setting up the spoke, see [Set up the Agent Client Collector spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-acc.md).
 
 ## MID Server requirements
 
-To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md). For more information about the MID Server, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integration-steps.md). For more information about the MID Server, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

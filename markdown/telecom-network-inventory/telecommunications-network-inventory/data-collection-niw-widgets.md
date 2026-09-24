@@ -2,7 +2,7 @@
 title: Data collection and refresh for the Network Inventory Workspace widgets
 description: Learn how the Telecommunications Network Inventory data that appears on the Network Inventory Workspace landing page is collected and refreshed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/data-collection-niw-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/data-collection-niw-widgets.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -24,14 +24,14 @@ Each landing page section, or widget, has a Configuration Management Database \(
 
 The CMDB Groups table contains the Component Item \(CI\) records on which the count totals in each landing page widget are based. When the scheduled job runs on the CMDB Group database, it performs the following actions:
 
-1.  Evaluates the query condition that is stated in the CMDB group and then collects the count data. Administrative users with certain assigned roles can define and apply the specific conditions that it uses for these queries to collect the count data for the landing page. To learn more, see [Customizing the content in your Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customizing-content-in-your-network-inventory-workspace-widgets.md).
+1.  Evaluates the query condition that is stated in the CMDB group and then collects the count data. Administrative users with certain assigned roles can define and apply the specific conditions that it uses for these queries to collect the count data for the landing page. To learn more, see [Customizing the content in your Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/customizing-content-in-your-network-inventory-workspace-widgets.md).
 2.  Generates records in the CMDB Group Metadata \[sn\_cmdb\_ws\_group\_metadata\] table.
 3.  By using the collected data in the CMDB Group Metadata table, it refreshes each count that appears on the landing page.
 
-**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 
 **Related topics**  
 
 
-[Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-network-inventory-workspace.md)
+[Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/exploring-network-inventory-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Digital End-User Experience remedial actions
 description: ServiceNow Digital End-User Experience \(DEX\) provides base system remedial actions to resolve issues on DEX monitored devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-diff-ra.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/dex-diff-ra.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -690,5 +690,5 @@ Enforce software compliance remotely at scale by removing unauthorized or redund
     -   $HOME/Library/Caches/Homebrew/\*/ = Homebrew package download cache in subdirectories \(if Homebrew is installed\)
     -   /tmp/\*/ = temporary files older than 3 days
 
-**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

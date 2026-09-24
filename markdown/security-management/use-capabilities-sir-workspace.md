@@ -2,7 +2,7 @@
 title: Use capabilities in SIR Workspace
 description: Use the capabilities created using ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit in the SIR Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/use-capabilities-sir-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/use-capabilities-sir-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

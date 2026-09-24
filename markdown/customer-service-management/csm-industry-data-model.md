@@ -2,7 +2,7 @@
 title: Service Model Foundation overview
 description: The Customer Service Management \(CSM\) application includes the Service Model Foundation framework, formerly named Industry Data Model, which enables you to model the business organization structure, customer organizations, and relations between them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-industry-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-industry-data-model.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Configure Service Model Foundation, Data models, Set up your enviro
 
 The Customer Service Management \(CSM\) application includes the Service Model Foundation framework, formerly named Industry Data Model, which enables you to model the business organization structure, customer organizations, and relations between them.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 The Service Model Foundation framework expands the Customer Service Management \(CSM\) data model, including the Install base model. It's a core framework that enables the configuration of all the above entities and is highly flexible to enable support for various industries. It covers all organization entities, like company, service organization, internal/external organizations \(formerly internal/external business locations\), departments, divisions, business units, and outsourced service provider entities. It’s designed to support various industries such as banking, insurance, government, healthcare, manufacturing, retail, and the public sector.
 
@@ -42,9 +42,9 @@ Use the Service Model Foundation framework to model the service organization str
 **Related topics**  
 
 
-[Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md)
+[Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-industry-data-model.md)
 
-[Service Model Foundation business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/industry-data-model-locations.md)
+[Service Model Foundation business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/industry-data-model-locations.md)
 
-[Integration with Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/integration-with-sales-and-order-management.md)
+[Integration with Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/integration-with-sales-and-order-management.md)
 

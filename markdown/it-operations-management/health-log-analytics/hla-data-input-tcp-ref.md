@@ -2,7 +2,7 @@
 title: TCP data input configuration fields
 description: Description of the fields on the TCP data input configuration form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-tcp-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-tcp-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -292,5 +292,5 @@ The line break character separating the raw log lines.Splitting values must be s
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

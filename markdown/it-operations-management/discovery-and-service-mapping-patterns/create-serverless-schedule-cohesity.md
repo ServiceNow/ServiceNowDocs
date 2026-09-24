@@ -2,7 +2,7 @@
 title: Create a serverless schedule for Cohesity storage system discovery
 description: Create a serverless discovery schedule to discover Cohesity storage systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-cohesity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-cohesity.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -19,7 +19,7 @@ Create a serverless discovery schedule to discover Cohesity storage systems.
 ## Before you begin
 
 -   Verify the MID Server is set to Active and is reachable to Cohesity storage cluster.
--   Create an alias for the basic authentication credential. For more information, see [Create an alias for a basic authentication credential for Cohesity storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-cohesity.md).
+-   Create an alias for the basic authentication credential. For more information, see [Create an alias for a basic authentication credential for Cohesity storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-cohesity.md).
 
 Role required: discovery\_admin
 
@@ -80,5 +80,5 @@ Either execute discovery immediately by selecting **Discover now** or wait until
 **Related topics**  
 
 
-[Cohesity storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/cohesity-storage-system-discovery.md)
+[Cohesity storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/cohesity-storage-system-discovery.md)
 

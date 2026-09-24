@@ -2,7 +2,7 @@
 title: Show rollup pricing in the shopping cart
 description: Configure the shopping cart to display the sum of the child items as the price of the parent item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/display-rollup-pricing-in-the-shopping-cart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/display-rollup-pricing-in-the-shopping-cart.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -57,9 +57,9 @@ The next example shows a 2-tier roll-up, with a child product \(child1B and chil
 **Related topics**  
 
 
-[Customizing the currency display in the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_how_do_i_customize_currency_display_in_shopping_cart.md)
+[Customizing the currency display in the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_how_do_i_customize_currency_display_in_shopping_cart.md)
 
-[How price is displayed on a layout with multiple BOMs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/how_does_pricing_on_multiple_boms_displayed_on_a_layout_behave.md)
+[How price is displayed on a layout with multiple BOMs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/how_does_pricing_on_multiple_boms_displayed_on_a_layout_behave.md)
 
 [Set a custom message for zero-priced and null-priced items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

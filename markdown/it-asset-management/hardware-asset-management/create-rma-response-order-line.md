@@ -2,7 +2,7 @@
 title: Create an RMA response order line
 description: Create a Return Merchandise Authorization \(RMA\) response order line for every asset in an RMA response order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-rma-response-order-line.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-rma-response-order-line.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -131,5 +131,5 @@ Notes about the task that are visible to all users within your organization.
 
 ## What to do next
 
-[Assess the RMA asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/assess-rma.md).
+[Assess the RMA asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/assess-rma.md).
 

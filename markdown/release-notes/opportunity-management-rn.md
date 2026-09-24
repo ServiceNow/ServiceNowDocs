@@ -2,7 +2,7 @@
 title: Opportunity Management release notes
 description: The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/opportunity-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/opportunity-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-07-22"
@@ -40,7 +40,7 @@ See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/Servic
     Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
 
 ## August 2026
 
